@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "management-world-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at 《管理世界》, the top management / applied-economics journal in China.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "management-world-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Eleven-skill bundle covering the 《管理世界》 manuscript lifecycle: workflow router, China-context topic selection, literature review, identification, institutional background, mechanism / heterogeneity, tables and figures, policy implications, submission preflight, R&R rebuttal, and post-acceptance data-and-code replication package.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/management-world-skills",
+      "repository": "https://github.com/brycewang-stanford/management-world-skills",
+      "keywords": [
+        "management-world",
+        "guanli-shijie",
+        "cssci",
+        "china",
+        "causal-inference",
+        "policy-evaluation",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/mw-workflow",
+        "skills/mw-topic-selection",
+        "skills/mw-literature-review",
+        "skills/mw-identification",
+        "skills/mw-institutional-background",
+        "skills/mw-mechanism-heterogeneity",
+        "skills/mw-tables-figures",
+        "skills/mw-policy-implication",
+        "skills/mw-submission",
+        "skills/mw-rebuttal",
+        "skills/mw-replication"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "economic-research-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at 《经济研究》, the top economics journal in China.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "economic-research-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Ten-skill bundle covering the 《经济研究》 manuscript lifecycle: workflow router, topic selection, literature review, identification, mechanism, heterogeneity, tables / figures, policy implications, submission preflight, and R&R rebuttal.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/economic-research-skills",
+      "repository": "https://github.com/brycewang-stanford/economic-research-skills",
+      "keywords": [
+        "economic-research",
+        "jingji-yanjiu",
+        "cssci",
+        "china",
+        "causal-inference",
+        "macroeconomics",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/er-workflow",
+        "skills/er-topic-selection",
+        "skills/er-literature-review",
+        "skills/er-identification",
+        "skills/er-mechanism",
+        "skills/er-heterogeneity",
+        "skills/er-tables-figures",
+        "skills/er-policy-implication",
+        "skills/er-submission",
+        "skills/er-rebuttal"
+      ]
+    }
+  ]
+}
