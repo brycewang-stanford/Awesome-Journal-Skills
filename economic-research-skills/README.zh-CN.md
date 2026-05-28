@@ -81,6 +81,10 @@ er-tables-figures
         ▼
 er-policy-implication
         ▼
+er-abstract      （polish）
+        ▼
+er-style         （polish）
+        ▼
 er-submission
         ▼
 er-rebuttal
@@ -90,20 +94,28 @@ er-rebuttal
 
 ---
 
-## 十个 Skill 一览
+## Skill 一览
 
 | Skill                     | 用途                                  |
 |--------------------------|------------------------------------|
 | `er-workflow`             | 路由器：判断当前阶段，推荐下一个 skill     |
 | `er-topic-selection`      | 选题 + 理论贡献定位 + 边际贡献四句式      |
-| `er-literature-review`    | 中英文献并重 + 理论文献必引清单          |
+| `er-literature-review`    | 中英文献并重 + 理论文献必引 + 对话式综述  |
 | `er-identification`       | 准实验设计（DID / IV / RDD / DML）       |
 | `er-mechanism`            | 机制分析三种主流路径与写作模板            |
 | `er-heterogeneity`        | 异质性切分五维度优先级                    |
-| `er-tables-figures`       | 三线表、注释规范、图形美学                |
+| `er-tables-figures`       | 三线表、变量定义表、图形美学              |
 | `er-policy-implication`   | 政策含义（《经济研究》偏意义层面而非操作）  |
-| `er-submission`           | 投稿 checklist：格式、字数、双盲、查重    |
+| `er-abstract`             | 摘要五句法（约 300 字） + 黑名单短语清除  |
+| `er-style`                | 全文语言 polish：空话套话 → 具体贡献      |
+| `er-submission`           | 投稿 checklist + 稿件模板（格式、字数、双盲、查重）|
 | `er-rebuttal`             | 修改回复信结构（致谢 → 逐条 → 修订对照） |
+
+### 附属资源
+
+- [`skills/er-submission/templates/manuscript_template.md`](skills/er-submission/templates/manuscript_template.md) —— 稿件结构骨架（中英摘要、变量定义表、参考文献格式）
+- [`skills/er-submission/templates/checklist.md`](skills/er-submission/templates/checklist.md) —— 投稿前 8 类自检清单
+- [`resources/external_tools.md`](resources/external_tools.md) —— 数据资源（CSMAR / Wind / CNRDS / CFPS / CHARLS 等）+ Stata / Python / R 包速查
 
 ---
 
