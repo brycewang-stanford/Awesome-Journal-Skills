@@ -84,15 +84,28 @@ A one-size-fits-all "economics writing" skill cannot encode these differences. E
 <sub><b>Count methodology.</b> The homepage <b>353</b> = every <code>SKILL.md</code> minus the 9 duplicated Nature plugin-mirror files. Both the breadth bundle and the standalone depth packs are counted, so the 12 flagship Chinese venues covered both ways are counted in both forms. Reconciliation: 145 (12 CN depth) + 103 (CN bundle) + 9 (AER) + 27 (Nature family) + 69 (toolkits) = 353.</sub>
 
 <p align="center">
-  <a href="Economic-Research-Journal-Skills/"><img src="Economic-Research-Journal-Skills/assets/cover.jpg" alt="《经济研究》 journal cover" width="200"></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="Journal-of-Management-World-Skills/"><img src="Journal-of-Management-World-Skills/assets/cover.jpg" alt="《管理世界》 journal cover" width="200"></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="nature-skills/"><img src="assets/nature-cover.jpg" alt="Nature journal cover (illustration © Inna-Marie Strazhnik, 2019)" width="200"></a>
+  <a href="Economic-Research-Journal-Skills/"><img src="assets/covers/economic-research.png" alt="《经济研究》 Economic Research" width="116"></a>
+  <a href="Journal-of-Management-World-Skills/"><img src="assets/covers/management-world.png" alt="《管理世界》 Management World" width="116"></a>
+  <a href="Social-Sciences-in-China-Skills/"><img src="assets/covers/social-sciences-in-china.png" alt="《中国社会科学》 Social Sciences in China" width="116"></a>
+  <a href="China-Industrial-Economics-Skills/"><img src="assets/covers/china-industrial-economics.png" alt="《中国工业经济》 China Industrial Economics" width="116"></a>
+  <a href="Journal-of-World-Economy-Skills/"><img src="assets/covers/world-economy.png" alt="《世界经济》 The Journal of World Economy" width="116"></a>
+  <a href="China-Economic-Quarterly-Skills/"><img src="assets/covers/china-economic-quarterly.png" alt="《经济学(季刊)》 China Economic Quarterly" width="116"></a>
+  <a href="Journal-of-Quantitative-and-Technological-Economics-Skills/"><img src="assets/covers/quantitative-technological-economics.png" alt="《数量经济技术经济研究》" width="116"></a>
+  <a href="Accounting-Research-Skills/"><img src="assets/covers/accounting-research.png" alt="《会计研究》 Accounting Research" width="116"></a>
+  <a href="Journal-of-Financial-Research-Skills/"><img src="assets/covers/journal-of-financial-research.png" alt="《金融研究》 Journal of Financial Research" width="116"></a>
+  <a href="Journal-of-Management-Sciences-in-China-Skills/"><img src="assets/covers/management-sciences-in-china.png" alt="《管理科学学报》 J. of Management Sciences in China" width="116"></a>
+  <a href="Nankai-Business-Review-Skills/"><img src="assets/covers/nankai-business-review.png" alt="《南开管理评论》 Nankai Business Review" width="116"></a>
+  <a href="Sociological-Studies-Skills/"><img src="assets/covers/sociological-studies.png" alt="《社会学研究》 Sociological Studies" width="116"></a>
+  <a href="https://github.com/brycewang-stanford/AER-skills"><img src="assets/covers/aer.png" alt="American Economic Review" width="116"></a>
 </p>
 <p align="center">
-  <sub><b>《经济研究》</b> &nbsp;·&nbsp; <b>《管理世界》</b> &nbsp;·&nbsp; <b>Nature</b></sub><br>
-  <sub><sup>Nature cover illustration © <a href="https://inna-marie.com/2019/08/08/cover-art-nature-journal/">Inna-Marie Strazhnik (2019)</a></sup></sub>
+  <sub>Flagship social-science venues (Chinese + English) — uniform cover cards. Real journal covers ship inside each pack's <code>assets/</code>.</sub>
+</p>
+<p align="center">
+  <a href="nature-skills/"><img src="assets/nature-cover.jpg" alt="Nature journal cover (illustration © Inna-Marie Strazhnik, 2019)" width="150"></a>
+</p>
+<p align="center">
+  <sub>Other disciplines · <b>Nature</b> &nbsp;<sup>cover illustration © <a href="https://inna-marie.com/2019/08/08/cover-art-nature-journal/">Inna-Marie Strazhnik (2019)</a></sup></sub>
 </p>
 
 ---

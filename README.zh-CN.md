@@ -84,15 +84,28 @@
 <sub><b>计数口径。</b> 首页 <b>353</b> = 仓库内全部 <code>SKILL.md</code> 减去 9 个 Nature 插件镜像重复文件。广度合集与深度独立包均计入，因此 12 本同时双形态收录的重点中文期刊会被计两次。对账：145（12 中文深度包）+ 103（中文合集）+ 9（AER）+ 27（Nature 系）+ 69（通用工具）= 353。</sub>
 
 <p align="center">
-  <a href="Economic-Research-Journal-Skills/"><img src="Economic-Research-Journal-Skills/assets/cover.jpg" alt="《经济研究》 期刊封面" width="200"></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="Journal-of-Management-World-Skills/"><img src="Journal-of-Management-World-Skills/assets/cover.jpg" alt="《管理世界》 期刊封面" width="200"></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="nature-skills/"><img src="assets/nature-cover.jpg" alt="Nature 期刊封面（插画 © Inna-Marie Strazhnik, 2019）" width="200"></a>
+  <a href="Economic-Research-Journal-Skills/"><img src="assets/covers/economic-research.png" alt="《经济研究》 Economic Research" width="116"></a>
+  <a href="Journal-of-Management-World-Skills/"><img src="assets/covers/management-world.png" alt="《管理世界》 Management World" width="116"></a>
+  <a href="Social-Sciences-in-China-Skills/"><img src="assets/covers/social-sciences-in-china.png" alt="《中国社会科学》 Social Sciences in China" width="116"></a>
+  <a href="China-Industrial-Economics-Skills/"><img src="assets/covers/china-industrial-economics.png" alt="《中国工业经济》 China Industrial Economics" width="116"></a>
+  <a href="Journal-of-World-Economy-Skills/"><img src="assets/covers/world-economy.png" alt="《世界经济》 The Journal of World Economy" width="116"></a>
+  <a href="China-Economic-Quarterly-Skills/"><img src="assets/covers/china-economic-quarterly.png" alt="《经济学(季刊)》 China Economic Quarterly" width="116"></a>
+  <a href="Journal-of-Quantitative-and-Technological-Economics-Skills/"><img src="assets/covers/quantitative-technological-economics.png" alt="《数量经济技术经济研究》" width="116"></a>
+  <a href="Accounting-Research-Skills/"><img src="assets/covers/accounting-research.png" alt="《会计研究》 Accounting Research" width="116"></a>
+  <a href="Journal-of-Financial-Research-Skills/"><img src="assets/covers/journal-of-financial-research.png" alt="《金融研究》 Journal of Financial Research" width="116"></a>
+  <a href="Journal-of-Management-Sciences-in-China-Skills/"><img src="assets/covers/management-sciences-in-china.png" alt="《管理科学学报》 J. of Management Sciences in China" width="116"></a>
+  <a href="Nankai-Business-Review-Skills/"><img src="assets/covers/nankai-business-review.png" alt="《南开管理评论》 Nankai Business Review" width="116"></a>
+  <a href="Sociological-Studies-Skills/"><img src="assets/covers/sociological-studies.png" alt="《社会学研究》 Sociological Studies" width="116"></a>
+  <a href="https://github.com/brycewang-stanford/AER-skills"><img src="assets/covers/aer.png" alt="American Economic Review" width="116"></a>
 </p>
 <p align="center">
-  <sub><b>《经济研究》</b> &nbsp;·&nbsp; <b>《管理世界》</b> &nbsp;·&nbsp; <b>Nature</b></sub><br>
-  <sub><sup>Nature 封面插画 © <a href="https://inna-marie.com/2019/08/08/cover-art-nature-journal/">Inna-Marie Strazhnik (2019)</a></sup></sub>
+  <sub>社会科学中英文顶刊 —— 风格统一的封面卡。各刊真实封面仍存放在对应 pack 的 <code>assets/</code> 中。</sub>
+</p>
+<p align="center">
+  <a href="nature-skills/"><img src="assets/nature-cover.jpg" alt="Nature 期刊封面（插画 © Inna-Marie Strazhnik, 2019）" width="150"></a>
+</p>
+<p align="center">
+  <sub>其他学科 · <b>Nature</b> &nbsp;<sup>封面插画 © <a href="https://inna-marie.com/2019/08/08/cover-art-nature-journal/">Inna-Marie Strazhnik (2019)</a></sup></sub>
 </p>
 
 ---
