@@ -36,13 +36,12 @@ A one-size-fits-all "economics writing" skill cannot encode these differences. E
 
 ## The Skill Packs
 
-> **Breadth vs. depth.** Each flagship venue below ships as a **standalone depth pack** — a full ~12-step per-journal manuscript workflow. The [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) **breadth bundle** adds one router skill for each of ~100 China econ/management roadmap journals. The 12 flagship venues are intentionally covered both ways.
+> **Scope.** This index targets **top social-science journals (Chinese + English)** plus **top English journals in other disciplines**. Each flagship venue ships as a **depth pack** (full ~12-step per-journal workflow); the [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) **breadth bundle** adds one router skill for each of ~100 China econ/management roadmap journals. The 12 flagship Chinese venues are intentionally covered both ways.
 
-### Flagship venues — standalone depth packs
+### Social science · Chinese top journals — depth packs
 
 | Venue | Pack | Discipline | Skills |
 |-------|------|------------|-------:|
-| **American Economic Review** + AER:Insights + AEJ family | [AER-skills](https://github.com/brycewang-stanford/AER-skills) | Economics (top-5) | 9 |
 | **《经济研究》** Economic Research | [Economic-Research-Journal-Skills/](Economic-Research-Journal-Skills/) | Economics (China-CSSCI top) | 12 |
 | **《管理世界》** Management World | [Journal-of-Management-World-Skills/](Journal-of-Management-World-Skills/) | Management + applied economics | 11 |
 | **《中国社会科学》** Social Sciences in China | [Social-Sciences-in-China-Skills/](Social-Sciences-in-China-Skills/) | General social science | 11 |
@@ -56,22 +55,33 @@ A one-size-fits-all "economics writing" skill cannot encode these differences. E
 | **《南开管理评论》** Nankai Business Review | [Nankai-Business-Review-Skills/](Nankai-Business-Review-Skills/) | Management | 12 |
 | **《社会学研究》** Sociological Studies | [Sociological-Studies-Skills/](Sociological-Studies-Skills/) | Sociology | 12 |
 
-### Breadth bundle — ~100 China econ/management roadmap journals
+### Social science · Chinese top journals — breadth bundle
 
 | Bundle | Pack | Coverage | Skills |
 |--------|------|----------|-------:|
-| **Chinese social-science journals (roadmap set)** | [Chinese-SocialScience-Journal-Skills/](Chinese-SocialScience-Journal-Skills/) | one router skill per journal | 103 |
+| **~100 China econ/management roadmap journals** | [Chinese-SocialScience-Journal-Skills/](Chinese-SocialScience-Journal-Skills/) | one router skill per journal | 103 |
 
-### Third-party packs — curated as submodules
+### Social science · English top journals
+
+| Venue | Pack | Discipline | Skills |
+|-------|------|------------|-------:|
+| **American Economic Review** + AER:Insights + AEJ family | [AER-skills](https://github.com/brycewang-stanford/AER-skills) | Economics (top-5) | 9 |
+
+### Other disciplines · English top journals — third-party, curated
 
 | Venue | Repository | Discipline | Status |
 |-------|------------|------------|--------|
 | **Nature** (academic writing + scientific figures) | [nature-skills](https://github.com/Yuan1z0825/nature-skills) | Natural sciences (Nature family) | upstream |
 | **Nature-style manuscripts** (draft · revise · audit · resubmit) | [Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) | Natural sciences (Nature family) | upstream |
-| **Claude Scholar** (ideation → writing → publication) | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | General (Claude Code / OpenCode / Codex) | upstream |
-| **Codex/Claude Academic Skills** (reading · writing · scientific computing) | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | General (Chinese researchers) | upstream |
 
-<sub><b>Count methodology.</b> The homepage <b>353</b> = every <code>SKILL.md</code> in the repo minus the 9 duplicated Nature plugin-mirror files. Both the breadth bundle and the standalone depth packs are counted, so the 12 flagship venues covered both ways are intentionally counted in both forms. Reconciliation: 154 (13 depth packs) + 103 (bundle) + 96 (4 third-party) = 353.</sub>
+### General research toolkits — third-party, curated
+
+| Pack | Repository | Scope | Status |
+|------|------------|-------|--------|
+| **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | Ideation → writing → publication (Claude Code / OpenCode / Codex) | upstream |
+| **Codex/Claude Academic Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | Reading · writing · scientific computing | upstream |
+
+<sub><b>Count methodology.</b> The homepage <b>353</b> = every <code>SKILL.md</code> minus the 9 duplicated Nature plugin-mirror files. Both the breadth bundle and the standalone depth packs are counted, so the 12 flagship Chinese venues covered both ways are counted in both forms. Reconciliation: 145 (12 CN depth) + 103 (CN bundle) + 9 (AER) + 27 (Nature family) + 69 (toolkits) = 353.</sub>
 
 <p align="center">
   <a href="Economic-Research-Journal-Skills/"><img src="Economic-Research-Journal-Skills/assets/cover.jpg" alt="《经济研究》 journal cover" width="200"></a>

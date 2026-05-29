@@ -36,13 +36,12 @@
 
 ## Skill Pack 一览
 
-> **广度 vs 深度。** 下表中每个重点期刊都是一个**深度独立包**——针对单刊的全流程（约 12 步）方法论。[Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) **广度合集**则为约 100 本中文经管路线图期刊各提供 1 个 router 技能。12 本重点期刊有意同时以两种形态收录。
+> **收录范围。** 本索引聚焦**社会科学中英文顶刊**，外加**其他学科的顶级英文期刊**。每个重点期刊都是一个**深度包**（单刊全流程，约 12 步）；[Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) **广度合集**则为约 100 本中文经管路线图期刊各提供 1 个 router 技能。12 本重点中文期刊有意同时以两种形态收录。
 
-### 重点期刊 —— 深度独立包
+### 社会科学 · 中文顶刊 —— 深度独立包
 
 | 期刊 | Pack | 学科 | 技能数 |
 |------|------|------|-------:|
-| **American Economic Review** + AER:Insights + AEJ 系列 | [AER-skills](https://github.com/brycewang-stanford/AER-skills) | 经济学（Top-5） | 9 |
 | **《经济研究》** | [Economic-Research-Journal-Skills/](Economic-Research-Journal-Skills/) | 经济学（中国 CSSCI 顶级） | 12 |
 | **《管理世界》** | [Journal-of-Management-World-Skills/](Journal-of-Management-World-Skills/) | 管理学 + 应用经济 | 11 |
 | **《中国社会科学》** | [Social-Sciences-in-China-Skills/](Social-Sciences-in-China-Skills/) | 综合社科 | 11 |
@@ -56,22 +55,33 @@
 | **《南开管理评论》** | [Nankai-Business-Review-Skills/](Nankai-Business-Review-Skills/) | 管理学 | 12 |
 | **《社会学研究》** | [Sociological-Studies-Skills/](Sociological-Studies-Skills/) | 社会学 | 12 |
 
-### 广度合集 —— 约 100 本中文经管路线图期刊
+### 社会科学 · 中文顶刊 —— 广度合集
 
 | 合集 | Pack | 覆盖 | 技能数 |
 |------|------|------|-------:|
-| **中文社科期刊（路线图全集）** | [Chinese-SocialScience-Journal-Skills/](Chinese-SocialScience-Journal-Skills/) | 一刊一个 router 技能 | 103 |
+| **约 100 本中文经管路线图期刊** | [Chinese-SocialScience-Journal-Skills/](Chinese-SocialScience-Journal-Skills/) | 一刊一个 router 技能 | 103 |
 
-### 第三方收录 —— 以 submodule 形式纳入
+### 社会科学 · 英文顶刊
+
+| 期刊 | Pack | 学科 | 技能数 |
+|------|------|------|-------:|
+| **American Economic Review** + AER:Insights + AEJ 系列 | [AER-skills](https://github.com/brycewang-stanford/AER-skills) | 经济学（Top-5） | 9 |
+
+### 其他学科 · 英文顶刊 —— 第三方收录
 
 | 期刊 | 仓库 | 学科 | 状态 |
 |------|------|------|------|
 | **Nature**（学术表达 + 科研绘图） | [nature-skills](https://github.com/Yuan1z0825/nature-skills) | 自然科学（Nature 系） | upstream |
 | **Nature 风格手稿**（起草 · 修改 · 审计 · 重投） | [Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) | 自然科学（Nature 系） | upstream |
-| **Claude Scholar**（选题 → 写作 → 发表） | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | 通用（Claude Code / OpenCode / Codex） | upstream |
-| **Codex/Claude 学术 Skills**（阅读 · 写作 · 科学计算） | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | 通用（面向中文科研用户） | upstream |
 
-<sub><b>计数口径。</b> 首页 <b>353</b> = 仓库内全部 <code>SKILL.md</code> 减去 9 个 Nature 插件镜像重复文件。广度合集与深度独立包均计入，因此 12 本同时双形态收录的重点期刊会被计两次。对账：154（13 个深度包）+ 103（合集）+ 96（4 个第三方）= 353。</sub>
+### 通用研究工具 —— 第三方收录
+
+| Pack | 仓库 | 范围 | 状态 |
+|------|------|------|------|
+| **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | 选题 → 写作 → 发表（Claude Code / OpenCode / Codex） | upstream |
+| **Codex/Claude 学术 Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | 阅读 · 写作 · 科学计算 | upstream |
+
+<sub><b>计数口径。</b> 首页 <b>353</b> = 仓库内全部 <code>SKILL.md</code> 减去 9 个 Nature 插件镜像重复文件。广度合集与深度独立包均计入，因此 12 本同时双形态收录的重点中文期刊会被计两次。对账：145（12 中文深度包）+ 103（中文合集）+ 9（AER）+ 27（Nature 系）+ 69（通用工具）= 353。</sub>
 
 <p align="center">
   <a href="Economic-Research-Journal-Skills/"><img src="Economic-Research-Journal-Skills/assets/cover.jpg" alt="《经济研究》 期刊封面" width="200"></a>
