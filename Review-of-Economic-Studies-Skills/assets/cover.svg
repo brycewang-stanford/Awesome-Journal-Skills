@@ -1,12 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="220" height="300" viewBox="0 0 220 300" role="img" aria-label="The Review of Economic Studies cover">
-  <rect width="220" height="300" fill="#1f3a5f"/>
-  <rect x="10" y="10" width="200" height="280" fill="none" stroke="#d8e2ec" stroke-width="2"/>
-  <text x="110" y="68" fill="#f2f6fa" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="bold" text-anchor="middle">The Review</text>
-  <text x="110" y="100" fill="#f2f6fa" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="bold" text-anchor="middle">of Economic</text>
-  <text x="110" y="132" fill="#f2f6fa" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="bold" text-anchor="middle">Studies</text>
-  <line x1="40" y1="158" x2="180" y2="158" stroke="#d8e2ec" stroke-width="1"/>
-  <text x="110" y="192" fill="#d8e2ec" font-family="Georgia, serif" font-size="12" text-anchor="middle">Since 1933</text>
-  <text x="110" y="216" fill="#d8e2ec" font-family="Georgia, serif" font-size="11" text-anchor="middle">The Review of Economic Studies Ltd</text>
-  <text x="110" y="236" fill="#d8e2ec" font-family="Georgia, serif" font-size="11" text-anchor="middle">Oxford University Press</text>
-  <text x="110" y="278" fill="#9bb4cc" font-family="Georgia, serif" font-size="9" text-anchor="middle">Original economic research</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 320" width="240" height="320">
+<rect width="240" height="320" fill="#ffffff"/>
+<rect x="5" y="5" width="230" height="310" rx="13" fill="#ffffff" stroke="#7a1322" stroke-width="2"/>
+<path d="M5,18 a13,13 0 0 1 13,-13 h204 a13,13 0 0 1 13,13 v60 h-230 z" fill="#7a1322"/>
+<text x="120" y="35" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10.5" letter-spacing="2.5" font-weight="700" fill="#ffffff">ECONOMICS</text>
+<rect x="97.0" y="45" width="46" height="2" rx="1" fill="#ffffff" opacity="0.7"/>
+<text x="120" y="63" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="8.5" letter-spacing="1.5" fill="#ffffff" opacity="0.8">JOURNAL · AGENT SKILLS</text>
+<text x="120" y="146" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#1a1a1a">Review of</text><text x="120" y="176" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#1a1a1a">Economic Studies</text>
+<text x="120" y="238" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#6a6a6a">REStud</text>
+<line x1="42" y1="276" x2="198" y2="276" stroke="#7a1322" stroke-width="1" opacity="0.3"/>
+<rect x="78" y="285" width="84" height="22" rx="11" fill="#7a1322"/>
+<text x="120" y="300" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#ffffff">Top-5</text>
 </svg>

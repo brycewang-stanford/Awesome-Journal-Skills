@@ -1,12 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="220" height="300" viewBox="0 0 220 300" role="img" aria-label="Quarterly Journal of Economics cover">
-  <rect width="220" height="300" fill="#7c1c2c"/>
-  <rect x="10" y="10" width="200" height="280" fill="none" stroke="#e8d9b5" stroke-width="2"/>
-  <text x="110" y="70" fill="#f4ecd8" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="bold" text-anchor="middle">The</text>
-  <text x="110" y="105" fill="#f4ecd8" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="bold" text-anchor="middle">Quarterly</text>
-  <text x="110" y="135" fill="#f4ecd8" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="bold" text-anchor="middle">Journal of</text>
-  <text x="110" y="165" fill="#f4ecd8" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="bold" text-anchor="middle">Economics</text>
-  <line x1="40" y1="190" x2="180" y2="190" stroke="#e8d9b5" stroke-width="1"/>
-  <text x="110" y="225" fill="#e8d9b5" font-family="Georgia, serif" font-size="12" text-anchor="middle">Since 1886</text>
-  <text x="110" y="250" fill="#e8d9b5" font-family="Georgia, serif" font-size="11" text-anchor="middle">Oxford University Press</text>
-  <text x="110" y="278" fill="#c9a96a" font-family="Georgia, serif" font-size="9" text-anchor="middle">General-interest economics</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 320" width="240" height="320">
+<rect width="240" height="320" fill="#ffffff"/>
+<rect x="5" y="5" width="230" height="310" rx="13" fill="#ffffff" stroke="#7a1322" stroke-width="2"/>
+<path d="M5,18 a13,13 0 0 1 13,-13 h204 a13,13 0 0 1 13,13 v60 h-230 z" fill="#7a1322"/>
+<text x="120" y="35" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10.5" letter-spacing="2.5" font-weight="700" fill="#ffffff">ECONOMICS</text>
+<rect x="97.0" y="45" width="46" height="2" rx="1" fill="#ffffff" opacity="0.7"/>
+<text x="120" y="63" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="8.5" letter-spacing="1.5" fill="#ffffff" opacity="0.8">JOURNAL · AGENT SKILLS</text>
+<text x="120" y="146" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#1a1a1a">Quarterly Journal</text><text x="120" y="176" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#1a1a1a">of Economics</text>
+<text x="120" y="238" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#6a6a6a">QJE</text>
+<line x1="42" y1="276" x2="198" y2="276" stroke="#7a1322" stroke-width="1" opacity="0.3"/>
+<rect x="78" y="285" width="84" height="22" rx="11" fill="#7a1322"/>
+<text x="120" y="300" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#ffffff">Top-5</text>
 </svg>
