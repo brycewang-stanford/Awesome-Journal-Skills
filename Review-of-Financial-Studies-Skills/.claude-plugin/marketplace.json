@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "rfs-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at The Review of Financial Studies (RFS).",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "rfs-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the The Review of Financial Studies (RFS) manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/rfs-skills",
+      "repository": "https://github.com/brycewang-stanford/rfs-skills",
+      "keywords": [
+        "review-of-financial-studies",
+        "rfs",
+        "finance",
+        "asset-pricing",
+        "corporate-finance",
+        "causal-inference",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/rfs-workflow",
+        "skills/rfs-topic-selection",
+        "skills/rfs-literature-positioning",
+        "skills/rfs-identification",
+        "skills/rfs-empirical-design",
+        "skills/rfs-robustness",
+        "skills/rfs-tables-figures",
+        "skills/rfs-internet-appendix",
+        "skills/rfs-writing-style",
+        "skills/rfs-submission",
+        "skills/rfs-referee-strategy",
+        "skills/rfs-rebuttal"
+      ]
+    }
+  ]
+}

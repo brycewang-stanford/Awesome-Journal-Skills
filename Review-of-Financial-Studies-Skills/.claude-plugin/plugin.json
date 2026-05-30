@@ -1,0 +1,26 @@
+{
+  "name": "rfs-skills",
+  "description": "Agent skill stack for submitting to The Review of Financial Studies (RFS), one of the top-3 finance journals, published by Oxford University Press for the Society for Financial Studies. Covers RFS-style novelty-plus-rigor topic selection, literature positioning, causal identification, empirical and structural design, robustness and multiple-testing discipline, exhibits, journal-hosted Internet Appendix, house style, ScholarOne submission, referee strategy, and multi-round rebuttals. Bilingual en / zh-CN docs; Stata / R / Python references.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/rfs-skills",
+  "repository": "https://github.com/brycewang-stanford/rfs-skills",
+  "keywords": [
+    "review-of-financial-studies",
+    "rfs",
+    "finance",
+    "asset-pricing",
+    "corporate-finance",
+    "fintech",
+    "household-finance",
+    "causal-inference",
+    "multiple-testing",
+    "internet-appendix",
+    "academic-writing",
+    "scholarone"
+  ]
+}

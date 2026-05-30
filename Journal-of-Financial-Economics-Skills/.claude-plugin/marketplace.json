@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jfe-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Financial Economics (JFE), a top-3 finance journal.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jfe-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Financial Economics (JFE) manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jfe-skills",
+      "repository": "https://github.com/brycewang-stanford/jfe-skills",
+      "keywords": [
+        "journal-of-financial-economics",
+        "jfe",
+        "empirical-finance",
+        "corporate-finance",
+        "asset-pricing",
+        "causal-identification",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jfe-workflow",
+        "skills/jfe-topic-selection",
+        "skills/jfe-literature-positioning",
+        "skills/jfe-identification",
+        "skills/jfe-empirical-design",
+        "skills/jfe-robustness",
+        "skills/jfe-tables-figures",
+        "skills/jfe-internet-appendix",
+        "skills/jfe-writing-style",
+        "skills/jfe-submission",
+        "skills/jfe-referee-strategy",
+        "skills/jfe-rebuttal"
+      ]
+    }
+  ]
+}

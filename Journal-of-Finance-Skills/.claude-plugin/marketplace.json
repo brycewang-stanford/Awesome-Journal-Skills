@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jf-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at The Journal of Finance (JF), the flagship general-interest finance journal of the American Finance Association.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jf-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the The Journal of Finance (JF) manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jf-skills",
+      "repository": "https://github.com/brycewang-stanford/jf-skills",
+      "keywords": [
+        "journal-of-finance",
+        "american-finance-association",
+        "asset-pricing",
+        "corporate-finance",
+        "empirical-finance",
+        "multiple-testing",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jf-workflow",
+        "skills/jf-topic-selection",
+        "skills/jf-literature-positioning",
+        "skills/jf-identification",
+        "skills/jf-empirical-design",
+        "skills/jf-robustness",
+        "skills/jf-tables-figures",
+        "skills/jf-internet-appendix",
+        "skills/jf-writing-style",
+        "skills/jf-submission",
+        "skills/jf-referee-strategy",
+        "skills/jf-rebuttal"
+      ]
+    }
+  ]
+}

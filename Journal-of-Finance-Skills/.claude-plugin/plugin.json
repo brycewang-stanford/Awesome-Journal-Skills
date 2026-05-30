@@ -1,0 +1,26 @@
+{
+  "name": "jf-skills",
+  "description": "Agent skill stack for manuscripts targeted at The Journal of Finance (JF), the flagship general-interest finance journal of the American Finance Association. Covers general-interest topic selection, literature positioning, causal identification and asset-pricing test design, robustness and multiple-testing discipline, accessible exposition, the journal-hosted Internet Appendix, submission preflight, and the multi-round referee process. Bilingual en / zh-CN docs; Stata / R / Python pointers.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jf-skills",
+  "repository": "https://github.com/brycewang-stanford/jf-skills",
+  "keywords": [
+    "journal-of-finance",
+    "american-finance-association",
+    "asset-pricing",
+    "corporate-finance",
+    "empirical-finance",
+    "causal-identification",
+    "multiple-testing",
+    "internet-appendix",
+    "fama-macbeth",
+    "factor-models",
+    "academic-writing",
+    "finance-journal"
+  ]
+}
