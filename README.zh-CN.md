@@ -3,17 +3,17 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/agent-Claude%20Code-cc785c)](https://github.com/anthropics/claude-code)
-[![Skills](https://img.shields.io/badge/skills-615-cc785c)](#skill-pack-一览)
+[![Skills](https://img.shields.io/badge/skills-843-cc785c)](#skill-pack-一览)
 
 [English](README.md) | 简体中文
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Skills-615-cc785c?style=for-the-badge" alt="615 个 Agent Skill">
+  <img src="https://img.shields.io/badge/Skills-843-cc785c?style=for-the-badge" alt="843 个 Agent Skill">
   &nbsp;
-  <img src="https://img.shields.io/badge/Skill_Packs-25-2b3137?style=for-the-badge" alt="25 个 Skill 包">
+  <img src="https://img.shields.io/badge/Skill_Packs-44-2b3137?style=for-the-badge" alt="44 个 Skill 包">
 </p>
 <p align="center">
-  <sub>共收录 <b>615 个 Agent Skill</b>，分布在 <b>25 个精选 Skill 包</b>中——一站式索引。</sub>
+  <sub>共收录 <b>843 个 Agent Skill</b>，分布在 <b>44 个精选 Skill 包</b>中——一站式索引。</sub>
 </p>
 
 <p align="center">
@@ -89,7 +89,7 @@
 
 ## 根目录 200 个期刊文件夹
 
-为了让用户在仓库首页的根目录就能看到完整的社科期刊阵列，现在 200 本广度合集期刊各有一个轻量入口文件夹：100 本中文经管路线图期刊使用拼音目录名，100 本英文经管 / 商科期刊使用英文题名目录名。这些目录只负责导航；真正可安装的 `SKILL.md` 仍保留在对应 bundle 内，因此插件路径和 615 个 skill 的计数不会被重复放大。
+为了让用户在仓库首页的根目录就能看到完整的社科期刊阵列，现在 200 本广度合集期刊各有一个轻量入口文件夹：100 本中文经管路线图期刊使用拼音目录名，100 本英文经管 / 商科期刊使用英文题名目录名。这些目录只负责导航；真正可安装的 `SKILL.md` 仍保留在对应 bundle 内，因此插件路径和 843 个 skill 的计数不会被重复放大。
 
 ### 中文经管路线图 · 100 个拼音目录
 
@@ -187,6 +187,9 @@
 | <a href="Journal-of-Management-Sciences-in-China-Skills/"><img src="assets/covers/journal-of-management-sciences-china.png" alt="《管理科学学报》" width="56"></a> | **《管理科学学报》** | [Journal-of-Management-Sciences-in-China-Skills/](Journal-of-Management-Sciences-in-China-Skills/) | 管理科学 | 12 |
 | <a href="Nankai-Business-Review-Skills/"><img src="assets/covers/nankai-business-review.png" alt="《南开管理评论》" width="56"></a> | **《南开管理评论》** | [Nankai-Business-Review-Skills/](Nankai-Business-Review-Skills/) | 管理学 | 12 |
 | <a href="Sociological-Studies-Skills/"><img src="assets/covers/sociological-studies.png" alt="《社会学研究》" width="56"></a> | **《社会学研究》** | [Sociological-Studies-Skills/](Sociological-Studies-Skills/) | 社会学 | 12 |
+| <a href="China-Rural-Economy-Skills/"><img src="assets/covers/china-rural-economy.png" alt="《中国农村经济》" width="56"></a> | **《中国农村经济》** China Rural Economy | [China-Rural-Economy-Skills/](China-Rural-Economy-Skills/) | 农业与农村经济 | 12 |
+| <a href="Journal-of-Finance-and-Economics-Skills/"><img src="assets/covers/journal-of-finance-and-economics.png" alt="《财经研究》" width="56"></a> | **《财经研究》** Journal of Finance and Economics | [Journal-of-Finance-and-Economics-Skills/](Journal-of-Finance-and-Economics-Skills/) | 综合性经济与财经 | 12 |
+| <a href="Chinese-Public-Administration-Skills/"><img src="assets/covers/chinese-public-administration.png" alt="《中国行政管理》" width="56"></a> | **《中国行政管理》** Chinese Public Administration | [Chinese-Public-Administration-Skills/](Chinese-Public-Administration-Skills/) | 公共管理与治理 | 12 |
 
 ### 社会科学 · 中文顶刊 —— 广度合集
 
@@ -310,6 +313,17 @@
 | 封面 | 期刊 | Pack | 学科 | 技能数 |
 |:----:|------|------|------|-------:|
 | <a href="https://github.com/brycewang-stanford/AER-skills"><img src="assets/covers/aer.png" alt="American Economic Review" width="56"></a> | **American Economic Review** + AER:Insights + AEJ 系列 | [AER-skills](https://github.com/brycewang-stanford/AER-skills) | 经济学（Top-5） | 9 |
+| <a href="Quarterly-Journal-of-Economics-Skills/"><img src="assets/covers/quarterly-journal-of-economics.png" alt="Quarterly Journal of Economics" width="56"></a> | **Quarterly Journal of Economics** (QJE) | [Quarterly-Journal-of-Economics-Skills/](Quarterly-Journal-of-Economics-Skills/) | 经济学（Top-5） | 12 |
+| <a href="Journal-of-Political-Economy-Skills/"><img src="assets/covers/journal-of-political-economy.png" alt="Journal of Political Economy" width="56"></a> | **Journal of Political Economy** (JPE) | [Journal-of-Political-Economy-Skills/](Journal-of-Political-Economy-Skills/) | 经济学（Top-5） | 12 |
+| <a href="Econometrica-Skills/"><img src="assets/covers/econometrica.png" alt="Econometrica" width="56"></a> | **Econometrica** | [Econometrica-Skills/](Econometrica-Skills/) | 计量与经济理论（Top-5） | 12 |
+| <a href="Review-of-Economic-Studies-Skills/"><img src="assets/covers/review-of-economic-studies.png" alt="The Review of Economic Studies" width="56"></a> | **The Review of Economic Studies** (REStud) | [Review-of-Economic-Studies-Skills/](Review-of-Economic-Studies-Skills/) | 经济学（Top-5） | 12 |
+| <a href="Journal-of-Finance-Skills/"><img src="assets/covers/journal-of-finance.png" alt="The Journal of Finance" width="56"></a> | **The Journal of Finance** (JF) | [Journal-of-Finance-Skills/](Journal-of-Finance-Skills/) | 金融（Top-3） | 12 |
+| <a href="Journal-of-Financial-Economics-Skills/"><img src="assets/covers/journal-of-financial-economics.png" alt="Journal of Financial Economics" width="56"></a> | **Journal of Financial Economics** (JFE) | [Journal-of-Financial-Economics-Skills/](Journal-of-Financial-Economics-Skills/) | 金融（Top-3） | 12 |
+| <a href="Review-of-Financial-Studies-Skills/"><img src="assets/covers/review-of-financial-studies.png" alt="The Review of Financial Studies" width="56"></a> | **The Review of Financial Studies** (RFS) | [Review-of-Financial-Studies-Skills/](Review-of-Financial-Studies-Skills/) | 金融（Top-3） | 12 |
+| <a href="Academy-of-Management-Journal-Skills/"><img src="assets/covers/academy-of-management-journal.png" alt="Academy of Management Journal" width="56"></a> | **Academy of Management Journal** (AMJ) | [Academy-of-Management-Journal-Skills/](Academy-of-Management-Journal-Skills/) | 管理学（实证） | 12 |
+| <a href="Academy-of-Management-Review-Skills/"><img src="assets/covers/academy-of-management-review.png" alt="Academy of Management Review" width="56"></a> | **Academy of Management Review** (AMR) | [Academy-of-Management-Review-Skills/](Academy-of-Management-Review-Skills/) | 管理学理论 | 12 |
+| <a href="Administrative-Science-Quarterly-Skills/"><img src="assets/covers/administrative-science-quarterly.png" alt="Administrative Science Quarterly" width="56"></a> | **Administrative Science Quarterly** (ASQ) | [Administrative-Science-Quarterly-Skills/](Administrative-Science-Quarterly-Skills/) | 组织理论 | 12 |
+| <a href="Strategic-Management-Journal-Skills/"><img src="assets/covers/strategic-management-journal.png" alt="Strategic Management Journal" width="56"></a> | **Strategic Management Journal** (SMJ) | [Strategic-Management-Journal-Skills/](Strategic-Management-Journal-Skills/) | 战略管理 | 12 |
 
 ### 社会科学 · 英文顶刊 —— 广度合集
 
@@ -437,6 +451,11 @@
 | <a href="PNAS-Skills/"><img src="assets/covers/pnas.png" alt="PNAS" width="56"></a> | **PNAS** | [PNAS-Skills/](PNAS-Skills/) | 综合（生物 / 物理 / 社科） | 12 |
 | <a href="NEJM-Skills/"><img src="assets/covers/nejm.png" alt="NEJM 新英格兰医学杂志" width="56"></a> | **NEJM** 新英格兰医学杂志 | [NEJM-Skills/](NEJM-Skills/) | 临床医学 | 12 |
 | <a href="Lancet-Skills/"><img src="assets/covers/lancet.png" alt="The Lancet 柳叶刀" width="56"></a> | **The Lancet** 柳叶刀 | [Lancet-Skills/](Lancet-Skills/) | 临床医学 / 全球健康 | 12 |
+| <a href="JAMA-Skills/"><img src="assets/covers/jama.png" alt="JAMA" width="56"></a> | **JAMA** 美国医学会杂志 | [JAMA-Skills/](JAMA-Skills/) | 临床医学 | 12 |
+| <a href="Cancer-Cell-Skills/"><img src="assets/covers/cancer-cell.png" alt="Cancer Cell" width="56"></a> | **Cancer Cell**（Cell Press） | [Cancer-Cell-Skills/](Cancer-Cell-Skills/) | 肿瘤 / 分子生物学 | 12 |
+| <a href="Physical-Review-Letters-Skills/"><img src="assets/covers/physical-review-letters.png" alt="Physical Review Letters" width="56"></a> | **Physical Review Letters** (PRL) | [Physical-Review-Letters-Skills/](Physical-Review-Letters-Skills/) | 物理（快报） | 12 |
+| <a href="Journal-of-the-American-Chemical-Society-Skills/"><img src="assets/covers/journal-of-the-american-chemical-society.png" alt="Journal of the American Chemical Society" width="56"></a> | **J. of the American Chemical Society** (JACS) | [Journal-of-the-American-Chemical-Society-Skills/](Journal-of-the-American-Chemical-Society-Skills/) | 化学 | 12 |
+| <a href="Annals-of-Mathematics-Skills/"><img src="assets/covers/annals-of-mathematics.png" alt="Annals of Mathematics" width="56"></a> | **Annals of Mathematics** | [Annals-of-Mathematics-Skills/](Annals-of-Mathematics-Skills/) | 纯数学 | 12 |
 
 每个自然科学包都按刊定制：Science 编码"一句话总结"与广泛意义初筛；Cell 编码 STAR Methods + Key Resources Table 以及 Highlights/eTOC/图形摘要三件套；PNAS 编码 ≤120 词的 Significance Statement 与 Direct/Contributed 投稿通道；NEJM 与 The Lancet 编码试验注册、CONSORT/STROBE/PRISMA 报告规范、结构化临床摘要、ICMJE 伦理与利益声明，以及（柳叶刀的）*Research in context* 面板。
 
@@ -571,7 +590,7 @@
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | 选题 → 写作 → 发表（Claude Code / OpenCode / Codex） | upstream |
 | **Codex/Claude 学术 Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | 阅读 · 写作 · 科学计算 | upstream |
 
-<sub><b>计数口径。</b> 首页 <b>615</b> = 仓库内全部 <code>SKILL.md</code> 减去 9 个 Nature 插件镜像重复文件。三个广度合集与深度独立包均计入，因此同时双形态收录的重点期刊（12 本重点中文期刊；AER；5 本自然科学旗舰）会被计两次。对账：145（12 中文深度包）+ 60（5 个自然科学深度包：Science / Cell / PNAS / NEJM / Lancet，各 12）+ 103（中文合集）+ 101（英文经管合集：100 本期刊 + 1 路由）+ 101（英文自然科学合集：100 本期刊 + 1 路由）+ 9（AER）+ 27（Nature 系）+ 69（通用工具）= 615。</sub>
+<sub><b>计数口径。</b> 首页 <b>843</b> = 仓库内全部 <code>SKILL.md</code> 减去 9 个 Nature 插件镜像重复文件。三个广度合集与深度独立包均计入，因此同时双形态收录的期刊（既有广度 profile，又有深度包）会被计两次。对账：181（15 个中文深度包）+ 132（11 个英文社科深度包）+ 120（10 个自然科学深度包）+ 103（中文合集）+ 101（英文经管合集：100 本期刊 + 1 路由）+ 101（英文自然科学合集：100 本期刊 + 1 路由）+ 9（AER）+ 27（Nature 系）+ 69（通用工具）= 843。</sub>
 
 ---
 
@@ -602,6 +621,21 @@ awesome-journal-skills/
 ├── Accounting-Research-Skills/            → 《会计研究》（13 skills）
 ├── Sociological-Studies-Skills/           → 《社会学研究》（12 skills）
 ├── Journal-of-Quantitative-and-Technological-Economics-Skills/  → 《数量经济技术经济研究》（13 skills）
+├── China-Rural-Economy-Skills/            → 《中国农村经济》（12 skills）
+├── Journal-of-Finance-and-Economics-Skills/  → 《财经研究》（12 skills）
+├── Chinese-Public-Administration-Skills/  → 《中国行政管理》（12 skills）
+│   # 英文社科深度包（本仓库内编写维护）
+├── Quarterly-Journal-of-Economics-Skills/ → Quarterly Journal of Economics（12 skills）
+├── Journal-of-Political-Economy-Skills/   → Journal of Political Economy（12 skills）
+├── Econometrica-Skills/                   → Econometrica（12 skills）
+├── Review-of-Economic-Studies-Skills/     → Review of Economic Studies（12 skills）
+├── Journal-of-Finance-Skills/             → The Journal of Finance（12 skills）
+├── Journal-of-Financial-Economics-Skills/ → Journal of Financial Economics（12 skills）
+├── Review-of-Financial-Studies-Skills/    → The Review of Financial Studies（12 skills）
+├── Academy-of-Management-Journal-Skills/  → Academy of Management Journal（12 skills）
+├── Academy-of-Management-Review-Skills/   → Academy of Management Review（12 skills）
+├── Administrative-Science-Quarterly-Skills/  → Administrative Science Quarterly（12 skills）
+├── Strategic-Management-Journal-Skills/   → Strategic Management Journal（12 skills）
 ├── Chinese-SocialScience-Journal-Skills/  → 中文广度合集，约 100 本期刊 router（103 skills）
 ├── English-SocialScience-Journal-Skills/  → 英文经管广度合集，100 本期刊 fit 技能 + 路由（101 skills）
 ├── English-NaturalScience-Journal-Skills/ → 英文自然科学广度合集，100 本期刊 fit 技能 + 路由（101 skills）
@@ -611,6 +645,11 @@ awesome-journal-skills/
 ├── PNAS-Skills/                   → PNAS（12 skills）
 ├── NEJM-Skills/                   → 新英格兰医学杂志（12 skills）
 ├── Lancet-Skills/                 → 柳叶刀 The Lancet（12 skills）
+├── JAMA-Skills/                   → JAMA 美国医学会杂志（12 skills）
+├── Cancer-Cell-Skills/            → Cancer Cell（12 skills）
+├── Physical-Review-Letters-Skills/  → Physical Review Letters（12 skills）
+├── Journal-of-the-American-Chemical-Society-Skills/  → JACS（12 skills）
+├── Annals-of-Mathematics-Skills/  → Annals of Mathematics（12 skills）
 │   # git submodule（指向上游，每日自动同步）
 ├── AER-skills/                    → submodule: brycewang-stanford/AER-skills
 ├── nature-skills/                 → submodule: Yuan1z0825/nature-skills（第三方收录）
@@ -691,7 +730,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 
 ## 路线图
 
-**进度：** 下方三个广度合集均已全部落地——每本期刊都有一个“选刊定位 + 写作风格”技能。路线图现在聚焦下一步工作：把更多期刊从广度 profile 升级为单刊全流程深度包。
+**进度：** 三个广度合集已全部落地，**且上一版路线图列出的优先深度包升级现已全部完成**——此前作为候选列出的期刊均已落地为单刊全流程（12 步）深度包。路线图现在聚焦下一梯队的扩展。
 
 ### ✅ 已落地
 
@@ -700,20 +739,20 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
   - [English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) —— 100 本英文经济 / 金融 / 管理 / 会计 / 营销 / 运营 / 信息系统期刊
   - [English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) —— 100 本英文自然科学 / 临床 / 物理 / 形式科学期刊
 - **每刊封面卡** 覆盖全部广度期刊，两份 README 内嵌可折叠封面画廊，并提供 200 个根目录轻量入口文件夹便于首页浏览。
-- **单刊全流程深度包（12 步）** 覆盖最高影响力期刊：
-  - 英文：AER
-  - 中文重点刊（12）：经济研究 · 经济学（季刊）· 中国工业经济 · 世界经济 · 金融研究 · 数量经济技术经济研究 · 管理世界 · 管理科学学报 · 南开管理评论 · 会计研究 · 中国社会科学 · 社会学研究
-  - 自然科学旗舰（6）：Nature · Science · PNAS · Cell · NEJM · The Lancet
+- **单刊全流程深度包（12 步）** —— 36 个仓库内自有期刊包，覆盖三大板块（AER 与 Nature 另以收录/submodule 包形态提供）：
+  - **英文经济学（Top-5）：** AER（submodule）· QJE · JPE · Econometrica · REStud
+  - **英文金融（Top-3）：** Journal of Finance · Journal of Financial Economics · Review of Financial Studies
+  - **英文管理：** AMJ · AMR · ASQ · SMJ
+  - **英文自然科学：** Science · Cell · PNAS · NEJM · The Lancet · JAMA · Cancer Cell · Physical Review Letters · JACS · Annals of Mathematics（另收录 Nature 包）
+  - **中文重点刊（15）：** 经济研究 · 经济学（季刊）· 中国工业经济 · 世界经济 · 金融研究 · 数量经济技术经济研究 · 管理世界 · 管理科学学报 · 南开管理评论 · 会计研究 · 中国社会科学 · 社会学研究 · 中国农村经济 · 财经研究 · 中国行政管理
 
-### 🚧 待办 —— 深度包升级
+### 🚧 待办 —— 下一梯队扩展
 
-下一步是把更多期刊从广度 profile 升级为**单刊全流程深度包（12 步）**。优先候选：
+上一版路线图的优先深度包候选已全部落地。下一梯队的待选项：
 
-- **经济学 Top-5**（AER 之外）：QJE、JPE、Econometrica、REStud
-- **金融 Top-3**：Journal of Finance、Journal of Financial Economics、Review of Financial Studies
-- **管理顶刊**：AMJ、AMR、ASQ、SMJ
-- **自然科学** 六大通刊之外的学科旗舰：如 JAMA、Cancer Cell、Physical Review Letters、JACS、Annals of Mathematics
-- **中文** 12 本之外的重点刊：如《中国农村经济》《财经研究》《中国行政管理》
+- **英文营销与会计深度包：** JM / JMR / JCR；TAR / JAR / JAE。
+- **更多学科旗舰自然科学刊**（在现有基础上扩展：Cell Press / Nature 子刊家族，以及地球科学、CS/AI、材料领域的学科领头刊）。
+- **更多中文重点刊**（在现有 15 本之外，按需求扩展 CSSCI / FMS 高质量期刊）。
 
 希望优先把某本升级为深度包，请提 issue 或 PR 补充。
 

@@ -3,17 +3,17 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/agent-Claude%20Code-cc785c)](https://github.com/anthropics/claude-code)
-[![Skills](https://img.shields.io/badge/skills-615-cc785c)](#the-skill-packs)
+[![Skills](https://img.shields.io/badge/skills-843-cc785c)](#the-skill-packs)
 
 English | [简体中文](README.zh-CN.md)
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Skills-615-cc785c?style=for-the-badge" alt="615 agent skills">
+  <img src="https://img.shields.io/badge/Skills-843-cc785c?style=for-the-badge" alt="843 agent skills">
   &nbsp;
-  <img src="https://img.shields.io/badge/Skill_Packs-25-2b3137?style=for-the-badge" alt="25 skill packs">
+  <img src="https://img.shields.io/badge/Skill_Packs-44-2b3137?style=for-the-badge" alt="44 skill packs">
 </p>
 <p align="center">
-  <sub><b>615 agent skills</b> across <b>25 curated packs</b> — one index.</sub>
+  <sub><b>843 agent skills</b> across <b>44 curated packs</b> — one index.</sub>
 </p>
 
 <p align="center">
@@ -89,7 +89,7 @@ Each pack is **journal-specific by design**: it encodes the editorial preference
 
 ## 200 Root Journal Folders
 
-For visual browsing at the repository root, the 200 social-science breadth journals now also have one lightweight folder each: 100 Chinese roadmap journals in pinyin folder names, and 100 English econ / finance / management / business journals in title-style folder names. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the 615-skill count stay stable.
+For visual browsing at the repository root, the 200 social-science breadth journals now also have one lightweight folder each: 100 Chinese roadmap journals in pinyin folder names, and 100 English econ / finance / management / business journals in title-style folder names. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the 843-skill count stay stable.
 
 ### Chinese Roadmap Journals · 100 Pinyin Folders
 
@@ -187,6 +187,9 @@ A one-size-fits-all "economics writing" skill cannot encode these differences. E
 | <a href="Journal-of-Management-Sciences-in-China-Skills/"><img src="assets/covers/journal-of-management-sciences-china.png" alt="《管理科学学报》" width="56"></a> | **《管理科学学报》** J. of Management Sciences in China | [Journal-of-Management-Sciences-in-China-Skills/](Journal-of-Management-Sciences-in-China-Skills/) | Management science | 12 |
 | <a href="Nankai-Business-Review-Skills/"><img src="assets/covers/nankai-business-review.png" alt="《南开管理评论》" width="56"></a> | **《南开管理评论》** Nankai Business Review | [Nankai-Business-Review-Skills/](Nankai-Business-Review-Skills/) | Management | 12 |
 | <a href="Sociological-Studies-Skills/"><img src="assets/covers/sociological-studies.png" alt="《社会学研究》" width="56"></a> | **《社会学研究》** Sociological Studies | [Sociological-Studies-Skills/](Sociological-Studies-Skills/) | Sociology | 12 |
+| <a href="China-Rural-Economy-Skills/"><img src="assets/covers/china-rural-economy.png" alt="《中国农村经济》" width="56"></a> | **《中国农村经济》** China Rural Economy | [China-Rural-Economy-Skills/](China-Rural-Economy-Skills/) | Agricultural & rural economics | 12 |
+| <a href="Journal-of-Finance-and-Economics-Skills/"><img src="assets/covers/journal-of-finance-and-economics.png" alt="《财经研究》" width="56"></a> | **《财经研究》** Journal of Finance and Economics | [Journal-of-Finance-and-Economics-Skills/](Journal-of-Finance-and-Economics-Skills/) | Economics & finance (comprehensive) | 12 |
+| <a href="Chinese-Public-Administration-Skills/"><img src="assets/covers/chinese-public-administration.png" alt="《中国行政管理》" width="56"></a> | **《中国行政管理》** Chinese Public Administration | [Chinese-Public-Administration-Skills/](Chinese-Public-Administration-Skills/) | Public administration & governance | 12 |
 
 ### Social science · Chinese top journals — breadth bundle
 
@@ -305,11 +308,22 @@ A one-size-fits-all "economics writing" skill cannot encode these differences. E
 </details>
 <!-- COVER-GALLERY:cn-soc:END -->
 
-### Social science · English top journals — depth pack
+### Social science · English top journals — depth packs
 
 | Icon | Venue | Pack | Discipline | Skills |
 |:----:|-------|------|------------|-------:|
 | <a href="https://github.com/brycewang-stanford/AER-skills"><img src="assets/covers/aer.png" alt="American Economic Review" width="56"></a> | **American Economic Review** + AER:Insights + AEJ family | [AER-skills](https://github.com/brycewang-stanford/AER-skills) | Economics (top-5) | 9 |
+| <a href="Quarterly-Journal-of-Economics-Skills/"><img src="assets/covers/quarterly-journal-of-economics.png" alt="Quarterly Journal of Economics" width="56"></a> | **Quarterly Journal of Economics** (QJE) | [Quarterly-Journal-of-Economics-Skills/](Quarterly-Journal-of-Economics-Skills/) | Economics (top-5) | 12 |
+| <a href="Journal-of-Political-Economy-Skills/"><img src="assets/covers/journal-of-political-economy.png" alt="Journal of Political Economy" width="56"></a> | **Journal of Political Economy** (JPE) | [Journal-of-Political-Economy-Skills/](Journal-of-Political-Economy-Skills/) | Economics (top-5) | 12 |
+| <a href="Econometrica-Skills/"><img src="assets/covers/econometrica.png" alt="Econometrica" width="56"></a> | **Econometrica** | [Econometrica-Skills/](Econometrica-Skills/) | Econometric & economic theory (top-5) | 12 |
+| <a href="Review-of-Economic-Studies-Skills/"><img src="assets/covers/review-of-economic-studies.png" alt="The Review of Economic Studies" width="56"></a> | **The Review of Economic Studies** (REStud) | [Review-of-Economic-Studies-Skills/](Review-of-Economic-Studies-Skills/) | Economics (top-5) | 12 |
+| <a href="Journal-of-Finance-Skills/"><img src="assets/covers/journal-of-finance.png" alt="The Journal of Finance" width="56"></a> | **The Journal of Finance** (JF) | [Journal-of-Finance-Skills/](Journal-of-Finance-Skills/) | Finance (top-3) | 12 |
+| <a href="Journal-of-Financial-Economics-Skills/"><img src="assets/covers/journal-of-financial-economics.png" alt="Journal of Financial Economics" width="56"></a> | **Journal of Financial Economics** (JFE) | [Journal-of-Financial-Economics-Skills/](Journal-of-Financial-Economics-Skills/) | Finance (top-3) | 12 |
+| <a href="Review-of-Financial-Studies-Skills/"><img src="assets/covers/review-of-financial-studies.png" alt="The Review of Financial Studies" width="56"></a> | **The Review of Financial Studies** (RFS) | [Review-of-Financial-Studies-Skills/](Review-of-Financial-Studies-Skills/) | Finance (top-3) | 12 |
+| <a href="Academy-of-Management-Journal-Skills/"><img src="assets/covers/academy-of-management-journal.png" alt="Academy of Management Journal" width="56"></a> | **Academy of Management Journal** (AMJ) | [Academy-of-Management-Journal-Skills/](Academy-of-Management-Journal-Skills/) | Management (empirical) | 12 |
+| <a href="Academy-of-Management-Review-Skills/"><img src="assets/covers/academy-of-management-review.png" alt="Academy of Management Review" width="56"></a> | **Academy of Management Review** (AMR) | [Academy-of-Management-Review-Skills/](Academy-of-Management-Review-Skills/) | Management theory | 12 |
+| <a href="Administrative-Science-Quarterly-Skills/"><img src="assets/covers/administrative-science-quarterly.png" alt="Administrative Science Quarterly" width="56"></a> | **Administrative Science Quarterly** (ASQ) | [Administrative-Science-Quarterly-Skills/](Administrative-Science-Quarterly-Skills/) | Organization theory | 12 |
+| <a href="Strategic-Management-Journal-Skills/"><img src="assets/covers/strategic-management-journal.png" alt="Strategic Management Journal" width="56"></a> | **Strategic Management Journal** (SMJ) | [Strategic-Management-Journal-Skills/](Strategic-Management-Journal-Skills/) | Strategy | 12 |
 
 ### Social science · English top journals — breadth bundle
 
@@ -437,6 +451,11 @@ This bundle covers the full English roadmap below: Economics 50 · Finance 13 ·
 | <a href="PNAS-Skills/"><img src="assets/covers/pnas.png" alt="PNAS" width="56"></a> | **PNAS** | [PNAS-Skills/](PNAS-Skills/) | Multidisciplinary (bio / phys / social) | 12 |
 | <a href="NEJM-Skills/"><img src="assets/covers/nejm.png" alt="NEJM — New England Journal of Medicine" width="56"></a> | **NEJM** New England Journal of Medicine | [NEJM-Skills/](NEJM-Skills/) | Clinical medicine | 12 |
 | <a href="Lancet-Skills/"><img src="assets/covers/lancet.png" alt="The Lancet" width="56"></a> | **The Lancet** | [Lancet-Skills/](Lancet-Skills/) | Clinical medicine / global health | 12 |
+| <a href="JAMA-Skills/"><img src="assets/covers/jama.png" alt="JAMA" width="56"></a> | **JAMA** (J. of the American Medical Association) | [JAMA-Skills/](JAMA-Skills/) | Clinical medicine | 12 |
+| <a href="Cancer-Cell-Skills/"><img src="assets/covers/cancer-cell.png" alt="Cancer Cell" width="56"></a> | **Cancer Cell** (Cell Press) | [Cancer-Cell-Skills/](Cancer-Cell-Skills/) | Oncology / molecular biology | 12 |
+| <a href="Physical-Review-Letters-Skills/"><img src="assets/covers/physical-review-letters.png" alt="Physical Review Letters" width="56"></a> | **Physical Review Letters** (PRL) | [Physical-Review-Letters-Skills/](Physical-Review-Letters-Skills/) | Physics (letters) | 12 |
+| <a href="Journal-of-the-American-Chemical-Society-Skills/"><img src="assets/covers/journal-of-the-american-chemical-society.png" alt="Journal of the American Chemical Society" width="56"></a> | **J. of the American Chemical Society** (JACS) | [Journal-of-the-American-Chemical-Society-Skills/](Journal-of-the-American-Chemical-Society-Skills/) | Chemistry | 12 |
+| <a href="Annals-of-Mathematics-Skills/"><img src="assets/covers/annals-of-mathematics.png" alt="Annals of Mathematics" width="56"></a> | **Annals of Mathematics** | [Annals-of-Mathematics-Skills/](Annals-of-Mathematics-Skills/) | Pure mathematics | 12 |
 
 Each natural-science pack is opinionated by venue: Science encodes the one-sentence summary and broad-significance desk filter; Cell encodes STAR Methods + the Key Resources Table and the Highlights/eTOC/graphical-abstract trio; PNAS encodes the ≤120-word Significance Statement and the Direct/Contributed submission tracks; NEJM and The Lancet encode trial registration, CONSORT/STROBE/PRISMA reporting, structured clinical abstracts, ICMJE ethics/disclosures, and (for The Lancet) the *Research in context* panel.
 
@@ -571,7 +590,7 @@ This bundle is the natural-science sibling of the English social-science breadth
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | Ideation → writing → publication (Claude Code / OpenCode / Codex) | upstream |
 | **Codex/Claude Academic Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | Reading · writing · scientific computing | upstream |
 
-<sub><b>Count methodology.</b> The homepage <b>615</b> = every <code>SKILL.md</code> minus the 9 duplicated Nature plugin-mirror files. All three breadth bundles and the standalone depth packs are counted, so the flagship venues covered both ways (the 12 Chinese flagships; AER; the 5 natural-science flagships) are counted in both forms. Reconciliation: 145 (12 CN depth) + 60 (5 natural-science depth: Science / Cell / PNAS / NEJM / Lancet, 12 each) + 103 (CN bundle) + 101 (EN social-science bundle: 100 journals + 1 router) + 101 (EN natural-science bundle: 100 journals + 1 router) + 9 (AER) + 27 (Nature family) + 69 (toolkits) = 615.</sub>
+<sub><b>Count methodology.</b> The homepage <b>843</b> = every <code>SKILL.md</code> minus the 9 duplicated Nature plugin-mirror files. All three breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation: 181 (15 CN depth packs) + 132 (11 EN social-science depth packs) + 120 (10 natural-science depth packs) + 103 (CN bundle) + 101 (EN social-science bundle: 100 journals + 1 router) + 101 (EN natural-science bundle: 100 journals + 1 router) + 9 (AER) + 27 (Nature family) + 69 (toolkits) = 843.</sub>
 
 ---
 
@@ -602,6 +621,21 @@ awesome-journal-skills/
 ├── Accounting-Research-Skills/            → 《会计研究》 (13 skills)
 ├── Sociological-Studies-Skills/           → 《社会学研究》 (12 skills)
 ├── Journal-of-Quantitative-and-Technological-Economics-Skills/  → 《数量经济技术经济研究》 (13 skills)
+├── China-Rural-Economy-Skills/            → 《中国农村经济》 (12 skills)
+├── Journal-of-Finance-and-Economics-Skills/  → 《财经研究》 (12 skills)
+├── Chinese-Public-Administration-Skills/  → 《中国行政管理》 (12 skills)
+│   # English social-science depth packs (first-party, authored / maintained here)
+├── Quarterly-Journal-of-Economics-Skills/ → Quarterly Journal of Economics (12 skills)
+├── Journal-of-Political-Economy-Skills/   → Journal of Political Economy (12 skills)
+├── Econometrica-Skills/                   → Econometrica (12 skills)
+├── Review-of-Economic-Studies-Skills/     → Review of Economic Studies (12 skills)
+├── Journal-of-Finance-Skills/             → The Journal of Finance (12 skills)
+├── Journal-of-Financial-Economics-Skills/ → Journal of Financial Economics (12 skills)
+├── Review-of-Financial-Studies-Skills/    → The Review of Financial Studies (12 skills)
+├── Academy-of-Management-Journal-Skills/  → Academy of Management Journal (12 skills)
+├── Academy-of-Management-Review-Skills/   → Academy of Management Review (12 skills)
+├── Administrative-Science-Quarterly-Skills/  → Administrative Science Quarterly (12 skills)
+├── Strategic-Management-Journal-Skills/   → Strategic Management Journal (12 skills)
 ├── Chinese-SocialScience-Journal-Skills/  → CN breadth bundle, ~100-journal router (103 skills)
 ├── English-SocialScience-Journal-Skills/  → EN econ/business breadth bundle, 100-journal fit skills + router (101 skills)
 ├── English-NaturalScience-Journal-Skills/ → EN natural-science breadth bundle, 100-journal fit skills + router (101 skills)
@@ -611,6 +645,11 @@ awesome-journal-skills/
 ├── PNAS-Skills/                   → PNAS (12 skills)
 ├── NEJM-Skills/                   → New England Journal of Medicine (12 skills)
 ├── Lancet-Skills/                 → The Lancet (12 skills)
+├── JAMA-Skills/                   → JAMA (12 skills)
+├── Cancer-Cell-Skills/            → Cancer Cell (12 skills)
+├── Physical-Review-Letters-Skills/  → Physical Review Letters (12 skills)
+├── Journal-of-the-American-Chemical-Society-Skills/  → JACS (12 skills)
+├── Annals-of-Mathematics-Skills/  → Annals of Mathematics (12 skills)
 │   # Git submodules (pinned to upstream, auto-synced daily)
 ├── AER-skills/                    → submodule of brycewang-stanford/AER-skills
 ├── nature-skills/                 → submodule of Yuan1z0825/nature-skills (third-party)
@@ -692,7 +731,7 @@ use next for my manuscript targeted at <journal>.
 
 ## Roadmap
 
-**Status:** the three breadth bundles below are fully shipped — every venue has a fit-and-house-style skill. The Roadmap now tracks the remaining work: upgrading more venues from a breadth profile to a full 12-step depth pack.
+**Status:** the three breadth bundles are fully shipped, **and the prioritized depth-pack upgrades from the previous roadmap are now complete** — every venue that was a candidate has shipped as a full 12-step depth pack. The Roadmap now tracks the next tier of expansion.
 
 ### ✅ Shipped
 
@@ -701,20 +740,20 @@ use next for my manuscript targeted at <journal>.
   - [English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) — 100 English econ / finance / management / accounting / marketing / OM / IS journals
   - [English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) — 100 English natural-science / clinical / physical / formal-science journals
 - **Per-journal cover cards** for every breadth journal, collapsible cover galleries in both READMEs, and 200 lightweight root entry folders for repo-front browsing.
-- **Full 12-step depth packs** for the highest-impact venues:
-  - English: AER
-  - Chinese flagships (12): 经济研究 · 经济学（季刊）· 中国工业经济 · 世界经济 · 金融研究 · 数量经济技术经济研究 · 管理世界 · 管理科学学报 · 南开管理评论 · 会计研究 · 中国社会科学 · 社会学研究
-  - Natural-science flagships (6): Nature · Science · PNAS · Cell · NEJM · The Lancet
+- **Full 12-step depth packs** — 36 first-party venue packs across all three areas (AER and Nature additionally ship as curated submodule packs):
+  - **English economics (top-5):** AER (submodule) · QJE · JPE · Econometrica · REStud
+  - **English finance (top-3):** Journal of Finance · Journal of Financial Economics · Review of Financial Studies
+  - **English management:** AMJ · AMR · ASQ · SMJ
+  - **English natural science:** Science · Cell · PNAS · NEJM · The Lancet · JAMA · Cancer Cell · Physical Review Letters · JACS · Annals of Mathematics (plus Nature as a curated pack)
+  - **Chinese flagships (15):** 经济研究 · 经济学（季刊）· 中国工业经济 · 世界经济 · 金融研究 · 数量经济技术经济研究 · 管理世界 · 管理科学学报 · 南开管理评论 · 会计研究 · 中国社会科学 · 社会学研究 · 中国农村经济 · 财经研究 · 中国行政管理
 
-### 🚧 Pending — depth-pack upgrades
+### 🚧 Pending — next expansion
 
-The next step is upgrading more venues from a breadth profile to a **full 12-step depth pack**. Prioritized candidates:
+The previous roadmap's prioritized depth-pack candidates have all shipped. Open candidates for the next tier:
 
-- **Economics top-5** (beyond AER): QJE, JPE, Econometrica, REStud
-- **Finance top-3**: Journal of Finance, Journal of Financial Economics, Review of Financial Studies
-- **Management elite**: AMJ, AMR, ASQ, SMJ
-- **Natural science** beyond the six general-science flagships: subject leaders such as JAMA, Cancer Cell, Physical Review Letters, JACS, Annals of Mathematics
-- **Chinese** flagships beyond the current 12: e.g., 中国农村经济, 财经研究, 中国行政管理
+- **English marketing & accounting depth packs:** JM / JMR / JCR; TAR / JAR / JAE.
+- **More subject-flagship natural science** beyond the current set (additional Cell Press / Nature Portfolio sub-journals; discipline leaders in earth science, CS/AI, and materials).
+- **More Chinese flagships** beyond the current 15 (additional CSSCI / FMS high-quality venues, by demand).
 
 Open an issue to upvote a venue for depth-pack treatment, or PR to add one.
 
