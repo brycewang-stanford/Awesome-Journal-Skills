@@ -691,11 +691,38 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 
 ## 路线图
 
-**进度：** 下方英文与中文两份路线图现已全部以**广度合集**形态落地——每本期刊都有一个“选刊定位 + 写作风格”技能（[English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) 覆盖 100 本英文期刊，[Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) 覆盖约 100 本中文期刊）。下一步是把更多期刊从广度 profile 升级为**单刊全流程深度包**（已对 12 本中文重点期刊 + AER 完成）。希望优先把某本升级为深度包，请提 issue 或 PR 补充。
+**进度：** 下方三个广度合集均已全部落地——每本期刊都有一个“选刊定位 + 写作风格”技能。路线图现在聚焦下一步工作：把更多期刊从广度 profile 升级为单刊全流程深度包。
+
+### ✅ 已落地
+
+- **三个广度合集** —— 每本期刊一个“选刊定位 + 写作风格”技能：
+  - [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) —— 102 本中文经管期刊
+  - [English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) —— 100 本英文经济 / 金融 / 管理 / 会计 / 营销 / 运营 / 信息系统期刊
+  - [English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) —— 100 本英文自然科学 / 临床 / 物理 / 形式科学期刊
+- **每刊封面卡** 覆盖全部广度期刊，两份 README 内嵌可折叠封面画廊，并提供 200 个根目录轻量入口文件夹便于首页浏览。
+- **单刊全流程深度包（12 步）** 覆盖最高影响力期刊：
+  - 英文：AER
+  - 中文重点刊（12）：经济研究 · 经济学（季刊）· 中国工业经济 · 世界经济 · 金融研究 · 数量经济技术经济研究 · 管理世界 · 管理科学学报 · 南开管理评论 · 会计研究 · 中国社会科学 · 社会学研究
+  - 自然科学旗舰（6）：Nature · Science · PNAS · Cell · NEJM · The Lancet
+
+### 🚧 待办 —— 深度包升级
+
+下一步是把更多期刊从广度 profile 升级为**单刊全流程深度包（12 步）**。优先候选：
+
+- **经济学 Top-5**（AER 之外）：QJE、JPE、Econometrica、REStud
+- **金融 Top-3**：Journal of Finance、Journal of Financial Economics、Review of Financial Studies
+- **管理顶刊**：AMJ、AMR、ASQ、SMJ
+- **自然科学** 六大通刊之外的学科旗舰：如 JAMA、Cancer Cell、Physical Review Letters、JACS、Annals of Mathematics
+- **中文** 12 本之外的重点刊：如《中国农村经济》《财经研究》《中国行政管理》
+
+希望优先把某本升级为深度包，请提 issue 或 PR 补充。
 
 数据来源：[RePEc / IDEAS 经济学聚合排名](https://ideas.repec.org/top/top.journals.all.html)、[FT50](https://guides.lib.purdue.edu/ft50) + [UTD24](https://jsom.utdallas.edu/the-utd-top-100-business-school-research-rankings/list-of-journals) + [ABS AJG 2024](https://charteredabs.org/academic-journal-guide/academic-journal-guide-2024)、[CSSCI 2023–2024 来源期刊目录](https://rwskc.zust.edu.cn/__local/C/2D/AB/B2AE8C5DC9C1A75618611EE3F00_2F8A1CF6_3DC4D.pdf) + [FMS 高质量期刊 2025 版](https://www.fms-journal.net/news/2720)。
 
-### 英文 —— 经管主流 100 本
+### 收录期刊 —— 均已以广度合集形态落地
+
+<details>
+<summary><b>英文 —— 经管主流 100 本</b>（点击展开）</summary>
 
 #### 经济学 Economics (50)
 
@@ -815,7 +842,157 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 9. Journal of the Association for Information Systems (JAIS)
 10. INFORMS Journal on Computing (IJOC)
 
-### 中文 —— 经管主流 100 本
+</details>
+
+<details>
+<summary><b>英文 —— 自然科学 / 临床 / 物理 / 形式科学 100 本</b>（点击展开）</summary>
+
+#### 综合 General science (7)
+
+1. Nature
+2. Science
+3. Proceedings of the National Academy of Sciences (PNAS)
+4. Science Advances
+5. Nature Communications
+6. National Science Review
+7. The Innovation
+
+#### 生命科学 Life sciences (17)
+
+1. Cell
+2. Molecular Cell
+3. Developmental Cell
+4. Cell Stem Cell
+5. Current Biology
+6. Nature Cell Biology
+7. Nature Genetics
+8. Nature Methods
+9. Nature Biotechnology
+10. Nature Structural & Molecular Biology
+11. The EMBO Journal
+12. Genome Biology
+13. Nucleic Acids Research
+14. The Plant Cell
+15. PLOS Biology
+16. eLife
+17. Cell Metabolism
+
+#### 生态与进化 Ecology & evolution (3)
+
+1. Ecology Letters
+2. Nature Ecology & Evolution
+3. Molecular Biology and Evolution
+
+#### 免疫与微生物 Immunology & microbiology (6)
+
+1. Immunity
+2. Nature Immunology
+3. Nature Microbiology
+4. Cell Host & Microbe
+5. Journal of Experimental Medicine
+6. Science Immunology
+
+#### 神经与行为 Neuroscience & behaviour (5)
+
+1. Neuron
+2. Nature Neuroscience
+3. Trends in Cognitive Sciences
+4. Molecular Psychiatry
+5. Nature Human Behaviour
+
+#### 临床医学 Clinical medicine (18)
+
+1. The New England Journal of Medicine (NEJM)
+2. The Lancet
+3. JAMA
+4. The BMJ
+5. Annals of Internal Medicine
+6. PLOS Medicine
+7. Nature Medicine
+8. Science Translational Medicine
+9. Circulation
+10. European Heart Journal
+11. Journal of the American College of Cardiology (JACC)
+12. Gastroenterology
+13. Gut
+14. Blood
+15. Diabetes Care
+16. The Lancet Infectious Diseases
+17. The Lancet Neurology
+18. Journal of Clinical Investigation (JCI)
+
+#### 肿瘤 Oncology (5)
+
+1. Cancer Cell
+2. Cancer Discovery
+3. Journal of Clinical Oncology (JCO)
+4. CA: A Cancer Journal for Clinicians
+5. The Lancet Oncology
+
+#### 物理 Physics (9)
+
+1. Physical Review Letters (PRL)
+2. Physical Review B
+3. Physical Review D
+4. Physical Review X (PRX)
+5. Reviews of Modern Physics (RMP)
+6. Reports on Progress in Physics
+7. Nature Physics
+8. Nature Photonics
+9. PRX Quantum
+
+#### 天文与天体物理 Astronomy & astrophysics (3)
+
+1. The Astrophysical Journal (ApJ)
+2. Monthly Notices of the Royal Astronomical Society (MNRAS)
+3. Nature Astronomy
+
+#### 化学 Chemistry (9)
+
+1. Journal of the American Chemical Society (JACS)
+2. Angewandte Chemie International Edition
+3. Chemical Reviews
+4. Chemical Society Reviews
+5. Accounts of Chemical Research
+6. Nature Chemistry
+7. Nature Catalysis
+8. Chem
+9. ACS Nano
+
+#### 材料与能源 Materials & energy (6)
+
+1. Advanced Materials
+2. Nature Materials
+3. Nature Nanotechnology
+4. Energy & Environmental Science
+5. Joule
+6. Nature Energy
+
+#### 地球与环境 Earth & environment (5)
+
+1. Nature Geoscience
+2. Nature Climate Change
+3. Nature Sustainability
+4. One Earth
+5. Environmental Science & Technology
+
+#### 计算机与人工智能 Computer science & AI (4)
+
+1. IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
+2. Journal of Machine Learning Research (JMLR)
+3. Nature Machine Intelligence
+4. Science Robotics
+
+#### 数学 Mathematics (3)
+
+1. Annals of Mathematics
+2. Inventiones Mathematicae
+3. Journal of the American Mathematical Society (JAMS)
+
+</details>
+
+<details>
+<summary><b>中文 —— 经管主流 102 本</b>（点击展开）</summary>
 
 #### 经济学 (50)
 
@@ -925,6 +1102,8 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 18. 《现代财经（天津财经大学学报）》
 19. 《江西财经大学学报》
 20. 《广东财经大学学报》
+
+</details>
 
 ---
 

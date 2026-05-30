@@ -692,11 +692,38 @@ use next for my manuscript targeted at <journal>.
 
 ## Roadmap
 
-**Status:** both the EN and CN roadmaps below now ship as **breadth bundles** — every venue listed has a fit-and-house-style skill ([English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) for the 100 EN venues, [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) for the ~100 CN venues). The next step is upgrading more of these from breadth profiles to **full 12-step depth packs** (as already done for 12 Chinese flagships + AER). Open an issue to upvote a venue for depth-pack treatment, or PR to add one.
+**Status:** the three breadth bundles below are fully shipped — every venue has a fit-and-house-style skill. The Roadmap now tracks the remaining work: upgrading more venues from a breadth profile to a full 12-step depth pack.
+
+### ✅ Shipped
+
+- **Three breadth bundles** — one fit-and-house-style ("venue selection + house style") skill per journal:
+  - [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) — 102 China econ / management journals
+  - [English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) — 100 English econ / finance / management / accounting / marketing / OM / IS journals
+  - [English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) — 100 English natural-science / clinical / physical / formal-science journals
+- **Per-journal cover cards** for every breadth journal, collapsible cover galleries in both READMEs, and 200 lightweight root entry folders for repo-front browsing.
+- **Full 12-step depth packs** for the highest-impact venues:
+  - English: AER
+  - Chinese flagships (12): 经济研究 · 经济学（季刊）· 中国工业经济 · 世界经济 · 金融研究 · 数量经济技术经济研究 · 管理世界 · 管理科学学报 · 南开管理评论 · 会计研究 · 中国社会科学 · 社会学研究
+  - Natural-science flagships (6): Nature · Science · PNAS · Cell · NEJM · The Lancet
+
+### 🚧 Pending — depth-pack upgrades
+
+The next step is upgrading more venues from a breadth profile to a **full 12-step depth pack**. Prioritized candidates:
+
+- **Economics top-5** (beyond AER): QJE, JPE, Econometrica, REStud
+- **Finance top-3**: Journal of Finance, Journal of Financial Economics, Review of Financial Studies
+- **Management elite**: AMJ, AMR, ASQ, SMJ
+- **Natural science** beyond the six general-science flagships: subject leaders such as JAMA, Cancer Cell, Physical Review Letters, JACS, Annals of Mathematics
+- **Chinese** flagships beyond the current 12: e.g., 中国农村经济, 财经研究, 中国行政管理
+
+Open an issue to upvote a venue for depth-pack treatment, or PR to add one.
 
 Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journals.all.html) (econ), [FT50](https://guides.lib.purdue.edu/ft50) + [UTD24](https://jsom.utdallas.edu/the-utd-top-100-business-school-research-rankings/list-of-journals) + [ABS AJG 2024](https://charteredabs.org/academic-journal-guide/academic-journal-guide-2024) (business); [CSSCI 2023–2024 来源期刊目录](https://rwskc.zust.edu.cn/__local/C/2D/AB/B2AE8C5DC9C1A75618611EE3F00_2F8A1CF6_3DC4D.pdf) + [FMS 高质量期刊 2025 版](https://www.fms-journal.net/news/2720) (中文).
 
-### English — 100 mainstream econ & management journals
+### Covered venues — all shipped as breadth profiles
+
+<details>
+<summary><b>English — 100 econ &amp; management journals</b> &mdash; click to expand</summary>
 
 #### Economics (50)
 
@@ -816,7 +843,157 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 9. Journal of the Association for Information Systems (JAIS)
 10. INFORMS Journal on Computing (IJOC)
 
-### Chinese — 100 mainstream econ & management journals (经管)
+</details>
+
+<details>
+<summary><b>English — 100 natural-science / clinical / physical / formal-science journals</b> &mdash; click to expand</summary>
+
+#### General science (7)
+
+1. Nature
+2. Science
+3. Proceedings of the National Academy of Sciences (PNAS)
+4. Science Advances
+5. Nature Communications
+6. National Science Review
+7. The Innovation
+
+#### Life sciences (17)
+
+1. Cell
+2. Molecular Cell
+3. Developmental Cell
+4. Cell Stem Cell
+5. Current Biology
+6. Nature Cell Biology
+7. Nature Genetics
+8. Nature Methods
+9. Nature Biotechnology
+10. Nature Structural & Molecular Biology
+11. The EMBO Journal
+12. Genome Biology
+13. Nucleic Acids Research
+14. The Plant Cell
+15. PLOS Biology
+16. eLife
+17. Cell Metabolism
+
+#### Ecology & evolution (3)
+
+1. Ecology Letters
+2. Nature Ecology & Evolution
+3. Molecular Biology and Evolution
+
+#### Immunology & microbiology (6)
+
+1. Immunity
+2. Nature Immunology
+3. Nature Microbiology
+4. Cell Host & Microbe
+5. Journal of Experimental Medicine
+6. Science Immunology
+
+#### Neuroscience & behaviour (5)
+
+1. Neuron
+2. Nature Neuroscience
+3. Trends in Cognitive Sciences
+4. Molecular Psychiatry
+5. Nature Human Behaviour
+
+#### Clinical medicine (18)
+
+1. The New England Journal of Medicine (NEJM)
+2. The Lancet
+3. JAMA
+4. The BMJ
+5. Annals of Internal Medicine
+6. PLOS Medicine
+7. Nature Medicine
+8. Science Translational Medicine
+9. Circulation
+10. European Heart Journal
+11. Journal of the American College of Cardiology (JACC)
+12. Gastroenterology
+13. Gut
+14. Blood
+15. Diabetes Care
+16. The Lancet Infectious Diseases
+17. The Lancet Neurology
+18. Journal of Clinical Investigation (JCI)
+
+#### Oncology (5)
+
+1. Cancer Cell
+2. Cancer Discovery
+3. Journal of Clinical Oncology (JCO)
+4. CA: A Cancer Journal for Clinicians
+5. The Lancet Oncology
+
+#### Physics (9)
+
+1. Physical Review Letters (PRL)
+2. Physical Review B
+3. Physical Review D
+4. Physical Review X (PRX)
+5. Reviews of Modern Physics (RMP)
+6. Reports on Progress in Physics
+7. Nature Physics
+8. Nature Photonics
+9. PRX Quantum
+
+#### Astronomy & astrophysics (3)
+
+1. The Astrophysical Journal (ApJ)
+2. Monthly Notices of the Royal Astronomical Society (MNRAS)
+3. Nature Astronomy
+
+#### Chemistry (9)
+
+1. Journal of the American Chemical Society (JACS)
+2. Angewandte Chemie International Edition
+3. Chemical Reviews
+4. Chemical Society Reviews
+5. Accounts of Chemical Research
+6. Nature Chemistry
+7. Nature Catalysis
+8. Chem
+9. ACS Nano
+
+#### Materials & energy (6)
+
+1. Advanced Materials
+2. Nature Materials
+3. Nature Nanotechnology
+4. Energy & Environmental Science
+5. Joule
+6. Nature Energy
+
+#### Earth & environment (5)
+
+1. Nature Geoscience
+2. Nature Climate Change
+3. Nature Sustainability
+4. One Earth
+5. Environmental Science & Technology
+
+#### Computer science & AI (4)
+
+1. IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
+2. Journal of Machine Learning Research (JMLR)
+3. Nature Machine Intelligence
+4. Science Robotics
+
+#### Mathematics (3)
+
+1. Annals of Mathematics
+2. Inventiones Mathematicae
+3. Journal of the American Mathematical Society (JAMS)
+
+</details>
+
+<details>
+<summary><b>Chinese — 102 econ &amp; management journals (经管)</b> &mdash; click to expand</summary>
 
 #### 经济学 (50)
 
@@ -926,6 +1103,8 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 18. 《现代财经（天津财经大学学报）》
 19. 《江西财经大学学报》
 20. 《广东财经大学学报》
+
+</details>
 
 ---
 
