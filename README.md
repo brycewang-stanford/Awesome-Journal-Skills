@@ -3,17 +3,17 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/agent-Claude%20Code-cc785c)](https://github.com/anthropics/claude-code)
-[![Skills](https://img.shields.io/badge/skills-413-cc785c)](#the-skill-packs)
+[![Skills](https://img.shields.io/badge/skills-514-cc785c)](#the-skill-packs)
 
 English | [简体中文](README.zh-CN.md)
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Skills-413-cc785c?style=for-the-badge" alt="413 agent skills">
+  <img src="https://img.shields.io/badge/Skills-514-cc785c?style=for-the-badge" alt="514 agent skills">
   &nbsp;
-  <img src="https://img.shields.io/badge/Skill_Packs-23-2b3137?style=for-the-badge" alt="23 skill packs">
+  <img src="https://img.shields.io/badge/Skill_Packs-24-2b3137?style=for-the-badge" alt="24 skill packs">
 </p>
 <p align="center">
-  <sub><b>413 agent skills</b> across <b>23 curated packs</b> — one index.</sub>
+  <sub><b>514 agent skills</b> across <b>24 curated packs</b> — one index.</sub>
 </p>
 
 A curated index of **journal-specific agent skill packs** for manuscript work — selecting topics, framing the advance, identifying causal effects, formatting tables and figures, preparing replication / data-availability packages, and responding to reviewers. Coverage spans **top social-science journals (Chinese + English)** and **top natural-science and clinical journals (Science, Cell, PNAS, NEJM, The Lancet)**.
@@ -36,7 +36,7 @@ A one-size-fits-all "economics writing" skill cannot encode these differences. E
 
 ## The Skill Packs
 
-> **Scope.** This index targets **top social-science journals (Chinese + English)** and **top natural-science and clinical journals (English)**. Each flagship venue ships as a **depth pack** (full 12-step per-journal workflow); the [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) **breadth bundle** adds one router skill for each of ~100 China econ/management roadmap journals. The 12 flagship Chinese venues are intentionally covered both ways. Natural sciences now ship as **first-party depth packs** (Science, Cell, PNAS, NEJM, The Lancet) alongside the curated third-party Nature packs.
+> **Scope.** This index targets **top social-science journals (Chinese + English)** and **top natural-science and clinical journals (English)**. Each flagship venue ships as a **depth pack** (full 12-step per-journal workflow); two **breadth bundles** add one fit-and-house-style skill per journal — [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) for ~100 China econ/management roadmap journals, and [English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) for the 100 mainstream English econ/finance/management/accounting/marketing/OM/IS journals (every top-5 econ, finance top-3, AOM/SMS elite, FT50/UTD24/ABS 4★). The flagship Chinese venues, and AER on the English side, are intentionally covered both ways. Natural sciences now ship as **first-party depth packs** (Science, Cell, PNAS, NEJM, The Lancet) alongside the curated third-party Nature packs.
 
 ### Social science · Chinese top journals — depth packs
 
@@ -61,11 +61,19 @@ A one-size-fits-all "economics writing" skill cannot encode these differences. E
 |--------|------|----------|-------:|
 | **~100 China econ/management roadmap journals** | [Chinese-SocialScience-Journal-Skills/](Chinese-SocialScience-Journal-Skills/) | one router skill per journal | 103 |
 
-### Social science · English top journals
+### Social science · English top journals — depth pack
 
 | Venue | Pack | Discipline | Skills |
 |-------|------|------------|-------:|
 | **American Economic Review** + AER:Insights + AEJ family | [AER-skills](https://github.com/brycewang-stanford/AER-skills) | Economics (top-5) | 9 |
+
+### Social science · English top journals — breadth bundle
+
+| Bundle | Pack | Coverage | Skills |
+|--------|------|----------|-------:|
+| **100 English econ/management roadmap journals** | [English-SocialScience-Journal-Skills/](English-SocialScience-Journal-Skills/) | one fit-and-house-style skill per journal + `en-journal-workflow` router | 101 |
+
+This bundle covers the full English roadmap below: Economics 50 · Finance 13 · Management/Strategy/Org 15 · Marketing 6 · Accounting 6 · Operations & Information Systems 10. Like the Chinese breadth bundle, each profile is a venue-selection / re-framing tool that defers volatile facts (impact factors, fees, word limits) to a per-journal official-submission re-check.
 
 ### Natural sciences · English top journals — depth packs
 
@@ -93,7 +101,7 @@ Each natural-science pack is opinionated by venue: Science encodes the one-sente
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | Ideation → writing → publication (Claude Code / OpenCode / Codex) | upstream |
 | **Codex/Claude Academic Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | Reading · writing · scientific computing | upstream |
 
-<sub><b>Count methodology.</b> The homepage <b>413</b> = every <code>SKILL.md</code> minus the 9 duplicated Nature plugin-mirror files. Both the breadth bundle and the standalone depth packs are counted, so the 12 flagship Chinese venues covered both ways are counted in both forms. Reconciliation: 145 (12 CN depth) + 60 (5 natural-science depth: Science / Cell / PNAS / NEJM / Lancet, 12 each) + 103 (CN bundle) + 9 (AER) + 27 (Nature family) + 69 (toolkits) = 413.</sub>
+<sub><b>Count methodology.</b> The homepage <b>514</b> = every <code>SKILL.md</code> minus the 9 duplicated Nature plugin-mirror files. Both breadth bundles and the standalone depth packs are counted, so the flagship venues covered both ways (the 12 Chinese flagships; AER) are counted in both forms. Reconciliation: 145 (12 CN depth) + 60 (5 natural-science depth: Science / Cell / PNAS / NEJM / Lancet, 12 each) + 103 (CN bundle) + 101 (EN bundle: 100 journals + 1 router) + 9 (AER) + 27 (Nature family) + 69 (toolkits) = 514.</sub>
 
 <p align="center">
   <a href="Economic-Research-Journal-Skills/"><img src="assets/covers/economic-research.png" alt="《经济研究》 Economic Research" width="116"></a>
@@ -151,7 +159,8 @@ awesome-journal-skills/
 ├── Accounting-Research-Skills/            → 《会计研究》 (13 skills)
 ├── Sociological-Studies-Skills/           → 《社会学研究》 (12 skills)
 ├── Journal-of-Quantitative-and-Technological-Economics-Skills/  → 《数量经济技术经济研究》 (13 skills)
-├── Chinese-SocialScience-Journal-Skills/  → breadth bundle, ~100-journal router (103 skills)
+├── Chinese-SocialScience-Journal-Skills/  → CN breadth bundle, ~100-journal router (103 skills)
+├── English-SocialScience-Journal-Skills/  → EN breadth bundle, 100-journal fit skills + router (101 skills)
 │   # Natural-science & clinical depth packs (first-party, authored / maintained here)
 ├── Science-Skills/                → Science (AAAS) (12 skills)
 ├── Cell-Skills/                   → Cell (Cell Press) (12 skills)
@@ -239,7 +248,7 @@ use next for my manuscript targeted at <journal>.
 
 ## Roadmap
 
-Next-step TODO: build journal-specific packs for the 100 EN + 100 CN venues below. Open an issue to upvote a specific venue, or PR to add one.
+**Status:** both the EN and CN roadmaps below now ship as **breadth bundles** — every venue listed has a fit-and-house-style skill ([English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) for the 100 EN venues, [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) for the ~100 CN venues). The next step is upgrading more of these from breadth profiles to **full 12-step depth packs** (as already done for 12 Chinese flagships + AER). Open an issue to upvote a venue for depth-pack treatment, or PR to add one.
 
 Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journals.all.html) (econ), [FT50](https://guides.lib.purdue.edu/ft50) + [UTD24](https://jsom.utdallas.edu/the-utd-top-100-business-school-research-rankings/list-of-journals) + [ABS AJG 2024](https://charteredabs.org/academic-journal-guide/academic-journal-guide-2024) (business); [CSSCI 2023–2024 来源期刊目录](https://rwskc.zust.edu.cn/__local/C/2D/AB/B2AE8C5DC9C1A75618611EE3F00_2F8A1CF6_3DC4D.pdf) + [FMS 高质量期刊 2025 版](https://www.fms-journal.net/news/2720) (中文).
 

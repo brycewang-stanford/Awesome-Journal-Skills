@@ -1,0 +1,26 @@
+{
+  "name": "english-socsci-journal-skills",
+  "description": "Agent skill stack for the 100 mainstream English-language economics / finance / management / accounting / marketing / operations / information-systems journals on the roadmap (all the top-5 econ, finance top-3, AOM/SMS elite, FT50, UTD24, ABS 4* venues). One self-contained fit-and-house-style skill per journal, plus en-journal-workflow routing.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "economics",
+    "finance",
+    "management",
+    "accounting",
+    "marketing",
+    "operations-research",
+    "information-systems",
+    "top-5",
+    "ft50",
+    "utd24",
+    "academic-writing",
+    "journal-submission"
+  ]
+}

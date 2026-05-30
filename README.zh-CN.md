@@ -3,17 +3,17 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/agent-Claude%20Code-cc785c)](https://github.com/anthropics/claude-code)
-[![Skills](https://img.shields.io/badge/skills-413-cc785c)](#skill-pack-一览)
+[![Skills](https://img.shields.io/badge/skills-514-cc785c)](#skill-pack-一览)
 
 [English](README.md) | 简体中文
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Skills-413-cc785c?style=for-the-badge" alt="413 个 Agent Skill">
+  <img src="https://img.shields.io/badge/Skills-514-cc785c?style=for-the-badge" alt="514 个 Agent Skill">
   &nbsp;
-  <img src="https://img.shields.io/badge/Skill_Packs-23-2b3137?style=for-the-badge" alt="23 个 Skill 包">
+  <img src="https://img.shields.io/badge/Skill_Packs-24-2b3137?style=for-the-badge" alt="24 个 Skill 包">
 </p>
 <p align="center">
-  <sub>共收录 <b>413 个 Agent Skill</b>，分布在 <b>23 个精选 Skill 包</b>中——一站式索引。</sub>
+  <sub>共收录 <b>514 个 Agent Skill</b>，分布在 <b>24 个精选 Skill 包</b>中——一站式索引。</sub>
 </p>
 
 按**期刊**组织的 Agent Skill 包索引——涵盖选题、定位核心进展、识别策略、表格与图件规范、复制包 / 数据可得性准备、修改回复。覆盖**社会科学中英文顶刊**，以及**自然科学与临床顶刊（Science、Cell、PNAS、NEJM、The Lancet）**。
@@ -36,7 +36,7 @@
 
 ## Skill Pack 一览
 
-> **收录范围。** 本索引聚焦**社会科学中英文顶刊**，以及**自然科学与临床英文顶刊**。每个重点期刊都是一个**深度包**（单刊全流程，12 步）；[Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) **广度合集**则为约 100 本中文经管路线图期刊各提供 1 个 router 技能。12 本重点中文期刊有意同时以两种形态收录。自然科学现已提供**自有深度包**（Science、Cell、PNAS、NEJM、The Lancet），与收录的第三方 Nature 包并列。
+> **收录范围。** 本索引聚焦**社会科学中英文顶刊**，以及**自然科学与临床英文顶刊**。每个重点期刊都是一个**深度包**（单刊全流程，12 步）；两个**广度合集**则为每本期刊各提供一个“选刊定位 + 写作风格”技能——[Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) 覆盖约 100 本中文经管路线图期刊，[English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) 覆盖 100 本英文主流经济学/金融/管理/会计/营销/运营/信息系统期刊（经济学全部 Top-5、金融 Top-3、AOM/SMS 顶刊、FT50/UTD24/ABS 4★）。12 本重点中文期刊、以及英文侧的 AER，有意同时以两种形态收录。自然科学现已提供**自有深度包**（Science、Cell、PNAS、NEJM、The Lancet），与收录的第三方 Nature 包并列。
 
 ### 社会科学 · 中文顶刊 —— 深度独立包
 
@@ -61,11 +61,19 @@
 |------|------|------|-------:|
 | **约 100 本中文经管路线图期刊** | [Chinese-SocialScience-Journal-Skills/](Chinese-SocialScience-Journal-Skills/) | 一刊一个 router 技能 | 103 |
 
-### 社会科学 · 英文顶刊
+### 社会科学 · 英文顶刊 —— 深度独立包
 
 | 期刊 | Pack | 学科 | 技能数 |
 |------|------|------|-------:|
 | **American Economic Review** + AER:Insights + AEJ 系列 | [AER-skills](https://github.com/brycewang-stanford/AER-skills) | 经济学（Top-5） | 9 |
+
+### 社会科学 · 英文顶刊 —— 广度合集
+
+| 合集 | Pack | 覆盖 | 技能数 |
+|------|------|------|-------:|
+| **100 本英文经管路线图期刊** | [English-SocialScience-Journal-Skills/](English-SocialScience-Journal-Skills/) | 一刊一个“选刊定位 + 写作风格”技能 + `en-journal-workflow` 路由 | 101 |
+
+该合集覆盖下方完整英文路线图：经济学 50 · 金融 13 · 管理/战略/组织 15 · 营销 6 · 会计 6 · 运营与信息系统 10。与中文广度合集一致，每个 profile 都是“选刊 / 改写框架”工具，并把易变事实（影响因子、版面费、字数限制）交由单刊“官方核验清单”在投稿前重新核对。
 
 ### 自然科学 · 英文顶刊 —— 深度独立包
 
@@ -93,7 +101,7 @@
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | 选题 → 写作 → 发表（Claude Code / OpenCode / Codex） | upstream |
 | **Codex/Claude 学术 Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | 阅读 · 写作 · 科学计算 | upstream |
 
-<sub><b>计数口径。</b> 首页 <b>413</b> = 仓库内全部 <code>SKILL.md</code> 减去 9 个 Nature 插件镜像重复文件。广度合集与深度独立包均计入，因此 12 本同时双形态收录的重点中文期刊会被计两次。对账：145（12 中文深度包）+ 60（5 个自然科学深度包：Science / Cell / PNAS / NEJM / Lancet，各 12）+ 103（中文合集）+ 9（AER）+ 27（Nature 系）+ 69（通用工具）= 413。</sub>
+<sub><b>计数口径。</b> 首页 <b>514</b> = 仓库内全部 <code>SKILL.md</code> 减去 9 个 Nature 插件镜像重复文件。两个广度合集与深度独立包均计入，因此同时双形态收录的重点期刊（12 本重点中文期刊；AER）会被计两次。对账：145（12 中文深度包）+ 60（5 个自然科学深度包：Science / Cell / PNAS / NEJM / Lancet，各 12）+ 103（中文合集）+ 101（英文合集：100 本期刊 + 1 路由）+ 9（AER）+ 27（Nature 系）+ 69（通用工具）= 514。</sub>
 
 <p align="center">
   <a href="Economic-Research-Journal-Skills/"><img src="assets/covers/economic-research.png" alt="《经济研究》 Economic Research" width="116"></a>
@@ -151,7 +159,8 @@ awesome-journal-skills/
 ├── Accounting-Research-Skills/            → 《会计研究》（13 skills）
 ├── Sociological-Studies-Skills/           → 《社会学研究》（12 skills）
 ├── Journal-of-Quantitative-and-Technological-Economics-Skills/  → 《数量经济技术经济研究》（13 skills）
-├── Chinese-SocialScience-Journal-Skills/  → 广度合集，约 100 本期刊 router（103 skills）
+├── Chinese-SocialScience-Journal-Skills/  → 中文广度合集，约 100 本期刊 router（103 skills）
+├── English-SocialScience-Journal-Skills/  → 英文广度合集，100 本期刊 fit 技能 + 路由（101 skills）
 │   # 自然科学与临床深度包（本仓库内编写维护）
 ├── Science-Skills/                → Science（AAAS）（12 skills）
 ├── Cell-Skills/                   → Cell（Cell Press）（12 skills）
@@ -238,7 +247,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 
 ## 路线图
 
-下一步 TODO：为下列 100 本英文 + 100 本中文主流经管期刊各做一个 journal-specific pack。希望优先支持某本，请提 issue 或 PR 补充。
+**进度：** 下方英文与中文两份路线图现已全部以**广度合集**形态落地——每本期刊都有一个“选刊定位 + 写作风格”技能（[English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) 覆盖 100 本英文期刊，[Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) 覆盖约 100 本中文期刊）。下一步是把更多期刊从广度 profile 升级为**单刊全流程深度包**（已对 12 本中文重点期刊 + AER 完成）。希望优先把某本升级为深度包，请提 issue 或 PR 补充。
 
 数据来源：[RePEc / IDEAS 经济学聚合排名](https://ideas.repec.org/top/top.journals.all.html)、[FT50](https://guides.lib.purdue.edu/ft50) + [UTD24](https://jsom.utdallas.edu/the-utd-top-100-business-school-research-rankings/list-of-journals) + [ABS AJG 2024](https://charteredabs.org/academic-journal-guide/academic-journal-guide-2024)、[CSSCI 2023–2024 来源期刊目录](https://rwskc.zust.edu.cn/__local/C/2D/AB/B2AE8C5DC9C1A75618611EE3F00_2F8A1CF6_3DC4D.pdf) + [FMS 高质量期刊 2025 版](https://www.fms-journal.net/news/2720)。
 
