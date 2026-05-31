@@ -17,6 +17,8 @@ Science does NOT contain Cell Press "STAR Methods"; earlier claim retracted.)
   Physical-Review-Letters, Journal-of-the-American-Chemical-Society, Annals-of-Mathematics.
   (Detected active on Cell-Skills via uncommitted plugin.json version bump.)
 - **Agent A (me) — Social Science**: English econ/finance/management flagships + Chinese depth packs.
+- **Codex — Repository audit lane**: root README counts, marketplace metadata consistency,
+  `tools/audit_repo.py`, and CI audit workflow. No journal-content rewrites and no submodule edits.
 
 ## Claim log
 | Pack | Agent | Status | Notes |
@@ -30,4 +32,4 @@ Science does NOT contain Cell Press "STAR Methods"; earlier claim retracted.)
 | Review-of-Financial-Studies-Skills | A | queued | |
 
 ## Out of scope (git submodules — do NOT edit)
-AER-Skills, Nature-Skills, nature-paper-skills, claude-scholar, codex-claude-academic-skills
+AER-skills, nature-skills, nature-paper-skills, claude-scholar, codex-claude-academic-skills

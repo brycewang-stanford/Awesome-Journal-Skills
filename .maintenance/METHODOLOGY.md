@@ -24,7 +24,7 @@ top-5 advice with zero venue-specific facts. Each pack must become genuinely ven
 5. Leave edits **uncommitted** for the user's final 验收 (do not push). Log in PROGRESS.md.
 
 ## Invariants (do not break)
-- Keep skill **count** and folder **names** stable (README claims 843 skills; counts must not drift).
+- Keep skill **count** and folder **names** stable (README claims 844 skills; counts must not drift).
 - Keep YAML frontmatter keys (`name`, `description`).
 - Keep `## Related skills` cross-links valid.
 - Never invent editor names, fees, or limits — flag UNVERIFIED instead.

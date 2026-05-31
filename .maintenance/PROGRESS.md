@@ -70,6 +70,31 @@ similar across journals), NOT name-swap cloning. Pre-fix English packs sat near 
 
 Verdict: **no hidden clones** in the Chinese packs — they are genuinely differentiated. No rewrite needed.
 
+## Wave 7 — repository audit guardrails (Codex)
+- Added `tools/audit_repo.py` plus `.github/workflows/repo-audit.yml`.
+- Audit covers canonical `SKILL.md` count, curated pack count, 200 root journal entry folders,
+  plugin/marketplace version drift, declared-vs-actual marketplace skills, skill frontmatter,
+  and local README links.
+- Updated homepage count methodology from 843 to 844 after the current `nature-skills`
+  submodule state added a tenth Nature plugin-mirror duplicate and one more Nature-family skill.
+- Synced marketplace versions to 0.2.0 for the seven Chinese depth packs whose plugin.json had
+  already been bumped, and added missing `er-abstract` + `er-style` declarations to
+  `Economic-Research-Journal-Skills/.claude-plugin/marketplace.json`.
+- Updated clone instructions to use first-level `git submodule update --init`; recursive submodule
+  status currently fails inside imported `claude-scholar` because of an upstream nested mapping.
+- Tightened `.github/workflows/sync-submodules.yml` so the bot stages only known submodule
+  pointers instead of running `git add .`.
+- Verified: `python3 tools/audit_repo.py`, `python3 -m py_compile tools/audit_repo.py`,
+  `git diff --check`.
+
+## Wave 8 — repository documentation polish (Codex)
+- Normalized the Chinese breadth-bundle wording in root README files:
+  102 Chinese social-science journal profiles = 100 China econ/management roadmap journals
+  + 2 broader social-science flagships; 103 skills = 102 profiles + 1 router.
+- Added root `CONTRIBUTING.md` for multi-agent coordination, safe change boundaries,
+  audit commands, journal-content verification rules, and first-level submodule guidance.
+- Linked the contributing guide from both `README.md` and `README.zh-CN.md`.
+
 ## Completed
 | Pack | Words before→after | Key venue facts added | Notes |
 |------|--------|----------|-------|
