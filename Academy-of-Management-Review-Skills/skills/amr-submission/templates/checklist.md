@@ -73,6 +73,6 @@ Academy of Management author page before submitting.
 - [ ] Prior conference/working-paper version disclosed if required
 - [ ] Similarity check run; self-overlap disclosed
 - [ ] Registered in the AMR ScholarOne portal; correct article type selected
-- [ ] Submission fee and AOM membership requirement checked (both UNVERIFIED — confirm; do not assume)
+- [ ] Submission fee (none — AOM does not charge submission fees) and AOM membership requirement (confirm on author guidelines) checked
 - [ ] Files staged: anonymized manuscript + separate title page + any required forms
 - [ ] Within portal file-size and file-type limits

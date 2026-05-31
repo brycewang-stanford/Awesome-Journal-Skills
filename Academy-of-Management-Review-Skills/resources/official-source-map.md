@@ -47,13 +47,16 @@ in the skills.
 
 ## UNVERIFIED (do not invent; confirm before relying)
 
-- **Current Editor-in-Chief and Associate Editors** — editorial-leadership and journal pages
-  are JS-rendered; names not reliably extractable on access date. Confirm at Sources 2–3.
+- **[Resolved 2026-05] Current Editor-in-Chief**: **Kris Byron** (Georgia State University) —
+  appointed AMR Editor-in-Chief in 2023, succeeding Sherry M. B. Thatcher (verified via the AOM
+  AMR editorial-team page and the Georgia State University announcement). **Associate Editors** —
+  confirm the current slate at Sources 2–3.
 - **Manuscript word/page limit** and **abstract word limit** — not machine-readable from the
   style guide / author guidelines on access date. Confirm at Sources 4–5.
 - **APA edition** (e.g., 6th vs. 7th) used by AOM/AMR. Confirm at Sources 4–5.
-- **Submission fee** (existence and amount) and **AOM membership requirement** to submit.
-  Confirm at Source 4.
+- **[Resolved 2026-05] Submission fee**: none — the Academy of Management does not charge
+  submission fees (verified at aom.org). **AOM membership requirement** to submit: not confirmed
+  either way; confirm at Source 4.
 - **Number of reviewers per manuscript** and exact **acceptance rate**. Confirm at Source 4
   and AOM annual reports.
 - **AI-assistance / disclosure policy** specifics. Confirm at Source 4.

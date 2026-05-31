@@ -72,7 +72,7 @@ description: Use when running the final pre-submission preflight for an Academy 
 - Enter author metadata only in the system, never in the anonymized manuscript.
 - Suggested/opposed reviewers: provide only if the system asks and per its limits.
 - Choose the correct submission/article type (theoretical/conceptual article).
-- **Submission fee** and **AOM membership** requirement: both **UNVERIFIED** — confirm on the AOM author guidelines; do not assume a fee.
+- **Submission fee**: none — the Academy of Management does not charge submission fees (verified at aom.org, 2026-05). **AOM membership** to submit: confirm on the AOM author guidelines (not assumed).
 - Keep within the file-size and file-type limits the portal states.
 
 ## Anti-patterns
