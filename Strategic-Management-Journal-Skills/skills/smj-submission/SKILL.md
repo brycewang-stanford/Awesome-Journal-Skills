@@ -52,7 +52,7 @@ SMJ uses double-blind review. Before upload:
 - Brief: state the title, the strategy contribution in 2–3 sentences, and why **SMJ** (not the SMS siblings SEJ or GSJ) is the right outlet.
 - Confirm the work is original, not under review elsewhere, and that all authors approve.
 - Note any special-issue call you are responding to.
-- Do not oversell or summarize the whole paper; a Co-Editor (Agarwal, Benner, Gaba, or Silverman) screens it first and an action editor reads the manuscript.
+- Do not oversell or summarize the whole paper; a Co-Editor screens it first and an action editor reads the manuscript.
 
 ## Anti-patterns
 
