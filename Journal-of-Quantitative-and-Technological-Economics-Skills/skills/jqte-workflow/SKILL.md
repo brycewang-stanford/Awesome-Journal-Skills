@@ -59,7 +59,7 @@ description: Use when deciding which jqte-* sub-skill to invoke next, or when se
 
 - 干净因果 + 理论：转 economic-research / china-economic-quarterly
 - 产业政策实证 + 厚稳健性：转 china-industrial-economics
-- 数理模型/算法本身是贡献：转 journal-of-management-sciences-in-china
+- 数理模型/算法本身是贡献：转 journal-of-management-sciences-china
 - 本刊要的是**测度/方法/预测的应用价值 + 可复现**，因果识别可选、不强求
 
 ## 反模式

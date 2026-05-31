@@ -56,7 +56,7 @@ description: Use when deciding which nbr-* sub-skill to invoke next, or when seq
 
 ## 与本仓库其它期刊包的差异（改投判断）
 
-- 数理模型 + 定理/算法/最优化 → **管理科学学报**（journal-of-management-sciences-in-china）
+- 数理模型 + 定理/算法/最优化 → **管理科学学报**（journal-of-management-sciences-china）
 - 宏观政策实证 + 政策评估/政策含义 → **管理世界** / 中国工业经济
 - 公司治理偏资本市场/财务实证 → **会计研究**（accounting-research）/ **金融研究**（journal-of-financial-research）
 - NBR 要的是**管理理论建构 + 测量规范 + 情境化**，方法服务理论

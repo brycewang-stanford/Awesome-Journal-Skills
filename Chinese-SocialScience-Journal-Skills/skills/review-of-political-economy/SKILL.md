@@ -61,7 +61,7 @@ description: Use when targeting 《政治经济学评论》(Review of Political 
 
 ## 改投判断
 
-经验识别强的经济学稿转 economic-research；改革政策稿转 reform/economic-and-social-systems-comparison。
+经验识别强的经济学稿转 economic-research；改革政策稿转 reform/comparative-economic-and-social-systems。
 
 ## 输出格式
 
