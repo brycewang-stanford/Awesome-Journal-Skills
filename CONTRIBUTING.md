@@ -33,10 +33,18 @@ Run the repository audit before opening a PR:
 python3 tools/audit_repo.py
 ```
 
+For journal-content rewrites, run the clone audit on the affected pack or on
+all first-party skills:
+
+```bash
+python3 tools/clone_audit.py --bundle Chinese-SocialScience-Journal-Skills --group-all --threshold 0.70
+python3 tools/clone_audit.py --threshold 0.70
+```
+
 For edits touching Python tooling, also run:
 
 ```bash
-python3 -m py_compile tools/audit_repo.py
+python3 -m py_compile tools/audit_repo.py tools/clone_audit.py
 ```
 
 Always run:
