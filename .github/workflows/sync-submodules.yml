@@ -22,7 +22,12 @@ jobs:
 
       - name: Update submodules to latest remote
         run: |
-          git submodule update --remote --merge
+          git submodule update --remote --merge \
+            AER-skills \
+            nature-skills \
+            nature-paper-skills \
+            claude-scholar \
+            codex-claude-academic-skills
           git submodule status
 
       - name: Commit & push if changed
@@ -33,6 +38,6 @@ jobs:
             echo "No submodule updates."
             exit 0
           fi
-          git add .
+          git add AER-skills nature-skills nature-paper-skills claude-scholar codex-claude-academic-skills
           git commit -m "chore: bump submodules to latest upstream"
           git push
