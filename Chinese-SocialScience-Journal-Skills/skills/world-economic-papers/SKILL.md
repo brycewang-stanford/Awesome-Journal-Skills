@@ -1,15 +1,24 @@
 ---
 name: world-economic-papers
-description: Use when targeting 《世界经济文汇》(World Economic Papers) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《世界经济文汇》(World Economic Papers — 复旦大学经济学院主办的双月刊, 国内较早实行双向匿名审稿的经济学刊) or deciding whether an international-economics/open-economy manuscript fits this venue. Encodes the journal's double-blind review, 摘要≤200字/3关键词/音序参考文献 house style, official re-check, and desk-reject heuristics.
 ---
 
 # 《世界经济文汇》投稿（world-economic-papers）
 
 ## 期刊定位
 
-复旦大学相关的世界经济刊物，适合国际经济、国际金融和开放经济研究。
+《世界经济文汇》由**复旦大学（经济学院）**主办，是 CSSCI 来源期刊（**双月刊**，1957 年创刊），也是国内较早实行**双向匿名审稿**的经济学杂志之一。覆盖国际经济、国际金融、开放宏观、全球价值链与区域一体化，偏好规范的理论建模与计量实证，对识别和机制要求高。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办**：复旦大学（经济学院）；CSSCI 来源期刊，双月刊，1957 年创刊。
+- **审稿**：国内较早实行**双向匿名审稿**；进入匿名程序后每轮审稿周期约 **2 个月**；录用一般在收稿后约 2 个月内通知作者。
+- **费用**：聚合平台标注版面费/审稿费为“无”（待以编辑部最新通知核实）。
+- **摘要/关键词**：中文摘要**不超过 200 字**；中文关键词 **3 个**；提供中英文标题。
+- **参考文献**：列于文末，中外文**统一按音序排列**（不分语种）。
+- **投稿/官网**：采编系统 sjjjwh.magtech.com.cn；编辑部邮箱以官网为准（曾公布 wep@fudan.edu.cn）。
 
 ## 触发时机
 
@@ -39,10 +48,10 @@ description: Use when targeting 《世界经济文汇》(World Economic Papers) 
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
-- 核对该刊是否要求“专投”、网络投稿、摘要关键词和参考文献格式
+- 核对双向匿名所需的正文匿名处理、摘要≤200 字、3 个关键词、参考文献音序排列
 - 确认国际数据来源、国家/行业口径与汇率处理
-- 检索“《世界经济文汇》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
+- 检索“《世界经济文汇》 投稿须知 / 征稿简则 / 作者指南”，以最新页面（sjjjwh.magtech.com.cn）为准；不要沿用二手代投网站格式
+- 核对作者信息页、基金信息单列、数据/程序/补充材料、版权协议；每轮审稿约 2 个月
 - 若本 skill 与最新官方要求冲突，以官方要求为准
 
 ## 投稿前自检
@@ -50,7 +59,8 @@ description: Use when targeting 《世界经济文汇》(World Economic Papers) 
 - [ ] 一句话说明为什么这篇稿件属于《世界经济文汇》的核心读者范围
 - [ ] 引言前 3 段已经出现本刊关心的问题层级、理论/机制和主要证据
 - [ ] 文献综述至少对话 2-3 篇本刊或同层级中文期刊近年同主题文章
-- [ ] 方法、数据、图表和参考文献格式已按最新官方稿约复核
+- [ ] 正文已匿名；中文摘要≤200 字、3 个关键词、中英文标题齐全；参考文献按音序排列
+- [ ] 识别与机制达双向匿名严审标准；预留每轮约 2 个月的审稿周期
 - [ ] 政策/管理启示从本文证据推出，而不是泛泛口号
 
 ## 高频拒稿雷区
@@ -61,7 +71,7 @@ description: Use when targeting 《世界经济文汇》(World Economic Papers) 
 
 ## 改投判断
 
-更政策评论转 international-economic-review-cn；更技术计量转 journal-of-world-economy/CEQ。
+更政策评论转 international-economic-review-cn（《国际经济评论》）；更技术计量、贡献更通用转 journal-of-world-economy（《世界经济》）或 china-economic-quarterly（《经济学（季刊）》）。
 
 ## 输出格式
 

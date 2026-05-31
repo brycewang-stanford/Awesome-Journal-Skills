@@ -1,15 +1,24 @@
 ---
 name: industrial-economics-research
-description: Use when targeting 《产业经济研究》(Industrial Economics Research) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《产业经济研究》(Industrial Economics Research — 江苏省教育厅主管、南京财经大学主办的产业经济专业双月刊, 2002 年创刊, CSSCI) or deciding whether a Chinese industrial-econ manuscript fits this venue. Encodes the journal's fit, framing, abstract/keyword house style, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《产业经济研究》投稿（industrial-economics-research）
 
 ## 期刊定位
 
-南京财经大学主办的产业经济专业刊，适合产业组织、企业行为和产业政策评估。
+《产业经济研究》由**江苏省教育厅主管、南京财经大学主办**，**2002 年**创刊，是国内较早专门研究产业组织、产业结构、产业政策与产业规制的**产业经济专业双月刊**，CSSCI 来源期刊。适合产业组织、竞争政策、市场结构、企业创新与生产率、数字化转型、产业链与绿色转型等专业实证与政策评估。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主管/主办**：江苏省教育厅主管、南京财经大学主办；产业经济专业双月刊，2002 年创刊；CSSCI 来源期刊。
+- **审稿周期**：约 **1–3 个月**（以采编系统反馈为准）。
+- **摘要**：CNKI 采编公布要求中文摘要**约 350 字以上**（报道性文摘，含目的、方法、结果、结论），并附英文摘要；不同版本字数表述有差异，以官网最新为准。
+- **关键词**：**5 个以上**（部分版本表述 3–5 个；以官网最新为准），并附英文关键词。
+- **投稿方式**：CNKI 采编系统 **cyjj.cbpt.cnki.net**。
+- **费用**：官方《投稿须知》未明确，**待核实**（勿采信第三方代投平台报价）。
 
 ## 触发时机
 

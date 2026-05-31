@@ -1,13 +1,13 @@
 ---
 name: systems-engineering-theory-and-practice
-description: Use when targeting 《系统工程理论与实践》(Systems Engineering Theory and Practice) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《系统工程理论与实践》(Systems Engineering Theory and Practice — 中国系统工程学会会刊, 中国科协主管, 1981 年创刊月刊, 国自然管理科学 A 级 / EI 收录) or deciding whether a Chinese systems-engineering/management-science manuscript fits this venue. Encodes the journal's fit, framing, abstract/citation house style, review timeline, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《系统工程理论与实践》投稿（systems-engineering-theory-and-practice）
 
 ## 期刊定位
 
-系统工程与管理科学顶级中文刊，强调模型、优化、复杂系统和实践验证。
+《系统工程理论与实践》是**中国系统工程学会会刊**，由**中国科学技术协会**主管、**中国系统工程学会**主办，**1981 年**创刊，为**月刊**（每月 25 日出版）。本刊是国家自然科学基金委员会管理科学部 **A 级重要学术期刊**，全部论文被 **EI 收录**，长期为全国中文核心期刊。强调系统建模、优化、复杂系统、决策支持与实践验证——能源、交通、供应链、应急、金融工程等系统工程问题均在范围内，但稿件须有清晰的模型/算法贡献而非纯实证或政策评估。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -17,6 +17,16 @@ description: Use when targeting 《系统工程理论与实践》(Systems Engine
 - 稿件主题接近本刊，但不确定问题意识、方法强度和读者对象是否匹配
 - 需要把一篇通用中文经管稿改写成《系统工程理论与实践》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主管 / 主办**：中国科协主管、中国系统工程学会主办（学会会刊）；**月刊**，每月 25 日出版，1981 创刊。
+- **级别 / 收录**：国家自然科学基金委管理科学部 A 级重要期刊；全部论文 **EI 收录**；中文核心。
+- **摘要**：须具独立性与自明性，含研究目的、方法、结果与结论；应陈述核心内容（创新点、实质进展、重要意义），不重复文题、不宜过短。
+- **参考文献**：采用**顺序编码制**。
+- **审稿周期**：预计约 **1–3 个月**（以编辑部最新为准）。
+- **投稿方式**：官网采编系统在线投稿（sysengi.cjoe.ac.cn）。
+- **费用 / 匿名审稿**：审稿费、版面费与匿名模式以官网最新《投稿须知》为准（**待核实**，不臆断）。
 
 ## 选题偏好
 
@@ -38,18 +48,19 @@ description: Use when targeting 《系统工程理论与实践》(Systems Engine
 
 ## 官方核验清单
 
-- 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
-- 核对数学符号、图表、摘要、参考文献和附录证明要求
-- 确认在线投稿与模板版本
-- 检索“《系统工程理论与实践》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
-- 若本 skill 与最新官方要求冲突，以官方要求为准
+- 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从官方来源锚点开始核验，并在回答中说明核验日期。
+- 检索“《系统工程理论与实践》 投稿须知 / 征稿简则 / 作者指南”，以官网（sysengi.cjoe.ac.cn）最新页面为准；不要沿用二手代投网站格式。
+- 核对数学符号、图表、摘要、关键词、顺序编码参考文献和附录证明要求。
+- 核对 EI 收录对英文摘要/标题/关键词的规范要求，以及是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议。
+- 再次确认审稿周期（约 1–3 个月）与最新格式（上面数值可能随官网更新而变化）。
+- 若本 skill 与最新官方要求冲突，以官方要求为准。
 
 ## 投稿前自检
 
 - [ ] 一句话说明为什么这篇稿件属于《系统工程理论与实践》的核心读者范围
 - [ ] 引言前 3 段已经出现本刊关心的问题层级、理论/机制和主要证据
 - [ ] 文献综述至少对话 2-3 篇本刊或同层级中文期刊近年同主题文章
+- [ ] 摘要含目的/方法/结果/结论、参考文献顺序编码、英文摘要符合 EI 规范
 - [ ] 方法、数据、图表和参考文献格式已按最新官方稿约复核
 - [ ] 政策/管理启示从本文证据推出，而不是泛泛口号
 
@@ -61,7 +72,7 @@ description: Use when targeting 《系统工程理论与实践》(Systems Engine
 
 ## 改投判断
 
-纯管理理论转 management-review；工程项目管理转 frontiers-of-engineering-management-science-and-technology。
+纯管理理论 / 构念建构 → management-review（《管理评论》）；工程项目管理与重大工程落点 → frontiers-of-engineering-management-science-and-technology（《工程管理科技前沿》）；更偏运筹优化旗舰 → journal-of-management-sciences-china（《管理科学学报》）/ chinese-journal-of-management-science（《中国管理科学》）。
 
 ## 输出格式
 
@@ -71,6 +82,6 @@ description: Use when targeting 《系统工程理论与实践》(Systems Engine
 【选题标签】<最贴近的 2-3 个主题>
 【方法证据】<当前方法是否够本刊标准>
 【最大风险】<最可能导致退稿的一点>
-【需核验官方要求】<投稿系统/匿名/摘要/图表/数据等>
+【需核验官方要求】<投稿系统/匿名/摘要/EI英文摘要/顺序编码参考文献/审稿周期等>
 【改投建议】<若不匹配，给出更合适期刊>
 ```

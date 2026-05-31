@@ -1,13 +1,13 @@
 ---
 name: journal-of-guangdong-university-of-finance-and-economics
-description: Use when targeting 《广东财经大学学报》(Journal of Guangdong University of Finance and Economics) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《广东财经大学学报》(Journal of Guangdong University of Finance and Economics — 广东财经大学主办、研究经管法为主的财经综合双月刊, 原名《广东商学院学报》, 设“法和经济学/粤商与广东经济”等八栏目, 在线投稿、不收版面费) or deciding whether a Chinese econ/management manuscript fits this venue. Encodes the journal's fit, framing, house style, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《广东财经大学学报》投稿（journal-of-guangdong-university-of-finance-and-economics）
 
 ## 期刊定位
 
-广东财经大学学报，湾区经济、法商融合、财政金融和数字经济特色明显。
+《广东财经大学学报》（原《广东商学院学报》）由**广东财经大学**主办，是研究**经、管、法为主**的财经综合类学术**双月刊**（大 16 开、96 页、单月 28 日出版），CSSCI 来源期刊。设“经济理论与探索、金融与资本市场、财税与公共管理、公司财务与会计、企业与商务经济、城镇化与农村经济、粤商与广东经济、法和经济学”**八个栏目**——**法经济学、粤港澳大湾区/粤商**特色明显，是其与同省综合经济刊的差异点。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -17,6 +17,16 @@ description: Use when targeting 《广东财经大学学报》(Journal of Guangd
 - 稿件主题接近本刊，但不确定问题意识、方法强度和读者对象是否匹配
 - 需要把一篇通用中文经管稿改写成《广东财经大学学报》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办**：广东财经大学（原广东商学院）；经管法为主的财经综合双月刊；CSSCI 来源期刊。官网 xb.gdufe.edu.cn。
+- **费用**：列入第一批认定学术期刊，**不收版面费**（其余费用以官网声明为准）。
+- **投稿/周期**：所有来稿走**网上投稿系统**；**超过 3 个月**作者可自行处理稿件（以官网最新为准）。
+- **摘要**：客观陈述主要论点、观点，**不使用“本文……/笔者认为……”**之类表述。
+- **关键词**：选反映主题的词或词组 **3–8 个**，以**分号**分隔。
+- **参考文献**：文内序号用**方括号上标**（如 [1]），按正文出现次序标引，文尾与内文一一对应。
+- **要件顺序**：中英文文题、作者姓名、工作单位、摘要、关键词、基金项目、作者简介、参考文献、联系方式。
 
 ## 选题偏好
 
@@ -41,7 +51,7 @@ description: Use when targeting 《广东财经大学学报》(Journal of Guangd
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
 - 核对官网稿约、匿名/非匿名、基金脚注、摘要关键词和参考文献格式
 - 确认是否接受网络首发和数据库收录声明
-- 检索“《广东财经大学学报》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
+- 检索“《广东财经大学学报》 投稿须知”，并以学报官网 xb.gdufe.edu.cn 与其网上投稿系统的最新页面为准；不要沿用二手代投网站格式
 - 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
 - 若本 skill 与最新官方要求冲突，以官方要求为准
 

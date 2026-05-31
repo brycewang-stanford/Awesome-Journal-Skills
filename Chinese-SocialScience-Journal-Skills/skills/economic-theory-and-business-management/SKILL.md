@@ -1,15 +1,25 @@
 ---
 name: economic-theory-and-business-management
-description: Use when targeting 《经济理论与经济管理》(Economic Theory and Business Management) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《经济理论与经济管理》(Economic Theory and Business Management — 教育部主管、中国人民大学主办的经济学月刊, 1981 年创刊, CSSCI) or deciding whether a Chinese econ/management manuscript fits this venue. Encodes the journal's fit, framing, abstract/keyword house style, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《经济理论与经济管理》投稿（economic-theory-and-business-management）
 
 ## 期刊定位
 
-中国人民大学主办，兼具经济理论、经济管理与政策分析，适合理论解释和管理实践交叉稿。
+《经济理论与经济管理》由**教育部主管、中国人民大学主办**，是经济学**月刊**，**1981 年**创刊，CSSCI 来源期刊。兼具经济理论、经济管理与政策分析，适合理论解释与管理实践交叉稿——经济理论与中国经济实践、企业管理、产业组织、政策治理、宏观调控、分配与发展战略。强调原创性、思想新颖与论证严谨。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主管/主办**：教育部主管、中国人民大学主办；经济学月刊，1981 年创刊；CSSCI 来源期刊。
+- **审稿周期**：编辑部处理稿件一般约 **3 个月**。
+- **篇幅**：全文一般以 **8000 字左右**为宜，有价值的文章可放宽至 **12000 字**（各版本表述略有差异，以官网最新为准）。
+- **摘要**：中英文提要由"研究问题—过程方法—结论"三部分组成，一般控制在 **400 字以内**。
+- **关键词**：一般 **3–5 个**。
+- **投稿方式**：官网采编系统 **jjll.ruc.edu.cn**（编辑部 010-62515330，etbm@263.net）。
+- **费用**：官网《投稿须知》为准，**待核实**。
 
 ## 触发时机
 

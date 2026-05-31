@@ -1,13 +1,13 @@
 ---
 name: public-administration-and-policy-review
-description: Use when targeting 《公共管理与政策评论》(Public Administration and Policy Review) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《公共管理与政策评论》(Public Administration and Policy Review — 中国人民大学主办的公共管理与政策双月刊, 匿名评阅) or deciding whether a Chinese public-administration/policy manuscript fits this journal. Encodes the journal's fit, framing, abstract house style, anonymous-review rules, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《公共管理与政策评论》投稿（public-administration-and-policy-review）
 
 ## 期刊定位
 
-公共管理与政策分析交叉刊，适合政策评估、政府治理和制度分析。
+《公共管理与政策评论》由**中国人民大学**主办，是公共管理与政策分析交叉的学术**双月刊**。覆盖政策设计、执行与评估，政府治理、公共服务与社会政策，数字治理、应急管理与基层治理等。本刊看重把政府行为、组织激励与公共价值讲清，兼收政策评估、案例比较、调查、文本分析、混合方法与制度分析，强调理论对话与经验证据，而非政策宣传。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -15,8 +15,18 @@ description: Use when targeting 《公共管理与政策评论》(Public Adminis
 
 - 用户明确说目标期刊是《公共管理与政策评论》或 Public Administration and Policy Review
 - 稿件主题接近本刊，但不确定问题意识、方法强度和读者对象是否匹配
-- 需要把一篇通用中文经管稿改写成《公共管理与政策评论》更容易接受的叙事
+- 需要把一篇通用中文公共管理/政策稿改写成《公共管理与政策评论》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办**：中国人民大学；公共管理与政策分析交叉学术双月刊。
+- **审稿**：实行**匿名评阅制度**；请勿一稿两投。
+- **审稿周期**：约 **2 个月**（以官网最新说明为准）。
+- **字数**：稿件以约 **10000–20000 字**为宜（不同来源略有差异，以官网栏目要求为准）。
+- **摘要**：中文摘要**250 字以内**，说明研究内容、意义、过程、数据来源、研究发现与局限。
+- **参考文献**：采用"作者—年代"式著录（作者. 发表时间. 文章名/书名. 期刊名/出版社，卷期），以官网最新体例为准。
+- **投稿/官网**：投稿系统 ggglyzc.ruc.edu.cn（中国人民大学《公共管理与政策评论》在线投稿）。
 
 ## 选题偏好
 
@@ -28,29 +38,28 @@ description: Use when targeting 《公共管理与政策评论》(Public Adminis
 
 - 公共治理、行政改革、政策执行、数字政府、基层治理和公共服务绩效是核心
 - 可用政策评估、案例比较、调查、文本分析、混合方法和制度分析
-- 必须把政府行为、组织激励和公共价值讲清
+- 必须把政府行为、组织激励和公共价值讲清，并有理论对话
 
 ## 结构与写作
 
 - 引言围绕公共问题和治理机制，而非企业绩效
 - 机制要落到政府层级、部门协同、公众参与、政策执行或问责
-- 政策建议要可执行，并说明适用层级
+- 政策建议要可执行，并说明适用层级；正文须匿名
 
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
-- 核对栏目、匿名、案例材料授权、访谈伦理和投稿模板
-- 确认政策文件、地方样本和访谈材料来源
-- 检索“《公共管理与政策评论》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
-- 若本 skill 与最新官方要求冲突，以官方要求为准
+- 检索"《公共管理与政策评论》 投稿须知 / 征稿简则 / 作者指南"，以官网 ggglyzc.ruc.edu.cn 最新页面为准；不要沿用二手代投网站格式。
+- 核对：字数、正文匿名（匿名评阅）、中文摘要 250 字以内、关键词、"作者—年代"参考文献体例、作者信息页、基金信息单列、数据/补充材料、版权协议、勿一稿两投。
+- 再次确认审稿周期（约 2 个月）与投稿系统入口（上面数值可能随官网更新而变化）。
+- 若本 skill 与最新官方要求冲突，以官方要求为准。
 
 ## 投稿前自检
 
 - [ ] 一句话说明为什么这篇稿件属于《公共管理与政策评论》的核心读者范围
 - [ ] 引言前 3 段已经出现本刊关心的问题层级、理论/机制和主要证据
 - [ ] 文献综述至少对话 2-3 篇本刊或同层级中文期刊近年同主题文章
-- [ ] 方法、数据、图表和参考文献格式已按最新官方稿约复核
+- [ ] 正文已匿名；中文摘要 250 字以内、关键词齐备；参考文献按"作者—年代"体例；字数符合栏目
 - [ ] 政策/管理启示从本文证据推出，而不是泛泛口号
 
 ## 高频拒稿雷区
@@ -58,10 +67,11 @@ description: Use when targeting 《公共管理与政策评论》(Public Adminis
 - 只写政策宣传，缺理论和证据
 - 案例材料描述多、机制抽象少
 - 把企业管理框架生硬搬到公共部门
+- 一稿两投或正文未匿名
 
 ## 改投判断
 
-顶级公共管理实证转 journal-of-public-management；社保政策转 social-security-studies。
+方法更厚、识别更干净的公共管理顶级实证转 journal-of-public-management（《公共管理学报》）；社会保障/社会政策稿转 social-security-studies（《社会保障研究》）；行政管理与政策实务转 chinese-public-administration（《中国行政管理》）。
 
 ## 输出格式
 
@@ -71,6 +81,6 @@ description: Use when targeting 《公共管理与政策评论》(Public Adminis
 【选题标签】<最贴近的 2-3 个主题>
 【方法证据】<当前方法是否够本刊标准>
 【最大风险】<最可能导致退稿的一点>
-【需核验官方要求】<投稿系统/匿名/摘要/图表/数据等>
+【需核验官方要求】<投稿系统/匿名/摘要250字/参考文献体例/审稿周期等>
 【改投建议】<若不匹配，给出更合适期刊>
 ```

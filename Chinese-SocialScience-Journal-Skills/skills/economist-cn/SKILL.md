@@ -1,15 +1,22 @@
 ---
 name: economist-cn
-description: Use when targeting 《经济学家》(Economist) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《经济学家》(Economist — 西南财经大学/四川社科学术基金会主办的理论经济学月刊, 1989 年创刊, CSSCI) or deciding whether a Chinese econ/policy manuscript fits this venue. Encodes the journal's fit, framing, abstract house style, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《经济学家》投稿（economist-cn）
 
 ## 期刊定位
 
-西南财经大学主办，重视经济理论、中国经济重大现实问题和政策研究。
+《经济学家》由**西南财经大学、四川社会科学学术基金会**主办，是理论经济学**月刊**，**1989 年**创刊（CN 51-1312/F，ISSN 1003-5656），CSSCI 来源期刊。重视经济理论、中国式现代化、中国经济重大现实问题与政策研究——宏观调控、财政金融、产业政策、收入分配、共同富裕与高质量发展。强调理论深度与原创性。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办**：西南财经大学、四川社会科学学术基金会；理论经济学月刊，1989 年创刊（CN 51-1312/F，ISSN 1003-5656）；CSSCI 来源期刊。
+- **摘要**：来稿首页附**100–200 字**左右中文摘要，客观论述主要观点、明确列述创新点，不加主观评论。
+- **投稿方式**：编辑部曾要求**邮寄打印稿**（地址：成都外西光华村 55 号）；当前是否改为官网/采编系统投稿请以官网 jjxj.swufe.edu.cn 最新公告为准——**待核实**。
+- **费用 / 关键词数 / 参考文献体例 / 审稿周期**：官网《投稿须知》为准，**待核实**。
 
 ## 触发时机
 

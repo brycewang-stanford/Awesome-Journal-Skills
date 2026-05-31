@@ -1,15 +1,26 @@
 ---
 name: china-economic-studies
-description: Use when targeting 《中国经济问题》(China Economic Studies) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《中国经济问题》(China Economic Studies — 厦门大学主办的经济学双月刊, 不收版面费) or deciding whether a Chinese econ manuscript fits this venue. Encodes the journal's fit, framing, abstract/keyword house style, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《中国经济问题》投稿（china-economic-studies）
 
 ## 期刊定位
 
-厦门大学经济学传统刊物，适合中国经济问题、宏观金融、产业和开放经济研究。
+《中国经济问题》由**厦门大学**主办，是**经济学双月刊**，CSSCI 来源期刊。延续厦大经济学传统，适合中国经济增长、改革与发展、财政金融、产业组织、区域经济、开放经济与两岸经济研究。强调研究论文须有创新性、内容充实完整。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办**：厦门大学；经济学双月刊；CSSCI 来源期刊。
+- **费用**：编辑部声明刊稿**不收版面费**（只重质量、杜绝关系稿）。
+- **审稿周期**：审读结果一般在 **2–3 个月**内通知；超过 **3 个月**未收到结果可与编辑部联系后另投。
+- **摘要**：正文前加**300 字左右**的"内容提要"。
+- **关键词**：**5 个以内**。
+- **作者人数**：请控制在 **6 人以下**（须直接参与研究或有重要指导作用）。
+- **一稿多投**：严禁一稿两投/多投，违者退稿并纳入黑名单。
+- **投稿方式**：官网采编系统 **ces.xmu.edu.cn**。
 
 ## 触发时机
 

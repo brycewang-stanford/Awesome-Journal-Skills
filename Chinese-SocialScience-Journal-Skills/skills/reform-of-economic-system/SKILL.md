@@ -1,13 +1,13 @@
 ---
 name: reform-of-economic-system
-description: Use when targeting 《经济体制改革》(Reform of Economic System) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《经济体制改革》(Reform of Economic System — 四川省社会科学院主管主办的经济理论 CSSCI 双月刊, 1983 年创刊, FounderSS 在线投审稿) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, abstract/keyword house-style, official-submission-check, and desk-reject heuristics.
 ---
 
 # 《经济体制改革》投稿（reform-of-economic-system）
 
 ## 期刊定位
 
-经济体制改革专业刊，适合制度改革、市场化、政府治理和区域试点研究。
+《经济体制改革》由**四川省社会科学院**主管、主办，**1983 年**创刊，是聚焦经济体制改革的经济理论**双月刊**，入选 CSSCI、北大核心与统计源期刊。覆盖市场化改革、要素市场、营商环境、国企改革、财政金融体制、地方治理、区域试点与高质量发展等。与综合性改革刊《改革》相比，本刊更聚焦**体制机制层面的改革分析**，要求把政策背景、试点选择与反事实讲清，明确拒收工作总结与政策宣传。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -17,6 +17,14 @@ description: Use when targeting 《经济体制改革》(Reform of Economic Syst
 - 稿件主题接近本刊，但不确定问题意识、方法强度和读者对象是否匹配
 - 需要把一篇通用中文经管稿改写成《经济体制改革》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主管/主办**：四川省社会科学院主管、主办；经济体制改革类经济理论双月刊，1983 年创刊；CSSCI、北大核心、统计源期刊。
+- **摘要/关键词**：正文前附**约 150 字**摘要（不以第三人称作文章结构介绍、不含自我评价、具独立性与自含性）及 **3–6 个关键词**；要求中英文摘要、关键词对照。
+- **审稿周期**：一般**投稿到收到意见约 3 个月内**。
+- **投稿系统**：已启用在线投审稿系统，采取在线投稿，网址 **jjtzgg.publish.founderss.cn**（以官网最新入口为准）。
+- **费用**：版面费/审稿费政策以官网最新声明为准（**待核实**）。
 
 ## 选题偏好
 
@@ -39,10 +47,10 @@ description: Use when targeting 《经济体制改革》(Reform of Economic Syst
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
-- 核对栏目、字数、摘要关键词、作者匿名和参考文献要求
+- 核对栏目、摘要约 150 字与 3–6 个关键词、中英文对照、作者匿名和参考文献要求
 - 确认政策文件、试点名单和改革时间线
-- 检索“《经济体制改革》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
+- 检索“《经济体制改革》 投稿须知 / 征稿简则 / 作者指南”，并登录在线投审稿系统（jjtzgg.publish.founderss.cn）核对最新模板；不要沿用二手代投网站格式
+- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或收费声明（审稿周期与费用可能随官网更新而变化）
 - 若本 skill 与最新官方要求冲突，以官方要求为准
 
 ## 投稿前自检
@@ -50,7 +58,7 @@ description: Use when targeting 《经济体制改革》(Reform of Economic Syst
 - [ ] 一句话说明为什么这篇稿件属于《经济体制改革》的核心读者范围
 - [ ] 引言前 3 段已经出现本刊关心的问题层级、理论/机制和主要证据
 - [ ] 文献综述至少对话 2-3 篇本刊或同层级中文期刊近年同主题文章
-- [ ] 方法、数据、图表和参考文献格式已按最新官方稿约复核
+- [ ] 摘要约 150 字、3–6 个关键词、中英文对照齐全；方法、数据、图表和参考文献格式已按最新官方稿约复核
 - [ ] 政策/管理启示从本文证据推出，而不是泛泛口号
 
 ## 高频拒稿雷区

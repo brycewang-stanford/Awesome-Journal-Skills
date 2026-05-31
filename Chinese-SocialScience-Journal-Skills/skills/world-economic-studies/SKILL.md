@@ -1,15 +1,24 @@
 ---
 name: world-economic-studies
-description: Use when targeting 《世界经济研究》(World Economic Studies) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《世界经济研究》(World Economic Studies — 上海社会科学院世界经济研究所主办、上海世界经济学会协办的月刊, 1982 创刊, CSSCI) or deciding whether an international-economics/open-strategy manuscript fits this venue. Encodes the journal's fit, house style, official re-check, and desk-reject heuristics.
 ---
 
 # 《世界经济研究》投稿（world-economic-studies）
 
 ## 期刊定位
 
-上海社科院世界经济研究所主办，侧重全球化条件下中国开放战略、国别经济和国际经济理论。
+《世界经济研究》由**上海社会科学院世界经济研究所**主办、**上海世界经济学会**协办，是世界经济类综合性学术**月刊**（1982 年创刊，ISSN 1007-6964，CN 31-1048/F，CSSCI 来源期刊）。侧重全球化条件下中国开放战略、国别与区域经济、国际贸易投资与国际经济理论，兼收实证与理论政策分析。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办/协办**：上海社会科学院世界经济研究所主办，上海世界经济学会协办；月刊，1982 年创刊。
+- **刊号**：ISSN 1007-6964，CN 31-1048/F，邮发代号 4-544；CSSCI 来源期刊、中文核心期刊。
+- **稿件要求**：内容科学、新颖、翔实，文字数据准确、层次清楚、图表规范；不接受已公开发表稿件，严禁一稿两投。
+- **作者简介**：述评/专家论坛/指南解读栏目来稿附第一作者及通信作者简介（职称、研究领域、成果等，约 100–300 字）。
+- **投稿/官网**：投稿主页 sjjjyjzz.ndhx.net（以官网最新入口为准）。
+- **审稿周期/费用/摘要字数/参考文献体例**：官网未在本次检索中给出确切数值，**待核实**——以官网最新《投稿须知》为准。
 
 ## 触发时机
 
@@ -39,10 +48,11 @@ description: Use when targeting 《世界经济研究》(World Economic Studies)
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
-- 核对该刊是否要求“专投”、网络投稿、摘要关键词和参考文献格式
+- 在投稿主页（sjjjyjzz.ndhx.net）核对网络投稿入口、摘要关键词与参考文献格式（本次未取得确切数值，按官网最新为准）
 - 确认国际数据来源、国家/行业口径与汇率处理
 - 检索“《世界经济研究》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
+- 核对是否要求匿名正文、作者信息页、基金信息单列、栏目作者简介、数据/程序/补充材料、版权协议或不收费声明
+- 再次确认审稿周期、费用与摘要字数（本次为待核实项）
 - 若本 skill 与最新官方要求冲突，以官方要求为准
 
 ## 投稿前自检

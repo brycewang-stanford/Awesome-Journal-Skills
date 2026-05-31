@@ -1,13 +1,13 @@
 ---
 name: china-rural-economy
-description: Use when targeting 《中国农村经济》(China Rural Economy) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《中国农村经济》(China Rural Economy — 中国社会科学院农村发展研究所主办、CASS 主管的三农经济旗舰月刊, 1985 年创刊, 双向匿名、零审稿/版面费) or deciding whether a Chinese 三农 econ manuscript fits this venue. Encodes the journal's fit, framing, fee-free anonymous-review policy, abstract/keyword/citation house style, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《中国农村经济》投稿（china-rural-economy）
 
 ## 期刊定位
 
-中国社会科学院农村发展研究所主办的三农经济旗舰刊，重视土地、农业、农民、农村制度和乡村振兴议题。
+《中国农村经济》由**中国社会科学院农村发展研究所**主办、**中国社会科学院**主管，**1985 年**创刊，是三农经济领域的旗舰**月刊**。主发表关于农业、农村和农民问题的**经济学**学术论文，重视土地制度、农业经营、粮食安全、农民收入与消费、农村金融、乡村治理、集体经济、农业绿色转型与数字乡村等议题。它与同所主办的姊妹刊《中国农村观察》(china-rural-survey) 形成分工：本刊更偏**经济学实证与政策机制**，《观察》更偏制度调查、农村社会与多学科观察。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -17,6 +17,16 @@ description: Use when targeting 《中国农村经济》(China Rural Economy) or
 - 稿件主题接近本刊，但不确定问题意识、方法强度和读者对象是否匹配
 - 需要把一篇通用中文经管稿改写成《中国农村经济》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办/主管**：中国社会科学院农村发展研究所主办，中国社会科学院主管；1985 创刊，**月刊**。
+- **审稿模式**：采用国际通行的**双向匿名审稿**；以质取文，**不收取任何形式的审稿费、版面费**。
+- **审稿周期**：编辑部声明**初审期限不超过 1 个月**（自上传成功之日算起），可在线查询进度；后续外审/复审周期更长，整体以系统状态为准。
+- **篇幅**：论文篇幅一般控制在 **15000 字以内**（含图、表、参考文献）；以官网最新稿约为准。
+- **摘要/关键词**：内容提要约 **200–300 字**（一般只需中文提要）；中文**关键词 3–5 个**。
+- **数据与代码**：与《中国农村观察》一道要求**公开论文数据与程序代码**等资料（CASS 农发所统一说明），实证稿须按要求提交。
+- **投稿系统**：采编系统在线投稿（ajcass 体系，zgncjj.ajcass.com / 官网 zgncjj.cn）；自规定日期起不再受理纸质/邮箱投稿。
 
 ## 选题偏好
 
@@ -29,6 +39,7 @@ description: Use when targeting 《中国农村经济》(China Rural Economy) or
 - 微观农户/村庄/县域数据、政策试点 DID、土地制度和农业生产率测度是常见路径
 - 识别要处理地区选择、政策叠加、农户异质性和样本代表性
 - 定性制度材料可作为机制证据，但不能替代严谨经验设计
+- 作为顶级三农经济刊，实证稿需按编辑部要求**公开数据与程序代码**，识别策略与稳健性要经得起复核
 
 ## 结构与写作
 
@@ -39,10 +50,10 @@ description: Use when targeting 《中国农村经济》(China Rural Economy) or
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
-- 核对栏目是否偏农村经济、农业经济或农村观察
-- 核对数据口径、抽样说明、调查伦理和变量定义
-- 检索“《中国农村经济》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
+- 核对栏目是否偏农村经济、农业政策与制度，而非纯农村社会田野（后者更贴《中国农村观察》）
+- 核对数据口径、抽样说明、调查伦理和变量定义，并确认**数据/代码公开**材料是否齐备
+- 检索“《中国农村经济》 投稿须知 / 征稿简则 / 作者指南”，以官网（zgncjj.cn / zgncjj.ajcass.com）最新页面为准；不要沿用二手代投网站格式
+- 核对是否要求匿名正文、作者信息页、基金信息单列、参考文献体例、不收费声明与数据/代码公开授权
 - 若本 skill 与最新官方要求冲突，以官方要求为准
 
 ## 投稿前自检
@@ -50,7 +61,8 @@ description: Use when targeting 《中国农村经济》(China Rural Economy) or
 - [ ] 一句话说明为什么这篇稿件属于《中国农村经济》的核心读者范围
 - [ ] 引言前 3 段已经出现本刊关心的问题层级、理论/机制和主要证据
 - [ ] 文献综述至少对话 2-3 篇本刊或同层级中文期刊近年同主题文章
-- [ ] 方法、数据、图表和参考文献格式已按最新官方稿约复核
+- [ ] 正文已双向匿名；摘要约 200–300 字、关键词 3–5 个；篇幅控制在 15000 字内
+- [ ] 数据与程序代码已按编辑部要求准备公开；方法、图表和参考文献格式已按最新官方稿约复核
 - [ ] 政策/管理启示从本文证据推出，而不是泛泛口号
 
 ## 高频拒稿雷区
@@ -58,10 +70,11 @@ description: Use when targeting 《中国农村经济》(China Rural Economy) or
 - 把农村样本当普通企业/居民样本，缺三农制度解释
 - 政策时点、试点名单或土地制度细节写错
 - 只切东中西，忽略农户、村庄、县域和产业链异质性
+- 实证稿无法提供可复核的数据与程序代码
 
 ## 改投判断
 
-偏农村社会观察和田野材料可转 china-rural-survey；偏农业生产技术效率可转 journal-of-agrotechnical-economics。
+偏农村社会观察、制度田野与多学科材料可转 china-rural-survey（《中国农村观察》）；偏农业生产技术效率可转 journal-of-agrotechnical-economics（《农业技术经济》）；综合农业政策可转 issues-in-agricultural-economy（《农业经济问题》）。
 
 ## 输出格式
 
@@ -71,6 +84,6 @@ description: Use when targeting 《中国农村经济》(China Rural Economy) or
 【选题标签】<最贴近的 2-3 个主题>
 【方法证据】<当前方法是否够本刊标准>
 【最大风险】<最可能导致退稿的一点>
-【需核验官方要求】<投稿系统/匿名/摘要/图表/数据等>
+【需核验官方要求】<投稿系统/匿名/摘要/数据代码公开/参考文献等>
 【改投建议】<若不匹配，给出更合适期刊>
 ```

@@ -1,13 +1,13 @@
 ---
 name: issues-in-agricultural-economy
-description: Use when targeting 《农业经济问题》(Issues in Agricultural Economy) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《农业经济问题》(Issues in Agricultural Economy — 中国农业经济学会与中国农业科学院农业经济与发展研究所主办、农业农村部主管的农经综合月刊, 1980 年创刊, 双向匿名、收审稿费, iaecn.cn 投稿) or deciding whether a Chinese 三农/农经 manuscript fits this venue. Encodes the journal's fit, framing, fee/review policy, house style, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《农业经济问题》投稿（issues-in-agricultural-economy）
 
 ## 期刊定位
 
-农业农村经济核心刊，适合粮食安全、农业政策、农业产业链和农民收入研究。
+《农业经济问题》由**中国农业经济学会**与**中国农业科学院农业经济与发展研究所**主办、**农业农村部**主管，**1980 年**创刊，是农业农村经济领域的综合性权威**月刊**（农经类核心）。适合粮食安全、农业政策、农业补贴与保险、农业经营主体与合作社、产业链、农村金融、农民收入与农业绿色发展等研究，覆盖面广、政策落点重。它与同一主办体系下偏技术经济/效率评价的《农业技术经济》(journal-of-agrotechnical-economics) 共用编辑部与投稿系统，但定位更"综合农经政策"。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -17,6 +17,15 @@ description: Use when targeting 《农业经济问题》(Issues in Agricultural 
 - 稿件主题接近本刊，但不确定问题意识、方法强度和读者对象是否匹配
 - 需要把一篇通用中文经管稿改写成《农业经济问题》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办/主管**：中国农业经济学会、中国农业科学院农业经济与发展研究所主办，农业农村部主管；1980 创刊，**月刊**。
+- **审稿模式**：实行**同行专家双向匿名审稿**；须经多道审稿环节，编辑部公布**审稿周期约 3 个月**。
+- **费用**：编辑部公布**收取审稿费**（公开口径约 100–300 元/篇，无论是否录用一般不退；具体金额以官网最新为准）；版面费政策**以官网最新声明为准**（坊间转述不一，须官方核实，待核实）。
+- **投稿系统**：须通过本社官网 **www.iaecn.cn** 在线投稿，否则不进入审稿；不接受其他渠道投稿。
+- **盲审要求**：上传**原文 + 盲审稿**两份；盲审稿的正文与英文摘要中**不得出现作者身份、单位、项目来源**等可识别信息。
+- **学科边界**：发表农业、农村、农民经济学**学术研究成果**，不收决策报告/工作总结类稿件。
 
 ## 选题偏好
 
@@ -39,10 +48,10 @@ description: Use when targeting 《农业经济问题》(Issues in Agricultural 
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
-- 核对栏目是否偏农村经济、农业经济或农村观察
+- 核对栏目是否偏农业经济、农业政策与农村发展（技术效率类更贴《农业技术经济》）
 - 核对数据口径、抽样说明、调查伦理和变量定义
-- 检索“《农业经济问题》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
+- 检索“《农业经济问题》 投稿须知 / 征稿简则 / 作者指南”，以官网（www.iaecn.cn）最新页面为准；不要沿用二手代投网站格式
+- 核对：原文+盲审稿两份、盲审正文与英文摘要去身份化、基金信息单列、参考文献体例、审稿费/版面费最新口径、数据/补充材料授权
 - 若本 skill 与最新官方要求冲突，以官方要求为准
 
 ## 投稿前自检
@@ -50,7 +59,8 @@ description: Use when targeting 《农业经济问题》(Issues in Agricultural 
 - [ ] 一句话说明为什么这篇稿件属于《农业经济问题》的核心读者范围
 - [ ] 引言前 3 段已经出现本刊关心的问题层级、理论/机制和主要证据
 - [ ] 文献综述至少对话 2-3 篇本刊或同层级中文期刊近年同主题文章
-- [ ] 方法、数据、图表和参考文献格式已按最新官方稿约复核
+- [ ] 已备齐**原文 + 盲审稿**两份，盲审稿正文与英文摘要不含任何作者/单位/项目可识别信息
+- [ ] 方法、数据、图表和参考文献格式已按 iaecn.cn 最新官方稿约复核；审稿费/版面费口径已官方确认
 - [ ] 政策/管理启示从本文证据推出，而不是泛泛口号
 
 ## 高频拒稿雷区
@@ -58,10 +68,11 @@ description: Use when targeting 《农业经济问题》(Issues in Agricultural 
 - 把农村样本当普通企业/居民样本，缺三农制度解释
 - 政策时点、试点名单或土地制度细节写错
 - 只切东中西，忽略农户、村庄、县域和产业链异质性
+- 像地方工作报告、决策咨询，而非学术研究成果
 
 ## 改投判断
 
-微观三农顶刊冲刺转 china-rural-economy；技术效率转 journal-of-agrotechnical-economics。
+微观三农顶刊冲刺转 china-rural-economy（《中国农村经济》）/ china-rural-survey（《中国农村观察》）；农业技术进步与效率评价转 journal-of-agrotechnical-economics（《农业技术经济》）。
 
 ## 输出格式
 
@@ -71,6 +82,6 @@ description: Use when targeting 《农业经济问题》(Issues in Agricultural 
 【选题标签】<最贴近的 2-3 个主题>
 【方法证据】<当前方法是否够本刊标准>
 【最大风险】<最可能导致退稿的一点>
-【需核验官方要求】<投稿系统/匿名/摘要/图表/数据等>
+【需核验官方要求】<投稿系统/盲审稿/审稿费/摘要/参考文献等>
 【改投建议】<若不匹配，给出更合适期刊>
 ```

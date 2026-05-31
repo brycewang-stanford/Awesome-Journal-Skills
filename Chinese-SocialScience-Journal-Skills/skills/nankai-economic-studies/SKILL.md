@@ -1,15 +1,26 @@
 ---
 name: nankai-economic-studies
-description: Use when targeting 《南开经济研究》(Nankai Economic Studies) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《南开经济研究》(Nankai Economic Studies — 南开大学经济学院主办的综合性经济学双月刊, 1985 年创刊, CSSCI/北大核心, 不收版面费/审稿费) or deciding whether a Chinese econ manuscript fits this venue. Encodes the journal's fit, framing, abstract/keyword house style, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《南开经济研究》投稿（nankai-economic-studies）
 
 ## 期刊定位
 
-南开大学经济学传统下的综合经济学期刊，适合理论与实证并重的中国经济研究。
+《南开经济研究》由**南开大学经济学院**主办，是综合性**经济学双月刊**，**1985 年**创刊，CSSCI 来源期刊、北大核心。延续南开经济学传统，理论与实证并重，覆盖宏观经济、产业组织、财政金融、国际经济、劳动人口及中国经济转型中的制度与政策问题。重视问题清晰度、文献价值与写作规范。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办**：南开大学经济学院；综合性经济学双月刊，1985 年创刊；CSSCI 来源期刊、北大核心。
+- **费用**：版面费、审稿费均为 **0 元**（以官网最新为准）。
+- **审稿周期**：编辑部预计约 **1–3 个月**（部分二手来源给出更长周期，以官网/采编系统反馈为准）。
+- **摘要**：**300 字左右**。
+- **关键词**：**3–5 个**。
+- **标题**：一般**不超过 20 字**。
+- **图表**：图表少而精，表格使用**三线表**。
+- **投稿方式**：官网采编系统 **nkes.nankai.edu.cn**（E-mail nkes-editor@nankai.edu.cn，022-23508250）。
 
 ## 触发时机
 

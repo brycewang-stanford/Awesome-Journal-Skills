@@ -1,15 +1,24 @@
 ---
 name: contemporary-economy-of-japan
-description: Use when targeting 《现代日本经济》(Contemporary Economy of Japan) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《现代日本经济》(Contemporary Economy of Japan — 吉林大学与中华全国日本经济学会联合主办的双月刊, 1982 创刊, CSSCI) or deciding whether a Japan/East-Asia comparative-economics manuscript fits this venue. Encodes the journal's fit, 摘要≤300字/关键词5–7/参考文献≥9条顺序编码 house style, official re-check, and desk-reject heuristics.
 ---
 
 # 《现代日本经济》投稿（contemporary-economy-of-japan）
 
 ## 期刊定位
 
-日本经济与区域比较研究特色刊，适合日本经济、东亚产业和中日经贸比较。
+《现代日本经济》由**吉林大学**与**中华全国日本经济学会**联合创办（**双月刊**，1982 年创刊，CSSCI 来源期刊），是国内日本经济与中日经贸比较研究的特色刊。覆盖日本宏观经济、产业政策与企业制度、中日贸易投资与区域合作、老龄化，以及日本经验对中国改革与产业升级的启示。要求有理论框架或系统证据，避免新闻评论化。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办**：吉林大学与中华全国日本经济学会联合创办；双月刊，1982 年创刊，CSSCI 来源期刊。
+- **篇幅/标题**：论文须有创新观点，字数一般**不少于 15000 字**；标题一般不超过 20 个汉字。
+- **摘要/关键词**：内容摘要中英文对译，**300 字以内**；关键词 **5–7 个**。
+- **参考文献**：**不少于 9 条**，采用**顺序编码制**（文中按引用先后以 [1][2]… 标注，文末按序排列，多次引用以首次序号标示并注页码，网络文献须给发布日期与路径）。
+- **审稿周期**：约 **1–3 个月**（以编辑部/官网最新为准）。
+- **费用**：官网未在本次检索中给出确切版面费/审稿费数值，**待核实**——以编辑部最新通知为准。
 
 ## 触发时机
 
@@ -39,10 +48,11 @@ description: Use when targeting 《现代日本经济》(Contemporary Economy of
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
-- 核对栏目、注释/参考文献、外文资料译名和投稿格式
-- 确认国别数据、政策文件和翻译准确
+- 核对栏目、≥9 条顺序编码参考文献、注释、外文资料译名、5–7 关键词与 300 字内中英文摘要
+- 确认国别数据、政策文件和翻译准确；正文一般不少于 15000 字
 - 检索“《现代日本经济》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
 - 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
+- 再次确认审稿周期（约 1–3 个月）与费用（费用为待核实项）
 - 若本 skill 与最新官方要求冲突，以官方要求为准
 
 ## 投稿前自检
@@ -50,7 +60,8 @@ description: Use when targeting 《现代日本经济》(Contemporary Economy of
 - [ ] 一句话说明为什么这篇稿件属于《现代日本经济》的核心读者范围
 - [ ] 引言前 3 段已经出现本刊关心的问题层级、理论/机制和主要证据
 - [ ] 文献综述至少对话 2-3 篇本刊或同层级中文期刊近年同主题文章
-- [ ] 方法、数据、图表和参考文献格式已按最新官方稿约复核
+- [ ] 正文不少于 15000 字、300 字内中英文摘要、5–7 关键词、参考文献≥9 条且顺序编码
+- [ ] 国别数据、政策文件、外文译名准确可核；有比较框架而非时事评论
 - [ ] 政策/管理启示从本文证据推出，而不是泛泛口号
 
 ## 高频拒稿雷区

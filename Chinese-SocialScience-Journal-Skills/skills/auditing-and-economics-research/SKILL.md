@@ -1,13 +1,13 @@
 ---
 name: auditing-and-economics-research
-description: Use when targeting 《审计与经济研究》(Auditing and Economics Research) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《审计与经济研究》(Auditing and Economics Research — 南京审计大学主办、专家匿名审稿、不收审稿费/版面费的审计经济双月刊) or deciding whether a Chinese auditing/accounting/econ manuscript fits this venue. Encodes the journal's fit, framing, anonymous-review house style, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《审计与经济研究》投稿（auditing-and-economics-research）
 
 ## 期刊定位
 
-南京审计大学主办，审计、会计、经济和治理交叉特色明显。
+《审计与经济研究》由**南京审计大学主办**，是审计、会计、经济与治理交叉特色明显的学术**双月刊**（南大核心 CSSCI 来源刊）。覆盖审计治理与审计质量、公共审计与财政监督、会计信息与公司治理、资本市场与经济后果。相对纯审计理论刊，本刊更欢迎把审计/会计问题接到经济机制与公司治理后果上的规范实证，强调识别策略与制度背景。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -18,6 +18,15 @@ description: Use when targeting 《审计与经济研究》(Auditing and Economi
 - 需要把一篇通用中文经管稿改写成《审计与经济研究》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
 
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办**：南京审计大学；审计/经济学术**双月刊**。
+- **审稿/费用**：采用**专家匿名审稿**（正文中请勿出现作者姓名等身份信息）；明确**不收审稿费、版面费**，并对录用稿件支付稿酬。
+- **篇幅**：稿件字数一般**不少于 10000 字**（以官网最新稿约为准）。
+- **审稿周期**：约 **1–3 个月**（投稿经验值，以编辑部实际为准）。
+- **参考文献**：按正文出现先后用阿拉伯数字**顺序编码**，于正文右上角标注“[序号]”（上标）；**注释采用页下脚注**，阿拉伯数字编序。
+- **投稿/官网**：通过官方采编系统投稿，正文匿名、作者信息单列，以官网最新页面为准。
+
 ## 选题偏好
 
 - 审计治理、审计质量和经济后果
@@ -26,9 +35,9 @@ description: Use when targeting 《审计与经济研究》(Auditing and Economi
 
 ## 方法与证据
 
-- 财务会计、审计、披露、内控、税收和资本市场档案研究是核心
-- 度量要有会计学依据：应计、稳健性、可比性、审计质量、披露指数等
-- 准则、监管和审计制度背景必须准确
+- 财务会计、审计、披露、内控、税收和资本市场档案研究是核心。
+- 度量要有会计学依据：应计、稳健性、可比性、审计质量、披露指数等，须交代构造。
+- 准则、监管和审计制度背景必须准确；实证需处理内生性与稳健性。
 
 ## 结构与写作
 
@@ -38,30 +47,29 @@ description: Use when targeting 《审计与经济研究》(Auditing and Economi
 
 ## 官方核验清单
 
-- 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
-- 核对投稿须知、数据/程序公开要求、匿名和字数格式
-- 确认会计准则、审计准则和监管文件引用
-- 检索“《审计与经济研究》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
-- 若本 skill 与最新官方要求冲突，以官方要求为准
+- 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从官方来源锚点开始核验，并在回答中说明核验日期。
+- 检索“《审计与经济研究》 投稿须知 / 征稿简则 / 作者指南”，以官网/采编系统最新页面为准；不要沿用二手代投网站格式。
+- 核对：正文匿名要求、篇幅（约不少于 10000 字）、顺序编码参考文献 + 页下脚注、摘要关键词格式、基金/作者信息单列、数据/程序材料、不收费声明。
+- 再次确认审稿系统入口与最新格式（上面数值可能随官网更新而变化）。
+- 若本 skill 与最新官方要求冲突，以官方要求为准。
 
 ## 投稿前自检
 
 - [ ] 一句话说明为什么这篇稿件属于《审计与经济研究》的核心读者范围
 - [ ] 引言前 3 段已经出现本刊关心的问题层级、理论/机制和主要证据
-- [ ] 文献综述至少对话 2-3 篇本刊或同层级中文期刊近年同主题文章
-- [ ] 方法、数据、图表和参考文献格式已按最新官方稿约复核
+- [ ] 正文已匿名、作者信息单列；篇幅、摘要、关键词按官方稿约复核
+- [ ] 参考文献按顺序编码、注释用页下脚注；审计/会计度量已交代构造
 - [ ] 政策/管理启示从本文证据推出，而不是泛泛口号
 
 ## 高频拒稿雷区
 
-- 会计度量不交代构造
+- 会计/审计度量不交代构造
 - 准则条款或实施时点写错
-- 只跑资本市场回归，缺会计理论贡献
+- 只跑资本市场回归，缺审计或会计机制贡献
 
 ## 改投判断
 
-纯审计理论转 auditing-research；会计准则转 accounting-research。
+纯审计理论/国家审计转 auditing-research（《审计研究》）；会计准则与高规范会计实证转 accounting-research（《会计研究》）；财政监督偏财政机制转 public-finance-research（《财政研究》）。
 
 ## 输出格式
 

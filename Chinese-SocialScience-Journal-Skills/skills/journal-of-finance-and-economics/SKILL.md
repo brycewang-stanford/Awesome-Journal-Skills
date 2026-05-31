@@ -1,13 +1,13 @@
 ---
 name: journal-of-finance-and-economics
-description: Use when targeting 《财经研究》(Journal of Finance and Economics) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《财经研究》(Journal of Finance and Economics — 教育部主管、上海财经大学主办的综合性经济理论月刊, 1956 创刊, 国家社科基金资助期刊, 双向匿名审稿, 不收审稿费/版面费, 期刊社 qks.sufe.edu.cn) or deciding whether a Chinese econ manuscript fits this venue. Encodes the journal's fit, framing, house style, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《财经研究》投稿（journal-of-finance-and-economics）
 
 ## 期刊定位
 
-上海财经大学主办的综合财经学术期刊，覆盖财政、金融、产业、企业和区域经济，重视规范实证与财经问题意识。
+《财经研究》由**教育部**主管、**上海财经大学**主办，是综合性**经济理论月刊**，**1956 年 9 月**创刊，系国家社科基金资助期刊、CSSCI 来源。覆盖财政、金融、产业、企业与区域经济，重视规范实证与清晰的经济学问题意识，属国内较有分量的财经类学术刊。注意：上财同时主办本刊与《上海财经大学学报（哲社版）》（slug：journal-of-shanghai-university-of-finance-and-economics）——本刊是更纯的经济学研究刊，那本偏经管文法综合哲社，勿混淆两刊定位。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -17,6 +17,14 @@ description: Use when targeting 《财经研究》(Journal of Finance and Econom
 - 稿件主题接近本刊，但不确定问题意识、方法强度和读者对象是否匹配
 - 需要把一篇通用中文经管稿改写成《财经研究》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办/主管**：上海财经大学主办、教育部主管；综合性经济理论月刊，1956.9 创刊；国家社科基金资助期刊、CSSCI 来源。
+- **审稿**：实行**双向匿名审稿**——作者个人信息全部放在与正文独立的**首页**，正文避免影响匿名的行为或注文。
+- **费用**：**不收审稿费、版面费**，并对刊用稿支付作者稿酬。
+- **投稿入口**：上海财经大学期刊社 qks.sufe.edu.cn 采编系统电子投稿，不必邮寄纸质稿。
+- **学术规范**：执行《中国学术期刊（光盘版）检索与评价数据规范》《中国高等学校社会科学学报编排规范》及 CSSCI 规范——摘要、关键词、（中图）分类、参考文献体例须按其要求并以官网最新模板为准。
 
 ## 选题偏好
 
@@ -41,7 +49,7 @@ description: Use when targeting 《财经研究》(Journal of Finance and Econom
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
 - 核对官网/采编系统的匿名、摘要、关键词、JEL/中图分类号和参考文献要求
 - 确认是否需要数据、程序或补充材料
-- 检索“《财经研究》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
+- 检索“《财经研究》 投稿须知”，并以上海财经大学期刊社 qks.sufe.edu.cn 与其采编系统的最新页面为准；不要沿用二手代投网站格式
 - 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
 - 若本 skill 与最新官方要求冲突，以官方要求为准
 

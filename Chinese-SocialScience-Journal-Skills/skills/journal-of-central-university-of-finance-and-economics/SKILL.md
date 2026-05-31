@@ -1,13 +1,13 @@
 ---
 name: journal-of-central-university-of-finance-and-economics
-description: Use when targeting 《中央财经大学学报》(Journal of Central University of Finance and Economics) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《中央财经大学学报》(Journal of Central University of Finance and Economics — 教育部主管、中央财经大学主办的综合性经济理论刊物, 1981 创刊, 自有网上投稿平台 xbbjb.cufe.edu.cn) or deciding whether a Chinese econ/management manuscript fits this venue. Encodes the journal's fit, framing, house style, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《中央财经大学学报》投稿（journal-of-central-university-of-finance-and-economics）
 
 ## 期刊定位
 
-中央财经大学综合财经学报，财政税收、金融、会计和宏观经济议题较对口。
+《中央财经大学学报》由**教育部**主管、**中央财经大学**主办，是综合性**经济理论**刊物，**1981 年**创刊。财政税收、金融监管与资本市场、会计审计、宏观经济与收入分配等议题较对口。注意与**上海财经大学**的《上海财经大学学报》《财经研究》区分——三者主办高校不同，定位也各异，不要混淆主办单位。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -17,6 +17,15 @@ description: Use when targeting 《中央财经大学学报》(Journal of Centra
 - 稿件主题接近本刊，但不确定问题意识、方法强度和读者对象是否匹配
 - 需要把一篇通用中文经管稿改写成《中央财经大学学报》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办/主管**：中央财经大学主办、教育部主管；综合性经济理论刊物，1981 创刊。
+- **网上投稿平台**：自建采编系统 xbbjb.cufe.edu.cn（authorLogOn）；官网入口 zycjdx.juqk.net 亦有指引。请勿走二手代投。
+- **篇幅**：全文一般 **10000 字左右**为宜；有价值者可放宽至约 **15000 字**（以官网最新为准）。
+- **格式要件**：题目、作者及单位、邮编、中英文摘要、关键词、正文、参考文献齐全；引用须文中标注。
+- **审稿周期**：预计**约 1–3 个月**（以官网/系统最新为准）。
+- 收录：中文核心、CSSCI 来源（年份以最新目录为准）。费用以官网声明为准（待核实是否收版面费）。
 
 ## 选题偏好
 
@@ -41,7 +50,7 @@ description: Use when targeting 《中央财经大学学报》(Journal of Centra
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
 - 核对官网稿约、匿名/非匿名、基金脚注、摘要关键词和参考文献格式
 - 确认是否接受网络首发和数据库收录声明
-- 检索“《中央财经大学学报》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
+- 检索“《中央财经大学学报》 投稿须知 / 征稿启事”，并以自建采编系统 xbbjb.cufe.edu.cn 的最新模板为准；不要沿用二手代投网站格式
 - 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
 - 若本 skill 与最新官方要求冲突，以官方要求为准
 

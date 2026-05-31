@@ -1,15 +1,24 @@
 ---
 name: shanghai-journal-of-economics
-description: Use when targeting 《上海经济研究》(Shanghai Journal of Economics) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《上海经济研究》(Shanghai Journal of Economics — 上海社会科学院经济研究所主办的经济学月刊, 1982 年创刊, CSSCI) or deciding whether a Chinese econ manuscript fits this venue. Encodes the journal's fit, framing, abstract/keyword house style, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《上海经济研究》投稿（shanghai-journal-of-economics）
 
 ## 期刊定位
 
-上海社科院系统的区域经济刊，适合城市经济、长三角、开放与产业升级研究。
+《上海经济研究》由**上海社会科学院经济研究所**主办，**1982 年**创刊，是经济学**月刊**，CSSCI 来源期刊。适合城市经济、长三角、开放与产业升级研究——上海与长三角经济、城市治理、产业转型、开放经济、服务业、数字经济、营商环境、区域协同与高质量发展。主要栏目含中国特色社会主义政治经济学、经济高质量发展、金融安全与系统风险防范、新型经济全球化等。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办**：上海社会科学院经济研究所；经济学月刊，1982 年创刊；CSSCI 来源期刊。
+- **审稿周期**：约 **1–3 个月**（部分来源给出约 6 个月，以编辑部反馈为准）。
+- **摘要**：**100–300 字**，应具独立性与自含性。
+- **关键词**：**3–8 个**。
+- **投稿方式**：编辑部邮箱 **shjjyj@126.com**（电话 021-53069634 / 021-33165202；以官网最新入口为准）。
+- **费用**：官方未明确，**待核实**。
 
 ## 触发时机
 

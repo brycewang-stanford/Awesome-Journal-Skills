@@ -1,13 +1,13 @@
 ---
 name: chinese-review-of-financial-studies
-description: Use when targeting 《金融评论》(Chinese Review of Financial Studies) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《金融评论》(Chinese Review of Financial Studies — 中国社会科学院金融研究所主办、2009 年创刊、不收版面费的金融学术双月刊) or deciding whether a Chinese finance manuscript fits this venue. Encodes the journal's fit, framing, abstract/keyword/JEL house style, citation-quota rule, official ajcass.com submission re-check, and desk-reject heuristics.
 ---
 
 # 《金融评论》投稿（chinese-review-of-financial-studies）
 
 ## 期刊定位
 
-金融评论型学术刊，适合金融理论、资本市场、银行和金融政策研究。
+《金融评论》由**中国社会科学院金融研究所**主办、中国社会科学院主管，**2009 年**创刊，是全国性金融学术刊物（CSSCI/北大核心）。覆盖金融理论与政策、资本市场、银行体系、公司金融、金融风险与金融开放。作为社科院系统刊物，重规范的理论框架与扎实识别，要求作者与既有文献充分对话。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -17,6 +17,15 @@ description: Use when targeting 《金融评论》(Chinese Review of Financial S
 - 稿件主题接近本刊，但不确定问题意识、方法强度和读者对象是否匹配
 - 需要把一篇通用中文经管稿改写成《金融评论》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办/主管**：中国社会科学院金融研究所主办，中国社会科学院主管；**2009 年**创刊；全国性金融学术刊（CSSCI/北大核心）。
+- **费用**：社科院刊物**不收版面费**。
+- **篇幅**：全文（含摘要、参考文献、脚注、附录等）**应在 2.5 万字以内**。
+- **摘要/关键词/JEL**：摘要**不超过 500 字**；关键词 **3–6 个**（空格分隔）；**JEL 分类号 3 个**（空格分隔）。
+- **参考文献**：列于文末、首行缩进、不编号；应著录主要的、近年的、公开发表文献，**不少于 5 条**；**引用规模最多不超过全文篇幅的 10%**。
+- **官网/采编**：官方投稿入口 **jrpl.ajcass.com**；审稿周期以官网/编辑部最新说明为准（作者反馈约 1–3 个月，**待核实**）。
 
 ## 选题偏好
 
@@ -41,27 +50,27 @@ description: Use when targeting 《金融评论》(Chinese Review of Financial S
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
 - 核对投稿须知中的字数、摘要关键词、图表格式和匿名作者信息
 - 确认金融监管文件、市场规则和样本期间准确
-- 检索“《金融评论》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
+- 检索“《金融评论》 投稿须知 / 征稿简则 / 作者指南”，以官网 jrpl.ajcass.com 最新页面为准；不要沿用二手代投网站格式
+- 核对：全文 2.5 万字内、摘要 500 字内、关键词 3–6、JEL 3 个、参考文献不少于 5 条且引用规模≤全文 10%、不收版面费声明
 - 若本 skill 与最新官方要求冲突，以官方要求为准
 
 ## 投稿前自检
 
 - [ ] 一句话说明为什么这篇稿件属于《金融评论》的核心读者范围
 - [ ] 引言前 3 段已经出现本刊关心的问题层级、理论/机制和主要证据
-- [ ] 文献综述至少对话 2-3 篇本刊或同层级中文期刊近年同主题文章
-- [ ] 方法、数据、图表和参考文献格式已按最新官方稿约复核
+- [ ] 全文 2.5 万字内；摘要 500 字内、关键词 3–6 个、JEL 分类号 3 个
+- [ ] 参考文献不少于 5 条、文末首行缩进不编号；直接引用规模未超全文篇幅 10%
 - [ ] 政策/管理启示从本文证据推出，而不是泛泛口号
 
 ## 高频拒稿雷区
 
 - 公司金融题写成一般企业实证，缺金融机制
 - 货币政策题没有冲击识别
-- 只说缓解融资约束，不展示渠道证据
+- 直接引用占比过高（超全文 10%）；只说缓解融资约束，不展示渠道证据
 
 ## 改投判断
 
-经验识别强转 journal-of-financial-research；证券市场微观结构转 securities-market-herald。
+经验识别强、央行系统取向转 journal-of-financial-research（《金融研究》）；证券市场微观结构与监管实务转 securities-market-herald（《证券市场导报》）；国际金融/汇率/跨境资本转 studies-of-international-finance（《国际金融研究》）。
 
 ## 输出格式
 

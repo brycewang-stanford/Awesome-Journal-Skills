@@ -1,15 +1,23 @@
 ---
 name: international-economic-review-cn
-description: Use when targeting 《国际经济评论》(International Economic Review) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《国际经济评论》(International Economic Review — 中国社会科学院主管、世界经济与政治研究所主办的双月刊, 1993 创刊, CN 11-3799/F) or deciding whether a theory/policy-oriented international-economics manuscript fits this venue. Encodes the journal's review-essay 定位, 顺序编码制 house style, official re-check, and desk-reject heuristics.
 ---
 
 # 《国际经济评论》投稿（international-economic-review-cn）
 
 ## 期刊定位
 
-中国社科院世界经济与政治研究所相关的国际经济评论型刊物，兼具理论、政策和国际形势分析。
+《国际经济评论》由**中国社会科学院**主管、**世界经济与政治研究所**主办，是大型**双月刊**（1993 年创刊，CN 11-3799/F）。栏目以国际经济格局、全球治理、大国经济关系与开放政策的**评论型/理论政策分析**为主，相对偏重思想深度和对国际形势的解释力，而非纯计量识别。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主管/主办**：中国社会科学院主管，世界经济与政治研究所主办；双月刊，1993 年创刊，CN 11-3799/F。
+- **稿件要素**：注明作者单位（全称、城市、邮编）、作者简介（姓名、出生年、性别、研究方向等）和完整联系方式。
+- **参考文献**：采用**顺序编码制**，按文中出现顺序统一编号列于文后；作者 3 名以内全部列出，4 名以上列前 3 名后加“，等”。
+- **审稿周期**：约 **1–3 个月**；一个月内未收到用稿通知可自行处理，一个月内勿一稿多投；不录用稿件不再另行通知。
+- **投稿/官网**：世界经济与政治研究所官网（iwep.org.cn / iwep.cssn.cn）投稿指南；费用与摘要字数以官网最新为准（**待核实**）。
 
 ## 触发时机
 
@@ -39,10 +47,11 @@ description: Use when targeting 《国际经济评论》(International Economic 
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
-- 核对该刊是否要求“专投”、网络投稿、摘要关键词和参考文献格式
-- 确认国际数据来源、国家/行业口径与汇率处理
-- 检索“《国际经济评论》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
+- 核对作者单位/简介/联系方式要素、顺序编码制参考文献与摘要关键词格式
+- 确认国际数据来源、国家/行业口径与汇率处理；评论型稿件须有清晰的分析框架而非时事罗列
+- 检索“《国际经济评论》 投稿须知 / 征稿启事 / 作者指南”，以世界经济与政治研究所官网（iwep.org.cn）最新页面为准；不要沿用二手代投网站格式
+- 核对一稿多投与用稿通知规则（一个月内未收到通知可自行处理）、基金信息单列、版权协议
+- 再次确认审稿周期（约 1–3 个月）、费用与摘要字数（部分为待核实项）
 - 若本 skill 与最新官方要求冲突，以官方要求为准
 
 ## 投稿前自检

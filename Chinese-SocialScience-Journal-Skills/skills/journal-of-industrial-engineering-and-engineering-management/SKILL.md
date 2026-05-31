@@ -1,13 +1,13 @@
 ---
 name: journal-of-industrial-engineering-and-engineering-management
-description: Use when targeting 《管理工程学报》(Journal of Industrial Engineering and Engineering Management) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《管理工程学报》(Journal of Industrial Engineering and Engineering Management — 浙江大学主办、教育部主管的管理工程类双月刊, 1987 年创刊, 国内唯一对口管理工程学科的学术刊) or deciding whether a Chinese industrial-engineering/operations manuscript fits this venue. Encodes the journal's fit, framing, house style, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《管理工程学报》投稿（journal-of-industrial-engineering-and-engineering-management）
 
 ## 期刊定位
 
-工业工程与工程管理专业刊，适合运营、工程项目、制造服务系统和优化决策。
+《管理工程学报》由**浙江大学**主办、**教育部**主管，**1987 年**创刊，为管理工程类学术**双月刊**（ISSN 1004-6062，CN 33-1136/N）。它源于原国家教委管理工程专业教学指导委员会，被定位为国内**唯一与管理工程学科领域相对口**的学术性刊物，CSSCI 与中文核心收录。覆盖工业工程、制造与服务运营、工程项目管理、供应链、质量管理与优化决策，偏好有模型/算法/数值实验支撑的方法贡献。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -17,6 +17,15 @@ description: Use when targeting 《管理工程学报》(Journal of Industrial E
 - 稿件主题接近本刊，但不确定问题意识、方法强度和读者对象是否匹配
 - 需要把一篇通用中文经管稿改写成《管理工程学报》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办 / 主管**：浙江大学主办、教育部主管；**双月刊**，1987 创刊（ISSN 1004-6062，CN 33-1136/N）。
+- **定位**：源于原国家教委管理工程专业教学指导委员会，国内唯一与管理工程学科相对口的学术刊；CSSCI、中文核心。
+- **投稿方式**：官网采编系统在线投稿，入口 glgcxb.zju.edu.cn（编辑部官网 glgcxb.cn）。
+- **审稿/见刊**：作者反馈一审一般约 **3 个月内**有消息，见刊前约半年左右网络首发（**以编辑部最新为准**）。
+- **费用**：来稿反馈本刊收取版面费（长文费用较高），**具体标准以官网最新《投稿须知》/编辑部通知为准**（待核实，不臆断具体数额）。
+- **摘要字数 / 关键词 / 参考文献体例 / 匿名审稿**：以官网最新《投稿须知》为准（**待核实**，不臆断）。
 
 ## 选题偏好
 
@@ -38,12 +47,12 @@ description: Use when targeting 《管理工程学报》(Journal of Industrial E
 
 ## 官方核验清单
 
-- 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
-- 核对数学符号、图表、摘要、参考文献和附录证明要求
-- 确认在线投稿与模板版本
-- 检索“《管理工程学报》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
-- 若本 skill 与最新官方要求冲突，以官方要求为准
+- 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从官方来源锚点开始核验，并在回答中说明核验日期。
+- 检索“《管理工程学报》 投稿须知 / 征稿简则 / 作者指南”，以官网（glgcxb.zju.edu.cn / glgcxb.cn）最新页面为准；不要沿用二手代投网站格式。
+- 核对数学符号、图表、摘要、关键词、参考文献和附录证明要求。
+- 核对版面费标准、是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议。
+- 再次确认审稿/见刊周期与费用（上面数值可能随官网更新而变化）。
+- 若本 skill 与最新官方要求冲突，以官方要求为准。
 
 ## 投稿前自检
 
@@ -51,6 +60,7 @@ description: Use when targeting 《管理工程学报》(Journal of Industrial E
 - [ ] 引言前 3 段已经出现本刊关心的问题层级、理论/机制和主要证据
 - [ ] 文献综述至少对话 2-3 篇本刊或同层级中文期刊近年同主题文章
 - [ ] 方法、数据、图表和参考文献格式已按最新官方稿约复核
+- [ ] 已确认版面费标准与审稿/见刊周期，作者信息/基金按官方稿约复核
 - [ ] 政策/管理启示从本文证据推出，而不是泛泛口号
 
 ## 高频拒稿雷区
@@ -61,7 +71,7 @@ description: Use when targeting 《管理工程学报》(Journal of Industrial E
 
 ## 改投判断
 
-大型系统方法转 systems-engineering-theory-and-practice；工程管理前沿转 frontiers-of-engineering-management-science-and-technology。
+更偏大型系统/复杂系统方法 → systems-engineering-theory-and-practice（《系统工程理论与实践》）；重大工程、项目治理与工程管理前沿 → frontiers-of-engineering-management-science-and-technology（《工程管理科技前沿》）；运筹优化旗舰 → journal-of-management-sciences-china（《管理科学学报》）/ chinese-journal-of-management-science（《中国管理科学》）。
 
 ## 输出格式
 
@@ -71,6 +81,6 @@ description: Use when targeting 《管理工程学报》(Journal of Industrial E
 【选题标签】<最贴近的 2-3 个主题>
 【方法证据】<当前方法是否够本刊标准>
 【最大风险】<最可能导致退稿的一点>
-【需核验官方要求】<投稿系统/匿名/摘要/图表/数据等>
+【需核验官方要求】<投稿系统/匿名/摘要/参考文献/版面费/审稿周期等>
 【改投建议】<若不匹配，给出更合适期刊>
 ```

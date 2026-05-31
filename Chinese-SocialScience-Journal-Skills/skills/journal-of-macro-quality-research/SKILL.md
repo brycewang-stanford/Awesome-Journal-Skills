@@ -1,13 +1,13 @@
 ---
 name: journal-of-macro-quality-research
-description: Use when targeting 《宏观质量研究》(Journal of Macro-quality Research) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《宏观质量研究》(Journal of Macro-quality Research — 教育部主管、武汉大学主办、武大质量发展战略研究院编辑出版的 CSSCI 期刊) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's quality-economics framing, house-style, official-submission-check (hgzlyj.whu.edu.cn), and desk-reject heuristics.
 ---
 
 # 《宏观质量研究》投稿（journal-of-macro-quality-research）
 
 ## 期刊定位
 
-宏观质量、质量强国和质量经济研究专门刊，适合质量测度、质量治理和标准化研究。
+《宏观质量研究》由**教育部**主管、**武汉大学**主办、**武汉大学质量发展战略研究院**编辑出版（CSSCI 来源期刊、RCCSE 与 AMI 来源期刊；ISSN 2095-607X，CN 42-1848/C）。聚焦宏观质量、质量强国与质量经济研究——质量测度、质量治理、标准化、产品/服务质量、监管治理、产业升级与消费者福利。本刊以**质量经济学与质量管理学科**为定位，强调测度透明与可复现，区别于一般宏观预测刊。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -17,6 +17,14 @@ description: Use when targeting 《宏观质量研究》(Journal of Macro-qualit
 - 稿件主题接近本刊，但不确定问题意识、方法强度和读者对象是否匹配
 - 需要把一篇通用中文经管稿改写成《宏观质量研究》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主管/主办/编辑出版**：教育部主管、武汉大学主办、武汉大学质量发展战略研究院编辑出版；质量经济与质量管理类学术期刊。
+- **刊号/收录**：ISSN 2095-607X；CN 42-1848/C；CSSCI 来源、RCCSE 核心、AMI 来源期刊。
+- **审稿周期**：审稿时间约 **1–3 个月**（以官网最新公示为准）。
+- **官网/投稿**：编辑部官网 **hgzlyj.whu.edu.cn**（投稿系统/邮箱以官网最新入口为准）。
+- **刊期/摘要/关键词/费用**：刊期（季刊或双月刊，来源不一）、摘要字数、关键词数与费用政策以官网最新《投稿须知》为准（**待核实**）。
 
 ## 选题偏好
 
@@ -39,10 +47,10 @@ description: Use when targeting 《宏观质量研究》(Journal of Macro-qualit
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
-- 核对数据来源、宏观口径、图表单位和投稿模板
-- 确认是否需要附录、公式推导或数据说明
-- 检索“《宏观质量研究》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
+- 核对数据来源、质量测度口径、图表单位和投稿模板
+- 确认是否需要附录、公式推导、指数权重或数据说明
+- 检索“《宏观质量研究》 投稿须知 / 征稿简则 / 作者指南”，以官网 hgzlyj.whu.edu.cn 最新页面为准；不要沿用二手代投网站格式
+- 核对刊期、摘要字数、关键词数、是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或费用声明（上面数值可能随官网更新而变化）
 - 若本 skill 与最新官方要求冲突，以官方要求为准
 
 ## 投稿前自检

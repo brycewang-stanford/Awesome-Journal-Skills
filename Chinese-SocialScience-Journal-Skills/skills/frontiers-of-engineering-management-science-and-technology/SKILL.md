@@ -1,32 +1,42 @@
 ---
 name: frontiers-of-engineering-management-science-and-technology
-description: Use when targeting 《工程管理科技前沿》(Frontiers of Engineering Management Science and Technology) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《工程管理科技前沿》(Frontiers of Engineering Management Science and Technology — 合肥工业大学主办、教育部主管的管理类双月刊, 由《预测》于 2022 年更名, 1982 年创刊, 国自然管理科学 A 级, 双盲匿名审稿) or deciding whether a Chinese engineering-management/forecasting manuscript fits this venue. Encodes the journal's fit, framing, blind-review house style, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《工程管理科技前沿》投稿（frontiers-of-engineering-management-science-and-technology）
 
 ## 期刊定位
 
-工程管理和科技前沿取向，适合重大工程、项目治理、工程创新和复杂系统管理。
+《工程管理科技前沿》由**合肥工业大学**主办、**教育部**主管，**1982 年**创刊，原名《预测》，**2022 年起更名**为现刊名，为管理类学术**双月刊**（CN 34-1013/N，ISSN 1003-5192）。本刊是国家自然科学基金委员会管理科学部 **A 级重要期刊**，南大核心、北大核心收录，设研究论文、专题论文、科技前沿、超级工程、工程师之家、青年之声等栏目。取向为工程管理与科技前沿——重大工程管理、项目治理、工程创新、技术管理、复杂系统与预测分析，偏好有模型、算法或量化实证支撑的研究。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
 ## 触发时机
 
-- 用户明确说目标期刊是《工程管理科技前沿》或 Frontiers of Engineering Management Science and Technology
+- 用户明确说目标期刊是《工程管理科技前沿》（原《预测》）或 Frontiers of Engineering Management Science and Technology
 - 稿件主题接近本刊，但不确定问题意识、方法强度和读者对象是否匹配
 - 需要把一篇通用中文经管稿改写成《工程管理科技前沿》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办 / 主管**：合肥工业大学主办、教育部主管；**双月刊**，1982 创刊（CN 34-1013/N，ISSN 1003-5192）。
+- **刊名沿革**：原名《预测》，**2022 年起**更名为《工程管理科技前沿》。
+- **级别 / 收录**：国家自然科学基金委管理科学部 A 级重要期刊；南大核心（CSSCI）、北大核心、知网、AMI、JST 收录。
+- **审稿模式**：**双盲匿名评审**——正文不得出现任何作者信息，作者信息需单附一页列出。
+- **审稿周期**：约 **2–5 个月**（以编辑部最新为准）。
+- **投稿方式**：登录期刊网站注册并电子投稿；投稿系统为知网采编入口（yuce.cbpt.cnki.net），编辑部地址合肥市屯溪路 193 号合肥工业大学 290 信箱（邮编 230009）。
+- **摘要字数 / 关键词 / 参考文献体例 / 版面费**：以官网最新《投稿须知》为准（**待核实**，不臆断）。
 
 ## 选题偏好
 
 - 重大工程管理、项目治理和风险控制
 - 工程创新、数字建造和技术管理
-- 复杂项目、供应链和安全韧性
+- 复杂项目、供应链、预测分析和安全韧性
 
 ## 方法与证据
 
-- 优化、决策、供应链、系统工程、仿真、复杂系统、博弈和算法是核心
+- 优化、决策、供应链、系统工程、仿真、复杂系统、博弈、预测和算法是核心
 - 必须有模型设定、假设、命题/定理、算法或数值实验
 - 经验或案例只有在服务模型验证时才对口
 
@@ -38,17 +48,18 @@ description: Use when targeting 《工程管理科技前沿》(Frontiers of Engi
 
 ## 官方核验清单
 
-- 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
-- 核对数学符号、图表、摘要、参考文献和附录证明要求
-- 确认在线投稿与模板版本
-- 检索“《工程管理科技前沿》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
-- 若本 skill 与最新官方要求冲突，以官方要求为准
+- 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从官方来源锚点开始核验，并在回答中说明核验日期。
+- 检索“《工程管理科技前沿》/《预测》 投稿须知 / 征稿简则 / 作者指南”，以官网（yuce.cbpt.cnki.net）最新页面为准；不要沿用二手代投网站格式。
+- 核对**双盲匿名**要求：正文须彻底去除作者信息、作者信息单页附列。
+- 核对数学符号、图表、摘要、关键词、参考文献、附录证明要求与版面费标准。
+- 再次确认审稿周期（约 2–5 个月）与投稿系统入口（上面数值可能随官网更新而变化）。
+- 若本 skill 与最新官方要求冲突，以官方要求为准。
 
 ## 投稿前自检
 
 - [ ] 一句话说明为什么这篇稿件属于《工程管理科技前沿》的核心读者范围
 - [ ] 引言前 3 段已经出现本刊关心的问题层级、理论/机制和主要证据
+- [ ] 正文已做双盲匿名处理、作者信息单页附列
 - [ ] 文献综述至少对话 2-3 篇本刊或同层级中文期刊近年同主题文章
 - [ ] 方法、数据、图表和参考文献格式已按最新官方稿约复核
 - [ ] 政策/管理启示从本文证据推出，而不是泛泛口号
@@ -58,10 +69,11 @@ description: Use when targeting 《工程管理科技前沿》(Frontiers of Engi
 - 只有回归或问卷，没有模型/算法贡献
 - 命题无证明或假设不合理
 - 数值实验只展示结果，不解释机制
+- 正文残留作者信息导致双盲匿名失败
 
 ## 改投判断
 
-通用工程管理方法转 journal-of-industrial-engineering-and-engineering-management；系统工程转 systems-engineering-theory-and-practice。
+通用工业工程与工程管理方法 → journal-of-industrial-engineering-and-engineering-management（《管理工程学报》）；大型系统工程方法 → systems-engineering-theory-and-practice（《系统工程理论与实践》）；运筹优化旗舰 → chinese-journal-of-management-science（《中国管理科学》）/ journal-of-management-sciences-china（《管理科学学报》）。
 
 ## 输出格式
 
@@ -71,6 +83,6 @@ description: Use when targeting 《工程管理科技前沿》(Frontiers of Engi
 【选题标签】<最贴近的 2-3 个主题>
 【方法证据】<当前方法是否够本刊标准>
 【最大风险】<最可能导致退稿的一点>
-【需核验官方要求】<投稿系统/匿名/摘要/图表/数据等>
+【需核验官方要求】<双盲匿名/投稿系统/摘要/参考文献/版面费/审稿周期等>
 【改投建议】<若不匹配，给出更合适期刊>
 ```

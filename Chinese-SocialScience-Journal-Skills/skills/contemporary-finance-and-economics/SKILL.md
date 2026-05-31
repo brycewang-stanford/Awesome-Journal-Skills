@@ -1,13 +1,13 @@
 ---
 name: contemporary-finance-and-economics
-description: Use when targeting 《当代财经》(Contemporary Finance and Economics) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《当代财经》(Contemporary Finance and Economics — 江西财经大学主办的综合财经月刊, 双向匿名审稿, 不收审稿费/版面费且发稿酬, 摘要须含研究方法名、关键词含方法名, 文内引用同采“作者—出版年”制与“顺序编码制”) or deciding whether a Chinese econ/management manuscript fits this venue. Encodes the journal's fit, framing, house style, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《当代财经》投稿（contemporary-finance-and-economics）
 
 ## 期刊定位
 
-江西财经大学主办的综合财经期刊，适合财经理论、区域发展和企业金融研究。
+《当代财经》由**江西财经大学**主办，是综合性财经**月刊**，适合财经理论、区域发展与企业金融研究。江西财大同时主办《江西财经大学学报》（slug：journal-of-jiangxi-university-of-finance-and-economics），两刊共用同一采编系统（cfejxufe.magtech.com.cn）、稿约高度相近——《当代财经》是面向全国的综合财经刊，校学报更偏校本综合，投稿时勿混淆两刊。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -17,6 +17,15 @@ description: Use when targeting 《当代财经》(Contemporary Finance and Econ
 - 稿件主题接近本刊，但不确定问题意识、方法强度和读者对象是否匹配
 - 需要把一篇通用中文经管稿改写成《当代财经》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办**：江西财经大学；综合性财经月刊。采编系统 cfejxufe.magtech.com.cn（与《江西财经大学学报》共用）。
+- **费用**：声明**不以任何形式收取审稿费、版面费**，并向录用论文作者**发放稿酬**。
+- **审稿**：实行**双向匿名评审**——上传稿件不得出现作者姓名、单位、基金项目等信息；**仅在线投稿**，不接受纸质稿与邮件。
+- **审稿周期**：一般**约两个月**；投稿满**三个月**未收到处理意见，作者与编辑部沟通后可自行处理。
+- **摘要/关键词**：摘要约 **300 字左右**、禁用“本文/笔者”等主语；关键词 **3–5 个**，且**须包含论文所采用的研究方法名称**。
+- **参考文献**：文内引用**同时采用“作者—出版年”制与“顺序编码制”**（与多数刊不同，须特别注意）。
 
 ## 选题偏好
 
@@ -41,7 +50,7 @@ description: Use when targeting 《当代财经》(Contemporary Finance and Econ
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
 - 核对官网稿约、匿名/非匿名、基金脚注、摘要关键词和参考文献格式
 - 确认是否接受网络首发和数据库收录声明
-- 检索“《当代财经》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
+- 检索“《当代财经》 投稿须知”，并以采编系统 cfejxufe.magtech.com.cn 的最新页面为准；不要沿用二手代投网站格式
 - 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
 - 若本 skill 与最新官方要求冲突，以官方要求为准
 
@@ -61,7 +70,7 @@ description: Use when targeting 《当代财经》(Contemporary Finance and Econ
 
 ## 改投判断
 
-江西财大学报定位更校本综合；会计审计转 accounting-and-economics-research。
+校本综合定位更合适 → journal-of-jiangxi-university-of-finance-and-economics（《江西财经大学学报》，同校同系统）；会计审计专门稿 → accounting-and-economics-research。
 
 ## 输出格式
 

@@ -1,13 +1,13 @@
 ---
 name: chinese-journal-of-management-science
-description: Use when targeting 《中国管理科学》(Chinese Journal of Management Science) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《中国管理科学》(Chinese Journal of Management Science — 中国优选法统筹法与经济数学研究会与中科院科技战略咨询研究院主办的管理科学与工程类月刊, 中科院主管) or deciding whether a Chinese management-science manuscript fits this venue. Encodes the journal's fit, framing, abstract/citation house style, fee note, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《中国管理科学》投稿（chinese-journal-of-management-science）
 
 ## 期刊定位
 
-管理科学与工程、系统优化、决策分析和数量管理的重要刊物。
+《中国管理科学》由**中国科学院**主管，**中国优选法统筹法与经济数学研究会**与**中国科学院科技战略咨询研究院**共同主办，为管理科学与工程类学术**月刊**。以运筹优化、决策分析、风险管理、金融工程、供应链与运营、数据驱动管理与复杂系统为核心，强调模型设定、命题/定理或算法层面的方法贡献，是国内管理科学与工程方向的重要 CSSCI / 中文核心刊物。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -17,6 +17,17 @@ description: Use when targeting 《中国管理科学》(Chinese Journal of Mana
 - 稿件主题接近本刊，但不确定问题意识、方法强度和读者对象是否匹配
 - 需要把一篇通用中文经管稿改写成《中国管理科学》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主管 / 主办**：中国科学院主管；中国优选法统筹法与经济数学研究会 + 中国科学院科技战略咨询研究院主办；**月刊**。
+- **摘要**：须具独立性与自明性，含研究目的、方法、主要结果与结论，约 **100–200 字**。
+- **关键词**：**3 个以上**。
+- **参考文献**：采用**顺序编码制**（按文中出现先后编号，文末按序著录），且为作者直接阅读过的、公开出版文献，**不少于 3 条**。
+- **篇幅**：论文篇幅不超过约 12 页（以官网最新为准）。
+- **费用**：编辑部曾公布版面费——**5 页以内约 600 元，超过 5 页每增一页加收约 150 元**（以官网最新《投稿须知》为准）。
+- **投稿方式**：官网采编系统在线投稿，官网入口 zgglkx.com。
+- **审稿模式**：是否全程匿名以官网最新提示为准（**待核实**，不臆断）。
 
 ## 选题偏好
 
@@ -38,18 +49,19 @@ description: Use when targeting 《中国管理科学》(Chinese Journal of Mana
 
 ## 官方核验清单
 
-- 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
-- 核对数学符号、图表、摘要、参考文献和附录证明要求
-- 确认在线投稿与模板版本
-- 检索“《中国管理科学》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
-- 若本 skill 与最新官方要求冲突，以官方要求为准
+- 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从官方来源锚点开始核验，并在回答中说明核验日期。
+- 检索“《中国管理科学》 投稿须知 / 征稿简则 / 作者指南”，以官网（zgglkx.com）最新页面为准；不要沿用二手代投网站格式。
+- 核对数学符号、图表、摘要（100–200 字）、关键词（≥3）、顺序编码参考文献（≥3 条）和附录证明要求。
+- 核对篇幅上限、版面费标准、是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议。
+- 再次确认审稿/见刊周期与版面费（上面数值可能随官网更新而变化）。
+- 若本 skill 与最新官方要求冲突，以官方要求为准。
 
 ## 投稿前自检
 
 - [ ] 一句话说明为什么这篇稿件属于《中国管理科学》的核心读者范围
 - [ ] 引言前 3 段已经出现本刊关心的问题层级、理论/机制和主要证据
 - [ ] 文献综述至少对话 2-3 篇本刊或同层级中文期刊近年同主题文章
+- [ ] 摘要 100–200 字、关键词 ≥3、参考文献顺序编码且 ≥3 条已按官方稿约复核
 - [ ] 方法、数据、图表和参考文献格式已按最新官方稿约复核
 - [ ] 政策/管理启示从本文证据推出，而不是泛泛口号
 
@@ -61,7 +73,7 @@ description: Use when targeting 《中国管理科学》(Chinese Journal of Mana
 
 ## 改投判断
 
-更数理旗舰转 journal-of-management-sciences-china；系统工程方法转 systems-engineering-theory-and-practice。
+更数理旗舰、定理推演更厚 → journal-of-management-sciences-china（《管理科学学报》）；系统工程/复杂系统方法 → systems-engineering-theory-and-practice（《系统工程理论与实践》）；工业工程与工程管理落点 → journal-of-industrial-engineering-and-engineering-management（《管理工程学报》）。
 
 ## 输出格式
 
@@ -71,6 +83,6 @@ description: Use when targeting 《中国管理科学》(Chinese Journal of Mana
 【选题标签】<最贴近的 2-3 个主题>
 【方法证据】<当前方法是否够本刊标准>
 【最大风险】<最可能导致退稿的一点>
-【需核验官方要求】<投稿系统/匿名/摘要/图表/数据等>
+【需核验官方要求】<投稿系统/匿名/摘要100-200字/关键词/顺序编码参考文献/版面费等>
 【改投建议】<若不匹配，给出更合适期刊>
 ```

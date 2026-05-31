@@ -1,15 +1,25 @@
 ---
 name: economic-aspects
-description: Use when targeting 《经济纵横》(Economic Review Journal) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《经济纵横》(Economic Review Journal — 吉林省社会科学院/社科联主办的综合性经济理论月刊, 1985 年创刊, 不收版面费/审稿费) or deciding whether a Chinese econ/policy manuscript fits this venue. Encodes the journal's fit, framing, fee-free policy, abstract/keyword house style, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《经济纵横》投稿（economic-aspects）
 
 ## 期刊定位
 
-综合经济理论与政策刊，适合宏观形势、改革、产业政策和现实经济问题的学术化分析。
+《经济纵横》由**吉林省社会科学院、吉林省社会科学界联合会**主办，是综合性**经济理论月刊**，**1985 年**创刊（ISSN 1007-7685）。适合宏观经济形势、改革开放、产业政策、区域经济、共同富裕、数字经济与绿色转型的学术化分析。偏好观点鲜明、论证规范的中短篇，明确区别于政策宣传或经验汇报。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办**：吉林省社会科学院、吉林省社会科学界联合会；综合性经济理论月刊，1985 年创刊（ISSN 1007-7685）。
+- **费用**：版面费、审稿费均为 **0 元**（以官网最新为准）。
+- **审稿周期**：投稿—录用约 **2 个月**（编辑部声明审稿周期为两个月）；录用—见刊约 **5 个月**。
+- **摘要**：中文摘要应具独立性、列出主要观点，**约 100–300 字**。
+- **关键词**：一般 **3–8 个**。
+- **篇幅**：欢迎精粹短篇（编辑部表述以官网为准；多见 1 万字左右）。
+- **投稿方式**：电子邮箱投稿（官网曾公布 jjzh1985@vip.163.com，以官网最新为准）；官网入口 jjzh.juqk.net、CNKI 采编 jjzh.cbpt.cnki.net。
 
 ## 触发时机
 

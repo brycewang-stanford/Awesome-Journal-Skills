@@ -1,13 +1,13 @@
 ---
 name: modern-finance-and-economics
-description: Use when targeting 《现代财经（天津财经大学学报）》(Modern Finance and Economics) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《现代财经（天津财经大学学报）》(Modern Finance and Economics — 天津市教委主管、天津财经大学主办的经济类月刊, 1981 创刊, CN 12-1387/F) or deciding whether a Chinese econ/management manuscript fits this venue. Encodes the journal's fit, framing, house style, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《现代财经（天津财经大学学报）》投稿（modern-finance-and-economics）
 
 ## 期刊定位
 
-天津财经大学综合财经学报，财政金融、产业、会计和区域经济议题较对口。
+《现代财经》由**天津市教委**主管、**天津财经大学**主办，是经济类**月刊**，**1981 年**创刊（ISSN 1005-1007，CN 12-1387/F）。财政金融、会计审计与资本市场、产业经济、城市与区域经济等议题较对口。注意刊名全称含副题“天津财经大学学报”——主办高校为天津财经大学，勿与中央财大、上财等同名“学报”混淆。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -17,6 +17,15 @@ description: Use when targeting 《现代财经（天津财经大学学报）》
 - 稿件主题接近本刊，但不确定问题意识、方法强度和读者对象是否匹配
 - 需要把一篇通用中文经管稿改写成《现代财经（天津财经大学学报）》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办/主管**：天津财经大学主办、天津市教委主管；经济类月刊，1981 创刊（CN 12-1387/F）。
+- **篇幅**：正文约 **2200–5000 字符数**为宜，整体篇幅以**万字左右**为佳（以官网最新为准）。
+- **摘要**：约 **200 字左右**，写论文主旨与精髓，忌“本文”等自评价语句。
+- **参考文献**：按 **GB/T 7714** 著录、以**尾注（顺序编码制）**形式与正文一一对应。
+- **审稿周期**：编辑部声明**约 10 个工作日**内反馈审理结果（选用与否均通知，以官网最新为准）。
+- 投稿：Word 排版，附作者姓名、单位、通讯地址、邮编、邮箱、电话。费用以官网声明为准（待核实）。
 
 ## 选题偏好
 

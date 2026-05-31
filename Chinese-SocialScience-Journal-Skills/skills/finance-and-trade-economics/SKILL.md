@@ -1,15 +1,24 @@
 ---
 name: finance-and-trade-economics
-description: Use when targeting 《财贸经济》(Finance and Trade Economics) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《财贸经济》(Finance and Trade Economics — 中国社会科学院主管、财经战略研究院主办的月刊, 2016 年起仅网络在线投稿) or deciding whether a public-finance/tax/trade-circulation manuscript fits this venue. Encodes the journal's online-only submission, 匿名正文/顺序编码制 house style, official re-check, and desk-reject heuristics.
 ---
 
 # 《财贸经济》投稿（finance-and-trade-economics）
 
 ## 期刊定位
 
-中国社科院财经战略研究院主办，财政、税收、贸易、流通与消费问题的权威综合刊。
+《财贸经济》由**中国社会科学院**主管、**财经战略研究院**主办，是综合财经领域各学科的权威学术**月刊**，国内外公开发行。覆盖财政税收、预算治理与地方债、国内贸易/消费/流通体系与全国统一大市场、以及开放贸易与产业政策交叉议题。本刊层级高、识别要求严，机制须落到财政或流通制度，而非停留在收支或相关性描述。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主管/主办**：中国社会科学院主管，中国社会科学院财经战略研究院主办；综合财经学术月刊。
+- **投稿方式**：自 **2016 年 5 月起仅接受网络在线投稿**，作者自行注册后投稿（caimaojingji.cn）；不接受其他渠道。
+- **匿名审稿**：正文中**不得出现**作者姓名、单位、职务职称、地址、邮编、电话、邮箱等个人信息（双盲所需）。
+- **标题/摘要/关键词**：题目不超过 **20 个字**（必要时加副标题）；附 **300 字以内中英文摘要**、**3–5 个关键词**，题目与关键词均中英文对照。
+- **参考文献**：采用**顺序编码制**（按正文首次出现顺序编号，相应位置以方括号上标数字标注）。
+- **费用/审稿周期**：官网未在本次检索中给出确切数值，**待核实**——以官网最新《投稿须知》为准。
 
 ## 触发时机
 
@@ -39,10 +48,11 @@ description: Use when targeting 《财贸经济》(Finance and Trade Economics) 
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
-- 核对最新稿约、财政数据口径、政策文件引用和图表注释
-- 确认是否需要披露数据来源和处理代码
+- 通过官网在线投稿系统（caimaojingji.cn）注册投稿（唯一渠道）；核对最新稿约、财政数据口径、政策文件引用和图表注释
+- 确认正文已彻底匿名、是否需要披露数据来源和处理代码
 - 检索“《财贸经济》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
+- 核对 20 字标题、300 字以内中英文摘要、3–5 个关键词、顺序编码制参考文献、作者信息单列、版权协议
+- 再次确认审稿周期与费用（本次为待核实项）
 - 若本 skill 与最新官方要求冲突，以官方要求为准
 
 ## 投稿前自检
@@ -50,7 +60,8 @@ description: Use when targeting 《财贸经济》(Finance and Trade Economics) 
 - [ ] 一句话说明为什么这篇稿件属于《财贸经济》的核心读者范围
 - [ ] 引言前 3 段已经出现本刊关心的问题层级、理论/机制和主要证据
 - [ ] 文献综述至少对话 2-3 篇本刊或同层级中文期刊近年同主题文章
-- [ ] 方法、数据、图表和参考文献格式已按最新官方稿约复核
+- [ ] 正文已匿名；20 字内标题、≤300 字中英文摘要、3–5 关键词、顺序编码制参考文献齐全
+- [ ] 已通过官网在线投稿系统提交（唯一渠道）；财政机制已与经济结果连接
 - [ ] 政策/管理启示从本文证据推出，而不是泛泛口号
 
 ## 高频拒稿雷区

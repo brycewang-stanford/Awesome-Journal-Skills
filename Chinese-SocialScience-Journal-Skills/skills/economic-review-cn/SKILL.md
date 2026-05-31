@@ -1,15 +1,25 @@
 ---
 name: economic-review-cn
-description: Use when targeting 《经济评论》(Economic Review) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《经济评论》(Economic Review — 武汉大学主办的综合性经济学双月刊, 1980 年创刊, 不收版面费) or deciding whether a Chinese econ manuscript fits this venue. Encodes the journal's fit, framing, abstract/keyword/citation house style, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《经济评论》投稿（economic-review-cn）
 
 ## 期刊定位
 
-武汉大学主办的综合经济学刊，适合规范实证、经济理论和中国经济政策问题。
+《经济评论》由**武汉大学**主办，是综合性**经济学双月刊**，**1980 年**创刊，CSSCI 来源期刊。适合规范实证、经济理论和中国经济政策问题——产业、金融、财政、区域、发展经济、劳动人口、收入分配及中国经济改革与制度变迁。重视问题清晰度、识别策略与写作规范。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办**：武汉大学；综合性经济学双月刊，1980 年创刊；CSSCI 来源期刊。
+- **费用**：版面费为 **0 元/篇**（以官网最新为准）。
+- **审稿周期**：一般约 **3–6 个月**（以采编系统反馈为准）。
+- **摘要**：中文摘要用第三人称撰写，含目的、方法、结果、结论，**150 字左右**为宜。
+- **关键词**：一般 **3–6 个**。
+- **参考文献**：按 GB/T 7714《文后参考文献著录规则》，采用**顺序编码制**著录。
+- **投稿方式**：官网采编系统 **jer.whu.edu.cn**。
 
 ## 触发时机
 

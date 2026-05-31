@@ -1,13 +1,13 @@
 ---
 name: public-finance-research
-description: Use when targeting 《财政研究》(Public Finance Research) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《财政研究》(Public Finance Research — 财政部主管、中国财政学会主办、不收版面费的财政学权威核心月刊, CNKI 采编系统) or deciding whether a Chinese public-finance manuscript fits this venue. Encodes the journal's fit, framing, abstract/keyword/citation house style, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《财政研究》投稿（public-finance-research）
 
 ## 期刊定位
 
-财政学核心刊，适合预算、税制、财政体制、地方债和公共支出绩效研究。
+《财政研究》由**财政部主管、中国财政学会主办**，是财政学领域的**权威学术核心期刊**，**月刊**。覆盖财政分权与财政体制、预算治理与转移支付、税制改革与税负分配、地方债与政府投资、公共服务供给与公共支出绩效。本刊兼收**财政理论、制度政策与规范实证**，要求财政制度背景准确、数据口径与层级清楚，机制要从财政激励落到经济结果。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -15,8 +15,17 @@ description: Use when targeting 《财政研究》(Public Finance Research) or d
 
 - 用户明确说目标期刊是《财政研究》或 Public Finance Research
 - 稿件主题接近本刊，但不确定问题意识、方法强度和读者对象是否匹配
-- 需要把一篇通用中文经管稿改写成《财政研究》更容易接受的叙事
+- 需要把一篇通用中文财政稿改写成《财政研究》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主管/主办**：财政部主管、中国财政学会主办；财政学术**月刊**，核心期刊。
+- **审稿/费用**：**三个月**内未收到审稿意见可自行处理（审稿约 1–3 个月）；**版面费为 0 元**（不收版面费）。
+- **篇幅**：一般 **8000–15000 字**（含字符、空格、图表等）。
+- **关键词**：**3–5 个**。
+- **要素**：须含中文内容提要、关键词、作者简介、基金信息、中图分类号、参考文献，以及与中文相符的**英文标题、作者、摘要、关键词**。
+- **投稿/系统**：通过 **CNKI 采编系统**投稿（czyj.cbpt.cnki.net）；勿一稿多投，以官网最新页面为准。
 
 ## 选题偏好
 
@@ -38,30 +47,29 @@ description: Use when targeting 《财政研究》(Public Finance Research) or d
 
 ## 官方核验清单
 
-- 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
-- 核对最新稿约、财政数据口径、政策文件引用和图表注释
-- 确认是否需要披露数据来源和处理代码
-- 检索“《财政研究》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
-- 若本 skill 与最新官方要求冲突，以官方要求为准
+- 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从官方来源锚点开始核验，并在回答中说明核验日期。
+- 检索“《财政研究》 投稿须知 / 征稿简则 / 作者指南”，以官网与 CNKI 采编系统（czyj.cbpt.cnki.net）最新页面为准；不要沿用二手代投网站格式。
+- 核对：CNKI 采编系统入口、篇幅 8000–15000 字、关键词 3–5 个、内容提要/作者简介/基金/中图分类号/英文要素齐全、参考文献格式、不收版面费声明、勿一稿多投。
+- 再次确认审稿周期与最新格式（上面数值可能随官网更新而变化）。
+- 若本 skill 与最新官方要求冲突，以官方要求为准。
 
 ## 投稿前自检
 
 - [ ] 一句话说明为什么这篇稿件属于《财政研究》的核心读者范围
-- [ ] 引言前 3 段已经出现本刊关心的问题层级、理论/机制和主要证据
-- [ ] 文献综述至少对话 2-3 篇本刊或同层级中文期刊近年同主题文章
-- [ ] 方法、数据、图表和参考文献格式已按最新官方稿约复核
-- [ ] 政策/管理启示从本文证据推出，而不是泛泛口号
+- [ ] 引言前 3 段已经出现本刊关心的问题层级、财政机制和主要证据
+- [ ] 篇幅 8000–15000 字；内容提要、关键词 3–5 个、作者简介、基金、中图分类号、英文要素齐全
+- [ ] 财政数据口径与中央/地方层级核对无误，识别策略与稳健性可经受核心刊审稿
+- [ ] 政策建议从本文证据推出，而不是泛泛口号
 
 ## 高频拒稿雷区
 
 - 中央/地方财政口径混用
-- 税收政策时点和适用范围写错
+- 财政/税收政策时点和适用范围写错
 - 只做相关性，没有财政制度机制
 
 ## 改投判断
 
-税务实务更强转 tax-research；宏观财政理论更强转 economic-research。
+税收征管/税制实务更强转 tax-research（《税务研究》）；宏观财政理论或宏观识别更强转 economic-research（《经济研究》）；财贸结合的财政金融转 finance-and-trade-economics（《财贸经济》）。
 
 ## 输出格式
 

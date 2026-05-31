@@ -1,13 +1,13 @@
 ---
 name: macroeconomics
-description: Use when targeting 《宏观经济研究》(Macroeconomics) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《宏观经济研究》(Macroeconomics — 国家发改委主管、中国宏观经济研究院主办的综合性经济理论 CSSCI 月刊, 1955 年创刊) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, macro-policy framing, house-style, official-submission-check, and desk-reject heuristics.
 ---
 
 # 《宏观经济研究》投稿（macroeconomics）
 
 ## 期刊定位
 
-国家发改委宏观经济研究院相关刊物，偏宏观政策、预测、经济运行和调控研究。
+《宏观经济研究》由**国家发展和改革委员会**主管、**中国宏观经济研究院**主办，**1955 年**创刊，是综合性经济理论类**月刊**（CSSCI 与北大核心双核心；CN 11-3952/F，ISSN 1008-2069）。偏宏观经济运行、增长投资消费、宏观调控、产业政策与区域战略、预测预警与政策模拟。本刊既容纳规范的政策分析，也接受宏观计量与测度研究，强调宏观口径透明与可复现，对纯软件输出、设定不清的稿件包容度低。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -17,6 +17,14 @@ description: Use when targeting 《宏观经济研究》(Macroeconomics) or deci
 - 稿件主题接近本刊，但不确定问题意识、方法强度和读者对象是否匹配
 - 需要把一篇通用中文经管稿改写成《宏观经济研究》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主管/主办**：国家发展和改革委员会主管、中国宏观经济研究院主办；综合性经济理论月刊，1955 年创刊；CSSCI 与北大核心双核心期刊。
+- **刊号**：CN 11-3952/F；ISSN 1008-2069；邮发代号 82-791。
+- **审稿周期**：审稿时间约 **1–3 个月**（以官网最新公示为准）。
+- **版式**：本刊为**单色（单黑）印刷**，图表须在 Word 中制作、不得以颜色区分曲线；来稿用 Word，邮件主题注明作者单位与姓名。
+- **摘要/关键词/费用**：摘要字数、关键词数与费用政策以官网最新《投稿须知》为准（**待核实**）。
 
 ## 选题偏好
 
@@ -39,10 +47,10 @@ description: Use when targeting 《宏观经济研究》(Macroeconomics) or deci
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
-- 核对数据来源、宏观口径、图表单位和投稿模板
+- 核对数据来源、宏观口径、图表单位；图表按单色版要求制作（不用颜色区分曲线）、来稿用 Word
 - 确认是否需要附录、公式推导或数据说明
 - 检索“《宏观经济研究》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
+- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或费用声明；复核审稿周期、摘要字数与关键词数（上面数值可能随官网更新而变化）
 - 若本 skill 与最新官方要求冲突，以官方要求为准
 
 ## 投稿前自检

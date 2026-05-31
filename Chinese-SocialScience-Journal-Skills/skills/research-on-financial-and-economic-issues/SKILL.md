@@ -1,13 +1,13 @@
 ---
 name: research-on-financial-and-economic-issues
-description: Use when targeting 《财经问题研究》(Research on Financial and Economic Issues) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《财经问题研究》(Research on Financial and Economic Issues — 辽宁省教育厅主管、东北财经大学主办的经济管理类月刊, 1979 创刊, CN 21-1096/F, 双向匿名审稿, 不收任何费用, 在线投稿 cjwt.cbpt.cnki.net) or deciding whether a Chinese econ/management manuscript fits this venue. Encodes the journal's fit, framing, house style, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《财经问题研究》投稿（research-on-financial-and-economic-issues）
 
 ## 期刊定位
 
-东北财经大学主办的综合财经刊，强调现实财经问题、区域经济和规范研究。
+《财经问题研究》由**辽宁省教育厅**主管、**东北财经大学**主办，是经济管理类学术**月刊**，**1979 年**创刊（ISSN 1000-176X，CN 21-1096/F）。强调现实财经问题、区域经济与规范研究。注意：主办高校为**东北财经大学**（大连），勿与同省/同类财经刊或各财经大学“学报”混淆主办单位。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -17,6 +17,15 @@ description: Use when targeting 《财经问题研究》(Research on Financial a
 - 稿件主题接近本刊，但不确定问题意识、方法强度和读者对象是否匹配
 - 需要把一篇通用中文经管稿改写成《财经问题研究》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办/主管**：东北财经大学主办、辽宁省教育厅主管；经济管理类月刊，1979 创刊（CN 21-1096/F）。
+- **投稿入口**：在线采编系统 cjwt.cbpt.cnki.net（杂志社官网 cjwtyj.cn / 东财杂志社 zzs.dufe.edu.cn）；**不接受纸质稿**。
+- **审稿**：实行**双向匿名审稿**——作者姓名、出生年、性别、籍贯、职称、学位、单位、地址、邮编、电话、邮箱等**个人信息独立成页**，正文不得出现。
+- **费用**：**不收版面费等任何费用**；稿酬与审稿费相抵。
+- **审稿周期**：编辑部收稿满**两个月**未获用稿通知可另投他刊（以官网最新为准）。
+- **摘要/参考文献**：中英文摘要与关键词一一对应；英文参考文献作者**姓用全称、名用缩写，姓前名后、逗号分隔**。
 
 ## 选题偏好
 
@@ -41,7 +50,7 @@ description: Use when targeting 《财经问题研究》(Research on Financial a
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
 - 核对官网稿约、匿名/非匿名、基金脚注、摘要关键词和参考文献格式
 - 确认是否接受网络首发和数据库收录声明
-- 检索“《财经问题研究》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
+- 检索“《财经问题研究》 投稿须知 / 征稿启事”，并以在线系统 cjwt.cbpt.cnki.net 与东财杂志社 zzs.dufe.edu.cn 的最新页面为准；不要沿用二手代投网站格式
 - 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
 - 若本 skill 与最新官方要求冲突，以官方要求为准
 

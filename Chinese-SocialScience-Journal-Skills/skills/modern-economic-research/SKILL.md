@@ -1,15 +1,26 @@
 ---
 name: modern-economic-research
-description: Use when targeting 《现代经济探讨》(Modern Economic Research) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《现代经济探讨》(Modern Economic Research — 江苏省社会科学院主管主办的综合性经济理论月刊, 1982 年创刊, 匿名审稿、不收版面费) or deciding whether a Chinese econ/management manuscript fits this venue. Encodes the journal's fit, framing, fee-free/anonymous-review policy, house style, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《现代经济探讨》投稿（modern-economic-research）
 
 ## 期刊定位
 
-现代经济政策和理论探讨刊，适合改革、产业、区域和现实经济问题研究。
+《现代经济探讨》由**江苏省社会科学院**主管主办，是综合性**经济理论月刊**，**1982 年**创刊。重改革、产业、区域和现实经济问题的学术化研究——经济体制改革、产业政策、区域发展、数字经济、绿色转型与高质量发展。作为省社科院主办的理论刊物，要求问题清楚、有制度逻辑、证据可验证，明确区别于政策宣传或工作总结。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主管主办**：江苏省社会科学院；综合性经济理论月刊，1982 年创刊。
+- **审稿模式**：实行**匿名审稿制**——责任编辑初审推荐，经 CNKI 学术不端检测（SMLC）甄别后提请同行专家**双向匿名审稿**。
+- **费用**：刊内信息声明**不收版面费**（审稿费亦未见收取，以官网为准）。
+- **审稿周期**：投稿后 **2 个月**内未收到用稿通知可自行处理（此期间不得另投他刊）。
+- **标题**：题目须简明、具体、确切，一般**不超过 20 字**，必要时可加副标题。
+- **参考文献**：采用**顺序编码制**（正文用方括号阿拉伯数字按引用顺序标注，文末按序著录）。
+- **投稿方式**：指定电子邮箱投稿（官网曾公布 mer6666@vip.163.com，以官网最新为准）；主办方官网入口 jsass.org.cn。
+- **摘要/关键词字数**：官网《投稿须知》为准，**待核实**。
 
 ## 触发时机
 

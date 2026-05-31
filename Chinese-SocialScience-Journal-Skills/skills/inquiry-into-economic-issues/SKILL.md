@@ -1,13 +1,13 @@
 ---
 name: inquiry-into-economic-issues
-description: Use when targeting 《经济问题探索》(Inquiry into Economic Issues) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《经济问题探索》(Inquiry into Economic Issues — 云南省发展和改革委员会主管、云南省宏观经济研究院（云南省产业研究院）主办的经济类月刊, 1980 创刊, 匿名审稿) or deciding whether a Chinese econ/management manuscript fits this venue. Encodes the journal's fit, framing, house style, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《经济问题探索》投稿（inquiry-into-economic-issues）
 
 ## 期刊定位
 
-云南财经/区域经济特色明显，适合区域发展、开放边疆、产业和政策探索。
+《经济问题探索》由**云南省发展和改革委员会**主管、**云南省宏观经济研究院（云南省产业研究院）**主办，是经济类**月刊**，**1980 年**创刊。**注意：本刊并非高校学报，主办单位是云南省发改委系统的研究院，不是“云南财经大学”——勿误判主办**。区域发展、西南开放/边疆经济、产业升级与政策探索特色明显。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -18,6 +18,15 @@ description: Use when targeting 《经济问题探索》(Inquiry into Economic I
 - 需要把一篇通用中文经管稿改写成《经济问题探索》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
 
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办/主管**：云南省宏观经济研究院（云南省产业研究院）主办、云南省发展和改革委员会主管；经济类月刊，1980 创刊。**非高校学报**。
+- **篇幅**：全文一般**不超过 10000 字**；须含文题、作者、摘要、关键词、正文、参考文献。
+- **摘要**：含**目的、方法、结果、结论四要素**（结果与结论可合并），字数一般**以 200 字以内为宜**。
+- **关键词**：可选 **3–8 个**。
+- **参考文献**：著录正式出版物文献，按文中引用先后顺序排列并在引用处标注序号（**顺序编码制**）。
+- **审稿**：**匿名审稿**；审稿周期**约 1–3 个月**（以官网最新为准）。收录：中文核心、CSSCI 来源（以最新目录为准）。
+
 ## 选题偏好
 
 - 西南开放、边疆经济和区域协同
@@ -27,7 +36,7 @@ description: Use when targeting 《经济问题探索》(Inquiry into Economic I
 ## 方法与证据
 
 - 区域经济、产业经济、财政金融、企业管理和开放经济均可，关键是问题清楚、证据扎实、体例规范
-- 高校学报通常要求规范写作、完整中英文摘要关键词、基金信息和参考文献格式
+- 作为省发改委系统研究院主办的政策导向刊，要求规范写作、完整中英文摘要关键词、基金信息和参考文献格式，并欢迎有现实政策落点的西南/边疆议题
 - 经验研究仍需处理内生性和稳健性，但可比顶刊更强调区域特色和政策解释
 
 ## 结构与写作
@@ -41,7 +50,7 @@ description: Use when targeting 《经济问题探索》(Inquiry into Economic I
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
 - 核对官网稿约、匿名/非匿名、基金脚注、摘要关键词和参考文献格式
 - 确认是否接受网络首发和数据库收录声明
-- 检索“《经济问题探索》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
+- 检索“《经济问题探索》 投稿须知 / 征稿简则”，确认主办为云南省宏观经济研究院、以其采编系统最新页面为准；不要沿用二手代投网站格式
 - 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
 - 若本 skill 与最新官方要求冲突，以官方要求为准
 

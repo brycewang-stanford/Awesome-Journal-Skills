@@ -1,22 +1,30 @@
 ---
 name: china-accounting-review
-description: Use when targeting 《会计评论》(China Accounting Review) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《中国会计评论》(China Accounting Review — 北京大学等高校发起、依托北京大学光华管理学院、实行匿名审稿的会计学术季刊) or deciding whether a Chinese accounting/finance manuscript fits this venue. Encodes the journal's fit, framing, anonymous-review house style, official-submission re-check, and desk-reject heuristics.
 ---
 
-# 《会计评论》投稿（china-accounting-review）
+# 《中国会计评论》投稿（china-accounting-review）
 
 ## 期刊定位
 
-会计学评论型刊，适合会计理论、资本市场会计、审计与披露研究。
+《中国会计评论》（China Accounting Review）是由北京大学、清华大学等高校发起、依托**北京大学光华管理学院**运作的会计学术**季刊**，**2003 年**创刊。定位偏**学术型、规范化**的会计研究，覆盖财务会计、资本市场会计、审计与披露、会计准则与公司治理，方法上以严谨的档案实证、理论与实验研究为主。相对实务/政策导向刊物，本刊更看重**会计构念的清晰构造、识别策略与对会计文献的增量贡献**，强调与国际规范接轨。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
 ## 触发时机
 
-- 用户明确说目标期刊是《会计评论》或 China Accounting Review
+- 用户明确说目标期刊是《中国会计评论》或 China Accounting Review
 - 稿件主题接近本刊，但不确定问题意识、方法强度和读者对象是否匹配
-- 需要把一篇通用中文经管稿改写成《会计评论》更容易接受的叙事
+- 需要把一篇通用中文会计稿改写成《中国会计评论》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **发起/依托**：由北京大学、清华大学等高校发起的《中国会计评论》理事会创办，编辑事务依托**北京大学光华管理学院**；学术性会计**季刊**，**2003 年**创刊。
+- **审稿**：实行**匿名审稿**（依国际学术期刊惯例运作）；正文须做匿名处理，作者身份信息单列。
+- **摘要/关键词/字数**：具体摘要字数、关键词数量与正文篇幅上限**待核实**，以官网最新稿约为准（避免沿用二手代投网站的字符数说法）。
+- **费用**：未见官方版面费/审稿费明确条款，**待核实**，以编辑部说明为准。
+- **投稿方式/官网**：通过北京大学光华管理学院相关页面（gsm.pku.edu.cn）查最新投稿入口与稿约。
 
 ## 选题偏好
 
@@ -26,9 +34,9 @@ description: Use when targeting 《会计评论》(China Accounting Review) or d
 
 ## 方法与证据
 
-- 财务会计、审计、披露、内控、税收和资本市场档案研究是核心
-- 度量要有会计学依据：应计、稳健性、可比性、审计质量、披露指数等
-- 准则、监管和审计制度背景必须准确
+- 财务会计、审计、披露、内控、税收和资本市场档案研究是核心；实验与理论研究亦受欢迎。
+- 度量要有会计学依据：应计、稳健性、可比性、审计质量、披露指数等，须交代构造。
+- 准则、监管和审计制度背景必须准确；识别策略与稳健性需经得起规范审稿。
 
 ## 结构与写作
 
@@ -38,19 +46,18 @@ description: Use when targeting 《会计评论》(China Accounting Review) or d
 
 ## 官方核验清单
 
-- 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
-- 核对投稿须知、数据/程序公开要求、匿名和字数格式
-- 确认会计准则、审计准则和监管文件引用
-- 检索“《会计评论》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
-- 若本 skill 与最新官方要求冲突，以官方要求为准
+- 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从官方来源锚点开始核验，并在回答中说明核验日期。
+- 检索“《中国会计评论》 投稿须知 / 征稿简则 / 作者指南”，以光华管理学院官网最新页面为准；不要沿用二手代投网站的字符数/费用说法。
+- 核对：匿名正文与作者信息页、摘要关键词与字数、参考文献格式、数据/程序公开要求、版权协议。
+- 再次确认审稿周期、投稿入口与是否收费（上面标“待核实”项可能随官网更新而明确）。
+- 若本 skill 与最新官方要求冲突，以官方要求为准。
 
 ## 投稿前自检
 
-- [ ] 一句话说明为什么这篇稿件属于《会计评论》的核心读者范围
+- [ ] 一句话说明为什么这篇稿件属于《中国会计评论》的核心读者范围
 - [ ] 引言前 3 段已经出现本刊关心的问题层级、理论/机制和主要证据
-- [ ] 文献综述至少对话 2-3 篇本刊或同层级中文期刊近年同主题文章
-- [ ] 方法、数据、图表和参考文献格式已按最新官方稿约复核
+- [ ] 正文已匿名、作者信息单列；摘要、关键词、参考文献格式按官方稿约复核
+- [ ] 会计度量已交代构造，识别策略与稳健性可经受匿名审稿
 - [ ] 政策/管理启示从本文证据推出，而不是泛泛口号
 
 ## 高频拒稿雷区
@@ -61,13 +68,13 @@ description: Use when targeting 《会计评论》(China Accounting Review) or d
 
 ## 改投判断
 
-中文会计旗舰转 accounting-research；审计专业稿转 auditing-research。
+中文会计旗舰转 accounting-research（《会计研究》）；审计专业稿转 auditing-research（《审计研究》）；会计与经济交叉、门槛略低转 accounting-and-economics-research（《会计与经济研究》）。
 
 ## 输出格式
 
 ```text
 【匹配度】高 / 中 / 低（一句话理由）
-【目标期刊】《会计评论》
+【目标期刊】《中国会计评论》
 【选题标签】<最贴近的 2-3 个主题>
 【方法证据】<当前方法是否够本刊标准>
 【最大风险】<最可能导致退稿的一点>

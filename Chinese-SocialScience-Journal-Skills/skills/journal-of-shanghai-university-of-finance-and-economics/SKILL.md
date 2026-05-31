@@ -1,13 +1,13 @@
 ---
 name: journal-of-shanghai-university-of-finance-and-economics
-description: Use when targeting 《上海财经大学学报》(Journal of Shanghai University of Finance and Economics) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《上海财经大学学报（哲学社会科学版）》(Journal of Shanghai University of Finance and Economics — 上海财经大学主办的双月刊, 财经类为主、经管文法兼容, 双向匿名审稿, 不收审稿费/版面费, 期刊社 qks.sufe.edu.cn) or deciding whether a Chinese social-science/econ/management manuscript fits this venue. Encodes the journal's fit, framing, house style, official-submission re-check, and desk-reject heuristics.
 ---
 
-# 《上海财经大学学报》投稿（journal-of-shanghai-university-of-finance-and-economics）
+# 《上海财经大学学报（哲学社会科学版）》投稿（journal-of-shanghai-university-of-finance-and-economics）
 
 ## 期刊定位
 
-上海财经大学综合学术刊，财经理论、法经济学、金融会计和城市经济均可承接。
+《上海财经大学学报（哲学社会科学版）》由**上海财经大学**主办，是**双月刊**，以**财经类为主、经、管、文、法兼容**的综合社会科学刊。注意：上财同时主办本刊与《财经研究》——本刊偏综合哲社（含法经济学、跨学科），《财经研究》是更纯的经济学研究刊（slug：journal-of-finance-and-economics）；切勿混淆两刊定位或与中央财大、天津财大的同名“学报”相混。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -17,6 +17,16 @@ description: Use when targeting 《上海财经大学学报》(Journal of Shangh
 - 稿件主题接近本刊，但不确定问题意识、方法强度和读者对象是否匹配
 - 需要把一篇通用中文经管稿改写成《上海财经大学学报》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办**：上海财经大学；双月刊；财经类为主、经管文法兼容的哲学社会科学版。
+- **审稿**：实行**双向匿名审稿**——作者姓名、出生年、性别、籍贯、职称、学位、单位、地址、邮编、电话、邮箱等**个人信息独立成页**，正文不得出现。
+- **费用**：编辑部声明**不收审稿费、版面费**，对获奖学术论文予以奖励。
+- **摘要/关键词**：摘要**不超过 400 字**；关键词 **3–5 个**；并附题目、作者、单位、摘要、关键词的中英文。
+- **正标题**：中文一般**不超过 20 个汉字**，必要时加副标题。
+- **参考文献**：列于文末，中文按正文出现顺序、英文按字母顺序；文献类型标识 M/C/N/J/D/R/S/P/EB-OL。
+- **投稿入口**：上海财经大学期刊社 qks.sufe.edu.cn（采编系统在线投稿）。
 
 ## 选题偏好
 
@@ -41,7 +51,7 @@ description: Use when targeting 《上海财经大学学报》(Journal of Shangh
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
 - 核对官网稿约、匿名/非匿名、基金脚注、摘要关键词和参考文献格式
 - 确认是否接受网络首发和数据库收录声明
-- 检索“《上海财经大学学报》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
+- 检索“《上海财经大学学报》 投稿须知”，并以上海财经大学期刊社 qks.sufe.edu.cn 的最新页面为准；不要沿用二手代投网站格式
 - 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
 - 若本 skill 与最新官方要求冲突，以官方要求为准
 

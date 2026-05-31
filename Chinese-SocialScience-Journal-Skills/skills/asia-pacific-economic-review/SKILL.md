@@ -1,15 +1,24 @@
 ---
 name: asia-pacific-economic-review
-description: Use when targeting 《亚太经济》(Asia-Pacific Economic Review) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《亚太经济》(Asia-Pacific Economic Review — 福建社会科学院主办的双月刊, 1984 创刊, CN 35-1014/F, 不收版面费/审稿费) or deciding whether an Asia-Pacific regional-economics manuscript fits this venue. Encodes the journal's fee-free policy, fit, house style, official re-check, and desk-reject heuristics.
 ---
 
 # 《亚太经济》投稿（asia-pacific-economic-review）
 
 ## 期刊定位
 
-亚太区域经济刊，适合区域合作、国别经济、贸易投资和地缘经济研究。
+《亚太经济》由**福建社会科学院**主办（**双月刊**，1984 年 5 月创刊，CN 35-1014/F，CSSCI 来源期刊），是亚太区域经济研究特色刊。覆盖亚太区域合作（RCEP、产业链）、国别经济、贸易投资与跨境金融，以及中国与亚太经济互动和开放战略。要求论据新颖、数据可靠、有比较框架，避免时事评论化。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办**：福建社会科学院；双月刊，1984 年 5 月创刊，CN 35-1014/F，CSSCI 来源期刊。
+- **费用**：多个聚合平台标注**不收版面费、审稿费**（待以编辑部最新通知核实）。
+- **稿件要素/标题**：含题名、作者及单位、邮编、摘要、关键词、正文、参考文献；标题一般不超过 **20 字**；多作者需全体同意、署名顺序投稿时确定且录用后不得更改。
+- **稿件质量**：要求材料可靠、数据准确、论据充分、文字简练，严禁抄袭。
+- **审稿周期**：约 **1–3 个月**（以编辑部/官网最新为准）。
+- **投稿/官网**：编辑部邮箱 ytjjbjb@126.com、电话 0591-83791485；知网采编平台 ytjj.cbpt.cnki.net；摘要字数与参考文献体例以官网最新为准（**待核实**）。
 
 ## 触发时机
 
@@ -39,10 +48,11 @@ description: Use when targeting 《亚太经济》(Asia-Pacific Economic Review)
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
-- 核对栏目、注释/参考文献、外文资料译名和投稿格式
-- 确认国别数据、政策文件和翻译准确
+- 核对栏目、20 字内标题、稿件要素（题名/作者单位/邮编/摘要/关键词/参考文献）、外文资料译名和投稿格式
+- 确认国别数据、政策文件和翻译准确；多作者署名顺序录用后不得更改
 - 检索“《亚太经济》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
+- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议；多平台标注不收版面费/审稿费（以编辑部最新核实）
+- 再次确认审稿周期（约 1–3 个月）、摘要字数与参考文献体例（部分为待核实项）
 - 若本 skill 与最新官方要求冲突，以官方要求为准
 
 ## 投稿前自检

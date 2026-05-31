@@ -1,15 +1,24 @@
 ---
 name: international-economics-and-trade-research
-description: Use when targeting 《国际经贸探索》(International Economics and Trade Research) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《国际经贸探索》(International Economics and Trade Research — 广东外语外贸大学主办的月刊, CN 44-1302/F) or deciding whether a Chinese trade/open-economy/business manuscript fits this venue. Encodes the journal's fit, 顺序编码制 house style, 粤港澳/开放经济 落点, official re-check, and desk-reject heuristics.
 ---
 
 # 《国际经贸探索》投稿（international-economics-and-trade-research）
 
 ## 期刊定位
 
-广东外语外贸大学主办，国际贸易、开放经济和商务实践特色明显。
+《国际经贸探索》由**广东外语外贸大学**主办（CN 44-1302/F，ISSN 1002-0594，月刊），国际贸易、开放经济与商务实践特色鲜明，对粤港澳大湾区开放、跨境电商、企业国际化等区域/实务落点更包容。相对《国际贸易问题》《世界经济》等顶刊，本刊更欢迎结合广东开放前沿的实证与政策研究，但仍要求识别清楚、口径国际可比。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办**：广东外语外贸大学；月刊，国内统一刊号 CN 44-1302/F，国际标准刊号 ISSN 1002-0594。
+- **篇幅**：来稿以不超过 1 万字为宜，欢迎精粹短篇（含中英文摘要、关键词、注释、参考文献等；不同来源对总篇幅口径不一，以官网为准）。
+- **稿件要素**：题名、摘要、关键词、作者姓名、作者工作单位（名称、省市、邮编）齐全。
+- **参考文献**：采用**顺序编码制**（凡采用他人学说必须加注说明；具体著录标准以官网最新稿约为准）。
+- **审稿周期**：聚合平台口径约 **1–3 个月**（以编辑部/官网最新为准）。
+- **费用**：版面费政策未见官方公开说明，**待核实**——以编辑部最新通知为准。
 
 ## 触发时机
 
@@ -39,10 +48,10 @@ description: Use when targeting 《国际经贸探索》(International Economics
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
-- 核对该刊是否要求“专投”、网络投稿、摘要关键词和参考文献格式
+- 核对投稿渠道（官网/编辑部）、约 1 万字篇幅、摘要关键词与顺序编码制参考文献格式
 - 确认国际数据来源、国家/行业口径与汇率处理
 - 检索“《国际经贸探索》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
+- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议；版面费政策以编辑部最新通知为准（待核实）
 - 若本 skill 与最新官方要求冲突，以官方要求为准
 
 ## 投稿前自检
@@ -50,7 +59,8 @@ description: Use when targeting 《国际经贸探索》(International Economics
 - [ ] 一句话说明为什么这篇稿件属于《国际经贸探索》的核心读者范围
 - [ ] 引言前 3 段已经出现本刊关心的问题层级、理论/机制和主要证据
 - [ ] 文献综述至少对话 2-3 篇本刊或同层级中文期刊近年同主题文章
-- [ ] 方法、数据、图表和参考文献格式已按最新官方稿约复核
+- [ ] 篇幅约 1 万字、稿件要素（题名/摘要/关键词/单位邮编）齐全；参考文献按顺序编码制
+- [ ] 已结合粤港澳/开放经济落点，且数据国家行业口径国际可比
 - [ ] 政策/管理启示从本文证据推出，而不是泛泛口号
 
 ## 高频拒稿雷区

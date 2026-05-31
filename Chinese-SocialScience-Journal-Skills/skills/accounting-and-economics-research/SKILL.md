@@ -1,13 +1,13 @@
 ---
 name: accounting-and-economics-research
-description: Use when targeting 《会计与经济研究》(Accounting and Economics Research) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《会计与经济研究》(Accounting and Economics Research — 上海市教委主管、上海立信会计金融学院主办、双向匿名评审、不收版面费的财经双月刊) or deciding whether a Chinese accounting/finance/econ manuscript fits this venue. Encodes the journal's fit, framing, abstract/keyword/citation house style, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《会计与经济研究》投稿（accounting-and-economics-research）
 
 ## 期刊定位
 
-上海立信会计金融学院相关刊，适合会计、审计、金融与经济交叉研究。
+《会计与经济研究》由**上海市教育委员会主管、上海立信会计金融学院主办**，是**以会计研究为主，金融、财贸、经济为辅**的财经学术**双月刊**。覆盖财务会计、审计、公司治理与会计信息，以及金融市场、税收、内控与企业行为等交叉议题。相对会计旗舰刊，本刊门槛与体例更友好，但仍要求问题清楚、度量规范、与会计/经济文献对话；偏好把会计问题放进经济与制度情境中讨论。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -18,6 +18,15 @@ description: Use when targeting 《会计与经济研究》(Accounting and Econo
 - 需要把一篇通用中文经管稿改写成《会计与经济研究》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
 
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主管/主办**：上海市教育委员会主管，上海立信会计金融学院主办；财经学术**双月刊**（单月 25 日出版，每期约 128 页）。
+- **审稿/费用**：采用**双向匿名评审**；声明**不收版面费**、优稿优酬。
+- **摘要**：约 **200–500 字**，直接提出主要观点、概括主要内容、强调创新点，不加评论或补充解释。
+- **关键词**：**3–5 个**，名词性术语，以分号分隔。
+- **参考文献**：采用**作者—年份制**；中文（英文）文献按作者姓名拼音（字母）顺序排列，**中文文献在前、英文文献在后**。
+- **投稿/官网**：官网 kjyjjyj.cn（亦见编辑部页面 kjyjjyj.juqk.net）；正文匿名、作者信息单列，以官网采编系统最新提示为准。
+
 ## 选题偏好
 
 - 财务会计、审计和公司治理
@@ -26,9 +35,9 @@ description: Use when targeting 《会计与经济研究》(Accounting and Econo
 
 ## 方法与证据
 
-- 财务会计、审计、披露、内控、税收和资本市场档案研究是核心
-- 度量要有会计学依据：应计、稳健性、可比性、审计质量、披露指数等
-- 准则、监管和审计制度背景必须准确
+- 财务会计、审计、披露、内控、税收和资本市场档案研究是核心；金融与经济交叉议题亦可。
+- 度量要有会计学依据：应计、稳健性、可比性、审计质量、披露指数等，须交代构造。
+- 准则、监管和审计制度背景必须准确；实证需处理识别与稳健性。
 
 ## 结构与写作
 
@@ -38,19 +47,18 @@ description: Use when targeting 《会计与经济研究》(Accounting and Econo
 
 ## 官方核验清单
 
-- 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
-- 核对投稿须知、数据/程序公开要求、匿名和字数格式
-- 确认会计准则、审计准则和监管文件引用
-- 检索“《会计与经济研究》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
-- 若本 skill 与最新官方要求冲突，以官方要求为准
+- 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从官方来源锚点开始核验，并在回答中说明核验日期。
+- 检索“《会计与经济研究》 投稿须知 / 征稿简则 / 作者指南”，以官网（kjyjjyj.cn）最新页面为准；不要沿用二手代投网站格式。
+- 核对：匿名正文与作者信息页、摘要 200–500 字与关键词 3–5 个、作者—年份制参考文献（中前英后）、基金信息单列、数据/程序材料、版权协议、不收费声明。
+- 再次确认审稿系统入口与最新格式（上面数值可能随官网更新而变化）。
+- 若本 skill 与最新官方要求冲突，以官方要求为准。
 
 ## 投稿前自检
 
 - [ ] 一句话说明为什么这篇稿件属于《会计与经济研究》的核心读者范围
 - [ ] 引言前 3 段已经出现本刊关心的问题层级、理论/机制和主要证据
-- [ ] 文献综述至少对话 2-3 篇本刊或同层级中文期刊近年同主题文章
-- [ ] 方法、数据、图表和参考文献格式已按最新官方稿约复核
+- [ ] 正文已匿名；摘要 200–500 字、关键词 3–5 个、参考文献按作者—年份制（中前英后）
+- [ ] 会计度量已交代构造，识别与稳健性可经受匿名评审
 - [ ] 政策/管理启示从本文证据推出，而不是泛泛口号
 
 ## 高频拒稿雷区
@@ -61,7 +69,7 @@ description: Use when targeting 《会计与经济研究》(Accounting and Econo
 
 ## 改投判断
 
-会计顶刊转 accounting-research；金融机制转 journal-of-financial-research。
+会计顶刊转 accounting-research（《会计研究》）；高规范学术会计转 china-accounting-review（《中国会计评论》）；金融机制为核心转 journal-of-financial-research（《金融研究》）。
 
 ## 输出格式
 

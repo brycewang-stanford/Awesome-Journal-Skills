@@ -1,15 +1,25 @@
 ---
 name: south-china-journal-of-economics
-description: Use when targeting 《南方经济》(South China Journal of Economics) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《南方经济》(South China Journal of Economics — 广东省社会科学院/广东经济学会主办的经济学月刊, 匿名审稿、不收版面费) or deciding whether a Chinese econ manuscript fits this venue. Encodes the journal's fit, framing, anonymous-review/fee-free policy, abstract/keyword house style, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《南方经济》投稿（south-china-journal-of-economics）
 
 ## 期刊定位
 
-广东社科院系统经济刊，区域开放、产业升级和应用经济研究较对口。
+《南方经济》由**广东省社会科学院、广东经济学会**主办，是经济学**月刊**，CSSCI 来源期刊。区域开放、产业升级与应用经济研究较对口——粤港澳大湾区、开放经济、区域协同、企业创新、数字经济及宏观财政金融与劳动人口应用研究。实行全程匿名评审，重视识别策略与规范实证。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办**：广东省社会科学院、广东经济学会；经济学月刊；CSSCI 来源期刊。
+- **审稿模式**：实行**匿名审稿制度**——正文不得出现任何可识别作者身份的信息，作者信息在投稿系统中单列。初审约 **15 天**，通过后进入匿名评审，匿名评审周期一般 **1–3 个月**。
+- **费用**：版面费、审稿费均为 **0 元/篇**（以官网最新为准）。
+- **摘要**：中文摘要**约 500 字**，并附约 500 词英文摘要。
+- **关键词**：中英文各 **3–5 个**。
+- **标题**：一般**不超过 20 字**。
+- **投稿方式**：一律采用**网络投稿**（玛格泰克采编系统，以官网入口为准）。
 
 ## 触发时机
 

@@ -1,13 +1,13 @@
 ---
 name: studies-of-financial-economics
-description: Use when targeting 《金融经济学研究》(Studies of Financial Economics) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《金融经济学研究》(Studies of Financial Economics — 广东金融学院主办、双向匿名评审、不收版面费的金融学术双月刊) or deciding whether a Chinese finance/econ manuscript fits this journal. Encodes the journal's fit, framing, fee-free policy, word-count/abstract house style, official採编-system submission re-check, and desk-reject heuristics.
 ---
 
 # 《金融经济学研究》投稿（studies-of-financial-economics）
 
 ## 期刊定位
 
-金融经济学专业刊，适合资本市场、公司金融、金融风险和金融发展研究。
+《金融经济学研究》由**广东金融学院**主办、广东省教育厅主管，是金融经济学专业学术刊物。覆盖资产定价、公司金融、金融风险、金融发展与金融制度等，偏好有清晰金融机制、规范识别策略的研究。相对央行/监管系统顶刊（《金融研究》《国际金融研究》），它对高校金融经济学选题更包容，但仍要求问题明确、证据扎实、体例规范。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -17,6 +17,16 @@ description: Use when targeting 《金融经济学研究》(Studies of Financial
 - 稿件主题接近本刊，但不确定问题意识、方法强度和读者对象是否匹配
 - 需要把一篇通用中文经管稿改写成《金融经济学研究》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办/主管**：广东金融学院主办，广东省教育厅主管；金融经济学专业学术刊。
+- **费用**：编辑部声明**不收版面费**（审稿费同样以官网最新声明为准）。
+- **审稿模式**：**双向匿名评审**；审稿周期一般**不超过 3 个月**。
+- **篇幅**：来稿**不足 8000 字一般不予审阅**，**以 10000–25000 字为宜**（重大理论/学术问题可适当加长）。
+- **摘要**：内容摘要应客观反映论文主要信息，**一般不超过 200 字**。
+- **参考文献**：限作者直接阅读过、最主要的、刊载于正式出版物的文献；未公开刊载资料一般不入参考文献表。
+- **投稿方式**：唯一收稿渠道为**采编系统**（从广东金融学院主页"科学研究"栏"学术期刊"进入）；编辑部邮箱曾公布 jrjjxyj@163.com、电话 020-37216137，均以官网为准。
 
 ## 选题偏好
 
@@ -41,27 +51,28 @@ description: Use when targeting 《金融经济学研究》(Studies of Financial
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
 - 核对投稿须知中的字数、摘要关键词、图表格式和匿名作者信息
 - 确认金融监管文件、市场规则和样本期间准确
-- 检索“《金融经济学研究》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
+- 检索“《金融经济学研究》 投稿须知 / 征稿简则 / 作者指南”，以广东金融学院"学术期刊"采编系统最新页面为准；不要沿用二手代投网站格式
+- 核对：字数下限/区间、摘要 200 字内、双向匿名正文、作者信息页、基金信息单列、参考文献仅收正式出版物、不收版面费声明
 - 若本 skill 与最新官方要求冲突，以官方要求为准
 
 ## 投稿前自检
 
 - [ ] 一句话说明为什么这篇稿件属于《金融经济学研究》的核心读者范围
 - [ ] 引言前 3 段已经出现本刊关心的问题层级、理论/机制和主要证据
+- [ ] 正文字数已达 8000 字以上、控制在 10000–25000 字区间；摘要不超过 200 字
 - [ ] 文献综述至少对话 2-3 篇本刊或同层级中文期刊近年同主题文章
-- [ ] 方法、数据、图表和参考文献格式已按最新官方稿约复核
+- [ ] 正文已做双向匿名处理；参考文献仅列正式出版物且为作者直接阅读过的主要文献
 - [ ] 政策/管理启示从本文证据推出，而不是泛泛口号
 
 ## 高频拒稿雷区
 
 - 公司金融题写成一般企业实证，缺金融机制
 - 货币政策题没有冲击识别
-- 只说缓解融资约束，不展示渠道证据
+- 篇幅不足 8000 字直接不予审阅；只说缓解融资约束，不展示渠道证据
 
 ## 改投判断
 
-央行/监管顶刊转 journal-of-financial-research；证券监管实务转 securities-market-herald。
+央行/监管系统顶刊（经验识别更强）转 journal-of-financial-research（《金融研究》）；证券市场微观结构与监管实务转 securities-market-herald（《证券市场导报》）；国际金融/汇率/跨境资本转 studies-of-international-finance（《国际金融研究》）。
 
 ## 输出格式
 

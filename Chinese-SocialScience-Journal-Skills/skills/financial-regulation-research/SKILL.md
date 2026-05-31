@@ -1,13 +1,13 @@
 ---
 name: financial-regulation-research
-description: Use when targeting 《金融监管研究》(Financial Regulation Research) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《金融监管研究》(Financial Regulation Research — 原中国银监会 2012 年创办、不收任何费用的金融监管专业学术月刊) or deciding whether a Chinese finance manuscript fits this regulation-focused venue. Encodes the journal's regulatory fit, framing, abstract/keyword/GB-citation house style, fee-free policy, online-system submission re-check, and desk-reject heuristics.
 ---
 
 # 《金融监管研究》投稿（financial-regulation-research）
 
 ## 期刊定位
 
-金融监管政策研究取向明确，适合监管制度、风险防控和金融机构治理问题。
+《金融监管研究》由**原中国银监会于 2012 年创办**（现由国家金融监督管理总局系统主管），是金融监管专业学术**月刊**。聚焦金融监管、风险管理与金融改革发展的理论与政策研究——宏观审慎、系统性风险、银行保险证券监管协同、金融科技监管、消费者保护与风险处置。监管政策研究取向明确，需把监管制度背景写准。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -17,6 +17,16 @@ description: Use when targeting 《金融监管研究》(Financial Regulation Re
 - 稿件主题接近本刊，但不确定问题意识、方法强度和读者对象是否匹配
 - 需要把一篇通用中文经管稿改写成《金融监管研究》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **创办**：原中国银监会**2012 年**创办；金融监管专业学术月刊。
+- **费用**：**不办增刊/副刊，不收审稿费、版面费或任何其他费用**。
+- **篇幅与标题**：稿件**字数 1.5 万字左右为宜**（重大研究价值者不设篇幅上限）；中文文题**一般 20 字以内**。
+- **摘要/关键词**：摘要 **150–200 字**；关键词 **3–5 个**。
+- **参考文献**：文中用序号标出、文尾按序排列；采用 GB 单字母文献类型标识（专著[M]、期刊[J]、论文集[C]、报纸[N]、学位论文[D]、报告[R]、标准[S]、专利[P] 等）。
+- **审稿周期**：初审约 **2 个月**、外审约 **1–2 个月**、复审约 **1 个月**——以编辑部最新说明为准。
+- **投稿方式**：通过**在线采编系统**注册投稿。
 
 ## 选题偏好
 
@@ -41,27 +51,27 @@ description: Use when targeting 《金融监管研究》(Financial Regulation Re
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
 - 核对投稿须知中的字数、摘要关键词、图表格式和匿名作者信息
 - 确认金融监管文件、市场规则和样本期间准确
-- 检索“《金融监管研究》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
+- 检索“《金融监管研究》 投稿须知 / 征稿简则 / 作者指南”，以官方在线采编系统最新页面为准；不要沿用二手代投网站格式
+- 核对：文题 20 字内、字数约 1.5 万、摘要 150–200 字、关键词 3–5、GB 序号制参考文献、不收任何费用声明
 - 若本 skill 与最新官方要求冲突，以官方要求为准
 
 ## 投稿前自检
 
-- [ ] 一句话说明为什么这篇稿件属于《金融监管研究》的核心读者范围
+- [ ] 一句话说明为什么这篇稿件属于《金融监管研究》的核心读者范围（须有明确监管/审慎落点）
 - [ ] 引言前 3 段已经出现本刊关心的问题层级、理论/机制和主要证据
-- [ ] 文献综述至少对话 2-3 篇本刊或同层级中文期刊近年同主题文章
-- [ ] 方法、数据、图表和参考文献格式已按最新官方稿约复核
-- [ ] 政策/管理启示从本文证据推出，而不是泛泛口号
+- [ ] 文题 20 字内、字数约 1.5 万、摘要 150–200 字、关键词 3–5 个
+- [ ] 参考文献按序号制+GB 文献类型标识著录；监管制度背景、监管文件与政策时点写准
+- [ ] 政策/监管启示从本文证据推出，而不是泛泛口号
 
 ## 高频拒稿雷区
 
-- 公司金融题写成一般企业实证，缺金融机制
-- 货币政策题没有冲击识别
+- 公司金融题写成一般企业实证，缺监管/金融机制
+- 监管/货币政策题没有冲击识别或政策时点错置
 - 只说缓解融资约束，不展示渠道证据
 
 ## 改投判断
 
-学术金融机制转 journal-of-financial-research；国际监管比较转 studies-of-international-finance。
+偏学术金融机制、识别更干净转 journal-of-financial-research（《金融研究》）；国际监管比较/跨境议题转 studies-of-international-finance（《国际金融研究》）；证券市场监管实务与微观结构转 securities-market-herald（《证券市场导报》）。
 
 ## 输出格式
 

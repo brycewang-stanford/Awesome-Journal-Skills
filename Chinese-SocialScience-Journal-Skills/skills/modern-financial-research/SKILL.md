@@ -1,13 +1,13 @@
 ---
 name: modern-financial-research
-description: Use when targeting 《现代金融研究》(Modern Financial Research) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《现代金融研究》(Modern Financial Research — 中国工商银行与中国现代金融学会主办、2024 年由《金融论坛》改为现名、不收任何费用、仅邮箱投稿) or deciding whether a Chinese finance manuscript fits this venue. Encodes the journal's bank/policy fit, framing, double-blind review, email-only submission re-check, and desk-reject heuristics.
 ---
 
 # 《现代金融研究》投稿（modern-financial-research）
 
 ## 期刊定位
 
-原《金融论坛》相关金融刊，偏银行、金融机构、金融科技和监管实践。
+《现代金融研究》由**中国工商银行股份有限公司与中国现代金融学会**主办，**2024 年由《金融论坛》（更早曾名《城市金融论坛》）改为现名**（ISSN 1009-9190）。定位"金融智库思想传播、金融理论学术研究"，刊登银行、证券、保险、投资、货币政策、金融监管等领域研究，偏好银行/金融机构、金融科技、普惠与绿色金融、金融服务实体经济等议题。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -17,6 +17,16 @@ description: Use when targeting 《现代金融研究》(Modern Financial Resear
 - 稿件主题接近本刊，但不确定问题意识、方法强度和读者对象是否匹配
 - 需要把一篇通用中文经管稿改写成《现代金融研究》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办**：中国工商银行股份有限公司、中国现代金融学会；ISSN 1009-9190。
+- **刊名沿革**：**2024 年由《金融论坛》改为《现代金融研究》**（更早曾名《城市金融论坛》）；刊期/创刊年以官网最新为准（多源记为月刊、1996 年创办，**待核实**）。
+- **费用**：**编辑部不收取作者任何费用**；来稿一经刊登支付稿酬。
+- **投稿方式**：**只接受邮件投稿**，收稿邮箱（任选其一）jmf-xdjryj@163.com / jrlt@chinajournal.net.cn；投稿成功后会收到自动回复。
+- **审稿模式与周期**：投稿后 **30 天内**收到初审结果；通过初审者进入**双向匿名审稿，约一个半月**。
+- **篇幅**：稿件字数不限，但刊登时**总字符数一般不超过 22000**；录用后作者须按编辑部要求做摘编供微信公众号"现代金融研究"刊登。
+- **体例**：摘要/参考文献等格式参照"现代金融研究"微信公众号《投稿体例》。
 
 ## 选题偏好
 
@@ -41,16 +51,16 @@ description: Use when targeting 《现代金融研究》(Modern Financial Resear
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
 - 核对投稿须知中的字数、摘要关键词、图表格式和匿名作者信息
 - 确认金融监管文件、市场规则和样本期间准确
-- 检索“《现代金融研究》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
+- 检索“《现代金融研究》 投稿须知 / 投稿体例”（注意 2024 年由《金融论坛》改名），以官方网站及"现代金融研究"微信公众号最新页面为准；不要沿用二手代投网站格式
+- 核对：邮箱投稿渠道、刊登总字符数≤22000、双向匿名、不收任何费用声明、参考文献体例（见公众号《投稿体例》）
 - 若本 skill 与最新官方要求冲突，以官方要求为准
 
 ## 投稿前自检
 
 - [ ] 一句话说明为什么这篇稿件属于《现代金融研究》的核心读者范围
 - [ ] 引言前 3 段已经出现本刊关心的问题层级、理论/机制和主要证据
+- [ ] 已通过指定邮箱投稿并收到自动回复；刊登总字符数预计不超过 22000
 - [ ] 文献综述至少对话 2-3 篇本刊或同层级中文期刊近年同主题文章
-- [ ] 方法、数据、图表和参考文献格式已按最新官方稿约复核
 - [ ] 政策/管理启示从本文证据推出，而不是泛泛口号
 
 ## 高频拒稿雷区
@@ -61,7 +71,7 @@ description: Use when targeting 《现代金融研究》(Modern Financial Resear
 
 ## 改投判断
 
-理论和识别更强转 journal-of-financial-research；国际金融转 studies-of-international-finance。
+理论和识别更强、央行系统取向转 journal-of-financial-research（《金融研究》）；国际金融/汇率/跨境资本转 studies-of-international-finance（《国际金融研究》）；监管制度与审慎政策转 financial-regulation-research（《金融监管研究》）。
 
 ## 输出格式
 

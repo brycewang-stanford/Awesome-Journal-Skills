@@ -1,13 +1,13 @@
 ---
 name: china-public-administration-review
-description: Use when targeting 《公共管理评论》(China Public Administration Review) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《公共管理评论》(China Public Administration Review — 教育部主管、清华大学主办的公共管理学术季刊, 2004 年创刊, 匿名评审) or deciding whether a Chinese public-administration/governance manuscript fits this journal. Encodes the journal's fit, framing, abstract/keyword house style, anonymous-review rules, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《公共管理评论》投稿（china-public-administration-review）
 
 ## 期刊定位
 
-公共管理评论型刊，适合公共治理理论、案例比较和政策分析。
+《公共管理评论》由**教育部主管、清华大学主办**，**2004 年**创刊，是公共管理领域的学术**季刊**（CSSCI 来源）。设原创论文、实践视野、主题述评、当季英文佳作评介、评论往来等栏目，覆盖公共治理理论、政策过程、行政改革、基层治理、社会组织与公共价值、数字政府、城市治理与应急管理等。偏好理论对话清楚、机制扎实、有方法规范的研究，兼收规范实证、案例比较与高质量述评。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -15,8 +15,16 @@ description: Use when targeting 《公共管理评论》(China Public Administra
 
 - 用户明确说目标期刊是《公共管理评论》或 China Public Administration Review
 - 稿件主题接近本刊，但不确定问题意识、方法强度和读者对象是否匹配
-- 需要把一篇通用中文经管稿改写成《公共管理评论》更容易接受的叙事
+- 需要把一篇通用中文公共管理稿改写成《公共管理评论》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主管/主办**：教育部主管，清华大学主办；2004 创刊；公共管理学术季刊（CSSCI 来源）。
+- **审稿**：采用**匿名评审制度**——正文仅列标题、全文和参考文献，隐去一切与作者相关的信息。
+- **字数（分栏目）**：原创论文约 **15000 字**；实践视野约 5000–10000 字；主题述评约 12000 字；当季英文佳作评介约 12000 字；评论往来 2000 字以内（以官网最新栏目要求为准）。
+- **摘要/关键词**：中文摘要**250 字以内**，关键词 **5–7 个**；并实行**英文长摘要（Summary）**制度。
+- **投稿/官网**：依托清华大学公共管理学院（sppm.tsinghua.edu.cn）发布的《公共管理评论》投稿须知与采编系统。
 
 ## 选题偏好
 
@@ -28,29 +36,28 @@ description: Use when targeting 《公共管理评论》(China Public Administra
 
 - 公共治理、行政改革、政策执行、数字政府、基层治理和公共服务绩效是核心
 - 可用政策评估、案例比较、调查、文本分析、混合方法和制度分析
-- 必须把政府行为、组织激励和公共价值讲清
+- 必须把政府行为、组织激励和公共价值讲清；述评类要有清晰的理论脉络与评介立场
 
 ## 结构与写作
 
 - 引言围绕公共问题和治理机制，而非企业绩效
 - 机制要落到政府层级、部门协同、公众参与、政策执行或问责
-- 政策建议要可执行，并说明适用层级
+- 政策建议要可执行，并说明适用层级；正文须匿名
 
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
-- 核对栏目、匿名、案例材料授权、访谈伦理和投稿模板
-- 确认政策文件、地方样本和访谈材料来源
-- 检索“《公共管理评论》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
-- 若本 skill 与最新官方要求冲突，以官方要求为准
+- 检索"《公共管理评论》 投稿须知 / 征稿简则 / 作者指南"，以清华大学公共管理学院（sppm.tsinghua.edu.cn）最新页面为准；不要沿用二手代投网站格式。
+- 核对：所投栏目字数、正文匿名（隐去作者信息）、中文摘要 250 字以内、关键词 5–7 个、英文长摘要（Summary）、作者信息页、基金信息单列、参考文献格式、数据/补充材料、版权协议。
+- 再次确认匿名评审流程与采编系统入口（上面数值可能随官网更新而变化）。
+- 若本 skill 与最新官方要求冲突，以官方要求为准。
 
 ## 投稿前自检
 
 - [ ] 一句话说明为什么这篇稿件属于《公共管理评论》的核心读者范围
 - [ ] 引言前 3 段已经出现本刊关心的问题层级、理论/机制和主要证据
 - [ ] 文献综述至少对话 2-3 篇本刊或同层级中文期刊近年同主题文章
-- [ ] 方法、数据、图表和参考文献格式已按最新官方稿约复核
+- [ ] 正文已匿名；中文摘要 250 字以内、关键词 5–7 个、英文长摘要齐备；字数符合所投栏目
 - [ ] 政策/管理启示从本文证据推出，而不是泛泛口号
 
 ## 高频拒稿雷区
@@ -58,10 +65,11 @@ description: Use when targeting 《公共管理评论》(China Public Administra
 - 只写政策宣传，缺理论和证据
 - 案例材料描述多、机制抽象少
 - 把企业管理框架生硬搬到公共部门
+- 正文未匿名或摘要/字数不符栏目要求
 
 ## 改投判断
 
-更强实证公共管理转 journal-of-public-management；行政管理实务转 chinese-public-administration。
+方法更厚、识别更干净的公共管理实证转 journal-of-public-management（《公共管理学报》）；行政管理制度与政策实务转 chinese-public-administration（《中国行政管理》）；治理实践取向转 governance-studies（《治理研究》）。
 
 ## 输出格式
 
@@ -71,6 +79,6 @@ description: Use when targeting 《公共管理评论》(China Public Administra
 【选题标签】<最贴近的 2-3 个主题>
 【方法证据】<当前方法是否够本刊标准>
 【最大风险】<最可能导致退稿的一点>
-【需核验官方要求】<投稿系统/匿名/摘要/图表/数据等>
+【需核验官方要求】<栏目字数/匿名/摘要250字/关键词5-7/英文长摘要等>
 【改投建议】<若不匹配，给出更合适期刊>
 ```

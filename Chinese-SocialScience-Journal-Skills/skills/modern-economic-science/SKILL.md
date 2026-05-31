@@ -1,15 +1,26 @@
 ---
 name: modern-economic-science
-description: Use when targeting 《当代经济科学》(Modern Economic Science) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《当代经济科学》(Modern Economic Science — 教育部主管、西安交通大学主办的综合性经济学双月刊, 1979 年创刊, 双向匿名审稿、不收版面费) or deciding whether a Chinese econ/finance manuscript fits this venue. Encodes the journal's fit, framing, anonymous-review/fee-free policy, abstract/keyword house style, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《当代经济科学》投稿（modern-economic-science）
 
 ## 期刊定位
 
-西安交通大学经济金融学科刊物，适合经济理论、应用经济和制度变迁研究。
+《当代经济科学》由**教育部主管、西安交通大学主办**，是综合性**经济学双月刊**，**1979 年**创刊（CN 61-1400/F），CSSCI 来源期刊。依托西安交大经济金融学科，适合经济理论、应用经济、金融市场、公司金融、制度经济与高质量发展研究。重视问题清晰、识别干净与写作规范。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主管/主办**：教育部主管、西安交通大学主办；综合性经济学双月刊，1979 年创刊（CN 61-1400/F）；CSSCI 来源期刊。
+- **审稿模式**：实行**双向匿名专家审稿**，**仅受理采编系统来稿**。
+- **费用**：版面费、审稿费均为 **0 元/篇**（以官网最新为准）。
+- **审稿周期**：约 **1–3 个月**（以采编系统反馈为准）。
+- **摘要**：客观反映重要内容，篇幅一般**不超过 200 字**。
+- **关键词**：每篇 **3–8 组**为宜。
+- **标题**：一般**不超过 20 字**。
+- **投稿方式**：官网采编系统 **jjkx.xjtu.edu.cn**。
 
 ## 触发时机
 

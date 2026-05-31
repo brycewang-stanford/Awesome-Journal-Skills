@@ -1,13 +1,13 @@
 ---
 name: review-of-political-economy
-description: Use when targeting 《政治经济学评论》(Review of Political Economy) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《政治经济学评论》(China Review of Political Economy — 教育部主管、中国人民大学书报资料中心主办、人大经济学院主编的政治经济学 CSSCI 季刊) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's theoretical framing, house-style, official-submission-check (crpe.ruc.edu.cn), and desk-reject heuristics.
 ---
 
 # 《政治经济学评论》投稿（review-of-political-economy）
 
 ## 期刊定位
 
-政治经济学理论刊，适合马克思主义政治经济学、中国特色社会主义政治经济学和制度分析。
+《政治经济学评论》（China Review of Political Economy）由**教育部**主管、**中国人民大学书报资料中心**主办、**中国人民大学经济学院**主编，是政治经济学理论学术**季刊**（CSSCI 来源期刊；ISSN 1674-7542，CN 11-5859/D）。覆盖马克思主义政治经济学、中国特色社会主义政治经济学、资本与分配、生产关系、共同富裕、中国式现代化与经济理论创新。本刊以**理论建构与制度分析**为主，对纯经验政策评估包容度低，要求问题意识与理论对话清晰。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -18,6 +18,15 @@ description: Use when targeting 《政治经济学评论》(Review of Political 
 - 需要把一篇通用中文经管稿改写成《政治经济学评论》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
 
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主管/主办/主编**：教育部主管、中国人民大学书报资料中心主办、中国人民大学经济学院主编；政治经济学理论季刊，CSSCI 来源期刊。
+- **刊号**：ISSN 1674-7542；CN 11-5859/D。
+- **审稿周期**：审稿时间约 **1–3 个月**（以官网最新公示为准）。
+- **来稿格式**：一律使用 **Word** 格式；表格用**三线表**，图用黑线图、线条均匀；须注明作者详细联系方式与作品独立完成、无知识产权与学术道德问题的声明。
+- **投稿/联系**：官网/投稿指南 **crpe.ruc.edu.cn**；编辑部地址北京市中关村大街 59 号，邮编 100872，邮箱 crpe@ruc.edu.cn。
+- **摘要/关键词/费用**：摘要字数、关键词数与费用政策以官网最新《投稿指南》为准（**待核实**）。
+
 ## 选题偏好
 
 - 中国特色社会主义政治经济学
@@ -26,23 +35,23 @@ description: Use when targeting 《政治经济学评论》(Review of Political 
 
 ## 方法与证据
 
-- 适合经济体制改革、制度比较、区域试点、营商环境和政策评估
-- 经验研究要把政策背景、试点选择和反事实讲清
-- 规范分析要有制度逻辑和可验证材料支撑
+- 以政治经济学**理论建构、范畴辨析与制度分析**为主线；强调与马克思主义政治经济学经典文献及当代理论的对话
+- 经验材料须服务于理论命题，而非停留在政策评估或经验描述
+- 规范与理论分析要逻辑自洽、概念清晰，并有文献与制度证据支撑
 
 ## 结构与写作
 
-- 引言要围绕改革问题的制度瓶颈展开
-- 贡献强调制度机制、改革路径和中国经验的一般化含义
-- 政策建议应具体但有理论支撑
+- 引言围绕**理论缺口与重大现实/制度问题**展开，而非工作总结
+- 贡献强调理论命题、范畴推进与中国经验的一般化含义
+- 结论回扣理论贡献与边界，政策含义从理论与证据推出
 
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
-- 核对栏目、字数、摘要关键词、作者匿名和参考文献要求
-- 确认政策文件、试点名单和改革时间线
-- 检索“《政治经济学评论》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
+- 核对栏目、字数、摘要关键词、作者信息、Word 格式与三线表/黑线图等版式要求
+- 确认理论文献、经典引证与制度材料的出处
+- 检索“《政治经济学评论》 投稿指南”，以官网 crpe.ruc.edu.cn 最新页面为准；不要沿用二手代投网站格式
+- 核对是否要求匿名正文、作者信息页、基金信息单列、版权协议或费用声明；复核摘要字数与关键词数（上面数值可能随官网更新而变化）
 - 若本 skill 与最新官方要求冲突，以官方要求为准
 
 ## 投稿前自检
@@ -55,9 +64,9 @@ description: Use when targeting 《政治经济学评论》(Review of Political 
 
 ## 高频拒稿雷区
 
-- 写成政策宣传或经验总结，缺学术问题
-- 改革概念过大，变量和机制不可操作
-- 只比较政策文件，不检验证据
+- 写成政策宣传或经验总结，缺乏政治经济学理论问题
+- 概念与范畴含混，缺与经典/当代理论的实质对话
+- 只做经验政策评估，未回扣理论命题
 
 ## 改投判断
 

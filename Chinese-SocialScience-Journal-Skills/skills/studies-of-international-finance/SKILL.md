@@ -1,13 +1,13 @@
 ---
 name: studies-of-international-finance
-description: Use when targeting 《国际金融研究》(Studies of International Finance) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《国际金融研究》(Studies of International Finance — 中国银行股份有限公司与中国国际金融学会主办、1985 年创刊的国际金融月刊) or deciding whether a Chinese finance manuscript fits this top-tier venue. Encodes the journal's global-finance fit, framing, abstract/keyword house style, official chinaifs.org.cn submission re-check, and desk-reject heuristics.
 ---
 
 # 《国际金融研究》投稿（studies-of-international-finance）
 
 ## 期刊定位
 
-中国国际金融学会/中国银行体系相关的国际金融刊物，强调全球金融视角与中国金融开放。
+《国际金融研究》由**中国银行股份有限公司、中国国际金融学会**主办，**1985 年**创刊，是国际金融领域的权威**月刊**（金融类 CSSCI/核心顶刊层级）。强调全球金融视角与中国金融开放——汇率与跨境资本流动、国际货币体系、全球银行与金融监管、人民币国际化等。选题需有明确的国际金融视角和扎实识别，纯国内信贷/公司金融实证一般不属其核心读者。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -17,6 +17,15 @@ description: Use when targeting 《国际金融研究》(Studies of Internationa
 - 稿件主题接近本刊，但不确定问题意识、方法强度和读者对象是否匹配
 - 需要把一篇通用中文经管稿改写成《国际金融研究》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办**：中国银行股份有限公司、中国国际金融学会；**1985 年**创刊，**月刊**；国际金融领域权威刊。
+- **费用**：编辑部声明**不收版面费**。
+- **篇幅与标题**：标题限 **20 字以内**；正文**约 12000 字**。
+- **摘要/关键词**：中文摘要 **350 字以内**，另附英文梗概；**3–5 个**中英文关键词；须附中英文标题、中图分类号、文献标识码。
+- **审稿周期**：用稿竞争激烈，作者反馈实际审稿（含初审、外审、多轮修改）常达**约 7 个月**——以编辑部最新说明为准。
+- **投稿方式**：官方采编入口在中国国际金融学会网站 **chinaifs.org.cn**（《国际金融研究》投稿栏目）。
 
 ## 选题偏好
 
@@ -41,27 +50,27 @@ description: Use when targeting 《国际金融研究》(Studies of Internationa
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
 - 核对投稿须知中的字数、摘要关键词、图表格式和匿名作者信息
 - 确认金融监管文件、市场规则和样本期间准确
-- 检索“《国际金融研究》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
+- 检索“《国际金融研究》 投稿须知 / 征稿简则 / 作者指南”，以官网 chinaifs.org.cn 最新页面为准；不要沿用二手代投网站格式
+- 核对：标题 20 字内、正文约 12000 字、中文摘要 350 字内+英文梗概、关键词 3–5、中图分类号/文献标识码、不收版面费声明
 - 若本 skill 与最新官方要求冲突，以官方要求为准
 
 ## 投稿前自检
 
-- [ ] 一句话说明为什么这篇稿件属于《国际金融研究》的核心读者范围
+- [ ] 一句话说明为什么这篇稿件属于《国际金融研究》的核心读者范围（须有明确国际金融视角）
 - [ ] 引言前 3 段已经出现本刊关心的问题层级、理论/机制和主要证据
+- [ ] 标题 20 字内、正文约 12000 字、中文摘要 350 字内并附英文梗概、关键词 3–5 个
 - [ ] 文献综述至少对话 2-3 篇本刊或同层级中文期刊近年同主题文章
-- [ ] 方法、数据、图表和参考文献格式已按最新官方稿约复核
-- [ ] 政策/管理启示从本文证据推出，而不是泛泛口号
+- [ ] 汇率/资本流动/货币体系等国际金融变量已有规范度量；政策含义面向央行/监管/国际金融制度
 
 ## 高频拒稿雷区
 
-- 公司金融题写成一般企业实证，缺金融机制
-- 货币政策题没有冲击识别
+- 题目无国际金融视角，写成一般国内公司/企业实证
+- 汇率、跨境资本或货币政策题没有冲击识别
 - 只说缓解融资约束，不展示渠道证据
 
 ## 改投判断
 
-开放贸易/GVC 议题转 journal-of-world-economy；国内银行信贷转 journal-of-financial-research。
+开放贸易/GVC/全球价值链议题转 journal-of-world-economy（《世界经济》）；国内银行信贷与货币政策（央行系统）转 journal-of-financial-research（《金融研究》）；高校金融经济学一般实证转 studies-of-financial-economics（《金融经济学研究》）。
 
 ## 输出格式
 

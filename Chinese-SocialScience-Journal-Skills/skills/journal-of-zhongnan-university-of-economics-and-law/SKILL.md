@@ -1,13 +1,13 @@
 ---
 name: journal-of-zhongnan-university-of-economics-and-law
-description: Use when targeting 《中南财经政法大学学报》(Journal of Zhongnan University of Economics and Law) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《中南财经政法大学学报》(Journal of Zhongnan University of Economics and Law — 中南财经政法大学主办的财经政法综合双月刊, 1958 创刊, CSSCI 来源, 文稿以6000字为宜、中英文摘要200–300字) or deciding whether a Chinese econ/management/law-econ manuscript fits this venue. Encodes the journal's fit, framing, house style, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《中南财经政法大学学报》投稿（journal-of-zhongnan-university-of-economics-and-law）
 
 ## 期刊定位
 
-财经政法综合学报，适合经济、管理、法经济学、财政金融和会计审计研究。
+《中南财经政法大学学报》由**中南财经政法大学**主办，是**双月刊**，**1958 年**创刊，CSSCI 来源期刊。依托财经政法合并背景，适合经济、管理、**法经济学**、财政金融与会计审计研究；提倡创新求实严谨文风，**原创性作品与国家级课题成果优先采用**。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -17,6 +17,15 @@ description: Use when targeting 《中南财经政法大学学报》(Journal of 
 - 稿件主题接近本刊，但不确定问题意识、方法强度和读者对象是否匹配
 - 需要把一篇通用中文经管稿改写成《中南财经政法大学学报》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办**：中南财经政法大学；财经政法综合双月刊，1958 创刊；CSSCI 来源期刊。
+- **篇幅**：文稿**以 6000 字为宜，一般不超过 10000 字**（以官网最新为准）。
+- **摘要**：须附 **200–300 字**的中、英文内容摘要，具独立性与自含性，是文章主要观点的浓缩。
+- **题名**：中文题名一般**不超过 20 个汉字**（可加副标题），并须有英文题名；作者单位含全称、省市、邮编及对应英文。
+- **采用导向**：原创性作品与国家级课题研究成果优先；稿件交编辑部登记，勿交编辑个人。
+- 收录：全国中文核心、社科类核心、CSSCI。费用/匿名以官网最新声明为准（待核实）。
 
 ## 选题偏好
 

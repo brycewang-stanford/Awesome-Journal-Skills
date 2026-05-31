@@ -1,15 +1,24 @@
 ---
 name: journal-of-international-trade
-description: Use when targeting 《国际贸易问题》(Journal of International Trade) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《国际贸易问题》(Journal of International Trade — 对外经济贸易大学主办、国家社科基金首批资助、不收费的国际贸易核心刊) or deciding whether a Chinese trade/open-economy manuscript fits this venue. Encodes the journal's fit, fee-free policy, online-only submission, house style, official re-check, and desk-reject heuristics.
 ---
 
 # 《国际贸易问题》投稿（journal-of-international-trade）
 
 ## 期刊定位
 
-对外经济贸易大学主办的国际贸易与开放经济核心刊，适合贸易政策、企业出口和全球价值链研究。
+《国际贸易问题》由**对外经济贸易大学**主办，是国际贸易与开放经济领域的权威核心期刊，属国家社科基金首批资助学术期刊。覆盖贸易政策、关税与贸易摩擦、企业出口与进口中间品、服务贸易、数字贸易、FDI 与全球价值链。本刊以**实证识别和机制检验**见长，要求问题有国际/开放经济落点、数据可核、识别干净。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办**：对外经济贸易大学；国家社科基金首批资助学术期刊。
+- **费用**：编辑部声明以质论稿，**不收取版面费、审稿费**等任何费用；并声明从未与任何第三方代投/代发机构合作。
+- **投稿方式**：仅通过官网在线投稿系统投稿（学术刊物部 journal.uibe.edu.cn），此为唯一渠道。
+- **篇幅与摘要**：标题一般 20 字以内；正文一般约 8000–10000 字；要求中英文摘要（中文摘要约 300 字以内）。
+- **参考文献**：执行 **GB/T 7714-2015**《信息与文献 参考文献著录规则》。
+- **审稿周期**：以官网最新为准（作者反馈通常半年左右，待核实）。
 
 ## 触发时机
 
@@ -39,10 +48,11 @@ description: Use when targeting 《国际贸易问题》(Journal of Internationa
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
-- 核对该刊是否要求“专投”、网络投稿、摘要关键词和参考文献格式
+- 通过官网在线投稿系统投稿（唯一渠道）；核对正文字数、20 字标题、中英文摘要与关键词格式
 - 确认国际数据来源、国家/行业口径与汇率处理
 - 检索“《国际贸易问题》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
+- 核对 GB/T 7714-2015 参考文献体例、匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议
+- 再次确认审稿周期与不收费声明（上述数值可能随官网更新而变化）
 - 若本 skill 与最新官方要求冲突，以官方要求为准
 
 ## 投稿前自检
@@ -50,7 +60,8 @@ description: Use when targeting 《国际贸易问题》(Journal of Internationa
 - [ ] 一句话说明为什么这篇稿件属于《国际贸易问题》的核心读者范围
 - [ ] 引言前 3 段已经出现本刊关心的问题层级、理论/机制和主要证据
 - [ ] 文献综述至少对话 2-3 篇本刊或同层级中文期刊近年同主题文章
-- [ ] 方法、数据、图表和参考文献格式已按最新官方稿约复核
+- [ ] 标题 20 字内、正文约 8000–10000 字、中英文摘要齐全；参考文献按 GB/T 7714-2015 复核
+- [ ] 已通过官网在线投稿系统提交（唯一渠道），未走第三方代投
 - [ ] 政策/管理启示从本文证据推出，而不是泛泛口号
 
 ## 高频拒稿雷区

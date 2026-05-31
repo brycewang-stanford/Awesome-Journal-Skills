@@ -1,22 +1,34 @@
 ---
 name: management-science-cn
-description: Use when targeting 《管理科学》(Management Science) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《管理科学》(Management Science — 哈尔滨工业大学管理学院主办的管理科学与工程类双月刊, 1987 年创刊, 管理科学与工程学会会刊) or deciding whether a Chinese management/management-science manuscript fits this venue. 注意本刊为中文期刊《管理科学》, 与美国 INFORMS 的 Management Science 同名不同刊。Encodes the journal's fit, framing, abstract/length house style, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《管理科学》投稿（management-science-cn）
 
 ## 期刊定位
 
-哈尔滨工业大学主办的管理科学刊，覆盖管理科学、工程管理、工商管理和数量方法。
+《管理科学》由**哈尔滨工业大学管理学院**主办、哈尔滨工业大学主管，**1987 年**创刊，为管理科学与工程类学术**双月刊**（CN 23-1510/C，ISSN 1672-0334）。本刊是**管理科学与工程学会会刊**，被列为国家自然科学基金委员会管理科学部认定的 **A 级重要期刊**、FMS 管理科学高质量 T1 期刊、CSSCI 来源期刊与中文核心期刊。覆盖管理科学与工程、运营与供应链、决策与风险、工商管理中的数量实证与实验等，强调用规范的模型设定或严谨的量化实证回应管理问题。
+
+⚠️ 本刊为**中文期刊《管理科学》**，与美国 INFORMS 出版的英文刊 *Management Science* 同名而非同一刊物；勿混淆投稿系统与体例。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
 ## 触发时机
 
-- 用户明确说目标期刊是《管理科学》或 Management Science
+- 用户明确说目标期刊是中文刊《管理科学》（哈尔滨工业大学主办）
 - 稿件主题接近本刊，但不确定问题意识、方法强度和读者对象是否匹配
 - 需要把一篇通用中文经管稿改写成《管理科学》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主办 / 主管**：哈尔滨工业大学管理学院主办、哈尔滨工业大学主管；双月刊，1987 创刊（CN 23-1510/C，ISSN 1672-0334）。
+- **定位级别**：管理科学与工程学会会刊；国家自然科学基金委管理科学部 A 级重要期刊、FMS T1、CSSCI 与中文核心。
+- **摘要**：要求以第三人称准确概括全文，**不少于 300 字**（以官网最新为准）。
+- **篇幅**：论文篇幅以 **10000–15000 字**为宜（以官网最新为准）。
+- **基金信息**：受基金资助须列出基金名称、项目名称、项目负责人、项目编号，并附基金名称英译。
+- **投稿方式**：官网采编系统在线投稿，入口 glkx.hit.edu.cn。
+- **费用 / 匿名审稿**：审稿费、版面费与是否全程匿名以官网最新《投稿须知》为准（**待核实**，不臆断）。
 
 ## 选题偏好
 
@@ -38,18 +50,19 @@ description: Use when targeting 《管理科学》(Management Science) or decidi
 
 ## 官方核验清单
 
-- 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
-- 核对数学符号、图表、摘要、参考文献和附录证明要求
-- 确认在线投稿与模板版本
-- 检索“《管理科学》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
-- 若本 skill 与最新官方要求冲突，以官方要求为准
+- 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从官方来源锚点开始核验，并在回答中说明核验日期。
+- 检索“《管理科学》 投稿须知 / 征稿简则 / 作者指南”，以官网（glkx.hit.edu.cn）最新页面为准；不要沿用二手代投网站格式，也不要套用美国同名刊体例。
+- 核对数学符号、图表、摘要（≥300 字）、关键词、参考文献和附录证明要求。
+- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或费用声明。
+- 再次确认审稿/见刊周期与摘要字数（上面数值可能随官网更新而变化）。
+- 若本 skill 与最新官方要求冲突，以官方要求为准。
 
 ## 投稿前自检
 
 - [ ] 一句话说明为什么这篇稿件属于《管理科学》的核心读者范围
 - [ ] 引言前 3 段已经出现本刊关心的问题层级、理论/机制和主要证据
 - [ ] 文献综述至少对话 2-3 篇本刊或同层级中文期刊近年同主题文章
+- [ ] 摘要不少于 300 字、篇幅约 10000–15000 字、基金信息按官方稿约复核
 - [ ] 方法、数据、图表和参考文献格式已按最新官方稿约复核
 - [ ] 政策/管理启示从本文证据推出，而不是泛泛口号
 
@@ -58,19 +71,20 @@ description: Use when targeting 《管理科学》(Management Science) or decidi
 - 只有回归或问卷，没有模型/算法贡献
 - 命题无证明或假设不合理
 - 数值实验只展示结果，不解释机制
+- 误把美国同名刊《Management Science》的英文体例套到本刊
 
 ## 改投判断
 
-数理证明更强转 journal-of-management-sciences-china；行为管理理论转 chinese-journal-of-management。
+数理证明 / 优化模型是核心贡献 → journal-of-management-sciences-china（《管理科学学报》）/ chinese-journal-of-management-science（《中国管理科学》）；系统工程方法 → systems-engineering-theory-and-practice（《系统工程理论与实践》）；行为/组织管理理论建构 → chinese-journal-of-management（《管理学报》）。
 
 ## 输出格式
 
 ```text
 【匹配度】高 / 中 / 低（一句话理由）
-【目标期刊】《管理科学》
+【目标期刊】《管理科学》（哈工大）
 【选题标签】<最贴近的 2-3 个主题>
 【方法证据】<当前方法是否够本刊标准>
 【最大风险】<最可能导致退稿的一点>
-【需核验官方要求】<投稿系统/匿名/摘要/图表/数据等>
+【需核验官方要求】<投稿系统/匿名/摘要≥300字/图表/数据等>
 【改投建议】<若不匹配，给出更合适期刊>
 ```

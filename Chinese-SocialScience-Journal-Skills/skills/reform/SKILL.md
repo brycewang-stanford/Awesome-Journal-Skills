@@ -1,13 +1,13 @@
 ---
 name: reform
-description: Use when targeting 《改革》(Reform) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《改革》(Reform — 重庆社会科学院主管主办的改革政策类 CSSCI 月刊, 1988 年创刊, 不收版面费) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, GB/T 7714 citation house-style, official-submission-check, and desk-reject heuristics.
 ---
 
 # 《改革》投稿（reform）
 
 ## 期刊定位
 
-重庆社科院主办的改革政策核心刊，适合经济体制改革、区域试点和制度创新研究。
+《改革》由**重庆社会科学院**主管、主办，**1988 年**创刊，是聚焦中国改革与发展问题的综合性经济与公共政策**月刊**，长期入选 CSSCI 来源期刊。覆盖经济体制改革、要素市场化、国企与营商环境、区域试点、共同富裕与高质量发展政策等。相对国内顶刊（《经济研究》《管理世界》），它对改革政策落点、试点经验与制度逻辑更包容，但仍要求问题清楚、证据可检验、体例规范，明确拒收工作总结、政策宣传与泛泛综述。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -17,6 +17,14 @@ description: Use when targeting 《改革》(Reform) or deciding whether a Chine
 - 稿件主题接近本刊，但不确定问题意识、方法强度和读者对象是否匹配
 - 需要把一篇通用中文经管稿改写成《改革》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主管/主办**：重庆社会科学院主管、主办；改革与发展政策类综合性经济月刊，1988 年 1 月创刊，CSSCI 来源期刊。
+- **费用**：编辑部公布**不收版面费**（审稿费以官网为准）。
+- **审稿周期**：审稿周期约 **1–3 个月**；自来稿之日起 **2 个月内**未接到编辑部回音，作者可另行处理稿件。
+- **参考文献**：执行 **GB/T 7714—2015**，须有具体出处及页码，采用**实引**方式在正文中标注，按出现先后用方括号数字编号（如［1］［2］）列于文后。
+- **投稿/联系**：编辑部地址重庆市江北区桥北村 274 号，邮编 400020；投稿系统/邮箱以官网最新页面为准。
 
 ## 选题偏好
 
@@ -39,10 +47,10 @@ description: Use when targeting 《改革》(Reform) or deciding whether a Chine
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
-- 核对栏目、字数、摘要关键词、作者匿名和参考文献要求
+- 核对栏目、字数、摘要关键词、作者匿名和参考文献要求；确认 GB/T 7714—2015 实引格式与页码要求
 - 确认政策文件、试点名单和改革时间线
 - 检索“《改革》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
-- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
+- 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议；并复核审稿周期与不收版面费声明（上面数值可能随官网更新而变化）
 - 若本 skill 与最新官方要求冲突，以官方要求为准
 
 ## 投稿前自检

@@ -1,13 +1,13 @@
 ---
 name: comparative-economic-and-social-systems
-description: Use when targeting 《经济社会体制比较》(Comparative Economic and Social Systems) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《经济社会体制比较》(Comparative Economic and Social Systems — 中央党史和文献研究院主管、中央编译出版社主办的 CSSCI 双月刊, 1985 年创刊, 不收版面/审稿费) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, comparative framing, abstract/keyword house-style, official-submission-check, and desk-reject heuristics.
 ---
 
 # 《经济社会体制比较》投稿（comparative-economic-and-social-systems）
 
 ## 期刊定位
 
-制度比较和体制改革核心刊，适合中外制度比较、社会经济体制和改革路径研究。
+《经济社会体制比较》由**中央党史和文献研究院**主管、**中央编译出版社**主办，**1985 年**创刊，是制度与体制比较研究的学术**双月刊**，长期入选 CSSCI 来源期刊。覆盖经济与社会体制比较、市场化改革与政府作用、社会政策与福利制度、治理体系比较，以及中国制度经验的一般化解释。本刊以**比较视角与制度分析**见长，要求把比较对象、制度逻辑与可验证材料讲清，明确拒收只罗列政策文件、缺学术问题的稿件。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
 
@@ -17,6 +17,14 @@ description: Use when targeting 《经济社会体制比较》(Comparative Econo
 - 稿件主题接近本刊，但不确定问题意识、方法强度和读者对象是否匹配
 - 需要把一篇通用中文经管稿改写成《经济社会体制比较》更容易接受的叙事
 - 投稿前需要列出本刊高频拒稿风险和改投方向
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主管/主办**：中央党史和文献研究院主管、中央编译出版社主办；制度与体制比较类学术双月刊，1985 年创刊，CSSCI 来源期刊。
+- **费用**：编辑部公布**不收版面费、审稿费**（0 元/篇）。
+- **摘要/关键词**：附 **300 字以内**中、英文提要，并列 **4–5 个**中、英文主题关键词。
+- **篇幅**：正文一般控制在 **12000–15000 字**（以官网稿约为准）。
+- **投稿/联系**：登录官方在线投审稿系统 **jjsh.cbpt.cnki.net** 注册投稿；编辑部邮箱 bijiao2008@126.com（以官网最新入口为准）。
 
 ## 选题偏好
 
@@ -39,9 +47,9 @@ description: Use when targeting 《经济社会体制比较》(Comparative Econo
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。
-- 核对栏目、字数、摘要关键词、作者匿名和参考文献要求
-- 确认政策文件、试点名单和改革时间线
-- 检索“《经济社会体制比较》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式
+- 核对栏目、篇幅（约 12000–15000 字）、中英文摘要 300 字以内与 4–5 个关键词、作者匿名和参考文献要求
+- 确认比较对象、政策文件与制度时间线
+- 检索“《经济社会体制比较》 投稿须知 / 征稿简则 / 作者指南”，并登录在线投审稿系统（jjsh.cbpt.cnki.net）核对最新模板；不要沿用二手代投网站格式
 - 核对是否要求匿名正文、作者信息页、基金信息单列、数据/程序/补充材料、版权协议或不收费声明
 - 若本 skill 与最新官方要求冲突，以官方要求为准
 
@@ -50,7 +58,7 @@ description: Use when targeting 《经济社会体制比较》(Comparative Econo
 - [ ] 一句话说明为什么这篇稿件属于《经济社会体制比较》的核心读者范围
 - [ ] 引言前 3 段已经出现本刊关心的问题层级、理论/机制和主要证据
 - [ ] 文献综述至少对话 2-3 篇本刊或同层级中文期刊近年同主题文章
-- [ ] 方法、数据、图表和参考文献格式已按最新官方稿约复核
+- [ ] 中英文摘要 300 字以内、4–5 个关键词齐全，篇幅在约 12000–15000 字；方法、数据、图表和参考文献格式已按最新官方稿约复核
 - [ ] 政策/管理启示从本文证据推出，而不是泛泛口号
 
 ## 高频拒稿雷区

@@ -1,15 +1,25 @@
 ---
 name: economic-perspectives
-description: Use when targeting 《经济学动态》(Economic Perspectives) or deciding whether a Chinese social-science/econ/management manuscript fits this journal. Applies the journal's fit, framing, method, house-style, official-submission-check, and desk-reject heuristics.
+description: Use when targeting 《经济学动态》(Economic Perspectives — 中国社会科学院主管、经济研究所主办的理论经济学月刊, 1960 年创刊, CSSCI) or deciding whether a Chinese econ manuscript fits this venue. Encodes the journal's fit, framing, abstract/keyword house style, official-submission re-check, and desk-reject heuristics.
 ---
 
 # 《经济学动态》投稿（economic-perspectives）
 
 ## 期刊定位
 
-经济学综述、学术动态和前沿评论的重要刊物，适合把新理论、新方法或中国经济热点梳理成规范学术问题。
+《经济学动态》由**中国社会科学院主管、中国社会科学院经济研究所主办**，**1960 年**创刊，是理论经济学**月刊**，CSSCI 来源期刊。是经济学综述、学术动态与前沿评论的重要刊物，适合把新理论、新方法或中国经济重大问题梳理成规范学术问题——经济学前沿综述与争鸣、重大问题理论评论、政策热点的学术化评述与研究议程。强调理论深度、独到见解与新意。
 
 这个 skill 是**定位 / 选刊 / 改写框架**工具，不替代该刊最新官方投稿须知。正式投稿前必须重新核对官网、采编系统或编辑部发布的最新模板。
+
+## 关键事实（核验日期 2026-05；以官网最新《投稿须知》为准）
+
+- **主管/主办**：中国社会科学院主管、经济研究所主办；理论经济学月刊，1960 年创刊；CSSCI 来源期刊。
+- **篇幅**：稿件以 **8000 字**为宜；新书简评以 **2000 字**为宜。
+- **摘要**：约 **200 字**内容提要。
+- **关键词**：**3–5 个**。
+- **作者信息**：姓名、单位、通讯地址、邮编、电话、E-mail 一律置于**首页**，正文不出现作者信息（匿名要求）。
+- **参考文献/注释**：采用**篇尾注**，参考文献以**实引方式**在正文中标注、文末列出。
+- **审稿周期 / 费用**：官方未明确，**待核实**（以官网最新为准）。
 
 ## 触发时机
 
