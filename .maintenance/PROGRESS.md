@@ -56,6 +56,20 @@ The genuine clone defect (find-replace twins, e.g. QJE-id ≡ JPE-id) was concen
 The Chinese depth packs were already individually crafted. Natural-science depth packs +
 the 3 breadth bundles are Agent B's lane.
 
+## Wave 6 — hidden-clone audit of the 14 Chinese depth packs (per user request)
+
+Method: char-8-gram Jaccard between every same-role SKILL pair across packs, with journal
+names + latin/digits stripped so a name-swap clone would score ~1.0. Script: /tmp/clonecheck.py.
+
+Result: 18 shared roles compared · clone-twins (>0.80) = **0** · heavy-overlap (0.55–0.80) = 4
+(rebuttal 0.65, style 0.60, tables-figures 0.60, mechanism 0.56) · MAX pair = 0.65.
+Spot-check of the single most-similar pair (cre-rebuttal vs cfe-rebuttal): after name-
+normalization they still differ in **73 of 87 lines**. So the overlap is shared rebuttal/style
+*craft scaffolding* (generic "respond point-by-point, stay gracious" advice that is legitimately
+similar across journals), NOT name-swap cloning. Pre-fix English packs sat near ~1.0 / 3-line diffs.
+
+Verdict: **no hidden clones** in the Chinese packs — they are genuinely differentiated. No rewrite needed.
+
 ## Completed
 | Pack | Words before→after | Key venue facts added | Notes |
 |------|--------|----------|-------|
