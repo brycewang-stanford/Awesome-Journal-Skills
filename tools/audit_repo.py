@@ -38,6 +38,11 @@ LINK_RE = re.compile(
     r"|<img\s+[^>]*src=[\"']([^\"']+)[\"']",
     re.IGNORECASE,
 )
+FENCE_RE = re.compile(r"^\s*(```|~~~)")
+INLINE_CODE_RE = re.compile(r"`[^`]*`")
+FRONTMATTER_KEY_RE = re.compile(r"^([A-Za-z0-9_-]+):", re.MULTILINE)
+FRONTMATTER_NAME_RE = re.compile(r"^name:\s*[\"']?([^\"'\n]+)", re.MULTILINE)
+FRONTMATTER_DESCRIPTION_RE = re.compile(r"^description:\s*\S+", re.MULTILINE)
 
 
 def rel(path: Path) -> str:
@@ -51,6 +56,10 @@ def is_hidden_or_git(path: Path) -> bool:
 def is_nature_plugin_mirror(path: Path) -> bool:
     parts = [part.casefold() for part in path.relative_to(ROOT).parts]
     return len(parts) >= 4 and parts[:3] == ["nature-skills", "plugins", "nature-skills"]
+
+
+def is_imported_root(path: Path) -> bool:
+    return top_level(path) in IMPORTED_ROOTS
 
 
 def iter_skill_files() -> list[Path]:
@@ -124,11 +133,23 @@ def check_plugin_metadata(errors: list[str]) -> None:
             continue
         plugin = load_json(plugin_path, errors)
         marketplace_path = plugin_path.parent / "marketplace.json"
-        marketplace = load_json(marketplace_path, errors) if marketplace_path.exists() else None
+        if not marketplace_path.exists():
+            errors.append(f"{rel(marketplace_path)} is missing")
+            continue
+        marketplace = load_json(marketplace_path, errors)
         if not plugin or not marketplace:
             continue
 
         plugin_version = plugin.get("version")
+        if not plugin_version:
+            errors.append(f"{rel(plugin_path)} missing version")
+
+        if plugin.get("name") != marketplace.get("name"):
+            errors.append(
+                f"{rel(marketplace_path)} name {marketplace.get('name')!r} "
+                f"!= plugin.json {plugin.get('name')!r}"
+            )
+
         market_version = marketplace.get("version")
         if market_version is not None and market_version != plugin_version:
             errors.append(
@@ -141,10 +162,20 @@ def check_plugin_metadata(errors: list[str]) -> None:
             continue
 
         entry = entries[0]
+        if entry.get("name") != plugin.get("name"):
+            errors.append(
+                f"{rel(marketplace_path)} plugin entry name {entry.get('name')!r} "
+                f"!= plugin.json {plugin.get('name')!r}"
+            )
         if entry.get("version") != plugin_version:
             errors.append(
                 f"{rel(marketplace_path)} plugin entry version {entry.get('version')!r} "
                 f"!= plugin.json {plugin_version!r}"
+            )
+        if entry.get("license") != plugin.get("license"):
+            errors.append(
+                f"{rel(marketplace_path)} plugin entry license {entry.get('license')!r} "
+                f"!= plugin.json {plugin.get('license')!r}"
             )
 
         actual = sorted(
@@ -152,7 +183,9 @@ def check_plugin_metadata(errors: list[str]) -> None:
             for path in (pack_root / "skills").glob("*/SKILL.md")
         )
         declared = sorted(entry.get("skills") or [])
-        if declared and actual and actual != declared:
+        if actual and not declared:
+            errors.append(f"{rel(marketplace_path)} plugin entry has no declared skills")
+        elif declared and actual and actual != declared:
             missing = sorted(set(actual) - set(declared))
             extra = sorted(set(declared) - set(actual))
             errors.append(
@@ -162,6 +195,8 @@ def check_plugin_metadata(errors: list[str]) -> None:
 
 
 def check_skill_frontmatter(errors: list[str]) -> None:
+    first_party_names: dict[str, list[Path]] = {}
+
     for path in iter_skill_files():
         text = path.read_text(encoding="utf-8", errors="replace")
         if not text.startswith("---\n"):
@@ -172,20 +207,55 @@ def check_skill_frontmatter(errors: list[str]) -> None:
             errors.append(f"{rel(path)}: unterminated YAML frontmatter")
             continue
         frontmatter = text[4:end]
-        if not re.search(r"^name:\s*\S+", frontmatter, re.MULTILINE):
+        name_match = FRONTMATTER_NAME_RE.search(frontmatter)
+        if not name_match:
             errors.append(f"{rel(path)}: frontmatter missing name")
-        if not re.search(r"^description:\s*\S+", frontmatter, re.MULTILINE):
+        if not FRONTMATTER_DESCRIPTION_RE.search(frontmatter):
             errors.append(f"{rel(path)}: frontmatter missing description")
+
+        if is_imported_root(path):
+            continue
+
+        keys = FRONTMATTER_KEY_RE.findall(frontmatter)
+        extra_keys = sorted(set(keys) - {"name", "description"})
+        if extra_keys:
+            errors.append(f"{rel(path)}: first-party frontmatter has extra keys {extra_keys}")
+
+        if name_match:
+            name = name_match.group(1).strip()
+            first_party_names.setdefault(name, []).append(path)
+            if name != path.parent.name:
+                errors.append(
+                    f"{rel(path)}: frontmatter name {name!r} != folder {path.parent.name!r}"
+                )
+
+    for name, paths in sorted(first_party_names.items()):
+        if len(paths) > 1:
+            locations = ", ".join(rel(path) for path in paths)
+            errors.append(f"duplicate first-party skill name {name!r}: {locations}")
 
 
 def markdown_files_to_check() -> list[Path]:
-    files = set(README_FILES)
-    files.update((ROOT / ".maintenance").glob("*.md"))
-    for path in ROOT.glob("*/README*.md"):
-        if top_level(path) in IMPORTED_ROOTS:
+    return sorted(
+        path
+        for path in ROOT.rglob("*.md")
+        if not is_hidden_or_git(path) and not is_imported_root(path)
+    )
+
+
+def iter_markdown_link_lines(text: str) -> list[tuple[int, str]]:
+    lines: list[tuple[int, str]] = []
+    in_fence = False
+
+    for lineno, line in enumerate(text.splitlines(), 1):
+        if FENCE_RE.match(line):
+            in_fence = not in_fence
             continue
-        files.add(path)
-    return sorted(files)
+        if in_fence:
+            continue
+        lines.append((lineno, INLINE_CODE_RE.sub("", line)))
+
+    return lines
 
 
 def is_external_target(target: str) -> bool:
@@ -196,7 +266,7 @@ def is_external_target(target: str) -> bool:
 def check_markdown_links(errors: list[str]) -> None:
     for path in markdown_files_to_check():
         text = path.read_text(encoding="utf-8", errors="replace")
-        for lineno, line in enumerate(text.splitlines(), 1):
+        for lineno, line in iter_markdown_link_lines(text):
             for match in LINK_RE.finditer(line):
                 target = next(group for group in match.groups() if group)
                 target = target.strip()
