@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "journal-of-management-sciences-in-china-skills",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at 《管理科学学报》, the NSFC / Tianjin University flagship for quantitative and mathematical management science.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "journal-of-management-sciences-in-china-skills",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the 《管理科学学报》 manuscript lifecycle: workflow router, fit positioning (数理 vs 经验实证), problem formulation, model building, proofs, algorithm design, numerical experiments, behavioral OM, managerial insights, notation style, submission preflight, and rebuttal.",
       "author": {

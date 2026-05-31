@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "nankai-business-review-skills",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at 《南开管理评论》 (Nankai Business Review), the top Chinese business-school journal for theory-building management research grounded in the China context.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "nankai-business-review-skills",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the 《南开管理评论》 manuscript lifecycle: workflow router, fit positioning, theory-gap articulation, mechanism-backed hypothesis development, measurement rigor (reliability / validity / common-method-bias), survey-SEM (mediation / moderation / moderated mediation / HLM), experiments, multi-case / grounded theory, China contextualization, discussion that advances a management theory, submission preflight, and rebuttal.",
       "author": {

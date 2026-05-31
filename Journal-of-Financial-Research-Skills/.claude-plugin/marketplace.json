@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "journal-of-financial-research-skills",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at 《金融研究》 (Journal of Financial Research), the China Society for Finance and Banking / PBC-system top finance journal.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "journal-of-financial-research-skills",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the 《金融研究》 manuscript lifecycle: workflow router, macro vs micro fit positioning, topic selection, literature review, financial-system institutional background, policy-shock and high-frequency identification, financial-channel mechanism, heterogeneity, tables and figures, operational policy implications, submission preflight, and rebuttal.",
       "author": {

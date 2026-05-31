@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "china-economic-quarterly-skills",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at 《经济学(季刊)》 (China Economic Quarterly), the Peking University / CCER journal closest to international top-field economics standards in China.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "china-economic-quarterly-skills",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the 《经济学(季刊)》 manuscript lifecycle: workflow router, fit positioning, internationally-legible topic selection, field-benchmarked literature review, structural / quasi-experimental identification, modern staggered-DID compliance, inference rigor, mechanism evidence, figures-over-tables, English abstract, submission preflight, and rebuttal.",
       "author": {

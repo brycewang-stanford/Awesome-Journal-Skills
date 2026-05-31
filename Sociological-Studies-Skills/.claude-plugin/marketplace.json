@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "sociological-studies-skills",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at 《社会学研究》, the flagship sociology journal of the Institute of Sociology, Chinese Academy of Social Sciences.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "sociological-studies-skills",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the 《社会学研究》 manuscript lifecycle for both quantitative and qualitative sociology: workflow router, fit positioning, sociological problematic, theory dialogue, quantitative craft (CGSS/CFPS/CLDS), qualitative craft (ethnography/interview/grounded theory), social-process mechanism, concept building, scholarly style, abstract + keywords, submission preflight, and rebuttal.",
       "author": {
