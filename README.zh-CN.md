@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/agent-Claude%20Code-cc785c)](https://github.com/anthropics/claude-code)
-[![Skills](https://img.shields.io/badge/skills-843-cc785c)](#skill-pack-一览)
+[![Skills](https://img.shields.io/badge/skills-844-cc785c)](#skill-pack-一览)
 [![Maintained by CoPaper.AI from Stanford REAP](https://img.shields.io/badge/Maintained%20by-CoPaper.AI%20from%20Stanford%20REAP-blue)](https://copaper.ai)
 [![Powered by StatsPAI](https://img.shields.io/badge/Powered%20by-StatsPAI-orange)](https://github.com/brycewang-stanford/StatsPAI)
 
@@ -25,12 +25,12 @@
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Skills-843-cc785c?style=for-the-badge" alt="843 个 Agent Skill">
+  <img src="https://img.shields.io/badge/Skills-844-cc785c?style=for-the-badge" alt="844 个 Agent Skill">
   &nbsp;
   <img src="https://img.shields.io/badge/Skill_Packs-44-2b3137?style=for-the-badge" alt="44 个 Skill 包">
 </p>
 <p align="center">
-  <sub>共收录 <b>843 个 Agent Skill</b>，分布在 <b>44 个精选 Skill 包</b>中——一站式索引。</sub>
+  <sub>共收录 <b>844 个 Agent Skill</b>，分布在 <b>44 个精选 Skill 包</b>中——一站式索引。</sub>
 </p>
 
 <p align="center">
@@ -109,9 +109,9 @@
 | 你看到的入口 | 它是什么 | 什么时候用 |
 |---|---|---|
 | **封面卡和根目录期刊文件夹**，例如 `American-Economic-Review/` 或 `Jingji-Yanjiu/` | 只负责导航；它们指向 canonical skill 位置，故意不放 `SKILL.md`。 | 你在 GitHub 根目录按期刊名浏览。 |
-| **深度包**，例如 `AER-Skills/`、`Economic-Research-Journal-Skills/` 或 `Cell-Skills/` | 单刊全流程工作流，通常含 9-13 个 skills，覆盖选题、定位、方法、表格、投稿和回复。 | 目标期刊已确定，且需要完整投稿生命周期支持。 |
+| **深度包**，例如 `AER-skills/`、`Economic-Research-Journal-Skills/` 或 `Cell-Skills/` | 单刊全流程工作流，通常含 9-13 个 skills，覆盖选题、定位、方法、表格、投稿和回复。 | 目标期刊已确定，且需要完整投稿生命周期支持。 |
 | **广度合集**：`Chinese-SocialScience-Journal-Skills/`、`English-SocialScience-Journal-Skills/`、`English-NaturalScience-Journal-Skills/` | 每本期刊一个轻量 fit-and-house-style skill，另有 router skill 用于选刊。 | 你需要覆盖 100 本期刊级别的路线图，或还在比较投稿目标。 |
-| **收录 / 工具包**，例如 `Nature-Skills/`、`claude-scholar/` 或 `codex-claude-academic-skills/` | 收录的上游包或通用学术工具，与期刊包并列保存。 | 你需要跨期刊的研究、写作或工作流支持。 |
+| **收录 / 工具包**，例如 `nature-skills/`、`claude-scholar/` 或 `codex-claude-academic-skills/` | 收录的上游包或通用学术工具，与期刊包并列保存。 | 你需要跨期刊的研究、写作或工作流支持。 |
 
 经验法则：浏览时从根目录文件夹或封面卡开始；选刊时用广度合集；目标期刊确定后再进入对应深度包。
 
@@ -119,7 +119,7 @@
 
 ## 根目录 200 个期刊文件夹
 
-为了让用户在仓库首页的根目录就能看到完整的社科期刊阵列，现在 200 本广度合集期刊各有一个轻量入口文件夹：100 本中文经管路线图期刊使用拼音目录名，100 本英文经管 / 商科期刊使用英文题名目录名。这些目录只负责导航；真正可安装的 `SKILL.md` 仍保留在对应 bundle 内，因此插件路径和 843 个 skill 的计数不会被重复放大。
+为了让用户在仓库首页的根目录就能看到完整的社科期刊阵列，现在 200 本广度合集期刊各有一个轻量入口文件夹：100 本中文经管路线图期刊使用拼音目录名，100 本英文经管 / 商科期刊使用英文题名目录名。这些目录只负责导航；真正可安装的 `SKILL.md` 仍保留在对应 bundle 内，因此插件路径和 844 个 skill 的计数不会被重复放大。
 
 ### 中文经管路线图 · 100 个拼音目录
 
@@ -199,7 +199,7 @@
 
 ## Skill Pack 一览
 
-> **收录范围。** 本索引聚焦**社会科学中英文顶刊**，以及**自然科学、临床与物理科学英文顶刊**。每个重点期刊都是一个**深度包**（单刊全流程，12 步）；三个**广度合集**则为每本期刊各提供一个“选刊定位 + 写作风格”技能——[Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) 覆盖约 100 本中文经管路线图期刊，[English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) 覆盖 100 本英文主流经济学/金融/管理/会计/营销/运营/信息系统期刊（经济学全部 Top-5、金融 Top-3、AOM/SMS 顶刊、FT50/UTD24/ABS 4★），[English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) 覆盖 100 本英文主流自然科学/临床/物理/形式科学期刊（三大通刊、Cell Press 与 Nature 子刊家族、Physical Review 家族、ACS/RSC 化学旗舰、四大综合医学刊与各临床学会旗舰，以及纯数学最高级别期刊）。12 本重点中文期刊、英文侧的 AER、以及 5 本自然科学旗舰（Science、Cell、PNAS、NEJM、The Lancet），有意同时以两种形态收录。自然科学另以**自有深度包**形态提供，与收录的第三方 Nature 包并列。
+> **收录范围。** 本索引聚焦**社会科学中英文顶刊**，以及**自然科学、临床与物理科学英文顶刊**。每个重点期刊都是一个**深度包**（单刊全流程，12 步）；三个**广度合集**则为每本期刊各提供一个“选刊定位 + 写作风格”技能——[Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) 覆盖 102 个中文社科期刊 profile（100 本中文经管路线图期刊 + 2 本更宽口径社科旗舰），[English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) 覆盖 100 本英文主流经济学/金融/管理/会计/营销/运营/信息系统期刊（经济学全部 Top-5、金融 Top-3、AOM/SMS 顶刊、FT50/UTD24/ABS 4★），[English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) 覆盖 100 本英文主流自然科学/临床/物理/形式科学期刊（三大通刊、Cell Press 与 Nature 子刊家族、Physical Review 家族、ACS/RSC 化学旗舰、四大综合医学刊与各临床学会旗舰，以及纯数学最高级别期刊）。12 本重点中文期刊、英文侧的 AER、以及 5 本自然科学旗舰（Science、Cell、PNAS、NEJM、The Lancet），有意同时以两种形态收录。自然科学另以**自有深度包**形态提供，与收录的第三方 Nature 包并列。
 
 ### 社会科学 · 中文顶刊 —— 深度独立包
 
@@ -225,7 +225,7 @@
 
 | 合集 | Pack | 覆盖 | 技能数 |
 |------|------|------|-------:|
-| **约 100 本中文经管路线图期刊** | [Chinese-SocialScience-Journal-Skills/](Chinese-SocialScience-Journal-Skills/) | 一刊一个 router 技能 | 103 |
+| **102 个中文社科期刊 profile** | [Chinese-SocialScience-Journal-Skills/](Chinese-SocialScience-Journal-Skills/) | 102 个期刊 skill + 1 个 router | 103 |
 
 <!-- COVER-GALLERY:cn-soc:START -->
 <p align="center"><sub>📚 <b>全部 102 本中文社科期刊封面</b> &mdash; 按学科分组</sub></p>
@@ -614,7 +614,7 @@
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | 选题 → 写作 → 发表（Claude Code / OpenCode / Codex） | upstream |
 | **Codex/Claude 学术 Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | 阅读 · 写作 · 科学计算 | upstream |
 
-<sub><b>计数口径。</b> 首页 <b>843</b> = 仓库内全部 <code>SKILL.md</code> 减去 9 个 Nature 插件镜像重复文件。三个广度合集与深度独立包均计入，因此同时双形态收录的期刊（既有广度 profile，又有深度包）会被计两次。对账：181（15 个中文深度包）+ 132（11 个英文社科深度包）+ 120（10 个自然科学深度包）+ 103（中文合集）+ 101（英文经管合集：100 本期刊 + 1 路由）+ 101（英文自然科学合集：100 本期刊 + 1 路由）+ 9（AER）+ 27（Nature 系）+ 69（通用工具）= 843。</sub>
+<sub><b>计数口径。</b> 首页 <b>844</b> = 仓库内全部 <code>SKILL.md</code> 减去 10 个 Nature 插件镜像重复文件。三个广度合集与深度独立包均计入，因此同时双形态收录的期刊（既有广度 profile，又有深度包）会被计两次。对账：181（15 个中文深度包）+ 132（11 个英文社科深度包）+ 120（10 个自然科学深度包）+ 103（中文合集）+ 101（英文经管合集：100 本期刊 + 1 路由）+ 101（英文自然科学合集：100 本期刊 + 1 路由）+ 9（AER）+ 28（Nature 系）+ 69（通用工具）= 844。</sub>
 
 ---
 
@@ -660,7 +660,7 @@ awesome-journal-skills/
 ├── Academy-of-Management-Review-Skills/   → Academy of Management Review（12 skills）
 ├── Administrative-Science-Quarterly-Skills/  → Administrative Science Quarterly（12 skills）
 ├── Strategic-Management-Journal-Skills/   → Strategic Management Journal（12 skills）
-├── Chinese-SocialScience-Journal-Skills/  → 中文广度合集，约 100 本期刊 router（103 skills）
+├── Chinese-SocialScience-Journal-Skills/  → 中文广度合集，102 个期刊 profile + router（103 skills）
 ├── English-SocialScience-Journal-Skills/  → 英文经管广度合集，100 本期刊 fit 技能 + 路由（101 skills）
 ├── English-NaturalScience-Journal-Skills/ → 英文自然科学广度合集，100 本期刊 fit 技能 + 路由（101 skills）
 │   # 自然科学与临床深度包（本仓库内编写维护）
@@ -683,13 +683,15 @@ awesome-journal-skills/
 └── .github/workflows/sync-submodules.yml
 ```
 
-带 submodule 克隆：
+克隆并拉取一级 submodule：
 
 ```bash
-git clone --recurse-submodules https://github.com/brycewang-stanford/awesome-journal-skills.git
-# 若已克隆：
-git submodule update --init --recursive
+git clone https://github.com/brycewang-stanford/awesome-journal-skills.git
+cd awesome-journal-skills
+git submodule update --init
 ```
+
+本仓库只依赖一级 submodule。除非某个上游收录包明确要求，否则不要递归初始化嵌套 submodule。
 
 随时手动拉取最新 pack 内容：
 
@@ -759,7 +761,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 ### ✅ 已落地
 
 - **三个广度合集** —— 每本期刊一个“选刊定位 + 写作风格”技能：
-  - [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) —— 102 本中文经管期刊
+  - [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) —— 102 个中文社科期刊 profile
   - [English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) —— 100 本英文经济 / 金融 / 管理 / 会计 / 营销 / 运营 / 信息系统期刊
   - [English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) —— 100 本英文自然科学 / 临床 / 物理 / 形式科学期刊
 - **每刊封面卡** 覆盖全部广度期刊，两份 README 内嵌默认展开的封面画廊，并提供 200 个根目录轻量入口文件夹便于首页浏览。
@@ -1055,7 +1057,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 </details>
 
 <details>
-<summary><b>中文 —— 经管主流 102 本</b>（点击展开）</summary>
+<summary><b>中文 —— 社科期刊 profile 102 个</b>（点击展开）</summary>
 
 #### 经济学 (50)
 
@@ -1173,6 +1175,16 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 ## 贡献
 
 每个 pack 都在自己的仓库里。要为某个 pack 贡献内容，请到对应仓库提 PR。要提议新增 pack，请在本仓库提 issue。
+
+多 agent 协作流程、submodule 边界和验证检查见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+如果 PR 会改根目录导航、manifest 或 pack 元数据，请先运行：
+
+```bash
+python3 tools/audit_repo.py
+```
+
+GitHub Actions 会运行同一套审计。它会检查 canonical skill 计数、精选 pack 计数、200 个根目录期刊入口、plugin / marketplace 漂移、`SKILL.md` frontmatter，以及 README 内部链接。
 
 收录到本索引的质量门槛：
 

@@ -134,6 +134,13 @@ Nature 见精选的 [nature-skills](https://github.com/Yuan1z0825/nature-skills)
 
 ---
 
+## 相关
+
+- [awesome-journal-skills](https://github.com/brycewang-stanford/awesome-journal-skills) — 期刊专属 Skill 包索引
+- [Cell-Skills](https://github.com/brycewang-stanford/awesome-journal-skills/tree/main/Cell-Skills) · [PNAS-Skills](https://github.com/brycewang-stanford/awesome-journal-skills/tree/main/PNAS-Skills) · [NEJM-Skills](https://github.com/brycewang-stanford/awesome-journal-skills/tree/main/NEJM-Skills) · [Lancet-Skills](https://github.com/brycewang-stanford/awesome-journal-skills/tree/main/Lancet-Skills)
+
+---
+
 ## 免责声明
 
 本包为独立、社区构建的 skill 包，**与 AAAS / Science 无任何隶属、背书或合作关系**。所有指标（字数、图件上限、体例规则）均依据写作时公开的作者指南——**投稿前请务必以最新的 [Science 作者指南](https://www.science.org/content/page/science-information-authors) 为准**。

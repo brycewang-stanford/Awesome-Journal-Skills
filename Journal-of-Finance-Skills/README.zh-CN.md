@@ -1,4 +1,4 @@
-# Journal of Finance Skills（《金融学刊》技能包）
+# Journal of Finance Skills（JF 技能包）
 
 <p align="center">
   <img src="assets/cover.svg" alt="The Journal of Finance 封面" width="220">

@@ -133,6 +133,16 @@ cpa-rebuttal
 
 ---
 
+## What this repo does NOT do
+
+- It will not write a submission-ready manuscript for you
+- It does not simulate reviewer preferences
+- It does not catalog 《中国行政管理》's historical rejection rate, impact factor, or other metadata
+- It does not judge whether your "theoretical contribution" is genuinely original — that is the researcher's own call
+- It does not assert volatile specifics (current editorial board, exact publication fees, word limits) — defer to the journal's official "投稿须知"
+
+---
+
 ## Related
 
 - [awesome-journal-skills](https://github.com/brycewang-stanford/awesome-journal-skills) — Index of journal-specific skill packs

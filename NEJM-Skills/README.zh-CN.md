@@ -136,6 +136,13 @@ nejm-rebuttal        （送审之后——含统计审稿人）
 
 ---
 
+## 相关
+
+- [awesome-journal-skills](https://github.com/brycewang-stanford/awesome-journal-skills) — 期刊专属 Skill 包索引
+- [Science-Skills](https://github.com/brycewang-stanford/awesome-journal-skills/tree/main/Science-Skills) · [Lancet-Skills](https://github.com/brycewang-stanford/awesome-journal-skills/tree/main/Lancet-Skills) · [PNAS-Skills](https://github.com/brycewang-stanford/awesome-journal-skills/tree/main/PNAS-Skills) · [Cell-Skills](https://github.com/brycewang-stanford/awesome-journal-skills/tree/main/Cell-Skills)
+
+---
+
 ## 免责声明
 
 本包为独立、社区构建的 skill 包，**与 NEJM、马萨诸塞州医学会（Massachusetts Medical Society）及其任何期刊均无任何隶属、背书或合作关系**。所有指标（字数、参考文献上限、体例规则、政策细节）均依据写作时公开的作者指南与 ICMJE 推荐——**投稿前请务必以最新的 [NEJM 作者中心](https://www.nejm.org/author-center) 与 [ICMJE 推荐](http://www.icmje.org/recommendations/) 为准**。

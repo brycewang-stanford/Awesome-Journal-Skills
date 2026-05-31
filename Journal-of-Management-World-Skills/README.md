@@ -109,6 +109,15 @@ mw-rebuttal
 
 ---
 
+## What this repo does NOT do
+
+- It will not write a submission-ready manuscript for you
+- It does not simulate reviewer preferences (which are highly heterogeneous)
+- It does not catalog 《管理世界》's rejection rate, impact factor, or other metadata
+- It does not judge whether your China-context framing is "genuine" — that is the researcher's own call
+
+---
+
 ## Related
 
 - [awesome-journal-skills](https://github.com/brycewang-stanford/awesome-journal-skills) — Index of journal-specific skill packs

@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/agent-Claude%20Code-cc785c)](https://github.com/anthropics/claude-code)
-[![Skills](https://img.shields.io/badge/skills-843-cc785c)](#the-skill-packs)
+[![Skills](https://img.shields.io/badge/skills-844-cc785c)](#the-skill-packs)
 [![Maintained by CoPaper.AI from Stanford REAP](https://img.shields.io/badge/Maintained%20by-CoPaper.AI%20from%20Stanford%20REAP-blue)](https://copaper.ai)
 [![Powered by StatsPAI](https://img.shields.io/badge/Powered%20by-StatsPAI-orange)](https://github.com/brycewang-stanford/StatsPAI)
 
@@ -25,12 +25,12 @@ English | [简体中文](README.zh-CN.md)
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Skills-843-cc785c?style=for-the-badge" alt="843 agent skills">
+  <img src="https://img.shields.io/badge/Skills-844-cc785c?style=for-the-badge" alt="844 agent skills">
   &nbsp;
   <img src="https://img.shields.io/badge/Skill_Packs-44-2b3137?style=for-the-badge" alt="44 skill packs">
 </p>
 <p align="center">
-  <sub><b>843 agent skills</b> across <b>44 curated packs</b> — one index.</sub>
+  <sub><b>844 agent skills</b> across <b>44 curated packs</b> — one index.</sub>
 </p>
 
 <p align="center">
@@ -109,9 +109,9 @@ Use the repo in three passes:
 | What you see | What it means | Use it when |
 |---|---|---|
 | **Cover cards and root journal folders** like `American-Economic-Review/` or `Jingji-Yanjiu/` | Navigation entries only; they point to the canonical skill location and intentionally do not contain `SKILL.md`. | You are browsing by journal name from the GitHub root. |
-| **Depth packs** like `AER-Skills/`, `Economic-Research-Journal-Skills/`, or `Cell-Skills/` | Full per-venue workflows, usually 9-13 skills covering topic fit, framing, methods, tables, submission, and rebuttal. | You are targeting a flagship venue and need lifecycle help. |
+| **Depth packs** like `AER-skills/`, `Economic-Research-Journal-Skills/`, or `Cell-Skills/` | Full per-venue workflows, usually 9-13 skills covering topic fit, framing, methods, tables, submission, and rebuttal. | You are targeting a flagship venue and need lifecycle help. |
 | **Breadth bundles**: `Chinese-SocialScience-Journal-Skills/`, `English-SocialScience-Journal-Skills/`, `English-NaturalScience-Journal-Skills/` | One lightweight fit-and-house-style skill per journal, plus a router skill for venue selection. | You need broad coverage across 100-journal roadmaps. |
-| **Imported / toolkit packs** like `Nature-Skills/`, `claude-scholar/`, or `codex-claude-academic-skills/` | Curated upstream packs or general academic tooling kept alongside the journal packs. | You need cross-journal research, writing, or workflow support. |
+| **Imported / toolkit packs** like `nature-skills/`, `claude-scholar/`, or `codex-claude-academic-skills/` | Curated upstream packs or general academic tooling kept alongside the journal packs. | You need cross-journal research, writing, or workflow support. |
 
 Rule of thumb: start from a root folder or cover card when browsing, use a breadth bundle when choosing between venues, and use a depth pack once the target journal is fixed.
 
@@ -119,7 +119,7 @@ Rule of thumb: start from a root folder or cover card when browsing, use a bread
 
 ## 200 Root Journal Folders
 
-For visual browsing at the repository root, the 200 social-science breadth journals now also have one lightweight folder each: 100 Chinese roadmap journals in pinyin folder names, and 100 English econ / finance / management / business journals in title-style folder names. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the 843-skill count stay stable.
+For visual browsing at the repository root, the 200 social-science breadth journals now also have one lightweight folder each: 100 Chinese roadmap journals in pinyin folder names, and 100 English econ / finance / management / business journals in title-style folder names. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the 844-skill count stay stable.
 
 ### Chinese Roadmap Journals · 100 Pinyin Folders
 
@@ -199,7 +199,7 @@ A one-size-fits-all "economics writing" skill cannot encode these differences. E
 
 ## The Skill Packs
 
-> **Scope.** This index targets **top social-science journals (Chinese + English)** and **top natural-science, clinical, and physical-science journals (English)**. Each flagship venue ships as a **depth pack** (full 12-step per-journal workflow); three **breadth bundles** add one fit-and-house-style skill per journal — [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) for ~100 China econ/management roadmap journals, [English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) for the 100 mainstream English econ/finance/management/accounting/marketing/OM/IS journals (every top-5 econ, finance top-3, AOM/SMS elite, FT50/UTD24/ABS 4★), and [English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) for 100 mainstream English natural-science / clinical / physical / formal-science journals (the general-science triad, the Cell Press & Nature Portfolio families, the Physical Review family, the ACS/RSC chemistry flagships, the big-four medical journals and clinical society venues, and the top pure-math journals). The flagship Chinese venues, AER on the English side, and the five natural-science flagships (Science, Cell, PNAS, NEJM, The Lancet) are intentionally covered both ways. Natural sciences also ship as **first-party depth packs** alongside the curated third-party Nature packs.
+> **Scope.** This index targets **top social-science journals (Chinese + English)** and **top natural-science, clinical, and physical-science journals (English)**. Each flagship venue ships as a **depth pack** (full 12-step per-journal workflow); three **breadth bundles** add one fit-and-house-style skill per journal — [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) for 102 Chinese social-science journal profiles (the 100 China econ/management roadmap journals plus 2 broader social-science flagships), [English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) for the 100 mainstream English econ/finance/management/accounting/marketing/OM/IS journals (every top-5 econ, finance top-3, AOM/SMS elite, FT50/UTD24/ABS 4★), and [English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) for 100 mainstream English natural-science / clinical / physical / formal-science journals (the general-science triad, the Cell Press & Nature Portfolio families, the Physical Review family, the ACS/RSC chemistry flagships, the big-four medical journals and clinical society venues, and the top pure-math journals). The flagship Chinese venues, AER on the English side, and the five natural-science flagships (Science, Cell, PNAS, NEJM, The Lancet) are intentionally covered both ways. Natural sciences also ship as **first-party depth packs** alongside the curated third-party Nature packs.
 
 ### Social science · Chinese top journals — depth packs
 
@@ -225,7 +225,7 @@ A one-size-fits-all "economics writing" skill cannot encode these differences. E
 
 | Bundle | Pack | Coverage | Skills |
 |--------|------|----------|-------:|
-| **~100 China econ/management roadmap journals** | [Chinese-SocialScience-Journal-Skills/](Chinese-SocialScience-Journal-Skills/) | one router skill per journal | 103 |
+| **102 Chinese social-science journal profiles** | [Chinese-SocialScience-Journal-Skills/](Chinese-SocialScience-Journal-Skills/) | 102 journal skills + 1 router | 103 |
 
 <!-- COVER-GALLERY:cn-soc:START -->
 <p align="center"><sub>📚 <b>All 102 Chinese social-science journal covers</b> &mdash; grouped by discipline</sub></p>
@@ -614,7 +614,7 @@ This bundle is the natural-science sibling of the English social-science breadth
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | Ideation → writing → publication (Claude Code / OpenCode / Codex) | upstream |
 | **Codex/Claude Academic Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | Reading · writing · scientific computing | upstream |
 
-<sub><b>Count methodology.</b> The homepage <b>843</b> = every <code>SKILL.md</code> minus the 9 duplicated Nature plugin-mirror files. All three breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation: 181 (15 CN depth packs) + 132 (11 EN social-science depth packs) + 120 (10 natural-science depth packs) + 103 (CN bundle) + 101 (EN social-science bundle: 100 journals + 1 router) + 101 (EN natural-science bundle: 100 journals + 1 router) + 9 (AER) + 27 (Nature family) + 69 (toolkits) = 843.</sub>
+<sub><b>Count methodology.</b> The homepage <b>844</b> = every <code>SKILL.md</code> minus the 10 duplicated Nature plugin-mirror files. All three breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation: 181 (15 CN depth packs) + 132 (11 EN social-science depth packs) + 120 (10 natural-science depth packs) + 103 (CN bundle) + 101 (EN social-science bundle: 100 journals + 1 router) + 101 (EN natural-science bundle: 100 journals + 1 router) + 9 (AER) + 28 (Nature family) + 69 (toolkits) = 844.</sub>
 
 ---
 
@@ -660,7 +660,7 @@ awesome-journal-skills/
 ├── Academy-of-Management-Review-Skills/   → Academy of Management Review (12 skills)
 ├── Administrative-Science-Quarterly-Skills/  → Administrative Science Quarterly (12 skills)
 ├── Strategic-Management-Journal-Skills/   → Strategic Management Journal (12 skills)
-├── Chinese-SocialScience-Journal-Skills/  → CN breadth bundle, ~100-journal router (103 skills)
+├── Chinese-SocialScience-Journal-Skills/  → CN breadth bundle, 102 journal profiles + router (103 skills)
 ├── English-SocialScience-Journal-Skills/  → EN econ/business breadth bundle, 100-journal fit skills + router (101 skills)
 ├── English-NaturalScience-Journal-Skills/ → EN natural-science breadth bundle, 100-journal fit skills + router (101 skills)
 │   # Natural-science & clinical depth packs (first-party, authored / maintained here)
@@ -683,13 +683,15 @@ awesome-journal-skills/
 └── .github/workflows/sync-submodules.yml
 ```
 
-Clone with submodules populated:
+Clone with first-level submodules populated:
 
 ```bash
-git clone --recurse-submodules https://github.com/brycewang-stanford/awesome-journal-skills.git
-# or, if already cloned:
-git submodule update --init --recursive
+git clone https://github.com/brycewang-stanford/awesome-journal-skills.git
+cd awesome-journal-skills
+git submodule update --init
 ```
+
+This repo only depends on its first-level submodules. Avoid recursive submodule initialization unless an imported upstream explicitly asks for it.
 
 Pull latest pack content locally at any time:
 
@@ -760,7 +762,7 @@ use next for my manuscript targeted at <journal>.
 ### ✅ Shipped
 
 - **Three breadth bundles** — one fit-and-house-style ("venue selection + house style") skill per journal:
-  - [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) — 102 China econ / management journals
+  - [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) — 102 Chinese social-science journal profiles
   - [English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) — 100 English econ / finance / management / accounting / marketing / OM / IS journals
   - [English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) — 100 English natural-science / clinical / physical / formal-science journals
 - **Per-journal cover cards** for every breadth journal, always-expanded cover galleries in both READMEs, and 200 lightweight root entry folders for repo-front browsing.
@@ -1056,7 +1058,7 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 </details>
 
 <details>
-<summary><b>Chinese — 102 econ &amp; management journals (经管)</b> &mdash; click to expand</summary>
+<summary><b>Chinese — 102 social-science journal profiles</b> &mdash; click to expand</summary>
 
 #### 经济学 (50)
 
@@ -1174,6 +1176,16 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 ## Contributing
 
 Each pack lives in its own repository. To contribute to a pack, open a PR on that pack's repo. To propose a new pack, open an issue here.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the multi-agent workflow, submodule boundary rules, and verification checks.
+
+Before opening a PR that changes root navigation, manifests, or pack metadata, run:
+
+```bash
+python3 tools/audit_repo.py
+```
+
+The same audit runs in GitHub Actions. It checks the canonical skill count, curated-pack count, 200 root journal entries, plugin / marketplace drift, `SKILL.md` frontmatter, and local README links.
 
 Quality bar for inclusion in this index:
 

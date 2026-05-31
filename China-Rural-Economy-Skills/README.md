@@ -135,6 +135,15 @@ cre-rebuttal
 
 ---
 
+## What this repo does NOT do
+
+- It will not write a submission-ready manuscript for you
+- It does not simulate reviewer preferences
+- It does not catalog 《中国农村经济》's historical rejection rate, impact factor, or other metadata
+- It does not judge whether your "theoretical contribution" is genuinely original — that is the researcher's own call
+
+---
+
 ## Related
 
 - [awesome-journal-skills](https://github.com/brycewang-stanford/awesome-journal-skills) — Index of journal-specific skill packs
