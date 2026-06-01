@@ -1,0 +1,36 @@
+# 《中国工业经济》官方来源核查表（official source map）
+
+> 期刊：《中国工业经济》（China Industrial Economics）
+> 核查日期：2026-05-31
+>
+> 说明：本表用于记录本技能包事实来源与复核路径。受当前抓取环境限制，`ciejournal.ajcass.com`
+> 官方站点与 PDF 直连返回 403；下列事实优先来自本包已联网核实的
+> `resources/journal-profile.md`，并用搜索结果确认官方入口仍存在。投稿前仍须以官网最新
+> 《投稿（修改）指南》为准。
+
+## 官方/权威来源清单
+
+| 来源 | URL | 核实内容 | 当前状态 |
+| --- | --- | --- | --- |
+| 编辑部官网 | https://ciejournal.ajcass.com/ | 期刊主页、作者投稿、栏目、联系方式 | 官方域名可检索；本次直连 403，待人工浏览器复核 |
+| 投稿（修改）指南页面 | https://ciejournal.ajcass.com/CommonBlock/SiteContentDetail?contentID=147144 | 投稿与修改格式、方法规范、审稿要求 | 官方域名可检索；本次直连 403 |
+| 投稿方式说明 | https://ciejournal.ajcass.com/CommonBlock/SiteContentDetail?contentID=10192 | 在线投稿系统启用说明、官网关系 | 官方域名可检索；本次直连 403 |
+| 投稿指南 PDF | https://ciejournal.ajcass.com/UploadFile/SiteResource/jlahlsez.pdf | 2021/2022 版投稿指南内容 | 官方文件线索；本次直连 403 |
+| CNKI 期刊导航 | https://navi.cnki.net/knavi/journals/GGYY/detail | ISSN、CN、刊期、收录信息 | 交叉核对来源，非投稿规则最终来源 |
+
+## 本包已落地事实及依据
+
+- 主管/主办、ISSN、CN、月刊、邮发代号、编辑部联系方式、投稿系统入口等基础信息已记录在
+  `resources/journal-profile.md`。
+- 投稿格式、匿名评审、数据/代码、查重、摘要、关键词、脚注、参考文献、模型与公式篇幅等规则
+  已由 `resources/journal-profile.md` 归纳，来源标注为官网投稿指南；因本次无法直连，后续修改
+  skill 正文前应重新人工复核 PDF。
+- “不收版面费、审稿费”在本包档案中标注为第三方检索摘要来源；除非官网可确认，不应升级为
+  无条件官方事实。
+
+## 待复核清单
+
+- [ ] 官网当前是否仍以 `ciejournal.ajcass.com` 为唯一投稿入口。
+- [ ] 投稿指南是否已有 2026 年新版；若有，需核对摘要、篇幅、查重、数据代码等数字是否变化。
+- [ ] 是否仍执行本包记录的双向匿名审稿、数据/代码提交与不再接受二次投稿规则。
+- [ ] 费用政策须以官网或编辑部公告为准；第三方“免费”信息不得单独作为正文事实。

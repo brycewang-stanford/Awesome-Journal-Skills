@@ -1,0 +1,33 @@
+# 《会计研究》官方来源核查表（official source map）
+
+> 期刊：《会计研究》（Accounting Research）
+> 核查日期：2026-05-31
+>
+> 说明：本表补齐官方来源地图。本包已有 `resources/journal-profile.md`，后续更新 skill 正文前应以
+> 中国会计学会官网最新《投稿指南》为准。
+
+## 官方/权威来源清单
+
+| 来源 | URL | 核实内容 | 当前状态 |
+| --- | --- | --- | --- |
+| 中国会计学会《会计研究》栏目 | https://www.asc.net.cn/News/Index.aspx?newsCode=MENU_BP_AC | 投稿指南、刊物动态、联系方式、编委会、杂志简介 | 已抓取到投稿指南正文 |
+| 投稿指南 | https://www.asc.net.cn/AccountingResearch/MagazineProfile.aspx?type=tgzn | 投稿方式、匿名审稿、作者署名、审稿周期、格式、参考文献 | 本包档案记录的主来源；需人工确认是否与栏目页同步 |
+| 期刊简介 | https://www.asc.net.cn/AccountingResearch/MagazineProfile.aspx?type=profile | 主管/主办、创刊年、学术地位 | 本包档案记录的主来源 |
+| 联系方式 | https://www.asc.net.cn/Address.aspx | 编辑部地址、电话、邮箱 | 本包档案已二次核实 |
+| 国家哲学社会科学文献中心 | https://www.ncpssd.cn/journal/details?gch=96456X | ISSN、CN、刊期、文献入口 | 基础信息交叉核对 |
+
+## 本包已落地事实及依据
+
+- `resources/journal-profile.md` 已记录主管/主办、创刊年、月刊、ISSN、CN、编辑部联系方式、投稿系统和学术地位。
+- 中国会计学会投稿指南可核实：仅线上投稿；上传文件不得出现泄露作者身份的信息；每篇署名作者
+  不得超过四位；采用双向匿名审稿；初审约两周，外审通常要求 30 天内返回；2024-03-01 起终审时
+  需提交原始数据、代码和附件，录用后通过中国会计学会官网等渠道公开。
+- 投稿指南还可核实：中文摘要 200-300 字、关键词 3-8 个、全文一般不得低于 16000 字、脚注当页
+  编号、参考文献采用著者-出版年制。
+
+## 待复核清单
+
+- [ ] 投稿指南栏目页与 `MagazineProfile.aspx?type=tgzn` 是否内容完全一致。
+- [ ] 全文字数上限、英文摘要要求、查重阈值、费用政策和 CJAS 转刊流程的最新版本。
+- [ ] 2024 年数据代码公开要求是否有 2026 年更新或例外说明。
+- [ ] 编委会与联系方式是否变动。
