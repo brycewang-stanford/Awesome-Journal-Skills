@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">AISTATS Skills</title>
+  <desc id="desc">Cover image for the AISTATS conference submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#15213b"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f6f1e8"/>
+  <path d="M150 430 L318 282 L484 356 L650 226 L816 306 L1040 176" fill="none" stroke="#2f7f8f" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="318" cy="282" r="42" fill="#cc785c"/>
+  <circle cx="650" cy="226" r="42" fill="#2f7f8f"/>
+  <circle cx="1040" cy="176" r="42" fill="#6b4f9c"/>
+  <text x="132" y="188" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="700" fill="#15213b">AISTATS</text>
+  <text x="136" y="268" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#374151">AI, statistics, and machine learning</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#15213b">OpenReview · Reproducibility · PMLR · Discussion</text>
+</svg>

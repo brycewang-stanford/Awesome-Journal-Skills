@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "aistats-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for AISTATS manuscript planning, OpenReview submission, author discussion, reproducibility, artifacts, and PMLR camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "aistats-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve AISTATS-specific skills for AI/statistics conference submission strategy, grounded in official AISTATS 2026 CFP, OpenReview group, PMLR proceedings pages, and Code of Conduct.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "aistats",
+        "openreview",
+        "author-discussion",
+        "camera-ready",
+        "reproducibility",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/aistats-submission",
+        "skills/aistats-author-response",
+        "skills/aistats-camera-ready",
+        "skills/aistats-artifact-evaluation",
+        "skills/aistats-reproducibility",
+        "skills/aistats-supplementary",
+        "skills/aistats-review-process",
+        "skills/aistats-writing-style",
+        "skills/aistats-related-work",
+        "skills/aistats-experiments",
+        "skills/aistats-workflow",
+        "skills/aistats-topic-selection"
+      ]
+    }
+  ]
+}

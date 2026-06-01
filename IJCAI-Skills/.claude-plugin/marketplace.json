@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "ijcai-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for IJCAI manuscript planning, Chairing Tool submission, two-phase review, author response, reproducibility, artifacts, and camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "ijcai-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve IJCAI-specific skills for AI conference submission strategy, grounded in official IJCAI-ECAI 2026 CFP, submissions FAQ, author response FAQ, reproducibility guidelines, author kit, important dates, peer-review principles, and conflict policy.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "ijcai",
+        "ijcai-ecai",
+        "chairingtool",
+        "author-response",
+        "camera-ready",
+        "reproducibility",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/ijcai-submission",
+        "skills/ijcai-author-response",
+        "skills/ijcai-camera-ready",
+        "skills/ijcai-artifact-evaluation",
+        "skills/ijcai-reproducibility",
+        "skills/ijcai-supplementary",
+        "skills/ijcai-review-process",
+        "skills/ijcai-writing-style",
+        "skills/ijcai-related-work",
+        "skills/ijcai-experiments",
+        "skills/ijcai-workflow",
+        "skills/ijcai-topic-selection"
+      ]
+    }
+  ]
+}

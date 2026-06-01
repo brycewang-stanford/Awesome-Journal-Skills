@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">IJCAI Skills</title>
+  <desc id="desc">Cover image for the IJCAI conference submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#101820"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f3efe3"/>
+  <path d="M134 430 C265 315 385 506 519 374 C641 254 758 342 888 210 C950 147 1017 141 1067 160" fill="none" stroke="#cc785c" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="264" cy="330" r="48" fill="#2f6f73"/>
+  <circle cx="519" cy="374" r="48" fill="#cc785c"/>
+  <circle cx="888" cy="210" r="48" fill="#324a5f"/>
+  <text x="132" y="190" font-family="Arial, Helvetica, sans-serif" font-size="88" font-weight="700" fill="#101820">IJCAI</text>
+  <text x="136" y="270" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#324a5f">AI conference submission skills</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#101820">Submission · Response · Reproducibility · Camera-ready</text>
+</svg>

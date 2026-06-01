@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">AAAI Skills</title>
+  <desc id="desc">Cover image for the AAAI conference skill pack.</desc>
+  <rect width="1200" height="630" fill="#111827"/>
+  <rect x="72" y="72" width="1056" height="486" rx="18" fill="#ffffff"/>
+  <path d="M182 438L310 182L438 438H374L348 378H270L244 438H182Z" fill="#2563eb"/>
+  <path d="M270 326H348L310 238L270 326Z" fill="#ffffff"/>
+  <circle cx="500" cy="310" r="74" fill="#f59e0b"/>
+  <circle cx="500" cy="310" r="32" fill="#ffffff"/>
+  <path d="M592 204H654V438H592V204ZM692 204H754V438H692V204Z" fill="#16a34a"/>
+  <text x="828" y="268" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="700" fill="#111827">AAAI</text>
+  <text x="832" y="340" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#334155">Artificial intelligence</text>
+  <text x="832" y="398" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#475569">Submission, review, rebuttal,</text>
+  <text x="832" y="438" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#475569">reproducibility, camera-ready</text>
+</svg>
+
