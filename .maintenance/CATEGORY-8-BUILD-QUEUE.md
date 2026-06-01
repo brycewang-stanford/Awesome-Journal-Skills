@@ -7,8 +7,8 @@ an executable build queue for complete depth packs. This file is a queue, not a 
 
 ## Current State
 
-- Complete category-8 depth packs: 3 verified pack roots: `NeurIPS-Skills`, `ICML-Skills`,
-  `ICLR-Skills`.
+- Complete category-8 depth packs: 6 verified pack roots: `NeurIPS-Skills`, `ICML-Skills`,
+  `ICLR-Skills`, `AAAI-Skills`, `IJCAI-Skills`, `AISTATS-Skills`.
 - Existing category-8 breadth seeds:
   - 155 conference profiles in `Computer-Science-Conference-Skills`.
   - 3 journal profiles in `English-NaturalScience-Journal-Skills`: `nature-machine-intelligence`,
@@ -48,9 +48,9 @@ value plus existing breadth seeds.
 | 1 | NeurIPS | conference | `neural-information-processing-systems`; depth pack `NeurIPS-Skills` complete |
 | 2 | ICML | conference | `international-conference-on-machine-learning`; depth pack `ICML-Skills` complete |
 | 3 | ICLR | conference | `international-conference-on-learning-representations`; depth pack `ICLR-Skills` complete |
-| 4 | AAAI | conference | `aaai-conference-on-artificial-intelligence` |
-| 5 | IJCAI | conference | `international-joint-conference-on-artificial-intelligence` |
-| 6 | AISTATS | conference | `artificial-intelligence-and-statistics` |
+| 4 | AAAI | conference | `aaai-conference-on-artificial-intelligence`; depth pack `AAAI-Skills` complete |
+| 5 | IJCAI | conference | `international-joint-conference-on-artificial-intelligence`; depth pack `IJCAI-Skills` complete |
+| 6 | AISTATS | conference | `artificial-intelligence-and-statistics`; depth pack `AISTATS-Skills` complete |
 | 7 | UAI | conference | `uncertainty-in-artificial-intelligence` |
 | 8 | COLT | conference | `conference-on-learning-theory` |
 | 9 | MLSys | conference | `conference-on-machine-learning-and-systems` |

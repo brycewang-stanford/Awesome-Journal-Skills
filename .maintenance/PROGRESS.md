@@ -382,7 +382,171 @@ Verdict: **no hidden clones** in the Chinese packs — they are genuinely differ
   full-repo clone-audit report only lists known sub-0.90 breadth-bundle pairs in
   `Computer-Science-Conference-Skills`; source-map/root-entry reports remain advisory.
 
+## Wave 29 — fourth category-8 depth pack: AAAI + W1 count reconciliation (Codex)
+- Added `AAAI-Skills/`, the fourth complete category-8 conference depth pack from Wave 25-A. It
+  contains 12 CS/AI lifecycle skills: submission, author-response, camera-ready,
+  artifact-evaluation, reproducibility, supplementary, review-process, writing-style, related-work,
+  experiments, workflow, and topic-selection.
+- Grounded the pack in official AAAI-26 sources checked on 2026-06-01: conference page, Main
+  Technical Track CFP, submission instructions, review process, supplementary-material rules,
+  author policies, rebuttal FAQ, paper-publication/attendance rules, and the AI-assisted review
+  pilot FAQ.
+- Added plugin/marketplace metadata, bilingual READMEs, MIT license, cover SVG, external-tools
+  notes, and `resources/official-source-map.md`.
+- Coordinated with the parallel W1 economics workflow already present in the worktree: registered
+  the 6 new 12-skill field-economics packs in README tables and count methodology without editing
+  their skill bodies.
+- Updated hard counts and documentation from **1036 skills / 48 packs** to
+  **1120 skills / 55 packs** in `tools/audit_repo.py`, `README.md`, and `README.zh-CN.md`.
+- Updated `.maintenance/ASSET-INVENTORY.md`, `.maintenance/CATEGORY-8-BUILD-QUEUE.md`,
+  `.maintenance/JOURNAL-MASTER-LIST.md`, and `.maintenance/CLAIMS.md` so AAAI and the 6 W1
+  economics packs are marked as reusable depth assets. The next category-8 Wave 25-A targets are
+  IJCAI / AISTATS / UAI / COLT.
+- Verified locally: `python3 tools/audit_repo.py` passes with 1120 canonical skills, 55 curated
+  packs, and 200 root journal entries; `python3 tools/clone_audit.py --bundle AAAI-Skills
+  --threshold 0.70 --fail-threshold 0.90 --top 20` reports no pairs above 0.70; `python3
+  tools/run_checks.py --skip-reports` and full `python3 tools/run_checks.py` pass. Full reports
+  still show known sub-0.90 breadth-bundle similarity pairs and advisory source-map/root-entry
+  warnings only.
+
+## Wave 30 — W2 management / OM / marketing / IS / accounting shell completion (Codex)
+- Found 18 W2 plugin shells already present in the shared worktree with plugin metadata but
+  incomplete or missing `skills/*/SKILL.md` / README/source-map files: Management Science,
+  Operations Research, M&SOM, POM, JOM, JM, JMR, Marketing Science, JCR, MISQ, ISR, TAR, JAR,
+  JAE, CAR, Organization Science, JIBS, and JBV.
+- Completed each as a 12-skill depth pack with bilingual READMEs, declared marketplace skills,
+  source-map links, and venue-specific workflow/topic/theory/literature/methods/data/contribution/
+  tables/style/submission/review/rebuttal coverage.
+- Used official-source maps and live source checks on 2026-06-01 for POMS/SAGE POM, INFORMS
+  Management Science/OR/M&SOM/Marketing Science/ISR, AMA JM/JMR, JCR/OUP, MISQ, and AAA TAR
+  requirements; volatile facts remain marked for live re-check in the packs.
+- Updated hard counts from **1120 skills / 55 packs** to **1336 skills / 73 packs** in
+  `tools/audit_repo.py`, `README.md`, and `README.zh-CN.md`; updated maintenance inventory,
+  claims, master list, and expansion plan so the 18 W2 packs are marked `[A-depth]`.
+- Verified locally: `python3 tools/audit_repo.py` passes with 1336 canonical skills, 73 curated
+  packs, and 200 root journal entries; `python3 tools/run_checks.py --skip-reports` and full
+  `python3 tools/run_checks.py` pass. Clone audit still reports only known sub-0.90
+  `Computer-Science-Conference-Skills` breadth-bundle pairs; source-map/root-entry report warnings
+  remain advisory.
+
+## Wave 31 — fifth category-8 depth pack: IJCAI (Codex)
+- Added `IJCAI-Skills/`, the fifth complete category-8 conference depth pack from Wave 25-A. It
+  contains 12 CS/AI lifecycle skills: submission, author-response, camera-ready,
+  artifact-evaluation, reproducibility, supplementary, review-process, writing-style, related-work,
+  experiments, workflow, and topic-selection.
+- Grounded the pack in official IJCAI-ECAI 2026 sources checked on 2026-06-01: Main Track CFP,
+  Submissions FAQ, Author's Response FAQ, Reproducibility page, Author Kit, Important Dates,
+  Peer Review Principles, and IJCAI Conflict of Interest Policy.
+- Added plugin/marketplace metadata, bilingual READMEs, MIT license, cover SVG, external-tools
+  notes, and `resources/official-source-map.md`.
+- Updated hard counts from **1336 skills / 73 packs** to **1348 skills / 74 packs** in
+  `tools/audit_repo.py`, `README.md`, and `README.zh-CN.md`; updated maintenance inventory,
+  claims, master list, expansion plan, and category-8 queue so IJCAI is marked `[A-depth]`.
+- Verified locally: `python3 tools/audit_repo.py` passes with 1348 canonical skills, 74 curated
+  packs, and 200 root journal entries; `python3 tools/clone_audit.py --bundle IJCAI-Skills
+  --threshold 0.70 --fail-threshold 0.90 --top 20` reports no pairs above 0.70; `python3
+  tools/run_checks.py --skip-reports` and full `python3 tools/run_checks.py` pass. Full reports
+  still show known sub-0.90 `Computer-Science-Conference-Skills` breadth-bundle pairs and advisory
+  source-map/root-entry warnings only.
+- Next category-8 Wave 25-A targets are AISTATS / UAI / COLT / MLSys.
+
+## Wave 32 — sixth category-8 depth pack: AISTATS (Codex)
+- Added `AISTATS-Skills/`, the sixth complete category-8 conference depth pack from Wave 25-A. It
+  contains 12 CS/AI lifecycle skills: submission, author-response, camera-ready,
+  artifact-evaluation, reproducibility, supplementary, review-process, writing-style, related-work,
+  experiments, workflow, and topic-selection.
+- Grounded the pack in official AISTATS 2026 sources checked on 2026-06-01: Call for Papers,
+  OpenReview conference group, PMLR proceedings pages, AISTATS Code of Conduct, and the official
+  AISTATS 2026 conference entry point.
+- Added plugin/marketplace metadata, bilingual READMEs, MIT license, cover SVG, external-tools
+  notes, and `resources/official-source-map.md`.
+- Updated hard counts from **1348 skills / 74 packs** to **1360 skills / 75 packs** in
+  `tools/audit_repo.py`, `README.md`, and `README.zh-CN.md`; updated maintenance inventory,
+  claims, master list, expansion plan, and category-8 queue so AISTATS is marked `[A-depth]`.
+- Verified in the later Wave 34 full check: repository audit and full `tools/run_checks.py` pass;
+  the AISTATS bundle clone audit also showed no pairs >=0.70 during construction.
+- Next category-8 Wave 25-A targets are UAI / COLT / MLSys / KDD.
+
+## Wave 33 — concurrent econometrics / finance shell completion and count reconciliation (Codex)
+- During AISTATS verification, detected concurrent plugin shells in the shared worktree. Some were
+  complete except for README files; others had marketplace declarations that exceeded actual
+  `skills/*/SKILL.md` files. Rather than reverting another agent's work, completed the shells.
+- Completed or repaired 11 English category-1 depth packs into 12-skill, source-map-backed packs:
+  The Econometrics Journal, Econometric Theory, Journal of Econometrics, Quantitative Economics,
+  Review of Economic Dynamics, Review of Finance, Journal of Applied Econometrics, Journal of
+  Business & Economic Statistics, Journal of Financial Intermediation, Journal of Financial and
+  Quantitative Analysis, and Journal of Corporate Finance.
+- Added missing README / README.zh-CN files, missing source-map or external-tools files where
+  necessary, and missing declared skills for partial packs. Existing source maps were preserved and
+  used as the source of venue facts; JBES received a new Taylor & Francis / ASA source map.
+- Updated hard counts from **1360 skills / 75 packs** to **1492 skills / 86 packs** in
+  `tools/audit_repo.py`, `README.md`, and `README.zh-CN.md`; updated maintenance inventory, claims,
+  expansion plan, and master list so the 11 packs are marked `[A-depth]`.
+- Verified in the later Wave 34 full check: repository audit and full `tools/run_checks.py` pass
+  after the additional concurrent shells were completed and the hard counts were reconciled.
+
+## Wave 34 — additional concurrent finance / theory / applied-micro shell completion (Codex)
+- During Wave 33 verification, detected six more concurrent plugin shells in the shared worktree:
+  `Journal-of-Banking-and-Finance-Skills`, `Mathematical-Finance-Skills`,
+  `Games-and-Economic-Behavior-Skills`, `Journal-of-Economic-Growth-Skills`,
+  `Journal-of-Economic-Theory-Skills`, and `Journal-of-Human-Resources-Skills`.
+- Completed each to a 12-skill, source-map-backed depth pack while preserving existing source maps,
+  manifests, and skill bodies written by the parallel agent. Added missing bilingual READMEs and
+  small submission templates where marketplace links required them.
+- Updated hard counts from **1492 skills / 86 packs** to **1564 skills / 92 packs** in
+  `tools/audit_repo.py`, `README.md`, and `README.zh-CN.md`; updated maintenance inventory,
+  claims, expansion plan, and master list so the six packs are marked `[A-depth]`.
+- Verified locally: `python3 tools/audit_repo.py` passes with 1564 canonical skills, 92 curated
+  packs, and 200 root entries; targeted clone audits for the six repaired shells show no pairs
+  >=0.70; full `python3 tools/run_checks.py` passes. Remaining clone/source-map/root-entry output is
+  advisory only and below hard failure thresholds.
+
 ## Completed
 | Pack | Words before→after | Key venue facts added | Notes |
 |------|--------|----------|-------|
 | — | — | — | — |
+
+## Wave C1 — Category 2 English Social Sciences depth packs (Agent C)
+
+New lane (claimed in CLAIMS.md): category-2 English social-science flagships — disjoint from the
+active agent's category-1/8 lanes and Agent B's natural-science/medicine turf, so zero file overlap.
+Isolation rule (same as W1/W2): Agent C only creates files under its own new `<Journal>-Skills/`
+dirs; it does NOT touch root README, root cards, `tools/audit_repo.py` counts, or other packs'
+manifests. Count/README registration is left to the audit owner (Codex) to reconcile, exactly like
+the uncommitted W1/W2 packs are reconciled now. (`tools/audit_repo.py` will report a higher
+canonical/pack count until the owner reconciles — expected during concurrent work.)
+
+Built 3 complete, official-source-backed depth packs (12 skills each = 36 SKILL.md), each tuned to
+its discipline rather than cloned from a master template:
+
+- **American-Political-Science-Review-Skills** (`apsr-`) — APSA/Cambridge, Editorial Manager,
+  double-anonymous, no fee, 5 tracks (Regular Article < 11,000w / Research Note < 7,000w /
+  Replications & Reappraisals / Syntheses / Registered Reports), 150-word abstract, APSA Style Manual,
+  ORCID-since-2019, APSR Dataverse reproducibility package verified at conditional acceptance. Skills:
+  workflow, topic-selection, literature-positioning, theory-building, research-design, data-analysis,
+  tables-figures, writing-style, transparency-and-data-policy, review-process, submission, rebuttal.
+- **American-Sociological-Review-Skills** (`asr-`) — ASA/SAGE, Sage Track (ScholarOne), masked review
+  (self-citation allowed, separate title page), Articles ≤ 15,000w incl. refs+footnotes / Comments &
+  Replies ≤ 3,000w, abstract 150-200w, $25 processing fee (ASA-student waiver), TNR 12pt double-spaced,
+  ASA Style Guide, ASA data-sharing norm (NOT a verified deposit — flagged honestly). UMass-Amherst
+  editors 2024-2028. Skills mirror the lifecycle with `asr-data-and-transparency` replacing the
+  APSR transparency skill to reflect the softer norm.
+- **Psychological-Science-Skills** (`psci-`) — APS/SAGE, Manuscript Central (/psci), anonymized review,
+  distinctive short-report format (Intro+Discussion+footnotes+acks+appendices ≤ 2,000w combined;
+  Method+Results excluded, ≤ ~2,500w; 150-word structured abstract stating sample sizes/populations/
+  limitations; ~40 refs), APA 7th + embedded exhibits, and the post-2024 open-science regime (required
+  open data+materials with case-by-case exemptions, a graded Research Transparency Statement between
+  Intro and Methods, DOIs, preregistration weighed). Skills include `psci-theory-and-hypotheses`,
+  `psci-study-design`, and `psci-open-science-and-transparency`.
+
+Verification (all local, read-only):
+- Structure: each pack 12/12 SKILL.md; marketplace manifest == actual dirs; plugin.json + marketplace.json valid JSON.
+- Frontmatter: all 36 SKILL.md carry `name:` + `description:`.
+- Local links: no broken relative links in any SKILL.md or README.
+- Source maps: each pack has `resources/official-source-map.md` with official URLs + access date 2026-06-01 + honest `待核实` markers (SAGE author pages 403 to automated fetch; APS pages were directly fetchable).
+- **Clone audit (the key gate): none of the 3 new packs reaches even 0.40 char-shingle Jaccard with
+  ANY other first-party skill, including each other** — despite shared lifecycle role names. Far below
+  the 0.75 review threshold and 0.90 fail threshold. No find-replace cloning.
+
+Status: 3/6 targeted cat-2 flagships complete + verified (uncommitted, 待验收). Remaining targets:
+American-Journal-of-Political-Science, American-Journal-of-Sociology, Journal-of-Personality-and-Social-Psychology.

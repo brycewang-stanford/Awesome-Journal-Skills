@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/agent-Claude%20Code-cc785c)](https://github.com/anthropics/claude-code)
-[![Skills](https://img.shields.io/badge/skills-1036-cc785c)](#the-skill-packs)
+[![Skills](https://img.shields.io/badge/skills-1600-cc785c)](#the-skill-packs)
 [![Maintained by CoPaper.AI from Stanford REAP](https://img.shields.io/badge/Maintained%20by-CoPaper.AI%20from%20Stanford%20REAP-blue)](https://copaper.ai)
 [![Powered by StatsPAI](https://img.shields.io/badge/Powered%20by-StatsPAI-orange)](https://github.com/brycewang-stanford/StatsPAI)
 
@@ -25,12 +25,12 @@ English | [简体中文](README.zh-CN.md)
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Skills-1036-cc785c?style=for-the-badge" alt="1036 agent skills">
+  <img src="https://img.shields.io/badge/Skills-1600-cc785c?style=for-the-badge" alt="1600 agent skills">
   &nbsp;
-  <img src="https://img.shields.io/badge/Skill_Packs-48-2b3137?style=for-the-badge" alt="48 skill packs">
+  <img src="https://img.shields.io/badge/Skill_Packs-95-2b3137?style=for-the-badge" alt="95 skill packs">
 </p>
 <p align="center">
-  <sub><b>1036 agent skills</b> across <b>48 curated packs</b> — one index.</sub>
+  <sub><b>1600 agent skills</b> across <b>95 curated packs</b> — one index.</sub>
 </p>
 
 <p align="center">
@@ -98,7 +98,7 @@ English | [简体中文](README.zh-CN.md)
   <sub>Other disciplines · <b>Nature</b> &nbsp;<sup>cover illustration © <a href="https://inna-marie.com/2019/08/08/cover-art-nature-journal/">Inna-Marie Strazhnik (2019)</a></sup></sub>
 </p>
 
-A curated index of **journal- and conference-specific agent skill packs** for manuscript work — selecting topics, framing the advance, identifying causal effects, formatting tables and figures, preparing replication / data-availability packages, and responding to reviewers. Coverage spans **top social-science journals (Chinese + English)**, **top natural-science and clinical journals (Science, Cell, PNAS, NEJM, The Lancet)**, an AI-first **computer-science conference breadth bundle** covering NeurIPS / ICML / ICLR / AAAI / IJCAI and 150 more CS venues, and CS/AI conference **depth packs** for NeurIPS, ICML, and ICLR.
+A curated index of **journal- and conference-specific agent skill packs** for manuscript work — selecting topics, framing the advance, identifying causal effects, formatting tables and figures, preparing replication / data-availability packages, and responding to reviewers. Coverage spans **top social-science journals (Chinese + English)**, **top natural-science and clinical journals (Science, Cell, PNAS, NEJM, The Lancet)**, an AI-first **computer-science conference breadth bundle** covering NeurIPS / ICML / ICLR / AAAI / IJCAI and 150 more CS venues, and CS/AI conference **depth packs** for NeurIPS, ICML, ICLR, AAAI, IJCAI, and AISTATS.
 
 Each pack is **journal-specific by design**: it encodes the editorial preferences, formatting conventions, identification standards, and review culture of a single target venue. Generic "scientific writing" skill packs miss these constraints.
 
@@ -119,7 +119,7 @@ Rule of thumb: start from a root folder or cover card when browsing, use a bread
 
 ## 200 Root Journal Folders
 
-For visual browsing at the repository root, the 200 social-science breadth journals now also have one lightweight folder each: 100 Chinese roadmap journals in pinyin folder names, and 100 English econ / finance / management / business journals in title-style folder names. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the 1036-skill count stay stable.
+For visual browsing at the repository root, the 200 social-science breadth journals now also have one lightweight folder each: 100 Chinese roadmap journals in pinyin folder names, and 100 English econ / finance / management / business journals in title-style folder names. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the 1600-skill count stay stable.
 
 ### Chinese Roadmap Journals · 100 Pinyin Folders
 
@@ -214,6 +214,9 @@ A one-size-fits-all "economics writing" skill cannot encode these differences. E
 | **NeurIPS** Conference on Neural Information Processing Systems | [NeurIPS-Skills/](NeurIPS-Skills/) | Main-track submission, OpenReview author response, camera-ready, artifacts, reproducibility, supplementary material, review process, writing style, related work, experiments, workflow, and topic selection | 12 |
 | **ICML** International Conference on Machine Learning | [ICML-Skills/](ICML-Skills/) | Main-track submission, OpenReview rebuttal, PMLR camera-ready, artifacts, reproducibility, supplementary material, review process, writing style, related work, experiments, workflow, and topic selection | 12 |
 | **ICLR** International Conference on Learning Representations | [ICLR-Skills/](ICLR-Skills/) | OpenReview submission, author discussion, camera-ready, artifacts, reproducibility, supplementary material, review process, writing style, related work, experiments, workflow, and topic selection | 12 |
+| **AAAI** AAAI Conference on Artificial Intelligence | [AAAI-Skills/](AAAI-Skills/) | Main technical track submission, two-phase review, rebuttal, AI-assisted review handling, camera-ready, artifacts, reproducibility, supplementary material, writing style, experiments, workflow, and topic selection | 12 |
+| **IJCAI** International Joint Conference on Artificial Intelligence | [IJCAI-Skills/](IJCAI-Skills/) | Chairing Tool submission, two-phase review, one-page author response, camera-ready, artifacts, reproducibility, supplementary material, related work, experiments, workflow, and topic selection | 12 |
+| **AISTATS** International Conference on Artificial Intelligence and Statistics | [AISTATS-Skills/](AISTATS-Skills/) | OpenReview submission, text-only author-reviewer discussion, PMLR camera-ready, artifacts, reproducibility checklist, supplementary material, statistical writing, experiments, workflow, and topic selection | 12 |
 
 This bundle puts AI conferences first: NeurIPS, ICML, ICLR, AAAI, IJCAI, AISTATS, UAI, COLT, MLSys, KDD, CVPR, ACL, EMNLP, SIGIR, ICRA, CHI, SOSP, IEEE S&P, ICSE, PLDI, SIGMOD, STOC, and 130+ more. Each profile is a conference-fit and current-cycle submission checklist; volatile facts such as deadlines, page limits, templates, AI-use policies, artifact rules, rebuttal formats, and camera-ready requirements must be re-checked on the live official CFP or author kit before submission.
 
@@ -361,13 +364,54 @@ This bundle puts AI conferences first: NeurIPS, ICML, ICLR, AAAI, IJCAI, AISTATS
 | <a href="Journal-of-Political-Economy-Skills/"><img src="assets/covers/journal-of-political-economy.png" alt="Journal of Political Economy" width="56"></a> | **Journal of Political Economy** (JPE) | [Journal-of-Political-Economy-Skills/](Journal-of-Political-Economy-Skills/) | Economics (top-5) | 12 |
 | <a href="Econometrica-Skills/"><img src="assets/covers/econometrica.png" alt="Econometrica" width="56"></a> | **Econometrica** | [Econometrica-Skills/](Econometrica-Skills/) | Econometric & economic theory (top-5) | 12 |
 | <a href="Review-of-Economic-Studies-Skills/"><img src="assets/covers/review-of-economic-studies.png" alt="The Review of Economic Studies" width="56"></a> | **The Review of Economic Studies** (REStud) | [Review-of-Economic-Studies-Skills/](Review-of-Economic-Studies-Skills/) | Economics (top-5) | 12 |
+| <a href="Journal-of-Development-Economics-Skills/"><img src="assets/covers/journal-of-development-economics.png" alt="Journal of Development Economics" width="56"></a> | **Journal of Development Economics** (JDE) | [Journal-of-Development-Economics-Skills/](Journal-of-Development-Economics-Skills/) | Development economics | 12 |
+| <a href="Journal-of-Public-Economics-Skills/"><img src="assets/covers/journal-of-public-economics.png" alt="Journal of Public Economics" width="56"></a> | **Journal of Public Economics** (JPubE) | [Journal-of-Public-Economics-Skills/](Journal-of-Public-Economics-Skills/) | Public economics | 12 |
+| <a href="Journal-of-Labor-Economics-Skills/"><img src="assets/covers/journal-of-labor-economics.png" alt="Journal of Labor Economics" width="56"></a> | **Journal of Labor Economics** (JOLE) | [Journal-of-Labor-Economics-Skills/](Journal-of-Labor-Economics-Skills/) | Labor economics | 12 |
+| <a href="Journal-of-International-Economics-Skills/"><img src="assets/covers/journal-of-international-economics.png" alt="Journal of International Economics" width="56"></a> | **Journal of International Economics** (JIE) | [Journal-of-International-Economics-Skills/](Journal-of-International-Economics-Skills/) | International economics | 12 |
+| <a href="Journal-of-Monetary-Economics-Skills/"><img src="assets/covers/journal-of-monetary-economics.png" alt="Journal of Monetary Economics" width="56"></a> | **Journal of Monetary Economics** (JME) | [Journal-of-Monetary-Economics-Skills/](Journal-of-Monetary-Economics-Skills/) | Monetary economics and macroeconomics | 12 |
+| <a href="RAND-Journal-of-Economics-Skills/"><img src="assets/covers/rand-journal-of-economics.png" alt="RAND Journal of Economics" width="56"></a> | **RAND Journal of Economics** (RJE) | [RAND-Journal-of-Economics-Skills/](RAND-Journal-of-Economics-Skills/) | Industrial organization | 12 |
+| <a href="Journal-of-Econometrics-Skills/"><img src="assets/covers/journal-of-econometrics.png" alt="Journal of Econometrics" width="56"></a> | **Journal of Econometrics** (JoE) | [Journal-of-Econometrics-Skills/](Journal-of-Econometrics-Skills/) | Econometric methodology | 12 |
+| <a href="Econometric-Theory-Skills/"><img src="assets/covers/econometric-theory.png" alt="Econometric Theory" width="56"></a> | **Econometric Theory** (ET) | [Econometric-Theory-Skills/](Econometric-Theory-Skills/) | Econometric theory | 12 |
+| <a href="Quantitative-Economics-Skills/"><img src="assets/covers/quantitative-economics.png" alt="Quantitative Economics" width="56"></a> | **Quantitative Economics** (QE) | [Quantitative-Economics-Skills/](Quantitative-Economics-Skills/) | Quantitative economics | 12 |
+| <a href="Journal-of-Applied-Econometrics-Skills/"><img src="assets/covers/journal-of-applied-econometrics.png" alt="Journal of Applied Econometrics" width="56"></a> | **Journal of Applied Econometrics** (JAE) | [Journal-of-Applied-Econometrics-Skills/](Journal-of-Applied-Econometrics-Skills/) | Applied econometrics | 12 |
+| <a href="Journal-of-Business-and-Economic-Statistics-Skills/"><img src="assets/covers/journal-of-business-and-economic-statistics.png" alt="Journal of Business & Economic Statistics" width="56"></a> | **Journal of Business & Economic Statistics** (JBES) | [Journal-of-Business-and-Economic-Statistics-Skills/](Journal-of-Business-and-Economic-Statistics-Skills/) | Business and economic statistics | 12 |
+| <a href="The-Econometrics-Journal-Skills/"><img src="assets/covers/the-econometrics-journal.png" alt="The Econometrics Journal" width="56"></a> | **The Econometrics Journal** (EctJ) | [The-Econometrics-Journal-Skills/](The-Econometrics-Journal-Skills/) | Econometrics (RES/OUP) | 12 |
+| <a href="Review-of-Economic-Dynamics-Skills/"><img src="assets/covers/review-of-economic-dynamics.png" alt="Review of Economic Dynamics" width="56"></a> | **Review of Economic Dynamics** (RED) | [Review-of-Economic-Dynamics-Skills/](Review-of-Economic-Dynamics-Skills/) | Dynamic economics | 12 |
+| <a href="Journal-of-Economic-Growth-Skills/"><img src="assets/covers/journal-of-economic-growth.png" alt="Journal of Economic Growth" width="56"></a> | **Journal of Economic Growth** (JEG) | [Journal-of-Economic-Growth-Skills/](Journal-of-Economic-Growth-Skills/) | Growth and dynamic macroeconomics | 12 |
+| <a href="Journal-of-Economic-Theory-Skills/"><img src="assets/covers/journal-of-economic-theory.png" alt="Journal of Economic Theory" width="56"></a> | **Journal of Economic Theory** (JET) | [Journal-of-Economic-Theory-Skills/](Journal-of-Economic-Theory-Skills/) | Economic theory | 12 |
+| <a href="Games-and-Economic-Behavior-Skills/"><img src="assets/covers/games-and-economic-behavior.png" alt="Games and Economic Behavior" width="56"></a> | **Games and Economic Behavior** (GEB) | [Games-and-Economic-Behavior-Skills/](Games-and-Economic-Behavior-Skills/) | Game theory | 12 |
+| <a href="Journal-of-Human-Resources-Skills/"><img src="assets/covers/journal-of-human-resources.png" alt="Journal of Human Resources" width="56"></a> | **Journal of Human Resources** (JHR) | [Journal-of-Human-Resources-Skills/](Journal-of-Human-Resources-Skills/) | Empirical microeconomics | 12 |
 | <a href="Journal-of-Finance-Skills/"><img src="assets/covers/journal-of-finance.png" alt="The Journal of Finance" width="56"></a> | **The Journal of Finance** (JF) | [Journal-of-Finance-Skills/](Journal-of-Finance-Skills/) | Finance (top-3) | 12 |
 | <a href="Journal-of-Financial-Economics-Skills/"><img src="assets/covers/journal-of-financial-economics.png" alt="Journal of Financial Economics" width="56"></a> | **Journal of Financial Economics** (JFE) | [Journal-of-Financial-Economics-Skills/](Journal-of-Financial-Economics-Skills/) | Finance (top-3) | 12 |
 | <a href="Review-of-Financial-Studies-Skills/"><img src="assets/covers/review-of-financial-studies.png" alt="The Review of Financial Studies" width="56"></a> | **The Review of Financial Studies** (RFS) | [Review-of-Financial-Studies-Skills/](Review-of-Financial-Studies-Skills/) | Finance (top-3) | 12 |
+| <a href="Review-of-Finance-Skills/"><img src="assets/covers/review-of-finance.png" alt="Review of Finance" width="56"></a> | **Review of Finance** (RoF) | [Review-of-Finance-Skills/](Review-of-Finance-Skills/) | Finance | 12 |
+| <a href="Journal-of-Financial-and-Quantitative-Analysis-Skills/"><img src="assets/covers/journal-of-financial-and-quantitative-analysis.png" alt="Journal of Financial and Quantitative Analysis" width="56"></a> | **Journal of Financial and Quantitative Analysis** (JFQA) | [Journal-of-Financial-and-Quantitative-Analysis-Skills/](Journal-of-Financial-and-Quantitative-Analysis-Skills/) | Quantitative finance | 12 |
+| <a href="Journal-of-Financial-Intermediation-Skills/"><img src="assets/covers/journal-of-financial-intermediation.png" alt="Journal of Financial Intermediation" width="56"></a> | **Journal of Financial Intermediation** (JFI) | [Journal-of-Financial-Intermediation-Skills/](Journal-of-Financial-Intermediation-Skills/) | Banking and intermediation | 12 |
+| <a href="Journal-of-Corporate-Finance-Skills/"><img src="assets/covers/journal-of-corporate-finance.png" alt="Journal of Corporate Finance" width="56"></a> | **Journal of Corporate Finance** (JCF) | [Journal-of-Corporate-Finance-Skills/](Journal-of-Corporate-Finance-Skills/) | Corporate finance | 12 |
+| <a href="Journal-of-Banking-and-Finance-Skills/"><img src="assets/covers/journal-of-banking-and-finance.png" alt="Journal of Banking and Finance" width="56"></a> | **Journal of Banking & Finance** (JBF) | [Journal-of-Banking-and-Finance-Skills/](Journal-of-Banking-and-Finance-Skills/) | Banking and finance | 12 |
+| <a href="Mathematical-Finance-Skills/"><img src="assets/covers/mathematical-finance.png" alt="Mathematical Finance" width="56"></a> | **Mathematical Finance** | [Mathematical-Finance-Skills/](Mathematical-Finance-Skills/) | Financial mathematics | 12 |
 | <a href="Academy-of-Management-Journal-Skills/"><img src="assets/covers/academy-of-management-journal.png" alt="Academy of Management Journal" width="56"></a> | **Academy of Management Journal** (AMJ) | [Academy-of-Management-Journal-Skills/](Academy-of-Management-Journal-Skills/) | Management (empirical) | 12 |
 | <a href="Academy-of-Management-Review-Skills/"><img src="assets/covers/academy-of-management-review.png" alt="Academy of Management Review" width="56"></a> | **Academy of Management Review** (AMR) | [Academy-of-Management-Review-Skills/](Academy-of-Management-Review-Skills/) | Management theory | 12 |
 | <a href="Administrative-Science-Quarterly-Skills/"><img src="assets/covers/administrative-science-quarterly.png" alt="Administrative Science Quarterly" width="56"></a> | **Administrative Science Quarterly** (ASQ) | [Administrative-Science-Quarterly-Skills/](Administrative-Science-Quarterly-Skills/) | Organization theory | 12 |
 | <a href="Strategic-Management-Journal-Skills/"><img src="assets/covers/strategic-management-journal.png" alt="Strategic Management Journal" width="56"></a> | **Strategic Management Journal** (SMJ) | [Strategic-Management-Journal-Skills/](Strategic-Management-Journal-Skills/) | Strategy | 12 |
+| <a href="Management-Science-Skills/"><img src="assets/covers/management-science.png" alt="Management Science" width="56"></a> | **Management Science** | [Management-Science-Skills/](Management-Science-Skills/) | Management science / INFORMS | 12 |
+| <a href="Operations-Research-Skills/"><img src="assets/covers/operations-research.png" alt="Operations Research" width="56"></a> | **Operations Research** (OR) | [Operations-Research-Skills/](Operations-Research-Skills/) | Operations research | 12 |
+| <a href="Manufacturing-and-Service-Operations-Management-Skills/"><img src="assets/covers/manufacturing-and-service-operations-management.png" alt="Manufacturing & Service Operations Management" width="56"></a> | **Manufacturing & Service Operations Management** (M&SOM) | [Manufacturing-and-Service-Operations-Management-Skills/](Manufacturing-and-Service-Operations-Management-Skills/) | Operations management | 12 |
+| <a href="Journal-of-Operations-Management-Skills/"><img src="assets/covers/journal-of-operations-management.png" alt="Journal of Operations Management" width="56"></a> | **Journal of Operations Management** (JOM) | [Journal-of-Operations-Management-Skills/](Journal-of-Operations-Management-Skills/) | Empirical operations management | 12 |
+| <a href="Production-and-Operations-Management-Skills/"><img src="assets/covers/production-and-operations-management.png" alt="Production and Operations Management" width="56"></a> | **Production and Operations Management** (POM) | [Production-and-Operations-Management-Skills/](Production-and-Operations-Management-Skills/) | Operations management | 12 |
+| <a href="Journal-of-Marketing-Skills/"><img src="assets/covers/journal-of-marketing.png" alt="Journal of Marketing" width="56"></a> | **Journal of Marketing** (JM) | [Journal-of-Marketing-Skills/](Journal-of-Marketing-Skills/) | Marketing | 12 |
+| <a href="Journal-of-Marketing-Research-Skills/"><img src="assets/covers/journal-of-marketing-research.png" alt="Journal of Marketing Research" width="56"></a> | **Journal of Marketing Research** (JMR) | [Journal-of-Marketing-Research-Skills/](Journal-of-Marketing-Research-Skills/) | Marketing research | 12 |
+| <a href="Marketing-Science-Skills/"><img src="assets/covers/marketing-science.png" alt="Marketing Science" width="56"></a> | **Marketing Science** | [Marketing-Science-Skills/](Marketing-Science-Skills/) | Quantitative marketing | 12 |
+| <a href="Journal-of-Consumer-Research-Skills/"><img src="assets/covers/journal-of-consumer-research.png" alt="Journal of Consumer Research" width="56"></a> | **Journal of Consumer Research** (JCR) | [Journal-of-Consumer-Research-Skills/](Journal-of-Consumer-Research-Skills/) | Consumer research | 12 |
+| <a href="MIS-Quarterly-Skills/"><img src="assets/covers/mis-quarterly.png" alt="MIS Quarterly" width="56"></a> | **MIS Quarterly** (MISQ) | [MIS-Quarterly-Skills/](MIS-Quarterly-Skills/) | Information systems | 12 |
+| <a href="Information-Systems-Research-Skills/"><img src="assets/covers/information-systems-research.png" alt="Information Systems Research" width="56"></a> | **Information Systems Research** (ISR) | [Information-Systems-Research-Skills/](Information-Systems-Research-Skills/) | Information systems | 12 |
+| <a href="The-Accounting-Review-Skills/"><img src="assets/covers/the-accounting-review.png" alt="The Accounting Review" width="56"></a> | **The Accounting Review** (TAR) | [The-Accounting-Review-Skills/](The-Accounting-Review-Skills/) | Accounting | 12 |
+| <a href="Journal-of-Accounting-Research-Skills/"><img src="assets/covers/journal-of-accounting-research.png" alt="Journal of Accounting Research" width="56"></a> | **Journal of Accounting Research** (JAR) | [Journal-of-Accounting-Research-Skills/](Journal-of-Accounting-Research-Skills/) | Accounting | 12 |
+| <a href="Journal-of-Accounting-and-Economics-Skills/"><img src="assets/covers/journal-of-accounting-and-economics.png" alt="Journal of Accounting and Economics" width="56"></a> | **Journal of Accounting and Economics** (JAE) | [Journal-of-Accounting-and-Economics-Skills/](Journal-of-Accounting-and-Economics-Skills/) | Accounting | 12 |
+| <a href="Contemporary-Accounting-Research-Skills/"><img src="assets/covers/contemporary-accounting-research.png" alt="Contemporary Accounting Research" width="56"></a> | **Contemporary Accounting Research** (CAR) | [Contemporary-Accounting-Research-Skills/](Contemporary-Accounting-Research-Skills/) | Accounting | 12 |
+| <a href="Organization-Science-Skills/"><img src="assets/covers/organization-science.png" alt="Organization Science" width="56"></a> | **Organization Science** | [Organization-Science-Skills/](Organization-Science-Skills/) | Organization theory | 12 |
+| <a href="Journal-of-International-Business-Studies-Skills/"><img src="assets/covers/journal-of-international-business-studies.png" alt="Journal of International Business Studies" width="56"></a> | **Journal of International Business Studies** (JIBS) | [Journal-of-International-Business-Studies-Skills/](Journal-of-International-Business-Studies-Skills/) | International business | 12 |
+| <a href="Journal-of-Business-Venturing-Skills/"><img src="assets/covers/journal-of-business-venturing.png" alt="Journal of Business Venturing" width="56"></a> | **Journal of Business Venturing** (JBV) | [Journal-of-Business-Venturing-Skills/](Journal-of-Business-Venturing-Skills/) | Entrepreneurship | 12 |
 
 ### Social science · English top journals — breadth bundle
 
@@ -630,7 +674,7 @@ This bundle is the natural-science sibling of the English social-science breadth
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | Ideation → writing → publication (Claude Code / OpenCode / Codex) | upstream |
 | **Codex/Claude Academic Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | Reading · writing · scientific computing | upstream |
 
-<sub><b>Count methodology.</b> The homepage <b>1036</b> = every <code>SKILL.md</code> minus the 10 duplicated Nature plugin-mirror files. All four breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation: 181 (15 CN depth packs) + 132 (11 EN social-science depth packs) + 120 (10 natural-science depth packs) + 36 (NeurIPS + ICML + ICLR CS/AI depth packs) + 103 (CN bundle) + 101 (EN social-science bundle: 100 journals + 1 router) + 101 (EN natural-science bundle: 100 journals + 1 router) + 156 (CS conference bundle: 155 conferences + 1 router) + 9 (AER) + 28 (Nature family) + 69 (toolkits) = 1036.</sub>
+<sub><b>Count methodology.</b> The homepage <b>1600</b> = every <code>SKILL.md</code> minus the 10 duplicated Nature plugin-mirror files. All four breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation: 181 (15 CN depth packs) + 660 (55 EN social-science depth packs) + 120 (10 natural-science depth packs) + 72 (NeurIPS + ICML + ICLR + AAAI + IJCAI + AISTATS CS/AI depth packs) + 103 (CN bundle) + 101 (EN social-science bundle: 100 journals + 1 router) + 101 (EN natural-science bundle: 100 journals + 1 router) + 156 (CS conference bundle: 155 conferences + 1 router) + 9 (AER) + 28 (Nature family) + 69 (toolkits) = 1600.</sub>
 
 ---
 
@@ -669,17 +713,49 @@ awesome-journal-skills/
 ├── Journal-of-Political-Economy-Skills/   → Journal of Political Economy (12 skills)
 ├── Econometrica-Skills/                   → Econometrica (12 skills)
 ├── Review-of-Economic-Studies-Skills/     → Review of Economic Studies (12 skills)
+├── Journal-of-Econometrics-Skills/        → Journal of Econometrics (12 skills)
+├── Econometric-Theory-Skills/             → Econometric Theory (12 skills)
+├── Quantitative-Economics-Skills/         → Quantitative Economics (12 skills)
+├── Journal-of-Applied-Econometrics-Skills/  → Journal of Applied Econometrics (12 skills)
+├── Journal-of-Business-and-Economic-Statistics-Skills/  → JBES (12 skills)
+├── The-Econometrics-Journal-Skills/       → The Econometrics Journal (12 skills)
+├── Review-of-Economic-Dynamics-Skills/    → Review of Economic Dynamics (12 skills)
 ├── Journal-of-Finance-Skills/             → The Journal of Finance (12 skills)
 ├── Journal-of-Financial-Economics-Skills/ → Journal of Financial Economics (12 skills)
 ├── Review-of-Financial-Studies-Skills/    → The Review of Financial Studies (12 skills)
+├── Review-of-Finance-Skills/              → Review of Finance (12 skills)
+├── Journal-of-Financial-and-Quantitative-Analysis-Skills/  → JFQA (12 skills)
+├── Journal-of-Financial-Intermediation-Skills/  → Journal of Financial Intermediation (12 skills)
+├── Journal-of-Corporate-Finance-Skills/   → Journal of Corporate Finance (12 skills)
 ├── Academy-of-Management-Journal-Skills/  → Academy of Management Journal (12 skills)
 ├── Academy-of-Management-Review-Skills/   → Academy of Management Review (12 skills)
 ├── Administrative-Science-Quarterly-Skills/  → Administrative Science Quarterly (12 skills)
 ├── Strategic-Management-Journal-Skills/   → Strategic Management Journal (12 skills)
+├── Management-Science-Skills/             → Management Science (12 skills)
+├── Operations-Research-Skills/            → Operations Research (12 skills)
+├── Manufacturing-and-Service-Operations-Management-Skills/  → M&SOM (12 skills)
+├── Journal-of-Operations-Management-Skills/  → Journal of Operations Management (12 skills)
+├── Production-and-Operations-Management-Skills/  → Production and Operations Management (12 skills)
+├── Journal-of-Marketing-Skills/           → Journal of Marketing (12 skills)
+├── Journal-of-Marketing-Research-Skills/  → Journal of Marketing Research (12 skills)
+├── Marketing-Science-Skills/              → Marketing Science (12 skills)
+├── Journal-of-Consumer-Research-Skills/   → Journal of Consumer Research (12 skills)
+├── MIS-Quarterly-Skills/                  → MIS Quarterly (12 skills)
+├── Information-Systems-Research-Skills/   → Information Systems Research (12 skills)
+├── The-Accounting-Review-Skills/          → The Accounting Review (12 skills)
+├── Journal-of-Accounting-Research-Skills/ → Journal of Accounting Research (12 skills)
+├── Journal-of-Accounting-and-Economics-Skills/  → Journal of Accounting and Economics (12 skills)
+├── Contemporary-Accounting-Research-Skills/  → Contemporary Accounting Research (12 skills)
+├── Organization-Science-Skills/           → Organization Science (12 skills)
+├── Journal-of-International-Business-Studies-Skills/  → JIBS (12 skills)
+├── Journal-of-Business-Venturing-Skills/  → Journal of Business Venturing (12 skills)
 ├── Chinese-SocialScience-Journal-Skills/  → CN breadth bundle, 102 journal profiles + router (103 skills)
 ├── English-SocialScience-Journal-Skills/  → EN econ/business breadth bundle, 100-journal fit skills + router (101 skills)
 ├── English-NaturalScience-Journal-Skills/ → EN natural-science breadth bundle, 100-journal fit skills + router (101 skills)
 │   # CS/AI conference depth packs (first-party, authored / maintained here)
+├── AAAI-Skills/                   → AAAI main technical track (12 skills)
+├── AISTATS-Skills/                → AISTATS main conference (12 skills)
+├── IJCAI-Skills/                  → IJCAI main track (12 skills)
 ├── NeurIPS-Skills/                → NeurIPS main track (12 skills)
 ├── ICML-Skills/                   → ICML main track (12 skills)
 ├── ICLR-Skills/                   → ICLR main conference (12 skills)
@@ -788,19 +864,21 @@ use next for my manuscript targeted at <journal>.
   - [English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) — 100 English econ / finance / management / accounting / marketing / OM / IS journals
   - [English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) — 100 English natural-science / clinical / physical / formal-science journals
 - **Per-journal cover cards** for every breadth journal, always-expanded cover galleries in both READMEs, and 200 lightweight root entry folders for repo-front browsing.
-- **Full 12-step depth packs** — 39 first-party venue packs across all four areas (AER and Nature additionally ship as curated submodule packs):
-  - **English economics (top-5):** AER (submodule) · QJE · JPE · Econometrica · REStud
-  - **English finance (top-3):** Journal of Finance · Journal of Financial Economics · Review of Financial Studies
-  - **English management:** AMJ · AMR · ASQ · SMJ
+- **Full 12-step depth packs** — 83 first-party venue packs across all four areas (AER and Nature additionally ship as curated submodule packs):
+  - **English economics:** AER (submodule) · QJE · JPE · Econometrica · REStud · Journal of Development Economics · Journal of Public Economics · Journal of Labor Economics · Journal of International Economics · Journal of Monetary Economics · RAND Journal of Economics · Journal of Econometrics · Econometric Theory · Quantitative Economics · Journal of Applied Econometrics · JBES · The Econometrics Journal · Review of Economic Dynamics · Journal of Economic Growth · Journal of Economic Theory · Games and Economic Behavior · Journal of Human Resources
+  - **English finance:** Journal of Finance · Journal of Financial Economics · Review of Financial Studies · Review of Finance · JFQA · JFI · Journal of Corporate Finance · Journal of Banking & Finance · Mathematical Finance
+  - **English management / OM / IS:** AMJ · AMR · ASQ · SMJ · Organization Science · JIBS · JBV · Management Science · Operations Research · M&SOM · JOM · POM · MISQ · ISR
+  - **English marketing / consumer research:** JM · JMR · Marketing Science · JCR
+  - **English accounting:** TAR · JAR · JAE · CAR
   - **English natural science:** Science · Cell · PNAS · NEJM · The Lancet · JAMA · Cancer Cell · Physical Review Letters · JACS · Annals of Mathematics (plus Nature as a curated pack)
-  - **CS/AI conferences:** NeurIPS · ICML · ICLR
+  - **CS/AI conferences:** NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS
   - **Chinese flagships (15):** 经济研究 · 经济学（季刊）· 中国工业经济 · 世界经济 · 金融研究 · 数量经济技术经济研究 · 管理世界 · 管理科学学报 · 南开管理评论 · 会计研究 · 中国社会科学 · 社会学研究 · 中国农村经济 · 财经研究 · 中国行政管理
 
 ### 🚧 Pending — next expansion
 
 The previous roadmap's prioritized depth-pack candidates have all shipped. Open candidates for the next tier:
 
-- **English marketing & accounting depth packs:** JM / JMR / JCR; TAR / JAR / JAE.
+- **Remaining English marketing & accounting depth packs:** JPP&M / JIM / JAMS; Accounting, Organizations and Society / Review of Accounting Studies.
 - **More subject-flagship natural science** beyond the current set (additional Cell Press / Nature Portfolio sub-journals; discipline leaders in earth science and materials).
 - **More Chinese flagships** beyond the current 15 (additional CSSCI / FMS high-quality venues, by demand).
 

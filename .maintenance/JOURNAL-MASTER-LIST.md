@@ -15,10 +15,10 @@
 
 ### 英文 70
 **经济学·综合 (top-5 + 子刊)**：American Economic Review [A-depth] · Quarterly Journal of Economics [A-depth] · Journal of Political Economy [A-depth] · Econometrica [A-depth] · Review of Economic Studies [A-depth] · AER: Insights · AEJ: Applied · AEJ: Macroeconomics · AEJ: Microeconomics · AEJ: Economic Policy · J. of the European Economic Association · The Economic Journal · International Economic Review · Review of Economics and Statistics · J. of Economic Literature · J. of Economic Perspectives · Annual Review of Economics · European Economic Review
-**计量经济学**：J. of Econometrics · Econometric Theory · Quantitative Economics · J. of Applied Econometrics · J. of Business & Economic Statistics · The Econometrics Journal · Review of Economic Dynamics
-**金融**：Journal of Finance [A-depth] · J. of Financial Economics [A-depth] · Review of Financial Studies [A-depth] · Review of Finance · J. of Financial & Quantitative Analysis · J. of Financial Intermediation · J. of Banking & Finance · J. of Corporate Finance · Mathematical Finance · J. of Financial Markets · J. of Money, Credit and Banking · J. of International Money and Finance · Financial Management
-**应用·领域经济**：J. of Development Economics · J. of International Economics · J. of Public Economics · J. of Labor Economics · J. of Human Resources · J. of Health Economics · J. of Urban Economics · J. of Environmental Economics & Management · RAND J. of Economics · J. of Economic Growth · Games and Economic Behavior · J. of Economic Theory · J. of Economic Behavior & Organization · J. of Law & Economics · J. of Monetary Economics · World Development · World Bank Economic Review · J. of Economic Geography · J. of Risk and Uncertainty · Experimental Economics
-**管理·商学 (FT50)**：Academy of Management Journal [A-depth] · Academy of Management Review [A-depth] · Administrative Science Quarterly [A-depth] · Strategic Management Journal [A-depth] · Organization Science · J. of Management · J. of Management Studies · Management Science · Operations Research · Manufacturing & Service Operations Management · Production and Operations Management · J. of Marketing · J. of Marketing Research · Marketing Science · J. of Consumer Research · MIS Quarterly · Information Systems Research · The Accounting Review · J. of Accounting Research · J. of Accounting and Economics · Contemporary Accounting Research · J. of International Business Studies · J. of Business Venturing
+**计量经济学**：J. of Econometrics [A-depth] · Econometric Theory [A-depth] · Quantitative Economics [A-depth] · J. of Applied Econometrics [A-depth] · J. of Business & Economic Statistics [A-depth] · The Econometrics Journal [A-depth] · Review of Economic Dynamics [A-depth]
+**金融**：Journal of Finance [A-depth] · J. of Financial Economics [A-depth] · Review of Financial Studies [A-depth] · Review of Finance [A-depth] · J. of Financial & Quantitative Analysis [A-depth] · J. of Financial Intermediation [A-depth] · J. of Banking & Finance [A-depth] · J. of Corporate Finance [A-depth] · Mathematical Finance [A-depth] · J. of Financial Markets · J. of Money, Credit and Banking · J. of International Money and Finance · Financial Management
+**应用·领域经济**：J. of Development Economics [A-depth] · J. of International Economics [A-depth] · J. of Public Economics [A-depth] · J. of Labor Economics [A-depth] · J. of Human Resources [A-depth] · J. of Health Economics · J. of Urban Economics · J. of Environmental Economics & Management · RAND J. of Economics [A-depth] · J. of Economic Growth [A-depth] · Games and Economic Behavior [A-depth] · J. of Economic Theory [A-depth] · J. of Economic Behavior & Organization · J. of Law & Economics · J. of Monetary Economics [A-depth] · World Development · World Bank Economic Review · J. of Economic Geography · J. of Risk and Uncertainty · Experimental Economics
+**管理·商学 (FT50)**：Academy of Management Journal [A-depth] · Academy of Management Review [A-depth] · Administrative Science Quarterly [A-depth] · Strategic Management Journal [A-depth] · Organization Science [A-depth] · J. of Management · J. of Management Studies · Management Science [A-depth] · Operations Research [A-depth] · Manufacturing & Service Operations Management [A-depth] · Production and Operations Management [A-depth] · J. of Operations Management [A-depth] · J. of Marketing [A-depth] · J. of Marketing Research [A-depth] · Marketing Science [A-depth] · J. of Consumer Research [A-depth] · MIS Quarterly [A-depth] · Information Systems Research [A-depth] · The Accounting Review [A-depth] · J. of Accounting Research [A-depth] · J. of Accounting and Economics [A-depth] · Contemporary Accounting Research [A-depth] · J. of International Business Studies [A-depth] · J. of Business Venturing [A-depth]
 > 高置信已达 ~70；如超配以 ABS-AJG 4* 顺位裁剪，边界刊（会计/营销/IS）保留主类。
 
 ### 中文 30
@@ -33,7 +33,7 @@ reproducibility/supplementary/review-process/writing-style/related-work/experime
 workflow/topic-selection）。锚点：**CCF-A/B 会议优先** + CSRankings。
 
 ### 英文 90 —— 会议在前
-**AI / ML (顶)**：NeurIPS [A-depth] · ICML [A-depth] · ICLR [A-depth] · AAAI · IJCAI · COLT · AISTATS · UAI
+**AI / ML (顶)**：NeurIPS [A-depth] · ICML [A-depth] · ICLR [A-depth] · AAAI [A-depth] · IJCAI [A-depth] · COLT · AISTATS [A-depth] · UAI
 **计算机视觉**：CVPR · ICCV · ECCV
 **自然语言处理**：ACL · EMNLP · NAACL
 **数据挖掘 / Web**：KDD · WWW (The Web Conf) · WSDM · CIKM · ICDM · SIGIR
@@ -287,7 +287,7 @@ The Crop Journal(英文,中国) · European J. of Agronomy
 ---
 
 ## 跨表去重与待办
-1. **现有 AJS 资产盘点（Wave 1）**：把 48 包 / 200 根卡逐一映射到上表 `[A-depth]` 标记，
+1. **现有 AJS 资产盘点（Wave 1）**：把当前 92 包 / 200 根卡逐一映射到上表 `[A-depth]` 标记，
    产出"可直接升级 / 需新建"清单。
 2. **中国主办英文刊归属**：NSR / The Innovation / Cell Research / Molecular Plant /
    STTT 等，语言轴 EN 但机构 CN——建包时单独标 `origin: CN, lang: EN`。
