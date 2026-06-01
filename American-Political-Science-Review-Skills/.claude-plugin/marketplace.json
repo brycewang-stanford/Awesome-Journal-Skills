@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "apsr-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the American Political Science Review (APSR), the flagship general-interest journal of the American Political Science Association.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "apsr-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the American Political Science Review (APSR) manuscript lifecycle across all political-science subfields and the journal's five publication tracks.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/apsr-skills",
+      "repository": "https://github.com/brycewang-stanford/apsr-skills",
+      "keywords": [
+        "american-political-science-review",
+        "apsr",
+        "political-science",
+        "apsa",
+        "registered-reports",
+        "research-transparency",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/apsr-workflow",
+        "skills/apsr-topic-selection",
+        "skills/apsr-literature-positioning",
+        "skills/apsr-theory-building",
+        "skills/apsr-research-design",
+        "skills/apsr-data-analysis",
+        "skills/apsr-tables-figures",
+        "skills/apsr-writing-style",
+        "skills/apsr-transparency-and-data-policy",
+        "skills/apsr-review-process",
+        "skills/apsr-submission",
+        "skills/apsr-rebuttal"
+      ]
+    }
+  ]
+}

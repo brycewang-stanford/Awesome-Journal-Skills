@@ -1,0 +1,30 @@
+{
+  "name": "apsr-skills",
+  "description": "Agent skill stack for manuscripts targeted at the American Political Science Review (APSR) — the flagship general-interest journal of the American Political Science Association (APSA), published by Cambridge University Press, submitted via Editorial Manager under double-anonymous peer review with no submission fee. APSR is a generalist venue spanning American politics, comparative politics, international relations, political theory, public policy, and political methodology, and it publishes across five tracks: Regular Articles (most < 11,000 words), Research Notes (< 7,000 words), Replications and Reappraisals, Syntheses, and Registered Reports. Facts covered include the 150-word abstract cap, APSA Style Manual formatting, ORCID-for-corresponding-author, encouraged preregistration / pre-analysis plans, and the mandatory APSR Dataverse (Harvard Dataverse) reproducibility package verified by the editorial office after conditional acceptance. Covers political-science topic selection, cross-subfield literature positioning, theory and argument building (formal, interpretive, and empirical), research design across quantitative causal inference / qualitative case work / experiments, data analysis norms, exhibits, APSA-style writing, transparency and data policy, the review process, submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/apsr-skills",
+  "repository": "https://github.com/brycewang-stanford/apsr-skills",
+  "keywords": [
+    "american-political-science-review",
+    "apsr",
+    "political-science",
+    "apsa",
+    "comparative-politics",
+    "international-relations",
+    "political-theory",
+    "political-methodology",
+    "causal-inference",
+    "qualitative-methods",
+    "registered-reports",
+    "research-transparency",
+    "dataverse",
+    "academic-writing",
+    "editorial-manager",
+    "cambridge-university-press"
+  ]
+}

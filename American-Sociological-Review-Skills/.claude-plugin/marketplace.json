@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "asr-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the American Sociological Review (ASR), the flagship general journal of the American Sociological Association.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "asr-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the American Sociological Review (ASR) manuscript lifecycle across sociological subfields and methods.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/asr-skills",
+      "repository": "https://github.com/brycewang-stanford/asr-skills",
+      "keywords": [
+        "american-sociological-review",
+        "asr",
+        "sociology",
+        "asa",
+        "masked-review",
+        "data-sharing",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/asr-workflow",
+        "skills/asr-topic-selection",
+        "skills/asr-literature-positioning",
+        "skills/asr-theory-building",
+        "skills/asr-research-design",
+        "skills/asr-data-analysis",
+        "skills/asr-tables-figures",
+        "skills/asr-writing-style",
+        "skills/asr-data-and-transparency",
+        "skills/asr-review-process",
+        "skills/asr-submission",
+        "skills/asr-rebuttal"
+      ]
+    }
+  ]
+}

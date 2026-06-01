@@ -1,0 +1,74 @@
+---
+name: asr-research-design
+description: Use when defending the research design of an American Sociological Review (ASR) manuscript — causal/observational inference for quantitative and demographic work, case selection and comparison for comparative-historical work, site and informant logic for ethnography, and network/computational designs. ASR judges each tradition on its own terms. Strengthens the design; it does not write code.
+---
+
+# Research Design (asr-research-design)
+
+ASR welcomes many methods but is exacting about each. The design must credibly link the argument
+(`asr-theory-building`) to evidence and rule out the leading alternative. Pick the section matching
+your method.
+
+## When to trigger
+
+- Specifying identification, case selection, sampling, or site/informant logic
+- A reviewer questioned causal claims, generalization, selection, or a confound
+- Justifying why your design adjudicates the rival account from `asr-literature-positioning`
+
+## Quantitative / demographic
+- **Be honest about what the design identifies.** Much of sociology is observational; distinguish
+  description, association, and causation. If causal, state the assumptions (ignorability, parallel
+  trends, exclusion) and defend them.
+- **Designs**: panel/fixed-effects, DID/event study (modern staggered estimators, not naive TWFE),
+  IV, RDD, matching/weighting with balance and sensitivity; decomposition for inequality; event
+  history for timing; age-period-cohort for demographic change.
+- **Inference & sampling**: respect complex survey design (weights, clustering, strata); cluster at
+  the right level; report uncertainty.
+- **Sensitivity**: how strong must an unobserved confounder be to overturn the result?
+
+## Comparative-historical
+- **Case selection** by design logic (most/least-likely, paired comparison, deviant) — say what each
+  case is a case *of*; justify the comparison and the counterfactual.
+- **Evidence**: archives, secondary histories, administrative records; document provenance.
+- Specify the causal form (necessary/sufficient conditions, conjuncture, path dependence; QCA where
+  apt) and what evidence would have **disconfirmed** the argument.
+
+## Ethnographic / interview
+- **Site and informant selection** justified theoretically, not by access alone; state positionality
+  and access conditions.
+- Plan how depth, saturation, and negative cases are handled; how claims map to observed evidence.
+- Ethics/IRB, consent, and confidentiality planned from the start (see `asr-data-and-transparency`).
+
+## Network / computational
+- Define boundary specification, missing-ties, and the generative process (e.g., ERGM/SAOM logic).
+- For computational text/ML: validate against human-labeled samples; report stability.
+
+## The adjudication test (ASR-specific)
+
+For the **single strongest rival explanation**: *"If the rival were true rather than my argument, the
+evidence would look like ___; instead it looks like ___."* If you cannot write it, the design does not
+yet identify the contribution.
+
+## Anti-patterns
+
+- "Causal" language on a purely observational/associational design
+- Naive TWFE on staggered timing; ignoring survey weights/clustering
+- Convenience case or site selection dressed up as theory-driven
+- Ethnographic claims with no account of negative cases or saturation
+- A design that cannot distinguish your mechanism from the leading alternative
+
+## Output format
+
+```
+【Method】quant/demographic / comparative-historical / ethnographic / network-computational
+【What it identifies】description / association / causation
+【Key assumption(s) or selection logic】and how defended
+【Rival ruled out】the adjudication sentence
+【Robustness / negative cases / sensitivity】planned
+【Next】asr-data-analysis
+```
+
+## Supplementary resources
+
+- [`../../resources/external_tools.md`](../../resources/external_tools.md) — design/analysis packages and CAQDAS/QCA tooling
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — ASR methodological breadth

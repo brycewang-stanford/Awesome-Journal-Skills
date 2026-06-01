@@ -1,0 +1,29 @@
+{
+  "name": "psci-skills",
+  "description": "Agent skill stack for manuscripts targeted at Psychological Science — the flagship empirical journal of the Association for Psychological Science (APS), published by SAGE and submitted via Manuscript Central (mc.manuscriptcentral.com/psci) under anonymized peer review. Psychological Science uses a distinctive short-report format: Research Articles cap the Introduction, Discussion, Footnotes, Acknowledgments, and Appendices at 2,000 words combined while Method and Results do not count toward that limit (typically under 2,500 words), require a 150-word abstract that states sample sizes, participant populations, and important design limitations, follow APA 7th edition style with tables and figures embedded in the text, and since 1 January 2024 require open data and materials (case-by-case exemptions) plus a Research Transparency Statement placed between the Introduction and Methods, with preregistration quality factored into editorial decisions. Statistical norms emphasize effect sizes with confidence intervals, sample-size justification and power analysis, and full disclosure of exclusions, conditions, and measures. Other formats include Registered Reports (Stage 1 and Stage 2), Registered Reports with Existing Data, and short Commentaries. Covers psychology topic selection, literature positioning, theory and hypotheses, study design and preregistration, robust analysis, exhibits, APA writing within the word format, open-science and transparency, the review process, submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/psci-skills",
+  "repository": "https://github.com/brycewang-stanford/psci-skills",
+  "keywords": [
+    "psychological-science",
+    "psci",
+    "psychology",
+    "aps",
+    "open-science",
+    "preregistration",
+    "registered-reports",
+    "research-transparency",
+    "replication",
+    "effect-sizes",
+    "power-analysis",
+    "apa-style",
+    "academic-writing",
+    "manuscript-central",
+    "sage"
+  ]
+}

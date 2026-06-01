@@ -1,0 +1,30 @@
+{
+  "name": "asr-skills",
+  "description": "Agent skill stack for manuscripts targeted at the American Sociological Review (ASR) — the flagship general journal of the American Sociological Association (ASA), published by SAGE, submitted through Sage Track (ScholarOne Manuscript Central) under masked (anonymous) peer review. ASR carries a $25 non-refundable manuscript processing fee (waived for ASA student members), caps Articles at 15,000 words including text, references, and footnotes (tables and figures excluded), caps Comments/Replies at 3,000 words, requires a 150-200 word non-identifying abstract, uses the ASA Style Guide, and follows the ASA data-sharing policy (data shared after a project's completion or major publications, with confidentiality and proprietary exemptions). ASR is methodologically broad — quantitative stratification and demography, comparative-historical sociology, ethnography and interviews, social networks, and computational sociology. Covers sociological topic selection, literature positioning, theory building, research design across methods, data analysis, exhibits, ASA-style writing, data and transparency norms, the masked review process, Sage Track submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/asr-skills",
+  "repository": "https://github.com/brycewang-stanford/asr-skills",
+  "keywords": [
+    "american-sociological-review",
+    "asr",
+    "sociology",
+    "asa",
+    "stratification",
+    "demography",
+    "comparative-historical-sociology",
+    "ethnography",
+    "social-networks",
+    "computational-sociology",
+    "masked-review",
+    "data-sharing",
+    "academic-writing",
+    "sage-track",
+    "scholarone",
+    "sage"
+  ]
+}

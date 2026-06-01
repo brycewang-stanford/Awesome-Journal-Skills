@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "psci-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Psychological Science, the flagship empirical journal of the Association for Psychological Science.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "psci-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Psychological Science manuscript lifecycle, including its short-report word format and post-2024 open-science requirements.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/psci-skills",
+      "repository": "https://github.com/brycewang-stanford/psci-skills",
+      "keywords": [
+        "psychological-science",
+        "psci",
+        "psychology",
+        "aps",
+        "open-science",
+        "registered-reports",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/psci-workflow",
+        "skills/psci-topic-selection",
+        "skills/psci-literature-positioning",
+        "skills/psci-theory-and-hypotheses",
+        "skills/psci-study-design",
+        "skills/psci-data-analysis",
+        "skills/psci-tables-figures",
+        "skills/psci-writing-style",
+        "skills/psci-open-science-and-transparency",
+        "skills/psci-review-process",
+        "skills/psci-submission",
+        "skills/psci-rebuttal"
+      ]
+    }
+  ]
+}

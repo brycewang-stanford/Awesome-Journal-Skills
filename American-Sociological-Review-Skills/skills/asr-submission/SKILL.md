@@ -1,0 +1,79 @@
+---
+name: asr-submission
+description: Use when running the final pre-submission preflight for the American Sociological Review (ASR) via Sage Track — masked-manuscript preparation, the separate title page, word/abstract caps, ASA Style Guide formatting, the $25 processing fee, and ethics declarations. Final checks; it does not draft content.
+---
+
+# Submission Preflight (asr-submission)
+
+The last check before submitting through **Sage Track** (ScholarOne Manuscript Central). ASR is
+**masked**, so the most common avoidable failure is an under-anonymized manuscript or a missing
+separate title page. Verify volatile specifics (fee, caps, editors) on the official page first.
+
+## When to trigger
+
+- "Submitting tomorrow" — last pass before upload
+- Unsure what files Sage Track expects (masked manuscript + title page)
+- Confirming the caps are met, the manuscript is masked, and the fee is handled
+
+## Process facts (verify volatile items on the official page)
+
+- **Owner / publisher:** American Sociological Association (ASA) / SAGE.
+- **Portal:** **Sage Track** (ScholarOne Manuscript Central), `mc.manuscriptcentral.com/asr`.
+- **Review model:** **masked (anonymous)** — anonymous manuscript **without a title page** + a
+  **separate title page** (institutional affiliations, acknowledgments, word count, corresponding-
+  author contact). You **may cite your own work** but not in identifying wording.
+- **Length:** **Articles ≤ 15,000 words** including text, references, and footnotes (tables and
+  figures excluded); **Comments/Replies ≤ 3,000 words**.
+- **Abstract:** **150-200 words**, no identifying information.
+- **Format:** **double-spaced, Times New Roman 12 pt, ≥1-inch margins**; **ASA Style Guide** for
+  references.
+- **Fee:** **$25.00 non-refundable** manuscript processing fee via Sage Track, **waived for ASA
+  student members** (待核实 on the current amount).
+
+## Preflight checklist
+
+### Type & length
+- [ ] Article (≤ 15,000 words incl. text + references + footnotes) or Comment/Reply (≤ 3,000)
+- [ ] Word count recorded on the **separate title page**
+- [ ] Abstract 150-200 words, non-identifying
+
+### Masking (anonymous review)
+- [ ] Manuscript has **no title page**, no author names/affiliations/acknowledgments
+- [ ] Self-citations neutralized ("in a prior study," not "in our prior study")
+- [ ] Identifying **file metadata stripped** (document properties)
+- [ ] **Separate title page** prepared: affiliations, acknowledgments, word count, contact
+
+### Format & files
+- [ ] Double-spaced, Times New Roman 12 pt, ≥1-inch margins
+- [ ] ASA Style Guide references; consistent author-date
+- [ ] Tables/figures self-contained (see `asr-tables-figures`)
+
+### Fee, ethics & data
+- [ ] **$25 processing fee** ready (or ASA student-member waiver applies)
+- [ ] Not under review at any other journal; prior appearances disclosed
+- [ ] Data documentation prepared per the ASA data-sharing norm (see `asr-data-and-transparency`)
+
+## Anti-patterns
+
+- Leaving a title page or author identifiers in the manuscript (breaks masking)
+- Forgetting the **separate title page** Sage Track expects
+- Treating references as outside the word count — they count toward 15,000
+- Abstract outside 150-200 words
+- Forgetting the $25 fee, or submitting elsewhere while under ASR review
+
+## Output format
+
+```
+【Type】Article (≤15,000) / Comment-Reply (≤3,000) — cap met? [Y/N]
+【Masked】no title page + self-refs neutralized + metadata clean? [Y/N]
+【Separate title page】prepared? [Y/N]
+【Abstract】word count (150-200), non-identifying?
+【Format】double-spaced TNR 12pt + ASA Style Guide? [Y/N]
+【Fee】$25 ready or ASA-student waiver? [Y/N]
+【Next】await decision → asr-rebuttal on R&R
+```
+
+## Supplementary resources
+
+- [`../../resources/external_tools.md`](../../resources/external_tools.md) — reference managers, masking, repro tooling
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official ASR URLs behind every fact in this pack
