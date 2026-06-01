@@ -1,0 +1,80 @@
+---
+name: jbv-data-analysis
+description: Use when running and reporting the analysis for a Journal of Business Venturing (JBV) manuscript — choosing estimators that fit entrepreneurial data (survival/event-history, selection models, panels, experiments, qualitative trustworthiness), handling attrition and endogenous founding, and reporting robustness. Executes and reports the analysis; it does not design the study (jbv-methods) or frame the contribution (jbv-contribution-framing).
+---
+
+# Data Analysis & Validity (jbv-data-analysis)
+
+## When to trigger
+
+- Data are collected and it is time to estimate and report
+- You are unsure the estimator matches an entrepreneurial-data structure (venture survival, founding choice, nested funding events)
+- Reviewers will probe survivorship, selection into founding, or endogeneity
+- A field editor says "the analysis does not support the inference about entrepreneurship"
+
+## Match the estimator to the entrepreneurial data structure
+
+JBV is methodologically pluralistic, so the right tool depends on the claim. Common patterns in new-venture data:
+
+| Data structure / claim                                  | Estimator                                                       |
+|---------------------------------------------------------|------------------------------------------------------------------|
+| Time-to-exit / IPO / failure                            | Survival / event-history (Cox, parametric AFT, competing risks)  |
+| Choice to found / endogenous selection                  | Heckman / Roy selection; control function                        |
+| Venture panel with unit heterogeneity                   | Fixed/random effects; cluster-robust SE (`reghdfe`, `fixest`)    |
+| Policy / ecosystem / financing shock                    | DiD / event study / staggered-adoption estimators                |
+| Counts (patents, funding rounds, ventures)              | Poisson / negative binomial; zero-inflated as fits               |
+| Binary outcomes (funded, survived)                      | Logit / probit; rare-events corrections where outcomes are rare  |
+| Manipulated entrepreneurial judgment                    | ANOVA/regression with manipulation & attention checks            |
+| Inductive process / theory-building                     | Gioia data structure, audit trail, representative quotations     |
+
+Cluster standard errors to the sampling/nesting structure (e.g., by cohort, region, accelerator, or industry).
+
+## Handle entrepreneurship-specific threats
+
+- **Survivorship**: report how failed/exited ventures are retained or how their absence is bounded; an analysis on survivors only must say so and qualify the inference.
+- **Selection into founding**: model the founding decision or use a design-based identification; do not interpret survivor associations as antecedents of venture creation.
+- **Attrition** in nascent panels (PSED/KFS-style): document attrition, test for differential attrition, and use FIML/multiple imputation rather than listwise deletion by default.
+- **Endogeneity** of resources/financing/strategy: IV/2SLS, DiD, matching, or control functions, with the identifying assumption stated and probed.
+
+## Robustness expected by JBV reviewers
+
+- Alternative specifications (controls in/out, alternative venture measures, subsamples by stage/region).
+- Sensitivity to selection and survivorship assumptions (bounds, alternative frames).
+- Rule out the leading alternative explanation for the entrepreneurial finding empirically.
+- For experiments: report manipulation/attention checks, effect sizes, and pre-registration if any.
+
+## Reporting
+
+- Report effect sizes and practical magnitude for the entrepreneurial phenomenon, not just p-values.
+- For mediation, report indirect effects with bootstrap CIs; for moderation, plot simple slopes.
+- For qualitative work, make the path from raw founder data to constructs traceable.
+
+## Checklist
+
+- [ ] Estimator matches the structure (survival/selection/panel/experiment/qual)
+- [ ] Survivorship and selection into founding addressed, not assumed away
+- [ ] Attrition documented; principled missing-data handling
+- [ ] Endogeneity strategy executed and identifying assumption discussed
+- [ ] SEs clustered to the entrepreneurial sampling structure
+- [ ] Robustness + leading-alternative-explanation tests reported
+- [ ] Effect sizes and practical magnitude interpreted
+
+## Anti-patterns
+
+- **OLS on time-to-event** data instead of survival models.
+- **Survivor-only inference** read as antecedents of venture creation.
+- **Ignoring founding self-selection** in observational venture data.
+- **p-values with no effect size** or practical entrepreneurial meaning.
+
+## Output format
+
+```
+【Estimator】survival / selection / panel-FE / DiD / experiment / qual ...
+【Survivorship & selection】how handled ...
+【Attrition / missing data】...
+【Endogeneity】strategy + identifying assumption ...
+【Robustness】alt specs, bounds, alternative explanation ...
+【Effect sizes】magnitude for the phenomenon ...
+【Open issues for reviewers】...
+【Next step】jbv-contribution-framing
+```

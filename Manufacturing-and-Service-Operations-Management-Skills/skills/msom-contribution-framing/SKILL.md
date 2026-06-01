@@ -1,0 +1,52 @@
+---
+name: msom-contribution-framing
+description: Use when turning analytical or empirical results into an explicit operations contribution for a Manufacturing & Service Operations Management (M&SOM) manuscript — stating the managerial implication, the new operational insight, and why an operations decision is central, including the four-part structured-abstract framing M&SOM requires.
+---
+
+# Contribution Framing (msom-contribution-framing)
+
+## When to trigger
+
+- Results exist but the "so what for operations" is implicit or thin
+- A Department Editor says the contribution is incremental or the OM core is unclear
+- You are writing the introduction's contribution paragraph or the structured abstract
+- You must make the managerial implication explicit, not optional
+
+## Make the operational insight explicit
+
+M&SOM judges manuscripts on **importance, originality, clarity, validity, and relevance**, and gates on an **operations decision being central**. State plainly: *what operational decision does this paper change, and how?* For analytical work, the contribution is usually the **structure** of the optimal policy and the **comparative statics** a manager can act on (e.g., "stock-up-to a threshold that rises in lead-time variability"). For empirical work, it is a **credibly identified operational effect** and the policy it implies. Avoid framing the contribution as a methodological novelty alone — the operations insight must lead.
+
+## Managerial relevance is a required, sectioned component
+
+M&SOM requires a **four-part structured abstract** (≤ 300 words, no technical jargon): **Problem definition**, **Methodology**, **Results**, and **Managerial implications**. Managerial relevance is therefore not optional framing — it is an explicitly sectioned deliverable. Write the contribution paragraph and the abstract so each of the four parts is answerable in one or two plain-language sentences a practitioner could follow.
+
+## Route the contribution to the right Department
+
+Frame the contribution in the vocabulary of your target Department (supply chain, services/revenue management, sustainability/health, operational innovation, analytics, or practice). If the work is field-driven, consider whether the **Practice Platform** is the better home; a perspective piece is an **OM Forum** banner article, not a standard contribution.
+
+## Checklist
+
+- [ ] One sentence: the operational decision this paper changes and how
+- [ ] Analytical: policy structure + actionable comparative statics stated
+- [ ] Empirical: identified effect + the operational policy it implies stated
+- [ ] Structured abstract drafted with all four parts, ≤300 words, jargon-free
+- [ ] Contribution framed in the target Department's terms
+- [ ] Operations centrality reaffirmed (not a method-only contribution)
+
+## Anti-patterns
+
+- Leading with "we develop a new model/estimator" and burying the operational insight.
+- A structured abstract missing the Managerial-implications section or stuffed with notation.
+- Claiming generic "implications for managers" with no operational lever named.
+- Framing the work outside any department's scope.
+
+## Output format
+
+```
+【Operational decision changed】...
+【Structure / identified effect】...
+【Managerial implication】plain language ...
+【Structured abstract】Problem / Methodology / Results / Managerial implications (≤300 words)
+【Department fit】...
+【Next step】msom-tables-figures
+```

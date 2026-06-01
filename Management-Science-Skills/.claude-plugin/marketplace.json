@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "mgsci-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Management Science, the INFORMS flagship that publishes analytical modeling and empirical work side by side across all functional business areas.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "mgsci-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Management Science manuscript lifecycle across analytical and empirical departments.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/mgsci-skills",
+      "repository": "https://github.com/brycewang-stanford/mgsci-skills",
+      "keywords": [
+        "management-science",
+        "informs",
+        "operations-research",
+        "analytical-modeling",
+        "empirical-methods",
+        "data-and-code-disclosure",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/mgsci-workflow",
+        "skills/mgsci-topic-selection",
+        "skills/mgsci-theory-development",
+        "skills/mgsci-literature-positioning",
+        "skills/mgsci-methods",
+        "skills/mgsci-data-analysis",
+        "skills/mgsci-contribution-framing",
+        "skills/mgsci-tables-figures",
+        "skills/mgsci-writing-style",
+        "skills/mgsci-submission",
+        "skills/mgsci-review-process",
+        "skills/mgsci-rebuttal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "jibs-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of International Business Studies (JIBS), the flagship, top-ranked international-business journal published by Palgrave Macmillan (Springer Nature) for the Academy of International Business (AIB). Covers phenomenon-based IB topic selection, cross-country and multilevel theory development, literature positioning against the IB conversation, methodologically pluralistic design, cross-national measurement equivalence and construct validity, common-method-variance and endogeneity rigor anchored to the JIBS 'From the Editors' methods canon, theoretical-contribution framing, JIBS Style Guide exhibits and prose, Springer Nature submission, double-blind review, the DART data-transparency regime, and multi-round R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jibs-skills",
+  "repository": "https://github.com/brycewang-stanford/jibs-skills",
+  "keywords": [
+    "journal-of-international-business-studies",
+    "jibs",
+    "international-business",
+    "academy-of-international-business",
+    "multinational-enterprise",
+    "internationalization",
+    "cross-cultural-management",
+    "cross-country-research",
+    "multilevel-modeling",
+    "measurement-equivalence",
+    "common-method-variance",
+    "endogeneity",
+    "theoretical-contribution",
+    "academic-writing"
+  ]
+}

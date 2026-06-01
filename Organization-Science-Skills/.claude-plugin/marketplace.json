@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "orgsci-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Organization Science, the INFORMS interdisciplinary, theory-driven journal about organizations from micro to macro.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "orgsci-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Organization Science manuscript lifecycle, from contribution statement to rebuttal.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/orgsci-skills",
+      "repository": "https://github.com/brycewang-stanford/orgsci-skills",
+      "keywords": [
+        "organization-science",
+        "informs",
+        "organization-theory",
+        "theory-building",
+        "qualitative-research",
+        "theoretical-contribution",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/orgsci-workflow",
+        "skills/orgsci-topic-selection",
+        "skills/orgsci-theory-development",
+        "skills/orgsci-literature-positioning",
+        "skills/orgsci-methods",
+        "skills/orgsci-data-analysis",
+        "skills/orgsci-contribution-framing",
+        "skills/orgsci-tables-figures",
+        "skills/orgsci-writing-style",
+        "skills/orgsci-submission",
+        "skills/orgsci-review-process",
+        "skills/orgsci-rebuttal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+---
+name: orgsci-rebuttal
+description: Use after an Organization Science R&R to plan the revision and draft the point-by-point response letter, following the journal's codified author-response norms — verbatim italic quoting of each comment, no duplicated responses across reviewers, and a non-combative, non-effusive tone, while prioritizing the autonomous senior editor's concerns.
+---
+
+# R&R Revision & Response Letter (orgsci-rebuttal)
+
+## When to trigger
+
+- You received a major/minor R&R and need to plan revisions and write the response
+- Reviewers disagree with each other or with the senior editor
+- You are unsure how to format the response letter for this venue
+
+## Revise the manuscript before you write the letter
+
+A response letter is only as good as the revision behind it. Re-derive the **overall contribution** the SE asked for (`orgsci-contribution-framing`), strengthen the **mechanism and design logic** where identification is impossible (`orgsci-methods` / `orgsci-data-analysis`), and update the exhibits. Then write the letter to a manuscript you have actually changed.
+
+## Follow the journal's codified author-response norms
+
+Organization Science's official length policy spells out **how to write the response**, and editors expect it:
+
+- **Quote each editor/reviewer comment verbatim, in italics**, immediately above your response, so the reader sees exactly what you are answering.
+- **Do not duplicate responses across reviewers.** When two reviewers raise the same point, answer it once and cross-reference, rather than pasting the same paragraph repeatedly.
+- **Avoid a combative tone.** Engage disagreements with evidence and theory, not defensiveness; concede where the reviewer is right.
+- **Avoid effusive flattery** of editors and reviewers — the policy's own framing is that "we are neither oracles nor infallible." Be respectful and substantive, not fawning.
+
+## Prioritize by who decides
+
+The **Senior Editor decides** autonomously (accept/reject/R&R), so the SE's synthesis sets your priorities. When a reviewer's request conflicts with the SE's direction or the paper's contribution, follow the SE's framing and explain courteously. Group changes so the SE sees the contribution is sharper, the mechanism better supported, and the level-of-analysis logic clean.
+
+## Mechanics
+
+- Map every comment to a concrete change (text, new analysis, appendix material) or a reasoned, evidence-backed rebuttal, with page/line pointers.
+- Keep the revised manuscript and the standalone appendix anonymized; house new robustness/sensitivity work in the **separate appendix**, mindful of the ~50-page main-text norm.
+- Resubmit within the stated window (reported ~1 year, **待核实** — confirm in your letter).
+
+## Anti-patterns
+
+- Drafting the letter before the manuscript is actually revised.
+- Pasting the same answer under multiple reviewers (the policy bars duplication).
+- Defensive or combative replies; or, the opposite, effusive flattery.
+- Treating all reviewer demands as equal and ignoring the SE's prioritization.
+
+## Output format
+
+```
+【Revision done first】contribution re-sharpened, mechanism/design strengthened, exhibits updated
+【Response format】verbatim italic quotes, one answer per shared point, courteous & substantive
+【SE priority】SE concerns addressed first; reviewer conflicts adjudicated to SE framing
+【New work】appendix-housed analyses; anonymization preserved
+【Window】resubmit within stated timeframe (~1 year 待核实)
+【Next step】orgsci-submission (resubmit) → orgsci-review-process
+```

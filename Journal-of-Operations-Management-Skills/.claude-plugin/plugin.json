@@ -1,0 +1,26 @@
+{
+  "name": "jom-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of Operations Management (JOM), the flagship outlet for original, empirical operations and supply chain management research, published by Wiley on behalf of the Association for Supply Chain Management (ASCM). JOM publishes empirical OM work where operations are at the heart of the research question, paired with meaningful theory; it explicitly does NOT publish purely analytical models or optimization techniques. The pack covers theory-driven topic selection, theory development for empirical OM, literature positioning, empirical research design (survey, archival/secondary, field, case, experimental, and intervention-based), data analysis and validity, contribution framing, exhibit design, APA-style prose, the Department-routed cover-letter and checklist submission protocol via Wiley ReX, the asymmetric double-anonymous review process, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jom-skills",
+  "repository": "https://github.com/brycewang-stanford/jom-skills",
+  "keywords": [
+    "journal-of-operations-management",
+    "jom",
+    "operations-management",
+    "supply-chain-management",
+    "empirical-operations-management",
+    "behavioral-operations",
+    "intervention-based-research",
+    "survey-research",
+    "archival-secondary-data",
+    "theory-development",
+    "academic-writing",
+    "wiley-research-exchange"
+  ]
+}

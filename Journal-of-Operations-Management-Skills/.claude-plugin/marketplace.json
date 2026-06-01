@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jom-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Operations Management (JOM), the flagship outlet for original, empirical operations and supply chain management research.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jom-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Operations Management (JOM) empirical-OM manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jom-skills",
+      "repository": "https://github.com/brycewang-stanford/jom-skills",
+      "keywords": [
+        "journal-of-operations-management",
+        "jom",
+        "operations-management",
+        "supply-chain-management",
+        "empirical-operations-management",
+        "intervention-based-research",
+        "theory-development"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jom-workflow",
+        "skills/jom-topic-selection",
+        "skills/jom-theory-development",
+        "skills/jom-literature-positioning",
+        "skills/jom-methods",
+        "skills/jom-data-analysis",
+        "skills/jom-contribution-framing",
+        "skills/jom-tables-figures",
+        "skills/jom-writing-style",
+        "skills/jom-submission",
+        "skills/jom-review-process",
+        "skills/jom-rebuttal"
+      ]
+    }
+  ]
+}

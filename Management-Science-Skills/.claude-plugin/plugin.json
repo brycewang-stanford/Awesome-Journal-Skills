@@ -1,0 +1,26 @@
+{
+  "name": "mgsci-skills",
+  "description": "Agent skill stack for manuscripts targeted at Management Science, the INFORMS flagship that publishes both rigorous analytical/quantitative modeling (operations research, optimization, stochastic processes, game and economic theory) and empirical research across every functional business area (accounting, finance, marketing, operations, information systems, strategy, entrepreneurship, organizations, behavioral economics). Covers department/area-editor routing and cross-department fit, the dual-methodology rigor bar, double-anonymized review with high desk-reject screening, ScholarOne submission and the $79 submission fee with waivers, the INFORMS Data and Code Disclosure Policy verified by a dedicated Data Editor, author-year house style, invited-revision page limits, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/mgsci-skills",
+  "repository": "https://github.com/brycewang-stanford/mgsci-skills",
+  "keywords": [
+    "management-science",
+    "informs",
+    "operations-research",
+    "analytical-modeling",
+    "optimization",
+    "stochastic-models",
+    "game-theory",
+    "behavioral-economics",
+    "empirical-methods",
+    "data-and-code-disclosure",
+    "academic-writing",
+    "scholarone"
+  ]
+}

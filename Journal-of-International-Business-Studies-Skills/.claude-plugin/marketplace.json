@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jibs-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of International Business Studies (JIBS), the flagship international-business journal of the Academy of International Business.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jibs-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of International Business Studies (JIBS) manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jibs-skills",
+      "repository": "https://github.com/brycewang-stanford/jibs-skills",
+      "keywords": [
+        "journal-of-international-business-studies",
+        "jibs",
+        "international-business",
+        "academy-of-international-business",
+        "cross-country-research",
+        "measurement-equivalence",
+        "theoretical-contribution"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jibs-workflow",
+        "skills/jibs-topic-selection",
+        "skills/jibs-theory-development",
+        "skills/jibs-literature-positioning",
+        "skills/jibs-methods",
+        "skills/jibs-data-analysis",
+        "skills/jibs-contribution-framing",
+        "skills/jibs-tables-figures",
+        "skills/jibs-writing-style",
+        "skills/jibs-submission",
+        "skills/jibs-review-process",
+        "skills/jibs-rebuttal"
+      ]
+    }
+  ]
+}

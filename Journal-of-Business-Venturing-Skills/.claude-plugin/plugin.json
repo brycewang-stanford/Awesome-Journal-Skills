@@ -1,0 +1,26 @@
+{
+  "name": "jbv-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of Business Venturing (JBV), an FT50 flagship in entrepreneurship and new venture creation published by Elsevier. Covers phenomenon-driven topic selection, multidisciplinary theory development (economics, psychology, sociology), literature positioning in the entrepreneurship conversation, methodologically pluralistic design and analysis (econometrics on novel venture datasets, experiments, qualitative and mixed methods), theoretical-contribution framing, Elsevier house-style tables/figures and prose, Editorial Manager submission with double-anonymized review, the field-editor review process, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jbv-skills",
+  "repository": "https://github.com/brycewang-stanford/jbv-skills",
+  "keywords": [
+    "journal-of-business-venturing",
+    "jbv",
+    "entrepreneurship",
+    "new-venture-creation",
+    "entrepreneurial-cognition",
+    "venture-financing",
+    "phenomenon-driven-research",
+    "multidisciplinary",
+    "theory-development",
+    "empirical-methods",
+    "academic-writing",
+    "editorial-manager"
+  ]
+}

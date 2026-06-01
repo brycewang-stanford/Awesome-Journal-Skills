@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "pom-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Production and Operations Management (POM), the flagship journal of the Production and Operations Management Society (POMS).",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "pom-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Production and Operations Management (POM) manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/pom-skills",
+      "repository": "https://github.com/brycewang-stanford/pom-skills",
+      "keywords": [
+        "production-and-operations-management",
+        "pom",
+        "poms",
+        "operations-management",
+        "supply-chain-management",
+        "analytical-modeling",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/pom-workflow",
+        "skills/pom-topic-selection",
+        "skills/pom-theory-development",
+        "skills/pom-literature-positioning",
+        "skills/pom-methods",
+        "skills/pom-data-analysis",
+        "skills/pom-contribution-framing",
+        "skills/pom-tables-figures",
+        "skills/pom-writing-style",
+        "skills/pom-submission",
+        "skills/pom-review-process",
+        "skills/pom-rebuttal"
+      ]
+    }
+  ]
+}

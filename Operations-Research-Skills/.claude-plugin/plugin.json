@@ -1,0 +1,26 @@
+{
+  "name": "ors-skills",
+  "description": "Agent skill stack for manuscripts targeted at Operations Research (OR), the flagship methodology journal of INFORMS. Covers OR/MS topic selection, model formulation and theory development (optimization, stochastic/probabilistic models, simulation, decision analysis), literature positioning, mathematically rigorous methods and analysis (theorems and proofs alongside data-driven and applied contributions), contribution framing under the mandatory contribution statement, INFORMS house-style exhibits and equation-free introductions, ScholarOne/INFORMS Author Portal submission with area-editor routing, the soft double-anonymous departmental review process, the ORJournal GitHub code-and-data reproducibility workflow, and multi-round revision rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/ors-skills",
+  "repository": "https://github.com/brycewang-stanford/ors-skills",
+  "keywords": [
+    "operations-research",
+    "informs",
+    "operations-research-management-science",
+    "optimization",
+    "stochastic-models",
+    "simulation",
+    "decision-analysis",
+    "theorem-proof",
+    "data-driven-optimization",
+    "reproducibility",
+    "academic-writing",
+    "scholarone"
+  ]
+}

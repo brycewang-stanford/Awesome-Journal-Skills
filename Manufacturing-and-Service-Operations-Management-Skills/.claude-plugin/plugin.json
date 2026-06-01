@@ -1,0 +1,26 @@
+{
+  "name": "msom-skills",
+  "description": "Agent skill stack for manuscripts targeted at Manufacturing & Service Operations Management (M&SOM), the premier operations-management journal published by INFORMS and sponsored by the MSOM Society. Built around M&SOM's defining bar: an operations decision or problem must be central to the contribution, executed with top-tier rigor in either analytical/stochastic modeling (optimization, queueing, game theory, revenue management) or empirical OM/data-driven analytics. Covers OM-centered topic selection, model and theory development, literature positioning, methodology and identification, analysis and replicability, contribution framing, INFORMS-style exhibits and prose, the author-routed Department-Editor ScholarOne submission, double-anonymous review, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/msom-skills",
+  "repository": "https://github.com/brycewang-stanford/msom-skills",
+  "keywords": [
+    "manufacturing-and-service-operations-management",
+    "msom",
+    "operations-management",
+    "informs",
+    "supply-chain",
+    "revenue-management",
+    "queueing",
+    "stochastic-modeling",
+    "analytical-modeling",
+    "empirical-operations-management",
+    "data-driven-analytics",
+    "scholarone"
+  ]
+}

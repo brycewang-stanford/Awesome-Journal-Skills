@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "msom-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Manufacturing & Service Operations Management (M&SOM), the premier operations-management journal (INFORMS / MSOM Society).",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "msom-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Manufacturing & Service Operations Management (M&SOM) manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/msom-skills",
+      "repository": "https://github.com/brycewang-stanford/msom-skills",
+      "keywords": [
+        "manufacturing-and-service-operations-management",
+        "msom",
+        "operations-management",
+        "informs",
+        "analytical-modeling",
+        "empirical-operations-management",
+        "revenue-management"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/msom-workflow",
+        "skills/msom-topic-selection",
+        "skills/msom-theory-development",
+        "skills/msom-literature-positioning",
+        "skills/msom-methods",
+        "skills/msom-data-analysis",
+        "skills/msom-contribution-framing",
+        "skills/msom-tables-figures",
+        "skills/msom-writing-style",
+        "skills/msom-submission",
+        "skills/msom-review-process",
+        "skills/msom-rebuttal"
+      ]
+    }
+  ]
+}

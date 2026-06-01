@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jbv-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Business Venturing (JBV), an FT50 flagship in entrepreneurship and new venture creation.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jbv-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Business Venturing (JBV) manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jbv-skills",
+      "repository": "https://github.com/brycewang-stanford/jbv-skills",
+      "keywords": [
+        "journal-of-business-venturing",
+        "jbv",
+        "entrepreneurship",
+        "new-venture-creation",
+        "theory-development",
+        "empirical-methods",
+        "phenomenon-driven-research"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jbv-workflow",
+        "skills/jbv-topic-selection",
+        "skills/jbv-theory-development",
+        "skills/jbv-literature-positioning",
+        "skills/jbv-methods",
+        "skills/jbv-data-analysis",
+        "skills/jbv-contribution-framing",
+        "skills/jbv-tables-figures",
+        "skills/jbv-writing-style",
+        "skills/jbv-submission",
+        "skills/jbv-review-process",
+        "skills/jbv-rebuttal"
+      ]
+    }
+  ]
+}

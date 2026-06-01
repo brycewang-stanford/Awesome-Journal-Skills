@@ -1,0 +1,26 @@
+{
+  "name": "orgsci-skills",
+  "description": "Agent skill stack for manuscripts targeted at Organization Science, the INFORMS interdisciplinary management journal for theory-driven research about organizations spanning micro (individual/team) to macro (organizational/field/population) levels. Built around the journal's defining bar — overall theoretical contribution over novelty for its own sake — and its methodological eclecticism, with a signature openness to qualitative and inductive work alongside quantitative, experimental, computational, and formal-analytical research. Covers the mandatory <500-word contribution statement, the all-inclusive ~50-page length norm and separate anonymized appendix, double-anonymous review, the decentralized senior-editor model, ScholarOne submission, and the journal's codified author-response norms. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/orgsci-skills",
+  "repository": "https://github.com/brycewang-stanford/orgsci-skills",
+  "keywords": [
+    "organization-science",
+    "informs",
+    "organization-theory",
+    "organizational-behavior",
+    "micro-macro",
+    "qualitative-research",
+    "inductive-theory-building",
+    "computational-modeling",
+    "theoretical-contribution",
+    "double-anonymous-review",
+    "academic-writing",
+    "scholarone"
+  ]
+}

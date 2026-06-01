@@ -1,0 +1,47 @@
+---
+name: jibs-writing-style
+description: Use when polishing the prose of a Journal of International Business Studies (JIBS) manuscript — a phenomenon-forward narrative, an explicit IB contribution, disciplined cross-cultural terminology, the inclusive word budget, and JIBS Style Guide conventions (11-pt Times New Roman, double-spaced, author-date). Polishes language; it does not fix a thin contribution (jibs-contribution-framing) or weak analysis (jibs-data-analysis).
+---
+
+# Writing in JIBS House Style (jibs-writing-style)
+
+## When to trigger
+
+- The argument is settled and the manuscript needs a full prose pass
+- Prose buries the phenomenon, the IB contribution, or the cross-level logic
+- Terminology about countries/cultures is loose or risks essentializing
+- You are over the inclusive word limit and must cut without losing the argument
+
+## Lead with the phenomenon, deliver the IB contribution
+
+JIBS is phenomenon-driven. Open by anchoring the reader in a concrete cross-border problem, then state — early and explicitly — what the paper contributes to **IB theory**. The reader should know within the first page why this is an *international*-business question that no single-country study could answer. Mirror that contribution statement in the discussion (promised vs. delivered).
+
+## Respect the inclusive word budget
+
+The JIBS word count is **inclusive of everything**: abstract, text, endnotes, references, tables, figures, and appendices. Target ~10,000 words for a strong/broad contribution or ~7,000 for a narrower one; Research Notes in principle under 4,000 words. Write tight: every method nuance not essential to the inference belongs in an online appendix, and even that counts. The abstract is capped at **200 words** — use it to name the phenomenon, the design, the finding, and the IB contribution.
+
+## Discipline cross-cultural language
+
+Because JIBS scrutinizes how country and culture are handled, your prose must avoid essentializing. Do not write that "country X is collectivist" as if a nation acts; describe the *level* and *mechanism* ("respondents in higher-uncertainty-avoidance contexts..."). Define cultural/institutional/distance constructs the first time they appear, and keep terminology consistent with how they are measured. Be precise about whose perspective (HQ vs. subsidiary, home vs. host) a claim takes.
+
+## JIBS Style Guide conventions
+
+Follow the **JIBS Style Guide**: **11-point Times New Roman, double-spaced**, **author-date (name, year)** in-text citations with a matching reference list. Keep hypothesis labels, construct names, and table/figure numbers consistent throughout. Write in clear, active prose; international readers and reviewers value plain, unambiguous phrasing over jargon. Spell out acronyms (MNE, FDI, OLI) on first use.
+
+## Output format
+
+```
+【Phenomenon-forward open】present? IB contribution stated early? ...
+【Word budget】count vs. inclusive ~10k/7k/<4k limit; abstract ≤200 ...
+【Cross-cultural terminology】essentializing removed; level/mechanism precise ...
+【Style】11-pt TNR, double-spaced, author-date consistent ...
+【Consistency】hypothesis/construct/exhibit labels aligned ...
+【Next step】jibs-submission
+```
+
+## Anti-patterns
+
+- A method-first or gap-first opening that hides the phenomenon and contribution.
+- Essentializing countries ("Germans are...") instead of naming level and mechanism.
+- Ignoring that references and appendices count toward the word limit.
+- A non-author-date citation style straight from a reference manager.

@@ -1,0 +1,58 @@
+---
+name: mgsci-workflow
+description: Use when deciding which mgsci-* sub-skill to invoke next, or when sequencing manuscript work from topic selection through rebuttal for a Management Science (INFORMS) manuscript. Routes — it does not replace — the specialized skills, and helps pick the right Department lane (analytical vs empirical).
+---
+
+# Management Science Workflow (mgsci-workflow)
+
+## Overview
+
+This is the router. It does not replace any specialized skill; it tells you **which mgsci-* skill to use right now** for your Management Science manuscript.
+
+Default assumption: unless the user says otherwise, treat the target as **Management Science** — the **INFORMS** flagship established in **1954** by the precursor Institute of Management Sciences (TIMS). It is deliberately **bimethodological**: it places rigorous **analytical/quantitative** work (operations research, optimization, stochastic processes, game and economic theory) **side by side** with **empirical** work (econometrics, lab/field experiments, behavioral studies, data science), across **every functional business area** — accounting, finance, marketing, operations, information systems, strategy, entrepreneurship, organizations, behavioral economics. There is **no single dominant method by design**; each **Department** sets its own field-appropriate rigor bar. The unifying test is rigor **plus** a decision-relevant management/business contribution that travels across departments.
+
+> Editor-in-Chief Christoph H. Loch (term Jan 1, 2024 – Dec 31, 2026). Submissions are routed into a specific **Department** (e.g., Accounting; Behavioral Economics and Decision Analysis; Business Strategy; Data Science; Finance; Information Systems; Operations Management; Optimization and Decision Analytics; Revenue Management & Market Analytics; Stochastic Models and Simulation). Verify the current masthead and department set on INFORMS PubsOnline; the exact 2026 roster is 待核实.
+
+## When to trigger
+
+- "What should I do next?" with a half-built Management Science manuscript
+- You are unsure which **Department** your paper belongs to, or whether it fits Management Science vs a sister INFORMS journal (Operations Research, M&SOM, Marketing Science)
+- A model exists but the managerial insight is thin, or data exist but the contribution is unclear
+- A Department Editor desk-rejected on "fit" or "better suited elsewhere" and you need to re-aim
+- You received a decision letter (R&R or reject) and need to switch into response mode
+
+## Routing table
+
+| Current symptom                                                          | Next skill                    |
+|--------------------------------------------------------------------------|-------------------------------|
+| Idea is vague; unsure of Department fit or Management Science vs sister journal | `mgsci-topic-selection`  |
+| Model/hypotheses lack a sharp mechanism or testable proposition          | `mgsci-theory-development`     |
+| Front end reads as gap-spotting; the relevant conversation isn't engaged | `mgsci-literature-positioning` |
+| Method (analytical model or empirical design) may not match the question | `mgsci-methods`               |
+| Have data/numerics; unsure on identification, validity, or robustness    | `mgsci-data-analysis`         |
+| Results exist but the cross-department "so what for decisions" is thin   | `mgsci-contribution-framing`  |
+| Exhibits cluttered, notation-heavy, or not self-explanatory              | `mgsci-tables-figures`        |
+| Prose is notation-dense, passive, or buries the result                   | `mgsci-writing-style`         |
+| Ready to submit; need the ScholarOne + fee + disclosure preflight        | `mgsci-submission`            |
+| Want to understand desk-screen / Department Editor / review mechanics    | `mgsci-review-process`        |
+| Received an R&R; need to plan and draft the response                     | `mgsci-rebuttal`              |
+
+## Default order
+
+```
+mgsci-topic-selection → mgsci-theory-development → mgsci-literature-positioning →
+mgsci-methods → mgsci-data-analysis → mgsci-contribution-framing →
+mgsci-tables-figures → mgsci-writing-style → mgsci-submission →
+mgsci-review-process → mgsci-rebuttal
+```
+
+Skip stages that are already solid; loop back when a Department Editor or reviewer pushes.
+
+## Output format
+
+```
+【Where you are】[stage]
+【Department / lane】analytical vs empirical; candidate Department
+【Fit risk】Management Science vs sister INFORMS journal
+【Next skill】mgsci-...
+```

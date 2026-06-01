@@ -1,0 +1,58 @@
+---
+name: pom-methods
+description: Use when selecting or auditing the method for a Production and Operations Management (POM) manuscript — analytical modeling (optimization, stochastic models, game theory), empirical identification, behavioral experiments, simulation, or operations data science. Matches method to the operations question; it does not execute the analysis (pom-data-analysis).
+---
+
+# Method Fit (pom-methods)
+
+## When to trigger
+
+- The method may not match the operations question (level, uncertainty, causality)
+- You must choose between an analytical model, an empirical design, an experiment, or a data pipeline
+- A reviewer says "the method does not support the claim" or "this is a methods paper, not OM"
+
+## POM mandates no single method — but the method must fit and be rigorous
+
+POM explicitly places **no restriction on research methods**, while being historically anchored in analytical modeling. Pick the method the *question* demands, and route to the matching Department.
+
+| Operations question / claim                                  | Method                                                              |
+|--------------------------------------------------------------|--------------------------------------------------------------------|
+| Optimal policy under cost/service objective                  | Optimization (LP/MIP/convex, dynamic programming); characterize the policy |
+| Decisions under demand/lead-time uncertainty                 | Stochastic modeling, queueing, inventory theory, MDP/ADP           |
+| Strategic interaction (suppliers, competitors, platforms)    | Game theory (Nash/Stackelberg); prove equilibrium existence/uniqueness |
+| Causal operational effect from field data                    | Empirical OM: DiD, IV, RD, matching with a clear identification strategy |
+| Human operational decision bias                              | Behavioral/experimental OM (lab/online); randomization, manipulation checks |
+| Systems too complex for closed form                          | Discrete-event simulation; validation, warm-up, replications, CIs  |
+| Prediction feeding an operational decision                   | Operations data science (ML / forecasting), tied to a decision/loss |
+
+## What each track must defend
+
+- **Analytical:** assumptions grounded in operations reality; solution concept; structural results; sensitivity/comparative statics; managerial interpretation. Robustness = relaxing key assumptions, not just numerical examples.
+- **Empirical OM:** identification (what makes the effect causal), measurement in decision-relevant units, unit of analysis, external validity to other operations settings.
+- **Behavioral OM:** design, incentives, randomization, manipulation and attention checks, and **operational realism** (does the lab task map to a real operations decision?).
+- **Operations data science:** validation design, leakage checks, and — critically — the **operational value**: does a better prediction change a feasible policy (predict-then-optimize)?
+- **Simulation:** parameter provenance, validation against known cases, sensitivity, and a replication package.
+
+## The POM bar on method
+
+A method exists to serve an **OM contribution** judged interesting to practicing managers. If the paper's value is mainly a technical advance with thin OM decision content, a methods journal may fit better. Keep heavy derivations, solver details, and extra robustness for the unlimited online **e-companion** so the 32-page main document stays focused.
+
+## Checklist
+
+- [ ] Method matches the operations question and the target Department
+- [ ] Analytical: solution concept + structural results + assumption-relaxing robustness
+- [ ] Empirical: identification strategy and decision-relevant measurement stated
+- [ ] Behavioral: randomization, manipulation checks, operational realism
+- [ ] Data science: validation, leakage, and decision/operational value
+- [ ] Derivations/extra material slated for the e-companion
+
+## Output format
+
+```
+【Method family】optimization / stochastic / game-theory / empirical / behavioral / simulation / data-science
+【Operations question】<decision problem>
+【Validity risks】assumptions / identification / measurement / leakage / validation
+【Practice tie】how the method yields a manager-usable result
+【e-companion plan】proofs / extra analyses to move online
+【Next step】pom-data-analysis
+```
