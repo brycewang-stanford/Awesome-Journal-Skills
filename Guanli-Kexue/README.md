@@ -1,7 +1,27 @@
 <!-- AJS-ROOT-JOURNAL-ENTRY -->
 # 《管理科学》
 
-根目录期刊入口，用于首页浏览。目录名采用拼音：`Guanli-Kexue`。
+<a href="../Chinese-SocialScience-Journal-Skills/skills/management-science-cn/"><img src="../assets/covers/management-science-cn.png" alt="《管理科学》封面" width="150" align="right"></a>
+
+> 管理科学与工程学会会刊，刊发管理理论研究。
+
+| 期刊概览 | |
+|---|---|
+| **学科** | 管理科学 |
+| **主办/出版** | 哈尔滨工业大学经济与管理学院主办 |
+| **创刊** | 1987 |
+| **ISSN** | 1672-0334 · CN 23-1510/C |
+| **周期** | 双月刊 |
+| **收录/地位** | CSSCI · 北大中文核心 |
+| **官网** | [glkx.hit.edu.cn](http://glkx.hit.edu.cn/) |
+
+**▶ 调用 skill —— [`management-science-cn`](../Chinese-SocialScience-Journal-Skills/skills/management-science-cn/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
+
+<sub>属于 **[中文社会科学期刊 Skills](../Chinese-SocialScience-Journal-Skills/)** 合集。投稿前请以官网最新《投稿须知》为准。</sub>
+
+---
+
+<!-- 机器可读的规范指针——请勿删除或改动（由 tools/audit_repo.py 校验）。 -->
 
 - Canonical skill: [Chinese-SocialScience-Journal-Skills/skills/management-science-cn/](../Chinese-SocialScience-Journal-Skills/skills/management-science-cn/)
 - Skill name: `management-science-cn`
