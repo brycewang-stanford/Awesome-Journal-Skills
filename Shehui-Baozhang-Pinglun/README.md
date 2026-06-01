@@ -1,7 +1,27 @@
 <!-- AJS-ROOT-JOURNAL-ENTRY -->
 # 《社会保障评论》
 
-根目录期刊入口，用于首页浏览。目录名采用拼音：`Shehui-Baozhang-Pinglun`。
+<a href="../Chinese-SocialScience-Journal-Skills/skills/social-security-studies/"><img src="../assets/covers/social-security-studies.png" alt="《社会保障评论》封面" width="150" align="right"></a>
+
+> 社会保障理论与政策研究的权威学术期刊。
+
+| 期刊概览 | |
+|---|---|
+| **学科** | 社会保障 |
+| **主办/出版** | 民政部主管 · 中国社会保障学会主办 |
+| **创刊** | 2017 |
+| **ISSN** | 2096-3211 · CN 10-1472/C |
+| **周期** | 双月刊 |
+| **收录/地位** | CSSCI |
+| **官网** | [sbpl.cbpt.cnki.net](https://sbpl.cbpt.cnki.net/) |
+
+**▶ 调用 skill —— [`social-security-studies`](../Chinese-SocialScience-Journal-Skills/skills/social-security-studies/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
+
+<sub>属于 **[中文社会科学期刊 Skills](../Chinese-SocialScience-Journal-Skills/)** 合集。投稿前请以官网最新《投稿须知》为准。</sub>
+
+---
+
+<!-- 机器可读的规范指针——请勿删除或改动（由 tools/audit_repo.py 校验）。 -->
 
 - Canonical skill: [Chinese-SocialScience-Journal-Skills/skills/social-security-studies/](../Chinese-SocialScience-Journal-Skills/skills/social-security-studies/)
 - Skill name: `social-security-studies`
