@@ -47,6 +47,18 @@ Rules: facts source-backed; **omit a row** if not verifiable (never guess ISSN/f
 omit otherwise. EN stubs in English, CN stubs in Chinese. Cover = `assets/covers/<skill-name>.png`
 when it exists, else omit the image.
 
+## Sourcing rule for the Chinese half (CN official sites are 403/JS-blocked)
+For CN journals I cannot reach the primary site, so a fact (主办单位/ISSN/CN刊号/创刊/CSSCI) is
+included only if **corroborated across ≥2 independent secondary sources** (e.g. 百度百科 + CNKI/
+期刊数据库 + 主办机构页). Anything not corroborated is **omitted** (row dropped), never guessed.
+"收录/地位" lists only CSSCI / 北大核心 / AMI / CSCD where corroborated.
+
 ## Log
 - 2026-05-31 — batch 0 (pilot, user-approved): Journal-of-Finance, Quarterly-Journal-of-Economics,
-  Guanli-Shijie (《管理世界》), Jingji-Yanjiu (《经济研究》). Audit green (844/44/200). Committed locally.
+  Guanli-Shijie (《管理世界》), Jingji-Yanjiu (《经济研究》). Audit green. Committed `2e2690d`.
+- 2026-05-31 — batch 1: 24 EN flagship cards (econ/finance/mgmt). Committed `b8f77c7`. Audit green.
+- 2026-05-31 — batch 2: 36 EN field cards (econ/econometrics/applied). Committed `937d4b4`. Audit green.
+- 2026-05-31 — batch 3: 38 EN cards (finance/accounting/mgmt/mktg/IS/OM). Committed `689e68a`. Audit green.
+- **English half COMPLETE: 100/100 EN + 2 CN = 102/200.** Facts researched by parallel sub-agents,
+  source-cited; I generated + wrote all cards (machine-line footer preserved verbatim).
+- NEXT: Chinese half — 98 CN stub cards, smaller batches, sourcing rule above.
