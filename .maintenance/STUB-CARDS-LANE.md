@@ -61,4 +61,21 @@ included only if **corroborated across ≥2 independent secondary sources** (e.g
 - 2026-05-31 — batch 3: 38 EN cards (finance/accounting/mgmt/mktg/IS/OM). Committed `689e68a`. Audit green.
 - **English half COMPLETE: 100/100 EN + 2 CN = 102/200.** Facts researched by parallel sub-agents,
   source-cited; I generated + wrote all cards (machine-line footer preserved verbatim).
-- NEXT: Chinese half — 98 CN stub cards, smaller batches, sourcing rule above.
+- 2026-05-31 — CN wave 1: 33 cards (财经/经济/公共管理/管理科学). Committed `21981b4`. Pushed. Audit green.
+- 2026-05-31 — CN wave 2: 33 cards (经济/金融/科学学/会计/农经). Committed `45b092b`. Pushed. Audit green.
+- 2026-05-31 — CN wave 3: 31 cards (世界经济/审计/科技/三农/治理). Committed `08f9a41`. Pushed.
+- **DONE: 199/200 stubs enriched + pushed to origin/main.** Each fact ≥2-source corroborated; tier
+  labels only where verifiable. All 6 batches committed atomically (per-batch `git add`, never `-A`).
+
+## Flagged for the user / content-agent (not fabricated)
+- `Zuzhi-Yu-Guanli` (slug `organization-and-management`, 《组织与管理》): **left as the original bare
+  stub.** No verifiable *mainland* journal of this exact name found (only a Taiwan society journal,
+  est. 2006, unconfirmed as the intended target). Needs a human/content-agent decision — possibly a
+  mislabeled/placeholder entry in the Chinese-SocialScience bundle.
+- A small number of cards omit `官网`/`创刊`/`收录` rows where a fact could not be ≥2-source confirmed
+  (e.g. 世界经济研究 创刊年 conflict 1982/1985 → omitted; several journals' official domain unconfirmable).
+
+## Note (not my lane): unrelated audit red in working tree
+A parallel agent added an untracked `Computer-Science-Conference-Skills/` pack (skills 844→1000,
+packs 44→45), which makes the *local* `audit_repo.py` red. This is **not** from this lane (stubs add
+no `SKILL.md`) and is **not** on origin via my pushes; that agent owns updating README counts.
