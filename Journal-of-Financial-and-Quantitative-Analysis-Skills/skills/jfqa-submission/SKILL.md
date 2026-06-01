@@ -1,0 +1,57 @@
+---
+name: jfqa-submission
+description: Final pre-submission preflight for the Journal of Financial and Quantitative Analysis (JFQA) via Editorial Manager — text-searchable single PDF, 8.5x11 / 1-inch / 12-pt Times New Roman double-spaced formatting, double-anonymous anonymization, the 100-word abstract cap, the $350 fee, prior-rejection disclosure to avoid the one-year ban, and code-sharing exception timing. Final checks; it does not draft content.
+---
+
+# JFQA Submission Preflight (jfqa-submission)
+
+Run this before pressing submit on **Editorial Manager** (`editorialmanager.com/jfqa/`). JFQA requires an account **separate** from a Cambridge Core account.
+
+## Process facts (verify on the official page)
+
+- Published by **Cambridge University Press** for the **University of Washington Foster School of Business**.
+- **$350** fee, credit card only; **$275 refunded** if the paper is not sent to a reviewer (a desk reject keeps **$75**). **Double-anonymous** review; the text-searchable PDF goes blind to reviewer(s). No fixed length limit, but over-long papers are likely desk-rejected.
+
+## Preflight checklist
+
+### Manuscript & formatting
+- [ ] Single **text-searchable PDF** (no image-only pages, no separate figure files).
+- [ ] **8.5 × 11** paper, **1-inch** margins, **12-pt Times New Roman**, **double-spaced** body and appendices.
+- [ ] **Abstract**: one paragraph, **≤ 100 words** (see jfqa-contribution-framing).
+- [ ] Tables/figures embedded, numbered, with self-contained notes (see jfqa-tables-figures).
+
+### Anonymization (double-anonymous — required)
+- [ ] No author names, affiliations, or acknowledgments in the PDF.
+- [ ] Self-citations phrased neutrally; PDF metadata scrubbed of author identity.
+
+### Disclosures & resubmission rule
+- [ ] If this paper was **previously rejected by JFQA** and substantially modified, the **cover letter explicitly discloses the prior rejection** — failing to do so triggers desk rejection **and a one-year submission ban** for the corresponding author.
+- [ ] Confirmed not under review elsewhere.
+
+### Code-sharing timing
+- [ ] If you need a **code-sharing exception** (e.g., delayed release for confidential data), it is requested **on this initial submission** — not later (see jfqa-replication-and-data-policy).
+
+## Anti-patterns
+
+- Image-only PDF; abstract over 100 words; wrong font/margins/spacing; author identity left in text or metadata.
+- Resubmitting a previously rejected paper without disclosing it (one-year ban); requesting a code-sharing exception only after submission.
+
+## Output format
+
+```
+【PDF】single, text-searchable, exhibits embedded? [Y/N]
+【Formatting】8.5x11 / 1-in / 12-pt TNR / double-spaced? [Y/N]
+【Abstract】≤100 words, one paragraph? [Y/N]
+【Anonymized】body + metadata clean? [Y/N]
+【Prior-rejection disclosure】included if applicable? [Y/N/NA]
+【Code exception】requested now if needed? [Y/N/NA]
+【Fee】$350 ready ($275 refundable)? [Y/N]
+【Next step】await desk decision → jfqa-rebuttal on R&R
+```
+
+## Supplementary resources
+
+- [`templates/manuscript_template.md`](templates/manuscript_template.md) — JFQA manuscript skeleton (≤100-word abstract, intro arc, design, exhibits)
+- [`templates/checklist.md`](templates/checklist.md) — pre-submission self-check
+- [`../../resources/external_tools.md`](../../resources/external_tools.md) — finance data sources and Stata/R/Python packages
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official JFQA URLs behind every fact

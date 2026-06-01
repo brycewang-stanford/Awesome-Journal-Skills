@@ -1,0 +1,26 @@
+{
+  "name": "mathfin-skills",
+  "description": "Agent skill stack for manuscripts targeted at Mathematical Finance — the Wiley-Blackwell journal of financial mathematics affiliated with the Bachelier Finance Society. Built for mathematically rigorous work: stochastic analysis, stochastic calculus, probability theory, and proofs applied to derivative pricing, risk, portfolio theory, and market microstructure. Covers methodologically novel theory framing, theorem-and-proof exposition, self-contained appendices, numerical experiments that support (not replace) the theory, JEL + AMS/MSC classification, Wiley Research Exchange LaTeX submission, single-blind review, Wiley Data Availability Statements, and revision strategy. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/mathfin-skills",
+  "repository": "https://github.com/brycewang-stanford/mathfin-skills",
+  "keywords": [
+    "mathematical-finance",
+    "financial-mathematics",
+    "stochastic-analysis",
+    "stochastic-calculus",
+    "probability-theory",
+    "derivative-pricing",
+    "portfolio-theory",
+    "risk-measures",
+    "bachelier-finance-society",
+    "wiley",
+    "theorem-proof",
+    "academic-writing"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jfi-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Financial Intermediation (JFI), an Elsevier journal on banking and financial intermediation.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jfi-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Financial Intermediation (JFI) manuscript lifecycle — banking and financial-intermediation research, theory and empirics, Editorial Manager submission with a non-refundable fee, single-blind review, and Elsevier data-sharing norms.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jfi-skills",
+      "repository": "https://github.com/brycewang-stanford/jfi-skills",
+      "keywords": [
+        "journal-of-financial-intermediation",
+        "jfi",
+        "banking",
+        "financial-intermediation",
+        "corporate-finance",
+        "elsevier",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jfi-workflow",
+        "skills/jfi-topic-selection",
+        "skills/jfi-literature-positioning",
+        "skills/jfi-identification-strategy",
+        "skills/jfi-data-analysis",
+        "skills/jfi-contribution-framing",
+        "skills/jfi-tables-figures",
+        "skills/jfi-writing-style",
+        "skills/jfi-replication-and-data-policy",
+        "skills/jfi-review-process",
+        "skills/jfi-submission",
+        "skills/jfi-rebuttal"
+      ]
+    }
+  ]
+}

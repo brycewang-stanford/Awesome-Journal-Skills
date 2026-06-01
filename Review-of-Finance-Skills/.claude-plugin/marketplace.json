@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "rof-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Review of Finance (RoF), the official journal of the European Finance Association.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "rof-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Review of Finance (RoF) manuscript lifecycle for empirical and theoretical finance.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/rof-skills",
+      "repository": "https://github.com/brycewang-stanford/rof-skills",
+      "keywords": [
+        "review-of-finance",
+        "rof",
+        "european-finance-association",
+        "empirical-finance",
+        "asset-pricing",
+        "corporate-finance",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/rof-workflow",
+        "skills/rof-topic-selection",
+        "skills/rof-contribution-framing",
+        "skills/rof-literature-positioning",
+        "skills/rof-identification-strategy",
+        "skills/rof-data-analysis",
+        "skills/rof-tables-figures",
+        "skills/rof-writing-style",
+        "skills/rof-replication-and-data-policy",
+        "skills/rof-review-process",
+        "skills/rof-submission",
+        "skills/rof-rebuttal"
+      ]
+    }
+  ]
+}

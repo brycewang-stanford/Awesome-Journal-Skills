@@ -1,0 +1,26 @@
+{
+  "name": "rof-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Review of Finance (RoF) — the official journal of the European Finance Association (EFA), published by Oxford University Press, covering general-interest empirical and theoretical finance at the level of the top-three finance journals. Submission is via Editorial Express under double-blind review with a real, tiered submission fee (reduced for EFA members) and an optional 14-day Fast-Track track; manuscripts face a hard 60-page cap (incl. appendices, bibliography, figures, tables), a 150-word abstract, Chicago citations, and a two-round decision philosophy. Covers topic selection, contribution framing, literature positioning, causal/structural identification, data analysis, figure-forward exhibits, RoF house style, the Code Sharing and Data Availability Policy, referee/review-process strategy, submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs; Stata / R / Python conventions for empirical and theoretical finance.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/rof-skills",
+  "repository": "https://github.com/brycewang-stanford/rof-skills",
+  "keywords": [
+    "review-of-finance",
+    "rof",
+    "european-finance-association",
+    "efa",
+    "empirical-finance",
+    "asset-pricing",
+    "corporate-finance",
+    "financial-economics",
+    "causal-inference",
+    "editorial-express",
+    "code-sharing-policy",
+    "academic-writing"
+  ]
+}

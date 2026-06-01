@@ -1,0 +1,27 @@
+{
+  "name": "jfqa-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of Financial and Quantitative Analysis (JFQA) — empirical and quantitative financial economics (corporate finance, investments, capital and security markets, financial institutions, and finance-relevant quantitative methods), published by Cambridge University Press for the Michael G. Foster School of Business at the University of Washington. Built around the JFQA realities: submission via Editorial Manager with a text-searchable PDF, a $350 fee (only $275 refunded if not sent to a reviewer), double-anonymous review, a strict one-paragraph / 100-word abstract cap, prescriptive 8.5x11 / 1-inch / 12-pt Times New Roman double-spaced formatting, a one-year resubmission ban for undisclosed prior rejections, and the JFQA Code Sharing Policy with a dedicated JFQA Dataverse at the Harvard Dataverse. Covers topic fit, literature positioning, causal/identification design for finance, robustness, tables and figures, house style, the code/data archive, referee strategy, submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs; Stata / R / Python conventions.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jfqa-skills",
+  "repository": "https://github.com/brycewang-stanford/jfqa-skills",
+  "keywords": [
+    "journal-of-financial-and-quantitative-analysis",
+    "jfqa",
+    "empirical-finance",
+    "quantitative-finance",
+    "corporate-finance",
+    "investments",
+    "asset-pricing",
+    "financial-institutions",
+    "double-anonymous-review",
+    "code-sharing-policy",
+    "jfqa-dataverse",
+    "editorial-manager",
+    "academic-writing"
+  ]
+}

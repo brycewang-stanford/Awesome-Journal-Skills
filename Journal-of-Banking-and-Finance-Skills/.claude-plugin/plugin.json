@@ -1,0 +1,26 @@
+{
+  "name": "jbf-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of Banking & Finance (JBF) — an Elsevier journal (est. 1977, monthly, ISSN 0378-4266) for empirical and theoretical research on banking, financial intermediation, financial institutions, capital markets, investments, corporate finance, and financial regulation, with a strong empirical, bank-focused orientation. Covers the JBF-specific process: a USD 350 non-refundable submission fee paid in Editorial Manager, double-anonymized review (anonymized manuscript plus separate title page), free-format 'your paper your way' submission, Elsevier author-date (Harvard) referencing, 1-7 keywords and JEL codes, encouraged Highlights, free integrated SSRN preprint posting, mandatory generative-AI declaration, and Elsevier research-data sharing (data availability statement, Mendeley Data) rather than a journal-run replication archive. Covers topic fit, literature positioning, identification for empirical banking/finance, robustness, tables and figures, house style, contribution framing, data-and-code policy, referee strategy, submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs; Stata / R / Python conventions.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jbf-skills",
+  "repository": "https://github.com/brycewang-stanford/jbf-skills",
+  "keywords": [
+    "journal-of-banking-and-finance",
+    "jbf",
+    "elsevier",
+    "banking",
+    "financial-intermediation",
+    "empirical-finance",
+    "corporate-finance",
+    "financial-regulation",
+    "editorial-manager",
+    "double-anonymized-review",
+    "author-date-harvard",
+    "academic-writing"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jfqa-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Financial and Quantitative Analysis (JFQA), a leading empirical and quantitative finance journal.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jfqa-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Financial and Quantitative Analysis (JFQA) manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jfqa-skills",
+      "repository": "https://github.com/brycewang-stanford/jfqa-skills",
+      "keywords": [
+        "journal-of-financial-and-quantitative-analysis",
+        "jfqa",
+        "empirical-finance",
+        "quantitative-finance",
+        "corporate-finance",
+        "investments",
+        "code-sharing-policy",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jfqa-workflow",
+        "skills/jfqa-topic-selection",
+        "skills/jfqa-literature-positioning",
+        "skills/jfqa-identification-strategy",
+        "skills/jfqa-data-analysis",
+        "skills/jfqa-contribution-framing",
+        "skills/jfqa-tables-figures",
+        "skills/jfqa-writing-style",
+        "skills/jfqa-replication-and-data-policy",
+        "skills/jfqa-review-process",
+        "skills/jfqa-submission",
+        "skills/jfqa-rebuttal"
+      ]
+    }
+  ]
+}

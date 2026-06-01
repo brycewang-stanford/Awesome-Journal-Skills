@@ -1,0 +1,26 @@
+{
+  "name": "jfi-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of Financial Intermediation (JFI) — an Elsevier journal (ISSN 1042-9573) on banking, financial intermediation, and the economics of financial institutions and markets, spanning both theory and empirics. Covers the US$500 non-refundable submission fee paid in Editorial Manager, single-anonymized (single-blind) review with a minimum of one expert referee and a final editorial decision, the active desk-rejection policy, optional free SSRN preprint posting, up to 6 JEL codes and 6 keywords, 'your-paper-your-way' submission with author–date Elsevier reference style applied at proof, Elsevier data-sharing and Data Statement norms, and the mandatory generative-AI disclosure. Topic fit for banking and intermediation, theory and empirical identification for financial-economics, tables and figures, contribution framing, literature positioning, replication and data policy, referee rebuttals, and submission preflight. Bilingual en / zh-CN docs; Stata / R / Python conventions.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jfi-skills",
+  "repository": "https://github.com/brycewang-stanford/jfi-skills",
+  "keywords": [
+    "journal-of-financial-intermediation",
+    "jfi",
+    "banking",
+    "financial-intermediation",
+    "financial-institutions",
+    "corporate-finance",
+    "bank-regulation",
+    "elsevier",
+    "editorial-manager",
+    "causal-inference",
+    "academic-writing",
+    "data-sharing-policy"
+  ]
+}

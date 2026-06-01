@@ -1,0 +1,48 @@
+---
+name: jbf-review-process
+description: Use to understand the Journal of Banking & Finance (JBF) editorial pipeline — the desk screen, double-anonymized refereeing, the role of the USD 350 fee in reviewer rewards, and what to expect between submission and decision. Sets expectations; pair with jbf-rebuttal once you receive an R&R.
+---
+
+# Review Process (jbf-review-process)
+
+## When to trigger
+
+- Before submitting, to understand how JBF handles a manuscript
+- After submission, to interpret status changes in Editorial Manager
+- When deciding how to engage with the fee, the desk screen, and reviewers
+
+## How JBF review works (verified 2026-06-01; lead-editor masthead 待核实)
+
+- **Publisher / platform.** Elsevier; the editorial pipeline runs in **Editorial Manager**, reached from the journal homepage on ScienceDirect.
+- **Lead editor.** **Christa H. S. Bouwman** (Texas A&M University) has led the journal since **February 2025**, succeeding **Geert Bekaert** (2015–Feb 2025). The journal's lead masthead title appears to be **"Managing Editor."** A secondary AI-generated claim naming Iftekhar Hasan as "Editor-in-Chief" could not be confirmed against the official board — **待核实**; treat the exact title and co-editor list as unverified.
+- **The fee funds review quality.** The **USD 350 non-refundable** submission fee is explicitly used to fund academic activities and **reviewer rewards for timely, high-quality reports**. This is unusual among top finance journals and signals an emphasis on review turnaround.
+- **Desk screen first.** Editors can **desk-reject without sending the paper to referees** — even after the fee is paid. A clean, on-scope, well-anonymized submission is what clears this first screen. Free **SSRN** posting becomes available once the paper passes this initial desk review.
+- **Double-anonymized refereeing.** Identities of both authors and reviewers are concealed. Referees assess scope fit (banking / intermediation / capital markets / corporate finance / regulation), contribution, identification, data, and robustness.
+- **Decisions.** Expect the standard ladder: reject, major/minor revision (R&R), or accept. Treat any positive decision short of accept as an R&R and route to `jbf-rebuttal`.
+
+## What clears the desk screen
+
+- [ ] In scope for a **bank/intermediation-focused** finance journal (see jbf-topic-selection)
+- [ ] A defensible identification/empirical design (see jbf-identification-strategy)
+- [ ] Fully **anonymized** manuscript + separate title page
+- [ ] Fee paid or waiver code entered; declarations complete
+
+## Anti-patterns
+
+- Treating the fee as a guarantee of full review — it is not; desk rejection still happens
+- Submitting a paper out of JBF's bank/finance scope and hoping referees stretch it
+- Naming a specific "Editor-in-Chief" in correspondence on the basis of unverified secondary sources
+- Breaking anonymity and forcing an administrative bounce-back before review
+
+## Output format
+
+```
+【Scope】fits banking/intermediation/markets/regulation? [Y/N]
+【Desk readiness】anonymized + declarations + fee/waiver? [Y/N]
+【Status read】desk screen → referees → decision
+【Next step】on R&R → jbf-rebuttal
+```
+
+## Supplementary resources
+
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — sources for editor, fee, and review-model facts (and 待核实 notes)

@@ -1,0 +1,26 @@
+{
+  "name": "jcf-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of Corporate Finance (JCF) — an Elsevier journal covering empirical and theoretical corporate finance (financial structure, governance, payout, financial contracting, risk management, innovation, M&A, international corporate finance, and intersections with macro, asset pricing, household/behavioral finance, fintech/blockchain, law, financial intermediation, and market microstructure). Submission via Editorial Manager reached from ScienceDirect, a US$340 non-refundable submission fee, a 250-word abstract cap, single-anonymized (single-blind) review to a minimum of two reviewers, an active desk-rejection policy, 'your paper, your way' author-date references at first submission, free integrated SSRN preprint posting, and Elsevier Option C research-data availability. Covers topic selection, literature positioning, causal identification for corporate finance, robustness via tables/figures, contribution framing, the data/code policy, submission preflight, referee strategy, and R&R rebuttals. Bilingual en / zh-CN docs; Stata / R / Python conventions.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jcf-skills",
+  "repository": "https://github.com/brycewang-stanford/jcf-skills",
+  "keywords": [
+    "journal-of-corporate-finance",
+    "jcf",
+    "corporate-finance",
+    "empirical-finance",
+    "elsevier",
+    "editorial-manager",
+    "governance",
+    "payout-policy",
+    "mergers-and-acquisitions",
+    "financial-contracting",
+    "causal-inference",
+    "academic-writing"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jbf-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Banking & Finance (JBF), an Elsevier journal for empirical and theoretical research on banking, financial intermediation, and capital markets.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jbf-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Banking & Finance (JBF) manuscript lifecycle: from topic selection through Editorial Manager submission and R&R rebuttal.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jbf-skills",
+      "repository": "https://github.com/brycewang-stanford/jbf-skills",
+      "keywords": [
+        "journal-of-banking-and-finance",
+        "jbf",
+        "elsevier",
+        "empirical-finance",
+        "banking",
+        "financial-intermediation",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jbf-workflow",
+        "skills/jbf-topic-selection",
+        "skills/jbf-literature-positioning",
+        "skills/jbf-identification-strategy",
+        "skills/jbf-data-analysis",
+        "skills/jbf-tables-figures",
+        "skills/jbf-writing-style",
+        "skills/jbf-contribution-framing",
+        "skills/jbf-replication-and-data-policy",
+        "skills/jbf-review-process",
+        "skills/jbf-submission",
+        "skills/jbf-rebuttal"
+      ]
+    }
+  ]
+}

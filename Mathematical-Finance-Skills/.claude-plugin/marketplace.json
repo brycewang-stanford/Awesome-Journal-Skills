@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "mathfin-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Mathematical Finance (Wiley-Blackwell), the financial-mathematics journal of the Bachelier Finance Society.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "mathfin-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Mathematical Finance manuscript lifecycle, from theorem framing to Wiley Research Exchange submission and revision.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/mathfin-skills",
+      "repository": "https://github.com/brycewang-stanford/mathfin-skills",
+      "keywords": [
+        "mathematical-finance",
+        "financial-mathematics",
+        "stochastic-analysis",
+        "probability-theory",
+        "derivative-pricing",
+        "theorem-proof",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/mathfin-workflow",
+        "skills/mathfin-topic-selection",
+        "skills/mathfin-literature-positioning",
+        "skills/mathfin-identification-strategy",
+        "skills/mathfin-contribution-framing",
+        "skills/mathfin-data-analysis",
+        "skills/mathfin-tables-figures",
+        "skills/mathfin-writing-style",
+        "skills/mathfin-replication-and-data-policy",
+        "skills/mathfin-review-process",
+        "skills/mathfin-submission",
+        "skills/mathfin-rebuttal"
+      ]
+    }
+  ]
+}

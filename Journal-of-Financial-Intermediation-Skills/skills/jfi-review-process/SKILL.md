@@ -1,0 +1,55 @@
+---
+name: jfi-review-process
+description: Use to understand and plan around the Journal of Financial Intermediation editorial process — the active desk-rejection policy, single-anonymized (single-blind) review with a minimum of one expert referee, the editor's final and unappealable decision, and the option to choose the Managing Editor. It sets expectations; it does not draft content.
+---
+
+# Review Process (jfi-review-process)
+
+## When to trigger
+
+- Before submission, to calibrate expectations on timing, odds, and what "single-blind" implies
+- After a decision, to understand what is (and is not) negotiable
+- Deciding whether to request a specific Managing Editor
+
+## Process facts (verified 2026-06-01; re-confirm on the official Guide for Authors)
+
+- **Active desk-rejection.** The process is explicitly designed so a large share of submissions are
+  rejected **without full review**. A clean, well-targeted submission is part of clearing this screen.
+- **Editor-first triage.** Papers are first assessed by the editor for suitability; suitable papers are
+  typically sent to a **minimum of one independent expert reviewer** — fewer than the two common at many
+  finance journals.
+- **Single-anonymized (single-blind) review.** Referees see the authors' identities; authors do **not** see
+  referee identities. You do **not** need to anonymize the manuscript body.
+- **Final, unappealable decision.** The Editor makes the final decision and **that decision is final**.
+  Plan as if there is no appeals channel.
+- **Choose your Managing Editor.** Authors may request the Managing Editor in charge of their submission
+  (accommodated within constraints); papers are reviewed largely by editorial-board-level experts.
+- The **Editor-in-Chief / current Managing Editor is 待核实** — the official editorial-board page could not
+  be confirmed from a dated source (HTTP 403). Conflicting secondary names appear (Thakor, von Thadden,
+  Fulghieri, Campello). Verify before requesting an editor by name.
+
+## How to use these facts
+
+- **Pass the desk screen first.** Lead with the intermediation mechanism and contribution in the abstract
+  and introduction; do not bury them (see jfi-contribution-framing).
+- **Plan for one strong referee.** A single expert can carry the decision — pre-empt the most likely
+  objection from a banking specialist (see jfi-rebuttal).
+- **Treat the decision as final.** Win up front with a clean submission and tight cover letter.
+- **Pick the editor deliberately** if your topic maps to a board member's expertise — but verify current
+  editors first (待核实).
+
+## Anti-patterns
+
+- Anonymizing the body as if double-blind (unnecessary; this is single-blind)
+- Assuming a two-referee process and being surprised by a single decisive report
+- Planning an appeal for a decision the journal states is final
+- Naming a requested editor from outdated secondary sources
+
+## Output format
+
+```
+【Desk-screen risk】<what could trip the screen + fix>
+【Referee plan】likely-one-expert objection + pre-empt
+【Editor choice】request <name/board area> or default  (current editors 待核实)
+【Decision posture】treat as final; win up front
+```
