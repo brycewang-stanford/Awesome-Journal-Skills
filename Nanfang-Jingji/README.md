@@ -1,7 +1,26 @@
 <!-- AJS-ROOT-JOURNAL-ENTRY -->
 # 《南方经济》
 
-根目录期刊入口，用于首页浏览。目录名采用拼音：`Nanfang-Jingji`。
+<a href="../Chinese-SocialScience-Journal-Skills/skills/south-china-journal-of-economics/"><img src="../assets/covers/south-china-journal-of-economics.png" alt="《南方经济》封面" width="150" align="right"></a>
+
+> 聚焦经济理论与南方经济发展的学术刊物。
+
+| 期刊概览 | |
+|---|---|
+| **学科** | 理论经济学 |
+| **主办/出版** | 广东省社会科学界联合会主管 · 广东省社会科学院、广东经济学会主办 |
+| **创刊** | 1983 |
+| **ISSN** | 1000-6249 · CN 44-1068/F |
+| **周期** | 月刊 |
+| **收录/地位** | CSSCI · 北大中文核心 |
+
+**▶ 调用 skill —— [`south-china-journal-of-economics`](../Chinese-SocialScience-Journal-Skills/skills/south-china-journal-of-economics/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
+
+<sub>属于 **[中文社会科学期刊 Skills](../Chinese-SocialScience-Journal-Skills/)** 合集。投稿前请以官网最新《投稿须知》为准。</sub>
+
+---
+
+<!-- 机器可读的规范指针——请勿删除或改动（由 tools/audit_repo.py 校验）。 -->
 
 - Canonical skill: [Chinese-SocialScience-Journal-Skills/skills/south-china-journal-of-economics/](../Chinese-SocialScience-Journal-Skills/skills/south-china-journal-of-economics/)
 - Skill name: `south-china-journal-of-economics`
