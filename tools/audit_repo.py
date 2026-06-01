@@ -7,6 +7,7 @@ fresh clone with first-level submodules populated.
 
 from __future__ import annotations
 
+import configparser
 import json
 import re
 import sys
@@ -16,8 +17,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 
-EXPECTED_SKILL_COUNT = 844
-EXPECTED_PACK_COUNT = 44
+EXPECTED_SKILL_COUNT = 1036
+EXPECTED_PACK_COUNT = 48
 EXPECTED_ROOT_JOURNAL_ENTRIES = 200
 
 IMPORTED_ROOTS = {
@@ -31,6 +32,23 @@ IMPORTED_ROOTS = {
 }
 
 README_FILES = [ROOT / "README.md", ROOT / "README.zh-CN.md"]
+CHINESE_DEPTH_PACKS_REQUIRING_SOURCE_MAPS = {
+    "Accounting-Research-Skills",
+    "China-Economic-Quarterly-Skills",
+    "China-Industrial-Economics-Skills",
+    "China-Rural-Economy-Skills",
+    "Chinese-Public-Administration-Skills",
+    "Economic-Research-Journal-Skills",
+    "Journal-of-Finance-and-Economics-Skills",
+    "Journal-of-Financial-Research-Skills",
+    "Journal-of-Management-Sciences-in-China-Skills",
+    "Journal-of-Management-World-Skills",
+    "Journal-of-Quantitative-and-Technological-Economics-Skills",
+    "Journal-of-World-Economy-Skills",
+    "Nankai-Business-Review-Skills",
+    "Social-Sciences-in-China-Skills",
+    "Sociological-Studies-Skills",
+}
 ROOT_ENTRY_MARKER = "AJS-ROOT-JOURNAL-ENTRY"
 LINK_RE = re.compile(
     r"(?<!!)\[[^\]]*]\(([^)]+)\)"
@@ -43,6 +61,9 @@ INLINE_CODE_RE = re.compile(r"`[^`]*`")
 FRONTMATTER_KEY_RE = re.compile(r"^([A-Za-z0-9_-]+):", re.MULTILINE)
 FRONTMATTER_NAME_RE = re.compile(r"^name:\s*[\"']?([^\"'\n]+)", re.MULTILINE)
 FRONTMATTER_DESCRIPTION_RE = re.compile(r"^description:\s*\S+", re.MULTILINE)
+ROOT_CANONICAL_RE = re.compile(r"^- Canonical skill:\s*\[[^\]]+]\(([^)]+)\)", re.MULTILINE)
+ROOT_SKILL_NAME_RE = re.compile(r"^- Skill name:\s*`([^`]+)`", re.MULTILINE)
+ROOT_BUNDLE_RE = re.compile(r"^- Bundle:\s*\[[^\]]+]\(([^)]+)\)", re.MULTILINE)
 
 
 def rel(path: Path) -> str:
@@ -115,6 +136,117 @@ def check_counts(errors: list[str]) -> None:
         errors.append(
             f"expected {EXPECTED_ROOT_JOURNAL_ENTRIES} root journal entries, found {len(root_entries)}"
         )
+
+
+def gitmodule_paths(errors: list[str]) -> list[str]:
+    gitmodules = ROOT / ".gitmodules"
+    parser = configparser.ConfigParser()
+    try:
+        with gitmodules.open(encoding="utf-8") as handle:
+            parser.read_file(handle)
+    except Exception as exc:  # noqa: BLE001 - keep the audit report actionable.
+        errors.append(f"{rel(gitmodules)}: could not parse .gitmodules: {exc}")
+        return []
+
+    paths: list[str] = []
+    for section in parser.sections():
+        path = parser.get(section, "path", fallback="").strip()
+        if not path:
+            errors.append(f"{rel(gitmodules)}: {section} missing path")
+            continue
+        paths.append(path)
+
+    duplicates = sorted(path for path in set(paths) if paths.count(path) > 1)
+    if duplicates:
+        errors.append(f"{rel(gitmodules)}: duplicate submodule path(s): {duplicates}")
+    return sorted(paths)
+
+
+def check_submodule_policy(errors: list[str]) -> None:
+    paths = gitmodule_paths(errors)
+    if not paths:
+        return
+
+    for path in paths:
+        if path not in IMPORTED_ROOTS:
+            errors.append(f"{rel(ROOT / '.gitmodules')}: path {path!r} missing from IMPORTED_ROOTS")
+
+    workflow = ROOT / ".github" / "workflows" / "sync-submodules.yml"
+    text = workflow.read_text(encoding="utf-8", errors="replace")
+    if re.search(r"^\s*submodules:\s*(?:true|recursive)\s*$", text, re.MULTILINE):
+        errors.append(f"{rel(workflow)}: use explicit first-level submodule init, not checkout submodules")
+    if re.search(r"\bgit\s+add\s+(?:\.|-A|--all)(?:\s|$)", text):
+        errors.append(f"{rel(workflow)}: sync bot must stage only known submodule paths")
+
+    for path in paths:
+        if text.count(path) < 3:
+            errors.append(
+                f"{rel(workflow)}: expected {path!r} in init, update, and targeted git add steps"
+            )
+
+
+def resolve_local_link(base: Path, target: str) -> Path:
+    target = target.split("#", 1)[0].split("?", 1)[0]
+    return (base / urllib.parse.unquote(target)).resolve()
+
+
+def check_root_journal_entries(errors: list[str]) -> None:
+    for readme in sorted(ROOT.glob("*/README.md")):
+        text = readme.read_text(encoding="utf-8", errors="replace")
+        if ROOT_ENTRY_MARKER not in text:
+            continue
+
+        entry_root = readme.parent
+        canonical_match = ROOT_CANONICAL_RE.search(text)
+        skill_name_match = ROOT_SKILL_NAME_RE.search(text)
+        bundle_match = ROOT_BUNDLE_RE.search(text)
+
+        if not canonical_match:
+            errors.append(f"{rel(readme)}: root journal entry missing canonical skill link")
+            continue
+        if not skill_name_match:
+            errors.append(f"{rel(readme)}: root journal entry missing skill name")
+            continue
+        if not bundle_match:
+            errors.append(f"{rel(readme)}: root journal entry missing bundle link")
+            continue
+
+        canonical = resolve_local_link(entry_root, canonical_match.group(1))
+        bundle = resolve_local_link(entry_root, bundle_match.group(1))
+        skill_name = skill_name_match.group(1).strip()
+
+        try:
+            canonical.relative_to(ROOT)
+            bundle.relative_to(ROOT)
+        except ValueError:
+            errors.append(f"{rel(readme)}: root journal entry links outside repository")
+            continue
+
+        skill_file = canonical / "SKILL.md"
+        if not skill_file.exists():
+            errors.append(f"{rel(readme)}: canonical skill target lacks SKILL.md")
+            continue
+        if canonical.name != skill_name:
+            errors.append(
+                f"{rel(readme)}: skill name {skill_name!r} != canonical folder {canonical.name!r}"
+            )
+        if not bundle.exists() or not bundle.is_dir():
+            errors.append(f"{rel(readme)}: bundle target does not exist")
+        else:
+            try:
+                canonical.relative_to(bundle / "skills")
+            except ValueError:
+                errors.append(
+                    f"{rel(readme)}: canonical skill is not under declared bundle's skills/"
+                )
+
+        frontmatter = skill_file.read_text(encoding="utf-8", errors="replace")
+        name_match = FRONTMATTER_NAME_RE.search(frontmatter)
+        if name_match and name_match.group(1).strip() != skill_name:
+            errors.append(
+                f"{rel(readme)}: skill name {skill_name!r} "
+                f"!= canonical frontmatter {name_match.group(1).strip()!r}"
+            )
 
 
 def check_readme_badges(errors: list[str]) -> None:
@@ -192,6 +324,33 @@ def check_plugin_metadata(errors: list[str]) -> None:
                 f"{rel(marketplace_path)} skills list drift: "
                 f"missing={missing or []}, extra={extra or []}"
             )
+
+
+def check_pack_documentation(errors: list[str]) -> None:
+    for plugin_path in sorted(ROOT.glob("*/.claude-plugin/plugin.json")):
+        pack_root = plugin_path.parent.parent
+        if top_level(plugin_path) in IMPORTED_ROOTS:
+            continue
+
+        for name in ("README.md", "README.zh-CN.md", "LICENSE"):
+            if not (pack_root / name).exists():
+                errors.append(f"{rel(pack_root)} missing {name}")
+
+
+def check_source_maps(errors: list[str]) -> None:
+    for pack_name in sorted(CHINESE_DEPTH_PACKS_REQUIRING_SOURCE_MAPS):
+        source_map = ROOT / pack_name / "resources" / "official-source-map.md"
+        if not source_map.exists():
+            errors.append(f"{rel(source_map)} is missing")
+            continue
+
+        text = source_map.read_text(encoding="utf-8", errors="replace")
+        if len(text.strip()) < 400:
+            errors.append(f"{rel(source_map)} is too short to be a useful source map")
+        if not re.search(r"https?://", text):
+            errors.append(f"{rel(source_map)} has no source URL")
+        if not re.search(r"\b20\d{2}-\d{2}(?:-\d{2})?\b", text):
+            errors.append(f"{rel(source_map)} has no visible access/check date")
 
 
 def check_skill_frontmatter(errors: list[str]) -> None:
@@ -290,8 +449,12 @@ def check_markdown_links(errors: list[str]) -> None:
 def main() -> int:
     errors: list[str] = []
     check_counts(errors)
+    check_submodule_policy(errors)
+    check_root_journal_entries(errors)
     check_readme_badges(errors)
     check_plugin_metadata(errors)
+    check_pack_documentation(errors)
+    check_source_maps(errors)
     check_skill_frontmatter(errors)
     check_markdown_links(errors)
 

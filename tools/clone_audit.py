@@ -32,6 +32,7 @@ IMPORTED_ROOTS = {
 
 BREADTH_BUNDLES = {
     "Chinese-SocialScience-Journal-Skills",
+    "Computer-Science-Conference-Skills",
     "English-SocialScience-Journal-Skills",
     "English-NaturalScience-Journal-Skills",
 }

@@ -1,0 +1,31 @@
+# Maintenance Tools
+
+These scripts are dependency-free Python tools for repository maintenance. They
+are designed to run on a fresh clone after first-level submodules are populated.
+
+## Hard Gates
+
+| Tool | Purpose | Typical command |
+|------|---------|-----------------|
+| [`run_checks.py`](run_checks.py) | Runs the standard local hard gates and, by default, the report-only audits. CI uses `--skip-reports` so warnings stay advisory. | `python3 tools/run_checks.py` |
+| [`audit_repo.py`](audit_repo.py) | Validates repository invariants: skill counts, pack counts, root journal entries, plugin metadata, required source maps, frontmatter, local Markdown links, and submodule sync policy. | `python3 tools/audit_repo.py` |
+| [`clone_audit.py`](clone_audit.py) | Finds likely find-replace skill clones. CI reports near-clones at 0.75 and fails only at 0.90. | `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20` |
+
+## Report-Only Tools
+
+These tools exit 0 by default when they report warnings, and still exit non-zero
+for argument or runtime errors. Use `--strict` only when a focused cleanup batch
+should fail on warnings.
+
+| Tool | Purpose | Typical command |
+|------|---------|-----------------|
+| [`source_map_audit.py`](source_map_audit.py) | Reports first-party `resources/official-source-map.md` files with missing source URLs, missing visible check dates, thin content, and heavy unresolved-flag loads. | `python3 tools/source_map_audit.py` |
+| [`root_entry_audit.py`](root_entry_audit.py) | Reports progress and source-anchor gaps for the 200 root journal-entry cards. | `python3 tools/root_entry_audit.py` |
+
+## Python Syntax Check
+
+Run this after editing any script in this directory:
+
+```bash
+python3 -m py_compile tools/*.py
+```
