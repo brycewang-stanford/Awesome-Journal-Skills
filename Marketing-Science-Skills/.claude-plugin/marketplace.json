@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "mksc-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Marketing Science, the flagship quantitative-marketing journal of INFORMS / ISMS.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "mksc-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Marketing Science manuscript lifecycle, from modeling-driven topic selection through double-anonymous review and the replication deposit.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/mksc-skills",
+      "repository": "https://github.com/brycewang-stanford/mksc-skills",
+      "keywords": [
+        "marketing-science",
+        "mksc",
+        "quantitative-marketing",
+        "structural-econometrics",
+        "analytical-modeling",
+        "informs",
+        "scholarone"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/mksc-workflow",
+        "skills/mksc-topic-selection",
+        "skills/mksc-theory-development",
+        "skills/mksc-literature-positioning",
+        "skills/mksc-methods",
+        "skills/mksc-data-analysis",
+        "skills/mksc-contribution-framing",
+        "skills/mksc-tables-figures",
+        "skills/mksc-writing-style",
+        "skills/mksc-submission",
+        "skills/mksc-review-process",
+        "skills/mksc-rebuttal"
+      ]
+    }
+  ]
+}

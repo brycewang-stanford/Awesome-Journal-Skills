@@ -1,0 +1,26 @@
+{
+  "name": "jmr-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of Marketing Research (JMR), the American Marketing Association's methods- and modeling-forward flagship published by SAGE. Covers the full spectrum of marketing research with an emphasis on methodological rigor — spanning behavioral/lab-and-field experiments, econometric and structural/analytical marketing-science modeling, and methods contributions. Skills handle topic selection, theory development, literature positioning, research design and identification, estimation and inference (exact p-values, standard errors, effect sizes), contribution framing, AMA/SAGE house-style tables and figures, the 50-page page-limit format with a 'W'-prefixed Web Appendix, ScholarOne submission, double-anonymized review, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jmr-skills",
+  "repository": "https://github.com/brycewang-stanford/jmr-skills",
+  "keywords": [
+    "journal-of-marketing-research",
+    "jmr",
+    "marketing-research",
+    "american-marketing-association",
+    "consumer-behavior",
+    "marketing-science",
+    "structural-modeling",
+    "econometrics",
+    "field-experiments",
+    "methods-contribution",
+    "web-appendix",
+    "scholarone"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "jm-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of Marketing (JM), the American Marketing Association's premier general-audience journal for substantive marketing research with managerial, policy, and societal relevance. Published by SAGE on behalf of the AMA. Covers substantive topic selection, theory development grounded in real-world marketing phenomena, literature positioning, empirics-first and 'big tent' empirical methods (experiments, field studies, surveys, secondary data, qualitative), exact p-value/effect-size data analysis and JM Dataverse replication, managerial-relevance contribution framing, AMA house-style tables/figures and prose, ScholarOne (Sage Track) submission, the double-anonymized review process, and multi-round R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jm-skills",
+  "repository": "https://github.com/brycewang-stanford/jm-skills",
+  "keywords": [
+    "journal-of-marketing",
+    "jm",
+    "american-marketing-association",
+    "marketing-research",
+    "substantive-marketing",
+    "managerial-relevance",
+    "empirics-first",
+    "marketing-strategy",
+    "consumer-behavior",
+    "field-experiments",
+    "academic-writing",
+    "scholarone"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jmr-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Marketing Research (JMR), the AMA's methods- and modeling-forward marketing flagship.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jmr-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Marketing Research (JMR) manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jmr-skills",
+      "repository": "https://github.com/brycewang-stanford/jmr-skills",
+      "keywords": [
+        "journal-of-marketing-research",
+        "jmr",
+        "marketing-research",
+        "consumer-behavior",
+        "marketing-science",
+        "structural-modeling",
+        "methods-contribution"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jmr-workflow",
+        "skills/jmr-topic-selection",
+        "skills/jmr-theory-development",
+        "skills/jmr-literature-positioning",
+        "skills/jmr-methods",
+        "skills/jmr-data-analysis",
+        "skills/jmr-contribution-framing",
+        "skills/jmr-tables-figures",
+        "skills/jmr-writing-style",
+        "skills/jmr-submission",
+        "skills/jmr-review-process",
+        "skills/jmr-rebuttal"
+      ]
+    }
+  ]
+}

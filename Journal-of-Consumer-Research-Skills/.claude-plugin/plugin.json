@@ -1,0 +1,26 @@
+{
+  "name": "jcr-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of Consumer Research (JCR), the multi-disciplinary flagship of consumer behavior research published by Oxford University Press. Covers the JCR conceptual bar (advancing, deepening, or repudiating theory about consumption), interdisciplinary framing across psychology, anthropology, sociology, and economics, the mandatory Consumer Relevance and Contribution Statement, theory-driven multi-study behavioral experiments and interpretive Consumer Culture Theory (CCT) work, the research-transparency apparatus (Data Collection Statement, approved repositories, replication code, 7-year retention), the 60-double-spaced-page cap with a web appendix, Chicago Manual of Style, ScholarOne submission, double-anonymized review, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jcr-skills",
+  "repository": "https://github.com/brycewang-stanford/jcr-skills",
+  "keywords": [
+    "journal-of-consumer-research",
+    "jcr",
+    "consumer-behavior",
+    "consumer-research",
+    "marketing",
+    "consumer-psychology",
+    "consumer-culture-theory",
+    "behavioral-experiments",
+    "interdisciplinary",
+    "theory-development",
+    "research-transparency",
+    "academic-writing"
+  ]
+}

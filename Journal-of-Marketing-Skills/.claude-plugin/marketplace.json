@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jm-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Marketing (JM), the AMA's premier general-audience journal for substantive, managerially relevant marketing research.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jm-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Marketing (JM) manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jm-skills",
+      "repository": "https://github.com/brycewang-stanford/jm-skills",
+      "keywords": [
+        "journal-of-marketing",
+        "jm",
+        "american-marketing-association",
+        "substantive-marketing",
+        "managerial-relevance",
+        "empirics-first",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jm-workflow",
+        "skills/jm-topic-selection",
+        "skills/jm-theory-development",
+        "skills/jm-literature-positioning",
+        "skills/jm-methods",
+        "skills/jm-data-analysis",
+        "skills/jm-contribution-framing",
+        "skills/jm-tables-figures",
+        "skills/jm-writing-style",
+        "skills/jm-submission",
+        "skills/jm-review-process",
+        "skills/jm-rebuttal"
+      ]
+    }
+  ]
+}

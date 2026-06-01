@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jcr-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Consumer Research (JCR), the multi-disciplinary flagship of consumer behavior research.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jcr-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Consumer Research (JCR) manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jcr-skills",
+      "repository": "https://github.com/brycewang-stanford/jcr-skills",
+      "keywords": [
+        "journal-of-consumer-research",
+        "jcr",
+        "consumer-behavior",
+        "consumer-research",
+        "interdisciplinary",
+        "theory-development",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jcr-workflow",
+        "skills/jcr-topic-selection",
+        "skills/jcr-theory-development",
+        "skills/jcr-literature-positioning",
+        "skills/jcr-methods",
+        "skills/jcr-data-analysis",
+        "skills/jcr-contribution-framing",
+        "skills/jcr-tables-figures",
+        "skills/jcr-writing-style",
+        "skills/jcr-submission",
+        "skills/jcr-review-process",
+        "skills/jcr-rebuttal"
+      ]
+    }
+  ]
+}

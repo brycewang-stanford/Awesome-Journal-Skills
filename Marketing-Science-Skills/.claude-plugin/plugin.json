@@ -1,0 +1,26 @@
+{
+  "name": "mksc-skills",
+  "description": "Agent skill stack for manuscripts targeted at Marketing Science, the flagship quantitative-marketing journal of the INFORMS Society for Marketing Science (ISMS), published by INFORMS. Built around the journal's modeling core: structural econometric models, analytical (game-theoretic) models, econometric/statistical estimation, and machine-learning tools applied rigorously to marketing problems (pricing, advertising/digital, branding, channels/retail, strategy, analytics). Covers modeling-driven topic selection, model and identification development, literature positioning, structural/analytical methods, estimation and counterfactual analysis, contribution framing, INFORMS-style exhibits and prose, ScholarOne submission, double-anonymous review, R&R rebuttals, the Frontiers section, and the mandatory data-and-code replication policy. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/mksc-skills",
+  "repository": "https://github.com/brycewang-stanford/mksc-skills",
+  "keywords": [
+    "marketing-science",
+    "mksc",
+    "quantitative-marketing",
+    "structural-econometrics",
+    "analytical-modeling",
+    "game-theory",
+    "informs",
+    "isms",
+    "demand-estimation",
+    "pricing-advertising",
+    "counterfactual-analysis",
+    "scholarone"
+  ]
+}

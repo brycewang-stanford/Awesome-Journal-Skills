@@ -1,0 +1,58 @@
+---
+name: jmr-methods
+description: Use when matching the research design to the claim for a Journal of Marketing Research (JMR) manuscript — experimental design (lab and field), causal identification (IV/DiD/RDD/matching), or structural/analytical estimation. Adapts to JMR's dominant genres and to its journal-level rigor and replication expectations. It designs; jmr-data-analysis executes and reports.
+---
+
+# Research Design & Identification (jmr-methods)
+
+## When to trigger
+
+- The design may not actually support the causal, behavioral, or structural claim
+- You must choose between a lab experiment, a field experiment, and observational identification
+- A structural model needs an identification and estimation plan
+- Reviewers will probe confounds, internal/external validity, or "what identifies this?"
+
+## Match design to the claim by genre
+
+### Behavioral (lab and field experiments)
+- **Manipulation**: a clean operationalization of the cause, with manipulation and attention checks; pretests to validate stimuli.
+- **Design**: random assignment; factorial designs for interactions; **process-by-moderation** or measured-vs-manipulated mediation to test the mechanism (not just the effect).
+- **Field experiments**: a randomized intervention with a real marketing outcome (purchase, click, retention) strengthens external validity; pre-register where feasible.
+- **Power**: a priori power analysis sized for the **interaction**, not just the main effect; plan multiple studies (lab establishes mechanism; field shows it in market).
+
+### Modeling / econometric (observational and structural)
+- **Causal identification**: choose the strategy the variation supports — IV/2SLS, difference-in-differences (modern estimators for staggered adoption), regression discontinuity, matching, or control-function approaches — and defend the exclusion/parallel-trends/continuity assumptions.
+- **Structural estimation**: random-coefficient (BLP-style) demand, dynamic/discrete-choice, or hierarchical-Bayes models; state what data variation identifies each parameter and the estimator (GMM/MLE/MCMC).
+- **Data**: scanner/panel (NielsenIQ-IRI), clickstream, platform logs, or field-collaboration data; document sample construction and selection.
+
+## Journal-level expectations that shape design
+
+- The eventual report must carry **exact p-values (three digits), standard errors, and effect sizes** — design and power your studies so these are meaningful, not borderline.
+- Plan the **Web Appendix** from the start: full stimuli, additional studies, estimation details, and robustness go there ('W'-prefixed), keeping the print paper within **50 pages**.
+- Plan **replication**: per AMA transparency policy you must be able to share code, instruments/stimuli, and materials, and provide data/materials before final acceptance — build clean, documented pipelines now.
+
+## Anti-patterns
+
+- A single-cell or confounded manipulation that cannot isolate the cause.
+- Claiming causality from cross-sectional correlation with no identification strategy.
+- A structural model with an unstated or hand-waved identification argument.
+- Underpowered interaction tests; optional-stopping / unreported flexibility.
+- Designing studies that cannot meet the exact-statistics or replication mandates.
+
+## Output format
+
+```text
+[Target] JMR
+[Genre] behavioral / modeling-econometric
+[Claim] causal / structural / descriptive
+[Design] experiment(lab/field) / IV-DiD-RDD-matching / structural
+[Identification] assumption + the variation that identifies it
+[Power & studies] sized for interaction? lab+field plan?
+[Web Appendix / replication] planned
+[Next skill] jmr-data-analysis
+```
+
+## Resources
+
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md)
+- [`../../resources/external_tools.md`](../../resources/external_tools.md)
