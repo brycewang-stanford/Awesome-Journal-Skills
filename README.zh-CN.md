@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/agent-Claude%20Code-cc785c)](https://github.com/anthropics/claude-code)
-[![Skills](https://img.shields.io/badge/skills-844-cc785c)](#skill-pack-一览)
+[![Skills](https://img.shields.io/badge/skills-1036-cc785c)](#skill-pack-一览)
 [![Maintained by CoPaper.AI from Stanford REAP](https://img.shields.io/badge/Maintained%20by-CoPaper.AI%20from%20Stanford%20REAP-blue)](https://copaper.ai)
 [![Powered by StatsPAI](https://img.shields.io/badge/Powered%20by-StatsPAI-orange)](https://github.com/brycewang-stanford/StatsPAI)
 
@@ -25,12 +25,12 @@
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Skills-844-cc785c?style=for-the-badge" alt="844 个 Agent Skill">
+  <img src="https://img.shields.io/badge/Skills-1036-cc785c?style=for-the-badge" alt="1036 个 Agent Skill">
   &nbsp;
-  <img src="https://img.shields.io/badge/Skill_Packs-44-2b3137?style=for-the-badge" alt="44 个 Skill 包">
+  <img src="https://img.shields.io/badge/Skill_Packs-48-2b3137?style=for-the-badge" alt="48 个 Skill 包">
 </p>
 <p align="center">
-  <sub>共收录 <b>844 个 Agent Skill</b>，分布在 <b>44 个精选 Skill 包</b>中——一站式索引。</sub>
+  <sub>共收录 <b>1036 个 Agent Skill</b>，分布在 <b>48 个精选 Skill 包</b>中——一站式索引。</sub>
 </p>
 
 <p align="center">
@@ -98,7 +98,7 @@
   <sub>其他学科 · <b>Nature</b> &nbsp;<sup>封面插画 © <a href="https://inna-marie.com/2019/08/08/cover-art-nature-journal/">Inna-Marie Strazhnik (2019)</a></sup></sub>
 </p>
 
-按**期刊**组织的 Agent Skill 包索引——涵盖选题、定位核心进展、识别策略、表格与图件规范、复制包 / 数据可得性准备、修改回复。覆盖**社会科学中英文顶刊**，以及**自然科学与临床顶刊（Science、Cell、PNAS、NEJM、The Lancet）**——并新增一个 100 本期刊的**英文自然科学广度合集**，横跨生命科学、医学、物理、化学、材料、地球科学、CS/AI 与数学。
+按**期刊与会议**组织的 Agent Skill 包索引——涵盖选题、定位核心进展、识别策略、表格与图件规范、复制包 / 数据可得性准备、修改回复。覆盖**社会科学中英文顶刊**、**自然科学与临床顶刊（Science、Cell、PNAS、NEJM、The Lancet）**，AI 优先的**计算机科学会议广度合集**：NeurIPS / ICML / ICLR / AAAI / IJCAI 加上 150 个 CS 会议，以及 CS/AI 会议**深度包** NeurIPS、ICML 和 ICLR。
 
 每个 pack 都是**针对单一期刊**的方法论沉淀：它编码了某一本期刊的编委偏好、格式规范、识别标准和审稿文化。通用的"科研写作"Skill 包做不到这一点。
 
@@ -119,7 +119,7 @@
 
 ## 根目录 200 个期刊文件夹
 
-为了让用户在仓库首页的根目录就能看到完整的社科期刊阵列，现在 200 本广度合集期刊各有一个轻量入口文件夹：100 本中文经管路线图期刊使用拼音目录名，100 本英文经管 / 商科期刊使用英文题名目录名。这些目录只负责导航；真正可安装的 `SKILL.md` 仍保留在对应 bundle 内，因此插件路径和 844 个 skill 的计数不会被重复放大。
+为了让用户在仓库首页的根目录就能看到完整的社科期刊阵列，现在 200 本广度合集期刊各有一个轻量入口文件夹：100 本中文经管路线图期刊使用拼音目录名，100 本英文经管 / 商科期刊使用英文题名目录名。这些目录只负责导航；真正可安装的 `SKILL.md` 仍保留在对应 bundle 内，因此插件路径和 1036 个 skill 的计数不会被重复放大。
 
 ### 中文经管路线图 · 100 个拼音目录
 
@@ -199,7 +199,23 @@
 
 ## Skill Pack 一览
 
-> **收录范围。** 本索引聚焦**社会科学中英文顶刊**，以及**自然科学、临床与物理科学英文顶刊**。每个重点期刊都是一个**深度包**（单刊全流程，12 步）；三个**广度合集**则为每本期刊各提供一个“选刊定位 + 写作风格”技能——[Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) 覆盖 102 个中文社科期刊 profile（100 本中文经管路线图期刊 + 2 本更宽口径社科旗舰），[English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) 覆盖 100 本英文主流经济学/金融/管理/会计/营销/运营/信息系统期刊（经济学全部 Top-5、金融 Top-3、AOM/SMS 顶刊、FT50/UTD24/ABS 4★），[English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) 覆盖 100 本英文主流自然科学/临床/物理/形式科学期刊（三大通刊、Cell Press 与 Nature 子刊家族、Physical Review 家族、ACS/RSC 化学旗舰、四大综合医学刊与各临床学会旗舰，以及纯数学最高级别期刊）。12 本重点中文期刊、英文侧的 AER、以及 5 本自然科学旗舰（Science、Cell、PNAS、NEJM、The Lancet），有意同时以两种形态收录。自然科学另以**自有深度包**形态提供，与收录的第三方 Nature 包并列。
+> **收录范围。** 本索引聚焦**社会科学中英文顶刊**、**自然科学/临床/物理科学英文顶刊**，以及 **AI 优先的计算机科学顶会**。每个重点期刊都是一个**深度包**（单刊全流程，12 步）；四个**广度合集**则为每个 venue 提供一个“选刊/选会定位 + 写作风格”技能——[Computer-Science-Conference-Skills](Computer-Science-Conference-Skills/) 覆盖 155 个 CS 会议 + router，[Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) 覆盖 102 个中文社科期刊 profile，[English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) 覆盖 100 本英文主流经管/商科期刊，[English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) 覆盖 100 本英文主流自然科学/临床/物理/形式科学期刊。重点中文期刊、英文侧的 AER、以及 5 本自然科学旗舰（Science、Cell、PNAS、NEJM、The Lancet），有意同时以两种形态收录。自然科学另以**自有深度包**形态提供，与收录的第三方 Nature 包并列。
+
+### 计算机科学 · AI 优先会议广度合集
+
+| 合集 | Pack | 覆盖 | 技能数 |
+|------|------|------|-------:|
+| **155 个 CS/AI 会议 profile** | [Computer-Science-Conference-Skills/](Computer-Science-Conference-Skills/) | 155 个会议 skill + `cs-ai-conference-workflow` 路由 | 156 |
+
+### 计算机科学 · AI 优先会议深度包
+
+| 会议 | Pack | 覆盖 | 技能数 |
+|------|------|------|-------:|
+| **NeurIPS** Conference on Neural Information Processing Systems | [NeurIPS-Skills/](NeurIPS-Skills/) | 主会投稿、OpenReview 作者回复、camera-ready、artifact、可复现性、补充材料、审稿流程、写作风格、相关工作、实验、workflow 与选题定位 | 12 |
+| **ICML** International Conference on Machine Learning | [ICML-Skills/](ICML-Skills/) | 主会投稿、OpenReview rebuttal、PMLR camera-ready、artifact、可复现性、补充材料、审稿流程、写作风格、相关工作、实验、workflow 与选题定位 | 12 |
+| **ICLR** International Conference on Learning Representations | [ICLR-Skills/](ICLR-Skills/) | OpenReview 投稿、作者讨论、camera-ready、artifact、可复现性、补充材料、审稿流程、写作风格、相关工作、实验、workflow 与选题定位 | 12 |
+
+这个合集把 AI 会议放在最前面：NeurIPS、ICML、ICLR、AAAI、IJCAI、AISTATS、UAI、COLT、MLSys、KDD、CVPR、ACL、EMNLP、SIGIR、ICRA、CHI、SOSP、IEEE S&P、ICSE、PLDI、SIGMOD、STOC，以及 130+ 个其它 CS 会议。每个 profile 都是“会议 fit + 当年投稿要求核验清单”；deadline、页数、模板、AI 使用政策、artifact 规则、rebuttal 格式、camera-ready 要求等易变事实，必须以当前官方 CFP / author kit 为准。
 
 ### 社会科学 · 中文顶刊 —— 深度独立包
 
@@ -614,7 +630,7 @@
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | 选题 → 写作 → 发表（Claude Code / OpenCode / Codex） | upstream |
 | **Codex/Claude 学术 Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | 阅读 · 写作 · 科学计算 | upstream |
 
-<sub><b>计数口径。</b> 首页 <b>844</b> = 仓库内全部 <code>SKILL.md</code> 减去 10 个 Nature 插件镜像重复文件。三个广度合集与深度独立包均计入，因此同时双形态收录的期刊（既有广度 profile，又有深度包）会被计两次。对账：181（15 个中文深度包）+ 132（11 个英文社科深度包）+ 120（10 个自然科学深度包）+ 103（中文合集）+ 101（英文经管合集：100 本期刊 + 1 路由）+ 101（英文自然科学合集：100 本期刊 + 1 路由）+ 9（AER）+ 28（Nature 系）+ 69（通用工具）= 844。</sub>
+<sub><b>计数口径。</b> 首页 <b>1036</b> = 仓库内全部 <code>SKILL.md</code> 减去 10 个 Nature 插件镜像重复文件。四个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。对账：181（15 个中文深度包）+ 132（11 个英文社科深度包）+ 120（10 个自然科学深度包）+ 36（NeurIPS + ICML + ICLR CS/AI 深度包）+ 103（中文合集）+ 101（英文经管合集：100 本期刊 + 1 路由）+ 101（英文自然科学合集：100 本期刊 + 1 路由）+ 156（CS 会议合集：155 个会议 + 1 路由）+ 9（AER）+ 28（Nature 系）+ 69（通用工具）= 1036。</sub>
 
 ---
 
@@ -663,6 +679,10 @@ awesome-journal-skills/
 ├── Chinese-SocialScience-Journal-Skills/  → 中文广度合集，102 个期刊 profile + router（103 skills）
 ├── English-SocialScience-Journal-Skills/  → 英文经管广度合集，100 本期刊 fit 技能 + 路由（101 skills）
 ├── English-NaturalScience-Journal-Skills/ → 英文自然科学广度合集，100 本期刊 fit 技能 + 路由（101 skills）
+│   # CS/AI 会议深度包（本仓库内编写维护）
+├── NeurIPS-Skills/                → NeurIPS 主会（12 skills）
+├── ICML-Skills/                   → ICML 主会（12 skills）
+├── ICLR-Skills/                   → ICLR 主会（12 skills）
 │   # 自然科学与临床深度包（本仓库内编写维护）
 ├── Science-Skills/                → Science（AAAS）（12 skills）
 ├── Cell-Skills/                   → Cell（Cell Press）（12 skills）
@@ -749,6 +769,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 | 你的稿子是…                                  | 用这个 pack                  |
 |------------------------------------------|---------------------------|
 | 因果识别为主的实证文章，目标 top-5 经济学           | `AER-skills`              |
+| AI / ML / CS 会议论文，需要先选会和定位              | `Computer-Science-Conference-Skills` |
 | 中国情境实证 + 政策可操作                          | `management-world-skills` |
 | 中国情境 + 理论贡献突出                            | `Economic-Research-Journal-Skills`|
 
@@ -756,20 +777,22 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 
 ## 路线图
 
-**进度：** 三个广度合集已全部落地，**且上一版路线图列出的优先深度包升级现已全部完成**——此前作为候选列出的期刊均已落地为单刊全流程（12 步）深度包。路线图现在聚焦下一梯队的扩展。
+**进度：** 四个广度合集已全部落地，其中包括新的 AI 优先 CS 会议合集，**且上一版路线图列出的优先深度包升级现已全部完成**。路线图现在聚焦下一梯队的扩展。
 
 ### ✅ 已落地
 
-- **三个广度合集** —— 每本期刊一个“选刊定位 + 写作风格”技能：
+- **四个广度合集** —— 每个 venue 一个“选刊/选会定位 + 写作风格”技能：
+  - [Computer-Science-Conference-Skills](Computer-Science-Conference-Skills/) —— 155 个计算机科学会议 profile + `cs-ai-conference-workflow`，以 NeurIPS / ICML / ICLR / AAAI / IJCAI 开头
   - [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) —— 102 个中文社科期刊 profile
   - [English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) —— 100 本英文经济 / 金融 / 管理 / 会计 / 营销 / 运营 / 信息系统期刊
   - [English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) —— 100 本英文自然科学 / 临床 / 物理 / 形式科学期刊
 - **每刊封面卡** 覆盖全部广度期刊，两份 README 内嵌默认展开的封面画廊，并提供 200 个根目录轻量入口文件夹便于首页浏览。
-- **单刊全流程深度包（12 步）** —— 36 个仓库内自有期刊包，覆盖三大板块（AER 与 Nature 另以收录/submodule 包形态提供）：
+- **单刊/单会全流程深度包（12 步）** —— 39 个仓库内自有 venue 包，覆盖四大板块（AER 与 Nature 另以收录/submodule 包形态提供）：
   - **英文经济学（Top-5）：** AER（submodule）· QJE · JPE · Econometrica · REStud
   - **英文金融（Top-3）：** Journal of Finance · Journal of Financial Economics · Review of Financial Studies
   - **英文管理：** AMJ · AMR · ASQ · SMJ
   - **英文自然科学：** Science · Cell · PNAS · NEJM · The Lancet · JAMA · Cancer Cell · Physical Review Letters · JACS · Annals of Mathematics（另收录 Nature 包）
+  - **CS/AI 会议：** NeurIPS · ICML · ICLR
   - **中文重点刊（15）：** 经济研究 · 经济学（季刊）· 中国工业经济 · 世界经济 · 金融研究 · 数量经济技术经济研究 · 管理世界 · 管理科学学报 · 南开管理评论 · 会计研究 · 中国社会科学 · 社会学研究 · 中国农村经济 · 财经研究 · 中国行政管理
 
 ### 🚧 待办 —— 下一梯队扩展
@@ -777,7 +800,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 上一版路线图的优先深度包候选已全部落地。下一梯队的待选项：
 
 - **英文营销与会计深度包：** JM / JMR / JCR；TAR / JAR / JAE。
-- **更多学科旗舰自然科学刊**（在现有基础上扩展：Cell Press / Nature 子刊家族，以及地球科学、CS/AI、材料领域的学科领头刊）。
+- **更多学科旗舰自然科学刊**（在现有基础上扩展：Cell Press / Nature 子刊家族，以及地球科学、材料领域的学科领头刊）。
 - **更多中文重点刊**（在现有 15 本之外，按需求扩展 CSSCI / FMS 高质量期刊）。
 
 希望优先把某本升级为深度包，请提 issue 或 PR 补充。
@@ -1181,10 +1204,10 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 如果 PR 会改根目录导航、manifest 或 pack 元数据，请先运行：
 
 ```bash
-python3 tools/audit_repo.py
+python3 tools/run_checks.py
 ```
 
-GitHub Actions 会运行同一套审计。它会检查 canonical skill 计数、精选 pack 计数、200 个根目录期刊入口、plugin / marketplace 漂移、`SKILL.md` frontmatter，以及 README 内部链接。
+GitHub Actions 会运行同一套硬门槛检查。它会检查 canonical skill 计数、精选 pack 计数、200 个根目录期刊入口及其 canonical skill 指向、pack README / license 是否齐全、中文深度包 source map、plugin / marketplace 漂移、`SKILL.md` frontmatter、README 内部链接、Python 工具语法、空白字符，以及严重技能克隆。CI 从 `tools/clone_audit.py --threshold 0.75` 开始报告相似对，仅在达到 `--fail-threshold 0.90` 时失败。
 
 收录到本索引的质量门槛：
 

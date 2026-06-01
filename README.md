@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/agent-Claude%20Code-cc785c)](https://github.com/anthropics/claude-code)
-[![Skills](https://img.shields.io/badge/skills-844-cc785c)](#the-skill-packs)
+[![Skills](https://img.shields.io/badge/skills-1036-cc785c)](#the-skill-packs)
 [![Maintained by CoPaper.AI from Stanford REAP](https://img.shields.io/badge/Maintained%20by-CoPaper.AI%20from%20Stanford%20REAP-blue)](https://copaper.ai)
 [![Powered by StatsPAI](https://img.shields.io/badge/Powered%20by-StatsPAI-orange)](https://github.com/brycewang-stanford/StatsPAI)
 
@@ -25,12 +25,12 @@ English | [简体中文](README.zh-CN.md)
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Skills-844-cc785c?style=for-the-badge" alt="844 agent skills">
+  <img src="https://img.shields.io/badge/Skills-1036-cc785c?style=for-the-badge" alt="1036 agent skills">
   &nbsp;
-  <img src="https://img.shields.io/badge/Skill_Packs-44-2b3137?style=for-the-badge" alt="44 skill packs">
+  <img src="https://img.shields.io/badge/Skill_Packs-48-2b3137?style=for-the-badge" alt="48 skill packs">
 </p>
 <p align="center">
-  <sub><b>844 agent skills</b> across <b>44 curated packs</b> — one index.</sub>
+  <sub><b>1036 agent skills</b> across <b>48 curated packs</b> — one index.</sub>
 </p>
 
 <p align="center">
@@ -98,7 +98,7 @@ English | [简体中文](README.zh-CN.md)
   <sub>Other disciplines · <b>Nature</b> &nbsp;<sup>cover illustration © <a href="https://inna-marie.com/2019/08/08/cover-art-nature-journal/">Inna-Marie Strazhnik (2019)</a></sup></sub>
 </p>
 
-A curated index of **journal-specific agent skill packs** for manuscript work — selecting topics, framing the advance, identifying causal effects, formatting tables and figures, preparing replication / data-availability packages, and responding to reviewers. Coverage spans **top social-science journals (Chinese + English)** and **top natural-science and clinical journals (Science, Cell, PNAS, NEJM, The Lancet)** — now extended with a 100-journal **English natural-science breadth bundle** across life sciences, medicine, physics, chemistry, materials, earth science, CS/AI, and mathematics.
+A curated index of **journal- and conference-specific agent skill packs** for manuscript work — selecting topics, framing the advance, identifying causal effects, formatting tables and figures, preparing replication / data-availability packages, and responding to reviewers. Coverage spans **top social-science journals (Chinese + English)**, **top natural-science and clinical journals (Science, Cell, PNAS, NEJM, The Lancet)**, an AI-first **computer-science conference breadth bundle** covering NeurIPS / ICML / ICLR / AAAI / IJCAI and 150 more CS venues, and CS/AI conference **depth packs** for NeurIPS, ICML, and ICLR.
 
 Each pack is **journal-specific by design**: it encodes the editorial preferences, formatting conventions, identification standards, and review culture of a single target venue. Generic "scientific writing" skill packs miss these constraints.
 
@@ -119,7 +119,7 @@ Rule of thumb: start from a root folder or cover card when browsing, use a bread
 
 ## 200 Root Journal Folders
 
-For visual browsing at the repository root, the 200 social-science breadth journals now also have one lightweight folder each: 100 Chinese roadmap journals in pinyin folder names, and 100 English econ / finance / management / business journals in title-style folder names. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the 844-skill count stay stable.
+For visual browsing at the repository root, the 200 social-science breadth journals now also have one lightweight folder each: 100 Chinese roadmap journals in pinyin folder names, and 100 English econ / finance / management / business journals in title-style folder names. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the 1036-skill count stay stable.
 
 ### Chinese Roadmap Journals · 100 Pinyin Folders
 
@@ -199,7 +199,23 @@ A one-size-fits-all "economics writing" skill cannot encode these differences. E
 
 ## The Skill Packs
 
-> **Scope.** This index targets **top social-science journals (Chinese + English)** and **top natural-science, clinical, and physical-science journals (English)**. Each flagship venue ships as a **depth pack** (full 12-step per-journal workflow); three **breadth bundles** add one fit-and-house-style skill per journal — [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) for 102 Chinese social-science journal profiles (the 100 China econ/management roadmap journals plus 2 broader social-science flagships), [English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) for the 100 mainstream English econ/finance/management/accounting/marketing/OM/IS journals (every top-5 econ, finance top-3, AOM/SMS elite, FT50/UTD24/ABS 4★), and [English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) for 100 mainstream English natural-science / clinical / physical / formal-science journals (the general-science triad, the Cell Press & Nature Portfolio families, the Physical Review family, the ACS/RSC chemistry flagships, the big-four medical journals and clinical society venues, and the top pure-math journals). The flagship Chinese venues, AER on the English side, and the five natural-science flagships (Science, Cell, PNAS, NEJM, The Lancet) are intentionally covered both ways. Natural sciences also ship as **first-party depth packs** alongside the curated third-party Nature packs.
+> **Scope.** This index targets **top social-science journals (Chinese + English)**, **top natural-science, clinical, and physical-science journals (English)**, and **top computer-science conferences with AI first**. Each flagship journal ships as a **depth pack** (full 12-step per-journal workflow); four **breadth bundles** add one fit-and-house-style skill per venue — [Computer-Science-Conference-Skills](Computer-Science-Conference-Skills/) for 155 CS conferences + router, [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) for 102 Chinese social-science journal profiles (the 100 China econ/management roadmap journals plus 2 broader social-science flagships), [English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) for the 100 mainstream English econ/finance/management/accounting/marketing/OM/IS journals, and [English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) for 100 mainstream English natural-science / clinical / physical / formal-science journals. The flagship Chinese venues, AER on the English side, and the five natural-science flagships (Science, Cell, PNAS, NEJM, The Lancet) are intentionally covered both ways. Natural sciences also ship as **first-party depth packs** alongside the curated third-party Nature packs.
+
+### Computer science · AI-first conference breadth bundle
+
+| Bundle | Pack | Coverage | Skills |
+|--------|------|----------|-------:|
+| **155 CS/AI conference profiles** | [Computer-Science-Conference-Skills/](Computer-Science-Conference-Skills/) | 155 conference skills + `cs-ai-conference-workflow` router | 156 |
+
+### Computer science · AI-first conference depth packs
+
+| Venue | Pack | Coverage | Skills |
+|-------|------|----------|-------:|
+| **NeurIPS** Conference on Neural Information Processing Systems | [NeurIPS-Skills/](NeurIPS-Skills/) | Main-track submission, OpenReview author response, camera-ready, artifacts, reproducibility, supplementary material, review process, writing style, related work, experiments, workflow, and topic selection | 12 |
+| **ICML** International Conference on Machine Learning | [ICML-Skills/](ICML-Skills/) | Main-track submission, OpenReview rebuttal, PMLR camera-ready, artifacts, reproducibility, supplementary material, review process, writing style, related work, experiments, workflow, and topic selection | 12 |
+| **ICLR** International Conference on Learning Representations | [ICLR-Skills/](ICLR-Skills/) | OpenReview submission, author discussion, camera-ready, artifacts, reproducibility, supplementary material, review process, writing style, related work, experiments, workflow, and topic selection | 12 |
+
+This bundle puts AI conferences first: NeurIPS, ICML, ICLR, AAAI, IJCAI, AISTATS, UAI, COLT, MLSys, KDD, CVPR, ACL, EMNLP, SIGIR, ICRA, CHI, SOSP, IEEE S&P, ICSE, PLDI, SIGMOD, STOC, and 130+ more. Each profile is a conference-fit and current-cycle submission checklist; volatile facts such as deadlines, page limits, templates, AI-use policies, artifact rules, rebuttal formats, and camera-ready requirements must be re-checked on the live official CFP or author kit before submission.
 
 ### Social science · Chinese top journals — depth packs
 
@@ -614,7 +630,7 @@ This bundle is the natural-science sibling of the English social-science breadth
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | Ideation → writing → publication (Claude Code / OpenCode / Codex) | upstream |
 | **Codex/Claude Academic Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | Reading · writing · scientific computing | upstream |
 
-<sub><b>Count methodology.</b> The homepage <b>844</b> = every <code>SKILL.md</code> minus the 10 duplicated Nature plugin-mirror files. All three breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation: 181 (15 CN depth packs) + 132 (11 EN social-science depth packs) + 120 (10 natural-science depth packs) + 103 (CN bundle) + 101 (EN social-science bundle: 100 journals + 1 router) + 101 (EN natural-science bundle: 100 journals + 1 router) + 9 (AER) + 28 (Nature family) + 69 (toolkits) = 844.</sub>
+<sub><b>Count methodology.</b> The homepage <b>1036</b> = every <code>SKILL.md</code> minus the 10 duplicated Nature plugin-mirror files. All four breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation: 181 (15 CN depth packs) + 132 (11 EN social-science depth packs) + 120 (10 natural-science depth packs) + 36 (NeurIPS + ICML + ICLR CS/AI depth packs) + 103 (CN bundle) + 101 (EN social-science bundle: 100 journals + 1 router) + 101 (EN natural-science bundle: 100 journals + 1 router) + 156 (CS conference bundle: 155 conferences + 1 router) + 9 (AER) + 28 (Nature family) + 69 (toolkits) = 1036.</sub>
 
 ---
 
@@ -663,6 +679,10 @@ awesome-journal-skills/
 ├── Chinese-SocialScience-Journal-Skills/  → CN breadth bundle, 102 journal profiles + router (103 skills)
 ├── English-SocialScience-Journal-Skills/  → EN econ/business breadth bundle, 100-journal fit skills + router (101 skills)
 ├── English-NaturalScience-Journal-Skills/ → EN natural-science breadth bundle, 100-journal fit skills + router (101 skills)
+│   # CS/AI conference depth packs (first-party, authored / maintained here)
+├── NeurIPS-Skills/                → NeurIPS main track (12 skills)
+├── ICML-Skills/                   → ICML main track (12 skills)
+├── ICLR-Skills/                   → ICLR main conference (12 skills)
 │   # Natural-science & clinical depth packs (first-party, authored / maintained here)
 ├── Science-Skills/                → Science (AAAS) (12 skills)
 ├── Cell-Skills/                   → Cell (Cell Press) (12 skills)
@@ -750,6 +770,7 @@ use next for my manuscript targeted at <journal>.
 | Your manuscript looks like…                            | Use this pack                |
 |--------------------------------------------------------|------------------------------|
 | Causal-identification empirical paper aimed at top-5 econ | `AER-skills`                |
+| AI / ML / CS conference paper needing venue routing    | `Computer-Science-Conference-Skills` |
 | China-context empirical paper with policy actionability   | `management-world-skills`   |
 | China-context paper with theoretical grounding            | `Economic-Research-Journal-Skills`  |
 
@@ -757,20 +778,22 @@ use next for my manuscript targeted at <journal>.
 
 ## Roadmap
 
-**Status:** the three breadth bundles are fully shipped, **and the prioritized depth-pack upgrades from the previous roadmap are now complete** — every venue that was a candidate has shipped as a full 12-step depth pack. The Roadmap now tracks the next tier of expansion.
+**Status:** the four breadth bundles are fully shipped, including the new AI-first CS conference bundle, **and the prioritized depth-pack upgrades from the previous roadmap are now complete**. The Roadmap now tracks the next tier of expansion.
 
 ### ✅ Shipped
 
-- **Three breadth bundles** — one fit-and-house-style ("venue selection + house style") skill per journal:
+- **Four breadth bundles** — one fit-and-house-style ("venue selection + house style") skill per venue:
+  - [Computer-Science-Conference-Skills](Computer-Science-Conference-Skills/) — 155 computer-science conference profiles + `cs-ai-conference-workflow`, starting with NeurIPS / ICML / ICLR / AAAI / IJCAI
   - [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) — 102 Chinese social-science journal profiles
   - [English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) — 100 English econ / finance / management / accounting / marketing / OM / IS journals
   - [English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) — 100 English natural-science / clinical / physical / formal-science journals
 - **Per-journal cover cards** for every breadth journal, always-expanded cover galleries in both READMEs, and 200 lightweight root entry folders for repo-front browsing.
-- **Full 12-step depth packs** — 36 first-party venue packs across all three areas (AER and Nature additionally ship as curated submodule packs):
+- **Full 12-step depth packs** — 39 first-party venue packs across all four areas (AER and Nature additionally ship as curated submodule packs):
   - **English economics (top-5):** AER (submodule) · QJE · JPE · Econometrica · REStud
   - **English finance (top-3):** Journal of Finance · Journal of Financial Economics · Review of Financial Studies
   - **English management:** AMJ · AMR · ASQ · SMJ
   - **English natural science:** Science · Cell · PNAS · NEJM · The Lancet · JAMA · Cancer Cell · Physical Review Letters · JACS · Annals of Mathematics (plus Nature as a curated pack)
+  - **CS/AI conferences:** NeurIPS · ICML · ICLR
   - **Chinese flagships (15):** 经济研究 · 经济学（季刊）· 中国工业经济 · 世界经济 · 金融研究 · 数量经济技术经济研究 · 管理世界 · 管理科学学报 · 南开管理评论 · 会计研究 · 中国社会科学 · 社会学研究 · 中国农村经济 · 财经研究 · 中国行政管理
 
 ### 🚧 Pending — next expansion
@@ -778,7 +801,7 @@ use next for my manuscript targeted at <journal>.
 The previous roadmap's prioritized depth-pack candidates have all shipped. Open candidates for the next tier:
 
 - **English marketing & accounting depth packs:** JM / JMR / JCR; TAR / JAR / JAE.
-- **More subject-flagship natural science** beyond the current set (additional Cell Press / Nature Portfolio sub-journals; discipline leaders in earth science, CS/AI, and materials).
+- **More subject-flagship natural science** beyond the current set (additional Cell Press / Nature Portfolio sub-journals; discipline leaders in earth science and materials).
 - **More Chinese flagships** beyond the current 15 (additional CSSCI / FMS high-quality venues, by demand).
 
 Open an issue to upvote a venue for depth-pack treatment, or PR to add one.
@@ -1182,10 +1205,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the multi-agent workflow, submodule b
 Before opening a PR that changes root navigation, manifests, or pack metadata, run:
 
 ```bash
-python3 tools/audit_repo.py
+python3 tools/run_checks.py
 ```
 
-The same audit runs in GitHub Actions. It checks the canonical skill count, curated-pack count, 200 root journal entries, plugin / marketplace drift, `SKILL.md` frontmatter, and local README links.
+The same hard checks run in GitHub Actions. They check the canonical skill count, curated-pack count, 200 root journal entries and their canonical skill targets, pack README / license presence, Chinese depth-pack source maps, plugin / marketplace drift, `SKILL.md` frontmatter, local README links, Python tool syntax, whitespace, and severe skill clones. CI reports clone pairs from `tools/clone_audit.py --threshold 0.75` and fails only at `--fail-threshold 0.90`.
 
 Quality bar for inclusion in this index:
 

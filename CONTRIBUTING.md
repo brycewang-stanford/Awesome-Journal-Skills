@@ -27,10 +27,10 @@ documented.
 
 ## Required checks
 
-Run the repository audit before opening a PR:
+Run the standard local check set before opening a PR:
 
 ```bash
-python3 tools/audit_repo.py
+python3 tools/run_checks.py
 ```
 
 For journal-content rewrites, run the clone audit on the affected pack or on
@@ -38,13 +38,14 @@ all first-party skills:
 
 ```bash
 python3 tools/clone_audit.py --bundle Chinese-SocialScience-Journal-Skills --group-all --threshold 0.70
-python3 tools/clone_audit.py --threshold 0.70
+python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90
+python3 tools/root_entry_audit.py
 ```
 
 For edits touching Python tooling, also run:
 
 ```bash
-python3 -m py_compile tools/audit_repo.py tools/clone_audit.py
+python3 -m py_compile tools/*.py
 ```
 
 Always run:
@@ -63,6 +64,20 @@ git diff --check
   migration plan.
 - When adding or removing a `SKILL.md`, update the pack marketplace manifest and
   root README count methodology in the same change.
+- If adding a root-level journal entry folder, include the
+  `AJS-ROOT-JOURNAL-ENTRY` marker, canonical skill link, skill name, and bundle
+  link. The repository audit verifies that this navigation stub points to the
+  real installable `SKILL.md` inside its bundle.
+- For root-card enrichment batches, run `python3 tools/root_entry_audit.py`.
+  It reports enriched cards that need external URLs or visible check dates; the
+  hard invariant check remains in `tools/audit_repo.py`.
+- Chinese depth packs must keep `resources/official-source-map.md` so volatile
+  submission facts are tied to official sources or explicit `待核实` notes. The
+  audit expects each source map to include at least one URL and a visible access
+  or check date.
+- For source-map cleanup, use `python3 tools/source_map_audit.py` to find files
+  with missing URLs, missing check dates, or heavy unresolved-flag loads. The
+  tool is report-only unless run with `--strict`.
 
 ## Submodules
 
