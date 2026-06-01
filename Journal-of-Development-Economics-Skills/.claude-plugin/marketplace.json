@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jde-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Development Economics (JDE), the leading field journal in development economics.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jde-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Development Economics (JDE) manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jde-skills",
+      "repository": "https://github.com/brycewang-stanford/jde-skills",
+      "keywords": [
+        "journal-of-development-economics",
+        "jde",
+        "development-economics",
+        "field-experiments",
+        "pre-results-review",
+        "replication-package",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jde-workflow",
+        "skills/jde-topic-selection",
+        "skills/jde-literature-positioning",
+        "skills/jde-contribution-framing",
+        "skills/jde-identification-strategy",
+        "skills/jde-data-analysis",
+        "skills/jde-tables-figures",
+        "skills/jde-writing-style",
+        "skills/jde-replication-and-data-policy",
+        "skills/jde-review-process",
+        "skills/jde-submission",
+        "skills/jde-rebuttal"
+      ]
+    }
+  ]
+}

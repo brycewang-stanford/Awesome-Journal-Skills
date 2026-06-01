@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "rje-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at The RAND Journal of Economics (RJE), the flagship industrial-organization journal.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "rje-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering The RAND Journal of Economics (RJE) manuscript lifecycle for industrial-organization research.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/rje-skills",
+      "repository": "https://github.com/brycewang-stanford/rje-skills",
+      "keywords": [
+        "rand-journal-of-economics",
+        "rje",
+        "industrial-organization",
+        "applied-microeconomics",
+        "antitrust-competition",
+        "structural-estimation",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/rje-workflow",
+        "skills/rje-topic-selection",
+        "skills/rje-contribution-framing",
+        "skills/rje-literature-positioning",
+        "skills/rje-identification-strategy",
+        "skills/rje-data-analysis",
+        "skills/rje-tables-figures",
+        "skills/rje-writing-style",
+        "skills/rje-replication-and-data-policy",
+        "skills/rje-review-process",
+        "skills/rje-submission",
+        "skills/rje-rebuttal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jole-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Labor Economics (JOLE), the official journal of the Society of Labor Economists.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jole-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Labor Economics (JOLE) manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jole-skills",
+      "repository": "https://github.com/brycewang-stanford/jole-skills",
+      "keywords": [
+        "journal-of-labor-economics",
+        "jole",
+        "labor-economics",
+        "society-of-labor-economists",
+        "empirical-microeconomics",
+        "causal-inference",
+        "replication-package",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jole-workflow",
+        "skills/jole-topic-selection",
+        "skills/jole-literature-positioning",
+        "skills/jole-identification-strategy",
+        "skills/jole-data-analysis",
+        "skills/jole-contribution-framing",
+        "skills/jole-tables-figures",
+        "skills/jole-writing-style",
+        "skills/jole-replication-and-data-policy",
+        "skills/jole-review-process",
+        "skills/jole-submission",
+        "skills/jole-rebuttal"
+      ]
+    }
+  ]
+}

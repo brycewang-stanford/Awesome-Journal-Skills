@@ -1,0 +1,29 @@
+{
+  "name": "jde-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of Development Economics (JDE) — the leading field journal in development economics, published by Elsevier, submitted via Editorial Manager under single-anonymized review, with no submission fee, a mandatory data/code replication policy hosted on Mendeley Data, a permanent pre-results review (Registered Reports) track run with BITSS, an AER: Insights-style short-paper limited-revision track, and a three-papers-per-12-months submission cap. Covers development-economics topic selection, literature positioning, contribution framing, credible identification (RCT / DID / IV / RDD) in low- and middle-income settings, empirical data analysis norms, figure-forward exhibits, replication and data policy, the review process, submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs; Stata / R / Python conventions.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jde-skills",
+  "repository": "https://github.com/brycewang-stanford/jde-skills",
+  "keywords": [
+    "journal-of-development-economics",
+    "jde",
+    "development-economics",
+    "field-experiments",
+    "rct",
+    "causal-inference",
+    "difference-in-differences",
+    "instrumental-variables",
+    "regression-discontinuity",
+    "pre-results-review",
+    "registered-reports",
+    "replication-package",
+    "academic-writing",
+    "editorial-manager",
+    "elsevier"
+  ]
+}

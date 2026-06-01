@@ -1,0 +1,26 @@
+{
+  "name": "jme-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of Monetary Economics (JME) — Elsevier's leading outlet for monetary economics and macroeconomics broadly defined (monetary theory and policy, central banking, business cycles, growth, financial intermediation, fiscal interactions, expectations). Submission is via Elsevier Editorial Manager (editorialmanager.com/monec/) with a US$350 fee (US$200 for full-time PhD students) charged up front, single anonymized (single-blind) review, a distinctive 'up or out' first-revision rule, a ~50% publication-likelihood threshold for an R&R, a strict 40-page / 10-tables-and-figures cap on accepted papers, a 100-word abstract that may not begin with 'This paper' or 'We', author-date references with journal titles spelled out, and a ScienceDirect/Mendeley Data supplementary-materials deposit policy. Includes the Carnegie-Rochester-NYU Conference Series on Public Policy annual issue. Covers DSGE/quantitative-macro and applied-policy topic selection, monetary-macro identification (high-frequency monetary surprises, narrative shocks, SVARs, local projections), literature positioning, contribution framing, tables/figures, JME house style, the data/replication policy, referee strategy, submission preflight, and 'up or out' rebuttals. Bilingual en / zh-CN docs; Stata / R / Python / Dynare conventions.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jme-skills",
+  "repository": "https://github.com/brycewang-stanford/jme-skills",
+  "keywords": [
+    "journal-of-monetary-economics",
+    "jme",
+    "monetary-economics",
+    "macroeconomics",
+    "central-banking",
+    "business-cycles",
+    "dsge",
+    "monetary-policy-shocks",
+    "local-projections",
+    "svar",
+    "editorial-manager",
+    "academic-writing"
+  ]
+}

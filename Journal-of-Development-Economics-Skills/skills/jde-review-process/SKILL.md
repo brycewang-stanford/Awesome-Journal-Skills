@@ -1,0 +1,55 @@
+---
+name: jde-review-process
+description: Use when choosing a submission route or understanding how peer review works at the Journal of Development Economics (JDE) — the full-length, AER-Insights-style short-paper, and pre-results review (Registered Reports) tracks, single-anonymized review, timelines, and the submission cap. Explains the pipeline; it is not the final preflight.
+---
+
+# Review Process (jde-review-process)
+
+## When to trigger
+
+- You are deciding among the full-length, short-paper, and pre-results review routes
+- You need realistic expectations about JDE review and timelines
+- You have a prospective design and want it reviewed before results exist
+- You want to confirm you are within the submission cap
+
+## How JDE review works
+
+JDE is the **leading field journal in development economics** (Elsevier), edited by Lead Editor **Andrew Foster** (since 2016), with **Dean Karlan** among the editors. Review is **single-anonymized** — referees know the author's identity; the author does not know the referees (待核实 on the live page; high-confidence). It is highly selective: ~**1,300 submissions a year**, only about **a quarter sent for review**, and an acceptance rate near **6-8%**. Submission is via **Editorial Manager**.
+
+There is **no submission fee**. Open access is optional and paid only after acceptance (the APC figure is 待核实 — verify on the official open-access page).
+
+**Submission cap:** under normal circumstances an author may **not submit more than three papers within any 12-month period**. Plan submissions accordingly.
+
+## The three routes
+
+### Full-length (standard)
+The default track. No fixed length limit; an extensive online appendix is expected. Full single-anonymized review with multiple referees and R&R rounds.
+
+### Short-paper (limited-revision) track
+Modeled on **AER: Insights**: at most **6,000 words**, at most **5 exhibits** (tables or figures), and an online appendix of at most **20 pages** (the manuscript must be self-contained). Decisions are fast — generally within **4-6 weeks** — with a **single revision round** of **4 weeks**, and **resubmissions are not returned to referees**. Best for a sharp, self-contained result that does not need a long treatment.
+
+### Pre-results review (Registered Reports)
+A **permanent** track (piloted 2018-2019 with **BITSS**) for prospective empirical projects. You submit a **Stage 1 proposal** — background/motivation, hypotheses, study procedures, a statistical analysis plan, a **power analysis**, and pilot data if applicable, with a cover page carrying JEL codes and ethics/funding/conflict disclosures. The Stage 1 proposal **must not exceed 60 pages** and its **abstract is capped at 150 words**. If accepted **in principle before results are known**, you implement the study and submit the **Stage 2** manuscript. Published pre-results papers look like any other JDE article except for a footnote noting pre-results submission and the inclusion of the pre-specified plan in the supplementary online appendix. This route reduces publication bias and is well suited to RCTs and other prospective designs.
+
+## Choosing a route
+
+- Sharp single result, self-contained → **short-paper** track
+- Prospective design, want the plan locked and de-risked → **pre-results review**
+- Rich result needing full treatment, theory, or extensive empirics → **full-length**
+
+## Anti-patterns
+
+- Submitting a sprawling paper to the short-paper track (it caps words and exhibits)
+- Treating pre-results review as a place to submit after you already have results
+- Exceeding three submissions in a 12-month window
+- Assuming double-blind anonymization — JDE review is single-anonymized
+
+## Output format
+
+```
+【Route】full-length / short-paper / pre-results review
+【Why this route】...
+【Within 3-per-12-months cap?】[Y/N]
+【Route-specific limits met】words/exhibits/pages as applicable
+【Next step】jde-submission
+```

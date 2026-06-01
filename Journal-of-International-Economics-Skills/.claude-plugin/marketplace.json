@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jie-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of International Economics (JIE), Elsevier's leading field journal in international trade and international macro/finance.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jie-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of International Economics (JIE) manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jie-skills",
+      "repository": "https://github.com/brycewang-stanford/jie-skills",
+      "keywords": [
+        "journal-of-international-economics",
+        "jie",
+        "international-trade",
+        "international-macroeconomics",
+        "international-finance",
+        "replication-package",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jie-workflow",
+        "skills/jie-topic-selection",
+        "skills/jie-literature-positioning",
+        "skills/jie-identification-strategy",
+        "skills/jie-contribution-framing",
+        "skills/jie-data-analysis",
+        "skills/jie-tables-figures",
+        "skills/jie-writing-style",
+        "skills/jie-replication-and-data-policy",
+        "skills/jie-review-process",
+        "skills/jie-submission",
+        "skills/jie-rebuttal"
+      ]
+    }
+  ]
+}

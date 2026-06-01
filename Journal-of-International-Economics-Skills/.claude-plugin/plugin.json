@@ -1,0 +1,28 @@
+{
+  "name": "jie-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of International Economics (JIE) — Elsevier's leading field journal spanning international trade and international macroeconomics/finance (trade patterns and commercial policy, exchange rates, open-economy macro, sovereign debt, factor mobility, spatial economics). Submission is via Editorial Manager with a non-refundable fee (USD 190 / EUR 169.20 / JPY 20,660; USD 95 when all authors are PhD students), an expedited Prior Review Process (PRP) that carries decision letters and referee reports from AER, Econometrica, JPE, QJE, or Review of Economic Studies, a 150-word abstract cap, 1-7 keywords, Elsevier-applied reference style at proof, and mandatory deposit of replication code and data in the journal's secure repository (Mendeley Data). Co-Editors-in-Chief Martin Uribe (Columbia) and Costas Arkolakis (Yale). Covers topic fit, gravity/structural-trade and open-economy-macro identification, contribution framing, literature positioning, tables/figures, house style, replication policy, referee strategy, submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs; Stata / R / Python conventions.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jie-skills",
+  "repository": "https://github.com/brycewang-stanford/jie-skills",
+  "keywords": [
+    "journal-of-international-economics",
+    "jie",
+    "international-trade",
+    "international-macroeconomics",
+    "international-finance",
+    "open-economy-macro",
+    "gravity-model",
+    "exchange-rates",
+    "sovereign-debt",
+    "spatial-economics",
+    "prior-review-process",
+    "replication-package",
+    "academic-writing",
+    "editorial-manager"
+  ]
+}

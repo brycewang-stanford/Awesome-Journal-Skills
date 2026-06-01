@@ -1,0 +1,27 @@
+{
+  "name": "jole-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of Labor Economics (JOLE) — a general-interest, peer-reviewed quarterly in labor economics, published by University of Chicago Press for the Society of Labor Economists (SOLE). Reflects JOLE's actual process: single-blind (non-anonymized) review via Editorial Manager, a non-refundable submission fee ($100 SOLE members / $175 non-members since July 1, 2018), a 100-word abstract, a 20,000-word soft limit (counting each full-page table/figure as 500 words), Chicago author-date references with chronological-then-alphabetical in-text ordering, and deposit of data, programs, and documentation to the JOLE Dataverse Repository under the AER data-availability policy (adopted February 2009). Covers labor-market topic selection, literature positioning, credible identification, empirical data work, figure/table economy, contribution framing, house style, replication, review process, submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs; Stata / R / Python conventions.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jole-skills",
+  "repository": "https://github.com/brycewang-stanford/jole-skills",
+  "keywords": [
+    "journal-of-labor-economics",
+    "jole",
+    "labor-economics",
+    "society-of-labor-economists",
+    "university-of-chicago-press",
+    "empirical-microeconomics",
+    "causal-inference",
+    "difference-in-differences",
+    "instrumental-variables",
+    "regression-discontinuity",
+    "replication-package",
+    "academic-writing",
+    "editorial-manager"
+  ]
+}

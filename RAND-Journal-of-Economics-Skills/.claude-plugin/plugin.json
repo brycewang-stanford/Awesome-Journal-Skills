@@ -1,0 +1,26 @@
+{
+  "name": "rje-skills",
+  "description": "Agent skill stack for manuscripts targeted at The RAND Journal of Economics (RJE) — the field's flagship industrial-organization journal, owned and sponsored by the RAND Corporation and published in partnership with Wiley (formerly the Bell Journal of Economics). Covers RJE's narrow applied-microeconomics scope (regulated industries, antitrust/competition, market structure, firm strategy, the economic analysis of organizations), its hard page caps (main text <=40 pages, total <=50 pages, double-spaced), the <=100-word abstract, the $100 non-refundable submission fee, the Wiley Research Exchange portal, the editor-screen-then-two-anonymous-referee model, and the RJE Style Guide (author-date cites with no page numbers, no issue numbers, unnumbered subsections, house usage rules). Spans IO topic selection, contribution framing, literature positioning, structural/reduced-form identification, data analysis, exhibit design, RJE house style, submission preflight, referee response, and data-policy handling. Bilingual en / zh-CN docs; Stata / R / Python conventions.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/rje-skills",
+  "repository": "https://github.com/brycewang-stanford/rje-skills",
+  "keywords": [
+    "rand-journal-of-economics",
+    "rje",
+    "industrial-organization",
+    "applied-microeconomics",
+    "antitrust-competition",
+    "regulation",
+    "market-structure",
+    "structural-estimation",
+    "firm-strategy",
+    "wiley-research-exchange",
+    "academic-writing",
+    "bell-journal-of-economics"
+  ]
+}

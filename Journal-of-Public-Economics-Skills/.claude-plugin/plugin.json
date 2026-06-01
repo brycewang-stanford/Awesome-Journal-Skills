@@ -1,0 +1,26 @@
+{
+  "name": "jpube-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of Public Economics (JPubE) — Elsevier's flagship field journal in public economics / public finance (est. 1972 by Tony Atkinson), edited by John N. Friedman (Brown) and Wojciech Kopczuk (Columbia). Reflects JPubE's actual process: a US$165 submission fee (US$82.50 for students; waived for Elsevier article-transfer submissions), Editorial Manager submission, single anonymized review with a minimum of two reviewers, a 250-word abstract cap, author-date references, an optional SSRN preprint at submission, a generative-AI disclosure, and one appeal per submission. Covers tax/expenditure/social-insurance topic selection, contribution framing for a policy-relevant readership, quasi-experimental identification (DID / IV / RDD / bunching / sufficient statistics), administrative-data analysis, figure-forward exhibits, house style, and the Elsevier research-data framework. Bilingual en / zh-CN docs; Stata / R / Python conventions.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jpube-skills",
+  "repository": "https://github.com/brycewang-stanford/jpube-skills",
+  "keywords": [
+    "journal-of-public-economics",
+    "jpube",
+    "public-economics",
+    "public-finance",
+    "taxation",
+    "social-insurance",
+    "fiscal-policy",
+    "difference-in-differences",
+    "bunching-estimator",
+    "sufficient-statistics",
+    "administrative-data",
+    "elsevier-editorial-manager"
+  ]
+}

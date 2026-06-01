@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jpube-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Public Economics (JPubE), Elsevier's flagship public economics / public finance field journal.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jpube-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Public Economics (JPubE) manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jpube-skills",
+      "repository": "https://github.com/brycewang-stanford/jpube-skills",
+      "keywords": [
+        "journal-of-public-economics",
+        "jpube",
+        "public-economics",
+        "public-finance",
+        "taxation",
+        "administrative-data",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jpube-workflow",
+        "skills/jpube-topic-selection",
+        "skills/jpube-contribution-framing",
+        "skills/jpube-literature-positioning",
+        "skills/jpube-identification-strategy",
+        "skills/jpube-data-analysis",
+        "skills/jpube-tables-figures",
+        "skills/jpube-writing-style",
+        "skills/jpube-replication-and-data-policy",
+        "skills/jpube-review-process",
+        "skills/jpube-submission",
+        "skills/jpube-rebuttal"
+      ]
+    }
+  ]
+}

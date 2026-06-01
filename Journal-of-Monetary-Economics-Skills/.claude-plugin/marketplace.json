@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jme-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Monetary Economics (JME), Elsevier's leading monetary-economics and macroeconomics journal.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jme-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Monetary Economics (JME) manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jme-skills",
+      "repository": "https://github.com/brycewang-stanford/jme-skills",
+      "keywords": [
+        "journal-of-monetary-economics",
+        "jme",
+        "monetary-economics",
+        "macroeconomics",
+        "central-banking",
+        "business-cycles",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jme-workflow",
+        "skills/jme-topic-selection",
+        "skills/jme-literature-positioning",
+        "skills/jme-contribution-framing",
+        "skills/jme-identification-strategy",
+        "skills/jme-data-analysis",
+        "skills/jme-tables-figures",
+        "skills/jme-writing-style",
+        "skills/jme-replication-and-data-policy",
+        "skills/jme-review-process",
+        "skills/jme-submission",
+        "skills/jme-rebuttal"
+      ]
+    }
+  ]
+}
