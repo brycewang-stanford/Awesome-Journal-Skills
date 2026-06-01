@@ -29,8 +29,5 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Run repository audit
-        run: python3 tools/audit_repo.py
-
-      - name: Guard against exact skill clones
-        run: python3 tools/clone_audit.py --threshold 0.985 --fail-threshold 0.985 --top 20
+      - name: Run standard hard checks
+        run: python3 tools/run_checks.py --skip-reports

@@ -13,12 +13,23 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout (with submodules)
+      - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: true
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Init first-level submodules (non-recursive)
+        # Keep this workflow aligned with repo-audit.yml: only the five
+        # top-level imports are maintained by this index. Some upstream imports
+        # carry nested submodule gitlinks without matching .gitmodules entries.
+        run: |
+          git submodule update --init --depth=1 \
+            AER-skills \
+            nature-skills \
+            nature-paper-skills \
+            claude-scholar \
+            codex-claude-academic-skills
 
       - name: Update submodules to latest remote
         run: |
