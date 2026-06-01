@@ -1,0 +1,27 @@
+{
+  "name": "tar-skills",
+  "description": "Agent skill stack for manuscripts targeted at The Accounting Review (TAR), the flagship journal of the American Accounting Association (AAA). Built for archival/empirical and analytical accounting research across financial accounting, capital markets, auditing and assurance, management accounting, taxation, and accounting information systems. Covers contribution-driven topic selection, theory/model development, literature positioning, identification and research design, large-sample archival and analytical estimation, data-authenticity and code-access compliance, Chicago-Manual-of-Style exhibits and prose, Editorial Manager submission with AI-disclosure and ORCID, the double-blind review process, and revise-and-resubmit rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/tar-skills",
+  "repository": "https://github.com/brycewang-stanford/tar-skills",
+  "keywords": [
+    "the-accounting-review",
+    "tar",
+    "american-accounting-association",
+    "archival-accounting",
+    "capital-markets-research",
+    "auditing",
+    "management-accounting",
+    "taxation",
+    "accounting-information-systems",
+    "analytical-accounting",
+    "identification-strategy",
+    "academic-writing",
+    "editorial-manager"
+  ]
+}

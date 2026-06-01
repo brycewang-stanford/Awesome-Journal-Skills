@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "tar-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at The Accounting Review (TAR), the flagship journal of the American Accounting Association.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "tar-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering The Accounting Review (TAR) manuscript lifecycle for archival/empirical and analytical accounting research.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/tar-skills",
+      "repository": "https://github.com/brycewang-stanford/tar-skills",
+      "keywords": [
+        "the-accounting-review",
+        "tar",
+        "american-accounting-association",
+        "archival-accounting",
+        "analytical-accounting",
+        "identification-strategy",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/tar-workflow",
+        "skills/tar-topic-selection",
+        "skills/tar-theory-development",
+        "skills/tar-literature-positioning",
+        "skills/tar-methods",
+        "skills/tar-data-analysis",
+        "skills/tar-contribution-framing",
+        "skills/tar-tables-figures",
+        "skills/tar-writing-style",
+        "skills/tar-submission",
+        "skills/tar-review-process",
+        "skills/tar-rebuttal"
+      ]
+    }
+  ]
+}

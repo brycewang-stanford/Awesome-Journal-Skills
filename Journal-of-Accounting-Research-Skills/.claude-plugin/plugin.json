@@ -1,0 +1,26 @@
+{
+  "name": "jar-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of Accounting Research (JAR), one of the top-three accounting journals, sponsored by the Chookaszian Accounting Research Center at the University of Chicago Booth School of Business and published by Wiley-Blackwell. Built around JAR's empirical-archival capital-markets tradition (the Ball-Brown lineage), its mandatory data-and-code sharing regime, the Ray Ball JAR Annual Conference, and its Registered Reports program. Covers topic selection, institutional/economic theory development, identification-driven research design, large-sample archival analysis, contribution framing, literature positioning, JAR house-style exhibits and prose, the Wiley Research Exchange submission and tiered-fee gate, the double-anonymized review process, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jar-skills",
+  "repository": "https://github.com/brycewang-stanford/jar-skills",
+  "keywords": [
+    "journal-of-accounting-research",
+    "jar",
+    "accounting-research",
+    "empirical-archival",
+    "capital-markets",
+    "financial-reporting",
+    "disclosure",
+    "identification",
+    "registered-reports",
+    "data-and-code-sharing",
+    "ray-ball-conference",
+    "academic-writing"
+  ]
+}

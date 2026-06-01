@@ -1,0 +1,26 @@
+{
+  "name": "car-skills",
+  "description": "Agent skill stack for manuscripts targeted at Contemporary Accounting Research (CAR), the premier research journal of the Canadian Academic Accounting Association (CAAA), published by Wiley. Deliberately method-agnostic across all topic areas of accounting — archival/capital-markets, experimental, analytical/modeling, field studies, surveys, and qualitative work. Covers topic selection, theory development, methods, data analysis under CAR's Data Integrity & Code Sharing Policy, contribution framing, literature positioning, CAR Style Guide tables/figures and prose, Editorial Manager submission (separate blind title page, $250/$600 submission fee, ethics-approval verification, bilingual English/French abstracts), the double-anonymous review process, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/car-skills",
+  "repository": "https://github.com/brycewang-stanford/car-skills",
+  "keywords": [
+    "contemporary-accounting-research",
+    "car",
+    "accounting-research",
+    "caaa",
+    "archival-accounting",
+    "capital-markets",
+    "experimental-accounting",
+    "analytical-modeling",
+    "data-integrity-code-sharing",
+    "editorial-manager",
+    "academic-writing",
+    "double-anonymous-review"
+  ]
+}

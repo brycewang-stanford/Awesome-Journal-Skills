@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "car-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Contemporary Accounting Research (CAR), the premier CAAA accounting research journal published by Wiley.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "car-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Contemporary Accounting Research (CAR) manuscript lifecycle, from topic selection through R&R rebuttal.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/car-skills",
+      "repository": "https://github.com/brycewang-stanford/car-skills",
+      "keywords": [
+        "contemporary-accounting-research",
+        "car",
+        "accounting-research",
+        "caaa",
+        "archival-accounting",
+        "experimental-accounting",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/car-workflow",
+        "skills/car-topic-selection",
+        "skills/car-theory-development",
+        "skills/car-literature-positioning",
+        "skills/car-methods",
+        "skills/car-data-analysis",
+        "skills/car-contribution-framing",
+        "skills/car-tables-figures",
+        "skills/car-writing-style",
+        "skills/car-submission",
+        "skills/car-review-process",
+        "skills/car-rebuttal"
+      ]
+    }
+  ]
+}

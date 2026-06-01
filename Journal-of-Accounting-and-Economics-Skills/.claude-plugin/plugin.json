@@ -1,0 +1,26 @@
+{
+  "name": "jae-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of Accounting and Economics (JAE), the Elsevier journal founded in 1979 by Ross Watts and Jerold Zimmerman as the home of positive (economics-based) accounting research. Covers the role of accounting within the firm, the information content of accounting numbers in capital markets, accounting in financial contracting and the monitoring of agency relationships, the determination of accounting standards, and the regulation of corporate disclosure. Built around JAE's defining bar: applying economic theory to explain accounting phenomena with large-sample archival and analytical evidence. Covers topic selection, theory development, literature positioning, identification-focused methods, archival data analysis, contribution framing, Elsevier house-style exhibits and prose, the USD 650-fee Editorial Manager submission, double-anonymized review, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jae-skills",
+  "repository": "https://github.com/brycewang-stanford/jae-skills",
+  "keywords": [
+    "journal-of-accounting-and-economics",
+    "jae",
+    "positive-accounting",
+    "economics-based-accounting",
+    "capital-markets-research",
+    "financial-contracting",
+    "corporate-disclosure",
+    "agency-theory",
+    "earnings-management",
+    "archival-research",
+    "causal-identification",
+    "editorial-manager"
+  ]
+}

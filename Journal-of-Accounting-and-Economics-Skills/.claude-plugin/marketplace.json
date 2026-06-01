@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jae-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Accounting and Economics (JAE), the home of positive (economics-based) accounting research.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jae-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Accounting and Economics (JAE) manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jae-skills",
+      "repository": "https://github.com/brycewang-stanford/jae-skills",
+      "keywords": [
+        "journal-of-accounting-and-economics",
+        "jae",
+        "positive-accounting",
+        "capital-markets-research",
+        "financial-contracting",
+        "corporate-disclosure",
+        "archival-research"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jae-workflow",
+        "skills/jae-topic-selection",
+        "skills/jae-theory-development",
+        "skills/jae-literature-positioning",
+        "skills/jae-methods",
+        "skills/jae-data-analysis",
+        "skills/jae-contribution-framing",
+        "skills/jae-tables-figures",
+        "skills/jae-writing-style",
+        "skills/jae-submission",
+        "skills/jae-review-process",
+        "skills/jae-rebuttal"
+      ]
+    }
+  ]
+}

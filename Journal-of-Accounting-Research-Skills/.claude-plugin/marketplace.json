@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jar-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Accounting Research (JAR), a top-three empirical-archival accounting journal sponsored by the Chookaszian Accounting Research Center at Chicago Booth.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jar-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Accounting Research (JAR) manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jar-skills",
+      "repository": "https://github.com/brycewang-stanford/jar-skills",
+      "keywords": [
+        "journal-of-accounting-research",
+        "jar",
+        "accounting-research",
+        "empirical-archival",
+        "capital-markets",
+        "identification",
+        "registered-reports"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jar-workflow",
+        "skills/jar-topic-selection",
+        "skills/jar-theory-development",
+        "skills/jar-literature-positioning",
+        "skills/jar-methods",
+        "skills/jar-data-analysis",
+        "skills/jar-contribution-framing",
+        "skills/jar-tables-figures",
+        "skills/jar-writing-style",
+        "skills/jar-submission",
+        "skills/jar-review-process",
+        "skills/jar-rebuttal"
+      ]
+    }
+  ]
+}

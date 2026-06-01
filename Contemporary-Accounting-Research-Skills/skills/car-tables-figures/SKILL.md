@@ -1,0 +1,61 @@
+---
+name: car-tables-figures
+description: Use when building the exhibits of a Contemporary Accounting Research (CAR) manuscript — descriptive/correlation/results tables for archival work, experimental cell-means and ANOVA tables, model figures, and appendices — formatted to the CAR Style Guide (each exhibit on a new page, variable definitions, footnotes not endnotes). Builds exhibits; it does not run the analysis (car-data-analysis).
+---
+
+# Tables & Figures (car-tables-figures)
+
+## When to trigger
+
+- Exhibits are cluttered, not self-contained, or off CAR house style
+- A variable-definitions appendix is missing (an archival reviewer staple)
+- Experimental results lack a clean cell-means / contrast table
+- You are paginating exhibits for the 50-page limit and online appendix
+
+## CAR Style Guide exhibit rules
+
+CAR's format rules (author guidelines + CAR Style Guide) govern exhibits directly:
+
+- **Each exhibit (appendix, table, figure) begins on a new page.**
+- In-text notes are **footnotes, not endnotes**; tables use table notes to define every variable, sample, and significance convention.
+- Pages are numbered sequentially after the abstract page; the manuscript itself is **blind** (no author identifiers in exhibit titles, file names, or footnotes).
+- The main text is held to **30 pages** within a **50-page overall** limit; push large or supplementary exhibits into the **online-only supplementary appendix** rather than padding the main body.
+- LaTeX authors may use Wiley's New Journal Design (NJD) template for accepted papers; confirm exact table/figure formatting against the current CAR Style Guide.
+
+## Build exhibits the reviewers expect, by tradition
+
+- **Archival / capital-markets.** Provide (1) a **variable-definitions appendix** with exact construction and data sources — this is mandatory in spirit under the Data Integrity policy; (2) a descriptive-statistics table (N, mean, median, SD, key percentiles), noting winsorizing/truncating; (3) a correlation table (Pearson/Spearman); (4) results tables with coefficients, standard errors (clustered), and the SE-clustering and fixed-effects structure stated in the notes. Report economic magnitude, not just stars.
+- **Experimental.** Provide a cell-means table (means, SDs, n per condition), the ANOVA/contrast table, and manipulation-check results; a figure of the predicted interaction aids interpretation.
+- **Analytical.** Present propositions/results cleanly; figures should illustrate comparative statics or equilibrium regions, with parameter assumptions noted.
+
+## Self-containment
+
+Every exhibit must be readable without the text: title, sample/period, variable definitions, units, and the meaning of each significance marker all appear in the notes.
+
+## Checklist
+
+- [ ] Each exhibit starts on a new page; footnotes (not endnotes) used throughout
+- [ ] Variable-definitions appendix present (archival) with sources and construction
+- [ ] Descriptive, correlation, and results tables report clustered SEs and FE structure
+- [ ] Experimental cell-means, ANOVA/contrasts, and manipulation checks tabulated
+- [ ] Economic magnitudes (not only significance) reported
+- [ ] Exhibits blind; supplementary material routed to the online-only appendix
+- [ ] Numbers reconcile exactly with the code repository and the text
+
+## Anti-patterns
+
+- **Stars without magnitudes**; **endnotes** where CAR requires footnotes.
+- **Undefined variables** or a missing definitions appendix.
+- **Author identifiers** leaking into exhibit titles or file names.
+- **Padding the main body** past 30/50 pages instead of using the online appendix.
+
+## Output format
+
+```
+【Exhibit list】tables/figures/appendices; each on a new page?
+【Variable definitions】appendix present, sources/construction stated?
+【Results table】clustered SEs, FE structure, magnitudes shown?
+【Experiment】cell means / ANOVA / manipulation checks tabulated?
+【Style】footnotes (not endnotes), blind, page budget (30/50) ...
+【Next step】car-writing-style
+```
