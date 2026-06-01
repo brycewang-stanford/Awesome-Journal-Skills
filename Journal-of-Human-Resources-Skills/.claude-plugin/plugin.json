@@ -1,0 +1,28 @@
+{
+  "name": "jhr-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of Human Resources (JHR) — a leading empirical-microeconomics journal founded in 1965, published by University of Wisconsin Press for the Board of Regents and housed at the UW-Madison Institute for Research on Poverty (IRP). JHR covers labor, development, health, education, discrimination, and retirement economics with a strong applied-micro / causal-identification and public-policy emphasis, and despite its name does NOT consider management or personnel ('HR management') research. Reflects JHR's distinctive process: msubmit.net portal, a nonrefundable upfront submission fee, a page-count (not word) limit, single-anonymous review with fast desk-rejection, a reconciliation-with-prior-work requirement, a per-author disclosure statement, and a CC0 public-domain data/code deposit policy (ICPSR / Dataverse / institutional repository). Covers topic selection, literature positioning, causal identification for applied micro, data analysis, tables/figures, contribution framing, writing style, replication and data policy, referee/desk-review process, submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs; Stata / R / Python conventions.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jhr-skills",
+  "repository": "https://github.com/brycewang-stanford/jhr-skills",
+  "keywords": [
+    "journal-of-human-resources",
+    "jhr",
+    "labor-economics",
+    "empirical-microeconomics",
+    "applied-microeconomics",
+    "causal-inference",
+    "health-economics",
+    "economics-of-education",
+    "development-economics",
+    "discrimination",
+    "public-policy",
+    "replication-package",
+    "data-availability",
+    "academic-writing"
+  ]
+}

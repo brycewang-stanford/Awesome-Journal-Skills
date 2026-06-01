@@ -1,0 +1,26 @@
+{
+  "name": "jbes-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of Business & Economic Statistics (JBES) — a methodological econometrics-and-statistics journal published by Taylor & Francis on behalf of the American Statistical Association (ASA). JBES rewards new or improved statistical/econometric methods (including machine-learning and data-science methods and computational improvements) that carry clear empirical relevance and usually a substantive empirical application — not pure theory without motivation, nor pure applications without methodological novelty. Covers method-fit topic selection, methods-vs-prior-art positioning, regularity-conditions / asymptotics / Monte Carlo design, reproducible data-and-code supplementary material under ASA policy, methods-paper tables and figures, the multi-Co-Editor submission workflow, peer review, referee rebuttals, and the journal's discussion-paper tradition. Bilingual en / zh-CN docs; Stata / R / Python conventions.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jbes-skills",
+  "repository": "https://github.com/brycewang-stanford/jbes-skills",
+  "keywords": [
+    "journal-of-business-and-economic-statistics",
+    "jbes",
+    "econometrics",
+    "statistics-methodology",
+    "asymptotics",
+    "monte-carlo",
+    "machine-learning",
+    "time-series",
+    "american-statistical-association",
+    "reproducibility",
+    "academic-writing",
+    "taylor-and-francis"
+  ]
+}

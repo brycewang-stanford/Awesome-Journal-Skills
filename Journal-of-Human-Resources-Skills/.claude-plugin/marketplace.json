@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jhr-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Human Resources (JHR), a leading empirical-microeconomics journal (labor, health, education, development, discrimination, retirement) with a public-policy emphasis.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jhr-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Human Resources (JHR) manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jhr-skills",
+      "repository": "https://github.com/brycewang-stanford/jhr-skills",
+      "keywords": [
+        "journal-of-human-resources",
+        "jhr",
+        "labor-economics",
+        "empirical-microeconomics",
+        "applied-microeconomics",
+        "causal-inference",
+        "replication-package",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jhr-workflow",
+        "skills/jhr-topic-selection",
+        "skills/jhr-literature-positioning",
+        "skills/jhr-identification-strategy",
+        "skills/jhr-data-analysis",
+        "skills/jhr-contribution-framing",
+        "skills/jhr-tables-figures",
+        "skills/jhr-writing-style",
+        "skills/jhr-replication-and-data-policy",
+        "skills/jhr-review-process",
+        "skills/jhr-submission",
+        "skills/jhr-rebuttal"
+      ]
+    }
+  ]
+}

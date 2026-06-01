@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "ectheory-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Econometric Theory (ET), the Cambridge University Press theorem-proof econometrics journal founded by Peter C. B. Phillips.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "ectheory-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Econometric Theory (ET) manuscript lifecycle, from theorem-driven topic selection through single-anonymous review and rebuttal.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/ectheory-skills",
+      "repository": "https://github.com/brycewang-stanford/ectheory-skills",
+      "keywords": [
+        "econometric-theory",
+        "et",
+        "cambridge-university-press",
+        "asymptotic-theory",
+        "theorem-proof",
+        "time-series-econometrics",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/ectheory-workflow",
+        "skills/ectheory-topic-selection",
+        "skills/ectheory-literature-positioning",
+        "skills/ectheory-identification-strategy",
+        "skills/ectheory-contribution-framing",
+        "skills/ectheory-data-analysis",
+        "skills/ectheory-tables-figures",
+        "skills/ectheory-writing-style",
+        "skills/ectheory-replication-and-data-policy",
+        "skills/ectheory-review-process",
+        "skills/ectheory-submission",
+        "skills/ectheory-rebuttal"
+      ]
+    }
+  ]
+}

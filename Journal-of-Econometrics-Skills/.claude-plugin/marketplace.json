@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "joe-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Econometrics (JoE), an Elsevier flagship for econometric theory and applied methodology.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "joe-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Econometrics (JoE) manuscript lifecycle, from methodological topic selection through asymptotics, Monte Carlo, proof exposition, and revision rebuttals.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/joe-skills",
+      "repository": "https://github.com/brycewang-stanford/joe-skills",
+      "keywords": [
+        "journal-of-econometrics",
+        "joe",
+        "econometric-theory",
+        "econometric-methodology",
+        "asymptotics",
+        "monte-carlo",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/joe-workflow",
+        "skills/joe-topic-selection",
+        "skills/joe-literature-positioning",
+        "skills/joe-identification-strategy",
+        "skills/joe-data-analysis",
+        "skills/joe-contribution-framing",
+        "skills/joe-tables-figures",
+        "skills/joe-writing-style",
+        "skills/joe-replication-and-data-policy",
+        "skills/joe-review-process",
+        "skills/joe-submission",
+        "skills/joe-rebuttal"
+      ]
+    }
+  ]
+}

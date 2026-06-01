@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jape-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Applied Econometrics (JAE), Wiley's flagship for empirical, replicable applied econometrics.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jape-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Applied Econometrics (JAE) manuscript lifecycle — from topic fit and identification on real data to the mandatory JAE Data Archive deposit.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jape-skills",
+      "repository": "https://github.com/brycewang-stanford/jape-skills",
+      "keywords": [
+        "journal-of-applied-econometrics",
+        "jae",
+        "applied-econometrics",
+        "empirical-economics",
+        "replication",
+        "jae-data-archive",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jape-workflow",
+        "skills/jape-topic-selection",
+        "skills/jape-literature-positioning",
+        "skills/jape-contribution-framing",
+        "skills/jape-identification-strategy",
+        "skills/jape-data-analysis",
+        "skills/jape-tables-figures",
+        "skills/jape-writing-style",
+        "skills/jape-replication-and-data-policy",
+        "skills/jape-review-process",
+        "skills/jape-submission",
+        "skills/jape-rebuttal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+.DS_Store
+*.log
+*.tmp
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+.env
+node_modules/
+*.aux
+*.bbl
+*.blg
+*.synctex.gz
+*.out

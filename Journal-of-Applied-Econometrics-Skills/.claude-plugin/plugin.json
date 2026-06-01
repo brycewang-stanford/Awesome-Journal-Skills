@@ -1,0 +1,26 @@
+{
+  "name": "jape-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of Applied Econometrics (JAE) — Wiley's home for empirical, replicable economics that applies and develops econometric techniques on real data (applications over pure theory). Built around JAE's signature norms: mandatory deposit to the famous JAE Data Archive (since 1994, now hosted at ZBW) with plain-ASCII/CSV readme-documented data, a hard 35-page article limit with unlimited online appendices, a 100-word citation-free summary plus up to six keywords, citation-style-agnostic 'Free Format' submission via Editorial Express, single-blind review with Editor-in-Chief final authority, a dedicated Replication Article category, and a three-papers-under-review-per-author cap. Covers topic fit, identification on real data, reproducible data analysis, tables/figures, contribution framing, literature positioning, the review process, rebuttals, submission preflight, and archive-ready replication packaging. Bilingual en / zh-CN docs; Stata / R / Python conventions.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jape-skills",
+  "repository": "https://github.com/brycewang-stanford/jape-skills",
+  "keywords": [
+    "journal-of-applied-econometrics",
+    "jae",
+    "applied-econometrics",
+    "empirical-economics",
+    "replication",
+    "jae-data-archive",
+    "reproducibility",
+    "editorial-express",
+    "wiley",
+    "causal-inference",
+    "academic-writing",
+    "replication-article"
+  ]
+}

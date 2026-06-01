@@ -1,0 +1,26 @@
+{
+  "name": "geb-skills",
+  "description": "Agent skill stack for manuscripts targeted at Games and Economic Behavior (GEB) — the leading specialist game-theory journal, published by Elsevier and an official journal of the Game Theory Society (founded 1989 by Ehud Kalai; chief editor Hervé Moulin since 2021). Built for game-theoretic work across theory, mechanism design, behavioral economics, and experiments. Covers GEB's distinctive Editor-in-Charge review model (chief editor routes each paper to one of seven publicly known Editors over anonymous Advisory Editors and referees), the ~one-third desk-reject / ~15% acceptance bar, the conference-version disclosure requirement, the mandatory generative-AI declaration, the 250-word abstract cap, Editorial Manager / elsarticle submission, and GEB's encouraged-but-not-mandatory data policy. Adapts identification to proof exposition and assumption mapping for theory, and to experimental design plus reproducible computation for empirical/experimental work. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/geb-skills",
+  "repository": "https://github.com/brycewang-stanford/geb-skills",
+  "keywords": [
+    "games-and-economic-behavior",
+    "geb",
+    "game-theory",
+    "game-theory-society",
+    "mechanism-design",
+    "behavioral-economics",
+    "experimental-economics",
+    "elsevier",
+    "editorial-manager",
+    "elsarticle",
+    "academic-writing",
+    "peer-review"
+  ]
+}

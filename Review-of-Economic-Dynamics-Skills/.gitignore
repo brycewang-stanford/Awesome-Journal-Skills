@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Stata / R / computation
+*.smcl
+.Rhistory
+.Rproj.user/
+
+# Replication archive staging
+*.zip
+*.gz
+*.gzip
+
+# Node / tooling
+node_modules/

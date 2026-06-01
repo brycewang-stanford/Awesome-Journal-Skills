@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "geb-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Games and Economic Behavior (GEB), the leading specialist game-theory journal (Elsevier; Game Theory Society).",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "geb-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Games and Economic Behavior (GEB) manuscript lifecycle, from game-theoretic topic selection through the Editor-in-Charge review process and R&R rebuttal.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/geb-skills",
+      "repository": "https://github.com/brycewang-stanford/geb-skills",
+      "keywords": [
+        "games-and-economic-behavior",
+        "geb",
+        "game-theory",
+        "mechanism-design",
+        "behavioral-economics",
+        "experimental-economics",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/geb-workflow",
+        "skills/geb-topic-selection",
+        "skills/geb-literature-positioning",
+        "skills/geb-contribution-framing",
+        "skills/geb-identification-strategy",
+        "skills/geb-data-analysis",
+        "skills/geb-tables-figures",
+        "skills/geb-writing-style",
+        "skills/geb-replication-and-data-policy",
+        "skills/geb-review-process",
+        "skills/geb-submission",
+        "skills/geb-rebuttal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "jeg-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of Economic Growth (JEG) — the specialist Springer Nature outlet for theoretical and empirical research on economic growth and dynamic macroeconomics (neoclassical and endogenous growth, human capital, fertility, trade-and-growth, financial development, migration, technological change, political economy of growth, OLG models), edited by Oded Galor. Submission runs through the Springer Nature portal; LaTeX is preferred (Word accepted), references are author-year APA 7th, a 150-250 word abstract plus JEL codes and 4-6 keywords sit on the title page, and the Springer Nature Data Availability Statement applies (no AEA-style mandatory code archive). Covers growth-relevant topic selection, literature positioning across the theory-empirics divide, identification for both causal designs and theoretical assumptions, growth data analysis, exhibits, contribution framing, the review process, rebuttals, replication and data policy, house style, and the end-to-end workflow. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jeg-skills",
+  "repository": "https://github.com/brycewang-stanford/jeg-skills",
+  "keywords": [
+    "journal-of-economic-growth",
+    "jeg",
+    "economic-growth",
+    "dynamic-macroeconomics",
+    "endogenous-growth",
+    "human-capital",
+    "unified-growth-theory",
+    "development-macroeconomics",
+    "springer-nature",
+    "panel-data",
+    "cross-country-growth",
+    "academic-writing"
+  ]
+}

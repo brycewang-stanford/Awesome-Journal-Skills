@@ -1,0 +1,26 @@
+{
+  "name": "joe-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of Econometrics (JoE) — an Elsevier methodological-econometrics journal (founded 1973) for substantive contributions to identification, estimation, testing, decision, and prediction problems in economic research, plus applications of econometric techniques. Co-Editors-in-Chief Michael Jansson (UC Berkeley) and Aureo de Paula (UCL). Reflects JoE-specific realities: self-hosted Editorial Express portal, a USD $75 nonrefundable submission fee with mandatory proof-of-payment upload, PDF-only single-file submission of roughly 40 pages at 1.5 spacing / 11pt, a 250-word abstract, single-anonymized review by a minimum of two referees, the elsarticle LaTeX class and [dataset] data-citation style, and three submission tracks (Regular, Annals, Themed Issues). Covers methodological topic selection, literature positioning, regularity conditions / asymptotics / Monte Carlo design, theorem-and-proof exposition, table and figure conventions, contribution framing, replication-and-data norms, house writing style, referee strategy, submission preflight, and revision rebuttals. Bilingual en / zh-CN docs; Stata / R / Python / MATLAB conventions.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/joe-skills",
+  "repository": "https://github.com/brycewang-stanford/joe-skills",
+  "keywords": [
+    "journal-of-econometrics",
+    "joe",
+    "econometric-theory",
+    "econometric-methodology",
+    "asymptotics",
+    "monte-carlo",
+    "identification",
+    "estimation-and-testing",
+    "elsevier",
+    "editorial-express",
+    "elsarticle",
+    "academic-writing"
+  ]
+}

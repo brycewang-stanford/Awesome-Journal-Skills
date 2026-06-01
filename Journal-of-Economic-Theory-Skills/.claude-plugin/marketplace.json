@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jet-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Economic Theory (JET), Elsevier's flagship general economic-theory venue.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jet-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Economic Theory (JET) theorem-proof manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jet-skills",
+      "repository": "https://github.com/brycewang-stanford/jet-skills",
+      "keywords": [
+        "journal-of-economic-theory",
+        "jet",
+        "economic-theory",
+        "microeconomic-theory",
+        "mechanism-design",
+        "game-theory",
+        "theorem-proof",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jet-workflow",
+        "skills/jet-topic-selection",
+        "skills/jet-literature-positioning",
+        "skills/jet-identification-strategy",
+        "skills/jet-contribution-framing",
+        "skills/jet-data-analysis",
+        "skills/jet-tables-figures",
+        "skills/jet-writing-style",
+        "skills/jet-replication-and-data-policy",
+        "skills/jet-review-process",
+        "skills/jet-submission",
+        "skills/jet-rebuttal"
+      ]
+    }
+  ]
+}

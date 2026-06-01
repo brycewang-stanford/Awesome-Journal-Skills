@@ -1,0 +1,26 @@
+{
+  "name": "red-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Review of Economic Dynamics (RED) — the journal of the Society for Economic Dynamics (SED), published by Elsevier (ISSN 1094-2025). Scope is defined by method/lens: dynamic, quantitative economics (DSGE, growth, business cycles, labor, monetary/fiscal policy, international macro) studied through theoretical, computational, or empirical dynamic models. Covers the USD 175 per-submission fee (USD 100 all-student; waived on second-and-later resubmissions), single-anonymized review via Elsevier Editorial Manager off the ScienceDirect page, a code-first Availability of Data and Computer Code policy (archive posted on the RED site and indexed as a RePEc Computer Codes series), the ~250-word abstract, author-year references, and SED's fast ~two-month post-desk turnaround. Bilingual en / zh-CN docs; computational macro conventions.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/red-skills",
+  "repository": "https://github.com/brycewang-stanford/red-skills",
+  "keywords": [
+    "review-of-economic-dynamics",
+    "red",
+    "society-for-economic-dynamics",
+    "sed",
+    "quantitative-macroeconomics",
+    "dynamic-general-equilibrium",
+    "business-cycles",
+    "computational-economics",
+    "replication-archive",
+    "repec-computer-codes",
+    "academic-writing",
+    "elsevier-editorial-manager"
+  ]
+}

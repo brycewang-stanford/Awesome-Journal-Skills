@@ -1,0 +1,26 @@
+{
+  "name": "jet-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of Economic Theory (JET) — Elsevier's flagship general-theory venue (ISSN 0022-0531 print, 1095-7235 electronic), submission via Elsevier Editorial Manager. JET is theory-first: the contribution must be a rigorous, original theoretical result spanning mechanism design, information economics, decision theory, game theory, matching, market design, political economy, and finance/macro theory; empirical, experimental, quantitative, or computational work is accepted only when firmly grounded in theory. Covers theorem-proof house style (Elsevier elsarticle LaTeX), assumption/definition/proposition/proof exposition, generality vs. tractability, single-anonymized review with a two-referee floor, encouraged-not-required data sharing, generative-AI disclosure, and the multi-editor lead-editor governance. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jet-skills",
+  "repository": "https://github.com/brycewang-stanford/jet-skills",
+  "keywords": [
+    "journal-of-economic-theory",
+    "jet",
+    "economic-theory",
+    "microeconomic-theory",
+    "mechanism-design",
+    "game-theory",
+    "decision-theory",
+    "market-design",
+    "theorem-proof",
+    "elsarticle",
+    "editorial-manager",
+    "academic-writing"
+  ]
+}

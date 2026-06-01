@@ -1,0 +1,26 @@
+{
+  "name": "qe-skills",
+  "description": "Agent skill stack for manuscripts targeted at Quantitative Economics (QE) — the empirically and computationally oriented general-interest journal of the Econometric Society, sister to Econometrica and Theoretical Economics, published Open Access (CC BY-NC) and hosted on Wiley Online Library (ISSN 1759-7331). Covers QE's distinctive process: Econometric Society membership gate, submission fee paid at submission, the Econometrica-transfer option, the centralized ES Data Editor reproducibility check (DCAS-compatible, not the JAE archive), mandatory public posting of the manuscript, experimental pre-registration (effective Jan 2026), house statistical-presentation rules (no significance asterisks), and the per-page Open-Access publication fee. Twelve role skills span submission, review, rebuttal, writing style, workflow routing, topic selection, quantitative data analysis, identification/structural strategy, tables and figures, contribution framing, literature positioning, and the replication-and-data policy. Bilingual en / zh-CN docs; Stata / R / Python / Julia conventions for empirical, structural, and simulation work.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/qe-skills",
+  "repository": "https://github.com/brycewang-stanford/qe-skills",
+  "keywords": [
+    "quantitative-economics",
+    "qe",
+    "econometric-society",
+    "econometrica-transfer",
+    "structural-estimation",
+    "computational-economics",
+    "experimental-economics",
+    "reproducibility",
+    "data-and-code-availability",
+    "dcas",
+    "open-access",
+    "academic-writing"
+  ]
+}

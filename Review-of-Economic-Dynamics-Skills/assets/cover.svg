@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Review of Economic Dynamics Skills">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1f3a"/>
+      <stop offset="1" stop-color="#1c3d5a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- stylized business-cycle / dynamic path -->
+  <polyline points="80,460 230,360 380,420 530,260 680,330 830,180 980,250 1120,150"
+            fill="none" stroke="#5fb0d6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  <line x1="80" y1="520" x2="1120" y2="520" stroke="#3a5a78" stroke-width="3"/>
+  <text x="80" y="180" font-family="Georgia, 'Times New Roman', serif" font-size="62" fill="#ffffff" font-weight="bold">Review of Economic Dynamics</text>
+  <text x="80" y="245" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#9fc6dd">Agent Skill Pack — quantitative &amp; dynamic economics</text>
+  <text x="80" y="575" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#7fa6bf">Society for Economic Dynamics (SED) · Elsevier · ISSN 1094-2025</text>
+</svg>

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "ectj-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at The Econometrics Journal (EctJ), the Royal Economic Society's econometrics (theory + applied) journal.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "ectj-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering The Econometrics Journal (EctJ) manuscript lifecycle — leading-case fit, asymptotics, Monte Carlo, required empirical application, the ~20-page LaTeX-template format, and the conditional-on-acceptance replication package.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/ectj-skills",
+      "repository": "https://github.com/brycewang-stanford/ectj-skills",
+      "keywords": [
+        "the-econometrics-journal",
+        "ectj",
+        "econometrics",
+        "royal-economic-society",
+        "asymptotic-theory",
+        "replication-package",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/ectj-workflow",
+        "skills/ectj-topic-selection",
+        "skills/ectj-literature-positioning",
+        "skills/ectj-identification-strategy",
+        "skills/ectj-data-analysis",
+        "skills/ectj-tables-figures",
+        "skills/ectj-contribution-framing",
+        "skills/ectj-writing-style",
+        "skills/ectj-replication-and-data-policy",
+        "skills/ectj-review-process",
+        "skills/ectj-submission",
+        "skills/ectj-rebuttal"
+      ]
+    }
+  ]
+}

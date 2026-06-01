@@ -1,0 +1,46 @@
+---
+name: jhr-replication-and-data-policy
+description: Use when preparing Journal of Human Resources data and replication materials: archive plan footnote, public repository deposit, CC0 license, Data Availability Statement, read-me file, waiver requests, RCT pre-analysis-plan statements, and code package.
+---
+
+# Replication & Data Policy (jhr-replication-and-data-policy)
+
+## When to trigger
+
+- The paper is being prepared for JHR submission or acceptance
+- You need the archive-plan footnote, Data Availability Statement, or waiver
+- Data are restricted, proprietary, administrative, or RCT-based
+
+## JHR policy core
+
+JHR's data policy is unusually concrete: accepted papers must preserve data and
+post replication materials in a well-curated public repository where possible,
+with a public-domain CC0 1.0 Universal license. At submission, include an archive
+plan footnote with a persistent link if available, or request a waiver at initial
+submission.
+
+## Package contents
+
+- Data files that can legally be shared
+- Code and models needed to reproduce all tables and figures
+- Read-me file explaining the sequence
+- Data Availability Statement on the title page
+- Restricted-data access instructions or waiver justification
+- For RCTs: pre-analysis plan registration and deviations
+
+## Waiver logic
+
+Request a waiver at initial submission when data cannot be publicly deposited.
+State how other researchers can obtain the data and commit to provide reasonable
+guidance.
+
+## Output format
+
+```text
+[Data status] public / restricted / proprietary / confidential / mixed
+[Archive plan footnote] ...
+[DAS] ...
+[Waiver needed] yes/no + reason
+[RCT PAP status] ...
+[Next step] jhr-submission
+```

@@ -1,0 +1,26 @@
+{
+  "name": "ectj-skills",
+  "description": "Agent skill stack for manuscripts targeted at The Econometrics Journal (EctJ) — an econometrics (theory + applied) journal established by the Royal Economic Society in 1998 and published by Oxford University Press. Built around the journal's distinctive norms: a hard ~20-page limit including the printed appendix, a 150-word summary, mandatory RES/EctJ LaTeX templates (separate template for the online appendix), a required empirical application even for theory, proofs kept out of the online appendix, a flat £75 (+20% VAT) submission fee with no RES-member discount, a one-week Editor-in-Chief desk screen with a ~3-month decision target via Editorial Express, and a conditional-on-acceptance replication package posted as OUP Supporting Information. Covers leading-case topic selection, literature positioning, regularity-condition / asymptotics identification, Monte Carlo and empirical-application analysis, compact tables and figures, contribution framing, house style, replication and data policy, referee strategy, submission preflight, and rebuttal. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/ectj-skills",
+  "repository": "https://github.com/brycewang-stanford/ectj-skills",
+  "keywords": [
+    "the-econometrics-journal",
+    "ectj",
+    "econometrics",
+    "royal-economic-society",
+    "oxford-university-press",
+    "asymptotic-theory",
+    "monte-carlo",
+    "applied-econometrics",
+    "replication-package",
+    "editorial-express",
+    "academic-writing",
+    "latex-template"
+  ]
+}

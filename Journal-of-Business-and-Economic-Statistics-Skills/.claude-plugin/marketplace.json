@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jbes-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Business & Economic Statistics (JBES), an ASA methodological econometrics-and-statistics journal.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jbes-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Business & Economic Statistics (JBES) manuscript lifecycle, from method-fit topic selection through submission and rebuttal.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jbes-skills",
+      "repository": "https://github.com/brycewang-stanford/jbes-skills",
+      "keywords": [
+        "journal-of-business-and-economic-statistics",
+        "jbes",
+        "econometrics",
+        "statistics-methodology",
+        "monte-carlo",
+        "reproducibility",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jbes-workflow",
+        "skills/jbes-topic-selection",
+        "skills/jbes-literature-positioning",
+        "skills/jbes-contribution-framing",
+        "skills/jbes-identification-strategy",
+        "skills/jbes-data-analysis",
+        "skills/jbes-tables-figures",
+        "skills/jbes-writing-style",
+        "skills/jbes-replication-and-data-policy",
+        "skills/jbes-review-process",
+        "skills/jbes-submission",
+        "skills/jbes-rebuttal"
+      ]
+    }
+  ]
+}

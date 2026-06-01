@@ -1,0 +1,56 @@
+---
+name: qe-review-process
+description: Use to understand and plan around the Quantitative Economics (QE) editorial timeline — desk-reject risk, external refereeing, ~4-5 month target turnaround, 12-month revise windows, the Econometrica-transfer route, and the pre-acceptance ES Data Editor check. Sets expectations; it does not draft the paper.
+---
+
+# Review Process (qe-review-process)
+
+## When to trigger
+
+- You want to calibrate expectations on timeline and desk-reject risk before submitting
+- You are deciding whether to use the Econometrica-transfer option
+- You need to understand who decides and what gates lie between submission and acceptance
+- A long silence has you wondering whether the target turnaround has elapsed
+
+## How QE review works (verified 2026-06-01; re-confirm on ES pages)
+
+QE runs **editor/coeditor-managed external peer review**. The handling coeditor may **desk-reject without external review** (typically within a couple of weeks); most — but not all — papers that pass desk go to **one or more outside referees**, often including an Associate Editor. The journal targets completing the review process in **about four to five months**. QE is **not double-blind**, and authors must **post the manuscript publicly during review**, so author identity is effectively open on the author side. **Revise offers are normally valid for 12 months.** Editor as of 2026: **Bernard Salanié** (2025–2029); co-Editors include Anna Mikusheva, Fabrizio Perri, Chao Fu, and Jim Hamilton (full roster 待核实).
+
+## Gates between submission and acceptance
+
+1. **Membership + fee gate** — at least one author must be an ES member; the submission fee (US$100 / US$50 student) is paid at submission unless transferring from Econometrica or invited (low-income-country exemption applies).
+2. **Desk screen** — handling coeditor decides whether to send out; a desk reject is fast and the fee is **not refunded** when rejected without review.
+3. **External refereeing** — one or more referees / an AE; the coeditor synthesizes.
+4. **Revision rounds** — the coeditor's letter sets binding vs. optional points; revise offers run ~12 months.
+5. **Pre-acceptance reproducibility check** — before final acceptance the **ES Data Editor** (inaugural Data Editor Joan Llull) runs reproducibility checks; raw data, code, and documentation must already be in hand (see `qe-replication-and-data-policy`).
+
+## The Econometrica-transfer route
+
+A paper previously rejected by *Econometrica* can be submitted to QE with the **option to transfer** the coeditor decision letter, referee reports, and cover letters directly from Econometrica. The QE process is **fully independent** of Econometrica; the transfer **waives the QE submission fee** (other publication fees still apply); the paper needs a cover letter explaining how it differs and how the prior referee comments were addressed. Use this when the Econometrica reports are constructive and the paper's fit is genuinely the empirical/quantitative QE lane.
+
+## Checklist
+
+- [ ] Membership and fee (or transfer/exemption) settled before submitting
+- [ ] Realistic timeline noted: ~2 weeks to a desk decision; ~4–5 months to a full review
+- [ ] Manuscript posted publicly (review is open on the author side)
+- [ ] If transferring: prior Econometrica reports addressed in a cover letter
+- [ ] Replication package assembled in advance of the pre-acceptance Data Editor check
+- [ ] Revise window (~12 months) tracked if an R&R arrives
+
+## Anti-patterns
+
+- Assuming anonymity — QE is not double-blind and the paper is posted publicly
+- Submitting without the replication package, then scrambling at the Data Editor stage
+- Treating an Econometrica transfer as automatic acceptance — QE re-decides independently
+- Reading too much into silence before the ~4–5 month target has passed
+
+## Output format
+
+```
+【Stage】desk screen / out to referees / revision / pre-acceptance check
+【Route】fresh submission / Econometrica transfer
+【Timeline expectation】~2 wks desk; ~4-5 mo full review; ~12-mo revise window
+【Open review noted】manuscript posted publicly? [Y/N]
+【Data Editor readiness】package assembled? [Y/N]
+【Next step】qe-submission (preflight) or qe-rebuttal (on R&R)
+```

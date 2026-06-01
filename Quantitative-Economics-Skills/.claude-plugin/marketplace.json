@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "qe-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Quantitative Economics (QE), the empirically and computationally oriented general-interest journal of the Econometric Society.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "qe-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Quantitative Economics (QE) manuscript lifecycle, from topic selection through the Econometric Society Data Editor reproducibility check and R&R rebuttal.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/qe-skills",
+      "repository": "https://github.com/brycewang-stanford/qe-skills",
+      "keywords": [
+        "quantitative-economics",
+        "qe",
+        "econometric-society",
+        "structural-estimation",
+        "reproducibility",
+        "open-access",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/qe-workflow",
+        "skills/qe-topic-selection",
+        "skills/qe-literature-positioning",
+        "skills/qe-contribution-framing",
+        "skills/qe-identification-strategy",
+        "skills/qe-data-analysis",
+        "skills/qe-tables-figures",
+        "skills/qe-writing-style",
+        "skills/qe-replication-and-data-policy",
+        "skills/qe-review-process",
+        "skills/qe-submission",
+        "skills/qe-rebuttal"
+      ]
+    }
+  ]
+}

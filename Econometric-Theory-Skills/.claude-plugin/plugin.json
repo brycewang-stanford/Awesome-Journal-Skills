@@ -1,0 +1,26 @@
+{
+  "name": "ectheory-skills",
+  "description": "Agent skill stack for manuscripts targeted at Econometric Theory (ET) — the Cambridge University Press journal founded by Peter C. B. Phillips, devoted to the mathematical and statistical foundations of econometrics (asymptotic theory, probability-theoretic methods, time series and nonstationarity, high-dimensional and non-standard environments). Built for the journal's theorem-proof house style: rigorous assumptions, lemmas and proofs, generality, and (often) Monte Carlo or numerical illustration. Covers the two-track Articles / Miscellanea structure, the 50-page ceiling with overflow to non-copyedited online Supplementary Material, single-anonymous review, APA author-date references, ScholarOne (Manuscript Central) submission, and the strict manuscript-prep specs (11pt, 1.5 spacing, 1.25in margins, 200-word abstract, 40-character running head). Bilingual en / zh-CN docs; LaTeX-first conventions.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/ectheory-skills",
+  "repository": "https://github.com/brycewang-stanford/ectheory-skills",
+  "keywords": [
+    "econometric-theory",
+    "et",
+    "cambridge-university-press",
+    "asymptotic-theory",
+    "theorem-proof",
+    "time-series-econometrics",
+    "nonstationarity",
+    "high-dimensional-econometrics",
+    "monte-carlo",
+    "miscellanea",
+    "academic-writing",
+    "scholarone"
+  ]
+}

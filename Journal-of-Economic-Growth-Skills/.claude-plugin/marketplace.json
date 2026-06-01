@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jeg-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Economic Growth (JEG), the specialist Springer Nature outlet for economic growth and dynamic macroeconomics.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jeg-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Economic Growth (JEG) manuscript lifecycle, calibrated to a specialist growth and dynamic-macroeconomics outlet spanning theory and empirics.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jeg-skills",
+      "repository": "https://github.com/brycewang-stanford/jeg-skills",
+      "keywords": [
+        "journal-of-economic-growth",
+        "jeg",
+        "economic-growth",
+        "dynamic-macroeconomics",
+        "endogenous-growth",
+        "springer-nature",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jeg-workflow",
+        "skills/jeg-topic-selection",
+        "skills/jeg-literature-positioning",
+        "skills/jeg-identification-strategy",
+        "skills/jeg-data-analysis",
+        "skills/jeg-tables-figures",
+        "skills/jeg-contribution-framing",
+        "skills/jeg-writing-style",
+        "skills/jeg-replication-and-data-policy",
+        "skills/jeg-review-process",
+        "skills/jeg-submission",
+        "skills/jeg-rebuttal"
+      ]
+    }
+  ]
+}

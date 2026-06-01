@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "red-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Review of Economic Dynamics (RED), the journal of the Society for Economic Dynamics, covering quantitative and dynamic economics.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "red-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Review of Economic Dynamics (RED) manuscript lifecycle for quantitative/dynamic economics.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/red-skills",
+      "repository": "https://github.com/brycewang-stanford/red-skills",
+      "keywords": [
+        "review-of-economic-dynamics",
+        "red",
+        "society-for-economic-dynamics",
+        "quantitative-macroeconomics",
+        "dynamic-general-equilibrium",
+        "replication-archive",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/red-workflow",
+        "skills/red-topic-selection",
+        "skills/red-literature-positioning",
+        "skills/red-identification-strategy",
+        "skills/red-data-analysis",
+        "skills/red-contribution-framing",
+        "skills/red-tables-figures",
+        "skills/red-writing-style",
+        "skills/red-replication-and-data-policy",
+        "skills/red-review-process",
+        "skills/red-submission",
+        "skills/red-rebuttal"
+      ]
+    }
+  ]
+}

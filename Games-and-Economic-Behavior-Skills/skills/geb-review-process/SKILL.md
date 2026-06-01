@@ -1,0 +1,54 @@
+---
+name: geb-review-process
+description: Use when you need to understand how Games and Economic Behavior (GEB) actually evaluates a paper — the Editor-in-Charge model, anonymous Advisory Editors and referees, desk-reject and acceptance odds — so you can target the right audience and set expectations. Explains the process; it does not draft content.
+---
+
+# Review Process (geb-review-process)
+
+## When to trigger
+
+- You want to know who actually decides on your GEB paper before submitting
+- You are calibrating expectations on desk-reject odds and timelines
+- You are writing a cover letter and need to know who reads it first
+- A decision arrived and you want to interpret the roles behind it
+
+## The GEB Editor-in-Charge model (distinctive)
+
+GEB's process is unusually transparent about *who handles your paper* while keeping evaluators anonymous:
+
+- The **chief editor** (Hervé Moulin since 2021; 待核实 for the current masthead) assigns each submission to **one of seven Editors**, who becomes the **publicly known "Editor in Charge"** with **final decision authority** on your paper. You can see who holds your paper — unusual among journals.
+- The Editor in Charge typically routes the paper to an **anonymous Advisory Editor** (GEB has roughly **45** advisory editors; 待核实). The Advisory Editor **selects referees and recommends a decision**.
+- **Referees and Advisory Editors are anonymous to authors**; the Editor in Charge is not. This is best described as a **single-anonymized** model (authors known to evaluators; evaluators anonymous to authors) — the exact phrase is 待核实 against the official page.
+- GEB is an **official journal of the Game Theory Society** (Elsevier), so every layer is staffed by game-theory specialists.
+
+## The numbers (set expectations)
+
+- **~800 submissions per year** handled by seven Editors plus ~45 Advisory Editors (待核实).
+- **About one-third of submissions are desk-rejected** — the Editor in Charge will desk-reject papers judged to have no chance of meeting the publication criterion, before refereeing.
+- **Roughly 15%** of submitted papers are ultimately published.
+- Implication: the **first page and abstract must convince a specialist Editor fast**; clearing the desk screen is a distinct hurdle from passing referees.
+
+## How to use this when submitting
+
+- **Write for the Editor in Charge first.** A game theorist who must see the advance quickly (see geb-contribution-framing, geb-writing-style).
+- **Help routing.** A precise contribution and clear sub-field signal which Editor/Advisory Editor fits.
+- **Stay neutral on identity.** Referees and Advisory Editors are anonymous; do not speculate about or address them by name.
+- **Expect specialist scrutiny.** Nearest-prior-work authors may referee; position honestly (see geb-literature-positioning).
+
+## Anti-patterns
+
+- Treating GEB like a double-blind general journal (the Editor in Charge is *known*; the model is single-anonymized — 待核实)
+- Assuming a fast accept; with ~one-third desk-rejected and ~15% published, the screen is hard
+- A vague intro that gives the Editor in Charge no fast reason to send it out
+- Naming or guessing referees/Advisory Editors in the manuscript
+
+## Output format
+
+```
+【Editor in Charge】one of seven Editors, publicly known, final authority
+【Advisory Editor】anonymous; selects referees + recommends (待核实 count ~45)
+【Referees】anonymous; specialists; possibly nearest-prior-work authors
+【Model】single-anonymized (待核实 exact phrasing)
+【Odds】~1/3 desk-rejected; ~15% published
+【Action】sharpen page 1 for the Editor in Charge → geb-submission
+```
