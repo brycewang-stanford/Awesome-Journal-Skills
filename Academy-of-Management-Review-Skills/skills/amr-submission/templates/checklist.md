@@ -1,8 +1,9 @@
 # AMR Pre-Submission Checklist (Academy of Management Review)
 
 AMR is a **theory-only** journal: no data, no measures, no statistical tests, no
-data-availability statement. This checklist reflects that. Verify all volatile specifics
-(length, abstract limit, fees, current editorial requirements) on the official AMR /
+data-availability statement. This checklist reflects that. AOM currently says it does not
+charge submission fees; still verify all volatile specifics (length, abstract limit,
+membership / portal requirements, current editorial requirements) on the official AMR /
 Academy of Management author page before submitting.
 
 ## 1. Scope & fit

@@ -36,7 +36,7 @@ AMR imposes constraints that differ materially from empirical management journal
 
 Generic "scientific writing" or empirical-management skill packs do not address these constraints.
 
-> Accuracy note: editorial team, exact length/abstract limits, and fees change over time. This pack anchors durable norms and tells you to **verify volatile specifics on the official AMR / Academy of Management author page** before submitting.
+> Accuracy note: AMR's editorial team and exact length / abstract limits change over time. AOM currently says it does not charge submission fees, but you should still verify all portal-stage specifics on the official AMR / Academy of Management author page before submitting.
 
 ---
 

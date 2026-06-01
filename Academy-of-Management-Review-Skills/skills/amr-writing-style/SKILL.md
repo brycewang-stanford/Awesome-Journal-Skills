@@ -52,6 +52,8 @@ no methods, no results.
   list per the Academy of Management (APA-derived) style guide; double-spaced manuscript.
   (APA edition UNVERIFIED — confirm in the style guide; see `resources/official-source-map.md`.)
   Verify current length and abstract limits before submitting (also UNVERIFIED here).
+  Submission-stage facts such as AMR's current editor, no-fee policy, and ScholarOne link
+  belong in `amr-submission` and `resources/official-source-map.md`, not in prose edits.
 
 ## Self-edit passes
 

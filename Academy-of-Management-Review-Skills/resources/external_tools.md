@@ -7,8 +7,9 @@ list is deliberately different from an empirical journal's: it centers on tools 
 conceptual figures*, and *checking the logic of an argument* — not on statistical
 software or data vendors.
 
-> Volatile specifics (editorial team, exact length limits, fees) change. Always verify
-> against the official AMR / Academy of Management author pages before submission.
+> Volatile specifics (editorial team, exact length limits, portal requirements) change. AOM
+> currently says it does not charge submission fees, but always verify submission-stage
+> requirements against the official AMR / Academy of Management author pages before submission.
 
 ## 1. Locating the theoretical conversation
 

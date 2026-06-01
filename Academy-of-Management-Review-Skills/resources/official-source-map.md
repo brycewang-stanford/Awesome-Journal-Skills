@@ -5,7 +5,7 @@ Management's (AOM) **theory-development journal** — it publishes purely concep
 articles that develop **testable knowledge-based claims** and does **not** publish empirical
 hypothesis-testing studies (those belong at its empirical sibling, the *Academy of Management
 Journal*, AMJ). All access dates below are **2026-05-30**. Items that could not be verified
-from official sources on the access date are listed under "UNVERIFIED" and are flagged inline
+from official sources on the access date are listed under "Still unverified" and are flagged inline
 in the skills.
 
 ## Primary official sources
@@ -13,10 +13,11 @@ in the skills.
 | # | Source URL | What it verifies | Access date |
 |---|-----------|------------------|-------------|
 | 1 | https://aom.org/research/publishing-with-aom/academy-of-management-review | AMR is a **theory-development journal**; mission is to publish "theoretical insights that advance our understanding of management and organizations"; publishes "novel, insightful, and carefully crafted conceptual articles that challenge conventional wisdom concerning all aspects of organizations and their role in society"; explicitly does **not** publish empirical research. | 2026-05-30 |
-| 2 | https://journals.aom.org/journal/amr | AMR journal home (aims & scope, "Information for Contributors", current issue, submission link). Scope language: submissions "must extend theory in ways that develop testable knowledge-based claims"; four contribution paths — develop new theory; significantly challenge or clarify existing theory; synthesize advances into fresh theory; identify and delineate a novel theoretical problem. Contributions often grounded in economics, psychology, sociology, social psychology, or nontraditional perspectives (humanities). NOTE: editor name and exact numeric limits are JS-rendered and were not machine-extractable on the access date — see UNVERIFIED. | 2026-05-30 |
-| 3 | https://aom.org/research/publishing-with-aom/academy-of-management-review/amr-editorial-leadership | AMR editorial leadership (Editor-in-Chief, Associate Editors). NOTE: JS-rendered; names NOT reliably extractable on access date — see UNVERIFIED. | 2026-05-30 |
-| 4 | https://aom.org/research/publishing-with-aom/author-guidelines | AOM author guidelines: submission via **ScholarOne Manuscripts (Manuscript Central)**; **APA-style** author–date references across AOM journals; double-anonymous review; AOM Code of Ethics. NOTE: exact AMR word/page/abstract limits and the APA edition were not machine-readable on the access date — see UNVERIFIED. | 2026-05-30 |
-| 5 | https://aom.org/research/publishing-with-aom/journals-style-guide | AOM/AMR style guide (reference style, formatting, length, abstract). NOTE: JS-rendered; specific numeric limits and APA edition NOT extractable on access date — see UNVERIFIED. | 2026-05-30 |
+| 2 | https://journals.aom.org/journal/amr | AMR journal home (aims & scope, "Information for Contributors", current issue, submission link). Scope language: submissions "must extend theory in ways that develop testable knowledge-based claims"; four contribution paths — develop new theory; significantly challenge or clarify existing theory; synthesize advances into fresh theory; identify and delineate a novel theoretical problem. Contributions often grounded in economics, psychology, sociology, social psychology, or nontraditional perspectives (humanities). NOTE: exact numeric limits were not machine-extractable on the access date — see Still unverified. | 2026-05-30 |
+| 3 | https://www.aom.org/research/journals/review/review-editorial-team | AMR editorial team: **Kris Byron** is listed as Editor; current Associate Editors are listed on the same page. | 2026-05-31 |
+| 4 | https://www.aom.org/research/publishing-with-aom/author-resources | AOM author resources: submission via journal-specific **ScholarOne Manuscripts** links, including AMR; manuscript should remove author-identifying references; AOM says it **does not charge submission fees**. NOTE: exact AMR word/page/abstract limits and the APA edition were not machine-readable on the access date — see Still unverified. | 2026-05-31 |
+| 5 | https://aom.org/research/publishing-with-aom/journals-style-guide | AOM/AMR style guide (reference style, formatting, length, abstract). NOTE: JS-rendered; specific numeric limits and APA edition NOT extractable on access date — see Still unverified. | 2026-05-30 |
+| 6 | https://news.gsu.edu/2023/03/30/kris-byron/ | Georgia State University announcement: Kris Byron was named AMR Editor-in-Chief; her three-year term began July 1, 2023; she had previously served as AMR associate editor. | 2026-05-31 |
 
 ## Landmark / representative AMR theory papers and editorials (DOIs verified via doi.org on 2026-05-30)
 
@@ -41,22 +42,25 @@ in the skills.
 - AMR is the **theory counterpart to AMJ** (empirical); distinct from ASQ (theory +
   empirical) and SMJ (strategy, largely empirical). (Sources 1, 2)
 - AOM journals (incl. AMR) use **APA-style** author–date citations/references and submit via
-  **ScholarOne Manuscripts**; review is **double-anonymous** and developmental. (Source 4)
+  **ScholarOne Manuscripts**; AMR has its own ScholarOne link on the AOM author-resources
+  page. (Source 4)
+- Current AMR editor: **Kris Byron**, Georgia State University. AOM lists her as Editor, and
+  the Georgia State announcement states her three-year editor-in-chief term began July 1,
+  2023. (Sources 3, 6)
+- **Submission fee**: AOM states that the Academy of Management does not charge submission
+  fees. (Source 4) AOM membership / account requirements remain a portal-stage check.
 - The contribution bar and construct-clarity criteria are defined in AMR-published editorials
   (Whetten 1989; Suddaby 2010). (Landmark table)
 
-## UNVERIFIED (do not invent; confirm before relying)
+## Still unverified (do not invent; confirm before relying)
 
-- **[Resolved 2026-05] Current Editor-in-Chief**: **Kris Byron** (Georgia State University) —
-  appointed AMR Editor-in-Chief in 2023, succeeding Sherry M. B. Thatcher (verified via the AOM
-  AMR editorial-team page and the Georgia State University announcement). **Associate Editors** —
-  confirm the current slate at Sources 2–3.
+- **Associate Editors** — confirm the current slate at Sources 2–3 before naming individuals
+  in a submission-stage checklist.
 - **Manuscript word/page limit** and **abstract word limit** — not machine-readable from the
   style guide / author guidelines on access date. Confirm at Sources 4–5.
 - **APA edition** (e.g., 6th vs. 7th) used by AOM/AMR. Confirm at Sources 4–5.
-- **[Resolved 2026-05] Submission fee**: none — the Academy of Management does not charge
-  submission fees (verified at aom.org). **AOM membership requirement** to submit: not confirmed
-  either way; confirm at Source 4.
+- **AOM membership / account requirement** to submit: not confirmed either way; confirm at
+  Source 4 and in the AMR ScholarOne portal.
 - **Number of reviewers per manuscript** and exact **acceptance rate**. Confirm at Source 4
   and AOM annual reports.
 - **AI-assistance / disclosure policy** specifics. Confirm at Source 4.
