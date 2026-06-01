@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "misq-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at MIS Quarterly (MISQ), the leading information systems journal spanning behavioral, design-science, economics, and organizational IS research.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "misq-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the MIS Quarterly (MISQ) manuscript lifecycle across the four IS research traditions.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/misq-skills",
+      "repository": "https://github.com/brycewang-stanford/misq-skills",
+      "keywords": [
+        "mis-quarterly",
+        "misq",
+        "information-systems",
+        "design-science-research",
+        "behavioral-is",
+        "economics-of-is",
+        "research-transparency"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/misq-workflow",
+        "skills/misq-topic-selection",
+        "skills/misq-theory-development",
+        "skills/misq-literature-positioning",
+        "skills/misq-methods",
+        "skills/misq-data-analysis",
+        "skills/misq-contribution-framing",
+        "skills/misq-tables-figures",
+        "skills/misq-writing-style",
+        "skills/misq-submission",
+        "skills/misq-review-process",
+        "skills/misq-rebuttal"
+      ]
+    }
+  ]
+}

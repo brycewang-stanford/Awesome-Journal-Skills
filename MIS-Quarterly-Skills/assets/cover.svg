@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 320" width="240" height="320">
+<rect width="240" height="320" fill="#ffffff"/>
+<rect x="5" y="5" width="230" height="310" rx="13" fill="#ffffff" stroke="#7a1f2b" stroke-width="2"/>
+<path d="M5,18 a13,13 0 0 1 13,-13 h204 a13,13 0 0 1 13,13 v60 h-230 z" fill="#7a1f2b"/>
+<text x="120" y="35" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9.5" letter-spacing="2.5" font-weight="700" fill="#ffffff">INFORMATION SYSTEMS</text>
+<rect x="92.0" y="45" width="56" height="2" rx="1" fill="#ffffff" opacity="0.7"/>
+<text x="120" y="63" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="8.5" letter-spacing="1.5" fill="#ffffff" opacity="0.8">QUARTERLY · AGENT SKILLS</text>
+<text x="120" y="146" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#1a1a1a">MIS</text>
+<text x="120" y="176" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#1a1a1a">Quarterly</text>
+<text x="120" y="210" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="8.5" fill="#6a6a6a">Behavioral · Design Science</text>
+<text x="120" y="224" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="8.5" fill="#6a6a6a">Economics · Organizational</text>
+<text x="120" y="252" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#6a6a6a">MISQ</text>
+<line x1="42" y1="276" x2="198" y2="276" stroke="#7a1f2b" stroke-width="1" opacity="0.3"/>
+<rect x="66" y="285" width="108" height="22" rx="11" fill="#7a1f2b"/>
+<text x="120" y="300" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" font-weight="700" fill="#ffffff">AIS · UMN MISRC</text>
+</svg>

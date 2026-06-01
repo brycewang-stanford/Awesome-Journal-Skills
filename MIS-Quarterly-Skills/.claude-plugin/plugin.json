@@ -1,0 +1,26 @@
+{
+  "name": "misq-skills",
+  "description": "Agent skill stack for manuscripts targeted at MIS Quarterly (Management Information Systems Quarterly), the leading information systems journal published by the MIS Research Center (Carlson School, University of Minnesota) and an official journal of the Association for Information Systems (AIS). Covers the four IS research traditions (behavioral, design science, economics, organizational), genre-aware manuscript categories (Research Article, Research Notes, Theory Development, Theory-Generative Research Synthesis, Issues and Opinions, Design Science), page-based length limits that count everything, pluralistic research-transparency commitments, APA 7th / MISQ Style Guide formatting, ScholarOne submission, the Senior-Editor/Associate-Editor double-anonymous review process, and multi-round revision. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/misq-skills",
+  "repository": "https://github.com/brycewang-stanford/misq-skills",
+  "keywords": [
+    "mis-quarterly",
+    "misq",
+    "information-systems",
+    "design-science-research",
+    "behavioral-is",
+    "economics-of-is",
+    "it-artifact",
+    "research-transparency",
+    "theory-development",
+    "academic-writing",
+    "scholarone",
+    "association-for-information-systems"
+  ]
+}

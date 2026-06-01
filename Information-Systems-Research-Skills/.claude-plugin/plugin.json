@@ -1,0 +1,26 @@
+{
+  "name": "isr-skills",
+  "description": "Agent skill stack for manuscripts targeted at Information Systems Research (ISR), the INFORMS quarterly and Basket-of-Eight journal at the intersection of technology, organizations, economics, and society. Built for ISR's deliberately sociotechnical and intradisciplinary mission, which houses rigorous behavioral/empirical research and analytical economic, econometric, and design-science modeling as co-equal genres. Covers fit-driven topic selection, theory development and analytical/behavioral mechanism building, literature positioning that bridges IS silos, multimethod research design and analysis, contribution framing (including the mandatory ~500-word contribution statement), INFORMS house-style exhibits and prose, ScholarOne submission with required editor/reviewer nominations, the Senior-Editor-led review process, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/isr-skills",
+  "repository": "https://github.com/brycewang-stanford/isr-skills",
+  "keywords": [
+    "information-systems-research",
+    "isr",
+    "informs",
+    "basket-of-eight",
+    "sociotechnical",
+    "intradisciplinary",
+    "design-science",
+    "analytical-modeling",
+    "behavioral-is",
+    "multimethod-research",
+    "contribution-statement",
+    "scholarone"
+  ]
+}
