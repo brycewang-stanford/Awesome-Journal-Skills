@@ -1,0 +1,23 @@
+{
+  "name": "iclr-skills",
+  "description": "A 12-skill depth pack for International Conference on Learning Representations (ICLR) submissions: topic fit, OpenReview submission checks, author discussion, camera-ready, artifacts, reproducibility, supplementary material, review process, writing style, related work, experiments, and workflow. Grounded in official ICLR 2026 CFP, Author Guide, Reviewer Guide, Code of Ethics, and LLM policy checked on 2026-06-01.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "iclr",
+    "learning-representations",
+    "machine-learning",
+    "openreview",
+    "open-peer-review",
+    "rebuttal",
+    "reciprocal-reviewing",
+    "llm-disclosure"
+  ]
+}
+

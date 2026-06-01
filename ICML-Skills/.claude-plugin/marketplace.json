@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "icml-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for ICML manuscript planning, submission, review response, reproducibility, artifacts, and camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "icml-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve ICML-specific skills for ML conference submission strategy, grounded in official ICML 2026 author instructions, CFP, Peer Review FAQ, review instructions, and LLM-review policy.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "icml",
+        "machine-learning",
+        "openreview",
+        "author-response",
+        "camera-ready",
+        "pmlr",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/icml-submission",
+        "skills/icml-author-response",
+        "skills/icml-camera-ready",
+        "skills/icml-artifact-evaluation",
+        "skills/icml-reproducibility",
+        "skills/icml-supplementary",
+        "skills/icml-review-process",
+        "skills/icml-writing-style",
+        "skills/icml-related-work",
+        "skills/icml-experiments",
+        "skills/icml-workflow",
+        "skills/icml-topic-selection"
+      ]
+    }
+  ]
+}
+

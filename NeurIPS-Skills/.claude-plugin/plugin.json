@@ -1,0 +1,23 @@
+{
+  "name": "neurips-skills",
+  "description": "A 12-skill depth pack for NeurIPS main-track submissions: topic fit, submission checks, author response, camera-ready, artifacts, reproducibility, supplementary material, review process, writing style, related work, experiments, and workflow. Grounded in the official NeurIPS 2026 CFP and Main Track Handbook checked on 2026-06-01.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "neurips",
+    "machine-learning",
+    "ai",
+    "conference-submission",
+    "openreview",
+    "rebuttal",
+    "reproducibility",
+    "paper-checklist"
+  ]
+}
+

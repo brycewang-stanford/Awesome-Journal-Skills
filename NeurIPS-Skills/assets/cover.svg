@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">NeurIPS Skills</title>
+  <desc id="desc">Abstract conference cover card for a NeurIPS manuscript skill pack.</desc>
+  <rect width="1200" height="630" fill="#111827"/>
+  <rect x="70" y="70" width="1060" height="490" rx="18" fill="#f8fafc"/>
+  <path d="M160 430 C260 230 360 210 470 330 S700 480 820 250 S990 210 1040 360" fill="none" stroke="#7c3aed" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="250" cy="335" r="20" fill="#06b6d4"/>
+  <circle cx="470" cy="330" r="20" fill="#f97316"/>
+  <circle cx="820" cy="250" r="20" fill="#22c55e"/>
+  <circle cx="1010" cy="300" r="20" fill="#ef4444"/>
+  <text x="130" y="185" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="700" fill="#111827">NeurIPS</text>
+  <text x="135" y="255" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#374151">AI/ML conference submission depth pack</text>
+  <text x="135" y="515" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#4b5563">submission · response · artifacts · reproducibility · camera-ready</text>
+</svg>
+

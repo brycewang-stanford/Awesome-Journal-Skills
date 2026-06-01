@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">ICLR Skills</title>
+  <desc id="desc">Cover image for the ICLR manuscript skill pack.</desc>
+  <rect width="1200" height="630" fill="#0e1726"/>
+  <rect x="64" y="64" width="1072" height="502" rx="22" fill="#f8fafc"/>
+  <circle cx="206" cy="206" r="86" fill="#22c55e"/>
+  <circle cx="326" cy="286" r="86" fill="#0ea5e9"/>
+  <circle cx="446" cy="206" r="86" fill="#f97316"/>
+  <path d="M206 206L326 286L446 206" fill="none" stroke="#0e1726" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="592" y="245" font-family="Arial, Helvetica, sans-serif" font-size="96" font-weight="700" fill="#0e1726">ICLR</text>
+  <text x="596" y="322" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#334155">Learning representations</text>
+  <text x="596" y="382" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#475569">OpenReview submission, discussion,</text>
+  <text x="596" y="426" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#475569">reproducibility, artifacts, camera-ready</text>
+</svg>
+

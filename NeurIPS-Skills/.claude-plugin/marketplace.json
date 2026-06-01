@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "neurips-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for NeurIPS main-track manuscript planning, submission, review response, artifacts, reproducibility, and camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "neurips-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve NeurIPS-specific skills for AI/ML conference submission strategy, grounded in official NeurIPS 2026 CFP, Main Track Handbook, checklist, OpenReview response mechanics, code/data guidance, and camera-ready rules.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "neurips",
+        "machine-learning",
+        "ai",
+        "openreview",
+        "author-response",
+        "reproducibility",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/neurips-submission",
+        "skills/neurips-author-response",
+        "skills/neurips-camera-ready",
+        "skills/neurips-artifact-evaluation",
+        "skills/neurips-reproducibility",
+        "skills/neurips-supplementary",
+        "skills/neurips-review-process",
+        "skills/neurips-writing-style",
+        "skills/neurips-related-work",
+        "skills/neurips-experiments",
+        "skills/neurips-workflow",
+        "skills/neurips-topic-selection"
+      ]
+    }
+  ]
+}
+

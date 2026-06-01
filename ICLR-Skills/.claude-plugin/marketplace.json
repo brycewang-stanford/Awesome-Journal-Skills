@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "iclr-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for ICLR manuscript planning, OpenReview submission, public discussion, reproducibility, artifacts, and camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "iclr-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve ICLR-specific skills for ML conference submission strategy, grounded in official ICLR 2026 CFP, Author Guide, Reviewer Guide, Code of Ethics, Code of Conduct, and LLM-use policy.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "iclr",
+        "openreview",
+        "author-response",
+        "camera-ready",
+        "reproducibility",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/iclr-submission",
+        "skills/iclr-author-response",
+        "skills/iclr-camera-ready",
+        "skills/iclr-artifact-evaluation",
+        "skills/iclr-reproducibility",
+        "skills/iclr-supplementary",
+        "skills/iclr-review-process",
+        "skills/iclr-writing-style",
+        "skills/iclr-related-work",
+        "skills/iclr-experiments",
+        "skills/iclr-workflow",
+        "skills/iclr-topic-selection"
+      ]
+    }
+  ]
+}
+

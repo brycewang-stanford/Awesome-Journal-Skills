@@ -1,0 +1,23 @@
+{
+  "name": "icml-skills",
+  "description": "A 12-skill depth pack for International Conference on Machine Learning (ICML) submissions: topic fit, submission checks, author response, camera-ready, artifacts, reproducibility, supplementary material, review process, writing style, related work, experiments, and workflow. Grounded in official ICML 2026 CFP, author instructions, peer-review FAQ, and LLM-review policy checked on 2026-06-01.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "icml",
+    "machine-learning",
+    "conference-submission",
+    "openreview",
+    "reciprocal-reviewing",
+    "rebuttal",
+    "pmlr",
+    "llm-review-policy"
+  ]
+}
+

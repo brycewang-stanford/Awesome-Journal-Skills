@@ -1,0 +1,22 @@
+{
+  "name": "computer-science-conference-skills",
+  "description": "AI-first computer-science conference skill stack: 155 conference fit-and-submission profiles plus a CS/AI router. Covers top AI/ML, data mining, vision, NLP, robotics, HCI, systems, security, software engineering, programming languages, databases, and theory venues, with current-cycle CFP and author-kit re-check discipline.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "computer-science",
+    "ai",
+    "machine-learning",
+    "conference-submission",
+    "neurips",
+    "icml",
+    "iclr",
+    "academic-writing"
+  ]
+}

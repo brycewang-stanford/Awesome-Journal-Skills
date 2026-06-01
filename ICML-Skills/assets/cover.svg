@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">ICML Skills</title>
+  <desc id="desc">Abstract conference cover card for an ICML manuscript skill pack.</desc>
+  <rect width="1200" height="630" fill="#082f49"/>
+  <rect x="72" y="72" width="1056" height="486" rx="16" fill="#f8fafc"/>
+  <g fill="none" stroke-linecap="round" stroke-width="14">
+    <path d="M185 410 C275 280 365 280 455 405 S635 530 725 315 S905 175 1015 285" stroke="#0ea5e9"/>
+    <path d="M185 345 C285 230 360 250 445 330 S610 455 715 265 S900 150 1015 220" stroke="#14b8a6"/>
+    <path d="M185 475 C305 365 415 375 520 460 S720 510 835 365 S970 330 1015 390" stroke="#f59e0b"/>
+  </g>
+  <text x="132" y="185" font-family="Arial, Helvetica, sans-serif" font-size="86" font-weight="700" fill="#0f172a">ICML</text>
+  <text x="138" y="252" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#334155">International Conference on Machine Learning</text>
+  <text x="138" y="518" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#475569">fit · submission · rebuttal · reproducibility · PMLR camera-ready</text>
+</svg>
+
