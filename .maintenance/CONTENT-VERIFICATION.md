@@ -60,6 +60,15 @@ audit tool still green.
 
 ## Open items (NOT yet done — surfaced for the user's call)
 
+> Codex status note, 2026-05-31: several entries below were resolved after this
+> handoff was written. The Chinese breadth-bundle de-clone is recorded in
+> `.maintenance/ROUND2-RESULTS.md`; the seven missing Chinese depth-pack source maps
+> were added in Codex Wave 10 and are now enforced by `tools/audit_repo.py`; the
+> README parity and JF translation nits listed as items 5-6 are currently clean by
+> local grep. Item 7 (AMR propagation) was resolved in Codex Wave 11. Remaining
+> substantive content work is item 2 (natural-science clone cleanup, Agent B lane)
+> and item 3 (MW/CRE/CFE generic role polishing).
+
 1. **BIG: `Chinese-SocialScience-Journal-Skills` breadth bundle ≈80% clones.** ~82 of 103
    single-journal `SKILL.md` are name-swap clones (>0.90 normalized) with near-zero checkable
    facts (no word limit/fee/portal/editor/exemplar). This is the exact defect the methodology

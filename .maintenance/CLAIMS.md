@@ -67,13 +67,33 @@ Science does NOT contain Cell Press "STAR Methods"; earlier claim retracted.)
 - 不触碰任何现有 pack 内容；建包按分波滚动，每波过 `tools/run_checks.py` + clone 审计。
 
 ## Lane — Workflow Wave W1 · 大类1 经济学领域刊深度包 (parallel workflow)
-- **Owner**: planning agent (Opus, parallel Workflow) · Status: in progress
+- **Owner**: planning agent (Opus, parallel Workflow) · Status: content-complete + verified (uncommitted, 待验收)
+- W1 result: 6/6 packs built, 12 skills each (72 SKILL.md). Cross-pack clone audit < 0.75
+  (no sibling cloning); frontmatter valid; manifests declare 12; source-maps carry URL+date.
+  Volatile facts honestly flagged 待核实 where official Elsevier/UChicago/Wiley pages returned
+  HTTP 403/402. Human spot-check (jde vs rje identification-strategy) confirms deep venue-specificity.
+- DEFERRED (do once after concurrent CS builds settle, to avoid racing a moving count target):
+  count-baseline reconciliation in `tools/audit_repo.py` (1036→actual, 48→actual root packs,
+  200→actual root cards) + README badges + 6 root `AJS-ROOT-JOURNAL-ENTRY` cards. Until then
+  `tools/audit_repo.py` fails ONLY on counts, not on any W1 content defect.
 - Building 6 NEW standalone depth packs (clean gaps, no overlap with Codex CS lane):
   Journal-of-Development-Economics, Journal-of-Public-Economics, Journal-of-Labor-Economics,
   Journal-of-International-Economics, RAND-Journal-of-Economics, Journal-of-Monetary-Economics.
 - Each agent ONLY creates files under its own `<Journal>-Skills/` dir; does NOT touch root
   README, root cards, marketplace, or any shared/existing file (those registered later by owner).
 - Quality bar: venue-specific, official-source-backed (URL+date) or `待核实`; no find-replace clones.
+
+## Lane — Workflow Wave W2 · 大类1 管理学侧深度包 (parallel workflow, aggressive)
+- **Owner**: planning agent (Opus, parallel Workflow) · Status: in progress
+- 18 NEW standalone depth packs (clean gaps, no overlap with Codex CS lane / existing depth packs):
+  Management-Science, Operations-Research, Manufacturing-and-Service-Operations-Management,
+  Production-and-Operations-Management, Journal-of-Operations-Management, Journal-of-Marketing,
+  Journal-of-Marketing-Research, Marketing-Science, Journal-of-Consumer-Research, MIS-Quarterly,
+  Information-Systems-Research, The-Accounting-Review, Journal-of-Accounting-Research,
+  Journal-of-Accounting-and-Economics, Contemporary-Accounting-Research, Organization-Science,
+  Journal-of-International-Business-Studies, Journal-of-Business-Venturing.
+- Same isolation rule as W1: each agent only writes its own `<Journal>-Skills/` dir; no shared files.
+- Same quality bar: venue-specific, official-source-backed (URL+date) or `待核实`; no clones.
 
 ## Out of scope (git submodules — do NOT edit)
 AER-skills, nature-skills, nature-paper-skills, claude-scholar, codex-claude-academic-skills
