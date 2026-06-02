@@ -550,3 +550,40 @@ Verification (all local, read-only):
 
 Status: 3/6 targeted cat-2 flagships complete + verified (uncommitted, 待验收). Remaining targets:
 American-Journal-of-Political-Science, American-Journal-of-Sociology, Journal-of-Personality-and-Social-Psychology.
+
+## Wave C2 — Category 2 lane completed via parallel sub-agents (Agent C)
+
+Built the remaining 3 cat-2 flagships in parallel (3 general-purpose sub-agents, each isolated to its
+own new dir; I then verified independently and brought all READMEs to gold standard):
+
+- **American-Journal-of-Political-Science-Skills** (`ajps-`) — MPSA/Wiley, Editorial Manager,
+  double-blind, Article ≤10,000w / Research Note (methodology + meta-analyses only) & Correspondence
+  ≤4,000w, abstract ≤150w, APSA-or-Chicago style. Signature skill `ajps-replication-and-verification`:
+  AJPS's MANDATORY third-party PRE-publication verification (verifier re-runs code vs. main-text
+  numbers) to the AJPS Dataverse — verifier transitioned Odum Institute → Cornell Center for Social
+  Sciences (待核实). Deliberately differentiated from APSR (which verifies in-house).
+- **American-Journal-of-Sociology-Skills** (`ajs-`) — UChicago Press (NOT SAGE/ASA), founded 1895,
+  Editorial Manager, double-blind student-run assignment + the "preject", $30 fee (sole-author grad
+  waiver), NO fixed word cap (~150w abstract), AJS's OWN house style (not ASA Style Guide),
+  Comment-and-Reply tradition. Deliberately differentiated from ASR.
+- **Journal-of-Personality-and-Social-Psychology-Skills** (`jpsp-`) — APA, established 1965, LONG-format
+  multi-study, THREE independently edited sections (ASC / IRGP / PPID) each with its own editor +
+  Editorial Manager stream, masked review, abstract ≤250w, section-specific length caps (ASC ≤3,500w
+  intro+disc; IRGP ≤5,000w & ≤5 studies; PPID concise), APA 7th + JARS, TOP Level 2, Registered
+  Reports (badges NOT offered). Deliberately differentiated from Psychological Science (short-report).
+
+Independent verification (I re-ran, not just sub-agent self-reports):
+- Each pack 12/12 SKILL.md; marketplace manifest == actual dirs; valid JSON; full frontmatter; no broken links.
+- Each has `resources/official-source-map.md` with official URLs + access date 2026-06-01 + honest `待核实`
+  (Wiley returned HTTP 402; UChicago Press 403 — flagged as not-page-verified; APA pages fetched directly).
+- QC fix: sub-agents shipped thin READMEs (Chinese stubs + a short JPSP English README); I rebuilt all
+  to the full bilingual gold-standard format (now 150-174 lines en, 150-166 zh per pack).
+- **Clone gate (authoritative, whole repo, 1,529 skills): none of the 6 cat-2 packs reaches even 0.50
+  char-shingle Jaccard with ANY other first-party skill, including each other** — despite shared
+  lifecycle role names. Zero pairs ≥0.90 repo-wide. No find-replace cloning.
+
+Lane status: **COMPLETE — 6/6 targeted cat-2 English social-science flagships built + verified**
+(72 new SKILL.md), uncommitted, 待验收. Pairs by discipline: APSR↔AJPS (poli sci), ASR↔AJS (sociology),
+Psychological-Science↔JPSP (psychology) — each pair same discipline, contrasting venue, zero clone.
+NOTE for the audit owner (Codex): `tools/audit_repo.py` canonical/pack counts and root README badges
+do not yet include these 6 packs (left for owner reconciliation, same as the W1/W2 packs).

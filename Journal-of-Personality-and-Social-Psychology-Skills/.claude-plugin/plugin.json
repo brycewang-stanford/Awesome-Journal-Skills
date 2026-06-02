@@ -1,0 +1,30 @@
+{
+  "name": "jpsp-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of Personality and Social Psychology (JPSP) — the American Psychological Association's (APA) flagship long-format journal in personality and social psychology, established 1965, published monthly. JPSP is unusual among psychology journals: it is split into THREE independently edited sections, each with its own editor, masthead, and Editorial Manager submission stream — (1) Attitudes and Social Cognition (ASC), (2) Interpersonal Relations and Group Processes (IRGP), and (3) Personality Processes and Individual Differences (PPID). Choosing the right section is the author's first decision. JPSP publishes LONG-format, theory-driven, multi-study packages rather than short reports: a lengthy introduction and literature review followed by several related studies testing a theory or competing hypotheses, with integrative analyses or internal meta-analyses across studies. Facts covered include masked review for all submissions; abstract up to 250 words plus a limitations statement up to 200 words; section-specific length rules (ASC introduction + discussion no more than 3,500 words; IRGP introduction + discussion no more than 5,000 words and a maximum of 5 studies in the main text; PPID written as succinctly as possible); APA 7th edition Publication Manual style; mandatory Journal Article Reporting Standards (JARS); Transparency and Openness Promotion (TOP) Guidelines at Level 2 (Requirement) effective July 1, 2021; data/code/materials and preregistration disclosure to a trusted repository; Registered Reports accepted; open-science badges not offered; and APA's expectation that data remain available for at least five years post-publication. Covers section choice and topic fit, cross-literature positioning, theory and hypothesis building, multi-study package design with power and preregistration, JARS-compliant analysis and internal meta-analysis, APA 7th exhibits, long-format APA writing, TOP-Level-2 transparency, the per-section masked review process, submission preflight, and revise-and-resubmit rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jpsp-skills",
+  "repository": "https://github.com/brycewang-stanford/jpsp-skills",
+  "keywords": [
+    "journal-of-personality-and-social-psychology",
+    "jpsp",
+    "personality-psychology",
+    "social-psychology",
+    "apa",
+    "attitudes-and-social-cognition",
+    "interpersonal-relations-and-group-processes",
+    "personality-processes-and-individual-differences",
+    "jars",
+    "top-guidelines",
+    "multi-study",
+    "internal-meta-analysis",
+    "preregistration",
+    "registered-reports",
+    "masked-review",
+    "editorial-manager"
+  ]
+}

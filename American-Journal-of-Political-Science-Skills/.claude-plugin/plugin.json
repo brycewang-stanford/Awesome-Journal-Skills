@@ -1,0 +1,31 @@
+{
+  "name": "ajps-skills",
+  "description": "Agent skill stack for manuscripts targeted at the American Journal of Political Science (AJPS) — the flagship journal of the Midwest Political Science Association (MPSA), published by Wiley, submitted via Editorial Manager under double-blind peer review. AJPS is a generalist, quantitatively leaning political-science venue spanning American politics, comparative politics, international relations, political behavior, institutions, methodology, and formal theory, and it publishes Articles (<= 10,000 words), Research Notes (<= 4,000 words, methodology and meta-analysis only), and Correspondence (<= 4,000 words). The pack's signature focus is the AJPS Replication & Verification Policy: before any accepted article is published, a third-party verifier re-runs the deposited code to confirm it reproduces the numerical results in the main text — quantitative verification now performed by the Cornell Center for Social Sciences (after the Odum Institute contract ended 2023, 待核实) and qualitative verification facilitated by the Qualitative Data Repository (QDR) at Syracuse, with materials deposited to the AJPS Dataverse on the Harvard Dataverse Network. Facts covered include the 150-word abstract cap, the word-count rule (includes notes and table/figure captions, excludes references and online Supporting Information), strict author-anonymizing, the APSA Style Manual or Chicago 18th option, and the 20-page Supporting Information limit. Covers topic selection, literature positioning, theory building, research design, data analysis, exhibits, writing, the verified replication package, the review process, submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/ajps-skills",
+  "repository": "https://github.com/brycewang-stanford/ajps-skills",
+  "keywords": [
+    "american-journal-of-political-science",
+    "ajps",
+    "political-science",
+    "mpsa",
+    "midwest-political-science-association",
+    "wiley",
+    "comparative-politics",
+    "international-relations",
+    "political-behavior",
+    "causal-inference",
+    "political-methodology",
+    "replication",
+    "verification",
+    "cornell-css",
+    "dataverse",
+    "academic-writing",
+    "editorial-manager"
+  ]
+}

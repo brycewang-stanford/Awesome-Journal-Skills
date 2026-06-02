@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "ajps-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the American Journal of Political Science (AJPS), the flagship journal of the Midwest Political Science Association, built around AJPS's third-party pre-publication replication verification.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "ajps-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the American Journal of Political Science (AJPS) manuscript lifecycle, with a dedicated skill for the journal's mandatory third-party verified replication package deposited to the AJPS Dataverse.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/ajps-skills",
+      "repository": "https://github.com/brycewang-stanford/ajps-skills",
+      "keywords": [
+        "american-journal-of-political-science",
+        "ajps",
+        "political-science",
+        "mpsa",
+        "replication-verification",
+        "dataverse",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/ajps-workflow",
+        "skills/ajps-topic-selection",
+        "skills/ajps-literature-positioning",
+        "skills/ajps-theory-building",
+        "skills/ajps-research-design",
+        "skills/ajps-data-analysis",
+        "skills/ajps-tables-figures",
+        "skills/ajps-writing-style",
+        "skills/ajps-replication-and-verification",
+        "skills/ajps-review-process",
+        "skills/ajps-submission",
+        "skills/ajps-rebuttal"
+      ]
+    }
+  ]
+}

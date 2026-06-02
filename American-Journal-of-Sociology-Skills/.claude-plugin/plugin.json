@@ -1,0 +1,27 @@
+{
+  "name": "ajs-skills",
+  "description": "Agent skill stack for manuscripts targeted at the American Journal of Sociology (AJS) — the discipline's oldest journal (founded 1895 by Albion Small), housed for its entire history at the University of Chicago Department of Sociology and published by the University of Chicago Press (NOT SAGE/ASA). AJS is submitted via Editorial Manager (editorialmanager.com/ucp-ajs) under double-blind review, with a distinctive student-run editorial process: assignment by a Manuscript Assignment Board of Assistant Editors supervised by graduate-student Associate Editors, an editorial board comprising the entire Chicago sociology faculty, and a 'preject' screen for papers not in dialogue with current sociology. Facts covered include the $30 submission fee (waived for sole-author graduate students), the ~150-word abstract, AJS's own author-date house style (not the ASA Style Guide), no fixed word-count limit (referees may need more time over ~18,000 words), the long Comment-and-Reply tradition and substantial book-review section, and the Roger V. Gould Prize. AJS is a generalist sociology venue with notable strength in social theory and comparative-historical work, welcoming quantitative, qualitative, ethnographic, and formal scholarship. Data/replication expectations are less prescriptive than ASR/AJPS and are flagged for verification. Covers topic selection, literature positioning, theory building, research design, data analysis, exhibits, house-style writing, data and transparency, the review process, submission preflight, and Comment/Reply or R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/ajs-skills",
+  "repository": "https://github.com/brycewang-stanford/ajs-skills",
+  "keywords": [
+    "american-journal-of-sociology",
+    "ajs",
+    "sociology",
+    "university-of-chicago-press",
+    "social-theory",
+    "comparative-historical-sociology",
+    "ethnography",
+    "quantitative-sociology",
+    "double-blind-review",
+    "comment-and-reply",
+    "research-transparency",
+    "academic-writing",
+    "editorial-manager"
+  ]
+}

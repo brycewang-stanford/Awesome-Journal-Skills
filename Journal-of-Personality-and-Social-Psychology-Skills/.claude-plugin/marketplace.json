@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jpsp-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Personality and Social Psychology (JPSP), the American Psychological Association's flagship long-format journal of personality and social psychology, organized into three independently edited sections.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jpsp-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Personality and Social Psychology (JPSP) manuscript lifecycle: choosing the right section (Attitudes and Social Cognition, Interpersonal Relations and Group Processes, Personality Processes and Individual Differences), building multi-study packages, internal meta-analysis, JARS reporting, APA 7th style, TOP-Level-2 transparency, masked review, and the per-section editorial process.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jpsp-skills",
+      "repository": "https://github.com/brycewang-stanford/jpsp-skills",
+      "keywords": [
+        "journal-of-personality-and-social-psychology",
+        "jpsp",
+        "personality-psychology",
+        "social-psychology",
+        "apa",
+        "jars",
+        "multi-study",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jpsp-workflow",
+        "skills/jpsp-topic-selection",
+        "skills/jpsp-literature-positioning",
+        "skills/jpsp-theory-and-hypotheses",
+        "skills/jpsp-study-design",
+        "skills/jpsp-data-analysis",
+        "skills/jpsp-tables-figures",
+        "skills/jpsp-writing-style",
+        "skills/jpsp-open-science-and-transparency",
+        "skills/jpsp-review-process",
+        "skills/jpsp-submission",
+        "skills/jpsp-rebuttal"
+      ]
+    }
+  ]
+}

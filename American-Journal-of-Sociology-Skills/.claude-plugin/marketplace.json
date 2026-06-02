@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "ajs-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the American Journal of Sociology (AJS), the discipline's oldest journal, published by the University of Chicago Press.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "ajs-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the American Journal of Sociology (AJS) manuscript lifecycle — UChicago Press house style, double-blind student-run review, the $30 submission fee, the Comment-and-Reply tradition, and AJS's strength in social theory and comparative-historical sociology.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/ajs-skills",
+      "repository": "https://github.com/brycewang-stanford/ajs-skills",
+      "keywords": [
+        "american-journal-of-sociology",
+        "ajs",
+        "sociology",
+        "university-of-chicago-press",
+        "social-theory",
+        "comparative-historical-sociology",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/ajs-workflow",
+        "skills/ajs-topic-selection",
+        "skills/ajs-literature-positioning",
+        "skills/ajs-theory-building",
+        "skills/ajs-research-design",
+        "skills/ajs-data-analysis",
+        "skills/ajs-tables-figures",
+        "skills/ajs-writing-style",
+        "skills/ajs-data-and-transparency",
+        "skills/ajs-review-process",
+        "skills/ajs-submission",
+        "skills/ajs-rebuttal"
+      ]
+    }
+  ]
+}

@@ -157,3 +157,10 @@ AER-skills, nature-skills, nature-paper-skills, claude-scholar, codex-claude-aca
   lifecycle tuned per discipline. No find-replace clones — cross-pack clone audit must stay < 0.75.
 - **Coordination note**: these journal names are NOT among the active agent's queued packs. If the
   active agent claims any category-2 name later, Agent C yields it.
+
+### Agent C lane — STATUS UPDATE (2026-06-01): COMPLETE
+All 6 targeted cat-2 packs built + verified + uncommitted (待验收): American-Political-Science-Review,
+American-Sociological-Review, Psychological-Science (built directly) + American-Journal-of-Political-Science,
+American-Journal-of-Sociology, Journal-of-Personality-and-Social-Psychology (built via parallel sub-agents).
+72 new SKILL.md. Clone audit: none ≥0.50 vs anything repo-wide. Only shared files touched: CLAIMS.md +
+PROGRESS.md (append-only). Did NOT touch README counts / tools / other packs — left for owner reconciliation.
