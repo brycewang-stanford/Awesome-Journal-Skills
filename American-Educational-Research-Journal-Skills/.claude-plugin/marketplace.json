@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "aerj-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the American Educational Research Journal (AERJ), the flagship journal of the American Educational Research Association.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "aerj-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the American Educational Research Journal (AERJ) manuscript lifecycle across quantitative, qualitative, and mixed-methods education research and the journal's two sections (Social and Institutional Analysis; Teaching, Learning, and Human Development).",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/aerj-skills",
+      "repository": "https://github.com/brycewang-stanford/aerj-skills",
+      "keywords": [
+        "american-educational-research-journal",
+        "aerj",
+        "education-research",
+        "aera",
+        "mixed-methods",
+        "research-transparency",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/aerj-workflow",
+        "skills/aerj-topic-selection",
+        "skills/aerj-literature-positioning",
+        "skills/aerj-theory-and-framework",
+        "skills/aerj-research-design",
+        "skills/aerj-data-analysis",
+        "skills/aerj-tables-figures",
+        "skills/aerj-writing-style",
+        "skills/aerj-transparency-and-data-policy",
+        "skills/aerj-review-process",
+        "skills/aerj-submission",
+        "skills/aerj-rebuttal"
+      ]
+    }
+  ]
+}

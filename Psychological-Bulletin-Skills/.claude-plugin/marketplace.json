@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "psychbull-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Psychological Bulletin, the American Psychological Association's flagship outlet for integrative research reviews and meta-analyses.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "psychbull-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Psychological Bulletin review / meta-analysis lifecycle — from a meta-analyzable question through PRISMA search, coding, random-effects synthesis, moderators and publication-bias diagnostics, MARS/JARS reporting, transparency, submission, and rebuttal.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/psychbull-skills",
+      "repository": "https://github.com/brycewang-stanford/psychbull-skills",
+      "keywords": [
+        "psychological-bulletin",
+        "psychbull",
+        "meta-analysis",
+        "systematic-review",
+        "prisma",
+        "mars",
+        "research-transparency",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/psychbull-workflow",
+        "skills/psychbull-topic-selection",
+        "skills/psychbull-literature-search-strategy",
+        "skills/psychbull-inclusion-and-coding",
+        "skills/psychbull-meta-analysis-methods",
+        "skills/psychbull-moderators-and-bias",
+        "skills/psychbull-theory-integration",
+        "skills/psychbull-tables-figures",
+        "skills/psychbull-writing-style",
+        "skills/psychbull-open-science-and-transparency",
+        "skills/psychbull-submission",
+        "skills/psychbull-rebuttal"
+      ]
+    }
+  ]
+}

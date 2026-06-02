@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "crim-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Criminology, the flagship interdisciplinary journal of the American Society of Criminology.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "crim-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Criminology (ASC / Wiley) manuscript lifecycle, from theory-forward topic selection through crime-data analysis, transparency, blinded review, and R&R rebuttals.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/crim-skills",
+      "repository": "https://github.com/brycewang-stanford/crim-skills",
+      "keywords": [
+        "criminology",
+        "american-society-of-criminology",
+        "asc",
+        "criminal-justice",
+        "life-course-criminology",
+        "research-transparency",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/crim-workflow",
+        "skills/crim-topic-selection",
+        "skills/crim-literature-positioning",
+        "skills/crim-theory-building",
+        "skills/crim-research-design",
+        "skills/crim-data-analysis",
+        "skills/crim-tables-figures",
+        "skills/crim-writing-style",
+        "skills/crim-data-and-transparency",
+        "skills/crim-review-process",
+        "skills/crim-submission",
+        "skills/crim-rebuttal"
+      ]
+    }
+  ]
+}

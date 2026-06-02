@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "joc-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Communication (JoC), the flagship journal of the International Communication Association.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "joc-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Communication (JoC) manuscript lifecycle across communication research traditions — quantitative, computational, qualitative, and critical.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/joc-skills",
+      "repository": "https://github.com/brycewang-stanford/joc-skills",
+      "keywords": [
+        "journal-of-communication",
+        "joc",
+        "communication-research",
+        "ica",
+        "open-science",
+        "data-availability",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/joc-workflow",
+        "skills/joc-topic-selection",
+        "skills/joc-literature-positioning",
+        "skills/joc-theory-building",
+        "skills/joc-research-design",
+        "skills/joc-data-analysis",
+        "skills/joc-tables-figures",
+        "skills/joc-writing-style",
+        "skills/joc-open-science-and-transparency",
+        "skills/joc-review-process",
+        "skills/joc-submission",
+        "skills/joc-rebuttal"
+      ]
+    }
+  ]
+}

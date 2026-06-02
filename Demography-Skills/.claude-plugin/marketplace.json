@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "demog-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Demography, the flagship open-access journal of the Population Association of America, published by Duke University Press.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "demog-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Demography manuscript lifecycle across population science, with demographic methods (life tables, decomposition, event history, age-period-cohort, multistate, microsimulation, projections) and the journal's Subscribe to Open access model.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/demog-skills",
+      "repository": "https://github.com/brycewang-stanford/demog-skills",
+      "keywords": [
+        "demography",
+        "demog",
+        "population-studies",
+        "paa",
+        "duke-university-press",
+        "open-access",
+        "reproducibility",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/demog-workflow",
+        "skills/demog-topic-selection",
+        "skills/demog-literature-positioning",
+        "skills/demog-theory-building",
+        "skills/demog-research-design",
+        "skills/demog-data-analysis",
+        "skills/demog-tables-figures",
+        "skills/demog-writing-style",
+        "skills/demog-data-and-reproducibility",
+        "skills/demog-review-process",
+        "skills/demog-submission",
+        "skills/demog-rebuttal"
+      ]
+    }
+  ]
+}

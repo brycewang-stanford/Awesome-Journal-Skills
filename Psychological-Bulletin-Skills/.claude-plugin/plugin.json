@@ -1,0 +1,32 @@
+{
+  "name": "psychbull-skills",
+  "description": "Agent skill stack for manuscripts targeted at Psychological Bulletin — the American Psychological Association's (APA) flagship outlet for integrative research reviews and meta-analyses, founded in 1904 and submitted via APA Editorial Manager under masked review with no submission fee stated. Psychological Bulletin publishes syntheses of research in scientific psychology — systematic reviews, meta-analyses, meta-reviews, meta-synthesis, and rigorous qualitative reviews — and explicitly does NOT publish original primary empirical studies (those go to other APA journals; original theory to Psychological Review). Because the deliverable is a synthesis rather than a study, the skill set is built around the review/meta-analysis lifecycle: a review-worthy and meta-analyzable question, a systematic PRISMA-style search across databases, transparent eligibility criteria with double-coding and inter-rater reliability, effect-size extraction and random-effects models with heterogeneity (I^2, tau^2), moderator/meta-regression and publication-bias diagnostics (funnel, Egger, trim-and-fill, p-curve, selection models), turning the synthesis into a theoretical contribution, MARS/PRISMA/JARS-compliant reporting with forest/funnel plots and a PRISMA flow diagram, APA 7th-edition style with a 250-word abstract, TOP Level 2 transparency (data, codebook, analysis scripts, materials) and preregistration of the protocol (e.g., PROSPERO/OSF), the masked review process, Editorial Manager submission preflight, and the revise-and-resubmit rebuttal. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/psychbull-skills",
+  "repository": "https://github.com/brycewang-stanford/psychbull-skills",
+  "keywords": [
+    "psychological-bulletin",
+    "psychbull",
+    "psychology",
+    "apa",
+    "meta-analysis",
+    "systematic-review",
+    "research-synthesis",
+    "prisma",
+    "mars",
+    "jars",
+    "publication-bias",
+    "moderator-analysis",
+    "random-effects",
+    "preregistration",
+    "prospero",
+    "research-transparency",
+    "academic-writing",
+    "editorial-manager"
+  ]
+}

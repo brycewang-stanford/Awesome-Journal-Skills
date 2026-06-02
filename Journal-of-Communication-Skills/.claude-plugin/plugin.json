@@ -1,0 +1,30 @@
+{
+  "name": "joc-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of Communication (JoC) — the flagship journal of the International Communication Association (ICA), published by Oxford University Press, submitted via Manuscript Central (ScholarOne) under double-anonymous peer review with no submission fee. JoC is a generalist communication venue spanning communication theory and methodology, media effects, political communication, health communication, computational/text-as-data communication, and interpersonal/organizational communication, and it welcomes quantitative (surveys, experiments, content analysis, computational) as well as qualitative and critical/interpretive work. Facts covered include the 35-page main-document limit (including abstract, text, references, tables, figures, and endnotes), the 150-word abstract cap, the 3,000–6,000-word JoC Forum format, APA 7th-edition style, double-anonymous anonymization with third-person self-citation, a required Data Availability Statement, ICA/OUP Open Science Badges for open data / open materials / preregistration, encouraged-but-not-required preregistration, and hybrid open-access options with Research4Life APC waivers. Covers communication-research topic selection, cross-tradition literature positioning, theory building, research design across experiments / surveys / content analysis / computational / qualitative, data-analysis norms, exhibits, APA-style writing, open science and transparency, the review process, submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/joc-skills",
+  "repository": "https://github.com/brycewang-stanford/joc-skills",
+  "keywords": [
+    "journal-of-communication",
+    "joc",
+    "communication-research",
+    "ica",
+    "media-effects",
+    "political-communication",
+    "health-communication",
+    "computational-communication",
+    "communication-theory",
+    "content-analysis",
+    "survey-experiments",
+    "open-science",
+    "data-availability",
+    "academic-writing",
+    "manuscript-central",
+    "oxford-university-press"
+  ]
+}

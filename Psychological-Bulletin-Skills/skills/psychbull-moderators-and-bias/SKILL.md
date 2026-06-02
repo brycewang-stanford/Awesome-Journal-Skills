@@ -1,0 +1,69 @@
+---
+name: psychbull-moderators-and-bias
+description: Use when explaining heterogeneity and probing robustness in a Psychological Bulletin meta-analysis — moderator/subgroup analysis, meta-regression, and publication-bias diagnostics (funnel, Egger, trim-and-fill, PET-PEESE, p-curve, selection models) plus sensitivity analyses. Extends the core model; estimation lives in psychbull-meta-analysis-methods.
+---
+
+# Moderators & Publication Bias (psychbull-moderators-and-bias)
+
+Once a pooled effect and its heterogeneity exist, two questions decide the paper's credibility: **what
+explains the variation** (moderators), and **is the effect an artifact of selective reporting**
+(publication bias). Psychological Bulletin reviewers scrutinize both, and **MARS** requires reporting
+bias assessment. This skill extends the core model in `psychbull-meta-analysis-methods`.
+
+## When to trigger
+
+- Testing pre-specified moderators / meta-regression to explain heterogeneity
+- Running publication-bias diagnostics
+- A reviewer asks for sensitivity / robustness analyses
+- Reconciling conflicting signals across bias tests
+
+## Moderators & meta-regression
+
+- **Pre-specify** moderators in the protocol; treat unplanned ones as **exploratory** and label them.
+- Use **mixed-effects meta-regression** (categorical subgroups and continuous moderators); report the
+  moderator coefficient, its CI, **residual heterogeneity**, and **R² analog** (variance explained).
+- Beware **ecological/aggregation** bias (study-level moderators ≠ individual-level), **multiple
+  testing** across many moderators, and **confounded** moderators; interpret cautiously.
+
+## Publication-bias diagnostics (run several, not one)
+
+1. **Funnel plot** (with contour enhancement) — visual asymmetry; not proof on its own.
+2. **Egger's regression** / rank tests — small-study effects, with the usual caveats under high
+   heterogeneity.
+3. **Trim-and-fill** — imputes "missing" studies; treat as sensitivity, not truth.
+4. **PET-PEESE** — regression-based bias-adjusted estimate.
+5. **p-curve / p-uniform** — evidential value and right-skew vs. p-hacking signatures.
+6. **Three-parameter selection models** (`weightr`) — model the selection process directly.
+
+No single test is decisive; **converging evidence** across methods is the standard, and all are weak
+under strong heterogeneity — say so.
+
+## Sensitivity & robustness
+
+- **Leave-one-out** and influence/outlier diagnostics; refit without high-leverage studies.
+- Sensitivity to **effect-size metric**, **model** (RVE vs. multilevel), and **inclusion borderline**.
+- Subset by **study quality / risk of bias**; published vs. grey literature.
+
+## Anti-patterns
+
+- Mining dozens of moderators and theorizing the one that hits (HARKing); no multiple-testing caution
+- A single bias test reported as if it settled the question
+- Trim-and-fill or PET-PEESE reported as the "true" effect rather than a sensitivity bound
+- Ignoring that bias diagnostics behave poorly under high heterogeneity
+- Subgroup claims from tiny k (few studies per cell)
+
+## Output format
+
+```
+【Moderators】pre-specified vs exploratory; meta-regression coef + CI + R²
+【Residual heterogeneity】after moderators
+【Bias diagnostics】funnel / Egger / trim-fill / PET-PEESE / p-curve / selection — converge? 
+【Sensitivity】leave-one-out, metric, model, quality subsets
+【Bottom line】is the effect robust? [statement]
+【Next】psychbull-theory-integration
+```
+
+## Supplementary resources
+
+- [`../../resources/external_tools.md`](../../resources/external_tools.md) — `metafor`, `dmetar` (PET-PEESE), `weightr`, `puniform`, p-curve
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — MARS bias-assessment reporting

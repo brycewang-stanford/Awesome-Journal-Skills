@@ -1,0 +1,32 @@
+{
+  "name": "jop-skills",
+  "description": "Agent skill stack for manuscripts targeted at The Journal of Politics (JOP) — a leading general-interest political-science journal published by the University of Chicago Press for the Southern Political Science Association (SPSA), founded in 1939 and one of the oldest and most widely read journals in the discipline. JOP is theoretically innovative and methodologically diverse across all subfields (American politics, comparative politics, formal theory, international relations, methodology, political theory, public administration, and public policy), and it is distinctive in two operational ways: it enforces strict PAGE limits rather than word counts — Research Articles no longer than 35 double-spaced 12-point pages including text, footnotes, references, and tables/figures, Short Articles no longer than 10 pages, and an Online Appendix capped at 25 pages — and it makes acceptance contingent on replicability, with a JOP replication analyst assigned at conditional acceptance who assesses the deposited materials in the JOP Dataverse (Harvard Dataverse) before publication, rejecting manuscripts that are not replicable. Facts covered include double-blind review, Editorial Manager submission, the 150-word abstract cap, 4-5 keywords, and the readme + dataset(s) + codebook + code single-zip replication package made public at the time of publication. Covers political-science topic selection, cross-subfield literature positioning, theory and argument building, research design across causal inference / experiments / formal / qualitative work, data-analysis norms, exhibits, JOP-style writing within the page budget, the replication and data-access policy, the review process, submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jop-skills",
+  "repository": "https://github.com/brycewang-stanford/jop-skills",
+  "keywords": [
+    "journal-of-politics",
+    "jop",
+    "political-science",
+    "spsa",
+    "southern-political-science-association",
+    "university-of-chicago-press",
+    "comparative-politics",
+    "american-politics",
+    "international-relations",
+    "formal-theory",
+    "political-methodology",
+    "causal-inference",
+    "page-limit",
+    "replication-analyst",
+    "data-access",
+    "dataverse",
+    "academic-writing",
+    "editorial-manager"
+  ]
+}

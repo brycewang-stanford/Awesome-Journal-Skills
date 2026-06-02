@@ -1,0 +1,30 @@
+{
+  "name": "crim-skills",
+  "description": "Agent skill stack for manuscripts targeted at Criminology — the flagship, interdisciplinary journal of the American Society of Criminology (ASC), published by Wiley and submitted through the Wiley Research Exchange portal under a blinded (anonymized) peer-review model. Criminology publishes the best work on the etiology of crime and deviance, criminological theory, criminal-career and life-course processes, victimization, and the criminal-legal system, drawing on sociology, psychology, economics, and related fields. The pack encodes the venue's distinctive demands: a theory-forward contribution rather than a bare empirical finding; rigorous quantitative work on crime data (UCR/NIBRS/NCVS), longitudinal and life-course designs, group-based trajectory models, and criminal-career methods, alongside serious qualitative and mixed-methods scholarship; APA-based style with author-date citations and an anonymized main document plus a separate title page; bias-free language for justice-involved populations; growing transparency norms (data/replication, preregistration, open-science badges); a Research Note track; and an open-access APC option after acceptance. Covers topic selection and fit, cross-field literature positioning, theory building, research design across quantitative / qualitative / longitudinal-crime designs, data analysis, exhibits, criminological writing, data and transparency, the review process, submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/crim-skills",
+  "repository": "https://github.com/brycewang-stanford/crim-skills",
+  "keywords": [
+    "criminology",
+    "american-society-of-criminology",
+    "asc",
+    "criminal-justice",
+    "criminological-theory",
+    "life-course-criminology",
+    "criminal-careers",
+    "trajectory-models",
+    "victimology",
+    "quantitative-criminology",
+    "qualitative-criminology",
+    "ucr-nibrs-ncvs",
+    "research-transparency",
+    "academic-writing",
+    "research-exchange",
+    "wiley"
+  ]
+}

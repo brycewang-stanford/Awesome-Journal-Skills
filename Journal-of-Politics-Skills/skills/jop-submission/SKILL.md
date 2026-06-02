@@ -1,0 +1,75 @@
+---
+name: jop-submission
+description: Use when running the final pre-submission preflight for The Journal of Politics (JOP) via Editorial Manager — category selection, double-blind preparation, the page budget (Research Article <= 35 / Short Article <= 10, double-spaced 12-point), the Online Appendix <= 25 pages, abstract and keywords, and JOP Style Guide formatting. Final checks; it does not draft content.
+---
+
+# Submission Preflight (jop-submission)
+
+The last check before pressing submit on **Editorial Manager** (`editorialmanager.com/jop`). Two JOP
+failure modes dominate: an **over-the-page-budget** manuscript (JOP counts **pages, not words**) and an
+**under-anonymized** file (JOP is **double-blind**). Verify volatile specifics on the official page first.
+
+## When to trigger
+
+- "Submitting tomorrow" — last pass before upload
+- Unsure which files/metadata Editorial Manager expects
+- Confirming the category's page limit is met and the manuscript is properly anonymized
+
+## Process facts (verify volatile items on the official page)
+
+- **Owner / publisher:** Southern Political Science Association (SPSA) / University of Chicago Press.
+- **Portal:** **Editorial Manager** (`editorialmanager.com/jop`).
+- **Review model:** **double-blind** — upload an anonymous version; provide a separate title page.
+- **Categories & length:** **Research Article ≤ 35 pages**, **Short Article ≤ 10 pages**, each
+  **double-spaced, 12-pt, one-inch margins**, **including** text, footnotes, references, and tables/figures.
+- **Online Appendix:** separate file, **≤ 25 pages**, **excluded** from the 35-page limit.
+- **Abstract:** **≤ 150 words** (question + approach + findings; no citations); **4–5 keywords**.
+- **Style:** **The JOP Style Guide** (house author-date).
+- **Fee:** no submission fee stated; no membership requirement (待核实; confirm any post-acceptance OA APC).
+
+## Preflight checklist
+
+### Category & length (pages, not words)
+- [ ] Category chosen and its **page limit** met (Research ≤ 35 / Short ≤ 10)
+- [ ] Manuscript **double-spaced, 12-pt, one-inch margins** — measured at the real page count
+- [ ] Footnotes, references, and exhibits counted toward the limit
+- [ ] Online Appendix is a separate file and **≤ 25 pages**
+- [ ] Abstract ≤ 150 words (no citations); **4–5 keywords** listed
+
+### Anonymity (double-blind)
+- [ ] No author names, affiliations, or acknowledgments in the manuscript
+- [ ] No first-person self-references ("as we showed in…"); self-citations in third person
+- [ ] Identifying **file metadata stripped** (document properties, comments)
+- [ ] Separate (non-anonymous) title/abstract page prepared as a distinct file
+
+### Format & compliance
+- [ ] JOP Style Guide formatting; consistent author-date citations
+- [ ] Figures/tables self-contained and code-generated (see `jop-tables-figures`)
+- [ ] Ethics / IRB / human-subjects compliance addressed
+- [ ] Replication package staged for the JOP Dataverse, ready for the analyst at conditional acceptance
+      (see `jop-replication-and-data-policy`)
+
+## Anti-patterns
+
+- Editing to a word count and submitting an over-the-page-budget manuscript
+- Leaving author identifiers in the text, acknowledgments, or file metadata (breaks anonymity)
+- Online Appendix over 25 pages, or smuggling main-text content into it to dodge the 35-page cap
+- Sending a long paper to the Short Article category
+- Budgeting for a submission fee that is not charged (verify)
+
+## Output format
+
+```
+【Category】Research Article (≤35 pp) / Short Article (≤10 pp) — page limit met? [Y/N]
+【Format】double-spaced 12-pt; exhibits/notes/refs counted? [Y/N]
+【Online Appendix】separate file, ≤25 pp? [Y/N]
+【Abstract + keywords】≤150 words, no citations; 4–5 keywords? [Y/N]
+【Anonymized】text + self-refs + file metadata clean? [Y/N]
+【Repro package】staged for JOP Dataverse? [Y/N]
+【Next】await decision → jop-rebuttal on R&R
+```
+
+## Supplementary resources
+
+- [`../../resources/external_tools.md`](../../resources/external_tools.md) — reference managers, anonymization, page-budget and repro tooling
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — JOP portal, page limits, abstract cap, double-blind policy

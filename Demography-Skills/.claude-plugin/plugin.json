@@ -1,0 +1,33 @@
+{
+  "name": "demog-skills",
+  "description": "Agent skill stack for manuscripts targeted at Demography — the flagship journal of the Population Association of America (PAA), published by Duke University Press since 2021 and fully open access to readers under a Subscribe to Open (S2O) model (the 2021-2023 and 2026 volumes are open access; from the 2024 volume the year's content opens if the subscription threshold is met). Demography is a multidisciplinary population-science venue spanning formal demography, fertility, mortality, migration, family and households, health and aging, and population dynamics, drawing on anthropology, biology, economics, epidemiology, geography, history, psychology, public health, sociology, and statistics. Submission is via ScholarOne Manuscripts (moved from Editorial Manager in 2024) under double-blind review, with a $35 submission fee and a $1,000 editorial-management fee at acceptance (both waivable; the $1,000 fee is not an open-access APC). Article types are Research Articles (<= 8,000 words main text), Research Notes (<= 4,000), and Commentaries (<= 2,000), with a <= 200-word abstract, up to 5 keywords, 3-5 highlights, loosely APA reference style, and a data-availability statement plus encouraged reproducible code (Demography hosts no repository; authors deposit in a FAIR repository). Covers demographic topic selection, population-science literature positioning, theory and mechanism building, research design (life tables, decomposition, event-history/survival, age-period-cohort, multistate, microsimulation, projections, and causal inference), data analysis, demographic exhibits (population pyramids, Lexis surfaces, survival curves), writing, data and reproducibility, the review process, ScholarOne submission, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/demog-skills",
+  "repository": "https://github.com/brycewang-stanford/demog-skills",
+  "keywords": [
+    "demography",
+    "demog",
+    "population-studies",
+    "population-association-of-america",
+    "paa",
+    "duke-university-press",
+    "open-access",
+    "subscribe-to-open",
+    "fertility",
+    "mortality",
+    "migration",
+    "formal-demography",
+    "life-tables",
+    "event-history",
+    "age-period-cohort",
+    "microsimulation",
+    "reproducibility",
+    "academic-writing",
+    "scholarone"
+  ]
+}

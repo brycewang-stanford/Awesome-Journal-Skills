@@ -1,0 +1,30 @@
+{
+  "name": "aerj-skills",
+  "description": "Agent skill stack for manuscripts targeted at the American Educational Research Journal (AERJ) — the flagship journal of the American Educational Research Association (AERA), published by SAGE, submitted via ScholarOne Manuscript Central under masked (anonymous) peer review with no standard submission fee. AERJ spans the whole field of education research across all subfields, levels, and methods, and is organized into two separately edited sections: Social and Institutional Analysis (SIA) — political, cultural, social, economic, and organizational issues in education — and Teaching, Learning, and Human Development (TLHD) — processes and outcomes of teaching, learning, and human development in formal and informal settings. Facts covered include the 100–120-word abstract, the roughly 20–50-page manuscript length (double-spaced, 12-point, 1-inch margins, inclusive of tables/figures/notes/references), APA 7th-edition style, ORCID for the corresponding author, the AERA Standards for Reporting on Empirical Social Science Research (quantitative + qualitative), and the AERA Code of Ethics data-availability expectations. Covers education-research topic selection (including choosing SIA vs TLHD), cross-subfield literature positioning, theory and conceptual frameworks, research design across quantitative / qualitative / mixed methods, data-analysis norms, exhibits, APA-style writing, transparency and data policy, the masked review process, submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/aerj-skills",
+  "repository": "https://github.com/brycewang-stanford/aerj-skills",
+  "keywords": [
+    "american-educational-research-journal",
+    "aerj",
+    "education-research",
+    "aera",
+    "social-and-institutional-analysis",
+    "teaching-learning-and-human-development",
+    "quantitative-methods",
+    "qualitative-methods",
+    "mixed-methods",
+    "multilevel-modeling",
+    "research-transparency",
+    "reporting-standards",
+    "academic-writing",
+    "scholarone",
+    "apa-style",
+    "sage-publishing"
+  ]
+}
