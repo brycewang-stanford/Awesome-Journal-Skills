@@ -164,3 +164,22 @@ American-Sociological-Review, Psychological-Science (built directly) + American-
 American-Journal-of-Sociology, Journal-of-Personality-and-Social-Psychology (built via parallel sub-agents).
 72 new SKILL.md. Clone audit: none ≥0.50 vs anything repo-wide. Only shared files touched: CLAIMS.md +
 PROGRESS.md (append-only). Did NOT touch README counts / tools / other packs — left for owner reconciliation.
+
+### Agent C lane — WAVE C3 (2026-06-XX): cat-2 sub-discipline expansion (in progress, 待验收)
+Extending the Category 2 lane into NEW social-science sub-disciplines (still zero overlap with the
+active agent's cat-1/8 and Agent B's natural-science/medicine turf). 6 NEW standalone packs, each in
+its own new dir, built via parallel sub-agents + independent QC (clone audit <0.75, full bilingual
+READMEs, official-source-map with 待核实):
+- American-Educational-Research-Journal-Skills (`aerj-`) — Education (AERA/SAGE) — NEW subdiscipline
+- Demography-Skills (`demog-`) — Demography/population (PAA/Duke UP, open access) — NEW subdiscipline
+- Criminology-Skills (`crim-`) — Criminology (ASC/Wiley) — NEW subdiscipline
+- Journal-of-Communication-Skills (`joc-`) — Communication (ICA/OUP) — NEW subdiscipline
+- Psychological-Bulletin-Skills (`psychbull-`) — Psychology review/meta-analysis flagship (APA)
+- Journal-of-Politics-Skills (`jop-`) — Political science (SPSA/UChicago), distinct from APSR/AJPS
+Isolation rule unchanged: only own new dirs; CLAIMS/PROGRESS append-only; no README-count/tools/other-pack edits.
+
+### Agent C lane — WAVE C3 STATUS (in progress → COMPLETE, 待验收)
+6 cat-2 sub-discipline packs built + independently QC'd + uncommitted: American-Educational-Research-Journal,
+Demography, Criminology, Journal-of-Communication, Psychological-Bulletin, Journal-of-Politics. 72 new
+SKILL.md. Fixed one near-clone (joc-rebuttal 0.757→<0.45). All 12 cat-2 packs (C1-C3) now <0.50 vs anything.
+Only shared files touched: CLAIMS.md + PROGRESS.md (append-only). No README-count/tools/other-pack edits.

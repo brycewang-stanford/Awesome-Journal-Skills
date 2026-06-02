@@ -587,3 +587,45 @@ Lane status: **COMPLETE — 6/6 targeted cat-2 English social-science flagships 
 Psychological-Science↔JPSP (psychology) — each pair same discipline, contrasting venue, zero clone.
 NOTE for the audit owner (Codex): `tools/audit_repo.py` canonical/pack counts and root README badges
 do not yet include these 6 packs (left for owner reconciliation, same as the W1/W2 packs).
+
+## Wave C3 — Category 2 sub-discipline expansion (Agent C, parallel sub-agents)
+
+Extended the cat-2 lane into NEW social-science sub-disciplines. 6 NEW packs (72 SKILL.md), built by
+6 parallel general-purpose sub-agents (each isolated to its own new dir), then independently QC'd by me:
+
+- **American-Educational-Research-Journal-Skills** (`aerj-`) — Education (AERA/SAGE); two sections
+  (SIA / TLHD), masked review, APA 7th, AERA reporting standards. NEW subdiscipline: education.
+- **Demography-Skills** (`demog-`) — Demography (PAA/Duke UP); distinctive **Subscribe-to-Open** model
+  (free to read, $35 submission + $1,000 editorial fee, both waivable, NOT an APC); ScholarOne (moved
+  off Editorial Manager 2024-05-31); demographic methods (life tables, decomposition, event history,
+  APC). NEW subdiscipline: demography.
+- **Criminology-Skills** (`crim-`) — Criminology (ASC/Wiley); blinded workflow, APA-ish style; crime
+  data (UCR/NIBRS/NCVS), life-course/trajectory methods. NEW subdiscipline: criminology.
+- **Journal-of-Communication-Skills** (`joc-`) — Communication (ICA/OUP); ScholarOne, double-anonymous,
+  ≤35-page cap, ≤150-word abstract, DAS + Open Science Badges. NEW subdiscipline: communication.
+- **Psychological-Bulletin-Skills** (`psychbull-`) — APA review/meta-analysis flagship. STRUCTURALLY
+  DIFFERENT skill set (review/meta-analysis lifecycle, not primary-study): literature-search-strategy,
+  inclusion-and-coding, meta-analysis-methods, moderators-and-bias, theory-integration; MARS/PRISMA/JARS,
+  PROSPERO, TOP. Deliberately differentiated from PsychSci/JPSP.
+- **Journal-of-Politics-Skills** (`jop-`) — Political science (SPSA/UChicago Press); distinctive
+  **page limits** (≤35 pp incl. everything; ≤10 pp short articles) and an **in-house JOP replication
+  analyst** at conditional acceptance (vs AJPS's external Cornell verifier and APSR's editorial-office
+  reproduction). Deliberately differentiated from APSR + AJPS.
+
+Independent QC (I re-ran, not just sub-agent self-reports):
+- Each pack 12/12 SKILL.md; marketplace manifest == actual dirs; valid JSON; full frontmatter; no broken links.
+- Each has resources/official-source-map.md (official URLs + access date 2026-06-01 + honest 待核实;
+  Wiley 402 / UChicago 403 / SAGE 403 flagged as not-page-verified).
+- READMEs FULL bilingual this wave (en 166-182 / zh 161-170 lines) — the thin-README defect from Wave C2
+  was explicitly prevented in the sub-agent briefs.
+- Clone QC caught ONE near-clone: joc-rebuttal ↔ apsr-rebuttal = 0.757 (sub-agent copied the APSR
+  rebuttal structure). I REWROTE joc-rebuttal around a communication-specific frame (multi-paradigm
+  reviewer brokering + 35-page budget tradeoff); it now scores < 0.45.
+- **Final authoritative gate: all 12 cat-2 packs (Waves C1-C3) score < 0.50 char-shingle Jaccard vs
+  ANY other first-party skill, including each other.** Zero pairs ≥ 0.90 repo-wide.
+
+Cat-2 lane total to date: **12 packs / 144 SKILL.md**, across political science (APSR/AJPS/JOP),
+sociology (ASR/AJS), psychology (Psychological-Science/JPSP/Psychological-Bulletin), education (AERJ),
+demography (Demography), criminology (Criminology), communication (Journal-of-Communication).
+NOTE for the audit owner (Codex): tools/audit_repo.py counts + root README badges do not yet include
+the 9 still-uncommitted cat-2 packs (AJPS/AJS/JPSP from C2 + the 6 from C3) — left for owner reconciliation.
