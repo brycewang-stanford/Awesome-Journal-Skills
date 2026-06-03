@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "gcb-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Global Change Biology (GCB), the leading journal on the impacts of global environmental change on biological systems, published by Wiley.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "gcb-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Global Change Biology (GCB) manuscript lifecycle — from global-change significance and study design through mechanism-first exhibits, open-data archiving, submission via ScholarOne, and revision.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/gcb-skills",
+      "repository": "https://github.com/brycewang-stanford/gcb-skills",
+      "keywords": [
+        "global-change-biology",
+        "gcb",
+        "climate-change-biology",
+        "ecology",
+        "biogeochemistry",
+        "open-data",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/gcb-workflow",
+        "skills/gcb-topic-selection",
+        "skills/gcb-literature-positioning",
+        "skills/gcb-study-design",
+        "skills/gcb-data-analysis",
+        "skills/gcb-figures-and-tables",
+        "skills/gcb-reporting-and-data-policy",
+        "skills/gcb-writing-style",
+        "skills/gcb-cover-letter",
+        "skills/gcb-review-process",
+        "skills/gcb-submission",
+        "skills/gcb-revision-and-rebuttal"
+      ]
+    }
+  ]
+}

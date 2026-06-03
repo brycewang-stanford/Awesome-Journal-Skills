@@ -1,0 +1,78 @@
+---
+name: conbio-workflow
+description: Use as the entry point for any Conservation Biology manuscript. Routes to the right conbio sub-skill based on where you are in the science lifecycle and which article type (Contributed Paper, Research Note, Review, Essay, Conservation Practice and Policy, Comment) fits. It dispatches; it does not draft content.
+---
+
+# Conservation Biology Workflow Router (conbio-workflow)
+
+The orchestrator for a *Conservation Biology* submission. Figure out the stage and the **article type**,
+then send the user to the matching skill. *Conservation Biology* is the flagship journal of the
+**Society for Conservation Biology** — the router's first job is to make sure the work has **direct,
+transferable implications for the conservation of biological diversity**, not just a clean result.
+
+## When to trigger
+
+- Starting a new Conservation Biology paper and unsure where to begin
+- Mid-project and unsure which skill applies next
+- Deciding which **article type** fits the work
+- Returning with a decision letter (route to `conbio-revision-and-rebuttal`)
+
+## First question: which article type?
+
+| Situation | Article type | Route to |
+|-----------|--------------|----------|
+| Full empirical study, IMRAD, broad relevance | **Contributed Paper** (~6,000–7,000 words) | normal pipeline below |
+| Focused or preliminary result | **Research Note** (~3,000 words) | normal pipeline, tighter scope |
+| Synthesis of a well-developed literature | **Review** (~7,500–8,000 words) | `conbio-literature-positioning` + `conbio-writing-style` |
+| Forward-looking argument on a conservation issue | **Essay** (~6,000 words) | `conbio-conservation-relevance-and-implications` |
+| Applied tools, policy, or management lessons | **Conservation Practice and Policy** (~5,000 words) | `conbio-study-design` + relevance |
+| Response to a published paper | **Comment** (~2,000 words) | `conbio-literature-positioning` |
+
+> Word caps drift between Style Guide versions — confirm the current per-type limits on the live
+> Instructions for Authors page (see `resources/official-source-map.md`, marked 待核实).
+
+## Routing map (stage → skill)
+
+```text
+Idea / conservation fit?         → conbio-topic-selection
+Where does it sit in the field?  → conbio-literature-positioning
+Is the design sound?             → conbio-study-design
+Are the analyses appropriate?    → conbio-data-analysis
+Are the exhibits clear?          → conbio-figures-and-tables
+Data + code archived?            → conbio-reporting-and-data-policy
+Does it read accessibly?         → conbio-writing-style
+Are the implications actionable? → conbio-conservation-relevance-and-implications
+How will it be judged?           → conbio-review-process
+Ready to submit?                 → conbio-submission
+Got a decision / R&R?            → conbio-revision-and-rebuttal
+```
+
+## Default order
+
+`topic-selection → literature-positioning → study-design → data-analysis → figures-and-tables →
+reporting-and-data-policy → writing-style → conservation-relevance-and-implications → review-process →
+submission → revision-and-rebuttal`
+
+Iterate: most papers loop design ↔ analysis ↔ relevance several times before writing-style.
+
+## Anti-patterns
+
+- Treating a sound-but-inconsequential study as publishable — the journal demands conservation relevance
+- Forcing every study into one statistical template (match design to the ecological question)
+- Padding a Research Note into a Contributed Paper, or vice versa
+- Leaving the data/code archive until acceptance instead of building it as you go
+
+## Output format
+
+```
+【Stage】idea / positioning / design / analysis / exhibits / data-policy / writing / relevance / review / submit / revise
+【Article type】Contributed Paper / Research Note / Review / Essay / Practice & Policy / Comment
+【Route to】conbio-<skill>
+【Why】one line
+【Then】the next skill after that
+```
+
+## Supplementary resources
+
+- [`../../resources/external_tools.md`](../../resources/external_tools.md) — conservation data + software by method
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official Conservation Biology URLs behind every fact in this pack

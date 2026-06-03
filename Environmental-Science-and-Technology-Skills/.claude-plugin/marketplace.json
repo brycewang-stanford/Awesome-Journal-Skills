@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "est-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Environmental Science & Technology (ES&T), the flagship environmental science and engineering journal of the American Chemical Society.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "est-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Environmental Science & Technology (ES&T) manuscript lifecycle — from environmental-significance framing through study design, QA/QC, the SI + TOC-graphic workflow, ACS submission, and revision.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/est-skills",
+      "repository": "https://github.com/brycewang-stanford/est-skills",
+      "keywords": [
+        "environmental-science-and-technology",
+        "est",
+        "acs",
+        "environmental-chemistry",
+        "environmental-engineering",
+        "toc-graphic",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/est-workflow",
+        "skills/est-topic-selection",
+        "skills/est-literature-positioning",
+        "skills/est-study-design",
+        "skills/est-data-analysis",
+        "skills/est-figures-and-tables",
+        "skills/est-reporting-and-reproducibility",
+        "skills/est-writing-style",
+        "skills/est-cover-letter",
+        "skills/est-review-process",
+        "skills/est-submission",
+        "skills/est-revision-and-rebuttal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "gcb-skills",
+  "description": "Agent skill stack for manuscripts targeted at Global Change Biology (GCB) — the leading journal on the impacts of global environmental change on biological systems, published by Wiley and submitted via ScholarOne / Manuscript Central. GCB publishes mechanistic, quantitative ecology and biogeochemistry across levels from molecular to biome, in aquatic and terrestrial, managed and natural systems, and spans article types including Primary Research Articles, Technical Advances, Reviews / Research Reviews, and Opinions / Perspectives. Facts covered include the research-article word ceiling (up to ~15,000 words including references — 待核实 against the 8,000-word framing seen elsewhere), the ~300-word abstract and 6–10 keywords, the mandatory graphical abstract depicting the driver-to-response mechanism, single-anonymous expert peer review with 2–3 reviewers, and a hard data- and code-archiving requirement (public repository such as Dryad / Zenodo with a persistent DOI; 'available on request' is rejected). Covers global-change topic selection and significance, cross-system literature positioning, robust ecological / biogeochemical / modelling study design, analysis and uncertainty, mechanism-first figures and tables, reporting and open-data policy, GCB writing style, the cover letter, the review process, submission preflight, and revision-and-rebuttal. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/gcb-skills",
+  "repository": "https://github.com/brycewang-stanford/gcb-skills",
+  "keywords": [
+    "global-change-biology",
+    "gcb",
+    "climate-change-biology",
+    "ecology",
+    "ecosystems",
+    "biogeochemistry",
+    "carbon-cycle",
+    "phenology",
+    "species-distributions",
+    "ecological-modelling",
+    "global-change",
+    "data-archiving",
+    "open-data",
+    "academic-writing",
+    "scholarone",
+    "wiley"
+  ]
+}

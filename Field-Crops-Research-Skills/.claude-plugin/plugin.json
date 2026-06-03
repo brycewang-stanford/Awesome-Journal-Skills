@@ -1,0 +1,30 @@
+{
+  "name": "fcr-skills",
+  "description": "Agent skill stack for manuscripts targeted at Field Crops Research (FCR) — a leading international agronomy and crop-science journal published by Elsevier (ISSN 0378-4290), submitted via Editorial Manager under a single-anonymized peer-review model. FCR publishes experimental and modelling research on crop ecology, crop physiology, agronomy, and crop improvement of field crops grown for food, fibre, feed, and biofuel, at the crop, field, farm, and landscape levels. The journal enforces a distinctive scope boundary: it expects genuine field-based agronomy with multi-season and/or multi-environment relevance and does NOT consider studies conducted exclusively under controlled conditions (greenhouse, pots, or any root-restricting system), one-year single-location trials, or work that is corroborative, descriptive, or only of local significance. This pack builds venue-specific guidance on agronomic significance and yield-gap framing, sound multi-environment experimental design (randomization, replication, G×E), appropriate mixed-model statistics, encouraged yield data, the ~400-word abstract, 3-5 highlights, data-availability declaration, and the Original Research / Review / Short Communication / Opinion / Loomis Review article tracks. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/fcr-skills",
+  "repository": "https://github.com/brycewang-stanford/fcr-skills",
+  "keywords": [
+    "field-crops-research",
+    "fcr",
+    "agronomy",
+    "crop-science",
+    "crop-physiology",
+    "crop-ecology",
+    "yield-gap",
+    "cropping-systems",
+    "crop-modeling",
+    "multi-environment-trials",
+    "genotype-by-environment",
+    "mixed-models",
+    "field-experiments",
+    "academic-writing",
+    "editorial-manager",
+    "elsevier"
+  ]
+}

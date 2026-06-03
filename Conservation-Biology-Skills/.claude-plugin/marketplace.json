@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "conbio-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Conservation Biology, the flagship journal of the Society for Conservation Biology.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "conbio-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Conservation Biology manuscript lifecycle — from conservation-relevant topic fit through study design, analysis, data archiving, and revision — for the flagship journal of the Society for Conservation Biology.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/conbio-skills",
+      "repository": "https://github.com/brycewang-stanford/conbio-skills",
+      "keywords": [
+        "conservation-biology",
+        "conbio",
+        "conservation-science",
+        "biodiversity",
+        "ecology",
+        "data-archiving",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/conbio-workflow",
+        "skills/conbio-topic-selection",
+        "skills/conbio-literature-positioning",
+        "skills/conbio-study-design",
+        "skills/conbio-data-analysis",
+        "skills/conbio-figures-and-tables",
+        "skills/conbio-reporting-and-data-policy",
+        "skills/conbio-writing-style",
+        "skills/conbio-conservation-relevance-and-implications",
+        "skills/conbio-review-process",
+        "skills/conbio-submission",
+        "skills/conbio-revision-and-rebuttal"
+      ]
+    }
+  ]
+}

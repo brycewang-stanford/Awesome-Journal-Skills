@@ -1,0 +1,31 @@
+{
+  "name": "agsy-skills",
+  "description": "Agent skill stack for manuscripts targeted at Agricultural Systems — the leading international journal for the systems analysis of agricultural systems, published by Elsevier (ISSN 0308-521X), submitted via Editorial Manager under single-anonymized peer review (minimum two reviewers; editor decides). Agricultural Systems is defined by interactions: among the components of agricultural systems, among hierarchical levels (field → farm → landscape → region → food system), between agricultural and other land-use systems, and between agricultural systems and their natural, social, and economic environments. The journal prefers whole-farm and landscape-level work that integrates conceptual, empirical, and dynamic modelling, and that analyzes trade-offs, emergent behavior, sustainability, and decision support — NOT single-factor field trials. Facts covered include the ~8,000-word research-paper guideline (4,000 short communication / 2,000 perspective / 1,000 comment), ≤ 250-word abstract, required Highlights and graphical abstract, CRediT and declaration-of-interest statements, ORCID, and Elsevier's research-data policy (deposit data, code, and models in a repository or explain why not). Covers systems topic selection, cross-system literature positioning, systems framing and model description/calibration/evaluation/uncertainty, data and model evaluation, exhibits for trade-offs and dynamics, reproducibility of data and models, scientific writing, impact and decision/policy implications, the review process, submission preflight, and revision/rebuttal. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/agsy-skills",
+  "repository": "https://github.com/brycewang-stanford/agsy-skills",
+  "keywords": [
+    "agricultural-systems",
+    "agsy",
+    "systems-analysis",
+    "whole-farm",
+    "food-systems",
+    "simulation-modelling",
+    "bio-economic-modelling",
+    "trade-off-analysis",
+    "sustainability-assessment",
+    "decision-support",
+    "crop-livestock-systems",
+    "scaling",
+    "model-evaluation",
+    "uncertainty",
+    "academic-writing",
+    "editorial-manager",
+    "elsevier"
+  ]
+}

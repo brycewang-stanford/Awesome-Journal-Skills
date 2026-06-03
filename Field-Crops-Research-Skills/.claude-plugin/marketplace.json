@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "fcr-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Field Crops Research (FCR), a leading international agronomy and crop-science journal published by Elsevier.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "fcr-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Field Crops Research (FCR) manuscript lifecycle for empirical agronomy and crop science — from multi-environment field-experiment design through mixed-model analysis, yield-gap framing, data-availability declaration, and revision.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/fcr-skills",
+      "repository": "https://github.com/brycewang-stanford/fcr-skills",
+      "keywords": [
+        "field-crops-research",
+        "fcr",
+        "agronomy",
+        "crop-science",
+        "yield-gap",
+        "multi-environment-trials",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/fcr-workflow",
+        "skills/fcr-topic-selection",
+        "skills/fcr-literature-positioning",
+        "skills/fcr-experimental-design",
+        "skills/fcr-data-analysis",
+        "skills/fcr-figures-and-tables",
+        "skills/fcr-reporting-and-data-policy",
+        "skills/fcr-writing-style",
+        "skills/fcr-cover-letter",
+        "skills/fcr-review-process",
+        "skills/fcr-submission",
+        "skills/fcr-revision-and-rebuttal"
+      ]
+    }
+  ]
+}

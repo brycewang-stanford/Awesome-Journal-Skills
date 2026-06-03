@@ -1,0 +1,30 @@
+{
+  "name": "est-skills",
+  "description": "Agent skill stack for manuscripts targeted at Environmental Science & Technology (ES&T) — the flagship environmental science and engineering journal of the American Chemical Society (ACS), submitted through the ACS Publishing Center (ACS Paragon Plus) under editor-screened expert peer review. ES&T is a multidisciplinary venue spanning environmental chemistry, environmental engineering, fate/transport/transformation in natural and engineered systems, treatment and resource recovery, ecotoxicology and environmental health, biogeochemical cycling, sustainability and energy, and the science–policy interface, publishing across several tracks: Research Articles, Critical Reviews, Features, Perspectives, Policy Analysis, Viewpoints, and Correspondence, with the rapid companion ES&T Letters for urgent results. Facts covered include the per-type word limits, the mandatory Table of Contents (TOC)/abstract graphic, Supporting Information (SI) norms, the data-availability / public-database deposition requirement, ACS ethical guidelines (iThenticate screening, COI disclosure, safety reporting), and the editor-desk-screen + typically-three-reviewer model. Venue-specific guidance is built around environmental significance, mass balances and analytical rigor, QA/QC, and the SI + TOC-graphic workflow. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/est-skills",
+  "repository": "https://github.com/brycewang-stanford/est-skills",
+  "keywords": [
+    "environmental-science-and-technology",
+    "est",
+    "acs",
+    "american-chemical-society",
+    "environmental-chemistry",
+    "environmental-engineering",
+    "fate-and-transport",
+    "water-treatment",
+    "ecotoxicology",
+    "environmental-health",
+    "biogeochemistry",
+    "sustainability",
+    "acs-paragon-plus",
+    "toc-graphic",
+    "supporting-information",
+    "academic-writing"
+  ]
+}

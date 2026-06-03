@@ -1,0 +1,30 @@
+{
+  "name": "gec-skills",
+  "description": "Agent skill stack for manuscripts targeted at Global Environmental Change (GEC) — the leading international journal on the human and policy dimensions of global environmental change, published by Elsevier (ISSN 0959-3780) and submitted via Editorial Manager under double-blind peer review. GEC is interdisciplinary and social-science-leading: it publishes theoretically and empirically rigorous work on the social drivers and consequences of environmental change and on the governance, policy, and behavioral processes that address it — across climate adaptation, vulnerability, environmental governance, socio-ecological systems, sustainability transitions, food and water systems, land use, oceans and coasts, and urban change. Facts covered include the human-and-policy-dimensions scope, the requirement of a significant social-science component, Research Articles up to ~8,000 words, an abstract up to ~250 words, 3-5 Highlights of ~85 characters each, the Elsevier research-data / Data Availability Statement policy, and methodological pluralism spanning quantitative, qualitative, and mixed methods. Covers interdisciplinary topic fit, cross-literature positioning, conceptual-framework building, research design across methods, analysis norms, exhibits, policy-relevant academic writing, real-world and policy implications, the review process, submission preflight, and revision and rebuttal. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/gec-skills",
+  "repository": "https://github.com/brycewang-stanford/gec-skills",
+  "keywords": [
+    "global-environmental-change",
+    "gec",
+    "human-dimensions",
+    "environmental-policy",
+    "climate-adaptation",
+    "vulnerability",
+    "environmental-governance",
+    "socio-ecological-systems",
+    "sustainability-transitions",
+    "interdisciplinary",
+    "mixed-methods",
+    "policy-relevance",
+    "research-transparency",
+    "academic-writing",
+    "editorial-manager",
+    "elsevier"
+  ]
+}

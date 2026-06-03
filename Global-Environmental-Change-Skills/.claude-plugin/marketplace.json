@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "gec-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Global Environmental Change (GEC), the leading journal on the human and policy dimensions of global environmental change.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "gec-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Global Environmental Change (GEC) manuscript lifecycle for interdisciplinary, policy-relevant research on the human dimensions of environmental change.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/gec-skills",
+      "repository": "https://github.com/brycewang-stanford/gec-skills",
+      "keywords": [
+        "global-environmental-change",
+        "gec",
+        "human-dimensions",
+        "environmental-governance",
+        "climate-adaptation",
+        "policy-relevance",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/gec-workflow",
+        "skills/gec-topic-selection",
+        "skills/gec-literature-positioning",
+        "skills/gec-conceptual-framework",
+        "skills/gec-research-design",
+        "skills/gec-data-analysis",
+        "skills/gec-figures-and-tables",
+        "skills/gec-writing-style",
+        "skills/gec-policy-relevance-and-implications",
+        "skills/gec-review-process",
+        "skills/gec-submission",
+        "skills/gec-revision-and-rebuttal"
+      ]
+    }
+  ]
+}

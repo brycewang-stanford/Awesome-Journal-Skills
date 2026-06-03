@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "agsy-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Agricultural Systems, the leading international journal for the systems analysis of agricultural systems.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "agsy-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Agricultural Systems manuscript lifecycle, centered on systems analysis and modelling — whole-farm and food-system interactions, trade-offs, model description and evaluation, and decision support.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/agsy-skills",
+      "repository": "https://github.com/brycewang-stanford/agsy-skills",
+      "keywords": [
+        "agricultural-systems",
+        "agsy",
+        "systems-analysis",
+        "whole-farm",
+        "simulation-modelling",
+        "trade-off-analysis",
+        "decision-support"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/agsy-workflow",
+        "skills/agsy-topic-selection",
+        "skills/agsy-literature-positioning",
+        "skills/agsy-systems-framing-and-modeling",
+        "skills/agsy-data-and-model-evaluation",
+        "skills/agsy-figures-and-tables",
+        "skills/agsy-reproducibility-and-data-policy",
+        "skills/agsy-writing-style",
+        "skills/agsy-impact-and-implications",
+        "skills/agsy-review-process",
+        "skills/agsy-submission",
+        "skills/agsy-revision-and-rebuttal"
+      ]
+    }
+  ]
+}

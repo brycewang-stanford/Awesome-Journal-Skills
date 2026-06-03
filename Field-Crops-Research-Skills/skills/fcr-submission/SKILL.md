@@ -1,0 +1,78 @@
+---
+name: fcr-submission
+description: Use when running the final pre-submission preflight for Field Crops Research (FCR) via Editorial Manager — article-type selection, abstract (~400 words) and highlights (3-5 bullets of <=85 characters), complete agronomic reporting, data-availability statement, generative-AI declaration, Elsevier formatting, and the cover letter. Final checks; it does not draft content.
+---
+
+# Submission Preflight (fcr-submission)
+
+The last check before pressing submit on **Editorial Manager**. FCR's most common avoidable failures
+are **scope mismatch** and **incomplete reporting / declarations**. Verify volatile specifics on the
+official Elsevier guide before relying on them (live page may 403 to automated tools — see
+`../../resources/official-source-map.md`).
+
+## When to trigger
+
+- "Submitting tomorrow" — last pass before upload
+- Unsure which files/metadata Editorial Manager expects
+- Confirming scope fit, format, and declarations are complete
+
+## Process facts (verify volatile items on the official page)
+
+- **Publisher:** Elsevier (ISSN **0378-4290**).
+- **Portal:** **Editorial Manager** (confirm current URL on the live guide).
+- **Review model:** **single anonymized** — typically ≥ 2 reviewers.
+- **Article types:** Original Research Paper · Short Communication · Review (usually invited) · Opinion
+  Paper · Loomis Review (invited).
+- **Abstract:** **≤ ~400 words** (待核实 exact cap).
+- **Highlights:** **3–5 bullets, each ≤ 85 characters** including spaces.
+- **Multi-environment rule:** field experiments should span **≥ 2 seasons and/or multiple
+  environments** (unless exceptional circumstances are justified).
+- **Data availability:** must be **stated at submission**.
+- **Generative AI:** **declare any use** in manuscript preparation.
+
+## Preflight checklist
+
+### Scope & type
+- [ ] Field-based, multi-season/-environment, a field crop, generally significant (see `fcr-topic-selection`)
+- [ ] Article type chosen; Review/Opinion proposal cleared with editors if required
+
+### Manuscript & format
+- [ ] Abstract ≤ ~400 words; states purpose, environments, quantitative result, conclusion
+- [ ] **3–5 highlights**, each ≤ 85 characters, findings not topics
+- [ ] Structure: focused intro → complete methods → concise results → interpretive discussion
+- [ ] SI units; consistent Elsevier/FCR reference style; grammatically sound English
+- [ ] Figures/tables self-contained with units and **SED/LSD/CI** (see `fcr-figures-and-tables`)
+
+### Reporting completeness
+- [ ] Crop/cultivar, sites/seasons, soil, **weather vs. phenology**, management, design, statistics
+- [ ] Yield data included/linked to biophysical process where relevant
+
+### Declarations & files
+- [ ] **Data-availability statement** drafted (shared + repository/ID, or restricted + reason)
+- [ ] **Generative-AI** use declared; CRediT roles, funding, competing interests
+- [ ] Cover letter establishing scope fit + contribution (see `fcr-cover-letter`)
+- [ ] Co-submission to **Data in Brief / MethodsX** considered if relevant
+
+## Anti-patterns
+
+- Submitting controlled-environment-only or single-site/single-season work
+- Abstract over length; highlights that are topics or exceed 85 characters
+- Methods missing soil/weather-vs-phenology/management (not reproducible)
+- Blank data-availability statement; missing generative-AI declaration
+- A discussion that repeats results; means with no error term
+
+## Output format
+
+```
+【Scope & type】field-based + ≥2 seasons/envs + field crop + general; type chosen? [Y/N]
+【Abstract & highlights】≤~400 words; 3-5 bullets ≤85 chars? [Y/N]
+【Reporting complete】cultivar/site/soil/weather-vs-phenology/management/design/stats? [Y/N]
+【Declarations】data availability + generative-AI + CRediT/funding? [Y/N]
+【Cover letter】scope fit + contribution stated? [Y/N]
+【Next】await decision → fcr-revision-and-rebuttal on a revise verdict
+```
+
+## Supplementary resources
+
+- [`../../resources/external_tools.md`](../../resources/external_tools.md) — reference managers and Elsevier typesetting/templates
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official FCR URLs behind every fact in this pack

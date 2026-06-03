@@ -1,0 +1,30 @@
+{
+  "name": "conbio-skills",
+  "description": "Agent skill stack for manuscripts targeted at Conservation Biology — the flagship journal of the Society for Conservation Biology (SCB), published by Wiley and founded in 1987. Conservation Biology publishes science with direct implications for the conservation of Earth's biological diversity, spanning population, community, and landscape ecology, extinction risk, protected-area design, human-wildlife interactions, and conservation policy and practice across the natural and social sciences. Submission is via Wiley's ScholarOne Manuscript Central (mc.manuscriptcentral.com/cobi) under double-blind peer review (adopted 2014). Article types covered include Contributed Papers, Reviews, Essays, Conservation Practice and Policy, Research Notes, Comments, Diversity, and Letters, with their word limits, the 300-word abstract cap, the data-availability/archiving expectation (public repository such as Dryad), and the requirement that results have demonstrable conservation relevance and actionability. Covers conservation topic selection and fit, cross-disciplinary literature positioning, appropriate ecological and statistical study design, analysis norms, exhibits, reporting and data policy, accessible writing, conservation-significance framing, the review process, submission preflight, and revision/rebuttal. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/conbio-skills",
+  "repository": "https://github.com/brycewang-stanford/conbio-skills",
+  "keywords": [
+    "conservation-biology",
+    "conbio",
+    "conservation-science",
+    "society-for-conservation-biology",
+    "scb",
+    "biodiversity",
+    "ecology",
+    "extinction-risk",
+    "protected-areas",
+    "human-wildlife-conflict",
+    "conservation-policy",
+    "conservation-practice",
+    "data-archiving",
+    "dryad",
+    "academic-writing",
+    "wiley"
+  ]
+}
