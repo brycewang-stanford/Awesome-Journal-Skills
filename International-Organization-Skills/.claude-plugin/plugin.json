@@ -1,0 +1,30 @@
+{
+  "name": "io-skills",
+  "description": "Agent skill stack for manuscripts targeted at International Organization (IO) — the leading journal of international relations (IR), published by Cambridge University Press on behalf of the IO Foundation, submitted via Editorial Manager under double-blind peer review. IO is an IR-specialist flagship (not a generalist political-science journal): it publishes generalizable theory and empirical work across international institutions, cooperation and conflict, international political economy (IPE), security, foreign policy, and IR theory, welcoming quantitative, formal, and qualitative methods. Facts covered include the 14,000-word Research Article cap (Research Notes 8,000; Essays 10,000; counts include tables, figures, and notes but exclude the bibliography), supplementary material that should rarely exceed twenty pages, ORCID for the corresponding author, and IO's strong research-transparency regime — at conditional acceptance the editorial staff request data and code, IO staff verify the quantitative results and formal-model proofs before final acceptance, and materials are deposited to the IO Dataverse on Harvard Dataverse with a DOI, plus a Data Availability Statement (QDR is the route for qualitative data). Covers IR topic selection, cross-paradigm literature positioning, IR theory building (rationalist, constructivist, formal, liberal/realist), research design for international-level questions, data analysis, exhibits, IO writing style, transparency and the verification-before-publication policy, the review process, submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/io-skills",
+  "repository": "https://github.com/brycewang-stanford/io-skills",
+  "keywords": [
+    "international-organization",
+    "io",
+    "international-relations",
+    "ir-theory",
+    "international-political-economy",
+    "ipe",
+    "security-studies",
+    "international-institutions",
+    "cooperation-and-conflict",
+    "io-foundation",
+    "research-transparency",
+    "dataverse",
+    "data-availability-statement",
+    "academic-writing",
+    "editorial-manager",
+    "cambridge-university-press"
+  ]
+}

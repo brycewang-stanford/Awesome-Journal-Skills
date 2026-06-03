@@ -1,0 +1,30 @@
+{
+  "name": "poq-skills",
+  "description": "Agent skill stack for manuscripts targeted at Public Opinion Quarterly (POQ) — the leading journal of public opinion and survey research, published by Oxford University Press as an official journal of the American Association for Public Opinion Research (AAPOR), submitted via ScholarOne Manuscripts under double-blind peer review. POQ publishes important and innovative work in public opinion research and survey methodology across five submission types: Original Articles (≤ 6,500 words of text and notes), Research Notes (< 3,000 words), Polls in Context (≤ 2,500 words), Research Syntheses (≤ 6,500 words), and Book Reviews. The pack leans into survey science — Total Survey Error, questionnaire design, sampling and weighting, mode effects, nonresponse — and the AAPOR-standard methodological disclosure POQ requires: exact question wording, population and sample design, mode and dates of collection, response rates computed per AAPOR Standard Definitions, sample sizes and precision, design effects from clustering and weighting, gathered into an 'Appendix A: Disclosure Elements'. Covers a mandatory replication package deposited to POQ's Harvard Dataverse and a Data Availability Statement verified before typesetting. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/poq-skills",
+  "repository": "https://github.com/brycewang-stanford/poq-skills",
+  "keywords": [
+    "public-opinion-quarterly",
+    "poq",
+    "public-opinion",
+    "survey-methodology",
+    "aapor",
+    "total-survey-error",
+    "questionnaire-design",
+    "sampling-and-weighting",
+    "nonresponse",
+    "mode-effects",
+    "response-rate",
+    "aapor-transparency-initiative",
+    "research-transparency",
+    "dataverse",
+    "academic-writing",
+    "oxford-university-press"
+  ]
+}

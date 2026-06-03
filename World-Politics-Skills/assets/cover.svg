@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 320" width="240" height="320">
+<rect width="240" height="320" fill="#ffffff"/>
+<rect x="5" y="5" width="230" height="310" rx="13" fill="#ffffff" stroke="#16604a" stroke-width="2"/>
+<path d="M5,18 a13,13 0 0 1 13,-13 h204 a13,13 0 0 1 13,13 v60 h-230 z" fill="#16604a"/>
+<text x="120" y="35" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10.5" letter-spacing="2.5" font-weight="700" fill="#ffffff">COMPARATIVE · IR</text>
+<rect x="90.0" y="45" width="60" height="2" rx="1" fill="#ffffff" opacity="0.7"/>
+<text x="120" y="63" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="8.5" letter-spacing="1.5" fill="#ffffff" opacity="0.8">JOURNAL · AGENT SKILLS</text>
+<g transform="translate(120,150)" fill="none" stroke="#16604a" stroke-width="1.4" opacity="0.5">
+<circle r="34"/>
+<ellipse rx="34" ry="13"/>
+<ellipse rx="14" ry="34"/>
+<line x1="-34" y1="0" x2="34" y2="0"/>
+<line x1="0" y1="-34" x2="0" y2="34"/>
+</g>
+<text x="120" y="218" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#1a1a1a">World</text><text x="120" y="246" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#1a1a1a">Politics</text>
+<text x="120" y="268" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10.5" fill="#6a6a6a">PIIRS · Princeton / JHU Press</text>
+<line x1="42" y1="280" x2="198" y2="280" stroke="#16604a" stroke-width="1" opacity="0.3"/>
+<rect x="50" y="289" width="140" height="22" rx="11" fill="#16604a"/>
+<text x="120" y="304" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" font-weight="700" fill="#ffffff">Comparative + IR Specialist</text>
+</svg>

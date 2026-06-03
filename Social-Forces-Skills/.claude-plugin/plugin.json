@@ -1,0 +1,30 @@
+{
+  "name": "sf-skills",
+  "description": "Agent skill stack for manuscripts targeted at Social Forces — a global leader among social research journals, founded in 1922 and published by Oxford University Press in partnership with the Department of Sociology at the University of North Carolina at Chapel Hill. Social Forces is a generalist social-science venue centered on sociology but explicitly multidisciplinary (social psychology, anthropology, political science, history, economics), with a reputation for methodologically rigorous, theoretically grounded empirical research on social organization, institutions, stratification, demography, and social change. Facts covered include the strict 10,000-word cap that INCLUDES text, endnotes, and references; the maximum of 10 tables and figure panels; the maximum 10-page supplementary materials; Chicago Manual of Style 17th edition author-date formatting; double-anonymized peer review with a separate title page; submission via ScholarOne Manuscript Central; the $50 non-refundable processing fee ($20 for student-only manuscripts); the required data availability statement; ORCID; and OUP open-access / Creative Commons APC options. Covers generalist sociology topic selection, cross-subfield literature positioning, portable theory building, research design across quantitative / demographic / comparative-historical / ethnographic / network / computational work, analysis norms, exhibits within the 10-panel cap, Chicago-style writing within a reference-inclusive word limit, data transparency, the review process, ScholarOne submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/sf-skills",
+  "repository": "https://github.com/brycewang-stanford/sf-skills",
+  "keywords": [
+    "social-forces",
+    "sf",
+    "sociology",
+    "social-science",
+    "oxford-university-press",
+    "unc-chapel-hill",
+    "stratification",
+    "demography",
+    "comparative-historical-sociology",
+    "social-psychology",
+    "computational-social-science",
+    "chicago-author-date",
+    "research-transparency",
+    "data-availability-statement",
+    "academic-writing",
+    "scholarone"
+  ]
+}

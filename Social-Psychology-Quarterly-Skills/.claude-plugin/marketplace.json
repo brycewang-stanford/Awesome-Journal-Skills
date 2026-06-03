@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "spq-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Social Psychology Quarterly (SPQ), the leading journal of sociological social psychology, owned by the American Sociological Association.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "spq-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Social Psychology Quarterly (SPQ) manuscript lifecycle across sociological social psychology — self and identity, social structure and personality, group processes, symbolic interaction, status, and affect.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/spq-skills",
+      "repository": "https://github.com/brycewang-stanford/spq-skills",
+      "keywords": [
+        "social-psychology-quarterly",
+        "spq",
+        "sociological-social-psychology",
+        "asa",
+        "group-processes",
+        "social-structure-and-personality",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/spq-workflow",
+        "skills/spq-topic-selection",
+        "skills/spq-literature-positioning",
+        "skills/spq-theory-building",
+        "skills/spq-research-design",
+        "skills/spq-data-analysis",
+        "skills/spq-tables-figures",
+        "skills/spq-writing-style",
+        "skills/spq-data-and-transparency",
+        "skills/spq-review-process",
+        "skills/spq-submission",
+        "skills/spq-rebuttal"
+      ]
+    }
+  ]
+}

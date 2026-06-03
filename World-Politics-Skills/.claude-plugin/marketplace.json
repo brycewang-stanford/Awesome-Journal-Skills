@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "wp-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at World Politics, a leading journal of comparative politics and international relations sponsored by Princeton's PIIRS.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "wp-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the World Politics manuscript lifecycle for comparative-politics and international-relations research, including the journal's research-article and review-article tracks.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/wp-skills",
+      "repository": "https://github.com/brycewang-stanford/wp-skills",
+      "keywords": [
+        "world-politics",
+        "comparative-politics",
+        "international-relations",
+        "review-articles",
+        "research-transparency",
+        "triple-blind-review",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/wp-workflow",
+        "skills/wp-topic-selection",
+        "skills/wp-literature-positioning",
+        "skills/wp-theory-building",
+        "skills/wp-research-design",
+        "skills/wp-data-analysis",
+        "skills/wp-tables-figures",
+        "skills/wp-writing-style",
+        "skills/wp-transparency-and-data-policy",
+        "skills/wp-review-process",
+        "skills/wp-submission",
+        "skills/wp-rebuttal"
+      ]
+    }
+  ]
+}

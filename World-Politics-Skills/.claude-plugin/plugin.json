@@ -1,0 +1,32 @@
+{
+  "name": "wp-skills",
+  "description": "Agent skill stack for manuscripts targeted at World Politics — a leading quarterly journal of comparative politics and international relations, founded in 1948, sponsored by the Princeton Institute for International and Regional Studies (PIIRS) at Princeton University and published by Johns Hopkins University Press (Cambridge University Press through 2022). World Politics is a comparative-politics + IR specialist, not a generalist political-science venue and not an IR-only journal: it seeks scholarship that speaks across cases to the central problems of comparative politics and international relations. It publishes two article types — research articles that pose important substantive questions, advance theoretical debates, and present original empirical research, and review articles that synthesize a set of thematically related books and reframe how a field should proceed (distinct from book reviews; review articles are usually commissioned but all are triple-blind reviewed). Facts covered include the 12,500-word limit (including notes and references; tables, figures, and appendixes excluded), the 150-word abstract, the triple-blind review process, ScholarOne submission, online supplementary material capped at fifteen pages, response memos kept to about five pages, the APSA Principles and Guidance for Human Subjects Research, and the World Politics Dataverse requirement that authors relying on quantitative data deposit replication materials after acceptance and before publication (with editor-approved embargoes up to two years). Covers topic selection, cross-case literature positioning, theory that travels, comparative-historical / quantitative / qualitative research design for cross-national questions, analysis norms, exhibits, writing, transparency and the Dataverse policy, the triple-blind review process, submission preflight, and revise-and-resubmit rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/wp-skills",
+  "repository": "https://github.com/brycewang-stanford/wp-skills",
+  "keywords": [
+    "world-politics",
+    "comparative-politics",
+    "international-relations",
+    "political-science",
+    "princeton",
+    "piirs",
+    "johns-hopkins-university-press",
+    "review-articles",
+    "comparative-historical-analysis",
+    "cross-national",
+    "causal-inference",
+    "qualitative-methods",
+    "process-tracing",
+    "research-transparency",
+    "dataverse",
+    "triple-blind-review",
+    "scholarone",
+    "academic-writing"
+  ]
+}

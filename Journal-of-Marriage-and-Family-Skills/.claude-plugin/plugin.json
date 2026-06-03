@@ -1,0 +1,31 @@
+{
+  "name": "jmf-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of Marriage and Family (JMF) — the leading journal of family science, published by Wiley for the National Council on Family Relations (NCFR). JMF is interdisciplinary and family-centered: it spans family demography, marriage and partnering, divorce and union dissolution, cohabitation and fertility, parenting and child wellbeing, intergenerational and close relationships, gender, and family policy, drawing on sociology, psychology, demography, and family studies. It publishes original research using the full range of social-science methods — quantitative, qualitative, and multi-method — plus brief reports for focused contributions such as replications, innovative designs, and important null findings. The pack centers a family-science contribution and appropriate longitudinal, dyadic, family-level, and life-course designs (e.g., dyadic analysis, family demography, growth and event-history models). Facts covered include the ~35-page manuscript limit (~25 pages for brief reports), the structured abstract (~200-225 words; Objective / Background / Method / Results / Conclusion / Implications), modified APA style with bias-free language, double-blind anonymous peer review, submission via Wiley Research Exchange (migrated from ScholarOne Manuscript Central), and Wiley/NCFR data-sharing and transparency expectations. Volatile metadata (editor, fees, exact caps, policy wording) is flagged 待核实. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jmf-skills",
+  "repository": "https://github.com/brycewang-stanford/jmf-skills",
+  "keywords": [
+    "journal-of-marriage-and-family",
+    "jmf",
+    "family-science",
+    "ncfr",
+    "family-demography",
+    "marriage-and-partnering",
+    "divorce",
+    "cohabitation",
+    "parenting",
+    "child-wellbeing",
+    "close-relationships",
+    "dyadic-analysis",
+    "life-course",
+    "family-policy",
+    "research-transparency",
+    "academic-writing",
+    "wiley"
+  ]
+}

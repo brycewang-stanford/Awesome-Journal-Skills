@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "io-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at International Organization (IO), the leading journal of international relations published by Cambridge University Press for the IO Foundation.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "io-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the International Organization (IO) manuscript lifecycle for international-relations research, centered on IR theory, IPE/security scope, and IO's verify-before-publication transparency policy.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/io-skills",
+      "repository": "https://github.com/brycewang-stanford/io-skills",
+      "keywords": [
+        "international-organization",
+        "io",
+        "international-relations",
+        "international-political-economy",
+        "security-studies",
+        "research-transparency",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/io-workflow",
+        "skills/io-topic-selection",
+        "skills/io-literature-positioning",
+        "skills/io-theory-building",
+        "skills/io-research-design",
+        "skills/io-data-analysis",
+        "skills/io-tables-figures",
+        "skills/io-writing-style",
+        "skills/io-transparency-and-data-policy",
+        "skills/io-review-process",
+        "skills/io-submission",
+        "skills/io-rebuttal"
+      ]
+    }
+  ]
+}

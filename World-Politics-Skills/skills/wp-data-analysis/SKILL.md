@@ -1,0 +1,72 @@
+---
+name: wp-data-analysis
+description: Use when executing and reporting the analysis for a World Politics manuscript so it survives expert triple-blind review and the Dataverse replication requirement — honest uncertainty, robustness, and triangulation appropriate to comparative cross-national, qualitative, or formal-empirical work. Guides analysis norms; it does not fabricate results.
+---
+
+# Data Analysis (wp-data-analysis)
+
+World Politics reviewers are methodologically demanding, and authors who **rely on quantitative data
+must deposit replication materials in the World Politics Dataverse** that let others reproduce the
+**exact numerical results** (see `wp-transparency-and-data-policy`). Analyze as if both are true —
+because they are. This skill covers execution and reporting norms; design decisions live in
+`wp-research-design`.
+
+## When to trigger
+
+- Running main and supporting analyses; building the results/findings section
+- A reviewer asked for robustness, heterogeneity, or alternative specifications
+- Reconciling the cross-case pattern with within-case evidence (mixed methods)
+- Making the analysis reproducible before deposit
+
+## Analysis norms World Politics expects
+
+1. **Report uncertainty honestly.** Confidence/credible intervals, not just stars; the magnitude and
+   substantive meaning of the estimate across cases, not just its significance.
+2. **Robustness that probes, not decorates.** Show specifications that could *break* the result
+   (alternative measures of regime/institution/conflict, alternative samples of cases, estimators,
+   fixed effects), and say what you learn.
+3. **Cross-national inference.** Cluster at the appropriate level (often country); address serial
+   correlation and cross-sectional dependence in TSCS; small-N panels need honest few-cluster
+   corrections (e.g., wild-cluster bootstrap).
+4. **Measurement that travels.** Validate constructs across cases; report reliability; show results are
+   not an artifact of one coding/scaling choice or one source (V-Dem vs. Polity, COW vs. UCDP).
+5. **Heterogeneity with discipline.** Pre-specify subgroups/regions where possible; correct for
+   multiple comparisons; do not mine for a significant interaction and theorize it post hoc.
+6. **Triangulation.** Where the design is mixed-method, show the within-case process evidence and the
+   cross-case statistics point the same way, and reconcile where they don't.
+
+## Qualitative / comparative-historical specifics
+- Make the **evidentiary basis explicit** — which sources support which inferential step; link claims
+  to documents/interviews via evidence tables (see `wp-tables-figures`).
+- For process tracing, report the tests passed/failed and what would have disconfirmed the argument.
+
+## Reproducibility while you work (not at the end)
+- One **master script** regenerates every table and figure from the (raw or constructed) data.
+- **Set and report seeds** for bootstrap, randomization, and any stochastic step.
+- Pin software/package versions (`renv.lock`, `requirements.txt`, recorded `ssc`/`net` installs).
+- Keep table/figure numbers matched to script outputs — the Dataverse package must reproduce them.
+
+## Anti-patterns
+
+- Stars-only tables with no effect sizes or intervals
+- "Robustness" that only reruns near-identical specs to manufacture stability
+- Results that hinge on one data source or one coding choice without showing alternatives
+- Clustering at the wrong level; ignoring TSCS serial correlation / cross-sectional dependence
+- A findings section whose numbers the deposited code cannot reproduce
+
+## Output format
+
+```
+【Main estimate】magnitude + interval + substantive meaning across cases
+【Identification check】(per research-design) result
+【Robustness】specs / alternative sources that could break it → what held
+【Measurement】construct validated across cases? source sensitivity shown?
+【Triangulation】within-case + cross-case agree? reconciled?
+【Reproducible】master script + seeds + pinned versions? [Y/N]
+【Next】wp-tables-figures
+```
+
+## Supplementary resources
+
+- [`../../resources/external_tools.md`](../../resources/external_tools.md) — estimation, TSCS/panel, survival, and text-as-data packages
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — Dataverse replication requirement

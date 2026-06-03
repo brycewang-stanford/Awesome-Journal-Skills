@@ -1,0 +1,68 @@
+---
+name: wp-theory-building
+description: Use when building the theoretical argument of a World Politics manuscript so it travels across cases. World Politics rewards arguments that significantly advance theoretical debates in comparative politics and international relations, with explicit mechanisms and scope conditions that generalize beyond one case. Structures the argument; it does not run analyses.
+---
+
+# Theory & Argument Building (wp-theory-building)
+
+At World Politics a finding is not a contribution until it is attached to **theory the field can carry
+to other cases.** The journal asks articles to "significantly advance theoretical debates" — so this
+skill turns case evidence into a portable argument: explicit mechanisms, scope conditions, and
+observable implications that hold across comparative or IR settings.
+
+## When to trigger
+
+- The empirics are strong but the "so what / why it travels" is thin
+- A reviewer said the paper is "atheoretical," "ad hoc," or "just a single-case story"
+- You need to state mechanisms, assumptions, and scope conditions explicitly
+- Formal modeling: deciding what to model for a comparative/IR puzzle
+
+## Build the argument (by mode of work)
+
+### Empirical paper with a theory
+1. **Concept** — define the key constructs precisely (regime type, institution, alliance, identity);
+   distinguish from neighbors and travel-test the concept across cases (avoid concept stretching).
+2. **Mechanism** — the causal story: who does what, under what incentives/constraints, in what
+   institutional or international setting.
+3. **Observable implications** — what we should see if the mechanism operates across cases (and what we
+   should *not* see). These become the tests in `wp-research-design`.
+4. **Scope conditions** — where the argument holds and where it does not. Portability ≠ universality;
+   say which regimes, regions, or periods it covers.
+
+### Formal / game-theoretic paper
+- State the **substantive comparative/IR puzzle** the model addresses before the setup.
+- Keep assumptions **transparent and motivated**; flag which results are robust to which assumptions.
+- Translate equilibrium predictions into **comparative statics** a reader can test across cases.
+- Say what the model **buys**: a non-obvious prediction or a unifying logic for a cross-case pattern.
+
+## The "travels" test (World Politics–specific)
+
+Ask: *Could a scholar studying a different country, region, or international setting import this
+mechanism and expect it to bite?* If yes, you have a comparative/IR contribution. If the argument only
+works for your exact case, generalize the logic or reframe (back to `wp-topic-selection`). Concept
+stretching is the opposite failure — a concept so broad it no longer travels meaningfully.
+
+## Anti-patterns
+
+- "Hypothesizing after results are known" (HARKing) — state theory before tests
+- A model with opaque assumptions chosen to produce the desired result
+- Mechanisms named but never made observable across cases
+- Universal claims with no scope conditions, or concept stretching to force generality
+- Burying the argument under the empirics — the contribution must be stated plainly
+
+## Output format
+
+```
+【Core claim】one sentence
+【Mechanism】the causal/logical story and its setting
+【Assumptions】(formal) the load-bearing ones
+【Observable implications】testable consequences → research-design
+【Scope conditions】which cases / regimes / periods it covers
+【Travels?】who else (which cases) can use this argument
+【Next】wp-research-design
+```
+
+## Supplementary resources
+
+- [`../../resources/external_tools.md`](../../resources/external_tools.md) — formal-modeling and comparative-method tooling
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — scope and contribution expectations

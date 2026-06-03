@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "sf-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Social Forces, a global leader among social research journals published by Oxford University Press for the University of North Carolina at Chapel Hill.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "sf-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Social Forces manuscript lifecycle across the generalist sociological and social-science subfields the journal serves, under its strict reference-inclusive 10,000-word cap and Chicago author-date style.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/sf-skills",
+      "repository": "https://github.com/brycewang-stanford/sf-skills",
+      "keywords": [
+        "social-forces",
+        "sf",
+        "sociology",
+        "oxford-university-press",
+        "unc-chapel-hill",
+        "research-transparency",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/sf-workflow",
+        "skills/sf-topic-selection",
+        "skills/sf-literature-positioning",
+        "skills/sf-theory-building",
+        "skills/sf-research-design",
+        "skills/sf-data-analysis",
+        "skills/sf-tables-figures",
+        "skills/sf-writing-style",
+        "skills/sf-data-and-transparency",
+        "skills/sf-review-process",
+        "skills/sf-submission",
+        "skills/sf-rebuttal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "spq-skills",
+  "description": "Agent skill stack for manuscripts targeted at Social Psychology Quarterly (SPQ) — the leading journal of SOCIOLOGICAL social psychology, owned by the American Sociological Association (ASA) and published by SAGE, submitted via SageTrack / ScholarOne Manuscript Central under masked review. SPQ publishes theoretical and empirical work on the link between social structure and the individual — self and identity, social structure and personality, group processes, social interaction, symbolic interaction, status and expectation states, affect and emotion — and welcomes experiments, surveys, observation, and ethnographic and mixed methods. Facts covered include the ~10,000-word article limit and ~5,000-word note limit, the 150-word non-identifying abstract with keywords, the $25 manuscript processing fee (waived for resubmissions and ASA student members), separate blinded-manuscript and title-page files, the ASA Style Guide, and the ASA data-sharing policy under which sharing data/code/materials is ENCOURAGED but NOT required and has no effect on acceptance. Covers topic selection, literature positioning within sociological social psychology, theory building, research design across experiments / surveys / observation, analysis norms, exhibits, ASA-style writing, data and transparency, the masked review process, submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/spq-skills",
+  "repository": "https://github.com/brycewang-stanford/spq-skills",
+  "keywords": [
+    "social-psychology-quarterly",
+    "spq",
+    "sociological-social-psychology",
+    "asa",
+    "sage",
+    "social-structure-and-personality",
+    "group-processes",
+    "symbolic-interaction",
+    "self-and-identity",
+    "status-and-expectation-states",
+    "affect-and-emotion",
+    "social-interaction",
+    "experiments",
+    "survey-research",
+    "academic-writing",
+    "sagetrack"
+  ]
+}

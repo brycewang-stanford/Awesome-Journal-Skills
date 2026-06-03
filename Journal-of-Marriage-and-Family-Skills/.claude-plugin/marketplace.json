@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jmf-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Marriage and Family (JMF), the leading interdisciplinary journal of family science, published by Wiley for the National Council on Family Relations.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jmf-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Marriage and Family (JMF) manuscript lifecycle for family-science research — family demography, relationships, parenting, child wellbeing, and family policy across sociology, psychology, demography, and family studies.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jmf-skills",
+      "repository": "https://github.com/brycewang-stanford/jmf-skills",
+      "keywords": [
+        "journal-of-marriage-and-family",
+        "jmf",
+        "family-science",
+        "ncfr",
+        "family-demography",
+        "dyadic-analysis",
+        "research-transparency",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jmf-workflow",
+        "skills/jmf-topic-selection",
+        "skills/jmf-literature-positioning",
+        "skills/jmf-theory-and-conceptual-framework",
+        "skills/jmf-research-design",
+        "skills/jmf-data-analysis",
+        "skills/jmf-tables-figures",
+        "skills/jmf-writing-style",
+        "skills/jmf-transparency-and-data-policy",
+        "skills/jmf-review-process",
+        "skills/jmf-submission",
+        "skills/jmf-rebuttal"
+      ]
+    }
+  ]
+}

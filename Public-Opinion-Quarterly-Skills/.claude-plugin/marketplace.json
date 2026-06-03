@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "poq-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Public Opinion Quarterly (POQ), the leading journal of public opinion and survey research, published by Oxford University Press for the American Association for Public Opinion Research.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "poq-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Public Opinion Quarterly (POQ) manuscript lifecycle with a survey-methodology spine — Total Survey Error, questionnaire design, sampling and weighting, mode effects, nonresponse — and AAPOR-standard methodological disclosure.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/poq-skills",
+      "repository": "https://github.com/brycewang-stanford/poq-skills",
+      "keywords": [
+        "public-opinion-quarterly",
+        "poq",
+        "public-opinion",
+        "survey-methodology",
+        "aapor",
+        "total-survey-error",
+        "research-transparency"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/poq-workflow",
+        "skills/poq-topic-selection",
+        "skills/poq-literature-positioning",
+        "skills/poq-theory-and-hypotheses",
+        "skills/poq-survey-design-and-measurement",
+        "skills/poq-data-analysis",
+        "skills/poq-tables-figures",
+        "skills/poq-writing-style",
+        "skills/poq-transparency-and-data-policy",
+        "skills/poq-review-process",
+        "skills/poq-submission",
+        "skills/poq-rebuttal"
+      ]
+    }
+  ]
+}
