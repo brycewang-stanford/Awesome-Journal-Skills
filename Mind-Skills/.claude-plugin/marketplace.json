@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "mind-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for articles targeted at Mind, a leading analytic-philosophy journal published by Oxford University Press on behalf of the Mind Association.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "mind-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Mind article lifecycle for analytic philosophy — from a sharp thesis and sound argument through objections and replies, conceptual method, exposition, the MIND house style, triple-anonymous review, and post-decision revision.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/mind-skills",
+      "repository": "https://github.com/brycewang-stanford/mind-skills",
+      "keywords": [
+        "mind",
+        "philosophy",
+        "analytic-philosophy",
+        "mind-association",
+        "oxford-university-press",
+        "argumentation",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/mind-workflow",
+        "skills/mind-topic-selection",
+        "skills/mind-literature-positioning",
+        "skills/mind-thesis-and-argument",
+        "skills/mind-objections-and-replies",
+        "skills/mind-conceptual-analysis-and-method",
+        "skills/mind-structure-and-exposition",
+        "skills/mind-writing-style",
+        "skills/mind-citation-and-style",
+        "skills/mind-review-process",
+        "skills/mind-submission",
+        "skills/mind-revision-and-response"
+      ]
+    }
+  ]
+}

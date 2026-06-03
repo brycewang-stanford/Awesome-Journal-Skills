@@ -1,0 +1,30 @@
+{
+  "name": "mind-skills",
+  "description": "Agent skill stack for articles targeted at Mind — a leading analytic-philosophy journal, published by Oxford University Press on behalf of the Mind Association since 1876, submitted via ScholarOne under triple-anonymous peer review with no submission fee. Mind takes quality as the sole criterion of publication, excluding no area, style, or school of philosophy, and is known for cutting-edge work in epistemology, metaphysics, philosophy of language, philosophy of logic, and philosophy of mind, while welcoming ethics, history of philosophy, continental, and interdisciplinary work. This pack is about rigorous argumentation, not data: a sharp thesis, a valid and sound argument, anticipating the strongest objection and replying to it, conceptual precision, parsimony, and prose that stays accessible to a broad philosophical readership. Facts covered include the ~8,000-word article limit, the 50–200-word published abstract (submission abstract up to 250 words), the one-article-per-corresponding-author-per-12-months rule, line numbering for review, preparation for anonymous refereeing, the MIND house style / MIND Stylesheet for references applied at acceptance, and the discussions, book reviews, and critical notices Mind also publishes. Covers topic selection and fit, literature positioning, thesis and argument construction, objections and replies, conceptual analysis and philosophical method, structure and exposition, philosophical writing style, citation and the MIND house style, the review process, submission preflight, and post-decision revision and response. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/mind-skills",
+  "repository": "https://github.com/brycewang-stanford/mind-skills",
+  "keywords": [
+    "mind",
+    "mind-journal",
+    "philosophy",
+    "analytic-philosophy",
+    "mind-association",
+    "oxford-university-press",
+    "epistemology",
+    "metaphysics",
+    "philosophy-of-mind",
+    "philosophy-of-language",
+    "philosophy-of-logic",
+    "ethics",
+    "argumentation",
+    "conceptual-analysis",
+    "academic-writing",
+    "scholarone"
+  ]
+}

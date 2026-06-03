@@ -1,0 +1,30 @@
+{
+  "name": "artbull-skills",
+  "description": "Agent skill stack for manuscripts targeted at The Art Bulletin — the leading English-language journal of art history, founded in 1913, owned by the College Art Association (CAA) and published quarterly through Taylor & Francis / Routledge. The Art Bulletin publishes rigorously peer-reviewed scholarship on all periods and regions of the history of art, across methodologies from the historical to the theoretical. This is a humanities pack, not a social-science one: there is no data analysis, statistics, or replication. The distinctive axis of art-historical publishing is WORKING WITH IMAGES — figures and reproductions, copyright permissions and rights clearance, image quality and high-resolution supply, and close visual / formal analysis of objects. Facts covered include double-blind (double-anonymous) review on a Microsoft Word manuscript (no PDFs, for anonymity), articles up to 16,000 words including endnotes, abstract of no more than 100 words, a 50-word biographical statement, a maximum of 20 illustrations supplied in a single Word file under 10 MB at submission with high-resolution images supplied promptly on acceptance, the author's responsibility to secure and pay for reproduction rights and photography (with a fair-use code of best practices), and The Chicago Manual of Style (notes, not author-date). Covers art-historical topic and contribution framing, historiographic positioning, building a fresh art-historical argument, close visual and formal analysis, objects / archives / provenance / documentary evidence, the heavy image-permissions and reproduction-quality workflow, structure and exposition, Chicago writing and citation, the double-blind review process, submission preflight, and the revise-and-resubmit response. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/artbull-skills",
+  "repository": "https://github.com/brycewang-stanford/artbull-skills",
+  "keywords": [
+    "the-art-bulletin",
+    "art-bulletin",
+    "art-history",
+    "college-art-association",
+    "caa",
+    "visual-analysis",
+    "formal-analysis",
+    "image-permissions",
+    "reproduction-rights",
+    "copyright-clearance",
+    "provenance",
+    "archival-research",
+    "chicago-manual-of-style",
+    "humanities",
+    "academic-writing",
+    "taylor-and-francis"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "ci-skills",
+  "description": "Agent skill stack for essays targeted at Critical Inquiry — the leading interdisciplinary journal of criticism and theory in the arts and humanities, founded in 1974 and published by the University of Chicago Press, submitted via Editorial Manager and reviewed by the editors-in-chief in consultation with the editorial team (peer-reviewed and commissioned work alike). Critical Inquiry is associated with no single school of thought and tied to no single discipline: it spans literary theory, art and visual culture, film and media, philosophy and aesthetics, politics and political theory, history, and cultural criticism. This is a humanities / theory pack — no datasets, no statistics, no replication packages. It is built around a bold theoretical intervention, interdisciplinary stakes, the close reading of texts / images / artworks / cases through theory, and ambitious prose. Facts covered include the 9,500-word article limit (inclusive of discursive notes and all bibliographical information), the 3,000-word Critical Response and 500-word Review formats, Chicago Manual of Style (17th ed.) footnotes with no works-cited list, Microsoft Word submission, images supplied as separate 300 ppi JPEG/TIFF files with author-secured permissions, the no-simultaneous-submission rule, and the absence of a submission fee (optional Gold OA). Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/ci-skills",
+  "repository": "https://github.com/brycewang-stanford/ci-skills",
+  "keywords": [
+    "critical-inquiry",
+    "ci",
+    "critical-theory",
+    "interdisciplinary",
+    "humanities",
+    "literary-theory",
+    "art-and-visual-culture",
+    "film-and-media",
+    "philosophy-and-aesthetics",
+    "cultural-criticism",
+    "theoretical-intervention",
+    "close-reading",
+    "chicago-manual-of-style",
+    "academic-writing",
+    "editorial-manager",
+    "university-of-chicago-press"
+  ]
+}

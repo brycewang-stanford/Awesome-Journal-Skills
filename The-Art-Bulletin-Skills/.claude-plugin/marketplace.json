@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "artbull-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at The Art Bulletin, the leading English-language journal of art history, owned by the College Art Association.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "artbull-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering The Art Bulletin manuscript lifecycle, built around the image-and-permissions and visual-analysis demands that distinguish art-historical publishing.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/artbull-skills",
+      "repository": "https://github.com/brycewang-stanford/artbull-skills",
+      "keywords": [
+        "the-art-bulletin",
+        "art-history",
+        "college-art-association",
+        "visual-analysis",
+        "image-permissions",
+        "chicago-manual-of-style",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/artbull-workflow",
+        "skills/artbull-topic-selection",
+        "skills/artbull-scholarly-positioning",
+        "skills/artbull-argument-development",
+        "skills/artbull-visual-analysis",
+        "skills/artbull-evidence-and-sources",
+        "skills/artbull-images-and-permissions",
+        "skills/artbull-structure-and-exposition",
+        "skills/artbull-writing-style-and-citation",
+        "skills/artbull-review-process",
+        "skills/artbull-submission",
+        "skills/artbull-revision-and-response"
+      ]
+    }
+  ]
+}

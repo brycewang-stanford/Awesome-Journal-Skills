@@ -1,0 +1,30 @@
+{
+  "name": "ahr-skills",
+  "description": "Agent skill stack for manuscripts targeted at The American Historical Review (AHR) — the flagship journal of the historical profession and the official publication of the American Historical Association (AHA), published by Oxford University Press and submitted via ScholarOne under double-anonymous peer review with no author processing charges. The AHR publishes across all periods and places of the human past — and explicitly encourages histories of Africa, Asia, Oceania, Latin America, and the Middle East alongside Europe and the United States. This is a HUMANITIES stack, not a social-science template: history has no data-availability or replication policy, no statistical-significance bar, and no results tables. The craft is a historiographical intervention, archival and primary-source criticism, interpretation that weds narrative to analysis, and Chicago Manual of Style footnotes (no bibliography or in-text citation). Facts covered include the ~8,000-word article target (excluding notes), the 2:1 text-to-notes guideline, review by at least six scholars over a six-to-eight-month timeline, the 8-10% acceptance rate, masked-author preparation, alt-text on all images, author-cleared image permissions, and the large commissioned book/media review section (~650 reviews per year). Covers topic selection and significance, historiographical positioning, argument development, sources and archives, interpretation and method, structure and exposition, Chicago-style prose, the review process, submission preflight, and revision responses. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/ahr-skills",
+  "repository": "https://github.com/brycewang-stanford/ahr-skills",
+  "keywords": [
+    "american-historical-review",
+    "ahr",
+    "history",
+    "historiography",
+    "american-historical-association",
+    "aha",
+    "oxford-university-press",
+    "primary-sources",
+    "archives",
+    "source-criticism",
+    "chicago-manual-of-style",
+    "footnotes",
+    "book-reviews",
+    "global-history",
+    "academic-writing",
+    "scholarone"
+  ]
+}

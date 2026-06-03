@@ -1,0 +1,30 @@
+{
+  "name": "jaar-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of the American Academy of Religion (JAAR) — the flagship journal of religious studies and the official journal of the American Academy of Religion (AAR), published by Oxford University Press, submitted via ScholarOne / Manuscript Central under double-anonymous (double-blind) peer review. JAAR is a humanities venue: it centers an argument, careful handling of primary texts and traditions, and method-conscious, reflexive, non-confessional scholarship in the academic study of religion across the full range of world religious traditions and across methodologies (textual, historical, ethical, philosophical, comparative, ethnographic). It is NOT a statistics/replication journal. Facts covered include the ~8,000–12,000-word article length (including references and footnotes), the 150-word abstract, JAAR's distinctive in-text author-date citation style (footnotes reserved for substantive points; Chicago Manual of Style as fallback), the mandatory reframing of an article so it speaks to the study of religion as a whole (not just a subfield), the editor's pre-review screening, the ~90% rejection rate, the up-to-six-months decision timeline, and the commissioned-only book review section. Covers topic selection, scholarly positioning, argument development, sources and evidence (texts, traditions, fieldwork, archives), theory and method (with reflexivity and comparison), structure and exposition, scholarly prose, citation and style, the review process, submission preflight, and revision-and-response. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jaar-skills",
+  "repository": "https://github.com/brycewang-stanford/jaar-skills",
+  "keywords": [
+    "journal-of-the-american-academy-of-religion",
+    "jaar",
+    "religious-studies",
+    "study-of-religion",
+    "american-academy-of-religion",
+    "aar",
+    "humanities",
+    "theory-and-method",
+    "comparative-religion",
+    "textual-scholarship",
+    "ethnography-of-religion",
+    "reflexivity",
+    "scholarly-argument",
+    "academic-writing",
+    "scholarone",
+    "oxford-university-press"
+  ]
+}

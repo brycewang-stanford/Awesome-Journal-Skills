@@ -1,0 +1,30 @@
+{
+  "name": "pmla-skills",
+  "description": "Agent skill stack for manuscripts targeted at PMLA (Publications of the Modern Language Association) — the flagship general-interest journal of the Modern Language Association (MLA), published by Cambridge University Press and submitted through PMLA's ScholarOne site under anonymous (blind) peer review. PMLA is a humanities generalist venue spanning literatures and languages, literary theory and criticism, and comparative literature, publishing essays judged of interest to scholars and teachers of language and literature regardless of period, language, or method. This is a literary-studies pack, not a social-science one: there is no data, replication, or statistics — the work is argument, close reading, theoretical framing, and engagement with the critical conversation, formatted in MLA style (in-text citations + Works Cited per the MLA Handbook). Facts covered include the 6,000–9,000-word article range (discursive notes counted, Works Cited and translations excluded), MLA membership required to submit, anonymity (no first-person self-identification; third-person self-reference; cover sheet), at least two reviewers plus Editorial Board final decision and Advisory Committee, AI-content disclosure, and special features — Theories and Methodologies, The Changing Profession, Criticism in Translation, Little-known Documents, and special-topic issues. Covers topic fit, scholarly positioning, argument development, textual evidence and close reading, theory and method, structure and exposition, prose style, MLA citation and style, the review process, submission preflight, and revision-and-response letters. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/pmla-skills",
+  "repository": "https://github.com/brycewang-stanford/pmla-skills",
+  "keywords": [
+    "pmla",
+    "modern-language-association",
+    "mla",
+    "literary-studies",
+    "literary-criticism",
+    "literary-theory",
+    "comparative-literature",
+    "languages-and-literatures",
+    "close-reading",
+    "humanities",
+    "mla-style",
+    "mla-handbook",
+    "works-cited",
+    "academic-writing",
+    "anonymous-review",
+    "cambridge-university-press"
+  ]
+}

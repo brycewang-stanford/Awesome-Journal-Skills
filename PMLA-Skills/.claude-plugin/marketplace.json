@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "pmla-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at PMLA (Publications of the Modern Language Association), the flagship general-interest journal of the Modern Language Association.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "pmla-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the PMLA (Publications of the Modern Language Association) manuscript lifecycle for literary and language studies — argument, close reading, theory, and MLA style.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/pmla-skills",
+      "repository": "https://github.com/brycewang-stanford/pmla-skills",
+      "keywords": [
+        "pmla",
+        "modern-language-association",
+        "mla",
+        "literary-studies",
+        "literary-criticism",
+        "comparative-literature",
+        "mla-style"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/pmla-workflow",
+        "skills/pmla-topic-selection",
+        "skills/pmla-scholarly-positioning",
+        "skills/pmla-argument-development",
+        "skills/pmla-textual-evidence-and-close-reading",
+        "skills/pmla-theory-and-method",
+        "skills/pmla-structure-and-exposition",
+        "skills/pmla-writing-style",
+        "skills/pmla-citation-and-style",
+        "skills/pmla-review-process",
+        "skills/pmla-submission",
+        "skills/pmla-revision-and-response"
+      ]
+    }
+  ]
+}

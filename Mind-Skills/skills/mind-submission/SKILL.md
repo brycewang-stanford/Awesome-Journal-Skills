@@ -1,0 +1,79 @@
+---
+name: mind-submission
+description: Use when running the final pre-submission preflight for Mind via ScholarOne — preparation for triple-anonymous review, the ~8,000-word limit, the 50–200-word abstract, line numbering, the one-article-per-12-months rule, file format, and the MIND house style. Final checks; it does not draft content.
+---
+
+# Submission Preflight (mind-submission)
+
+The last check before submitting on **ScholarOne**. Mind is **triple-anonymous**, so the single most
+common avoidable failure is a manuscript that is not properly prepared for anonymous review — such a
+paper **will not be read**. Verify volatile specifics on the official page before relying on them.
+
+## When to trigger
+
+- "Submitting tomorrow" — last pass before upload
+- Unsure which files / settings ScholarOne expects
+- Confirming the word limit, abstract, line numbering, and anonymization are all in order
+
+## Process facts (verify volatile items on the official page)
+
+- **Owner / publisher:** Mind Association / Oxford University Press.
+- **Portal:** **ScholarOne** (`mc.manuscriptcentral.com/MIND`); submit in **Word or PDF**, with
+  high-resolution image files sent at the same time.
+- **Review model:** **triple-anonymous** — author identity hidden from editors and referees until
+  acceptance; prepare the manuscript for anonymous refereeing or it will not be read.
+- **Length:** articles **~8,000 words total**; longer only in **exceptional circumstances** (e.g.,
+  very extensive quotations); symbol-heavy papers should paginate like an 8,000-word article.
+- **Abstract:** published abstract **50–200 words**; a longer submission abstract (up to ~250 words,
+  待核实) may be included to aid review.
+- **Submission limit:** **no more than one article per corresponding author per 12-month period**.
+- **Line numbering:** **required** for the review copy (LaTeX `lineno`; Word line-numbering option).
+- **Style:** the **MIND house style / MIND Stylesheet** applies to the **accepted** final version.
+- **Fee:** no submission fee stated; optional open-access charge handled by OUP after acceptance (待核实).
+
+## Preflight checklist
+
+### Type & length
+- [ ] Content type chosen (article / discussion / book review / critical notice)
+- [ ] Article ~8,000 words (or justified exception); symbol-heavy paper paginated equivalently
+- [ ] Abstract within the stated length (published 50–200 words)
+
+### Anonymity (triple-anonymous)
+- [ ] No author names, affiliations, or revealing acknowledgements in the manuscript
+- [ ] No self-identifying references ("as I argued in…"); self-citations neutralized
+- [ ] Identifying **file metadata stripped** (document properties)
+
+### Preparation & format
+- [ ] **Line numbering** on the document (LaTeX `lineno` / Word)
+- [ ] Word or PDF; high-resolution image files ready to upload at the same time
+- [ ] Consistent citation style (full MIND house-style conversion at acceptance — see `mind-citation-and-style`)
+- [ ] Alt text for figures; funding declared where applicable
+
+### Eligibility & compliance
+- [ ] Not in breach of the **one-article-per-12-months** corresponding-author rule
+- [ ] Original, unpublished work; aware of the OUP copyright licence signed at acceptance
+
+## Anti-patterns
+
+- Uploading a manuscript that reveals the author (triple-anonymous — it will not be read)
+- Omitting line numbers from the review copy
+- An abstract outside the stated range, or an article well over ~8,000 words with no justification
+- Submitting a second article within twelve months as the same corresponding author
+- Assuming a default reference export already matches the MIND house style
+
+## Output format
+
+```
+【Type】Article / Discussion / Book review / Critical notice (length ok? Y/N)
+【Anonymized】text + self-refs + file metadata clean? [Y/N]
+【Line numbering】present? [Y/N]
+【Abstract】word count (50–200 published)
+【12-month rule】clear? [Y/N]
+【Format】Word/PDF + images + alt text ready? [Y/N]
+【Next】await decision → mind-revision-and-response
+```
+
+## Supplementary resources
+
+- [`../../resources/external_tools.md`](../../resources/external_tools.md) — ScholarOne, LaTeX `lineno`, anonymization, the MIND Stylesheet
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official Mind URLs behind every fact in this pack

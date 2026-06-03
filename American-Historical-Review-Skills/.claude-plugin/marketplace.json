@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "ahr-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at The American Historical Review (AHR), the flagship journal of the historical profession and the official publication of the American Historical Association.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "ahr-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering The American Historical Review (AHR) manuscript lifecycle — historiographical intervention, archival source criticism, interpretation, Chicago-style prose, and the review and submission process for a humanities flagship.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/ahr-skills",
+      "repository": "https://github.com/brycewang-stanford/ahr-skills",
+      "keywords": [
+        "american-historical-review",
+        "ahr",
+        "history",
+        "historiography",
+        "primary-sources",
+        "chicago-manual-of-style",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/ahr-workflow",
+        "skills/ahr-topic-selection",
+        "skills/ahr-historiography-positioning",
+        "skills/ahr-argument-development",
+        "skills/ahr-sources-and-archives",
+        "skills/ahr-interpretation-and-method",
+        "skills/ahr-structure-and-exposition",
+        "skills/ahr-writing-style",
+        "skills/ahr-citation-and-style",
+        "skills/ahr-review-process",
+        "skills/ahr-submission",
+        "skills/ahr-revision-and-response"
+      ]
+    }
+  ]
+}

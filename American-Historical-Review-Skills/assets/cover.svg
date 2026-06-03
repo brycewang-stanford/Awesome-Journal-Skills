@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 320" width="240" height="320">
+<rect width="240" height="320" fill="#fbf7f1"/>
+<rect x="5" y="5" width="230" height="310" rx="13" fill="#fbf7f1" stroke="#6b3a2e" stroke-width="2"/>
+<path d="M5,18 a13,13 0 0 1 13,-13 h204 a13,13 0 0 1 13,13 v60 h-230 z" fill="#6b3a2e"/>
+<text x="120" y="35" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="10.5" letter-spacing="2.5" font-weight="700" fill="#fbf7f1">HISTORY</text>
+<rect x="90.0" y="45" width="60" height="2" rx="1" fill="#fbf7f1" opacity="0.7"/>
+<text x="120" y="63" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="8.5" letter-spacing="1.5" fill="#fbf7f1" opacity="0.85">JOURNAL · AGENT SKILLS</text>
+<text x="120" y="134" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="19" font-weight="700" fill="#2a1d16">The American</text><text x="120" y="162" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="19" font-weight="700" fill="#2a1d16">Historical</text><text x="120" y="190" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="19" font-weight="700" fill="#2a1d16">Review</text>
+<text x="120" y="244" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="11" fill="#7a6a5d">AHR · AHA / Oxford</text>
+<line x1="42" y1="276" x2="198" y2="276" stroke="#6b3a2e" stroke-width="1" opacity="0.35"/>
+<rect x="52" y="285" width="136" height="22" rx="11" fill="#6b3a2e"/>
+<text x="120" y="300" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="10" font-weight="700" fill="#fbf7f1">Flagship of the Profession</text>
+</svg>

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "ci-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for essays targeted at Critical Inquiry, the leading interdisciplinary journal of criticism and theory in the arts and humanities.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "ci-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Critical Inquiry essay lifecycle — from a bold interdisciplinary theoretical intervention through the reading of texts, images, and objects, to Chicago-style submission and revision.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/ci-skills",
+      "repository": "https://github.com/brycewang-stanford/ci-skills",
+      "keywords": [
+        "critical-inquiry",
+        "ci",
+        "critical-theory",
+        "interdisciplinary",
+        "humanities",
+        "cultural-criticism",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/ci-workflow",
+        "skills/ci-topic-selection",
+        "skills/ci-scholarly-positioning",
+        "skills/ci-argument-and-intervention",
+        "skills/ci-evidence-and-objects",
+        "skills/ci-theory-and-method",
+        "skills/ci-structure-and-exposition",
+        "skills/ci-writing-style",
+        "skills/ci-citation-and-style",
+        "skills/ci-review-process",
+        "skills/ci-submission",
+        "skills/ci-revision-and-response"
+      ]
+    }
+  ]
+}

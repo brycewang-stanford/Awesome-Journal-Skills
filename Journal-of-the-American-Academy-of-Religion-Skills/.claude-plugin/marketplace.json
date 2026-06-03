@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jaar-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of the American Academy of Religion (JAAR), the flagship journal of religious studies and the official journal of the American Academy of Religion.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jaar-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of the American Academy of Religion (JAAR) manuscript lifecycle for humanities scholarship in the academic study of religion — argument, primary texts and traditions, theory and method, and reflexive scholarly prose.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jaar-skills",
+      "repository": "https://github.com/brycewang-stanford/jaar-skills",
+      "keywords": [
+        "journal-of-the-american-academy-of-religion",
+        "jaar",
+        "religious-studies",
+        "american-academy-of-religion",
+        "aar",
+        "theory-and-method",
+        "humanities",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jaar-workflow",
+        "skills/jaar-topic-selection",
+        "skills/jaar-scholarly-positioning",
+        "skills/jaar-argument-development",
+        "skills/jaar-sources-and-evidence",
+        "skills/jaar-theory-and-method",
+        "skills/jaar-structure-and-exposition",
+        "skills/jaar-writing-style",
+        "skills/jaar-citation-and-style",
+        "skills/jaar-review-process",
+        "skills/jaar-submission",
+        "skills/jaar-revision-and-response"
+      ]
+    }
+  ]
+}
