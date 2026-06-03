@@ -100,14 +100,18 @@ placeholder cards and clobber real covers. `REAL-COVERS.tsv` is the recovery man
 
 ---
 
-## Remaining placeholders by route (61)
+## Remaining placeholders by route (60)
 
 ### Group A — Chinese journals → ✅ COMPLETE (0 remaining)
 All ~72 Group A Chinese journals were installed and independently visually verified in session 2
 (66 via cqvip Route 2, 7 stragglers via NCPSSD Route 3 / official sites; the smoke test via cqvip).
 Provenance for every one is in `REAL-COVERS.tsv`. Zero wrong covers survived (strict verify/revert).
 
-### Group B — English journals (46) → publisher-CDN BLOCKED; subset recoverable via Wikimedia (Route 4)
+### Group B — English journals (46) → browser hand-off (Wikimedia Route 4 EXHAUSTED — only JMCB had a free cover)
+All 47 were checked exhaustively on Wikipedia/Commons (raw wikitext + image API, not the unreliable
+pageimages route). Exactly one — `journal-of-money-credit-and-banking` — had a fair-use printed cover
+(now installed). The other 46 have only logos, empty infobox cover params, redirects, or no article, and
+their publisher CDNs are 403-blocked here. **These need a real browser hand-download by the user.**
 academy-of-management-annals · academy-of-management-journal · academy-of-management-review ·
 angewandte-chemie-international-edition · annals-of-mathematics · ca-a-cancer-journal-for-clinicians ·
 contemporary-accounting-research · entrepreneurship-theory-and-practice · financial-management ·
