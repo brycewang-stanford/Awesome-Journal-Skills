@@ -183,3 +183,21 @@ Isolation rule unchanged: only own new dirs; CLAIMS/PROGRESS append-only; no REA
 Demography, Criminology, Journal-of-Communication, Psychological-Bulletin, Journal-of-Politics. 72 new
 SKILL.md. Fixed one near-clone (joc-rebuttal 0.757→<0.45). All 12 cat-2 packs (C1-C3) now <0.50 vs anything.
 Only shared files touched: CLAIMS.md + PROGRESS.md (append-only). No README-count/tools/other-pack edits.
+
+## Lane — Categories 3/7/9 + cat-2 round-out (Agent C, multi-batch)
+- **Owner**: Agent C (Opus) · Started after cat-2 (12 packs) committed by owner · Status: in progress (待验收)
+- **Why**: per ASSET-INVENTORY, categories 3 (Humanities), 7 (Engineering), 9 (Agriculture & Env) are
+  "almost all complete packs still missing". Nobody has claimed them (Agent B = nat-sci/medicine only;
+  active agent = cat-1/8). Zero file overlap.
+- **Boundary discipline (avoid Agent B)**: cat-9/cat-7 packs use UNAMBIGUOUSLY ag/env/engineering venues,
+  NOT Nature-family or physics journals (those are Agent B's nat-sci turf).
+- **Batch A — cat-3 Humanities** (humanities-adapted skill set: argument / sources / interpretation /
+  citation-style, NOT data-analysis): American-Historical-Review, PMLA, Mind, Critical-Inquiry,
+  The-Art-Bulletin, Journal-of-the-American-Academy-of-Religion.
+- **Batch B — cat-9 Agriculture & Environment** (empirical-science skill set): Environmental-Science-and-Technology,
+  Global-Environmental-Change, Conservation-Biology, Global-Change-Biology, Field-Crops-Research, Agricultural-Systems.
+- **Batch C — cat-2 round-out** (IR / survey / family / social-psych subfields): International-Organization,
+  World-Politics, Public-Opinion-Quarterly, Social-Forces, Journal-of-Marriage-and-Family, Social-Psychology-Quarterly.
+- **Process**: parallel sub-agents per batch → independent QC (clone audit <0.75 ideally <0.50, structure,
+  full bilingual READMEs, source maps) → fix any near-clones → log. Isolation: only own new dirs;
+  CLAIMS/PROGRESS append-only; no README-count/tools/other-pack edits (owner reconciles counts).
