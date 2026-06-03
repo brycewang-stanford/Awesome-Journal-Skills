@@ -201,3 +201,12 @@ Only shared files touched: CLAIMS.md + PROGRESS.md (append-only). No README-coun
 - **Process**: parallel sub-agents per batch → independent QC (clone audit <0.75 ideally <0.50, structure,
   full bilingual READMEs, source maps) → fix any near-clones → log. Isolation: only own new dirs;
   CLAIMS/PROGRESS append-only; no README-count/tools/other-pack edits (owner reconciles counts).
+
+### Agent C lane — WAVE C4 STATUS: COMPLETE (待验收)
+18 new packs (216 SKILL.md) built + independently QC'd + uncommitted: Batch A cat-3 Humanities (AHR, PMLA,
+Mind, Critical-Inquiry, The-Art-Bulletin, JAAR); Batch B cat-9 Ag/Env (Environmental-Science-and-Technology,
+Global-Environmental-Change, Conservation-Biology, Global-Change-Biology, Field-Crops-Research, Agricultural-Systems);
+Batch C cat-2 round-out (International-Organization, World-Politics, Public-Opinion-Quarterly, Social-Forces,
+Journal-of-Marriage-and-Family, Social-Psychology-Quarterly). All <0.50 clone vs anything; full bilingual READMEs;
+JAAR completed by Agent C after a sub-agent API overload. Only shared files touched: CLAIMS.md + PROGRESS.md
+(append-only). No README-count/tools/other-pack edits. Agent C cumulative = 30 packs across cat 2/3/9.

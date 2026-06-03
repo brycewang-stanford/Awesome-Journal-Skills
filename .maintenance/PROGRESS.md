@@ -629,3 +629,55 @@ sociology (ASR/AJS), psychology (Psychological-Science/JPSP/Psychological-Bullet
 demography (Demography), criminology (Criminology), communication (Journal-of-Communication).
 NOTE for the audit owner (Codex): tools/audit_repo.py counts + root README badges do not yet include
 the 9 still-uncommitted cat-2 packs (AJPS/AJS/JPSP from C2 + the 6 from C3) — left for owner reconciliation.
+
+## Wave C4 — Both directions, done solidly: cat-3 Humanities + cat-9 Ag/Env + cat-2 round-out (Agent C)
+
+Per user request to "do all of 1 (continue cat-2) and 2 (open new disciplines) solidly", built 18 NEW
+packs (216 SKILL.md) in 3 QC'd parallel-sub-agent batches, all in clean non-colliding lanes (Agent B =
+nat-sci/medicine; active agent = cat-1/8 — none touch cat-2/3/9). Each batch: 6 parallel sub-agents →
+independent QC by me (structure, manifest==dirs, full bilingual READMEs, broken-link scan, clone audit).
+
+**Batch A — cat-3 Humanities (6)** — humanities-adapted skill set (argument / sources / interpretation /
+citation-style; NO data/stats/replication):
+- American-Historical-Review (`ahr-`) — AHA/OUP, Chicago notes, double-blind, commissioned reviews
+- PMLA (`pmla-`) — MLA, MLA style, anonymous, MLA-membership-to-submit
+- Mind (`mind-`) — OUP/Mind Association, triple-anonymous, ~8,000w, analytic philosophy
+- Critical-Inquiry (`ci-`) — UChicago, interdisciplinary theory, Editorial Manager
+- The-Art-Bulletin (`artbull-`) — CAA/T&F, art history, IMAGES + permissions + visual analysis
+- Journal-of-the-American-Academy-of-Religion (`jaar-`) — AAR/OUP; in-text author-date citations,
+  "broad & fundamental interest" reframing gate, ~90% rejection. (Its sub-agent hit an API overload
+  after the scaffold; I completed its 12 skills + both READMEs + external_tools myself.)
+
+**Batch B — cat-9 Agriculture & Environment (6)** — empirical-science skill set (study-design /
+data-analysis / figures / reporting-reproducibility / cover-letter). Unambiguously cat-9, clear of
+Agent B's elite-science/medicine turf:
+- Environmental-Science-and-Technology (`est-`) — ACS, Paragon Plus, TOC graphic, SI, per-type word caps
+- Global-Environmental-Change (`gec-`) — Elsevier, human/policy dimensions, conceptual-framework + policy-relevance skills
+- Conservation-Biology (`conbio-`) — SCB/Wiley, double-blind (since 2014), Dryad archiving, conservation-relevance skill
+- Global-Change-Biology (`gcb-`) — Wiley, DOI data archiving ("on request" rejected), graphical abstract (differentiated from ConBio)
+- Field-Crops-Research (`fcr-`) — Elsevier, multi-environment/G×E scope gate, yield-gap framing
+- Agricultural-Systems (`agsy-`) — Elsevier, systems-framing + model-evaluation skills (differentiated from FCR)
+
+**Batch C — cat-2 round-out (6)** — new cat-2 subfields (IR / survey methodology / family / soc-psych):
+- International-Organization (`io-`) — Cambridge/IO Foundation, IR-specialist; IO verifies quant results AND formal-model proofs pre-acceptance, IO Dataverse
+- World-Politics (`wp-`) — Cambridge→JHU/Princeton, comparative+IR, triple-blind, review articles, ≤12,500w incl. notes
+- Public-Opinion-Quarterly (`poq-`) — OUP/AAPOR, Total Survey Error, AAPOR disclosure (Appendix A), POQ Dataverse
+- Social-Forces (`sf-`) — OUP/UNC, ≤10,000w incl. refs, Chicago 17th, $50 fee (differentiated from ASR/AJS)
+- Journal-of-Marriage-and-Family (`jmf-`) — Wiley/NCFR, family science, structured abstract, ≤35pp, dyadic/family-demography
+- Social-Psychology-Quarterly (`spq-`) — ASA/SAGE, SOCIOLOGICAL social psych, $25 fee, masked (differentiated from JPSP/PsychSci/ASR)
+
+Independent QC results (I re-ran, not just sub-agent self-reports):
+- Every pack: 12/12 SKILL.md, marketplace manifest == actual dirs, valid JSON, full frontmatter, 0 broken links.
+- Every pack: full bilingual READMEs (en 165-190 / zh 152-179 lines) and resources/official-source-map.md
+  with official URLs + access date 2026-06-01 + honest 待核实 (Wiley 402, Elsevier/SAGE/UChicago 403 flagged).
+- Clone QC caught/closed near-clones at the sub-agent layer: GCB self-fixed gcb-rebuttal↔conbio-rebuttal
+  (0.510→0.210); IO self-fixed io-data-analysis↔apsr-data-analysis (0.605→0.466).
+- **Final authoritative gate: all 18 new packs score < 0.50 char-shingle Jaccard vs ANY other first-party
+  skill, including each other. Zero pairs ≥ 0.90 repo-wide.**
+
+Agent C cumulative: **30 depth packs / 360 SKILL.md** across category 2 (English social sciences, 18 packs:
+poli-sci/IR, sociology, psychology, education, demography, criminology, communication, survey methodology,
+family), category 3 (Humanities, 6 packs: history, literature, philosophy, theory, art history, religion),
+and category 9 (Agriculture & Environment, 6 packs).
+NOTE for the audit owner (Codex): tools/audit_repo.py counts + root README badges do not yet include
+these 18 newest packs — left for owner reconciliation (the prior 12 cat-2 packs were already reconciled/committed).
