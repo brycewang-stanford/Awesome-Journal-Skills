@@ -1,0 +1,83 @@
+---
+name: jaar-submission
+description: Use when running the final pre-submission preflight for the Journal of the American Academy of Religion (JAAR) via ScholarOne / Manuscript Central — anonymized main document plus separate title page, the broad-significance framing, length and abstract limits, in-text citation style, and house conventions. Final checks; it does not draft content.
+---
+
+# Submission Preflight (jaar-submission)
+
+The last check before submitting through **ScholarOne / Manuscript Central**
+(`mc.manuscriptcentral.com/jaarel`). The two most common avoidable failures at JAAR are a **subfield-only
+framing** (returned before review) and an **under-anonymized** document (it is double-blind). Verify
+volatile specifics on the official page first.
+
+## When to trigger
+
+- "Submitting tomorrow" — last pass before upload
+- Unsure which files Manuscript Central expects (anonymized main document + title page)
+- Confirming framing, length, abstract, citation style, and anonymity are in order
+
+## Process facts (verify volatile items on the official page)
+
+- **Owner / publisher:** American Academy of Religion (AAR) / Oxford University Press.
+- **Portal:** **ScholarOne / Manuscript Central**, `mc.manuscriptcentral.com/jaarel`. Upload uses a
+  **Main Document (anonymous)** designation plus a separate **Title Page** (and Figure/Table/
+  Supplementary as needed).
+- **Review:** **double-blind (double-anonymous).**
+- **Length:** roughly **8,000–12,000 words including references and footnotes** (待核实 exact range).
+- **Abstract:** **≤ 150 words.**
+- **Framing:** the article must address a question of **broad and fundamental interest to the study of
+  religion** and reach beyond its subfield, or it is **returned for reframing before review**.
+- **Citations:** **in-text author-date**, NOT footnote citations; footnotes for substance only;
+  alphabetized year-keyed reference list (see `jaar-citation-and-style`).
+- **House conventions:** gender-neutral language, serial comma, italicized foreign terms, consistent
+  transliteration.
+
+## Preflight checklist
+
+### Framing & fit
+- [ ] Introduction states broad, field-level significance (passes the reframing gate)
+- [ ] The essay "has a point" — a contestable thesis, not description
+
+### Length & abstract
+- [ ] Within ~8,000–12,000 words **including references and footnotes**
+- [ ] Abstract ≤ 150 words
+
+### Anonymity (double-blind)
+- [ ] **Anonymized main document** — no author name/affiliation; self-citations neutralized ("a prior
+      study," not "my prior study")
+- [ ] **Separate title page** with author info prepared as its own file
+- [ ] Identifying **file metadata stripped** (document properties)
+- [ ] Acknowledgments/funding moved off the anonymized document
+
+### Style & files
+- [ ] **In-text author-date** citations; footnotes substantive only; reference list keyed and alphabetized
+- [ ] Gender-neutral language, serial comma, foreign terms italicized, consistent transliteration
+- [ ] Images (if any) with permissions; high-resolution where reproduced
+
+### Ethics
+- [ ] Original work; not under review elsewhere
+- [ ] Fieldwork consent/positionality handled (see `jaar-sources-and-evidence`)
+
+## Anti-patterns
+
+- A subfield-only introduction (triggers the pre-review reframing return)
+- Author identifiers left in the main document or its metadata (breaks double-blind)
+- Footnote citations instead of in-text author-date
+- Abstract over 150 words; manuscript over the length range with bloated notes
+- Planning an unsolicited book-review submission (not accepted)
+
+## Output format
+
+```
+【Framing】broad field-level significance + a "point"? [Y/N]
+【Length/abstract】within ~8,000-12,000 incl. notes/refs; abstract ≤150? [Y/N]
+【Anonymized】main doc + self-cites + metadata clean; separate title page? [Y/N]
+【Citations】in-text author-date; footnotes substantive only? [Y/N]
+【House conventions】gender-neutral + serial comma + foreign-term italics? [Y/N]
+【Next】await decision → jaar-revision-and-response
+```
+
+## Supplementary resources
+
+- [`../../resources/external_tools.md`](../../resources/external_tools.md) — reference managers and study-of-religion research tools
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official JAAR URLs behind every fact in this pack
