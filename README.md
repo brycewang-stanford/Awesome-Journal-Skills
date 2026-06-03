@@ -3,11 +3,11 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/agent-Claude%20Code-cc785c)](https://github.com/anthropics/claude-code)
-[![Skills](https://img.shields.io/badge/skills-1600-cc785c)](#the-skill-packs)
+[![Skills](https://img.shields.io/badge/skills-1600-cc785c)](#skill-pack-一览)
 [![Maintained by CoPaper.AI from Stanford REAP](https://img.shields.io/badge/Maintained%20by-CoPaper.AI%20from%20Stanford%20REAP-blue)](https://copaper.ai)
 [![Powered by StatsPAI](https://img.shields.io/badge/Powered%20by-StatsPAI-orange)](https://github.com/brycewang-stanford/StatsPAI)
 
-English | [简体中文](README.zh-CN.md)
+[English](README.en.md) | 简体中文
 
 <div align="center">
   <table>
@@ -17,24 +17,24 @@ English | [简体中文](README.zh-CN.md)
       </td>
       <td width="56"></td>
       <td align="center">
-        <a href="https://sccei.fsi.stanford.edu/reap"><img src="assets/stanford-reap-logo.png" alt="Stanford REAP — Stanford Center on China's Economy & Institutions" width="360" /></a>
+        <a href="https://sccei.fsi.stanford.edu/reap"><img src="assets/stanford-reap-logo.png" alt="Stanford REAP — 斯坦福中国经济与制度研究中心" width="360" /></a>
       </td>
     </tr>
   </table>
-  <sub><strong>Stanford REAP × CoPaper.AI</strong> · Curated and maintained by Stanford's empirical-methodology team</sub>
+  <sub><strong>Stanford REAP × CoPaper.AI</strong> · 由斯坦福实证方法论团队精选与维护</sub>
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Skills-1600-cc785c?style=for-the-badge" alt="1600 agent skills">
+  <img src="https://img.shields.io/badge/Skills-1600-cc785c?style=for-the-badge" alt="1600 个 Agent Skill">
   &nbsp;
-  <img src="https://img.shields.io/badge/Skill_Packs-95-2b3137?style=for-the-badge" alt="95 skill packs">
+  <img src="https://img.shields.io/badge/Skill_Packs-95-2b3137?style=for-the-badge" alt="95 个 Skill 包">
 </p>
 <p align="center">
-  <sub><b>1600 agent skills</b> across <b>95 curated packs</b> — one index.</sub>
+  <sub>共收录 <b>1600 个 Agent Skill</b>，分布在 <b>95 个精选 Skill 包</b>中——一站式索引。</sub>
 </p>
 
 <p align="center">
-  <sub><b>Start with the venue.</b> Click any cover to open its journal-specific skill pack.</sub>
+  <sub><b>先看期刊，再进 Pack。</b>点击任意封面即可进入对应的期刊 Skill 包。</sub>
 </p>
 <p align="center">
   <a href="Economic-Research-Journal-Skills/"><img src="assets/covers/economic-research.png" alt="《经济研究》 Economic Research" width="160"></a>
@@ -52,7 +52,7 @@ English | [简体中文](README.zh-CN.md)
   <a href="https://github.com/brycewang-stanford/AER-skills"><img src="assets/covers/aer.png" alt="American Economic Review" width="160"></a>
 </p>
 <p align="center">
-  <sub>Flagship Chinese social-science venues + AER — uniform cover cards (depth packs). Real journal covers ship inside each pack's <code>assets/</code>.</sub>
+  <sub>中文重点社科期刊 + AER —— 风格统一的封面卡。各刊真实封面仍存放在对应 pack 的 <code>assets/</code> 中。</sub>
 </p>
 <p align="center">
   <a href="English-SocialScience-Journal-Skills/skills/american-economic-review/"><img src="assets/covers/american-economic-review.png" alt="American Economic Review" width="160"></a>
@@ -79,49 +79,49 @@ English | [简体中文](README.zh-CN.md)
   <a href="English-SocialScience-Journal-Skills/skills/information-systems-research/"><img src="assets/covers/information-systems-research.png" alt="Information Systems Research" width="160"></a>
 </p>
 <p align="center">
-  <sub>Flagship English econ &amp; business venues — uniform cover cards from the <a href="English-SocialScience-Journal-Skills/">English-SocialScience-Journal-Skills</a> breadth bundle (100 journals + router). Tier badges (Top-5 · Top-3 · FT50 · UTD24) are illustrative; card art is not the journals' trademarks.</sub>
+  <sub>英文经管重点期刊 —— 来自 <a href="English-SocialScience-Journal-Skills/">English-SocialScience-Journal-Skills</a> 广度合集的统一封面卡（100 本期刊 + 路由）。Top-5、Top-3、FT50、UTD24 等标签用于说明分层；卡片图形不是各刊商标。</sub>
 </p>
 <p align="center">
   <a href="Science-Skills/"><img src="assets/covers/science.png" alt="Science (AAAS)" width="160"></a>
   <a href="Cell-Skills/"><img src="assets/covers/cell.png" alt="Cell (Cell Press)" width="160"></a>
   <a href="PNAS-Skills/"><img src="assets/covers/pnas.png" alt="PNAS" width="160"></a>
-  <a href="NEJM-Skills/"><img src="assets/covers/nejm.png" alt="NEJM — New England Journal of Medicine" width="160"></a>
-  <a href="Lancet-Skills/"><img src="assets/covers/lancet.png" alt="The Lancet" width="160"></a>
+  <a href="NEJM-Skills/"><img src="assets/covers/nejm.png" alt="NEJM — 新英格兰医学杂志" width="160"></a>
+  <a href="Lancet-Skills/"><img src="assets/covers/lancet.png" alt="The Lancet 柳叶刀" width="160"></a>
 </p>
 <p align="center">
-  <sub>Flagship natural-science &amp; clinical venues — first-party depth packs (12 skills each). Card art is illustrative, not the journals' trademarks.</sub>
+  <sub>自然科学与临床顶刊 —— 自有深度包（每个 12 个技能）。封面卡为示意设计，非各刊商标。</sub>
 </p>
 <p align="center">
-  <a href="nature-skills/"><img src="assets/nature-cover.jpg" alt="Nature journal cover (illustration © Inna-Marie Strazhnik, 2019)" width="150"></a>
+  <a href="nature-skills/"><img src="assets/nature-cover.jpg" alt="Nature 期刊封面（插画 © Inna-Marie Strazhnik, 2019）" width="150"></a>
 </p>
 <p align="center">
-  <sub>Other disciplines · <b>Nature</b> &nbsp;<sup>cover illustration © <a href="https://inna-marie.com/2019/08/08/cover-art-nature-journal/">Inna-Marie Strazhnik (2019)</a></sup></sub>
+  <sub>其他学科 · <b>Nature</b> &nbsp;<sup>封面插画 © <a href="https://inna-marie.com/2019/08/08/cover-art-nature-journal/">Inna-Marie Strazhnik (2019)</a></sup></sub>
 </p>
 
-A curated index of **journal- and conference-specific agent skill packs** for manuscript work — selecting topics, framing the advance, identifying causal effects, formatting tables and figures, preparing replication / data-availability packages, and responding to reviewers. Coverage spans **top social-science journals (Chinese + English)**, **top natural-science and clinical journals (Science, Cell, PNAS, NEJM, The Lancet)**, an AI-first **computer-science conference breadth bundle** covering NeurIPS / ICML / ICLR / AAAI / IJCAI and 150 more CS venues, and CS/AI conference **depth packs** for NeurIPS, ICML, ICLR, AAAI, IJCAI, and AISTATS.
+按**期刊与会议**组织的 Agent Skill 包索引——涵盖选题、定位核心进展、识别策略、表格与图件规范、复制包 / 数据可得性准备、修改回复。覆盖**社会科学中英文顶刊**、**自然科学与临床顶刊（Science、Cell、PNAS、NEJM、The Lancet）**，AI 优先的**计算机科学会议广度合集**：NeurIPS / ICML / ICLR / AAAI / IJCAI 加上 150 个 CS 会议，以及 CS/AI 会议**深度包** NeurIPS、ICML、ICLR、AAAI、IJCAI 和 AISTATS。
 
-Each pack is **journal-specific by design**: it encodes the editorial preferences, formatting conventions, identification standards, and review culture of a single target venue. Generic "scientific writing" skill packs miss these constraints.
+每个 pack 都是**针对单一期刊**的方法论沉淀：它编码了某一本期刊的编委偏好、格式规范、识别标准和审稿文化。通用的"科研写作"Skill 包做不到这一点。
 
-## Quick Browsing & Layout Guide
+## 快速浏览与布局指南
 
-Use the repo in three passes:
+可以按三步理解这个仓库：
 
-| What you see | What it means | Use it when |
+| 你看到的入口 | 它是什么 | 什么时候用 |
 |---|---|---|
-| **Cover cards and root journal folders** like `American-Economic-Review/` or `Jingji-Yanjiu/` | Navigation entries only; they point to the canonical skill location and intentionally do not contain `SKILL.md`. | You are browsing by journal name from the GitHub root. |
-| **Depth packs** like `AER-skills/`, `Economic-Research-Journal-Skills/`, or `Cell-Skills/` | Full per-venue workflows, usually 9-13 skills covering topic fit, framing, methods, tables, submission, and rebuttal. | You are targeting a flagship venue and need lifecycle help. |
-| **Breadth bundles**: `Chinese-SocialScience-Journal-Skills/`, `English-SocialScience-Journal-Skills/`, `English-NaturalScience-Journal-Skills/` | One lightweight fit-and-house-style skill per journal, plus a router skill for venue selection. | You need broad coverage across 100-journal roadmaps. |
-| **Imported / toolkit packs** like `nature-skills/`, `claude-scholar/`, or `codex-claude-academic-skills/` | Curated upstream packs or general academic tooling kept alongside the journal packs. | You need cross-journal research, writing, or workflow support. |
+| **封面卡和根目录期刊文件夹**，例如 `American-Economic-Review/` 或 `Jingji-Yanjiu/` | 只负责导航；它们指向 canonical skill 位置，故意不放 `SKILL.md`。 | 你在 GitHub 根目录按期刊名浏览。 |
+| **深度包**，例如 `AER-skills/`、`Economic-Research-Journal-Skills/` 或 `Cell-Skills/` | 单刊全流程工作流，通常含 9-13 个 skills，覆盖选题、定位、方法、表格、投稿和回复。 | 目标期刊已确定，且需要完整投稿生命周期支持。 |
+| **广度合集**：`Chinese-SocialScience-Journal-Skills/`、`English-SocialScience-Journal-Skills/`、`English-NaturalScience-Journal-Skills/` | 每本期刊一个轻量 fit-and-house-style skill，另有 router skill 用于选刊。 | 你需要覆盖 100 本期刊级别的路线图，或还在比较投稿目标。 |
+| **收录 / 工具包**，例如 `nature-skills/`、`claude-scholar/` 或 `codex-claude-academic-skills/` | 收录的上游包或通用学术工具，与期刊包并列保存。 | 你需要跨期刊的研究、写作或工作流支持。 |
 
-Rule of thumb: start from a root folder or cover card when browsing, use a breadth bundle when choosing between venues, and use a depth pack once the target journal is fixed.
+经验法则：浏览时从根目录文件夹或封面卡开始；选刊时用广度合集；目标期刊确定后再进入对应深度包。
 
 <!-- ROOT-JOURNAL-FOLDERS:START -->
 
-## 200 Root Journal Folders
+## 根目录 200 个期刊文件夹
 
-For visual browsing at the repository root, the 200 social-science breadth journals now also have one lightweight folder each: 100 Chinese roadmap journals in pinyin folder names, and 100 English econ / finance / management / business journals in title-style folder names. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the 1600-skill count stay stable.
+为了让用户在仓库首页的根目录就能看到完整的社科期刊阵列，现在 200 本广度合集期刊各有一个轻量入口文件夹：100 本中文经管路线图期刊使用拼音目录名，100 本英文经管 / 商科期刊使用英文题名目录名。这些目录只负责导航；真正可安装的 `SKILL.md` 仍保留在对应 bundle 内，因此插件路径和 1600 个 skill 的计数不会被重复放大。
 
-### Chinese Roadmap Journals · 100 Pinyin Folders
+### 中文经管路线图 · 100 个拼音目录
 
 |  |  |  |  |
 |---|---|---|---|
@@ -151,7 +151,7 @@ For visual browsing at the repository root, the 200 social-science breadth journ
 | [Laodong-Jingji-Yanjiu/](Laodong-Jingji-Yanjiu/)<br><sub>《劳动经济研究》</sub> | [Kexuexue-Yanjiu/](Kexuexue-Yanjiu/)<br><sub>《科学学研究》</sub> | [Jinrong-Jingjixue-Yanjiu/](Jinrong-Jingjixue-Yanjiu/)<br><sub>《金融经济学研究》</sub> | [Guoji-Jinrong-Yanjiu/](Guoji-Jinrong-Yanjiu/)<br><sub>《国际金融研究》</sub> |
 | [Xitong-Gongcheng-Lilun-Yu-Shijian/](Xitong-Gongcheng-Lilun-Yu-Shijian/)<br><sub>《系统工程理论与实践》</sub> | [Shuiwu-Yanjiu/](Shuiwu-Yanjiu/)<br><sub>《税务研究》</sub> | [Shijie-Jingji-Wenhui/](Shijie-Jingji-Wenhui/)<br><sub>《世界经济文汇》</sub> | [Shijie-Jingji-Yanjiu/](Shijie-Jingji-Yanjiu/)<br><sub>《世界经济研究》</sub> |
 
-### English Econ & Business Journals · 100 Folders
+### 英文经管 / 商科 · 100 个目录
 
 |  |  |  |  |
 |---|---|---|---|
@@ -185,69 +185,69 @@ For visual browsing at the repository root, the 200 social-science breadth journ
 
 ---
 
-## Why "Journal-Specific" Skills?
+## 为什么要"按期刊"做 Skills？
 
-Top journals impose constraints that differ materially across venues:
+不同顶刊对手稿的约束**显著不同**：
 
-- **AER** desk-rejects on identification design (TWFE, weak IV, naive RDD).
-- **《管理世界》** desk-rejects on missing China institutional context.
-- **《经济研究》** desk-rejects on missing canonical theory citations.
+- **AER** 退稿点常在识别策略（TWFE、弱 IV、naive RDD）
+- **《管理世界》** 退稿点常在缺中国制度背景
+- **《经济研究》** 退稿点常在缺经典理论文献
 
-A one-size-fits-all "economics writing" skill cannot encode these differences. Each pack here is opinionated by venue.
+一套"经济学写作"Skill 不可能同时编码这些差异。本索引下的每个 pack 都是按期刊定制的。
 
 ---
 
-## The Skill Packs
+## Skill Pack 一览
 
-> **Scope.** This index targets **top social-science journals (Chinese + English)**, **top natural-science, clinical, and physical-science journals (English)**, and **top computer-science conferences with AI first**. Each flagship journal ships as a **depth pack** (full 12-step per-journal workflow); four **breadth bundles** add one fit-and-house-style skill per venue — [Computer-Science-Conference-Skills](Computer-Science-Conference-Skills/) for 155 CS conferences + router, [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) for 102 Chinese social-science journal profiles (the 100 China econ/management roadmap journals plus 2 broader social-science flagships), [English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) for the 100 mainstream English econ/finance/management/accounting/marketing/OM/IS journals, and [English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) for 100 mainstream English natural-science / clinical / physical / formal-science journals. The flagship Chinese venues, AER on the English side, and the five natural-science flagships (Science, Cell, PNAS, NEJM, The Lancet) are intentionally covered both ways. Natural sciences also ship as **first-party depth packs** alongside the curated third-party Nature packs.
+> **收录范围。** 本索引聚焦**社会科学中英文顶刊**、**自然科学/临床/物理科学英文顶刊**，以及 **AI 优先的计算机科学顶会**。每个重点期刊都是一个**深度包**（单刊全流程，12 步）；四个**广度合集**则为每个 venue 提供一个“选刊/选会定位 + 写作风格”技能——[Computer-Science-Conference-Skills](Computer-Science-Conference-Skills/) 覆盖 155 个 CS 会议 + router，[Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) 覆盖 102 个中文社科期刊 profile，[English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) 覆盖 100 本英文主流经管/商科期刊，[English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) 覆盖 100 本英文主流自然科学/临床/物理/形式科学期刊。重点中文期刊、英文侧的 AER、以及 5 本自然科学旗舰（Science、Cell、PNAS、NEJM、The Lancet），有意同时以两种形态收录。自然科学另以**自有深度包**形态提供，与收录的第三方 Nature 包并列。
 
-### Computer science · AI-first conference breadth bundle
+### 计算机科学 · AI 优先会议广度合集
 
-| Bundle | Pack | Coverage | Skills |
-|--------|------|----------|-------:|
-| **155 CS/AI conference profiles** | [Computer-Science-Conference-Skills/](Computer-Science-Conference-Skills/) | 155 conference skills + `cs-ai-conference-workflow` router | 156 |
+| 合集 | Pack | 覆盖 | 技能数 |
+|------|------|------|-------:|
+| **155 个 CS/AI 会议 profile** | [Computer-Science-Conference-Skills/](Computer-Science-Conference-Skills/) | 155 个会议 skill + `cs-ai-conference-workflow` 路由 | 156 |
 
-### Computer science · AI-first conference depth packs
+### 计算机科学 · AI 优先会议深度包
 
-| Venue | Pack | Coverage | Skills |
-|-------|------|----------|-------:|
-| **NeurIPS** Conference on Neural Information Processing Systems | [NeurIPS-Skills/](NeurIPS-Skills/) | Main-track submission, OpenReview author response, camera-ready, artifacts, reproducibility, supplementary material, review process, writing style, related work, experiments, workflow, and topic selection | 12 |
-| **ICML** International Conference on Machine Learning | [ICML-Skills/](ICML-Skills/) | Main-track submission, OpenReview rebuttal, PMLR camera-ready, artifacts, reproducibility, supplementary material, review process, writing style, related work, experiments, workflow, and topic selection | 12 |
-| **ICLR** International Conference on Learning Representations | [ICLR-Skills/](ICLR-Skills/) | OpenReview submission, author discussion, camera-ready, artifacts, reproducibility, supplementary material, review process, writing style, related work, experiments, workflow, and topic selection | 12 |
-| **AAAI** AAAI Conference on Artificial Intelligence | [AAAI-Skills/](AAAI-Skills/) | Main technical track submission, two-phase review, rebuttal, AI-assisted review handling, camera-ready, artifacts, reproducibility, supplementary material, writing style, experiments, workflow, and topic selection | 12 |
-| **IJCAI** International Joint Conference on Artificial Intelligence | [IJCAI-Skills/](IJCAI-Skills/) | Chairing Tool submission, two-phase review, one-page author response, camera-ready, artifacts, reproducibility, supplementary material, related work, experiments, workflow, and topic selection | 12 |
-| **AISTATS** International Conference on Artificial Intelligence and Statistics | [AISTATS-Skills/](AISTATS-Skills/) | OpenReview submission, text-only author-reviewer discussion, PMLR camera-ready, artifacts, reproducibility checklist, supplementary material, statistical writing, experiments, workflow, and topic selection | 12 |
+| 会议 | Pack | 覆盖 | 技能数 |
+|------|------|------|-------:|
+| **NeurIPS** Conference on Neural Information Processing Systems | [NeurIPS-Skills/](NeurIPS-Skills/) | 主会投稿、OpenReview 作者回复、camera-ready、artifact、可复现性、补充材料、审稿流程、写作风格、相关工作、实验、workflow 与选题定位 | 12 |
+| **ICML** International Conference on Machine Learning | [ICML-Skills/](ICML-Skills/) | 主会投稿、OpenReview rebuttal、PMLR camera-ready、artifact、可复现性、补充材料、审稿流程、写作风格、相关工作、实验、workflow 与选题定位 | 12 |
+| **ICLR** International Conference on Learning Representations | [ICLR-Skills/](ICLR-Skills/) | OpenReview 投稿、作者讨论、camera-ready、artifact、可复现性、补充材料、审稿流程、写作风格、相关工作、实验、workflow 与选题定位 | 12 |
+| **AAAI** AAAI Conference on Artificial Intelligence | [AAAI-Skills/](AAAI-Skills/) | 主技术轨投稿、两阶段审稿、rebuttal、AI-assisted review 处理、camera-ready、artifact、可复现性、补充材料、写作风格、实验、workflow 与选题定位 | 12 |
+| **IJCAI** International Joint Conference on Artificial Intelligence | [IJCAI-Skills/](IJCAI-Skills/) | Chairing Tool 投稿、两阶段审稿、1 页 author response、camera-ready、artifact、可复现性、补充材料、相关工作、实验、workflow 与选题定位 | 12 |
+| **AISTATS** International Conference on Artificial Intelligence and Statistics | [AISTATS-Skills/](AISTATS-Skills/) | OpenReview 投稿、text-only author-reviewer discussion、PMLR camera-ready、artifact、可复现性 checklist、补充材料、统计写作、实验、workflow 与选题定位 | 12 |
 
-This bundle puts AI conferences first: NeurIPS, ICML, ICLR, AAAI, IJCAI, AISTATS, UAI, COLT, MLSys, KDD, CVPR, ACL, EMNLP, SIGIR, ICRA, CHI, SOSP, IEEE S&P, ICSE, PLDI, SIGMOD, STOC, and 130+ more. Each profile is a conference-fit and current-cycle submission checklist; volatile facts such as deadlines, page limits, templates, AI-use policies, artifact rules, rebuttal formats, and camera-ready requirements must be re-checked on the live official CFP or author kit before submission.
+这个合集把 AI 会议放在最前面：NeurIPS、ICML、ICLR、AAAI、IJCAI、AISTATS、UAI、COLT、MLSys、KDD、CVPR、ACL、EMNLP、SIGIR、ICRA、CHI、SOSP、IEEE S&P、ICSE、PLDI、SIGMOD、STOC，以及 130+ 个其它 CS 会议。每个 profile 都是“会议 fit + 当年投稿要求核验清单”；deadline、页数、模板、AI 使用政策、artifact 规则、rebuttal 格式、camera-ready 要求等易变事实，必须以当前官方 CFP / author kit 为准。
 
-### Social science · Chinese top journals — depth packs
+### 社会科学 · 中文顶刊 —— 深度独立包
 
-| Icon | Venue | Pack | Discipline | Skills |
-|:----:|-------|------|------------|-------:|
-| <a href="Economic-Research-Journal-Skills/"><img src="assets/covers/economic-research.png" alt="《经济研究》" width="56"></a> | **《经济研究》** Economic Research | [Economic-Research-Journal-Skills/](Economic-Research-Journal-Skills/) | Economics (China-CSSCI top) | 12 |
-| <a href="Journal-of-Management-World-Skills/"><img src="assets/covers/management-world.png" alt="《管理世界》" width="56"></a> | **《管理世界》** Management World | [Journal-of-Management-World-Skills/](Journal-of-Management-World-Skills/) | Management + applied economics | 11 |
-| <a href="Social-Sciences-in-China-Skills/"><img src="assets/covers/social-sciences-in-china.png" alt="《中国社会科学》" width="56"></a> | **《中国社会科学》** Social Sciences in China | [Social-Sciences-in-China-Skills/](Social-Sciences-in-China-Skills/) | General social science | 11 |
-| <a href="China-Industrial-Economics-Skills/"><img src="assets/covers/china-industrial-economics.png" alt="《中国工业经济》" width="56"></a> | **《中国工业经济》** China Industrial Economics | [China-Industrial-Economics-Skills/](China-Industrial-Economics-Skills/) | Industrial economics | 13 |
-| <a href="Journal-of-Quantitative-and-Technological-Economics-Skills/"><img src="assets/covers/journal-of-quantitative-technological-economics.png" alt="《数量经济技术经济研究》" width="56"></a> | **《数量经济技术经济研究》** Quantitative & Technological Economics | [Journal-of-Quantitative-and-Technological-Economics-Skills/](Journal-of-Quantitative-and-Technological-Economics-Skills/) | Quantitative economics | 13 |
-| <a href="Accounting-Research-Skills/"><img src="assets/covers/accounting-research.png" alt="《会计研究》" width="56"></a> | **《会计研究》** Accounting Research | [Accounting-Research-Skills/](Accounting-Research-Skills/) | Accounting | 13 |
-| <a href="China-Economic-Quarterly-Skills/"><img src="assets/covers/china-economic-quarterly.png" alt="《经济学(季刊)》" width="56"></a> | **《经济学(季刊)》** China Economic Quarterly | [China-Economic-Quarterly-Skills/](China-Economic-Quarterly-Skills/) | Economics | 12 |
-| <a href="Journal-of-Financial-Research-Skills/"><img src="assets/covers/journal-of-financial-research.png" alt="《金融研究》" width="56"></a> | **《金融研究》** Journal of Financial Research | [Journal-of-Financial-Research-Skills/](Journal-of-Financial-Research-Skills/) | Finance | 12 |
-| <a href="Journal-of-World-Economy-Skills/"><img src="assets/covers/journal-of-world-economy.png" alt="《世界经济》" width="56"></a> | **《世界经济》** The Journal of World Economy | [Journal-of-World-Economy-Skills/](Journal-of-World-Economy-Skills/) | International economics | 12 |
-| <a href="Journal-of-Management-Sciences-in-China-Skills/"><img src="assets/covers/journal-of-management-sciences-china.png" alt="《管理科学学报》" width="56"></a> | **《管理科学学报》** J. of Management Sciences in China | [Journal-of-Management-Sciences-in-China-Skills/](Journal-of-Management-Sciences-in-China-Skills/) | Management science | 12 |
-| <a href="Nankai-Business-Review-Skills/"><img src="assets/covers/nankai-business-review.png" alt="《南开管理评论》" width="56"></a> | **《南开管理评论》** Nankai Business Review | [Nankai-Business-Review-Skills/](Nankai-Business-Review-Skills/) | Management | 12 |
-| <a href="Sociological-Studies-Skills/"><img src="assets/covers/sociological-studies.png" alt="《社会学研究》" width="56"></a> | **《社会学研究》** Sociological Studies | [Sociological-Studies-Skills/](Sociological-Studies-Skills/) | Sociology | 12 |
-| <a href="China-Rural-Economy-Skills/"><img src="assets/covers/china-rural-economy.png" alt="《中国农村经济》" width="56"></a> | **《中国农村经济》** China Rural Economy | [China-Rural-Economy-Skills/](China-Rural-Economy-Skills/) | Agricultural & rural economics | 12 |
-| <a href="Journal-of-Finance-and-Economics-Skills/"><img src="assets/covers/journal-of-finance-and-economics.png" alt="《财经研究》" width="56"></a> | **《财经研究》** Journal of Finance and Economics | [Journal-of-Finance-and-Economics-Skills/](Journal-of-Finance-and-Economics-Skills/) | Economics & finance (comprehensive) | 12 |
-| <a href="Chinese-Public-Administration-Skills/"><img src="assets/covers/chinese-public-administration.png" alt="《中国行政管理》" width="56"></a> | **《中国行政管理》** Chinese Public Administration | [Chinese-Public-Administration-Skills/](Chinese-Public-Administration-Skills/) | Public administration & governance | 12 |
+| 封面 | 期刊 | Pack | 学科 | 技能数 |
+|:----:|------|------|------|-------:|
+| <a href="Economic-Research-Journal-Skills/"><img src="assets/covers/economic-research.png" alt="《经济研究》" width="56"></a> | **《经济研究》** | [Economic-Research-Journal-Skills/](Economic-Research-Journal-Skills/) | 经济学（中国 CSSCI 顶级） | 12 |
+| <a href="Journal-of-Management-World-Skills/"><img src="assets/covers/management-world.png" alt="《管理世界》" width="56"></a> | **《管理世界》** | [Journal-of-Management-World-Skills/](Journal-of-Management-World-Skills/) | 管理学 + 应用经济 | 11 |
+| <a href="Social-Sciences-in-China-Skills/"><img src="assets/covers/social-sciences-in-china.png" alt="《中国社会科学》" width="56"></a> | **《中国社会科学》** | [Social-Sciences-in-China-Skills/](Social-Sciences-in-China-Skills/) | 综合社科 | 11 |
+| <a href="China-Industrial-Economics-Skills/"><img src="assets/covers/china-industrial-economics.png" alt="《中国工业经济》" width="56"></a> | **《中国工业经济》** | [China-Industrial-Economics-Skills/](China-Industrial-Economics-Skills/) | 产业经济 | 13 |
+| <a href="Journal-of-Quantitative-and-Technological-Economics-Skills/"><img src="assets/covers/journal-of-quantitative-technological-economics.png" alt="《数量经济技术经济研究》" width="56"></a> | **《数量经济技术经济研究》** | [Journal-of-Quantitative-and-Technological-Economics-Skills/](Journal-of-Quantitative-and-Technological-Economics-Skills/) | 数量经济 | 13 |
+| <a href="Accounting-Research-Skills/"><img src="assets/covers/accounting-research.png" alt="《会计研究》" width="56"></a> | **《会计研究》** | [Accounting-Research-Skills/](Accounting-Research-Skills/) | 会计 | 13 |
+| <a href="China-Economic-Quarterly-Skills/"><img src="assets/covers/china-economic-quarterly.png" alt="《经济学(季刊)》" width="56"></a> | **《经济学(季刊)》** | [China-Economic-Quarterly-Skills/](China-Economic-Quarterly-Skills/) | 经济学 | 12 |
+| <a href="Journal-of-Financial-Research-Skills/"><img src="assets/covers/journal-of-financial-research.png" alt="《金融研究》" width="56"></a> | **《金融研究》** | [Journal-of-Financial-Research-Skills/](Journal-of-Financial-Research-Skills/) | 金融 | 12 |
+| <a href="Journal-of-World-Economy-Skills/"><img src="assets/covers/journal-of-world-economy.png" alt="《世界经济》" width="56"></a> | **《世界经济》** | [Journal-of-World-Economy-Skills/](Journal-of-World-Economy-Skills/) | 国际经济 | 12 |
+| <a href="Journal-of-Management-Sciences-in-China-Skills/"><img src="assets/covers/journal-of-management-sciences-china.png" alt="《管理科学学报》" width="56"></a> | **《管理科学学报》** | [Journal-of-Management-Sciences-in-China-Skills/](Journal-of-Management-Sciences-in-China-Skills/) | 管理科学 | 12 |
+| <a href="Nankai-Business-Review-Skills/"><img src="assets/covers/nankai-business-review.png" alt="《南开管理评论》" width="56"></a> | **《南开管理评论》** | [Nankai-Business-Review-Skills/](Nankai-Business-Review-Skills/) | 管理学 | 12 |
+| <a href="Sociological-Studies-Skills/"><img src="assets/covers/sociological-studies.png" alt="《社会学研究》" width="56"></a> | **《社会学研究》** | [Sociological-Studies-Skills/](Sociological-Studies-Skills/) | 社会学 | 12 |
+| <a href="China-Rural-Economy-Skills/"><img src="assets/covers/china-rural-economy.png" alt="《中国农村经济》" width="56"></a> | **《中国农村经济》** China Rural Economy | [China-Rural-Economy-Skills/](China-Rural-Economy-Skills/) | 农业与农村经济 | 12 |
+| <a href="Journal-of-Finance-and-Economics-Skills/"><img src="assets/covers/journal-of-finance-and-economics.png" alt="《财经研究》" width="56"></a> | **《财经研究》** Journal of Finance and Economics | [Journal-of-Finance-and-Economics-Skills/](Journal-of-Finance-and-Economics-Skills/) | 综合性经济与财经 | 12 |
+| <a href="Chinese-Public-Administration-Skills/"><img src="assets/covers/chinese-public-administration.png" alt="《中国行政管理》" width="56"></a> | **《中国行政管理》** Chinese Public Administration | [Chinese-Public-Administration-Skills/](Chinese-Public-Administration-Skills/) | 公共管理与治理 | 12 |
 
-### Social science · Chinese top journals — breadth bundle
+### 社会科学 · 中文顶刊 —— 广度合集
 
-| Bundle | Pack | Coverage | Skills |
-|--------|------|----------|-------:|
-| **102 Chinese social-science journal profiles** | [Chinese-SocialScience-Journal-Skills/](Chinese-SocialScience-Journal-Skills/) | 102 journal skills + 1 router | 103 |
+| 合集 | Pack | 覆盖 | 技能数 |
+|------|------|------|-------:|
+| **102 个中文社科期刊 profile** | [Chinese-SocialScience-Journal-Skills/](Chinese-SocialScience-Journal-Skills/) | 102 个期刊 skill + 1 个 router | 103 |
 
 <!-- COVER-GALLERY:cn-soc:START -->
-<p align="center"><sub>📚 <b>All 102 Chinese social-science journal covers</b> &mdash; grouped by discipline</sub></p>
+<p align="center"><sub>📚 <b>全部 102 本中文社科期刊封面</b> &mdash; 按学科分组</sub></p>
 
 <p align="center">
   <a href="Chinese-SocialScience-Journal-Skills/skills/economic-research/"><img src="assets/covers/economic-research.png" alt="《经济研究》" width="100"></a>
@@ -355,74 +355,74 @@ This bundle puts AI conferences first: NeurIPS, ICML, ICLR, AAAI, IJCAI, AISTATS
 </p>
 <!-- COVER-GALLERY:cn-soc:END -->
 
-### Social science · English top journals — depth packs
+### 社会科学 · 英文顶刊 —— 深度独立包
 
-| Icon | Venue | Pack | Discipline | Skills |
-|:----:|-------|------|------------|-------:|
-| <a href="https://github.com/brycewang-stanford/AER-skills"><img src="assets/covers/aer.png" alt="American Economic Review" width="56"></a> | **American Economic Review** + AER:Insights + AEJ family | [AER-skills](https://github.com/brycewang-stanford/AER-skills) | Economics (top-5) | 9 |
-| <a href="Quarterly-Journal-of-Economics-Skills/"><img src="assets/covers/quarterly-journal-of-economics.png" alt="Quarterly Journal of Economics" width="56"></a> | **Quarterly Journal of Economics** (QJE) | [Quarterly-Journal-of-Economics-Skills/](Quarterly-Journal-of-Economics-Skills/) | Economics (top-5) | 12 |
-| <a href="Journal-of-Political-Economy-Skills/"><img src="assets/covers/journal-of-political-economy.png" alt="Journal of Political Economy" width="56"></a> | **Journal of Political Economy** (JPE) | [Journal-of-Political-Economy-Skills/](Journal-of-Political-Economy-Skills/) | Economics (top-5) | 12 |
-| <a href="Econometrica-Skills/"><img src="assets/covers/econometrica.png" alt="Econometrica" width="56"></a> | **Econometrica** | [Econometrica-Skills/](Econometrica-Skills/) | Econometric & economic theory (top-5) | 12 |
-| <a href="Review-of-Economic-Studies-Skills/"><img src="assets/covers/review-of-economic-studies.png" alt="The Review of Economic Studies" width="56"></a> | **The Review of Economic Studies** (REStud) | [Review-of-Economic-Studies-Skills/](Review-of-Economic-Studies-Skills/) | Economics (top-5) | 12 |
-| <a href="Journal-of-Development-Economics-Skills/"><img src="assets/covers/journal-of-development-economics.png" alt="Journal of Development Economics" width="56"></a> | **Journal of Development Economics** (JDE) | [Journal-of-Development-Economics-Skills/](Journal-of-Development-Economics-Skills/) | Development economics | 12 |
-| <a href="Journal-of-Public-Economics-Skills/"><img src="assets/covers/journal-of-public-economics.png" alt="Journal of Public Economics" width="56"></a> | **Journal of Public Economics** (JPubE) | [Journal-of-Public-Economics-Skills/](Journal-of-Public-Economics-Skills/) | Public economics | 12 |
-| <a href="Journal-of-Labor-Economics-Skills/"><img src="assets/covers/journal-of-labor-economics.png" alt="Journal of Labor Economics" width="56"></a> | **Journal of Labor Economics** (JOLE) | [Journal-of-Labor-Economics-Skills/](Journal-of-Labor-Economics-Skills/) | Labor economics | 12 |
-| <a href="Journal-of-International-Economics-Skills/"><img src="assets/covers/journal-of-international-economics.png" alt="Journal of International Economics" width="56"></a> | **Journal of International Economics** (JIE) | [Journal-of-International-Economics-Skills/](Journal-of-International-Economics-Skills/) | International economics | 12 |
-| <a href="Journal-of-Monetary-Economics-Skills/"><img src="assets/covers/journal-of-monetary-economics.png" alt="Journal of Monetary Economics" width="56"></a> | **Journal of Monetary Economics** (JME) | [Journal-of-Monetary-Economics-Skills/](Journal-of-Monetary-Economics-Skills/) | Monetary economics and macroeconomics | 12 |
-| <a href="RAND-Journal-of-Economics-Skills/"><img src="assets/covers/rand-journal-of-economics.png" alt="RAND Journal of Economics" width="56"></a> | **RAND Journal of Economics** (RJE) | [RAND-Journal-of-Economics-Skills/](RAND-Journal-of-Economics-Skills/) | Industrial organization | 12 |
-| <a href="Journal-of-Econometrics-Skills/"><img src="assets/covers/journal-of-econometrics.png" alt="Journal of Econometrics" width="56"></a> | **Journal of Econometrics** (JoE) | [Journal-of-Econometrics-Skills/](Journal-of-Econometrics-Skills/) | Econometric methodology | 12 |
-| <a href="Econometric-Theory-Skills/"><img src="assets/covers/econometric-theory.png" alt="Econometric Theory" width="56"></a> | **Econometric Theory** (ET) | [Econometric-Theory-Skills/](Econometric-Theory-Skills/) | Econometric theory | 12 |
-| <a href="Quantitative-Economics-Skills/"><img src="assets/covers/quantitative-economics.png" alt="Quantitative Economics" width="56"></a> | **Quantitative Economics** (QE) | [Quantitative-Economics-Skills/](Quantitative-Economics-Skills/) | Quantitative economics | 12 |
-| <a href="Journal-of-Applied-Econometrics-Skills/"><img src="assets/covers/journal-of-applied-econometrics.png" alt="Journal of Applied Econometrics" width="56"></a> | **Journal of Applied Econometrics** (JAE) | [Journal-of-Applied-Econometrics-Skills/](Journal-of-Applied-Econometrics-Skills/) | Applied econometrics | 12 |
-| <a href="Journal-of-Business-and-Economic-Statistics-Skills/"><img src="assets/covers/journal-of-business-and-economic-statistics.png" alt="Journal of Business & Economic Statistics" width="56"></a> | **Journal of Business & Economic Statistics** (JBES) | [Journal-of-Business-and-Economic-Statistics-Skills/](Journal-of-Business-and-Economic-Statistics-Skills/) | Business and economic statistics | 12 |
-| <a href="The-Econometrics-Journal-Skills/"><img src="assets/covers/the-econometrics-journal.png" alt="The Econometrics Journal" width="56"></a> | **The Econometrics Journal** (EctJ) | [The-Econometrics-Journal-Skills/](The-Econometrics-Journal-Skills/) | Econometrics (RES/OUP) | 12 |
-| <a href="Review-of-Economic-Dynamics-Skills/"><img src="assets/covers/review-of-economic-dynamics.png" alt="Review of Economic Dynamics" width="56"></a> | **Review of Economic Dynamics** (RED) | [Review-of-Economic-Dynamics-Skills/](Review-of-Economic-Dynamics-Skills/) | Dynamic economics | 12 |
-| <a href="Journal-of-Economic-Growth-Skills/"><img src="assets/covers/journal-of-economic-growth.png" alt="Journal of Economic Growth" width="56"></a> | **Journal of Economic Growth** (JEG) | [Journal-of-Economic-Growth-Skills/](Journal-of-Economic-Growth-Skills/) | Growth and dynamic macroeconomics | 12 |
-| <a href="Journal-of-Economic-Theory-Skills/"><img src="assets/covers/journal-of-economic-theory.png" alt="Journal of Economic Theory" width="56"></a> | **Journal of Economic Theory** (JET) | [Journal-of-Economic-Theory-Skills/](Journal-of-Economic-Theory-Skills/) | Economic theory | 12 |
-| <a href="Games-and-Economic-Behavior-Skills/"><img src="assets/covers/games-and-economic-behavior.png" alt="Games and Economic Behavior" width="56"></a> | **Games and Economic Behavior** (GEB) | [Games-and-Economic-Behavior-Skills/](Games-and-Economic-Behavior-Skills/) | Game theory | 12 |
-| <a href="Journal-of-Human-Resources-Skills/"><img src="assets/covers/journal-of-human-resources.png" alt="Journal of Human Resources" width="56"></a> | **Journal of Human Resources** (JHR) | [Journal-of-Human-Resources-Skills/](Journal-of-Human-Resources-Skills/) | Empirical microeconomics | 12 |
-| <a href="Journal-of-Finance-Skills/"><img src="assets/covers/journal-of-finance.png" alt="The Journal of Finance" width="56"></a> | **The Journal of Finance** (JF) | [Journal-of-Finance-Skills/](Journal-of-Finance-Skills/) | Finance (top-3) | 12 |
-| <a href="Journal-of-Financial-Economics-Skills/"><img src="assets/covers/journal-of-financial-economics.png" alt="Journal of Financial Economics" width="56"></a> | **Journal of Financial Economics** (JFE) | [Journal-of-Financial-Economics-Skills/](Journal-of-Financial-Economics-Skills/) | Finance (top-3) | 12 |
-| <a href="Review-of-Financial-Studies-Skills/"><img src="assets/covers/review-of-financial-studies.png" alt="The Review of Financial Studies" width="56"></a> | **The Review of Financial Studies** (RFS) | [Review-of-Financial-Studies-Skills/](Review-of-Financial-Studies-Skills/) | Finance (top-3) | 12 |
-| <a href="Review-of-Finance-Skills/"><img src="assets/covers/review-of-finance.png" alt="Review of Finance" width="56"></a> | **Review of Finance** (RoF) | [Review-of-Finance-Skills/](Review-of-Finance-Skills/) | Finance | 12 |
-| <a href="Journal-of-Financial-and-Quantitative-Analysis-Skills/"><img src="assets/covers/journal-of-financial-and-quantitative-analysis.png" alt="Journal of Financial and Quantitative Analysis" width="56"></a> | **Journal of Financial and Quantitative Analysis** (JFQA) | [Journal-of-Financial-and-Quantitative-Analysis-Skills/](Journal-of-Financial-and-Quantitative-Analysis-Skills/) | Quantitative finance | 12 |
-| <a href="Journal-of-Financial-Intermediation-Skills/"><img src="assets/covers/journal-of-financial-intermediation.png" alt="Journal of Financial Intermediation" width="56"></a> | **Journal of Financial Intermediation** (JFI) | [Journal-of-Financial-Intermediation-Skills/](Journal-of-Financial-Intermediation-Skills/) | Banking and intermediation | 12 |
-| <a href="Journal-of-Corporate-Finance-Skills/"><img src="assets/covers/journal-of-corporate-finance.png" alt="Journal of Corporate Finance" width="56"></a> | **Journal of Corporate Finance** (JCF) | [Journal-of-Corporate-Finance-Skills/](Journal-of-Corporate-Finance-Skills/) | Corporate finance | 12 |
-| <a href="Journal-of-Banking-and-Finance-Skills/"><img src="assets/covers/journal-of-banking-and-finance.png" alt="Journal of Banking and Finance" width="56"></a> | **Journal of Banking & Finance** (JBF) | [Journal-of-Banking-and-Finance-Skills/](Journal-of-Banking-and-Finance-Skills/) | Banking and finance | 12 |
-| <a href="Mathematical-Finance-Skills/"><img src="assets/covers/mathematical-finance.png" alt="Mathematical Finance" width="56"></a> | **Mathematical Finance** | [Mathematical-Finance-Skills/](Mathematical-Finance-Skills/) | Financial mathematics | 12 |
-| <a href="Academy-of-Management-Journal-Skills/"><img src="assets/covers/academy-of-management-journal.png" alt="Academy of Management Journal" width="56"></a> | **Academy of Management Journal** (AMJ) | [Academy-of-Management-Journal-Skills/](Academy-of-Management-Journal-Skills/) | Management (empirical) | 12 |
-| <a href="Academy-of-Management-Review-Skills/"><img src="assets/covers/academy-of-management-review.png" alt="Academy of Management Review" width="56"></a> | **Academy of Management Review** (AMR) | [Academy-of-Management-Review-Skills/](Academy-of-Management-Review-Skills/) | Management theory | 12 |
-| <a href="Administrative-Science-Quarterly-Skills/"><img src="assets/covers/administrative-science-quarterly.png" alt="Administrative Science Quarterly" width="56"></a> | **Administrative Science Quarterly** (ASQ) | [Administrative-Science-Quarterly-Skills/](Administrative-Science-Quarterly-Skills/) | Organization theory | 12 |
-| <a href="Strategic-Management-Journal-Skills/"><img src="assets/covers/strategic-management-journal.png" alt="Strategic Management Journal" width="56"></a> | **Strategic Management Journal** (SMJ) | [Strategic-Management-Journal-Skills/](Strategic-Management-Journal-Skills/) | Strategy | 12 |
-| <a href="Management-Science-Skills/"><img src="assets/covers/management-science.png" alt="Management Science" width="56"></a> | **Management Science** | [Management-Science-Skills/](Management-Science-Skills/) | Management science / INFORMS | 12 |
-| <a href="Operations-Research-Skills/"><img src="assets/covers/operations-research.png" alt="Operations Research" width="56"></a> | **Operations Research** (OR) | [Operations-Research-Skills/](Operations-Research-Skills/) | Operations research | 12 |
-| <a href="Manufacturing-and-Service-Operations-Management-Skills/"><img src="assets/covers/manufacturing-and-service-operations-management.png" alt="Manufacturing & Service Operations Management" width="56"></a> | **Manufacturing & Service Operations Management** (M&SOM) | [Manufacturing-and-Service-Operations-Management-Skills/](Manufacturing-and-Service-Operations-Management-Skills/) | Operations management | 12 |
-| <a href="Journal-of-Operations-Management-Skills/"><img src="assets/covers/journal-of-operations-management.png" alt="Journal of Operations Management" width="56"></a> | **Journal of Operations Management** (JOM) | [Journal-of-Operations-Management-Skills/](Journal-of-Operations-Management-Skills/) | Empirical operations management | 12 |
-| <a href="Production-and-Operations-Management-Skills/"><img src="assets/covers/production-and-operations-management.png" alt="Production and Operations Management" width="56"></a> | **Production and Operations Management** (POM) | [Production-and-Operations-Management-Skills/](Production-and-Operations-Management-Skills/) | Operations management | 12 |
-| <a href="Journal-of-Marketing-Skills/"><img src="assets/covers/journal-of-marketing.png" alt="Journal of Marketing" width="56"></a> | **Journal of Marketing** (JM) | [Journal-of-Marketing-Skills/](Journal-of-Marketing-Skills/) | Marketing | 12 |
-| <a href="Journal-of-Marketing-Research-Skills/"><img src="assets/covers/journal-of-marketing-research.png" alt="Journal of Marketing Research" width="56"></a> | **Journal of Marketing Research** (JMR) | [Journal-of-Marketing-Research-Skills/](Journal-of-Marketing-Research-Skills/) | Marketing research | 12 |
-| <a href="Marketing-Science-Skills/"><img src="assets/covers/marketing-science.png" alt="Marketing Science" width="56"></a> | **Marketing Science** | [Marketing-Science-Skills/](Marketing-Science-Skills/) | Quantitative marketing | 12 |
-| <a href="Journal-of-Consumer-Research-Skills/"><img src="assets/covers/journal-of-consumer-research.png" alt="Journal of Consumer Research" width="56"></a> | **Journal of Consumer Research** (JCR) | [Journal-of-Consumer-Research-Skills/](Journal-of-Consumer-Research-Skills/) | Consumer research | 12 |
-| <a href="MIS-Quarterly-Skills/"><img src="assets/covers/mis-quarterly.png" alt="MIS Quarterly" width="56"></a> | **MIS Quarterly** (MISQ) | [MIS-Quarterly-Skills/](MIS-Quarterly-Skills/) | Information systems | 12 |
-| <a href="Information-Systems-Research-Skills/"><img src="assets/covers/information-systems-research.png" alt="Information Systems Research" width="56"></a> | **Information Systems Research** (ISR) | [Information-Systems-Research-Skills/](Information-Systems-Research-Skills/) | Information systems | 12 |
-| <a href="The-Accounting-Review-Skills/"><img src="assets/covers/the-accounting-review.png" alt="The Accounting Review" width="56"></a> | **The Accounting Review** (TAR) | [The-Accounting-Review-Skills/](The-Accounting-Review-Skills/) | Accounting | 12 |
-| <a href="Journal-of-Accounting-Research-Skills/"><img src="assets/covers/journal-of-accounting-research.png" alt="Journal of Accounting Research" width="56"></a> | **Journal of Accounting Research** (JAR) | [Journal-of-Accounting-Research-Skills/](Journal-of-Accounting-Research-Skills/) | Accounting | 12 |
-| <a href="Journal-of-Accounting-and-Economics-Skills/"><img src="assets/covers/journal-of-accounting-and-economics.png" alt="Journal of Accounting and Economics" width="56"></a> | **Journal of Accounting and Economics** (JAE) | [Journal-of-Accounting-and-Economics-Skills/](Journal-of-Accounting-and-Economics-Skills/) | Accounting | 12 |
-| <a href="Contemporary-Accounting-Research-Skills/"><img src="assets/covers/contemporary-accounting-research.png" alt="Contemporary Accounting Research" width="56"></a> | **Contemporary Accounting Research** (CAR) | [Contemporary-Accounting-Research-Skills/](Contemporary-Accounting-Research-Skills/) | Accounting | 12 |
-| <a href="Organization-Science-Skills/"><img src="assets/covers/organization-science.png" alt="Organization Science" width="56"></a> | **Organization Science** | [Organization-Science-Skills/](Organization-Science-Skills/) | Organization theory | 12 |
-| <a href="Journal-of-International-Business-Studies-Skills/"><img src="assets/covers/journal-of-international-business-studies.png" alt="Journal of International Business Studies" width="56"></a> | **Journal of International Business Studies** (JIBS) | [Journal-of-International-Business-Studies-Skills/](Journal-of-International-Business-Studies-Skills/) | International business | 12 |
-| <a href="Journal-of-Business-Venturing-Skills/"><img src="assets/covers/journal-of-business-venturing.png" alt="Journal of Business Venturing" width="56"></a> | **Journal of Business Venturing** (JBV) | [Journal-of-Business-Venturing-Skills/](Journal-of-Business-Venturing-Skills/) | Entrepreneurship | 12 |
+| 封面 | 期刊 | Pack | 学科 | 技能数 |
+|:----:|------|------|------|-------:|
+| <a href="https://github.com/brycewang-stanford/AER-skills"><img src="assets/covers/aer.png" alt="American Economic Review" width="56"></a> | **American Economic Review** + AER:Insights + AEJ 系列 | [AER-skills](https://github.com/brycewang-stanford/AER-skills) | 经济学（Top-5） | 9 |
+| <a href="Quarterly-Journal-of-Economics-Skills/"><img src="assets/covers/quarterly-journal-of-economics.png" alt="Quarterly Journal of Economics" width="56"></a> | **Quarterly Journal of Economics** (QJE) | [Quarterly-Journal-of-Economics-Skills/](Quarterly-Journal-of-Economics-Skills/) | 经济学（Top-5） | 12 |
+| <a href="Journal-of-Political-Economy-Skills/"><img src="assets/covers/journal-of-political-economy.png" alt="Journal of Political Economy" width="56"></a> | **Journal of Political Economy** (JPE) | [Journal-of-Political-Economy-Skills/](Journal-of-Political-Economy-Skills/) | 经济学（Top-5） | 12 |
+| <a href="Econometrica-Skills/"><img src="assets/covers/econometrica.png" alt="Econometrica" width="56"></a> | **Econometrica** | [Econometrica-Skills/](Econometrica-Skills/) | 计量与经济理论（Top-5） | 12 |
+| <a href="Review-of-Economic-Studies-Skills/"><img src="assets/covers/review-of-economic-studies.png" alt="The Review of Economic Studies" width="56"></a> | **The Review of Economic Studies** (REStud) | [Review-of-Economic-Studies-Skills/](Review-of-Economic-Studies-Skills/) | 经济学（Top-5） | 12 |
+| <a href="Journal-of-Development-Economics-Skills/"><img src="assets/covers/journal-of-development-economics.png" alt="Journal of Development Economics" width="56"></a> | **Journal of Development Economics** (JDE) | [Journal-of-Development-Economics-Skills/](Journal-of-Development-Economics-Skills/) | 发展经济学 | 12 |
+| <a href="Journal-of-Public-Economics-Skills/"><img src="assets/covers/journal-of-public-economics.png" alt="Journal of Public Economics" width="56"></a> | **Journal of Public Economics** (JPubE) | [Journal-of-Public-Economics-Skills/](Journal-of-Public-Economics-Skills/) | 公共经济学 | 12 |
+| <a href="Journal-of-Labor-Economics-Skills/"><img src="assets/covers/journal-of-labor-economics.png" alt="Journal of Labor Economics" width="56"></a> | **Journal of Labor Economics** (JOLE) | [Journal-of-Labor-Economics-Skills/](Journal-of-Labor-Economics-Skills/) | 劳动经济学 | 12 |
+| <a href="Journal-of-International-Economics-Skills/"><img src="assets/covers/journal-of-international-economics.png" alt="Journal of International Economics" width="56"></a> | **Journal of International Economics** (JIE) | [Journal-of-International-Economics-Skills/](Journal-of-International-Economics-Skills/) | 国际经济学 | 12 |
+| <a href="Journal-of-Monetary-Economics-Skills/"><img src="assets/covers/journal-of-monetary-economics.png" alt="Journal of Monetary Economics" width="56"></a> | **Journal of Monetary Economics** (JME) | [Journal-of-Monetary-Economics-Skills/](Journal-of-Monetary-Economics-Skills/) | 货币经济学与宏观经济学 | 12 |
+| <a href="RAND-Journal-of-Economics-Skills/"><img src="assets/covers/rand-journal-of-economics.png" alt="RAND Journal of Economics" width="56"></a> | **RAND Journal of Economics** (RJE) | [RAND-Journal-of-Economics-Skills/](RAND-Journal-of-Economics-Skills/) | 产业组织 | 12 |
+| <a href="Journal-of-Econometrics-Skills/"><img src="assets/covers/journal-of-econometrics.png" alt="Journal of Econometrics" width="56"></a> | **Journal of Econometrics** (JoE) | [Journal-of-Econometrics-Skills/](Journal-of-Econometrics-Skills/) | 计量经济学方法 | 12 |
+| <a href="Econometric-Theory-Skills/"><img src="assets/covers/econometric-theory.png" alt="Econometric Theory" width="56"></a> | **Econometric Theory** (ET) | [Econometric-Theory-Skills/](Econometric-Theory-Skills/) | 计量经济学理论 | 12 |
+| <a href="Quantitative-Economics-Skills/"><img src="assets/covers/quantitative-economics.png" alt="Quantitative Economics" width="56"></a> | **Quantitative Economics** (QE) | [Quantitative-Economics-Skills/](Quantitative-Economics-Skills/) | 数量经济学 | 12 |
+| <a href="Journal-of-Applied-Econometrics-Skills/"><img src="assets/covers/journal-of-applied-econometrics.png" alt="Journal of Applied Econometrics" width="56"></a> | **Journal of Applied Econometrics** (JAE) | [Journal-of-Applied-Econometrics-Skills/](Journal-of-Applied-Econometrics-Skills/) | 应用计量经济学 | 12 |
+| <a href="Journal-of-Business-and-Economic-Statistics-Skills/"><img src="assets/covers/journal-of-business-and-economic-statistics.png" alt="Journal of Business & Economic Statistics" width="56"></a> | **Journal of Business & Economic Statistics** (JBES) | [Journal-of-Business-and-Economic-Statistics-Skills/](Journal-of-Business-and-Economic-Statistics-Skills/) | 商业与经济统计 | 12 |
+| <a href="The-Econometrics-Journal-Skills/"><img src="assets/covers/the-econometrics-journal.png" alt="The Econometrics Journal" width="56"></a> | **The Econometrics Journal** (EctJ) | [The-Econometrics-Journal-Skills/](The-Econometrics-Journal-Skills/) | 计量经济学（RES/OUP） | 12 |
+| <a href="Review-of-Economic-Dynamics-Skills/"><img src="assets/covers/review-of-economic-dynamics.png" alt="Review of Economic Dynamics" width="56"></a> | **Review of Economic Dynamics** (RED) | [Review-of-Economic-Dynamics-Skills/](Review-of-Economic-Dynamics-Skills/) | 动态经济学 | 12 |
+| <a href="Journal-of-Economic-Growth-Skills/"><img src="assets/covers/journal-of-economic-growth.png" alt="Journal of Economic Growth" width="56"></a> | **Journal of Economic Growth** (JEG) | [Journal-of-Economic-Growth-Skills/](Journal-of-Economic-Growth-Skills/) | 增长与动态宏观经济学 | 12 |
+| <a href="Journal-of-Economic-Theory-Skills/"><img src="assets/covers/journal-of-economic-theory.png" alt="Journal of Economic Theory" width="56"></a> | **Journal of Economic Theory** (JET) | [Journal-of-Economic-Theory-Skills/](Journal-of-Economic-Theory-Skills/) | 经济理论 | 12 |
+| <a href="Games-and-Economic-Behavior-Skills/"><img src="assets/covers/games-and-economic-behavior.png" alt="Games and Economic Behavior" width="56"></a> | **Games and Economic Behavior** (GEB) | [Games-and-Economic-Behavior-Skills/](Games-and-Economic-Behavior-Skills/) | 博弈论 | 12 |
+| <a href="Journal-of-Human-Resources-Skills/"><img src="assets/covers/journal-of-human-resources.png" alt="Journal of Human Resources" width="56"></a> | **Journal of Human Resources** (JHR) | [Journal-of-Human-Resources-Skills/](Journal-of-Human-Resources-Skills/) | 实证微观经济学 | 12 |
+| <a href="Journal-of-Finance-Skills/"><img src="assets/covers/journal-of-finance.png" alt="The Journal of Finance" width="56"></a> | **The Journal of Finance** (JF) | [Journal-of-Finance-Skills/](Journal-of-Finance-Skills/) | 金融（Top-3） | 12 |
+| <a href="Journal-of-Financial-Economics-Skills/"><img src="assets/covers/journal-of-financial-economics.png" alt="Journal of Financial Economics" width="56"></a> | **Journal of Financial Economics** (JFE) | [Journal-of-Financial-Economics-Skills/](Journal-of-Financial-Economics-Skills/) | 金融（Top-3） | 12 |
+| <a href="Review-of-Financial-Studies-Skills/"><img src="assets/covers/review-of-financial-studies.png" alt="The Review of Financial Studies" width="56"></a> | **The Review of Financial Studies** (RFS) | [Review-of-Financial-Studies-Skills/](Review-of-Financial-Studies-Skills/) | 金融（Top-3） | 12 |
+| <a href="Review-of-Finance-Skills/"><img src="assets/covers/review-of-finance.png" alt="Review of Finance" width="56"></a> | **Review of Finance** (RoF) | [Review-of-Finance-Skills/](Review-of-Finance-Skills/) | 金融 | 12 |
+| <a href="Journal-of-Financial-and-Quantitative-Analysis-Skills/"><img src="assets/covers/journal-of-financial-and-quantitative-analysis.png" alt="Journal of Financial and Quantitative Analysis" width="56"></a> | **Journal of Financial and Quantitative Analysis** (JFQA) | [Journal-of-Financial-and-Quantitative-Analysis-Skills/](Journal-of-Financial-and-Quantitative-Analysis-Skills/) | 数量金融 | 12 |
+| <a href="Journal-of-Financial-Intermediation-Skills/"><img src="assets/covers/journal-of-financial-intermediation.png" alt="Journal of Financial Intermediation" width="56"></a> | **Journal of Financial Intermediation** (JFI) | [Journal-of-Financial-Intermediation-Skills/](Journal-of-Financial-Intermediation-Skills/) | 银行与金融中介 | 12 |
+| <a href="Journal-of-Corporate-Finance-Skills/"><img src="assets/covers/journal-of-corporate-finance.png" alt="Journal of Corporate Finance" width="56"></a> | **Journal of Corporate Finance** (JCF) | [Journal-of-Corporate-Finance-Skills/](Journal-of-Corporate-Finance-Skills/) | 公司金融 | 12 |
+| <a href="Journal-of-Banking-and-Finance-Skills/"><img src="assets/covers/journal-of-banking-and-finance.png" alt="Journal of Banking and Finance" width="56"></a> | **Journal of Banking & Finance** (JBF) | [Journal-of-Banking-and-Finance-Skills/](Journal-of-Banking-and-Finance-Skills/) | 银行与金融 | 12 |
+| <a href="Mathematical-Finance-Skills/"><img src="assets/covers/mathematical-finance.png" alt="Mathematical Finance" width="56"></a> | **Mathematical Finance** | [Mathematical-Finance-Skills/](Mathematical-Finance-Skills/) | 金融数学 | 12 |
+| <a href="Academy-of-Management-Journal-Skills/"><img src="assets/covers/academy-of-management-journal.png" alt="Academy of Management Journal" width="56"></a> | **Academy of Management Journal** (AMJ) | [Academy-of-Management-Journal-Skills/](Academy-of-Management-Journal-Skills/) | 管理学（实证） | 12 |
+| <a href="Academy-of-Management-Review-Skills/"><img src="assets/covers/academy-of-management-review.png" alt="Academy of Management Review" width="56"></a> | **Academy of Management Review** (AMR) | [Academy-of-Management-Review-Skills/](Academy-of-Management-Review-Skills/) | 管理学理论 | 12 |
+| <a href="Administrative-Science-Quarterly-Skills/"><img src="assets/covers/administrative-science-quarterly.png" alt="Administrative Science Quarterly" width="56"></a> | **Administrative Science Quarterly** (ASQ) | [Administrative-Science-Quarterly-Skills/](Administrative-Science-Quarterly-Skills/) | 组织理论 | 12 |
+| <a href="Strategic-Management-Journal-Skills/"><img src="assets/covers/strategic-management-journal.png" alt="Strategic Management Journal" width="56"></a> | **Strategic Management Journal** (SMJ) | [Strategic-Management-Journal-Skills/](Strategic-Management-Journal-Skills/) | 战略管理 | 12 |
+| <a href="Management-Science-Skills/"><img src="assets/covers/management-science.png" alt="Management Science" width="56"></a> | **Management Science** | [Management-Science-Skills/](Management-Science-Skills/) | 管理科学 / INFORMS | 12 |
+| <a href="Operations-Research-Skills/"><img src="assets/covers/operations-research.png" alt="Operations Research" width="56"></a> | **Operations Research** (OR) | [Operations-Research-Skills/](Operations-Research-Skills/) | 运筹学 | 12 |
+| <a href="Manufacturing-and-Service-Operations-Management-Skills/"><img src="assets/covers/manufacturing-and-service-operations-management.png" alt="Manufacturing & Service Operations Management" width="56"></a> | **Manufacturing & Service Operations Management** (M&SOM) | [Manufacturing-and-Service-Operations-Management-Skills/](Manufacturing-and-Service-Operations-Management-Skills/) | 运营管理 | 12 |
+| <a href="Journal-of-Operations-Management-Skills/"><img src="assets/covers/journal-of-operations-management.png" alt="Journal of Operations Management" width="56"></a> | **Journal of Operations Management** (JOM) | [Journal-of-Operations-Management-Skills/](Journal-of-Operations-Management-Skills/) | 实证运营管理 | 12 |
+| <a href="Production-and-Operations-Management-Skills/"><img src="assets/covers/production-and-operations-management.png" alt="Production and Operations Management" width="56"></a> | **Production and Operations Management** (POM) | [Production-and-Operations-Management-Skills/](Production-and-Operations-Management-Skills/) | 运营管理 | 12 |
+| <a href="Journal-of-Marketing-Skills/"><img src="assets/covers/journal-of-marketing.png" alt="Journal of Marketing" width="56"></a> | **Journal of Marketing** (JM) | [Journal-of-Marketing-Skills/](Journal-of-Marketing-Skills/) | 营销学 | 12 |
+| <a href="Journal-of-Marketing-Research-Skills/"><img src="assets/covers/journal-of-marketing-research.png" alt="Journal of Marketing Research" width="56"></a> | **Journal of Marketing Research** (JMR) | [Journal-of-Marketing-Research-Skills/](Journal-of-Marketing-Research-Skills/) | 营销研究 | 12 |
+| <a href="Marketing-Science-Skills/"><img src="assets/covers/marketing-science.png" alt="Marketing Science" width="56"></a> | **Marketing Science** | [Marketing-Science-Skills/](Marketing-Science-Skills/) | 数量营销 | 12 |
+| <a href="Journal-of-Consumer-Research-Skills/"><img src="assets/covers/journal-of-consumer-research.png" alt="Journal of Consumer Research" width="56"></a> | **Journal of Consumer Research** (JCR) | [Journal-of-Consumer-Research-Skills/](Journal-of-Consumer-Research-Skills/) | 消费者研究 | 12 |
+| <a href="MIS-Quarterly-Skills/"><img src="assets/covers/mis-quarterly.png" alt="MIS Quarterly" width="56"></a> | **MIS Quarterly** (MISQ) | [MIS-Quarterly-Skills/](MIS-Quarterly-Skills/) | 信息系统 | 12 |
+| <a href="Information-Systems-Research-Skills/"><img src="assets/covers/information-systems-research.png" alt="Information Systems Research" width="56"></a> | **Information Systems Research** (ISR) | [Information-Systems-Research-Skills/](Information-Systems-Research-Skills/) | 信息系统 | 12 |
+| <a href="The-Accounting-Review-Skills/"><img src="assets/covers/the-accounting-review.png" alt="The Accounting Review" width="56"></a> | **The Accounting Review** (TAR) | [The-Accounting-Review-Skills/](The-Accounting-Review-Skills/) | 会计学 | 12 |
+| <a href="Journal-of-Accounting-Research-Skills/"><img src="assets/covers/journal-of-accounting-research.png" alt="Journal of Accounting Research" width="56"></a> | **Journal of Accounting Research** (JAR) | [Journal-of-Accounting-Research-Skills/](Journal-of-Accounting-Research-Skills/) | 会计学 | 12 |
+| <a href="Journal-of-Accounting-and-Economics-Skills/"><img src="assets/covers/journal-of-accounting-and-economics.png" alt="Journal of Accounting and Economics" width="56"></a> | **Journal of Accounting and Economics** (JAE) | [Journal-of-Accounting-and-Economics-Skills/](Journal-of-Accounting-and-Economics-Skills/) | 会计学 | 12 |
+| <a href="Contemporary-Accounting-Research-Skills/"><img src="assets/covers/contemporary-accounting-research.png" alt="Contemporary Accounting Research" width="56"></a> | **Contemporary Accounting Research** (CAR) | [Contemporary-Accounting-Research-Skills/](Contemporary-Accounting-Research-Skills/) | 会计学 | 12 |
+| <a href="Organization-Science-Skills/"><img src="assets/covers/organization-science.png" alt="Organization Science" width="56"></a> | **Organization Science** | [Organization-Science-Skills/](Organization-Science-Skills/) | 组织理论 | 12 |
+| <a href="Journal-of-International-Business-Studies-Skills/"><img src="assets/covers/journal-of-international-business-studies.png" alt="Journal of International Business Studies" width="56"></a> | **Journal of International Business Studies** (JIBS) | [Journal-of-International-Business-Studies-Skills/](Journal-of-International-Business-Studies-Skills/) | 国际商务 | 12 |
+| <a href="Journal-of-Business-Venturing-Skills/"><img src="assets/covers/journal-of-business-venturing.png" alt="Journal of Business Venturing" width="56"></a> | **Journal of Business Venturing** (JBV) | [Journal-of-Business-Venturing-Skills/](Journal-of-Business-Venturing-Skills/) | 创业学 | 12 |
 
-### Social science · English top journals — breadth bundle
+### 社会科学 · 英文顶刊 —— 广度合集
 
-| Bundle | Pack | Coverage | Skills |
-|--------|------|----------|-------:|
-| **100 English econ/management roadmap journals** | [English-SocialScience-Journal-Skills/](English-SocialScience-Journal-Skills/) | one fit-and-house-style skill per journal + `en-journal-workflow` router | 101 |
+| 合集 | Pack | 覆盖 | 技能数 |
+|------|------|------|-------:|
+| **100 本英文经管路线图期刊** | [English-SocialScience-Journal-Skills/](English-SocialScience-Journal-Skills/) | 一刊一个“选刊定位 + 写作风格”技能 + `en-journal-workflow` 路由 | 101 |
 
-This bundle covers the full English roadmap below: Economics 50 · Finance 13 · Management/Strategy/Org 15 · Marketing 6 · Accounting 6 · Operations & Information Systems 10. Like the Chinese breadth bundle, each profile is a venue-selection / re-framing tool that defers volatile facts (impact factors, fees, word limits) to a per-journal official-submission re-check.
+该合集覆盖下方完整英文路线图：经济学 50 · 金融 13 · 管理/战略/组织 15 · 营销 6 · 会计 6 · 运营与信息系统 10。与中文广度合集一致，每个 profile 都是“选刊 / 改写框架”工具，并把易变事实（影响因子、版面费、字数限制）交由单刊“官方核验清单”在投稿前重新核对。
 
 <!-- COVER-GALLERY:en-soc:START -->
-<p align="center"><sub>📚 <b>All 100 English social-science journal covers</b> &mdash; grouped by discipline</sub></p>
+<p align="center"><sub>📚 <b>全部 100 本英文社科期刊封面</b> &mdash; 按学科分组</sub></p>
 
 <p align="center">
   <a href="English-SocialScience-Journal-Skills/skills/american-economic-review/"><img src="assets/covers/american-economic-review.png" alt="《American Economic Review》" width="100"></a>
@@ -528,33 +528,33 @@ This bundle covers the full English roadmap below: Economics 50 · Finance 13 ·
 </p>
 <!-- COVER-GALLERY:en-soc:END -->
 
-### Natural sciences · English top journals — depth packs
+### 自然科学 · 英文顶刊 —— 深度独立包
 
-| Icon | Venue | Pack | Discipline | Skills |
-|:----:|-------|------|------------|-------:|
-| <a href="Science-Skills/"><img src="assets/covers/science.png" alt="Science (AAAS)" width="56"></a> | **Science** (AAAS) | [Science-Skills/](Science-Skills/) | Multidisciplinary (natural sciences) | 12 |
-| <a href="Cell-Skills/"><img src="assets/covers/cell.png" alt="Cell (Cell Press)" width="56"></a> | **Cell** (Cell Press) | [Cell-Skills/](Cell-Skills/) | Life sciences / molecular biology | 12 |
-| <a href="PNAS-Skills/"><img src="assets/covers/pnas.png" alt="PNAS" width="56"></a> | **PNAS** | [PNAS-Skills/](PNAS-Skills/) | Multidisciplinary (bio / phys / social) | 12 |
-| <a href="NEJM-Skills/"><img src="assets/covers/nejm.png" alt="NEJM — New England Journal of Medicine" width="56"></a> | **NEJM** New England Journal of Medicine | [NEJM-Skills/](NEJM-Skills/) | Clinical medicine | 12 |
-| <a href="Lancet-Skills/"><img src="assets/covers/lancet.png" alt="The Lancet" width="56"></a> | **The Lancet** | [Lancet-Skills/](Lancet-Skills/) | Clinical medicine / global health | 12 |
-| <a href="JAMA-Skills/"><img src="assets/covers/jama.png" alt="JAMA" width="56"></a> | **JAMA** (J. of the American Medical Association) | [JAMA-Skills/](JAMA-Skills/) | Clinical medicine | 12 |
-| <a href="Cancer-Cell-Skills/"><img src="assets/covers/cancer-cell.png" alt="Cancer Cell" width="56"></a> | **Cancer Cell** (Cell Press) | [Cancer-Cell-Skills/](Cancer-Cell-Skills/) | Oncology / molecular biology | 12 |
-| <a href="Physical-Review-Letters-Skills/"><img src="assets/covers/physical-review-letters.png" alt="Physical Review Letters" width="56"></a> | **Physical Review Letters** (PRL) | [Physical-Review-Letters-Skills/](Physical-Review-Letters-Skills/) | Physics (letters) | 12 |
-| <a href="Journal-of-the-American-Chemical-Society-Skills/"><img src="assets/covers/journal-of-the-american-chemical-society.png" alt="Journal of the American Chemical Society" width="56"></a> | **J. of the American Chemical Society** (JACS) | [Journal-of-the-American-Chemical-Society-Skills/](Journal-of-the-American-Chemical-Society-Skills/) | Chemistry | 12 |
-| <a href="Annals-of-Mathematics-Skills/"><img src="assets/covers/annals-of-mathematics.png" alt="Annals of Mathematics" width="56"></a> | **Annals of Mathematics** | [Annals-of-Mathematics-Skills/](Annals-of-Mathematics-Skills/) | Pure mathematics | 12 |
+| 封面 | 期刊 | Pack | 学科 | 技能数 |
+|:----:|------|------|------|-------:|
+| <a href="Science-Skills/"><img src="assets/covers/science.png" alt="Science (AAAS)" width="56"></a> | **Science**（AAAS） | [Science-Skills/](Science-Skills/) | 综合（自然科学） | 12 |
+| <a href="Cell-Skills/"><img src="assets/covers/cell.png" alt="Cell (Cell Press)" width="56"></a> | **Cell**（Cell Press） | [Cell-Skills/](Cell-Skills/) | 生命科学 / 分子生物 | 12 |
+| <a href="PNAS-Skills/"><img src="assets/covers/pnas.png" alt="PNAS" width="56"></a> | **PNAS** | [PNAS-Skills/](PNAS-Skills/) | 综合（生物 / 物理 / 社科） | 12 |
+| <a href="NEJM-Skills/"><img src="assets/covers/nejm.png" alt="NEJM 新英格兰医学杂志" width="56"></a> | **NEJM** 新英格兰医学杂志 | [NEJM-Skills/](NEJM-Skills/) | 临床医学 | 12 |
+| <a href="Lancet-Skills/"><img src="assets/covers/lancet.png" alt="The Lancet 柳叶刀" width="56"></a> | **The Lancet** 柳叶刀 | [Lancet-Skills/](Lancet-Skills/) | 临床医学 / 全球健康 | 12 |
+| <a href="JAMA-Skills/"><img src="assets/covers/jama.png" alt="JAMA" width="56"></a> | **JAMA** 美国医学会杂志 | [JAMA-Skills/](JAMA-Skills/) | 临床医学 | 12 |
+| <a href="Cancer-Cell-Skills/"><img src="assets/covers/cancer-cell.png" alt="Cancer Cell" width="56"></a> | **Cancer Cell**（Cell Press） | [Cancer-Cell-Skills/](Cancer-Cell-Skills/) | 肿瘤 / 分子生物学 | 12 |
+| <a href="Physical-Review-Letters-Skills/"><img src="assets/covers/physical-review-letters.png" alt="Physical Review Letters" width="56"></a> | **Physical Review Letters** (PRL) | [Physical-Review-Letters-Skills/](Physical-Review-Letters-Skills/) | 物理（快报） | 12 |
+| <a href="Journal-of-the-American-Chemical-Society-Skills/"><img src="assets/covers/journal-of-the-american-chemical-society.png" alt="Journal of the American Chemical Society" width="56"></a> | **J. of the American Chemical Society** (JACS) | [Journal-of-the-American-Chemical-Society-Skills/](Journal-of-the-American-Chemical-Society-Skills/) | 化学 | 12 |
+| <a href="Annals-of-Mathematics-Skills/"><img src="assets/covers/annals-of-mathematics.png" alt="Annals of Mathematics" width="56"></a> | **Annals of Mathematics** | [Annals-of-Mathematics-Skills/](Annals-of-Mathematics-Skills/) | 纯数学 | 12 |
 
-Each natural-science pack is opinionated by venue: Science encodes the one-sentence summary and broad-significance desk filter; Cell encodes STAR Methods + the Key Resources Table and the Highlights/eTOC/graphical-abstract trio; PNAS encodes the ≤120-word Significance Statement and the Direct/Contributed submission tracks; NEJM and The Lancet encode trial registration, CONSORT/STROBE/PRISMA reporting, structured clinical abstracts, ICMJE ethics/disclosures, and (for The Lancet) the *Research in context* panel.
+每个自然科学包都按刊定制：Science 编码"一句话总结"与广泛意义初筛；Cell 编码 STAR Methods + Key Resources Table 以及 Highlights/eTOC/图形摘要三件套；PNAS 编码 ≤120 词的 Significance Statement 与 Direct/Contributed 投稿通道；NEJM 与 The Lancet 编码试验注册、CONSORT/STROBE/PRISMA 报告规范、结构化临床摘要、ICMJE 伦理与利益声明，以及（柳叶刀的）*Research in context* 面板。
 
-### Natural sciences · English top journals — breadth bundle
+### 自然科学 · 英文顶刊 —— 广度合集
 
-| Bundle | Pack | Coverage | Skills |
-|--------|------|----------|-------:|
-| **100 English natural-science / clinical / physical / formal-science journals** | [English-NaturalScience-Journal-Skills/](English-NaturalScience-Journal-Skills/) | one fit-and-house-style skill per journal + `en-natsci-journal-workflow` router | 101 |
+| 合集 | Pack | 覆盖 | 技能数 |
+|------|------|------|-------:|
+| **100 本英文自然科学 / 临床 / 物理 / 形式科学期刊** | [English-NaturalScience-Journal-Skills/](English-NaturalScience-Journal-Skills/) | 一刊一个“选刊定位 + 写作风格”技能 + `en-natsci-journal-workflow` 路由 | 101 |
 
-This bundle is the natural-science sibling of the English social-science breadth bundle — the "other 100": General & multidisciplinary 7 · Cell/molecular/genome biology 16 · Ecology/evolution/plant 5 · Immunology/microbiology/experimental medicine 4 · Open-access & genomics 3 · Neuroscience & behaviour 4 · Clinical general 7 · Clinical specialty 11 · Translational & cancer 4 · Physics 9 · Astronomy 3 · Chemistry 10 · Materials & energy 5 · Earth/environment/climate 5 · CS/AI/engineering 4 · Mathematics 3. Like the other breadth bundles, each profile defers volatile facts (impact factors, fees, word/figure limits) to a per-journal official-submission re-check, and for clinical venues to the applicable reporting guideline (CONSORT/PRISMA/STROBE/ARRIVE).
+这是英文经管广度合集的自然科学姊妹包——“另一个 100”：综合/多学科 7 · 细胞/分子/基因组生物学 16 · 生态/演化/植物 5 · 免疫/微生物/实验医学 4 · 开放获取与基因组学 3 · 神经科学与行为 4 · 临床综合 7 · 临床专科 11 · 转化与肿瘤 4 · 物理 9 · 天文 3 · 化学 10 · 材料与能源 5 · 地球/环境/气候 5 · CS/AI/工程 4 · 数学 3。与其它广度合集一致，每个 profile 都把易变事实（影响因子、版面费、字数/图数限制）交由单刊“官方核验清单”在投稿前重新核对；临床类还需核对适用报告规范（CONSORT/PRISMA/STROBE/ARRIVE）。
 
 <!-- COVER-GALLERY:en-nat:START -->
-<p align="center"><sub>📚 <b>All 100 English natural-science journal covers</b> &mdash; grouped by discipline</sub></p>
+<p align="center"><sub>📚 <b>全部 100 本英文自然科学期刊封面</b> &mdash; 按学科分组</sub></p>
 
 <p align="center">
   <a href="English-NaturalScience-Journal-Skills/skills/nature/"><img src="assets/covers/nature.png" alt="《Nature》" width="100"></a>
@@ -660,126 +660,126 @@ This bundle is the natural-science sibling of the English social-science breadth
 </p>
 <!-- COVER-GALLERY:en-nat:END -->
 
-### Natural sciences · English top journals — third-party, curated
+### 自然科学 · 英文顶刊 —— 第三方收录
 
-| Venue | Repository | Discipline | Status |
-|-------|------------|------------|--------|
-| **Nature** (academic writing + scientific figures) | [nature-skills](https://github.com/Yuan1z0825/nature-skills) | Natural sciences (Nature family) | upstream |
-| **Nature-style manuscripts** (draft · revise · audit · resubmit) | [Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) | Natural sciences (Nature family) | upstream |
+| 期刊 | 仓库 | 学科 | 状态 |
+|------|------|------|------|
+| **Nature**（学术表达 + 科研绘图） | [nature-skills](https://github.com/Yuan1z0825/nature-skills) | 自然科学（Nature 系） | upstream |
+| **Nature 风格手稿**（起草 · 修改 · 审计 · 重投） | [Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) | 自然科学（Nature 系） | upstream |
 
-### General research toolkits — third-party, curated
+### 通用研究工具 —— 第三方收录
 
-| Pack | Repository | Scope | Status |
-|------|------------|-------|--------|
-| **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | Ideation → writing → publication (Claude Code / OpenCode / Codex) | upstream |
-| **Codex/Claude Academic Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | Reading · writing · scientific computing | upstream |
+| Pack | 仓库 | 范围 | 状态 |
+|------|------|------|------|
+| **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | 选题 → 写作 → 发表（Claude Code / OpenCode / Codex） | upstream |
+| **Codex/Claude 学术 Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | 阅读 · 写作 · 科学计算 | upstream |
 
-<sub><b>Count methodology.</b> The homepage <b>1600</b> = every <code>SKILL.md</code> minus the 10 duplicated Nature plugin-mirror files. All four breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation: 181 (15 CN depth packs) + 660 (55 EN social-science depth packs) + 120 (10 natural-science depth packs) + 72 (NeurIPS + ICML + ICLR + AAAI + IJCAI + AISTATS CS/AI depth packs) + 103 (CN bundle) + 101 (EN social-science bundle: 100 journals + 1 router) + 101 (EN natural-science bundle: 100 journals + 1 router) + 156 (CS conference bundle: 155 conferences + 1 router) + 9 (AER) + 28 (Nature family) + 69 (toolkits) = 1600.</sub>
+<sub><b>计数口径。</b> 首页 <b>1600</b> = 仓库内全部 <code>SKILL.md</code> 减去 10 个 Nature 插件镜像重复文件。四个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。对账：181（15 个中文深度包）+ 660（55 个英文社科深度包）+ 120（10 个自然科学深度包）+ 72（NeurIPS + ICML + ICLR + AAAI + IJCAI + AISTATS CS/AI 深度包）+ 103（中文合集）+ 101（英文经管合集：100 本期刊 + 1 路由）+ 101（英文自然科学合集：100 本期刊 + 1 路由）+ 156（CS 会议合集：155 个会议 + 1 路由）+ 9（AER）+ 28（Nature 系）+ 69（通用工具）= 1600。</sub>
 
 ---
 
-## Repository Layout
+## 仓库结构
 
-This repo combines **in-repo folder packs** (the China flagship depth packs and the breadth bundle, authored and maintained here) with **git submodules** pinned to upstream repos (AER plus the third-party packs). A scheduled GitHub Action ([`.github/workflows/sync-submodules.yml`](.github/workflows/sync-submodules.yml)) bumps the submodule pins to the latest upstream `main` daily.
+本仓库由两类 pack 组成：**仓库内目录包**（中文重点期刊深度包与广度合集，在本仓库内编写维护）与 **git submodule**（AER 及第三方包，指向各自上游）。每天通过 GitHub Actions（[`.github/workflows/sync-submodules.yml`](.github/workflows/sync-submodules.yml)）自动把 submodule 指针 bump 到上游 `main` 最新提交。
 
-The root also includes **200 lightweight journal entry folders** for visual browsing: 100 Chinese roadmap journals in pinyin (`Jingji-Yanjiu/`, `Guanli-Shijie/`, …) and 100 English econ/business journals (`American-Economic-Review/`, `Journal-of-Finance/`, …). These folders contain only navigation READMEs; installable `SKILL.md` files remain in the canonical bundle paths below.
+根目录还额外提供 **200 个轻量期刊入口文件夹**，用于首页浏览冲击力：100 本中文经管路线图期刊使用拼音目录名（`Jingji-Yanjiu/`、`Guanli-Shijie/` 等），100 本英文经管 / 商科期刊使用英文题名目录名（`American-Economic-Review/`、`Journal-of-Finance/` 等）。这些目录只放导航 README；真正可安装的 `SKILL.md` 仍保留在下方 canonical bundle 路径里。
 
 ```text
 awesome-journal-skills/
-│   # Root-level journal entry folders (navigation aliases, no SKILL.md)
-├── Jingji-Yanjiu/                 → 《经济研究》 root entry
-├── Guanli-Shijie/                 → 《管理世界》 root entry
-├── American-Economic-Review/      → American Economic Review root entry
-├── Journal-of-Finance/            → Journal of Finance root entry
-├── ...                            → 196 more root journal entry folders
-│   # In-repo folder packs (first-party, authored / maintained here)
-├── Economic-Research-Journal-Skills/      → 《经济研究》 (12 skills)
-├── Journal-of-Management-World-Skills/    → 《管理世界》 (11 skills)
-├── Social-Sciences-in-China-Skills/       → 《中国社会科学》 (11 skills)
-├── China-Economic-Quarterly-Skills/       → 《经济学(季刊)》 (12 skills)
-├── Journal-of-World-Economy-Skills/       → 《世界经济》 (12 skills)
-├── Journal-of-Financial-Research-Skills/  → 《金融研究》 (12 skills)
-├── China-Industrial-Economics-Skills/     → 《中国工业经济》 (13 skills)
-├── Journal-of-Management-Sciences-in-China-Skills/  → 《管理科学学报》 (12 skills)
-├── Nankai-Business-Review-Skills/         → 《南开管理评论》 (12 skills)
-├── Accounting-Research-Skills/            → 《会计研究》 (13 skills)
-├── Sociological-Studies-Skills/           → 《社会学研究》 (12 skills)
-├── Journal-of-Quantitative-and-Technological-Economics-Skills/  → 《数量经济技术经济研究》 (13 skills)
-├── China-Rural-Economy-Skills/            → 《中国农村经济》 (12 skills)
-├── Journal-of-Finance-and-Economics-Skills/  → 《财经研究》 (12 skills)
-├── Chinese-Public-Administration-Skills/  → 《中国行政管理》 (12 skills)
-│   # English social-science depth packs (first-party, authored / maintained here)
-├── Quarterly-Journal-of-Economics-Skills/ → Quarterly Journal of Economics (12 skills)
-├── Journal-of-Political-Economy-Skills/   → Journal of Political Economy (12 skills)
-├── Econometrica-Skills/                   → Econometrica (12 skills)
-├── Review-of-Economic-Studies-Skills/     → Review of Economic Studies (12 skills)
-├── Journal-of-Econometrics-Skills/        → Journal of Econometrics (12 skills)
-├── Econometric-Theory-Skills/             → Econometric Theory (12 skills)
-├── Quantitative-Economics-Skills/         → Quantitative Economics (12 skills)
-├── Journal-of-Applied-Econometrics-Skills/  → Journal of Applied Econometrics (12 skills)
-├── Journal-of-Business-and-Economic-Statistics-Skills/  → JBES (12 skills)
-├── The-Econometrics-Journal-Skills/       → The Econometrics Journal (12 skills)
-├── Review-of-Economic-Dynamics-Skills/    → Review of Economic Dynamics (12 skills)
-├── Journal-of-Finance-Skills/             → The Journal of Finance (12 skills)
-├── Journal-of-Financial-Economics-Skills/ → Journal of Financial Economics (12 skills)
-├── Review-of-Financial-Studies-Skills/    → The Review of Financial Studies (12 skills)
-├── Review-of-Finance-Skills/              → Review of Finance (12 skills)
-├── Journal-of-Financial-and-Quantitative-Analysis-Skills/  → JFQA (12 skills)
-├── Journal-of-Financial-Intermediation-Skills/  → Journal of Financial Intermediation (12 skills)
-├── Journal-of-Corporate-Finance-Skills/   → Journal of Corporate Finance (12 skills)
-├── Academy-of-Management-Journal-Skills/  → Academy of Management Journal (12 skills)
-├── Academy-of-Management-Review-Skills/   → Academy of Management Review (12 skills)
-├── Administrative-Science-Quarterly-Skills/  → Administrative Science Quarterly (12 skills)
-├── Strategic-Management-Journal-Skills/   → Strategic Management Journal (12 skills)
-├── Management-Science-Skills/             → Management Science (12 skills)
-├── Operations-Research-Skills/            → Operations Research (12 skills)
-├── Manufacturing-and-Service-Operations-Management-Skills/  → M&SOM (12 skills)
-├── Journal-of-Operations-Management-Skills/  → Journal of Operations Management (12 skills)
-├── Production-and-Operations-Management-Skills/  → Production and Operations Management (12 skills)
-├── Journal-of-Marketing-Skills/           → Journal of Marketing (12 skills)
-├── Journal-of-Marketing-Research-Skills/  → Journal of Marketing Research (12 skills)
-├── Marketing-Science-Skills/              → Marketing Science (12 skills)
-├── Journal-of-Consumer-Research-Skills/   → Journal of Consumer Research (12 skills)
-├── MIS-Quarterly-Skills/                  → MIS Quarterly (12 skills)
-├── Information-Systems-Research-Skills/   → Information Systems Research (12 skills)
-├── The-Accounting-Review-Skills/          → The Accounting Review (12 skills)
-├── Journal-of-Accounting-Research-Skills/ → Journal of Accounting Research (12 skills)
-├── Journal-of-Accounting-and-Economics-Skills/  → Journal of Accounting and Economics (12 skills)
-├── Contemporary-Accounting-Research-Skills/  → Contemporary Accounting Research (12 skills)
-├── Organization-Science-Skills/           → Organization Science (12 skills)
-├── Journal-of-International-Business-Studies-Skills/  → JIBS (12 skills)
-├── Journal-of-Business-Venturing-Skills/  → Journal of Business Venturing (12 skills)
-├── Chinese-SocialScience-Journal-Skills/  → CN breadth bundle, 102 journal profiles + router (103 skills)
-├── English-SocialScience-Journal-Skills/  → EN econ/business breadth bundle, 100-journal fit skills + router (101 skills)
-├── English-NaturalScience-Journal-Skills/ → EN natural-science breadth bundle, 100-journal fit skills + router (101 skills)
-│   # CS/AI conference depth packs (first-party, authored / maintained here)
-├── AAAI-Skills/                   → AAAI main technical track (12 skills)
-├── AISTATS-Skills/                → AISTATS main conference (12 skills)
-├── IJCAI-Skills/                  → IJCAI main track (12 skills)
-├── NeurIPS-Skills/                → NeurIPS main track (12 skills)
-├── ICML-Skills/                   → ICML main track (12 skills)
-├── ICLR-Skills/                   → ICLR main conference (12 skills)
-│   # Natural-science & clinical depth packs (first-party, authored / maintained here)
-├── Science-Skills/                → Science (AAAS) (12 skills)
-├── Cell-Skills/                   → Cell (Cell Press) (12 skills)
-├── PNAS-Skills/                   → PNAS (12 skills)
-├── NEJM-Skills/                   → New England Journal of Medicine (12 skills)
-├── Lancet-Skills/                 → The Lancet (12 skills)
-├── JAMA-Skills/                   → JAMA (12 skills)
-├── Cancer-Cell-Skills/            → Cancer Cell (12 skills)
-├── Physical-Review-Letters-Skills/  → Physical Review Letters (12 skills)
-├── Journal-of-the-American-Chemical-Society-Skills/  → JACS (12 skills)
-├── Annals-of-Mathematics-Skills/  → Annals of Mathematics (12 skills)
-│   # Git submodules (pinned to upstream, auto-synced daily)
-├── AER-skills/                    → submodule of brycewang-stanford/AER-skills
-├── nature-skills/                 → submodule of Yuan1z0825/nature-skills (third-party)
-├── nature-paper-skills/           → submodule of Boom5426/Nature-Paper-Skills (third-party)
-├── claude-scholar/                → submodule of Galaxy-Dawn/claude-scholar (third-party)
-├── codex-claude-academic-skills/  → submodule of zLanqing/codex-claude-academic-skills (third-party)
+│   # 根目录期刊入口（navigation alias，不含 SKILL.md）
+├── Jingji-Yanjiu/                 → 《经济研究》根目录入口
+├── Guanli-Shijie/                 → 《管理世界》根目录入口
+├── American-Economic-Review/      → American Economic Review 根目录入口
+├── Journal-of-Finance/            → Journal of Finance 根目录入口
+├── ...                            → 其余 196 个根目录期刊入口
+│   # 仓库内目录包（first-party，在本仓库内编写维护）
+├── Economic-Research-Journal-Skills/      → 《经济研究》（12 skills）
+├── Journal-of-Management-World-Skills/    → 《管理世界》（11 skills）
+├── Social-Sciences-in-China-Skills/       → 《中国社会科学》（11 skills）
+├── China-Economic-Quarterly-Skills/       → 《经济学(季刊)》（12 skills）
+├── Journal-of-World-Economy-Skills/       → 《世界经济》（12 skills）
+├── Journal-of-Financial-Research-Skills/  → 《金融研究》（12 skills）
+├── China-Industrial-Economics-Skills/     → 《中国工业经济》（13 skills）
+├── Journal-of-Management-Sciences-in-China-Skills/  → 《管理科学学报》（12 skills）
+├── Nankai-Business-Review-Skills/         → 《南开管理评论》（12 skills）
+├── Accounting-Research-Skills/            → 《会计研究》（13 skills）
+├── Sociological-Studies-Skills/           → 《社会学研究》（12 skills）
+├── Journal-of-Quantitative-and-Technological-Economics-Skills/  → 《数量经济技术经济研究》（13 skills）
+├── China-Rural-Economy-Skills/            → 《中国农村经济》（12 skills）
+├── Journal-of-Finance-and-Economics-Skills/  → 《财经研究》（12 skills）
+├── Chinese-Public-Administration-Skills/  → 《中国行政管理》（12 skills）
+│   # 英文社科深度包（本仓库内编写维护）
+├── Quarterly-Journal-of-Economics-Skills/ → Quarterly Journal of Economics（12 skills）
+├── Journal-of-Political-Economy-Skills/   → Journal of Political Economy（12 skills）
+├── Econometrica-Skills/                   → Econometrica（12 skills）
+├── Review-of-Economic-Studies-Skills/     → Review of Economic Studies（12 skills）
+├── Journal-of-Econometrics-Skills/        → Journal of Econometrics（12 skills）
+├── Econometric-Theory-Skills/             → Econometric Theory（12 skills）
+├── Quantitative-Economics-Skills/         → Quantitative Economics（12 skills）
+├── Journal-of-Applied-Econometrics-Skills/  → Journal of Applied Econometrics（12 skills）
+├── Journal-of-Business-and-Economic-Statistics-Skills/  → JBES（12 skills）
+├── The-Econometrics-Journal-Skills/       → The Econometrics Journal（12 skills）
+├── Review-of-Economic-Dynamics-Skills/    → Review of Economic Dynamics（12 skills）
+├── Journal-of-Finance-Skills/             → The Journal of Finance（12 skills）
+├── Journal-of-Financial-Economics-Skills/ → Journal of Financial Economics（12 skills）
+├── Review-of-Financial-Studies-Skills/    → The Review of Financial Studies（12 skills）
+├── Review-of-Finance-Skills/              → Review of Finance（12 skills）
+├── Journal-of-Financial-and-Quantitative-Analysis-Skills/  → JFQA（12 skills）
+├── Journal-of-Financial-Intermediation-Skills/  → Journal of Financial Intermediation（12 skills）
+├── Journal-of-Corporate-Finance-Skills/   → Journal of Corporate Finance（12 skills）
+├── Academy-of-Management-Journal-Skills/  → Academy of Management Journal（12 skills）
+├── Academy-of-Management-Review-Skills/   → Academy of Management Review（12 skills）
+├── Administrative-Science-Quarterly-Skills/  → Administrative Science Quarterly（12 skills）
+├── Strategic-Management-Journal-Skills/   → Strategic Management Journal（12 skills）
+├── Management-Science-Skills/             → Management Science（12 skills）
+├── Operations-Research-Skills/            → Operations Research（12 skills）
+├── Manufacturing-and-Service-Operations-Management-Skills/  → M&SOM（12 skills）
+├── Journal-of-Operations-Management-Skills/  → Journal of Operations Management（12 skills）
+├── Production-and-Operations-Management-Skills/  → Production and Operations Management（12 skills）
+├── Journal-of-Marketing-Skills/           → Journal of Marketing（12 skills）
+├── Journal-of-Marketing-Research-Skills/  → Journal of Marketing Research（12 skills）
+├── Marketing-Science-Skills/              → Marketing Science（12 skills）
+├── Journal-of-Consumer-Research-Skills/   → Journal of Consumer Research（12 skills）
+├── MIS-Quarterly-Skills/                  → MIS Quarterly（12 skills）
+├── Information-Systems-Research-Skills/   → Information Systems Research（12 skills）
+├── The-Accounting-Review-Skills/          → The Accounting Review（12 skills）
+├── Journal-of-Accounting-Research-Skills/ → Journal of Accounting Research（12 skills）
+├── Journal-of-Accounting-and-Economics-Skills/  → Journal of Accounting and Economics（12 skills）
+├── Contemporary-Accounting-Research-Skills/  → Contemporary Accounting Research（12 skills）
+├── Organization-Science-Skills/           → Organization Science（12 skills）
+├── Journal-of-International-Business-Studies-Skills/  → JIBS（12 skills）
+├── Journal-of-Business-Venturing-Skills/  → Journal of Business Venturing（12 skills）
+├── Chinese-SocialScience-Journal-Skills/  → 中文广度合集，102 个期刊 profile + router（103 skills）
+├── English-SocialScience-Journal-Skills/  → 英文经管广度合集，100 本期刊 fit 技能 + 路由（101 skills）
+├── English-NaturalScience-Journal-Skills/ → 英文自然科学广度合集，100 本期刊 fit 技能 + 路由（101 skills）
+│   # CS/AI 会议深度包（本仓库内编写维护）
+├── AAAI-Skills/                   → AAAI 主技术轨（12 skills）
+├── AISTATS-Skills/                → AISTATS 主会（12 skills）
+├── IJCAI-Skills/                  → IJCAI 主会（12 skills）
+├── NeurIPS-Skills/                → NeurIPS 主会（12 skills）
+├── ICML-Skills/                   → ICML 主会（12 skills）
+├── ICLR-Skills/                   → ICLR 主会（12 skills）
+│   # 自然科学与临床深度包（本仓库内编写维护）
+├── Science-Skills/                → Science（AAAS）（12 skills）
+├── Cell-Skills/                   → Cell（Cell Press）（12 skills）
+├── PNAS-Skills/                   → PNAS（12 skills）
+├── NEJM-Skills/                   → 新英格兰医学杂志（12 skills）
+├── Lancet-Skills/                 → 柳叶刀 The Lancet（12 skills）
+├── JAMA-Skills/                   → JAMA 美国医学会杂志（12 skills）
+├── Cancer-Cell-Skills/            → Cancer Cell（12 skills）
+├── Physical-Review-Letters-Skills/  → Physical Review Letters（12 skills）
+├── Journal-of-the-American-Chemical-Society-Skills/  → JACS（12 skills）
+├── Annals-of-Mathematics-Skills/  → Annals of Mathematics（12 skills）
+│   # git submodule（指向上游，每日自动同步）
+├── AER-skills/                    → submodule: brycewang-stanford/AER-skills
+├── nature-skills/                 → submodule: Yuan1z0825/nature-skills（第三方收录）
+├── nature-paper-skills/           → submodule: Boom5426/Nature-Paper-Skills（第三方收录）
+├── claude-scholar/                → submodule: Galaxy-Dawn/claude-scholar（第三方收录）
+├── codex-claude-academic-skills/  → submodule: zLanqing/codex-claude-academic-skills（第三方收录）
 └── .github/workflows/sync-submodules.yml
 ```
 
-Clone with first-level submodules populated:
+克隆并拉取一级 submodule：
 
 ```bash
 git clone https://github.com/brycewang-stanford/awesome-journal-skills.git
@@ -787,9 +787,9 @@ cd awesome-journal-skills
 git submodule update --init
 ```
 
-This repo only depends on its first-level submodules. Avoid recursive submodule initialization unless an imported upstream explicitly asks for it.
+本仓库只依赖一级 submodule。除非某个上游收录包明确要求，否则不要递归初始化嵌套 submodule。
 
-Pull latest pack content locally at any time:
+随时手动拉取最新 pack 内容：
 
 ```bash
 git submodule update --remote --merge
@@ -797,11 +797,11 @@ git submodule update --remote --merge
 
 ---
 
-## How to Use
+## 如何使用
 
-### Option A — Claude Code Plugin (recommended)
+### 方式 A —— Claude Code 插件（推荐）
 
-For each pack you want:
+按需安装：
 
 ```bash
 # AER
@@ -819,7 +819,7 @@ For each pack you want:
 /reload-plugins
 ```
 
-### Option B — Manual Copy
+### 方式 B —— 手动拷贝
 
 ```bash
 git clone https://github.com/brycewang-stanford/AER-skills.git
@@ -832,66 +832,65 @@ cp -R management-world-skills/skills/mw-* ~/.claude/skills/
 cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 ```
 
-### First Prompt
+### 第一条 Prompt
 
 ```
-Use aer-workflow (or mw-workflow / er-workflow) to tell me which skill I should
-use next for my manuscript targeted at <journal>.
+用 aer-workflow（或 mw-workflow / er-workflow）告诉我这份目标[期刊]的稿子下一步该做什么。
 ```
 
 ---
 
-## Pack-Selection Cheat Sheet
+## Pack 选择速查
 
-| Your manuscript looks like…                            | Use this pack                |
-|--------------------------------------------------------|------------------------------|
-| Causal-identification empirical paper aimed at top-5 econ | `AER-skills`                |
-| AI / ML / CS conference paper needing venue routing    | `Computer-Science-Conference-Skills` |
-| China-context empirical paper with policy actionability   | `management-world-skills`   |
-| China-context paper with theoretical grounding            | `Economic-Research-Journal-Skills`  |
+| 你的稿子是…                                  | 用这个 pack                  |
+|------------------------------------------|---------------------------|
+| 因果识别为主的实证文章，目标 top-5 经济学           | `AER-skills`              |
+| AI / ML / CS 会议论文，需要先选会和定位              | `Computer-Science-Conference-Skills` |
+| 中国情境实证 + 政策可操作                          | `management-world-skills` |
+| 中国情境 + 理论贡献突出                            | `Economic-Research-Journal-Skills`|
 
 ---
 
-## Roadmap
+## 路线图
 
-**Status:** the four breadth bundles are fully shipped, including the new AI-first CS conference bundle, **and the prioritized depth-pack upgrades from the previous roadmap are now complete**. The Roadmap now tracks the next tier of expansion.
+**进度：** 四个广度合集已全部落地，其中包括新的 AI 优先 CS 会议合集，**且上一版路线图列出的优先深度包升级现已全部完成**。路线图现在聚焦下一梯队的扩展。
 
-### ✅ Shipped
+### ✅ 已落地
 
-- **Four breadth bundles** — one fit-and-house-style ("venue selection + house style") skill per venue:
-  - [Computer-Science-Conference-Skills](Computer-Science-Conference-Skills/) — 155 computer-science conference profiles + `cs-ai-conference-workflow`, starting with NeurIPS / ICML / ICLR / AAAI / IJCAI
-  - [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) — 102 Chinese social-science journal profiles
-  - [English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) — 100 English econ / finance / management / accounting / marketing / OM / IS journals
-  - [English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) — 100 English natural-science / clinical / physical / formal-science journals
-- **Per-journal cover cards** for every breadth journal, always-expanded cover galleries in both READMEs, and 200 lightweight root entry folders for repo-front browsing.
-- **Full 12-step depth packs** — 83 first-party venue packs across all four areas (AER and Nature additionally ship as curated submodule packs):
-  - **English economics:** AER (submodule) · QJE · JPE · Econometrica · REStud · Journal of Development Economics · Journal of Public Economics · Journal of Labor Economics · Journal of International Economics · Journal of Monetary Economics · RAND Journal of Economics · Journal of Econometrics · Econometric Theory · Quantitative Economics · Journal of Applied Econometrics · JBES · The Econometrics Journal · Review of Economic Dynamics · Journal of Economic Growth · Journal of Economic Theory · Games and Economic Behavior · Journal of Human Resources
-  - **English finance:** Journal of Finance · Journal of Financial Economics · Review of Financial Studies · Review of Finance · JFQA · JFI · Journal of Corporate Finance · Journal of Banking & Finance · Mathematical Finance
-  - **English management / OM / IS:** AMJ · AMR · ASQ · SMJ · Organization Science · JIBS · JBV · Management Science · Operations Research · M&SOM · JOM · POM · MISQ · ISR
-  - **English marketing / consumer research:** JM · JMR · Marketing Science · JCR
-  - **English accounting:** TAR · JAR · JAE · CAR
-  - **English natural science:** Science · Cell · PNAS · NEJM · The Lancet · JAMA · Cancer Cell · Physical Review Letters · JACS · Annals of Mathematics (plus Nature as a curated pack)
-  - **CS/AI conferences:** NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS
-  - **Chinese flagships (15):** 经济研究 · 经济学（季刊）· 中国工业经济 · 世界经济 · 金融研究 · 数量经济技术经济研究 · 管理世界 · 管理科学学报 · 南开管理评论 · 会计研究 · 中国社会科学 · 社会学研究 · 中国农村经济 · 财经研究 · 中国行政管理
+- **四个广度合集** —— 每个 venue 一个“选刊/选会定位 + 写作风格”技能：
+  - [Computer-Science-Conference-Skills](Computer-Science-Conference-Skills/) —— 155 个计算机科学会议 profile + `cs-ai-conference-workflow`，以 NeurIPS / ICML / ICLR / AAAI / IJCAI 开头
+  - [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) —— 102 个中文社科期刊 profile
+  - [English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) —— 100 本英文经济 / 金融 / 管理 / 会计 / 营销 / 运营 / 信息系统期刊
+  - [English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) —— 100 本英文自然科学 / 临床 / 物理 / 形式科学期刊
+- **每刊封面卡** 覆盖全部广度期刊，两份 README 内嵌默认展开的封面画廊，并提供 200 个根目录轻量入口文件夹便于首页浏览。
+- **单刊/单会全流程深度包（12 步）** —— 83 个仓库内自有 venue 包，覆盖四大板块（AER 与 Nature 另以收录/submodule 包形态提供）：
+  - **英文经济学：** AER（submodule）· QJE · JPE · Econometrica · REStud · Journal of Development Economics · Journal of Public Economics · Journal of Labor Economics · Journal of International Economics · Journal of Monetary Economics · RAND Journal of Economics · Journal of Econometrics · Econometric Theory · Quantitative Economics · Journal of Applied Econometrics · JBES · The Econometrics Journal · Review of Economic Dynamics · Journal of Economic Growth · Journal of Economic Theory · Games and Economic Behavior · Journal of Human Resources
+  - **英文金融：** Journal of Finance · Journal of Financial Economics · Review of Financial Studies · Review of Finance · JFQA · JFI · Journal of Corporate Finance · Journal of Banking & Finance · Mathematical Finance
+  - **英文管理 / 运营 / 信息系统：** AMJ · AMR · ASQ · SMJ · Organization Science · JIBS · JBV · Management Science · Operations Research · M&SOM · JOM · POM · MISQ · ISR
+  - **英文营销 / 消费者研究：** JM · JMR · Marketing Science · JCR
+  - **英文会计：** TAR · JAR · JAE · CAR
+  - **英文自然科学：** Science · Cell · PNAS · NEJM · The Lancet · JAMA · Cancer Cell · Physical Review Letters · JACS · Annals of Mathematics（另收录 Nature 包）
+  - **CS/AI 会议：** NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS
+  - **中文重点刊（15）：** 经济研究 · 经济学（季刊）· 中国工业经济 · 世界经济 · 金融研究 · 数量经济技术经济研究 · 管理世界 · 管理科学学报 · 南开管理评论 · 会计研究 · 中国社会科学 · 社会学研究 · 中国农村经济 · 财经研究 · 中国行政管理
 
-### 🚧 Pending — next expansion
+### 🚧 待办 —— 下一梯队扩展
 
-The previous roadmap's prioritized depth-pack candidates have all shipped. Open candidates for the next tier:
+上一版路线图的优先深度包候选已全部落地。下一梯队的待选项：
 
-- **Remaining English marketing & accounting depth packs:** JPP&M / JIM / JAMS; Accounting, Organizations and Society / Review of Accounting Studies.
-- **More subject-flagship natural science** beyond the current set (additional Cell Press / Nature Portfolio sub-journals; discipline leaders in earth science and materials).
-- **More Chinese flagships** beyond the current 15 (additional CSSCI / FMS high-quality venues, by demand).
+- **剩余英文营销与会计深度包：** JPP&M / JIM / JAMS；Accounting, Organizations and Society / Review of Accounting Studies。
+- **更多学科旗舰自然科学刊**（在现有基础上扩展：Cell Press / Nature 子刊家族，以及地球科学、材料领域的学科领头刊）。
+- **更多中文重点刊**（在现有 15 本之外，按需求扩展 CSSCI / FMS 高质量期刊）。
 
-Open an issue to upvote a venue for depth-pack treatment, or PR to add one.
+希望优先把某本升级为深度包，请提 issue 或 PR 补充。
 
-Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journals.all.html) (econ), [FT50](https://guides.lib.purdue.edu/ft50) + [UTD24](https://jsom.utdallas.edu/the-utd-top-100-business-school-research-rankings/list-of-journals) + [ABS AJG 2024](https://charteredabs.org/academic-journal-guide/academic-journal-guide-2024) (business); [CSSCI 2023–2024 来源期刊目录](https://rwskc.zust.edu.cn/__local/C/2D/AB/B2AE8C5DC9C1A75618611EE3F00_2F8A1CF6_3DC4D.pdf) + [FMS 高质量期刊 2025 版](https://www.fms-journal.net/news/2720) (中文).
+数据来源：[RePEc / IDEAS 经济学聚合排名](https://ideas.repec.org/top/top.journals.all.html)、[FT50](https://guides.lib.purdue.edu/ft50) + [UTD24](https://jsom.utdallas.edu/the-utd-top-100-business-school-research-rankings/list-of-journals) + [ABS AJG 2024](https://charteredabs.org/academic-journal-guide/academic-journal-guide-2024)、[CSSCI 2023–2024 来源期刊目录](https://rwskc.zust.edu.cn/__local/C/2D/AB/B2AE8C5DC9C1A75618611EE3F00_2F8A1CF6_3DC4D.pdf) + [FMS 高质量期刊 2025 版](https://www.fms-journal.net/news/2720)。
 
-### Covered venues — all shipped as breadth profiles
+### 收录期刊 —— 均已以广度合集形态落地
 
 <details>
-<summary><b>English — 100 econ &amp; management journals</b> &mdash; click to expand</summary>
+<summary><b>英文 —— 经管主流 100 本</b>（点击展开）</summary>
 
-#### Economics (50)
+#### 经济学 Economics (50)
 
 1. American Economic Review (AER)
 2. Quarterly Journal of Economics (QJE)
@@ -944,7 +943,7 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 49. Journal of Economic Behavior & Organization (JEBO)
 50. Journal of Economic Geography
 
-#### Finance (13)
+#### 金融 Finance (13)
 
 1. Journal of Finance (JF)
 2. Journal of Financial Economics (JFE)
@@ -960,7 +959,7 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 12. Journal of Empirical Finance (JEF)
 13. Financial Management
 
-#### Management / Strategy / Organization (15)
+#### 管理 / 战略 / 组织 Management (15)
 
 1. Academy of Management Journal (AMJ)
 2. Academy of Management Review (AMR)
@@ -978,7 +977,7 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 14. Journal of Business Venturing (JBV)
 15. Entrepreneurship Theory and Practice (ETP)
 
-#### Marketing & Consumer (6)
+#### 营销 Marketing (6)
 
 1. Journal of Marketing (JM)
 2. Journal of Marketing Research (JMR)
@@ -987,7 +986,7 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 5. Journal of Consumer Psychology (JCP)
 6. Journal of the Academy of Marketing Science (JAMS)
 
-#### Accounting (6)
+#### 会计 Accounting (6)
 
 1. The Accounting Review (TAR)
 2. Journal of Accounting Research (JAR)
@@ -996,7 +995,7 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 5. Contemporary Accounting Research (CAR)
 6. Accounting, Organizations and Society (AOS)
 
-#### Operations Management & Information Systems (10)
+#### 运营管理与信息系统 OM & IS (10)
 
 1. Management Science
 2. Operations Research (OR)
@@ -1012,9 +1011,9 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 </details>
 
 <details>
-<summary><b>English — 100 natural-science / clinical / physical / formal-science journals</b> &mdash; click to expand</summary>
+<summary><b>英文 —— 自然科学 / 临床 / 物理 / 形式科学 100 本</b>（点击展开）</summary>
 
-#### General science (7)
+#### 综合 General science (7)
 
 1. Nature
 2. Science
@@ -1024,7 +1023,7 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 6. National Science Review
 7. The Innovation
 
-#### Life sciences (17)
+#### 生命科学 Life sciences (17)
 
 1. Cell
 2. Molecular Cell
@@ -1044,13 +1043,13 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 16. eLife
 17. Cell Metabolism
 
-#### Ecology & evolution (3)
+#### 生态与进化 Ecology & evolution (3)
 
 1. Ecology Letters
 2. Nature Ecology & Evolution
 3. Molecular Biology and Evolution
 
-#### Immunology & microbiology (6)
+#### 免疫与微生物 Immunology & microbiology (6)
 
 1. Immunity
 2. Nature Immunology
@@ -1059,7 +1058,7 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 5. Journal of Experimental Medicine
 6. Science Immunology
 
-#### Neuroscience & behaviour (5)
+#### 神经与行为 Neuroscience & behaviour (5)
 
 1. Neuron
 2. Nature Neuroscience
@@ -1067,7 +1066,7 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 4. Molecular Psychiatry
 5. Nature Human Behaviour
 
-#### Clinical medicine (18)
+#### 临床医学 Clinical medicine (18)
 
 1. The New England Journal of Medicine (NEJM)
 2. The Lancet
@@ -1088,7 +1087,7 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 17. The Lancet Neurology
 18. Journal of Clinical Investigation (JCI)
 
-#### Oncology (5)
+#### 肿瘤 Oncology (5)
 
 1. Cancer Cell
 2. Cancer Discovery
@@ -1096,7 +1095,7 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 4. CA: A Cancer Journal for Clinicians
 5. The Lancet Oncology
 
-#### Physics (9)
+#### 物理 Physics (9)
 
 1. Physical Review Letters (PRL)
 2. Physical Review B
@@ -1108,13 +1107,13 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 8. Nature Photonics
 9. PRX Quantum
 
-#### Astronomy & astrophysics (3)
+#### 天文与天体物理 Astronomy & astrophysics (3)
 
 1. The Astrophysical Journal (ApJ)
 2. Monthly Notices of the Royal Astronomical Society (MNRAS)
 3. Nature Astronomy
 
-#### Chemistry (9)
+#### 化学 Chemistry (9)
 
 1. Journal of the American Chemical Society (JACS)
 2. Angewandte Chemie International Edition
@@ -1126,7 +1125,7 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 8. Chem
 9. ACS Nano
 
-#### Materials & energy (6)
+#### 材料与能源 Materials & energy (6)
 
 1. Advanced Materials
 2. Nature Materials
@@ -1135,7 +1134,7 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 5. Joule
 6. Nature Energy
 
-#### Earth & environment (5)
+#### 地球与环境 Earth & environment (5)
 
 1. Nature Geoscience
 2. Nature Climate Change
@@ -1143,14 +1142,14 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 4. One Earth
 5. Environmental Science & Technology
 
-#### Computer science & AI (4)
+#### 计算机与人工智能 Computer science & AI (4)
 
 1. IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
 2. Journal of Machine Learning Research (JMLR)
 3. Nature Machine Intelligence
 4. Science Robotics
 
-#### Mathematics (3)
+#### 数学 Mathematics (3)
 
 1. Annals of Mathematics
 2. Inventiones Mathematicae
@@ -1159,7 +1158,7 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 </details>
 
 <details>
-<summary><b>Chinese — 102 social-science journal profiles</b> &mdash; click to expand</summary>
+<summary><b>中文 —— 社科期刊 profile 102 个</b>（点击展开）</summary>
 
 #### 经济学 (50)
 
@@ -1274,74 +1273,74 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 
 ---
 
-## Contributing
+## 贡献
 
-Each pack lives in its own repository. To contribute to a pack, open a PR on that pack's repo. To propose a new pack, open an issue here.
+每个 pack 都在自己的仓库里。要为某个 pack 贡献内容，请到对应仓库提 PR。要提议新增 pack，请在本仓库提 issue。
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the multi-agent workflow, submodule boundary rules, and verification checks.
+多 agent 协作流程、submodule 边界和验证检查见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
-Before opening a PR that changes root navigation, manifests, or pack metadata, run:
+如果 PR 会改根目录导航、manifest 或 pack 元数据，请先运行：
 
 ```bash
 python3 tools/run_checks.py
 ```
 
-The same hard checks run in GitHub Actions. They check the canonical skill count, curated-pack count, 200 root journal entries and their canonical skill targets, pack README / license presence, Chinese depth-pack source maps, plugin / marketplace drift, `SKILL.md` frontmatter, local README links, Python tool syntax, whitespace, and severe skill clones. CI reports clone pairs from `tools/clone_audit.py --threshold 0.75` and fails only at `--fail-threshold 0.90`.
+GitHub Actions 会运行同一套硬门槛检查。它会检查 canonical skill 计数、精选 pack 计数、200 个根目录期刊入口及其 canonical skill 指向、pack README / license 是否齐全、中文深度包 source map、plugin / marketplace 漂移、`SKILL.md` frontmatter、README 内部链接、Python 工具语法、空白字符，以及严重技能克隆。CI 从 `tools/clone_audit.py --threshold 0.75` 开始报告相似对，仅在达到 `--fail-threshold 0.90` 时失败。
 
-Quality bar for inclusion in this index:
+收录到本索引的质量门槛：
 
-1. Opinionated by venue (not generic)
-2. Bilingual zh-CN / en README (for China-relevant venues)
-3. At least one `*-workflow` router skill
-4. Plugin manifests (`.claude-plugin/plugin.json` + `marketplace.json`)
-5. MIT-licensed
+1. 必须按期刊定制（不是通用 pack）
+2. 中英文双语 README（针对中国相关期刊）
+3. 至少有一个 `*-workflow` 路由 skill
+4. 含 plugin manifest（`.claude-plugin/plugin.json` + `marketplace.json`）
+5. MIT 协议
 
 ---
 
-## Related Projects
+## 相关项目
 
-Broader-scope agent skill collections (complementary to this journal-specific index):
+更宽口径的 agent skill 合集（与本索引互补）：
 
-- [Awesome-Agent-Skills-for-Empirical-Research](https://github.com/brycewang-stanford/Awesome-Agent-Skills-for-Empirical-Research) — curated 23,000+ agent skills across 8 social-science disciplines (maintained by CoPaper.AI / Stanford REAP).
-- [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) — generic research → write → review → revise → finalize skill pipeline for Claude Code.
+- [Awesome-Agent-Skills-for-Empirical-Research](https://github.com/brycewang-stanford/Awesome-Agent-Skills-for-Empirical-Research) — 精选 23,000+ agent skills，覆盖 8 大社科学科的实证研究（由 CoPaper.AI / Stanford REAP 维护）。
+- [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) — 通用的 research → write → review → revise → finalize 科研流水线 skill 包。
 
-Curated as submodules under this repo (see the table above):
+已作为 submodule 收录至本仓库（见上方表格）：
 
 - [nature-skills](https://github.com/Yuan1z0825/nature-skills) → [`nature-skills/`](nature-skills/)
 - [Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) → [`nature-paper-skills/`](nature-paper-skills/)
 - [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) → [`claude-scholar/`](claude-scholar/)
 - [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) → [`codex-claude-academic-skills/`](codex-claude-academic-skills/)
 
-Generic scientific-writing skill packs (different scope — not journal-specific, listed for reference):
+通用的科研写作 skill 包（定位不同——非特定期刊，仅供参考）：
 
-- [paper-writer-skill](https://github.com/kgraph57/paper-writer-skill) — full-pipeline academic paper writing (IMRAD, literature management, quality checklists).
-- [academic-paper-skills](https://github.com/lishix520/academic-paper-skills) — strategist (planning) + composer (writing) skills with quality checkpoints.
-- [Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills) — ML/CV/NLP paper writing, adapted from Prof. Peng Sida's open notes.
-- [academic-writing-agents](https://github.com/andrehuang/academic-writing-agents) — multi-agent orchestrator with specialist agents for review, research, drafting, polishing.
-- [claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) / [scientific-agent-skills](https://github.com/k-dense-ai/scientific-agent-skills) — general-purpose scientific writing.
-- [literature-review-skill](https://github.com/YANZHANLIN/literature-review-skill) — 5-step literature-review pipeline (search/fetch/read/synthesize/chapter).
-- [agent-research-skills](https://github.com/lingzhi227/agent-research-skills) — deep-research systematic literature review.
-- [qinyan-academic-skills](https://github.com/LeonChaoX/qinyan-academic-skills) — 177+ academic skills across 17 disciplines.
+- [paper-writer-skill](https://github.com/kgraph57/paper-writer-skill) —— 全流程学术论文写作（IMRAD、文献管理、质量清单）。
+- [academic-paper-skills](https://github.com/lishix520/academic-paper-skills) —— strategist（规划）+ composer（写作）双 skill，含质量检查点。
+- [Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills) —— ML/CV/NLP 论文写作，源自彭思达老师公开笔记。
+- [academic-writing-agents](https://github.com/andrehuang/academic-writing-agents) —— 多 agent 编排，含审稿/检索/起草/润色等专家 agent。
+- [claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) / [scientific-agent-skills](https://github.com/k-dense-ai/scientific-agent-skills) —— 通用科学写作。
+- [literature-review-skill](https://github.com/YANZHANLIN/literature-review-skill) —— 5 步文献综述流水线（检索/获取/精读/综述/章节）。
+- [agent-research-skills](https://github.com/lingzhi227/agent-research-skills) —— deep-research 系统性文献综述。
+- [qinyan-academic-skills](https://github.com/LeonChaoX/qinyan-academic-skills) —— 沁言学术，177+ skill，覆盖 17 个学科。
 
-Natural-science / life-science skill libraries (broad, not journal-specific — listed for reference):
+自然科学 / 生命科学 skill 库（覆盖广，非特定期刊，仅供参考）：
 
-- [research-skills](https://github.com/neuromechanist/research-skills) — academic research plugin with **multi-journal manuscript & figure formatting presets** (Nature / Science / PNAS / Cell / IEEE), literature search, grant writing. The closest third-party analog to a per-journal pack — it formats to multiple venues rather than encoding one venue's editorial culture in depth.
-- [SciAgent-Skills](https://github.com/jaechang-hits/SciAgent-Skills) — 197 bioinformatics & life-science skills (RNA-seq, single-cell, proteomics, drug discovery) for Claude Code and AI agents.
-- [claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills) (K-Dense) — 140+ ready-to-use science skills plus 100+ scientific databases across biology, chemistry, and medicine; compatible with the open Agent Skills standard.
+- [research-skills](https://github.com/neuromechanist/research-skills) —— 科研插件，带**多刊手稿与图件格式预设**（Nature / Science / PNAS / Cell / IEEE）、文献检索、基金写作。最接近"按刊定制包"的第三方方案——但它是面向多刊套格式，而非深度编码单一期刊的编辑文化。
+- [SciAgent-Skills](https://github.com/jaechang-hits/SciAgent-Skills) —— 197 个生物信息与生命科学 skill（RNA-seq、单细胞、蛋白组、药物发现）。
+- [claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)（K-Dense）—— 140+ 科学 skill + 100+ 科学数据库，覆盖生物/化学/医学，兼容开放 Agent Skills 标准。
 
 ---
 
-## Maintainers
+## 维护团队
 
-This index is curated and maintained by the team behind **[CoPaper.AI](https://copaper.ai)** — an empirical-research AI assistant **incubated by researchers at [Stanford REAP / SCCEI (Stanford Center on China's Economy and Institutions)](https://sccei.fsi.stanford.edu/reap)**. The venue-specific editorial standards encoded across these packs come out of Stanford REAP's empirical-economics methodology and applied causal-inference tradition.
+本索引由 **[CoPaper.AI](https://copaper.ai)** 团队精选与维护 —— 一款**由 [Stanford REAP / SCCEI（斯坦福中国经济与制度研究中心）](https://sccei.fsi.stanford.edu/reap) 研究人员孵化**的实证研究 AI 助手。各 pack 中编码的单刊编委标准，源自 Stanford REAP 在实证经济学方法论与应用因果推断上的长期积累。
 
-| Layer | Anchor | Role |
-|-------|--------|------|
-| 🏛️ **Academic lineage** | **Stanford REAP / SCCEI** — Stanford Center on China's Economy and Institutions | The empirical-economics methodology and applied causal-inference tradition behind the venue-specific identification and editorial standards encoded here |
-| 🔧 **Engineering delivery** | **[CoPaper.AI](https://copaper.ai)** | Empirical-research AI assistant that turns these journal-specific Skills into an end-to-end, submission-ready manuscript pipeline |
-| ⚙️ **Open-source engine** | **[StatsPAI](https://github.com/brycewang-stanford/StatsPAI)** | The causal-inference engine (900+ functions, MIT-licensed, JOSS in submission) powering CoPaper.AI |
+| 层次 | 依托 | 角色 |
+|------|------|------|
+| 🏛️ **学术血统** | **Stanford REAP / SCCEI** —— 斯坦福中国经济与制度研究中心 | 本仓库单刊识别标准与编委规范背后的实证经济学方法论与应用因果推断传统 |
+| 🔧 **工程交付** | **[CoPaper.AI](https://copaper.ai)** | 将这些单刊 Skills 串成端到端、可直接投稿的论文流水线的实证研究 AI 助手 |
+| ⚙️ **开源引擎** | **[StatsPAI](https://github.com/brycewang-stanford/StatsPAI)** | 驱动 CoPaper.AI 的因果推断引擎（900+ 函数，MIT 许可，JOSS 在投） |
 
-> 💡 **Want it out of the box?** Skip the assembly — try [**→ copaper.ai**](https://copaper.ai) and let the Stanford methodology team run the empirical pipeline end-to-end for you.
+> 💡 **想开箱即用？** 跳过自行组装 —— 试试 [**→ copaper.ai**](https://copaper.ai)，让斯坦福方法论团队为你跑通端到端的实证流水线。
 
 ---
 
@@ -1364,25 +1363,25 @@ MIT
     </tr>
   </table>
 
-  <sub><strong>Stanford REAP × CoPaper.AI</strong> · An academic-industrial AI toolkit for empirical research</sub>
+  <sub><strong>Stanford REAP × CoPaper.AI</strong> · 面向实证研究的产学一体 AI 工具箱</sub>
 
   <br/><br/>
 
   <table>
     <tr>
       <td align="center">
-        <a href="https://copaper.ai"><img src="assets/copaper-qrcode.png" alt="Visit copaper.ai" width="170" /></a><br/>
-        <strong>Visit <a href="https://copaper.ai">copaper.ai</a></strong>
+        <a href="https://copaper.ai"><img src="assets/copaper-qrcode.png" alt="访问 copaper.ai" width="170" /></a><br/>
+        <strong>访问 <a href="https://copaper.ai">copaper.ai</a></strong>
       </td>
       <td width="40"></td>
       <td align="center">
-        <img src="assets/copaper-wechat.jpg" alt="CoPaper.AI WeChat" width="170" /><br/>
-        <strong>WeChat: CoPaper.AI</strong>
+        <img src="assets/copaper-wechat.jpg" alt="CoPaper.AI 微信" width="170" /><br/>
+        <strong>微信公众号：CoPaper.AI</strong>
       </td>
     </tr>
   </table>
 
   <br/>
 
-  Maintained by <a href="https://copaper.ai"><strong>CoPaper.AI</strong></a>, incubated at <a href="https://sccei.fsi.stanford.edu/reap"><strong>Stanford REAP / SCCEI</strong></a> · Powered by <a href="https://github.com/brycewang-stanford/StatsPAI">StatsPAI</a> (900+ functions, MIT)
+  由 <a href="https://copaper.ai"><strong>CoPaper.AI</strong></a> 维护，孵化于 <a href="https://sccei.fsi.stanford.edu/reap"><strong>Stanford REAP / SCCEI</strong></a> · 由 <a href="https://github.com/brycewang-stanford/StatsPAI">StatsPAI</a> 驱动（900+ 函数，MIT）
 </div>
