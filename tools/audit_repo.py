@@ -31,7 +31,7 @@ IMPORTED_ROOTS = {
     "codex-claude-academic-skills",
 }
 
-README_FILES = [ROOT / "README.md", ROOT / "README.zh-CN.md"]
+README_FILES = [ROOT / "README.md", ROOT / "README.en.md"]
 CHINESE_DEPTH_PACKS_REQUIRING_SOURCE_MAPS = {
     "Accounting-Research-Skills",
     "China-Economic-Quarterly-Skills",

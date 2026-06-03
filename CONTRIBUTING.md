@@ -14,7 +14,7 @@ source-backed, and easy to review.
 
 ## Safe change boundaries
 
-- Root navigation and metadata: `README.md`, `README.zh-CN.md`,
+- Root navigation and metadata: `README.md`, `README.en.md`,
   `.claude-plugin/*.json`, `.github/`, and `tools/`.
 - Journal content: `*-Skills/skills/**`, `resources/**`, templates, and pack
   README files.

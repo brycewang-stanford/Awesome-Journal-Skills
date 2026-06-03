@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Insert per-bundle cover galleries into README.md and README.zh-CN.md.
+"""Insert per-bundle cover galleries into README.md and README.en.md.
 
 Each breadth bundle gets an always-expanded gallery (a caption line plus one cover
 thumbnail per journal, ordered by discipline so colours cluster). Idempotent:
@@ -62,7 +62,7 @@ def upsert(text, key, summary, anchor):
 
 
 PLANS = {
-    "README.md": {
+    "README.en.md": {
         "cn-soc": ("📚 <b>All 102 Chinese social-science journal covers</b> &mdash; grouped by discipline",
                    "| **~100 China econ/management roadmap journals** | [Chinese-SocialScience-Journal-Skills/]"),
         "en-soc": ("📚 <b>All 100 English social-science journal covers</b> &mdash; grouped by discipline",
@@ -70,7 +70,7 @@ PLANS = {
         "en-nat": ("📚 <b>All 100 English natural-science journal covers</b> &mdash; grouped by discipline",
                    "This bundle is the natural-science sibling of the English social-science breadth bundle"),
     },
-    "README.zh-CN.md": {
+    "README.md": {
         "cn-soc": ("📚 <b>全部 102 本中文社科期刊封面</b> &mdash; 按学科分组",
                    "| **约 100 本中文经管路线图期刊** | [Chinese-SocialScience-Journal-Skills/]"),
         "en-soc": ("📚 <b>全部 100 本英文社科期刊封面</b> &mdash; 按学科分组",
