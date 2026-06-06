@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "economic-research-skills",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at 《经济研究》, the top economics journal in China.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,9 +13,9 @@
   "plugins": [
     {
       "name": "economic-research-skills",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "source": "./",
-      "description": "Twelve-skill bundle covering the 《经济研究》 manuscript lifecycle: workflow router, topic selection, literature review, identification, mechanism, heterogeneity, tables / figures, policy implications, abstract polish, house style, submission preflight, and R&R rebuttal.",
+      "description": "Eighteen-skill bundle covering the 《经济研究》 manuscript lifecycle: workflow router, topic selection, introduction, literature review, theory & hypotheses, data & sample, modern identification (DID/IV/RDD/DML), mechanism (post-江艇 2022), heterogeneity, robustness, tables / figures, policy implications, abstract, house style, reviewer-lens self-audit, reproducibility, submission preflight, and R&R rebuttal — plus a runnable Stata + Python code library.",
       "author": {
         "name": "Bryce Wang",
         "email": "brycew6m@stanford.edu"
@@ -36,14 +36,20 @@
       "skills": [
         "skills/er-workflow",
         "skills/er-topic-selection",
+        "skills/er-introduction",
         "skills/er-literature-review",
+        "skills/er-theory-hypotheses",
+        "skills/er-data-sample",
         "skills/er-identification",
         "skills/er-mechanism",
         "skills/er-heterogeneity",
+        "skills/er-robustness",
         "skills/er-tables-figures",
         "skills/er-policy-implication",
         "skills/er-abstract",
         "skills/er-style",
+        "skills/er-reviewer-lens",
+        "skills/er-reproducibility",
         "skills/er-submission",
         "skills/er-rebuttal"
       ]

@@ -1,7 +1,7 @@
 {
   "name": "economic-research-skills",
-  "description": "Agent skill stack for submitting to 《经济研究》 (Economic Research Journal), the top economics journal in China. Covers China-context topic selection, bilingual literature review, modern causal identification (DID / IV / RDD / DML), mechanism and heterogeneity analysis, three-line tables, policy implications, journal house style, and R&R rebuttals. Bilingual zh-CN / en docs; Stata / R / Python templates.",
-  "version": "0.2.0",
+  "description": "Agent skill stack for submitting to 《经济研究》 (Economic Research Journal), the top economics journal in China. Eighteen skills across the manuscript lifecycle: China-context topic selection, introduction, bilingual literature review, theory & hypotheses, data & sample, modern causal identification (DID / IV / RDD / DML with heterogeneity-robust estimators), mechanism analysis (post-江艇 2022 paradigm), heterogeneity, robustness, three-line tables, policy implications, abstract, house style, reviewer-lens self-audit, reproducibility, submission preflight, and R&R rebuttals. Ships a runnable Stata + Python code library. Bilingual zh-CN / en docs.",
+  "version": "0.3.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"
@@ -18,6 +18,11 @@
     "difference-in-differences",
     "instrumental-variables",
     "regression-discontinuity",
+    "double-machine-learning",
+    "mechanism-analysis",
+    "robustness-checks",
+    "reproducibility",
+    "stata",
     "macroeconomics",
     "institutional-economics",
     "academic-writing",
