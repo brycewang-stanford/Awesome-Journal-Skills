@@ -37,13 +37,15 @@
 ### Stata
 - **推荐版本**：Stata 17/18 SE
 - **常用包**：
-  - `didregress` / `drdid`：双重差分
-  - `xtreg`：面板数据固定效应
-  - `ivreg2`：两阶段最小二乘法
-  - `psmatch2`：倾向得分匹配
-  - `rdrobust`：断点回归
-  - `sgmediation`：中介效应
-  - `bstrap`：Bootstrap
+  - `reghdfe`：高维固定效应回归（面板基准首选）
+  - **交叠 DID（异质性稳健，2019 后必备）**：`csdid`（Callaway-Sant'Anna）、`did_imputation`（Borusyak-Jaravel-Spiess）、`did2s`（Gardner）、`eventstudyinteract`（Sun-Abraham）、`did_multiplegt_dyn`（de Chaisemartin-D'Haultfœuille）、`bacondecomp`（Goodman-Bacon 分解）
+  - **IV**：`ivreg2` + `ranktest`（KP rk F）、`weakivtest`（有效 F）、`weakiv`（AR 稳健推断）、`ivreg2h`（Lewbel）
+  - **RDD**：`rdrobust`、`rdbwselect`、`rddensity`（CJM 操纵检验）
+  - **DML**：`ddml` + `pystacked`、`pdslasso`
+  - **稳健性**：`boottest`（少聚类 wild bootstrap）、`acreg`（Conley 空间 SE）、`psacalc`（Oster 边界）、`winsor2`（缩尾）
+  - **机制**：直接用 `reghdfe` 跑 D→M（**不要用 `sgmediation` 中介三步法**，见江艇 2022 / er-mechanism）
+  - **匹配/合成控制**：`psmatch2`、`synth`、`synth_runner`
+  - **制表**：`estout`（esttab，三线表导出）
 
 ### Python
 - **常用库**：
@@ -70,9 +72,11 @@
 - `synth`：Stata合成控制
 - `Synth`：R实现
 
-### 交叠DID
-- `didregress`（Stata 17+）
-- `TwowayFEConstructor`：事件研究法
+### 交叠DID（异质性稳健估计量）
+- `csdid`（Callaway-Sant'Anna 2021）/ `did_imputation`（BJS 2024）/ `did2s`（Gardner 2022）
+- `eventstudyinteract`（Sun-Abraham 2021）/ `did_multiplegt_dyn`（dCDH）
+- `bacondecomp`（Goodman-Bacon 2021 分解，诊断 TWFE 偏误）
+- 详见 `resources/code/stata/03_did_modern.do`
 
 ### 空间计量
 - `spatreg`：空间回归
@@ -111,7 +115,7 @@
 | NoteExpress | 国内用户多 |
 
 ### 参考文献格式
-《经济研究》采用顺序编码制，Zotero/EndNote可设置国标格式。
+《经济研究》采用**著者—出版年制**（非顺序编码制）：正文夹注（作者，年份[，页码]），文末中文文献在前、外文在后，各按姓氏拼音/字母排序。Zotero/EndNote 可自建该样式（参考 APA/Chicago author-date 改造），切勿套用 GB/T 7714 顺序编码（`[1][2]`）。详见 er-submission 与 official-source-map.md。
 
 ### 查重检测
 - 知网查重（期刊认可）
