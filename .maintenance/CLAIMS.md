@@ -210,3 +210,43 @@ Batch C cat-2 round-out (International-Organization, World-Politics, Public-Opin
 Journal-of-Marriage-and-Family, Social-Psychology-Quarterly). All <0.50 clone vs anything; full bilingual READMEs;
 JAAR completed by Agent C after a sub-agent API overload. Only shared files touched: CLAIMS.md + PROGRESS.md
 (append-only). No README-count/tools/other-pack edits. Agent C cumulative = 30 packs across cat 2/3/9.
+
+## Lane — Economic-Research-Journal-Skills DEEP POLISH (Agent D, user-directed)
+- **Owner**: Agent D (Opus, user-directed) · Status: in progress (待验收) · Started 2026-06-06
+- **Why this lane**: user explicitly directed a deep, best-in-class polish of
+  `Economic-Research-Journal-Skills/` (《经济研究》). This Chinese depth pack was UNCLAIMED in the
+  log above. Goal: make it the strongest 《经济研究》 submission skill pack available, venue-specific
+  and exemplar-anchored, per `.maintenance/METHODOLOGY.md`.
+- **Isolation rule**: Agent D ONLY edits files under `Economic-Research-Journal-Skills/`. Does NOT
+  touch root README.md / README.zh-CN.md counts, tools/audit_repo.py, other packs' files, or any
+  submodule. CLAIMS.md + PROGRESS.md are append-only. If folder/skill COUNT changes (new skills
+  added), that is flagged here for the audit owner (Codex) to reconcile root counts — Agent D does
+  not edit root counts itself.
+- **Coordination note**: `Economic-Research-Journal-Skills` is NOT in Agent A's queue (QJE/JPE/
+  Econometrica/RES/JF/JFE/RFS) nor any Codex/Agent B/Agent C target. Zero file overlap. If Agent A
+  later claims it, defer to this lane (already in progress).
+- **Quality bar**: venue-specific, official-source-backed (URL + access date) or `待核实`; deepen
+  every SKILL.md with real 《经济研究》 facts, worked Chinese-context examples, modern causal-inference
+  code, and named exemplar papers. No find-replace clones.
+
+### Agent D lane — DE-CONFLICTION UPDATE (2026-06-06)
+DISCOVERED mid-work that a parallel agent is ALSO actively rebuilding
+`Economic-Research-Journal-Skills/` (it added new skills er-introduction / er-reproducibility /
+er-robustness / er-theory-hypotheses / er-reviewer-lens + `resources/code/*.do`, all uncommitted).
+To honor the user's "don't conflict / collaborate friendly" directive, Agent D YIELDS the
+skill-body rewrites + new-skill expansion + `resources/code/` to that agent, and narrows its own
+lane to the **web-verified fact layer** (zero overlap with the other agent's new files):
+- `resources/official-source-map.md` (rewritten, web-verified, VERIFIED/待核实 layered)
+- reference-format BUG FIX in `templates/manuscript_template.md` + `templates/checklist.md`
+  (《经济研究》 uses 著者-出版年制, NOT 顺序编码制 — the repo was factually wrong)
+- `resources/code-templates.md` (verified command+citation reference; complements the other
+  agent's runnable `.do` files)
+- `skills/er-identification/SKILL.md` (verified exemplars + modern estimators; complements the
+  other agent's `03_did_modern.do`, which already defers to er-identification for 投稿口径)
+- NEW `HANDOFF-FROM-AGENT-D.md` (all of Agent D's verified research handed to the parallel agent:
+  reference-format correction, exemplar attribution warnings, 江艇 2022 mechanism citation, English
+  梗概 char-count caveat, verified journal facts, verified causal-inference commands).
+Removed Agent D's duplicate empty dirs (er-theory-hypothesis singular, er-data-sample). Agent D's
+er-robustness Write was correctly blocked by the read-before-write guard → the other agent's
+er-robustness is authoritative. Agent D will NOT touch README/manifests/other skill bodies to avoid
+clobbering. Recommend a SEQUENTIAL second polish pass by Agent D after the rebuild stabilizes.
