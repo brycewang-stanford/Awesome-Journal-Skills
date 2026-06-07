@@ -1,5 +1,7 @@
 # 代码模板库（Stata + Python）
 
+> ✅ **已验证**：核心命令链已在 Stata 18 MP 上用合成数据实跑通过——`reghdfe`(TWFE)、`bacondecomp`、`csdid`、`did_imputation`、事件研究 + 平行趋势联合检验、`esttab` 三线表导出、`ivreg2`+KP rk F、`weakivtest` 有效 F、`rdrobust`、`rddensity` 均正常运行（2026-06）。注意：Stata **do-file 模式**下循环体不能与 `{` 同行（须换行），本库已遵循此规则。
+
 面向《经济研究》投稿实证研究的**可复现代码骨架**。既是各识别方法的"复制即用"模板，
 也直接落地 `er-reproducibility` 的目录与一键复现规范。所有命令语法均已核对；版本敏感
 之处（如 `did_multiplegt_dyn` 取代 `did_multiplegt`、Stata 19 内置弱工具稳健推断）请

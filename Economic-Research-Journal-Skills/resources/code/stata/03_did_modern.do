@@ -67,9 +67,13 @@ eststo bjs_att
 cap drop rel
 gen rel = year - gvar if gvar > 0
 * 以处理前一期 (rel == -1) 为基准组，遗漏之
-forvalues k = 5(-1)2 { gen lead`k' = rel == -`k' }
+forvalues k = 5(-1)2 {
+    gen lead`k' = rel == -`k'
+}
 gen lead1 = 0                                   // 基准期
-forvalues k = 0/5      { gen lag`k'  = rel ==  `k' }
+forvalues k = 0/5 {
+    gen lag`k' = rel == `k'
+}
 reghdfe $Y lead5 lead4 lead3 lead2 lag0 lag1 lag2 lag3 lag4 lag5 $X, ///
     absorb(id year) vce(cluster id)
 * coefplot 画 95% CI、处理时点垂直虚线（见 09_tables.do 的绘图段）
