@@ -35,7 +35,7 @@ It is **not** a generic Chinese-economics writing toolbox. It is an Economic-Res
 | Identification            | Quasi-experimental; modern estimators expected              | TWFE-only / OLS + controls often desk-rejected            |
 | Mechanism                 | Near-mandatory; **step-wise mediation retired** (江艇 2022) | Estimate D→M, argue M→Y from theory — no endogenous mediation regression |
 | References                | **Author-year (作者，年份)** [official]                     | **Not** numbered `[1][2]` / `[J][M]` style                 |
-| Abstract                  | ~300-char 中文提要 + 5-element English Summary [official]    | English Summary needs a ≥1000-char Chinese mirror for editing |
+| Abstract                  | ~300-char 中文提要 + 5-element English Summary [official]    | English Summary needs a Chinese mirror for editing (not published; official sets no length) |
 | Keywords                  | 3–5 + JEL codes                                            | Not 3–8                                                    |
 | Policy implications       | "Significance" level, not action memos                     | Different from 《管理世界》 actionable-policy style         |
 | Authorship                | ≤5 authors, ≤2 affiliations, one corresponding [official]  | Author info on a separate page; body anonymized            |

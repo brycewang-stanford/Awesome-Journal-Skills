@@ -1,6 +1,6 @@
 ---
 name: er-abstract
-description: Use when drafting or revising the 中文摘要 (200-400 字) or 英文 abstract for an 《经济研究》 manuscript. Enforces the five-sentence pattern and forbids empty-significance phrases.
+description: Use when drafting or revising the 中文内容提要 (~300 字, official) or English 梗概/Summary for an 《经济研究》 manuscript. Enforces the five-sentence Chinese pattern, the five-element English Summary, and forbids empty-significance phrases.
 ---
 
 # 摘要写作（er-abstract）
@@ -8,8 +8,8 @@ description: Use when drafting or revising the 中文摘要 (200-400 字) or 英
 ## 触发时机
 
 - 摘要写成了一段"为...提供了新的视角"式套话
-- 中文摘要超出 400 字或不到 200 字
-- 英文摘要与中文摘要语义不对齐
+- 中文内容提要明显偏离官方口径（约 300 字）
+- 英文梗概与中文提要核心结论不对齐
 - 投稿前发现摘要里没出现核心方法/数据/发现
 
 ## 中文内容提要五句法（约 300 字）
@@ -30,7 +30,7 @@ description: Use when drafting or revising the 中文摘要 (200-400 字) or 英
 
 ## 英文梗概（English Summary）—— 五要素 + 中文对照
 
-> ⚠ 口径校正：自 2017 年第 1 期起，《经济研究》以"**英文梗概（Summary）**"取代旧式英文摘要，且**比中文提要长得多**（是一篇浓缩全文的英文长摘要，非中文摘要的逐句翻译）。投稿时须**另附不少于 1000 汉字的中文对照**——该对照仅供编辑校对、不刊出。官方未规定确切字符数，**不要纠结"4400/4500 字符"这种具体数字**，以投稿当期官网为准。
+> ⚠ 口径校正：自 2017 年第 1 期起，《经济研究》以"**英文梗概（Summary）**"取代旧式英文摘要，且**比中文提要长得多**（是一篇浓缩全文的英文长摘要，非中文摘要的逐句翻译）。投稿时须**另附中文对照**——该对照仅供编辑校对、不刊出。**官方既未规定英文梗概的确切字符数，也未规定中文对照的字数**——不要纠结"4400/4500 字符""≥1000 字"这类坊间数字（因梗概是浓缩全文的长摘要，其中文对照通常明显长于约 300 字的中文提要，但无官方硬性下限），一切以投稿当期官网为准。
 
 英文梗概须覆盖**五要素**（官方表述）：
 
@@ -40,7 +40,7 @@ description: Use when drafting or revising the 中文摘要 (200-400 字) or 英
 4. **主要结论及政策建议** Main findings & policy implications（必须出现量化结果）
 5. **重要创新与贡献** Key innovation & contribution（置于末尾，**避免** "this paper has important policy implications" 式空话）
 
-写作顺序可微调，但五要素缺一不可。完成后**另写 ≥1000 字中文对照**随稿提交。
+写作顺序可微调，但五要素缺一不可。完成后**另写中文对照**随稿提交（仅供编校、不刊出；官方未规定字数）。
 
 ## 自检清单
 
@@ -48,9 +48,9 @@ description: Use when drafting or revising the 中文摘要 (200-400 字) or 英
 - [ ] 说明使用了什么数据和识别策略
 - [ ] 核心发现给出**具体方向 + 量化**（不是"显著影响"四个字了事）
 - [ ] 体现了文章的独特贡献
-- [ ] 英文梗概覆盖**五要素**，并已另附 ≥1000 字中文对照
+- [ ] 英文梗概覆盖**五要素**，并已另附中文对照（仅供编校、不刊出）
 - [ ] 中英文摘要语义对齐（核心结论对得上）
-- [ ] 关键词 3–5 个，附对应英文 Key Words，标注 JEL 分类号
+- [ ] 关键词 3–5 个，附对应英文 Key Words；JEL 分类号（强烈建议，非官方强制）
 
 ## 反模式（黑名单短语）
 
@@ -67,7 +67,7 @@ description: Use when drafting or revising the 中文摘要 (200-400 字) or 英
 ```
 【中文提要字数】X（约 300 字）
 【英文梗概五要素】齐 / 缺：[...]
-【中文对照 ≥1000 字】有 / 无
+【中文对照】有 / 无（仅供编校）
 【五句法合规】是 / 否（缺哪一句）
 【量化结果】有 / 无
 【关键词】X 个（应 3–5）/ JEL：有 / 无
