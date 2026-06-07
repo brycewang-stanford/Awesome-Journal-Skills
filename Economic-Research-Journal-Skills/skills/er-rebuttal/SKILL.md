@@ -97,6 +97,10 @@ description: Use when responding to reviewer reports for an Economic-Research R&
 - 把不接受的回复写得很 defensive
 - 忽视编委意见，只回复匿名审稿人
 
+## 配套与范例
+
+完整示例回复信（3 评审 / 多条意见 / 三种回复模式）见 [`resources/worked-examples/10-response-letter.md`](../../resources/worked-examples/10-response-letter.md)。
+
 ## 输出格式
 
 ```

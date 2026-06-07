@@ -85,6 +85,10 @@ description: Use when drafting or revising the literature-review section for an 
 - 综述里出现 [27, 28, 29, 30, 31] 这种 5 个并列引用 —— 拆开按贡献分述
 - 自引超过 5 条
 
+## 配套与范例
+
+完整对话式综述范文见 [`resources/worked-examples/11-literature-review.md`](../../resources/worked-examples/11-literature-review.md)；真实范本对标见 [`resources/exemplars/`](../../resources/exemplars/)。
+
 ## 输出格式
 
 ```

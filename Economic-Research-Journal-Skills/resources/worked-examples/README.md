@@ -55,5 +55,9 @@
 | [`08-abstract.md`](08-abstract.md) | er-abstract | 中文提要 + 英文 Summary 五要素 |
 | [`09-policy.md`](09-policy.md) | er-policy-implication | 政策含义（意义层） |
 | [`10-response-letter.md`](10-response-letter.md) | er-rebuttal | 示例回复信（回应 3 条意见） |
+| [`11-literature-review.md`](11-literature-review.md) | er-literature-review | 三层对话式文献综述 |
+| [`12-style-before-after.md`](12-style-before-after.md) | er-style | 10 类语病"改写前→改写后"对照 |
+
+> 真实顶刊设计对标见 [`../exemplars/`](../exemplars/)（5 篇已核实《经济研究》范本拆解）。
 
 > 配套可运行代码见 [`../code/`](../code/)；命令引文见 [`../code-templates.md`](../code-templates.md)。

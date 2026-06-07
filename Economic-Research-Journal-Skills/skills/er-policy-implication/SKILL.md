@@ -58,6 +58,10 @@ description: Use when drafting or strengthening the policy-implications section 
 - 文末才提到中国 —— 应贯穿全文的中国问题意识
 - "本文是首次……" —— 这不是政策含义，这是贡献
 
+## 配套与范例
+
+三层"意义层"政策含义范文（含空话反例对照）见 [`resources/worked-examples/09-policy.md`](../../resources/worked-examples/09-policy.md)。
+
 ## 输出格式
 
 ```

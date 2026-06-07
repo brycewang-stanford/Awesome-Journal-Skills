@@ -63,12 +63,21 @@ description: Use when designing or writing heterogeneity analysis for an Economi
 - 切了 8 个维度凑数，但每个都不显著
 - 异质性结论与机制冲突但不解释
 
+## 异质性作为机制的侧证（重要）
+
+按江艇（2022）的思路，**理论驱动的异质性是比中介分解更可信的机制证据**：若机制是 M，则在"M 渠道更畅通 / 更受约束"的子样本中，主效应应更强 / 更弱。设计异质性时，刻意让至少一个维度**对应某条机制**，使机制与异质性相互印证（详见 `er-mechanism`）。
+
+## 配套与范例
+
+- 完整范文：[`resources/worked-examples/06-heterogeneity.md`](../../resources/worked-examples/06-heterogeneity.md)（三维异质性 + 机制侧证）
+- 范本对标：张勋等（2019，《经济研究》第 8 期）以群体异质性佐证数字金融渠道，见 [`resources/exemplars/`](../../resources/exemplars/)
+
 ## 输出格式
 
 ```
 【异质性维度】X 个
 【系数差异检验】是 / 否
-【与机制一致性】是 / 否
+【与机制一致性】是 / 否（哪一维度对应哪条机制）
 【最小子样本量】X
 【下一步】er-tables-figures
 ```
