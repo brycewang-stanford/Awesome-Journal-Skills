@@ -681,3 +681,13 @@ family), category 3 (Humanities, 6 packs: history, literature, philosophy, theor
 and category 9 (Agriculture & Environment, 6 packs).
 NOTE for the audit owner (Codex): tools/audit_repo.py counts + root README badges do not yet include
 these 18 newest packs — left for owner reconciliation (the prior 12 cat-2 packs were already reconciled/committed).
+
+## 2026-06-06 — Economic-Research-Journal-Skills deep polish (Agent D, 待验收)
+Two-round, web-verified polish of the 《经济研究》 pack, co-existing with a parallel rebuild agent.
+- R1: rewrote official-source-map.md (VERIFIED/待核实 layered); fixed the reference-format BUG
+  (著者-出版年制, not 顺序编码制) in templates/checklist; added code-templates.md (verified modern
+  causal-inference commands + 江艇 2022); deepened er-identification; HANDOFF-FROM-AGENT-D.md.
+- R2 (after rebuild): fact-audit; rewrote stale er-submission body to [官]/[经验值] discipline +
+  ¥0 fees + 10yr penalty; removed unsourced ≥1000字 over-assertion pack-wide; added
+  resources/exemplars/library.md (18 verified papers × method × topic); augmented source-map.
+Verified facts sourced from cssn.cn official guidance, NCPSSD, CNKI, AJCASS sister-journal house style.

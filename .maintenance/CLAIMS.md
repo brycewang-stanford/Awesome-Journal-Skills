@@ -250,3 +250,24 @@ Removed Agent D's duplicate empty dirs (er-theory-hypothesis singular, er-data-s
 er-robustness Write was correctly blocked by the read-before-write guard → the other agent's
 er-robustness is authoritative. Agent D will NOT touch README/manifests/other skill bodies to avoid
 clobbering. Recommend a SEQUENTIAL second polish pass by Agent D after the rebuild stabilizes.
+
+### Agent D lane — SECOND PASS COMPLETE (2026-06-06, 待验收)
+After the parallel agent's rebuild (18 skills + code/ + worked-examples/ + exemplars/), Agent D ran a
+deep fact-audit (via subagent) + second polish pass. Findings: pack was largely accurate; issues
+localized + fixed:
+- `skills/er-submission/SKILL.md` was the STALE original (parallel agent updated templates but not
+  this body) asserting unverified numbers (摘要200–400字/英文200–300词/JEL≥2/查重≤15%/上传≤20MB/
+  推荐审稿人3名) as official. REWROTE with [官]/[经验值] discipline + added VERIFIED ¥0 fees,
+  10-year multi-submission penalty, masthead/收录 facts.
+- `≥1000字中文对照` was asserted as a hard official requirement in ~9 places (er-abstract ×4,
+  checklist [官] mislabel, manuscript_template, README.md, README.zh-CN, worked-examples/08) but has
+  NO official basis (verified). SOFTENED all to "中文对照（官方未规定字数）".
+- Added `resources/exemplars/library.md` — 18 web-verified 《经济研究》 papers by method × hot-topic
+  (complements the parallel agent's 5-paper deep-teardown README in the same dir; added a pointer).
+- Augmented `resources/official-source-map.md` VERIFIED table: ¥0 fees, 10yr penalty, verbatim
+  Chinese+foreign reference examples (AJCASS sister-journal house style), 收录/邮发 details.
+QC: 18/18 frontmatter valid; no broken links (the ../../../resources from templates/ is correct);
+no ≥1000字 / wrong-direction 顺序编码 residue; exemplar attributions all correct; 江艇 2022 mechanism
+stance consistent. Research staged in `.maintenance/AGENT-D-ERJ-RESEARCH.md`. NOTE: parallel agent was
+still active during this pass; Agent D only edited stale/erroneous shared files + added new files, no
+clobbering observed (read-before-write guard held). Skill bodies the parallel agent owns left untouched.
