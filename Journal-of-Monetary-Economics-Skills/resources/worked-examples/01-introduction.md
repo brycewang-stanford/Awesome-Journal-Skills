@@ -119,4 +119,4 @@ Mapped to the skill checklists:
 
 > Next: adapt the reproducible analysis skeleton in [`../code/`](../code/) when turning this introduction arc
 > into a full empirical workflow, and pressure-test the design against
-> [`../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).

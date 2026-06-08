@@ -141,6 +141,6 @@ Mapped to this pack's skill checklists:
 > contribution and how to defend it, see
 > [`../../skills/misq-contribution-framing/SKILL.md`](../../skills/misq-contribution-framing/SKILL.md);
 > for the shared, venue-neutral inference audit, see
-> [`../../../../shared-resources/empirical-methods/reporting-standards.md`](../../../../shared-resources/empirical-methods/reporting-standards.md)
+> [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md)
 > and
-> [`../../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).

@@ -138,4 +138,4 @@ Mapped to this pack's skill checklists:
 > for building the estimation so it clears the ES Data Editor reproducibility check, and
 > [`../code/`](../code/) for a runnable empirical command chain. For the venue-neutral referee objections
 > a structural pass-through claim must pre-empt, see
-> [`../../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).

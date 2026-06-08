@@ -133,4 +133,4 @@ Mapped to this pack's skill checklists:
 > whose introductions execute this arc, and [`../code/`](../code/) for the dynamic-panel / archival command
 > chain a design like this would adapt. For the standard referee objections to a cross-country design,
 > stress-test against the shared
-> [`../../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).

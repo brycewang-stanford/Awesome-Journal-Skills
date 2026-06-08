@@ -141,6 +141,6 @@ Mapped to the skill checklists:
 > whose introductions execute this arc across formal, constructivist, and quantitative IR work, and
 > [`../code/`](../code/) for the staggered-DiD command chain referenced above. Pre-empt referees with the
 > shared
-> [`reviewer-objection-checklist.md`](../../../../shared-resources/empirical-methods/reviewer-objection-checklist.md)
+> [`reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md)
 > and report to the shared
-> [`reporting-standards.md`](../../../../shared-resources/empirical-methods/reporting-standards.md).
+> [`reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md).
