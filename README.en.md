@@ -81,22 +81,146 @@ English | [简体中文](README.md)
 <p align="center">
   <sub>Flagship English econ &amp; business venues from the <a href="English-SocialScience-Journal-Skills/">English-SocialScience-Journal-Skills</a> breadth bundle (100 journals + router) — <b>real journal covers</b> (fair-use thumbnails, for identification only). Tier badges (Top-5 · Top-3 · FT50 · UTD24) indicate tiering.</sub>
 </p>
+<!-- STEM-WALL-START -->
+<h3 align="center">Natural Science &amp; Medicine Flagships — 100 Real Covers</h3>
+<p align="center"><sub>Every image is a <b>real journal cover</b> (fair-use thumbnail, for identification only); click a cover to open the corresponding skill pack. Depth packs (12 skills): Science · Nature · Cell · Cancer Cell · PNAS · NEJM · JAMA · The Lancet · PRL · JACS · ES&amp;T. Other covers link to the <a href="English-NaturalScience-Journal-Skills/">English-NaturalScience-Journal-Skills</a> breadth bundle.</sub></p>
+
+<p align="center"><sub><b>Multidisciplinary</b></sub></p>
 <p align="center">
-  <a href="Science-Skills/"><img src="assets/covers/science.png" alt="Science (AAAS)" width="160"></a>
-  <a href="Cell-Skills/"><img src="assets/covers/cell.png" alt="Cell (Cell Press)" width="160"></a>
-  <a href="PNAS-Skills/"><img src="assets/covers/pnas.png" alt="PNAS" width="160"></a>
-  <a href="NEJM-Skills/"><img src="assets/covers/nejm.png" alt="NEJM — New England Journal of Medicine" width="160"></a>
-  <a href="Lancet-Skills/"><img src="assets/covers/lancet.png" alt="The Lancet" width="160"></a>
+  <a href="Science-Skills/"><img src="assets/covers/science.png" alt="Science" width="108"></a>
+  <a href="Nature-Skills/"><img src="assets/covers/nature.png" alt="Nature" width="108"></a>
+  <a href="PNAS-Skills/"><img src="assets/covers/pnas.png" alt="PNAS" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/science-advances/"><img src="assets/covers/science-advances.png" alt="Science Advances" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-communications/"><img src="assets/covers/nature-communications.png" alt="Nature Communications" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/national-science-review/"><img src="assets/covers/national-science-review.png" alt="National Science Review" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/the-innovation/"><img src="assets/covers/the-innovation.png" alt="The Innovation" width="108"></a>
 </p>
+
+<p align="center"><sub><b>Life Sciences</b></sub></p>
 <p align="center">
-  <sub>Flagship natural-science &amp; clinical venues — first-party depth packs (12 skills each). <b>Real journal covers</b> (fair-use thumbnails, for identification only).</sub>
+  <a href="Cell-Skills/"><img src="assets/covers/cell.png" alt="Cell" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/molecular-cell/"><img src="assets/covers/molecular-cell.png" alt="Molecular Cell" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/cell-stem-cell/"><img src="assets/covers/cell-stem-cell.png" alt="Cell Stem Cell" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/cell-metabolism/"><img src="assets/covers/cell-metabolism.png" alt="Cell Metabolism" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/cell-host-and-microbe/"><img src="assets/covers/cell-host-and-microbe.png" alt="Cell Host & Microbe" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/developmental-cell/"><img src="assets/covers/developmental-cell.png" alt="Developmental Cell" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/current-biology/"><img src="assets/covers/current-biology.png" alt="Current Biology" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/immunity/"><img src="assets/covers/immunity.png" alt="Immunity" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/neuron/"><img src="assets/covers/neuron.png" alt="Neuron" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/the-plant-cell/"><img src="assets/covers/the-plant-cell.png" alt="The Plant Cell" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/genome-biology/"><img src="assets/covers/genome-biology.png" alt="Genome Biology" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nucleic-acids-research/"><img src="assets/covers/nucleic-acids-research.png" alt="Nucleic Acids Research" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/the-embo-journal/"><img src="assets/covers/the-embo-journal.png" alt="The EMBO Journal" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/elife/"><img src="assets/covers/elife.png" alt="eLife" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/plos-biology/"><img src="assets/covers/plos-biology.png" alt="PLOS Biology" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/molecular-biology-and-evolution/"><img src="assets/covers/molecular-biology-and-evolution.png" alt="Molecular Biology & Evolution" width="108"></a>
 </p>
+
+<p align="center"><sub><b>Clinical Medicine</b></sub></p>
 <p align="center">
-  <a href="nature-skills/"><img src="assets/nature-cover.jpg" alt="Nature journal cover (illustration © Inna-Marie Strazhnik, 2019)" width="150"></a>
+  <a href="NEJM-Skills/"><img src="assets/covers/nejm.png" alt="NEJM" width="108"></a>
+  <a href="Lancet-Skills/"><img src="assets/covers/the-lancet.png" alt="The Lancet" width="108"></a>
+  <a href="JAMA-Skills/"><img src="assets/covers/jama.png" alt="JAMA" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/the-bmj/"><img src="assets/covers/the-bmj.png" alt="The BMJ" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/annals-of-internal-medicine/"><img src="assets/covers/annals-of-internal-medicine.png" alt="Annals of Internal Medicine" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-medicine/"><img src="assets/covers/nature-medicine.png" alt="Nature Medicine" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/ca-a-cancer-journal-for-clinicians/"><img src="assets/covers/ca-a-cancer-journal-for-clinicians.png" alt="CA: A Cancer Journal for Clinicians" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/journal-of-clinical-oncology/"><img src="assets/covers/journal-of-clinical-oncology.png" alt="Journal of Clinical Oncology" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/journal-of-clinical-investigation/"><img src="assets/covers/journal-of-clinical-investigation.png" alt="Journal of Clinical Investigation" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/journal-of-experimental-medicine/"><img src="assets/covers/journal-of-experimental-medicine.png" alt="Journal of Experimental Medicine" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/cancer-discovery/"><img src="assets/covers/cancer-discovery.png" alt="Cancer Discovery" width="108"></a>
+  <a href="Cancer-Cell-Skills/"><img src="assets/covers/cancer-cell.png" alt="Cancer Cell" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/the-lancet-oncology/"><img src="assets/covers/the-lancet-oncology.png" alt="The Lancet Oncology" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/the-lancet-neurology/"><img src="assets/covers/the-lancet-neurology.png" alt="The Lancet Neurology" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/the-lancet-infectious-diseases/"><img src="assets/covers/the-lancet-infectious-diseases.png" alt="The Lancet Infectious Diseases" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/circulation/"><img src="assets/covers/circulation.png" alt="Circulation" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/european-heart-journal/"><img src="assets/covers/european-heart-journal.png" alt="European Heart Journal" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/journal-of-the-american-college-of-cardiology/"><img src="assets/covers/journal-of-the-american-college-of-cardiology.png" alt="J. Am. College of Cardiology" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/blood/"><img src="assets/covers/blood.png" alt="Blood" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/gastroenterology/"><img src="assets/covers/gastroenterology.png" alt="Gastroenterology" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/gut/"><img src="assets/covers/gut.png" alt="Gut" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/diabetes-care/"><img src="assets/covers/diabetes-care.png" alt="Diabetes Care" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/plos-medicine/"><img src="assets/covers/plos-medicine.png" alt="PLOS Medicine" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/molecular-psychiatry/"><img src="assets/covers/molecular-psychiatry.png" alt="Molecular Psychiatry" width="108"></a>
 </p>
+
+<p align="center"><sub><b>Nature Research</b></sub></p>
 <p align="center">
-  <sub>Other disciplines · <b>Nature</b> &nbsp;<sup>cover illustration © <a href="https://inna-marie.com/2019/08/08/cover-art-nature-journal/">Inna-Marie Strazhnik (2019)</a></sup></sub>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-genetics/"><img src="assets/covers/nature-genetics.png" alt="Nature Genetics" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-methods/"><img src="assets/covers/nature-methods.png" alt="Nature Methods" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-biotechnology/"><img src="assets/covers/nature-biotechnology.png" alt="Nature Biotechnology" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-cell-biology/"><img src="assets/covers/nature-cell-biology.png" alt="Nature Cell Biology" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-immunology/"><img src="assets/covers/nature-immunology.png" alt="Nature Immunology" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-microbiology/"><img src="assets/covers/nature-microbiology.png" alt="Nature Microbiology" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-neuroscience/"><img src="assets/covers/nature-neuroscience.png" alt="Nature Neuroscience" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-structural-and-molecular-biology/"><img src="assets/covers/nature-structural-and-molecular-biology.png" alt="Nature Structural & Molecular Biology" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-human-behaviour/"><img src="assets/covers/nature-human-behaviour.png" alt="Nature Human Behaviour" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-machine-intelligence/"><img src="assets/covers/nature-machine-intelligence.png" alt="Nature Machine Intelligence" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-materials/"><img src="assets/covers/nature-materials.png" alt="Nature Materials" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-nanotechnology/"><img src="assets/covers/nature-nanotechnology.png" alt="Nature Nanotechnology" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-chemistry/"><img src="assets/covers/nature-chemistry.png" alt="Nature Chemistry" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-catalysis/"><img src="assets/covers/nature-catalysis.png" alt="Nature Catalysis" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-physics/"><img src="assets/covers/nature-physics.png" alt="Nature Physics" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-photonics/"><img src="assets/covers/nature-photonics.png" alt="Nature Photonics" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-astronomy/"><img src="assets/covers/nature-astronomy.png" alt="Nature Astronomy" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-geoscience/"><img src="assets/covers/nature-geoscience.png" alt="Nature Geoscience" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-climate-change/"><img src="assets/covers/nature-climate-change.png" alt="Nature Climate Change" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-ecology-and-evolution/"><img src="assets/covers/nature-ecology-and-evolution.png" alt="Nature Ecology & Evolution" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-energy/"><img src="assets/covers/nature-energy.png" alt="Nature Energy" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-sustainability/"><img src="assets/covers/nature-sustainability.png" alt="Nature Sustainability" width="108"></a>
 </p>
+
+<p align="center"><sub><b>Physics &amp; Astronomy</b></sub></p>
+<p align="center">
+  <a href="Physical-Review-Letters-Skills/"><img src="assets/covers/physical-review-letters.png" alt="Physical Review Letters" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/physical-review-x/"><img src="assets/covers/physical-review-x.png" alt="Physical Review X" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/physical-review-b/"><img src="assets/covers/physical-review-b.png" alt="Physical Review B" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/physical-review-d/"><img src="assets/covers/physical-review-d.png" alt="Physical Review D" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/reviews-of-modern-physics/"><img src="assets/covers/reviews-of-modern-physics.png" alt="Reviews of Modern Physics" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/reports-on-progress-in-physics/"><img src="assets/covers/reports-on-progress-in-physics.png" alt="Reports On Progress In Physics" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/prx-quantum/"><img src="assets/covers/prx-quantum.png" alt="PRX Quantum" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/the-astrophysical-journal/"><img src="assets/covers/the-astrophysical-journal.png" alt="The Astrophysical Journal" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/monthly-notices-of-the-royal-astronomical-society/"><img src="assets/covers/monthly-notices-of-the-royal-astronomical-society.png" alt="MNRAS" width="108"></a>
+</p>
+
+<p align="center"><sub><b>Chemistry &amp; Materials</b></sub></p>
+<p align="center">
+  <a href="Journal-of-the-American-Chemical-Society-Skills/"><img src="assets/covers/journal-of-the-american-chemical-society.png" alt="Journal of the American Chemical Society" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/angewandte-chemie-international-edition/"><img src="assets/covers/angewandte-chemie-international-edition.png" alt="Angewandte Chemie Int. Ed." width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/chemical-reviews/"><img src="assets/covers/chemical-reviews.png" alt="Chemical Reviews" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/chemical-society-reviews/"><img src="assets/covers/chemical-society-reviews.png" alt="Chemical Society Reviews" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/accounts-of-chemical-research/"><img src="assets/covers/accounts-of-chemical-research.png" alt="Accounts of Chemical Research" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/chem/"><img src="assets/covers/chem.png" alt="Chem" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/acs-nano/"><img src="assets/covers/acs-nano.png" alt="ACS Nano" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/advanced-materials/"><img src="assets/covers/advanced-materials.png" alt="Advanced Materials" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/joule/"><img src="assets/covers/joule.png" alt="Joule" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/energy-and-environmental-science/"><img src="assets/covers/energy-and-environmental-science.png" alt="Energy & Environmental Science" width="108"></a>
+</p>
+
+<p align="center"><sub><b>Earth, Environment &amp; Ecology</b></sub></p>
+<p align="center">
+  <a href="Environmental-Science-and-Technology-Skills/"><img src="assets/covers/environmental-science-and-technology.png" alt="Environmental Science & Technology" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/ecology-letters/"><img src="assets/covers/ecology-letters.png" alt="Ecology Letters" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/one-earth/"><img src="assets/covers/one-earth.png" alt="One Earth" width="108"></a>
+</p>
+
+<p align="center"><sub><b>Mathematics &amp; Computation</b></sub></p>
+<p align="center">
+  <a href="English-NaturalScience-Journal-Skills/skills/annals-of-mathematics/"><img src="assets/covers/annals-of-mathematics.png" alt="Annals of Mathematics" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/inventiones-mathematicae/"><img src="assets/covers/inventiones-mathematicae.png" alt="Inventiones Mathematicae" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/journal-of-the-american-mathematical-society/"><img src="assets/covers/journal-of-the-american-mathematical-society.png" alt="J. Amer. Math. Soc." width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/journal-of-machine-learning-research/"><img src="assets/covers/journal-of-machine-learning-research.png" alt="JMLR" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/ieee-transactions-on-pattern-analysis-and-machine-intelligence/"><img src="assets/covers/ieee-transactions-on-pattern-analysis-and-machine-intelligence.png" alt="IEEE TPAMI" width="108"></a>
+</p>
+
+<p align="center"><sub><b>Frontiers</b></sub></p>
+<p align="center">
+  <a href="English-NaturalScience-Journal-Skills/skills/science-immunology/"><img src="assets/covers/science-immunology.png" alt="Science Immunology" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/science-robotics/"><img src="assets/covers/science-robotics.png" alt="Science Robotics" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/science-translational-medicine/"><img src="assets/covers/science-translational-medicine.png" alt="Science Translational Medicine" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/trends-in-cognitive-sciences/"><img src="assets/covers/trends-in-cognitive-sciences.png" alt="Trends In Cognitive Sciences" width="108"></a>
+</p>
+<!-- STEM-WALL-END -->
 
 A curated index of **journal- and conference-specific agent skill packs** for manuscript work — every skill covers one stage of the paper lifecycle: selecting topics, framing the advance, identifying causal effects, formatting tables and figures, preparing replication / data-availability packages, and responding to reviewers. Coverage spans five blocks: **business & social-science flagships (Chinese + English)** (economics, finance, management, accounting, marketing, operations, information systems), **humanities & broader social science** (sociology, political science, psychology, demography, communication, history, art, philosophy, literature, religion), **top natural-science & clinical journals** (Science, Cell, PNAS, NEJM, The Lancet, JAMA… plus environment, ecology, and agriculture flagships), and **AI-first computer-science conferences** (NeurIPS / ICML / ICLR / AAAI / IJCAI / AISTATS depth packs + a 155-conference breadth bundle).
 
