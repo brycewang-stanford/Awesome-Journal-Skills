@@ -285,3 +285,15 @@ existing `skills/*/SKILL.md` bodies owned by other lanes; only ADDS resources + 
 - Phase 3: shared cross-cutting empirical-methods resource (reusable causal-inference assets).
 - Phase 4: propagate flagship ERJ-style resources (code/worked-examples/exemplars) to top empirical packs.
 See `.maintenance/AGENT-E-UPLIFT-PROGRAM.md` for the full plan + progress.
+
+### Agent-E lane — PROGRESS UPDATE (2026-06-07, 待验收)
+Phases 1, 5a, 3, 5b complete; Phase 4 piloted on 3 packs; Phase 2 spot-fix done. All hard gates green
+(`python3 tools/run_checks.py --skip-reports --skip-diff-check`). New/changed (all uncommitted for 验收):
+- tools/audit_repo.py (tripwires + `--counts`), tools/quality_scorecard.py (NEW), tools/run_checks.py
+  (scorecard report), tools/README.md; README.md + README.en.md badges/methodology → 1930/122.
+- shared-resources/empirical-methods/ (NEW): reviewer-objection-checklist.md, reporting-standards.md,
+  code/ (English venue-neutral kit), README.md.
+- Quarterly-Journal-of-Economics-Skills / Journal-of-Political-Economy-Skills /
+  Journal-of-Financial-Economics-Skills: NEW resources/{code,worked-examples,exemplars,README} (69.6→93.6).
+- JPE Becker-1965 misattribution fixed in jpe-theory-model, jpe-literature-positioning, JPE source-map.
+Full plan + repeatable Phase-4 pipeline + next targets: .maintenance/AGENT-E-UPLIFT-PROGRAM.md.
