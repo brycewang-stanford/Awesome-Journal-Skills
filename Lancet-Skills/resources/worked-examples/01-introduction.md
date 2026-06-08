@@ -152,4 +152,4 @@ Mapped to this pack's skill checklists:
 
 > Next: see [`../exemplars/library.md`](../exemplars/library.md) for **real, web-verified The Lancet
 > papers** organised by topic × design whose abstracts and panels execute this structure, and
-> [`../official-source-map.md`](../official-source-map.md) for Lancet-specific submission and policy facts.
+> [`../official-source-map.md`](../external_tools.md) for Lancet-specific submission and policy facts.

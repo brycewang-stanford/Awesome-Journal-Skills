@@ -95,10 +95,10 @@ cytosolic stress program.
 causality → significance):
 
 ```
-- LONP2 degrades oxidized aconitase in the mitochondrial matrix            (58 chars)
-- Loss of LONP2 lets oxidized aconitase trigger the ISR via HRI            (57 chars)
-- Protease-dead LONP2 fails to rescue ISR activation and cell death        (58 chars)
-- A matrix protease couples mitochondrial oxidation to cell fate           (56 chars)
+- LONP2 degrades oxidized aconitase in the mitochondrial matrix            (61 chars)
+- Loss of LONP2 lets oxidized aconitase trigger the ISR via HRI            (61 chars)
+- Protease-dead LONP2 fails to rescue ISR activation and cell death        (65 chars)
+- A matrix protease couples mitochondrial oxidation to cell fate           (62 chars)
 ```
 
 **eTOC / "In Brief" blurb** (~50 words, third-person, lay — about the paper, never "we"):

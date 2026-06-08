@@ -14,7 +14,7 @@
 > **Use principle (zero hallucination):** this file gives **design positioning only**. The one-line findings
 > below are paraphrased from the verified article pages to orient you; do **not** treat them as exact
 > quotable numbers, and read the original on `nejm.org` before citing any figure. For NEJM-specific policy,
-> scope, and a do-not-misattribute list, see [`../official-source-map.md`](../official-source-map.md) when it
+> scope, and a do-not-misattribute list, see [`../official-source-map.md`](../external_tools.md) when it
 > is present in this pack.
 
 ---
