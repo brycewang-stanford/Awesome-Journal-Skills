@@ -123,3 +123,20 @@ brief (one QC'd subagent per pack, web-verified exemplars, `../../../` hub-link 
 worked-examples/). Theory-only/humanities packs (AMR, Econometric-Theory, J-Economic-Theory, Math-Finance,
 GEB, AHR, PMLA, Mind, Critical-Inquiry, Art-Bulletin, JAAR, Annals-of-Math) get checklist reference only.
 Natural-science/medicine/CS-AI/ag-env packs are out of scope for the econometric kit by design.
+
+### Week 3 (2026-06-08) — Tier-2 backlog CLEARED
+Completed the venue-specific layer (web-verified exemplars + fictional worked-example) for ALL 43
+remaining econometric-fit English packs, in QC'd parallel subagent batches plus 5 finished by hand
+(JMF/JOM worked-examples; Criminology/POM/JOM/AERJ exemplars) after subagents hit the session cap.
+Every exemplar list web-verified with documented sibling-journal exclusions (e.g. Sampson-Raudenbush-
+Earls collective-efficacy→Science not Criminology; Pagell sustainable-SCM→JSCM not JOM; Schweitzer-
+Cachon newsvendor→Mgmt Sci not POM; RER stem 00346543 vs AERJ 0002831X). A naive link-depth fix briefly
+over-fired `../../`→`../../../../`; corrected with a regex that NORMALIZES to exactly `../../../` and
+re-verified all shared-hub links resolve.
+RESULT: 67 packs now at full resource layer (was 1 at program start, 22 after week 2); 79 with a code
+library; scorecard mean 59.0 → 73.5; 48 packs ≥85, 64 ≥70. All hard gates green
+(`python3 tools/run_checks.py --skip-reports`). AERJ exemplars intentionally lists 2 verified anchors +
+explicit 待核实 cells (no fabrication) — the only deliberately-partial file, honestly flagged.
+Remaining out-of-scope by design (NOT econometric-kit fit): natural-science/medicine, CS-AI, biophysical
+ag/env packs; Chinese econ packs have Tier-1 (Chinese code kit) but Chinese-language exemplar verification
+is a separate future pass; theory/humanities packs get the checklist reference only.

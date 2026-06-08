@@ -305,3 +305,8 @@ added to 18 more flagships (3 QC'd subagent batches). Now 22 packs at full resou
 runnable code library; scorecard mean 59.0→68.1. All hard gates green. Natural-sci/medicine/CS-AI/ag-env
 packs intentionally EXCLUDED from the econometric kit (wrong method). Remaining Tier-2 backlog (~53 packs)
 documented in AGENT-E-UPLIFT-PROGRAM.md — pipeline-ready, not silently skipped.
+
+### Agent-E lane — WEEK-3 UPDATE (2026-06-08, 待验收)
+Tier-2 econometric-fit backlog (43 packs) CLEARED — every fit pack now has web-verified exemplars +
+worked-example. 67 packs at full resource layer; mean 59.0→73.5; all hard gates green. Details in
+AGENT-E-UPLIFT-PROGRAM.md (Week 3). Edits committed by the concurrent committer; nothing destructive.
