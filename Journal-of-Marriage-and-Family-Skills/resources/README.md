@@ -22,3 +22,5 @@ empirical-methods hub and is linked below.
 
 > Method guidance here is venue-neutral; always defer to this pack's skills and
 > `official-source-map.md` for what *this* journal specifically requires.
+| [`worked-examples/`](worked-examples/01-introduction.md) | A before→after rewrite of a paper introduction in this venue's house style (illustrative, fictional). |
+| [`exemplars/library.md`](exemplars/library.md) | Real, web-verified papers from this venue by method × topic, with sibling-journal guardrails. |
