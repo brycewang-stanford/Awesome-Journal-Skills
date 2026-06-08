@@ -271,3 +271,17 @@ no ≥1000字 / wrong-direction 顺序编码 residue; exemplar attributions all 
 stance consistent. Research staged in `.maintenance/AGENT-D-ERJ-RESEARCH.md`. NOTE: parallel agent was
 still active during this pass; Agent D only edited stale/erroneous shared files + added new files, no
 clobbering observed (read-before-write guard held). Skill bodies the parallel agent owns left untouched.
+
+### Agent-E lane — quality & capability uplift program (2026-06-07, 待验收)
+Multi-phase program to raise the quality + capability of journal skills repo-wide. Lane boundaries:
+infrastructure (`tools/*`, `.github/workflows/*`, root READMEs) + NEW additive resources under
+existing packs (resources/code, resources/worked-examples, resources/exemplars). Does NOT rewrite
+existing `skills/*/SKILL.md` bodies owned by other lanes; only ADDS resources + may tighten
+`description:` frontmatter where objectively weak (logged per-pack). Leaves edits uncommitted for 验收.
+- Phase 1 DONE: audit_repo.py tripwires reconciled 1600→1930 / 95→122 (matches live inventory);
+  added `--counts` helper; README.md + README.en.md badges/methodology updated; audit + clone audit
+  both green. (audit_repo.py constants may have been concurrently bumped by another process; verified.)
+- Phase 5a: tools/quality_scorecard.py — objective per-pack scoring to target depth work.
+- Phase 3: shared cross-cutting empirical-methods resource (reusable causal-inference assets).
+- Phase 4: propagate flagship ERJ-style resources (code/worked-examples/exemplars) to top empirical packs.
+See `.maintenance/AGENT-E-UPLIFT-PROGRAM.md` for the full plan + progress.
