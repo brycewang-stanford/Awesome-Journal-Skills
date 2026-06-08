@@ -8,6 +8,8 @@
 | 资源 | 作用 |
 |---|---|
 | [`code/`](code/) | 可复现的 Stata + Python 因果识别脚本骨架（清洗 → 描述 → DID/IV/RDD/DML → 机制 → 稳健性 → 出表）。源自《经济研究》已实跑验证的代码库（Stata 18 MP，2026-06），复制即用，勿盲改命令。 |
+| [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | 完全虚构、明确标注的《金融研究》引言"修改前→修改后"范例：金融问题 → 核心估计量（含量级与区间）→ 识别策略 → 金融机理 → 贡献，遵循该刊行文风格。 |
+| [`exemplars/library.md`](exemplars/library.md) | 经 Web 核实的真实《金融研究》论文，按主题 × 方法编排，并附同源期刊剔除防混淆清单。仅供设计定位——引用数字前请先读原文。 |
 | [审稿人异议清单](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) | 顶刊审稿人按识别策略（DID/IV/RDD/DML/匹配/机制）真实提出的攻击点及预防答法。起表前自检设计。 |
 | [报告规范](../../shared-resources/empirical-methods/reporting-standards.md) | 现代推断与报告的底线：聚类标准误、弱工具诊断、多重检验校正、DID/RDD 报告、可复现。 |
 | [`official-source-map.md`](official-source-map.md) | 该刊的官方事实（费用、字数、盲审、数据政策、参考文献体例），区分 [官]/[经验值]。 |

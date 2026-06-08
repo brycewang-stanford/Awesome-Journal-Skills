@@ -9,10 +9,12 @@ empirical-methods hub and is linked below.
 | Resource | What it gives an agent |
 |---|---|
 | [`code/`](code/) | Reproducible Stata + Python causal-inference skeleton (clean → descriptive → DiD/IV/RDD/DML → mechanism → robustness → tables). Adapted from the verified Economic-Research-Journal-Skills library (Stata 18 MP, 2026-06); copy-and-adapt, change no command blindly. |
+| [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | Before→after rewrite of an applied-econometrics introduction in JAE house style: lead with the estimand and the reproducible finding, identify it on real data, test each assumption, and tie every number to the JAE Data Archive. |
 | [reviewer-objection-checklist](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) | The objections referees actually raise, by identification strategy (DiD / IV / RDD / DML / matching / mechanism), each with its preemption. Stress-test the design before drafting. |
 | [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) | Modern inference + reporting table stakes: SE clustering, weak-IV diagnostics, multiple-testing, DiD/RDD reporting, reproducibility. |
 | [`official-source-map.md`](official-source-map.md) | Venue-specific facts (fees, limits, blinding, data policy, house citation style) with sourcing discipline. |
 | [`external_tools.md`](external_tools.md) | External tools / packages relevant to this venue. |
+| [`exemplars/library.md`](exemplars/library.md) | Real, web-verified *Journal of Applied Econometrics* papers by topic × method, with a sibling-journal omission guard. Design positioning only — read the originals before citing numbers. |
 
 ## How to use
 

@@ -9,6 +9,8 @@ empirical-methods hub and is linked below.
 | Resource | What it gives an agent |
 |---|---|
 | [`code/`](code/) | Reproducible Stata + Python causal-inference skeleton (clean → descriptive → DiD/IV/RDD/DML → mechanism → robustness → tables). Adapted from the verified Economic-Research-Journal-Skills library (Stata 18 MP, 2026-06); copy-and-adapt, change no command blindly. |
+| [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | See a before→after rewrite of an IR-paper introduction in IO house style (international question + generalizable IR theory + design that adjudicates the strongest rival, written across paradigms). Illustrative fictional paper. |
+| [`exemplars/library.md`](exemplars/library.md) | Benchmark against **real, web-verified IO papers** organized by method × topic (formal, constructivist, quantitative). Design positioning only — no fabricated findings; sibling-venue confusions (APSR/AJPS/World Politics/JCR) documented as guardrails. |
 | [reviewer-objection-checklist](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) | The objections referees actually raise, by identification strategy (DiD / IV / RDD / DML / matching / mechanism), each with its preemption. Stress-test the design before drafting. |
 | [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) | Modern inference + reporting table stakes: SE clustering, weak-IV diagnostics, multiple-testing, DiD/RDD reporting, reproducibility. |
 | [`official-source-map.md`](official-source-map.md) | Venue-specific facts (fees, limits, blinding, data policy, house citation style) with sourcing discipline. |

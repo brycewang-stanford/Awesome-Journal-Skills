@@ -9,6 +9,8 @@ empirical-methods hub and is linked below.
 | Resource | What it gives an agent |
 |---|---|
 | [`code/`](code/) | Reproducible Stata + Python causal-inference skeleton (clean → descriptive → DiD/IV/RDD/DML → mechanism → robustness → tables). Adapted from the verified Economic-Research-Journal-Skills library (Stata 18 MP, 2026-06); copy-and-adapt, change no command blindly. |
+| [`worked-examples/`](worked-examples/) | Before→after rewrite of a RED-style introduction (`01-introduction.md`): dynamic mechanism legible before the math, contribution as a delta, pitched to the SED readership. Clearly-marked fictional paper, derived only from this pack's skills. |
+| [`exemplars/library.md`](exemplars/library.md) | Web-verified real **Review of Economic Dynamics** papers by topic × method, with a sibling-confusion guardrail (RED ≠ JME / AEJ:Macro / JET / Macro Dynamics / RES / JPE) and a documented omissions list. Design positioning only — no invented magnitudes. |
 | [reviewer-objection-checklist](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) | The objections referees actually raise, by identification strategy (DiD / IV / RDD / DML / matching / mechanism), each with its preemption. Stress-test the design before drafting. |
 | [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) | Modern inference + reporting table stakes: SE clustering, weak-IV diagnostics, multiple-testing, DiD/RDD reporting, reproducibility. |
 | [`official-source-map.md`](official-source-map.md) | Venue-specific facts (fees, limits, blinding, data policy, house citation style) with sourcing discipline. |

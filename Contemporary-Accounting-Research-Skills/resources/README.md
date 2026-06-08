@@ -13,6 +13,8 @@ empirical-methods hub and is linked below.
 | [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) | Modern inference + reporting table stakes: SE clustering, weak-IV diagnostics, multiple-testing, DiD/RDD reporting, reproducibility. |
 | [`official-source-map.md`](official-source-map.md) | Venue-specific facts (fees, limits, blinding, data policy, house citation style) with sourcing discipline. |
 | [`external_tools.md`](external_tools.md) | External tools / packages relevant to this venue. |
+| [`worked-examples/`](worked-examples/) | Before→after rewrites in CAR house style. `01-introduction.md` shows the front-loaded accounting introduction (question + prediction + finding early, contribution stated relative to a live conversation). Fictional teaching paper; derived from this pack's skills, invents no policy. |
+| [`exemplars/library.md`](exemplars/library.md) | Real CAR papers by topic × method (archival / experimental / analytical), each web-verified on Wiley Online Library as *Contemporary Accounting Research* and guarded against TAR / JAR / JAE / RAST misattribution. Design positioning only — no reproduced numbers. |
 
 ## How to use
 
