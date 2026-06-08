@@ -52,7 +52,7 @@
   <a href="https://github.com/brycewang-stanford/AER-skills"><img src="assets/covers/aer.png" alt="American Economic Review" width="160"></a>
 </p>
 <p align="center">
-  <sub>中文重点社科期刊 + AER —— 风格统一的封面卡。各刊真实封面仍存放在对应 pack 的 <code>assets/</code> 中。</sub>
+  <sub>中文重点社科期刊 + AER —— 均为各刊<b>真实封面</b>（合理使用缩略图，仅用于检索识别）。</sub>
 </p>
 <p align="center">
   <a href="English-SocialScience-Journal-Skills/skills/american-economic-review/"><img src="assets/covers/american-economic-review.png" alt="American Economic Review" width="160"></a>
@@ -79,7 +79,7 @@
   <a href="English-SocialScience-Journal-Skills/skills/information-systems-research/"><img src="assets/covers/information-systems-research.png" alt="Information Systems Research" width="160"></a>
 </p>
 <p align="center">
-  <sub>英文经管重点期刊 —— 来自 <a href="English-SocialScience-Journal-Skills/">English-SocialScience-Journal-Skills</a> 广度合集的统一封面卡（100 本期刊 + 路由）。Top-5、Top-3、FT50、UTD24 等标签用于说明分层；卡片图形不是各刊商标。</sub>
+  <sub>英文经管重点期刊 —— 来自 <a href="English-SocialScience-Journal-Skills/">English-SocialScience-Journal-Skills</a> 广度合集（100 本期刊 + 路由），均为各刊<b>真实封面</b>（合理使用缩略图，仅用于检索识别）。Top-5、Top-3、FT50、UTD24 等标签用于说明分层。</sub>
 </p>
 <p align="center">
   <a href="Science-Skills/"><img src="assets/covers/science.png" alt="Science (AAAS)" width="160"></a>
@@ -89,7 +89,7 @@
   <a href="Lancet-Skills/"><img src="assets/covers/lancet.png" alt="The Lancet 柳叶刀" width="160"></a>
 </p>
 <p align="center">
-  <sub>自然科学与临床顶刊 —— 自有深度包（每个 12 个技能）。封面卡为示意设计，非各刊商标。</sub>
+  <sub>自然科学与临床顶刊 —— 自有深度包（每个 12 个技能），均为各刊<b>真实封面</b>（合理使用缩略图，仅用于检索识别）。</sub>
 </p>
 <p align="center">
   <a href="nature-skills/"><img src="assets/nature-cover.jpg" alt="Nature 期刊封面（插画 © Inna-Marie Strazhnik, 2019）" width="150"></a>
@@ -622,7 +622,7 @@
 <details>
 <summary><b>🖼️ 点击展开：24 本人文与广义社科新刊封面墙</b>（社会学 · 政治学 · 心理学 · 传播 · 教育 · 历史 · 艺术 · 哲学 · 文学 · 宗教）</summary>
 
-<p align="center"><sub>📚 24 本人文 / 广义社科深度包 · 统一封面卡（卡面为示意设计，非各刊商标）</sub></p>
+<p align="center"><sub>📚 24 本人文 / 广义社科深度包 · 各刊真实封面（合理使用缩略图，仅用于检索识别）</sub></p>
 
 <p align="center">
   <a href="American-Sociological-Review-Skills/"><img src="assets/covers/american-sociological-review.png" alt="American Sociological Review" width="100"></a>
@@ -686,7 +686,7 @@
 <details>
 <summary><b>🖼️ 点击展开：6 本环境 / 生态 / 农业新刊封面墙</b></summary>
 
-<p align="center"><sub>📚 6 本环境 / 生态 / 农业深度包 · 统一封面卡（卡面为示意设计，非各刊商标）</sub></p>
+<p align="center"><sub>📚 6 本环境 / 生态 / 农业深度包 · 各刊真实封面（合理使用缩略图，仅用于检索识别）</sub></p>
 
 <p align="center">
   <a href="Environmental-Science-and-Technology-Skills/"><img src="assets/covers/environmental-science-and-technology.png" alt="Environmental Science &amp; Technology" width="100"></a>
@@ -1053,7 +1053,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
   - [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) —— 102 个中文社科期刊 profile
   - [English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) —— 100 本英文经济 / 金融 / 管理 / 会计 / 营销 / 运营 / 信息系统期刊
   - [English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) —— 100 本英文自然科学 / 临床 / 物理 / 形式科学期刊
-- **每刊封面卡** 覆盖全部广度期刊，两份 README 内嵌默认展开的封面画廊，并提供 200 个根目录轻量入口文件夹便于首页浏览。
+- **每刊真实封面** 覆盖全部广度期刊（322 张真实期刊封面，合理使用缩略图），两份 README 内嵌默认展开的封面画廊，并提供 200 个根目录轻量入口文件夹便于首页浏览。
 - **单刊/单会全流程深度包（约 12 步）** —— 113 个仓库内自有 venue 包，覆盖五大板块（AER 与 Nature 另以收录/submodule 包形态提供）：
   - **英文经济学：** AER（submodule）· QJE · JPE · Econometrica · REStud · Journal of Development Economics · Journal of Public Economics · Journal of Labor Economics · Journal of International Economics · Journal of Monetary Economics · RAND Journal of Economics · Journal of Econometrics · Econometric Theory · Quantitative Economics · Journal of Applied Econometrics · JBES · The Econometrics Journal · Review of Economic Dynamics · Journal of Economic Growth · Journal of Economic Theory · Games and Economic Behavior · Journal of Human Resources
   - **英文金融：** Journal of Finance · Journal of Financial Economics · Review of Financial Studies · Review of Finance · JFQA · JFI · Journal of Corporate Finance · Journal of Banking & Finance · Mathematical Finance

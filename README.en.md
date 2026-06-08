@@ -52,7 +52,7 @@ English | [简体中文](README.md)
   <a href="https://github.com/brycewang-stanford/AER-skills"><img src="assets/covers/aer.png" alt="American Economic Review" width="160"></a>
 </p>
 <p align="center">
-  <sub>Flagship Chinese social-science venues + AER — uniform cover cards (depth packs). Real journal covers ship inside each pack's <code>assets/</code>.</sub>
+  <sub>Flagship Chinese social-science venues + AER — <b>real journal covers</b> (fair-use thumbnails, for identification only).</sub>
 </p>
 <p align="center">
   <a href="English-SocialScience-Journal-Skills/skills/american-economic-review/"><img src="assets/covers/american-economic-review.png" alt="American Economic Review" width="160"></a>
@@ -79,7 +79,7 @@ English | [简体中文](README.md)
   <a href="English-SocialScience-Journal-Skills/skills/information-systems-research/"><img src="assets/covers/information-systems-research.png" alt="Information Systems Research" width="160"></a>
 </p>
 <p align="center">
-  <sub>Flagship English econ &amp; business venues — uniform cover cards from the <a href="English-SocialScience-Journal-Skills/">English-SocialScience-Journal-Skills</a> breadth bundle (100 journals + router). Tier badges (Top-5 · Top-3 · FT50 · UTD24) are illustrative; card art is not the journals' trademarks.</sub>
+  <sub>Flagship English econ &amp; business venues from the <a href="English-SocialScience-Journal-Skills/">English-SocialScience-Journal-Skills</a> breadth bundle (100 journals + router) — <b>real journal covers</b> (fair-use thumbnails, for identification only). Tier badges (Top-5 · Top-3 · FT50 · UTD24) indicate tiering.</sub>
 </p>
 <p align="center">
   <a href="Science-Skills/"><img src="assets/covers/science.png" alt="Science (AAAS)" width="160"></a>
@@ -89,7 +89,7 @@ English | [简体中文](README.md)
   <a href="Lancet-Skills/"><img src="assets/covers/lancet.png" alt="The Lancet" width="160"></a>
 </p>
 <p align="center">
-  <sub>Flagship natural-science &amp; clinical venues — first-party depth packs (12 skills each). Card art is illustrative, not the journals' trademarks.</sub>
+  <sub>Flagship natural-science &amp; clinical venues — first-party depth packs (12 skills each). <b>Real journal covers</b> (fair-use thumbnails, for identification only).</sub>
 </p>
 <p align="center">
   <a href="nature-skills/"><img src="assets/nature-cover.jpg" alt="Nature journal cover (illustration © Inna-Marie Strazhnik, 2019)" width="150"></a>
@@ -620,9 +620,9 @@ Beyond business and economics, depth packs now extend to **sociology, political 
 | Religion | Journal of the American Academy of Religion (JAAR) | [Journal-of-the-American-Academy-of-Religion-Skills/](Journal-of-the-American-Academy-of-Religion-Skills/) | 12 |
 
 <details>
-<summary><b>🖼️ Click to expand: the 24 humanities & broader-social-science cover cards</b> (sociology · political science · psychology · communication · education · history · art · philosophy · literature · religion)</summary>
+<summary><b>🖼️ Click to expand: the 24 humanities & broader-social-science covers</b> (sociology · political science · psychology · communication · education · history · art · philosophy · literature · religion)</summary>
 
-<p align="center"><sub>📚 24 humanities / broader-social-science depth packs · uniform cover cards (card art is illustrative, not the journals' trademarks)</sub></p>
+<p align="center"><sub>📚 24 humanities / broader-social-science depth packs · real journal covers (fair-use thumbnails, for identification only)</sub></p>
 
 <p align="center">
   <a href="American-Sociological-Review-Skills/"><img src="assets/covers/american-sociological-review.png" alt="American Sociological Review" width="100"></a>
@@ -684,9 +684,9 @@ Single-venue depth packs (~12 skills each) for environmental science, conservati
 | Crop science | Field Crops Research | [Field-Crops-Research-Skills/](Field-Crops-Research-Skills/) | 12 |
 
 <details>
-<summary><b>🖼️ Click to expand: the 6 environment / ecology / agriculture cover cards</b></summary>
+<summary><b>🖼️ Click to expand: the 6 environment / ecology / agriculture covers</b></summary>
 
-<p align="center"><sub>📚 6 environment / ecology / agriculture depth packs · uniform cover cards (card art is illustrative, not the journals' trademarks)</sub></p>
+<p align="center"><sub>📚 6 environment / ecology / agriculture depth packs · real journal covers (fair-use thumbnails, for identification only)</sub></p>
 
 <p align="center">
   <a href="Environmental-Science-and-Technology-Skills/"><img src="assets/covers/environmental-science-and-technology.png" alt="Environmental Science &amp; Technology" width="100"></a>
@@ -1054,7 +1054,7 @@ use next for my manuscript targeted at <journal>.
   - [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) — 102 Chinese social-science journal profiles
   - [English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) — 100 English econ / finance / management / accounting / marketing / OM / IS journals
   - [English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) — 100 English natural-science / clinical / physical / formal-science journals
-- **Per-journal cover cards** for every breadth journal, always-expanded cover galleries in both READMEs, and 200 lightweight root entry folders for repo-front browsing.
+- **Per-journal real covers** for every breadth journal (322 real journal covers, fair-use thumbnails), always-expanded cover galleries in both READMEs, and 200 lightweight root entry folders for repo-front browsing.
 - **Full end-to-end depth packs (~12 steps)** — 113 first-party venue packs across five areas (AER and Nature additionally ship as curated submodule packs):
   - **English economics:** AER (submodule) · QJE · JPE · Econometrica · REStud · Journal of Development Economics · Journal of Public Economics · Journal of Labor Economics · Journal of International Economics · Journal of Monetary Economics · RAND Journal of Economics · Journal of Econometrics · Econometric Theory · Quantitative Economics · Journal of Applied Econometrics · JBES · The Econometrics Journal · Review of Economic Dynamics · Journal of Economic Growth · Journal of Economic Theory · Games and Economic Behavior · Journal of Human Resources
   - **English finance:** Journal of Finance · Journal of Financial Economics · Review of Financial Studies · Review of Finance · JFQA · JFI · Journal of Corporate Finance · Journal of Banking & Finance · Mathematical Finance
