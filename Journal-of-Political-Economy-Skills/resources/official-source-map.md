@@ -42,7 +42,7 @@ limits), the skills say "verify on the official page" rather than inventing it.
 - <https://en.wikipedia.org/wiki/Journal_of_Political_Economy> — founded 1892 by James Laurence Laughlin; published by University of Chicago Press for the UChicago Dept. of Economics and Booth School of Business; monthly (quarterly 1892–1905, ten/yr 1906–1921, bimonthly 1922–2019); editor-in-chief Esteban Rossi-Hansberg (University of Chicago); ISSN 0022-3808 (print) / 1537-534X (web); 2023 establishment of JPE Micro and JPE Macro.
 - <https://ideas.repec.org/s/ucp/jpolec.html> — publisher University of Chicago Press; ISSN 0022-3808.
 - <https://api.crossref.org/journals/0022-3808> — canonical title "Journal of Political Economy"; publisher "The University of Chicago Press"; ISSN 0022-3808 / 1537-534X.
-- <https://api.crossref.org/journals/0022-3808/works> — bibliographic data for landmark JPE papers cited in the skills: Becker, "Crime and Punishment: An Economic Approach," JPE vol. 76, 1968, pp. 169–217; Becker, "A Theory of the Allocation of Time," JPE vol. 75, 1965; Black & Scholes, "The Pricing of Options and Corporate Liabilities," JPE vol. 81, 1973, pp. 637–654.
+- <https://api.crossref.org/journals/0022-3808/works> — bibliographic data for landmark JPE papers cited in the skills: Becker, "Crime and Punishment: An Economic Approach," JPE vol. 76, 1968, pp. 169–217; Stigler, "The Economics of Information," JPE vol. 69, 1961, pp. 213–225; Black & Scholes, "The Pricing of Options and Corporate Liabilities," JPE vol. 81, 1973, pp. 637–654. (Note: Becker's "A Theory of the Allocation of Time" is in *The Economic Journal* 75(299):493–517, 1965 — not JPE — and was removed here after web verification on 2026-06-07.)
 
 ## Not verified
 

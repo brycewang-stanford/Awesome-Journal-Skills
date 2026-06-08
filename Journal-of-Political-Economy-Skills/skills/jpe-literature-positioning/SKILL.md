@@ -16,7 +16,7 @@ description: Use when writing or repairing the introduction and related-work fra
 
 JPE introductions are economic arguments, not literature catalogs. The reader should finish the first three pages knowing: the economic question, the mechanism, what was already known, the precise gap, and what you do about it. Positioning is judged on whether you have placed the paper against the **right** literature and engaged the **theory** the result bears on — not merely the most recent applied papers.
 
-Because JPE is price-theory rooted, a credible intro usually connects to a body of *theory* (the model or mechanism the evidence tests), not only to prior empirical estimates. Often the foundational paper lives in JPE itself — Becker's "A Theory of the Allocation of Time" (JPE 1965), Becker's "Crime and Punishment" (JPE 1968), or Black and Scholes (JPE 1973). Citing five recent DID papers but ignoring the classic theory your result confirms or overturns — especially the obvious JPE antecedent — is a positioning failure a Chicago referee will name.
+Because JPE is price-theory rooted, a credible intro usually connects to a body of *theory* (the model or mechanism the evidence tests), not only to prior empirical estimates. Often the foundational paper lives in JPE itself — Stigler's "The Economics of Information" (JPE 1961), Becker's "Crime and Punishment" (JPE 1968), or Black and Scholes (JPE 1973). Citing five recent DID papers but ignoring the classic theory your result confirms or overturns — especially the obvious JPE antecedent — is a positioning failure a Chicago referee will name.
 
 ## The JPE introduction arc (five moves)
 
