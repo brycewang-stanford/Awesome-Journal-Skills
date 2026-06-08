@@ -8,6 +8,8 @@ empirical-methods hub and is linked below.
 
 | Resource | What it gives an agent |
 |---|---|
+| [`worked-examples/`](worked-examples/) | Before→after rewrites in JBV house style. [`01-introduction.md`](worked-examples/01-introduction.md): a phenomenon-first introduction (fictional, clearly marked) built from this pack's skills — opens on the entrepreneurial puzzle, names a multidisciplinary mechanism, states the contribution explicitly. |
+| [`exemplars/library.md`](exemplars/library.md) | **Web-verified real JBV papers** (method × topic), each confirmed on ScienceDirect / RePEc `eee/jbvent` with year and volume/issue/pages. Short, clean, zero-hallucination, with an explicit "not-JBV" omissions list guarding against AMR / Org Science / SMJ / ETP / SEJ confusion. |
 | [`code/`](code/) | Reproducible Stata + Python causal-inference skeleton (clean → descriptive → DiD/IV/RDD/DML → mechanism → robustness → tables). Adapted from the verified Economic-Research-Journal-Skills library (Stata 18 MP, 2026-06); copy-and-adapt, change no command blindly. |
 | [reviewer-objection-checklist](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) | The objections referees actually raise, by identification strategy (DiD / IV / RDD / DML / matching / mechanism), each with its preemption. Stress-test the design before drafting. |
 | [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) | Modern inference + reporting table stakes: SE clustering, weak-IV diagnostics, multiple-testing, DiD/RDD reporting, reproducibility. |
