@@ -297,3 +297,11 @@ Phases 1, 5a, 3, 5b complete; Phase 4 piloted on 3 packs; Phase 2 spot-fix done.
   Journal-of-Financial-Economics-Skills: NEW resources/{code,worked-examples,exemplars,README} (69.6→93.6).
 - JPE Becker-1965 misattribution fixed in jpe-theory-model, jpe-literature-positioning, JPE source-map.
 Full plan + repeatable Phase-4 pipeline + next targets: .maintenance/AGENT-E-UPLIFT-PROGRAM.md.
+
+### Agent-E lane — WEEK-2 UPDATE (2026-06-07, 待验收)
+Scaled out the capability layer. Tier-1 (runnable code kit + resources/README) vendored into 75 packs
+(61 English econometric-fit + 14 Chinese econ); Tier-2 (web-verified exemplars + venue worked-example)
+added to 18 more flagships (3 QC'd subagent batches). Now 22 packs at full resource layer; 79 with a
+runnable code library; scorecard mean 59.0→68.1. All hard gates green. Natural-sci/medicine/CS-AI/ag-env
+packs intentionally EXCLUDED from the econometric kit (wrong method). Remaining Tier-2 backlog (~53 packs)
+documented in AGENT-E-UPLIFT-PROGRAM.md — pipeline-ready, not silently skipped.

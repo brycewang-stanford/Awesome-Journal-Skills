@@ -90,4 +90,36 @@ J-Econometrics, J-Development-Economics, J-Public-Economics, RFS, J-Finance, AER
   1965; substituted genuinely JPE-published price-theory classics (Stigler 1961, Crime & Punishment 1968).
 - 2026-06-07: **Phase 5b** — wired the scorecard into `tools/run_checks.py` as a non-failing report;
   documented both new tools + the `--counts` workflow in `tools/README.md`.
-- Final gate: `python3 tools/run_checks.py --skip-reports --skip-diff-check` → all hard checks pass.
+- Final gate (week 1): `python3 tools/run_checks.py --skip-reports --skip-diff-check` → all hard checks pass.
+
+### Week 2 (2026-06-07 cont.) — scale-out
+- **Tier-1 bulk vendoring** (mechanical, by script, zero hallucination): vendored the runnable code kit +
+  generated a `resources/README.md` index into **all 61 English econometric-fit packs** + the **Chinese
+  ERJ kit into 14 Chinese econ packs** (75 total). Scope was deliberately bounded — natural-science/
+  medicine (RCT/lab/clinical), CS-AI (ML), and biophysical ag/env packs were EXCLUDED because the
+  DID/IV/RDD/DML kit does not fit their methods. Result: packs with a runnable code library **1 → 79**;
+  mean score **59.0 → 66.0**. Fixed a vendored-link issue (Chinese `code/README.md` `../code-templates.md`
+  → shared hub) so the markdown link-checker stays green.
+- **Tier-2 venue layers** (QC'd subagents, web-verified, 3 batches of 6): added a fictional venue-style
+  worked-example + a **web-verified** exemplar library to 18 more flagship packs — REStud, Econometrica,
+  RFS, SMJ, AMJ, TAR · JAR, Management-Science, APSR, ASR, J-Marketing, JOLE · J-Finance, ASQ, JCR,
+  Demography, JDE, JMR. Every subagent excluded misattributed papers (documented sibling-journal traps,
+  e.g. FF1993→JFE, Carhart→JF, Hannan-Freeman→AJS, most dev-RCTs→QJE/AER/AEJ). Full-layer packs **4 → 22**;
+  mean **66.0 → 68.1**; 20 packs now ≥85.
+- Fixed one wrong link-depth (Econometrica exemplars used `../../` where `exemplars/` needs `../../../`).
+- All hard gates green after each batch.
+
+### Remaining Tier-2 backlog (pipeline-ready, not yet done — honest no-silent-truncation note)
+~53 econometric-fit packs have Tier-1 (code + cross-cutting checklist/standards) but not yet the
+venue-specific Tier-2 (worked-example + verified exemplars). They are a real capability uplift already;
+Tier-2 is incremental polish. Next by value: J-Public-Economics, J-International-Economics, J-Monetary-
+Economics, J-Econometrics, J-Accounting-and-Economics, Contemporary-Accounting-Research, Quantitative-
+Economics, RAND-JE, Review-of-Economic-Dynamics, Review-of-Finance, J-Corporate-Finance, JFQA, J-Banking-
+Finance, J-Applied-Econometrics, J-Financial-Intermediation, J-Economic-Growth, J-Human-Resources,
+Marketing-Science, MISQ, ISR, Org-Science, JIBS, J-Business-Venturing, Operations-Research, POM, JOM,
+M&SOM, AJPS, J-Politics, World-Politics, IO, POQ, AJS, Social-Forces, Criminology, JMF, SPQ, JPSP,
+Psych-Science, Psych-Bulletin, AERJ, J-Communication, International-Organization. Run the proven Tier-2
+brief (one QC'd subagent per pack, web-verified exemplars, `../../../` hub-link depth in exemplars/ &
+worked-examples/). Theory-only/humanities packs (AMR, Econometric-Theory, J-Economic-Theory, Math-Finance,
+GEB, AHR, PMLA, Mind, Critical-Inquiry, Art-Bulletin, JAAR, Annals-of-Math) get checklist reference only.
+Natural-science/medicine/CS-AI/ag-env packs are out of scope for the econometric kit by design.
