@@ -8,6 +8,8 @@ empirical-methods hub and is linked below.
 
 | Resource | What it gives an agent |
 |---|---|
+| [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | See a before→after rewrite of a paper introduction in SPQ house style (the structure–individual link + named social-psychological mechanism + located tradition). Illustrative fictional sociological-social-psychology paper. |
+| [`exemplars/library.md`](exemplars/library.md) | Benchmark against **real, web-verified SPQ papers** organized by tradition × method (identity / SSP / group processes / status / affect). Design positioning only — no fabricated numbers; sibling-journal confusion guard included. |
 | [`code/`](code/) | Reproducible Stata + Python causal-inference skeleton (clean → descriptive → DiD/IV/RDD/DML → mechanism → robustness → tables). Adapted from the verified Economic-Research-Journal-Skills library (Stata 18 MP, 2026-06); copy-and-adapt, change no command blindly. |
 | [reviewer-objection-checklist](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) | The objections referees actually raise, by identification strategy (DiD / IV / RDD / DML / matching / mechanism), each with its preemption. Stress-test the design before drafting. |
 | [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) | Modern inference + reporting table stakes: SE clustering, weak-IV diagnostics, multiple-testing, DiD/RDD reporting, reproducibility. |
