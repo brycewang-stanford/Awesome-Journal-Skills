@@ -19,20 +19,26 @@
 |---|---|---|---|
 | Ladson-Billings, "Toward a Theory of Culturally Relevant Pedagogy" | 1995, 32(3):465–491 — `10.3102/00028312032003465` | Culturally relevant pedagogy; equity | Qualitative / theory-building (8-teacher study) |
 | Hill, Rowan & Ball, "Effects of Teachers' Mathematical Knowledge for Teaching on Student Achievement" | 2005, 42(2):371–406 — `10.3102/00028312042002371` | Teacher content knowledge → achievement | Hierarchical linear modeling (students in teachers in schools) |
+| Dee & Huffaker, "Accelerating Opportunity: The Effects of Instructionally Supported Detracking" | 2026, 63(2):307–350 — `10.3102/00028312251408539` | Tracking/detracking reform; access to rigorous curriculum | Quasi-experimental policy evaluation |
+| Patrick, Mantzicopoulos & French, "The Predictive Validity of Classroom Observations: Do Teachers' Framework for Teaching Scores Predict Kindergarteners' Achievement and Motivation?" | 2020, 57(5):2021–2058 — `10.3102/0002831219891409` | Validity of a teaching-quality observation instrument | Measurement / psychometrics (predictive validity) |
+| Marsh, Tracy, O'Neal, Jabbar, Lenhoff, Mulfinger & Herrington, "Frames, Policies and Politics: The Shifting Discourse of School Choice" | 2025, 63(1):150–196 — `10.3102/00028312251394033` | School-choice politics; framing | Discourse / qualitative policy analysis |
+| Noll, "Accountability and (In)Congruence in a No-Excuses School College-Going Culture" | 2022, 59(1):112–145 — `10.3102/00028312211057303` | Accountability; college-going culture; identity | Qualitative case study |
 
-These two alone span AERJ's methodological range — a foundational **qualitative theory-building** paper
-and a **quantitative multilevel** causal-leaning study — and its substantive core (equity; teaching
-quality and achievement).
+These span AERJ's methodological range — foundational **qualitative theory-building** (Ladson-Billings)
+and **case study** (Noll), **quantitative multilevel** inference (Hill-Rowan-Ball), **quasi-experimental
+policy evaluation** (Dee-Huffaker), **measurement/psychometrics** (Patrick et al.), and **discourse/
+qualitative policy analysis** (Marsh et al.) — and its substantive core (equity; teaching quality and
+achievement; school choice and accountability policy).
 
 ## To verify and add (`待核实 / TO VERIFY`)
 
-Confirm the `10.3102/0002831X…` DOI before listing. Suggested cells to fill:
+Confirm the `10.3102/0002831X…` DOI before listing. Remaining cells to fill:
 
-- **Quasi-experimental / policy** (e.g., tracking, school choice, accountability) — AERJ, not EEPA.
-- **Measurement / psychometrics** of an educational construct.
-- **Mixed-methods** study of classroom or school process.
-- **Higher-education** access/persistence study.
-- **Discourse / qualitative** study of identity or learning.
+- **Mixed-methods** study of classroom or school process — not yet web-verified; many strong
+  candidates surface in sibling venues (EEPA/ER), so confirm the AERJ stem before adding.
+- **Higher-education** access/persistence study — common candidates (first-gen belonging, financial-aid
+  experiments) were traced to *Educational Researcher* (stem `0013189X`) or *EEPA* (stem `01623737`),
+  NOT AERJ; left unfilled rather than misattributed.
 
 Do not import a candidate from *Educational Researcher*, *RER*, *EEPA*, *JEP*, or *Sociology of
 Education* without confirming the AERJ stem.
@@ -47,4 +53,7 @@ Education* without confirming the AERJ stem.
 - **Position against the AERA family** — be explicit why the paper is AERJ rather than RER (a review),
   ER (a commentary), or EEPA (a policy analysis).
 
-*Sources consulted (2026-06-08): SAGE Journals AERJ article pages for the two DOIs above.*
+*Sources consulted (2026-06-08): Crossref/SAGE metadata for `10.3102/00028312032003465`,
+`10.3102/00028312042002371`, `10.3102/00028312251408539`, `10.3102/0002831219891409`,
+`10.3102/00028312251394033`, and `10.3102/00028312211057303` — each confirmed as
+*American Educational Research Journal* (title/authors/year/vol/issue/pages and `0002831X` DOI stem).*
