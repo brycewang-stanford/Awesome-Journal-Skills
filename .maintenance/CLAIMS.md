@@ -310,3 +310,9 @@ documented in AGENT-E-UPLIFT-PROGRAM.md — pipeline-ready, not silently skipped
 Tier-2 econometric-fit backlog (43 packs) CLEARED — every fit pack now has web-verified exemplars +
 worked-example. 67 packs at full resource layer; mean 59.0→73.5; all hard gates green. Details in
 AGENT-E-UPLIFT-PROGRAM.md (Week 3). Edits committed by the concurrent committer; nothing destructive.
+
+### Agent-E lane — WEEK-4 UPDATE (2026-06-08, 待验收) — PROGRAM COMPLETE
+All remaining categories cleared (natsci/med 9, CS-AI 6, ag/env 6, theory/humanities 13; Chinese 14 by
+parallel agent). EVERY single-venue first-party depth pack (113) now has worked-examples + exemplars;
+79 have the code library. Mean 59.0→79.0; all hard gates green. Fixed mid-run: source-map link repoints,
+AER/claude-scholar submodule pointer drift (restored), link-depth regex. See AGENT-E-UPLIFT-PROGRAM.md Week 4.

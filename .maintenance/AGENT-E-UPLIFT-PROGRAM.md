@@ -140,3 +140,29 @@ explicit 待核实 cells (no fabrication) — the only deliberately-partial file
 Remaining out-of-scope by design (NOT econometric-kit fit): natural-science/medicine, CS-AI, biophysical
 ag/env packs; Chinese econ packs have Tier-1 (Chinese code kit) but Chinese-language exemplar verification
 is a separate future pass; theory/humanities packs get the checklist reference only.
+
+### Week 4 (2026-06-08) — ALL remaining categories CLEARED
+Completed discipline-appropriate resource layers for every remaining single-venue first-party pack:
+- natsci/medicine (9): Cell, Science, PNAS, NEJM, Lancet, JAMA, JACS, Cancer-Cell, PRL — venue-style
+  abstract/intro + web-verified exemplars; NO econ code kit (clinical/bench/physics venues).
+- CS-AI (6): NeurIPS, ICML, ICLR, AAAI, IJCAI, AISTATS — ML-paper intro + verified conference papers
+  (PMLR/proceedings.neurips.cc/ojs.aaai.org/ijcai.org anchored); sibling-venue guards (ICLR≠NeurIPS≠CVPR).
+- ag/env (6): EST, GCB, GEC, ConBio, Field-Crops, Agricultural-Systems — venue-style intro + verified
+  papers; GEC links the shared reviewer-objection-checklist for its quasi-experimental work.
+- theory/humanities (13): AMR, GEB, JET, Econometric-Theory, The-Econometrics-Journal, Math-Finance,
+  AHR, PMLA, Mind, Critical-Inquiry, Art-Bulletin, JAAR, Annals-of-Math — theorem/argument-style intros
+  (propositions/proofs/close-reading, NOT data); verified exemplars (Mind: Turing 1950 / Russell 1905;
+  Annals: Wiles 1995, Zhang 2014; AHR: Scott 1986); NO econ code kit.
+- Chinese econ (14): completed by the parallel agent in Chinese (web-verified rows + honest 待核实
+  placeholders + sister-journal guards).
+Subagents excluded misattributions throughout (CRISPR Jinek→Science not Cell; Aiyagari→QJE not RED;
+Panofsky Arnolfini→Burlington not Art Bulletin; Barney 1991→J.Mgmt not AMR; HJM→Econometrica not Math
+Finance; Keating APSIM→EJA not Ag Systems). Econometric-Theory exemplars left as honest 待核实 structure
+(authoring-time web outage); all else web-verified.
+Infra incidents fixed mid-run: (a) JACS/Lancet/NEJM linked a nonexistent official-source-map.md →
+repointed to external_tools.md; (b) AER-skills + claude-scholar submodule pointers had drifted (+1 stray
+skill, count 1930→1931) → `git submodule update --checkout` restored recorded pointers; (c) a naive
+link-depth sed over-fired ../../→../../../../ → fixed with a normalizing regex. All verified green after each.
+FINAL: every single-venue first-party depth pack (113) now has worked-examples + exemplars; 79 carry the
+runnable code library; scorecard mean 59.0 → 79.0; 91 packs ≥70, 48 ≥85. The 4 breadth bundles (multi-
+venue navigation packs, 100+ profiles each) are intentionally out of scope. All hard gates green.
