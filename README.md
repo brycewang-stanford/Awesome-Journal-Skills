@@ -619,6 +619,40 @@
 | 批评理论 | Critical Inquiry | [Critical-Inquiry-Skills/](Critical-Inquiry-Skills/) | 12 |
 | 宗教 | Journal of the American Academy of Religion (JAAR) | [Journal-of-the-American-Academy-of-Religion-Skills/](Journal-of-the-American-Academy-of-Religion-Skills/) | 12 |
 
+<details>
+<summary><b>🖼️ 点击展开：24 本人文与广义社科新刊封面墙</b>（社会学 · 政治学 · 心理学 · 传播 · 教育 · 历史 · 艺术 · 哲学 · 文学 · 宗教）</summary>
+
+<p align="center"><sub>📚 24 本人文 / 广义社科深度包 · 统一封面卡（卡面为示意设计，非各刊商标）</sub></p>
+
+<p align="center">
+  <a href="American-Sociological-Review-Skills/"><img src="assets/covers/american-sociological-review.png" alt="American Sociological Review" width="100"></a>
+  <a href="American-Journal-of-Sociology-Skills/"><img src="assets/covers/american-journal-of-sociology.png" alt="American Journal of Sociology" width="100"></a>
+  <a href="Social-Forces-Skills/"><img src="assets/covers/social-forces.png" alt="Social Forces" width="100"></a>
+  <a href="Social-Psychology-Quarterly-Skills/"><img src="assets/covers/social-psychology-quarterly.png" alt="Social Psychology Quarterly" width="100"></a>
+  <a href="Journal-of-Marriage-and-Family-Skills/"><img src="assets/covers/journal-of-marriage-and-family.png" alt="Journal of Marriage and Family" width="100"></a>
+  <a href="Criminology-Skills/"><img src="assets/covers/criminology.png" alt="Criminology" width="100"></a>
+  <a href="Demography-Skills/"><img src="assets/covers/demography.png" alt="Demography" width="100"></a>
+  <a href="American-Political-Science-Review-Skills/"><img src="assets/covers/american-political-science-review.png" alt="American Political Science Review" width="100"></a>
+  <a href="American-Journal-of-Political-Science-Skills/"><img src="assets/covers/american-journal-of-political-science.png" alt="American Journal of Political Science" width="100"></a>
+  <a href="Journal-of-Politics-Skills/"><img src="assets/covers/journal-of-politics.png" alt="The Journal of Politics" width="100"></a>
+  <a href="World-Politics-Skills/"><img src="assets/covers/world-politics.png" alt="World Politics" width="100"></a>
+  <a href="International-Organization-Skills/"><img src="assets/covers/international-organization.png" alt="International Organization" width="100"></a>
+  <a href="Journal-of-Personality-and-Social-Psychology-Skills/"><img src="assets/covers/journal-of-personality-and-social-psychology.png" alt="Journal of Personality and Social Psychology" width="100"></a>
+  <a href="Psychological-Bulletin-Skills/"><img src="assets/covers/psychological-bulletin.png" alt="Psychological Bulletin" width="100"></a>
+  <a href="Psychological-Science-Skills/"><img src="assets/covers/psychological-science.png" alt="Psychological Science" width="100"></a>
+  <a href="Journal-of-Communication-Skills/"><img src="assets/covers/journal-of-communication.png" alt="Journal of Communication" width="100"></a>
+  <a href="Public-Opinion-Quarterly-Skills/"><img src="assets/covers/public-opinion-quarterly.png" alt="Public Opinion Quarterly" width="100"></a>
+  <a href="American-Educational-Research-Journal-Skills/"><img src="assets/covers/american-educational-research-journal.png" alt="American Educational Research Journal" width="100"></a>
+  <a href="American-Historical-Review-Skills/"><img src="assets/covers/american-historical-review.png" alt="The American Historical Review" width="100"></a>
+  <a href="The-Art-Bulletin-Skills/"><img src="assets/covers/the-art-bulletin.png" alt="The Art Bulletin" width="100"></a>
+  <a href="Mind-Skills/"><img src="assets/covers/mind.png" alt="Mind" width="100"></a>
+  <a href="PMLA-Skills/"><img src="assets/covers/pmla.png" alt="PMLA" width="100"></a>
+  <a href="Critical-Inquiry-Skills/"><img src="assets/covers/critical-inquiry.png" alt="Critical Inquiry" width="100"></a>
+  <a href="Journal-of-the-American-Academy-of-Religion-Skills/"><img src="assets/covers/journal-of-the-american-academy-of-religion.png" alt="Journal of the American Academy of Religion" width="100"></a>
+</p>
+
+</details>
+
 ### 自然科学 · 英文顶刊 —— 深度独立包
 
 | 封面 | 期刊 | Pack | 学科 | 技能数 |
@@ -648,6 +682,22 @@
 | 全球环境变化 | Global Environmental Change | [Global-Environmental-Change-Skills/](Global-Environmental-Change-Skills/) | 12 |
 | 农业系统 | Agricultural Systems | [Agricultural-Systems-Skills/](Agricultural-Systems-Skills/) | 12 |
 | 作物科学 | Field Crops Research | [Field-Crops-Research-Skills/](Field-Crops-Research-Skills/) | 12 |
+
+<details>
+<summary><b>🖼️ 点击展开：6 本环境 / 生态 / 农业新刊封面墙</b></summary>
+
+<p align="center"><sub>📚 6 本环境 / 生态 / 农业深度包 · 统一封面卡（卡面为示意设计，非各刊商标）</sub></p>
+
+<p align="center">
+  <a href="Environmental-Science-and-Technology-Skills/"><img src="assets/covers/environmental-science-and-technology.png" alt="Environmental Science &amp; Technology" width="100"></a>
+  <a href="Conservation-Biology-Skills/"><img src="assets/covers/conservation-biology.png" alt="Conservation Biology" width="100"></a>
+  <a href="Global-Change-Biology-Skills/"><img src="assets/covers/global-change-biology.png" alt="Global Change Biology" width="100"></a>
+  <a href="Global-Environmental-Change-Skills/"><img src="assets/covers/global-environmental-change.png" alt="Global Environmental Change" width="100"></a>
+  <a href="Agricultural-Systems-Skills/"><img src="assets/covers/agricultural-systems.png" alt="Agricultural Systems" width="100"></a>
+  <a href="Field-Crops-Research-Skills/"><img src="assets/covers/field-crops-research.png" alt="Field Crops Research" width="100"></a>
+</p>
+
+</details>
 
 ### 自然科学 · 英文顶刊 —— 广度合集
 
