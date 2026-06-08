@@ -82,14 +82,22 @@
   <sub>英文经管重点期刊 —— 来自 <a href="English-SocialScience-Journal-Skills/">English-SocialScience-Journal-Skills</a> 广度合集（100 本期刊 + 路由），均为各刊<b>真实封面</b>（合理使用缩略图，仅用于检索识别）。Top-5、Top-3、FT50、UTD24 等标签用于说明分层。</sub>
 </p>
 <p align="center">
-  <a href="Science-Skills/"><img src="assets/covers/science.png" alt="Science (AAAS)" width="160"></a>
-  <a href="Cell-Skills/"><img src="assets/covers/cell.png" alt="Cell (Cell Press)" width="160"></a>
-  <a href="PNAS-Skills/"><img src="assets/covers/pnas.png" alt="PNAS" width="160"></a>
-  <a href="NEJM-Skills/"><img src="assets/covers/nejm.png" alt="NEJM — 新英格兰医学杂志" width="160"></a>
-  <a href="Lancet-Skills/"><img src="assets/covers/lancet.png" alt="The Lancet 柳叶刀" width="160"></a>
+  <a href="Science-Skills/"><img src="assets/covers/science.png" alt="Science (AAAS)" width="150"></a>
+  <a href="Cell-Skills/"><img src="assets/covers/cell.png" alt="Cell (Cell Press)" width="150"></a>
+  <a href="Cancer-Cell-Skills/"><img src="assets/covers/cancer-cell.png" alt="Cancer Cell" width="150"></a>
+  <a href="PNAS-Skills/"><img src="assets/covers/pnas.png" alt="PNAS" width="150"></a>
+  <a href="NEJM-Skills/"><img src="assets/covers/nejm.png" alt="NEJM — 新英格兰医学杂志" width="150"></a>
+  <a href="JAMA-Skills/"><img src="assets/covers/jama.png" alt="JAMA — 美国医学会杂志" width="150"></a>
+  <a href="Lancet-Skills/"><img src="assets/covers/lancet.png" alt="The Lancet 柳叶刀" width="150"></a>
 </p>
 <p align="center">
-  <sub>自然科学与临床顶刊 —— 自有深度包（每个 12 个技能），均为各刊<b>真实封面</b>（合理使用缩略图，仅用于检索识别）。</sub>
+  <a href="Physical-Review-Letters-Skills/"><img src="assets/covers/physical-review-letters.png" alt="Physical Review Letters (PRL)" width="150"></a>
+  <a href="Journal-of-the-American-Chemical-Society-Skills/"><img src="assets/covers/journal-of-the-american-chemical-society.png" alt="Journal of the American Chemical Society (JACS)" width="150"></a>
+  <a href="Environmental-Science-and-Technology-Skills/"><img src="assets/covers/environmental-science-and-technology.png" alt="Environmental Science & Technology (ES&T)" width="150"></a>
+  <a href="Global-Environmental-Change-Skills/"><img src="assets/covers/global-environmental-change.png" alt="Global Environmental Change" width="150"></a>
+</p>
+<p align="center">
+  <sub>自然科学与临床顶刊 —— 综合 · 生命 · 临床（Science · Cell · Cancer Cell · PNAS · NEJM · JAMA · The Lancet）、物理 · 化学 · 环境（PRL · JACS · ES&amp;T · Global Environmental Change），自有深度包（每个 12 个技能），均为各刊<b>真实封面</b>（合理使用缩略图，仅用于检索识别）。</sub>
 </p>
 <p align="center">
   <a href="nature-skills/"><img src="assets/nature-cover.jpg" alt="Nature 期刊封面（插画 © Inna-Marie Strazhnik, 2019）" width="150"></a>
