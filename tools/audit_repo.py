@@ -17,8 +17,12 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 
-EXPECTED_SKILL_COUNT = 1600
-EXPECTED_PACK_COUNT = 95
+# Tripwire counts: these guard against accidental bulk deletion or stray
+# additions. When you intentionally add/remove packs, update these three values
+# (and the README badges) in the same commit. Run `python3 tools/audit_repo.py
+# --counts` to print the live numbers to copy in.
+EXPECTED_SKILL_COUNT = 1930
+EXPECTED_PACK_COUNT = 122
 EXPECTED_ROOT_JOURNAL_ENTRIES = 200
 
 IMPORTED_ROOTS = {
@@ -446,7 +450,32 @@ def check_markdown_links(errors: list[str]) -> None:
                     errors.append(f"{rel(path)}:{lineno}: broken local link {target!r}")
 
 
+def print_live_counts() -> int:
+    skill_count = len(iter_skill_files())
+    pack_roots = {
+        path.parent.parent
+        for path in ROOT.glob("*/.claude-plugin/plugin.json")
+        if path.parent.parent.is_dir()
+    }
+    for extra in ("nature-paper-skills", "codex-claude-academic-skills"):
+        root = ROOT / extra
+        if any(root.rglob("SKILL.md")):
+            pack_roots.add(root)
+    root_entries = sum(
+        1
+        for path in ROOT.glob("*/README.md")
+        if ROOT_ENTRY_MARKER in path.read_text(encoding="utf-8", errors="replace")
+    )
+    print("Live repository inventory (copy into the EXPECTED_* tripwires + README badges):")
+    print(f"  EXPECTED_SKILL_COUNT          = {skill_count}")
+    print(f"  EXPECTED_PACK_COUNT           = {len(pack_roots)}")
+    print(f"  EXPECTED_ROOT_JOURNAL_ENTRIES = {root_entries}")
+    return 0
+
+
 def main() -> int:
+    if "--counts" in sys.argv[1:]:
+        return print_live_counts()
     errors: list[str] = []
     check_counts(errors)
     check_submodule_policy(errors)

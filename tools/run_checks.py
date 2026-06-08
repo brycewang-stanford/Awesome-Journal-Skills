@@ -81,6 +81,11 @@ def main(argv: list[str]) -> int:
         ):
             failures += 1 if run(command) else 0
 
+        # Non-failing quality report: surfaces the lowest-scoring packs so the
+        # quality trajectory is visible in CI logs. Never fails the build (it is
+        # a guide for where capability/depth work pays off, not a gate).
+        run(["python3", "tools/quality_scorecard.py", "--top", "15"])
+
     if failures:
         print(f"\n{failures} check(s) failed.", file=sys.stderr)
         return 1

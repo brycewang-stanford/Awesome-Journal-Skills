@@ -21,6 +21,17 @@ should fail on warnings.
 |------|---------|-----------------|
 | [`source_map_audit.py`](source_map_audit.py) | Reports first-party `resources/official-source-map.md` files with missing source URLs, missing visible check dates, thin content, and heavy unresolved-flag loads. | `python3 tools/source_map_audit.py` |
 | [`root_entry_audit.py`](root_entry_audit.py) | Reports progress and source-anchor gaps for the 200 root journal-entry cards. | `python3 tools/root_entry_audit.py` |
+| [`quality_scorecard.py`](quality_scorecard.py) | Scores every first-party pack 0–100 on objective quality dimensions (skill depth, trigger/`description:` precision, resources present, structure). Guides where capability/depth work pays off. `--top N` shows the lowest scorers; `--json` for diffing the trajectory over time; `--min-score` can gate a focused cleanup. | `python3 tools/quality_scorecard.py --top 20` |
+
+### Updating the inventory tripwires
+
+`audit_repo.py` hard-codes the expected skill/pack/root-entry counts so accidental
+bulk deletions fail CI. When you intentionally add or remove packs, refresh the
+three `EXPECTED_*` constants (and the README badges) in the same commit:
+
+```bash
+python3 tools/audit_repo.py --counts   # prints the live numbers to copy in
+```
 
 ## Python Syntax Check
 
