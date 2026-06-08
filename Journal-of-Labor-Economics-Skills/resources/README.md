@@ -9,6 +9,8 @@ empirical-methods hub and is linked below.
 | Resource | What it gives an agent |
 |---|---|
 | [`code/`](code/) | Reproducible Stata + Python causal-inference skeleton (clean → descriptive → DiD/IV/RDD/DML → mechanism → robustness → tables). Adapted from the verified Economic-Research-Journal-Skills library (Stata 18 MP, 2026-06); copy-and-adapt, change no command blindly. |
+| [`worked-examples/`](worked-examples/01-introduction.md) | Before→after rewrite of a labor-economics paper **introduction** in JOLE house style (fictional teaching paper), mapped to this pack's `jole-writing-style` / `jole-topic-selection` / `jole-contribution-framing` skills. |
+| [`exemplars/library.md`](exemplars/library.md) | **Web-verified real JOLE papers** by topic × method (6 verified, access date 2026-06-07), with a sibling-confusion guardrail (not JHR / Labour Economics / ILR / QJE / AEJ) and an omissions list. Design positioning only — zero invented findings. |
 | [reviewer-objection-checklist](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) | The objections referees actually raise, by identification strategy (DiD / IV / RDD / DML / matching / mechanism), each with its preemption. Stress-test the design before drafting. |
 | [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) | Modern inference + reporting table stakes: SE clustering, weak-IV diagnostics, multiple-testing, DiD/RDD reporting, reproducibility. |
 | [`official-source-map.md`](official-source-map.md) | Venue-specific facts (fees, limits, blinding, data policy, house citation style) with sourcing discipline. |

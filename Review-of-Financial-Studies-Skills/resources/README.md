@@ -9,6 +9,8 @@ empirical-methods hub and is linked below.
 | Resource | What it gives an agent |
 |---|---|
 | [`code/`](code/) | Reproducible Stata + Python causal-inference skeleton (clean → descriptive → DiD/IV/RDD/DML → mechanism → robustness → tables). Adapted from the verified Economic-Research-Journal-Skills library (Stata 18 MP, 2026-06); copy-and-adapt, change no command blindly. |
+| [`worked-examples/`](worked-examples/) | Before→after rewrite of an empirical-finance INTRODUCTION in RFS house style, derived from this pack's own skills (hook → design → magnitude → delta → mechanism; ≤100-word abstract). Fictional illustrative paper — no invented journal policy. |
+| [`exemplars/library.md`](exemplars/library.md) | Real papers **published in RFS specifically** (web-verified against Oxford Academic, 2026-06-07), organized by method × topic, with a sibling-journal (JF/JFE/RoF) "do-not-misattribute" guardrail list. Design positioning only — no reproduced numbers. |
 | [reviewer-objection-checklist](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) | The objections referees actually raise, by identification strategy (DiD / IV / RDD / DML / matching / mechanism), each with its preemption. Stress-test the design before drafting. |
 | [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) | Modern inference + reporting table stakes: SE clustering, weak-IV diagnostics, multiple-testing, DiD/RDD reporting, reproducibility. |
 | [`official-source-map.md`](official-source-map.md) | Venue-specific facts (fees, limits, blinding, data policy, house citation style) with sourcing discipline. |

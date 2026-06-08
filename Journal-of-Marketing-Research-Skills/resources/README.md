@@ -9,6 +9,8 @@ empirical-methods hub and is linked below.
 | Resource | What it gives an agent |
 |---|---|
 | [`code/`](code/) | Reproducible Stata + Python causal-inference skeleton (clean → descriptive → DiD/IV/RDD/DML → mechanism → robustness → tables). Adapted from the verified Economic-Research-Journal-Skills library (Stata 18 MP, 2026-06); copy-and-adapt, change no command blindly. |
+| [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | A before→after rewrite of a marketing-paper introduction in JMR house style — front-loaded research argument clearing JMR's dual (substantive + methodological-credibility) bar, with a tested mechanism. Illustrative fictional paper; derived from this pack's skills. |
+| [`exemplars/library.md`](exemplars/library.md) | Benchmark against **real, web-verified JMR papers** by topic × method (measurement, behavioral, modeling/econometric, big-data text). Design positioning only — no fabricated numbers — with a sibling-journal omission guard (JM / Marketing Science / JCR / JCP / QME). |
 | [reviewer-objection-checklist](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) | The objections referees actually raise, by identification strategy (DiD / IV / RDD / DML / matching / mechanism), each with its preemption. Stress-test the design before drafting. |
 | [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) | Modern inference + reporting table stakes: SE clustering, weak-IV diagnostics, multiple-testing, DiD/RDD reporting, reproducibility. |
 | [`official-source-map.md`](official-source-map.md) | Venue-specific facts (fees, limits, blinding, data policy, house citation style) with sourcing discipline. |

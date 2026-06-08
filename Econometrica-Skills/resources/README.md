@@ -9,6 +9,8 @@ empirical-methods hub and is linked below.
 | Resource | What it gives an agent |
 |---|---|
 | [`code/`](code/) | Reproducible Stata + Python causal-inference skeleton (clean → descriptive → DiD/IV/RDD/DML → mechanism → robustness → tables). Adapted from the verified Economic-Research-Journal-Skills library (Stata 18 MP, 2026-06); copy-and-adapt, change no command blindly. |
+| [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | See a before→after rewrite of an econometrics/economic-theory introduction in Econometrica house style (informal main theorem early → why it's hard → proof architecture → formal delta vs. prior work). Illustrative fictional paper. |
+| [`exemplars/library.md`](exemplars/library.md) | Benchmark against **real, web-verified Econometrica papers** organized by method × topic, with an explicit sibling-journal (JoE / Econometric Theory / Quantitative Economics / REStud) guard. Design positioning only — no fabricated theorems or numbers. |
 | [reviewer-objection-checklist](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) | The objections referees actually raise, by identification strategy (DiD / IV / RDD / DML / matching / mechanism), each with its preemption. Stress-test the design before drafting. |
 | [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) | Modern inference + reporting table stakes: SE clustering, weak-IV diagnostics, multiple-testing, DiD/RDD reporting, reproducibility. |
 | [`official-source-map.md`](official-source-map.md) | Venue-specific facts (fees, limits, blinding, data policy, house citation style) with sourcing discipline. |

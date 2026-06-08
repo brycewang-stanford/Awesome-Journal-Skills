@@ -13,6 +13,8 @@ empirical-methods hub and is linked below.
 | [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) | Modern inference + reporting table stakes: SE clustering, weak-IV diagnostics, multiple-testing, DiD/RDD reporting, reproducibility. |
 | [`official-source-map.md`](official-source-map.md) | Venue-specific facts (fees, limits, blinding, data policy, house citation style) with sourcing discipline. |
 | [`external_tools.md`](external_tools.md) | External tools / packages relevant to this venue. |
+| [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | See a before→after rewrite of a development-economics paper introduction in JDE house style (development question → welfare-magnitude → contribution → honest scope). Illustrative fictional paper. |
+| [`exemplars/library.md`](exemplars/library.md) | Benchmark against **real, web-verified JDE papers** organized by method × topic, with a sibling-confusion guardrail. Design positioning only — no fabricated numbers. |
 
 ## How to use
 

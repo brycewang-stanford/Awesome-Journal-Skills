@@ -13,6 +13,8 @@ empirical-methods hub and is linked below.
 | [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) | Modern inference + reporting table stakes: SE clustering, weak-IV diagnostics, multiple-testing, DiD/RDD reporting, reproducibility. |
 | [`official-source-map.md`](official-source-map.md) | Venue-specific facts (fees, limits, blinding, data policy, house citation style) with sourcing discipline. |
 | [`external_tools.md`](external_tools.md) | External tools / packages relevant to this venue. |
+| [`worked-examples/`](worked-examples/) | Before→after rewrite of a paper introduction in REStud house style, derived from this pack's writing-style / positioning / topic-selection skills. Uses a clearly-marked fictional paper; invents no journal policy. |
+| [`exemplars/library.md`](exemplars/library.md) | Real REStud papers organized by method × topic, each web-verified against Oxford Academic (access date 2026-06-07) with sibling-venue omissions documented. Design positioning only — no invented findings. |
 
 ## How to use
 
