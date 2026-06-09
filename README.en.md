@@ -97,7 +97,7 @@ English | [简体中文](README.md)
 <p align="center"><sub><b>Multidisciplinary</b></sub></p>
 <p align="center">
   <a href="Science-Skills/"><img src="assets/covers/science.png" alt="Science" width="108"></a>
-  <a href="Nature-Skills/"><img src="assets/covers/nature.png" alt="Nature" width="108"></a>
+  <a href="nature-skills/"><img src="assets/covers/nature.png" alt="Nature" width="108"></a>
   <a href="PNAS-Skills/"><img src="assets/covers/pnas.png" alt="PNAS" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/science-advances/"><img src="assets/covers/science-advances.png" alt="Science Advances" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-communications/"><img src="assets/covers/nature-communications.png" alt="Nature Communications" width="108"></a>
