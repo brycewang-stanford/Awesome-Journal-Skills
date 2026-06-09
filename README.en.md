@@ -37,7 +37,7 @@ English | [简体中文](README.md)
     <a href="#-quick-browsing--layout-guide">🧭 Layout Guide</a> ·
     <a href="#-the-skill-packs">📚 The Skill Packs</a> ·
     <a href="#-how-to-use">⚡ How to Use</a> ·
-    <a href="#-roadmap">🗺️ Roadmap</a> ·
+    <a href="#-roadmap">🗺 Roadmap</a> ·
     <a href="README.md">🌐 简体中文</a>
   </sub>
 </p>
@@ -260,21 +260,21 @@ Use aer-workflow to assess how far my draft is from AER's bar and what to do nex
 
 ### 🧭 Contents
 
-| | | |
+| 🧭 Start · Rationale | 📚 Browse · Index | 🚀 Use · Collaborate |
 |---|---|---|
-| [Quick Browsing & Layout Guide](#-quick-browsing--layout-guide) | [Why journal-specific](#-why-journal-specific-skills) | [The Skill Packs](#-the-skill-packs) |
-| [200 Root Journal Folders](#-200-root-journal-folders) | [Repository Layout](#-repository-layout) | [How to Use](#-how-to-use) |
-| [Pack Picker](#-pack-selection-cheat-sheet) | [Roadmap](#-roadmap) | [Contributing](#-contributing) |
-| [Related Projects](#-related-projects) | [Maintainers](#-maintainers) | [中文 README](README.md) |
+| [Quick Browsing & Layout Guide](#-quick-browsing--layout-guide) | [The Skill Packs](#-the-skill-packs) | [How to Use](#-how-to-use) |
+| [Why journal-specific](#-why-journal-specific-skills) | [200 Root Journal Folders](#-200-root-journal-folders) | [Pack Picker](#-pack-selection-cheat-sheet) |
+| [Roadmap](#-roadmap) | [Repository Layout](#-repository-layout) | [Contributing](#-contributing) |
+| [Related Projects](#-related-projects) | [Maintainers](#-maintainers) | [🌐 中文 README](README.md) |
 
 ### 📊 Coverage at a Glance
 
 | Block | Representative venues | Form |
 |------|-----------|------|
-| **Business & social science** (econ · finance · management · accounting · marketing · operations · IS) | AER · QJE · JPE · Econometrica · JF · AMJ · TAR · MISQ · Economic Research · Management World · Social Sciences in China | depth packs + CN/EN breadth bundles |
-| **Humanities & broader social science** (sociology · political science · psychology · demography · communication · history · art · philosophy · literature · religion) | ASR · AJS · APSR · AJPS · JPSP · Psych Science · Demography · POQ · AHR · PMLA · Mind | depth packs |
-| **Natural science & clinical** (general · life · clinical · physics · chemistry · materials · environment · agriculture) | Science · Cell · PNAS · NEJM · The Lancet · JAMA · PRL · JACS · ES&T · Global Change Biology | depth packs + EN breadth bundle + imported Nature family |
-| **Computer-science conferences** (AI-first) | NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS + 155 venues | depth packs + breadth bundle |
+| 💼 **Business & social science**<br><sub>econ · finance · management · accounting · marketing · operations · IS</sub> | AER · QJE · JPE · Econometrica · JF · AMJ · TAR · MISQ · Economic Research · Management World · Social Sciences in China | depth packs + CN/EN breadth bundles |
+| 🏛 **Humanities & broader social science**<br><sub>sociology · political science · psychology · demography · communication · history · art · philosophy · literature · religion</sub> | ASR · AJS · APSR · AJPS · JPSP · Psych Science · Demography · POQ · AHR · PMLA · Mind | depth packs |
+| 🔬 **Natural science & clinical**<br><sub>general · life · clinical · physics · chemistry · materials · environment · agriculture</sub> | Science · Cell · PNAS · NEJM · The Lancet · JAMA · PRL · JACS · ES&T · Global Change Biology | depth packs + EN breadth bundle + imported Nature family |
+| 🤖 **Computer-science conferences**<br><sub>AI-first</sub> | NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS + 155 venues | depth packs + breadth bundle |
 
 <sub><b>122 packs / 1930 skills</b> total. A "depth pack" = one venue, end-to-end (~12 skills); a "breadth bundle" = one lightweight "venue-fit + house-style" skill per venue plus a router.</sub>
 
@@ -970,7 +970,7 @@ This bundle is the natural-science sibling of the English social-science breadth
 
 ---
 
-## 🗂️ Repository Layout
+## 🗂 Repository Layout
 
 This repo combines **in-repo folder packs** (the China flagship depth packs and the breadth bundle, authored and maintained here) with **git submodules** pinned to upstream repos (AER plus the third-party packs). A scheduled GitHub Action ([`.github/workflows/sync-submodules.yml`](.github/workflows/sync-submodules.yml)) bumps the submodule pins to the latest upstream `main` daily.
 
@@ -1176,7 +1176,7 @@ use next for my manuscript targeted at <journal>.
 
 ---
 
-## 🗺️ Roadmap
+## 🗺 Roadmap
 
 **Status:** the four breadth bundles are fully shipped (including the AI-first CS conference bundle); depth packs now extend beyond business & economics into **humanities & broader social science** (24 flagship venues across sociology, political science, psychology, demography, communication, history, art, philosophy, literature, religion) and **environment / ecology / agriculture** (6 venues), for a repo-wide total of **122 packs / 1930 skills**. The Roadmap now tracks the next tier of expansion.
 

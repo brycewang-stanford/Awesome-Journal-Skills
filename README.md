@@ -37,7 +37,7 @@
     <a href="#-快速浏览与布局指南">🧭 布局指南</a> ·
     <a href="#-skill-pack-一览">📚 Skill Pack 一览</a> ·
     <a href="#-如何使用">⚡ 如何使用</a> ·
-    <a href="#-路线图">🗺️ 路线图</a> ·
+    <a href="#-路线图">🗺 路线图</a> ·
     <a href="README.en.md">🌐 English</a>
   </sub>
 </p>
@@ -271,10 +271,10 @@
 
 | 板块 | 代表 venue | 形态 |
 |------|-----------|------|
-| **经管社科**（经济 · 金融 · 管理 · 会计 · 营销 · 运营 · 信息系统） | AER · QJE · JPE · Econometrica · JF · AMJ · TAR · MISQ ·《经济研究》·《管理世界》·《中国社会科学》 | 深度包 + 中英文广度合集 |
-| **人文与广义社科**（社会学 · 政治学 · 心理学 · 人口学 · 传播学 · 历史 · 艺术 · 哲学 · 文学 · 宗教） | ASR · AJS · APSR · AJPS · JPSP · Psych Science · Demography · POQ · AHR · PMLA · Mind | 深度包 |
-| **自然科学与临床**（综合 · 生命 · 临床 · 物理 · 化学 · 材料 · 环境 · 农业） | Science · Cell · PNAS · NEJM · The Lancet · JAMA · PRL · JACS · ES&T · Global Change Biology | 深度包 + 英文广度合集 + 收录 Nature 系 |
-| **计算机科学顶会**（AI 优先） | NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS + 155 个会议 | 深度包 + 广度合集 |
+| 💼 **经管社科**<br><sub>经济 · 金融 · 管理 · 会计 · 营销 · 运营 · 信息系统</sub> | AER · QJE · JPE · Econometrica · JF · AMJ · TAR · MISQ ·《经济研究》·《管理世界》·《中国社会科学》 | 深度包 + 中英文广度合集 |
+| 🏛 **人文与广义社科**<br><sub>社会学 · 政治学 · 心理学 · 人口学 · 传播学 · 历史 · 艺术 · 哲学 · 文学 · 宗教</sub> | ASR · AJS · APSR · AJPS · JPSP · Psych Science · Demography · POQ · AHR · PMLA · Mind | 深度包 |
+| 🔬 **自然科学与临床**<br><sub>综合 · 生命 · 临床 · 物理 · 化学 · 材料 · 环境 · 农业</sub> | Science · Cell · PNAS · NEJM · The Lancet · JAMA · PRL · JACS · ES&T · Global Change Biology | 深度包 + 英文广度合集 + 收录 Nature 系 |
+| 🤖 **计算机科学顶会**<br><sub>AI 优先</sub> | NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS + 155 个会议 | 深度包 + 广度合集 |
 
 <sub>共 <b>122 个 pack / 1930 个 skill</b>。"深度包"= 单刊单会全流程（约 12 个 skill）；"广度合集"= 每个 venue 一个轻量"选刊定位 + 写作风格"skill 加一个 router。</sub>
 
@@ -970,7 +970,7 @@
 
 ---
 
-## 🗂️ 仓库结构
+## 🗂 仓库结构
 
 本仓库由两类 pack 组成：**仓库内目录包**（中文重点期刊深度包与广度合集，在本仓库内编写维护）与 **git submodule**（AER 及第三方包，指向各自上游）。每天通过 GitHub Actions（[`.github/workflows/sync-submodules.yml`](.github/workflows/sync-submodules.yml)）自动把 submodule 指针 bump 到上游 `main` 最新提交。
 
@@ -1175,7 +1175,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 
 ---
 
-## 🗺️ 路线图
+## 🗺 路线图
 
 **进度：** 四个广度合集已全部落地（含 AI 优先 CS 会议合集）；深度包已从经管社科扩展到**人文与广义社科**（社会学、政治学、心理学、人口、传播、历史、艺术、哲学、文学、宗教共 24 本旗舰刊）以及**环境 / 生态 / 农业** 6 本，全仓库现共 **122 个 pack / 1930 个 skill**。路线图现在聚焦下一梯队的扩展。
 
