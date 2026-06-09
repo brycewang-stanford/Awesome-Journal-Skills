@@ -30,7 +30,7 @@ English | [简体中文](README.md)
   <img src="https://img.shields.io/badge/Skill_Packs-122-2b3137?style=for-the-badge" alt="122 skill packs">
 </p>
 <p align="center">
-  <sub><b>1930 agent skills</b> spanning <b>economics & business, the social sciences & humanities, the natural sciences, clinical medicine and AI / computer science</b>, distilled into <b>122 curated journal &amp; venue packs</b> — a one-stop index of journal- and venue-specific AI submission workflows.</sub>
+<b>1930 agent skills</b> spanning <b>economics &amp; business, the social sciences &amp; humanities, the natural sciences, clinical medicine and AI / computer science</b>, distilled into <b>122 curated journal &amp; venue packs</b><br><sub>— a one-stop index of journal- and venue-specific AI submission workflows</sub>
 </p>
 <p align="center">
   <sub>
