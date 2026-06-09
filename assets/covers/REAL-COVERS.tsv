@@ -381,3 +381,7 @@ communications-on-pure-and-applied-mathematics	Internet Archive (CPAM cover)	fai
 earths-future	Publisher:Wiley/AGU (media CDN)	publisher cover (fair-use)	https://media.wiley.com/journal/23284277-cover.jpg	243x320
 siam-journal-on-computing	epubs.siam.org cover via Wayback (smjcat)	fair-use cover thumbnail	https://web.archive.org/web/2id_/https://epubs.siam.org/cms/10.1137/smjcat.43.6/asset/17efe487-8317-fe48-6831-efe48768317e/cover.jpg	218x320
 jacs-au	Publisher:ACS (epubs Atypon showCoverImage, jaaucr; src https://pubs.acs.org/action/showCoverImage?journalCode=jaaucr)	publisher cover (fair-use)	/tmp/jaaucr.jpg	240x320
+geometry-and-topology	NO-COVER	n/a	no public per-issue cover located (Wikipedia/Wikidata/CDN dry)	480x640
+nature-reviews-methods-primers	NO-COVER	n/a	publisher cover exists but auto-fetch reverted on visual mismatch; pending manual save	480x640
+physical-review-applied	NO-COVER	n/a	APS online journal, no per-issue cover art	480x640
+physical-review-e	NO-COVER	n/a	APS online journal, no per-issue cover art	480x640
