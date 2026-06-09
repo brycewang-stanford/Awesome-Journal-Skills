@@ -30,7 +30,7 @@
   <img src="https://img.shields.io/badge/Skill_Packs-122-2b3137?style=for-the-badge" alt="122 个 Skill 包">
 </p>
 <p align="center">
-  <sub><b>1930 个 Agent Skill · 122 个精选 Pack</b> —— 按<b>期刊与会议</b>定制的一站式 AI 投稿工作流索引。</sub>
+  <sub><b>1930 个 Agent Skill</b>，横跨<b>经管社科 · 人文社科 · 自然科学 · 临床医学 · AI 计算机</b>等多个主流学科，凝结为 <b>122 个精选期刊／会议 Pack</b> —— 按<b>期刊与会议</b>定制的一站式 AI 投稿工作流索引。</sub>
 </p>
 <p align="center">
   <sub>
