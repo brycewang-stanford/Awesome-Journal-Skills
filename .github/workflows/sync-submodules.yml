@@ -32,8 +32,14 @@ jobs:
             codex-claude-academic-skills
 
       - name: Update submodules to latest remote
+        # Use checkout mode (the default), NOT --merge. These are third-party
+        # index imports: their pinned gitlink and the upstream branch HEAD often
+        # have unrelated histories (upstream force-pushes / re-imports), which
+        # makes `--merge` abort with "refusing to merge unrelated histories"
+        # (exit 128). An index only needs to re-pin each gitlink to upstream's
+        # current branch tip, so a plain checkout is both correct and robust.
         run: |
-          git submodule update --remote --merge \
+          git submodule update --remote --checkout --force \
             AER-skills \
             nature-skills \
             nature-paper-skills \
