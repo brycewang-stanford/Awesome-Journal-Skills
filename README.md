@@ -58,10 +58,9 @@
   <a href="Journal-of-Management-Sciences-in-China-Skills/"><img src="assets/covers/journal-of-management-sciences-china.png" alt="《管理科学学报》 J. of Management Sciences in China" width="160"></a>
   <a href="Nankai-Business-Review-Skills/"><img src="assets/covers/nankai-business-review.png" alt="《南开管理评论》 Nankai Business Review" width="160"></a>
   <a href="Sociological-Studies-Skills/"><img src="assets/covers/sociological-studies.png" alt="《社会学研究》 Sociological Studies" width="160"></a>
-  <a href="https://github.com/brycewang-stanford/AER-skills"><img src="assets/covers/aer.png" alt="American Economic Review" width="160"></a>
 </p>
 <p align="center">
-  <sub>中文顶尖社科期刊 + AER —— 每张封面直达一个按刊定制的 Skill 包。</sub>
+  <sub>中文顶尖社科期刊 —— 每张封面直达一个按刊定制的 Skill 包。</sub>
 </p>
 <p align="center">
   <a href="English-SocialScience-Journal-Skills/skills/american-economic-review/"><img src="assets/covers/american-economic-review.png" alt="American Economic Review" width="160"></a>
