@@ -1,28 +1,32 @@
-name: Sync submodules
+name: Submodule drift preview
+
+# This index PINS its third-party submodule imports on purpose: repo-audit.yml
+# enforces an exact canonical-skill tripwire (EXPECTED_SKILL_COUNT), and the
+# README badges quote that same number. Auto-bumping submodules to upstream HEAD
+# silently changes the skill count and breaks the audit on the next push, so this
+# workflow no longer runs on a schedule and never commits. It is a manual,
+# read-only PREVIEW: dispatch it to see which upstreams have moved ahead of the
+# pinned commit, then bump deliberately and locally if (and only if) you want to.
 
 on:
-  schedule:
-    # Daily at 03:00 UTC (11:00 Beijing time)
-    - cron: '0 3 * * *'
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  sync:
+  preview:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Init first-level submodules (non-recursive)
-        # Keep this workflow aligned with repo-audit.yml: only the five
-        # top-level imports are maintained by this index. Some upstream imports
-        # carry nested submodule gitlinks without matching .gitmodules entries.
+        # Only the five top-level imports are maintained by this index. Some
+        # upstream imports carry nested submodule gitlinks without matching
+        # .gitmodules entries, so do not recurse.
         run: |
           git submodule update --init --depth=1 \
             AER-skills \
@@ -31,30 +35,31 @@ jobs:
             claude-scholar \
             codex-claude-academic-skills
 
-      - name: Update submodules to latest remote
-        # Use checkout mode (the default), NOT --merge. These are third-party
-        # index imports: their pinned gitlink and the upstream branch HEAD often
-        # have unrelated histories (upstream force-pushes / re-imports), which
-        # makes `--merge` abort with "refusing to merge unrelated histories"
-        # (exit 128). An index only needs to re-pin each gitlink to upstream's
-        # current branch tip, so a plain checkout is both correct and robust.
+      - name: Report upstream drift (read-only, never commits)
+        # Checkout mode (not --merge) re-points each gitlink to the upstream tip
+        # in the working tree only. We diff that against the committed (pinned)
+        # gitlinks to show what WOULD change, then exit 0 without staging or
+        # pushing anything. --merge is avoided on purpose: these third-party
+        # imports often have unrelated histories and would abort with exit 128.
         run: |
           git submodule update --remote --checkout --force \
             AER-skills \
             nature-skills \
             nature-paper-skills \
             claude-scholar \
-            codex-claude-academic-skills
-          git submodule status
-
-      - name: Commit & push if changed
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            codex-claude-academic-skills || true
+          echo "## Submodule drift vs pinned commits" >> "$GITHUB_STEP_SUMMARY"
           if git diff --quiet; then
-            echo "No submodule updates."
-            exit 0
+            echo "All submodules are at their pinned upstream tip — no drift." \
+              | tee -a "$GITHUB_STEP_SUMMARY"
+          else
+            echo "The following imports have moved ahead of the pinned commit:" \
+              >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+            git diff --submodule=log >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+            echo "Pin is intentional (repo-audit tripwire). Bump locally and" \
+              "deliberately if you want these — this workflow never commits." \
+              >> "$GITHUB_STEP_SUMMARY"
+            git --no-pager diff --submodule=log
           fi
-          git add AER-skills nature-skills nature-paper-skills claude-scholar codex-claude-academic-skills
-          git commit -m "chore: bump submodules to latest upstream"
-          git push
