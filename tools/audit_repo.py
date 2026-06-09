@@ -182,10 +182,26 @@ def check_submodule_policy(errors: list[str]) -> None:
     if re.search(r"\bgit\s+add\s+(?:\.|-A|--all)(?:\s|$)", text):
         errors.append(f"{rel(workflow)}: sync bot must stage only known submodule paths")
 
+    # Pinned-index policy: this index deliberately pins its third-party submodule
+    # imports because the canonical skill count is an exact tripwire (and the
+    # README badges quote it). An auto-bump silently changes that count and breaks
+    # the audit on the next push, so the submodule workflow must stay read-only:
+    # no git commit/push, and no schedule trigger. Bumps are deliberate and local.
+    if re.search(r"\bgit\s+(?:commit|push)\b", text):
+        errors.append(
+            f"{rel(workflow)}: submodule workflow must stay read-only "
+            f"(no git commit/push) — bumps are deliberate and local"
+        )
+    if re.search(r"^\s*schedule\s*:", text, re.MULTILINE):
+        errors.append(
+            f"{rel(workflow)}: submodule workflow must not run on a schedule "
+            f"(manual workflow_dispatch only) so pinned imports never drift"
+        )
+
     for path in paths:
-        if text.count(path) < 3:
+        if text.count(path) < 2:
             errors.append(
-                f"{rel(workflow)}: expected {path!r} in init, update, and targeted git add steps"
+                f"{rel(workflow)}: expected {path!r} in both the init and update steps"
             )
 
 
