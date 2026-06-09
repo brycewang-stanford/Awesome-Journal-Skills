@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/agent-Claude%20Code-cc785c)](https://github.com/anthropics/claude-code)
-[![Skills](https://img.shields.io/badge/skills-1954-cc785c)](#-skill-pack-一览)
+[![Skills](https://img.shields.io/badge/skills-1984-cc785c)](#-skill-pack-一览)
 [![Maintained by CoPaper.AI from Stanford REAP](https://img.shields.io/badge/Maintained%20by-CoPaper.AI%20from%20Stanford%20REAP-blue)](https://copaper.ai)
 [![Powered by StatsPAI](https://img.shields.io/badge/Powered%20by-StatsPAI-orange)](https://github.com/brycewang-stanford/StatsPAI)
 
@@ -25,12 +25,12 @@
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Skills-1954-cc785c?style=for-the-badge" alt="1954 个 Agent Skill">
+  <img src="https://img.shields.io/badge/Skills-1984-cc785c?style=for-the-badge" alt="1984 个 Agent Skill">
   &nbsp;
   <img src="https://img.shields.io/badge/Skill_Packs-122-2b3137?style=for-the-badge" alt="122 个 Skill 包">
 </p>
 <p align="center">
-<b>1954 个 Agent Skill</b>，横跨<b>经管社科 · 人文社科 · 自然科学 · 临床医学 · AI 计算机</b>等多个主流学科，凝结为 <b>122 个精选期刊／会议 Pack</b><br><sub>—— 按<b>期刊与会议</b>定制的一站式 AI 投稿工作流索引</sub>
+<b>1984 个 Agent Skill</b>，横跨<b>经管社科 · 人文社科 · 自然科学 · 临床医学 · AI 计算机</b>等多个主流学科，凝结为 <b>122 个精选期刊／会议 Pack</b><br><sub>—— 按<b>期刊与会议</b>定制的一站式 AI 投稿工作流索引</sub>
 </p>
 <p align="center">
   <sub>
@@ -193,6 +193,14 @@
   <a href="English-NaturalScience-Journal-Skills/skills/the-astronomical-journal/"><img src="assets/covers/the-astronomical-journal.png" alt="The Astronomical Journal" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/journal-of-high-energy-physics/"><img src="assets/covers/journal-of-high-energy-physics.png" alt="Journal of High Energy Physics" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/new-journal-of-physics/"><img src="assets/covers/new-journal-of-physics.png" alt="New Journal of Physics" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/physical-review-e/"><img src="assets/covers/physical-review-e.png" alt="Physical Review E" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/physical-review-applied/"><img src="assets/covers/physical-review-applied.png" alt="Physical Review Applied" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-reviews-physics/"><img src="assets/covers/nature-reviews-physics.png" alt="Nature Reviews Physics" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/physics-reports/"><img src="assets/covers/physics-reports.png" alt="Physics Reports" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/classical-and-quantum-gravity/"><img src="assets/covers/classical-and-quantum-gravity.png" alt="Classical and Quantum Gravity" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/living-reviews-in-relativity/"><img src="assets/covers/living-reviews-in-relativity.png" alt="Living Reviews in Relativity" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/astrophysical-journal-letters/"><img src="assets/covers/astrophysical-journal-letters.png" alt="The Astrophysical Journal Letters" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/annual-review-of-astronomy-and-astrophysics/"><img src="assets/covers/annual-review-of-astronomy-and-astrophysics.png" alt="Annual Review of Astronomy and Astrophysics" width="108"></a>
 </p>
 
 <p align="center"><b>化学与材料 <i>Chemistry &amp; Materials</i></b></p>
@@ -211,6 +219,14 @@
   <a href="English-NaturalScience-Journal-Skills/skills/acs-catalysis/"><img src="assets/covers/acs-catalysis.png" alt="ACS Catalysis" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-reviews-materials/"><img src="assets/covers/nature-reviews-materials.png" alt="Nature Reviews Materials" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/matter/"><img src="assets/covers/matter.png" alt="Matter" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-synthesis/"><img src="assets/covers/nature-synthesis.png" alt="Nature Synthesis" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/jacs-au/"><img src="assets/covers/jacs-au.png" alt="JACS Au" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/acs-central-science/"><img src="assets/covers/acs-central-science.png" alt="ACS Central Science" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/coordination-chemistry-reviews/"><img src="assets/covers/coordination-chemistry-reviews.png" alt="Coordination Chemistry Reviews" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/advanced-energy-materials/"><img src="assets/covers/advanced-energy-materials.png" alt="Advanced Energy Materials" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/advanced-functional-materials/"><img src="assets/covers/advanced-functional-materials.png" alt="Advanced Functional Materials" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/acs-energy-letters/"><img src="assets/covers/acs-energy-letters.png" alt="ACS Energy Letters" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/npj-computational-materials/"><img src="assets/covers/npj-computational-materials.png" alt="npj Computational Materials" width="108"></a>
 </p>
 
 <p align="center"><b>地球 · 环境 · 生态 <i>Earth &amp; Environment</i></b></p>
@@ -226,6 +242,14 @@
   <a href="English-NaturalScience-Journal-Skills/skills/nature-water/"><img src="assets/covers/nature-water.png" alt="Nature Water" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/water-research/"><img src="assets/covers/water-research.png" alt="Water Research" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/atmospheric-chemistry-and-physics/"><img src="assets/covers/atmospheric-chemistry-and-physics.png" alt="Atmospheric Chemistry and Physics" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/annual-review-of-ecology-evolution-and-systematics/"><img src="assets/covers/annual-review-of-ecology-evolution-and-systematics.png" alt="Annual Review of Ecology, Evolution, and Systematics" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/molecular-ecology/"><img src="assets/covers/molecular-ecology.png" alt="Molecular Ecology" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/journal-of-ecology/"><img src="assets/covers/journal-of-ecology.png" alt="Journal of Ecology" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/functional-ecology/"><img src="assets/covers/functional-ecology.png" alt="Functional Ecology" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/journal-of-geophysical-research-atmospheres/"><img src="assets/covers/journal-of-geophysical-research-atmospheres.png" alt="JGR: Atmospheres" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-reviews-earth-and-environment/"><img src="assets/covers/nature-reviews-earth-and-environment.png" alt="Nature Reviews Earth & Environment" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/earths-future/"><img src="assets/covers/earths-future.png" alt="Earth's Future" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/the-cryosphere/"><img src="assets/covers/the-cryosphere.png" alt="The Cryosphere" width="108"></a>
 </p>
 
 <p align="center"><b>数学 · 计算 <i>Mathematics &amp; Computation</i></b></p>
@@ -240,6 +264,10 @@
   <a href="English-NaturalScience-Journal-Skills/skills/duke-mathematical-journal/"><img src="assets/covers/duke-mathematical-journal.png" alt="Duke Mathematical Journal" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/siam-review/"><img src="assets/covers/siam-review.png" alt="SIAM Review" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/journal-of-the-acm/"><img src="assets/covers/journal-of-the-acm.png" alt="Journal of the ACM" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/acta-mathematica/"><img src="assets/covers/acta-mathematica.png" alt="Acta Mathematica" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/geometry-and-topology/"><img src="assets/covers/geometry-and-topology.png" alt="Geometry & Topology" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/foundations-of-computational-mathematics/"><img src="assets/covers/foundations-of-computational-mathematics.png" alt="Foundations of Computational Mathematics" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/siam-journal-on-computing/"><img src="assets/covers/siam-journal-on-computing.png" alt="SIAM Journal on Computing" width="108"></a>
 </p>
 
 <p align="center"><b>跨学科前沿 <i>Frontiers</i></b></p>
@@ -251,6 +279,8 @@
   <a href="English-NaturalScience-Journal-Skills/skills/science-signaling/"><img src="assets/covers/science-signaling.png" alt="Science Signaling" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/cell-reports-medicine/"><img src="assets/covers/cell-reports-medicine.png" alt="Cell Reports Medicine" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-reviews-methods-primers/"><img src="assets/covers/nature-reviews-methods-primers.png" alt="Nature Reviews Methods Primers" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-reviews-drug-discovery/"><img src="assets/covers/nature-reviews-drug-discovery.png" alt="Nature Reviews Drug Discovery" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/the-lancet-digital-health/"><img src="assets/covers/the-lancet-digital-health.png" alt="The Lancet Digital Health" width="108"></a>
 </p>
 <!-- STEM-WALL-END -->
 
@@ -299,7 +329,7 @@
 | 🔬 **自然科学与临床**<br><sub>综合 · 生命 · 临床 · 物理 · 化学 · 材料 · 环境 · 农业</sub> | Science · Cell · PNAS · NEJM · The Lancet · JAMA · PRL · JACS · ES&T · Global Change Biology | 深度包 + 英文广度合集 + 收录 Nature 系 |
 | 🤖 **计算机科学顶会**<br><sub>AI 优先</sub> | NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS + 155 个会议 | 深度包 + 广度合集 |
 
-<sub>共 <b>122 个 pack / 1954 个 skill</b>。"深度包"= 单刊单会全流程（约 12 个 skill）；"广度合集"= 每个 venue 一个轻量"选刊定位 + 写作风格"skill 加一个 router。</sub>
+<sub>共 <b>122 个 pack / 1984 个 skill</b>。"深度包"= 单刊单会全流程（约 12 个 skill）；"广度合集"= 每个 venue 一个轻量"选刊定位 + 写作风格"skill 加一个 router。</sub>
 
 ---
 
@@ -323,7 +353,7 @@
 
 ## 📂 根目录 200 个期刊文件夹
 
-为了让用户在仓库首页的根目录就能看到完整的社科期刊阵列，现在 200 本广度合集期刊各有一个轻量入口文件夹：100 本中文经管路线图期刊使用拼音目录名，100 本英文经管 / 商科期刊使用英文题名目录名。这些目录只负责导航；真正可安装的 `SKILL.md` 仍保留在对应 bundle 内，因此插件路径和 1954 个 skill 的计数不会被重复放大。
+为了让用户在仓库首页的根目录就能看到完整的社科期刊阵列，现在 200 本广度合集期刊各有一个轻量入口文件夹：100 本中文经管路线图期刊使用拼音目录名，100 本英文经管 / 商科期刊使用英文题名目录名。这些目录只负责导航；真正可安装的 `SKILL.md` 仍保留在对应 bundle 内，因此插件路径和 1984 个 skill 的计数不会被重复放大。
 
 ### 中文经管路线图 · 100 个拼音目录
 
@@ -859,15 +889,15 @@
 
 | 合集 | Pack | 覆盖 | 技能数 |
 |------|------|------|-------:|
-| **124 本英文自然科学 / 临床 / 物理 / 形式科学期刊** | [English-NaturalScience-Journal-Skills/](English-NaturalScience-Journal-Skills/) | 一刊一个“选刊定位 + 写作风格”技能 + `en-natsci-journal-workflow` 路由 | 125 |
+| **154 本英文自然科学 / 临床 / 物理 / 形式科学期刊** | [English-NaturalScience-Journal-Skills/](English-NaturalScience-Journal-Skills/) | 一刊一个“选刊定位 + 写作风格”技能 + `en-natsci-journal-workflow` 路由 | 155 |
 
-这是英文经管广度合集的自然科学姊妹包——“另一个 100”如今已扩展到 124 本：综合/多学科 9 · 细胞/分子/基因组生物学 16 · 生态/演化/植物 8 · 免疫/微生物/实验医学 4 · 开放获取与基因组学 3 · 神经科学与行为 4 · 临床综合 7 · 临床专科 11 · 转化与肿瘤 5 · 物理 11 · 天文 5 · 化学 12 · 材料与能源 7 · 地球/环境/气候 10 · CS/AI/工程 5 · 数学 7。与其它广度合集一致，每个 profile 都把易变事实（影响因子、版面费、字数/图数限制）交由单刊“官方核验清单”在投稿前重新核对；临床类还需核对适用报告规范（CONSORT/PRISMA/STROBE/ARRIVE）。
+这是英文经管广度合集的自然科学姊妹包——“另一个 100”如今已扩展到 154 本：综合/多学科 9 · 细胞/分子/基因组生物学 16 · 生态/演化/植物 12 · 免疫/微生物/实验医学 4 · 开放获取与基因组学 3 · 神经科学与行为 4 · 临床综合 9 · 临床专科 11 · 转化与肿瘤 5 · 物理 17 · 天文 7 · 化学 16 · 材料与能源 11 · 地球/环境/气候 14 · CS/AI/工程 6 · 数学 10。与其它广度合集一致，每个 profile 都把易变事实（影响因子、版面费、字数/图数限制）交由单刊“官方核验清单”在投稿前重新核对；临床类还需核对适用报告规范（CONSORT/PRISMA/STROBE/ARRIVE）。
 
 <details>
-<summary><b>🖼️ 点击展开：全部 124 本英文自然科学期刊封面墙</b>（按学科分组）</summary>
+<summary><b>🖼️ 点击展开：全部 154 本英文自然科学期刊封面墙</b>（按学科分组）</summary>
 
 <!-- COVER-GALLERY:en-nat:START -->
-<p align="center"><sub>📚 <b>全部 124 本英文自然科学期刊封面</b> &mdash; 按学科分组</sub></p>
+<p align="center"><sub>📚 <b>全部 154 本英文自然科学期刊封面</b> &mdash; 按学科分组</sub></p>
 
 <p align="center">
   <a href="English-NaturalScience-Journal-Skills/skills/nature/"><img src="assets/covers/nature.png" alt="《Nature》" width="100"></a>
@@ -902,6 +932,10 @@
   <a href="English-NaturalScience-Journal-Skills/skills/trends-in-ecology-and-evolution/"><img src="assets/covers/trends-in-ecology-and-evolution.png" alt="《Trends in Ecology & Evolution》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/global-ecology-and-biogeography/"><img src="assets/covers/global-ecology-and-biogeography.png" alt="《Global Ecology and Biogeography》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/the-isme-journal/"><img src="assets/covers/the-isme-journal.png" alt="《The ISME Journal》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/annual-review-of-ecology-evolution-and-systematics/"><img src="assets/covers/annual-review-of-ecology-evolution-and-systematics.png" alt="《Annual Review of Ecology, Evolution, and Systematics》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/molecular-ecology/"><img src="assets/covers/molecular-ecology.png" alt="《Molecular Ecology》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/journal-of-ecology/"><img src="assets/covers/journal-of-ecology.png" alt="《Journal of Ecology》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/functional-ecology/"><img src="assets/covers/functional-ecology.png" alt="《Functional Ecology》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/immunity/"><img src="assets/covers/immunity.png" alt="《Immunity》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-immunology/"><img src="assets/covers/nature-immunology.png" alt="《Nature Immunology》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-microbiology/"><img src="assets/covers/nature-microbiology.png" alt="《Nature Microbiology》" width="100"></a>
@@ -932,6 +966,8 @@
   <a href="English-NaturalScience-Journal-Skills/skills/the-lancet-neurology/"><img src="assets/covers/the-lancet-neurology.png" alt="《The Lancet Neurology》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/journal-of-clinical-investigation/"><img src="assets/covers/journal-of-clinical-investigation.png" alt="《Journal of Clinical Investigation》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/cell-reports-medicine/"><img src="assets/covers/cell-reports-medicine.png" alt="《Cell Reports Medicine》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-reviews-drug-discovery/"><img src="assets/covers/nature-reviews-drug-discovery.png" alt="《Nature Reviews Drug Discovery》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/the-lancet-digital-health/"><img src="assets/covers/the-lancet-digital-health.png" alt="《The Lancet Digital Health》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/cancer-cell/"><img src="assets/covers/cancer-cell.png" alt="《Cancer Cell》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/cancer-discovery/"><img src="assets/covers/cancer-discovery.png" alt="《Cancer Discovery》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/journal-of-clinical-oncology/"><img src="assets/covers/journal-of-clinical-oncology.png" alt="《Journal of Clinical Oncology》" width="100"></a>
@@ -948,11 +984,19 @@
   <a href="English-NaturalScience-Journal-Skills/skills/prx-quantum/"><img src="assets/covers/prx-quantum.png" alt="《PRX Quantum》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/journal-of-high-energy-physics/"><img src="assets/covers/journal-of-high-energy-physics.png" alt="《Journal of High Energy Physics》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/new-journal-of-physics/"><img src="assets/covers/new-journal-of-physics.png" alt="《New Journal of Physics》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/physical-review-e/"><img src="assets/covers/physical-review-e.png" alt="《Physical Review E》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/physical-review-applied/"><img src="assets/covers/physical-review-applied.png" alt="《Physical Review Applied》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-reviews-physics/"><img src="assets/covers/nature-reviews-physics.png" alt="《Nature Reviews Physics》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/physics-reports/"><img src="assets/covers/physics-reports.png" alt="《Physics Reports》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/classical-and-quantum-gravity/"><img src="assets/covers/classical-and-quantum-gravity.png" alt="《Classical and Quantum Gravity》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/living-reviews-in-relativity/"><img src="assets/covers/living-reviews-in-relativity.png" alt="《Living Reviews in Relativity》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/the-astrophysical-journal/"><img src="assets/covers/the-astrophysical-journal.png" alt="《The Astrophysical Journal》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/monthly-notices-of-the-royal-astronomical-society/"><img src="assets/covers/monthly-notices-of-the-royal-astronomical-society.png" alt="《Monthly Notices of the Royal Astronomical Society》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-astronomy/"><img src="assets/covers/nature-astronomy.png" alt="《Nature Astronomy》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/astronomy-and-astrophysics/"><img src="assets/covers/astronomy-and-astrophysics.png" alt="《Astronomy & Astrophysics》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/the-astronomical-journal/"><img src="assets/covers/the-astronomical-journal.png" alt="《The Astronomical Journal》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/astrophysical-journal-letters/"><img src="assets/covers/astrophysical-journal-letters.png" alt="《The Astrophysical Journal Letters》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/annual-review-of-astronomy-and-astrophysics/"><img src="assets/covers/annual-review-of-astronomy-and-astrophysics.png" alt="《Annual Review of Astronomy and Astrophysics》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/journal-of-the-american-chemical-society/"><img src="assets/covers/journal-of-the-american-chemical-society.png" alt="《Journal of the American Chemical Society》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/angewandte-chemie-international-edition/"><img src="assets/covers/angewandte-chemie-international-edition.png" alt="《Angewandte Chemie International Edition》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/chemical-reviews/"><img src="assets/covers/chemical-reviews.png" alt="《Chemical Reviews》" width="100"></a>
@@ -964,6 +1008,10 @@
   <a href="English-NaturalScience-Journal-Skills/skills/acs-nano/"><img src="assets/covers/acs-nano.png" alt="《ACS Nano》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-reviews-chemistry/"><img src="assets/covers/nature-reviews-chemistry.png" alt="《Nature Reviews Chemistry》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/acs-catalysis/"><img src="assets/covers/acs-catalysis.png" alt="《ACS Catalysis》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-synthesis/"><img src="assets/covers/nature-synthesis.png" alt="《Nature Synthesis》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/jacs-au/"><img src="assets/covers/jacs-au.png" alt="《JACS Au》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/acs-central-science/"><img src="assets/covers/acs-central-science.png" alt="《ACS Central Science》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/coordination-chemistry-reviews/"><img src="assets/covers/coordination-chemistry-reviews.png" alt="《Coordination Chemistry Reviews》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/advanced-materials/"><img src="assets/covers/advanced-materials.png" alt="《Advanced Materials》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-materials/"><img src="assets/covers/nature-materials.png" alt="《Nature Materials》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-nanotechnology/"><img src="assets/covers/nature-nanotechnology.png" alt="《Nature Nanotechnology》" width="100"></a>
@@ -972,6 +1020,10 @@
   <a href="English-NaturalScience-Journal-Skills/skills/nature-energy/"><img src="assets/covers/nature-energy.png" alt="《Nature Energy》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-reviews-materials/"><img src="assets/covers/nature-reviews-materials.png" alt="《Nature Reviews Materials》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/matter/"><img src="assets/covers/matter.png" alt="《Matter》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/advanced-energy-materials/"><img src="assets/covers/advanced-energy-materials.png" alt="《Advanced Energy Materials》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/advanced-functional-materials/"><img src="assets/covers/advanced-functional-materials.png" alt="《Advanced Functional Materials》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/acs-energy-letters/"><img src="assets/covers/acs-energy-letters.png" alt="《ACS Energy Letters》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/npj-computational-materials/"><img src="assets/covers/npj-computational-materials.png" alt="《npj Computational Materials》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-geoscience/"><img src="assets/covers/nature-geoscience.png" alt="《Nature Geoscience》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-climate-change/"><img src="assets/covers/nature-climate-change.png" alt="《Nature Climate Change》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-sustainability/"><img src="assets/covers/nature-sustainability.png" alt="《Nature Sustainability》" width="100"></a>
@@ -982,11 +1034,16 @@
   <a href="English-NaturalScience-Journal-Skills/skills/nature-water/"><img src="assets/covers/nature-water.png" alt="《Nature Water》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/water-research/"><img src="assets/covers/water-research.png" alt="《Water Research》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/atmospheric-chemistry-and-physics/"><img src="assets/covers/atmospheric-chemistry-and-physics.png" alt="《Atmospheric Chemistry and Physics》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/journal-of-geophysical-research-atmospheres/"><img src="assets/covers/journal-of-geophysical-research-atmospheres.png" alt="《JGR: Atmospheres》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-reviews-earth-and-environment/"><img src="assets/covers/nature-reviews-earth-and-environment.png" alt="《Nature Reviews Earth & Environment》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/earths-future/"><img src="assets/covers/earths-future.png" alt="《Earth's Future》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/the-cryosphere/"><img src="assets/covers/the-cryosphere.png" alt="《The Cryosphere》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/ieee-transactions-on-pattern-analysis-and-machine-intelligence/"><img src="assets/covers/ieee-transactions-on-pattern-analysis-and-machine-intelligence.png" alt="《IEEE Transactions on Pattern Analysis and Machine Intelligence》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/journal-of-machine-learning-research/"><img src="assets/covers/journal-of-machine-learning-research.png" alt="《Journal of Machine Learning Research》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-machine-intelligence/"><img src="assets/covers/nature-machine-intelligence.png" alt="《Nature Machine Intelligence》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/science-robotics/"><img src="assets/covers/science-robotics.png" alt="《Science Robotics》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/journal-of-the-acm/"><img src="assets/covers/journal-of-the-acm.png" alt="《Journal of the ACM》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/siam-journal-on-computing/"><img src="assets/covers/siam-journal-on-computing.png" alt="《SIAM Journal on Computing》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/annals-of-mathematics/"><img src="assets/covers/annals-of-mathematics.png" alt="《Annals of Mathematics》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/inventiones-mathematicae/"><img src="assets/covers/inventiones-mathematicae.png" alt="《Inventiones Mathematicae》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/journal-of-the-american-mathematical-society/"><img src="assets/covers/journal-of-the-american-mathematical-society.png" alt="《Journal of the American Mathematical Society》" width="100"></a>
@@ -994,6 +1051,9 @@
   <a href="English-NaturalScience-Journal-Skills/skills/advances-in-mathematics/"><img src="assets/covers/advances-in-mathematics.png" alt="《Advances in Mathematics》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/duke-mathematical-journal/"><img src="assets/covers/duke-mathematical-journal.png" alt="《Duke Mathematical Journal》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/siam-review/"><img src="assets/covers/siam-review.png" alt="《SIAM Review》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/acta-mathematica/"><img src="assets/covers/acta-mathematica.png" alt="《Acta Mathematica》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/geometry-and-topology/"><img src="assets/covers/geometry-and-topology.png" alt="《Geometry & Topology》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/foundations-of-computational-mathematics/"><img src="assets/covers/foundations-of-computational-mathematics.png" alt="《Foundations of Computational Mathematics》" width="100"></a>
 </p>
 <!-- COVER-GALLERY:en-nat:END -->
 
@@ -1013,7 +1073,7 @@
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | 选题 → 写作 → 发表（Claude Code / OpenCode / Codex） | upstream |
 | **Codex/Claude 学术 Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | 阅读 · 写作 · 科学计算 | upstream |
 
-<sub><b>计数口径。</b> 首页 <b>1954</b> = 仓库内全部 <code>SKILL.md</code> 减去 10 个 Nature 插件镜像重复文件，分布在 <b>122 个 pack</b> 中。四个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。三段对账：<b>1363</b>（113 个仓库内深度包，单刊/单会全流程，每包约 12 个 skill）+ <b>485</b>（4 个广度合集：中文社科 103 + 英文社科 101 + 英文自然科学 125 + CS 会议 156）+ <b>106</b>（5 个收录/submodule 包：AER 9 + Nature 系 10 + Nature-Paper 18 + claude-scholar 45 + codex-claude 24）= <b>1954</b>。该数字由 <code>python3 tools/audit_repo.py</code> 在 CI 中强制校验，README 与实际文件数不允许漂移。</sub>
+<sub><b>计数口径。</b> 首页 <b>1984</b> = 仓库内全部 <code>SKILL.md</code> 减去 10 个 Nature 插件镜像重复文件，分布在 <b>122 个 pack</b> 中。四个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。三段对账：<b>1363</b>（113 个仓库内深度包，单刊/单会全流程，每包约 12 个 skill）+ <b>515</b>（4 个广度合集：中文社科 103 + 英文社科 101 + 英文自然科学 155 + CS 会议 156）+ <b>106</b>（5 个收录/submodule 包：AER 9 + Nature 系 10 + Nature-Paper 18 + claude-scholar 45 + codex-claude 24）= <b>1984</b>。该数字由 <code>python3 tools/audit_repo.py</code> 在 CI 中强制校验，README 与实际文件数不允许漂移。</sub>
 
 ---
 
@@ -1114,8 +1174,8 @@ awesome-journal-skills/
 ├── Critical-Inquiry-Skills/               → Critical Inquiry（12 skills）
 ├── Journal-of-the-American-Academy-of-Religion-Skills/ → JAAR（12 skills）
 ├── Chinese-SocialScience-Journal-Skills/  → 中文广度合集，102 个期刊 profile + router（103 skills）
-├── English-SocialScience-Journal-Skills/  → 英文经管广度合集，124 本期刊 fit 技能 + 路由（125 skills）
-├── English-NaturalScience-Journal-Skills/ → 英文自然科学广度合集，124 本期刊 fit 技能 + 路由（125 skills）
+├── English-SocialScience-Journal-Skills/  → 英文经管广度合集，100 本期刊 fit 技能 + 路由（101 skills）
+├── English-NaturalScience-Journal-Skills/ → 英文自然科学广度合集，154 本期刊 fit 技能 + 路由（155 skills）
 │   # CS/AI 会议深度包（本仓库内编写维护）
 ├── AAAI-Skills/                   → AAAI 主技术轨（12 skills）
 ├── AISTATS-Skills/                → AISTATS 主会（12 skills）
@@ -1224,7 +1284,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 
 ## 🗺 路线图
 
-**进度：** 四个广度合集已全部落地（含 AI 优先 CS 会议合集）；深度包已从经管社科扩展到**人文与广义社科**（社会学、政治学、心理学、人口、传播、历史、艺术、哲学、文学、宗教共 24 本旗舰刊）以及**环境 / 生态 / 农业** 6 本，全仓库现共 **122 个 pack / 1954 个 skill**。路线图现在聚焦下一梯队的扩展。
+**进度：** 四个广度合集已全部落地（含 AI 优先 CS 会议合集）；深度包已从经管社科扩展到**人文与广义社科**（社会学、政治学、心理学、人口、传播、历史、艺术、哲学、文学、宗教共 24 本旗舰刊）以及**环境 / 生态 / 农业** 6 本，全仓库现共 **122 个 pack / 1984 个 skill**。路线图现在聚焦下一梯队的扩展。
 
 ### ✅ 已落地
 
@@ -1232,7 +1292,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
   - [Computer-Science-Conference-Skills](Computer-Science-Conference-Skills/) —— 155 个计算机科学会议 profile + `cs-ai-conference-workflow`，以 NeurIPS / ICML / ICLR / AAAI / IJCAI 开头
   - [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) —— 102 个中文社科期刊 profile
   - [English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) —— 100 本英文经济 / 金融 / 管理 / 会计 / 营销 / 运营 / 信息系统期刊
-  - [English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) —— 124 本英文自然科学 / 临床 / 物理 / 形式科学期刊
+  - [English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) —— 154 本英文自然科学 / 临床 / 物理 / 形式科学期刊
 - **每刊封面直达** 覆盖全部广度期刊（322 本期刊封面墙），两份 README 内嵌默认展开的封面画廊，并提供 200 个根目录轻量入口文件夹便于首页浏览。
 - **单刊/单会全流程深度包（约 12 步）** —— 113 个仓库内自有 venue 包，覆盖五大板块（AER 与 Nature 另以收录/submodule 包形态提供）：
   - **英文经济学：** AER（submodule）· QJE · JPE · Econometrica · REStud · Journal of Development Economics · Journal of Public Economics · Journal of Labor Economics · Journal of International Economics · Journal of Monetary Economics · RAND Journal of Economics · Journal of Econometrics · Econometric Theory · Quantitative Economics · Journal of Applied Econometrics · JBES · The Econometrics Journal · Review of Economic Dynamics · Journal of Economic Growth · Journal of Economic Theory · Games and Economic Behavior · Journal of Human Resources
@@ -1385,7 +1445,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 </details>
 
 <details>
-<summary><b>英文 —— 自然科学 / 临床 / 物理 / 形式科学 124 本</b>（点击展开）</summary>
+<summary><b>英文 —— 自然科学 / 临床 / 物理 / 形式科学 154 本</b>（点击展开）</summary>
 
 #### 综合 General science (9)
 
@@ -1419,7 +1479,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 16. eLife
 17. Cell Metabolism
 
-#### 生态与进化 Ecology & evolution (6)
+#### 生态与进化 Ecology & evolution (10)
 
 1. Ecology Letters
 2. Nature Ecology & Evolution
@@ -1427,6 +1487,10 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 4. Trends in Ecology & Evolution (TREE)
 5. Global Ecology and Biogeography (GEB)
 6. The ISME Journal
+7. Annual Review of Ecology, Evolution, and Systematics (AREES)
+8. Molecular Ecology
+9. Journal of Ecology
+10. Functional Ecology
 
 #### 免疫与微生物 Immunology & microbiology (6)
 
@@ -1445,7 +1509,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 4. Molecular Psychiatry
 5. Nature Human Behaviour
 
-#### 临床医学 Clinical medicine (19)
+#### 临床医学 Clinical medicine (21)
 
 1. The New England Journal of Medicine (NEJM)
 2. The Lancet
@@ -1466,6 +1530,8 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 17. The Lancet Neurology
 18. Journal of Clinical Investigation (JCI)
 19. Cell Reports Medicine
+20. Nature Reviews Drug Discovery
+21. The Lancet Digital Health
 
 #### 肿瘤 Oncology (5)
 
@@ -1475,7 +1541,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 4. CA: A Cancer Journal for Clinicians
 5. The Lancet Oncology
 
-#### 物理 Physics (11)
+#### 物理 Physics (17)
 
 1. Physical Review Letters (PRL)
 2. Physical Review B
@@ -1488,16 +1554,24 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 9. PRX Quantum
 10. Journal of High Energy Physics (JHEP)
 11. New Journal of Physics (NJP)
+12. Physical Review E (PRE)
+13. Physical Review Applied
+14. Nature Reviews Physics
+15. Physics Reports
+16. Classical and Quantum Gravity (CQG)
+17. Living Reviews in Relativity
 
-#### 天文与天体物理 Astronomy & astrophysics (5)
+#### 天文与天体物理 Astronomy & astrophysics (7)
 
 1. The Astrophysical Journal (ApJ)
 2. Monthly Notices of the Royal Astronomical Society (MNRAS)
 3. Nature Astronomy
 4. Astronomy & Astrophysics (A&A)
 5. The Astronomical Journal (AJ)
+6. The Astrophysical Journal Letters (ApJL)
+7. Annual Review of Astronomy and Astrophysics (ARA&A)
 
-#### 化学 Chemistry (11)
+#### 化学 Chemistry (15)
 
 1. Journal of the American Chemical Society (JACS)
 2. Angewandte Chemie International Edition
@@ -1510,8 +1584,12 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 9. ACS Nano
 10. Nature Reviews Chemistry
 11. ACS Catalysis
+12. Nature Synthesis
+13. JACS Au
+14. ACS Central Science
+15. Coordination Chemistry Reviews
 
-#### 材料与能源 Materials & energy (8)
+#### 材料与能源 Materials & energy (12)
 
 1. Advanced Materials
 2. Nature Materials
@@ -1521,8 +1599,12 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 6. Nature Energy
 7. Nature Reviews Materials
 8. Matter
+9. Advanced Energy Materials
+10. Advanced Functional Materials
+11. ACS Energy Letters
+12. npj Computational Materials
 
-#### 地球与环境 Earth & environment (10)
+#### 地球与环境 Earth & environment (14)
 
 1. Nature Geoscience
 2. Nature Climate Change
@@ -1534,16 +1616,21 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 8. Nature Water
 9. Water Research
 10. Atmospheric Chemistry and Physics (ACP)
+11. Journal of Geophysical Research: Atmospheres (JGR)
+12. Nature Reviews Earth & Environment
+13. Earth's Future
+14. The Cryosphere
 
-#### 计算机与人工智能 Computer science & AI (5)
+#### 计算机与人工智能 Computer science & AI (6)
 
 1. IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
 2. Journal of Machine Learning Research (JMLR)
 3. Nature Machine Intelligence
 4. Science Robotics
 5. Journal of the ACM (JACM)
+6. SIAM Journal on Computing (SICOMP)
 
-#### 数学 Mathematics (7)
+#### 数学 Mathematics (10)
 
 1. Annals of Mathematics
 2. Inventiones Mathematicae
@@ -1552,6 +1639,9 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 5. Advances in Mathematics
 6. Duke Mathematical Journal
 7. SIAM Review
+8. Acta Mathematica
+9. Geometry & Topology
+10. Foundations of Computational Mathematics (FoCM)
 
 </details>
 

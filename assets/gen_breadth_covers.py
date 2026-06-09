@@ -171,6 +171,8 @@ EN_NAT = {
         "ecology-letters", "nature-ecology-and-evolution", "molecular-biology-and-evolution",
         "trends-in-ecology-and-evolution", "global-ecology-and-biogeography",
         "the-isme-journal",
+        "annual-review-of-ecology-evolution-and-systematics", "molecular-ecology",
+        "journal-of-ecology", "functional-ecology",
     ],
     "immuno": [
         "immunity", "nature-immunology", "nature-microbiology", "cell-host-and-microbe",
@@ -187,6 +189,7 @@ EN_NAT = {
         "journal-of-the-american-college-of-cardiology", "gastroenterology", "gut",
         "blood", "diabetes-care", "the-lancet-infectious-diseases", "the-lancet-neurology",
         "journal-of-clinical-investigation", "cell-reports-medicine",
+        "nature-reviews-drug-discovery", "the-lancet-digital-health",
     ],
     "onco": [
         "cancer-cell", "cancer-discovery", "journal-of-clinical-oncology",
@@ -197,11 +200,14 @@ EN_NAT = {
         "physical-review-x", "reviews-of-modern-physics", "reports-on-progress-in-physics",
         "nature-physics", "nature-photonics", "prx-quantum",
         "journal-of-high-energy-physics", "new-journal-of-physics",
+        "physical-review-e", "physical-review-applied", "nature-reviews-physics",
+        "physics-reports", "classical-and-quantum-gravity", "living-reviews-in-relativity",
     ],
     "astro": [
         "the-astrophysical-journal", "monthly-notices-of-the-royal-astronomical-society",
         "nature-astronomy",
         "astronomy-and-astrophysics", "the-astronomical-journal",
+        "astrophysical-journal-letters", "annual-review-of-astronomy-and-astrophysics",
     ],
     "chem": [
         "journal-of-the-american-chemical-society",
@@ -209,28 +215,37 @@ EN_NAT = {
         "chemical-society-reviews", "accounts-of-chemical-research", "nature-chemistry",
         "nature-catalysis", "chem", "acs-nano",
         "nature-reviews-chemistry", "acs-catalysis",
+        "nature-synthesis", "jacs-au", "acs-central-science",
+        "coordination-chemistry-reviews",
     ],
     "matsci": [
         "advanced-materials", "nature-materials", "nature-nanotechnology",
         "energy-and-environmental-science", "joule", "nature-energy",
         "nature-reviews-materials", "matter",
+        "advanced-energy-materials", "advanced-functional-materials",
+        "acs-energy-letters", "npj-computational-materials",
     ],
     "earth": [
         "nature-geoscience", "nature-climate-change", "nature-sustainability",
         "one-earth", "environmental-science-and-technology",
         "geophysical-research-letters", "reviews-of-geophysics", "nature-water",
         "water-research", "atmospheric-chemistry-and-physics",
+        "journal-of-geophysical-research-atmospheres", "nature-reviews-earth-and-environment",
+        "earths-future", "the-cryosphere",
     ],
     "cs": [
         "ieee-transactions-on-pattern-analysis-and-machine-intelligence",
         "journal-of-machine-learning-research", "nature-machine-intelligence",
         "science-robotics", "journal-of-the-acm",
+        "siam-journal-on-computing",
     ],
     "math": [
         "annals-of-mathematics", "inventiones-mathematicae",
         "journal-of-the-american-mathematical-society",
         "communications-on-pure-and-applied-mathematics", "advances-in-mathematics",
         "duke-mathematical-journal", "siam-review",
+        "acta-mathematica", "geometry-and-topology",
+        "foundations-of-computational-mathematics",
     ],
 }
 
@@ -405,6 +420,27 @@ ABBREV = {
     "science-signaling": "Sci. Signal.",
     "nature-reviews-methods-primers": "Nat. Rev. Methods Primers",
     "cell-reports-medicine": "Cell Rep. Med.",
+    # --- breadth STEM expansion wave 2 (2026-06) ---
+    "physical-review-e": "PRE", "physical-review-applied": "PR Applied",
+    "nature-reviews-physics": "Nat. Rev. Phys.", "physics-reports": "Phys. Rep.",
+    "classical-and-quantum-gravity": "CQG", "living-reviews-in-relativity": "LRR",
+    "astrophysical-journal-letters": "ApJL",
+    "annual-review-of-astronomy-and-astrophysics": "ARA&A",
+    "nature-synthesis": "Nat. Synth.", "jacs-au": "JACS Au",
+    "acs-central-science": "ACS Cent. Sci.", "coordination-chemistry-reviews": "Coord. Chem. Rev.",
+    "advanced-energy-materials": "Adv. Energy Mater.",
+    "advanced-functional-materials": "Adv. Funct. Mater.",
+    "acs-energy-letters": "ACS Energy Lett.", "npj-computational-materials": "npj Comput. Mater.",
+    "annual-review-of-ecology-evolution-and-systematics": "AREES",
+    "molecular-ecology": "Mol. Ecol.", "journal-of-ecology": "J. Ecol.",
+    "functional-ecology": "Funct. Ecol.",
+    "journal-of-geophysical-research-atmospheres": "JGR-Atmos.",
+    "nature-reviews-earth-and-environment": "Nat. Rev. Earth Environ.",
+    "earths-future": "Earth's Future", "the-cryosphere": "TC",
+    "acta-mathematica": "Acta Math.", "geometry-and-topology": "Geom. Topol.",
+    "foundations-of-computational-mathematics": "FoCM", "siam-journal-on-computing": "SICOMP",
+    "nature-reviews-drug-discovery": "Nat. Rev. Drug Discov.",
+    "the-lancet-digital-health": "Lancet Digit. Health",
 }
 
 # Names that should render with the abbreviation as the hero (full name too long

@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/agent-Claude%20Code-cc785c)](https://github.com/anthropics/claude-code)
-[![Skills](https://img.shields.io/badge/skills-1954-cc785c)](#-the-skill-packs)
+[![Skills](https://img.shields.io/badge/skills-1984-cc785c)](#-the-skill-packs)
 [![Maintained by CoPaper.AI from Stanford REAP](https://img.shields.io/badge/Maintained%20by-CoPaper.AI%20from%20Stanford%20REAP-blue)](https://copaper.ai)
 [![Powered by StatsPAI](https://img.shields.io/badge/Powered%20by-StatsPAI-orange)](https://github.com/brycewang-stanford/StatsPAI)
 
@@ -25,12 +25,12 @@ English | [简体中文](README.md)
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Skills-1954-cc785c?style=for-the-badge" alt="1954 agent skills">
+  <img src="https://img.shields.io/badge/Skills-1984-cc785c?style=for-the-badge" alt="1984 agent skills">
   &nbsp;
   <img src="https://img.shields.io/badge/Skill_Packs-122-2b3137?style=for-the-badge" alt="122 skill packs">
 </p>
 <p align="center">
-<b>1954 agent skills</b> spanning <b>economics &amp; business, the social sciences &amp; humanities, the natural sciences, clinical medicine and AI / computer science</b>, distilled into <b>122 curated journal &amp; venue packs</b><br><sub>— a one-stop index of journal- and venue-specific AI submission workflows</sub>
+<b>1984 agent skills</b> spanning <b>economics &amp; business, the social sciences &amp; humanities, the natural sciences, clinical medicine and AI / computer science</b>, distilled into <b>122 curated journal &amp; venue packs</b><br><sub>— a one-stop index of journal- and venue-specific AI submission workflows</sub>
 </p>
 <p align="center">
   <sub>
@@ -193,6 +193,14 @@ English | [简体中文](README.md)
   <a href="English-NaturalScience-Journal-Skills/skills/the-astronomical-journal/"><img src="assets/covers/the-astronomical-journal.png" alt="The Astronomical Journal" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/journal-of-high-energy-physics/"><img src="assets/covers/journal-of-high-energy-physics.png" alt="Journal of High Energy Physics" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/new-journal-of-physics/"><img src="assets/covers/new-journal-of-physics.png" alt="New Journal of Physics" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/physical-review-e/"><img src="assets/covers/physical-review-e.png" alt="Physical Review E" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/physical-review-applied/"><img src="assets/covers/physical-review-applied.png" alt="Physical Review Applied" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-reviews-physics/"><img src="assets/covers/nature-reviews-physics.png" alt="Nature Reviews Physics" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/physics-reports/"><img src="assets/covers/physics-reports.png" alt="Physics Reports" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/classical-and-quantum-gravity/"><img src="assets/covers/classical-and-quantum-gravity.png" alt="Classical and Quantum Gravity" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/living-reviews-in-relativity/"><img src="assets/covers/living-reviews-in-relativity.png" alt="Living Reviews in Relativity" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/astrophysical-journal-letters/"><img src="assets/covers/astrophysical-journal-letters.png" alt="The Astrophysical Journal Letters" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/annual-review-of-astronomy-and-astrophysics/"><img src="assets/covers/annual-review-of-astronomy-and-astrophysics.png" alt="Annual Review of Astronomy and Astrophysics" width="108"></a>
 </p>
 
 <p align="center"><b>Chemistry &amp; Materials</b></p>
@@ -211,6 +219,14 @@ English | [简体中文](README.md)
   <a href="English-NaturalScience-Journal-Skills/skills/acs-catalysis/"><img src="assets/covers/acs-catalysis.png" alt="ACS Catalysis" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-reviews-materials/"><img src="assets/covers/nature-reviews-materials.png" alt="Nature Reviews Materials" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/matter/"><img src="assets/covers/matter.png" alt="Matter" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-synthesis/"><img src="assets/covers/nature-synthesis.png" alt="Nature Synthesis" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/jacs-au/"><img src="assets/covers/jacs-au.png" alt="JACS Au" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/acs-central-science/"><img src="assets/covers/acs-central-science.png" alt="ACS Central Science" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/coordination-chemistry-reviews/"><img src="assets/covers/coordination-chemistry-reviews.png" alt="Coordination Chemistry Reviews" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/advanced-energy-materials/"><img src="assets/covers/advanced-energy-materials.png" alt="Advanced Energy Materials" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/advanced-functional-materials/"><img src="assets/covers/advanced-functional-materials.png" alt="Advanced Functional Materials" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/acs-energy-letters/"><img src="assets/covers/acs-energy-letters.png" alt="ACS Energy Letters" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/npj-computational-materials/"><img src="assets/covers/npj-computational-materials.png" alt="npj Computational Materials" width="108"></a>
 </p>
 
 <p align="center"><b>Earth, Environment &amp; Ecology</b></p>
@@ -226,6 +242,14 @@ English | [简体中文](README.md)
   <a href="English-NaturalScience-Journal-Skills/skills/nature-water/"><img src="assets/covers/nature-water.png" alt="Nature Water" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/water-research/"><img src="assets/covers/water-research.png" alt="Water Research" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/atmospheric-chemistry-and-physics/"><img src="assets/covers/atmospheric-chemistry-and-physics.png" alt="Atmospheric Chemistry and Physics" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/annual-review-of-ecology-evolution-and-systematics/"><img src="assets/covers/annual-review-of-ecology-evolution-and-systematics.png" alt="Annual Review of Ecology, Evolution, and Systematics" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/molecular-ecology/"><img src="assets/covers/molecular-ecology.png" alt="Molecular Ecology" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/journal-of-ecology/"><img src="assets/covers/journal-of-ecology.png" alt="Journal of Ecology" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/functional-ecology/"><img src="assets/covers/functional-ecology.png" alt="Functional Ecology" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/journal-of-geophysical-research-atmospheres/"><img src="assets/covers/journal-of-geophysical-research-atmospheres.png" alt="JGR: Atmospheres" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-reviews-earth-and-environment/"><img src="assets/covers/nature-reviews-earth-and-environment.png" alt="Nature Reviews Earth & Environment" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/earths-future/"><img src="assets/covers/earths-future.png" alt="Earth's Future" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/the-cryosphere/"><img src="assets/covers/the-cryosphere.png" alt="The Cryosphere" width="108"></a>
 </p>
 
 <p align="center"><b>Mathematics &amp; Computation</b></p>
@@ -240,6 +264,10 @@ English | [简体中文](README.md)
   <a href="English-NaturalScience-Journal-Skills/skills/duke-mathematical-journal/"><img src="assets/covers/duke-mathematical-journal.png" alt="Duke Mathematical Journal" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/siam-review/"><img src="assets/covers/siam-review.png" alt="SIAM Review" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/journal-of-the-acm/"><img src="assets/covers/journal-of-the-acm.png" alt="Journal of the ACM" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/acta-mathematica/"><img src="assets/covers/acta-mathematica.png" alt="Acta Mathematica" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/geometry-and-topology/"><img src="assets/covers/geometry-and-topology.png" alt="Geometry & Topology" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/foundations-of-computational-mathematics/"><img src="assets/covers/foundations-of-computational-mathematics.png" alt="Foundations of Computational Mathematics" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/siam-journal-on-computing/"><img src="assets/covers/siam-journal-on-computing.png" alt="SIAM Journal on Computing" width="108"></a>
 </p>
 
 <p align="center"><b>Frontiers</b></p>
@@ -251,6 +279,8 @@ English | [简体中文](README.md)
   <a href="English-NaturalScience-Journal-Skills/skills/science-signaling/"><img src="assets/covers/science-signaling.png" alt="Science Signaling" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/cell-reports-medicine/"><img src="assets/covers/cell-reports-medicine.png" alt="Cell Reports Medicine" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-reviews-methods-primers/"><img src="assets/covers/nature-reviews-methods-primers.png" alt="Nature Reviews Methods Primers" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-reviews-drug-discovery/"><img src="assets/covers/nature-reviews-drug-discovery.png" alt="Nature Reviews Drug Discovery" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/the-lancet-digital-health/"><img src="assets/covers/the-lancet-digital-health.png" alt="The Lancet Digital Health" width="108"></a>
 </p>
 <!-- STEM-WALL-END -->
 
@@ -299,7 +329,7 @@ Use aer-workflow to assess how far my draft is from AER's bar and what to do nex
 | 🔬 **Natural science & clinical**<br><sub>general · life · clinical · physics · chemistry · materials · environment · agriculture</sub> | Science · Cell · PNAS · NEJM · The Lancet · JAMA · PRL · JACS · ES&T · Global Change Biology | depth packs + EN breadth bundle + imported Nature family |
 | 🤖 **Computer-science conferences**<br><sub>AI-first</sub> | NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS + 155 venues | depth packs + breadth bundle |
 
-<sub><b>122 packs / 1954 skills</b> total. A "depth pack" = one venue, end-to-end (~12 skills); a "breadth bundle" = one lightweight "venue-fit + house-style" skill per venue plus a router.</sub>
+<sub><b>122 packs / 1984 skills</b> total. A "depth pack" = one venue, end-to-end (~12 skills); a "breadth bundle" = one lightweight "venue-fit + house-style" skill per venue plus a router.</sub>
 
 ---
 
@@ -323,7 +353,7 @@ Rule of thumb: start from a root folder or cover card when browsing, use a bread
 
 ## 📂 200 Root Journal Folders
 
-For visual browsing at the repository root, the 200 social-science breadth journals now also have one lightweight folder each: 100 Chinese roadmap journals in pinyin folder names, and 100 English econ / finance / management / business journals in title-style folder names. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the 1954-skill count stay stable.
+For visual browsing at the repository root, the 200 social-science breadth journals now also have one lightweight folder each: 100 Chinese roadmap journals in pinyin folder names, and 100 English econ / finance / management / business journals in title-style folder names. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the 1984-skill count stay stable.
 
 ### Chinese Roadmap Journals · 100 Pinyin Folders
 
@@ -859,12 +889,12 @@ Single-venue depth packs (~12 skills each) for environmental science, conservati
 
 | Bundle | Pack | Coverage | Skills |
 |--------|------|----------|-------:|
-| **124 English natural-science / clinical / physical / formal-science journals** | [English-NaturalScience-Journal-Skills/](English-NaturalScience-Journal-Skills/) | one fit-and-house-style skill per journal + `en-natsci-journal-workflow` router | 125 |
+| **154 English natural-science / clinical / physical / formal-science journals** | [English-NaturalScience-Journal-Skills/](English-NaturalScience-Journal-Skills/) | one fit-and-house-style skill per journal + `en-natsci-journal-workflow` router | 155 |
 
-This bundle is the natural-science sibling of the English social-science breadth bundle — the "other 100", now grown to 124: General & multidisciplinary 9 · Cell/molecular/genome biology 16 · Ecology/evolution/plant 8 · Immunology/microbiology/experimental medicine 4 · Open-access & genomics 3 · Neuroscience & behaviour 4 · Clinical general 7 · Clinical specialty 11 · Translational & cancer 5 · Physics 11 · Astronomy 5 · Chemistry 12 · Materials & energy 7 · Earth/environment/climate 10 · CS/AI/engineering 5 · Mathematics 7. Like the other breadth bundles, each profile defers volatile facts (impact factors, fees, word/figure limits) to a per-journal official-submission re-check, and for clinical venues to the applicable reporting guideline (CONSORT/PRISMA/STROBE/ARRIVE).
+This bundle is the natural-science sibling of the English social-science breadth bundle — the "other 100", now grown to 154: General & multidisciplinary 9 · Cell/molecular/genome biology 16 · Ecology/evolution/plant 12 · Immunology/microbiology/experimental medicine 4 · Open-access & genomics 3 · Neuroscience & behaviour 4 · Clinical general 9 · Clinical specialty 11 · Translational & cancer 5 · Physics 17 · Astronomy 7 · Chemistry 16 · Materials & energy 11 · Earth/environment/climate 14 · CS/AI/engineering 6 · Mathematics 10. Like the other breadth bundles, each profile defers volatile facts (impact factors, fees, word/figure limits) to a per-journal official-submission re-check, and for clinical venues to the applicable reporting guideline (CONSORT/PRISMA/STROBE/ARRIVE).
 
 <details>
-<summary><b>🖼️ Click to expand: all 124 English natural-science journal covers</b> (grouped by discipline)</summary>
+<summary><b>🖼️ Click to expand: all 154 English natural-science journal covers</b> (grouped by discipline)</summary>
 
 <!-- COVER-GALLERY:en-nat:START -->
 <p align="center"><sub>📚 <b>All 100 English natural-science journal covers</b> &mdash; grouped by discipline</sub></p>
@@ -902,6 +932,10 @@ This bundle is the natural-science sibling of the English social-science breadth
   <a href="English-NaturalScience-Journal-Skills/skills/trends-in-ecology-and-evolution/"><img src="assets/covers/trends-in-ecology-and-evolution.png" alt="《Trends in Ecology & Evolution》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/global-ecology-and-biogeography/"><img src="assets/covers/global-ecology-and-biogeography.png" alt="《Global Ecology and Biogeography》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/the-isme-journal/"><img src="assets/covers/the-isme-journal.png" alt="《The ISME Journal》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/annual-review-of-ecology-evolution-and-systematics/"><img src="assets/covers/annual-review-of-ecology-evolution-and-systematics.png" alt="《Annual Review of Ecology, Evolution, and Systematics》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/molecular-ecology/"><img src="assets/covers/molecular-ecology.png" alt="《Molecular Ecology》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/journal-of-ecology/"><img src="assets/covers/journal-of-ecology.png" alt="《Journal of Ecology》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/functional-ecology/"><img src="assets/covers/functional-ecology.png" alt="《Functional Ecology》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/immunity/"><img src="assets/covers/immunity.png" alt="《Immunity》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-immunology/"><img src="assets/covers/nature-immunology.png" alt="《Nature Immunology》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-microbiology/"><img src="assets/covers/nature-microbiology.png" alt="《Nature Microbiology》" width="100"></a>
@@ -932,6 +966,8 @@ This bundle is the natural-science sibling of the English social-science breadth
   <a href="English-NaturalScience-Journal-Skills/skills/the-lancet-neurology/"><img src="assets/covers/the-lancet-neurology.png" alt="《The Lancet Neurology》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/journal-of-clinical-investigation/"><img src="assets/covers/journal-of-clinical-investigation.png" alt="《Journal of Clinical Investigation》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/cell-reports-medicine/"><img src="assets/covers/cell-reports-medicine.png" alt="《Cell Reports Medicine》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-reviews-drug-discovery/"><img src="assets/covers/nature-reviews-drug-discovery.png" alt="《Nature Reviews Drug Discovery》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/the-lancet-digital-health/"><img src="assets/covers/the-lancet-digital-health.png" alt="《The Lancet Digital Health》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/cancer-cell/"><img src="assets/covers/cancer-cell.png" alt="《Cancer Cell》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/cancer-discovery/"><img src="assets/covers/cancer-discovery.png" alt="《Cancer Discovery》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/journal-of-clinical-oncology/"><img src="assets/covers/journal-of-clinical-oncology.png" alt="《Journal of Clinical Oncology》" width="100"></a>
@@ -948,11 +984,19 @@ This bundle is the natural-science sibling of the English social-science breadth
   <a href="English-NaturalScience-Journal-Skills/skills/prx-quantum/"><img src="assets/covers/prx-quantum.png" alt="《PRX Quantum》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/journal-of-high-energy-physics/"><img src="assets/covers/journal-of-high-energy-physics.png" alt="《Journal of High Energy Physics》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/new-journal-of-physics/"><img src="assets/covers/new-journal-of-physics.png" alt="《New Journal of Physics》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/physical-review-e/"><img src="assets/covers/physical-review-e.png" alt="《Physical Review E》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/physical-review-applied/"><img src="assets/covers/physical-review-applied.png" alt="《Physical Review Applied》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-reviews-physics/"><img src="assets/covers/nature-reviews-physics.png" alt="《Nature Reviews Physics》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/physics-reports/"><img src="assets/covers/physics-reports.png" alt="《Physics Reports》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/classical-and-quantum-gravity/"><img src="assets/covers/classical-and-quantum-gravity.png" alt="《Classical and Quantum Gravity》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/living-reviews-in-relativity/"><img src="assets/covers/living-reviews-in-relativity.png" alt="《Living Reviews in Relativity》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/the-astrophysical-journal/"><img src="assets/covers/the-astrophysical-journal.png" alt="《The Astrophysical Journal》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/monthly-notices-of-the-royal-astronomical-society/"><img src="assets/covers/monthly-notices-of-the-royal-astronomical-society.png" alt="《Monthly Notices of the Royal Astronomical Society》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-astronomy/"><img src="assets/covers/nature-astronomy.png" alt="《Nature Astronomy》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/astronomy-and-astrophysics/"><img src="assets/covers/astronomy-and-astrophysics.png" alt="《Astronomy & Astrophysics》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/the-astronomical-journal/"><img src="assets/covers/the-astronomical-journal.png" alt="《The Astronomical Journal》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/astrophysical-journal-letters/"><img src="assets/covers/astrophysical-journal-letters.png" alt="《The Astrophysical Journal Letters》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/annual-review-of-astronomy-and-astrophysics/"><img src="assets/covers/annual-review-of-astronomy-and-astrophysics.png" alt="《Annual Review of Astronomy and Astrophysics》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/journal-of-the-american-chemical-society/"><img src="assets/covers/journal-of-the-american-chemical-society.png" alt="《Journal of the American Chemical Society》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/angewandte-chemie-international-edition/"><img src="assets/covers/angewandte-chemie-international-edition.png" alt="《Angewandte Chemie International Edition》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/chemical-reviews/"><img src="assets/covers/chemical-reviews.png" alt="《Chemical Reviews》" width="100"></a>
@@ -964,6 +1008,10 @@ This bundle is the natural-science sibling of the English social-science breadth
   <a href="English-NaturalScience-Journal-Skills/skills/acs-nano/"><img src="assets/covers/acs-nano.png" alt="《ACS Nano》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-reviews-chemistry/"><img src="assets/covers/nature-reviews-chemistry.png" alt="《Nature Reviews Chemistry》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/acs-catalysis/"><img src="assets/covers/acs-catalysis.png" alt="《ACS Catalysis》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-synthesis/"><img src="assets/covers/nature-synthesis.png" alt="《Nature Synthesis》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/jacs-au/"><img src="assets/covers/jacs-au.png" alt="《JACS Au》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/acs-central-science/"><img src="assets/covers/acs-central-science.png" alt="《ACS Central Science》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/coordination-chemistry-reviews/"><img src="assets/covers/coordination-chemistry-reviews.png" alt="《Coordination Chemistry Reviews》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/advanced-materials/"><img src="assets/covers/advanced-materials.png" alt="《Advanced Materials》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-materials/"><img src="assets/covers/nature-materials.png" alt="《Nature Materials》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-nanotechnology/"><img src="assets/covers/nature-nanotechnology.png" alt="《Nature Nanotechnology》" width="100"></a>
@@ -972,6 +1020,10 @@ This bundle is the natural-science sibling of the English social-science breadth
   <a href="English-NaturalScience-Journal-Skills/skills/nature-energy/"><img src="assets/covers/nature-energy.png" alt="《Nature Energy》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-reviews-materials/"><img src="assets/covers/nature-reviews-materials.png" alt="《Nature Reviews Materials》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/matter/"><img src="assets/covers/matter.png" alt="《Matter》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/advanced-energy-materials/"><img src="assets/covers/advanced-energy-materials.png" alt="《Advanced Energy Materials》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/advanced-functional-materials/"><img src="assets/covers/advanced-functional-materials.png" alt="《Advanced Functional Materials》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/acs-energy-letters/"><img src="assets/covers/acs-energy-letters.png" alt="《ACS Energy Letters》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/npj-computational-materials/"><img src="assets/covers/npj-computational-materials.png" alt="《npj Computational Materials》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-geoscience/"><img src="assets/covers/nature-geoscience.png" alt="《Nature Geoscience》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-climate-change/"><img src="assets/covers/nature-climate-change.png" alt="《Nature Climate Change》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-sustainability/"><img src="assets/covers/nature-sustainability.png" alt="《Nature Sustainability》" width="100"></a>
@@ -982,11 +1034,16 @@ This bundle is the natural-science sibling of the English social-science breadth
   <a href="English-NaturalScience-Journal-Skills/skills/nature-water/"><img src="assets/covers/nature-water.png" alt="《Nature Water》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/water-research/"><img src="assets/covers/water-research.png" alt="《Water Research》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/atmospheric-chemistry-and-physics/"><img src="assets/covers/atmospheric-chemistry-and-physics.png" alt="《Atmospheric Chemistry and Physics》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/journal-of-geophysical-research-atmospheres/"><img src="assets/covers/journal-of-geophysical-research-atmospheres.png" alt="《JGR: Atmospheres》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature-reviews-earth-and-environment/"><img src="assets/covers/nature-reviews-earth-and-environment.png" alt="《Nature Reviews Earth & Environment》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/earths-future/"><img src="assets/covers/earths-future.png" alt="《Earth's Future》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/the-cryosphere/"><img src="assets/covers/the-cryosphere.png" alt="《The Cryosphere》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/ieee-transactions-on-pattern-analysis-and-machine-intelligence/"><img src="assets/covers/ieee-transactions-on-pattern-analysis-and-machine-intelligence.png" alt="《IEEE Transactions on Pattern Analysis and Machine Intelligence》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/journal-of-machine-learning-research/"><img src="assets/covers/journal-of-machine-learning-research.png" alt="《Journal of Machine Learning Research》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-machine-intelligence/"><img src="assets/covers/nature-machine-intelligence.png" alt="《Nature Machine Intelligence》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/science-robotics/"><img src="assets/covers/science-robotics.png" alt="《Science Robotics》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/journal-of-the-acm/"><img src="assets/covers/journal-of-the-acm.png" alt="《Journal of the ACM》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/siam-journal-on-computing/"><img src="assets/covers/siam-journal-on-computing.png" alt="《SIAM Journal on Computing》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/annals-of-mathematics/"><img src="assets/covers/annals-of-mathematics.png" alt="《Annals of Mathematics》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/inventiones-mathematicae/"><img src="assets/covers/inventiones-mathematicae.png" alt="《Inventiones Mathematicae》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/journal-of-the-american-mathematical-society/"><img src="assets/covers/journal-of-the-american-mathematical-society.png" alt="《Journal of the American Mathematical Society》" width="100"></a>
@@ -994,6 +1051,9 @@ This bundle is the natural-science sibling of the English social-science breadth
   <a href="English-NaturalScience-Journal-Skills/skills/advances-in-mathematics/"><img src="assets/covers/advances-in-mathematics.png" alt="《Advances in Mathematics》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/duke-mathematical-journal/"><img src="assets/covers/duke-mathematical-journal.png" alt="《Duke Mathematical Journal》" width="100"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/siam-review/"><img src="assets/covers/siam-review.png" alt="《SIAM Review》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/acta-mathematica/"><img src="assets/covers/acta-mathematica.png" alt="《Acta Mathematica》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/geometry-and-topology/"><img src="assets/covers/geometry-and-topology.png" alt="《Geometry & Topology》" width="100"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/foundations-of-computational-mathematics/"><img src="assets/covers/foundations-of-computational-mathematics.png" alt="《Foundations of Computational Mathematics》" width="100"></a>
 </p>
 <!-- COVER-GALLERY:en-nat:END -->
 
@@ -1013,7 +1073,7 @@ This bundle is the natural-science sibling of the English social-science breadth
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | Ideation → writing → publication (Claude Code / OpenCode / Codex) | upstream |
 | **Codex/Claude Academic Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | Reading · writing · scientific computing | upstream |
 
-<sub><b>Count methodology.</b> The homepage <b>1954</b> = every <code>SKILL.md</code> minus the 10 duplicated Nature plugin-mirror files, spread across <b>122 packs</b>. All four breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation: <b>1363</b> (113 in-repo depth packs, single venue end-to-end, ~12 skills each) + <b>485</b> (4 breadth bundles: CN social science 103 + EN social science 101 + EN natural science 125 + CS conferences 156) + <b>106</b> (5 imported/submodule packs: AER 9 + Nature family 10 + Nature-Paper 18 + claude-scholar 45 + codex-claude 24) = <b>1954</b>. The figure is enforced in CI by <code>python3 tools/audit_repo.py</code>; the README and the actual file count are not allowed to drift.</sub>
+<sub><b>Count methodology.</b> The homepage <b>1984</b> = every <code>SKILL.md</code> minus the 10 duplicated Nature plugin-mirror files, spread across <b>122 packs</b>. All four breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation: <b>1363</b> (113 in-repo depth packs, single venue end-to-end, ~12 skills each) + <b>515</b> (4 breadth bundles: CN social science 103 + EN social science 101 + EN natural science 155 + CS conferences 156) + <b>106</b> (5 imported/submodule packs: AER 9 + Nature family 10 + Nature-Paper 18 + claude-scholar 45 + codex-claude 24) = <b>1984</b>. The figure is enforced in CI by <code>python3 tools/audit_repo.py</code>; the README and the actual file count are not allowed to drift.</sub>
 
 ---
 
@@ -1115,7 +1175,7 @@ awesome-journal-skills/
 ├── Journal-of-the-American-Academy-of-Religion-Skills/ → JAAR (12 skills)
 ├── Chinese-SocialScience-Journal-Skills/  → CN breadth bundle, 102 journal profiles + router (103 skills)
 ├── English-SocialScience-Journal-Skills/  → EN econ/business breadth bundle, 100-journal fit skills + router (101 skills)
-├── English-NaturalScience-Journal-Skills/ → EN natural-science breadth bundle, 124-journal fit skills + router (125 skills)
+├── English-NaturalScience-Journal-Skills/ → EN natural-science breadth bundle, 154-journal fit skills + router (155 skills)
 │   # CS/AI conference depth packs (first-party, authored / maintained here)
 ├── AAAI-Skills/                   → AAAI main technical track (12 skills)
 ├── AISTATS-Skills/                → AISTATS main conference (12 skills)
@@ -1225,7 +1285,7 @@ use next for my manuscript targeted at <journal>.
 
 ## 🗺 Roadmap
 
-**Status:** the four breadth bundles are fully shipped (including the AI-first CS conference bundle); depth packs now extend beyond business & economics into **humanities & broader social science** (24 flagship venues across sociology, political science, psychology, demography, communication, history, art, philosophy, literature, religion) and **environment / ecology / agriculture** (6 venues), for a repo-wide total of **122 packs / 1954 skills**. The Roadmap now tracks the next tier of expansion.
+**Status:** the four breadth bundles are fully shipped (including the AI-first CS conference bundle); depth packs now extend beyond business & economics into **humanities & broader social science** (24 flagship venues across sociology, political science, psychology, demography, communication, history, art, philosophy, literature, religion) and **environment / ecology / agriculture** (6 venues), for a repo-wide total of **122 packs / 1984 skills**. The Roadmap now tracks the next tier of expansion.
 
 ### ✅ Shipped
 
@@ -1233,7 +1293,7 @@ use next for my manuscript targeted at <journal>.
   - [Computer-Science-Conference-Skills](Computer-Science-Conference-Skills/) — 155 computer-science conference profiles + `cs-ai-conference-workflow`, starting with NeurIPS / ICML / ICLR / AAAI / IJCAI
   - [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) — 102 Chinese social-science journal profiles
   - [English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) — 100 English econ / finance / management / accounting / marketing / OM / IS journals
-  - [English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) — 124 English natural-science / clinical / physical / formal-science journals
+  - [English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) — 154 English natural-science / clinical / physical / formal-science journals
 - **Per-journal cover wall** for every breadth journal (322 journal covers), always-expanded cover galleries in both READMEs, and 200 lightweight root entry folders for repo-front browsing.
 - **Full end-to-end depth packs (~12 steps)** — 113 first-party venue packs across five areas (AER and Nature additionally ship as curated submodule packs):
   - **English economics:** AER (submodule) · QJE · JPE · Econometrica · REStud · Journal of Development Economics · Journal of Public Economics · Journal of Labor Economics · Journal of International Economics · Journal of Monetary Economics · RAND Journal of Economics · Journal of Econometrics · Econometric Theory · Quantitative Economics · Journal of Applied Econometrics · JBES · The Econometrics Journal · Review of Economic Dynamics · Journal of Economic Growth · Journal of Economic Theory · Games and Economic Behavior · Journal of Human Resources
@@ -1420,7 +1480,7 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 16. eLife
 17. Cell Metabolism
 
-#### Ecology & evolution (6)
+#### Ecology & evolution (10)
 
 1. Ecology Letters
 2. Nature Ecology & Evolution
@@ -1428,6 +1488,10 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 4. Trends in Ecology & Evolution (TREE)
 5. Global Ecology and Biogeography (GEB)
 6. The ISME Journal
+7. Annual Review of Ecology, Evolution, and Systematics (AREES)
+8. Molecular Ecology
+9. Journal of Ecology
+10. Functional Ecology
 
 #### Immunology & microbiology (6)
 
@@ -1446,7 +1510,7 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 4. Molecular Psychiatry
 5. Nature Human Behaviour
 
-#### Clinical medicine (19)
+#### Clinical medicine (21)
 
 1. The New England Journal of Medicine (NEJM)
 2. The Lancet
@@ -1467,6 +1531,8 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 17. The Lancet Neurology
 18. Journal of Clinical Investigation (JCI)
 19. Cell Reports Medicine
+20. Nature Reviews Drug Discovery
+21. The Lancet Digital Health
 
 #### Oncology (5)
 
@@ -1476,7 +1542,7 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 4. CA: A Cancer Journal for Clinicians
 5. The Lancet Oncology
 
-#### Physics (11)
+#### Physics (17)
 
 1. Physical Review Letters (PRL)
 2. Physical Review B
@@ -1489,16 +1555,24 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 9. PRX Quantum
 10. Journal of High Energy Physics (JHEP)
 11. New Journal of Physics (NJP)
+12. Physical Review E (PRE)
+13. Physical Review Applied
+14. Nature Reviews Physics
+15. Physics Reports
+16. Classical and Quantum Gravity (CQG)
+17. Living Reviews in Relativity
 
-#### Astronomy & astrophysics (5)
+#### Astronomy & astrophysics (7)
 
 1. The Astrophysical Journal (ApJ)
 2. Monthly Notices of the Royal Astronomical Society (MNRAS)
 3. Nature Astronomy
 4. Astronomy & Astrophysics (A&A)
 5. The Astronomical Journal (AJ)
+6. The Astrophysical Journal Letters (ApJL)
+7. Annual Review of Astronomy and Astrophysics (ARA&A)
 
-#### Chemistry (11)
+#### Chemistry (15)
 
 1. Journal of the American Chemical Society (JACS)
 2. Angewandte Chemie International Edition
@@ -1511,8 +1585,12 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 9. ACS Nano
 10. Nature Reviews Chemistry
 11. ACS Catalysis
+12. Nature Synthesis
+13. JACS Au
+14. ACS Central Science
+15. Coordination Chemistry Reviews
 
-#### Materials & energy (8)
+#### Materials & energy (12)
 
 1. Advanced Materials
 2. Nature Materials
@@ -1522,8 +1600,12 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 6. Nature Energy
 7. Nature Reviews Materials
 8. Matter
+9. Advanced Energy Materials
+10. Advanced Functional Materials
+11. ACS Energy Letters
+12. npj Computational Materials
 
-#### Earth & environment (10)
+#### Earth & environment (14)
 
 1. Nature Geoscience
 2. Nature Climate Change
@@ -1535,16 +1617,21 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 8. Nature Water
 9. Water Research
 10. Atmospheric Chemistry and Physics (ACP)
+11. Journal of Geophysical Research: Atmospheres (JGR)
+12. Nature Reviews Earth & Environment
+13. Earth's Future
+14. The Cryosphere
 
-#### Computer science & AI (5)
+#### Computer science & AI (6)
 
 1. IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
 2. Journal of Machine Learning Research (JMLR)
 3. Nature Machine Intelligence
 4. Science Robotics
 5. Journal of the ACM (JACM)
+6. SIAM Journal on Computing (SICOMP)
 
-#### Mathematics (7)
+#### Mathematics (10)
 
 1. Annals of Mathematics
 2. Inventiones Mathematicae
@@ -1553,6 +1640,9 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 5. Advances in Mathematics
 6. Duke Mathematical Journal
 7. SIAM Review
+8. Acta Mathematica
+9. Geometry & Topology
+10. Foundations of Computational Mathematics (FoCM)
 
 </details>
 
