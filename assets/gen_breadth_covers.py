@@ -158,6 +158,7 @@ EN_NAT = {
     "gen": [
         "nature", "science", "pnas", "science-advances", "nature-communications",
         "national-science-review", "the-innovation",
+        "science-signaling", "nature-reviews-methods-primers",
     ],
     "bio": [
         "cell", "molecular-cell", "developmental-cell", "cell-stem-cell",
@@ -168,6 +169,8 @@ EN_NAT = {
     ],
     "eco": [
         "ecology-letters", "nature-ecology-and-evolution", "molecular-biology-and-evolution",
+        "trends-in-ecology-and-evolution", "global-ecology-and-biogeography",
+        "the-isme-journal",
     ],
     "immuno": [
         "immunity", "nature-immunology", "nature-microbiology", "cell-host-and-microbe",
@@ -183,7 +186,7 @@ EN_NAT = {
         "circulation", "european-heart-journal",
         "journal-of-the-american-college-of-cardiology", "gastroenterology", "gut",
         "blood", "diabetes-care", "the-lancet-infectious-diseases", "the-lancet-neurology",
-        "journal-of-clinical-investigation",
+        "journal-of-clinical-investigation", "cell-reports-medicine",
     ],
     "onco": [
         "cancer-cell", "cancer-discovery", "journal-of-clinical-oncology",
@@ -193,33 +196,41 @@ EN_NAT = {
         "physical-review-letters", "physical-review-b", "physical-review-d",
         "physical-review-x", "reviews-of-modern-physics", "reports-on-progress-in-physics",
         "nature-physics", "nature-photonics", "prx-quantum",
+        "journal-of-high-energy-physics", "new-journal-of-physics",
     ],
     "astro": [
         "the-astrophysical-journal", "monthly-notices-of-the-royal-astronomical-society",
         "nature-astronomy",
+        "astronomy-and-astrophysics", "the-astronomical-journal",
     ],
     "chem": [
         "journal-of-the-american-chemical-society",
         "angewandte-chemie-international-edition", "chemical-reviews",
         "chemical-society-reviews", "accounts-of-chemical-research", "nature-chemistry",
         "nature-catalysis", "chem", "acs-nano",
+        "nature-reviews-chemistry", "acs-catalysis",
     ],
     "matsci": [
         "advanced-materials", "nature-materials", "nature-nanotechnology",
         "energy-and-environmental-science", "joule", "nature-energy",
+        "nature-reviews-materials", "matter",
     ],
     "earth": [
         "nature-geoscience", "nature-climate-change", "nature-sustainability",
         "one-earth", "environmental-science-and-technology",
+        "geophysical-research-letters", "reviews-of-geophysics", "nature-water",
+        "water-research", "atmospheric-chemistry-and-physics",
     ],
     "cs": [
         "ieee-transactions-on-pattern-analysis-and-machine-intelligence",
         "journal-of-machine-learning-research", "nature-machine-intelligence",
-        "science-robotics",
+        "science-robotics", "journal-of-the-acm",
     ],
     "math": [
         "annals-of-mathematics", "inventiones-mathematicae",
         "journal-of-the-american-mathematical-society",
+        "communications-on-pure-and-applied-mathematics", "advances-in-mathematics",
+        "duke-mathematical-journal", "siam-review",
     ],
 }
 
