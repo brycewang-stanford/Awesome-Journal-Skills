@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/agent-Claude%20Code-cc785c)](https://github.com/anthropics/claude-code)
-[![Skills](https://img.shields.io/badge/skills-1930-cc785c)](#skill-pack-一览)
+[![Skills](https://img.shields.io/badge/skills-1930-cc785c)](#-skill-pack-一览)
 [![Maintained by CoPaper.AI from Stanford REAP](https://img.shields.io/badge/Maintained%20by-CoPaper.AI%20from%20Stanford%20REAP-blue)](https://copaper.ai)
 [![Powered by StatsPAI](https://img.shields.io/badge/Powered%20by-StatsPAI-orange)](https://github.com/brycewang-stanford/StatsPAI)
 
@@ -34,10 +34,10 @@
 </p>
 <p align="center">
   <sub>
-    <a href="#快速浏览与布局指南">🧭 布局指南</a> ·
-    <a href="#skill-pack-一览">📚 Skill Pack 一览</a> ·
-    <a href="#如何使用">⚡ 如何使用</a> ·
-    <a href="#路线图">🗺️ 路线图</a> ·
+    <a href="#-快速浏览与布局指南">🧭 布局指南</a> ·
+    <a href="#-skill-pack-一览">📚 Skill Pack 一览</a> ·
+    <a href="#-如何使用">⚡ 如何使用</a> ·
+    <a href="#-路线图">🗺️ 路线图</a> ·
     <a href="README.en.md">🌐 English</a>
   </sub>
 </p>
@@ -256,16 +256,16 @@
 用 aer-workflow 评估我这份稿子离 AER 的发表标准还差什么，下一步该做什么。
 ```
 
-> 还没定投哪本？先用**广度合集**里的 router skill 选刊 → 定下来后再装对应**深度包**。完整路径见下方[「快速浏览与布局指南」](#快速浏览与布局指南)。
+> 还没定投哪本？先用**广度合集**里的 router skill 选刊 → 定下来后再装对应**深度包**。完整路径见下方[「快速浏览与布局指南」](#-快速浏览与布局指南)。
 
 ### 🧭 目录
 
-| | | |
+| 🧭 入门 · 理念 | 📚 浏览 · 索引 | 🚀 使用 · 协作 |
 |---|---|---|
-| [快速浏览与布局指南](#快速浏览与布局指南) | [为什么按期刊](#为什么要按期刊做-skills) | [Skill Pack 一览](#skill-pack-一览) |
-| [根目录 200 个期刊入口](#根目录-200-个期刊文件夹) | [仓库结构](#仓库结构) | [如何使用](#如何使用) |
-| [Pack 选择速查](#pack-选择速查) | [路线图](#路线图) | [贡献](#贡献) |
-| [相关项目](#相关项目) | [维护团队](#维护团队) | [English README](README.en.md) |
+| [快速浏览与布局指南](#-快速浏览与布局指南) | [Skill Pack 一览](#-skill-pack-一览) | [如何使用](#-如何使用) |
+| [为什么按期刊](#-为什么要按期刊做-skills) | [根目录 200 个期刊入口](#-根目录-200-个期刊文件夹) | [Pack 选择速查](#-pack-选择速查) |
+| [路线图](#-路线图) | [仓库结构](#-仓库结构) | [贡献](#-贡献) |
+| [相关项目](#-相关项目) | [维护团队](#-维护团队) | [🌐 English README](README.en.md) |
 
 ### 📊 覆盖一览
 
@@ -280,7 +280,7 @@
 
 ---
 
-## 快速浏览与布局指南
+## 🧭 快速浏览与布局指南
 
 可以按三步理解这个仓库：
 
@@ -298,7 +298,7 @@
 
 <!-- ROOT-JOURNAL-FOLDERS:START -->
 
-## 根目录 200 个期刊文件夹
+## 📂 根目录 200 个期刊文件夹
 
 为了让用户在仓库首页的根目录就能看到完整的社科期刊阵列，现在 200 本广度合集期刊各有一个轻量入口文件夹：100 本中文经管路线图期刊使用拼音目录名，100 本英文经管 / 商科期刊使用英文题名目录名。这些目录只负责导航；真正可安装的 `SKILL.md` 仍保留在对应 bundle 内，因此插件路径和 1930 个 skill 的计数不会被重复放大。
 
@@ -368,7 +368,7 @@
 
 ---
 
-## 为什么要"按期刊"做 Skills？
+## 🎯 为什么要"按期刊"做 Skills？
 
 不同顶刊对手稿的约束**显著不同**：
 
@@ -380,7 +380,7 @@
 
 ---
 
-## Skill Pack 一览
+## 📚 Skill Pack 一览
 
 > **收录范围。** 本索引聚焦**经管社科中英文顶刊**、**人文与广义社科顶刊**（社会学 / 政治学 / 心理学 / 人口学 / 传播 / 历史 / 艺术 / 哲学 / 文学 / 宗教）、**自然科学 / 临床 / 物理 / 环境 / 农业英文顶刊**，以及 **AI 优先的计算机科学顶会**。每个重点期刊都是一个**深度包**（单刊全流程，约 12 步）；四个**广度合集**则为每个 venue 提供一个“选刊/选会定位 + 写作风格”技能——[Computer-Science-Conference-Skills](Computer-Science-Conference-Skills/) 覆盖 155 个 CS 会议 + router，[Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) 覆盖 102 个中文社科期刊 profile，[English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) 覆盖 100 本英文主流经管/商科期刊，[English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) 覆盖 100 本英文主流自然科学/临床/物理/形式科学期刊。重点中文期刊、英文侧的 AER、以及 5 本自然科学旗舰（Science、Cell、PNAS、NEJM、The Lancet），有意同时以两种形态收录。自然科学另以**自有深度包**形态提供，与收录的第三方 Nature 包并列。
 
@@ -970,7 +970,7 @@
 
 ---
 
-## 仓库结构
+## 🗂️ 仓库结构
 
 本仓库由两类 pack 组成：**仓库内目录包**（中文重点期刊深度包与广度合集，在本仓库内编写维护）与 **git submodule**（AER 及第三方包，指向各自上游）。每天通过 GitHub Actions（[`.github/workflows/sync-submodules.yml`](.github/workflows/sync-submodules.yml)）自动把 submodule 指针 bump 到上游 `main` 最新提交。
 
@@ -1121,7 +1121,7 @@ git submodule update --remote --merge
 
 ---
 
-## 如何使用
+## 🚀 如何使用
 
 ### 方式 A —— Claude Code 插件（推荐）
 
@@ -1164,7 +1164,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 
 ---
 
-## Pack 选择速查
+## 🧩 Pack 选择速查
 
 | 你的稿子是…                                  | 用这个 pack                  |
 |------------------------------------------|---------------------------|
@@ -1175,7 +1175,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 
 ---
 
-## 路线图
+## 🗺️ 路线图
 
 **进度：** 四个广度合集已全部落地（含 AI 优先 CS 会议合集）；深度包已从经管社科扩展到**人文与广义社科**（社会学、政治学、心理学、人口、传播、历史、艺术、哲学、文学、宗教共 24 本旗舰刊）以及**环境 / 生态 / 农业** 6 本，全仓库现共 **122 个 pack / 1930 个 skill**。路线图现在聚焦下一梯队的扩展。
 
@@ -1600,7 +1600,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 
 ---
 
-## 贡献
+## 🤝 贡献
 
 每个 pack 都在自己的仓库里。要为某个 pack 贡献内容，请到对应仓库提 PR。要提议新增 pack，请在本仓库提 issue。
 
@@ -1624,7 +1624,7 @@ GitHub Actions 会运行同一套硬门槛检查。它会检查 canonical skill 
 
 ---
 
-## 相关项目
+## 🔗 相关项目
 
 更宽口径的 agent skill 合集（与本索引互补）：
 
@@ -1657,7 +1657,7 @@ GitHub Actions 会运行同一套硬门槛检查。它会检查 canonical skill 
 
 ---
 
-## 维护团队
+## 👥 维护团队
 
 本索引由 **[CoPaper.AI](https://copaper.ai)** 团队精选与维护 —— 一款**由 [Stanford REAP / SCCEI（斯坦福中国经济与制度研究中心）](https://sccei.fsi.stanford.edu/reap) 研究人员孵化**的实证研究 AI 助手。各 pack 中编码的单刊编委标准，源自 Stanford REAP 在实证经济学方法论与应用因果推断上的长期积累。
 
@@ -1671,7 +1671,7 @@ GitHub Actions 会运行同一套硬门槛检查。它会检查 canonical skill 
 
 ---
 
-## License
+## 📄 License
 
 MIT
 

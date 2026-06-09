@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/agent-Claude%20Code-cc785c)](https://github.com/anthropics/claude-code)
-[![Skills](https://img.shields.io/badge/skills-1930-cc785c)](#the-skill-packs)
+[![Skills](https://img.shields.io/badge/skills-1930-cc785c)](#-the-skill-packs)
 [![Maintained by CoPaper.AI from Stanford REAP](https://img.shields.io/badge/Maintained%20by-CoPaper.AI%20from%20Stanford%20REAP-blue)](https://copaper.ai)
 [![Powered by StatsPAI](https://img.shields.io/badge/Powered%20by-StatsPAI-orange)](https://github.com/brycewang-stanford/StatsPAI)
 
@@ -34,10 +34,10 @@ English | [简体中文](README.md)
 </p>
 <p align="center">
   <sub>
-    <a href="#quick-browsing--layout-guide">🧭 Layout Guide</a> ·
-    <a href="#the-skill-packs">📚 The Skill Packs</a> ·
-    <a href="#how-to-use">⚡ How to Use</a> ·
-    <a href="#roadmap">🗺️ Roadmap</a> ·
+    <a href="#-quick-browsing--layout-guide">🧭 Layout Guide</a> ·
+    <a href="#-the-skill-packs">📚 The Skill Packs</a> ·
+    <a href="#-how-to-use">⚡ How to Use</a> ·
+    <a href="#-roadmap">🗺️ Roadmap</a> ·
     <a href="README.md">🌐 简体中文</a>
   </sub>
 </p>
@@ -256,16 +256,16 @@ Then hand your target journal's manuscript to its workflow skill:
 Use aer-workflow to assess how far my draft is from AER's bar and what to do next.
 ```
 
-> Not sure where to submit yet? Use a **breadth bundle**'s router skill to pick a venue first, then install the matching **depth pack**. Full path in the [Quick Browsing & Layout Guide](#quick-browsing--layout-guide) below.
+> Not sure where to submit yet? Use a **breadth bundle**'s router skill to pick a venue first, then install the matching **depth pack**. Full path in the [Quick Browsing & Layout Guide](#-quick-browsing--layout-guide) below.
 
 ### 🧭 Contents
 
 | | | |
 |---|---|---|
-| [Quick Browsing & Layout Guide](#quick-browsing--layout-guide) | [Why journal-specific](#why-journal-specific-skills) | [The Skill Packs](#the-skill-packs) |
-| [200 Root Journal Folders](#200-root-journal-folders) | [Repository Layout](#repository-layout) | [How to Use](#how-to-use) |
-| [Pack Picker](#pack-selection-cheat-sheet) | [Roadmap](#roadmap) | [Contributing](#contributing) |
-| [Related Projects](#related-projects) | [Maintainers](#maintainers) | [中文 README](README.md) |
+| [Quick Browsing & Layout Guide](#-quick-browsing--layout-guide) | [Why journal-specific](#-why-journal-specific-skills) | [The Skill Packs](#-the-skill-packs) |
+| [200 Root Journal Folders](#-200-root-journal-folders) | [Repository Layout](#-repository-layout) | [How to Use](#-how-to-use) |
+| [Pack Picker](#-pack-selection-cheat-sheet) | [Roadmap](#-roadmap) | [Contributing](#-contributing) |
+| [Related Projects](#-related-projects) | [Maintainers](#-maintainers) | [中文 README](README.md) |
 
 ### 📊 Coverage at a Glance
 
@@ -280,7 +280,7 @@ Use aer-workflow to assess how far my draft is from AER's bar and what to do nex
 
 ---
 
-## Quick Browsing & Layout Guide
+## 🧭 Quick Browsing & Layout Guide
 
 Use the repo in three passes:
 
@@ -298,7 +298,7 @@ Rule of thumb: start from a root folder or cover card when browsing, use a bread
 
 <!-- ROOT-JOURNAL-FOLDERS:START -->
 
-## 200 Root Journal Folders
+## 📂 200 Root Journal Folders
 
 For visual browsing at the repository root, the 200 social-science breadth journals now also have one lightweight folder each: 100 Chinese roadmap journals in pinyin folder names, and 100 English econ / finance / management / business journals in title-style folder names. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the 1930-skill count stay stable.
 
@@ -368,7 +368,7 @@ For visual browsing at the repository root, the 200 social-science breadth journ
 
 ---
 
-## Why "Journal-Specific" Skills?
+## 🎯 Why "Journal-Specific" Skills?
 
 Top journals impose constraints that differ materially across venues:
 
@@ -380,7 +380,7 @@ A one-size-fits-all "economics writing" skill cannot encode these differences. E
 
 ---
 
-## The Skill Packs
+## 📚 The Skill Packs
 
 > **Scope.** This index targets **business & social-science flagships (Chinese + English)**, **humanities & broader social science** (sociology / political science / psychology / demography / communication / history / art / philosophy / literature / religion), **top natural-science / clinical / physical / environment / agriculture journals (English)**, and **top computer-science conferences with AI first**. Each flagship venue ships as a **depth pack** (single-venue, end-to-end ~12-step workflow); four **breadth bundles** add one fit-and-house-style skill per venue — [Computer-Science-Conference-Skills](Computer-Science-Conference-Skills/) for 155 CS conferences + router, [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) for 102 Chinese social-science journal profiles (the 100 China econ/management roadmap journals plus 2 broader social-science flagships), [English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) for the 100 mainstream English econ/finance/management/accounting/marketing/OM/IS journals, and [English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) for 100 mainstream English natural-science / clinical / physical / formal-science journals. The flagship Chinese venues, AER on the English side, and the five natural-science flagships (Science, Cell, PNAS, NEJM, The Lancet) are intentionally covered both ways. Natural sciences also ship as **first-party depth packs** alongside the curated third-party Nature packs.
 
@@ -970,7 +970,7 @@ This bundle is the natural-science sibling of the English social-science breadth
 
 ---
 
-## Repository Layout
+## 🗂️ Repository Layout
 
 This repo combines **in-repo folder packs** (the China flagship depth packs and the breadth bundle, authored and maintained here) with **git submodules** pinned to upstream repos (AER plus the third-party packs). A scheduled GitHub Action ([`.github/workflows/sync-submodules.yml`](.github/workflows/sync-submodules.yml)) bumps the submodule pins to the latest upstream `main` daily.
 
@@ -1121,7 +1121,7 @@ git submodule update --remote --merge
 
 ---
 
-## How to Use
+## 🚀 How to Use
 
 ### Option A — Claude Code Plugin (recommended)
 
@@ -1165,7 +1165,7 @@ use next for my manuscript targeted at <journal>.
 
 ---
 
-## Pack-Selection Cheat Sheet
+## 🧩 Pack-Selection Cheat Sheet
 
 | Your manuscript looks like…                            | Use this pack                |
 |--------------------------------------------------------|------------------------------|
@@ -1176,7 +1176,7 @@ use next for my manuscript targeted at <journal>.
 
 ---
 
-## Roadmap
+## 🗺️ Roadmap
 
 **Status:** the four breadth bundles are fully shipped (including the AI-first CS conference bundle); depth packs now extend beyond business & economics into **humanities & broader social science** (24 flagship venues across sociology, political science, psychology, demography, communication, history, art, philosophy, literature, religion) and **environment / ecology / agriculture** (6 venues), for a repo-wide total of **122 packs / 1930 skills**. The Roadmap now tracks the next tier of expansion.
 
@@ -1601,7 +1601,7 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
 Each pack lives in its own repository. To contribute to a pack, open a PR on that pack's repo. To propose a new pack, open an issue here.
 
@@ -1625,7 +1625,7 @@ Quality bar for inclusion in this index:
 
 ---
 
-## Related Projects
+## 🔗 Related Projects
 
 Broader-scope agent skill collections (complementary to this journal-specific index):
 
@@ -1658,7 +1658,7 @@ Natural-science / life-science skill libraries (broad, not journal-specific — 
 
 ---
 
-## Maintainers
+## 👥 Maintainers
 
 This index is curated and maintained by the team behind **[CoPaper.AI](https://copaper.ai)** — an empirical-research AI assistant **incubated by researchers at [Stanford REAP / SCCEI (Stanford Center on China's Economy and Institutions)](https://sccei.fsi.stanford.edu/reap)**. The venue-specific editorial standards encoded across these packs come out of Stanford REAP's empirical-economics methodology and applied causal-inference tradition.
 
@@ -1672,7 +1672,7 @@ This index is curated and maintained by the team behind **[CoPaper.AI](https://c
 
 ---
 
-## License
+## 📄 License
 
 MIT
 
