@@ -90,7 +90,7 @@
   <sub>英文经管顶尖期刊 —— 来自 <a href="English-SocialScience-Journal-Skills/">English-SocialScience-Journal-Skills</a> 广度合集（<b>100 本期刊 + 选刊路由</b>）。Top-5、Top-3、FT50、UTD24 等标签用于说明分层。</sub>
 </p>
 <!-- STEM-WALL-START -->
-<h3 align="center">🔬 自然科学 · 医学国际顶刊 —— 覆盖 100 本旗舰期刊</h3>
+<h3 align="center">🔬 自然科学 · 医学国际顶刊 —— 覆盖 154 本旗舰期刊</h3>
 <p align="center"><sub>点击任意封面进入对应 Skill 包。<b>深度包（12 技能）</b>：Science · Nature · Cell · Cancer Cell · PNAS · NEJM · JAMA · The Lancet · PRL · JACS · ES&amp;T；其余链接至 <a href="English-NaturalScience-Journal-Skills/">English-NaturalScience-Journal-Skills</a> 广度合集页。</sub></p>
 
 <p align="center"><b>综合 · 多学科 <i>Multidisciplinary</i></b></p>
@@ -435,7 +435,7 @@
 
 ## 📚 Skill Pack 一览
 
-> **收录范围。** 本索引聚焦**经管社科中英文顶刊**、**人文与广义社科顶刊**（社会学 / 政治学 / 心理学 / 人口学 / 传播 / 历史 / 艺术 / 哲学 / 文学 / 宗教）、**自然科学 / 临床 / 物理 / 环境 / 农业英文顶刊**，以及 **AI 优先的计算机科学顶会**。每个重点期刊都是一个**深度包**（单刊全流程，约 12 步）；四个**广度合集**则为每个 venue 提供一个“选刊/选会定位 + 写作风格”技能——[Computer-Science-Conference-Skills](Computer-Science-Conference-Skills/) 覆盖 155 个 CS 会议 + router，[Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) 覆盖 102 个中文社科期刊 profile，[English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) 覆盖 100 本英文主流经管/商科期刊，[English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) 覆盖 100 本英文主流自然科学/临床/物理/形式科学期刊。重点中文期刊、英文侧的 AER、以及 5 本自然科学旗舰（Science、Cell、PNAS、NEJM、The Lancet），有意同时以两种形态收录。自然科学另以**自有深度包**形态提供，与收录的第三方 Nature 包并列。
+> **收录范围。** 本索引聚焦**经管社科中英文顶刊**、**人文与广义社科顶刊**（社会学 / 政治学 / 心理学 / 人口学 / 传播 / 历史 / 艺术 / 哲学 / 文学 / 宗教）、**自然科学 / 临床 / 物理 / 环境 / 农业英文顶刊**，以及 **AI 优先的计算机科学顶会**。每个重点期刊都是一个**深度包**（单刊全流程，约 12 步）；四个**广度合集**则为每个 venue 提供一个“选刊/选会定位 + 写作风格”技能——[Computer-Science-Conference-Skills](Computer-Science-Conference-Skills/) 覆盖 155 个 CS 会议 + router，[Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) 覆盖 102 个中文社科期刊 profile，[English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) 覆盖 100 本英文主流经管/商科期刊，[English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) 覆盖 154 本英文主流自然科学/临床/物理/形式科学期刊。重点中文期刊、英文侧的 AER、以及 5 本自然科学旗舰（Science、Cell、PNAS、NEJM、The Lancet），有意同时以两种形态收录。自然科学另以**自有深度包**形态提供，与收录的第三方 Nature 包并列。
 
 ### 计算机科学 · AI 优先会议广度合集
 

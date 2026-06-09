@@ -90,7 +90,7 @@ English | [简体中文](README.md)
   <sub>Flagship English econ &amp; business venues from the <a href="English-SocialScience-Journal-Skills/">English-SocialScience-Journal-Skills</a> breadth bundle (<b>100 journals + selection router</b>). Tier badges (Top-5 · Top-3 · FT50 · UTD24) indicate tiering.</sub>
 </p>
 <!-- STEM-WALL-START -->
-<h3 align="center">Natural Science &amp; Medicine Flagships — 100 Top Journals Covered</h3>
+<h3 align="center">Natural Science &amp; Medicine Flagships — 154 Top Journals Covered</h3>
 <p align="center"><sub>Click any cover to open the corresponding skill pack. <b>Depth packs (12 skills)</b>: Science · Nature · Cell · Cancer Cell · PNAS · NEJM · JAMA · The Lancet · PRL · JACS · ES&amp;T; other covers link to the <a href="English-NaturalScience-Journal-Skills/">English-NaturalScience-Journal-Skills</a> breadth bundle.</sub></p>
 
 <p align="center"><b>Multidisciplinary</b></p>
@@ -435,7 +435,7 @@ A one-size-fits-all "economics writing" skill cannot encode these differences. E
 
 ## 📚 The Skill Packs
 
-> **Scope.** This index targets **business & social-science flagships (Chinese + English)**, **humanities & broader social science** (sociology / political science / psychology / demography / communication / history / art / philosophy / literature / religion), **top natural-science / clinical / physical / environment / agriculture journals (English)**, and **top computer-science conferences with AI first**. Each flagship venue ships as a **depth pack** (single-venue, end-to-end ~12-step workflow); four **breadth bundles** add one fit-and-house-style skill per venue — [Computer-Science-Conference-Skills](Computer-Science-Conference-Skills/) for 155 CS conferences + router, [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) for 102 Chinese social-science journal profiles (the 100 China econ/management roadmap journals plus 2 broader social-science flagships), [English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) for the 100 mainstream English econ/finance/management/accounting/marketing/OM/IS journals, and [English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) for 100 mainstream English natural-science / clinical / physical / formal-science journals. The flagship Chinese venues, AER on the English side, and the five natural-science flagships (Science, Cell, PNAS, NEJM, The Lancet) are intentionally covered both ways. Natural sciences also ship as **first-party depth packs** alongside the curated third-party Nature packs.
+> **Scope.** This index targets **business & social-science flagships (Chinese + English)**, **humanities & broader social science** (sociology / political science / psychology / demography / communication / history / art / philosophy / literature / religion), **top natural-science / clinical / physical / environment / agriculture journals (English)**, and **top computer-science conferences with AI first**. Each flagship venue ships as a **depth pack** (single-venue, end-to-end ~12-step workflow); four **breadth bundles** add one fit-and-house-style skill per venue — [Computer-Science-Conference-Skills](Computer-Science-Conference-Skills/) for 155 CS conferences + router, [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) for 102 Chinese social-science journal profiles (the 100 China econ/management roadmap journals plus 2 broader social-science flagships), [English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) for the 100 mainstream English econ/finance/management/accounting/marketing/OM/IS journals, and [English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) for 154 mainstream English natural-science / clinical / physical / formal-science journals. The flagship Chinese venues, AER on the English side, and the five natural-science flagships (Science, Cell, PNAS, NEJM, The Lancet) are intentionally covered both ways. Natural sciences also ship as **first-party depth packs** alongside the curated third-party Nature packs.
 
 ### Computer science · AI-first conference breadth bundle
 
@@ -897,7 +897,7 @@ This bundle is the natural-science sibling of the English social-science breadth
 <summary><b>🖼️ Click to expand: all 154 English natural-science journal covers</b> (grouped by discipline)</summary>
 
 <!-- COVER-GALLERY:en-nat:START -->
-<p align="center"><sub>📚 <b>All 100 English natural-science journal covers</b> &mdash; grouped by discipline</sub></p>
+<p align="center"><sub>📚 <b>All 154 English natural-science journal covers</b> &mdash; grouped by discipline</sub></p>
 
 <p align="center">
   <a href="English-NaturalScience-Journal-Skills/skills/nature/"><img src="assets/covers/nature.png" alt="《Nature》" width="100"></a>
@@ -1446,7 +1446,7 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 </details>
 
 <details>
-<summary><b>English — 100 natural-science / clinical / physical / formal-science journals</b> &mdash; click to expand</summary>
+<summary><b>English — 154 natural-science / clinical / physical / formal-science journals</b> &mdash; click to expand</summary>
 
 #### General science (9)
 
