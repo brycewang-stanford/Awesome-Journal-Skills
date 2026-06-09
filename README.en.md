@@ -460,7 +460,7 @@ This bundle puts AI conferences first: NeurIPS, ICML, ICLR, AAAI, IJCAI, AISTATS
 
 | Icon | Venue | Pack | Discipline | Skills |
 |:----:|-------|------|------------|-------:|
-| <a href="Economic-Research-Journal-Skills/"><img src="assets/covers/economic-research.png" alt="《经济研究》" width="56"></a> | **《经济研究》** Economic Research | [Economic-Research-Journal-Skills/](Economic-Research-Journal-Skills/) | Economics (China-CSSCI top) | 12 |
+| <a href="Economic-Research-Journal-Skills/"><img src="assets/covers/economic-research.png" alt="《经济研究》" width="56"></a> | **《经济研究》** Economic Research | [Economic-Research-Journal-Skills/](Economic-Research-Journal-Skills/) | Economics (China-CSSCI top) | 18 |
 | <a href="Journal-of-Management-World-Skills/"><img src="assets/covers/management-world.png" alt="《管理世界》" width="56"></a> | **《管理世界》** Management World | [Journal-of-Management-World-Skills/](Journal-of-Management-World-Skills/) | Management + applied economics | 11 |
 | <a href="Social-Sciences-in-China-Skills/"><img src="assets/covers/social-sciences-in-china.png" alt="《中国社会科学》" width="56"></a> | **《中国社会科学》** Social Sciences in China | [Social-Sciences-in-China-Skills/](Social-Sciences-in-China-Skills/) | General social science | 11 |
 | <a href="China-Industrial-Economics-Skills/"><img src="assets/covers/china-industrial-economics.png" alt="《中国工业经济》" width="56"></a> | **《中国工业经济》** China Industrial Economics | [China-Industrial-Economics-Skills/](China-Industrial-Economics-Skills/) | Industrial economics | 13 |
@@ -1092,7 +1092,7 @@ awesome-journal-skills/
 ├── Journal-of-Finance/            → Journal of Finance root entry
 ├── ...                            → 196 more root journal entry folders
 │   # In-repo folder packs (first-party, authored / maintained here)
-├── Economic-Research-Journal-Skills/      → 《经济研究》 (12 skills)
+├── Economic-Research-Journal-Skills/      → 《经济研究》 (18 skills)
 ├── Journal-of-Management-World-Skills/    → 《管理世界》 (11 skills)
 ├── Social-Sciences-in-China-Skills/       → 《中国社会科学》 (11 skills)
 ├── China-Economic-Quarterly-Skills/       → 《经济学(季刊)》 (12 skills)

@@ -460,7 +460,7 @@
 
 | 封面 | 期刊 | Pack | 学科 | 技能数 |
 |:----:|------|------|------|-------:|
-| <a href="Economic-Research-Journal-Skills/"><img src="assets/covers/economic-research.png" alt="《经济研究》" width="56"></a> | **《经济研究》** | [Economic-Research-Journal-Skills/](Economic-Research-Journal-Skills/) | 经济学（中国 CSSCI 顶级） | 12 |
+| <a href="Economic-Research-Journal-Skills/"><img src="assets/covers/economic-research.png" alt="《经济研究》" width="56"></a> | **《经济研究》** | [Economic-Research-Journal-Skills/](Economic-Research-Journal-Skills/) | 经济学（中国 CSSCI 顶级） | 18 |
 | <a href="Journal-of-Management-World-Skills/"><img src="assets/covers/management-world.png" alt="《管理世界》" width="56"></a> | **《管理世界》** | [Journal-of-Management-World-Skills/](Journal-of-Management-World-Skills/) | 管理学 + 应用经济 | 11 |
 | <a href="Social-Sciences-in-China-Skills/"><img src="assets/covers/social-sciences-in-china.png" alt="《中国社会科学》" width="56"></a> | **《中国社会科学》** | [Social-Sciences-in-China-Skills/](Social-Sciences-in-China-Skills/) | 综合社科 | 11 |
 | <a href="China-Industrial-Economics-Skills/"><img src="assets/covers/china-industrial-economics.png" alt="《中国工业经济》" width="56"></a> | **《中国工业经济》** | [China-Industrial-Economics-Skills/](China-Industrial-Economics-Skills/) | 产业经济 | 13 |
@@ -1092,7 +1092,7 @@ awesome-journal-skills/
 ├── Journal-of-Finance/            → Journal of Finance 根目录入口
 ├── ...                            → 其余 196 个根目录期刊入口
 │   # 仓库内目录包（first-party，在本仓库内编写维护）
-├── Economic-Research-Journal-Skills/      → 《经济研究》（12 skills）
+├── Economic-Research-Journal-Skills/      → 《经济研究》（18 skills）
 ├── Journal-of-Management-World-Skills/    → 《管理世界》（11 skills）
 ├── Social-Sciences-in-China-Skills/       → 《中国社会科学》（11 skills）
 ├── China-Economic-Quarterly-Skills/       → 《经济学(季刊)》（12 skills）
