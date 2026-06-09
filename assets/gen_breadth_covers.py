@@ -389,6 +389,22 @@ ABBREV = {
     "journal-of-machine-learning-research": "JMLR",
     "annals-of-mathematics": "Ann. of Math.", "inventiones-mathematicae": "Invent. Math.",
     "journal-of-the-american-mathematical-society": "JAMS-Math",
+    # --- breadth STEM expansion (2026-06) ---
+    "journal-of-high-energy-physics": "JHEP", "new-journal-of-physics": "NJP",
+    "astronomy-and-astrophysics": "A&A", "the-astronomical-journal": "AJ",
+    "nature-reviews-chemistry": "Nat. Rev. Chem.", "acs-catalysis": "ACS Catal.",
+    "nature-reviews-materials": "Nat. Rev. Mater.", "matter": "Matter",
+    "trends-in-ecology-and-evolution": "TREE",
+    "global-ecology-and-biogeography": "GEB", "the-isme-journal": "ISME J.",
+    "geophysical-research-letters": "GRL", "reviews-of-geophysics": "Rev. Geophys.",
+    "nature-water": "Nat. Water", "water-research": "Water Res.",
+    "atmospheric-chemistry-and-physics": "ACP",
+    "communications-on-pure-and-applied-mathematics": "CPAM",
+    "advances-in-mathematics": "Adv. Math.", "duke-mathematical-journal": "Duke Math. J.",
+    "siam-review": "SIAM Rev.", "journal-of-the-acm": "JACM",
+    "science-signaling": "Sci. Signal.",
+    "nature-reviews-methods-primers": "Nat. Rev. Methods Primers",
+    "cell-reports-medicine": "Cell Rep. Med.",
 }
 
 # Names that should render with the abbreviation as the hero (full name too long
