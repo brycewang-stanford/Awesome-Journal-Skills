@@ -30,7 +30,7 @@
   <img src="https://img.shields.io/badge/Skill_Packs-122-2b3137?style=for-the-badge" alt="122 个 Skill 包">
 </p>
 <p align="center">
-  <sub>共收录 <b>1930 个 Agent Skill</b>，分布在 <b>122 个精选 Skill 包</b>中——一站式索引。</sub>
+  <sub><b>1930 个 Agent Skill · 122 个精选 Pack</b> —— 按<b>期刊与会议</b>定制的一站式 AI 投稿工作流索引。</sub>
 </p>
 
 <p align="center">
@@ -52,7 +52,7 @@
   <a href="https://github.com/brycewang-stanford/AER-skills"><img src="assets/covers/aer.png" alt="American Economic Review" width="160"></a>
 </p>
 <p align="center">
-  <sub>中文重点社科期刊 + AER —— 均为各刊<b>真实封面</b>（合理使用缩略图，仅用于检索识别）。</sub>
+  <sub>中文顶尖社科期刊 + AER —— 每张封面直达一个按刊定制的 Skill 包。</sub>
 </p>
 <p align="center">
   <a href="English-SocialScience-Journal-Skills/skills/american-economic-review/"><img src="assets/covers/american-economic-review.png" alt="American Economic Review" width="160"></a>
@@ -79,11 +79,11 @@
   <a href="English-SocialScience-Journal-Skills/skills/information-systems-research/"><img src="assets/covers/information-systems-research.png" alt="Information Systems Research" width="160"></a>
 </p>
 <p align="center">
-  <sub>英文经管重点期刊 —— 来自 <a href="English-SocialScience-Journal-Skills/">English-SocialScience-Journal-Skills</a> 广度合集（100 本期刊 + 路由），均为各刊<b>真实封面</b>（合理使用缩略图，仅用于检索识别）。Top-5、Top-3、FT50、UTD24 等标签用于说明分层。</sub>
+  <sub>英文经管顶尖期刊 —— 来自 <a href="English-SocialScience-Journal-Skills/">English-SocialScience-Journal-Skills</a> 广度合集（<b>100 本期刊 + 选刊路由</b>）。Top-5、Top-3、FT50、UTD24 等标签用于说明分层。</sub>
 </p>
 <!-- STEM-WALL-START -->
-<h3 align="center">🔬 自然科学 · 医学国际顶刊 —— 100 本真实封面</h3>
-<p align="center"><sub>每张均为各刊<b>真实封面</b>（合理使用缩略图，仅用于检索识别）；点击封面进入对应 Skill 包。深度包（12 技能）：Science · Nature · Cell · Cancer Cell · PNAS · NEJM · JAMA · The Lancet · PRL · JACS · ES&amp;T。其余链接至 <a href="English-NaturalScience-Journal-Skills/">English-NaturalScience-Journal-Skills</a> 广度合集页。</sub></p>
+<h3 align="center">🔬 自然科学 · 医学国际顶刊 —— 覆盖 100 本旗舰期刊</h3>
+<p align="center"><sub>点击任意封面进入对应 Skill 包。<b>深度包（12 技能）</b>：Science · Nature · Cell · Cancer Cell · PNAS · NEJM · JAMA · The Lancet · PRL · JACS · ES&amp;T；其余链接至 <a href="English-NaturalScience-Journal-Skills/">English-NaturalScience-Journal-Skills</a> 广度合集页。</sub></p>
 
 <p align="center"><sub><b>综合 · 多学科 <i>Multidisciplinary</i></b></sub></p>
 <p align="center">
@@ -746,7 +746,7 @@
 <details>
 <summary><b>🖼️ 点击展开：24 本人文与广义社科新刊封面墙</b>（社会学 · 政治学 · 心理学 · 传播 · 教育 · 历史 · 艺术 · 哲学 · 文学 · 宗教）</summary>
 
-<p align="center"><sub>📚 24 本人文 / 广义社科深度包 · 各刊真实封面（合理使用缩略图，仅用于检索识别）</sub></p>
+<p align="center"><sub>📚 覆盖 24 本人文 / 广义社科顶刊 · 每本一个独立深度包</sub></p>
 
 <p align="center">
   <a href="American-Sociological-Review-Skills/"><img src="assets/covers/american-sociological-review.png" alt="American Sociological Review" width="100"></a>
@@ -810,7 +810,7 @@
 <details>
 <summary><b>🖼️ 点击展开：6 本环境 / 生态 / 农业新刊封面墙</b></summary>
 
-<p align="center"><sub>📚 6 本环境 / 生态 / 农业深度包 · 各刊真实封面（合理使用缩略图，仅用于检索识别）</sub></p>
+<p align="center"><sub>📚 覆盖 6 本环境 / 生态 / 农业顶刊 · 每本一个独立深度包</sub></p>
 
 <p align="center">
   <a href="Environmental-Science-and-Technology-Skills/"><img src="assets/covers/environmental-science-and-technology.png" alt="Environmental Science &amp; Technology" width="100"></a>
@@ -1177,7 +1177,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
   - [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) —— 102 个中文社科期刊 profile
   - [English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) —— 100 本英文经济 / 金融 / 管理 / 会计 / 营销 / 运营 / 信息系统期刊
   - [English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) —— 100 本英文自然科学 / 临床 / 物理 / 形式科学期刊
-- **每刊真实封面** 覆盖全部广度期刊（322 张真实期刊封面，合理使用缩略图），两份 README 内嵌默认展开的封面画廊，并提供 200 个根目录轻量入口文件夹便于首页浏览。
+- **每刊封面直达** 覆盖全部广度期刊（322 本期刊封面墙），两份 README 内嵌默认展开的封面画廊，并提供 200 个根目录轻量入口文件夹便于首页浏览。
 - **单刊/单会全流程深度包（约 12 步）** —— 113 个仓库内自有 venue 包，覆盖五大板块（AER 与 Nature 另以收录/submodule 包形态提供）：
   - **英文经济学：** AER（submodule）· QJE · JPE · Econometrica · REStud · Journal of Development Economics · Journal of Public Economics · Journal of Labor Economics · Journal of International Economics · Journal of Monetary Economics · RAND Journal of Economics · Journal of Econometrics · Econometric Theory · Quantitative Economics · Journal of Applied Econometrics · JBES · The Econometrics Journal · Review of Economic Dynamics · Journal of Economic Growth · Journal of Economic Theory · Games and Economic Behavior · Journal of Human Resources
   - **英文金融：** Journal of Finance · Journal of Financial Economics · Review of Financial Studies · Review of Finance · JFQA · JFI · Journal of Corporate Finance · Journal of Banking & Finance · Mathematical Finance
