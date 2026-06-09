@@ -93,7 +93,7 @@ English | [简体中文](README.md)
 <h3 align="center">Natural Science &amp; Medicine Flagships — 100 Top Journals Covered</h3>
 <p align="center"><sub>Click any cover to open the corresponding skill pack. <b>Depth packs (12 skills)</b>: Science · Nature · Cell · Cancer Cell · PNAS · NEJM · JAMA · The Lancet · PRL · JACS · ES&amp;T; other covers link to the <a href="English-NaturalScience-Journal-Skills/">English-NaturalScience-Journal-Skills</a> breadth bundle.</sub></p>
 
-<p align="center"><sub><b>Multidisciplinary</b></sub></p>
+<p align="center"><b>Multidisciplinary</b></p>
 <p align="center">
   <a href="Science-Skills/"><img src="assets/covers/science.png" alt="Science" width="108"></a>
   <a href="nature-skills/"><img src="assets/covers/nature.png" alt="Nature" width="108"></a>
@@ -104,7 +104,7 @@ English | [简体中文](README.md)
   <a href="English-NaturalScience-Journal-Skills/skills/the-innovation/"><img src="assets/covers/the-innovation.png" alt="The Innovation" width="108"></a>
 </p>
 
-<p align="center"><sub><b>Life Sciences</b></sub></p>
+<p align="center"><b>Life Sciences</b></p>
 <p align="center">
   <a href="Cell-Skills/"><img src="assets/covers/cell.png" alt="Cell" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/molecular-cell/"><img src="assets/covers/molecular-cell.png" alt="Molecular Cell" width="108"></a>
@@ -124,7 +124,7 @@ English | [简体中文](README.md)
   <a href="English-NaturalScience-Journal-Skills/skills/molecular-biology-and-evolution/"><img src="assets/covers/molecular-biology-and-evolution.png" alt="Molecular Biology & Evolution" width="108"></a>
 </p>
 
-<p align="center"><sub><b>Clinical Medicine</b></sub></p>
+<p align="center"><b>Clinical Medicine</b></p>
 <p align="center">
   <a href="NEJM-Skills/"><img src="assets/covers/nejm.png" alt="NEJM" width="108"></a>
   <a href="Lancet-Skills/"><img src="assets/covers/the-lancet.png" alt="The Lancet" width="108"></a>
@@ -152,7 +152,7 @@ English | [简体中文](README.md)
   <a href="English-NaturalScience-Journal-Skills/skills/molecular-psychiatry/"><img src="assets/covers/molecular-psychiatry.png" alt="Molecular Psychiatry" width="108"></a>
 </p>
 
-<p align="center"><sub><b>Nature Research</b></sub></p>
+<p align="center"><b>Nature Research</b></p>
 <p align="center">
   <a href="English-NaturalScience-Journal-Skills/skills/nature-genetics/"><img src="assets/covers/nature-genetics.png" alt="Nature Genetics" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-methods/"><img src="assets/covers/nature-methods.png" alt="Nature Methods" width="108"></a>
@@ -178,7 +178,7 @@ English | [简体中文](README.md)
   <a href="English-NaturalScience-Journal-Skills/skills/nature-sustainability/"><img src="assets/covers/nature-sustainability.png" alt="Nature Sustainability" width="108"></a>
 </p>
 
-<p align="center"><sub><b>Physics &amp; Astronomy</b></sub></p>
+<p align="center"><b>Physics &amp; Astronomy</b></p>
 <p align="center">
   <a href="Physical-Review-Letters-Skills/"><img src="assets/covers/physical-review-letters.png" alt="Physical Review Letters" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/physical-review-x/"><img src="assets/covers/physical-review-x.png" alt="Physical Review X" width="108"></a>
@@ -191,7 +191,7 @@ English | [简体中文](README.md)
   <a href="English-NaturalScience-Journal-Skills/skills/monthly-notices-of-the-royal-astronomical-society/"><img src="assets/covers/monthly-notices-of-the-royal-astronomical-society.png" alt="MNRAS" width="108"></a>
 </p>
 
-<p align="center"><sub><b>Chemistry &amp; Materials</b></sub></p>
+<p align="center"><b>Chemistry &amp; Materials</b></p>
 <p align="center">
   <a href="Journal-of-the-American-Chemical-Society-Skills/"><img src="assets/covers/journal-of-the-american-chemical-society.png" alt="Journal of the American Chemical Society" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/angewandte-chemie-international-edition/"><img src="assets/covers/angewandte-chemie-international-edition.png" alt="Angewandte Chemie Int. Ed." width="108"></a>
@@ -205,14 +205,14 @@ English | [简体中文](README.md)
   <a href="English-NaturalScience-Journal-Skills/skills/energy-and-environmental-science/"><img src="assets/covers/energy-and-environmental-science.png" alt="Energy & Environmental Science" width="108"></a>
 </p>
 
-<p align="center"><sub><b>Earth, Environment &amp; Ecology</b></sub></p>
+<p align="center"><b>Earth, Environment &amp; Ecology</b></p>
 <p align="center">
   <a href="Environmental-Science-and-Technology-Skills/"><img src="assets/covers/environmental-science-and-technology.png" alt="Environmental Science & Technology" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/ecology-letters/"><img src="assets/covers/ecology-letters.png" alt="Ecology Letters" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/one-earth/"><img src="assets/covers/one-earth.png" alt="One Earth" width="108"></a>
 </p>
 
-<p align="center"><sub><b>Mathematics &amp; Computation</b></sub></p>
+<p align="center"><b>Mathematics &amp; Computation</b></p>
 <p align="center">
   <a href="English-NaturalScience-Journal-Skills/skills/annals-of-mathematics/"><img src="assets/covers/annals-of-mathematics.png" alt="Annals of Mathematics" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/inventiones-mathematicae/"><img src="assets/covers/inventiones-mathematicae.png" alt="Inventiones Mathematicae" width="108"></a>
@@ -221,7 +221,7 @@ English | [简体中文](README.md)
   <a href="English-NaturalScience-Journal-Skills/skills/ieee-transactions-on-pattern-analysis-and-machine-intelligence/"><img src="assets/covers/ieee-transactions-on-pattern-analysis-and-machine-intelligence.png" alt="IEEE TPAMI" width="108"></a>
 </p>
 
-<p align="center"><sub><b>Frontiers</b></sub></p>
+<p align="center"><b>Frontiers</b></p>
 <p align="center">
   <a href="English-NaturalScience-Journal-Skills/skills/science-immunology/"><img src="assets/covers/science-immunology.png" alt="Science Immunology" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/science-robotics/"><img src="assets/covers/science-robotics.png" alt="Science Robotics" width="108"></a>
