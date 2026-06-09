@@ -32,6 +32,15 @@
 <p align="center">
   <sub><b>1930 个 Agent Skill · 122 个精选 Pack</b> —— 按<b>期刊与会议</b>定制的一站式 AI 投稿工作流索引。</sub>
 </p>
+<p align="center">
+  <sub>
+    <a href="#快速浏览与布局指南">🧭 布局指南</a> ·
+    <a href="#skill-pack-一览">📚 Skill Pack 一览</a> ·
+    <a href="#如何使用">⚡ 如何使用</a> ·
+    <a href="#路线图">🗺️ 路线图</a> ·
+    <a href="README.en.md">🌐 English</a>
+  </sub>
+</p>
 
 <p align="center">
   <sub><b>先看期刊，再进 Pack。</b>点击任意封面即可进入对应的期刊 Skill 包。</sub>

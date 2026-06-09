@@ -32,6 +32,15 @@ English | [简体中文](README.md)
 <p align="center">
   <sub><b>1930 agent skills · 122 curated packs</b> — a one-stop index of journal- and venue-specific AI submission workflows.</sub>
 </p>
+<p align="center">
+  <sub>
+    <a href="#quick-browsing--layout-guide">🧭 Layout Guide</a> ·
+    <a href="#the-skill-packs">📚 The Skill Packs</a> ·
+    <a href="#how-to-use">⚡ How to Use</a> ·
+    <a href="#roadmap">🗺️ Roadmap</a> ·
+    <a href="README.md">🌐 简体中文</a>
+  </sub>
+</p>
 
 <p align="center">
   <sub><b>Start with the venue.</b> Click any cover to open its journal-specific skill pack.</sub>
