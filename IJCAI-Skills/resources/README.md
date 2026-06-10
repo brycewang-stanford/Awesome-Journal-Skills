@@ -12,6 +12,7 @@ benchmark against verified exemplars. Pair these with the relevant `skills/ijcai
 | [`exemplars/library.md`](exemplars/library.md) | Benchmark against **real, web-verified IJCAI papers** organized by topic × method. Framing and design positioning only — no fabricated numbers. Includes a sibling-confusion guard (IJCAI is not AAAI/NeurIPS/ICML/ICLR/ACL/AAMAS/KR). |
 | [`official-source-map.md`](official-source-map.md) | **IJCAI-specific policy & facts:** Chairing Tool submission, 7+2 page limit, two-phase review, double-blind anonymity, author response, reproducibility rubric, COI policy, and the authoritative source URLs. The authoritative pack source. |
 | [`external_tools.md`](external_tools.md) | Official IJCAI workflow links and author-side submission checks. |
+| [`code/README.md`](code/README.md) | Use the shared ML conference reproducibility kit: experiment matrix, artifact checklist, and a dependency-free smoke checker for anonymous reproduction packages. This is not the econometrics code kit. |
 
 ## Suggested workflow
 

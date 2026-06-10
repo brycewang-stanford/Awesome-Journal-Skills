@@ -12,16 +12,17 @@ benchmark against verified exemplars. Pair these with the relevant `skills/ectj-
 | [`exemplars/library.md`](exemplars/library.md) | Benchmark against **real, web-verified EctJ papers** organized by theme × contribution type (inference methods, panel estimators, weak-IV, diagnostic tests). Positioning only — no fabricated results. |
 | [`official-source-map.md`](official-source-map.md) | **EctJ-specific policy & facts:** Editorial Express submission, flat £75+VAT fee, ≤150-word summary, ≤20-page printed-paper rule, simulations-within-one-page, proofs in main text/printed appendix, conditional-on-acceptance replication policy, plus a "do-not-misattribute" list. The authoritative pack source. |
 | [`external_tools.md`](external_tools.md) | Official OUP/RES workflow links and author-side checks referenced by the pack. |
+| [`code/README.md`](code/README.md) | Use the shared econometrics methods kit for Monte Carlo, estimator, empirical-illustration, and replication-package smoke checks. This is not the generic applied causal-inference code kit. |
 
-## Scope note: discipline-appropriate, not the generic applied-code kit
+## Scope note: discipline-appropriate methods code, not the generic applied-code kit
 
 The Econometrics Journal publishes **econometric theory plus applied / computational econometrics** —
 new estimators, tests, identification results, and inference methods, each carrying direct applied
 value. It is **not** an outlet for running a generic causal-inference data pipeline. Accordingly,
-the venue-neutral applied **code kit is intentionally NOT vendored** into this pack (no `code/`
-directory). The discipline-appropriate layer here is the methodological **worked example** plus the
-**exemplars library**; EctJ-specific facts live in `official-source-map.md`. For the actual estimator,
-test, simulation, seed, and replication-package mechanics, follow the skills:
+the venue-neutral applied causal-inference code kit is intentionally **not** vendored into this pack.
+The local `code/` directory instead points to a methods-focused simulation and replication adapter.
+EctJ-specific facts live in `official-source-map.md`. For the actual estimator, test, simulation,
+seed, and replication-package mechanics, follow the skills:
 
 - [`../skills/ectj-data-analysis`](../skills/ectj-data-analysis/SKILL.md) — Monte Carlo design,
   estimator comparisons, seeds, software versions, and applied-value evidence.
@@ -38,6 +39,7 @@ test, simulation, seed, and replication-package mechanics, follow the skills:
    [`../skills/ectj-identification-strategy`](../skills/ectj-identification-strategy/SKILL.md); design
    the simulation + empirical application with
    [`../skills/ectj-data-analysis`](../skills/ectj-data-analysis/SKILL.md).
+   Use [`code/README.md`](code/README.md) to smoke-check the simulation or replication package layout.
 3. Tighten prose to the compact RES/OUP format with
    [`../skills/ectj-writing-style`](../skills/ectj-writing-style/SKILL.md).
 4. Benchmark against verified EctJ papers in [`exemplars/library.md`](exemplars/library.md); confirm

@@ -12,6 +12,7 @@ the relevant `skills/neurips-*/SKILL.md`.
 | [`exemplars/library.md`](exemplars/library.md) | Benchmark against **real, web-verified NeurIPS / NIPS papers** organized by method × topic, plus a sibling-confusion guard (ICML / ICLR / CVPR / NAACL papers explicitly excluded). Design positioning only — no fabricated numbers. |
 | [`official-source-map.md`](official-source-map.md) | **NeurIPS-specific policy & facts:** current-cycle CFP, Main Track Handbook, mandatory Paper Checklist, OpenReview, the MLRC/reproducibility track, and the official source URLs. The authoritative pack source. |
 | [`external_tools.md`](external_tools.md) | External tools and services referenced by the pack (proceedings, OpenReview, Software Heritage, code-release guidance). |
+| [`code/README.md`](code/README.md) | Use the shared ML conference reproducibility kit: experiment matrix, artifact checklist, and a dependency-free smoke checker for anonymous reproduction packages. This is not the econometrics code kit. |
 
 ## Note on scope (ML venue — no econometrics code kit)
 

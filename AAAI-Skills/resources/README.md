@@ -12,13 +12,15 @@ verified main-conference exemplars. Pair these with the relevant `skills/aaai-*/
 | [`exemplars/library.md`](exemplars/library.md) | Benchmark against **real, web-verified AAAI main-conference papers** organized by topic × method. Design positioning only — no fabricated metrics. Includes a sibling-confusion guard (AAAI is not IJCAI/NeurIPS/ICML/ICLR/ACL/CVPR/workshop/symposium/AI Magazine). |
 | [`official-source-map.md`](official-source-map.md) | **AAAI-specific policy & facts:** OpenReview double-blind submission, two-phase review, 7-page technical limit, reproducibility checklist, supplementary-material rules, author limits, and AAAI AI-use policy. The authoritative pack source. |
 | [`external_tools.md`](external_tools.md) | Official AAAI workflow links (conference page, Author Kit, CFP, submission instructions, review process, rebuttal FAQ) and author-side checks. |
+| [`code/README.md`](code/README.md) | Use the shared ML conference reproducibility kit: experiment matrix, artifact checklist, and a dependency-free smoke checker for anonymous reproduction packages. This is not the econometrics code kit. |
 
 ## Scope note — no econometrics code kit vendored
 
-This is an **AI-conference** pack. Unlike the economics journal packs, it deliberately does **not** vendor
-a `code/` directory: the shared Stata/Python causal-inference econometrics kit is out of scope for AAAI
-submissions and is **not** mirrored here. Reproducibility for AAAI is handled through the venue's own
-reproducibility checklist and supplementary ZIP categories — see
+This is an **AI-conference** pack. Unlike the economics journal packs, it deliberately does **not**
+vendor the shared Stata/Python causal-inference econometrics kit: that econometrics pipeline is out of
+scope for AAAI submissions. The local `code/` directory instead points to the shared ML-conference
+reproducibility kit. Reproducibility for AAAI is handled through the venue's own reproducibility
+checklist and supplementary ZIP categories — see
 [`official-source-map.md`](official-source-map.md) and the
 [`aaai-reproducibility`](../skills/aaai-reproducibility/SKILL.md) and
 [`aaai-experiments`](../skills/aaai-experiments/SKILL.md) skills.

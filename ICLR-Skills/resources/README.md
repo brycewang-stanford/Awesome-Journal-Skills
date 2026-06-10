@@ -13,6 +13,7 @@ deadline. Pair these with the relevant `skills/iclr-*/SKILL.md`.
 | [`exemplars/library.md`](exemplars/library.md) | Benchmark against **real, web-verified ICLR papers** organized by topic × method. Design positioning only — no fabricated metrics. Includes a sibling-confusion guard (ICLR is not NeurIPS / ICML / CVPR / AAAI / ACL). |
 | [`official-source-map.md`](official-source-map.md) | **ICLR-specific policy & facts:** OpenReview double-blind submission, 2026 page limits, reciprocal reviewing, LLM-use disclosure, Code of Ethics/Conduct, dual-submission and supplementary rules, plus the cycle-volatile items to re-check. The authoritative pack source. |
 | [`external_tools.md`](external_tools.md) | Official ICLR workflow links (CFP, Author Guide, Reviewer Guide, OpenReview group, LLM policy) and author-side anonymity/artifact checks. |
+| [`code/README.md`](code/README.md) | Use the shared ML conference reproducibility kit: experiment matrix, artifact checklist, and a dependency-free smoke checker for anonymous reproduction packages. This is not the econometrics code kit. |
 
 ## ML-conference pack — note on scope
 

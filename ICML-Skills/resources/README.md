@@ -13,6 +13,7 @@ Action-oriented resources for the ICML (International Conference on Machine Lear
 | [`exemplars/library.md`](exemplars/library.md) | Benchmark against **real, web-verified ICML papers** organized by method × topic, each confirmed in its PMLR/ICML proceedings volume. Design positioning only — no fabricated metrics. Includes a sibling-venue guard (ICML is **not** NeurIPS/ICLR/CVPR/AAAI/JMLR/UAI). |
 | [`official-source-map.md`](official-source-map.md) | **ICML-specific policy & facts:** OpenReview submission, LaTeX-only style, 8-page body, anonymity/double-blind, supplementary-material classes, impact statement, lay summary, LLM/prompt-injection policy, and the authoritative `icml.cc/Conferences/2026` source list. The authoritative pack source. |
 | [`external_tools.md`](external_tools.md) | External ICML tools and links (CFP, Author Instructions, Peer Review FAQ, OpenReview group, PMLR, format checker) — re-check every cycle. |
+| [`code/README.md`](code/README.md) | Use the shared ML conference reproducibility kit: experiment matrix, artifact checklist, and a dependency-free smoke checker for anonymous reproduction packages. This is not the econometrics code kit. |
 
 ## Scope note: no econometric code kit vendored
 
