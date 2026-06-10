@@ -50,6 +50,35 @@ the soundness and strength of the analysis. Pick technique by methodology:
   the main text keeps the key idea and a proof sketch.
 - Constants and rates are tracked, not hidden in "O(·)" when tightness is claimed.
 
+## Methodology pushback patterns and the OR fix
+
+| Referee remark | Underlying defect | Fix that meets the OR bar |
+|----------------|-------------------|----------------------------|
+| "Proof of Theorem X has a gap" | an assumption invoked implicitly | name where each hypothesis is used; add a lemma to bridge the step |
+| "The rate is asserted, not established" | rate read off numerical curves | prove it analytically (Lyapunov / contraction / first-order) with tracked constants |
+| "Algorithm has no guarantee" | a fast heuristic without analysis | attach an approximation factor, ε-stationarity, or regret/convergence bound |
+| "Bound may not be tight" | only an upper bound shown | exhibit a matching instance, or reframe explicitly as best-known |
+| "Simulation conclusions unreliable" | point estimates, no error control | report CIs (batch-means/regenerative) and variance reduction with the rule |
+| "Structural result not connected to the application" | theorem floats free of the decision | show the guarantee changes the operational policy it motivates |
+
+Operations Research, as the INFORMS flagship, lives on **soundness and strength of
+analysis**: a heuristic without a guarantee is an *INFORMS Journal on Computing* artifact,
+not an OR methodological contribution. The machinery table above exists so each
+claim is discharged by analysis a referee can verify line by line.
+
+## Worked machinery walk-through (illustrative)
+
+Target result: an approximation algorithm for a stochastic-covering problem with a
+claimed 1.5-factor guarantee (illustrative). Machinery selection from the table:
+**LP-rounding + primal-dual** for the factor; **concentration (martingale)** to control
+the stochastic constraint; **an oracle lower bound** to argue the factor cannot be
+pushed below 1.5 without stronger assumptions. Proof hygiene: each of the three
+assumptions (bounded second moment, independence across stages, integral demand) is
+cited exactly where the argument needs it; the full rounding analysis goes to the
+e-companion, the main text keeps the primal-dual sketch and the tight-instance
+construction. This produces a theorem-grade result *and* a tightness statement — the
+combination OR referees reward over a bare upper bound.
+
 ## Anti-patterns
 
 - A "proof" that silently adds an assumption mid-argument.

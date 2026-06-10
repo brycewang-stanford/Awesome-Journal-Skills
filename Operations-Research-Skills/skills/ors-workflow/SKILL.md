@@ -64,10 +64,52 @@ ors-rebuttal             (point-by-point response; reproducibility review)
 | About to submit | `ors-submission` |
 | Decision letter arrived | `ors-review-process` → `ors-rebuttal` |
 
+## The OR value arc the router protects
+
+Every stage exists to keep one chain intact — the arc an *Operations Research* area
+editor mentally traces when deciding fate: **model → analysis → algorithm →
+computational study → decision insight**. A manuscript that breaks any link routes to a
+referee complaint downstream. The router's job is to surface the weak link early.
+
+| Arc link | Owning skill | Snaps when... | Area-editor reads it as |
+|----------|--------------|---------------|--------------------------|
+| Model | `ors-theory-development` | object too general to prove or too narrow to matter | "no theorem-grade core" |
+| Analysis | `ors-methods` | a proof gap or unestablished rate | "rigor not at OR's bar" |
+| Algorithm | `ors-methods` | a guarantee-free heuristic carries the paper | "INFORMS J. Comp., not OR" |
+| Computational study | `ors-data-analysis` | benchmarks/baselines missing | "claims not corroborated" |
+| Decision insight | `ors-contribution-framing` | structure never reaches the application | "elegant but no OR payoff" |
+
+Operations Research is the **INFORMS flagship**: it wants both a theorem-grade result
+*and* a credible computational/decision study. M&SOM, POM, or *Journal of Operations
+Management* would route an empirical-OM survey through a different door; OR will not.
+Whenever a stage is "done," ask whether its arc link can survive the next referee.
+
+## Methodology-area vs. application-area routing
+
+A second routing axis OR authors miss: every submission carries a **methodology**
+identity (optimization / stochastic / simulation / game-theory / ML-for-OR) *and* an
+**application** flavor (revenue management, healthcare, logistics). The editorial area
+is chosen on the **methodology**, not the application headline — a revenue-management
+paper whose engine is a queueing analysis routes to Stochastic Models, not a
+"pricing" bucket. Misreading this axis is the most common re-route cause; resolve it in
+`ors-topic-selection` before formulating.
+
+## Worked routing vignette (illustrative)
+
+A team has a stochastic-inventory control problem, a proved threshold-policy optimality
+result, and an approximation algorithm with a claimed 1.5-factor guarantee (numbers
+illustrative). Router trace: they *think* they are ready for `ors-submission`, but the
+arc shows the **computational-study link is empty** — no benchmark instances, no solver
+baseline. Route order corrected to `ors-data-analysis` first, then `ors-tables-figures`
+for a performance-profile plot, then `ors-contribution-framing` to tie the threshold
+structure to the decision payoff, *then* `ors-submission`. Skipping straight to submit
+would have drawn a "computational study lacks benchmarks" desk-stage flag.
+
 ## Output format
 
 ```
 【Where you are】...
+【Arc link at risk】model / analysis / algorithm / comp-study / insight
 【Next skill】ors-...
 【Why】... (OR-specific reason)
 ```

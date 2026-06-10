@@ -50,6 +50,38 @@ canonical OR sources for the model class and the technique; missing a well-known
 result is a frequent reviewer flag. Keep the reference list in the INFORMS author-year
 style.
 
+## Positioning pushback patterns and the OR-specific fix
+
+| Referee/AE remark | Underlying gap | Fix that satisfies Operations Research |
+|-------------------|----------------|-----------------------------------------|
+| "How is this different from [Author year]?" | the closest competitor's delta is implicit | add a row to the comparison table making the {assumption, result, complexity} delta explicit |
+| "This duplicates a known result" | a relabeled prior theorem exists | either cite-and-differentiate the regime, or retract the novelty claim |
+| "You ignore the learning literature on this" | a parallel stream solved a close variant | place the cross-stream paper; state what its tools cannot give and you add |
+| "Citations are dated" | canonical OR sources missing | cite the foundational model-class and technique papers in author-year style |
+| "Gap is asserted, not shown" | rhetorical 'gap' language | replace with a per-paper technical delta a referee can check line by line |
+
+Because *Operations Research* is the INFORMS flagship for methodology, positioning is
+judged on **technical** distance — a weaker assumption, a tighter bound, a better rate,
+a new regime — not on a narrative gap. This is sharper than the managerial-contribution
+framing used at Management Science, M&SOM, or *Journal of Operations Management*, where
+positioning often turns on the decision question rather than the theorem's strength.
+
+## Worked positioning vignette (illustrative numbers)
+
+Suppose your result is a 1.58-approximation for a stochastic facility-location variant.
+The closest prior work gives a 2-approximation under an i.i.d.-demand assumption. Naive
+positioning ("we improve the approximation factor") invites the flag "but they assume
+less / more." Defensible OR positioning builds the row:
+
+| Paper | Assumption | Guarantee | Complexity |
+|-------|-----------|-----------|------------|
+| Prior (Author year) | i.i.d. demand | 2-approx | O(n²) |
+| This paper | correlated demand (weaker) | 1.58-approx | O(n² log n) |
+
+Now the delta is checkable on three axes at once — **broader model** (correlated
+demand), **tighter guarantee** (1.58 vs 2), at a stated complexity cost. That table,
+not a paragraph, is what converts an OR referee.
+
 ## Anti-patterns
 
 - A citation dump with no per-paper delta.

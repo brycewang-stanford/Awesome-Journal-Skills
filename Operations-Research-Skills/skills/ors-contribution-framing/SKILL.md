@@ -44,6 +44,47 @@ a first-class deliverable, not boilerplate. A strong statement:
 - **Discussion:** spell out implications for OR theory and practice, the limits of the
   results (where assumptions bind), and concrete open problems the work opens.
 
+## What OR area editors weigh in the contribution statement
+
+The handling Area Editor reads the <500-word statement as a gate before assigning the
+manuscript. They are scanning for the three pillars *and* for the decision payoff that
+separates *Operations Research* from a pure-math venue. A practical weighting:
+
+| Signal the AE looks for | Strong statement shows | Weak statement shows |
+|--------------------------|------------------------|-----------------------|
+| Methodological core | named new model/result/technique | "we study an important problem" |
+| Provable delta | "first guarantee / tighter rate than X" | restated abstract |
+| Computational credibility | corroborated by a benchmark study | theory-only, no validation plan |
+| Decision relevance | which OR decision this changes | elegance with no managerial hook |
+| Rigor signposting | which claims are theorems vs. heuristics | rate "shown" by numerical curves |
+
+The INFORMS-flagship bar is **both**: theorem-grade rigor *and* a credible
+computational or decision study. A statement that nails novelty but never connects the
+structure to an operational decision draws the classic OR pushback below.
+
+## Contribution pushback patterns and the fix
+
+| Referee remark | The OR-specific repair |
+|----------------|------------------------|
+| "Model elegance without managerial/decision relevance" | add one sentence naming the decision the structure improves and the regime |
+| "Contribution is incremental" | sharpen the delta to a quantified gain (tighter factor/rate, weaker assumption) |
+| "Significance to OR unclear" | state which OR methods/applications change, not generic importance |
+| "Theory not connected to the computational study" | promise (and later deliver) experiments that corroborate the proved bound |
+
+## Worked statement skeleton (illustrative)
+
+For a paper proving a threshold policy is optimal for a stochastic-scheduling model and
+giving a 1.2-approximation heuristic with a computational study (numbers illustrative):
+
+> *Novel:* first proof that a single-threshold policy is optimal under correlated job
+> sizes. *Innovative:* a coupling argument that sidesteps the usual exchange-argument
+> failure. *Rigorous:* Theorem 1 (optimality), Theorem 2 (1.2-factor for the heuristic),
+> validated on 240 benchmark instances against a commercial solver. *Significance:*
+> replaces a costly re-optimization with a closed-form rule for scheduling decisions.
+
+Each clause maps to a pillar and ends on the **decision payoff** — the line that keeps
+the statement out of "elegant but irrelevant" territory.
+
 ## Anti-patterns
 
 - A contribution statement that just summarizes the paper instead of naming the delta.

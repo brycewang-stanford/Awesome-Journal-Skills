@@ -55,6 +55,37 @@ set scope via published **Area Editors' Statements**. Match your contribution:
 - Computation-only artifact (codes, data structures) → *INFORMS Journal on Computing*.
 - Application with thin methodology → strengthen the method or target an applied INFORMS venue.
 
+## Desk-reject patterns at the area-editor gate
+
+Before a manuscript reaches reviewers, the Area Editor screens for fit. The recurring
+desk-stage rejections at *Operations Research* cluster as:
+
+| Desk-reject trigger | Why OR returns it | Pre-empt by... |
+|---------------------|-------------------|----------------|
+| Application with no method | "no OR/MS methodological contribution" | isolate a model class, guarantee, or structural theorem |
+| Solver-on-a-dataset | belongs at an applied/computing venue | add provable structure or convergence/complexity analysis |
+| Managerial-OM survey | empirical-OM, not flagship methodology | redirect to *Management Science* / M&SOM / *J. Operations Management* |
+| Code/data structures only | engineering artifact | redirect to *INFORMS Journal on Computing* |
+| Wrong editorial area | scope mismatch with Area Editors' Statement | re-read the statement; route on methodology, not application |
+| Heuristic with no guarantee | not a methodological result on its own | prove an approximation factor, regret, or convergence rate |
+
+Operations Research is the **INFORMS flagship** for rigorous OR methodology —
+optimization, stochastic models, queueing, simulation, game theory, revenue
+management — where the premium is on **both** a theorem-grade result and a credible
+computational/decision study. It is not a home for an empirical-OM survey; that
+distinction is the single biggest source of mis-targeted submissions.
+
+## Fit-test vignette (illustrative)
+
+A team has logistics data and shows, via regression, that consolidation lowers cost.
+Run the fit test: **method?** none new — it is a known estimator. **Rigor?** no
+theorem, no guarantee. **Significance to OR?** the *finding* is operational but the
+*contribution* is empirical. Verdict: not OR as-is. The fix that earns OR fit — extract
+the underlying stochastic-routing model, prove a structural property of the optimal
+consolidation policy, and validate it computationally. Same data, but now the
+contribution is a methodological result with a decision payoff. Only then does the
+methodology-area routing (Transportation vs. Stochastic Models) even matter.
+
 ## Anti-patterns
 
 - "We applied a known solver to our dataset" with no new method.

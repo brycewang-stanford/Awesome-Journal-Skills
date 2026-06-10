@@ -42,6 +42,43 @@ description: Use when polishing the prose and notation of an Operations Research
 - Make every claim either proved (cite the theorem) or empirically supported (cite the
   exhibit) — no unsupported assertions.
 
+## Prose pushback patterns OR referees raise (with the fix)
+
+| Referee remark | What it really flags | Venue-specific fix |
+|----------------|----------------------|--------------------|
+| "Introduction is hard to follow" | equations/notation leaked into the intro | rewrite every result as a plain-language "we show that ..." line; banish all symbols |
+| "Abstract is impenetrable" | symbol-laden, over 200 words | text-only rewrite stating problem, approach, headline result in prose |
+| "Theorem statements are dense" | symbols precede meaning | lead each formal result with a one-sentence plain-language reading, then the math |
+| "Notation is inconsistent" | symbol drift across model/proof/exhibit | one notation table; define once near first use; reconcile end-to-end |
+| "Main text is bloated by proofs" | three-page derivation inline | move it to the e-companion (which must not exceed the manuscript); keep a sketch |
+| "Claims feel unsupported" | assertion with no theorem/exhibit anchor | tie every claim to a proved result or a numbered exhibit; delete the rest |
+
+These are *Operations Research* style flags, not generic copy-editing. As the INFORMS
+flagship, OR enforces the equation-free intro precisely so a non-specialist optimizer,
+queueing theorist, or simulation methodologist can read the contribution across
+methodological silos — a bar empirical-OM venues do not set.
+
+## Equation-free rewrite micro-example (illustrative)
+
+Before (forbidden in the intro): "We prove that the policy minimizing
+E[∑ₜ γᵗ c(xₜ,aₜ)] is a threshold rule with threshold s* solving g(s*)=0."
+
+After (intro-legal): "We show that the cost-minimizing replenishment policy is a simple
+threshold rule — order up to a single critical level — and we characterize that level."
+
+The symbols, the discount factor, and the optimality equation move to the model section;
+the introduction keeps only the decision-relevant reading. This is the single most
+common style repair on first-round OR revisions.
+
+## Self-audit before handing to ors-submission
+
+- [ ] Introduction: zero equations, zero notation; problem + results + OR significance in words
+- [ ] Abstract: text-only, ≤ 200 words, no accented variables; up to 3 keywords
+- [ ] Every theorem opens with a plain-language sentence before symbols
+- [ ] Single consistent notation system across model, proofs, exhibits, e-companion
+- [ ] Author-year citations throughout; reference list in INFORMS convention
+- [ ] Long proofs in the e-companion (≤ manuscript length), sketch retained in main text
+
 ## Anti-patterns
 
 - Equations or notation in the introduction (violates the equation-free rule).

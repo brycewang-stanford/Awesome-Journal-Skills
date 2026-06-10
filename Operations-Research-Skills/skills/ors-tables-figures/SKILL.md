@@ -46,6 +46,40 @@ Use TikZ/PGFPlots (or matplotlib exported to vector) for crisp figures; performa
 profiles and log-log scaling plots reproduce well as vectors. Keep raw data/scripts in
 the ORJournal repository so every exhibit regenerates.
 
+## Exhibit pushback patterns and the INFORMS-style fix
+
+| Referee remark on an exhibit | What it flags | Venue-specific fix |
+|------------------------------|---------------|--------------------|
+| "Computational study lacks benchmarks" | no recognized baseline column | add a column for the closest prior method and a strong solver on standard instances |
+| "Cannot tell what 'best' means" | undefined win marking | caption defines the metric and tie-breaking; bold/mark honestly |
+| "Results not reproducible from the table" | missing units/time-limit/hardware | state units, time limit, termination, hardware, and the producing configuration |
+| "Means hide variability" | bare means for stochastic output | error bars / confidence intervals on every random-output figure |
+| "Theorem numbers don't match the text" | label drift | single numbering scheme via `amsthm`; reference by number everywhere |
+| "Scaling claim unsupported" | linear-axis time plot | log-log size-vs-time plot or a performance profile across the instance set |
+
+These are the exhibit-level versions of the two flags that sink OR computational
+sections: *no benchmarks* and *structure-not-connected-to-application*. Because
+Operations Research is the INFORMS flagship demanding **both** theorem-grade rigor and a
+credible computational study, the comparison table and the performance profile carry as
+much referee weight as the theorem environments.
+
+## Worked exhibit pair (illustrative numbers)
+
+A paper proves a 1.5-approximation and validates it. Two exhibits do the persuading:
+
+Comparison table — `Method × {assumption, factor, complexity}`:
+
+| Method | Assumption | Factor | Complexity |
+|--------|-----------|--------|------------|
+| Prior (Author year) | bounded ratios | 2.0 | O(n²) |
+| This paper | general weights | 1.5 | O(n² log n) |
+
+Computational table — `Instance set × {mean gap %, time (s), solver baseline}`, e.g.
+TSPLIB-derived instances showing 1.8% mean gap vs. 31% for the heuristic baseline at a
+600 s limit on stated hardware, with the proved 50% bound never violated. The figure
+pairs them: a log-log scaling plot with confidence-interval bands over 30 seeds. The
+table corroborates the theorem's bound; the plot shows it holds as size grows.
+
 ## Anti-patterns
 
 - A results table with no time limits, units, or hardware — irreproducible.
