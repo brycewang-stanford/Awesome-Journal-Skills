@@ -59,6 +59,40 @@ the location of every change so the editor can verify quickly.
 - Adding claims the sources cannot bear to satisfy a reviewer
 - Letting the revised manuscript reveal the author's identity
 
+## Triage table for an AHR reviewer demand
+
+With at least six expert readers, an AHR R&R generates more requests than any revision can adopt wholesale.
+Sort each demand before you draft the response so the editor sees principled judgment, not reflexive
+compliance.
+
+| Demand from a report | Disposition | The venue-specific move |
+|----------------------|-------------|-------------------------|
+| Goes to the editor's decisive points | Adopt first | Make the change and cite the exact section/note in the letter |
+| "Read this source more fully" | Adopt with evidence | Return to the document; quote more, supply provenance, or qualify |
+| Two readers want opposite things | Choose openly | Pick a principled path and explain the tradeoff to the editor |
+| Would flatten or over-extend the argument | Rebut respectfully | Decline with a reason grounded in sources or historiography |
+| "Do more archival work" | Scope honestly | Add what is feasible; mark what exceeds the article and why |
+
+## Worked vignette: reconciling two readers
+
+Suppose Reader A wants the manuscript's microhistorical chapter expanded into the heart of the article,
+while Reader B wants it cut as a digression. Capitulating to either breaks something. The response letter
+names the conflict explicitly, then chooses a principled middle: the micro case stays but is reframed so it
+visibly carries the article's general claim (answering B's "digression" worry) without ballooning into a
+second paper (answering A only in part). The letter tells the editor exactly why — the case earns its space
+by doing argumentative work, not by length — and points to the revised transition that makes that work
+legible. Each new footnote is in Chicago form and the revised file remains masked.
+
+## Calibration anchors
+
+- An R&R at a journal with single-digit acceptance is a genuine signal; protect the historiographic
+  intervention rather than diluting it to placate every reader (confirm current acceptance figures against
+  the journal's current submission guidelines).
+- The editor adjudicates among the AHA flagship's many readers; treat the editor's letter as the rubric and
+  solve its decisive points before the marginal ones.
+- New evidence must be real archival material in correct Chicago notes, and the resubmitted manuscript stays
+  double-blind — anonymity is not relaxed at the revision stage.
+
 ## Output format
 
 ```

@@ -49,6 +49,42 @@ interpretive stance, choose your scale, and defend the reading your evidence sup
 - Imposing present-day categories on past actors without flagging it
 - Pretending there is one correct reading when the evidence underdetermines it
 
+## Method-fit referee patterns, and the fix
+
+The AHR judges each interpretive approach **on its own terms**, which means reviewers attack the *fit*
+between method and material rather than the method's pedigree. These are the recurring fit complaints and
+the moves that answer them.
+
+| Reviewer complaint | What it diagnoses | The venue-specific fix |
+|--------------------|-------------------|------------------------|
+| "Theory floats above the sources" | Borrowed framework the documents never test | Earn each abstraction from a specific document; cut concepts that change no reading |
+| "The micro case is over-generalized" | A single locale carrying a universal claim | State what the scale buys; claim depth, not universality |
+| "Global scale, but the archive vanished" | Connection asserted without primary specificity | Re-anchor each link in a retrievable source; show the circulation, do not gesture at it |
+| "This is anachronism" | Present-day categories imposed on past actors | Reconstruct actors' own categories first; flag any analytic category they lacked |
+| "The reading is asserted as the only one" | Underdetermined evidence dressed as certainty | Acknowledge the live alternative reading and say why yours is better supported |
+
+## Worked vignette: choosing the scale
+
+Consider a project built on a single merchant's surviving correspondence about an Indian Ocean voyage. As
+**microhistory**, the letters can be read intensively for how one actor understood risk, distance, and
+trust — a deep, archive-bound claim. The temptation is to let that one merchant stand for "the early modern
+mercantile mind," which a reviewer will mark as over-generalization. The disciplined move keeps the micro
+reading but states what the scale buys: the letters illuminate a *mechanism* (how trust traveled across an
+ocean) that the article then tests against a second, structurally comparable correspondence — a controlled
+step up in scale rather than a leap to the universal. The interpretive stance is named plainly, the theory
+of trust is earned from the letters themselves, and the actors' own vocabulary of credit and obligation is
+reconstructed before any modern category of "networks" is applied.
+
+## Calibration anchors
+
+- The AHR's remit spans social, cultural, intellectual, political, economic, environmental, transnational,
+  and global history; no single method is privileged, so defend yours by **fit**, not by fashion.
+- Scale is a claim, not a backdrop: be explicit about what micro, meso, macro, or transnational framing
+  licenses and forecloses for *this* evidence.
+- This is a humanities venue — there is no statistical-significance bar or robustness table; persuasion
+  rests on source criticism and interpretive judgment (confirm any methodological expectations against the
+  journal's current submission guidelines).
+
 ## Output format
 
 ```

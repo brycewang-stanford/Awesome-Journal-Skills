@@ -52,6 +52,41 @@ the article must be significant, well-argued, and source-criticized before it go
 - Submitting concurrently elsewhere (breaks the exclusivity rule)
 - Sending an unsolicited book review (reviews are commissioned)
 
+## How a history article fails at each gate
+
+The AHR's intensive, multi-reader model means a manuscript can die at distinct points. Mapping the failure
+to its gate tells you what to fix before resubmitting anywhere. Confirm volatile figures against the
+journal's current submission guidelines.
+
+| Gate | What the manuscript must clear | The failure that stops it here |
+|------|-------------------------------|--------------------------------|
+| Editorial screen | General significance, evident historiographic stake | Reads as subfield-only or as a source dump |
+| Advance to external review | Enough promise for specialist readers | Thin archival base or no visible intervention |
+| Specialist reports | Persuasive reading, adequate source criticism | A reviewer who owns the field finds the evidence too thin |
+| Editorial synthesis | A path to a converging revision | Reports irreconcilable, or the fix would break the argument |
+
+## Worked vignette: reading the verdict
+
+A transnational labor-migration manuscript returns with five reports. Three praise the archive but say the
+claim "stops at the national border it set out to cross"; one calls the significance "important only to
+migration specialists"; one disputes the reading of a single consular memorandum. Decoded against the
+gates: the article cleared screening and external review (its archive is real), but the *significance* and
+*intervention* gates are wobbling. The productive response is not to answer the five reports seriatim but to
+strengthen the general stake — what the case revises about how states governed mobility — and to shore up
+the contested source. A demanding multi-reader verdict like this, short of acceptance, is closer to an R&R
+signal than to a clean rejection at a journal this selective.
+
+## Calibration anchors
+
+- The AHR is the journal of the American Historical Association, published by Oxford University Press, and
+  reviews unusually intensively — "at least six scholars" per published article — so plan for demanding,
+  expert reports rather than light copyedits.
+- The commissioned review section is large (on the order of hundreds of reviews a year, spanning books,
+  exhibits, films, podcasts, and digital history) and is **separate** from the research-article track;
+  reviews are assigned, not solicited by would-be reviewers.
+- Timeline and acceptance figures are volatile; the six-to-eight-month target and single-digit acceptance
+  rate cited here should be reconfirmed against the journal's current submission guidelines.
+
 ## Output format
 
 ```

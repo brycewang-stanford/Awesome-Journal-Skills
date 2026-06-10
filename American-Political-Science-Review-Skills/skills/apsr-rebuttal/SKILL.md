@@ -70,6 +70,49 @@ entries with the location of every change so the editor can verify quickly.
 【Next】resubmit via Editorial Manager
 ```
 
+## Triage table for an APSR R&R
+
+At the APSA/Cambridge flagship, publication generally needs near-unanimous reviewer support and the
+editor adjudicates, so triage each comment by who must be satisfied and what the comment threatens.
+
+| Comment signal | Who owns the call | Default move in the response |
+|----------------|-------------------|------------------------------|
+| Editor flags it as decisive | editor | solve first, headline it in the cover note |
+| Two reviewers want opposite things | editor | pick a principled path, explain the tradeoff openly |
+| Reviewer asks for an analysis that would change the claim | author + editor | run it, then defend or re-scope the contribution honestly |
+| Reviewer wants the result generalized beyond design | author | add scope conditions; resist over-claiming |
+| Reviewer disputes a methodological choice across traditions | author | answer on that tradition's own terms (pluralism) |
+
+## Worked micro-example (illustrative)
+
+A hypothetical R&R draws four reviews. The editor's letter names **two** decisive points
+(identification and general significance). R2 wants the formal model **cut**; R4 wants it **expanded**.
+The disciplined letter opens with a three-sentence summary to the editor, addresses identification and
+significance first with new text/table locations, then reconciles R2/R4 by **keeping a compact model in
+the main text and moving derivations to the appendix** — stating the tradeoff explicitly rather than
+silently siding with one reviewer. Of **31** total comments, **31** receive a quoted response; **22**
+are conceded with a change location, **9** are rebutted with a reason. (Counts illustrative.)
+
+## Referee-pushback patterns and the APSR-specific repair
+
+- *"Revision diluted the general-significance claim that earned the R&R."* → Restore the discipline-wide
+  framing; defend scope conditions instead of retreating to a subfield result.
+- *"New tables don't match the deposited package."* → Re-verify the reproducibility package so every
+  revised exhibit re-runs; the editorial office checks this before publication.
+- *"You ignored a comment."* → Silence reads as non-compliance; quote and answer every one, even to say
+  why you respectfully disagree.
+- *"Capitulation weakened the paper's logic."* → A well-argued disagreement is respected more than a
+  hollow concession; editors at a generalist venue reward a coherent contribution.
+
+## Calibration anchors (hedged)
+
+- Treat the **editor's letter as the rubric**: at a discretion-based generalist venue, the editor
+  weighs reviewers rather than counting votes.
+- Because APSR spans formal, quantitative, qualitative, and normative work, a cross-tradition reviewer
+  objection is answered in *that* tradition's idiom, not deflected.
+- The exact decision-category language and editor-discretion policy can change — confirm against the
+  journal's current peer-review guidelines before quoting them in the letter.
+
 ## Supplementary resources
 
 - [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — R&R/decision categories and editor-discretion policy

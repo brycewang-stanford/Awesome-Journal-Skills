@@ -55,6 +55,41 @@ embellishing a source.
 - Vague citations ("National Archives") with no collection/box/folder
 - Assuming images are free to reproduce; leaving permissions to the last minute
 
+## "The archival base is too thin": diagnosing the charge
+
+The single most damaging report at the AHR is that the evidence cannot bear the claim. Because the AHA
+flagship judges history on the quality and criticism of its sources, this charge takes several distinct
+forms, each with a different remedy.
+
+| Form of the "too thin" charge | What the reviewer means | The venue-specific remedy |
+|-------------------------------|-------------------------|---------------------------|
+| Too few documents | One striking source carries a structural claim | Widen the base or narrow the claim to what the documents support |
+| Uncriticized sources | The document is read as a transparent window | Add provenance, genre, and bias analysis; read with and against the grain |
+| Unrepresentative sample | A vivid exception generalized | Weigh typicality; flag the source as exceptional if it is |
+| Ignored silences | Absent voices unexamined | Name who the archive excludes and bound the claim accordingly |
+| Unretrievable citations | Another scholar could not find the source | Specify archive, collection, series, box/folder, and date |
+
+## Worked vignette: reading against the grain
+
+A manuscript reconstructs a peasant revolt from the trial records that condemned its leaders. Read as a
+window, the records "show" the revolt as the prosecution described it — and a reviewer will say the archival
+base is too thin because it is one-sided. Read **critically**, the same records become richer: their genre
+(judicial interrogation under coercion) and provenance (produced by the victorious authorities) are
+analyzed, the rebels' aims are reconstructed by reading *against* the grain of the charges, and the silence
+of the unprosecuted is named as a limit on the claim. The article now cites each document by collection,
+box, and folder so another historian can return to it, weighs whether these defendants were typical, and
+states plainly what the sources can and cannot establish.
+
+## Calibration anchors
+
+- A genuine **primary-source basis** the author can marshal and criticize is non-negotiable at the AHR; the
+  premium is on original archival research, not on synthesis of secondary literature alone.
+- Image and figure obligations fall on the author: clear reproduction rights, supply credit lines, and
+  provide alt-text under each legend (confirm exact image requirements against the journal's current
+  submission guidelines).
+- "Primary" is relative to your question — a historian's monograph is secondary for events but primary for
+  the historiography you analyze; resolve borderline cases explicitly.
+
 ## Output format
 
 ```

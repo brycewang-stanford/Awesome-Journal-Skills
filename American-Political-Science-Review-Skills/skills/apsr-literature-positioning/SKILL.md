@@ -57,6 +57,52 @@ to place the paper where a **general** political-science audience can see the ga
 【Next】apsr-theory-building
 ```
 
+## Engagement depth APSR editors expect, by paper type
+
+Because APSR is the discipline's generalist flagship — the APSA/Cambridge venue read across American,
+comparative, IR, theory, and methods — "the relevant literature" is rarely just your home subfield's.
+The desk screen asks whether a non-specialist editor can see the debate; this table sets the depth
+that usually clears it.
+
+| Paper type | Literature it must engage | The desk-reject trap to avoid |
+|------------|---------------------------|-------------------------------|
+| American-politics empirical | the general theory of representation/institutions it tests | citing only Americanists; "first to study district X" |
+| Comparative case study | the cross-national theory the case speaks to | a country literature with no general claim |
+| IR / formal | the substantive empirical work the model bears on | a model debate detached from political outcomes |
+| Normative / political theory | the empirical or public-life stakes, where applicable | a purely internal exegesis with no discipline-wide payoff |
+| Measurement / methods | the substantive literatures that will use the measure | method-for-its-own-sake with no consumer |
+
+## Worked micro-example (illustrative)
+
+A hypothetical comparative paper argues that proportional electoral rules raise legislative
+responsiveness to minority preferences. Drafted for a comparative-politics audience, it cites **22**
+works, **19** of them on European party systems. An APSR-calibrated reframe keeps the core comparative
+cites but adds the **representation** debate Americanists own and the **formal** spatial-voting result
+the mechanism rests on — roughly **6** cross-subfield anchors — and re-states the gap as a contested
+*general* claim ("responsiveness is treated as institution-invariant; we show it is conditional on
+electoral rule"). The bibliography barely grows, but the contribution now reads as discipline-wide.
+(Counts illustrative.)
+
+## Referee-pushback patterns and the APSR fix
+
+- *"The contribution is subfield-bound, not general political science."* → Recast the gap as a live
+  disagreement the whole discipline recognizes, and add the 3–6 cross-subfield works that define it.
+- *"You missed obvious work / don't engage the debate."* → This is an explicit desk-reject ground at
+  APSR; map the live disagreement, then cite the works that *constitute* it, not a citation pile.
+- *"Closest competitor is hidden."* → Name the nearest prior paper and state precisely what your move
+  changes (mechanism fails / is conditional / is better explained).
+- *"Self-citation breaks anonymity."* → Neutralize first-person self-references; APSR is
+  double-anonymous (see `apsr-submission`).
+
+## Calibration anchors (hedged)
+
+- APSR's premium is **interest to the whole discipline**, so positioning that satisfies only one
+  subfield's frontier is structurally weak even when the within-subfield contribution is real.
+- Methodological pluralism extends to literatures: a normative argument may legitimately engage
+  empirical work, and vice versa — the bridge across traditions is itself a positioning asset.
+- "Failure to engage the relevant literature(s)" remains a desk-reject category; confirm the exact
+  current wording against the journal's submission and peer-review guidelines before relying on it.
+
 ## Supplementary resources
 
 - [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — desk-rejection grounds incl. literature engagement

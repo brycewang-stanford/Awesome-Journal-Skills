@@ -48,6 +48,43 @@ article.
 - Strawmanning or hiding the closest competing account
 - Treating a recovered topic as self-justifying without a historiographical stake
 
+## Desk-reject and referee patterns at the AHR, with the remedy
+
+Because the AHR is the discipline's general-history flagship, the most frequent positioning failures are
+ones where the intervention is invisible to a historian outside the author's field. The first two rows
+below are common grounds for an early editorial decline; confirm screening specifics against the journal's
+current submission guidelines.
+
+| Pattern in the manuscript | How a generalist reader reads it | The remedy |
+|---------------------------|----------------------------------|------------|
+| "Little has been written on X" | Antiquarian gap-filling, not a debate | Name the reigning interpretation and say precisely what your evidence revises |
+| Engagement only with one's own subfield | Significance looks parochial | Connect the claim to a debate other historians already care about |
+| Citation pile with no organizing argument | A survey, not a positioning | Frame the live interpretive conversation and cite only the works that define it |
+| Strawman version of the closest rival | Reviewer who wrote that work will object | Represent the strongest prior reading fairly, then revise it on the evidence |
+| "Recovery" with no historiographic stake | Worthy topic, unclear payoff | Tie the recovered subject to what it changes in the general picture |
+
+## Worked vignette: relocating an intervention
+
+Imagine a manuscript on enslaved litigants in a colonial Spanish-American court. A first draft positions
+it as "the first study of these particular case files" — a recovery framing that reads, to a generalist,
+as local and self-justifying. Relocated as an **intervention**, the same archive speaks to a live debate:
+historians have treated colonial legal personhood as a settled exclusion, and these suits show enslaved
+people using the courts as a recognized strategy, which forces a revision of how we periodize the reach of
+imperial law. Now the closest rival reading (that such suits were exceptional and tolerated, not
+structural) is named and answered with the frequency and outcomes in the files, and a historian of an
+entirely different empire can see the stakes: how subordinated actors made law work. The recovery becomes
+a reframing with a clear "what it changes" sentence.
+
+## Calibration anchors
+
+- The historiographic-stakes bar at the AHR is satisfied when a historian who never works on your region
+  or period grasps, in one sentence, what your article revises.
+- Distinguish **revision, reframing, recovery, synthesis, and reperiodization**, and claim only the one
+  the evidence supports — over-claiming the intervention type is itself a referee target.
+- The AHR's broad chronological and geographic remit means your conversation partners may sit far from your
+  archive; positioning that engages only the nearest five specialists usually reads as too narrow (confirm
+  scope expectations against the journal's current submission guidelines).
+
 ## Output format
 
 ```

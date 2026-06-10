@@ -63,6 +63,53 @@ decisions live in `apsr-research-design`.
 【Next】apsr-tables-figures
 ```
 
+## What APSR reviewers probe, by analytic tradition
+
+APSR is the flagship of the American Political Science Association, published by Cambridge University
+Press, and its reviewers are drawn from across the discipline — so the same results section can be
+read by a formal theorist, a survey methodologist, and a comparativist at once. Calibrate the
+analysis to whichever lens is decisive, but expect all three to be in the room.
+
+| Analytic tradition | The check an APSR referee runs first | The fix that earns the benefit of the doubt |
+|--------------------|--------------------------------------|---------------------------------------------|
+| Survey / lab experiment | Is inference randomization-based and pre-registered? | Randomization inference, pre-registered estimand, MDE reported |
+| Observational causal | Is the "causal" word doing more than the design licenses? | State estimand + assumption; sensitivity to an unobserved confounder |
+| Text-as-data / computational | Was the model validated against human labels? | Held-out validation set, stability across seeds, version pinned |
+| Formal-empirical | Do the tests follow comparative statics, or a loose analogy? | Map each prediction to a parameter the model moves |
+| Multi-method | Do quant and qual estimates actually corroborate? | Show where they agree, and own where they diverge |
+
+## Worked micro-example (illustrative numbers)
+
+A hypothetical APSR survey experiment tests whether co-partisan endorsements raise support for a
+redistricting reform. The pre-registered ATE is **+6.2 points (95% CI 3.1 to 9.3)** on a 0–100
+support scale, randomization-inference *p* = 0.004. The exploratory subgroup "low political-knowledge
+respondents" shows **+11.8 points**, but it was *not* pre-registered and the interaction *p* = 0.04
+before any multiplicity correction — after a Bonferroni adjustment across the six exploratory
+subgroups it crosses 0.20. The disciplined write-up reports the +6.2 confirmatory effect with its
+interval and substantive meaning, flags the +11.8 figure as **exploratory and not multiplicity-robust**,
+and frames it as a hypothesis for future work rather than a finding. (All numbers illustrative.)
+
+## Referee-pushback patterns and the APSR-specific repair
+
+- *"This reads as a subfield result, not a general one."* → Re-anchor the estimate to a
+  discipline-wide stake (representation, accountability, institutional design) before the numbers.
+- *"The robustness table only reruns near-identical specs."* → Replace decorative checks with
+  specifications that could *break* the result, and say what you learned when they did not.
+- *"Theory and empirics are loosely coupled."* → Tie each estimate back to an observable implication
+  the argument named in advance, not to a pattern noticed afterward.
+- *"I cannot tell registered from exploratory analyses."* → Segregate them explicitly; the editorial
+  office will later re-run the deposited code, so the split must survive verification.
+
+## Calibration anchors (hedged)
+
+- The bar is **general-political-science significance**, not within-subfield novelty: an effect that
+  only a specialist would value rarely clears APSR review.
+- APSR practices **methodological pluralism** — a rigorous qualitative or formal analysis is not
+  second-class to a regression. Match the inference standard to the design.
+- Transparency expectations follow **DA-RT / APSR Dataverse** norms: write the analysis so a
+  conditionally-accepted package reproduces every printed number. Exact deposit mechanics can change —
+  confirm against the journal's current submission and transparency guidelines.
+
 ## Supplementary resources
 
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — estimation, inference, and text-as-data packages
