@@ -1,6 +1,6 @@
 ---
 name: cpa-abstract
-description: Use when drafting or revising the 中文摘要 or 英文 abstract for a 《中国行政管理》 manuscript. Enforces the question→method→finding→significance four-part pattern and forbids empty-significance phrases.
+description: Use when drafting or revising the 中文摘要 or 英文 abstract for a 《中国行政管理》(Chinese Public Administration, CPA) manuscript — the journal run by the Chinese Public Administration Society. 当摘要写成"具有重要意义"套话、看不出研究问题方法发现、或中英文不对齐时使用。Enforces the question→method→finding→significance four-part pattern, forbids empty-significance phrases, and keeps the abstract anchored in a public-administration theory frame.
 ---
 
 # 摘要写作（cpa-abstract）
@@ -59,7 +59,46 @@ description: Use when drafting or revising the 中文摘要 or 英文 abstract f
 
 凡是删掉之后摘要不损失信息量的句子，都要删掉。
 
-## 输出格式
+## 锚定本刊的摘要审读期待
+
+《中国行政管理》由中国行政管理学会主办，是 CSSCI 权威公共管理顶级期刊，审稿人扫摘要时按下表逐项打勾；任意一栏空缺，初审就可能被判"看不出贡献"而退稿。本刊偏好政府治理与改革、数字政府、应急管理、基层治理、公共政策评估等议题，摘要务必让现实治理问题与公共管理理论同时露面。
+
+| 审读维度 | 达标 | 常见退稿信号 |
+|---------|------|------------|
+| 治理问题显示度 | 第一句即点明中国当下的治理痛点 | 通篇抽象、看不出研究的是哪类政府实践 |
+| 理论锚点 | 摘要里出现明确的公共管理理论标签（执行 / 注意力 / 央地 / 问责） | 只有"基于相关理论"含糊带过 |
+| 发现具体性 | 定量给方向与量级、定性给条件组合 | 仅"显著影响""效果良好" |
+| 对策落点 | 启示能追溯到本文发现 | 用"推进国家治理现代化"收尾 |
+
+> 本刊定量实证（DID / IV / PSM）与规范研究、案例研究并存；摘要的方法句应让审稿人一眼看出属于哪一路，不要写成放之四海皆准的模板。具体字数与栏目归属以编辑部最新稿约为准。
+
+## 微型走查示例（虚构稿件 · 示意数字）
+
+以一篇虚构的"放管服改革对企业活力的影响"稿件走一遍四段法。下列数字均为示意，仅演示摘要骨架，不代表真实估计。
+
+```
+原始摘要（不合格）：
+"本文研究了放管服改革，运用大样本数据进行了实证分析，
+结果表明改革成效显著，对推进政府治理现代化具有重要意义。"
+→ 命中黑名单：无问题、无理论、无量级、空套话收尾。
+
+按四段法重写（合格）：
+第1句  问题：行政审批制度改革能否真正激发企业活力，机制尚不清晰。
+第2句  理论+方法：以"政府—市场边界"与交易成本理论为框架，
+        基于 2014—2021 年 280 个地级市面板与企业注册数据，采用多期 DID。
+第3—4句 发现：改革使新设企业密度示意性上升约 6%（方向为正、量级明确），
+        主要通过压缩制度性交易成本实现，且在市场化程度较低地区效应更强。
+第5句  贡献：识别出放管服改革的"交易成本"传导机制及其地区条件，
+        为差异化推进审批改革提供有据依据（不空喊"意义重大"）。
+```
+
+走查结论：方法句锚定本刊认可的 DID 评估路径，发现句给方向、量级、机制、条件四件齐备，启示句可追溯到机制——四段法逐项落地。
+
+## 审稿人追问与本刊语境修法
+
+- 追问"摘要里看不出这是公共管理研究" → 在第二句嵌入公共管理理论标签与治理情境，而非只写计量方法。
+- 追问"发现太笼统" → 把"显著影响"改为带方向 / 量级（定量）或条件组合（定性）的一句话。
+- 追问"启示是套话" → 用 `cpa-policy-implication` 的"发现→机制→建议"链压缩成一句，挂回本文证据。
 
 ```
 【字数】中文 X / 英文 X（以官网要求为准）

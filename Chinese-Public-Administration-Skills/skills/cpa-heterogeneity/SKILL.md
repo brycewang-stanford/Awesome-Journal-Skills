@@ -1,6 +1,6 @@
 ---
 name: cpa-heterogeneity
-description: Use when designing or writing heterogeneity / conditionality analysis for a 《中国行政管理》 manuscript — variation across regions, administrative levels, and governance contexts. Enforces theory-guided cuts and significance-of-difference discipline.
+description: Use when designing or writing heterogeneity / conditionality analysis for a 《中国行政管理》(Chinese Public Administration, CPA) manuscript — variation across regions, administrative levels, and governance contexts. 当主结果只笼统适用、只切了一个维度、或审稿人要求差异化分析时使用。Enforces theory-guided cuts and significance-of-difference discipline for this Chinese-Public-Administration-Society journal.
 ---
 
 # 异质性与条件性（cpa-heterogeneity）
@@ -73,7 +73,40 @@ description: Use when designing or writing heterogeneity / conditionality analys
 - 定性研究中不同案例结果不同却不系统比较条件
 - 异质性结论与机制冲突但不解释
 
-## 输出格式
+## 锚定本刊的异质性审读期待
+
+《中国行政管理》（中国行政管理学会主办，CSSCI 权威公共管理顶级期刊）审稿人对异质性的核心期待，是看它能否照见**中国治理结构本身**——压力型体制、央地分工、属地管理、层级治理逻辑。把异质性切在能体现治理结构的维度上，比切人口学变量更被本刊认可。
+
+| 切分倾向 | 本刊更认可 | 易被判"凑数" |
+|---------|----------|------------|
+| 治理结构 | 行政层级、属地加码强度、条块关系 | 仅按性别 / 年龄切个体特征 |
+| 治理情境 | 数字政府发展水平、财政能力、市场化—法治化程度 | 仅东中西三分而无机制解释 |
+| 政策窗口 | 运动式治理期 vs. 常态化、机构改革前后 | 随机切年份无理论指引 |
+
+> 数字政府、应急管理、基层治理类稿件，本刊尤其期待看到"同一政策在不同治理能力地区效果不同"的条件性结论。维度命名是否被认可，以编辑部最新稿约与近期同栏目论文为准。
+
+## 微型走查示例（虚构稿件 · 示意数字）
+
+以一篇虚构的"网格化治理对社区矛盾化解的影响"评估稿件演示。下列数字为示意，仅说明切分与差异检验流程。
+
+```
+主结果（示意）：网格化使社区矛盾化解率上升约 8 个百分点。
+切分维度1（行政层级 / 属地加码）：
+  强属地加码区  效应 +11pp ，弱属地加码区 +4pp ，
+  系数差异 Chow 检验在 5% 上显著 → 与"层层加码激活基层响应"机制一致。
+切分维度2（数字政府水平）：
+  高数字化社区 +12pp ，低数字化社区 +5pp ，差异显著
+  → 印证"技术赋能放大网格响应"这一机制。
+结论：两条异质性均回扣机制，而非孤立罗列。
+```
+
+走查结论：维度紧扣治理结构与数字治理情境，每个维度都报告系数差异检验并回扣机制——满足本刊"理论指引 + 显著性纪律"双重要求。
+
+## 审稿人追问与本刊语境修法
+
+- 追问"为什么切这个维度" → 补一句治理结构层面的理论预期（如"高层级统筹能力不同→效应不同"）。
+- 追问"子样本太小" → 合并相邻层级或改用交互项全样本估计，避免在 N 极小的组上解释。
+- 追问"异质性与机制对不上" → 回到 `cpa-mechanism`，让"激活该机制的条件"与"该条件强的子样本效应强"对齐。
 
 ```
 【异质性维度】X 个（层级 / 情境 / 结构 / ……）
