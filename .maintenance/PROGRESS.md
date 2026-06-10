@@ -691,3 +691,25 @@ Two-round, web-verified polish of the 《经济研究》 pack, co-existing with 
   ¥0 fees + 10yr penalty; removed unsourced ≥1000字 over-assertion pack-wide; added
   resources/exemplars/library.md (18 verified papers × method × topic); augmented source-map.
 Verified facts sourced from cssn.cn official guidance, NCPSSD, CNKI, AJCASS sister-journal house style.
+
+## Wave 35 — repo-wide second-pass capability uplift (Codex, 2026-06-10)
+
+User requested a full-repo skill capability uplift with analysis first and acceptance only after completion.
+I ran the current baseline instead of relying on older counts, then targeted the scorecard low tail and the
+CS breadth-pack routing weakness without touching submodules.
+
+- Upgraded low-tail depth packs with executable operating passes: claim/evidence/risk ledgers, sibling-venue
+  routing guards, source-map verification floors, and role-specific reviewer-risk checks.
+- Covered the bottom score bands until all first-party packs reached at least 88.0 on
+  `tools/quality_scorecard.py`; final distribution: 117 first-party packs, mean 91.6, min 88.0,
+  p10 88.5, below 86/88/90 = 0/0/43.
+- Added score-distribution reporting to `tools/quality_scorecard.py` so future uplift work can see low-tail
+  movement without ad hoc one-liners.
+- Strengthened `Computer-Science-Conference-Skills/resources/exemplars/selection-patterns.md` with explicit
+  high-confusion sibling contrasts surfaced by clone audit, and pointed the CS router skill at that table.
+- Validation completed: `python3 -m py_compile tools/*.py`, `python3 tools/audit_repo.py`,
+  `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 60`,
+  `git diff --check`, and `python3 tools/run_checks.py --skip-reports`.
+- Scope note: clone audit still reports high similarity only inside the intentionally templated
+  `Computer-Science-Conference-Skills` breadth profiles; this remains below the 0.90 fail threshold and is
+  now backed by explicit sibling-selection rules in the resources layer.

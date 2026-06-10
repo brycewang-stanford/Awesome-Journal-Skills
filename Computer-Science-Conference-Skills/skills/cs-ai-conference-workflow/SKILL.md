@@ -13,6 +13,8 @@ This is the router for the computer-science conference pack. It puts AI conferen
 
 - If the target conference family is unclear, read `../../resources/worked-examples/venue-routing.md`.
 - If two sibling conferences look plausible, read `../../resources/exemplars/selection-patterns.md`.
+  This file now carries the high-confusion sibling contrasts surfaced by clone-audit review
+  (robotics, graphics/vision, NLP chapters, systems/networking, security, SE/PL/theory).
 - Before submission-ready advice, use `../../resources/conference-roster.md` and
   `../../resources/official-source-map.md` to open the current official CFP,
   author kit, and submission policy for the chosen conference.
