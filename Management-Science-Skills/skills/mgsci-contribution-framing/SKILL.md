@@ -39,6 +39,16 @@ Because ambiguous-fit papers are discussed across the editorial team and many ar
 - Overclaiming generality the model or data cannot support.
 - Burying the contribution sentence so the editor has to guess the Department and the payoff.
 
+
+## Contribution pass for Management Science
+
+Run this as a concrete capability pass. First lock the decision problem, formal or empirical engine, managerial lever, and generality claim; then test whether the manuscript addresses OR/MS reviewers who expect a generalizable decision model, credible empirical leverage, or algorithmic insight with managerial consequence.
+
+- **Primary move:** Translate the result into who learns what, which mechanism changes, and which alternative explanation is ruled out; keep the claim narrower than the evidence.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Sibling comparison:** compare against Operations Research for method-first optimization, Marketing Science for marketing models, Organization Science for organization-theory mechanisms; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

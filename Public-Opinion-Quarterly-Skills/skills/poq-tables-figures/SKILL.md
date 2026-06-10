@@ -47,6 +47,16 @@ behind every estimate.
 - Color-only encoding that fails in grayscale or for colorblind readers
 - Exhibit numbers/values that don't match the deposited code output
 
+
+## Exhibit pass for Public Opinion Quarterly
+
+Run this as a concrete capability pass. First lock the public-opinion construct, sampling frame, mode effects, weighting/nonresponse plan, and trend or causal interpretation; then test whether the manuscript addresses survey and public-opinion reviewers who inspect measurement, sampling, mode, nonresponse, and inference about attitudes or behavior.
+
+- **Primary move:** For every table or figure, state the object, sample/case base, uncertainty display, and one sentence the exhibit proves for this venue.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Sibling comparison:** compare against Political Analysis for methods-first work, Journal of Politics for political-science theory, Communication Research for media-effects framing; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

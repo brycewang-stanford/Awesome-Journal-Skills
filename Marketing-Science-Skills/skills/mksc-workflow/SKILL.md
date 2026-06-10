@@ -50,3 +50,12 @@ Default assumption: unless told otherwise, the target is **Marketing Science**, 
 - Jumping to `mksc-data-analysis` before a model exists — MKSC rejects model-free correlation.
 - Polishing exhibits (`mksc-tables-figures`) before identification is settled.
 - Treating a consumer-psychology experiment with no formal model as MKSC-ready — that is a JCR paper.
+
+## Router pass for Marketing Science
+
+Use this as a second-pass capability check. First lock the demand/supply mechanism, fit evidence, and counterfactual decision margin; then test whether the manuscript addresses quantitative marketing reviewers who read the model through the managerial counterfactual it makes possible.
+
+- **Primary move:** Run fit gate, evidence gate, writing gate, source-map gate, and output contract; stop when a gate lacks evidence.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against Journal of Marketing Research for empirical marketing breadth, Management Science for wider OR/MS reach, Quantitative Marketing and Economics for specialist modeling; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.

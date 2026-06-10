@@ -48,6 +48,16 @@ Every exhibit must pull its weight and reproduce from the deposited Dataverse pa
 - Color-only encoding that fails in grayscale or for colorblind readers
 - Exhibit numbers/values that don't match the deposited code output
 
+
+## Exhibit pass for World Politics
+
+Run this as a concrete capability pass. First lock the political mechanism, case scope, evidence warrant, and comparative or international implication; then test whether the manuscript addresses comparative and international politics reviewers who expect a big political question, credible evidence, and theory that travels beyond one case.
+
+- **Primary move:** For every table or figure, state the object, sample/case base, uncertainty display, and one sentence the exhibit proves for this venue.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Sibling comparison:** compare against International Organization for IR institutions/political economy, Journal of Politics for wider political science, Comparative Political Studies for comparative breadth; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

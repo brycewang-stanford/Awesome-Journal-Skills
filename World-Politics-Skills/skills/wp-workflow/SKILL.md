@@ -62,6 +62,16 @@ Iterate: most papers loop theory ↔ design ↔ analysis several times before wr
   narrative (explicitly out of scope)
 - Pitching an unsolicited review article without checking the commissioning norm
 
+
+## Router pass for World Politics
+
+Run this as a concrete capability pass. First lock the political mechanism, case scope, evidence warrant, and comparative or international implication; then test whether the manuscript addresses comparative and international politics reviewers who expect a big political question, credible evidence, and theory that travels beyond one case.
+
+- **Primary move:** Run the pack as fit gate, evidence gate, writing gate, source-map gate, and output contract; stop when a gate lacks evidence.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Sibling comparison:** compare against International Organization for IR institutions/political economy, Journal of Politics for wider political science, Comparative Political Studies for comparative breadth; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

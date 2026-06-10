@@ -40,6 +40,16 @@ The discussion should deliver exactly what the statement promised: restate the o
 - A statement that summarizes the paper rather than stating what the field learns.
 - A discussion that lists findings but never says "so what for organization theory."
 
+
+## Contribution pass for Organization Science
+
+Use this as a second-pass capability check. First lock a level map, a mechanism paragraph, and the cover-letter contribution statement; then test whether the manuscript addresses interdisciplinary organization reviewers who ask whether the mechanism travels across levels of analysis.
+
+- **Primary move:** Translate the result into who learns what, which mechanism changes, and which rival explanation is ruled out; keep the claim narrower than the evidence.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against AMJ for empirical management framing, ASQ for organization-theory depth, Management Science for formal/quantitative operations; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

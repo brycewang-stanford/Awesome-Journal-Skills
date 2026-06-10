@@ -38,6 +38,16 @@ The bar is **overall contribution**, not novelty for its own sake: "theoretical 
 - Forcing a causal-identification framing the data cannot support — the journal values mechanism and design logic over identification.
 - Pitching pure novelty ("no one has studied X") instead of a contribution.
 
+
+## Fit pass for Organization Science
+
+Treat this skill as an executable review pass, not a prose hint. First lock a level map, a mechanism paragraph, and the cover-letter contribution statement; then judge whether the current manuscript answers the venue's real reader: interdisciplinary organization reviewers who ask whether the mechanism travels across levels of analysis.
+
+- **Do the pass:** Score the manuscript on venue fit, novelty, evidence readiness, and audience ownership; reject a prestige-only target when a sibling venue owns the contribution more directly.
+- **Return a ledger:** give `claim / evidence / risk / manuscript location` rows, so the next agent can edit rather than rediscover the issue.
+- **Sibling guard:** compare against AMJ for empirical management framing, ASQ for organization-theory depth, Management Science for formal/quantitative operations; if a sibling owns the contribution, recommend re-routing before polishing format.
+- **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
+
 ## Output format
 
 ```

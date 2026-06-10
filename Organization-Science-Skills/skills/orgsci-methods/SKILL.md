@@ -43,6 +43,16 @@ A defining stance: causal inference is valued but **"not necessary and often imp
 - A simulation with no empirical anchor or unjustified parameter ranges.
 - Method chosen to look rigorous rather than to test the theory.
 
+
+## Methods pass for Organization Science
+
+Use this as a second-pass capability check. First lock a level map, a mechanism paragraph, and the cover-letter contribution statement; then test whether the manuscript addresses interdisciplinary organization reviewers who ask whether the mechanism travels across levels of analysis.
+
+- **Primary move:** Name assumptions, diagnostics, robustness, falsification, and failure modes; do not accept a method section that hides the decisive validity threat.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against AMJ for empirical management framing, ASQ for organization-theory depth, Management Science for formal/quantitative operations; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

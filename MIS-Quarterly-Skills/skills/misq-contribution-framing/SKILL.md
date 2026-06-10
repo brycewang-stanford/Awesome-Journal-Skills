@@ -50,6 +50,16 @@ Draft, for the intro and the discussion, sentences of the form: *"We contribute 
 - A discussion that restates results without saying what changed in IS understanding.
 - Over-claiming relevance with no concrete implication for practice or policy.
 
+
+## Contribution pass for MIS Quarterly
+
+Use this as a second-pass capability check. First lock the IS phenomenon, artifact/platform, theory mechanism, design or empirical warrant, and managerial implication; then test whether the manuscript addresses information-systems reviewers who expect strong IS theory, digital artifact or platform grounding, and evidence with organizational consequence.
+
+- **Primary move:** Translate the result into who learns what, which mechanism changes, and which rival explanation is ruled out; keep the claim narrower than the evidence.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against Information Systems Research for quantitative IS, Journal of Management Information Systems for applied systems, Management Science for broader OR/MS; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

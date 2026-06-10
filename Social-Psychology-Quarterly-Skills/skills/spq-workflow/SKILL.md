@@ -60,6 +60,16 @@ Iterate: most papers loop theory ↔ design ↔ analysis several times before wr
 - Forcing an experimental template onto interpretive symbolic-interaction work (SPQ judges each tradition on its own terms)
 - Treating data sharing as a gate — SPQ encourages but does not require it (see `spq-data-and-transparency`)
 
+
+## Router pass for Social Psychology Quarterly
+
+Run this as a concrete capability pass. First lock the social-psychological process, measurement, design, and boundary condition across groups or contexts; then test whether the manuscript addresses social-psychology reviewers who expect interaction, identity, group process, or status mechanisms grounded in sociological theory.
+
+- **Primary move:** Run the pack as fit gate, evidence gate, writing gate, source-map gate, and output contract; stop when a gate lacks evidence.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Sibling comparison:** compare against JPSP for psychology breadth, ASR/AJS for sociology theory stakes, Social Forces for broader empirical sociology; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

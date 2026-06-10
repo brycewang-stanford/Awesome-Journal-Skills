@@ -49,6 +49,16 @@ description: Use to convert references to NEJM's Vancouver / ICMJE numbered styl
 - Use Zotero/EndNote with an **NEJM / Vancouver (ICMJE)** style; do a final manual pass on the author cutoff and NLM abbreviations.
 - Verify every superscript number resolves to a list entry, with no gaps or duplicates, and that the count is within the cap.
 
+
+## Citation pass for New England Journal of Medicine
+
+Use this as a second-pass capability check. First lock the clinical question, population, endpoint, effect size, safety signal, and practice implication; then test whether the manuscript addresses clinical-medicine reviewers who expect practice-changing evidence, patient relevance, safety, and exact reporting discipline.
+
+- **Primary move:** Audit references and notes as evidence discipline: each source should position, document, or delimit a claim.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against JAMA for broad clinical medicine, Lancet for global-health/public-health reach, specialty journals for narrower disease domains; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

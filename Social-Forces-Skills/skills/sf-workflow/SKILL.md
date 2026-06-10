@@ -60,6 +60,16 @@ prose (references count!) and exhibits (10-panel cap) before writing-style and s
 - Letting exhibits drift past 10 panels and discovering it at submission
 - Formatting to the ASA Style Guide or an AJS-style house format — SF uses **Chicago 17th author-date**
 
+
+## Router pass for Social Forces
+
+Treat this skill as an executable review pass, not a prose hint. First lock the social mechanism, data scope, identification or interpretation, and contribution to a wider literature; then judge whether the current manuscript answers the venue's real reader: social-science reviewers who want generalizable social-process evidence across sociology, demography, and policy-adjacent topics.
+
+- **Do the pass:** Run the pack as a sequence: fit gate, evidence gate, writing gate, source-map gate, and final output contract; stop when a gate lacks evidence.
+- **Return a ledger:** give `claim / evidence / risk / manuscript location` rows, so the next agent can edit rather than rediscover the issue.
+- **Sibling guard:** compare against ASR/AJS for top sociology theory stakes, Demography for population process, JMF for family-specific claims; if a sibling owns the contribution, recommend re-routing before polishing format.
+- **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
+
 ## Output format
 
 ```

@@ -54,6 +54,16 @@ no opinion, policy, theory-only, historical, or journalistic pieces) before and 
 - Leaving identifying information that defeats triple-blind anonymity
 - Ignoring the APSA human-subjects affirmation when research engages participants
 
+
+## Review-risk pass for World Politics
+
+Run this as a concrete capability pass. First lock the political mechanism, case scope, evidence warrant, and comparative or international implication; then test whether the manuscript addresses comparative and international politics reviewers who expect a big political question, credible evidence, and theory that travels beyond one case.
+
+- **Primary move:** Turn likely reviewer objections into a ledger with response evidence, manuscript location, and the decision-maker who must be convinced first.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Sibling comparison:** compare against International Organization for IR institutions/political economy, Journal of Politics for wider political science, Comparative Political Studies for comparative breadth; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

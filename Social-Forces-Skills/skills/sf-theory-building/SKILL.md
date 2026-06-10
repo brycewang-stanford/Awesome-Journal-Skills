@@ -50,6 +50,16 @@ tighten it into a general logic or reframe (back to `sf-topic-selection`).
 - A theory section so long it crowds out analysis under the reference-inclusive cap
 - Burying the argument under the empirics — the contribution must be stated plainly and early
 
+
+## Operating pass for Social Forces
+
+Treat this skill as an executable review pass, not a prose hint. First lock the social mechanism, data scope, identification or interpretation, and contribution to a wider literature; then judge whether the current manuscript answers the venue's real reader: social-science reviewers who want generalizable social-process evidence across sociology, demography, and policy-adjacent topics.
+
+- **Do the pass:** Return a claim-evidence-risk ledger rather than a prose-only diagnosis; every recommendation must point to a manuscript location or missing artifact.
+- **Return a ledger:** give `claim / evidence / risk / manuscript location` rows, so the next agent can edit rather than rediscover the issue.
+- **Sibling guard:** compare against ASR/AJS for top sociology theory stakes, Demography for population process, JMF for family-specific claims; if a sibling owns the contribution, recommend re-routing before polishing format.
+- **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
+
 ## Output format
 
 ```

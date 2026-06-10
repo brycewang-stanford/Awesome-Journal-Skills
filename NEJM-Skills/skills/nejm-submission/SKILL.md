@@ -78,6 +78,16 @@ description: Use as the final preflight before submitting to NEJM — a complete
 - `templates/checklist.md` — copyable clinical preflight checklist.
 - `templates/cover_letter_template.md` — clinical cover-letter scaffold.
 
+
+## Submission readiness pass for New England Journal of Medicine
+
+Use this as a second-pass capability check. First lock the clinical question, population, endpoint, effect size, safety signal, and practice implication; then test whether the manuscript addresses clinical-medicine reviewers who expect practice-changing evidence, patient relevance, safety, and exact reporting discipline.
+
+- **Primary move:** Verify portal, article type, anonymity, declarations, files, data/code, and current source-map facts; return blockers before formatting advice.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against JAMA for broad clinical medicine, Lancet for global-health/public-health reach, specialty journals for narrower disease domains; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

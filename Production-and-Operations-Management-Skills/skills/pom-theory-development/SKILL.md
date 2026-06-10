@@ -46,6 +46,16 @@ Every mechanism must answer: **what does a practicing operations manager do diff
 - "Curvature" or a significant interaction reported with no operational mechanism.
 - Practice implications that merely restate the result without an actionable decision.
 
+
+## Operating pass for Production and Operations Management
+
+Use this as a second-pass capability check. First lock the operational decision, the performance metric, and the implementable lever; then test whether the manuscript addresses POM reviewers who want operational insight tied to production, service, supply-chain, or platform decisions.
+
+- **Primary move:** Return a claim-evidence-risk ledger; every recommendation must point to a manuscript location or missing artifact.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against Management Science for broader OR/MS theory, Operations Research for method-first optimization, MSOM for manufacturing/service operations depth; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

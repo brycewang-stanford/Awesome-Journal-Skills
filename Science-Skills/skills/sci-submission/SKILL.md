@@ -68,6 +68,16 @@ description: Use as the final preflight before submitting to Science — a compl
 - `templates/checklist.md` — copyable preflight checklist.
 - `templates/cover_letter_template.md` — significance-forward cover letter scaffold.
 
+
+## Submission pass for Science
+
+Use this as a second-pass capability check. First lock the broad discovery claim, decisive evidence, uncertainty/limitations, and why the result belongs in a general-science weekly; then test whether the manuscript addresses general-science reviewers and editors who ask whether the result changes a broad field, is technically decisive, and can be understood outside the subdiscipline.
+
+- **Primary move:** Verify article type, file package, length/display limits, reporting statements, data/code, ethics, competing interests, and current official instructions.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against Nature for similar broad-scope novelty, PNAS for academy-wide breadth, specialist journals when the claim is field-internal; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

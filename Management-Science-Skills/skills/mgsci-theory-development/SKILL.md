@@ -44,6 +44,16 @@ Whichever lane, the theory must yield a **decision-relevant, cross-department in
 - Empirical hypotheses with no named mechanism (pure correlation dressed as theory).
 - Post hoc hypotheses fitted to the data (HARKing).
 
+
+## Theory pass for Management Science
+
+Run this as a concrete capability pass. First lock the decision problem, formal or empirical engine, managerial lever, and generality claim; then test whether the manuscript addresses OR/MS reviewers who expect a generalizable decision model, credible empirical leverage, or algorithmic insight with managerial consequence.
+
+- **Primary move:** Separate construct, mechanism, scope condition, and testable implication; refuse a theory section that only summarizes prior work.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Sibling comparison:** compare against Operations Research for method-first optimization, Marketing Science for marketing models, Organization Science for organization-theory mechanisms; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

@@ -60,6 +60,16 @@ Iterate: most papers loop thesis ↔ objections ↔ conceptual analysis several 
 - A survey of a topic with no original thesis of one's own
 - Skipping the strongest objection — at Mind the reply *is* much of the contribution
 
+
+## Router pass for Mind
+
+Use this as a second-pass capability check. First lock the target thesis, argument map, objection sequence, and dialectical payoff; then test whether the manuscript addresses analytic-philosophy reviewers who expect a precise thesis, live objection, argument structure, and contribution to an active debate.
+
+- **Primary move:** Run fit gate, evidence gate, writing gate, source-map gate, and output contract; stop when a gate lacks evidence.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against Philosophical Review for broader top philosophy, Nous for analytic breadth, Ethics for normative/political theory; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

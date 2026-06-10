@@ -38,6 +38,16 @@ POM's **32-page** limit *counts* tables, figures, appendices, and references (1.
 - [ ] E-companion exhibits numbered (EC.*) and cross-referenced stably
 - [ ] No duplication between main paper, appendix, and e-companion
 
+
+## Exhibit pass for Production and Operations Management
+
+Treat this skill as an executable review pass, not a prose hint. First lock the operational decision, the performance metric, and the implementable lever; then judge whether the current manuscript answers the venue's real reader: POM reviewers who want operational insight tied to production, service, supply-chain, or platform decisions.
+
+- **Do the pass:** For every table or figure, state the estimand or object, sample or case base, uncertainty display, and one sentence the exhibit proves for the venue audience.
+- **Return a ledger:** give `claim / evidence / risk / manuscript location` rows, so the next agent can edit rather than rediscover the issue.
+- **Sibling guard:** compare against Management Science for broader OR/MS theory, Operations Research for method-first optimization, MSOM for manufacturing/service operations depth; if a sibling owns the contribution, recommend re-routing before polishing format.
+- **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
+
 ## Output format
 
 ```

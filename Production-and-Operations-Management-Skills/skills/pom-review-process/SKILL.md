@@ -41,6 +41,16 @@ POM is **stricter than most peers**: a paper **rejected** in one department may 
 - [ ] Resubmission invitation present? (only path back after a reject)
 - [ ] Revised page budget plan if proceeding
 
+
+## Review-risk pass for Production and Operations Management
+
+Use this as a second-pass capability check. First lock the operational decision, the performance metric, and the implementable lever; then test whether the manuscript addresses POM reviewers who want operational insight tied to production, service, supply-chain, or platform decisions.
+
+- **Primary move:** Turn likely reviewer objections into a ledger with response evidence, manuscript location, and the decision-maker who must be convinced first.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against Management Science for broader OR/MS theory, Operations Research for method-first optimization, MSOM for manufacturing/service operations depth; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

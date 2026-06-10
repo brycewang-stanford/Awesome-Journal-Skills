@@ -52,6 +52,16 @@ A flawless econometric or optimization exercise that does not improve or explain
 - A method showcase with no operational decision improved.
 - Proofs with no numerical study to quantify or stress assumptions.
 
+
+## Methods pass for Manufacturing & Service Operations Management
+
+Run this as a concrete capability pass. First lock the process bottleneck, decision policy, queue/inventory/service mechanism, and implementation constraint; then test whether the manuscript addresses operations reviewers who look for service/manufacturing process insight, implementable policies, and operational performance evidence.
+
+- **Primary move:** Name the estimand or objective, assumptions, diagnostics, robustness checks, and failure modes before accepting the method as venue-ready.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Sibling comparison:** compare against Management Science for broader OR/MS reach, Production and Operations Management for wider OM readership, Operations Research for method-first theory; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

@@ -316,7 +316,14 @@ def main() -> int:
         shown = rows[: args.top] if args.top else rows
         scores = [r["score"] for r in rows]
         mean = sum(scores) / len(scores) if scores else 0
+        p10 = scores[int((len(scores) - 1) * 0.10)] if scores else 0
+        median = scores[len(scores) // 2] if scores else 0
+        low_counts = {cutoff: sum(1 for score in scores if score < cutoff) for cutoff in (86, 88, 90)}
         print(f"Quality scorecard — {len(rows)} first-party packs · mean score {mean:.1f}/100")
+        print(
+            f"Distribution: min {scores[0]:.1f} · p10 {p10:.1f} · median {median:.1f} · "
+            f"below 86/88/90 = {low_counts[86]}/{low_counts[88]}/{low_counts[90]}"
+        )
         print(f"(worst first){' · showing bottom ' + str(args.top) if args.top else ''}\n")
         hdr = f"{'score':>6}  {'type':>10} {'skl':>3} {'unit':>5} {'desc':>4}  {'code':>4} {'wex':>3} {'exm':>3}  pack"
         print(hdr)

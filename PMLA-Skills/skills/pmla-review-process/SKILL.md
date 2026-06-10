@@ -49,6 +49,16 @@ readers, to Editorial Board members, or to the editor.
 - Submitting while the essay is under review elsewhere, or resubmitting a previously declined PMLA essay
 - Forgetting the MLA-membership requirement for every author
 
+
+## Review-risk pass for PMLA
+
+Run this as a concrete capability pass. First lock the object corpus, interpretive intervention, field conversation, and scholarly stakes; then test whether the manuscript addresses humanities reviewers who expect a field-crossing literary or language-studies intervention with careful textual evidence.
+
+- **Primary move:** Turn likely reviewer objections into a ledger with response evidence, manuscript location, and the decision-maker who must be convinced first.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Sibling comparison:** compare against Critical Inquiry for theory-forward essays, New Literary History for literary theory/history, discipline journals for narrower archive work; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

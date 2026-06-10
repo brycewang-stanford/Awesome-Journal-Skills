@@ -50,6 +50,16 @@ place the paper where a POQ reader sees the gap and the move.
 - Self-citation that breaks anonymity (POQ is double-blind — see `poq-submission`)
 - Claiming "first to study" when the contribution is incremental
 
+
+## Positioning pass for Public Opinion Quarterly
+
+Run this as a concrete capability pass. First lock the public-opinion construct, sampling frame, mode effects, weighting/nonresponse plan, and trend or causal interpretation; then test whether the manuscript addresses survey and public-opinion reviewers who inspect measurement, sampling, mode, nonresponse, and inference about attitudes or behavior.
+
+- **Primary move:** Build a three-column map: incumbent conversation, unresolved tension, and this manuscript's delta; include one sibling-venue omission that would make a referee doubt the fit.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Sibling comparison:** compare against Political Analysis for methods-first work, Journal of Politics for political-science theory, Communication Research for media-effects framing; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

@@ -47,6 +47,16 @@ MISQ uses double-anonymous review and the manuscript must contain no identifying
 - Subfield jargon that locks out three of the four IS traditions.
 - Trimming substance instead of redundancy to meet the page limit.
 
+
+## Style execution pass for MIS Quarterly
+
+Use this as a second-pass capability check. First lock the IS phenomenon, artifact/platform, theory mechanism, design or empirical warrant, and managerial implication; then test whether the manuscript addresses information-systems reviewers who expect strong IS theory, digital artifact or platform grounding, and evidence with organizational consequence.
+
+- **Primary move:** Rewrite the opening and transitions so the venue-level claim, evidence object, and contribution are visible before technical detail.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against Information Systems Research for quantitative IS, Journal of Management Information Systems for applied systems, Management Science for broader OR/MS; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

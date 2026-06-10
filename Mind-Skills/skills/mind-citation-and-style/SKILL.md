@@ -46,6 +46,16 @@ so formatting never becomes the reason for friction.
 - Inconsistent reference formatting across the manuscript
 - Quotations with no page reference, or paraphrases that misstate the source
 
+
+## Citation pass for Mind
+
+Use this as a second-pass capability check. First lock the target thesis, argument map, objection sequence, and dialectical payoff; then test whether the manuscript addresses analytic-philosophy reviewers who expect a precise thesis, live objection, argument structure, and contribution to an active debate.
+
+- **Primary move:** Audit references and notes as evidence discipline: each source should position, document, or delimit a claim.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against Philosophical Review for broader top philosophy, Nous for analytic breadth, Ethics for normative/political theory; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

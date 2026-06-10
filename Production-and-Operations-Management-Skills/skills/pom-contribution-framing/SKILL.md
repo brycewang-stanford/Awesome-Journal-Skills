@@ -43,6 +43,16 @@ Convert comparative statics, coefficients, or model accuracy into operational co
 - [ ] Results expressed as operational levers, not just signs/coefficients
 - [ ] Target Department fit stated explicitly
 
+
+## Contribution pass for Production and Operations Management
+
+Treat this skill as an executable review pass, not a prose hint. First lock the operational decision, the performance metric, and the implementable lever; then judge whether the current manuscript answers the venue's real reader: POM reviewers who want operational insight tied to production, service, supply-chain, or platform decisions.
+
+- **Do the pass:** Translate the result into who learns what, which mechanism changes, and which alternative explanation is ruled out; keep the contribution narrower than the evidence.
+- **Return a ledger:** give `claim / evidence / risk / manuscript location` rows, so the next agent can edit rather than rediscover the issue.
+- **Sibling guard:** compare against Management Science for broader OR/MS theory, Operations Research for method-first optimization, MSOM for manufacturing/service operations depth; if a sibling owns the contribution, recommend re-routing before polishing format.
+- **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
+
 ## Output format
 
 ```

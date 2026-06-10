@@ -50,6 +50,16 @@ If you include experiments, surveys, or reduced-form results, tie them to the mo
 - Assumptions chosen for tractability that contradict the marketing institution.
 - Comparative statics asserted, not derived.
 
+
+## Theory pass for Marketing Science
+
+Treat this skill as an executable review pass, not a prose hint. First lock the demand/supply mechanism, fit evidence, and counterfactual decision margin; then judge whether the current manuscript answers the venue's real reader: quantitative marketing reviewers who read the model through the managerial counterfactual it makes possible.
+
+- **Do the pass:** Name the construct, mechanism, boundary condition, and falsifiable implication separately; do not let a literature summary masquerade as theory.
+- **Return a ledger:** give `claim / evidence / risk / manuscript location` rows, so the next agent can edit rather than rediscover the issue.
+- **Sibling guard:** compare against Journal of Marketing Research for empirical marketing breadth, Management Science for wider OR/MS reach, Quantitative Marketing and Economics for specialist modeling; if a sibling owns the contribution, recommend re-routing before polishing format.
+- **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
+
 ## Output format
 
 ```

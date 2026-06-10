@@ -48,6 +48,16 @@ SSP survey table, or vice versa).
 - Color-only encoding that fails in grayscale or for colorblind readers
 - Construct labels meaningful only to your own subfield
 
+
+## Exhibit pass for Social Psychology Quarterly
+
+Run this as a concrete capability pass. First lock the social-psychological process, measurement, design, and boundary condition across groups or contexts; then test whether the manuscript addresses social-psychology reviewers who expect interaction, identity, group process, or status mechanisms grounded in sociological theory.
+
+- **Primary move:** For every table or figure, state the object, sample/case base, uncertainty display, and one sentence the exhibit proves for this venue.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Sibling comparison:** compare against JPSP for psychology breadth, ASR/AJS for sociology theory stakes, Social Forces for broader empirical sociology; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```
