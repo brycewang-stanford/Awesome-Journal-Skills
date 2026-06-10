@@ -29,6 +29,18 @@ description: Use when stress-testing causal identification for a Journal of Huma
 - Report sensitivity tests that explain which sample/specification choices matter.
 - Keep the public-policy interpretation tied to identified variation.
 
+## Public-policy validity check
+
+For every causal claim, write the policy interpretation in LATE/ATT/descriptive terms:
+
+- **Who** is affected: treated population, complier group, cohort, locality, or institution.
+- **What margin** changes: enrollment, employment, wages, health, fertility, retirement, or another JHR outcome.
+- **Which policy lever** is credible: eligibility rule, treatment intensity, price, access, mandate, or program design.
+- **What does not travel**: populations, periods, institutions, or equilibrium responses outside the design.
+
+If the policy sentence needs a broader population than the estimand supports, narrow the claim before
+submission.
+
 ## Output format
 
 ```text

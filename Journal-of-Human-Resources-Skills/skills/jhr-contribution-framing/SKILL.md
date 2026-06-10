@@ -29,6 +29,20 @@ outcome in the economics sense] because [mechanism].
 - Relationship to prior estimates.
 - Boundary conditions: population, time, institution, and external validity.
 
+## Reconciliation paragraph
+
+JHR framing is strongest when the contribution paragraph does not merely say "we add evidence." Add a
+reconciliation sentence:
+
+```text
+Our estimate differs from [prior estimate] because [sample/design/institution/period], and when we
+re-estimate the prior specification on [shared sample or comparable sample], the gap narrows/widens in
+the predicted direction.
+```
+
+If the paper cannot explain why its magnitude differs from prior work, the contribution is vulnerable
+even when the design is credible. Route to `jhr-data-analysis` for comparative estimation.
+
 ## Output format
 
 ```text

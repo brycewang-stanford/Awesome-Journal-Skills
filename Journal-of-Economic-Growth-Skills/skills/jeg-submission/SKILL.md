@@ -24,6 +24,17 @@ description: Use when running the final Journal of Economic Growth submission pr
 - [ ] Subscription route chosen unless Open Choice APC is intentionally selected
 - [ ] APC amount and editor facts re-verified on live Springer pages
 
+## JEG-specific final read
+
+Before upload, read only the title, abstract, introduction, and first results/model section and check:
+
+- The paper is visibly about long-run growth, development, or dynamic macroeconomics.
+- The contribution is framed as a growth mechanism, not a generic method or adjacent-field estimate.
+- Theory/empirics classification is clear, with the right appendix and data/code expectations.
+- Declarations and Data Availability Statement match the actual empirical, simulation, or calibration files.
+
+If these fail, fix framing before formatting details. A polished Springer file will not save a weak JEG fit.
+
 ## Output format
 
 ```text

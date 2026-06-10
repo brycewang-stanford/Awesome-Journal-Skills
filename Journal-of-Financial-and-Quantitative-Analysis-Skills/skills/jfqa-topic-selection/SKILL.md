@@ -1,6 +1,6 @@
 ---
 name: jfqa-topic-selection
-description: Judge whether a research question fits the Journal of Financial and Quantitative Analysis (JFQA) — empirical and quantitative financial economics (corporate finance, investments, capital and security markets, financial institutions, finance-relevant quantitative methods). Use before investing in a JFQA submission to test scope fit and the quantitative-evidence bar.
+description: Use when judging whether a research question fits the Journal of Financial and Quantitative Analysis (JFQA) — empirical and quantitative financial economics (corporate finance, investments, capital and security markets, financial institutions, finance-relevant quantitative methods). Use before investing in a JFQA submission to test scope fit and the quantitative-evidence bar.
 ---
 
 # JFQA Topic Selection (jfqa-topic-selection)

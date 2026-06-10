@@ -1,6 +1,6 @@
 ---
 name: red-literature-positioning
-description: Use to position a Review of Economic Dynamics (RED) manuscript within the dynamic-economics and SED literature — mapping the quantitative-macro lineage a paper builds on, citing in author-year style, and making the marginal advance legible to the Society for Economic Dynamics readership rather than a generalist audience.
+description: Use when positioning a Review of Economic Dynamics (RED) manuscript within the dynamic-economics and SED literature — mapping the quantitative-macro lineage a paper builds on, citing in author-year style, and making the marginal advance legible to the Society for Economic Dynamics readership rather than a generalist audience.
 ---
 
 # Literature Positioning for RED (red-literature-positioning)
@@ -40,6 +40,21 @@ poor fit; tie empirical references back to what they discipline in the model.
 - A generalist "big literature" sweep that never locates the paper in a dynamic-model tradition
 - Burying the closest competitor instead of confronting it head-on
 - Mixed or inconsistent citation styles instead of clean author-year
+
+## SED-reader positioning move
+
+For each cited strand, name the **state variable, shock, friction, or numerical method** that connects it
+to your paper. A RED reader should be able to see the dynamic lineage without translating from a
+general-interest pitch.
+
+Use this sequence:
+
+1. Closest model/method and its missing mechanism.
+2. Closest quantitative result and the moment it cannot match.
+3. Closest computation/estimation approach and the constraint it imposes.
+4. Your paper's delta in one sentence.
+
+Do not spend equal space on literatures that supply motivation but do not discipline the dynamic model.
 
 ## Supplementary resources
 

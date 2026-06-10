@@ -1,6 +1,6 @@
 ---
 name: jet-literature-positioning
-description: Stake a Journal of Economic Theory (JET) contribution against the theory frontier — show precisely which assumption is weakened, which result is generalized, or which new phenomenon is characterized relative to the closest existing theorems. Positions the result; it is not a standalone survey.
+description: Use when staking a Journal of Economic Theory (JET) contribution against the theory frontier — show precisely which assumption is weakened, which result is generalized, or which new phenomenon is characterized relative to the closest existing theorems. Positions the result; it is not a standalone survey.
 ---
 
 # Literature Positioning (jet-literature-positioning)
@@ -32,6 +32,17 @@ state the **delta in one of these precise forms**:
   theorems as the comparison set.
 - Use the Elsevier reference style (`elsarticle-harv` name-year or `elsarticle-num`; the required one is
   **待核实** — confirm in the live guide).
+
+## Theorem-delta table
+
+Build a private table before writing related work:
+
+| Closest theorem | Assumptions | Object/result | Your delta | Where proved |
+|---|---|---|---|---|
+| Paper A, theorem X | finite types, single crossing, etc. | existence/characterization/bound | weaker/general/new constructive result | Theorem 1 / Proposition 2 |
+
+Only the strongest two or three rows belong in the manuscript. The table prevents vague "we extend"
+language and makes overclaiming visible before a referee catches it.
 
 ## Anti-patterns
 

@@ -34,6 +34,16 @@ Request a waiver at initial submission when data cannot be publicly deposited.
 State how other researchers can obtain the data and commit to provide reasonable
 guidance.
 
+## Restricted-data package
+
+When the data cannot be public, still prepare:
+
+- synthetic or public-use data that exercises every script path when possible;
+- data dictionary with variable construction and source tables;
+- access instructions, application links, and approval constraints;
+- log showing which outputs require restricted data;
+- archive-plan footnote explaining the waiver and reproducibility route.
+
 ## Output format
 
 ```text

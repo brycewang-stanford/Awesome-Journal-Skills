@@ -1,6 +1,6 @@
 ---
 name: jfqa-rebuttal
-description: Strategy and structure for a Journal of Financial and Quantitative Analysis (JFQA) revise-and-resubmit response — point-by-point replies to double-anonymous referees and the handling Managing Editor, new robustness/identification evidence, and code-archive readiness. Use when you have a JFQA R&R and need a disciplined, persuasive response letter.
+description: Use when planning the strategy and structure for a Journal of Financial and Quantitative Analysis (JFQA) revise-and-resubmit response — point-by-point replies to double-anonymous referees and the handling Managing Editor, new robustness/identification evidence, and code-archive readiness.
 ---
 
 # JFQA Rebuttal (jfqa-rebuttal)

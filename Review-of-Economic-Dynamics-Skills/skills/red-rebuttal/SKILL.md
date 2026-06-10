@@ -1,6 +1,6 @@
 ---
 name: red-rebuttal
-description: Use to plan the response-to-referees after a Review of Economic Dynamics (RED) revise-and-resubmit — structuring a point-by-point reply for a single-anonymized, two-referee process, prioritizing model/quantitative concerns, and remembering that second-and-later resubmissions are exempt from the submission fee. Strategy; it does not write the paper.
+description: Use when planning the response-to-referees after a Review of Economic Dynamics (RED) revise-and-resubmit — structuring a point-by-point reply for a single-anonymized, two-referee process, prioritizing model/quantitative concerns, and remembering that second-and-later resubmissions are exempt from the submission fee. Strategy; it does not write the paper.
 ---
 
 # Rebuttal Strategy for RED (red-rebuttal)
@@ -41,6 +41,12 @@ description: Use to plan the response-to-referees after a Review of Economic Dyn
 - Revising the model but not re-running or re-archiving the code
 - Treating a resubmission as if it requires a new fee
 - Brushing off a substantive identification/accuracy concern instead of confronting it
+
+## Rerun rule
+
+Any revision that changes a parameter, calibration target, solution method, sample, or shock definition
+requires rerunning the affected exhibits and updating the archive README. If the response letter says
+"results are unchanged," cite the rerun script and output date.
 
 ## Supplementary resources
 

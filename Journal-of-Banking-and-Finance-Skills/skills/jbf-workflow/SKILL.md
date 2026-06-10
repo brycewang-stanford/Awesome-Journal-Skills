@@ -36,3 +36,11 @@ orientation. This pack is tuned to that nature, not to generic finance writing.
 
 Verify volatile specifics (fee, lead editor, data policy) on the official
 ScienceDirect Guide for Authors — see `resources/official-source-map.md`.
+
+## Router diagnostics
+
+- Scope is generic finance, not banking/intermediation -> `jbf-topic-selection`.
+- Endogeneity or bank-panel design is weak -> `jbf-identification-strategy`.
+- Licensed-data path is not reproducible -> `jbf-replication-and-data-policy`.
+- Tables omit units, clustering, or economic magnitudes -> `jbf-tables-figures`.
+- Results read as significance-only -> `jbf-writing-style`.

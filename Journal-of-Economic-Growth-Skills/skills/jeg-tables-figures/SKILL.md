@@ -30,6 +30,19 @@ description: Use when preparing Journal of Economic Growth exhibits: growth-regr
 - For transition paths, show initial condition, time scale, and steady state.
 - For cross-country panels, disclose country coverage and period.
 
+## Exhibit sequence
+
+Most JEG papers need one of these sequences:
+
+- **Empirical growth**: descriptive growth fact -> identification diagnostic -> main estimate -> mechanism or
+  heterogeneity -> robustness.
+- **Theory/calibration**: model mechanism diagram or proposition summary -> calibration table -> transition
+  path -> sensitivity -> welfare or growth decomposition.
+- **Mixed paper**: empirical fact motivating the mechanism -> model result -> calibration/estimation -> data
+  validation -> counterfactual.
+
+The sequence should make the growth mechanism visible before the robustness appendix expands.
+
 ## Output format
 
 ```text

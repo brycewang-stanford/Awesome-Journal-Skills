@@ -1,6 +1,6 @@
 ---
 name: jfqa-review-process
-description: Explain how the Journal of Financial and Quantitative Analysis (JFQA) review process works — double-anonymous peer review, the seven-Managing-Editor structure, the $350 fee with $275 refund if not sent to a reviewer, and the under-9-percent acceptance reality. Use to set expectations for what happens after you submit and how decisions are made.
+description: Use when explaining how the Journal of Financial and Quantitative Analysis (JFQA) review process works — double-anonymous peer review, the seven-Managing-Editor structure, the $350 fee with $275 refund if not sent to a reviewer, and the under-9-percent acceptance reality. Use to set expectations for what happens after you submit and how decisions are made.
 ---
 
 # JFQA Review Process (jfqa-review-process)

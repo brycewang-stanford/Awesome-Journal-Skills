@@ -1,6 +1,6 @@
 ---
 name: red-writing-style
-description: Use for Review of Economic Dynamics (RED) house style — the stand-alone abstract not exceeding 250 words, author-year (Harvard-style) references, 1 to 6 keywords, LaTeX via Elsevier's elsarticle class under "your paper your way", and the generative-AI declaration. Drafting conventions for a quantitative dynamic paper; it does not invent results.
+description: Use when applying Review of Economic Dynamics (RED) house style — the stand-alone abstract not exceeding 250 words, author-year (Harvard-style) references, 1 to 6 keywords, LaTeX via Elsevier's elsarticle class under "your paper your way", and the generative-AI declaration. Drafting conventions for a quantitative dynamic paper; it does not invent results.
 ---
 
 # Writing Style for RED (red-writing-style)
@@ -24,6 +24,17 @@ description: Use for Review of Economic Dynamics (RED) house style — the stand
 - **Generative AI**: any use of generative-AI tools must be **declared at submission**.
 - **Length**: no explicit page/word cap was found in available sources — **待核实**; do not assert a number,
   but keep the paper as long as the contribution warrants and no longer.
+
+## Abstract shape
+
+Use this order:
+
+```text
+Dynamic question -> model/mechanism -> discipline/evidence -> headline quantitative result -> implication.
+```
+
+Do not begin with data or policy motivation alone. RED readers need to see the dynamic mechanism before
+they decide whether the paper belongs in the journal.
 
 ## Style notes for dynamic papers
 

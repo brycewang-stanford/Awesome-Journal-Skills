@@ -1,6 +1,6 @@
 ---
 name: jfqa-contribution-framing
-description: Frame the contribution of a Journal of Financial and Quantitative Analysis (JFQA) paper — write the strict one-paragraph abstract of no more than 100 words and an introduction that states what is new in finance terms. Use to make the quantitative contribution land within JFQA's tight abstract cap and high selectivity.
+description: Use when framing the contribution of a Journal of Financial and Quantitative Analysis (JFQA) paper — write the strict one-paragraph abstract of no more than 100 words and an introduction that states what is new in finance terms, so the quantitative contribution lands within JFQA's tight abstract cap and high selectivity.
 ---
 
 # JFQA Contribution Framing (jfqa-contribution-framing)
@@ -30,6 +30,21 @@ JFQA requires the abstract to be **one paragraph of no more than 100 words** —
 - Vague claims ("we shed light on...") instead of a measured result.
 - Over-claiming beyond what the design supports.
 - Saving the contribution for the conclusion.
+
+## JFQA contribution stress test
+
+Before accepting the framing, force the abstract and first-page contribution paragraph to answer:
+
+1. **Finance object**: return, risk, liquidity, capital structure, governance, intermediary behavior, or
+   another finance quantity that JFQA readers recognize immediately.
+2. **Design credibility**: the source of variation, model restriction, or quantitative method that makes
+   the claim more than a finance correlation.
+3. **Magnitude**: basis points, alpha, spread, elasticity, valuation effect, probability change, or another
+   finance-scale number.
+4. **Closest-rival delta**: the one paper a referee will cite and the precise way this paper changes the
+   conclusion.
+
+If the answer to item 3 is "statistically significant," the contribution is not yet JFQA-ready.
 
 ## Output format
 

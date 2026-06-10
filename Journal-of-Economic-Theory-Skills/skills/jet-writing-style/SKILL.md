@@ -1,6 +1,6 @@
 ---
 name: jet-writing-style
-description: Apply the Journal of Economic Theory (JET) house style to a manuscript — the Elsevier elsarticle theorem-proof format with definition/assumption/proposition/theorem/proof structure, disciplined notation, full references in the abstract, and an Elsevier reference style. For drafting and polishing JET prose; it does not check proofs.
+description: Use when applying the Journal of Economic Theory (JET) house style to a manuscript — the Elsevier elsarticle theorem-proof format with definition/assumption/proposition/theorem/proof structure, disciplined notation, full references in the abstract, and an Elsevier reference style. For drafting and polishing JET prose; it does not check proofs.
 ---
 
 # Writing Style (jet-writing-style)
@@ -34,6 +34,18 @@ description: Apply the Journal of Economic Theory (JET) house style to a manuscr
 - State each theorem so it is **self-contained** — readable without the surrounding paragraph.
 - Give a **one-line intuition** before a long proof; do not let intuition substitute for rigor.
 - Prefer "We prove that …" over hedged "essentially / roughly" phrasing the theorem does not support.
+
+## Notation audit
+
+Before submission, create a notation pass:
+
+- Every primitive is introduced before first use.
+- Every assumption label is referenced in at least one theorem or lemma.
+- Every theorem statement can be read without searching the previous paragraph.
+- Symbols in figures, proofs, and appendices match the body exactly.
+- Appendix proof numbering preserves the main theorem dependency order.
+
+Notation consistency is not cosmetic in JET; it is how referees verify the argument.
 
 ## Anti-patterns
 

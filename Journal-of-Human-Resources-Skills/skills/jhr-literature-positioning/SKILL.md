@@ -27,6 +27,18 @@ or mechanisms.
 - Identify which prior result your analysis confirms, revises, or contradicts.
 - Preview any comparative estimation you run to bridge prior results.
 
+## Prior-estimate bridge
+
+For each closest paper, write:
+
+```text
+[Prior paper] estimates [magnitude] for [population/design]. Our estimate differs because [sample,
+policy environment, outcome, or design]. We bridge the difference by [comparative specification].
+```
+
+This makes the JHR reconciliation expectation visible in the literature section rather than deferring it
+to the appendix.
+
 ## Output format
 
 ```text

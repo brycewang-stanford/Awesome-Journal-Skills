@@ -30,6 +30,18 @@ description: Use when preparing Journal of Human Resources tables, figures, onli
 - Survey weights or population weights if used
 - Page/appendix location
 
+## Main-text exhibit budget
+
+Use the scarce main-text pages for exhibits that change a reader's belief:
+
+1. **Sample and balance**: proves the population and comparison are understandable.
+2. **Main estimate with magnitude**: preferred result plus units and confidence interval.
+3. **Design diagnostic**: pre-trend, first stage, manipulation test, balance, or attrition.
+4. **Reconciliation**: prior estimate vs. your bridge specification vs. preferred specification.
+5. **Policy heterogeneity**: only if it maps to a real policy margin, not a fishing cut.
+
+Everything else belongs in the Online Appendix with clear cross-references.
+
 ## Output format
 
 ```text

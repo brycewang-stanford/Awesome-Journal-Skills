@@ -20,6 +20,17 @@ description: Use when polishing Journal of Economic Growth prose, abstract, intr
 - Keep claims bounded to the sample, model, and identifying assumptions.
 - Use author-year citations with an APA 7 style reference list.
 
+## Abstract repair pattern
+
+Use this order:
+
+```text
+Question -> growth mechanism -> method/data/model -> headline result -> scope/implication.
+```
+
+Avoid abstracts that lead with "we develop a model" or "we use a panel" without naming the growth
+mechanism. For JEG, method is persuasive only after the growth question is clear.
+
 ## Submission-sensitive details
 
 - Abstract should be 150-250 words.

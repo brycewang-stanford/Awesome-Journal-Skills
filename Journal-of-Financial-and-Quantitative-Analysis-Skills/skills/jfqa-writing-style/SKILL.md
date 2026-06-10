@@ -1,6 +1,6 @@
 ---
 name: jfqa-writing-style
-description: Apply the house writing style for a Journal of Financial and Quantitative Analysis (JFQA) manuscript — precise quantitative finance prose, the strict ≤100-word one-paragraph abstract, and the prescriptive 8.5x11 / 1-inch / 12-pt Times New Roman double-spaced layout submitted as a text-searchable PDF. Use to polish a draft to JFQA conventions before submission.
+description: Use when applying the house writing style for a Journal of Financial and Quantitative Analysis (JFQA) manuscript — precise quantitative finance prose, the strict ≤100-word one-paragraph abstract, and the prescriptive 8.5x11 / 1-inch / 12-pt Times New Roman double-spaced layout submitted as a text-searchable PDF. Use to polish a draft to JFQA conventions before submission.
 ---
 
 # JFQA Writing Style (jfqa-writing-style)
@@ -28,6 +28,16 @@ Use this skill to bring a **JFQA** draft up to house style. JFQA is a quantitati
 - Single-spacing, non-TNR fonts, or wrong margins (formatting strikes).
 - Author identity left in the text or PDF metadata under double-anonymous review.
 - Significance language with no economic magnitude.
+
+## Sentence-level repair rules
+
+- Replace "is associated with" with the design language the paper can defend: predicts, prices, shifts,
+  identifies, bounds, or correlates.
+- Attach a finance unit to every main result: basis points, abnormal return, spread, leverage ratio,
+  turnover, default probability, or dollar value.
+- Put the sample and design before the headline number when selection is the likely referee attack.
+- Cut any sentence that would still be true in a generic economics journal; JFQA prose should sound like
+  finance, not a methods placeholder.
 
 ## Output format
 

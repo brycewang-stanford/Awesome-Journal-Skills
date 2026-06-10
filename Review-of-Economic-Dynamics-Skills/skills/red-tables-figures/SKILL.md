@@ -1,6 +1,6 @@
 ---
 name: red-tables-figures
-description: Use to design the exhibits of a Review of Economic Dynamics (RED) manuscript — impulse-response functions, calibration tables, moment-matching (model-vs-data) tables, policy-experiment figures, and accuracy diagnostics — so a quantitative dynamic paper communicates its mechanism and fit clearly to the SED readership.
+description: Use when designing the exhibits of a Review of Economic Dynamics (RED) manuscript — impulse-response functions, calibration tables, moment-matching (model-vs-data) tables, policy-experiment figures, and accuracy diagnostics — so a quantitative dynamic paper communicates its mechanism and fit clearly to the SED readership.
 ---
 
 # Tables & Figures for RED (red-tables-figures)
@@ -41,6 +41,19 @@ shock, units, and data source. Author-year citations in notes match RED's refere
 - Steady-state-only comparisons that hide the dynamics
 - Moment tables showing only targeted moments
 - Figures with no notes on model variant, shock, or units
+
+## Exhibit sequence
+
+For most RED papers, the exhibit order should mirror the argument:
+
+1. **Mechanism figure**: state variables or transition paths that show the dynamic force.
+2. **Discipline table**: parameters, calibration targets, estimation targets, and sources.
+3. **Fit table**: targeted and untargeted moments, model vs data.
+4. **Counterfactual/experiment**: the quantitative result or policy path.
+5. **Accuracy/reproducibility note**: solver error, convergence, seed, or runtime when computation matters.
+
+If the first exhibit is a static regression table, ask whether the paper is really using RED's dynamic
+lens or drifting toward a field journal.
 
 ## Supplementary resources
 

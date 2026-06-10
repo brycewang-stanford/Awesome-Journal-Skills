@@ -1,6 +1,6 @@
 ---
 name: red-replication-and-data-policy
-description: Use to build the Review of Economic Dynamics (RED) data-and-code archive to the journal's actual "Availability of Data and Computer Code for Published Papers" policy — covering computational and empirical papers, the specific readme.txt requirements, .zip/.gz/.gzip submission to the RED code editor, posting on the RED site, RePEc Computer Codes indexing, and the proprietary-data exemption.
+description: Use when building the Review of Economic Dynamics (RED) data-and-code archive to the journal's actual "Availability of Data and Computer Code for Published Papers" policy — covering computational and empirical papers, the specific readme.txt requirements, .zip/.gz/.gzip submission to the RED code editor, posting on the RED site, RePEc Computer Codes indexing, and the proprietary-data exemption.
 ---
 
 # Replication & Data/Code Policy for RED (red-replication-and-data-policy)

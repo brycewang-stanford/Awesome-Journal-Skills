@@ -1,6 +1,6 @@
 ---
 name: jfqa-replication-and-data-policy
-description: Build the code and data archive required by the Journal of Financial and Quantitative Analysis (JFQA) Code Sharing Policy — source code reproducing all findings, raw or pseudo datasets, and a read-me with an execution roadmap, deposited in the JFQA Dataverse at the Harvard University Dataverse. Use to prepare the mandatory archive for accepted post-2024 submissions and to request any exception at initial submission.
+description: Use when building the code and data archive required by the Journal of Financial and Quantitative Analysis (JFQA) Code Sharing Policy — source code reproducing all findings, raw or pseudo datasets, and a read-me with an execution roadmap, deposited in the JFQA Dataverse at the Harvard University Dataverse. Use to prepare the mandatory archive for accepted post-2024 submissions and to request any exception at initial submission.
 ---
 
 # JFQA Replication & Data Policy (jfqa-replication-and-data-policy)

@@ -1,6 +1,6 @@
 ---
 name: red-topic-selection
-description: Use to test whether a research question fits the Review of Economic Dynamics (RED) — a journal whose scope is defined by method and lens (dynamic, quantitative economics) rather than subfield. Helps decide if the paper studies a genuinely dynamic mechanism through a dynamic model, and whether it belongs at RED versus a generalist or a specialist outlet.
+description: Use when testing whether a research question fits the Review of Economic Dynamics (RED) — a journal whose scope is defined by method and lens (dynamic, quantitative economics) rather than subfield. Helps decide if the paper studies a genuinely dynamic mechanism through a dynamic model, and whether it belongs at RED versus a generalist or a specialist outlet.
 ---
 
 # Topic Selection for RED (red-topic-selection)
@@ -37,6 +37,14 @@ the readership; pitch to them.
 
 If the dynamics are cosmetic, or the paper is a static cross-section, RED is likely the wrong lens —
 reframe around the dynamic mechanism or choose another venue.
+
+## Wrong-venue redirects
+
+- Mostly reduced-form policy estimate with no dynamic model -> field journal or applied-economics outlet.
+- Pure econometric method with no dynamic-economics object -> methods/econometrics outlet.
+- Broad macro paper whose contribution is policy relevance rather than dynamic mechanism -> generalist macro
+  or policy journal.
+- Calibration exercise with no new mechanism, method, or disciplined moment -> revise before targeting RED.
 
 ## Anti-patterns
 

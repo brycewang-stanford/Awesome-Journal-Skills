@@ -1,6 +1,6 @@
 ---
 name: red-review-process
-description: Use to understand and plan around the Review of Economic Dynamics (RED) editorial process — the editor desk/suitability screen, single-anonymized refereeing with a minimum of two reviewers, and SED's fast ~two-month average post-desk turnaround. Sets expectations and timelines; it is not the submission preflight (see red-submission).
+description: Use when understanding or planning around the Review of Economic Dynamics (RED) editorial process — the editor desk/suitability screen, single-anonymized refereeing with a minimum of two reviewers, and SED's fast ~two-month average post-desk turnaround. Sets expectations and timelines; it is not the submission preflight (see red-submission).
 ---
 
 # Review Process at RED (red-review-process)
@@ -29,6 +29,16 @@ description: Use to understand and plan around the Review of Economic Dynamics (
 - The fast-turnaround target rewards a **complete, runnable** submission with replication discipline
   already in place; do not submit a paper whose code archive does not yet exist.
 - Plan around a **post-desk** clock that starts only after the suitability screen and the fee.
+
+## Pre-review readiness
+
+Before submission, stage the same materials you would need for a fast R&R:
+
+- model equations and calibration table are internally consistent;
+- code archive can rerun baseline and counterfactual exhibits;
+- untargeted moments or accuracy diagnostics are available;
+- the abstract names the dynamic mechanism and quantitative result;
+- any proprietary data or large-runtime issue is documented.
 
 ## Checklist
 

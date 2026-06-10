@@ -30,6 +30,18 @@ description: Use after a Journal of Economic Growth revise-and-resubmit to organ
 - Narrow claims when model or data scope is local.
 - Update source files and declarations alongside the manuscript.
 
+## Revision evidence map
+
+For each major referee concern, identify the evidence type:
+
+- **Mechanism concern** -> new model intuition paragraph, proposition, or transition-path figure.
+- **Assumption concern** -> relaxed-assumption result, proof clarification, or sensitivity table.
+- **Empirical concern** -> identification diagnostic, alternative sample, or comparative estimate.
+- **Calibration concern** -> parameter-source table plus one-at-a-time and joint sensitivity.
+- **Data concern** -> Data Availability Statement, code archive, source-file update, or access note.
+
+The response letter should show which evidence changed the manuscript, not just where text was added.
+
 ## Output format
 
 ```text

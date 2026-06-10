@@ -23,6 +23,28 @@ change.
 - Ready for Editorial Express: use `ectj-submission`.
 - Decision letter arrived: use `ectj-rebuttal`.
 
+## Resource loading rule
+
+Use the resource layer when routing:
+
+- `resources/worked-examples/01-introduction.md` for opening-page structure.
+- `resources/exemplars/library.md` for benchmark style and verified examples.
+- `resources/code/README.md` for methods-oriented simulation or replication smoke checks.
+- `resources/official-source-map.md` before any deadline, fee, page-limit, proof-placement, or policy claim.
+
+Never answer a volatile submission question from memory. If the source map marks a fact unresolved, say so
+and recheck the official page before advising a final submission.
+
+## Stop conditions
+
+Pause the route and repair before moving forward if:
+
+- the paper has no empirical application or applied-value demonstration;
+- the theorem/result cannot be stated as a leading case;
+- the simulations do not stress the assumption most likely to fail;
+- the manuscript cannot fit the compact printed-paper discipline without hiding core proofs;
+- the replication package has no command that recreates the main simulation/application exhibits.
+
 ## Output format
 
 ```text

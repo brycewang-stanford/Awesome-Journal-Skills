@@ -1,6 +1,6 @@
 ---
 name: jfqa-tables-figures
-description: Build the tables and figures for a Journal of Financial and Quantitative Analysis (JFQA) paper — summary statistics, main regressions, robustness, and finance-standard exhibits with self-contained notes that state sample, clustering, winsorizing, and economic magnitudes. Use to make exhibits readable under double-anonymous review and consistent with JFQA formatting.
+description: Use when building the tables and figures for a Journal of Financial and Quantitative Analysis (JFQA) paper — summary statistics, main regressions, robustness, and finance-standard exhibits with self-contained notes that state sample, clustering, winsorizing, and economic magnitudes. Use to make exhibits readable under double-anonymous review and consistent with JFQA formatting.
 ---
 
 # JFQA Tables & Figures (jfqa-tables-figures)

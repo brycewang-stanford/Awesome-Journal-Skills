@@ -19,6 +19,19 @@ description: Use when polishing Journal of Human Resources prose, abstract, intr
 - Reconcile with prior work explicitly.
 - Keep main-text tables few and move supporting material to the Online Appendix.
 
+## First-page pattern
+
+The first page should do five jobs in order:
+
+1. Name the policy-relevant empirical-micro question.
+2. State the institutional or data feature that creates variation.
+3. Give the headline estimate in natural units.
+4. Say how it compares with the closest prior estimate.
+5. State the policy interpretation and its boundary.
+
+Do not open with a broad policy problem for more than one paragraph. JHR readers need to see the design
+and reconciliation early.
+
 ## Results paragraph pattern
 
 ```text

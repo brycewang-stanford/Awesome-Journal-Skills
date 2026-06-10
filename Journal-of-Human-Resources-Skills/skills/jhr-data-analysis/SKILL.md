@@ -27,6 +27,20 @@ description: Use when building or auditing Journal of Human Resources empirical 
 - Prepare a data-archive plan from the start, especially for restricted data.
 - For RCTs, track pre-analysis plan registration and deviations.
 
+## Comparative-estimate workflow
+
+Build one reconciliation table before submission:
+
+| Column | Purpose |
+|---|---|
+| Prior published estimate | Reproduce or quote the closest estimate with sample/design notes |
+| Prior specification on your data | Shows whether the difference is data or specification |
+| Your preferred specification | Shows the incremental design or measurement change |
+| Sensitivity bridge | Changes one assumption at a time: sample, controls, weights, clustering, outcome |
+
+This table can live in the Online Appendix, but the introduction should summarize the lesson in one
+sentence. Without it, a JHR referee can ask for reconciliation late in the process.
+
 ## Output format
 
 ```text

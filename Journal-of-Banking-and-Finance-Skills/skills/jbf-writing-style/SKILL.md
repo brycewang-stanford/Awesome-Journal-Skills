@@ -47,6 +47,17 @@ The estimate is robust to [key check], supporting [mechanism].
 - Give every acronym on first use.
 - Put limitations before the referee finds them.
 
+## Finance-result sentence
+
+Use this pattern for every headline result:
+
+```text
+In [sample/design], [shock or treatment] changes [finance outcome] by [magnitude in finance units],
+relative to [benchmark], consistent with [mechanism] and bounded by [main limitation].
+```
+
+This prevents significance-only prose and forces the mechanism into the result paragraph.
+
 ## Output format
 
 ```text

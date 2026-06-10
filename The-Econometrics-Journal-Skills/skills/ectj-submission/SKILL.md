@@ -23,6 +23,20 @@ Use this immediately before submission through Editorial Express.
   under the 2026 RES policy, with no RES-member discount.
 - Disclose replication restrictions or exemption needs at first submission.
 
+## Final hour order
+
+Run the preflight in this order:
+
+1. **Venue facts**: reopen `resources/official-source-map.md` and verify portal, fee, page, summary, proof,
+   and replication requirements against live pages.
+2. **Conformance**: compile the template PDF, count printed pages, count summary words, and verify proof
+   placement.
+3. **Scientific gate**: read the first two pages only. They must state the leading case, applied value, and
+   closest incumbent method without relying on later sections.
+4. **Package gate**: confirm the replication README and master command exist even if the final package is
+   delivered after conditional acceptance.
+5. **Administrative gate**: fee path, cover-letter reason, data restrictions, and author metadata.
+
 ## Output format
 
 ```text

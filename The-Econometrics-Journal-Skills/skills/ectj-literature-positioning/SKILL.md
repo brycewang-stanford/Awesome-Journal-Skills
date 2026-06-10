@@ -24,6 +24,19 @@ applications.
   usable.
 - Explain the empirical-application literature only enough to show applied value.
 
+## Positioning compression
+
+Use a two-layer related-work structure:
+
+- **Frontier layer**: the two or three econometric papers closest in object and proof strategy. State the
+  exact delta: weaker assumption, different asymptotic regime, new computational route, sharper finite-sample
+  diagnostic, or applied implementation.
+- **Use layer**: the applied or adjacent-statistics literature that would use the method. Keep this short:
+  it exists to prove applied value, not to become a field survey.
+
+Avoid a broad "methods survey" paragraph. EctJ's page discipline means every citation should either define
+the incumbent method or prove why the leading case matters.
+
 ## Output format
 
 ```text

@@ -27,6 +27,25 @@ expected for credible growth work.
 - Restricted-data instructions and contact/access procedure when data cannot be
   redistributed.
 
+## Growth package layout
+
+Use a structure that separates empirical and model artifacts:
+
+```text
+replication/
+  README.md
+  data_sources.md
+  code/
+  calibration/
+  output_tables/
+  output_figures/
+  manuscript_map.md
+```
+
+`manuscript_map.md` should list each table/figure, the script that creates it, the input data or
+calibration file, and the expected output path. For theory-only papers, include the scripts that create
+numerical examples, calibration tables, or transition-path figures.
+
 ## Output format
 
 ```text

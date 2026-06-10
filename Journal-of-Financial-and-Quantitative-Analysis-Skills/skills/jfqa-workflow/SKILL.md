@@ -1,6 +1,6 @@
 ---
 name: jfqa-workflow
-description: Router for a Journal of Financial and Quantitative Analysis (JFQA) manuscript — decides which jfqa-* skill to use next across topic selection, literature positioning, identification, data analysis, contribution framing, tables/figures, writing style, the code-sharing archive, review process, submission preflight, and R&R rebuttal. Start here when unsure what to do next.
+description: Use when routing a Journal of Financial and Quantitative Analysis (JFQA) manuscript — decides which jfqa-* skill to use next across topic selection, literature positioning, identification, data analysis, contribution framing, tables/figures, writing style, the code-sharing archive, review process, submission preflight, and R&R rebuttal. Start here when unsure what to do next.
 ---
 
 # JFQA Workflow Router (jfqa-workflow)
@@ -49,3 +49,18 @@ jfqa-rebuttal                 → R&R response letter
 ```
 
 Always confirm volatile specifics on the official pages (see resources/official-source-map.md).
+
+## Router diagnostics
+
+Ask the manuscript owner for the current bottleneck:
+
+- **Question/scope** unclear or outside finance: `jfqa-topic-selection`.
+- **Closest finance competitor** missing: `jfqa-literature-positioning`.
+- **Design credibility** weak: `jfqa-identification-strategy`.
+- **Results not reproducible or magnitudes missing**: `jfqa-data-analysis`.
+- **Abstract or first page too diffuse**: `jfqa-contribution-framing`.
+- **Exhibits unreadable without text**: `jfqa-tables-figures`.
+- **Archive, pseudo data, or exception timing unresolved**: `jfqa-replication-and-data-policy`.
+
+The route should always reduce one JFQA-specific screen risk: fit, 100-word abstract, anonymization,
+identification, economic magnitude, code-sharing, fee/prior-rejection disclosure, or exhibit readability.

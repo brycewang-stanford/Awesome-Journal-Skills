@@ -1,6 +1,6 @@
 ---
 name: jfqa-identification-strategy
-description: Build a credible identification / research design for a Journal of Financial and Quantitative Analysis (JFQA) empirical finance paper — portfolio sorts and Fama-MacBeth, panel fixed effects, staggered DID on regulatory shocks, IV / natural experiments, RDD at thresholds, and event studies — with the inference finance referees demand. For theoretical submissions, pivot to assumptions, results, and proof exposition.
+description: Use when building a credible identification / research design for a Journal of Financial and Quantitative Analysis (JFQA) empirical finance paper — portfolio sorts and Fama-MacBeth, panel fixed effects, staggered DID on regulatory shocks, IV / natural experiments, RDD at thresholds, and event studies — with the inference finance referees demand. For theoretical submissions, pivot to assumptions, results, and proof exposition.
 ---
 
 # JFQA Identification Strategy (jfqa-identification-strategy)

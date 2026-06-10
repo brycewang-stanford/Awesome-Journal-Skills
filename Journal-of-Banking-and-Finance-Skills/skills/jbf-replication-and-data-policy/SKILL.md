@@ -52,6 +52,16 @@ requirements.*        # renv.lock / requirements.txt / Stata package list
 - Output files match manuscript numbering.
 - Confidential paths and author identity are removed before double-anonymized submission.
 
+## Proprietary-data audit
+
+For licensed banking/finance sources, add a `data_access/README.md` that records:
+
+- vendor/product, query filters, identifiers, and date accessed;
+- variables needed to recreate the analysis;
+- any hand-cleaning or link-table rules;
+- whether a pseudo dataset can exercise the full code path;
+- who can legally access the raw data and under what license.
+
 ## Output format
 
 ```text

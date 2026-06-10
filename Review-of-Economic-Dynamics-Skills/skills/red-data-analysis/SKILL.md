@@ -1,6 +1,6 @@
 ---
 name: red-data-analysis
-description: Use for the quantitative analysis behind a Review of Economic Dynamics (RED) manuscript — calibration, moment-matching, structural estimation, and numerical-solution discipline for dynamic models, plus reproducible-computation hygiene that the RED code-first culture expects. Lighter on raw empirics for purely theoretical papers; focused on numerical examples and reproducible computation there.
+description: Use when building or auditing the quantitative analysis behind a Review of Economic Dynamics (RED) manuscript — calibration, moment-matching, structural estimation, and numerical-solution discipline for dynamic models, plus reproducible-computation hygiene that the RED code-first culture expects. Lighter on raw empirics for purely theoretical papers; focused on numerical examples and reproducible computation there.
 ---
 
 # Quantitative Analysis for RED (red-data-analysis)
@@ -39,6 +39,21 @@ computation** that illustrate the result rather than estimate it.
 - Reporting only the moments the model was calibrated to hit
 - An undocumented numerical solution with no accuracy diagnostic
 - Leaving seeds and environment uncaptured, so the archive will not reproduce
+
+## RED analysis table skeleton
+
+Require a compact audit table before results are written:
+
+| Item | RED-ready entry |
+|---|---|
+| Parameters | value, source/target, calibrated vs estimated vs assumed |
+| Data moments | targeted moments plus untargeted validation moments |
+| Solver | method, grid/order, convergence rule, accuracy diagnostic |
+| Experiments | baseline, counterfactual, transition path, sensitivity |
+| Archive | run-all command, seeds, software/OS, expected runtime |
+
+This table can become a manuscript table, appendix table, or replication README section. If it cannot be
+filled, the quantitative core is not ready for RED.
 
 ## Supplementary resources
 

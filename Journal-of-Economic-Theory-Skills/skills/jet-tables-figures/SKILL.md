@@ -1,6 +1,6 @@
 ---
 name: jet-tables-figures
-description: Design the exhibits in a Journal of Economic Theory (JET) paper — mostly schematic theory figures (best-response/phase diagrams, lattices, timing trees, mechanism flow) and small illustrative tables, kept consistent with the body's notation and rendered as vector graphics. Light for a theorem-proof journal; numerical tables only when grounded in theory.
+description: Use when designing the exhibits in a Journal of Economic Theory (JET) paper — mostly schematic theory figures (best-response/phase diagrams, lattices, timing trees, mechanism flow) and small illustrative tables, kept consistent with the body's notation and rendered as vector graphics. Light for a theorem-proof journal; numerical tables only when grounded in theory.
 ---
 
 # Exhibits: Tables & Figures (jet-tables-figures)
@@ -35,6 +35,18 @@ result (see jet-data-analysis), never as the paper's payload.
 - **Label the economics, not just the math**: name what a region/curve means (e.g., "pooling region"),
   not only the inequality that defines it.
 - Number figures/tables and call them out in order in the text.
+
+## Exhibit necessity test
+
+Keep an exhibit only if it does one of four jobs:
+
+- Makes a theorem's domain or partition visible.
+- Shows a counterexample or tightness construction.
+- Clarifies a mechanism, timing, information flow, or allocation rule.
+- Reproduces a small numerical illustration that is subordinate to a formal result.
+
+If the exhibit is decorative or repeats a proof step without reducing cognitive load, delete it. JET
+referees value proof clarity more than visual volume.
 
 ## Anti-patterns
 

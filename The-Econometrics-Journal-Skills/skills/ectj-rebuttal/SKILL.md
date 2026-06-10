@@ -21,6 +21,26 @@ and current author instructions before setting deadlines.
 - Track the RES resubmission clock; the source map records normal windows of one month and
   sometimes three months.
 
+## Revision triage
+
+Classify each requested change before writing:
+
+- **Validity-critical**: assumptions, theorem statements, proof gaps, estimator definition, simulation design.
+  These must be fixed in the manuscript and cross-referenced in the response.
+- **Applied-value-critical**: application too decorative, weak comparison, missing practical diagnostic. Add
+  only the smallest table or paragraph that proves use value.
+- **Compression-risk**: requests for extra cases, literature, or robustness that would break the printed-paper
+  discipline. Move noncritical material to supplement or explain why it is outside scope.
+- **Replication-risk**: code, seeds, data access, or package layout. Fix in the archive and cite the file path.
+
+The response letter should show that the leading case is now stronger, not just longer.
+
+## Response evidence rule
+
+For every major comment, attach exactly one evidence object: theorem change, proof fix, simulation result,
+application table, compression decision, or replication-file update. If a response has no evidence object,
+it is probably only reassurance and should be strengthened before resubmission.
+
 ## Output format
 
 ```text

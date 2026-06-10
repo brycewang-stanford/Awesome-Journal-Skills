@@ -22,6 +22,20 @@ have to make the advance and its applied payoff obvious on a single read.
   complete framework.
 - Make the empirical application more than an illustration: it should reveal practical value.
 
+## EctJ-ready contribution pattern
+
+Write the contribution in four linked sentences:
+
+1. **Failure mode** - name the empirical or methodological setting where the incumbent approach breaks.
+2. **Leading case** - state the estimator, test, identification result, or computational shortcut as the
+   smallest sharp case that teaches the general idea.
+3. **Applied value** - say what an applied user can now estimate, test, diagnose, or report with less bias,
+   weaker assumptions, better inference, or feasible computation.
+4. **Scope guardrail** - say which environments are outside the theorem, simulation design, or application.
+
+If any sentence requires a page of qualification, the contribution is probably too broad for EctJ's
+compact format. Route back to `ectj-topic-selection` and narrow the leading case.
+
 ## Output format
 
 ```text

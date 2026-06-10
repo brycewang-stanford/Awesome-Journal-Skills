@@ -31,6 +31,18 @@ description: Use when building or auditing Journal of Economic Growth empirical 
   capital, and technology parameters.
 - Make code reproducible enough to regenerate figures and tables.
 
+## Growth-mechanism audit table
+
+Before drafting results, create a table with:
+
+- **Mechanism**: human capital, fertility, technology, institutions, trade, finance, migration, or OLG channel.
+- **Object**: growth rate, income level, TFP, convergence speed, transition path, or welfare.
+- **Discipline**: data moment, calibration target, theorem assumption, or identification source.
+- **Main sensitivity**: parameter or sample choice most likely to overturn the result.
+- **Replication artifact**: code or file that regenerates the exhibit.
+
+If an estimate or simulation does not map to a mechanism row, it is probably not central enough for JEG.
+
 ## Output format
 
 ```text

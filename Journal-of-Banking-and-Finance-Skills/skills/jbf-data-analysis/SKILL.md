@@ -43,6 +43,18 @@ description: Use when building or auditing the empirical data and estimation pip
   they are made.
 - Prepare a data-access README for licensed sources.
 
+## Bank-panel stress checks
+
+For bank/intermediation panels, add targeted checks for:
+
+- crisis-period sensitivity;
+- large-bank or systemically important institution influence;
+- mergers and identifier breaks;
+- regulatory regime changes;
+- balance-sheet scaling and winsorization choices.
+
+Report which checks are main-text, appendix, or archive-only.
+
 ## Output format
 
 ```text

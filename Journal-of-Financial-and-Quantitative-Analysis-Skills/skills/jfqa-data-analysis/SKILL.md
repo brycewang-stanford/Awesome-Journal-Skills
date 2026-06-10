@@ -1,6 +1,6 @@
 ---
 name: jfqa-data-analysis
-description: Run and document the empirical analysis for a Journal of Financial and Quantitative Analysis (JFQA) paper — finance data construction (CRSP/Compustat/TAQ/IBES), winsorizing, fixed effects, clustered and Newey-West standard errors, robustness, and heterogeneity — so results survive double-anonymous JFQA review and reproduce from the archived code. For theory papers, lighten this and document numerical examples instead.
+description: Use when running and documenting the empirical analysis for a Journal of Financial and Quantitative Analysis (JFQA) paper — finance data construction (CRSP/Compustat/TAQ/IBES), winsorizing, fixed effects, clustered and Newey-West standard errors, robustness, and heterogeneity — so results survive double-anonymous JFQA review and reproduce from the archived code. For theory papers, lighten this and document numerical examples instead.
 ---
 
 # JFQA Data Analysis (jfqa-data-analysis)

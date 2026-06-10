@@ -50,6 +50,12 @@ Every regression table note should state:
 - Appendix robustness that is impossible to map back to the main claim
 - Figure axes with undefined units
 
+## Exhibit economy
+
+Keep the main exhibit set to: sample/table 1, baseline, identification check, mechanism, and one decisive
+robustness table. Move specification inventories to the appendix and make the appendix map back to the main
+claim so reviewers can audit without rereading the whole paper.
+
 ## Output format
 
 ```text

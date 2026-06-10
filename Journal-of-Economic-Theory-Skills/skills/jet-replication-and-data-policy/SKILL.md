@@ -1,6 +1,6 @@
 ---
 name: jet-replication-and-data-policy
-description: Handle the Journal of Economic Theory (JET) data/code expectations — JET has NO mandatory replication archive (consistent with its theorem-proof orientation); Elsevier encourages but does not require data sharing via Mendeley Data, a repository link, a Data in Brief co-submission, or a data statement. Focuses on reproducible computation when a paper has any, plus generative-AI disclosure. Light by design.
+description: Use when handling the Journal of Economic Theory (JET) data/code expectations — JET has NO mandatory replication archive (consistent with its theorem-proof orientation); Elsevier encourages but does not require data sharing via Mendeley Data, a repository link, a Data in Brief co-submission, or a data statement. Focuses on reproducible computation when a paper has any, plus generative-AI disclosure. Light by design.
 ---
 
 # Replication & Data Policy (jet-replication-and-data-policy)

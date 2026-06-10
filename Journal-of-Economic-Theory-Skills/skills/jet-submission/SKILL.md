@@ -1,6 +1,6 @@
 ---
 name: jet-submission
-description: Final pre-submission preflight for the Journal of Economic Theory (JET) via Elsevier Editorial Manager — editable .tex source (no PDF source), elsarticle formatting, full references in the abstract, generative-AI disclosure, JEL codes and keywords, and the fee-vs-APC distinction. Final checks; it does not draft content.
+description: Use when running the final pre-submission preflight for the Journal of Economic Theory (JET) via Elsevier Editorial Manager — editable .tex source (no PDF source), elsarticle formatting, full references in the abstract, generative-AI disclosure, JEL codes and keywords, and the fee-vs-APC distinction. Final checks; it does not draft content.
 ---
 
 # Submission Preflight (jet-submission)

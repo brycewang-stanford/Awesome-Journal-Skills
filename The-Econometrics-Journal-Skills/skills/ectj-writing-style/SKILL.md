@@ -23,6 +23,15 @@ Use this when the paper is correct but too diffuse for EctJ.
   conforming to the guidelines are rejected routinely, so style and format are a screen,
   not cosmetics.
 
+## Compression moves
+
+- Replace broad motivation with the econometric failure mode in the first paragraph.
+- Replace a long literature survey with a closest-paper contrast table or two compact paragraphs.
+- Convert repeated theorem intuition into one theorem interpretation paragraph after the statement.
+- Move full simulation grids to the supplement and keep only the table that identifies the boundary case.
+- Put empirical application details after the method has earned them; the application proves value, not
+  venue fit by itself.
+
 ## Output format
 
 ```text

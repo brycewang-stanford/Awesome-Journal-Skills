@@ -22,6 +22,19 @@ Reopen the RES replication policy before final delivery.
 - Treat non-compliance as publication risk; the RES policy says the board may refuse
   publication for non-compliance.
 
+## Methods-paper package pattern
+
+For an EctJ methods paper, the replication package should let a referee rerun the claim hierarchy:
+
+1. `00_setup` records software versions, seeds, paths, and package checks.
+2. `01_simulation` recreates the minimal Monte Carlo tables used in the paper.
+3. `02_application` recreates the empirical illustration or diagnostic example.
+4. `03_figures_tables` exports exactly the exhibits in the manuscript and supplement.
+5. `README` states expected runtime, hardware assumptions, and which files are slow or optional.
+
+If the proof is symbolic rather than computational, still include any scripts used for figures, numerical
+examples, or robustness checks. Do not leave code that changes a published number outside the package.
+
 ## Output format
 
 ```text

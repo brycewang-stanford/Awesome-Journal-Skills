@@ -1,6 +1,6 @@
 ---
 name: red-submission
-description: Use for the final pre-submission preflight for the Review of Economic Dynamics (RED) — the USD 175 fee (USD 100 all-student; waived on second-and-later resubmissions) that gates review, submission via the ScienceDirect page through Elsevier Editorial Manager, the ≤250-word abstract, 1-6 keywords, author-year references, single-anonymized (no anonymization) format, AI declaration, and optional SSRN preprint. Final checks; it does not draft content.
+description: Use when running the final pre-submission preflight for the Review of Economic Dynamics (RED) — the USD 175 fee (USD 100 all-student; waived on second-and-later resubmissions) that gates review, submission via the ScienceDirect page through Elsevier Editorial Manager, the ≤250-word abstract, 1-6 keywords, author-year references, single-anonymized (no anonymization) format, AI declaration, and optional SSRN preprint. Final checks; it does not draft content.
 ---
 
 # Submission Preflight for RED (red-submission)

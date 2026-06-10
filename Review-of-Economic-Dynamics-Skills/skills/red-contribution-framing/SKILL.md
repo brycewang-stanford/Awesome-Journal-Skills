@@ -1,6 +1,6 @@
 ---
 name: red-contribution-framing
-description: Use to frame the marginal contribution of a Review of Economic Dynamics (RED) manuscript — stating the quantitative or dynamic advance in terms the SED readership values (a new mechanism, a new method, a new quantitative result, or model-disciplining evidence) and aligning the abstract and introduction around it.
+description: Use when framing the marginal contribution of a Review of Economic Dynamics (RED) manuscript — stating the quantitative or dynamic advance in terms the SED readership values (a new mechanism, a new method, a new quantitative result, or model-disciplining evidence) and aligning the abstract and introduction around it.
 ---
 
 # Contribution Framing for RED (red-contribution-framing)
@@ -39,6 +39,18 @@ introduction should make the mechanism legible before the math.
 - Framing the paper as a tour of results rather than one clear advance
 - Hiding the magnitude or the mechanism behind notation
 - Claiming generality the model or evidence does not support
+
+## Contribution stress test
+
+Before declaring the framing done, write these four objects:
+
+1. **Closest dynamic model**: the predecessor model, method, or calibration the paper changes.
+2. **Mechanism delta**: the one force the old model missed and the new model turns on.
+3. **Quantitative delta**: the moment, transition path, welfare number, or policy response that moves.
+4. **Scope delta**: the class of economies, shocks, agents, or constraints where the result is meant to hold.
+
+If the answer to item 2 is only "we use newer data," the paper is probably not framed as a RED
+contribution yet. Route to `red-literature-positioning` or `red-identification-strategy`.
 
 ## Supplementary resources
 

@@ -1,6 +1,6 @@
 ---
 name: jfqa-submission
-description: Final pre-submission preflight for the Journal of Financial and Quantitative Analysis (JFQA) via Editorial Manager — text-searchable single PDF, 8.5x11 / 1-inch / 12-pt Times New Roman double-spaced formatting, double-anonymous anonymization, the 100-word abstract cap, the $350 fee, prior-rejection disclosure to avoid the one-year ban, and code-sharing exception timing. Final checks; it does not draft content.
+description: Use when running the final pre-submission preflight for the Journal of Financial and Quantitative Analysis (JFQA) via Editorial Manager — text-searchable single PDF, 8.5x11 / 1-inch / 12-pt Times New Roman double-spaced formatting, double-anonymous anonymization, the 100-word abstract cap, the $350 fee, prior-rejection disclosure to avoid the one-year ban, and code-sharing exception timing. Final checks; it does not draft content.
 ---
 
 # JFQA Submission Preflight (jfqa-submission)

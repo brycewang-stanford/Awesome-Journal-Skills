@@ -1,6 +1,6 @@
 ---
 name: jet-contribution-framing
-description: Frame the contribution of a Journal of Economic Theory (JET) paper so its theoretical advance is unmistakable — lead with the theorem, state why the result matters for the relevant theory, and right-size the claim to exactly what the proof delivers. For JET's theory-first bar; it does not overclaim.
+description: Use when framing the contribution of a Journal of Economic Theory (JET) paper so its theoretical advance is unmistakable — lead with the theorem, state why the result matters for the relevant theory, and right-size the claim to exactly what the proof delivers. For JET's theory-first bar; it does not overclaim.
 ---
 
 # Contribution Framing (jet-contribution-framing)
@@ -38,6 +38,18 @@ known that was not before*.
   you proved.
 - Avoid "general" / "robust" / "essentially" unless the theorem literally says so.
 - If a result holds only under an extra condition, say it in the abstract, not a footnote.
+
+## Referee-proof contribution sentence
+
+Before finalizing, rewrite the main contribution in this syntax:
+
+```text
+Under [assumptions], we prove [result type] for [environment], which [weakens/generalizes/constructs]
+[closest theorem] by [precise delta].
+```
+
+Every bracket should map to a theorem statement or a cited frontier result. If a bracket is rhetorical
+rather than formal, the framing is ahead of the proof.
 
 ## Anti-patterns
 

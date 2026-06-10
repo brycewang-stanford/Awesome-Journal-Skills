@@ -1,6 +1,6 @@
 ---
 name: red-identification-strategy
-description: Use to make the inferential backbone of a Review of Economic Dynamics (RED) manuscript credible, adapting to the paper type. For theoretical/computational papers it covers model assumptions, regularity conditions, and what disciplines the parameters; for empirical dynamic papers it covers causal design. RED's scope spans all three, so this skill branches accordingly.
+description: Use when making the inferential backbone of a Review of Economic Dynamics (RED) manuscript credible, adapting to the paper type. For theoretical/computational papers it covers model assumptions, regularity conditions, and what disciplines the parameters; for empirical dynamic papers it covers causal design. RED's scope spans all three, so this skill branches accordingly.
 ---
 
 # Identification & Model Logic for RED (red-identification-strategy)
@@ -47,6 +47,15 @@ The credibility question is about **assumptions, existence, and discipline**, no
 - Importing reduced-form "identification" language into a calibrated model where it does not apply
 - Hiding free parameters or equilibrium-existence gaps
 - Asserting generality without showing what relaxing the assumptions does
+
+## Parameter-discipline table
+
+For quantitative papers, create a table with one row per key parameter:
+
+| Parameter | Value | Source/target | Free or disciplined? | Sensitivity shown? |
+|---|---|---|---|---|
+
+Any parameter that is free and influential needs a sensitivity check or a narrower claim.
 
 ## Supplementary resources
 

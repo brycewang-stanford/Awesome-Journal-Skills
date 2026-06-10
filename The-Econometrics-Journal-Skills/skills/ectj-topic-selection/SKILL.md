@@ -23,6 +23,20 @@ contribution.
 - Route to a field journal if the econometric novelty is mainly a tool for a substantive
   economics result.
 
+## Borderline routing rules
+
+- Choose **EctJ** when the contribution is a sharp method with direct applied value and can be taught as a
+  leading case within the compact format.
+- Choose **Econometric Theory** when the proof architecture, generality, or theorem development is the main
+  contribution and needs more formal space.
+- Choose **Journal of Econometrics** when the contribution is broad, exhaustive, or method-family defining
+  rather than a focused leading case.
+- Choose a **field journal** when the economic result matters more than the method, and the method would be
+  a technical appendix elsewhere.
+
+If the application can be removed without changing the paper's value, EctJ fit is weak. If the theorem can
+be removed without changing the paper's value, EctJ fit is also weak.
+
 ## Output format
 
 ```text

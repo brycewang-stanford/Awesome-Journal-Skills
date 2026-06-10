@@ -19,6 +19,25 @@ the current official pages reviewed for this pack do not name it.
   submissions are routinely rejected.
 - Replication package compliance becomes decisive after conditional acceptance.
 
+## Planning implications
+
+- Treat the first week as a **scope and conformance gate**: summary, page length, proofs placement, fee,
+  application, and template issues can kill the paper before referees see the technical details.
+- Treat the three-month target as a reason to submit a complete package. Thin simulations or missing code
+  will become a revision bottleneck rather than a harmless omission.
+- If desk risk is high, fix the summary and opening two pages first; that is where the editor sees whether
+  the paper is leading-case econometrics or a field application with a method appendix.
+
+## Desk-screen packet
+
+Prepare a five-item packet for the editor-facing opening:
+
+1. 150-word-or-less summary that names the econometric object and applied value.
+2. First-page theorem/result sentence with the leading-case scope.
+3. One paragraph showing the closest incumbent method and what breaks.
+4. One sentence identifying the empirical application and why it is not decorative.
+5. One sentence on where proofs, simulations, and replication files live.
+
 ## Output format
 
 ```text

@@ -21,6 +21,20 @@ hidden assumptions or vague asymptotic claims.
 - Separate theorem statements from implementation advice and simulation claims.
 - Flag any assumption that is convenient but empirically fragile.
 
+## Referee attack surface
+
+EctJ referees usually attack the bridge between compact theory and practical use. Pre-answer these points:
+
+- **Object drift**: the target parameter in the theorem is not the object estimated in the application.
+- **Assumption opacity**: a regularity condition is stated but never tied to a data feature or estimator step.
+- **Leading-case weakness**: the theorem solves a toy case whose constraints make the empirical example
+  irrelevant.
+- **Proof placement risk**: critical derivations are hidden in unreviewed online material or an untraceable
+  appendix.
+- **Simulation mismatch**: the Monte Carlo design does not probe the assumption most likely to fail.
+
+For each attack, write the exact theorem, assumption, table, or paragraph that will answer it.
+
 ## Output format
 
 ```text

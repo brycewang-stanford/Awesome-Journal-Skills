@@ -1,6 +1,6 @@
 ---
 name: jet-workflow
-description: Router for a Journal of Economic Theory (JET) manuscript — decides which jet- sub-skill to invoke next across the theorem-proof lifecycle, from theory-first scope check through Editorial Manager submission and single-anonymized R&R. Use first when unsure where to start.
+description: Use when routing a Journal of Economic Theory (JET) manuscript — decides which jet- sub-skill to invoke next across the theorem-proof lifecycle, from theory-first scope check through Editorial Manager submission and single-anonymized R&R. Use first when unsure where to start.
 ---
 
 # JET Workflow Router (jet-workflow)
@@ -46,6 +46,19 @@ jet-submission               (Editorial Manager preflight, .tex source, AI discl
         ▼
 jet-rebuttal                 (response letter on an R&R)
 ```
+
+## Router diagnostics
+
+- No theorem sentence yet -> `jet-topic-selection`.
+- Closest theorem unclear -> `jet-literature-positioning`.
+- Assumptions or proof dependencies unclear -> `jet-identification-strategy`.
+- Theorem is right but buried -> `jet-contribution-framing`.
+- Computation is doing too much work -> `jet-data-analysis`.
+- Figures introduce notation drift -> `jet-tables-figures`.
+- Source/package facts are volatile -> `jet-submission` and `resources/official-source-map.md`.
+
+The next skill should always reduce one JET desk/referee risk: off-scope empirics, overclaimed theorem,
+hidden assumption, unreadable proof, notation drift, or unsupported submission fact.
 
 ## Output format
 
