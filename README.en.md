@@ -88,8 +88,8 @@ English | [简体中文](README.md)
 <p align="center">
   <sub>Flagship English econ &amp; business venues from the <a href="English-SocialScience-Journal-Skills/">English-SocialScience-Journal-Skills</a> breadth bundle (<b>100 journals + selection router</b>). Tier badges (Top-5 · Top-3 · FT50 · UTD24) indicate tiering.</sub>
 </p>
-<details>
-<summary><b>🔬 Click to expand: Natural Science &amp; Medicine Flagships — 154-journal cover wall</b>　General · Life sciences · Clinical medicine · Nature research · Physics &amp; astronomy · Chemistry &amp; materials · Earth &amp; environment · Mathematics &amp; computation · Frontiers</summary>
+<details open>
+<summary><b>🔬 Expanded by default: Natural Science &amp; Medicine Flagships — 154-journal cover wall</b>　General · Life sciences · Clinical medicine · Nature research · Physics &amp; astronomy · Chemistry &amp; materials · Earth &amp; environment · Mathematics &amp; computation · Frontiers</summary>
 
 <!-- STEM-WALL-START -->
 <h3 align="center">Natural Science &amp; Medicine Flagships — 154 Top Journals Covered</h3>

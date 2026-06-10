@@ -88,8 +88,8 @@
 <p align="center">
   <sub>英文经管顶尖期刊 —— 来自 <a href="English-SocialScience-Journal-Skills/">English-SocialScience-Journal-Skills</a> 广度合集（<b>100 本期刊 + 选刊路由</b>）。Top-5、Top-3、FT50、UTD24 等标签用于说明分层。</sub>
 </p>
-<details>
-<summary><b>🔬 点击展开：自然科学 · 医学国际顶刊 —— 154 本旗舰封面墙</b>　综合多学科 · 生命科学 · 临床医学 · Nature 子刊 · 物理天文 · 化学材料 · 地球环境 · 数学计算 · 跨学科前沿</summary>
+<details open>
+<summary><b>🔬 默认展开：自然科学 · 医学国际顶刊 —— 154 本旗舰封面墙</b>　综合多学科 · 生命科学 · 临床医学 · Nature 子刊 · 物理天文 · 化学材料 · 地球环境 · 数学计算 · 跨学科前沿</summary>
 
 <!-- STEM-WALL-START -->
 <h3 align="center">🔬 自然科学 · 医学国际顶刊 —— 覆盖 154 本旗舰期刊</h3>
