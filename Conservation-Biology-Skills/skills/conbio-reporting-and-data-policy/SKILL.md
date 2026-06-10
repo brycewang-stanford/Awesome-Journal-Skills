@@ -56,6 +56,16 @@ acceptance does not stall. Confirm the current mandatory wording on the live pol
 - Claiming data are restricted with no access path or synthetic substitute
 - Undocumented, un-seeded, unpinned code that "works on my machine"
 
+
+## Operating pass for Conservation Biology
+
+Use this as a second-pass capability check. First lock the species/system threat, conservation decision, and uncertainty relevant to action; then test whether the manuscript addresses conservation-science reviewers who ask whether evidence changes biodiversity, management, or policy action.
+
+- **Primary move:** Return a claim-evidence-risk ledger; every recommendation must point to a manuscript location or missing artifact.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against Biological Conservation for applied conservation breadth, Global Change Biology for climate/ecosystem process, Ecology Letters for theory-forward ecology; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

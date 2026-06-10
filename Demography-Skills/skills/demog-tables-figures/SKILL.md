@@ -49,6 +49,16 @@ exhibit must earn its place.
 - Cramming every robustness exhibit into the main text (blows the table/figure limit — use the appendix)
 - Exhibit numbers/values that don't match the deposited code output
 
+
+## Exhibit pass for Demography
+
+Run this as a concrete capability pass. First lock the demographic process, data source, time scale, selection/migration/mortality issue, and uncertainty; then test whether the manuscript addresses population-science reviewers who inspect demographic process, measurement, cohort/period logic, and population validity.
+
+- **Primary move:** For every table or figure, state the object, sample/case base, uncertainty display, and one sentence the exhibit proves for this venue.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Sibling comparison:** compare against Population and Development Review for policy synthesis, JMF for family process, Social Forces for broader sociology; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

@@ -39,6 +39,16 @@ CAR's signed **author declaration** includes an overlap-disclosure rule: if your
 - **Citation dumping** without saying what each stream contributes or lacks.
 - **Hidden overlap** with the authors' concurrent papers — a declaration violation, not just a positioning weakness.
 
+
+## Positioning pass for Contemporary Accounting Research
+
+Use this as a second-pass capability check. First lock the accounting construct, setting, identification or theory, and disclosure/market/organizational implication; then test whether the manuscript addresses accounting reviewers who expect accounting-specific constructs, credible design, and contribution to reporting, auditing, tax, or governance debates.
+
+- **Primary move:** Map incumbent conversation, unresolved tension, this manuscript's delta, and the sibling-venue omission a referee might notice.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against The Accounting Review for US flagship breadth, JAR for Chicago-style accounting research, JAE for economics/accounting interface; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

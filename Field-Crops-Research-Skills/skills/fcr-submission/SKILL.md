@@ -61,6 +61,16 @@ official Elsevier guide before relying on them (live page may 403 to automated t
 - Blank data-availability statement; missing generative-AI declaration
 - A discussion that repeats results; means with no error term
 
+
+## Operating pass for Field Crops Research
+
+Treat this skill as an executable review pass, not a prose hint. First lock the crop system, environment structure, GxE logic, and yield or physiology endpoint; then judge whether the current manuscript answers the venue's real reader: agronomy reviewers who expect field-based, multi-environment evidence and crop-level general significance.
+
+- **Do the pass:** Return a claim-evidence-risk ledger rather than a prose-only diagnosis; every recommendation must point to a manuscript location or missing artifact.
+- **Return a ledger:** give `claim / evidence / risk / manuscript location` rows, so the next agent can edit rather than rediscover the issue.
+- **Sibling guard:** compare against Agricultural Systems for whole-system modeling, European Journal of Agronomy for agronomic breadth, Crop Science for cultivar or breeding emphasis; if a sibling owns the contribution, recommend re-routing before polishing format.
+- **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
+
 ## Output format
 
 ```

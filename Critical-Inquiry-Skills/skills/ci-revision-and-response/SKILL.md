@@ -58,6 +58,16 @@ with the location of every change so the editors can verify quickly.
 - Letting the revision spill past the word cap because notes were not counted
 - Adding new figures without clearing permissions
 
+
+## Operating pass for Critical Inquiry
+
+Use this as a second-pass capability check. First lock the object, theoretical stakes, interpretive turn, and permission/citation discipline; then test whether the manuscript addresses humanities reviewers who expect a strong interpretive intervention rather than an empirical-results narrative.
+
+- **Primary move:** Return a claim-evidence-risk ledger; every recommendation must point to a manuscript location or missing artifact.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against PMLA for literary-field reach, New Literary History for theory/history, Representations for historically grounded cultural analysis; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

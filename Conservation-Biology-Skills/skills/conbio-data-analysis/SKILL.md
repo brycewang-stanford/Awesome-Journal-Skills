@@ -54,6 +54,16 @@ skill covers execution and reporting norms; design decisions live in `conbio-stu
 - A single point projection presented as certain
 - A results section whose numbers the code cannot reproduce
 
+
+## Evidence pass for Conservation Biology
+
+Use this as a second-pass capability check. First lock the species/system threat, conservation decision, and uncertainty relevant to action; then test whether the manuscript addresses conservation-science reviewers who ask whether evidence changes biodiversity, management, or policy action.
+
+- **Primary move:** Audit unit, comparison, uncertainty, missingness, sensitivity, and reproducibility before making any prose or submission recommendation.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against Biological Conservation for applied conservation breadth, Global Change Biology for climate/ecosystem process, Ecology Letters for theory-forward ecology; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

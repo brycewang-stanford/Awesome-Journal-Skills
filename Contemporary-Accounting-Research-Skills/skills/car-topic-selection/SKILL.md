@@ -48,6 +48,16 @@ CAR's broad scope means the same topic can be pursued several ways; choose the t
 - **Method-first**: forcing an experiment or model onto a question better answered archivally (or vice versa).
 - **Gap-spotting**: "no one has studied X" with no tension or consequence.
 
+
+## Fit pass for Contemporary Accounting Research
+
+Use this as a second-pass capability check. First lock the accounting construct, setting, identification or theory, and disclosure/market/organizational implication; then test whether the manuscript addresses accounting reviewers who expect accounting-specific constructs, credible design, and contribution to reporting, auditing, tax, or governance debates.
+
+- **Primary move:** Score fit, novelty, evidence readiness, and audience ownership; reject prestige-only targeting when a sibling venue owns the contribution.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against The Accounting Review for US flagship breadth, JAR for Chicago-style accounting research, JAE for economics/accounting interface; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

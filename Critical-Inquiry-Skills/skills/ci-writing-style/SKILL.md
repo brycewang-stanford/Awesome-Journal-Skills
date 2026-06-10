@@ -50,6 +50,16 @@ essay sounds and how tightly it is cut, not about generating the argument.
 - Footnotes that quietly blow the word budget
 - Padding a Critical Response or Review past its cap
 
+
+## Style execution pass for Critical Inquiry
+
+Treat this skill as an executable review pass, not a prose hint. First lock the object, theoretical stakes, interpretive turn, and permission/citation discipline; then judge whether the current manuscript answers the venue's real reader: humanities reviewers who expect a strong interpretive intervention rather than an empirical-results narrative.
+
+- **Do the pass:** Rewrite the first two pages so each paragraph starts from the venue-level claim, not from chronology or method inventory; preserve exact source-map limits and move technical overflow to appendix or supplement.
+- **Return a ledger:** give `claim / evidence / risk / manuscript location` rows, so the next agent can edit rather than rediscover the issue.
+- **Sibling guard:** compare against PMLA for literary-field reach, New Literary History for theory/history, Representations for historically grounded cultural analysis; if a sibling owns the contribution, recommend re-routing before polishing format.
+- **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
+
 ## Output format
 
 ```

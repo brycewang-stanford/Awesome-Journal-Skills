@@ -41,6 +41,16 @@ Because CAR is method-agnostic, "theory development" means different things acro
 - **Algebra without intuition** (analytical) or **DV-only theory** (experimental) that ignores the process.
 - **Borrowed-template theory** that ignores accounting's information/contracting context.
 
+
+## Operating pass for Contemporary Accounting Research
+
+Use this as a second-pass capability check. First lock the accounting construct, setting, identification or theory, and disclosure/market/organizational implication; then test whether the manuscript addresses accounting reviewers who expect accounting-specific constructs, credible design, and contribution to reporting, auditing, tax, or governance debates.
+
+- **Primary move:** Return a claim-evidence-risk ledger; every recommendation must point to a manuscript location or missing artifact.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against The Accounting Review for US flagship breadth, JAR for Chicago-style accounting research, JAE for economics/accounting interface; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

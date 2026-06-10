@@ -49,6 +49,16 @@ general criminology audience can see the open question and your move on it.
 - Self-citation that breaks anonymity (the main document is anonymized — see `crim-submission`)
 - Claiming "first to study" when the contribution is incremental
 
+
+## Positioning pass for Criminology
+
+Treat this skill as an executable review pass, not a prose hint. First lock the crime/justice process, measurement validity, research design, and policy consequence; then judge whether the current manuscript answers the venue's real reader: criminology reviewers who expect theory-linked crime, justice, or harm mechanisms plus transparent measurement.
+
+- **Do the pass:** Build a three-column map: incumbent conversation, unresolved tension, and this manuscript's delta; include one sibling-venue omission that would make a referee doubt the fit.
+- **Return a ledger:** give `claim / evidence / risk / manuscript location` rows, so the next agent can edit rather than rediscover the issue.
+- **Sibling guard:** compare against Justice Quarterly for applied justice, Journal of Quantitative Criminology for methods focus, Social Problems for broader sociological framing; if a sibling owns the contribution, recommend re-routing before polishing format.
+- **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
+
 ## Output format
 
 ```

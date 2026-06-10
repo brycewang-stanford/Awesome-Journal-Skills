@@ -48,6 +48,16 @@ argumentative map that shows why the field needs this essay now.
 - Borrowing breadth by citing fields the argument never touches
 - Treating theorists as ornaments rather than positions you argue with
 
+
+## Operating pass for Critical Inquiry
+
+Treat this skill as an executable review pass, not a prose hint. First lock the object, theoretical stakes, interpretive turn, and permission/citation discipline; then judge whether the current manuscript answers the venue's real reader: humanities reviewers who expect a strong interpretive intervention rather than an empirical-results narrative.
+
+- **Do the pass:** Return a claim-evidence-risk ledger rather than a prose-only diagnosis; every recommendation must point to a manuscript location or missing artifact.
+- **Return a ledger:** give `claim / evidence / risk / manuscript location` rows, so the next agent can edit rather than rediscover the issue.
+- **Sibling guard:** compare against PMLA for literary-field reach, New Literary History for theory/history, Representations for historically grounded cultural analysis; if a sibling owns the contribution, recommend re-routing before polishing format.
+- **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
+
 ## Output format
 
 ```

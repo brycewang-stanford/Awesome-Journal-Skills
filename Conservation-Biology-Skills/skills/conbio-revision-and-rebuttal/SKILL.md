@@ -58,6 +58,16 @@ the location of every change so the editor can verify quickly.
 - Adding analyses that quietly contradict the original claim without acknowledging it
 - Letting the revised manuscript or new exhibits drift out of sync with the deposited package
 
+
+## Response pass for Conservation Biology
+
+Use this as a second-pass capability check. First lock the species/system threat, conservation decision, and uncertainty relevant to action; then test whether the manuscript addresses conservation-science reviewers who ask whether evidence changes biodiversity, management, or policy action.
+
+- **Primary move:** Separate editor-order changes from referee-specific changes; answer each major objection with manuscript edits plus a short evidence citation.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against Biological Conservation for applied conservation breadth, Global Change Biology for climate/ecosystem process, Ecology Letters for theory-forward ecology; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

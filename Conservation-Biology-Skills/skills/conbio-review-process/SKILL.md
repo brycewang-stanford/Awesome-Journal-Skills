@@ -49,6 +49,16 @@ novelty, and conservation relevance before external review.
 - Choosing Registered Reports after results exist
 - Leaving author identity detectable in a double-blind submission
 
+
+## Review-risk pass for Conservation Biology
+
+Treat this skill as an executable review pass, not a prose hint. First lock the species/system threat, conservation decision, and uncertainty relevant to action; then judge whether the current manuscript answers the venue's real reader: conservation-science reviewers who ask whether evidence changes biodiversity, management, or policy action.
+
+- **Do the pass:** Turn probable reviewer objections into a ledger with response evidence, manuscript location, and the decision-maker who must be convinced first.
+- **Return a ledger:** give `claim / evidence / risk / manuscript location` rows, so the next agent can edit rather than rediscover the issue.
+- **Sibling guard:** compare against Biological Conservation for applied conservation breadth, Global Change Biology for climate/ecosystem process, Ecology Letters for theory-forward ecology; if a sibling owns the contribution, recommend re-routing before polishing format.
+- **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
+
 ## Output format
 
 ```
