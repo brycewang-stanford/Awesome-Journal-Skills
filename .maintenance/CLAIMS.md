@@ -316,3 +316,11 @@ All remaining categories cleared (natsci/med 9, CS-AI 6, ag/env 6, theory/humani
 parallel agent). EVERY single-venue first-party depth pack (113) now has worked-examples + exemplars;
 79 have the code library. Mean 59.0→79.0; all hard gates green. Fixed mid-run: source-map link repoints,
 AER/claude-scholar submodule pointer drift (restored), link-depth regex. See AGENT-E-UPLIFT-PROGRAM.md Week 4.
+
+### Codex lane — repo-wide breadth-bundle capability uplift (2026-06-10, complete)
+User requested a comprehensive one-week repo-wide capability uplift. Scope is deliberately low-conflict:
+4 large breadth bundles (`Chinese-SocialScience-Journal-Skills`, `English-SocialScience-Journal-Skills`,
+`English-NaturalScience-Journal-Skills`, `Computer-Science-Conference-Skills`), report/scorecard tooling,
+and CS conference near-clone differentiation. Does NOT rewrite single-venue depth packs already completed
+by Agent-E except for objective report-tool changes if needed. Leaves edits uncommitted for user 验收.
+Completed with all hard checks green; see `.maintenance/AGENT-E-UPLIFT-PROGRAM.md` Week 5.

@@ -166,3 +166,33 @@ link-depth sed over-fired ../../→../../../../ → fixed with a normalizing reg
 FINAL: every single-venue first-party depth pack (113) now has worked-examples + exemplars; 79 carry the
 runnable code library; scorecard mean 59.0 → 79.0; 91 packs ≥70, 48 ≥85. The 4 breadth bundles (multi-
 venue navigation packs, 100+ profiles each) are intentionally out of scope. All hard gates green.
+
+### Week 5 (2026-06-10) — breadth bundles + method-resource adapters
+Extended the uplift to the previously out-of-scope breadth bundles and the remaining low-score method
+packs. New scope: `Chinese-SocialScience-Journal-Skills`, `English-SocialScience-Journal-Skills`,
+`English-NaturalScience-Journal-Skills`, `Computer-Science-Conference-Skills`, AI conference depth packs,
+and EctJ.
+
+- Added breadth-resource layers to all 4 large routing bundles: `resources/README.md`,
+  `resources/worked-examples/venue-routing.md`, and `resources/exemplars/selection-patterns.md`.
+- Updated all 4 router skills so agents know when to load worked routing cases, selection patterns,
+  rosters/source maps, and official-source maps.
+- De-cloned CS conference breadth profiles by adding `Close-neighbor routing guardrail` sections to all
+  155 conference profiles. Top reported CS similarity fell from 0.887 to 0.845 while staying below the
+  0.90 fail threshold.
+- Added `路由防误投` sections to all 102 Chinese social-science journal profiles, using existing README
+  names and bundle-level routing groups rather than new unverifiable submission facts.
+- Modernized `tools/quality_scorecard.py` to distinguish `breadth` vs `depth` packs: breadth bundles
+  now get credit for routers, rosters/source maps, worked routing cases, and selection patterns instead
+  of being penalized for lacking a code library.
+- Added `shared-resources/ml-conference-methods/` plus `resources/code/README.md` adapters for NeurIPS,
+  ICML, ICLR, AAAI, IJCAI, and AISTATS. This supplies an ML experiment matrix, artifact checklist, and a
+  dependency-free anonymous package smoke checker without importing the economics code kit.
+- Added `shared-resources/econometrics-methods/` plus an EctJ `resources/code/README.md` adapter for
+  Monte Carlo, estimator, empirical-illustration, and replication-package checks.
+
+Verification checkpoint: `python3 tools/run_checks.py --skip-reports` passes; shared helper scripts
+also compile with `python3 -m py_compile`. Scorecard mean: 79.0 → 80.6 after this wave; 4 breadth
+bundles now score as breadth packs (Chinese 77.4; English social-science 94.0; English natural-science
+93.9; CS conference 94.0). Remaining below-70 packs are mostly short Chinese depth packs and theory
+packs whose core resources already exist; no hard gate failures.

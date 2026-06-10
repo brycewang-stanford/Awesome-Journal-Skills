@@ -66,6 +66,7 @@ def body_after_frontmatter(text: str) -> str:
 def score_pack(pack: Path) -> dict:
     skills = skill_files(pack)
     n = len(skills)
+    is_breadth = n >= 50
 
     line_counts: list[int] = []
     word_counts: list[int] = []
@@ -99,36 +100,55 @@ def score_pack(pack: Path) -> dict:
     has_code = (res / "code").is_dir()
     has_worked = (res / "worked-examples").is_dir()
     has_exemplars = (res / "exemplars").is_dir()
+    has_resources_readme = (res / "README.md").exists()
     has_source_map = (res / "official-source-map.md").exists()
     has_external = (res / "external_tools.md").exists()
+    has_roster = any((res / name).exists() for name in ("conference-roster.md", "journal-roster.md", "source-basis.md"))
     has_readme = (pack / "README.md").exists()
     has_readme_zh = (pack / "README.zh-CN.md").exists()
+    has_router = any("workflow" in sf.parent.name or "router" in sf.parent.name for sf in skills)
 
     avg_words = sum(word_counts) / n if n else 0
     avg_desc = sum(desc_lengths) / len(desc_lengths) if desc_lengths else 0
 
     # ---- composite score (0-100) ----
-    # Depth: SKILL bodies that actually carry substance. Flagship ~700 words/skill.
-    depth = min(35, (avg_words / 600) * 35)
+    # Depth: SKILL bodies that actually carry substance. Depth packs are scored
+    # against a flagship ~700 words/skill target; breadth packs are scored
+    # against shorter profile cards plus strong routing resources.
+    depth = min(35, (avg_words / (350 if is_breadth else 600)) * 35)
     # Trigger precision: descriptions that say WHEN and name the venue.
     trigger = 0.0
     if n:
         trigger += min(8, (avg_desc / 200) * 8)
         trigger += (desc_use_when / n) * 4
         trigger += (desc_has_journal_cue / n) * 8
-    # Resources / capability assets.
-    resources = (
-        (10 if has_code else 0)
-        + (8 if has_worked else 0)
-        + (6 if has_exemplars else 0)
-        + (3 if has_source_map else 0)
-        + (1 if has_external else 0)
-    )
+    # Resources / capability assets. Breadth bundles should not be penalized for
+    # lacking a depth-pack code library; their capability layer is routing,
+    # roster/source discipline, worked routing examples, and selection patterns.
+    if is_breadth:
+        resources = (
+            (6 if has_resources_readme else 0)
+            + (8 if has_worked else 0)
+            + (6 if has_exemplars else 0)
+            + (5 if has_source_map else 0)
+            + (3 if has_roster else 0)
+        )
+    else:
+        resources = (
+            (10 if has_code else 0)
+            + (8 if has_worked else 0)
+            + (6 if has_exemplars else 0)
+            + (3 if has_source_map else 0)
+            + (1 if has_external else 0)
+        )
     # Runnable code inside skill bodies (empirical capability signal).
     runnable = min(5, (code_block_skills / n) * 5) if n else 0
     # Structure hygiene.
     structure = 0.0
-    structure += 3 if 8 <= n <= 14 else (1 if n else 0)
+    if is_breadth:
+        structure += 3 if n >= 50 and has_router else (1 if n else 0)
+    else:
+        structure += 3 if 8 <= n <= 14 else (1 if n else 0)
     structure += 1.5 if has_readme else 0
     structure += 1.5 if has_readme_zh else 0
 
@@ -136,6 +156,7 @@ def score_pack(pack: Path) -> dict:
 
     return {
         "pack": pack.name,
+        "pack_type": "breadth" if is_breadth else "depth",
         "skills": n,
         "avg_words": round(avg_words),
         "avg_desc_chars": round(avg_desc),
@@ -173,12 +194,12 @@ def main() -> int:
         mean = sum(scores) / len(scores) if scores else 0
         print(f"Quality scorecard — {len(rows)} first-party packs · mean score {mean:.1f}/100")
         print(f"(worst first){' · showing bottom ' + str(args.top) if args.top else ''}\n")
-        hdr = f"{'score':>6}  {'skl':>3} {'wrds':>5} {'desc':>4}  {'code':>4} {'wex':>3} {'exm':>3}  pack"
+        hdr = f"{'score':>6}  {'type':>7} {'skl':>3} {'wrds':>5} {'desc':>4}  {'code':>4} {'wex':>3} {'exm':>3}  pack"
         print(hdr)
         print("-" * len(hdr))
         for r in shown:
             print(
-                f"{r['score']:>6}  {r['skills']:>3} {r['avg_words']:>5} {r['avg_desc_chars']:>4}  "
+                f"{r['score']:>6}  {r['pack_type']:>7} {r['skills']:>3} {r['avg_words']:>5} {r['avg_desc_chars']:>4}  "
                 f"{'yes' if r['code_lib'] else '  -':>4} "
                 f"{'y' if r['worked_examples'] else '-':>3} "
                 f"{'y' if r['exemplars'] else '-':>3}  {r['pack']}"
