@@ -25,6 +25,40 @@ current official timetable and work backwards from Chairing Tool cutoffs.
 - Acceptance: submit camera-ready files, copyright/metadata, registration, presentation plan,
   and public artifact release.
 
+## Critical-path coupling
+
+IJCAI separates abstract registration from full-paper upload and freezes the author set at the
+author-information deadline, so dependencies bite earlier than at venues with a single
+deadline. Track what each milestone blocks.
+
+| Milestone | Hard precondition | What it blocks if missed |
+| --- | --- | --- |
+| Abstract registration | Real title, abstract, authors, keywords | No paper slot exists; placeholder is unsafe |
+| Author-information close | Every coauthor confirmed, ORCID/profile set | Author set locks; cannot add authors later |
+| Full-paper upload | Anonymous PDF, supplement, resubmission file | All review-stage evidence is fixed here |
+| PPI/payment checkpoint | Fee handled where applicable | Paper may be ineligible |
+| Phase 1 | Contribution legible to a broad PC | Summary reject before any response |
+| Camera-ready | Acceptance, registration, copyright | Publication and presentation blocked |
+
+## Worked vignette: a planning team's backward plan
+
+A four-author planning team targets the main track. Work backward from Chairing Tool cutoffs:
+freeze the contribution and benchmark suite two weeks before full-paper upload; collect all
+ORCID confirmations before the author-information close because no author can be added after;
+register a real abstract early since the abstract deadline precedes the paper; and budget for
+phase-1 summary-reject risk by having a non-specialist read the first page well before
+submission, since the response stage may never arrive. Replace every date with the current
+official timetable.
+
+## Risk register and the venue-specific fix
+
+- "Abstract slot never created." Register a real title and abstract by the abstract deadline,
+  not a placeholder.
+- "Coauthor confirmed late." Chase ORCID and confirmations before author-information close; the
+  set locks afterward.
+- "Counting on the rebuttal." Treat phase 1 as potentially terminal and make the contribution
+  obvious within two reads.
+
 ## Output format
 
 ```text

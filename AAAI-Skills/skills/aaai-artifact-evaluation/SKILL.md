@@ -27,6 +27,38 @@ material is part of the submission record; after review starts, do not assume it
 - Make the reproducibility checklist consistent with the artifact package.
 - Prepare a post-acceptance public release path but keep review artifacts anonymous.
 
+## What an AAAI reviewer actually opens
+
+AAAI does not run a separate badged artifact-evaluation committee the way some systems venues do;
+the same broad-AI reviewer who scores the paper also inspects whatever supplement you attach. That
+reviewer may be a planning, knowledge-representation, or constraint-satisfaction specialist rather
+than a deep-learning engineer, so the artifact has to be legible without insider tooling. Optimize
+for a reviewer who skims, not one who will spend an afternoon configuring a cluster.
+
+| Reviewer action | Passes | Fails |
+| --- | --- | --- |
+| Opens the ZIP | sane tree, top README | nested archives, 0-byte files |
+| Reads appendix | maps to numbered claims | contradicts the paper |
+| Tries one command | reproduces one headline number | needs private data or credentials |
+| Scans for identity | nothing reveals authors | Git logs or home paths leak |
+
+## Phase-1 artifact red flags
+
+Because clearly-below-bar papers can be cut before author feedback, a supplement that looks thin or
+unrunnable is a cheap reason to summary-reject. Avoid these:
+
+- Checklist promises released code, but the ZIP only holds figures and no scripts.
+- A "see our repository" pointer to a mutable, deanonymizing URL.
+- Multimedia attached for spectacle that carries no technical claim, inflating size with no rigor.
+- Datasets shipped with no license note, leaving reuse legality unverifiable.
+
+## Worked vignette
+
+A constraint-solving paper claims a 30% node-expansion reduction. The team ships a large ZIP of raw
+solver logs but no driver script. The reproduction path is empty, so artifact status is "risky"; the
+fix is a small `run_main.py` that regenerates Table 2 from seeds, a trimmed log sample, and a license
+for the benchmark instances. The raw dump moves to the post-acceptance release.
+
 ## Output format
 
 ```text

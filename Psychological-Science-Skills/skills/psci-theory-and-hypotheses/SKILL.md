@@ -36,6 +36,56 @@ as exploratory.
 - If you discovered something post hoc, **say so** and frame it as a hypothesis for future
   confirmation — Psychological Science values this honesty and the Transparency Statement surfaces it.
 
+## Worked micro-example — theory to hypothesis status (illustrative)
+
+The two-study attention package, written so hypothesis status is legible at a glance.
+
+```
+Theory:  Brief mindfulness induction transiently broadens attentional
+         control, reducing automatic capture by emotional distractors.
+H1 (confirmatory, preregistered, S1+S2):
+         Induction reduces capture cost vs. control (directional; d ≥ 0.30 SESOI).
+H2 (exploratory in S1 → confirmatory in S2):
+         Effect is larger for high trait-anxiety participants
+         (interaction; preregistered only for Study 2).
+Disconfirming: a CI for H1 centered near zero, or a reversed sign, counts
+         against the broadening account — stated up front.
+```
+
+## Constraints-on-generality (a venue expectation)
+
+Post-credibility-revolution, name the boundary of the claim explicitly rather than implying universal
+scope. Confirm current wording against the journal's submission guidelines, but include the substance:
+
+```
+Constraints on generality: We expect H1 to hold for healthy adults under
+brief laboratory inductions and screen-based capture tasks. We do not claim
+it generalizes to clinical anxiety, sustained meditation training, or
+real-world attentional demands without further test.
+```
+
+## Theory-stage reviewer pushback and the venue fix
+
+| Reviewer pushback | Psychological Science fix |
+|-------------------|---------------------------|
+| "Atheoretical / mechanism unclear" | state the broadening mechanism in one crisp sentence before the hypotheses |
+| "This looks HARKed" | show the preregistration timestamp; relabel post hoc analyses exploratory |
+| "Claims outrun the manipulation" | scale H1's scope to what the induction plausibly does; add a constraints-on-generality clause |
+| "Non-directional hypothesis" | commit to a sign and, where possible, a SESOI magnitude |
+
+## Theory calibration anchors
+
+- Theory here is crisp, not encyclopedic: one mechanism sentence and a derived, directional prediction
+  beat a multi-page treatise that the 2,000-word budget cannot hold.
+- The cardinal honesty rule is temporal: anything specified *before* data is confirmatory; anything
+  generated *after* seeing data is exploratory, full stop. The Research Transparency Statement and a
+  graded preregistration make the distinction visible to editors and reviewers.
+- Stating what would *disconfirm* the theory is what converts a story into a test; reviewers steeped in
+  the credibility revolution read an unfalsifiable framing as a red flag.
+- When the theory is best tested prospectively and confirmatorily, a Registered Report makes the claim
+  materially stronger — confirm current Registered Report availability against the journal's submission
+  guidelines, then route via `psci-review-process`.
+
 ## Anti-patterns
 
 - Theory written to fit the result after the fact (HARKing)

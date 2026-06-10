@@ -41,6 +41,36 @@ RJE referees apply **industrial-organization empirical norms**. Whether the work
 
 RJE's caps are hard (main text **<=40 pp**, total **<=50 pp**). Put the core estimates and one or two decisive robustness exhibits in the main text; **move the full robustness battery to the appendix** (within the <=10-page appendix+references budget), not into discouraged supporting information.
 
+## Diagnostic triage table (structural estimates that IO referees flag)
+
+When a structural estimate looks off, diagnose the symptom first.
+
+| Symptom | Likely cause | First check to stage |
+|---|---|---|
+| Positive own-price elasticity | Price endogeneity unhandled or weak instruments | First-stage strength of cost shifters / BLP instruments |
+| Implausibly large markups (>60%) | Conduct misspecified or marginal cost too low | Re-estimate under alternative conduct; inspect cost FOCs |
+| Estimates jump across starting values | Non-convex GMM objective, flat ridges | Multi-start grid; report objective at each start |
+| Counterfactual price swings wildly | Extrapolation outside observed variation | Bound the counterfactual; restrict to in-support changes |
+| Substitution ignores obvious rivals | Too few random coefficients / no micro-moments | Add micro-moments or a nesting structure |
+
+## Worked vignette: validating a merger simulation
+
+Suppose you estimate random-coefficients logit demand for ready-to-eat cereal, recover marginal costs from Bertrand-Nash FOCs, and simulate a two-brand merger (illustratively, median markup 35%, predicted price rise 4.2% for the merging brands).
+
+- **Economic sanity**: own-price elasticities near -3.5 are plausible for branded cereal; report that 35% markups sit within the literature's range.
+- **Identification-in-practice**: show cost-shifter instruments move the price coefficient and differentiation instruments move the random-coefficient variances.
+- **Counterfactual discipline**: hold product set and conduct fixed, state it, and report the rise as a range (3.1%-5.4%) across specifications.
+- **Validation**: if a comparable merger occurred nearby, check whether the model predicts its realized price path.
+
+A bare "+4.2%" with no band and no validation invites the first referee pushback below.
+
+## Referee-pushback patterns and the venue fix
+
+- **"Your counterfactual extrapolates outside observed price variation."** Fix: restrict the simulated change to the support of observed prices, or report bounds and flag the extrapolation explicitly.
+- **"Markups are mechanical artifacts of the conduct assumption."** Fix: test conduct where the data allow, or show the markup ranking is robust across Bertrand, Cournot, and partial-collusion assumptions.
+- **"Inference ignores within-market correlation."** Fix: cluster at the market level; with few markets, switch to wild-cluster bootstrap and report the seed.
+- **"Robustness lives only in a footnote."** Fix: stage one decisive robustness exhibit in the main text and route the full battery to the appendix.
+
 ## Anti-patterns
 
 - A single structural run with no starting-value or specification sensitivity

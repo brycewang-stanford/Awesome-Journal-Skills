@@ -22,6 +22,37 @@ FAQ because deadlines, file types, and size limits are cycle-specific.
 - Verify that ZIPs open, contain deterministic paths, and do not include cache files, hidden
   OS files, credentials, API keys, or large irrelevant artifacts.
 
+## Placement decision: body, appendix, or ZIP
+
+IJCAI reviewers may never open the supplement, so placement is a scoring decision. Sort each
+artifact before assembling.
+
+| Artifact | Where it belongs | Why |
+| --- | --- | --- |
+| Theorem statement, main result table | 7-page body | Load-bearing; reviewers must see it without the supplement |
+| Full proof, extra derivations | Technical Appendix | Supports credibility but not required reading |
+| Hyperparameter grids, full per-domain tables | Technical Appendix | Detail that would crowd the body |
+| Runnable code, simulator, instance generator | Code/data ZIP | Reproducibility evidence reviewers may sample |
+| Prior reviews and rejected version | Resubmission File only | Must stay out of the technical supplement |
+
+## Worked vignette: a planning paper's split
+
+A planning paper has a soundness theorem, a 40-domain coverage table, and a planner
+implementation. Decision: the theorem statement and a condensed coverage summary stay in the
+body; the proof and the full 40-domain table go to the Technical Appendix; the planner plus a
+deterministic instance generator and seeds go in the ZIP; nothing from a prior IJCAI rejection
+goes anywhere except the Resubmission File. This keeps the paper self-contained while giving a
+skeptical search/planning reviewer a re-runnable artifact.
+
+## Reviewer pushback and the venue-specific fix
+
+- "Had to open the ZIP to understand the method." Move the missing protocol into the body; the
+  appendix should deepen, not define, the contribution.
+- "Appendix mixes in old reviews." Separate them into the Resubmission File; mixing risks an
+  anonymity or policy flag.
+- "Archive would not open or had absolute paths." Re-zip with relative deterministic paths and
+  strip OS and cache files before the full-paper deadline, since there is no later upload.
+
 ## Output format
 
 ```text

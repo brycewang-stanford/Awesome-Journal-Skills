@@ -1,6 +1,6 @@
 ---
 name: aaai-camera-ready
-description: Use when preparing an accepted AAAI paper for camera-ready source submission, proceedings page limits, copyright transfer, extra pages, registration, presentation, and final artifact release.
+description: Use when preparing an accepted AAAI paper for camera-ready source submission to AAAI Press, including proceedings page limits, two-column template compliance, copyright transfer, purchased extra technical pages, deanonymization, registration, oral or poster presentation, and final public artifact release.
 ---
 
 # AAAI Camera Ready
@@ -22,6 +22,32 @@ author kit, copyright instructions, and proceedings source-file requirements.
 - Complete copyright transfer and any AAAI Digital Library metadata.
 - Ensure at least one author registers and presents the paper, unless current exceptional-circumstance
   procedures apply.
+
+## AAAI Press production gotchas
+
+AAAI Press compiles the proceedings from your source, so a PDF that looks fine locally can still be
+kicked back. The two-column AAAI style is strict about a few things that trip up authors arriving
+from single-column or NeurIPS-style submissions:
+
+- Do not alter margins, font sizes, or column gap; AAAI explicitly forbids style hacks to gain space.
+  If you need room, purchase technical pages instead of shrinking the template.
+- Disable `\pdfoutput` overrides and embed all fonts; non-embedded fonts are a common rejection.
+- Move references and acknowledgments into the pages that do not count against the technical limit,
+  per the current rule, rather than padding the main body.
+- Restore author block, funding, and ethics statements that were stripped for double-blind review.
+
+## Deanonymization sweep
+
+Acceptance reverses the anonymity discipline: now identity must be present and correct, while stale
+blind-mode placeholders must go. Walk the paper, supplement, and code for "Anonymous", redacted
+citations to your own prior work, and `\\if-blind` toggles still set to blind.
+
+## Worked vignette
+
+A knowledge-representation paper lands at 7.5 technical pages after restoring the author block and an
+ethics statement. Decision: it cannot shrink the template, so the author buys one extra technical
+page (within the current cap), keeps references on the non-counting pages, and re-runs the
+deanonymization sweep before uploading source to AAAI Press.
 
 ## Release plan
 

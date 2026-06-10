@@ -1,6 +1,6 @@
 ---
 name: jmsc-submission
-description: Use for the pre-submission preflight to 《管理科学学报》 (Journal of Management Sciences in China) — checking length (≤8000 chars; review ≤12000), abstract (≤300 chars), keywords (3–8), bilingual title/abstract, numbered-reference style 〔1〕 by order of appearance, formula numbering, theorem/symbol typesetting, and the online system (jmsc.tju.edu.cn). Verify every rule against the journal's current 投稿指南.
+description: Use when running the pre-submission preflight to 《管理科学学报》 (Journal of Management Sciences in China) — checking length (≤8000 chars; review ≤12000), abstract (≤300 chars), keywords (3–8), bilingual title/abstract, numbered-reference style 〔1〕 by order of appearance, formula numbering, theorem/symbol typesetting, and the online system (jmsc.tju.edu.cn). Use when the model/proof/algorithm/numerical/style passes are done and you need a final house-style and system checklist. Verify every rule against the journal's current 投稿指南.
 ---
 
 # 投稿前 preflight（jmsc-submission）
@@ -55,6 +55,34 @@ description: Use for the pre-submission preflight to 《管理科学学报》 (J
 - 公式漏编号或编号不连续
 - 把完整证明堆在正文，正文读不下去
 - 篇幅严重超 8000 字还不是综述
+
+## 本刊投稿体例审稿期待与退稿模式
+
+《管理科学学报》在形式审查阶段就会因体例不合退修，其中数理排版要求最易被忽视。下表对齐常见形式退修信号与修法：
+
+| 退修信号 | 根因 | 本刊期望的修法 |
+|----------|------|----------------|
+| "篇幅超限" | 正文超 8000 字且非综述 | 压缩或把推导移附录；综述方可放宽至 12000 |
+| "引用格式不符" | 用了作者-年份 | 正文改序号〔1〕〔2〕，按出现先后排序 |
+| "公式编号不连续" | 漏编/重编 | 独立公式统一连续编号，正文引用一致 |
+| "证明堆在正文" | 长证明未入附录 | 正文留陈述+直觉，完整证明移附录 |
+| "中英文不齐" | 缺英文摘要/关键词 | 补齐中英文标题/作者/单位/摘要/关键词并对齐 |
+
+> 锚点：参考文献书写格式、公式编号、定理环境均建议参照本刊近期同类论文。所有字数、格式、模板细节以官网最新《投稿指南/来稿须知》为准，不凭记忆。
+
+## 微型走查：一篇定稿的投前 preflight
+
+虚构稿件《平台动态定价的最优阈值策略》定稿。按体例与数理排版清单走一遍：
+
+- **篇幅**：正文 7600 字（含图表），<8000，非综述，通过；若超限，优先把命题 3 证明移附录。
+- **摘要/关键词**：中文摘要 280 字（<300）；关键词 5 个（在 3—8）：动态定价、阈值策略、随机优化、平台运营、敏感性分析。
+- **中英对齐**：中英文标题、作者、单位、摘要、关键词齐全，英文部分置于正文之后、附录之前。
+- **参考文献**：28 条均公开发表，按出现先后排序，正文引用写〔1〕…〔28〕，格式参照本刊近期论文。
+- **数理排版**：独立公式 (1)–(19) 连续编号；定理 1、命题 1–3、引理 1–2 环境统一；命题完整证明在附录 A，正文留陈述+直觉；记号一符一义并附符号表；假设 A1–A4 集中编号；算法以伪代码呈现，复杂度 O(·) 与收敛性齐备。
+- **内容复核**：对口数理赛道、模型四要素完整、命题有完整证明、算法有复杂度、数值验证理论并给洞见、管理启示为决策规律（口号 0）。
+- **系统**：经 jmsc.tju.edu.cn 作者登录上传 Word/PDF，核对官网最新模板。
+
+编辑若以"格式参照本刊"退修，回应路径应是逐条比对本刊近期同类论文的参考文献与公式体例，而非套用其它期刊模板。
 
 ## 输出格式
 

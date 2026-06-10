@@ -31,6 +31,36 @@ RJE decisions come from a **handling Editor** synthesizing **two anonymous refer
 - Where you decline, give a crisp reason and an alternative check — never silence.
 - Keep a **changes summary** at the top for the Editor, organized around the Editor's priorities.
 
+## Triage matrix (where each referee ask goes under the page cap)
+
+Sort every comment by where new material can live without breaching the 50-page total.
+
+| Referee ask | Typical response | Where it lands |
+|---|---|---|
+| Add a robustness specification | Run it, summarize in body, full table to appendix | Appendix (≤10-page budget) |
+| Justify an instrument / exclusion | One paragraph of institutional argument + overid check | Main text, tight |
+| Add a conduct test | Implement; report verdict in a sentence | Main text; derivation to appendix |
+| Bound a counterfactual | Re-report as a range with stated assumptions | Replace the point estimate in place |
+| "Estimate an entirely new model" | Push back if out of scope; offer a targeted check | Decline with reason + alternative |
+
+## Worked vignette: reconciling two conflicting referees
+
+Suppose Referee 1 wants micro-moments to discipline substitution, Referee 2 wants a simpler demand model, and the Editor flags counterfactual credibility as decisive.
+
+- **Lead with the Editor**: re-report the counterfactual as a bounded range across both the richer and simpler specifications, showing the welfare conclusion survives the disagreement.
+- **Referee 1**: add the micro-moments; report the resulting elasticity change (illustratively, the cross-elasticity moves from 0.8 to 0.6).
+- **Referee 2**: present the simpler model as a robustness column, not the headline.
+- **Page budget**: the micro-moment derivation and simpler-model table go to the appendix; the body gains only the bounded range.
+
+The contradiction collapses into one robustness exhibit answering the referees' shared worry.
+
+## Referee-pushback patterns and the venue fix
+
+- **"You added pages instead of answering."** Fix: answer in one main-text paragraph plus an appendix pointer; do not inflate past 40 pp.
+- **"The reply restates rather than tests the result."** Fix: lead each reply with the concrete action taken, then the page pointer.
+- **"The revision drifted off house style."** Fix: re-audit author-date cites, unnumbered subsections, and because/whereas/"article" usage before resubmitting.
+- **"You silently ignored a comment."** Fix: never go silent; give a crisp reason to decline, plus a substitute check.
+
 ## Anti-patterns
 
 - Expanding the main text past 40 pp to appease referees instead of using the appendix

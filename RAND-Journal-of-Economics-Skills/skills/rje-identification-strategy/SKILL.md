@@ -52,6 +52,32 @@ RJE is the **flagship industrial-organization journal**, so identification is ju
 - [ ] Counterfactual assumptions bounded and stated
 - [ ] Claims never exceed what the model + data support
 
+## Variation-to-parameter map (what pins down which primitive)
+
+RJE referees want an explicit account of which variation identifies which structural object.
+
+| Structural object | Identifying variation | Threat if absent |
+|---|---|---|
+| Own-price elasticity | Cost/input-price shifters orthogonal to demand shocks | Endogeneity biases elasticity to zero |
+| Substitution / random coefficients | Rival characteristics across markets; micro-moments | Restrictive IIA, wrong merger effects |
+| Marginal cost | Supply-side FOCs given conduct and demand | Cost confounded with markup |
+| Conduct parameter | Demand rotations (slope- vs level-shifters) | Conduct assumed, not identified |
+
+## Worked vignette: identifying conduct in an entry model
+
+Suppose you study airline entry on city-pair routes (illustratively 1,200 routes over six years, one potential entrant each) and ask whether incumbents deter entry.
+
+- **Identifying variation**: endpoint market-size shifters move entry value; slot/gate cost shifters move fixed costs independently.
+- **Multiplicity**: simultaneous entry admits multiple equilibria — use Ciliberto-Tamer-style bounds or an explicit selection rule, and report the parameter set.
+- **One-sentence map**: "Demand shifters identify entry value, cost shifters identify fixed costs, and incumbent presence correlating with non-entry net of profitability identifies deterrence."
+
+## Referee-pushback patterns and the venue fix
+
+- **"Demand identification rests on functional form, not variation."** Fix: show which excluded instruments move price versus substitution, and perturb the random-coefficient distribution to prove the elasticities are not artifacts.
+- **"The exclusion restriction is asserted, not defended."** Fix: argue why the cost shifter is plausibly orthogonal to the demand shock here, and probe with an overidentification or placebo-instrument check.
+- **"Conduct is assumed Nash-Bertrand without test."** Fix: run a conduct test (Rivers-Vuong or a markup restriction) or report results under competing conduct models.
+- **"Pre-trends violate the reduced-form design."** Fix: show event-study leads, use the heterogeneity-robust estimator, and report the Goodman-Bacon decomposition.
+
 ## Anti-patterns
 
 - A demand system with price treated as exogenous, or weak/unargued price instruments

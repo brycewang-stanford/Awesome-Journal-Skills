@@ -30,6 +30,33 @@ Reopen the current review-process page and author FAQ before advising on timing 
 - Do not attack the AI review. Correct it when it contains consequential false statements.
 - Avoid new experiments in rebuttal; use submitted evidence and camera-ready promises sparingly.
 
+## Stage-by-stage decision map
+
+AAAI's pipeline differs from a single-round OpenReview venue, so plan actions per stage rather than
+treating every signal as a rebuttal opportunity.
+
+| Stage | What is happening | Author leverage |
+| --- | --- | --- |
+| Pre-submission | Phase-1 bar is set by clarity and checklist | maximal: fix the paper itself |
+| Phase 1 | human reviews plus advisory AI review | none yet; summary reject possible |
+| Phase 2 | additional reviews, one feedback round | one short response, no new results |
+| Discussion | reviewers and SPC/AC weigh feedback | indirect: a clean correction can swing it |
+| Decision | SPC/AC oversight, not the AI review | archive everything for appeal or journal |
+
+## Why papers die in Phase 1
+
+Because the reviewer pool is large and submission volume is high, clearly-below-bar papers are cut
+early to protect later effort. Common triggers: an unreadable first page, a contribution a
+non-specialist cannot place, a checklist that contradicts the paper, or evidence too thin to trust.
+None of these can be repaired after the Phase-1 cut, so they must be eliminated before submission.
+
+## Worked vignette
+
+An NLP paper with strong results buries its contribution under three pages of setup. A Phase-1
+reviewer from a planning background cannot find the AI claim and scores it a reject; the paper never
+reaches feedback. The fix belongs entirely pre-submission: a first-page contribution statement and a
+checklist that matches the experiments, so the broad-AI reviewer can place and trust it fast.
+
 ## Output format
 
 ```text

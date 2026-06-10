@@ -35,6 +35,45 @@ tight paragraphs.
   power/credibility of the original), not as a bare repetition. Extensions should state the new
   boundary or mechanism tested.
 
+## Citation-budget triage (working with ~40 references)
+
+When your reference list overflows the format, sort every candidate into one of four roles and keep
+only what earns its slot. Confirm the current reference allowance against the journal's submission
+guidelines, but the discipline is the same.
+
+| Role | Keep? | Why it earns a slot in Psychological Science |
+|------|-------|----------------------------------------------|
+| Defines the open question | always | without it the gap is not legible |
+| Closest prior result you beat/extend | always | this is the contribution's contrast class |
+| Method/measure provenance | usually | reviewers check construct validity |
+| Broad-relevance anchor (another subarea) | one or two | the breadth signal editors screen for |
+| Background-completeness citation | cut first | the format rewards precision, not coverage |
+
+## Worked micro-example (illustrative)
+
+A two-study attention package wants to position against a famous but underpowered emotional-capture
+finding. Weak framing: "Prior work has examined attentional capture (refs 1–18)." Venue-fit framing:
+
+```
+Stakes:   Capture by emotional distractors is a load-bearing assumption
+          across clinical, social, and cognitive accounts of self-regulation.
+Gap:      The single most-cited demonstration (N ≈ 40, no preregistration)
+          has never been tested under a power-justified, preregistered design.
+Contribution (stated by paragraph two):
+          Two preregistered studies (N = 240; N = 300) provide a powered,
+          transparent test and a boundary condition (trait anxiety).
+Breadth:  Settles a premise that downstream clinical-science models inherit.
+```
+
+## Positioning-stage reviewer pushback and the venue fix
+
+| Reviewer pushback | Psychological Science fix |
+|-------------------|---------------------------|
+| "Contribution is incremental" | name the *decisive* test or boundary, not a longer literature tour |
+| "First to show" overclaim | downgrade to "first powered, preregistered test of"; cite the priors honestly |
+| "Reads as a narrow-paradigm result" | add the one breadth anchor showing who outside the subarea inherits the claim |
+| "Too many citations for the format" | apply the triage table; move completeness refs to supplemental |
+
 ## Anti-patterns
 
 - A long, chronological literature review that the word format cannot hold

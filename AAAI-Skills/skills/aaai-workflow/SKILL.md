@@ -30,6 +30,32 @@ cycle's official timetable and work backwards from OpenReview cutoffs.
 - Verify ZIP files open and reproduce expected paths before submission.
 - Do not leave core evidence to rebuttal.
 
+## Backward-planning table
+
+Because AAAI runs a two-phase review with hard OpenReview cutoffs and no second feedback round, the
+timeline is unforgiving. Anchor each gate to the prior one and to the official date, not a guess.
+
+| Gate | Depends on | Slip consequence |
+| --- | --- | --- |
+| Abstract deadline | title, authors, conflicts locked | cannot submit the paper |
+| Paper deadline | anonymous PDF, checklist, supplement | summary reject or no entry |
+| Phase-1 cut | clarity and checklist done early | no feedback, paper dies |
+| Feedback round | submitted evidence only | wasted on new-results bans |
+| Camera-ready | acceptance, copyright, registration | dropped from proceedings |
+
+## Phase-1 readiness gate
+
+Treat the Phase-1 cut as the real deadline, earlier than acceptance. Before the paper deadline, a
+non-specialist colleague should be able to state your contribution, find the evidence, and confirm
+the checklist matches the paper. If they cannot, the broad-AI reviewer will not either.
+
+## Worked vignette
+
+A team plans to "finish experiments in rebuttal." The workflow flags this as fatal: AAAI bars new
+results at feedback and may cut the paper in Phase 1 before feedback exists. The critical path moves
+to locking evidence and the checklist a week before the paper deadline, leaving the feedback window
+only for clarifying already-submitted material.
+
 ## Output format
 
 ```text

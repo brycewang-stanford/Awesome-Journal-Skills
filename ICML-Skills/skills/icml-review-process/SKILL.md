@@ -31,6 +31,28 @@ forecast acceptance by score folklore; it is to identify the decision issue and 
 5. Check whether LLM-review policy, prompt injection, reciprocal reviewing, or ethics concerns could
    become procedural rejection risks.
 
+## Score-dimension to AC-leverage map
+
+ICML ACs synthesize conflicts into a meta-review, so the useful question is which dimension an AC can
+defend a decision on.
+
+| Dimension | What a reviewer cites | What an AC can act on |
+| --- | --- | --- |
+| Soundness | Broken proof, untuned baseline, leakage | Strong reject anchor; hard to rebut without new evidence |
+| Originality | Overlap with prior or concurrent work | Reject anchor unless delta is reframed |
+| Significance | Narrow gain, no mechanism | Borderline; rebuttal can reframe scope |
+| Clarity | Buried contribution, dense columns | Often fixable; weakest reject basis alone |
+
+## Worked vignette: reading a split panel
+
+The optimizer paper draws one champion citing the convergence theorem, one skeptic citing an
+untuned Adam baseline, and one borderline reviewer citing clarity. The AC-quotable issue is the
+baseline soundness concern, not clarity, so the response strategy concentrates the single discussion
+round on the tuned-baseline table. Because accepted reviews and discussion become public, the authors
+keep the tone measured. If the paper also flagged Policy A LLM-review handling, confirm that choice is
+consistent so it does not surface as a procedural risk. Verify the per-paper review count and policy
+labels against the current cycle rather than assuming the prior year's setup.
+
 ## Output format
 
 ```text

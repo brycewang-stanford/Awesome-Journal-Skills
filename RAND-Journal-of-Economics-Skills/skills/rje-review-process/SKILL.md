@@ -26,6 +26,36 @@ RJE uses an **editor-screened, then two-anonymous-referee** model (source: rje.o
 - **Respect for the hard page caps** (40/50 pp) — an overlong submission signals undisciplined exposition to a screening Editor.
 - A cover letter that names the market, the method, and the **headline result and welfare/policy lesson** in a few sentences.
 
+## Desk-reject risk table (calibrate before you submit)
+
+The editor screen is the first gate. Estimate your risk against the patterns that bounce IO manuscripts early.
+
+| Manuscript trait | Screen risk | Why the Board Editor reacts |
+|---|---|---|
+| First-order IO question on page 1 | Low | Matches the journal's narrow IO scope |
+| Method named, matched to question | Low | Signals a credible, refereeable design |
+| General-micro / macro framing | High | Wrong journal; not an IO advance |
+| Over-length, sprawling exposition | Medium-High | Page caps are hard; signals undisciplined writing |
+| Welfare/policy lesson buried in conclusion | Medium | IO contribution not legible at the screen |
+| Thin or contested identification | Medium | A referee will catch it; Editor may pre-empt |
+
+## Worked vignette: anticipating the screen on an auction paper
+
+Suppose you submit a structural auction article estimating bidder valuations in timber auctions and inferring the revenue effect of a reserve-price change. Reading as the screening Editor would:
+
+- **IO hook**: the opening must name the market (timber procurement auctions), the firms (bidders, the seller), and the policy question (optimal reserve price) — not lead with the estimation method.
+- **Method match**: a first-price-auction model mapping bids to the value distribution through equilibrium FOCs, with the information paradigm stated (private vs common values) — a credible, refereeable design.
+- **Stake on page 1**: the headline revenue/welfare consequence of the reserve change stated up front, not deferred.
+- **Cover letter**: three sentences naming the market, the structural method, the headline result (illustratively, an optimal reserve raises seller revenue ~3%), and the auction-design lesson.
+
+Framed this way, desk-reject risk is low; the same content with a methods-first opening and a buried policy lesson invites an early bounce.
+
+## Referee and editor expectations once past the screen
+
+- The two anonymous referees apply IO field norms: they probe identification of structural primitives, conduct assumptions, and counterfactual credibility.
+- The handling Editor synthesizes the reports and weights them — the decision letter, not any single report, is the binding document for any revision.
+- Anonymity of referees to authors is confirmed; whether author identity is concealed from referees is unconfirmed — confirm against the journal's current author guidelines rather than assuming double-blind.
+
 ## Anti-patterns
 
 - Treating RJE like a general-interest journal and burying the IO hook

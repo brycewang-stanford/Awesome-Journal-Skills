@@ -1,6 +1,6 @@
 ---
 name: iclr-camera-ready
-description: Use when preparing an accepted ICLR paper for camera-ready submission, OpenReview metadata, poster instructions, slide deck, project page, video, and publication logistics.
+description: Use when preparing an accepted ICLR paper for camera-ready submission, OpenReview metadata, poster instructions, slide deck, project page, video, and publication logistics. Use when de-anonymizing the final PDF, folding in promised discussion-period fixes, confirming the camera-ready page allowance for the current cycle, or assembling poster and presentation assets for ICLR's poster-heavy program.
 ---
 
 # ICLR Camera Ready
@@ -31,6 +31,33 @@ logistics are volatile and can differ from submission rules.
   and poster legibility.
 - Archive the reviewed submission, author discussion, final PDF, supplement, code release, and
   poster assets for later citation or journal extension work.
+
+## Promise-tracking from the public thread
+
+Because the review thread stays online next to the published paper, any reader can check whether you
+delivered what you committed to during discussion. Build the camera-ready from that thread.
+
+| Discussion-period promise | Camera-ready action | Reader check |
+| --- | --- | --- |
+| "Add the compute-matched control" | Insert and reference the table | Compare thread to final PDF |
+| "Clarify the failed setting" | Add a limitations paragraph naming it | Search the PDF for the setting |
+| "Code will be released" | Swap anonymous link for a public repo | Click the link |
+| "Fix baseline X description" | Correct it and cite the source | Read the paragraph |
+
+## Worked vignette
+
+A diffusion-model paper is accepted as a poster. During discussion the authors promised to release
+sampling code and to soften an overclaim about out-of-distribution generalization. For camera-ready
+they de-anonymize, swap the anonymous repo for a public one with a frozen release tag, scope the OOD
+claim to the tested shift types, and add a TL;DR. They keep the scientific claims identical to the
+reviewed version so the meta-review still matches, and reuse the strongest ablation figure on the
+poster with colorblind-safe colors.
+
+## Reviewer-pushback patterns to close out
+
+- "Accepted claim is broader than the evidence." Narrow the wording to the reviewed scope; do not
+  let acceptance license a stronger headline than the reviewers saw.
+- "Figures are unreadable on the poster." Re-export at poster scale and enlarge labels before upload.
 
 ## Output format
 

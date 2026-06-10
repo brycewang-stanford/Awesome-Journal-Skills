@@ -1,6 +1,6 @@
 ---
 name: iclr-review-process
-description: Use when explaining or planning around the ICLR review process, including OpenReview public review, AC/SAC roles, reviewer questions, discussion, revisions, final recommendations, and ethics escalation.
+description: Use when explaining or planning around the ICLR review process, including OpenReview public review, AC/SAC roles, reviewer questions, discussion, revisions, final recommendations, and ethics escalation. Use when deciding whether to reply publicly or privately, how a permanently visible review thread shapes strategy, when to upload an allowed revision, or when to escalate a defective review to the AC for the current cycle.
 ---
 
 # ICLR Review Process
@@ -29,6 +29,33 @@ Author Guide before advising on timelines, visibility, or revision permissions.
 - Keep public comments short, factual, and civil; do not accuse reviewers publicly.
 - Use official confidential paths for abusive reviews, severe review defects, conflicts, or suspected
   integrity issues.
+
+## How public reviews change strategy
+
+ICLR pioneered fully open review: submissions, reviews, scores, author responses, and final
+decisions remain on OpenReview permanently, and community members may post comments. This visibility
+changes the calculus at every stage.
+
+| Visibility property | Strategic consequence | Failure mode it punishes |
+| --- | --- | --- |
+| Reviews are public forever | Reply as if future citers will read it | Defensive or rude rebuttals |
+| Scores are visible | Address the objection behind the score, not the digit | Score-haggling that clutters the thread |
+| Community can comment | A "this is just X" post can appear | Weak novelty framing left unguarded |
+| Decisions are archived | The meta-review must match your final PDF | Quietly changing claims after acceptance |
+
+## Worked vignette
+
+A submission on an alignment objective gets two borderline reviews and one negative. Instead of
+arguing all three, the authors identify the one concern the AC will weigh: whether the objective
+generalizes beyond the tuned prompt set. They post a public reply with a held-out-prompt table and
+upload an allowed revision. One reviewer's updated, still-public review raises the score, and the
+AC's meta-review cites the resolved concern.
+
+## Reviewer-pushback patterns
+
+- "Reviewer is hostile in public." Stay factual; flag genuine abuse confidentially to the AC.
+- "Revision not allowed yet." Check the current cycle's upload window before promising a new PDF.
+- "Score did not move." A fixed score can still accept if the AC sees the core objection resolved.
 
 ## Output format
 

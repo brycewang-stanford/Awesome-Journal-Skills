@@ -1,6 +1,6 @@
 ---
 name: psci-review-process
-description: Use to understand how Psychological Science evaluates a manuscript — anonymized peer review, editorial weighting of robustness, transparency, and preregistration quality, and the Registered Reports route. Sets expectations and shapes the paper to survive review; it does not contact editors.
+description: Use when you need to understand how Psychological Science evaluates a manuscript — anonymized peer review, editorial weighting of robustness, transparency, and preregistration quality, desk-reject and decline-without-review patterns, and the Registered Reports route. Use when stress-testing a paper before submission or interpreting a decision letter. Sets expectations and shapes the paper to survive review; it does not contact editors.
 ---
 
 # Review Process (psci-review-process)
@@ -42,6 +42,40 @@ powered**, and **transparent**. Knowing this lets you pre-empt the common reject
 - Disclose fully and share data/materials (or justify exemptions) — credibility signals matter here.
 - Separate confirmatory from exploratory analyses honestly.
 - Fit the format — reviewers notice when a paper fights the word limit.
+
+## Desk-reject and decline-without-review patterns
+
+The tight format and credibility screen mean many manuscripts never reach external review. Confirm
+current categories and limits against the journal's submission guidelines, but recognize these shapes:
+
+| Pattern an editor sees | Likely outcome | Pre-empt it by |
+|------------------------|----------------|----------------|
+| Surprising effect, single small study, no preregistration | declined or RR suggestion | add internal replication; preregister; report power |
+| Narrow-paradigm result, no broad-relevance argument | desk reject (fit) | state who outside the subarea inherits the claim |
+| "Data available on request," no DOIs | returned for compliance | deposit with persistent IDs before submitting |
+| Over the word format, exhibits dumped at the end | returned to author | design to the format; embed exhibits |
+| p-values and stars, no effect sizes/CIs | thin-evidence flag | estimation-first reporting |
+
+## Worked micro-example (illustrative triage)
+
+```
+Manuscript: two preregistered attention studies (N = 240; N = 300),
+            open data + materials with DOIs, effect sizes + CIs.
+Editor read: impact (load-bearing premise), breadth (clinical inheritance),
+            robustness (internal replication), transparency (graded — strong).
+Likely route: external review, probable R&R for added robustness/disclosure.
+Counter-case: same finding, one N = 45 study, no prereg, request-only data
+            → likely declined without full review.
+```
+
+## How reviewers weigh the evidence (calibration anchors)
+
+- A powered internal replication is the single strongest signal you can send; it converts "interesting
+  but fragile" into "credible."
+- Transparency is graded, not pass/fail — a candid exemption with an access path reads better than
+  silent opacity. Preregistration *quality* (specific, dated, followed) matters more than its presence.
+- Registered Reports are the venue's structural answer to publication bias; choosing the route after
+  data exist defeats its purpose and reviewers will say so.
 
 ## Anti-patterns
 

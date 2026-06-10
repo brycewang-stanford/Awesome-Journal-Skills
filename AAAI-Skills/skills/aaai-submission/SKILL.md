@@ -38,6 +38,25 @@ author policies before giving deadline-ready advice.
 - Web pointers to mutable supplementary material.
 - Policy-violating LLM-generated text, hallucinated references, or plagiarism.
 
+## Summary-reject screen
+
+AAAI's large reviewer pool and high volume mean a desk-level or Phase-1 cut is the most likely way to
+lose, so screen for the mechanical failures first.
+
+| Check | Fast-fail trigger | Where it bites |
+| --- | --- | --- |
+| Page limit | technical content over the cap | desk return |
+| Anonymity | author name in PDF, code, or metadata | policy reject |
+| Checklist | missing or contradictory | Phase-1 distrust |
+| Dual submission | concurrent archival venue | ethics reject |
+
+## Worked vignette
+
+A robotics-learning team has 7 strong technical pages but left an acknowledgments line and a GitHub
+URL with their lab name in the supplement. The audit flags anonymity as the highest summary-reject
+risk: the fix order is strip the acknowledgment, replace the link with an anonymous archive, scrub
+ZIP metadata, then re-export and re-run the anonymity sweep before the paper deadline.
+
 ## Output format
 
 ```text

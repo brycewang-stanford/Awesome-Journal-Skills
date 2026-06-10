@@ -1,6 +1,6 @@
 ---
 name: iclr-supplementary
-description: Use when organizing ICLR appendices, supplementary files, anonymous code/data, revised PDFs, private links, and discussion-period updates under OpenReview rules.
+description: Use when organizing ICLR appendices, supplementary files, anonymous code/data, revised PDFs, private links, and discussion-period updates under OpenReview rules. Use when deciding what stays in the main text versus the appendix, how to label a discussion-period revision so reviewers find changes fast, or how to package anonymous artifacts that remain part of the permanent public record after acceptance.
 ---
 
 # ICLR Supplementary
@@ -28,6 +28,33 @@ core argument outside the main text.
 - Make supplementary filenames descriptive but neutral.
 - If code cannot be released, state the legal or privacy constraint and provide a smaller
   reproducibility substitute.
+
+## Main-text versus appendix placement
+
+ICLR's single-track format means the main PDF carries the argument and appendices come after
+references with generous room. The risk is burying decisive evidence where a time-pressed reviewer
+never looks, while padding the appendix with material that proves nothing.
+
+| Content | Belongs in | Why |
+| --- | --- | --- |
+| Central claim and its key result | Main text | Reviewers may not open the appendix |
+| Full proof / extended derivation | Appendix | Needed for rigor, not for the headline |
+| Hyperparameters, model/dataset cards | Appendix | Reference material, not argument |
+| Code, logs, large tables, checkpoints | Supplementary ZIP | Too big or interactive for the PDF |
+| Decisive ablation a claim depends on | Main text | Moving it weakens the narrative |
+
+## Worked vignette
+
+A generative-model paper hides its only fairness-of-comparison ablation in Appendix G, so a reviewer
+concludes the headline gain is unsupported. The fix: promote a compact version into the main text
+near the claim, leave the full grid in the appendix, and add an appendix map. During discussion the
+authors upload a revision and label the changelog so the relocation is obvious.
+
+## Reviewer-pushback patterns
+
+- "Key evidence is buried." Promote it; an appendix map is not a substitute for main-text placement.
+- "Cannot tell what changed in the revision." Add a dated changelog at the top of the revised PDF.
+- "Supplement leaks identity." Re-check file paths, license headers, and remotes before upload.
 
 ## Output format
 

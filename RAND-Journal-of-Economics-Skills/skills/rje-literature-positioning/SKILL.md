@@ -30,6 +30,35 @@ For each relevant strand, name the **closest prior articles**, state what they e
 - Reference list alphabetical, unnumbered, **no issue numbers** in journal citations.
 - Avoid numbered or footnote-style citations.
 
+## Strand-targeting grid (find the conversation your article must enter)
+
+Pick the strand your contribution actually touches, then identify the anchor literature referees will expect you to engage. Engaging the wrong strand reads as not knowing the field.
+
+| Your object | IO strand to engage | What referees expect you to cite |
+|---|---|---|
+| Estimated demand elasticities | Discrete-choice / random-coefficients demand | The BLP lineage and its differentiation-instrument descendants |
+| Markups / market power | Conduct, pass-through, the production-function markup debate | Both the structural-IO and the recent markup-measurement strands |
+| Entry / market structure | Static and dynamic entry games | The entry-game and dynamic-oligopoly estimation lineage |
+| Merger effects | Merger simulation and retrospectives | Both the simulation method and the ex-post retrospective evidence |
+| Platform / two-sided pricing | Two-sided markets and network effects | The platform-competition and attention-market literatures |
+| Vertical contracts | Vertical relations, foreclosure, bargaining | The vertical-restraints and Nash-in-Nash bargaining strands |
+
+## Worked vignette: positioning a platform-pricing article
+
+Suppose your article estimates how a food-delivery platform's commission structure affects restaurant entry and consumer prices. Positioning moves, not a survey:
+
+- **Strand**: two-sided markets — you extend platform-pricing theory to an empirical setting with estimated cross-side externalities.
+- **Closest prior work**: name the two or three articles that estimated platform demand or set platform-pricing theory, state what each established (e.g., the cross-group externality logic, or prior empirical platform demand estimates), and pinpoint the gap.
+- **Gap closed (one sentence)**: "Prior work characterized optimal platform pricing theoretically or estimated one side's demand; we jointly estimate both sides' responses and quantify the welfare split of a commission change."
+- **Contribution type**: substantive-empirical with a method wrinkle (joint two-sided estimation), not a pure theory result.
+
+## Referee-pushback patterns and the venue fix
+
+- **"You cite the canon but miss the current frontier."** Fix: add the most recent IO articles on your exact mechanism; referees are insiders who track the working-paper frontier (NBER IO, antitrust-relevant work).
+- **"Your 'gap' was already closed by [recent article]."** Fix: read forward-citations of your anchor papers; restate the gap as the residual your article uniquely closes.
+- **"This reads as a survey, not a stake."** Fix: convert each paragraph from "X did A, Y did B" into "relative to X and Y, this article adds Z."
+- **"You claim novelty against a literature you do not engage."** Fix: cite and characterize the closest competitor honestly, then differentiate on method, market, or mechanism.
+
 ## Anti-patterns
 
 - A chronological survey with no claim about your marginal contribution

@@ -1,6 +1,6 @@
 ---
 name: jmsc-fit-positioning
-description: Use to judge whether a manuscript fits 《管理科学学报》 (Journal of Management Sciences in China) — a 数理/定量 (mathematical / quantitative) management-science journal. If the deliverable is regression coefficients + policy talk, or survey-SEM, it is OFF-FIT — re-route to 管理世界 / 南开管理评论 / 金融研究. Use before drafting.
+description: Use when judging whether a manuscript fits 《管理科学学报》 (Journal of Management Sciences in China) — a 数理/定量 (mathematical / quantitative) management-science journal whose deliverable is a model plus provable properties plus an algorithm. Use when the draft is regression coefficients + policy talk, or survey-SEM, to detect OFF-FIT and re-route to 管理世界 / 南开管理评论 / 金融研究. Use before drafting and whenever a reviewer asks whether the contribution is in method or in conclusion.
 ---
 
 # 匹配度与赛道定位（jmsc-fit-positioning）
@@ -52,6 +52,32 @@ description: Use to judge whether a manuscript fits 《管理科学学报》 (Jo
 - 把回归稿换个标题、加几行符号就当数理稿投
 - 用"管理科学"这个大词论证对口（话题对不代表形态对）
 - 行为运作稿只有实验、没有刻画偏差的模型
+
+## 本刊匹配度审稿期待与改投模式
+
+《管理科学学报》的桌拒（desk reject）相当一部分源于赛道错配。编辑看的是交付物形态而非话题热度。下表把本刊常见"形态不对口"信号与正确去向对齐：
+
+| 错配信号 | 实质 | 正确去向 |
+|----------|------|----------|
+| 核心结论是 β 显著 + 政策建议 | 经验因果稿，无可分析模型 | 《管理世界》/《经济研究》 |
+| 量表+SEM+理论假设检验 | 理论建构稿 | 《南开管理评论》 |
+| 资产定价/市场异象纯实证 | 金融实证稿 | 《金融研究》 |
+| 纯案例/扎根理论 | 质性研究 | 《管理世界》/《南开管理评论》 |
+| "模型"实为 SEM 路径图 | 无决策变量/约束/目标 | 先改造为优化/博弈模型再投本刊 |
+
+> 锚点：本刊已刊论文去掉经验数据后，仍剩"模型 + 可证明性质 + 算法/数值"的硬核；经验数据只是验证手段之一，不是论文主体。具体栏目定位以编辑部最新办刊说明为准。
+
+## 微型走查：一篇"伪装数理稿"的判别
+
+虚构稿件《数字平台补贴对商户留存的影响》。按"去掉数据后剩什么"决策规则走一遍（示意仅作演示）：
+
+- **去掉经验数据后剩什么**：剩一个 DID 识别框架 + "补贴提升留存率约 8 个百分点"的因果断言 + "平台应优化补贴策略"的建议。没有决策变量、约束、目标函数，也没有可证明的性质。
+- **OFF-FIT 信号自检**：核心结论是 β 显著（命中）；最重要的图是平行趋势/事件研究图而非性质曲线（命中）；贡献段谈政策启示而非新模型（命中）。三项命中。
+- **匹配度**：低。判为经验因果稿。
+- **改投建议**：转《管理世界》或《经济研究》。
+- **若坚持投本刊的改造路径**：把"补贴影响留存"重述为平台-商户的动态博弈——平台选补贴率（决策变量）max 留存价值（目标）s.t. 预算约束，证明最优补贴的阈值结构，再用数据验证。改造后才进入本刊主线，移交 jmsc-problem-formulation。
+
+审稿人若辩称"我们也用了博弈论框架引用"，回应判据应回到形态：引用博弈论 ≠ 建了可求解的博弈模型；只有当稿件真有决策变量、均衡刻画与证明时才算数理形态。
 
 ## 输出格式
 

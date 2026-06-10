@@ -1,6 +1,6 @@
 ---
 name: aaai-author-response
-description: Use when drafting AAAI rebuttals under the single short author-response limit, no-URL rule, no-new-results guidance, AI-review handling, and two-phase review process.
+description: Use when drafting an AAAI author response (rebuttal) under the single short character-limited author-feedback window, the no-URL rule, no-new-results guidance, AI-generated-review handling, and the AAAI two-phase review process where Phase-2 papers receive one feedback round before SPC/AC discussion.
 ---
 
 # AAAI Author Response
@@ -19,6 +19,34 @@ rebuttal FAQ before drafting.
   state why requested experiments are not needed.
 - If supplementary files were missing or corrupted, acknowledge the limitation; AAAI-26 did not
   permit updates at rebuttal time.
+
+## What moves an AAAI score
+
+Author feedback at AAAI is read by human reviewers and weighed in SPC/AC discussion, not by the
+non-decisional AI review. With one short response and no second round, spend every character on the
+concern most likely to flip a borderline decision. Triage each reviewer point into a lane:
+
+- Factual error that, if uncorrected, sinks the paper: answer first, cite the submitted anchor.
+- Misread of an existing result: clarify and point to the table, theorem, or appendix line.
+- Request for a new experiment: explain why submitted evidence covers it, or scope the claim.
+- Taste or framing complaint: usually skip; a defensive paragraph rarely moves the score.
+
+## Reviewer-pushback patterns and the AAAI fix
+
+- "No comparison to method X." Fix: name the submitted table row that includes X, or argue X is out
+  of scope; do not promise a fresh run that rules forbid.
+- "Results may not hold beyond one benchmark." Fix: cite the seed or split variation in the
+  supplement; if absent, narrow the claim instead.
+- "The AI-generated review flags a missing baseline." Fix: correct it calmly with a submitted
+  pointer; the AI review is advisory, so a one-line factual rebuttal suffices.
+
+## Worked vignette
+
+A multi-agent-coordination paper gets two borderline scores. Reviewer 1 wrongly says the protocol
+ignores communication cost; Reviewer 2 asks for a human-baseline study. Triage: R1 is decision-
+critical, so sentence one corrects it and cites Section 4's cost ledger; R2's request is out of
+scope, so one sentence notes the simulator already bounds it and limits the claim to simulated
+agents. Tone and the AI review's nit are cut to stay under budget.
 
 ## Compression pattern
 

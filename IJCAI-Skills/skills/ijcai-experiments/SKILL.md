@@ -24,6 +24,42 @@ reproducibility.
 - Keep enough details in the main paper for credible reproduction even if reviewers ignore
   the supplementary material.
 
+## What IJCAI reviewers score the evidence on
+
+IJCAI draws reviewers from symbolic AI, search, planning, constraint satisfaction, KR,
+multi-agent systems, game theory, ML, NLP, and vision, so the experimental section must read
+across subcommunities. Calibrate evidence to the claim type rather than copying an ML-only
+template.
+
+| Contribution type | Decisive evidence | Common reject trigger |
+| --- | --- | --- |
+| Search / planning | Coverage, anytime quality, expansion counts, time/memory cutoffs, per-domain breakdown | Single suite, no domain table, missing strong planner baseline |
+| Constraint / SAT | Cactus plots, instances within timeout, solver versions | No virtual-best comparison |
+| Multi-agent / game theory | Welfare/equilibrium metrics, agent-count scaling, seeds | Claims hold at one population size only |
+| Learning method | Strong current baselines, core-mechanism ablations, variance | Cherry-picked seeds, weak baselines |
+| Theory-plus-experiment | Experiments confirming the proven bound | Empirics outside the theorem's regime |
+
+## Worked vignette: a heuristic-search paper
+
+A submission proposes a learned heuristic for cost-optimal classical planning and reports a
+single aggregate "12% fewer expansions" number. Apply the decision rules:
+
+1. Evidence and baseline: replace the single mean with a per-domain coverage and expansion
+   table, and add a strong admissible-heuristic baseline that shows optimality is preserved.
+2. Core ablation: isolate the learned component from the search framework so the gain is not
+   credited to engineering, and report multiple training seeds since the heuristic is stochastic.
+3. Compute: state the planner, time and memory limits, and machine, since coverage is
+   meaningless without a stated timeout.
+
+## Reviewer pushback and the venue-specific fix
+
+- "Only one benchmark family." Add a second problem class or justify the scope; an IJCAI
+  cross-section reviewer distrusts single-suite claims.
+- "Baseline is outdated." Cite and run a current top method; the broad PC notices stale
+  comparisons.
+- "Gains are within noise." Provide repeats, paired tests, or confidence intervals before the
+  response, since no new results may be added later.
+
 ## Output format
 
 ```text

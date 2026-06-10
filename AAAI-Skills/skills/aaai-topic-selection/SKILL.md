@@ -1,6 +1,6 @@
 ---
 name: aaai-topic-selection
-description: Use when deciding whether a project is a strong AAAI submission, should be reframed for AAAI, or should be routed to IJCAI, NeurIPS, ICML, ICLR, AISTATS, UAI, ACL, CVPR, KDD, CHI, or another venue.
+description: Use when deciding whether a project is a strong AAAI submission across its broad AI scope, should be reframed or routed to a dedicated track such as AI for Social Impact or AI Alignment, or should instead go to IJCAI, NeurIPS, ICML, ICLR, AISTATS, UAI, ACL, CVPR, KDD, CHI, ICRA, or another specialist venue.
 ---
 
 # AAAI Topic Selection
@@ -34,6 +34,26 @@ strong submission should make an AI contribution that is intelligible beyond a n
 - Prefer AISTATS or UAI for statistics, uncertainty, causal, or probabilistic emphasis.
 - Prefer ACL, CVPR, KDD, CHI, ICRA, or systems venues when the contribution is domain-specific.
 - Prefer a workshop if evidence is preliminary but the idea is timely.
+
+## Fit-versus-route table
+
+AAAI's breadth is an asset only when the contribution reads as general AI, not a narrow benchmark
+result. Use the dominant signal to decide between AAAI and a specialist venue.
+
+| Project shape | AAAI fit | Better route if not |
+| --- | --- | --- |
+| New planning or KR mechanism | strong, core AAAI turf | UAI for pure uncertainty |
+| ML method with broad insight | plausible | NeurIPS/ICML for deep theory |
+| Domain deployment, thin AI | weak | KDD, CHI, or ICRA |
+| Stakeholder-facing impact work | strong via AI for Social Impact | domain policy venue |
+
+## Worked vignette
+
+A team has a fairness-aware allocation system for a city service. The AI insight is a constraint
+formulation, and the stakes are social. Walking the signals: the contribution generalizes beyond the
+one city (strong signal) and is policy-sensitive (needs stakeholder evidence). Verdict: AAAI fit is
+strong, routed to AI for Social Impact rather than the Main Track, with harm and stakeholder analysis
+treated as required evidence, not an afterthought.
 
 ## Output format
 

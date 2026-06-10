@@ -47,6 +47,45 @@ Prepare this early, not at acceptance.
   state exactly **what** is withheld, **why**, and **how** others can access or approximate it
   (application path, synthetic data, code release). Unjustified opacity counts against the paper.
 
+## Research Transparency Statement — worked draft (illustrative)
+
+A model statement for the two-study attention package, placed verbatim between Introduction and
+Methods. Confirm the exact required headings against the journal's current submission guidelines.
+
+```
+Research Transparency Statement
+Data:        All trial-level data for Studies 1–2 are available at
+             OSF (DOI 10.XXXX/osf.io/abcde), with a codebook.
+Materials:   Stimuli, instructions, and the induction script are deposited
+             (DOI 10.XXXX/osf.io/fghij).
+Analysis:    Analysis scripts (R) reproduce all reported values in a fresh
+             session; a run log is included (DOI 10.XXXX/osf.io/klmno).
+Preregistration: Study 1 (aspredicted.org/XXXX) and Study 2
+             (osf.io/pqrst) were preregistered before data collection;
+             one Study-1 anxiety analysis is reported as exploratory.
+Exemptions:  None. (If applicable: state what is withheld, why, and the
+             access path.)
+```
+
+## Transparency-readiness decision table
+
+| Situation | Editorial read post-2024 | What to deposit / state |
+|-----------|--------------------------|-------------------------|
+| Fully shareable data + materials | expected baseline | DOIs for data, materials, scripts + run log |
+| Sensitive human data | exemption considered if justified | synthetic/aggregated data + IRB-gated access path |
+| Proprietary stimuli/instrument | partial exemption | share what license allows; cite source; share code |
+| Secondary/third-party dataset | acceptable with provenance | link source, share derivation scripts, document version |
+| "Available on request" | reads as non-compliant | replace with a persistent DOI before submission |
+
+## Reviewer / editor pushback and the venue fix
+
+- "No DOI, just a Dropbox link" → swap every transient link for a persistent identifier (OSF,
+  Dataverse, Zenodo) before the masked submission goes out.
+- "Statement says open but the repo is empty" → deposit first, draft the statement from the live DOIs.
+- "Preregistration deviates from the analysis and you didn't flag it" → add a deviations subsection;
+  label the post hoc analysis exploratory; keep confirmatory/exploratory consistent end to end.
+- "OSF page reveals author identity during masked review" → use the anonymized view link.
+
 ## Anti-patterns
 
 - Treating open data/materials as optional or "available on request"

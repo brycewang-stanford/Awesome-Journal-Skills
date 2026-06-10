@@ -40,6 +40,27 @@ Treat related submissions by overlapping author sets as prior work. If a reasona
 expect the related paper in the related-work section, cite it anonymously, explain the difference,
 and include the anonymized PDF in supplementary material.
 
+## Pre-deadline audit sequence
+
+Run these in order, because each later check assumes the earlier one passed.
+
+| Order | Check | Pass condition |
+| --- | --- | --- |
+| 1 | Track | Main research paper, not Position Papers or workshop |
+| 2 | LaTeX style | Current ICML template, unmodified margins |
+| 3 | Page limit | Body within the 2026 8-page limit, references and appendices after |
+| 4 | Anonymity | No author, repo, path, grant, or link leak in PDF or supplement |
+| 5 | OpenReview fields | Code URL, impact statement, policy labels complete |
+| 6 | Dual submission | No archival overlap at the full-paper deadline |
+
+## Worked vignette: auditing the optimizer submission
+
+The adaptive-optimizer paper passes track and style, but the body runs long once the proof sketch is
+inlined; the fix is moving the full proof to the same-PDF appendix and keeping only the theorem in the
+body. The anonymous code ZIP still contains a cluster username in a launch script, a desk-reject risk,
+so it is scrubbed before upload. Re-verify the page limit, file-size cap, and policy labels against
+the current CFP.
+
 ## Output format
 
 ```text

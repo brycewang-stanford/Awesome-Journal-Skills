@@ -37,6 +37,47 @@ making a high-impact argument in **very few words**, in **APA 7th-edition** styl
 5. **APA 7th edition.** Headings, statistics reporting (with effect sizes + CIs), bias-free language,
    and author-date citations; manage references with a tool and prune to the essentials.
 
+## Worked micro-example — a 150-word structured abstract (illustrative)
+
+For the two-study attention package, every clause earns its place; sample sizes, populations, and a
+limitation are non-negotiable. Confirm the current abstract length against the journal's submission
+guidelines.
+
+```
+[Question] Does a brief mindfulness induction reduce attentional capture by
+emotional distractors? [What we did] Two preregistered experiments tested a
+single induction against a control on a screen-based capture task.
+[Samples] Study 1: 240 undergraduates; Study 2: 300 online adults.
+[Result] The induction reduced capture cost (Study 1 d = 0.34, 95% CI
+[0.08, 0.59]; Study 2 directly replicated, d = 0.29 [0.06, 0.51]).
+[Limitation] Effects are limited to brief laboratory inductions in healthy
+adults and may not extend to clinical anxiety. [≈ 95 words; expand to ~150.]
+```
+
+## Word-budget allocation (illustrative)
+
+| Section | Counts toward 2,000? | Suggested share | Note |
+|---------|----------------------|-----------------|------|
+| Introduction | yes | ~55–60% | question, gap, contribution by paragraph two |
+| Discussion | yes | ~35–40% | meaning + breadth first, limitations brief |
+| Footnotes / acks / appendices | yes | keep minimal | they eat the same budget |
+| Method + Results | no (≤ ~2,500) | as needed | procedural detail lives here, not the Intro |
+| Supplemental online material | no | unlimited | robustness, full models, extra studies |
+
+## Cutting-to-format playbook
+
+- Move every robustness grid, full model table, and extra study to supplemental; cite in one sentence.
+- Convert background prose into a single anchor citation (handoff to `psci-literature-positioning`).
+- Replace dichotomous "significant" sentences with estimation phrasing — often shorter *and* more
+  venue-appropriate.
+- If the Discussion restates Results, delete the restatement; lead with interpretation and breadth.
+
+## Prose-stage reviewer pushback and the venue fix
+
+- "Reads like a review article" → cut chronological background; state the gap in two or three sentences.
+- "Abstract missing limitations" → add one design-limitation clause; this venue expects it.
+- "Stats without effect sizes" → report d/CI inline even when prose is tight; it is non-negotiable here.
+
 ## Anti-patterns
 
 - A long literature review or theory section that blows the 2,000-word budget

@@ -56,6 +56,36 @@ official page first.
 - [ ] Sample-size justification (power analysis if appropriate)
 - [ ] Full disclosure of exclusions, conditions, and measures
 
+## Worked micro-example — preflight verdict (illustrative)
+
+Running the two-study attention package through the gate the night before upload:
+
+```
+Format:     Intro 1,180 + Discussion 760 + acks 40 = 1,980 / 2,000 → PASS (margin: 20)
+Method+Results: 2,310 words → PASS (readable, < ~2,500)
+Abstract:   148 words; states N = 240 and N = 300, undergraduate + online
+            adult samples, and the single-culture limitation → PASS
+Exhibits:   2 figures (dot + 95% CI), embedded near first mention, APA 7th → PASS
+Anonymize:  no names; OSF anonymized-view links; PDF metadata stripped → PASS
+Open sci:   data + materials + scripts each have a DOI; Transparency
+            Statement sits between Intro and Methods → PASS
+Stats:      every primary result carries d and a 95% CI; SESOI-based power → PASS
+Verdict:    ready to upload to Manuscript Central.
+```
+
+## Last-mile failure modes that trigger a return
+
+| Failure | Caught by | Quick fix |
+|---------|-----------|-----------|
+| Combined Intro+Discussion 2,150 words | word-format check | move a Discussion paragraph to supplement; tighten |
+| Abstract 165 words, no limitation stated | abstract check | cut to 150; add one design-limitation clause |
+| Exhibits collected at end | placement check | embed each near its first discussion |
+| OSF link shows author name | anonymization check | switch to anonymized view before upload |
+| "Data on request" instead of a DOI | open-science check | deposit and mint a persistent identifier |
+
+> Volatile specifics (exact word counts, abstract length, accepted categories, current editor) change.
+> Re-confirm every number above against the journal's current submission guidelines before relying on it.
+
 ## Anti-patterns
 
 - Submitting over the 2,000-word combined budget

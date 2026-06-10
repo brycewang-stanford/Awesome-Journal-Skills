@@ -1,6 +1,6 @@
 ---
 name: icml-workflow
-description: Use when planning an ICML manuscript workflow from topic selection through drafting, submission, review, author response, camera-ready, PMLR publication, public artifacts, and rerouting.
+description: Use when planning or sequencing an ICML manuscript workflow end to end - from topic selection and drafting through OpenReview submission, double-blind review, author response, camera-ready, PMLR publication, public original-submission release, and rerouting decisions. Use when you need the next ICML skill, the official page to reopen, or the blocking gap for the current stage.
 ---
 
 # ICML Workflow
@@ -28,6 +28,34 @@ evidence, artifact, and public-record risks visible.
   original-submission release as first-class workflow items.
 - Decide early whether a paper is really an ICML main-track paper or better suited to a position
   paper, workshop, NeurIPS, ICLR, AISTATS, TMLR, JMLR, or a domain venue.
+
+## Deadline cadence (verify against the current CFP)
+
+ICML runs an abstract deadline before the full-paper deadline, and the 2026 cycle freezes the author
+list at the abstract stage. Treat the cadence as: abstract and author list locked, then full PDF and
+supplement, then reviews, then the response window, then one discussion round, then decisions, then
+camera-ready and the PMLR-bound proceedings. Never hard-code the exact dates here; reopen the current
+year's CFP because they move annually.
+
+## Stage-to-risk router
+
+| Stage | Dominant ICML risk | First skill to open |
+| --- | --- | --- |
+| Fit | Wrong track (main vs Position Papers) | `icml-topic-selection` |
+| Drafting | Claim outruns evidence in 8 pages | `icml-writing-style`, `icml-experiments` |
+| Pre-submission | Anonymity or page-limit desk reject | `icml-submission` |
+| Response | One-round rebuttal misallocated | `icml-author-response` |
+| Accepted | Public-record exposure on OpenReview | `icml-camera-ready` |
+
+## Worked routing pass
+
+A team has an adaptive-optimizer paper with a convergence proof and ImageNet-scale benchmarks. The
+router sends them first to topic selection (confirm main-track, not Position Papers), then to
+experiments and writing-style for the tuned-baseline and compute-disclosure gaps, then to submission
+for the OpenReview and format-checker audit. Each handoff records the official page to reopen so the
+plan never relies on last year's remembered rules. After decisions, an accepted paper flows to
+camera-ready with its public-record state in mind, while a rejected one loops back to topic selection
+or reroute, carrying the reviewer-quotable issue into the next venue choice.
 
 ## Output format
 

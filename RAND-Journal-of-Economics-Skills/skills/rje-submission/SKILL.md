@@ -45,6 +45,35 @@ description: Use when running the final pre-submission preflight for The RAND Jo
 - [ ] Conflict-of-interest / funding disclosures prepared
 - [ ] Confirmed not under review elsewhere
 
+## Page-budget allocation table (fit the IO content inside 50 pages)
+
+Structural IO articles run exhibit-heavy; sketch the page budget before finalizing exhibits.
+
+| Component | Typical share of main text | Triage rule |
+|---|---|---|
+| Intro + IO contribution | 4-6 pp | Lead; contribution legible by page 2 |
+| Model / identification | 8-12 pp | Keep derivations terse; long algebra to appendix |
+| Data + institutional setting | 4-6 pp | Enough to ground the market; tables compact |
+| Estimates + key exhibits | 8-10 pp | Headline params, one elasticity/markup, one counterfactual |
+| Robustness in main text | 2-4 pp | One decisive check only; battery to appendix |
+| Appendix + references | ≤10 pp | Full robustness, derivations, extra tables |
+
+## Worked vignette: a last-night preflight
+
+Suppose a structural demand-and-merger article sits at 43 main-text pages the night before submission — over the 40-page cap. Triage, do not delete:
+
+- Move the full random-coefficient table and two alternative-specification tables to the appendix; keep headline estimates and one elasticity matrix in the body.
+- Push the demand-derivation algebra and marginal-cost recovery to the appendix; leave the estimating equations and conduct assumption in the body.
+- Compress institutional background by citing prior market descriptions instead of re-narrating them.
+- Re-check: main text 39 pp, appendix + references 9 pp, total 48 pp; abstract 96 words; the $100 fee ready and non-refundable.
+
+## Referee and editor friction to pre-empt at submission
+
+- **A screening Editor cannot skim an over-length file.** Fix: enter the screen at or under 40/50 pp with the IO hook on page 1.
+- **Off-style citations read as careless.** Fix: confirm author-date with no page numbers and references with no issue numbers before upload.
+- **Supporting information may be declined.** Fix: keep decisive results in the article and appendix; justify anything attached and confirm hosting against the journal's current author guidelines.
+- **Fee specifics drift.** Fix: re-confirm the exact fee amount and refund terms on the current Wiley "For Authors" page before paying.
+
 ## Anti-patterns
 
 - Blowing the 40-page main-text cap and assuming "they count words" — they count **pages**

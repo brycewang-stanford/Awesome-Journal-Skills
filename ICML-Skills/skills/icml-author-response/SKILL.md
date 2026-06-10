@@ -1,6 +1,6 @@
 ---
 name: icml-author-response
-description: Use when drafting ICML rebuttals and reviewer-author discussion replies under OpenReview, double-blind constraints, one-round discussion expectations, and no revised-paper upload.
+description: Use when drafting ICML rebuttals and reviewer-author discussion replies under OpenReview double-blind constraints, where authors respond after initial reviews, reviewers may then have one additional discussion round, no revised paper can be uploaded during the period, and responses must stay anonymous. Use to triage objections by soundness, originality, significance, clarity, ethics, and reproducibility for the AC.
 ---
 
 # ICML Author Response
@@ -33,6 +33,26 @@ explain whether the rebuttal changed their final recommendation.
 3. State what will change in camera-ready only if the paper is accepted.
 4. Maintain a professional, concise tone.
 5. Avoid identity leakage, score arguments, and broad promises.
+
+## Objection-to-response routing
+
+ICML gives one response window plus one discussion round, so spend words on what an AC can quote, not
+on every minor note.
+
+| Reviewer objection | Best ICML response move |
+| --- | --- |
+| "Assumptions do not match the experiments" | Concede the regime, point to the in-regime figure, state the camera-ready clarification |
+| "Missing tuned baseline" | Supply a single decisive table row from a feasible run |
+| "Unclear novelty vs concurrent work" | Restate the one-line technical delta and the appendix PDF |
+| "Reproducibility unclear" | Cite the exact supplement command and seed |
+
+## Worked vignette: defending the optimizer paper
+
+Reviewer 2 says the convergence proof assumes bounded variance that ImageNet training violates. The
+strongest response opens with the concession, narrows the theoretical claim to the stated regime,
+adds a small plot showing the rate still tracks empirically where assumptions hold, and promises only
+a camera-ready wording fix. It does not argue the score or upload a revised PDF, both of which the
+ICML response model disallows.
 
 ## Output format
 

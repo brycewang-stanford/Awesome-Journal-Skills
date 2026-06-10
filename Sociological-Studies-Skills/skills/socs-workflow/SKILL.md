@@ -55,6 +55,37 @@ description: Use when deciding which socs-* sub-skill to invoke next, or when se
 - "文献全是近五年回归，没社会学经典" → `socs-theory-dialogue`
 - "读起来像政策文件" → `socs-style`
 
+## 路由走查示例（两种典型稿件，数字为示意）
+
+把路由表用在两份具体稿件上，演示如何按症状逐站派发：
+
+```
+稿件 A（定量·CFPS 流动人口子女教育）：
+  症状：有事件史回归结果，辍学风险约 1.8 倍（示意），但落点写成政策建议。
+  路由：
+    1) socs-fit-positioning  → 删政策测试：问题塌掉 → 先改造为社会学问题
+    2) socs-problematic      → 立"户籍墙的制度筛选"问题意识
+    3) socs-theory-dialogue  → 进入分层/机会结构脉络，修正"资源补偿论"
+    4) socs-quantitative     → 异质性按制度位置切，操作化户籍为制度身份
+    5) socs-mechanism-...    → 翻译成"筛选—固化—再生产"社会过程
+    6) socs-style            → 删政策腔结论
+    7) socs-abstract-keywords→ 命题前置摘要 ≤200 字
+    8) socs-submission       → 夹注/脚注/匿名 preflight
+
+稿件 B（定性·基层治理田野）：
+  症状：蹲点 11 个月（示意），故事生动但"没概念、没抓手"。
+  路由：
+    1) socs-fit-positioning  → 确认是社会学问题（治理实践，非政策评估）
+    2) socs-problematic      → 立"指标压力下的执行变形"问题
+    3) socs-qualitative      → 补编码透明、反身性、负面案例
+    4) socs-concept-building → 提炼「悬置式执行」概念（核心贡献）
+    5) socs-theory-dialogue  → 与街头官僚理论对话（修正/扩展）
+    6) socs-mechanism-...    → 写出"形式吸纳—实质延迟"机制
+    7) socs-style / abstract / submission → 收尾
+```
+
+二者共享同一骨架，但定量稿重"机制翻译 + 异质性"，定性稿重"概念提炼 + 可信度"。
+
 ## 与本仓库其它期刊包的差异（关键再路由）
 
 - **跨学科大命题**（制度/文明/治理层面的原创理论）→ 转 social-sciences-in-china（《中国社会科学》）

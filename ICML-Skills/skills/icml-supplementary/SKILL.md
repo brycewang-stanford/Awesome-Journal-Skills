@@ -26,6 +26,31 @@ in the main paper because reviewers may choose whether to inspect supplements.
 If an ICML submission cites another concurrent ICML submission by overlapping authors, include the
 anonymized PDF in supplementary material and explain the relationship in the main paper.
 
+## Placement decision table
+
+ICML reviewers may skip supplements, so misplacement is a real acceptance risk, not a formatting
+nit. Decide placement by whether a reviewer can judge the claim without the material.
+
+| Material | Needed to judge the claim? | Correct ICML home |
+| --- | --- | --- |
+| Headline benchmark and main ablation | Yes | Main 8-page body |
+| Full proof of a stated theorem | Reviewer may verify on request | Same-PDF appendix |
+| Extended hyperparameter grid, extra seeds | Supports but does not define | Same-PDF appendix |
+| Runnable code, environment, README | For reproducibility audit | Anonymized code/data supplement |
+| Overlapping-author concurrent paper | For dual-submission judgment | Supplementary manuscript |
+
+## Worked vignette: optimizer paper placement
+
+For an adaptive-step optimizer with a non-convex convergence theorem plus deep-learning benchmarks,
+the convergence theorem statement, one decisive benchmark, and the component ablation stay in the
+8-page body. The full proof, the step-size sensitivity sweep, and per-seed tables go to the same-PDF
+appendix. The training scripts and environment file go to the code/data supplement. Because accepted
+ICML papers can publish original supplementary material, scrub the code supplement of identity leaks
+and unreleasable data before upload. A common reject pattern is burying the only fair tuned baseline
+in the appendix where a heavily loaded reviewer never looks. When the appendix is unlimited, the
+temptation is to defer hard results; resist it, because at ICML the decisive evidence has to sit in
+the main body where the soundness judgment is actually formed.
+
 ## Output format
 
 ```text

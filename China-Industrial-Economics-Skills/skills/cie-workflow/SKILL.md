@@ -71,3 +71,35 @@ description: Use when deciding which cie-* sub-skill to invoke next, or when seq
 - **不要**跳过 `cie-fit-positioning` 就动笔——它最常救稿（避免投错门）
 - **不要**在识别策略未立住时就去美化表格、抠摘要
 - **不要**让 `cie-rebuttal` 在正文未修订前生成回复
+
+## 阶段健康度仪表盘（一稿一过）
+
+按本刊"实证工程化"分轴自检，任一轴亮红灯优先回到对应 cie-* skill，而非顺序往后推。
+
+```
+【对口度】高/中/低 → 红转 cie-fit-positioning
+【选题硬度】特征事实+干净冲击 → 弱转 cie-topic-selection
+【制度细节】文件/时点/名单可核 → 缺转 cie-institutional-background
+【识别洁净】平行趋势+安慰剂+交错稳健 → 缺转 cie-did-identification
+【机制成色】分渠道/调节(非三步中介) → 红转 cie-mechanism
+【异质性】≥3维+组间检验 → 薄转 cie-heterogeneity
+【稳健军备】度量/样本/识别/排除解释四块 → 缺转 cie-robustness
+【图表/政策/投稿】量级解读/可落地/页下注实引数据代码 → 缺转对应 skill
+【综合判定】可投 / 待修 <最弱环>
+```
+
+## 微型走查：一篇"智能制造试点 × 企业 TFP"稿件如何过流程
+
+示意稿件：以分批的"智能制造试点示范"为冲击，工企+上市公司样本。按路由顺序自检：`cie-fit-positioning`（政策准实验→留投）→ `cie-topic-selection`（补特征事实图）→ `cie-institutional-background`（分批列时点名单）→ `cie-did-identification`（交错 DID：Bacon+CS+事件研究图）→ `cie-mechanism`（弃三步中介，估 X→M）→ `cie-heterogeneity`（三维+组间检验）→ `cie-robustness`（剔同期样本、PSM-DID、TFP 多法）→ `cie-tables-figures` → `cie-policy-implication` → `cie-submission`。
+
+## 审稿人追问的路由映射
+
+- "TWFE 跑交错试点，负权重？" → `cie-did-identification`。
+- "机制是三步中介？M 内生？" → `cie-mechanism`（援引江艇 2022）。
+- "异质性只切东中西 / 再排除同期政策？" → `cie-heterogeneity` / `cie-robustness`。
+- 收到完整外审意见单 → `cie-rebuttal`（先改正文）。
+
+## 校准锚点
+
+- 本刊为月刊、双向匿名，审理与排队周期偏长；流程节奏以编辑部最新通知与官网《投稿（修改）指南》为准。
+- 上述阶段顺序是经验默认值而非硬性规定；识别先天受限的稿件可能在 `cie-topic-selection` 阶段即劝退或换设计。各 cie-* skill 内的数字阈值均为经验锚点，正式体例以编辑部最新稿约为准。

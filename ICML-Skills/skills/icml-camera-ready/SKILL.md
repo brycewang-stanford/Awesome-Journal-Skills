@@ -37,6 +37,27 @@ financial conflict-of-interest disclosure rule for relevant cases.
 6. Run the format checker and keep the successful code.
 7. Plan post-conference small corrections if needed.
 
+## Public-record exposure map
+
+What becomes visible on OpenReview for accepted ICML papers is broader than for many venues, so plan
+the deanonymization with that in mind.
+
+| Item | Visibility after acceptance | Action |
+| --- | --- | --- |
+| Original anonymous submission | Public | Ensure it still reads honestly next to the final paper |
+| Reviews, meta-review, rebuttal, discussion | Public | Keep rebuttal claims consistent with camera-ready edits |
+| Lay summary | Public-facing | Write for a non-specialist, avoid jargon |
+| Financial conflict disclosure | Required where relevant | Confirm and complete for the current cycle |
+
+## Worked vignette: shipping the optimizer paper
+
+The accepted optimizer paper moves all appendices into the single PDF, deanonymizes authors and
+funding, links the public code repository in the OpenReview code URL field, and writes a lay summary
+explaining "a faster training rule" without the convergence notation. The team runs the format
+checker and keeps the passing code, then double-checks that the rebuttal's promised in-regime plot
+actually appears, because both the rebuttal and the final paper are now public. Treat exact dates and
+page limits as annual; the 2026 baseline above should be re-verified against the current checklist.
+
 ## Output format
 
 ```text

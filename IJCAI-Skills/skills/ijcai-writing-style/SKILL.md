@@ -24,6 +24,36 @@ that a broad program committee can evaluate quickly.
 - Treat LLM assistance conservatively. Style polishing may be acceptable in some cycles, but
   LLM-written manuscript text, fake citations, or unverified claims can trigger rejection.
 
+## Writing for a cross-subfield committee
+
+IJCAI's PC mixes symbolic AI, search, planning, KR, constraint reasoning, multi-agent, game
+theory, ML, NLP, and vision. Write so a reviewer outside your niche reaches the contribution
+fast, because the out-of-area reviewer often drives summary-reject risk.
+
+| Reader risk | Symptom in the draft | Page-discipline fix |
+| --- | --- | --- |
+| Out-of-area reviewer lost early | Contribution buried after a long formal preamble | State problem, gap, and claim on page one |
+| Notation overload | New symbols before motivation | Introduce notation only when the claim needs it |
+| Niche jargon | Subfield acronyms undefined | Define on first use; assume a broad AI reader |
+| Body overflow | Method spills toward the reference pages | Move proofs and grids to the appendix, keep claims in the body |
+
+## Worked vignette: framing a KR paper for breadth
+
+A knowledge-representation paper opens with three paragraphs of description-logic preliminaries
+before naming its contribution. A planning or learning reviewer may summary-reject for unclear
+significance. The fix: open with the reasoning task, why current encodings fall short, and the
+new tractable fragment, then defer the heavy formalism. The technical depth stays; only the
+ordering changes so a broad IJCAI reader sees the payoff within two reads.
+
+## Reviewer pushback and the venue-specific fix
+
+- "Could not find the contribution." Rewrite the first page as problem, gap, idea, evidence,
+  significance; this is the single highest-leverage IJCAI edit.
+- "Reads like a journal extension." Compress to the body limit and cite the longer work in
+  third person rather than reproducing it.
+- "Significance only within one benchmark." Add a sentence on why the result matters across AI,
+  not just on the chosen suite.
+
 ## Output format
 
 ```text

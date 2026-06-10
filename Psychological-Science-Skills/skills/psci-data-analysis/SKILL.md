@@ -35,6 +35,49 @@ intervals** for major results, **full disclosure** of how the data were handled,
 - Show the result survives reasonable alternative specifications and exclusion choices; report
   sensitivity rather than a single fragile model. For small samples, be candid about uncertainty.
 
+## Worked micro-example (illustrative numbers)
+
+A preregistered two-study package on selective attention. **Study 1** (N = 240, between-subjects)
+tests whether a brief mindfulness induction reduces attentional capture by emotional distractors.
+The confirmatory analysis is a single preregistered contrast on reaction-time cost.
+
+```
+Confirmatory (preregistered) — Study 1
+  Effect: induction vs. control on capture cost (ms)
+  d = 0.34, 95% CI [0.08, 0.59], t(238) = 2.66, p = .008
+  Sensitivity: holds with/without the 6 preregistered RT-outlier exclusions
+               (d shifts 0.34 → 0.31), and under log-RT (d = 0.33)
+Exploratory (labeled) — Study 1
+  Trait-anxiety × condition interaction surfaced post hoc; reported as
+  exploratory, flagged for confirmation in Study 2's preregistration
+Confirmatory (preregistered) — Study 2 (N = 300, direct + extension)
+  Replicates direct effect (d = 0.29, 95% CI [0.06, 0.51]) and
+  preregisters the anxiety moderation that was exploratory in Study 1
+```
+
+Why this passes Psychological Science scrutiny: every confirmatory number carries an effect size and a
+CI; the anxiety interaction is honestly demoted to exploratory and then *promoted to confirmatory* only
+after preregistration in Study 2; the sensitivity line pre-empts the "fragile-to-exclusions" reviewer.
+
+## Analysis-stage reviewer pushback and the venue fix
+
+| Reviewer pushback | What it signals here | Psychological Science fix |
+|-------------------|----------------------|---------------------------|
+| "p = .048 — too close to the line, and the CI nearly spans zero" | post-credibility-revolution distrust of just-significant single tests | report the CI prominently, add the Study 2 replication, lead with the pooled estimate |
+| "Which exclusions were preregistered?" | suspicion of undisclosed forking paths | give the disclosure table: rule, count, preregistered vs. post hoc, and the estimate with vs. without |
+| "Means hide the distribution" | bar-of-means aesthetic distrusted | recompute and show effect size + CI; route exhibit to `psci-tables-figures` |
+| "Is this confirmatory?" | HARKing concern | point to the preregistration timestamp; relabel anything generated after data as exploratory |
+| "Reviewer 2 could not rerun your code" | reproducibility gate | ship a fresh-session run log; see `psci-open-science-and-transparency` |
+
+## Calibration anchors
+
+- One adequately powered effect with a tight CI beats three stars on an underpowered model — the
+  journal's cautionary history is flashy-but-fragile single studies.
+- Prefer estimation language ("the induction reduced capture cost by ~0.3 SD, 95% CI [...]") to
+  dichotomous "significant/not." Bare p-value sentences read as pre-reform here.
+- When N is modest, state the smallest effect the design could detect rather than implying precision
+  you do not have; hedge magnitude claims to what the interval supports.
+
 ## Anti-patterns
 
 - p-values and stars with no effect size or confidence interval

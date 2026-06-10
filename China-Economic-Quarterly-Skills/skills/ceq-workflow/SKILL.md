@@ -65,8 +65,48 @@ description: Use when deciding which ceq-* sub-skill to invoke next, or when seq
 - **偏开放宏观/国际贸易** → 转 journal-of-world-economy（《世界经济》）
 - CEQ 要的是**国际可对话的干净识别**，技术规范权重最高、政策口号最不吃香
 
+## 阶段症状 → Skill 路由（决策树）
+
+下面把"当前最痛的一句话症状"映射到唯一下一步，避免在并行 skill 间打转。本路由依据 CEQ 的偏好排序：识别与可对话性优先于写作与体例。
+
+```
+START
+ ├─ 不确定该不该投 CEQ ───────────────► ceq-fit-positioning
+ ├─ 只有相关性 / 选题看不出贡献 ──────► ceq-topic-selection
+ ├─ 贡献是"丰富/填补"套话 ───────────► ceq-literature-review
+ ├─ 实证仅 OLS+控制 / 识别立不住 ────► ceq-identification
+ │    └─ 用 DID 且处理交错 ──────────► ceq-modern-did
+ │    └─ 聚类/弱工具/多重检验存疑 ───► ceq-inference
+ ├─ 主效应干净但机制是断言 ──────────► ceq-mechanism
+ ├─ 全用表、无事件研究/拟合图 ───────► ceq-figures
+ ├─ 英文摘要中式/贡献空话 ───────────► ceq-abstract-english
+ ├─ 准备投稿、要体例与系统核对 ──────► ceq-submission
+ └─ 收到 R&R 外审意见 ───────────────► ceq-rebuttal
+RULE: 识别未立住前，不要分叉去 ceq-figures / ceq-abstract-english。
+```
+
+## 一稿到底的串联示例（CEQ 视角）
+
+虚构稿件《碳交易试点与企业减排》从无到投的 skill 串联，演示路由如何随阶段推进（示意，非真实评审）：
+
+```
+週次  阶段症状                          调用 skill            产出
+W1   "这能冲 CEQ 吗？"                 ceq-fit-positioning   两高一中→可冲，先补识别
+W1   "选题像政策评估"                  ceq-topic-selection   重塑为"碳定价→技术替代"机制问
+W2   "综述堆国内回归"                  ceq-literature-review 对标 3 篇 field，写差异段
+W2   "试点外生吗"                      ceq-identification    分批+门槛，三条假设成文
+W3   "交错处理用了 TWFE"               ceq-modern-did        CS/SA 重估，Bacon 分解
+W3   "省级处理却企业聚类"              ceq-inference         省级聚类+wild bootstrap
+W4   "机制只有中介回归"                ceq-mechanism         排除法+预设异质性
+W4   "主结果全是表"                    ceq-figures           事件研究图+剂量反应图
+W5   "英文摘要直译超词"                ceq-abstract-english  五句法压到 ~95 词
+W5   "投前核体例"                      ceq-submission        夹注/JEL/匿名 preflight
+后续 "收到 R&R"                        ceq-rebuttal          逐条三段式，指页码补证
+```
+
 ## 反模式
 
 - **不要**跳过 `ceq-fit-positioning` 就动笔——它最常救稿（避免硬投）
 - **不要**在识别未立住时去抠英文摘要和图
 - **不要**让 `ceq-rebuttal` 在正文未修订前生成回复
+- **不要**在 `ceq-modern-did` 与 `ceq-inference` 间反复横跳——先定估计量，再配套标准误

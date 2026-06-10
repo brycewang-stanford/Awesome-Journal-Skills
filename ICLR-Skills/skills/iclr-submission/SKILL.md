@@ -36,6 +36,31 @@ deadline-ready advice.
 - Unclear LLM disclosure or review-manipulation text.
 - Reciprocal-reviewing noncompliance.
 
+## Desk-reject triage table
+
+ICLR enforcement is strict and the consequences are public: even a withdrawn submission leaves a
+visible OpenReview trace. Triage the highest-probability rejections first.
+
+| Risk | Quick test | Fix before deadline |
+| --- | --- | --- |
+| De-anonymization | Grep PDF and ZIP for names, remotes, buckets | Strip metadata, neutralize links |
+| Over-limit main text | Count pages against the current rule | Move material after references |
+| Author-list change | Check the freeze window in the CFP | Finalize authors before the cutoff |
+| Dual submission | Confirm no archival overlap | Withdraw or rescope the other venue |
+| LLM disclosure | Confirm the form field is truthful | Disclose; remove hallucinated citations |
+
+## Worked vignette
+
+A team submits an LLM fine-tuning paper whose anonymized repo link points to a GitHub org naming the
+lab, with a caption thanking a named cluster. Both leak identity. The fix: replace the link with an
+anonymized supplement ZIP, remove the acknowledgment until camera-ready, re-grep the PDF for the
+cluster name, and confirm all authors completed OpenReview profiles before the freeze.
+
+## Reviewer-pushback patterns
+
+- "Looks like a workshop paper." Reframe for the main track or route elsewhere.
+- "Possible dual submission." Document why the other version is non-archival under current policy.
+
 ## Output format
 
 ```text

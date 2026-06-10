@@ -46,6 +46,46 @@ Change: [Main text section, supplement section, or table/figure number].
 Open with a short **summary of the main changes** to the editor; group by reviewer; end each entry
 with the location (note when content went to the supplement to protect the word budget).
 
+## Worked micro-example (illustrative response entries)
+
+For the two-study attention package, an R&R asked for power, a replication, and tighter disclosure.
+
+```
+> R2: Study 1 (N = 240) feels underpowered for a d ≈ 0.3 effect.
+
+Response: We agree precision matters here. Study 1 had ~80% power for
+d = 0.36 (sensitivity analysis now in Methods). To address fragility we
+added Study 2 (N = 300), which directly replicates the effect
+(d = 0.29, 95% CI [0.06, 0.51]). Pooled estimate: d = 0.31, 95% CI [0.13, 0.49].
+Change: Main text Methods (power), Results (Study 2); robustness grid → Supplement S3.
+
+> R1: The trait-anxiety interaction looks post hoc.
+
+Response: Correct — it was exploratory in Study 1 and we now say so
+explicitly. We preregistered it for Study 2; it is labeled confirmatory
+only there.
+Change: Results (status labels); Research Transparency Statement updated.
+```
+
+## R&R triage — where each request lands
+
+| Reviewer ask | Default home (protects the 2,000-word core) | Note |
+|--------------|----------------------------------------------|------|
+| Added robustness / specification grid | supplemental online material | summarize in one sentence in main text |
+| New confirmatory study | Methods/Results (it is the contribution) | preregister it; update Transparency Statement |
+| Fuller disclosure of exclusions/measures | Methods + Transparency Statement | a table, not prose, to save words |
+| "Soften the claim" | Discussion | scale the wording to the CI, not the p-value |
+| Effect-size/CI reporting | tables and inline | route exhibits to `psci-tables-figures` |
+
+## Recurring R&R pushback and the venue fix
+
+- "Single underpowered study" → add internal replication or move to a multi-study package; report the
+  pooled estimate with its CI; never argue the p-value alone.
+- "You added an analysis that quietly weakens the effect" → disclose it, interpret it, and adjust the
+  claim; concealment is the cardinal sin at this venue.
+- "Revision busts the format" → confirm the current word allowance against the journal's submission
+  guidelines, then push new robustness to the supplement and cite it.
+
 ## Anti-patterns
 
 - Ignoring or merging away a comment without a visible response

@@ -37,6 +37,33 @@ deadline-ready advice.
 - Concurrent formal archival submission.
 - LLM-generated paper text, hallucinated references, or unsupported claims.
 
+## Desk-reject risk matrix
+
+IJCAI screens a large submission volume and can reject on mechanical grounds before any
+scientific review. Sort each risk by whether it is auto-fatal at intake.
+
+| Risk | Severity | Pre-upload check |
+| --- | --- | --- |
+| Missing abstract registration | Fatal | Abstract filed by its earlier deadline |
+| Overlength or template manipulation | Fatal | Page count and Author Kit style verified |
+| Anonymity leak in PDF/metadata/code | Fatal | Names, URLs, filenames scrubbed |
+| Missing resubmission file | Fatal | Anonymized rejected version attached |
+| Concurrent archival submission | Fatal | No venue overlap during review |
+| LLM-written manuscript text | High | Only policy-allowed polishing |
+
+## Worked vignette: a multi-agent paper at intake
+
+A multi-agent RL paper is ready scientifically but its anonymized PDF embeds the lab name in a
+figure caption and its code ZIP keeps an institutional path. Both are anonymity leaks that can
+desk-reject the paper before review. Fix order: scrub the caption and metadata, re-zip with
+relative paths, confirm the page count, verify the abstract was registered on time, and confirm
+no concurrent archival submission.
+
+## Reviewer/chair pushback and the venue-specific fix
+
+- "Exceeds the limit." Compress to the body limit and move overflow to the appendix; do not
+  shrink margins, fonts, or spacing to fake compliance.
+
 ## Output format
 
 ```text

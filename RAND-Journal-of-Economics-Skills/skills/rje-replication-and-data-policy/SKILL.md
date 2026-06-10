@@ -34,6 +34,33 @@ Build a clean package even absent a mandate — IO referees probe replicability 
 - Keep core results in the **article and appendix** (within the <=10-page appendix+references budget); do **not** park decisive results in supporting information the journal discourages and may decline.
 - If you must include supporting files, **justify them**, expect they appear unedited/untypeset, and host per current Wiley practice.
 
+## Restricted-data disclosure grid (common IO sources)
+
+IO empirics lean on restricted data. For each, document the access path and the construction code sharable when the raw data cannot move.
+
+| Data source | Typical IO use | What to document (sharable even if data are not) |
+|---|---|---|
+| Nielsen / Kilts (NielsenIQ) | Retail scanner demand | Kilts Center license; cleaning/aggregation code |
+| FSRDC / Census microdata | Plant-level entry/exit, production | RDC approval, disclosure review, construction scripts |
+| CMS / claims data | Health-insurance, provider markets | Data-use-agreement terms; variable derivations |
+| Proprietary firm data | Auction bids, transaction prices | NDA scope; a synthetic stand-in for the demo run |
+
+## Worked vignette: packaging a structural estimation
+
+Suppose your article estimates a dynamic entry model on FSRDC data and demand on Nielsen data, with a slow GMM step:
+
+- **`run_all`**: one master script runs demand, supply recovery, the dynamic step, and counterfactuals in order, with a flag to load cached results.
+- **Caching with provenance**: store converged vectors, the objective value, and the seed/starting-value grid, so a referee verifies the optimum without re-solving.
+- **Restricted data**: FSRDC data cannot leave the enclave — ship construction code plus a synthetic micro-extract so the pipeline runs.
+- **Exhibit map**: a README mapping each exhibit to its script and input.
+
+## Referee-pushback patterns and the venue fix
+
+- **"I cannot tell whether GMM reached a global optimum."** Fix: report the objective at every start and ship the seed; cache the converged vector.
+- **"The counterfactual is not reproducible from the code."** Fix: ensure `run_all` regenerates every counterfactual, not just estimation tables.
+- **"You promise data you may use but not redistribute."** Fix: state the access path and provide construction code plus a synthetic stand-in; never imply you can release restricted data.
+- **"Hosting is unclear given RJE hosts nothing."** Fix: plan author-maintained or Wiley-hosted links; confirm against the journal's current author guidelines.
+
 ## Anti-patterns
 
 - Assuming an AER/QJE-style mandatory deposit exists at RJE (none confirmed — 待核实)

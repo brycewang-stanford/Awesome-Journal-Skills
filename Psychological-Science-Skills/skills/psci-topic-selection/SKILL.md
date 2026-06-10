@@ -38,6 +38,41 @@ A strong Psychological Science paper usually clears all four:
   for this purpose; declare data provenance honestly.
 - **Commentary / Reply** — a brief, focused response to a published paper (≤ 1,000 words).
 
+## Fit scoring — worked example (illustrative)
+
+Score a candidate against the four gates before investing. The attention project, two framings:
+
+```
+Candidate A (off-fit): one N = 45 study, surprising induction effect,
+            no preregistration, request-only data.
+  Impact/breadth  ~ moderate    Robustness ✗ (underpowered, single study)
+  Open-science ✗ (request-only)  Format ✓
+  Verdict: off-fit → reframe as a powered, preregistered package or place elsewhere.
+
+Candidate B (strong): two preregistered studies (N = 240; N = 300),
+            internal replication, open data + materials with DOIs.
+  Impact/breadth ✓ (load-bearing premise, clinical inheritance)
+  Robustness ✓   Open-science ✓   Format ✓ (argues in < 2,000 words)
+  Verdict: strong fit → Research Article (or RR if framed prospectively).
+```
+
+## Manuscript-type decision rules
+
+| If the work is... | Target type | Why |
+|-------------------|-------------|-----|
+| Completed, powered, results in hand | Research Article | standard high-impact empirical slot |
+| Designed but not yet run, confirmatory | Registered Report (Stage 1) | protects against publication bias; strongest credibility |
+| A confirmatory test on un-analyzed existing data | RR with Existing Data | declare provenance honestly |
+| A focused critique of a published paper | Commentary / Reply | brief, bounded (confirm current limit) |
+| A replication of a famous fragile finding | Article or RR | Short Reports / standalone PDRs are retired |
+
+## Reviewer / editor pushback at the fit stage
+
+- "Feels incremental" → find the decisive test or boundary condition that a broad audience inherits.
+- "Too niche" → if no one outside the subarea cares, reframe the question or choose a specialty venue.
+- "Underpowered and surprising" → this is the venue's cautionary archetype; add power and replication
+  before submitting, or expect a Registered Report suggestion.
+
 ## Anti-patterns
 
 - A single small, underpowered study with a surprising effect (robustness risk)

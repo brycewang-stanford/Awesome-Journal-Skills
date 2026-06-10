@@ -1,6 +1,6 @@
 ---
 name: iclr-workflow
-description: Use when planning an ICLR project timeline from topic selection through OpenReview submission, discussion, revision, decision, camera-ready, poster, video, and public artifact release.
+description: Use when planning an ICLR project timeline from topic selection through OpenReview submission, discussion, revision, decision, camera-ready, poster, video, and public artifact release. Use when sequencing milestones against the current cycle's OpenReview deadlines, budgeting time for the long public discussion phase, or assigning owners for anonymity audits and reviewer-verifiable evidence paths.
 ---
 
 # ICLR Workflow
@@ -31,6 +31,33 @@ current cycle's official deadlines and work backwards from OpenReview cutoffs.
 - Keep a "reviewer can verify this in five minutes" path for each major claim.
 - Do not add new experiments during discussion unless they clarify an already submitted claim and
   current rules allow the revision.
+
+## Phase ownership and risk
+
+ICLR's timeline differs from venues with a short rebuttal: the public discussion phase is long, and
+revisions you upload remain visible. Plan for an extended, public exchange, not a one-shot rebuttal.
+
+| Phase | Owner focus | ICLR-specific risk |
+| --- | --- | --- |
+| Abstract deadline | Profiles, conflicts, real abstract | Placeholder abstract or incomplete profile |
+| Paper deadline | Anonymized PDF, supplement, disclosures | Identity leak in code or links |
+| Review release | Triage, assign evidence owners | Reacting to every score instead of the AC's concern |
+| Discussion | Replies, allowed revisions, changelog | Promising runs the cycle's rules disallow |
+| Camera-ready | De-anonymize, fulfill promises | Final PDF drifts from the meta-review |
+
+## Worked vignette
+
+A two-person team plans backward from the OpenReview paper deadline for an interpretability paper.
+They lock the main claim and core ablation early, reserve the final days for an anonymity audit of
+the PDF and code ZIP, and pre-assign discussion roles: one owns evidence replies, one owns wording
+and the changelog. When reviews land they already have a "verify in five minutes" probe script, so
+the public thread stays concrete.
+
+## Reviewer-pushback patterns to schedule around
+
+- "We need a new experiment fast." Pre-build a probe or ablation harness so small results are cheap.
+- "Anonymity slipped after an edit." Re-run the audit after every PDF, supplement, or code change.
+- "Deadline confusion." Treat the current cycle's OpenReview dates as the single source of truth.
 
 ## Output format
 

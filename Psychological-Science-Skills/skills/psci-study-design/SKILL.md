@@ -39,6 +39,49 @@ analysis where appropriate). This skill hardens the design before data collectio
   work, and it neutralizes publication bias. For prior-collected data, use **RR with Existing Data**
   and declare provenance.
 
+## Sample-size justification — worked example (illustrative)
+
+For the two-study attention package, justify N *before* collecting, tied to the smallest effect of
+interest (SESOI), not a round number per cell.
+
+```
+Smallest effect of interest: d = 0.30 (below this, the premise is not
+            practically load-bearing for downstream clinical models).
+Study 1 (between-subjects, two groups):
+            target 80% power, two-sided alpha .05 → N ≈ 278; we collect 240
+            and report honestly that we have ~80% power for d = 0.36, i.e.
+            the design is calibrated to a slightly larger effect — stated, not hidden.
+Study 2 (direct replication + moderation):
+            increase to N = 300 for the interaction term; precision goal is a
+            half-width ≤ 0.25 on the replication d.
+Stopping rule: fixed-N; no optional stopping. (For sequential designs, state
+            the decision boundary and alpha-spending in advance.)
+```
+
+State the assumed effect size *and its source* (prior meta-analytic estimate, a pilot, or a SESOI
+argument). A power analysis anchored to an inflated published effect is a known failure mode here.
+
+## Pre-data lockdown checklist
+
+| Degree of freedom | Lock before data? | Where it lives |
+|-------------------|-------------------|----------------|
+| Hypotheses + direction | yes | preregistration / RR Stage 1 |
+| Exact conditions and Ns | yes | preregistration |
+| Full measure list (all DVs) | yes | preregistration (prevents cherry-picking) |
+| Exclusion rules (attention, RT, dropout) | yes | preregistration, with expected attrition |
+| Covariates / model form | yes | analysis plan |
+| Stopping rule | yes | analysis plan |
+| Exploratory analyses | allowed, but labeled | reported separately, post hoc |
+
+## Design-stage reviewer pushback and the venue fix
+
+- "50 per cell, no justification" → replace with a SESOI-anchored power or precision argument.
+- "Manipulation may not have worked" → preregister and report a manipulation/attention check; if it
+  fails, the confound objection lands hard at this venue.
+- "Looks like flexible exclusions" → preregister exclusion rules and report the estimate with and
+  without them (handoff to `psci-data-analysis`).
+- "Three near-identical studies" → make each study add inference (generalization, mechanism, boundary).
+
 ## Anti-patterns
 
 - "We collected 50 per cell" with no power/precision justification

@@ -30,6 +30,35 @@ response template before drafting; rebuttal rules are cycle-specific.
 3. Answer the requested clarification and stop.
 4. If needed, add a camera-ready clarification promise without adding new evidence.
 
+## Triage table: respond or stay silent
+
+The one-page budget forces ruthless selection. The response is not a dialogue, and phase-1
+summary-reject papers usually get no response, so reserve the page for decision-changing items.
+
+| Reviewer point | Respond? | How |
+| --- | --- | --- |
+| Pressing question that could flip the score | Yes | Point to the submitted location |
+| Factual error driving rejection | Yes | Correct precisely; anchor to section/table/theorem |
+| "Add experiment X" | No new results | Promise a camera-ready note or cite existing evidence |
+| Tone, score, broad disagreement | No | Do not spend budget relitigating |
+| Suspected unethical review | Confidential box | Not the public PDF |
+
+## Worked vignette: a planning paper rebuttal
+
+A planning paper draws one strong review and one that wrongly claims the optimality proof
+assumes unit costs. That misreading could drive rejection, so it earns space: cite the
+assumption already stated in the submitted theorem and point to the appendix proof, without a
+new result. A second reviewer asks for an extra benchmark family; since no new experiments may
+be added, promise a camera-ready note and reference the closest existing table. The complaint
+about presentation tone gets no words.
+
+## Reviewer pushback and the venue-specific fix
+
+- "You added new results in the response." Remove them; clarify only what the submission already
+  supports, since new evidence is disallowed.
+- "Response argues the score, not a fact." Refocus on the one decision-critical correction.
+- "Reviewer was unethical." Use the confidential channel, not the public response.
+
 ## Output format
 
 ```text
