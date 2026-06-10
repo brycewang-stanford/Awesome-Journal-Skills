@@ -1,6 +1,6 @@
 ---
 name: jfi-data-analysis
-description: Use to plan and stress-test the analysis behind a Journal of Financial Intermediation paper — bank/loan-level panel work and robustness for empirics, or numerical examples and calibrated illustrations for theory. It guides the analysis plan; it does not replace running the code.
+description: Use when planning or stress-testing the analysis behind a Journal of Financial Intermediation (JFI) paper — bank/loan-level panel work, demand-absorbing specifications, and the robustness battery for empirics, or numerical examples and calibrated illustrations for theory. It guides the analysis plan; it does not replace running the code.
 ---
 
 # Data Analysis (jfi-data-analysis)
@@ -35,6 +35,46 @@ When the paper is a model, "data analysis" is lighter and means **reproducible c
 
 Prepare a **Data Statement** and link datasets via Editorial Manager; cite data with the `[dataset]` tag
 (see jfi-replication-and-data-policy). JFI has **no** mandatory code archive, but sharing is expected.
+
+## Dataset-to-mechanism decision table
+
+Pick data for the intermediation mechanism, not the other way around — JFI referees notice when the
+dataset cannot carry the claimed channel:
+
+| Mechanism under study | Workhorse data | What the merge must support |
+|---|---|---|
+| Relationship lending / information capture | Credit register or DealScan loan-level | Multi-bank firms, so firm×time absorption is feasible |
+| Capital / regulation transmission | Call Reports, FR Y-9C, stress-test exposures | Bank-level shock measured before announcement |
+| Deposit competition / franchise value | FDIC Summary of Deposits, branch-level rates | Market-level (county/MSA) shares and pricing |
+| Runs, liquidity, interbank stress | Supervisory or payment-system records (typically restricted) | Daily/weekly frequency around the stress window |
+| Fintech displacement of banks | Platform loan tapes plus bank comparators | Comparable borrower-risk controls across lender types |
+
+## Worked robustness pass: a capital-shock battery (illustrative)
+
+A hypothetical JFI paper estimates that a 1pp rise in required capital cuts loan growth to the same firm
+by 2.1pp (s.e. 0.6, firm×time FE, clustered by bank). The battery a JFI referee expects, each row tied to
+a named threat:
+
+- OLS without firm×time FE gives −3.0pp; report both, so the reader sees demand absorption moves the
+  estimate by roughly a third — evidence the design bites, and a sorting fact worth a paragraph.
+- Drop the three largest banking groups: −1.9pp — the channel is not one institution.
+- Placebo reform date two years earlier: +0.2pp, insignificant — supports timing.
+- Extensive margin (relationship termination) rises 1.4pp — the intermediation mechanism shows up beyond
+  intensive-margin amounts.
+- Few-cluster check: wild-cluster bootstrap p ≈ 0.03 with 31 banks.
+- Multi-bank vs. full sample: re-estimate firm-FE-only specs on both, since the within-firm identifying
+  sample skews toward larger, less bank-dependent borrowers.
+
+## Analysis probes specific to this venue
+
+- Referees here routinely ask for the **exposure-weighted firm-level aggregation** when real outcomes
+  (investment, employment) are claimed — firm×time FE cannot be used there, so pre-shock bank shares must
+  carry the identification.
+- Magnitude sanity: convert the loan-level coefficient into aggregate credit terms and benchmark it
+  against the range in the lending-channel literature; an estimate ten times the consensus invites a
+  measurement question before a citation.
+- For the theory track, a calibration table listing every parameter, its value, and its source (moment
+  matched, literature, normalization) is the JFI-credible substitute for a robustness battery.
 
 ## Anti-patterns
 

@@ -39,6 +39,30 @@ Use this skill to bring a **JFQA** draft up to house style. JFQA is a quantitati
 - Cut any sentence that would still be true in a generic economics journal; JFQA prose should sound like
   finance, not a methods placeholder.
 
+## Before/after rewrites from a hypothetical corporate-finance draft (numbers illustrative)
+
+| Before | After (JFQA register) |
+|---|---|
+| "Leverage is significantly associated with investment." | "A one-SD increase in book leverage predicts a 1.4 pp lower investment rate, 11% of its mean." |
+| "We find strong evidence consistent with our hypothesis." | "Spreads widen 18 bps in the quarter the covenant binds, and only for firms near the threshold — the pattern the collateral channel predicts." |
+| "Results are robust to a battery of checks." | "The estimate moves between 1.2 and 1.6 pp across alternative samples, definitions, and clustering (Table IA.2)." |
+| "This paper contributes to several literatures." | "We revise the documented buyback effect downward by half once institutional crowding is measured." |
+
+The pattern in every rewrite: a finance unit, a scaling benchmark, and a checkable location replace adjectives.
+
+## Length and section calibration for a JFQA draft
+
+- Introduction: typically four to six double-spaced pages carrying the question, the answer with numbers, the design preview, and the rival contrast — there is no codified rule, so calibrate to recent JFQA issues and confirm against the journal's current author guidelines before relying on any limit.
+- Data and variable construction come before results, with the sample-construction detail that lets a referee reconstruct the filters.
+- Robustness that repeats the main table's message belongs in an Internet Appendix; remember the journal's stated impatience with over-long manuscripts.
+
+## Consistency sweep before the PDF freezes
+
+- One name per variable everywhere — text, equations, table headers, and the archive read-me; "BLEV," "book leverage," and "leverage ratio" must not coexist.
+- Numbers quoted in prose must match the exhibits to the digit; regenerate prose numbers from the master script output rather than retyping them.
+- Verb tense discipline: results in the present tense, sample construction in the past, uniformly.
+- Re-run the anonymization pass after the consistency sweep, since late edits are where acknowledgments and identifying phrases sneak back in.
+
 ## Output format
 
 ```

@@ -37,6 +37,46 @@ contribution.
 If the application can be removed without changing the paper's value, EctJ fit is weak. If the theorem can
 be removed without changing the paper's value, EctJ fit is also weak.
 
+## Shape of an accepted EctJ methods paper
+
+Calibration anchors, hedged where practice varies: the modal accepted structure is a compact
+chain — motivation through an econometric failure, the leading-case theory, a Monte Carlo section
+summarized within about a page of main text, and an empirical illustration that changes a real
+decision — inside the roughly 20-page printed format, with full grids and secondary material in
+the online appendix where the rules permit. Papers that allocate half their pages to a literature
+survey or to institutional background do not match the venue's shape even when technically strong.
+For early-career authors, the Royal Economic Society's Denis Sargan Econometric Prize, awarded for
+the best EctJ article by a young author, is one more signal that the venue wants sharp
+leading-case work rather than encyclopedic treatments.
+
+## Worked fit scoring
+
+Vignette (illustrative): a paper derives an estimator for staggered-adoption designs when
+untreated potential outcomes follow an unobserved factor structure.
+
+- Leading case: two factors, balanced panel — sharp and teachable. EctJ-positive.
+- Applied value: re-estimates a published minimum-wage application and reverses one headline
+  conclusion (illustrative: the pooled effect changes sign at the 10% level). EctJ-positive.
+- Empirical application: present and diagnostic, not decorative. EctJ-positive.
+- Length pressure: full proofs need 30 printed pages. EctJ-negative — either restructure the
+  proofs for the printed appendix or route to a longer-format econometrics journal.
+
+Three positives and one repairable negative reads as possible EctJ with compression to fix first,
+not as a venue switch.
+
+## Scope traps specific to this venue
+
+- A method whose applied value exists only in one proprietary dataset fails the travel test; the
+  EctJ application should be reproducible under the replication policy, so a public or accessible
+  dataset materially raises fit.
+- Topics already exhaustively treated in long-format econometrics journals fit only if the paper
+  finds a genuinely new leading case, not a cleaner exposition.
+- Machine-learning-assisted econometrics fits when the economic parameter and its inference
+  guarantees are the contribution; a prediction-accuracy paper without an econometric object
+  belongs in an ML venue.
+- Pure comparison or replication studies are usually off-shape here; the venue asks for original
+  methodology with demonstrated use.
+
 ## Output format
 
 ```text

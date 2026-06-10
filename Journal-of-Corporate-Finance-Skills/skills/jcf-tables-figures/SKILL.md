@@ -33,6 +33,43 @@ Each exhibit's note states: sample and period, variable definitions or a pointer
 - "Your paper, your way" at first submission means exhibit styling need only be **consistent**; full Elsevier styling comes at revision.
 - Tables/figures count toward the paper's exhibits but JCF states **no fixed length ceiling** (待核实) — still, keep the set tight and non-redundant.
 
+## Exhibit architecture (calibration, hedged)
+
+Accepted empirical JCF papers tend to follow a recognizable arc — treat the counts as calibration, not rules, and confirm against the journal's current author guidelines:
+
+- Table 1: sample construction and/or summary statistics on the regression sample.
+- Table 2: main fixed-effects estimates, sparse controls first, saturated last.
+- Tables 3–4: identification exhibits — event-study dynamics, pre-trends, first stage, or density tests.
+- Tables 5+: mechanism splits and robustness, one varied dimension per panel.
+- Figure 1 is frequently the event-study or RDD plot — many JCF readers judge identification from this figure alone.
+- Six to nine main exhibits is a common footprint; overflow robustness belongs in an appendix or internet appendix numbered IA.1, IA.2, and cited by number in the text.
+
+## Worked headline-table sketch
+
+Illustrative skeleton for a governance-shock paper (numbers invented):
+
+```text
+                       (1)        (2)        (3)
+Treated x Post        0.014**    0.015**    0.013**
+                     (0.006)    (0.006)    (0.006)
+Firm FE                 Y          Y          Y
+Year FE                 Y          —          —
+Industry x Year FE      —          Y          Y
+Controls                —          —          Y
+N                    21,043     21,043     20,877
+Within R²             0.08       0.11       0.12
+Magnitude: 1 SD of treatment exposure ≈ 12% of mean investment
+```
+
+The magnitude line beneath the table body is the JCF habit worth copying — it answers "is this economically big?" before the referee asks.
+
+## Exhibit pushback and the fix
+
+- "I cannot tell what is clustered." → Put FE and clustering rows in every regression table, not in a global footnote.
+- "The event-study figure has no bands." → Re-plot with 95% CIs and at least four pre-period leads visible.
+- "Summary stats do not match the regression N." → Recompute Table 1 on the estimation sample; reconcile any drop in a sample-construction panel.
+- "Too many tables." → Merge robustness variants into panels; push the remainder to the internet appendix and cite IA numbers in the text.
+
 ## Anti-patterns
 
 - A regression table that hides the FE and clustering structure.

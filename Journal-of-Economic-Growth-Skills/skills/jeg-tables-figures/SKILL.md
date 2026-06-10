@@ -43,6 +43,45 @@ Most JEG papers need one of these sequences:
 
 The sequence should make the growth mechanism visible before the robustness appendix expands.
 
+## Growth exhibit contract
+
+Each exhibit should state whether it shows a fact, identifies a mechanism, validates a model, or tests
+sensitivity. Do not let all tables look like robustness tables. A JEG reader should be able to follow the
+growth story from exhibits alone:
+
+```text
+Fact -> mechanism -> model/estimate -> magnitude -> sensitivity -> implication
+```
+
+For calibration exhibits, report the target moment, model moment, parameter value, and source. For
+empirical exhibits, report country/region coverage, period, units, fixed effects, clustering, and whether
+the estimate is meant to be causal or descriptive.
+
+## Map and spatial-exhibit standards
+
+Persistence and comparative-development submissions live and die by their spatial exhibits:
+
+- Every map states the projection, the unit (grid cell, district, ethnic homeland), the period of the plotted variable, and the source layer.
+- Show the treatment variation on a map *before* the regression tables appear; growth referees want to see where identification comes from geographically.
+- Table notes for geocoded outcomes state the spatial-SE method and cutoffs (e.g., "Conley SEs, 250 km, in brackets") next to the clustered SEs — in the main table, not buried in an appendix.
+- Avoid choropleth color scales that flatten the variation actually identifying the model; bin by the estimation sample's own distribution.
+
+## Worked vignette — rebuilding a persistence main table
+
+Illustrative redesign of a weak Table 2 (outcome: log GDP per capita 2015 by district; regressor: early printing-press adoption):
+
+- Column 1: OLS with country FE — 0.19 (clustered SE 0.04).
+- Column 2: adds geography controls (ruggedness, latitude, coast distance) — 0.16 (0.04).
+- Column 3: same specification reporting Conley 250 km SEs — 0.16 (0.06); an inference column, not a new estimate.
+- Column 4: IV using distance to an early adoption hub — 0.24 (0.09), with first-stage F = 21 in the notes.
+- One row added: the outcome mean, so magnitudes read directly as percent effects.
+
+The old version's six estimator-variation columns move to the appendix, and the schooling-channel table is promoted into the main text — mechanism before robustness.
+
+## Exhibit-count anchor (hedged)
+
+Accepted articles at this journal commonly carry 6-10 main exhibits backed by a deep online appendix; treat that as a prior from recent issues rather than a rule, and check figure-format specifics against the journal's current author guidelines.
+
 ## Output format
 
 ```text

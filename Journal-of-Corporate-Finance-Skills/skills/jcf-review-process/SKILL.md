@@ -1,6 +1,6 @@
 ---
 name: jcf-review-process
-description: Use to understand and plan around the Journal of Corporate Finance (JCF) review process — single-anonymized (single-blind) refereeing, a minimum of two reviewers, an active desk-rejection policy, and required Elsevier declarations. It sets expectations and timing strategy; it does not draft the manuscript or the rebuttal.
+description: Use when planning around the Journal of Corporate Finance (JCF) review process — single-anonymized (single-blind) refereeing, a minimum of two reviewers, an active desk-rejection policy, decision-letter interpretation, and required Elsevier declarations. It sets expectations and timing strategy; it does not draft the manuscript or the rebuttal.
 ---
 
 # Review Process (jcf-review-process)
@@ -30,6 +30,34 @@ description: Use to understand and plan around the Journal of Corporate Finance 
 - [ ] Competing-interest declaration and generative-AI disclosure prepared
 - [ ] Contribution and identification legible up front (desk-screen ready)
 - [ ] US$340 fee ready (paid at submission; see jcf-submission)
+
+## Desk-rejection patterns at this venue
+
+The active desk screen filters predictable failure modes. Audit against each:
+
+```text
+Pattern                                     | Why the JCF desk stops it
+No firm decision at the center              | Reads as an asset-pricing / macro / accounting misroute
+OLS-with-controls on an endogenous choice   | Identification bar unmet for empirical corporate finance
+Contribution invisible on page one          | The editor screens fast; buried novelty is no novelty
+Stale question, no new wedge                | A larger sample alone does not move a conversation
+Mechanical replication on a new country     | Needs institutional variation doing real work
+Scope mismatch with the JCF remit           | Even good papers get routed elsewhere
+```
+
+A desk rejection here is a routing-and-legibility verdict, not a referee report — fix framing or venue choice, not necessarily the analysis.
+
+## Reading the decision letter
+
+- Desk reject with a scope sentence → re-aim the venue; the analysis was likely never evaluated.
+- Desk reject citing identification → the design is visibly below the bar; rebuild before resubmitting anywhere comparable.
+- R&R where the editor names two or three priorities → those outrank every reviewer point; structure the revision around them.
+- Reviewer reports of very different depth → the editor weighs the thorough one; do not over-invest in the cursory report's minor points.
+- "Major revision" demanding a redesign → decide early whether the redesigned paper is still your paper; a scope reply (see jcf-rebuttal) beats a grudging redesign.
+
+## Timing expectations (plan, do not rely)
+
+Elsevier publishes journal-level speed metrics on the JCF homepage; they vary year to year, so confirm against the journal's current author guidelines rather than hallway numbers. Planning heuristics: budget for the desk screen to resolve quickly relative to full review; assume a complete round with two-plus reviewers takes meaningfully longer; never hang a hard deadline (job market, tenure file) on a single round resolving fast. The US$340 fee is sunk per submission — a premature submission that draws an avoidable desk rejection costs both the fee and the cleanest first impression at this venue.
 
 ## Anti-patterns
 

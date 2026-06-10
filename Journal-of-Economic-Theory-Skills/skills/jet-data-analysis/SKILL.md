@@ -1,6 +1,6 @@
 ---
 name: jet-data-analysis
-description: Handle any numerical, computational, or empirical content in a Journal of Economic Theory (JET) paper — JET is theory-first, so numerical examples, simulations, and computed equilibria are admitted only as illustration or test of a theoretical result, must stay subordinate to the theorem, and should be reproducible. Light by design for a theory journal.
+description: Use when handling numerical, computational, or empirical content in a Journal of Economic Theory (JET) paper — JET is theory-first, so examples, simulations, and computed equilibria must stay subordinate to the theorem and reproducible.
 ---
 
 # Numerical & Computational Content (jet-data-analysis)
@@ -33,6 +33,45 @@ default is *minimal* numerical content.
   stochastic. Sharing is **encouraged, not required** (see jet-replication-and-data-policy).
 - **If genuinely empirical/experimental:** state the theoretical prediction first, then test it; the
   prediction is the contribution.
+
+## Picking the smallest environment that makes the point
+
+| Theoretical claim | Smallest honest illustration | Why it convinces a JET referee |
+|---|---|---|
+| An assumption cannot be dropped | a 2x2 game or two-type screening problem violating only that assumption | the failure is checkable by hand in minutes |
+| A bound is tight | an environment attaining the bound exactly | tightness becomes a verifiable statement, not a plot |
+| A characterized mechanism is implementable | computed transfers/allocations for two or three types | the numbers confirm the closed form line by line |
+| The equilibrium set has the claimed shape | a three-agent matching market or a two-state ambiguity example | the entire set can be enumerated and inspected |
+| A dynamic characterization is operational | one computed path of the recursive contract | the recursion is seen to close |
+
+If the smallest environment that exhibits the phenomenon needs more than a page to describe,
+reconsider whether the example belongs in the body or in an appendix.
+
+## Minimal verification script (template)
+
+```python
+# verify_example_1.py — regenerates every number in Example 1
+# (tightness of the bound in Theorem 2 for the two-type screening problem)
+import sympy as sp
+
+v_H, v_L, p = sp.symbols("v_H v_L p", positive=True)
+rent = (v_H - v_L) * p                      # information rent at the optimum, matches eq. (7)
+bound = sp.Rational(1, 2) * (v_H - v_L)     # the Theorem 2 bound
+print(sp.simplify(rent.subs(p, sp.Rational(1, 2)) - bound))  # 0 → bound attained at p = 1/2
+# Nothing here is stochastic; if an example is FOUND by random search,
+# fix the seed, report it, and ship the search script too.
+```
+
+One short script per numbered Example, named after the theorem it serves, beats one monolithic
+notebook — referees check examples against statements, not pipelines.
+
+## Where computation sits in an accepted JET paper
+
+- As a numbered **Example** placed immediately after the theorem it illustrates, or as a short
+  "Numerical illustration" subsection — almost never as a stand-alone section competing with the
+  results. Conventions drift across subfields; check recent JET papers in yours.
+- Figures generated from computation follow jet-tables-figures: vector output, notation identical
+  to the body, the generating script named in the note.
 
 ## Anti-patterns
 

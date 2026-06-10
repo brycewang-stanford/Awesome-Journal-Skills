@@ -28,6 +28,27 @@ Pick the design that matches the question and defend it:
 
 JFQA also publishes theory. If your paper is a model, pivot this skill to: stating **assumptions** transparently, deriving **results/propositions**, clean **proof exposition**, and **testable implications** a finance reader can take to data. Keep generality matched to the question.
 
+## Threat-to-remedy matrix for the JFQA referee report
+
+| Endogeneity threat | How it surfaces in the draft | JFQA-grade remedy |
+|---|---|---|
+| Reverse causality | outcome plausibly drives the regressor | timing structure, a shock that moves only the regressor, or an IV with an economic exclusion story |
+| Omitted firm-level variation | "we control for size and B/M" | firm FE plus a within-firm variation count showing the coefficient is still identified |
+| Selection into treatment | treated and control firms differ pre-event | matching or entropy balancing **plus** pre-trend evidence, not either alone |
+| Anticipation of regulation | effects appear before adoption | shift the event date, drop the anticipation window, show announcement-date returns |
+| Data-mined anomaly | one sort, one sample, large t-stat | sub-period splits, out-of-sample evidence, multiple-testing discussion |
+| Bad controls | post-treatment variables on the RHS | re-specify; report with and without, and explain which is the estimand |
+
+## Worked vignette: staggered adoption done the JFQA way (illustrative)
+
+Suppose 23 states adopt a disclosure rule between 2008 and 2016 and the outcome is the credit spread of in-state issuers. A naive TWFE regression gives -4.1%; the Callaway-Sant'Anna group-time ATT gives -2.6% because late-vs-already-treated comparisons inflated the TWFE number. The JFQA presentation: CS estimator as the headline, TWFE relegated to the appendix with the discrepancy explained, an event-study figure whose lead coefficients are jointly insignificant (p = 0.42), and — with only 23 clusters — wild cluster bootstrap inference (p = 0.03) instead of leaning on asymptotics. That package answers the three referee questions (estimator, pre-trends, inference) before they are asked.
+
+## The anomaly-credibility bar in asset pricing
+
+- Acknowledge the multiple-testing problem head-on: the post-2016 factor-zoo literature argues for materially higher t-hurdles for new predictors; state how many specifications were examined.
+- Show tradability: turnover, transaction-cost drag, and whether the premium survives value-weighting and the exclusion of microcaps.
+- Run spanning tests against the standard factor models in current use; a new "factor" that the existing ones price is a robustness row, not a contribution.
+
 ## Output format
 
 ```

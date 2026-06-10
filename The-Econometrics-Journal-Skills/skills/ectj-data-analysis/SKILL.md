@@ -44,6 +44,44 @@ Track every reported number in a ledger:
 
 Use the ledger to decide what must be in the main replication path and what can remain optional.
 
+## Theory-to-simulation contract
+
+EctJ referees read Monte Carlo sections as tests of the theory, and RES guidance caps the
+main-text simulation summary near one page, so every theoretical claim needs exactly one matching
+finite-sample exhibit:
+
+| Theoretical claim | Required Monte Carlo evidence | Typical display |
+|---|---|---|
+| Asymptotic normality | Coverage of nominal 95% intervals across n | Coverage row per sample size |
+| Size control of a test | Null rejection rates near 5% at the relevant boundary | Size table with nominal level in header |
+| Local power gain | Power against the incumbent under drifting alternatives | One power figure |
+| Rate or bias reduction | Bias and RMSE relative to the strongest competitor | Compact bias/RMSE panel |
+| Tuning robustness | Behavior across bandwidth or penalty choices used in practice | Supplement grid, one-line main-text summary |
+
+A theorem with no matching row invites the classic EctJ objection that the asymptotics carry no
+finite-sample evidence; a simulation with no matching theorem is decoration to cut.
+
+## Anchoring the DGP in the application
+
+The other classic objection is a simulation design detached from the empirical illustration. Fix
+it by calibration (illustrative numbers): if the application is a firm panel with N=180, T=12, and
+residual serial correlation around 0.6, the core DGP should be N=200, T=12 with AR(1) errors at
+rho in {0, 0.3, 0.6}, not an i.i.d. cross-section with n=10,000. State in the simulation preamble
+which DGP parameters were estimated from the application data and which probe theoretical
+boundaries. One calibrated design plus one boundary design beats six arbitrary grids at this
+venue, and the pairing lets the empirical section reuse the simulation's vocabulary when it
+explains why the new procedure changes the applied conclusion.
+
+## Computation reporting floor
+
+- State replication counts and justify them (illustrative floor: 1,000 draws for size claims,
+  more when coverage is pushed to the third digit).
+- Report wall-clock runtime for the main simulation and the application on stated hardware;
+  the EctJ replication policy makes these numbers checkable after conditional acceptance.
+- Log convergence failures per design cell and the handling rule (drop, restart, flag); silent
+  drops change rejection rates, and referees at this venue know it.
+- Name the software stack and versions in the simulation note, matching the replication README.
+
 ## Output format
 
 ```text

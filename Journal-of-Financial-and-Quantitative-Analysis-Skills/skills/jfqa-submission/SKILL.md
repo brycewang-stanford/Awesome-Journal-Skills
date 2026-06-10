@@ -36,6 +36,29 @@ Run this before pressing submit on **Editorial Manager** (`editorialmanager.com/
 - Image-only PDF; abstract over 100 words; wrong font/margins/spacing; author identity left in text or metadata.
 - Resubmitting a previously rejected paper without disclosing it (one-year ban); requesting a code-sharing exception only after submission.
 
+## Desk-reject patterns at the JFQA screen
+
+| Pattern | Why it fails here | Preflight fix |
+|---|---|---|
+| Abstract at 130 words | violates a stated hard cap before content is judged | compress with jfqa-contribution-framing |
+| Scanned or image-only exhibits | breaks the text-searchable-PDF requirement | regenerate exhibits as embedded vector/text |
+| Manuscript far longer than the contribution | JFQA explicitly discourages over-long papers | move robustness to an Internet Appendix |
+| Author name in PDF Properties | de-anonymizes a double-anonymous process | scrub metadata, rebuild from a clean profile |
+| Undisclosed prior JFQA rejection | triggers desk rejection plus the one-year ban | disclose in the cover letter with the change summary |
+| Descriptive essay without quantitative analysis | misses the journal's quantitative identity | retest fit via jfqa-topic-selection first |
+| Exception request sent after submission | the policy requires it at initial submission | fold the request into today's cover letter |
+
+## Submission-day run sheet
+
+1. Rebuild the PDF from the final source on a clean user profile; verify searchability by text-searching a phrase from a table note.
+2. Open the PDF properties and confirm Author/Creator fields carry no names; re-export if they do.
+3. Re-count the abstract one final time — edits during revision quietly push it past 100 words.
+4. Log in to the Editorial Manager JFQA account (it is separate from any Cambridge Core login); enter all co-authors with current affiliations in the metadata, which stays hidden from reviewers.
+5. Paste the cover letter: prior-rejection disclosure if applicable, code-sharing exception request if needed, and a one-line fit statement naming the subfield.
+6. Pay the $350 by credit card; download and archive the submission confirmation and the exact PDF submitted, since the R&R must diff against it months later.
+
+Specific upload fields and fee mechanics evolve — confirm against the journal's current author guidelines on the day you submit.
+
 ## Output format
 
 ```

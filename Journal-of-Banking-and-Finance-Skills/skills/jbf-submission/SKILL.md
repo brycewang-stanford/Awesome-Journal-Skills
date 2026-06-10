@@ -29,6 +29,45 @@ description: Use when running the final pre-submission preflight for the Journal
 - [ ] Suggested/excluded reviewers; cover letter (question, design, headline result, JBF fit)
 - [ ] COI/funding disclosures; not under review elsewhere; data availability statement (see jbf-replication-and-data-policy)
 
+## Cover letter skeleton (JBF-tuned)
+
+```
+Dear Editors,
+We submit "[title]" for consideration at the Journal of Banking & Finance.
+[1-2 sentences: finance question + setting, anchored in banking /
+ intermediation / markets / regulation]
+[1 sentence: identification or design in plain terms]
+[1 sentence: headline result with magnitude in finance units]
+[1 sentence: contribution relative to the closest JBF-relevant strand]
+The manuscript is not under review elsewhere; the fee/waiver, declarations,
+and data availability statement are complete in Editorial Manager.
+```
+
+## Highlights drafting (illustrative)
+
+Elsevier Highlights are short result bullets (the common convention is 3-5 bullets of roughly 85 characters each — confirm against the journal's current author guidelines):
+
+- "LCR adoption shifts large-bank lending toward short maturities" — good: result-forward.
+- "We study liquidity regulation using a large panel" — bad: describes activity, not a finding.
+- Lead every bullet with the finding; reserve one bullet for the policy-relevant magnitude.
+
+## Submission-day order of operations
+
+1. Final anonymization sweep: body text, acknowledgements, footnotes, file metadata.
+2. Fee path confirmed: budget approval for the USD 350 or the waiver code in hand.
+3. Declarations drafted offline (AI use, COI, funding, data availability) for pasting into Editorial Manager.
+4. Upload in order: separate title page, anonymized manuscript, Highlights, declarations.
+5. Record the SSRN opt-in decision and the suggested/excluded reviewer list.
+
+## Last-mile failures specific to JBF
+
+| Failure | Consequence | Fix before submitting |
+| --- | --- | --- |
+| PDF metadata shows an author name | administrative unblinding bounce | strip document properties on the anonymized file |
+| Fee handled without budget approval | submission stalls in Editorial Manager | settle the USD 350 or the waiver code first |
+| No data statement for licensed bank data | declarations incomplete | draft via jbf-replication-and-data-policy |
+| Cover letter pitches only a "novel dataset" | weak desk-screen signal | re-pitch the intermediation mechanism via jbf-contribution-framing |
+
 ## Anti-patterns
 
 - Budgeting zero for the fee, or expecting a refund after a desk reject

@@ -31,6 +31,29 @@ RoF referees apply **top-three-finance-journal standards** to the inferential or
 - **Proof exposition**: keep proofs self-contained in an appendix with intuition in the body; proofs count against the **60-page cap**.
 - **Numerical work**: report solver tolerances, convergence, and seeds (see `rof-replication-and-data-policy`).
 
+## Diagnostics placement grid — body vs. internet appendix
+
+| Design | Must sit in the body | Goes to the internet appendix |
+|--------|----------------------|-------------------------------|
+| Staggered DID | event-study plot with pre-trends; heterogeneity-robust estimate next to TWFE | Bacon decomposition detail; alternative comparison groups |
+| IV | first-stage table with effective F; the exclusion argument in prose | weak-IV-robust CIs; alternative instruments |
+| RDD | density test; the main RD plot | bandwidth grid; donut; placebo cutoffs |
+| Return event study | abnormal-return model choice; clustering by event date | alternative factor models; bootstrap inference |
+| Fama–MacBeth / sorts | Shanken or NW errors; microcap screen statement | alternative breakpoints; subperiods |
+
+RoF's editors want the identification spine self-contained inside the 60-page envelope; the appendix carries the battery, the body carries the logic.
+
+## Worked vignette — a staggered short-sale-ban DID
+
+Illustrative numbers. Twelve European exchanges ban short sales on financial stocks on different 2008–2012 dates. TWFE yields −1.9% on a liquidity outcome; Callaway–Sant'Anna with not-yet-treated controls yields −3.4% — TWFE was diluted by already-treated comparisons. The RoF-grade presentation: lead with the event-study figure (flat pre-trends, 95% bands, joint pre-trend test p = 0.41 reported, not just plotted); one table with both estimators; one sentence naming the identifying variation ("ban dates set by national regulators' crisis calendars, not by stock-level liquidity trends"); and the magnitude translated — 3.4% of the average bid–ask spread, roughly the trading-cost jump of moving the median bank stock one liquidity decile.
+
+## Referee pushback and the venue-specific repair
+
+- "Ban timing is endogenous to crisis severity" → show timing is uncorrelated with pre-ban outcome trends; add severity-bin interactions; isolate a subset where the trigger was plausibly external.
+- "The exclusion restriction is asserted, not argued" → add a falsification outcome the instrument should not move and cite the institutional document that created the variation — RoF referees reward institutional specificity over econometric hand-waving.
+- "Your proposition rides on CARA plus normality" → prove the comparative static for a wider preference class or locate numerically where it breaks; the breaking point goes in the body, the proof in the appendix (which still counts toward the 60 pages).
+- "Anomalies like this die out of sample" → pre-commit an international split (e.g., Datastream non-US sample) or a post-publication window before the referee demands one.
+
 ## Anti-patterns
 
 - TWFE on staggered treatment with no heterogeneity-bias discussion.

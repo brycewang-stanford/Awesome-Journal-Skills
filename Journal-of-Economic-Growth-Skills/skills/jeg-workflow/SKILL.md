@@ -1,6 +1,6 @@
 ---
 name: jeg-workflow
-description: Use to orient and sequence a full manuscript lifecycle for the Journal of Economic Growth (JEG) — a specialist Springer Nature outlet for economic growth and dynamic macroeconomics spanning theory and empirics. Routes to the other eleven jeg skills and branches by paper type.
+description: Use when orienting and sequencing a full manuscript lifecycle for the Journal of Economic Growth (JEG) — a specialist Springer Nature outlet for economic growth and dynamic macroeconomics spanning theory and empirics. Routes to the other eleven jeg skills and branches by paper type.
 ---
 
 # JEG Manuscript Workflow (jeg-workflow)
@@ -36,6 +36,23 @@ Because JEG runs roughly equal theory and empirics, classify your paper early; t
 - Treating JEG like a general-interest top-5 outlet (it is a specialist journal).
 - Deferring the theory-vs-empirics classification until the identification stage.
 - Skipping the scope check and pitching a paper whose growth content is incidental.
+
+## Branch gates by paper type
+
+Each branch carries a gate that, if failed, sends you backward rather than forward:
+
+- **Empirical (persistence / comparative development)**: before jeg-data-analysis, write an identification memo naming the shock, the exclusion-restriction defense, and the spatial-inference plan (Conley cutoffs, placebo strategy). No memo, no estimation.
+- **Theory (growth / dynamic macro)**: before drafting, write a result memo stating existence, uniqueness, and stability of the balanced-growth path and which assumption is the binding one. A model with no sharp dynamic prediction is not yet a JEG paper.
+- **Quantitative/calibrated**: before jeg-tables-figures, the moment table must separate targeted from untargeted moments and tie each parameter to a documented source.
+- **Mixed papers**: run both memos, and check that the model's binding assumption and the empirical shock speak to the same growth mechanism — otherwise the two halves drift apart during drafting.
+
+## Worked vignette — routing a comparative-development project
+
+Illustrative project: colonial railroad placement and modern African city growth. Routing: topic-selection passes (a long-run divergence question); literature-positioning flags two strands to bridge (transport-and-development, deep determinants); identification-strategy demands the least-cost-path instrument's exclusion defense plus a Conley plan before any data work; data-analysis schedules the mechanism decomposition (market access versus schooling) as a main exhibit; tables-figures puts the placement map first. Net path: eight of the twelve skills fire before first submission, and the two skipped (review-process, rebuttal) return once the decision letter lands.
+
+## Lifecycle pacing (hedged)
+
+A quarterly journal with a specialist referee pool means multi-month review rounds; use the waiting time to harden the replication package and the mechanism appendix. Re-confirm process and formatting details against the journal's current author guidelines at the start of every submission round.
 
 ## Output format
 

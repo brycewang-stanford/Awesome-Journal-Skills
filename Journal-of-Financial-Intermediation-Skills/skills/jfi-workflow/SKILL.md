@@ -1,6 +1,6 @@
 ---
 name: jfi-workflow
-description: Use as the router for a Journal of Financial Intermediation manuscript — given where you are in the banking/intermediation paper lifecycle, it names the next jfi-* skill to invoke. It coordinates; it does not draft content.
+description: Use when routing a Journal of Financial Intermediation (JFI) manuscript through its lifecycle — given where you are in the banking/intermediation paper pipeline, it names the next jfi-* skill to invoke and separates the theory-led path from the empirics-led path. It coordinates; it does not draft content.
 ---
 
 # JFI Workflow Router (jfi-workflow)
@@ -41,6 +41,49 @@ financial-economics topics. So the router first asks whether the paper's core co
 topic-selection → literature-positioning → identification-strategy → data-analysis →
 contribution-framing → tables-figures → writing-style → replication-and-data-policy → review-process →
 submission → rebuttal.
+
+## Two lifecycle profiles through this router
+
+- **Empirics-led** (e.g., a register-based lending-channel paper): topic-selection settles the mechanism;
+  `jfi-identification-strategy` is the heaviest stop (demand confounds, within-firm design);
+  `jfi-data-analysis` builds the battery; `jfi-review-process` matters **early**, because the desk screen
+  is the binding constraint, not the referee round.
+- **Theory-led** (e.g., a model of run-prone shadow funding): `jfi-identification-strategy` becomes
+  assumptions-and-propositions discipline; `jfi-data-analysis` shrinks to a numerical illustration;
+  `jfi-writing-style` carries more weight, since proof exposition is the surface the referee actually
+  reads.
+
+## Symptom → skill routing
+
+| Symptom | Route to |
+|---|---|
+| "A referee could say it's all borrower demand" | `jfi-identification-strategy` |
+| Abstract reads like generic banking | `jfi-contribution-framing` |
+| Closest citations are all JF/JFE general finance | `jfi-literature-positioning`, then re-test fit |
+| Exhibits do not show the mechanism | `jfi-tables-figures` |
+| Worried about paying the non-refundable fee | `jfi-review-process` + the gates in `jfi-submission` |
+| Restricted register data, sharing plan unclear | `jfi-replication-and-data-policy` |
+
+## Stage gates before money and goodwill are spent
+
+1. **Gate A** (after literature-positioning): the delta is a mechanism, not merely a new dataset.
+2. **Gate B** (after identification/data-analysis): a within-firm or equivalent demand control exists, or
+   the theory's propositions are fully proved with stated boundaries.
+3. **Gate C** (before submission): the desk-screen self-audit passes — mechanism in the abstract, design
+   defended in the introduction, fee justified. The exact fee amount: confirm against the journal's
+   current author guidelines.
+
+## A routing pass, worked (illustrative)
+
+An author arrives with loan-level evidence that small banks cut credit after a deposit outflow.
+`jfi-topic-selection`: strong fit once anchored to liquidity transformation. `jfi-literature-positioning`:
+closest papers are the deposits-channel line; the delta is the relationship-borrower margin.
+`jfi-identification-strategy`: outflow exposure may proxy local demand — gate B forces a within-firm
+design before any drafting continues. `jfi-data-analysis`: battery planned around that threat. Only then
+do framing, exhibits, and style run, and `jfi-submission` clears the fee gates. The router's value is
+refusing to let writing start before gate B — at JFI the design objection, not the prose, kills papers.
+On an R&R, re-enter the map at the skill matching the referee's heaviest comment, then exit via
+`jfi-rebuttal`.
 
 ## Anti-patterns
 

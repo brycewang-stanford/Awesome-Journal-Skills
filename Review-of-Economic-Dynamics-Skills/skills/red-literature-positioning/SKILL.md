@@ -56,6 +56,40 @@ Use this sequence:
 
 Do not spend equal space on literatures that supply motivation but do not discipline the dynamic model.
 
+## Lineage map template
+
+Write the positioning as a lineage map before drafting prose:
+
+```text
+LINEAGE MAP — [paper title]
+  Tradition:       [e.g., incomplete-markets / Aiyagari–Bewley–Huggett]
+  State variables: [what the tradition tracks: wealth distribution, beliefs, match capital]
+  Closest model:   [author-year] — misses [mechanism]
+  Closest moment:  [author-year] — cannot match [moment + magnitude]
+  Closest method:  [author-year] — constrained by [computational or estimation limit]
+  This paper:      adds [delta] and shows [quantitative consequence]
+```
+
+Every line should name something dynamic — a state variable, a shock process, a friction, or a solution
+method. If a line can only be filled with a topic word ("inequality", "housing"), the positioning is
+still generalist and not yet RED-shaped.
+
+## Positioning vignette: a firm-dynamics draft
+
+A draft embeds collateral constraints in a Hopenhayn-style entry/exit model. Illustrative map: tradition
+= heterogeneous-firm dynamics; closest model = a frictionless benchmark whose firm-size distribution is
+too thin at entry; closest moment = an exit hazard by age that prior calibrations overshoot by roughly a
+third (illustrative figure); delta = a borrowing constraint that bends the hazard while preserving the
+aggregate-TFP discipline of the benchmark. The introduction's first four sentences fall straight out of
+this map, each anchored by one author-year citation.
+
+## Strand-weighting rule
+
+Allocate related-work space by what disciplines the model: strands that supply calibration targets,
+solution methods, or competing mechanisms earn paragraphs; strands that only motivate the topic earn one
+sentence with a representative citation. SED readers forgive a short motivation; they do not forgive a
+missing comparison to the nearest quantitative experiment in their own tradition.
+
 ## Supplementary resources
 
 - [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — author-year style and scope sources

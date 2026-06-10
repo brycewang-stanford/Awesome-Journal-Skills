@@ -47,6 +47,45 @@ The estimate is robust to [key check], supporting [mechanism].
 - Give every acronym on first use.
 - Put limitations before the referee finds them.
 
+## Abstract calibration for JBF
+
+A JBF-ready abstract typically runs four to six sentences: question, setting and data, design, headline magnitude in finance units, and one bounded implication. Elsevier defaults often cap abstracts near 250 words — confirm against the journal's current author guidelines.
+
+```text
+[Question] Does X friction change Y bank/market outcome?
+[Setting] data + period + unit (e.g., bank-quarter Call Reports, 2005-2019)
+[Design] the variation in one clause (staggered adoption / threshold / exposure)
+[Result] magnitude with units (basis points, pp of assets, capital-ratio points)
+[Implication] one sentence, inside the identified margin
+```
+
+## Worked rewrite (illustrative)
+
+Before: "The coefficient on the regulation dummy is negative and significant at the 1% level, confirming our hypothesis."
+
+After: "Following adoption, treated banks cut commercial lending by 0.9 percentage points of assets (illustrative), about one quarter of average pre-period loan growth, consistent with a liquidity-hoarding channel and concentrated among banks below the median deposit franchise."
+
+The rewrite names the unit, the benchmark, the mechanism, and the heterogeneity in one sentence — the cadence JBF results sections reward.
+
+## Banking terminology hygiene
+
+- Distinguish CET1, Tier 1, and total capital ratios; never write "capital ratio" alone where the Basel definition matters.
+- Define the NPL ratio (nonperforming loans over gross loans) and the delinquency threshold used.
+- State whether the Z-score uses rolling or full-sample volatility, with the construction in the variable appendix.
+- Report spreads in basis points and balance-sheet effects in percentage points of assets; never mix the two in one paragraph without labels.
+
+## Introduction pacing for JBF
+
+- Page 1: question, setting, design, and the headline magnitude in finance units.
+- Page 2: mechanism evidence and the two or three literature deltas.
+- Keep any roadmap paragraph to three sentences or fewer; JBF readers skip longer ones.
+
+## Prose pushbacks JBF referees make
+
+- "I cannot tell which results are causal." → label each claim causal, predictive, or descriptive in the text itself.
+- "The policy section reads like advocacy." → tie every recommendation to an estimated margin and its boundary.
+- "Variable definitions are scattered." → consolidate into one appendix table and reference it from every exhibit.
+
 ## Finance-result sentence
 
 Use this pattern for every headline result:

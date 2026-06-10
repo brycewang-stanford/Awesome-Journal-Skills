@@ -55,6 +55,44 @@ For most RED papers, the exhibit order should mirror the argument:
 If the first exhibit is a static regression table, ask whether the paper is really using RED's dynamic
 lens or drifting toward a field journal.
 
+## Mock moment table (model vs data)
+
+The fit table referees scan first should look like this (all numbers illustrative):
+
+```text
+Table X: Targeted and untargeted moments
+                                     Data    Model   Source
+Targeted
+  Wealth-to-income ratio             2.90    2.90    NIPA / Flow of Funds
+  Share with negative net worth      0.135   0.132   SCF
+Untargeted
+  Wealth Gini                        0.78    0.74    SCF
+  Top-10% wealth share               0.71    0.66    SCF
+  Average quarterly MPC              0.16    0.19    literature estimates (author-year)
+Notes: model moments from the stationary distribution; simulation of 100,000
+households; seed recorded in the archive readme.
+```
+
+The Targeted/Untargeted split must be typographically explicit — a single undifferentiated column invites
+the circularity objection from quantitative-macro referees.
+
+## Exhibit-budget anchor
+
+Hedged anchor (verify against recent RED issues rather than treating it as policy): mainline quantitative
+papers commonly carry on the order of 4–8 main-text exhibits — typically one mechanism/IRF figure, a
+calibration table, a fit table, and one or two counterfactual exhibits — with accuracy diagnostics and
+extended sensitivity in an appendix. Treat that as a budget: each additional main-text exhibit must
+change what the reader believes about the mechanism or the magnitude.
+
+## Figure-craft pushback
+
+| Exhibit complaint | Fix for a dynamics paper |
+|---|---|
+| IRFs without units or horizon labels | percent vs pp deviation, quarters vs years, stated on axes and in notes |
+| Counterfactual shown only at the new steady state | add the transition path — adjustment dynamics are often the contribution |
+| Mechanism overlays illegible in grayscale | vary line style, not only color; print-test the PDF |
+| Distributional result collapsed to a mean | plot the policy function or the cross-sectional shift; heterogeneity is usually the point |
+
 ## Supplementary resources
 
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — plotting and solver outputs

@@ -35,6 +35,47 @@ For an EctJ methods paper, the replication package should let a referee rerun th
 If the proof is symbolic rather than computational, still include any scripts used for figures, numerical
 examples, or robustness checks. Do not leave code that changes a published number outside the package.
 
+## Acceptance-risk audit
+
+Run this audit before treating the package as ready:
+
+- Match every numbered table, figure, simulation panel, and appendix exhibit to a producing script.
+- Record the exact software stack, solver options, random seeds, BLAS or parallel settings, and any
+  non-default package versions that can change Monte Carlo output.
+- Separate slow exhaustive simulations from the short smoke run a referee can execute quickly; both should
+  write comparable output names.
+- For restricted data, provide the legal access path, synthetic or public-use substitute when possible,
+  and the reason the substitute cannot reproduce confidential quantities exactly.
+- Check that manuscript labels, supplement labels, file names, and README names agree after final
+  revisions. A stale label is evidence that the package was not rerun.
+
+For EctJ, the package should make the method credible, not merely archived. A referee should be able to
+see which computation supports the leading-case theory, which computation supports practical use, and
+which files are optional robustness material.
+
+## Monte Carlo determinism checks
+
+Simulation-heavy EctJ papers fail reproduction for reasons pure-empirics packages never face.
+Verify each before delivery:
+
+- One named seed per experiment, set inside the script rather than at the console; the RES policy
+  explicitly expects seeds to be set for simulations.
+- Parallel runs use a reproducible RNG-stream scheme (one substream per replication), because
+  thread scheduling otherwise reorders draws and shifts the third digit of rejection rates.
+- Record solver tolerances and optimizer starting values; a Monte Carlo that mostly converges
+  must log which replications failed and how they were handled.
+- Rerun the smoke version on a clean machine and diff against the shipped output; illustrative
+  bar: simulated sizes should match to the digits printed in the paper.
+
+## Calibration: what a posted EctJ package looks like
+
+Accepted packages appear alongside the article as OUP Supporting Information. Typical shape,
+hedged where journal practice varies: a top-level README, a master script per claim layer
+(simulation, application, exhibits), pinned software versions, and data or documented access
+instructions with ASCII fallbacks for proprietary formats. Exact file-format and size constraints
+on the OUP side can change; confirm against the journal's current author guidelines before the
+final upload.
+
 ## Output format
 
 ```text

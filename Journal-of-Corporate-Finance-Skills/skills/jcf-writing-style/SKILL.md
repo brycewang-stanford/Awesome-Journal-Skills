@@ -35,6 +35,46 @@ No citations, no undefined abbreviations, no over-claiming.
 - State the design's limits honestly — single-anonymized reviewers see the authors and will not be impressed by spin.
 - Keep tense and notation consistent; spell out acronyms once.
 
+## Worked abstract (illustrative)
+
+A compliant skeleton for a hypothetical governance paper — invented numbers, well under the 250-word cap:
+
+```text
+We study whether mandated board independence changes corporate investment. Exploiting a governance
+reform that forced a subset of firms to add independent directors, we estimate difference-in-differences
+specifications with firm and industry-by-year fixed effects. Treated firms increase investment by 1.1
+percentage points of assets — roughly 12 percent of the sample mean — with effects concentrated where
+pre-reform boards were most insider-dominated. The evidence is consistent with independent directors
+relaxing managerial conservatism rather than improving project selection. The results inform the debate
+over one-size-fits-all board mandates.
+```
+
+Every sentence maps to the recipe: question, design, magnitude, mechanism, so-what — and there are no citations.
+
+## Introduction arc for a JCF paper
+
+- Paragraph 1: the corporate-finance decision and why it is unresolved — no literature dump.
+- Paragraph 2: the setting and identification in plain words; the reader should be able to referee the design from this paragraph alone.
+- Paragraph 3: headline results with magnitudes, in the order the tables deliver them.
+- Paragraph 4: mechanism evidence and which alternatives are ruled out.
+- Paragraph 5: contribution relative to the 2–3 closest papers (see jcf-literature-positioning).
+- Keep the intro lean; long royal-road introductions are a general-interest-journal habit that reads as padding at this venue.
+
+## Claim-calibration phrasebook
+
+Match verbs to design strength — single-anonymized referees punish mismatches:
+
+```text
+Evidence base                  | Allowed phrasing                   | Banned phrasing
+Quasi-experiment + diagnostics | "causes", "leads to", "increases"  | nothing beyond the estimand's scope
+IV with argued exclusion       | "consistent with a causal effect"  | unconditional "proves"
+Matching / FE-only OLS         | "is associated with", "predicts"   | "causes", "drives"
+Cross-sectional splits         | "consistent with the channel"      | "establishes the mechanism"
+Calibrated theory              | "can rationalize", "implies"       | "demonstrates empirically"
+```
+
+When in doubt, the abstract takes the most conservative defensible verb; the body can argue for more.
+
 ## Pre-submission language checklist
 
 - [ ] Abstract ≤ 250 words, no references, abbreviations defined

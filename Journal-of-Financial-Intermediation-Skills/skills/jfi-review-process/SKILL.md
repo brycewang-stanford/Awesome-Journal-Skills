@@ -1,6 +1,6 @@
 ---
 name: jfi-review-process
-description: Use to understand and plan around the Journal of Financial Intermediation editorial process — the active desk-rejection policy, single-anonymized (single-blind) review with a minimum of one expert referee, the editor's final and unappealable decision, and the option to choose the Managing Editor. It sets expectations; it does not draft content.
+description: Use when navigating the Journal of Financial Intermediation (JFI) editorial process — the active desk-rejection policy, single-anonymized (single-blind) review with a minimum of one expert referee, the editor's final and unappealable decision, and the option to choose the Managing Editor. It sets expectations; it does not draft content.
 ---
 
 # Review Process (jfi-review-process)
@@ -37,6 +37,28 @@ description: Use to understand and plan around the Journal of Financial Intermed
 - **Treat the decision as final.** Win up front with a clean submission and tight cover letter.
 - **Pick the editor deliberately** if your topic maps to a board member's expertise — but verify current
   editors first (待核实).
+
+## Desk-reject patterns at this journal
+
+| Pattern | Why JFI's screen catches it |
+|---|---|
+| Correlational bank-panel paper with no design | Empirics here must discipline a mechanism, not document an association |
+| Banks as a setting, not the subject | Intermediation must be load-bearing (see jfi-topic-selection) |
+| Pure asset pricing or corporate finance | Outside the journal's home ground, however polished |
+| Policy commentary without an economic model or design | The journal publishes research, not assessment notes |
+| Mechanism buried past page 3 | Triage reads the abstract and introduction only |
+
+## Calibration: the shape of papers that survive (hedged)
+
+As reading-based calibration, not stated policy: surviving empirical papers pair a tight introduction
+with an identification section that confronts demand-side confounds head-on, a main table plus a dynamics
+figure, and robustness in an appendix; theory papers carry propositions in the text, proofs in an
+appendix, and often a numerical illustration of the mechanism. Timelines and acceptance shares are not
+published in a form this skill will quote — confirm against the journal's current author guidelines and
+recent issues rather than secondhand statistics. A practical proxy: skim the latest two issues and note
+how quickly each paper states its intermediation mechanism; that is the de facto screen you must match.
+Note also which sub-literatures the current issues carry — a venue actively publishing fintech and
+shadow-banking work signals appetite beyond traditional bank-balance-sheet papers.
 
 ## Anti-patterns
 

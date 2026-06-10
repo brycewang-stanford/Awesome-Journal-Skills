@@ -1,6 +1,6 @@
 ---
 name: mathfin-data-analysis
-description: Use for the numerical-experiments part of a Mathematical Finance (Wiley) manuscript — adapted for a theory journal, this means illustrative computation that SUPPORTS a proof (convergence, error bounds, qualitative behavior), not empirical data analysis. Keeps numerics rigorous and subordinate to the theory.
+description: Use when designing or auditing the numerical-experiments part of a Mathematical Finance (Wiley) manuscript — at this theory-first venue that means illustrative computation that SUPPORTS a proof (convergence, error bounds, qualitative behavior), never empirical data analysis. Keeps numerics rigorous, reproducible, and subordinate to the theorems.
 ---
 
 # Numerical Experiments (mathfin-data-analysis)
@@ -41,6 +41,36 @@ than its empirical-journal counterpart.
 - Make illustrative code reproducible; consider archiving it (Zenodo/GitHub) and citing it.
 - Include a **Data Availability Statement** even if no external data are used (see
   mathfin-replication-and-data-policy).
+
+## Matching scheme to result type
+
+| Result being illustrated | Natural scheme | What the exhibit must report |
+| --- | --- | --- |
+| Strong/weak SDE convergence rate | Euler–Maruyama or Milstein with halving steps | log–log error slope against the proven order |
+| BSDE well-posedness or rate | Backward Euler / least-squares Monte Carlo / deep BSDE solver | terminal error and driver residual across grids |
+| Optimal stopping / free boundary | Binomial tree or PDE variational-inequality solver | boundary location against the smooth-fit characterization |
+| Rough-volatility approximation | Hybrid scheme for fractional kernels; Markovian lift | implied-vol skew slope against the proven power law |
+| Duality gap = 0 | Primal candidate and dual bound computed independently | gap shrinking as the discretization refines |
+| Mean-field limit | N-player simulation vs. McKean–Vlasov solver | distance to the limit decaying in N at the stated rate |
+
+## Worked micro-example: convergence exhibit for a rough-volatility paper
+
+Suppose Theorem 3.2 proves that a Markovian multi-factor approximation of a rough volatility
+model converges at a rate governed by the Hurst parameter H. The journal-appropriate exhibit:
+simulate both models with the same Brownian increments, plot the implied-volatility error
+against the number of factors on log axes, draw the theoretical slope as a reference line, and
+caption with the scheme, step size, path count, seed, and the theorem number. What would NOT
+fit: calibrating the approximation to index-option data and reporting fit quality — that turns
+an illustration into the empirical study the journal screens out.
+
+## Pre-submission numerics audit
+
+- Every exhibit names the theorem, proposition, or rate it illustrates — no orphan plots.
+- The observed rate is computed (regression slope), not eyeballed, and stated next to the
+  proven one.
+- Degenerate sanity cases (zero volatility, Black–Scholes limit, H → 1/2) reproduce known
+  closed forms before the general runs are trusted.
+- The numerical section would survive deletion: the theorems stand alone without it.
 
 ## Anti-patterns
 

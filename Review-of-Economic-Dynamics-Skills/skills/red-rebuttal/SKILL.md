@@ -48,6 +48,48 @@ Any revision that changes a parameter, calibration target, solution method, samp
 requires rerunning the affected exhibits and updating the archive README. If the response letter says
 "results are unchanged," cite the rerun script and output date.
 
+## Response-letter skeleton for a RED R&R
+
+```text
+Dear [Coordinating Editor],
+
+Summary of changes (one page max):
+  1. [Model/mechanism change] — new Section X, new Figure Y
+  2. [Calibration/estimation change] — Table Z re-estimated; archive updated
+  3. [New robustness] — Appendix C: accuracy checks / alternative targets
+
+Referee 1
+  Comment 1.1 (quoted). Response: [change + manuscript location].
+    Rerun: run_all.sh, [date], seeds unchanged.
+  Comment 1.2 (quoted). Response: we respectfully maintain [claim] because
+    [quantitative evidence: robustness table / accuracy check / proposition].
+
+Referee 2
+  ...
+
+Archive note: data/code archive v[X.Y] resubmitted; readme.txt updated
+(execution order, expected runtime, random seeds).
+```
+
+Date-stamping each rerun and versioning the archive is cheap and signals the code-first discipline RED's
+data/code policy institutionalizes.
+
+## Frequent RED referee demands and how to absorb them
+
+| Demand | Cost | Strategy |
+|---|---|---|
+| "Redo the counterfactual under an alternative calibration" | compute hours–days | run it; report in an appendix; flag heavy runtime in the letter |
+| "Show the mechanism in a simplified version" | modeling time | add a two-period or representative-agent special case isolating the force |
+| "Your solution may be inaccurate near the constraint" | re-solving | refine the grid near the kink; report Euler errors before and after |
+| "Estimate parameter X rather than calibrating it" | substantial | negotiate: SMM on a focused moment set, or a sensitivity band with a reason estimation is infeasible |
+| "Compare against [referee's preferred model]" | varies | implement a stripped-down version if central; otherwise differentiate analytically and bound the horse race out of scope |
+
+## Triage order for the revision
+
+Address concerns in this order: (1) anything questioning whether the mechanism exists, (2) calibration
+and estimation discipline, (3) numerical accuracy, (4) extra experiments, (5) exposition. A reply that
+fixes typos first and the accuracy concern last reads as evasive to quantitative-macro referees.
+
 ## Supplementary resources
 
 - [`red-review-process`](../red-review-process/SKILL.md) — the review model this reply addresses

@@ -44,6 +44,17 @@ For a theory paper the "identification" object is the **logical structure**, not
 - (T) Proofs that assert rather than derive existence/uniqueness/stability.
 - Either track claiming more than the argument supports.
 
+## Persistence-design defenses (Track E extension)
+
+Historical-persistence and deep-determinants papers face a now-standard referee script at this journal; pre-empt all four lines before submission:
+
+- **Spatial autocorrelation**: report Conley standard errors at several distance cutoffs alongside clustered SEs, and show the headline estimate survives the widest defensible cutoff.
+- **Spurious spatial fit**: run placebo treatments drawn from spatially correlated noise and report where the true coefficient falls in that placebo distribution.
+- **Overused instruments**: if your instrument (terrain, climate, disease ecology, a historical shock) has already served other outcomes in print, defend exclusion against *each* published channel it explains — not in the abstract.
+- **Mechanism opacity**: a reduced-form persistence coefficient is a starting fact, not an answer; bring intermediate-period outcomes or a decomposition that traces how the past reaches the present.
+
+A persistence paper that clears only the first two is an economic-history note; clearing all four is what makes it a growth paper.
+
 ## Output format
 
 ```

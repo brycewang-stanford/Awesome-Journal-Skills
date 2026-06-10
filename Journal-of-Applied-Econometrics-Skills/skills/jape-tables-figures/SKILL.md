@@ -22,17 +22,57 @@ JAE imposes a **hard 35-page limit on the main article**, but **online appendice
 
 Reach for a figure when a table obscures the point: finite-sample patterns, forecast performance, impulse responses, or diagnostic behavior over a tuning parameter.
 
+## Exhibit triage
+
+Classify every exhibit before typesetting:
+
+- **Main evidence**: directly answers the applied question or changes the headline conclusion.
+- **Method diagnostic**: explains why the estimator, inference procedure, forecast comparison, or
+  simulation design is credible.
+- **Robustness support**: protects the result but is not needed for first-pass understanding.
+- **Archive-only detail**: required for reproduction, but too mechanical for the article or appendix prose.
+
+Main evidence and one diagnostic usually belong in the article. Robustness support belongs in the online
+appendix unless it reverses interpretation. Archive-only detail belongs in the README/code outputs, with
+clear pointers from the appendix.
+
 ## Self-contained and reproducible
 
 - Each note states sample, units, estimator, inference (HAC/clustered), tuning, and what is varied.
 - Figures at **highest resolution** with legends; supporting information in **separate files**.
 - Every exhibit must be **regeneratable** by the master script from depositable data/code (see `jape-data-analysis`) — note where in the code each exhibit is produced.
 
+## Anatomy of a JAE estimates table
+
+Referees at this venue read the inference rows before the coefficients. A main-results table should carry, per column: the estimate with its standard error; *which* standard error (HAC with stated bandwidth, cluster-robust with the cluster count, wild-bootstrap p-value with replications); N and sample span; first-stage effective F for any IV column; and fixed effects / controls flags. The note then names the deposited program that rebuilds the table. A table whose note cannot answer "clustered on what, how many clusters?" invites the first referee objection at JAE.
+
+## Worked exhibit budget under 35 pages (illustrative)
+
+A staggered-policy panel paper with 23 candidate exhibits. Triage: main text gets a descriptive table, the headline estimates table (with CRVE and wild-bootstrap p-values side by side), one event-study figure, one heterogeneity table, and one diagnostic figure — 5 exhibits, ~9 pages of floats, leaving ~26 for prose within the limit. The online appendix takes the other 18: full robustness grids, alternative estimators, pre-trend variants, simulation tables. Two exhibits turn out to be archive-only (instrument-construction intermediates): they live as CSVs in the deposit, pointed to from the readme, not typeset at all.
+
+## Exhibit pushback and the archive answer
+
+- "Where is the specification with X?" → it exists in appendix Table C4 *and* as a one-flag rerun of the deposited master script — say both in the response.
+- "The figure looks cherry-picked over bandwidths" → replace with a sensitivity curve over the full grid; archive the grid CSV.
+- "I cannot match Figure 2 to any number in the text" → add the point estimates to the figure note and name the generating program.
+- "Too many tables to follow" → consolidate to one table per claim; JAE's lean-text/rich-appendix design is the escape valve, use it.
+
+## Table-note template
+
+```text
+Notes: Sample [span, N]. Estimator: [e.g., 2SLS]. Standard errors:
+[HAC, Bartlett, lag L / clustered by state, G = 13 / wild cluster
+bootstrap, Webb weights, 9,999 reps, seed in README]. First-stage
+effective F = [value] (IV columns). *, **, *** : 10/5/1%.
+Reproduce: programs/table3.do in the JAE Data Archive package.
+```
+
 ## Output format
 
 ```
 【Page budget】main text ≤ 35 pp? [Y/N]
 【Split】core in text, robustness in appendix? [Y/N]
+【Inference rows】SE type, cluster count, F where relevant? [Y/N]
 【Notes】each exhibit self-contained? [Y/N]
 【Reproducible】regeneratable + code location noted? [Y/N]
 ```

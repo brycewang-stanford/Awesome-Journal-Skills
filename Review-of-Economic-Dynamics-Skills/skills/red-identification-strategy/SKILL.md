@@ -57,6 +57,44 @@ For quantitative papers, create a table with one row per key parameter:
 
 Any parameter that is free and influential needs a sensitivity check or a narrower claim.
 
+## Model-solution audit block
+
+For computational claims, attach an audit record so a referee can see what the numbers rest on:
+
+```text
+SOLUTION AUDIT — [model name]
+  Method:       EGM on the household problem; sequence-space Jacobian for GE transitions
+  State space:  assets 250 pts (log-spaced); productivity 7-state Rouwenhorst
+  Convergence:  policy-function sup-norm < 1e-9; market clearing < 1e-7
+  Accuracy:     max log10 |Euler error| = -4.3 (off-grid simulation, 100k agents)
+  Refinement:   headline counterfactual moves < 0.5% when grids are doubled
+  Existence:    stationary-equilibrium existence proved/cited in Appendix A
+```
+
+Any blank line means the matching claim in the text should be weakened until the line can be filled.
+
+## Worked discipline review: a search-and-matching draft
+
+A draft calibrates a Diamond–Mortensen–Pissarides economy and claims wage rigidity explains unemployment
+volatility. Illustrative review of its parameter discipline:
+
+- **Matching elasticity 0.5**, externally set from the literature — acceptable, but the volatility claim
+  is sensitive to it, so a ±0.15 band belongs in the robustness section.
+- **Replacement rate 0.71**, internally calibrated to market tightness — a RED referee will notice this
+  sits near the Hagedorn–Manovskii region where small match surplus generates volatility mechanically;
+  report the result at a conventional 0.4 as well.
+- **Rigidity parameter calibrated to the very volatility moment being explained** — circular. Move that
+  moment out of the target set, or downgrade "explains" to "is consistent with".
+
+## Credibility objections RED referees raise
+
+| Objection | Branch | Fix |
+|---|---|---|
+| "A free parameter drives the result" | quantitative | sensitivity table or a narrower claim |
+| "Equilibrium existence is assumed silently" | theory | state it as an assumption or prove it |
+| "Accuracy unverified at the calibrated point" | computational | Euler/den Haan check at exactly that parameterization |
+| "The reduced-form estimate maps to no model object" | empirical | name the structural parameter or moment the estimate disciplines |
+
 ## Supplementary resources
 
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — solvers and estimation toolkits

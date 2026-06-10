@@ -37,6 +37,34 @@ JFQA submissions use **8.5 × 11 paper, 1-inch margins, 12-pt Times New Roman, d
 - Undisclosed winsorizing or an unstated clustering choice.
 - Image-only exhibits that break the text-searchable-PDF requirement.
 
+## A model JFQA table note, dissected (numbers illustrative)
+
+> Table 3 reports value-weighted monthly returns of decile portfolios sorted on the signal using NYSE breakpoints, July 1973 to December 2023. The sample is CRSP common stocks (share codes 10/11); accounting variables are winsorized at the 1st/99th percentiles and lagged six months. The 10-1 spread is 0.42% per month (t = 2.9, Newey-West with 6 lags), about 5.2% annualized. Alphas are from the five-factor model plus momentum.
+
+Why each clause earns its place: sample and period (replicability), breakpoints and weighting (the two choices that most often flip sort results), winsorizing and lags (data hygiene a JFQA referee will probe), spread with both monthly and annualized magnitude (economic significance), inference method with the lag count (no hidden SE choices), and the benchmark model (so "alpha" is defined). Write every note to this standard and the exhibit survives being read in isolation.
+
+## Result-to-exhibit decision table
+
+| Result type | Exhibit JFQA referees expect |
+|---|---|
+| Cross-sectional return premium | decile-sort table with 10-1 row, then a Fama-MacBeth table |
+| Policy/regulation effect | event-study coefficient figure with CIs, then a group-time ATT table |
+| Threshold design | binned scatter at the cutoff plus a bandwidth-robustness table |
+| Mechanism claim | split-sample or interaction table keyed to where the channel should bind |
+| Headline magnitude | a one-SD / %-of-mean row built into the main table, not buried in text |
+
+## Calibration anchors from the published page
+
+- Recent JFQA empirical papers commonly carry on the order of eight to twelve main-text exhibits, with additional robustness in an Internet Appendix — treat this as a soft anchor from reading recent issues, not a quota, and calibrate within your subfield.
+- Internet Appendix exhibits are numbered separately (IA.1, IA.2, ...); the main text must stand alone without them.
+- Every exhibit is cited in order of first mention; an orphan exhibit signals padding to a screener already wary of over-long papers.
+
+## Figure craft for quantitative referees
+
+- Coefficient and event-study plots carry confidence intervals and a marked reference period; a point-estimate-only figure invites the inference question all over again.
+- Axis labels use finance units (bps, %, $bn), and the scale is chosen so the economic magnitude — not just the shape — is readable.
+- Figures must survive grayscale printing and the 8.5 × 11 double-spaced layout without shrinking below legibility.
+
 ## Output format
 
 ```

@@ -55,6 +55,53 @@ For bank/intermediation panels, add targeted checks for:
 
 Report which checks are main-text, appendix, or archive-only.
 
+## Dataset-to-question matrix
+
+| Source | Unit | JBF expectation | Caveat to pre-empt |
+| --- | --- | --- | --- |
+| US Call Reports / FR Y-9C | bank- or BHC-quarter | merger-adjusted series; top-holder aggregation choice stated | identifier breaks across RSSD changes |
+| Orbis Bank Focus (ex-BankScope) | bank-year, cross-country | consolidation-code filters documented | duplicated statements across consolidation levels |
+| DealScan | loan facility | facility vs package level stated; lead-arranger roles defined | borrower link tables need documented match rates |
+| FDIC SDI / failure data | bank-quarter | survivorship handling for failed and acquired banks | de novo entrants and charter conversions |
+| Cross-country regulation surveys | country-wave | survey-wave timing matched to the outcome window | self-reported regulation measures |
+
+## Worked sample build (illustrative)
+
+Target: bank-quarter panel for a liquidity-regulation study, 2005Q1–2019Q4.
+
+- Raw Call Reports: 612,000 bank-quarters (illustrative count).
+- Drop de novo banks (<5 years), foreign branches, and banks under $100 million in assets: −118,000.
+- Merger-adjust around RSSD changes; drop quarters with >50% asset jumps: −24,000.
+- Require non-missing CET1, loans, and core deposits; winsorize ratios at 1/99: final ≈465,000.
+- Put exactly this attrition table in the appendix — JBF referees read it before the regressions.
+
+## Pipeline skeleton
+
+```text
+01_pull_callreports.*   # raw downloads, data vintage recorded
+02_merger_adjust.*      # RSSD link table + asset-jump audit
+03_build_panel.*        # ratios, lags, winsorization flags
+04_baseline.*           # FE + clustering per jbf-identification-strategy
+05_robustness.*         # crisis splits, large-bank drops, alt definitions
+06_export_exhibits.*    # tables/figures numbered as in the manuscript
+```
+
+## Economic-magnitude benchmarks for bank panels
+
+- Loan growth: report effects relative to sample-mean quarterly growth, not only the raw coefficient.
+- Capital: percentage points of CET1, anchored to the regulatory minimum or buffer.
+- Spreads: basis points relative to the mean all-in-drawn spread.
+- Risk: change in Z-score or NPL ratio relative to the cross-sectional standard deviation.
+- Funding: percentage points of the core-deposit or wholesale-funding share.
+
+## Referee data pushbacks
+
+- "Are results a 2008–09 artifact?" → re-estimate excluding 2007Q3–2009Q4 and report both estimates.
+- "Bank Focus duplicates inflate your N." → show the consolidation-filter step with before/after counts.
+- "DealScan spreads ignore fees." → use the all-in-drawn spread and say so in the variable definitions.
+- "Winsorizing at 1/99 hides outliers." → also show 2.5/97.5 and trimmed samples in an appendix column.
+- "Results hinge on the largest banks." → report with and without the systemically important institutions.
+
 ## Output format
 
 ```text

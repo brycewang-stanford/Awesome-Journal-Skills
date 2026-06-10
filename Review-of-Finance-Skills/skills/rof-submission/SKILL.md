@@ -32,6 +32,51 @@ Press. Re-verify volatile figures on the official pages before paying or submitt
 
 See `templates/cover_letter.md` and `templates/checklist.md` for skeletons.
 
+## Track-choice arithmetic — worked example
+
+Illustrative, using the published schedule (re-verify before paying). An EFA member
+submits regular at EUR 300; a desk rejection refunds EUR 100, so being screened out costs
+EUR 200. Fast-Track costs EUR 900 against a 14-day target — the premium buys several
+months of expected calendar on a finished paper. Worth paying when a rival team is
+circulating the same natural experiment or a deadline (tenure file, job market) needs the
+decision; wasted when gate-level problems — page cap, soft identification, missing
+disclosures — make a desk screen the likely outcome.
+
+## Desk-risk grid
+
+| Check | Pass condition | Where it fails silently |
+|---|---|---|
+| Page count | <=60 total incl. appendices, bibliography, exhibits | appendix tables added after the last count |
+| Abstract | <=150 words with the finding stated | counting keywords or JEL line by mistake |
+| Anonymity | no names, grants, repos; metadata scrubbed | acknowledgement footnote surviving from the working-paper version |
+| Disclosure | prior-RoF-rejection and no-parallel-submission statements present | omission triggers desk rejection plus the two-year ban |
+| Code policy | proprietary-data exception requested in this cover letter | exception deferred to later (the policy expects it at initial submission) |
+| Format | 12-pt minimum, 1.5 spacing, required margins, PDF starting at page 1 | LaTeX class silently compiling at 11-pt |
+
+## Final-hour sequence
+
+1. Recount pages with the final bibliography and appendices compiled in.
+2. Regenerate the PDF, strip author metadata, and open it on a clean machine to confirm.
+3. Re-read the cover letter for the two disclosure sentences and any code-sharing
+   exception paragraph.
+4. Confirm the Editorial Express account, the fee route (member vs. non-member, regular
+   vs. Fast-Track), and payment details.
+5. Archive the exact submitted PDF and a hash of the replication package so the eventual
+   R&R diff is auditable.
+
+## Upload manifest
+
+- Anonymized manuscript PDF: the only file referees see — title page without names,
+  first page numbered 1, internet-appendix material clearly separated if included.
+- Cover letter to the editor: disclosures, any code-sharing exception, optional context
+  on closely related own work (kept non-identifying in the manuscript itself).
+- Supplementary files where applicable: internet appendix and any pre-staged replication
+  material, packaged for OUP hosting rather than an external archive link (which would
+  break anonymity anyway).
+- Fee payment confirmation on the chosen track; for Fast-Track the 14-day clock runs from
+  valid payment, so pay and upload the same day. Confirm the exact upload slots on
+  Editorial Express and the journal's current author guidelines — interfaces change.
+
 ## Output format
 
 ```text

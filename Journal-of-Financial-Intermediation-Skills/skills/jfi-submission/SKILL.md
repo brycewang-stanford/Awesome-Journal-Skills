@@ -1,6 +1,6 @@
 ---
 name: jfi-submission
-description: Use for the final pre-submission preflight for the Journal of Financial Intermediation via Editorial Manager — the US$500 non-refundable fee, single-PDF-for-review, up to 6 JEL codes and 6 keywords, optional SSRN preprint, and the mandatory generative-AI disclosure. Final checks; it does not draft content.
+description: Use when running the final pre-submission preflight for the Journal of Financial Intermediation (JFI) via Editorial Manager — the US$500 non-refundable fee, single-PDF-for-review, up to 6 JEL codes and 6 keywords, optional SSRN preprint, and the mandatory generative-AI disclosure. Final checks; it does not draft content.
 ---
 
 # Submission Preflight (jfi-submission)
@@ -38,6 +38,34 @@ description: Use for the final pre-submission preflight for the Journal of Finan
 - [ ] Decided on optional **SSRN** preprint and optional **Highlights**
 - [ ] **Data Statement** prepared; datasets linked; `[dataset]` tags in references (see jfi-replication-and-data-policy)
 - [ ] Conflict-of-interest / funding statements ready; not under review elsewhere
+
+## Fee-gated go/no-go before pressing submit
+
+Because the fee is non-refundable on desk-reject, treat submission as a gated decision, not a formality:
+
+- **Gate 1 — fit:** the jfi-topic-selection verdict is "strong," not "borderline"; a borderline
+  intermediation fit means you are likely paying for a desk rejection.
+- **Gate 2 — frame:** the abstract names the intermediary, friction, mechanism, and consequence
+  (jfi-contribution-framing) — the desk screen reads no further.
+- **Gate 3 — design:** the first objection a banking referee will raise (usually a demand-side confound)
+  is already pre-empted in the introduction, not saved for Section 6.
+
+## Cover-letter calibration for this desk screen
+
+Three short paragraphs: what the paper shows about intermediation (one identified or proved claim, with
+the headline magnitude or proposition); why this journal (name the sub-literature — relationship lending,
+capital regulation, deposit competition — not "fits the aims and scope"); and any editor-expertise match
+if you request a Managing Editor. Do not paste the abstract.
+
+## Last-mile glitches that cost real money here
+
+- The EM-built review PDF scrambles landscape tables — proof the system's PDF, not your local compile.
+- Generic JEL coding (G21 alone) when a precise set (e.g., G21 + G28 + E51) routes the paper to the right
+  board expertise.
+- Highlights written as full sentences exceeding the 85-character limit, truncated badly by the system.
+- Fee paid but Data Statement or declarations missing, triggering an administrative return that delays
+  triage. Current fee amount and the declaration list: confirm against the journal's current author
+  guidelines.
 
 ## Anti-patterns
 

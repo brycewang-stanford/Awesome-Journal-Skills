@@ -34,6 +34,35 @@ top-three-standard referee.
 - Respect the formatting baseline (at least 12-point font, at least 1.5 line spacing) and
   re-check that appendices, bibliography, figures, and tables still fit the 60-page cap.
 
+## Page-budget worked example
+
+Illustrative. A corporate-finance draft carries 14 tables and 5 figures — roughly 19
+exhibit pages, nearly a third of the 60-page ceiling before a word of prose. The
+RoF-shaped cut keeps in the body: summary statistics, the headline result, the
+identification exhibit (an event-study figure), one mechanism table, and one robustness
+table — five to seven exhibits. Everything else moves to the internet appendix behind
+one-sentence pointers ("Table IA.4 repeats column 3 under alternative winsorization").
+The body lands near eight exhibit pages, leaving room for the argument the referees grade.
+
+## Exhibit calibration against the journal (hedged)
+
+- Accepted general-interest finance papers tend toward six to ten body exhibits with a
+  substantial internet appendix carrying the robustness battery; conventions differ by
+  subfield, so sample recent RoF issues before fixing your own count.
+- Supplementary material is hosted via OUP alongside the article and the replication
+  package; confirm appendix naming and hosting mechanics against the journal's current
+  author guidelines.
+
+## Referee objections to exhibits and the conforming fix
+
+| Objection | Fix that satisfies an RoF report |
+|---|---|
+| "Table 5 is uninterpretable" | split into panels; isolate the headline column; add the magnitude sentence to the note ("one s.d. of X moves Y by Z bp") |
+| "The figure carries no inference" | add 95% bands and state the clustering level in the figure note |
+| "Where is the robustness for claim 3?" | a visible internet-appendix pointer — robustness may leave the body but never the paper trail |
+| "European and US samples are not comparable" | harmonization note: source per sample (Datastream vs. CRSP), screens applied, currency conversion, matching filters |
+| "Exhibit numbers do not match the text" | regenerate all exhibits from the replication scripts (one numbered script per exhibit) before resubmitting |
+
 ## Anti-patterns
 
 - A nine-column kitchen-sink table as the main result.

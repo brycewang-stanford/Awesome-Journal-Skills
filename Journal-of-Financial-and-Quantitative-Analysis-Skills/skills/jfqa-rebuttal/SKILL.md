@@ -35,6 +35,30 @@ Use this skill to turn a **JFQA** revise-and-resubmit into an acceptance. The ha
 - New results not yet wired into the reproducible pipeline.
 - Re-introducing author identity in the revised file.
 
+## Comment triage before drafting a word
+
+| Comment type | Required artifact | Where it lands |
+|---|---|---|
+| Identification / endogeneity demand | new design element, placebo, or falsification table | main text, with the old spec moved to the appendix |
+| Inference complaint | re-estimated tables under the requested SE scheme | main tables updated; alternates in an Internet Appendix |
+| "Economically small" | scaling paragraph (one-SD, %-of-mean, dollar value) | intro and the main-table note |
+| Missing rival paper | contrast paragraph plus, if needed, a horse-race column | literature positioning + one exhibit |
+| Robustness fishing list | a consolidated robustness table, not ten new tables | Internet Appendix, summarized in one text paragraph |
+| "Not interesting / not JFQA" | a reframed contribution case in the editor letter | cover letter; tables alone cannot fix this one |
+
+Triage first, then budget: the identification items consume most of the calendar; the scaling and citation items are cheap and should never be the reason a deadline slips.
+
+## Worked reply to an inference comment (numbers illustrative)
+
+Referee: "Clustering by firm only likely understates the standard errors given common time shocks." Model response: agree without hedging; re-estimate every main table with two-way firm-and-year clustering; report that the headline t-statistic moves from 4.2 to 3.1 and the conclusion stands; add a wild-cluster-bootstrap panel as Internet Appendix Table IA.3 for the specifications with few clusters; end with the exact page and table numbers where the manuscript changed. The reply quotes the comment in full, leads with the new result rather than the rhetoric, and gives the referee a checkable location for every claim.
+
+## Sequencing the JFQA revision
+
+1. Identification and inference fixes first — they can change every downstream number.
+2. Then re-scale magnitudes and refresh the exhibits (notes must reflect the new SE choices).
+3. Then the framing edits: abstract still one paragraph at ≤ 100 words after all changes.
+4. Last, regenerate everything from the master script and re-anonymize the PDF; an R&R at a journal that prints under 9% is an opportunity to over-deliver, not a promise.
+
 ## Output format
 
 ```

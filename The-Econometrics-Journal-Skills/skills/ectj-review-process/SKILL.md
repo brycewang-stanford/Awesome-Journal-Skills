@@ -38,6 +38,46 @@ Prepare a five-item packet for the editor-facing opening:
 4. One sentence identifying the empirical application and why it is not decorative.
 5. One sentence on where proofs, simulations, and replication files live.
 
+## Conformance triggers behind one-week desk rejections
+
+The RES conformance-rejection rule makes format failures fatal at the screen, not cosmetic. Map
+each trigger to its governing rule before submitting:
+
+| Trigger | Governing RES rule | Pre-screen fix |
+|---|---|---|
+| Printed paper over the page norm | Not normally exceeding 20 pages including the printed appendix | Compress via `ectj-tables-figures` and `ectj-writing-style` |
+| Summary over the word limit | Summary of no more than 150 words | Rewrite around the econometric object plus applied value |
+| Proofs parked online | Proofs belong in the main text or printed appendix | Repatriate derivations, rebalance the page budget |
+| No empirical application | Application expected even for theory papers | Add a diagnostic application, not an afterthought |
+| Wrong template or missing fee | RES/EctJ LaTeX template; flat fee plus VAT | Recompile in template, confirm the fee path on the live page |
+
+## Illustrative pipeline calendar
+
+Plan backwards from the RES timing statements (dates illustrative; confirm policies against the
+journal's current author guidelines):
+
+- Week 0: submit via Editorial Express, fee paid, replication restrictions disclosed.
+- Week 1: screen outcome — desk rejection or assignment to an editor.
+- Months 1-3: referee reports under the three-month decision target; use this time to harden the
+  replication package rather than waiting idle.
+- Decision plus one month: the normal resubmission window for an R&R; request the three-month
+  window early if new simulations are needed, rather than missing the clock silently.
+
+The screen evaluates conformance and leading-case scope; the referee stage evaluates the
+theory-simulation-application chain. Preparing for the second stage never substitutes for passing
+the first.
+
+## Signals to extract from each stage
+
+- A desk rejection within days usually signals scope or conformance, not refereeing depth;
+  re-read the leading-case framing before blaming the method.
+- An assignment past the first week means referees will judge the theory-simulation-application
+  chain; pre-draft answers for the weakest link now.
+- Slippage past the three-month target supports one polite status query through the editorial
+  office (ectj@res.org.uk), not serial chasing.
+- At conditional acceptance the binding constraint becomes the replication package; schedule the
+  full rerun before celebrating.
+
 ## Output format
 
 ```text

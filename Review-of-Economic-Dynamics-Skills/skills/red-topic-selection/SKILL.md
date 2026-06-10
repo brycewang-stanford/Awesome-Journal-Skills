@@ -46,11 +46,56 @@ reframe around the dynamic mechanism or choose another venue.
   or policy journal.
 - Calibration exercise with no new mechanism, method, or disciplined moment -> revise before targeting RED.
 
+## Dynamic-mechanism test
+
+Write the candidate contribution in this form:
+
+```text
+Because [state variable] evolves through [law of motion/friction], [shock/policy/choice] changes
+[future object], generating [quantitative/theoretical implication].
+```
+
+If the sentence still works after deleting the law of motion, the paper may not be a RED paper. If the
+result depends on dynamics but the model is not disciplined by moments, proofs, or computation, route to
+`red-data-analysis` before drafting.
+
+## Fit-scoring pass
+
+Score each dimension 0–2 before committing the project to RED:
+
+| Dimension | 0 | 1 | 2 |
+|---|---|---|---|
+| Dynamics | static comparison | dynamics present but incidental | transition/fluctuation is the object |
+| Model | none or a sketch | calibrated model supports a side result | dynamic model carries the headline claim |
+| Discipline | parameters chosen freely | partial targets | explicit calibration/estimation against moments |
+| Audience | generalist or policy | field-adjacent | SED community would discuss it at the Annual Meeting |
+
+Illustrative read: 7–8 → proceed; 5–6 → strengthen the weak dimension first (usually Discipline); ≤4 →
+re-scope or pick another venue. The thresholds are working heuristics, not journal policy.
+
+## Scoring vignette: a household-finance idea
+
+"Mortgage refinancing frictions and consumption." Version A regresses spending on rate gaps: Dynamics 1,
+Model 0, Discipline 0, Audience 1 → not a RED paper. Version B builds a life-cycle model with a fixed
+refinancing cost, calibrates that cost to observed refinancing hazards, and quantifies the mortgage
+channel of monetary transmission: Dynamics 2, Model 2, Discipline 2, Audience 2 → squarely in scope. Same
+topic, different lens — the venue decision turns on version B's dynamic model, not on the subject matter.
+
 ## Anti-patterns
 
 - Bolting a token dynamic equation onto an essentially static result
 - Assuming RED only takes theory, or only takes empirics (it takes both, through a dynamic lens)
 - Pitching to a generalist audience instead of the SED community
+
+## Output format
+
+```text
+[RED fit] strong / possible / weak
+[Dynamic mechanism] <state variable, law of motion, or equilibrium force>
+[Model discipline] theory / computation / calibration / estimation / missing
+[Best route] RED / generalist macro / field journal / methods outlet
+[Next step] red-contribution-framing or red-data-analysis
+```
 
 ## Supplementary resources
 

@@ -48,6 +48,43 @@ exposition, and generality. (Empirical causal design is out of scope for this ve
 - **Optimal stopping / free boundary:** Snell envelope or variational inequality; smooth-pasting
   justified, not assumed.
 
+## Assumption-block and statement templates
+
+A house-style assumption block fixes the stochastic basis once and lets every result refer to
+it by label:
+
+```latex
+\begin{assumption}\label{ass:basis}
+$(\Omega,\mathcal F,(\mathcal F_t)_{t\in[0,T]},\mathbb P)$ is a filtered probability space
+satisfying the usual conditions and supporting a $d$-dimensional Brownian motion $W$.
+\end{assumption}
+
+\begin{assumption}\label{ass:coeff}
+$b,\sigma$ are progressively measurable; $\sigma\sigma^{\top}$ is uniformly elliptic and
+$\mathbb E\!\int_0^T \big(|b_t|^2 + |\sigma_t|^4\big)\,dt < \infty$.
+\end{assumption}
+
+\begin{theorem}\label{thm:main}
+Under Assumptions \ref{ass:basis}--\ref{ass:coeff}, the value function ... Moreover, the
+optimal strategy $\pi^{\star}$ is admissible and unique up to indistinguishability.
+\end{theorem}
+```
+
+Separating the basis assumption from the coefficient assumption lets you weaken one without
+touching results that need only the other — referees notice and reward this modularity.
+
+## Where each lemma lives
+
+- **Main text:** the lemma carrying the new idea (a novel estimate, a new compactness or
+  selection argument) — referees should meet it before the main proof, with a sentence saying
+  why existing estimates fail.
+- **Appendix:** routine verifications (moment bounds, measurability of value functions,
+  standard localization steps) — each still proved in full, never waved at.
+- **Inline remark:** one-line consequences of cited results, with the citation pinned to the
+  exact theorem number and a sentence confirming its hypotheses hold here.
+- Never split one proof across main text and appendix mid-argument: give a sketch in the text
+  and defer the complete proof as a single unit.
+
 ## Anti-patterns
 
 - "It is well known that..." standing in for a required step.

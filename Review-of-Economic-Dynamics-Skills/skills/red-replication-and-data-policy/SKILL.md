@@ -47,6 +47,59 @@ archives are first-class, citable objects.
 - A readme missing seeds, runtime, or execution order
 - Raising a proprietary-data exemption after acceptance instead of at submission
 
+## Archive manifest
+
+Create a manifest before final acceptance:
+
+```text
+Result | Script/program | Inputs | Runtime | Seed | Output path | README line
+```
+
+For computational RED papers, include solution routines, calibration files, counterfactual scripts,
+transition-path programs, and plotting scripts. For empirical RED papers, include raw-to-final data
+construction, estimation commands, and table/figure exports. The manifest should make it obvious which
+program recreates the dynamic result, not merely which folder contains code.
+
+## Archive layout that satisfies the policy
+
+A package the RED code editor can verify without correspondence (adapt names to your stack):
+
+```text
+red-archive-v1.zip
+├── readme.txt           # REQUIRED fields: software/OS, execution order, runtime, seeds
+├── run_all.sh           # one command reproduces every exhibit
+├── src/
+│   ├── solve_model.jl       # household problem (EGM) + GE loop
+│   ├── calibrate.jl         # internal calibration to targets in targets.csv
+│   ├── counterfactuals.jl   # policy experiments, transition paths
+│   └── accuracy_checks.jl   # Euler-error and grid-refinement diagnostics
+├── data/
+│   ├── moments/targets.csv  # every calibration target with its source
+│   └── raw/ (or access instructions if proprietary)
+├── output/              # regenerated tables/figures mapped to paper numbering
+└── Manifest.toml / requirements.txt / Dynare version pin
+```
+
+For runtime, be honest at the step level: a global-solution model whose full rerun takes days should say
+so in readme.txt and provide cached intermediates plus the code that regenerates them.
+
+## Failure modes the code editor's check catches
+
+- Code that solves a slightly different model than the paper's final equations (drift across revisions)
+- Hard-coded local paths or undeclared toolbox dependencies that break execution on another machine
+- Missing seeds, so SMM draws or simulated panels differ run to run and moments will not match the tables
+- Proprietary inputs with no access instructions and no simulated stand-in, leaving the code path untestable
+
+## Output format
+
+```text
+[Archive status] ready / missing readme / missing code / exemption needed
+[Replication object] empirical data / computational program / mixed
+[Required readme fields] software_OS / order / runtime / seeds
+[Delivery risk] archive format / code editor / proprietary data / RePEc posting
+[Next repair] <single file or script to fix>
+```
+
 ## Supplementary resources
 
 - [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — policy URL and the RePEc Computer Codes series

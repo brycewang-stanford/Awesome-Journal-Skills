@@ -33,6 +33,48 @@ decisive rather than holding arguments back.
 - Update replication programs, pseudo-data, logs, and the Data Availability Statement
   alongside manuscript revisions.
 
+## Point-by-point skeleton
+
+```text
+Referee 1, Major Concern 1 (identification):
+  Restate: <one-sentence neutral paraphrase>
+  Action:  <new Table 4 cols 3-5; revised Section 5.2, pp. 18-20>
+  Result:  <coefficient now X (s.e. Y); conclusion unchanged or sharpened>
+  Text:    "<at most two quoted sentences of new manuscript text>"
+Referee 1, Suggestion 1: adopted / adapted because ... / declined because ...
+Editor letter (1 page): each major concern -> its fix; page-cap accounting
+  (what moved to the internet appendix); code, pseudo-data, and DAS updates
+  shipped with this revision.
+```
+
+## Triage table for common RoF report lines
+
+| The report says | Likely intent | Round-one response |
+|---|---|---|
+| "Identification is not convincing" (major) | spine doubt | new design evidence — pre-trends, placebo, alternative estimator — not prose |
+| "The magnitude seems implausible" | calibration doubt | benchmark against two published estimates; reconcile or correct |
+| "Please also examine X, Y, and Z" (suggestion) | breadth wish | run the cheap ones into the internet appendix; decline scope creep with reasons |
+| "The authors should cite [their papers]" | citation nudge | cite when genuinely relevant given RoF's author-responsibility norm; otherwise draw the boundary politely |
+| "The European sample limits generality" | external validity | add the US or cross-region contrast, or argue why the institution isolates a universal force |
+
+## Worked example — page-cap arithmetic in the revision
+
+Illustrative. The R&R asks for three robustness exercises and a heterogeneity split. Four
+new tables at roughly 0.8 pages each plus notes cost about 3.5 pages against the hard
+60-page ceiling. The plan: one new body table answering the bucket-1 concern; three
+exhibits to the internet appendix with one-line pointers; 1.5 pages of introduction
+trimmed — net +0.3 pages. State this accounting in the editor letter so the cap is
+visibly respected without burying the new evidence.
+
+## Resubmission hygiene
+
+- Refresh the double-blind scrub: new acknowledgements, conference thanks, or repository
+  links added during revision are classic anonymity leaks at this journal.
+- If results changed materially, regenerate logs and the pseudo-dataset so the package
+  matches the revised exhibits — a stale packet undermines the response letter.
+- Verify current resubmission mechanics and any fees on Editorial Express and the
+  journal's current author guidelines before uploading.
+
 ## Anti-patterns
 
 - Treating suggestions as binding while under-addressing a major concern.

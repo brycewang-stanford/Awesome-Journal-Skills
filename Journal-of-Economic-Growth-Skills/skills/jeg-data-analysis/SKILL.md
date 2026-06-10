@@ -1,6 +1,6 @@
 ---
 name: jeg-data-analysis
-description: Use when building or auditing Journal of Economic Growth empirical estimates, calibrated growth models, transition paths, cross-country panels, historical datasets, robustness, and reproducibility.
+description: Use when building or auditing Journal of Economic Growth (JEG) empirical estimates, calibrated growth models, transition paths, cross-country and subnational panels, historical datasets, spatial (Conley) inference, robustness, and reproducibility for growth and comparative-development manuscripts.
 ---
 
 # Data Analysis (jeg-data-analysis)
@@ -42,6 +42,32 @@ Before drafting results, create a table with:
 - **Replication artifact**: code or file that regenerates the exhibit.
 
 If an estimate or simulation does not map to a mechanism row, it is probably not central enough for JEG.
+
+## Spatial and historical inference discipline
+
+Comparative-development empirics at JEG are usually geocoded, which changes the inference defaults:
+
+- Report Conley standard errors at multiple distance cutoffs (e.g., 100/250/500 km) for any gridded or regional outcome; clustered SEs at the modern administrative level are necessary but not sufficient.
+- When historical units do not coincide with modern ones, cluster at the historical unit — the level at which the treatment was assigned — and document the crosswalk.
+- Pre-empt the critique that persistence t-statistics can be inflated by smooth spatial trends: include flexible geographic controls (latitude-longitude polynomials or macro-region fixed effects) plus a spatial-noise placebo test.
+- For very long panels, keep measurement vintages separate: reconstructed pre-1950 series, modern national accounts, and nighttime lights are not interchangeable; show the result within each vintage where feasible.
+
+## Worked vignette — auditing a comparative-development panel
+
+Illustrative setup: 2,400 grid cells in 41 countries; outcome is log light density in 2020; regressor is distance to a historical trade hub; candidate instrument is least-cost-path placement.
+
+- **Unit/horizon**: cell-level cross-section answering a long-run *level* question, so convergence-dynamics machinery is unnecessary; the persistence design applies.
+- **Inference**: coefficient 0.21; country-clustered SE 0.05, Conley 250 km SE 0.08, Conley 500 km SE 0.09 — report all three; the claim survives the widest cutoff.
+- **Mechanism row**: schooling in 1960 absorbs roughly 40% of the coefficient (illustrative), so human capital becomes a lead exhibit, not a robustness afterthought.
+- **Main sensitivity**: dropping cells within 50 km of modern capitals moves the estimate to 0.17; capital proximity goes into the audit table as the result's weakest joint.
+
+## Estimator defaults by growth question
+
+- Long-run level question (deep determinants, persistence) → cross-sectional or grid design + Conley inference + mechanism decomposition.
+- Convergence-speed question → panel estimation alert to Nickell bias; system GMM only with instrument-count discipline and Hansen/AR(2) reporting.
+- Reform-timing question → modern staggered-adoption DID estimators with pre-trend evidence, never naive TWFE.
+- Theory-driven quantitative question → calibrated model with targeted and untargeted moments kept visibly separate.
+- Demographic or fertility question → cohort or census microdata aggregated to the mechanism's unit; verify the transition timing is identified by the data rather than assumed by the specification.
 
 ## Output format
 

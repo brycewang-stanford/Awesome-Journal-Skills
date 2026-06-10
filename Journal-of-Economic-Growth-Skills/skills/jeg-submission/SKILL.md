@@ -35,6 +35,34 @@ Before upload, read only the title, abstract, introduction, and first results/mo
 
 If these fail, fix framing before formatting details. A polished Springer file will not save a weak JEG fit.
 
+## Exhibit and appendix calibration
+
+Hedged anchors drawn from what accepted JEG articles typically look like (treat as priors, verified against recent issues, never as hard limits):
+
+- The main text usually carries a focused exhibit set — roughly 6-10 tables and figures — with the robustness mass pushed to an online appendix that can hold several times the main text's exhibit count.
+- Common appendix blocks: data construction and sources, proofs, additional robustness (alternative samples, Conley cutoffs, alternative instruments), and calibration detail with untargeted moments.
+- Persistence and comparative-development papers usually include at least one map exhibit; theory papers a transition-path or phase-diagram figure.
+
+## Worked vignette — a submission-day audit
+
+Illustrative final pass on a deep-determinants manuscript:
+
+- Abstract at 241 words (inside the 150-250 window); 5 keywords; JEL codes O11, O33, N10 plus a mechanism-specific code.
+- 8 main exhibits and 23 appendix exhibits; every table note states sample, units, clustering, and Conley cutoffs where outcomes are geocoded.
+- The Data Availability Statement names the digitized historical-census deposit and the restricted survey's access path — matching the replication package line for line.
+- Title page carries ORCID, declarations, and the LLM-use disclosure; the cover letter's one-paragraph pitch leads with the growth mechanism, never the estimator.
+- The replication README is cross-checked against the jeg-replication-and-data-policy output, and the calibration folder regenerates both transition-path figures on a clean machine.
+- Two gaps caught: a map exported as a low-resolution bitmap (replaced with vector) and a missing JEL code for the historical content — both fixed before upload.
+
+## Fit-mismatch triggers to clear before upload
+
+- The abstract's first sentence names a policy or program rather than a question about why economies grow or diverge.
+- No introduction sentence states what the paper changes in our understanding of long-run growth or comparative development.
+- The headline estimand is short-run and partial-equilibrium with no long-run translation anywhere in the text.
+- Keywords and JEL codes signal an adjacent field (labor, public finance, IO) rather than growth, development, demography, or technological change — re-pick them to match the mechanism.
+
+Any one of these is worth delaying submission to repair; portal mechanics and current file-format rules should be re-confirmed against the journal's current author guidelines on submission day.
+
 ## Output format
 
 ```text

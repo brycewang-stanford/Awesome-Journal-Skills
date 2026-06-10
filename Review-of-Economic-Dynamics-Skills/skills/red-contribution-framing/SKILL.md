@@ -52,6 +52,46 @@ Before declaring the framing done, write these four objects:
 If the answer to item 2 is only "we use newer data," the paper is probably not framed as a RED
 contribution yet. Route to `red-literature-positioning` or `red-identification-strategy`.
 
+## Worked vignette: framing a HANK liquidity paper
+
+Suppose a draft solves a two-asset HANK model and finds fiscal transfers raise consumption more when
+liquid wealth is concentrated near the borrowing constraint. Run the stress test (numbers illustrative):
+
+1. **Closest dynamic model**: a one-asset Bewley–Huggett economy in which the transfer multiplier is small.
+2. **Mechanism delta**: the liquid/illiquid portfolio friction puts ~30% of households in a high-MPC region.
+3. **Quantitative delta**: the cumulative consumption response to a 1%-of-GDP transfer rises from 0.3 to
+   0.55 — substitute the paper's own numbers.
+4. **Scope delta**: holds in economies whose liquid-wealth distribution matches SCF moments; knife-edge if
+   portfolio adjustment costs go to zero.
+
+The abstract leads with item 3 and names item 2; items 1 and 4 belong in the introduction's second and
+closing paragraphs.
+
+## Contribution statement block
+
+Draft the framing as a fill-in block before touching the abstract:
+
+```
+【Closest model】[author-year + one-line description of the predecessor economy]
+【Mechanism delta】[the dynamic force turned on: friction, shock process, heterogeneity margin]
+【Quantitative delta】[moment / transition path / welfare number that moves, with magnitude and units]
+【Discipline】[which calibrated or estimated targets pin the new force down]
+【Scope】[class of economies where the claim holds; the knife-edge case]
+【One-sentence pitch】[the sentence an SED discussant would put on slide 1]
+```
+
+If 【Quantitative delta】 is empty, the paper is a theory note — defensible at RED, but the framing must
+then lead with the mechanism and its analytic characterization instead of a number.
+
+## Referee pushback on contribution claims
+
+| Pushback heard at RED | Venue-specific fix |
+|---|---|
+| "The mechanism already exists in [closest paper]" | Show the moment or transition path the predecessor cannot generate, not just a modeling difference |
+| "The magnitude is calibration-driven" | Re-run the delta under the predecessor's calibration; separate mechanism from parameter choice |
+| "This is a comparative static, not dynamics" | Lead with the transition path or IRF; if a steady-state comparison is the point, argue why adjustment dynamics are second-order |
+| "Headline number lacks discipline" | Tie it to explicit targeted moments and show untargeted fit beside it |
+
 ## Supplementary resources
 
 - [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — abstract limit and scope sources

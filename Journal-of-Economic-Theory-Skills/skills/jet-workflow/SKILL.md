@@ -60,6 +60,45 @@ jet-rebuttal                 (response letter on an R&R)
 The next skill should always reduce one JET desk/referee risk: off-scope empirics, overclaimed theorem,
 hidden assumption, unreadable proof, notation drift, or unsupported submission fact.
 
+## Manuscript-state routing table
+
+| Manuscript state | Dominant JET risk | Route |
+|---|---|---|
+| Idea + model, no theorem sentence yet | off-scope at the desk | jet-topic-selection |
+| Theorem proved, novelty delta fuzzy | a "follows from known results" report | jet-literature-positioning |
+| Theorem + proof drafted, assumptions scattered through proofs | hidden-assumption catch by a referee | jet-identification-strategy |
+| Full draft, introduction shaped like a data story | theorem buried at the desk screen | jet-contribution-framing, then jet-writing-style |
+| A numerical section dominating the paper | computation overshadowing the theory | jet-data-analysis |
+| Exhibits renaming model objects | notation drift across figure and proof | jet-tables-figures |
+| Camera-ready PDF, source files unverified | format bounce (PDF-as-source) | jet-submission |
+| R&R letter alleging a proof gap | broken-lemma risk | jet-rebuttal plus jet-identification-strategy |
+
+## Routing vignette: a dynamic-contracts paper
+
+The paper proves a recursive characterization of optimal long-term contracts under two-sided
+limited commitment, plus one computed example. The pass order actually used:
+
+1. Topic gate — the characterization theorem is the deliverable: pass.
+2. Positioning — closest recursive-contract theorem named; delta = commitment limited on **both**
+   sides.
+3. Identification — Assumption 2's role in the contraction-mapping step made explicit; a tightness
+   Example added for one-sided commitment.
+4. Framing — the abstract now carries the characterization sentence, not the application.
+5. Data-analysis — the computed contract path demoted to Example 2 with a pinned script.
+6. Tables-figures → writing-style → submission, in order.
+
+One skill was consciously skipped: replication (no JET obligation; the script was shared anyway).
+Record deliberate skips so a later pass does not mistake them for gaps.
+
+## Loops, not a one-way pipe
+
+- A rebuttal that **narrows a claim** re-opens framing and positioning — the abstract and the
+  delta sentence must shrink with the theorem.
+- A new counterexample found late re-enters at identification, then propagates forward through
+  framing, exhibits, and prose.
+- A referee's "follows from known results" verdict sends the paper back to positioning before any
+  rebuttal sentence is drafted — the reduction must be checked first.
+
 ## Output format
 
 ```

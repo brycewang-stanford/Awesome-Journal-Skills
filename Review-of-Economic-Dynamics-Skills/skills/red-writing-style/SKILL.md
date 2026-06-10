@@ -42,6 +42,48 @@ they decide whether the paper belongs in the journal.
 - Define the model cleanly; relegate long derivations and proofs to an appendix.
 - State magnitudes (the calibrated/estimated number that matters) early and precisely.
 
+## Introduction paragraph order
+
+Use this sequence for RED introductions:
+
+1. Dynamic fact or puzzle.
+2. Mechanism and state variable that make the problem dynamic.
+3. Model discipline: data moments, calibration, estimation, or theoretical restriction.
+4. Headline quantitative result or theorem.
+5. Why the result changes how the SED/dynamic-economics audience thinks about the mechanism.
+
+Avoid opening with institutional background that could fit a static paper. The first page should prove
+that time, state dependence, expectations, accumulation, adjustment costs, search, or equilibrium dynamics
+are essential to the contribution.
+
+## Notation conventions for dynamic-model prose
+
+- Write recursive problems in standard Bellman form — V(a, z) = max over (c, a') of u(c) + βE[V(a', z')|z] —
+  defining every state, choice, and shock at first use, and keep symbols stable across the model section,
+  the calibration table, and the computational appendix.
+- Time variables explicitly (beginning- vs end-of-period assets): timing mismatches between the equations
+  and the archived code are a referee-visible error class at a code-first journal.
+- Keep the body for the model, the calibration logic, and the experiments; equilibrium-condition
+  derivations and algorithm detail go to appendices the body cites by number.
+- Give experiment units in-line ("a one-standard-deviation TFP shock", "a transfer of 1% of GDP") rather
+  than relying on a figure caption to carry them.
+
+## Abstract rewrite example (illustrative)
+
+```text
+WEAK:  "We study inequality and monetary policy in a rich model with many
+realistic features and find interesting effects."
+
+RED-SHAPED:  "How does household debt shape monetary transmission? In a
+heterogeneous-agent New Keynesian model calibrated to U.S. wealth and MPC
+distributions, a 25bp rate cut raises aggregate consumption by 0.4% — twice
+the representative-agent benchmark — because constrained borrowers' interest
+burdens fall."  (numbers illustrative)
+```
+
+The rewrite names the model class, the discipline (wealth and MPC distributions), and the headline
+magnitude in three sentences — the pattern a RED desk screen rewards.
+
 ## Checklist
 
 - [ ] Abstract ≤250 words, stand-alone, no internal references, headline result stated
@@ -54,6 +96,16 @@ they decide whether the paper belongs in the journal.
 - A 250+-word abstract or one that cannot be read without the paper
 - Mixed citation styles instead of clean author-year
 - Asserting a manuscript length cap that is unverified
+
+## Output format
+
+```text
+[Style diagnosis] dynamic mechanism clear / static opening / too long / format risk
+[Abstract fix] <250-word stand-alone target>
+[Intro repair] <paragraph or sequence to rewrite>
+[Front matter] keywords / references / AI declaration / LaTeX
+[Next step] red-submission or red-tables-figures
+```
 
 ## Supplementary resources
 

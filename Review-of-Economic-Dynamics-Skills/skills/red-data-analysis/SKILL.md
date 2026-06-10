@@ -55,6 +55,55 @@ Require a compact audit table before results are written:
 This table can become a manuscript table, appendix table, or replication README section. If it cannot be
 filled, the quantitative core is not ready for RED.
 
+## Illustrative calibration record (Aiyagari-style economy)
+
+Both the paper and the archive should carry a calibration record in this shape (values illustrative):
+
+```text
+Internally calibrated (chosen to hit model-generated targets):
+  beta  = 0.957   target: K/Y = 2.9 (annual)                     model hits: 2.90
+  phi   = -1.1    target: share with negative net worth = 13.5%  model hits: 13.2%
+Externally set (taken from outside estimates):
+  sigma = 2.0     CRRA; standard in the incomplete-markets literature (author-year)
+  rho_z = 0.91    AR(1) earnings persistence, PSID estimates (author-year)
+Accuracy at this parameterization:
+  max log10 |Euler error| = -4.6, 200-pt log-spaced asset grid, a_max = 40x mean income
+```
+
+Separating **internally calibrated** from **externally set** parameters matters at RED: referees check
+whether each internal target is actually informative about its parameter, and whether external values
+are sourced rather than convenient.
+
+## Moment-fit objections and the RED-grade response
+
+| Objection | Fix |
+|---|---|
+| "Targets are not independent of the moment you claim to explain" | re-calibrate with the headline moment excluded; report it as untargeted |
+| "Fit shown only for targeted moments" | add an untargeted panel (wealth Gini, top shares, MPC distribution) |
+| "No accuracy diagnostic at the headline solution" | Euler or den Haan errors at exactly that parameterization |
+| "Grid and discretization undocumented" | state grid sizes, bounds, Rouwenhorst/Tauchen choice, and a grid-doubling stability check |
+
+## Minimum reproducible run
+
+Before submission, maintain two runs:
+
+- **Smoke run**: reduced grid or shorter simulation that completes quickly and verifies code paths.
+- **Publication run**: full grid, full simulation length, final seeds, final moments, and final exhibits.
+
+Both runs should write comparable output names and logs. If the smoke run and publication run disagree in
+qualitative direction, the numerical method needs diagnosis before the paper is ready. Record expected
+runtime for both because RED's readme requirement makes runtime part of the archive, not an afterthought.
+
+## Output format
+
+```text
+[Analysis status] ready / missing moments / weak solver diagnostics / unreproducible
+[Calibration/estimation] <targets, parameters, estimator>
+[Numerical checks] <solver, accuracy, convergence, sensitivity>
+[Archive readiness] run-all / seeds / OS / runtime / missing
+[Next analysis] <single computation or table to repair>
+```
+
 ## Supplementary resources
 
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — Dynare, SSJ, Julia/QuantEcon, FRED

@@ -36,6 +36,43 @@ result that needs a proof." Strong topics live in the journal's stochastic-analy
 - A model proposed without proofs of its formal properties (the paper must be self-contained,
   proofs included).
 
+## Active-frontier scan (hedged)
+
+Strands with sustained presence in the journal's recent volumes — verify against the latest
+issues before committing, since frontiers move:
+
+- robust finance and model uncertainty (non-dominated superhedging, Knightian preferences);
+- rough volatility: approximation theory, short-maturity asymptotics, Markovian lifts;
+- mean-field games and large-population equilibria with financially meaningful constraints;
+- (martingale) optimal transport methods for model-free pricing bounds;
+- equilibrium and price-impact models with frictions; optimal execution theory;
+- dynamic risk measures, time consistency, and capital-allocation representations;
+- term-structure theory beyond classical HJM, including stochastic discontinuities and
+  overnight-rate benchmarks.
+
+A topic on a cold strand still fits if the theorem is strong; a hot strand never excuses a
+routine corollary.
+
+## Tractability stress test
+
+```text
+Q1 Can you state the conjectured theorem now, with explicit hypotheses?      no  -> not ready
+Q2 Which known machinery carries 80% of the proof?                           none -> high risk
+Q3 What is the genuinely new step, in one sentence?                          none -> incremental
+Q4 Does a financial quantity (price, hedge, boundary, equilibrium) appear
+   in the conclusion, not just the motivation?                               no  -> wrong venue
+Q5 Is there a degenerate case you can solve completely first?                yes -> start there
+```
+
+## Vignette: choosing between two term-structure problems
+
+Problem A: extend a known HJM consistency theorem from continuous to càdlàg forward curves —
+statable theorem, identified obstacle (jump measures break the old compactness step), clear
+payoff (benchmark-rate discontinuities at announcement dates). Problem B: simulate a new
+three-factor curve model and show it fits swaption smiles. A passes Q1–Q4; B fails Q4's
+theorem requirement and lands in the journal's explicit out-of-scope zone. Choose A, and scope
+it by Q5: deterministic jump times first, the general case after.
+
 ## Sharpening questions
 
 - What is the **theorem**, in one sentence, and why is it new?

@@ -44,6 +44,55 @@ description: Use when running the final pre-submission preflight for the Journal
 - [ ] Main `.tex` + `.bib` + figure sources; cover letter (scope-fit pitch to the matching editor)
 - [ ] Suggested / excluded referees (expert, conflict-free)
 
+## elsarticle theorem preamble that compiles cleanly
+
+```latex
+\documentclass[preprint,12pt]{elsarticle}
+\usepackage{amsmath,amssymb,amsthm}
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\newtheorem{assumption}{Assumption}
+\newtheorem{example}{Example}
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}
+% Appendix proofs: restate main results (thmtools' restatable, or manual theorem* copies
+% keeping the body's numbering) so referees never page-flip mid-proof.
+\bibliographystyle{elsarticle-harv} % or elsarticle-num — confirm the required style in the live guide
+```
+
+Compile this skeleton with your environments **before** pasting in the paper; theorem-numbering
+clashes between `elsarticle` options and `amsthm` are easier to fix on an empty file.
+
+## Cover letter for editor routing
+
+- One paragraph: the **theorem sentence** plus the named subfield (mechanism design, decision
+  theory, matching, information design, …) so the field-matching editor claims the paper.
+- One paragraph: the **closest published theorem** and your delta in one clause each.
+- Declarations recap: generative-AI disclosure, not under review elsewhere, any conflicts.
+- Suggested referees: experts on the closest theorems, conflict-free; an excluded-referee request
+  needs a neutral, factual reason.
+- No marketing language — the desk screen reads for scope fit and seriousness, not enthusiasm.
+
+## Common Editorial Manager bounces for theory papers
+
+- Source rejected because only a compiled PDF was uploaded — Editorial Manager needs the `.tex`.
+- The system-built PDF breaks theorem environments because a custom `.sty` file was not uploaded
+  alongside the source.
+- Bibliography file missing, so abstract references and the reference list fail to render.
+
+## Final compile-and-cross-reference sweep
+
+- [ ] Every `\ref`/`\eqref` resolves — zero "??" in the compiled PDF
+- [ ] Theorem numbering is continuous; appendix restatements carry the body's numbers
+- [ ] Abstract citations written out in full; no `\citet` abbreviations there
+- [ ] Figures embedded as vector PDF with fonts embedded
+- [ ] Supplementary appendix uploaded as its own file if proofs were offloaded (confirm the
+      expected file split against the journal's current author guidelines)
+
 ## Output format
 
 ```

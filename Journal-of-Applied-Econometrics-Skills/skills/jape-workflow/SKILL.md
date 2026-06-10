@@ -34,11 +34,50 @@ JAE (Wiley, since 1986, Editor-in-Chief Barbara Rossi, 7 issues/year) publishes 
 - Sending a pure-theory paper to an *applied* journal
 - Overflowing 35 pages instead of using the online appendix
 
+## Final-week gate
+
+In the last week before submission, run the route in this order:
+
+1. Reconfirm scope with `jape-topic-selection`: real-data application and replication path are still central.
+2. Run `jape-data-analysis`: master script regenerates every article and appendix exhibit.
+3. Run `jape-tables-figures`: article exhibits fit the 35-page limit and appendix material is staged.
+4. Run `jape-replication-and-data-policy`: archive files, README, versions, and plain-text outputs match.
+5. Run `jape-writing-style` and `jape-submission`: summary, keywords, declarations, and Editorial Express
+   materials are consistent.
+
+Do not submit if the manuscript PDF and archive package disagree about a sample, variable, seed, or table
+label. That mismatch is a substantive credibility problem, not a clerical issue.
+
+## Stage gates with archive checkpoints
+
+The archive deposit is the thread that runs through every stage; verify it at each gate rather than once at the end:
+
+| Gate | Pass condition | Archive checkpoint |
+| --- | --- | --- |
+| Project start | Real-data application with an econometric lesson | Data confirmed exportable to plain CSV/TXT, or documentable for access |
+| First full draft | Estimand, design, inference all stated and tested | Master script regenerates every draft exhibit |
+| Pre-submission | ≤35 pp text; summary ≤100 words, citation-free | Package cold-runs on a clean machine |
+| Under review | — (wait; respect the 3-paper cap elsewhere) | Freeze the submitted package as a tagged version |
+| Revision | Every referee point answered with evidence | Revised numbers and revised code committed together |
+| Acceptance | Final exhibits match regenerated output digit-for-digit | Deposit to the ZBW-hosted archive with readme |
+
+## Failure modes by lifecycle stage
+
+- **Stage 1–2:** committing to data that later proves undepositable and undescribable — the project dies at acceptance, the worst possible time.
+- **Stage 3–4:** inference chosen by software default rather than data structure; a JAE referee pool of inference specialists will catch it.
+- **Stage 5–6:** robustness crammed into the article instead of the unlimited appendix, blowing the 35-page limit.
+- **Stage 8–10:** manuscript revised but package not — the mismatch surfaces when the archive deposit is checked against the published paper.
+
+## Worked routing decision (illustrative)
+
+An author arrives with a finished panel-IV draft asking "what now?" Route: the draft is 39 pages → `jape-tables-figures` first (move two robustness grids to the appendix); the IV tables show no first-stage F → `jape-data-analysis` and `jape-identification-strategy` (effective F + Anderson–Rubin columns); data are a licensed commercial panel → `jape-replication-and-data-policy` (confidential-data readme + extraction code now, not after acceptance); only then `jape-writing-style` for the 100-word summary and `jape-submission` for Editorial Express. Three of the five stops exist only because the destination is JAE.
+
 ## Output format
 
 ```
 【Fit】applied on real data, replicable? [Y/N]
 【Stage】lifecycle step (1–10)
+【Gate】current stage's archive checkpoint passed? [Y/N]
 【Next skill】which JAE skill now
 【Archive】data/code on track for the Data Archive? [Y/N]
 ```

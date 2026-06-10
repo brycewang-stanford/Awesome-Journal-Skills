@@ -45,6 +45,56 @@ Ask these questions before choosing the next skill:
 
 The right RED route is usually the step that makes the dynamic model more auditable.
 
+## Stage-gate tracker
+
+Keep one block per project and tick gates as they clear:
+
+```text
+RED PIPELINE — [paper short title]
+  G1 scope:        dynamic mechanism named; model class chosen          [date/✓]
+  G2 positioning:  lineage map written; closest model identified        [ ]
+  G3 discipline:   calibration table complete; every target sourced     [ ]
+  G4 computation:  solver chosen; accuracy check passing                [ ]
+  G5 exhibits:     mechanism figure + fit table drafted                 [ ]
+  G6 archive:      run-all reproduces exhibits; readme.txt drafted      [ ]
+  G7 manuscript:   abstract ≤250w; author-year refs; 1–6 keywords       [ ]
+  G8 submission:   fee path decided; ScienceDirect upload checked       [ ]
+  G9 review:       desk cleared; ~2-month post-desk clock running       [ ]
+  G10 revision:    point-by-point reply; archive re-run and re-sent     [ ]
+```
+
+Gates G3–G6 are where RED differs most from a generalist target: they exist because SED-community
+referees re-derive calibrations and sometimes re-execute code.
+
+## Sequencing rules specific to RED
+
+- Build the archive (G6) **in parallel with** the analysis, not after acceptance — the data/code policy
+  bites before final acceptance, and retrofitting seeds and execution order into months-old solver code
+  is the classic schedule killer for simulation-heavy papers.
+- Do not draft the introduction before G2 and G3 exist; an intro written without a lineage map and a
+  calibration table tends to over-claim and gets rewritten after the moments come in.
+- Budget compute as a project resource: a global-solution model whose counterfactual takes days to run
+  limits how many referee experiments a two-round revision can absorb.
+
+## Failure-mode router
+
+| Observed failure | Gate | Skill |
+|---|---|---|
+| Headline number moves when the grid is refined | G4 | `red-identification-strategy` |
+| Untargeted moments badly missed | G3 | `red-data-analysis` |
+| Reader cannot restate the mechanism after the intro | G1/G2 | `red-contribution-framing` |
+| Archive fails a clean-machine rerun | G6 | `red-replication-and-data-policy` |
+
+## Output format
+
+```text
+[Current stage] idea / model / calibration / estimation / writing / submission / review / R&R
+[Dynamic bottleneck] scope / mechanism / calibration / computation / archive / response
+[Next RED skill] <red-* skill>
+[Hard blocker] <fee, archive, model credibility, review risk, or none>
+[Next action] <single concrete task>
+```
+
 ## Supplementary resources
 
 - [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official RED URLs behind every fact

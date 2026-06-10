@@ -53,6 +53,41 @@ Before submission, stage the same materials you would need for a fast R&R:
 - Expecting the ~two-month clock to cover the desk screen or fee step
 - Treating slow-journal habits (thin appendix, no code) as acceptable here
 
+## What fails the suitability screen
+
+Patterns that plausibly stop a quantitative-macro paper at the desk (hedged — the screen is editor
+judgment, not a published rubric):
+
+| Desk-risk pattern | Why it fails the RED lens |
+|---|---|
+| Static cross-sectional analysis, no dynamic model | scope is method-defined; no dynamics, no fit |
+| Reduced-form policy evaluation with a token "model sketch" | the model must carry the argument, not decorate it |
+| Calibration exercise reproducing known results with newer data | no mechanism, method, or moment advance |
+| Pure econometric theory with no dynamic-economics object | belongs at an econometrics outlet |
+| Incomplete computation ("results to be added", no accuracy info) | the fast-review model presumes a finished quantitative core |
+
+## Round log
+
+```text
+ROUND LOG — [paper short title]
+  Submitted (fee received):  [date]   ← clock starts after fee + desk
+  Desk decision:             [date]   suitable / not suitable
+  Referee reports expected:  ~2 months post-desk (SED target; actuals vary)
+  Decision:                  [date]   reject / R&R / accept
+  If R&R — archive rerun:    [date]   resubmission fee: exempt (2nd+ resubmission)
+```
+
+Keep this log in the project repository; it disciplines the team's expectations and gives a polite
+status query an objective trigger — confirm current expected turnaround against the journal's current
+author guidelines before quoting any figure to the editor.
+
+## Who referees at a SED journal
+
+Expect referees drawn from the SED-conference community: people who solve heterogeneous-agent and
+business-cycle models themselves. Plan for reports that probe grids, Euler-equation accuracy, calibration
+circularity, and counterfactual logic rather than only framing — which is why the pre-review staging list
+above doubles as referee-proofing.
+
 ## Supplementary resources
 
 - [`red-submission`](../red-submission/SKILL.md) — the pre-submission preflight

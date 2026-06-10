@@ -1,6 +1,6 @@
 ---
 name: jfi-replication-and-data-policy
-description: Use to prepare the data-sharing materials a Journal of Financial Intermediation submission expects under Elsevier norms — a published Data Statement, deposited and linked datasets, and [dataset]-tagged references — without inventing a mandatory code archive the journal does not require. It prepares the package; it does not deposit for you.
+description: Use when preparing the data-sharing materials a Journal of Financial Intermediation (JFI) submission expects under Elsevier norms — a published Data Statement, deposited and linked datasets, [dataset]-tagged references, and a credible access route for restricted supervisory or credit-register data — without inventing a mandatory code archive the journal does not require. It prepares the package; it does not deposit for you.
 ---
 
 # Replication & Data Policy (jfi-replication-and-data-policy)
@@ -32,6 +32,40 @@ Do **not** tell authors a code/data deposit is compulsory; it is expected and en
 - **Theory papers:** lighter — share the **code that generates numerical examples/figures** so they are
   reproducible (fixed seeds/parameters); a Data Statement can note that no empirical data underlie the
   results.
+
+## Restricted banking data: the disclosure ladder
+
+| Data tier | Typical examples | What you can realistically share |
+|---|---|---|
+| Public | Call Reports, HMDA, FDIC Summary of Deposits | Full data plus code — deposit everything |
+| Commercial license | DealScan, Orbis/Bankscope, branch-rate databases | Code, construction steps, and access instructions; never raw data |
+| Supervisory / central-bank | Credit registers, FR Y-14, examination data | Code, variable definitions, the application route, and cleared aggregates |
+
+For the supervisory tier, the Data Statement should name the granting institution and the access route so
+a referee believes replication is possible **in principle** — credibility matters disproportionately at a
+venue where the best identification lives inside restricted registers. Repository specifics and any
+evolving Elsevier requirements: confirm against the journal's current author guidelines.
+
+## Worked Data Statement skeleton (credit-register paper, illustrative)
+
+```
+Data statement: Loan-level records are from the [country] credit register,
+accessed on-site under agreement [ref]; they cannot leave the central bank.
+We deposit: (i) all construction and estimation code; (ii) variable
+definitions and sample filters; (iii) bank-level aggregates cleared for
+release; (iv) instructions for applying for register access. Public inputs
+(Call Reports, HMDA) are included in the repository. Datasets are cited
+with [dataset] tags in the reference list.
+```
+
+## Friction points editors and referees raise
+
+- "Data available on request" with no named route reads as evasion — name the institution and process.
+- Code that hard-codes paths inside the central-bank enclave — ship a config file and a README mapping
+  enclave paths to placeholders.
+- Cleared aggregates that cannot reproduce a single exhibit — clear at least the headline table's inputs.
+- A theory paper claiming "no data" while its calibrated figures depend on undisclosed parameter files —
+  the numerical-example code and parameter values are the reproducibility object at JFI.
 
 ## Anti-patterns
 

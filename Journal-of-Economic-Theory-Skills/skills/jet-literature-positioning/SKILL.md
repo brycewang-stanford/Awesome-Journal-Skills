@@ -44,6 +44,42 @@ Build a private table before writing related work:
 Only the strongest two or three rows belong in the manuscript. The table prevents vague "we extend"
 language and makes overclaiming visible before a referee catches it.
 
+## Subfield frontier maps
+
+The comparison set differs by JET area; find the closest theorem inside the right lineage, name the
+lineage in one clause, then jump straight to the single nearest result:
+
+- **Mechanism design / auctions:** the Myerson optimal-auction and implementation lineage; typical
+  deltas weaken the common prior, risk neutrality, or transferable utility.
+- **Matching / market design:** the Gale–Shapley stability and Kelso–Crawford substitutes line;
+  deltas relax substitutability or add contracts, constraints, or distributional objectives.
+- **Decision theory / ambiguity:** Anscombe–Aumann-based axiomatizations (maxmin, variational,
+  smooth ambiguity); deltas trade one axiom for a behaviorally weaker one.
+- **Information design / persuasion:** the Bayesian-persuasion concavification line; deltas add
+  senders, dynamics, or robustness to the receiver's beliefs.
+- **Repeated games / dynamic contracts:** folk-theorem and recursive-contract traditions; deltas
+  alter monitoring, commitment, or the discounting structure.
+
+## Positioning-paragraph skeleton
+
+```text
+The closest result is [Author (Year), Theorem k], which proves [object] under [assumption set S].
+Our Theorem 1 [weakens S to S' / covers the general (non-quasi-linear / infinite-type) case /
+characterizes an object their analysis leaves open]. The techniques also differ: their argument
+relies on [tool]; ours requires [new tool] because [what breaks under the weaker assumptions].
+Relative to the applied literature on [topic], our contribution is the theorem itself, not a
+new application of existing results.
+```
+
+## Vignette: placing an information-design result
+
+A hypothetical paper characterizes optimal disclosure when the receiver is maxmin. Two candidate
+anchors compete: the standard persuasion concavification theorem (delta: receiver ambiguity breaks
+Bayesian updating, so the sender's value is no longer a concavification) and the robust-mechanism
+literature (delta: the designer commits to information rather than transfers). Write both rows in
+the theorem-delta table, then lead the related-work paragraph with the anchor whose **assumptions
+you actually weaken** — the other becomes one supporting sentence, not a co-headline.
+
 ## Anti-patterns
 
 - A multi-page survey that never states *your* delta against the single closest theorem

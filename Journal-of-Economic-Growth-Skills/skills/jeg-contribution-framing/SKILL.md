@@ -37,6 +37,24 @@ JEG is a specialist outlet, so the contribution must be a genuine advance **in u
 - Selling a method (a new estimator, a new model class) as the contribution when JEG wants the *growth insight* it buys.
 - Listing three weak contributions instead of one strong one.
 
+## Worked vignette — sharpening a persistence claim
+
+A draft says: "We study the long-run effects of medieval trade routes on regional development in Europe." Walked through the rules above (all numbers illustrative):
+
+1. **One-sentence claim**: "We show that a one-standard-deviation increase in medieval market access predicts roughly 14 log points higher regional income per capita today, and that about two-thirds of this gap runs through pre-industrial human-capital accumulation rather than later agglomeration."
+2. **Type-tag**: new identification (route-network instrument) + magnitude + mechanism decomposition — three tags that reinforce one claim, not three separate claims.
+3. **Scope bound**: 1,100 European subnational regions; an effect local to regions near historical routes; explicitly *not* a statement about national growth rates.
+4. **Debate moved**: whether deep-rooted market institutions or industrial-era agglomeration explain within-Europe income dispersion.
+
+The bare reduced-form persistence coefficient would not have cleared the JEG bar; the mechanism share is what converts a long-run correlation into a growth contribution.
+
+## Referee pushback on the claim — and the JEG fix
+
+- "Persistence without mechanism" → add a decomposition or intermediate-period outcomes; a growth referee treats an unexplained long-run correlation as a stylized fact, not a contribution.
+- "Magnitude not interpretable" → restate in steady-state income ratios, half-lives of convergence, or years-of-development equivalents — never leave the headline as a bare coefficient.
+- "The 'first' is overstated" → bound novelty to the strand, sample, and identification, and cite the nearest prior estimate by name.
+- "This is development economics, not growth" → re-anchor the claim to divergence, convergence, or transition dynamics; if that re-anchoring is impossible, the venue is wrong, not the framing.
+
 ## Output format
 
 ```

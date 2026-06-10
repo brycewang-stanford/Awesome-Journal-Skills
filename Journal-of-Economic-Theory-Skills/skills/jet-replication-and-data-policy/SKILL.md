@@ -37,6 +37,40 @@ pre-empts referee doubt:
 - [ ] If shared, choose **one** channel (repo link / Mendeley Data / Data in Brief) and link it in the
       data statement
 
+## What to package, by content type
+
+| Computational content in the paper | Artifact worth sharing | Channel that fits |
+|---|---|---|
+| Symbolic verification of closed forms (e.g., checking eq. (7) of a screening model) | one SymPy/Mathematica script per theorem | repo link in the data statement |
+| Counterexample found by search | the search code plus a certificate script confirming the final example violates the conclusion | repo; the certificate logic also goes in the paper |
+| Computed equilibria (e.g., a numerical fixed point for a dynamic-contract example) | solver script with tolerances and pinned environment | repo or Mendeley Data |
+| Experimental/empirical test of the theory (rare at JET) | data, cleaning, and analysis scripts | Mendeley Data / Data in Brief — confirm against the journal's current author guidelines |
+| Pure theory, no computation | nothing — do not manufacture an archive | N/A |
+
+## Supplementary-appendix culture (the theory analogue of replication)
+
+- At a theorem-proof journal, the unit of "replication" is the **omitted proof**, not a dataset.
+  Long technical arguments go to an online appendix / supplementary file the referee can read.
+- Make the supplementary appendix **self-contained in notation** and citable by numbered
+  cross-references from the main text (e.g., "Appendix S.2"), so checking it never requires
+  re-deriving the body.
+- If any proof step is **computer-assisted** — exhaustive finite-case checking, interval
+  arithmetic, symbolic simplification — say so inside the proof and ship the checker; the step is
+  only as credible as a referee's ability to re-run it.
+- Where the proofs live (in-PDF appendix vs separate supplementary file) varies; confirm against
+  the journal's current author guidelines before splitting files.
+
+## Companion README template
+
+```text
+README — companion code for "<title>" (JET submission)
+verify_thm2_bound.py     → re-derives eq. (7)–(9); confirms the Theorem 2 bound is attained (Example 1)
+search_counterexample.jl → finds the Example 3 economy; seed 20250114; runtime < 1 min
+check_thm4_cases.py      → exhaustive check of the 12 finite cases cited in Appendix B, Step 3
+env: requirements.txt / Manifest.toml (pinned)
+Every reported number in the paper appears in the output of exactly one script above.
+```
+
 ## Anti-patterns
 
 - Assuming JET requires a formal replication package — it does not (verify wording on the live policy page)

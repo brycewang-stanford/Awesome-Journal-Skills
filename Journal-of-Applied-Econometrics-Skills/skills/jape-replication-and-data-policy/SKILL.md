@@ -27,12 +27,48 @@ JAE's defining norm: **authors of accepted papers must deposit a complete set of
 
 If data are confidential, **still provide a readme describing the data and its source in enough detail that others can apply for access**, and ideally the extraction programs. **Responsibility for permission rests with the investigator.** Note proprietary data in the cover letter/paper.
 
+## Deposit assembly order
+
+Build the package in this sequence — each step catches a different failure class before the archive does:
+
+1. **Export** every input the paper touches to documented CSV/TXT; delete nothing from the pipeline that an exhibit needs.
+2. **Freeze** the environment: software names, versions, OS, package list, and all seeds, written into the readme.
+3. **Cold-run** the master script in a clean directory on a second machine; diff regenerated tables against the accepted manuscript digit by digit.
+4. **Strip** absolute paths, credentials, and licensed raw files you may not redistribute (replace with extraction code + access instructions).
+5. **Name** files so the mapping is mechanical: `table1.csv`, `fig2_data.txt`, programs that announce which exhibit they build.
+
+## readme.txt skeleton for the archive deposit
+
+```text
+README for [Author(s)], "[Title]", Journal of Applied Econometrics
+1. Data files: [name] — source, sample span, units, variable list
+2. Provenance: where each series was obtained; access date; license
+3. Programs: run order; master script; software + version; seeds
+4. Mapping: program → table/figure in the published paper
+5. Confidential components: description + how to apply for access
+Contact: [author email]
+```
+
+Plain ASCII, no markup — the archive's own holdings are flat text and the readme should match.
+
+## Replication Articles and the archive trail
+
+JAE's dedicated replication track exists because the archive makes published results re-runnable. If you are submitting to it: pick a prominent target paper, obtain its archived (or otherwise public) data and code, and report what you find whether it confirms, qualifies, or overturns — negative replications are explicitly in scope. Separate three failure sources in your write-up: data revisions since the original, implementation/coding differences, and genuine fragility of the result. Confirm current track-specific instructions against the journal's author guidelines before submitting.
+
+## Deposit pitfalls that bounce packages
+
+- A `.dta` or SAS file with no CSV/TXT sibling — violates the archive's plain-text rule outright.
+- Readme describes an earlier draft's tables; the accepted version renumbered them.
+- Bootstrap or simulation results that drift run-to-run because a seed was never set.
+- "Data available on request" used where the data are merely inconvenient, not confidential — the exception is for genuinely restricted data, and the investigator carries the permission burden.
+
 ## Output format
 
 ```
 【Data】complete non-confidential set deposited? [Y/N]
 【Format】plain ASCII/CSV + readme, no bare .dta/SAS? [Y/N]
 【Programs】replicate every result; master script runs? [Y/N]
+【Cold-run】clean-machine rerun matches published digits? [Y/N]
 【Confidential】readme + access path + extraction programs? [Y/N/NA]
 【Host】ZBW Journal Data Archive (journaldata.zbw.eu)
 ```

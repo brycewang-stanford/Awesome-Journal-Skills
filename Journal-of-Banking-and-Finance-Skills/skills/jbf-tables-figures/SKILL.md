@@ -1,6 +1,6 @@
 ---
 name: jbf-tables-figures
-description: Use when preparing Journal of Banking & Finance tables and figures: descriptive statistics, regression tables, event-study plots, mechanism/heterogeneity exhibits, appendix robustness, and self-contained notes.
+description: Use when preparing Journal of Banking & Finance (JBF) tables and figures — descriptive statistics, regression tables, event-study plots, mechanism and heterogeneity exhibits, appendix robustness inventories, and self-contained notes that report sample, fixed effects, clustering, and units.
 ---
 
 # Tables & Figures (jbf-tables-figures)
@@ -49,6 +49,48 @@ Every regression table note should state:
 - Statistical significance without economic magnitude
 - Appendix robustness that is impossible to map back to the main claim
 - Figure axes with undefined units
+
+## JBF exhibit calibration
+
+Accepted JBF empirical papers commonly carry roughly six to nine main-text exhibits — summary statistics, baseline, identification diagnostics, mechanism/heterogeneity, and one or two robustness pieces — with deeper batteries in an appendix (a stylized norm, not a journal rule). Event-study figures usually earn main-text space when the design is staggered adoption; pure robustness plots rarely do.
+
+## Worked magnitude conversion (illustrative)
+
+Suppose the baseline coefficient on a post-LCR × exposure interaction is −0.014 with loans/assets as the outcome.
+
+- A one-standard-deviation exposure (0.6, illustrative) implies −0.014 × 0.6 = −0.84 percentage points of loans/assets.
+- Against a sample-mean loans/assets of 62%, that is a 1.4% relative decline; against mean quarterly loan growth of 1.1%, it is most of one quarter's growth.
+- Put the conversion in the results text and the benchmarks (mean, SD) in Table 1 so the table note can stay short.
+
+## Regression table skeleton
+
+```text
+Table X: [Outcome] and [treatment], bank-quarter panel
+               (1)       (2)       (3)       (4)
+Treat x Post   b/se      b/se      b/se      b/se
+Controls       No        Yes       Yes       Yes
+Bank FE        Yes       Yes       Yes       Yes
+Quarter FE     Yes       Yes       --        Yes
+State x Qtr FE --        --        Yes       --
+Cluster        Bank      Bank      State     State
+N / R2         ...
+Note: sample, period, units, winsorization, FE, clustering, star convention.
+```
+
+Columns must encode a specification logic (sparse → saturated → alternative FE and clustering), not a sensitivity dump.
+
+## Figure conventions for bank panels
+
+- Event-study plots: mark the omitted period, shade confidence intervals, and date both announcement and implementation when they differ.
+- Treatment-rollout plots: show adoption timing across states or countries for staggered designs so readers see the control pool.
+- Bunching or density plots around supervisory asset thresholds whenever a cutoff design is used.
+- Sample-attrition flowcharts when merging Call Reports with DealScan-style loan data; match the counts to the attrition table.
+
+## Referee exhibit complaints
+
+- "I cannot reconstruct N across columns." → report observations per column, not once per table.
+- "Stars without magnitudes." → add a standardized-effect or economic-magnitude row.
+- "Appendix Table A12 contradicts Table 3." → audit the specification map before resubmission; mismatches read as carelessness.
 
 ## Exhibit economy
 

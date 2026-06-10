@@ -1,6 +1,6 @@
 ---
 name: jfi-rebuttal
-description: Use to plan an R&R response letter for the Journal of Financial Intermediation — single-blind review where referees know you, often a small number of expert reports, and an editor whose decision is final. It structures the response; it does not fabricate results.
+description: Use when planning an R&R response letter for the Journal of Financial Intermediation (JFI) — single-blind review where referees know you, often a small number of expert reports, an editor whose decision is final, and pushback centered on the intermediation channel. It structures the response; it does not fabricate results.
 ---
 
 # R&R Rebuttal Strategy (jfi-rebuttal)
@@ -40,6 +40,28 @@ description: Use to plan an R&R response letter for the Journal of Financial Int
   jfi-identification-strategy, jfi-data-analysis).
 - **Theory:** address generality and assumption objections by stating which results survive a relaxed
   assumption, adding a proposition or a numerical example, or clarifying the proof step questioned.
+
+## Pushback patterns a JFI referee runs, and the credible fix
+
+| Referee line | What it really asks | The JFI-credible fix |
+|---|---|---|
+| "Demand, not supply" | Does the effect survive within-firm absorption? | Report the firm×time-FE estimate; reconcile the gap with OLS as sorting |
+| "The mechanism could be X, not intermediation" | Separate the channels | Heterogeneity by bank capital, relationship intensity, or borrower switchability |
+| "One country, one register" | External validity | Frame the register as a laboratory; cite cross-register replications; hedge the claim's scope |
+| "The model is a knife-edge case" | Generality | Add a proposition stating which results survive relaxed assumptions, and which do not |
+| "Magnitudes look implausible" | Economic size | Convert to aggregate credit terms; benchmark against the lending-channel literature's range |
+
+## A worked reply on the supply–demand point (illustrative)
+
+"The referee asks whether borrower demand drives Table 4. We now estimate the specification with
+firm×time fixed effects on the multi-bank subsample (new Table 5): the coefficient falls from −3.0 to
+−2.1 (s.e. 0.6) but remains significant, and new Section 5.2 shows single-bank firms exhibit the same
+exposure gradient in real outcomes. We interpret the one-third attenuation as borrower–bank sorting, now
+discussed on p. 14." Quote, evidence, exact location — no rhetoric, no re-litigation of the question.
+Because the editor's decision is final, prioritize the one or two comments that decide the paper's fate
+(usually the identification challenge) and give them new exhibits, not the longest prose. When a referee
+proposes an intermediation interpretation you had not considered, test it rather than dismissing it — at
+this venue, an added heterogeneity cut often converts a skeptic into an advocate.
 
 ## Anti-patterns
 

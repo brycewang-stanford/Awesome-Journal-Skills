@@ -32,6 +32,39 @@ Use this skill to satisfy the **JFQA Code Sharing Policy**. It is **mandatory** 
 - **Pin** software/package versions; **set and report seeds** for any bootstrap/simulation.
 - Keep paths relative; ensure the pseudo dataset triggers every code path.
 
+## Pseudo-data recipe for licensed finance sources
+
+CRSP, Compustat, TAQ, IBES, and OptionMetrics extracts cannot be redistributed, so the pseudo dataset carries the verification load:
+
+1. Preserve the exact schema — variable names, types, and panel keys (permno/gvkey/date) — so merges run unchanged.
+2. Simulate or scramble enough rows (say, 500 firms over 120 months; scale to your design) to exercise every merge, filter, and edge case: missing delisting returns, duplicate links, zero-volume days, fiscal-year changes.
+3. Run the full pipeline on the pseudo data and confirm every program completes and every exhibit is produced in well-formed (not numerically identical) form.
+4. In the read-me, state plainly that pseudo-data numbers will not match the paper, and specify the exact licensed extracts a verifier needs (data vendor, library/table names, variable list, query date range) to reproduce the real ones.
+
+## Archive layout and dry-run protocol
+
+```
+jfqa-archive/
+  README.md            # software + versions, data inventory, execution roadmap
+  run_all.sh           # one-button rebuild of every table and figure
+  code/                # numbered: 01_build_sample, 02_main_tables, ...
+  data/raw/  or  data/pseudo/
+  output/tables/  output/figures/
+```
+
+- Fresh-machine test: copy the archive to a clean directory (ideally a colleague's machine), run `run_all`, and diff the regenerated exhibits against the manuscript.
+- Confirm the read-me reflects the academic-research-only license and the requirement that users acknowledge the code's origin.
+- Because verification may be performed by an external service on randomly selected papers, write the read-me for a stranger with no context, not for your coauthors.
+
+## Exception decision aid
+
+| Data situation | Archive move | Exception at initial submission? |
+|---|---|---|
+| Standard WRDS sources (CRSP/Compustat/TAQ) | pseudo dataset + full code | no |
+| Proprietary data under NDA (broker, exchange, bank) | pseudo dataset + request delayed/limited sharing | yes — request it now, not at acceptance |
+| Hand-collected data from public filings | deposit the raw data itself | no |
+| Commercial data with negotiable terms | ask the vendor early; default to pseudo data | only if sharing truly cannot occur |
+
 ## Output format
 
 ```

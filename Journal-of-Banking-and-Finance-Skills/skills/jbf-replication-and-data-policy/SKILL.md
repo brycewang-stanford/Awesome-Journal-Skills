@@ -62,6 +62,46 @@ For licensed banking/finance sources, add a `data_access/README.md` that records
 - whether a pseudo dataset can exercise the full code path;
 - who can legally access the raw data and under what license.
 
+## Source-by-source sharing matrix
+
+| Typical JBF source | Redistribution | What the package carries instead |
+| --- | --- | --- |
+| US Call Reports / FDIC SDI | public — share extracts | pull scripts with vintage, date, and series mnemonics |
+| Orbis Bank Focus / BankScope legacy | licensed — do not share | query filters, consolidation codes, variable list, access date |
+| DealScan | licensed — do not share | extraction steps, facility/package level, link-table code |
+| CRSP / Compustat (when used) | licensed — do not share | WRDS query description and merge keys |
+| Hand-collected regulatory events | usually shareable | coding manual, per-event sources, inter-coder checks |
+| Confidential supervisory data | cannot leave the authority | aggregate descriptives plus the access route for replicators |
+
+## Worked statement draft (illustrative)
+
+```text
+Data availability. Bank balance-sheet data come from US Call Reports (FFIEC,
+public; pull scripts and vintages in /code/01). Loan-facility data are from
+DealScan under license; we provide extraction filters and borrower link-table
+code but not raw files. Hand-collected deregulation dates and coding rules are
+deposited with the package. All tables and figures regenerate from run_all
+with the licensed inputs in place; a synthetic sample exercises the full
+pipeline without them.
+```
+
+## Pre-submission package audit
+
+- [ ] `run_all` executes on a clean machine with only the licensed inputs mounted
+- [ ] every manuscript exhibit maps to exactly one output file, with matching numbering
+- [ ] the synthetic or masked sample passes every script end to end
+- [ ] vendor vintages and download dates recorded for Bank Focus, DealScan, and any WRDS pulls
+- [ ] no author-identifying paths or initials in code comments (double-anonymized review)
+- [ ] repository or Mendeley Data deposit linked in the data availability statement where rights allow
+
+A package failing two or more boxes usually signals deeper pipeline debt; route back to `jbf-data-analysis` before drafting the statement.
+
+## Editor pushbacks on data
+
+- "The package cannot run without DealScan." → ship a synthetic or masked sample that exercises every script end to end.
+- "Which Bank Focus vintage?" → record vendor vintage and download date; bank coverage shifts across vintages.
+- "Confidential supervisory data make this unreviewable." → document the authority's access procedure and provide all code plus aggregate moments; confirm acceptable wording against the journal's current author guidelines.
+
 ## Output format
 
 ```text

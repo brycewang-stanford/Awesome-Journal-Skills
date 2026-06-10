@@ -24,6 +24,39 @@ RoF publishes **general-interest finance at the level of the top-three finance j
 4. **Empirical vs. theory clarity** — an empirical paper needs credible identification (→ `rof-identification-strategy`); a theory paper needs clean assumptions, a non-obvious result, and economic interpretation.
 5. **Process fit** — RoF charges a real fee (EUR 350; EUR 300 for EFA members) and runs a **two-round** process; a paper needing five rounds to become interesting is a poor fit.
 
+## Two-candidate worked screen
+
+Illustrative. **Candidate A**: "Do Italian cooperative banks lend differently?" —
+single-country, descriptive; fails the generality test unless rebuilt around what
+cooperative ownership reveals about lending under soft information everywhere, with a
+cross-country counterpart. As posed, it is a field-journal paper. **Candidate B**: "Does
+deposit-insurance design change bank risk-taking? Evidence from staggered EU coverage
+harmonization" — institution-driven variation across many countries, a first-order
+question with both an empirical and a theoretical audience inside RoF's scope. Verdict: B
+clears the bar as-is; A needs the reframe before the fee is worth paying.
+
+## Where RoF-fit questions come from
+
+- Institutional variation Europe generates naturally: directive transpositions staggered
+  across member states, ECB policy innovations, national supervisory experiments — shock
+  designs a US-only dataset cannot offer, aimed at universal forces.
+- Frontier areas the EFA community is actively building: sustainable and climate finance,
+  fintech and digital payments, household finance — still subject to the general-interest
+  framing test, not exempt from it.
+- The EFA annual-meeting program as a barometer: sessions dense with top-three authors
+  mark where the standard is currently being set and where the closest competitors are.
+
+## Pre-fee screening questions
+
+- Would the paper stay interesting if the headline coefficient halved? Interest that
+  survives magnitude risk is the safer bet at a two-round journal.
+- Can you state the lesson without naming the country or the dataset? If not, generality
+  is missing.
+- Is there both a theory reader and an empirical reader who care? RoF's scope is genuinely
+  both, and the broadest papers speak to each.
+- Is the natural experiment yours alone for long? If competitors loom, the Fast-Track
+  calculus enters early (→ `rof-submission`).
+
 ## Anti-patterns
 
 - A within-subfield estimate with no broad finance lesson — reads as a field-journal paper.

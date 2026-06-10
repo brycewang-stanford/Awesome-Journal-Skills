@@ -1,6 +1,6 @@
 ---
 name: jhr-rebuttal
-description: Use after a Journal of Human Resources (JHR) revise-and-resubmit to plan the response letter — answering referees and the handling editor, satisfying the reconciliation and sensitivity demands, and confirming no fee applies to invited revisions. Strategy and structure; it does not write your results.
+description: Use when a Journal of Human Resources (JHR) revise-and-resubmit arrives and you must plan the response letter — answering referees and the handling editor, satisfying the reconciliation and sensitivity demands, and confirming no fee applies to invited revisions. Strategy and structure; it does not write your results.
 ---
 
 # R&R Rebuttal Strategy (jhr-rebuttal)
@@ -43,6 +43,41 @@ description: Use after a Journal of Human Resources (JHR) revise-and-resubmit to
 - Letting the revision balloon past the page limit
 - Picking a fight with one referee instead of letting the editor's letter arbitrate
 - Forgetting to refresh the data-availability footnote after adding analyses
+
+## Common referee pushback at JHR and the expected fix
+
+| Referee objection | Weak response | JHR-calibrated response |
+|---|---|---|
+| "Pre-trends look noisy / TWFE biased with staggered timing" | Cite a methods paper and assert robustness | Re-estimate with a heterogeneity-robust estimator, show the new event study, add a pre-trend sensitivity bound |
+| "Why does your estimate differ from [prior paper]?" | A paragraph of contextual speculation | Comparative estimation: prior spec on your sample, your spec on the prior window, bridge table cited |
+| "Clustering seems wrong" | Footnote defending current choice | Re-cluster at the assignment level, add wild bootstrap if clusters are few, report both |
+| "Effect could be sorting at the cutoff" | Verbal institutional argument only | Density test, covariate continuity, donut estimate in a new appendix exhibit |
+| "Results are a LATE; policy claim is broader" | Soften one sentence | Characterize compliers, re-scope the policy paragraph, flag what does not travel |
+
+## Worked response excerpt
+
+```text
+Comment R2.3: The staggered rollout makes the TWFE estimates hard to interpret.
+
+Response: Done. We now report Callaway-Sant'Anna group-time ATTs as the
+preferred estimates (new Table 3) and move TWFE to Appendix Table A7 for
+comparison. The event study (new Figure 2) shows pre-period coefficients near
+zero; a pre-trend sensitivity exercise (Appendix Table A8) indicates the
+headline effect survives violations up to twice the largest pre-period
+estimate. Pages 14-16 are rewritten around the new estimates.
+```
+
+Every response of this type names the new exhibit, the new pages, and the
+result of the check — referees at this venue reward verifiable specificity.
+
+## Triage order for a multi-referee letter
+
+1. Editor's letter first: extract the must-do list and any arbitration of
+   conflicts.
+2. Empirical asks next (reconciliation, estimators, inference) — these gate
+   acceptance.
+3. Framing and exposition asks last; they often resolve themselves once the
+   new tables exist.
 
 ## Output format
 

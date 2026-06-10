@@ -1,6 +1,6 @@
 ---
 name: ssc-submission
-description: Use for the pre-submission preflight to 《中国社会科学》 (Social Sciences in China) — checking footnote (页下注) conventions, abstract/keyword limits, bilingual title/abstract, the online submission system (sscp.portal.founderss.cn), anonymity, and document hygiene. Use right before submitting; verify every rule against the journal's current 投稿须知.
+description: Use when running the pre-submission preflight for 《中国社会科学》 (Social Sciences in China) — checking footnote (页下注) conventions, abstract/keyword limits, bilingual title/abstract, the online submission system (sscp.portal.founderss.cn), anonymity, and document hygiene. Use right before submitting; verify every rule against the journal's current 投稿须知.
 ---
 
 # 投稿前 preflight（ssc-submission）
@@ -28,6 +28,22 @@ description: Use for the pre-submission preflight to 《中国社会科学》 (S
 - [ ] 图表规范、编号连续、有出处
 - [ ] 基金项目、作者信息按系统要求填写
 
+## 页下注体例的高频错漏
+
+- 专著注：作者、书名、出版社、出版年份、页码缺一不可；再次引用按该刊简注式处理
+- 译著注须补译者；古籍注交代卷次与版本
+- 期刊文注标明刊名、年份与期数；网络文献注明访问日期
+- 间接引用注明"转引自"，并尽量回核原始出处
+- 同一文献的注释格式全文统一——本刊编辑部对注释与引文准确性的核查相当细致
+
+各类文献的具体注释格式以该刊现行体例说明为准，投前对照官网示例逐类核对，不要套用其他期刊的参考文献表习惯。
+
+## 投稿渠道纪律
+
+- 只经官方系统投稿；学界存在假冒顶刊征稿与"代投中介"骗局，凡声称付费包发的均属诈骗，防伪与收费政策以官网声明为准
+- 投稿后通过系统自查状态，避免频繁催询；审稿与改投时限遵编辑部现行规则
+- 修改稿重投时随附逐条修改说明（写法见 `ssc-rebuttal`）
+
 ## 匿名评审 hygiene
 
 - [ ] 正文/注释/致谢中**去除可识别作者身份**的信息
@@ -40,6 +56,25 @@ description: Use for the pre-submission preflight to 《中国社会科学》 (S
 - [ ] 文献进入理论脉络（`ssc-literature-dialogue`）
 - [ ] 论证链无断点（`ssc-argumentation`）
 - [ ] 空话/政策腔命中 = 0（`ssc-style`）
+
+## 篇幅与流程校准
+
+- 本刊以长文为主，刊文篇幅普遍明显长于一般期刊论文；具体字数区间与格式模板以官网最新《投稿须知》为准，勿按其他期刊习惯随意压缩或注水
+- 外审周期较长属常态；改投他刊的等待时限遵编辑部规则，期间切勿一稿多投——现行规定以编辑部说明为准
+- 部分刊发论文会被选译入英文版 Social Sciences in China（经 Taylor & Francis 国际发行），投稿时把英文标题与英文摘要当作"第二门面"认真准备
+
+## 常见退回原因对照
+
+| 退回类型 | 信号 | 先修哪个 skill |
+|----------|------|----------------|
+| 选题不属重大问题 | "建议改投专业期刊" | `ssc-topic-problematic` |
+| 创新性不足 | "未见明显理论推进" | `ssc-theory-contribution` |
+| 论证不严 | "概念含糊 / 以例代证" | `ssc-argumentation` |
+| 体例不合 | 注释、摘要、字数不符 | 本 skill 体例 checklist |
+
+## 微型 preflight 演练
+
+设一稿明日提交，按本 skill 走查：①命题读发现结论比引言多出一个未论证的判断——删；②体例读发现三处文中夹注未改页下注、两条直接引文缺页码——逐条改；③评审读发现第四节答不出"改变了哪个理论判断"——压缩并入第三节；④系统字段：中英文标题、摘要、关键词、基金与作者信息逐项核对；⑤匿名检查：致谢段移除、自引匿名化、文档属性清空。五步全过再点提交，缺一步都按"待修"处理。
 
 ## 最后一遍人工朗读
 

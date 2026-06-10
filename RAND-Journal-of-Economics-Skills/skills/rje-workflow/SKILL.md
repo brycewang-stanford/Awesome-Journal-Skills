@@ -1,6 +1,6 @@
 ---
 name: rje-workflow
-description: Router for The RAND Journal of Economics (RJE) manuscript lifecycle — decides which rje-* skill to use next for an industrial-organization paper, from IO topic fit through Wiley Research Exchange submission and referee response. Start here when unsure.
+description: Use when routing a RAND Journal of Economics (RJE) manuscript to the right rje-* skill across the industrial-organization lifecycle, from IO topic fit through Wiley Research Exchange submission and referee response.
 ---
 
 # RJE Workflow Router (rje-workflow)

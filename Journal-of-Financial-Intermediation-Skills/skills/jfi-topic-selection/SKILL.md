@@ -1,6 +1,6 @@
 ---
 name: jfi-topic-selection
-description: Use when working on Journal of Financial Intermediation manuscripts to test whether the paper is centrally about banking and financial intermediation — and whether to lead with theory or empirics — before investing in the draft.
+description: Use when working on Journal of Financial Intermediation (JFI) manuscripts to test whether the paper is centrally about banking and financial intermediation — whether an intermediary mechanism is load-bearing, how it differs from a Journal of Banking and Finance fit, and whether to lead with theory or empirics — before investing in the draft.
 ---
 
 # Topic Selection (jfi-topic-selection)
@@ -32,6 +32,40 @@ contribution.
   design and bank/loan-level data (see jfi-identification-strategy, jfi-data-analysis).
 
 This choice shapes how almost every later skill is applied, so make it now.
+
+## Fit decision table
+
+| Project | Verdict | Why |
+|---|---|---|
+| Relationship lending and information capture in a credit register | Strong | Core intermediation mechanism |
+| Bank capital shock transmission to credit and firms | Strong | Regulation working through the intermediary balance sheet |
+| Deposit competition and franchise value | Strong | Liability-side intermediation economics |
+| Fintech lenders displacing bank credit | Strong **if** the displacement runs through screening/monitoring | The intermediation contrast must do the work |
+| Bank stock-return anomalies | Redirect | Asset pricing wearing bank clothing |
+| Firm capital structure with bank debt as one covariate | Redirect | Banks incidental to the question |
+| Macro credit cycles with no institutional channel | Redirect | No intermediary mechanism to test |
+
+## The JBF boundary test
+
+A quick differentiator from the Journal of Banking and Finance, JFI's closest neighbor: JBF accommodates
+broad empirical banking — institutional documentation, cross-country performance, risk-management
+practice. JFI expects the paper to **test, discipline, or extend an intermediation mechanism**. Ask:
+"which theory of intermediation does my result speak to?" If the honest answer is "none, but the facts
+are useful," the project is likely a better JBF match; if a named friction does the work, you are on JFI
+ground.
+
+## Worked fit check (illustrative)
+
+A draft shows banks with older depositor bases raise deposit rates 15bp less after policy hikes. As pure
+documentation: borderline at best. Re-anchored to the deposit-franchise mechanism — market power over
+inattentive depositors funds stable long-duration lending, with the asset-side prediction then tested —
+the same data become a strong JFI fit. At this venue, topic selection is mechanism selection.
+
+Rescue moves for a borderline verdict, in order of preference: (1) find the intermediation prediction
+your setting can uniquely test and promote it to the headline; (2) add the heterogeneity cut (bank
+capital, relationship intensity, depositor stickiness) that separates the intermediary channel from
+alternatives; (3) if neither exists, redirect early — before the non-refundable submission fee, not
+after. Run this check again whenever the headline result changes during analysis; fit verdicts drift.
 
 ## Anti-patterns
 

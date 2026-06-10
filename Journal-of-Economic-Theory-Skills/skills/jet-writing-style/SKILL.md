@@ -47,6 +47,48 @@ Before submission, create a notation pass:
 
 Notation consistency is not cosmetic in JET; it is how referees verify the argument.
 
+## amsthm scaffold for a JET manuscript
+
+```latex
+% Body carries statements + a sketch; the appendix carries full proofs with restatements.
+\begin{assumption}\label{a:sc}
+Each type's utility satisfies strict single crossing in (action, type).
+\end{assumption}
+
+\begin{theorem}\label{thm:main}
+Under Assumptions \ref{a:sc}--\ref{a:compact}, an optimal mechanism exists and is deterministic.
+\end{theorem}
+
+\begin{proof}[Sketch] % ≤ 1 paragraph in the body: name the key step, point to the appendix
+The allocation is pinned down by Lemma~\ref{lem:mono}; a duality argument then delivers the
+transfers. Full details are in Appendix~B.
+\end{proof}
+```
+
+The pattern to copy: the theorem cites its assumptions by label, the sketch names the key
+argument in one sentence, and nothing in the body forces a referee to page-flip mid-statement.
+
+## Sentence-level register for theory prose
+
+- Statements **quantify** ("for every", "there exists") rather than gesture ("in general",
+  "typically").
+- The body says what each lemma buys economically ("Lemma 2 rules out pooling at the top"); the
+  appendix carries the epsilon-management.
+- "It is easy to see" is banned wherever a referee could disagree — replace it with the one-line
+  reason or a pointer to the appendix step.
+- Intuition paragraphs are labeled as intuition and are never load-bearing: deleting them must
+  leave the proof intact.
+
+## Hedged-claim rewrite (micro-example)
+
+- **Before:** "Our results show that ambiguity essentially eliminates the gains from screening."
+- **After:** "Theorem 3 shows that for maxmin bidders with full-support prior sets, the optimal
+  mechanism is a posted price; screening gains are zero in this class — and only in this class
+  (Example 4)."
+
+The rewrite replaces "essentially" with the exact class where the claim holds and the example
+that bounds it. Run this transformation on every hedge word in the abstract and introduction.
+
 ## Anti-patterns
 
 - Submitting PDF source instead of `.tex`

@@ -1,6 +1,6 @@
 ---
 name: jfi-tables-figures
-description: Use to design the exhibits for a Journal of Financial Intermediation paper — banking-literate tables and figures with explicit sample construction, institution definitions, event timing, and self-contained notes. It designs exhibits; it does not run the estimation.
+description: Use when designing the exhibits for a Journal of Financial Intermediation (JFI) paper — banking-literate tables and figures with explicit sample construction, institution definitions, event timing, fixed-effect progressions that display demand absorption, and self-contained notes. It designs exhibits; it does not run the estimation.
 ---
 
 # Tables & Figures (jfi-tables-figures)
@@ -31,6 +31,39 @@ institution-aware:
 Number exhibits and call them out in order; **numbered manuscript sections** (1, 1.1) host them. Notes
 should name the estimator, sample, clustering, and significance markers. There is **no stated exhibit or
 length cap** (待核实).
+
+## Worked exhibit plan: a capital-shock transmission paper (illustrative)
+
+| # | Exhibit | The job it does for a JFI referee |
+|---|---|---|
+| T1 | Sample construction: register universe → multi-bank firms | Lets the reader reconstruct the sample and see what firm×time FE costs |
+| T2 | Bank and firm summaries by exposure | Balance: treated and control banks comparable pre-shock |
+| T3 | Main: loan growth on the shock; columns no FE → firm FE → firm×time FE | The supply channel, with demand absorption visible across columns |
+| F1 | Event study around the rule change | Pre-trends plus dynamics — often the single decisive exhibit |
+| T4 | Mechanism heterogeneity: relationship intensity, bank capital | Shows the intermediation channel, not generic credit tightening |
+| T5 | Compact robustness grid, one row per named threat | The battery without appendix sprawl |
+| F2 | Real effects: firm outcomes by exposure | The consequence panel that earns the policy sentence |
+
+The fixed-effect **column progression in T3** is a JFI-native convention: the coefficient's movement
+across columns is itself evidence on sorting and demand, so interpret it in the text. If T4's
+heterogeneity is the contribution's heart, consider promoting it ahead of the robustness grid — exhibit
+order should mirror the argument, not the order the regressions were run.
+
+## Exhibit-count calibration (hedged)
+
+Accepted empirical papers in this literature typically run on the order of six to nine main-text exhibits
+with further robustness in an online appendix; theory papers often carry two to four comparative-statics
+figures. These are reading-based calibrations — no cap is stated; confirm formatting specifics against
+the journal's current author guidelines.
+
+## Exhibit-level referee pushback, and fixes
+
+- "I cannot tell which sample column 4 uses" → put N, sample, and FE rows in **every** column.
+- "The event study has no reference period marked" → label the omitted period and shade the announcement.
+- "The heterogeneity split shows no test" → report the interaction p-value, not two stars side by side.
+- "The comparative-statics figure hides the friction" → for theory papers, plot the outcome against the
+  friction parameter itself (monitoring cost, equity-issuance cost), with the no-friction benchmark as a
+  dashed reference line, so the figure literally shows what intermediation adds.
 
 ## Anti-patterns
 

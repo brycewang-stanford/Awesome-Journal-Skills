@@ -196,3 +196,28 @@ also compile with `python3 -m py_compile`. Scorecard mean: 79.0 → 80.6 after t
 bundles now score as breadth packs (Chinese 77.4; English social-science 94.0; English natural-science
 93.9; CS conference 94.0). Remaining below-70 packs are mostly short Chinese depth packs and theory
 packs whose core resources already exist; no hard gate failures.
+
+### Week 6 (2026-06-10) — bottom-tail capability hardening
+Completed a scorecard-driven hardening pass across the remaining low-tail depth packs and refined the
+measurement tool so it better reflects actual agent usability.
+
+- `tools/quality_scorecard.py`: added `--show-skills` weak-file reporting, cross-language substance units,
+  depth/conference/breadth pack types, `code=n/a` handling for theory/non-empirical packs, and venue-cue
+  detection from common skill-directory prefixes (`ectj`, `jbf`, `red`, etc.). Documented the workflow in
+  `tools/README.md`.
+- Econometric Theory / EctJ resource pass: completed the EctJ official-source/resource layer and added
+  action-oriented EctJ sections for page-budget, assumption-ledger, replication-package, and citation
+  placement checks.
+- Low-tail depth uplift: added venue-specific operating checklists, ledgers, output contracts, and referee
+  risk matrices to EctJ, JAE, JHR, JBF, JCF, JEG, RED, JFQA, JET, Review of Finance, Mathematical Finance,
+  and Social Sciences in China. These edits targeted the weakest files reported by the scorecard rather
+  than expanding uniformly.
+- Trigger cleanup: normalized remaining low-tail `description:` fields that lacked a clear `Use when`
+  activation shape for JBF, JEG, JET, and RJE.
+- Similarity control: local clone audits on every edited pack reported no pairs at or above 0.700.
+- Source-map report cleanup: added routing-map check dates and official lookup entry points to the three
+  breadth-bundle source maps, bringing `tools/source_map_audit.py` warnings to 0.
+
+Checkpoint before final hard gates: scorecard mean 80.6 → 84.7; current minimum first-party pack score is
+76.3 (AISTATS conference depth pack), and no first-party pack is below 70. The previous RED low-tail case
+rose to 79.4 after adding dynamic-mechanism/output contracts.

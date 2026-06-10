@@ -31,6 +31,30 @@ Corporate-finance variables (leverage, governance, payout, M&A) are **choices**,
 - [ ] At least one **alternative design or placebo** corroborates the main estimate
 - [ ] Standard errors **clustered** at the right level (firm and/or time)
 
+## Shock-quality grading for corporate-finance settings
+
+Not every "exogenous" source of variation survives a JCF referee. Grade the shock before building on it:
+
+```text
+Variation source                       | Credibility at JCF | Known objection to pre-empt
+Staggered state law adoption           | High if modern DID | Lobbying/timing endogeneity; heterogeneity bias
+Federal regulation with size threshold | High               | Bunching at the cutoff; anticipation effects
+Index inclusion/exclusion (RDD)        | High near cutoff   | Local estimate only; index rules changed over time
+Shareholder vote near 50% (RDD)        | High               | Close votes not random across firm types — test it
+Import tariff / trade shocks           | Moderate           | Industry-level treatment; exposure-measure disputes
+Natural disasters / plant-level shocks | Moderate           | Location selection; general-equilibrium spillovers
+CEO deaths / health shocks             | Moderate           | Small N; succession-planning selection
+Instrument built from lagged choices   | Low                | Exclusion fails by construction — expect rejection
+```
+
+## Worked stress test: a staggered-adoption claim
+
+Hypothetical, numbers illustrative: a paper claims staggered anti-takeover statutes raise leverage. TWFE gives 0.024 (t = 3.1). The JCF hardening sequence: (1) a Goodman-Bacon decomposition shows 31% of identifying weight comes from late-versus-early treated comparisons — a red flag; (2) Callaway–Sant'Anna on clean controls gives 0.015 (t = 2.2) — smaller but alive; (3) event-study leads are flat for five pre-years (joint p = 0.41); (4) one state adopting after a lobbying scandal is dropped — the estimate moves to 0.014. The paper then reports the modern estimator as the headline, TWFE as a legacy comparison, and the decomposition in the appendix. That ordering — not the TWFE number — is what survives review here.
+
+## Selection-into-treatment: the paragraph referees look for
+
+Every JCF design with treated firms needs one explicit paragraph: who became treated, why, and what that implies. Cover (a) the institutional reason treatment landed where it did, (b) a pre-treatment covariate comparison or trends table, (c) the direction of bias if a selection story survives, and (d) why the estimate is then a lower or upper bound. Omitting this paragraph is among the most common reasons an otherwise clean JCF design draws a second-round identification objection.
+
 ## Anti-patterns
 
 - "We control for everything" as a substitute for a design.

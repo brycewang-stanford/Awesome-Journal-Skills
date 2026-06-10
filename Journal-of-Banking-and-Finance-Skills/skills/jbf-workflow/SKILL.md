@@ -1,6 +1,6 @@
 ---
 name: jbf-workflow
-description: Router for the Journal of Banking & Finance (JBF) skill pack — tells you which JBF sub-skill to use next across the manuscript lifecycle, from topic fit through Editorial Manager submission and R&R rebuttal. Start here when unsure where you are.
+description: Use when routing a Journal of Banking & Finance (JBF) manuscript to the right JBF sub-skill across the lifecycle — topic fit, literature positioning, identification, bank-panel data work, exhibits, Elsevier Editorial Manager submission, double-anonymized review, and R&R rebuttal strategy.
 ---
 
 # JBF Workflow Router (jbf-workflow)
@@ -44,3 +44,44 @@ ScienceDirect Guide for Authors — see `resources/official-source-map.md`.
 - Licensed-data path is not reproducible -> `jbf-replication-and-data-policy`.
 - Tables omit units, clustering, or economic magnitudes -> `jbf-tables-figures`.
 - Results read as significance-only -> `jbf-writing-style`.
+
+## Stage gates for a JBF lifecycle
+
+Place the manuscript at a gate before routing; do not advance until the exit condition holds.
+
+| Gate | Exit condition | Skill |
+| --- | --- | --- |
+| G0 idea | question names a bank/intermediation/regulation margin, not "finance in country X" | jbf-topic-selection |
+| G1 positioning | closest intermediation-strand papers named with a stated delta | jbf-literature-positioning |
+| G2 design | identifying variation survives the "regulation is endogenous" objection | jbf-identification-strategy |
+| G3 pipeline | bank-panel sample, filters, and clustering documented end to end | jbf-data-analysis |
+| G4 exhibits | baseline → identification → mechanism tables with self-contained notes | jbf-tables-figures |
+| G5 narrative | contribution lands in finance units and policy terms without overreach | jbf-contribution-framing, jbf-writing-style |
+| G6 package | data statement plus Editorial Manager preflight complete | jbf-replication-and-data-policy, jbf-submission |
+| G7 decision | status interpreted; R&R triaged | jbf-review-process, jbf-rebuttal |
+
+## Illustrative routing pass
+
+A draft asks whether the Basel III liquidity coverage ratio shifted bank lending toward short maturities, using a bank-quarter Call Reports panel.
+
+- The question is squarely bank-regulatory, so G0 passes without rerouting.
+- The introduction cites a broad liquidity literature but no closest paper on the LCR and credit supply — route to `jbf-literature-positioning`.
+- Identification leans on plain TWFE around a single adoption date with no untreated banks; `jbf-identification-strategy` flags the missing size-threshold contrast (the rule binds for large banks first) before any table work starts.
+- Only after G2 holds does the pipeline-to-exhibit chain (`jbf-data-analysis` → `jbf-tables-figures`) begin; running it earlier wastes a robustness battery on a design that will change.
+
+## Common misroutes
+
+- Sending an R&R straight to `jbf-writing-style`: triage with `jbf-rebuttal` first — prose fixes cannot answer identification comments.
+- Building exhibits before G2 holds: staggered-DID corrections re-cut every table.
+- Treating the data statement as submission-day paperwork: licensed bank-data documentation starts at G3, not G6.
+- Pitching breadth ("banking and markets and fintech"): JBF rewards one anchored intermediation margin per paper.
+
+## Routing output
+
+```text
+[Gate] G0-G7 position
+[Blocking symptom] ...
+[Route] jbf-... sub-skill
+[Re-entry check] which gate to re-test after the fix
+[Volatile facts] fee / editor / data policy — re-verify via official-source-map
+```

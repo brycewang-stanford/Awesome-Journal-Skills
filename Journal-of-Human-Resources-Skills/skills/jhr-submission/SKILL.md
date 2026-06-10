@@ -43,6 +43,34 @@ description: Use when running the final pre-submission preflight for the Journal
 - [ ] Cover letter (question, design, headline result, policy relevance)
 - [ ] Optional: prior journal's decision letter + referee reports to speed review
 
+## Worked page budget for the 40-page cap
+
+Illustrative allocation for a design-based JHR manuscript at 12pt, 1.5-spacing
+(adjust to the paper, but the proportions are the point):
+
+| Section | Pages | Notes |
+|---|---|---|
+| Intro incl. reconciliation paragraph | 5 | Question, variation, magnitude, bridge to prior estimates |
+| Institutional setting + data | 7 | Treatment definition, sample construction, linkage |
+| Empirical strategy | 4 | Estimator, clustering, identifying assumption stated once |
+| Results + design diagnostics | 11 | Roughly 5-7 exhibits: main table, event study or first stage, reconciliation |
+| Heterogeneity + external validity | 4 | Only policy-mapped cuts |
+| Conclusion + references | 6 | References count against the cap |
+| Slack | 3 | R&R additions will need it |
+
+A draft at 47 pages is not "close" — cut exhibits to the Online Appendix before
+upload, since the cap includes tables, figures, and references.
+
+## Cover-letter skeleton
+
+```text
+1. Question + JHR field (labor/education/health/development/discrimination/retirement)
+2. Identifying variation in one sentence (rollout / cutoff / lottery / instrument)
+3. Headline magnitude in policy units
+4. One reconciliation sentence vs. the closest published estimate
+5. Notes: archive-plan footnote or waiver; optional prior-journal reports attached
+```
+
 ## Anti-patterns
 
 - Paying the nonrefundable fee on an out-of-scope HR-management paper

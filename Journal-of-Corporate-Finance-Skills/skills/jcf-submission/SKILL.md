@@ -31,6 +31,42 @@ description: Use when running the final pre-submission preflight for the Journal
 - [ ] Elsevier Option C data-availability statement included (see jcf-replication-and-data-policy)
 - [ ] Decide on the free SSRN preprint posting
 
+## Editorial Manager run-sheet
+
+Work the EM screens in order; partially completed submissions stall silently:
+
+1. Article type — full-length original manuscript versus shorter format paper; choose deliberately, it frames length expectations.
+2. Title/abstract/keyword entry — paste the ≤250-word abstract; EM metadata must match the PDF exactly.
+3. Author roster — every author with affiliation and email; the manuscript is non-anonymized, so consistency matters.
+4. Declarations — competing interests, generative-AI disclosure, funding, and the Option C data-availability statement.
+5. File upload — manuscript, exhibits per current guidelines, any internet appendix as supplementary material.
+6. Fee payment — US$340, paid in-flow; the submission is not considered until it clears.
+7. PDF approval — actually open the EM-built PDF; figure corruption and missing appendices are caught here or by the desk.
+
+## Package inventory (calibration, hedged)
+
+A typical complete JCF package — confirm against the journal's current author guidelines for required file types:
+
+```text
+main.pdf               # title page, abstract (≤250w), body, references, exhibits
+declarations           # CoI + generative-AI disclosure via the EM declarations step
+data_statement.txt     # Option C wording (see jcf-replication-and-data-policy)
+internet_appendix.pdf  # IA tables/figures numbered IA.1, IA.2, …
+cover_letter.pdf       # one-paragraph pitch + fit to the JCF remit
+```
+
+## Metadata snags that stall submissions
+
+- Abstract in EM differs from the PDF — flagged at the desk; sync them last.
+- Keywords outside the 1–7 band, or generic ("finance") — wastes the discoverability slot.
+- A coauthor's email bouncing — EM verification halts until it is fixed.
+- An internet appendix cited in the text but never uploaded — reviewers ask, a round is lost.
+- Choosing "shorter format" then uploading a 60-page manuscript — the type/length mismatch invites a desk query.
+
+## SSRN preprint call at submission
+
+JCF offers free SSRN posting in-flow. Take it when priority matters (a crowded corporate-governance or ESG race) or when working-paper visibility helps recruit conference feedback before the first decision; skip it when the draft still carries claims you expect the desk screen or referees to force down, since the posted version circulates regardless of the outcome. Whatever you choose, keep the SSRN title identical to the EM title so citations consolidate.
+
 ## Anti-patterns
 
 - Anonymizing the manuscript (JCF is single-blind, not double-blind).

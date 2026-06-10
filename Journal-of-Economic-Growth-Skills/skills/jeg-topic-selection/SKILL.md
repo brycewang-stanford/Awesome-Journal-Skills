@@ -43,6 +43,20 @@ JEG does not require a paper to interest all of economics, but it does demand a 
 - A cross-country regression with no defensible growth mechanism behind the correlation.
 - Assuming general-interest novelty is required — it is not; growth-field first-order-ness is.
 
+## Borderline-fit triage
+
+| Candidate project | Verdict | Why |
+|---|---|---|
+| Microcredit RCT with household-income effects | wrong venue | short-run, partial-equilibrium; no growth mechanism at stake |
+| Historical plough adoption → gender norms → development | strong fit | deep determinant with a cultural-transmission mechanism |
+| Schooling reform and 30-year regional growth | reframe | fits if the human-capital-to-growth channel is the object, not the reform |
+| Optimal capital-tax dynamics in an OLG model | fit | dynamic-macro core, provided transition implications lead |
+| Firm-level productivity dispersion in one sector | wrong venue | aggregate growth content incidental to the question |
+
+## Worked vignette — stress-testing a deep-determinants idea
+
+Idea: "Regions with historical irrigation agriculture developed more hierarchical institutions and grow slower today." Gate checks (illustrative): the dependent phenomenon is comparative development — pass. Live debate — joins the geography-versus-institutions exchange — pass. Mechanism — the chain irrigation → coordination demands → state centralization → modern factor allocation must be *evidenced*, not narrated; plan intermediate-outcome data now. Feasibility — requires geocoded historical agronomy data plus a credible plan for Conley inference and an exclusion-restriction defense *before* the first regression is run. Verdict: strong fit conditional on the mechanism evidence — schedule that evidence as a main exhibit from day one, or the project decays into another unpublishable long-run correlation.
+
 ## Output format
 
 ```

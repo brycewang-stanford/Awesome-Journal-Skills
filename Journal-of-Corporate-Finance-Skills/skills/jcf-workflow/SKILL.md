@@ -1,6 +1,6 @@
 ---
 name: jcf-workflow
-description: Use to orchestrate the full Journal of Corporate Finance (JCF) manuscript lifecycle — from a corporate-finance question through identification, robustness, the US$340 fee submission via Editorial Manager, single-anonymized review, and R&R. Routes to the other eleven jcf-* skills; it coordinates, it does not draft content.
+description: Use when orchestrating the full Journal of Corporate Finance (JCF) manuscript lifecycle — from a corporate-finance question through identification, robustness, the US$340 fee submission via Editorial Manager, single-anonymized review, and R&R. Routes to the other eleven jcf-* skills with stage gates; it coordinates, it does not draft content.
 ---
 
 # JCF Manuscript Workflow (jcf-workflow)
@@ -40,6 +40,41 @@ The **Journal of Corporate Finance** is an **Elsevier** journal publishing **ori
 - Treating JCF like a double-blind journal (it is single-anonymized).
 - Skipping identification because "it's a finance journal" — credibility still gates.
 - Ignoring the up-front fee in planning.
+
+## Stop-and-repair gates
+
+Pause the route before submission if any of these are true:
+
+- the paper cannot name the corporate-finance decision or friction affected by the result;
+- the design depends on firm panels but sample construction, links, or event dates are not reproducible;
+- robustness tables exist but economic magnitudes are absent;
+- the contribution is "new data" without a mechanism, policy implication, or theory revision;
+- the manuscript treats the fee/process checklist as ready while identification or data availability is still
+  unresolved.
+
+The fastest route through JCF is not more tables; it is a coherent chain from corporate-finance question to
+credible design, magnitude, and reproducible evidence.
+
+## Stage gates and deliverables
+
+Each stage exits with an artifact; missing artifacts predict where JCF projects stall:
+
+```text
+Stage       | Exit artifact                                 | Stalls when…
+Fit         | Viability-matrix row + format call            | The topic is data-first, question-second
+Positioning | Closest-paper contrasts (2–3)                 | A gap is claimed without a recent-paper sweep
+Design      | One-paragraph variation defense + diagnostics | The shock grades low; the selection story is unwritten
+Evidence    | Audit ledger + magnitudes per main claim      | Robustness grows while magnitudes stay absent
+Exhibits    | Self-contained main tables + an ID figure     | FE/clustering undisclosed; no event-study bands
+Pitch/Prose | ≤250-word abstract carrying a number          | The abstract restates regressions
+Data        | Option C statement + run_all archive          | The archive is deferred to acceptance
+Submit      | EM package + US$340 budgeted                  | Metadata or PDF mismatches surface at upload
+Revise      | Conflict table + per-comment change map       | The letter argues instead of changing the paper
+```
+
+## Worked routing: a payout project through the pipeline
+
+Hypothetical, dates illustrative: a team spots a dividend-tax reform. Weeks 1–2, `jcf-topic-selection` grades the shock and calls shorter format. Weeks 3–4, `jcf-literature-positioning` finds the closest two papers and the composition-versus-level gap. Weeks 5–8, `jcf-identification-strategy` and `jcf-data-analysis` run in tandem: treated/exempt definitions, firm and year FE, firm clustering, pre-trend leads, an illustrative headline of a 0.6-point repurchase rise. Weeks 9–10, `jcf-tables-figures` and `jcf-contribution-framing` build five exhibits and the one-sentence claim. Week 11, `jcf-writing-style` trims the abstract to 198 words while `jcf-replication-and-data-policy` finalizes the Option C statement and archive. Week 12, `jcf-submission` runs the EM preflight. The discipline is the order: no exhibit work before the design survives shock grading, and no submission while any stop-and-repair gate stays open.
 
 ## Output
 

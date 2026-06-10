@@ -45,6 +45,37 @@ description: Use when running the final pre-submission preflight for the Review 
 - Assuming review starts before the fee is paid
 - Paying a fee on a second-round resubmission that is actually exempt
 
+## Last-mile desk-risk scan
+
+Run this scan after the mechanical preflight — it catches the substantive issues the fee cannot fix:
+
+| Scan item | Pass condition |
+|---|---|
+| Dynamic-model centrality | the abstract names a model class and a mechanism, not just a dataset |
+| Quantitative core complete | every exhibit final; no placeholder counterfactuals |
+| Calibration auditable | a parameter table with sources/targets appears in the draft |
+| Computation disclosed | solution method and an accuracy statement appear in text or appendix |
+| Archive runnable today | run-all executes end to end before you pay the fee |
+
+Paying USD 175 for a paper that will stall at the suitability screen is the most expensive formatting
+error at this journal: the fee is per submission and the screen happens before referees see anything.
+
+## Fee-path micro-decisions
+
+- Mixed team (one student, one faculty): the USD 100 rate does not apply — **every** coauthor must be a
+  full-time student at submission.
+- Resubmission rounds: the stated policy exempts papers resubmitted a second or later time — confirm
+  which round your revision counts as against the journal's current author guidelines before paying again.
+- Fee paid but desk-rejected: the fee is sunk; do not resubmit a cosmetic revision, since the same
+  suitability screen applies.
+
+## Upload-order note
+
+Stage files so Editorial Manager builds a clean review PDF: manuscript with embedded exhibits for the
+first round (allowed under "your paper your way"), then appendices, then declarations. Check the
+system-built PDF renders all model equations, IRF figures, and fonts before approving the submission —
+a garbled Bellman equation at the desk screen is a self-inflicted wound.
+
 ## Output format
 
 ```

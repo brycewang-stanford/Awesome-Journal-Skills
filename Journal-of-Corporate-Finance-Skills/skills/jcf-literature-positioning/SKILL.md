@@ -35,6 +35,45 @@ Then state the **marginal contribution** against the closest two or three papers
 - [ ] The gap is a real, current gap (not closed by a recent paper you missed)
 - [ ] Cross-area links (asset pricing, law, fintech, household finance) are drawn **only** where they sharpen the corporate-finance point
 
+## Closest-paper contrast
+
+For each close paper, write:
+
+```text
+[Paper] studies [decision/friction] using [setting/design]. We differ by [variation/data/model] and show
+[mechanism or magnitude] for [corporate-finance outcome].
+```
+
+This prevents vague "we add to" claims. JCF positioning should tell the editor why the marginal result
+changes a corporate-finance conversation, not simply why the dataset or period is newer.
+
+## Strand map: what each JCF conversation rewards
+
+```text
+Strand                  | Benchmark conversation                     | What positioning must show
+Capital structure       | Trade-off vs. pecking order; debt dynamics | Which theory the new variation discriminates
+Governance              | Boards, ownership, monitoring channels     | Whose incentive changed and how you observe it
+Payout                  | Dividends vs. repurchases; signaling/taxes | Composition vs. level; clientele implications
+Financial contracting   | Covenants, syndication, security design    | The contracting friction the data isolates
+M&A / restructuring     | Synergies, agency, market for control      | Why this deal variation separates the stories
+ESG / CSR               | Values vs. value; greenwashing debates     | A firm decision, not an ESG-score correlation
+Entrepreneurial finance | VC contracts, staging, exit                | Selection vs. treatment in investor effects
+International           | Investor protection, law and finance       | Institutional variation doing identifying work
+```
+
+Name the row, then position inside it; papers that straddle rows without choosing read as unfocused at the desk screen.
+
+## Worked positioning: an ESG–payout vignette
+
+Hypothetical: a paper finds firms entering a sustainability index cut dividends. Weak positioning: "We add to the ESG literature and the payout literature." JCF-ready positioning names the row (payout, with an ESG instrument), the two closest papers (one on index-inclusion effects on governance, one on ESG and investment), and the wedge: prior work shows index entry changes ownership composition; this paper shows the new clientele tolerates lower dividends — an illustrative 0.4-percentage-point-of-earnings cut concentrated in firms with the largest institutional-entry. The gap sentence: clientele effects on payout composition were asserted in the dividend literature but never tied to a quasi-random ownership shock.
+
+## Positioning pushback and the JCF repair
+
+- "Paper X already did this." → Write the contrast block for paper X explicitly; if the wedge is only the sample period, concede and reposition on mechanism or measurement.
+- "This is law-and-finance, not corporate finance." → Keep the institutional variation as the instrument but make the positioned conversation a firm decision — financing, payout, investment.
+- "Too many literatures." → Cut to one home strand plus at most one bridge; intros claiming three contributions to three literatures invite the desk.
+- "Missing recent working papers." → Sweep SSRN and recent JCF issues for the last three years before claiming the gap; single-anonymized referees often wrote those papers.
+
 ## Anti-patterns
 
 - A literature dump that never says what is new here.

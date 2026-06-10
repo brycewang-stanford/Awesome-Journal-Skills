@@ -1,6 +1,6 @@
 ---
 name: jfi-identification-strategy
-description: Use to audit the core analytical engine of a Journal of Financial Intermediation paper — for empirics, the causal design for a banking/credit question; for theory, the assumptions, equilibrium discipline, and proof exposition. It pressure-tests the design; it does not run the analysis.
+description: Use when auditing the core analytical engine of a Journal of Financial Intermediation (JFI) paper — for empirics, the causal design that separates credit supply from demand in banking data; for theory, the assumptions, equilibrium discipline, and proof exposition. It pressure-tests the design; it does not run the analysis.
 ---
 
 # Identification Strategy (jfi-identification-strategy)
@@ -36,6 +36,37 @@ When the contribution is a **model**, identification means **analytical discipli
 - Argue **generality**: which results survive relaxed assumptions, and where the boundary lies.
 - A **numerical example** (see jfi-data-analysis) can illustrate the mechanism without claiming empirical
   estimation.
+
+## The within-firm benchmark, and when it is not enough
+
+The Khwaja–Mian within-firm estimator is this community's default answer to demand confounds: with
+multi-bank firms, firm×time fixed effects difference out borrower demand and isolate the credit-supply
+channel. A JFI referee then pushes **past** the default:
+
+- Multi-bank firms are larger and less bank-dependent — show what the design's external margin
+  (single-relationship firms) does, or bound how far the within-firm estimate travels.
+- "Equal demand across a firm's lenders" is itself an assumption: a firm may cut demand for one bank's
+  specialized product. Address with loan-purpose controls or product-level fixed effects.
+- Firm-level **real outcomes** cannot carry firm×time FE; aggregate the bank shock to the firm with
+  pre-period exposure shares, and defend share exogeneity as in shift-share designs.
+
+## Design selection for common intermediation shocks
+
+| Variation exploited | Default design | Venue-specific threat to pre-empt |
+|---|---|---|
+| Staggered regulation/deregulation across states or countries | Heterogeneity-robust staggered DID | Banks lobby for timing — show treatment is not predicted by pre-trend bank health |
+| Capital- or size-threshold rule | RDD with density test | Banks bunch by managing the ratio; McCrary check is mandatory |
+| Funding or deposit shock with differential exposure | Exposure (shift-share) design | Exposure shares correlate with local demand — balance on borrower observables |
+| Run or crisis window | High-frequency event design | Mechanical balance-sheet timing; reverse causality from borrower distress |
+
+## Worked contrast: one estimate, two readings (illustrative)
+
+A 1pp funding shock reduces bank-level lending by 2.8pp (bank panel, OLS). At JFI that is not yet a
+result: the same number is consistent with shocked banks happening to serve shocked borrowers. The
+within-firm version at 1.6pp (firm×time FE) is the publishable object — and the 1.2pp gap becomes
+evidence on borrower–bank sorting worth its own paragraph, not a nuisance to hide. JFI referees read the
+movement of the coefficient across fixed-effect columns as a diagnostic in itself; design the
+identification section so that movement is interpreted, not merely displayed.
 
 ## Anti-patterns
 

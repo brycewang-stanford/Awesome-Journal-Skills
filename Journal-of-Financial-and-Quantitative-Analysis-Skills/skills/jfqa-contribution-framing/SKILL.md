@@ -46,6 +46,36 @@ Before accepting the framing, force the abstract and first-page contribution par
 
 If the answer to item 3 is "statistically significant," the contribution is not yet JFQA-ready.
 
+## Worked compression: a microstructure abstract at the cap
+
+Hypothetical paper: an exchange-level tick-size reform and small-cap liquidity (all numbers illustrative). The first draft ran 127 words and opened with three sentences about electronic markets in general. The JFQA-ready version spends its budget like this:
+
+- Question, ~15 words: does the reform change liquidity for the affected stocks, and through which channel?
+- Design, ~25 words: the reform event, roughly 1,200 treated small-caps vs. matched controls, difference-in-differences on intraday quote data.
+- Result with numbers, ~40 words: quoted spreads move 11.6 bps (14% of the pre-period mean); depth at the inside changes 22%; effects concentrate where the constraint binds.
+- Implication, ~18 words: one sentence on what the elasticity means for tick-size policy.
+
+Every surviving clause carries a finance object, a design cue, or a number. Motivation throat-clearing is the first thing cut, because the 100-word cap punishes it hardest.
+
+## Magnitude phrasing by JFQA subfield
+
+| Subfield | Headline-number form JFQA readers expect | Weak form to delete |
+|---|---|---|
+| Asset pricing | monthly alpha in bps; premium per one-SD of the characteristic; Sharpe change | "significant at the 1% level" |
+| Corporate finance | pp change in leverage/investment/cash, scaled by the sample mean | "positively related to" |
+| Microstructure | bps of spread; depth or price-impact change; % of daily volume | "liquidity improves" |
+| Institutions/banking | pp change in lending or default probability; capital-ratio effect | "stability increases" |
+| Derivatives | implied-vol points; hedging-error reduction; option-return spread | "evidence of mispricing" |
+
+## Referee pushback on framing, with the JFQA repair
+
+| Pushback heard at JFQA | What it signals | Repair |
+|---|---|---|
+| "The contribution is incremental" | closest-rival delta not quantified | state the number the paper changes and by how much |
+| "Magnitudes seem small" | raw coefficient reported without a benchmark | scale by the mean, a one-SD move, or a dollar value |
+| "Abstract oversells the design" | causal verbs without causal variation | downgrade verbs to what the design supports |
+| "Unclear who cares" | no finance decision-maker named | tie the result to an investor, manager, or regulator choice |
+
 ## Output format
 
 ```

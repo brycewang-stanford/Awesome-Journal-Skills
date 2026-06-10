@@ -64,3 +64,31 @@ Ask the manuscript owner for the current bottleneck:
 
 The route should always reduce one JFQA-specific screen risk: fit, 100-word abstract, anonymization,
 identification, economic magnitude, code-sharing, fee/prior-rejection disclosure, or exhibit readability.
+
+## Stage gates before spending the fee
+
+| Gate | Exit criterion | JFQA risk averted |
+|---|---|---|
+| G1 Scope | the question scores high on the topic-selection rubric | $75 retained on a desk reject, plus months |
+| G2 Design | identifying variation stated in one defensible sentence | the endogeneity report that kills most empirical R&Rs |
+| G3 Numbers | headline magnitude expressed in finance units, scaled | the "only statistically significant" complaint |
+| G4 Package | `run_all` regenerates every exhibit; pseudo-data plan set | a scramble at acceptance under the Code Sharing Policy |
+| G5 Preflight | ≤ 100-word abstract, anonymized text-searchable PDF, disclosures drafted | formatting/anonymity strikes and the one-year-ban trap |
+
+Do not let a manuscript pass a later gate while an earlier one is open; JFQA's screens fire in roughly this order.
+
+## Worked routing call (illustrative)
+
+A manuscript arrives with strong results but a 138-word abstract, firm-only clustered standard errors never checked against a two-way scheme, and no pseudo-data plan for its CRSP/Compustat extracts. Route in this order: jfqa-contribution-framing first (the abstract cap is a hard constraint and the cheapest fix), then jfqa-data-analysis (inference robustness changes table contents, so it must precede exhibit polish), then jfqa-replication-and-data-policy (pseudo data takes days, and any exception must ride on the initial submission), and only then jfqa-submission. The principle: hard journal constraints and anything that can change numbers come before taste-level polish.
+
+## Re-entry points after a decision
+
+- Desk reject → jfqa-topic-selection or jfqa-contribution-framing, depending on whether fit or framing failed.
+- Reject after review, planning a substantially modified return → rebuild through the full chain and add the prior-rejection disclosure at jfqa-submission.
+- R&R → jfqa-rebuttal, looping back into jfqa-identification-strategy or jfqa-data-analysis for each evidentiary demand.
+
+## What can run in parallel
+
+- The Dataverse archive build (jfqa-replication-and-data-policy) can proceed alongside writing-style polish; both consume the frozen results, not each other.
+- Exhibit notes (jfqa-tables-figures) and the abstract (jfqa-contribution-framing) share the same headline magnitudes — draft them in one sitting so the numbers cannot diverge.
+- Anonymization is not a stage; it is a property every stage must preserve from first draft to resubmission.

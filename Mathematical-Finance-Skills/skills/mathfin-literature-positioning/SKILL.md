@@ -32,6 +32,42 @@ could not. A vague "the literature has studied X" invites a desk concern about n
    existing theorem under a change of variables.
 5. **Flag what you do NOT claim** — keeping scope honest is part of the rigor culture.
 
+## Frontier strands and what positioning owes each
+
+- **Robust finance / model uncertainty:** say whether your setting is dominated or
+  non-dominated, pathwise or quasi-sure — claims blur across these regimes and referees check.
+- **Rough volatility:** state the Hurst regime and whether the result concerns the model's
+  probabilistic structure, its approximation theory, or its pricing asymptotics.
+- **Mean-field games / large populations:** distinguish existence for the limiting MFG from
+  convergence of the N-player equilibrium — different theorems with different ancestors.
+- **Transaction costs / frictions:** identify whether the comparison literature is shadow-price,
+  duality, or viscosity/PDE based; your delta reads differently against each.
+- **Term structure / HJM:** position against the consistency and finite-dimensional-realization
+  results, naming the state space your forward-curve dynamics live on.
+- **Risk measures / time consistency:** specify static vs. dynamic, convex vs. coherent, and
+  which representation theorem you extend.
+
+## Delta sentence scaffold
+
+```text
+The closest result is [Author, Year, Thm n], which proves [conclusion] under [hypotheses].
+Our Theorem [m] removes [hypothesis] / extends the model class from [class A] to [class B] /
+upgrades existence to a constructive characterization. The key obstacle is [technical issue];
+[Author]'s argument relies on [tool], which fails here because [reason]. We instead [new idea].
+```
+
+One scaffold per main theorem suffices; referees at this venue prefer a single precise
+comparison to a paragraph of adjacent citations.
+
+## Sibling-venue triangulation
+
+Positioning also signals fit. If every paper you compare against lives in a probability journal
+with no financial object in its theorem statements, the manuscript reads as misdirected pure
+mathematics; if the comparisons are all empirically oriented, the rigor-bar question arises.
+Healthy *Mathematical Finance* positioning braids the journal's own literature with *Finance
+and Stochastics* and stochastic-analysis sources, keeping the financial-modelling payoff
+visible in the same paragraph as the mathematical delta.
+
 ## Anti-patterns
 
 - A standalone literature-review section detached from the contribution claim.

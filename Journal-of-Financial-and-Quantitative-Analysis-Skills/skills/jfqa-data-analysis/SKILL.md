@@ -35,6 +35,31 @@ Use this skill to execute and document the estimation for a **JFQA** empirical f
 
 If the paper is theoretical, lighten this skill: replace empirical estimation with **reproducible numerical examples / calibrations** that illustrate the propositions, and document the computation so a reader can rerun it.
 
+## Standard-error decision grid (the first thing a JFQA referee checks)
+
+| Setting | Inference JFQA referees expect | Also show |
+|---|---|---|
+| Firm panel, persistent outcome | two-way cluster (firm and year), or firm cluster with year FE | robustness to the other clustering choice |
+| Fama-MacBeth on monthly returns | Newey-West with the lag count stated and justified | plain FMB SEs for comparison |
+| Staggered policy adoption | cluster at the level of treatment assignment (e.g., state) | event-study leads/lags |
+| Few clusters (roughly < 50) | wild cluster bootstrap p-values | the cluster count itself |
+| Overlapping long-horizon returns | Newey-West/Hodrick lags matched to the horizon | non-overlapping subsample check |
+| Generated regressors (betas, fitted values) | bootstrap or an errors-in-variables correction | the uncorrected SEs flagged as such |
+
+An unjustified clustering choice is among the most common JFQA referee complaints; pre-empt it in the table notes, not just the text.
+
+## Worked pass: a corporate-finance panel (numbers illustrative)
+
+Hypothetical study of cash holdings and supplier concentration. Sample: Compustat 1990-2023, financials (SIC 6000-6999) and utilities (4900-4999) dropped, ratios winsorized at the 1st/99th percentiles. With firm and year fixed effects and two-way clustering, the standardized coefficient is 0.021 (t = 3.4): a one-SD rise in concentration moves cash/assets by 2.1 pp, about 12% of the 17.5 pp sample mean. The JFQA-grade write-up reports the 12%-of-mean line next to the t-stat, names the clustering in the note, and adds a falsification on firms with nationally diversified suppliers where the mechanism predicts nothing.
+
+## Filter log the referee will try to reconstruct
+
+- CRSP: share codes 10/11; the exchange universe stated; delisting returns merged and the treatment of missing delisting returns disclosed.
+- Compustat: accounting data lagged so it was publicly available at the return date; duplicate gvkey-period rows resolved.
+- Linking: CCM link table with valid link-date ranges — never name matching.
+- Any price or size screens (e.g., penny-stock exclusions) disclosed and shown not to drive the result.
+- Each filter's observation loss tracked so the sample-construction table sums from raw pulls to the final N.
+
 ## Output format
 
 ```

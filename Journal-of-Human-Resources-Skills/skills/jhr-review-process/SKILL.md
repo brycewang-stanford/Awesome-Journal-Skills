@@ -1,6 +1,6 @@
 ---
 name: jhr-review-process
-description: Use to understand and plan around the Journal of Human Resources (JHR) editorial process — single-anonymous review, the fast desk-reject without outside review, the reconciliation requirement, and the optional review-recycling shortcut. Sets expectations; it does not draft the paper.
+description: Use when you need to understand and plan around the Journal of Human Resources (JHR) editorial process — single-anonymous review, the fast desk-reject without outside review, the reconciliation requirement, and the optional review-recycling shortcut. Sets expectations; it does not draft the paper.
 ---
 
 # Editorial Process (jhr-review-process)
@@ -39,6 +39,43 @@ description: Use to understand and plan around the Journal of Human Resources (J
 - Ignoring prior published estimates that contradict yours
 - Attaching old referee reports the revision does not actually address
 - Burying the identifying variation past the desk-reading window
+
+## Desk-screen simulation
+
+Run the manuscript's first two pages against the questions a JHR handling
+editor can realistically answer in one sitting:
+
+1. Is this empirical microeconomics in a JHR field, or HR-management dressed in
+   economics language?
+2. What variation identifies the effect — is the design named (rollout, cutoff,
+   lottery, instrument) by page two?
+3. Is there a magnitude in policy units, or only "significant effects"?
+4. Does the paper acknowledge the closest prior estimates and hint at the
+   bridge?
+5. Would a policy audience care if the answer flipped sign?
+
+Illustrative contrast: "We examine determinants of teacher turnover" reads as
+desk risk; "A pension-vesting cliff at year five lets us estimate how deferred
+compensation retains teachers, and our retention effect is half the prior
+descriptive literature's" survives the same screen. If two or more questions
+fail, route back to `jhr-contribution-framing` before paying the fee.
+
+## Timeline posture
+
+JHR does not commit to public turnaround statistics, and stated desk-release
+speed is "quickly" rather than a number — do not promise coauthors a specific
+month, and confirm against the journal's current author guidelines for any
+stated processing details. What is controllable: the desk screen is the fastest
+gate, and review recycling can compress the refereeing stage when prior reports
+are attached.
+
+## What arrives with a decision
+
+- A synthesizing letter from the handling editor — at JHR this letter, not any
+  single report, defines the revision contract.
+- Referee reports that commonly lead with identification (pre-trends, first
+  stages, cutoff manipulation) and the reconciliation question before
+  exposition.
 
 ## Output format
 

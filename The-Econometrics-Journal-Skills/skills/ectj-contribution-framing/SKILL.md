@@ -1,6 +1,6 @@
 ---
 name: ectj-contribution-framing
-description: Use when sharpening an EctJ contribution into a compact leading-case claim with applied value, rather than a generic econometrics-methods contribution.
+description: Use when sharpening a contribution for The Econometrics Journal (EctJ) into a compact leading-case claim with demonstrated applied value, covering the failure mode of incumbent methods, the smallest sharp advance, the applied payoff, and scope guardrails that survive the one-week RES desk screen.
 ---
 
 # EctJ Contribution Framing
@@ -35,6 +35,36 @@ Write the contribution in four linked sentences:
 
 If any sentence requires a page of qualification, the contribution is probably too broad for EctJ's
 compact format. Route back to `ectj-topic-selection` and narrow the leading case.
+
+## Worked vignette: few-treated-cluster inference
+
+A hypothetical EctJ submission proposes a restricted wild bootstrap for difference-in-differences
+with very few treated clusters (illustrative numbers throughout). The four-sentence pattern becomes:
+
+1. **Failure mode**: with 6 treated clusters out of 40, conventional cluster-robust t-tests
+   over-reject; in the authors' pilot simulations a nominal 5% test rejects about 13% of the time.
+2. **Leading case**: a restricted wild-bootstrap test that is asymptotically valid as cluster
+   counts grow and exactly controls size in a symmetric leading case with one treated cluster.
+3. **Applied value**: applied researchers running state-level policy evaluations can report a test
+   whose simulated size stays near 5.4% with 6 treated clusters instead of 13%.
+4. **Scope guardrail**: validity is not claimed under heterogeneous cluster sizes beyond the
+   simulated range or for non-binary treatments.
+
+Each sentence is auditable against a theorem, a simulation panel, or the application exhibit. That
+auditability, not rhetorical breadth, is what survives the one-week RES screen.
+
+## Framing failure modes the EctJ screen punishes
+
+| Framing pattern | Why it fails at EctJ | Repair |
+|---|---|---|
+| "We provide a general framework for..." | Reads as exhaustive treatment, the opposite of the leading-case scope | Restate as the smallest sharp case plus an extensions remark |
+| Method introduced before the applied failure | Editor cannot see direct or potential applied value quickly | Open with the empirical setting where incumbents break |
+| Applied value asserted, never demonstrated | EctJ expects an empirical application even for theory papers | Point the claim at a specific application exhibit |
+| Novelty defined only against statistics or ML | The econometric setting must add something | Name the econometric object and assumption the paper changes |
+
+Calibrate against recent EctJ issues: accepted papers typically spend their first page on the
+failure mode and the leading-case result, deferring everything else. If the draft's first page
+could open a survey at a longer-format journal instead, the framing has not yet earned this venue.
 
 ## Output format
 

@@ -2,6 +2,11 @@
 
 This file gives one official-source starting query per journal profile. It is a routing aid, not a cached copy of any live guideline. Always open the live official journal page, publisher/society page, or submission system before giving submission-ready instructions.
 
+Routing-map check date: 2026-06-10. For natural-science and medical journals, start from the live
+publisher/society instructions and submission system; common official entry points include
+https://www.nature.com/nature-portfolio/for-authors, https://www.elsevier.com/authors, and
+https://authorservices.wiley.com/.
+
 | Slug | Journal | Official-source starting point | Skill |
 |---|---|---|---|
 | `accounts-of-chemical-research` | Accounts of Chemical Research | Search the live site for "Accounts of Chemical Research author guidelines" and follow the current ACS version. | [`SKILL.md`](../skills/accounts-of-chemical-research/SKILL.md) |

@@ -1,6 +1,6 @@
 ---
 name: ectj-literature-positioning
-description: Use when positioning an EctJ paper against econometric theory, applied econometrics, statistics, machine learning, and field-economics literatures while keeping the leading-case contribution compact.
+description: Use when positioning a The Econometrics Journal (EctJ) paper against econometric theory, applied econometrics, statistics, and machine-learning literatures while keeping the leading-case contribution compact under the roughly 20-page RES format, including the frontier-versus-use citation split.
 ---
 
 # EctJ Literature Positioning
@@ -36,6 +36,45 @@ Use a two-layer related-work structure:
 
 Avoid a broad "methods survey" paragraph. EctJ's page discipline means every citation should either define
 the incumbent method or prove why the leading case matters.
+
+## Citation placement rule
+
+Place each citation where it changes the reader's belief:
+
+- In the introduction, cite only the incumbent method, the nearest unresolved limitation, and the applied
+  use case that makes the method worth publishing.
+- In the theory section, cite papers that justify assumptions, asymptotic regimes, or proof strategies.
+- In the simulation section, cite designs that explain the benchmark data-generating processes or
+  competitor procedures.
+- In the application section, cite field papers only to explain why the empirical setting is a useful
+  diagnostic for the econometric contribution.
+
+If a citation cannot be assigned to one of those jobs, move it to a short related-work paragraph or cut it.
+This keeps EctJ positioning sharp enough to survive the page constraint while still showing command of the
+econometric frontier.
+
+## Reading the EctJ frontier before claiming a seam
+
+The journal sits in the close intellectual orbit of the UK econometrics community, including
+cemmap and its working-paper series, so the relevant frontier often lives in recent working papers
+rather than published volumes. Before fixing the delta:
+
+- Sweep recent EctJ issues and the cemmap working-paper series for the same econometric object;
+  a published-only sweep at this venue routinely misses the actual nearest neighbor.
+- Check whether the nearest neighbor is an identification result, an estimator, or an inference
+  procedure; the delta sentence must compare like with like.
+- If the closest work is in statistics or ML, add the econometric translation: which economic
+  parameter, sampling frame, or policy question changes the problem.
+
+## Worked delta statement
+
+Vignette with illustrative content: a paper proposing inference for synthetic-control estimates
+with several treated units might write the frontier layer as: "Paper A gives conformal inference
+for one treated unit; Paper B gives asymptotics as both panel dimensions grow; we give a
+permutation-based test valid with three to ten treated units and short panels, the range covering
+most published applications." One sentence, three named deltas, an applied range — that is the
+positioning density the compact EctJ format rewards. If the delta needs a paragraph of caveats,
+the seam is wrong, not the writing.
 
 ## Output format
 

@@ -1,6 +1,6 @@
 ---
 name: aistats-workflow
-description: Use when planning an AISTATS project timeline from venue fit through abstract submission, full-paper upload, supplementary material, review release, author-reviewer discussion, decision, camera-ready, PMLR publication, registration, presentation, and artifact release.
+description: Use when planning an AISTATS project timeline from venue fit through abstract submission, full-paper upload, supplementary material, review release, author-reviewer discussion, decision, camera-ready, PMLR publication, registration, presentation, and artifact release, with backward-planning offsets for theory-plus-experiments papers.
 ---
 
 # AISTATS Workflow
@@ -24,6 +24,39 @@ the current official timetable and work backwards from OpenReview cutoffs.
 - Decision: archive reviews, discussion, meta-review, decision, and submitted versions.
 - Acceptance: prepare PMLR camera-ready files, registration, in-person presentation, and
   public artifact release.
+
+## Backward plan from the paper deadline
+
+| Weeks out (heuristic) | Theory-plus-experiments milestone |
+|---|---|
+| 8+ | Theorems proved, assumption set frozen |
+| 6 | Simulations designed against each theorem |
+| 4 | Real-data runs complete, seeds logged |
+| 3 | Full draft sitting in AISTATS two-column format |
+| 2 | Internal mock review by a statistics-minded reader |
+| 1 | Checklist pass, anonymity sweep, supplement assembly |
+| 0 | Abstract then full paper on OpenReview; supplement by its own cutoff |
+
+These offsets are planning heuristics only — anchor every one of them to the current
+official timetable, never to a previous cycle's calendar.
+
+## Failure modes by stage
+
+- Theory still moving at week 3 forces last-minute theorem edits nobody has verified — the
+  classic AISTATS correctness reject in the making.
+- Leaving format conversion to the final week surfaces overflow late, because two-column math
+  is far tighter than a one-column working draft.
+- Skipping the mock review forfeits the only chance to hear "your experiments violate
+  Assumption 2" from a friend instead of a reviewer.
+- Building the supplement after the paper deadline under time pressure is how anonymity
+  leaks ship.
+
+## Coordination notes
+
+- Assign one named owner for the reproducibility checklist and another for the anonymity
+  sweep; shared ownership is how both slip.
+- Archive the exact submitted PDF, supplement, and checklist, since discussion-phase replies
+  must quote them precisely.
 
 ## Output format
 

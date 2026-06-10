@@ -41,6 +41,31 @@ Use a three-paragraph related-work move:
 Do not give every subfield equal space. JFQA reviewers need to see that the paper is new in the exact
 finance conversation where it asks to be judged.
 
+## Rival map worked through (hypothetical payout paper, numbers illustrative)
+
+Question: do share repurchases still earn abnormal returns once institutional crowding is measured?
+
+- Rival A documented the buyback anomaly on a sample ending years ago — the contrast is sample and a crowding measure they could not build.
+- Rival B has the crowding mechanism in theory but no identification — the contrast is a fee-change shock to institutional demand.
+- This paper's delta, stated in one sentence: with 13F-based crowding and the shock, the post-announcement abnormal return falls from 9% to 4% annualized, so roughly half the documented anomaly is demand pressure rather than mispricing.
+
+That sentence — rival's number, this paper's number, the economic reinterpretation — is the positioning JFQA reviewers reward. If you cannot write its analogue for your paper, the gap is not yet sharp.
+
+## Reference-list calibration for a JFQA submission
+
+- Engage the three or four nearest finance-flagship and JFQA papers in the first two pages; keep the remaining citations functional rather than encyclopedic. There is no codified count — calibrate against recent JFQA issues in your subfield.
+- Cite the methodological source for every econometric choice (clustering, the staggered-DID estimator, multiple-testing corrections). JFQA's methods-conscious referees notice a missing method citation as quickly as a missing rival.
+- Under double-anonymous review, phrase self-citations in the third person and make sure the contrast paragraph does not de-anonymize you.
+
+## Positioning complaints JFQA referees actually write
+
+| Referee phrasing | Diagnosis | Repair |
+|---|---|---|
+| "This is already known from [X]" | the killer rival was not confronted | add the explicit contrast and the quantitative delta |
+| "The literature review is a list" | citations grouped, not argued | rewrite as the three-paragraph compression above |
+| "Novelty claim is too strong" | "first to" without a defense | narrow the claim to the exact sample/design/measure that is new |
+| "Wrong conversation" | positioned in economics, not finance | re-anchor to the finance subfield and its open quantitative question |
+
 ## Output format
 
 ```

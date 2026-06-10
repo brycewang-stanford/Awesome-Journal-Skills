@@ -44,6 +44,40 @@ A JHR paper typically pairs a **policy-relevant question** with a **credible emp
 - Theory with no empirical content (JHR is empirical)
 - A descriptive paper whose facts are neither new nor policy-relevant
 
+## Borderline calls and how to make them
+
+| Borderline paper | Call | Reasoning |
+|---|---|---|
+| Personnel economics with firm payroll data, wage-setting question | In scope | Economics question about labor markets, even though the data are firm-side |
+| "HR analytics" predicting attrition with ML | Out | Prediction for managers, no economic estimand or policy lever |
+| Evaluation of a public workforce-training program | In scope | Classic JHR territory: human-capital policy with a design |
+| Survey study of employee engagement and culture | Out | Organizational behavior; redirect to a management journal |
+| Structural labor model, no credible variation, no policy counterfactual | Weak fit | JHR's center of gravity is design-based; consider a field journal in structural work |
+| New descriptive facts on intergenerational mobility from linked tax data | Plausible | Disciplined, novel description of a first-order policy object can clear the bar |
+
+## Two-paper vignette
+
+- Paper A: county-staggered childcare-subsidy expansion, linked mother-child
+  administrative records, event-study evidence on maternal employment and
+  child outcomes. Fits JHR on all three axes: field (labor/education), design
+  (rollout DID), policy lever (subsidy generosity). Proceed.
+- Paper B: "How our talent-acquisition platform reduced time-to-hire" with
+  internal firm metrics. The word "human resources" in the title is exactly
+  the trap the scope rule exists for — redirect before spending the fee.
+
+## Pre-commitment questions
+
+Before locking JHR as the target, answer in writing:
+
+1. Which JHR field claims this paper, and which recent work in that field is
+   the natural shelf neighbor? (Scope lists can shift; confirm against the
+   journal's current author guidelines.)
+2. What variation will referees test: rollout timing, a cutoff, a lottery, or
+   an instrument?
+3. Can the data eventually satisfy the CC0 deposit or a defensible waiver?
+4. Is the policy lesson statable in one sentence a state legislator's analyst
+   could act on?
+
 ## Output format
 
 ```

@@ -1,6 +1,6 @@
 ---
 name: jet-identification-strategy
-description: The Journal of Economic Theory (JET) analogue of an identification strategy for a theorem-proof paper — make every assumption explicit and load-bearing, architect the proof so two expert referees can verify it, and defend the generality/tractability trade-off. For theory papers, "identification" means assumptions, results, and proof exposition, not a causal design.
+description: Use when hardening the assumptions, results, and proof architecture of a Journal of Economic Theory (JET) paper — the theory analogue of an identification strategy. Make every assumption explicit and load-bearing, architect the proof so two expert referees can verify it, and defend the generality/tractability trade-off; for JET, "identification" means assumption sets and proof exposition, not a causal design.
 ---
 
 # Assumptions, Results & Proof Architecture (jet-identification-strategy)
@@ -41,6 +41,52 @@ check** — refereed single-blind by **at least two** reviewers who will verify 
 - [ ] The chosen level of generality is **defended**: a transparent special case can beat an unverifiable
       general one; a general result is worth it only if the proof remains checkable
 - [ ] Any restriction (finite types, two players) is flagged as a scope limit, not hidden
+
+## Assumption-set architecture (three tiers)
+
+JET papers separate three tiers of premises; label them so referees see which is which:
+
+- **Maintained structure** — the model itself (agents, type spaces, action sets, timing). Lives in
+  the model section as prose and definitions, not as numbered assumptions.
+- **Economic assumptions** — single-crossing, private values, independence, ambiguity attitudes,
+  substitutability. Numbered A1, A2, …; each carries economic content and each earns a necessity
+  discussion.
+- **Technical regularity** — compactness, continuity, measurability. Numbered last; defensible as
+  standard, but still say which proof step uses each one.
+
+Referee heuristic: the first thing checked is whether the theorem statement quantifies over exactly
+the numbered assumptions — nothing more, nothing less. A theorem invoking "the assumptions of
+Section 2" without numbers invites a hostile read.
+
+## Proof-spine scaffold
+
+```text
+Theorem 1 (statement quantified over A1–A3 only)
+ ├─ Lemma 1: existence of the auxiliary object      [uses A1, A3 (compactness)]
+ ├─ Lemma 2: monotonicity / single-crossing step    [uses A2]
+ │    └─ Claim 2.1: boundary case                   [where A2 binds → necessity candidate]
+ ├─ Main argument: fixed point / duality / induction (named in one body sentence)
+ └─ Appendix B: full proofs of Lemmas 1–2; the body keeps the roadmap paragraph + key step
+Example 1 (tightness): drop A2, hold everything else fixed → conclusion fails; cite it
+right after Theorem 1, not in a footnote.
+```
+
+## Writing the tightness discussion JET-style
+
+- Place the counterexample immediately after the theorem as a numbered **Example**, with one
+  sentence saying which assumption it targets.
+- Make it **minimal**: change exactly one assumption and keep the rest of the environment fixed,
+  so the referee attributes the failure to the right premise.
+- If no counterexample is available, state openly that necessity is an open question — JET
+  referees respect a flagged open problem more than silence.
+
+## Micro-vignette (decision theory)
+
+A representation theorem for ambiguity-averse preferences: A1 (weak order, continuity) is
+regularity; A2 (certainty independence) is the economic axiom. The proof's separation argument
+fails exactly when A2 is weakened to independence on constants only; Example 1 exhibits a maxmin
+preference violating the conclusion under the weakening. One page settles A2's tier, load-bearing
+step, and necessity — the page both referees read first.
 
 ## Anti-patterns
 

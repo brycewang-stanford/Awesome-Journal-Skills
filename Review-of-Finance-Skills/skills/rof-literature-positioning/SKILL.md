@@ -24,6 +24,28 @@ RoF enforces a **strong author-responsibility citation norm**: authors **must se
 4. **Exhaustive search** — run keyword, citation-chain, and recent-working-paper searches; assume a referee owns the paper you missed.
 5. **No standalone survey** — weave positioning into the introduction and a short related-work paragraph; the 60-page cap (incl. bibliography) penalizes bloat.
 
+## Search protocol sized to the sanction norm
+
+Because an omission at RoF can be sanctioned, the search must be documented, not vibes:
+
+1. Keyword pass over the top-three finance journals plus RoF itself, going back roughly a decade.
+2. Citation chain: forward and backward from the three closest papers (cited-by trails both ways).
+3. Working-paper sweep: SSRN FEN, NBER, CEPR Discussion Papers, and the last three EFA annual-meeting programs — RoF's own community circulates the closest competitors there before they hit journals.
+4. European-antecedent check: if the paper runs on Datastream, Bankscope/Orbis, or ECB data, search for the country-specific predecessors a European Associate Editor will know by heart.
+5. Keep a query log with dates; if a referee later names a missed paper, the log demonstrates good-faith search rather than negligence.
+
+## Micro-example — from survey paragraph to staked position
+
+Before: "A large literature studies bank competition and stability [eight citations]."
+After: "Keeley (1990) ties charter value to risk-taking; Boyd and De Nicolò (2005) reverse the sign theoretically; using Bankscope data on 1,800 European banks we show both forces operate, with competition-fragility dominating only above a market-share threshold — the margin neither paper can identify." One clause per pole of the debate, then the delta. (Illustrative numbers; the cited debate is real and well known.)
+
+## Bibliography economics under the page ceiling
+
+- Every reference must be load-bearing: it either anchors a delta, supplies a method, or documents a fact you use. Courtesy citations cost cap pages at RoF without buying goodwill.
+- Cite the published version once a working paper appears in print, in Chicago style throughout.
+- For a general-interest venue spanning empirical and theoretical finance, include at least one anchor from each side when the paper bridges them — a theory-only or evidence-only reference list signals field-journal framing.
+- When two literatures could claim the paper, position in the one where the contribution is largest and acknowledge the other in a single sentence.
+
 ## Anti-patterns
 
 - A two-page literature review that never says what *this* paper adds.

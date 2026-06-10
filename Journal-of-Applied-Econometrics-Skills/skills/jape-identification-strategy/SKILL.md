@@ -27,6 +27,41 @@ JAE publishes **applications on real data**, so identification is a *credible em
 
 Every check must be **regeneratable** from the programs you will deposit in the **JAE Data Archive**. With confidential data, the readme must describe the source and extraction well enough for others to apply for access and re-run it. A diagnostic you cannot reproduce is not a defense.
 
+## Diagnostic-to-archive map by design
+
+For each design, JAE referees expect a named diagnostic *and* the script that produces it in the eventual deposit:
+
+| Design | Load-bearing diagnostic | Archive artifact |
+| --- | --- | --- |
+| VAR / shock identification | Robustness across identification schemes; lag-order sensitivity | `var_ident.do` + exported IRF CSVs |
+| Dynamic panel GMM | Hansen J, AR(2), instrument count vs. N | `gmm_diag.do` + instrument-matrix log |
+| IV / 2SLS | Effective first-stage F; Anderson–Rubin CI; overid test | `iv_firststage.R` + AR-interval table |
+| Staggered DID / event study | Pre-trend test; heterogeneity-robust estimator comparison | `did_pretrends.R` + event-study CSV |
+| RDD | Density (manipulation) test; bandwidth sensitivity curve | `rd_density.R` + bandwidth grid output |
+| Forecasting | Out-of-sample loss comparison; stability over subsamples | `oos_eval.R` + rolling-window results |
+
+A blank archive-artifact cell means the defense exists only as prose — at this journal that counts as no defense.
+
+## Worked example: an external-instrument pass-through IV (illustrative)
+
+Estimand: the 12-month price response to a 1% exchange-rate movement. Instrument: foreign monetary-policy surprises. First pass: effective F ≈ 8 — below comfort. The JAE-grade response is not to bury it: report the 2SLS estimate 0.31 (s.e. 0.09) *next to* an Anderson–Rubin 95% interval [0.07, 0.61], show OLS (0.18, s.e. 0.04) for the endogeneity direction, and add a stronger-instrument subsample where F ≈ 19 and the AR interval tightens. Every column maps to one script in the deposit; the readme names which table each program rebuilds.
+
+## Where JAE referees push back on identification
+
+- "Parallel trends asserted, not shown" → add the pre-trend event study and a heterogeneity-robust estimator; archive both.
+- "Instrument count grows with T" → collapse the GMM instrument matrix, re-report Hansen J, and state the count in the table.
+- "Identification scheme drives the IRFs" → show recursive vs. sign vs. external-instrument results side by side in the appendix.
+- "This diagnostic is not in the package" → treat as a code bug: add the script, rerun, update the exhibit.
+
+## Identification appendix block
+
+```text
+Estimand: [population object, one sentence]
+Assumption A1: [statement] → Test: [diagnostic] → Script: [file] → Result: [pass/fail + number]
+Assumption A2: ...
+Confidential-data note: [access path readers can follow, if applicable]
+```
+
 ## Output format
 
 ```
@@ -35,6 +70,7 @@ Every check must be **regeneratable** from the programs you will deposit in the 
 【Assumptions】each has a test? [Y/N]
 【Inference】matched to design? [Y/N]
 【Reproducible】every diagnostic regeneratable? [Y/N]
+【Map】each assumption → test → script → exhibit complete? [Y/N]
 ```
 
 ## Supplementary resources

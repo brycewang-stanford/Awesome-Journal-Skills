@@ -1,6 +1,6 @@
 ---
 name: mathfin-workflow
-description: Router for a Mathematical Finance (Wiley) manuscript — decides which mathfin sub-skill to use next across the theorem-first lifecycle, from problem selection through Wiley Research Exchange submission and revision. Use this first to orient a financial-mathematics paper built on stochastic analysis and proofs.
+description: Router for a Mathematical Finance (Wiley) manuscript — decides which mathfin sub-skill to use next across the theorem-first lifecycle, from problem selection through Wiley Research Exchange submission and revision. Use when orienting a financial-mathematics paper built on stochastic analysis and full proofs, or when unsure which stage is the current bottleneck.
 ---
 
 # Workflow Router (mathfin-workflow)
@@ -46,6 +46,48 @@ mathfin-submission               (Research Exchange LaTeX preflight)
         ▼
 mathfin-rebuttal                 (response-to-referees on revision)
 ```
+
+## Stage gates with pass criteria
+
+```text
+gate 0->1  problem chosen      pass: conjectured theorem statable with explicit hypotheses
+gate 1->2  positioned          pass: closest prior theorem named + delta sits on one axis
+gate 2->3  proved              pass: no [gap] markers; every cited theorem's hypotheses checked
+gate 3->4  framed              pass: each main theorem has a financial-payoff sentence
+gate 4->5  numerics (optional) pass: every exhibit names the result it illustrates
+gate 5->6  written             pass: theorem statements readable without their proofs
+gate 6->7  packaged            pass: clean-checkout compile + data statement + classifications
+```
+
+A gate that will not close is the bottleneck; route to the owning skill instead of polishing
+downstream sections.
+
+## Symptom-to-skill routing
+
+- "We have a model and simulations but no theorem" → mathfin-topic-selection (fit is at risk).
+- "The proof uses a martingale property nobody verified" → mathfin-identification-strategy.
+- "A colleague says this is just [known paper] in disguise" → mathfin-literature-positioning.
+- "The introduction is all mathematics, no finance" → mathfin-contribution-framing.
+- "The figures look like an empirical paper" → mathfin-tables-figures, then mathfin-data-analysis.
+- "Notation drifts between main text and appendix" → mathfin-writing-style.
+- "Referee 2 produced a counterexample" → mathfin-rebuttal, then back to mathfin-identification-strategy.
+
+## Orientation heuristics for ambiguous stages
+
+When a manuscript seems to sit between gates, locate it by its weakest artifact, not its
+newest one: a polished introduction resting on an unverified verification theorem is a gate-2
+paper, and a complete proof set under an empirical-sounding abstract is a gate-3 paper. The
+pipeline is re-entrant — a referee report or a discovered gap legitimately sends the project
+back two or three gates, and re-running the later skills after such a regression is cheaper
+than defending an internally inconsistent draft.
+
+## Running proofs and prose in parallel
+
+Theorem development and exposition need not be strictly serial. Once the assumption block is
+frozen (gate 2), the introduction, model section, and statement skeletons can be drafted while
+appendix proofs are still being verified — but prose must never claim more than the current
+proof state supports. Mark unproved strengthenings as conjectures in the draft, and either
+prove them or strip them before gate 6.
 
 ## How to use the router
 

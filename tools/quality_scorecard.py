@@ -22,6 +22,7 @@ tokens count as one unit, and two CJK characters count as one unit.
 from __future__ import annotations
 
 import argparse
+from collections import Counter
 import json
 import re
 import sys
@@ -112,12 +113,21 @@ def substance_units(text: str) -> float:
     return latin_tokens + cjk_units
 
 
-def pack_cue_words(pack: Path) -> set[str]:
+def pack_cue_words(pack: Path, skills: list[Path] | None = None) -> set[str]:
     words = [w for w in pack.name.replace("-Skills", "").replace("-", " ").lower().split() if len(w) > 2]
     cue_words = {w for w in words if len(w) > 3}
     acronym = "".join(w[0] for w in words if w not in {"and", "the", "of"})
     if len(acronym) >= 3:
         cue_words.add(acronym)
+    if skills:
+        prefixes = [
+            sf.parent.name.split("-", 1)[0].lower()
+            for sf in skills
+            if "-" in sf.parent.name and 3 <= len(sf.parent.name.split("-", 1)[0]) <= 8
+        ]
+        for prefix, count in Counter(prefixes).items():
+            if count >= max(2, len(skills) // 2):
+                cue_words.add(prefix)
     return cue_words
 
 
@@ -135,7 +145,7 @@ def score_pack(pack: Path) -> dict:
     code_block_skills = 0
     skill_rows: list[dict] = []
 
-    pack_words = pack_cue_words(pack)
+    pack_words = pack_cue_words(pack, skills)
 
     for sf in skills:
         text = sf.read_text(encoding="utf-8", errors="replace")

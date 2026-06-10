@@ -37,6 +37,53 @@ description: Use when building and running the empirical analysis for a Journal 
 - Pin software/package versions; set seeds for bootstrap/simulation.
 - Prepare the **Elsevier Option C** data-availability statement and code/variable-construction archive now, not at acceptance (see jcf-replication-and-data-policy).
 
+## Firm-panel audit ledger
+
+Before adding robustness, build a ledger:
+
+```text
+Claim | Firm sample | Event/date rule | Variable formula | FE/clustering | Output file
+```
+
+Use it to catch the most common JCF weaknesses:
+
+- fiscal-year alignment changes treatment timing;
+- financial firms/utilities exclusions alter the estimand;
+- winsorization or missing-value rules drive the result;
+- two-way clustering is needed but only one dimension is reported;
+- an event-window result uses CRSP/Compustat links that are not documented.
+
+Every main result should also have an economic magnitude row. If the table cannot say what a coefficient
+means for leverage, payout, investment, governance, innovation, or financing constraints, the result is not
+ready for a corporate-finance audience.
+
+## Variable-construction crosswalk (Compustat conventions)
+
+JCF referees read variable definitions before coefficients. Anchor each outcome to a recognized construction and disclose deviations:
+
+```text
+Outcome            | Conventional construction                        | Disclosure trap
+Book leverage      | (dltt + dlc) / at                                | Mixing book and market denominators across tables
+Market leverage    | debt / (debt + prcc_f x csho)                    | Stale prices at fiscal-year ends
+Payout             | dv and prstkc scaled by assets or earnings       | Repurchase proxy ignores option-related buybacks
+Investment         | capx / lagged at (or PP&E)                       | Intangibles-heavy firms mismeasured; say so
+Cash holdings      | che / at (or net assets)                         | Net-of-cash denominators change percentile meaning
+Tobin's q          | (at + mkt equity - book equity) / at             | A dozen variants exist — name yours and cite it
+Board independence | independent directors / board size (BoardEx/ISS) | Vendor classification shifts over sample years
+CEO pay            | ExecuComp tdc1                                   | Option-valuation regime breaks across decades
+```
+
+## Worked build: a board-reform firm panel
+
+Hypothetical (numbers illustrative): a governance mandate forces some boards to hit an independence threshold. Build trace: Compustat–CRSP universe 1996–2020 → drop financials (SIC 6000–6999) and utilities (4900–4999) → require BoardEx coverage → final panel of 2,400 firms and 21,000 firm-years. Treated = firms below the threshold pre-mandate (38% of the panel). Ledger rows written before estimation: the treatment-date rule (fiscal years ending after the compliance deadline), the independence formula, the FE plan (firm and industry-by-year), clustering (firm). When the headline says investment rises 1.1 percentage points of assets for treated firms, the magnitude row converts it: about 12% of the sample mean — a number a JCF reader can judge.
+
+## Estimation pushback JCF referees raise
+
+- "Cluster by firm AND year." → Re-estimate two-way; if inference survives, report it in the main table, not a footnote.
+- "Your treated firms chose to be below the threshold." → Add a selection-into-treatment discussion plus a covariate-trend table comparing treated/control before the mandate.
+- "Winsorizing drives this." → Re-run at 0.5/99.5, 2/98, and trimmed; one appendix table, three columns.
+- "Industry-by-year shocks explain it." → Show the coefficient with and without industry × year FE side by side; if it dies, the paper has a confounding problem, not a formatting one.
+
 ## Anti-patterns
 
 - Kitchen-sink controls with no design and no magnitudes.

@@ -34,6 +34,21 @@ JEG runs both theory and empirics in growth, so a paper must be located on **two
 - Attributing a famous result to JEG (or any journal) without checking the actual outlet — verify, mark 待核实 otherwise.
 - Overclaiming a "first" without bounding the claim to the specific strand and data.
 
+## Strand triage before drafting
+
+| Your claim touches | Lineage to engage | What your delta must show |
+|---|---|---|
+| Deep determinants / persistence | institutions-geography-culture debate; historical natural experiments | a new shock, a new mechanism layer, or a channel overturned |
+| Unified growth / demography | demographic transition; fertility-education trade-off | a dynamic mechanism the canon cannot generate |
+| Endogenous growth / ideas | R&D-based growth; scale effects; technology diffusion | a generalization or a test that discriminates between models |
+| Structural transformation | sectoral reallocation; agriculture-to-industry dynamics | new long-run evidence or a quantified reallocation mechanism |
+
+If the paper touches two rows, pick the row where your delta is largest and treat the other as a secondary audience — split positioning reads as unfocused to growth specialists.
+
+## Worked vignette — placing a structural-transformation paper
+
+Draft claim (illustrative): railway access accelerated the farm-to-factory shift in one country, 1880-1940. Positioning steps: (1) name the strand — structural transformation and market integration, not transport economics; (2) state the tension — existing accounts attribute reallocation to agricultural productivity growth, while your shock isolates falling trade costs; (3) place the marginal step — "Relative to productivity-push accounts, we show a trade-cost channel that explains an illustrative 30% of the observed sectoral shift"; (4) build the bridge — a two-sector model rationalizes why the channel bites hardest in land-scarce regions, handing the calibration a testable cross-region prediction. Without step 4 the manuscript reads as economic history; with it, the growth-mechanism fit is legible to both referee camps.
+
 ## Output format
 
 ```

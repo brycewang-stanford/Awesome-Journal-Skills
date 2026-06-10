@@ -35,6 +35,44 @@ optimal execution, arbitrage theory).
    illustrating the theorem (convergence, qualitative behavior), never as the contribution
    itself — routine computation on data is out of scope.
 
+## Novelty-axis evidence table
+
+For each novelty axis the introduction must put specific evidence on the page; referees test
+the claim against the theorem statements themselves:
+
+| Novelty axis | What the introduction must show | How a referee tests it |
+| --- | --- | --- |
+| New tractable model | The closed-form or characterizing equation (PDE/BSDE/transform) the model admits | Re-derive the characterization from the stated dynamics |
+| Weaker assumption set | The exact hypothesis removed (e.g., no dominating measure, unbounded coefficients) | Search the proof for a hidden reinstatement of the dropped condition |
+| Constructive solution | The object built (optimal strategy, hedging portfolio, stopping boundary) | Check the construction is admissible and attains the value |
+| Sharper rate/bound | Old rate vs. new rate, with the regime where the gain bites | Compare against known lower bounds or counterexamples |
+| New representation | The dual/variational formula and the space it lives on | Verify both inequalities of the duality, not just one |
+| Unifying framework | At least two prior results recovered as corollaries | Confirm the corollaries follow without extra hypotheses |
+
+## Worked vignette: a robust superhedging paper
+
+Hypothetical manuscript: pathwise superhedging duality for path-dependent claims under
+volatility uncertainty. Applying the framing rules:
+
+- 【Modelling problem】price and superhedge a claim when no single probabilistic model is trusted.
+- 【Obstruction】classical duality needs a reference measure; under non-dominated uncertainty
+  the martingale measures are mutually singular, so measurable-selection and capacity issues
+  block the standard argument.
+- 【Theorem as resolution】duality between the cheapest superhedge and the supremum of
+  martingale expectations holds for upper semicontinuous claims, with dual attainment.
+- 【Novelty axis】weaker assumption set (no dominating measure) plus a new representation.
+- 【Modelling payoff】robust price bounds and an explicit hedge that works model-free.
+- 【Scope of claim】upper semicontinuity is essential; the introduction says so and points to
+  the counterexample section.
+
+## Calibration against accepted introductions
+
+Accepted *Mathematical Finance* papers typically open in one to two pages: modelling problem
+and obstruction in the first paragraphs, the main theorem stated informally (or by number) by
+page two, a short literature paragraph keyed to assumptions, then a roadmap. Long motivational
+essays are rare; so are introductions that postpone the main result past the model setup.
+When unsure of current norms, calibrate against the latest issues rather than older volumes.
+
 ## Anti-patterns
 
 - A theorem-dump introduction with no modelling "so what."

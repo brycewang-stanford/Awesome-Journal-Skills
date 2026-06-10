@@ -1,6 +1,6 @@
 ---
 name: ectj-identification-strategy
-description: Use when stress-testing the identification, assumptions, asymptotics, regularity conditions, proofs, and leading-case theory in a The Econometrics Journal submission.
+description: Use when stress-testing identification, assumptions, asymptotics, regularity conditions, and proofs in a The Econometrics Journal (EctJ) submission, including proof placement under RES printed-appendix rules and pairing every asymptotic claim with finite-sample evidence referees can audit.
 ---
 
 # EctJ Identification Strategy
@@ -34,6 +34,51 @@ EctJ referees usually attack the bridge between compact theory and practical use
 - **Simulation mismatch**: the Monte Carlo design does not probe the assumption most likely to fail.
 
 For each attack, write the exact theorem, assumption, table, or paragraph that will answer it.
+
+## Assumption ledger
+
+Create a compact ledger before rewriting the theory section:
+
+```text
+Condition | Role | Where used | Empirical/simulation check | If weakened
+```
+
+Use the ledger to remove decorative assumptions and expose missing ones. If a condition is used only for
+proof convenience, say whether it can be relaxed, whether it is standard in the closest EctJ-adjacent
+literature, and whether the simulation explores failure near that boundary. If a condition is essential
+but empirically unverifiable, the paper needs an interpretation paragraph that tells applied readers what
+kind of data-generating process would make it plausible.
+
+Do not let notation hide the identification argument. A reader should be able to trace, in order, the
+target object, restrictions, estimator or statistic, asymptotic claim, and finite-sample diagnostic.
+
+## Worked trace: a debiased panel treatment-effect estimator
+
+A hypothetical EctJ vignette (illustrative throughout): the paper proposes an orthogonalized
+estimator for an average treatment effect in a panel where nuisance functions are fit by machine
+learning. The traceable chain referees expect:
+
+- **Target object**: the ATE under unconfoundedness conditional on high-dimensional firm controls.
+- **Restrictions**: overlap bounded away from zero; nuisance estimators converging faster than
+  n^{-1/4}; cross-fitting with K=5 folds.
+- **Estimator**: the Neyman-orthogonal score averaged over folds.
+- **Asymptotic claim**: root-n normality with a variance estimator valid under cross-fitting.
+- **Finite-sample diagnostic**: coverage simulated at n in {250, 1000}; the rate condition is
+  stressed by deliberately slowing one nuisance learner and showing where coverage degrades.
+
+If any link is missing, that link is what the report will quote back. A rate condition of the
+n^{-1/4} kind is exactly the assumption that must be tied to a data feature: say which learner
+plausibly meets it in the application and what the simulation shows when it fails.
+
+## Proof-economy rules for the compact format
+
+- Every theorem keeps its full proof in the printed paper or printed appendix; the online appendix
+  carries only secondary lemmas, and only when current RES guidance permits it — confirm against
+  the journal's current author guidelines before moving any derivation out of print.
+- A leading-case theorem may delegate generality to a remark, but the remark must say what breaks
+  in the general case, not just that extensions are straightforward.
+- Each asymptotic statement should name the exhibit where its finite-sample counterpart appears;
+  EctJ referees treat unpaired asymptotics as an unfinished result.
 
 ## Output format
 
