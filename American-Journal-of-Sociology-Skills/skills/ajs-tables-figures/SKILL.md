@@ -45,6 +45,16 @@ and Formatting PDF (待核实; UChicago Press pages are 403 to automated fetch).
 - Exhibits that need the body text to be intelligible (no units, no N, no source)
 - A wall of stars where a single figure would carry the argument
 
+
+## Exhibit pass for American Journal of Sociology
+
+Treat this skill as an executable review pass, not a prose hint. First lock the social process, data leverage, causal or interpretive warrant, and theoretical payoff; then judge whether the current manuscript answers the venue's real reader: sociology reviewers who value deep theory, durable empirical leverage, and careful social-mechanism claims.
+
+- **Do the pass:** For every table or figure, state the estimand or object, sample or case base, uncertainty display, and one sentence the exhibit proves for the venue audience.
+- **Return a ledger:** give `claim / evidence / risk / manuscript location` rows, so the next agent can edit rather than rediscover the issue.
+- **Sibling guard:** compare against ASR for broader empirical sociology, Social Forces for wider substantive range, Demography for population mechanisms; if a sibling owns the contribution, recommend re-routing before polishing format.
+- **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
+
 ## Output format
 
 ```

@@ -44,6 +44,16 @@ implications — strengthen the framing or the scenario design.
 - A confident policy claim resting on high-uncertainty output
 - Implications that ignore the social/economic side of the system
 
+
+## Implication pass for Agricultural Systems
+
+Run this as a concrete capability pass. First lock the system boundary, actor decision, model/data linkage, and sustainability or food-security tradeoff; then test whether the manuscript addresses agricultural-systems reviewers who expect crop, farm, value-chain, environment, and policy components to be connected rather than listed.
+
+- **Primary move:** Name the actor, decision margin, system tradeoff, and evidence limit; do not let broad impact language outrun the design.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Sibling comparison:** compare against Field Crops Research for plot-level agronomy, Global Food Security for policy synthesis, Agricultural Economics for economics-first work; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

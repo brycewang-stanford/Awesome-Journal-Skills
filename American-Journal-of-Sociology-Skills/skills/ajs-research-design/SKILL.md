@@ -57,6 +57,16 @@ weak, tighten the claim or strengthen the design — do not overclaim.
 - Overclaiming causality from an associational design
 - A design that tests something adjacent to, but not, the stated theoretical claim
 
+
+## Design pass for American Journal of Sociology
+
+Treat this skill as an executable review pass, not a prose hint. First lock the social process, data leverage, causal or interpretive warrant, and theoretical payoff; then judge whether the current manuscript answers the venue's real reader: sociology reviewers who value deep theory, durable empirical leverage, and careful social-mechanism claims.
+
+- **Do the pass:** Lock the unit, scope, comparison, validity threat, and minimum decisive evidence before recommending collection, analysis, or submission.
+- **Return a ledger:** give `claim / evidence / risk / manuscript location` rows, so the next agent can edit rather than rediscover the issue.
+- **Sibling guard:** compare against ASR for broader empirical sociology, Social Forces for wider substantive range, Demography for population mechanisms; if a sibling owns the contribution, recommend re-routing before polishing format.
+- **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
+
 ## Output format
 
 ```

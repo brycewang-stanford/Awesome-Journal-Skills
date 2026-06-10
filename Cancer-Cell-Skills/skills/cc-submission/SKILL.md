@@ -71,6 +71,16 @@ description: Use when running the final pre-submission preflight for Cancer Cell
 - Mismatched accessions between KRT and availability statement
 - Figures not cited in order; broken cross-references
 
+
+## Submission readiness pass for Cancer Cell
+
+Use this as a second-pass capability check. First lock the cancer context, mechanism, model system, validation chain, and translational boundary; then test whether the manuscript addresses cancer-biology reviewers who expect mechanistic oncology, translational relevance, and strong multi-modal validation.
+
+- **Primary move:** Verify portal, article type, anonymity, declarations, files, data/code, and current source-map facts; return blockers before formatting advice.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against Cell for broader biology, Nature Cancer for oncology breadth, Clinical Cancer Research for clinical translation; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

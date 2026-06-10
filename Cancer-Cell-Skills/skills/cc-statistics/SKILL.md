@@ -71,6 +71,16 @@ Check assumptions (normality, equal variance) and report how. Prefer non-paramet
 - Asterisks with no test, no `n`, no exact p
 - Treating omics features as independent without FDR control
 
+
+## Statistics pass for Cancer Cell
+
+Use this as a second-pass capability check. First lock the cancer context, mechanism, model system, validation chain, and translational boundary; then test whether the manuscript addresses cancer-biology reviewers who expect mechanistic oncology, translational relevance, and strong multi-modal validation.
+
+- **Primary move:** Check estimand, denominator, uncertainty, multiplicity, missing data, sensitivity, and reporting standard before interpreting any result.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against Cell for broader biology, Nature Cancer for oncology breadth, Clinical Cancer Research for clinical translation; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

@@ -44,6 +44,16 @@ Both reward calm, specific, evidence-based engagement over defensiveness. Verify
 - In a Reply: straw-manning the Comment or treating it as an attack to be "won"
 - Breaking anonymity in a re-uploaded R&R file
 
+
+## Response pass for American Journal of Sociology
+
+Treat this skill as an executable review pass, not a prose hint. First lock the social process, data leverage, causal or interpretive warrant, and theoretical payoff; then judge whether the current manuscript answers the venue's real reader: sociology reviewers who value deep theory, durable empirical leverage, and careful social-mechanism claims.
+
+- **Do the pass:** Separate editor-order changes from referee-specific changes; answer each major objection with manuscript edits plus a short evidence citation, not tone.
+- **Return a ledger:** give `claim / evidence / risk / manuscript location` rows, so the next agent can edit rather than rediscover the issue.
+- **Sibling guard:** compare against ASR for broader empirical sociology, Social Forces for wider substantive range, Demography for population mechanisms; if a sibling owns the contribution, recommend re-routing before polishing format.
+- **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
+
 ## Output format
 
 ```
