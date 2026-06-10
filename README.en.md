@@ -3,7 +3,6 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/agent-Claude%20Code-cc785c)](https://github.com/anthropics/claude-code)
-[![Skills](https://img.shields.io/badge/skills-1984-cc785c)](#-the-skill-packs)
 [![Maintained by CoPaper.AI from Stanford REAP](https://img.shields.io/badge/Maintained%20by-CoPaper.AI%20from%20Stanford%20REAP-blue)](https://copaper.ai)
 [![Powered by StatsPAI](https://img.shields.io/badge/Powered%20by-StatsPAI-orange)](https://github.com/brycewang-stanford/StatsPAI)
 
@@ -89,6 +88,9 @@ English | [简体中文](README.md)
 <p align="center">
   <sub>Flagship English econ &amp; business venues from the <a href="English-SocialScience-Journal-Skills/">English-SocialScience-Journal-Skills</a> breadth bundle (<b>100 journals + selection router</b>). Tier badges (Top-5 · Top-3 · FT50 · UTD24) indicate tiering.</sub>
 </p>
+<details>
+<summary><b>🔬 Click to expand: Natural Science &amp; Medicine Flagships — 154-journal cover wall</b>　General · Life sciences · Clinical medicine · Nature research · Physics &amp; astronomy · Chemistry &amp; materials · Earth &amp; environment · Mathematics &amp; computation · Frontiers</summary>
+
 <!-- STEM-WALL-START -->
 <h3 align="center">Natural Science &amp; Medicine Flagships — 154 Top Journals Covered</h3>
 <p align="center"><sub>Click any cover to open the corresponding skill pack. <b>Depth packs (12 skills)</b>: Science · Nature · Cell · Cancer Cell · PNAS · NEJM · JAMA · The Lancet · PRL · JACS · ES&amp;T; other covers link to the <a href="English-NaturalScience-Journal-Skills/">English-NaturalScience-Journal-Skills</a> breadth bundle.</sub></p>
@@ -284,6 +286,8 @@ English | [简体中文](README.md)
 </p>
 <!-- STEM-WALL-END -->
 
+</details>
+
 A curated index of **journal- and conference-specific agent skill packs** for manuscript work — every skill covers one stage of the paper lifecycle: selecting topics, framing the advance, identifying causal effects, formatting tables and figures, preparing replication / data-availability packages, and responding to reviewers. Coverage spans five blocks: **business & social-science flagships (Chinese + English)** (economics, finance, management, accounting, marketing, operations, information systems), **humanities & broader social science** (sociology, political science, psychology, demography, communication, history, art, philosophy, literature, religion), **top natural-science & clinical journals** (Science, Cell, PNAS, NEJM, The Lancet, JAMA… plus environment, ecology, and agriculture flagships), and **AI-first computer-science conferences** (NeurIPS / ICML / ICLR / AAAI / IJCAI / AISTATS depth packs + a 155-conference breadth bundle).
 
 Each pack is **journal-specific by design**: it encodes the editorial preferences, formatting conventions, identification standards, and review culture of a single target venue. Generic "scientific writing" skill packs miss these constraints.
@@ -430,6 +434,22 @@ Top journals impose constraints that differ materially across venues:
 - **《经济研究》** desk-rejects on missing canonical theory citations.
 
 A one-size-fits-all "economics writing" skill cannot encode these differences. Each pack here is opinionated by venue.
+
+---
+
+## 🔬 What's Inside a Depth Pack?
+
+Take the most complete one — the **Economic Research depth pack** (18 skills) — as the model. A depth pack slices the **full lifecycle** of an empirical paper, from topic selection to reviewer rebuttal, into stages an agent can invoke one at a time. Each skill owns a single stage, and every one of them encodes **this one journal's** specific red lines — not generic "academic writing."
+
+| Stage | Skills | What it gates for you |
+|-------|--------|-----------------------|
+| **① Topic & positioning** | `er-topic-selection` · `er-literature-review` · `er-theory-hypotheses` | theoretical contribution, literature positioning, hypothesis chain |
+| **② Empirical design** | `er-identification` · `er-data-sample` · `er-mechanism` · `er-heterogeneity` · `er-robustness` | identification strategy, data construction, mechanism & heterogeneity, robustness |
+| **③ Drafting** | `er-introduction` · `er-abstract` · `er-tables-figures` · `er-style` · `er-policy-implication` | intro narrative, abstract conventions, table/figure format, policy implications |
+| **④ Submission & revision** | `er-reviewer-lens` · `er-reproducibility` · `er-submission` · `er-rebuttal` | reviewer-lens self-audit, replication package, pre-submission preflight, point-by-point rebuttal |
+| **⑤ Orchestration** | `er-workflow` | runs across the whole flow, deciding which skill to call next |
+
+> **Depth pack vs. breadth bundle:** a journal in a **breadth bundle** ships just one lightweight "fit + house-style" skill — ideal for the **selection stage** when comparing targets. Once you've picked, install the matching **depth pack** for the full ~18-step workflow. Stage counts vary slightly by journal (~11–18 steps).
 
 ---
 

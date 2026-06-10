@@ -3,7 +3,6 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/agent-Claude%20Code-cc785c)](https://github.com/anthropics/claude-code)
-[![Skills](https://img.shields.io/badge/skills-1984-cc785c)](#-skill-pack-一览)
 [![Maintained by CoPaper.AI from Stanford REAP](https://img.shields.io/badge/Maintained%20by-CoPaper.AI%20from%20Stanford%20REAP-blue)](https://copaper.ai)
 [![Powered by StatsPAI](https://img.shields.io/badge/Powered%20by-StatsPAI-orange)](https://github.com/brycewang-stanford/StatsPAI)
 
@@ -89,6 +88,9 @@
 <p align="center">
   <sub>英文经管顶尖期刊 —— 来自 <a href="English-SocialScience-Journal-Skills/">English-SocialScience-Journal-Skills</a> 广度合集（<b>100 本期刊 + 选刊路由</b>）。Top-5、Top-3、FT50、UTD24 等标签用于说明分层。</sub>
 </p>
+<details>
+<summary><b>🔬 点击展开：自然科学 · 医学国际顶刊 —— 154 本旗舰封面墙</b>　综合多学科 · 生命科学 · 临床医学 · Nature 子刊 · 物理天文 · 化学材料 · 地球环境 · 数学计算 · 跨学科前沿</summary>
+
 <!-- STEM-WALL-START -->
 <h3 align="center">🔬 自然科学 · 医学国际顶刊 —— 覆盖 154 本旗舰期刊</h3>
 <p align="center"><sub>点击任意封面进入对应 Skill 包。<b>深度包（12 技能）</b>：Science · Nature · Cell · Cancer Cell · PNAS · NEJM · JAMA · The Lancet · PRL · JACS · ES&amp;T；其余链接至 <a href="English-NaturalScience-Journal-Skills/">English-NaturalScience-Journal-Skills</a> 广度合集页。</sub></p>
@@ -284,6 +286,8 @@
 </p>
 <!-- STEM-WALL-END -->
 
+</details>
+
 按**期刊与会议**组织的 Agent Skill 包索引——每个 skill 覆盖论文生命周期的一个环节：选题、定位核心进展、识别策略、表格与图件规范、复制包 / 数据可得性准备、投稿与修改回复。收录范围横跨五大板块：**经管社科中英文顶刊**（经济、金融、管理、会计、营销、运营、信息系统）、**人文与广义社科顶刊**（社会学、政治学、心理学、人口学、传播学、历史、艺术、哲学、文学、宗教）、**自然科学与临床顶刊**（Science、Cell、PNAS、NEJM、The Lancet、JAMA……以及环境、生态、农业领域旗舰刊），以及 **AI 优先的计算机科学顶会**（NeurIPS / ICML / ICLR / AAAI / IJCAI / AISTATS 深度包 + 155 个会议广度合集）。
 
 每个 pack 都是**针对单一期刊**的方法论沉淀：它编码了某一本期刊的编委偏好、格式规范、识别标准和审稿文化。通用的"科研写作"Skill 包做不到这一点。
@@ -430,6 +434,22 @@
 - **《经济研究》** 退稿点常在缺经典理论文献
 
 一套"经济学写作"Skill 不可能同时编码这些差异。本索引下的每个 pack 都是按期刊定制的。
+
+---
+
+## 🔬 一个深度包里有什么？
+
+以最完整的 **《经济研究》深度包**（18 个 skill）为例：一个深度包就是把一篇实证论文从选题到回复审稿的**完整生命周期**，拆成可被 agent 逐环节调用的工序。每个 skill 只负责一个环节，但都编码了**这一本期刊**的具体红线，而不是泛泛的"学术写作"。
+
+| 阶段 | Skills | 它替你把关什么 |
+|------|--------|----------------|
+| **① 选题与定位** | `er-topic-selection` · `er-literature-review` · `er-theory-hypotheses` | 理论贡献是否够格、文献站位、假设链条 |
+| **② 实证设计** | `er-identification` · `er-data-sample` · `er-mechanism` · `er-heterogeneity` · `er-robustness` | 识别策略、数据口径、机制与异质性、稳健性 |
+| **③ 写作成稿** | `er-introduction` · `er-abstract` · `er-tables-figures` · `er-style` · `er-policy-implication` | 引言叙事、中文提要规范、表图格式、政策含义 |
+| **④ 投稿与修改** | `er-reviewer-lens` · `er-reproducibility` · `er-submission` · `er-rebuttal` | 审稿人视角自检、复制包、投稿前 preflight、逐条回复 |
+| **⑤ 编排** | `er-workflow` | 贯穿全程，决定下一步该调用哪个 skill |
+
+> **深度包 vs 广度合集：** 一个**广度合集**里的期刊只有 1 个"选刊定位 + 写作风格"轻量 skill —— 适合**选刊阶段**横向比较；目标定下来后，再装对应**深度包**走完整 18 步流程。不同期刊的深度包阶段数略有差异（约 11–18 步）。
 
 ---
 
