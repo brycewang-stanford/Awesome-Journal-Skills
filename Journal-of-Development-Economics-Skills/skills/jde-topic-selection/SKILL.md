@@ -36,6 +36,16 @@ Because JDE is highly selective — roughly **1,300 submissions a year**, only a
 - Over-claiming external validity from one site without saying what the result teaches development broadly
 - Treating JDE as a fallback for a paper that failed a top-5 desk — fit must be genuine
 
+
+## Fit pass for Journal of Development Economics
+
+Treat this skill as an executable review pass, not a prose hint. First lock the development constraint, identification, welfare or distribution margin, and implementation context; then judge whether the current manuscript answers the venue's real reader: development economists who expect a development mechanism, credible design, and policy-relevant external validity.
+
+- **Do the pass:** Score the manuscript on venue fit, novelty, evidence readiness, and audience ownership; reject a prestige-only target when a sibling venue owns the contribution more directly.
+- **Return a ledger:** give `claim / evidence / risk / manuscript location` rows, so the next agent can edit rather than rediscover the issue.
+- **Sibling guard:** compare against World Development for broader policy audience, JPubE for fiscal/public-finance mechanisms, AER/AEJ Applied for field-wide reach; if a sibling owns the contribution, recommend re-routing before polishing format.
+- **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
+
 ## Output format
 
 ```

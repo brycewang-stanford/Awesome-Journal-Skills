@@ -45,6 +45,16 @@ Then test it:
 - Overstating generality the proofs do not support (referees will check)
 - Saving the contribution sentence for the conclusion
 
+
+## Contribution pass for Games and Economic Behavior
+
+Treat this skill as an executable review pass, not a prose hint. First lock the primitives, equilibrium concept, comparative statics, and proof or experiment boundary; then judge whether the current manuscript answers the venue's real reader: game theorists who ask what the model teaches beyond a clever example.
+
+- **Do the pass:** Translate the result into who learns what, which mechanism changes, and which alternative explanation is ruled out; keep the contribution narrower than the evidence.
+- **Return a ledger:** give `claim / evidence / risk / manuscript location` rows, so the next agent can edit rather than rediscover the issue.
+- **Sibling guard:** compare against JET for theory abstraction, Theoretical Economics for compact theory contribution, Experimental Economics for experiment-first designs; if a sibling owns the contribution, recommend re-routing before polishing format.
+- **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
+
 ## Output format
 
 ```

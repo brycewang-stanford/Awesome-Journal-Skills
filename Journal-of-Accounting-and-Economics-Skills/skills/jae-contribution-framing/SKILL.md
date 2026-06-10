@@ -50,6 +50,16 @@ The contribution belongs **up front** (intro) and is **closed** in the discussio
 - **Normative drift** ("regulators should...") in place of positive consequences.
 - **Magnitude silence** — significance with no economic interpretation.
 
+
+## Contribution pass for Journal of Accounting and Economics
+
+Use this as a second-pass capability check. First lock the economic mechanism, accounting setting, identification or model, and market/contracting consequence; then test whether the manuscript addresses accounting-economics reviewers who expect economics discipline, identification, and market or contracting implications.
+
+- **Primary move:** Translate the result into who learns what, which mechanism changes, and which rival explanation is ruled out; keep the claim narrower than the evidence.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against JAR for accounting research breadth, TAR for accounting flagship breadth, Review of Accounting Studies for archival/accounting focus; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

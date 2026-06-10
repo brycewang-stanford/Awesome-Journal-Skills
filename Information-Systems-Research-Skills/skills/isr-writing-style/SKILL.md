@@ -47,6 +47,16 @@ Use the INFORMS **author-date** reference style (exact edition 待核实 — rec
 - **Construct/notation drift** between text and exhibits.
 - **Identity leakage** in acknowledgments or "our prior work" phrasing.
 
+
+## Style execution pass for Information Systems Research
+
+Run this as a concrete capability pass. First lock the digital artifact or system, user/firm behavior, identification or design evidence, and IS-theory contribution; then test whether the manuscript addresses IS reviewers who expect digital-technology theory, empirical or design leverage, and implications for organizations or markets.
+
+- **Primary move:** Rewrite the opening and transitions so the venue-level claim, evidence object, and contribution are visible before technical detail; keep house-style limits tied to the source map.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Sibling comparison:** compare against MIS Quarterly for broader IS theory, Management Science for OR/MS generality, Journal of Management Information Systems for applied IS systems; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

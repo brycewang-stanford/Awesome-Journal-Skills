@@ -39,6 +39,16 @@ GEB is a **game-theory** journal, so for theoretical papers the "identification 
 - Numerical examples presented as if they were a proof
 - An experiment that rejects a null but cannot tell which strategic theory wins
 
+
+## Identification pass for Games and Economic Behavior
+
+Use this as a second-pass capability check. First lock the primitives, equilibrium concept, comparative statics, and proof or experiment boundary; then test whether the manuscript addresses game theorists who ask what the model teaches beyond a clever example.
+
+- **Primary move:** State identifying variation, identifying assumption, falsification, sensitivity, and the table/figure that would convince a skeptical referee.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against JET for theory abstraction, Theoretical Economics for compact theory contribution, Experimental Economics for experiment-first designs; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

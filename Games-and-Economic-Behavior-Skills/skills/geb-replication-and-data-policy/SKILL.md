@@ -44,6 +44,16 @@ Even though it is optional, sharing well is good practice and pre-empts referee 
 - A data file with no README or variable documentation
 - Confusing GEB's optional policy with the mandatory archives of AER/Econometrica/JAE
 
+
+## Reproducibility pass for Games and Economic Behavior
+
+Use this as a second-pass capability check. First lock the primitives, equilibrium concept, comparative statics, and proof or experiment boundary; then test whether the manuscript addresses game theorists who ask what the model teaches beyond a clever example.
+
+- **Primary move:** Name data, code, environment, disclosure limits, and archive/deposit route; unresolved proprietary or ethics barriers must be explicit.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against JET for theory abstraction, Theoretical Economics for compact theory contribution, Experimental Economics for experiment-first designs; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

@@ -51,6 +51,16 @@ execution and reporting norms; design decisions live in `joc-research-design`.
 - Reporting a content analysis without intercoder reliability
 - A results section whose numbers the code cannot reproduce
 
+
+## Evidence pass for Journal of Communication
+
+Treat this skill as an executable review pass, not a prose hint. First lock the communication process, platform/media setting, construct measurement, and study design; then judge whether the current manuscript answers the venue's real reader: communication reviewers who balance theory, media context, measurement, and social implications.
+
+- **Do the pass:** Audit the research design before polishing prose: unit of analysis, comparison set, uncertainty, sensitivity, missingness, and reproducibility must be visible.
+- **Return a ledger:** give `claim / evidence / risk / manuscript location` rows, so the next agent can edit rather than rediscover the issue.
+- **Sibling guard:** compare against Communication Research for quantitative communication, New Media & Society for platform focus, Human Communication Research for theory testing; if a sibling owns the contribution, recommend re-routing before polishing format.
+- **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
+
 ## Output format
 
 ```

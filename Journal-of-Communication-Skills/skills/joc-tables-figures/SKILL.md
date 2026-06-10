@@ -48,6 +48,16 @@ pages**: the main-document limit of **35 pages** explicitly includes the abstrac
 - Color-only encoding that fails in grayscale or for colorblind readers
 - Exhibit numbers/values that don't match the deposited code output
 
+
+## Exhibit pass for Journal of Communication
+
+Treat this skill as an executable review pass, not a prose hint. First lock the communication process, platform/media setting, construct measurement, and study design; then judge whether the current manuscript answers the venue's real reader: communication reviewers who balance theory, media context, measurement, and social implications.
+
+- **Do the pass:** For every table or figure, state the estimand or object, sample or case base, uncertainty display, and one sentence the exhibit proves for the venue audience.
+- **Return a ledger:** give `claim / evidence / risk / manuscript location` rows, so the next agent can edit rather than rediscover the issue.
+- **Sibling guard:** compare against Communication Research for quantitative communication, New Media & Society for platform focus, Human Communication Research for theory testing; if a sibling owns the contribution, recommend re-routing before polishing format.
+- **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
+
 ## Output format
 
 ```

@@ -50,6 +50,16 @@ description: Use when running the final pre-submission preflight for the Journal
 - A generic cover letter that ignores the multi-Co-Editor model
 - Budgeting an APC figure that was never officially confirmed
 
+
+## Submission pass for Journal of Business & Economic Statistics
+
+Run this as a concrete capability pass. First lock the statistical estimand, identification/simulation evidence, empirical illustration, and reproducibility path; then test whether the manuscript addresses econometrics/statistics reviewers who expect methodological credibility plus a business or economic use case.
+
+- **Primary move:** Treat current official instructions as volatile; verify portal, file format, anonymity, length, data, ethics, and disclosure requirements before saying ready.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Sibling comparison:** compare against Journal of Econometrics for theory-heavy methods, Econometric Theory for proof-first work, Quantitative Economics for economics-theory methods; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

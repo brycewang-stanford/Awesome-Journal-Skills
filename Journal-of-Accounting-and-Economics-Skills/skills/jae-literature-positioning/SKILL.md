@@ -50,6 +50,16 @@ Confirm the conversation is one JAE actually hosts. A pure asset-pricing or corp
 - **Ignoring Watts-Zimmerman / agency / disclosure foundations** in a paper that depends on them.
 - **Mis-targeted stream**: framing a finance question as if JAE were the venue.
 
+
+## Positioning pass for Journal of Accounting and Economics
+
+Use this as a second-pass capability check. First lock the economic mechanism, accounting setting, identification or model, and market/contracting consequence; then test whether the manuscript addresses accounting-economics reviewers who expect economics discipline, identification, and market or contracting implications.
+
+- **Primary move:** Map incumbent conversation, unresolved tension, this manuscript's delta, and the sibling-venue omission a referee might notice.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against JAR for accounting research breadth, TAR for accounting flagship breadth, Review of Accounting Studies for archival/accounting focus; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

@@ -56,6 +56,16 @@ Keep the count within JAMA's current figure/table limit — verify the exact num
 - The same numbers shown in both a table and a figure
 - Abbreviations undefined in the footnote
 
+
+## Exhibit pass for JAMA
+
+Run this as a concrete capability pass. First lock the clinical question, patient population, estimand or endpoint, safety/ethics issue, and reporting checklist; then test whether the manuscript addresses clinical reviewers who ask whether the evidence changes patient care, policy, or medical decision-making while satisfying reporting standards.
+
+- **Primary move:** For every figure or table, state the patient/study object, denominator, uncertainty display, and the clinical claim it supports.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Sibling comparison:** compare against NEJM for field-changing clinical medicine, Lancet for global-health breadth, specialty journals for narrower clinical domains; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

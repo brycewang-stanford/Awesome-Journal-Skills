@@ -49,6 +49,16 @@ JBV publishes via Elsevier/ScienceDirect, so prepare figures for both print and 
 - **Color-only figures** that collapse in print.
 - **Decorative framework figure** that merely restates the abstract.
 
+
+## Exhibit pass for Journal of Business Venturing
+
+Treat this skill as an executable review pass, not a prose hint. First lock the entrepreneurial mechanism, level of analysis, evidence design, and boundary conditions for ventures; then judge whether the current manuscript answers the venue's real reader: entrepreneurship reviewers who ask whether the paper advances venture formation, opportunity, founder, or ecosystem theory.
+
+- **Do the pass:** For every table or figure, state the estimand or object, sample or case base, uncertainty display, and one sentence the exhibit proves for the venue audience.
+- **Return a ledger:** give `claim / evidence / risk / manuscript location` rows, so the next agent can edit rather than rediscover the issue.
+- **Sibling guard:** compare against Entrepreneurship Theory and Practice for broader entrepreneurship, Strategic Entrepreneurship Journal for strategy interface, AMJ for general management; if a sibling owns the contribution, recommend re-routing before polishing format.
+- **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
+
 ## Output format
 
 ```

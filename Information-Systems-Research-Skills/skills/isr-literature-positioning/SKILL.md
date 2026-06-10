@@ -46,6 +46,16 @@ Because ISR draws on cognitive psychology, economics, computer science, operatio
 - **Reference-discipline-only** citing that treats IS as a venue, not a field.
 - **Mismatched streams**: positioning against a literature your design cannot speak to.
 
+
+## Positioning pass for Information Systems Research
+
+Run this as a concrete capability pass. First lock the digital artifact or system, user/firm behavior, identification or design evidence, and IS-theory contribution; then test whether the manuscript addresses IS reviewers who expect digital-technology theory, empirical or design leverage, and implications for organizations or markets.
+
+- **Primary move:** Build a three-column map: incumbent conversation, unresolved tension, and this manuscript's delta; include one sibling-venue omission that would make a referee doubt the fit.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Sibling comparison:** compare against MIS Quarterly for broader IS theory, Management Science for OR/MS generality, Journal of Management Information Systems for applied IS systems; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```
