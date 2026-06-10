@@ -46,6 +46,12 @@ description: Use when targeting 《管理学刊》(Journal of Management — 新
 - 机制推演与识别策略要交代清楚，避免只报告相关关系。
 - 结论给出适度政策启示与研究边界，从本文证据推出。
 
+## 路由防误投
+
+- 本刊快速定位属于“管理科学与工商管理”通道；只有当稿件的核心贡献满足“组织、战略、创新管理、管理科学模型、系统工程或企业管理机制必须是核心贡献”时，才把 《管理学刊》 作为首选。
+- 相近 profile 先比较：`journal-of-jiangxi-university-of-finance-and-economics`（《江西财经大学学报》） / `journal-of-macro-quality-research`（《宏观质量研究》） / `journal-of-management-sciences-china`（《管理科学学报》） / `journal-of-public-management`（《公共管理学报》）。若这些刊物的读者对象更贴近，不要因为名称、地区或变量相似而强行投本刊。
+- 常见误投：若只是宏观政策效果，比较经济/产业/公共管理刊。 正式建议前仍需进入官方核验清单。
+
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从官方来源锚点开始核验，并在回答中说明核验日期。

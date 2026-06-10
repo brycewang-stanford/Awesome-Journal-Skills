@@ -34,6 +34,14 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: representation, learning, deep, generative, models, optimization, open-review, discussion, venue-specific, contribution, flagship, iclr.
 - Official anchor domain: iclr.cc. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to ICLR when the paper is about representation learning, deep-learning methods,
+  architectures, optimization behavior, or empirically grounded learning insights suited to
+  open review.
+- Compare ICML for broader ML methods/theory, NeurIPS for broad ML/AI impact, AISTATS/UAI/COLT
+  for statistics/uncertainty/theory, and domain venues for application-first work.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

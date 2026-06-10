@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: digital, libraries, archives, scholarly, communication, metadata, preservation, information, access, venue-specific, contribution, jcdl.
 - Official anchor domain: www.jcdl.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to JCDL when the contribution is digital libraries, scholarly information systems,
+  metadata, curation, preservation, search, or user behavior in digital collections.
+- Compare SIGIR/ECIR for retrieval algorithms, CIKM for broader information/knowledge
+  management, and CSCW/CHI when social or user-study contribution dominates.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

@@ -34,6 +34,16 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: programming, languages, software, language, design, tools, types, verification, empirical, venue-specific, contribution, conf, researchr.
 - Official anchor domain: conf.researchr.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in programming
+  languages and the author can say why OOPSLA reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `acm-sigplan-conference-on-
+  programming-language-design-and-implementation` (PLDI), `acm-sigplan-symposium-on-
+  principles-of-programming-languages` (POPL). Break ties by contribution type, evidence
+  shape, reviewer community, and the current official CFP from conf.researchr.org.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

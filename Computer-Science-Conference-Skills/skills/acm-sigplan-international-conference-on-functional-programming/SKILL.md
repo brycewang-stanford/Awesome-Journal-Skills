@@ -34,6 +34,14 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: functional, programming, type, semantics, compilers, theorem, proving, language, design, venue-specific, contribution, icfpconference.
 - Official anchor domain: icfpconference.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to ICFP when the paper is about functional programming languages, type systems,
+  semantics, compilers, program reasoning, or applications centered on functional-language
+  ideas.
+- Compare PLDI for implementation/performance and language design, POPL for principles and
+  proofs, OOPSLA for object-oriented/software language systems, and CAV for verification.
+
 ## Method & evidence bar
 
 - Use real programs, benchmarks, proofs, developer studies, or artifacts matched to the contribution type.

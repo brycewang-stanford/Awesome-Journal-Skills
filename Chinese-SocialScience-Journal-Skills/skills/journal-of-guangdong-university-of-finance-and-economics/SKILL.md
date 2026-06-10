@@ -46,6 +46,12 @@ description: Use when targeting 《广东财经大学学报》(Journal of Guangd
 - 文献综述避免罗列，必须说明本文位置
 - 结论给出适度政策启示和研究边界
 
+## 路由防误投
+
+- 本刊快速定位属于“金融财经”通道；只有当稿件的核心贡献满足“金融机构、资本市场、监管、公司金融或国际金融机制必须是主线”时，才把 《广东财经大学学报》 作为首选。
+- 相近 profile 先比较：`journal-of-finance-and-economics`（《财经研究》） / `journal-of-financial-research`（《金融研究》） / `journal-of-industrial-engineering-and-engineering-management`（《管理工程学报》） / `journal-of-international-trade`（《国际贸易问题》）。若这些刊物的读者对象更贴近，不要因为名称、地区或变量相似而强行投本刊。
+- 常见误投：若金融只是机制之一，优先比较产业、财政、区域或综合经济刊。 正式建议前仍需进入官方核验清单。
+
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。

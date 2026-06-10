@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: vision, pattern, recognition, learning, visual, computing, bmva, community, focus, venue-specific, contribution, bmvc2026.
 - Official anchor domain: bmvc2026.bmva.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in computer
+  vision and the author can say why BMVC reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `winter-conference-on-applications-
+  of-computer-vision` (WACV), `asian-conference-on-computer-vision` (ACCV), `international-
+  conference-on-3d-vision` (3DV), `ieee-international-symposium-on-biomedical-imaging` (ISBI).
+  Break ties by contribution type, evidence shape, reviewer community, and the current
+  official CFP from bmvc2026.bmva.org.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

@@ -34,6 +34,15 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: information, visualization, scientific, visual, analytics, evaluation, venue-specific, contribution, flagship, ieeevis.
 - Official anchor domain: ieeevis.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to IEEE VIS when the central contribution is visualization: visual encoding, visual
+  analytics, scientific visualization, visualization systems, or evaluation matched to the
+  visualization claim.
+- Do not submit generic HCI or graphics papers here. Compare EuroVis for specialist
+  visualization, CHI/UIST for interaction/UI systems, and graphics venues for rendering or
+  geometry.
+
 ## Method & evidence bar
 
 - Match the contribution type to the evidence: controlled study, field deployment, design inquiry, technical system, dataset, or theory.

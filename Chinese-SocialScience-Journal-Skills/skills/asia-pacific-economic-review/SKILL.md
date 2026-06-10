@@ -45,6 +45,12 @@ description: Use when targeting 《亚太经济》(Asia-Pacific Economic Review 
 - 文献要覆盖区域研究与经济学/管理学理论
 - 政策含义面向对外开放、区域合作或企业国际化
 
+## 路由防误投
+
+- 本刊快速定位属于“开放经济与国际问题”通道；只有当稿件的核心贡献满足“开放经济、国际贸易、GVC、汇率、FDI或国别比较必须是主贡献”时，才把 《亚太经济》 作为首选。
+- 相近 profile 先比较：`accounting-and-economics-research`（《会计与经济研究》） / `accounting-research`（《会计研究》） / `auditing-and-economics-research`（《审计与经济研究》） / `auditing-research`（《审计研究》）。若这些刊物的读者对象更贴近，不要因为名称、地区或变量相似而强行投本刊。
+- 常见误投：若只是国内政策评估，优先回到综合经济或产业经济刊。 正式建议前仍需进入官方核验清单。
+
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。

@@ -39,6 +39,12 @@ description: Use when targeting 《中国工业经济》(China Industrial Econom
 - 政策含义**可操作**：谁、在哪个环节、做什么——这是本刊与《经济研究》的关键差异
 - 篇幅充实，表多图精
 
+## 路由防误投
+
+- 本刊快速定位属于“产业经济与创新”通道；只有当稿件的核心贡献满足“产业组织、企业行为、创新、数字经济或区域产业政策必须是主线”时，才把 《中国工业经济》 作为首选。
+- 相近 profile 先比较：`china-economic-quarterly`（《经济学（季刊）》） / `china-economic-studies`（《中国经济问题》） / `china-public-administration-review`（《公共管理评论》） / `china-rural-economy`（《中国农村经济》）。若这些刊物的读者对象更贴近，不要因为名称、地区或变量相似而强行投本刊。
+- 常见误投：若理论贡献高于产业场景，比较综合经济旗舰。 正式建议前仍需进入官方核验清单。
+
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。

@@ -34,6 +34,14 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: data, mining, mathematical, statistical, optimization, graph, scientific-computing, depth, venue-specific, contribution, siam.
 - Official anchor domain: www.siam.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to SDM when the contribution emphasizes mathematical, statistical, optimization, or
+  principled data-mining methodology.
+- Do not treat SDM as a generic data-mining fallback. Compare KDD for impact and applied
+  discovery, ICDM for broad data-mining methods, and ML venues for learning-method
+  contributions.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

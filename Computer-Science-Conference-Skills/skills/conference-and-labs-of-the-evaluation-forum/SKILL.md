@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: evaluation, campaigns, shared, tasks, multilingual, retrieval, benchmark, methodology, venue-specific, contribution, forum, clef-initiative.
 - Official anchor domain: www.clef-initiative.eu. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in evaluation
+  forum and the author can say why CLEF reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `acm-sigir-conference-on-human-
+  information-interaction-and-retrieval` (CHIIR), `acm-ieee-joint-conference-on-digital-
+  libraries` (JCDL), `acm-conference-on-designing-interactive-systems` (DIS), `acm-
+  interactive-surfaces-and-spaces` (ISS). Break ties by contribution type, evidence shape,
+  reviewer community, and the current official CFP from www.clef-initiative.eu.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

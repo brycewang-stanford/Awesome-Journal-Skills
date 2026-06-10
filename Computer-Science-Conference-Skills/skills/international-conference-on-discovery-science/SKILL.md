@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: automated, discovery, data-driven, scientific, inference, explainable, patterns, knowledge, workflows, venue-specific, contribution, ds2026, inesc-id.
 - Official anchor domain: ds2026.inesc-id.pt. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to Discovery Science when the contribution is knowledge discovery, scientific discovery
+  support, interpretable discovery processes, or methodology for extracting insight from data.
+- Compare K-CAP for knowledge acquisition/capture, ICPR for pattern-recognition methods, and
+  ICDM/SDM/KDD for mainstream data-mining claims.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

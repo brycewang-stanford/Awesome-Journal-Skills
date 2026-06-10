@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: security, privacy, cryptography, applications, attacks, defenses, measurement, venue-specific, contribution, flagship, ieee-security.
 - Official anchor domain: www.ieee-security.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to IEEE S&P when the work has security/privacy depth, rigorous threat modeling, and a
+  contribution that fits the long-running S&P research community.
+- Do not choose S&P by prestige alone. Compare CCS for broad ACM security, USENIX Security for
+  systems/security artifacts, NDSS for networked security, PETS for privacy-first work.
+
 ## Method & evidence bar
 
 - Define the threat model, attacker capabilities, disclosure posture, and ethics review before presenting results.

@@ -34,6 +34,16 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: algorithms, complexity, cryptography, learning, theory, logic, foundations, computing, venue-specific, contribution, flagship, focs.
 - Official anchor domain: focs.computer.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in theory
+  flagship and the author can say why FOCS reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `international-conference-on-very-
+  large-data-bases` (VLDB), `acm-symposium-on-theory-of-computing` (STOC). Break ties by
+  contribution type, evidence shape, reviewer community, and the current official CFP from
+  focs.computer.org.
+
 ## Method & evidence bar
 
 - For systems/data papers, use realistic workloads, data sizes, and baselines; for theory papers, give exact statements and complete proofs.

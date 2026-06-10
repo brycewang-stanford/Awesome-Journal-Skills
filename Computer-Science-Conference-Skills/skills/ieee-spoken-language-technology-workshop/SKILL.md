@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: spoken, language, understanding, dialogue, speech, translation, synthesis, audio-language, venue-specific, contribution, technology, slt2026.
 - Official anchor domain: slt2026.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in spoken
+  language technology and the author can say why SLT reviewers are the primary audience, not
+  merely a convenient deadline.
+- Closest roster neighbors to compare before final routing: `interspeech` (INTERSPEECH), `ieee-
+  automatic-speech-recognition-and-understanding-workshop` (ASRU), `acm-sigir-conference-on-
+  research-and-development-in-information-retrieval` (SIGIR), `european-conference-on-
+  information-retrieval` (ECIR). Break ties by contribution type, evidence shape, reviewer
+  community, and the current official CFP from slt2026.org.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

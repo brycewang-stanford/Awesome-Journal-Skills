@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: financial, cryptography, blockchain, digital, assets, payment, economics, security, venue-specific, contribution, fc26, ifca.
 - Official anchor domain: fc26.ifca.ai. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to FC when the security contribution is financial cryptography, blockchain, payment
+  systems, digital assets, financial privacy, or market/security intersections.
+- Compare CHES for crypto hardware, PETS for privacy, CCS/S&P/USENIX for broad security, and
+  economics/finance venues when the contribution is empirical finance.
+
 ## Method & evidence bar
 
 - Define the threat model, attacker capabilities, disclosure posture, and ethics review before presenting results.

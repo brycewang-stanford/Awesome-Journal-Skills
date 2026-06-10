@@ -34,6 +34,18 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: autonomous, agents, multiagent, learning, game-theoretic, interaction, auctions, negotiation, coordination, venue-specific, contribution, aamas-conference.
 - Official anchor domain: www.aamas-conference.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in agents and
+  multiagent systems and the author can say why AAMAS reviewers are the primary audience, not
+  merely a convenient deadline.
+- Closest roster neighbors to compare before final routing: `international-conference-on-
+  automated-planning-and-scheduling` (ICAPS), `international-conference-on-principles-of-
+  knowledge-representation-and-reasoning` (KR), `international-conference-on-principles-and-
+  practice-of-constraint-programming` (CP), `integration-of-constraint-programming-artificial-
+  intelligence-and-operations-research` (CPAIOR). Break ties by contribution type, evidence
+  shape, reviewer community, and the current official CFP from www.aamas-conference.org.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

@@ -34,6 +34,18 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: pervasive, computing, sensing, mobile, wearable, context, awareness, real-world, deployments, venue-specific, contribution, ubiquitous, ubicomp.
 - Official anchor domain: www.ubicomp.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in ubiquitous
+  computing and the author can say why UbiComp reviewers are the primary audience, not merely
+  a convenient deadline.
+- Closest roster neighbors to compare before final routing: `acm-conference-on-computer-
+  supported-cooperative-work-and-social-computing` (CSCW), `acm-conference-on-intelligent-
+  user-interfaces` (IUI), `acm-international-conference-on-mobile-human-computer-interaction`
+  (MobileHCI), `acm-international-conference-on-tangible-embedded-and-embodied-interaction`
+  (TEI). Break ties by contribution type, evidence shape, reviewer community, and the current
+  official CFP from www.ubicomp.org.
+
 ## Method & evidence bar
 
 - Match the contribution type to the evidence: controlled study, field deployment, design inquiry, technical system, dataset, or theory.

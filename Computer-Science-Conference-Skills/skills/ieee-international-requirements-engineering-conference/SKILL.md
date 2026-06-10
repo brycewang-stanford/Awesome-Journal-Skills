@@ -34,6 +34,18 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: requirements, engineering, elicitation, modeling, traceability, validation, stakeholder-centered, software, work, venue-specific, contribution, conf, researchr.
 - Official anchor domain: conf.researchr.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in requirements
+  engineering and the author can say why RE reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `acm-interactive-surfaces-and-
+  spaces` (ISS), `international-symposium-on-research-in-attacks-intrusions-and-defenses`
+  (RAID), `acm-ieee-international-conference-on-model-driven-engineering-languages-and-
+  systems` (MODELS), `ieee-international-conference-on-data-engineering` (ICDE). Break ties by
+  contribution type, evidence shape, reviewer community, and the current official CFP from
+  conf.researchr.org.
+
 ## Method & evidence bar
 
 - Use real programs, benchmarks, proofs, developer studies, or artifacts matched to the contribution type.

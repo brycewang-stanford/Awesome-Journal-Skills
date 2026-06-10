@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: real-time, rendering, games, interactive, algorithms, visual, simulation, venue-specific, contribution, graphics, i3dsymposium.
 - Official anchor domain: i3dsymposium.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to I3D when the contribution is interactive 3D graphics, real-time rendering, game
+  graphics, geometry processing, or graphics systems for interactivity.
+- Compare SIGGRAPH/SIGGRAPH Asia for broad graphics, SCA for animation, IEEE VR/ISMAR for
+  immersive systems, and VIS venues for visualization knowledge.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

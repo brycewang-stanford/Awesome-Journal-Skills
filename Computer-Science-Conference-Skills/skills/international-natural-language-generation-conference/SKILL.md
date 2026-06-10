@@ -34,6 +34,18 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: natural, language, generation, evaluation, controllability, data-to-text, dialogue, venue-specific, contribution, inlgmeeting, github.
 - Official anchor domain: inlgmeeting.github.io. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in language
+  generation and the author can say why INLG reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `north-american-chapter-of-the-
+  association-for-computational-linguistics` (NAACL), `european-chapter-of-the-association-
+  for-computational-linguistics` (EACL), `sigdial-conference-on-discourse-and-dialogue`
+  (SIGDIAL), `joint-international-conference-on-computational-linguistics-language-resources-
+  and-evaluation` (LREC-COLING). Break ties by contribution type, evidence shape, reviewer
+  community, and the current official CFP from inlgmeeting.github.io.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

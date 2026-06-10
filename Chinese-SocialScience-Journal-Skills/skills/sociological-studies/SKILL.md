@@ -38,6 +38,12 @@ description: Use when targeting 《社会学研究》(Sociological Studies) — 
 - 定性稿：从材料中**提炼概念/机制**，与理论往返
 - 文风学理、节制，避免政策汇报腔与纯技术腔
 
+## 路由防误投
+
+- 本刊快速定位属于“综合社科”通道；只有当稿件的核心贡献满足“社会科学理论命题、社会结构或跨学科原创解释必须是核心贡献”时，才把 《社会学研究》 作为首选。
+- 相近 profile 先比较：`social-sciences-in-china`（《中国社会科学》） / `social-security-studies`（《社会保障评论》） / `soft-science`（《软科学》） / `south-china-journal-of-economics`（《南方经济》）。若这些刊物的读者对象更贴近，不要因为名称、地区或变量相似而强行投本刊。
+- 常见误投：若只是经管实证应用，回到对应经管专业刊。 正式建议前仍需进入官方核验清单。
+
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。

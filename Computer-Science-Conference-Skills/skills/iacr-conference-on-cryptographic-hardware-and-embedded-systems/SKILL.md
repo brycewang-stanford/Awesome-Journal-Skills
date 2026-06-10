@@ -34,6 +34,16 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: cryptographic, hardware, side, channels, embedded, security, implementation, attacks, countermeasures, venue-specific, contribution, crypto, ches, iacr.
 - Official anchor domain: ches.iacr.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in crypto
+  hardware and the author can say why CHES reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `european-symposium-on-research-in-
+  computer-security` (ESORICS), `acm-asia-conference-on-computer-and-communications-security`
+  (ASIACCS), `financial-cryptography-and-data-security` (FC). Break ties by contribution type,
+  evidence shape, reviewer community, and the current official CFP from ches.iacr.org.
+
 ## Method & evidence bar
 
 - Define the threat model, attacker capabilities, disclosure posture, and ethics review before presenting results.

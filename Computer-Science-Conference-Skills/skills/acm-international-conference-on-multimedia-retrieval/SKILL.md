@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: image, video, audio, retrieval, cross-modal, search, representation, learning, multimedia, indexing, venue-specific, contribution, icmr.
 - Official anchor domain: www.icmr.cc. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to ICMR when the contribution is multimedia retrieval: cross-modal search, retrieval
+  benchmarks, indexing, representation, or evaluation for multimedia collections.
+- Compare ACM MM for broader multimedia, SIGIR for general IR, CVPR/ICCV/ECCV for vision
+  methods, and ISBI/MICCAI for biomedical imaging.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

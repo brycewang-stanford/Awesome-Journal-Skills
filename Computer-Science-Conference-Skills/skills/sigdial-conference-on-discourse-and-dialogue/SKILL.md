@@ -34,6 +34,18 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: dialogue, discourse, conversational, agents, interaction, evaluation, spoken, written, communication, venue-specific, contribution, sigdial.
 - Official anchor domain: www.sigdial.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in dialogue
+  systems and the author can say why SIGDIAL reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `european-chapter-of-the-
+  association-for-computational-linguistics` (EACL), `international-natural-language-
+  generation-conference` (INLG), `joint-international-conference-on-computational-linguistics-
+  language-resources-and-evaluation` (LREC-COLING), `starsem-conference-on-computational-
+  semantics` (*SEM). Break ties by contribution type, evidence shape, reviewer community, and
+  the current official CFP from www.sigdial.org.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

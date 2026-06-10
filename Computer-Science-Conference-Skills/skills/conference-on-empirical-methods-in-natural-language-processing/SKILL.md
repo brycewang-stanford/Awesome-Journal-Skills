@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: empirical, language, model, evaluation, generation, information, extraction, multilingual, applied, venue-specific, contribution, flagship, emnlp.
 - Official anchor domain: 2026.emnlp.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in NLP flagship
+  and the author can say why EMNLP reviewers are the primary audience, not merely a convenient
+  deadline.
+- Closest roster neighbors to compare before final routing: `annual-meeting-of-the-association-
+  for-computational-linguistics` (ACL), `north-american-chapter-of-the-association-for-
+  computational-linguistics` (NAACL), `european-chapter-of-the-association-for-computational-
+  linguistics` (EACL). Break ties by contribution type, evidence shape, reviewer community,
+  and the current official CFP from 2026.emnlp.org.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

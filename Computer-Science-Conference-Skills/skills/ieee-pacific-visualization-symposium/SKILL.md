@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: visualization, visual, analytics, asia-pacific, community, focus, venue-specific, contribution, pacificvis, github.
 - Official anchor domain: pacificvis.github.io. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to PacificVis when the paper is a visualization contribution that fits the Pacific
+  visualization community or a focused visualization symposium scale.
+- Use IEEE VIS or EuroVis for broader flagship visualization claims; use AVI/CHI/UIST when
+  interface design or user interaction, not visualization knowledge, is the main novelty.
+
 ## Method & evidence bar
 
 - Match the contribution type to the evidence: controlled study, field deployment, design inquiry, technical system, dataset, or theory.

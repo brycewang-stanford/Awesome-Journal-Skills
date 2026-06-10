@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: mobile, embedded, sensing, wearables, edge, computing, applications, venue-specific, contribution, sigmobile.
 - Official anchor domain: www.sigmobile.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to MobiSys when the contribution is mobile systems, sensing, ubiquitous computing
+  infrastructure, energy, deployment, or mobile platform design.
+- Compare MobiCom for mobile networking, UbiComp for ubiquitous interaction, NSDI/SIGCOMM for
+  networked systems, and WiSec for security/privacy.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

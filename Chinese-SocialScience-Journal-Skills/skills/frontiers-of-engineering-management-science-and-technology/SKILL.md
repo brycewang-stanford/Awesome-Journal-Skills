@@ -46,6 +46,12 @@ description: Use when targeting 《工程管理科技前沿》(Frontiers of Engi
 - 记号、假设和证明要前后一致
 - 管理启示是决策规律，不是政策口号
 
+## 路由防误投
+
+- 本刊快速定位属于“管理科学与工商管理”通道；只有当稿件的核心贡献满足“组织、战略、创新管理、管理科学模型、系统工程或企业管理机制必须是核心贡献”时，才把 《工程管理科技前沿》 作为首选。
+- 相近 profile 先比较：`foreign-economics-and-management`（《外国经济与管理》） / `forum-on-science-and-technology-in-china`（《中国科技论坛》） / `governance-studies`（《治理研究》） / `industrial-economics-research`（《产业经济研究》）。若这些刊物的读者对象更贴近，不要因为名称、地区或变量相似而强行投本刊。
+- 常见误投：若只是宏观政策效果，比较经济/产业/公共管理刊。 正式建议前仍需进入官方核验清单。
+
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从官方来源锚点开始核验，并在回答中说明核验日期。

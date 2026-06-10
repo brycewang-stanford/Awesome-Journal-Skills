@@ -44,6 +44,12 @@ description: Use when targeting 《宏观质量研究》(Journal of Macro-qualit
 - 结果要给量级、趋势、分解贡献和敏感性
 - 政策含义面向宏观调控、产业规划或质量治理
 
+## 路由防误投
+
+- 本刊快速定位属于“综合经济”通道；只有当稿件的核心贡献满足“经济学问题意识、机制解释和可外推的理论/政策贡献必须成立”时，才把 《宏观质量研究》 作为首选。
+- 相近 profile 先比较：`journal-of-international-trade`（《国际贸易问题》） / `journal-of-jiangxi-university-of-finance-and-economics`（《江西财经大学学报》） / `journal-of-management`（《管理学刊》） / `journal-of-management-sciences-china`（《管理科学学报》）。若这些刊物的读者对象更贴近，不要因为名称、地区或变量相似而强行投本刊。
+- 常见误投：若只是行业背景或地方案例，比较更窄的产业、财政、金融或区域刊。 正式建议前仍需进入官方核验清单。
+
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。

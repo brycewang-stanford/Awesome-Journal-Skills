@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: formal, learning, theory, statistical, online, bandits, optimization, lower, bounds, venue-specific, contribution, learningtheory.
 - Official anchor domain: learningtheory.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in learning
+  theory and the author can say why COLT reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `artificial-intelligence-and-
+  statistics` (AISTATS), `uncertainty-in-artificial-intelligence` (UAI), `conference-on-
+  machine-learning-and-systems` (MLSys), `conference-on-lifelong-learning-agents` (CoLLAs).
+  Break ties by contribution type, evidence shape, reviewer community, and the current
+  official CFP from learningtheory.org.
+
 ## Method & evidence bar
 
 - For systems/data papers, use realistic workloads, data sizes, and baselines; for theory papers, give exact statements and complete proofs.

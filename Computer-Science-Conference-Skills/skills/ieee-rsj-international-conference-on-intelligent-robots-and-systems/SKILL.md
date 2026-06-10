@@ -34,6 +34,16 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: intelligent, robots, embodied, perception, navigation, manipulation, human-robot, interaction, venue-specific, contribution, robotics, flagship, ieee-ras.
 - Official anchor domain: www.ieee-ras.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in robotics
+  flagship and the author can say why IROS reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `ieee-international-conference-on-
+  robotics-and-automation` (ICRA), `robotics-science-and-systems` (RSS), `acm-ieee-
+  international-conference-on-human-robot-interaction` (HRI). Break ties by contribution type,
+  evidence shape, reviewer community, and the current official CFP from www.ieee-ras.org.
+
 ## Method & evidence bar
 
 - Report hardware, simulation, environment, task distribution, reset procedure, and failure cases; embodied evidence must be inspectable.

@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: biomedical, imaging, algorithms, microscopy, medical, reconstruction, segmentation, quantitative, venue-specific, contribution, biomedicalimaging.
 - Official anchor domain: biomedicalimaging.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to ISBI when the paper is biomedical imaging methodology, analysis, reconstruction,
+  segmentation, or image-based measurement with biomedical validation.
+- Compare MICCAI for medical-image computing and intervention, CVPR/ICCV/ECCV for general
+  vision, and clinical journals when patient-outcome evidence is central.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

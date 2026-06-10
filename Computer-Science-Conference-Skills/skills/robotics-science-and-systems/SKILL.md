@@ -34,6 +34,18 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: robotics, algorithms, perception, manipulation, control, learning, theory, robots, venue-specific, contribution, flagship, roboticsconference.
 - Official anchor domain: roboticsconference.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in robotics
+  flagship and the author can say why RSS reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `ieee-international-conference-on-
+  robotics-and-automation` (ICRA), `ieee-rsj-international-conference-on-intelligent-robots-
+  and-systems` (IROS), `acm-ieee-international-conference-on-human-robot-interaction` (HRI),
+  `ieee-international-conference-on-robot-and-human-interactive-communication` (RO-MAN). Break
+  ties by contribution type, evidence shape, reviewer community, and the current official CFP
+  from roboticsconference.org.
+
 ## Method & evidence bar
 
 - Report hardware, simulation, environment, task distribution, reset procedure, and failure cases; embodied evidence must be inspectable.

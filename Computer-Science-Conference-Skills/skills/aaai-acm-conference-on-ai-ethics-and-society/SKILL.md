@@ -34,6 +34,18 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: ethics, governance, accountability, safety, social, impacts, socio-technical, methods, venue-specific, contribution, society, aies-conference.
 - Official anchor domain: www.aies-conference.com. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in AI ethics and
+  society and the author can say why AIES reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `international-conference-on-
+  principles-and-practice-of-constraint-programming` (CP), `integration-of-constraint-
+  programming-artificial-intelligence-and-operations-research` (CPAIOR), `acm-conference-on-
+  fairness-accountability-and-transparency` (FAccT), `european-conference-on-artificial-
+  intelligence` (ECAI). Break ties by contribution type, evidence shape, reviewer community,
+  and the current official CFP from www.aies-conference.com.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

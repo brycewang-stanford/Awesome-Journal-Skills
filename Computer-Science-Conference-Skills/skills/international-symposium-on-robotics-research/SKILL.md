@@ -34,6 +34,14 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: robotics, foundational, robot, algorithms, embodied, intelligence, emerging, directions, venue-specific, contribution, isrr-robotics.
 - Official anchor domain: www.isrr-robotics.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to ISRR when the paper offers symposium-level robotics research depth: a conceptual
+  agenda, durable research question, or synthesis-backed result that will matter beyond one
+  experiment.
+- If the value is primarily hardware trial evidence, compare ISER. If it is learning-heavy,
+  compare CoRL. If it is a broad robotics systems paper, compare ICRA/IROS/RSS.
+
 ## Method & evidence bar
 
 - Report hardware, simulation, environment, task distribution, reset procedure, and failure cases; embodied evidence must be inspectable.

@@ -34,6 +34,18 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: mobile, interaction, wearable, interfaces, on-device, sensing, user, studies, design, venue-specific, contribution, mobilehci.
 - Official anchor domain: mobilehci.acm.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in mobile HCI
+  and the author can say why MobileHCI reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `acm-conference-on-intelligent-user-
+  interfaces` (IUI), `acm-international-joint-conference-on-pervasive-and-ubiquitous-
+  computing` (UbiComp), `acm-international-conference-on-tangible-embedded-and-embodied-
+  interaction` (TEI), `acm-sigaccess-conference-on-computers-and-accessibility` (ASSETS).
+  Break ties by contribution type, evidence shape, reviewer community, and the current
+  official CFP from mobilehci.acm.org.
+
 ## Method & evidence bar
 
 - Match the contribution type to the evidence: controlled study, field deployment, design inquiry, technical system, dataset, or theory.

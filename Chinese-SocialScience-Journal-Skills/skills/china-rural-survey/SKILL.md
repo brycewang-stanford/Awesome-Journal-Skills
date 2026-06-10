@@ -47,6 +47,12 @@ description: Use when targeting 《中国农村观察》(China Rural Survey — 
 - 机制需落到农户行为、农业生产、农村金融、要素流动或基层治理
 - 政策含义要可操作，但避免工作报告腔
 
+## 路由防误投
+
+- 本刊快速定位属于“三农与农业经济”通道；只有当稿件的核心贡献满足“农业、农村、农民、土地、乡村治理或农业技术经济必须是核心场景”时，才把 《中国农村观察》 作为首选。
+- 相近 profile 先比较：`china-public-administration-review`（《公共管理评论》） / `china-rural-economy`（《中国农村经济》） / `china-soft-science`（《中国软科学》） / `chinese-journal-of-management`（《管理学报》）。若这些刊物的读者对象更贴近，不要因为名称、地区或变量相似而强行投本刊。
+- 常见误投：若只是一般区域发展或产业政策，比较区域/产业经济刊。 正式建议前仍需进入官方核验清单。
+
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。

@@ -36,6 +36,12 @@ description: Use when targeting 《劳动经济研究》(Studies in Labor Econom
 - 异质性要按性别、年龄、教育、户籍、行业和地区解释
 - 政策含义面向就业、社保、培训和收入分配制度
 
+## 路由防误投
+
+- 本刊快速定位属于“劳动与社会政策”通道；只有当稿件的核心贡献满足“劳动就业、工资、人力资本、社保或劳动市场制度必须是核心贡献”时，才把 《劳动经济研究》 作为首选。
+- 相近 profile 先比较：`soft-science`（《软科学》） / `south-china-journal-of-economics`（《南方经济》） / `studies-in-science-of-science`（《科学学研究》） / `studies-of-financial-economics`（《金融经济学研究》）。若这些刊物的读者对象更贴近，不要因为名称、地区或变量相似而强行投本刊。
+- 常见误投：若只是企业绩效或宏观政策，比较管理或综合经济刊。 正式建议前仍需进入官方核验清单。
+
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。

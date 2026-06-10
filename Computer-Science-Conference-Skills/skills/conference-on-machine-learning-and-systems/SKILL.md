@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: machine, learning, training, inference, infrastructure, compilers, data, hardware-aware, venue-specific, contribution, mlsys.
 - Official anchor domain: mlsys.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in ML systems
+  and the author can say why MLSys reviewers are the primary audience, not merely a convenient
+  deadline.
+- Closest roster neighbors to compare before final routing: `uncertainty-in-artificial-
+  intelligence` (UAI), `conference-on-learning-theory` (COLT), `conference-on-lifelong-
+  learning-agents` (CoLLAs), `international-conference-on-automated-machine-learning` (AutoML
+  Conference). Break ties by contribution type, evidence shape, reviewer community, and the
+  current official CFP from mlsys.org.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

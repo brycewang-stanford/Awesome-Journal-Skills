@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: parallel, distributed, computing, cloud, scheduling, workflows, data-intensive, venue-specific, contribution, hpdc.
 - Official anchor domain: www.hpdc.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to HPDC when the contribution is parallel or distributed computing infrastructure,
+  scheduling, runtime, resource management, or high-performance distributed systems.
+- Compare SC for flagship HPC, PPoPP for parallel programming, SIGMETRICS for performance
+  modeling, and systems venues when OS/networking is central.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

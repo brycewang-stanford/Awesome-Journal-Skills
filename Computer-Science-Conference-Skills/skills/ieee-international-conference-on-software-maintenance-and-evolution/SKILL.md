@@ -34,6 +34,14 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: software, maintenance, evolution, comprehension, refactoring, technical, debt, empirical, venue-specific, contribution, conf, researchr.
 - Official anchor domain: conf.researchr.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to ICSME when the contribution is about software maintenance and evolution over time:
+  repositories, releases, technical debt, comprehension, refactoring, migration, and
+  developer-facing maintenance decisions.
+- Do not collapse ICSME into SANER. SANER is stronger for analysis/reengineering tooling; ISSTA
+  for testing and analysis of defects; ICSE/FSE/ASE for broader SE or automation claims.
+
 ## Method & evidence bar
 
 - Use real programs, benchmarks, proofs, developer studies, or artifacts matched to the contribution type.

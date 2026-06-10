@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: machine, learning, methods, theory, applications, strong, asia-pacific, community, visibility, venue-specific, contribution, regional, flagship, acml-conf.
 - Official anchor domain: www.acml-conf.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in AI/ML
+  regional flagship and the author can say why ACML reviewers are the primary audience, not
+  merely a convenient deadline.
+- Closest roster neighbors to compare before final routing: `siam-international-conference-on-
+  data-mining` (SDM), `european-conference-on-machine-learning-and-principles-and-practice-of-
+  knowledge-discovery` (ECML PKDD), `the-web-conference` (WWW), `acm-international-conference-
+  on-web-search-and-data-mining` (WSDM). Break ties by contribution type, evidence shape,
+  reviewer community, and the current official CFP from www.acml-conf.org.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

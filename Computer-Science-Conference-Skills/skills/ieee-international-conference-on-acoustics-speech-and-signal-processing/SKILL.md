@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: signal, processing, speech, audio, image, signals, communications, methods, venue-specific, contribution, ieeeicassp.
 - Official anchor domain: 2026.ieeeicassp.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in signal
+  processing and the author can say why ICASSP reviewers are the primary audience, not merely
+  a convenient deadline.
+- Closest roster neighbors to compare before final routing: `ieee-conference-on-virtual-reality-
+  and-3d-user-interfaces` (IEEE VR), `international-conference-on-computational-linguistics`
+  (COLING), `acm-sigir-conference-on-human-information-interaction-and-retrieval` (CHIIR),
+  `acm-ieee-joint-conference-on-digital-libraries` (JCDL). Break ties by contribution type,
+  evidence shape, reviewer community, and the current official CFP from 2026.ieeeicassp.org.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

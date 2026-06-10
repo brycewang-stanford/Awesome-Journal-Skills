@@ -34,6 +34,16 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: emerging, networking, technologies, internet, measurement, networked, protocols, venue-specific, contribution, conferences2, sigcomm.
 - Official anchor domain: conferences2.sigcomm.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in networking
+  and the author can say why CoNEXT reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `acm-mobicom` (MobiCom), `acm-
+  mobisys` (MobiSys), `ieee-infocom` (INFOCOM), `eurosys` (EuroSys). Break ties by
+  contribution type, evidence shape, reviewer community, and the current official CFP from
+  conferences2.sigcomm.org.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

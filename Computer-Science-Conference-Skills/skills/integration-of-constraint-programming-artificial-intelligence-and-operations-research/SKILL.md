@@ -34,6 +34,18 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: constraint, programming, operations, scheduling, optimization, hybrid, methods, venue-specific, contribution, cpaior.
 - Official anchor domain: cpaior.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in AI/OR
+  optimization and the author can say why CPAIOR reviewers are the primary audience, not
+  merely a convenient deadline.
+- Closest roster neighbors to compare before final routing: `international-conference-on-
+  autonomous-agents-and-multiagent-systems` (AAMAS), `international-conference-on-principles-
+  and-practice-of-constraint-programming` (CP), `aaai-acm-conference-on-ai-ethics-and-society`
+  (AIES), `acm-conference-on-fairness-accountability-and-transparency` (FAccT). Break ties by
+  contribution type, evidence shape, reviewer community, and the current official CFP from
+  cpaior.org.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

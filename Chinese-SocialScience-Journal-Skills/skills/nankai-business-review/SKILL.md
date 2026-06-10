@@ -38,6 +38,12 @@ description: Use when targeting 《南开管理评论》(Nankai Business Review)
 - 讨论部分要回扣理论贡献（对哪个理论的扩展/边界条件/整合）
 - 中国情境是加分项：情境如何改变构念关系，提炼情境化理论
 
+## 路由防误投
+
+- 本刊快速定位属于“管理科学与工商管理”通道；只有当稿件的核心贡献满足“组织、战略、创新管理、管理科学模型、系统工程或企业管理机制必须是核心贡献”时，才把 《南开管理评论》 作为首选。
+- 相近 profile 先比较：`modern-finance-and-economics`（《现代财经（天津财经大学学报）》） / `modern-financial-research`（《现代金融研究》） / `nankai-economic-studies`（《南开经济研究》） / `organization-and-management`（《组织与管理》）。若这些刊物的读者对象更贴近，不要因为名称、地区或变量相似而强行投本刊。
+- 常见误投：若只是宏观政策效果，比较经济/产业/公共管理刊。 正式建议前仍需进入官方核验清单。
+
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。

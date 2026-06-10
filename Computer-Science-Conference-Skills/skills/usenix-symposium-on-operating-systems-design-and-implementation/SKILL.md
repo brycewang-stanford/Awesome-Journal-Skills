@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: operating, distributed, storage, cloud, infrastructure, practical, design, venue-specific, contribution, flagship, usenix.
 - Official anchor domain: www.usenix.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in systems
+  flagship and the author can say why OSDI reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `acm-symposium-on-user-interface-
+  software-and-technology` (UIST), `acm-symposium-on-operating-systems-principles` (SOSP),
+  `usenix-symposium-on-networked-systems-design-and-implementation` (NSDI), `acm-sigcomm`
+  (SIGCOMM). Break ties by contribution type, evidence shape, reviewer community, and the
+  current official CFP from www.usenix.org.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

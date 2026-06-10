@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: european, security, across, privacy, cryptography, applications, venue-specific, contribution, esorics.
 - Official anchor domain: esorics.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in security and
+  the author can say why ESORICS reviewers are the primary audience, not merely a convenient
+  deadline.
+- Closest roster neighbors to compare before final routing: `privacy-enhancing-technologies-
+  symposium` (PETS), `annual-computer-security-applications-conference` (ACSAC), `acm-asia-
+  conference-on-computer-and-communications-security` (ASIACCS), `iacr-conference-on-
+  cryptographic-hardware-and-embedded-systems` (CHES). Break ties by contribution type,
+  evidence shape, reviewer community, and the current official CFP from esorics.org.
+
 ## Method & evidence bar
 
 - Define the threat model, attacker capabilities, disclosure posture, and ethics review before presenting results.

@@ -34,6 +34,15 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: software, analysis, reverse, engineering, reengineering, evolution, code, intelligence, venue-specific, contribution, conf, researchr.
 - Official anchor domain: conf.researchr.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to SANER when the claim is about software analysis, reverse engineering, reengineering,
+  or evolution: the paper should explain how existing systems are understood, transformed,
+  migrated, repaired, or modernized.
+- Do not treat SANER as generic ICSE/FSE. If the contribution is mainly testing, route to ISSTA;
+  if it is maintenance practice over repository histories, compare ICSME; if it is broad SE
+  theory or automation, compare ICSE/FSE/ASE.
+
 ## Method & evidence bar
 
 - Use real programs, benchmarks, proofs, developer studies, or artifacts matched to the contribution type.

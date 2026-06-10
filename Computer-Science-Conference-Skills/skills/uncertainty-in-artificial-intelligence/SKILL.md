@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: probabilistic, reasoning, graphical, models, causal, inference, decision, making, under, uncertainty, calibrated, venue-specific, contribution, statistics, auai.
 - Official anchor domain: www.auai.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in AI statistics
+  and the author can say why UAI reviewers are the primary audience, not merely a convenient
+  deadline.
+- Closest roster neighbors to compare before final routing: `international-joint-conference-on-
+  artificial-intelligence` (IJCAI), `artificial-intelligence-and-statistics` (AISTATS),
+  `conference-on-learning-theory` (COLT), `conference-on-machine-learning-and-systems`
+  (MLSys). Break ties by contribution type, evidence shape, reviewer community, and the
+  current official CFP from www.auai.org.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

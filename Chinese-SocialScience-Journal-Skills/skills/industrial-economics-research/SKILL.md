@@ -45,6 +45,12 @@ description: Use when targeting 《产业经济研究》(Industrial Economics Re
 - 文献综述按理论、经验、本文位置组织
 - 政策含义要从证据推出，不写泛泛表态
 
+## 路由防误投
+
+- 本刊快速定位属于“产业经济与创新”通道；只有当稿件的核心贡献满足“产业组织、企业行为、创新、数字经济或区域产业政策必须是主线”时，才把 《产业经济研究》 作为首选。
+- 相近 profile 先比较：`frontiers-of-engineering-management-science-and-technology`（《工程管理科技前沿》） / `governance-studies`（《治理研究》） / `inquiry-into-economic-issues`（《经济问题探索》） / `international-economic-review-cn`（《国际经济评论》）。若这些刊物的读者对象更贴近，不要因为名称、地区或变量相似而强行投本刊。
+- 常见误投：若理论贡献高于产业场景，比较综合经济旗舰。 正式建议前仍需进入官方核验清单。
+
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。

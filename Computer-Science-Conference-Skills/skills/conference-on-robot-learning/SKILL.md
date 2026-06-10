@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: robot, learning, imitation, reinforcement, dexterous, manipulation, sim-to-real, embodied, foundation, models, venue-specific, contribution, corl.
 - Official anchor domain: www.corl.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in robot
+  learning and the author can say why CoRL reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `medical-image-computing-and-
+  computer-assisted-intervention` (MICCAI), `conference-on-computational-natural-language-
+  learning` (CoNLL), `ieee-international-conference-on-software-maintenance-and-evolution`
+  (ICSME). Break ties by contribution type, evidence shape, reviewer community, and the
+  current official CFP from www.corl.org.
+
 ## Method & evidence bar
 
 - Report hardware, simulation, environment, task distribution, reset procedure, and failure cases; embodied evidence must be inspectable.

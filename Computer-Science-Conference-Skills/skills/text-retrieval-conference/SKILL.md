@@ -34,6 +34,18 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: retrieval, evaluation, tracks, test, collections, search, tasks, nist-style, benchmarking, venue-specific, contribution, trec, nist.
 - Official anchor domain: trec.nist.gov. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in retrieval
+  evaluation and the author can say why TREC reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `acm-sigir-conference-on-research-
+  and-development-in-information-retrieval` (SIGIR), `european-conference-on-information-
+  retrieval` (ECIR), `acm-sigplan-conference-on-programming-language-design-and-
+  implementation` (PLDI), `acm-sigplan-symposium-on-principles-of-programming-languages`
+  (POPL). Break ties by contribution type, evidence shape, reviewer community, and the current
+  official CFP from trec.nist.gov.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

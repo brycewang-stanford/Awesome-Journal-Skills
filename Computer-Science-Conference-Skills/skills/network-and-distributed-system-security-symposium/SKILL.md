@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: network, security, distributed, privacy, applied, cryptography, venue-specific, contribution, flagship, ndss-symposium.
 - Official anchor domain: www.ndss-symposium.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in security
+  flagship and the author can say why NDSS reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `usenix-security-symposium` (USENIX
+  Security), `acm-conference-on-computer-and-communications-security` (CCS), `privacy-
+  enhancing-technologies-symposium` (PETS), `annual-computer-security-applications-conference`
+  (ACSAC). Break ties by contribution type, evidence shape, reviewer community, and the
+  current official CFP from www.ndss-symposium.org.
+
 ## Method & evidence bar
 
 - Define the threat model, attacker capabilities, disclosure posture, and ethics review before presenting results.

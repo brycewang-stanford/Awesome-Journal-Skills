@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: information, retrieval, knowledge, management, databases, data, mining, graphs, venue-specific, contribution, cikmconference.
 - Official anchor domain: www.cikmconference.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to CIKM when the paper combines information retrieval, knowledge management, databases,
+  data mining, or applied information systems for a broad information/knowledge audience.
+- Do not send every IR, database, or KR paper to CIKM. Compare SIGIR/ECIR for retrieval,
+  SIGMOD/VLDB/ICDE for database systems, and KR/K-CAP/ISWC for knowledge representation.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

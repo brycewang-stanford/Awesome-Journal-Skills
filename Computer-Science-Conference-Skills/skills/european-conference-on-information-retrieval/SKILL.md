@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: methods, evaluation, search, interaction, recommender, retrieval, applications, venue-specific, contribution, information, ecir2026.
 - Official anchor domain: www.ecir2026.eu. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to ECIR when the paper is information retrieval and the European IR conference community
+  or cycle is the best fit.
+- Compare SIGIR for flagship IR, CHIIR for interactive IR, CIKM for broader
+  information/knowledge management, and ACL/EMNLP when NLP modeling is central.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

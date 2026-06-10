@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: high-performance, architecture, accelerators, memory, interconnects, datacenter, hardware, venue-specific, contribution, hpca-conf.
 - Official anchor domain: hpca-conf.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to HPCA when the contribution is high-performance computer architecture,
+  microarchitecture, memory systems, accelerators, or architecture evaluation.
+- Compare ISCA for flagship computer architecture, MICRO for microarchitecture depth, ASPLOS for
+  architecture/systems/PL intersections, and SC for HPC systems.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

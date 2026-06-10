@@ -34,6 +34,18 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: software, repository, mining, developer, behavior, empirical, methods, datasets, tools, venue-specific, contribution, analytics, msrconf.
 - Official anchor domain: www.msrconf.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in software
+  analytics and the author can say why MSR reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `ieee-acm-international-conference-
+  on-automated-software-engineering` (ASE), `acm-sigsoft-international-symposium-on-software-
+  testing-and-analysis` (ISSTA), `ieee-international-conference-on-software-analysis-
+  evolution-and-reengineering` (SANER), `international-symposium-on-empirical-software-
+  engineering-and-measurement` (ESEM). Break ties by contribution type, evidence shape,
+  reviewer community, and the current official CFP from www.msrconf.org.
+
 ## Method & evidence bar
 
 - Use real programs, benchmarks, proofs, developer studies, or artifacts matched to the contribution type.

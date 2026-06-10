@@ -48,6 +48,12 @@ description: Use when targeting 《商业经济与管理》(Journal of Business 
 - 机制围绕企业经营、市场开放、流通或制度环境。
 - 政策建议具体到地方政府、企业或行业组织，从证据推出。
 
+## 路由防误投
+
+- 本刊快速定位属于“管理科学与工商管理”通道；只有当稿件的核心贡献满足“组织、战略、创新管理、管理科学模型、系统工程或企业管理机制必须是核心贡献”时，才把 《商业经济与管理》 作为首选。
+- 相近 profile 先比较：`issues-in-agricultural-economy`（《农业经济问题》） / `journal-of-agrotechnical-economics`（《农业技术经济》） / `journal-of-central-university-of-finance-and-economics`（《中央财经大学学报》） / `journal-of-finance-and-economics`（《财经研究》）。若这些刊物的读者对象更贴近，不要因为名称、地区或变量相似而强行投本刊。
+- 常见误投：若只是宏观政策效果，比较经济/产业/公共管理刊。 正式建议前仍需进入官方核验清单。
+
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从官方来源锚点开始核验，并在回答中说明核验日期。

@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: software, testing, analysis, fuzzing, verification, debugging, program, repair, venue-specific, contribution, conf, researchr.
 - Official anchor domain: conf.researchr.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to ISSTA when the main claim is testing, program analysis, fault detection, fuzzing,
+  test generation, verification for defects, or empirical evidence about software quality.
+- Do not use ISSTA for every SE tool paper. SANER/ICSME fit evolution and maintenance; ASE fits
+  automation breadth; ICSE/FSE fit broad SE contributions.
+
 ## Method & evidence bar
 
 - Use real programs, benchmarks, proofs, developer studies, or artifacts matched to the contribution type.

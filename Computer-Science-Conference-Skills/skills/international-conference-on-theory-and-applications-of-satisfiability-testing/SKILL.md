@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: solving, maxsat, interfaces, proof, complexity, encodings, solver, engineering, venue-specific, contribution, satisfiability, satconference, github.
 - Official anchor domain: satconference.github.io. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to SAT when the contribution is satisfiability, SAT/SMT solving, encodings, proof
+  systems, benchmarks, or SAT applications where the solver logic is central.
+- Compare CP for broader constraint programming, CAV for verification, KR for reasoning, and
+  AAAI/IJCAI only when the AI contribution is broader than SAT.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

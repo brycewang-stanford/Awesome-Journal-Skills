@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: european, visualization, across, information, visual, analytics, scientific, venue-specific, contribution, eurovis.
 - Official anchor domain: www.eurovis.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to EuroVis when the contribution is visualization research with specialist visualization
+  novelty and a strong fit to the European visualization community.
+- Do not treat EuroVis as a duplicate IEEE VIS target. IEEE VIS is the flagship umbrella;
+  CHI/UIST/CSCW fit interaction or social-computing claims; AVI fits visual-interface work.
+
 ## Method & evidence bar
 
 - Match the contribution type to the evidence: controlled study, field deployment, design inquiry, technical system, dataset, or theory.

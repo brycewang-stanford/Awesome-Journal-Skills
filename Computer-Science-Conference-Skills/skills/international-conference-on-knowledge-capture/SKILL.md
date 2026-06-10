@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: knowledge, acquisition, engineering, human-ai, workflows, structured, venue-specific, contribution, capture, k-cap.
 - Official anchor domain: www.k-cap.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to K-CAP when the core claim is knowledge capture, acquisition, engineering, curation,
+  or human/AI support for building knowledge resources.
+- Compare ISWC for semantic-web infrastructure, KR for formal knowledge representation and
+  reasoning, and Discovery Science for data-driven discovery processes.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

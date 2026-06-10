@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: robot-human, communication, social, behavior, assistive, robotics, interaction, design, evaluation, venue-specific, contribution, human-robot, ieee-ras.
 - Official anchor domain: www.ieee-ras.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in human-robot
+  communication and the author can say why RO-MAN reviewers are the primary audience, not
+  merely a convenient deadline.
+- Closest roster neighbors to compare before final routing: `robotics-science-and-systems`
+  (RSS), `acm-ieee-international-conference-on-human-robot-interaction` (HRI), `ieee-
+  international-conference-on-automation-science-and-engineering` (CASE), `international-
+  symposium-on-robotics-research` (ISRR). Break ties by contribution type, evidence shape,
+  reviewer community, and the current official CFP from www.ieee-ras.org.
+
 ## Method & evidence bar
 
 - Report hardware, simulation, environment, task distribution, reset procedure, and failure cases; embodied evidence must be inspectable.

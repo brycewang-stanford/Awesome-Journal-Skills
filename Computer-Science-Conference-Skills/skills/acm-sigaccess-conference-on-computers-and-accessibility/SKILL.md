@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: accessible, computing, assistive, technology, disability, studies, inclusive, design, user-centered, evaluation, venue-specific, contribution, accessibility, assets.
 - Official anchor domain: assets.acm.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in accessibility
+  and the author can say why ASSETS reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `acm-international-conference-on-
+  mobile-human-computer-interaction` (MobileHCI), `acm-international-conference-on-tangible-
+  embedded-and-embodied-interaction` (TEI), `acm-symposium-on-virtual-reality-software-and-
+  technology` (VRST). Break ties by contribution type, evidence shape, reviewer community, and
+  the current official CFP from assets.acm.org.
+
 ## Method & evidence bar
 
 - Match the contribution type to the evidence: controlled study, field deployment, design inquiry, technical system, dataset, or theory.

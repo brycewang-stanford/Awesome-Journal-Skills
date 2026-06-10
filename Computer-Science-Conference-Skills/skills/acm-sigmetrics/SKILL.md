@@ -34,6 +34,18 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: performance, evaluation, queueing, measurement, modeling, networks, stochastic, analysis, venue-specific, contribution, sigmetrics.
 - Official anchor domain: www.sigmetrics.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in performance
+  measurement and the author can say why SIGMETRICS reviewers are the primary audience, not
+  merely a convenient deadline.
+- Closest roster neighbors to compare before final routing: `acm-sigplan-symposium-on-
+  principles-and-practice-of-parallel-programming` (PPoPP), `acm-international-symposium-on-
+  high-performance-parallel-and-distributed-computing` (HPDC), `acm-workshop-on-hot-topics-in-
+  networks` (HotNets), `acm-conference-on-security-and-privacy-in-wireless-and-mobile-
+  networks` (WiSec). Break ties by contribution type, evidence shape, reviewer community, and
+  the current official CFP from www.sigmetrics.org.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

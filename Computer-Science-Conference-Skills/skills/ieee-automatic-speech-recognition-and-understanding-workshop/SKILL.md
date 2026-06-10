@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: automatic, speech, recognition, spoken, language, understanding, low-resource, foundation, models, venue-specific, contribution, asru2025.
 - Official anchor domain: asru2025.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to ASRU when the paper is centered on automatic speech recognition, speech
+  understanding, spoken-language modeling, or ASR evaluation.
+- Compare INTERSPEECH for broader speech processing, ICASSP for signal processing, SLT for
+  spoken-language technology, and ACL/EMNLP when language modeling is the core contribution.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

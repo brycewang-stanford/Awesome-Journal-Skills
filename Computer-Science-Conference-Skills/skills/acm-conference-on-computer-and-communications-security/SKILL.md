@@ -34,6 +34,14 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: security, privacy, cryptography, software, measurement, venue-specific, contribution, flagship, sigsac.
 - Official anchor domain: www.sigsac.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to CCS when the paper is a broad computer-security contribution with a clear threat
+  model, attack/defense evidence, and systems or protocol relevance to the ACM security
+  community.
+- Compare IEEE S&P, USENIX Security, and NDSS carefully. The right venue depends on threat
+  model, artifact/reproducibility posture, ethics constraints, and community scope.
+
 ## Method & evidence bar
 
 - Define the threat model, attacker capabilities, disclosure posture, and ethics review before presenting results.

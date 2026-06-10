@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: interactive, surfaces, tabletops, spatial, interfaces, touch, tangible, displays, collaborative, interaction, venue-specific, contribution.
 - Official anchor domain: iss.acm.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to ISS when the paper is about interactive surfaces, spatial interaction, tangible
+  environments, or collaborative physical/digital interaction spaces.
+- Compare CHI for broader human factors, UIST for UI systems techniques, TEI for tangible
+  embodied interaction, and AVI/VIS for visual-interface or visualization claims.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

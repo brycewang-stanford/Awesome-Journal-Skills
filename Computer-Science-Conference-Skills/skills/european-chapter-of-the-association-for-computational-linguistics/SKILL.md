@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: computational, linguistics, european, community, focus, venue-specific, contribution, regional, flagship, eacl.
 - Official anchor domain: eacl.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to EACL when the paper is an NLP contribution and the European ACL chapter
+  cycle/community is the right fit for timing, topic, or audience.
+- Do not treat EACL as a generic fallback from ACL/EMNLP. Resource-heavy papers may fit LREC-
+  COLING; dialogue, semantics, or generation may fit SIGDIAL, *SEM, or INLG.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

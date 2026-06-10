@@ -34,6 +34,18 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: ai-infused, interaction, adaptive, interfaces, recommender, explainable, user, modeling, venue-specific, contribution, intelligent.
 - Official anchor domain: iui.acm.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in intelligent
+  interfaces and the author can say why IUI reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `acm-chi-conference-on-human-
+  factors-in-computing-systems` (CHI), `acm-conference-on-computer-supported-cooperative-work-
+  and-social-computing` (CSCW), `acm-international-joint-conference-on-pervasive-and-
+  ubiquitous-computing` (UbiComp), `acm-international-conference-on-mobile-human-computer-
+  interaction` (MobileHCI). Break ties by contribution type, evidence shape, reviewer
+  community, and the current official CFP from iui.acm.org.
+
 ## Method & evidence bar
 
 - Match the contribution type to the evidence: controlled study, field deployment, design inquiry, technical system, dataset, or theory.

@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: architecture, operating, programming, languages, compilers, cross-layer, venue-specific, contribution, asplos-conference.
 - Official anchor domain: www.asplos-conference.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in
+  architecture/systems/PL and the author can say why ASPLOS reviewers are the primary
+  audience, not merely a convenient deadline.
+- Closest roster neighbors to compare before final routing: `usenix-annual-technical-conference`
+  (USENIX ATC), `usenix-conference-on-file-and-storage-technologies` (FAST), `international-
+  symposium-on-computer-architecture` (ISCA), `ieee-acm-international-symposium-on-
+  microarchitecture` (MICRO). Break ties by contribution type, evidence shape, reviewer
+  community, and the current official CFP from www.asplos-conference.org.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

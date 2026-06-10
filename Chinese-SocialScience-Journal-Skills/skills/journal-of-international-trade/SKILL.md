@@ -45,6 +45,12 @@ description: Use when targeting 《国际贸易问题》(Journal of Internationa
 - 机制要说清贸易、投资、金融、汇率、预期或供应链传导渠道
 - 文献对话不能只有中文政策文献，要接入国际贸易/国际金融经典与前沿
 
+## 路由防误投
+
+- 本刊快速定位属于“开放经济与国际问题”通道；只有当稿件的核心贡献满足“开放经济、国际贸易、GVC、汇率、FDI或国别比较必须是主贡献”时，才把 《国际贸易问题》 作为首选。
+- 相近 profile 先比较：`journal-of-guangdong-university-of-finance-and-economics`（《广东财经大学学报》） / `journal-of-industrial-engineering-and-engineering-management`（《管理工程学报》） / `journal-of-jiangxi-university-of-finance-and-economics`（《江西财经大学学报》） / `journal-of-macro-quality-research`（《宏观质量研究》）。若这些刊物的读者对象更贴近，不要因为名称、地区或变量相似而强行投本刊。
+- 常见误投：若只是国内政策评估，优先回到综合经济或产业经济刊。 正式建议前仍需进入官方核验清单。
+
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。

@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: machine, learning, language, structured, prediction, shared, tasks, semantics, multilingual, modeling, venue-specific, contribution, signll.
 - Official anchor domain: www.signll.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in NLP learning
+  and the author can say why CoNLL reviewers are the primary audience, not merely a convenient
+  deadline.
+- Closest roster neighbors to compare before final routing: `european-conference-on-artificial-
+  intelligence` (ECAI), `medical-image-computing-and-computer-assisted-intervention` (MICCAI),
+  `conference-on-robot-learning` (CoRL), `ieee-international-conference-on-software-
+  maintenance-and-evolution` (ICSME). Break ties by contribution type, evidence shape,
+  reviewer community, and the current official CFP from www.signll.org.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

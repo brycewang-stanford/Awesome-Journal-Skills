@@ -34,6 +34,18 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: high-performance, computing, supercomputing, parallel, scientific, storage, networks, venue-specific, contribution, flagship.
 - Official anchor domain: supercomputing.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in HPC flagship
+  and the author can say why SC reviewers are the primary audience, not merely a convenient
+  deadline.
+- Closest roster neighbors to compare before final routing: `ieee-acm-international-symposium-
+  on-microarchitecture` (MICRO), `ieee-international-symposium-on-high-performance-computer-
+  architecture` (HPCA), `acm-sigplan-symposium-on-principles-and-practice-of-parallel-
+  programming` (PPoPP), `acm-international-symposium-on-high-performance-parallel-and-
+  distributed-computing` (HPDC). Break ties by contribution type, evidence shape, reviewer
+  community, and the current official CFP from supercomputing.org.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

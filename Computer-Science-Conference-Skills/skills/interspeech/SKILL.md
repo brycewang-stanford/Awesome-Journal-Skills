@@ -34,6 +34,18 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: speech, recognition, synthesis, paralinguistics, spoken, dialogue, audio-language, modeling, resources, venue-specific, contribution, processing, isca-archive.
 - Official anchor domain: www.isca-archive.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in speech
+  processing and the author can say why INTERSPEECH reviewers are the primary audience, not
+  merely a convenient deadline.
+- Closest roster neighbors to compare before final routing: `joint-international-conference-on-
+  computational-linguistics-language-resources-and-evaluation` (LREC-COLING), `starsem-
+  conference-on-computational-semantics` (*SEM), `ieee-automatic-speech-recognition-and-
+  understanding-workshop` (ASRU), `ieee-spoken-language-technology-workshop` (SLT). Break ties
+  by contribution type, evidence shape, reviewer community, and the current official CFP from
+  www.isca-archive.org.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

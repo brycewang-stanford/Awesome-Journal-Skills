@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: vision, across, recognition, geometry, video, learning, datasets, foundation, models, venue-specific, contribution, flagship, iccv, thecvf.
 - Official anchor domain: iccv.thecvf.com. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to ICCV when the paper is a computer-vision contribution with flagship-level novelty,
+  strong benchmarks, ablations, and community relevance.
+- Compare CVPR and ECCV by current cycle and area fit, not acronym familiarity. Dataset-only,
+  application-only, or medical-imaging claims may fit narrower venues better.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

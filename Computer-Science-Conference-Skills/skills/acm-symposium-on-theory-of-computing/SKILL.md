@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: algorithms, complexity, cryptography, theory, learning, quantum, computing, theoretical, foundations, venue-specific, contribution, flagship, acm-stoc.
 - Official anchor domain: acm-stoc.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in theory
+  flagship and the author can say why STOC reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `acm-sigmod-international-
+  conference-on-management-of-data` (SIGMOD), `international-conference-on-very-large-data-
+  bases` (VLDB), `ieee-symposium-on-foundations-of-computer-science` (FOCS). Break ties by
+  contribution type, evidence shape, reviewer community, and the current official CFP from
+  acm-stoc.org.
+
 ## Method & evidence bar
 
 - For systems/data papers, use realistic workloads, data sizes, and baselines; for theory papers, give exact statements and complete proofs.

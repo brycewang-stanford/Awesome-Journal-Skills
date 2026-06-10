@@ -34,6 +34,18 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: parallel, programming, models, compilers, runtimes, synchronization, multicore, venue-specific, contribution, conf, researchr.
 - Official anchor domain: conf.researchr.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in parallel
+  programming and the author can say why PPoPP reviewers are the primary audience, not merely
+  a convenient deadline.
+- Closest roster neighbors to compare before final routing: `ieee-international-symposium-on-
+  high-performance-computer-architecture` (HPCA), `international-conference-for-high-
+  performance-computing-networking-storage-and-analysis` (SC), `acm-international-symposium-
+  on-high-performance-parallel-and-distributed-computing` (HPDC), `acm-sigmetrics`
+  (SIGMETRICS). Break ties by contribution type, evidence shape, reviewer community, and the
+  current official CFP from conf.researchr.org.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

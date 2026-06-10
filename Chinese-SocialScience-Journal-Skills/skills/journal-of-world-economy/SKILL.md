@@ -37,6 +37,12 @@ description: Use when targeting 《世界经济》(The Journal of World Economy)
 - 与国际贸易/国际金融经典与前沿对话（不能只引国内文献）
 - 政策含义偏**开放政策**层面（贸易、汇率、资本账户、产业开放）
 
+## 路由防误投
+
+- 本刊快速定位属于“开放经济与国际问题”通道；只有当稿件的核心贡献满足“开放经济、国际贸易、GVC、汇率、FDI或国别比较必须是主贡献”时，才把 《世界经济》 作为首选。
+- 相近 profile 先比较：`journal-of-shanghai-university-of-finance-and-economics`（《上海财经大学学报》） / `journal-of-shanxi-university-of-finance-and-economics`（《山西财经大学学报》） / `journal-of-zhongnan-university-of-economics-and-law`（《中南财经政法大学学报》） / `macroeconomics`（《宏观经济研究》）。若这些刊物的读者对象更贴近，不要因为名称、地区或变量相似而强行投本刊。
+- 常见误投：若只是国内政策评估，优先回到综合经济或产业经济刊。 正式建议前仍需进入官方核验清单。
+
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。

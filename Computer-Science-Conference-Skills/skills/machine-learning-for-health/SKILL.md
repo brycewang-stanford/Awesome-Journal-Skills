@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: healthcare, machine, learning, clinical, prediction, biomedical, data, deployment, responsible, evaluation, venue-specific, contribution, health, mlforhc.
 - Official anchor domain: www.mlforhc.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in AI for health
+  and the author can say why ML4H reviewers are the primary audience, not merely a convenient
+  deadline.
+- Closest roster neighbors to compare before final routing: `international-conference-on-
+  automated-machine-learning` (AutoML Conference), `conference-on-health-inference-and-
+  learning` (CHIL), `acm-sigkdd-conference-on-knowledge-discovery-and-data-mining` (KDD),
+  `ieee-international-conference-on-data-mining` (ICDM). Break ties by contribution type,
+  evidence shape, reviewer community, and the current official CFP from www.mlforhc.org.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

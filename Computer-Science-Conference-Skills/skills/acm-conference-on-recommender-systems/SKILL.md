@@ -34,6 +34,16 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: recommendation, ranking, user, modeling, evaluation, fairness, deployed, recommender, behavior, venue-specific, contribution, recsys.
 - Official anchor domain: recsys.acm.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in recommender
+  systems and the author can say why RecSys reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `acm-symposium-on-user-interface-
+  software-and-technology` (UIST), `acm-symposium-on-operating-systems-principles` (SOSP).
+  Break ties by contribution type, evidence shape, reviewer community, and the current
+  official CFP from recsys.acm.org.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

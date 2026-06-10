@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: crowdsourcing, human, computation, data, annotation, human-ai, collaboration, collective, intelligence, venue-specific, contribution, humancomputation.
 - Official anchor domain: www.humancomputation.com. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to HCOMP when the contribution is human computation, crowdsourcing, collective
+  intelligence, human-AI workflows, task design, or crowd-powered evaluation.
+- Compare CHI/CSCW for broader human-centered or social-computing contributions, AIES/FAccT for
+  ethics/fairness, and AI venues when the algorithm rather than human computation is central.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

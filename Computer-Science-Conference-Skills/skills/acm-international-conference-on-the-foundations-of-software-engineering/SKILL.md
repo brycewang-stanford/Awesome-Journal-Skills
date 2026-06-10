@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: software, engineering, foundations, tools, empirical, studies, program, analysis, testing, venue-specific, contribution, flagship, conf, researchr.
 - Official anchor domain: conf.researchr.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in software
+  engineering flagship and the author can say why FSE reviewers are the primary audience, not
+  merely a convenient deadline.
+- Closest roster neighbors to compare before final routing: `international-conference-on-
+  software-engineering` (ICSE), `ieee-acm-international-conference-on-automated-software-
+  engineering` (ASE), `acm-sigsoft-international-symposium-on-software-testing-and-analysis`
+  (ISSTA). Break ties by contribution type, evidence shape, reviewer community, and the
+  current official CFP from conf.researchr.org.
+
 ## Method & evidence bar
 
 - Use real programs, benchmarks, proofs, developer studies, or artifacts matched to the contribution type.

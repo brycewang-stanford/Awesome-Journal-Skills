@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: visual, interaction, information, interfaces, interactive, visualization, multimodal, design, tools, venue-specific, contribution, avi-conference.
 - Official anchor domain: avi-conference.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to AVI when the contribution is a visual interface, interaction technique, or interface
+  evaluation rather than visualization theory alone.
+- Compare EuroVis/IEEE VIS for visualization research, CHI/UIST for broader HCI/UI systems, and
+  IUI when intelligent interface behavior is the central claim.
+
 ## Method & evidence bar
 
 - Match the contribution type to the evidence: controlled study, field deployment, design inquiry, technical system, dataset, or theory.

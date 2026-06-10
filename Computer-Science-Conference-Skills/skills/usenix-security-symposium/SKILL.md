@@ -34,6 +34,16 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: security, network, privacy, usable, software, measurement, venue-specific, contribution, flagship, usenix.
 - Official anchor domain: www.usenix.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in security
+  flagship and the author can say why USENIX Security reviewers are the primary audience, not
+  merely a convenient deadline.
+- Closest roster neighbors to compare before final routing: `ieee-symposium-on-security-and-
+  privacy` (IEEE S&P), `acm-conference-on-computer-and-communications-security` (CCS),
+  `network-and-distributed-system-security-symposium` (NDSS). Break ties by contribution type,
+  evidence shape, reviewer community, and the current official CFP from www.usenix.org.
+
 ## Method & evidence bar
 
 - Define the threat model, attacker capabilities, disclosure posture, and ethics review before presenting results.

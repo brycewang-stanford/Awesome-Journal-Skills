@@ -44,6 +44,12 @@ description: Use when targeting 《公共管理评论》(China Public Administra
 - 机制要落到政府层级、部门协同、公众参与、政策执行或问责
 - 政策建议要可执行，并说明适用层级；正文须匿名
 
+## 路由防误投
+
+- 本刊快速定位属于“公共管理与社会政策”通道；只有当稿件的核心贡献满足“政府治理、公共服务、行政改革、社会保障或数字政府机制必须是主线”时，才把 《公共管理评论》 作为首选。
+- 相近 profile 先比较：`china-economic-studies`（《中国经济问题》） / `china-industrial-economics`（《中国工业经济》） / `china-rural-economy`（《中国农村经济》） / `china-rural-survey`（《中国农村观察》）。若这些刊物的读者对象更贴近，不要因为名称、地区或变量相似而强行投本刊。
+- 常见误投：若只是经济政策效果，转向财政、产业或综合经济刊。 正式建议前仍需进入官方核验清单。
+
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。

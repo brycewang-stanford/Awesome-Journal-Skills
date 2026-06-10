@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: automation, manufacturing, logistics, cyber-physical, scheduling, industrial, robotics, venue-specific, contribution, ieee-ras.
 - Official anchor domain: www.ieee-ras.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in automation
+  and the author can say why CASE reviewers are the primary audience, not merely a convenient
+  deadline.
+- Closest roster neighbors to compare before final routing: `acm-ieee-international-conference-
+  on-human-robot-interaction` (HRI), `ieee-international-conference-on-robot-and-human-
+  interactive-communication` (RO-MAN), `international-symposium-on-robotics-research` (ISRR),
+  `international-symposium-on-experimental-robotics` (ISER). Break ties by contribution type,
+  evidence shape, reviewer community, and the current official CFP from www.ieee-ras.org.
+
 ## Method & evidence bar
 
 - Report hardware, simulation, environment, task distribution, reset procedure, and failure cases; embodied evidence must be inspectable.

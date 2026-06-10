@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: database, query, processing, data, management, transactions, lakes, venue-specific, contribution, flagship, sigmod.
 - Official anchor domain: sigmod.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to SIGMOD when the contribution is database systems, query processing, data management,
+  transactions, indexing, or large-scale data infrastructure with systems evidence.
+- Do not route generic data-mining or ML papers here. Compare VLDB/PVLDB for database research
+  with its own submission mechanics and ICDE for data-engineering scope.
+
 ## Method & evidence bar
 
 - For systems/data papers, use realistic workloads, data sizes, and baselines; for theory papers, give exact statements and complete proofs.

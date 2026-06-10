@@ -34,6 +34,14 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: data, mining, algorithms, pattern, discovery, graph, anomaly, detection, applied, analytics, venue-specific, contribution.
 - Official anchor domain: www.computer.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to ICDM when the paper is a data-mining method, pattern-discovery result, or applied
+  mining study suited to a broad IEEE data-mining audience.
+- Compare KDD for larger data-mining impact and applied discovery, SDM for
+  mathematical/statistical rigor, CIKM for information/knowledge management, and
+  SIGMOD/VLDB/ICDE for database systems.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

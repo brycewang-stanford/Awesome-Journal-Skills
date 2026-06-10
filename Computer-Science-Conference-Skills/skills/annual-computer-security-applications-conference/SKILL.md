@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: applied, security, assurance, usable, operational, defenses, venue-specific, contribution, acsac.
 - Official anchor domain: www.acsac.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in applied
+  security and the author can say why ACSAC reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `network-and-distributed-system-
+  security-symposium` (NDSS), `privacy-enhancing-technologies-symposium` (PETS), `european-
+  symposium-on-research-in-computer-security` (ESORICS), `acm-asia-conference-on-computer-and-
+  communications-security` (ASIACCS). Break ties by contribution type, evidence shape,
+  reviewer community, and the current official CFP from www.acsac.org.
+
 ## Method & evidence bar
 
 - Define the threat model, attacker capabilities, disclosure posture, and ethics review before presenting results.

@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: operating, distributed, storage, reliability, security, abstractions, venue-specific, contribution, flagship, sigops.
 - Official anchor domain: sigops.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in systems
+  flagship and the author can say why SOSP reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `acm-conference-on-recommender-
+  systems` (RecSys), `acm-symposium-on-user-interface-software-and-technology` (UIST),
+  `usenix-symposium-on-operating-systems-design-and-implementation` (OSDI), `usenix-symposium-
+  on-networked-systems-design-and-implementation` (NSDI). Break ties by contribution type,
+  evidence shape, reviewer community, and the current official CFP from sigops.org.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

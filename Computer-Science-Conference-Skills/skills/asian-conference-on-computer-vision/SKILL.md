@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: vision, methods, applications, strong, asia-pacific, community, visibility, venue-specific, contribution, regional, flagship, accv-conf.
 - Official anchor domain: accv-conf.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in computer
+  vision regional flagship and the author can say why ACCV reviewers are the primary audience,
+  not merely a convenient deadline.
+- Closest roster neighbors to compare before final routing: `european-conference-on-computer-
+  vision` (ECCV), `winter-conference-on-applications-of-computer-vision` (WACV), `british-
+  machine-vision-conference` (BMVC), `international-conference-on-3d-vision` (3DV). Break ties
+  by contribution type, evidence shape, reviewer community, and the current official CFP from
+  accv-conf.org.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

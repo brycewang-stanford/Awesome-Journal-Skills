@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: wireless, mobile, sensing, network, security, privacy, venue-specific, contribution, wisec.
 - Official anchor domain: wisec.acm.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to WiSec when the security/privacy contribution is specifically wireless, mobile,
+  cellular, IoT, or edge-network focused.
+- Compare S&P/CCS/USENIX/NDSS for broader security, MobiCom/MobiSys for mobile systems, and
+  FC/PETS when finance or privacy is the central frame.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

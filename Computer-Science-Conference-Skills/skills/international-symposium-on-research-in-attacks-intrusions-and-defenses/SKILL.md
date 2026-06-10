@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: intrusion, detection, attacks, malware, defenses, cybercrime, measurement, security, operations, venue-specific, contribution, raid-symposium.
 - Official anchor domain: www.raid-symposium.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to RAID when the paper is about attacks, intrusions, malware, detection, defense,
+  measurement, or operational security evidence.
+- Compare S&P/CCS/USENIX/NDSS for broader security, ACSAC for applied security, and
+  WiSec/FC/PETS when the threat domain is specialized.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

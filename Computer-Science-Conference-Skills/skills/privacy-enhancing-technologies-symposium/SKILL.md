@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: privacy, technologies, anonymity, differential, measurement, policy-aware, venue-specific, contribution, petsymposium.
 - Official anchor domain: petsymposium.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in privacy and
+  the author can say why PETS reviewers are the primary audience, not merely a convenient
+  deadline.
+- Closest roster neighbors to compare before final routing: `acm-conference-on-computer-and-
+  communications-security` (CCS), `network-and-distributed-system-security-symposium` (NDSS),
+  `annual-computer-security-applications-conference` (ACSAC), `european-symposium-on-research-
+  in-computer-security` (ESORICS). Break ties by contribution type, evidence shape, reviewer
+  community, and the current official CFP from petsymposium.org.
+
 ## Method & evidence bar
 
 - Define the threat model, attacker capabilities, disclosure posture, and ethics review before presenting results.

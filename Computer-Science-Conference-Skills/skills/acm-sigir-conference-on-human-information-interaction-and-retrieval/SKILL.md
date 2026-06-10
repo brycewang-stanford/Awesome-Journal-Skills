@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: human, information, interaction, search, behavior, interactive, retrieval, exploratory, user-centered, venue-specific, contribution, chiir.
 - Official anchor domain: chiir.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in interactive
+  IR and the author can say why CHIIR reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `international-conference-on-
+  computational-linguistics` (COLING), `ieee-international-conference-on-acoustics-speech-and-
+  signal-processing` (ICASSP), `acm-ieee-joint-conference-on-digital-libraries` (JCDL),
+  `conference-and-labs-of-the-evaluation-forum` (CLEF). Break ties by contribution type,
+  evidence shape, reviewer community, and the current official CFP from chiir.org.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

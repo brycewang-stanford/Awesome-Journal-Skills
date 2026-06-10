@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: verification, model, checking, theorem, proving, synthesis, formal, methods, tools, venue-specific, contribution, cavconference.
 - Official anchor domain: cavconference.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to CAV when the contribution is verification, model checking, theorem proving, formal
+  methods tooling, or verified systems with a clear correctness claim.
+- Compare POPL/LICS for theory, PLDI for language implementation, SAT/CP for solver-specific
+  advances, and systems/security venues when verification is only an application.
+
 ## Method & evidence bar
 
 - Use real programs, benchmarks, proofs, developer studies, or artifacts matched to the contribution type.

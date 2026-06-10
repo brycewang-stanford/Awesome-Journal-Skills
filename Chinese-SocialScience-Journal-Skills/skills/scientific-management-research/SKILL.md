@@ -47,6 +47,12 @@ description: Use when targeting 《科学管理研究》(Scientific Management R
 - 变量构造需说明专利质量、研发投入、项目绩效或知识网络口径。
 - 政策含义面向科技治理、企业创新和产业升级，从本文证据推出。
 
+## 路由防误投
+
+- 本刊快速定位属于“管理科学与工商管理”通道；只有当稿件的核心贡献满足“组织、战略、创新管理、管理科学模型、系统工程或企业管理机制必须是核心贡献”时，才把 《科学管理研究》 作为首选。
+- 相近 profile 先比较：`science-research-management`（《科研管理》） / `scientific-decision-making`（《科学决策》） / `securities-market-herald`（《证券市场导报》） / `shanghai-journal-of-economics`（《上海经济研究》）。若这些刊物的读者对象更贴近，不要因为名称、地区或变量相似而强行投本刊。
+- 常见误投：若只是宏观政策效果，比较经济/产业/公共管理刊。 正式建议前仍需进入官方核验清单。
+
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从官方来源锚点开始核验，并在回答中说明核验日期。

@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: medical, image, analysis, image-guided, intervention, computational, anatomy, clinical, validation, venue-specific, contribution, imaging, miccai.
 - Official anchor domain: www.miccai.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in medical
+  imaging AI and the author can say why MICCAI reviewers are the primary audience, not merely
+  a convenient deadline.
+- Closest roster neighbors to compare before final routing: `acm-conference-on-fairness-
+  accountability-and-transparency` (FAccT), `european-conference-on-artificial-intelligence`
+  (ECAI), `conference-on-computational-natural-language-learning` (CoNLL), `conference-on-
+  robot-learning` (CoRL). Break ties by contribution type, evidence shape, reviewer community,
+  and the current official CFP from www.miccai.org.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

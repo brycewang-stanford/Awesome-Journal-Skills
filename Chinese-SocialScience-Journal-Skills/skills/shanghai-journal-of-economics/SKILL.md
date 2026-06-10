@@ -45,6 +45,12 @@ description: Use when targeting 《上海经济研究》(Shanghai Journal of Eco
 - 机制围绕企业经营、区域发展、市场开放或制度环境
 - 政策建议具体到地方政府、企业或行业组织
 
+## 路由防误投
+
+- 本刊快速定位属于“综合经济”通道；只有当稿件的核心贡献满足“经济学问题意识、机制解释和可外推的理论/政策贡献必须成立”时，才把 《上海经济研究》 作为首选。
+- 相近 profile 先比较：`scientific-management-research`（《科学管理研究》） / `securities-market-herald`（《证券市场导报》） / `social-sciences-in-china`（《中国社会科学》） / `social-security-studies`（《社会保障评论》）。若这些刊物的读者对象更贴近，不要因为名称、地区或变量相似而强行投本刊。
+- 常见误投：若只是行业背景或地方案例，比较更窄的产业、财政、金融或区域刊。 正式建议前仍需进入官方核验清单。
+
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。

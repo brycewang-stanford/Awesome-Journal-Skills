@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: information, retrieval, search, ranking, recommendation, evaluation, conversational, retrieval-augmented, venue-specific, contribution, flagship, sigir.
 - Official anchor domain: sigir.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to SIGIR when the core contribution is information retrieval: ranking, search,
+  evaluation, recommendation-adjacent retrieval, user search behavior, or retrieval systems.
+- Compare ECIR for European IR, CHIIR for interactive IR, CIKM for broader information/knowledge
+  management, and NLP venues for language-method contributions.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

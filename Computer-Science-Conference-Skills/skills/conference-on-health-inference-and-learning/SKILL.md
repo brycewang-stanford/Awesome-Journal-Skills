@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: machine, learning, health, clinical, inference, fairness, robustness, deployment, constraints, venue-specific, contribution, chilconference.
 - Official anchor domain: www.chilconference.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in AI for health
+  and the author can say why CHIL reviewers are the primary audience, not merely a convenient
+  deadline.
+- Closest roster neighbors to compare before final routing: `conference-on-lifelong-learning-
+  agents` (CoLLAs), `international-conference-on-automated-machine-learning` (AutoML
+  Conference), `machine-learning-for-health` (ML4H), `acm-sigkdd-conference-on-knowledge-
+  discovery-and-data-mining` (KDD). Break ties by contribution type, evidence shape, reviewer
+  community, and the current official CFP from www.chilconference.org.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

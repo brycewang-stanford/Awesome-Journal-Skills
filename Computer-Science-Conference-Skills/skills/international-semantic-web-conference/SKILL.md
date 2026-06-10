@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: semantic, knowledge, graphs, ontologies, linked, data, reasoning, web-scale, infrastructure, venue-specific, contribution, iswc.
 - Official anchor domain: iswc.net. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to ISWC when the contribution is semantic web, linked data, ontologies, knowledge
+  graphs, web-scale semantics, or semantic applications.
+- Compare K-CAP for knowledge capture, KR for formal reasoning, CIKM for broader
+  information/knowledge management, and database venues for data-management systems.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

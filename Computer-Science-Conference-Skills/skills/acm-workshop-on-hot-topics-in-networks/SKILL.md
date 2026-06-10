@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: early-stage, networking, ideas, provocative, network, directions, concise, position, papers, venue-specific, contribution, workshop, conferences, sigcomm.
 - Official anchor domain: conferences.sigcomm.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in networking
+  workshop and the author can say why HotNets reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `acm-international-symposium-on-
+  high-performance-parallel-and-distributed-computing` (HPDC), `acm-sigmetrics` (SIGMETRICS),
+  `acm-conference-on-security-and-privacy-in-wireless-and-mobile-networks` (WiSec). Break ties
+  by contribution type, evidence shape, reviewer community, and the current official CFP from
+  conferences.sigcomm.org.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

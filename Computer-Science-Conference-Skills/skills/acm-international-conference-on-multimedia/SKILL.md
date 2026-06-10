@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: multimedia, retrieval, generation, multimodal, learning, audio-video-language, media, applications, venue-specific, contribution, sigmm.
 - Official anchor domain: www.sigmm.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in multimedia
+  and the author can say why ACM MM reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `international-conference-
+  on-3d-vision` (3DV), `ieee-international-symposium-on-biomedical-imaging` (ISBI), `acm-
+  international-conference-on-multimedia-retrieval` (ICMR), `acm-siggraph` (SIGGRAPH). Break
+  ties by contribution type, evidence shape, reviewer community, and the current official CFP
+  from www.sigmm.org.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

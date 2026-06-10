@@ -34,6 +34,16 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: communications, networks, protocols, performance, wireless, distributed, network, algorithms, venue-specific, contribution, networking, infocom, info.
 - Official anchor domain: infocom.info. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in networking
+  and the author can say why INFOCOM reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `acm-mobisys` (MobiSys), `acm-
+  conext` (CoNEXT), `eurosys` (EuroSys), `usenix-annual-technical-conference` (USENIX ATC).
+  Break ties by contribution type, evidence shape, reviewer community, and the current
+  official CFP from infocom.info.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

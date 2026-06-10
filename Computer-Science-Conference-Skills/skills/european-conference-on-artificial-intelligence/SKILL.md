@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: broad, european, across, reasoning, learning, agents, planning, applications, venue-specific, contribution, regional, flagship, ecai2026.
 - Official anchor domain: ecai2026.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in AI/ML
+  regional flagship and the author can say why ECAI reviewers are the primary audience, not
+  merely a convenient deadline.
+- Closest roster neighbors to compare before final routing: `aaai-acm-conference-on-ai-ethics-
+  and-society` (AIES), `acm-conference-on-fairness-accountability-and-transparency` (FAccT),
+  `medical-image-computing-and-computer-assisted-intervention` (MICCAI), `conference-on-
+  computational-natural-language-learning` (CoNLL). Break ties by contribution type, evidence
+  shape, reviewer community, and the current official CFP from ecai2026.org.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

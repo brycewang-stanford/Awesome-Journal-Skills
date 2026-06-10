@@ -34,6 +34,16 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: logic, semantics, type, theory, automata, verification, proof, theoretical, venue-specific, contribution, lics, siglog.
 - Official anchor domain: lics.siglog.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in logic in CS
+  and the author can say why LICS reviewers are the primary audience, not merely a convenient
+  deadline.
+- Closest roster neighbors to compare before final routing: `acm-sigplan-international-
+  conference-on-functional-programming` (ICFP), `international-conference-on-computer-aided-
+  verification` (CAV). Break ties by contribution type, evidence shape, reviewer community,
+  and the current official CFP from lics.siglog.org.
+
 ## Method & evidence bar
 
 - Use real programs, benchmarks, proofs, developer studies, or artifacts matched to the contribution type.

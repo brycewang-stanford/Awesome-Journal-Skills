@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: applied, vision, datasets, methods, practical, evaluation, venue-specific, contribution, applications, wacv, thecvf.
 - Official anchor domain: wacv.thecvf.com. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in computer
+  vision applications and the author can say why WACV reviewers are the primary audience, not
+  merely a convenient deadline.
+- Closest roster neighbors to compare before final routing: `international-conference-on-
+  computer-vision` (ICCV), `european-conference-on-computer-vision` (ECCV), `asian-conference-
+  on-computer-vision` (ACCV), `british-machine-vision-conference` (BMVC). Break ties by
+  contribution type, evidence shape, reviewer community, and the current official CFP from
+  wacv.thecvf.com.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

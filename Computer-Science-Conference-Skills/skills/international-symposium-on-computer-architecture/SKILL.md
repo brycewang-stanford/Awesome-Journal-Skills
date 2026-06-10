@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: processor, architecture, memory, accelerators, datacenters, evaluation, venue-specific, contribution, flagship, iscaconf.
 - Official anchor domain: iscaconf.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to ISCA when the paper is a flagship computer-architecture contribution with strong
+  architectural insight, evaluation, and workload relevance.
+- Compare HPCA for high-performance architecture, MICRO for microarchitecture, ASPLOS for
+  architecture/systems/PL crossovers, and SC for high-performance computing.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

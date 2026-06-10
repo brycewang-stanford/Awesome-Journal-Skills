@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: computational, linguistics, north, american, community, focus, venue-specific, contribution, regional, flagship, naacl.
 - Official anchor domain: naacl.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to NAACL when the paper is an NLP contribution and the North American ACL chapter
+  cycle/community is the right fit for timing, topic, or audience.
+- Compare ACL and EMNLP for core NLP method or empirical-analysis reach. Use LREC-COLING for
+  resource-centered work and specialized NLP venues when the contribution is narrow.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

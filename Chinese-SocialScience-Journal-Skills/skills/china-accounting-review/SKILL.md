@@ -44,6 +44,12 @@ description: Use when targeting 《中国会计评论》(China Accounting Review
 - 机制落到信息不对称、盈余管理、审计独立性、内控或准则执行
 - 实务启示面向准则制定、监管、审计和企业披露
 
+## 路由防误投
+
+- 本刊快速定位属于“会计审计”通道；只有当稿件的核心贡献满足“会计确认、审计监督、披露、内控或资本市场会计问题必须是核心贡献”时，才把 《会计评论》 作为首选。
+- 相近 profile 先比较：`bulletin-of-chinese-academy-of-sciences`（《中国科学院院刊》） / `business-management-journal`（《经济管理》） / `china-economic-quarterly`（《经济学（季刊）》） / `china-economic-studies`（《中国经济问题》）。若这些刊物的读者对象更贴近，不要因为名称、地区或变量相似而强行投本刊。
+- 常见误投：若只是企业财务数据或控制变量，转向金融、产业或综合经管刊。 正式建议前仍需进入官方核验清单。
+
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从官方来源锚点开始核验，并在回答中说明核验日期。

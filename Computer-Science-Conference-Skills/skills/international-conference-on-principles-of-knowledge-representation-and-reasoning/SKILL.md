@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: logic, reasoning, ontologies, nonmonotonic, argumentation, explainable, symbolic, venue-specific, contribution, knowledge, representation.
 - Official anchor domain: kr.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to KR when the paper is about formal knowledge representation, reasoning, logics,
+  ontologies, constraints, argumentation, or planning-relevant representation principles.
+- Compare SAT/CP for satisfiability or constraint solving, ISWC/K-CAP for semantic-web or
+  knowledge-capture systems, and AAAI/IJCAI for broader AI.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: graphics, rendering, animation, simulation, geometry, interaction, visual, computing, venue-specific, contribution, flagship, siggraph.
 - Official anchor domain: www.siggraph.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in computer
+  graphics flagship and the author can say why SIGGRAPH reviewers are the primary audience,
+  not merely a convenient deadline.
+- Closest roster neighbors to compare before final routing: `acm-international-conference-on-
+  multimedia` (ACM MM), `acm-international-conference-on-multimedia-retrieval` (ICMR), `acm-
+  siggraph-asia` (SIGGRAPH Asia), `eurographics` (Eurographics). Break ties by contribution
+  type, evidence shape, reviewer community, and the current official CFP from
+  www.siggraph.org.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

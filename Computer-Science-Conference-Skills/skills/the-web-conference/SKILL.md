@@ -34,6 +34,18 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: mining, social, platforms, search, recommendation, economics, responsible, venue-specific, contribution, www2026, thewebconf.
 - Official anchor domain: www2026.thewebconf.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in web and AI
+  and the author can say why WWW reviewers are the primary audience, not merely a convenient
+  deadline.
+- Closest roster neighbors to compare before final routing: `european-conference-on-machine-
+  learning-and-principles-and-practice-of-knowledge-discovery` (ECML PKDD), `asian-conference-
+  on-machine-learning` (ACML), `acm-international-conference-on-web-search-and-data-mining`
+  (WSDM), `acm-international-conference-on-information-and-knowledge-management` (CIKM). Break
+  ties by contribution type, evidence shape, reviewer community, and the current official CFP
+  from www2026.thewebconf.org.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

@@ -44,6 +44,12 @@ description: Use when targeting 《经济社会体制比较》(Comparative Econo
 - 贡献强调制度机制、改革路径和中国经验的一般化含义
 - 政策建议应具体但有理论支撑
 
+## 路由防误投
+
+- 本刊快速定位属于“综合经济”通道；只有当稿件的核心贡献满足“经济学问题意识、机制解释和可外推的理论/政策贡献必须成立”时，才把 《经济社会体制比较》 作为首选。
+- 相近 profile 先比较：`chinese-public-administration`（《中国行政管理》） / `chinese-review-of-financial-studies`（《金融评论》） / `contemporary-economy-of-japan`（《现代日本经济》） / `contemporary-finance-and-economics`（《当代财经》）。若这些刊物的读者对象更贴近，不要因为名称、地区或变量相似而强行投本刊。
+- 常见误投：若只是行业背景或地方案例，比较更窄的产业、财政、金融或区域刊。 正式建议前仍需进入官方核验清单。
+
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。

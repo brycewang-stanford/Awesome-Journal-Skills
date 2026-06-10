@@ -34,6 +34,18 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: fairness, accountability, transparency, audits, policy, measurement, socio-technical, venue-specific, contribution, responsible, facctconference.
 - Official anchor domain: facctconference.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in responsible
+  AI and the author can say why FAccT reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `integration-of-constraint-
+  programming-artificial-intelligence-and-operations-research` (CPAIOR), `aaai-acm-conference-
+  on-ai-ethics-and-society` (AIES), `european-conference-on-artificial-intelligence` (ECAI),
+  `medical-image-computing-and-computer-assisted-intervention` (MICCAI). Break ties by
+  contribution type, evidence shape, reviewer community, and the current official CFP from
+  facctconference.org.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

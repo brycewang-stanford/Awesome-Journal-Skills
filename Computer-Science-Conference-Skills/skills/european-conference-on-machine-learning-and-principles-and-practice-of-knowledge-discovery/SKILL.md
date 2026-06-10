@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: european, knowledge-discovery, across, methods, mining, applications, data-centric, venue-specific, contribution, data, ecmlpkdd.
 - Official anchor domain: ecmlpkdd.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in AI/data
+  mining and the author can say why ECML PKDD reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `ieee-international-conference-on-
+  data-mining` (ICDM), `siam-international-conference-on-data-mining` (SDM), `asian-
+  conference-on-machine-learning` (ACML), `the-web-conference` (WWW). Break ties by
+  contribution type, evidence shape, reviewer community, and the current official CFP from
+  ecmlpkdd.org.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

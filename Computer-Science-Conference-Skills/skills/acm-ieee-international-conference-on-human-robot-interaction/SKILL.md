@@ -34,6 +34,18 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: human-robot, interaction, social, robotics, collaborative, robots, trust, evaluation, field, studies, venue-specific, contribution, humanrobotinteraction.
 - Official anchor domain: humanrobotinteraction.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in human-robot
+  interaction and the author can say why HRI reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `ieee-rsj-international-conference-
+  on-intelligent-robots-and-systems` (IROS), `robotics-science-and-systems` (RSS), `ieee-
+  international-conference-on-robot-and-human-interactive-communication` (RO-MAN), `ieee-
+  international-conference-on-automation-science-and-engineering` (CASE). Break ties by
+  contribution type, evidence shape, reviewer community, and the current official CFP from
+  humanrobotinteraction.org.
+
 ## Method & evidence bar
 
 - Report hardware, simulation, environment, task distribution, reset procedure, and failure cases; embodied evidence must be inspectable.

@@ -34,6 +34,14 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: european, vision, across, learning, geometry, perception, generation, applications, venue-specific, contribution, flagship, eccv, ecva.
 - Official anchor domain: eccv.ecva.net. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to ECCV when the paper is a computer-vision contribution and the current cycle/community
+  fit makes the European vision flagship the right target.
+- Do not distinguish ECCV from ICCV/CVPR by prestige alone. Match the live cycle, topic area,
+  benchmark culture, and reviewer expectations; use WACV/ACCV/BMVC for different scope or
+  timing.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

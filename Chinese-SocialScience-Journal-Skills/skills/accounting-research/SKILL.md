@@ -38,6 +38,12 @@ description: Use when targeting 《会计研究》(Accounting Research) — the 
 - 机制要落到**信息机制**（降低信息不对称、提高披露质量、约束盈余管理）
 - 贡献兼顾**理论（会计信息作用）与实务（准则/监管启示）**
 
+## 路由防误投
+
+- 本刊快速定位属于“会计审计”通道；只有当稿件的核心贡献满足“会计确认、审计监督、披露、内控或资本市场会计问题必须是核心贡献”时，才把 《会计研究》 作为首选。
+- 相近 profile 先比较：`accounting-and-economics-research`（《会计与经济研究》） / `asia-pacific-economic-review`（《亚太经济》） / `auditing-and-economics-research`（《审计与经济研究》）。若这些刊物的读者对象更贴近，不要因为名称、地区或变量相似而强行投本刊。
+- 常见误投：若只是企业财务数据或控制变量，转向金融、产业或综合经管刊。 正式建议前仍需进入官方核验清单。
+
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。

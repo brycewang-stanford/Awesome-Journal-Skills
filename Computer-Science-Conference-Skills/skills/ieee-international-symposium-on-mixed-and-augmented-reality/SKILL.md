@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: tracking, perception, interaction, displays, immersive, computing, venue-specific, contribution, mixed, augmented, reality, ismar.
 - Official anchor domain: ismar.net. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in mixed and
+  augmented reality and the author can say why ISMAR reviewers are the primary audience, not
+  merely a convenient deadline.
+- Closest roster neighbors to compare before final routing: `international-conference-on-
+  pattern-recognition` (ICPR), `acm-siggraph-eurographics-symposium-on-computer-animation`
+  (SCA), `ieee-conference-on-virtual-reality-and-3d-user-interfaces` (IEEE VR),
+  `international-conference-on-computational-linguistics` (COLING). Break ties by contribution
+  type, evidence shape, reviewer community, and the current official CFP from ismar.net.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

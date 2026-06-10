@@ -34,6 +34,16 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: computational, linguistics, language, models, semantics, generation, multilinguality, evaluation, venue-specific, contribution, flagship, aclweb.
 - Official anchor domain: www.aclweb.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in NLP flagship
+  and the author can say why ACL reviewers are the primary audience, not merely a convenient
+  deadline.
+- Closest roster neighbors to compare before final routing: `conference-on-empirical-methods-in-
+  natural-language-processing` (EMNLP), `north-american-chapter-of-the-association-for-
+  computational-linguistics` (NAACL). Break ties by contribution type, evidence shape,
+  reviewer community, and the current official CFP from www.aclweb.org.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

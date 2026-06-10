@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: database, data, management, analytics, transactions, distributed, data-intensive, applications, venue-specific, contribution, flagship, vldb.
 - Official anchor domain: www.vldb.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to VLDB/PVLDB when the paper is database research with substantial data-management
+  contribution and fits the VLDB community and submission model.
+- Compare SIGMOD for database systems conference fit, ICDE for IEEE data engineering,
+  KDD/ICDM/SDM for mining, and CIKM for information and knowledge management.
+
 ## Method & evidence bar
 
 - For systems/data papers, use realistic workloads, data sizes, and baselines; for theory papers, give exact statements and complete proofs.

@@ -34,6 +34,14 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: experimental, robotics, field, robots, manipulation, navigation, embodied, learning, real-world, validation, venue-specific, contribution, iser-robotics.
 - Official anchor domain: www.iser-robotics.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to ISER when the evidence is the contribution: real robot experiments, field trials,
+  hardware constraints, repeatability, failures, and performance under physical-world
+  conditions.
+- Do not confuse ISER with ISRR. ISRR should read as agenda-setting robotics research; CoRL as
+  robot learning; ICRA/IROS as broader robotics conference targets.
+
 ## Method & evidence bar
 
 - Report hardware, simulation, environment, task distribution, reset procedure, and failure cases; embodied evidence must be inspectable.

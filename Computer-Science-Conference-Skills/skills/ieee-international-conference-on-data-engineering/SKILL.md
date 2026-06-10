@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: data, engineering, database, streams, graph, cloud, management, analytics, venue-specific, contribution, ieee-icde.
 - Official anchor domain: ieee-icde.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to ICDE when the contribution is data engineering: scalable data systems, processing,
+  integration, storage, data pipelines, or applied data-management infrastructure.
+- Do not collapse ICDE into SIGMOD/VLDB or data-mining venues. Pick ICDE when engineering scale
+  and data-system construction are central.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

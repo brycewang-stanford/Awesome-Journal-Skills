@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: constraint, programming, combinatorial, optimization, propagation, search, modeling, languages, venue-specific, contribution, constraints, cp-conference.
 - Official anchor domain: cp-conference.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to CP when the contribution is constraint programming, constraint solving, modeling,
+  propagation, search, or applications where constraints are the central technical object.
+- Compare SAT for satisfiability, CPAIOR for CP/AI/OR integration, KR for representation and
+  reasoning, and OR venues for operations-research framing.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

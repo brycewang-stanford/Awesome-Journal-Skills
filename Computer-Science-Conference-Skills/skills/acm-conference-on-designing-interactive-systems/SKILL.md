@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: interaction, design, methods, critical, computing, prototyping, human-centered, venue-specific, contribution.
 - Official anchor domain: dis.acm.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in interaction
+  design and the author can say why DIS reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `acm-ieee-joint-conference-on-
+  digital-libraries` (JCDL), `conference-and-labs-of-the-evaluation-forum` (CLEF), `acm-
+  interactive-surfaces-and-spaces` (ISS), `international-symposium-on-research-in-attacks-
+  intrusions-and-defenses` (RAID). Break ties by contribution type, evidence shape, reviewer
+  community, and the current official CFP from dis.acm.org.
+
 ## Method & evidence bar
 
 - Match the contribution type to the evidence: controlled study, field deployment, design inquiry, technical system, dataset, or theory.

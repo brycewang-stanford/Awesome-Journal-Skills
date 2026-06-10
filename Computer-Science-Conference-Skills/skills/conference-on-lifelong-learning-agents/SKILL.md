@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: continual, learning, lifelong, agents, adaptation, transfer, memory, nonstationary, venue-specific, contribution, lifelong-ml.
 - Official anchor domain: lifelong-ml.cc. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in continual
+  learning and the author can say why CoLLAs reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `conference-on-learning-theory`
+  (COLT), `conference-on-machine-learning-and-systems` (MLSys), `international-conference-on-
+  automated-machine-learning` (AutoML Conference), `conference-on-health-inference-and-
+  learning` (CHIL). Break ties by contribution type, evidence shape, reviewer community, and
+  the current official CFP from lifelong-ml.cc.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

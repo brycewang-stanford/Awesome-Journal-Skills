@@ -34,6 +34,18 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: tangible, interfaces, embodied, interaction, fabrication, materials, sensors, experiential, design, venue-specific, contribution.
 - Official anchor domain: tei.acm.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in tangible
+  interaction and the author can say why TEI reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `acm-international-joint-conference-
+  on-pervasive-and-ubiquitous-computing` (UbiComp), `acm-international-conference-on-mobile-
+  human-computer-interaction` (MobileHCI), `acm-sigaccess-conference-on-computers-and-
+  accessibility` (ASSETS), `acm-symposium-on-virtual-reality-software-and-technology` (VRST).
+  Break ties by contribution type, evidence shape, reviewer community, and the current
+  official CFP from tei.acm.org.
+
 ## Method & evidence bar
 
 - Match the contribution type to the evidence: controlled study, field deployment, design inquiry, technical system, dataset, or theory.

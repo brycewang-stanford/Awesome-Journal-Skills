@@ -34,6 +34,16 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: european, graphics, rendering, geometry, processing, visualization, simulation, interaction, venue-specific, contribution.
 - Official anchor domain: www.eg.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in computer
+  graphics and the author can say why Eurographics reviewers are the primary audience, not
+  merely a convenient deadline.
+- Closest roster neighbors to compare before final routing: `acm-siggraph` (SIGGRAPH), `acm-
+  siggraph-asia` (SIGGRAPH Asia), `pacific-graphics` (Pacific Graphics), `acm-siggraph-
+  symposium-on-interactive-3d-graphics-and-games` (I3D). Break ties by contribution type,
+  evidence shape, reviewer community, and the current official CFP from www.eg.org.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

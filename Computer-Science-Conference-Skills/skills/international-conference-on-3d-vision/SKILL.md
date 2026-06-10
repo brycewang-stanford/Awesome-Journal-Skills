@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: reconstruction, geometry, depth, neural, rendering, scene, understanding, embodied, perception, venue-specific, contribution, vision, dvconf, github.
 - Official anchor domain: 3dvconf.github.io. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in 3D vision and
+  the author can say why 3DV reviewers are the primary audience, not merely a convenient
+  deadline.
+- Closest roster neighbors to compare before final routing: `asian-conference-on-computer-
+  vision` (ACCV), `british-machine-vision-conference` (BMVC), `ieee-international-symposium-
+  on-biomedical-imaging` (ISBI), `acm-international-conference-on-multimedia` (ACM MM). Break
+  ties by contribution type, evidence shape, reviewer community, and the current official CFP
+  from 3dvconf.github.io.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

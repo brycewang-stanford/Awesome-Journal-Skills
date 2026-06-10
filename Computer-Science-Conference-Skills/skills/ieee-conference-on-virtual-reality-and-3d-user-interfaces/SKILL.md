@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: interaction, immersive, analytics, perception, haptics, user, studies, venue-specific, contribution, virtual, reality, ieeevr.
 - Official anchor domain: ieeevr.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to IEEE VR when the contribution is virtual reality, 3D user interfaces, immersive
+  interaction, perception in VR, or VR system evaluation.
+- Compare ISMAR for mixed/augmented reality, I3D/SIGGRAPH for graphics, CHI/UIST for interaction
+  techniques, and HRI/robotics venues for embodied agents.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

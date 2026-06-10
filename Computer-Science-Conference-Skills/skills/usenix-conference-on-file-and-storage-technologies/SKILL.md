@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: storage, file, memory, hierarchy, reliability, data-intensive, venue-specific, contribution, usenix.
 - Official anchor domain: www.usenix.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in storage
+  systems and the author can say why FAST reviewers are the primary audience, not merely a
+  convenient deadline.
+- Closest roster neighbors to compare before final routing: `eurosys` (EuroSys), `usenix-annual-
+  technical-conference` (USENIX ATC), `architectural-support-for-programming-languages-and-
+  operating-systems` (ASPLOS), `international-symposium-on-computer-architecture` (ISCA).
+  Break ties by contribution type, evidence shape, reviewer community, and the current
+  official CFP from www.usenix.org.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

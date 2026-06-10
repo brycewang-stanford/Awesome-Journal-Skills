@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: mobile, computing, wireless, networks, edge, sensing, infrastructure, venue-specific, contribution, networking, sigmobile.
 - Official anchor domain: www.sigmobile.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to MobiCom when the contribution is mobile networking, wireless systems, protocols,
+  measurement, or networked mobile infrastructure.
+- Compare MobiSys for mobile systems and sensing, SIGCOMM/NSDI for broader networking/systems,
+  and WiSec when security/privacy is central.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

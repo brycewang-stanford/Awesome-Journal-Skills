@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: core, machine, learning, methods, theory, applications, responsible, deployment, venue-specific, contribution, flagship, icml.
 - Official anchor domain: icml.cc. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to ICML when the contribution is a machine-learning method, theory, evaluation protocol,
+  or empirical result with rigorous ML baselines and ablations.
+- Compare ICLR for representation/deep-learning framing, NeurIPS for broad ML/AI impact,
+  AISTATS/UAI/COLT for statistical or theoretical claims, and MLSys for systems bottlenecks.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

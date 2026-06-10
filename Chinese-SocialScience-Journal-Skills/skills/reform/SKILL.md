@@ -44,6 +44,12 @@ description: Use when targeting 《改革》(Reform — 重庆社会科学院主
 - 贡献强调制度机制、改革路径和中国经验的一般化含义
 - 政策建议应具体但有理论支撑
 
+## 路由防误投
+
+- 本刊快速定位属于“综合经济”通道；只有当稿件的核心贡献满足“经济学问题意识、机制解释和可外推的理论/政策贡献必须成立”时，才把 《改革》 作为首选。
+- 相近 profile 先比较：`public-administration-and-policy-review`（《公共管理与政策评论》） / `public-finance-research`（《财政研究》） / `reform-of-economic-system`（《经济体制改革》） / `research-and-development-management`（《研究与发展管理》）。若这些刊物的读者对象更贴近，不要因为名称、地区或变量相似而强行投本刊。
+- 常见误投：若只是行业背景或地方案例，比较更窄的产业、财政、金融或区域刊。 正式建议前仍需进入官方核验清单。
+
 ## 官方核验清单
 
 - 正式给出投稿格式/流程建议前，先读取 `../../resources/source-basis.md` 和 `../../resources/official-source-map.md`，从其中的官方来源锚点或同一主办/出版体系入口开始核验，并在回答中说明核验日期。

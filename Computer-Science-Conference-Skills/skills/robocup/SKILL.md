@@ -34,6 +34,17 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: robot, soccer, rescue, service, robots, competitions, embodied, benchmarking, multiagent, robotics, venue-specific, contribution, robocup.
 - Official anchor domain: www.robocup.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Use this profile only when the manuscript's central contribution is genuinely in robotics
+  competitions and the author can say why RoboCup reviewers are the primary audience, not
+  merely a convenient deadline.
+- Closest roster neighbors to compare before final routing: `international-symposium-on-
+  robotics-research` (ISRR), `international-symposium-on-experimental-robotics` (ISER), `ieee-
+  ras-international-conference-on-humanoid-robots` (Humanoids), `international-symposium-on-
+  distributed-autonomous-robotic-systems` (DARS). Break ties by contribution type, evidence
+  shape, reviewer community, and the current official CFP from www.robocup.org.
+
 ## Method & evidence bar
 
 - Report hardware, simulation, environment, task distribution, reset procedure, and failure cases; embodied evidence must be inspectable.

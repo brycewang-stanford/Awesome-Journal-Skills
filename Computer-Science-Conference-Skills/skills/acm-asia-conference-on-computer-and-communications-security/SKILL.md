@@ -34,6 +34,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: communications, security, asia-pacific, community, focus, venue-specific, contribution, asiaccs.
 - Official anchor domain: asiaccs.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to ASIACCS when the contribution fits ACM security and the AsiaCCS community/cycle is
+  the right venue for scope, timing, or regional community.
+- Compare CCS/S&P/USENIX/NDSS for broader flagship security, RAID for attacks/intrusions, PETS
+  for privacy, and FC for financial security.
+
 ## Method & evidence bar
 
 - Define the threat model, attacker capabilities, disclosure posture, and ethics review before presenting results.

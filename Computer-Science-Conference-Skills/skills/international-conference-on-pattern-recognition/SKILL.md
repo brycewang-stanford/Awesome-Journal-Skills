@@ -34,6 +34,14 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Distinctive fingerprint for reviewer calibration: pattern, recognition, document, analysis, biometrics, vision, machine, learning, signal, patterns, venue-specific, contribution, icpr2026.
 - Official anchor domain: www.icpr2026.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
+## Close-neighbor routing guardrail
+
+- Route to ICPR when the paper advances pattern-recognition methods, representations,
+  benchmarks, or applications across vision, signal, document, biometrics, or recognition
+  tasks.
+- Do not use ICPR for generic data mining or knowledge representation. Compare CVPR/ICCV/ECCV
+  for flagship vision and KDD/ICDM/SDM for data mining.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.
