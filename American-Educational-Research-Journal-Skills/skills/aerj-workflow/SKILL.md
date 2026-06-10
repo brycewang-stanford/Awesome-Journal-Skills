@@ -58,6 +58,39 @@ Iterate: most papers loop framework ↔ design ↔ analysis several times before
 - Forcing a quantitative template onto qualitative or mixed work (each is judged on its own terms)
 - Skipping the reporting-standards / data step until acceptance
 
+## Stage-to-risk routing table (AERJ-specific)
+
+The router's value is catching the failure that kills a paper at *this* stage before it compounds.
+Each row pairs the lifecycle stage with the AERJ-specific risk and where to send the user.
+
+| Stage | The AERJ-specific risk here | Route to |
+|-------|-----------------------------|----------|
+| Idea | Subfield-only scope; wrong section | aerj-topic-selection |
+| Positioning | Talks to insiders, not the field | aerj-literature-positioning |
+| Framework | Under-theorized; frame does no work | aerj-theory-and-framework |
+| Design | Method-claim mismatch across quant/qual/mixed | aerj-research-design |
+| Analysis | Nesting ignored; warrant not shown | aerj-data-analysis |
+| Exhibits | Not self-contained; non-APA; not masked | aerj-tables-figures |
+| Writing | Jargon untranslated; over-claiming | aerj-writing-style |
+| Transparency | Reporting standard unmet; no data plan | aerj-transparency-and-data-policy |
+| Decision | Treating R&R as acceptance | aerj-rebuttal |
+
+## Worked routing vignette (illustrative)
+
+A team arrives with a finished **mixed-methods study of a districtwide grading reform** and asks
+"are we ready to submit?" The router does not jump to submission. It first checks section fit (the
+institutional reform framing leans SIA), then surfaces that the qualitative strand and the
+illustrative **0.15 SD** achievement estimate were never integrated — a TLHD-or-SIA referee will
+flag two stapled papers. So the route is `aerj-research-design → aerj-data-analysis` for the joint
+display *before* `aerj-submission`. Sequencing the integration fix first saves a likely review cycle.
+
+## Section-confusion failure mode and the fix
+
+- *Routed by method.* → Re-route on topic and framing; both sections take quantitative, qualitative,
+  and mixed designs. Confirm section scope against the journal's current submission guidelines.
+- *Skipped transparency until acceptance.* → Insert aerj-transparency-and-data-policy into the loop
+  early; AERA reporting standards are easier to build in than to retrofit.
+
 ## Output format
 
 ```

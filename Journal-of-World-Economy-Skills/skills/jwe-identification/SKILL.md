@@ -64,6 +64,43 @@ description: Use when the identification strategy is the bottleneck for a 《世
 - 引力 OLS-log 丢零贸易
 - TWFE + staggered 不讨论 Bacon 分解
 
+## 《世界经济》识别审稿期待表
+
+本刊（IWEP + 中国世界经济学会主办的 CSSCI 权威顶级期刊）的识别口味，是外生变动锚在国际/制度性冲击上、并通过现代推断检验。下表把退修信号显性化。
+
+| 审稿期待 | 达标 | 退修/退稿信号 |
+|----------|------|----------------|
+| 外生性锚国际冲击 | 关税战/入世/汇改/负面清单作准实验 | 外生性靠"我们认为"，OLS+控制 |
+| staggered DID 现代化 | Goodman-Bacon 分解 + CS/Sun-Abraham | 裸用 TWFE 不谈异质性处理偏误 |
+| shift-share 现代推断 | 份额外生+Rotemberg 权重+exposure-robust SE | 当普通 IV 用，常规聚类 |
+| 引力用 PPML | PPML+多边阻力 FE+零贸易保留 | OLS-log 丢零贸易 |
+
+## 微型走查：进口竞争 shift-share 的推断体检（示意）
+
+设以 ADH 式进口渗透暴露度（初期行业份额×对手国对华出口冲击）识别就业效应。按本 skill 体检：
+
+```
+走查体检：
+  识别力来源 → 判断来自份额还是冲击（GPSS vs BHJ）→ 本设定份额主导
+  份额外生 → 检验初期份额与前趋势相关性，报告平衡性
+  Rotemberg 权重（示意）→ top5 行业贡献约 6 成识别力，列出并讨论其可信度
+  标准误 → 常规聚类 se 0.012 → AKM exposure-robust se（示意）0.021，结论不变号
+  推断口径 → 按暴露结构而非行政区聚类，避免过度拒绝
+报告清单：份额外生论证□ Rotemberg top□ exposure-robust SE□
+```
+
+> 走查中的权重占比与标准误为示意占位，仅演示现代 shift-share 推断流程，非真实估计。
+
+## 审稿人追问模式 + 本刊语境修法
+
+- 追问"shift-share 标准误是否过度拒绝" → 补 AKM/BHJ 的 exposure-robust 推断，并说明识别力来源。
+- 追问"关税/协定凭什么对个体外生" → 给制度+理论+安慰剂三段论，论证对方为何这样定。
+- 追问"staggered 处理有没有异质性偏误" → 报 Goodman-Bacon 分解，改用 Callaway-Sant'Anna 或 Sun-Abraham。
+
+## 校准锚点（本刊已刊论文形态）
+
+本刊识别类论文多以国际/制度性冲击为准实验，配事件研究图、安慰剂与现代 shift-share/引力推断；裸 TWFE 与 OLS-log 引力较难通过审稿。具体识别规范与推断要求以编辑部最新稿约及审稿惯例为准。
+
 ## 输出格式
 
 ```

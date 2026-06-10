@@ -40,6 +40,37 @@ manuscript must clear the editorial bar on significance and fit first.
 - Match urgency to venue: genuinely time-sensitive, high-impact short results may fit **ES&T Letters**.
 - Clear ethics/safety/COI and have the SI + data deposit ready (reviewers see the SI).
 
+## Desk-reject triggers and where they get fixed upstream
+
+A significant fraction of ES&T submissions never reach reviewers. Each common desk-decline ground
+maps to an earlier skill — fix it before the editor sees the paper:
+
+| Desk-reject ground | Signal the editor reads | Fix it in |
+|--------------------|--------------------------|-----------|
+| No environmental significance | "clean lab result, no real-system relevance" | `est-topic-selection` |
+| Novelty is incremental occurrence | "another dataset, no new insight" | `est-literature-positioning` |
+| Out of scope for ES&T | better suited to a specialist title | `est-topic-selection` |
+| Wrong article type / over caps | exceeds word/figure budget | `est-submission` |
+| Missing TOC graphic or SI | submission incomplete | `est-figures-and-tables`, `est-reporting-and-reproducibility` |
+
+## Worked micro-example (illustrative — predicting a decision on an LCA paper)
+
+Stress-testing a GAC-vs-IX LCA before submission (illustrative reasoning):
+
+- **Significance:** present — links treatment choice to climate burden, a sustainability question
+  ES&T centers. Clears the first desk axis.
+- **Novelty risk:** if the LCA merely re-runs a standard inventory, a reviewer flags "method applied,
+  no new insight." Strengthen by surfacing a non-obvious trade-off (e.g., regeneration energy
+  dominating the GAC footprint — illustrative).
+- **Rigor:** Monte Carlo uncertainty reported, functional unit stated, characterization factors
+  sourced — survives the analytical reviewer.
+- **Realistic outcome:** major revision is the modal result for a sound-but-improvable paper; expect
+  asks for sensitivity on the electricity grid mix and clearer environmental implications. Plan for it
+  rather than reading "major revision" as near-acceptance.
+
+The lesson: walk each desk axis yourself first; the editor will, and an unaddressed axis is a decline
+before any reviewer weighs in.
+
 ## Anti-patterns
 
 - A clean-but-incremental result with no significance argument (desk decline)

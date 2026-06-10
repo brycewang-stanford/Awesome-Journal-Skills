@@ -44,6 +44,50 @@ A strong ASR paper usually clears all four:
 - **Comment/Reply** — a focused, rigorous critique of, or reply to, a published ASR piece, ≤ 3,000
   words. Engage the original on its own terms; do not smuggle a new study into a Comment.
 
+## Fit-screening signals (will an ASR editor send it out?)
+
+As sociology's general flagship, ASR's editors screen hardest on whether the question reaches the whole
+discipline. Use these signals to predict the screening decision before investing months.
+
+| Signal | Good fit | Off-fit / desk-reject risk |
+|--------|----------|-----------------------------|
+| Stakes sentence | "changes how sociology explains X" | "no one has studied Y in setting Z" |
+| Audience | a generalist sees the payoff | only the home subfield would cite it |
+| Theory | a mechanism that travels | a rate, trend, or case with no "why" |
+| Method framing | rigor serving a social question | a technique demonstration |
+
+## Worked micro-example (illustrative)
+
+A scholar weighs two framings of the same survey-plus-interview project on remote work.
+
+```
+Framing A: "Remote work adoption among tech workers, 2020–2024" → descriptive, subfield-only,
+  high desk-reject risk
+Framing B: "How remote work renegotiates the boundary between household and workplace authority"
+  → enters a general debate on work, gender, and institutions; generalist stakes are clear
+Verdict: B clears all four fit tests; A fails broad significance despite identical data
+Type: a full study with a broad claim → Article (≤15,000 incl. refs), not a Comment
+```
+
+Same evidence, different fit: the contribution is in the question's reach.
+
+## Referee/editor pushback → ASR-specific fix
+
+- *"Too narrow for ASR."* → Recast around the general mechanism the case illuminates; move setting
+  details into support, not the headline.
+- *"This is a method paper."* → Lead with the substantive sociological question the method answers.
+- *"You're cramming a study into a Comment."* → A new study is an Article; reserve Comment/Reply for
+  engaging a published ASR piece.
+
+## Calibration anchors
+
+- **The flagship bar is disciplinary, not subfield-novelty.** "New to my niche" is not a contribution;
+  "advances how sociology understands something" is the test ASR applies.
+- **Significance and rigor are joint requirements.** A broadly important question still needs a design
+  credible on its own methodological terms — both, not either.
+- **Confirm article-type caps** against the journal's current submission guidelines if exact limits are
+  decision-relevant; the Article vs. Comment/Reply distinction is stable.
+
 ## Anti-patterns
 
 - "Not yet studied in setting X" as the whole contribution (descriptive, subfield-only)

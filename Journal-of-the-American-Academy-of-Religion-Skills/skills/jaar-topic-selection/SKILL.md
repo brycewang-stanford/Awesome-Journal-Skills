@@ -59,6 +59,43 @@ A strong JAAR article usually clears all four:
 【Next】jaar-scholarly-positioning
 ```
 
+## JAAR-vs-specialist-journal decision grid
+
+Before investing in a draft, decide whether the AAR/Oxford University Press flagship is the right home
+or whether a specialist journal serves the work better. A wrong-venue submission usually returns with
+"another journal suits this."
+
+| If the contribution is… | Then… |
+|-------------------------|-------|
+| A category/method/comparative insight others can use | JAAR is a strong fit |
+| Intelligible only to specialists in one tradition | A specialist journal likely fits better |
+| A confession or advocacy for a tradition | Neither — reframe as analysis |
+| A descriptive survey with no thesis | Not ready for a selective venue — find the point first |
+| A field study with portable conceptual payoff | JAAR fits if the payoff is foregrounded |
+
+## Worked vignette: deciding fit for an ethnographic project
+
+A scholar has rich fieldwork on healing rituals in one Pentecostal congregation. Run the fit test:
+
+- **Broad and fundamental interest?** As "a study of Congregation X," no. Reframed around the
+  **insider/outsider** problem in studying charismatic practice, or the analytic of "healing" across
+  traditions, it clears the bar.
+- **Does it have a point?** The contestable thesis: observed healing practice resists the
+  efficacy/placebo framing scholars import, demanding a different analytic — a claim, not a description.
+- **Reflexive and non-confessional?** The author states her position and keeps believers'
+  efficacy-claims as data, not premises (handing detail to `jaar-theory-and-method`).
+- **Verdict.** Strong **after** reframing; as the congregation study, it bounces at Gate 1.
+
+## Topic-fit pushback → the fix
+
+- "First study of X's Y" is the whole pitch → surface the portable lesson for the field.
+- "Only for specialists" → reframe toward a category, method, or comparison.
+- "Reads as advocacy" → re-pitch as analytic study of religion.
+
+Hedged calibration: the "broad and fundamental interest" bar and the reframing return are stated JAAR
+expectations, but selectivity figures and the precise scope language move over time — confirm the
+current wording on the journal's submission guidelines before treating any threshold as fixed.
+
 ## Supplementary resources
 
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — research tools for the study of religion

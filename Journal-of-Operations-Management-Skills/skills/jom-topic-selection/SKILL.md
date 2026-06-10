@@ -32,6 +32,33 @@ JOM routes every submission to one of **12 Departments**, each with its own miss
 - A phenomenon-only paper with no theory engagement.
 - Choosing a Department after the fact instead of letting it sharpen the question.
 
+## The four-screen fit gate
+
+Run every candidate question through all four screens before investing. The gate below operationalizes JOM's stated scope; confirm Department fit against the current mission statements.
+
+| Screen | Passes | Fails — and where it belongs instead |
+|--------|--------|---------------------------------------|
+| Operations-as-heart | Focal phenomenon is operations/supply-chain and the claim depends on it | Operations is backdrop → generic management/marketing outlet |
+| Empirical mandate | Design observes data (survey/archival/field/case/experiment/IBR) | Pure model/optimization → operations research or analytical OM |
+| Theory contribution | Engages and advances OM-relevant theory | Phenomenon-only description → needs a theory hook before submission |
+| Practical relevance | Matters to managers of for-profit or nonprofit operations | No practitioner stake → reframe toward an operational decision |
+
+## Desk-reject triggers this stage prevents
+
+- An optimization or pure simulation model with no observation — redirected to analytical OM venues.
+- Operations used as mere setting for a question that survives in any industry.
+- A phenomenon paper with no engagement of OM theory.
+- A Department chosen after the fact rather than used to sharpen the question.
+
+## Worked vignette: screening a sustainability-operations idea
+
+A researcher wonders whether supplier sustainability audits reduce downstream disruptions (illustrative). Screen 1: the focal phenomenon is supply-chain disruption and the lever is an operational practice (audits) — operations is the heart, not context. Screen 2: it is observable via an archival panel of audit records and disruption events, so the empirical mandate is met. Screen 3: it can advance theory by testing whether audits work through capability-building or through deterrence — a mechanism contribution, not just an effect. Screen 4: managers decide audit frequency, so practical relevance is direct. Department routing: Sustainable Operations preferred, Inter-organizational Operations alternate. The idea clears all four screens, so it is JOM-fit; an optimization model of audit scheduling would not be.
+
+## Referee and editor scope signals
+
+- *"Operations is only the setting"* — re-center the question on an operational phenomenon the claim depends on.
+- *"This is analytical, not empirical"* — either add observed data or redirect to an analytical OM journal.
+
 ## Output format
 
 ```

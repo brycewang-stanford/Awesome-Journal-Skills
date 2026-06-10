@@ -32,6 +32,31 @@ JF has published much of finance's foundational work; reviewers expect you to en
 
 Rules: name the **closest** papers, not a dump; for each strand state prior result **and** your specific delta; classify the contribution as a **new fact, new mechanism/identification, or new method**.
 
+## Contribution-type decision table
+
+Editors and AEs read the contribution paragraph to classify what is new. Force the paper into one primary type — claiming all three reads as none:
+
+| Contribution type     | What you must show                                  | The attack to pre-empt                              |
+|-----------------------|-----------------------------------------------------|-----------------------------------------------------|
+| New fact              | A robust regularity not previously documented       | "This is already in [closest paper]"                |
+| New mechanism / identification | A clean shock or instrument isolating *why*  | "Correlation, not causation" / "weak design"        |
+| New method            | A genuinely new estimator or test, not a relabel    | "This is a standard estimator on new data"          |
+
+State the type explicitly; the editor uses it to judge whether the step over the closest work is flagship-sized.
+
+## Worked vignette — positioning against the canon
+
+*Illustrative.* A paper finds a supply-chain-concentration return premium. The weak version: "Many papers study the cross-section; we add a predictor." The JF version names the bar (Fama & French 1992, JF; the factor-zoo literature, Harvey, Liu & Zhu, JF), names the closest paper ([X, recent JF] prices *customer* risk), and states the delta: we isolate *supplier* concentration, show it survives their controls (a **new fact**) and concentrates where arbitrage is costly (a **mechanism**). FF 1992 cites to JF, the three-factor model to JFE — mis-routing canon reads as carelessness to JF editors.
+
+### Referee-pushback patterns and the JF-specific fix
+| Pushback you will hear                              | JF-specific fix                                                 |
+|----------------------------------------------------|-----------------------------------------------------------------|
+| "This is already in [well-known paper]"            | Name it, state its result, give your precise delta              |
+| "You ignore the recent JF paper on this"           | Add it — editors notice omissions of their own journal          |
+
+## Calibration anchors
+- JF introductions **position, not survey** — literature woven into the contribution paragraph, not a standalone review. The nearest rivals shift; confirm against recent issues.
+
 ## Checklist
 
 - [ ] Contribution paragraph names the closest 3–5 papers, not 30

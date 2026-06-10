@@ -42,6 +42,40 @@ no identifying clues (institution names, data-source giveaways in titles).
 - Identifying clues in titles/notes that break masking
 - Exhibit values that drift from the replication package
 
+## What AERJ exhibit referees check (both sections)
+
+Reviewers in **Social and Institutional Analysis (SIA)** and **Teaching, Learning, and Human
+Development (TLHD)** read exhibits before they read prose, so an unreadable exhibit damages the paper
+before the argument is even heard. Use this as a pre-submission exhibit triage.
+
+| Exhibit type | What an AERJ referee expects to see | Desk-screen / first-round red flag |
+|--------------|-------------------------------------|------------------------------------|
+| Multilevel results table | Level-1 and level-2 coefficients separated, random-effect variances, ICC, N at each level | One undifferentiated column that hides the nesting |
+| Growth-model table | Intercept/slope means, variance components, time coding stated | Trajectories implied but no variance components reported |
+| Quasi-experimental figure | Event-study or RD plot with bandwidth, pre-trend, confidence band | A bare bar chart of means with no uncertainty |
+| Qualitative evidence table | Theme → operational definition → exemplar excerpt → source (anonymized) | A wall of quotations with no analytic column |
+| Mixed-methods joint display | Quant result and qual finding side by side with a meta-inference column | Two stacked exhibits that never meet |
+
+## Worked exhibit vignette (illustrative)
+
+Take a TLHD-section study of a middle-school **reading-comprehension intervention** in 40 schools.
+The core table reports a treatment coefficient of **0.18 SD** (95% CI [0.04, 0.32]), a school-level
+ICC of **0.14**, and **N = 3,200** students in **40** schools (all numbers illustrative). A strong
+AERJ exhibit puts the estimate, the interval, the ICC, and both N levels in one self-contained note;
+a weak one prints "b = 0.18, p < .05" and forces the reader into the methods section to learn the
+sample is clustered. The companion joint display pairs that 0.18 SD estimate with the qualitative
+finding that teachers in higher-gain schools re-allocated time to discussion — the meta-inference
+column is what earns the figure its place.
+
+## Referee pushback and the venue fix
+
+- *"I cannot tell which estimates are between- vs within-school."* → Split the table by level and
+  label random effects; report the ICC explicitly.
+- *"The figure is unreadable in the printed (grayscale) issue."* → Move from color-coded lines to
+  distinguishable markers/linetypes; SAGE print remains a constraint.
+- *"This exhibit could identify the district."* → Strip site-revealing titles and notes; masked
+  review requires anonymized exhibits, not just an anonymized text body.
+
 ## Output format
 
 ```

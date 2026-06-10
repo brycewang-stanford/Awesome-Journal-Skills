@@ -1,6 +1,6 @@
 ---
 name: jf-writing-style
-description: Use when polishing the prose of a The Journal of Finance (JF) manuscript for accessible, general-interest exposition. Tightens writing and framing; it does not change results or run analyses.
+description: Use when polishing the prose of a The Journal of Finance (JF) manuscript for accessible, general-interest exposition that reaches the broad AFA flagship readership. Tightens the introduction so question, finding, and economic magnitude land on page one, trims hedging, and offloads notation to the Internet Appendix; it does not change results or run analyses.
 ---
 
 # Writing Style & Exposition (jf-writing-style)
@@ -27,6 +27,38 @@ In order: (1) **the question and why it matters** — general-interest, concrete
 - Define notation once; do not re-derive in prose what a table shows.
 - Cut hedging stacks to one calibrated claim.
 - Use "significant" for economic importance, not as a synonym for the p-value.
+
+## Page-one diagnostic grid
+
+Test a JF introduction by reading only page one and asking whether each element is present — the pass an out-of-subfield editor makes:
+
+| By the bottom of page one, the reader knows…    | If absent, the fix                                |
+|-------------------------------------------------|---------------------------------------------------|
+| The question and why it is first-order          | Open with the stake, not the literature           |
+| What you do, in plain terms                     | One sentence on design/data/test, no notation     |
+| The headline finding                            | State the result before its caveats               |
+| Its economic magnitude in interpretable units   | Add the bps / Sharpe gain / % of value            |
+| Why it is credible                              | Name the shock, instrument, or asset-pricing test |
+
+A subfield draft typically fails on magnitude or credibility, assuming the reader cares.
+
+## Worked vignette — rewriting a buried opening
+
+*Illustrative.* A draft opens: "A large literature examines the cross-section of expected returns. We contribute to it." The result arrives three paragraphs later. The JF rewrite leads on page one:
+
+> "Firms exposed to supply-chain concentration earn 45 bps per month higher returns (Sharpe gain ≈ 0.4, illustrative). The premium survives standard factor adjustment and concentrates where arbitrage is costly, pointing to mispricing over risk."
+
+The page-one reader now has the question, answer, size, and reason to believe; the survey citation moves into the contribution paragraph (`jf-literature-positioning`).
+
+### Referee-pushback patterns and the JF-specific fix
+| Pushback on the prose                              | JF-specific fix                                                |
+|----------------------------------------------------|-----------------------------------------------------------------|
+| "I read three pages before the finding"            | Move question + result + magnitude to page one                  |
+| "Significant at 1%' is reported as the result"     | Replace with the magnitude; keep the t-stat in a note           |
+| "The body is padded toward 60 pages"               | Offload derivations/notation to the Internet Appendix           |
+
+## Calibration anchors
+- JF's voice is **accessible but precise** — not a popular-science register; the goal is a finance economist outside your niche following the argument. The "first three pages do the work" norm is durable, but exact length conventions vary; confirm against the journal's current author guidelines.
 
 ## Checklist
 

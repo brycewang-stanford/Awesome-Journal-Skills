@@ -38,6 +38,36 @@ page (see 待核实 in the source map).
   uncertainty, and reproducibility.
 - Have **data and code archived (or staged)** so a reviewer request is trivial to satisfy.
 
+## Desk-reject triggers and how to neutralize them
+
+The editorial screen is where most submissions end. Map the common trigger to the pre-submission move
+that removes it, before the manuscript ever reaches a reviewer.
+
+| Desk-reject trigger | Why it fires | Neutralizing move |
+|---------------------|--------------|-------------------|
+| Scope mismatch | Reads as regional/conservation, not global-change | Lead title/abstract with driver → response mechanism |
+| Thin significance | Increment too small for a broad-readership venue | State magnitude and cross-system relevance up front |
+| Scale overreach | Plot result framed as global | Match the claim to the evidence; flag extrapolation |
+| Missing required element | No graphical abstract or data statement | Complete both before submitting |
+| Reproducibility gap | No archiving plan visible | Stage the DOI deposit and say so |
+
+## Worked micro-example (illustrative)
+
+A range-shift modelling paper is screened. The editor checks three things in order: does it test a
+global-change driver (yes — warming), is the advance broad (the mechanism generalizes across montane
+floras), and is it sound enough to review (design and uncertainty look defensible). It passes to two
+reviewers with matched expertise (illustrative), one a biogeographer and one a modeller. The modeller
+asks for the projection ensemble; because the code is already staged for archiving, the request is
+trivial to satisfy. Had the paper led with "a new record for our region," it would likely have stopped
+at the desk. Reviewer counts and roles are illustrative; confirm the current model on the official page.
+
+## What expert reviewers reliably probe
+
+- Whether a correlative pattern is being presented as a mechanism.
+- Whether plot-to-biome scaling carries propagated uncertainty.
+- Whether confounding or pseudoreplication undermines the causal claim.
+- Whether the archived data and code actually reproduce the headline result.
+
 ## Anti-patterns
 
 - Submitting a local/conservation-framed paper that fails the global-change scope screen

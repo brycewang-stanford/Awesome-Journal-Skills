@@ -42,6 +42,42 @@ inseparable from `artbull-images-and-permissions`.
 - Comparanda chosen for prestige rather than argumentative necessity
 - Reading biography or intention directly off the brushwork without warrant
 
+## Close-looking quality grid for the discipline's core method
+
+At the College Art Association's quarterly, the looking *is* the argument's engine, and every claim
+must be checkable against a numbered plate.
+
+| Looking element | Convincing | Thin (referee will flag) | The corrective |
+|---|---|---|---|
+| Description | Precise on composition, medium, facture, scale | Adjective-piling ("powerful," "dynamic") | Replace reactions with observable features |
+| Figure warrant | Each claim tied to a figure or detail crop | A claim the supplied image cannot show | Reproduce the detail crop that makes it visible |
+| Materiality | Scale, support, technique, condition noted | The reproduction treated as the object | Name what the plate flattens or cannot show |
+
+## Worked vignette: making facture carry an attribution
+
+Suppose a passage claims a panel is autograph because the brushwork is "masterful and assured" — a
+reaction, not a description, that a referee here will call impressionistic. Rebuilt, the text
+**describes** the facture precisely (the wet-in-wet blending of the flesh, the single-stroke drapery
+contours) and ties each to **Figure 4** and a **detail crop (Figure 4a)**. Then it
+**interprets**: this handling matches the autograph group and differs from the workshop replicas. The
+passage names what the reproduction cannot convey — the panel's scale, the raking-light brush ridges —
+and brackets a later overpaint out of the claim. One comparison, a securely attributed head, earns its
+slot; an irrelevant masterpiece is cut.
+
+## Pushback patterns on the looking, and the venue-specific answer
+
+- *"The analysis is thin / impressionistic."* Swap evaluative adjectives for observable features of
+  composition, facture, and scale, then derive the meaning.
+- *"I cannot see your claim in the image."* Supply the detail crop that makes the warrant visible; here
+  a claim without a checkable figure is assertion.
+
+## Calibration anchor (hedge where uncertain)
+
+- Detail crops are evidence, not extras: a load-bearing claim usually needs its own figure from the
+  limited, author-funded illustration program (`artbull-images-and-permissions`), and technical imaging
+  (infrared reflectography, raking light, X-radiography) can ground claims the eye cannot verify in a
+  printed plate.
+
 ## Output format
 
 ```

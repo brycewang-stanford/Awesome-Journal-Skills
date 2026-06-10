@@ -40,6 +40,43 @@ whether the numbers add up. This skill covers execution and reporting; design de
 - Pin software/package versions; record instrument settings and integration parameters.
 - Keep figure/table numbers matched to script outputs (see `est-reporting-and-reproducibility`).
 
+## QA/QC reporting table reviewers expect to see
+
+ES&T referees often work down a mental analytical checklist. Reporting each item pre-empts the most
+common "rigor not established" objection. The minimum set, with what a reviewer reads when it is
+absent:
+
+| Element | What to report | If omitted, the reviewer assumes |
+|---------|----------------|----------------------------------|
+| Method/field blanks | blank levels vs. sample levels; subtraction approach | contamination is uncontrolled |
+| Recoveries | matrix-spike % and CRM agreement | quantitation is biased/unknown |
+| LOD/LOQ | derivation (e.g., 3σ/10σ or S/N) and per-analyte values | "detections" may be noise |
+| Calibration | range, R², whether samples fall in range | extrapolation beyond standards |
+| Surrogate/IS recoveries | per-sample recovery correction | run-to-run drift hidden |
+| Non-detects | censoring method (ROS/MLE/KM), not bare substitution | summary statistics distorted |
+
+## Worked micro-example (illustrative — PFAS quantitation with censored data)
+
+A river-PFAS dataset (illustrative numbers) shows how the rules combine into a reportable result:
+
+- 24 samples, triplicate injection; LOQ for PFHxA = 0.5 ng/L (illustrative, derived at 10×S/N).
+- Matrix-spike recovery 92% (RSD 7%, n=6); field blank < LOQ; surrogate-corrected.
+- 9 of 24 below LOQ — **left-censored**. Naive half-LOQ substitution would report a mean of
+  3.1 ng/L; regression-on-order-statistics (ROS) gives 2.4 ng/L (illustrative), because substitution
+  inflated the low tail. Report the ROS mean with its CI and *state the method*.
+- Reported result: "PFHxA = 2.4 ng/L (95% CI 1.7–3.3, n=24, 38% < LOQ; ROS), recovery 92±7%." That
+  single line carries magnitude, uncertainty, n, censoring handling, and recovery — the form a
+  reviewer can sign off without a query.
+
+## Referee-pushback patterns and the venue-specific fix
+
+- *"Detection limits and QA/QC are not reported."* → Add the blank/recovery/LOD/LOQ table to the SI
+  and cite it from Methods; never leave it implicit.
+- *"Below-detect data handled by substitution."* → Re-analyze with ROS/MLE/Kaplan–Meier; show the
+  result is robust to the censoring choice.
+- *"The mass balance does not close."* → Report closure %, name the unaccounted fraction (sorbed,
+  volatilized, mineralized), and bound it rather than ignoring the gap.
+
 ## Anti-patterns
 
 - Results with no blanks, recoveries, or detection limits reported

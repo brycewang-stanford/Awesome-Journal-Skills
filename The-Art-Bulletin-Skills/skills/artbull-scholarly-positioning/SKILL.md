@@ -38,6 +38,41 @@ sits and why it matters.
 - Method left implicit, so reviewers cannot tell what tradition you are answering
 - Self-citation phrased in a way that breaks anonymity ("as I argued in…")
 
+## Historiographic-positioning rubric for the discipline's generalist journal
+
+Referees for the College Art Association's quarterly are art historians across periods and methods,
+so they read positioning for engagement with the *field's* debates, not just the file on one object.
+
+| Positioning element | Reads as strong | Reads as weak | The fix |
+|---|---|---|---|
+| Historiographic line | Names the foundational accounts and the reading you revise | "Little has been written" | Trace how the problem has been read, then mark your revision |
+| Field engagement | Cites the broader methodological and thematic conversation | Only the monographs on your single work | Reach past the file to the debates a generalist expects |
+| Anonymized credit | Self-citation neutralized | "As I argued in…" reveals the author | Cite your own prior work in the third person |
+
+## Worked vignette: positioning an iconographic reading against the canon
+
+Suppose an article reinterprets the program of a famous altarpiece long explained by a single
+canonical iconographic study. Calling the object "neglected" is plainly false for a canonical work and
+a flag to any referee. Instead the author traces the **historiographic line**: the foundational
+reading established the saints' identities; a later social-history-of-art turn re-read the program
+through confraternity politics; a recent material study reconstructed the frame. The **gap** is
+then precise — none of these explains an anomalous gesture the new reading argues encodes a liturgical
+function — and the author **engages the field** by connecting that gesture to broader debates on image
+and rite. Because review is double-blind, the author's earlier note is cited in the third person.
+
+## Positioning objections referees raise, and the move that resolves them
+
+- *"You ignore key scholarship."* Trace the historiographic line fully, including the recent turns;
+  the flagship's readers know the field and notice the omission.
+- *"You only cite the literature on your one object."* Pull in the methodological and thematic debates
+  a generalist expects, so the contribution legibly addresses the discipline.
+
+## Calibration anchor (hedge where uncertain)
+
+- The journal welcomes many methods but expects each to be owned, and its reach across all periods and
+  geographies means positioning must speak past area specialists; self-citation is a real anonymity
+  hazard (confirm anonymization expectations against the journal's current submission guidelines).
+
 ## Output format
 
 ```

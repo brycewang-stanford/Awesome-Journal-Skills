@@ -49,6 +49,40 @@ can judge — and a replicator could reproduce — the result.
 - "Themes emerged" with no account of how, by whom, or with what reliability
 - A mixed-methods results section that never integrates
 
+## Warrant-and-transparency checklist by method (AERJ referees)
+
+The AERA reporting standards apply to every tradition AERJ publishes, but referees in each section
+probe different things. Audit your results section against the row that matches your design.
+
+| Design | What must be reported for warrant | What transparency requires made explicit |
+|--------|-----------------------------------|------------------------------------------|
+| Multilevel / growth | ICC, level-specific estimates, random effects, centering choice | Why each level enters; how missingness handled |
+| IRT / measurement | Reliability, dimensionality, item/factor evidence | How measurement error was modeled, not ignored |
+| Quasi-experimental | Identifying assumption, pre-trend or balance, sensitivity | Estimand defined; alternative specs shown |
+| Qualitative | Coding process, who coded, exemplar evidence, negative cases | Reflexivity; how interpretations were warranted |
+| Mixed | Both strands plus the integration result | What integration revealed that neither alone could |
+
+## Worked analysis vignette (illustrative)
+
+A SIA-section quasi-experimental evaluation of a **ninth-grade early-warning system** uses a
+difference-in-differences design across 25 districts. Warranted reporting states the estimand (effect
+on on-track-to-graduate rates), shows the parallel pre-trend, reports an illustrative **+4.1
+percentage points** (95% CI [1.2, 7.0]) with district-clustered SEs, and adds a sensitivity check
+that survives dropping the two largest districts. The transparency layer names the missing-data
+mechanism (FIML under MAR) and the attrition rate (illustrative **6%**). A weak version would report
+a single coefficient with a star, no pre-trend, and listwise deletion — the AERA standard for adequate
+evidence is not met.
+
+## Referee pushback and the AERA-standard fix
+
+- *"You ran OLS on clustered data."* → Refit with multilevel or cluster-robust inference; report ICC.
+- *"P-values with no practical meaning."* → Add standardized effect sizes and CIs interpreted against
+  education stakes.
+- *"'Themes emerged' tells me nothing."* → Document how codes/themes were developed, by whom, with
+  what reliability, and acknowledge negative cases.
+- *"The mixed strands never meet."* → Add a joint display and a meta-inference; confirm any reporting
+  detail against the journal's current submission guidelines.
+
 ## Output format
 
 ```

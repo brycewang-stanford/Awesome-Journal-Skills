@@ -58,6 +58,32 @@ or model); group by reviewer; end each entry with the location of every change f
 - Letting the revised manuscript drift out of sync with the deposited package
 - Reintroducing author clues while editing (breaks masking)
 
+## Worked vignette — propagating an R&R through the synthesis
+
+*Illustrative numbers only.* The self-affirmation synthesis returns with an R&R: Reviewer 1 wants the
+search expanded to two more databases; Reviewer 2 calls the delivery-format moderator post-hoc;
+Reviewer 3 wants a selection model added. Under this skill's rules the response propagates cleanly:
+
+- **Search expansion** recovers 5 new trials, raising k from 42 to 47; *everything downstream is
+  re-run* — pooled g shifts from 0.34 to 0.32 [0.23, 0.41], I² to 65%, and the PRISMA flow, forest plot,
+  and summary table are regenerated to match.
+- **Moderator challenge**: the response cites the OSF protocol showing delivery format was pre-specified,
+  so it stays confirmatory.
+- **New bias test**: the selection model lands g ≈ 0.24, consistent with the PET-PEESE bound; the letter
+  states it nudges the bottom line toward "real but inflated."
+- **Package**: the deposited database (now 47 studies), codebook, and scripts are updated; the
+  manuscript stays masked.
+
+## Reviewer pushback → response move (Bulletin-specific)
+
+| Reviewer comment | Response move |
+|------------------|---------------|
+| "Search not exhaustive / PRISMA gaps" | Add databases, re-run downstream estimates, state the new k, regenerate the flow |
+| "Moderators are post-hoc fishing" | Cite the registered protocol; keep pre-specified ones confirmatory, relabel any unplanned as exploratory |
+| "Only one bias test" | Add converging diagnostics; report how the bottom line moves |
+| "Reviewers disagree on inclusion" | Choose one principled rule, apply it, explain the tradeoff |
+| "No integration beyond tallying" | Strengthen the contribution per `psychbull-theory-integration` |
+
 ## Output format
 
 ```

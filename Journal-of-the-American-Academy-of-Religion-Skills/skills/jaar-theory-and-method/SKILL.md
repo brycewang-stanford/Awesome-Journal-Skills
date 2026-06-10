@@ -52,6 +52,57 @@ skill makes your theory/method explicit and load-bearing.
 【Next】jaar-structure-and-exposition
 ```
 
+## Method-frame fit table
+
+JAAR publishes across textual, historical, ethnographic, philosophical, and analytic-theological
+approaches, and a referee for the AAR/Oxford University Press flagship expects the frame to fit the
+problem and do real work. Match your lens to its move and risk.
+
+| Frame | Characteristic move | Risk a JAAR reader watches for |
+|-------|---------------------|--------------------------------|
+| Phenomenological | Describe the structure of religious experience | Sliding into the believer's voice |
+| Historical-critical | Situate texts/events in their formation | Antiquarianism with no field-level claim |
+| Social-theoretical | Read religion as practice, power, institution | Reduction that explains the religion away |
+| Feminist / postcolonial | Surface gender, empire, the category-maker | Critique asserted, not demonstrated |
+| Comparative | Juxtapose to reveal a general insight | Decontextualized "world religions" essentialism |
+
+## The insider/outsider and non-confessional line
+
+The reflexivity norm at JAAR has a sharp edge that trips theologically trained authors: the journal
+studies religion **about**, not **for**, a tradition. Hold this line:
+
+- Represent insiders' claims **fairly** — then mark where your **analytic** claim begins.
+- A believer's truth-claim is **data** for your analysis, not a **premise** of it.
+- Reflexivity is not confession: stating your standpoint clarifies its effect; it does not license
+  advocacy.
+
+## Worked vignette: justifying a comparison's basis
+
+The comparative-offerings essay compares a Marian shrine and a Sufi *dargah*. A theorist-referee asks:
+on what basis?
+
+- **Name the *tertium comparationis*.** Not "both are religious," which essentializes, but a specified
+  shared structure — *a transactional contract with a saintly intercessor* — defined and defended as
+  the unit of comparison.
+- **Method as argument.** The comparison is not decorative; it *produces* the recategorization claim
+  that neither case yields alone — a methodological contribution about how to study transactional
+  devotion.
+- **Reflexivity.** The author, raised in one tradition, states that standpoint and shows how
+  cross-checking against the other case guards against reading it as the norm.
+- **Categories under scrutiny.** "Popular piety," the residual bin both cases were filed under, is
+  dismantled rather than used as a natural kind.
+
+## Theory/method pushback → the fix
+
+- "Undertheorized" → show how the method produces the reading.
+- "Confessional" → re-draw the about/for line; bracket believers' truth-claims.
+- "Apples-to-oranges comparison" → defend the *tertium comparationis*.
+
+Hedged calibration: JAAR's openness to theological method is real but conditioned — it publishes
+analytic, non-confessional theology of religion, not advocacy. The editorial boundary shifts and is
+best confirmed against recent issues and the journal's current submission guidelines rather than
+assumed from any single statement.
+
 ## Supplementary resources
 
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — theory/method references in the study of religion

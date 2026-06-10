@@ -45,6 +45,51 @@ experts who may not share its method.
 - Present negative cases / robustness honestly — reviewers trust candor.
 - Engage the relevant sociological literatures, not just your subfield.
 
+## Stage-by-stage failure points
+
+ASR's masked process has predictable choke points, and as the ASA flagship its editors decline at the
+screening gate more readily than specialty journals do.
+
+| Stage | What stops a paper here | Pre-empt by |
+|-------|--------------------------|--------------|
+| Editorial screening | weak fit / narrow significance | front-loading the disciplinary stakes |
+| Masking integrity | identifying wording or title page | the `asr-submission` masking pass |
+| Review — significance | "interesting, not for sociology broadly" | a portable mechanism, not a setting-bound finding |
+| Review — rigor | method not credible for its kind | the design defense in `asr-research-design` |
+| Review — evidence | claims outrun the data | uncertainty + negative cases shown candidly |
+
+## Worked micro-example (illustrative)
+
+A demographic paper on rising "deaths of despair" by education is mock-reviewed before submission.
+
+```
+Screening risk: reads as a mortality-trend description → reframe around the social-structural
+  mechanism (eroding labor-market position by credential) so a generalist sees the stakes
+Significance reviewer: "matters if the mechanism, not just the rate, is the point" → mechanism headline
+Rigor reviewer: "age-period-cohort identification?" → state the restriction and a sensitivity check
+Predicted outcome: R&R, not first-round accept (typical at ASR for a promising paper)
+```
+
+Stress-testing against the panel before submission converts likely screening failures into a clean R&R
+path.
+
+## Referee pushback → ASR-specific fix
+
+- *"Why ASR and not a specialty journal?"* → Surface the cross-subfield payoff on the first page; the
+  flagship screens hardest on broad significance.
+- *"A reviewer outside my method won't get this."* → Define terms, state the social question plainly,
+  defend the method in its own idiom.
+- *"You expected an accept."* → Plan for a substantial R&R; first-round acceptance is rare at ASR.
+
+## Calibration anchors
+
+- **Significance and method-rigor are both load-bearing.** ASR rarely advances a paper strong on only
+  one; the masked panel weights disciplinary payoff and craft together.
+- **Candor reads as competence.** Expert reviewers find hidden limitations; reporting them first builds
+  trust that carries a borderline paper.
+- **Confirm decision-category wording** against the journal's current guidelines if you need exact
+  labels — the broad shape (reject / R&R / rare accept) is stable.
+
 ## Anti-patterns
 
 - A subfield-only paper sent to a discipline-wide journal

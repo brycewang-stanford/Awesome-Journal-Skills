@@ -35,6 +35,38 @@ reporting of results live in `est-data-analysis`.
 7. **Models.** State assumptions, domain, boundary/initial conditions, calibration vs validation data,
    and sensitivity/uncertainty analysis up front.
 
+## Controls a reviewer expects, by claim type
+
+The fastest way to lose an environmental-relevance argument is to omit the control that rules out a
+competing process. Match the control set to what you are claiming:
+
+| If you claim... | You must control for... | Reviewer's killer question |
+|-----------------|-------------------------|-----------------------------|
+| Biodegradation/biotransformation | abiotic loss (autoclaved/poisoned control) | "could this be sorption or hydrolysis?" |
+| Photolysis | dark control, light-screened control | "is the loss just thermal?" |
+| Adsorption to a sorbent | blank sorbent, dissolved-phase loss | "is it volatilization?" |
+| Treatment removal | influent/effluent mass balance, blank run | "where did the mass go?" |
+| Toxicity/effect | solvent/vehicle control, dilution series | "is the carrier causing it?" |
+
+## Worked micro-example (illustrative — designing the PFAS biotransformation study)
+
+To support "precursor X biotransforms to PFHxA in river water," the design (illustrative) builds in
+the defenses before any sample is run:
+
+- **Environmental relevance:** spike at ~50 ng/L (illustrative — near observed field levels), in
+  filtered river water at ambient pH and temperature, not a buffered idealized matrix.
+- **Controls:** an autoclaved (abiotic) control to separate biotransformation from sorption/hydrolysis;
+  a no-spike blank; a sorption check on the vessel walls.
+- **Replication & power:** triplicate microcosms per timepoint (biological replicates), randomized
+  incubator position; enough timepoints (e.g., 0, 1, 3, 7, 14 d) to fit a first-order rate constant.
+- **Mass balance:** measure precursor, intermediates, and terminal acid plus a sorbed-fraction
+  extraction, targeting ≥80% closure (illustrative) and reporting the gap.
+- **QA/QC by design:** per-batch spikes/recoveries, field and method blanks, per-analyte LOQ, and
+  surrogate standards pre-specified — not improvised after the run.
+
+The design choice that pre-empts the top rejection: the abiotic control plus the mass balance together
+make the biotransformation claim falsifiable, which is exactly what the analytical reviewer checks.
+
 ## Anti-patterns
 
 - Lab spikes orders of magnitude above environmental levels presented as relevant

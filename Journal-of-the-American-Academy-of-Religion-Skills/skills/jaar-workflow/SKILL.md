@@ -63,6 +63,50 @@ submission → revision-and-response`
 【Then】the next skill after that
 ```
 
+## Symptom-to-skill dispatch table
+
+When an author arrives mid-project with a complaint rather than a clean stage, route by symptom. These
+are the recurring failure signatures at the AAR/Oxford University Press flagship.
+
+| Symptom the author reports | Route to | Why |
+|----------------------------|----------|-----|
+| "A reader called it descriptive" | jaar-argument-development | Needs a contestable point |
+| "Only specialists will care" | jaar-topic-selection → jaar-scholarly-positioning | Reframe for broad interest |
+| "Told it's undertheorized / confessional" | jaar-theory-and-method | Make method load-bearing; redraw the about/for line |
+| "Translation/source was challenged" | jaar-sources-and-evidence | Originals, provenance, representativeness |
+| "Readers get lost in the sections" | jaar-structure-and-exposition | Throughline and signposting |
+| "Footnotes for citations flagged" | jaar-citation-and-style | Convert to in-text author-date |
+| "Identity visible in the file" | jaar-submission | Anonymize for double-anonymous review |
+| "R&R letter arrived" | jaar-revision-and-response | Point-by-point, protect broad significance |
+
+## Worked vignette: routing a stalled manuscript
+
+An author says: "My essay on a Daoist liturgical manual is done, but a colleague said it only matters
+to Daoist-studies people, and another said the citations look wrong." The router resolves this in order:
+
+- **Reframing test first.** Can the author state in one sentence what it teaches the study of religion
+  writ large? Not yet — so route to `jaar-topic-selection` (reframe around what the manual shows about
+  the analytic of "liturgy" or text-as-ritual-object) and then `jaar-scholarly-positioning`.
+- **Then the surface flag.** The citation complaint routes to `jaar-citation-and-style` (footnote-to-
+  in-text conversion) — but only after the Gate-1 reframing risk is handled, since style cannot save a
+  subfield-bound piece.
+- **Sequence out.** From there the default order resumes: argument → sources → theory-method →
+  structure → writing-style, then review-process and submission.
+
+## Router anti-pattern → correction
+
+| Author's instinct | Correction |
+|-------------------|------------|
+| "Fix the citations first, then worry about framing" | Clear the Gate-1 reframing risk first; style is downstream |
+| "Skip positioning, my sources are strong" | Strong sources don't establish broad significance |
+| "Submit and let the editor reframe it" | The editor returns it unreviewed; reframe before upload |
+| "Plan a book review as an entry point" | Reviews are commissioned only — not a route in |
+
+Hedged calibration: this router encodes the journal's stated gatekeeping logic (broad-interest screen,
+double-anonymous review, in-text citation, commissioned reviews) and the typical skill sequence;
+treat the ordering as advisory and confirm any process specifics against the journal's current
+submission guidelines.
+
 ## Supplementary resources
 
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — reference and research tools for the study of religion

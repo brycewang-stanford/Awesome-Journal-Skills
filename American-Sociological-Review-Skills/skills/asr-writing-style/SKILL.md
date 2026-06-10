@@ -43,6 +43,52 @@ reaching the discipline and respecting the format — not generating claims.
 - Tighten footnotes — they count.
 - Move extended detail to supplementary materials where appropriate; keep the article focused.
 
+## Prose moves a general-sociology reader needs
+
+At the ASA flagship the reader of record is a sociologist outside your subfield, so the writing does
+disciplinary translation a specialty journal does not require.
+
+| Weakness | Cross-subfield reader experiences | Prose fix |
+|----------|-----------------------------------|-----------|
+| Jargon undefined | stalls on a term of art | define on first use; spell out acronyms |
+| Stakes buried | doesn't know why to read on | front-load significance in the intro |
+| Evidence-first paragraphs | can't find the claim | lead with the claim, support with evidence |
+| Over-long reference strings | length burned, argument thin | prune; references count toward 15,000 |
+| Self-citation in identifying voice | masking broken | "in a prior study," not "in our prior study" |
+
+## Worked micro-example (illustrative)
+
+A network-study introduction is rewritten to reach the discipline.
+
+```
+Before: "We extend ERGM specifications of tie formation in adolescent friendship networks..."
+  → a generalist stops reading
+After: "How do everyday social ties reproduce racial segregation? A small set of formation rules
+  generates large-scale separation..." → stakes first, method second
+Abstract: trimmed 224 → 188 words, finding plain, no institution named → in range
+Length: pruned 40 redundant citations, recovering ~600 words against the cap incl. references
+```
+
+The contribution leads, the method follows, and the prune is treated as a budget item.
+
+## Referee pushback → ASR-specific fix
+
+- *"Couldn't tell why this matters until page 12."* → Move significance and argument into the first two
+  pages so a generalist commits early.
+- *"Too much subfield shorthand."* → Define each term on first use; replace insider phrasing with plain
+  disciplinary language.
+- *"Over length."* → Tighten literature engagement and prune citation strings; references and
+  footnotes count, tables and figures do not.
+
+## Calibration anchors
+
+- **Write for the generalist, format for the ASA Style Guide.** ASR's dual demand is cross-subfield
+  readability plus author-date conventions and masking discipline.
+- **References are inside the cap.** Unlike many journals, ASR counts references and footnotes toward
+  15,000 words — budget citations from the first draft.
+- **Confirm caps against the journal's current submission guidelines** if exact limits are
+  decision-relevant; the broad shape is stable.
+
 ## Anti-patterns
 
 - A subfield-insider intro that never states broad significance

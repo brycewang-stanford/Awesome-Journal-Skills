@@ -36,6 +36,36 @@ State why the contribution would not exist outside an operations context. If the
 - Burying the contribution in the discussion's last paragraph.
 - A contribution that survives if you delete the operations setting.
 
+## What JOM referees weigh on contribution
+
+JOM evaluation foregrounds the operations-as-heart test alongside theory movement; the table is an interpretive reading, not a published rubric (confirm against current author guidelines).
+
+| Referee question | Strong signal | Weak signal |
+|------------------|---------------|-------------|
+| Is operations at the heart? | The claim depends on an OM/supply-chain mechanism | Operations is only the setting |
+| Does OM theory move? | A prior belief is qualified, reversed, or bounded | "First study to look at X" |
+| Is relevance operational? | A specific lever changes (reorder point, audit cadence) | Generic "managers should attend" |
+
+## Desk-reject and early-return triggers on framing
+
+- Operations reads as context, not phenomenon — the commonest JOM scope rejection.
+- The "so what" is a methods novelty rather than an OM-theory advance.
+- Practical implications could appear unchanged in a generic paper.
+
+## Worked vignette: a supply-chain-integration survey
+
+A team surveys 214 plants and finds supplier integration raises on-time delivery, but the effect weakens sharply when demand volatility is high (illustrative). The JOM-grade framing names the belief that changes: the field has treated integration as monotonically beneficial, yet its delivery benefit is contingent on a stable environment — buffering and integration are partial substitutes under volatility. Theoretical contribution: a boundary condition on integration theory. Operations centrality: both mechanism (information-sharing reducing schedule variance) and moderator (volatility) are operational. Practical relevance: under volatile demand, pair integration with explicit buffer capacity. Belief changed, operations load-bearing, lever specified — that triad is what a Department Editor wants.
+
+## Common contribution objections and how to answer them
+
+- *"The theoretical contribution to OM is not articulated."* Add an explicit contribution sentence in the intro naming the prior belief and how your evidence revises it; mirror it with a discussion subsection drawing boundary conditions.
+- *"This could be any management paper."* Re-anchor on the operations mechanism and show the conclusion collapses if the operations setting is removed.
+- *"Practical implications are generic."* Replace platitudes with a concrete operational decision rule.
+
+## Calibrating the dual-contribution bar (hedged)
+
+JOM expects a clear theoretical contribution to operations management paired with demonstrated practical relevance; a phenomenon-only paper, however well-measured, tends to stall. These are directional norms — confirm scope against current Department missions.
+
 ## Output format
 
 ```

@@ -35,6 +35,55 @@ for a clear exhibit, but it must earn its place and stand on its own.
 - Double-spaced manuscript, Times New Roman 12 pt; place tables/figures per the guidelines.
 - Keep identifying information out of exhibits (masked review).
 
+## Exhibit conventions a masked ASR reviewer expects
+
+The ASA flagship admits exhibits from every tradition but holds them to one standard: a reviewer who
+may not share your method must be able to read the evidence unaided. Match the exhibit to the
+tradition, then verify it carries magnitude and uncertainty.
+
+| Tradition | Workhorse exhibit | The note must state |
+|-----------|-------------------|----------------------|
+| Quant / stratification | coefficient/marginal-effects plot, mobility table | N, weights, estimator, what the estimate is |
+| Demography | survival curve, Lexis surface, decomposition | population, period, age structure |
+| Comparative-historical | evidence table (claim → sources), timeline | case set, source provenance |
+| Ethnographic | coded-excerpt table with contrary instances | coding scheme, anonymization |
+| Network / computational | graph, sequence chronogram, validation table | boundary spec, validation against labels |
+
+## Worked micro-example (illustrative)
+
+A main results table for an administrative-data study of gender wage gaps is redesigned for ASR.
+
+```
+Before: 6 columns of coefficients, stars only, no note → reviewer can't tell magnitude or sample
+After: marginal-effects plot — adjusted gap 14.2% (95% CI 11.8–16.6), N=412,000, survey-weighted,
+  occupation + firm FE; grayscale-legible, colorblind-safe palette
+Self-contained note (illustrative): "Predicted gap from a weighted model; bars are 95% CIs;
+  estimates reproduce from master.R, seed=11."
+```
+
+The redesign makes the exhibit stand alone, leads with the substantive magnitude an inequality scholar
+cares about, and ties the numbers to the shared script.
+
+## Referee pushback → ASR-specific fix
+
+- *"I can't read this table without the text."* → Add a complete note (sample, N, units, weighting,
+  what the estimate is) so it is intelligible alone.
+- *"Stars don't tell me if this matters."* → Replace with effect sizes and intervals, ideally a
+  marginal-effects plot a generalist can scan.
+- *"Your figure dies in grayscale."* → Re-encode with colorblind-safe, grayscale-legible channels;
+  drop chartjunk and 3D.
+- *"The qualitative table looks cherry-picked."* → Include contrary excerpts and report the coding
+  scheme so the evidence reads as systematic.
+
+## Calibration anchors
+
+- **Exhibits are excluded from the word cap — use the room.** ASR counts text, references, and
+  footnotes but not tables/figures, so a clear, self-contained exhibit costs nothing against length.
+- **Magnitude over significance.** The flagship's broad readership wants to know how much, with what
+  uncertainty, not merely that a coefficient cleared a threshold.
+- **One reproducibility standard, two forms.** Quantitative values must match the master script;
+  qualitative excerpts must be faithful to the coded data — both are checkable claims to a reviewer.
+
 ## Anti-patterns
 
 - Tables that require the prose to be intelligible (not self-contained)

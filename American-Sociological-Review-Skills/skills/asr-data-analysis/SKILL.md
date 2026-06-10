@@ -44,6 +44,54 @@ transparent, well-documented, and reproducible to the extent your data allow. De
 - Pin software/package versions (`renv.lock`, `requirements.txt`, recorded `ssc`/`net` installs).
 - For qualitative work, keep a documented codebook and analytic memos.
 
+## What an ASR analyst-reviewer is checking
+
+As the ASA's flagship, ASR draws referees who police analysis on each tradition's terms while asking
+one disciplinary question — does the evidence warrant a claim that speaks to general sociological
+theory? Use this table to pre-empt the masked reviewer.
+
+| Reviewer probe | Clears the ASR bar | Triggers a revision flag |
+|----------------|--------------------|---------------------------|
+| "Just a significant coefficient?" | magnitude + interval tied to a mechanism | stars-only, no interpretation |
+| "Survives a reasonable confounder?" | sensitivity bound reported | one preferred spec, no probing |
+| "Weighted and clustered right?" | design-respecting SEs | default SEs on a complex sample |
+| "Where is disconfirming evidence?" | negative cases / null subgroups | only confirming evidence |
+| "Heterogeneity real or mined?" | pre-specified or MHT-adjusted | one fished interaction theorized post hoc |
+
+## Worked micro-example (illustrative numbers)
+
+A hypothetical ASR study links employer credit-checking to a Black-white callback gap using
+administrative hiring records across 1,200 firms.
+
+```
+Main effect: callback gap 8.0 pp (95% CI 5.1–10.9) under firm + occupation FE
+Mechanism: gap concentrated in customer-facing roles (11.2 pp) vs back-office (2.3 pp)
+Sensitivity: a confounder must be ~1.7× the strongest covariate to nullify
+Negative case: no gap where state law bans the practice (0.4 pp, CI −2.0–2.8) → boundary evidence
+Reproducible: one master script, seed=2026, renv.lock pinned
+```
+
+The intervals carry the claim, the role contrast names a portable mechanism (statistical
+discrimination via screening signals), and the law-ban null is reported as evidence, not buried.
+
+## Referee pushback → ASR-specific fix
+
+- *"Significant but does it matter?"* → Give a scenario magnitude and name what changes for inequality
+  theory.
+- *"Robustness agrees by construction."* → Add a spec that could break it (placebo period,
+  falsification subgroup) and report what you learned.
+- *"This reads as a within-subfield exercise."* → State which general sociological debate the estimate
+  adjudicates before the table, not after.
+
+## Calibration anchors
+
+- **Theory-forward, not table-forward.** ASR rewards an analysis that reads as a test of a mechanism;
+  a results dump that defers the "why" under-performs.
+- **The "so what for sociology" bar.** Each headline number should map to a sentence a generalist could
+  repeat about how social processes work.
+- **Breadth of admissible evidence.** Coefficients, life tables, coded fieldnotes, and validated model
+  outputs all qualify — the standard is the claim-to-evidence link.
+
 ## Anti-patterns
 
 - Stars-only tables with no effect sizes or intervals; ignoring survey weights

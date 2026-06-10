@@ -57,6 +57,44 @@ evidence — no datasets or replication, but rigor still governs.
 【Next】jaar-theory-and-method
 ```
 
+## Evidence-type rigor matrix
+
+JAAR articles run on radically different evidence — a Sanskrit manuscript, a colonial archive, a temple
+relief, a set of interviews — and a referee for the AAR/Oxford University Press flagship will judge each
+by its own craft standard. Identify your dominant evidence type and meet the column that governs it.
+
+| Evidence type | What a JAAR referee scrutinizes | Easy disqualifier |
+|---------------|--------------------------------|-------------------|
+| Scriptural / commentarial text | Edition, recension, language of access | Translation quoted where wording carries the claim |
+| Historical archive | Provenance, dating, the document's genre and bias | A polemical source read as neutral report |
+| Material / visual culture | Object description, context of use, permissions | Iconographic claims with no image |
+| Ethnographic fieldwork | Access, consent, positionality, fair representation | Generalizing from a few interlocutors |
+| Comparative corpus | Why these cases; commensurability | Cherry-picked exemplars that flatter the thesis |
+
+## Worked vignette: an over-reaching textual claim, right-sized
+
+An author argues that "Sufi poetry rejects legalism," quoting Rumi in a popular translation. A JAAR
+reader will resist on source grounds:
+
+- **Cite from the primary source.** The claim turns on wording, so the author moves to the Persian,
+  names the edition, and notes where the popular translation smooths a key term.
+- **Representativeness.** One poet's verses cannot stand for "Sufi poetry"; the author narrows the
+  claim to the corpus actually examined, or flags the case as illustrative.
+- **Disconfirming evidence.** The author engages Sufi texts that uphold *sharī'a* rather than omitting
+  them, converting an over-claim into a defensible, bounded reading (with apparatus discipline that
+  dovetails with `jaar-citation-and-style`).
+
+## Source-handling pushback → the fix
+
+- "You read translations as if they were the text" → supply the original; note edition and translator.
+- "One case, whole-tradition claim" → narrow the claim or justify the selection.
+- "Where is the consent / positionality account?" → add all three.
+
+Hedged calibration: as a humanities venue JAAR has no datasets, statistics, or replication archive —
+rigor is sourcing rigor, not reproducibility. Specific permissions practice for reproduced images and
+any data-availability language for fieldwork-based work should be confirmed against the journal's
+current submission guidelines, which can change with publisher policy.
+
 ## Supplementary resources
 
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — primary-source databases and tools for the study of religion

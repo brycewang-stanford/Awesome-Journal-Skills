@@ -37,6 +37,35 @@ Verify exact caps on the live guidelines page (see 待核实 in the source map).
   rendering; a ~8,000-word framing also appears — 待核实). Cut method minutiae to supporting information.
 - Standard IMRaD for Primary Research Articles; argument-led structure for Opinions/Perspectives.
 
+## Sentence-level rewrites for a global-change audience
+
+GCB prose fails most often at the sentence, not the structure. This table pairs the broad-readership
+weakness with the rewrite a general ecologist/biogeochemist can parse.
+
+| Weak sentence | Why it fails at GCB | Rewrite |
+|---------------|---------------------|---------|
+| "Warming significantly increased flux." | No magnitude, no mechanism | "Warming raised CO2 efflux by 28% (95% CI 19–37%) via faster microbial turnover." |
+| "Results have broad implications." | Significance asserted, not shown | "The feedback weakens the land carbon sink across temperate grasslands." |
+| "We used GLMMs on the NPP data." | Undefined acronym for a non-specialist | "We fitted mixed models to net primary productivity (NPP)." |
+| "This is the first record for our site." | Local novelty, not advance | "This resolves why prior syntheses disagreed on the response." |
+
+## Worked micro-example (illustrative)
+
+An abstract opens: "Climate change is a major threat to ecosystems. We sampled a grassland and analysed
+the data." It states no driver magnitude, no mechanism, no result — a general GCB reader learns nothing.
+Rewritten to GCB style: "Experimental warming of +2.4 C accelerated soil CO2 efflux by 28% (95% CI
+19–37%; illustrative), driven by faster microbial substrate turnover, weakening the soil-carbon sink
+across temperate grasslands." Aim, approach, quantified result, mechanism, and global-change
+significance now sit in the first lines, inside the abstract cap. Numbers illustrative.
+
+## Reviewer pushback on prose and the fix
+
+- "Significance buried" → move the global-change consequence into the abstract and the opening
+  paragraph.
+- "No magnitude" → attach an effect size, interval, and unit to every key claim.
+- "Too specialist to follow" → define jargon, expand acronyms on first use, and write for a reader
+  outside your subfield.
+
 ## Anti-patterns
 
 - An abstract that describes methods but never states the quantitative result or mechanism

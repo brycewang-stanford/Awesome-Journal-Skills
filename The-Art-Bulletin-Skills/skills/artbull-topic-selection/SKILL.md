@@ -47,6 +47,37 @@ A strong Art Bulletin article usually clears all four:
 - A sprawling survey that cannot be argued convincingly in ~16,000 words
 - A topic whose decisive images can never be cleared or afforded
 
+## Fit-screen table for the discipline's leading generalist journal
+
+The College Art Association's quarterly publishes across every period, region, and method, so the
+screen is contribution and reach, not obscurity.
+
+| Fit dimension | Clears the bar | Off-fit signal | Reframing move |
+|---|---|---|---|
+| Contribution | A claim about meaning, making, attribution, or reception | "Under-studied object" as the whole point | Convert the gap into a disputable claim |
+| Image feasibility | Decisive reproductions can be cleared and afforded | A key work's rights can never be obtained | Re-center on clearable works, or rethink |
+
+## Worked vignette: turning a "catalogue entry" into a contribution
+
+Suppose a scholar has spent a year with a little-known provincial panel. The framing "an unpublished
+panel deserving attention" is a catalogue entry, not a contribution. Re-pitched, the **contribution** becomes a claim: the panel's support and pigments show a
+regional workshop adapting a metropolitan model, revising the field's account of its spread. That gives it **reach** past the region — to artistic transmission and the limits
+of center-periphery models — while staying **object-carried**, and **image feasibility** checks out
+(an open-access museum): "strong, reframed."
+
+## Fit objections a colleague or editor raises, and the answer
+
+- *"This feels descriptive."* The bar is "this changes how we understand the art," not "this object is
+  new"; recast the description as a claim someone could dispute.
+- *"You will never get the images."* If the decisive reproductions cannot be cleared or afforded,
+  decide at fit stage whether to re-center on clearable works.
+
+## Calibration anchor (hedge where uncertain)
+
+- The fit test is a contribution test: a single long article (commonly up to roughly 16,000 words
+  including endnotes — confirm against the journal's current submission guidelines) must prove its claim,
+  not survey a field; image feasibility belongs here because clearance is slow and author-funded.
+
 ## Output format
 
 ```

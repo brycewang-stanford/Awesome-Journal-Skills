@@ -43,6 +43,43 @@ the numbers come from the analysis skills.
 - A study table missing the inputs needed to recompute effect sizes
 - Figures that can't be regenerated from the deposited code (numbers drift from text)
 
+## Exhibit expectations at the APA review flagship
+
+Psychological Bulletin referees scan the exhibits before the prose: a synthesis missing its standard
+visual vocabulary signals an immature manuscript. The decision table they apply:
+
+| Exhibit | Referee expects | Common desk-reject pattern |
+|---------|-----------------|----------------------------|
+| PRISMA flow | Counts that reconcile to the search log and text | Diagram numbers that don't add up to the reported k |
+| Forest plot | Per-study CI, weights, pooled diamond, prediction interval | A bare list of dots with no pooled estimate or PI |
+| Funnel/bias | Contour-enhanced, paired with a formal test | Funnel alone, captioned "no bias" — over-reading a picture |
+| Study table | One row per study, all effect-size inputs recoverable | Missing ns/SDs, so effect sizes cannot be reverified |
+| Summary-of-findings | k, pooled g, CI, I²/τ², PI, bias result in one place | Scattered numbers a reader must reassemble |
+
+## Worked vignette — what the exhibits must show
+
+*Illustrative figures, not real data.* For the k = 42, g = 0.34, I² = 68% self-affirmation synthesis
+above, the exhibit set this skill requires looks like:
+
+- **PRISMA diagram**: 2,310 identified → 1,640 after dedup → 1,640 screened → 188 full-text →
+  42 included; exclusion reasons tallied so the bottom box equals the analyzed k.
+- **Forest plot**: 42 rows ordered by year, each with g and CI and an inverse-variance weight; a pooled
+  diamond at 0.34 [0.24, 0.44] and a wider prediction interval roughly [−0.10, 0.78] that visibly
+  exceeds the CI — making the 68% heterogeneity legible at a glance.
+- **Contour-enhanced funnel** beside an Egger caption (p = 0.03), not standing alone as "proof."
+- **Bubble plot** for the delivery-format moderator, point size proportional to weight.
+- **Summary-of-findings table**: one line carrying k, g, CI, I², τ², prediction interval, and the
+  trim-and-fill / selection-model sensitivity bounds.
+
+## Referee pushback → venue-specific fix
+
+- *"Your forest plot has no prediction interval."* → Add the PI band; with I² = 68% the CI alone
+  understates the spread of true effects.
+- *"PRISMA counts don't match the text."* → Reconcile the diagram, the search log, and the reported k so
+  every box is auditable.
+- *"The funnel plot is presented as evidence of no bias."* → Re-caption as one diagnostic among several
+  and cross-reference the Egger/selection-model results.
+
 ## Output format
 
 ```

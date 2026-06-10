@@ -38,6 +38,35 @@ JOM screens with iThenticate/CrossCheck and applies stricter rules than a single
 - Padding to look comprehensive (triggers a streamlining return).
 - Self-plagiarism or boilerplate that trips the 1%/15% rules.
 
+## Prose moves JOM referees reward
+
+JOM's dual academic-and-practitioner audience shapes what reads well. The contrasts below are practical orientation; confirm length and similarity specifics against the current Wiley/JOM author guidance.
+
+| Writing dimension | JOM-ready | Stalls with reviewers |
+|-------------------|-----------|------------------------|
+| Opening | Operations phenomenon and puzzle on page one | Long literature run-up before the point |
+| Voice | Active, concrete operational nouns (fill rate, cycle time) | Passive, nominalized management abstraction |
+| Results prose | Statistics translated into operational consequences | Coefficients reported without operational meaning |
+| Practitioner relevance | A specific change on the floor or in the network | Relevance asserted but never made concrete |
+| Length | Streamlined to ~40 pages | Padded to look comprehensive |
+
+## Return and screen triggers on writing
+
+- Manuscripts padded past the ~40-page guidance are returned for streamlining before review.
+- A single source accounting for more than ~1% of wording (outside quotations) trips the text-overlap screen.
+- An overall similarity above 15% with no justification in the cover letter.
+- Recycled method or literature paragraphs from your own prior work.
+
+## Worked vignette: rewriting a buried opening
+
+A draft opens with two pages on the resilience literature before naming its question (illustrative). The rewrite leads with the operational puzzle in the first paragraph: "Plants that invested most heavily in redundancy still suffered the longest disruptions — why?" It then states the contribution (redundancy without flexibility delays recovery) before the literature scaffolding, uses active voice, and translates the key estimate into an operational consequence ("each added buffer day shortened recovery by roughly two days only when sourcing was flexible"). A practitioner reads the operational lever immediately; a reviewer sees the operations argument front-loaded. The same content, reordered, moves from academic-only to JOM's dual-audience standard.
+
+## Prose objections reviewers raise, with the fix
+
+- *"The operations point is buried."* Move the phenomenon, puzzle, and contribution to page one, ahead of the literature.
+- *"Practitioner relevance is vague."* Replace assertions with a concrete operational change tied to your estimates.
+- *"The manuscript is too long."* Cut rather than pad; over-length drafts are streamlined-returned before review.
+
 ## Output format
 
 ```

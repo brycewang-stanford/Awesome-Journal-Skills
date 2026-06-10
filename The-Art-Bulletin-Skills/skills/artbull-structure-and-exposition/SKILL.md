@@ -46,6 +46,40 @@ in `artbull-writing-style-and-citation`.
 - The argument hidden in the endnotes
 - Going over length because the notes ballooned
 
+## Architecture diagnostic for a long art-historical article
+
+A submission to the College Art Association's quarterly is a long-form essay whose figures are woven
+into the argument.
+
+| Structural unit | Working well | Failing | Repair |
+|---|---|---|---|
+| Opening | Work, question, stakes, and thesis land in the first pages | Slow descriptive tour before any claim | Lead with the problem and the contestable thesis |
+| Figure placement | Each figure introduced exactly where discussed | Figures referenced far from their discussion, or never | Move the reference beside the prose that depends on it |
+| Endnotes | Substantive apparatus, disciplined length | Argument offloaded into notes that balloon over cap | Keep the argument in the text; trim the apparatus |
+
+## Worked vignette: rescuing a draft that "wanders"
+
+Suppose a draft on a sculpted tomb opens with eight pages describing every figure before the reader
+learns why it matters, and the central comparison securing the workshop attribution appears only in an
+endnote. The spine is rebuilt: the opening names the tomb, the
+question, the stakes, and the thesis within the first pages. The description is **redistributed** to
+where it carries the argument; the buried comparison is promoted into the text as a numbered figure
+beside the attribution discussion, and a digressive excursus on a restoration moves to a compact
+endnote, so the recast article fits the cap and closes on stakes.
+
+## Exposition pushback patterns and the venue-specific fix
+
+- *"It is front-loaded with description."* Lead with the argument and let description serve it at the
+  moment of need, the way close looking earns its place here.
+- *"A figure is never discussed."* Cut it — an unexamined plate wastes a limited illustration slot and
+  its permission cost.
+
+## Calibration anchor (hedge where uncertain)
+
+- The article runs long by humanities standards (commonly up to roughly 16,000 words **including
+  endnotes** — confirm the cap against the journal's current submission guidelines), so endnote bloat
+  is the usual source of an overage; the figure program is structural, not ornamental.
+
 ## Output format
 
 ```

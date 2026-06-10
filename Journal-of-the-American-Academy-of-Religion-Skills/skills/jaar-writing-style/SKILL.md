@@ -54,6 +54,49 @@ and meet JAAR's house conventions (gender-neutral language, serial comma, italic
 【Next】jaar-citation-and-style
 ```
 
+## Register table: write for two readers without losing either
+
+Prose for the AAR/Oxford University Press flagship must satisfy the area specialist and the
+non-specialist scholar of religion at once. Each row names a habit, the reader it loses, and the JAAR
+move that keeps both.
+
+| Habit | Loses | JAAR move |
+|-------|-------|-----------|
+| Untranslated technical vocabulary | The generalist | Gloss and italicize the term on first use |
+| Over-explaining the tradition | The specialist | Compress to what the argument needs |
+| Devotional or hagiographic warmth | Both (reads as advocacy) | Describe the claim; keep the analytic voice distinct |
+| Long unanalyzed block quotation | Both | Quote, then read the quotation for the argument |
+| "Man and his faith" generics | The contemporary reader and copyeditor | Gender-neutral phrasing |
+
+## Worked vignette: tightening a confessional paragraph
+
+A draft on Eucharistic devotion reads: "When the faithful gaze upon the Host, they encounter the true
+presence of their Lord, a mystery that words cannot capture." A JAAR pass:
+
+- **Redraw the analytic line.** "Practitioners describe gazing on the Host as an encounter with real
+  presence" — the truth-claim becomes reported data, not the author's premise (a move
+  `jaar-theory-and-method` governs).
+- **Cut the throat-clearing.** "A mystery that words cannot capture" is devotional filler; it goes.
+- **Define for the field.** *Real presence* and *ostension* are glossed on first use so a scholar of
+  Islam or Buddhism can follow without a Catholic-studies background.
+- **Argument-forward.** The paragraph now opens with the analytic claim it supports, not with the
+  devotional scene.
+
+## Prose pushback → the fix
+
+| Reader's report | Diagnosis | Fix |
+|-----------------|-----------|-----|
+| "Dense; I'm not in this subfield and couldn't follow" | Jargon excludes generalists | Gloss terms; spell out what a non-specialist needs |
+| "Reads as devotional" | Confessional register | Restore analytic distance; report, don't endorse |
+| "Quotations sit unexplained" | Evidence not read | Analyze each quotation for the argument |
+| "Gendered generics throughout" | House-convention miss | Gender-neutral language; serial comma |
+| "Inconsistent transliteration" | Style drift | Declare one system; apply it throughout |
+
+Hedged calibration: gender-neutral language, the serial (Oxford) comma, and italicized foreign terms
+are stable JAAR house conventions, but spelling (American vs. British) and any current style-sheet
+specifics should be confirmed against the journal's submission guidelines, since house style can be
+updated under the publisher.
+
 ## Supplementary resources
 
 - [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — JAAR language conventions (gender-neutral, serial comma, foreign-term italics)

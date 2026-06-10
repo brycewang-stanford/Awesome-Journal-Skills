@@ -38,6 +38,38 @@ stated scale. This skill covers design choices and their tradeoffs; analysis liv
 - **Define controls and baselines** appropriate to the driver (ambient, pre-treatment, counterfactual run).
 - **Plan for uncertainty** up front, not as an afterthought.
 
+## Design-weakness diagnostic
+
+GCB reviewers probe whether the design can bear the weight of the global-change claim. Use this to
+locate the soft spot before a referee does and to choose the strengthening move.
+
+| Design soft spot | Reviewer phrasing | Strengthening move |
+|------------------|-------------------|--------------------|
+| Treatment confounded with unit | "Pseudoreplication" | Replicate at the inference level; state the unit |
+| Dose far above realistic change | "Unrealistic forcing" | Add a realism gap statement or a dose gradient |
+| Space-for-time as causal | "Gradient is not an experiment" | Add covariates or a confounder model |
+| Single model run | "No structural uncertainty" | Move to an ensemble; partition uncertainty |
+| Unstated search protocol | "Synthesis not reproducible" | Pre-register a PRISMA-style protocol |
+
+## Worked micro-example (illustrative)
+
+A team plans an open-top-chamber warming experiment to test a soil-respiration feedback. A weak design
+warms one large chamber and samples it 30 times, then treats those as 30 replicates — pseudoreplication
+a GCB referee will flag immediately. The strengthened design uses six warmed and six control plots
+(illustrative n), warming each by an ecologically realistic +2 C rather than +6 C, and pre-commits to a
+mixed model with plot as the random unit. Power analysis (illustrative) suggests this detects a 15%
+efflux change. The realism gap and the scaling limit to ecosystem level are stated up front. Numbers
+illustrative.
+
+## Referee pushback patterns and the design fix
+
+- "Correlative gradient presented as mechanistic" → pair the gradient with a manipulation or a
+  process-model test of the mechanism.
+- "Cannot scale this plot result to the biome" → design the sampling or modelling to carry scaling
+  uncertainty, and bound rather than assert the larger claim.
+- "Controls inadequate" → specify ambient, pre-treatment, or counterfactual baselines matched to the
+  driver.
+
 ## Anti-patterns
 
 - Pseudoreplication: a single warmed plot/chamber treated as many independent replicates

@@ -42,6 +42,34 @@ A reviewer should grasp each table/figure from its title, note, and labels alone
 - Exhibits that restate the text instead of carrying evidence.
 - Inconsistent citation/number style across exhibits.
 
+## Exhibit-completeness table reviewers check
+
+Each empirical-OM exhibit has elements without which a reviewer cannot verify the claim. The map below is a practical completeness check; APA and Wiley styling specifics should be confirmed against current author guidelines.
+
+| Exhibit | Must contain | Common reviewer complaint |
+|---------|--------------|----------------------------|
+| Measures/sample table | Constructs, items, sources, reliabilities (survey) or variable definitions and data sources (archival) | Operational variables left undefined |
+| Descriptives + correlations | Means, SDs, full correlation matrix, reliabilities on the diagonal | No reliabilities; no operational units |
+| Results table | Coefficients, SEs with clustering noted, fit/diagnostics, N, effect sizes | Stars without effect sizes or operational magnitude |
+| Interaction plot | Simple slopes with significance regions | Moderation described in text but never plotted |
+| Mechanism/process figure | Hypothesized model, or Gioia data structure / intervention timeline | Figure restates text instead of carrying evidence |
+
+## Desk-reject and return triggers on exhibits
+
+- A correlation table with no reliabilities (survey) or with undefined operational variables.
+- A coefficient shown without a standard error and an N.
+- Significance reported but no operational magnitude (days, defects per million, inventory turns, on-time percentage).
+- Inconsistent number/citation style across tables, signaling rushed preparation.
+
+## Worked vignette: turning a result into a self-explanatory table
+
+A behavioral-OM experiment finds a fatigue manipulation raises order errors, more so under high time pressure (illustrative). The results table reports the main effect (b = 0.42, SE = 0.11) and the interaction (b = 0.27, SE = 0.09), with N = 180, robust SEs noted, and a partial eta-squared column so magnitude is visible. The note states the estimator, the SE type, the thresholds, and that the outcome is errors per 100 orders — an operational unit. A reader who never sees the body can still grasp the story from the title, note, and labels. The companion plot shows simple slopes with significance regions, satisfying the contingency-effect expectation native to OM.
+
+## Exhibit objections reviewers raise, with the fix
+
+- *"The table is not self-explanatory."* Add a complete note (estimator, SE clustering, thresholds, N, operational units) and stand-alone title so it reads without the text.
+- *"You report significance but not magnitude."* Add effect sizes and translate them into operational consequences.
+
 ## Output format
 
 ```

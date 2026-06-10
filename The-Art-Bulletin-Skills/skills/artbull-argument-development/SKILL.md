@@ -40,6 +40,41 @@ work lives in its own skills; here you build the **claim and its warrant**.
 - Ignoring the obvious rival interpretation a reviewer will raise
 - An argument that does not actually need the images it reproduces
 
+## What an Art Bulletin referee looks for in the claim
+
+Referees at the College Art Association's flagship quarterly read for whether a contestable
+art-historical thesis is *carried* by looking and documents, not gestured at.
+
+| Argument move | Strong (publishable) | Weak (referee will flag) | The venue-specific fix |
+|---|---|---|---|
+| Thesis form | A claim about meaning, making, or attribution that could be wrong | A topic "deserving attention" | Recast the topic as a disputable proposition about the work |
+| Warrant | Each inference from object/document to meaning is named | Adjectives carry the leap | Replace the adjective with a reason a reader could check |
+| Rival reading | The strongest interpretation is answered | The obvious counter-reading is ignored | State the rival; show your account fits the evidence better |
+
+## Worked vignette: an attribution argument under the magnifying glass
+
+Suppose a draft argues that a small, unsigned Lamentation panel, long catalogued as "workshop of" a
+named master, is an autograph early work. The **thesis** becomes contestable — not "this neglected
+panel merits study" but "this panel is the master's earliest autograph work, and dating it so revises
+the accepted sequence of his style." The **warrant** is named at each link: underdrawing in infrared
+reflectography matches the master's documented practice (a technical inference, not connoisseurial
+intuition); a 1470s inventory placing a "Lamentation, small" in the patron's collection is a
+documentary inference, its silence noted. The **rival reading** — a close follower — is answered, and
+the **scope** stays honest: autograph status and a probable date, not the lost commission.
+
+## Where reviewers push back, and the move that answers it
+
+- *"This is connoisseurship asserting, not arguing."* Convert each "by his hand" assertion into a
+  named, checkable inference — technical, comparative, or documentary — a skeptic could test.
+- *"The contribution is local."* Re-anchor the stakes in a problem art historians of other periods
+  recognize: workshop practice or the limits of attribution method.
+
+## Calibration anchors (hedge where uncertain)
+
+- A typical article sustains **one** governing thesis across a long span (roughly 16,000 words
+  including endnotes — confirm against the journal's current submission guidelines); the image plate is
+  evidence, so a claim uncheckable against a numbered figure reads as assertion here.
+
 ## Output format
 
 ```

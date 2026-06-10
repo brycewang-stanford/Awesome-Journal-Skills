@@ -61,6 +61,35 @@ official page first.
 - More than 20 illustrations or an illustration file over 10 MB
 - Treating permissions as a post-acceptance problem only
 
+## Desk-reject and return-without-review triggers at this venue
+
+The College Art Association's quarterly can return a manuscript before review when the form makes
+review impossible or the fit is wrong.
+
+| Trigger | Why it stops the paper here | Preflight fix |
+|---|---|---|
+| Submitted as PDF | A PDF cannot be anonymized for double-blind review | Submit Microsoft Word only |
+| Author identifiers / metadata | Names, "as I argued in…," or document properties reveal the author | Strip from text, notes, and properties pane |
+| Over length | Endnotes counted push the manuscript past the cap | Trim apparatus; recount with endnotes included |
+
+## Worked vignette: the preflight that caught three silent failures
+
+Suppose an author is ready to e-mail an article on a Baroque ceiling program. The preflight finds three
+problems invisible in a casual read. The **document properties** still carry the author's name from a
+re-save — a metadata leak that would breach the double-blind process. The word count "passed" only
+because the author forgot the **endnotes**, whose dense apparatus pushes the total over the long-form
+cap. And the illustrations were spread across two Word files, not the single file the office expects,
+with one over the size limit. None of these touches the argument, yet all three could trigger a return
+without review; the author clears the metadata, recounts and trims the notes, and consolidates the
+plates into one file.
+
+## Calibration anchor (hedge where uncertain)
+
+- The most common avoidable failures here are a PDF submission, broken anonymity (text, notes, or
+  metadata), and an over-length manuscript once endnotes are counted — verify every volatile cap on the
+  journal's current submission guidelines, and stage the author-funded high-resolution images for
+  acceptance.
+
 ## Output format
 
 ```

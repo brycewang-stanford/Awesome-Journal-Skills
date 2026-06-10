@@ -64,6 +64,38 @@ Iterate: most syntheses loop search ↔ coding ↔ analysis as new studies surfa
 - Starting analysis before a documented, reproducible search (no PRISMA trail)
 - Pooling without a protocol — preregister before screening
 
+## Where syntheses stumble at the APA review flagship
+
+The router exists because most Psychological Bulletin failures are stage-misalignment failures: work
+done out of order, or a step skipped, at the APA's flagship synthesis journal. The diagnostic table:
+
+| Symptom | Missed stage | Route to |
+|---------|--------------|----------|
+| "Is this even a Bulletin paper?" | Fit not tested | `psychbull-topic-selection` |
+| Analysis underway with no PRISMA trail | Search undocumented | `psychbull-literature-search-strategy` |
+| Coders disagree, no κ reported | Coding/reliability | `psychbull-inclusion-and-coding` |
+| Pooled number, no I²/PI | Heterogeneity unmodeled | `psychbull-meta-analysis-methods` |
+| "Competent but not a contribution" | No theory | `psychbull-theory-integration` |
+| "Available on request" | No deposit | `psychbull-open-science-and-transparency` |
+
+## Worked vignette — routing a synthesis end to end
+
+*Illustrative figures only.* A team with ~40 randomized self-affirmation trials enters at
+`topic-selection` (confirmed: a meta-analyzable synthesis, not new data), registers the protocol on OSF
+*before* screening, runs the documented search to k = 42, double-codes (κ = 0.81), fits a random-effects
+/RVE model (g = 0.34, I² = 68%), probes the delivery-format moderator and converging bias diagnostics,
+then integrates the result into a refined theoretical account before building MARS-ready exhibits and
+the masked submission. Each arrow below is one hop in that path; the protocol step is pulled early even
+though it sits late in the default order.
+
+## Referee/editor pushback the router pre-empts
+
+- *"No reproducible search underlies this analysis."* → The router blocks analysis until
+  `literature-search-strategy` has produced a PRISMA trail.
+- *"This is original data, not a synthesis."* → The first-question table flags it as off-fit and redirects
+  to a primary-study journal or *Psychological Review*.
+- *"The protocol postdates screening."* → The default-order note forces preregistration before screening.
+
 ## Output format
 
 ```

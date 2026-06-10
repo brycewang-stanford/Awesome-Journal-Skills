@@ -52,6 +52,41 @@ chooses the synthesis type; it does not draft content.
 - Submitting original theory here instead of to *Psychological Review*
 - A vague question that cannot be turned into eligibility criteria
 
+## Fit screening as a referee would apply it
+
+At the APA's flagship review journal, the most common early death is a topic that is not actually a
+research synthesis, or one with too little to synthesize. The fit bar reviewers apply:
+
+| Fit dimension | Review-worthy at this venue | Off-fit / desk-reject trigger |
+|---------------|------------------------------|-------------------------------|
+| Object | Integrates existing studies | Reports new data (→ empirical journal) |
+| Theory vs. synthesis | Theory grounded in synthesized evidence | Pure new theory (→ *Psychological Review*) |
+| Literature size | Enough comparable studies to recover and pool | A handful of papers — a narrative essay |
+| General significance | Resolves a discipline-wide debate | Narrow, of interest to one lab |
+
+## Worked vignette — testing a candidate topic
+
+*Illustrative figures only.* "Does self-affirmation improve academic outcomes?" is screened under this
+skill's rules:
+
+- **Object**: it synthesizes existing randomized trials, not new data — in scope for the synthesis
+  flagship.
+- **Literature size**: a scoping search returns ~150 records and an estimated 40+ poolable trials —
+  enough for a meta-analysis rather than a narrative essay.
+- **Synthesis type**: extractable, comparable effect sizes point to **meta-analysis**.
+- **Added value**: the last review predates a wave of new trials and never tested *delivery format* as a
+  moderator — a defensible "why now."
+- **Structured question** (PICO-style): population = students; predictor = self-affirmation intervention;
+  outcome = academic performance — operationalizable into eligibility downstream.
+
+## Referee pushback → venue-specific fix
+
+- *"This is a primary study with a literature section."* → If the contribution is the new data, it is
+  off-fit; submit only when an existing body of work is the object.
+- *"A recent meta-analysis already exists."* → State the added value — new studies, a better model, or an
+  untested moderator — or stand down.
+- *"Too few studies to synthesize."* → Reconsider as a primary study or a theory piece.
+
 ## Output format
 
 ```

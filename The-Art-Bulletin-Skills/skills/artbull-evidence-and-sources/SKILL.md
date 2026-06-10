@@ -42,6 +42,43 @@ trusts it. The looking lives in `artbull-visual-analysis`; here you handle every
 - Over-claiming what a scientific report establishes
 - Burying a restitution / authenticity problem the evidence raises
 
+## Source-strength ledger an Art Bulletin referee will apply
+
+Specialist referees for the College Art Association's quarterly weigh the *kind* and *traceability* of
+evidence, not its volume.
+
+| Evidence type | Trusted when… | Referee distrusts when… | Strengthening move |
+|---|---|---|---|
+| Archival document | Repository, collection, and shelf-mark cited; consulted in person | Cited from a secondary source as if seen | Verify the original, or name the surrogate used |
+| Provenance link | Each owner change has its own source | A continuous chain papering over a gap | Flag the gap; never present a break as continuity |
+| Technical report | Method, analyst, and date named; claims stay within the science | "Science proves" overreach (IRR, XRF, dendro) | State what the report can and cannot establish |
+
+## Worked vignette: reconstructing a contested provenance
+
+Suppose an article dates a devotional diptych through its ownership history. A **1623 estate
+inventory** in a named municipal archive (repository, fondo, and busta cited) records a "diptych with
+the Virgin," the earliest secure link; the chain then jumps to an **1890s dealer ledger** and a **1931
+museum accession file**, leaving a gap c. 1650–1890 the draft must flag rather than smooth over. A
+**restitution concern** surfaces — the 1931 accession passed through a dealer active in a region of
+known wartime spoliation — so the article notes a looted-art database check rather than burying it.
+**Technical evidence** stays in its lane: dendrochronology of the support yields a date *consistent
+with* the dating, reported as corroboration, not proof. The **certainty term** lands at "documented
+from 1623, with a provenance gap," naming the document that would close it.
+
+## Referee objections about sources, and the disciplinary fix
+
+- *"You cite a document you have not seen."* Distinguish autopsy from secondhand citation; where you
+  relied on a transcription or digital surrogate, say so in the note.
+- *"A restitution / authenticity problem is buried."* Foreground spoliation or forgery concerns the
+  evidence raises; candor about provenance ethics is a strength.
+
+## Calibration anchors (hedge where uncertain)
+
+- The apparatus carrying this evidence lives in **Chicago-style endnotes** (CMOS notes; confirm the
+  current edition against the journal's current submission guidelines), documenting repositories,
+  shelf-marks, and transcriptions in full — with original-language quotation and translation where
+  wording bears weight for a global, multi-period readership.
+
 ## Output format
 
 ```

@@ -55,6 +55,35 @@ official page before relying on them.
 - [ ] Safety/hazard reporting in Methods; AI-use disclosure if applicable
 - [ ] Plagiarism self-check; preprint status checked against ACS policy
 
+## Avoidable rejection-at-upload table
+
+These are the failures that bounce a manuscript at or just after upload — before science is judged.
+Each line is a hard gate; confirm the volatile specifics on the live ACS page (待核实):
+
+| Gate | Pass condition | Where it is fixed |
+|------|----------------|-------------------|
+| TOC graphic | present + spec-compliant for this article type | `est-figures-and-tables` |
+| Word count | within cap incl. figure/table word-equivalents | `est-writing-style` |
+| Supporting Information | separate file(s) + SI paragraph | `est-reporting-and-reproducibility` |
+| Data-availability statement | present with accession/DOI | `est-reporting-and-reproducibility` |
+| Citation style | ACS numbered throughout | `est-writing-style` |
+| Declarations | COI, coauthor consent, safety, AI-use | this skill |
+
+## Worked micro-example (illustrative — final preflight on an emissions-inventory paper)
+
+A Research Article on basin methane attribution, the night before upload (illustrative):
+
+- **Type & length:** Research Article; body 6,200 words + two figures counted as word-equivalents
+  (~600 illustrative) → ~6,800, under the ~7,000 cap. Pass.
+- **TOC graphic:** a basin schematic with super-emitter sites highlighted — a concept, not a clone of
+  the flux map. Pass.
+- **SI + data:** aircraft flux retrievals, the inversion configuration, and uncertainty budget in the
+  SI; processed fluxes and inversion code on Zenodo with a DOI; data-availability statement written.
+- **Declarations:** COI none; all coauthors consented; no human/animal subjects; AI-use disclosed in
+  Acknowledgments; corresponding-author ORCID linked (待核实 on exact requirement).
+- **The one easy miss:** the two figures' word-equivalents were nearly forgotten — counting them is
+  what keeps the paper under cap. This is the single most common avoidable over-limit failure.
+
 ## Anti-patterns
 
 - Submitting without the required TOC graphic

@@ -28,6 +28,34 @@ With **~5% acceptance** and **~33–45% desk rejection** (afajof.org editor repo
 - Update **disclosure** and ensure **replication code** is ready for the Data Editor under JF's Data and Code Sharing Policy (see `jf-submission`); near acceptance the code is verified before publication.
 - Use the cover-letter channel only for specifics (e.g., a code-exemption request) — JF does not want a generic letter.
 
+## Triaging the decision letter
+
+A JF R&R bundles the editor's letter with two or three referee reports of unequal weight. Sort every point before drafting:
+
+| Point type                                   | Weight                  | Response discipline                                  |
+|----------------------------------------------|-------------------------|------------------------------------------------------|
+| Editor's synthesis / central concern         | Highest — defines acceptance | Answer first, most fully, in the body            |
+| Referee point the editor echoed              | High                    | Treat as a near-condition; change, don't argue        |
+| Referee point on identification/robustness   | High                    | New tests, mostly routed to the Internet Appendix     |
+| Referee suggestion the editor did not endorse | Medium                  | Address respectfully; disagree with evidence if warranted |
+| Minor / stylistic                            | Low                     | Fix quietly; note in the per-point table              |
+
+The recurring JF failure mode: optimizing for the most vocal referee while underweighting the editor — who, not any referee, decides.
+
+## Worked vignette — answering an R&R on a DID paper
+
+*Illustrative.* The editor writes: "I am convinced the effect is real, but the staggered-DID estimator is the open question; please satisfy Referee 2." The disciplined response opens **to the editor**: "Following your central concern, we re-estimate with Callaway–Sant'Anna; the leverage effect moves from 4.2 to 3.1 pp (illustrative) and holds; Internet Appendix Table IA.VII holds the full comparison." Then a **per-referee table** logs every point with its change and location. New tables go to the IA so the body stays under 60 pages; code is staged for the Data Editor.
+
+### Referee-pushback patterns and the JF-specific fix
+| Residual pushback on resubmission                  | JF-specific fix                                                 |
+|----------------------------------------------------|------------------------------------------------------------------|
+| "You answered R1 but not my main point" (editor)   | Open the letter with the editor's concern, resolved in the body  |
+| "The new robustness bloated the paper"             | Route it to the Internet Appendix; cite, don't inline            |
+| "Where exactly did this change?"                   | Give section/table/IA location and quote the revised text        |
+
+## Calibration anchors
+- A JF R&R is **scarce** given the flagship's selectivity; treat it as the project's most valuable asset and over-invest in the editor's framing. How many rounds and what "conditional acceptance" requires vary; confirm from the editor's letter.
+
 ## Checklist
 
 - [ ] Editor's points ranked and addressed first

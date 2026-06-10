@@ -30,6 +30,32 @@ JF is the AFA flagship, general-interest, with a ~5% acceptance rate and ~33–4
 - Show the **identifying assumption** is testable where possible (pre-trends, first-stage F, McCrary test) and put the full battery in the **Internet Appendix** (bundled in the same PDF; see `jf-internet-appendix`).
 - Report **economic magnitude**, since JF writes for a general-interest reader.
 
+## Worked vignette — a staggered-regulation natural experiment
+
+*Illustrative numbers.* A paper claims a disclosure regulation, rolled out across states in 2011–2016, causes treated firms to cut leverage; the DID shows book leverage falling 4.2 pp (t = 3.4). Walk it through JF's bar:
+
+1. **Name the variation in one sentence**: "Staggered state-level adoption of Rule X gives treated firms a plausibly exogenous shock to disclosure costs" — the introduction's credibility hook for a broad-readership editor.
+2. **Defend the assumption**: an event-study plot shows flat pre-trends before adoption; the full coefficient panel goes to the Internet Appendix.
+3. **Fix the staggered-adoption bias**: a naive two-way fixed-effects estimate (4.2 pp) is contaminated by already-treated controls. Re-estimate with a modern estimator (Callaway–Sant'Anna or Sun–Abraham); the clean estimate lands at ~3.1 pp — report it and flag the TWFE bias.
+4. **Pre-empt anticipation**: show no effect in the year before the law as a placebo.
+5. **Report magnitude**: 3.1 pp on a ~30% mean is a ~10% relative move — say so, since JF prizes economically large effects over bare significance.
+
+The editor sees a named shock, a defended assumption, the right estimator, and a magnitude that matters to the AFA readership.
+
+### Referee-pushback patterns and the JF-specific fix
+| Pushback you will hear                              | JF-specific fix                                                  |
+|----------------------------------------------------|------------------------------------------------------------------|
+| "Your TWFE DID is biased under staggered adoption" | Re-estimate with Callaway–Sant'Anna / Sun–Abraham; show both     |
+| "The instrument could affect Y through other channels" | Spell out the one channel; falsification on the alternative paths |
+| "Treated and control firms differ at baseline"     | Balance table + covariate-trend plot in the Internet Appendix    |
+| "The shock coincides with the 2014–16 oil bust"    | Excluded-period re-estimation; industry × year fixed effects     |
+| "Is 3 points economically meaningful?"             | Express as % of the sample mean and tie to a dollar magnitude    |
+
+## Calibration anchors for JF identification
+- For a corporate/empirical paper, identification is typically the **binding constraint**: a first-order question with a fragile design is a classic flagship desk reject, while a less novel question with airtight identification can survive.
+- JF expects the **identification battery visible but not bloating the body** — pre-trends, first-stage F, McCrary density, balance tables go to the Internet Appendix, with one or two decisive plots in the main text.
+- Weak-instrument and modern-DID standards evolve; confirm the expected diagnostics against recent issues and current author guidelines.
+
 ## Checklist
 
 - [ ] Source of identifying variation named in one sentence

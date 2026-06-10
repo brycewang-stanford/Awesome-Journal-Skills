@@ -46,6 +46,37 @@ stakes, and the contribution. Verify the current length and abstract limits on t
 - An abstract over 120 words or padded with background
 - Inconsistent APA citations/headings; mixing reference styles
 
+## Prose expectations by manuscript section (AERJ referees)
+
+A field-wide readership means every section must be legible to a non-specialist while staying APA-7
+disciplined. Use this as a section-by-section prose audit.
+
+| Manuscript part | What reads well for AERJ's general audience | Reviewer-irritating tell |
+|-----------------|---------------------------------------------|--------------------------|
+| Introduction | Question, field-wide stake, approach, finding by page two | Pages of background before the contribution |
+| Framework | Constructs defined in plain language, then operationalized | Theory jargon with no translation |
+| Method | Design legible to outsiders; nesting and warrant stated | Acronyms assuming subfield fluency |
+| Results | Effect sizes and intervals narrated, not just starred | "p < .05" prose with no practical meaning |
+| Discussion | Scope conditions and equity/context stated honestly | Over-claiming beyond the design |
+
+## Worked abstract vignette (illustrative)
+
+A draft abstract for an evaluation of a **formative-assessment coaching program** runs 168 words and
+opens with two sentences of literature. Trimmed to AERJ's 100–120-word target, it becomes: purpose
+(test whether coaching shifts instruction and learning), method (cluster-randomized across 48 schools,
+multilevel models), finding (an illustrative **0.16 SD** gain, 95% CI [0.05, 0.27], concentrated in
+high-need schools), significance (informs how districts target instructional support equitably). The
+filler background is gone; every clause earns its place. Confirm the exact word limit against the
+journal's current submission guidelines.
+
+## Referee pushback and the venue fix
+
+- *"I couldn't follow this outside the subfield."* → Translate each specialist term on first use; add
+  the plain-language stake.
+- *"The claims outrun the evidence."* → Hedge to what the design supports and state scope conditions.
+- *"Citations and headings are inconsistent."* → Run a clean APA-7 author-date and heading pass before
+  resubmission.
+
 ## Output format
 
 ```

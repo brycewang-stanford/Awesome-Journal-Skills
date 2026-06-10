@@ -46,6 +46,43 @@ numbers come from the analysis skills.
 - Presenting an exploratory moderator as if it were the confirmatory story
 - Submitting a pure new theory that should have gone to *Psychological Review*
 
+## The integration bar that defines a Bulletin paper
+
+This is the calibration anchor that separates the APA's flagship review journal from a methods-only
+meta-analysis: a competent pooled estimate is necessary but not sufficient. The genuine theoretical
+advance is the threshold reviewers police.
+
+| Synthesis delivers… | Methods-only meta-analysis (reject risk) | Psychological Bulletin contribution |
+|---------------------|-------------------------------------------|--------------------------------------|
+| A pooled number | "The effect is g = 0.34" and stops | Explains what that resolves for the field |
+| Heterogeneity | Reports I² = 68% as a nuisance | Uses moderators to say *why* studies disagreed |
+| A model | None — tallies effects | Advances or refines a theoretical account |
+| Scope | Implies the effect is universal | States boundary conditions from the PI |
+
+## Worked vignette — turning numbers into theory
+
+*Illustrative numbers only.* The self-affirmation synthesis yields g = 0.34 [0.24, 0.44], I² = 68%,
+with delivery format explaining an R²-analog of 0.22 and bias diagnostics pulling the effect toward
+≈ 0.25. The integrative payoff under this skill's rules:
+
+- **Open question resolved**: self-affirmation has a small-to-moderate but real effect, smaller than the
+  early enthusiastic literature implied once selective reporting is modeled.
+- **Conflict reconciled**: the disagreement tracks *delivery format* — facilitated, in-person formats
+  outperform brief written prompts — not a true-versus-null split.
+- **Model refined**: this sharpens the timing/fit account rather than proposing a brand-new theory
+  (which would belong to *Psychological Review*).
+- **Scope conditions**: the wide prediction interval [−0.10, 0.78] disciplines the claim — the effect can
+  vanish in some settings, so no universal law is asserted.
+- **Agenda**: pre-registered trials varying delivery format, and direct tests of the underutilized cells.
+
+## Referee pushback → venue-specific fix
+
+- *"Competent meta-analysis, but not a contribution."* → Add the interpretive layer: state the field
+  question and how the moderators resolve the conflict, not just the pooled number.
+- *"You theorize past your evidence."* → Down-calibrate to k, heterogeneity, and bias robustness.
+- *"This is really a new theory."* → If the model is not grounded in the synthesized evidence, it belongs
+  to *Psychological Review*.
+
 ## Output format
 
 ```

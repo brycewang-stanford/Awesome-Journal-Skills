@@ -40,6 +40,52 @@ this skill does not assert a verification step the policy does not state.
 - **Confidentiality first.** Human-subjects protection overrides sharing; state clearly when and why
   data cannot be shared, and what *can* (synthetic data, code, documentation).
 
+## Transparency posture by data type (ASR / ASA norm)
+
+Because ASR spans the discipline's methodological range under one ASA ethics umbrella, the
+*availability* expectation lands differently on different evidence. This grid keeps the posture honest.
+**Confirm specifics against the journal's current submission guidelines** where mechanics are involved.
+
+| Data type | Typically shareable | Restricted | Credibility documentation |
+|-----------|---------------------|------------|----------------------------|
+| Public-use survey | data + code | none | codebook + master script + pinned versions |
+| Administrative | code + access path | raw records | enclave/DUA reference, construction log |
+| In-depth interviews | coding scheme | identifiable transcripts | anonymized excerpt table, memo trail |
+| Ethnographic fieldnotes | analytic memos | informant identities | composite-disclosure note, IRB conditions |
+| Computational / scraped | code + seeds | TOS-restricted corpora | model/version log, label validation |
+
+## Worked micro-example (illustrative)
+
+A comparative-historical paper on welfare-state formation draws on national archives plus a coded
+events dataset.
+
+```
+Shareable: the coded events table (N≈430), coding rules, replication script for the figures
+Restricted: archival scans → cite finding aids + box/folder IDs instead
+Credibility move: an evidence table maps each causal claim to ≥2 independent archival sources
+Statement to editor: "Coded data + code deposited; archival images available to qualified
+  researchers via [repository] under its access terms."
+```
+
+The posture shares what supports the claims, documents provenance, and is explicit about what cannot
+be redistributed and why.
+
+## Referee pushback → ASR-specific fix
+
+- *"How could anyone verify the qualitative claims?"* → Provide a coding scheme, an excerpt-to-claim
+  table, and a controlled-access route (e.g., QDR) rather than raw transcripts.
+- *"You promise open data but the IRB forbids it."* → State the confidentiality constraint and offer
+  synthetic data, code, and a documented access path.
+
+## Calibration anchors
+
+- **Availability, not editor-run replication.** ASR expects professional sharing after completion or
+  major publication — not a pre-publication verification gate; do not assert one.
+- **Confidentiality outranks sharing.** Human-subjects protection wins any conflict; documenting *why*
+  data are withheld is itself a credibility signal.
+- **Document so a generalist could follow.** The standard is a stranger in another subfield tracing
+  your evidence.
+
 ## Anti-patterns
 
 - Over-stating ASR's policy as a mandatory verified replication deposit (it is a sharing *norm*)

@@ -54,6 +54,38 @@ does not yet identify the contribution.
 - Mixed methods that never actually integrate
 - Treating measurement validity or trustworthiness as boilerplate
 
+## Design-credibility matrix (what each tradition must defend)
+
+AERJ judges each methodology on its own terms, so the credibility bar differs by mode. Use this matrix
+to locate the assumption a referee will press hardest.
+
+| Mode | Core thing the design must establish | The assumption referees attack |
+|------|--------------------------------------|--------------------------------|
+| RCT | Power/MDE, balance, fidelity, low differential attrition | Attrition or non-compliance undoing randomization |
+| Quasi-experimental | A credible counterfactual | Parallel trends / continuity at the cutoff / exclusion |
+| Multilevel descriptive | Correct nesting and measurement | Cluster level mis-specified; validity unaddressed |
+| Qualitative | Trustworthiness and case logic | Convenience sampling dressed as theoretical |
+| Mixed | A real point and method of integration | Two strands never actually joined |
+
+## Worked design vignette (illustrative)
+
+A TLHD-section team evaluates a **peer-tutoring program** with a regression-discontinuity design on an
+eligibility test score. The credibility case states the estimand (effect at the cutoff), shows a
+density test with no manipulation, reports a bandwidth-robust estimate of an illustrative **0.21 SD**
+on the outcome, and writes the adjudication sentence: *if selection rather than the program drove the
+jump, covariates would also jump at the cutoff; instead they are smooth.* That single sentence rules
+out the strongest rival. A weak version would assert "the program caused gains" with no continuity
+evidence — exactly the move a methodological referee rejects.
+
+## Referee pushback and the venue fix
+
+- *"Causal language on an associational design."* → Either build the identification or downgrade the
+  claim to description with a mechanism hypothesis.
+- *"Your sampling is convenience, not theoretical."* → Justify case/site selection by design logic and
+  say what the case is a case *of*.
+- *"The mixed design is two papers stapled together."* → Specify the integration point and method;
+  confirm method-specific expectations against the journal's current submission guidelines.
+
 ## Output format
 
 ```

@@ -61,6 +61,47 @@ review. Knowing the gates lets you avoid the common early deaths and set realist
 【Next】jaar-submission (or jaar-revision-and-response if decided)
 ```
 
+## The two-gate map of a JAAR decision
+
+A manuscript at the AAR's flagship Oxford University Press journal passes through gates in order; most
+deaths happen at Gate 1, before a referee ever sees the file.
+
+| Gate | Who decides | Common failure |
+|------|-------------|----------------|
+| 1 — Editorial pre-screen | Editorial office | "Reframe for broad significance" or "another journal suits this" |
+| 2 — Double-anonymous review | 2+ referees across methods | Split reports; under-theorized; confessional tone |
+| 3 — Editor adjudication | Editor | R&R conditions misread as optional |
+
+The takeaway: optimize for Gate 1 first. A brilliant essay that reads as subfield-only never reaches a
+referee.
+
+## Worked vignette: predicting the bounce before you submit
+
+An author has "Spirit Possession Among Diaspora Practitioners in Toronto" — a careful ethnography.
+Stress-testing it against the gates:
+
+- **Gate 1 read.** The intro opens with community-specific detail and names no stakes beyond the
+  community. *Prediction: pre-review return to reframe.* The fix is to lead with what the case teaches
+  the field — how it pressures the category "possession" or the insider/outsider problem in fieldwork
+  — before the reader meets Toronto.
+- **Gate 2 read.** Even reframed, a theorist-referee may call the reflexivity thin and an
+  area-referee may want more on liturgical sources; the author pre-empts both via
+  `jaar-theory-and-method` and `jaar-sources-and-evidence`.
+- **Expectation set.** Plan for a months-long wait and, at best for promising work, an R&R rather
+  than an outright accept; route to `jaar-revision-and-response` when the letter arrives.
+
+## Referee-stance patterns and what they signal
+
+- "Significant question, execution uneven" → likely R&R; treat the report as a to-do list.
+- "Solid but subfield-bound" → a Gate-1 problem surfacing late; rebuild the field-level stakes.
+- "Confessional / advocacy register" → restore analytic distance.
+
+Hedged calibration: a frequently cited figure is roughly **90% rejection** with about **eight articles
+per issue**, and one report gave an average time to first decision near 106 days as of 2022. Treat all
+such numbers as approximate and period-specific — confirm against the journal's current submission
+guidelines, since selectivity and timelines move with editorship and submission volume. Book reviews
+remain a separate commissioned track and are not an entry point.
+
 ## Supplementary resources
 
 - [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — pre-screening, double-blind, ~90% rejection, timeline, commissioned reviews

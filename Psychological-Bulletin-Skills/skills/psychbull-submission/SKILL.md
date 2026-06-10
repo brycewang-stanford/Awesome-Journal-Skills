@@ -62,6 +62,43 @@ page before relying on them.
 - Submitting an original empirical study or pure theory to the wrong venue
 - Missing MARS/PRISMA checklist or an undeposited database
 
+## Desk-reject patterns at the APA review flagship
+
+Most avoidable failures at Psychological Bulletin are caught before peer review — at the editor's desk.
+The recurring desk-reject patterns at the APA's flagship synthesis journal:
+
+| Desk-reject pattern | Why it triggers | Pre-submission fix |
+|---------------------|-----------------|--------------------|
+| Wrong venue | A primary empirical study or pure theory was submitted | Confirm it is a synthesis; route theory to *Psychological Review* |
+| Broken masking | Author names, affiliations, or file metadata remain | Strip identifiers from text and document properties |
+| Visible registration | PROSPERO number/names left in the masked appendix | Anonymize the appendix before upload |
+| Over-long abstract | Abstract exceeds 250 words | Trim to the cap on a separate page |
+| Missing reporting | No MARS/PRISMA/JARS checklist or PRISMA diagram | Complete the checklist for the synthesis type |
+| No deposited data | "Available on request" instead of a DOI'd package | Deposit database, codebook, scripts before submitting |
+
+## Worked vignette — the final preflight pass
+
+*Illustrative figures only.* The self-affirmation synthesis (k = 42, g = 0.34) clears preflight when:
+
+- **Fit** is confirmed as a meta-analysis of existing trials, not new data.
+- **Masking** is verified in the text, the neutralized self-citations, the stripped file metadata, and
+  the anonymized OSF/PROSPERO appendix.
+- **Abstract** is 218 words on its own page, stating k, the pooled g and CI, the moderator, and the
+  robustness bottom line.
+- **Reporting**: the MARS and PRISMA checklists are complete and the PRISMA diagram plus forest/funnel
+  exhibits are attached.
+- **Transparency**: the deposited database, codebook, and scripts carry a DOI and the availability
+  statement is drafted. (Confirm the current TOP level and any APC on the official APA page.)
+
+## Referee/editor pushback → venue-specific fix
+
+- *"This appears to be a primary study."* → Reframe only if it genuinely synthesizes a literature;
+  otherwise it is the wrong journal.
+- *"Reviewer could infer the authors."* → Remove residual self-references and metadata; re-anonymize the
+  registration appendix.
+- *"MARS checklist is missing."* → Attach the completed checklist matched to the synthesis type before
+  resubmitting.
+
 ## Output format
 
 ```

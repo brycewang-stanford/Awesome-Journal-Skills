@@ -49,6 +49,50 @@ For the **single strongest rival explanation**: *"If the rival were true rather 
 evidence would look like ___; instead it looks like ___."* If you cannot write it, the design does not
 yet identify the contribution.
 
+## What ASR referees demand of each design
+
+ASR judges every tradition rigorously on its own logic — the unifying ASA standard is a design that
+connects argument to evidence and rules out the leading rival.
+
+| Design | Referee's first demand | Satisfying move |
+|--------|------------------------|------------------|
+| Quant / demographic | "What does this identify?" | description vs. causation; defend the assumption + sensitivity |
+| Comparative-historical | "Why these cases?" | design-driven selection; say what each is a case *of* |
+| Ethnographic | "Why this site and informants?" | theoretical sampling, positionality, negative cases |
+| Network / computational | "Principled process?" | boundary spec, missing-tie handling, label validation |
+
+## Worked micro-example (illustrative)
+
+A comparative-historical study argues that labor-incorporation timing shaped later union strength
+across four countries.
+
+```
+Case logic: paired comparison (early vs. late incorporators), matched on industrialization level
+Causal form: path dependence — early settlement locks in conditions C1–C2
+Disconfirming evidence sought: a case with early timing but weak unions → would break the claim
+Adjudication sentence: "If prior militancy drove this, the deviant case shows strong unions despite
+  late timing; instead it shows weak unions, as the timing argument predicts."
+```
+
+The selection is design-driven, the rival is named, and the design specifies what evidence would have
+falsified the argument.
+
+## Referee pushback → ASR-specific fix
+
+- *"Association dressed as causation."* → Restate what the design identifies and add a sensitivity
+  bound or placebo; drop causal verbs you cannot defend.
+- *"Your cases look hand-picked."* → Show the selection rule and what each case represents at the
+  population level.
+
+## Calibration anchors
+
+- **Method-appropriate rigor, one disciplinary bar.** ASR won't hold ethnography to a regression
+  standard or vice versa — but every design must defeat its strongest rival.
+- **The adjudication sentence is the test.** If you can't write "if the rival were true the evidence
+  would look like ___," the design does not yet earn the contribution.
+- **Identification honesty travels.** Stating plainly what observational data can and cannot establish
+  reads as strength to a cross-method panel.
+
 ## Anti-patterns
 
 - "Causal" language on a purely observational/associational design

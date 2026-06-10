@@ -50,6 +50,42 @@ eligibility and coding; the statistical model lives in `psychbull-meta-analysis-
 - Dropping "inconvenient" studies without a rule that excludes them
 - Losing the data needed to compute effect sizes (no SDs/ns) — recoverable only by author contact
 
+## What referees check on eligibility and coding
+
+At the APA's flagship synthesis journal, eligibility and coding are where a reviewer probes whether the
+study pool is principled and the data are trustworthy. The bar they apply:
+
+| Referee expectation | Pass | Major-revision / reject trigger |
+|---------------------|------|----------------------------------|
+| Pre-specified criteria | Eligibility fixed in the protocol before screening | Rules that shift to admit favorable studies |
+| Two-stage screening | Title/abstract → full text, two screeners, reconciliation log | One screener, no audit trail |
+| Codebook completeness | Covers moderators *and* every effect-size input | Vague codes; SDs/ns not captured |
+| Reliability reported | κ or ICC with a resolution procedure | No agreement statistic at all |
+| Dependency captured | Multiple effects per study coded for downstream RVE | Effects collapsed silently, losing structure |
+
+## Worked vignette — coding the intervention pool
+
+*Illustrative numbers only.* Screening for the self-affirmation synthesis takes 1,640 deduplicated
+records to 188 full texts to k = 42 included studies. Under this skill's rules:
+
+- **Eligibility** (population, randomized design, validated outcome, 1995–2024, English) was fixed in
+  the OSF protocol before any full text was read.
+- **Double-coding** covered all 42 studies; first-pass agreement was κ = 0.81 on categorical codes and
+  ICC = 0.92 on continuous codes; 14 disagreements went to a third coder and were logged.
+- **Effect-size inputs** (means, SDs, ns, and 6 test-statistic conversions) were captured with their
+  direction, so g could be recomputed independently.
+- **Dependency**: 9 studies reported 2–4 effects each, all coded so the analysis can apply RVE rather
+  than treating them as independent.
+
+## Referee pushback → venue-specific fix
+
+- *"Your inclusion rules look like they shifted mid-stream."* → Show the timestamped protocol; document
+  any amendment with its date and rationale, not a silent edit.
+- *"No inter-rater reliability is reported."* → Add κ/ICC values and the disagreement-resolution
+  procedure; double-code a documented subset if full coverage is infeasible.
+- *"Effect sizes can't be reverified from your table."* → Restore the means/SDs/ns or test statistics so
+  each g is independently recomputable.
+
 ## Output format
 
 ```

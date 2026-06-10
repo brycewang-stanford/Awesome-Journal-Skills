@@ -29,6 +29,46 @@ known, what is missing, and why this paper closes the gap for a real environment
 5. **For Reviews/Perspectives**: organize around an analytical framework, surface contradictions, and
    identify the open questions — synthesis, not annotated bibliography.
 
+## Which literatures a multidisciplinary referee panel expects you to engage
+
+ES&T sends a paper to ~three reviewers who often span sub-fields. A gap framed only in one literature
+reads as naive to the others. Map your claim to the adjacent bodies of work before drafting:
+
+| If your contribution is about... | You must also engage... | Reviewer who flags the omission |
+|----------------------------------|--------------------------|----------------------------------|
+| A new occurrence/measurement | the analytical-method and fate literature | the environmental chemist |
+| A treatment/removal process | the engineering and mass-transfer literature | the process engineer |
+| An exposure or effect | the toxicology / dose–response literature | the eco/health toxicologist |
+| A regulatory or LCA implication | the policy / sustainability literature | the policy-interface reviewer |
+| A transport/transformation model | prior model formulations and field validation | the modeler |
+
+## Worked micro-example (illustrative — positioning an emissions-inventory analysis)
+
+Suppose the paper re-estimates methane emissions from a basin's oil-and-gas infrastructure using
+aircraft data. A weak introduction cites only prior inventories and claims "few studies have
+top-down constrained this basin." A reviewer reads that as incremental. The ES&T-grade positioning
+(illustrative):
+
+- **Known:** bottom-up inventories systematically *underestimate* basin emissions; prior top-down
+  studies disagree by a factor of ~2 (illustrative) and have not reconciled the discrepancy.
+- **Gap (as a process question):** the *attribution* of the excess — which source category and which
+  operational state — is unresolved, so mitigation targeting is blind.
+- **This paper closes it by:** pairing aircraft fluxes with facility-level activity data to attribute
+  the excess to a small fraction of super-emitting sites, changing where regulators should act.
+
+The move that lifts it past desk-screen: the gap is a *mechanism/attribution* question with a policy
+consequence, engaging the inventory, atmospheric-measurement, and regulatory literatures at once —
+not a "we add another number" claim.
+
+## Referee-pushback patterns and the venue-specific fix
+
+- *"Novelty is incremental — this is another occurrence dataset."* → Reframe the gap as a process,
+  attribution, or exposure question the data resolve; differentiate explicitly from the closest prior
+  ES&T studies by matrix, scale, or mechanism.
+- *"Ignores relevant literature."* → Add the adjacent sub-field (often engineering or tox) the
+  multidisciplinary panel expects; cite prior ES&T/ES&T Letters work directly.
+- *"'First study' claim is not supported."* → Soften to a specific, defensible advance or remove it.
+
 ## Anti-patterns
 
 - A wall of citations with no articulated gap

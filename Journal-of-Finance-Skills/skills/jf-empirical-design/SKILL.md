@@ -33,6 +33,32 @@ JF asset-pricing referees engage the JF-published canon — **Sharpe (1964) CAPM
 - **Economic magnitude** (Sharpe gain, alpha in bps), since JF writes for a general-interest reader.
 - Exhaustive specifications go to the **Internet Appendix** (bundled in the same PDF; see `jf-internet-appendix`), keeping the body within 60 pages.
 
+## Worked vignette — a risk-vs-mispricing horse race
+
+*Illustrative numbers.* A new characteristic predicts the cross-section: a long–short decile spread of 0.60%/month, raw t = 3.3. The JF question is not "is it significant?" but "is it risk or mispricing, and does it survive the canon?"
+
+1. **Benchmark against the right factors.** Regress on Fama–French five factors + momentum; suppose the alpha is 0.42%/month (t = 2.9). The shrinkage from 0.60 already shows part of the spread is known-factor exposure.
+2. **Clear the multiple-testing bar.** If mined from many candidates, t = 2.9 must beat the factor-zoo cutoff (Harvey–Liu–Zhu argue ~3.0, illustratively); a borderline t is a referee magnet.
+3. **Risk vs. mispricing.** For risk, show the characteristic loads on priced covariance (GRS test). For mispricing, show the alpha concentrates among hard-to-arbitrage names and decays after ~6 months. JF rewards a paper that *adjudicates*.
+4. **Out-of-sample.** Campbell–Thompson out-of-sample R² for the predictive version; in-sample-only reads as data-snooping.
+5. **Economic magnitude.** Translate to an annualized Sharpe gain (≈ 0.35) so the general-interest reader sees the stake.
+
+The full grid — all factor models, subperiods, cost nets — goes to the **Internet Appendix**; the body carries the alpha table, GRS test, and OOS result.
+
+### Referee-pushback patterns and the JF-specific fix
+| Pushback you will hear                              | JF-specific fix                                                  |
+|----------------------------------------------------|------------------------------------------------------------------|
+| "It's just exposure to known factors"              | Report alphas vs. FF5 + momentum; show the residual spread       |
+| "t = 3.3 after mining is not 1.96 territory"       | Apply the factor-zoo-adjusted threshold; disclose the search     |
+| "Is this risk or mispricing?"                      | Run the horse race (GRS / covariance vs. arbitrage-limits decay) |
+| "In-sample only"                                   | Add out-of-sample R² (Campbell–Thompson) or a holdout            |
+| "These are illiquid microcaps"                     | Value-weighted, NYSE-breakpoint, post-cost version               |
+
+## Calibration anchors for JF asset pricing
+- The flagship rewards tests that **adjudicate a first-order question** (covariance risk vs. correctable mispricing) over a bare predictive regression.
+- SE and multiple-testing conventions evolve; the EIV/Shanken correction and factor-zoo threshold are durable, but confirm the favored estimators and benchmark factor sets against recent JF issues.
+- Economic magnitude in interpretable units (Sharpe gain, bps alpha) is non-negotiable in the body, since JF writes for a non-specialist reader.
+
 ## Checklist
 
 - [ ] Test matched to the question (FM / time-series / panel)

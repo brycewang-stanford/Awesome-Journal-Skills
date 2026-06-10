@@ -31,6 +31,38 @@ contribution so reviewers see the gap and the advance.
 5. **Position the mechanism, not just the magnitude.** The contribution is usually *why* a response
    occurs or *how* it scales — make that the gap.
 
+## Diagnosing the framing gap
+
+GCB's cross-disciplinary readership means a paper can be well-cited inside its subfield yet read as
+parochial to the journal. This table maps the symptom an editor or referee flags to the positioning
+move that closes it.
+
+| Symptom in the draft | What it signals | Positioning fix |
+|----------------------|-----------------|-----------------|
+| Only single-taxon citations | Subfield framing, not global-change | Anchor on the driver-response literature across taxa |
+| No meta-analysis or MIP cited | Unaware of the consensus | Engage the synthesis that defines the baseline |
+| "Novel" for a known response | Local novelty mistaken for advance | Reframe the gap as mechanism or scaling, not first sighting |
+| Contradiction unmentioned | Selective reading | Name the conflicting study and explain it mechanistically |
+| Terrestrial-only with no marine nod | Generality unproven | State whether the mechanism is expected across systems |
+
+## Worked micro-example (illustrative)
+
+A species-range-shift model predicts an illustrative 180 km poleward shift of a montane plant by 2070.
+A local framing cites only regional floristic surveys. A GCB framing instead anchors on the range-shift
+synthesis literature (which reports a mean terrestrial shift of an illustrative ~17 km per decade), shows
+that this taxon shifts faster because of a dispersal-limitation mechanism the syntheses average over, and
+notes whether the same lag is documented for marine ectotherms. The gap is now mechanistic and
+cross-system, not "a new record for our mountains." Numbers illustrative.
+
+## Referee pushback patterns and the fix
+
+- "Too local; misses key literature" → replace site-specific citations with the driver-response and
+  synthesis literatures a GCB reader expects.
+- "This is already known from the meta-analysis" → reframe the contribution as the mechanism or scaling
+  the synthesis cannot resolve.
+- "Ignores contradictory evidence" → engage the conflicting result and reconcile it by scale, duration,
+  system, or design.
+
 ## Anti-patterns
 
 - Citing only the local/regional or single-taxon literature on your study system

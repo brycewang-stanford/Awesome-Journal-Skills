@@ -34,6 +34,38 @@ on the live guidelines page (see 待核实 in the source map).
 - Report effect sizes with intervals and units; define every symbol and abbreviation in the caption.
 - Keep tables for precise numbers; move relationships and patterns into figures.
 
+## Exhibit-by-exhibit expectations
+
+Different exhibit types carry different burdens at GCB. Use this as a per-panel design contract before
+you finalize the figure set.
+
+| Exhibit | Carries | Must show | Common reject note |
+|---------|---------|-----------|--------------------|
+| Graphical abstract | The driver → response link | A causal arrow from environmental driver to biological response | A site map or phylogeny standing in for mechanism |
+| Flux / time-series panel | Trend and its uncertainty | Confidence ribbon and the sampling unit | A bare line with no spread |
+| Map | Spatial pattern | Colour-blind-safe ramp, scale bar, projection | Rainbow ramp, no scale, undefined extent |
+| Dose-response | Mechanism shape | Fitted curve with interval and the data | Curve drawn through points with no band |
+| Forest plot (synthesis) | Pooled effect + heterogeneity | Per-study and pooled effect with CIs | Pooled diamond only, studies hidden |
+
+## Worked micro-example (illustrative)
+
+A remote-sensing study of carbon flux wants one mechanistic main figure. A site map of the eddy-covariance
+towers is supporting material, not the lead. The lead panel plots gross primary productivity against
+growing-season temperature with a fitted ribbon: GPP rises then saturates near an illustrative 22 C, with
+the ensemble spread shaded. The caption states n = 18 site-years (illustrative), the statistic, the units
+(g C m^-2 d^-1), and reads alone. The graphical abstract distils this to a single arrow: warming →
+productivity saturation → weakening land carbon sink. Numbers illustrative.
+
+## Reviewer pushback on exhibits and the fix
+
+- "Figure 1 is a map; where is the mechanism?" → promote the driver-response panel to lead; demote the
+  map to supporting information.
+- "Point estimates only" → add ribbons, error bars, or ensemble spread so uncertainty is visible.
+- "Unreadable in grayscale / rainbow map" → switch to `viridis` or Okabe-Ito and verify grayscale
+  legibility.
+- "Caption not self-contained" → add n, units, statistic, and scale so the exhibit stands without the
+  methods.
+
 ## Anti-patterns
 
 - A graphical abstract that is a study-site map or phylogeny instead of the driver-response mechanism

@@ -59,6 +59,36 @@ per-comment entry with the location of every change so the editor can verify qui
 - Letting the revised manuscript or exhibits drift out of sync with the data/reporting materials, or
   reintroducing identifying details that break masking
 
+## Triaging reviewer comments (concede/rebut grid)
+
+The section editor adjudicates, so the letter must signal which comments you accepted and which you
+contested on principle. Sort each comment into this grid first.
+
+| Comment type | Default move | Editor wants |
+|--------------|--------------|--------------|
+| Editor's decisive point | Solve fully, first | The change + location |
+| Reasonable analysis request | Concede; add it | New result + location |
+| Request that breaks the logic | Rebut respectfully | Defense from the design |
+| Reviewers want opposites | Pick a principled path | The tradeoff named |
+| Minor/cosmetic | Concede in revision | A clean manuscript |
+
+## Worked rebuttal vignette (illustrative)
+
+A TLHD R&R on a **classroom-discussion intervention** returns three reviewers. R1 wants the
+illustrative **0.19 SD** effect re-estimated with school fixed effects; R2 wants the qualitative
+strand cut; R3 wants it expanded. The editor's letter names *integration* as decisive. The response
+concedes R1 (the estimate holds at **0.17 SD**) and reconciles R2/R3: cutting the strand would
+break the integration the editor wants, so the authors expand it and explain the tradeoff. That
+visible reasoning — not capitulation to every voice — keeps the editor confident.
+
+## Pushback patterns and the convergent-revision fix
+
+- *"You ignored a comment."* → Quote and answer every one; silence reads as non-compliance.
+- *"You capitulated and weakened the paper."* → Defend scope conditions with evidence rather than
+  diluting the broad-significance claim that earned the R&R.
+- *"The revision drifted out of sync."* → Re-anonymize and re-sync exhibits and reporting materials;
+  confirm resubmission steps against the journal's current submission guidelines.
+
 ## Output format
 
 ```

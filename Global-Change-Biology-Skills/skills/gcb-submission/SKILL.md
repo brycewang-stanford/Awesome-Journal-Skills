@@ -49,6 +49,36 @@ volatile specifics on the official page before relying on them (see 待核实 in
 - [ ] Author list, ORCID, affiliations, conflicts, and funding complete
 - [ ] Ethics / permits / sampling compliance stated where applicable
 
+## Last-mile failure modes at upload
+
+These are the avoidable bounces that surface in the final hour. Catch each one here rather than in a
+desk-reject letter.
+
+| Failure mode | Where it bites | Pre-upload fix |
+|--------------|----------------|----------------|
+| Graphical abstract missing/non-mechanistic | Required element check | Supply a driver → response figure |
+| Abstract over cap | Metadata field | Trim to the current limit (confirm; 待核实) |
+| Data statement says "on request" | Compliance screen | Name repository + DOI + access route |
+| Wrong article type for the content | Editorial triage | Match type to contribution and its caps |
+| Missing ORCID / conflicts / funding | ScholarOne fields | Complete all author metadata |
+
+## Worked micro-example (illustrative)
+
+A meta-analysis is queued for upload. The preflight catches three things: the graphical abstract was a
+forest plot (a result, not the mechanism) — replaced with a warming → biomass-response arrow; the
+abstract ran an illustrative 340 words against an assumed ~300 cap — trimmed; and the data statement read
+"on request" — rewritten to name the Dryad and Zenodo DOIs with the access route. Article type is
+confirmed as a Research Review (open section), not an unsolicited GCB Review. With those fixed, the
+remaining metadata fields pass. Word counts and the cap are illustrative; verify the current caps before
+submitting.
+
+## Referee/editor pushback this preflight pre-empts
+
+- "Scope reads as regional" → confirm the cover letter and abstract lead with the global-change
+  mechanism.
+- "Non-compliant data statement" → verify a DOI deposit is named, not request-only access.
+- "Over-length" → confirm the manuscript and abstract meet the current article-type caps.
+
 ## Anti-patterns
 
 - Missing or non-mechanistic graphical abstract (site map / phylogeny)

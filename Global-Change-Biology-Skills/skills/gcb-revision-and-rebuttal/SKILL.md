@@ -53,6 +53,28 @@ Lead with a brief editor-facing digest of the headline changes (new mechanism ev
 qualifications, added uncertainty analyses); organize by referee; close each item with the exact
 location so the editor can spot-check quickly.
 
+## Triage table for the most common GCB reviewer demands
+
+Sort the comments before drafting. This maps the recurring global-change critique to the response that
+lands with expert ecological reviewers.
+
+| Reviewer demand | Best response | Trap to avoid |
+|-----------------|---------------|---------------|
+| "Mechanism is correlative" | Add the path model or process evidence that tests it | Restating correlation as causation |
+| "Scaling from plot to globe" | Propagate scaling uncertainty; qualify the claim | Dropping the scaling rather than bounding it |
+| "Pseudoreplication" | Re-fit at the true unit; show it holds | Defending the original error verbally |
+| "No uncertainty propagation" | Add an ensemble/sensitivity analysis | Prose reassurance with no new analysis |
+| "Two reviewers disagree" | Name the conflict; pick the evidenced path | Silently siding with one referee |
+
+## Worked micro-example (illustrative)
+
+A warming-experiment paper draws a major revision. Reviewer 1 calls the soil-carbon feedback
+"correlative"; Reviewer 2 wants the plot result scaled to the biome. The response adds a
+structural-equation model isolating the microbial pathway (R1) and an ensemble scaling with a propagated
+95% interval labelled as illustrative bounds (R2), then notes the two referees pull in opposite
+directions on generality and resolves toward the conservative, evidence-supported scale. Each reply
+cites the new panel and line; the archived code is re-tagged so the figures reproduce. Illustrative.
+
 ## Anti-patterns
 
 - Folding a comment into the revision silently, with no traceable reply

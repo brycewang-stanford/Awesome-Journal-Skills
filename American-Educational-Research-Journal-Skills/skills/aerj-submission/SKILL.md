@@ -62,6 +62,37 @@ volatile specifics on the official page before relying on them.
 - Mixing citation styles instead of clean APA 7th
 - Budgeting for a submission fee that is not charged (verify)
 
+## Desk-reject triggers at upload (AERJ-specific)
+
+ScholarOne screening and the section editor catch avoidable failures before review. This table maps
+the most common pre-submission errors to their consequence so you can clear each one.
+
+| Failure at upload | What it breaks | Avoidable fix |
+|-------------------|----------------|---------------|
+| Author name in text/metadata | Masked review | Strip identifiers; move them to the title-page file |
+| Wrong section selected | Fit and reviewer match | Re-choose on topic/framing axis (SIA vs TLHD) |
+| Abstract over the limit | Format compliance | Trim to the stated word range; verify the figure |
+| Over-length manuscript | Inclusive page count | Cut to the page limit counting tables/figures/refs |
+| Mixed citation styles | APA-7 compliance | Run a single clean author-date pass |
+
+## Worked preflight vignette (illustrative)
+
+A team is uploading a **mixed-methods evaluation of a community-schools initiative** to the SIA
+section. The preflight catches three things: an acknowledgments line thanking a named foundation
+(breaks masking), an abstract of **134** words (illustrative, over a 100–120 target), and a figure
+note citing "our prior district study" (a self-citation tell). Fixing all three before submission —
+moving funder thanks to the title page, trimming the abstract to **118** words, neutralizing the
+self-reference — converts a likely desk return into a clean send-out. Confirm the exact length and
+abstract limits against the journal's current submission guidelines.
+
+## Referee/editor pushback the preflight pre-empts
+
+- *"This is not anonymized."* → Strip text, self-citation, and file-metadata identifiers before upload.
+- *"Submitted to the wrong section."* → Justify the SIA/TLHD choice in the cover letter when the paper
+  straddles both.
+- *"Reporting materials missing."* → Have the AERA-standard reporting and data-availability plan ready
+  at submission, not after acceptance.
+
 ## Output format
 
 ```

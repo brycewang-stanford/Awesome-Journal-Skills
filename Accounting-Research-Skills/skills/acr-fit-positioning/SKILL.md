@@ -1,6 +1,6 @@
 ---
 name: acr-fit-positioning
-description: Use to judge whether a manuscript's landing point is an ACCOUNTING issue (accounting information / disclosure / audit / standards) versus a corporate-finance mechanism, before drafting for 《会计研究》 (Accounting Research). Re-routes finance-mechanism papers to a finance journal.
+description: Use when judging whether a manuscript's landing point is an ACCOUNTING issue (accounting information / disclosure / audit / standards) versus a corporate-finance mechanism, before drafting for 《会计研究》 (Accounting Research). Use this to decide fit and to re-route finance-mechanism papers to a finance journal before any other acr-* skill.
 ---
 
 # 会计 vs 金融定位判断（acr-fit-positioning）
@@ -50,6 +50,30 @@ description: Use to judge whether a manuscript's landing point is an ACCOUNTING 
 - 把"X 影响融资约束/投资/股价"硬贴一段会计背景就当会计稿
 - 因变量是定价指标，却声称机制是"会计信息质量"而不直接测信息变量
 - 治理稿不落到会计信息环境，写成纯管理学理论（应转南开管理评论）
+
+## 本刊对口判定的审稿期待（决策表）
+
+《会计研究》由中国会计学会主办，是 CSSCI 唯一权威顶级会计学期刊，定位极清晰——因变量或机制核心须落在会计信息生产、披露与鉴证一端。下表对齐审稿期待与退稿模式：
+
+| 审稿期待 | 达标线 | 常见退稿模式 |
+|----------|--------|--------------|
+| 因变量是会计产出 | 盈余质量/披露/审计/内控产出 | 因变量是股价/融资/投资 |
+| 机制是信息语言 | 不对称↓/披露↑/盈余↓/鉴证↑ | 机制是定价/配置/流动性 |
+
+## 微型走查：边界稿如何改造（数字示意）
+
+虚构稿《ESG 评级对股价崩盘风险的影响》：因变量"崩盘风险"是定价侧 → 偏金融，直接投会被判不对口。改造路径（示意）——把因变量换为"ESG 信息披露质量指数"、机制改为"ESG 披露降低信息不对称"；改造后主结果变为披露质量指数上升约 0.12 个标准差（t≈2.4），并直接测买卖价差中介。落点回披露产出、机制为信息语言即对口，进 acr-topic-selection；不愿改造则按金融机理改投《金融研究》。
+
+> 上述数字为演示改造效果的示意值，非真实结果。
+
+## 审稿人追问与本刊语境修法
+
+- 问"这是不是公司金融稿" → 查因变量是否会计/审计/披露产出、机制是否信息语言，不达标则改造或改投。
+- 问"治理稿往哪靠" → 落到会计信息环境则对口，落到纯管理学理论则转南开管理评论。
+
+## 校准锚点
+
+本刊已刊论文因变量绝大多数是会计信息/披露/审计产出；边界稿需在引言把信息落点立清。栏目对跨界题的容纳度，以编辑部最新稿约为参照。
 
 ## 输出格式
 

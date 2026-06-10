@@ -59,6 +59,32 @@ Recalls, supplier ties, lean adoption, and disruptions are rarely exogenous. Sta
 - Unaddressed endogeneity in archival operations regressions.
 - p-values with no effect sizes or operational magnitude.
 
+## Reporting thresholds the Empirical Research Methods reviewers probe
+
+The values below are widely cited conventions, not hard cutoffs; confirm field norms against current methods guidance.
+
+| Diagnostic | Conventional landmark | Wanted alongside it |
+|------------|----------------------|----------------------|
+| Alpha / composite reliability | typically ≥ .70 | source and prior validation of each scale |
+| CFA fit (CFI/TLI) | typically ≥ .90–.95 | the model beating one-factor rivals |
+| AVE (convergent) | commonly ≥ .50 | AVE > squared correlation, or HTMT |
+| IV first-stage F | strong-instrument heuristics | why the instrument is excludable |
+
+## Desk-reject and method-check failure patterns
+
+- A single-factor (Harman) test as the only common-method-bias defense.
+- OLS on respondents nested in plants with no acknowledgment of non-independence.
+- An archival operational-practice regression with no identification strategy for an endogenous practice (lean adoption, supplier selection).
+
+## Worked vignette: endogeneity in an operational-practice regression
+
+A study regresses plant defect rates on lean-adoption over a 9-year panel; adopters show 18% fewer defects (illustrative). A referee objects that plants adopting lean may already be better-managed, so selection contaminates the estimate. The JOM-grade response is an identification plan, not a footnote: exploit a staggered corporate mandate as quasi-exogenous timing, run a staggered DiD with plant and year fixed effects, cluster at the plant, and show pre-adoption parallel trends plus no anticipation. Report event-study coefficients so the dynamic effect is visible. If pre-trends are flat and the drop concentrates after the mandate, the inference is credible; if pre-trends slope, soften the claim to association.
+
+## Analysis objections reviewers raise, with the fix
+
+- *"Construct validity of the survey measures is unestablished."* Lead with the full measurement model before any structural estimate.
+- *"Endogeneity in operational-practice regressions."* Name the threat, state the design, and report first-stage strength or pre-trend evidence — do not argue it away.
+
 ## Output format
 
 ```

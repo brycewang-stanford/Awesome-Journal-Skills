@@ -14,7 +14,7 @@ description: Use when deciding what belongs in the Internet Appendix vs. the mai
 
 ## JF's actual Internet Appendix policy
 
-The "Internet Appendix" is a **JF convention** (JF helped popularize it). JF's specifics differ from generic "online appendices":
+The "Internet Appendix" is a **JF convention**. JF's specifics differ from generic "online appendices":
 
 - **At submission, the Internet Appendix is placed at the END of the same PDF as the manuscript — NOT uploaded as a separate file.** Put the title **"Internet Appendix"** at the top of its first page so it is not mistaken for a regular appendix.
 - The Internet Appendix **does not count toward JF's 60-page manuscript limit** (manuscript: ≤60 pp, ≥1.5 spacing, 12-pt font).
@@ -41,6 +41,22 @@ The "Internet Appendix" is a **JF convention** (JF helped popularize it). JF's s
 - Every appendix item must be **referenced from the main text** ("see Internet Appendix Table IA.IV") — orphan tables read as padding.
 - Keep each appendix table self-contained, same note conventions as the main exhibits (`jf-tables-figures`).
 - Note: replication **code** is handled separately under JF's Data and Code Sharing Policy (Supplementary Information at acceptance), not via the Internet Appendix — see `jf-submission`.
+
+## Worked vignette — sizing an Internet Appendix for an anomaly paper
+
+*Illustrative.* An anomaly paper keeps four decisive exhibits in the body — the headline spread table, one factor-adjusted alpha table, the GRS test, and a placebo. The Internet Appendix absorbs the other candidate signals, alternative factor models, equal-weighted and alternative-breakpoint versions, transaction-cost nets, the data-construction appendix, and any Monte Carlo. The IA might run 30+ pages while the body stays well under 60 — exactly the flagship's intended shape: a self-contained body over a backstop a skeptical referee can drill into.
+
+### Referee-pushback patterns and the JF-specific fix
+| Pushback you will hear                              | JF-specific fix                                                 |
+|----------------------------------------------------|------------------------------------------------------------------|
+| "I can't follow the paper without the appendix"    | Make the body self-contained; the IA is optional reading         |
+| "Your appendix is a junk drawer of uncited tables" | Cite every IA item from the body; cut anything orphaned          |
+| "You submitted the IA as a separate file"          | Re-bundle at the end of the same PDF, titled "Internet Appendix" |
+
+## Calibration anchors for the IA culture
+- The Internet Appendix is a **JF hallmark**; an extensive one signals seriousness, while a thin IA at a top-3 finance journal reads as under-stress-tested.
+- Self-containment means the question, design, headline, and magnitude land **without** the IA — the IA deepens, never completes, the argument.
+- Bundled-in-PDF placement and the no-page-count rule are JF specifics; confirm against current author guidelines, since submission mechanics change.
 
 ## Checklist
 

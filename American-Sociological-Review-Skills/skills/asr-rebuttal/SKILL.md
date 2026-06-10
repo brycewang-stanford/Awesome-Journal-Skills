@@ -48,6 +48,48 @@ Change: [Section/page/table-figure number where the revision appears].
 Open with a short **summary of the main changes** to the editor; group by reviewer; end each entry
 with the location of the change so the editor can verify quickly.
 
+## Triage grid for an ASR R&R
+
+ASR R&Rs are substantial and the panel often crosses traditions, so sort every comment before drafting.
+The editors adjudicate; the letter's job is to make adjudication easy.
+
+| Comment type | Default response |
+|--------------|------------------|
+| Editor's decisive point | do it; never argue these away |
+| Result you can produce | run it; report honestly even if mixed |
+| Cross-method standard | meet it on its own terms |
+| Request that dilutes significance | rebut respectfully with a reason |
+
+## Worked micro-example (illustrative)
+
+A neighborhood-effects paper gets an R&R where R1 (quant) wants a sibling fixed-effects check and R2
+(ethnographic) doubts the mechanism is social rather than selection.
+
+```
+R1: "Add within-family comparison."
+  Response: Sibling FE (Table 4); effect attenuates 0.31→0.22 SD, still significant (CI 0.09–0.35).
+R2: "Could be selection, not a social process."
+  Response: Placebo on pre-move outcomes (null, CI −0.04–0.06) + 6 excerpts illustrating the
+  mechanism. Change: §5.3, Appendix B.
+```
+
+The letter concedes where evidence warrants and protects the contribution by showing the mechanism
+survives the cross-method probe.
+
+## Referee pushback → ASR-specific fix
+
+- *"The revision didn't change anything."* → End each entry with an exact location; visible change
+  beats a thank-you.
+- *"You dismissed my standard."* → Address it in its own idiom and say why your choice respects it.
+
+## Calibration anchors
+
+- **The editor's letter is the rubric.** At ASR the editor weights reviewers; solving the decisive
+  points first converts an R&R.
+- **A reasoned disagreement is allowed.** Defending the paper's logic is expected at the flagship;
+  capitulation that weakens the argument is worse.
+- **Substantial means substantial.** Plan for a heavy revision; a light pass reads as non-engagement.
+
 ## Anti-patterns
 
 - Ignoring or merging away a comment without a visible response

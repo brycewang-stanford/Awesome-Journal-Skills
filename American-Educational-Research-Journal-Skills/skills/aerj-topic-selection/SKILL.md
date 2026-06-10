@@ -45,6 +45,37 @@ which **section** (SIA or TLHD) should carry it.
 - Picking a section by method (e.g., "it's qualitative so it must be TLHD") — wrong axis
 - Chasing trendiness over a durable conceptual question
 
+## Fit-and-routing decision grid (AERJ-specific)
+
+A flagship AERA general journal weighs *reach across the field* more heavily than methodological
+novelty alone. Read your topic against this grid before committing to a section.
+
+| Topic shape | Likely verdict | Section lean | Why |
+|-------------|----------------|--------------|-----|
+| Single-district descriptive finding, no broader claim | Better suited to a specialty outlet | — | Fails broad-significance test |
+| Statewide accountability policy and its equity consequences | Strong fit | SIA | System-level institutional question |
+| Classroom-level mechanism of how students learn a concept | Strong fit | TLHD | Learning/development process |
+| School organization shaping classroom instruction | Fit — name dominant lens | SIA or TLHD | Straddles; pick framing axis, justify it |
+| Methods demonstration with thin substantive stake | Needs sharpening | — | AERJ wants the education question foregrounded |
+
+## Worked fit vignette (illustrative)
+
+A researcher has data on a **principal-mentoring program** across 60 schools and finds a leadership
+turnover reduction of about **9 percentage points** (illustrative). Pitched as "a turnover study,"
+it reads as a niche HR result. Re-pitched as *how institutional support reshapes who stays to lead
+high-need schools and what that means for equity of access to stable leadership*, it becomes an SIA
+question of broad significance — the same 9-point number now carries a field-wide stake. The topic
+did not change; the framing crossed it from subfield-only to AERJ-appropriate.
+
+## Common rejection-at-the-gate patterns and the fix
+
+- *Topic is real but small.* → Connect the local finding to a field-wide debate or a policy/practice
+  stake the whole field recognizes; if none exists, route to a specialty journal honestly.
+- *Section chosen by method, not topic.* → Re-choose on the topic axis; both SIA and TLHD publish
+  quantitative, qualitative, and mixed work.
+- *Trend-chasing with no durable question.* → Anchor to a conceptual question that survives the news
+  cycle; confirm scope expectations against the journal's current submission guidelines.
+
 ## Output format
 
 ```

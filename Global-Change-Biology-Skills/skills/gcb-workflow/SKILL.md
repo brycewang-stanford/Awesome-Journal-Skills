@@ -54,6 +54,35 @@ revision-and-rebuttal`
 
 Iterate: most papers loop design ↔ analysis ↔ figures several times before writing-style.
 
+## Symptom-to-skill dispatch
+
+When a user arrives mid-stream with a complaint rather than a stage, route by symptom. Each row sends
+the question to the sub-skill that owns the fix.
+
+| User says | Underlying issue | Route to |
+|-----------|------------------|----------|
+| "Editor desk-rejected on scope" | Fit/significance framing | `gcb-topic-selection` then `gcb-cover-letter` |
+| "Reviewer says it's correlative" | Mechanism not tested | `gcb-study-design` + `gcb-data-analysis` |
+| "Can't scale plot to biome" | Uncertainty not propagated | `gcb-data-analysis` |
+| "Graphical abstract rejected" | Non-mechanistic exhibit | `gcb-figures-and-tables` |
+| "Data statement non-compliant" | Archiving gap | `gcb-reporting-and-data-policy` |
+
+## Worked micro-example (illustrative)
+
+A user returns with a major-revision letter on a remote-sensing carbon-flux paper. The router reads the
+decisive comments: the mechanism is called correlative and the scaling lacks uncertainty. It dispatches
+first to `gcb-data-analysis` to add an ensemble and partition uncertainty, then to `gcb-figures-and-tables`
+to make the driver-response panel lead, then to `gcb-revision-and-rebuttal` to assemble the response. It
+also confirms the Zenodo code archive is re-tagged via `gcb-reporting-and-data-policy`. The order is
+driven by which comments the editor flagged as decisive, not by the default pipeline. Scenario is
+illustrative.
+
+## Routing pitfalls the orchestrator guards against
+
+- Sending a scope-mismatched idea down the writing pipeline before fixing fit in topic selection.
+- Treating archiving as a final step rather than staging it during analysis.
+- Routing an invited-only review type as if it were open for submission.
+
 ## Anti-patterns
 
 - Pitching a local case study with no global-change mechanism or broad relevance

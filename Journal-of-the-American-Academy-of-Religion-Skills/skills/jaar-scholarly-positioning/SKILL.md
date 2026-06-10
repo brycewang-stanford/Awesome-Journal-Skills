@@ -57,6 +57,49 @@ field." It pairs with `jaar-topic-selection` (the reframing) and feeds `jaar-arg
 【Next】jaar-argument-development
 ```
 
+## The two-readership ledger
+
+A JAAR introduction must satisfy two readers at once: the area specialist who guards the tradition and
+sources, and the generalist who guards theory and method. Audit each paragraph against both columns; an
+intro that serves only one is the classic Gate-1 liability for the AAR's flagship general journal.
+
+| Move | Specialist reader checks | Generalist reader checks |
+|------|--------------------------|--------------------------|
+| Frame the problem | Live in the tradition? | A question the study of religion shares? |
+| Cite the conversation | Area authorities present? | Theory/method interlocutors present? |
+| Name the gap | Really under-treated here? | Does closing it move a category or method? |
+| State the intervention | Defensible on the sources? | Portable to other cases? |
+
+## Worked vignette: lifting a single-tradition study into the conversation
+
+An author has a close reading of the *Lotus Sūtra*'s parable of the burning house, arguing it licenses
+"skillful means" deception. Positioned only in Buddhology, it is a specialist note. Positioned for
+JAAR:
+
+- **Problem, not citation pile.** The live, cross-field question becomes: *how do traditions
+  authorize sanctioned untruth — and does the academic category "lying" travel across religious
+  ethics at all?*
+- **Engage theory/method, not only area lit.** Alongside the Buddhological scholarship, the author
+  engages comparative religious-ethics work on casuistry and accommodation (Catholic, rabbinic), so a
+  generalist sees the "broad and fundamental" stakes JAAR rewards.
+- **Name the intervention.** "Scholarship reads *upāya* through a doctrine-internal lens; I show that
+  lens obscures a comparative pattern of authorized deception that reframes the ethics-of-truth
+  debate."
+- **Pre-empt the rival reading.** A specialist will say *upāya* is sui generis; the author concedes
+  the doctrinal specificity, then defends the comparison's basis (handing the *tertium comparationis*
+  to `jaar-theory-and-method`).
+
+## Positioning pushback → the JAAR-specific repair
+
+- "Engages only your subfield's literature" → add the field-level theory/method conversation.
+- "Strawman of prior scholarship" → steelman the nearest rival, then distinguish your intervention.
+- "'Little written on this' is not a stake" → replace gap-by-absence with consequence.
+
+Hedged calibration: "top general journal in religious studies" is a widely held characterization rather
+than a metric this skill measures; the operative, verifiable demand is JAAR's stated requirement of
+broad and fundamental interest across traditions and methods — confirm the exact scope language on the
+journal's current submission guidelines, as editorial framing evolves.
+
 ## Supplementary resources
 
 - [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — JAAR scope and the broad-interest demand

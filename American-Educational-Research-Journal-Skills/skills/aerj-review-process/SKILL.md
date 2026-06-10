@@ -45,6 +45,36 @@ on the official page — they are not published as fixed numbers.
 - Leaving identifying clues that compromise masking
 - Treating an R&R as acceptance rather than a demanding revision
 
+## How a manuscript moves through AERJ (decision map)
+
+The two-section structure means your paper is judged by one section's editor and reviewer pool, not
+the journal as an undifferentiated whole. This map shows the gates and what each one tests.
+
+| Gate | Who decides | What it tests | Failure outcome |
+|------|-------------|---------------|-----------------|
+| Section routing | Editorial office | Topic/framing fit to SIA vs TLHD | Misroute slows or weakens review |
+| Editorial screen | Section editor | Broad significance, framing, soundness, scope | Desk reject (no external review) |
+| Masked external review | Multiple masked reviewers | Significance, framework, design, analysis, contribution | Reject or R&R |
+| Decision | Section editor adjudicates | Convergence of reviewer judgments | Reject / R&R / accept-after-revision |
+
+## Worked review vignette (illustrative)
+
+A TLHD-section paper on **motivation in online learning** clears routing but draws a desk-screen
+concern: the significance reads as one-platform-specific. The authors had front-loaded a broad
+self-regulation framing, so the editor sends it out. Two masked reviewers split — one praises the
+multilevel analysis, one wants the qualitative interview strand integrated. The editor's letter makes
+the integration the decisive point. Reading that letter as the rubric (not weighting the two reviewers
+equally) is what turns the R&R into an acceptance. Desk-reject rates and reviewer counts are not
+published as fixed figures — confirm against the journal's current submission guidelines.
+
+## Pre-empting the likely objections
+
+- *Significance reads niche.* → Strengthen the field-wide stake in the introduction before submitting.
+- *Method-standard mismatch.* → Align causal language with a causal design; meet the AERA standard
+  for your method.
+- *Masking slips.* → Remove self-citation tells and identifying clues that let a reviewer guess the
+  authorship.
+
 ## Output format
 
 ```

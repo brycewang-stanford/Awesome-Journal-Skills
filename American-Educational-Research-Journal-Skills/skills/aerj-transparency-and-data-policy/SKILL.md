@@ -56,6 +56,36 @@ transparency in as you write, not after acceptance.
 - Claiming restriction without an access path or de-identified substitute
 - Undocumented, un-seeded, unpinned code that "works on my machine"
 
+## Transparency obligations by data type (AERJ referees)
+
+AERA reporting standards and the Code of Ethics apply across traditions, but what "available for
+reanalysis" means depends on the data. Match your obligation to the row below.
+
+| Data type | What sharing/transparency means here | Common shortfall |
+|-----------|--------------------------------------|------------------|
+| Public-use survey (e.g., national longitudinal) | Code + documentation regenerating results | "Available on request" with no script |
+| Restricted administrative (state/district) | Access path + license + synthetic substitute | Restriction claimed, no path given |
+| Original qualitative | Coding scheme, exemplars, audit trail, reflexivity | Raw transcripts dumped or nothing shown |
+| Mixed | Both quant materials and qual analytic trail | One strand documented, the other opaque |
+
+## Worked transparency vignette (illustrative)
+
+An SIA-section study links a **state longitudinal data system** to a district intervention. The data
+cannot be shared, so the transparency package states the reason (SLDS confidentiality and a data-use
+agreement), gives the application path to the state agency, and ships **synthetic** data with the same
+schema so the master script runs end to end. The README documents construction of every derived
+variable and pins package versions; seeds are set so the illustrative **0.13 SD** estimate regenerates
+exactly. A weak version would write "data restricted" and stop — leaving no way to inspect the logic
+of inquiry the AERA standard requires.
+
+## Referee pushback and the venue fix
+
+- *"I can't verify the qualitative claims."* → Provide an inspectable analytic trail (coding scheme,
+  exemplar evidence, reflexivity), not raw data.
+- *"'Available on request' is not a plan."* → Replace with a documented access process and scope.
+- *"Code won't run on my machine."* → Ship a master script, README, seeds, and pinned versions;
+  confirm any policy wording against the journal's current submission guidelines.
+
 ## Output format
 
 ```

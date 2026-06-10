@@ -55,6 +55,45 @@ inside roughly **8,000–12,000 words including references and footnotes**. This
 【Next】jaar-writing-style
 ```
 
+## Section-by-section job sheet
+
+A JAAR essay has no IMRaD scaffold, so each section earns its place by the work it does for the
+argument. The shape below is common at the AAR/Oxford University Press flagship — adapt it; do not
+impose it mechanically.
+
+| Section | Its one job | Failure mode |
+|---------|-------------|--------------|
+| Introduction | Pose the field-level problem; state the thesis; signal method | Case minutiae before any stake |
+| Positioning | Locate the intervention briefly | A detached survey |
+| Analytical core (2–4 sections) | Each advances the thesis with evidence + method | A section that only describes |
+| Methodological reflection | Make the method visible where it produces the reading | Method invisible after the intro |
+| Conclusion | Deliver the payoff for the study of religion | "In this article I discussed…" |
+
+## Worked vignette: rescuing a sprawling draft
+
+A 14,000-word draft on "Sacred Geography in Two Andean Pilgrimages" buries its thesis on page nine
+behind a standalone literature review. Restructuring against JAAR's norms:
+
+- **Hoist the thesis.** The field-level claim — that the cases pressure the category "sacred space" —
+  moves to the first two pages, so a non-specialist meets the stakes immediately.
+- **Dissolve the survey.** The detached review is cut to a tight positioning passage; the rest is
+  woven into the analytical sections at the point of use.
+- **Make each section work.** Two sections that merely narrated the routes are merged and rewritten so
+  each advances the recategorization claim, signposted.
+- **Hit the budget.** Trimming the survey, pruning block quotations, and converting citation-only
+  notes (via `jaar-citation-and-style`) brings the essay under the ceiling — references and footnotes
+  count toward the word total.
+
+## Length and shape pushback → the fix
+
+- "I lost the thread by §3" → add section-opening claims that name the move.
+- "Over length, notes bloated" → prune notes and block quotes; weave positioning in.
+
+Hedged calibration: the ~8,000–12,000-word range (including references and footnotes) and the absence
+of a fixed section template reflect the journal's humanities-essay norm; treat the word ceiling and any
+abstract or heading requirements as volatile and confirm them against the journal's current submission
+guidelines.
+
 ## Supplementary resources
 
 - [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — article length range and structure expectations

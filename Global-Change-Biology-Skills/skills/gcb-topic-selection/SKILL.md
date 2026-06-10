@@ -35,6 +35,36 @@ you invest in design.
 - Decide whether the contribution is **empirical** (new mechanism/data), **methodological** (Technical
   Advance), or **synthetic** (Research Review) — that sets the article type.
 
+## Fit triage at a glance
+
+Run a candidate idea through this triage before committing. The verdict column reflects how GCB's scope
+screen tends to treat each pattern; it is guidance, not a guarantee.
+
+| Idea pattern | Driver? | Mechanism? | Broad reach? | Likely verdict |
+|--------------|---------|------------|--------------|----------------|
+| Warming alters microbial carbon cycling across biomes | Yes | Yes | Yes | Strong fit |
+| Single-site phenology record, no mechanism | Weak | No | No | Reframe or redirect |
+| Conservation action plan for one reserve | No | No | No | Out of scope |
+| New flux-partitioning method tested globally | Implicit | Methodological | Yes | Technical Advance |
+| Synthesis of eCO2 effects on N cycling | Yes | Yes | Yes | Research Review |
+
+## Worked micro-example (illustrative)
+
+An idea: "drought reduced tree growth in our forest plot." As stated it is a local description — likely
+out of scope. Sharpened for GCB: "we test whether drought-induced growth decline is driven by hydraulic
+failure versus carbon starvation, and whether the threshold transfers across an aridity gradient from
+temperate to semi-arid forests." Now there is a named driver (drought), a contested mechanism (hydraulic
+vs carbon), and cross-system reach (the aridity gradient). The same data, reframed around mechanism and
+generality, becomes a candidate Primary Research Article. The framing is illustrative.
+
+## Reframing pushback patterns
+
+- "No mechanism, just a pattern" → state the competing mechanisms and which one the study adjudicates.
+- "Reads as conservation practice" → recast the question as an ecosystem process or global-change
+  feedback, not a management recommendation.
+- "Relevant only to your site" → identify the gradient, biome, or system class over which the result is
+  expected to generalize.
+
 ## Anti-patterns
 
 - A local description with no global-change driver or broad relevance

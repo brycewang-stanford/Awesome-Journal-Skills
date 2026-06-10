@@ -30,6 +30,38 @@ JF published the canonical "factor zoo" critique (**Harvey, Liu & Zhu, "…and t
 - Alternative controls / fixed effects; placebo and falsification tests
 - For asset pricing: alternative factor models and EIV-corrected SEs (see `jf-empirical-design`)
 
+## Body-vs-Internet-Appendix triage table
+
+The hardest robustness decision at JF is not *which checks to run* but *which earn a place in the lean body*. Triage by how load-bearing each check is to the headline claim:
+
+| Check                                              | Lives in body if…                              | Otherwise → Internet Appendix |
+|----------------------------------------------------|------------------------------------------------|-------------------------------|
+| The single most threatening alternative explanation | A skeptic's first objection turns on it        | never hide it in the IA       |
+| Multiple-testing-adjusted threshold (anomalies)    | The discovery was mined from many candidates   | full grid of signals → IA     |
+| Value-weighted / NYSE-breakpoint version           | Microcap concentration is plausible            | EW + alt breakpoints → IA     |
+| Alternative key-variable measure                   | The measure is contestable and pivotal         | the other 4 measures → IA     |
+| Subsample / excluded-period                        | A specific event could drive the result        | exhaustive subsamples → IA    |
+| Placebo / falsification                            | One clean falsification clinches credibility   | the rest of the battery → IA  |
+
+The cultural signal at JF: 3–6 decisive checks plus a deep Internet Appendix reads as confident; twenty robustness tables in the body read as defensive.
+
+## Worked vignette — surviving the factor-zoo critique
+
+*Illustrative numbers.* An anomaly paper reports a long-short spread of 0.58%/month, raw t = 3.2, found after screening (honestly disclosed) ~40 candidate signals. JF's published "factor zoo" lens (Harvey, Liu & Zhu) means t = 3.2 is **not** automatically decisive:
+
+- Disclose the search: "We examined 40 supplier-network signals; we report the survivor." HARKing the count down to one is a fatal credibility error if a referee reconstructs it.
+- Apply an adjusted threshold: with ~40 tests an illustrative FDR-style cutoff sits near t ≈ 3.1–3.4, so the body must show the adjusted alpha (say 41 bps, t = 2.9 after FF5 + momentum), not the raw spread.
+- Body holds the decisive checks — factor-adjusted alpha, value-weighted/NYSE-breakpoint version (say 33 bps), one placebo. The other 37 signals, all factor models, and every subsample go to the Internet Appendix, each cited from the text.
+
+The editor sees a robust effect, a transparent search, and a magnitude that survives the multiple-testing haircut.
+
+### Referee-pushback patterns and the JF-specific fix
+| Pushback you will hear                          | JF-specific fix                                                 |
+|-------------------------------------------------|-----------------------------------------------------------------|
+| "How many specifications did you try?"          | State the count; report an FDR-/Bonferroni-adjusted threshold   |
+| "This is a microcap effect"                     | Value-weighted, NYSE-breakpoint version in the body             |
+| "You buried the failing robustness check"       | Surface the load-bearing check in the body, not the appendix    |
+
 ## Checklist
 
 - [ ] 3–6 decisive checks in the body; the rest in the Internet Appendix

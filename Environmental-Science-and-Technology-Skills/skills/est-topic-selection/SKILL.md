@@ -36,6 +36,35 @@ demonstrated relevance to a real environmental system. Decide fit before you inv
 - **Feature** — accessible, magazine-style treatment for the broad community.
 - **Policy Analysis** — science/engineering at the **policy interface** (risk, regulation, cost-benefit).
 
+## Fit-versus-redirect decision table
+
+Use this to decide quickly whether ES&T is the home, or whether the work belongs at a specialist or
+rapid venue. The recurring failure is mistaking a sound measurement for a direction-setting finding:
+
+| Your work is... | ES&T fit | Better home |
+|-----------------|----------|-------------|
+| Occurrence data with no process/exposure insight | weak | a specialist monitoring journal |
+| Mechanism/attribution that changes how a system is managed | strong | ES&T Research Article |
+| Urgent, high-impact, short result | redirect | ES&T Letters |
+| Pure analytical-method development, no environmental question | weak | an analytical-chemistry journal |
+| Synthesis identifying field-wide gaps | strong | ES&T Critical Review |
+| Science at the regulation/cost-benefit interface | strong | ES&T Policy Analysis |
+
+## Worked micro-example (illustrative — three framings of one PFAS dataset)
+
+The same field campaign can be off-fit or on-fit depending on the question (illustrative):
+
+- **Off-fit:** "We report 14 PFAS at 8 river sites." Occurrence catalog → reads as routine data, a
+  likely desk decline at a direction-setting journal.
+- **Borderline:** "PFAS concentrations correlate with upstream industrial land use." A pattern, but no
+  process insight or consequence — a reviewer asks "so what changes?"
+- **On-fit:** "In-stream biotransformation of precursors raises terminal-acid exposure ~40%
+  (illustrative) below discharges, so occurrence surveys systematically under-count persistent burden
+  — monitoring should target precursors." Now it sets direction for how the field measures PFAS.
+
+The single test that sorts these: can you finish the sentence "this changes how people *measure,
+model, treat, or regulate* the system because…"? If not, sharpen the question before investing.
+
 ## Anti-patterns
 
 - "We measured X in Y" with no significance argument for an environmental system

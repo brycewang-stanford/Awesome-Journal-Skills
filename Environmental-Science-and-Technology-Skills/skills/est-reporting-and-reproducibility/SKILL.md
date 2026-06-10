@@ -42,6 +42,44 @@ the night before submission.
 - [ ] Code/scripts deposited; figures regenerate from deposited data
 - [ ] Page/word limits and file formats per ACS SI guidance (待核实 on specifics)
 
+## Deposition routing: data type → repository
+
+ES&T expects deposition in the *community-standard* repository for each data type, not a generic
+catch-all. Reviewers in a sub-field know the canonical home and notice when data are not there
+(confirm any volatile mandate against the journal's current author guidelines — 待核实):
+
+| Data type | Expected repository | Reviewer's note if missing |
+|-----------|--------------------|-----------------------------|
+| DNA/RNA sequences | GenBank / ENA / DDBJ | not independently checkable |
+| Omics / microarray | GEO / ArrayExpress | non-standard, hard to reuse |
+| Proteomics | PRIDE / ProteomeXchange | unverifiable identifications |
+| Mass spectra / metabolomics | MassIVE / MetaboLights / MassBank | spectra not reusable |
+| General data / code | Dryad, figshare, Zenodo, OSF | "available on request" red flag |
+
+## Worked micro-example (illustrative — SI for a PFAS fate study)
+
+For the river-PFAS study, a reviewer-ready Associated Content package (illustrative) contains:
+
+- **SI PDF:** extended LC-MS/MS methods, transition list and collision energies, the QA/QC table
+  (field blanks, 92% recovery, per-analyte LOQ), calibration curves (R² > 0.99, illustrative), and
+  the ROS censoring detail — each item S-numbered and referenced in order from the main text.
+- **Deposited:** raw and processed concentration tables plus the analysis code (with the random seed
+  for the bootstrap CI and pinned package versions) on Zenodo with a DOI; the mass spectra on MassIVE.
+- **Data-availability statement:** "Concentration data and analysis code are available at Zenodo
+  (DOI: 10.xxxx/illustrative); raw mass spectra are deposited at MassIVE (accession: illustrative)."
+
+The test that catches drift: re-run the deposited master script on a clean machine — every figure and
+the 2.4 ng/L headline number must regenerate exactly. If they do not, the SI and manuscript have
+diverged.
+
+## Referee-pushback patterns and the venue-specific fix
+
+- *"Data available on request is not sufficient."* → Deposit in the type-appropriate repository and
+  cite the accession/DOI in the statement.
+- *"Methods not reproducible."* → Move instrument settings, standards, and QA/QC into the SI in
+  enough detail to repeat the work; deposit code with seeds and versions.
+- *"SI contents not described."* → Write the SI paragraph naming each file and its type.
+
 ## Anti-patterns
 
 - "Data available on request" with no statement, repository, or accession

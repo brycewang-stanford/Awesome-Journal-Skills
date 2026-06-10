@@ -44,6 +44,17 @@ description: Use when running the final pre-submission preflight for The Journal
 - [ ] **Replication code** ready — the **Data and Code Sharing Policy (in force since Sept 2016; current rev. 1 April 2024)** requires code with the final accepted version, published in Supplementary Information and checked by the Data Editor
 - [ ] Funding/acknowledgments drafted; suggested/opposed reviewers if asked (see `jf-referee-strategy`)
 
+## Worked vignette — the night-before preflight
+
+*Illustrative.* A team submits tomorrow and the preflight surfaces three issues. The body is 63 pages — over the limit — so two robustness tables move to the Internet Appendix, bringing it to 57 pp. All authors reside in a high-income country and one is an AFA member, so the fee is the high-income member tier (confirm the figure on the AFA page). They drafted a generic cover letter — which JF says to skip; they delete it, having nothing specific to flag. With the IA bundled and code staged for the Data Editor, the submission is clean.
+
+### Desk-reject-adjacent preflight traps
+| Trap caught at preflight                            | The fix before submitting                                      |
+|-----------------------------------------------------|-----------------------------------------------------------------|
+| Body over 60 pp                                     | Move non-decisive exhibits to the Internet Appendix             |
+| IA uploaded as a separate file                      | Re-bundle in the same PDF, titled "Internet Appendix"           |
+| Stale fee tier quoted                               | Re-check the current tier on the AFA submission page            |
+
 ## Anti-patterns
 
 - Attaching a cover letter with no specific purpose (JF says skip it)

@@ -57,6 +57,36 @@ with the location of every change so the editor can verify quickly.
 - Adding a new figure without clearing its permissions
 - Letting the revised manuscript lose anonymity
 
+## Triage grid for referee demands at the College Art Association quarterly
+
+Not every comment carries equal weight, and some pull against each other. Sort each demand first.
+
+| Comment type | Default response | Watch for (this venue) |
+|---|---|---|
+| Editor-flagged decisive point | Solve first; lead the cover note with it | The editor's letter is the rubric — it outranks any one referee |
+| Reasonable evidentiary ask | Concede; add the source/figure, cite the page | A new figure triggers a fresh permissions clearance |
+| Demand that would dilute the thesis | Rebut respectfully on art-historical grounds | Gutting the claim to please a referee weakens it |
+
+## Worked vignette: reconciling two referees who want opposite things
+
+Suppose an R&R arrives on an attribution article: Referee A wants the attribution stated boldly as
+fact, Referee B wants it hedged to "attributed to." The author holds the certainty term where the
+evidence licenses it and **explains the conflict openly**: bolder wording would outrun the underdrawing
+evidence, softer would ignore the inventory link. A referee also
+asks for a new detail crop, so the author **clears its permission and stages the high-resolution
+file**, quoting each comment with its **location**.
+
+## Response-letter pitfalls and the disciplinary correction
+
+- *"You thank the reviewer but changed nothing."* Pair each acknowledgment with a real change and its
+  location, or an argued rebuttal on art-historical grounds — and keep the resubmitted manuscript Word
+  and self-blind so a new acknowledgment cannot taint the double-blind round.
+
+## Calibration anchor (hedge where uncertain)
+
+- An R&R is a genuine opening, not a rejection in disguise: it is the usual route for promising work
+  (confirm against the journal's current submission guidelines).
+
 ## Output format
 
 ```

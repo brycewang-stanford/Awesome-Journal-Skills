@@ -45,6 +45,37 @@ If a choice has no such line, either the choice or the framework is underspecifi
 - Over-claiming a grand theory from a single bounded study
 - Ignoring context/equity assumptions the framework actually carries
 
+## Framework expectations by tradition (AERJ referees)
+
+AERJ rewards conceptual advance, but what a "framework doing work" looks like differs by section and
+method. Calibrate yours against the row that fits your study.
+
+| Tradition / section | Frame should generate | Under-theorized tell a referee flags |
+|---------------------|-----------------------|--------------------------------------|
+| Quantitative, TLHD | Hypotheses and construct-to-measure links | Hypotheses with no derivation from the frame |
+| Quantitative, SIA | Mechanisms the policy/organizational design tests | A frame cited once, then never revisited |
+| Qualitative | Sensitizing concepts guiding what to look for | "Lens" named but coding runs on intuition |
+| Mixed | Why integration is theoretically motivated | Two strands with two unrelated frames |
+
+## Worked framework vignette (illustrative)
+
+An SIA-section study of a **school-funding equalization reform** invokes an organizational-resource
+framework. To make it do work, the authors derive that equalization should compress *between-school*
+variance in instructional spending more than *within-school* variance — a testable implication. Their
+multilevel design then reports an illustrative drop in between-school spending variance from **0.30 to
+0.18** after the reform. Because the framework generated that specific prediction, the result reads as
+a conceptual advance about how institutions absorb funding shocks, not a descriptive spending tally.
+Each design choice carries a "we do this *because* the framework implies ___" line.
+
+## Referee pushback and the venue fix
+
+- *"The paper is atheoretical / under-theorized."* → Show the frame generating the questions and
+  shaping what counts as evidence, not sitting decoratively in section 2.
+- *"You over-claim a grand theory."* → Scope the contribution to extend/test/complicate, and state the
+  conditions under which the claim holds.
+- *"Constructs aren't operationalized."* → Tie each construct to a measure (quant) or to an observable
+  (qual); confirm framing expectations against the journal's current submission guidelines.
+
 ## Output format
 
 ```

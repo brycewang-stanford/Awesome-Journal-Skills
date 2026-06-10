@@ -44,6 +44,33 @@ JOM's Empirical Research Methods Department performs method checks on incoming e
 - Single-respondent survey for a relational/dyadic operations claim.
 - Intervention work that conflates the researcher's actions with the measured effect.
 
+## Design-defense checklist the methods check applies
+
+Each JOM design family carries its own non-negotiable evidence; the mapping below summarizes what the Empirical Research Methods check typically scrutinizes. Confirm exact expectations against current methods-department guidance.
+
+| Design | Defense expected up front | Fatal omission |
+|--------|---------------------------|----------------|
+| Survey | Sampling frame, coverage, validated scales, CMB separations | Single-respondent data for a dyadic claim |
+| Archival/secondary | Identification strategy, reproducible construction, clustering | Endogenous practice treated as exogenous |
+| Behavioral-OM experiment | Manipulation/attention checks, random assignment, task realism | Confound between manipulation and a cue |
+| Field / case study | Sampling logic, traceable data structure, audit trail | Anecdote substituted for within-case evidence |
+| Intervention Based Research | Pre-stated effect, protocol/timeline, action–effect separation | Researcher actions conflated with the outcome |
+
+## Desk-reject and return triggers on design
+
+- An optimization or pure simulation model presented as the empirical contribution (redirected to analytical OM venues).
+- A line-level claim tested only with firm-level archival data — a level mismatch.
+- Survey design with no procedural remedies for common-method bias and no measurement validation plan.
+
+## Worked vignette: archival vs. field for a quality-practice question
+
+Does cross-training frontline operators reduce defects? Archival route: a plant panel with HR cross-training records and quality logs, identified via a phased rollout (illustrative). Field route: an intervention introducing cross-training in matched lines with pre/post measurement. The choice turns on the claim and the threat. If selection is the worry and a staggered rollout exists, the archival quasi-experiment identifies the effect at the line level with plant and time fixed effects. If the mechanism (how cross-training changes floor problem-solving) is the contribution, Intervention Based Research observes the process and pre-states the effect. Either is JOM-fit; an analytical model of optimal allocation is not.
+
+## Design objections and the JOM-grounded response
+
+- *"The method does not fit the operations phenomenon."* Re-state the unit and level, then show the design observes at exactly that level.
+- *"This is analytical work, not empirical."* If the core contribution is a model, redirect to an analytical venue; if observed, foreground the observation.
+
 ## Output format
 
 ```

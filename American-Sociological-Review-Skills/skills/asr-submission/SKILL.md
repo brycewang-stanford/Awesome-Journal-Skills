@@ -53,6 +53,49 @@ separate title page. Verify volatile specifics (fee, caps, editors) on the offic
 - [ ] Not under review at any other journal; prior appearances disclosed
 - [ ] Data documentation prepared per the ASA data-sharing norm (see `asr-data-and-transparency`)
 
+## Avoidable returns at the ASR desk
+
+The ASA's flagship returns or delays papers most often for masking and length-accounting errors, not
+for science — all within your control. Confirm any volatile figure against the current guidelines first.
+
+| Trip-wire | Consequence | Fix before upload |
+|-----------|-------------|-------------------|
+| Title page in the manuscript | masking broken | strip it; use the separate title-page file |
+| "in our prior study" wording | de-anonymizes the author | neutralize to "in a prior study" |
+| References left out of word count | over the 15,000 cap on recount | count text + references + footnotes |
+| Live document metadata | author name in file properties | clear properties before export |
+
+## Worked micro-example (illustrative)
+
+An author preps a quantitative inequality paper for Sage Track upload.
+
+```
+Body + references + footnotes: 14,920 words → under 15,000, OK
+Abstract: 178 words, no institutions named → in range
+Files: (1) masked manuscript, no title page; (2) separate title page with affiliations + word count
+Masking sweep: 3 self-citations reworded; properties cleared; acknowledgments on title page only
+Fee: $25 processing fee ready (待核实 current amount / ASA-student waiver)
+```
+
+Two files, caps verified on a recount including references, and a clean masking sweep — the most
+common avoidable rejections pre-empted before upload.
+
+## Editor pushback → ASR-specific fix
+
+- *"Over length."* → Recount with references and footnotes; prune citation strings rather than cutting
+  argument (hand to `asr-writing-style`).
+- *"We could identify the authors."* → Re-run the masking sweep on wording, acknowledgments, and
+  metadata; the separate title page is the only place identifiers belong.
+
+## Calibration anchors
+
+- **Masking is the highest-frequency failure.** At a masked flagship, an under-anonymized file is the
+  most common avoidable cause of a return.
+- **References are not free.** ASR's cap is unusual in counting the reference list — budget for it
+  early.
+- **Treat volatile specifics as provisional.** Fee, caps, and editor handling can change; verify
+  live.
+
 ## Anti-patterns
 
 - Leaving a title page or author identifiers in the manuscript (breaks masking)

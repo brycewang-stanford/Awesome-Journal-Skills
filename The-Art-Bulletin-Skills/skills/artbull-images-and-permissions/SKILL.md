@@ -57,6 +57,27 @@ file (max 20 images, ≤ 10 MB)**; **high-resolution files are supplied promptly
 - Low-resolution or manipulated files that misrepresent the object
 - Captions missing the mandated credit line wording
 
+## Worked vignette: a figure program that nearly sank a paper
+
+Suppose a study turns on a modern painting whose estate is represented by a rights society — the *one*
+indispensable image is the most restricted and expensive, the estate slow, electronic rights billed
+apart. The author starts clearance at once, requests **world rights, print + electronic, all editions** up
+front, and confirms detail crops fall under the same license — first, because the argument cannot
+survive substituting it.
+
+## Clearance decision aid (per figure)
+
+| Question | Yes path | No / unsure path |
+|---|---|---|
+| Is the *work* public-domain? | Free — but the photograph may be separately copyrighted | Living artist/estate: expect a permission and a fee |
+| Photo's rights holder identifiable? | Clear with them (museum, ARS, Bridgeman) | Never clear from the source book |
+
+## Pipeline pressure point (hedge where uncertain)
+
+- *"The argument's key image is unclearable."* Decide early whether the reading can lean on a clearable
+  work, never at proof stage; this pipeline is the long pole of art-historical production (confirm
+  illustration caps against the journal's current submission guidelines).
+
 ## Output format
 
 ```

@@ -38,6 +38,36 @@ reviewers**.
 - [ ] No conflicts (no recent co-authorship, advising, or shared institution)
 - [ ] A balanced, international set where possible
 
+## What the desk editor is screening for (and how the letter answers it)
+
+ES&T editors triage on a handful of axes before deciding whether to spend a reviewer's time. The
+letter exists to settle each one in the first read. Treat the table as the editor's mental checklist.
+
+| Editor's silent question | Weak letter | Letter that survives the desk |
+|--------------------------|-------------|--------------------------------|
+| Is this *environmentally* significant? | "We characterized sorption of compound X" | "X is a high-production-volume replacement detected in drinking-water sources; its mobility governs human exposure" |
+| Is it novel or incremental occurrence? | "We add new monitoring data" | "First mechanistic link between [process] and observed field concentrations, resolving a contradiction in prior ES&T work" |
+| Does it fit ES&T vs. a specialist title? | scope unstated | one sentence tying to fate/transport, treatment, tox, or policy interface |
+| Right article type and within caps? | type unnamed | "Research Article, ~6,400 words incl. figure word-equivalents" |
+| Can I find clean reviewers? | 2 close collaborators | ≥4 non-conflicted experts spanning the sub-areas |
+
+## Worked micro-example (illustrative — a PFAS occurrence-and-fate study)
+
+Suppose the manuscript reports per- and polyfluoroalkyl substances (PFAS) in a wastewater-impacted
+river, with a transformation pathway from a precursor to a terminal perfluoroalkyl acid. *Illustrative
+framing only* — numbers are invented to show the move:
+
+- **Weak hook (desk-decline risk):** "We measured 14 PFAS at 8 sites; concentrations ranged 2–90 ng/L."
+  This is occurrence data; an editor reads it as incremental.
+- **Strong hook:** "We show that a precursor (illustrative: 6:2 FTSA) is biotransformed to PFHxA
+  downstream of a discharge, raising terminal-acid load ~40% (illustrative) over 12 km — evidence that
+  occurrence surveys *underestimate* persistent burden because they miss in-stream precursor
+  conversion." Now the significance (exposure-relevant, direction-setting for monitoring design) is
+  explicit in two sentences, and the novelty is mechanistic rather than another concentration table.
+
+The fix that converts most desk-rejects is replacing *what we measured* with *what the measurement
+changes about how the field should monitor, model, treat, or regulate the system*.
+
 ## Anti-patterns
 
 - A letter that summarizes methods but never states environmental significance
@@ -45,6 +75,7 @@ reviewers**.
 - Suggesting close collaborators or same-institution colleagues as reviewers
 - Omitting COI, preprint status, or coauthor-consent statements
 - A multi-page letter that buries the contribution
+- Pitching incremental occurrence data without a mechanistic or exposure consequence
 
 ## Output format
 

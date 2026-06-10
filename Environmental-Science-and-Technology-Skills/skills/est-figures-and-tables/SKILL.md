@@ -41,6 +41,43 @@ on the live page). Every exhibit must pull its weight.
 - Sampling-site and spatial-variation maps (`sf`/`tmap`, QGIS); contour/heat maps
 - Spectra (with insets), microscopy with scale bars, speciation diagrams
 
+## TOC graphic: required-by-type and what makes it pass
+
+The TOC/abstract graphic is the exhibit most often mishandled at ES&T. Use this to decide whether one
+is required and whether yours earns the slot (confirm size/format on the live ACS spec — 待核实):
+
+| Article type | TOC graphic | Common failure |
+|--------------|-------------|----------------|
+| Research Article | required | clones Figure 1, not a concept |
+| Critical Review / Perspective | required | busy multi-panel, illegible at thumbnail |
+| Feature | required | decorative art, no scientific content |
+| Policy Analysis | required | a table screenshot, not a visual |
+| Viewpoint / Spotlight / Letter | not required | effort wasted building one |
+
+A passing TOC graphic shows the paper's single idea — a process arrow, a before/after, a fate
+pathway — readable at search-result-thumbnail size.
+
+## Worked micro-example (illustrative — LCA of a treatment technology)
+
+A life-cycle assessment comparing granular activated carbon (GAC) vs. ion exchange for PFAS removal.
+Exhibit choices (illustrative):
+
+- **Main figure:** grouped bar of cradle-to-gate global-warming potential per m³ treated, GAC vs. IX,
+  with error bars naming the Monte Carlo band (5th–95th percentile, n=1,000). Without intervals a
+  reviewer cannot tell whether a ~15% (illustrative) difference is real.
+- **SI, not main text:** full inventory, characterization factors, and per-category contributions.
+- **TOC graphic:** a two-box flow (feedwater → technology → treated water) annotated with the trade-off
+  (lower carbon vs. higher regeneration burden), not a shrunken bar chart.
+
+The discipline separating a clean LCA figure from a rejected one: every bar names its uncertainty band
+and the functional unit sits in the caption, so the exhibit is self-contained.
+
+## Referee-pushback patterns and the venue-specific fix
+
+- *"Means without uncertainty."* → Add intervals with the dispersion measure named and n stated.
+- *"TOC graphic duplicates Figure 1."* → Redraw as a conceptual visual abstract.
+- *"Map has no scale bar / projection."* → Add scale bar, north arrow, projection, and coordinates.
+
 ## Anti-patterns
 
 - Submitting without the required TOC graphic, or a TOC graphic that just clones Figure 1

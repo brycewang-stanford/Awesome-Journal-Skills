@@ -50,6 +50,43 @@ covers estimation; moderators and publication-bias diagnostics live in `psychbul
 - Mixing incomparable effect-size metrics without conversion
 - Letting reported numbers diverge from the analysis script (the database is deposited and checkable)
 
+## Model-choice expectations at the review flagship
+
+Psychological Bulletin, the APA's flagship review journal, expects state-of-the-art meta-analytic
+modeling — the model is where methods reviewers concentrate. The decision table they apply:
+
+| Methodological choice | Defensible at this venue | Major-revision / reject trigger |
+|-----------------------|--------------------------|----------------------------------|
+| Model | Random-effects (or mixed) by default, justified | Fixed-effect imposed on a heterogeneous literature |
+| Dependency | RVE or three-level model for clustered effects | Multiple effects per study treated as independent |
+| Heterogeneity reporting | Q, I², τ², *and* a prediction interval | Only the pooled point estimate and its CI |
+| τ² estimator | Named (REML) and reported | Default estimator, unstated |
+| Metric comparability | Disparate metrics converted and documented | g and r mixed without conversion |
+
+## Worked vignette — fitting the pooled model
+
+*Illustrative numbers only — not real data.* The self-affirmation synthesis codes 51 effects from
+k = 42 studies (9 studies contribute 2–4 effects each). Under this skill's rules:
+
+- **Effect size**: Hedges' g with small-sample correction; 6 effects originally reported as r or t are
+  converted to g and the conversions are documented.
+- **Model**: a random-effects estimate is implausible to treat as a single true effect across varied
+  populations, so REML random-effects is the base; clustered effects are handled with RVE
+  (`robumeta`/`clubSandwich`) so the nine multi-effect studies do not understate the SEs.
+- **Pooled result**: g = 0.34, 95% CI [0.24, 0.44].
+- **Heterogeneity**: Q(41) significant, I² = 68%, τ² = 0.041 (τ = 0.20), and a 95% prediction interval
+  of roughly [−0.10, 0.78] — far wider than the CI, which is the honest signal that true effects vary
+  and motivates the moderator analysis rather than a single-number headline.
+
+## Referee pushback → venue-specific fix
+
+- *"You report a CI but no prediction interval."* → Add the PI; with I² = 68% the CI alone misleads
+  about the spread of true effects across settings.
+- *"Multiple effects per study were treated as independent."* → Refit with RVE or a three-level model and
+  report how the SEs and τ² change.
+- *"A fixed-effect model is indefensible here."* → Switch to random-effects, justify in text, and name
+  the τ² estimator.
+
 ## Output format
 
 ```

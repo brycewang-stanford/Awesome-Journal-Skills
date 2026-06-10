@@ -55,6 +55,44 @@ it with evidence and method. This skill turns material into a thesis-driven argu
 【Next】jaar-sources-and-evidence
 ```
 
+## Thesis-strength ladder (where editors place a claim)
+
+Referees for the flagship AAR/Oxford University Press journal sort theses by how much they ask the
+study of religion to revise. Push a draft claim up at least one rung before submission; the bottom two
+rungs are where the "merely descriptive" desk-return begins.
+
+| Rung | What the draft says | How a JAAR reader hears it |
+|------|---------------------|----------------------------|
+| 0 — Topic | "This essay examines mortuary ritual in X" | No claim; a survey |
+| 1 — Description-plus | "X ritual is more varied than assumed" | Local; specialist-only |
+| 2 — Reinterpretation | "X is better read as boundary-work, not purification" | A contestable reading |
+| 3 — Recategorization | "Cases like X show the purity/danger frame mis-sorts a class of rites" | JAAR's target intervention |
+
+Hedged calibration: editors do not publish a rubric of "rungs"; this is a heuristic distilled from
+JAAR's stated "must have a point" demand and broad-interest mandate — confirm current expectations
+against the journal's submission guidelines, which shift between editorships.
+
+## Worked vignette: a comparative ritual essay finds its point
+
+A scholar drafts "Threshold Offerings in Two Pilgrimage Sites," describing food offerings left at a
+Marian shrine in Italy and at a Sufi *dargah* in the Deccan. A colleague flags it as "two thick
+descriptions and a shrug." Running it through the ladder:
+
+- **Thesis as claim, not topic.** From "examines offerings at two sites" to: *threshold offerings at
+  both enact a contract with a saintly intercessor that scholarship files under "popular piety" — a
+  residual category hiding a shared transactional logic* (the **comparative claim** type above).
+- **Objection, answered.** A specialist calls the cases incommensurable; the author concedes the
+  cosmologies differ, then defends the *tertium comparationis* (the intercessory contract, not the
+  theology) — handing reflexivity work to `jaar-theory-and-method`.
+- **Earned conclusion.** Not "I discussed two sites" but what the recategorization buys: a cleaner
+  analytic for transactional devotion.
+
+## Referee pushback → the JAAR-specific repair
+
+- "Descriptive; I waited for the argument" → hoist a rung-2/3 claim into the first two pages.
+- "Interesting only to specialists" → re-state the implication for a category generalists share.
+- "Reads as advocacy" → separate believers' claims from your analytic claim.
+
 ## Supplementary resources
 
 - [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — the "have a point" / analysis-over-description requirement

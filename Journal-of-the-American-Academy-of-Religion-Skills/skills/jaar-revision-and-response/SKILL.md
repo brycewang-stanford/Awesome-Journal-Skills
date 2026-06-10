@@ -69,6 +69,28 @@ article's broad significance; group by reader; end each entry with the change lo
 【Next】resubmit via Manuscript Central
 ```
 
+## Worked vignette: reconciling a textual reader and a theorist
+
+The comparative-offerings essay (from `jaar-argument-development`) earns an R&R. Reader A, a textual
+historian, wants far more on the shrine's hagiographic sources; Reader B, a theorist, wants the
+"transactional contract" claim grounded in gift theory and pressed harder. Satisfying both literally
+would double the length and blur the argument.
+
+- **Editor's letter as rubric.** The editor singles out two decisive points — tighten the *tertium
+  comparationis* and keep the field-level payoff visible — and those lead the response.
+- **Reconcile, don't merge.** The author adds a compact source paragraph for Reader A but declines to
+  turn the essay into a hagiography study, telling the editor that the comparison, not either site's
+  textual depth, is the contribution; for Reader B she adopts gift theory yet resists "press harder"
+  into a universal law, defending the bounded scope on reflexivity grounds (`jaar-theory-and-method`).
+- **Protect broad significance.** Net additions stay inside the word budget; the field-level stakes
+  remain in the intro and conclusion rather than dissolving into shrine particulars.
+
+Hedged calibration: JAAR does not publish a fixed R&R word limit or a required response-letter
+template; the point-by-point convention and the "editor adjudicates" model here reflect common
+practice — confirm specific resubmission instructions against the editor's decision letter and the
+journal's current submission guidelines, and keep the revised main document anonymized (third-person
+self-cites, in-text author-date) on resubmission.
+
 ## Supplementary resources
 
 - [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — review model and decision categories

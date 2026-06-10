@@ -49,6 +49,42 @@ Change: [Section/page/figure-table/SI location where the revision appears].
 Open with a short **summary of the main changes** to the editor; group by reviewer; end each entry
 with the location of every change so the editor can verify quickly.
 
+## Triaging ES&T reviewer asks: concede, add, or defend
+
+Environmental-science reviews cluster into recognizable demands. Decide the response mode per type so
+the letter reads as evidence, not assurance:
+
+| Reviewer ask | Default response mode | What to show |
+|--------------|----------------------|--------------|
+| "Report detection limits / QA/QC" | concede + add to SI | the blank/recovery/LOD table |
+| "Mass balance doesn't close" | concede or bound | closure % and the named missing fraction |
+| "Environmental relevance unclear" | defend with framing | tie concentrations/matrix to the real system |
+| "Add a control/replicate" | add if feasible | the new result, in a figure/table |
+| "Reanalyze censored data" | add | ROS/MLE result vs. original |
+| "Conditions unrealistic" | defend or scope | justify, or narrow the claim |
+
+## Worked micro-example (illustrative — answering a QA/QC pushback)
+
+A reviewer on the PFAS-fate paper writes (illustrative): *"The transformation claim is unconvincing
+without recovery and blank data; precursor loss could be sorption."* A response that converts the
+reviewer:
+
+```
+> The transformation claim is unconvincing without recovery and blank data;
+> precursor loss could be sorption.
+
+Response: We agree QA/QC was under-reported and that sorption is a competing
+explanation. We now report matrix-spike recovery (92±7%, n=6) and field blanks
+(<LOQ) in Table S3, and we add an abiotic (autoclaved) control showing <5%
+precursor loss (illustrative), ruling out sorption/abiotic pathways as the
+dominant sink. The downstream PFHxA increase therefore reflects biotransformation.
+Change: Methods p.6; new Figure 3b; Tables S3 and S5; data and code updated on
+Zenodo (DOI: illustrative).
+```
+
+The pattern that wins: name the competing explanation the reviewer raised, kill it with a *control and
+reported numbers*, and point to the exact location — never promise the fix in prose alone.
+
 ## Anti-patterns
 
 - Ignoring or merging away a comment without a visible response

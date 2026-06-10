@@ -38,6 +38,35 @@ JOM routes to **12 Departments**, each with its own mission statement (e.g., Hea
 - Ignoring the target Department's literature.
 - Claiming novelty without naming what the field currently believes.
 
+## How JOM referees read the front end
+
+The cues below reflect how empirical-OM reviewers distinguish a conversation-joining front end from a citation list; treat them as interpretive.
+
+| Positioning move | Reads as JOM-ready | Reads as misrouted |
+|------------------|--------------------|---------------------|
+| Framing device | Problematizes a shared OM/SCM assumption | "No one has studied X" |
+| Stance toward analytical OM | Brings observation to a modeled claim | Argues as a model |
+| Department engagement | Joins the preferred Department's debate | Ignores its literature |
+
+## Desk-reject and return triggers on positioning
+
+- A chronological literature tour with no argument.
+- Heavy analytical-OM citation that never states what observation it adds.
+- The target Department's canonical works absent, signaling misrouting.
+
+## Worked vignette: positioning a behavioral-OM ordering study
+
+An online experiment shows decision-makers systematically over-order after a stockout, beyond newsvendor logic (illustrative). Analytical OM has modeled ordering as rational cost-minimization. The weak positioning says "behavioral ordering is understudied." The JOM-grade positioning enters a live debate — whether observed ordering departs from normative models and why — names the anchor (newsvendor theory and the behavioral-OM stream challenging it), states the tension (persistent post-stockout over-ordering), and frames the wedge: experimental observation that the bias amplifies with disruption salience. Its value is testing observed human decisions against a pattern the analytical literature assumed away.
+
+## Positioning objections and the corrective move
+
+- *"What conversation is this paper in?"* Replace the gap claim with a problematized assumption and name the anchor works your evidence revises.
+- *"How is this different from existing analytical OM?"* State that your contribution is the observation brought to a claim the field has mostly modeled.
+
+## Calibrating against the empirical-OM identity (hedged)
+
+JOM is an empirical, theory-building operations and supply chain journal, not an analytical-modeling venue; positioning that competes on modeling sophistication rather than observed evidence tends to be redirected — verify against current guidance.
+
 ## Output format
 
 ```

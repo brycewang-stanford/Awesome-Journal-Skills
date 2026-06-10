@@ -41,6 +41,28 @@ Default assumption: unless the user says otherwise, treat the target as **JOM** 
 
 `jom-topic-selection → jom-theory-development → jom-literature-positioning → jom-methods → jom-data-analysis → jom-contribution-framing → jom-tables-figures → jom-writing-style → jom-submission → jom-review-process → jom-rebuttal`
 
+## Bottleneck-to-skill diagnosis
+
+When the next step is unclear, diagnose from the symptom rather than the calendar. The table reads the most common JOM-specific failure signals; route accordingly and confirm scope questions against the current author guidelines.
+
+| Symptom in the manuscript | Likely bottleneck | Route to |
+|---------------------------|-------------------|----------|
+| Reviewers ask "is operations the heart?" | Scope/fit | `jom-topic-selection` |
+| Hypotheses describe but never explain operationally | Missing mechanism | `jom-theory-development` |
+| Measurement or endogeneity concerns dominate the letter | Method-check exposure | `jom-data-analysis` |
+| "Promising but contribution unclear" | Framing | `jom-contribution-framing` |
+| Returned before review | Submission-package gap | `jom-submission` |
+
+## Worked vignette: routing a stalled manuscript
+
+A team has plant-survey data and a significant result but a decision letter saying the contribution is unclear and the measures are thin (illustrative). The router reads two bottlenecks: a method-check exposure on construct validity and a framing gap on operations-as-heart. Sequence: first `jom-data-analysis` to firm up the measurement model, then `jom-contribution-framing` to name the OM belief that changes, and only then `jom-rebuttal` to assemble the response. Jumping straight to the rebuttal would paper over the decisive measurement issue that the Empirical Research Methods gate will not let pass.
+
+## Common routing mistakes
+
+- Treating a contribution complaint as a tables problem and polishing exhibits instead of reframing.
+- Entering rebuttal mode before the underlying method-check issue is actually fixed.
+- Picking a Department late instead of letting it sharpen the question early.
+
 ## Output format
 
 ```

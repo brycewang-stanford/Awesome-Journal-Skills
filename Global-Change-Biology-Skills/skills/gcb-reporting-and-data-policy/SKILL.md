@@ -47,6 +47,37 @@ you go. Confirm current wording on the policy page (see 待核实 in the source 
 - [ ] Sensitive data: restriction explained + access pathway + shareable subset
 - [ ] Manuscript exhibit numbers match the archived outputs
 
+## Repository fit by data type
+
+Different global-change data types land best in different DOI-minting archives. Treat this as a routing
+guide, then confirm the current accepted list against the journal's author guidelines.
+
+| Data type | Typical archive | Note |
+|-----------|-----------------|------|
+| Ecological tabular / experimental | Dryad | Curated, ecology-oriented |
+| Code + figure pipeline | Zenodo via a GitHub release | Versioned, DOI per release |
+| Oceanographic / Earth-system | PANGAEA | Geo/environmental specialist |
+| Sequences | INSDC (GenBank/ENA) | Domain-mandated, then cite accession |
+| Sensitive species locations | Restricted deposit + access pathway | Share de-sensitized layer + full code |
+
+## Worked micro-example (illustrative)
+
+A remote-sensing carbon-flux paper archives three things, not one: the gap-filled flux table to a
+DOI-minting repository; the processing and modelling code to Zenodo via a tagged GitHub release; and the
+raw tower coordinates with a stated restriction because one site is on a protected reserve. The data
+availability statement names each DOI and the access route for the restricted coordinates. A weak version
+deposits only the figures' CSV and writes "code available on request" — which GCB does not accept. The
+DOIs here are illustrative placeholders; mint real ones before submission.
+
+## Compliance pushback patterns and the fix
+
+- "Statement says available on request" → replace with named repository, DOI, and access route; GCB does
+  not accept request-only.
+- "Code not archived, only data" → deposit the analysis/modelling code so every figure reproduces.
+- "Metadata insufficient" → add units, sampling design, and variable definitions a third party can read.
+- "Sensitive locations withheld with no pathway" → explain the restriction, give the application route,
+  and share an aggregated layer plus full code.
+
 ## Anti-patterns
 
 - "Data available on request" (explicitly rejected by GCB)

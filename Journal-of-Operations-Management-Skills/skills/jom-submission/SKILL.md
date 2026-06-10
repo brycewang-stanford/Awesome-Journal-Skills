@@ -49,6 +49,35 @@ Double-spaced, single-column, 12-point, one-inch margins, numbered pages, no run
 - [ ] Similarity: single-source <1%, overall <15% (or justified in cover letter)
 - [ ] Data Availability Statement included; ORCID linked
 
+## Submission-package readiness table
+
+A JOM submission is returned without review if mandatory elements are missing. The map below ties each requirement to its failure mode; verify exact current requirements (APC amount, length guidance, similarity policy) against the Wiley/JOM author pages, as several values change.
+
+| Package element | Requirement | Return/desk-reject if absent |
+|-----------------|-------------|-------------------------------|
+| Department routing | Name 2 Departments, one preferred | Misrouting or no routing stated |
+| Reviewer recommendations | ≥3 AEs and ≥3 ERB reviewers, conflict-free | Cover letter incomplete |
+| Disclosures | AI use, prior dissertation/conference, prior data use, prior reject-and-resubmit | Undisclosed prior use surfaces later |
+| Submission checklist | Completed and attached | "Not considered in the absence of this checklist" |
+| Anonymization | Names, affiliations, metadata, self-cites stripped | Identity leak to AEs/reviewers |
+| Similarity | Single-source <1%, overall <15% or justified | Unexplained high similarity |
+
+## Desk-reject and return triggers at the portal
+
+- The mandatory checklist is missing — an automatic non-consideration.
+- The cover letter omits the two-Department naming or the reviewer recommendations.
+- The manuscript exceeds the ~40-page guidance and reads as un-streamlined.
+- Author identity is inferable from un-stripped acknowledgements or file metadata.
+
+## Worked vignette: assembling a clean cover letter
+
+A team submitting an archival operations study marks Inter-organizational Operations preferred and Operational Systems alternate, names three conflict-free AEs and three ERB reviewers, and discloses a prior conference version plus prior, non-overlapping use of the dataset (illustrative). They report an iThenticate score of 12% with no single source above 1%, so no justification paragraph is needed. They confirm double-spaced 12-point with no headers, attach the completed checklist, and include the Wiley Data Availability Statement. That package clears the portal's mechanical gate and routes cleanly to the Department Editor.
+
+## Referee and editor friction points to pre-empt
+
+- *"Routing is unclear"* — state the preferred Department and why the phenomenon fits its mission.
+- *"Prior use not disclosed"* — disclose dissertation, conference, and prior-data use proactively; surprises erode editor trust.
+
 ## Output format
 
 ```

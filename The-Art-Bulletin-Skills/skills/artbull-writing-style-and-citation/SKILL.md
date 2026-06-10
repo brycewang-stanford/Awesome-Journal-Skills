@@ -42,6 +42,43 @@ edition — the Style Guide states the 17th; an older page referenced the 16th. 
 - Evaluative adjectives ("masterful," "stunning") substituting for description
 - Submitting a PDF (breaks the office's ability to anonymize) — submit Word
 
+## Chicago-and-caption conformance table for the CAA quarterly
+
+The College Art Association's quarterly runs on Chicago notes and full credit-line captions, and a
+copyeditor (and referee) will notice every slip.
+
+| Element | Correct here | Common error | Correction |
+|---|---|---|---|
+| Citation system | Chicago **notes** as endnotes (CMOS ch. 14) | Author-date, or footnotes | Convert to numbered endnotes; full first, short after |
+| Caption content | Artist, *italic title*, date, medium, dimensions (in. then cm), collection, location | Missing dimensions or location | Complete every field in the prescribed order |
+| Credit line | The rights holder's exact mandated wording, parenthetical | Generic or omitted credit | Reproduce the wording the permission requires |
+| Prose | Precise about media, technique, convention | Evaluative filler ("masterful," "stunning") | Replace the adjective with what is observable |
+
+## Worked vignette: copyediting a passage to house style
+
+Suppose a paragraph reads: "Caravaggio's stunning canvas (see fig. 3.) brilliantly handles light, as
+Smith argued (Smith 2009, 42)." Three things are wrong for this venue. The **author-date**
+parenthetical becomes a Chicago endnote, full first citation and short form thereafter. The **figure
+reference** is normalized to "Figure 3" with no period on the number, the text confirming the figure is
+discussed where cited. The **evaluative filler** — "stunning," "brilliantly" — is replaced with what is
+observable: the tenebrist contrast and single raking light source the argument depends on. The caption
+is then checked for artist, italic title, date, medium, dimensions in inches then centimeters,
+collection, location, and the museum's mandated credit line in parentheses.
+
+## Style objections an editor flags, and the house-style fix
+
+- *"These are author-date citations."* The venue uses Chicago notes; convert to endnotes and drop the
+  parentheticals (CMOS ch. 14).
+- *"The captions are incomplete."* Add the missing dimensions, location, and the rights holder's exact
+  credit line, since the permission is conditional on the wording.
+
+## Calibration anchor (hedge where uncertain)
+
+- The apparatus rides in **endnotes**, which count toward the long-form word cap, so short-form
+  consistency matters across a long article (confirm the current Chicago edition and caps against the
+  journal's current submission guidelines); the credit line is the visible end of the image-permissions
+  pipeline, and incorrect wording can breach the grant (`artbull-images-and-permissions`).
+
 ## Output format
 
 ```

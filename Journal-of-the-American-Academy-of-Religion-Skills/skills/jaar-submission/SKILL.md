@@ -77,6 +77,41 @@ volatile specifics on the official page first.
 【Next】await decision → jaar-revision-and-response
 ```
 
+## Desk-return ledger: why JAAR submissions bounce before review
+
+The editorial office of the AAR/Oxford University Press flagship returns manuscripts at upload or
+pre-review for a recurring set of reasons. Clear all of these before you press submit.
+
+| Bounce trigger | Pre-empt by |
+|----------------|-------------|
+| Subfield-only framing | Open with field-level stakes (`jaar-topic-selection`) |
+| Author identity in the main file | Anonymize body + strip document properties |
+| Footnote citations | Convert to author-date (`jaar-citation-and-style`) |
+| Over length / bloated notes | Prune notes; cite in-text |
+| Abstract over the limit | Trim to the limit (≤150 words, 待核实) |
+| Unsolicited book review | Don't — reviews are commissioned only |
+| Wrong fit (advocacy or pure area study) | Re-pitch as analytic study of religion, or choose another venue |
+
+## Worked vignette: a clean preflight on a comparative essay
+
+The comparative-offerings article is ready. The author runs the two-file check that ScholarOne /
+Manuscript Central expects for double-anonymous review:
+
+- **Main Document (anonymous).** "In my 2019 study" becomes "in a prior study"; the acknowledgments
+  and a grant line are removed to the title page; document properties are cleared so no author name
+  rides along in the metadata.
+- **Separate Title Page.** Author name, affiliation, contact, acknowledgments, and funding live here,
+  as their own file.
+- **Framing line.** The first paragraph names what the comparison teaches the study of religion (the
+  transactional-devotion analytic), so the office does not bounce it to reframe.
+- **Style sweep.** In-text author-date throughout; serial commas; *dargah* and *ex voto* italicized
+  and glossed; one transliteration system; abstract trimmed to the cap.
+
+Hedged calibration: the portal (ScholarOne / Manuscript Central at `mc.manuscriptcentral.com/jaarel`),
+the AAR/Oxford University Press ownership, and the double-anonymous model are stable anchors; the exact
+word range, the abstract cap, file-designation labels, and ethics/data statements are volatile — verify
+each on the journal's current submission guidelines before this final pass, as the prompt requires.
+
 ## Supplementary resources
 
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — reference managers and study-of-religion research tools

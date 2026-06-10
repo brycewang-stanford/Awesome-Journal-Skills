@@ -55,6 +55,39 @@ revision-and-rebuttal`
 
 Iterate: most papers loop design ↔ analysis ↔ QA/QC several times before writing-style.
 
+## Symptom → skill quick-routing
+
+When a user arrives mid-stream with a specific complaint, route by symptom rather than walking the
+whole pipeline. Each symptom carries the ES&T-specific failure mode it signals:
+
+| User says | Underlying ES&T risk | Route to |
+|-----------|----------------------|----------|
+| "Is this significant enough?" | desk-decline on significance | `est-topic-selection` |
+| "A reviewer said it's not novel" | incremental-occurrence framing | `est-literature-positioning` |
+| "Reviewer wants more controls/QA-QC" | analytical-rigor gap | `est-study-design`, `est-data-analysis` |
+| "Mass balance doesn't close" | unaccounted-fraction objection | `est-data-analysis` |
+| "Do I need a TOC graphic?" | incomplete-submission gate | `est-figures-and-tables` |
+| "Where do I deposit the data?" | data-availability mandate | `est-reporting-and-reproducibility` |
+| "Got a major revision" | response-letter strategy | `est-revision-and-rebuttal` |
+
+## Worked micro-example (illustrative — routing a PFAS-fate manuscript)
+
+A user starts: "I have river PFAS data showing a precursor converting to PFHxA — where do I begin?"
+The router's pass (illustrative):
+
+1. **Significance check** → `est-topic-selection`: reframe from occurrence to "surveys under-count
+   persistent burden," confirming Research-Article fit.
+2. **Positioning** → `est-literature-positioning`: engage the fate, analytical, and tox literatures so
+   novelty is mechanistic, not "another dataset."
+3. **Design/analysis loop** → `est-study-design` ↔ `est-data-analysis`: lock the abiotic control, mass
+   balance, and QA/QC; handle the censored values with ROS.
+4. **Exhibits + SI** → `est-figures-and-tables`, `est-reporting-and-reproducibility`: build a concept
+   TOC graphic and deposit data/spectra/code.
+5. **Write → cover → submit** → `est-writing-style` → `est-cover-letter` → `est-submission`.
+
+The router's standing job: surface the environmental-significance and QA/QC gates *early*, because
+those are what the desk editor and the ~three reviewers weigh first.
+
 ## Anti-patterns
 
 - Treating ES&T like a pure-chemistry or pure-engineering journal — the paper must show environmental relevance

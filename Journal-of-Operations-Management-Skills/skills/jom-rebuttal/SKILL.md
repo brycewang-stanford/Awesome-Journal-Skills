@@ -39,6 +39,37 @@ Expect more than one round; first-round acceptance is essentially unheard of. Ma
 - Cosmetic edits where the editor asked for a substantive operations or theory change.
 - Reporting only the robustness checks that worked.
 
+## Triage matrix for a JOM decision letter
+
+Sort every comment before drafting. The categories below reflect how JOM's Department-routed, methods-gated process weights concerns; resolution norms are interpretive — confirm against your letter's instructions.
+
+| Comment type | Source weight | Typical resolution norm |
+|--------------|---------------|--------------------------|
+| Operations-as-heart / contribution | DE/AE decisive | Reframe via `jom-contribution-framing`; change it |
+| Method-check (sampling, measurement, identification) | Methods gate | Fix fully; arguing away rarely survives |
+| Theory mechanism | DE/AE + reviewers | Strengthen the a priori operations logic |
+| Robustness / alternative specification | Reviewer | Add and report transparently, nulls included |
+| Presentation (exhibits, APA, length) | Reviewer | Implement; low-cost goodwill |
+
+## Response-letter desk-reject and irritation triggers
+
+- Answering reviewer points while ignoring the DE/AE's decisive framing — the fastest route to a reject.
+- Reporting only the robustness checks that confirmed it.
+- Cosmetic edits where the editor asked for a substantive operations or theory change.
+
+## Worked vignette: resolving an identification objection across rounds
+
+An R&R on a supplier-disruption archival study carries one decisive AE concern — reverse causality between disruption exposure and resilience investment — plus six reviewer asks (illustrative). Triage: the AE concern is the survival issue, so the revision leads with a new identification strategy (an instrument from upstream geographic shocks, first-stage F reported, exclusion argued in operations terms), then folds the reviewer points around it. The letter opens each entry with what was done and the exact table/page, reports the instrumented estimate even though it attenuates, and states the operational conclusion holds in direction. Because the decisive method-check concern is fixed rather than rebutted, the paper can clear the second round.
+
+## Editor pushback on the letter, and the remedy
+
+- *"You addressed reviewers but not the editor's main concern."* Restructure the letter so the DE/AE's decisive priorities are resolved first and visibly.
+- *"Operations is still not central enough."* Re-anchor the revised argument on the operations mechanism; do not let robustness tables dilute it.
+
+## Calibrating round expectations (hedged)
+
+First-round acceptance is essentially unheard of at JOM and multiple developmental rounds are the norm; budget for at least one more round and keep a clean changelog and reproducible pipeline so edits stay traceable. This reflects JOM's review culture, not a guaranteed outcome — read your letter for the editor's stated trajectory.
+
 ## Output format
 
 ```

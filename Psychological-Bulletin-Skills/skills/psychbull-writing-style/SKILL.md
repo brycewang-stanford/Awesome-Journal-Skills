@@ -49,6 +49,42 @@ This skill guides structure and prose; the numbers come from the analysis skills
 - Burying the contribution under descriptive summary
 - Inconsistent effect-size terms between text, tables, and figures
 
+## The prose bar that separates a Bulletin synthesis from a methods report
+
+As the APA's flagship integrative-review outlet, Psychological Bulletin rewards prose that *argues*
+about a literature, not prose that merely catalogs it. Referees read for an evaluative voice:
+
+| Writing dimension | Reads as a Bulletin synthesis | Reads as a methods-only report (reject risk) |
+|-------------------|-------------------------------|----------------------------------------------|
+| Introduction | Frames the field's unresolved tension | Recaps each study in turn |
+| Organization | Grouped by argument and mechanism | One paragraph per paper, chronologically |
+| Results prose | Ties the pooled estimate to the open question | Dumps coefficients with no interpretation |
+| Discussion | Advances or refines a theoretical account | Restates the forest plot in words |
+| Audience | Written for the whole discipline | Assumes the reader is a meta-analysis specialist |
+
+## Worked vignette — writing up the intervention synthesis
+
+*Illustrative numbers only.* For the self-affirmation synthesis (k = 42, g = 0.34 [0.24, 0.44],
+I² = 68%, bias-adjusted toward ≈ 0.25), the write-up under this skill's rules:
+
+- **Abstract (≤ 250 words)** names the synthesis type, k = 42, the pooled g and CI, the delivery-format
+  moderator, and the bottom line that the effect is positive but likely inflated by selective reporting.
+- **Method** is written so a MARS reviewer can tick each item: databases and dated strings, screening
+  and reliability (κ = 0.81), Hedges' g with small-sample correction, a random-effects/RVE model, and
+  the pre-registered moderator and bias plan.
+- **Results** lead with the prediction interval, not just the CI, so the 68% heterogeneity is honest in
+  the prose, then walk through the converging bias diagnostics.
+- **Discussion** explains *why* earlier studies disagreed (delivery format) rather than re-listing them.
+
+## Referee pushback → venue-specific fix
+
+- *"This reads as an annotated bibliography."* → Re-outline around arguments and mechanisms; merge the
+  per-paper paragraphs into thematic syntheses.
+- *"The abstract omits the headline numbers."* → Insert k, the pooled effect with CI, and the robustness
+  bottom line within the 250-word cap.
+- *"The method won't pass a MARS item check."* → Add the missing search strings, dates, counts, and the
+  reliability statistic, item by item.
+
 ## Output format
 
 ```

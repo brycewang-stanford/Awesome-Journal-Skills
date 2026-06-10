@@ -1,6 +1,6 @@
 ---
 name: jf-tables-figures
-description: Use when finalizing tables and figures for a The Journal of Finance (JF) manuscript. Enforces accessible, self-contained, publication-grade exhibits; it does not decide which results to run.
+description: Use when finalizing tables and figures for a The Journal of Finance (JF) manuscript for the AFA flagship. Enforces accessible, self-contained, general-interest exhibits with Roman-numeral tables, economic-magnitude reporting, and matching Internet Appendix numbering; it does not decide which results to run.
 ---
 
 # Tables & Figures (jf-tables-figures)
@@ -31,6 +31,38 @@ JF is general-interest and prizes accessibility. Each exhibit must be **self-con
 - [ ] Only decisive exhibits in the body; rest in the Internet Appendix
 - [ ] Body stays within 60 pages
 
+## What a JF exhibit must carry (calibration anchors)
+
+JF exhibits answer to a general-interest reader, so the table itself, not the surrounding prose, must deliver the economics. Useful calibration anchors for the flagship, hedged where conventions vary by subfield:
+
+| Exhibit element            | JF expectation (illustrative anchor)                                  |
+|----------------------------|------------------------------------------------------------------------|
+| Body exhibit count         | Typically a lean set of decisive tables/figures; the exhaustive grid lives in the Internet Appendix |
+| Magnitude column           | A column or note giving the effect in bps, % of market cap, or Sharpe gain — not stars alone |
+| Inference convention       | Every table note names the SE estimator and clustering dimension(s)    |
+| Numbering                  | Roman tables (I, II, …), Arabic figures (1, 2, …), IA mirrors as `IA.*` |
+| Self-containment           | Caption + notes let an out-of-subfield AFA reader interpret the exhibit |
+
+Exact body-exhibit counts are not a fixed rule; confirm against the journal's current author guidelines and recent issues, but the cultural signal at JF is "few, decisive, self-explaining in the body; everything else online."
+
+## Worked vignette — formatting a momentum horse-race table
+
+*Illustrative numbers.* A corporate-finance reader picks up a Table II reporting a long-short anomaly. The raw spread is 0.62% per month. The amateur version prints only coefficients and three stars. The JF-grade version, by contrast:
+
+- Labels the row in **economic units** — "long–short return, % per month" — and adds a note: "55 bps after Fama–French five-factor + momentum adjustment (illustrative), annualized Sharpe gain ≈ 0.4."
+- States inference in the note: "Newey–West (12 lags) t-statistics in parentheses; sample 1972–2023 (illustrative); NYSE breakpoints, value-weighted."
+- Sends the equal-weighted, alternative-breakpoint, and decile-by-decile versions to the **Internet Appendix** as `IA.II`, `IA.III`, cited from the text.
+
+The reader now understands the magnitude, the inference, and where to find more — without leaving the page. That self-containment is the JF house standard.
+
+### Referee-pushback patterns and the JF-specific fix
+| Pushback on an exhibit                              | JF-specific fix                                              |
+|-----------------------------------------------------|-------------------------------------------------------------|
+| "I can't tell what 0.62 means economically"         | Add a magnitude note (bps/month, Sharpe gain, % market cap) |
+| "Which standard errors are these?"                  | Name the estimator and clustering in every table note       |
+| "Table III and IA.3 use different definitions"      | Reconcile; keep one variable definition across body and IA  |
+| "The body has fifteen tables"                       | Move all but the decisive ones to the Internet Appendix     |
+
 ## Anti-patterns
 
 - A table whose meaning is unclear without three paragraphs of text
@@ -38,6 +70,7 @@ JF is general-interest and prizes accessibility. Each exhibit must be **self-con
 - Missing SE/clustering convention in the note
 - Body crowded with exhibits that belong in the Internet Appendix, breaching the 60-page limit
 - Inconsistent numbering between body and appendix
+- A figure with no axis units or a caption that assumes subfield-specific notation
 
 ## Output format
 

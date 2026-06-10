@@ -39,6 +39,33 @@ JOM houses behavioral/empirical OM strongly. Be explicit about which engine driv
 - HARKing; hypotheses reverse-engineered from the output.
 - Importing a theory verbatim with no OM-specific adaptation.
 
+## Matching the mechanism engine to the evidence
+
+JOM reviewers expect the theoretical engine and the evidence type to align; the map below is interpretive guidance, confirmed against current Department missions.
+
+| Mechanism engine | Evidence it requires | Mismatch flagged |
+|------------------|----------------------|-------------------|
+| Behavioral (bias, fatigue, learning) | Human-decision data | Bias inferred from firm-level archival |
+| Operational (flow, congestion, buffering) | Process/transaction data | A flow claim from survey perceptions |
+| Organizational/economic (governance) | Relational/firm-level data | A governance claim as individual-level |
+| Contingency (a condition moderates) | A measured operational moderator | A contingency asserted but unmeasured |
+
+## Desk-reject and return triggers on theory
+
+- A generic management mechanism bolted onto an OM dataset, no operational structure doing work.
+- Optimization-style "the firm minimizes cost" framing instead of an empirically testable claim.
+- HARKing — hypotheses reverse-engineered from the output, not derived a priori.
+
+## Worked vignette: building an operations mechanism a priori
+
+A team theorizes that automation reduces operator errors but the benefit reverses past a threshold because automation erodes situational awareness (illustrative). The phenomenon is operational and line-level; the mechanism is behavioral-operational: automation offloads routine cognition (lowering error) yet degrades the operator's mental model (raising error on exceptions). The reference theory is automation-complacency, adapted to a high-variability setting. Hypotheses precede estimation: H1, automation lowers routine error; H2, it raises exception error; H3, the net effect is non-monotonic, moderated by exception frequency. Because the prediction is verbal and falsifiable against observed error logs, it is JOM-shaped — not an optimization proof.
+
+## Theory objections and the mechanism-grounded fix
+
+- *"This is a correlation, not a mechanism."* State the operational logic that generates the effect and name the process variable that transmits it.
+- *"The theory could apply to any context."* Show why the mechanism depends on operational structure (capacity, flow, interdependence) a generic setting lacks.
+- *"The borrowed theory is used off the shelf."* Make the OM-specific adaptation explicit — that adaptation is often the contribution.
+
 ## Output format
 
 ```
