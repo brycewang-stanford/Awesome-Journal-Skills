@@ -29,6 +29,16 @@ JIBS articles are ~10,000 words (strong/broad) or ~7,000 (narrower), and the wor
 
 Follow the **JIBS Style Guide**: 11-point Times New Roman, double-spaced, with author-date (name, year) citations in notes. Each table/figure must be **self-contained** — a title, defined variables and units, sample size, the estimator, what the SEs cluster on, and significance conventions stated in the note. Spell out country/region groupings. Keep decimals consistent.
 
+
+## Exhibit pass for Journal of International Business Studies
+
+Use this as a second-pass capability check. First lock the cross-border mechanism, level of analysis, institutional context, and generalizability claim; then test whether the manuscript addresses international-business reviewers who expect cross-border theory, context sensitivity, and credible firm or institution evidence.
+
+- **Primary move:** For every table or figure, state the object, sample/case base, uncertainty display, and one sentence the exhibit proves for this venue.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against Strategic Management Journal for strategy theory, Journal of Management for broader management, International Business Review for applied IB breadth; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

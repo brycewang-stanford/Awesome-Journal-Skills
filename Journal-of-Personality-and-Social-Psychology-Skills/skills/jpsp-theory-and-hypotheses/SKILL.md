@@ -48,6 +48,16 @@ hypotheses each study tests; the studies themselves are designed in `jpsp-study-
 - HARKing: presenting exploratory findings as if they were predicted (see `jpsp-data-analysis`)
 - Ignoring the obvious alternative account a reviewer will raise
 
+
+## Operating pass for Journal of Personality and Social Psychology
+
+Treat this skill as an executable review pass, not a prose hint. First lock the construct validity, study sequence, power/robustness plan, and boundary conditions; then judge whether the current manuscript answers the venue's real reader: psychology reviewers who need a theoretical construct, validated measurement, and cumulative-study logic.
+
+- **Do the pass:** Return a claim-evidence-risk ledger rather than a prose-only diagnosis; every recommendation must point to a manuscript location or missing artifact.
+- **Return a ledger:** give `claim / evidence / risk / manuscript location` rows, so the next agent can edit rather than rediscover the issue.
+- **Sibling guard:** compare against Psychological Science for shorter general-interest findings, Personality and Social Psychology Bulletin for field scope, Journal of Experimental Social Psychology for experiment-centered claims; if a sibling owns the contribution, recommend re-routing before polishing format.
+- **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
+
 ## Output format
 
 ```

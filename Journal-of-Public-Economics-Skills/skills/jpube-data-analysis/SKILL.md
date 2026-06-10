@@ -42,6 +42,16 @@ Public economics at JPubE is typically built on **large administrative or regist
 - Ignoring disclosure rules when describing restricted administrative data
 - Subgroup splits with no multiple-testing discipline presented as "heterogeneity"
 
+
+## Evidence pass for Journal of Public Economics
+
+Treat this skill as an executable review pass, not a prose hint. First lock the policy instrument, affected margin, identification design, and welfare or incidence interpretation; then judge whether the current manuscript answers the venue's real reader: public economists who ask whether policy design, fiscal incidence, or welfare interpretation is credible.
+
+- **Do the pass:** Audit the research design before polishing prose: unit of analysis, comparison set, uncertainty, sensitivity, missingness, and reproducibility must be visible.
+- **Return a ledger:** give `claim / evidence / risk / manuscript location` rows, so the next agent can edit rather than rediscover the issue.
+- **Sibling guard:** compare against JDE for development policy, JIE for cross-border policy, AEJ Economic Policy for broad policy readership; if a sibling owns the contribution, recommend re-routing before polishing format.
+- **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
+
 ## Output format
 
 ```

@@ -29,6 +29,16 @@ Ground the argument in a recognizable IB lens — internalization/transaction-co
 
 Derive hypotheses *a priori* from the mechanism (not after seeing results). For internationalization-as-process arguments, be explicit that the relationship may be dynamic and path-dependent — this foreshadows the dynamic-endogeneity concern reviewers will raise in analysis. Each hypothesis should name the level, the direction, and the boundary condition.
 
+
+## Operating pass for Journal of International Business Studies
+
+Use this as a second-pass capability check. First lock the cross-border mechanism, level of analysis, institutional context, and generalizability claim; then test whether the manuscript addresses international-business reviewers who expect cross-border theory, context sensitivity, and credible firm or institution evidence.
+
+- **Primary move:** Return a claim-evidence-risk ledger; every recommendation must point to a manuscript location or missing artifact.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against Strategic Management Journal for strategy theory, Journal of Management for broader management, International Business Review for applied IB breadth; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

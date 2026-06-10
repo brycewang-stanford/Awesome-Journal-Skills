@@ -52,6 +52,16 @@ X," the contribution is probably incremental for a general journal.
 - Hypotheses unconnected to the eventual test (see `jop-research-design`)
 - Theory so elaborate it cannot be developed and tested within the page budget
 
+
+## Operating pass for Journal of Politics
+
+Treat this skill as an executable review pass, not a prose hint. First lock the political mechanism, evidence design, and scope condition; then judge whether the current manuscript answers the venue's real reader: political-science reviewers who want theory, identification or formal logic, and generalizable political implications in balance.
+
+- **Do the pass:** Return a claim-evidence-risk ledger rather than a prose-only diagnosis; every recommendation must point to a manuscript location or missing artifact.
+- **Return a ledger:** give `claim / evidence / risk / manuscript location` rows, so the next agent can edit rather than rediscover the issue.
+- **Sibling guard:** compare against APSR for field-wide political science, AJPS for design-heavy empirical work, World Politics for comparative/international politics; if a sibling owns the contribution, recommend re-routing before polishing format.
+- **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
+
 ## Output format
 
 ```

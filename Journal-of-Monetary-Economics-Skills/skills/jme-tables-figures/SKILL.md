@@ -41,6 +41,16 @@ Formatting conventions: tables and figures are **numbered consecutively with Ara
 - A dense moment table that hides which moments were targeted
 - Endnotes instead of footnotes; abbreviated journal titles leaking into figure notes
 
+
+## Exhibit pass for Journal of Monetary Economics
+
+Use this as a second-pass capability check. First lock the main macro object, the identifying variation, and the policy-relevant counterfactual; then test whether the manuscript addresses macro and monetary economists who expect the shock, mechanism, and policy margin to be visible early.
+
+- **Primary move:** For every table or figure, state the object, sample/case base, uncertainty display, and one sentence the exhibit proves for this venue.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against JIE for open-economy trade/finance emphasis, RED for dynamic macro theory, AEJ Macro for broader field positioning; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

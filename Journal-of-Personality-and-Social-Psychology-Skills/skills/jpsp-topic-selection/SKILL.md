@@ -45,6 +45,16 @@ cause of a desk re-route or rejection — each section is edited separately.
 - Pitching a methods-only or measure-only paper with no theoretical advance
 - "Significance-chasing": a surprising effect with no theory behind it
 
+
+## Fit pass for Journal of Personality and Social Psychology
+
+Treat this skill as an executable review pass, not a prose hint. First lock the construct validity, study sequence, power/robustness plan, and boundary conditions; then judge whether the current manuscript answers the venue's real reader: psychology reviewers who need a theoretical construct, validated measurement, and cumulative-study logic.
+
+- **Do the pass:** Score the manuscript on venue fit, novelty, evidence readiness, and audience ownership; reject a prestige-only target when a sibling venue owns the contribution more directly.
+- **Return a ledger:** give `claim / evidence / risk / manuscript location` rows, so the next agent can edit rather than rediscover the issue.
+- **Sibling guard:** compare against Psychological Science for shorter general-interest findings, Personality and Social Psychology Bulletin for field scope, Journal of Experimental Social Psychology for experiment-centered claims; if a sibling owns the contribution, recommend re-routing before polishing format.
+- **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
+
 ## Output format
 
 ```

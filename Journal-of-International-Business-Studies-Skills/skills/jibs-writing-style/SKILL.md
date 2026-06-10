@@ -28,6 +28,16 @@ Because JIBS scrutinizes how country and culture are handled, your prose must av
 
 Follow the **JIBS Style Guide**: **11-point Times New Roman, double-spaced**, **author-date (name, year)** in-text citations with a matching reference list. Keep hypothesis labels, construct names, and table/figure numbers consistent throughout. Write in clear, active prose; international readers and reviewers value plain, unambiguous phrasing over jargon. Spell out acronyms (MNE, FDI, OLI) on first use.
 
+
+## Style execution pass for Journal of International Business Studies
+
+Use this as a second-pass capability check. First lock the cross-border mechanism, level of analysis, institutional context, and generalizability claim; then test whether the manuscript addresses international-business reviewers who expect cross-border theory, context sensitivity, and credible firm or institution evidence.
+
+- **Primary move:** Rewrite the opening and transitions so the venue-level claim, evidence object, and contribution are visible before technical detail.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against Strategic Management Journal for strategy theory, Journal of Management for broader management, International Business Review for applied IB breadth; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

@@ -47,6 +47,16 @@ paper actually moves, not a survey — and do it **double-blind**, without outin
 - First-person self-citation that breaks double-blind review
 - Positioning only within a narrow subfield niche (reads as specialist-only to a general journal)
 
+
+## Positioning pass for Journal of Politics
+
+Treat this skill as an executable review pass, not a prose hint. First lock the political mechanism, evidence design, and scope condition; then judge whether the current manuscript answers the venue's real reader: political-science reviewers who want theory, identification or formal logic, and generalizable political implications in balance.
+
+- **Do the pass:** Build a three-column map: incumbent conversation, unresolved tension, and this manuscript's delta; include one sibling-venue omission that would make a referee doubt the fit.
+- **Return a ledger:** give `claim / evidence / risk / manuscript location` rows, so the next agent can edit rather than rediscover the issue.
+- **Sibling guard:** compare against APSR for field-wide political science, AJPS for design-heavy empirical work, World Politics for comparative/international politics; if a sibling owns the contribution, recommend re-routing before polishing format.
+- **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
+
 ## Output format
 
 ```

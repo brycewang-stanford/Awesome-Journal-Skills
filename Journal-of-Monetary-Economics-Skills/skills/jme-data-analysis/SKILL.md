@@ -48,6 +48,16 @@ Inference must match the design: **HAC / Newey–West** or clustered standard er
 - Reporting a single DSGE point estimate with no convergence or prior-sensitivity evidence
 - IRFs without bands, or with inconsistent shock units across figures
 
+
+## Evidence pass for Journal of Monetary Economics
+
+Treat this skill as an executable review pass, not a prose hint. First lock the main macro object, the identifying variation, and the policy-relevant counterfactual; then judge whether the current manuscript answers the venue's real reader: macro and monetary economists who expect the shock, mechanism, and policy margin to be visible early.
+
+- **Do the pass:** Audit the research design before polishing prose: unit of analysis, comparison set, uncertainty, sensitivity, missingness, and reproducibility must be visible.
+- **Return a ledger:** give `claim / evidence / risk / manuscript location` rows, so the next agent can edit rather than rediscover the issue.
+- **Sibling guard:** compare against JIE for open-economy trade/finance emphasis, RED for dynamic macro theory, AEJ Macro for broader field positioning; if a sibling owns the contribution, recommend re-routing before polishing format.
+- **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
+
 ## Output format
 
 ```

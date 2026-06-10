@@ -34,6 +34,16 @@ Name the conversation, the camps, and where your study intervenes.
 
 JIBS papers are expected to cite the field's foundational and current IB work, including relevant JIBS articles and the journal's editorial canon. Engage the **AIB Research Methods SIG "From the Editors" editorials** where they bear on your design choices, and treat country/culture-as-level as a positioning commitment, not an afterthought. Distinguish your contribution from adjacent venues (JWB, MIR, GSJ, IBR) so the editor sees why this belongs at JIBS specifically.
 
+
+## Positioning pass for Journal of International Business Studies
+
+Use this as a second-pass capability check. First lock the cross-border mechanism, level of analysis, institutional context, and generalizability claim; then test whether the manuscript addresses international-business reviewers who expect cross-border theory, context sensitivity, and credible firm or institution evidence.
+
+- **Primary move:** Map incumbent conversation, unresolved tension, this manuscript's delta, and the sibling-venue omission a referee might notice.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against Strategic Management Journal for strategy theory, Journal of Management for broader management, International Business Review for applied IB breadth; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```

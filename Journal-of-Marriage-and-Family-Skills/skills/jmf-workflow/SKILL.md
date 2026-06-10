@@ -60,6 +60,16 @@ Iterate: most papers loop framework ↔ design ↔ analysis several times before
 - Padding a complete focused study into a full article when a brief report would land harder
 - Skipping the data availability statement and repro package until the end
 
+
+## Router pass for Journal of Marriage and Family
+
+Treat this skill as an executable review pass, not a prose hint. First lock the family process, population/sample frame, measurement validity, and longitudinal or comparative leverage; then judge whether the current manuscript answers the venue's real reader: family scholars who inspect measurement, household process, longitudinal design, and implications for family theory.
+
+- **Do the pass:** Run the pack as a sequence: fit gate, evidence gate, writing gate, source-map gate, and final output contract; stop when a gate lacks evidence.
+- **Return a ledger:** give `claim / evidence / risk / manuscript location` rows, so the next agent can edit rather than rediscover the issue.
+- **Sibling guard:** compare against Demography for population-process emphasis, Social Forces for general sociology, Child Development for child-centered outcomes; if a sibling owns the contribution, recommend re-routing before polishing format.
+- **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
+
 ## Output format
 
 ```

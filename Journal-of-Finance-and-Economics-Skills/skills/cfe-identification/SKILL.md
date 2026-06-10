@@ -88,3 +88,12 @@ description: Use when the empirical identification strategy is the bottleneck fo
 【聚类层次】...
 【下一步】cfe-mechanism
 ```
+
+## 《财经研究》二次操作审查
+
+先锁定核心问题、识别链条、机制证据和可执行的政策含义，再判断稿件是否回应中文财经学术审稿人会同时追问选题政策价值、识别可信度和本刊栏目适配。
+
+- **Operating pass**：Return a claim-evidence-risk ledger; every recommendation must point to a manuscript location or missing artifact.
+- **决策账本**：返回“主张 / 证据 / 阻断点 / 下一处改稿”四列，避免只给笼统建议。
+- **改投比较**：对照《经济研究》用于更强理论/全国性贡献，《管理世界》用于管理实践与政策治理，《金融研究》用于金融专门议题；若相邻刊物拥有更强读者匹配，先建议改投而不是继续润色。
+- **核验底线**：给投稿就绪判断前，必须重开 `resources/official-source-map.md`，列出仍可能改变建议的一个未核实事实。

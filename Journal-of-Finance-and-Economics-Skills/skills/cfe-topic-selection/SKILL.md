@@ -71,3 +71,12 @@ description: Use when a Journal-of-Finance-and-Economics manuscript is at the to
 【期刊匹配建议】财经研究 / 经济研究 / 管理世界 / 其他
 【下一步】cfe-literature-review
 ```
+
+## 《财经研究》操作性加固
+
+把本 skill 当作一次可验收的投稿前审查，而不是泛泛润色。先锁定核心问题、识别链条、机制证据和可执行的政策含义，再判断当前稿件是否真的满足《财经研究》的读者预期：中文财经学术审稿人会同时追问选题政策价值、识别可信度和本刊栏目适配。
+
+- **Fit pass**：Score the manuscript on venue fit, novelty, evidence readiness, and audience ownership; reject a prestige-only target when a sibling venue owns the contribution more directly.
+- **证据账本**：输出“主张-证据-风险”三列；每条建议必须指向正文段落、表图、附录或待补材料。
+- **姊妹刊护栏**：若稿件更像《经济研究》用于更强理论/全国性贡献，《管理世界》用于管理实践与政策治理，《金融研究》用于金融专门议题，必须说明为什么仍投《财经研究》，否则给出改投路径。
+- **停止条件**：若识别、机制、数据可复现或官方投稿要求没有被核实，不给“可以投稿”的结论。

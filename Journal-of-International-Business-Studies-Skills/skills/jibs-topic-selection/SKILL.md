@@ -28,6 +28,16 @@ JIBS is distinctively **phenomenon-based**. Its Statement of Editorial Policy se
 - **SMJ**: competitive advantage/performance; route here if the question is strategy-first and not distinctively cross-border.
 - **JWB / MIR / GSJ**: IB-adjacent; viable if the contribution is solid but narrower than JIBS's phenomenon bar.
 
+
+## Fit pass for Journal of International Business Studies
+
+Use this as a second-pass capability check. First lock the cross-border mechanism, level of analysis, institutional context, and generalizability claim; then test whether the manuscript addresses international-business reviewers who expect cross-border theory, context sensitivity, and credible firm or institution evidence.
+
+- **Primary move:** Score fit, novelty, evidence readiness, and audience ownership; reject prestige-only targeting when a sibling venue owns the contribution.
+- **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
+- **Neighbor test:** compare against Strategic Management Journal for strategy theory, Journal of Management for broader management, International Business Review for applied IB breadth; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+
 ## Output format
 
 ```
