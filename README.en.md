@@ -350,7 +350,7 @@ Use the repo in three passes:
 
 Rule of thumb: start from a root folder or cover card when browsing, use a breadth bundle when choosing between venues, and use a depth pack once the target journal is fixed.
 
-<details>
+<details open>
 <summary><b>📂 Click to expand: the 200 root journal-entry folders</b> (100 Chinese pinyin folders + 100 English folders, for browsing by venue name on the GitHub home page)</summary>
 
 <!-- ROOT-JOURNAL-FOLDERS:START -->
@@ -502,7 +502,7 @@ This bundle puts AI conferences first: NeurIPS, ICML, ICLR, AAAI, IJCAI, AISTATS
 |--------|------|----------|-------:|
 | **102 Chinese social-science journal profiles** | [Chinese-SocialScience-Journal-Skills/](Chinese-SocialScience-Journal-Skills/) | 102 journal skills + 1 router | 103 |
 
-<details>
+<details open>
 <summary><b>🖼️ Click to expand: all 102 Chinese social-science journal covers</b> (grouped by discipline)</summary>
 
 <!-- COVER-GALLERY:cn-soc:START -->
@@ -682,7 +682,7 @@ This bundle puts AI conferences first: NeurIPS, ICML, ICLR, AAAI, IJCAI, AISTATS
 
 This bundle covers the full English roadmap below: Economics 50 · Finance 13 · Management/Strategy/Org 15 · Marketing 6 · Accounting 6 · Operations & Information Systems 10. Like the Chinese breadth bundle, each profile is a venue-selection / re-framing tool that defers volatile facts (impact factors, fees, word limits) to a per-journal official-submission re-check.
 
-<details>
+<details open>
 <summary><b>🖼️ Click to expand: all 100 English social-science journal covers</b> (grouped by discipline)</summary>
 
 <!-- COVER-GALLERY:en-soc:START -->
@@ -825,7 +825,7 @@ Beyond business and economics, depth packs now extend to **sociology, political 
 | Critical theory | Critical Inquiry | [Critical-Inquiry-Skills/](Critical-Inquiry-Skills/) | 12 |
 | Religion | Journal of the American Academy of Religion (JAAR) | [Journal-of-the-American-Academy-of-Religion-Skills/](Journal-of-the-American-Academy-of-Religion-Skills/) | 12 |
 
-<details>
+<details open>
 <summary><b>🖼️ Click to expand: the 24 humanities & broader-social-science covers</b> (sociology · political science · psychology · communication · education · history · art · philosophy · literature · religion)</summary>
 
 <p align="center"><sub>📚 24 humanities / broader-social-science flagship venues · one dedicated depth pack each</sub></p>
@@ -889,7 +889,7 @@ Single-venue depth packs (~12 skills each) for environmental science, conservati
 | Agricultural systems | Agricultural Systems | [Agricultural-Systems-Skills/](Agricultural-Systems-Skills/) | 12 |
 | Crop science | Field Crops Research | [Field-Crops-Research-Skills/](Field-Crops-Research-Skills/) | 12 |
 
-<details>
+<details open>
 <summary><b>🖼️ Click to expand: the 6 environment / ecology / agriculture covers</b></summary>
 
 <p align="center"><sub>📚 6 environment / ecology / agriculture flagship venues · one dedicated depth pack each</sub></p>
@@ -913,7 +913,7 @@ Single-venue depth packs (~12 skills each) for environmental science, conservati
 
 This bundle is the natural-science sibling of the English social-science breadth bundle — the "other 100", now grown to 154: General & multidisciplinary 9 · Cell/molecular/genome biology 16 · Ecology/evolution/plant 12 · Immunology/microbiology/experimental medicine 4 · Open-access & genomics 3 · Neuroscience & behaviour 4 · Clinical general 9 · Clinical specialty 11 · Translational & cancer 5 · Physics 17 · Astronomy 7 · Chemistry 16 · Materials & energy 11 · Earth/environment/climate 14 · CS/AI/engineering 6 · Mathematics 10. Like the other breadth bundles, each profile defers volatile facts (impact factors, fees, word/figure limits) to a per-journal official-submission re-check, and for clinical venues to the applicable reporting guideline (CONSORT/PRISMA/STROBE/ARRIVE).
 
-<details>
+<details open>
 <summary><b>🖼️ Click to expand: all 154 English natural-science journal covers</b> (grouped by discipline)</summary>
 
 <!-- COVER-GALLERY:en-nat:START -->
@@ -1342,7 +1342,7 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 
 ### Covered venues — all shipped as breadth profiles
 
-<details>
+<details open>
 <summary><b>English — 100 econ &amp; management journals</b> &mdash; click to expand</summary>
 
 #### Economics (50)
@@ -1465,7 +1465,7 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 
 </details>
 
-<details>
+<details open>
 <summary><b>English — 154 natural-science / clinical / physical / formal-science journals</b> &mdash; click to expand</summary>
 
 #### General science (9)
@@ -1666,7 +1666,7 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 
 </details>
 
-<details>
+<details open>
 <summary><b>Chinese — 102 social-science journal profiles</b> &mdash; click to expand</summary>
 
 #### 经济学 (50)

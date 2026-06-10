@@ -350,7 +350,7 @@
 
 经验法则：浏览时从根目录文件夹或封面卡开始；选刊时用广度合集；目标期刊确定后再进入对应深度包。
 
-<details>
+<details open>
 <summary><b>📂 点击展开：仓库根目录的 200 个期刊入口文件夹</b>（100 中文拼音目录 + 100 英文目录，方便在 GitHub 首页直接按刊名浏览）</summary>
 
 <!-- ROOT-JOURNAL-FOLDERS:START -->
@@ -502,7 +502,7 @@
 |------|------|------|-------:|
 | **102 个中文社科期刊 profile** | [Chinese-SocialScience-Journal-Skills/](Chinese-SocialScience-Journal-Skills/) | 102 个期刊 skill + 1 个 router | 103 |
 
-<details>
+<details open>
 <summary><b>🖼️ 点击展开：全部 102 本中文社科期刊封面墙</b>（按学科分组）</summary>
 
 <!-- COVER-GALLERY:cn-soc:START -->
@@ -682,7 +682,7 @@
 
 该合集覆盖下方完整英文路线图：经济学 50 · 金融 13 · 管理/战略/组织 15 · 营销 6 · 会计 6 · 运营与信息系统 10。与中文广度合集一致，每个 profile 都是“选刊 / 改写框架”工具，并把易变事实（影响因子、版面费、字数限制）交由单刊“官方核验清单”在投稿前重新核对。
 
-<details>
+<details open>
 <summary><b>🖼️ 点击展开：全部 100 本英文社科期刊封面墙</b>（按学科分组）</summary>
 
 <!-- COVER-GALLERY:en-soc:START -->
@@ -825,7 +825,7 @@
 | 批评理论 | Critical Inquiry | [Critical-Inquiry-Skills/](Critical-Inquiry-Skills/) | 12 |
 | 宗教 | Journal of the American Academy of Religion (JAAR) | [Journal-of-the-American-Academy-of-Religion-Skills/](Journal-of-the-American-Academy-of-Religion-Skills/) | 12 |
 
-<details>
+<details open>
 <summary><b>🖼️ 点击展开：24 本人文与广义社科新刊封面墙</b>（社会学 · 政治学 · 心理学 · 传播 · 教育 · 历史 · 艺术 · 哲学 · 文学 · 宗教）</summary>
 
 <p align="center"><sub>📚 覆盖 24 本人文 / 广义社科顶刊 · 每本一个独立深度包</sub></p>
@@ -889,7 +889,7 @@
 | 农业系统 | Agricultural Systems | [Agricultural-Systems-Skills/](Agricultural-Systems-Skills/) | 12 |
 | 作物科学 | Field Crops Research | [Field-Crops-Research-Skills/](Field-Crops-Research-Skills/) | 12 |
 
-<details>
+<details open>
 <summary><b>🖼️ 点击展开：6 本环境 / 生态 / 农业新刊封面墙</b></summary>
 
 <p align="center"><sub>📚 覆盖 6 本环境 / 生态 / 农业顶刊 · 每本一个独立深度包</sub></p>
@@ -913,7 +913,7 @@
 
 这是英文经管广度合集的自然科学姊妹包——“另一个 100”如今已扩展到 154 本：综合/多学科 9 · 细胞/分子/基因组生物学 16 · 生态/演化/植物 12 · 免疫/微生物/实验医学 4 · 开放获取与基因组学 3 · 神经科学与行为 4 · 临床综合 9 · 临床专科 11 · 转化与肿瘤 5 · 物理 17 · 天文 7 · 化学 16 · 材料与能源 11 · 地球/环境/气候 14 · CS/AI/工程 6 · 数学 10。与其它广度合集一致，每个 profile 都把易变事实（影响因子、版面费、字数/图数限制）交由单刊“官方核验清单”在投稿前重新核对；临床类还需核对适用报告规范（CONSORT/PRISMA/STROBE/ARRIVE）。
 
-<details>
+<details open>
 <summary><b>🖼️ 点击展开：全部 154 本英文自然科学期刊封面墙</b>（按学科分组）</summary>
 
 <!-- COVER-GALLERY:en-nat:START -->
@@ -1341,7 +1341,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 
 ### 收录期刊 —— 均已以广度合集形态落地
 
-<details>
+<details open>
 <summary><b>英文 —— 经管主流 100 本</b>（点击展开）</summary>
 
 #### 经济学 Economics (50)
@@ -1464,7 +1464,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 
 </details>
 
-<details>
+<details open>
 <summary><b>英文 —— 自然科学 / 临床 / 物理 / 形式科学 154 本</b>（点击展开）</summary>
 
 #### 综合 General science (9)
@@ -1665,7 +1665,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 
 </details>
 
-<details>
+<details open>
 <summary><b>中文 —— 社科期刊 profile 102 个</b>（点击展开）</summary>
 
 #### 经济学 (50)
