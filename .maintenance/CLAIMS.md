@@ -91,6 +91,7 @@ Science does NOT contain Cell Press "STAR Methods"; earlier claim retracted.)
 | Journal-of-Economic-Growth-Skills | Codex | done | completed concurrent plugin shell into 12 official-source-backed skills |
 | Journal-of-Economic-Theory-Skills | Codex | done | completed concurrent plugin shell into 12 official-source-backed skills |
 | Journal-of-Human-Resources-Skills | Codex | done | completed concurrent plugin shell into 12 official-source-backed skills |
+| Repo-wide second-pass uplift | Codex | done | scorecard low-tail depth-pack hardening + CS conference breadth de-cloning; published AHR/APSR/GEC/NeurIPS/OR/Science/Chinese follow-up batches |
 
 ## Lane — 全学科扩张规划 (10×100 = 1000 packs)
 - **Owner**: planning agent + Codex support · Status: Wave 0 done; Wave 1 inventory split done
