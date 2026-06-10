@@ -11,6 +11,15 @@ This is the routing skill. It does not replace a single-journal profile; it firs
 classifies the manuscript by **discipline, contribution type, method shape, and
 audience**, then routes into the matching per-journal skill for fit and re-framing.
 
+## Resources to Load When Needed
+
+- If the venue is unclear, read `../../resources/worked-examples/venue-routing.md`
+  before choosing a target.
+- If two sibling fields look plausible, read
+  `../../resources/exemplars/selection-patterns.md`.
+- Before submission-ready advice, use `../../resources/official-source-map.md`
+  to open the current official author instructions for the chosen journal.
+
 ## Ask four things first
 
 1. **Contribution type:** new identification / causal effect, new theory or model,
@@ -51,6 +60,16 @@ audience**, then routes into the matching per-journal skill for fit and re-frami
 | Accounting (interpretive/critical) | `accounting-organizations-and-society` / `contemporary-accounting-research` |
 | OM / OR / analytics | `management-science` / `operations-research` / `manufacturing-and-service-operations-management` / `production-and-operations-management` / `journal-of-operations-management` |
 | Information systems | `mis-quarterly` / `information-systems-research` / `journal-of-management-information-systems` / `journal-of-the-association-for-information-systems` / `informs-journal-on-computing` |
+
+## Sibling-Journal Disambiguation
+
+| Confusable targets | Decision rule |
+|---|---|
+| AER/QJE/JPE vs field journals | Use a top-5 only when the paper changes a broad economics conversation; strong identification alone is not enough. |
+| JF/JFE/RFS vs finance field journals | Decide whether the contribution is asset pricing, corporate finance, intermediation, microstructure, or international finance before choosing prestige tier. |
+| AMR vs AMJ vs ASQ | AMR is theory-only; AMJ is empirical theory-building; ASQ expects organization-theory depth and often sociological leverage. |
+| JM vs JMR vs Marketing Science | JM is strategy/managerial broad contribution; JMR is empirical/methodological marketing research; Marketing Science expects modeling, optimization, or quantitative marketing depth. |
+| MISQ/ISR vs CS venues | Use IS journals only when the information-systems theory or organizational technology contribution is central; route pure algorithms to CS/AI. |
 
 ## Decision rules
 

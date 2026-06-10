@@ -9,6 +9,14 @@ description: Use when deciding which computer-science or AI conference skill to 
 
 This is the router for the computer-science conference pack. It puts AI conferences first, then routes by contribution type across ML, data mining, vision, NLP, robotics, HCI, systems, security, software engineering, programming languages, databases, and theory. It does not replace a single-conference profile; it selects the right profile and forces an official-cycle check before submission.
 
+## Resources to Load When Needed
+
+- If the target conference family is unclear, read `../../resources/worked-examples/venue-routing.md`.
+- If two sibling conferences look plausible, read `../../resources/exemplars/selection-patterns.md`.
+- Before submission-ready advice, use `../../resources/conference-roster.md` and
+  `../../resources/official-source-map.md` to open the current official CFP,
+  author kit, and submission policy for the chosen conference.
+
 ## Ask six things first
 
 1. **Contribution type:** algorithm, theory, system, dataset, benchmark, empirical study, user study, security finding, programming-language result, database system, or application.
@@ -32,6 +40,19 @@ This is the router for the computer-science conference pack. It puts AI conferen
 | Security and privacy | `ieee-symposium-on-security-and-privacy` / `usenix-security-symposium` / `acm-conference-on-computer-and-communications-security` / `network-and-distributed-system-security-symposium` |
 | Software engineering, PL, and formal methods | `international-conference-on-software-engineering` / `acm-international-conference-on-the-foundations-of-software-engineering` / `acm-sigplan-conference-on-programming-language-design-and-implementation` / `acm-sigplan-symposium-on-principles-of-programming-languages` |
 | Databases and theory | `acm-sigmod-international-conference-on-management-of-data` / `international-conference-on-very-large-data-bases` / `acm-symposium-on-theory-of-computing` / `ieee-symposium-on-foundations-of-computer-science` |
+
+## Sibling-Conference Disambiguation
+
+| Confusable targets | Decision rule |
+|---|---|
+| NeurIPS vs ICML vs ICLR | Use NeurIPS for broad ML/AI reach, ICML for machine-learning method/theory discipline, and ICLR for representation/deep-learning/open-review fit. |
+| KDD vs ICDM vs SDM | KDD leans data-mining impact and applied discovery, ICDM broad IEEE data-mining methods, SDM mathematical/statistical data-mining rigor. |
+| CVPR vs ICCV vs ECCV | All require a vision contribution; current cycle, scope, and reviewer community decide, not acronym prestige alone. |
+| ACL/EMNLP vs NAACL/EACL | Separate core NLP method, empirical analysis, resource construction, and chapter-cycle fit before choosing. |
+| CHI vs UIST vs CSCW vs IUI vs VIS | User study, UI systems, social computing, intelligent-interface, and visualization claims need different evidence. |
+| S&P vs USENIX Security vs CCS vs NDSS | Pick by threat model, attack/defense evidence, ethics posture, systems/security community, and current CFP scope. |
+| ICSE/FSE vs ASE vs ISSTA vs SANER/ICSME | Broad SE, automation, testing/analysis, reengineering, and maintenance-history papers are not interchangeable. |
+| SIGMOD vs VLDB vs ICDE | Data-management systems, PVLDB-style database research, and IEEE data-engineering work have different submission mechanics; verify the current cycle. |
 
 ## Decision rules
 

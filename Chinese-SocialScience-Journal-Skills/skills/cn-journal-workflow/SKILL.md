@@ -9,6 +9,12 @@ description: Use when deciding which Chinese social-science/economics/management
 
 这是路由 skill。它不替代单刊 skill，而是先判断稿件的**学科、问题层级、方法形态和读者对象**，再转入对应期刊 skill。
 
+## 需要时加载的资源
+
+- 路由不清或用户只说“经管/社科中文期刊”时，先读 `../../resources/worked-examples/venue-routing.md`。
+- 相近刊物容易混淆时，读 `../../resources/exemplars/selection-patterns.md`。
+- 准备给出投稿前结论时，读 `../../resources/official-source-map.md` 并核验对应期刊的最新官方投稿须知。
+
 ## 先问四件事
 
 1. 问题层级：国家/制度/理论命题，还是某行业、某政策、某企业行为？
@@ -37,6 +43,15 @@ description: Use when deciding which Chinese social-science/economics/management
 | 劳动、就业、社保、社会政策 | `studies-in-labor-economics` / `social-security-studies` |
 | 跨学科最高平台、原创理论命题 | `social-sciences-in-china` |
 | 社会学问题意识、定量/定性社会学 | `sociological-studies` |
+
+## 相近刊物区分
+
+| 容易混淆 | 区分规则 |
+|---|---|
+| 《经济研究》 vs 《中国工业经济》 | 前者要求能进入一般经济理论或重大政策机制；后者更适合产业、企业、创新、数字经济与厚实机制。 |
+| 《金融研究》 vs 经管综合刊 | 金融渠道必须是核心问题；若金融变量只是机制或控制变量，转向产业、财政、区域或综合经管刊。 |
+| 《管理世界》 vs 管理学专业刊 | 前者强调中国制度情境、管理实践和政策含义；纯构念/问卷/案例理论常先看南开管理评论、管理评论、管理学报。 |
+| 《中国行政管理》 vs 《电子政务》 | 行政改革与治理理论优先前者；数字政府平台、数据治理和公共服务数字化优先后者。 |
 
 ## 决策规则
 

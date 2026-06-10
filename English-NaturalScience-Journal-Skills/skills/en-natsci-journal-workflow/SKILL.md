@@ -13,6 +13,16 @@ audience breadth**, then routes into the matching per-journal skill for fit and
 re-framing. It is a sibling to `en-journal-workflow`, which covers the
 econ / finance / management 100.
 
+## Resources to Load When Needed
+
+- If the target family is unclear, read `../../resources/worked-examples/venue-routing.md`
+  before choosing a venue.
+- If a manuscript sits between broad and specialist venues, read
+  `../../resources/exemplars/selection-patterns.md`.
+- Before submission-ready advice, use `../../resources/journal-roster.md` and
+  `../../resources/official-source-map.md` to open the current official author
+  instructions for the chosen journal.
+
 ## Ask four things first
 
 1. **Advance type:** a single broadly-significant discovery, a mechanism, a new
@@ -59,6 +69,16 @@ econ / finance / management 100.
 | Earth / climate / sustainability / environment | `nature-geoscience` / `nature-climate-change` / `nature-sustainability` / `one-earth` / `environmental-science-and-technology` |
 | AI/ML / robotics / CV methods | `nature-machine-intelligence` / `science-robotics` / `ieee-transactions-on-pattern-analysis-and-machine-intelligence` / `journal-of-machine-learning-research` |
 | Pure mathematics, top result | `annals-of-mathematics` / `inventiones-mathematicae` / `journal-of-the-american-mathematical-society` |
+
+## Sibling-Journal Disambiguation
+
+| Confusable targets | Decision rule |
+|---|---|
+| Nature/Science/Cell/PNAS vs specialist venues | Use broad venues only when the advance changes a field-wide model or practice; completeness alone is not enough. |
+| NEJM/Lancet/JAMA/BMJ vs specialty clinical venues | General medicine needs practice-changing clinical evidence; disease-area nuance often belongs in specialty journals. |
+| JACS/Angewandte/Nature Chemistry vs ACS Catalysis/materials venues | Decide whether the central advance is molecular chemistry, catalysis mechanism, or materials/device performance. |
+| PRL/Nature Physics/Physical Review family | Route by immediacy and conceptual physics breadth, then by subfield and article format. |
+| Mathematics vs physics vs CS | Theorem, physical insight, and algorithmic benchmark are different products; pick the reviewer community that evaluates the main claim. |
 
 ## Decision rules
 
