@@ -59,6 +59,32 @@ instead it looks like ___."*
 - Mixed methods where the strands never actually integrate
 - A scale mismatch between the claim and the design (local data, global claim)
 
+## Design objections by mode, and the GEC fix
+
+GEC judges each tradition on its own terms, but every mode faces a scale-and-human-dimensions test on top of the usual methodological one. These are the objections that recur and how to disarm them.
+
+| Mode | The objection a referee writes | The fix that holds at GEC |
+|------|-------------------------------|---------------------------|
+| Quant-causal | "Causal language, associational design" / "naive TWFE on staggered rollout" | State the estimand and license; switch to a modern staggered-adoption estimator; cluster correctly |
+| Qualitative | "Convenience case dressed as theory" | Justify case selection by design logic and say what the case is a case *of*, at what scale |
+| Experiment / survey | "Treatment realism and generalisation unaddressed" | Preregister, report MDE, and bound the generalisation claim to the sampling frame |
+| Mixed methods | "Interviews stapled to a regression" | Give the integration logic and show why neither strand alone answers the question |
+| Any mode | "Scale mismatch — local data, global claim" | Match the claim's scale to the design's, or theorise the link across scales explicitly |
+
+## Worked micro-example (illustrative — mixed-methods coastal study)
+
+A team pairs a household survey on adaptation with process-tracing interviews on why a district fund disbursed unevenly.
+
+- **Weak design:** the survey runs a cross-sectional regression labelled "the effect of governance," and a handful of interviews are appended as colour.
+- **GEC-defensible design:** the estimand is the *association* between tenure and adaptation uptake at equal exposure (no causal label it cannot support), clustered at the district; the qualitative strand uses smoking-gun tests on the eligibility-rule mechanism. The adjudication sentence: "If exposure rather than tenure drove uptake, low-tenure uptake would track surge depth; instead it tracks tenure at constant depth (0.37 vs 0.62, illustrative)." The integration logic is explanatory-sequential: the interviews explain *why* the survey pattern arises.
+- **Payoff:** each strand is rigorous on its own terms and the scale (district, with a stated link to the multi-scale nature of coastal change) matches the claim.
+
+## Calibration anchors (hedged)
+
+- **Adjudication bar:** a GEC design should rule out the single strongest rival in one written sentence; if it cannot, the design is underspecified.
+- **Pluralism bar:** quantitative, qualitative, and mixed work are equally welcome — the question is rigour and fit, not method fashion.
+- Confirm any human-subjects, ethics, and preregistration expectations against the journal's current author guidelines, since requirements evolve.
+
 ## Output format
 
 ```

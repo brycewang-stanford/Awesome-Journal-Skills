@@ -50,6 +50,32 @@ skill also covers the journal's **Highlights** requirement.
 - Maps with no scale/unit, or implying spurious precision
 - Highlights that restate the title instead of the contribution
 
+## Exhibit-review patterns at GEC and the fix
+
+GEC exhibits face a reader who may not share your discipline, so the editor and referees test whether the human-dimensions point survives translation. These are the recurring objections.
+
+| What a referee flags | Underlying problem | The GEC fix |
+|----------------------|--------------------|-------------|
+| "I cannot read this exhibit without the text" | Not self-contained | Put sample, unit, scale, and the social variable in the caption; make the point legible standalone |
+| "The figure shows a biophysical trend, not the human story" | Foregrounds the wrong half | Plot the social driver, distribution, or governance outcome; relegate the raw biophysical series if needed |
+| "The map implies precision the data lack" | Continuous shading on coarse units | Class the scheme, state the spatial unit, and use a colorblind-safe palette |
+| "Highlights just restate the title" | Shop-window wasted | Each bullet carries a distinct novel result in plain language |
+| "The framework diagram contradicts the text" | Terms drifted | Make every box and arrow use the manuscript's defined concepts |
+
+## Worked micro-example (illustrative — coastal vulnerability map)
+
+A coastal-adaptation paper proposes a single choropleth of "vulnerability" across districts.
+
+- **Weak exhibit:** a smooth rainbow gradient over district outlines, no unit stated, vulnerability undefined in the legend, readable only in colour.
+- **GEC-strong exhibit:** five classed quantiles on a colorblind-safe sequential ramp, the legend naming the index components (exposure, sensitivity, adaptive capacity), the district as the stated unit, and a caption noting that the top quantile holds 28% of population but 11% of adaptation spending (illustrative). A paired small-multiple shows the same pattern in grayscale.
+- **Payoff:** the inequity — the human-dimensions point — is visible from the exhibit and caption alone, and survives print.
+
+## Calibration anchors (hedged)
+
+- **Self-containment bar:** a non-specialist editor should grasp the contribution from the exhibit plus caption; if they cannot, it is not yet a GEC exhibit.
+- **Accessibility bar:** colorblind-safe, grayscale-legible, vector output is the expectation, not a courtesy.
+- Verify the current Highlights specification (count and character limit) and figure-format rules on the journal's live author guidelines, as Elsevier updates them.
+
 ## Output format
 
 ```

@@ -47,6 +47,32 @@ treat it as a load-bearing contribution, not boilerplate.
 - Undefined contested terms (resilience, vulnerability) used loosely
 - A framework that cannot be confronted with evidence (unfalsifiable)
 
+## Referee-pushback patterns and the GEC-specific fix
+
+These are the framework objections GEC referees write most often, paired with the move that converts them. The signature GEC failure is a framework borrowed from natural science with the human-dimensions content thinned to a label.
+
+| Referee wording you will see | What it diagnoses | The fix that lands at GEC |
+|------------------------------|-------------------|---------------------------|
+| "The framework is invoked but does no analytic work" | A decorative citation, not a load-bearing lens | Re-derive each hypothesis from a named link in the framework; show one result the framework predicted and a rival did not |
+| "Human dimensions are thin — this reads as natural science with a social gloss" | Coupled system asserted, only the biophysical half theorised | Give actors, institutions, and distributional stakes equal conceptual weight to the hazard or biophysical driver |
+| "Concepts are used loosely (resilience, vulnerability)" | Contested terms left undefined | Commit to one definition with a citation, state what it excludes, and use it identically throughout |
+| "The framework is not connected to the evidence" | No bridge from concept to observable | Add an explicit row mapping each concept to its measure and the disconfirming observation |
+| "Integration is stapled, not genuine" | Two literatures cited side by side | Name the single constitutive link where the domain and social-science concepts meet on your question |
+
+## Worked micro-example (illustrative — coastal adaptation vignette)
+
+A team frames a mixed-methods study of climate adaptation and social vulnerability in a coastal delta region. Numbers below are illustrative.
+
+- **Weak version (desk-reject risk):** "We apply a resilience lens to flooding in the delta." Resilience is undefined; the framework predicts nothing; the social half is a sentence.
+- **GEC-strong version:** the framework specifies *hazard exposure (storm-surge depth) × differentiated entitlements (land tenure, credit access) → adaptive action → residual vulnerability*. It commits to a livelihoods-plus-entitlements definition of vulnerability, and predicts that households in the bottom tenure tier adapt 40% less (illustrative) despite equal exposure.
+- **Payoff:** when the survey shows adaptive-action rates of 0.62 vs 0.37 (illustrative) across tenure tiers at equal surge exposure, the framework — not the hazard alone — explains the gap, and a pure biophysical rival cannot.
+
+## Calibration anchors (hedged where uncertain)
+
+- **Interdisciplinary integration bar:** a GEC framework that a social scientist and a domain scientist would both recognise as theirs clears the bar; one half present, the other labelled, does not.
+- **Falsifiability bar:** if no realistic observation could undermine the framework, referees treat it as narrative, not theory.
+- **Global-significance framing:** the framework should explain why the mechanism travels beyond the case, even when the evidence is local; confirm the journal's current scope statement on its author guidelines for the exact wording.
+
 ## Output format
 
 ```

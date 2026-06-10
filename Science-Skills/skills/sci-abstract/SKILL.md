@@ -1,6 +1,6 @@
 ---
 name: sci-abstract
-description: Use to write the Science one-sentence summary and the ≤125-word abstract — both readable by a general scientific audience, both leading with the advance. Late-stage polish skill.
+description: Use when writing the two front-matter artifacts Science (AAAS) demands — the one-sentence summary for the table of contents and the ≤125-word single-paragraph abstract — both readable by any scientist and both leading with the quantified advance rather than the method. Late-stage polish skill for the flagship AAAS weekly.
 ---
 
 # Abstract & One-Sentence Summary (sci-abstract)
@@ -52,6 +52,44 @@ Recommended five-move structure (no labels in the text):
 ## Quantification check
 
 Every claim of effect must carry a number somewhere in the paper, and the headline effect should be in the abstract: magnitude + unit + uncertainty (CI or P). If the abstract has zero numbers, it is not finished.
+
+## What the editorial board reads first
+
+Because Science triages most submissions in-house before any referee sees them, your one-sentence summary and abstract are frequently the *only* prose a professional editor reads before deciding to read further. Calibrate to that reality:
+
+| Editor's silent question | Where they look | What kills it |
+|--------------------------|-----------------|---------------|
+| "Would our general readership care?" | one-sentence summary | a subfield claim only specialists parse |
+| "Is there a result, or just an approach?" | abstract sentences 3–4 | method recap with no quantified finding |
+| "Is this overstated?" | abstract last sentence | an implication asserted, not demonstrated |
+| "Can I send this summary to a referee verbatim?" | the whole summary | undefined acronyms, hedging stacks |
+
+The abstract is one unstructured paragraph — unlike a structured clinical abstract (Background/Methods/Results/Conclusions). Do not import a NEJM/JAMA structured-abstract template; Science runs continuous prose with no labels.
+
+## Worked micro-example (illustrative)
+
+A team finds that a single gut bacterium's enzyme degrades a common drug, explaining why some patients respond and others do not. Walk the moves (numbers illustrative only):
+
+- **One-sentence summary** (≈110 chars): "A single gut-microbial enzyme inactivates a widely used drug, explaining variable patient response."
+- **Abstract** (≈120 words, prose): *Stake* — drug response varies unpredictably between patients. *Gap* — the gut microbiome was suspected but no mechanism was known. *Approach* — we screened 412 isolates and reconstituted the activity in vitro. *Result* — one enzyme reduced active-drug levels by 73% (95% CI 65–80%; P < 0.001), and its abundance predicted response in a 96-patient cohort (AUC 0.84). *Implication* — microbial enzymology may be a general, modifiable axis of drug variability.
+
+Notice: the headline number (73%, CI, P) sits in the abstract, not buried in a figure; the last sentence reaches a broad audience (pharmacology, microbiology, clinical medicine) without claiming proof of causation in humans.
+
+## Referee and editor pushback patterns
+
+| Pushback you will hear | The Science-specific fix |
+|------------------------|--------------------------|
+| "The summary just restates the title." | Make it state the *consequence*, not the topic — the lesson a non-specialist takes away. |
+| "I read the abstract and still don't know the result." | Put the quantified headline (magnitude + uncertainty) in sentences 4–5; delete one context sentence to fit. |
+| "Reads like an abstract for a specialist journal." | Replace the field-internal opener with the broad stake; cut acronym chains. |
+| "The last line over-claims." | Hedge to what the data show; "may be a general axis" not "is the cause" — confirm the claim survives `sci-fit`. |
+
+## Calibration anchors (confirm against current author guidelines)
+
+- One-sentence summary: target ≤ ~125 characters; it is a distinct required field, not the first abstract line.
+- Abstract: target ≤ ~125 words, single paragraph, no subheadings, no citations, no figure references.
+- Exactly one paragraph — the convention is firm even as the word ceiling may shift; verify the current cap.
+- At least one quantified headline effect with uncertainty; zero-number abstracts are unfinished.
 
 ## Output format
 

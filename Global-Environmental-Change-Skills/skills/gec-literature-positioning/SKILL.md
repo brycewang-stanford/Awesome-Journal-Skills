@@ -44,6 +44,32 @@ only one governance debate) reads as off-fit. This skill helps you locate the pa
 - Framing the gap as mere absence ("no one has looked at …") with no conceptual stake
 - A literature review disconnected from the framework and the eventual policy claim
 
+## Positioning objections GEC editors and referees raise
+
+Because GEC sits at the intersection of environmental social science, governance, and a domain literature, the fastest desk-reject is a paper that engages only one of them. These are the framing objections and their fixes.
+
+| Objection | What it signals | The GEC fix |
+|-----------|-----------------|-------------|
+| "Misses a key literature" | One side of the intersection ignored | Add the missing human-dimensions or domain body and show where it meets your question |
+| "Too disciplinary / off-fit" | Reads as a home-subfield paper | Reframe so the contribution is legible to a governance, vulnerability, or transitions reader |
+| "Gap is mere absence" | "Not studied in country X" with no stake | Recast as: the dominant framing cannot explain Y, and here is the framework or test that does |
+| "Provincial citation base" | Only own group / one region cited | Engage the international, comparative, and policy literatures GEC draws on |
+| "Disconnected from the eventual claim" | Review unrelated to framework or policy | Make the gap the exact thing the framework is built to close |
+
+## Worked micro-example (illustrative)
+
+A land-use change paper is first framed as "filling a gap in remote-sensing estimates of deforestation in one basin."
+
+- **Off-fit framing:** engages only the remote-sensing literature; the contribution is a better measurement of a biophysical process. A GEC editor screens it toward a land-science venue.
+- **GEC-fit reframing:** positions the paper at the meeting of the land-change-science literature and the environmental-governance literature, arguing that prevailing governance accounts predict the wrong spatial pattern of clearing. The gap becomes a contested explanatory claim, not an empty cell on a map. Roughly 60% of the citations now span communities beyond the home subfield (illustrative).
+- **Payoff:** the same data now answers a human-dimensions question — which institutions actually shape land-use drivers — that GEC readers care about.
+
+## Calibration anchors (hedged)
+
+- **Two-literature bar:** a GEC introduction should make at least one domain and one human-dimensions literature meet on the question; a single-silo review reads as off-fit.
+- **Global-significance bar:** the gap should matter beyond one region; a local-only "not yet studied here" rarely clears it.
+- Confirm the journal's current scope and aims statement on its author guidelines before finalising the framing, as editorial emphasis shifts over time.
+
 ## Output format
 
 ```
