@@ -35,6 +35,26 @@ JDE review is **single-anonymized** (referees know your identity), so responses 
 - Keep claims calibrated; development referees reward honest scope and punish overreach.
 - Track the **submission cap** (three per 12 months) so a resubmission does not collide with other submissions.
 
+## Common JDE referee objections and the venue-specific fix
+
+| Referee objection                                         | The fix that lands at JDE                                              |
+|-----------------------------------------------------------|-----------------------------------------------------------------------|
+| "External validity — this is one context, one program"    | State the LATE/population precisely; show what travels via mechanism, not bravado |
+| "Spillovers contaminate your control group"               | Add a SUTVA/spillover check (distance rings, treated-neighbor share), bound the bias |
+| "PAP deviations are not flagged"                          | Add a deviation table: pre-specified vs realized, with reasons        |
+| "SEs ignore clustered randomization"                      | Re-cluster at the randomization level; few clusters → wild-cluster bootstrap or RI |
+| "Subgroup result looks mined"                             | Re-run as pre-specified-only, apply Romano–Wolf, demote the rest to exploratory |
+| "Attrition is differential and unaddressed"               | Report attrition by arm, add Lee bounds, show robustness to the bound |
+
+## Worked micro-example (illustrative)
+
+Hypothetical: a full-length R&R on a cluster-randomized agricultural-extension trial. Editor's letter flags three gates — clustering, spillovers, and a heterogeneity claim.
+
+- **Concede + fix (cheap):** re-cluster at the village level; the ITT moves from +0.21 to +0.19 SD and the CI widens but stays positive (*illustrative*) — concede the original SEs, show the result survives.
+- **Defend with evidence:** for spillovers, add a treated-neighbor-share regression showing near-zero leakage; defend the control group rather than just asserting SUTVA.
+- **Demote:** move the gender-interaction claim to "exploratory, MHT-adjusted," conceding it was not pre-registered.
+- **Letter line:** "Comment 2 (clustering): re-estimated at the randomization level (Table 3, col. 2); ITT = 0.19 SD, 95% CI 0.05–0.33; the package reflects this change." Numbers *illustrative*.
+
 ## Anti-patterns
 
 - Defending everything and conceding nothing — reads as defensive

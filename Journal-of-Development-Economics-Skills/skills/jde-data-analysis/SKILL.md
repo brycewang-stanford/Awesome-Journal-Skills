@@ -31,6 +31,23 @@ Because JDE's **replication policy** lets editors or referees request data, prog
 - Placebo / falsification outcomes that should not move
 - Spillover/SUTVA checks where treatment may leak across units (common in village-level interventions)
 
+## Worked analysis (illustrative)
+
+Hypothetical: a cluster-randomized health-extension experiment, 80 villages, ~30 households each, with 12 percent endline attrition.
+
+- **Inference:** cluster at the village level; with 80 clusters report wild-cluster-bootstrap p-values too (*illustrative* ITT = +0.14 SD on a child-health index, p = 0.03).
+- **Attrition:** 12 percent overall but 9 vs 15 percent across arms — differential, so add Lee bounds; the effect survives the lower bound (~+0.06 SD).
+- **Measurement:** the health index mixes recall and anthropometric items; pre-specify weights and show robustness to inverse-covariance vs simple-average aggregation.
+- **Heterogeneity:** only the baseline-poverty split was pre-registered; report it Romano–Wolf-adjusted, demote the rest.
+
+## Empirical-credibility pushback and the fix
+
+| Referee objection                                  | The JDE-norm response                                        |
+|----------------------------------------------------|--------------------------------------------------------------|
+| "SEs ignore the clustered randomization"           | Re-cluster at the randomization unit; wild-cluster boot / RI |
+| "Differential attrition biases the effect"         | Report attrition by arm; add Lee bounds; show the bound holds |
+| "Spillovers violate SUTVA in your villages"        | Distance-ring / treated-neighbor checks; bound the leakage    |
+
 ## Anti-patterns
 
 - Standard errors not clustered at the design level; ignoring few-cluster bias

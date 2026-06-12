@@ -52,6 +52,25 @@ description: Use when running the final pre-submission preflight for the Journal
 - [ ] Identification diagnostics complete (see jde-identification-strategy, jde-data-analysis)
 - [ ] No over-claiming beyond what the design supports
 
+## Desk-screen failure modes (what gets a JDE paper bounced before review)
+
+| Failure at the desk                                       | Preflight catch                                                |
+|-----------------------------------------------------------|----------------------------------------------------------------|
+| No first-order development stake — generic micro on LMIC data | Confirm the development mechanism is the point (see jde-topic-selection) |
+| Short-paper track over 6,000 words or 5 exhibits          | Hard-count words and exhibits before route selection           |
+| Mixed US/UK English across the manuscript                  | One-pass spelling sweep for a single consistent variant        |
+| Causal claim on OLS + controls, undefended                 | Identification diagnostics complete before submitting          |
+| Replication package not staged (can be requested in review)| Master script + README + seeds ready at submission, not later  |
+| Fourth submission inside a 12-month window                 | Track the three-per-12-months cap across co-authored papers    |
+
+## Worked preflight vignette (illustrative)
+
+Hypothetical: a cluster-randomized health-information experiment, sharp single result, draft at 5,400 words with 4 exhibits.
+
+- **Route:** fits the **short-paper** track — under both the 6,000-word and 5-exhibit caps, self-contained, online appendix at ~14 pages (under the 20-page cap, *illustrative*).
+- **Preflight hits:** the manuscript was anonymized as if double-blind — un-anonymize, since review is single-anonymized; the cover letter named a "submission fee budget" — delete it, there is no fee.
+- **Go/no-go:** replication package regenerates all 4 exhibits from `run_all`; COI/IRB disclosures attached; within the 3-per-12-months cap → cleared to submit.
+
 ## Anti-patterns
 
 - Anonymizing as double-blind when JDE review is single-anonymized

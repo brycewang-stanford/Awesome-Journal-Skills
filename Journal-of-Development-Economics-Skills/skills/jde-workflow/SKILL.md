@@ -51,6 +51,35 @@ Default assumption: unless the user says otherwise, treat the target as JDE — 
 
 > If your design is prospective, route to `jde-review-process` early — the **pre-results review** track reviews and accepts the design *before* results exist.
 
+## Worked routing example (illustrative)
+
+A user arrives with a fielded cluster-randomized agricultural-extension trial, results in hand, and an unfocused draft. Diagnose the bottleneck before sequencing:
+
+- The causal design is sound (randomized at the village level), so **skip ahead** of `jde-identification-strategy` except to confirm clustering and attrition.
+- The draft reports coefficients but no development lesson → the live bottleneck is `jde-contribution-framing`, then `jde-literature-positioning` to stake the increment.
+- Because the result is sharp and self-contained (~5,000 words, *illustrative*), flag the **short-paper** route early via `jde-review-process` so the team writes to the 6,000-word / 5-exhibit cap rather than over-building.
+- Only after framing and identification settle should `jde-tables-figures` and `jde-writing-style` polish.
+
+## Stage-to-symptom quick map
+
+| Stage symptom                                  | Route to                          |
+|------------------------------------------------|-----------------------------------|
+| "Is this even a development paper?"            | `jde-topic-selection`             |
+| "Results exist but the lesson is fuzzy"        | `jde-contribution-framing`        |
+| "A referee will call the design weak"          | `jde-identification-strategy`     |
+| "An R&R letter just arrived"                   | `jde-rebuttal`                    |
+| "Design not yet fielded"                       | `jde-review-process` (pre-results)|
+
+## Router output
+
+```
+【Current stage】topic / framing / identification / analysis / exhibits / writing / replication / review / submission / rebuttal
+【Live bottleneck】one sentence
+【Route now to】jde-<skill>
+【Route candidate (full-length / short-paper / pre-results)】+ why
+【Within 3-per-12-months cap?】[Y/N]
+```
+
 ## Anti-patterns
 
 - **Do not** skip `jde-contribution-framing` — JDE referees judge the development contribution first

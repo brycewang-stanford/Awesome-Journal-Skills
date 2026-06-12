@@ -29,6 +29,25 @@ Because JDE is highly selective — roughly **1,300 submissions a year**, only a
 - "It's a short, single-result paper" → consider the **AER: Insights-style short-paper** track.
 - "It's a theory paper on development dynamics" → fits; JDE publishes theory, not only RCTs.
 
+## Fit-screen table (illustrative verdicts)
+
+| Candidate question                                                        | JDE fit  | Why                                                       |
+|---------------------------------------------------------------------------|----------|-----------------------------------------------------------|
+| RCT of a school-meals program on learning in a low-income country         | Strong   | First-order welfare stake, credible design, policy lever  |
+| Microfinance access and firm investment in an LMIC, quasi-experimental    | Strong   | Credit-market friction, development mechanism is the point |
+| Asset-pricing anomaly tested on an emerging-market exchange               | Weak     | Finance question wearing LMIC data; setting is incidental |
+
+## Worked fit call (illustrative)
+
+A team has administrative data on a rural electrification rollout and wonders if it is a JDE paper.
+
+- **Off-fit version:** "Does electricity access correlate with nighttime light intensity?" — descriptive, no welfare stake, no identification.
+- **On-fit version:** "Did staggered grid expansion raise non-farm enterprise formation and household earnings?" — a first-order question with a quasi-experimental design (rollout timing) and a clear policy lever; route to `jde-identification-strategy` next.
+
+## Referee fit pushback
+
+- *"This is a general micro result that happens to use developing-country data."* → relocate the contribution to the development mechanism, or retarget honestly. Novelty of site alone is never the contribution; the *answer* must matter for poor populations.
+
 ## Anti-patterns
 
 - A general labor/IO/macro paper wearing a developing-country dataset as a costume

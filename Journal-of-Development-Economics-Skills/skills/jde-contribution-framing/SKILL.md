@@ -29,6 +29,26 @@ State the contribution in one sentence in the abstract and again at the end of t
 - Be explicit about **scope and external validity**: say what the result teaches beyond the single site without overclaiming.
 - If the paper is theoretical, frame the contribution as a development-relevant mechanism or testable implication, not a generic modeling exercise.
 
+## From result to contribution (worked, illustrative)
+
+Hypothetical: a cluster-randomized microfinance experiment finds loan-group savings rose but business investment did not.
+
+- **Weak framing:** "We find a 6 percent increase in savings in treated villages." States a coefficient, no lesson.
+- **JDE framing:** "Group-liability microcredit raised savings by 6 percent (≈ 11 percent of the control-group poverty gap, *illustrative*) but not business investment — evidence the binding constraint was a savings device, not capital access." Names mechanism, population, and policy implication.
+- **Scope hedge:** local to liquidity-constrained households under group liability; say what it teaches about credit-market frictions without elevating one LATE to a development law.
+
+## Contribution-strength screen
+
+| Symptom in the draft                                  | The reframe a JDE referee wants                              |
+|-------------------------------------------------------|-------------------------------------------------------------|
+| "We estimate the effect of X on Y in country Z"       | What development mechanism this changes, and for whom        |
+| Effect only in raw units                              | Effect in poverty-gap share, SDs, or cost per outcome        |
+
+## Referee pushback on contribution
+
+- *"This is a one-context result."* → frame the transferable mechanism, not the site; concede external-validity limits rather than overclaiming.
+- *"Why JDE and not a regional or general-micro outlet?"* → make the first-order development stake the spine of the framing.
+
 ## Anti-patterns
 
 - An abstract full of coefficients but no stated development takeaway

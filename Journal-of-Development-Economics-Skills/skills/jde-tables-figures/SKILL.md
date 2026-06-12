@@ -34,12 +34,36 @@ JDE accepts **any consistent formatting style at submission** (the journal's sty
 - [ ] Vector output (PDF/EPS) at print resolution
 - [ ] Every exhibit reproducible from the master script
 
+## Exhibit-design decision grid (by JDE design type)
+
+| Design in the paper            | Lead exhibit a JDE referee expects                       | Notes line that must appear                            |
+|--------------------------------|----------------------------------------------------------|--------------------------------------------------------|
+| Cluster-randomized field trial | Coefficient/forest plot of ITT by outcome, 95% CIs       | Randomization level, N clusters, control mean          |
+| RDD on an eligibility cutoff   | Binned scatter with local-linear fit + density plot      | Bandwidth, kernel, polynomial order, McCrary p-value   |
+| Staggered policy rollout (DID) | Event-study plot, leads near zero, modern estimator      | Estimator (CS / SA / dCDH), cohort weighting           |
+| IV off an institutional rule   | First-stage scatter + reduced-form plot                  | First-stage F, exclusion logic, complier share         |
+| Spatial / market-access design | Map of treatment intensity or program reach              | Spatial unit, color encoding, spatial SE clustering    |
+
+## Worked micro-example (illustrative numbers)
+
+Hypothetical JDE paper: a cluster-randomized after-school tutoring program across 120 villages in a low-income setting, randomized at the village level (60 treatment, 60 control), ~25 children sampled per village.
+
+- **Wrong instinct:** an eight-column table reporting test scores, attendance, a sub-index, and three interactions, all with stars. A development referee cannot find the headline.
+- **JDE-shaped fix:** one coefficient plot — ITT on the standardized test-score index = +0.18 SD (95% CI 0.06 to 0.30), control mean printed below the axis (*illustrative*). Attendance and the sub-index sit beside it as secondary points; the three interactions move to an appendix figure flagged "exploratory."
+- **Note line:** "ITT; clustering at village level (60/60), N = 2,940; bars are 95% wild-cluster-bootstrap CIs. Figures *illustrative*."
+
+## Referee pushback the right exhibit pre-empts
+
+- *"Is 0.18 SD a lot?"* → print the control mean and a policy-comparable benchmark on the figure; significance never substitutes for size at JDE.
+- *"Which subgroup splits were pre-registered?"* → solid markers for pre-specified subgroups, hollow for exploratory, MHT-adjusted intervals shown.
+
 ## Anti-patterns
 
 - A dense table when one event-study or coefficient plot would carry the result
 - Notes that omit the clustering level or sample definition
 - Significance stars with no economically meaningful magnitude
 - Polishing to Elsevier house style before acceptance (style is applied at proof stage)
+- A heterogeneity panel that hides which splits were pre-specified versus mined
 
 ## Output format
 

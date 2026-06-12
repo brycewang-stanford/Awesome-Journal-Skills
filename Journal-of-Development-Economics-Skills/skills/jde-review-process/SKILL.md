@@ -37,6 +37,28 @@ A **permanent** track (piloted 2018-2019 with **BITSS**) for prospective empiric
 - Prospective design, want the plan locked and de-risked → **pre-results review**
 - Rich result needing full treatment, theory, or extensive empirics → **full-length**
 
+## Route-choice decision table
+
+| Your situation                                                  | Route          | Why                                                      |
+|-----------------------------------------------------------------|----------------|----------------------------------------------------------|
+| RCT not yet run; want the design locked and bias-proofed        | Pre-results    | Stage 1 accepted in principle before results exist       |
+| One sharp result, ≤ 6,000 words, ≤ 5 exhibits, self-contained   | Short-paper    | Fast (~4–6 wk), single 4-wk revision, editor decides     |
+| Rich design + theory + extensive heterogeneity and robustness   | Full-length    | No length cap; extensive online appendix expected        |
+| Quasi-experiment already estimated, needs full empirical defense | Full-length    | Multiple referees, multiple R&R rounds                   |
+
+## Worked routing example (illustrative)
+
+Hypothetical: a team has designed but not yet fielded a cluster-randomized cash-transfer trial in a low-income setting and wants to de-risk it.
+
+- **Right call:** Stage 1 pre-results submission — background, hypotheses, procedures, a statistical analysis plan, and a **power analysis** at the cluster level (e.g., 90 clusters powered to detect a 0.15 SD consumption effect, *illustrative*). If accepted in principle, results cannot sink the paper for being null.
+- **Wrong call:** running the trial first, finding a null, then trying pre-results — that track is *prospective only*.
+
+## Calibration anchors (hedged)
+
+- Selectivity is high: ~1,300 submissions/year, about a quarter sent for review, ~6–8% accepted — high-confidence but **待核实** against the live Guide for Authors.
+- Short-paper decisions generally land in **4–6 weeks**; the full-length pipeline runs months across rounds — plan the **three-per-12-months** cap around it.
+- The development-policy-relevance bar is real: a technically clean paper with no first-order LMIC stake is a routine non-starter regardless of route.
+
 ## Anti-patterns
 
 - Submitting a sprawling paper to the short-paper track (it caps words and exhibits)

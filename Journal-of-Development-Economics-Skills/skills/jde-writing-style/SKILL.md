@@ -29,6 +29,25 @@ JDE readers are development economists; the writing has to make a **first-order 
 - Define constructed variables and indices in words before the reader meets them in a table.
 - Keep the conclusion to what the design supports plus honest open questions.
 
+## Abstract rewrite (worked, illustrative)
+
+Hypothetical: a cluster-randomized teacher-incentive experiment in a low-income setting.
+
+- **Weak:** "We study a teacher-incentive program via a randomized experiment and discuss policy implications." Names a topic, states no result.
+- **JDE-shaped:** "In a cluster-randomized trial across 200 schools, performance pay raised test scores 0.16 SD (≈ a half-year of learning, *illustrative*); effects faded once incentives ended — pay shifts teacher effort, not durable capital." Design, welfare-unit magnitude, mechanism, scope.
+
+## Prose pushback and the fix
+
+| Referee/editor reaction                              | The JDE-prose fix                                            |
+|------------------------------------------------------|-------------------------------------------------------------|
+| "The abstract states a topic, not a finding"         | Lead with the headline effect in welfare-relevant units      |
+| "A survey delayed the question"                      | Open paragraph one with the development question itself      |
+| "Is 0.16 SD meaningful?"                             | Anchor to a policy benchmark (years of learning, cost)       |
+
+## Calibration anchors (hedged)
+
+- Pre-results Stage 1 abstracts cap at **150 words**; a regular-submission cap is not officially confirmed (**待核实**) — keep it tight regardless.
+
 ## Anti-patterns
 
 - An abstract that names a topic but states no effect size

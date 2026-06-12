@@ -51,6 +51,25 @@ JDE also runs a permanent **pre-results review / Registered Reports** track: a p
 - Optimal bandwidth (Calonico–Cattaneo–Titiunik) plus bandwidth robustness; bias-corrected CIs.
 - Covariate smoothness and placebo cutoffs.
 
+## Worked micro-example (illustrative)
+
+Hypothetical: a national school-construction program rolled out district-by-district over six years — a quasi-experiment exploiting staggered policy timing to estimate effects on years of schooling.
+
+- **Identifying variation:** within-district changes in program exposure timing, comparing cohorts young enough to benefit against older cohorts at rollout.
+- **The trap:** plain TWFE on the staggered rollout reporting one coefficient (e.g., +0.4 years, *illustrative*); with heterogeneous timing, already-treated districts contaminate the comparison group.
+- **JDE-shaped fix:** estimate with Callaway–Sant'Anna or de Chaisemartin–D'Haultfœuille, show a Goodman-Bacon decomposition, plot the event study with leads near zero, and cluster at the district (rollout) level.
+- **External validity line:** the estimate is a LATE for cohorts near the exposure margin in this institutional setting — say what it teaches about returns to schooling without claiming a universal parameter.
+
+## Credibility pushback and the design-level answer
+
+| Referee concern                                | What clears the JDE bar                                       |
+|------------------------------------------------|--------------------------------------------------------------|
+| "Staggered TWFE is biased here"                | Modern estimator + Bacon decomposition + event-study plot    |
+| "Spillovers leak treatment into controls"      | Spillover/SUTVA test; bound it; defend the controls          |
+| "IV exclusion is asserted, not argued"         | Theory + institutions + falsification, all three             |
+| "RDD cutoff may be manipulated"                | Density test (McCrary / CJM) + covariate smoothness          |
+| "One site — why generalize?"                   | Pin the LATE/population; mechanism evidence that travels      |
+
 ## Anti-patterns
 
 - TWFE on staggered treatment with no discussion of heterogeneity bias

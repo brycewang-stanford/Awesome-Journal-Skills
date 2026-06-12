@@ -29,6 +29,24 @@ Because development is a large, active field, cite both the canonical anchors an
 - Distinguish your **LATE / population** from neighboring studies: development results are often local, so positioning includes what your estimate adds to the broader evidence base.
 - A short references-light positioning paragraph beats a three-page survey.
 
+## Worked positioning (illustrative)
+
+Hypothetical: a cluster-randomized trial of mobile-money agents on consumption smoothing in a low-income setting.
+
+- **Conversation joined:** financial inclusion and risk-sharing in LMICs (mobile-money and savings-constraints RCT literature).
+- **Binding gap:** prior estimates identify *household* adoption effects, not *agent-network density* — the supply-side margin a policymaker can move.
+- **Our increment:** randomizing agent coverage isolates the supply margin, smoothing consumption ~8 percent during shocks (*illustrative*) where adoption studies could not separate supply from demand.
+- **Honest competition:** flag the closest recent working paper and say what differs — randomized vs observational, population, margin.
+
+## Positioning failure modes and fixes
+
+| Failure                                                  | JDE-specific fix                                              |
+|----------------------------------------------------------|--------------------------------------------------------------|
+| Survey-style intro that never stakes a claim             | One paragraph: known / binding gap / our increment           |
+| Positioned against general economics                     | Locate the precise development subliterature instead          |
+| Ignores a near-identical recent working paper            | Cite it and state the delta; referees will know it           |
+| LATE not distinguished from neighboring studies          | Say what your population adds to the evidence base            |
+
 ## Anti-patterns
 
 - A literature section that surveys the field but never stakes a claim
