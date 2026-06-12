@@ -48,6 +48,34 @@ A field-crop paper is reproducible only if the methods report all of:
 - **Ethics / authorship / conflicts.** Standard Elsevier declarations (CRediT roles, competing
   interests, funding) where applicable.
 
+## Minimum agronomic metadata table (what an FCR methods reviewer audits)
+
+A methods reviewer for a field-crop journal reads for reproducibility line by line. The gaps that draw
+"cannot evaluate" comments are predictable; carry this table so each item is on the page, not in a lab
+notebook.
+
+| Block | Must report | Why FCR cares |
+|-------|-------------|---------------|
+| Genotype | cultivar name, maturity group, seed source/year | G×E claims need genotype identity |
+| Environment | site coordinates, elevation, seasons, what each environment represents | defines the target population of environments |
+| Soil | classification, texture, depth, pH, organic C, available N/P/K | yield response is soil-conditional |
+| Weather | radiation, max/min temperature, rainfall, **aligned to phenology** | lets readers interpret G×E |
+| Management | sowing date/density, N/P/K rate and timing, irrigation, crop protection, tillage | the "M" in G×E×M |
+| Design | layout, randomization, replication, plot size, guard rows | error structure depends on it |
+
+## Worked data-availability vignette (illustrative)
+
+*Illustrative; figures are for demonstration only.* A multi-environment trial of two wheat cultivars
+across **3 seasons × 5 sites (15 site-years)** reports grain yields of 4.2–7.8 t ha⁻¹ and a per-plot
+dataset of N rate, anthesis date, and yield. Drafting the statement: the plot-level table (15
+site-years × 4 N rates × 3 reps ≈ 180 rows) is non-sensitive, so deposit it in **Mendeley Data** under
+Creative Commons, cite it with the DOI, and state "data are openly available at [DOI]." One site's
+soil-survey layer is licensed from a provider that forbids redistribution — for that layer only, state
+the **restriction and its reason** rather than leaving a blanket "available on request." The published
+statement must let a reader regenerate every yield mean and SED in the results. Confirm the current
+repository and statement wording against the journal's author guidelines, since Elsevier policy text is
+volatile.
+
 ## Anti-patterns
 
 - A methods section missing soil, weather-vs-phenology, or management detail (not reproducible)
@@ -55,6 +83,7 @@ A field-crop paper is reproducible only if the methods report all of:
 - "Data available on request" with no reason and no repository where sharing was feasible
 - Forgetting the generative-AI declaration
 - Reported yields that the deposited data or analysis cannot regenerate
+- Depositing summary means only, so the plot-level structure (blocks, sub-plots) cannot be reconstructed
 
 ## Output format
 

@@ -43,6 +43,25 @@ generating claims.
 - Quantify ("a 0.8 t ha⁻¹ increase," not "a large increase"); avoid vague significance language.
 - Signpost clearly so a reader can follow the argument from objective to conclusion.
 
+## Vague-to-quantified rewrite table
+
+FCR rewards the quantified, agronomic sentence over the qualitative one. Each row shows the upgrade an
+editor expects between draft and submission.
+
+| Vague draft | Quantified, FCR-ready (illustrative) |
+|-------------|--------------------------------------|
+| "Yield increased substantially." | "Yield rose 0.9 t ha⁻¹ (12%) in high-N environments." |
+| "The treatment was significant." | "The N×cultivar interaction was significant (SED = 0.15 t ha⁻¹, α = 0.05)." |
+
+## Worked discussion-rewrite vignette (illustrative)
+
+*Illustrative.* A results-echoing discussion opens: "As shown in Table 3, the new cultivar yielded 0.9
+t ha⁻¹ more than the check" — restating the result, the most common FCR reviewer complaint. The
+interpretive rewrite leads with the **mechanism and its generality**: "The advantage concentrated in
+high-N environments, consistent with greater post-anthesis N remobilisation in the stay-green line; in
+the two dry site-years it vanished, marking water — not N — as limiting." Now the paragraph explains
+*why* and bounds *where* it travels — the move from local report to general contribution.
+
 ## Anti-patterns
 
 - A discussion that repeats the results instead of interpreting them

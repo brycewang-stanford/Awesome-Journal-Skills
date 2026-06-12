@@ -39,6 +39,28 @@ at least two reviewers**.
 - Report enough agronomic detail (soil, weather-vs-phenology, management) to be reproducible.
 - Make the **discussion interpret**, not repeat — a frequent reviewer complaint.
 
+## What each gatekeeper weighs
+
+A submission passes three readers, each with a distinct veto. Anticipating who blocks on what lets you
+pre-empt the objection in the right section.
+
+| Gatekeeper | Weighs most | Blocks when |
+|------------|-------------|-------------|
+| Editor (scope) | field-based, multi-environment, field crop, general | controlled-environment-only, single site-season, descriptive/local, out-of-scope species |
+| Methods reviewer | design–analysis match, error structure, G×E | pseudoreplication, wrong error term, pooled environments hiding G×E |
+| Agronomy reviewer | yield/process link, mechanism, generality | yield with no biophysical explanation, discussion that repeats results |
+
+## Worked screening vignette (illustrative)
+
+*Illustrative walk-through.* A paper reports a **0.7 t ha⁻¹** sorghum yield gain from a sowing-date
+shift over **2 seasons at 3 sites**. The editor's scope screen passes: field-based, 6 site-years, a
+field crop, plausibly general. The methods reviewer flags that sowing date was applied to whole strips
+with cultivar nested inside, so the **strip-plot error** must be used — the original ANOVA over-stated
+significance. The agronomy reviewer wants the effect tied to **escaping terminal heat at anthesis**, a
+phenology mechanism, not just a number. Realistic outcome: **major revision** — refit with the correct
+error term, add phenology-vs-temperature evidence, and scope the recommendation to terminal-heat
+environments.
+
 ## Anti-patterns
 
 - Submitting controlled-environment-only or single-site/single-season work to a multi-environment journal

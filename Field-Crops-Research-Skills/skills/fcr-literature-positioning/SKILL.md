@@ -41,6 +41,31 @@ paper where an agronomist or crop scientist anywhere can see the gap, the mechan
 | a modelling paper | the field-experiment literature used for calibration/validation |
 | a breeding/genetics study | the G×E and agronomy literature linking traits to field yield |
 
+## Local-to-general conversion table
+
+The single most common positioning failure at FCR is a real, well-run study framed as a regional report.
+Each row turns a local frame the editors would screen out into the general, mechanism-anchored claim the
+journal rewards.
+
+| Local framing (screened out) | General framing FCR rewards |
+|------------------------------|-----------------------------|
+| "First N-response curve for cultivar C in region R" | "N-use efficiency of stay-green genotypes is set by post-anthesis uptake, not total N — tested across 6 environments" |
+| "Intercropping raised yield on our station" | "Intercrop overyielding is conditional on radiation-limited vs. water-limited environments — a transferable rule" |
+| "Our model fit the local trial well" | "A recalibrated phenology routine closes the simulated-vs-observed anthesis bias across a rainfall gradient" |
+| "Residue retention helped here" | "Residue effect on yield reverses sign between cool-wet and hot-dry seasons, explaining literature disagreement" |
+
+## Worked positioning vignette (illustrative)
+
+*Illustrative scenario; the contested-effect framing is the point, not the numbers.* Prior papers
+disagree on whether a deficit-irrigation schedule lifts or lowers maize water-use efficiency (WUE).
+A team has **2 seasons × 3 sites** spanning a vapour-pressure-deficit gradient and finds WUE rises
+~12% under deficit at high-VPD sites but falls ~5% at the cool site. The weak (rejected) framing:
+"deficit irrigation improves WUE in our trials." The FCR framing positions against the **mechanism and
+the disagreement**: prior work conflates two environment types; the WUE response is conditional on
+evaporative demand, which reconciles the contested literature and predicts where the practice travels.
+That move — naming the unresolved general question, then resolving it across environments with a
+transferable mechanism — is what lifts the paper above "local and corroborative."
+
 ## Anti-patterns
 
 - A "literature dump" with no organising agronomic question

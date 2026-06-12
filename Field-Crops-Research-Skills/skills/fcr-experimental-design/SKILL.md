@@ -53,6 +53,35 @@ For your design, write one sentence: *"These environments represent ___, so the 
 hold for ___ (and not for ___)."* If you cannot, the design does not yet support a general,
 FCR-worthy claim — add environments or scope the claim.
 
+## Design-choice decision table (match layout to the question)
+
+FCR referees expect the layout to follow from the agronomic question and the field's structure, with a
+named design and stated randomization. Pick — and justify — before committing plots.
+
+| Situation | Design FCR expects | Note |
+|-----------|--------------------|------|
+| One factor, field gradient | RCBD, blocks across the gradient | name blocks, give replication |
+| Many genotypes, few reps | Resolvable incomplete block / **alpha-lattice** | recover inter-block information |
+| Factor hierarchy (irrigation × N) | Split-plot (water = whole-plot) | report whole-plot + sub-plot error |
+| Large/heterogeneous field | RCBD/lattice **+ spatial model** (row–column, P-spline) | pre-plan the spatial term |
+| Genotype ranking across environments | MET, environments a random sample | enables AMMI/GGE, stability inference |
+
+## Sizing anchors (illustrative, hedged)
+
+No universal minimum exists, but FCR's ≥2-seasons/-environments expectation points to norms worth
+calibrating against — as *illustrative anchors* (confirm against your own variance): MET genotype
+trials often run **≥6–8 site-years** before stability inference is credible; replication is commonly
+**3–4 blocks** per environment; a response curve wants **≥4–5 levels**.
+
+## Worked design vignette (illustrative)
+
+*Illustrative; the logic is the lesson.* A team wants to claim a new wheat cultivar yields more under
+reduced N. A weak design — **1 site, 1 season, cultivar unreplicated** — cannot separate cultivar from
+field position and yields no G×E information. The FCR-grade redesign: **2 seasons × 4 sites (8
+environments)** on a soil-N gradient, **split-plot** (N as whole-plot, cultivar as sub-plot), **4 blocks
+per environment**, **5 N levels** for a response curve, and a **row–column spatial term** — making the
+cultivar × N × environment surface identifiable and testable across environments.
+
 ## Anti-patterns
 
 - One site, one season presented as sufficient (fails the multi-environment expectation)

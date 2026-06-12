@@ -53,6 +53,27 @@ official Elsevier guide before relying on them (live page may 403 to automated t
 - [ ] Cover letter establishing scope fit + contribution (see `fcr-cover-letter`)
 - [ ] Co-submission to **Data in Brief / MethodsX** considered if relevant
 
+## Highlights bench-test (illustrative)
+
+Highlights are findings, not topics, and the **≤85-character** limit (confirm on the live guide) counts
+spaces. Bench-test each bullet.
+
+| Draft highlight | Chars | Verdict |
+|-----------------|-------|---------|
+| "Effects of nitrogen on wheat yield and quality" | 47 | reject — a topic, not a finding |
+| "New cultivar raised yield 0.9 t/ha in high-N environments only" | 62 | keep — quantified |
+| "G×E explained 38% of yield variance across 8 site-years" | 56 | keep — names the result |
+
+## Worked preflight vignette (illustrative)
+
+*Illustrative dry-run.* A maize MET manuscript reaches the final pass: **2 seasons × 4 sites**, abstract
+at **410 words**, 6 highlights, a plot-level dataset, but **no weather-vs-phenology figure**. The
+preflight catches four blockers: trim the abstract under the ~400-word cap; cut highlights to **5** and
+rewrite topic-style bullets as findings; add the weather-vs-phenology panel so the G×E is interpretable;
+and draft the **data-availability statement** to the Mendeley Data DOI. Scope and
+statistics pass, so once fixed the package is ready for Editorial Manager. Re-verify the
+abstract/highlights caps on the official guide — flagged volatile in the map.
+
 ## Anti-patterns
 
 - Submitting controlled-environment-only or single-site/single-season work

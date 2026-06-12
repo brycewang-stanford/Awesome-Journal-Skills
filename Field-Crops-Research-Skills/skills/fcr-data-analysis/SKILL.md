@@ -49,6 +49,32 @@ execution lives here; design decisions live in `fcr-experimental-design`.
 - Keep table/figure numbers matched to script outputs (supports the data-availability deposit — see
   `fcr-reporting-and-data-policy`).
 
+## Error-structure decision table (match the model to the layout)
+
+The fastest way a methods reviewer rejects an analysis is a mismatch between the test and the trial's
+blocking structure. Read off the error terms the design implies.
+
+| Design | Fixed effects | Random / error terms |
+|--------|---------------|----------------------|
+| RCBD, one environment | treatment | block |
+| Split-plot | whole-plot factor, sub-plot factor, interaction | block; **whole-plot error**; sub-plot (residual) error |
+| MET (RCBD per site) | treatment | environment, environment×treatment, block-in-environment |
+| Alpha-lattice | treatment | replicate, incomplete-block-in-replicate |
+| Repeated measures over time | treatment, time, interaction | plot (subject); within-plot correlation |
+
+## Worked analysis vignette (illustrative)
+
+*Illustrative; the inference logic matters, not the exact values.* Take the split-plot MET above — a new
+wheat cultivar vs. a check, 5 N rates, **8 environments, 4 blocks each**. A naive one-way ANOVA on the
+pooled plots tests cultivar against the residual and reports p < 0.001 for a **0.6 t ha⁻¹** advantage —
+the classic inflated result: cultivar is a sub-plot factor, but the *environment×cultivar* interaction
+is the right yardstick for a general claim. The mixed model (cultivar and N fixed; environment,
+block-within-environment, and environment×cultivar random) shows the advantage is **~0.9 t ha⁻¹ at 3
+high-N sites but ~0.1 t ha⁻¹ (n.s.) at the 2 low-rainfall sites** — a real G×E.
+Report **adjusted means with SED** per environment, fit an **N response curve** rather than pasting
+a/b/c letters on the 5 rates, and frame the conclusion conditionally. Same data, opposite paper: the
+second survives review because error structure and G×E are honored.
+
 ## Anti-patterns
 
 - One-way ANOVA on pooled plots, ignoring blocks/split-plot/environment structure

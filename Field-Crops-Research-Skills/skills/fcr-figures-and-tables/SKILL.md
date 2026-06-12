@@ -39,6 +39,26 @@ measure of **error or variability** (SE, **SED, or LSD**) belong on the exhibit 
 - Weather (rainfall, temperature, radiation) shown **against crop phenology** (sowing, anthesis, maturity).
 - Maps where spatial/regional variation is the point; observed-vs-simulated panels for modelling.
 
+## Exhibit-selection table (question → exhibit → annotation)
+
+The right exhibit follows from the agronomic question. Pair each with the annotation an FCR reviewer
+expects.
+
+| Question | Exhibit | Must annotate |
+|----------|---------|---------------|
+| Yield vs. N/water/density | fitted response curve + points | model, **SED or CI**, units |
+| Genotype ranking | AMMI / GGE / Finlay–Wilkinson | environments labelled, % variance |
+| Model performance | observed-vs-simulated, **1:1 line** | RMSE, nRMSE, EF, n; validation only |
+| Treatment means by environment | adjusted-means table | SED/LSD, α, df, replication |
+
+## Worked exhibit vignette (illustrative)
+
+*Illustrative.* A first-draft Table 2 for the maize MET lists raw plot means with **a/b/c letters
+across all 5 N rates** and no error term — two flags at once: letters on a quantitative dose hide the
+response shape, and raw means do not match the mixed-model output. The fix is two exhibits: an N
+**response curve per environment** with fitted line and **SED bar (α = 0.05)**, plus an
+**adjusted-means table** with one **SED column** — both self-contained and reproducible from the script.
+
 ## Anti-patterns
 
 - Means with no SED/LSD, error bars, or units

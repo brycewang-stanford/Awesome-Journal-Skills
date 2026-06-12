@@ -52,6 +52,28 @@ Including **yield data** is encouraged — it ties the work to the biophysical p
 - **Opinion Paper** — a reasoned perspective on an issue in field-crop science.
 - **Loomis Review** — major review by invitation only.
 
+## Scope-boundary calls (borderline cases ruled)
+
+The gate is strict, so the hard calls are the borderline ones. These rulings reflect FCR's stated
+exclusions; confirm the current scope wording against the journal's aims & scope, which can change.
+
+| Borderline case | Likely call | Reason |
+|-----------------|-------------|--------|
+| Greenhouse mechanism + one supporting field season | In scope **only if** field results are the spine | controlled-environment cannot be main evidence |
+| Maize agronomy, 2 seasons, 1 site | Borderline — add sites or a modelling generalisation | one location weakens multi-environment relevance |
+| Potato tuber-quality trial | Likely out — horticultural framing | vegetable/horticultural species risk |
+| Forage grass in a cropping rotation | In scope as a feed crop; natural grassland is out | cultivated vs. non-cultivated grassland |
+| Crop model validated on others' field data | In scope if it generalises field results | modelling that extends field evidence is welcome |
+
+## Worked scope vignette (illustrative)
+
+*Illustrative.* A student has greenhouse data showing a root-architecture trait improves P uptake, plus
+**1 field season at 1 site** (**3.9 vs. 3.5 t ha⁻¹**). As framed — "trait improves P uptake and yield" —
+it fails twice: the mechanism rests on controlled-environment pots, and the field evidence is a single
+site-year. The FCR-worthy reframe keeps the physiology as context and rebuilds the spine around the
+field: test the trait's yield and P-uptake response across **2 seasons × 4 environments** on a soil-P
+gradient, so the claim becomes "the trait closes a P-limited yield gap across low-P environments."
+
 ## Anti-patterns
 
 - A pot/greenhouse-only study dressed up as agronomy (out of scope)

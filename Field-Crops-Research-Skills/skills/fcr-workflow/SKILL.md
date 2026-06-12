@@ -60,12 +60,37 @@ revision-and-rebuttal`
 
 Iterate: most papers loop design ↔ analysis ↔ figures several times before writing-style.
 
+## Desk-reject triage table (route before you draft)
+
+The Editors-in-Chief screen for scope before a manuscript reaches reviewers; most fast rejections are predictable. Catch them here and route to the repair skill instead of polishing prose on a paper that cannot pass the gate.
+
+| Symptom an editor sees | FCR-specific risk | Route to |
+|------------------------|-------------------|----------|
+| Pot/greenhouse trial is the only evidence | Out of scope (controlled-environment exclusion) | `fcr-topic-selection` |
+| One site × one season, no environment spread | Fails the ≥2-seasons/-environments expectation | `fcr-experimental-design` |
+| Tomato, grapevine, turfgrass, or medicinal species | Wrong journal (horticultural/woody-perennial exclusion) | `fcr-topic-selection` |
+| "First measurement of trait X in region Y" | Local/descriptive, not general insight | `fcr-literature-positioning` |
+| ANOVA on pooled plots, blocking ignored | Statistics do not match the trial structure | `fcr-data-analysis` |
+| Yields reported, no link to a biophysical process | Weak agronomic significance | `fcr-literature-positioning` |
+
+## Worked routing vignette (illustrative)
+
+*Illustrative scenario, numbers chosen to demonstrate the gate — not real data.* A team has a new
+drought-tolerant maize hybrid yielding 8.4 t ha⁻¹ versus a 7.1 t ha⁻¹ check, measured at **one farm in
+one season**. They ask where to begin a manuscript. The router runs the scope gate: field-based (pass),
+field crop (pass), but **one site-year fails the multi-environment expectation** and the 1.3 t ha⁻¹
+margin sits at a single point in the G×E space. Verdict: do **not** enter the drafting pipeline yet —
+route to `fcr-experimental-design` to add seasons/sites (e.g., 2 seasons × 4 environments) so the
+hybrid advantage can be shown to hold across environments, then resume the default order. Routing a
+half-evidenced paper into writing-style first is the classic wasted cycle.
+
 ## Anti-patterns
 
 - Skipping the scope gate and investing in controlled-environment-only or single-site data
 - Treating one season at one site as enough (FCR expects multi-season/-environment relevance)
 - Forcing a Review/Opinion frame onto what is really an Original Research Paper
 - Leaving the data-availability statement and highlights to the last minute
+- Polishing format on a paper whose G×E×M evidence cannot yet support a general yield claim
 
 ## Output format
 

@@ -51,6 +51,24 @@ submission. Data availability: [shared in <repository> / restricted because ___]
 Sincerely, [Corresponding author, affiliation, contact]
 ```
 
+## Scope-fit sentence bank (illustrative)
+
+The editor's eye lands on one paragraph: does it clear the gate? Each row pairs a vague opener with one
+that pre-clears the scope screen.
+
+| Weak | Scope-clearing rewrite (illustrative) |
+|------|---------------------------------------|
+| "We studied nitrogen on wheat." | "Across 2 seasons and 5 environments, we quantify how N-use efficiency of wheat cultivars varies with N supply." |
+| "This is the first such study in our area." | "We resolve a contested mechanism — whether deficit irrigation raises WUE — across a vapour-pressure-deficit gradient." |
+
+## Worked cover-letter vignette (illustrative)
+
+*Illustrative.* Draft 1 of a maize-MET letter paraphrases the abstract and never names the article type
+or environment spread — a letter the editor cannot scope-check. The repaired opening names it an
+**Original Research Paper**, states the work is **field-based across 2 seasons × 4 environments on
+maize**, gives the headline result (**a 0.9 t ha⁻¹ environment-conditional advantage**), and confirms
+originality, data availability, and AI disclosure — letting the editor tick every scope box at once.
+
 ## Anti-patterns
 
 - A letter that summarises the abstract but never states **scope fit**

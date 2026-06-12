@@ -57,6 +57,29 @@ Open with a short **summary of the main changes** to the editor; group by review
 with the location of every change so the editor can verify quickly. Keep the data-availability
 materials and exhibits in sync with any new analyses.
 
+## Referee-pushback playbook (FCR-specific fixes)
+
+These are the objections FCR reviewers raise most, paired with the response that moves the needle.
+Match the fix to the objection.
+
+| Reviewer pushback | The venue-specific fix |
+|-------------------|------------------------|
+| "A single site-season cannot support a yield claim" | report the across-environment mean **and** the environment×treatment term; scope the claim |
+| "The agronomic mechanism is not established" | link the yield effect to a measured process (N uptake, RUE, WUE); add the path, not just correlation |
+| "Statistics ignore the trial's blocking structure" | refit with the correct whole-plot/sub-plot error; re-report adjusted means + SED |
+| "Result may be confounded with environment" | show the interaction (AMMI/GGE or its variance) rather than averaging it away |
+| "Discussion restates results" | rewrite to interpret: why this environment, what process, where it travels |
+
+## Worked rebuttal vignette (illustrative)
+
+*Illustrative exchange; wording is a template.* Reviewer 2 writes: *"The cultivar advantage is
+significant, but the one-way ANOVA ignores the split-plot structure, and 'improves yield' is too
+broad."* A strong response concedes the statistics and protects the contribution at once: refit the
+mixed model (cultivar as sub-plot, environment×cultivar random); report the advantage as **~0.9 t ha⁻¹
+in 3 high-N environments, non-significant in 2 dry ones**; revise the conclusion to "raises yield in
+high-yielding environments, no penalty elsewhere"; cite the new Table 3 and SED column. The **same
+re-analysis** answers both the methods and over-reach objections, keeping dataset and biplot in sync.
+
 ## Anti-patterns
 
 - Ignoring or quietly merging away a comment without a visible response
