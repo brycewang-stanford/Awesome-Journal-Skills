@@ -52,6 +52,31 @@ The Lancet follows ICMJE: **clinical trials must be registered prospectively —
 - [ ] Confounding strategy (matching, adjustment, propensity methods) pre-specified; causal language calibrated to the design.
 - [ ] Registration/protocol encouraged for major observational studies (e.g., a pre-registered analysis plan).
 
+## What Lancet editors check on design and registration
+
+Registration timing is the most consequential design fact The Lancet checks: following ICMJE, it will decline to consider a trial not registered prospectively, and an outcome switched from the registered one is an integrity concern. Desk-reject or major-revision triggers: retrospective registration left undisclosed; a switched primary outcome; no protocol or pre-specified SAP; concealment conflated with blinding; per-protocol presented as primary for a superiority trial. Confirm any current protocol-submission requirement against the journal's author guidelines.
+
+## Worked micro-example (illustrative numbers — not real data)
+
+A hypothetical double-blind, multi-country superiority RCT.
+
+```
+Design lock (illustrative):
+  Registry ISRCTN registered 2021-03 BEFORE first enrolment 2021-06 -> prospective, PASS
+  Registered primary outcome = reported primary outcome -> no switch, PASS
+  Randomisation 1:1 stratified by country; central web concealment; double-blind
+  Power: ARR 6 pp, alpha 0.05, power 90% -> n=2 040 (1 020/arm), +8% attrition
+  Primary population ITT; per-protocol pre-specified sensitivity; independent DSMC
+```
+
+The design passes: registration is prospective and dated, outcomes agree, concealment and blinding are separate, and the sample size is justified.
+
+## Reviewer-pushback patterns and the venue-specific fix
+
+- *"The trial was not registered prospectively."* → Disclose exact registration and enrolment dates; if retrospective, flag it transparently — the editor may decline.
+- *"The primary outcome was switched."* → Reconcile to the registered outcome or document the change with dates and rationale.
+- *"The study is underpowered / concealment is unclear."* → Justify the sample size against the minimally important difference; describe sequence generation and concealment separately from blinding.
+
 ## Output format
 
 ```

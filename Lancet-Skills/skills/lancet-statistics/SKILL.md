@@ -48,6 +48,30 @@ Each estimate needs: **effect measure + 95% CI + the analysis population + the p
 
 - Kaplan–Meier estimates with **numbers at risk**; hazard ratios with 95% CI from Cox models; state the proportional-hazards assumption check.
 
+## What the Lancet statistical reviewer expects
+
+The Lancet routinely assigns an **independent statistical reviewer** whose report is a distinct, high-priority track. They read for pre-specification first (primary analysis matching the registered outcome and the SAP filed before unblinding), expect confidence intervals to carry the inference with exact P beside them, and want the absolute effect reported beside the relative one. Within-subgroup P values and per-protocol-as-primary for a superiority trial draw the sharpest scrutiny. Confirm current expectations against the journal's author guidelines.
+
+## Worked micro-example (illustrative numbers — not real data)
+
+A hypothetical superiority RCT, binary primary outcome (response at 12 weeks), ITT population.
+
+```
+Primary (illustrative, ITT): response 612/1 020 (60.0%) vs 510/1 016 (50.2%)
+  Absolute risk difference 9.8 pp (95% CI 5.4-14.2); RR 1.20 (95% CI 1.10-1.30)
+  Exact p=0.0003; NNT ~10 (illustrative)
+Sensitivity (per-protocol): RD 12.1 pp (95% CI 7.3-16.9) -> consistent with ITT.
+Subgroups: 5 pre-specified; forest plot, interaction p=0.28 (no heterogeneity).
+```
+
+The CI and absolute risk difference carry the inference, the NNT makes the magnitude clinical, and the single interaction P keeps the subgroups honest.
+
+## Reviewer-pushback patterns and the venue-specific fix
+
+- *"P values but no effect sizes with CIs."* → Add the effect with a 95% CI for every key estimate; keep exact P beside, not instead of, the interval.
+- *"Primary analysis differs from the registered outcome."* → Reconcile to the registered outcome and SAP, or explain the dated change; label anything post-hoc.
+- *"Subgroup claims rest on within-subgroup P values."* → Replace with interaction tests on pre-specified subgroups; interpret cautiously.
+
 ## Output format
 
 ```

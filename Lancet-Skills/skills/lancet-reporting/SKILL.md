@@ -45,6 +45,33 @@ The Lancet requires the appropriate [EQUATOR Network](https://www.equator-networ
 - Apply equity-focused extensions where relevant (e.g., **PRISMA-Equity**, **CONSORT-Equity** considerations) and the **PROGRESS-Plus** framework for reporting equity-relevant participant characteristics.
 - Coordinate sex/gender and race/ethnicity reporting with `lancet-ethics` (SAGER guidelines).
 
+## What Lancet editors and reviewers expect from reporting compliance
+
+A completed checklist is a screening gate at The Lancet, not a formality. Editors and the statistical reviewer cross-read the flow diagram against Table 1 and the analysis populations; a discrepancy reads as a transcription error or selective reporting, and unexplained attrition is where bias hides. Desk-reject-adjacent patterns: no flow diagram for an RCT or review (effectively mandatory); base CONSORT where a cluster/non-inferiority extension fits; a checklist that says "throughout" instead of page/line; and numbers that do not reconcile. Confirm any current formatting requirement against the journal's author guidelines.
+
+## Worked micro-example (illustrative numbers — not real data)
+
+A hypothetical multi-country, individually randomised trial of an oral therapy versus placebo across 14 sites in 5 low- and middle-income countries.
+
+```
+Guideline: CONSORT 2010 + CONSORT-Harms; checklist page/line-mapped as a supplement.
+CONSORT flow diagram (illustrative):
+  Assessed 5 312 -> Excluded 1 108 (ineligible 842; declined 201; other 65)
+  Randomised 4 204 -> intervention 2 102 / placebo 2 102
+  Lost to follow-up: intervention 51, placebo 58 (reasons listed)
+  Analysed (ITT): 2 102 / 2 102
+Reconciliation: 4 204 = Table 1 total = abstract Findings denominator. PASS.
+```
+
+The reporting pass is the reconciliation: 4 204 appears identically in the diagram, Table 1, and the abstract, and every exclusion and dropout carries a reason.
+
+## Reviewer-pushback patterns and the venue-specific fix
+
+- *"The reporting checklist is incomplete / not page-referenced."* → Complete the official EQUATOR checklist and map each item to a page and line; resubmit as a supplement.
+- *"This is a cluster-randomised trial but reported under standard CONSORT."* → Switch to CONSORT-Cluster with cluster-level flow and intracluster correlation reporting.
+- *"Flow-diagram numbers do not match the analysis populations."* → Rebuild the diagram so randomised, analysed, and Table 1 totals reconcile; explain any gap.
+- *"Equity-relevant characteristics are not reported."* → Add PROGRESS-Plus variables and a PRISMA-Equity/CONSORT-Equity lens; coordinate with `lancet-ethics`.
+
 ## Output format
 
 ```

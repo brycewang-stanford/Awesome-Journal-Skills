@@ -73,6 +73,27 @@ The Lancet's distinctive artifacts are the **Research in context panel** (with a
 - "We report odds ratios but no absolute risk" → `lancet-statistics`
 - "We didn't state who had final responsibility to submit" → `lancet-ethics` (role of the funding source)
 
+## Worked routing example (illustrative)
+
+A hypothetical multi-country RCT manuscript arrives mid-stream; the router resolves the bottleneck.
+
+```
+Symptoms reported:
+  - "We think it's a Lancet paper but we're not sure it changes practice"  -> lancet-fit FIRST
+  - "Registration date may be after first enrolment"                       -> lancet-study-design (flag)
+  - "Abstract says Results / Conclusions"                                   -> lancet-abstract
+  - "No Research in context panel"                                          -> lancet-research-in-context
+Resolved order (illustrative):
+  lancet-fit -> rung 4, GO
+  -> lancet-study-design (confirm prospective registration; reconcile primary outcome)
+  -> lancet-reporting (CONSORT + flow diagram)
+  -> lancet-statistics -> lancet-figures-tables
+  -> lancet-research-in-context -> lancet-abstract -> lancet-writing
+  -> lancet-ethics -> lancet-submission -> (after decision) lancet-rebuttal
+Gate rule: never start prose polish before lancet-fit clears; the modal outcome is
+  rejection without review.
+```
+
 ## Anti-patterns
 
 - **Do not** skip `lancet-fit` and start polishing prose — the modal outcome is rejection without review.

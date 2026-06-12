@@ -54,6 +54,32 @@ If you cannot place the work at rung 3+, The Lancet is a long shot — name the 
 | Definitive RCT, possibly US-centric, no global/equity emphasis       | **NEJM / JAMA**                    |
 | Generalist EBM / strong patient-partnership angle                    | **BMJ**                            |
 
+## Worked micro-example (illustrative numbers — not real data)
+
+Two hypothetical studies arriving at the same desk, to show how the fit gate sorts them.
+
+```
+Study A (illustrative): single-centre RCT, high-income city, n=180, surrogate endpoint
+  improved (biomarker -0.4 SD, 95% CI -0.7 to -0.1). No global lesson, no policy hook.
+  -> Lens scores: importance weak, global weak, policy weak, equity weak
+  -> Significance rung 1 (confirms in one centre) -> NOT The Lancet; route to a specialty/family title.
+
+Study B (illustrative): pragmatic cluster RCT across 3 LMICs, n=12 400 in 60 clusters,
+  hard clinical outcome: mortality 4.1% vs 5.6% (absolute risk reduction 1.5 pp,
+  95% CI 0.7-2.3; NNT ~67, illustrative), scalable low-cost intervention.
+  -> Lens scores: importance strong, global strong, policy strong, equity strong
+  -> Significance rung 4 (establishes a scalable public-health intervention) -> The Lancet (Article).
+```
+
+The numbers are not the deciding factor — Study A has a tidy effect but no practice-changing, globally relevant claim, while Study B changes a public-health decision at scale with an equity lens. That contrast is the fit gate.
+
+## Reviewer / editor-pushback patterns and the venue-specific fix
+
+- *"Global-health relevance / equity not addressed."* → State who the result serves beyond a high-income setting; add the PROGRESS-Plus/LMIC generalisability angle or reroute to a family title.
+- *"This is incremental over the authors' prior work."* → Name the specific decision it now changes; if it changes none, the venue is wrong.
+- *"The endpoint is a surrogate with no demonstrated clinical or policy consequence."* → Show the downstream clinical/policy impact, or move to a specialty title.
+- *"The claim outruns the design."* → Narrow to what the design supports; over-claiming is a top rejection reason — confirm scope expectations against the journal's current author guidelines.
+
 ## Output format
 
 ```

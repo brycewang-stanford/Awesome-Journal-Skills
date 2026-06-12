@@ -53,6 +53,25 @@ The Lancet requires an explicit **role of the funding source** statement that ad
 - [ ] Report participants' **race/ethnicity** where relevant, with the classification rationale, and use the **PROGRESS-Plus** equity lens for who was (and was not) represented.
 - [ ] Address generalisability across the populations the result is meant to serve, especially for global-health work.
 
+## What Lancet editors check among the declarations
+
+The Lancet treats the declarations block as load-bearing. Editors verify the journal-specific **role of the funding source** statement, an ICMJE-compliant **data-sharing statement** (a blank one is non-compliant for a trial), ethics approval for every site, and SAGER sex/gender reporting.
+
+## Worked micro-example (illustrative — not a real statement)
+
+A hypothetical multi-country trial, public funder.
+
+```
+Role of funding source (illustrative): "The funder had no role in design, analysis, or
+  writing. AB and CD had full data access and final responsibility for submitting."
+Data sharing: de-identified IPD + protocol + SAP on request after 9 months.
+```
+
+## Reviewer / editor-pushback patterns and the venue-specific fix
+
+- *"The role-of-the-funding-source statement is missing."* → Add the explicit statement covering funder role, data access, and final responsibility to submit.
+- *"The data-sharing statement is blank."* → State what will be shared, with whom, when, and how — or justify "none"; ICMJE makes this mandatory for trials. Confirm any current consent-documentation requirement in the journal's author guidelines.
+
 ## Output format
 
 ```

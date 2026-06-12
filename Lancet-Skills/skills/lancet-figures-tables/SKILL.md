@@ -47,6 +47,31 @@ description: Use to build and check The Lancet's clinical display items — the 
 - [ ] Every figure legend defines the estimate, the uncertainty (95% CI), n, and the test.
 - [ ] Display-item count within the journal's allowance; overflow → appendix.
 
+## What Lancet reviewers scan a display item for
+
+The Lancet's clinical readership reads tables and figures before the prose, so a display item that hides uncertainty or contradicts the text is an immediate credibility problem. The statistical reviewer checks that every effect carries a 95% CI, that Kaplan–Meier curves expose the thinning denominator via a numbers-at-risk row, and that subgroup forests report an interaction test, not within-subgroup P values. Desk-reject-adjacent problems: effects with no CI; baseline P values in an RCT Table 1; survival curves with no numbers at risk; a subgroup figure with no interaction test; a multi-country study with no map. Confirm the display-item allowance and figure specifications in the journal's author guidelines.
+
+## Worked micro-example (illustrative numbers — not real data)
+
+A hypothetical cardiovascular RCT, composite MACE outcome over 36 months.
+
+```
+Kaplan-Meier (illustrative): 36-mo event rate 12.4% vs 16.8%
+  Hazard ratio 0.73 (95% CI 0.62-0.86), log-rank p=0.0002
+  Numbers at risk (0/36 mo): 2 050/1 690 vs 2 048/1 588
+  Absolute risk difference 4.4 pp; NNT ~23 over 3 years (illustrative).
+Subgroup forest: 6 pre-specified, overall HR 0.73 (0.62-0.86), interaction p=0.41.
+Table 1: arm columns, mean (SD) / n (%), NO baseline P column.
+```
+
+The numbers-at-risk row shows the curves stay reliable, the NNT gives the magnitude the relative HR hides, and the interaction P keeps the subgroup figure honest.
+
+## Reviewer-pushback patterns and the venue-specific fix
+
+- *"Figures report effects without confidence intervals."* → Add 95% CIs to every estimate; define error bars in each legend.
+- *"The survival curves have no numbers at risk."* → Add a numbers-at-risk row at each time point and report the HR with 95% CI.
+- *"Subgroup panels show within-subgroup P values."* → Replace with a forest plot carrying the overall estimate and an interaction P; restrict to pre-specified subgroups. For a multi-country study, add a site/outcome map to make the global relevance visible.
+
 ## Output format
 
 ```

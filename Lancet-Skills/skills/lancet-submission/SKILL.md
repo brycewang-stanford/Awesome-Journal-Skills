@@ -68,6 +68,50 @@ description: Use as the final preflight before submitting to The Lancet — a co
 - `templates/checklist.md` — copyable preflight checklist.
 - `templates/cover_letter_template.md` — clinical/global-importance cover-letter scaffold.
 
+## Desk-reject patterns to clear before you upload
+
+The Lancet declines most submissions without external review, so the preflight is really a pre-triage simulation. The editor reads the cover letter and abstract for one thing first: does this change clinical practice or public-health policy for a globally relevant problem. Then the submission system enforces the artifacts. Clear these before upload, because each is a fast bounce-back.
+
+| Pre-triage failure | Where it surfaces | Pre-upload fix |
+|--------------------|-------------------|----------------|
+| Not practice/policy-changing for a broad, global audience | Cover letter + abstract Interpretation | Re-run `lancet-fit`; if rung < 3, reroute to a family title |
+| Trial not prospectively registered | Methods + abstract | Disclose timing honestly; if retrospective, flag it explicitly |
+| Wrong abstract headings | Structured abstract | Use Findings / Interpretation / Funding, not Results / Conclusions |
+| No CONSORT/PRISMA flow diagram | Figures | Add the diagram; reconcile every number |
+| Missing role-of-funding / data-sharing statement | Declarations | Add both; ICMJE data-sharing is mandatory for trials |
+| Research in context panel absent or search-free | Main text | Build the three-part panel on a documented search |
+
+## Cover-letter pitch: the one load-bearing paragraph
+
+The Lancet editor wants the practice/policy claim in the first lines, calibrated to the design. State the clinical or public-health problem, the single most important finding with its effect and 95% CI, and what guideline or decision it changes — for whom, and where (the global-relevance hook). Do not pad with adjectives; editors discount "novel" and "important" unless the numbers carry them.
+
+## Worked micro-example (illustrative numbers — not real data)
+
+A hypothetical pragmatic, cluster-randomised trial of a community health-worker intervention to improve hypertension control across districts in three low- and middle-income countries.
+
+```
+Preflight verdict (illustrative):
+  Fit: rung 4 (establishes a scalable public-health intervention) -> GO
+  Registration: prospective, ISRCTN in abstract + Methods -> OK
+  Reporting: CONSORT-Cluster + flow diagram, page/line-mapped -> OK
+  Abstract: 296 words; headings Background/Methods/Findings/Interpretation/Funding -> OK
+  Primary outcome in Findings: BP control 38.1% vs 27.4%,
+    adjusted risk difference 10.6 pp (95% CI 7.2-14.0), NNT ~10 (illustrative)
+  Panel: Evidence-before search (MEDLINE+Embase+Global Index Medicus, dates+terms) -> OK
+  Declarations: role-of-funding + data-sharing + SAGER -> OK
+  Cover-letter pitch: "scalable, equity-focused, policy-relevant in LMIC primary care"
+  VERDICT: GO
+```
+
+Every other lancet-* skill's output has a line on this sheet; the preflight passes only when each lands, the numbers reconcile across abstract/diagram/Table 1, and the cover letter states the policy change in one sentence.
+
+## Reviewer / editor-pushback patterns and the venue-specific fix
+
+- *"Global-health relevance / equity not addressed."* → Add the equity framing (PROGRESS-Plus, LMIC generalisability) in Interpretation and the cover letter; re-check `lancet-fit`.
+- *"Trial not prospectively registered."* → Disclose registration timing transparently; if retrospective, flag it — the editor may decline, so address it head-on.
+- *"Primary outcome differs from the registered one."* → Reconcile to the registered outcome or explain the dated change explicitly (see `lancet-study-design`).
+- *"Reporting checklist incomplete."* → Complete and page/line-map the EQUATOR checklist before upload; confirm any current file-format requirement against the journal's author guidelines.
+
 ## Output format
 
 ```

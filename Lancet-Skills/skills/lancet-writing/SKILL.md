@@ -48,6 +48,32 @@ Write the Discussion in this order, and keep it cautious:
 - British spelling is the house style; use the journal's conventions for numbers, units (SI), and dates.
 - Lead Results paragraphs with the clinical finding, then the supporting statistics.
 
+## What Lancet editors expect from the main text
+
+The Lancet's editors read for a globally minded, cautious voice: a brief Introduction (the systematic search lives in the panel), full Methods in the main text, and a Discussion judged on restraint — observational studies show association, a single trial supports rather than proves, a non-inferiority trial never claims superiority. Patterns reviewers flag: a literature-review Introduction; Methods pushed offstage; "proves"/superiority overstatement; an over-budget reference list. Confirm current limits in the author guidelines.
+
+## Worked micro-example (illustrative numbers — not real data)
+
+A hypothetical Lancet Article on a multi-country observational cohort.
+
+```
+Length audit (illustrative):
+  Main text 3 980 words -> over ~3 500 by ~480; trim Introduction and Discussion
+  References 47 -> over ~30; keep the load-bearing 30
+Claim calibration:
+  DRAFT: "This proves the exposure causes the outcome."
+  FIX:   "The exposure was associated with the outcome (adjusted HR 1.34,
+          95% CI 1.18-1.52); residual confounding cannot be excluded."
+```
+
+The fix trims to budget and recasts the overstatement as a calibrated association (95% CI).
+
+## Reviewer-pushback patterns and the venue-specific fix
+
+- *"The Introduction reads as a literature review."* → Cut it to problem-gap-objective; move synthesis to the panel.
+- *"The conclusions overstate the design."* → Replace "proves"/causal language with "associated with"/"supports"; remove superiority framing from a non-inferiority trial.
+- *"The paper is over length / reference budget."* → Trim to load-bearing claims and ~30 citations; push extended analyses to the appendix.
+
 ## Output format
 
 ```

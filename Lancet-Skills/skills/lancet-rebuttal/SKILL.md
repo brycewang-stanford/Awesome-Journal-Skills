@@ -67,6 +67,38 @@ Changes: "<quoted new manuscript text>" (p. X, lines Y–Z; new table/figure/app
 
 If new studies appeared during review, **re-run or update the systematic search** and revise "Evidence before this study" and "Implications of all the available evidence" accordingly — and note this in the response (see `lancet-research-in-context`).
 
+## The Lancet-specific reviewer comments and how to land them
+
+The comments that decide a Lancet revision cluster around the venue's identity: registration integrity, the statistical reviewer's re-analysis requests, claim calibration, and the global-health/equity framing. The fix for each is concrete, never rhetorical — the editor verifies it against quoted new text.
+
+| Reviewer comment | The venue-specific fix |
+|------------------|------------------------|
+| "Trial not prospectively registered." | Disclose exact registration/enrolment dates; if retrospective, flag it and explain — do not bury it |
+| "Primary outcome switched." | Reconcile to the registered outcome, or document the dated change; label post-hoc analyses |
+| "Causal claim outruns the design." | Narrow the title, abstract Interpretation, and Discussion; say you narrowed it |
+| "Global-health relevance / equity not addressed." | Add the LMIC/PROGRESS-Plus framing in Interpretation; coordinate with `lancet-fit` |
+| "Statistical reviewer: add ITT/sensitivity analysis." | Run the re-analysis; report effect + 95% CI; show it as a new table, not prose |
+| "Reporting checklist incomplete." | Complete and page/line-map the EQUATOR checklist; resubmit as a supplement |
+
+## Worked micro-example (illustrative — not a real exchange)
+
+A statistical-reviewer comment on a hypothetical superiority RCT, answered the Lancet way.
+
+```
+Statistical Reviewer, Comment 3: "The primary analysis is reported as per-protocol.
+For a superiority trial, the intention-to-treat population should lead."
+
+Response: We agree. We have made the pre-specified ITT analysis primary, with
+per-protocol as a labelled sensitivity analysis. The conclusion is unchanged.
+Evidence (illustrative): ITT response 60.0% vs 50.2%, absolute risk difference
+9.8 pp (95% CI 5.4-14.2; p=0.0003); per-protocol 62.1% vs 50.0% (RD 12.1 pp,
+95% CI 7.3-16.9) -> consistent.
+Changes: "The primary analysis was by intention to treat..." (p. 8, lines 12-19;
+new Table 2 row; appendix table S4 for per-protocol).
+```
+
+The request is answered with an actual re-analysis carrying effects and 95% CIs, the ITT/per-protocol order is corrected, and the new manuscript text is quoted so the editor can verify without hunting — the pattern that converts a statistical-reviewer comment into an accept.
+
 ## Output format
 
 ```
