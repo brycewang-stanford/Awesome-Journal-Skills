@@ -60,6 +60,33 @@ design does not yet identify the contribution.
 - Ignoring the dark figure / reporting bias when using official counts
 - Convenience case selection dressed up as theory-driven
 
+## Identification expectations by design (Criminology calibration table)
+
+A defensible *Criminology* design names the threat reviewers are trained to raise and shows the move
+that neutralizes it. Selection into offending and into treatment is the recurring worry.
+
+| Design | Identifying assumption | Threat a referee names | Defensive move |
+|--------|------------------------|------------------------|----------------|
+| Hot-spot / policing RCT | randomization, no spillover | displacement contaminates controls | measure diffusion vs. displacement |
+| Staggered deterrence-policy DID | parallel trends across adopters | bad-comparison TWFE | staggered estimator + pre-trends |
+| Life-course turning point | within-person change isolates effect | selection into marriage/work | fixed-effects/hybrid + sensitivity |
+| RDD at a sentencing threshold | continuity at the cutoff | manipulation at the line | McCrary density + bandwidth robustness |
+
+## Worked micro-example: a deterrence-policy quasi-experiment (illustrative)
+
+A state raises a sentencing penalty in some counties before others. A naive TWFE gives a 9% drop
+(illustrative); a referee flags forbidden comparisons among staggered adopters. Refit with a
+heterogeneity-robust staggered estimator: flat pre-trends and a credibly identified 4% first-year drop.
+Cluster at the county (assignment) level; with 14 treated counties add a wild-cluster bootstrap. State
+the construct (reported UCR offenses) and note a NIBRS transition could inflate pre-period counts.
+
+## Design-stage referee pushback (with the Criminology fix)
+
+- *"Selection into treatment/offending."* Fix: isolate within-person change or use a quasi-experiment with a stated continuity/parallel-trends defense.
+- *"Association, not causation."* Fix: write the estimand and the licensing assumption; soften prose if the design only supports correlation.
+- *"Official-records bias unaddressed."* Fix: name reported vs. victimization vs. self-report and how the dark figure biases the design.
+- *"Clustering below assignment."* Fix: cluster at place/agency; few-cluster corrections when units are sparse.
+
 ## Output format
 
 ```
