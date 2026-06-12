@@ -45,6 +45,19 @@ cause of a desk re-route or rejection — each section is edited separately.
 - Pitching a methods-only or measure-only paper with no theoretical advance
 - "Significance-chasing": a surprising effect with no theory behind it
 
+## Borderline routing: when two sections both seem to fit
+
+The most common section-choice errors at JPSP. Decide by the **theoretical question**, name the section in the cover letter, and confirm live remits against the submission guidelines (待核实).
+
+| If the paper is about… | Tempting wrong call | Decide by |
+|------------------------|---------------------|-----------|
+| Self-regulation | "personality → PPID" | A *manipulated social state* → ASC; a *trait difference* → PPID |
+| Stigma / prejudice | "groups → IRGP" | The perceiver's *cognition* → ASC; *intergroup process* → IRGP |
+| Identity / self | "individual → PPID" | A *relational/group* identity → IRGP; *trait structure* → PPID |
+| Culture | "any of the three" | Route by the *process*, not the moderator |
+
+A correct route is itself a fit signal: it tells the editor you understand the remit. A mis-route risks a return.
+
 
 ## Fit pass for Journal of Personality and Social Psychology
 

@@ -49,6 +49,17 @@ both communicate and free up words for the (capped) introduction and discussion.
 - Exhibits dumped at the end instead of embedded near first mention
 - Tables that duplicate the text instead of compressing it
 
+## The two exhibits every JPSP package needs
+
+Because the paper spans studies, two integrative exhibits do disproportionate work and reviewers look for them by name:
+
+| Exhibit | What it must show | Reviewer flag if missing |
+|---------|-------------------|---------------------------|
+| Cross-study summary table | One row per study: N, design, key effect size, **95% CI** | "I cannot see the package converge" |
+| Internal meta-analysis forest plot | Per-study effects + pooled random-effects estimate + I² | "Where is the integrative analysis?" |
+
+*Illustrative forest-plot row set* (invented): S1 d = 0.34 [0.10, 0.58]; S2 d = 0.21 [−0.02, 0.44]; S3 d = 0.40 [0.16, 0.64]; pooled d = 0.31 [0.18, 0.45]. Plotting these together — each CI as a horizontal bar, the diamond as the pooled estimate — lets a reviewer see S2's wide interval is low power, not disconfirmation. A stars-only table hides exactly that.
+
 
 ## Exhibit pass for Journal of Personality and Social Psychology
 

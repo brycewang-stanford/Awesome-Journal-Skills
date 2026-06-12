@@ -47,6 +47,22 @@ argument itself lives in `jpsp-theory-and-hypotheses`.
 - A long introduction that the studies never actually deliver on
 - Ignoring work that predicts the opposite of your claim
 
+## "Incremental" — the reviewer charge and the section-specific fix
+
+"The contribution is incremental" is the most common JPSP positioning rejection. The fix differs by what the reviewer distrusts:
+
+| Charge beneath "incremental" | Fix that reads as JPSP-scale |
+|------------------------------|-------------------------------|
+| "Known effect in a new sample" | Reframe around a **mechanism** or **moderator** prior work could not specify |
+| "You ignore the canonical debate" | Cite the section's core conversation (ASC cognition; IRGP groups; PPID traits) and locate your tension inside it |
+| "A short-report journal owns this" | Show why the claim needs *several converging studies* |
+
+## Worked example: sharpening a PPID gap statement
+
+*Illustrative — invented to show the move, not a real literature.*
+
+Weak: "Self-control and well-being are understudied together" — a PPID reviewer reads a topic, not a gap. Sharper: "Trait self-control predicts well-being, yet whether it does so by *avoiding* temptation or *resisting* it is unresolved — two process accounts make opposite predictions in high-temptation contexts." This names the construct, the tension, and a diagnostic test, and foreshadows the multi-study package needed to dissociate the two processes.
+
 
 ## Positioning pass for Journal of Personality and Social Psychology
 

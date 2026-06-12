@@ -66,6 +66,21 @@ common avoidable failures at JPSP are (1) submitting to the **wrong section** an
 - Missing JARS or TOP Level 2 disclosures
 - Budgeting for a submission fee that is not charged (verify)
 
+## Avoidable desk-return triggers, ranked by frequency
+
+The screen at JPSP catches the same failures repeatedly. This is illustrative ordering of risk, not an official list — confirm the current per-section requirements against the journal's submission guidelines (待核实).
+
+| Trigger | Section editor's read | One-line fix |
+|---------|------------------------|--------------|
+| Wrong section's portal | Mis-fit before review begins | Route ASC→asc / IRGP→irg / PPID→pid deliberately |
+| Author identity leaks | Masked review broken | Clean text, self-refs, file metadata, and repo URLs |
+| Over the word cap | Long-format misread as no limit | Trim intro+discussion to the section cap; push detail to exhibits |
+| Too many studies in main text | Study budget exceeded | Move extras to the supplement (IRGP ≤ 5 in main text) |
+| Missing JARS / TOP L2 | Transparency floor unmet | Add the JARS table and data/code/materials + prereg statements |
+| Single study | Not the multi-study standard | Reconsider fit before uploading (`jpsp-topic-selection`) |
+
+A clean submission clears all six in one pass; any single miss can cost a review cycle.
+
 ## Output format
 
 ```

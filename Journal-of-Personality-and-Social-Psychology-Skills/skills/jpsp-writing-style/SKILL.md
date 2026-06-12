@@ -50,6 +50,26 @@ Tables/figures are embedded and **not counted** toward the word limit — use ex
 - A General Discussion that introduces new claims the studies never tested
 - Studies written as disconnected mini-papers with no through-line
 
+## Where the capped words go: a section-by-section budget
+
+The craft at JPSP is allocating a *fixed* intro+discussion budget across a multi-study narrative. The percentages below are **illustrative planning anchors**, not journal rules — the only binding figures are the section caps, which you must confirm against the journal's current submission guidelines.
+
+| Manuscript element | Illustrative share of the capped words | What earns the space at JPSP |
+|--------------------|----------------------------------------|-------------------------------|
+| Opening contribution statement | ~10% | The theoretical advance, stated on page one |
+| Literature/theory setup | ~30% | The gap and the diagnostic hypotheses, not a survey |
+| Brief study-to-study transitions | ~15% | "Study 1 established…; Study 2 asks whether…" through-line |
+| General Discussion | ~35% | Interpretation, the **internal meta-analysis** takeaway, scope |
+| Limitations statement | ~10% (if required) | Internal/construct/statistical/external validity, for nonspecialists |
+
+Method and complex statistics are **not** in this budget: push them to embedded tables, notes, and the supplement, which do not count toward the word limit.
+
+## Worked example: an ASC abstract under 250 words
+
+*Illustrative — invented to model structure, not a real abstract.*
+
+A four-sentence skeleton for the gratitude→construal package, fitting comfortably under the **250-word** abstract cap: (1) *Question* — "Does incidental gratitude broaden how abstractly people construe events?" (2) *Approach, flagged as multi-study* — "Across four preregistered studies (total N = 1,420), we manipulated gratitude and measured construal level." (3) *Key finding with direction and magnitude* — "Gratitude reliably raised abstract construal (internal meta-analytic d = 0.31, 95% CI [0.18, 0.45]); the effect attenuated under time pressure." (4) *Contribution* — "These findings identify gratitude as an antecedent of construal and connect emotion to social-cognitive abstraction." Note the multi-study signal in sentence 2 and the pooled effect in sentence 3 — both are what an ASC reviewer scans the abstract for.
+
 ## Output format
 
 ```

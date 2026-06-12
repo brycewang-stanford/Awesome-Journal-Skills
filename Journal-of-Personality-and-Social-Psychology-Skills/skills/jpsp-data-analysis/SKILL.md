@@ -53,6 +53,24 @@ execution and reporting; design lives in `jpsp-study-design`.
 - Over-claiming causal mediation from correlational designs
 - Burying a failed study instead of pooling it honestly into the meta-analysis
 
+## Reviewer-pushback patterns and the analysis-side fix
+
+These are the recurring post-credibility-revolution objections a JPSP section reviewer raises about results, and the move that defuses each. The fix is an *analysis-and-reporting* fix — design lives in `jpsp-study-design`.
+
+| Reviewer says | What they distrust | The JPSP-fit fix |
+|---------------|--------------------|------------------|
+| "Stars only — where are the effect sizes?" | You hid magnitude behind significance | Report d/r/β with **95% CIs** and a sentence on substantive meaning, per JARS |
+| "Each study reads in isolation" | No cumulative claim | Add the **internal meta-analysis**: pooled estimate + forest plot + heterogeneity (I²) |
+| "This could be a confound" | Alternative causal account | A focused alternative-explanation analysis or a study that manipulates the confound |
+| "Mediation is over-claimed" | Causal language on cross-sectional data | Bootstrapped indirect effect with CI, hedged: "consistent with, not proof of, the path" |
+| "Was this predicted?" | Suspected HARKing | A confirmatory/exploratory table mapping each test to the **preregistration**; flag deviations |
+
+## Worked micro-example: pooling a preregistered three-study package
+
+*Illustrative numbers — invented to show the reporting logic, not real results.*
+
+Three ASC studies estimate the same gratitude→construal effect. Per-study d (95% CI): S1 = 0.34 [0.10, 0.58], S2 = 0.21 [−0.02, 0.44], S3 = 0.40 [0.16, 0.64]. S2 alone is "non-significant" — the trap that invites a reviewer to call the package inconsistent. The **internal meta-analysis** instead reports a random-effects pooled d ≈ 0.31, 95% CI [0.18, 0.45], low heterogeneity (I² ≈ 12%). That one sentence — *"across three preregistered studies, pooled d = 0.31 [0.18, 0.45]"* — is the strongest summary in the paper and exactly what an ASC reviewer means by integrative analysis. Report S2 inside the pool, not as a footnote.
+
 ## Output format
 
 ```

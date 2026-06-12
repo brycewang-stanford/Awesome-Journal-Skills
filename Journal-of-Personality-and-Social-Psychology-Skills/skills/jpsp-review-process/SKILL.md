@@ -46,6 +46,30 @@ anticipate what reviewers will ask. The IRGP section has published an unusually 
 - Resubmitting a rejected paper with brand-new data and expecting continuity (it is a new submission)
 - De-anonymizing yourself via self-references or repository URLs
 
+## Desk-screen patterns the three sections share
+
+Across ASC, IRGP, and PPID the editor-level screen rejects on a small set of recurring failures. Treat these as illustrative of the post-credibility-revolution culture rather than codified rules — confirm current section policy against the journal's submission guidelines (待核实).
+
+| Desk-screen pattern | What it signals to the section editor | Pre-empt by |
+|---------------------|----------------------------------------|-------------|
+| Single-study submission | Not built to the long-format, multi-study standard | A converging package (`jpsp-study-design`) before submitting |
+| Thin theory, clean effect | Fails the innovation gate independent of data | A theoretical advance, not a demonstration (`jpsp-theory-and-hypotheses`) |
+| Wrong section | Mis-fit for the editor's masthead and readers | Deliberate section choice (`jpsp-topic-selection`) |
+| Under-masked manuscript | Breaks masked review | Strip names, self-refs, metadata, repo URLs (`jpsp-submission`) |
+| Missing JARS / TOP disclosures | Transparency floor unmet | Complete JARS + TOP Level 2 statements (`jpsp-open-science-and-transparency`) |
+| Underpowered key study | Central interpretability risk | Power against the smallest effect of interest |
+
+## Worked example: tracing a package through the gate
+
+*Illustrative — invented to show the decision sequence, not a real verdict.*
+
+An IRGP submission claims a new group-identity moderator across four studies (illustrative pooled d = 0.29, 95% CI [0.16, 0.42]).
+
+1. **Routing.** Unit of analysis is the group → IRGP, not ASC; a mis-route risks a return.
+2. **Innovation gate.** The moderator reconciles two conflicting findings → "probably yes," so review proceeds to the studies.
+3. **Central vs. peripheral.** Reviewers flag S3's N = 80 dyads as *central, existing-data* (re-analyzable) but call a missing manipulation check *peripheral*.
+4. **Decision.** No central limitation needs new data → **R&R**, often decided **without further review**. Had S3 required a brand-new sample, a later resubmission would count as a **new** submission.
+
 ## Output format
 
 ```

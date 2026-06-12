@@ -61,6 +61,20 @@ grows from Study 1 to a coherent set with an internal meta-analysis.
 - Building one study and hoping reviewers waive the multi-study expectation
 - Leaving the internal meta-analysis / integrative analysis to "later"
 
+## Calibration anchors for a JPSP submission
+
+The fixed expectations to hold while routing — binding figures (caps, portals) must be confirmed against the journal's submission guidelines (待核实):
+
+| Anchor | JPSP expectation | Why it shapes routing |
+|--------|------------------|------------------------|
+| Package size | A converging **multi-study** set, not one study | An inherently single study → a short-report venue, not JPSP |
+| Sections | Three independently edited: **ASC / IRGP / PPID** | Lock the section before any other step |
+| Innovation | Theoretical advance precedes data strength | Theory comes before design |
+| Open science | **TOP Level 2**, JARS, prereg, effect sizes with CIs | Transparency is gated at the editor's desk, not polish |
+| Integration | **Internal meta-analysis** across studies | Plan comparable metrics from Study 1 |
+
+These anchors are the post-credibility-revolution defaults the pack operationalizes; when a stage is unclear, return to the anchor it touches.
+
 
 ## Router pass for Journal of Personality and Social Psychology
 

@@ -45,6 +45,31 @@ withstand the question "could one study break the whole story?"
 - Designing studies with incomparable measures, making internal meta-analysis impossible
 - Treating preregistration as paperwork rather than a constraint on later analysis
 
+## Post-credibility-revolution power calibration
+
+Since the open-science reforms, JPSP reviewers treat underpowering as a *central* limitation. The anchors below are **illustrative**, not mandated thresholds — confirm any quantitative expectation against the journal's current submission guidelines, since JPSP publishes no fixed N or power floor.
+
+| Design | Smallest effect of interest (illustrative) | Reviewer reflex if underpowered |
+|--------|--------------------------------------------|----------------------------------|
+| Two-group between-subjects (ASC) | d = 0.30 | "Your null is uninterpretable — too few cases to detect your own effect" |
+| 2×2 interaction (boundary) | f = 0.10 | "The moderation rests on an interaction you never powered" |
+| Dyadic / APIM (IRGP) | β ≈ 0.15 | "Partner effects are noise at this dyad count" |
+| Multilevel / ESM (PPID) | within-person slope | "Random-slope variance is unidentified here" |
+
+Plan against the **smallest effect of interest**, never a noisy pilot d: a pilot d = 0.6 "powering" a study at N = 30 per cell is the classic way JPSP packages collapse on replication. For interactions and partner paths, simulate (`simr`, `DeclareDesign`) rather than a closed-form G*Power main-effect calculation.
+
+## Worked vignette: powering a three-study ASC package
+
+*Illustrative numbers — invented to show design logic, not real findings.*
+
+Claim: **incidental gratitude broadens construal level** (an ASC social-cognition effect).
+
+- **S1 (establish).** Gratitude vs. neutral recall; DV = construal. Smallest effect d = 0.35 → N = 260 (~85% power); preregistered. Result d = 0.34, 95% CI [0.10, 0.58].
+- **S2 (mechanism).** Adds self-transcendence mediator; bootstrap indirect path needs more N than the total effect, so N = 320. Result ab = 0.12, 95% CI [0.04, 0.21].
+- **S3 (boundary).** 2×2 gratitude × time-pressure, community sample; interaction at f = 0.10 → N ≈ 520. Interaction d = 0.28, 95% CI [0.05, 0.51].
+
+A referee checks for a comparable construal metric across all three (so they pool into one **internal meta-analysis**), S3 ruling out a mood-valence confound, and a non-student sample answering "is this just undergraduates?"
+
 ## Output format
 
 ```

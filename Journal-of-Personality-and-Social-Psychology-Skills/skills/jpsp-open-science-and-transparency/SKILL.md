@@ -52,6 +52,25 @@ badge.
 - Disclosing materials but not the analysis code
 - A repository link that de-anonymizes the masked submission
 
+## Desk-screen triggers a section editor flags first
+
+Post-credibility-revolution, an APA section editor can screen a JPSP manuscript before review on transparency grounds alone. These are the avoidable triggers — confirm exact requirements against the journal's submission guidelines (待核实).
+
+| Trigger | Why it stalls at the editor's desk | The fix before submission |
+|---------|------------------------------------|---------------------------|
+| "Data available on request" | Falls short of TOP **Level 2** posting | Deposit in a trusted repository with a persistent DOI, and state it |
+| Materials posted, code missing | Reviewers cannot reproduce the analysis | Post the analysis code, not just stimuli/measures |
+| Vague "we preregistered" | No registered-vs-exploratory split, no link | Give the (masked) prereg link and label every confirmatory test |
+| OSF link shows author names | Breaks **masked review** | Use an anonymized view-only OSF link |
+| Claiming a badge | JPSP **does not offer** open-science badges | Drop badge language; the disclosure is the requirement |
+| No JARS table | Missing standardized reporting | Complete JARS for the design |
+
+## Worked example: a transparency block for a three-study package
+
+*Illustrative — wording to adapt, not a quotation of any real manuscript.*
+
+A preregistered three-study PPID package would carry a disclosure paragraph like: *"Data, analysis code, and materials for all three studies are available at [anonymized OSF DOI]. Studies 1 and 2 were preregistered (links in the repository); Study 3 was exploratory and labeled as such. Reporting follows JARS-Quant. We will maintain availability for at least five years after publication."* Note the four parts a reviewer checks: repository + DOI, the confirmatory/exploratory split, the JARS commitment, and the masking-safe link. A missing part is the most common avoidable transparency flag at JPSP. The five-year availability figure is an APA-wide norm — confirm the precise duration against the journal's current submission guidelines.
+
 ## Output format
 
 ```

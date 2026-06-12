@@ -48,6 +48,18 @@ hypotheses each study tests; the studies themselves are designed in `jpsp-study-
 - HARKing: presenting exploratory findings as if they were predicted (see `jpsp-data-analysis`)
 - Ignoring the obvious alternative account a reviewer will raise
 
+## Clearing the innovation gate: a worked derivation
+
+*Illustrative — invented to model diagnostic hypotheses, not a real theory.*
+
+Claim: incidental gratitude broadens construal because it shifts attention toward self-transcendent goals. The diagnostic test is what separates this from a "clean effect" that fails the gate:
+
+- **H1 (establish, S1).** Gratitude raises abstract construal vs. neutral. A pure-affect account predicts the same, so H1 alone is *not* diagnostic.
+- **H2 (mechanism, S2).** Self-transcendence mediates the effect — a prediction a generic positive-affect account does *not* make. This is the diagnostic hypothesis.
+- **H3 (boundary, S3).** The effect attenuates under time pressure, which taxes the goal-shift but not affect — separating mechanism from mood.
+
+Each hypothesis maps to one study, and H2/H3 are built so a competing theory predicts otherwise; that diagnosticity is what an ASC reviewer means by "theoretically generative" — the difference between a JPSP package and a demonstration.
+
 
 ## Operating pass for Journal of Personality and Social Psychology
 
