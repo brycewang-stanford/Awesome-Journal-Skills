@@ -54,6 +54,22 @@ no opinion, policy, theory-only, historical, or journalistic pieces) before and 
 - Leaving identifying information that defeats triple-blind anonymity
 - Ignoring the APSA human-subjects affirmation when research engages participants
 
+## Desk-screen and reviewer-objection map
+
+Screening at World Politics is a scope-and-significance gate before the methods read. Knowing which
+failure triggers which response lets you pre-empt it.
+
+| Failure at screen/review | What happens | Pre-empt before submitting |
+|--------------------------|--------------|----------------------------|
+| Out of scope (opinion/policy/theory-only/historical/journalistic) | May be withdrawn by editors | Reframe as a comparative or IR empirical study, or target another venue |
+| Single-case description, no cross-case payoff | Weak-fit / low-significance read | Attach the case to a portable mechanism that travels |
+| Literatures or design left implicit | Reviewer criticism | Engage the live debate; state design and methods explicitly |
+| Identifying info left in text/metadata | Anonymity broken | Strip self-references and file metadata |
+
+Calibration anchor: World Politics is a leading peer-reviewed journal of comparative politics and
+international relations, methodologically plural (comparative, quantitative, qualitative, and formal),
+and it prizes a big political question with theory that travels over narrow empirics. Tune the paper
+to that bar, not to a generalist or IR-only one.
 
 ## Review-risk pass for World Politics
 

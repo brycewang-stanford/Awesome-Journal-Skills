@@ -54,6 +54,38 @@ because they are. This skill covers execution and reporting norms; design decisi
 - Clustering at the wrong level; ignoring TSCS serial correlation / cross-sectional dependence
 - A findings section whose numbers the deposited code cannot reproduce
 
+## Referee-pushback patterns and the World Politics fix
+
+World Politics referees span a methodologically plural community, so each tradition is judged on its
+own terms. The recurring objections, and the answering move, are stable.
+
+| Referee objection | The fix this skill drives |
+|-------------------|----------------------------|
+| "Robustness only reruns near-identical specs" | Show specs that could *break* it: rival measures (V-Dem vs. Polity, COW vs. UCDP), alternative case samples; report what each did |
+| "Stars but no magnitudes" | Lead with effect size + interval + substantive meaning across cases |
+| "Quant and case evidence diverge" | State it, adjudicate with within-case evidence, narrow the scope condition |
+
+A frequent risk is the **fishing concern**: an interaction found post hoc and theorized as if
+predicted. Pre-specify subgroups, correct for multiple comparisons, report the unconditional result
+too. (Confirm expectations against the journal's reviewer guidelines, which can be revised.)
+
+## Worked micro-example (illustrative numbers)
+
+A hypothetical mixed-method study asks whether **fiscal decentralization dampens ethnic conflict
+onset** across ~120 countries, paired with two within-case process-tracing narratives.
+
+```text
+Main estimate (illustrative): 1-SD rise in decentralization → onset HR 0.72, CI [0.58, 0.90]
+  reading: ~28% lower onset risk at the mean, not just "p < 0.05"
+Robustness:  swap V-Dem for OECD measure → HR 0.79 [0.61, 1.02] (weaker, crosses 1)
+Few clusters (41) → wild-cluster bootstrap p = 0.04 (vs naive 0.01)
+Triangulation: HR and both case narratives agree on a budgetary-bargain mechanism; the lone case
+  where decentralization did NOT dampen conflict had centrally appointed governors → scope condition.
+```
+
+The honest reading: the effect is real but **scope-conditioned on genuine fiscal autonomy**, with
+the weaker interval reported, not suppressed. Figures illustrative only.
+
 ## Output format
 
 ```

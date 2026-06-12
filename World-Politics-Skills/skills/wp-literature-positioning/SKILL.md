@@ -47,6 +47,39 @@ Position the books against the broader debate and state what the synthesis lets 
 - Strawmanning prior work, or hiding the closest competitor paper
 - Self-citation that breaks anonymity (World Politics is triple-blind — see `wp-submission`)
 
+## Referee-pushback patterns and the venue-specific fix
+
+World Politics referees are expert in the cross-case literatures, so positioning failures get named
+quickly. Each objection maps to a repair.
+
+| Referee objection | Venue-specific fix |
+|-------------------|--------------------|
+| "Missed obvious work / doesn't engage the debate" | Name the live comparative or IR disagreement and cite the 3–6 works that *define* it, not a citation pile |
+| "Empirical but not theoretically generative" | Reframe the gap so resolving it moves a cross-case theory, not just adds a country observation |
+| "Reads as a single-country conversation" | Connect the case to the general; show why a comparativist on *other* cases should care |
+| "Closest competitor not addressed" | State the nearest prior paper and how your design adjudicates against it |
+
+A review article draws a distinct objection — "just a sequence of book summaries." The fix is to make
+the synthesis itself the contribution: extract the books' collective claim and tension, then set the
+field's next agenda.
+
+## Worked micro-example (illustrative)
+
+A hypothetical study of **autocratic survival after resource booms** could be positioned narrowly
+("first study of country X's oil politics") or for World Politics:
+
+```text
+Debate:   does resource wealth entrench autocrats, or only where institutions are already weak?
+Domain:   comparative politics, with IR spillover (sanctions, external rents)
+Key works: the rentier-state and resource-curse strands that frame the disagreement
+Gap:      the conditioning role of prior state capacity is contested, not untested
+Move:     a paired comparison that holds boom size fixed and varies pre-boom capacity
+Rival:    "it's just commodity prices" — design adjudicates by within-case timing
+```
+
+This positions the paper inside a cross-case debate the field already argues about, so the
+contribution travels. (Engagement expectations can change; confirm against the current guidelines.)
+
 ## Output format
 
 ```

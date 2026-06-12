@@ -57,6 +57,36 @@ design does not yet identify a contribution that travels.
 - A within-case story over-generalized with no scope conditions
 - A design that cannot distinguish your argument from the leading alternative
 
+## Design-objection patterns and the venue-specific fix
+
+World Politics judges each tradition on its own terms and prizes designs built to adjudicate, so
+design objections cluster predictably across the comparative and IR styles it publishes.
+
+| Referee objection | The fix this skill drives |
+|-------------------|----------------------------|
+| "Case selection unjustified" | State what each case is a case *of* and the design logic (typical / deviant / most–least-likely / paired); convenience is not a design |
+| "Selecting on the dependent variable" | Add variation on the outcome, or reframe as a scope-condition study with disconfirming cases |
+| "Causal language on associational design" | Match the verb to the warrant; reserve causal claims for designs that identify them |
+
+## Worked micro-example (illustrative)
+
+A hypothetical comparative study asks whether **electoral autocracies are more war-prone than closed
+ones**. A weak version selects three war-fighting electoral autocracies and infers a tendency — a
+selection-on-the-outcome flaw a referee will name immediately.
+
+```text
+Mode:      comparative-historical, structured-focused comparison
+Estimand:  conflict propensity, electoral vs closed autocracy, holding capacity fixed
+Selection: 2 electoral + 2 closed autocracies matched on GDP/region; varies on the OUTCOME
+Adjudication: if the rival "capacity, not regime type" held, the matched closed cases would
+  fight as often; instead the electoral cases initiate ~2x more disputes (illustrative).
+Travel:    scope condition — holds where elections raise audience costs, not where they are sham
+```
+
+The redesign varies on the outcome and writes the adjudication sentence, so the comparison can
+identify a contribution that travels. (Counts and ratios illustrative; confirm current design
+expectations against the journal's reviewer guidelines.)
+
 ## Output format
 
 ```

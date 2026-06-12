@@ -48,6 +48,32 @@ Every exhibit must pull its weight and reproduce from the deposited Dataverse pa
 - Color-only encoding that fails in grayscale or for colorblind readers
 - Exhibit numbers/values that don't match the deposited code output
 
+## Exhibit-objection patterns and the venue-specific fix
+
+A World Politics referee uses the exhibits to check whether a cross-case result is real, so exhibit
+objections track the venue's emphasis on magnitude, transparency, and travel.
+
+| Referee objection | The fix this skill drives |
+|-------------------|----------------------------|
+| "Table needs the prose to be read" | Make it self-contained: units, cases/sample, N, span, source in title and note |
+| "Stars, no magnitude" | Switch to a coefficient/marginal-effects plot showing intervals |
+| "Which cases is this?" | Name the case base and time span on the exhibit itself |
+| "Process-tracing claim not auditable" | Add an evidence table linking each claim to its document/interview source |
+
+## Worked micro-example (illustrative)
+
+A hypothetical study of **alliance reliability and deterrence** has one dense 14-column regression
+table. The redesign carries the argument better:
+
+```text
+Before: Table 3, 14 columns of coefficients + stars, no case labels
+After:  Figure 3 — forest plot of the alliance-reliability effect across 6 model variants,
+        95% intervals, N = 1,940 dyad-years, COW + ATOP, 1946–2010 noted on the figure
+Supplement: full 14-column table + balance checks moved to Online Appendix (within 15-page cap)
+```
+
+The figure shows magnitude and uncertainty at a glance while the full table stays auditable in the
+supplement. (Numbers illustrative; verify the supplement cap against the current submission page.)
 
 ## Exhibit pass for World Politics
 

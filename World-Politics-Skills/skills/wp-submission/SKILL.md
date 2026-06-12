@@ -63,6 +63,36 @@ volatile specifics on the official page before relying on them.
 - Submitting an unsolicited review article without checking the commissioning norm
 - Dual-submitting or submitting previously published material (firm policy)
 
+## Avoidable-rejection map (what trips submissions)
+
+The most common avoidable failures at a triple-blind comparative-and-IR venue are anonymity and
+length, not the science. Sort the risk before upload.
+
+| Trip-wire | Why it bites at World Politics | The fix |
+|-----------|--------------------------------|---------|
+| Author identifiers in text or file metadata | Defeats triple-blind, the venue's core process | Strip bylines, self-cites, document properties |
+| Notes + references pushed over the count | They count toward the 12,500 words | Tighten apparatus; move detail to the ≤15-page supplement |
+| Supplement used as overflow dump | Capped at 15 pages | Keep only material central to the argument |
+| Unsolicited review article | Review articles are usually commissioned | Confirm commissioning before drafting |
+
+## Worked micro-example (illustrative)
+
+A hypothetical comparative paper on **institutional design and post-conflict stability** runs the
+preflight:
+
+```text
+Type:     research article (not a review → no commissioning check needed)
+Length:   12,480 words incl. notes + references — under 12,500 by a thin margin
+Abstract: 148 words — under 150
+Anonymity: removed 3 self-citations + stripped Word author metadata
+Supplement: 14 pages (balance tables + full specs) — within the 15-page cap
+Ethics:   no human subjects → APSA affirmation N/A
+Repro:    Dataverse package staged for deposit at acceptance
+```
+
+The thin word-count margin is the live risk; trim notes first. (Length, abstract, and supplement
+limits are volatile — verify each against the official submission page before relying on them.)
+
 ## Output format
 
 ```

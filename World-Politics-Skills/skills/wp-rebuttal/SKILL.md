@@ -60,6 +60,33 @@ memo to about **five pages single-spaced**; end each entry with the location of 
 - Defensive or dismissive tone toward anonymous reviewers
 - Letting the revised manuscript or new exhibits drift out of sync with the deposited package
 
+## Reviewer-demand triage (concede / rebut / reconcile)
+
+Because review is triple-blind and the editors adjudicate, sort each demand before writing.
+
+| Demand type | Default move for World Politics |
+|-------------|----------------------------------|
+| Strengthens generalization (extra case, alternative source) | Concede; it keeps the argument traveling across cases |
+| Would collapse the paper to a single-case story | Rebut respectfully with a design reason; protect the cross-case logic |
+| Two reviewers want opposites | Reconcile openly; pick a principled path and explain the tradeoff to the editors |
+
+## Worked micro-example (illustrative)
+
+A hypothetical R&R on a regime-change paper: Reviewer 1 wants a fourth case; Reviewer 2 calls the
+fourth case a distraction and wants more within-case process tracing.
+
+```text
+> R1: add a fourth case to show the mechanism generalizes.
+> R2: the cases already overreach; deepen the process tracing.
+
+Response: add ONE most-different case (R1) with its detail in the supplement, and deepen within-case
+  evidence in the two core cases (R2) — serving both the travel concern and the rigor concern.
+Change: new case in Sec. 5 + Online Appendix B; expanded process tracing in Sec. 4 (pp. 18–22).
+```
+
+The memo states the conflict, the resolution, and the locations — in well under five pages. (Confirm
+current memo-length and word-limit-exception rules against the submission guidelines.)
+
 ## Output format
 
 ```
