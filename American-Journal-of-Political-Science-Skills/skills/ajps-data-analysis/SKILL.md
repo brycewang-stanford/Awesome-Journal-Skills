@@ -47,6 +47,37 @@ covers execution and reporting; design choices live in `ajps-research-design`.
 - Keep the manuscript's table/figure numbers matched to script outputs — the verifier checks the
   **numerical results in the main text** line by line.
 
+## Analysis-decision checklist a quantitative AJPS referee runs
+
+| Question the referee asks | Pass condition | Fix if it fails |
+|---------------------------|----------------|-----------------|
+| Does the estimator recover the stated estimand? | Estimand named; estimator matches | Name the target quantity before the table |
+| Is inference at the right level? | Clustered at assignment/sampling level | Re-cluster; wild-cluster bootstrap if few clusters |
+| Could the robustness checks break the result? | One genuinely adversarial spec | Add a spec that could overturn it, report honestly |
+| Will the verifier's re-run match the printed numbers? | Master script regenerates every exhibit | Script everything; set seeds; pin versions |
+
+## Worked micro-example (illustrative numbers)
+
+A survey experiment tests whether a co-partisan endorsement raises policy support. The pre-analysis plan
+names the estimand (ITT on a 0-100 scale), the primary contrast, and one moderator (political knowledge).
+Result: **+7.4 points (95% CI 3.1-11.7), randomization-inference p = 0.004** *(illustrative)*. A knowledge
+interaction that was *not* pre-specified as confirmatory goes to an exploratory subsection, flagged, with a
+multiple-comparison note. Every number is emitted by one seeded master script, so the AJPS verifier's
+re-run reproduces the main-text figures exactly.
+
+## Referee-pushback patterns and the venue-specific fix
+
+- *"Identification leans on selection-on-observables."* -> Report an unobserved-confounder sensitivity
+  bound (how strong a confounder must be to overturn the estimate); soften causal language if fragile.
+- *"This interaction looks mined."* -> Show it was pre-registered, or relabel it exploratory and adjust for
+  multiple comparisons; never HARK it into a hypothesis.
+- *"I cannot reproduce Table 2 from your code."* -> Fatal at AJPS verification; rebuild the master script so
+  every number regenerates with fixed seeds and pinned versions.
+
+Calibration anchor: AJPS's independent verifier re-runs deposited code against the main-text numbers before
+publication, so "it works on my machine" is not enough — confirm the live verification wording against the
+journal's current guidelines.
+
 ## Anti-patterns
 
 - Stars-only tables with no effect sizes or intervals

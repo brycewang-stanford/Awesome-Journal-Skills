@@ -40,6 +40,35 @@ against the main-text numbers. So each exhibit must earn its words *and* its rep
 - For qualitative/multi-method work: timelines, causal-process diagrams, evidence tables linking claims
   to sources.
 
+## Exhibit-routing table (what AJPS referees expect to find where)
+
+| Exhibit | Lives in | Why AJPS treats it this way |
+|---------|----------|------------------------------|
+| Headline causal estimate (coef/marginal-effects plot) | Main text | The result the verifier re-runs first; show magnitude + interval |
+| Balance table; full specification grid; robustness battery | SI (<= 20 pp) | Only the breaking specs belong in the article |
+| Density test (RD), first-stage F (IV), event-study leads | Main text or SI | Identification evidence a quantitative referee will demand |
+
+## Worked micro-example (illustrative numbers)
+
+A regression-discontinuity study of incumbency advantage reports the RD estimate in one coefficient plot:
+incumbent vote share jumps **6.2 points (95% CI 2.1-10.3)** at the bare-win threshold *(illustrative)*.
+The first draft buried this in a six-column bandwidth table. The AJPS-aligned fix: promote one **RD plot**
+(binned means, local-linear fit, CI band); move the bandwidth grid, density test, and donut-hole checks to
+the SI. The note states the running variable, bandwidth, N near the cutoff, and estimator — self-contained,
+with every number traceable to one block of the master script the verifier re-runs.
+
+## Referee-pushback patterns and the venue-specific fix
+
+- *"Stars but no sense of magnitude."* -> Replace the coefficient wall with a predicted-probability or
+  marginal-effects plot; report the effect on the outcome's natural scale in the note.
+- *"Unreadable in grayscale / for colorblind readers."* -> Colorblind-safe palette, vary line type and
+  marker shape, confirm it parses in black and white.
+- *"Exhibit values do not match the deposited code."* -> A guaranteed AJPS verification failure; regenerate
+  every exhibit from the master script and name code by exhibit ("Files to Reproduce Table 1").
+
+Calibration anchor: AJPS verification checks exhibit numbers against re-run code, not the eye, and the cap
+counts headers and notes — confirm the exact counting rule against the journal's current guidelines.
+
 ## Anti-patterns
 
 - Tables that need the prose to be intelligible (not self-contained)
