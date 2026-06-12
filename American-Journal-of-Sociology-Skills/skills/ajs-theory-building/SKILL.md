@@ -48,6 +48,34 @@ Ask: *Could a sociologist in another area import this concept or mechanism to th
 yes, you have a discipline-level contribution. If it works only for your exact case, generalize the
 logic or reframe (back to `ajs-topic-selection`).
 
+## The theoretical-ambition ladder (calibration for AJS, hedged)
+
+AJS sits at the high end of the discipline's appetite for theory; these rungs are an orienting heuristic, not an editorial rubric. Confirm fit against the journal's current submission guidelines.
+
+| Rung | What the paper offers | Likely AJS verdict |
+|------|-----------------------|--------------------|
+| 0 | A clean finding, no portable idea | often prejected as "just a finding" |
+| 1 | Finding + a mechanism for one case | promising but thin |
+| 2 | Mechanism + scope conditions + observable implications | the modal strong AJS submission |
+| 3 | A concept others import to new problems | the AJS target — discipline-level |
+
+Aim for rung 2 minimum; rung 3 wins. This bar distinguishes AJS from venues that reward a parsimonious estimate (e.g., ASR): AJS pays a premium for depth and theoretical reach, even at the cost of length.
+
+## Engaging the classics (an AJS expectation)
+
+A recurrent AJS referee complaint is "engagement with the classics missing." Theory-forward reviewers expect the argument located against foundational work — not name-dropped, but used. If your mechanism echoes Weber on authority or Durkheim on solidarity, say so and show what you add.
+
+## Referee-pushback patterns and the venue-specific fix
+
+| Referee writes… | The AJS-specific fix |
+|-----------------|--------------------|
+| "Empirically competent but theoretically thin." | climb to rung 2–3; state the concept the field can carry |
+| "Mechanism under-theorized." | specify who does what, why, under which structural conditions |
+| "Engagement with the classics missing." | situate against and extend a foundational theory |
+| "Reads as description." | surface the portable concept; state stakes early |
+
+Illustrative: an online mutual-aid network study draws "competent description, theoretically thin." Climbing the ladder, the author names a mechanism — an illustrative "dense reciprocal ties convert episodic generosity into durable obligation when exit is visible to third parties" — adds scope conditions, and engages Durkheimian solidarity to show the move extends the classic, shifting from rung 1 to rung 3.
+
 ## Anti-patterns
 
 - "Hypothesizing after results are known" (HARKing) — state theory before tests
@@ -55,6 +83,7 @@ logic or reframe (back to `ajs-topic-selection`).
 - Mechanisms named but never made observable
 - Universal claims with no scope conditions
 - Burying the theoretical move under the empirics — the contribution must be stated plainly and early
+- Leaving the argument unmoored from the discipline's foundational debates (the "classics missing" complaint)
 
 ## Output format
 

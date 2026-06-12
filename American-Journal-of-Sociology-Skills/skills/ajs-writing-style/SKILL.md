@@ -41,6 +41,27 @@ pages are 403 to automated fetch).
   **referees may need more time for papers over ~18,000 words** — long is allowed, not rewarded.
   (待核实 — confirm current length norms.)
 
+## The AJS sentence-level prose bar (calibration, hedged)
+
+Craft heuristics for the journal's long-form culture, not graded rules; confirm mechanical specifics against the journal's current submission guidelines.
+
+- **Argument-forward paragraphs.** Each section opens by advancing the theoretical argument, then brings evidence to bear — not procedure first, theory last. AJS prose reads as sustained reasoning, which is why a 19,000-word article can feel tighter than a padded 12,000-word one.
+- **Earn the length.** With no hard cap, the discipline is internal: cut any paragraph that does not move the concept, mechanism, cases, or stakes. Length is a budget the argument spends, not a target.
+- **Generalist legibility under double-blind.** A cross-method referee must follow the logic. Define every field-specific term on first use; gloss notation; translate a coefficient into a substantive sentence.
+- **Voice of craftsmanship.** AJS rewards writing that shows careful construction — claims hedged where evidence is partial, rival readings named, scope conditions stated in prose.
+
+## Writing desk-reject and pushback patterns (AJS-specific fixes)
+
+| Referee or editor signal | What it usually means | The AJS fix |
+|--------------------------|-----------------------|-------------|
+| "Reads for specialists only." | jargon wall, no glossing | rewrite the intro for a generalist; define terms in prose |
+| "Contribution buried." | payoff arrives in the discussion | move the theoretical claim to the first two pages |
+| "Formatted to ASA style." | wrong house style | convert to AJS author-date; notes start at "1" |
+| "Long without warrant." | pages not earning their keep | cut procedural narration; keep argumentative prose |
+| "Tone is defensive / thin." | rival readings ignored | name the strongest alternative and address it in text |
+
+Illustrative: an ethnographic draft opens with four pages of site description before any concept; a referee writes "I could not find the argument until page 12." The author moves the portable claim — an illustrative "interactional deference rituals reproduce class advantage without explicit gatekeeping" — to page 2, glosses two field-specific terms, and cuts scene-setting that did not advance the mechanism.
+
 ## Anti-patterns
 
 - Formatting to the **ASA Style Guide** and assuming AJS accepts it (it has its own house style)
@@ -48,6 +69,7 @@ pages are 403 to automated fetch).
 - Jargon a generalist sociologist cannot follow
 - Burying the theoretical contribution in the discussion section
 - Identifying self-references that break double-blind anonymity (see `ajs-submission`)
+- Narrating method or scene before stating the theoretical stake — argument should lead
 
 ## Output format
 

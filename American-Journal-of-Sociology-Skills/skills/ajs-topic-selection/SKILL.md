@@ -53,6 +53,21 @@ A strong AJS paper usually clears all four:
 | Networks / computational | connect structure to social theory, not method for its own sake |
 | Theory | tie the conceptual move to empirical or interpretive consequences sociologists can use |
 
+## Fit-screen decision table (what to do with each verdict)
+
+Run the four-part test, then act on the dominant signal:
+
+| Signal from the four-part test | Action |
+|--------------------------------|--------|
+| All four clear; idea is portable | proceed to `ajs-literature-positioning` |
+| Rigorous + significant but payoff thin | climb the theory ladder before submitting |
+| Tightly bounded, parsimony-first contribution | consider ASR or a field journal instead |
+| Opinion / current-events / non-research | do not submit — AJS prejects this |
+
+## Calibration: AJS vs. its closest siblings (hedged)
+
+Orienting contrasts, not rankings; confirm scope against each journal's current submission guidelines. Beyond the AJS-vs-ASR contrast above, note the international sibling: **社会学研究 / Sociological Studies** (China's flagship) centers Chinese society in Chinese-language national debates, whereas AJS is the English-language generalist journal of the University of Chicago Press, judging by reach for the international discipline — a paper framed for a single national audience may travel poorly without a portable theoretical move. AJS is the discipline's oldest journal, broad across methods with a hard premium on deep theoretical contribution and sustained argument, plus a substantial book-review section marking it as a forum for the whole field. Illustrative: gig-driver interviews framed as "no one has studied driver experience here" read as descriptive; reframed as "algorithmic opacity manufactures consent by individualizing risk," they speak to labor-process theory across platforms, flipping the verdict to "strong fit."
+
 ## Anti-patterns
 
 - An opinion piece or current-events take dressed as research (AJS prejects these)

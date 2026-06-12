@@ -36,6 +36,19 @@ If you are writing a **Comment** on a published AJS article:
 - Make the critique **substantive and general**: it should teach the field something, not score points.
 - Anticipate the **author's Reply** — AJS publishes both; a fair Comment survives the Reply.
 
+## Positioning move table (gap-as-tension, AJS-style)
+
+AJS rewards papers that resolve or reframe a tension, not ones that fill an empty cell. Diagnose the referee complaint, then upgrade:
+
+| Referee signal | The AJS-specific fix |
+|----------------|--------------------|
+| "Reinvents the wheel." | locate the live debate and the strongest prior work |
+| "Engagement with the classics missing." | situate against and extend a foundational theory |
+| "Straw-mans the literature." | engage the best version of the view you challenge |
+| "Subfield-only." | reframe the tension for the whole discipline |
+
+Because the Assignment Board infers area and method from a blinded manuscript, positioning is the signal it reads to recruit cross-method referees — a subfield-only map invites a poor match. Illustrative: a paper framed as "schema research has not examined online communities" reads as descriptive; reframed as a tension between durable-schema and interactionist accounts that the author's case adjudicates, it engages a debate the discipline recognizes.
+
 ## Anti-patterns
 
 - A subfield-only literature wall that a generalist reviewer cannot follow

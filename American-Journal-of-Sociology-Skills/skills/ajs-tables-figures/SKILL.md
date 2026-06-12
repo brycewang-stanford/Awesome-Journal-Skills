@@ -37,13 +37,27 @@ and Formatting PDF (待核实; UChicago Press pages are 403 to automated fetch).
   network structure) over dense coefficient dumps where a plot would communicate better.
 - Colorblind-safe, legible in grayscale; vector output (PDF/EPS) for print.
 
+## Referee/production conformance check (AJS-specific)
+
+| Slip referees and production catch | AJS-specific fix |
+|------------------------------------|------------------|
+| Panels grouped under one number | discrete, consecutive: table 1, 2, 3 |
+| Appendix table continues the main sequence | letter it: table A1/B1 |
+| Exhibit embedded inline | move to the separate post-text sections |
+| Perfunctory or missing alt text | one descriptive line per figure, with captions |
+| Exhibit unreadable without the body | state units, N, source in title/notes |
+
+## Calibration: exhibits as argument, not decoration (hedged)
+
+Craft heuristics fitting AJS's culture, not graded rules; confirm specifics against the journal's current submission guidelines. Because AJS rewards a carefully built argument, the lead exhibit should carry the *theoretical* claim, not merely display a model — a figure that makes a mechanism visible (a sequence plot, a network diagram, marginal effects rather than a coefficient dump) does more work than a wall of stars, and pacing the long-form article means placing the claim-bearing exhibit early. Illustrative: a regime-transitions paper buries its headline pattern in table 6; the author promotes it to a lead event-sequence figure, renumbers the rest discretely (tables 1–7), moves diagnostics to a lettered appendix (A1–A3), and gives every figure descriptive alt text.
+
 ## Anti-patterns
 
 - Grouping panels under one number when AJS wants discrete numbering
 - Embedding tables/figures inline instead of in the post-text sections
 - Missing or perfunctory alt text (now required at submission)
 - Exhibits that need the body text to be intelligible (no units, no N, no source)
-- A wall of stars where a single figure would carry the argument
+- A wall of stars where a single figure would carry the argument, or burying the claim-bearing exhibit among robustness tables
 
 
 ## Exhibit pass for American Journal of Sociology

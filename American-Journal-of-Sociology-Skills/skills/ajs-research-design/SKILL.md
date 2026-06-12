@@ -49,6 +49,20 @@ The single most common AJS reviewer objection: **the design cannot bear the theo
 the chain: claim → mechanism → observable implication → the design's leverage on it. If a step is
 weak, tighten the claim or strengthen the design — do not overclaim.
 
+## Referee-pushback patterns by tradition (the modal AJS objection)
+
+The most common AJS design rejection is "the design cannot bear the theoretical claim." Recurring objections by tradition; confirm method expectations against the journal's current submission guidelines.
+
+| Referee writes… | Tradition | The AJS-appropriate fix |
+|-----------------|-----------|------------------------|
+| "Selecting on the outcome." | comparative-historical | add a non-outcome case or acknowledge the limit |
+| "Representativeness asserted." | ethnographic | argue why this case bears the theoretical weight |
+| "Identification overclaimed." | quantitative | restate as descriptive/associational and theorize it |
+
+## Calibration with a quick example (hedged)
+
+AJS judges each tradition by its own standard, not a single template; unlike a parsimony-first sibling that privileges a clean causal estimate, it accepts a richly defended interpretive or comparative design when it bears the claim. Illustrative: an author selecting four states that all underwent revolution, then theorizing "state breakdown causes revolution," is flagged for selecting on the outcome; the fix adds two negative cases (comparable fiscal crises that did *not* break down) so the comparison can see the mechanism fail as well as fire. Confirm method guidance against the journal's current submission guidelines.
+
 ## Anti-patterns
 
 - Borrowing a quantitative identification template for work that is interpretive or comparative
@@ -56,6 +70,7 @@ weak, tighten the claim or strengthen the design — do not overclaim.
 - Ethnography that asserts representativeness it cannot support
 - Overclaiming causality from an associational design
 - A design that tests something adjacent to, but not, the stated theoretical claim
+- Designing only to confirm the mechanism, with no case where it could be seen to fail
 
 
 ## Design pass for American Journal of Sociology

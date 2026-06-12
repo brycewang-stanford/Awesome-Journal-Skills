@@ -51,12 +51,34 @@ pages (待核实; UChicago Press pages are 403 to automated fetch).
 - Write so a cross-method, generalist reviewer can follow and find the contribution.
 - Present negative cases / robustness candidly — reviewers trust candor.
 
+## Desk-reject / preject pattern catalogue (AJS-specific)
+
+The preject screen is AJS's signature gate; these profiles get declined without review, and the fix is upstream. Confirm current screening practice against the journal's current submission guidelines.
+
+| Preject profile | Pre-empt before submitting |
+|-----------------|----------------------------|
+| Opinion / current-events interpretation | reframe as a researched argument or do not submit |
+| Atheoretical finding | climb the theory ladder in `ajs-theory-building` |
+| Subfield-only conversation | reposition for the discipline in `ajs-literature-positioning` |
+| Broken anonymity | re-anonymize via `ajs-submission` before upload |
+| Missing abstract | add a ~150-word abstract stating question/data/findings |
+
+## Calibration: how to read an AJS letter (hedged)
+
+Orienting expectations, not guarantees; confirm timelines and categories against the journal's current submission guidelines.
+
+- **An R&R is success, not a near-miss.** For a promising paper it is the normal route; the letter typically asks for theoretical deepening, not just more robustness, and the editor adjudicates reviewer disagreement.
+- **Craftsmanship is judged.** Referees read for whether the construction holds under pressure — a thin theory section sinks an empirically clean paper.
+- **Generalist, cross-method reviewers.** The Assignment Board recruits readers beyond your citation list, so an argument legible only to your subfield is a liability the process exposes.
+
+Illustrative: a deeply theorized urban-ethnography study of immigrant incorporation is read blind and sent to three referees outside the author's network (an illustrative ethnographer, quantitativist, and generalist). The quantitativist asks for the mechanism's observable implications; the generalist flags an abstract that never states the puzzle. The realistic outcome is an R&R — not a reject, not a first-round accept.
+
 ## Anti-patterns
 
 - An opinion or current-events piece submitted as research (prejected)
 - A subfield-only or atheoretical paper at a theory-forward generalist journal
 - Leaving identifying self-references that break double-blind anonymity
-- Expecting acceptance without a serious R&R round
+- Expecting acceptance without a serious R&R round, or reading an R&R as rejection and abandoning a promising project
 
 ## Output format
 

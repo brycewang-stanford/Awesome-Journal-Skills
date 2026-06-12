@@ -36,6 +36,21 @@ Both reward calm, specific, evidence-based engagement over defensiveness. Verify
 - Aim for a Reply that **advances the field's understanding**, not a last word; concede what is right.
 - Keep it proportionate and civil — the exchange is read by the whole discipline.
 
+## Concede-or-contest decision aid (AJS R&R)
+
+For each reviewer point, decide deliberately; the editor reads your reasoning, so make it legible.
+
+| The point asks for… | Default move |
+|---------------------|--------------|
+| A change that strengthens the paper | concede; cite the location |
+| Deepening the theory (common at AJS) | concede and lead with it up front |
+| A change that would weaken the paper | contest with reasoned evidence |
+| Two reviewers disagree | adjudicate openly; the editor decides |
+
+## Calibration with a quick example (hedged)
+
+Confirm against the journal's current submission guidelines. AJS R&R letters typically push for theoretical deepening, not just more robustness, so headline changes should be argument-level; in the Comment-and-Reply tradition the whole discipline reads the exchange, rewarding a measured Reply over one that aims to "win." Illustrative: a network-inequality R&R asks to deepen the theory, add a check, and drop a "speculative" mechanism; the author leads with a sharpened mechanism, adds one placebo, and contests the third with evidence it yields a distinctive prediction.
+
 ## Anti-patterns
 
 - Defensiveness, dismissiveness, or ignoring a reviewer/commenter point
@@ -43,6 +58,7 @@ Both reward calm, specific, evidence-based engagement over defensiveness. Verify
 - Caving to a reviewer demand that would weaken the paper instead of arguing the case
 - In a Reply: straw-manning the Comment or treating it as an attack to be "won"
 - Breaking anonymity in a re-uploaded R&R file
+- Answering a request to deepen the theory with more robustness tables, not a stronger argument
 
 
 ## Response pass for American Journal of Sociology

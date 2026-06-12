@@ -56,6 +56,21 @@ Press pages are 403 to automated fetch).
 - [ ] Originality statement prepared if the paper overlaps prior work
 - [ ] Not under review elsewhere (concurrent submission violates Press ethics)
 
+## Avoidable-failure triage (what bounces a submission, and the fix)
+
+Recurring pre-review failures specific to AJS's portal and double-blind model. Confirm volatile specifics against the journal's current submission guidelines.
+
+| Failure at submission | Fix before upload |
+|-----------------------|-------------------|
+| Cover page or identifying metadata left in the file | separate cover page; strip document properties and tracked comments |
+| Formatted to ASA Style Guide | convert to AJS author-date house style |
+| No abstract | add ~150 words: question + data + findings |
+| Fee unpaid / wrong waiver assumption | pay $30, or claim sole-author grad waiver only if eligible |
+
+## Calibration (AJS-specific posture, hedged)
+
+Reflects AJS's house and culture, not universal rules; confirm wording against the journal's current submission guidelines. The most common avoidable style failure is mis-applying the ASA Style Guide — AJS uses its own author-date system. Length is tolerated, not rewarded: no fixed word cap, but referees may need more time over an illustrative ~18,000 words. The $30 fee is waived only for graduate students submitting as sole authors; a coauthored paper does not qualify. Illustrative: a sole-author candidate's 17,500-word article catches three triage issues — an acknowledgments footnote naming the committee, references in ASA style from a prior ASR attempt, and two figures lacking alt text — and after fixes the waiver applies and the submission clears pre-review checks.
+
 ## Anti-patterns
 
 - Leaving the cover page / author identifiers inside the manuscript file (breaks double-blind)

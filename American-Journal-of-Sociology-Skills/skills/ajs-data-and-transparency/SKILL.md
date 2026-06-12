@@ -43,6 +43,24 @@ pages are 403 to automated fetch).
 - **Confidentiality first.** Human-subjects protection overrides sharing; state clearly when and why
   data cannot be shared, and what *can* (synthetic data, code, documentation).
 
+## Transparency posture by tradition (an AJS decision table)
+
+AJS is method-pluralist, so "transparency" means a checkable evidentiary trail proportionate to the claim, not a one-size deposit. Confirm current policy wording against the journal's current submission guidelines.
+
+| Tradition | Minimum documentation | Substitute when sharing is blocked |
+|-----------|-----------------------|------------------------------------|
+| Quantitative (public data) | master script, codebook, pinned versions, seeds | post code + derivation steps |
+| Quantitative (restricted) | as above + an access path | synthetic data + application instructions |
+| Comparative-historical | primary-source citations, archive locators | a source appendix readers can retrieve |
+| Ethnographic / interview | coding scheme, within-case sampling logic | aggregated excerpts; controlled-access deposit (QDR) |
+| Network / computational | boundary rules, tie definitions, missingness | anonymized edgelist + generation code |
+
+## Calibration (where AJS sits, hedged)
+
+AJS's craftsmanship culture means referees value a documentation trail that lets a skeptical reader follow the inference — even though AJS does not advertise an editor-verified replication gate the way some political-science journals do. Unlike a parsimony-first sibling that may lean on one mandatory deposit, at AJS the depth and checkability of the tradition-appropriate trail carry the day; treat thorough documentation as a craft choice, and confirm the live data-availability policy (待核实; UChicago Press pages are 403 to automated fetch).
+
+Illustrative: a welfare-state study draws on three archives plus a restricted panel that cannot be redistributed. Applying the table, the author posts the script and codebook, adds a source appendix with exact archive locators (an illustrative ~140 primary sources), and supplies a synthetic panel plus data-access steps — documentation chosen to make the inference checkable, not overstated as an AJS-verified deposit.
+
 ## Anti-patterns
 
 - Over-stating AJS policy as a mandatory verified replication deposit (it does not advertise one)
@@ -50,6 +68,7 @@ pages are 403 to automated fetch).
 - No codebook or documentation, making the analysis uncheckable
 - Exposing identifiable information about ethnographic informants
 - Submitting elsewhere while under AJS review (violates the Press's ethical standards)
+- Treating transparency as one fixed deposit rather than a tradition-appropriate evidentiary trail
 
 ## Output format
 

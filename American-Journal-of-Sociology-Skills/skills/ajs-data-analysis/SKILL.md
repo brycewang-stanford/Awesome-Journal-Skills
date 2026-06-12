@@ -42,6 +42,21 @@ AJS often rewards **convergent evidence** — a mechanism shown through more tha
 (e.g., statistics + cases, or interviews + administrative data). When methods disagree, say so and
 theorize the discrepancy rather than hiding it.
 
+## Referee-pushback patterns on the evidence chain (AJS fixes)
+
+At a theory-forward generalist journal the analysis is judged by whether it makes the *claim* credible, not by technical novelty:
+
+| Referee writes… | The AJS-specific fix |
+|-----------------|--------------------|
+| "Robustness theater." | run the one check the mechanism hinges on; drop filler |
+| "Mechanism under-theorized." | map each estimate to an implication from `ajs-theory-building` |
+| "Causal language the design can't bear." | restate as descriptive/associational and theorize it |
+| "Methods disagree, unexplained." | theorize the discrepancy, don't suppress a window |
+
+## Calibration (AJS appetite, hedged)
+
+Orienting heuristics; confirm against the journal's current submission guidelines. AJS rewards convergent evidence and candor over a dense methods display, judging each tradition by its own standard; where a parsimony-first sibling prizes one clean estimate, AJS often prizes a mechanism shown through more than one window. Illustrative: a paper claims a mentoring program narrows a promotion gap "by building cross-rank ties" (an illustrative 6-point reduction, 95% CI ~2–10). A referee writes "the mechanism is asserted, not shown." The fix maps it to an observable implication (mentees gain cross-rank ties), triangulates with an illustrative 24 interviews, reports two units where the gap did *not* close, and softens causal phrasing to "consistent with."
+
 ## Anti-patterns
 
 - Stars-only reporting; implying causation from association
@@ -49,6 +64,7 @@ theorize the discrepancy rather than hiding it.
 - Cherry-picked quotes or cases that ignore negative evidence
 - Presenting exploratory results as if confirmatory
 - Technique foregrounded over the theoretical question it serves
+- A single-window analysis where triangulation was feasible and would have settled the mechanism
 
 
 ## Evidence pass for American Journal of Sociology
