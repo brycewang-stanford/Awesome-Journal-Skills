@@ -52,12 +52,28 @@ JBV's bar is advancing theory about the entrepreneurial phenomenon. If a reviewe
 - [ ] Disagreements supported by evidence; concessions made where due
 - [ ] Cover note summarizes major changes for the field editor
 
-## Anti-patterns
+## Recurring R&R objections and the response that lands
 
-- **Response before revision** — promising edits not yet in the paper.
-- **Vocabulary fix** for an "entrepreneurship is incidental" critique instead of a real mechanism fix.
-- **Defensiveness** — arguing rather than addressing a fair identification concern.
-- **Treating all comments as equal weight**, ignoring the field editor's priorities.
+| Objection in the letter                                   | A response that satisfies a JBV field editor                                        |
+|-----------------------------------------------------------|-------------------------------------------------------------------------------------|
+| "Entrepreneurship feels incidental here."                 | Add an analysis turning on a venture primitive (moderation by uncertainty/novelty) and rewrite the contribution around it — not just startup vocabulary.|
+| "Founder choices are endogenous."                         | Add a selection model or design check, report how the estimate moves, concede if it attenuates while explaining residual meaning.|
+| "Survivor sample undercuts the antecedent claim."         | Re-estimate on a failed-inclusive frame or report bounds; state what survivor-only over- or under-stated.|
+| "Reviewers disagree with each other."                     | Adjudicate in the cover note: which path you took, why it serves the contribution, and the road not taken.|
+
+## Worked micro-example: one response entry (illustrative)
+
+A reviewer writes: *"Team prior-experience on funding is just human capital — nothing entrepreneurial."*
+
+- **Revise first**: add a moderation showing the effect is *amplified under high environmental uncertainty* — the regime where entrepreneurial judgment, not generic human capital, should dominate. (Illustrative) interaction = 0.21, p < .05.
+- **Then write**: reproduce the comment verbatim, then "We agree the main effect alone is consistent with a human-capital reading. We now show (Table 4, p. 27) the effect more than doubles under high uncertainty, which a human-capital account does not predict but an entrepreneurial-judgment account does."
+- **Concede where due**: the low-uncertainty estimate is small and non-significant, so bound the claim to uncertain regimes — a concession that builds credibility with a developmental editor.
+
+## Calibration anchors (hedged)
+
+- A JBV revision is judged on whether the **entrepreneurship contribution got sharper**, not the count of comments dispatched. Lead the cover note with that movement.
+- The developmental culture rewards candor: a reasoned partial pushback with evidence beats over-claiming a fix.
+- Resubmission mechanics (file types, where the response attaches) can change between rounds; **confirm against the journal's current author guidelines**.
 
 ## Output format
 

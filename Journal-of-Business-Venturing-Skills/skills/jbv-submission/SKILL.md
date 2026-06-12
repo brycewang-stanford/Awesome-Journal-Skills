@@ -65,6 +65,32 @@ Review is **double-anonymized**, so prepare an anonymized manuscript:
 - **No data availability statement.**
 - **Abstract over 250 words.**
 
+## Submission-stage failure modes and the fix
+
+| Failure caught at upload                                  | The fix before resubmitting                                                         |
+|-----------------------------------------------------------|-------------------------------------------------------------------------------------|
+| Self-citations in first person ("in our earlier study").  | Convert to third person; check no in-press personal item de-anonymizes the list.    |
+| Proprietary VC/founder data, no statement.                | Write a data availability statement explaining the restriction and what *can* be shared.|
+| Generative-AI used but undisclosed.                       | Add the AI disclosure (tool and scope); separate from the competing-interest line.  |
+| Abstract over 250 words, method-heavy.                    | Cut to ≤250 and lead with the entrepreneurial phenomenon and contribution.          |
+| Funding/thanks named in the anonymized file.              | Move all acknowledgements to metadata or a held-out title page.                     |
+
+## Worked micro-example: a one-pass preflight (illustrative)
+
+A founder-team study of accelerator effects is ready to upload. The preflight catches, in order:
+
+- Abstract is 268 words → trimmed to 240, reordered so the opportunity-team mechanism leads (illustrative).
+- Self-citations read "we previously showed" → rewritten in third person; an in-press item cited as "Author, in press."
+- Data are part Crunchbase (licensed), part hand-coded survey → statement notes the licensed portion cannot be redistributed; the coded instrument is available on request.
+- Competing-interest line present, AI line missing → AI disclosure added ("language editing only," illustrative).
+- "Your Paper Your Way" single file assembled, references complete though not yet in journal style → acceptable at first submission; reformatting deferred to revision.
+
+## Calibration anchors (hedged)
+
+- The declarations editors most often bounce a paper for are the **generative-AI disclosure** and the **data availability statement** — prepare both even when the answer is "none."
+- "Your Paper Your Way" lowers first-submission formatting burden but does **not** relax anonymization or declarations; treat both as hard gates.
+- Fee figures (the open-access APC), contacts, and portal URLs change; treat them as **approximate / confirm against the journal's current author guidelines**.
+
 ## Output format
 
 ```

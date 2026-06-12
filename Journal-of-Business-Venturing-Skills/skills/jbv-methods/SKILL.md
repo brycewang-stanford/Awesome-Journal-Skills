@@ -46,6 +46,30 @@ The Editorial Manager workflow lets you attach a **MethodsX** article (detailed 
 - [ ] Qual studies: trustworthiness plan (data structure, audit trail, quotations)
 - [ ] Considered MethodsX / Data in Brief co-submission for protocols/data
 
+## Design referee-pushback patterns and the JBV-specific fix
+
+| Pushback at the design stage                              | JBV-specific fix                                                                    |
+|-----------------------------------------------------------|-------------------------------------------------------------------------------------|
+| "Cross-sectional, yet you theorize a venturing *process*."| Re-design with staged measurement or a pre/post shock; a single wave cannot carry a process claim.|
+| "The construct is general-management ability relabeled."  | Anchor the manipulation/measure to a venture primitive and show discriminant validity from it.|
+| "Your sample is whoever survived to be observed."         | Push the frame upstream to nascent/registry data capturing pre-founding and failed ventures.|
+| "A novel hand-coded dataset — why trust the frame?"       | Document construction, inter-coder reliability, and coverage; consider a MethodsX/Data in Brief co-submission.|
+
+## Worked micro-example (illustrative)
+
+A hypothetical JBV study claims *perceived environmental uncertainty* causes founders to evaluate ambiguous opportunities more favorably. Design reasoning:
+
+- **Why an experiment**: the claim is causal and about entrepreneurial *judgment*, so a vignette experiment (240 founders, illustrative) manipulates uncertainty while holding the opportunity fixed — isolating the targeted cognition.
+- **Construct guard**: the vignette describes a *new-venture* opportunity under Knightian uncertainty, not a generic managerial decision, so a referee cannot recast it as ordinary risk-taking.
+- **Triangulation**: pair it with an archival panel where a plausibly exogenous uncertainty shock shifts real founding/financing — answering "lab artificiality" by design.
+- **Temporal precedence**: in the archival arm, measure uncertainty *before* the founding outcome so the antecedent claim is ordered in time.
+
+## Calibration anchors (hedged)
+
+- JBV is method-pluralist: a deep inductive study and a clean field experiment clear the *same* bar if both advance entrepreneurship theory. The dividing line is **theory payoff**, not method prestige.
+- The desk-reject-adjacent failure is the **survivor-only, single-wave, generic-construct** combination; design against all three up front.
+- Artifact options (MethodsX, Data in Brief) can change; **confirm against the journal's current author guidelines**.
+
 ## Anti-patterns
 
 - **Method-led, theory-light** — a clean identification with no entrepreneurship-theory payoff.

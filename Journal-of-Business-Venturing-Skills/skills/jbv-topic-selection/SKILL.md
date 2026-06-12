@@ -43,6 +43,34 @@ JBV publishes research on the **entrepreneurial phenomenon in its myriad of form
 - [ ] Plausible field-editor domain identified for routing
 - [ ] Decision made: hypothesis-testing vs. narrative/interpretive theorizing
 
+## Fit triage and venue routing
+
+When the centrality gate is borderline, use this table to decide whether JBV is the home or a sibling owns the question.
+
+| Signal in the idea                                        | Verdict and routing                                                                 |
+|-----------------------------------------------------------|-------------------------------------------------------------------------------------|
+| *Creating* a venture/opportunity under uncertainty.       | Strong JBV fit; build the mechanism in `jbv-theory-development`.                     |
+| Strategy/competitive advantage of an established firm.    | Likely Strategic Management Journal — entrepreneurship is incidental.                |
+| Broad entrepreneurship theory or pedagogy/identity.       | Possibly Entrepreneurship Theory and Practice; check whether JBV's micro/process emphasis fits.|
+| Strategy-meets-entrepreneurship (advantage from newness). | Consider Strategic Entrepreneurship Journal; JBV fits if venture *emergence* is the heart.|
+| Reads identically for any organization.                   | Off-fit; reframe around the venture primitive or route to a general-management outlet.|
+
+## Worked micro-example: a fit decision (illustrative)
+
+An author has Crunchbase data on AI startups and a finding that "advisory-board prestige predicts Series A." Triage:
+
+- **Centrality test**: as stated, a signaling/legitimacy effect that could describe any firm raising capital — fails the gate.
+- **The fix that earns fit**: reframe to the *nascent* stage — does advisory prestige substitute for the missing track record that defines the **liability of newness**, vanishing once a venture has its own operating history? Newness becomes the mechanism.
+- **Lens**: sociology (legitimacy/endorsement) primary, economics (signaling under asymmetry) secondary — a multidisciplinary framing fitting JBV.
+- **Stage/unit**: pre-Series-A nascent ventures, founder-and-venture level.
+- **Verdict**: fit *after* reframing; the raw "prestige → funding" version is a borderline-to-off-fit desk-reject risk.
+
+## Calibration anchors (hedged)
+
+- The highest-leverage screen is the **centrality gate**: if the contribution survives deleting the word "startup," it is probably not yet a JBV paper.
+- JBV's identity leans toward **micro-foundations and the process of emergence** — opportunity, cognition, founding, early financing — differentiating it from strategy-interface entrepreneurship venues.
+- Scope and welcomed disciplines evolve; treat any precise scope statement as guidance and **confirm against the journal's current aims-and-scope**.
+
 ## Anti-patterns
 
 - **Entrepreneurship as window dressing** — a generic org/strategy study run on a startup sample.
