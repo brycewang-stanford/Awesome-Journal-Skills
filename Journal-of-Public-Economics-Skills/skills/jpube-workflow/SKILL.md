@@ -50,6 +50,30 @@ Default assumption: unless the user says otherwise, treat the target as JPubE �
 
 > `jpube-writing-style` is a late-stage polish. Do not rewrite the intro before identification is settled.
 
+## Stage-gate diagnostic
+
+Each gate must hold before the next skill earns its turn. If a gate fails, route back rather than forward.
+
+| Gate | Holds when | If it fails, route to |
+|------|------------|------------------------|
+| Fit | A government-role question with a welfare/policy stake | `jpube-topic-selection` |
+| Contribution | One sentence ties an estimate to a policy lever | `jpube-contribution-framing` |
+| Position | Two or three frontier papers and your delta named | `jpube-literature-positioning` |
+| Identification | A policy-induced discontinuity, not OLS + controls | `jpube-identification-strategy` |
+| Welfare mapping | Estimate converted to DWL / MVPF / sufficient stat | `jpube-data-analysis` |
+| Form | 250-word abstract, author-date, editable source | `jpube-writing-style` / `jpube-submission` |
+
+## Worked routing vignette (illustrative)
+
+A user arrives with a clean event-study **DID = −0.06** on a benefit-reform take-up margin (illustrative) and asks "is it ready to submit?" The router does not jump to `jpube-submission`. It checks gates: identification holds (clean pre-trends), but the welfare-mapping gate fails — the −0.06 is never converted to a fiscal-externality or MVPF term. So the route is back to `jpube-data-analysis` (build the MVPF), then `jpube-contribution-framing` (state the policy payoff), and only then forward to writing and submission. The router's job is to catch the missing welfare step before the desk screen does.
+
+```
+【Current stage】topic / framing / position / identification / analysis / exhibits / writing / data / review / submit / rebuttal
+【Failing gate】[name the first gate that does not hold]
+【Route to】jpube-<skill>
+【Blocked-on】welfare mapping / identification / fee / abstract / appeal-decision
+```
+
 ## Anti-patterns
 
 - **Do not** skip framing and jump to identification — JPubE referees judge the public-finance contribution first

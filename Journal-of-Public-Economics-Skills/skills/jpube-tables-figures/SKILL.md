@@ -42,6 +42,21 @@ JPubE's identification often *is* a picture — a spike of excess mass at a tax 
 - A 10-column main table where the key elasticity is one buried row
 
 
+## Lead-figure choice by design (decision grid)
+
+The headline exhibit should let a referee see the response before any regression.
+
+| Design | Lead figure | Must show |
+|--------|-------------|-----------|
+| Bunching / notch | Observed vs. smooth counterfactual density | Excluded region marked, excess mass |
+| RD / RKD | Binned scatter with fitted jump/kink | CIs, bandwidth, polynomial order |
+| Reform DID | Event-study plot | Leads/lags, zero line, pre-trend flat |
+| Incidence | Distributional bars by income/eligibility | Who bears the tax / gains the transfer |
+
+A vignette: a draft hides a kink-bunching result (elasticity **e = 0.25**, illustrative) inside a six-column regression table. The exhibit fix promotes the density plot — observed mass spiking above the smooth counterfactual at the kink, excluded region shaded — to Figure 1, and demotes the regression to a quantifying table. The referee now sees the identification, then reads the number.
+
+Hedge: exact figure-count or color conventions are production matters — confirm against the current Elsevier artwork guidelines rather than assuming a fixed limit.
+
 ## Exhibit pass for Journal of Public Economics
 
 Treat this skill as an executable review pass, not a prose hint. First lock the policy instrument, affected margin, identification design, and welfare or incidence interpretation; then judge whether the current manuscript answers the venue's real reader: public economists who ask whether policy design, fiscal incidence, or welfare interpretation is credible.

@@ -43,6 +43,27 @@ JPubE judges a paper by what it adds to our understanding of the **economic role
 - Burying the contribution under a literature recap (that is positioning, not framing)
 - Framing a public-finance paper as if novelty of data alone were the contribution
 
+## What the JPubE referee weighs (decision table)
+
+A public-finance referee scores a framing on whether the estimated object earns a normative reading.
+
+| Framing as written | Referee reads it as | Upgrade move |
+|--------------------|---------------------|--------------|
+| "Significant effect of the reform on earnings" | A reduced-form fact | Name the sufficient statistic the earnings response identifies |
+| "Elasticity of taxable income is 0.3" | A parameter, but for what? | Feed it into a Saez optimal-top-rate or DWL statement |
+| "Take-up rose by 8 points" | Descriptive program fact | Convert to an MVPF numerator/denominator term |
+
+Desk-reject framing tells: a coefficient with no policy lever; a welfare claim asserted, not derived; a government-role angle bolted onto a labor/IO core.
+
+## Worked vignette: a bunching paper that almost mis-framed itself (illustrative)
+
+A draft estimates bunching at a progressive-schedule kink, with excess mass implying a taxable-income elasticity of **e = 0.25** (illustrative). The abstract said only "we find significant bunching" — a fact, not a contribution. The fix runs this skill's rules: state the parameter and its use ("e = 0.25 is the sufficient statistic for the marginal deadweight loss of raising the kink rate"); name the counterfactual (a 5-point bracket-rate increase); quantify stakes (marginal DWL scales with e·t/(1−t), so the same revenue carries a higher efficiency cost than a t-only reader expects — magnitudes illustrative). Contribution sentence: "We recover the taxable-income elasticity at a salient kink and map it to the deadweight cost of the bracket reform it disciplines."
+
+## Calibration anchors
+
+- The discriminating test: a JPubE contribution answers "what should government do, or what does this cost society?", not "did the policy move behavior?"
+- Hedge: the weight current handling editors place on theory-vs.-evidence framings is not a published rule — confirm against the journal's current author guidelines.
+
 ## Output format
 
 ```

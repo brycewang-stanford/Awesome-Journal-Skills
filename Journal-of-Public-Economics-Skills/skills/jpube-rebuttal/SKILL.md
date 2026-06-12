@@ -52,6 +52,21 @@ Elsevier's Appeal Policy allows **one appeal per submission**. If a paper is rej
 - Burning the single appeal on a taste disagreement
 - A defensive tone — recall the specialist reviewers know who you are
 
+## Referee pushback → venue-specific fix
+
+The recurring public-finance objections and the move that resolves each. Do the analysis; do not argue.
+
+| Referee says | Underlying worry | Fix this round |
+|--------------|------------------|----------------|
+| "Reduced-form effect, no welfare reading" | The estimate is not yet a contribution | Add the MVPF / sufficient-statistic mapping with propagated SEs |
+| "Bunching identification leans on functional form" | Counterfactual chosen to inflate excess mass | Re-fit with alternative polynomial/excluded region; report sensitivity |
+| "Policy endogeneity — the reform isn't exogenous" | Treatment timing correlates with shocks | Event-study pre-trends; placebo dates; modern staggered estimator |
+| "Local elasticity sold as global" | External validity overstated | Restate scope; add a transportability discussion |
+
+## Worked vignette: turning a fundamental into a settled point (illustrative)
+
+A revision letter underscores one referee's charge that a kink-bunching elasticity (**e = 0.25**, illustrative) "rests on the chosen counterfactual." Rather than debating, the author re-estimates under three excluded-region widths and two polynomial orders; the elasticity moves within **0.22–0.28** (illustrative), and a new appendix figure shows the band. The point-by-point response quotes the comment, states the new robustness table location (App. Table A4), and notes the welfare conclusion is unchanged. A fundamental becomes a settled, cited fix — exactly what the editor's binding-points list rewards.
+
 ## Output format
 
 ```

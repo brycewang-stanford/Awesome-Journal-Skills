@@ -43,6 +43,17 @@ Public economics at JPubE is typically built on **large administrative or regist
 - Subgroup splits with no multiple-testing discipline presented as "heterogeneity"
 
 
+## Worked example: from elasticity to a welfare number (illustrative)
+
+A DI-reform evaluation recovers a labor-supply response to a benefit cut, then builds the MVPF: the mechanical fiscal saving is the denominator; the behavioral fiscal externality (induced earnings → recovered taxes, minus crowd-out) adjusts the numerator, giving **MVPF ≈ 0.8** (illustrative). The skill's norms then bind: state the primitives held fixed (no GE wage response, fixed program rules); propagate the elasticity's SE through the MVPF by the delta method, reporting a CI on the welfare object; and show how MVPF moves if the key elasticity sits at the high or low end of the literature. The welfare statistic with its uncertainty — not the bare elasticity — is the deliverable.
+
+## Calibration table: estimate → welfare object
+
+| Estimated object | Welfare mapping | Watch for |
+|------------------|-----------------|-----------|
+| Taxable-income elasticity | Marginal DWL / optimal top rate | Mean reversion, income shifting |
+| Take-up / benefit response | MVPF numerator + denominator | Crowd-out onto other programs |
+
 ## Evidence pass for Journal of Public Economics
 
 Treat this skill as an executable review pass, not a prose hint. First lock the policy instrument, affected margin, identification design, and welfare or incidence interpretation; then judge whether the current manuscript answers the venue's real reader: public economists who ask whether policy design, fiscal incidence, or welfare interpretation is credible.

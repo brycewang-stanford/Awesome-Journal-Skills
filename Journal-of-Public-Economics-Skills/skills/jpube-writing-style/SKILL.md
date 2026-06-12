@@ -1,6 +1,6 @@
 ---
 name: jpube-writing-style
-description: Use to polish prose for a Journal of Public Economics (JPubE) manuscript — a 250-word abstract stating purpose, results, and policy conclusion; an intro that lands the government-role question; author-date references; and clear translation of estimates into welfare terms. Late-stage polish; it does not change the analysis.
+description: Use when polishing prose for a Journal of Public Economics (JPubE / JPubEc) manuscript — a 250-word abstract stating purpose, results, and policy conclusion; an intro that lands the government-role question; author-date references; and clear translation of estimates into welfare terms. Late-stage polish; it does not change the analysis.
 ---
 
 # Writing Style (jpube-writing-style)

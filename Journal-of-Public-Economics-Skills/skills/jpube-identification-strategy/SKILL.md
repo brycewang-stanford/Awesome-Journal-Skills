@@ -62,6 +62,21 @@ JPubE's comparative advantage is the **policy-induced discontinuity** — a tax 
 - IV that is "policy shock × lagged endogenous variable" with no exclusion argument
 - An elasticity identified locally but sold as a global structural parameter
 
+## Design-credibility pushback (and the pre-emptive fix)
+
+Address these in the manuscript before a specialist referee raises them.
+
+| Likely objection | Design weak spot | Pre-empt with |
+|------------------|------------------|---------------|
+| "Bunching leans on functional form" | Counterfactual density fit | Multiple excluded regions + polynomial orders; show stability |
+| "Manipulation at the cutoff" | RD assignment | McCrary / Cattaneo–Jansson–Ma density test + covariate smoothness |
+| "Reform timing is endogenous" | DID exogeneity | Clean pre-trends, placebo dates, institutional narrative |
+| "Weak / invalid instrument" | IV exclusion | First-stage F, Anderson–Rubin CI, falsification |
+
+## Worked example: a kink-bunching elasticity, stress-tested (illustrative)
+
+Suppose excess mass at a tax kink yields a taxable-income elasticity of **e = 0.25** (illustrative). The skill's bar asks three things before any table: (1) is the counterfactual a smooth density fit away from the kink, with round-number bunching handled? (2) does the estimate survive bin-width and excluded-region variation — here it stays within **0.21–0.29** (illustrative)? (3) does e map to the welfare object the paper claims — the marginal DWL of the kink rate? Only when all three hold is the design ready for `jpube-data-analysis`. If the elasticity swung from 0.1 to 0.5 across reasonable excluded regions, the identification is not yet credible, regardless of the headline.
+
 ## Output format
 
 ```

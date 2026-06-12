@@ -1,6 +1,6 @@
 ---
 name: jpube-review-process
-description: Use to understand and plan around the Journal of Public Economics (JPubE) editorial process — single anonymized review with a minimum of two reviewers, the Editorial Manager workflow, the Friedman–Kopczuk editorial leadership, SSRN preprint option, and the one-appeal policy. Explains the process; for the final file check use jpube-submission.
+description: Use when you need to understand or plan around the Journal of Public Economics (JPubE / JPubEc) editorial process — single anonymized review with a minimum of two reviewers, the Editorial Manager workflow, the Friedman–Kopczuk editorial leadership, SSRN preprint option, and the one-appeal policy. Explains the process; for the final file check use jpube-submission.
 ---
 
 # Review Process (jpube-review-process)
@@ -46,6 +46,27 @@ description: Use to understand and plan around the Journal of Public Economics (
 - Treating the SSRN option as if it improved acceptance odds
 - Burning the single appeal on a taste disagreement instead of a factual/procedural error
 - Ignoring AI disclosure requirements during submission
+
+## Decision pathways after submit
+
+What lands in your inbox, and what each outcome implies for a public-finance paper.
+
+| Outcome | What it means | Your move |
+|---------|---------------|-----------|
+| Desk reject | Editor judged fit/contribution below bar before review | Re-route (jpube-topic-selection) or strengthen welfare framing |
+| Reject after review | Specialists found a design or welfare gap | Appeal only on a clear error; else resubmit elsewhere |
+| Major revision | Contribution viable; identification/welfare needs work | Route fundamentals to identification/data skills, then rebuttal |
+| Minor revision | Close; clarifications and exhibits | Tighten, document, return promptly |
+| Accept | — | Confirm data-availability and final source files |
+
+## Worked vignette: deciding whether to appeal (illustrative)
+
+A bunching paper is rejected; two specialist reports agree the excess-mass counterfactual is the weak point, while one aside claims "the elasticity (**e = 0.4**, illustrative) is implausibly high." The author wants to appeal the second remark. The review-process read: the binding objection is the counterfactual, which is a substantive design judgment, not a factual or procedural error — so it is **not** appeal-eligible. The single appeal is reserved; the better path is to rebuild the counterfactual and resubmit (or send elsewhere), not to spend the one-shot appeal contesting taste.
+
+## Calibration anchors
+
+- Plan for named, specialist referees who see your identity: pre-empt the obvious public-finance objection (counterfactual, pre-trends, sufficient-statistic assumption) in the manuscript itself.
+- Hedge: turnaround times, the current editorial board, and whether desk-reject rates have shifted are not stable published figures — confirm the present process on the official journal page rather than assuming fixed timelines.
 
 ## Output format
 

@@ -46,6 +46,20 @@ Locate your contribution as a precise delta on this frontier: a better-identifie
 - "First paper to study X in country Y" as the entire contribution
 
 
+## Strand-claim grid (worked, illustrative)
+
+Locate the delta as a precise sentence against the strand's canonical anchor.
+
+| Strand | Frontier anchor | Your delta (illustrative) |
+|--------|-----------------|----------------------------|
+| Taxable-income elasticity | Saez–Slemrod–Giertz synthesis | "Prior ETI uses bracket variation; we identify e off a salient kink, halving the bias from mean reversion" |
+| Optimal taxation | Diamond–Saez sufficient statistics | "We estimate the migration elasticity that disciplines the top-rate formula, not just the labor margin" |
+| Social insurance | Baily–Chetty optimal-UI | "We separate insurance value from moral hazard at the benefit cliff, tightening the optimal-replacement bound" |
+
+A vignette: a draft on a benefit reform recovers a moral-hazard elasticity but positions against general labor economics. The fix re-anchors it on Baily–Chetty and states the delta as a sharper input to the optimal-UI trade-off — the same evidence, now a frontier advance rather than a topical first.
+
+Hedge: which strand "owns" a hybrid question (e.g. tax-and-transfer interactions) is a judgment call — confirm against recent JPubE issues.
+
 ## Positioning pass for Journal of Public Economics
 
 Treat this skill as an executable review pass, not a prose hint. First lock the policy instrument, affected margin, identification design, and welfare or incidence interpretation; then judge whether the current manuscript answers the venue's real reader: public economists who ask whether policy design, fiscal incidence, or welfare interpretation is credible.

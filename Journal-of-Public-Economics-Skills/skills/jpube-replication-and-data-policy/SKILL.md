@@ -45,6 +45,26 @@ Public-economics referees frequently ask to see the elasticity/bunching/RD pipel
 - Sharing restricted-data outputs without documented disclosure clearance
 - A package with no master script, unpinned versions, or unreported seeds
 
+## Data-availability routing by source (decision grid)
+
+Public-finance papers lean on restricted microdata more than most fields, so the availability statement is rarely "open repository." Route by what you actually used.
+
+| Data source | Availability statement says | What you still ship |
+|-------------|------------------------------|----------------------|
+| Public tax/SOI tabulations, survey extracts | Link repository (Mendeley/openICPSR/Zenodo) | Data + all code |
+| IRS/SSA/CMS enclave microdata | Access path + agency + why microdata cannot leave | All cleaning + estimation code |
+| European whole-population registers | Application route, custodian, approval ID | Code + non-disclosive aggregates |
+| Mixed (public + restricted) | Split the statement by component | Repository for the open part, access note otherwise |
+
+## Worked vignette: a register-DID package referees can trust (illustrative)
+
+A social-insurance reform evaluated on a national register cannot share person-level rows. The package still makes the DID pipeline auditable: `run_all` regenerates every exhibit from cleared aggregates; the README maps Table 3 (the moral-hazard wedge) and Figure 2 (the event study) to their scripts; `renv.lock` pins versions; the bootstrap seed is fixed so the SEs on the **MVPF = 1.4** statistic (illustrative) replicate. The availability statement names the custodian, the approval ID, and the cell-suppression rule (min count 10), so a referee sees the workflow without touching protected microdata.
+
+## Calibration anchors
+
+- The reproducibility bar a JPubE referee imagines: could a second analyst, given the enclave access, rebuild every elasticity/MVPF/bunching number? Code completeness — not data shipment — is what you control.
+- Hedge: whether JPubE runs a named-data-editor verification step (AEA-style) is **待核实**; do not promise or assume one — confirm the current Elsevier/JPubE requirement on the official Guide for Authors before relying on it.
+
 ## Output format
 
 ```

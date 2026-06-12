@@ -58,6 +58,26 @@ description: Use when running the final pre-submission preflight for the Journal
 - Numbered/footnote references instead of author-date
 - Undeclared AI assistance; planning to "appeal twice" (only one appeal is considered)
 
+## Desk-reject screen: what trips the first read
+
+Before referees, a handling editor scans for fit and form. These are the avoidable stumbles that send a public-finance manuscript back without review.
+
+| Trip wire | Why it bites at JPubE | Fix before submit |
+|-----------|------------------------|-------------------|
+| No welfare/policy payoff | Reads as a labor/IO paper with a tax control | Land the MVPF / sufficient-statistic / DWL claim in the abstract |
+| Abstract > 250 words | Violates the stated cap | Cut to a number-bearing 250 |
+| Flattened PDF only | No editable source for production | Ship Word single-column or LaTeX `.tex` |
+| Fee unbudgeted | Stalls at the Editorial Manager payment step | Confirm US$165 / student code / transfer waiver |
+
+## Worked vignette: a bunching paper at the payment screen (illustrative)
+
+An author finishes a taxable-income-elasticity paper (headline **e = 0.3**, illustrative) and opens Editorial Manager the night before a deadline. The preflight catches three things: the abstract is 268 words and never states the DWL implication (trimmed to 248 with the welfare line added); the manuscript is a compiled PDF (editable `.tex` and figures gathered); and the US$165 fee is a fresh submission, not a transfer (payment arranged, not discovered at the final step). None is about the economics — all three are stall risks the screen removes.
+
+## Calibration anchors
+
+- The fee, abstract cap, single-anonymized model, and author-date style are operational tells of JPubE specifically — treat them as binding form checks.
+- Hedge: fee amounts, the student-discount route, and the transfer waiver are volatile — re-confirm on the official Guide for Authors before quoting them.
+
 ## Output format
 
 ```
