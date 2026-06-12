@@ -40,6 +40,14 @@ Because ambiguous-fit papers are discussed across the editorial team and many ar
 - Burying the contribution sentence so the editor has to guess the Department and the payoff.
 
 
+## Department-fit worked call (illustrative)
+
+A draft estimates how algorithmic work-assignment on a gig platform changes courier retention, using a platform policy change for identification.
+
+- **Weak framing:** "We study gig platforms and retention." No Department, no decision, no insight that travels.
+- **Management Science framing:** "Exposing couriers to algorithmic reassignment raises 90-day attrition by ~6 percentage points (illustrative); the mechanism is perceived loss of control, and the lever is how much schedule autonomy the platform concedes." This names a decision (autonomy in algorithmic management), a mechanism that travels beyond couriers, and a clear home — a Behavioral Economics/Operations or Information Systems Department, not a pure-methods venue.
+- **Routing test:** if the contribution is really the estimator, re-route to Operations Research; if it is the platform-design tradeoff, Management Science owns it.
+
 ## Contribution pass for Management Science
 
 Run this as a concrete capability pass. First lock the decision problem, formal or empirical engine, managerial lever, and generality claim; then test whether the manuscript addresses OR/MS reviewers who expect a generalizable decision model, credible empirical leverage, or algorithmic insight with managerial consequence.

@@ -43,6 +43,17 @@ Management Science wants the **managerial-science** angle: rigor in service of a
 - Picking Management Science only for prestige when a sister INFORMS journal is the natural home.
 
 
+## Borderline routing calls (illustrative)
+
+| Project | Natural home | Why |
+|---|---|---|
+| New column-generation scheme for crew scheduling, runtime gains only | Operations Research | Method-first; managerial lever is thin |
+| Field experiment on how delivery-time promises shift cart abandonment | Marketing Science | A marketing-mix decision owns it |
+| Analytical model of how a platform sets commission to balance two sides | Management Science (Business Strategy/OM) | Cross-department decision model with managerial payoff |
+| Inventory heuristic tested only in simulation, no decision insight | Re-scope or Operations Research | No empirical leverage and no managerial consequence |
+
+The Management Science call is rarely "is it good?" — it is "does a generalizable decision insight travel across at least one Department boundary?" If the answer is no, a sister INFORMS journal usually owns the contribution more directly, and targeting Management Science only for prestige invites a desk reject.
+
 ## Fit pass for Management Science
 
 Run this as a concrete capability pass. First lock the decision problem, formal or empirical engine, managerial lever, and generality claim; then test whether the manuscript addresses OR/MS reviewers who expect a generalizable decision model, credible empirical leverage, or algorithmic insight with managerial consequence.

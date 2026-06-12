@@ -48,6 +48,19 @@ Management Science enforces a **Data and Code Disclosure Policy** (articles subm
 - A replication package that does not actually regenerate the reported numbers.
 
 
+## Two-lane evidence bar at Management Science
+
+The journal runs analytical and empirical work through different reviewer pools, and the evidence bar differs by lane:
+
+| Element | Analytical lane | Empirical lane |
+|---|---|---|
+| Core claim | Theorem/proposition with a complete, checkable proof | Causal estimate with credible identification |
+| Inference | Comparative statics with signed intuition | Standard errors clustered at the design level |
+| Robustness | Relax key assumptions; show what breaks | Alternative specs, subsamples, placebo where available |
+| Reproducibility | Self-contained proofs in the appendix | Master script + README that regenerates every reported number |
+
+A frequent desk-to-reviewer failure is mixing lanes: an empirical paper that leans on an un-validated structural assumption, or an analytical paper whose "numerical illustration" silently does the real work. Name the lane, then clear that lane's bar before any prose or submission recommendation.
+
 ## Evidence pass for Management Science
 
 Run this as a concrete capability pass. First lock the decision problem, formal or empirical engine, managerial lever, and generality claim; then test whether the manuscript addresses OR/MS reviewers who expect a generalizable decision model, credible empirical leverage, or algorithmic insight with managerial consequence.
