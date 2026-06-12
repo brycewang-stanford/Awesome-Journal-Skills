@@ -1,6 +1,6 @@
 ---
 name: er-style
-description: Use when polishing the language and rhetoric of an 《经济研究》 manuscript — eliminating empty-significance phrases, fixing vague policy talk, replacing method-flexing with mechanism, and aligning tense / person / hedging with CSSCI house style.
+description: Use when polishing the language and rhetoric of an 《经济研究》 manuscript — eliminating empty-significance phrases, fixing vague policy talk, replacing method-flexing with mechanism, and aligning tense / person / hedging with CSSCI house style. 本技能服务于《经济研究》(Economic Research Journal, ERJ)。
 ---
 
 # 语言风格（er-style）

@@ -1,6 +1,6 @@
 ---
 name: cpa-policy-implication
-description: Use when drafting or strengthening the policy-implications section of a 《中国行政管理》 manuscript. Frames implications as actionable for government practice but firmly grounded in the paper's own analysis — not the empty four-verb filler.
+description: Use when drafting or strengthening the policy-implications section of a 《中国行政管理》 manuscript. Frames implications as actionable for government practice but firmly grounded in the paper's own analysis — not the empty four-verb filler. 本技能服务于《中国行政管理》(Chinese Public Administration, CPA)。
 ---
 
 # 政策含义（cpa-policy-implication）

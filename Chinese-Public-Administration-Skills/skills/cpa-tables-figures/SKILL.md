@@ -1,6 +1,6 @@
 ---
 name: cpa-tables-figures
-description: Use when finalizing exhibits for a 《中国行政管理》 manuscript — regression tables, survey measurement tables, qualitative coding tables, and process / mechanism diagrams. Enforces three-line table style, coding-table conventions, and figure discipline.
+description: Use when finalizing exhibits for a 《中国行政管理》 manuscript — regression tables, survey measurement tables, qualitative coding tables, and process / mechanism diagrams. Enforces three-line table style, coding-table conventions, and figure discipline. 本技能服务于《中国行政管理》(Chinese Public Administration, CPA)。
 ---
 
 # 表格与图形（cpa-tables-figures）

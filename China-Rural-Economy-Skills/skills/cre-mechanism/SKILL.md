@@ -1,6 +1,6 @@
 ---
 name: cre-mechanism
-description: Use when designing or writing mechanism analyses for a 《中国农村经济》 empirical manuscript. Mechanism tests grounded in household-level behavior are near-mandatory for empirical submissions.
+description: Use when designing or writing mechanism analyses for a 《中国农村经济》 empirical manuscript. Mechanism tests grounded in household-level behavior are near-mandatory for empirical submissions. 本技能服务于《中国农村经济》(China Rural Economy, CRE)。
 ---
 
 # 机制分析（cre-mechanism）

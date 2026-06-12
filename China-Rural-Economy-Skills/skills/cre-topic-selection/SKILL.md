@@ -1,6 +1,6 @@
 ---
 name: cre-topic-selection
-description: Use when a 《中国农村经济》 manuscript is at the topic-selection stage and the 三农 scope fit, theoretical grounding, marginal-contribution sentences, or venue match are unsettled. Produces the contribution-sentence template and the 三农-fit checklist.
+description: Use when a 《中国农村经济》 manuscript is at the topic-selection stage and the 三农 scope fit, theoretical grounding, marginal-contribution sentences, or venue match are unsettled. Produces the contribution-sentence template and the 三农-fit checklist. 本技能服务于《中国农村经济》(China Rural Economy, CRE)。
 ---
 
 # 中国农村经济选题（cre-topic-selection）

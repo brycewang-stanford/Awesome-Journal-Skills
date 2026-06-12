@@ -1,6 +1,6 @@
 ---
 name: er-abstract
-description: Use when drafting or revising the 中文内容提要 (~300 字, official) or English 梗概/Summary for an 《经济研究》 manuscript. Enforces the five-sentence Chinese pattern, the five-element English Summary, and forbids empty-significance phrases.
+description: Use when drafting or revising the 中文内容提要 (~300 字, official) or English 梗概/Summary for an 《经济研究》 manuscript. Enforces the five-sentence Chinese pattern, the five-element English Summary, and forbids empty-significance phrases. 本技能服务于《经济研究》(Economic Research Journal, ERJ)。
 ---
 
 # 摘要写作（er-abstract）

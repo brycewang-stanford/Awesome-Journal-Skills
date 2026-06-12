@@ -1,6 +1,6 @@
 ---
 name: er-introduction
-description: Use when drafting or revising the 引言 (introduction) of an 《经济研究》 manuscript — when the opening starts from a remote macro backdrop, when contributions read like "丰富了相关研究", or when the introduction fails to spoil the core finding.
+description: Use when drafting or revising the 引言 (introduction) of an 《经济研究》 manuscript — when the opening starts from a remote macro backdrop, when contributions read like "丰富了相关研究", or when the introduction fails to spoil the core finding. 本技能服务于《经济研究》(Economic Research Journal, ERJ)。
 ---
 
 # 引言写作（er-introduction）

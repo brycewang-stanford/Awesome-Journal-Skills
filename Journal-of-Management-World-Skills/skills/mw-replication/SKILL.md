@@ -1,6 +1,6 @@
 ---
 name: mw-replication
-description: Use when assembling the data-and-code replication package required by 《管理世界》 after conditional acceptance, drafting the README in Chinese, or auditing a deposit before editorial-office submission. Implements 《管理世界》"数据可获得性政策" (effective 2023, updated 2025), with explicit handling for CSMAR / Wind / 国泰安 等受限商业数据库 and Chinese government micro-data.
+description: Use when assembling the data-and-code replication package required by 《管理世界》 after conditional acceptance, drafting the README in Chinese, or auditing a deposit before editorial-office submission. Implements 《管理世界》"数据可获得性政策" (effective 2023, updated 2025), with explicit handling for CSMAR / Wind / 国泰安 等受限商业数据库 and Chinese government micro-data. 本技能服务于《管理世界》(Management World, MW)。
 ---
 
 # 复现包构建（mw-replication）

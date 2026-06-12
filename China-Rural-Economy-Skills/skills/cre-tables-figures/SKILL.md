@@ -1,6 +1,6 @@
 ---
 name: cre-tables-figures
-description: Use when finalizing regression tables and figures for a 《中国农村经济》 manuscript. Enforces three-line table style, footnote conventions, column-count discipline, and figure aesthetics.
+description: Use when finalizing regression tables and figures for a 《中国农村经济》 manuscript. Enforces three-line table style, footnote conventions, column-count discipline, and figure aesthetics. 本技能服务于《中国农村经济》(China Rural Economy, CRE)。
 ---
 
 # 表格与图形（cre-tables-figures）

@@ -1,6 +1,6 @@
 ---
 name: cre-literature-review
-description: Use when drafting or revising the literature-review section for a 《中国农村经济》 manuscript, when the Chinese / English reference balance is off, or when canonical 三农 theory references are missing.
+description: Use when drafting or revising the literature-review section for a 《中国农村经济》 manuscript, when the Chinese / English reference balance is off, or when canonical 三农 theory references are missing. 本技能服务于《中国农村经济》(China Rural Economy, CRE)。
 ---
 
 # 中国农村经济文献综述（cre-literature-review）

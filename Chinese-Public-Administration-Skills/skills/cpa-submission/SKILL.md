@@ -1,6 +1,6 @@
 ---
 name: cpa-submission
-description: Use when running the final pre-submission preflight for 《中国行政管理》 — format, anonymity, references, anti-plagiarism, author info, ethics for human-subject / qualitative data, and supplementary files. Points to the online submission system; defers exact numeric limits to the journal's current author guidelines.
+description: Use when running the final pre-submission preflight for 《中国行政管理》 — format, anonymity, references, anti-plagiarism, author info, ethics for human-subject / qualitative data, and supplementary files. Points to the online submission system; defers exact numeric limits to the journal's current author guidelines. 本技能服务于《中国行政管理》(Chinese Public Administration, CPA)。
 ---
 
 # 投稿前 Preflight（cpa-submission）

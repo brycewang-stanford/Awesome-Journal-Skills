@@ -1,6 +1,6 @@
 ---
 name: cre-style
-description: Use when polishing the language and rhetoric of a 《中国农村经济》 manuscript — eliminating empty-significance phrases, fixing the "加强完善推进" policy formula, replacing method-flexing with household mechanism, and aligning tense / person / hedging with CSSCI house style.
+description: Use when polishing the language and rhetoric of a 《中国农村经济》 manuscript — eliminating empty-significance phrases, fixing the "加强完善推进" policy formula, replacing method-flexing with household mechanism, and aligning tense / person / hedging with CSSCI house style. 本技能服务于《中国农村经济》(China Rural Economy, CRE)。
 ---
 
 # 语言风格（cre-style）

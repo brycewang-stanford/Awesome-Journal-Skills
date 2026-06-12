@@ -1,6 +1,6 @@
 ---
 name: er-submission
-description: Use when running the final pre-submission preflight for 《经济研究》 — anonymization, author rules, abstract & keywords, reference style, anti-plagiarism, supplementary files, and the submission portal. Distinguishes officially-verified rules [官] from convention/经验值.
+description: Use when running the final pre-submission preflight for 《经济研究》 — anonymization, author rules, abstract & keywords, reference style, anti-plagiarism, supplementary files, and the submission portal. Distinguishes officially-verified rules [官] from convention/经验值. 本技能服务于《经济研究》(Economic Research Journal, ERJ)。
 ---
 
 # 投稿前 Preflight（er-submission）

@@ -1,6 +1,6 @@
 ---
 name: cpa-rebuttal
-description: Use when responding to reviewer reports for a 《中国行政管理》 revision. Produces the point-by-point response letter and aligned manuscript edits, with special attention to theory-frame and method-fit comments common at PA journals.
+description: Use when responding to reviewer reports for a 《中国行政管理》 revision. Produces the point-by-point response letter and aligned manuscript edits, with special attention to theory-frame and method-fit comments common at PA journals. 本技能服务于《中国行政管理》(Chinese Public Administration, CPA)。
 ---
 
 # 修改回复（cpa-rebuttal）

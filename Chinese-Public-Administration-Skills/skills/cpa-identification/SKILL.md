@@ -1,6 +1,6 @@
 ---
 name: cpa-identification
-description: Use when the research design is the bottleneck for a 《中国行政管理》 manuscript — choosing and stress-testing a quantitative, qualitative, or normative design and matching it to the research question. Stress-tests the design before drafting exhibits; does not write the policy implications.
+description: Use when the research design is the bottleneck for a 《中国行政管理》 manuscript — choosing and stress-testing a quantitative, qualitative, or normative design and matching it to the research question. Stress-tests the design before drafting exhibits; does not write the policy implications. 本技能服务于《中国行政管理》(Chinese Public Administration, CPA)。
 ---
 
 # 研究设计与因果推断（cpa-identification）

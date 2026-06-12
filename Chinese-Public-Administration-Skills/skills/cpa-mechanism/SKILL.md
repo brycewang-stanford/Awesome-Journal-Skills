@@ -1,6 +1,6 @@
 ---
 name: cpa-mechanism
-description: Use when designing or writing the governance / policy-process mechanism analysis for a 《中国行政管理》 manuscript. Identifies how an effect is produced (implementation, attention allocation, central-local, incentives / accountability) via quantitative mediation or qualitative process evidence.
+description: Use when designing or writing the governance / policy-process mechanism analysis for a 《中国行政管理》 manuscript. Identifies how an effect is produced (implementation, attention allocation, central-local, incentives / accountability) via quantitative mediation or qualitative process evidence. 本技能服务于《中国行政管理》(Chinese Public Administration, CPA)。
 ---
 
 # 治理 / 政策过程机制（cpa-mechanism）

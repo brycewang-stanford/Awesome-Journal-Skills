@@ -1,6 +1,6 @@
 ---
 name: cpa-style
-description: Use when polishing the language and rhetoric of a 《中国行政管理》 manuscript — eliminating the four-verb policy filler, anchoring claims in the PA theory frame, replacing narrative-only case writing with evidence-linked argument, and aligning person / hedging with CSSCI house style.
+description: Use when polishing the language and rhetoric of a 《中国行政管理》 manuscript — eliminating the four-verb policy filler, anchoring claims in the PA theory frame, replacing narrative-only case writing with evidence-linked argument, and aligning person / hedging with CSSCI house style. 本技能服务于《中国行政管理》(Chinese Public Administration, CPA)。
 ---
 
 # 语言风格（cpa-style）

@@ -1,6 +1,6 @@
 ---
 name: cre-rebuttal
-description: Use when responding to reviewer reports for a 《中国农村经济》 R&R. Produces the point-by-point response letter and aligned manuscript edits.
+description: Use when responding to reviewer reports for a 《中国农村经济》 R&R. Produces the point-by-point response letter and aligned manuscript edits. 本技能服务于《中国农村经济》(China Rural Economy, CRE)。
 ---
 
 # 修改回复（cre-rebuttal）
