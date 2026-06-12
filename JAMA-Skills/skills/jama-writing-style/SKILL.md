@@ -50,7 +50,7 @@ At the Journal of the American Medical Association, manuscript editors and the A
 Vignette (illustrative): a prospective cohort, N = 12,500 adults, finds a dietary pattern associated with lower incident heart failure; adjusted hazard ratio 0.88 (95% CI, 0.79-0.98) over 8 years.
 
 - Spun draft: "Adopting this diet reduces heart failure and should be recommended for all adults."
-- JAMA-calibrated rewrite: "In this cohort, greater adherence was associated with lower incident heart failure (adjusted HR, 0.88; 95% CI, 0.79-0.98); whether the association is causal requires randomized evaluation."
+- JAMA-calibrated rewrite: "Greater adherence was associated with lower incident heart failure (adjusted HR, 0.88; 95% CI, 0.79-0.98); whether the association is causal requires randomized evaluation."
 
 The rewrite swaps the causal verb for associational language, keeps the estimate with its CI, and bounds the recommendation.
 
@@ -59,7 +59,7 @@ The rewrite swaps the causal verb for associational language, keeps the estimate
 - "Conclusions overstate the data (spin)." Fix: tie the headline to the primary outcome; if null, say so and do not pivot to a secondary.
 - "Clinical bottom line not actionable." Fix: end the Discussion with one restrained sentence on what a clinician should now do, or that practice should not yet change.
 
-Calibration anchors (hedge where uncertain): person-first language, exact-P / no-leading-zero notation, and estimate-plus-CI pairing are durable AMA conventions; reference-formatting and race/ethnicity reporting rules evolve — confirm against the journal's current author guidelines and the latest AMA Manual of Style.
+Calibration anchors (hedge where uncertain): person-first language, exact-P / no-leading-zero notation, and estimate-plus-CI pairing are durable AMA conventions; reference-formatting and race/ethnicity rules evolve — confirm against the journal's current author guidelines and the latest AMA Manual of Style.
 
 ## Checklist
 
