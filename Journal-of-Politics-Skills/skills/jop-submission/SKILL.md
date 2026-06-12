@@ -57,6 +57,36 @@ failure modes dominate: an **over-the-page-budget** manuscript (JOP counts **pag
 - Sending a long paper to the Short Article category
 - Budgeting for a submission fee that is not charged (verify)
 
+## Desk-reject triggers at the upload gate
+
+These are the avoidable failures that bounce a JOP submission before review. The page-budget and
+anonymity screens are mechanical, so clearing them is non-negotiable; the editorial fit screen is handled
+in `jop-review-process`.
+
+| Trigger | Why it bounces | The fix before you upload |
+|---------|----------------|---------------------------|
+| Measured at a word count, not pages | JOP counts double-spaced 12-pt pages incl. notes/refs/exhibits | Re-measure the formatted PDF; cut to the appendix |
+| Shrunk spacing/exhibits to "save pages" | Violates the format spec | Format to spec, then cut content, not spacing |
+| Author name in a footnote or PDF metadata | Breaks double-blind | Strip metadata; scrub acknowledgments and self-refs |
+| Long paper into the Short Article category | Mismatched scope and length | Confirm category against the measured page count |
+
+## Worked micro-example (illustrative)
+
+A hypothetical comparative-politics paper measures 11,800 words and clears the AJPS word ceiling, so the
+author assumes it is short enough. Formatted to JOP's spec — double-spaced, 12-pt, with the reference list
+and four exhibits counted — it lands at 39 pages (illustrative), four over the Research Article cap. The
+fix is not deleting analysis: two regression-grid tables and a balance table move to the appendix, the
+bibliography is trimmed, and footnotes fold into the text, bringing it to 34 pages (illustrative).
+
+## Editor pushback patterns and the venue fix
+
+- *"Over the page budget."* Never shrink font or spacing; move robustness and derivations to the appendix
+  and trim the bibliography to works you engage.
+- *"Anonymity is compromised."* The most common leak is PDF document properties, not the text — strip
+  metadata and keep the title page a separate file.
+- *"Confirm fee / OA terms."* Fee and open-access policies can change; confirm against the journal's
+  current submission guidelines rather than assuming (待核实).
+
 ## Output format
 
 ```

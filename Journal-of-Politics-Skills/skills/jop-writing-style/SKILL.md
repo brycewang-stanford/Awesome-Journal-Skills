@@ -49,6 +49,34 @@ the paper read for a general audience and **fit the page**, in **JOP Style Guide
 - Subfield jargon that loses the general JOP reader
 - Mixing citation styles or leaving self-identifying phrasing in the anonymous manuscript
 
+## Where the pages actually go (page-recovery table)
+
+When a JOP draft runs long, the recovery move depends on what is eating the count. JOP's inclusion of
+notes, references, and exhibits in the page total means the cheapest cuts are often outside the body prose.
+
+| Page sink | Recover by | Keep, do not cut |
+|-----------|-----------|------------------|
+| Bloated reference list | Trim to works you engage; drop citation-padding | The few that define the debate you join |
+| Heavy footnotes | Fold load-bearing notes into text; delete asides | A note carrying a real qualification |
+| Full regression grids in body | Move to the Online Appendix, cite in one line | The headline specification |
+| Literature survey paragraphs | Compress to the conversation and the gap | The sentence stating your delta |
+| Long methods narration | Push diagnostics to the appendix | The identifying assumption in plain prose |
+
+## Worked micro-example (illustrative)
+
+A hypothetical American-politics Short Article reads at 12 pages (illustrative), two over the cap. The
+author resists deleting findings and instead trims the page sinks: 14 citations that signaled familiarity
+without doing work are cut, four footnotes fold into the text, and a secondary subgroup plot moves to the
+appendix. The argument is untouched; the draft now reads at 10 pages (illustrative), and the opening still
+states question, contribution, and finding for a non-specialist on the first page.
+
+## Referee pushback patterns and the JOP fix
+
+- *"The writing assumes I am in your subfield."* Define terms on first use and state the general stake in
+  the first paragraph; a comparativist should follow an American-politics paper and vice versa.
+- *"This is over length."* Recover pages from references, notes, and exhibits before touching the argument,
+  and confirm the count on the formatted double-spaced PDF, not a word processor's word count.
+
 ## Output format
 
 ```

@@ -56,6 +56,33 @@ A strong JOP paper usually clears all four:
 - A sprawling question that cannot land within 35 pages even with a full appendix
 - Choosing Research-Article length out of habit when a Short Article would hit harder and review faster
 
+## Fit verdicts and the desk-screen signal
+
+JOP's desk screen turns on general interest and a non-incremental contribution. Read each framing against
+how an editor across subfields would react, then decide whether to reframe before drafting.
+
+| Project framing | Editor reads it as | Verdict |
+|-----------------|--------------------|---------|
+| New mechanism that travels across cases | General-interest, novel | Strong fit |
+| First estimate of a known effect in a new country | Incremental, specialist | Reframe around what is general |
+| Method demonstration, no political payoff | Methods-outlet material | Off-fit for a general venue |
+| Decisive test that settles a live debate | Sharp, reviewable fast | Strong Short Article fit |
+
+## Worked micro-example (illustrative)
+
+A scholar has survey-experiment data on how ballot design affects vote choice in one state. Framed as
+"first test of ballot design in State X," it reads incremental. Reframed around the general mechanism —
+how cognitive load at the ballot shapes choice, a logic that travels to any electoral system — it becomes
+general-interest. Because the contribution is one clean experimental result, the Short Article category
+(≤ 10 pages) fits better than padding it toward a Research Article.
+
+## Referee pushback patterns and the JOP fix
+
+- *"This is of interest only to specialists."* Lead with the portable mechanism, not the case; name one
+  neighboring subfield that should care.
+- *"The contribution is incremental to a recent AJPS/APSR paper."* State the specific delta — a corrected
+  measure, a ruled-out confound, a new scope condition — that the prior paper did not establish.
+
 ## Output format
 
 ```

@@ -45,6 +45,25 @@ review process, and ties final acceptance to **replicability** assessed by a **J
 - Assuming a guaranteed turnaround because JOP is "fast" — speed is a norm, not a promise (待核实)
 - Treating acceptance as final before the replication analyst has signed off
 
+## The gauntlet, stage by stage
+
+Each stage is a separate filter with its own failure mode. Most avoidable rejections happen at the first
+two, before a reviewer ever reads the argument.
+
+| Stage | What clears it | What it screens out |
+|-------|----------------|---------------------|
+| Anonymity / format upload | Anonymous file, correct category, within page budget | Identifying metadata, over-length, wrong category |
+| Desk screen (editor) | Explicit general interest, clear non-incremental contribution | Specialist-only or incremental framing |
+| External review | Credible identification/logic, theory linked to test | Loose theory-test link, fragile design |
+| Conditional accept → analyst | Deposited code regenerates every printed number | Non-replicable package (→ rejected) |
+
+## Referee pushback patterns and the JOP fix
+
+- *"Theory and test are loosely linked."* Make the empirical test follow from the argument's stated
+  mechanism or comparative statics, not a loose analogy, so a reviewer sees the prediction is unique.
+- *"This is below the journal's bar."* The bar is general interest plus theoretical innovation; lead with
+  the portable contribution early so the desk editor sees it without hunting.
+
 
 ## Review-risk pass for Journal of Politics
 

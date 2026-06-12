@@ -60,6 +60,25 @@ before writing-style is done.
 - Leaving the replication package until acceptance — a **JOP replication analyst** re-checks it
 - Dumping the whole paper into the Online Appendix to dodge the 35-page main-text budget
 
+## Triage by symptom (where the manuscript actually hurts)
+
+When a paper is mid-flight, route by the loudest problem rather than the default order. These are the
+symptom-to-skill jumps a JOP author makes most often.
+
+| Symptom | Likely real problem | Jump to |
+|---------|---------------------|---------|
+| "Feels specialist / incremental" | Contribution not pitched general-interest | `jop-topic-selection`, then `jop-literature-positioning` |
+| "Reviewer doubts the causal claim" | Identification or theory-test link | `jop-research-design` |
+| "Over the page budget" | Exhibits, notes, or references too heavy | `jop-tables-figures`, then `jop-writing-style` |
+| "Worried about the analyst re-run" | Package not reproducible | `jop-replication-and-data-policy` |
+
+## Referee pushback patterns and the JOP fix
+
+- *"This reads like the wrong venue."* Before polishing format, confirm the contribution is general-interest
+  and not better suited to a sibling venue (APSR, AJPS, World Politics); reroute early, not at submission.
+- *"The replication package is an afterthought."* Start the package during analysis so the post-acceptance
+  analyst check is routine; the router should trigger `jop-replication-and-data-policy` early, not last.
+
 
 ## Router pass for Journal of Politics
 

@@ -51,6 +51,38 @@ uncertainty within the **page budget**.
 - Robustness checks chosen to inflate the count rather than rebut a threat
 - Cramming every specification into the main text and blowing the page budget
 
+## What a JOP analysis referee is looking for
+
+The reviewer pool spans subfields, so an analysis only a specialist can audit reads as fragile. Map each
+demand to the move that satisfies it before the page count forces an ugly cut.
+
+| Referee demand | Pass move | Fail signal |
+|----------------|-----------|-------------|
+| Usable magnitude | Marginal effect or predicted probability with CI | Coefficient stars, no magnitude in prose |
+| Correct uncertainty | Cluster at assignment level; randomization inference | Default SEs on clustered or experimental data |
+| Targeted robustness | Each check named to the threat it rebuts | A grid with no mapping to objections |
+| Multiplicity honesty | Pre-specified families; adjusted p-values | One mined "significant" interaction |
+| Reproducibility | Master script regenerates every number | "Available on request"; drifting numbers |
+
+## Worked micro-example (illustrative figures)
+
+A hypothetical Short Article asks whether a state's adoption of automatic voter registration (AVR) raised
+turnout, using a staggered difference-in-differences across states. The first pass runs naive two-way
+fixed effects and reports a +3.1-point effect (illustrative). Because adoption is staggered, already-treated
+states act as forbidden controls and the estimate carries negative-weight comparisons. The JOP-credible
+re-analysis uses a heterogeneity-robust estimator (Callaway–Sant'Anna or Sun–Abraham), reports the
+group-time average as +1.8 points, 95% CI [0.4, 3.2] (illustrative), shows flat pre-trends, and clusters
+by state. The robustness grid goes to the Online Appendix, cited in one line of main text.
+
+## Referee pushback patterns and the JOP fix
+
+- *"Your DID uses naive TWFE on staggered adoption."* Re-estimate with a heterogeneity-robust estimator,
+  show the event-study plot, and decompose the two-way estimate so the negative-weight problem is resolved.
+- *"Standard errors do not reflect the design."* Cluster at the assignment level — the state in the AVR
+  example — with wild-cluster bootstrap when states are few.
+- *"This interaction looks fished."* Show the pre-registered family and the adjusted p-value; concede a
+  null openly.
+
 ## Output format
 
 ```

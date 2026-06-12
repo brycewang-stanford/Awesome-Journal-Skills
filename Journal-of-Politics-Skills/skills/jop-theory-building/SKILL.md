@@ -39,6 +39,22 @@ Write one sentence: *"Before this paper the field thought ___; this argument sho
 to readers beyond my subfield because ___."* If the first blank is "no one had estimated this in case
 X," the contribution is probably incremental for a general journal.
 
+## Worked micro-example (illustrative)
+
+A hypothetical project finds legislators co-sponsor more bills after office moves put them near
+ideological opposites. Stated as a finding, it is a correlation. As a JOP argument it names a mechanism —
+physical proximity lowers the cost of cross-party information exchange, raising co-sponsorship under the
+scope condition of low electoral risk — and yields an implication that could be wrong, unique to the
+proximity account and not shared by a pure homophily rival. That falsifiable contrast is what makes the
+argument contribute rather than describe.
+
+## Referee pushback patterns and the JOP fix
+
+- *"The theory is thin — this is a list of expected signs."* Name the mechanism (what acts on what,
+  through what channel, under what scope) and derive at least one implication that could fail.
+- *"The formal model has no payoff here."* Pair the comparative statics with an interpretable empirical or
+  substantive consequence; JOP is general-interest, not a methods outlet.
+
 ## Keep it economical (page budget)
 
 - A general reader needs the logic, not every contingency — state the core argument cleanly.

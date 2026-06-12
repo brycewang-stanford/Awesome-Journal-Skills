@@ -47,6 +47,21 @@ paper actually moves, not a survey — and do it **double-blind**, without outin
 - First-person self-citation that breaks double-blind review
 - Positioning only within a narrow subfield niche (reads as specialist-only to a general journal)
 
+## Worked micro-example (illustrative)
+
+A hypothetical IR paper on alliance commitments first frames itself against six alliance-specific studies,
+reading as a niche update. The JOP reframe names a general conversation — how institutions make costly
+signals credible — places the alliance result as one instance of that logic, and engages only the three
+works defining the credibility debate plus one comparative-institutions cite. The literature section drops
+from three pages to one and a half (illustrative).
+
+## Referee pushback patterns and the JOP fix
+
+- *"The contribution is incremental to a recent APSR/AJPS paper."* State the precise delta against that
+  paper — a different mechanism, a ruled-out alternative, a new scope — rather than citing it and moving on.
+- *"This is positioned for specialists only."* Connect to one neighboring literature so a general reader
+  recognizes the stakes; JOP spans American, comparative, IR, theory, and methods.
+
 
 ## Positioning pass for Journal of Politics
 

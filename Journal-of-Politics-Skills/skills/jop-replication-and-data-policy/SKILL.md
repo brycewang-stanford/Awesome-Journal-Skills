@@ -56,6 +56,32 @@ materials before publication, and **manuscripts that are not replicable are reje
 - Missing the codebook or version/OS info the readme must contain
 - Claiming data are restricted without an access path or synthetic substitute
 
+## What the analyst checks (failure-mode table)
+
+The JOP analyst's re-run is mechanical: it either regenerates your printed numbers or it does not. Close
+each common failure before conditional acceptance.
+
+| Failure the analyst will hit | Close it before deposit |
+|------------------------------|--------------------------|
+| Script errors on a clean machine | Master script, relative paths, fresh-clone test |
+| Numbers drift from the printed table | Regenerate every exhibit from code; re-run end to end |
+| Stochastic result will not reproduce | Set and report a seed for every random step |
+
+## Worked micro-example (illustrative)
+
+The AVR-turnout author reaches conditional acceptance and the analyst runs the .zip. On a fresh clone the
+master script fails because the working directory was hard-coded — tested only on the author's machine.
+After a relative-path fix it runs, but the turnout estimate prints as +1.79 against the paper's +1.8, a
+rounding mismatch. The author aligns the table to the script's value, confirms the seed reproduces the
+bootstrap CI, and the re-run matches the printed page.
+
+## Analyst pushback patterns and the JOP fix
+
+- *"Your code does not run on my machine."* Test from a fresh clone with no local state, use relative
+  paths, and pin software and package versions in the readme.
+- *"Confirm the data are restricted as claimed."* Confirm the journal's current sharing expectations
+  against the policy page before relying on a restricted-data path (待核实).
+
 ## Output format
 
 ```
