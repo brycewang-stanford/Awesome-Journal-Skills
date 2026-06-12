@@ -54,7 +54,7 @@ At M&SOM an exhibit that does not advance the operations insight wastes page bud
 
 ## Worked micro-example (illustrative)
 
-Vignette: a base-stock model for a spare-parts network deciding stocking levels across echelons. Two exhibits carry the paper. Figure 1 plots the optimal base-stock level against lead-time variability, making visible that the level *rises convexly* — the structural insight a reader grasps at a glance. Table 2 is a numerical study with a benchmark column: the proposed policy versus a fixed safety-stock rule, headlining a 17% average holding-cost reduction at equal fill rate (numbers illustrative). The convex figure plus the benchmark-anchored table do more for the contribution than pages of extra parameter sweeps, which belong in the supplement.
+Vignette: a base-stock model for a spare-parts network deciding stocking levels across echelons. Two exhibits carry the paper. Figure 1 plots the optimal base-stock level against lead-time variability, making visible that the level *rises convexly* — the structural insight a reader grasps at a glance. Table 2 pairs the proposed policy against a fixed safety-stock benchmark, headlining a 17% average holding-cost reduction at equal fill rate (illustrative). Figure plus benchmark-anchored table do more for the contribution than pages of extra parameter sweeps, which belong in the supplement.
 
 ## Referee-pushback patterns and the venue fix
 

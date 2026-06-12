@@ -53,13 +53,12 @@ Run this as a concrete capability pass. First lock the process bottleneck, decis
 
 ## Fit screen before you commit (illustrative)
 
-Vignette: a team has retailer scanner data and wants to study whether a loyalty program raises sales. As stated that is a marketing question and would be desk-screened at M&SOM. Reshaped it becomes fit: *does the loyalty program change the store's replenishment decision by making demand more forecastable, and what is the optimal safety-stock adjustment?* Now the operations lever (safety stock), the tradeoff (holding cost vs. stockout), and the decision are central — the difference between fit and desk-screen. The same reshaping rescues "does advertising raise demand?" (→ how does demand shaping change the capacity/inventory decision?) and "we apply deep learning to logistics data" (→ which routing/staffing decision does the prediction improve?).
+Vignette: a team has scanner data and wants to study whether a loyalty program raises sales — as stated, a marketing question that would be desk-screened. Reshaped it becomes fit: *does the program change the store's replenishment decision by making demand more forecastable, and what is the optimal safety-stock adjustment?* Now the lever (safety stock) and the tradeoff (holding cost vs. stockout) are central. The same reshaping rescues "does advertising raise demand?" (→ how does demand shaping change the inventory decision?) and "we apply deep learning to logistics data" (→ which staffing decision does it improve?).
 
 ## Referee-pushback patterns and the venue fix
 
-- *"Strong paper, but the operations decision is a backdrop."* → Promote the operating lever to the primary contribution or re-route to a general OR/MS or domain venue.
-- *"Which department is this for?"* → Commit to one of the six departments at topic stage; an undeclared target reads as an unfocused contribution.
-- *"Analytical or empirical — and why?"* → Choose the lane the decision demands (structure to characterize, or an effect to identify), not the lane you are most comfortable in.
+- *"Strong paper, but the operations decision is a backdrop."* → Promote the operating lever to the primary contribution or re-route to a general OR/MS venue.
+- *"Which department is this for?"* → Commit to one of the six departments at topic stage; an undeclared target reads as unfocused. Choose the lane the decision demands (structure to characterize, or an effect to identify), not the lane you are most comfortable in.
 
 ## Output format
 

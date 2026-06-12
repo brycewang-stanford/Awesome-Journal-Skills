@@ -53,11 +53,11 @@ The added results must fit the **32-page typeset cap** (everything counts) — p
 
 ## Triaging the decision letter (priority before prose)
 
-In M&SOM's department-routed model the comments are not equal in weight; sort them before writing any response. The Department Editor's and Associate Editor's items are binding — they gate acceptance, so address them fully and rebut only with strong evidence. Substantive referee points must be addressed or carefully rebutted, each mapped to comment → change → exact location. When referees conflict, surface it to the AE rather than silently picking a side. The frequent fatal error is spending the revision on referee minutiae while under-serving the DE/AE priority that actually gates the decision.
+In M&SOM's department-routed model the comments are not equal in weight. The DE's and AE's items are binding — they gate acceptance — so address them fully and rebut only with strong evidence; substantive referee points are mapped to comment → change → exact location, and conflicts go to the AE rather than being silently resolved. The fatal error is spending the revision on referee minutiae while under-serving the DE/AE priority.
 
 ## Worked micro-example (illustrative)
 
-Vignette: an R&R on a supply-chain contracting model where the AE writes "the coordination result is elegant but I do not see the managerial insight" and a referee asks for a more general demand distribution. The disciplined response treats the AE's insight gap as the binding item — adding the comparative static that the optimal buyback rate *falls as demand becomes more variable* and leading the revised contribution with that rule — then does the referee's generalization, showing the structure survives under an illustrative broader class and noting the one regime where it breaks (illustrative), and pushes the extended proof to the supplement. The letter maps each point to a section and proposition number.
+Vignette: an R&R on a supply-chain contracting model where the AE writes "the coordination result is elegant but I do not see the managerial insight" and a referee asks for a more general demand distribution. The disciplined response treats the AE's insight gap as the binding item — adding the comparative static that the optimal buyback rate *falls as demand becomes more variable* and leading with that rule — then does the referee's generalization, showing the structure survives under an illustrative broader class, and pushes the extended proof to the supplement. The letter maps each point to a section and proposition number.
 
 ## Referee-pushback patterns and the venue fix
 

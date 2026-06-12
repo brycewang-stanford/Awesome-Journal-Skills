@@ -47,11 +47,10 @@ Manuscripts must contain enough detail and references to **permit replication**.
 - Reporting significance with no operational magnitude.
 - Promising replication while withholding code/access instructions for licensed data.
 
-## What M&SOM referees demand of the analysis section
-
-Referees grade whether the analysis converts a model or dataset into a defensible operational claim. The **analytical lane** wants the structural result proven, the magnitude shown as a % gap to a benchmark, the binding assumption stress-tested, and seeds/solver settings reported. The **empirical lane** wants an identified operational effect (not a conditional correlation), the effect in operational units (fill rate, wait, throughput, dollars), placebo/falsification plus alternative specs, and SEs clustered at the operational unit. A numerical study with no benchmark column, or an empirical table with stars but no operational magnitude, draws a predictable revision demand.
-
 ## Worked micro-example (illustrative)
+
+Referees grade whether the analysis converts a model or dataset into a defensible operational claim: the analytical lane wants a structural result, a benchmark-anchored magnitude, the binding assumption stress-tested, and seeds/solver settings; the empirical lane wants an identified effect in operational units with clustered SEs, not stars alone.
+
 
 Vignette: a data-calibrated inventory policy for an omnichannel retailer's fulfillment center, where ship-from-store substitutes for warehouse stock. Suppose the dual-index policy, benchmarked against the firm's base-stock rule, cuts expected backorders by 22% at a 1.3% inventory increase across 480 SKU-weeks (numbers illustrative). The discipline: make the 22%/1.3% trade the headline a manager weighs, not "the policy is optimal"; show the gain shrinks to an illustrative 9% once cross-store lead-time correlation is added, naming the assumption that carries the result; and report the fitting window, seed set, and solver tolerance so a referee could regenerate the table.
 

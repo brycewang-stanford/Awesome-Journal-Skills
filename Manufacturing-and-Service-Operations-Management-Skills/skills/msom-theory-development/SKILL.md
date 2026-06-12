@@ -62,7 +62,7 @@ Vignette: a perishable-inventory model for a hospital blood bank choosing a dail
 ## Referee-pushback patterns and the venue fix
 
 - *"The model has no decision variable — it's just an equilibrium description."* → Introduce the operational lever (quantity, price, capacity, admission) the operator actually controls, and characterize how it responds to primitives.
-- *"Assumptions are made only for tractability."* → State what each buys structurally and what relaxing it costs in the numerical study; never leave the cost unexamined.
+- *"Assumptions are made only for tractability."* → State what each buys structurally and what relaxing it costs in the numerical study.
 - *"This is an economics/marketing model in OM clothing."* → If no operational decision changes, return to `msom-topic-selection`; M&SOM gates on an operations lever, not a clever equilibrium.
 
 ## Output format

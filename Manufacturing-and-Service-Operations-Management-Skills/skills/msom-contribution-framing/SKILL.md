@@ -52,14 +52,14 @@ Run this as a concrete capability pass. First lock the process bottleneck, decis
 
 ## Worked micro-example (illustrative)
 
-The premium clause M&SOM rewards is the **managerial insight that survives the model** — a sentence a department editor can repeat to a practitioner. A result with no such sentence is a frequent reason a competent paper is judged incremental.
+The premium clause M&SOM rewards is the **managerial insight that survives the model** — a sentence a department editor can repeat to a practitioner.
 
-Vignette: a staffing model for a hospital emergency department where physicians flex between fast-track and main-track queues. Suppose the numerical study reports — illustratively — that flexing 15% of physician-hours cuts the 90th-percentile wait from 48 to 31 minutes at equal headcount. Through the contribution rules: the **decision changed** is the roster split between dedicated and flexible hours; the **insight** is that the optimal flex share *rises in arrival-rate asymmetry between tracks*, a comparative static a charge nurse acts on; the **managerial sentence** — "hold about an eighth of capacity flexible when the tracks' loads diverge" — slots straight into the structured abstract's fourth part.
+Vignette: a staffing model for a hospital emergency department where physicians flex between fast-track and main-track queues. Suppose the numerical study reports — illustratively — that flexing 15% of physician-hours cuts the 90th-percentile wait from 48 to 31 minutes at equal headcount. Through the contribution rules: the **decision changed** is the roster split between dedicated and flexible hours; the **insight** is that the optimal flex share *rises in arrival-rate asymmetry between tracks*; the **managerial sentence** — "hold about an eighth of capacity flexible when loads diverge" — slots into the abstract's fourth part.
 
 ## Referee-pushback patterns and the venue fix
 
-- *"Tractable, but the result has no managerial takeaway."* → Add the named decision rule plus its comparative static; lead with it, not the theorem.
-- *"This is a Management Science / Operations Research paper — where is the operations decision?"* → Re-anchor on the operating lever and cut framing that foregrounds the method's generality. If the managerial-implications subsection just restates results, rewrite it as plain-language advice with the operational magnitude attached.
+- *"Tractable, but the result has no managerial takeaway."* → Add the decision rule plus its comparative static; lead with it, not the theorem.
+- *"This is a Management Science / Operations Research paper — where is the operations decision?"* → Re-anchor on the operating lever; cut framing that foregrounds the method's generality. If the managerial-implications subsection just restates results, rewrite it as plain-language advice with the magnitude attached.
 
 ## Output format
 
