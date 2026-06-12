@@ -74,9 +74,9 @@ the required statement wording against the journal's current submission guidelin
 
 A study uses a state juvenile-justice extract that cannot be redistributed. The package ships a master
 script regenerating all 8 exhibits; a README documenting construction and the application process
-(agency contact, IRB requirement, ~12-week access window, illustrative); a synthetic dataset matching
-the schema so reviewers can run the script end to end; and seeds for the EM-based trajectory fit. The
-statement names the restriction, the legal basis, and the access route — not "available on request."
+(agency contact, IRB requirement, ~12-week window, illustrative); a synthetic dataset matching the
+schema so reviewers can run the script; and seeds for the EM-based trajectory fit. The statement names
+the restriction, the legal basis, and the access route — not "available on request."
 
 ## Transparency-stage referee pushback (with the Criminology fix)
 

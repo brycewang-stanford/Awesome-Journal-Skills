@@ -44,6 +44,25 @@ each must earn its place and stand on its own.
 - Cramming every robustness check into the main text instead of a supplement
 - Exhibit numbers/values that don't match the deposited code output
 
+## Exhibit choice for the signature crime objects (decision table)
+
+Each criminology figure carries a known probe; pick the exhibit that answers it.
+
+| Criminological object | Exhibit | The probe it must survive |
+|-----------------------|---------|---------------------------|
+| Age–crime curve | line plot, offending rate by age | rate denominator, cohort vs. period |
+| Developmental paths | trajectory plot w/ group shares + CIs | groups reified? AvePP shown? |
+| Recidivism timing | Kaplan–Meier / cumulative incidence | censoring and competing risks shown? |
+| Spatial concentration | hot-spot / choropleth, rate-based | raw counts masquerading as risk? |
+| Treatment effect | coefficient/forest plot w/ intervals | uncertainty visible, not stars? |
+
+## Worked micro-example: fixing a misleading hot-spot map (illustrative)
+
+A draft maps raw burglary counts and the downtown tract glows red. A referee reads it as a risk claim
+it does not support — downtown has 5x the nighttime population (illustrative). The fix: switch to a rate
+per 1,000 ambient population, use a colorblind-safe sequential palette, label the unit and denominator
+in the note, and move the raw-count version to the supplement. Now the exhibit shows concentration of
+*risk*, the object the routine-activity argument claims.
 
 ## Exhibit pass for Criminology
 

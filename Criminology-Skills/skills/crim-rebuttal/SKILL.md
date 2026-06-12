@@ -62,15 +62,15 @@ the location of every change so the editor and reviewers can verify quickly.
 
 ## Reconciling interdisciplinary reviewers (Criminology triage table)
 
-Because the ASC flagship draws reviewers across sociology, developmental psychology, and quantitative
-criminology, R&R comments often conflict. Sort each by whether it touches the contribution, then decide.
+Because the ASC flagship draws reviewers across sociology, psychology, and quantitative criminology,
+R&R comments often conflict. Sort each by whether it touches the contribution.
 
 | Comment type | Example | Concede or defend? |
 |--------------|---------|--------------------|
-| Touches identification | "selection into treatment is unaddressed" | concede — add the within-person/sensitivity analysis |
-| Touches measurement | "official records, not actual offending" | partly concede — add self-report robustness, keep claim |
+| Touches identification | "selection into treatment unaddressed" | concede — add within-person/sensitivity analysis |
+| Touches measurement | "official records, not offending" | partly concede — add self-report robustness |
 | Touches theory | "this isn't really testing GST" | defend if your prediction separates GST from a rival |
-| Conflicting asks | one wants 4 trajectory groups, one wants 3 | choose by BIC/AvePP, explain the tradeoff to the editor |
+| Conflicting asks | one wants 4 trajectory groups, one wants 3 | choose by BIC/AvePP, explain to the editor |
 
 ## Worked vignette: an R&R response move (illustrative)
 

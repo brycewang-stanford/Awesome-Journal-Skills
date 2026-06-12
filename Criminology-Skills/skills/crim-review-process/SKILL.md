@@ -49,6 +49,17 @@ review-model wording and current masthead on the official pages (待核实).
 - Simultaneous submission to another journal (prohibited)
 - Expecting acceptance without a revision round
 
+## Decision-letter decoder (set realistic expectations)
+
+The exact category labels are set by the editors (待核实), but the common reads map as follows. A first
+major revision is the modal good outcome at the ASC flagship, not a near-miss.
+
+| Letter signal | What it usually means | Your move |
+|---------------|-----------------------|-----------|
+| Reject after review | one fatal flaw (ID, theory, or measurement) | reframe or re-route, do not re-submit unchanged |
+| Major revision | promising, but identification or theory needs work | accept the load; see crim-rebuttal |
+| Minor revision | contribution accepted, polish remaining | tighten exhibits and prose |
+| Desk return | scope/fit or atheoretical | back to crim-topic-selection |
 
 ## Review-risk pass for Criminology
 

@@ -55,8 +55,8 @@ true. This skill covers execution and reporting norms; design decisions live in 
 
 ## Estimator choice keyed to the crime outcome (Criminology decision table)
 
-*Criminology* reviewers are quantitatively literate and will name the mismatch when the model does not
-fit the data-generating process for offending. Use the outcome to pick the estimator, then defend the
+*Criminology* reviewers are quantitatively literate and will name a mismatch between model and the
+data-generating process for offending. Use the outcome to pick the estimator, then defend the
 assumption the reviewer will probe.
 
 | Outcome shape | Default estimator | Reviewer will probe |

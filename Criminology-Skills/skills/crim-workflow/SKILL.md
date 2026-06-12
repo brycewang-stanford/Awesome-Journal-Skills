@@ -60,6 +60,22 @@ trajectory model or recidivism survival) before writing-style.
 - Choosing the Research Note type for a paper that needs a full Article's evidentiary load
 - Leaving the data/transparency package until acceptance instead of building it as you go
 
+## Symptom-to-skill triage (route by the complaint you heard)
+
+Reviewers, advisers, and co-authors describe problems in their own words; the router maps each phrase to
+the skill that fixes it. These are the recurring flags for the ASC flagship.
+
+| What was said | Underlying gap | Route to |
+|---------------|----------------|----------|
+| "atheoretical / just a finding" | mechanism not built | crim-theory-building |
+| "selection / not causal" | identification weak | crim-research-design |
+| "official records, not offending" | measurement validity | crim-data-analysis |
+| "missed key work / wrong debate" | positioning | crim-literature-positioning |
+| "belongs at CPP" | scope/fit | crim-topic-selection |
+| "can't reproduce this" | transparency | crim-data-and-transparency |
+
+A Research Note routes through the same chain with a tighter scope; the confirmed length cap is 待核实,
+so check it against the journal's current submission guidelines before committing to the type.
 
 ## Router pass for Criminology
 
