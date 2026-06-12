@@ -61,6 +61,31 @@ with self-identifying references. Verify volatile specifics on the official page
 - Reusing an old **Editorial Manager** link instead of ScholarOne
 - Describing the $1,000 fee as an open-access APC (it is not)
 
+## Compliance pre-screen: what the desk checks first (by article type)
+
+Demography — the Population Association of America flagship at Duke University Press — runs a
+compliance pre-review before suitability. A failure here can bounce the manuscript before any reviewer
+sees it. Map your type to its caps (confirm current numbers against the journal's submission guidelines):
+
+| Item | Research Article | Research Note | Commentary |
+|------|------------------|---------------|------------|
+| Main-text words | <= 8,000 | <= 4,000 | <= 2,000 |
+| Tables + figures | ~8 | <= 4 | minimal |
+| References (recommended) | <= 75 | <= 15 | <= 15 |
+| Abstract / highlights / keywords | <= 200 words / 3-5 (<= 85 chars) / <= 5 | same | same |
+| Double-blind | required | required | required |
+
+## Referee/editor pushback at the desk and the submission-side fix
+
+- *"Self-identifying references compromise the double-blind."* -> Neutralize self-citations ("prior work
+  [Author] showed" not "as we showed"), strip document-property metadata, and split off a non-anonymous title page.
+- *"This Note exceeds the Note caps."* -> Either trim to <= 4,000 words and <= 4 exhibits or move it to the
+  Research Article track; do not submit an over-length Note hoping for leniency.
+- *"The data availability statement is missing."* -> Stage the statement and FAIR-repository deposit now,
+  even though it is finalized at acceptance (see `demog-data-and-reproducibility`).
+- *"Was this submitted through the right portal?"* -> Use ScholarOne Manuscripts; an old Editorial
+  Manager link routes nowhere since the 2024 migration.
+
 ## Output format
 
 ```

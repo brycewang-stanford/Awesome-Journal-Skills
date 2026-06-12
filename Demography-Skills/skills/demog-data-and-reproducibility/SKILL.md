@@ -53,6 +53,29 @@ stall.
 - Claiming data are restricted without describing the access conditions
 - Calling the $1,000 editorial-management fee an "open-access" or "data" charge (it is neither)
 
+## What a reproducibility reviewer expects at Demography
+
+Demography, the Population Association of America flagship published open access by Duke University
+Press, draws referees who routinely re-derive a denominator or re-run a Kitagawa split by hand. The
+deposit must let them do so. Calibrate the package against the data class you actually used.
+
+| Data class | Typical source | Deposit obligation |
+|------------|----------------|--------------------|
+| Fully public | HMD, HFD, IPUMS, WPP, published vital statistics | Extract code + constructed analytic file (where license permits) + persistent ID |
+| Public-but-licensed | IPUMS, DHS, redistribution-restricted census | Extract specification + code, not raw microdata; cite the provider's persistent access path |
+| Restricted/confidential | Linked administrative records, RDC-only census, linked mortality files | Code + synthetic stand-in file + exact access-conditions note |
+
+## Referee-pushback patterns and the Demography-specific fix
+
+- *"I cannot tell which HMD/HFD vintage produced these rates."* -> Record the release label and download
+  date in the README and a code comment; vintages revise historical rates.
+- *"The decomposition components in the deposit do not sum to the headline number."* -> Add an assertion
+  that components reconcile to the total e0 (or TFR) change before you deposit; ship the check passing.
+- *"Your bootstrap intervals are not reproducible."* -> Set and report a seed for every resampling,
+  microsimulation, and graduation step; an un-seeded interval reads as un-reproducible.
+- *"You say data are restricted but give no way to obtain them."* -> Name the data enclave or
+  application pathway and the access conditions; a bare "restricted" reads as evasion.
+
 ## Output format
 
 ```

@@ -55,6 +55,32 @@ reaching population scientists and respecting the format — not about generatin
 - Mixed citation styles; self-references that break double-blind anonymity
 - Padding a Research Note toward Article length
 
+## Calibration anchor: write the population process, not the association
+
+Demography, the open-access flagship of the Population Association of America at Duke University Press,
+reads as population science when the prose names a *process* — fertility, mortality, migration, family
+formation, or compositional change — and the quantity that measures it. Two illustrative rewrites
+(language invented to show the move):
+
+| Drafted as a generic association | Rewritten as a population process |
+|----------------------------------|-----------------------------------|
+| "Education is associated with lower mortality (HR 0.78)." | "Among women aged 50-69, the college-educated face ~22% lower age-specific death rates, widening the e0 gap by ~2.1 years (illustrative)." |
+| "Migrants have higher fertility." | "Newly arrived migrants show elevated period TFR, but a tempo correction suggests catch-up timing, not higher quantum (illustrative)." |
+
+The left column could appear in any health or labor journal; the right column states the demographic
+quantity, the population, and the age/period logic a demographer expects.
+
+## Referee-pushback patterns and the writing fix
+
+- *"This reads like an epidemiology paper that happens to use population data."* -> Lead the abstract and
+  intro with the population question and the demographic quantity, not the regression coefficient.
+- *"A migration scholar could not follow the fertility argument."* -> Define component-specific terms
+  (parity progression, ASFR, tempo/quantum) on first use; spell out every data-source acronym.
+- *"The contribution to population science is stated only in the conclusion."* -> Move the "so what for
+  demography" sentence into the first paragraph; a Demography reader should not have to dig for it.
+- *"You report stars but never the magnitude."* -> Lead with the demographic quantity and its size,
+  then interpret it.
+
 ## Output format
 
 ```

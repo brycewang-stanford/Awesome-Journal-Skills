@@ -57,6 +57,33 @@ A strong Demography paper usually clears all four:
 - A method demonstration with no substantive population-science payoff
 - A sprawling question that cannot be answered within the main-text word cap
 
+## Desk-reject fit patterns (what triggers the early "inappropriate for Demography" screen)
+
+Demography, the Population Association of America flagship at Duke University Press, runs a pre-review
+that can desk-reject a paper as off-fit. The usual triggers and the reframe that rescues fit:
+
+| Desk-reject pattern | Why it fails the population-science test | Reframe toward fit |
+|---------------------|------------------------------------------|--------------------|
+| "Uses Census/DHS data" but the outcome is a clinical or program endpoint | The dataset is demographic; the question is not | Recast around a rate, composition, or component of population change |
+| A pure regression of Y on X with demographic controls | No demographic process is the object of study | Make the demographic quantity (e0, TFR, net migration) the dependent object |
+| A method paper with no substantive payoff | Demography wants the population question the method answers | Show which contested trend or estimate the method newly resolves |
+| Single-country narrative with no general-interest hook | A mortality reader sees nothing for them | Connect to comparative population theory or a cross-component implication |
+
+## Worked fit check (illustrative vignette)
+
+A researcher has linked administrative records showing that internal migrants change jobs more often
+than non-migrants. Run the four-part test:
+
+1. **Population question?** As stated, no — it is a labor-mobility finding. *Reframe:* treat migration
+   as a component of population redistribution and ask how selective out-migration reshapes the
+   age-skill composition of sending regions (illustrative).
+2. **General interest?** After reframing, yes — an aging scholar cares about who is left behind.
+3. **Real contribution?** A decomposition of regional population change into migration-driven
+   compositional shifts vs. natural increase is a genuine demographic move.
+4. **Answerable scope?** Yes, as a Research Note on one redistribution episode.
+
+Verdict: off-fit as drafted, strong as a redistribution-and-composition paper.
+
 ## Output format
 
 ```

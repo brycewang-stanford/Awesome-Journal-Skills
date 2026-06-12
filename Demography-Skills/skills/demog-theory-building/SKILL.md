@@ -57,6 +57,32 @@ case, generalize the logic or reframe (back to `demog-topic-selection`).
 - Treating a regression coefficient as a mechanism with no demographic story
 - Universal claims with no scope conditions on population, period, or regime
 
+## Worked micro-example: from finding to population-science claim (illustrative)
+
+A hypothetical study observes that completed cohort fertility fell across successive birth cohorts. The
+argument is built in the idiom Demography — the Population Association of America flagship at Duke
+University Press — rewards (numbers invented to illustrate):
+
+- **Bare finding:** "Cohort TFR fell from ~2.1 to ~1.7 across the 1955-1975 birth cohorts."
+- **Mechanism:** Postponement of first births raised the mean age at first birth, and recuperation at
+  older ages was incomplete — a quantum decline operating *through* tempo, not a uniform shift.
+- **Observable implication:** Parity-progression ratios from parity 0 to 1 should fall most at younger
+  ages and only partly rebound later; a pure quantum story would show uniform decline across ages.
+- **Scope condition:** The claim covers low-fertility settings with delayed childbearing.
+- **Portability:** A mortality scholar can import the tempo-vs-quantum logic to lifespan compression;
+  that import makes it a population-science contribution, not a single-country fact.
+
+## Referee-pushback patterns and the theory-side fix
+
+- *"This is descriptive — where is the mechanism?"* -> Name the behavior/exposure/compositional shift
+  that moves the rate, for whom, and translate it into an age or cohort signature the design can test.
+- *"You assert a mechanism but a compositional shift would produce the same trend."* -> State the rival
+  (composition) explicitly and the observable that separates it from your account before the results.
+- *"The formal model's assumptions are chosen to deliver the identity."* -> Flag which results depend on
+  stability/Markov/independence assumptions and motivate each substantively.
+- *"This only works for your one case."* -> Generalize the mechanism so another demographer studying a
+  different component could reuse it; otherwise reframe via `demog-topic-selection`.
+
 ## Output format
 
 ```
