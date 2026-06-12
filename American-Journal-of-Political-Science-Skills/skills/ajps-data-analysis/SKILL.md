@@ -53,7 +53,6 @@ covers execution and reporting; design choices live in `ajps-research-design`.
 |---------------------------|----------------|-----------------|
 | Does the estimator recover the stated estimand? | Estimand named; estimator matches | Name the target quantity before the table |
 | Is inference at the right level? | Clustered at assignment/sampling level | Re-cluster; wild-cluster bootstrap if few clusters |
-| Could the robustness checks break the result? | One genuinely adversarial spec | Add a spec that could overturn it, report honestly |
 | Will the verifier's re-run match the printed numbers? | Master script regenerates every exhibit | Script everything; set seeds; pin versions |
 
 ## Worked micro-example (illustrative numbers)

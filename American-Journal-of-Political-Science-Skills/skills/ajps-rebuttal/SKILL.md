@@ -50,6 +50,37 @@ Change: [Section/page/table-figure number where the revision appears].
 Open with a short **summary of the main changes** to the editor; group by reviewer; end each entry with
 the location of the change so the editor can verify quickly. Keep the memorandum anonymized.
 
+## Concede-or-rebut decision table
+
+| Comment type | Default move | AJPS-specific caution |
+|--------------|--------------|------------------------|
+| Editor's decisive point | Solve first, visibly | The editor adjudicates; address before reviewer minutiae |
+| Identification challenge | Add a check or sensitivity bound | Do not weaken the design that earned the R&R |
+| Request that dilutes the claim | Rebut respectfully, with a reason | Protect the generalizable contribution |
+| New analysis requested | Run it and script it | Keep the package re-runnable for verification at acceptance |
+
+## Worked micro-example (illustrative)
+
+R2 calls the close-election RD "selection-on-observables in disguise." The response concedes the framing
+gap, adds a density test (illustrative p = 0.62) and a donut-hole spec to the SI, and cites the new line:
+*"Response: we now report a manipulation test and bandwidth grid (SI Table A4) showing the estimate is not
+driven by sorting."* R3 instead wants the RD dropped for matching; the memo reconciles openly, retains the
+RD because the running variable is continuous, adds matching as a robustness check, and explains the
+tradeoff to the editor. Both new exhibits regenerate from the master script, so verification still passes.
+
+## Referee-pushback patterns and the venue-specific fix
+
+- *"You ignored my third comment."* -> Quote every comment verbatim and answer it; silence reads as
+  non-compliance to an AJPS editor.
+- *"The new robustness table is not in your replication code."* -> Add it to the master script now; a
+  verification failure at acceptance blocks publication.
+- *"The revision re-identifies the authors."* -> Strip re-added acknowledgments/funding and keep
+  self-cites third-person; the resubmission and memo stay anonymized.
+
+Calibration anchor: an AJPS R&R is a genuine path to acceptance, and verification is re-run at acceptance,
+so every new number must stay reproducible — confirm the current resubmission and verification wording
+against the journal's submission guidelines.
+
 ## Anti-patterns
 
 - Ignoring or merging away a comment without a visible response

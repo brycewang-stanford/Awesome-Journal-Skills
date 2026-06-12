@@ -49,6 +49,37 @@ For the single strongest rival explanation, write: *"If the rival were true rath
 the data would look like ___; instead they look like ___."* If you cannot, the design does not yet
 identify the contribution.
 
+## Design-credibility table (the bar AJPS referees apply by design)
+
+| Design | What the referee demands | Common desk-reject / reject trigger |
+|--------|--------------------------|-------------------------------------|
+| RDD | Density/manipulation test, bandwidth robustness, no sorting at cutoff | Treating a non-discontinuous threshold as sharp |
+| DID / event study | Modern staggered-adoption estimator, pre-trend evidence | Naive TWFE with heterogeneous timing |
+| IV | First-stage strength, defended exclusion, weak-IV-robust CIs | "Plausibly exogenous" instrument with no defense of exclusion |
+| Matching/weighting | Balance + unobserved-confounder sensitivity bound | Selection-on-observables read as clean causation |
+
+## Worked micro-example (illustrative numbers)
+
+A close-election RD on incumbency states the estimand (local effect of barely winning on next-cycle vote
+share at the threshold) and the continuity assumption that licenses it. The density test shows no sorting
+(illustrative p = 0.62); the estimate is stable across bandwidths h = 0.08-0.16; a donut-hole spec holds.
+The adjudication sentence: *if incumbency advantage were candidate-quality persistence rather than an
+officeholding effect, the jump at the bare-win threshold would vanish — instead it is +6 points
+(illustrative)*. That sentence converts a quantitatively demanding AJPS referee.
+
+## Referee-pushback patterns and the venue-specific fix
+
+- *"Identification leans on selection-on-observables."* -> Add an Oster-style or sensitivity-bound analysis
+  and report how strong an unobserved confounder must be to overturn the result.
+- *"Theory and empirics are not tightly linked."* -> Make the test follow from the model's comparative
+  statics and target a prediction *unique* to your argument, not one shared with the rival.
+- *"The DID uses naive TWFE under staggered adoption."* -> Re-estimate with a heterogeneity-robust
+  estimator and show the event-study leads are flat.
+
+Calibration anchor: AJPS spans American, comparative, IR, theory, and methods, but applies a hard premium
+on credible identification across all of them; confirm any human-subjects/IRB specifics against the
+journal's current submission guidelines.
+
 ## Anti-patterns
 
 - Naive TWFE on staggered treatment; clustering at the wrong level
