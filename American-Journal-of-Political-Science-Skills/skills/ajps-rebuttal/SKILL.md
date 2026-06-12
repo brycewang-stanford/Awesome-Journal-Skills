@@ -56,7 +56,6 @@ the location of the change so the editor can verify quickly. Keep the memorandum
 |--------------|--------------|------------------------|
 | Editor's decisive point | Solve first, visibly | The editor adjudicates; address before reviewer minutiae |
 | Identification challenge | Add a check or sensitivity bound | Do not weaken the design that earned the R&R |
-| Request that dilutes the claim | Rebut respectfully, with a reason | Protect the generalizable contribution |
 | New analysis requested | Run it and script it | Keep the package re-runnable for verification at acceptance |
 
 ## Worked micro-example (illustrative)
@@ -74,12 +73,11 @@ tradeoff to the editor. Both new exhibits regenerate from the master script, so 
   non-compliance to an AJPS editor.
 - *"The new robustness table is not in your replication code."* -> Add it to the master script now; a
   verification failure at acceptance blocks publication.
-- *"The revision re-identifies the authors."* -> Strip re-added acknowledgments/funding and keep
-  self-cites third-person; the resubmission and memo stay anonymized.
+- *"The revision re-identifies the authors."* -> Strip re-added acknowledgments/funding, keep self-cites
+  third-person; the resubmission and memo stay anonymized.
 
-Calibration anchor: an AJPS R&R is a genuine path to acceptance, and verification is re-run at acceptance,
-so every new number must stay reproducible — confirm the current resubmission and verification wording
-against the journal's submission guidelines.
+Calibration anchor: an AJPS R&R is a genuine path to acceptance and verification is re-run at acceptance, so
+every new number must stay reproducible — confirm the current wording against the journal's guidelines.
 
 ## Anti-patterns
 
