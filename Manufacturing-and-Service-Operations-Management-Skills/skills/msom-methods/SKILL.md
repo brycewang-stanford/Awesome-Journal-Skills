@@ -62,6 +62,16 @@ Run this as a concrete capability pass. First lock the process bottleneck, decis
 - **Sibling comparison:** compare against Management Science for broader OR/MS reach, Production and Operations Management for wider OM readership, Operations Research for method-first theory; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
 - **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
 
+## Worked micro-example (illustrative)
+
+Vignette: a queueing-control model for an appointment-based outpatient clinic deciding how many same-day slots to reserve against no-show risk. The decision is the reserve count; the mechanism is idle capacity versus overflow. An MDP with a threshold reservation policy fits because the *form* of the rule is the insight. On illustrative calibrated no-show rates of 12–28%, the numerical study would show that reserving slots near the expected no-show count keeps overtime cost within an illustrative 4% of the full-information benchmark (numbers illustrative). The method is chosen because the decision demands a sequential threshold rule — not because dynamic programming is available.
+
+## Referee-pushback patterns and the venue fix
+
+- *"The model is tractable but its assumptions are detached from operations."* → Tie each binding assumption to an observable feature of the operating system and show in the numerical study what relaxing it costs.
+- *"Empirical identification is weak."* → State the source of exogenous variation explicitly, defend exclusion/parallel-trends, and treat the operational decision as endogenous rather than a control.
+- *"Why this method and not a simpler one?"* → Show the simpler method cannot recover the policy structure or the identified operational effect the contribution rests on.
+
 ## Output format
 
 ```

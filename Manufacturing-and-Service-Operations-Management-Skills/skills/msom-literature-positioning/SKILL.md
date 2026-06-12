@@ -49,6 +49,16 @@ Run this as a concrete capability pass. First lock the process bottleneck, decis
 - **Sibling comparison:** compare against Management Science for broader OR/MS reach, Production and Operations Management for wider OM readership, Operations Research for method-first theory; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
 - **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
 
+## Worked micro-example (illustrative)
+
+Vignette: an empirical study of a ride-hailing platform testing whether surge pricing reduces driver idle time. Weak positioning is "no paper has studied surge and idle time." M&SOM positioning instead anchors on the matching-and-pricing-in-service-platforms conversation (Services, Platforms & Revenue Management), cites the revenue-management and queueing antecedents the design builds on, and states the delta as an *operational mechanism*: surge reallocates supply across a spatial queue, and the paper credibly identifies the idle-time elasticity that prior analytical platform models only conjectured. Empirically testing a structural prediction is a strong M&SOM position and makes the target department self-evident.
+
+## Referee-pushback patterns and the venue fix
+
+- *"You frame a void instead of joining a conversation."* → Replace "no one has studied X" with the OM stream you advance and the specific tension you resolve in it.
+- *"The closest antecedent is uncited / waved off."* → Engage it head-on and differentiate on the operational lever, not on dataset or industry.
+- *"Fit is ambiguous across departments."* → Prune citations that pull toward a second department; let one stream dominate so routing is unambiguous.
+
 ## Output format
 
 ```

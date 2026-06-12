@@ -51,6 +51,19 @@ Decisions weigh **importance, originality, clarity, validity, and relevance**, g
 - Treating all reviewer comments as equal weight, ignoring DE/AE signals.
 - Assuming a perspective piece will be judged as a standard research article (it is OM Forum).
 
+## Desk-screen and decision patterns to expect
+
+A desk reject on "fit" usually means the operations decision is a backdrop — promote the operating lever. A post-review "incremental" reject often means structure was proven but no managerial insight attached. An "identification" reject means endogenous operations were treated as exogenous. A perspective piece judged as a research article was on the wrong track — thought-leadership belongs in OM Forum. The throughline: M&SOM is the INFORMS MSOM-Society journal for the operations management of manufacturing and service systems, so an operations contribution a department editor can repeat to a practitioner is the bar a standard article clears.
+
+## Worked micro-example (illustrative)
+
+Vignette: a data-driven paper on warehouse pick-path optimization is submitted to "Analytics in OM." The AE recruits two referees: one praises the prescriptive method, the other notes the warehouse layout is treated as fixed when it is in fact a managed decision. The AE's synthesis flags layout endogeneity as the binding revision item and asks for a clearer operating takeaway. Reading the letter correctly means recognizing the AE's two items — not the enthusiastic referee's praise — as the contract for the next round, then switching into `msom-rebuttal` to plan the work before drafting prose.
+
+## Referee-pushback patterns and the venue fix
+
+- *"Strong analytics, but where is the operations decision?"* → Re-center on the operating lever; analytics in service of an OM decision, not for its own sake.
+- *"This belongs in a broader OR/MS or general-management outlet."* → If a sibling venue genuinely owns the contribution, re-route; M&SOM's scope is tighter and OM-specific. A department mismatch draws the wrong expertise, so pick the department the method and literature point to.
+
 ## Output format
 
 ```

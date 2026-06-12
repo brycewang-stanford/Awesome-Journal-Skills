@@ -48,6 +48,20 @@ Use **INFORMS author-year** citations in captions and notes; keep every exhibit 
 - Letting exhibits push the manuscript over 32 typeset pages.
 - Significance stars with no operational interpretation.
 
+## What each exhibit must earn (referee read)
+
+At M&SOM an exhibit that does not advance the operations insight wastes page budget against the 32-page typeset cap. A policy-structure figure earns its page only when the threshold/base-stock/switching curve is *visible*, not merely stated in prose; a sensitivity exhibit must show which primitive moves the optimal decision and by how much; a numerical-study table needs a benchmark column that makes the % gap the headline; an empirical results table needs an interpretable operational magnitude with clustered SEs, not just stars; and an identification figure should make the design credible rather than duplicate a number already in a table. The default repair for over-budget exhibits is the **online supplement** — full proofs, extra experiments, and notation tables live there. (Confirm the current page and supplement limits against the journal's author guidelines.)
+
+## Worked micro-example (illustrative)
+
+Vignette: a base-stock model for a spare-parts network deciding stocking levels across echelons. Two exhibits carry the paper. Figure 1 plots the optimal base-stock level against lead-time variability, making visible that the level *rises convexly* — the structural insight a reader grasps at a glance. Table 2 is a numerical study with a benchmark column: the proposed policy versus a fixed safety-stock rule, headlining a 17% average holding-cost reduction at equal fill rate (numbers illustrative). The convex figure plus the benchmark-anchored table do more for the contribution than pages of extra parameter sweeps, which belong in the supplement.
+
+## Referee-pushback patterns and the venue fix
+
+- *"You state a threshold/base-stock result but never plot it."* → Add the policy-structure figure; M&SOM reviewers expect to see the structure, not only read it.
+- *"The numerical table has no benchmark, so I can't judge the gain."* → Add the benchmark/heuristic column and make the % improvement the headline number.
+- *"Exhibits push the paper over the page cap."* → Move supporting tables and proofs to the supplement; do not shrink fonts or margins against the fixed template.
+
 ## Output format
 
 ```

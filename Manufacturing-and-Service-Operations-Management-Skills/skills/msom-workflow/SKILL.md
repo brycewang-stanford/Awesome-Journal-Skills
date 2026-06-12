@@ -62,6 +62,16 @@ Default assumption: unless the user says otherwise, treat the target as M&SOM �
 
 If an operations decision is not the centerpiece, M&SOM is the wrong venue.
 
+## Router output snapshot
+
+```
+【Stage detected】topic / theory / positioning / methods / analysis / framing / exhibits / writing / submission / review / rebuttal
+【Operations lever central?】yes / reshape (→ topic-selection)
+【Lane】analytical / empirical
+【Next skill】msom-...
+【Volatile facts to reverify】page cap, departments, masthead → author guidelines
+```
+
 ## Anti-patterns
 
 - **Do not** skip `msom-topic-selection` — a paper whose OM core is only a backdrop is desk-screened.

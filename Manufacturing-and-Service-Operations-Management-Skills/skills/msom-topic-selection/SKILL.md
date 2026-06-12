@@ -51,6 +51,16 @@ Run this as a concrete capability pass. First lock the process bottleneck, decis
 - **Sibling comparison:** compare against Management Science for broader OR/MS reach, Production and Operations Management for wider OM readership, Operations Research for method-first theory; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
 - **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
 
+## Fit screen before you commit (illustrative)
+
+Vignette: a team has retailer scanner data and wants to study whether a loyalty program raises sales. As stated that is a marketing question and would be desk-screened at M&SOM. Reshaped it becomes fit: *does the loyalty program change the store's replenishment decision by making demand more forecastable, and what is the optimal safety-stock adjustment?* Now the operations lever (safety stock), the tradeoff (holding cost vs. stockout), and the decision are central — the difference between fit and desk-screen. The same reshaping rescues "does advertising raise demand?" (→ how does demand shaping change the capacity/inventory decision?) and "we apply deep learning to logistics data" (→ which routing/staffing decision does the prediction improve?).
+
+## Referee-pushback patterns and the venue fix
+
+- *"Strong paper, but the operations decision is a backdrop."* → Promote the operating lever to the primary contribution or re-route to a general OR/MS or domain venue.
+- *"Which department is this for?"* → Commit to one of the six departments at topic stage; an undeclared target reads as an unfocused contribution.
+- *"Analytical or empirical — and why?"* → Choose the lane the decision demands (structure to characterize, or an effect to identify), not the lane you are most comfortable in.
+
 ## Output format
 
 ```

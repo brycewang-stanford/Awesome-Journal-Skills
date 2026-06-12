@@ -55,6 +55,16 @@ Run this as a concrete capability pass. First lock the process bottleneck, decis
 - **Sibling comparison:** compare against Management Science for broader OR/MS reach, Production and Operations Management for wider OM readership, Operations Research for method-first theory; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
 - **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
 
+## Worked micro-example (illustrative)
+
+Vignette: a perishable-inventory model for a hospital blood bank choosing a daily order quantity when units expire after a fixed shelf life. The decision is the order-up-to level; the uncertainty is daily demand plus age-dependent outdating. A dynamic program is the right class because the contribution is the *form* of the optimal rule under perishability. The structural result — an order-up-to level that *declines as on-hand inventory ages* — is the insight; an illustrative numerical study shows a flat base-stock rule that ignores age raises outdating by 11% (numbers illustrative). The mechanism, aging shifting the marginal value of a unit, is what makes this OM rather than relabeled statistics.
+
+## Referee-pushback patterns and the venue fix
+
+- *"The model has no decision variable — it's just an equilibrium description."* → Introduce the operational lever (quantity, price, capacity, admission) the operator actually controls, and characterize how it responds to primitives.
+- *"Assumptions are made only for tractability."* → State what each buys structurally and what relaxing it costs in the numerical study; never leave the cost unexamined.
+- *"This is an economics/marketing model in OM clothing."* → If no operational decision changes, return to `msom-topic-selection`; M&SOM gates on an operations lever, not a clever equilibrium.
+
 ## Output format
 
 ```
