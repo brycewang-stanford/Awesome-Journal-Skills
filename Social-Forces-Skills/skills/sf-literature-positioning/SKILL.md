@@ -61,8 +61,8 @@ culture, networks, and religion. A positioning section passes this gate:
 | Who is the closest rival? | Named, engaged, out-argued | The nearest competitor is invisible |
 
 Calibration (hedged): SF sits a notch broader and less theory-maximalist than AJS or ASR — it rewards a
-methodologically solid, clearly-framed contribution over a sweeping theoretical statement, but the
-general-significance bar is still real. Confirm framing norms against the journal's current guidelines.
+methodologically solid, clearly-framed contribution over a sweeping theoretical statement, though the
+general-significance bar is still real.
 
 ## Worked vignette (illustrative)
 
@@ -77,7 +77,7 @@ the general-sociology stakes.
 ## Referee-pushback patterns and the SF fix
 
 - "Solid empirics, thin sociological payoff" → recast the finding as a move in a named mobility debate.
-- "You missed obvious work" → add the one or two anchors that *define* the debate, not a citation wall.
+- "You missed obvious work" → add the anchors that *define* the debate, not a citation wall.
 
 ## Output format
 

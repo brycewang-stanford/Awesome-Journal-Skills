@@ -60,6 +60,21 @@ prose (references count!) and exhibits (10-panel cap) before writing-style and s
 - Letting exhibits drift past 10 panels and discovering it at submission
 - Formatting to the ASA Style Guide or an AJS-style house format — SF uses **Chicago 17th author-date**
 
+## Symptom-to-route shortcuts
+
+When a user arrives mid-stream with a complaint rather than a stage, route on the symptom:
+
+| User says | Likely real problem | Route to |
+|-----------|---------------------|----------|
+| "Reviewer called it descriptive" | Missing portable argument | `sf-theory-building` |
+| "It's 1,500 words over" | References counted late | `sf-writing-style` |
+| "Reviewer doubts the causal claim" | Identification gap | `sf-research-design` |
+| "Feels too niche for SF" | General-significance gap | `sf-topic-selection` |
+
+Worked vignette (illustrative): a user brings a clean networks analysis but a referee wrote "elegant
+method, unclear social question." That is not a methods problem — route first to `sf-topic-selection`
+and `sf-theory-building` to surface the substantive payoff, then back to `sf-tables-figures` to ration
+the panels, only afterward to `sf-submission`.
 
 ## Router pass for Social Forces
 

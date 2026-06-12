@@ -48,6 +48,21 @@ social-science significance**, and a **theoretically grounded** contribution.
 - Expecting a quick accept — plan for at least one R&R
 - Ignoring the rigor expectations that define SF's reputation
 
+## Reading an SF decision letter
+
+The wording of a Social Forces decision maps to a posture. Use it to set expectations before you react:
+
+| Letter signal | Likely posture | Your move |
+|---------------|----------------|-----------|
+| "Of interest but not yet for a general audience" | Reframe-or-decline | Recast significance (see `sf-literature-positioning`) |
+| "Revise and resubmit, address identification" | Live R&R | Treat the editor's points as the rubric |
+| "Reviewers split on contribution" | Borderline | Sharpen the portable argument |
+| "Does not fit our scope" | Decline | Consider a subfield outlet |
+
+Worked vignette (illustrative): a stratification paper with a 0.15 SD estimate (illustrative) returns an
+R&R where the editor stresses one reviewer's selection concern and waves off a second reviewer's style
+gripe. Read literally, the decision is "fix selection, polish lightly" — so the falsification test, not
+the prose, is where the revision effort goes.
 
 ## Review-risk pass for Social Forces
 

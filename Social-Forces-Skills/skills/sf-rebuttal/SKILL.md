@@ -63,31 +63,28 @@ supplement to stay within the word and panel caps.
 
 ## Triaging reviewer demands against the SF budget
 
-Because a Social Forces R&R must still land within the reference-inclusive 10,000-word cap and the
-10-panel limit, every requested addition is a budget decision. Sort demands before drafting:
+Because an SF R&R must still land within the reference-inclusive 10,000-word cap and the 10-panel limit,
+every requested addition is a budget decision. Sort demands before drafting:
 
 | Reviewer demand | Default response | Budget handling |
 |-----------------|------------------|-----------------|
-| Editor's decisive point | Address fully, first | Spend words/panels here before anything else |
-| Reasonable robustness check | Run it | Summary panel in text; full grid to supplement |
-| Conflicting R2 vs R3 requests | Pick a principled path | Avoid doubling content to please both |
-| Out-of-scope expansion | Respectful, reasoned pushback | Protect the contribution and the cap |
+| Editor's decisive point | Address fully, first | Spend words/panels here first |
+| Reasonable robustness check | Run it | Summary panel in text; grid to supplement |
+| Conflicting R2 vs R3 | Pick a principled path | Avoid doubling content to please both |
+| Out-of-scope expansion | Reasoned pushback | Protect the contribution and the cap |
 
-Calibration (hedged): most published SF papers pass through at least one R&R and first-pass accepts are
-uncommon, so plan for a revision. Treat decision categories and timeline figures as reported norms to
-confirm against current journal guidelines.
+Calibration (hedged): most published SF papers pass through at least one R&R; treat decision categories
+as reported norms to confirm against current guidelines.
 
 ## Worked vignette (illustrative)
 
 A neighborhoods-and-attainment R&R: R1 wants a falsification test, R2 wants a long mechanisms section,
-R3 calls a control "post-treatment." The editor flagged identification as decisive, so the falsification
-test and the post-treatment fix go in the main text — the new test becomes one panel, replacing a
-now-redundant robustness table to stay at 10. R2's request is met with a tightened passage plus a
-supplementary analysis, not a 1,200-word section that would blow the cap. The letter quotes each
-comment, states the change location, and notes what moved to the supplement.
+R3 calls a control "post-treatment." The editor flagged identification as decisive, so both fixes go in
+the main text — the new test becomes one panel, replacing a now-redundant robustness table to stay at
+10. R2's request gets a tightened passage plus a supplementary analysis, not a section that blows the cap.
 
-Referee fixes: "you ignored my comment" → quote and answer every one; "revision is over length now" →
-trade content, move detail to the supplement, consolidate panels.
+Referee fixes: "you ignored my comment" → quote and answer every one; "over length" → move detail to
+the supplement.
 
 ## Output format
 
