@@ -69,6 +69,18 @@ description: Use when locking the study design and internal-validity safeguards 
 - No power calculation, then attributing a null result to "trends"
 
 
+## Worked example: locking the design (illustrative)
+
+Vignette (illustrative): a multicenter randomized clinical trial, N = 3,400 adults with acute kidney injury across 18 sites, early vs standard renal-replacement timing; pre-specified primary outcome 28-day all-cause mortality, 28.5% vs 31.2%, absolute risk difference -2.7 percentage points (95% CI, -6.1 to 0.7). For a Journal of the American Medical Association Original Investigation, the design safeguards a JAMA reviewer checks: a single pre-specified primary outcome, documented allocation concealment, intention-to-treat as primary (per-protocol only as sensitivity), and an a priori power calculation tied to mortality. The 95% CI crossing zero means the trial does not establish benefit — the Conclusions must say "no significant difference," not "a trend toward benefit."
+
+## Reviewer pushback and the JAMA fix
+
+- "Is this intention-to-treat or per-protocol?" Fix: make ITT the primary analysis and relegate per-protocol to clearly labeled sensitivity.
+- "Primary outcome looks chosen after seeing the data." Fix: cite the registry/protocol; demote any post hoc outcome to exploratory.
+- "Causal language from an observational design." Fix: switch to associational verbs and frame confounding as a residual threat.
+
+Calibration anchors (hedge where uncertain): a single pre-specified primary outcome, allocation concealment, ITT-as-primary, and an a priori power calculation are durable JAMA expectations; the matching EQUATOR checklist (CONSORT/STROBE/STARD/PRISMA) follows from the design — confirm specifics against current author guidelines.
+
 ## Operating pass for JAMA
 
 Run this as a concrete capability pass. First lock the clinical question, patient population, estimand or endpoint, safety/ethics issue, and reporting checklist; then test whether the manuscript addresses clinical reviewers who ask whether the evidence changes patient care, policy, or medical decision-making while satisfying reporting standards.

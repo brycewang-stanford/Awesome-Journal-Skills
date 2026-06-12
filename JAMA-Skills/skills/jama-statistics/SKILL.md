@@ -44,22 +44,21 @@ description: Use when preparing or auditing the statistical analysis and reporti
 
 ## Surviving JAMA's independent statistical review
 
-The Journal of the American Medical Association applies a dedicated statistical review to manuscripts under serious consideration — distinguishing it among general medical journals. Independent statisticians re-interrogate the analysis, so pre-empt the standard queries: a pre-specified primary outcome matching the registry; intention-to-treat as primary; pre-specified multiplicity control; missing data with imputation and a sensitivity analysis; and an absolute effect (risk difference / NNT) beside every relative measure.
+The Journal of the American Medical Association applies a dedicated statistical review to manuscripts under serious consideration — distinguishing it among general medical journals. Independent statisticians re-interrogate the analysis, so pre-empt the standard queries: a pre-specified primary outcome matching the registry; intention-to-treat as primary; pre-specified multiplicity control; missing data handled by imputation with sensitivity analysis; and an absolute effect (risk difference / NNT) beside every relative measure.
 
 ## Worked example: a primary-outcome readout (illustrative)
 
 Vignette (illustrative): a multicenter, double-blind randomized clinical trial, N = 5,000 adults with type 2 diabetes and cardiovascular disease, new agent vs placebo; pre-specified primary outcome major adverse cardiovascular events (MACE) over a median 3.1 years.
 
-- ITT result: 11.2% (280/2,500) vs 13.6% (340/2,500); absolute risk difference -2.4 percentage points (95% CI, -4.3 to -0.5); hazard ratio 0.82 (95% CI, 0.70-0.96); P = .01.
-- Correct readout: relative (HR with CI) and absolute (risk difference, ~42 NNT) effects both given, ITT, primary matches the registry; a "significant" secondary renal subgroup stays labeled exploratory with its interaction test.
+- ITT result: 11.2% vs 13.6%; absolute risk difference -2.4 percentage points (95% CI, -4.3 to -0.5); hazard ratio 0.82 (95% CI, 0.70-0.96); P = .01.
+- Correct readout: relative (HR with CI) and absolute (risk difference, ~42 NNT) effects both given, ITT, primary matches the registry; a "significant" secondary subgroup stays labeled exploratory with its interaction test.
 
 ## Reviewer pushback and the JAMA fix
 
 - "Primary outcome changed post hoc." Fix: restore the registered primary; demote the swap to labeled exploratory.
 - "Subgroup result drives the conclusion." Fix: report the interaction test, label it hypothesis-generating, re-anchor on the primary.
-- "No absolute effect for a clinician." Fix: add the risk difference and NNT.
 
-Calibration anchors (hedge where uncertain): estimate-plus-95%-CI over bare p-values, ITT-as-primary, pre-specification, and absolute-with-relative reporting are durable; notation rules track the AMA Manual of Style — confirm against the journal's current author guidelines.
+Calibration anchors (hedge where uncertain): estimate-plus-95%-CI over bare p-values, ITT-as-primary, pre-specification, and absolute-with-relative reporting are durable; notation rules track the AMA Manual of Style — confirm against current author guidelines.
 
 ## Checklist
 

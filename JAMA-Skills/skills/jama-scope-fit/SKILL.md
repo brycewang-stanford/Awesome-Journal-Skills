@@ -39,7 +39,7 @@ Match the article type to JAMA's current categories and word/format limits — v
 
 ## What the JAMA desk editor screens before review
 
-JAMA — the Journal of the American Medical Association, the AMA / JAMA Network flagship for a broad clinician readership — desk-rejects most submissions before external review. Triage turns on whether the finding plausibly changes clinical practice or policy, not whether it is correct. Common pre-review desk rejects: a single-center pilot pitched as practice-changing (route to specialty); a surrogate endpoint with no patient-relevant outcome (clinical-decision-impact bar unmet); a retrospectively registered trial (registration must precede enrollment); a mechanism/biomarker paper that changes no decision (basic-science journal); an underpowered "negative" trial framed as proof of no effect (absence of evidence is not evidence of absence).
+JAMA — the Journal of the American Medical Association, the AMA / JAMA Network flagship for a broad clinician readership — desk-rejects most submissions before external review. Triage turns on whether the finding plausibly changes clinical practice or policy, not whether it is correct. Common pre-review desk rejects: a single-center pilot pitched as practice-changing; a surrogate endpoint with no patient-relevant outcome; a retrospectively registered trial (registration must precede enrollment); a mechanism/biomarker paper that changes no decision; an underpowered "negative" trial framed as proof of no effect (absence of evidence is not evidence of absence).
 
 ## Worked example: routing a vignette (illustrative)
 
@@ -54,7 +54,7 @@ Verdict: strong fit for a JAMA Original Investigation (CONSORT). Contrast: the s
 - "Clinical bottom line not actionable for practice." Fix: restate importance as a concrete change to diagnosis, treatment, or prevention; if none exists, the venue is wrong.
 - "Audience too narrow for JAMA." Fix: evidence broad relevance, or move to the matching JAMA Network specialty title as plan B.
 
-Calibration anchors (hedge where uncertain): the general-medical-importance bar, the evidence hierarchy, and the clinical-decision-impact standard are durable; article-type word/exhibit caps are volatile — confirm against the journal's current author guidelines.
+Calibration anchors (hedge where uncertain): the general-medical-importance bar, the evidence hierarchy, and the clinical-decision-impact standard are durable; article-type word/exhibit caps are volatile — confirm against current author guidelines.
 
 ## Checklist
 

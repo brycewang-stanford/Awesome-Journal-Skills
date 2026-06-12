@@ -39,20 +39,20 @@ Keep it tight (Key Points is brief — verify the current word limit). It must a
 
 ## Worked example: a JAMA Results line and Key Points (illustrative)
 
-Vignette (illustrative): a multicenter randomized clinical trial, N = 1,900 adults with heart failure with preserved ejection fraction across 22 sites, structured exercise program vs usual care; pre-specified primary outcome 6-minute walk distance at 12 weeks.
+Vignette (illustrative): a multicenter randomized clinical trial, N = 1,900 adults with heart failure with preserved ejection fraction, exercise program vs usual care; pre-specified primary outcome 6-minute walk distance at 12 weeks.
 
-- Abstract Results line: "Among 1,900 participants (mean age, 71 years; 54% women), 12-week 6-minute walk distance increased by a mean of 31 m (95% CI, 18-44 m) vs usual care; heart-failure hospitalization did not differ (8.1% vs 9.0%; absolute risk difference, -0.9 percentage points [95% CI, -3.2 to 1.4])."
-- Key Points: Question — does the program improve functional capacity in HFpEF? Findings — in this randomized clinical trial of 1,900 patients, 6-minute walk distance improved by 31 m. Meaning — exercise may improve capacity, though hospitalization effects were not significant.
+- Abstract Results line: "Among 1,900 participants (mean age, 71 years; 54% women), 12-week 6-minute walk distance increased by a mean of 31 m (95% CI, 18-44 m) vs usual care; heart-failure hospitalization did not differ (absolute risk difference, -0.9 percentage points [95% CI, -3.2 to 1.4])."
+- Key Points: Question — does the program improve functional capacity in HFpEF? Findings — 6-minute walk distance improved by 31 m. Meaning — exercise may improve capacity, though hospitalization was unchanged.
 
-The Conclusions stay bound to the primary outcome and the Key Points agree numerically with the abstract — the consistency JAMA editors check first.
+The Conclusions stay bound to the primary outcome and the Key Points agree with the abstract.
 
 ## Reviewer pushback and the JAMA fix
 
 - "Results give adjectives, not effect sizes." Fix: replace "markedly improved" with the estimate + 95% CI.
-- "Conclusion rests on a secondary outcome." Fix: re-anchor Conclusions and Relevance on the pre-specified primary outcome.
-- "Trial Registration line missing / Key Points contradict the abstract." Fix: add the registry + identifier; reconcile the number and design statement across both.
+- "Conclusion rests on a secondary outcome." Fix: re-anchor Conclusions and Relevance on the primary outcome.
+- "Key Points contradict the abstract." Fix: reconcile the number and design statement; add any missing registration line.
 
-Calibration anchors (hedge where uncertain): the structured-heading set, numbers-first Results, the Trial Registration line, and the Key Points box are durable JAMA features; the abstract and Key Points word ceilings are volatile — confirm against the journal's current author guidelines.
+Calibration anchors (hedge where uncertain): the structured-heading set, numbers-first Results, and the Key Points box are durable JAMA features; word ceilings are volatile — confirm against current author guidelines.
 
 ## Checklist
 

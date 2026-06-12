@@ -43,11 +43,11 @@ Spin is language that makes results sound better than the data support. JAMA rev
 
 ## How JAMA editors read for spin and clarity
 
-At the Journal of the American Medical Association, manuscript editors and the AMA Manual of Style copy desk hold prose to a general-clinician readability standard and treat unsupported optimism as a fixable defect. The bar: a non-specialist clinician reads the Conclusions, knows what changes at the bedside, and trusts the wording does not exceed the data. Recurring house-style fixes: Conclusions warmer than the Results get rewritten to the primary outcome with adjectives deleted; stigmatizing labels ("diabetics") become person-first per current JAMA guidance; "P < .05" or a leading-zero "p=0.043" becomes exact P = .04 paired with the 95% CI; causal verbs on a cohort association become "was associated with"; and generic limitations ("as with all studies") name the specific bias, population bound, and missing data.
+At the Journal of the American Medical Association, manuscript editors and the AMA Manual of Style copy desk hold prose to a general-clinician readability standard and treat unsupported optimism as a fixable defect. The bar: a non-specialist clinician reads the Conclusions, knows what changes at the bedside, and trusts the wording does not exceed the data. Recurring fixes: Conclusions warmer than the Results get rewritten to the primary outcome; stigmatizing labels become person-first; a leading-zero "p=0.043" becomes exact P = .04 with the 95% CI; causal verbs on a cohort become "was associated with"; and generic limitations name the specific bias, population bound, and missing data.
 
 ## Worked micro-example: de-spinning a conclusion (illustrative)
 
-Vignette (illustrative): a prospective cohort, N = 12,500 adults, finds a dietary pattern associated with lower incident heart failure; adjusted hazard ratio 0.88 (95% CI, 0.79-0.98) over 8 years.
+Vignette (illustrative): a prospective cohort, N = 12,500 adults, finds a dietary pattern associated with lower incident heart failure; adjusted hazard ratio 0.88 (95% CI, 0.79-0.98).
 
 - Spun draft: "Adopting this diet reduces heart failure and should be recommended for all adults."
 - JAMA-calibrated rewrite: "Greater adherence was associated with lower incident heart failure (adjusted HR, 0.88; 95% CI, 0.79-0.98); whether the association is causal requires randomized evaluation."
@@ -57,9 +57,9 @@ The rewrite swaps the causal verb for associational language, keeps the estimate
 ## Reviewer pushback and the fix
 
 - "Conclusions overstate the data (spin)." Fix: tie the headline to the primary outcome; if null, say so and do not pivot to a secondary.
-- "Clinical bottom line not actionable." Fix: end the Discussion with one restrained sentence on what a clinician should now do, or that practice should not yet change.
+- "Clinical bottom line not actionable." Fix: end the Discussion with one restrained sentence on what a clinician should now do.
 
-Calibration anchors (hedge where uncertain): person-first language, exact-P / no-leading-zero notation, and estimate-plus-CI pairing are durable AMA conventions; reference-formatting and race/ethnicity rules evolve — confirm against the journal's current author guidelines and the latest AMA Manual of Style.
+Calibration anchors (hedge where uncertain): person-first language, exact-P / no-leading-zero notation, and estimate-plus-CI pairing are durable AMA conventions; reference-formatting and race/ethnicity rules evolve — confirm against the latest AMA Manual of Style.
 
 ## Checklist
 

@@ -57,6 +57,18 @@ Keep the count within JAMA's current figure/table limit — verify the exact num
 - Abbreviations undefined in the footnote
 
 
+## Worked example: auditing the main exhibits (illustrative)
+
+Vignette (illustrative): a multicenter randomized clinical trial, N = 2,200 adults, time-to-event primary outcome. For the Journal of the American Medical Association, the exhibit set is a CONSORT flow diagram reconciling all 2,200 participants (screened, randomized, analyzed, lost), a Table 1 of baseline characteristics shown without between-group significance tests, a main-outcome table giving the hazard ratio with its 95% CI plus the absolute risk difference, and a Kaplan-Meier figure with numbers at risk beneath the time axis. A bar chart of the primary outcome with no confidence interval, or a truncated y-axis that visually inflates a small effect, is the kind of exhibit a JAMA reviewer sends back.
+
+## Reviewer pushback and the JAMA fix
+
+- "RCT submitted with no flow diagram." Fix: add the CONSORT diagram and reconcile every participant with reasons for exclusion.
+- "Table 1 reports p-values (RCT)." Fix: drop the significance tests; show characteristics and let randomization speak.
+- "Figure shows p-values, not effect sizes." Fix: display the estimate with its 95% CI on every exhibit.
+
+Calibration anchors (hedge where uncertain): the mandatory flow diagram, p-value-free Table 1 for RCTs, estimate-plus-CI on every exhibit, and numbers-at-risk on KM curves are durable; the exact figure/table allowance is volatile — confirm against current author guidelines.
+
 ## Exhibit pass for JAMA
 
 Run this as a concrete capability pass. First lock the clinical question, patient population, estimand or endpoint, safety/ethics issue, and reporting checklist; then test whether the manuscript addresses clinical reviewers who ask whether the evidence changes patient care, policy, or medical decision-making while satisfying reporting standards.

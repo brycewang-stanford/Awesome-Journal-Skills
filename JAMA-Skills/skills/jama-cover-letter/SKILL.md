@@ -65,7 +65,7 @@ The cover letter is the first thing a Journal of the American Medical Associatio
 
 Vignette (illustrative): a multicenter randomized clinical trial, N = 3,800 adults with acute ischemic stroke, extended-window thrombectomy; pre-specified primary outcome 90-day functional independence (modified Rankin 0-2), absolute risk difference 7.7 percentage points (95% CI, 3.1-12.3).
 
-Importance sentence: "In this multicenter randomized clinical trial of 3,800 patients reported per CONSORT, extended-window thrombectomy increased 90-day functional independence by an absolute 7.7 percentage points (95% CI, 3.1-12.3), informing an everyday acute-stroke triage decision for emergency physicians, neurologists, and hospitalists." It gives the absolute effect with its CI, names the design and standard, and argues broad relevance in one breath.
+Importance sentence: "In this multicenter randomized clinical trial of 3,800 patients reported per CONSORT, extended-window thrombectomy increased 90-day functional independence by an absolute 7.7 percentage points (95% CI, 3.1-12.3), informing an everyday acute-stroke triage decision for emergency physicians, neurologists, and hospitalists." It gives the absolute effect with its CI, names the design and standard, and argues broad relevance.
 
 ## Reviewer / editor pushback and the JAMA fix
 

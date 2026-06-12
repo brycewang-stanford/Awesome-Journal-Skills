@@ -73,15 +73,15 @@ If the work is mechanistic, bench, or narrowly subspecialty (e.g., molecular onc
 
 ## Worked routing example (illustrative)
 
-A team hands over a near-complete multicenter randomized clinical trial (illustrative: N = 4,200, 90-day mortality, absolute risk difference -3.3 percentage points [95% CI, -5.9 to -0.7]) bound for the Journal of the American Medical Association, but the abstract is one block paragraph, the registration date is unverified, and the Results report only p-values. Route in dependency order, not symptom order: `jama-ethics-registration` first (registration timing is a hard gate), then `jama-statistics` (effect sizes with 95% CIs, ITT for statistical review), then `jama-figures-tables` (CONSORT diagram reconciles all 4,200), then `jama-structured-abstract` (structured headings plus Key Points), with `jama-writing-style` and `jama-submission` last. The job is to stop teams from polishing prose while a registration or primary-outcome defect sits unaddressed.
+A team hands over a near-complete multicenter randomized clinical trial (illustrative: N = 4,200, 90-day mortality, absolute risk difference -3.3 percentage points [95% CI, -5.9 to -0.7]) bound for the Journal of the American Medical Association, but the abstract is one block paragraph, the registration date is unverified, and the Results report only p-values. Route in dependency order, not symptom order: `jama-ethics-registration` first (registration timing is a hard gate), then `jama-statistics` (effect sizes with CIs, ITT), then `jama-figures-tables` (CONSORT diagram reconciles all 4,200), then `jama-structured-abstract`, with style and submission last. The job is to stop teams from polishing prose while a registration defect sits unaddressed.
 
 ## Router output format
 
 ```
-【Stage detected】scope / design / reporting / stats / exhibits / abstract / ethics / style / cover / submit / revision
+【Stage detected】scope / design / stats / exhibits / abstract / ethics / submit / revision
 【Hard gate unresolved?】registration timing / primary outcome / none
 【Recommended next skill】jama-...
-【Why this order】dependency note (what must precede polish)
+【Why this order】what must precede polish
 【Sibling-venue check】NEJM / Lancet / specialty re-route? yes-with-reason / no
 ```
 

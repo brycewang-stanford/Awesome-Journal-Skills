@@ -74,6 +74,18 @@ Always check the EQUATOR Network and JAMA's Instructions for Authors for the cur
 - Ignoring the abstract-level extension (e.g., CONSORT-for-abstracts)
 
 
+## Worked example: matching design to checklist (illustrative)
+
+Vignette (illustrative): a multicenter randomized clinical trial, N = 2,800 adults with sepsis, primary outcome 90-day mortality, absolute risk difference -3.1 percentage points (95% CI, -5.8 to -0.4). At the Journal of the American Medical Association this maps to CONSORT with a mandatory participant-flow diagram accounting for everyone screened, randomized, and analyzed; the completed CONSORT checklist must carry page/line locations, the title must state "randomized," and the abstract follows CONSORT-for-abstracts. Had the same question been answered by a cohort, the map would shift to STROBE with both unadjusted and adjusted estimates; a systematic review would shift to PRISMA with a study-selection diagram and a GRADE certainty assessment.
+
+## Reviewer pushback and the JAMA fix
+
+- "Reporting incomplete (CONSORT/PRISMA item X)." Fix: add the item and update the checklist's page/line location to match the revised text.
+- "Picked STROBE for a randomized trial." Fix: re-map to CONSORT; the design, not convenience, fixes the guideline.
+- "Only adjusted estimates reported (observational)." Fix: report unadjusted and adjusted estimates per STROBE.
+
+Calibration anchors (hedge where uncertain): the design-to-guideline mapping and the mandatory flow diagram for RCTs and reviews are durable; JAMA-specific extensions and required checklist files evolve — confirm against the EQUATOR Network and current author guidelines.
+
 ## Reporting pass for JAMA
 
 Run this as a concrete capability pass. First lock the clinical question, patient population, estimand or endpoint, safety/ethics issue, and reporting checklist; then test whether the manuscript addresses clinical reviewers who ask whether the evidence changes patient care, policy, or medical decision-making while satisfying reporting standards.

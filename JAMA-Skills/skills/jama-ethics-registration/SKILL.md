@@ -44,18 +44,17 @@ At the Journal of the American Medical Association, an ICMJE member journal, sev
 
 ## Worked example: registration timing (illustrative)
 
-Vignette (illustrative): a multicenter randomized clinical trial, N = 2,600 adults with resistant hypertension, primary outcome 24-week change in ambulatory systolic blood pressure, mean difference -6.4 mm Hg (95% CI, -8.9 to -3.9). First participant enrolled March 3; registered April 18.
+Vignette (illustrative): a multicenter randomized clinical trial, N = 2,600 adults with resistant hypertension, primary outcome 24-week change in ambulatory systolic blood pressure, mean difference -6.4 mm Hg (95% CI, -8.9 to -3.9). First participant enrolled March 3; registered April 18 — retrospective by ICMJE definition, ~6 weeks late.
 
-- Diagnosis: registration followed enrollment by ~6 weeks — retrospective by ICMJE definition.
-- Consequence and fix: generally not remediable; disclose the timing transparently in the manuscript and cover letter, do not backdate. The effect estimate and its CI do not cure a registration-timing defect.
+Consequence and fix: generally not remediable; disclose the timing transparently, do not backdate. The effect estimate does not cure a registration-timing defect.
 
 ## Reviewer pushback and the JAMA fix
 
 - "Trial not registered before enrollment." Fix: state the dates plainly; if retrospective, disclose and accept the venue may decline — never hide it.
 - "IRB approval obtained" with no committee named. Fix: name the specific IRB and the Helsinki / GCP basis.
-- "Data available upon request." Fix: replace with a concrete plan — what data, which documents (protocol, SAP), when, by what mechanism.
+- "Data available upon request." Fix: replace with a concrete plan — what data, which documents, when, by what mechanism.
 
-Calibration anchors (hedge where uncertain): prospective-before-enrollment registration, the four ICMJE authorship criteria, the Declaration of Helsinki, and per-author COI forms are durable; the accepted-registry list and exact data-sharing wording evolve — confirm against the journal's current author guidelines.
+Calibration anchors (hedge where uncertain): prospective-before-enrollment registration, the four ICMJE authorship criteria, the Declaration of Helsinki, and per-author COI forms are durable; the accepted-registry list and data-sharing wording evolve — confirm against current author guidelines.
 
 ## Checklist
 
