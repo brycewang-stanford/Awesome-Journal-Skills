@@ -46,9 +46,43 @@ problem?* If yes, you have a field-level contribution. If the argument only work
 platform or message, tighten it into a general communication logic or reframe (back to
 `joc-topic-selection`).
 
+## The theory-contribution bar at JoC (calibration anchor, hedged)
+
+A common substantive rejection at the ICA flagship is **"communication theory invoked but not
+advanced."** Citing a theory is not moving it. Calibrate where a paper sits:
+
+| Level | What the paper does to theory | JoC verdict (typical) |
+|-------|-------------------------------|-----------------------|
+| Applies | uses an existing framing/cultivation/agenda-setting account as-is | rarely enough alone |
+| Extends | adds a scope condition or moderator to a known mechanism | competitive if consequential |
+| Specifies | opens the mediating process a prior account left as a black box | strong fit |
+| Reconceptualizes / adjudicates | redefines a construct, or pits two mechanisms | the high-end contribution |
+
+Quantitative, computational, and interpretive/critical papers can all sit at the top tiers; the bar
+is the **theoretical move**, not the method. This is a heuristic, not an editorial rule.
+
+## Reviewer-pushback patterns and the theory-level fix
+
+| Referee comment | Underlying gap | Fix at the argument stage |
+|-----------------|----------------|---------------------------|
+| "Theory invoked but not advanced" | applies, does not extend | name the boundary added or black box opened |
+| "Effect without a mechanism" | no process | state the cognitive/affective/social step and how it is observed |
+| "Why doesn't this travel?" | scope conditions absent | give where the mechanism holds — and breaks |
+| "Construct slippage" | measured thing isn't the construct | re-anchor the definition; distinguish from neighbors |
+
+## Worked micro-example: from effect to mechanism (illustrative)
+
+A computational study finds local-news outlets covering a wildfire used **more thematic than episodic
+framing** — descriptive as a bare finding. Lifted to a JoC argument: **outlet resource constraints**
+drive a shift toward episodic framing under breaking-news pressure (mechanism), observable as a
+within-outlet move in an event's first 48 hours (implication), holding for **under-staffed local
+outlets** but not national desks (scope condition). A health-crisis or political-scandal scholar can
+now import the resource-pressure → framing-shift mechanism — the portability test passes.
+
 ## Anti-patterns
 
 - "Hypothesizing after results are known" (HARKing) — state theory before tests; preregister where possible
+- Invoking a communication theory in the framing without advancing it
 - A finding tied so tightly to one platform that it cannot travel
 - Mechanisms named but never made observable
 - Universal claims with no scope conditions (which audiences? which messages? which contexts?)
