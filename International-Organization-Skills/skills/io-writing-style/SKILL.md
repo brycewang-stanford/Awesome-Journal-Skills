@@ -54,25 +54,22 @@ IR field and respecting IO's format — not about generating claims.
 IO introductions that survive the screen tend to follow a recognizable arc. Adapt, don't copy:
 
 1. **The puzzle in world politics** — a real international phenomenon (why do rivals sign treaties they
-   could defect from?) any IR scholar recognizes as consequential.
+   could defect from?) any IR scholar finds consequential.
 2. **The live debate and its impasse** — the rival accounts and why existing IR theory cannot settle it.
 3. **The claim** — your portable theory of international politics, in one sentence, before any evidence.
 4. **Design and result in a breath** — the dyadic/treaty/experimental setup, the rival it rules out, and
-   the headline magnitude interpreted in IR terms (conflict probability, compliance, trade).
+   the headline magnitude in IR terms (conflict probability, compliance, trade).
 5. **The stakes** — what the field now understands about institutions, cooperation, or conflict that it
-   did not. This is the broad-significance close IO editors look for.
-
-A reader from a different paradigm should be able to restate your contribution after paragraph three.
+   did not. This is the broad-significance close IO editors look for; a reader from another paradigm
+   should be able to restate the contribution by paragraph three.
 
 ## Prose register for a methodologically plural IR audience
 
 Because IO mixes formal, quantitative, and qualitative readers, calibrate so none is excluded. A formal
 result reads better as "states with private information over resolve cannot credibly signal, so bargaining
-breaks down" *before* the proposition, so a qualitative reader meets the stakes first. A process-tracing
-narrative should surface its inferential logic ("this archival sequence is a smoking-gun test") so a
-quantitative reader sees the leverage. The shared standard: the **theory of world politics carries the
-prose** and the method serves it — the inverse reads as method-led and draws the "what's the IR
-contribution?" note.
+breaks down" *before* the proposition. A process-tracing narrative should surface its inferential logic
+so a quantitative reader sees the leverage. The shared standard: the **theory of world politics carries
+the prose** and the method serves it.
 
 ## Anti-patterns
 

@@ -69,8 +69,8 @@ wants more on norm internalization. The editor flags selection as decisive. The 
 editor's decisive point first — a ratification-timing design plus sensitivity analysis shows the effect
 attenuates by about a third but stays positive (illustrative), in a new SI table; (b) reconciles the
 paradigm conflict openly — R1's norm channel enters as a *scope-conditioning* mechanism, not a rival,
-consistent with the commitment theory, the tradeoff named for the editor; (c) ends each entry with the
-section/table location. The revised analysis stays scripted so IO's post-acceptance re-run still passes.
+consistent with the commitment theory; (c) ends each entry with the section/table location. The revised
+analysis stays scripted so IO's post-acceptance re-run still passes.
 
 ## Anti-patterns
 

@@ -50,18 +50,18 @@ Ask: *Could an IR scholar import this mechanism to a different issue area, dyad,
 yes, you have a generalizable IR theory. If it only works for your one case/IGO, generalize the logic
 or reframe (back to `io-topic-selection`).
 
-## Worked theory vignette (illustrative): from finding to portable IR theory
+## Worked theory vignette (illustrative): finding to portable theory
 
 Start with a bare finding: states joining an international monitoring institution show higher later
 compliance. As stated it is not yet an IO contribution — it could be selection and names no general
 mechanism. To build it into a theory: define the **construct** (*credible commitment via delegated
-monitoring*, distinct from mere membership); state the **cross-border mechanism** — monitoring makes
-violations common knowledge across the membership, so states anticipating future cooperation gains
-internalize the reputational cost, a logic running through the institution, not any domestic process;
-derive **observable implications** (gains concentrate where monitoring is informative and are *absent*
-where conduct is unobservable); bound it with **scope conditions** (verifiable conduct, repeated
-interaction); and check **portability** — the logic travels to arms control, trade dispute settlement, or
-environmental regimes, the reach that clears IO's broad-significance bar.
+monitoring*); state the **cross-border mechanism** — monitoring makes violations common knowledge across
+the membership, so states anticipating future cooperation gains internalize the reputational cost, a logic
+running through the institution, not any domestic process;
+derive **observable implications** (gains concentrate where monitoring is informative, *absent* where
+conduct is unobservable); bound it with **scope conditions** (verifiable conduct, repeated interaction);
+and check **portability** — the logic travels to arms control, trade dispute settlement, or environmental
+regimes, clearing IO's broad-significance bar.
 
 ## Theory-strength rubric (how an IO referee grades the argument)
 
@@ -72,7 +72,7 @@ environmental regimes, the reach that clears IO's broad-significance bar.
 | Weak | a finding with hypotheses attached post hoc | "atheoretical / ad hoc" |
 
 IO's theory premium means a Borderline argument with flawless empirics still often draws an R&R aimed at
-the theory (the threshold is referee-dependent).
+the theory, not the data.
 
 ## Anti-patterns
 

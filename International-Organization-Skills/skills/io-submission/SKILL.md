@@ -60,18 +60,17 @@ self-references. Verify volatile specifics on the official page before relying o
 
 ## Avoidable-rejection triage (catch these before upload)
 
-Some failures are administrative rather than intellectual, and IO's double-blind, word-counted,
-verification-gated process punishes them disproportionately. Rank your final pass by severity:
+Some failures are administrative, not intellectual, and IO's double-blind, word-counted process punishes
+them disproportionately. Rank your final pass by severity:
 
 | Severity | Failure | Where it bites |
 |----------|---------|----------------|
 | Fatal | author identity leaks (first-person self-cite, acknowledgments, metadata) | double-blind integrity |
 | Fatal | word count omits tables/figures/notes; paper is actually over cap | desk return for length |
-| High | wrong article type (a full study squeezed into a Research Note) | reviewer mismatch |
 | Medium | no Data Availability Statement before the references | transparency-policy gap |
 
-The two fatal rows are the most common avoidable IO rejections; both are caught in five minutes by a
-clean-room read of the anonymized PDF and a recomputed word count.
+The two fatal rows are the most common avoidable IO rejections; both are caught by a clean-room read of
+the anonymized PDF and a recomputed word count.
 
 ## Worked preflight vignette (illustrative)
 
