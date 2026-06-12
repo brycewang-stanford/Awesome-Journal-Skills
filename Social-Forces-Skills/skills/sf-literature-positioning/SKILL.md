@@ -69,16 +69,15 @@ general-significance bar is still real. Confirm framing norms against the journa
 A panel study of educational stratification finds first-generation students at broad-access colleges
 close about 30% of the completion gap (illustrative) when structured advising is present. Weak: "Few
 studies examine advising at broad-access colleges." SF-grade: "The reproduction literature treats
-institutional sorting as the binding constraint on first-gen attainment (anchors); we show an
-organizational mechanism — advising — is partly substitutable for selectivity, reframing whether 'where
-you enroll' or 'how you are supported' carries the mobility effect." That enters a debate, names the
-rival (pure-sorting account), and states the general-sociology stakes.
+institutional sorting as the binding constraint on first-gen attainment (anchors); we show advising is
+partly substitutable for selectivity, reframing whether 'where you enroll' or 'how you are supported'
+carries the mobility effect." That enters a debate, names the rival (pure-sorting account), and states
+the general-sociology stakes.
 
 ## Referee-pushback patterns and the SF fix
 
 - "Solid empirics, thin sociological payoff" → recast the finding as a move in a named mobility debate.
 - "You missed obvious work" → add the one or two anchors that *define* the debate, not a citation wall.
-- "Reads as a subfield paper" → add the cross-subfield sentence: who outside your area can use this.
 
 ## Output format
 

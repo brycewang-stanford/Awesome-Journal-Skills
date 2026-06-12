@@ -81,15 +81,13 @@ A neighborhoods-and-attainment study uses a sibling comparison: children in one 
 different neighborhood poverty via a mid-childhood move. Movers to lower-poverty tracts show a 0.12 SD
 test-score gain (illustrative). SF-grade adjudication: "If the effect were pure selection it should
 vanish within families; instead the within-family estimate is 0.09 SD, so selection explains at most a
-quarter." Pairing this with an Oster-style sensitivity bound — how strong must unobserved selection be
-to null the effect? — is what moves an SF referee from skeptic to advocate.
+quarter." Pairing this with an Oster-style sensitivity bound moves an SF referee from skeptic to advocate.
 
 ## Referee-pushback patterns and the SF fix
 
 - "Selection threatens the inference" → add a within-unit comparison or sensitivity bound.
 - "Mechanism under-specified" → state the observable implication tested and what would have disconfirmed it.
 - "Clustering at the wrong level" → cluster at treatment/sampling level; wild-cluster bootstrap if few.
-- "Case choice looks like convenience" → restate the selection logic and what the case is a case *of*.
 
 ## Output format
 

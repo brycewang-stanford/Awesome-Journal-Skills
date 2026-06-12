@@ -86,16 +86,12 @@ abstract limits, and OA terms are exactly the volatile items to confirm against 
 
 A work-and-occupations manuscript looks "ready" at 9,700 words of text with a clean intro and a data
 statement. The preflight catches what a screener catches first: the reference list adds 1,100 words,
-pushing the true count to 10,800 (illustrative, over cap); a 3-panel mechanism figure plus eight tables
-makes 11 panels; and an acknowledgements footnote names a grant. Fix sequence: trim citations under
-10,000, fold two tables into one to reach 10 panels, move the acknowledgement to the separate title
-page. Now it survives screening.
+pushing the true count to 10,800 (illustrative, over cap); a 3-panel figure plus eight tables makes 11
+panels; and an acknowledgements footnote names a grant. Fix sequence: trim citations under 10,000, fold
+two tables into one to reach 10 panels, move the acknowledgement to the title page. Now it survives.
 
-## Referee-pushback patterns and the SF fix
-
-- "Desk-rejected for length" → recount *with* references and endnotes, then trim to the real cap.
-- "Anonymity compromised" → strip file metadata and neutralize self-citations to "Author (year)".
-- "Missing data statement" → draft it via `sf-data-and-transparency` and paste it into the manuscript.
+Referee fixes: "desk-rejected for length" → recount *with* references and endnotes; "anonymity
+compromised" → strip file metadata and neutralize self-citations to "Author (year)".
 
 ## Output format
 

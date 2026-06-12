@@ -80,11 +80,8 @@ collapses three multi-citation strings into single anchors (about 500 reference 
 methods appendix to the supplement (another 300) — landing near 10,000 with the argument intact. The
 lesson SF rewards: the reference list is a budget line, not free text.
 
-## Referee-pushback patterns and the SF fix
-
-- "Reads as an insider paper" → rewrite the opening so a non-sociologist sees the stakes in two sentences.
-- "Over the word cap" → cut throat-clearing, consolidate citations (refs count), tighten endnotes.
-- "Abstract buries the finding" → put the result and its significance in the first two sentences.
+Referee fixes: "reads as an insider paper" → rewrite the opening so a non-sociologist sees the stakes;
+"over the word cap" → cut throat-clearing, consolidate citations (refs count), tighten endnotes.
 
 ## Output format
 

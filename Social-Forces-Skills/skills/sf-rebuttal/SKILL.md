@@ -81,16 +81,13 @@ confirm against current journal guidelines.
 
 A neighborhoods-and-attainment R&R: R1 wants a falsification test, R2 wants a long mechanisms section,
 R3 calls a control "post-treatment." The editor flagged identification as decisive, so the falsification
-test and the post-treatment-control fix go in the main text — the new test becomes one panel, replacing
-a now-redundant robustness table to stay at 10. R2's request is met with a tightened two-paragraph
-passage plus a supplementary analysis, not a 1,200-word section that would blow the cap. The letter
-quotes each comment, states the change location, and notes what moved to the supplement.
+test and the post-treatment fix go in the main text — the new test becomes one panel, replacing a
+now-redundant robustness table to stay at 10. R2's request is met with a tightened passage plus a
+supplementary analysis, not a 1,200-word section that would blow the cap. The letter quotes each
+comment, states the change location, and notes what moved to the supplement.
 
-## Referee-pushback patterns and the SF fix
-
-- "You ignored my comment" → quote every comment and respond to each; silence reads as non-compliance.
-- "Revision is over length now" → trade content, move detail to the supplement, consolidate panels.
-- "Exhibits don't match the data statement" → update the master script and statement together.
+Referee fixes: "you ignored my comment" → quote and answer every one; "revision is over length now" →
+trade content, move detail to the supplement, consolidate panels.
 
 ## Output format
 

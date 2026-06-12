@@ -70,18 +70,15 @@ numbers against the journal's submission guidelines, since exhibit limits can ch
 
 ## Worked vignette (illustrative)
 
-A motherhood-wage-penalty study has 14 candidate panels: a main fixed-effects table, a 4-panel
-heterogeneity figure, two robustness tables, a balance table, a first-stage table. Rationing to ten:
-keep one marginal-effects plot (about 6% per child, illustrative, with 95% intervals), collapse the
-heterogeneity figure to the two panels that show the gradient, fold both robustness tables into a single
-coefficient-comparison plot, and move balance and first-stage tables to the supplement — from 14 to
-roughly 7 main panels with magnitude and uncertainty visible at a glance.
+A motherhood-wage-penalty study has 14 candidate panels: a fixed-effects table, a 4-panel heterogeneity
+figure, two robustness tables, a balance table, a first-stage table. Rationing to ten: keep one
+marginal-effects plot (about 6% per child, illustrative, with 95% intervals), collapse the heterogeneity
+figure to the two panels that show the gradient, fold both robustness tables into one coefficient plot,
+and move balance and first-stage tables to the supplement — from 14 to roughly 7 main panels with
+magnitude and uncertainty visible at a glance.
 
-## Referee-pushback patterns and the SF fix
-
-- "Table is not self-contained" → put units, sample, N, and estimand in the title and note.
-- "Can't see the magnitude" → swap the dense coefficient table for an effects plot with intervals.
-- "Over the panel cap" → consolidate robustness into one panel; push detail to the supplement.
+Referee fixes: "table is not self-contained" → put units, sample, N, and estimand in title and note;
+"over the panel cap" → consolidate robustness into one panel and push detail to the supplement.
 
 ## Output format
 
