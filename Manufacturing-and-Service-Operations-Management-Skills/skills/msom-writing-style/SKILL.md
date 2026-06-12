@@ -53,13 +53,12 @@ M&SOM weights clarity and managerial relevance alongside validity, so the prose 
 
 ## Worked micro-example (illustrative)
 
-Vignette: an analytical paper on dynamic capacity allocation for a cloud-computing provider. A theorem-first opening reads "Proposition 1 establishes the value function is concave and the optimal admission policy monotone." The M&SOM rewrite leads with the insight in words: "When demand is volatile, reserve capacity for high-value jobs up to a threshold that *tightens as volatility rises*, turning away low-value work that looks profitable in the moment." The managerial-implications subsection then carries one plain sentence with an illustrative magnitude — thresholding lifts revenue per server-hour by roughly 8% over first-come-first-served (illustrative). Same result; the operations insight now leads.
+Vignette: an analytical paper on dynamic capacity allocation for a cloud-computing provider. A theorem-first opening reads "Proposition 1 establishes the value function is concave and the optimal admission policy monotone." The M&SOM rewrite leads with the insight in words: "When demand is volatile, reserve capacity for high-value jobs up to a threshold that *tightens as volatility rises*, turning away low-value work that looks profitable now." The managerial-implications subsection then carries one plain sentence with an illustrative magnitude — thresholding lifts revenue per server-hour by roughly 8% over first-come-first-served (illustrative). Same result; the operations insight now leads.
 
 ## Referee-pushback patterns and the venue fix
 
 - *"The introduction is impenetrable until I read the model."* → Move the plain-language operational insight to the first paragraph; defer notation.
-- *"The structured abstract is jargon-heavy or missing a part."* → Rewrite all four subsections in practitioner language; never drop managerial implications. Confirm the exact subsection wording against the journal's author guidelines.
-- *"Proofs in the body crowd out the insight."* → Keep intuition in the body, full proofs in the online supplement, and respect the typeset page cap by cutting prose, not formatting.
+- *"The structured abstract is jargon-heavy or missing a part."* → Rewrite all four subsections in practitioner language; never drop managerial implications, and confirm the exact subsection wording against the journal's author guidelines. Keep proofs in the supplement and intuition in the body, respecting the page cap by cutting prose, not formatting.
 
 ## Output format
 
