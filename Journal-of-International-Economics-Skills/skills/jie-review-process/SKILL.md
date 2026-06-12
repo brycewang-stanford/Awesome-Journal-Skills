@@ -39,6 +39,18 @@ PRP is JIE's distinctive accelerator. If your paper was **rejected at AER, Econo
 - Attaching only the favorable parts of a prior referee report under PRP
 - Expecting general-interest-journal acceptance odds at a field journal
 
+## What survives the desk screen — a referee's-eye checklist
+
+The desk screen runs on three questions before a paper reaches referees. Pass all three or expect a desk-reject (confirm current rates against the editors' pages).
+
+- [ ] **Scope half is unambiguous**: the paper is clearly trade *or* international macro/finance, and a (Co-)Editor in that half is suggested. A mis-routed trade paper landing with a macro editor reads as a poorer fit than it is.
+- [ ] **Originality axis is nameable in one line**: new motivation (data/fact) *or* new modelling structure — not "important" or "policy-relevant."
+- [ ] **Core method is field-credible on its face**: gravity is PPML with multilateral-resistance fixed effects; a structural claim is disciplined against moments; a policy effect has a credible-identification sketch in the intro.
+
+## PRP routing worked example (illustrative)
+
+A trade paper is rejected at QJE after two referee rounds; the reports praise the firm-level customs data but split on the structural counterfactual. Under PRP the author selects 'PRP' from the Article Type menu and attaches the full QJE decision letter and *both* referee reports — favorable and critical — not a curated subset. The cover note suggests a trade (Co-)Editor and flags that the structural concern is the live issue, so the JIE editor can target a referee on exactly that. PRP carries no extra fee beyond the standard submission fee and does not bypass JIE's own judgment; it informs it. Confirm the qualifying-journal list (AER, Econometrica, JPE, QJE, REStud) and any procedural detail against the current author guidelines before relying on it.
+
 ## Output format
 
 ```

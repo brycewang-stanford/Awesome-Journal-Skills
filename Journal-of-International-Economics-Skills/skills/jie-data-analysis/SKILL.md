@@ -51,6 +51,20 @@ JIE referees come from international trade or international macro/finance and ap
 - Reporting stars without the trade/welfare/pass-through magnitude
 - Ad hoc analysis with no script trail, breaking the mandatory replication deposit later
 
+## Referee-pushback patterns and the JIE-specific fix
+
+The objections an international-economics referee raises most, with the move that resolves each. Each maps to a concrete change in the empirical section.
+
+- "Gravity estimates without multilateral resistance / still on log-OLS." Fix: re-estimate with PPML (`ppmlhdfe`/`fepois`), importer×time and exporter×time fixed effects, pair fixed effects for policy effects; keep zeros; report the elasticity, not just significance.
+- "Trade-policy variable is endogenous — RTAs form where trade is already growing." Fix: pair fixed effects to absorb time-invariant selection, pre-trend event study, phase-in/anticipation modelled, and a falsification on flows the policy should not touch.
+- "Shift-share exposure may proxy a local trend." Fix: state whether identification rests on exogenous shares or shifts, use Adao–Kolesar–Morales or Borusyak–Hull–Jaravel inference, and show exposure is uncorrelated with pre-period trends.
+- "Quantitative model is not disciplined by the data." Fix: tabulate targeted vs untargeted moments, report counterfactuals under a range of trade elasticities, and show the headline result is not an artifact of one un-pinned-down parameter.
+- "Inference ignores dyadic dependence." Fix: multi-way (exporter and importer) clustering, not a single cluster dimension.
+
+## Worked micro-example (illustrative numbers)
+
+A gravity panel of bilateral manufacturing trade, 60 countries × 20 years, asking whether an RTA raises members' trade. Log-OLS on positive flows returns an RTA coefficient of, say, 0.55 (about a 73% increase). Re-estimating in PPML with importer×time, exporter×time, and pair fixed effects — retaining the ~30% of dyad-years with zero trade — the coefficient falls to roughly 0.20 (about 22%). That drop is the textbook Santos Silva–Tenreyro pattern: log-OLS over-weighted small positive flows and discarded informative zeros. Multi-way clustering on exporter and importer widens the standard error enough that the honest takeaway is "a modest, precisely-bounded RTA effect," not the inflated log-OLS number. (Figures illustrative, chosen to show the mechanism.)
+
 ## Output format
 
 ```

@@ -45,6 +45,10 @@ description: Use when running the final pre-submission preflight for the Journal
 ### Fee
 - [ ] Submission fee budgeted: **USD 190 / EUR 169.20 / JPY 20,660** (USD 95 if all authors are PhD students); VAT noted for European authors
 
+## Last-mile sanity pass before you press submit
+
+Three errors cause the most avoidable bounces, all fixable in minutes: editor mismatch (a trade paper with no suggested trade editor risks routing to a macro editor, and vice versa — set the suggestion to your scope half); a PRP misfire (selecting PRP without a qualifying AER/Econometrica/JPE/QJE/REStud letter plus the full reports, favorable and critical); and an over-long or citation-laden abstract (the cap is 150 words, references avoided). Re-confirm the fee amount, any length limit, and the anonymization model against the live author guide before relying on them — these are the volatile fields.
+
 ## Anti-patterns
 
 - Treating the fee as refundable or skipping it (submission will not proceed)

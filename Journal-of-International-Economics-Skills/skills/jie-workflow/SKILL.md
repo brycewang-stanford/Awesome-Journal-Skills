@@ -65,6 +65,21 @@ Treat this skill as an executable review pass, not a prose hint. First lock the 
 - **Sibling guard:** compare against JPubE for public-finance policy, JDE for development settings, JME for monetary macro emphasis; if a sibling owns the contribution, recommend re-routing before polishing format.
 - **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
 
+## Triage by symptom (where to jump in)
+
+Most manuscripts do not start at step one. Match the loudest current problem to the skill, then return to the default sequence.
+
+- "A referee will say my gravity is biased" → jie-identification-strategy (PPML / multilateral resistance), then jie-data-analysis.
+- "The RTA/tariff timing is staggered and I used plain TWFE" → jie-identification-strategy (modern DID), then jie-data-analysis.
+- "My structural counterfactual hinges on one elasticity" → jie-data-analysis (elasticity-sweep robustness), then jie-tables-figures (targeted vs untargeted moments).
+- "Editors might call it incremental" → jie-contribution-framing (motivation vs modelling axis), backed by jie-literature-positioning.
+- "Not sure it's trade or macro-finance" → jie-topic-selection (scope half), which also fixes editor suggestion.
+- "Heading to acceptance" → jie-replication-and-data-policy (Mendeley Data deposit) before jie-submission.
+
+## Cross-pack guardrail (the trade vs macro-finance split)
+
+Every skill in this pack forces the same first decision: which half of JIE you are in. The split changes the currency of the contribution (a trade elasticity / welfare gain versus a pass-through / cyclicality / default moment), the referee pool, and the (Co-)Editor to suggest. Carry the answer through the whole pipeline; a paper framed in one half's currency but routed to the other reads as a weaker fit than it is.
+
 ## Output format
 
 ```

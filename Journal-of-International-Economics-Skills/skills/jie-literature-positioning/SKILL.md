@@ -36,6 +36,10 @@ State the contribution as a **delta**: "Relative to [frontier paper(s)], we [new
 - Ignoring the handling-editor's own frontier when it is the obvious comparison
 
 
+## Worked delta example (illustrative)
+
+A firm-level tariff-war paper positions on the trade side. The closest frontier is the China-shock / shift-share exposure literature and the structural-gravity tradition. A weak positioning says "we contribute to the trade-policy literature." A JIE-grade delta names the closest two or three papers and states the gap precisely: "Relative to aggregate-exposure studies of the tariff war, we use firm-level customs records to show the export response is concentrated in [a margin those papers cannot see], which revises the implied trade elasticity downward." That sentence is legible to a trade referee, defends a real gap rather than a genre, and ties the novelty to the originality axis (new data / new fact). Check that no recent JIE or AER paper already closed it before staking the claim.
+
 ## Positioning pass for Journal of International Economics
 
 Treat this skill as an executable review pass, not a prose hint. First lock the cross-border margin, model or identification source, and replication/data readiness; then judge whether the current manuscript answers the venue's real reader: international-economics reviewers who separate trade, open-economy macro, international finance, and sovereign-risk audiences.

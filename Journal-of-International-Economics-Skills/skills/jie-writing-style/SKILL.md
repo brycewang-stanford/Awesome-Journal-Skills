@@ -40,6 +40,10 @@ JIE serves a readership split between **international trade** and **internationa
 - Hand-formatting references to a guessed style when Elsevier restyles at proof anyway
 
 
+## Abstract worked example (illustrative)
+
+A pass-through paper's abstract should, in one ≤150-word factual paragraph, name the question, the design, and the magnitude — no citation padding. Illustrative shape: "We estimate exchange-rate pass-through into import prices using [data] and horizon-by-horizon local projections, conditioning on currency of invoicing. Long-run pass-through is about 0.5, concentrated in dollar-invoiced flows; [counterfactual] implies [magnitude] for the trade balance." Note what makes it JIE-fit: it states the macro-finance half clearly, leads with the economic magnitude rather than significance, and avoids a "lesson for all of macro" frame. A trade paper's abstract would instead lead with the gravity/structural design and a trade-elasticity or welfare number. (Numbers illustrative.)
+
 ## Style execution pass for Journal of International Economics
 
 Treat this skill as an executable review pass, not a prose hint. First lock the cross-border margin, model or identification source, and replication/data readiness; then judge whether the current manuscript answers the venue's real reader: international-economics reviewers who separate trade, open-economy macro, international finance, and sovereign-risk audiences.

@@ -48,6 +48,10 @@ JIE referees split between international trade and international macro/finance; 
 - Notes that force the reader back into the text to interpret the exhibit
 
 
+## Worked gravity-table example (illustrative)
+
+The headline gravity table should let a referee read the design without the text. A JIE-grade column reports: estimator (PPML), the fixed-effect rows (importer×time ✓, exporter×time ✓, pair ✓), the number of zero-flow observations retained (say, ~30% of dyad-years), the clustering (two-way: exporter and importer), and the RTA coefficient with its economic reading in the note (e.g., "0.20 ⇒ about a 22% trade increase" — illustrative). A weak table prints the coefficient and three stars and hides the estimator and FE structure, forcing the referee into the body to reconstruct what was run. The note alone should answer: what sample, what estimator, what FE, what clustering, and what the number means in trade units.
+
 ## Exhibit pass for Journal of International Economics
 
 Treat this skill as an executable review pass, not a prose hint. First lock the cross-border margin, model or identification source, and replication/data readiness; then judge whether the current manuscript answers the venue's real reader: international-economics reviewers who separate trade, open-economy macro, international finance, and sovereign-risk audiences.

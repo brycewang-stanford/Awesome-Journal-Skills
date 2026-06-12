@@ -64,6 +64,10 @@ JIE judges credibility by the **standards of international economics**, where "i
 - A calibrated model that matches one moment and is sold as validated
 - A local trade/pass-through estimate oversold as a structural global parameter
 
+## Referee-pushback patterns with the venue fix
+
+The four objections that sink identification at JIE, and the move that answers each: "gravity without multilateral resistance / on log-OLS" → PPML with importer×time and exporter×time fixed effects, zeros retained, elasticity reported; "trade-policy timing is endogenous" → pair fixed effects, a pre-trend event study, modelled phase-in, and a falsification on untouched flows; "shift-share exposure proxies a local trend" → an explicit share-vs-shift exogeneity claim with Adao–Kolesar–Morales or Borusyak–Hull–Jaravel inference; "the quantitative model is not disciplined by the data" → targeted and untargeted moments side by side, plus a counterfactual that survives a sweep over the un-pinned-down trade elasticity. Naming the branch (A–E) and pre-empting its signature objection in the design section is what separates a credible JIE identification from one a referee can puncture in a paragraph.
+
 ## Output format
 
 ```

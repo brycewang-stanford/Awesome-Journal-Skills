@@ -35,6 +35,10 @@ Write a single paragraph that names: (1) the international-economics question, (
 - A framing the results cannot actually support (over-claiming)
 
 
+## Worked framing example (illustrative)
+
+A firm-level tariff-war paper. Weak framing: "this is an important and timely study of trade policy." JIE-grade framing names the axis and the currency: "The field measured the tariff war at the aggregate level; with firm-level customs records (motivation originality) we show the export contraction is concentrated in [margin], implying a trade elasticity of about [X] — illustrative — that revises the welfare cost downward." It declares the trade half, leads with a magnitude, and claims originality on one axis (motivation), not both. The same result framed for the macro-finance half — pass-through or current-account currency — would read as incremental to a trade referee, so frame for the half that will referee it.
+
 ## Contribution pass for Journal of International Economics
 
 Treat this skill as an executable review pass, not a prose hint. First lock the cross-border margin, model or identification source, and replication/data readiness; then judge whether the current manuscript answers the venue's real reader: international-economics reviewers who separate trade, open-economy macro, international finance, and sovereign-risk audiences.

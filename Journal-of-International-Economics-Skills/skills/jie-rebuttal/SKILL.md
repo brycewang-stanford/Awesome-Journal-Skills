@@ -38,6 +38,19 @@ JIE assigns referees from the relevant half of the field (international trade or
 - Patching a gravity log-OLS objection instead of moving to PPML
 - Expanding scope so far the paper loses the originality that earned the R&R
 
+## Pushback-to-response patterns (JIE-specific)
+
+The recurring R&R demands and the response that closes them. Use the Comment → Response → Where pattern for each.
+
+- "Multilateral resistance not controlled / log-OLS gravity." Response: re-estimate in PPML with importer×time and exporter×time fixed effects, keep zeros, report the new elasticity; point to the revised gravity table.
+- "RTA/tariff timing is endogenous." Response: add pair fixed effects, a pre-trend event study, and a placebo on untouched flows; point to the new event-study figure.
+- "Structural model matches only targeted moments." Response: add an untargeted-moments panel and a counterfactual robustness sweep over the trade elasticity; point to the new moments table and appendix.
+- "Pass-through estimate confounds the source of the exchange-rate move." Response: condition on currency of invoicing, switch to local projections with a clean horizon, and separate the disconnect channel; point to the revised impulse responses.
+
+## Worked vignette (illustrative)
+
+A pass-through paper gets an R&R: Referee 1 (macro) wants currency-of-invoicing controls; Referee 2 (trade) questions whether the import-price response is gravity-consistent. The letter opens to the handling editor with the headline change ("we now estimate horizon-by-horizon local projections with invoicing controls; the long-run pass-through estimate moves from, say, 0.6 to 0.5 — illustrative — and is now robust"). Then it answers Referee 1 point-by-point with the new controls and the revised figure location, and answers Referee 2 by showing the estimate is consistent with the structural elasticity in a short appendix — without conceding a control that would break the macro referee's identification. Concede where right, decline-with-reason where a request would dilute the originality that earned the R&R.
+
 ## Output format
 
 ```

@@ -47,6 +47,18 @@ JIE requires that **all results be capable of replication**, and that **all mate
 - No README mapping exhibits to scripts, so the package is unrunnable
 - Building the package only after acceptance, then discovering it does not reproduce
 
+## Data-availability decision aid for international-economics sources
+
+Match each input to the right deposit treatment; the wrong choice either breaches a license or makes the pipeline unrunnable.
+
+- **Public-but-licensed (Comtrade, BACI/CEPII, WITS, IMF IFS/BOP, BIS, PWT, External Wealth of Nations):** deposit extraction/cleaning code plus exact query parameters and access dates; do not repost raw files you cannot redistribute.
+- **Proprietary microdata (firm-level customs, bank or transaction records):** deposit the full programs and a data-availability statement naming the provider and access route; the pipeline must replicate even when the microdata cannot ship.
+- **Self-constructed data (a new tariff/NTM measure, a hand-coded RTA or default history):** deposit the data and construction code — often the paper's novelty, so it must be reproducible.
+
+## Worked deposit example (illustrative structure)
+
+A gravity-plus-counterfactual paper. `run_all.do` calls in order: `01_build_baci.do` (BACI → clean dyad-year panel), `02_merge_gravity.do` (CEPII covariates), `03_ppml.do` (the `ppmlhdfe` estimates behind Tables 2–4), `04_counterfactual.jl` (the exact-hat-algebra welfare exercise behind Figure 5), and `05_exhibits.do` (regenerates every exhibit). The README maps each exhibit to its script, lists package versions, records the BACI access date and Comtrade query string, sets the bootstrap seed, and notes the raw BACI files are reproducible from the recorded query but not redistributed. Stage all of this for the JIE secure repository (Mendeley Data) before acceptance.
+
 ## Output format
 
 ```
