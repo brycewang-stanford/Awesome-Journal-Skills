@@ -40,20 +40,20 @@ description: Use when verifying trial registration, IRB/ethics approval, informe
 
 ## Compliance gates JAMA enforces before review
 
-At the Journal of the American Medical Association, an ICMJE member journal, several integrity items are hard gates: a manuscript that fails them is stopped regardless of scientific merit. Treat each as pass/fail. Registration must precede first enrollment with the ID in the abstract and Methods; ethics approval names a specific IRB / ethics committee and states the Declaration of Helsinki; consent is described or its waiver is IRB-justified; every author meets the four ICMJE criteria and files a per-author COI disclosure; and the funder's role plus a concrete ICMJE-style data-sharing plan are stated.
+At the Journal of the American Medical Association, an ICMJE member journal, several integrity items are hard gates: a manuscript that fails them is stopped regardless of merit. Treat each as pass/fail — registration before first enrollment (ID in abstract and Methods); a named IRB / ethics committee and the Declaration of Helsinki; consent described or its waiver IRB-justified; the four ICMJE authorship criteria with per-author COI disclosure; and the funder's role plus a concrete ICMJE-style data-sharing plan.
 
 ## Worked example: registration timing (illustrative)
 
-Vignette (illustrative): a multicenter randomized clinical trial, N = 2,600 adults with resistant hypertension, primary outcome 24-week change in ambulatory systolic blood pressure, mean difference -6.4 mm Hg (95% CI, -8.9 to -3.9). First participant enrolled March 3; registered on ClinicalTrials.gov April 18.
+Vignette (illustrative): a multicenter randomized clinical trial, N = 2,600 adults with resistant hypertension, primary outcome 24-week change in ambulatory systolic blood pressure, mean difference -6.4 mm Hg (95% CI, -8.9 to -3.9). First participant enrolled March 3; registered April 18.
 
 - Diagnosis: registration followed enrollment by ~6 weeks — retrospective by ICMJE definition.
-- Consequence and fix: generally not remediable at submission; disclose the timing transparently in the manuscript and cover letter, do not backdate. The effect estimate and its CI do not cure a registration-timing defect.
+- Consequence and fix: generally not remediable; disclose the timing transparently in the manuscript and cover letter, do not backdate. The effect estimate and its CI do not cure a registration-timing defect.
 
 ## Reviewer pushback and the JAMA fix
 
 - "Trial not registered before enrollment." Fix: state the dates plainly; if retrospective, disclose and accept the venue may decline — never hide it.
-- "IRB approval obtained" with no committee named. Fix: name the specific IRB / ethics committee and the Helsinki / GCP basis.
-- "Data available upon request." Fix: replace with a concrete plan stating what data, which documents (protocol, SAP), when, and by what mechanism.
+- "IRB approval obtained" with no committee named. Fix: name the specific IRB and the Helsinki / GCP basis.
+- "Data available upon request." Fix: replace with a concrete plan — what data, which documents (protocol, SAP), when, by what mechanism.
 
 Calibration anchors (hedge where uncertain): prospective-before-enrollment registration, the four ICMJE authorship criteria, the Declaration of Helsinki, and per-author COI forms are durable; the accepted-registry list and exact data-sharing wording evolve — confirm against the journal's current author guidelines.
 

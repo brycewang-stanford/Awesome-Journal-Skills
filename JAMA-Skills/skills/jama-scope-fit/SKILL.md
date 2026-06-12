@@ -39,7 +39,7 @@ Match the article type to JAMA's current categories and word/format limits — v
 
 ## What the JAMA desk editor screens before review
 
-JAMA — the Journal of the American Medical Association, the AMA / JAMA Network flagship for a broad clinician readership — desk-rejects most submissions before external review. Triage turns on whether the finding plausibly changes clinical practice or policy for general medicine, not whether it is correct. Common pre-review desk rejects: a single-center pilot pitched as practice-changing (not generalizable; route to specialty); a surrogate endpoint with no patient-relevant outcome (clinical-decision-impact bar unmet); a retrospectively registered trial (registration must precede enrollment; rarely remediable); a mechanism or biomarker paper that changes no decision (belongs in a basic-science journal); and an underpowered "negative" trial framed as proof of no effect (absence of evidence is not evidence of absence).
+JAMA — the Journal of the American Medical Association, the AMA / JAMA Network flagship for a broad clinician readership — desk-rejects most submissions before external review. Triage turns on whether the finding plausibly changes clinical practice or policy, not whether it is correct. Common pre-review desk rejects: a single-center pilot pitched as practice-changing (route to specialty); a surrogate endpoint with no patient-relevant outcome (clinical-decision-impact bar unmet); a retrospectively registered trial (registration must precede enrollment); a mechanism/biomarker paper that changes no decision (basic-science journal); an underpowered "negative" trial framed as proof of no effect (absence of evidence is not evidence of absence).
 
 ## Worked example: routing a vignette (illustrative)
 
