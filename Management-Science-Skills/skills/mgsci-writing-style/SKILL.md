@@ -36,6 +36,23 @@ Because the contribution must **travel across departments**, avoid sub-field jar
 
 There is no formal limit at initial submission, but brevity is rewarded and **invited revisions** are capped (47 pages double-spaced / 32 pages 1.5-spaced, online appendix excluded). Tighten now so a revision is not a triage emergency later.
 
+## Worked micro-example (illustrative): tightening a platform-competition draft
+
+Because Management Science is the broad multidisciplinary INFORMS flagship, the Department Editor first reading your prose may be from another field entirely. An Information Systems / Business Strategy submission models two-sided platform competition with an empirical test. The draft abstract opens: "We study the interaction between cross-side network effects and seller multi-homing under heterogeneous buyer search costs." A reader cannot tell what was found.
+
+Front-loaded rewrite (numbers illustrative): "When buyer search costs fall by half, the equilibrium flips from single- to multi-homing and platform commissions drop from 15% to about 9%; a marketplace lowering friction should expect thinner take rates, not fatter." Now result, mechanism, and decision lever land in one sentence a finance or operations reader also grasps. The discipline: claim the qualitative flip robustly, but treat the 9% as illustrative of direction, not a forecast.
+
+## Referee-pushback patterns and the prose-level fix
+
+- **"I could not find the contribution until the conclusion."** Front-load a one-sentence result with a decision lever on page 1.
+- **"The notation is impenetrable for a non-specialist."** A flagship-specific risk: a single-field journal's reviewers share your symbols; the cross-department pool here may not. Add a notation table; verbalize every proposition.
+- **"This reads like an Operations Research / Marketing Science paper."** Prose is method- or single-application-forward; re-angle toward the cross-department reading.
+
+## Calibration anchors
+
+- The default reader is informed but not from your subfield — calibrate to a reader from one of the journal's other departments (optimization, finance, operations, marketing, information systems, behavioral economics, strategy).
+- The house bar is rigor expressed economically *and* a visible management contribution; prose nailing one and dropping the other reads as off-mission. Exact length and abstract specs can change — confirm against the current author guidelines.
+
 ## Anti-patterns
 
 - A first page that is all background and no result.

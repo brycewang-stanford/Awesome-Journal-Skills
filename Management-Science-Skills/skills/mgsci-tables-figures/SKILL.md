@@ -55,6 +55,14 @@ Run this as a concrete capability pass. First lock the decision problem, formal 
 - **Sibling comparison:** compare against Operations Research for method-first optimization, Marketing Science for marketing models, Organization Science for organization-theory mechanisms; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
 - **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
 
+## Worked micro-example (illustrative) and exhibit pushback
+
+A platform-competition paper's main empirical table reports a commission elasticity of −0.4 (illustrative) but only as a starred coefficient. Because Management Science readers span many departments, a finance or operations co-reviewer cannot judge the magnitude. The fix: add a marginal-effect plot showing commissions falling from 15% to 9% as search costs halve, with axes and the managerial takeaway labeled, and move the long proof of the comparative-static result to the online appendix (excluded from the invited-revision cap). Now both the analytical insight and the empirical magnitude read off the exhibits without the body text.
+
+- **"I cannot interpret this table without the text."** Add a self-contained note defining every symbol, the SE/clustering, and the sample; an exhibit must stand alone for a cross-department reader.
+- **"The interaction is only a coefficient."** Plot the marginal effect so the practical magnitude is visible, not just the star.
+- **"The main body is over the page cap."** Offload secondary robustness tables and long proofs to the online appendix; confirm the current cap against the author guidelines.
+
 ## Output format
 
 ```

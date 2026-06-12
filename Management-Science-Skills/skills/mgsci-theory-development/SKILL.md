@@ -54,6 +54,14 @@ Run this as a concrete capability pass. First lock the decision problem, formal 
 - **Sibling comparison:** compare against Operations Research for method-first optimization, Marketing Science for marketing models, Organization Science for organization-theory mechanisms; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
 - **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
 
+## Worked micro-example (illustrative) and theory pushback
+
+A platform model assumes buyers single-home and derives that the platform always raises commissions as network effects grow. In the flagship's Operations Management / Business Strategy lane, a referee asks whether the result is mechanical — driven entirely by the single-homing assumption. The fix names the mechanism (network effects raise the platform's marginal value of a seller), relaxes single-homing as a scope condition, and shows the comparative static can reverse when multi-homing is cheap (commissions fall from 15% to about 9%, illustrative). The proposition now carries a managerial reading a finance reader also grasps — take rates are not monotone in network strength — the cross-department insight the flagship rewards.
+
+- **"The model insight is mechanical."** Show the result survives relaxing the assumption that drives it, or state precisely the scope condition under which it holds and reverses.
+- **"What is the theory here?"** Name the mechanism explicitly; a proposition or hypothesis without a mechanism reads as algebra or correlation, not theory.
+- **"Elegant but no managerial reading."** Add the comparative-static or boundary-condition intuition that tells a decision-maker in another department what changes.
+
 ## Output format
 
 ```

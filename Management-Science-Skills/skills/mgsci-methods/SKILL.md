@@ -45,6 +45,30 @@ Whatever the lane, the design must (a) be able to support the specific claim and
 
 Management Science verifies data and code for accepted papers before publication (Data and Code Disclosure Policy, articles on/after July 1, 2019). Design your pipeline — analytical numerics or empirical estimation — so a single master script regenerates every result from raw inputs.
 
+## Department-fit map: which lane bar applies
+
+Because Management Science is the multidisciplinary INFORMS flagship of many departments, "the rigor bar" is the bar of the department whose editor desk-screens you.
+
+| Candidate department | The standard it enforces |
+|----------------------|--------------------------|
+| Optimization and Decision Analytics | Provable structure or bounds, not just a solver run |
+| Stochastic Models and Simulation | Honest confidence intervals; analytical structure where possible |
+| Behavioral and Decision Analysis | Pre-registration, manipulation/attention checks, power |
+| Finance / Accounting (empirical) | Credible exogenous variation; clustered SE |
+
+## Worked micro-example (illustrative): designing an operations field experiment
+
+A team wants to claim algorithmic shift-recommendations raise gig-driver retention, aiming at the Operations Management / Behavioral lane. Design A compares drivers who opted in versus those who did not — opt-in is self-selected, so a referee reads the gap as selection, not effect. Design B randomizes recommendations on for 50% of new drivers, powered for a 4-point lift (illustrative), and pre-commits market-clustered errors. Design B clears the bar by ruling out selection by construction; Design A is desk-vulnerable on identification despite the data existing.
+
+## Referee-pushback patterns and the venue-specific fix
+
+- **"Which department is this, and does the method meet that bar?"** Name the home department and confirm the design meets its specific standard — a generic "rigorous method" claim does not survive the multi-department desk.
+- **"Solved numerically; where is the structural insight?"** A solver run alone reads as Operations Research engineering; add comparative statics or bounds so the managerial reading is general.
+
+## Calibration anchors
+
+- The journal spans analytics-to-behavioral, so a method exemplary in one department may look under-powered to another; match the design to the reviewer pool, not your own training. The unifying premium is rigor *and* a clear management contribution; confirm current Disclosure requirements against the author guidelines.
+
 ## Anti-patterns
 
 - A model class chosen for tractability that cannot answer the actual question.

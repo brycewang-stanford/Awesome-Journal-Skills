@@ -36,6 +36,29 @@ The journal aims for an **ambitious turnaround** — reportedly giving high-qual
 
 Read the **Department Editor's letter first** — it tells you which reviewer concerns are binding and which are advisory.
 
+## Desk-reject reason map
+
+Because Management Science is the multidisciplinary INFORMS flagship, the desk screen is run by a Department Editor enforcing that department's rigor bar and the cross-department fit test.
+
+| Desk-reject reason | What it signals | Implied next move |
+|--------------------|-----------------|-------------------|
+| "Better suited to a sister INFORMS journal" | A routing verdict, not necessarily quality | Re-aim or target the named journal |
+| "Contribution does not clear the bar" | Rigor present, decision insight thin | Reframe; do not just resubmit |
+| "No clear home department" | Ambiguous-fit; arbitration redirected it | Name a department + the bridge |
+
+## Worked micro-example (illustrative): two letters
+
+Letter A: "Interesting model, but the algorithmic contribution would be better appreciated at Operations Research." This is a routing verdict — the work may be excellent, just mis-homed; do not appeal. Letter B: "The identification does not rule out selection, and the managerial implication is unclear." This is a substantive reject on two flagship bars (empirical leverage and a decision-relevant contribution); a major reframe plus a stronger design is needed. Distinguishing routing from substantive rejects decides whether you re-aim or rebuild.
+
+## Referee-pushback patterns and the venue-specific fix
+
+- **"Which department is this, and does it clear that bar?"** Make the home department explicit at submission so the right editor desk-screens it; confirm the design meets that department's standard.
+- **"This belongs at a sister INFORMS journal."** Surface the cross-department travel that distinguishes a flagship paper.
+
+## Calibration anchor
+
+Desk-reject shares, reviewer counts, and turnaround targets above are approximate and evolve — treat them as orientation, and confirm current figures against editorial statements.
+
 ## Anti-patterns
 
 - Treating a fit-based desk reject as a quality verdict (it is often a routing verdict).

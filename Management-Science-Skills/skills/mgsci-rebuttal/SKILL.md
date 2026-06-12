@@ -35,6 +35,27 @@ In Management Science the **Department Editor** synthesizes the reviews and sign
 - **Data and Code Disclosure:** update the replication package so it regenerates **every** main-text result in the revised paper; the Data Editor will verify it before publication.
 - Keep author-year citation style and update references for any new work cited.
 
+## Concern-triage table
+
+The Department Editor's letter ranks concerns; treat each by type, not reviewer order.
+
+| Concern type | Treatment in the revision |
+|--------------|---------------------------|
+| DE-flagged "binding" | Resolve fully; headline it in the summary of changes |
+| Identification / proof correctness | Add the test or tighten the step; never assert |
+| Cross-department fit / "so what" | Strengthen the contribution and travel case |
+| Reviewer-only "advisory" | Address briefly; defer to DE on conflicts |
+
+## Worked micro-example (illustrative): an R&R on a platform field experiment
+
+The DE letter calls one concern binding: a referee argues the retention effect could be a novelty bump that fades. The author leads the response with the binding fix — a pre-registered 12-week follow-up showing the effect persists at roughly 3 points (illustrative) versus 4 at week 4 — placed in the main text, with extended tables moved to the online appendix to protect the page cap. A second referee wanted alternative clustering; the author adds it as a robustness column rather than asserting the original was fine. Each response quotes the comment, states the change, and gives section and exhibit. The structure (binding first, evidence not assertion, appendix offload) is the point.
+
+## Referee-pushback patterns and the venue-specific fix
+
+- **"You did not address the Department Editor's main concern."** Reorder the response so the binding DE point is resolved first and visibly.
+- **"You asserted robustness instead of showing it."** Add the actual test (placebo, alternative spec, follow-up wave) the referee named.
+- **"The revision is over the page cap."** Move new proofs and secondary tables to the online appendix, which is excluded from the count; confirm the current cap in the author guidelines.
+
 ## Anti-patterns
 
 - Answering reviewers but ignoring the Department Editor's prioritization.

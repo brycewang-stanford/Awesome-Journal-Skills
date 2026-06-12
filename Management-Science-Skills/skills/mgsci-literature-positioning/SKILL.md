@@ -32,6 +32,30 @@ Because Management Science prizes insight that **travels across departments**, p
 - Use **author-year (name–date)** in-text citations, e.g., (Norman 1977) or Norman (1977); references alphabetical by author in INFORMS/journal style. Configure your reference manager accordingly.
 - Cite the canonical foundational works *and* the most recent Management Science papers in the conversation — currency signals you are in the live debate.
 
+## Positioning-to-department map
+
+Management Science is the multidisciplinary INFORMS flagship, so the literature you cite is the routing signal: it tells the desk which department owns you. Misaligned citations route you to the wrong editor.
+
+| If your bibliography leans... | The desk infers |
+|-------------------------------|-----------------|
+| Pure algorithm/complexity papers | Operations Research, not the flagship |
+| One application's empirical canon only | A focused sister journal (M&SOM, Marketing Science) |
+| Department anchor + one bridging stream | Home department, cross-department reach |
+
+## Worked micro-example (illustrative): positioning a platform-pricing paper
+
+A paper derives optimal commission schedules for a two-sided platform and tests them on marketplace data. A gap-spotting intro ("no paper studies commissions under multi-homing") invites a reviewer to name three. The problematized rewrite engages the closest prior model, notes it assumes single-homing, and shows relaxing it reverses the commission comparative static — then cites the canonical platform-pricing reference and recent Management Science papers to signal currency. Because the result speaks to Operations Management (home) and Finance (take-rate implications), it names that bridge explicitly — the cross-department case the flagship rewards.
+
+## Referee-pushback patterns and the venue-specific fix
+
+- **"You are not engaging the relevant literature."** You positioned into a stream whose Department Editor will not claim the paper; re-anchor on the department that desk-screens it and cite that pool's canon.
+- **"This is gap-spotting."** Convert the gap into a problematization — name the assumption the received model takes for granted, and show your paper overturns it under stated conditions.
+- **"Why Management Science and not a sister INFORMS journal?"** Make the cross-department bridge explicit so the contribution exceeds a single field.
+
+## Calibration anchor
+
+The flagship rewards positioning that is at once department-legible and cross-department-relevant; the roster can shift, so confirm the current set first.
+
 ## Anti-patterns
 
 - A literature review that is a neutral catalogue, not an argument that sets up your move.

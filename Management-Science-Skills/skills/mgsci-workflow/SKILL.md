@@ -48,6 +48,26 @@ mgsci-review-process → mgsci-rebuttal
 
 Skip stages that are already solid; loop back when a Department Editor or reviewer pushes.
 
+## Desk-reject early-warning router
+
+Most Management Science deaths are fit and contribution failures caught at the desk, not deep methodological flaws. Route on the symptom before investing more.
+
+| Early-warning symptom | Likely desk verdict | Route to |
+|-----------------------|---------------------|----------|
+| Cannot name a single home department | "Off fit / better elsewhere" | `mgsci-topic-selection` |
+| Method is a polished algorithm, thin managerial reading | Redirect toward Operations Research | `mgsci-topic-selection` / `mgsci-methods` |
+| Result is correct but no decision changes | "So what" reject | `mgsci-contribution-framing` |
+| Empirical causal claim with selection unaddressed | Identification reject | `mgsci-methods` / `mgsci-data-analysis` |
+| Insight confined to one application area | Reads as a sister-journal paper | `mgsci-contribution-framing` |
+
+## Worked routing micro-example (illustrative)
+
+A user has a solved queueing model of hospital ED diversion and "some data." Because the journal is the multidisciplinary INFORMS flagship, the router first asks the department question: this is Stochastic Models / Operations Management, not a generic OR submission, so the managerial lever (a diversion policy a hospital manager would adopt) must be explicit. The model exists, so skip theory-development; the gap is that the comparative statics carry no decision reading and the empirical test is observational. Route: `mgsci-contribution-framing` to sharpen the decision lever, then `mgsci-methods` to upgrade identification before any polishing. Polishing prose first would be wasted effort against a desk that screens on fit and contribution.
+
+## Calibration anchor
+
+The flagship spans analytical-to-behavioral across many departments; the router's job is to surface the department and the cross-department travel early, because those — not formatting — decide most outcomes. Confirm the current department roster and masthead on INFORMS PubsOnline.
+
 ## Output format
 
 ```
