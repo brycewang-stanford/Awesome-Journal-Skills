@@ -50,14 +50,12 @@ Every exhibit must pull its weight and reproduce from the deposited Dataverse pa
 
 ## Exhibit-objection patterns and the venue-specific fix
 
-A World Politics referee uses the exhibits to check whether a cross-case result is real, so exhibit
-objections track the venue's emphasis on magnitude, transparency, and travel.
+A World Politics referee uses exhibits to check whether a cross-case result is real, so objections
+track the venue's emphasis on magnitude, transparency, and travel.
 
 | Referee objection | The fix this skill drives |
 |-------------------|----------------------------|
 | "Table needs the prose to be read" | Make it self-contained: units, cases/sample, N, span, source in title and note |
-| "Stars, no magnitude" | Switch to a coefficient/marginal-effects plot showing intervals |
-| "Which cases is this?" | Name the case base and time span on the exhibit itself |
 | "Process-tracing claim not auditable" | Add an evidence table linking each claim to its document/interview source |
 
 ## Worked micro-example (illustrative)
@@ -66,14 +64,13 @@ A hypothetical study of **alliance reliability and deterrence** has one dense 14
 table. The redesign carries the argument better:
 
 ```text
-Before: Table 3, 14 columns of coefficients + stars, no case labels
-After:  Figure 3 — forest plot of the alliance-reliability effect across 6 model variants,
-        95% intervals, N = 1,940 dyad-years, COW + ATOP, 1946–2010 noted on the figure
-Supplement: full 14-column table + balance checks moved to Online Appendix (within 15-page cap)
+Before: 14-column coefficient table + stars, no case labels
+After:  forest plot across 6 variants, 95% intervals, N = 1,940 dyad-years, COW + ATOP, 1946–2010
+Supplement: full table + balance checks → Online Appendix (within 15-page cap)
 ```
 
 The figure shows magnitude and uncertainty at a glance while the full table stays auditable in the
-supplement. (Numbers illustrative; verify the supplement cap against the current submission page.)
+supplement. (Numbers illustrative; verify the cap against the submission page.)
 
 ## Exhibit pass for World Politics
 
