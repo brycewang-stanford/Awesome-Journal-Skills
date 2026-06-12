@@ -62,6 +62,40 @@ Verify volatile specifics on the official page before relying on them.
 - A black-box model with no calibration/evaluation or no data/code/model deposit
 - Sending a full study to the Perspective track (wrong type and length)
 
+## Worked micro-example (illustrative)
+
+A crop–livestock simulation study with scenario analysis is readied for upload; the preflight catches
+three avoidable failures:
+
+- **Abstract = 268 words** → over the 250 cap. Trimmed to 242 by cutting two methods sentences and one
+  caveat, keeping purpose, principal result, and the trade-off conclusion.
+- **No graphical abstract** → a conceptual crop–livestock system diagram is prepared, satisfying the
+  requirement and doubling as the framing exhibit.
+- **Model deposited, run scripts not** → Elsevier counts code and models as research data, so run
+  scripts and parameter files are added to the deposit and the data-availability statement links the
+  DOI, pre-empting a late reproducibility hold (see `agsy-review-process`).
+
+Result: a clean upload rather than three Editorial Manager bounce-backs.
+
+## Desk-reject patterns this preflight catches
+
+- *Fit failure.* A single-factor field trial with no interactions, model, or trade-off reads as an
+  agronomy paper at a systems journal — reframe via `agsy-topic-selection` or re-route.
+- *Black-box model.* No version, calibration, evaluation, or deposit → the model cannot be assessed.
+- *Wrong track.* A full study compressed into Perspective length, or a Perspective padded into a
+  research paper — type/length mismatch is an early screen.
+- *Incomplete front matter.* Missing Highlights, graphical abstract, CRediT, COI, or ORCID stalls the
+  submission before review starts.
+
+## Calibration anchors (hedged where policy is volatile)
+
+- The ≤250-word abstract, Highlights, and graphical abstract are standing Elsevier front-matter
+  expectations; confirm exact wording and any new fields on the current author guidelines.
+- The portal is Editorial Manager; legacy `ees.elsevier.com/agsy` links redirect — confirm the current
+  submission URL (待核实).
+- Any APC for the hybrid Gold OA option is set by the publisher — confirm after acceptance, not from
+  memory.
+
 ## Output format
 
 ```

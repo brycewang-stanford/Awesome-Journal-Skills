@@ -58,6 +58,34 @@ vs. encouraged — on the journal page; see 待核实.)
 - A personal URL instead of a citable repository with a permanent identifier
 - Undocumented, un-seeded, unpinned runs that "work on my machine"
 
+## Worked micro-example (illustrative)
+
+An agent-based crop–livestock model with a licensed weather input is packaged. Elsevier treats more than
+tabular data as "research data," so each artifact maps to a sharing path:
+
+- **Model code** is open → deposited on Zenodo with a tagged version and DOI; the commit is cited.
+- **Weather data** is licensed → cannot be redeposited. The README names the provider, license, and
+  version, and ships a synthetic series so a reader can exercise the workflow end-to-end.
+- **ABM documentation** follows the ODD protocol so the model can be re-implemented, not just re-run;
+  **seeds** are fixed and `renv.lock` pins the toolchain.
+
+Outcome: a reviewer can reproduce every exhibit except the licensed input, for which a documented,
+exercisable substitute exists.
+
+## Referee pushback → the AgSy-specific fix
+
+- *"The model is a black box."* → Deposit code (or pin the version) and document structure, parameters,
+  and the calibration/evaluation split; add the ODD protocol for an ABM.
+- *"Data are on a personal website."* → Move to a citable repository with a permanent identifier.
+- *"Only the data is shared."* → Add run scripts, parameter files, and the model/version — Elsevier
+  counts them as research data.
+
+## Calibration anchors (hedged where policy is volatile)
+
+- Whether deposit is strictly mandatory or strongly encouraged is set by the Elsevier research-data
+  policy as applied by the journal — confirm the current strength on the author guidelines.
+- The ODD protocol is a community standard for agent-based models, not a journal format.
+
 ## Output format
 
 ```

@@ -55,6 +55,19 @@ review-process → submission → revision-and-rebuttal`
 
 Iterate: most systems papers loop framing ↔ modelling ↔ evaluation several times before writing-style.
 
+## Worked routing example (illustrative)
+
+A user arrives mid-project: "I have a calibrated whole-farm model and scenario runs, but a colleague
+says it 'reads like an agronomy paper.'" The router diagnoses and dispatches:
+
+- *Stage:* framing/positioning, not writing — the systems claim is unclear.
+- *First route:* `agsy-systems-framing-and-modeling` to make the boundary, interaction, and the
+  "interaction or it isn't AgSy" test explicit.
+- *Then:* `agsy-literature-positioning` to engage the modelling literature, then
+  `agsy-data-and-model-evaluation` to confirm the held-out evaluation and trade-off exhibit exist.
+- *Why this order:* the "agronomy paper" symptom is a framing failure; polishing prose first would not
+  fix a missing systems question.
+
 ## Anti-patterns
 
 - Treating AgSy like a field-trial agronomy journal — the contribution must be a systems analysis

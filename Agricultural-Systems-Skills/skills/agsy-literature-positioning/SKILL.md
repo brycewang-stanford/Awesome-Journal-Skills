@@ -41,6 +41,26 @@ add another data point to one subfield.
 | a landscape/regional analysis | the aggregation/emergence and land-use-competition literature |
 | a food-system study | the production, environment, and policy literatures it connects |
 
+## Worked micro-example: locating one contribution (illustrative)
+
+A bioeconomic study of climate adaptation positions itself in two literatures at once:
+
+- *Domain:* mixed crop–livestock adaptation studies, citing the works that frame the margin–environment
+  trade-off as unresolved at farm scale.
+- *Methods:* whole-farm bioeconomic modelling, naming why this model is chosen over a crop-only
+  simulator (it represents the herd–manure–rotation feedback the trade-off depends on).
+- *Gap, stated precisely:* prior models hold feed price exogenous and so cannot show how price shocks
+  reshape land use — not "little is known."
+- *Strongest rival:* a regional integrated-assessment paper, whose scale hides the farm-level feedback
+  this study isolates and evaluates.
+
+## Referee pushback → the AgSy-specific fix
+
+- *"You ignored the relevant modelling work."* → Add the methods literature (model family, calibration,
+  trade-off analysis), not just the domain papers.
+- *"The contribution reads as incremental."* → Name the specific systems gap (a mismodelled interaction,
+  an untested scale) your design closes.
+
 ## Anti-patterns
 
 - A "literature dump" with no organizing systems question

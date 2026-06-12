@@ -54,6 +54,28 @@ Change: [Section/page/figure-table number; new evaluation/sensitivity run where 
 Open with a short **summary of the main changes** to the editor; group by reviewer; end each entry with
 the location of every change so the editor can verify quickly.
 
+## Worked micro-example: two conflicting reviewers (illustrative)
+
+A crop–livestock simulation gets a major revision. R1 wants three more management scenarios; R2 wants a
+simpler model and doubts the calibration. The response resolves the conflict openly rather than splitting
+the difference:
+
+- *To R2 (decisive — the editor flagged calibration):* added an independent evaluation on held-out
+  2018–2021 (NSE = 0.71, illustrative), reported in new Table 3; kept the model complexity because the
+  herd–manure–rotation feedback is the contribution and a simpler model cannot represent it.
+- *To R1:* added two of the three scenarios that change the trade-off; explained that the third
+  duplicates an existing one and would not shift the Pareto front.
+- *To the editor:* a cover note states the chosen path — strengthen evaluation, add targeted scenarios,
+  retain the systems structure — and why it serves the decision-relevance the paper claims.
+
+## Referee pushback → the AgSy-specific fix
+
+- *"Model not validated."* → Add the held-out evaluation and report it as a new exhibit; cite the table.
+- *"Make the model simpler."* → Defend the load-bearing interaction; show what a simpler model loses,
+  rather than conceding a change that collapses the systems framing.
+- *"Scenarios are not policy-relevant."* → Re-specify scenarios around an actual decision and name the
+  actor.
+
 ## Anti-patterns
 
 - Ignoring or merging away a comment without a visible response

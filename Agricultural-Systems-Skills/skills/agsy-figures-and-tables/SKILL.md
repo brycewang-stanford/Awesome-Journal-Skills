@@ -40,6 +40,27 @@ paper.
   article; move full calibration tables, parameter lists, and exhaustive scenario grids to
   **supplementary material**.
 
+## Pick the exhibit from the claim (illustrative)
+
+A crop–livestock simulation has four candidate main figures; choose by what the systems claim needs:
+
+- *Claim is "the model is credible"* → observed-vs-simulated 1:1 plot with RMSE/NSE/bias on the figure.
+- *Claim is "there is a trade-off"* → Pareto front of gross margin vs. N surplus across options, with
+  the recommended region marked — not a scenario bar chart that hides the frontier.
+- *Claim is "feedbacks drive the result"* → time series of state variables (herd, manure N, rotation)
+  showing the loop, with an ensemble band for uncertainty.
+- *Claim is "this is a system"* → a conceptual boundary-and-components diagram, often the graphical
+  abstract.
+
+## Referee pushback → the AgSy-specific fix
+
+- *"The main figure is a single-treatment bar chart."* → Replace it with a trade-off or 1:1 exhibit that
+  shows interactions, not one factor.
+- *"Fit is asserted, not shown."* → Pair the observed-vs-simulated plot with the fit statistics on the
+  same figure.
+- *"No uncertainty on the headline result."* → Add intervals, an ensemble band, or boxplots; one model
+  run is not a result.
+
 ## Anti-patterns
 
 - A single-treatment bar chart presented as the main result of a "systems" paper

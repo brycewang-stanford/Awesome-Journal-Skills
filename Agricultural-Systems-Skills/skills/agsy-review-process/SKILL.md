@@ -46,6 +46,26 @@ Verify volatile specifics on the official page (待核实).
 - Surface trade-offs and decision relevance (avoids "no clear application").
 - Have data/code/model deposit ready (avoids a late reproducibility hold).
 
+## Desk-screen gate (what trips the early decision)
+
+Before external review, the editor screens for fit and substance. Map your submission to the gate:
+
+- *Systems content present?* If the only "interaction" is a treatment effect, it reads as a field trial
+  — a common fit desk rejection.
+- *Model assessable?* A black-box model (no version, calibration, or evaluation) cannot be reviewed and
+  is screened out or returned.
+- *Decision relevance visible?* If the "so what for a decision" is absent, expect "no clear application."
+- *Track correct?* A full study in the Perspective slot, or a Perspective padded to a paper, is a
+  type/length mismatch caught early.
+
+## Referee pushback → the AgSy-specific fix
+
+- *"This is a dressed-up single-factor study."* → Make the interaction and trade-off explicit up front
+  (see `agsy-systems-framing-and-modeling`).
+- *"The model is a black box."* → Describe, justify, and independently evaluate it before review.
+- *"Where is the uncertainty?"* → Add sensitivity and uncertainty analysis to the conclusion-bearing
+  outputs.
+
 ## Anti-patterns
 
 - Submitting a single-factor field trial to a systems journal (fit desk rejection)

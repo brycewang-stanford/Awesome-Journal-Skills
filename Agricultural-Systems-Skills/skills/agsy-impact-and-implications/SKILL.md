@@ -44,6 +44,28 @@ implications — strengthen the framing or the scenario design.
 - A confident policy claim resting on high-uncertainty output
 - Implications that ignore the social/economic side of the system
 
+## Worked micro-example: scoping a claim honestly (illustrative)
+
+A climate-adaptation analysis finds shifting sowing dates raises modelled gross margin under a drier
+ensemble. Three drafts of the implication, weakest to strongest:
+
+- *Over-claim:* "Farmers should shift sowing dates to adapt to climate change." — generalizes past the
+  modelled system, scales, and conditions.
+- *Bare result:* "Sowing-date shifts increased simulated margin." — true but no decision, no trade-off.
+- *Scoped (the move):* "Under the drier ensemble, advisers for rainfed mixed farms in this region could
+  weigh earlier sowing, which raises modelled margin ~6% but increases wet-year failure risk ~10%
+  (illustrative); the trade-off and the wide ensemble make it a contingent recommendation, not a rule."
+
+## Referee pushback → the AgSy-specific fix
+
+- *"The paper over-claims its policy reach."* → Re-scope to the modelled system, scales, and conditions;
+  state explicitly where the result does not transfer.
+- *"No clear application."* → Name the actor and the decision margin; write the decision-relevance
+  sentence and tie it to a scenario.
+- *"A single 'best' option is recommended."* → Surface the trade-off and report what each option gives
+  up, and for whom.
+- *"The recommendation outruns the uncertainty."* → Match recommendation strength to the ensemble width.
+
 
 ## Implication pass for Agricultural Systems
 

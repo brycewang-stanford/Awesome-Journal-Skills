@@ -54,6 +54,44 @@ A strong AgSy paper usually clears all four:
 - A model demo with no agricultural-systems question or decision payoff
 - Choosing research-paper length out of habit when a short communication would land harder
 
+## Fit verdict table (how the four-part test maps to a decision)
+
+Score the project against the four fit criteria, then read off the verdict.
+
+| Systems Q | Scope | Trade-offs | Decision | Verdict |
+|-----------|-------|------------|----------|---------|
+| Yes | Yes | Yes | Yes | Strong AgSy fit — proceed |
+| Yes | Field | Yes | Yes | Needs scaling: embed in a farm/landscape system |
+| Yes | Yes | One optimum | Yes | Reframe: surface the trade-off across objectives |
+| No | — | — | — | Off-fit — re-route to an agronomy/field-crops journal |
+| Yes | Yes | Yes | No | Add the decision hook (`agsy-impact-and-implications`) |
+
+## Sibling-venue routing (where a near-miss belongs)
+
+When a project lands near the boundary, route it deliberately:
+
+- **Plot-/agronomy-level result, one crop, no system** → a field-crops/agronomy journal, not AgSy.
+- **Economics-first decision with light biophysics** → an agricultural-economics outlet; AgSy expects
+  biophysical *and* socioeconomic integration.
+- **Policy synthesis with no model** → a food-security/policy journal; AgSy wants the systems analysis.
+
+## Worked micro-example (illustrative)
+
+A team has trial data showing a legume intercrop raises maize yield:
+
+- *Systems question?* As "intercrop raises yield" — no. Reframed as "how the legume–maize–soil-N
+  interaction shifts the whole-farm yield–nitrogen-leaching trade-off under variable rainfall" — yes.
+- *Scope?* The plot-level trial is embedded in a whole-farm bioeconomic model.
+- *Trade-offs?* Scenarios span intercrop share 0–50%; the gross-margin vs. N-leaching Pareto front is
+  the headline, not a single "best" share.
+- *Decision relevance?* A farmer choosing rotation intensity acts differently. Verdict: strong AgSy fit.
+
+## Calibration anchors (hedged where uncertain)
+
+- AgSy's remit centers on interactions, hierarchical levels, trade-offs, and integrated modelling at
+  farm/landscape/food-system scale; confirm the current aims-and-scope statement on the journal page.
+- The article-type lengths are guidelines, not hard caps — verify against the current author guidelines.
+
 ## Output format
 
 ```

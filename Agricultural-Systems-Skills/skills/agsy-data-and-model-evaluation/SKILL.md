@@ -52,6 +52,39 @@ reporting.
 - Scenario tables with no trade-offs surfaced (just "scenario B is best")
 - Aggregating across scales without checking for compensating errors
 
+## Evaluation completeness rubric (what an AgSy referee checks)
+
+A systems referee scores the model section on five axes (**strong → weak**, a weak answer often draws a
+major revision): independence (held-out sites/years → "validated" on calibration data); fit (RMSE+NSE+
+bias+1:1 plot → R² only); sensitivity (global Morris/Sobol → one-at-a-time); uncertainty (propagated
+intervals → a discussion mention); trade-offs (Pareto front → a "best scenario" sentence).
+
+## Worked micro-example (illustrative numbers)
+
+A bioeconomic whole-farm model evaluates climate-adaptation options for a mixed crop–livestock farm.
+Numbers are **illustrative** — not real results.
+
+- **Evaluation.** Calibrated on 2008–2015; held-out 2016–2020 gives margin RMSE = €185/ha, NSE = 0.74,
+  bias = −€20/ha with the 1:1 plot; "good enough" is RRMSE < 15%, and the negative bias is flagged.
+- **Sensitivity.** Sobol indices: rainfall (0.41) and price (0.27) dominate, so results are reported on
+  a rainfall/price grid, not a single forecast.
+- **Trade-off.** Option B raises margin +8% but N surplus +14%; D loses 3% margin but cuts N surplus
+  22%. The Pareto front is plotted; the recommendation names the trade-off, not a single winner.
+
+## Referee pushback → the AgSy-specific fix
+
+- *"Not validated against independent data."* → Hold out sites/years, report the full fit panel on the
+  held-out set, and state the decision-relevant tolerance.
+- *"Trade-offs across objectives not quantified."* → Replace "best scenario" with a multi-objective
+  table or Pareto front showing what each option gains and gives up.
+
+## Calibration anchors (hedged where policy is volatile)
+
+- Fit-statistic conventions (RMSE, RRMSE, NSE, bias, d) are community norms, not a fixed journal rule.
+- "Independent evaluation" means data withheld from calibration; the exact bar is judged by referees.
+- Whether a data/code/model deposit is required versus encouraged is an Elsevier research-data question
+  — confirm against the journal's current author guidelines.
+
 ## Output format
 
 ```

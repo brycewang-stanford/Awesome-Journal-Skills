@@ -60,6 +60,31 @@ study, not a systems analysis — reframe (back to `agsy-topic-selection`).
 - Choosing a model out of familiarity without justifying it against alternatives
 - Hiding assumptions that drive the headline result
 
+## Worked micro-example: framing one system (illustrative)
+
+A study asks how feed-price shocks reshape a mixed crop–livestock farm's land allocation (illustrative).
+
+- *Boundary.* Inside: cropping, the dairy herd, feed and manure flows, gross margin. External drivers:
+  climate, feed-grain and milk prices, N regulation.
+- *Interactions.* The load-bearing loop is feed price → herd feeding strategy → manure N → crop rotation
+  → on-farm feed supply, so a bio-economic whole-farm model is chosen over a crop-only simulator.
+- *Interaction test passes:* the result arises because the herd–manure–rotation loop couples feed price
+  to land use; absent it the farm would behave like two independent enterprises.
+
+## Referee pushback → the AgSy-specific fix
+
+- *"What exactly is the system?"* → Add a boundary statement, a component-and-interaction list, and a
+  conceptual diagram; name the hierarchical levels modelled.
+- *"Why this model and not the standard one?"* → State what your model represents that the alternative
+  cannot, and what it omits.
+- *"The system boundary is too narrow."* → Show the interaction the boundary would cut (the
+  manure–rotation feedback) and widen it, or justify the cut.
+
+## Calibration anchors (hedged where uncertain)
+
+- Model choice is judged by referees against the question, not fixed by the journal — justify it.
+- The ODD protocol is the community standard for agent-based model description, not a journal format.
+
 ## Output format
 
 ```

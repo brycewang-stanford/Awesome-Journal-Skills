@@ -55,6 +55,38 @@ claims.
 - Describing a single factor as if it were a system; burying the interaction
 - Mixed reference styles or missing declarations
 
+## Section-by-section moves for a systems paper
+
+Write each section to answer the question a systems referee raises there. **Title:** name the system and
+the trade-off, not just the crop. **Abstract:** lead with the interaction, end on the decision (≤250
+words). **Introduction:** state boundary, interaction, model, and stakes by the last paragraph.
+**Methods:** plain-language model first, equations second. **Results/Discussion:** lead with the
+trade-off, then tie it to the decision and match claims to uncertainty.
+
+## Worked micro-example: tightening one abstract sentence (illustrative)
+
+Before (buries the system): *"Simulations were run for several management options and yields compared
+across scenarios."* — passive, no interaction, no trade-off, no decision.
+
+After (systems-first): *"A whole-farm bioeconomic model shows that shifting 30% of area to a legume
+intercrop raises modelled gross margin ~8% but increases nitrogen surplus ~14%, sharpening a
+margin–environment trade-off advisers must weigh when targeting rotation subsidies."* — interaction,
+quantified trade-off (illustrative), and decision in one sentence.
+
+## Referee pushback on writing → the AgSy-specific fix
+
+- *"I could not tell what the system was."* → Add a boundary-and-components sentence plus a conceptual
+  diagram early; define the hierarchical level explicitly.
+- *"The contribution reads as single-discipline."* → Reframe the intro around the systems debate and
+  engage both the domain and modelling literatures (see `agsy-literature-positioning`).
+- *"The model arrives as a wall of equations."* → Lead with plain English on what it does.
+
+## Calibration anchors (hedged where uncertain)
+
+- The ≤250-word abstract, Highlights, and graphical abstract are standing Elsevier front-matter
+  expectations; confirm exact requirements on the current author guidelines.
+- The ~8,000-word figure is a guideline, not a hard cap — judgment plus current guidance governs length.
+
 ## Output format
 
 ```
