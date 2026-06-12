@@ -45,6 +45,20 @@ A project with only one leg is off-fit: **pure theory without empirical motivati
 - Targeting JBES for a pure asymptotic-theory result with no empirical motivation
 - Assuming JBES = a generic econometrics outlet; the empirics requirement is real
 
+## Worked vignette: three projects through the fit test
+
+Three hypothetical projects hit the JBES scope bar differently (verdicts **illustrative**). Project A — a new quantile-factor estimator for forecasting industrial production from FRED-MD — passes both legs: methodological novelty (a new estimator with asymptotics) and clear relevance (a real macro forecasting task). Project B — applying an off-the-shelf gradient-boosting model to predict firm defaults with no methodological increment — fails the novelty leg; it belongs at an applied finance journal. Project C — a pure minimax-rate theorem for a nonparametric estimator with no empirical motivation — fails the relevance leg; it belongs at a theoretical statistics journal. Only A satisfies the **conjunction** JBES demands.
+
+## Scope-misfit patterns (venue-specific fixes)
+
+| Why a project misfits JBES | Fix this skill enforces |
+|----|----|
+| Method with a toy illustration, no real application | Add a substantive micro/macro/business/finance case, or re-route to a statistics journal |
+| Standard method on new data, no novelty | Find the methodological increment, or re-route to an applied economics journal |
+| "We use deep learning" with no econometric problem solved | Make the adaptation to the econometric problem the novelty, not the off-the-shelf tool |
+
+Calibration anchor (hedged): JBES scope is a **conjunction** — methodological novelty AND clear empirical relevance, usually with a substantive application — at the statistics–econometrics interface (time series and forecasting, volatility, causal inference, high-dimensional and Bayesian methods). A single-leg project is off-fit; the exact current scope wording is **待核实**.
+
 ## Output format
 
 ```

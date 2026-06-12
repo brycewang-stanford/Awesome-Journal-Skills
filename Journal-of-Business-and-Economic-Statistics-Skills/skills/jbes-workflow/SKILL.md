@@ -54,6 +54,23 @@ Default assumption: unless the user says otherwise, treat the target as JBES —
 
 A **pure economics finding** with no methodological novelty fits a general-interest economics journal better; **pure theorem-proving with no empirical motivation** fits a theoretical statistics journal better. JBES sits in between, and because it is **ASA-owned** it follows ASA editorial/ethics and data-sharing policy rather than the AEA Data Editor / mandatory-pre-publication-replication regime. Operational tells you are at JBES: methods-with-empirics scope, multi-Co-Editor model, ASA supplementary-material expectation, Open Select hybrid OA, and a discussion-paper tradition.
 
+## Worked vignette: routing one manuscript end-to-end
+
+A hypothetical JBES manuscript — a dependence-robust forecast-comparison test on FRED-MD inflation (path **illustrative**) — moves through the stack as follows. The author runs `jbes-topic-selection` (novelty + a real macro application → in-scope), then `jbes-literature-positioning`, then `jbes-contribution-framing` (a HAC-robust test fixing over-rejection). When the limiting null is the bottleneck, route to `jbes-identification-strategy`; when simulation and application are thin, `jbes-data-analysis`; then `jbes-tables-figures`, late-stage `jbes-writing-style`, the supplement, review, and submission. An R&R routes to `jbes-rebuttal`, which re-dispatches into the same skills.
+
+## Routing as a decision block
+
+```
+【Stage】topic / positioning / framing / method / evidence / exhibits / prose / supplement / submit / rebuttal
+【Symptom】the current bottleneck in one phrase
+【Route to】the single jbes-* skill that owns it
+【Scope gate】novelty AND empirical relevance present? [Y/N] — if N, topic-selection first
+【Verify-later】any 待核实 fact flagged? [Y/N]
+【Next】the skill to invoke now
+```
+
+Calibration anchor (hedged): the spine is **methods-with-empirics** — a method with no application is desk-rejected, and exhibits wait until the asymptotics settle. Editorial specifics are **待核实**.
+
 ## Anti-patterns
 
 - **Do not** skip `jbes-topic-selection` — a method with no empirical relevance is desk-rejected as off-scope

@@ -48,6 +48,18 @@ JBES is a methods-with-empirics journal: a contribution is incomplete without **
 - Cherry-picked sample sizes that mask poor small-n behavior
 
 
+## Referee-pushback patterns on the evidence (venue-specific fixes)
+
+| JBES referee objection | Fix this skill enforces |
+|----|----|
+| "Simulation DGPs are unrepresentative." | Calibrate DGPs to the application's moments — persistence, fat tails, cross-sectional dependence — not iid Gaussian |
+| "No comparison to standard alternatives." | Add the incumbent estimator(s) under identical DGPs in the same tables |
+| "The application is a toy." | Use a substantive macro/finance/micro case where the novelty changes a conclusion |
+
+## Worked vignette: validating a new long-horizon forecast test
+
+A hypothetical JBES paper proposes a HAC-robust test of equal long-horizon predictability, validated on FRED-MD inflation forecasts (numbers **illustrative**). The Monte Carlo calibrates the DGP to FRED-MD persistence (AR root near 0.97) and overlapping-horizon dependence, not iid noise; at n=240 the test holds an illustrative size of 5.4% versus nominal 5%, while the Diebold-Mariano benchmark over-rejects at 9.1% under the same DGP. The application then reverses a borderline DM verdict on whether a factor-augmented model beats the random walk at 12 months — a substantive payoff, not a toy. Calibration anchor (hedged): JBES weights careful simulation and a real application roughly equally; a paper strong on only one axis is exposed.
+
 ## Evidence pass for Journal of Business & Economic Statistics
 
 Run this as a concrete capability pass. First lock the statistical estimand, identification/simulation evidence, empirical illustration, and reproducibility path; then test whether the manuscript addresses econometrics/statistics reviewers who expect methodological credibility plus a business or economic use case.

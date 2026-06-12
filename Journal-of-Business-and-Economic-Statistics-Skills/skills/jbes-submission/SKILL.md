@@ -51,6 +51,18 @@ description: Use when running the final pre-submission preflight for the Journal
 - Budgeting an APC figure that was never officially confirmed
 
 
+## Desk-reject and pre-submission patterns (venue-specific fixes)
+
+| What gets a JBES submission bounced early | Fix this skill enforces |
+|----|----|
+| Strong theory, no empirical application | Add the substantive macro/finance/micro case; the empirics requirement is real, not optional |
+| An off-the-shelf method on new data, no methodological increment | Reframe around the novel adaptation, or re-route to an applied economics journal |
+| Data/code supplement missing | Assemble it per ASA expectation before pressing submit (see jbes-replication-and-data-policy) |
+| Generic cover letter to a single "Editor" | Target a plausible handling Co-Editor; there is no single Editor-in-Chief |
+| APC budgeted from an unverified figure | Treat the charge as Open Select/optional and confirm; do not assume a number |
+
+Calibration anchor (hedged): JBES is published by **Taylor & Francis on behalf of the ASA** as Open Select (hybrid OA). The submission platform, fee, length and abstract limits, blinding model, and citation style are **待核实** — the official instructions page was Cloudflare-blocked; confirm each against the journal's current author guidelines before declaring the package ready.
+
 ## Submission pass for Journal of Business & Economic Statistics
 
 Run this as a concrete capability pass. First lock the statistical estimand, identification/simulation evidence, empirical illustration, and reproducibility path; then test whether the manuscript addresses econometrics/statistics reviewers who expect methodological credibility plus a business or economic use case.

@@ -51,6 +51,20 @@ State the DGP or data source, sample size(s), number of Monte Carlo replications
 - Figures with no uncertainty and no reference distribution
 
 
+## Worked vignette: a size-and-power table a referee can read
+
+A hypothetical JBES paper reports a Monte Carlo size-power table for a new break test (numbers **illustrative**). The good version puts size and power side-by-side across n ∈ {120, 240, 480}, marks the 5% level in the caption, and shows the CUSUM benchmark in the same rows — so a reader sees the new test holds size at 5.2% while CUSUM over-rejects at 8.7%. The note states the DGP, replications, MC standard errors, level, and method.
+
+## Exhibit-pushback patterns (venue-specific fixes)
+
+| JBES referee objection | Fix this skill enforces |
+|----|----|
+| "I cannot read size control off this table." | Put size and power side-by-side; mark the nominal level in the note |
+| "No baseline, so 'improvement' is unquantified." | Place the incumbent in the same exhibit under identical DGPs |
+| "The note does not let me interpret the table alone." | State DGP/data, n, replications, level, method, and units in every note |
+
+Calibration anchor (hedged): JBES exhibits serve two audiences — a statistician reading Monte Carlo properties and an applied economist reading the payoff — so every table must be legible to both. Exact format specifics are **待核实**.
+
 ## Exhibit pass for Journal of Business & Economic Statistics
 
 Run this as a concrete capability pass. First lock the statistical estimand, identification/simulation evidence, empirical illustration, and reproducibility path; then test whether the manuscript addresses econometrics/statistics reviewers who expect methodological credibility plus a business or economic use case.

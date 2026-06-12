@@ -48,6 +48,20 @@ JBES is run by a panel of **Co-Editors / Joint Editors**, and the **handling Co-
 - Defensive or curt tone; treating method referees' reports as attacks
 - Vague responses ("we have addressed this") with no location in the paper
 
+## Worked vignette: triaging a method-paper R&R
+
+A hypothetical JBES R&R on a new spectral test for structural breaks in volatility draws three reports (numbers **illustrative**). The handling Co-Editor's letter underscores Referee 1's validity point and flags the application as thin. Triage: Referee 1 ("the null limiting distribution assumes no leverage effect") is *fundamental* — route to `jbes-identification-strategy`, then settle it with a new Monte Carlo showing an illustrative size of 5.1% under a leverage DGP. Referee 2 ("compare to the CUSUM-of-squares benchmark") is *fundamental* on evidence — route to `jbes-data-analysis` and add the benchmark in the same tables. Referee 3 ("dense notation") is *clarification* — route to `jbes-writing-style`. The reproducibility comment goes to `jbes-replication-and-data-policy`. The manuscript is updated first; only then is the letter written, each response citing the exact theorem/table/page.
+
+## Referee-pushback patterns in revision (venue-specific fixes)
+
+| JBES report objection | Fix this skill enforces |
+|----|----|
+| "The validity claim is still unproven." | Settle it with a decisive new Monte Carlo rather than prose argument |
+| "You promised this for future work." | Do the theory/simulation/application this round; an R&R is near-final |
+| "Where in the paper did you change this?" | Cite the exact section/theorem/table/figure/page in each response |
+
+Calibration anchor (hedged): the handling Co-Editor's letter is the contract — a point the editor underscores is binding, one only a single referee raised and the editor did not flag is lower priority (still answered). Whether JBES treats R&R as a strict one-shot is **待核实**; confirm against the decision letter's own instructions.
+
 ## Output format
 
 ```

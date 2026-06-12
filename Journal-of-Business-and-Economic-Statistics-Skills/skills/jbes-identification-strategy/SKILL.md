@@ -47,6 +47,20 @@ At JBES the load-bearing question is usually not a causal-design story but **whe
 - Rejection rates reported with no Monte Carlo standard errors
 - A "robust" variance claim with no proof or coverage simulation
 
+## Worked vignette: nailing down a weak-IV-robust estimator's validity
+
+A hypothetical JBES paper proposes a debiased estimator for a structural elasticity under many weak instruments, applied to demand estimation on scanner data (numbers **illustrative**). The credibility ladder forces order: (1) the target elasticity is identified from the conditional-moment restriction as instrument strength shrinks; (2) regularity conditions are weak — finite fourth moments and a concentration-parameter rate; (3) the limiting normal distribution and rate are established with a consistent, heteroskedasticity-robust variance; (4) Monte Carlo across a concentration-parameter grid shows coverage of an illustrative 93.8% near nominal 95% where 2SLS collapses; (5) the breakdown under heavy-tailed shocks is shown. Crucially, the scanner application's first stage is weak — exactly the regime the conditions target — so the assumptions are plausible for the paper's data.
+
+## Referee-pushback patterns on method validity (venue-specific fixes)
+
+| JBES referee objection | Fix this skill enforces |
+|----|----|
+| "Your assumptions hold for no real dataset, including yours." | Weaken conditions to what the result needs; show the application satisfies them |
+| "The asymptotic distribution is asserted without full conditions." | List every regularity condition the limit theorem uses, each motivated |
+| "The robust variance claim is unproven." | Prove consistency of the variance estimator and confirm coverage in simulation |
+
+Calibration anchor (hedged): at JBES, "identification" usually means **valid inference for the target under stated conditions**, not a causal-design narrative — but the conditions must be plausible for business/economic data, since a real application is part of scope. Where a condition's necessity is uncertain, state it as sufficient and flag the gap.
+
 ## Output format
 
 ```

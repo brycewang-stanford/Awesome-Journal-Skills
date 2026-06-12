@@ -42,6 +42,20 @@ A JBES contribution is not "we found an empirical result" and not "we proved a t
 - Over-claiming generality the assumptions/proofs do not support
 - Burying the contribution after pages of setup
 
+## Worked vignette: framing a synthetic-control inference contribution
+
+A hypothetical JBES paper builds a conformal prediction interval for synthetic-control counterfactuals and applies it to a state minimum-wage change (figures **illustrative**). A muddy draft framed it twice over — as a finding ("the policy raised employment") and as a theorem ("our interval is finite-sample valid"). Neither is a JBES contribution alone. The legible claim pairs them: a conformal interval valid with one treated unit and few pre-periods, enabling honest policy-evaluation bands where the placebo distribution is too coarse. The deliverables then line up: method, theory (coverage under stated exchangeability), Monte Carlo (an illustrative 94.6% near nominal 95%), and the minimum-wage application. The claim is right-sized to the exchangeability condition the proof uses, not "generally valid."
+
+## Referee-pushback patterns on the contribution (venue-specific fixes)
+
+| JBES referee reaction | Fix this skill enforces |
+|----|----|
+| "Where is the method?" | Lead with the methodological delta; name what is new versus prior estimators |
+| "Why JBES not a statistics theory journal?" | Attach the empirical task the method now enables in micro/macro/finance |
+| "You claim generality the proof does not deliver." | Scope the claim to the conditions actually proved and simulated |
+
+Calibration anchor (hedged): a JBES contribution is the **method-plus-application arc**, not either pole — Theory-and-Methods-style work still owes a substantive application and Applications-and-Case-Studies-style work still owes a methodological increment. The exact ASA section taxonomy JBES uses is **待核实**; confirm against the journal's current author guidelines.
+
 ## Output format
 
 ```

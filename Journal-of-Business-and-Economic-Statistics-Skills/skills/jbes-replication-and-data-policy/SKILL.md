@@ -58,6 +58,20 @@ supplement/
 - Assuming the JAE Data Archive applies (it does not — that is a different journal)
 - Asserting JBES mandates deposit without checking (status is 待核实)
 
+## Worked vignette: building a supplement for a Bayesian VAR forecasting paper
+
+A hypothetical JBES paper proposes a hierarchical-shrinkage Bayesian VAR and forecasts US macro aggregates from FRED-MD (details **illustrative**). The supplement README pins R 4.3 with `renv.lock`, records the FRED-MD vintage (2024-03) and access date, and sets the Gibbs-sampler seed plus an illustrative 20,000 draws after a 5,000 burn-in. One master script runs `01_simulation` (coverage tables) then `02_application` (forecast figures), with an exhibit map tying Table 3 to its script and a stated 40-minute wall-clock on documented hardware. Because every posterior summary is seed-pinned, a referee who reruns it reproduces the numbers exactly — pre-empting the "I could not regenerate Table 3" report.
+
+## Reproducibility-pushback patterns (venue-specific fixes)
+
+| JBES referee/editor objection | Fix this skill enforces |
+|----|----|
+| "I could not reproduce the Monte Carlo numbers." | Set and report seeds for every stochastic step; pin the replication count |
+| "Your scripts assume your machine." | Remove absolute paths; pin package versions via `renv.lock`/`requirements.txt` |
+| "Where is the data availability statement?" | Draft it per ASA expectation; for restricted data give access steps plus a runnable proxy |
+
+Calibration anchor (hedged): JBES follows **ASA data-sharing and reproducibility policy** under Taylor & Francis — *not* the AEA Data Editor regime and *not* the JAE Data Archive (a different journal). ASA strongly encourages a code-and-data supplement and a data availability statement; whether JBES *mandates* deposit with a dedicated reproducibility check at acceptance is **待核实** — confirm against the journal's current author guidelines.
+
 ## Output format
 
 ```

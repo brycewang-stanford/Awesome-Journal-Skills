@@ -41,6 +41,20 @@ JBES referees are method experts: they judge a paper first by **what it adds to 
 - Vague superiority ("our method performs better") with no stated dimension of improvement
 - Hiding the regime where an existing method still wins
 
+## Worked vignette: positioning a debiased-ML estimator across two literatures
+
+A hypothetical JBES paper adapts double/debiased machine learning to estimate a heterogeneous treatment effect of credit-score thresholds on default, using bank loan-level data (figures **illustrative**). Because the idea lives in two literatures at once, the positioning must hit both. On the statistics/ML side the closest prior work is cross-fitted DML and causal forests; the delta is a dependence-robust cross-fitting scheme valid under the within-branch clustering of loan data, which iid DML ignores. On the econometrics side the incumbents are series/sieve semiparametric estimators; the delta is an illustrative 30% RMSE reduction at the same nominal coverage when nuisance dimension is high. The paper concedes that plain DML still wins under independence and low nuisance dimension — naming where an incumbent dominates pre-empts a hostile report. The delta then ties to the application: it changes which credit-score band shows the largest effect.
+
+## Referee-pushback patterns on positioning (venue-specific fixes)
+
+| JBES referee objection | Fix this skill enforces |
+|----|----|
+| "This already exists in the statistics/ML literature." | Position against both fields; name the ML method you adapt and the econometric incumbent |
+| "A chronological survey, not a delta." | Replace the timeline with a per-incumbent statement of assumptions/rates/robustness improved |
+| "Vague claim that the method performs better." | State the dimension and magnitude of improvement against a named incumbent |
+
+Calibration anchor (hedged): JBES welcomes machine-learning and data-science adaptations, so your nearest competitor often sits **outside** econometrics — missing the identical idea in statistics/ML invites the sharpest rejection. The precise current scope language is **待核实**.
+
 ## Output format
 
 ```

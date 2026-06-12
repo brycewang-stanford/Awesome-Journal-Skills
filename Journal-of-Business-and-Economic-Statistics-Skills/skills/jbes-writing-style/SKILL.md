@@ -50,6 +50,19 @@ JBES is read by both econometricians and applied economists/statisticians, so th
 - Vague "performs better" claims with no dimension or magnitude
 
 
+## Worked vignette: repairing one opening
+
+A hypothetical JBES paper proposes a regularized HAR forecaster for realized volatility on 5-minute S&P 500 returns (numbers **illustrative**). A draft abstract that says only "forecasting matters; our model works" states neither delta nor payoff. The repair leads with both legs: dependence-robust lag selection cuts one-day-ahead QLIKE loss by an illustrative 8% versus standard HAR and stays valid under heavy-tailed intraday returns.
+
+## Style pushback patterns (venue-specific fixes)
+
+| JBES pushback | Fix |
+|----|----|
+| "Could not tell what is new until Section 4." | Contribution sentence into the abstract; defer the survey |
+| "Application feels bolted on." | Weave the macro-finance use into the problem and evidence |
+
+Calibration anchor (hedged): JBES prose tolerates a precise theorem in the abstract *provided* empirical relevance sits beside it. Word limit and style are **待核实**.
+
 ## Style execution pass for Journal of Business & Economic Statistics
 
 Run this as a concrete capability pass. First lock the statistical estimand, identification/simulation evidence, empirical illustration, and reproducibility path; then test whether the manuscript addresses econometrics/statistics reviewers who expect methodological credibility plus a business or economic use case.
