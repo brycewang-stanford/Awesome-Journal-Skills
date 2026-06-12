@@ -57,6 +57,24 @@ Sincerely,
 - [ ] IRB/consent, ICMJE authorship, COI, funding, data-sharing all affirmed
 - [ ] Intended article type stated
 
+## What the JAMA editor extracts from the letter
+
+The cover letter is the first thing a Journal of the American Medical Association editor reads, and triage at this AMA / JAMA Network flagship turns on one question: does this change practice or policy for a broad clinician audience? Make four things extractable at a glance — that the work is general-medical not subspecialty, the headline effect with its precision (absolute effect, 95% CI), the design and reporting standard (CONSORT/STROBE/PRISMA/STARD), and that it is compliant (registration ID, IRB, ICMJE, COI, funding, data-sharing).
+
+## Worked example: the importance paragraph (illustrative)
+
+Vignette (illustrative): a multicenter randomized clinical trial, N = 3,800 adults with acute ischemic stroke at 26 centers, extended-window thrombectomy; pre-specified primary outcome functional independence (modified Rankin 0-2) at 90 days, 46.2% vs 38.5%, absolute risk difference 7.7 percentage points (95% CI, 3.1-12.3).
+
+Importance sentence: "In this multicenter randomized clinical trial of 3,800 patients reported per CONSORT, extended-window thrombectomy increased 90-day functional independence by an absolute 7.7 percentage points (95% CI, 3.1-12.3), informing an everyday acute-stroke triage decision for emergency physicians, neurologists, and hospitalists." It gives the absolute effect with its CI, names the design and standard, and argues broad relevance in one breath.
+
+## Reviewer / editor pushback and the JAMA fix
+
+- "Importance reads as subspecialty interest." Fix: name the broad clinician audience and the everyday decision affected, not the mechanism.
+- "Letter just restates the abstract." Fix: cut background; lead with the practice-changing claim and the headline number.
+- "Registration timing unclear." Fix: state the registry/identifier and that registration preceded enrollment; if it did not, disclose transparently.
+
+Calibration anchors (hedge where uncertain): the one-page norm, importance-first triage, and registration/disclosure affirmations are durable; the current editor name and addressing convention are volatile — confirm against the journal's current author guidelines rather than naming a person from memory.
+
 ## Anti-patterns
 
 - Rehashing the abstract instead of arguing importance

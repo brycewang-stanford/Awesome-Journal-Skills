@@ -37,6 +37,25 @@ If you cannot answer (1) and (2) affirmatively, JAMA is probably the wrong home 
 
 Match the article type to JAMA's current categories and word/format limits — verify on the official Instructions for Authors page (do not assume fixed numbers).
 
+## What the JAMA desk editor screens before review
+
+JAMA — the Journal of the American Medical Association, the AMA / JAMA Network flagship for a broad clinician readership — desk-rejects most submissions before external review. Triage turns on whether the finding plausibly changes clinical practice or policy for general medicine, not whether it is correct. Common pre-review desk rejects: a single-center pilot pitched as practice-changing (not generalizable; route to specialty); a surrogate endpoint with no patient-relevant outcome (clinical-decision-impact bar unmet); a retrospectively registered trial (registration must precede enrollment; rarely remediable); a mechanism or biomarker paper that changes no decision (belongs in a basic-science journal); and an underpowered "negative" trial framed as proof of no effect (absence of evidence is not evidence of absence).
+
+## Worked example: routing a vignette (illustrative)
+
+Vignette (illustrative): a multicenter randomized clinical trial, N = 4,200 adults with community-acquired sepsis across 30 sites, restrictive vs liberal IV-fluid strategy; pre-specified primary outcome 90-day mortality, 18.1% vs 21.4%, absolute risk difference -3.3 percentage points (95% CI, -5.9 to -0.7).
+
+- Changes practice (everyday cross-specialty decision), patient-relevant outcome (90-day mortality, CI excludes null), top-of-hierarchy and generalizable (powered, 30-site RCT): all yes.
+
+Verdict: strong fit for a JAMA Original Investigation (CONSORT). Contrast: the same team reporting only a 48-hour serum-cytokine surrogate in 60 patients at one ICU flips to off-fit — route to a specialty journal.
+
+## Reviewer / editor pushback and the JAMA fix
+
+- "Clinical bottom line not actionable for practice." Fix: restate importance as a concrete change to diagnosis, treatment, or prevention; if none exists, the venue is wrong.
+- "Audience too narrow for JAMA." Fix: evidence broad relevance, or move to the matching JAMA Network specialty title as plan B.
+
+Calibration anchors (hedge where uncertain): the general-medical-importance bar, the evidence hierarchy, and the clinical-decision-impact standard are durable; article-type word/exhibit caps are volatile — confirm against the journal's current author guidelines.
+
 ## Checklist
 
 - [ ] The clinical question matters to a broad clinician audience, not one niche
