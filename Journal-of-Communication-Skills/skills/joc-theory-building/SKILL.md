@@ -65,7 +65,7 @@ is the **theoretical move**, not the method. A heuristic, not an editorial rule.
 
 | Referee comment | Underlying gap | Fix at the argument stage |
 |-----------------|----------------|---------------------------|
-| "Theory invoked but not advanced" | applies, does not extend | name the boundary added or black box opened |
+| "Theory invoked but not advanced" | applies, does not extend | name the boundary or black box opened |
 | "Effect without a mechanism" | no process | state the cognitive/affective/social step and how it is observed |
 | "Why doesn't this travel?" | scope conditions absent | give where the mechanism holds and breaks |
 | "Construct slippage" | measured thing isn't the construct | re-anchor the definition; split from neighbors |

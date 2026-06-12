@@ -43,6 +43,27 @@ Knowing how JoC screens and decides lets you pre-empt the failure modes before s
 - Clear ethics/IRB and human-subjects compliance up front.
 - Write to expert reviewers: anticipate the strongest objection and answer it in the design.
 
+## Two gates, two failure modes (calibration anchor, hedged)
+
+A JoC manuscript passes two distinct evaluations; a paper can be strong at one and fail the other:
+
+| Gate | Who decides | What kills a paper here | Pre-empt by |
+|------|-------------|-------------------------|-------------|
+| Editorial fit screen | handling editor / EIC | "too narrow," off-scope, not significant enough | front-loading cross-subfield significance |
+| External expert review | ~2–3 referees, double-anonymous | weak theory advance, shaky measurement, no mechanism | answering the strongest objection in the design |
+
+The fit screen is fast; external review is slow and substantive. Both judge against ICA's breadth.
+Referee count, timeline, and decision wording are volatile — **confirm against the journal's current
+submission guidelines**.
+
+## Worked micro-example: reading a "reject-and-resubmit" signal (illustrative)
+
+A "major revisions" letter says "the framing effect is plausible but the paper does not advance
+framing theory." At the gate level this is an **external-review** objection (theory advance), not a
+fit screen-out — the editor already judged the topic field-relevant. The path is a sharper theoretical
+move: specify the mediating process the result reveals. Reading it as a call for more controls is the
+classic misread that loses a winnable R&R.
+
 ## Anti-patterns
 
 - Submitting a platform-only or single-topic paper to a field-wide flagship (fit screen-out)

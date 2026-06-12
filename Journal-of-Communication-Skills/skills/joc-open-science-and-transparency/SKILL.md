@@ -48,6 +48,32 @@ statement and supporting materials as you write so submission and any badge clai
 - [ ] Content analysis: codebook + intercoder-reliability report included
 - [ ] Materials **anonymized** (no author-identifying paths/links) for double-anonymous review
 
+## Transparency expectations by communication method (decision table)
+
+Because JoC spans communication research broadly, "transparency" differs across traditions. Match the
+deposit to the method rather than forcing one template:
+
+| Method | What a JoC referee wants deposited | Badge most relevant |
+|--------|------------------------------------|---------------------|
+| Survey / message experiment | data + codebook + stimuli + analysis script | open data + materials + preregistration |
+| Content analysis | codebook + coder instructions + reliability subsample + texts | open materials (+ open data) |
+| Computational / text-as-data | corpus or query, model/version, seeds, **human-validation set** | open materials + open data |
+| Qualitative / critical | coding scheme + evidence tables + de-identified excerpts | open materials where ethics allow |
+
+For computational measures, the **human-validation set is itself the evidence** that the automated
+label means what the paper claims — depositing the classifier without it leaves the construct
+unverified. Confirm badge mechanics against the journal's current guidance.
+
+## Worked micro-example: a DAS for a copyrighted-news corpus (illustrative)
+
+A computational content analysis of **40,000 news articles** (illustrative) on climate coverage hits
+a familiar wall: the texts are copyrighted and the feed bars redistribution. The transparency path:
+(1) deposit the **codebook, article IDs/URLs, query parameters, and analysis code** so a same-license
+reader reproduces the pipeline; (2) deposit the **human-validation sample**, shareable derived data;
+(3) write a DAS naming the restriction, provider, and access route, and offering **de-identified
+derived features** (frame proportions per article) so modeling re-runs without raw text — earning
+open-materials credit and an honest, hedged DAS.
+
 ## Anti-patterns
 
 - Submitting without a Data Availability Statement (it is required)

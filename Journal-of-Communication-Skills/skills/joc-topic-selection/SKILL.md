@@ -47,6 +47,35 @@ A strong JoC paper usually clears all four:
   **3,000–6,000 words**. Faster to read; do not pad it into an article.
 - **Special issue** — your paper must fit the call's theme *and* still clear the general-significance bar.
 
+## Fit-screen decision table (what survives the editorial gate)
+
+The ICA flagship declines many submissions before review for fit, not flaws. Score a candidate
+against the cross-subfield significance the editor screens for:
+
+| Candidate framing | Editor's likely read | Move before submitting |
+|-------------------|----------------------|------------------------|
+| "First study of X on TikTok/Bluesky" | descriptive, platform-bound | recast as a mechanism the platform exposes |
+| "We built a classifier for hate speech" | method note, no theory payoff | lead with the question it newly answers |
+| "Replication of a 2009 framing effect" | incremental unless it adjudicates | frame as a test resolving a live disagreement |
+| "Deep case study of one campaign" | possibly too narrow | say what it is a case *of*, and what travels |
+| "Message feature M → outcome Y, with mechanism" | strong field-wide fit | proceed |
+
+## Calibration anchor: the "broad significance" bar (hedged)
+
+JoC serves the whole of communication research across ICA's divisions. The implicit test — would a
+health-communication referee and a political-communication referee both see why this matters? If only
+one would, the paper likely belongs in a specialized outlet (Health Communication, Political
+Communication) rather than the generalist flagship. A heuristic about reach, not a quota.
+
+## Worked micro-example: rescuing a platform-bound idea (illustrative)
+
+Initial pitch: "How do Instagram influencers disclose sponsored health content?" — narrow,
+platform-locked. Through the fit test, the *general* question is when **source-transparency cues**
+raise or lower persuasion and trust, a process that travels far beyond Instagram. Reframed: "Do
+disclosure cues trigger persuasion knowledge that discounts the message, and under what conditions?"
+Now a political-advertising or crisis-comm scholar cares, the contribution is a mechanism, and the
+platform is merely the empirical site — a credible JoC original article, not a platform case note.
+
 ## Anti-patterns
 
 - "No one has studied this on platform X" as the whole contribution (descriptive, platform-only)
