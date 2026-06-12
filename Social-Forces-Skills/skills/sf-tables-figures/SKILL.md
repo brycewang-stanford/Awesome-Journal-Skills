@@ -51,6 +51,38 @@ expert reviewer checks whether the result is real, so each must be self-containe
 - Color-only encoding that fails in grayscale or for colorblind readers
 - Exhibit numbers/values that don't match the deposited/declared data and code
 
+## How an SF referee reads an exhibit
+
+At Social Forces an expert referee uses the exhibits to decide whether the result is real before reading
+a word of prose. Across the journal's broad quantitative range — stratification tables, demographic
+decompositions, event-history curves, network diagrams — the same gate applies:
+
+| Exhibit choice | Passes the SF panel test when… | Wastes panels when… |
+|----------------|--------------------------------|---------------------|
+| Main effect | An effects plot shows magnitude + interval | A stars-only table hides effect size |
+| Robustness set | Consolidated into one panel or supplement | Three near-identical tables each spend a panel |
+| Descriptive figure | Only the 1-2 argument-carrying panels kept | A 4-panel grid spends the budget on context |
+| First-stage / balance | Lives in the ≤10-page supplement | Occupies main-text panels |
+
+Calibration (hedged): the cap is 10 tables and figure panels combined, counting each panel of a
+multi-panel figure separately, with supplementary materials near 10 pages — verify the exact current
+numbers against the journal's submission guidelines, since exhibit limits can change between regimes.
+
+## Worked vignette (illustrative)
+
+A motherhood-wage-penalty study has 14 candidate panels: a main fixed-effects table, a 4-panel
+heterogeneity figure, two robustness tables, a balance table, a first-stage table. Rationing to ten:
+keep one marginal-effects plot (about 6% per child, illustrative, with 95% intervals), collapse the
+heterogeneity figure to the two panels that show the gradient, fold both robustness tables into a single
+coefficient-comparison plot, and move balance and first-stage tables to the supplement — from 14 to
+roughly 7 main panels with magnitude and uncertainty visible at a glance.
+
+## Referee-pushback patterns and the SF fix
+
+- "Table is not self-contained" → put units, sample, N, and estimand in the title and note.
+- "Can't see the magnitude" → swap the dense coefficient table for an effects plot with intervals.
+- "Over the panel cap" → consolidate robustness into one panel; push detail to the supplement.
+
 ## Output format
 
 ```

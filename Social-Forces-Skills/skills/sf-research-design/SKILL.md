@@ -57,6 +57,40 @@ design does not yet identify the contribution.
 - An unvalidated computational measure treated as ground truth
 - A design that cannot distinguish your argument from the leading alternative
 
+## What SF referees probe in the design
+
+Because Social Forces built its standing on methodological rigor across a broad discipline, its referees
+read the design for whether the strongest alternative is actually ruled out — not whether the method is
+fashionable. A practical gate by mode:
+
+| Design mode | The check an SF referee runs first | Common decline trigger |
+|-------------|-----------------------------------|------------------------|
+| Quant-causal | Estimand stated and key assumption defended? | "Causal" verbs on an associational design |
+| Panel / DID | Modern staggered estimator + parallel-trends evidence? | Naive TWFE on staggered adoption |
+| Demographic | Period vs. cohort, exposure, standardization explicit? | Rates compared without standardization |
+| Comparative-historical | Case justified as a case *of* something? | Convenience case dressed as theory-driven |
+| Network / computational | Boundary, tie definition, validated measure vs. a null? | Classifier output as ground truth |
+
+Calibration (hedged): SF welcomes all these traditions, but the bar is rigor on the tradition's own
+terms plus general-sociology significance — less theory-maximalist than AJS/ASR yet far stricter on
+identification than a descriptive outlet. Confirm method-specific expectations against current practice.
+
+## Worked vignette (illustrative)
+
+A neighborhoods-and-attainment study uses a sibling comparison: children in one family exposed to
+different neighborhood poverty via a mid-childhood move. Movers to lower-poverty tracts show a 0.12 SD
+test-score gain (illustrative). SF-grade adjudication: "If the effect were pure selection it should
+vanish within families; instead the within-family estimate is 0.09 SD, so selection explains at most a
+quarter." Pairing this with an Oster-style sensitivity bound — how strong must unobserved selection be
+to null the effect? — is what moves an SF referee from skeptic to advocate.
+
+## Referee-pushback patterns and the SF fix
+
+- "Selection threatens the inference" → add a within-unit comparison or sensitivity bound.
+- "Mechanism under-specified" → state the observable implication tested and what would have disconfirmed it.
+- "Clustering at the wrong level" → cluster at treatment/sampling level; wild-cluster bootstrap if few.
+- "Case choice looks like convenience" → restate the selection logic and what the case is a case *of*.
+
 ## Output format
 
 ```

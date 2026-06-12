@@ -55,6 +55,37 @@ is about reaching a general audience and respecting that format, not generating 
 - Acknowledgements or self-references left in the manuscript (breaks anonymity)
 - An abstract that includes references or hides the finding
 
+## Prose gate for a general-sociology reader
+
+Social Forces is read across sociology — stratification, demography, work, family, culture, networks,
+religion — so the prose must carry a non-specialist over the threshold quickly. A practical word-budget
+and clarity gate:
+
+| Symptom | SF-specific fix | Why it matters here |
+|---------|-----------------|---------------------|
+| Contribution surfaces on page 6 | State question + argument + stakes by end of intro | Referees decide fit early |
+| Reference list is 1,800 words | Trim redundant citation strings; cite anchors once | Refs count toward the 10,000-word cap |
+| Subfield jargon undefined | Define on first use; spell out acronyms | Audience spans the discipline |
+| "The data show…" with no claim | Lead with the claim, support with data | Argument-first prose reads broad |
+
+Calibration (hedged): the cap is roughly 10,000 words including text, endnotes, and references, with
+Chicago 17th-edition author-date required at final submission and an English abstract without references
+(150-200 words is usually safe). Confirm exact word and abstract limits against current guidelines.
+
+## Worked vignette (illustrative)
+
+A religion-and-civic-participation paper comes in at 11,400 words: 9,200 of text and 2,200 of references
+(illustrative). Rather than gut the analysis, the author trims 600 words of literature-dump prose,
+collapses three multi-citation strings into single anchors (about 500 reference words), and moves a
+methods appendix to the supplement (another 300) — landing near 10,000 with the argument intact. The
+lesson SF rewards: the reference list is a budget line, not free text.
+
+## Referee-pushback patterns and the SF fix
+
+- "Reads as an insider paper" → rewrite the opening so a non-sociologist sees the stakes in two sentences.
+- "Over the word cap" → cut throat-clearing, consolidate citations (refs count), tighten endnotes.
+- "Abstract buries the finding" → put the result and its significance in the first two sentences.
+
 ## Output format
 
 ```

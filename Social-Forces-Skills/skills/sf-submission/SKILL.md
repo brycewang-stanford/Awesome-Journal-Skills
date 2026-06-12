@@ -64,6 +64,39 @@ limit. Verify volatile specifics on the official page before relying on them.
 - Submitting without the required data availability statement
 - Budgeting the wrong fee (it is $50 / $20-student, not ASR's $25 or AJS's $30)
 
+## Desk-reject triage before upload
+
+Most avoidable Social Forces declines at the screening stage are format and anonymity failures, not
+science failures. Triage in priority order — the first failure that an editorial assistant can see ends
+the submission before review:
+
+| Screening check | Pass condition | Fails the desk if… |
+|-----------------|----------------|--------------------|
+| Word count | ≤ 10,000 incl. text, endnotes, references | Counted without references and over the real cap |
+| Panels | ≤ 10 tables + figure panels combined | An 11th panel hides in a multi-panel figure |
+| Anonymity | No names/affil/acks/funding in manuscript | Self-references or document metadata leak identity |
+| Title page | Separate file carries all identifying info | Identity baked into the manuscript file |
+| Data statement | Present and concrete | Missing or "available on request" only |
+
+Calibration (hedged): the processing fee is reported as roughly $50 ($20 for student-only manuscripts),
+the portal is ScholarOne Manuscript Central, and the style is Chicago 17th author-date — but fees,
+abstract limits, and OA terms are exactly the volatile items to confirm against current guidelines.
+
+## Worked vignette (illustrative)
+
+A work-and-occupations manuscript looks "ready" at 9,700 words of text with a clean intro and a data
+statement. The preflight catches what a screener catches first: the reference list adds 1,100 words,
+pushing the true count to 10,800 (illustrative, over cap); a 3-panel mechanism figure plus eight tables
+makes 11 panels; and an acknowledgements footnote names a grant. Fix sequence: trim citations under
+10,000, fold two tables into one to reach 10 panels, move the acknowledgement to the separate title
+page. Now it survives screening.
+
+## Referee-pushback patterns and the SF fix
+
+- "Desk-rejected for length" → recount *with* references and endnotes, then trim to the real cap.
+- "Anonymity compromised" → strip file metadata and neutralize self-citations to "Author (year)".
+- "Missing data statement" → draft it via `sf-data-and-transparency` and paste it into the manuscript.
+
 ## Output format
 
 ```

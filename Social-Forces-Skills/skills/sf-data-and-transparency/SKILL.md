@@ -59,6 +59,32 @@ is honest and complete.
 - Depositing code that does not actually reproduce the reported tables/figures
 - Over-stating SF's policy as an editor-run replication mandate when it is a statement + encouraged deposit
 
+## Choosing the right data-availability path
+
+Social Forces spans survey, administrative, demographic, qualitative, and restricted-access data, so the
+statement has to match the data type honestly. A routing table:
+
+| Data situation | Statement should say | Repository / mechanism |
+|----------------|----------------------|------------------------|
+| Public survey (GSS/PSID style) | Where to download + wave | Cite source; deposit construction code |
+| Author-collected, shareable | Deposited with persistent ID | openICPSR, Dataverse, OSF, Zenodo |
+| Restricted administrative | Why restricted + enclave path | Provider process; synthetic substitute |
+| Qualitative / interviews | What is documented + consent limits | Evidence tables; access controls |
+
+Calibration (hedged): SF requires a data availability statement and encourages deposit where ethically
+feasible — not an editor-run pre-publication replication. Confirm wording against current guidelines.
+
+## Worked vignette (illustrative)
+
+A panel study of educational stratification links restricted administrative records to a public survey.
+The honest statement names the public survey and wave (downloadable), notes the linked records are
+reachable only through the provider's secure enclave with the application contact, and points to a
+synthetic analytic file plus master script on OSF so a reader can run the pipeline end to end — public
+where possible, a documented access path where not, a runnable substitute throughout.
+
+Referee fixes: "'available on request' is not enough" → name a repository or access process;
+"code does not reproduce Table 3" → ship a master script that regenerates every declared exhibit.
+
 ## Output format
 
 ```

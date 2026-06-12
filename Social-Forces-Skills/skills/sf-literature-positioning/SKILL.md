@@ -47,6 +47,39 @@ positioning at SF is necessarily lean.
 - Self-citation that breaks anonymity (SF is double-anonymized — see `sf-submission`)
 - "First to study" claims when the contribution is incremental
 
+## What SF editors and referees expect from positioning
+
+Social Forces, a long-standing flagship general sociology journal published by Oxford University Press
+for the Southern Sociological Society, draws referees across stratification, demography, work, family,
+culture, networks, and religion. A positioning section passes this gate:
+
+| Referee question | Passing answer at SF | Early-decline signal |
+|------------------|----------------------|----------------------|
+| What debate does this enter? | One named disagreement with 3-5 anchor cites | A bibliography with no tension |
+| Why should a non-specialist care? | General-sociology stakes in one sentence | "Important for [narrow subfield]" only |
+| What is the precise gap? | A contested or mis-tested claim | "Has not been studied in [setting]" |
+| Who is the closest rival? | Named, engaged, out-argued | The nearest competitor is invisible |
+
+Calibration (hedged): SF sits a notch broader and less theory-maximalist than AJS or ASR — it rewards a
+methodologically solid, clearly-framed contribution over a sweeping theoretical statement, but the
+general-significance bar is still real. Confirm framing norms against the journal's current guidelines.
+
+## Worked vignette (illustrative)
+
+A panel study of educational stratification finds first-generation students at broad-access colleges
+close about 30% of the completion gap (illustrative) when structured advising is present. Weak: "Few
+studies examine advising at broad-access colleges." SF-grade: "The reproduction literature treats
+institutional sorting as the binding constraint on first-gen attainment (anchors); we show an
+organizational mechanism — advising — is partly substitutable for selectivity, reframing whether 'where
+you enroll' or 'how you are supported' carries the mobility effect." That enters a debate, names the
+rival (pure-sorting account), and states the general-sociology stakes.
+
+## Referee-pushback patterns and the SF fix
+
+- "Solid empirics, thin sociological payoff" → recast the finding as a move in a named mobility debate.
+- "You missed obvious work" → add the one or two anchors that *define* the debate, not a citation wall.
+- "Reads as a subfield paper" → add the cross-subfield sentence: who outside your area can use this.
+
 ## Output format
 
 ```
