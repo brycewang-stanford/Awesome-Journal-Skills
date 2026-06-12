@@ -57,10 +57,9 @@ IO introductions that survive the screen tend to follow a recognizable arc. Adap
    could defect from?) any IR scholar recognizes as consequential.
 2. **The live debate and its impasse** — the rival accounts and why existing IR theory cannot settle it.
 3. **The claim** — your portable theory of international politics, in one sentence, before any evidence.
-4. **The design in a breath** — the dyadic/treaty/experimental setup and the rival it rules out.
-5. **The headline result and its magnitude** — interpreted in IR terms (conflict probability, compliance,
-   trade), not as a coefficient.
-6. **The stakes** — what the field now understands about institutions, cooperation, or conflict that it
+4. **Design and result in a breath** — the dyadic/treaty/experimental setup, the rival it rules out, and
+   the headline magnitude interpreted in IR terms (conflict probability, compliance, trade).
+5. **The stakes** — what the field now understands about institutions, cooperation, or conflict that it
    did not. This is the broad-significance close IO editors look for.
 
 A reader from a different paradigm should be able to restate your contribution after paragraph three.
@@ -69,11 +68,11 @@ A reader from a different paradigm should be able to restate your contribution a
 
 Because IO mixes formal, quantitative, and qualitative readers, calibrate so none is excluded. A formal
 result reads better as "states with private information over resolve cannot credibly signal, so bargaining
-breaks down" (the substantive logic) *before* the proposition, so a qualitative reader meets the stakes
-first. Conversely, a process-tracing narrative should surface its inferential logic ("this archival
-sequence is a smoking-gun test") so a quantitative reader sees the leverage. The shared standard: the
-**theory of world politics carries the prose** and the method serves it — the inverse reads as method-led
-and draws the "what's the IR contribution?" note.
+breaks down" *before* the proposition, so a qualitative reader meets the stakes first. A process-tracing
+narrative should surface its inferential logic ("this archival sequence is a smoking-gun test") so a
+quantitative reader sees the leverage. The shared standard: the **theory of world politics carries the
+prose** and the method serves it — the inverse reads as method-led and draws the "what's the IR
+contribution?" note.
 
 ## Anti-patterns
 

@@ -79,10 +79,9 @@ A treaty-compliance study is "ready." The recompute: body 12,400 words, but two 
 figures add ~1,900 word-equivalents and footnotes another ~400, so the true count nears 14,700 — *over*
 the 14,000 Research Article cap (figures illustrative; recount on IO's stated basis). The fix is not
 prose-trimming alone: move one robustness table and the balance table into supplementary material (within
-the ~20-page norm), which also de-clutters the argument. The clean-room pass then catches "as we showed in
-Author 2021" — a first-person self-reference — rewritten in the third person. Only then does it go to
-Editorial Manager. Confirm every numeric cap and the current portal against the journal's current
-submission guidelines before relying on them.
+the ~20-page norm). The clean-room pass then catches "as we showed in Author 2021" — a first-person
+self-reference — rewritten in the third person. Only then does it go to Editorial Manager. Confirm every
+numeric cap and the current portal against the journal's current submission guidelines before relying on them.
 
 ## Anti-patterns
 

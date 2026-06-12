@@ -66,10 +66,9 @@ A scholar has rich panel data on one regional trade bloc and wants to write its 
 The bloc *is* international, so the level is load-bearing — but "the history of bloc X" travels nowhere,
 so the generalizable-theory test fails. The reframe: ask a portable question the case can answer, e.g.,
 *when does delegating dispute settlement to a supranational body raise compliance versus provoke
-backlash?* Now the bloc is a *case of* a general design problem in international institutions, the claim
-travels to other bodies, and it enters a live IPE/institutions debate. The same data, re-asked, moves from
-off-fit to strong fit. When unsure a framing clears the bar, write the one-sentence portable claim first;
-if you cannot, it is not yet an IO project.
+backlash?* Now the bloc is a *case of* a general design problem in international institutions; the claim
+travels to other bodies and enters a live IPE/institutions debate. When unsure a framing clears the bar,
+write the one-sentence portable claim first; if you cannot, it is not yet an IO project.
 
 ## Anti-patterns
 
