@@ -51,6 +51,26 @@ A strong IO paper usually clears all four:
 - **Essay** — a conceptual, agenda-setting, or debate piece, **≤ 10,000 words** (verify the current
   Essay remit on the live page — 待核实).
 
+## Fit-verdict decision table (run before you invest)
+
+| If the honest answer is… | Verdict | Action |
+|--------------------------|---------|--------|
+| strip the international element and the paper still stands | off-fit | re-center or send elsewhere |
+| the claim holds only for one IGO/case | needs reframing | generalize the logic (`io-theory-building`) |
+| it documents but does not explain a cross-border pattern | descriptive | attach a portable mechanism |
+| it explains a general phenomenon of world politics, testable | strong fit | go to `io-literature-positioning` |
+
+## Worked fit vignette (illustrative)
+
+A scholar has rich panel data on one regional trade bloc and wants to write its institutional history.
+The bloc *is* international, so the level is load-bearing — but "the history of bloc X" travels nowhere,
+so the generalizable-theory test fails. The reframe: ask a portable question the case can answer, e.g.,
+*when does delegating dispute settlement to a supranational body raise compliance versus provoke
+backlash?* Now the bloc is a *case of* a general design problem in international institutions, the claim
+travels to other bodies, and it enters a live IPE/institutions debate. The same data, re-asked, moves from
+off-fit to strong fit. When unsure a framing clears the bar, write the one-sentence portable claim first;
+if you cannot, it is not yet an IO project.
+
 ## Anti-patterns
 
 - A domestic-politics paper with international data bolted on (the international phenomenon is incidental)
@@ -58,6 +78,7 @@ A strong IO paper usually clears all four:
 - A measurement or data exercise with no IR theory or payoff
 - Choosing Article length out of habit when a Research Note would land harder
 - Forcing a single paradigm's vocabulary when the contribution is broader
+- Picking a case for its data richness when it is not a *case of* any general IR phenomenon
 
 ## Output format
 

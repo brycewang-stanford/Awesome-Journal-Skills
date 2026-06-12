@@ -51,6 +51,28 @@ Change: [Section/page/table-figure number where the revision appears].
 Open with a short **summary of the main changes** to the editor; group by reviewer; end each entry with
 the location of the change so the editor can verify quickly.
 
+## Referee-objection playbook (the recurring IO pushbacks and their fixes)
+
+Most IO R&R comments fall into a few families; each has a concede-or-rebut posture that protects the
+generalizable IR claim.
+
+| Referee objection | Default posture | The move |
+|-------------------|-----------------|----------|
+| "Selection into treaty membership" | concede, defend the design | add a ratification-timing/instrument or selection model; report what changes |
+| "Mechanism between institution and outcome unspecified" | concede | state the cross-border mechanism and add its observable implication as a test |
+| "Descriptive, not theoretically motivated" | rebut + strengthen | foreground the portable theory; show the finding is an *implication* of it |
+| Rationalist vs. constructivist referees clash | adjudicate openly | pick the path consistent with your theory; explain the tradeoff to the editor |
+
+## Worked rebuttal vignette (illustrative)
+
+Reviewer 2 (rationalist) calls the treaty-compliance result "just selection." Reviewer 1 (constructivist)
+wants more on norm internalization. The editor flags selection as decisive. The response (a) answers the
+editor's decisive point first — a ratification-timing design plus sensitivity analysis shows the effect
+attenuates by about a third but stays positive (illustrative), in a new SI table; (b) reconciles the
+paradigm conflict openly — R1's norm channel enters as a *scope-conditioning* mechanism, not a rival,
+consistent with the commitment theory, the tradeoff named for the editor; (c) ends each entry with the
+section/table location. The revised analysis stays scripted so IO's post-acceptance re-run still passes.
+
 ## Anti-patterns
 
 - Ignoring or merging away a comment without a visible response
@@ -59,6 +81,7 @@ the location of the change so the editor can verify quickly.
 - "We thank the reviewer" with no actual change or argued reason
 - Adding analyses that quietly contradict the original claim without acknowledging it
 - Letting the revised manuscript or new exhibits/proofs drift out of sync with the package IO will verify
+- Satisfying one paradigm's referee by silently abandoning the rival's concern the editor also weighs
 
 ## Output format
 

@@ -52,6 +52,40 @@ tables-figures → writing-style → transparency-and-data-policy → review-pro
 
 Iterate: IR papers usually loop theory ↔ design ↔ analysis several times before writing-style.
 
+## Calibrating to the IO house culture
+
+Before routing, internalize what makes *International Organization* distinct from the generalist
+flagships. IO is the leading outlet in international relations and international political economy,
+published by Cambridge University Press for the IO Foundation. Its culture is **theory-forward**: a clever
+identification strategy with a thin argument lands worse here than at an econometrics-driven venue,
+because editors and referees reward a portable theory of world politics — institutions, cooperation and
+conflict, security, the global economy — over a stand-alone result. IO is also **methodologically
+plural**: formal, quantitative, and qualitative work all appear, so never push a qualitatively strong
+paper toward a quantitative reframe to "fit." Finally, IO sets a **broad-significance bar** — the
+contribution should reshape how IR scholars understand a general phenomenon, not just document one
+institution. Hold these three anchors as you dispatch.
+
+## Lifecycle-to-skill decision table
+
+| You can say… | Bottleneck | Send to |
+|--------------|-----------|---------|
+| "I have data but no general IR claim" | theory deficit | `io-theory-building` |
+| "Reviewers say I missed the IR debate" | positioning | `io-literature-positioning` |
+| "Is my treaty/membership design causal?" | identification | `io-research-design` |
+| "I'm over the word cap (exhibits count)" | length | `io-writing-style` + `io-tables-figures` |
+| "Conditional acceptance — they want code" | pre-final verification | `io-transparency-and-data-policy` |
+| "A rationalist and constructivist referee clash" | R&R adjudication | `io-rebuttal` |
+
+## Worked routing vignette (illustrative)
+
+A scholar arrives with a finished panel showing that states ratifying a human-rights treaty later report
+better compliance, and wants to "submit to IO next week." The router does **not** jump to `io-submission`.
+The first diagnostic is the IR-fit screen: is the institution a *major cause*, or is the correlation
+driven by **selection into ratification**? Because the causal claim is unestablished and the *general*
+mechanism is unstated, the router sends them back through `io-topic-selection` → `io-theory-building` →
+`io-research-design` (a ratification-timing design that breaks selection) before any submission step.
+Routing the empirics-first instinct into theory-first order is the router's core job at IO.
+
 ## Anti-patterns
 
 - Treating IO like a generalist political-science journal (APSR/AJPS/JOP) — IO wants an **IR** theory, not a domestic-politics result with international data attached

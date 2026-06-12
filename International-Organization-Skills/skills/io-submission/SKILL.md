@@ -58,6 +58,32 @@ self-references. Verify volatile specifics on the official page before relying o
 - [ ] Original work; preprint status checked against Cambridge preprint policy
 - [ ] Reproducibility package + formal-proof appendix **staged** so IO staff can verify after conditional acceptance (see `io-transparency-and-data-policy`)
 
+## Avoidable-rejection triage (catch these before upload)
+
+Some failures are administrative rather than intellectual, and IO's double-blind, word-counted,
+verification-gated process punishes them disproportionately. Rank your final pass by severity:
+
+| Severity | Failure | Where it bites |
+|----------|---------|----------------|
+| Fatal | author identity leaks (first-person self-cite, acknowledgments, metadata) | double-blind integrity |
+| Fatal | word count omits tables/figures/notes; paper is actually over cap | desk return for length |
+| High | wrong article type (a full study squeezed into a Research Note) | reviewer mismatch |
+| Medium | no Data Availability Statement before the references | transparency-policy gap |
+
+The two fatal rows are the most common avoidable IO rejections; both are caught in five minutes by a
+clean-room read of the anonymized PDF and a recomputed word count.
+
+## Worked preflight vignette (illustrative)
+
+A treaty-compliance study is "ready." The recompute: body 12,400 words, but two dyadic tables and three
+figures add ~1,900 word-equivalents and footnotes another ~400, so the true count nears 14,700 — *over*
+the 14,000 Research Article cap (figures illustrative; recount on IO's stated basis). The fix is not
+prose-trimming alone: move one robustness table and the balance table into supplementary material (within
+the ~20-page norm), which also de-clutters the argument. The clean-room pass then catches "as we showed in
+Author 2021" — a first-person self-reference — rewritten in the third person. Only then does it go to
+Editorial Manager. Confirm every numeric cap and the current portal against the journal's current
+submission guidelines before relying on them.
+
 ## Anti-patterns
 
 - First-person self-references or author identifiers left in the text/metadata (breaks double-blind)
@@ -65,6 +91,7 @@ self-references. Verify volatile specifics on the official page before relying o
 - Putting the abstract/acknowledgments inside the manuscript instead of submitting them separately
 - Sending a long paper into the Research Note (≤ 8,000) type
 - Supplementary material far over ~20 pages at initial submission
+- Uploading before a clean-room read of the anonymized PDF (the cheapest catch for the fatal failures)
 
 ## Output format
 

@@ -42,6 +42,28 @@ citation pile, and not a domestic-politics literature with an IR veneer.
 | an IPE paper | both the economic logic and the domestic-distributional politics it travels through |
 | constructivist / normative | the rationalist baseline it improves on, and the observable implications |
 
+## Referee-pushback patterns and the IO-specific fix
+
+Positioning complaints from IO referees are predictable; each has a venue-appropriate repair that
+strengthens rather than merely placates.
+
+| Referee says… | What it signals | The IO fix |
+|---------------|-----------------|-----------|
+| "Descriptive, not theoretically motivated" | no live debate is entered | open by naming the contested IR claim and the works that define it |
+| "Missed the key literature" | the closest prior IR paper is uncited | engage the nearest rival head-on and state your delta |
+| "Ignores the rationalist/constructivist account" | single-paradigm framing | engage the rival tradition on its own terms, not in a footnote |
+| "Contribution is incremental" | the move in the debate is too small | reframe as overturning or bounding mechanism M, not adding to it |
+
+## Worked positioning vignette (illustrative)
+
+A paper finds that joining an international monitoring body raises a state's later treaty compliance. A
+citation pile ("many works study compliance…") draws the "descriptive" pushback. The IO move is to name
+the **live disagreement** — the managerial school says institutions raise compliance by building capacity;
+the enforcement/screening school says they merely *select* already-compliant states. The paper then
+adjudicates: "prior work attributes the gain to capacity-building (mechanism M); we show it is conditional
+on prior domestic enforcement capacity C, so M is bounded, not general." That sentence converts a dump
+into a recognizable move in an IR debate and pre-commits the design to separating selection from treatment.
+
 ## Anti-patterns
 
 - A "literature dump" with no organizing IR debate
@@ -49,6 +71,7 @@ citation pile, and not a domestic-politics literature with an IR veneer.
 - Treating a domestic-politics literature as the home debate (re-center on IR — see `io-topic-selection`)
 - Self-citation that breaks anonymity (IO is double-blind — cite your own work in the **third person**)
 - Claiming "first to study" when the IR contribution is incremental
+- Framing the contribution as additive ("we add X") rather than as a stake in the debate
 
 ## Output format
 

@@ -54,6 +54,26 @@ For the **single strongest rival international explanation**, write one sentence
 true rather than my argument, the international data/cases would look like ___; instead they look like
 ___."* If you cannot, the design does not yet identify the IR contribution.
 
+## Worked design vignette (illustrative): a treaty-ratification design
+
+Claim: ratifying an international monitoring treaty raises later compliance. The naive cross-section
+confounds the effect with **selection into membership** — states that mean to comply ratify. An
+IO-credible design exploits **variation in ratification timing**: among eventual ratifiers, treat the
+staggered timing as identification with a modern staggered DID/event-study estimator (not naive TWFE),
+reporting pre-trends. The adjudication sentence: *if selection drove compliance, the gain would appear
+before ratification; instead it appears only after and tracks monitoring intensity.* Sensitivity then asks
+how strong an unobserved confounder must be to overturn it (say, twice the observed regime-type effect —
+illustrative). Timing-based identification, an explicit counterfactual pattern that rules out the rival,
+and a quantified sensitivity bound convert an association into an IR causal claim at IO.
+
+## Identification-threat table (IR-specific confounds and the design answer)
+
+| Threat | Where it appears | Design answer |
+|--------|------------------|---------------|
+| Selection into treaty/alliance/IO membership | compliance, cooperation studies | ratification-timing, instrument, or selection model + sensitivity |
+| Dyadic / network non-independence | any dyad-level outcome | multiway/dyadic-robust SEs or AME/latent-space models |
+| Reverse causation institution↔behavior | institutional-effect claims | timing, lagged design, or instrument with credible exclusion |
+
 ## Anti-patterns
 
 - Ignoring dyadic non-independence; clustering at the wrong level; naive TWFE on staggered treatment
@@ -61,6 +81,7 @@ ___."* If you cannot, the design does not yet identify the IR contribution.
 - "Causal" language on a design that only supports association across states
 - Convenience case selection dressed up as theory-driven
 - Over-generalizing survey-experiment attitudes to real state behavior with no caveat
+- Treating treaty membership as exogenous when ratification is plainly a choice
 
 ## Output format
 

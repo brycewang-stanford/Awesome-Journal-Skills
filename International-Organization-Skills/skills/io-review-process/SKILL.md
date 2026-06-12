@@ -43,12 +43,40 @@ is **double-blind**, reviewed by expert international-relations referees, and �
 - Anticipate the strongest rival IR explanation and answer it in the design.
 - **Engineer reproducibility and clean proofs now** so verification after conditional acceptance is fast.
 
+## Desk-screen failure patterns (where IO papers die first)
+
+IO's editors triage for fit before sending anything out, so the highest-leverage move is surviving the
+screen. The recurring desk-stage rejections at this venue cluster as follows:
+
+| Screen verdict | What the editor saw | Repair before submitting |
+|----------------|---------------------|--------------------------|
+| "Not really IR" | domestic politics with international data bolted on | re-center so the cross-border phenomenon is the cause/effect (`io-topic-selection`) |
+| "Descriptive, not theoretical" | a single-institution account, no portable claim | build a generalizable mechanism (`io-theory-building`) |
+| "Already known / incremental" | confirms existing IR consensus | sharpen the live disagreement entered (`io-literature-positioning`) |
+| "Narrow significance" | a real finding that only IR-subfield specialists would care about | raise the stakes to a general theory of world politics |
+| "Wrong venue" | a pure methods or pure-economics contribution | confirm IO's IR/IPE remit fits the payoff |
+
+Because IO is a specialist flagship, the "not really IR" and "descriptive, not theoretical" screens are
+the two most common; both are about the *argument*, not the data.
+
+## What an expert IR referee actually scores
+
+IO referees are working international-relations scholars, frequently from a different paradigm than the
+author. In practice they weight: (1) **theoretical contribution** — does a portable theory of
+international politics emerge, or just a result; (2) **identification / inferential credibility** on the
+paper's own methodological terms; (3) **engagement with the rival tradition** they personally hold; and
+(4) **broad significance** to the field. A paper can be airtight empirically and still draw a reject if
+the theory is thin — at IO the theory premium dominates, and that ordering is the single most reliable
+calibration anchor for predicting a referee's verdict (the precise weighting is referee-dependent and
+should not be over-read).
+
 ## Anti-patterns
 
 - Submitting a domestic-politics or single-IGO descriptive paper to an IR-theory flagship
 - Expecting an accept on first submission; under-investing in the R&R
 - Leaving an unscripted analysis or incomplete proofs to "fix at acceptance" — verification will stall
 - Breaking anonymity with first-person self-references in a double-blind manuscript
+- Reading a thin desk-reject letter as a comment on data quality when it is usually about theoretical reach
 
 ## Output format
 

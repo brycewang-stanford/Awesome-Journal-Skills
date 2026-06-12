@@ -50,6 +50,31 @@ Ask: *Could an IR scholar import this mechanism to a different issue area, dyad,
 yes, you have a generalizable IR theory. If it only works for your one case/IGO, generalize the logic
 or reframe (back to `io-topic-selection`).
 
+## Worked theory vignette (illustrative): from finding to portable IR theory
+
+Start with a bare finding: states that join an international monitoring institution show higher later
+compliance. As stated it is not yet an IO contribution — it could be selection, and names no general
+mechanism. Building it into a theory of world politics: define the **construct** (*credible commitment via
+delegated monitoring*, distinct from mere membership); state the **cross-border mechanism** — monitoring
+makes violations common knowledge across the membership, so states anticipating future cooperation gains
+internalize the reputational cost, a logic that runs through the institution, not any one domestic
+process; derive **observable implications** (gains concentrate where monitoring is informative and
+interaction dense, and are *absent* where conduct is unobservable — the non-implication matters as much);
+bound it with **scope conditions** (verifiable conduct, repeated interaction); and check **portability** —
+the monitoring-as-commitment logic travels to arms control, trade dispute settlement, or environmental
+regimes, the reach that clears IO's broad-significance bar.
+
+## Theory-strength rubric (how an IO referee grades the argument)
+
+| Grade | Argument looks like… | Typical referee line |
+|-------|----------------------|----------------------|
+| Strong | portable mechanism + scope conditions + clear non-implications | "a generalizable theory of world politics" |
+| Borderline | a mechanism named but tied to one institution | "promising but narrow — does it travel?" |
+| Weak | a finding with hypotheses attached post hoc | "atheoretical / ad hoc" |
+
+IO's theory premium means a Borderline argument with flawless empirics still often draws an R&R aimed at
+the theory, not the data (the exact threshold is referee-dependent).
+
 ## Anti-patterns
 
 - A domestic-politics mechanism relabeled as IR — the action must be international or cross-border
@@ -57,6 +82,7 @@ or reframe (back to `io-topic-selection`).
 - A formal model with opaque assumptions tuned to the desired equilibrium, or proofs left incomplete
 - Mechanisms named but never made observable at the international level
 - Universal claims with no scope conditions; a finding with no theory the field can reuse
+- A mechanism that travels nowhere beyond the studied institution (fails the broad-significance bar)
 
 ## Output format
 
