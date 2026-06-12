@@ -69,16 +69,16 @@ Cluster standard errors to the sampling/nesting structure (e.g., by cohort, regi
 
 ## Worked micro-example (illustrative numbers)
 
-A hypothetical JBV study asks whether prior startup failure raises the *hazard* of a founder's next venture securing Series A. Data: an illustrative panel of 1,800 second-time founders from a registry frame retaining failed first ventures (so it is not survivor-only).
+A hypothetical JBV study asks whether prior startup failure raises the *hazard* of a founder's next venture securing Series A. Data: an illustrative panel of second-time founders from a registry frame retaining failed first ventures (so it is not survivor-only).
 
 - **Estimator**: a Cox model for time-to-Series-A, clustered by accelerator cohort. (Illustrative) HR = 1.34, 95% CI [1.08, 1.66].
-- **Survivorship guard**: a funded-only frame inflates the HR to ≈ 1.71 — a bias illustration, not the headline.
+- **Survivorship guard**: a funded-only frame inflates the HR to ≈ 1.71 — a bias illustration only.
 - **Selection guard**: a first-stage probit for "founds again" yields an inverse Mills ratio that moves the HR to 1.28 — still positive, so the inference holds.
 - **Effect size**: HR 1.28 implies reaching Series A ~4–5 months sooner at the median, tied to learning-from-failure theory rather than a bare star.
 
 ## Calibration anchors (hedged)
 
-- The bar is **identification in service of an entrepreneurship mechanism** — a flawless instrument with no venture-theory payoff still risks a "theory-thin" reject.
+- The bar is **identification in service of an entrepreneurship mechanism**; a flawless instrument with no venture-theory payoff still risks a "theory-thin" reject.
 - Reviewers weight **process and micro-foundations**: show the entrepreneurial actor's decision in the data, not a reduced-form association alone.
 - Robustness norms are pluralistic. Treat any "required" battery as guidance and **confirm against the journal's current author guidelines**.
 

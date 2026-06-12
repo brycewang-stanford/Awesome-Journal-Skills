@@ -78,8 +78,7 @@ Default assumption: unless the user says otherwise, treat the target as the **Jo
 ## Routing output
 
 ```
-【Stage】topic | theory | positioning | methods | analysis | framing | exhibits | writing | submission | review | rebuttal
-【Bottleneck】is entrepreneurship central? mechanism? identification?
-【Route to】jbv-<skill>
-【Source-map check】volatile rules verified? approximate / 待核实
+【Stage】topic | theory | positioning | methods | analysis | framing | exhibits | writing | submission | review
+【Bottleneck】entrepreneurship central? mechanism? identification?
+【Route】jbv-<skill>
 ```

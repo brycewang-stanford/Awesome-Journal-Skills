@@ -60,7 +60,7 @@ An author has Crunchbase data on AI startups and a finding that "advisory-board 
 
 - **Centrality test**: as stated, a signaling/legitimacy effect that could describe any firm raising capital — fails the gate.
 - **The fix that earns fit**: reframe to the *nascent* stage — does advisory prestige substitute for the missing track record that defines the **liability of newness**, vanishing once a venture has its own operating history? Newness becomes the mechanism.
-- **Lens**: sociology (legitimacy/endorsement) primary, economics (signaling under asymmetry) secondary — a multidisciplinary framing fitting JBV.
+- **Lens**: sociology (legitimacy/endorsement) primary, economics (signaling) secondary — a multidisciplinary framing fitting JBV.
 - **Stage/unit**: pre-Series-A nascent ventures, founder-and-venture level.
 - **Verdict**: fit *after* reframing; the raw "prestige → funding" version is a desk-reject risk.
 
