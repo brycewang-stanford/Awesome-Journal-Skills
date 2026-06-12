@@ -48,6 +48,27 @@ anonymity is most often lost.
 - Padding citations to signal effort rather than to position the contribution
 
 
+## Worked micro-example (illustrative)
+
+A paper on close-election incumbency advantage positions against a live debate: prior estimates credit
+officeholder resources, while a rival camp argues candidate-quality persistence. The marginal-contribution
+sentence: *"Existing RD work estimates a pooled advantage assuming no sorting; we relax that, add a
+manipulation test, and show the effect survives — isolating the officeholding channel."* The strongest
+rival is named, with a pointer to the adjudicating design. Self-cites stay third-person, preserving
+anonymity.
+
+## Referee-pushback patterns and the venue-specific fix
+
+- *"You missed obvious work / don't engage the debate."* -> Replace the citation pile with the 3-6 works
+  that *define* the live disagreement and locate your increment against them.
+- *"First-person self-cite breaks blinding."* -> Rewrite "as we showed" as a third-person citation; a
+  single tell can de-anonymize at AJPS.
+- *"This is incremental, not 'first to study.'"* -> Drop the novelty claim; state the delta.
+
+Calibration anchor: AJPS rewards a contribution that travels across political settings and an introduction
+engaging a debate a broad readership recognizes; confirm the current anonymizing rules against the
+journal's guidelines.
+
 ## Positioning pass for American Journal of Political Science
 
 Run this as a concrete capability pass. First lock the political theory, design leverage, measurement validity, and scope condition; then test whether the manuscript addresses political-science reviewers who expect tight theory, transparent design, and a contribution that travels across political settings.

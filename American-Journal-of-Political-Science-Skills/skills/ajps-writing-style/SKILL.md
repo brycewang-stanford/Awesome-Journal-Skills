@@ -52,6 +52,33 @@ counting rules — not about generating claims.
 - Cut throat-clearing and the literature dump; engage the debate, not every paper (see
   `ajps-literature-positioning`).
 
+## Word-budget triage table (where to cut first at AJPS)
+
+| If over the cap... | Cut/move here first | Why it works at AJPS |
+|--------------------|---------------------|----------------------|
+| Long literature section | Engage the debate, drop the citation pile | Generalist readership wants the argument, not a survey |
+| Robustness grids in body | Move to SI (<= 20 pp) | SI is excluded from the word count |
+| Bloated exhibit notes / throat-clearing intro | Tighten notes; front-load the contribution | Headers and notes count; reviewers reward an early "so what" |
+
+## Worked micro-example (illustrative)
+
+A first draft runs 11,300 words against the 10,000 cap for an Article *(illustrative)*. The fix: a
+three-paragraph literature dump collapses into one debate-framing paragraph (-600), two robustness tables
+move to the SI (-500), and footnotes tighten (-200). The intro is rewritten so its last sentence gives the
+reader the question, design, finding, and stakes. A self-cite "as we showed in 2021" becomes a third-person
+citation. Final body lands near 9,900 words, abstract at 138 *(illustrative)*.
+
+## Referee-pushback patterns and the venue-specific fix
+
+- *"The contribution is buried."* -> State the question, argument, design, and finding by the end of the
+  introduction; AJPS reviewers expect the payoff up front.
+- *"References mix styles / use last-name-plus-initial."* -> Pick APSA or Chicago 18th and apply it
+  consistently with full first and last names; spell out acronyms for the cross-subfield AJPS audience.
+
+Calibration anchor: AJPS caps Articles at 10,000 words and the abstract at 150, counting notes and exhibit
+captions but excluding the reference list and online SI; confirm the exact caps and accepted style against
+the journal's current guidelines.
+
 ## Anti-patterns
 
 - An abstract over 150 words or one that hides the finding

@@ -59,6 +59,32 @@ self-citation). Verify volatile specifics on the official page before relying on
 - [ ] Replication package being staged for the AJPS Dataverse — verified after acceptance
       (see `ajps-replication-and-verification`)
 
+## Desk-reject risk table (avoidable failures at AJPS)
+
+| Trigger | Likely outcome | Preflight fix |
+|---------|----------------|---------------|
+| Manuscript not anonymized (names, acknowledgments, funding) | Double-blind breach return | Strip identifying text and file metadata |
+| Short empirical paper sent as a Research Note | Wrong-type return | Route as an Article; the Note is methodology/meta-analysis only |
+| Over the word cap, or SI over 20 pages | Returned to re-fit | Recount with notes/captions; trim SI |
+
+## Worked micro-example (illustrative)
+
+An author readies a survey-experiment Article. Preflight catches a funding acknowledgment in a footnote
+(removed), a first-person self-cite "in our 2022 paper" (made third-person), and a word count of 10,250
+that omitted exhibit captions — recounted it exceeds 10,000, so one robustness table moves to the SI to land
+at ~9,800 *(illustrative)*. The IRB exemption is attached and the replication package staged for the AJPS
+Dataverse pending verification.
+
+## Editor-pushback patterns and the venue-specific fix
+
+- *"This reads as a methods Note but is a short empirical paper."* -> Resubmit as an Article; AJPS reserves
+  the Note for methodology and meta-analysis.
+- *"The manuscript still names the authors."* -> Re-anonymize and strip document properties.
+
+Calibration anchor: AJPS is Wiley-published for the MPSA, uses Editorial Manager, and is double-blind with a
+strict anonymizing standard; treat the fee, ORCID requirement, and exact caps as volatile and confirm
+against the journal's current guidelines.
+
 ## Anti-patterns
 
 - Leaving acknowledgments, funding lines, conference mentions, or first-person self-cites in the text

@@ -55,6 +55,34 @@ with a **post-acceptance third-party verification** step that no in-house-only j
 - Leaving reproducibility for "later" — it becomes a hard gate after acceptance
 
 
+## Decision-stage map (what is being judged when)
+
+| Stage | Decision-maker | Pass condition |
+|-------|----------------|----------------|
+| Editorial screen | Editorial team | Fit, contribution, methods clear enough to send out |
+| External review | Expert reviewers | Identification supports the claim; contribution generalizes |
+| Decision | Editor (adjudicating reviewers) | Reject / R&R / (rare) accept |
+| Post-acceptance | Independent verifier | Deposited code reproduces the main-text numbers |
+
+## Worked micro-example (illustrative)
+
+A close-election RD on incumbency clears the screen because the contribution and payoff are explicit early.
+At external review one referee flags "overclaims causality"; because the empirical claim was scoped to a
+local effect at the threshold and matched to the design, the panel is satisfied and returns an R&R rather
+than a reject. After acceptance, the verifier re-runs the deposited code and confirms the +6-point estimate
+*(illustrative)* in the main text — publication proceeds only once that match is confirmed.
+
+## Referee-pushback patterns and the venue-specific fix
+
+- *"This is a short empirical paper sent as a Research Note."* -> Re-route as an Article; the AJPS Note is
+  methodology and meta-analysis only.
+- *"The design supports association, not the causal claim."* -> Rescope the claim to what is identified, or
+  add the identification evidence a quantitative referee expects.
+
+Calibration anchor: AJPS pairs ordinary double-blind review with a post-acceptance third-party verification
+that gates publication; confirm the current verifier and submission-type rules against the journal's
+guidelines.
+
 ## Review-risk pass for American Journal of Political Science
 
 Run this as a concrete capability pass. First lock the political theory, design leverage, measurement validity, and scope condition; then test whether the manuscript addresses political-science reviewers who expect tight theory, transparent design, and a contribution that travels across political settings.
