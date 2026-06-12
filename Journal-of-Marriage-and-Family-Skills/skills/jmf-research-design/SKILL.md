@@ -56,52 +56,39 @@ contribution.
 
 ## Design-defensibility table JMF referees apply
 
-| Design feature | Defensible at JMF | Vulnerable | Likely reviewer verdict |
-|----------------|-------------------|-----------|--------------------------|
-| Unit of analysis | Matches the family process (dyad/family) and the estimand | Person-rows for a couple-level question | "Unit mismatch — re-specify" |
-| Selection rival | Named and adjudicated (FE, sibling, IV, sensitivity, or scoped) | Asserted away | "Selection into family transitions" |
-| Temporal structure | Longitudinal leverage for a dynamic process | Cross-section for change | "Cross-sectional claim about a dynamic process" |
-| Non-independence | Clustering/APIM/multilevel structure modeled | Independence assumed | "Dyadic dependence ignored" |
-| Measurement | Validated, reliability + invariance reported | Single-item, untested comparisons | "Measure not established across groups" |
-| Generalizability | Scope conditions matched to sample | Universal claim from one cohort | "Overgeneralized" |
+| Design feature | Vulnerable | Likely reviewer verdict |
+|----------------|-----------|--------------------------|
+| Unit of analysis | Person-rows for a couple-level question | "Unit mismatch — re-specify" |
+| Selection rival | Asserted away | "Selection into family transitions" |
+| Temporal structure | Cross-section for a dynamic process | "Cross-sectional claim about a dynamic process" |
+| Non-independence | Independence assumed | "Dyadic dependence ignored" |
 
 For the flagship journal of family science, the design section is judged on whether the *unit of analysis*
-and the *temporal leverage* fit the family process being theorized — not on method fashion. JMF welcomes
-quantitative, qualitative, and multi-method work, but each tradition is held to its own rigor bar.
+and *temporal leverage* fit the family process being theorized. JMF welcomes quantitative, qualitative, and
+multi-method work, each on its own rigor bar.
 
 ## Worked micro-example (illustrative)
 
-A study claims cohabitation "causes" lower relationship quality, comparing cohabiting and married
-respondents in one cross-sectional wave. Numbers illustrative.
+A study claims cohabitation "causes" lower relationship quality from one cross-sectional wave (illustrative).
 
-- *Vulnerable design:* a between-person snapshot showing married respondents score 0.4 SD higher on
-  quality. Referees read this as selection (who marries) plus a cross-sectional claim about a process that
-  unfolds over time.
-- *Strengthened design:* a panel of 2,100 couples tracked from cohabitation forward, using within-couple
-  change as partners transition (or not) to marriage, with the couple as the unit and members modeled via
-  APIM. The estimand becomes the *within-couple* change in dyadic quality around the transition (an
-  illustrative −0.08 SD, 95% CI −0.16 to 0.00), not a between-group gap. Selection adjudication sentence:
-  "If sorting rather than the transition drove this, quality gaps would predate cohabitation; instead they
-  emerge only after." Distinguishability of partners is tested before pooling actor/partner effects.
+- *Vulnerable:* a between-person snapshot where married respondents score 0.4 SD higher — read as selection
+  (who marries) plus a cross-sectional claim about a process that unfolds over time.
+- *Strengthened:* a panel tracking couples from cohabitation forward, using within-couple change as
+  partners transition to marriage, the couple as the unit, members modeled via APIM. The estimand becomes
+  *within-couple* change in dyadic quality (illustrative −0.08 SD). Adjudication: "If sorting drove this,
+  gaps would predate cohabitation."
 
 ## Referee-pushback patterns and the design fix
 
 - *"Selection into family transitions."* Add within-unit leverage (couple/sibling FE), a sensitivity
-  analysis, or a credible natural experiment; if none is available, scope the claim to association.
-- *"Dyadic dependence ignored."* Specify APIM, dyadic SEM, or multilevel nesting; state whether dyads are
-  distinguishable and test it rather than assuming.
-- *"Cross-sectional claim about a dynamic process."* Re-anchor on a longitudinal estimand (growth, change-
-  score, event-history) so the design matches the life-course logic of the framework.
-- *"Convenience case dressed as theory."* For qualitative work, state the sampling logic (theoretical,
-  maximum-variation, paired) and what the case is a case *of*.
+  analysis, or a credible natural experiment; else scope the claim to association.
+- *"Dyadic dependence ignored."* Specify APIM, dyadic SEM, or multilevel nesting; test whether dyads are
+  distinguishable rather than assuming.
+- *"Cross-sectional claim about a dynamic process."* Re-anchor on a longitudinal estimand matching the
+  life-course logic of the framework.
 
-## Calibration anchors (hedged where uncertain)
-
-- The default rival at JMF for observational family research is selection; designs that visibly confront it
-  travel further than designs that mention it. This is a venue-norm heuristic, not a coded rule.
-- Longitudinal panels and dyadic/multilevel structures are the methodological backbone for family-process
-  questions; preregistration and power for the relevant unit are encouraged but their exact expectation is
-  evolving — confirm against the journal's current author guidance.
+*Calibration (hedged):* preregistration and unit-appropriate power are encouraged but evolving — confirm
+against the journal's current author guidance.
 
 ## Anti-patterns
 

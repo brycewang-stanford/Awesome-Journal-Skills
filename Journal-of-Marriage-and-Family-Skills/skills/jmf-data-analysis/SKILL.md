@@ -49,29 +49,24 @@ skill covers execution and reporting norms; design decisions live in `jmf-resear
 
 | Check | Passes review | Triggers a revision request |
 |-------|---------------|------------------------------|
-| Survey design | PSID/NSFG/Add Health weights, strata, clusters applied; design df reported | Unweighted estimates from a complex sample |
+| Survey design | PSID/NSFG/Add Health weights, strata, clusters applied | Unweighted estimates from a complex sample |
 | Non-independence | Dyads/families clustered or modeled (APIM, multilevel) | Partners treated as independent rows |
-| Selection | Within-couple FE, sibling, or PSM + sensitivity, or honest scoping to association | "Effect of" language on raw associations |
-| Missingness | MI or FIML; share imputed and mechanism stated; attrition probed | Listwise deletion that silently shifts the sample |
-| Magnitude | Effect in family units (months to divorce, points on a quality scale) + CI | Stars only, no substantive size |
-| Reproducibility | Master script regenerates each exhibit; seeds set | Numbers the deposited code cannot reproduce |
+| Selection | Within-couple FE, sibling, PSM+sensitivity, or honest scoping | "Effect of" language on raw associations |
+| Magnitude | Effect in family units (months to divorce) + CI | Stars only, no substantive size |
 
-JMF referees are method-sophisticated family scientists; for the flagship journal of the National Council
-on Family Relations, the fastest desk-reject-adjacent outcome is an analysis that ignores the survey design
-or the dependence built into couple and family data.
+For the flagship journal of the National Council on Family Relations, the fastest desk-reject-adjacent
+outcome is an analysis that ignores the survey design or the dependence built into couple and family data.
 
 ## Worked micro-example (illustrative)
 
-A divorce-timing study uses discrete-time event-history on marriages from a national panel. Numbers are
-illustrative.
+A divorce-timing study uses discrete-time event-history on national-panel marriages. Numbers illustrative.
 
 - *Naive (flagged):* a logit pooling person-years with no clustering reports OR = 1.40 for job loss on
   divorce, stars only.
-- *JMF-grade:* a discrete-time hazard with complex-survey weights and SEs clustered on the couple; job loss
-  raises the divorce hazard ~28% (HR 1.28, 95% CI 1.09–1.50). In family terms, it shifts the modeled median
-  time to divorce earlier by roughly 1.6 years. Selection probe: within-couple fixed effects leave a smaller
-  HR ≈ 1.18, so it is not purely sorting. Competing risks (widowhood, separation-without-divorce) are
-  modeled, and the analytic-sample funnel is reported so referees can audit attrition.
+- *JMF-grade:* a discrete-time hazard with survey weights and SEs clustered on the couple; job loss raises
+  the divorce hazard ~28% (HR 1.28, 95% CI 1.09–1.50), shifting modeled median time to divorce earlier by
+  ~1.6 years. Selection probe: within-couple fixed effects leave a smaller HR ≈ 1.18, so it is not purely
+  sorting. Competing risks are modeled and the sample funnel reported.
 
 ## Referee-pushback patterns and the venue-specific fix
 
@@ -79,17 +74,11 @@ illustrative.
   report actor and partner effects separately and test equality.
 - *"Selection into family transitions."* Add a within-unit (couple/sibling) comparison or a sensitivity
   bound, and soften causal language to match.
-- *"Survey design ignored."* Apply the dataset's weight/strata/PSU variables and report design-based SEs and
-  degrees of freedom; justify any defensible unweighted case.
-- *"Attrition could drive this."* Show the attrition model or inverse-probability-of-retention weights and
-  whether the estimate moves.
+- *"Survey design ignored."* Apply the dataset's weight/strata/PSU variables and report design-based SEs.
 
-## Calibration anchors (hedged where uncertain)
-
-- For family panels (PSID, Fragile Families, Add Health, NSFG), design-based inference and principled
-  missing-data handling are treated here as default expectations; confirm dataset-specific guidance against
-  the provider's documentation. Reporting CIs and family-unit effect sizes alongside significance is a robust
-  house norm; the exact table conventions are set in `jmf-tables-figures`.
+*Calibration (hedged):* for family panels (PSID, Fragile Families, Add Health, NSFG), design-based inference
+and principled missing-data handling are defaults; confirm dataset-specific guidance with provider
+documentation.
 
 ## Anti-patterns
 
