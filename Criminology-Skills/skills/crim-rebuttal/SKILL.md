@@ -60,6 +60,32 @@ the location of every change so the editor and reviewers can verify quickly.
 - Adding analyses that quietly contradict the original criminological claim without acknowledging it
 - Letting the revised manuscript or new exhibits drift out of sync with the deposited package
 
+## Reconciling interdisciplinary reviewers (Criminology triage table)
+
+Because the ASC flagship draws reviewers across sociology, developmental psychology, and quantitative
+criminology, R&R comments often conflict. Sort each by whether it touches the contribution, then decide.
+
+| Comment type | Example | Concede or defend? |
+|--------------|---------|--------------------|
+| Touches identification | "selection into treatment is unaddressed" | concede — add the within-person/sensitivity analysis |
+| Touches measurement | "official records, not actual offending" | partly concede — add self-report robustness, keep claim |
+| Touches theory | "this isn't really testing GST" | defend if your prediction separates GST from a rival |
+| Conflicting asks | one wants 4 trajectory groups, one wants 3 | choose by BIC/AvePP, explain the tradeoff to the editor |
+
+## Worked vignette: an R&R response move (illustrative)
+
+Reviewer 1 (a psychologist) wants a fifth trajectory group; Reviewer 2 (a quantitative criminologist)
+calls the existing four over-fit. The response reports BIC favoring four and AvePP of 0.84
+(illustrative), adds the five-group fit to an appendix showing the extra group is < 3% of the sample
+and unstable, and tells the editor four is retained on classification grounds. Both reviewers see their
+point engaged; the contribution holds.
+
+## R&R referee pushback (with the Criminology fix)
+
+- *"You only added confirming analyses."* Fix: include a check that could have broken the claim; report it honestly.
+- *"The revision drifts from the theory."* Fix: protect the mechanism and scope conditions; resist dilution.
+- *"New tables don't match the package."* Fix: re-run the master script so every new exhibit reproduces from the deposit.
+
 ## Output format
 
 ```
