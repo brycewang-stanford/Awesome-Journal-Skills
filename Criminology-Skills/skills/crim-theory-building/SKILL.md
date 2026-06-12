@@ -52,6 +52,34 @@ tighten it into a general logic or reframe (back to `crim-topic-selection`).
 - Universal claims with no scope conditions (e.g., "deterrence works") with no offense/context limits
 - Burying the mechanism under the regression tables
 
+## What "engaging the theory" means to an ASC reviewer (calibration grid)
+
+*Criminology*, the flagship of the American Society of Criminology, sits in a theory-testing tradition:
+a result earns the venue only when it does work *on* a theory. Reviewers grade engagement on a ladder.
+Aim for the top two rungs; the bottom two draw the "atheoretical / theory invoked, not tested" critique.
+
+| Engagement level | What the manuscript does | Reviewer verdict |
+|------------------|--------------------------|------------------|
+| Decorative | names a theory in the intro, never returns | "theory invoked, not tested" |
+| Illustrative | findings "consistent with" a theory, no rival | weak — correlation dressed as theory |
+| Test | one prediction the theory makes that a named rival does not | a contribution |
+| Adjudicate / revise | data separate two theories, or amend scope conditions | flagship-level |
+
+## Worked vignette: from finding to mechanism (illustrative)
+
+A study finds youth in high-collective-efficacy neighborhoods self-report about 25% less violence
+(illustrative). Decorative use stops there. The Criminology move: name the *mechanism* (informal social
+control — adults intervening on behavior), derive an observable a social-disorganization rival denies
+(the gap shrinks once residential stability is held within-neighborhood over time), and bound the scope
+(collective efficacy bites on expressive, not instrumental, crime). That converts a 25% correlation into
+a portable, testable claim.
+
+## Theory-side referee pushback (with the Criminology fix)
+
+- *"Theory invoked, not tested."* Fix: derive one observable the theory implies and a rival denies.
+- *"Mechanism versus correlation."* Fix: specify the behavioral process and within-person observable, not the coefficient sign.
+- *"No scope conditions."* Fix: bound the claim by age, offense type, developmental stage, or place.
+
 ## Output format
 
 ```

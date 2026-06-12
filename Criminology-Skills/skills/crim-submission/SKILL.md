@@ -64,6 +64,34 @@ official page before relying on them (many are 待核实).
 - Submitting while the paper is under review at another journal (prohibited)
 - Sending a policy-evaluation paper here instead of *Criminology & Public Policy*
 
+## Anonymity failure modes that trip the desk (Criminology specifics)
+
+Because *Criminology* runs a blinded workflow, the most common avoidable bounce-back at the ASC/Wiley
+desk is a main document that quietly de-anonymizes the author. Crime research has its own leak channels.
+Scan for each before upload.
+
+| Leak channel | Criminology-specific example | Fix before submit |
+|--------------|------------------------------|-------------------|
+| Self-citation phrasing | "as we found in our Philadelphia cohort study" | neutralize to third person, cite plainly |
+| Restricted-data acknowledgment | named NACJD enclave grant or agency MOU in text | move to title page / cover note |
+| Named field site | the specific police department in a hot-spot trial | generalize ("a large U.S. municipal agency") |
+| File metadata | author name in the .docx properties or track-changes | strip document properties and comments |
+| Cohort/IRB protocol number | tying the sample to one identifiable PI | remove from main document |
+
+## Worked vignette: a one-page preflight (illustrative)
+
+A team uploading a recidivism survival study splits the file into a title page (authors, affiliations,
+three < 100-word bios) and an anonymized main document; confirms double-spacing across the 6 tables and
+references; converts "felons" to "people with a prior conviction"; strips the agency name from methods;
+and stages the NACJD access note off the main document. They leave the length check at 待核实 and do not
+press submit until the current word cap is verified on the live page.
+
+## Referee/editor-desk pushback at submission (the Criminology fix)
+
+- *"Anonymity is broken in section 3."* Fix: third-person self-reference; identifying details to the cover note.
+- *"Citation style is inconsistent."* Fix: one APA-based style end to end via a reference manager.
+- *"Stigmatizing labels throughout."* Fix: APA bias-free, person-first language for justice-involved people.
+
 ## Output format
 
 ```

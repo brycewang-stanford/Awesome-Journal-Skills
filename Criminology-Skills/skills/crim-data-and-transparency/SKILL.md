@@ -55,6 +55,35 @@ build the package as you go.
 - Claiming data are restricted without giving an access route or synthetic substitute
 - Undocumented, un-seeded, unpinned code that "works on my machine"
 
+## Restricted-data transparency decision table (criminology specifics)
+
+Criminal-justice data is often restricted — juvenile records, agency systems, NACJD restricted-use
+files behind enclaves. The ASC/Wiley open-science direction still expects a *credible reproducibility
+path*, so the answer is rarely "cannot share." Match your situation to a tier.
+
+| Data situation | Acceptable transparency move | What to deposit |
+|----------------|------------------------------|-----------------|
+| Public file (e.g., NCVS, UCR/NIBRS extracts) | full open deposit | data + master script + README |
+| NACJD restricted-use | exemption note + exact application path | code + synthetic/derived data + access steps |
+| Agency / juvenile confidential records | DUA or confidentiality exemption + contact | code + simulated data matching schema |
+
+The principle: even when raw data cannot travel, the *code* and a runnable substitute should. Confirm
+the required statement wording against the journal's current submission guidelines (待核实).
+
+## Worked vignette: a restricted-data statement (illustrative)
+
+A study uses a state juvenile-justice extract that cannot be redistributed. The package ships a master
+script regenerating all 8 exhibits; a README documenting construction and the application process
+(agency contact, IRB requirement, ~12-week access window, illustrative); a synthetic dataset matching
+the schema so reviewers can run the script end to end; and seeds for the EM-based trajectory fit. The
+statement names the restriction, the legal basis, and the access route — not "available on request."
+
+## Transparency-stage referee pushback (with the Criminology fix)
+
+- *"'Available on request' is not a path."* Fix: name the archive (NACJD/ICPSR) or the agency steps and contact.
+- *"Code doesn't reproduce Table 3."* Fix: one master script regenerates every exhibit; verify before deposit.
+- *"Restricted data with no way in."* Fix: give the access route plus a synthetic substitute.
+
 ## Output format
 
 ```

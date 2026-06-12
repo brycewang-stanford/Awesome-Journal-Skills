@@ -53,6 +53,34 @@ true. This skill covers execution and reporting norms; design decisions live in 
 - Reading a between-person coefficient as within-individual desistance
 - "Robustness" that only reruns near-identical specs; p-hacking a significant interaction
 
+## Estimator choice keyed to the crime outcome (Criminology decision table)
+
+*Criminology* reviewers are quantitatively literate and will name the mismatch when the model does not
+fit the data-generating process for offending. Use the outcome to pick the estimator, then defend the
+assumption the reviewer will probe.
+
+| Outcome shape | Default estimator | Reviewer will probe |
+|---------------|-------------------|---------------------|
+| Over-dispersed offense counts | negative binomial w/ exposure offset | dispersion test, offset justification |
+| Excess-zero counts (most offend zero times) | zero-inflated / hurdle | what the inflation stage means theoretically |
+| Repeated within-person offending | fixed-effects / hybrid panel | within vs. between separation |
+| Time-to-recidivism, censored | Cox / competing-risks | proportional hazards, censoring mechanism |
+| Developmental offending paths | GBTM / growth mixture | BIC, AvePP ≥ 0.7, group shares not reified |
+
+## Worked micro-example: reading a within-person estimate (illustrative)
+
+Suppose a hybrid model returns an incident-rate ratio of 0.62 on the within-person "employed" indicator
+(illustrative): entering employment maps to roughly a 38% lower offending rate *for the same person*,
+95% CI [0.49, 0.78], net of stable traits. The between-person column, IRR 0.80, is weaker and reading
+it as desistance would conflate selection (people prone to desist also find work) with the within-person
+change the life-course claim requires. Report both; tell the reader which identifies the mechanism.
+
+## Analysis-stage referee pushback (with the Criminology fix)
+
+- *"Official-records bias is unaddressed."* Fix: state whether the outcome is arrest, victimization, or self-report, and how the dark figure and UCR→NIBRS recording shifts could bias it.
+- *"Between-person read as within-person."* Fix: report and interpret only the fixed-effects/hybrid within column for developmental claims.
+- *"Robustness only decorates."* Fix: show a spec that could break the result; say what held.
+
 ## Output format
 
 ```

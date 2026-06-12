@@ -54,6 +54,35 @@ A strong *Criminology* paper usually clears all four:
 - A policy-effectiveness question better suited to *Criminology & Public Policy*
 - Choosing Article length out of habit when a Research Note would land harder
 
+## What an ASC-flagship editor screens for (desk-reject grid)
+
+*Criminology* is the official journal of the American Society of Criminology, published by Wiley, and
+its co-editors triage hard at the desk. The disposition column is the common pattern, not a rule —
+editor discretion governs, so confirm scope wording against the journal's current submission guidelines.
+
+| Manuscript signal at the desk | Likely editor read | Typical disposition |
+|-------------------------------|--------------------|---------------------|
+| New crime correlation, theory only named | "invoked, not tested" | desk-return |
+| Single-agency program evaluation | belongs at *Criminology & Public Policy* | redirect to sister journal |
+| Strong design, weak mechanism link | sound but generic | review, low enthusiasm |
+| Theory test + within-person ID + measured offending | flagship-shaped | expert review |
+
+Diagnostic the desk applies: *would a criminologist studying a different offense, cohort, or place
+change how they think after reading this?* A "no" predicts a return; a "yes" predicts review.
+
+## Worked vignette: fit for a desistance study (illustrative)
+
+A researcher has 15 waves of offender data (illustrative) and finds men who marry between waves report
+about 40% fewer self-reported offenses. The between-person 40% gap is weak fit; reframed as "does
+entering marriage produce within-person desistance net of selection" it *tests* Sampson and Laub's
+age-graded informal social control against a self-selection rival, and becomes a flagship-level Article.
+
+## Referee-pushback patterns at the fit stage (Criminology fix)
+
+- *"Theory invoked, not tested."* Fix: pre-commit to one prediction your theory makes that a rival does not.
+- *"Selection into offending, not an effect."* Fix: state how within-person variation separates the turning point from the people who select in.
+- *"Reads like a policy memo."* Fix: foreground the mechanism; route effectiveness questions to *Criminology & Public Policy*.
+
 ## Output format
 
 ```
