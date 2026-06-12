@@ -53,14 +53,13 @@ the location of the change so the editor can verify quickly.
 
 ## Referee-objection playbook (the recurring IO pushbacks and their fixes)
 
-Most IO R&R comments fall into a few families; each has a concede-or-rebut posture that protects the
+Most IO R&R comments fall into a few families, each with a concede-or-rebut posture that protects the
 generalizable IR claim.
 
 | Referee objection | Default posture | The move |
 |-------------------|-----------------|----------|
-| "Selection into treaty membership" | concede, defend the design | add a ratification-timing/instrument or selection model; report what changes |
-| "Mechanism between institution and outcome unspecified" | concede | state the cross-border mechanism and add its observable implication as a test |
-| "Descriptive, not theoretically motivated" | rebut + strengthen | foreground the portable theory; show the finding is an *implication* of it |
+| "Selection into treaty membership" | concede, defend design | add a ratification-timing/instrument or selection model; report what changes |
+| "Mechanism institution→outcome unspecified" | concede | state the cross-border mechanism and add its observable implication as a test |
 | Rationalist vs. constructivist referees clash | adjudicate openly | pick the path consistent with your theory; explain the tradeoff to the editor |
 
 ## Worked rebuttal vignette (illustrative)
