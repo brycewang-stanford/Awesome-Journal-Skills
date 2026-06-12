@@ -55,11 +55,11 @@ advanced."** Citing a theory is not moving it. Calibrate where a paper sits:
 |-------|-------------------------------|-----------------------|
 | Applies | uses an existing framing/cultivation/agenda-setting account as-is | rarely enough alone |
 | Extends | adds a scope condition or moderator to a known mechanism | competitive if consequential |
-| Specifies | opens the mediating process a prior account left as a black box | strong fit |
-| Reconceptualizes / adjudicates | redefines a construct, or pits two mechanisms | the high-end contribution |
+| Specifies | opens a mediating process a prior account left as a black box | strong fit |
+| Reconceptualizes / adjudicates | redefines a construct, or pits two mechanisms | high-end contribution |
 
-Quantitative, computational, and interpretive/critical papers can all sit at the top tiers; the bar
-is the **theoretical move**, not the method. This is a heuristic, not an editorial rule.
+Quantitative, computational, and interpretive/critical papers can all reach the top tiers; the bar
+is the **theoretical move**, not the method. A heuristic, not an editorial rule.
 
 ## Reviewer-pushback patterns and the theory-level fix
 
@@ -67,8 +67,8 @@ is the **theoretical move**, not the method. This is a heuristic, not an editori
 |-----------------|----------------|---------------------------|
 | "Theory invoked but not advanced" | applies, does not extend | name the boundary added or black box opened |
 | "Effect without a mechanism" | no process | state the cognitive/affective/social step and how it is observed |
-| "Why doesn't this travel?" | scope conditions absent | give where the mechanism holds — and breaks |
-| "Construct slippage" | measured thing isn't the construct | re-anchor the definition; distinguish from neighbors |
+| "Why doesn't this travel?" | scope conditions absent | give where the mechanism holds and breaks |
+| "Construct slippage" | measured thing isn't the construct | re-anchor the definition; split from neighbors |
 
 ## Worked micro-example: from effect to mechanism (illustrative)
 
@@ -82,7 +82,6 @@ now import the resource-pressure → framing-shift mechanism — the portability
 ## Anti-patterns
 
 - "Hypothesizing after results are known" (HARKing) — state theory before tests; preregister where possible
-- Invoking a communication theory in the framing without advancing it
 - A finding tied so tightly to one platform that it cannot travel
 - Mechanisms named but never made observable
 - Universal claims with no scope conditions (which audiences? which messages? which contexts?)
