@@ -50,6 +50,20 @@ At QE a **handling coeditor** owns the decision and synthesizes the referees (of
 - Letting the replication package drift out of sync with the revised results
 - Defensive or curt tone; treating reports as attacks rather than help
 
+## The three QE pushbacks and what actually closes them
+
+These are the recurring quantitative complaints at QE; each is closed by a specific, runnable response — not by prose.
+
+| Referee complaint | The closing move |
+|-------------------|------------------|
+| "Structural estimates are not credibly identified" | add a sensitivity matrix + Monte Carlo recovery; report untargeted-moment fit |
+| "Numerical accuracy is not validated" | report tolerances and a grid-refinement check; show headline stability |
+| "Quantitative results not robust to specification" | re-estimate under alternative moments/sub-samples; tabulate the movement |
+
+## Worked vignette: triaging a QE major-revision letter (illustrative)
+
+Suppose the coeditor underscores Referee 1's identification concern, treats Referee 2's request for a robustness table as binding, and notes Referee 3's framing quibble as optional. Triage: tag identification *fundamental* (run the sensitivity matrix, route to `qe-identification-strategy`), tag the robustness table *fundamental* (re-estimate across three moment sets), tag the framing *clarification* (a paragraph rewrite). Suppose the headline elasticity moves from 0.42 to 0.39 (s.e. 0.05) across specifications — report that explicitly; a stable number under scrutiny is the strongest rebuttal. (Numbers illustrative.) Only after the manuscript reflects all three do you write the point-by-point letter with exact section/table locations.
+
 ## Output format
 
 ```

@@ -55,3 +55,30 @@ Default assumption: unless the user says otherwise, treat the target as QE. Oper
 - Skipping `qe-replication-and-data-policy` until acceptance — the ES Data Editor checks **before** acceptance
 - Letting `qe-tables-figures` polish exhibits while estimation is still moving
 - Treating QE like Econometrica (method-first) or a generic fee-free top-5 journal
+
+## Routing by paper archetype
+
+QE spans four quantitative branches, and the bottleneck differs by branch. Read the archetype, then enter the chain at the right link.
+
+| Archetype | Likely first bottleneck | Enter at |
+|-----------|-------------------------|----------|
+| structural / computational estimation | numerical validation + parameter identification | `qe-identification-strategy` → `qe-data-analysis` |
+| applied micro / finance causal design | staggered-DID or weak-IV credibility | `qe-identification-strategy` |
+| experiment (own data) | pre-registration + estimand (Jan 2026 rules) | `qe-topic-selection` → `qe-identification-strategy` |
+| simulation / measurement | robustness to grids/tuning + reproducibility | `qe-data-analysis` → `qe-replication-and-data-policy` |
+
+## Worked routing example (illustrative)
+
+A user says: "My structural labor model estimates fine, but a referee called the counterfactual numerically fragile and the welfare gain not robust." That is two distinct QE pushbacks — *numerical accuracy not validated* and *results not robust to specification* — both owned by `qe-data-analysis`, with the identification defense in `qe-identification-strategy`. Route there first; only once the headline welfare number is stable (say it settles at 4.2%, s.e. 0.6, illustrative) do you return to `qe-tables-figures` and `qe-rebuttal` to present and defend it.
+
+## Minimal decision snippet
+
+```
+if decision_letter_arrived:        -> qe-rebuttal
+elif ready_to_submit:              -> qe-submission
+elif exhibits_or_significance:     -> qe-tables-figures
+elif estimation_or_numerics:       -> qe-data-analysis
+elif identification_shaky:         -> qe-identification-strategy
+elif claim_or_positioning_fuzzy:   -> qe-contribution-framing / qe-literature-positioning
+else:                              -> qe-topic-selection
+```

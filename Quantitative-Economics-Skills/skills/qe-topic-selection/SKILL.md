@@ -45,6 +45,22 @@ The sweet spot is a paper where the **method and the answer reinforce each other
 - A question so narrow that only one subfield would cite the answer
 - Data so locked down that the ES reproducibility regime cannot be satisfied
 
+## Routing a project across the Econometric Society trio
+
+The three ES journals are open-access siblings; the fit test routes a project among them by what the contribution primarily *is*.
+
+| Project shape | Best ES home | Tell |
+|---------------|--------------|------|
+| theory-meets-data-meets-computation; a quantitative answer | Quantitative Economics | a number the field lacked + reproducible code |
+| a new estimator or limit theorem, application secondary | Econometrica | the method is the point |
+| a model and proofs, no quantification | Theoretical Economics | no estimand, no data |
+
+When two homes seem plausible, ask which sentence the abstract would lead with — a quantity (QE) or a theorem/estimator (Econometrica/TE).
+
+## Worked vignette: a fit judgment in practice (illustrative)
+
+A team has panel data and a new control-function estimator for a production function with unobserved productivity. If the paper's punchline is "our estimator has better finite-sample properties," the home is Econometrica. The QE pivot: use the estimator to answer a question — "correcting the bias raises the estimated returns to scale from 0.92 to 1.04 (illustrative), overturning the constant-returns benchmark for this industry." Now the method serves a quantitative answer with a reproducible package, and the fit is QE rather than a methods outlet.
+
 ## Output format
 
 ```

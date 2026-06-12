@@ -44,6 +44,22 @@ A paper previously rejected by *Econometrica* can be submitted to QE with the **
 - Treating an Econometrica transfer as automatic acceptance — QE re-decides independently
 - Reading too much into silence before the ~4–5 month target has passed
 
+## Desk-reject patterns to screen out before submitting
+
+The handling coeditor screens fast; these are the quantitative-fit failures that draw a no-review rejection at QE.
+
+| Desk-reject pattern | Pre-empt it by |
+|---------------------|----------------|
+| method-first paper with a toy application | reframe around the economic quantity (`qe-contribution-framing`) |
+| no first-order economic question | sharpen fit before submitting (`qe-topic-selection`) |
+| identification that cannot clear the ES bar | stress-test it (`qe-identification-strategy`) |
+| significance asterisks, exhibits at the end | fix house style (`qe-tables-figures`, `qe-submission`) |
+| data so locked the package cannot be built | plan an exemption at submission (`qe-replication-and-data-policy`) |
+
+## Worked vignette: deciding the Econometrica-transfer route (illustrative)
+
+Suppose a structural macro paper was rejected at Econometrica with two constructive reports questioning identification but praising the quantitative contribution. The transfer route fits: the reports are usable, the fee is waived, and the payoff is squarely the QE lane. The cover letter should state point by point how each identification concern was addressed (say, an added sensitivity matrix and Monte Carlo recovery). If instead the reports rejected the *premise*, fresh framing — not a transfer — is the better move. (Scenario illustrative.)
+
 ## Output format
 
 ```

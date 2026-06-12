@@ -53,6 +53,26 @@ QE applies specific presentation rules that differ from most journals:
 - Figures with no uncertainty shown, leaning on stars in a companion table
 - Notes that require the body text to interpret the exhibit
 
+## Reading an exhibit the way a QE referee does
+
+| What the referee looks for | Pass condition at QE |
+|----------------------------|----------------------|
+| significance encoding | no asterisks/boldface; SE under each estimate |
+| non-standard inference | coverage/confidence set shown (weak-IV, boundary) |
+| structural fit | targeted vs. untargeted moments separated |
+| placement | exhibit on the page that discusses it, not at the end |
+| self-containment | note carries estimand, sample, units, estimator, clustering |
+
+## Worked vignette: rebuilding a structural-fit table (illustrative)
+
+A draft reports a 6-column table marking three coefficients with asterisks and stacking all figures after the references. The QE rebuild: a moment-fit table with two blocks — *targeted* moments (data 0.31 vs. model 0.30; data 0.18 vs. model 0.19) and *untargeted* moments used as validation (data 0.44 vs. model 0.41) — and a parameter block showing each estimate with its standard error (e.g., risk aversion 1.8, s.e. 0.3). No stars anywhere; the event-study figure moves in-text beside its discussion with a 95% band on each lead and lag. (Numbers illustrative.) The reader now sees fit, parameters, and uncertainty without decoding symbols.
+
+## Referee pushback and the exhibit fix
+
+- *"Significance is encoded with stars — remove them."* → Replace with standard errors and, where inference is non-standard, a coverage set.
+- *"I can't tell which moments are targeted."* → Split the table into targeted and untargeted blocks; label the validation moments.
+- *"The figure hides its uncertainty."* → Add confidence bands to event-study and counterfactual curves; never imply significance via a companion star table.
+
 ## Output format
 
 ```

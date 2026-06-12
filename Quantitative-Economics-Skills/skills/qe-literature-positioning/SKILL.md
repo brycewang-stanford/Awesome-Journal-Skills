@@ -45,6 +45,26 @@ QE referees — refereeing for the **Econometric Society's empirically/quantitat
 - Positioning a method-first contribution as QE when Econometrica is the real home
 - Citing only working papers when published or stable-archive versions exist
 
+## Siblings and field journals: where the delta lands
+
+| If the departure is mainly... | Natural home | QE positioning move |
+|-------------------------------|------|---------------------|
+| a new estimator/theorem | Econometrica / TE | foreground the quantity it newly enables |
+| a counterfactual prior designs could not run | QE | name the structural margin that makes it feasible |
+| a measured object no prior data captured | QE | tie the fact to a question the field shares |
+
+The desk-reject trap is the **incremental-delta** paper: a competent re-estimation of a known model on new data with no new quantity. Make the delta a number the field lacked.
+
+## Worked vignette: positioning a trade-elasticity estimate (illustrative)
+
+A paper re-estimates the trade elasticity using a tariff change as quasi-experimental variation. Weak positioning: "we contribute to the literature on trade elasticities." QE positioning names the delta: "Prior gravity estimates assume a single elasticity around 4; using firm-level tariff variation we find it ranges from 2 to 7 across sectors (illustrative), raising the welfare cost of a uniform tariff by about a third versus the homogeneous benchmark." Two predecessors are named (the gravity workhorse, the closest firm-level study), each with its margin of departure.
+
+## Referee pushback and the positioning fix
+
+- *"What is new beyond [prior structural paper]?"* → State the one-sentence delta as a quantity that paper did not deliver, not a topic overlap.
+- *"This belongs at Econometrica — it is a method."* → Re-center on the substantive answer the method makes possible; demote the machinery.
+- *"You ignore the closest competitor."* → Name it and distinguish on data, assumption, or quantity head-on, not by omission.
+
 ## Output format
 
 ```

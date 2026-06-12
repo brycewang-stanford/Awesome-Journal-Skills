@@ -55,6 +55,28 @@ QE is the Econometric Society's empirically/computationally oriented journal, so
 - Leaving the replication package to assemble at acceptance (the check is before acceptance)
 - Non-deterministic results with no seed control
 
+## What QE referees probe in the quantitative core
+
+| Probe | What clears it at QE |
+|-------|----------------------|
+| Optimum global? | multi-start grid + objective across starts |
+| Recovers truth? | Monte Carlo with known parameters; bias, coverage |
+| Computation accurate? | tolerances, grid-refinement check, residual errors |
+| Estimates robust? | re-estimate under alternative moments |
+| Data Editor can reproduce? | one `run_all`, pinned environment, logged seeds |
+
+The defining QE failure mode is **numerical accuracy left unvalidated** — a counterfactual reported to three digits the grid cannot support. Treat numerical error like sampling error: bound it and report it.
+
+## Worked vignette: an SMM estimate (illustrative)
+
+A paper estimates an adjustment-cost parameter by simulated method of moments, targeting investment-rate variance and serial correlation. Suppose the headline counterfactual — removing a subsidy lowers aggregate investment 8% — shifts to 5% when the grid doubles from 100 to 200 capital nodes. That 3-point swing is a numerical artifact a referee will catch. Fix: refine the grid until the counterfactual is stable, show a global minimum across 50 starts, and attach a sensitivity matrix. (Illustrative.)
+
+## Referee pushback and the analysis fix
+
+- *"The structural estimates are not credibly identified."* → Add a sensitivity matrix mapping parameters to moments; show targeted-moment fit and untargeted validation.
+- *"Numerical accuracy is not validated."* → Report tolerances, a grid-refinement check, and stability to the digits shown.
+- *"Results are not robust to specification."* → Re-estimate under alternative moments and sub-samples; tabulate the headline movement.
+
 ## Output format
 
 ```

@@ -58,6 +58,16 @@ QE is read across all of economics through an **Econometric Society** lens, so a
 - Vague magnitude language ("significantly", "substantially") with no number or uncertainty
 - Notation overload in the introduction
 
+## Worked vignette: an abstract rewrite (illustrative)
+
+A draft abstract reads: "We study how minimum wages affect employment using a structural model of labor demand, and discuss policy implications." It names a topic, never a finding. The QE rewrite states the quantity with its uncertainty: "Estimating labor demand on firm-level data, a $1 minimum-wage rise lowers low-wage employment 1.2% (s.e. 0.4) but raises retained workers' earnings 3.1% (s.e. 0.7); net surplus rises in low-turnover sectors and falls in high-turnover ones." (Illustrative, ≤150 words.) The reader leaves with a number, its uncertainty, and the lesson.
+
+## Referee pushback and the prose fix
+
+- *"The abstract never states what you found."* → Lead the second sentence with the headline quantity and its standard error.
+- *"The intro reaches the estimator before the question."* → Re-order to the QE arc: question, hardness, approach, result early.
+- *"Magnitudes are vague."* → Replace every intensifier with a number and a coverage set.
+
 ## Output format
 
 ```

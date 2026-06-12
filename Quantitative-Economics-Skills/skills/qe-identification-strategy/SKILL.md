@@ -57,6 +57,16 @@ QE is the Econometric Society's **empirical/quantitative** general-interest jour
 - An experiment with no pre-registration or no reported estimand
 - Reporting significance with asterisks instead of standard errors / coverage sets
 
+## Worked vignette: identifying a search-cost parameter (illustrative)
+
+A labor-search model is estimated on matched employer–employee data. The referee asks what identifies the search-cost parameter. A weak answer points at the likelihood; a QE answer points at a data moment: the elasticity of the job-finding hazard to local vacancy density pins the cost, because a steeper hazard maps to a lower cost. Suppose the sensitivity matrix shows a 0.4 elasticity moves the estimate from 0.9 to 0.6 — that number makes identification visible. Pair it with Monte Carlo recovery (simulated panels return the true cost within 5%, illustrative).
+
+## Referee pushback mapped to the identification fix
+
+- *"Estimates are not credibly identified — calibration in disguise."* → Show the sensitivity matrix and which moment moves which parameter; report untargeted fit.
+- *"Your counterfactual assumes policy-invariant parameters you never defend."* → Argue invariance (Lucas critique); show parameters are not functions of the policy.
+- *"Staggered TWFE here is biased."* → Re-estimate with Callaway–Sant'Anna or Sun–Abraham; show flat event-study leads.
+
 ## Output format
 
 ```

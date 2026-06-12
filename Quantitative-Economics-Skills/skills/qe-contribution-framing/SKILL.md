@@ -44,6 +44,28 @@ State plainly what the result **does** establish (the estimand, the population, 
 - Method-first framing that really belongs at Econometrica
 - Hiding identifying assumptions or computational approximations from the claim
 
+## What a QE handling coeditor weighs in the claim
+
+The general-interest Econometric Society readership wants the payoff, not the plumbing. Grade a candidate contribution sentence against this table.
+
+| Framing pattern | Coeditor reading | Verdict at QE |
+|-----------------|------------------|---------------|
+| "We estimate [parameter] and find a welfare gain of [number]" | quantity-first, answer travels | strong fit |
+| "We measure [object] previously assumed, getting [magnitude, s.e.]" | a fact the field lacked | strong fit |
+| "We propose a new [estimator]" with a toy application | machinery, not an answer | Econometrica lane |
+
+The most common desk-reject framing is the **method-as-contribution sentence**: a computational or inference device with no economic quantity attached. Re-anchor it on the number the method delivers.
+
+## Worked vignette: a dynamic retirement model (illustrative)
+
+A paper estimates a dynamic model of retirement timing and evaluates raising the early-claiming age. Machinery-first framing: "We solve a dynamic program with a nested fixed-point estimator." A QE-fit rewrite names question + quantity + lesson: "Raising the early eligibility age by two years cuts early claiming by 14 percentage points (s.e. 3) and raises lifetime benefits 6% on average, but the gains are regressive — a margin reduced-form work could not quantify." (Numbers illustrative.) The rewrite carries uncertainty, states the policy quantity, and flags the distributional lesson; the estimator becomes a credibility footnote, not the headline.
+
+## Referee pushback and the framing fix
+
+- *"This reads like a methods paper; where is the question?"* → Lead with the counterfactual or estimand; demote the algorithm to a credibility clause.
+- *"The contribution is just a number for one sample."* → Add the scope clause: the estimand, the population it generalizes to, what it overturns.
+- *"You claim more than the design supports."* → Attach the uncertainty and the explicit "does NOT establish" line.
+
 ## Output format
 
 ```
