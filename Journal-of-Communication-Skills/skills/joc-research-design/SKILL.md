@@ -47,12 +47,39 @@ For the **single strongest rival explanation**, write one sentence: *"If the riv
 than my argument, the data would look like ___; instead they look like ___."* If you cannot, the
 design does not yet identify the contribution.
 
+## Reviewer-pushback patterns and the JoC-specific fix
+
+JoC referees at the ICA flagship rarely reject on a single statistic; they reject when the design
+cannot bear the **theoretical** weight the paper puts on it. The recurring objections and their
+venue-specific repairs:
+
+| Reviewer objection | Why it lands at JoC | Design-stage fix |
+|--------------------|---------------------|------------------|
+| "Single-message confound" | one stimulus cannot separate the message *feature* from the specific text | sample multiple messages per condition; treat message as a random factor; report a stimulus-sampling check |
+| "Measurement validity of message features" | a hand-coded or model-coded "frame" may not be the construct claimed | pre-validate the feature against human gold-standard coding; report construct validity, not just reliability |
+| "Effect without mechanism" | a main effect alone does not advance communication theory | design the mediator/moderator measurement in *before* collection; pre-specify the indirect-effect test |
+| "Exposure is assumed, not measured" | self-reported "saw the news" is a weak proxy | build a behavioral or attention-anchored exposure measure |
+| "Cross-sectional process claim" | mediation on one wave cannot license a causal story | move the mediator to an experiment or panel, or hedge the claim |
+
+## Worked micro-example: framing survey-experiment design (illustrative)
+
+A planned study claims that **gain- vs. loss-framed** vaccine messages change intention via
+**perceived risk**. A JoC-defensible design: 2 (frame) × 3 (message exemplars per frame) factorial
+so the frame effect is estimated across six distinct texts, not one — defeating the single-message
+confound. Target **N ≈ 900** (illustrative; size to the registered MDE), preregister the mediation
+path frame → perceived risk → intention with bootstrap CIs, and add an attention check plus a
+behavioral exposure proxy. The adjudication sentence writes itself: if the rival "any health message
+moves intention" were true, the gain/loss contrast would be null while overall intention rose;
+instead the contrast is non-null and runs through perceived risk — advancing framing theory rather
+than re-documenting a persuasion effect.
+
 ## Anti-patterns
 
 - Causal language on a cross-sectional survey that only supports association
 - Content analysis with no reported intercoder reliability or an unstated unit of analysis
 - Automated text measures used without human validation
 - Convenience case/stimulus selection dressed up as theory-driven
+- A single-message stimulus carrying a claim about a message *feature*
 - A design that cannot distinguish your argument from the leading alternative
 
 ## Output format

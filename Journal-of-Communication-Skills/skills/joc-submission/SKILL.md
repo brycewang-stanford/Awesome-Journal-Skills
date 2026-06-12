@@ -57,6 +57,35 @@ volatile specifics on the official page before relying on them.
 - [ ] **Data Availability Statement** included; preregistration noted in cover letter if applicable
 - [ ] Open Science Badge materials staged if a badge is claimed (see `joc-open-science-and-transparency`)
 
+## Desk-reject and return-to-author patterns (avoidable before upload)
+
+At the ICA flagship the handling editor screens for fit and form before review. The failures that
+most often trigger a return or an early decline are mechanical — fix them in the preflight:
+
+| Trigger seen at intake | Editor action | Preflight fix |
+|------------------------|---------------|---------------|
+| Author name in main doc or file properties | returned for anonymity | strip metadata; identity to the title page |
+| Abstract > 150 words | returned for format | cut to ≤ 150; question + approach + finding |
+| Main document > 35 pages (all elements counted) | returned for length | move robustness grids and codebooks out |
+| PDF uploaded as main file | rejected at upload | submit Word (.docx) |
+| No Data Availability Statement | flagged incomplete | add the DAS (repository + identifier, or exemption) |
+| "Too narrow / platform-specific" intro | declined without review | reframe to field-wide reach |
+
+## Calibration anchor: what "ready" means at JoC (hedged)
+
+A JoC-ready submission clears three bars at once: a **theory-advancing** contribution (not a bare
+effect), **valid message/exposure measurement** an expert referee will trust, and **broad
+significance** legible to ICA's readership. Volatile specifics — page rules, badge mechanics, APC
+handling, timelines — drift; **confirm against the current submission guidelines**.
+
+## Worked micro-example: a 5-minute anonymity sweep (illustrative)
+
+Before upload, a content-analysis manuscript runs the sweep: (1) search the main doc for the author
+surname — two first-person self-cites get rewritten in the third person; (2) an OSF link in the
+supplement resolving to a named project page is swapped for a view-only anonymized link; (3) clear
+the author field in document properties; (4) confirm the codebook and intercoder-reliability report
+sit in the supplement, not the main text. All four would otherwise return the paper.
+
 ## Anti-patterns
 
 - Leaving author identifiers in the text, supplements, or file metadata (breaks anonymity)

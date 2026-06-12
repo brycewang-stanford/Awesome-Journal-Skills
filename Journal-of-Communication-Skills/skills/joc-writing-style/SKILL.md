@@ -45,6 +45,36 @@ skill is about reaching the field and respecting the format — not about genera
 - Prefer one decisive figure to three redundant tables.
 - For a **JoC Forum** piece, hold to **3,000–6,000 words**.
 
+## Editor and referee expectations on prose (what trips the desk and the review)
+
+JoC is the International Communication Association's flagship at Oxford University Press, so the
+desk editor reads the opening pages as a generalist and asks one question fast: does this advance
+**communication theory** in a way the whole field can use? The table below maps the most common
+prose-level failure signals to what a JoC handling editor infers and the venue-specific fix.
+
+| Prose signal the editor sees | What it reads as at JoC | Field-wide fix |
+|------------------------------|-------------------------|----------------|
+| Platform/dataset named before a communication process | "platform write-up, not a contribution" | open on the messaging/exposure/effect process; platform is the empirical site |
+| "Communication" appears only in the title | off-scope for ICA's generalist flagship | thread the communicative mechanism through intro, hypotheses, discussion |
+| Abstract gives a coefficient but no theoretical move | finding without a contribution | state construct, mechanism advanced, and field-level stakes |
+| Discussion lists one subfield's implications only | too narrow to clear the screen | add what another subfield can import |
+
+## Worked micro-example: tightening a framing-effects abstract (illustrative)
+
+A survey-experiment manuscript tests whether episodic vs. thematic news framing shifts blame
+attribution on immigration policy. The first abstract draft runs **186 words** (over the 150 cap)
+and ends "results are discussed." Walking it through the rules above:
+
+1. Cut the two-sentence literature wind-up — engagement belongs in the intro, not the abstract.
+2. Replace "results are discussed" with the finding: episodic framing raised individual-blame
+   attribution by about **8 percentage points** (illustrative) versus thematic framing.
+3. Name the theoretical move: the effect is mediated by **perceived personal responsibility**,
+   advancing framing theory rather than re-demonstrating it.
+
+Revised abstract lands at **142 words** stating question, design, finding, and mechanism. The intro's
+contribution paragraph then carries cross-subfield reach (blame-attribution framing travels to
+health-risk and crisis messaging), so the paper reads for the field, not political-comm insiders.
+
 ## Anti-patterns
 
 - A subfield-insider intro that never states general significance
