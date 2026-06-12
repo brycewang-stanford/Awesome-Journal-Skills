@@ -74,3 +74,12 @@ Default assumption: unless the user says otherwise, treat the target as the **Jo
 - **Do not** let `jbv-tables-figures` beautify exhibits before the model and contribution settle.
 - **Do not** let `jbv-rebuttal` draft a response before you have actually revised.
 - **Do not** assume a single deductive template — JBV also rewards strong narrative/interpretive theorizing.
+
+## Routing output
+
+```
+【Stage】topic | theory | positioning | methods | analysis | framing | exhibits | writing | submission | review | rebuttal
+【Bottleneck】is entrepreneurship central? mechanism? identification?
+【Route to】jbv-<skill>
+【Source-map check】volatile rules verified? approximate / 待核实
+```

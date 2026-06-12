@@ -46,6 +46,14 @@ Because manuscripts are managed by **field editors** who curate their own review
 - **Single-silo positioning** when the phenomenon is multidisciplinary.
 - **Straw-manning** the discovery/creation or effectuation debates to manufacture novelty.
 
+## Worked micro-example: problematize, do not gap-spot (illustrative)
+
+A study of equity crowdfunding has a draft intro that opens "equity crowdfunding is understudied." Reframing:
+
+- **Name the conversation**: it joins the financing-signals debate — does the *crowd* read founder signals the way professional VCs do, or differently?
+- **Problematize an assumption**: the field assumes funding signals are universally interpreted; the paper challenges that by showing non-professional backers weight *passion cues* over the credentials VCs prize.
+- **Closest-papers delta**: prior VC-signaling work assumed expert evaluators; this manuscript shows the inference shifts when evaluators are a dispersed crowd — the delta is the *evaluator*, not the signal.
+- **Field-editor signal**: positioning in entrepreneurial-finance plus cognition makes the home domain (and routing) unmistakable on page one.
 
 ## Positioning pass for Journal of Business Venturing
 
