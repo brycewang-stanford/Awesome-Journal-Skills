@@ -55,6 +55,56 @@ reaching the family-science audience and respecting the format — not generatin
   (see `jmf-literature-positioning`).
 - Prefer one decisive figure to three redundant tables.
 
+## What JMF editors reward in the prose
+
+| Element | Reads as JMF-ready | Reads as off-venue |
+|---------|--------------------|--------------------|
+| Opening framing | A family/couple/parent-child question a family scientist recognizes | A within-discipline puzzle only specialists care about |
+| "So what" placement | Family-science significance stated by end of the intro | Significance buried in the discussion |
+| Cross-discipline access | Jargon defined, acronyms and dataset names spelled out | Demography or couples-psychology insider shorthand |
+| Substantive interpretation | Effects in family terms (months, points, percentage points) | "The coefficient was significant" with no meaning |
+| Bias-free language | Precise, respectful terms for family forms and identities | Stigmatizing or imprecise labels |
+| Abstract | Structured, ~200–225 words, finding visible | Unstructured or finding hidden |
+
+JMF is read across sociology, psychology, demography, and family studies; for this flagship interdisciplinary
+venue the prose must let a demographer follow a couples-psychology paper and a developmentalist follow a
+family-demography paper. Modified APA is the house style, and bias-free language about family forms is a
+firm expectation, not a stylistic nicety.
+
+## Worked micro-example: a structured abstract (illustrative)
+
+For the dyadic marital-quality-and-health study, an over-length unstructured abstract becomes a labeled one
+(illustrative numbers):
+
+> **Objective.** This study examines whether within-person change in marital strain predicts later self-
+> rated health among mid-life couples. **Background.** Stress-process theory frames marital strain as a
+> chronic stressor and partner support as a coping resource, yet most evidence is cross-sectional.
+> **Method.** We analyze 1,400 different-sex couples across three waves of a national panel using actor–
+> partner multilevel models with couple-clustered standard errors. **Results.** A one-point rise in marital
+> strain is associated with an illustrative 0.15-SD decline in self-rated health; the association is weaker
+> where partner support is high. **Conclusion.** Marital strain operates as a within-couple health stressor,
+> consistent with a buffering account. **Implications.** Findings inform couple-focused health and family-
+> support interventions.
+
+That lands near 200 words, leads with the family question, and shows the finding rather than hiding it.
+
+## Referee/editor-facing pitfalls and the wording fix
+
+- *"Intro never states family-science significance."* Add one sentence by the end of the introduction that
+  tells a family scholar from any discipline why this matters for families.
+- *"Inaccessible to other disciplines."* Define each framework term on first use and spell out every dataset
+  acronym (PSID, NSFG, Add Health) so the cross-disciplinary readership can follow.
+- *"Imprecise about family forms."* Replace loaded or vague labels (e.g., "broken home") with precise,
+  bias-free descriptions per APA guidance.
+
+## Calibration anchors (hedged where uncertain)
+
+- Modified APA, the structured abstract sections, bias-free language, and the page limits are stable house
+  features; the exact word range, font/spacing spec, and page caps are volatile — confirm against the
+  journal's current Style Guide.
+- Argument-first, family-meaning-first prose is the reliable register for the venue; the precise heading
+  taxonomy can vary by article type, so follow the current author guidelines.
+
 ## Anti-patterns
 
 - A discipline-insider intro that never states family-science significance

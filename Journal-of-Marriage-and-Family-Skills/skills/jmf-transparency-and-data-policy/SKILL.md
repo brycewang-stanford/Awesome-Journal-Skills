@@ -51,6 +51,47 @@ pages (待核实).
 - [ ] Restricted data: restriction note + access instructions + synthetic data where feasible
 - [ ] Preregistration / pre-analysis plan linked (anonymized) where applicable
 
+## Transparency expectations by data type at JMF
+
+| Data type | What can be shared | Access path to document | Common trap |
+|-----------|--------------------|--------------------------|-------------|
+| Public-use survey (e.g., some NSFG files) | Constructed analytic code + variable derivations | Cite dataset DOI/release; link repository | Posting a redistributable file you re-shaped without the version |
+| Restricted-use panel (PSID, Add Health, Fragile Families) | Code + README; not the raw data | Application/agreement steps so an authorized user reproduces | "Available on request" with no access route |
+| Couple/dyadic micro-data | De-identified derived measures where terms allow | Provider contact + agreement | Re-identifiable couples or children in shared excerpts |
+| Qualitative family interviews | Coding scheme, evidence tables, masked excerpts | Access controls per IRB/consent | Exposing identifying family detail |
+
+For the flagship journal of family science, the Wiley data-sharing policy and a data availability statement
+sit alongside JMF's expectation of replication-level methodological detail. Because so many family datasets
+are restricted-use, transparency at JMF is engineered around *documented access*, not redistribution.
+
+## Worked micro-example (illustrative)
+
+A divorce-timing paper uses restricted PSID-linked data that cannot be posted. The transparency package:
+(1) a data availability statement reading, in effect, "Data are from the Panel Study of Income Dynamics
+(release YYYY) and are restricted-use; access requires a PSID sensitive-data agreement — see README for the
+application steps"; (2) a master script that regenerates all six tables and two figures from the
+constructed file, with seeds fixed for the multiple-imputation and bootstrap steps; (3) a synthetic dataset
+of the same schema so a reader without the agreement can run the pipeline end-to-end and confirm it
+executes; (4) precise dataset citation with release/version. The release year and agreement name here are
+illustrative placeholders to confirm against the provider.
+
+## Referee/editor-facing pitfalls and the fix
+
+- *"How would anyone reproduce this?"* Replace "available on request" with the concrete application process,
+  provider contact, and required agreements for the restricted family dataset.
+- *"Code doesn't reproduce the printed tables."* Ship one master script that builds every exhibit, plus
+  pinned package versions (`renv.lock`/`requirements.txt`) and recorded seeds.
+- *"Qualitative materials would identify families."* Share coding schemes and masked evidence tables under
+  access controls rather than raw transcripts.
+
+## Calibration anchors (hedged where uncertain)
+
+- That JMF expects replication-level detail and that Wiley applies a data-sharing policy with a data
+  availability statement are stable features; the *exact* JMF data tier and required statement wording are
+  volatile (待核实) — confirm against the journal's current author and Wiley data-policy pages.
+- Brief reports are an established channel for replications and important null findings, which raises the
+  premium on a clean reproducibility package; treat this as a venue norm to verify, not a quota.
+
 ## Anti-patterns
 
 - Treating transparency as a post-acceptance afterthought

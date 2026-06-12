@@ -51,6 +51,53 @@ Change: [Section/page/table-figure number where the revision appears].
 Open with a short **summary of the main changes** to the editor; group by reviewer; end each per-comment
 entry with the location of every change so the editor can verify quickly.
 
+## Triage table for a JMF R&R
+
+| Comment type | Default move | Watch-out |
+|--------------|--------------|-----------|
+| Editor's decisive point | Solve first, lead the letter with it | Often selection, framework, or family-science contribution |
+| Reviewer methodological (selection, dyadic dependence) | Concede + add the analysis; report what moved | Don't let a new analysis quietly contradict the headline |
+| Reviewer wants a different framework | Engage; adopt or argue from family theory | Switching frameworks can unravel the hypotheses |
+| Two reviewers conflict | Choose a principled path, explain the tradeoff to the editor | Silently satisfying one reads as evasive |
+| Request that weakens the contribution | Respectful, reasoned pushback | A well-argued "no" beats a damaging "yes" |
+| Format/anonymity/data | Comply; keep the revision double-blind and reproducible | New exhibits must stay in sync with deposited code |
+
+Because JMF review is double-blind and most published papers clear at least one R&R, the response letter
+is a persuasion document aimed at anonymous referees *and* an adjudicating editor who decides whether the
+revision converges — written for the flagship venue of the National Council on Family Relations.
+
+## Worked micro-example (illustrative)
+
+On a dyadic marital-quality-and-health R&R, R2 demands a causal interpretation while R3 calls causal
+language unjustified. The fix: state the conflict openly, hold the observational framing, and add within-
+couple fixed-effects plus a sensitivity bound. Illustrative letter entry:
+
+> R3: "The authors cannot claim marital strain *causes* health decline from observational panel data."
+>
+> Response: We agree and removed causal phrasing, reframing the contribution as a within-person association
+> net of stable confounders. New couple fixed-effects models (Table 4) attenuate the estimate from −0.15 to
+> −0.11 SD but it persists; an E-value of 1.6 (illustrative) shows how strong an unmeasured confounder would
+> need to be to explain it. Change: Methods p. 14; Table 4. This also answers R2, to whom we explain why we
+> stop short of a causal claim.
+
+## Referee-pushback patterns and the convergence fix
+
+- *"Family theory not engaged" (recurring).* Show how the framework now constrains the revised hypotheses
+  and point to the exact paragraphs, not just added citations.
+- *"Selection still not handled."* Add the within-unit or sensitivity analysis implied, report the direction
+  and size of any change honestly, and align the claim to the new evidence.
+- *"You ignored my main point."* Quote every comment verbatim and answer it; the editor scans for coverage,
+  and a single skipped comment signals non-compliance.
+- *"Revision drifted from the deposited data."* Regenerate the package so new exhibits reproduce, and say so
+  (see `jmf-transparency-and-data-policy`).
+
+## Calibration anchors (hedged where uncertain)
+
+- Treating the R&R as a genuine opportunity rather than a soft rejection reflects JMF's norm that most
+  publications iterate; the precise decision labels and timelines are volatile (待核实) — confirm on the
+  journal's editorial pages. Protecting the family-science contribution while answering reviewers is the
+  central balancing act; the editor's letter signals which points are decisive.
+
 ## Anti-patterns
 
 - Ignoring or merging away a comment without a visible response

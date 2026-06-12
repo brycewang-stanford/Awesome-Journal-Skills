@@ -51,6 +51,47 @@ confirm the current portal before you start. Verify volatile specifics on the of
 - [ ] Ethics / IRB / human-subjects protections documented
 - [ ] Corresponding-author **ORCID** ready; fee/OA status checked (待核实)
 
+## Desk-handling patterns at JMF (avoid before upload)
+
+| Pattern | Why it stalls at the editor's desk | The fix |
+|---------|------------------------------------|---------|
+| Author identifiable | Breaks the double-blind model NCFR/Wiley operate; editor cannot send it out | Strip names, affiliations, acknowledgements, funding, and document-property metadata; neutralize self-cites |
+| "Family" is incidental | Out of scope for the flagship family-science journal | Re-foreground the family/couple/parent-child contribution or re-route (see `jmf-topic-selection`) |
+| Wrong format-to-limit | A full study sent as a Brief Report (or padded into an Article) | Match the contribution to Article vs. Brief Report and meet the page limit incl. tables/figures |
+| Abstract unstructured | Reviewers are recruited on the structured abstract | Use Objective/Background/Method/Results/Conclusion/Implications, ~200–225 words |
+| No data availability statement | Wiley data-sharing policy expects one | Draft shared/restricted status + access path before upload |
+| Stale portal/fee assumption | JMF migrated submission systems mid-2025 | Confirm the live portal and any fee on NCFR's Submit page (待核实) |
+
+These are anonymization, scope, and format gates that an editor can apply *before* peer review; clearing
+them is what converts a desk-screen into a sent-for-review decision.
+
+## Worked micro-example (illustrative)
+
+A longitudinal dyadic paper on marital quality and health is ready to upload. Preflight catches, in order:
+(1) the Acknowledgements still thank a named grant and lab — removed and held for the title page; (2)
+"as we showed in Smith (2023)" self-identifies the author — neutralized to "prior work has shown"; (3) a
+couple's verbatim quote names a town small enough to identify the family — generalized; (4) the abstract
+is 240 words and unlabeled — cut to 215 and split into the six structured sections; (5) the manuscript is
+38 pages, over the ~35 Article limit — two full robustness tables moved to supplementary materials,
+bringing it to 34. Word counts and page counts here are illustrative. Only after these does the data
+availability statement and the live portal link get confirmed.
+
+## Referee/editor-facing pitfalls and fixes
+
+- *"Could identify the authors."* Anonymization is not just the byline — funding, IRB-protocol numbers,
+  named datasets you uniquely collected, and PDF metadata all leak identity in a double-blind venue.
+- *"Could identify participating families."* Generalize town names, employers, and rare family
+  configurations so no couple or child is re-identifiable.
+- *"Format limit exceeded."* The page cap typically *includes* tables and figures; thin the exhibits or
+  move detail to supplements rather than shrinking margins or font.
+
+## Calibration anchors (hedged where uncertain)
+
+- Owner/publisher (NCFR/Wiley), the double-blind model, the structured abstract, and the
+  Article/Brief-Report split are stable identity features of JMF; the *exact* page counts, word range, fee,
+  and portal URL are volatile — confirm against the journal's current submission guidelines before upload.
+- Treat every numeric limit in this skill as a default to verify, not a guarantee.
+
 ## Anti-patterns
 
 - Leaving author identifiers in the text, acknowledgements, or file metadata (breaks anonymity)

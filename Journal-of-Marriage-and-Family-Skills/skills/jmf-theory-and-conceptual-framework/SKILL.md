@@ -46,6 +46,44 @@ Ask: *Does the framework explain a family or relational process, or only label a
 mechanism could be restated without families in it, sharpen it — name the dyadic/family/intergenerational
 process that does the work, or reframe (back to `jmf-topic-selection`).
 
+## What JMF referees expect from the framework
+
+| Expectation | Publishable | Desk-reject signal |
+|-------------|-------------|--------------------|
+| Family theory engaged | Named framework constrains every hypothesis | Only a literature list |
+| Mechanism is relational | A dyadic/parental/intergenerational process explains | Restatable with no families in it |
+| Hypotheses derived | Directional H1…Hk follow from the framework | Bolted on after the results |
+| Scope conditions stated | Which cohorts and family forms the claim covers | Universal claim from one era |
+
+Referees for JMF, the flagship of family science published by Wiley for the National Council on Family
+Relations, read first for whether a *family process* is theorized. A correlation in family vocabulary is
+the most common reason a thin manuscript is returned without review.
+
+## Worked micro-example (illustrative)
+
+A team studies whether **marital quality predicts later self-rated health** in a longitudinal dyadic panel.
+
+- *Atheoretical (rejected):* "Happier marriages link to better health" labels a correlation; no family
+  process is named and selection (healthier people marry happier) is unaddressed.
+- *Framework version:* Anchor in **stress-process** — strain is a chronic stressor, support a coping
+  resource, defined dyadically (one partner's strain is the other's context). H1 within-person strain rises
+  predict health declines (illustratively 0.15-SD per point); H2 the link weakens with high partner support.
+  *Falsifier:* if strain shifts health only between persons, not within persons, buffering fails.
+
+## Referee-pushback patterns and the family-theory fix
+
+- *"Atheoretical / just associations."* Name the family-science framework, let it generate the hypotheses,
+  and show the test could falsify the mechanism, not merely a coefficient's sign.
+- *"Mechanism is individual, not relational."* Re-specify at the dyad/family level — whose resource, whose
+  constraint, whose interdependence carries the effect.
+- *"Cross-sectional claim about a dynamic process."* If the framework is about change, the hypotheses must
+  be about within-unit change (hand to `jmf-research-design`).
+
+*Calibration (hedged):* a framework that would read identically in a general sociology or developmental
+outlet usually under-serves the venue (contrast Demography's population-process lens). Engaging family
+theory is a hard expectation; the *preferred* frameworks rotate, so confirm current emphasis against the
+journal's scope statement.
+
 ## Anti-patterns
 
 - HARKing — presenting post hoc results as a priori hypotheses; preregister where possible
