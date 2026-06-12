@@ -67,7 +67,7 @@ own terms. The recurring objections, and the answering move, are stable.
 
 A frequent risk is the **fishing concern**: an interaction found post hoc and theorized as if
 predicted. Pre-specify subgroups, correct for multiple comparisons, report the unconditional result
-too. (Confirm expectations against the journal's reviewer guidelines, which can be revised.)
+too. (Confirm expectations against the journal's reviewer guidelines.)
 
 ## Worked micro-example (illustrative numbers)
 

@@ -68,8 +68,8 @@ failure triggers which response lets you pre-empt it.
 
 Calibration anchor: World Politics is a leading peer-reviewed journal of comparative politics and
 international relations, methodologically plural (comparative, quantitative, qualitative, and formal),
-and it prizes a big political question with theory that travels over narrow empirics. Tune the paper
-to that bar, not to a generalist or IR-only one.
+and it prizes a big political question with theory that travels over narrow empirics. Tune to that
+bar, not a generalist or IR-only one.
 
 ## Review-risk pass for World Politics
 

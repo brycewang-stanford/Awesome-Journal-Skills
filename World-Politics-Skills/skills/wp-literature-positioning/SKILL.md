@@ -78,7 +78,7 @@ Rival:    "it's just commodity prices" — design adjudicates by within-case tim
 ```
 
 This positions the paper inside a cross-case debate the field already argues about, so the
-contribution travels. (Engagement expectations can change; confirm against the current guidelines.)
+contribution travels. (Engagement expectations can change; confirm against current guidelines.)
 
 ## Output format
 

@@ -58,6 +58,35 @@ not stall.
 - Assuming an embargo without editorial-committee approval
 - Undocumented, un-seeded, unpinned code that "works on my machine"
 
+## Replication-objection patterns and the venue-specific fix
+
+The deposit is checked against the published numbers, so the failures here are about reproducibility
+and provenance rather than design.
+
+| Objection at deposit/replication | The fix this skill drives |
+|----------------------------------|----------------------------|
+| "Code doesn't reproduce the published table" | One master script that regenerates every exhibit; match numbers exactly |
+| "Stochastic step won't replicate" | Set and report seeds for bootstrap, randomization, sampling |
+| "Provenance unclear" | README documenting sources, construction, recodes, and replication steps |
+| "Proprietary data can't be shared" | Request an editorial-committee-approved embargo (up to two years) before publication |
+| "Qualitative claims unauditable" | Evidence tables / active citation; access-controlled repository where sensitivity requires |
+
+## Worked micro-example (illustrative)
+
+A hypothetical accepted paper on **trade agreements and democratic backsliding** stages its package:
+
+```text
+Master script: make.R → regenerates Tables 1–4 + Figures 1–3 from /raw and /derived
+Seeds:         set.seed(20260601) before the bootstrap in model 3
+Versions:      renv.lock pins R 4.x + 18 packages
+Provenance:    README maps V-Dem v14 + DESTA to each constructed variable
+Embargo:       one proprietary firm-survey extract → 2-year embargo, committee approval requested
+Check:         a clean-machine run reproduces every published number before deposit
+```
+
+The clean-machine run is the gate; "works on my machine" is not deposit-ready. (The Dataverse,
+embargo, and timing rules are policy that can change — confirm against the current data-policy page.)
+
 ## Output format
 
 ```

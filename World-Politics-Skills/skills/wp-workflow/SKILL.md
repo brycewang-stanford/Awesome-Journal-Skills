@@ -62,6 +62,21 @@ Iterate: most papers loop theory ↔ design ↔ analysis several times before wr
   narrative (explicitly out of scope)
 - Pitching an unsolicited review article without checking the commissioning norm
 
+## Venue-routing calibration (where a paper belongs)
+
+Before dispatching internally, sanity-check that World Politics is the right home. It is a leading
+peer-reviewed journal of comparative politics and international relations — theory-driven work on the
+political economy of development, regime change, conflict and security, and institutions, using
+comparative, quantitative, qualitative, and formal methods, and known for analytical review essays.
+
+| Symptom | Likely better home | Re-route signal |
+|---------|--------------------|-----------------|
+| IR institutions / political economy, narrow | International Organization | Route there if the audience is IR-only |
+| General-interest, any subfield | APSR / AJPS / Journal of Politics | Discipline-wide reach, not comparative-IR specialist |
+| Comparative breadth, lighter theory | Comparative Political Studies | If the theoretical question is not big enough |
+| Travels across cases, big theoretical question | World Politics | Stay; run the pipeline below |
+
+If a neighboring outlet has the stronger audience claim, say so before investing in the pipeline.
 
 ## Router pass for World Politics
 

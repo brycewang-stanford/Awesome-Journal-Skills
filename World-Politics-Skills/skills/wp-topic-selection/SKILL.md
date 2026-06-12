@@ -58,6 +58,38 @@ A strong research article usually clears all four:
 - An opinion, policy, theory-only, historical, or journalistic piece (out of scope)
 - Drafting an unsolicited review article without confirming the commissioning norm
 
+## Fit-objection patterns and the venue-specific fix
+
+The earliest screen is fit, so the objections that kill a project here are about scope and travel —
+each with a reframe.
+
+| Objection at fit stage | The reframe this skill drives |
+|------------------------|-------------------------------|
+| "Too case-specific / just one country" | Make the lone case a case *of* a general mechanism, or add a comparison |
+| "Reads as a methods demonstration" | Anchor it to a comparative or IR substantive payoff, not technique |
+| "This is policy / current affairs" | Recast as theory-driven empirical analysis, or target a policy outlet |
+| "Of general interest, not specialist" | Decide honestly between World Politics and a generalist venue (APSR/AJPS/JOP) |
+
+Calibration anchor: World Politics is a comparative-politics-and-IR specialist that prizes big
+theoretical questions and research design over narrow empirics, and it also runs analytical review
+essays. It is not a discipline-wide generalist and not IR-only — so a question with cross-case
+leverage on regimes, conflict, development, or institutions fits where a single-subfield novelty does not.
+
+## Worked micro-example (illustrative)
+
+A scholar has rich data on **one country's land-reform program**. Two framings:
+
+```text
+Off-fit:  "first quantitative study of country X's 1990s land reform" (single-case, doesn't travel)
+On-fit:   "when does land reform defuse vs ignite rural conflict?" — country X as one case in a
+          paired comparison, mechanism = redistribution-vs-expropriation credibility, testable
+          across other reforming states
+Type:     research article (a review article would instead synthesize related books + set an agenda)
+```
+
+The on-fit framing poses a substantive question that travels and carries theoretical payoff. (Scope
+norms can change; confirm against the current scope statement.)
+
 ## Output format
 
 ```

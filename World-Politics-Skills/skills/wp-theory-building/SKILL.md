@@ -50,6 +50,28 @@ stretching is the opposite failure — a concept so broad it no longer travels m
 - Universal claims with no scope conditions, or concept stretching to force generality
 - Burying the argument under the empirics — the contribution must be stated plainly
 
+## Referee-pushback patterns and the venue-specific fix
+
+World Politics rewards arguments that advance theoretical debates, so the sharpest objections are
+about generativity and portability.
+
+| Referee objection | The fix this skill drives |
+|-------------------|----------------------------|
+| "Empirical but not theoretically generative" | Attach the finding to a mechanism the field can carry to other cases; state a non-obvious prediction |
+| "Scope conditions unstated" | Name where it holds and where it fails; portability is not universality |
+
+## Worked micro-example (illustrative)
+
+A hypothetical finding — "aid cut, then the incumbent fell" — becomes portable:
+
+```text
+Concept:   external-rent dependence (distinct from total revenue)
+Mechanism: rents fund the coalition; a cut shrinks side-payments → elite defection
+Scope:     holds where rents are fungible and the coalition is narrow
+```
+
+The single case is now a case *of* coalition-funding dynamics, which lets the argument travel.
+(Confirm contribution expectations against current guidelines.)
 
 ## Operating pass for World Politics
 

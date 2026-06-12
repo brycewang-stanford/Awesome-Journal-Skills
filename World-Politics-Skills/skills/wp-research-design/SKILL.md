@@ -84,8 +84,8 @@ Travel:    scope condition — holds where elections raise audience costs, not w
 ```
 
 The redesign varies on the outcome and writes the adjudication sentence, so the comparison can
-identify a contribution that travels. (Counts and ratios illustrative; confirm current design
-expectations against the journal's reviewer guidelines.)
+identify a contribution that travels. (Counts and ratios illustrative; confirm design expectations
+against current guidelines.)
 
 ## Output format
 

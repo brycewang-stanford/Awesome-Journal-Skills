@@ -51,7 +51,7 @@ Every exhibit must pull its weight and reproduce from the deposited Dataverse pa
 ## Exhibit-objection patterns and the venue-specific fix
 
 A World Politics referee uses exhibits to check whether a cross-case result is real, so objections
-track the venue's emphasis on magnitude, transparency, and travel.
+track magnitude, transparency, and travel.
 
 | Referee objection | The fix this skill drives |
 |-------------------|----------------------------|
@@ -65,12 +65,12 @@ table. The redesign carries the argument better:
 
 ```text
 Before: 14-column coefficient table + stars, no case labels
-After:  forest plot across 6 variants, 95% intervals, N = 1,940 dyad-years, COW + ATOP, 1946–2010
+After:  forest plot across 6 variants, 95% intervals, N = 1,940 dyad-years, COW + ATOP
 Supplement: full table + balance checks → Online Appendix (within 15-page cap)
 ```
 
 The figure shows magnitude and uncertainty at a glance while the full table stays auditable in the
-supplement. (Numbers illustrative; verify the cap against the submission page.)
+supplement. (Numbers illustrative; verify the cap on the submission page.)
 
 ## Exhibit pass for World Politics
 

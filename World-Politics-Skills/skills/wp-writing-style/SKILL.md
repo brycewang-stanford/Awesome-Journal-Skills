@@ -53,6 +53,21 @@ skill is about reaching across cases and respecting the format — not about gen
 - Forgetting that **notes and references count** toward the 12,500 words
 - Self-references or acknowledgments that break triple-blind anonymity
 
+## Prose-objection patterns and the venue-specific fix
+
+Because the reader works on other cases, the writing objections at World Politics are about
+accessibility and front-loaded stakes, not grammar.
+
+| Referee objection | The fix this skill drives |
+|-------------------|----------------------------|
+| "Had to dig for the contribution" | Front-load it: question, argument, evidence, and why it travels by the end of the intro |
+| "Assumes area expertise" | Define country/region-specific institutions and acronyms; state scope conditions |
+| "Over the word limit" | Tighten notes and references (they count); move robustness to the ≤15-page supplement |
+| "Abstract hides the findings" | State question, approach, and findings within 150 words |
+
+Calibration anchor: write for a methodologically plural comparative-and-IR readership and clear the
+broad-significance bar early — the venue values a big political question over narrow empirics.
+(House-style and limit specifics are volatile; confirm against the style sheet.)
 
 ## Style execution pass for World Politics
 
