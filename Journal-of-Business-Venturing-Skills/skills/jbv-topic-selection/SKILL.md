@@ -52,7 +52,6 @@ When the centrality gate is borderline, use this table to decide whether JBV is 
 | *Creating* a venture/opportunity under uncertainty.       | Strong JBV fit; build the mechanism in `jbv-theory-development`.                     |
 | Strategy/competitive advantage of an established firm.    | Likely Strategic Management Journal — entrepreneurship is incidental.                |
 | Broad entrepreneurship theory or pedagogy/identity.       | Possibly Entrepreneurship Theory and Practice; check whether JBV's micro/process emphasis fits.|
-| Strategy-meets-entrepreneurship (advantage from newness). | Consider Strategic Entrepreneurship Journal; JBV fits if venture *emergence* is the heart.|
 | Reads identically for any organization.                   | Off-fit; reframe around the venture primitive or route to a general-management outlet.|
 
 ## Worked micro-example: a fit decision (illustrative)
@@ -63,7 +62,7 @@ An author has Crunchbase data on AI startups and a finding that "advisory-board 
 - **The fix that earns fit**: reframe to the *nascent* stage — does advisory prestige substitute for the missing track record that defines the **liability of newness**, vanishing once a venture has its own operating history? Newness becomes the mechanism.
 - **Lens**: sociology (legitimacy/endorsement) primary, economics (signaling under asymmetry) secondary — a multidisciplinary framing fitting JBV.
 - **Stage/unit**: pre-Series-A nascent ventures, founder-and-venture level.
-- **Verdict**: fit *after* reframing; the raw "prestige → funding" version is a borderline-to-off-fit desk-reject risk.
+- **Verdict**: fit *after* reframing; the raw "prestige → funding" version is a desk-reject risk.
 
 ## Calibration anchors (hedged)
 

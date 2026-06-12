@@ -73,13 +73,13 @@ A hypothetical JBV study asks whether prior startup failure raises the *hazard* 
 
 - **Estimator**: a Cox model for time-to-Series-A, clustered by accelerator cohort. (Illustrative) HR = 1.34, 95% CI [1.08, 1.66].
 - **Survivorship guard**: a funded-only frame inflates the HR to ≈ 1.71 — a bias illustration, not the headline.
-- **Selection guard**: a first-stage probit for "founds again" yields an inverse Mills ratio that moves the HR to 1.28 — still positive, so the inference survives.
-- **Effect size**: HR 1.28 implies reaching Series A ~4–5 months sooner at the (illustrative) median, tied to learning-from-failure theory rather than a bare star.
+- **Selection guard**: a first-stage probit for "founds again" yields an inverse Mills ratio that moves the HR to 1.28 — still positive, so the inference holds.
+- **Effect size**: HR 1.28 implies reaching Series A ~4–5 months sooner at the median, tied to learning-from-failure theory rather than a bare star.
 
 ## Calibration anchors (hedged)
 
-- The bar is **identification in service of an entrepreneurship mechanism** — a flawless instrument with no venture-theory payoff still risks a "method-led, theory-light" reject.
-- Reviewers weight **process and micro-foundations**: show the entrepreneurial actor's decision in the data, not just a reduced-form association.
+- The bar is **identification in service of an entrepreneurship mechanism** — a flawless instrument with no venture-theory payoff still risks a "theory-thin" reject.
+- Reviewers weight **process and micro-foundations**: show the entrepreneurial actor's decision in the data, not a reduced-form association alone.
 - Robustness norms are pluralistic. Treat any "required" battery as guidance and **confirm against the journal's current author guidelines**.
 
 ## Anti-patterns

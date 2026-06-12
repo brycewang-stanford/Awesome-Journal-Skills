@@ -73,7 +73,6 @@ Review is **double-anonymized**, so prepare an anonymized manuscript:
 | Proprietary VC/founder data, no statement.                | Write a data availability statement explaining the restriction and what *can* be shared.|
 | Generative-AI used but undisclosed.                       | Add the AI disclosure (tool and scope); separate from the competing-interest line.  |
 | Abstract over 250 words, method-heavy.                    | Cut to ≤250 and lead with the entrepreneurial phenomenon and contribution.          |
-| Funding/thanks named in the anonymized file.              | Move all acknowledgements to metadata or a held-out title page.                     |
 
 ## Worked micro-example: a one-pass preflight (illustrative)
 
