@@ -64,6 +64,33 @@ a referee forces it — at a theory journal a single unproven step can sink the 
 - Simulations that avoid the regime where the approximation is weakest
 - Targeting the invited ET Interview as a submission
 
+## Desk-reject and red-flag screen for theory papers
+
+Before a referee sees it, the handling editor screens the manuscript for whether a *general, proved,
+foundational* result is present, in ET's rigorous limit-theory tradition.
+
+| Screen item | Survives | Likely quick reject |
+| --- | --- | --- |
+| Nature of the result | A theorem with explicit limiting law | An applied estimate with a theory veneer |
+| Generality | Moves the result along a known dimension | A relabelled corollary of standard theory |
+| Proof completeness | Hard step proved or routed to Supplement | A visible gap at the delicate step |
+| Genre | Submitted Article/Miscellanea | Targeting the invited ET Interview |
+
+## War-gaming the proof-checking referee
+
+For a new limit theory for a nonstationary estimator, read adversarially as the referee will: they (1)
+check whether the dependence condition is primitive or hides the conclusion; (2) ask whether the o_p(1)
+bound at the uniformity step is uniform in the local-to-unity parameter or only pointwise; (3) verify the
+normalizing rate matches the claimed limit; (4) ask whether the Monte Carlo visits the near-unit-root
+neighborhood; (5) ask "is this the i.i.d. special case of an existing FCLT?" Pre-empt all five — add the
+uniformity lemma, the boundary-spanning simulation, and a remark naming the prior result you generalize. The fixes: a proof gap → isolate it as a lemma and prove it; a known special case → state the
+generality dimension up front (route `ectheory-literature-positioning`); an over-anonymized manuscript →
+restore identity, as ET review is single-anonymous.
+
+Calibration anchor: editorial leadership moved on 1 January 2026 to three joint Editors-in-Chief
+(Guggenberger, Su, Sun) succeeding founding editor Phillips; expect demanding technical review, and treat
+any specific turnaround or acceptance figures as unverified unless confirmed on the journal's current pages.
+
 ## Output format
 
 ```

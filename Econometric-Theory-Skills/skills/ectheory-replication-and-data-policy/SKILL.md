@@ -61,6 +61,44 @@ in the main paper under the **50-page** ceiling.
 - Non-reproducible simulations (unreported seeds / replication counts)
 - Padding the main Article past 50 pages instead of using the Supplement
 
+## What belongs where: a theory-venue routing table
+
+With no mandatory data/code archive, the reproducibility decision is mostly *where each piece of technical
+content lives*.
+
+| Content | Main Article | Online Supplement | Forbidden |
+| --- | --- | --- | --- |
+| Main theorem + proof sketch | yes | — | — |
+| Long proof of an auxiliary lemma | sketch only | full proof | — |
+| Extra Monte Carlo DGPs / robustness tables | headline result | overflow tables | — |
+| A brand-new theorem not yet refereed | — | — | yes (no new results) |
+
+The hard rule: the Supplement carries only **already-reviewed** material and ships as a separate labeled
+file with the final manuscript. Confirm conventions against the author guidelines (mandatory archive
+recorded ABSENT as of 2026-06-01; 待核实).
+
+## Worked vignette and the reproducibility fixes
+
+A paper proves a uniform convergence rate. Its maximal-inequality proof (Lemma 2) and full size/coverage
+grid exceed the page ceiling and move to a self-contained Supplement reusing the paper's numbering. Ship one
+master script that regenerates every cell with the environment pinned:
+
+```text
+# reproducibility manifest accompanying the simulation Supplement
+seed_master = 314159          # reported in table notes
+reps        = 20000           # per design cell
+n_grid      = [100,200,400,800]
+p_grid      = [5,10,25,50]    # dimension growing with n
+software    = R 4.4.x; packages: <list with versions>
+mapping     = each table -> the script block that produces it
+```
+
+This builds referee trust, not a deposit mandate — there is no AEA/JAE-style archive obligation at ET. The
+fixes: "the auxiliary proof is missing" → include it in the reviewed Supplement during the review round, not
+for the first time post-review; "simulations not reproducible" → add the manifest above and a
+table-to-script mapping; "Supplement unreadable on its own" → make it compile independently against the
+numbered theorems.
+
 ## Output format
 
 ```

@@ -62,6 +62,30 @@ regularity condition. Treat the assumption-result-proof triple as the spine:
 - Plain CLT machinery applied to nonstationary or high-dimensional data without justification
 - Stating a rate or limit law without the supporting convergence argument
 
+## The assumption-audit table ET referees run first
+
+The single most common Econometric Theory objection is that a regularity condition is too strong or not
+primitive. Audit each assumption against the columns below before drafting theorems.
+
+| Assumption | Primitive or high-level? | Necessary or convenience? | Holds in a leading example? |
+| --- | --- | --- | --- |
+| Moment / tail | state which | for which CLT/LLN | verify in one DGP (minimal exponent?) |
+| Dependence (mixing/NED) | primitive preferred | controls the variance term | e.g., a stable VAR |
+| Smoothness / tuning | bandwidth/penalty rate | bias-variance trade | concrete kernel/penalty |
+| Identification / rank | primitive on the model | for consistency | a structural example |
+
+A high-level condition with no concrete DGP satisfying it is a classic desk-reject flag.
+
+## Worked vignette and the primitive-condition fixes
+
+For beta-hat in a cointegrating regression with a near-integrated regressor (root rho = 1 + c/n): assume a
+martingale-difference innovation array with finite fourth moments, and prove n(beta-hat - beta) converges to
+a ratio of stochastic integrals against an Ornstein-Uhlenbeck process via an FCLT plus continuous-mapping,
+with a separate lemma making the bias o_p(1) uniformly in c — the delicate step. The fixes: "conditions too
+strong / not primitive" → swap a high-level condition for a primitive moment-plus-dependence pair; "rate
+without distribution theory" → supply the limiting law (mode, normalizer, functional); "uniformity not
+established" → isolate it as a named lemma.
+
 ## Output format
 
 ```

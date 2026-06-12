@@ -59,6 +59,41 @@ contribution itself. Two distinct, optional components:
 - Unreported seeds / replication counts (non-reproducible)
 - Reporting size but not power for a test (or vice versa)
 
+## What an ET referee checks in the Monte Carlo first
+
+At a theorem-proof venue the referee treats simulations as a stress test of whether the limit approximation
+is *useful*, not as the result. The first checks:
+
+| Referee check | Passes for ET | Triggers a revision |
+| --- | --- | --- |
+| DGP vs assumptions | Spans the boundary (near-unit-root, weak ID, growing dim) | One interior DGP that flatters |
+| Metric vs claim | Size and power for a test; coverage, bias, RMSE for an estimator | Size only, or RMSE without coverage |
+| Sample sizes | A grid of n that makes the rate visible | A single n hiding slow convergence |
+| Honesty | Breakdown region reported | Uniformly green tables, no failure regime |
+
+A Monte Carlo that never visits the regime where the proof's delicate step lives is desk-reject-adjacent.
+
+## Worked vignette and the simulation fixes
+
+For a refinement that reduces the error in rejection probability of a t-test from order n^(-1/2) to n^(-1)
+under local-to-unity asymptotics, report the design:
+
+```text
+# Monte Carlo skeleton for the refinement illustration
+seed   = 20260610               # fixed and reported
+reps   = 50000                  # per cell
+n_grid = [50,100,200,400,800]
+c_grid = [0,-5,-10,-20]         # local-to-unity drift c, root rho = 1 + c/n
+# size under H0 (first-order vs refined); power under local alt theta0 + h/sqrt(n)
+# show ERP=|size-0.05| decays faster for the refined test; flag breakdown at large |c|
+```
+
+The fixes: "rate without distribution theory" → upstream (route `ectheory-identification-strategy`), since a
+Monte Carlo cannot supply a missing limiting law; "no finite-sample evidence" → add the boundary-spanning
+design; "simulations avoid the hard regime" → extend the c-grid into the regime where the proof's delicate
+step operates. The ET structure is theorem → proof → simulation; confirm Supplement conventions against the
+author guidelines.
+
 ## Output format
 
 ```

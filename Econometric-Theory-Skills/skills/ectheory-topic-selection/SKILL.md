@@ -57,6 +57,21 @@ Signals of a good ET topic:
 - A narrow corollary of a known theorem dressed as a full Article (consider Miscellanea or rework)
 - Targeting the invited ET Interview genre as if it were submittable
 
+## Fit-vs-venue routing table
+
+When a result could go to several outlets, route it by what each venue rewards. Econometric Theory owns the
+*pure limit theory* — the theorem and its proof are the contribution, with simulation as illustration.
+
+| Result shape | Best home | Why |
+| --- | --- | --- |
+| New limit theory / proof, generality is the point | Econometric Theory | rigorous asymptotics is ET's identity |
+| Method with heavy empirical payoff, lighter theory | applied-method outlet | the estimate carries the paper |
+| One sharp theorem correcting/sharpening existing theory | ET Miscellanea | a concise 1–2 innovation venue |
+| Theory plus a major economic-substance contribution | a general-interest journal | economics is co-equal there |
+
+A quick desk-reject self-test: if you cannot say in one sentence which assumption you weaken or which
+limiting law was previously unproven, the result is likely a corollary, not an ET Article.
+
 
 ## Fit pass for Econometric Theory
 

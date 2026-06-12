@@ -61,6 +61,31 @@ the referees already know who you are — keep responses on the merits.
 - Defensive tone treating a proof-check as an attack
 - Letting a fix push the Article past 50 pages instead of using the Supplement
 
+## Mapping referee objections to the venue-specific fix
+
+At a theorem-proof journal the report is a proof check, so each objection maps to a concrete mathematical
+remedy, not a rhetorical reply.
+
+| Referee objection | Class | The ET fix this round |
+| --- | --- | --- |
+| "Conditions too strong / not primitive" | fundamental | primitive moment+dependence pair; show high-level version follows |
+| "Rate stated, no distribution theory" | fundamental | add the limiting law (mode, normalizer, functional) with the argument |
+| "Hard step (uniformity) sketched" | fundamental | isolate as a named lemma with full proof; overflow to Supplement |
+| "Result is a special case of [X]" | disagreement | counter with the dimension you relax, or concede and reframe |
+
+Promising to "address in future work" a gap the referee identified is the classic way to turn a
+revise-and-resubmit into a reject — close it with real math this round.
+
+## Worked vignette and the disagreement protocol
+
+A referee objects that the proof assumes finite eighth moments where finite fourth should suffice. The fix:
+re-derive the variance bound via a maximal inequality needing only fourth moments, add the weakened
+condition as the new Assumption, and verify it in the DGP. The entry reads: *"We have weakened
+Assumption 2 to finite fourth moments (p. 7), re-proving the key bound via a maximal inequality (new Lemma
+3, Supplement S.2)."* What changed, the new lemma, the exact location — that is what the editor scans for.
+Settle disagreements with a counterexample, a corrected derivation, or a citation, never assertion; keep
+every response anchored to a theorem, lemma, section, or page.
+
 ## Output format
 
 ```

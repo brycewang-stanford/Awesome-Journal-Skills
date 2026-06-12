@@ -54,6 +54,33 @@ scholar within 6 years of their first PhD) is a recognition program, not a submi
 - Claiming broad generality the theorem's assumptions do not support
 - Treating the invited ET Interview or the Phillips Award as a submission target
 
+## What an ET editor weighs in the first reading pass
+
+The desk screen asks whether the *theorem itself* is the contribution. Econometric Theory's identity is
+rigorous limit theory, so the introduction must read as a theorist's claim, not an empiricist's motivation.
+
+| Framing signal | Reads as ET-grade | Desk-reject risk |
+| --- | --- | --- |
+| Lead sentence | "We establish the limiting distribution of ... under ..." | "We study an important applied problem ..." |
+| Object | A theorem with stated mode, rate, limiting law | An estimate, a dataset finding, a software release |
+| Generality delta | Named special case collapsing to a known result | "Extends the literature", no assumption change |
+| Role of simulation | Illustration that the asymptotics bite | The empirical application carries the paper |
+
+Desk-reject patterns for theory framing: a relabelled corollary of a known limit theorem; a "new
+estimator" with no distribution theory (rate only); an abstract that never states what is proved.
+
+## Worked vignette and the framing fixes
+
+Suppose the result is an FCLT for a long-run-variance estimator in a mildly explosive autoregression. The
+ET introduction states the problem (standard estimators turn inconsistent once the root crosses unity), the
+theorem in words (weak convergence to a Brownian functional under primitive conditions), the generality
+delta (an earlier paper's i.i.d.-innovation case is the special case recovered), and the consequences (a
+size-correct explosive-root test as a corollary). Referee pushback maps to fixes: "special case of [prior
+FCLT]" → a labelled remark naming the weakened assumption and the corollary; "the contribution is the
+application" → re-lead with the theorem (route `ectheory-data-analysis`); "overclaimed scope" → narrow to
+what the assumptions deliver. Confirm exact length limits and themed-issue specifics against the journal's
+current author guidelines.
+
 ## Output format
 
 ```

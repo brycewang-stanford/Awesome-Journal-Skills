@@ -55,6 +55,30 @@ ectheory-rebuttal                (response strategy when the decision letter arr
 - Simulations unconvincing or non-reproducible → `ectheory-data-analysis` + `ectheory-replication-and-data-policy`
 - Decision letter in hand → `ectheory-rebuttal`
 
+## Symptom-to-skill routing table
+
+The fastest route is by symptom. At Econometric Theory the recurring bottlenecks are about the theorem and
+its proof, not about empirical design — route accordingly.
+
+| Symptom in the manuscript | Likely diagnosis | Route to |
+| --- | --- | --- |
+| A regularity condition is too strong or not primitive | assumption defect | `ectheory-identification-strategy` |
+| A rate is stated but no limiting law | missing distribution theory | `ectheory-identification-strategy` |
+| The introduction buries what is proved | framing defect | `ectheory-contribution-framing` |
+| Referee will call it a special case | positioning gap | `ectheory-literature-positioning` |
+| Monte Carlo never visits the boundary | weak finite-sample evidence | `ectheory-data-analysis` |
+| Proof overflows the page ceiling | length / Supplement | `ectheory-submission` + `ectheory-replication-and-data-policy` |
+
+## A worked routing pass
+
+A draft proves a new estimator's rate but states no limiting law and reads as incremental. The router sends
+it first to `ectheory-identification-strategy` (supply the limiting law and verify the assumptions are
+primitive), then to `ectheory-contribution-framing` (re-lead the introduction with the theorem), then to
+`ectheory-data-analysis` for a boundary-spanning Monte Carlo, and only then to `ectheory-submission` for the
+single-PDF preflight. The order is deliberate: at a theorem-proof venue the math must be sound before any
+framing or formatting work pays off. Confirm volatile process facts (length ceiling, submission system)
+against the journal's current author guidelines as you reach the submission stage.
+
 
 ## Router pass for Econometric Theory
 

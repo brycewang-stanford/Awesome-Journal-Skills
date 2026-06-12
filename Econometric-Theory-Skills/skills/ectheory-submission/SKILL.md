@@ -65,6 +65,29 @@ description: Use when running the final pre-submission preflight for Econometric
 - A separate-figure-files upload when ET wants one embedded-font PDF
 - Assuming a submission fee/APC exists (none stated; 待核实) and stalling on it
 
+## Submission-blocker triage table
+
+The fastest way to fail an ET submission is a format mismatch the editorial office catches before review —
+each spec maps to its failure mode on this single-PDF, single-anonymous, APA-styled venue.
+
+| Spec | If wrong | Fix before pressing submit |
+| --- | --- | --- |
+| File bundle | Separate figure files rejected | Merge into one embedded-font PDF (proofs, tables, figures) |
+| Anonymization | Over-stripped identity | Restore identity — review is single-anonymous, not double-blind |
+| Reference style | Numeric/Chicago bounced | Convert to APA author-date, alphabetized list |
+| Length | Article over the page ceiling | Move overflow proofs to the labeled Supplement file |
+| Abstract / running head | Over-length field | Trim abstract to ≤200 words, running head to ≤40 characters |
+
+## Worked vignette and the office-pushback fixes
+
+A nonstationary-estimator paper assembles into a single embedded-font PDF and gets under the page ceiling by
+moving the auxiliary lemma's proof and extra tables into a labeled Supplement reusing the paper's numbering.
+A cover letter is included only because prior reviews from another journal are shared; no APC question
+stalls it, since none is stated (待核实). Submission goes through ScholarOne / Manuscript Central, in
+effect since 28 January 2026 replacing Editorial Express. The fixes: incorrect anonymization → restore
+identity, as ET is single-anonymous; over the ceiling → relocate overflow to the Supplement. Confirm the
+ScholarOne URL and any fee policy against the live instructions.
+
 ## Output format
 
 ```

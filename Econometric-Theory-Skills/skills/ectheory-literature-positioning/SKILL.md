@@ -51,6 +51,24 @@ new contribution on its merits, not as "our prior work."
 - Overclaiming priority where a known result already covers your case
 - Mixed or numeric citation styles instead of clean APA author-date
 
+## Locating the theorem on the limit-theory lattice
+
+ET positioning is theorem-to-theorem on a known lattice of asymptotic results, not a survey of an empirical
+gap. Each row is a dimension along which a new result can dominate prior limit theory.
+
+| Lattice dimension | Prior result's position | Your delta (one-sentence claim) |
+| --- | --- | --- |
+| Dependence | i.i.d. innovations | mixing / NED / martingale-difference array |
+| Stationarity | stationary, fixed root | nonstationary / local-to-unity / cointegrated |
+| Dimension | fixed p | p growing with n, uniform over the model |
+
+If your delta does not move the result along a dimension, a referee will ask "isn't this a special case of
+X?" — routing you back to `ectheory-topic-selection`. The fixes: "isn't this a special case?" → state the
+closest prior result with its assumptions, then the labelled dimension you relax, showing it as your
+corollary; "concurrent work proves this" → acknowledge by author-date and name the differentiating
+dimension. In the ET tradition positioning is "what limiting law, under what weakened conditions, was
+previously unproven"; confirm the live APA-style requirement against the author guidelines if uncertain.
+
 
 ## Positioning pass for Econometric Theory
 
