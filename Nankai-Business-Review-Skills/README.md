@@ -1,5 +1,9 @@
 # Nankai Business Review Skills
 
+<p align="center">
+  <img src="assets/cover.svg" alt="《南开管理评论》 journal cover" width="220">
+</p>
+
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Journal](https://img.shields.io/badge/journal-Nankai%20Business%20Review-c0392b)](https://nbr.nankai.edu.cn/)
 [![Index](https://img.shields.io/badge/index-CSSCI-1f6feb)](https://nbr.nankai.edu.cn/)

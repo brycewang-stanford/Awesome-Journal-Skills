@@ -1,5 +1,9 @@
 # Journal of Financial Research Skills
 
+<p align="center">
+  <img src="assets/cover.svg" alt="《金融研究》 journal cover" width="220">
+</p>
+
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Journal](https://img.shields.io/badge/journal-Journal%20of%20Financial%20Research-c0392b)](http://www.jryj.org.cn/)
 [![Index](https://img.shields.io/badge/index-CSSCI-1f6feb)](http://www.jryj.org.cn/)

@@ -1,5 +1,9 @@
 # Journal of Management Sciences in China Skills
 
+<p align="center">
+  <img src="assets/cover.svg" alt="《管理科学学报》 journal cover" width="220">
+</p>
+
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Journal](https://img.shields.io/badge/journal-Journal%20of%20Management%20Sciences%20in%20China-c0392b)](https://jmsc.tju.edu.cn/)
 [![Index](https://img.shields.io/badge/index-CSSCI%20%7C%20FMS--A-1f6feb)](https://jmsc.tju.edu.cn/)

@@ -1,5 +1,9 @@
 # 《会计研究》Skills
 
+<p align="center">
+  <img src="assets/cover.svg" alt="《会计研究》期刊封面" width="220">
+</p>
+
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Journal](https://img.shields.io/badge/journal-会计研究-c0392b)](https://www.asc.net.cn/AccountingResearch/MagazineProfile.aspx?type=profile)
 [![Index](https://img.shields.io/badge/index-CSSCI%20%7C%20NSFC%20A-1f6feb)](https://www.asc.net.cn/AccountingResearch/MagazineProfile.aspx?type=profile)
