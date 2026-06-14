@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   ties by contribution type, evidence shape, reviewer community, and the current official CFP
   from www.sigmm.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What ACM MM is.** **ACM Multimedia (SIGMM)** — multimedia broadly: vision **and** audio, language, multimodal systems, retrieval, and HCI, not a vision-only venue.
+- **vs BMVC.** BMVC is a focused **machine-vision** conference; route multimodal/systems/media work here and pure 2D/3D vision there.
+- **Routing.** Foreground the multimodal or systems contribution; a single-modality vision result usually fits a vision venue better.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

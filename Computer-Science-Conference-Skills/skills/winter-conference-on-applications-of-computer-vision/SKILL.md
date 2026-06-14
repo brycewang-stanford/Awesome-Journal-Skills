@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   contribution type, evidence shape, reviewer community, and the current official CFP from
   wacv.thecvf.com.
 
+## What distinguishes this venue from its closest siblings
+
+- **What WACV is.** The **IEEE/CVF Winter Conference on Applications of Computer Vision** — **applications-forward**, held in **winter**, often with distinct Applications and Algorithms tracks.
+- **vs ACCV.** ACCV is a **regional (Asia-Pacific)** general-vision venue; choose WACV for applied/deployment-oriented contributions.
+- **vs CVPR/ICCV/ECCV.** Same IEEE/CVF family as CVPR/ICCV; WACV rewards applied robustness and real-world systems rather than only headline novelty.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

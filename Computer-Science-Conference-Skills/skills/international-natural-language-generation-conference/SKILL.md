@@ -46,6 +46,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   and-evaluation` (LREC-COLING). Break ties by contribution type, evidence shape, reviewer
   community, and the current official CFP from inlgmeeting.github.io.
 
+## What distinguishes this venue from its closest siblings
+
+- **What INLG is.** The **International Natural Language Generation Conference** (ACL **SIGGEN**) — natural language **generation** specifically: data-to-text, surface realization, planning, and generation evaluation.
+- **vs *SEM.** *SEM is about **semantics/meaning representation**, a different SIG community; route generation work here, meaning-analysis work there.
+- **vs ACL/EMNLP.** The big ACL-family meetings absorb generation too; pick INLG when the NLG community is the primary audience.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

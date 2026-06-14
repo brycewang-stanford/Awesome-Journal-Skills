@@ -42,6 +42,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   discovery, ICDM for broad data-mining methods, and ML venues for learning-method
   contributions.
 
+## What distinguishes this venue from its closest siblings
+
+- **Sponsorship.** **SIAM**-sponsored data-mining conference; sibling to **IEEE ICDM** and **ACM KDD**.
+- **Center of gravity.** SIAM venues lean **methodological/algorithmic with an applied-math framing**; route theory-forward mining methods here and large-scale applied/industrial work to KDD.
+- **Routing.** Scope overlaps ICDM/KDD heavily — differentiate by **community and cycle**, not prestige.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

@@ -42,6 +42,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   mathematical/statistical rigor, CIKM for information/knowledge management, and
   SIGMOD/VLDB/ICDE for database systems.
 
+## What distinguishes this venue from its closest siblings
+
+- **Sponsorship.** **IEEE**-sponsored data-mining flagship; distinguish from **SDM** (**SIAM**-sponsored) and **KDD** (**ACM**).
+- **Routing.** Topic scope across ICDM/SDM/KDD overlaps heavily; route by **community, cycle, and paper format** rather than prestige.
+- **Center of gravity.** Algorithmic data-mining contributions with strong empirical evaluation; applied/industrial tracks fit KDD's applied-data-science lane.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

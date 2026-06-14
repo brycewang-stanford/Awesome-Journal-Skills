@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   automatic-speech-recognition-and-understanding-workshop` (ASRU). Break ties by contribution
   type, evidence shape, reviewer community, and the current official CFP from starsem.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What *SEM is.** The **Joint Conference on Lexical and Computational Semantics** (ACL **SIGLEX + SIGSEM**) — meaning representation, word-sense and semantic-role work, semantic parsing, and entailment.
+- **vs INLG.** INLG (SIGGEN) is **generation**; route semantics/meaning-analysis contributions here and text-production work there.
+- **vs ACL/EMNLP.** The flagship ACL-family venues also take semantics; choose *SEM when the lexical/computational-semantics community is the primary audience.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

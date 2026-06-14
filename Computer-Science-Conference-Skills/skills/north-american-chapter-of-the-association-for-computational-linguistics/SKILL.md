@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare ACL and EMNLP for core NLP method or empirical-analysis reach. Use LREC-COLING for
   resource-centered work and specialized NLP venues when the contribution is narrow.
 
+## What distinguishes this venue from its closest siblings
+
+- **Geography & scale.** NAACL is the ACL's **North American** chapter and is typically the largest of the regional ACL meetings in its year.
+- **Neighbors.** ACL is the international meeting and **EACL** the European chapter; EMNLP (SIGDAT) is the empirical-methods-framed venue in the same family.
+- **Shared standards.** All run on the **ACL Rolling Review (ARR)** ecosystem, so scope and acceptance bar are aligned by design — decide by **timing, host region, and audience**, not prestige.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

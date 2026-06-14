@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   learning` (CHIL). Break ties by contribution type, evidence shape, reviewer community, and
   the current official CFP from lifelong-ml.cc.
 
+## What distinguishes this venue from its closest siblings
+
+- **What CoLLAs is.** The **Conference on Lifelong Learning Agents** — continual/lifelong learning, transfer, and non-stationary adaptation in agents.
+- **vs AutoML.** The AutoML Conference is about **automated machine learning** (NAS, HPO, meta-learning pipelines); route continual-learning work here and automation-of-ML work there.
+- **vs NeurIPS/ICML/ICLR.** The general ML flagships also take continual learning; choose CoLLAs when the lifelong-learning community is the target.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

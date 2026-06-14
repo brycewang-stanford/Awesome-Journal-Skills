@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   by contribution type, evidence shape, reviewer community, and the current official CFP from
   accv-conf.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What ACCV is.** The **Asian Conference on Computer Vision** (Asian Federation of Computer Vision) — the regional vision venue, biennial, anchored in the Asia-Pacific community.
+- **vs WACV.** WACV (IEEE/CVF) is **applications-forward and held in winter**; route applied-systems vision there and regional general-vision work here.
+- **vs CVPR/ICCV/ECCV.** The flagships set the global bar; ACCV is the regional complement, not a fallback by prestige.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

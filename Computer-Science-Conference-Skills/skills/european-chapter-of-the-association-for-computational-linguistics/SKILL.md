@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Do not treat EACL as a generic fallback from ACL/EMNLP. Resource-heavy papers may fit LREC-
   COLING; dialogue, semantics, or generation may fit SIGDIAL, *SEM, or INLG.
 
+## What distinguishes this venue from its closest siblings
+
+- **Which ACL chapter.** EACL is the ACL's **European** chapter; its community, host locations, and program rhythm are anchored in Europe.
+- **Same review pipeline.** It draws on the **ACL Rolling Review (ARR)** commitment model shared with ACL and NAACL, so the bar and topic scope are common — the real choice is *which chapter's cycle and audience* you want.
+- **Do not route by prestige.** Pick EACL for fit with the European cycle/community; ACL is the international meeting and NAACL the North American one.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

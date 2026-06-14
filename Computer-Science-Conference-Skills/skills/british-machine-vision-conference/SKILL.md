@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   Break ties by contribution type, evidence shape, reviewer community, and the current
   official CFP from bmvc2026.bmva.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What BMVC is.** The **British Machine Vision Conference** (BMVA) — a focused, largely single-track **machine-vision** venue in the UK.
+- **vs ACM MM.** ACM Multimedia (SIGMM) spans audio/language/systems multimedia; bring vision-centric work here, multimodal/media-systems work there.
+- **vs CVPR/ICCV/ECCV.** BMVC is a strong vision venue below the flagships; route by cycle and the maturity/scope of the vision contribution.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

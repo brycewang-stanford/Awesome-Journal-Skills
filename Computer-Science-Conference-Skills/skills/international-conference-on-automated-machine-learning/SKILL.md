@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   contribution type, evidence shape, reviewer community, and the current official CFP from
   automl.cc.
 
+## What distinguishes this venue from its closest siblings
+
+- **What the AutoML Conference is.** The venue for **automated machine learning** — neural architecture search, hyperparameter optimization, and meta-learning pipelines.
+- **vs CoLLAs.** CoLLAs targets **lifelong/continual** learning agents; bring AutoML/NAS/HPO contributions here.
+- **vs NeurIPS/ICML/ICLR.** The general ML flagships cover AutoML topics too; pick this venue when the AutoML community and benchmarks are central.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.
