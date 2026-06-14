@@ -46,6 +46,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   ties by contribution type, evidence shape, reviewer community, and the current official CFP
   from roboticsconference.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **Format.** **Single-track and highly selective**, foundations/algorithmic-model forward — the deliberate contrast to the larger multi-track IEEE robotics venues **ICRA** (IEEE RAS) and **IROS** (IEEE/RSJ).
+- **Center of gravity.** Conceptual and algorithmic robotics contributions where the model or analysis is the result; hardware is evidence, not the headline.
+- **Routing.** Integrated-system or application breadth usually fits ICRA/IROS better; reserve RSS for results whose generality a single-track audience will reward.
+
 ## Method & evidence bar
 
 - Report hardware, simulation, environment, task distribution, reset procedure, and failure cases; embodied evidence must be inspectable.

@@ -46,6 +46,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   (TEI). Break ties by contribution type, evidence shape, reviewer community, and the current
   official CFP from www.ubicomp.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What UbiComp is.** The **ACM** joint conference on **Pervasive and Ubiquitous Computing** (with ISWC); sensing, wearables, and context-aware systems, with papers in **PACM IMWUT**.
+- **vs ASSETS.** ASSETS is accessibility-specific; route sensing/pervasive-systems work here and disability-focused work there.
+- **vs TEI/CHI.** TEI is tangible/embodied interaction and CHI the broad HCI flagship; choose UbiComp when ubiquitous sensing/inference is the core.
+
 ## Method & evidence bar
 
 - Match the contribution type to the evidence: controlled study, field deployment, design inquiry, technical system, dataset, or theory.

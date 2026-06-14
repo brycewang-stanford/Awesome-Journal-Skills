@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Do not treat EuroVis as a duplicate IEEE VIS target. IEEE VIS is the flagship umbrella;
   CHI/UIST/CSCW fit interaction or social-computing claims; AVI fits visual-interface work.
 
+## What distinguishes this venue from its closest siblings
+
+- **What EuroVis is.** The **Eurographics** visualization conference (European), with papers in **Computer Graphics Forum (CGF)**.
+- **vs IEEE VIS.** IEEE VIS is the larger flagship publishing in **IEEE TVCG**; route by community (Eurographics vs IEEE) and submission cycle, not prestige.
+- **Scope.** Scientific, information, and visual-analytics visualization; same field as IEEE VIS, different organizing body and journal pipeline.
+
 ## Method & evidence bar
 
 - Match the contribution type to the evidence: controlled study, field deployment, design inquiry, technical system, dataset, or theory.

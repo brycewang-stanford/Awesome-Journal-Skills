@@ -44,6 +44,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   autonomous-robotic-systems` (DARS). Break ties by contribution type, evidence shape,
   reviewer community, and the current official CFP from www.ieee-ras.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What Humanoids is.** The **IEEE-RAS** conference on **humanoid robots** specifically — bipedal locomotion, whole-body control, humanoid hardware and manipulation.
+- **vs RoboCup.** RoboCup is a **competition-anchored** event (leagues + symposium); route archival humanoid-science contributions here and competition/benchmark results there.
+- **vs ICRA/IROS.** Use Humanoids when the humanoid form factor *is* the contribution; general robotics breadth fits the IEEE flagships.
+
 ## Method & evidence bar
 
 - Report hardware, simulation, environment, task distribution, reset procedure, and failure cases; embodied evidence must be inspectable.

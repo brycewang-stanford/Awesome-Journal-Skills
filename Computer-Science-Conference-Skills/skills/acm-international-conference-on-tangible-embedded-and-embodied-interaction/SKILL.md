@@ -46,6 +46,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   Break ties by contribution type, evidence shape, reviewer community, and the current
   official CFP from tei.acm.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What TEI is.** The **ACM (SIGCHI)** Conference on **Tangible, Embedded, and Embodied Interaction** — physical/tangible interfaces, materials, and embodied interaction.
+- **vs ASSETS.** ASSETS is **accessibility**-specific; route disability/accessibility contributions there even when they involve tangible interfaces.
+- **vs CHI/UbiComp.** CHI is the broad HCI flagship and UbiComp is pervasive/sensing; choose TEI when the tangible/embodied interface *is* the contribution.
+
 ## Method & evidence bar
 
 - Match the contribution type to the evidence: controlled study, field deployment, design inquiry, technical system, dataset, or theory.

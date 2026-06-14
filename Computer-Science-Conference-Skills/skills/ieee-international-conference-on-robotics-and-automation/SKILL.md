@@ -44,6 +44,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   by contribution type, evidence shape, reviewer community, and the current official CFP from
   www.ieee-ras.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **Sponsorship & cadence.** Sole flagship of the **IEEE Robotics & Automation Society (RAS)**, held annually — distinct from **IROS**, which is **co-sponsored by IEEE RAS and the Robotics Society of Japan (RSJ)** (the "IEEE/RSJ" in its name).
+- **Center of gravity.** Broad automation / manipulation / planning / control across the full robotics stack; the single most prestige-dense robotics deadline.
+- **vs RSS.** RSS is single-track and foundations/algorithmic-model forward; route model-and-theory results there and integrated hardware/system results here. Confirm the current cycle on www.ieee-ras.org.
+
 ## Method & evidence bar
 
 - Report hardware, simulation, environment, task distribution, reset procedure, and failure cases; embodied evidence must be inspectable.

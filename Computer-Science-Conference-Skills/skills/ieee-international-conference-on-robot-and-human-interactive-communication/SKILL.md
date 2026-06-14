@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   symposium-on-robotics-research` (ISRR). Break ties by contribution type, evidence shape,
   reviewer community, and the current official CFP from www.ieee-ras.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What RO-MAN is.** The **IEEE** symposium on **Robot and Human Interactive Communication** — social and cognitive human–robot interaction, dialogue, trust, and interaction studies.
+- **vs CASE.** CASE is industrial **automation science & engineering** — an entirely different audience; route interaction studies here, automation-systems work there.
+- **vs ACM/IEEE HRI.** HRI is the other major HRI venue; differentiate by community and cycle, and send pure perception/control to ICRA/IROS.
+
 ## Method & evidence bar
 
 - Report hardware, simulation, environment, task distribution, reset procedure, and failure cases; embodied evidence must be inspectable.

@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   distributed-autonomous-robotic-systems` (DARS). Break ties by contribution type, evidence
   shape, reviewer community, and the current official CFP from www.robocup.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What RoboCup is.** Organized by the **RoboCup Federation**: a **symposium paired with robot competitions/leagues** (soccer, rescue, @Home), where benchmark-through-competition is the culture.
+- **vs Humanoids.** Humanoids (IEEE-RAS) is an archival humanoid-robotics conference; bring competition-grounded or league-benchmark work here, fundamental humanoid science there.
+- **vs ICRA/IROS.** Route mature, generalizable robotics results to the IEEE flagships; reserve RoboCup for results best evidenced in its standardized leagues.
+
 ## Method & evidence bar
 
 - Report hardware, simulation, environment, task distribution, reset procedure, and failure cases; embodied evidence must be inspectable.

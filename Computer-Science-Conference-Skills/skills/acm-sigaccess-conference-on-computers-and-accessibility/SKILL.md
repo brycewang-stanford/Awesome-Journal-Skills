@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   technology` (VRST). Break ties by contribution type, evidence shape, reviewer community, and
   the current official CFP from assets.acm.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What ASSETS is.** The **ACM SIGACCESS** Conference on **Computers and Accessibility** — assistive technology and computing for people with disabilities.
+- **vs TEI.** TEI is about tangible/embodied interaction generally; bring accessibility-centered work here regardless of modality.
+- **vs UbiComp/CHI.** UbiComp is pervasive/sensing and CHI the broad HCI flagship; ASSETS is defined by its **accessibility** community and review lens, not by technique.
+
 ## Method & evidence bar
 
 - Match the contribution type to the evidence: controlled study, field deployment, design inquiry, technical system, dataset, or theory.

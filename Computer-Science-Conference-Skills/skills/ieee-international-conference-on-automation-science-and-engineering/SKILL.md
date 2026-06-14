@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   `international-symposium-on-experimental-robotics` (ISER). Break ties by contribution type,
   evidence shape, reviewer community, and the current official CFP from www.ieee-ras.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What CASE is.** The **IEEE RAS** flagship for **automation science & engineering** — manufacturing, scheduling, logistics, planning, and automation systems with an industrial/operations slant.
+- **vs RO-MAN.** RO-MAN is about **robot–human interactive communication** (social/cognitive HRI), a different reviewer community; do not route automation-systems work there.
+- **vs ICRA/IROS.** Send general manipulation/perception/control to ICRA/IROS; reserve CASE for automation-systems and applied-engineering contributions.
+
 ## Method & evidence bar
 
 - Report hardware, simulation, environment, task distribution, reset procedure, and failure cases; embodied evidence must be inspectable.

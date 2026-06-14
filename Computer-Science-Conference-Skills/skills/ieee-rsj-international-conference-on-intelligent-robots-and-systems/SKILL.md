@@ -44,6 +44,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   international-conference-on-human-robot-interaction` (HRI). Break ties by contribution type,
   evidence shape, reviewer community, and the current official CFP from www.ieee-ras.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **Sponsorship & cadence.** **Co-sponsored by IEEE RAS and the Robotics Society of Japan (RSJ)** (hence "IEEE/RSJ"), established 1988; one of the largest robotics conferences, with a broad perception-and-systems program — distinct from **ICRA**, the IEEE-RAS-only flagship.
+- **Center of gravity.** "Intelligent Robots and Systems": perception, sensing, and integrated autonomy at scale; larger, more inclusive program than ICRA in a given year.
+- **vs RSS.** RSS is single-track and selective on foundational models; send theory-forward work there, deployed-system breadth here.
+
 ## Method & evidence bar
 
 - Report hardware, simulation, environment, task distribution, reset procedure, and failure cases; embodied evidence must be inspectable.

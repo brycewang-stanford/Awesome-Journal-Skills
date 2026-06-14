@@ -43,6 +43,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   visualization, CHI/UIST for interaction/UI systems, and graphics venues for rendering or
   geometry.
 
+## What distinguishes this venue from its closest siblings
+
+- **What IEEE VIS is.** The **IEEE** visualization flagship (VIS), with papers in **IEEE TVCG** — scientific viz, information viz, and visual analytics.
+- **vs EuroVis.** EuroVis (Eurographics) is the European counterpart publishing in **CGF**; differentiate by organizing community and cycle.
+- **Routing.** Same scientific scope as EuroVis; pick by audience, journal pipeline (TVCG vs CGF), and timing.
+
 ## Method & evidence bar
 
 - Match the contribution type to the evidence: controlled study, field deployment, design inquiry, technical system, dataset, or theory.
