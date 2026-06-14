@@ -1,5 +1,9 @@
 # 《社会学研究》Skills
 
+<p align="center">
+  <img src="assets/cover.svg" alt="《社会学研究》期刊封面" width="220">
+</p>
+
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Journal](https://img.shields.io/badge/journal-社会学研究-c0392b)](https://shxyj.ajcass.com/)
 [![Index](https://img.shields.io/badge/index-CSSCI-1f6feb)](https://shxyj.ajcass.com/)

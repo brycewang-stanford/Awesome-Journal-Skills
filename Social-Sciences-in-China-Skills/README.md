@@ -1,5 +1,9 @@
 # Social Sciences in China Skills
 
+<p align="center">
+  <img src="assets/cover.svg" alt="《中国社会科学》 journal cover" width="220">
+</p>
+
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Journal](https://img.shields.io/badge/journal-Social%20Sciences%20in%20China-c0392b)](https://sscp.cssn.cn/)
 [![Index](https://img.shields.io/badge/index-CSSCI-1f6feb)](https://sscp.cssn.cn/)
