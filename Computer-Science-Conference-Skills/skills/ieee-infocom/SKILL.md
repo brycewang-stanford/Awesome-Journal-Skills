@@ -44,6 +44,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   Break ties by contribution type, evidence shape, reviewer community, and the current
   official CFP from infocom.info.
 
+## What distinguishes this venue from its closest siblings
+
+- **What INFOCOM is.** The **IEEE** networking conference — broad coverage including **performance modeling, optimization, and theory** alongside systems, larger than the ACM venues.
+- **vs SIGCOMM.** SIGCOMM (ACM) is the more selective, measurement/systems-forward flagship; bring analytical/performance work to INFOCOM.
+- **vs CoNEXT.** CoNEXT (ACM SIGCOMM) targets emerging experimental networking; differentiate by community (IEEE vs ACM) and contribution style.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

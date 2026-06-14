@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   type, evidence shape, reviewer community, and the current official CFP from
   www.siggraph.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **Publication model.** Technical papers are published as a **special summer issue of *ACM Transactions on Graphics* (TOG)**; the meeting is **ACM**-run and held in **North America**, with a Journal (TOG) track plus a Conference track.
+- **vs SIGGRAPH Asia.** The Asian counterpart runs late in the year across rotating Asian host cities at the same bar — choose by **region and submission window**, never prestige.
+- **Scope.** Rendering, geometry processing, animation, physical simulation, imaging, and graphics systems.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

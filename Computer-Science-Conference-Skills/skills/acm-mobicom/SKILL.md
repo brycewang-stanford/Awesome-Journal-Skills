@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare MobiSys for mobile systems and sensing, SIGCOMM/NSDI for broader networking/systems,
   and WiSec when security/privacy is central.
 
+## What distinguishes this venue from its closest siblings
+
+- **What MobiCom is.** The **ACM SIGMOBILE** flagship for **mobile computing and wireless networking** — the protocol/wireless/networking side of mobile.
+- **vs MobiSys.** MobiSys (also ACM SIGMOBILE) is the **mobile systems and services** venue; route systems/platform work there and wireless/networking work here.
+- **Routing.** Lower-layer wireless and networking contributions fit MobiCom; end-to-end mobile systems fit MobiSys.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

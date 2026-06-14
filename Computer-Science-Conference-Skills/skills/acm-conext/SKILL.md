@@ -44,6 +44,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   contribution type, evidence shape, reviewer community, and the current official CFP from
   conferences2.sigcomm.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What CoNEXT is.** ACM SIGCOMM's **Conference on emerging Networking EXperiments and Technologies** — a venue for **emerging and experimental** networking research.
+- **vs SIGCOMM.** SIGCOMM is the established ACM flagship; route field-defining results there and newer/experimental directions to CoNEXT.
+- **vs INFOCOM.** INFOCOM (IEEE) leans performance/theory and is larger; CoNEXT is smaller and experiment-forward within the ACM community.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

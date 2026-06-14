@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   contribution type, evidence shape, reviewer community, and the current official CFP from
   acm-stoc.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **Sponsorship & season.** **ACM SIGACT**, held each **spring**; with **FOCS** (its **IEEE**-sponsored **autumn** sister) it forms the top-two theory-of-computing pair.
+- **Scope is near-identical to FOCS.** Differentiate by **deadline/cycle and program committee**, not by topic or prestige; pick whichever cycle the result is ready for.
+- **vs SODA/CCC/ITCS.** Algorithms-heavy work may fit SODA; complexity-specific work CCC; conceptual/early theory ITCS — route by sub-area when STOC/FOCS breadth is not the best home.
+
 ## Method & evidence bar
 
 - For systems/data papers, use realistic workloads, data sizes, and baselines; for theory papers, give exact statements and complete proofs.

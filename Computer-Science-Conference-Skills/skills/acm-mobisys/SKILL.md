@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare MobiCom for mobile networking, UbiComp for ubiquitous interaction, NSDI/SIGCOMM for
   networked systems, and WiSec for security/privacy.
 
+## What distinguishes this venue from its closest siblings
+
+- **What MobiSys is.** The **ACM SIGMOBILE** conference on **mobile systems, applications, and services** — the systems/platform side of mobile computing.
+- **vs MobiCom.** MobiCom is wireless/networking-forward; bring mobile-systems and on-device/sensing-systems work here.
+- **Routing.** Reserve MobiSys for built mobile systems and services; route protocol/wireless results to MobiCom.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

@@ -44,6 +44,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   on-file-and-storage-technologies` (FAST). Break ties by contribution type, evidence shape,
   reviewer community, and the current official CFP from 2026.eurosys.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What EuroSys is.** The **ACM (SIGOPS Europe)** flagship for **computer systems** broadly — OS, distributed systems, storage, virtualization, and systems for ML.
+- **vs the networking venues.** SIGCOMM/INFOCOM/CoNEXT are networking-specific; bring OS/runtime/distributed-systems contributions to EuroSys.
+- **vs SOSP/OSDI.** EuroSys is the European systems flagship alongside the USENIX/ACM OS venues; route by cycle, community, and systems sub-area rather than prestige.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

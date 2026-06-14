@@ -44,6 +44,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   contribution type, evidence shape, reviewer community, and the current official CFP from
   focs.computer.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **Sponsorship & season.** **IEEE Computer Society** (TC on Mathematical Foundations of Computing), held each **autumn**; sister to **STOC** (**ACM SIGACT**, **spring**).
+- **Scope is near-identical to STOC.** Differentiate by **deadline/cycle and program committee**, not by topic or prestige.
+- **vs SODA/CCC/ITCS.** Route algorithms-heavy work to SODA, complexity-specific work to CCC, and conceptual/early theory to ITCS when the general theory venues are not the best fit.
+
 ## Method & evidence bar
 
 - For systems/data papers, use realistic workloads, data sizes, and baselines; for theory papers, give exact statements and complete proofs.

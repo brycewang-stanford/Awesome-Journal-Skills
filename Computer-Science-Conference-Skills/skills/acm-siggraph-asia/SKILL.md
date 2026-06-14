@@ -44,6 +44,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   `pacific-graphics` (Pacific Graphics). Break ties by contribution type, evidence shape,
   reviewer community, and the current official CFP from asia.siggraph.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **Host rotation.** Held **across rotating Asian cities** in **November/December** under **ACM SIGGRAPH**.
+- **Publication model.** Accepted technical papers become a **special late-year issue of *ACM Transactions on Graphics* (TOG)**, mirroring the summer SIGGRAPH issue; Journal + Conference tracks.
+- **vs SIGGRAPH (North America).** Same family and acceptance bar, different hemisphere and season — route by **where and when**, not prestige.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.
