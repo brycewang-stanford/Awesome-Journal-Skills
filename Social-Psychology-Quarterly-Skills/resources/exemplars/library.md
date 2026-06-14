@@ -1,6 +1,6 @@
 # SPQ Exemplars Library (tradition × method)
 
-> **Verified via web search, access date 2026-06-08.** Every paper below was checked against SAGE
+> **Verified via web search, access dates 2026-06-08 and 2026-06-13.** Every paper below was checked against SAGE
 > Journals' *Social Psychology Quarterly* article pages (`journals.sagepub.com/doi/...`, DOI prefix
 > `10.1177/...`) to confirm it actually appeared in **Social Psychology Quarterly** (the American
 > Sociological Association journal, published by SAGE), with year. Papers that could not be fully
@@ -15,8 +15,9 @@
 >
 > **Use principle (zero hallucination):** this file gives **tradition + design positioning only**. It does
 > **not** reproduce or invent coefficients, sample sizes, or specific findings — read the original on SAGE
-> before citing any number. Where web search confirmed the journal and year but not the exact
-> volume(issue):pages, that detail is marked **待核实 / TO VERIFY** rather than guessed. For SPQ-specific
+> before citing any number. Every entry's exact volume(issue):pages is web-verified on the SAGE article
+> page; any future addition whose issue/pages cannot be confirmed should be marked **待核实 / TO VERIFY**
+> rather than guessed. For SPQ-specific
 > policy, scope, and the "do-not-misattribute" list, see [`../official-source-map.md`](../official-source-map.md).
 
 ---
@@ -76,9 +77,8 @@ models, measurement validity, manipulation checks) is venue-neutral — see the 
 ### Group processes / status — how hierarchies secure deference (theory + experiment)
 
 - **Ridgeway, Cecilia L. & Sandra Nakagawa. "Is Deference the Price of Being Seen as Reasonable? How Status
-  Hierarchies Incentivize Acceptance of Low Status," *Social Psychology Quarterly* 2017.**
-  Verified: `journals.sagepub.com/doi/abs/10.1177/0190272517695213` (DOI 10.1177/0190272517695213); journal
-  and year web-verified, **volume(issue):pages 待核实 / TO VERIFY** (not confirmed by search).
+  Hierarchies Incentivize Acceptance of Low Status," *Social Psychology Quarterly* 2017, 80(2):132–152.**
+  Verified on SAGE (DOI 10.1177/0190272517695213): *Social Psychology Quarterly* 80(2):132–152, 2017.
   - **Why it is an exemplar:** a named mechanism — implicit status rules trade "the dignity of being seen as
     reasonable" for deference — links a macro feature (the status order) to an individual disposition
     (acceptance of low status). Textbook structure–individual reasoning.
@@ -98,9 +98,8 @@ models, measurement validity, manipulation checks) is venue-neutral — see the 
 
 ### Affect control — cognition of events as a social-psychological process (measurement / experiment)
 
-- **Rogers, Kimberly B. "Event Likelihood Judgments Revisited," *Social Psychology Quarterly* 2021.**
-  Verified: `journals.sagepub.com/doi/abs/10.1177/0190272521997065` (DOI 10.1177/0190272521997065); journal
-  and year web-verified, **volume(issue):pages 待核实 / TO VERIFY** (not confirmed by search).
+- **Rogers, Kimberly B. "Event Likelihood Judgments Revisited," *Social Psychology Quarterly* 2021, 84(2):177–188.**
+  Verified on SAGE (DOI 10.1177/0190272521997065): *Social Psychology Quarterly* 84(2):177–188, 2021.
   - **Why it is an exemplar:** treats how people judge the likelihood of social events as governed by
     culturally shared affective meanings — an individual-cognition outcome kept *social* by grounding it in
     shared sentiments, which is what keeps it SPQ rather than psychology.
@@ -134,10 +133,6 @@ To keep the list zero-hallucination, the following were **excluded** after check
 - **Affect control theory "double special issue in honor of David R. Heise" framing articles** — some
   related pieces returned by search sit in *American Behavioral Scientist* (DOI prefix `10.1177/0002764...`),
   **not SPQ**; only confirm the specific SPQ articles, not the cross-journal cluster.
-- **Exact volume(issue):pages for Ridgeway & Nakagawa (2017) and Rogers (2021)** — journal and year are
-  web-verified via the SAGE DOI pages, but the precise issue and page range were not returned by search and
-  are marked **待核实 / TO VERIFY** above rather than guessed.
-
 Before adding any new paper to this library, confirm it on `journals.sagepub.com` (the SPQ article page
 with DOI and year) — and explicitly rule out the sibling journals listed in the header (JPSP, Psychological
 Science, ASR, Social Forces, *Social Psychology*) — then update the access-date header. When in doubt, omit.
