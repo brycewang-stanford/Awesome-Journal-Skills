@@ -23,22 +23,26 @@
 | Patrick, Mantzicopoulos & French, "The Predictive Validity of Classroom Observations: Do Teachers' Framework for Teaching Scores Predict Kindergarteners' Achievement and Motivation?" | 2020, 57(5):2021–2058 — `10.3102/0002831219891409` | Validity of a teaching-quality observation instrument | Measurement / psychometrics (predictive validity) |
 | Marsh, Tracy, O'Neal, Jabbar, Lenhoff, Mulfinger & Herrington, "Frames, Policies and Politics: The Shifting Discourse of School Choice" | 2025, 63(1):150–196 — `10.3102/00028312251394033` | School-choice politics; framing | Discourse / qualitative policy analysis |
 | Noll, "Accountability and (In)Congruence in a No-Excuses School College-Going Culture" | 2022, 59(1):112–145 — `10.3102/00028312211057303` | Accountability; college-going culture; identity | Qualitative case study |
+| Baker, "Pathways to Racial Equity in Higher Education: Modeling the Antecedents of State Affirmative Action Bans" | 2019, 56(5):1861–1895 — `10.3102/0002831219833918` | Higher-education access/equity; affirmative-action policy | Quantitative event-history (discrete-time survival) |
 
 These span AERJ's methodological range — foundational **qualitative theory-building** (Ladson-Billings)
 and **case study** (Noll), **quantitative multilevel** inference (Hill-Rowan-Ball), **quasi-experimental
-policy evaluation** (Dee-Huffaker), **measurement/psychometrics** (Patrick et al.), and **discourse/
-qualitative policy analysis** (Marsh et al.) — and its substantive core (equity; teaching quality and
-achievement; school choice and accountability policy).
+policy evaluation** (Dee-Huffaker), **measurement/psychometrics** (Patrick et al.), **discourse/
+qualitative policy analysis** (Marsh et al.), and **higher-education policy event-history** (Baker) — and
+its substantive core (equity; teaching quality and achievement; school choice, accountability, and
+higher-education access policy).
 
 ## To verify and add (`待核实 / TO VERIFY`)
 
 Confirm the `10.3102/0002831X…` DOI before listing. Remaining cells to fill:
 
+- **Higher-education** access/equity — **filled (2026-06-13)** with Baker (2019, AERJ 56(5), stem
+  `0002831`); note that many adjacent candidates (first-gen belonging, financial-aid experiments, state
+  funding/access) trace to *Educational Researcher* (stem `0013189X`) or *EEPA* (stem `01623737`), NOT
+  AERJ — e.g. Kelchen et al. "State Higher Education Funding Strategies and College Access," stem
+  `0013189X` (Educational Researcher), excluded.
 - **Mixed-methods** study of classroom or school process — not yet web-verified; many strong
   candidates surface in sibling venues (EEPA/ER), so confirm the AERJ stem before adding.
-- **Higher-education** access/persistence study — common candidates (first-gen belonging, financial-aid
-  experiments) were traced to *Educational Researcher* (stem `0013189X`) or *EEPA* (stem `01623737`),
-  NOT AERJ; left unfilled rather than misattributed.
 
 Do not import a candidate from *Educational Researcher*, *RER*, *EEPA*, *JEP*, or *Sociology of
 Education* without confirming the AERJ stem.
@@ -53,7 +57,8 @@ Education* without confirming the AERJ stem.
 - **Position against the AERA family** — be explicit why the paper is AERJ rather than RER (a review),
   ER (a commentary), or EEPA (a policy analysis).
 
-*Sources consulted (2026-06-08): Crossref/SAGE metadata for `10.3102/00028312032003465`,
-`10.3102/00028312042002371`, `10.3102/00028312251408539`, `10.3102/0002831219891409`,
-`10.3102/00028312251394033`, and `10.3102/00028312211057303` — each confirmed as
+*Sources consulted (2026-06-08; higher-ed row added 2026-06-13): Crossref/SAGE metadata for
+`10.3102/00028312032003465`, `10.3102/00028312042002371`, `10.3102/00028312251408539`,
+`10.3102/0002831219891409`, `10.3102/00028312251394033`, `10.3102/00028312211057303`, and
+`10.3102/0002831219833918` (Baker 2019, 56(5):1861–1895) — each confirmed on its SAGE article page as
 *American Educational Research Journal* (title/authors/year/vol/issue/pages and `0002831X` DOI stem).*
