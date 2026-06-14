@@ -1,5 +1,9 @@
 # Journal of Quantitative & Technological Economics Skills
 
+<p align="center">
+  <img src="assets/cover.svg" alt="《数量经济技术经济研究》 journal cover" width="220">
+</p>
+
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Journal](https://img.shields.io/badge/journal-JQTE-c0392b)](https://www.jqte.net/)
 [![Index](https://img.shields.io/badge/index-CSSCI%20%7C%20EconLit-1f6feb)](https://www.jqte.net/)

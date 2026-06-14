@@ -1,5 +1,9 @@
 # China Economic Quarterly Skills
 
+<p align="center">
+  <img src="assets/cover.svg" alt="《经济学(季刊)》 journal cover" width="220">
+</p>
+
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Journal](https://img.shields.io/badge/journal-China%20Economic%20Quarterly%20(CEQ)-c0392b)](https://www.nsd.pku.edu.cn/cbw/jjxjk/index.htm)
 [![Index](https://img.shields.io/badge/index-CSSCI-1f6feb)](https://www.nsd.pku.edu.cn/cbw/jjxjk/index.htm)

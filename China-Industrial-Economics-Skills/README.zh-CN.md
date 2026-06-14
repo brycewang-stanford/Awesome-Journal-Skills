@@ -1,5 +1,9 @@
 # 《中国工业经济》Skills
 
+<p align="center">
+  <img src="assets/cover.svg" alt="《中国工业经济》期刊封面" width="220">
+</p>
+
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Journal](https://img.shields.io/badge/journal-中国工业经济-c0392b)](https://ciejournal.ajcass.com/)
 [![Index](https://img.shields.io/badge/index-CSSCI-1f6feb)](https://ciejournal.ajcass.com/)

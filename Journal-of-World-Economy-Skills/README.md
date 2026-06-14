@@ -1,5 +1,9 @@
 # Journal of World Economy Skills
 
+<p align="center">
+  <img src="assets/cover.svg" alt="《世界经济》 journal cover" width="220">
+</p>
+
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Journal](https://img.shields.io/badge/journal-The%20Journal%20of%20World%20Economy-c0392b)](https://www.jweonline.cn/)
 [![Index](https://img.shields.io/badge/index-CSSCI-1f6feb)](https://www.jweonline.cn/)
