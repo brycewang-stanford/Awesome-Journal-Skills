@@ -44,6 +44,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   (OSDI), `acm-sigcomm` (SIGCOMM), `acm-mobicom` (MobiCom). Break ties by contribution type,
   evidence shape, reviewer community, and the current official CFP from www.usenix.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **Organizer & scope.** **USENIX** Symposium on **Networked** Systems Design & Implementation — networked and distributed systems.
+- **vs OSDI.** OSDI (also USENIX) is **operating-systems** design; route by whether the core contribution is a **networked/distributed-systems** result (here) or an **OS/runtime/storage** result (OSDI).
+- **vs SIGCOMM/INFOCOM.** SIGCOMM (ACM) and INFOCOM (IEEE) lean networking-measurement/protocol; NSDI rewards a built, evaluated systems artifact.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

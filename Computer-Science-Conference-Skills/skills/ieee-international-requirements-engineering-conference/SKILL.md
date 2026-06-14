@@ -46,6 +46,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   contribution type, evidence shape, reviewer community, and the current official CFP from
   conf.researchr.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What RE is.** The **IEEE** International **Requirements Engineering** Conference — elicitation, specification, modeling, and validation of requirements.
+- **vs ASE.** ASE is about **automated** software engineering broadly; bring requirements-specific contributions here.
+- **vs ICSE/FSE.** The SE flagships absorb requirements work too; pick RE when the requirements-engineering community is the primary audience.
+
 ## Method & evidence bar
 
 - Use real programs, benchmarks, proofs, developer studies, or artifacts matched to the contribution type.

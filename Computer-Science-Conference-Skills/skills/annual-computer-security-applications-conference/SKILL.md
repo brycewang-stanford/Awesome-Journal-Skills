@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   communications-security` (ASIACCS). Break ties by contribution type, evidence shape,
   reviewer community, and the current official CFP from www.acsac.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What ACSAC is.** The **Annual Computer Security Applications Conference** (ACSA) — **applied** and deployment-oriented security research.
+- **vs ESORICS.** ESORICS is the broad European research symposium (Springer LNCS); route applied/operational work here.
+- **vs PETS.** PETS is privacy-specific; ACSAC spans applied security broadly, below the IEEE S&P / USENIX Security / CCS / NDSS flagships.
+
 ## Method & evidence bar
 
 - Define the threat model, attacker capabilities, disclosure posture, and ethics review before presenting results.

@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare ISCA for flagship computer architecture, MICRO for microarchitecture depth, ASPLOS for
   architecture/systems/PL intersections, and SC for HPC systems.
 
+## What distinguishes this venue from its closest siblings
+
+- **What HPCA is.** The **IEEE** International Symposium on **High-Performance Computer Architecture** — microarchitecture, memory systems, accelerators, and performance.
+- **vs ISCA.** ISCA (ACM SIGARCH + IEEE TCCA) is the broadest architecture flagship; HPCA concentrates on high-performance design and is one of the "big four" (ISCA/MICRO/HPCA/ASPLOS).
+- **Routing.** Send architecture+OS+language co-design to ASPLOS and microarchitecture-implementation work to MICRO; reserve HPCA for performance-architecture contributions.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

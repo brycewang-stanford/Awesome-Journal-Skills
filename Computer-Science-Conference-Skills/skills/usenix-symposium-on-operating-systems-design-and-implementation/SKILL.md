@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   (SIGCOMM). Break ties by contribution type, evidence shape, reviewer community, and the
   current official CFP from www.usenix.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **Organizer & scope.** **USENIX** Symposium on **Operating Systems** Design & Implementation — OS, runtime, storage, and systems infrastructure.
+- **vs NSDI.** NSDI (also USENIX) is **networked/distributed** systems; route OS/runtime/storage results here and networked-systems results to NSDI.
+- **vs SOSP.** SOSP (ACM SIGOPS) is the other top OS flagship; OSDI/SOSP alternate-year cadence and committees are the practical routing axis, not topic.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

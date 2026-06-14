@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   (ISSTA), `mining-software-repositories` (MSR). Break ties by contribution type, evidence
   shape, reviewer community, and the current official CFP from conf.researchr.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What ASE is.** The **IEEE/ACM** International Conference on **Automated Software Engineering** — automation across the SE lifecycle (analysis, testing, synthesis, repair).
+- **vs RE.** RE is the **requirements-engineering**-specific conference; route requirements/elicitation/specification work there and automation/tooling work here.
+- **vs ICSE/FSE.** ICSE and FSE are the broad SE flagships; choose ASE when automation is the core contribution.
+
 ## Method & evidence bar
 
 - Use real programs, benchmarks, proofs, developer studies, or artifacts matched to the contribution type.

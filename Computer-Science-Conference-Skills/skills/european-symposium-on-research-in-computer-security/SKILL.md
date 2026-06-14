@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   cryptographic-hardware-and-embedded-systems` (CHES). Break ties by contribution type,
   evidence shape, reviewer community, and the current official CFP from esorics.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What ESORICS is.** The flagship **European** computer-security research symposium (Springer **LNCS** proceedings), broad security scope.
+- **vs PETS.** PETS is **privacy-specific** (publishes in PoPETs); route privacy-enhancing-technology work there and general security here.
+- **vs ACSAC.** ACSAC is **applied** security; reserve ESORICS for research contributions, and remember the big-four flagships are IEEE S&P, USENIX Security, ACM CCS, NDSS.
+
 ## Method & evidence bar
 
 - Define the threat model, attacker capabilities, disclosure posture, and ethics review before presenting results.

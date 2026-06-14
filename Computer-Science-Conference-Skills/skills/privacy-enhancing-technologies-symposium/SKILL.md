@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   in-computer-security` (ESORICS). Break ties by contribution type, evidence shape, reviewer
   community, and the current official CFP from petsymposium.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What PETS is.** The **Privacy Enhancing Technologies Symposium**, publishing in **PoPETs (Proceedings on Privacy Enhancing Technologies)** — privacy as the defining topic.
+- **vs ESORICS.** ESORICS is broad European security (Springer LNCS); bring privacy-technology contributions here, general security there.
+- **vs ACSAC.** ACSAC is applied security; PETS is privacy-research-specific with its own rolling-issue model.
+
 ## Method & evidence bar
 
 - Define the threat model, attacker capabilities, disclosure posture, and ethics review before presenting results.
