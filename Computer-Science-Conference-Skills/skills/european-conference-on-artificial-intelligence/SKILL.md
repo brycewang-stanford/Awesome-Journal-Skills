@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   computational-natural-language-learning` (CoNLL). Break ties by contribution type, evidence
   shape, reviewer community, and the current official CFP from ecai2026.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What ECAI is.** The **European Conference on AI** (EurAI) — the **European** generalist AI conference.
+- **vs AAAI / IJCAI.** AAAI is North-American and IJCAI global; ECAI is the European counterpart of the same broad-AI scope — route by region and cycle.
+- **Routing.** Method-specific results fit NeurIPS/ICML/CVPR/ACL; ECAI rewards general-AI contributions framed for a European audience.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

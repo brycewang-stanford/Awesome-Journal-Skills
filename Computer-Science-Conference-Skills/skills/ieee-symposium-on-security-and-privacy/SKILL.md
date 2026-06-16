@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Do not choose S&P by prestige alone. Compare CCS for broad ACM security, USENIX Security for
   systems/security artifacts, NDSS for networked security, PETS for privacy-first work.
 
+## What distinguishes this venue from its closest siblings
+
+- **What IEEE S&P (Oakland) is.** The **IEEE** Symposium on **Security and Privacy** — one of the security "big four".
+- **vs CCS.** CCS (ACM) is the other top general-security flagship; with **USENIX Security** and **NDSS** they are the big four — differentiate by cycle and community.
+- **Routing.** Crypto-theory → CRYPTO/EUROCRYPT; applied/regional → ESORICS/ACSAC; privacy-specific → PETS.
+
 ## Method & evidence bar
 
 - Define the threat model, attacker capabilities, disclosure posture, and ethics review before presenting results.

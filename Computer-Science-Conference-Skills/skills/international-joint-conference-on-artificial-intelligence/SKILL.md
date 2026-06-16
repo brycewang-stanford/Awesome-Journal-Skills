@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   (UAI). Break ties by contribution type, evidence shape, reviewer community, and the current
   official CFP from www.ijcai.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What IJCAI is.** The **International Joint Conferences on AI** — the **global** generalist AI flagship (historically biennial, now annual).
+- **vs AAAI.** AAAI is the AAAI-sponsored, North-America-centered generalist flagship; same breadth, different sponsor/cycle.
+- **vs ECAI.** ECAI is the European generalist venue; send method-specific work to the domain flagships, not IJCAI.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

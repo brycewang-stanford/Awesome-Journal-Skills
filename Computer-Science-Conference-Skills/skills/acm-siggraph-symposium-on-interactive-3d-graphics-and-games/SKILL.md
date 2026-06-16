@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare SIGGRAPH/SIGGRAPH Asia for broad graphics, SCA for animation, IEEE VR/ISMAR for
   immersive systems, and VIS venues for visualization knowledge.
 
+## What distinguishes this venue from its closest siblings
+
+- **What I3D is.** The **ACM SIGGRAPH** Symposium on **Interactive 3D Graphics and Games** — real-time rendering and interactive 3D.
+- **vs IEEE VR.** IEEE VR is **virtual reality and 3D user interfaces** (perception, interaction, displays); I3D is real-time-rendering/graphics-systems-centered.
+- **vs SIGGRAPH.** SIGGRAPH (ACM TOG) is the broad graphics flagship; I3D is the focused real-time/interactive venue.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

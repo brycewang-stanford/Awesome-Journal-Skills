@@ -42,6 +42,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Do not collapse ICSME into SANER. SANER is stronger for analysis/reengineering tooling; ISSTA
   for testing and analysis of defects; ICSE/FSE/ASE for broader SE or automation claims.
 
+## What distinguishes this venue from its closest siblings
+
+- **What ICSME is.** The IEEE conference on **Software Maintenance and Evolution** — maintenance, comprehension, and evolution of deployed software.
+- **vs SANER.** SANER leans **analysis/reengineering**; ICSME leans **maintenance/evolution practice** — overlapping siblings, route by community/cycle.
+- **vs ICSE/FSE/MSR.** The SE flagships are ICSE/FSE; MSR is repository mining; ICSME is the maintenance-focused venue.
+
 ## Method & evidence bar
 
 - Use real programs, benchmarks, proofs, developer studies, or artifacts matched to the contribution type.

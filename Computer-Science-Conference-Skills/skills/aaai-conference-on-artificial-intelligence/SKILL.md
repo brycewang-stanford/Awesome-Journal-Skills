@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   intelligence-and-statistics` (AISTATS). Break ties by contribution type, evidence shape,
   reviewer community, and the current official CFP from aaai.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What AAAI is.** The **AAAI**-sponsored broad AI flagship, North-America-centered, very large and topic-wide.
+- **vs IJCAI.** IJCAI (International Joint Conferences on AI) is the **global** generalist AI flagship; route by cycle and community, both are AI-wide.
+- **vs ECAI.** ECAI (EurAI) is the **European** generalist AI conference; reserve domain venues (NeurIPS/ICML/CVPR/ACL) for method-specific work.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

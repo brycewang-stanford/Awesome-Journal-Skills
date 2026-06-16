@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare SAT for satisfiability, CPAIOR for CP/AI/OR integration, KR for representation and
   reasoning, and OR venues for operations-research framing.
 
+## What distinguishes this venue from its closest siblings
+
+- **What CP is.** The conference on **Principles and Practice of Constraint Programming** — modeling and solving constraint satisfaction/optimization.
+- **vs SAT.** SAT (Theory and Applications of Satisfiability Testing) is **Boolean-satisfiability**-specific; CP is the broader constraint paradigm.
+- **vs KR.** KR is **knowledge representation and reasoning** (logics, ontologies); route solver/constraint work to CP, representation/reasoning to KR.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

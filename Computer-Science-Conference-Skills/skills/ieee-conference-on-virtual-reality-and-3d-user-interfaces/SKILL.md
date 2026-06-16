@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare ISMAR for mixed/augmented reality, I3D/SIGGRAPH for graphics, CHI/UIST for interaction
   techniques, and HRI/robotics venues for embodied agents.
 
+## What distinguishes this venue from its closest siblings
+
+- **What IEEE VR is.** The IEEE Conference on **Virtual Reality and 3D User Interfaces** — VR/AR, perception, interaction, and 3D UIs (papers in IEEE TVCG).
+- **vs I3D.** I3D (ACM SIGGRAPH) is **real-time rendering / interactive 3D graphics**; IEEE VR is VR/3DUI-centered.
+- **vs SIGGRAPH.** SIGGRAPH is the broad graphics flagship; IEEE VR is the VR/3DUI specialist.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

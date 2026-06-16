@@ -42,6 +42,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare IEEE S&P, USENIX Security, and NDSS carefully. The right venue depends on threat
   model, artifact/reproducibility posture, ethics constraints, and community scope.
 
+## What distinguishes this venue from its closest siblings
+
+- **What CCS is.** The **ACM** Conference on **Computer and Communications Security** — one of the security "big four".
+- **vs IEEE S&P.** IEEE S&P (Oakland) is the IEEE security flagship; with **USENIX Security** and **NDSS** these four are the top venues — route by community/cycle, not prestige.
+- **Routing.** Crypto-theory fits CRYPTO/EUROCRYPT; applied/regional security fits ESORICS/ACSAC; privacy fits PETS.
+
 ## Method & evidence bar
 
 - Define the threat model, attacker capabilities, disclosure posture, and ethics review before presenting results.

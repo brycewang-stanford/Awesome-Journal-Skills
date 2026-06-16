@@ -44,6 +44,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   symposium-on-interactive-3d-graphics-and-games` (I3D). Break ties by contribution type,
   evidence shape, reviewer community, and the current official CFP from www.eg.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What Eurographics is.** The annual conference of the **European Association for Computer Graphics (EG)**; archival papers appear in **Computer Graphics Forum (CGF)**.
+- **vs Pacific Graphics.** PG is the **Asia-Pacific** graphics conference (also CGF); route by region and cycle, same CGF pipeline.
+- **vs SIGGRAPH/SIGGRAPH Asia.** Those publish in ACM TOG; Eurographics is the European CGF-track flagship.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

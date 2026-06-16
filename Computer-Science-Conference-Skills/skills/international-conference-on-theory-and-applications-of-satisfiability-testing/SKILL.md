@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare CP for broader constraint programming, CAV for verification, KR for reasoning, and
   AAAI/IJCAI only when the AI contribution is broader than SAT.
 
+## What distinguishes this venue from its closest siblings
+
+- **What SAT is.** The conference on **Theory and Applications of Satisfiability Testing** — SAT/SMT solvers, proof complexity, and solver competitions.
+- **vs CP.** CP is the broader **constraint programming** paradigm; SAT is Boolean-satisfiability-specific.
+- **vs KR.** KR is knowledge-representation/reasoning formalisms; SAT is solver theory and engineering.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

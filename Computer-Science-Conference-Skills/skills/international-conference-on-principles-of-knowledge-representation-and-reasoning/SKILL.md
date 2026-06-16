@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare SAT/CP for satisfiability or constraint solving, ISWC/K-CAP for semantic-web or
   knowledge-capture systems, and AAAI/IJCAI for broader AI.
 
+## What distinguishes this venue from its closest siblings
+
+- **What KR is.** The conference on **Principles of Knowledge Representation and Reasoning** — logics, ontologies, nonmonotonic and epistemic reasoning.
+- **vs CP / SAT.** CP is constraint solving and SAT is Boolean satisfiability; KR is about **representation and reasoning formalisms**, not solver engineering.
+- **vs AAAI/IJCAI.** The generalist AI flagships also take KR work; choose KR when the formal-reasoning community is the primary audience.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

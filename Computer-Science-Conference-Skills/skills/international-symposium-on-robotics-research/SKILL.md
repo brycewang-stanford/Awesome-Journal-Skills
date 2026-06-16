@@ -42,6 +42,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - If the value is primarily hardware trial evidence, compare ISER. If it is learning-heavy,
   compare CoRL. If it is a broad robotics systems paper, compare ICRA/IROS/RSS.
 
+## What distinguishes this venue from its closest siblings
+
+- **What ISRR is.** The **International Symposium on Robotics Research** — single-track, **foundational and forward-looking** robotics.
+- **vs ISER.** ISER (Experimental Robotics) emphasizes **experiment-validated** results; ISRR leans foundational/visionary.
+- **vs ICRA/IROS/RSS.** ICRA/IROS are large IEEE flagships, RSS is single-track foundations; ISRR is a selective symposium — route by format and emphasis.
+
 ## Method & evidence bar
 
 - Report hardware, simulation, environment, task distribution, reset procedure, and failure cases; embodied evidence must be inspectable.

@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   contribution type, evidence shape, reviewer community, and the current official CFP from
   pg2026.nccu.edu.tw.
 
+## What distinguishes this venue from its closest siblings
+
+- **What Pacific Graphics is.** The **Pacific Conference on Computer Graphics and Applications** — the **Asia-Pacific** graphics venue; archival papers in **Computer Graphics Forum (CGF)**.
+- **vs Eurographics.** Eurographics is the **European** CGF conference; same journal pipeline, different region and cycle.
+- **vs SIGGRAPH Asia.** SIGGRAPH Asia publishes in ACM TOG and is larger; PG is the CGF-track Asia-Pacific venue.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

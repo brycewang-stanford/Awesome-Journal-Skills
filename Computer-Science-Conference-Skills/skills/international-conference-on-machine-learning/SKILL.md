@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare ICLR for representation/deep-learning framing, NeurIPS for broad ML/AI impact,
   AISTATS/UAI/COLT for statistical or theoretical claims, and MLSys for systems bottlenecks.
 
+## What distinguishes this venue from its closest siblings
+
+- **What ICML is.** The **International Conference on Machine Learning** (IMLS) — the broad ML flagship spanning theory and applications.
+- **vs ICLR / NeurIPS.** ICLR is deep-learning-forward (OpenReview) and NeurIPS is the broad ML/neuro flagship; the three overlap heavily — route by cycle and community.
+- **Routing.** Learning theory → COLT; vision → CVPR/ICCV/ECCV; NLP → ACL-family.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

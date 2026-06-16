@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare CVPR and ECCV by current cycle and area fit, not acronym familiarity. Dataset-only,
   application-only, or medical-imaging claims may fit narrower venues better.
 
+## What distinguishes this venue from its closest siblings
+
+- **What ICCV is.** The **IEEE/CVF International Conference on Computer Vision**, held **biennially in odd years**.
+- **vs ECCV.** ECCV is the **even-year** European biennial counterpart (Springer); with annual **CVPR** they form the vision big-three.
+- **Routing.** WACV is applied/winter, ACCV is Asia-Pacific regional; ICCV is a top general-vision flagship.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

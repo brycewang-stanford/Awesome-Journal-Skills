@@ -46,6 +46,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   contribution type, evidence shape, reviewer community, and the current official CFP from
   facctconference.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What FAccT is.** The **ACM** Conference on **Fairness, Accountability, and Transparency** — sociotechnical fairness/accountability of algorithmic systems.
+- **vs AIES.** AIES (AAAI/ACM) is broader **AI-ethics-and-society**; FAccT is more focused on fairness/accountability methods and audits.
+- **Routing.** Method-only fairness can fit NeurIPS/ICML; FAccT rewards sociotechnical framing with accountability/transparency at the core.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

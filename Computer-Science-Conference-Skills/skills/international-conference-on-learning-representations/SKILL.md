@@ -42,6 +42,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare ICML for broader ML methods/theory, NeurIPS for broad ML/AI impact, AISTATS/UAI/COLT
   for statistics/uncertainty/theory, and domain venues for application-first work.
 
+## What distinguishes this venue from its closest siblings
+
+- **What ICLR is.** The **International Conference on Learning Representations** — deep/representation learning, **OpenReview** open-review model.
+- **vs ICML / NeurIPS.** ICML (IMLS) and NeurIPS are the other two ML flagships; ICLR is deep-learning-forward with public OpenReview — route by cycle and topic emphasis, not prestige.
+- **Routing.** Vision-specific → CVPR/ICCV/ECCV; NLP → ACL-family; theory → COLT.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

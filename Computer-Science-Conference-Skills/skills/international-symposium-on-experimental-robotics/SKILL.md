@@ -42,6 +42,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Do not confuse ISER with ISRR. ISRR should read as agenda-setting robotics research; CoRL as
   robot learning; ICRA/IROS as broader robotics conference targets.
 
+## What distinguishes this venue from its closest siblings
+
+- **What ISER is.** The **International Symposium on Experimental Robotics** — single-track, **experiment-validated** robotics results.
+- **vs ISRR.** ISRR (International Symposium on Robotics Research) is the **foundational/forward-looking** robotics symposium; ISER emphasizes experimental validation.
+- **vs ICRA/IROS.** The IEEE flagships are larger and multi-track; ISER/ISRR are selective single-track symposia — route by format and emphasis.
+
 ## Method & evidence bar
 
 - Report hardware, simulation, environment, task distribution, reset procedure, and failure cases; embodied evidence must be inspectable.

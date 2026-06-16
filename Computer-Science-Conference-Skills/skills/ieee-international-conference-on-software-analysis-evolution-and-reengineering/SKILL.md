@@ -43,6 +43,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   if it is maintenance practice over repository histories, compare ICSME; if it is broad SE
   theory or automation, compare ICSE/FSE/ASE.
 
+## What distinguishes this venue from its closest siblings
+
+- **What SANER is.** The IEEE conference on **Software Analysis, Evolution, and Reengineering** — program analysis, comprehension, and refactoring.
+- **vs ICSME.** ICSME is **Software Maintenance and Evolution**; the two overlap heavily — route by community/cycle, with SANER leaning analysis/reengineering and ICSME leaning maintenance practice.
+- **vs ICSE/FSE/MSR.** ICSE/FSE are the SE flagships and MSR is mining-repositories; pick SANER for analysis/reengineering contributions.
+
 ## Method & evidence bar
 
 - Use real programs, benchmarks, proofs, developer studies, or artifacts matched to the contribution type.

@@ -46,6 +46,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   intelligence` (ECAI). Break ties by contribution type, evidence shape, reviewer community,
   and the current official CFP from www.aies-conference.com.
 
+## What distinguishes this venue from its closest siblings
+
+- **What AIES is.** The **AAAI/ACM** Conference on **AI, Ethics, and Society** — interdisciplinary AI ethics (philosophy, policy, technical).
+- **vs FAccT.** FAccT (ACM Fairness, Accountability, and Transparency) is **algorithmic fairness/accountability**-centered and more technical-methods-forward; AIES is broader ethics/society.
+- **Routing.** Pure ML-method fairness work may fit NeurIPS/ICML tracks; route normative/interdisciplinary work to AIES, fairness-systems work to FAccT.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Do not route generic data-mining or ML papers here. Compare VLDB/PVLDB for database research
   with its own submission mechanics and ICDE for data-engineering scope.
 
+## What distinguishes this venue from its closest siblings
+
+- **What SIGMOD is.** The **ACM SIGMOD** flagship for **data management systems** — query processing, storage, transactions, and systems.
+- **vs VLDB.** VLDB publishes continuously via **PVLDB (Proceedings of the VLDB Endowment)** with a rolling model; SIGMOD has a conference-cycle deadline. Same field, different submission machinery.
+- **Routing.** Both are top DB venues; pick by submission model/cycle, and send theory to PODS, data mining to KDD/ICDM.
+
 ## Method & evidence bar
 
 - For systems/data papers, use realistic workloads, data sizes, and baselines; for theory papers, give exact statements and complete proofs.

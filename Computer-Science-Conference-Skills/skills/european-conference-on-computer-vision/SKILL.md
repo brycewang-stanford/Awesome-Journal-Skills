@@ -42,6 +42,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   benchmark culture, and reviewer expectations; use WACV/ACCV/BMVC for different scope or
   timing.
 
+## What distinguishes this venue from its closest siblings
+
+- **What ECCV is.** The **European Conference on Computer Vision**, held **biennially in even years**, Springer proceedings.
+- **vs ICCV.** ICCV (IEEE/CVF) is the **odd-year** biennial counterpart; together with the annual **CVPR** they are the vision big-three.
+- **Routing.** Send applied/winter work to WACV and regional work to ACCV; ECCV is a flagship general-vision venue.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

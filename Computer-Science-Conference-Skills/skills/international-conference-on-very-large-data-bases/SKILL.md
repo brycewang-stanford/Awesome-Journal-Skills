@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare SIGMOD for database systems conference fit, ICDE for IEEE data engineering,
   KDD/ICDM/SDM for mining, and CIKM for information and knowledge management.
 
+## What distinguishes this venue from its closest siblings
+
+- **What VLDB is.** The **Very Large Data Bases** conference, publishing through **PVLDB (Proceedings of the VLDB Endowment)** on a **rolling monthly** submission model.
+- **vs SIGMOD.** SIGMOD (ACM) is the cycle-deadline DB flagship; VLDB's rolling PVLDB pipeline is the practical routing difference.
+- **Routing.** Both are top database systems venues; theory fits PODS, mining fits KDD/ICDM.
+
 ## Method & evidence bar
 
 - For systems/data papers, use realistic workloads, data sizes, and baselines; for theory papers, give exact statements and complete proofs.
