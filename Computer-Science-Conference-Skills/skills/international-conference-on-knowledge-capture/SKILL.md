@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare ISWC for semantic-web infrastructure, KR for formal knowledge representation and
   reasoning, and Discovery Science for data-driven discovery processes.
 
+## What distinguishes this venue from its closest siblings
+
+- **What K-CAP is.** The International Conference on **Knowledge Capture** — knowledge acquisition, elicitation, and representation.
+- **vs ISWC.** ISWC is the broad semantic-web/knowledge-graph flagship; K-CAP is acquisition/capture-focused.
+- **vs KR.** KR is formal reasoning theory; K-CAP centers building and capturing knowledge.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

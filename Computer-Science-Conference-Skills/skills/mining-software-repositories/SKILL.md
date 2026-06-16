@@ -46,6 +46,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   engineering-and-measurement` (ESEM). Break ties by contribution type, evidence shape,
   reviewer community, and the current official CFP from www.msrconf.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What MSR is.** The conference on **Mining Software Repositories** — empirical SE from version-control, issue-tracker, and code data.
+- **vs ICSE / FSE.** ICSE/FSE are the SE flagships; MSR is the data-mining-of-software-artifacts venue (often co-located with ICSE).
+- **vs SANER / ICSME.** Those are analysis/maintenance; MSR centers repository-data empirical studies.
+
 ## Method & evidence bar
 
 - Use real programs, benchmarks, proofs, developer studies, or artifacts matched to the contribution type.

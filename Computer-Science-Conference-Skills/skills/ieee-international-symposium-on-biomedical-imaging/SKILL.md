@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare MICCAI for medical-image computing and intervention, CVPR/ICCV/ECCV for general
   vision, and clinical journals when patient-outcome evidence is central.
 
+## What distinguishes this venue from its closest siblings
+
+- **What ISBI is.** The **IEEE** International Symposium on **Biomedical Imaging** — medical/biological image acquisition, reconstruction, and analysis.
+- **Real neighbors.** MICCAI and IPMI (medical imaging) — not multimedia-retrieval venues.
+- **Routing.** Clinical/biomedical imaging here; general vision to CVPR/ICCV/ECCV.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

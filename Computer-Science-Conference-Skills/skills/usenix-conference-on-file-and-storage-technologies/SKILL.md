@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   Break ties by contribution type, evidence shape, reviewer community, and the current
   official CFP from www.usenix.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What FAST is.** The **USENIX** Conference on **File and Storage Technologies** — storage systems, file systems, and persistence.
+- **Real neighbors.** OSDI / NSDI / EuroSys / USENIX ATC (systems family) — not NLP or HCI venues.
+- **Routing.** Storage/file-system contributions here; networked systems to NSDI, OS to OSDI/SOSP.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

@@ -46,6 +46,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   by contribution type, evidence shape, reviewer community, and the current official CFP from
   www.isca-archive.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What Interspeech is.** The **ISCA** flagship — the broadest **speech** conference (ASR, TTS, speaker, prosody, spoken-language processing).
+- **vs ASRU / SLT.** ASRU (IEEE) is a biennial **ASR-and-understanding** workshop; SLT (IEEE) is a biennial **spoken-language-technology** workshop — both narrower and smaller than Interspeech.
+- **vs ICASSP.** ICASSP is the broad signal-processing flagship; Interspeech is speech-science-and-technology-centered.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

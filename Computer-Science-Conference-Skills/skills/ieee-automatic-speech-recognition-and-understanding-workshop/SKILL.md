@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare INTERSPEECH for broader speech processing, ICASSP for signal processing, SLT for
   spoken-language technology, and ACL/EMNLP when language modeling is the core contribution.
 
+## What distinguishes this venue from its closest siblings
+
+- **What ASRU is.** The **IEEE** biennial workshop on **Automatic Speech Recognition and Understanding** — focused, recognition-and-understanding-centered.
+- **vs Interspeech.** Interspeech (ISCA) is the large general speech flagship; ASRU is a smaller, ASR-focused workshop.
+- **vs SLT.** SLT is the sibling IEEE workshop on **spoken language technologies** (downstream tasks); ASRU centers recognition/understanding.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

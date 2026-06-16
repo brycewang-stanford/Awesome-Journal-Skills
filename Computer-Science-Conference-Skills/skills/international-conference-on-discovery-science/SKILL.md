@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare K-CAP for knowledge acquisition/capture, ICPR for pattern-recognition methods, and
   ICDM/SDM/KDD for mainstream data-mining claims.
 
+## What distinguishes this venue from its closest siblings
+
+- **What Discovery Science is.** The conference on **algorithmic discovery of knowledge** — often co-located with ALT (Algorithmic Learning Theory).
+- **vs ECML-PKDD / KDD.** Those are the large ML+data-mining venues; Discovery Science is a smaller, discovery-and-learning-theory-flavored venue.
+- **vs ISWC / K-CAP.** Those center semantic-web/knowledge capture; route algorithmic-discovery work here.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

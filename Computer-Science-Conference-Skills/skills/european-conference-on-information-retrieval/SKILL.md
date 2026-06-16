@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare SIGIR for flagship IR, CHIIR for interactive IR, CIKM for broader
   information/knowledge management, and ACL/EMNLP when NLP modeling is central.
 
+## What distinguishes this venue from its closest siblings
+
+- **What ECIR is.** The **European Conference on Information Retrieval** (BCS IRSG-backed, Springer LNCS) — the European IR venue, known for strong early-career work.
+- **vs SIGIR.** SIGIR (ACM) is the global IR flagship; ECIR is the European counterpart — same field, route by cycle/community.
+- **vs CIKM / CHIIR / TREC.** CIKM is IR+KM+DB, CHIIR is interactive IR, TREC is an evaluation campaign.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

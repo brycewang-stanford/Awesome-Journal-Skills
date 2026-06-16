@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare POPL/LICS for theory, PLDI for language implementation, SAT/CP for solver-specific
   advances, and systems/security venues when verification is only an application.
 
+## What distinguishes this venue from its closest siblings
+
+- **What CAV is.** The International Conference on **Computer Aided Verification** — model checking, SMT, automated/interactive verification.
+- **vs LICS.** LICS is **logic in CS** (foundational); CAV is the applied/algorithmic verification venue.
+- **vs POPL / ICFP.** Those are programming-languages venues; CAV centers verification tools and theory.
+
 ## Method & evidence bar
 
 - Use real programs, benchmarks, proofs, developer studies, or artifacts matched to the contribution type.

@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare ACM MM for broader multimedia, SIGIR for general IR, CVPR/ICCV/ECCV for vision
   methods, and ISBI/MICCAI for biomedical imaging.
 
+## What distinguishes this venue from its closest siblings
+
+- **What ICMR is.** The **ACM** International Conference on **Multimedia Retrieval** — retrieval/indexing across images, video, audio.
+- **Real neighbors.** ACM Multimedia (SIGMM) and SIGIR (retrieval) — not medical-imaging venues.
+- **Routing.** Multimedia retrieval here; text IR to SIGIR; general multimedia to ACM MM.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

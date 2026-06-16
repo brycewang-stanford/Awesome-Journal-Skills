@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare CHI for broader human factors, UIST for UI systems techniques, TEI for tangible
   embodied interaction, and AVI/VIS for visual-interface or visualization claims.
 
+## What distinguishes this venue from its closest siblings
+
+- **What ISS is.** The **ACM** Conference on **Interactive Surfaces and Spaces** — tabletops, large displays, and spatial interaction.
+- **Real neighbors.** CHI, UIST, and TEI (tangible) — not crowdsourcing venues.
+- **Routing.** Surface/spatial-interaction here; broad HCI to CHI, systems/UI tech to UIST.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

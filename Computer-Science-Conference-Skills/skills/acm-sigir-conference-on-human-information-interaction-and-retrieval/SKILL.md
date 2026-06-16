@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   `conference-and-labs-of-the-evaluation-forum` (CLEF). Break ties by contribution type,
   evidence shape, reviewer community, and the current official CFP from chiir.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What CHIIR is.** The **ACM SIGIR** Conference on **Human Information Interaction and Retrieval** — interactive IR, search behavior, and user studies.
+- **vs SIGIR.** SIGIR is system/algorithm-centered IR; CHIIR is the **human/interaction** side — route user-study and behavior work here.
+- **vs CHI.** CHI is the broad HCI flagship; CHIIR is the IR-community's human-information venue.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

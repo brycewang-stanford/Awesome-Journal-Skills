@@ -42,6 +42,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare PLDI for implementation/performance and language design, POPL for principles and
   proofs, OOPSLA for object-oriented/software language systems, and CAV for verification.
 
+## What distinguishes this venue from its closest siblings
+
+- **What ICFP is.** The **ACM SIGPLAN** International Conference on **Functional Programming** — functional languages, type systems, semantics.
+- **vs POPL / PLDI / OOPSLA.** POPL is principles/theory, PLDI is implementation, OOPSLA is objects/systems; ICFP is the functional-programming home.
+- **vs CAV / LICS.** CAV is verification, LICS is logic; route language-design/semantics work to ICFP.
+
 ## Method & evidence bar
 
 - Use real programs, benchmarks, proofs, developer studies, or artifacts matched to the contribution type.

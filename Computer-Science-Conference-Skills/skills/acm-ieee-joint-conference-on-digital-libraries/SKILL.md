@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare SIGIR/ECIR for retrieval algorithms, CIKM for broader information/knowledge
   management, and CSCW/CHI when social or user-study contribution dominates.
 
+## What distinguishes this venue from its closest siblings
+
+- **What JCDL is.** The **ACM/IEEE Joint Conference on Digital Libraries** — digital libraries, archiving, metadata, scholarly infrastructure.
+- **vs SIGIR / ECIR.** Those are core IR; JCDL is library/curation/infrastructure-centered (retrieval is one part).
+- **vs ISWC / K-CAP.** ISWC is semantic web/knowledge graphs; route preservation/collection work to JCDL.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

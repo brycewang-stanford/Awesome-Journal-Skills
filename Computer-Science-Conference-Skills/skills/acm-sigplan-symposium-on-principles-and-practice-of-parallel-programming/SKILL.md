@@ -46,6 +46,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   (SIGMETRICS). Break ties by contribution type, evidence shape, reviewer community, and the
   current official CFP from conf.researchr.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What PPoPP is.** The **ACM SIGPLAN** Symposium on **Principles and Practice of Parallel Programming** — parallel programming models, runtimes, and concurrency.
+- **Real neighbors.** SC, HPDC, ICS (HPC) and PLDI (PL) — not storage venues.
+- **Routing.** Parallel-programming abstractions here; HPC systems to SC/HPDC.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

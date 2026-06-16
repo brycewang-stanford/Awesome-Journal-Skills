@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   Break ties by contribution type, evidence shape, reviewer community, and the current
   official CFP from conf.researchr.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What MODELS is.** The **ACM/IEEE** conference on **Model-Driven Engineering Languages and Systems** — modeling languages, transformations, MDE.
+- **Real neighbors.** ICSE / FSE / ASE (software engineering) and SLE (language engineering) — not data-mining venues.
+- **Routing.** MDE/modeling here; general SE to ICSE/FSE.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

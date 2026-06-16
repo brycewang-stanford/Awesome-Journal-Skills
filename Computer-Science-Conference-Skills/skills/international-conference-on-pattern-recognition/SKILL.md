@@ -42,6 +42,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Do not use ICPR for generic data mining or knowledge representation. Compare CVPR/ICCV/ECCV
   for flagship vision and KDD/ICDM/SDM for data mining.
 
+## What distinguishes this venue from its closest siblings
+
+- **What ICPR is.** The **IAPR** International Conference on **Pattern Recognition** — broad pattern recognition (vision, signals, structural PR).
+- **vs CVPR/ICCV/ECCV.** Those are the IEEE/CVF vision flagships; ICPR is the IAPR general pattern-recognition venue, broader than vision alone.
+- **vs ICML.** ICML is general ML; ICPR centers recognition tasks and IAPR community.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

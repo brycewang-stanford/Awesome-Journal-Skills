@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   information-retrieval` (ECIR). Break ties by contribution type, evidence shape, reviewer
   community, and the current official CFP from slt2026.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What SLT is.** The **IEEE** biennial **Spoken Language Technology** workshop — downstream spoken-language tasks (dialogue, understanding, spoken-language applications).
+- **vs ASRU.** ASRU is the sibling IEEE workshop centered on **ASR/understanding**; SLT centers **spoken-language technologies** built on top.
+- **vs Interspeech.** Interspeech (ISCA) is the broad speech flagship; SLT is a focused IEEE workshop.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

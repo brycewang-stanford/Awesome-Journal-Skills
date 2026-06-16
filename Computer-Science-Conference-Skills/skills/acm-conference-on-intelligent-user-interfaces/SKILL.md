@@ -46,6 +46,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   interaction` (MobileHCI). Break ties by contribution type, evidence shape, reviewer
   community, and the current official CFP from iui.acm.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What IUI is.** The **ACM** Conference on **Intelligent User Interfaces** — the AI×HCI intersection (adaptive, recommender, mixed-initiative UIs).
+- **vs MobileHCI.** MobileHCI centers **mobile** interaction; IUI centers **intelligent/AI-driven** interfaces — overlapping HCI siblings.
+- **Real neighbors.** CHI (broad HCI), RecSys (recommenders), UbiComp — route by AI-intelligence vs mobile-context emphasis.
+
 ## Method & evidence bar
 
 - Match the contribution type to the evidence: controlled study, field deployment, design inquiry, technical system, dataset, or theory.

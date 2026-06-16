@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare K-CAP for knowledge capture, KR for formal reasoning, CIKM for broader
   information/knowledge management, and database venues for data-management systems.
 
+## What distinguishes this venue from its closest siblings
+
+- **What ISWC is.** The **International Semantic Web Conference** — ontologies, knowledge graphs, linked data, reasoning over the web of data.
+- **vs K-CAP.** K-CAP is **knowledge capture/acquisition**; ISWC is the broader semantic-web flagship.
+- **vs KR / CIKM.** KR is formal reasoning, CIKM is applied IR/KM; ISWC centers web-scale knowledge representation.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

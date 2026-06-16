@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare SC for flagship HPC, PPoPP for parallel programming, SIGMETRICS for performance
   modeling, and systems venues when OS/networking is central.
 
+## What distinguishes this venue from its closest siblings
+
+- **What HPDC is.** The **ACM** International Symposium on **High-Performance Parallel and Distributed Computing** — HPC, distributed runtimes, and large-scale computing.
+- **Real neighbors.** SC (Supercomputing), PPoPP, and ICS — not security venues.
+- **Routing.** HPC/distributed-computing systems here; parallel-programming models to PPoPP.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   by contribution type, evidence shape, reviewer community, and the current official CFP from
   www.wsdm-conference.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What WSDM is.** The **ACM** Conference on **Web Search and Data Mining** — web-scale search, mining, and recommendation.
+- **Real neighbors.** SIGIR (IR), KDD (data mining), TheWebConf/WWW, CIKM — not modeling/SE venues.
+- **Routing.** Web search/mining here; core IR to SIGIR, general mining to KDD.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

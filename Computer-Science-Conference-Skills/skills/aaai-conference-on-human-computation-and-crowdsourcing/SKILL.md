@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare CHI/CSCW for broader human-centered or social-computing contributions, AIES/FAccT for
   ethics/fairness, and AI venues when the algorithm rather than human computation is central.
 
+## What distinguishes this venue from its closest siblings
+
+- **What HCOMP is.** The **AAAI** Conference on **Human Computation and Crowdsourcing** — crowdsourcing, human-in-the-loop computation, and labeling.
+- **Real neighbors.** CSCW and CHI (collaboration/HCI) and AAAI (AI) — not tabletop/surface venues.
+- **Routing.** Crowd/human-computation here; collaboration systems to CSCW.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

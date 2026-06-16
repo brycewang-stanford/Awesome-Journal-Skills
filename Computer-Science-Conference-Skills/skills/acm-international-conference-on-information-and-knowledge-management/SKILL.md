@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Do not send every IR, database, or KR paper to CIKM. Compare SIGIR/ECIR for retrieval,
   SIGMOD/VLDB/ICDE for database systems, and KR/K-CAP/ISWC for knowledge representation.
 
+## What distinguishes this venue from its closest siblings
+
+- **What CIKM is.** The **ACM** Conference on **Information and Knowledge Management** — three blended tracks: **IR, knowledge management, and databases**.
+- **vs SIGIR.** SIGIR is IR-pure; CIKM is broader (KM + DB alongside IR) — route DB/KM-flavored work here.
+- **vs KR / ISWC.** KR is formal reasoning, ISWC is semantic web; CIKM is applied information/knowledge systems.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

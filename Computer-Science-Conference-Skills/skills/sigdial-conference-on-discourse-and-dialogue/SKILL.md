@@ -46,6 +46,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   semantics` (*SEM). Break ties by contribution type, evidence shape, reviewer community, and
   the current official CFP from www.sigdial.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What SIGdial is.** The SIGdial venue for **discourse and dialogue** (NLP) — dialogue systems, conversational modeling, discourse structure.
+- **Real neighbors.** ACL / EMNLP / NAACL (NLP family) and IEEE SLT (spoken dialogue) — not systems/storage venues.
+- **Routing.** Send conversational-AI/discourse work here; general NLP to the ACL family.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

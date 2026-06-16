@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare CHES for crypto hardware, PETS for privacy, CCS/S&P/USENIX for broad security, and
   economics/finance venues when the contribution is empirical finance.
 
+## What distinguishes this venue from its closest siblings
+
+- **What FC is.** The **Financial Cryptography and Data Security** conference — cryptographic protocols for finance, payments, and blockchain/data security.
+- **Real neighbors.** CCS / IEEE S&P (security) and CRYPTO/EUROCRYPT (crypto theory) — finance/blockchain-flavored.
+- **vs AsiaCCS.** AsiaCCS is general regional security; FC is the finance/crypto-applications venue.
+
 ## Method & evidence bar
 
 - Define the threat model, attacker capabilities, disclosure posture, and ethics review before presenting results.

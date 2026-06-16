@@ -46,6 +46,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   Break ties by contribution type, evidence shape, reviewer community, and the current
   official CFP from mobilehci.acm.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What MobileHCI is.** The **ACM** Conference on **Mobile Human-Computer Interaction** — interaction on mobile and wearable devices.
+- **vs IUI.** IUI centers **AI-driven intelligent** interfaces; MobileHCI centers **mobile interaction** contexts.
+- **Real neighbors.** CHI (broad HCI), UbiComp (pervasive/sensing), MobiSys (mobile systems).
+
 ## Method & evidence bar
 
 - Match the contribution type to the evidence: controlled study, field deployment, design inquiry, technical system, dataset, or theory.

@@ -46,6 +46,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   (POPL). Break ties by contribution type, evidence shape, reviewer community, and the current
   official CFP from trec.nist.gov.
 
+## What distinguishes this venue from its closest siblings
+
+- **What TREC is.** The NIST **Text REtrieval Conference** — an **evaluation campaign** building shared test collections and running tracks, not a standard paper venue.
+- **vs SIGIR / ECIR / CIKM.** Those are research conferences; TREC produces benchmarks/tracks the IR field then evaluates against.
+- **Routing.** Use TREC collections in your SIGIR/ECIR/CIKM paper; participate in TREC tracks for shared-task results.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare CCS/S&P/USENIX/NDSS for broader flagship security, RAID for attacks/intrusions, PETS
   for privacy, and FC for financial security.
 
+## What distinguishes this venue from its closest siblings
+
+- **What AsiaCCS is.** The **ACM Asia** Conference on **Computer and Communications Security** — the Asia-region ACM security venue.
+- **Real neighbors.** CCS (its parent), ESORICS, IEEE S&P, NDSS — route by region/cycle within the security family.
+- **vs Financial Cryptography.** FC centers crypto+finance/blockchain; AsiaCCS is general security.
+
 ## Method & evidence bar
 
 - Define the threat model, attacker capabilities, disclosure posture, and ethics review before presenting results.

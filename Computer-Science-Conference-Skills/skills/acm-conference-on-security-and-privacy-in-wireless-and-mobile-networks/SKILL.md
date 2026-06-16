@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare S&P/CCS/USENIX/NDSS for broader security, MobiCom/MobiSys for mobile systems, and
   FC/PETS when finance or privacy is the central frame.
 
+## What distinguishes this venue from its closest siblings
+
+- **What WiSec is.** The **ACM** Conference on **Security and Privacy in Wireless and Mobile Networks** — wireless/mobile/IoT security.
+- **Real neighbors.** CCS / NDSS / IEEE S&P (security big-four) and MobiCom (wireless) — not HPC venues.
+- **Routing.** Wireless/mobile security here; general security to the big-four.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

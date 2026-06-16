@@ -44,6 +44,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   verification` (CAV). Break ties by contribution type, evidence shape, reviewer community,
   and the current official CFP from lics.siglog.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What LICS is.** The **ACM/IEEE** Symposium on **Logic in Computer Science** — foundational logic, semantics, type theory, automata.
+- **vs CAV.** CAV is applied/algorithmic verification; LICS is the foundational-logic venue.
+- **vs ICALP / STOC.** ICALP/STOC are broad theory; LICS is logic-focused.
+
 ## Method & evidence bar
 
 - Use real programs, benchmarks, proofs, developer studies, or artifacts matched to the contribution type.

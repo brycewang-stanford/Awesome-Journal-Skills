@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   contribution type, evidence shape, reviewer community, and the current official CFP from
   ecmlpkdd.org.
 
+## What distinguishes this venue from its closest siblings
+
+- **What ECML-PKDD is.** The **European** Conference on **Machine Learning and Knowledge Discovery in Databases** (Springer) — ML + data mining, European flagship.
+- **vs ICML / NeurIPS.** Those are the global ML flagships; ECML-PKDD is the European ML+KDD venue — route by region/cycle.
+- **vs KDD.** ACM KDD is the data-mining flagship; ECML-PKDD pairs ML with knowledge discovery.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.
