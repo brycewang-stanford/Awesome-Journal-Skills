@@ -10,3 +10,4 @@ node_modules/
 assets/covers/REAL-COVERS-*.tsv
 assets/covers/REAL-COVERS.tsv.bak
 assets/covers/_*.png
+tools/.cache/
