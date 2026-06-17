@@ -17,10 +17,10 @@ A working list of registries, standards, software, and references useful when pr
 ## 2. Reporting guidelines (EQUATOR Network)
 
 - [EQUATOR Network](https://www.equator-network.org/) — index of reporting guidelines by study type.
-- [CONSORT](http://www.consort-statement.org/) — RCTs; 25-item checklist **+ participant flow diagram** (and extensions: cluster, non-inferiority, pragmatic, harms).
+- [CONSORT](https://www.consort-spirit.org/) — RCTs; 25-item checklist **+ participant flow diagram** (and extensions: cluster, non-inferiority, pragmatic, harms).
 - [STROBE](https://www.strobe-statement.org/) — observational studies (cohort, case-control, cross-sectional).
 - [PRISMA](https://www.prisma-statement.org/) — systematic reviews and meta-analyses (+ selection flow diagram).
-- [SPIRIT](https://www.spirit-statement.org/) — trial protocols.
+- [SPIRIT](https://www.consort-spirit.org/) — trial protocols.
 - [CARE](https://www.care-statement.org/) — case reports.
 - [STARD](https://www.equator-network.org/reporting-guidelines/stard/) — diagnostic accuracy studies.
 

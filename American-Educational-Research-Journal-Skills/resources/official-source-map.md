@@ -27,7 +27,7 @@ from a search rendering, mirror page, or PDF rather than a live fetch, it is fla
 - **https://journals.sagepub.com/home/aer**
   — AERJ on SAGE Journals (publisher home, current issues, aims & scope, the two sections). (Live
   fetch returned HTTP 403; section descriptions confirmed via AERA and SAGE catalog renderings.)
-- **https://us.sagepub.com/en-us/nam/journal/american-educational-research-journal**
+- **https://www.sagepub.com/shop/subscribe-to-a-journal/american-educational-research-journal**
   — SAGE catalog page (aims, scope, two-section structure, open-access options).
 
 ## The two sections

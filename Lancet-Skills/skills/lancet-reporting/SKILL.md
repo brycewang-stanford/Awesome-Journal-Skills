@@ -18,7 +18,7 @@ The Lancet requires the appropriate [EQUATOR Network](https://www.equator-networ
 
 | Study type | Guideline | Mandatory diagram |
 |------------|-----------|-------------------|
-| Randomized controlled trial | **[CONSORT](https://www.consort-statement.org/)** (+ extensions: cluster, non-inferiority, pragmatic, harms, PRO) | **CONSORT flow diagram** (enrollment → allocation → follow-up → analysis) |
+| Randomized controlled trial | **[CONSORT](https://www.consort-spirit.org/)** (+ extensions: cluster, non-inferiority, pragmatic, harms, PRO) | **CONSORT flow diagram** (enrollment → allocation → follow-up → analysis) |
 | Observational (cohort, case-control, cross-sectional) | **[STROBE](https://www.strobe-statement.org/)** | Participant flow / selection diagram |
 | Systematic review / meta-analysis | **[PRISMA](https://www.prisma-statement.org/)** (+ PRISMA-P for protocols) | **PRISMA flow diagram** (records → screened → included) |
 | Trial / review **protocol** | **SPIRIT** (trials) / **PRISMA-P** (reviews) | — |

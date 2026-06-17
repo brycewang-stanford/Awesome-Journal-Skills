@@ -18,10 +18,10 @@ A working list of registries, reporting standards, software, and references usef
 ## 2. Reporting guidelines (EQUATOR)
 
 - [EQUATOR Network](https://www.equator-network.org/) — index of reporting guidelines by study type.
-- [CONSORT](https://www.consort-statement.org/) — randomised trials (+ extensions: cluster, non-inferiority, pragmatic, harms, PRO) — includes the **flow diagram**.
+- [CONSORT](https://www.consort-spirit.org/) — randomised trials (+ extensions: cluster, non-inferiority, pragmatic, harms, PRO) — includes the **flow diagram**.
 - [STROBE](https://www.strobe-statement.org/) — observational studies (cohort, case-control, cross-sectional).
 - [PRISMA](https://www.prisma-statement.org/) — systematic reviews & meta-analyses (+ PRISMA-P, PRISMA-Equity) — includes the **flow diagram**.
-- [SPIRIT](https://www.spirit-statement.org/) — trial protocols.
+- [SPIRIT](https://www.consort-spirit.org/) — trial protocols.
 - [STARD](https://www.equator-network.org/reporting-guidelines/stard/) — diagnostic accuracy; [TRIPOD](https://www.tripod-statement.org/) — prediction models; [SQUIRE](http://www.squire-statement.org/) — quality improvement; [CHEERS](https://www.equator-network.org/reporting-guidelines/cheers/) — economic evaluation.
 
 ## 3. Ethics, integrity & disclosure

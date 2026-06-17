@@ -67,7 +67,7 @@ live page and are flagged 待核实.
   **Elsevier BV**; country Netherlands; ISSN 0308-521X / 1873-2267; **monthly**; founded **1976**;
   Q1 in Agronomy & Crop Science and in Animal Science & Zoology (CiteScore). Metric values are
   third-party and volatile.
-- **https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5485672/** — *"Toward a new generation of agricultural
+- **https://pmc.ncbi.nlm.nih.gov/articles/PMC5485672/** — *"Toward a new generation of agricultural
   system data, models, and knowledge products: State of agricultural systems science"* (open access),
   a touchstone for what "agricultural systems science" means: integrated data + models + knowledge
   products spanning field to farm to region and food systems.

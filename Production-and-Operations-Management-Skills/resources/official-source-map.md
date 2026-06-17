@@ -14,7 +14,7 @@ the current official instructions before submission-ready advice.
 | 2 | https://www.poms.org/journal/review_board/ | POM department/editor structure and scope: departments accept a wide range of OM research topics; papers need clear theory and practice contribution; some departments require cover-letter justification of department fit. | 2026-06-01 |
 | 3 | https://journals.sagepub.com/home/PAO | SAGE journal home page: POM mission as the flagship research journal in operations management in manufacturing and services. | 2026-06-01 |
 | 4 | https://journals.sagepub.com/author-instructions/pao | SAGE author-instructions landing page, which points authors to the full POM author guidelines. | 2026-06-01 |
-| 5 | https://us.sagepub.com/en-us/nam/production-and-operations-management/journal203853 | SAGE publication page and journal overview, including mission and department navigation. | 2026-06-01 |
+| 5 | https://www.sagepub.com/shop/subscribe-to-a-journal/production-and-operations-management-203853 | SAGE publication page and journal overview, including mission and department navigation. | 2026-06-01 |
 | 6 | https://www.poms.org/POMS_Ethics_for_Research_and_Publishing.pdf | POMS ethics guidance for research and publishing. | 2026-06-01 |
 
 ## Verified facts used in skills
