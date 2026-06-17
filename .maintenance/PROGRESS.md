@@ -713,3 +713,27 @@ CS breadth-pack routing weakness without touching submodules.
 - Scope note: clone audit still reports high similarity only inside the intentionally templated
   `Computer-Science-Conference-Skills` breadth profiles; this remains below the 0.90 fail threshold and is
   now backed by explicit sibling-selection rules in the resources layer.
+
+## Wave 36 — existing-pack low-tail capability uplift (Codex, 2026-06-17)
+
+Started a fresh scorecard-driven improvement pass under a count-preserving constraint: no new
+journals/conferences, no root-entry expansion, and no submodule edits. Baseline:
+`tools/audit_repo.py --counts` reports 1984 skills / 122 packs / 200 root entries; `tools/quality_scorecard.py`
+reports 117 first-party packs, mean 92.8/100, min 89.0, and 15 packs below 90.0.
+
+Conflict boundary: avoid `Economic-Research-Journal-Skills/`, submodules, new packs, and broad
+natural-science/medicine rewrites. Three reserved-area low-tail packs (`JACS`, `Cancer-Cell`,
+`Annals-of-Mathematics`) received only narrow, non-structural scorecard additions so the repo-wide
+floor can be verified without changing counts. Planned acceptance gates: `python3 tools/audit_repo.py`,
+`python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 60`, `python3
+tools/run_checks.py --skip-reports`, `python3 tools/quality_scorecard.py --min-score 90`, and
+`git diff --check`.
+
+Completed pass: 15 existing depth packs received narrow operating-pass additions or trigger wording
+repairs; no new pack, skill, manifest, root entry, or submodule count changed. Final scorecard:
+117 first-party packs, mean 92.9/100, min 90.0, p10 90.1, below 86/88/90 = 0/0/0. Validation passed:
+`python3 tools/audit_repo.py`, `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90
+--top 60`, `python3 tools/run_checks.py --skip-reports`, `python3 tools/quality_scorecard.py
+--min-score 90 --top 15`, and `git diff --check`. Clone-audit warnings remain the known
+Computer-Science breadth-profile similarities plus the Science/PNAS rebuttal pair, all below the
+0.90 fail threshold.

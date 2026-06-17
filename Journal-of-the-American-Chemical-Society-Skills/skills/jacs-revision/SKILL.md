@@ -1,6 +1,6 @@
 ---
 name: jacs-revision
-description: Use after a decision letter/referee reports arrive for a Journal of the American Chemical Society (JACS) manuscript, to plan experiments and draft the point-by-point response. Structures the revision and rebuttal — it does not fabricate data or guarantee acceptance.
+description: Use when a decision letter/referee reports arrive for a Journal of the American Chemical Society (JACS) manuscript, to plan experiments and draft the point-by-point response. Structures the revision and rebuttal — it does not fabricate data or guarantee acceptance.
 ---
 
 # Revision and Response to Reviewers (jacs-revision)
@@ -47,6 +47,25 @@ support, reproducibility) first — these are the ones that block acceptance at 
 - Professional, specific, and complete; never dismissive even when disagreeing.
 - Make the reviewer's job easy: cross-reference every change to a location.
 - If a comment is based on a misreading, fix the text so the next reader can't misread it too.
+
+## JACS revision ledger
+
+Before drafting prose, make a revision ledger that separates **editor-critical chemistry** from
+ordinary cleanup. JACS revisions fail when a response looks complete but leaves one evidence gap
+unclosed. Track each item with four fields:
+
+| Field | JACS-specific check |
+|-------|---------------------|
+| Claim under review | What exact novelty, scope, mechanism, selectivity, or structure claim did the referee challenge? |
+| New evidence | Which experiment, characterization trace, spectrum, crystallographic deposit, kinetic run, or control now supports it? |
+| Manuscript/SI location | Main-text figure/table, scheme, or SI page where the reader can verify the fix without searching. |
+| Claim adjustment | Whether the language is strengthened, narrowed, or hedged because the new evidence changed the inference. |
+
+Use the ledger to decide whether a comment is truly answered. A reviewer asking for "more evidence"
+is not answered by a paragraph; it is answered by a trace, table, structure, or explicitly narrowed
+claim. Conversely, a referee misunderstanding that came from ambiguous prose should produce both a
+response-letter explanation and a revised sentence in the manuscript so the same misreading cannot
+recur in the next round.
 
 ## Checklist
 

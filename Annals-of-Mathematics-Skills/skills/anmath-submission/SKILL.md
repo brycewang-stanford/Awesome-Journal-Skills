@@ -40,6 +40,13 @@ description: Use when running the final pre-submission preflight for an Annals o
 - [ ] No essential step rests on an unpublished/unverifiable claim
 - [ ] Computer-assisted steps (if any) documented with archived code/data
 
+### Proof-risk pass
+
+- [ ] Each "standard" argument points to an exact theorem, lemma, or appendix proof
+- [ ] Boundary cases, degenerate cases, and parameter exclusions are either proved or explicitly ruled out
+- [ ] Notation introduced for one local proof is not reused with a conflicting meaning later
+- [ ] Any computer-assisted verification has a human-readable statement of what was certified
+
 ### References
 
 - [ ] Bibliography uses consistent style (BibTeX, MathSciNet abbreviations / `\MR`)

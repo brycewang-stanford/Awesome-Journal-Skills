@@ -40,6 +40,21 @@ In-scope topics include tumor biology and signaling, cancer genetics / genomics,
 - Make the **translational hook** explicit and proportionate to the evidence (mechanism → vulnerability → candidate intervention/biomarker).
 - Compare to the closest 2–3 prior papers and say precisely what is new (new mechanism, new node, new context, new in vivo proof).
 
+## Presubmission inquiry decision gate
+
+For a borderline paper, reduce the decision to three evidence questions before investing in a full
+Cancer Cell package:
+
+| Question | Strong answer | Weak answer |
+|----------|---------------|-------------|
+| Mechanism | The causal molecular axis is perturbed, rescued, and connected to phenotype. | The axis is inferred from correlation or omics enrichment only. |
+| Human anchor | Patient samples, clinical dataset, organoid, or translational model supports relevance. | Only immortalized cell-line evidence or an anecdotal clinical correlation. |
+| Therapeutic/biomarker logic | The intervention, vulnerability, or stratification claim follows from the mechanism. | Translational language is aspirational and not tested. |
+
+If one column is weak, the best next move is usually `cc-study-design`, not cover-letter polish. If all
+three are strong, a presubmission inquiry can emphasize the mechanism, the human anchor, and the exact
+delta over the nearest Cancer Cell or Cell Press papers.
+
 ## Checklist
 
 - [ ] One sentence states the mechanism (molecule/axis → effect on cancer phenotype)

@@ -325,3 +325,16 @@ User requested a comprehensive one-week repo-wide capability uplift. Scope is de
 and CS conference near-clone differentiation. Does NOT rewrite single-venue depth packs already completed
 by Agent-E except for objective report-tool changes if needed. Leaves edits uncommitted for user 验收.
 Completed with all hard checks green; see `.maintenance/AGENT-E-UPLIFT-PROGRAM.md` Week 5.
+
+### Codex lane — existing-pack low-tail capability uplift (2026-06-17, complete)
+User requested a one-week comprehensive improvement pass **without increasing the journal/conference
+count**. Current lane is conflict-minimized and count-preserving:
+- Include: selected existing low-tail first-party depth packs surfaced by `tools/quality_scorecard.py`,
+  especially information systems, marketing/consumer research, public opinion/social psychology,
+  political science, humanities, accounting, and econometrics packs.
+- Exclude: any new journal/conference pack, root-entry expansion, submodules, `Economic-Research-Journal-Skills/`,
+  and broad natural-science/medicine rewrites. To clear the repo-wide scorecard floor, only three
+  existing reserved-area packs received narrow, non-structural scorecard patches (`JACS`, `Cancer-Cell`,
+  `Annals-of-Mathematics`); no files were created and no lifecycle/manifest/counts changed.
+- Coordination rule: check `git status` before each edit/validation boundary; keep edits targeted by path;
+  do not weaken audit, clone, scorecard, or run-check gates.

@@ -42,6 +42,23 @@ re-prove anything.
   introduction's job.
 - Suggested referees and conflicts: only if the portal asks; keep it factual.
 
+## Editor signal hierarchy
+
+Use the cover note to answer the editor's triage questions in order:
+
+1. **What is the theorem?** A plain-language version of the main result, not a slogan.
+2. **Why is it important now?** The conjecture, program, obstruction, or method barrier that the
+   result moves.
+3. **What exactly is new?** Removed hypothesis, stronger range, new technique, unexpected bridge
+   between areas, or settlement of a recognized problem.
+4. **Why Annals rather than a specialist journal?** The mathematical audience that reaches beyond the
+   immediate subfield.
+5. **What must be disclosed?** arXiv history, companion papers, priority context, computational
+   dependence, or conflicts.
+
+If the letter cannot answer the first three without adjectives, the introduction likely needs one more
+pass before submission.
+
 ## Checklist
 
 - [ ] Confirmed whether a cover letter is requested (official page)
