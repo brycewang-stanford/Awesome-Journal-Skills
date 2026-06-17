@@ -31,8 +31,8 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Reviewer lens: Treat SAT as a satisfiability venue whose reviewers expect the scope and evidence to match its own community. Do not submit a generic CS paper until the introduction names the exact subcommunity, contribution type, and proof or empirical standard.
 - Contribution hook to foreground: the venue-specific contribution bar.
 - Scope vocabulary to use naturally in the abstract and introduction: SAT solving, MaxSAT, SMT interfaces, proof complexity, encodings, and solver engineering.
-- Distinctive fingerprint for reviewer calibration: solving, maxsat, interfaces, proof, complexity, encodings, solver, engineering, venue-specific, contribution, satisfiability, satconference, github.
-- Official anchor domain: satconference.github.io. Quote annual rules only after opening that source and the current-year CFP/author kit.
+- Distinctive fingerprint for reviewer calibration: solving, maxsat, interfaces, proof, complexity, encodings, solver, engineering, venue-specific, contribution, satisfiability, SAT26.
+- Official anchor domain: satisfiability.org/SAT26. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
 ## Close-neighbor routing guardrail
 
@@ -65,7 +65,7 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 
 ## Official-cycle checklist
 
-- Open the live official venue page: https://satconference.github.io/
+- Open the live official venue page: https://satisfiability.org/SAT26/
 - Re-check the current cycle's CFP, author kit, submission system, abstract/paper deadlines, page limits, supplementary-material rules, anonymity policy, dual-submission policy, ethics policy, AI-use policy, artifact/code/data expectations, rebuttal/author-response format, and camera-ready requirements.
 - Confirm the review workflow and portal: OpenReview / CMT / HotCRP / PCS / START or society portal, as specified for the current cycle.
 - Check whether accepted papers require in-person presentation, separate registration, artifact badges, proceedings copyright, or post-acceptance release forms.

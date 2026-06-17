@@ -11,7 +11,7 @@ Generated and seeded on 2026-06-01. This roster is ordered with AI and machine-l
 | 5 | `international-joint-conference-on-artificial-intelligence` | International Joint Conference on Artificial Intelligence | IJCAI | AI/ML flagship | https://www.ijcai.org/ |
 | 6 | `artificial-intelligence-and-statistics` | International Conference on Artificial Intelligence and Statistics | AISTATS | AI statistics | https://aistats.org/ |
 | 7 | `uncertainty-in-artificial-intelligence` | Conference on Uncertainty in Artificial Intelligence | UAI | AI statistics | https://www.auai.org/ |
-| 8 | `conference-on-learning-theory` | Conference on Learning Theory | COLT | learning theory | https://learningtheory.org/colt/ |
+| 8 | `conference-on-learning-theory` | Conference on Learning Theory | COLT | learning theory | https://learningtheory.org/colt2026/ |
 | 9 | `conference-on-machine-learning-and-systems` | Conference on Machine Learning and Systems | MLSys | ML systems | https://mlsys.org/ |
 | 10 | `conference-on-lifelong-learning-agents` | Conference on Lifelong Learning Agents | CoLLAs | continual learning | https://lifelong-ml.cc/ |
 | 11 | `international-conference-on-automated-machine-learning` | International Conference on Automated Machine Learning | AutoML Conference | automated ML | https://automl.cc/ |
@@ -33,7 +33,7 @@ Generated and seeded on 2026-06-01. This roster is ordered with AI and machine-l
 | 27 | `international-conference-on-principles-of-knowledge-representation-and-reasoning` | International Conference on Principles of Knowledge Representation and Reasoning | KR | knowledge representation | https://kr.org/ |
 | 28 | `international-conference-on-autonomous-agents-and-multiagent-systems` | International Conference on Autonomous Agents and Multiagent Systems | AAMAS | agents and multiagent systems | https://www.aamas-conference.org/ |
 | 29 | `international-conference-on-principles-and-practice-of-constraint-programming` | International Conference on Principles and Practice of Constraint Programming | CP | constraints | https://cp-conference.org/ |
-| 30 | `international-conference-on-theory-and-applications-of-satisfiability-testing` | International Conference on Theory and Applications of Satisfiability Testing | SAT | satisfiability | https://satconference.github.io/ |
+| 30 | `international-conference-on-theory-and-applications-of-satisfiability-testing` | International Conference on Theory and Applications of Satisfiability Testing | SAT | satisfiability | https://satisfiability.org/SAT26/ |
 | 31 | `integration-of-constraint-programming-artificial-intelligence-and-operations-research` | Integration of Constraint Programming, Artificial Intelligence, and Operations Research | CPAIOR | AI/OR optimization | https://cpaior.org/ |
 | 32 | `aaai-acm-conference-on-ai-ethics-and-society` | AAAI/ACM Conference on AI, Ethics, and Society | AIES | AI ethics and society | https://www.aies-conference.com/ |
 | 33 | `acm-conference-on-fairness-accountability-and-transparency` | ACM Conference on Fairness, Accountability, and Transparency | FAccT | responsible AI | https://facctconference.org/ |
@@ -64,7 +64,7 @@ Generated and seeded on 2026-06-01. This roster is ordered with AI and machine-l
 | 58 | `north-american-chapter-of-the-association-for-computational-linguistics` | Annual Conference of the North American Chapter of the Association for Computational Linguistics | NAACL | NLP regional flagship | https://naacl.org/ |
 | 59 | `european-chapter-of-the-association-for-computational-linguistics` | Conference of the European Chapter of the Association for Computational Linguistics | EACL | NLP regional flagship | https://eacl.org/ |
 | 60 | `international-conference-on-computational-linguistics` | International Conference on Computational Linguistics | COLING | computational linguistics | https://coling.org/ |
-| 61 | `conference-on-computational-natural-language-learning` | Conference on Computational Natural Language Learning | CoNLL | NLP learning | https://www.signll.org/conll |
+| 61 | `conference-on-computational-natural-language-learning` | Conference on Computational Natural Language Learning | CoNLL | NLP learning | https://conll.org/ |
 | 62 | `international-natural-language-generation-conference` | International Natural Language Generation Conference | INLG | language generation | https://inlgmeeting.github.io/ |
 | 63 | `sigdial-conference-on-discourse-and-dialogue` | SIGDIAL Conference on Discourse and Dialogue | SIGDIAL | dialogue systems | https://www.sigdial.org/ |
 | 64 | `joint-international-conference-on-computational-linguistics-language-resources-and-evaluation` | Joint International Conference on Computational Linguistics, Language Resources and Evaluation | LREC-COLING | language resources | https://lrec-coling.org/ |
@@ -84,13 +84,13 @@ Generated and seeded on 2026-06-01. This roster is ordered with AI and machine-l
 | 78 | `robotics-science-and-systems` | Robotics: Science and Systems | RSS | robotics flagship | https://roboticsconference.org/ |
 | 79 | `conference-on-robot-learning` | Conference on Robot Learning | CoRL | robot learning | https://www.corl.org/ |
 | 80 | `acm-ieee-international-conference-on-human-robot-interaction` | ACM/IEEE International Conference on Human-Robot Interaction | HRI | human-robot interaction | https://humanrobotinteraction.org/ |
-| 81 | `ieee-international-conference-on-robot-and-human-interactive-communication` | IEEE International Conference on Robot and Human Interactive Communication | RO-MAN | human-robot communication | https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/ro-man |
+| 81 | `ieee-international-conference-on-robot-and-human-interactive-communication` | IEEE International Conference on Robot and Human Interactive Communication | RO-MAN | human-robot communication | https://ro-man2026.org/ |
 | 82 | `ieee-international-conference-on-automation-science-and-engineering` | IEEE International Conference on Automation Science and Engineering | CASE | automation | https://www.ieee-ras.org/conferences-workshops/fully-sponsored/case |
 | 83 | `international-symposium-on-robotics-research` | International Symposium on Robotics Research | ISRR | robotics research | https://www.isrr-robotics.org/ |
 | 84 | `international-symposium-on-experimental-robotics` | International Symposium on Experimental Robotics | ISER | experimental robotics | https://www.iser-robotics.org/ |
 | 85 | `robocup` | RoboCup Symposium | RoboCup | robotics competitions | https://www.robocup.org/ |
 | 86 | `ieee-ras-international-conference-on-humanoid-robots` | IEEE-RAS International Conference on Humanoid Robots | Humanoids | humanoid robotics | https://www.ieee-ras.org/conferences-workshops/fully-sponsored/humanoids |
-| 87 | `international-symposium-on-distributed-autonomous-robotic-systems` | International Symposium on Distributed Autonomous Robotic Systems | DARS | multi-robot systems | https://dars-symposium.github.io/ |
+| 87 | `international-symposium-on-distributed-autonomous-robotic-systems` | International Symposium on Distributed Autonomous Robotic Systems | DARS | multi-robot systems | https://kuralab.github.io/dars2026/ |
 | 88 | `acm-chi-conference-on-human-factors-in-computing-systems` | ACM CHI Conference on Human Factors in Computing Systems | CHI | HCI flagship | https://chi2026.acm.org/ |
 | 89 | `acm-symposium-on-user-interface-software-and-technology` | ACM Symposium on User Interface Software and Technology | UIST | UI systems | https://uist.acm.org/ |
 | 90 | `acm-conference-on-computer-supported-cooperative-work-and-social-computing` | ACM Conference on Computer-Supported Cooperative Work and Social Computing | CSCW | social computing | https://cscw.acm.org/ |
@@ -119,7 +119,7 @@ Generated and seeded on 2026-06-01. This roster is ordered with AI and machine-l
 | 113 | `usenix-conference-on-file-and-storage-technologies` | USENIX Conference on File and Storage Technologies | FAST | storage systems | https://www.usenix.org/conferences/byname/11 |
 | 114 | `architectural-support-for-programming-languages-and-operating-systems` | ACM International Conference on Architectural Support for Programming Languages and Operating Systems | ASPLOS | architecture/systems/PL | https://www.asplos-conference.org/ |
 | 115 | `international-symposium-on-computer-architecture` | International Symposium on Computer Architecture | ISCA | computer architecture flagship | https://iscaconf.org/ |
-| 116 | `ieee-acm-international-symposium-on-microarchitecture` | IEEE/ACM International Symposium on Microarchitecture | MICRO | microarchitecture flagship | https://www.microarch.org/micro/ |
+| 116 | `ieee-acm-international-symposium-on-microarchitecture` | IEEE/ACM International Symposium on Microarchitecture | MICRO | microarchitecture flagship | https://www.microarch.org/micro59/ |
 | 117 | `ieee-international-symposium-on-high-performance-computer-architecture` | IEEE International Symposium on High-Performance Computer Architecture | HPCA | computer architecture | https://hpca-conf.org/ |
 | 118 | `international-conference-for-high-performance-computing-networking-storage-and-analysis` | International Conference for High Performance Computing, Networking, Storage and Analysis | SC | HPC flagship | https://supercomputing.org/ |
 | 119 | `acm-sigplan-symposium-on-principles-and-practice-of-parallel-programming` | ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming | PPoPP | parallel programming | https://conf.researchr.org/series/PPoPP |

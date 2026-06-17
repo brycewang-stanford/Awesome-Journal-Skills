@@ -31,8 +31,8 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Reviewer lens: Treat CoNLL as a NLP learning venue whose reviewers expect the scope and evidence to match its own community. Do not submit a generic CS paper until the introduction names the exact subcommunity, contribution type, and proof or empirical standard.
 - Contribution hook to foreground: the venue-specific contribution bar.
 - Scope vocabulary to use naturally in the abstract and introduction: machine learning for language, structured prediction, shared tasks, semantics, and multilingual modeling.
-- Distinctive fingerprint for reviewer calibration: machine, learning, language, structured, prediction, shared, tasks, semantics, multilingual, modeling, venue-specific, contribution, signll.
-- Official anchor domain: www.signll.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
+- Distinctive fingerprint for reviewer calibration: machine, learning, language, structured, prediction, shared, tasks, semantics, multilingual, modeling, venue-specific, contribution, CoNLL.
+- Official anchor domain: conll.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
 ## Close-neighbor routing guardrail
 
@@ -43,7 +43,7 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   intelligence` (ECAI), `medical-image-computing-and-computer-assisted-intervention` (MICCAI),
   `conference-on-robot-learning` (CoRL), `ieee-international-conference-on-software-
   maintenance-and-evolution` (ICSME). Break ties by contribution type, evidence shape,
-  reviewer community, and the current official CFP from www.signll.org.
+  reviewer community, and the current official CFP from conll.org.
 
 ## Method & evidence bar
 
@@ -63,7 +63,7 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 
 ## Official-cycle checklist
 
-- Open the live official venue page: https://www.signll.org/conll
+- Open the live official venue page: https://conll.org/
 - Re-check the current cycle's CFP, author kit, submission system, abstract/paper deadlines, page limits, supplementary-material rules, anonymity policy, dual-submission policy, ethics policy, AI-use policy, artifact/code/data expectations, rebuttal/author-response format, and camera-ready requirements.
 - Confirm the review workflow and portal: ARR/START/ACL Rolling Review or the current ACL-family submission portal, plus ACLPUB formatting when applicable.
 - Check whether accepted papers require in-person presentation, separate registration, artifact badges, proceedings copyright, or post-acceptance release forms.

@@ -27,7 +27,7 @@ This first pass records official source anchors for the CS/AI conference breadth
 | `international-joint-conference-on-artificial-intelligence` | International Joint Conference on Artificial Intelligence (IJCAI) | https://www.ijcai.org/ |
 | `artificial-intelligence-and-statistics` | International Conference on Artificial Intelligence and Statistics (AISTATS) | https://aistats.org/ |
 | `uncertainty-in-artificial-intelligence` | Conference on Uncertainty in Artificial Intelligence (UAI) | https://www.auai.org/ |
-| `conference-on-learning-theory` | Conference on Learning Theory (COLT) | https://learningtheory.org/colt/ |
+| `conference-on-learning-theory` | Conference on Learning Theory (COLT) | https://learningtheory.org/colt2026/ |
 | `conference-on-machine-learning-and-systems` | Conference on Machine Learning and Systems (MLSys) | https://mlsys.org/ |
 | `conference-on-lifelong-learning-agents` | Conference on Lifelong Learning Agents (CoLLAs) | https://lifelong-ml.cc/ |
 | `international-conference-on-automated-machine-learning` | International Conference on Automated Machine Learning (AutoML Conference) | https://automl.cc/ |
@@ -49,7 +49,7 @@ This first pass records official source anchors for the CS/AI conference breadth
 | `international-conference-on-principles-of-knowledge-representation-and-reasoning` | International Conference on Principles of Knowledge Representation and Reasoning (KR) | https://kr.org/ |
 | `international-conference-on-autonomous-agents-and-multiagent-systems` | International Conference on Autonomous Agents and Multiagent Systems (AAMAS) | https://www.aamas-conference.org/ |
 | `international-conference-on-principles-and-practice-of-constraint-programming` | International Conference on Principles and Practice of Constraint Programming (CP) | https://cp-conference.org/ |
-| `international-conference-on-theory-and-applications-of-satisfiability-testing` | International Conference on Theory and Applications of Satisfiability Testing (SAT) | https://satconference.github.io/ |
+| `international-conference-on-theory-and-applications-of-satisfiability-testing` | International Conference on Theory and Applications of Satisfiability Testing (SAT) | https://satisfiability.org/SAT26/ |
 | `integration-of-constraint-programming-artificial-intelligence-and-operations-research` | Integration of Constraint Programming, Artificial Intelligence, and Operations Research (CPAIOR) | https://cpaior.org/ |
 | `aaai-acm-conference-on-ai-ethics-and-society` | AAAI/ACM Conference on AI, Ethics, and Society (AIES) | https://www.aies-conference.com/ |
 | `acm-conference-on-fairness-accountability-and-transparency` | ACM Conference on Fairness, Accountability, and Transparency (FAccT) | https://facctconference.org/ |
@@ -80,7 +80,7 @@ This first pass records official source anchors for the CS/AI conference breadth
 | `north-american-chapter-of-the-association-for-computational-linguistics` | Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL) | https://naacl.org/ |
 | `european-chapter-of-the-association-for-computational-linguistics` | Conference of the European Chapter of the Association for Computational Linguistics (EACL) | https://eacl.org/ |
 | `international-conference-on-computational-linguistics` | International Conference on Computational Linguistics (COLING) | https://coling.org/ |
-| `conference-on-computational-natural-language-learning` | Conference on Computational Natural Language Learning (CoNLL) | https://www.signll.org/conll |
+| `conference-on-computational-natural-language-learning` | Conference on Computational Natural Language Learning (CoNLL) | https://conll.org/ |
 | `international-natural-language-generation-conference` | International Natural Language Generation Conference (INLG) | https://inlgmeeting.github.io/ |
 | `sigdial-conference-on-discourse-and-dialogue` | SIGDIAL Conference on Discourse and Dialogue (SIGDIAL) | https://www.sigdial.org/ |
 | `joint-international-conference-on-computational-linguistics-language-resources-and-evaluation` | Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING) | https://lrec-coling.org/ |
@@ -100,13 +100,13 @@ This first pass records official source anchors for the CS/AI conference breadth
 | `robotics-science-and-systems` | Robotics: Science and Systems (RSS) | https://roboticsconference.org/ |
 | `conference-on-robot-learning` | Conference on Robot Learning (CoRL) | https://www.corl.org/ |
 | `acm-ieee-international-conference-on-human-robot-interaction` | ACM/IEEE International Conference on Human-Robot Interaction (HRI) | https://humanrobotinteraction.org/ |
-| `ieee-international-conference-on-robot-and-human-interactive-communication` | IEEE International Conference on Robot and Human Interactive Communication (RO-MAN) | https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/ro-man |
+| `ieee-international-conference-on-robot-and-human-interactive-communication` | IEEE International Conference on Robot and Human Interactive Communication (RO-MAN) | https://ro-man2026.org/ |
 | `ieee-international-conference-on-automation-science-and-engineering` | IEEE International Conference on Automation Science and Engineering (CASE) | https://www.ieee-ras.org/conferences-workshops/fully-sponsored/case |
 | `international-symposium-on-robotics-research` | International Symposium on Robotics Research (ISRR) | https://www.isrr-robotics.org/ |
 | `international-symposium-on-experimental-robotics` | International Symposium on Experimental Robotics (ISER) | https://www.iser-robotics.org/ |
 | `robocup` | RoboCup Symposium (RoboCup) | https://www.robocup.org/ |
 | `ieee-ras-international-conference-on-humanoid-robots` | IEEE-RAS International Conference on Humanoid Robots (Humanoids) | https://www.ieee-ras.org/conferences-workshops/fully-sponsored/humanoids |
-| `international-symposium-on-distributed-autonomous-robotic-systems` | International Symposium on Distributed Autonomous Robotic Systems (DARS) | https://dars-symposium.github.io/ |
+| `international-symposium-on-distributed-autonomous-robotic-systems` | International Symposium on Distributed Autonomous Robotic Systems (DARS) | https://kuralab.github.io/dars2026/ |
 | `acm-chi-conference-on-human-factors-in-computing-systems` | ACM CHI Conference on Human Factors in Computing Systems (CHI) | https://chi2026.acm.org/ |
 | `acm-symposium-on-user-interface-software-and-technology` | ACM Symposium on User Interface Software and Technology (UIST) | https://uist.acm.org/ |
 | `acm-conference-on-computer-supported-cooperative-work-and-social-computing` | ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW) | https://cscw.acm.org/ |
@@ -135,7 +135,7 @@ This first pass records official source anchors for the CS/AI conference breadth
 | `usenix-conference-on-file-and-storage-technologies` | USENIX Conference on File and Storage Technologies (FAST) | https://www.usenix.org/conferences/byname/11 |
 | `architectural-support-for-programming-languages-and-operating-systems` | ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS) | https://www.asplos-conference.org/ |
 | `international-symposium-on-computer-architecture` | International Symposium on Computer Architecture (ISCA) | https://iscaconf.org/ |
-| `ieee-acm-international-symposium-on-microarchitecture` | IEEE/ACM International Symposium on Microarchitecture (MICRO) | https://www.microarch.org/micro/ |
+| `ieee-acm-international-symposium-on-microarchitecture` | IEEE/ACM International Symposium on Microarchitecture (MICRO) | https://www.microarch.org/micro59/ |
 | `ieee-international-symposium-on-high-performance-computer-architecture` | IEEE International Symposium on High-Performance Computer Architecture (HPCA) | https://hpca-conf.org/ |
 | `international-conference-for-high-performance-computing-networking-storage-and-analysis` | International Conference for High Performance Computing, Networking, Storage and Analysis (SC) | https://supercomputing.org/ |
 | `acm-sigplan-symposium-on-principles-and-practice-of-parallel-programming` | ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming (PPoPP) | https://conf.researchr.org/series/PPoPP |

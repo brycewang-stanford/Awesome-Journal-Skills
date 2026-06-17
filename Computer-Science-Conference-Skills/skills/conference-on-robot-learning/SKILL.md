@@ -39,11 +39,25 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Use this profile only when the manuscript's central contribution is genuinely in robot
   learning and the author can say why CoRL reviewers are the primary audience, not merely a
   convenient deadline.
-- Closest roster neighbors to compare before final routing: `medical-image-computing-and-
-  computer-assisted-intervention` (MICCAI), `conference-on-computational-natural-language-
-  learning` (CoNLL), `ieee-international-conference-on-software-maintenance-and-evolution`
-  (ICSME). Break ties by contribution type, evidence shape, reviewer community, and the
-  current official CFP from www.corl.org.
+- Closest roster neighbors to compare before final routing: `robotics-science-and-systems`
+  (RSS), `ieee-international-conference-on-robotics-and-automation` (ICRA), `ieee-rsj-
+  international-conference-on-intelligent-robots-and-systems` (IROS), and `acm-ieee-
+  international-conference-on-human-robot-interaction` (HRI). Break ties by contribution
+  type, embodied-evidence shape, reviewer community, and the current official CFP from
+  www.corl.org.
+
+## What distinguishes CoRL from its closest siblings
+
+- **CoRL vs HRI:** choose CoRL when the paper's main novelty is the learning algorithm,
+  policy representation, data regime, sim-to-real strategy, or embodied foundation-model
+  behavior; choose HRI when the decisive evidence is human interaction quality, trust,
+  collaboration, or user-study design.
+- **CoRL vs RSS:** choose CoRL for learning-centric claims with strong robot evidence; choose
+  RSS when the contribution is broader robotics science, planning, perception, mechanics, or
+  systems integration where learning is only one component.
+- **CoRL vs ICRA/IROS:** choose CoRL when reviewers must evaluate learning generalization,
+  imitation/RL baselines, data scaling, or policy robustness; route to ICRA/IROS when the paper
+  is a robotics application, system, hardware, or control result with a wider robotics audience.
 
 ## Method & evidence bar
 

@@ -63,7 +63,7 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 
 ## Official-cycle checklist
 
-- Open the live official venue page: https://learningtheory.org/colt/
+- Open the live official venue page: https://learningtheory.org/colt2026/
 - Re-check the current cycle's CFP, author kit, submission system, abstract/paper deadlines, page limits, supplementary-material rules, anonymity policy, dual-submission policy, ethics policy, AI-use policy, artifact/code/data expectations, rebuttal/author-response format, and camera-ready requirements.
 - Confirm the review workflow and portal: OpenReview / CMT / HotCRP / PCS / START or society portal, as specified for the current cycle.
 - Check whether accepted papers require in-person presentation, separate registration, artifact badges, proceedings copyright, or post-acceptance release forms.

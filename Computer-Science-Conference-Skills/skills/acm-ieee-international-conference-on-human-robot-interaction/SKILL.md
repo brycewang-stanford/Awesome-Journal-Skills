@@ -46,6 +46,19 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   contribution type, evidence shape, reviewer community, and the current official CFP from
   humanrobotinteraction.org.
 
+## What distinguishes HRI from its closest siblings
+
+- **HRI vs CoRL:** choose HRI when the scientific claim depends on human behavior,
+  collaboration quality, trust, explainability, teleoperation, or social/ethical interaction
+  evidence; choose CoRL when the primary contribution is a learning algorithm or policy that
+  can be judged without a human-study contribution.
+- **HRI vs RO-MAN:** choose HRI for archival HRI research that advances interaction theory,
+  evaluation methods, or technical HRI systems; choose RO-MAN when the contribution is more
+  communication-centric, applied, or late-breaking within robot-human interaction.
+- **HRI vs ICRA/IROS/RSS:** choose HRI when user evidence and interaction framing are central;
+  choose the broader robotics venues when the paper's novelty is robotics hardware, planning,
+  perception, control, or system performance independent of human-facing evaluation.
+
 ## Method & evidence bar
 
 - Report hardware, simulation, environment, task distribution, reset procedure, and failure cases; embodied evidence must be inspectable.

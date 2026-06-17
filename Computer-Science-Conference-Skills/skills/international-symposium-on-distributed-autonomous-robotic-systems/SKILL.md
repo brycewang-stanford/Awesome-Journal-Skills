@@ -31,8 +31,8 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Reviewer lens: Treat DARS as a multi-robot systems venue whose reviewers expect the scope and evidence to match its own community. Do not submit a generic CS paper until the introduction names the exact subcommunity, contribution type, and proof or empirical standard.
 - Contribution hook to foreground: the venue-specific contribution bar.
 - Scope vocabulary to use naturally in the abstract and introduction: distributed robots, multi-robot coordination, swarm robotics, decentralized control, and autonomy.
-- Distinctive fingerprint for reviewer calibration: distributed, robots, multi-robot, coordination, swarm, robotics, decentralized, control, autonomy, venue-specific, contribution, dars-symposium, github.
-- Official anchor domain: dars-symposium.github.io. Quote annual rules only after opening that source and the current-year CFP/author kit.
+- Distinctive fingerprint for reviewer calibration: distributed, robots, multi-robot, coordination, swarm, robotics, decentralized, control, autonomy, venue-specific, contribution, dars2026, kuralab.
+- Official anchor domain: kuralab.github.io/dars2026. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
 ## Close-neighbor routing guardrail
 
@@ -41,8 +41,8 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   convenient deadline.
 - Closest roster neighbors to compare before final routing: `robocup` (RoboCup), `ieee-ras-
   international-conference-on-humanoid-robots` (Humanoids). Break ties by contribution type,
-  evidence shape, reviewer community, and the current official CFP from dars-
-  symposium.github.io.
+  evidence shape, reviewer community, and the current official CFP from
+  kuralab.github.io/dars2026.
 
 ## Method & evidence bar
 
@@ -62,7 +62,7 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 
 ## Official-cycle checklist
 
-- Open the live official venue page: https://dars-symposium.github.io/
+- Open the live official venue page: https://kuralab.github.io/dars2026/
 - Re-check the current cycle's CFP, author kit, submission system, abstract/paper deadlines, page limits, supplementary-material rules, anonymity policy, dual-submission policy, ethics policy, AI-use policy, artifact/code/data expectations, rebuttal/author-response format, and camera-ready requirements.
 - Confirm the review workflow and portal: OpenReview / CMT / HotCRP / PCS / START or society portal, as specified for the current cycle.
 - Check whether accepted papers require in-person presentation, separate registration, artifact badges, proceedings copyright, or post-acceptance release forms.
