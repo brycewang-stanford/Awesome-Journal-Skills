@@ -13,6 +13,8 @@
 | **ISSN** | 1007-9556 · CN 14-1221/F |
 | **周期** | 月刊 |
 | **收录/地位** | CSSCI · 北大中文核心 · AMI |
+| **官网** | [xb.sxufe.edu.cn](http://xb.sxufe.edu.cn/) |
+| **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`journal-of-shanxi-university-of-finance-and-economics`](../Chinese-SocialScience-Journal-Skills/skills/journal-of-shanxi-university-of-finance-and-economics/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 
