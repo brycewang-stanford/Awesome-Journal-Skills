@@ -48,6 +48,18 @@ Treat this skill as an executable review pass, not a prose hint. First lock a le
 - **Sibling guard:** compare against AMJ for empirical management framing, ASQ for organization-theory depth, Management Science for formal/quantitative operations; if a sibling owns the contribution, recommend re-routing before polishing format.
 - **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
 
+## Cross-level paragraph test
+
+For every major claim paragraph, mark three labels in the margin:
+
+| Label | Question |
+| --- | --- |
+| Level | Is this individual, team, organization, field, or population-level? |
+| Mechanism | What process links this paragraph to the contribution? |
+| Boundary | Where would this claim not travel? |
+
+If two consecutive paragraphs change level without a bridge sentence, add one. If a paragraph has no mechanism label, it is probably background. If the boundary is "all organizations," the claim is too broad for this journal's reviewers.
+
 ## Output format
 
 ```
@@ -55,5 +67,6 @@ Treat this skill as an executable review pass, not a prose hint. First lock a le
 【Audience reach】readable to both micro and macro readers; jargon translated?
 【House style】author-date, no Helvetica Narrow, abstract ≤250 words, anonymized
 【Length/voice】within ~50-page norm; active, non-combative
+【Cross-level test】level / mechanism / boundary labels resolved
 【Next step】orgsci-submission
 ```

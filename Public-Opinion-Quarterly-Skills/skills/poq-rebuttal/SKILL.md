@@ -51,6 +51,19 @@ Change: [Section/page/table-figure/Appendix-A location where the revision appear
 Open with a short **summary of the main changes** to the AE; group by referee; end each entry with the
 location of every change so the editor can verify quickly.
 
+## Synchronize the revision package
+
+POQ revisions often fail because the manuscript, Appendix A, replication files, and response letter drift apart. Maintain a package ledger:
+
+| Changed item | Manuscript location | Appendix A / supplement | Deposited file |
+| --- | --- | --- | --- |
+| New weight or variance estimator | Methods/results section and table note | Updated weighting/design-effect disclosure | Analysis script and output |
+| Revised response-rate calculation | Methods and disclosure paragraph | Disposition-code table | Calculation worksheet |
+| New question wording or split ballot | Survey design section | Exact wording and order | Instrument file |
+| New robustness or sensitivity check | Short main-text pointer | Full table/figure | Code and data extract |
+
+Before resubmission, read the response letter against the ledger. Every "we added" sentence needs a manuscript or appendix location, and every new exhibit needs a reproducible source.
+
 ## Anti-patterns
 
 - Ignoring or merging away a comment without a visible response
@@ -58,6 +71,7 @@ location of every change so the editor can verify quickly.
 - Capitulating to a request that breaks the design's logic just to please a referee
 - Defensive or dismissive tone toward referees
 - Letting the revised manuscript, Appendix A, or new exhibits drift out of sync with the deposited package
+- Reporting a new robustness result in the letter but leaving Appendix A or replication files unchanged
 
 ## Output format
 
@@ -69,6 +83,7 @@ location of every change so the editor can verify quickly.
 【Referee conflicts】reconciled and explained to AE? [Y/N]
 【Contribution protected】no dilution of opinion / survey-validity claim? [Y/N]
 【Anonymity + package + Appendix A updated】[Y/N]
+【Package ledger】manuscript / Appendix A / deposit synchronized? [Y/N]
 【Next】resubmit via ScholarOne Manuscripts
 ```
 

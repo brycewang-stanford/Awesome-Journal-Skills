@@ -48,6 +48,18 @@ description: Use when designing or writing heterogeneity analysis for a Journal-
 
 理想的财经实证文章应该：**机制（M 强 → 效应强）** 与 **异质性（M 强样本 → 效应强）** 互相印证。
 
+## 多重检验与主张降级
+
+《财经研究》的异质性分析要服务于财经问题，而不是把所有可切变量轮一遍。建议先把异质性分成三层：
+
+| 层级 | 放置位置 | 结论写法 |
+|---|---|---|
+| 理论预先指定、与机制直接相关 | 正文主表 | 可以作为机制边界或政策适用条件 |
+| 合理但辅助的分组 | 附录 / 稳健性表 | 只说"结果大体一致 / 提供补充证据" |
+| 事后搜索或样本过小 | 不进主文，或明确标为探索性 | 不写成核心发现 |
+
+若做了 5 个以上维度，必须说明为何不进行多重检验调整，或至少把显著性结果按主/辅/探索分层呈现。核心结论不能依赖唯一一个边际显著的子样本。
+
 ## 必查清单
 
 - [ ] 至少 3 个异质性维度
@@ -55,6 +67,7 @@ description: Use when designing or writing heterogeneity analysis for a Journal-
 - [ ] 组间系数差异显著性检验已报告
 - [ ] 各子样本量足够
 - [ ] 异质性结论与机制一致（或合理解释不一致）
+- [ ] 主文、附录、探索性异质性已分层；没有选择性报告
 
 ## 反模式
 
@@ -63,6 +76,7 @@ description: Use when designing or writing heterogeneity analysis for a Journal-
 - 切了 8 个维度凑数，但每个都不显著
 - 异质性结论与机制冲突但不解释
 - 只做了分组回归，但不检验组间系数差异是否显著
+- 把探索性异质性写成理论贡献，或只报告显著维度
 
 ## 输出格式
 
@@ -71,6 +85,7 @@ description: Use when designing or writing heterogeneity analysis for a Journal-
 【组间系数差异检验】是 / 否
 【与机制一致性】是 / 否
 【最小子样本量】X
+【主/辅/探索分层】完整 / 待补
 【下一步】cfe-tables-figures
 ```
 

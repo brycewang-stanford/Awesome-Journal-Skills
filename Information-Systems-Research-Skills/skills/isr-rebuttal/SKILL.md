@@ -33,6 +33,25 @@ Do the manuscript work before drafting the letter. ISR review is developmental a
 - Use the **electronic companion** for new proofs, full new measurement items, and extensive additional analyses so the main text stays within the **32-page text / 38-page total** cap.
 - Keep the revised manuscript **double-anonymized**; do not reveal identity in response-to-reviewer prose.
 
+## Revision control ledger
+
+Before drafting prose, build a compact ledger with one row per decisive issue:
+
+| Issue source | Required manuscript edit | Evidence added | Response location |
+| --- | --- | --- | --- |
+| Senior Editor synthesis | Section-level rewrite, model extension, validity check, or evaluation change | New table, proof, construct-validity evidence, benchmark, or field evidence | Page/section/table plus response paragraph |
+
+Use the ledger to catch fake progress. If an issue has only a response paragraph and no manuscript edit, it is still unresolved unless the correct answer is a reasoned non-change. If two reviewers ask for incompatible changes, write a short arbitration note for the SE: state the tradeoff, the chosen path, and why it best preserves the ISR contribution. Do not accept mutually inconsistent requests in different parts of the paper.
+
+## Acceptance bar for the revision
+
+The revised paper should make the SE's next decision easy:
+
+- The contribution statement, introduction, and discussion now tell the same ISR-specific story.
+- New analyses or proofs answer the inferential threat, not just add volume.
+- The electronic companion is navigable: proofs, measures, robustness, and extra evaluations are labeled to match the response letter.
+- Any remaining limitation is acknowledged as a boundary condition, with no defensive language.
+
 ## Checklist
 
 - [ ] Manuscript revised before the letter is written
@@ -41,6 +60,7 @@ Do the manuscript work before drafting the letter. ISR review is developmental a
 - [ ] Genre-specific asks answered (assumptions/proofs, identification/validity, evaluation)
 - [ ] Multimethod-integration concerns addressed if raised
 - [ ] New proofs/items/robustness routed to the electronic companion; page cap respected
+- [ ] Revision ledger has no response-only fixes for decisive issues
 - [ ] Point-by-point letter cites exact locations of each change; anonymization preserved
 
 ## Anti-patterns
@@ -49,6 +69,7 @@ Do the manuscript work before drafting the letter. ISR review is developmental a
 - **Treating reviewers as equal voices** and missing the SE's priorities.
 - **Cosmetic responses** that promise change without editing the paper.
 - **Letting the body exceed the page cap** instead of using the electronic companion.
+- **Inconsistent appeasement**: accepting conflicting reviewer requests without an SE-facing rationale.
 
 ## Output format
 

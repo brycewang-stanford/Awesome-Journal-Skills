@@ -73,6 +73,16 @@ NO_CODE_MARKERS = (
     "proof architecture",
 )
 
+USE_WHEN_MARKERS = (
+    "use when",
+    "use this",
+    "use after",
+    "use before",
+    "use if",
+    "use for",
+    "use as",
+)
+
 
 def rel(path: Path) -> str:
     return path.relative_to(ROOT).as_posix()
@@ -168,9 +178,8 @@ def score_pack(pack: Path) -> dict:
             desc_lengths.append(len(desc))
             low = desc.lower()
             if (
-                "use when" in low
-                or "use this" in low
-                or low.startswith(("use to ", "use for ", "use as "))
+                any(marker in low for marker in USE_WHEN_MARKERS)
+                or low.startswith("use to ")
                 or "用于" in low
                 or "当" in low
             ):

@@ -31,6 +31,19 @@ CAR caps the abstract at **300 words** on an abstract page that begins the manus
 - Keep the manuscript **blind**: no author names, affiliations, or "our prior work" phrasing — self-cite neutrally.
 - Declare any **generative-AI** use and describe it in the Methods section (grammar/reference tools are exempt).
 
+## Accounting-term consistency pass
+
+Create a short terminology ledger before final polish:
+
+| Term | Definition in manuscript | Table / code label | Risk if inconsistent |
+| --- | --- | --- | --- |
+| Construct | Economic/accounting concept, not just proxy name | Variable family | Reviewer thinks the proxy is the theory |
+| Proxy | Exact measurement and data source | Column name / script variable | Replication fails or results are misread |
+| Treatment / event | Institutional trigger and timing | Event-window variable | Identification and interpretation drift |
+| Outcome | Financial reporting, audit, disclosure, tax, or governance outcome | Dependent variable | Implications overreach the measure |
+
+Use the ledger to align abstract, hypotheses, tables, and code. CAR reviewers are sensitive to construct/proxy slippage; polish should remove ambiguity rather than merely improve style.
+
 ## Checklist
 
 - [ ] Abstract ≤ 300 words with question/importance, predictions, method, findings, implications; ≤ 6 keywords
@@ -40,6 +53,7 @@ CAR caps the abstract at **300 words** on an abstract page that begins the manus
 - [ ] Footnotes (not endnotes); references on a new page in author-date style
 - [ ] Manuscript blind; self-citations neutral; AI use declared in Methods if applicable
 - [ ] Main text within the 30/50-page budget
+- [ ] Terminology ledger aligns constructs, proxies, tables, and code labels
 
 ## Anti-patterns
 
@@ -47,6 +61,7 @@ CAR caps the abstract at **300 words** on an abstract page that begins the manus
 - **Endnotes** or a non-author-date reference style straight from the manager.
 - **Idiomatic abstract prose** that resists French translation.
 - **Inconsistent construct/variable names** between text, tables, and code.
+- **Proxy drift**: changing from a measurement claim to a theory claim without saying so.
 
 ## Output format
 
@@ -54,6 +69,7 @@ CAR caps the abstract at **300 words** on an abstract page that begins the manus
 【Abstract】≤300 words; all elements present; ≤6 keywords; translation-friendly?
 【Intro】question and finding front-loaded?
 【Terminology】accounting terms precise; labels consistent?
+【Construct/proxy ledger】text, tables, and code aligned?
 【Style】footnotes, author-date refs on a new page, double-spaced, blind?
 【AI disclosure】declared in Methods if used?
 【Next step】car-submission

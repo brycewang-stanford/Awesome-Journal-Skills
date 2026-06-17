@@ -52,6 +52,21 @@ For the headline result, write one sentence: *"If this were a survey artifact (c
 / wording / order / mode / weighting) rather than a real opinion signal, the data would look like ___;
 instead they look like ___."* If you cannot, the design does not yet isolate the contribution.
 
+## Design audit table
+
+Build a one-page audit before submission:
+
+| TSE component | Design choice | Residual risk | Evidence or disclosure |
+| --- | --- | --- | --- |
+| Coverage | Frame and eligibility rule | Who is systematically absent? | Benchmark comparison or limitation |
+| Sampling | Selection probabilities / panel recruitment | Selection into the sample | Weighting, calibration, or sensitivity |
+| Nonresponse | Contact protocol and disposition codes | Nonresponse bias | AAPOR RR calculation plus bias check |
+| Measurement | Wording, order, scale, translation | Construct mismatch or satisficing | Pretest/cognitive evidence and exact wording |
+| Mode | Web/phone/mail/mixed mode | Mode-specific response pattern | Mode controls, split test, or caveat |
+| Weighting | Design, nonresponse, calibration weights | Inflated variance / model dependence | Design effect and weighted/unweighted comparison |
+
+The final article should not merely say these issues were considered; it should point readers to the appendix row, table, or supplement where each was handled.
+
 ## Anti-patterns
 
 - Reporting a response rate with no AAPOR definition or calculation shown
@@ -59,6 +74,7 @@ instead they look like ___."* If you cannot, the design does not yet isolate the
 - Ignoring mode effects in a mixed-mode design; conflating mode artifacts with opinion change
 - Weighting the point estimate but ignoring weights/clusters in the variance (see `poq-data-analysis`)
 - Leaving Appendix A disclosure until submission
+- Naming the target population broadly while the frame covers only reachable or panelized respondents
 
 ## Output format
 
@@ -70,6 +86,7 @@ instead they look like ___."* If you cannot, the design does not yet isolate the
 【Mode】single/mixed; mode effect handled?
 【Weighting】what it corrects + design effect
 【Artifact ruled out】the artifact-vs-effect sentence
+【Design audit】TSE table complete; residual risks disclosed
 【Appendix A started?】[Y/N]
 【Next】poq-data-analysis
 ```

@@ -25,6 +25,19 @@ A JCR response letter documents revisions that already exist. Sequence the work:
 
 At **invited revision**, JCR's transparency regime tightens: posting of **data and study materials to an approved repository** (OSF, Harvard Dataverse, Qualitative Data Repository, ResearchBox) becomes **required** (accessible to editors) unless an exemption is granted, and **replication code** must be provided. Update the **Data Collection Statement** to cover any new studies. Confirm your data-retention plan (**≥ 7 years**). Address any transparency reviewer concerns explicitly in the letter.
 
+## New-study economy
+
+Do not answer every concern with another study. Use this triage:
+
+| Reviewer concern | Strong response | Weak response |
+| --- | --- | --- |
+| Mechanism/process unclear | A targeted mediator, moderator, process measure, or qualitative trace that discriminates the proposed mechanism from rivals | A broad extra study that repeats the main effect |
+| Generalizability challenged | A sample, stimulus, context, or cultural setting that tests the stated boundary | A convenience replication with no new boundary information |
+| CCT grounding challenged | More field evidence, negative cases, informant variation, or audit-trail clarity | Extra quotation volume without interpretive leverage |
+| Transparency challenged | Repository deposit, code, materials, and a revised Data Collection Statement | A promise that materials will be available later |
+
+Cap the revision plan at the smallest set of changes that resolves the editor's decisive doubts. If a new study does not change the conceptual conclusion, use a robustness appendix or drop it.
+
 ## Writing the point-by-point response
 
 - **Open** with a brief summary of the major changes and gratitude for the developmental feedback.
@@ -40,6 +53,7 @@ At **invited revision**, JCR's transparency regime tightens: posting of **data a
 - [ ] New process evidence / replications (experiments) or deeper grounding (CCT) added
 - [ ] Conflicting reviewer requests reconciled with transparent reasoning
 - [ ] Data/materials posted to an approved repository; replication code supplied; Data Collection Statement updated
+- [ ] New-study economy checked: each new study resolves a specific decisive doubt
 - [ ] Point-by-point letter quotes each comment and cites manuscript locations
 - [ ] Revised manuscript re-anonymized; within 60 pages; overflow in the web appendix
 
@@ -50,6 +64,7 @@ At **invited revision**, JCR's transparency regime tightens: posting of **data a
 - Adding studies that bloat the manuscript past the page cap.
 - Ignoring transparency requirements that become mandatory at revision.
 - Breaking anonymization when describing new data or sites.
+- Treating every reviewer request as a demand for a full new study, then losing the conceptual thread.
 
 ## Output format
 

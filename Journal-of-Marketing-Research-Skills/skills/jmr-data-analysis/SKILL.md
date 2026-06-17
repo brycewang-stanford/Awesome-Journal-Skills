@@ -48,6 +48,19 @@ Cluster standard errors to the sampling/assignment structure (e.g., by participa
 - Report identification diagnostics (first-stage strength, parallel-trends/pre-trends, balance, overidentification) as relevant.
 - Report structural parameter estimates with standard errors; show fit and counterfactuals where the contribution rests on them.
 
+## Result-to-claim ledger
+
+For each table or study, write one ledger row before drafting results:
+
+| Result | Claim it supports | Required statistic | Practical meaning |
+| --- | --- | --- | --- |
+| Main treatment or model estimate | What marketing decision, mechanism, or theory point changes? | Exact p-value, standard error, CI/effect size | Unit change, percentage lift, WTP/profit/customer impact |
+| Mediation/process result | Which mechanism is supported and which rival is weaker? | Indirect effect with CI; moderation where relevant | Why the process matters for managers or theory |
+| Robustness / alternative model | Which threat is reduced? | Same reporting discipline as main result | Whether conclusion changes in magnitude or direction |
+| Counterfactual / simulation | What marketplace decision follows? | Parameter uncertainty and sensitivity | Managerial action implied by the estimate |
+
+If the practical-meaning column is empty, the result is not ready for a JMR results paragraph. JMR reviewers expect precision, but they also expect a marketing payoff.
+
 ## Replication & robustness (AMA transparency policy)
 
 - Provide enough detail (in-text, **Web Appendix**, or online supplements) for a reasonably trained researcher to replicate; be ready to share code, instruments/stimuli, and materials on request, and to provide data/materials before final acceptance.
@@ -60,6 +73,7 @@ Cluster standard errors to the sampling/assignment structure (e.g., by participa
 - Causal-steps (Baron-Kenny) mediation instead of bootstrapped indirect effects.
 - Ignoring clustering / non-independence; a weak or untested instrument.
 - A leading zero before the decimal, or more than three decimal places.
+- Results paragraphs that report significance but no practical magnitude or marketing interpretation.
 
 ## Output format
 
@@ -70,6 +84,7 @@ Cluster standard errors to the sampling/assignment structure (e.g., by participa
 [Exact stats] p three-digit / SEs / effect sizes: pass/fix
 [AMA number style] no leading zero, <= 3 decimals: pass/fix
 [Identification or process] diagnostics reported
+[Result-to-claim ledger] claim + practical meaning complete
 [Replication] Web Appendix + code/materials ready
 [Next skill] jmr-contribution-framing
 ```

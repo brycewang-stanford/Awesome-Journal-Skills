@@ -36,6 +36,19 @@ description: Use when a Contemporary Accounting Research (CAR) revise-and-resubm
 - Disclose any new **generative-AI** use in Methods; if a related paper of yours has since appeared, update the **overlap disclosure**.
 - Re-check the length budget (30/50 pages); route new robustness to the **online-only appendix**.
 
+## Reproducibility change ledger
+
+Every new or changed result needs a reproducibility row:
+
+| Revision item | Table / figure | Code or data change | Disclosure update |
+| --- | --- | --- | --- |
+| New robustness or alternative measure | Main or online appendix table | Script name, variable definition, sample restriction | Data availability / repository note |
+| New experiment or archival sample | Study/table number | Instrument, randomization, or sample construction file | Ethics, data, and retention note |
+| Revised construct or proxy | Hypothesis/table location | Renamed variable and transformation log | Construct/proxy explanation |
+| AI-assisted text/code cleanup | Methods or disclosure note | Tool use and human verification | AI disclosure if required |
+
+Do not resubmit until a fresh clone of the repository or analysis folder regenerates all changed exhibits. CAR's data-integrity expectations make stale replication files a substantive defect, not an administrative detail.
+
 ## Checklist
 
 - [ ] Concordance covers every reviewer and editor point with a concrete action
@@ -45,6 +58,7 @@ description: Use when a Contemporary Accounting Research (CAR) revise-and-resubm
 - [ ] Data availability statement and code repository updated; retention assurance intact
 - [ ] AI disclosure and own-work overlap disclosure refreshed
 - [ ] Length budget respected; overflow in the online appendix
+- [ ] Reproducibility change ledger completed and regenerated from a clean run
 
 ## Anti-patterns
 
@@ -52,6 +66,7 @@ description: Use when a Contemporary Accounting Research (CAR) revise-and-resubm
 - **Selective response** that quietly skips a reviewer's hard point.
 - **Defensive push-back** without theory or evidence.
 - **Stale reproducibility** — updated tables the archived code no longer regenerates.
+- **Disclosure lag** — new analyses added but data availability, AI, or overlap statements left in the old state.
 
 ## Output format
 
@@ -61,5 +76,6 @@ description: Use when a Contemporary Accounting Research (CAR) revise-and-resubm
 【New work】tests/experiments/robustness done & reproducible?
 【Response letter】each comment quoted, answered, located?
 【CAR materials】data availability statement, code repo, AI & overlap disclosures updated?
+【Reproducibility ledger】changed exhibits regenerate from clean run?
 【Next step】car-submission (final preflight) → resubmit in Editorial Manager
 ```

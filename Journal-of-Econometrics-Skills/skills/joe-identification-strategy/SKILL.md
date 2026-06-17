@@ -49,12 +49,26 @@ At the *Journal of Econometrics*, "identification strategy" means the **formal c
 
 - Cross-check a derived asymptotic variance against a high-replication Monte Carlo; a mismatch usually signals an algebra error. The full size/power design lives in `joe-data-analysis`.
 
+## Assumption audit
+
+Turn the formal core into an assumption audit table:
+
+| Assumption | Primitive or high-level? | Used in which theorem step? | How it can fail |
+| --- | --- | --- | --- |
+| Moment / tail condition | Prefer primitive | ULLN, CLT, variance consistency | Heavy tails, weak moments |
+| Dependence / mixing | Primitive where possible | LLN/CLT under panels or time series | Persistent shocks, clustering |
+| Rank / identification | Primitive if stated on observables | Identification, invertibility, asymptotic linearity | Weak instruments, singular Jacobian |
+| Smoothness / tuning rate | Often high-level unless verified | Expansion, bias control, bandwidth/penalty | Boundary points, bad bandwidth |
+
+Use the table to police the paper's language. If an assumption is high-level, either verify it for a leading example or state clearly that it is a sufficient technical condition. If a theorem relies on an assumption that is never invoked in the proof map, delete or relocate it.
+
 ## Anti-patterns
 
 - "Under standard regularity conditions" with no list and no verification
 - High-level assumptions chosen so the theorem is one line — but unverifiable in any real model
 - Asserting asymptotic normality with no derivation or no consistent variance estimator
 - Ignoring weak/partial identification when the design is on its boundary
+- Treating assumptions as a preamble rather than linking each one to a theorem step
 
 ## Output format
 
@@ -62,6 +76,7 @@ At the *Journal of Econometrics*, "identification strategy" means the **formal c
 【Estimand & model】...
 【Identification】point/partial; proof sketch
 【Assumptions】[A1 primitive, A2 high-level (justified), ...]
+【Assumption audit】primitive/high-level, theorem use, failure mode
 【Asymptotics】rate + limiting distribution + variance estimator
 【Generality】class covered; what is excluded; nested cases
 【Proof plan】theorems → lemmas → appendix

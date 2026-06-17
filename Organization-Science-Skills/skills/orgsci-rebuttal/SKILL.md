@@ -34,12 +34,26 @@ The **Senior Editor decides** autonomously (accept/reject/R&R), so the SE's synt
 - Keep the revised manuscript and the standalone appendix anonymized; house new robustness/sensitivity work in the **separate appendix**, mindful of the ~50-page main-text norm.
 - Resubmit within the stated window (reported ~1 year, **待核实** — confirm in your letter).
 
+## SE-centered revision ledger
+
+Build the response around the Senior Editor's synthesis:
+
+| Concern | SE priority? | Manuscript action | Response handling |
+| --- | --- | --- | --- |
+| Contribution / theoretical mechanism | High if named by SE | Rewrite intro, theory, discussion; align abstract | Lead with this in the cover summary |
+| Level of analysis / boundary | High when reviewers conflict | Clarify unit, cross-level logic, and scope | Explain tradeoff once; cross-reference repeated comments |
+| Method / evidence | High if inference is challenged | Add robustness, alternative explanation checks, or qualitative evidence | Point to main text or appendix exhibit |
+| Formatting / policy | Usually lower but easy to fix | Apply quote, appendix, anonymization, length rules | Brief factual response |
+
+The ledger prevents two common failures: a long letter that ignores the SE's decisive issue, and duplicated answers that violate the journal's response norms.
+
 ## Anti-patterns
 
 - Drafting the letter before the manuscript is actually revised.
 - Pasting the same answer under multiple reviewers (the policy bars duplication).
 - Defensive or combative replies; or, the opposite, effusive flattery.
 - Treating all reviewer demands as equal and ignoring the SE's prioritization.
+- Fixing reviewer side-points while leaving the SE's contribution concern structurally unchanged.
 
 ## Output format
 
@@ -47,6 +61,7 @@ The **Senior Editor decides** autonomously (accept/reject/R&R), so the SE's synt
 【Revision done first】contribution re-sharpened, mechanism/design strengthened, exhibits updated
 【Response format】verbatim italic quotes, one answer per shared point, courteous & substantive
 【SE priority】SE concerns addressed first; reviewer conflicts adjudicated to SE framing
+【Revision ledger】SE-priority / manuscript action / response handling complete
 【New work】appendix-housed analyses; anonymization preserved
 【Window】resubmit within stated timeframe (~1 year 待核实)
 【Next step】orgsci-submission (resubmit) → orgsci-review-process

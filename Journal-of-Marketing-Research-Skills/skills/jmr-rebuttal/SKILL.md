@@ -33,6 +33,18 @@ description: Use when a Journal of Marketing Research (JMR) Revise-and-Resubmit 
 - Keep the Web Appendix a **single PDF** with **'W'-prefixed** exhibits; update the **Data Availability Statement** and **AI disclosure** if methods changed.
 - Maintain double-anonymization in the revised manuscript and response letter.
 
+## Rigor/substance response ledger
+
+Track each reviewer item in a ledger before writing the letter:
+
+| Comment | Bar | Revision evidence | Location |
+| --- | --- | --- | --- |
+| Identification, mediation, robustness, exact stats, replication | Rigor | New estimate, diagnostic, p/SE/effect-size correction, or deposit update | Main text or Table W# |
+| Contribution, theory, managerial relevance, scope | Substance | Revised contribution sentence, new boundary condition, clearer managerial implication | Introduction, discussion, or study rationale |
+| Conflicting request | Editor arbitration | Chosen path and why it preserves rigor/substance | Cover note plus response entry |
+
+The ledger should reveal whether the revision is balanced. A response that fixes all rigor points but leaves the "what do we learn?" objection untouched is still at risk; a response that improves framing but leaves exact-statistics or replication gaps is also not ready.
+
 ## Anti-patterns
 
 - A response letter written before the manuscript is actually revised.
@@ -40,6 +52,7 @@ description: Use when a Journal of Marketing Research (JMR) Revise-and-Resubmit 
 - Letting new analyses push the print paper over 50 pages instead of using the Web Appendix.
 - Capitulating to a reviewer in a way that breaks identification or over-claims.
 - Reporting added results with thresholds/asterisks instead of exact statistics.
+- Treating rigor and substance as separate reviewer silos instead of satisfying both in the revised claim.
 
 ## Output format
 
@@ -47,6 +60,7 @@ description: Use when a Journal of Marketing Research (JMR) Revise-and-Resubmit 
 [Target] JMR
 [Decision round] R&R #
 [Per-comment plan] bar (rigor/substance) → change → location (main / Table Wx)
+[Response ledger] all comments mapped to rigor/substance evidence
 [Conflicts] reviewer A vs B → resolution + editor adjudication
 [New material] Web Appendix additions; 50-page check
 [Conformance] DAS / AI disclosure / anonymization updated

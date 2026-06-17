@@ -32,6 +32,17 @@ JCR uses **double-anonymized** review, so the writing itself must not leak ident
 - Use generic phrasing such as "a large public university" instead of naming your institution or field site.
 - Phrase self-citations neutrally (third person); self-citation is allowed only if the cited work is publicly available.
 
+## Paragraph-level polish pass
+
+Run every major paragraph through four tests:
+
+1. **Consumer phenomenon first.** The first sentence should name the consumption behavior, marketplace setting, or cultural practice before naming the method.
+2. **Theory move second.** The paragraph must say whether it advances, deepens, challenges, or integrates an existing consumer-research conversation.
+3. **Evidence bridge third.** Transition sentences should tell readers why the next study, ethnographic episode, archival test, or model is needed.
+4. **Boundary last.** When the inference is narrow, name the boundary plainly instead of smuggling it into a footnote.
+
+For the abstract, use a four-sentence skeleton: consumer problem; theoretical gap; empirical or interpretive approach; contribution and boundary. If the abstract spends more space on methods than on the insight, rewrite it before line editing.
+
 ## Checklist
 
 - [ ] Contribution front-loaded; consumer insight precedes method
@@ -41,6 +52,7 @@ JCR uses **double-anonymized** review, so the writing itself must not leak ident
 - [ ] Manuscript in Word
 - [ ] Anonymization complete: no affiliations, acknowledgments, identifying URLs; generic site phrasing
 - [ ] Self-citations neutral and anonymization-safe
+- [ ] Paragraph polish pass completed: phenomenon, theory move, evidence bridge, boundary
 
 ## Anti-patterns
 
@@ -49,6 +61,7 @@ JCR uses **double-anonymized** review, so the writing itself must not leak ident
 - APA-style references left in a Chicago journal.
 - Naming your institution or field site in the anonymized manuscript.
 - Treating polish as a substitute for a real contribution to consumer theory.
+- Abstracts that summarize procedures but never state what consumer-research readers learn.
 
 ## Output format
 

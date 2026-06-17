@@ -35,6 +35,19 @@ For modeling papers, "analysis" means **correct, complete derivations**: state t
 
 Demonstrate the artifact's **utility**: benchmarks against credible baselines, controlled user studies, or field deployment, with metrics tied to the stated design objectives. A demo is not an evaluation.
 
+## Claim-to-evidence ledger
+
+Before writing results, create a ledger that binds every contribution claim to an analysis:
+
+| Claim type | Minimum evidence | Reviewer stress test |
+| --- | --- | --- |
+| Causal empirical claim | Design logic, identifying assumptions, pre-trends/placebos or randomization checks, effect magnitude | What unobserved selection or timing story would overturn the claim? |
+| Construct/measurement claim | Item provenance, reliability, CFA/discriminant validity, CMB defense | Would a different construct name or common-method explanation fit the data as well? |
+| Analytical claim | Proposition, proof sketch in main text, full derivation in companion, comparative statics | Which assumption drives the result, and does an extension relax it? |
+| Design-science claim | Baseline comparison, objective-linked metrics, user/field evidence where relevant | Is the artifact useful beyond the demonstration case? |
+
+If a claim lacks a row, downgrade the language before submission. ISR reviewers are receptive to careful boundaries; they are much less receptive to causal, theoretical, or design-utility claims that outrun the evidence.
+
 ## Reproducibility and the electronic companion
 
 ISR's exact data/code-sharing requirement is **待核实** (described in secondary sources as encouraged, not mandated). Regardless, keep clean scripts/solver inputs that regenerate every exhibit, and use the electronic companion for proofs, full measurement items, and supplementary analyses given the 32-page text / 38-page total caps.
@@ -46,6 +59,7 @@ ISR's exact data/code-sharing requirement is **待核实** (described in seconda
 - [ ] CMB addressed beyond a single-factor test; effect sizes reported
 - [ ] Analytical: equilibrium/existence stated; comparative statics interpreted; extensions show robustness
 - [ ] DSR: evaluation demonstrates utility against baselines/objectives
+- [ ] Claim-to-evidence ledger completed; no claim outruns the analysis
 - [ ] Proofs/measurement detail routed to the electronic companion
 
 ## Anti-patterns
@@ -54,6 +68,7 @@ ISR's exact data/code-sharing requirement is **待核实** (described in seconda
 - **Single-factor CMB test** as the sole defense.
 - **Algebra dump** with no economic/IS interpretation of the comparative statics.
 - **Demo-not-evaluation** for a design-science artifact.
+- **Results-first writing** that lists tables without saying which inference each table licenses.
 
 ## Output format
 

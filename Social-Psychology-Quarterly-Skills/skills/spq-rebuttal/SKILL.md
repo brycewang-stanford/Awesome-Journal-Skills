@@ -49,6 +49,19 @@ Change: [Section/page/table-figure number where the revision appears].
 Open with a short **summary of the main changes** to the editor; group by reviewer; end each entry with
 the location of the change so the editor can verify quickly.
 
+## Cross-tradition translation matrix
+
+When reviewers pull from different SPQ traditions, translate rather than stack disconnected fixes:
+
+| Reviewer frame | What they may be protecting | Response move |
+| --- | --- | --- |
+| Symbolic interaction | Meaning, accounts, interaction order, identity work | Add interpretive clarity and negative cases without turning the paper into variable-only prose |
+| Social structure and personality | Structural position, stress/process pathway, individual outcome | Clarify the structure-to-self mechanism and measurement validity |
+| Group processes / expectation states | Status, legitimacy, influence, formal predictions | Make assumptions and observable implications explicit |
+| Identity / affect traditions | Verification, sentiment, emotion management, control process | Show how the revision preserves the theory's process logic |
+
+Use the matrix in the cover note when two reviewers disagree. It lets the editor see that the revision is principled rather than simply longer.
+
 ## Anti-patterns
 
 - Ignoring or merging away a comment without a visible response
@@ -56,6 +69,7 @@ the location of the change so the editor can verify quickly.
 - Satisfying one tradition's reviewer by violating another's standard without explanation
 - Defensive or dismissive tone toward reviewers
 - Letting the revised manuscript lose its masking, or drifting away from the social-psychological contribution
+- Adding disconnected theory paragraphs for each reviewer until the paper has no single mechanism
 
 ## Output format
 
@@ -64,6 +78,7 @@ the location of the change so the editor can verify quickly.
 【Coverage】every reviewer comment answered? [Y/N]
 【Concede vs rebut】each tagged with evidence + change location
 【Cross-tradition conflicts】reconciled and explained to editor? [Y/N]
+【Translation matrix】reviewer traditions mapped to response moves? [Y/N]
 【Contribution protected】structure–individual link intact? [Y/N]
 【Masking intact in revision】[Y/N]
 【Next】resubmit via SageTrack

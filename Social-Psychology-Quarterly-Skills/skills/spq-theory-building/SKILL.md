@@ -47,6 +47,20 @@ something individual (self, emotion, cognition, behavior)?* If it only explains 
 with no social anchor, it drifts toward psychology; if only macro patterns with no individual mechanism,
 toward macro sociology. Tighten until the link is the contribution (or reframe via `spq-topic-selection`).
 
+## Mechanism ladder
+
+Write the core argument as a ladder, not a topic list:
+
+| Step | Question | Manuscript evidence |
+| --- | --- | --- |
+| Social condition | What position, interaction, institution, or group process starts the chain? | Setting, measure, field episode, or formal assumption |
+| Perception / meaning | How is the condition interpreted by actors? | Accounts, measures, manipulation, or model parameter |
+| Self / emotion / cognition | What individual-level social-psychological process changes? | Construct definition and observable indicator |
+| Behavior / interaction | What consequence follows, and for whom? | Test, qualitative pattern, or derived prediction |
+| Boundary | Where should the mechanism weaken or reverse? | Scope condition, null case, or contrast |
+
+Use the ladder to decide what belongs in the theory section. A paragraph that cannot be placed on the ladder is probably background, not argument. A ladder with no boundary step will read as overgeneralized.
+
 ## Anti-patterns
 
 - A finding with no named mechanism ("X correlates with Y")
@@ -54,6 +68,7 @@ toward macro sociology. Tighten until the link is the contribution (or reframe v
 - An individual-cognition mechanism with no social structure or interaction in it
 - A macro claim with no individual-level social-psychological process
 - Universal claims with no scope conditions
+- Theory sections that list literatures but never state the mechanism sequence
 
 ## Output format
 
@@ -61,6 +76,7 @@ toward macro sociology. Tighten until the link is the contribution (or reframe v
 【Core claim】one sentence
 【Tradition】symbolic interaction / SSP / group processes / identity / affect
 【Mechanism】how structure/interaction connects to the individual
+【Mechanism ladder】condition → meaning → individual process → behavior → boundary
 【Observable implications】testable consequences → research-design
 【Scope conditions】settings / populations where it holds
 【Structure–individual link explicit?】[Y/N]
