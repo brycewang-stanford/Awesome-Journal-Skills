@@ -14,7 +14,7 @@ description: Use when running the final pre-submission preflight for a The Revie
 
 ## Durable norms (verify current specifics)
 
-REStud is run by the Review of Economic Studies Ltd and published by Oxford University Press. The mechanics below are taken from the journal's current author guidelines (verified 2026-05-30); the **fee and any length limits can change — re-confirm on https://www.restud.com/author-guidelines/ and the Editorial Express portal before submitting**.
+REStud is run by the Review of Economic Studies Ltd and published by Oxford University Press. The mechanics below are taken from the journal's current author guidelines (verified 2026-05-30); the **fee and any length limits can change — re-confirm on https://www.restud.com/submissions/ and the Editorial Express portal before submitting**.
 
 - **References:** **Harvard (author-date)** style throughout — *not* numbered references.
 - **Review:** **double-anonymous (double-blind)** — both author and referee identities are hidden, so the manuscript must be fully anonymized at first submission.

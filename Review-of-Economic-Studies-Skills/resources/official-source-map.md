@@ -45,8 +45,8 @@ Primary sources consulted to make this skill pack specific to **The Review of Ec
 
 ## Data & code availability / replication
 
-- **Data and Code Availability Policy (restud.com)** — <https://www.restud.com/data-and-code-availability-policy/>
-  Verifies: data, programs, and computational details for accepted empirical / numerical / experimental papers; pre-publication reproducibility verification; exemptions for proprietary data (notify editors at submission); materials may be requested at the review stage.
+- **Data and Code Availability Policy (restud.com)** — <https://www.restud.com/submissions/>
+  Verifies: data, programs, and computational details for accepted empirical / numerical / experimental papers; pre-publication reproducibility verification; exemptions for proprietary data (notify editors at submission); materials may be requested at the review stage. (The standalone `/data-and-code-availability-policy/` page was folded into the Submissions page; the policy detail now lives there and on the Data Editor site below.)
 - **The Review of Economic Studies Data Editor** — <https://restud.github.io/data-editor/> (also <https://restud.dataeditor.group/>)
   Verifies: REStud has a **Data Editor (Miklós Koren)**, in place since 2019; follows the **AEA Data and Code Availability Standard (DCAS)**; coordinates reproducibility requirements with other major economics journals.
 - **Data and Code Availability (OUP)** — <https://academic.oup.com/restud/pages/data-and-code-availability>

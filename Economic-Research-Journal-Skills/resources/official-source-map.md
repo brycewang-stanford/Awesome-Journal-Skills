@@ -3,7 +3,7 @@
 > 期刊：《经济研究》（*Economic Research Journal*） · ISSN 0577-9154 · CN 11-1081/F
 > 主管：中国社会科学院 · 主办：中国社会科学院经济研究所 · 月刊 · 1955 年创刊
 > 收录：CSSCI 来源期刊、北大中文核心、AMI 顶级（综合性社科指标体系）
-> 投审稿系统：https://erj.ajcass.com/Admin/user/login （官方文章另引镜像 `http://jjyj.ajcass.org/Admin/user/login/`，同一 AJCASS 系统）
+> 投审稿系统：https://erj.ajcass.com/Admin/user/login （旧镜像 `jjyj.ajcass.org` 已停用 / 404，请认准上述 `erj.ajcass.com` 官方入口）
 > 编辑部主页（2025-01-10 改版后）：经济研究所 ie.cssn.cn
 >
 > **核查日期：2026-06-06。** 核查方法：联网检索官方/权威来源。下表将每条事实分为

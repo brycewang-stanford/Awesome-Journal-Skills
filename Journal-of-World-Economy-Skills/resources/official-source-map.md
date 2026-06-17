@@ -24,7 +24,6 @@
 | 来源 | 网址 | 备注 |
 |------|------|------|
 | magtech 投稿须知镜像 | https://sjjj.magtech.com.cn/CN/column/column6.shtml | 体例细节（脚注、参考文献著录）|
-| magtech 投稿须知镜像（manu30） | https://manu30.magtech.com.cn/sjjj/CN/column/column6.shtml | 同上，另一镜像 |
 | 2025 年第 6 期目录封面 PDF | https://sjjj.magtech.com.cn/fileup/1002-9621/COVER/20250619093105_directoryfile_cn.pdf | 主编、ISSN、刊期可核 |
 
 ## 三、第三方检索库（仅作交叉验证，非权威）

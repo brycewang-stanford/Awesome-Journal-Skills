@@ -13,7 +13,7 @@
 | **ISSN** | 1002-8390 · CN 11-1057/F |
 | **周期** | 月刊 |
 | **收录/地位** | CSSCI · 北大中文核心 |
-| **官网** | [ie.cass.cn](http://ie.cass.cn/xskw/jjxdtzz/) |
+| **官网** | [jjxdt.ajcass.com](https://jjxdt.ajcass.com/) |
 
 **▶ 调用 skill —— [`economic-perspectives`](../Chinese-SocialScience-Journal-Skills/skills/economic-perspectives/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 

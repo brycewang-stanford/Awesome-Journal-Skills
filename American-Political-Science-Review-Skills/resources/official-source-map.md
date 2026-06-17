@@ -26,8 +26,10 @@ relying on them — journal pages change.
 
 ## Peer-review & editorial policy
 
-- **https://apsanet.org/publications/journals/american-political-science-review/peer-review-policy/**
-  — APSR Peer Review Policy. Verifies: papers are first screened for possible **desk rejection** on
+- **https://apsanet.org/publications/journals/american-political-science-review/apsr-submission-guidelines/**
+  — APSR Submission Guidelines (the standalone `peer-review-policy/` page was folded into this page in
+  the 2026 APSA site update; the desk-reject/peer-review policy below now lives here). Verifies: papers
+  are first screened for possible **desk rejection** on
   grounds of **remit** (not research / not political science / out of scope / not in adequate
   English), **ethics** (plagiarized or unattributed text; unethical procedures), and **substance**
   (missing a key element / insufficiently significant findings / failure to engage relevant

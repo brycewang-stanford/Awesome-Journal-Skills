@@ -52,7 +52,7 @@ pages change.
 
 ## Research data & transparency
 
-- **https://www.elsevier.com/researcher/author/policies-and-guidelines/research-data**
+- **https://www.elsevier.com/about/policies-and-standards/research-data**
   — Elsevier Research Data policy (applies to GEC as an Elsevier title). Verifies: authors are
   encouraged/required to include a **Data Availability Statement**, may **share data in a repository**
   and **cite the dataset**, and the journal supports the **research-data linking / "Data in Brief"**

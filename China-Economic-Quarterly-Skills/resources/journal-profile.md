@@ -53,11 +53,11 @@
 ## 来源链接
 
 - 北大国发院《经济学》（季刊）官网栏目页：https://www.nsd.pku.edu.cn/cbw/jjxjk/index.htm
-- 官方投稿须知（NSD）：https://nsd.pku.edu.cn/cbw/jjxjk/zxtgsgx/534920.htm
+- 官方投稿须知（NSD «投稿征稿» 栏目，旧深链 `cbw/jjxjk/zxtgsgx/534920.htm` 已 404）：https://www.nsd.pku.edu.cn/cbw/jjxjk/index.htm
 - 北大人文社科期刊网（投稿/过刊检索入口）：http://ccj.pku.edu.cn/jjx
 - 在线投稿审稿系统：https://www.oaj.pku.edu.cn/Journalx_jjx
 - oaj.pku.edu.cn 期刊基本信息页：https://www.oaj.pku.edu.cn/Journalx_jjx/basicinfo/viewHtmlFile.action?id=8
-- 百度百科（创刊年/ISSN/CN/刊期调整）：https://baike.baidu.com/item/经济学（季刊）/7007846
+- 百度百科（创刊年/ISSN/CN/刊期调整）：https://baike.baidu.com/item/%E7%BB%8F%E6%B5%8E%E5%AD%A6%EF%BC%88%E5%AD%A3%E5%88%8A%EF%BC%89/7007846
 - 万方数据期刊页：https://c.wanfangdata.com.cn/magazine/jjx
 - 万维书刊 CEQI 国际版页：https://www.eshukan.com/sci/scidisplayj.aspx?jid=46020
 - NSD《经济学（季刊）》联系我们：http://nsd.pku.edu.cn/xzyj/cbw/jjxjk/lxwm1/250752.htm
