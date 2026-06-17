@@ -71,10 +71,16 @@ INFRA_HOSTS = {
 
 # Stop at whitespace, markdown/HTML delimiters, backticks, emphasis markers, and
 # any non-ASCII char (CJK text or full-width punctuation that abuts a URL in the
-# Chinese source maps marks where the URL actually ends).
+# Chinese source maps marks where the URL actually ends). NOTE: a bare ``)`` is
+# *not* a hard stop — Wikipedia disambiguation URLs such as ``Mind_(journal)``
+# legitimately contain it; trailing parens are reconciled by balance in
+# ``normalize``. Opening ``[`` remains a hard stop so adjacent Markdown links
+# such as ``...package=meta)/[metafor](...)`` do not merge into one URL. Known
+# limitation: URLs whose path contains literal CJK (e.g. some baike.baidu.com
+# /item/ links) are truncated at the first CJK char.
 URL_RE = re.compile(r"https?://[\x21-\x7e]+")
-_STOP_CHARS = set(" \t\n<>)\"']}|`*，、。）！？；：")
-TRAILING = ".,;:!?*`，、。）"
+_STOP_CHARS = set(" \t\n<>\"'[]}|`*")
+TRAILING = ".,;:!?*`"
 
 
 def rel(path: Path) -> str:
@@ -108,7 +114,17 @@ def normalize(url: str) -> str:
             url = url[:i]
             break
     url = url.rstrip(TRAILING)
+    # Adjacent Markdown links sometimes leave ``)/`` after the real URL once
+    # the following ``[`` is cut away: ``[meta](...=meta)/[metafor](...)``.
+    if url.endswith(")/") and url.count("(") < url.count(")"):
+        url = url[:-1]
+    # Strip only *unbalanced* trailing parens/brackets (markdown link wrappers),
+    # keeping balanced ones that belong to the URL (Wikipedia disambiguation).
     while url and url[-1] in ")]}>":
+        closer = url[-1]
+        opener = {")": "(", "]": "[", "}": "{", ">": "<"}[closer]
+        if url.count(opener) >= url.count(closer):
+            break
         url = url[:-1]
     return url
 
