@@ -30,6 +30,23 @@ Understand the hierarchy when you read the letter: reviewers advise, the AE synt
 - **Map comments to genre.** Analytical reviewers probe assumptions and proof completeness; behavioral reviewers probe identification, validity, and CMB; design-science reviewers probe evaluation rigor. Multimethod papers draw all three — expect the SE to ask how the methods integrate (per the 2025 ISR 36(2) framework).
 - **Note the verdict.** Reject, major revision, or (rarely) minor revision; first-round accepts are essentially unheard of.
 
+## Decision-letter ledger
+
+Build a short ledger before routing to `isr-rebuttal`. ISR letters often mix contribution, theory,
+method, and electronic-companion requests; a flat checklist hides which point controls the next
+round. Use these rows:
+
+| Row | What to record | Why it matters at ISR |
+|-----|----------------|-----------------------|
+| SE priority | The one or two issues the SE names as decisive | The SE owns the final recommendation and adjudicates reviewer conflict. |
+| IS contribution risk | Whether the paper still reads as IS theory, intradisciplinary IS, or only a reference-discipline exercise | Fit concerns outrank additional robustness because they can trigger a reject even after new analyses. |
+| Genre of evidence | Analytical proof, behavioral identification, design-science evaluation, or multimethod integration | The right fix depends on genre; adding a regression does not answer an analytical proof gap. |
+| Space route | Main text versus electronic companion | ISR page limits require proofs, measurement detail, and long robustness to be placed deliberately. |
+
+The output should be a priority order, not a complete response letter. If two reviewers disagree,
+write the disagreement in the ledger and attach it to the SE priority rather than averaging their
+requests.
+
 ## Set expectations
 
 ISR review is developmental and multi-round; timelines vary. Treat an R&R as an invitation to a conversation with the SE, not a checklist to clear mechanically.

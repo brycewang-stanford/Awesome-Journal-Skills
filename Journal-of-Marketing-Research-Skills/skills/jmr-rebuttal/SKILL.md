@@ -1,6 +1,6 @@
 ---
 name: jmr-rebuttal
-description: Use after a Journal of Marketing Research (JMR) Revise-and-Resubmit — planning the revision and drafting a point-by-point response that satisfies two independent reviewers and the Coeditor, addresses rigor-bar concerns (identification, exact statistics, replication) and substance-bar concerns (contribution), and uses the 'W'-prefixed Web Appendix to absorb new analyses without breaking the 50-page limit.
+description: Use when a Journal of Marketing Research (JMR) Revise-and-Resubmit arrives — planning the revision and drafting a point-by-point response that satisfies two independent reviewers and the Coeditor, addresses rigor-bar concerns (identification, exact statistics, replication) and substance-bar concerns (contribution), and uses the 'W'-prefixed Web Appendix to absorb new analyses without breaking the 50-page limit.
 ---
 
 # R&R Revision & Response (jmr-rebuttal)

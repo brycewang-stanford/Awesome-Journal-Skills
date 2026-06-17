@@ -30,6 +30,22 @@ A contribution that is new on only the substantive axis but mechanically identic
 
 Name the single nearest paper and state, in one or two sentences, what is different — different mechanism, different identification, different data, or a result that overturns or qualifies theirs. Reviewers at JMR are domain experts (Coeditors route by domain), so a vague "we differ" will be caught.
 
+## JMR positioning ledger
+
+For a JMR introduction, do not leave the contribution as a paragraph of prose. Create a three-row
+ledger and use it to write the final positioning sentences:
+
+| Axis | Nearest comparator | Required distinction |
+|------|--------------------|----------------------|
+| Behavioral theory | Closest psychology/consumer-behavior mechanism paper | What mechanism, boundary condition, or construct relation changes? |
+| Quantitative model | Closest demand, choice, pricing, advertising, or structural-model paper | What identification, estimator, data environment, or managerial counterfactual becomes possible? |
+| Marketing decision | Closest substantive marketing decision paper | What would a manager, platform, retailer, or regulator now do differently? |
+
+The ledger must name at least one comparator on every relevant axis. If one axis is empty, either
+the manuscript is narrower than JMR's bar or the contribution belongs in a more specialized outlet.
+Turn the ledger into two sentences: "Relative to X, we ..." and "This matters for marketing because
+..." Avoid a literature review that names many papers but never identifies the single closest rival.
+
 ## Citation conventions
 
 JMR uses **AMA author-year** style (e.g., "Thorelli (1960)" / "(Thorelli 1960)"; list all authors up to three, "et al." for four or more). There is **no limit on the number of references**, so cite the relevant behavioral *and* modeling work rather than only one stream. Configure your reference manager to AMA, not APA-numeric.

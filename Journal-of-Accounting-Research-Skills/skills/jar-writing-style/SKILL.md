@@ -28,6 +28,21 @@ JAR readers are accounting economists who want the **research design up front**.
 
 JAR uses a **custom author-date house style** (consistent with Chicago author-date conventions used across Chicago Booth journals) — **not APA numeric**. Configure your reference manager accordingly and then reconcile against **recent JAR articles**; the journal directs authors to match published style rather than a named manual. Keep variable names, hypothesis labels, and table references consistent throughout. Disclose any AI-tool use per policy; AI cannot be an author.
 
+## First-page rewrite pass
+
+Before copyediting, rewrite the first two pages as a JAR triage memo:
+
+| Sentence slot | Required content |
+|---------------|------------------|
+| Question | The accounting question and why it matters for reporting, contracting, disclosure, audit, tax, or capital-market behavior. |
+| Setting | The institutional source of variation, including who changes behavior and why the setting is credible. |
+| Design | The identification strategy in concrete terms, with the comparison group or identifying assumption named. |
+| Finding | Sign, magnitude, and economic interpretation, not only statistical significance. |
+| Contribution | What accounting researchers learn that finance/economics/management readers would not already know. |
+
+If any slot needs more than one evasive sentence, the issue is substantive rather than stylistic; route
+back to `jar-contribution-framing` or `jar-methods`.
+
 ## Checklist
 
 - [ ] Intro states question, setting/identification, finding+magnitude, contribution on page 1-2

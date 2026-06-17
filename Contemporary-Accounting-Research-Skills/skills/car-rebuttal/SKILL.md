@@ -1,6 +1,6 @@
 ---
 name: car-rebuttal
-description: Use after a Contemporary Accounting Research (CAR) revise-and-resubmit — planning the revision and drafting a point-by-point response to two reviewers and the subject Editor, including any new analyses, robustness, and updated Data Integrity/code-sharing materials. Drafts the response; it does not run the new estimation (car-data-analysis) or the final preflight (car-submission).
+description: Use when a Contemporary Accounting Research (CAR) revise-and-resubmit arrives — planning the revision and drafting a point-by-point response to two reviewers and the subject Editor, including any new analyses, robustness, and updated Data Integrity/code-sharing materials. Drafts the response; it does not run the new estimation (car-data-analysis) or the final preflight (car-submission).
 ---
 
 # R&R Rebuttal (car-rebuttal)

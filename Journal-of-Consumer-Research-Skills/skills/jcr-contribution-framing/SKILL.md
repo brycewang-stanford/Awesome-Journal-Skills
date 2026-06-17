@@ -31,6 +31,20 @@ New submissions require a **Consumer Relevance and Contribution Statement of up 
 
 Draft it as a standalone argument, not a paraphrase of the abstract. Avoid jargon that fences off readers from other disciplines; an experimentalist and a CCT scholar should both grasp the stakes.
 
+## Contribution stress test
+
+Before finalizing the 300-word statement, run three cuts:
+
+| Cut | Question | Fix if weak |
+|-----|----------|-------------|
+| Consumer relevance | Could a reader explain why the finding matters for consumers, not only firms or managers? | Replace institutional payoff with consumer experience, identity, welfare, practice, or choice implications. |
+| Theory movement | Which concept, mechanism, or boundary in consumer research changes? | Name the theory and use advance/deepen/repudiate language instead of "adds evidence." |
+| Interdisciplinary reach | Would both a behavioral researcher and a CCT/interdisciplinary reader see the point? | Translate method-specific language into the consumer phenomenon and the conceptual payoff. |
+
+If the statement passes only the managerial cut, it belongs in a marketing outlet other than JCR or
+needs reframing around consumer understanding. If it passes only the theory cut, add the human
+consumption stakes that make the contribution legible to the full JCR readership.
+
 ## Checklist
 
 - [ ] Contribution named as advance / deepen / repudiate, with the target theory

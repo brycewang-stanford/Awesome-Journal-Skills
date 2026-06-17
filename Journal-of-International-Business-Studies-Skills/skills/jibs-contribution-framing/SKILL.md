@@ -31,6 +31,21 @@ JIBS frames IB research, under its current editorial vision, as research that sh
 
 Place an explicit contribution statement in both the introduction (forward-looking) and the discussion (delivered). Each should answer: *What did the IB field believe? What do we now know? Why could no single-country study have shown this?*
 
+## Non-incrementality proof
+
+Before accepting a contribution sentence, make it survive four JIBS objections:
+
+| Objection | Required answer |
+|-----------|-----------------|
+| "This is domestic management in another country." | Name the cross-border, comparative, institutional-distance, MNE, or global-value-chain mechanism that no single-country design could reveal. |
+| "The result is a boundary condition only." | Explain why the boundary changes theory rather than merely adding a moderator. |
+| "The sample is context-bound." | State the exact contexts where the claim travels and where it should not. |
+| "The impact claim is decorative." | Tie societal or policy implications to the IB mechanism, not to generic managerial relevance. |
+
+Use this proof to decide whether the paper needs a sharper IB theory move, a stronger comparative
+design, or a more modest scope statement. A narrow but honest IB contribution is stronger than a global
+claim unsupported by the country set.
+
 ## Output format
 
 ```

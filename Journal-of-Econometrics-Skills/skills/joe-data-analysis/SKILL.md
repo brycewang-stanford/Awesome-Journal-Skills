@@ -33,6 +33,21 @@ At the *Journal of Econometrics* the empirical work serves the **method**, not t
 - Fix and **report seeds**; report **replication count** and Monte Carlo standard errors so differences are not noise.
 - Parallelize heavy designs; record runtime/hardware for the replication archive.
 
+## Finite-sample stress grid
+
+Build the Monte Carlo grid around the theorem's weak points, not around flattering defaults:
+
+| Dimension | Minimum stress case |
+|-----------|---------------------|
+| Sample size | A small or moderate $n$ where the asymptotic approximation is plausibly strained. |
+| Identification strength | Weak instruments, near-collinearity, boundary parameters, local-to-zero effects, or sparse support as relevant. |
+| Error process | Heavy tails, heteroskedasticity, serial/cross-sectional dependence, or clustering that matches the target application. |
+| Tuning | Bandwidth, penalty, lag, moments, sieve dimension, or bootstrap choice varied enough to show stability. |
+| Competitor | The closest existing estimator/test run on exactly the same DGP and reporting scale. |
+
+Pre-register the cells in the simulation plan, then mark any post-hoc additions as diagnostics. JoE
+referees punish Monte Carlos that prove only that the authors found a friendly DGP.
+
 ## Empirical illustration
 
 - Pick a dataset where the method's advantage is **visible** (the problem it solves actually occurs).
