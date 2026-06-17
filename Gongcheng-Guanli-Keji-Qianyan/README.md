@@ -13,6 +13,8 @@
 | **ISSN** | 1003-5192 · CN 34-1013/N |
 | **周期** | 双月刊 |
 | **收录/地位** | CSSCI · 北大中文核心 |
+| **官网** | [yuce.cbpt.cnki.net（原《预测》）](https://yuce.cbpt.cnki.net/) |
+| **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`frontiers-of-engineering-management-science-and-technology`](../Chinese-SocialScience-Journal-Skills/skills/frontiers-of-engineering-management-science-and-technology/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 
