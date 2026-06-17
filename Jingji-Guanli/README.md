@@ -14,6 +14,7 @@
 | **周期** | 月刊 |
 | **收录/地位** | CSSCI · 北大中文核心 |
 | **官网** | [jjgl.ajcass.com](https://jjgl.ajcass.com/) |
+| **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`business-management-journal`](../Chinese-SocialScience-Journal-Skills/skills/business-management-journal/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 

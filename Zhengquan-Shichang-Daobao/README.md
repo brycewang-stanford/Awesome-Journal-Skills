@@ -14,6 +14,7 @@
 | **周期** | 月刊 |
 | **收录/地位** | CSSCI · 北大中文核心 · AMI |
 | **官网** | [szse.cn](https://www.szse.cn/aboutus/research/secuities/guide/index.html) |
+| **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`securities-market-herald`](../Chinese-SocialScience-Journal-Skills/skills/securities-market-herald/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 

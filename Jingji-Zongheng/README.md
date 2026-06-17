@@ -13,6 +13,8 @@
 | **ISSN** | 1007-7685 · CN 22-1054/F |
 | **周期** | 月刊 |
 | **收录/地位** | CSSCI · 北大中文核心 |
+| **官网** | [jjzh.cbpt.cnki.net](https://jjzh.cbpt.cnki.net/) |
+| **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`economic-aspects`](../Chinese-SocialScience-Journal-Skills/skills/economic-aspects/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 

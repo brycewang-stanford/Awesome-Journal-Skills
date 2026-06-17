@@ -13,6 +13,7 @@
 | **ISSN** | 0167-2681 (print) · 1879-1751 (online) |
 | **Frequency** | Monthly |
 | **Official** | [sciencedirect.com](https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-economic-behavior-and-organization`](../English-SocialScience-Journal-Skills/skills/journal-of-economic-behavior-and-organization/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

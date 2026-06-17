@@ -14,6 +14,7 @@
 | **Frequency** | 9 issues/year |
 | **Standing** | SSCI · FT50 · UTD24 |
 | **Official** | [palgrave.com](https://www.palgrave.com/gp/journal/41267) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-international-business-studies`](../English-SocialScience-Journal-Skills/skills/journal-of-international-business-studies/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

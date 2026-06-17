@@ -14,6 +14,7 @@
 | **Frequency** | Quarterly |
 | **Standing** | FT50 |
 | **Official** | [myscp.org](https://myscp.org/journals/jcp/) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-consumer-psychology`](../English-SocialScience-Journal-Skills/skills/journal-of-consumer-psychology/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

@@ -14,6 +14,7 @@
 | **周期** | 月刊 |
 | **收录/地位** | CSSCI（含扩展版）· 北大中文核心 |
 | **官网** | [journal.uibe.edu.cn](https://journal.uibe.edu.cn/) |
+| **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`journal-of-international-trade`](../Chinese-SocialScience-Journal-Skills/skills/journal-of-international-trade/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 

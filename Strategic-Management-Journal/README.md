@@ -14,6 +14,7 @@
 | **Frequency** | Monthly |
 | **Standing** | SSCI · FT50 · UTD24 · ABS 4★ |
 | **Official** | [sms.onlinelibrary.wiley.com](https://sms.onlinelibrary.wiley.com/journal/10970266) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`strategic-management-journal`](../English-SocialScience-Journal-Skills/skills/strategic-management-journal/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

@@ -14,6 +14,7 @@
 | **周期** | 月刊 |
 | **收录/地位** | CSSCI · 北大中文核心 · AMI |
 | **官网** | [zgncjj.ajcass.com](https://zgncjj.ajcass.com/) |
+| **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`china-rural-economy`](../Chinese-SocialScience-Journal-Skills/skills/china-rural-economy/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 

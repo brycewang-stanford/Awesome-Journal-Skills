@@ -13,6 +13,7 @@
 | **ISSN** | 2041-4161 (print) · 2041-417X (online) |
 | **Frequency** | Quarterly |
 | **Official** | [palgrave.com](https://www.palgrave.com/gp/journal/41308) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`imf-economic-review`](../English-SocialScience-Journal-Skills/skills/imf-economic-review/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

@@ -14,6 +14,7 @@
 | **Frequency** | Quarterly |
 | **Standing** | SSCI · economics "top-5" · FT50 · ABS 4★ |
 | **Official** | [Oxford Academic — academic.oup.com/qje](https://academic.oup.com/qje) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`quarterly-journal-of-economics`](../English-SocialScience-Journal-Skills/skills/quarterly-journal-of-economics/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics for QJE.
 

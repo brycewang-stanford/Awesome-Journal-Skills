@@ -14,6 +14,7 @@
 | **Frequency** | Quarterly |
 | **Standing** | SSCI |
 | **Official** | [journals.uchicago.edu](https://www.journals.uchicago.edu/journals/jle/about) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-law-and-economics`](../English-SocialScience-Journal-Skills/skills/journal-of-law-and-economics/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

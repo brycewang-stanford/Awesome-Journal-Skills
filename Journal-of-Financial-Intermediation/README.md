@@ -14,6 +14,7 @@
 | **Frequency** | Quarterly |
 | **Standing** | SSCI |
 | **Official** | [sciencedirect.com](https://www.sciencedirect.com/journal/journal-of-financial-intermediation) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-financial-intermediation`](../English-SocialScience-Journal-Skills/skills/journal-of-financial-intermediation/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

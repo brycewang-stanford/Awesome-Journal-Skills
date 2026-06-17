@@ -13,6 +13,7 @@
 | **ISSN** | 0165-4101 (print) · 1879-1980 (online) |
 | **Standing** | FT50 · UTD24 |
 | **Official** | [sciencedirect.com](https://www.sciencedirect.com/journal/journal-of-accounting-and-economics) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-accounting-and-economics`](../English-SocialScience-Journal-Skills/skills/journal-of-accounting-and-economics/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

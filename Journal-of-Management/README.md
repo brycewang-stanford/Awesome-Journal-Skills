@@ -14,6 +14,7 @@
 | **Frequency** | 8 issues/year |
 | **Standing** | FT50 |
 | **Official** | [journals.sagepub.com](https://journals.sagepub.com/home/jom) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-management-en`](../English-SocialScience-Journal-Skills/skills/journal-of-management-en/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

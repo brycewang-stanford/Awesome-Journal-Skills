@@ -14,6 +14,7 @@
 | **Frequency** | Monthly |
 | **Standing** | SSCI · FT50 · ABS 4★ · finance “top-3” |
 | **Official** | [sciencedirect.com](https://www.sciencedirect.com/journal/journal-of-financial-economics) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-financial-economics`](../English-SocialScience-Journal-Skills/skills/journal-of-financial-economics/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

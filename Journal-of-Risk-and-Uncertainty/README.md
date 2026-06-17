@@ -14,6 +14,7 @@
 | **Frequency** | Bimonthly |
 | **Standing** | SSCI |
 | **Official** | [link.springer.com](https://link.springer.com/journal/11166) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-risk-and-uncertainty`](../English-SocialScience-Journal-Skills/skills/journal-of-risk-and-uncertainty/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

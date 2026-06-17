@@ -14,6 +14,7 @@
 | **Frequency** | Bimonthly |
 | **Standing** | FT50 |
 | **Official** | [sciencedirect.com](https://www.sciencedirect.com/journal/journal-of-business-venturing) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-business-venturing`](../English-SocialScience-Journal-Skills/skills/journal-of-business-venturing/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

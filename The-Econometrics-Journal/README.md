@@ -12,6 +12,7 @@
 | **Founded** | 1998 |
 | **ISSN** | 1368-4221 (print) · 1368-423X (online) |
 | **Official** | [academic.oup.com](https://academic.oup.com/ectj) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`the-econometrics-journal`](../English-SocialScience-Journal-Skills/skills/the-econometrics-journal/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

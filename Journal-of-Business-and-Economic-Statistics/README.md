@@ -13,6 +13,7 @@
 | **ISSN** | 0735-0015 (print) · 1537-2707 (online) |
 | **Frequency** | Quarterly |
 | **Official** | [tandfonline.com](https://www.tandfonline.com/journals/ubes20) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-business-and-economic-statistics`](../English-SocialScience-Journal-Skills/skills/journal-of-business-and-economic-statistics/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

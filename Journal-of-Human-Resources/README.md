@@ -13,6 +13,7 @@
 | **ISSN** | 0022-166X (print) · 1548-8004 (online) |
 | **Frequency** | Bimonthly |
 | **Official** | [uwpress.wisc.edu](https://uwpress.wisc.edu/Journals/Journal-of-Human-Resources) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-human-resources`](../English-SocialScience-Journal-Skills/skills/journal-of-human-resources/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

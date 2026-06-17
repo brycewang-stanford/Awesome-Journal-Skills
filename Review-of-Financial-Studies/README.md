@@ -14,6 +14,7 @@
 | **Frequency** | Monthly |
 | **Standing** | SSCI · FT50 · ABS 4★ · finance “top-3” |
 | **Official** | [academic.oup.com](https://academic.oup.com/rfs) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`review-of-financial-studies`](../English-SocialScience-Journal-Skills/skills/review-of-financial-studies/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

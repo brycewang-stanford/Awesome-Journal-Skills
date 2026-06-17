@@ -14,6 +14,7 @@
 | **Frequency** | Bimonthly |
 | **Standing** | SSCI |
 | **Official** | [sciencedirect.com](https://www.sciencedirect.com/journal/journal-of-urban-economics) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-urban-economics`](../English-SocialScience-Journal-Skills/skills/journal-of-urban-economics/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

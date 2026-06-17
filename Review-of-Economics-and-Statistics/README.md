@@ -13,6 +13,7 @@
 | **ISSN** | 0034-6535 (print) · 1530-9142 (online) |
 | **Frequency** | Bimonthly |
 | **Official** | [direct.mit.edu](https://direct.mit.edu/rest) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`review-of-economics-and-statistics`](../English-SocialScience-Journal-Skills/skills/review-of-economics-and-statistics/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

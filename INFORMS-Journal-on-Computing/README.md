@@ -14,6 +14,7 @@
 | **Frequency** | Bimonthly |
 | **Standing** | UTD24 |
 | **Official** | [pubsonline.informs.org](https://pubsonline.informs.org/journal/ijoc) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`informs-journal-on-computing`](../English-SocialScience-Journal-Skills/skills/informs-journal-on-computing/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

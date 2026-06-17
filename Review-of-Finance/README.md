@@ -14,6 +14,7 @@
 | **Frequency** | Bimonthly |
 | **Standing** | SSCI · FT50 |
 | **Official** | [academic.oup.com](https://academic.oup.com/rof) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`review-of-finance`](../English-SocialScience-Journal-Skills/skills/review-of-finance/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

@@ -14,6 +14,7 @@
 | **Frequency** | Monthly |
 | **Standing** | FT50 · UTD24 |
 | **Official** | [poms.org](https://www.poms.org/journal) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`production-and-operations-management`](../English-SocialScience-Journal-Skills/skills/production-and-operations-management/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

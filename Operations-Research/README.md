@@ -14,6 +14,7 @@
 | **Frequency** | Bimonthly |
 | **Standing** | SSCI · FT50 · UTD24 · ABS 4★ |
 | **Official** | [pubsonline.informs.org](https://pubsonline.informs.org/journal/opre) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`operations-research`](../English-SocialScience-Journal-Skills/skills/operations-research/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

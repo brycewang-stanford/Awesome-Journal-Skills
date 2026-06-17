@@ -13,6 +13,7 @@
 | **周期** | 双月刊 |
 | **收录/地位** | CSSCI · 北大中文核心 · AMI |
 | **官网** | [jrjj.cbpt.cnki.net](http://jrjj.cbpt.cnki.net/) |
+| **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`studies-of-financial-economics`](../Chinese-SocialScience-Journal-Skills/skills/studies-of-financial-economics/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 

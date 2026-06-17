@@ -14,6 +14,7 @@
 | **Frequency** | Quarterly |
 | **Standing** | FT50 |
 | **Official** | [caaa.ca](https://www.caaa.ca/journals-and-research/contemporary-accounting-research-car) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`contemporary-accounting-research`](../English-SocialScience-Journal-Skills/skills/contemporary-accounting-research/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

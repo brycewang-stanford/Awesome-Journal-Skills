@@ -14,6 +14,7 @@
 | **Frequency** | Bimonthly |
 | **Standing** | FT50 · UTD24 |
 | **Official** | [aaahq.org](https://aaahq.org/Research/Journals/The-Accounting-Review) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`the-accounting-review`](../English-SocialScience-Journal-Skills/skills/the-accounting-review/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

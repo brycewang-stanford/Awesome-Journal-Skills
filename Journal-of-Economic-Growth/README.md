@@ -13,6 +13,7 @@
 | **ISSN** | 1381-4338 (print) · 1573-7020 (online) |
 | **Frequency** | Quarterly |
 | **Official** | [link.springer.com](https://link.springer.com/journal/10887) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-economic-growth`](../English-SocialScience-Journal-Skills/skills/journal-of-economic-growth/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

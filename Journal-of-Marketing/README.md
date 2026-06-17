@@ -14,6 +14,7 @@
 | **Frequency** | Bimonthly |
 | **Standing** | SSCI · FT50 · UTD24 · ABS 4★ |
 | **Official** | [journals.sagepub.com](https://journals.sagepub.com/home/jmx) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-marketing`](../English-SocialScience-Journal-Skills/skills/journal-of-marketing/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

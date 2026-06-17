@@ -14,6 +14,7 @@
 | **周期** | 月刊 |
 | **收录 / 地位** | CSSCI（南大）· 北大中文核心 · AMI 顶级期刊 · 国内经济学最权威期刊之一 |
 | **官网** | [erj.cn](http://www.erj.cn/) |
+| **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`economic-research`](../Chinese-SocialScience-Journal-Skills/skills/economic-research/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 

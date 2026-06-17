@@ -13,6 +13,7 @@
 | **ISSN** | 0022-2380 (print) · 1467-6486 (online) |
 | **Standing** | FT50 |
 | **Official** | [onlinelibrary.wiley.com](https://onlinelibrary.wiley.com/journal/14676486) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-management-studies`](../English-SocialScience-Journal-Skills/skills/journal-of-management-studies/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

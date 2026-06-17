@@ -13,6 +13,7 @@
 | **ISSN** | 0022-0515 (print) · 2328-8175 (online) |
 | **Frequency** | Quarterly |
 | **Official** | [aeaweb.org](https://www.aeaweb.org/journals/jel) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-economic-literature`](../English-SocialScience-Journal-Skills/skills/journal-of-economic-literature/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

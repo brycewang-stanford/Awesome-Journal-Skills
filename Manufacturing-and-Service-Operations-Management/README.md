@@ -14,6 +14,7 @@
 | **Frequency** | Bimonthly |
 | **Standing** | FT50 · UTD24 |
 | **Official** | [pubsonline.informs.org](https://pubsonline.informs.org/journal/msom) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`manufacturing-and-service-operations-management`](../English-SocialScience-Journal-Skills/skills/manufacturing-and-service-operations-management/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

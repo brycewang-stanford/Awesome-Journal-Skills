@@ -13,6 +13,7 @@
 | **ISSN** | 0361-3682 (print) · 1873-6289 (online) |
 | **Standing** | FT50 |
 | **Official** | [sciencedirect.com](https://www.sciencedirect.com/journal/accounting-organizations-and-society) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`accounting-organizations-and-society`](../English-SocialScience-Journal-Skills/skills/accounting-organizations-and-society/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

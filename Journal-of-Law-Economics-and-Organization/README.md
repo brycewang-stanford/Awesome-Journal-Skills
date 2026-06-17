@@ -13,6 +13,7 @@
 | **ISSN** | 8756-6222 (print) · 1465-7341 (online) |
 | **Standing** | SSCI |
 | **Official** | [academic.oup.com](https://academic.oup.com/jleo) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-law-economics-and-organization`](../English-SocialScience-Journal-Skills/skills/journal-of-law-economics-and-organization/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

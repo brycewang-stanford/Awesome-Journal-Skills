@@ -12,6 +12,7 @@
 | **Founded** | 1991 |
 | **ISSN** | 0960-1627 (print) · 1467-9965 (online) |
 | **Official** | [onlinelibrary.wiley.com](https://onlinelibrary.wiley.com/journal/14679965) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`mathematical-finance`](../English-SocialScience-Journal-Skills/skills/mathematical-finance/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

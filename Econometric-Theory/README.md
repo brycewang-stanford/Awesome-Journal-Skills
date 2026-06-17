@@ -13,6 +13,7 @@
 | **ISSN** | 0266-4666 (print) · 1469-4360 (online) |
 | **Frequency** | Bimonthly |
 | **Official** | [cambridge.org](https://www.cambridge.org/core/journals/econometric-theory) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`econometric-theory`](../English-SocialScience-Journal-Skills/skills/econometric-theory/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

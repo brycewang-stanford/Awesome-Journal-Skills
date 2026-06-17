@@ -13,6 +13,7 @@
 | **ISSN** | 2640-205X (print) · 2640-2068 (online) |
 | **Frequency** | Quarterly |
 | **Official** | [aeaweb.org](https://www.aeaweb.org/journals/aeri) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`aer-insights`](../English-SocialScience-Journal-Skills/skills/aer-insights/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

@@ -13,6 +13,7 @@
 | **ISSN** | 0022-2879 (print) · 1538-4616 (online) |
 | **Frequency** | 7 issues/year |
 | **Official** | [onlinelibrary.wiley.com](https://onlinelibrary.wiley.com/journal/15384616) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-money-credit-and-banking`](../English-SocialScience-Journal-Skills/skills/journal-of-money-credit-and-banking/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

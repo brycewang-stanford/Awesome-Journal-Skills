@@ -13,6 +13,7 @@
 | **ISSN** | 0305-750X (print) · 1873-5991 (online) |
 | **Frequency** | Monthly |
 | **Official** | [sciencedirect.com](https://www.sciencedirect.com/journal/world-development) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`world-development`](../English-SocialScience-Journal-Skills/skills/world-development/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

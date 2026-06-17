@@ -13,6 +13,7 @@
 | **ISSN** | 2097-5481 · CN 10-2007/F |
 | **周期** | 月刊 |
 | **收录/地位** | CSSCI · 北大中文核心 |
+| **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`modern-financial-research`](../Chinese-SocialScience-Journal-Skills/skills/modern-financial-research/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 

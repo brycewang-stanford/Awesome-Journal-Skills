@@ -14,6 +14,7 @@
 | **Frequency** | 5 issues/year |
 | **Standing** | FT50 · UTD24 |
 | **Official** | [chicagobooth.edu](https://www.chicagobooth.edu/research/chookaszian/journal-of-accounting-research) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-accounting-research`](../English-SocialScience-Journal-Skills/skills/journal-of-accounting-research/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

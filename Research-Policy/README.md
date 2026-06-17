@@ -14,6 +14,7 @@
 | **Frequency** | Monthly |
 | **Standing** | FT50 |
 | **Official** | [sciencedirect.com](https://www.sciencedirect.com/journal/research-policy) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`research-policy`](../English-SocialScience-Journal-Skills/skills/research-policy/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

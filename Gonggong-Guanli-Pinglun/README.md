@@ -14,6 +14,7 @@
 | **周期** | 季刊 |
 | **收录/地位** | CSSCI |
 | **官网** | [gogl.cbpt.cnki.net](https://gogl.cbpt.cnki.net/portal) |
+| **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`china-public-administration-review`](../Chinese-SocialScience-Journal-Skills/skills/china-public-administration-review/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 

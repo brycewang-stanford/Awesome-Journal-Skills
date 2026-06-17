@@ -13,6 +13,8 @@
 | **ISSN** | 1006-4885 · CN 11-3472/G3 |
 | **周期** | 月刊 |
 | **收录/地位** | CSSCI |
+| **官网** | [qkkxjc.cn](https://www.qkkxjc.cn/) |
+| **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`scientific-decision-making`](../Chinese-SocialScience-Journal-Skills/skills/scientific-decision-making/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 

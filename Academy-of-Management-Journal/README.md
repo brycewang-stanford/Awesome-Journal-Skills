@@ -14,6 +14,7 @@
 | **Frequency** | Bimonthly |
 | **Standing** | SSCI · FT50 · UTD24 · ABS 4★ |
 | **Official** | [journals.aom.org](https://journals.aom.org/journal/amj) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`academy-of-management-journal`](../English-SocialScience-Journal-Skills/skills/academy-of-management-journal/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

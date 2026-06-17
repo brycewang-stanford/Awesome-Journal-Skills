@@ -13,6 +13,7 @@
 | **ISSN** | 0258-6770 (print) · 1564-698X (online) |
 | **Frequency** | 3 issues/year |
 | **Official** | [academic.oup.com](https://academic.oup.com/wber) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`world-bank-economic-review`](../English-SocialScience-Journal-Skills/skills/world-bank-economic-review/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

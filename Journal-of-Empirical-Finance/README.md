@@ -13,6 +13,7 @@
 | **ISSN** | 0927-5398 (print) · 1879-1727 (online) |
 | **Frequency** | Bimonthly |
 | **Official** | [sciencedirect.com](https://www.sciencedirect.com/journal/journal-of-empirical-finance) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-empirical-finance`](../English-SocialScience-Journal-Skills/skills/journal-of-empirical-finance/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

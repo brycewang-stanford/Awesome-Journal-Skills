@@ -13,6 +13,7 @@
 | **ISSN** | 1094-2025 (print) · 1096-6099 (online) |
 | **Frequency** | Quarterly |
 | **Official** | [sciencedirect.com](https://www.sciencedirect.com/journal/review-of-economic-dynamics) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`review-of-economic-dynamics`](../English-SocialScience-Journal-Skills/skills/review-of-economic-dynamics/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

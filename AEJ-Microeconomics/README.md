@@ -13,6 +13,7 @@
 | **ISSN** | 1945-7669 (print) · 1945-7685 (online) |
 | **Frequency** | Quarterly |
 | **Official** | [aeaweb.org](https://www.aeaweb.org/journals/mic) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`aej-microeconomics`](../English-SocialScience-Journal-Skills/skills/aej-microeconomics/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

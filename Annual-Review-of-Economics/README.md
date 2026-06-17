@@ -13,6 +13,7 @@
 | **ISSN** | 1941-1383 (print) · 1941-1391 (online) |
 | **Frequency** | Annual |
 | **Official** | [annualreviews.org](https://www.annualreviews.org/journal/economics) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`annual-review-of-economics`](../English-SocialScience-Journal-Skills/skills/annual-review-of-economics/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

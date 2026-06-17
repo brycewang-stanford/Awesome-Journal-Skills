@@ -14,6 +14,7 @@
 | **Frequency** | Quarterly |
 | **Standing** | SSCI |
 | **Official** | [onlinelibrary.wiley.com](https://onlinelibrary.wiley.com/journal/14682354) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`international-economic-review`](../English-SocialScience-Journal-Skills/skills/international-economic-review/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

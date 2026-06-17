@@ -14,6 +14,7 @@
 | **Frequency** | 8 issues/year |
 | **Standing** | SSCI · FT50 |
 | **Official** | [cambridge.org](https://www.cambridge.org/core/journals/journal-of-financial-and-quantitative-analysis) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-financial-and-quantitative-analysis`](../English-SocialScience-Journal-Skills/skills/journal-of-financial-and-quantitative-analysis/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

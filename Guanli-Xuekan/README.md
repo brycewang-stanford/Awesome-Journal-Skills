@@ -12,6 +12,8 @@
 | **创刊** | 2009 |
 | **ISSN** | 1674-6511 · CN 41-1408/F |
 | **周期** | 双月刊 |
+| **官网** | [xxxy.cbpt.cnki.net](https://xxxy.cbpt.cnki.net/) |
+| **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`journal-of-management`](../Chinese-SocialScience-Journal-Skills/skills/journal-of-management/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 

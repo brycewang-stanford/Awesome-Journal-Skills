@@ -14,6 +14,7 @@
 | **Frequency** | Bimonthly |
 | **Standing** | economics “top-5” |
 | **Official** | [econometricsociety.org](https://www.econometricsociety.org/publications/econometrica) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`econometrica`](../English-SocialScience-Journal-Skills/skills/econometrica/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

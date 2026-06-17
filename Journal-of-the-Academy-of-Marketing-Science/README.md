@@ -14,6 +14,7 @@
 | **Frequency** | Bimonthly |
 | **Standing** | FT50 |
 | **Official** | [link.springer.com](https://link.springer.com/journal/11747) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-the-academy-of-marketing-science`](../English-SocialScience-Journal-Skills/skills/journal-of-the-academy-of-marketing-science/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

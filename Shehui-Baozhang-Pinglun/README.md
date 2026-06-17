@@ -14,6 +14,7 @@
 | **周期** | 双月刊 |
 | **收录/地位** | CSSCI |
 | **官网** | [sbpl.cbpt.cnki.net](https://sbpl.cbpt.cnki.net/) |
+| **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`social-security-studies`](../Chinese-SocialScience-Journal-Skills/skills/social-security-studies/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 

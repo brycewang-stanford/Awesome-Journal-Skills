@@ -14,6 +14,7 @@
 | **Frequency** | Bimonthly |
 | **Standing** | SSCI |
 | **Official** | [sciencedirect.com](https://www.sciencedirect.com/journal/journal-of-corporate-finance) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-corporate-finance`](../English-SocialScience-Journal-Skills/skills/journal-of-corporate-finance/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

@@ -14,6 +14,7 @@
 | **Frequency** | Bimonthly |
 | **Standing** | FT50 · UTD24 |
 | **Official** | [onlinelibrary.wiley.com](https://onlinelibrary.wiley.com/journal/18731317) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-operations-management`](../English-SocialScience-Journal-Skills/skills/journal-of-operations-management/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

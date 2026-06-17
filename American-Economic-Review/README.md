@@ -14,6 +14,7 @@
 | **Frequency** | Monthly |
 | **Standing** | economics “top-5” |
 | **Official** | [aeaweb.org](https://www.aeaweb.org/journals/aer) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`american-economic-review`](../English-SocialScience-Journal-Skills/skills/american-economic-review/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

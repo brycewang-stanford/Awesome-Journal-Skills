@@ -13,6 +13,7 @@
 | **ISSN** | 0266-4658 (print) · 1468-0327 (online) |
 | **Frequency** | Quarterly |
 | **Official** | [academic.oup.com](https://academic.oup.com/economicpolicy) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`economic-policy`](../English-SocialScience-Journal-Skills/skills/economic-policy/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

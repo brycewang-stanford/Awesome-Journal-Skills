@@ -14,6 +14,7 @@
 | **周期** | 月刊 |
 | **收录 / 地位** | CSSCI 来源期刊 · 北大中文核心 · 国家社科基金资助期刊 · 国内管理学/经济学顶级中文期刊 |
 | **官网** | [mwm.net.cn](http://www.mwm.net.cn/)（在线投稿系统：glsj.cbpt.cnki.net） |
+| **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`management-world`](../Chinese-SocialScience-Journal-Skills/skills/management-world/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 

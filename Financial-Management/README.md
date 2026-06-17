@@ -13,6 +13,7 @@
 | **ISSN** | 0046-3892 (print) · 1755-053X (online) |
 | **Frequency** | Quarterly |
 | **Official** | [onlinelibrary.wiley.com](https://onlinelibrary.wiley.com/journal/1755053x) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`financial-management`](../English-SocialScience-Journal-Skills/skills/financial-management/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

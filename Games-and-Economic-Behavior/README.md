@@ -13,6 +13,7 @@
 | **ISSN** | 0899-8256 (print) · 1090-2473 (online) |
 | **Frequency** | Bimonthly |
 | **Official** | [sciencedirect.com](https://www.sciencedirect.com/journal/games-and-economic-behavior) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`games-and-economic-behavior`](../English-SocialScience-Journal-Skills/skills/games-and-economic-behavior/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

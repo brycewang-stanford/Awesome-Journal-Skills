@@ -13,6 +13,7 @@
 | **ISSN** | 0167-6296 (print) |
 | **Frequency** | Bimonthly |
 | **Official** | [sciencedirect.com](https://www.sciencedirect.com/journal/journal-of-health-economics) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-health-economics`](../English-SocialScience-Journal-Skills/skills/journal-of-health-economics/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

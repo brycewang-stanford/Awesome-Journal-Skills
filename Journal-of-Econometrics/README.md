@@ -13,6 +13,7 @@
 | **ISSN** | 0304-4076 (print) · 1872-6895 (online) |
 | **Frequency** | Monthly |
 | **Official** | [sciencedirect.com](https://www.sciencedirect.com/journal/journal-of-econometrics) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-econometrics`](../English-SocialScience-Journal-Skills/skills/journal-of-econometrics/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

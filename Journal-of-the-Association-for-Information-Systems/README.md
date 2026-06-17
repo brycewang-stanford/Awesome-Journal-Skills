@@ -12,6 +12,7 @@
 | **Founded** | 2000 |
 | **ISSN** | 1536-9323 (online) |
 | **Official** | [aisel.aisnet.org](https://aisel.aisnet.org/jais/) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-the-association-for-information-systems`](../English-SocialScience-Journal-Skills/skills/journal-of-the-association-for-information-systems/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

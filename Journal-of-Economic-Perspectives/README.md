@@ -13,6 +13,7 @@
 | **ISSN** | 0895-3309 (print) · 1944-7965 (online) |
 | **Frequency** | Quarterly |
 | **Official** | [aeaweb.org](https://www.aeaweb.org/journals/jep) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-economic-perspectives`](../English-SocialScience-Journal-Skills/skills/journal-of-economic-perspectives/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

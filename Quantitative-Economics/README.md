@@ -13,6 +13,7 @@
 | **ISSN** | 1759-7323 (print) · 1759-7331 (online) |
 | **Frequency** | 3 issues/year |
 | **Official** | [onlinelibrary.wiley.com](https://onlinelibrary.wiley.com/journal/17597331) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`quantitative-economics`](../English-SocialScience-Journal-Skills/skills/quantitative-economics/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

@@ -13,6 +13,7 @@
 | **ISSN** | 1945-7782 (print) · 1945-7790 (online) |
 | **Frequency** | Quarterly |
 | **Official** | [aeaweb.org](https://www.aeaweb.org/journals/app) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`aej-applied-economics`](../English-SocialScience-Journal-Skills/skills/aej-applied-economics/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

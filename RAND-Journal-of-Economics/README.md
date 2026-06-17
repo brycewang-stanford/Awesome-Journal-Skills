@@ -14,6 +14,7 @@
 | **Frequency** | Quarterly |
 | **Standing** | SSCI |
 | **Official** | [onlinelibrary.wiley.com](https://onlinelibrary.wiley.com/journal/17562171) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`rand-journal-of-economics`](../English-SocialScience-Journal-Skills/skills/rand-journal-of-economics/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

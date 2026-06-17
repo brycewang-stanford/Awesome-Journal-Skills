@@ -13,6 +13,7 @@
 | **ISSN** | 0013-0133 (print) · 1468-0297 (online) |
 | **Frequency** | 8 issues/year |
 | **Official** | [academic.oup.com](https://academic.oup.com/ej) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`the-economic-journal`](../English-SocialScience-Journal-Skills/skills/the-economic-journal/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

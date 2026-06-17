@@ -13,6 +13,7 @@
 | **ISSN** | 1542-4766 (print) · 1542-4774 (online) |
 | **Frequency** | Bimonthly |
 | **Official** | [academic.oup.com](https://academic.oup.com/jeea) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-the-european-economic-association`](../English-SocialScience-Journal-Skills/skills/journal-of-the-european-economic-association/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

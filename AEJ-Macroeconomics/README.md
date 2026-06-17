@@ -13,6 +13,7 @@
 | **ISSN** | 1945-7707 (print) · 1945-7715 (online) |
 | **Frequency** | Quarterly |
 | **Official** | [aeaweb.org](https://www.aeaweb.org/journals/mac) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`aej-macroeconomics`](../English-SocialScience-Journal-Skills/skills/aej-macroeconomics/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

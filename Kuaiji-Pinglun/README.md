@@ -13,6 +13,7 @@
 | **周期** | 季刊 |
 | **收录/地位** | CSSCI |
 | **官网** | [gsm.pku.edu.cn](https://www.gsm.pku.edu.cn/) |
+| **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`china-accounting-review`](../Chinese-SocialScience-Journal-Skills/skills/china-accounting-review/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 

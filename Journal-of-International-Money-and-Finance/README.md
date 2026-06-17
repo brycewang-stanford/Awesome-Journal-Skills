@@ -13,6 +13,7 @@
 | **ISSN** | 0261-5606 (print) · 1873-0639 (online) |
 | **Frequency** | Bimonthly |
 | **Official** | [sciencedirect.com](https://www.sciencedirect.com/journal/journal-of-international-money-and-finance) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-international-money-and-finance`](../English-SocialScience-Journal-Skills/skills/journal-of-international-money-and-finance/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

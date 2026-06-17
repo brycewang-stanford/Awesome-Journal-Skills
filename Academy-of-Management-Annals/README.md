@@ -14,6 +14,7 @@
 | **Frequency** | Semiannual |
 | **Standing** | SSCI |
 | **Official** | [journals.aom.org](https://journals.aom.org/journal/annals) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`academy-of-management-annals`](../English-SocialScience-Journal-Skills/skills/academy-of-management-annals/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

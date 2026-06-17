@@ -13,6 +13,7 @@
 | **ISSN** | 0007-2303 (print) · 1533-4465 (online) |
 | **Frequency** | Semiannual |
 | **Official** | [brookings.edu](https://www.brookings.edu/projects/brookings-papers-on-economic-activity/) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`brookings-papers-on-economic-activity`](../English-SocialScience-Journal-Skills/skills/brookings-papers-on-economic-activity/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

@@ -13,6 +13,7 @@
 | **ISSN** | 0734-306X (print) · 1537-5307 (online) |
 | **Frequency** | Quarterly |
 | **Official** | [journals.uchicago.edu](https://www.journals.uchicago.edu/journals/jole/about) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-labor-economics`](../English-SocialScience-Journal-Skills/skills/journal-of-labor-economics/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

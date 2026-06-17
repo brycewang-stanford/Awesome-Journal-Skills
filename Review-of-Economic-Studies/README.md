@@ -14,6 +14,7 @@
 | **Frequency** | Quarterly |
 | **Standing** | economics “top-5” |
 | **Official** | [academic.oup.com](https://academic.oup.com/restud) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`review-of-economic-studies`](../English-SocialScience-Journal-Skills/skills/review-of-economic-studies/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

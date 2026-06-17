@@ -13,6 +13,7 @@
 | **ISSN** | 1945-7731 (print) · 1945-774X (online) |
 | **Frequency** | Quarterly |
 | **Official** | [aeaweb.org](https://www.aeaweb.org/journals/pol) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`aej-economic-policy`](../English-SocialScience-Journal-Skills/skills/aej-economic-policy/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

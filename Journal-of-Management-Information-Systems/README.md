@@ -14,6 +14,7 @@
 | **Frequency** | Quarterly |
 | **Standing** | FT50 |
 | **Official** | [tandfonline.com](https://www.tandfonline.com/journals/mmis20) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-management-information-systems`](../English-SocialScience-Journal-Skills/skills/journal-of-management-information-systems/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

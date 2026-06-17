@@ -14,6 +14,7 @@
 | **Frequency** | Bimonthly |
 | **Standing** | FT50 |
 | **Official** | [journals.sagepub.com](https://journals.sagepub.com/home/etp) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`entrepreneurship-theory-and-practice`](../English-SocialScience-Journal-Skills/skills/entrepreneurship-theory-and-practice/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

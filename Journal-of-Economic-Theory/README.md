@@ -13,6 +13,7 @@
 | **ISSN** | 0022-0531 (print) · 1095-7235 (online) |
 | **Frequency** | Bimonthly |
 | **Official** | [sciencedirect.com](https://www.sciencedirect.com/journal/journal-of-economic-theory) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-economic-theory`](../English-SocialScience-Journal-Skills/skills/journal-of-economic-theory/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

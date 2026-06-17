@@ -14,6 +14,7 @@
 | **周期** | 月刊 |
 | **收录/地位** | CSSCI · 北大中文核心 |
 | **官网** | [cpaj.com.cn](https://www.cpaj.com.cn/) |
+| **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`chinese-public-administration`](../Chinese-SocialScience-Journal-Skills/skills/chinese-public-administration/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 

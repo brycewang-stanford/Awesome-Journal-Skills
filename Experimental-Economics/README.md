@@ -12,6 +12,7 @@
 | **Founded** | 1998 |
 | **ISSN** | 1386-4157 (print) · 1573-6938 (online) |
 | **Official** | [cambridge.org](https://www.cambridge.org/core/journals/experimental-economics) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`experimental-economics`](../English-SocialScience-Journal-Skills/skills/experimental-economics/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

@@ -14,6 +14,7 @@
 | **Frequency** | Bimonthly |
 | **Standing** | SSCI |
 | **Official** | [sciencedirect.com](https://www.sciencedirect.com/journal/journal-of-environmental-economics-and-management) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-environmental-economics-and-management`](../English-SocialScience-Journal-Skills/skills/journal-of-environmental-economics-and-management/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

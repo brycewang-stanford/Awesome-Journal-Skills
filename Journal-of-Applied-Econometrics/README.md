@@ -13,6 +13,7 @@
 | **ISSN** | 0883-7252 (print) · 1099-1255 (online) |
 | **Frequency** | 7 issues/year |
 | **Official** | [onlinelibrary.wiley.com](https://onlinelibrary.wiley.com/journal/10991255) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-applied-econometrics`](../English-SocialScience-Journal-Skills/skills/journal-of-applied-econometrics/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

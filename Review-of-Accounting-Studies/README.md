@@ -14,6 +14,7 @@
 | **Frequency** | Quarterly |
 | **Standing** | FT50 |
 | **Official** | [link.springer.com](https://link.springer.com/journal/11142) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`review-of-accounting-studies`](../English-SocialScience-Journal-Skills/skills/review-of-accounting-studies/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

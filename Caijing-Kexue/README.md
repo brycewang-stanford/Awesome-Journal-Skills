@@ -14,6 +14,7 @@
 | **周期** | 月刊 |
 | **收录/地位** | CSSCI · 北大中文核心 |
 | **官网** | [cjkxzz.cn](http://www.cjkxzz.cn/) |
+| **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`finance-and-economics`](../Chinese-SocialScience-Journal-Skills/skills/finance-and-economics/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 

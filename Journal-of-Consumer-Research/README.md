@@ -14,6 +14,7 @@
 | **Frequency** | Bimonthly |
 | **Standing** | FT50 · UTD24 |
 | **Official** | [academic.oup.com](https://academic.oup.com/jcr) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-consumer-research`](../English-SocialScience-Journal-Skills/skills/journal-of-consumer-research/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

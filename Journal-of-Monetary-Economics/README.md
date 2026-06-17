@@ -13,6 +13,7 @@
 | **ISSN** | 0304-3932 (print) · 1873-1295 (online) |
 | **Frequency** | 8 issues/year |
 | **Official** | [sciencedirect.com](https://www.sciencedirect.com/journal/journal-of-monetary-economics) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-monetary-economics`](../English-SocialScience-Journal-Skills/skills/journal-of-monetary-economics/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

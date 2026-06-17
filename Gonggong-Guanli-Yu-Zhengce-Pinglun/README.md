@@ -14,6 +14,7 @@
 | **周期** | 双月刊 |
 | **收录/地位** | CSSCI |
 | **官网** | [ggglyzc.ruc.edu.cn](http://ggglyzc.ruc.edu.cn/) |
+| **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`public-administration-and-policy-review`](../Chinese-SocialScience-Journal-Skills/skills/public-administration-and-policy-review/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 

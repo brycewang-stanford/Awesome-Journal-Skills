@@ -14,6 +14,7 @@
 | **周期** | 双月刊 |
 | **收录/地位** | CSSCI · 北大中文核心 · AMI |
 | **官网** | [ces.xmu.edu.cn](https://ces.xmu.edu.cn/) |
+| **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`china-economic-studies`](../Chinese-SocialScience-Journal-Skills/skills/china-economic-studies/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 

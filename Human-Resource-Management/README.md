@@ -13,6 +13,7 @@
 | **Frequency** | Bimonthly |
 | **Standing** | FT50 |
 | **Official** | [onlinelibrary.wiley.com](https://onlinelibrary.wiley.com/journal/1099050x) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`human-resource-management`](../English-SocialScience-Journal-Skills/skills/human-resource-management/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

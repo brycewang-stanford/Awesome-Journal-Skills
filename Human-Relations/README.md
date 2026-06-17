@@ -14,6 +14,7 @@
 | **Frequency** | Monthly |
 | **Standing** | FT50 |
 | **Official** | [journals.sagepub.com](https://journals.sagepub.com/home/hum) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`human-relations`](../English-SocialScience-Journal-Skills/skills/human-relations/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

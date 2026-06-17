@@ -13,6 +13,7 @@
 | **ISSN** | 0014-2921 (print) · 1873-572X (online) |
 | **Standing** | SSCI |
 | **Official** | [sciencedirect.com](https://www.sciencedirect.com/journal/european-economic-review) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`european-economic-review`](../English-SocialScience-Journal-Skills/skills/european-economic-review/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

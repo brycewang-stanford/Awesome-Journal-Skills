@@ -14,6 +14,7 @@
 | **周期** | 双月刊 |
 | **收录/地位** | CSSCI · AMI |
 | **官网** | [igdp.whu.edu.cn](https://igdp.whu.edu.cn/) |
+| **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`journal-of-macro-quality-research`](../Chinese-SocialScience-Journal-Skills/skills/journal-of-macro-quality-research/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 

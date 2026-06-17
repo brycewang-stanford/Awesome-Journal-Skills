@@ -14,6 +14,7 @@
 | **Frequency** | Quarterly |
 | **Standing** | FT50 · UTD24 |
 | **Official** | [pubsonline.informs.org](https://pubsonline.informs.org/journal/isre) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`information-systems-research`](../English-SocialScience-Journal-Skills/skills/information-systems-research/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics.
 

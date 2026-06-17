@@ -14,6 +14,7 @@
 | **Frequency** | 6 issues / year |
 | **Standing** | SSCI · finance "top-3" · FT50 · ABS 4★ |
 | **Official** | [Wiley Online Library](https://onlinelibrary.wiley.com/journal/15406261) · [afajof.org](https://afajof.org/) |
+| **Checked** | 2026-06-17 |
 
 **▶ Use the skill — [`journal-of-finance`](../English-SocialScience-Journal-Skills/skills/journal-of-finance/):** venue fit, framing, the method-and-evidence bar, house style, and desk-reject heuristics for JF.
 
