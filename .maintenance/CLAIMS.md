@@ -30,6 +30,9 @@ Science does NOT contain Cell Press "STAR Methods"; earlier claim retracted.)
   and no submodule edits.
 - **Codex — Category 8 Wave 25-A depth-pack lane**: build complete CS/AI conference depth packs
   from `.maintenance/CATEGORY-8-BUILD-QUEUE.md`, starting with NeurIPS; no submodule edits.
+- **Codex — 2026-06-17 audit-quality cleanup lane**: scorecard trigger semantics and the
+  single remaining machine-only root card (`Zuzhi-Yu-Guanli/README.md`); no journal-content
+  skill rewrites, no pack-count changes, no root README wall edits, and no submodule edits.
 
 ## Claim log
 | Pack | Agent | Status | Notes |
@@ -92,6 +95,11 @@ Science does NOT contain Cell Press "STAR Methods"; earlier claim retracted.)
 | Journal-of-Economic-Theory-Skills | Codex | done | completed concurrent plugin shell into 12 official-source-backed skills |
 | Journal-of-Human-Resources-Skills | Codex | done | completed concurrent plugin shell into 12 official-source-backed skills |
 | Repo-wide second-pass uplift | Codex | done | scorecard low-tail depth-pack hardening + CS conference breadth routing de-cloning; local hard gates passed, no push |
+| Zuzhi-Yu-Guanli | Codex | done | root-card enrichment only; no canonical skill rewrite |
+| tools/quality_scorecard.py | Codex | done | trigger-pattern recognition only; no scoring threshold weakening |
+| tools/external_link_audit.py | Codex | done | markdown URL-boundary fix for adjacent links; no network gate added |
+| Computer-Science-Conference-Skills URL anchors | Codex | done | verified 404 replacements only; no new conference/profile count |
+| Computer-Science-Conference-Skills HRI/CoRL routing | Codex | done | sibling-routing correction only; no profile-count changes |
 
 ## Lane — 全学科扩张规划 (10×100 = 1000 packs)
 - **Owner**: planning agent + Codex support · Status: Wave 0 done; Wave 1 inventory split done

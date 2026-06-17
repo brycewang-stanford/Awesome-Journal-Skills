@@ -737,3 +737,27 @@ repairs; no new pack, skill, manifest, root entry, or submodule count changed. F
 --min-score 90 --top 15`, and `git diff --check`. Clone-audit warnings remain the known
 Computer-Science breadth-profile similarities plus the Science/PNAS rebuttal pair, all below the
 0.90 fail threshold.
+
+## Wave 37 — audit semantics and root-card closure (Codex, 2026-06-17)
+
+Follow-up, count-preserving cleanup after the Wave 36 floor pass. Scope stayed narrow to avoid
+parallel-agent conflicts: no new journals/conferences, no skill-pack rewrites, no README wall edits,
+and no submodule changes.
+
+- `tools/quality_scorecard.py` now recognizes `Use after`, `Use before`, `Use if`, `Use for`, and
+  `Use as` as valid trigger descriptions, so report-only scores no longer penalize legitimate
+  post-decision or pre-submission skills that do not literally say `Use when`.
+- `Zuzhi-Yu-Guanli/README.md` was upgraded from the last machine-only root card into an enriched
+  card with a cover, conservative same-title warning, official TAOM source anchor, and visible
+  2026-06-17 check date; the canonical bundled skill path remains unchanged.
+- `tools/external_link_audit.py` now handles adjacent Markdown links such as
+  `[meta](...=meta)/[metafor](...)` without producing a merged fake URL, and the current-source
+  404 set was cleaned for verified official anchors (COLT, CoNLL, SAT, DARS, RO-MAN, MICRO, and
+  one percent-encoded Baidu path).
+- The highest CS breadth clone-audit pair (HRI vs CoRL at 0.800) was addressed by replacing CoRL's
+  erroneous neighbor list with RSS/ICRA/IROS/HRI and adding explicit HRI/CoRL sibling-routing
+  contrasts; that pair no longer appears in the top-20 near-clone report.
+- Verification snapshot: `tools/root_entry_audit.py` reports 200/200 enriched root cards and
+  0 machine-only cards; `tools/quality_scorecard.py --top 30 --show-skills` reports mean 93.0,
+  min 90.0, p10 90.2, below 86/88/90 = 0/0/0; `tools/external_link_audit.py --only DEAD`
+  reports DEAD=0 across 1345 current first-party URLs.
