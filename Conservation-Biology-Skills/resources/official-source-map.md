@@ -51,7 +51,7 @@ fetchers (see notes below).
 
 - **https://conbio.onlinelibrary.wiley.com/hub/journal/15231739/homepage/forauthors.html** (data
   section) and Wiley's data-sharing policy:
-  **https://authorservices.wiley.com/author-resources/Journal-Authors/open-access/data-sharing-citation/data-sharing-policy.html**
+  **https://authors.wiley.com/author-resources/Journal-Authors/open-access/data-sharing-citation/data-sharing-policy.html**
   — Wiley journals require a **data availability statement**. *Conservation Biology* expects data and
   code supporting the results to be deposited in an appropriate public repository (e.g., **Dryad**,
   Zenodo, Figshare, GenBank, or a comparable archive) with a persistent identifier, with sensitive

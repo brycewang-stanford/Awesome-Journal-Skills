@@ -5,7 +5,7 @@ This file gives one official-source starting query per journal profile. It is a 
 Routing-map check date: 2026-06-10. For social-science journals, start from the live publisher, society,
 or editorial-office instructions and submission system; common official entry points include
 https://www.elsevier.com/authors, https://academic.oup.com/pages/for-authors, and
-https://authorservices.wiley.com/.
+https://authors.wiley.com/.
 
 | Slug | Journal | Official-source starting point | Skill |
 |---|---|---|---|

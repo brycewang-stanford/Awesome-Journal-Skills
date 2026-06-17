@@ -40,7 +40,7 @@ A working list of registries, reporting standards, software, and references usef
 ## 5. Evidence synthesis & certainty
 
 - [GRADE](https://www.gradeworkinggroup.org/) / [GRADEpro GDT](https://www.gradepro.org/) — rating certainty of evidence and strength of recommendations.
-- [Cochrane Library](https://www.cochranelibrary.com/) and [Cochrane Handbook](https://training.cochrane.org/handbook) — for the systematic search behind the Research in context panel.
+- [Cochrane Library](https://www.cochranelibrary.com/) and [Cochrane Handbook](https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current) — for the systematic search behind the Research in context panel.
 - Search platforms: [PubMed/MEDLINE](https://pubmed.ncbi.nlm.nih.gov/), [Embase](https://www.embase.com/), [Covidence](https://www.covidence.org/) / [Rayyan](https://www.rayyan.ai/) for screening.
 
 ## 6. Statistics & figures

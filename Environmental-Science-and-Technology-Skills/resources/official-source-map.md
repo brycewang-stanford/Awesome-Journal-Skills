@@ -30,7 +30,7 @@ on the official page before relying on them — ACS journal pages change.
   Supporting Information requirements.
 - **https://publish.acs.org/publish/author_guidelines?coden=esthag** — ES&T Author Guidelines via
   the ACS Publishing Center / **ACS Paragon Plus** submission entry.
-- **https://acsparagonplus.acs.org/** — **ACS Paragon Plus** submission and peer-review environment
+- **https://publish.acs.org/entry.html** — **ACS Paragon Plus** submission and peer-review environment (current entry at publish.acs.org; the legacy `acsparagonplus.acs.org` address now redirects here)
   (the system referenced throughout ACS author guidance).
 
 ## Scope, aims & about

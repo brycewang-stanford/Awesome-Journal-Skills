@@ -5,7 +5,7 @@ This file gives one official-source starting query per journal profile. It is a 
 Routing-map check date: 2026-06-10. For natural-science and medical journals, start from the live
 publisher/society instructions and submission system; common official entry points include
 https://www.nature.com/nature-portfolio/for-authors, https://www.elsevier.com/authors, and
-https://authorservices.wiley.com/.
+https://authors.wiley.com/.
 
 | Slug | Journal | Official-source starting point | Skill |
 |---|---|---|---|

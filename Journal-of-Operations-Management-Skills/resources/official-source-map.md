@@ -20,7 +20,7 @@ Editor roster, APC amount, exact limits) are flagged **approximate** or **待核
 | 5 | https://www.jom-hub.com/submissions/documents-support | ~40-page guidance (no strict page limit; long manuscripts returned for streamlining); APA citation/reference style; double-spaced single-column 12-pt one-inch-margin formatting; similarity rules (no single source >1% outside quotations; overall >15% must be explained in the cover letter); required submission checklist | 2026-06-01 |
 | 6 | https://wiley.atyponrex.com/journal/JOOM | Wiley Research Exchange (ReX) submission portal for JOM | 2026-06-01 (URL confirmed via author guidelines #2) |
 | 7 | https://en.wikipedia.org/wiki/Journal_of_Operations_Management | Founded 1980; ISSN 0272-6963 (print) / 1873-1317 (web); 8 issues/year; hybrid open access; FT50 list | 2026-06-01 |
-| 8 | https://authorservices.wiley.com/author-resources/Journal-Authors/open-access/data-sharing-citation/data-sharing-policy.html | Wiley Data Availability Statement requirement; encouragement to archive data/code/scripts/materials with a persistent identifier (DOI/accession); shared data must be cited | 2026-06-01 |
+| 8 | https://authors.wiley.com/author-resources/Journal-Authors/open-access/data-sharing-citation/data-sharing-policy.html | Wiley Data Availability Statement requirement; encouragement to archive data/code/scripts/materials with a persistent identifier (DOI/accession); shared data must be cited | 2026-06-01 |
 
 ## VERIFIED facts injected into the skills (with source #)
 
