@@ -13,6 +13,8 @@
 | **ISSN** | 1000-6788 · CN 11-2267/N |
 | **周期** | 月刊 |
 | **收录/地位** | CSSCI · 北大中文核心 · CSCD |
+| **官网** | [www.sysengi.com](http://www.sysengi.com/) |
+| **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`systems-engineering-theory-and-practice`](../Chinese-SocialScience-Journal-Skills/skills/systems-engineering-theory-and-practice/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 

@@ -13,6 +13,8 @@
 | **ISSN** | 1002-6711 · CN 11-1344/G3 |
 | **周期** | 月刊 |
 | **收录/地位** | CSSCI · 北大中文核心 |
+| **官网** | [www.zgkjlt.org.cn](http://www.zgkjlt.org.cn/) |
+| **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`forum-on-science-and-technology-in-china`](../Chinese-SocialScience-Journal-Skills/skills/forum-on-science-and-technology-in-china/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 
