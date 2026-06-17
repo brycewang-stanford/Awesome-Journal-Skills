@@ -13,6 +13,8 @@
 | **ISSN** | 1000-3894 · CN 11-1087/F |
 | **周期** | 月刊 |
 | **收录/地位** | CSSCI · 北大中文核心 · CSCD |
+| **官网** | [www.jqte.net](http://www.jqte.net/) |
+| **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`journal-of-quantitative-technological-economics`](../Chinese-SocialScience-Journal-Skills/skills/journal-of-quantitative-technological-economics/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 

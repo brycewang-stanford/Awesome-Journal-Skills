@@ -13,6 +13,8 @@
 | **ISSN** | 1000-6249 · CN 44-1068/F |
 | **周期** | 月刊 |
 | **收录/地位** | CSSCI · 北大中文核心 |
+| **官网** | [www.nanfangjingji.cn](http://www.nanfangjingji.cn/) |
+| **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`south-china-journal-of-economics`](../Chinese-SocialScience-Journal-Skills/skills/south-china-journal-of-economics/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 
