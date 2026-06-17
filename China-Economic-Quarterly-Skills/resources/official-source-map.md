@@ -29,7 +29,7 @@
 - 北大国发院《经济学》（季刊）栏目主页：<https://www.nsd.pku.edu.cn/cbw/jjxjk/index.htm>
 - 北大 CCER《经济学》（季刊）页：<http://ceq.ccer.pku.edu.cn/>
 - 万方数据期刊页：<https://c.wanfangdata.com.cn/magazine/jjx>
-- 百度百科「经济学（季刊）」（创刊年/主办/出版/刊期）：<https://baike.baidu.com/item/经济学（季刊）/7007846>
+- 百度百科「经济学（季刊）」（创刊年/主办/出版/刊期）：<https://baike.baidu.com/item/%E7%BB%8F%E6%B5%8E%E5%AD%A6%EF%BC%88%E5%AD%A3%E5%88%8A%EF%BC%89/7007846>
 - 维普期刊页：<https://www.cqvip.com/journal/76913/1373289>
 - CEQI 国际版（KeAi）：<https://www.keaipublishing.com/en/journals/china-economic-quarterly-international/>
 - CCER 英文版《经济学》（季刊）页：<https://en.ccer.pku.edu.cn/publications/Quarterly/index.htm>
