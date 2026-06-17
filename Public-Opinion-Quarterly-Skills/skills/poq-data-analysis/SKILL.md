@@ -46,6 +46,20 @@ Design decisions live in `poq-survey-design-and-measurement`.
 - Pin software/package versions (`renv.lock`, `requirements.txt`, recorded `ssc`/`net` installs).
 - Keep table/figure numbers matched to script outputs — POQ re-runs the package against the exhibits.
 
+## POQ replication acceptance gate
+
+Before writing results prose, run a local replication gate that mirrors the journal's expectations:
+
+| Gate | Required evidence |
+|------|-------------------|
+| Survey design object | A single declared object listing weights, strata, PSUs, finite-population corrections where used, and missing-data handling. |
+| Table/figure manifest | Every exhibit has a script target, input data file, and output path; no manual spreadsheet edits. |
+| Sensitivity queue | Alternative weights, nonresponse adjustments, mode/question wording breaks, and subgroup corrections listed before results are interpreted. |
+| Exact reproduction | A clean checkout or temporary directory regenerates all published numbers with matching rounding. |
+
+Only after this gate should the manuscript claim that the analysis is reproducible. POQ readers notice
+when design-based inference is described in text but not actually encoded in the scripts.
+
 ## Anti-patterns
 
 - Naive IID standard errors on a weighted, clustered survey (the most common POQ analysis flaw)

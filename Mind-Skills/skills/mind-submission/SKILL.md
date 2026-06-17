@@ -31,6 +31,21 @@ paper **will not be read**. Verify volatile specifics on the official page befor
 - **Style:** the **MIND house style / MIND Stylesheet** applies to the **accepted** final version.
 - **Fee:** no submission fee stated; optional open-access charge handled by OUP after acceptance (待核实).
 
+## Triple-anonymous failure audit
+
+Mind's anonymity rule is not a cosmetic check; an identifying manuscript may not be read. Run a
+failure audit with three passes:
+
+1. **Text pass.** Search for first-person self-citations, acknowledgements, grant numbers, conference
+   versions, appendix URLs, and phrases like "in my earlier paper." Replace with neutral references
+   where scholarly continuity still matters.
+2. **File pass.** Strip document properties, PDF metadata, tracked-change names, embedded comment
+   authors, and LaTeX build paths that reveal a username or institution.
+3. **Argument pass.** Make sure anonymization did not make the paper evasive. Self-citations should
+   remain intellectually honest, just not identity-revealing.
+
+Record any unavoidable prior-work clue in a private submission note only if the portal requests it.
+
 ## Preflight checklist
 
 ### Type & length

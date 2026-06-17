@@ -37,6 +37,23 @@ Ask: *If a reader granted my reading, what would they now have to think differen
 only "they would notice this detail," the stakes are too low. Push until the claim reorganizes
 something — a text, a genre, a method, a debate. If it cannot, reframe (back to `pmla-topic-selection`).
 
+## Field-stakes ledger
+
+Before polishing the thesis, write a compact ledger that proves the argument matters beyond the
+primary text:
+
+| Ledger row | PMLA test |
+|------------|-----------|
+| Object of revision | Which concept, periodization, genre category, language history, or interpretive method changes if the claim holds? |
+| Evidence hinge | Which passage, archive, translation choice, or formal feature does the argument actually turn on? |
+| Rival reading | Which respected alternative account can explain much of the same evidence? |
+| Consequence | What can future readers, teachers, or scholars now do differently with this text or corpus? |
+
+If the consequence row says only "this text is more complex," the argument is not yet PMLA-ready.
+Convert texture into a portable claim: a revised concept, a changed map of a field, or a method other
+readers can reuse. This keeps the essay from becoming elegant close reading without disciplinary
+stakes.
+
 ## Keep the argument honest
 
 - Let the text constrain the claim; do not over-read a detail into a thesis it cannot bear.

@@ -43,6 +43,13 @@ home base for the **Theories and Methodologies** and **The Changing Profession**
 Ask: *Does the framework let a reader see something in the text they could not see without it?* If yes,
 the theory is doing work. If it only renames what the reading already showed, cut or rethink it.
 
+## Method accountability pass
+
+Add one accountable sentence for the method: "This frame is necessary because it reveals ___ in ___
+that close reading alone would miss." Then add the reciprocal sentence: "The text pressures the frame
+by showing ___." PMLA theory work is strongest when the method and object change each other. If the
+second sentence is impossible, the frame may be ornamental rather than interpretive.
+
 ## Anti-patterns
 
 - Theory as label: applying a framework top-down with the conclusion presupposed

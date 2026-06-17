@@ -37,6 +37,14 @@ live in `spq-research-design`.
 - Make the analytic procedure transparent: coding scheme, how themes/categories were derived, negative cases.
 - Show how the evidence (interaction excerpts, fieldnotes, accounts) supports the claim; quote enough to let the reader judge.
 
+## Structure-individual reporting check
+
+For each main result, add one sentence that links the statistic or qualitative pattern back to the
+structure-individual mechanism. SPQ results should not stop at "the coefficient is positive" or "a
+theme appears"; they should say how status, identity, exchange, networks, institutions, or interaction
+orders shape individual meaning or behavior. If that sentence cannot be written, the analysis has
+drifted away from the journal's social-psychological core.
+
 ## Reproducibility while you work (good practice, not a gate)
 - A **master script** that regenerates every table and figure from the (raw or constructed) data.
 - **Set and report seeds** for any stochastic step (bootstrap, simulation, multiple imputation).

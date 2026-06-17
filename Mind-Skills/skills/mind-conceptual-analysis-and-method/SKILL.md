@@ -35,6 +35,13 @@ the argument from `mind-thesis-and-argument` rests on terms that bear weight.
 - Pre-empt the "intuition isn't shared / is an artifact" objection (hand to `mind-objections-and-replies`).
 - Watch for cases that **prove too much** — if your case also refutes claims you accept, it is broken.
 
+## Load-bearing term audit
+
+Mark every term that appears in a premise, conclusion, or objection. For each, write: definition,
+contrast class, role in the argument, and what would break if the term were replaced by a neighbor.
+This exposes equivocation before a referee does. If a term is merely decorative, cut it; if it is
+load-bearing, define it early and reuse it consistently.
+
 ## Choose the method
 
 | Method | Use when… | Watch for |

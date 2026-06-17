@@ -46,6 +46,20 @@ my argument, the data would look like ___; instead they look like ___."* For exp
 manipulation contrast; for surveys, the confound ruled out; for interpretive work, the alternative
 reading. If you cannot, the design does not yet identify the contribution.
 
+## Design stress ledger
+
+Use a design stress ledger before committing to the analysis plan:
+
+| Tradition | Stress test |
+|-----------|-------------|
+| Experiment | What manipulation failure, demand effect, group-composition imbalance, or dyadic dependence would overturn the status/process claim? |
+| Survey / secondary data | Which omitted structural variable, measurement-invariance failure, weighting choice, or contextual clustering rule could flip the conclusion? |
+| Observational / interpretive | Which negative case, deviant interaction, or access/reflexivity concern would force a narrower interpretation? |
+
+For each row, write the planned diagnostic and the interpretation if it fails. SPQ reviewers are
+comfortable with different methods, but they expect the method's limits to be explicit. A design that
+names its own failure mode usually reads stronger than a design that implies no failure mode exists.
+
 ## Anti-patterns
 
 - A lab effect over-generalized to real-world structure with no caveat
