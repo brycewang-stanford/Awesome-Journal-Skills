@@ -13,6 +13,8 @@
 | **ISSN** | 1000-355X · CN 22-1065/F |
 | **周期** | 双月刊 |
 | **收录/地位** | CSSCI |
+| **官网** | [nasa.jlu.edu.cn（吉大东北亚学院刊物页）](https://nasa.jlu.edu.cn/info/1086/2325.htm) |
+| **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`contemporary-economy-of-japan`](../Chinese-SocialScience-Journal-Skills/skills/contemporary-economy-of-japan/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 

@@ -13,6 +13,8 @@
 | **ISSN** | 1000-6052 · CN 35-1014/F |
 | **周期** | 双月刊 |
 | **收录/地位** | CSSCI · 北大中文核心 |
+| **官网** | [fass.net.cn（《亚太经济》杂志社）](https://www.fass.net.cn/about2/show.php?id=65) |
+| **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`asia-pacific-economic-review`](../Chinese-SocialScience-Journal-Skills/skills/asia-pacific-economic-review/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 
