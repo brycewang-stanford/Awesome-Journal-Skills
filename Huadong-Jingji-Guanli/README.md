@@ -13,6 +13,8 @@
 | **ISSN** | 1007-5097 · CN 34-1014/F |
 | **周期** | 月刊 |
 | **收录/地位** | CSSCI（扩展版）· 北大中文核心 |
+| **官网** | [hdjj.cbpt.cnki.net](https://hdjj.cbpt.cnki.net/) |
+| **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`east-china-economic-management`](../Chinese-SocialScience-Journal-Skills/skills/east-china-economic-management/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 

@@ -13,6 +13,8 @@
 | **ISSN** | 1001-7348 · CN 42-1224/G3 |
 | **周期** | 半月刊 |
 | **收录/地位** | CSSCI · 北大中文核心 |
+| **官网** | [www.kjjb.org](https://www.kjjb.org/) |
+| **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`science-and-technology-progress-and-policy`](../Chinese-SocialScience-Journal-Skills/skills/science-and-technology-progress-and-policy/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
 
