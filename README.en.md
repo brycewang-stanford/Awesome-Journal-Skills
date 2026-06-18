@@ -1894,3 +1894,13 @@ MIT
 
   Maintained by <a href="https://copaper.ai"><strong>CoPaper.AI</strong></a>, incubated at <a href="https://sccei.fsi.stanford.edu/reap"><strong>Stanford REAP / SCCEI</strong></a> · Powered by <a href="https://github.com/brycewang-stanford/StatsPAI">StatsPAI</a> (900+ functions, MIT)
 </div>
+
+## Star History
+
+<a href="https://star-history.com/#brycewang-stanford/Awesome-Journal-Skills&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=brycewang-stanford/Awesome-Journal-Skills&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=brycewang-stanford/Awesome-Journal-Skills&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=brycewang-stanford/Awesome-Journal-Skills&type=Date" />
+  </picture>
+</a>
