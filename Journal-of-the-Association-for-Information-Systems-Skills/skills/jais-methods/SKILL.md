@@ -33,6 +33,10 @@ JAIS is inclusive of "philosophical and research approach," which means the meth
 
 JAIS expects the measurement model to be defensible *by design*, not patched later. Build temporal/source/psychological separation against common-method bias, use validated scales (or justify new ones — but note construct *development* as the headline belongs in the Theory category), and include attention/manipulation checks. Plan to report the full measurement model and, for SEM, the correlation/covariance matrix the journal requires in an appendix.
 
+## Behavioral: prepare the JAIS-required measurement materials now
+
+JAIS asks SEM studies to provide a full correlation/covariance matrix plus descriptives in an appendix, and to make the (anonymized) dataset available on request to Senior Editors and reviewers. Design these into the study from the start: pre-register or pre-specify scales, keep a clean codebook, and structure data collection so the matrix and descriptives fall out automatically. Retrofitting these materials at submission — or worse, at first revision — is where otherwise sound behavioral papers stumble against JAIS's transparency rules.
+
 ## Economics of IS: anchor identification in real exogenous variation
 
 Name the source of variation — a platform/policy change, a staggered rollout, a breach, a system go-live — and pre-commit the comparison and the assumptions you will defend. With staggered timing, plan a modern estimator (Callaway–Sant'Anna, Sun–Abraham) rather than naive TWFE, and the event-study and placebo evidence you will show. JAIS publishes econometric IS work, but the identification must be transparent enough for an SE to interrogate.
