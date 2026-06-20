@@ -1,6 +1,6 @@
 ---
 name: jfi-replication-and-data-policy
-description: Use when preparing the data-sharing materials a Journal of Financial Intermediation (JFI) submission expects under Elsevier norms — a published Data Statement, deposited and linked datasets, [dataset]-tagged references, and a credible access route for restricted supervisory or credit-register data — without inventing a mandatory code archive the journal does not require. It prepares the package; it does not deposit for you.
+description: Use when preparing the research-data materials a Journal of Financial Intermediation (JFI) submission expects under Elsevier Option C — deposited, cited, and linked research data where possible; an explanation where sharing is impossible; a Data Statement; [dataset]-tagged references; and a credible access route for restricted supervisory or credit-register data. It prepares the package; it does not deposit for you.
 ---
 
 # Replication & Data Policy (jfi-replication-and-data-policy)
@@ -13,12 +13,12 @@ description: Use when preparing the data-sharing materials a Journal of Financia
 ## What JFI actually requires (verified 2026-06-20; re-confirm on the official page)
 
 JFI follows Elsevier **Option C** for research data. Research data here includes **software, code, models,
-algorithms, protocols, and methods** — not just datasets. Authors should:
+algorithms, protocols, and methods** — not just datasets. Authors are required to:
 
-- Provide a **Data Statement** on data availability, which is supported in the submission flow and
-  published with the article.
 - **Deposit research data in a relevant repository and cite/link it**, or explain why data cannot be
   shared.
+- Provide a **Data Statement** on data availability when relevant; it is supported in the submission flow
+  and published with the article.
 - Cite datasets in the text and reference list using the **`[dataset]` tag**.
 
 Crucially, JFI has **no journal-specific mandatory replication-code archive** — there is no equivalent of
@@ -72,7 +72,8 @@ with [dataset] tags in the reference list.
 
 ## Anti-patterns
 
-- Asserting a mandatory JFI code archive that does not exist
+- Treating Option C as optional or replacing it with "data available on request"
+- Asserting a mandatory JFI-specific archive that the Guide does not name
 - A Data Statement that hides restricted-data access conditions
 - Citing datasets in prose without the `[dataset]` reference tag
 - Depositing data but never linking it in Editorial Manager
@@ -81,9 +82,9 @@ with [dataset] tags in the reference list.
 
 ```
 【Data Statement】drafted, access conditions stated? [Y/N]
-【Deposit + link】repository chosen and linked in EM? [Y/N]
+【Deposit / explain】repository chosen and linked in EM, or restriction explained? [Y/N]
 【[dataset] tags】data cited in references? [Y/N]
 【Restricted data】access route + shareable code noted? [Y/N]
-【Note】no mandatory JFI archive — comply with Option C deposit/cite/link-or-explain
+【Note】Option C applies; no JFI-specific archive is named
 【Next skill】jfi-review-process
 ```

@@ -31,9 +31,9 @@ financial-economics topics. So the router first asks whether the paper's core co
 | Articulating the mechanism / "why intermediaries matter" | `jfi-contribution-framing` |
 | Building exhibits | `jfi-tables-figures` |
 | Polishing prose, author–date style, numbered sections | `jfi-writing-style` |
-| Preparing data sharing + Data Statement | `jfi-replication-and-data-policy` |
+| Preparing Option C data sharing + Data Statement | `jfi-replication-and-data-policy` |
 | Understanding single-blind / desk-reject / final decision | `jfi-review-process` |
-| Final preflight + fee + JEL/keywords + AI disclosure | `jfi-submission` |
+| Final preflight + fee + abstract/keywords + AI disclosure | `jfi-submission` |
 | Responding to referees on an R&R | `jfi-rebuttal` |
 
 ## Default sequence
@@ -70,8 +70,9 @@ submission → rebuttal.
 2. **Gate B** (after identification/data-analysis): a within-firm or equivalent demand control exists, or
    the theory's propositions are fully proved with stated boundaries.
 3. **Gate C** (before submission): the desk-screen self-audit passes — mechanism in the abstract, design
-   defended in the introduction, and the US$500 new-submission fee is justified. Re-confirm fees against
-   the journal's current author guidelines before filing.
+   defended in the introduction, the <=250-word abstract and 1-7 English keywords are ready, and the
+   US$500 new-submission fee is justified. Re-confirm fees against the journal's current author
+   guidelines before filing.
 
 ## A routing pass, worked (illustrative)
 

@@ -68,4 +68,4 @@ bank-level and supervisory datasets are restricted or fee-based.
 - Data deposit: a general-purpose repository (e.g., Mendeley Data, Zenodo, ICPSR, openICPSR) linkable via
   Editorial Manager, with a published **Data Statement** and `[dataset]`-tagged references. JFI follows
   Elsevier Option C: deposit/cite/link research data where possible or explain why sharing is restricted;
-  it has **no** journal-specific mandatory code archive — see `jfi-replication-and-data-policy`.
+  the Guide does not name a JFI-specific archive — see `jfi-replication-and-data-policy`.

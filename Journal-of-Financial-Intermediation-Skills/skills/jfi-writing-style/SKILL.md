@@ -19,6 +19,7 @@ description: Use when revising a Journal of Financial Intermediation (JFI) manus
   chronological, with a/b/c disambiguation for same-author/same-year items. Keep author–year fields clean.
 - **Abstract:** concise, factual, and able to stand alone, with references avoided; keep it at **250 words
   or fewer**.
+- **Keywords:** provide **1-7 English keywords** for indexing.
 - **Optional Highlights:** 3–5 bullets, max 85 characters each, strongly encouraged.
 - **Generative-AI disclosure:** if AI writing tools were used, declare them in a dedicated section
   **before the References** (see jfi-submission).

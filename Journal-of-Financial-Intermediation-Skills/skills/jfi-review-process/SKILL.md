@@ -64,13 +64,13 @@ shadow-banking work signals appetite beyond traditional bank-balance-sheet paper
 - Anonymizing the body as if double-blind (unnecessary; this is single-blind)
 - Assuming a two-referee process and being surprised by a single decisive report
 - Planning around appeal rather than fixing desk-screen fit and referee-facing evidence
-- Naming a requested editor from outdated secondary sources
+- Naming a requested editor from outdated secondary sources without re-checking ScienceDirect
 
 ## Output format
 
 ```
 【Desk-screen risk】<what could trip the screen + fix>
 【Referee plan】likely-one-expert objection + pre-empt
-【Editor choice】request <name/board area> or default (verify current board)
+【Editor choice】request Murillo Campello / Elena Loutskina / Joao Santos by fit, or default
 【Decision posture】appeal exceptional; win up front
 ```

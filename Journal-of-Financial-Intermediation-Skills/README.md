@@ -21,8 +21,9 @@ stack built around the journal's real process: a US$500 non-refundable submissio
 Manager** before a paper is considered, an **active desk-rejection** policy, **single-anonymized
 (single-blind)** review with at least one expert referee when sent out and a tightly limited appeal path, optional
 free **SSRN preprint** posting, "your-paper-your-way" submission with an **author–date Elsevier** reference
-style applied at proof, JEL codes and **1-7 English keywords**, Elsevier **Option C data-sharing** and
-**Data Statement** norms, and a mandatory **generative-AI disclosure**.
+style applied at proof, a **250-word abstract cap**, **1-7 English keywords**, optional Highlights,
+Elsevier **Option C** research-data deposit / citation / link-or-explain rules, and a mandatory
+**generative-AI disclosure**.
 
 ---
 
@@ -37,7 +38,7 @@ JFI imposes constraints that differ materially from a top-5 general-interest jou
 | Screening            | **Active desk-rejection**; usually at least one expert referee if sent out; one appeal may be considered | A clean first screen matters; appeal is not a normal revision plan |
 | Review model         | **Single-anonymized (single-blind)** — referees see your identity           | Anonymizing the body is not required (unlike double-blind venues)  |
 | Preprints            | Free **SSRN** posting offered at submission; not prior publication          | You can circulate openly without prejudicing the outcome           |
-| Classification       | JEL codes + **1-7 English keywords**                                        | Economics metadata and search routing both matter                  |
+| Submission metadata  | Abstract **<=250 words**, **1-7 English keywords**, optional Highlights     | The desk screen starts with concise metadata, not a long abstract  |
 | Formatting           | "Your-paper-your-way"; **author–date** Elsevier style applied at proof      | Any consistent style at submission; clean author–year fields       |
 | Data                 | Elsevier **Option C** deposit/cite/link-or-explain policy + Data Statement; `[dataset]` tag | No JAE/AER-style archive, but the data-sharing plan must be explicit |
 | AI disclosure        | Mandatory declaration before the References                                  | Undisclosed generative-AI use is a compliance failure              |
@@ -119,10 +120,10 @@ jfi-rebuttal
 | `jfi-contribution-framing`         | Frame the mechanism and "why intermediaries matter" lesson                    |
 | `jfi-tables-figures`               | Numbered exhibits with self-contained notes                                   |
 | `jfi-writing-style`                | Author–date Elsevier style; numbered sections; make the mechanism land        |
-| `jfi-replication-and-data-policy`  | Elsevier data-sharing, Data Statement, `[dataset]` tag                        |
-| `jfi-review-process`               | Single-blind, desk-reject, one-referee, final-decision realities             |
-| `jfi-submission`                   | Editorial Manager preflight + the US$500 fee + JEL/keywords + AI disclosure   |
-| `jfi-rebuttal`                     | Response-letter strategy under a final, unappealable decision                 |
+| `jfi-replication-and-data-policy`  | Elsevier Option C, Data Statement, repository links, `[dataset]` tag          |
+| `jfi-review-process`               | Single-blind, desk-reject, one-referee, limited-appeal realities             |
+| `jfi-submission`                   | Editorial Manager preflight + US$500 fee + abstract/keywords + AI disclosure |
+| `jfi-rebuttal`                     | Response-letter strategy when the editor and expert referee drive the outcome |
 
 ### Resources
 
@@ -144,7 +145,7 @@ jfi-rebuttal
 ## Maintenance notes
 
 - Reopen the live Guide for Authors before giving submission-ready advice.
-- Keep volatile items tied to the source map and re-check the live pages before final advice.
+- Re-check the editorial-board page before naming a Managing Editor or Co-Editor in a cover letter.
 - Fees, editors, data policy, review model, and formatting rules can change.
 
 ---

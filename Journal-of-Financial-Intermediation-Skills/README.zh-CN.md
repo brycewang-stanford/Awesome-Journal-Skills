@@ -19,8 +19,8 @@
 **Editorial Manager** 平台缴纳 **500 美元不可退还的投稿费** 方予审阅；实行 **积极的编辑直接拒稿（desk-reject）**
 政策；采用 **单向匿名（single-blind / 单盲）** 评审，送审后通常至少一位专家审稿人，并只有很有限的一次 appeal 路径；投稿时可选
 免费在 **SSRN** 发布预印本；采用 "your-paper-your-way" 宽松格式，**作者–年份（author–date）的 Elsevier 参考文献
-格式** 在校样阶段统一套用；要求 JEL 分类码与 **1-7 个英文关键词**；遵循 Elsevier **Option C 数据共享** 与
-**数据声明（Data Statement）** 规范；并要求 **强制披露生成式 AI 的使用**。
+格式** 在校样阶段统一套用；摘要不得超过 **250 词**，要求 **1-7 个英文关键词**，可提交 Highlights；遵循
+Elsevier **Option C** 研究数据 deposit / citation / link-or-explain 规范；并要求 **强制披露生成式 AI 的使用**。
 
 ---
 
@@ -35,7 +35,7 @@ JFI 的约束与综合性顶刊或方法类期刊有实质差异：
 | 初筛           | **积极直接拒稿**；送审后通常至少一位专家审稿人；一次 appeal 可被考虑       | 第一道初筛很关键，不能把 appeal 当常规修改路径               |
 | 评审模式       | **单向匿名（单盲）**——审稿人可见作者身份                                  | 正文无需匿名化（不同于双盲期刊）                            |
 | 预印本         | 投稿时可选免费在 **SSRN** 发布；不算重复发表                              | 可公开传播而不影响审稿结果                                  |
-| 分类           | JEL 码 + **1-7 个英文关键词**                                             | 经济学元数据与检索路由都重要                                |
+| 投稿元数据     | 摘要 **≤250 词**，**1-7 个英文关键词**，可选 Highlights                    | 初筛从简洁元数据开始，而不是从长摘要开始                    |
 | 格式           | "your-paper-your-way"；**作者–年份** Elsevier 格式于校样阶段套用          | 投稿时任意一致格式即可；保持作者–年份字段干净              |
 | 数据           | Elsevier **Option C**：deposit/cite/link 或解释不能共享；`[dataset]` 标签 | 无 JAE/AER 式专属存档，但数据共享计划必须明确               |
 | AI 披露        | References 之前须设强制声明                                               | 未披露生成式 AI 使用即为合规问题                            |
@@ -116,10 +116,10 @@ jfi-rebuttal（回应审稿）
 | `jfi-contribution-framing`          | 框定机制与"为何中介重要"的论断                                        |
 | `jfi-tables-figures`                | 编号图表与自洽注释                                                    |
 | `jfi-writing-style`                 | 作者–年份 Elsevier 格式；编号章节；让机制清晰                        |
-| `jfi-replication-and-data-policy`   | Elsevier 数据共享、数据声明、`[dataset]` 标签                        |
-| `jfi-review-process`                | 单盲、直接拒稿、单审稿人、终审不可申诉的现实                          |
-| `jfi-submission`                    | Editorial Manager 投稿前检查 + 500 美元费用 + JEL/关键词 + AI 披露   |
-| `jfi-rebuttal`                      | 终审不可申诉前提下的回应信策略                                        |
+| `jfi-replication-and-data-policy`   | Elsevier Option C、数据声明、repository 链接、`[dataset]` 标签       |
+| `jfi-review-process`                | 单盲、直接拒稿、单审稿人、有限申诉路径的现实                          |
+| `jfi-submission`                    | Editorial Manager 投稿前检查 + 500 美元费用 + 摘要/关键词 + AI 披露 |
+| `jfi-rebuttal`                      | 编辑与专家审稿人主导结果时的回应信策略                                |
 
 ### 资源
 
@@ -140,7 +140,7 @@ jfi-rebuttal（回应审稿）
 ## 维护说明
 
 - 给出投稿级建议前必须重新打开 live author instructions（官方投稿指南）。
-- 易变信息必须和来源地图绑定，最终建议前重新核验 live 页面。
+- 点名 Managing Editor 或 Co-Editor 前，必须重新核验 editorial-board 页面。
 - fee、editor、data policy、review model 与 formatting rules 都可能变化。
 
 ---

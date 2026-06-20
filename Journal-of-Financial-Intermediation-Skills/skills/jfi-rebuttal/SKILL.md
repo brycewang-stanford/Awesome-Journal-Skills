@@ -1,6 +1,6 @@
 ---
 name: jfi-rebuttal
-description: Use when planning an R&R response letter for the Journal of Financial Intermediation (JFI) — single-blind review where referees know you, often a small number of expert reports, an editor whose decision is final, and pushback centered on the intermediation channel. It structures the response; it does not fabricate results.
+description: Use when planning an R&R response letter for the Journal of Financial Intermediation (JFI) — single-blind review where referees know you, often a small number of expert reports, a narrow appeal path, and pushback centered on the intermediation channel. It structures the response; it does not fabricate results.
 ---
 
 # R&R Rebuttal Strategy (jfi-rebuttal)
@@ -10,14 +10,15 @@ description: Use when planning an R&R response letter for the Journal of Financi
 - You received an R&R or a reject-with-encouragement and must reply to referees and the Managing Editor
 - War-gaming likely objections before submitting (pre-mortem)
 
-## JFI-specific posture (verified 2026-06-01; re-confirm on the official page)
+## JFI-specific posture (verified 2026-06-20; re-confirm on the official page)
 
 - Review is **single-anonymized (single-blind)** — referees know who you are, so tone matters and
   gratuitous self-defense reads poorly.
 - A paper may rest on a **minimum of one expert reviewer**, so a single decisive report can shape the
   outcome; treat each point as potentially pivotal.
-- The **editor's decision is final** with no appeals channel — the response letter is your main (and
-  possibly only) instrument; make it count rather than relying on a later escalation.
+- A formal appeal may be possible under Elsevier's appeal policy, but only one appeal per submission is
+  considered and the appeal decision is final. The response letter is still your main instrument; make it
+  count rather than relying on later escalation.
 - The reviewer is a **banking / financial-intermediation specialist** — answer in the field's terms
   (identification of the intermediary mechanism, sample/bank-panel construction, robustness), not generic
   prose.
@@ -58,7 +59,7 @@ firm×time fixed effects on the multi-bank subsample (new Table 5): the coeffici
 −2.1 (s.e. 0.6) but remains significant, and new Section 5.2 shows single-bank firms exhibit the same
 exposure gradient in real outcomes. We interpret the one-third attenuation as borrower–bank sorting, now
 discussed on p. 14." Quote, evidence, exact location — no rhetoric, no re-litigation of the question.
-Because the editor's decision is final, prioritize the one or two comments that decide the paper's fate
+Because the appeal path is narrow, prioritize the one or two comments that decide the paper's fate
 (usually the identification challenge) and give them new exhibits, not the longest prose. When a referee
 proposes an intermediation interpretation you had not considered, test it rather than dismissing it — at
 this venue, an added heterogeneity cut often converts a skeptic into an advocate.
@@ -68,7 +69,7 @@ this venue, an added heterogeneity cut often converts a skeptic into an advocate
 - A defensive tone toward a referee who knows your identity
 - Promising changes without making them, or burying them where the referee cannot find them
 - Treating a single referee's point as ignorable — it may be decisive
-- Banking on an appeal for a decision the journal states is final
+- Banking on a later appeal instead of making the revised manuscript and response decisive
 
 ## Output format
 
