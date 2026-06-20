@@ -13,6 +13,7 @@
 | **ISSN** | 1003-7543 · CN 50-1012/F |
 | **周期** | 月刊 |
 | **收录/地位** | CSSCI · 北大中文核心 · AMI核心 |
+| **官方信息页** | [reform.cqass.net.cn](https://reform.cqass.net.cn/html/2/gylkcs/Index.shtml) |
 | **核验日期** | 2026-06-17 |
 
 **▶ 调用 skill —— [`reform`](../Chinese-SocialScience-Journal-Skills/skills/reform/)：** 选题契合度、框架、方法与证据门槛、写作体例与拒稿雷区。
