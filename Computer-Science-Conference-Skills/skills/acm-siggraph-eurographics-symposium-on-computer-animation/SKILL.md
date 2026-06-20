@@ -48,6 +48,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 
 ## Method & evidence bar
 
+- Clone-audit guardrail: do not let SCA collapse into generic ML, NLP, or health-AI
+  venue language. A SCA paper must foreground motion synthesis, simulation fidelity,
+  character control, contact handling, deformation, crowd behavior, animation editing,
+  or perceptual motion quality. If the paper's novelty is a language resource,
+  general learning algorithm, or clinical model, route away from SCA even if the
+  system renders animated examples.
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.
 - Report ablations that isolate the claimed mechanism; do not rely on aggregate benchmark wins alone.
 - Document data, compute, hyperparameters, model selection, and failure cases so the result can be reviewed as science rather than demo output.

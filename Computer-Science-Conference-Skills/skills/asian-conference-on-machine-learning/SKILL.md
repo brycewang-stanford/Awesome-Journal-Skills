@@ -47,6 +47,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 
 ## Method & evidence bar
 
+- Clone-audit guardrail: ACML is an ML venue, not a generic AI-application
+  parking lot. Keep ACML when the paper advances a learnable objective, model
+  class, inference procedure, generalization analysis, benchmark protocol, or
+  ML application with reusable method insight. If the work is primarily health
+  deployment, data-mining discovery, web search, automated tool construction, or
+  lifelong-learning setting design, compare MLHC/KDD/WSDM/AutoML/CoLLAs before
+  recommending ACML.
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.
 - Report ablations that isolate the claimed mechanism; do not rely on aggregate benchmark wins alone.
 - Document data, compute, hyperparameters, model selection, and failure cases so the result can be reviewed as science rather than demo output.

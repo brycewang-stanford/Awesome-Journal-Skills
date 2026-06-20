@@ -47,6 +47,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 
 ## Method & evidence bar
 
+- Clone-audit guardrail: ICASSP should stay signal-processing first. A paper fits
+  when the contribution changes representation, estimation, filtering,
+  source separation, speech/audio modeling, beamforming, coding, image/signal
+  restoration, or communications-signal inference. If the manuscript is mainly
+  planning, NLP, information retrieval, knowledge capture, or generic ML
+  benchmarking with no signal model, compare ICAPS/COLING/SIGIR/K-CAP/NeurIPS
+  before recommending ICASSP.
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.
 - Report ablations that isolate the claimed mechanism; do not rely on aggregate benchmark wins alone.
 - Document data, compute, hyperparameters, model selection, and failure cases so the result can be reviewed as science rather than demo output.

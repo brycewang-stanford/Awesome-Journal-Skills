@@ -43,6 +43,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 
 ## Method & evidence bar
 
+- Clone-audit guardrail: PacificVis is not a generic interface or visual-media
+  fallback. The manuscript needs a visualization research object: encoding,
+  interaction for sensemaking, visual analytics workflow, evaluation of visual
+  design choices, or domain insight produced through visualization. If the main
+  contribution is an accessibility interaction, image-recognition model, or
+  multimedia retrieval system, compare ASSETS, CHI/UIST, CVPR, or ACM MM first.
 - Match the contribution type to the evidence: controlled study, field deployment, design inquiry, technical system, dataset, or theory.
 - Report participants, recruitment, analysis method, consent/ethics, and limitations with enough detail for HCI review.
 - For AI-infused interfaces, evaluate both model behavior and user experience; either alone is usually insufficient.

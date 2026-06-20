@@ -64,6 +64,24 @@ Changes: "<quoted new manuscript text>" (p. X, lines Y–Z; new SI Appendix Fig.
 
 If a reviewer says the conclusion outruns the data, this is the **most dangerous** comment. Either add the evidence or **narrow the claim** in the title, Significance Statement, abstract, and last paragraph — and say you did. Because the **Significance Statement** is public-facing and broad, re-check it specifically for over-claiming when you narrow (link `pnas-significance`); re-run `pnas-fit` if the narrowed claim weakens broad significance.
 
+## PNAS-specific revision ledger
+
+Build a separate ledger for the parts of a PNAS revision that reviewers and the
+editor can audit quickly:
+
+| PNAS surface | What to verify before response drafting |
+|---|---|
+| Significance Statement | Does the revised statement still make a broad, non-hyped contribution claim and match the narrowed evidence? |
+| Abstract / title | Are the public-facing claims aligned with the strongest validated result rather than the original aspiration? |
+| Main figures | Did each new analysis change a main-text figure, SI Appendix figure, or stated null result? |
+| SI Appendix | Are new robustness, data-processing, and method details findable by reviewer comment number? |
+| Data / code availability | Did any new dataset, software, accession number, or repository change require an updated availability statement? |
+
+When PNAS reviewers ask for extra validation, prefer a response package that
+shows **where** the evidence landed: "new main Fig. 3C", "new SI Appendix Fig.
+S7", "new Methods paragraph", or "new Data Availability sentence." Do not bury
+PNAS-specific changes only in the response letter.
+
 ## Output format
 
 ```
@@ -73,6 +91,7 @@ If a reviewer says the conclusion outruns the data, this is the **most dangerous
 【Comment triage】 Do [...] / Do-partial [...] / Defend [...] / Defer [...]
 【Experiment priority】 ranked by impact × feasibility
 【Claim integrity】 narrowing needed? (re-check Significance Statement + pnas-fit)
+【PNAS revision ledger】 Significance Statement / SI Appendix / data-code availability changes
 【Response letter】 drafted point-by-point with quoted changes
 ```
 

@@ -48,6 +48,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 
 ## Method & evidence bar
 
+- Clone-audit guardrail: MICRO is not interchangeable with systems, networking,
+  or recommender venues. The central mechanism must live below or across the ISA,
+  core, cache, memory hierarchy, accelerator, interconnect, branch/prefetch,
+  scheduling, or hardware/software co-design boundary. If the contribution is a
+  deployed OS service, network protocol, storage system, or application-level
+  recommender workload with no new microarchitectural mechanism, route to
+  OSDI/SOSP/ATC/NSDI/SIGCOMM/RecSys instead.
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.
 - Use appropriate baselines, sensitivity analyses, and workload characterization; systems reviewers look for hidden bottlenecks.
 - Separate engineering effort from research contribution: name the abstraction, mechanism, or tradeoff.

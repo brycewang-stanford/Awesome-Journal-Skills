@@ -116,3 +116,30 @@ publication examples.
   whether the proof speaks to the TCS conversation currently active in that CFP.
   The paper needs theorem novelty and proof architecture, not only algorithmic
   engineering.
+
+## Clone-Audit Triage Notes (2026-06-20)
+
+The clone audit intentionally reports breadth-profile similarities at 0.75+ so
+agents can spot routing drift. Treat the following as current triage rules:
+
+- STOC/FOCS and PLDI/POPL are expected high-similarity sibling pairs. Keep the
+  shared fit-card skeleton, but require theorem/proof or PL-mechanism language
+  in the actual recommendation.
+- CHIL is not a generic ML venue: it needs health inference, clinical data,
+  health-policy relevance, or patient-care validity. Do not route CHIL-shaped
+  language to CPAIOR, KDD, CSCW, FAccT, or ECML PKDD without the corresponding
+  constraint-programming, data-mining, social-computing, fairness, or European
+  ML community evidence.
+- CPAIOR owns constraint programming, AI planning/optimization, and operations
+  research integration. If the paper is mainly data mining, human information
+  interaction, or statistical ML, compare KDD/CHIIR/AISTATS instead.
+- RecSys owns recommender modeling and user-item evaluation. Do not send a
+  recommender workload to SOSP, HotNets, MICRO, or other systems venues unless
+  the contribution is a deployed system, protocol, hardware mechanism, or
+  networked-systems artifact.
+- ICDE, K-CAP, ISWC, and ICPR are separate despite shared "data/knowledge"
+  vocabulary: ICDE is data engineering, K-CAP is knowledge acquisition, ISWC is
+  semantic web, and ICPR is pattern recognition.
+- VRST/IEEE VR/ISMAR/I3D/SIGGRAPH should be separated by immersive interaction,
+  mixed-reality tracking, interactive 3D systems, and graphics/animation
+  contribution. Do not route by "visual" examples alone.

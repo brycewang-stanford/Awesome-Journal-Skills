@@ -47,6 +47,13 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 
 ## Method & evidence bar
 
+- Clone-audit guardrail: ISMAR should not be treated as a vision, medical-imaging,
+  or generic interface venue merely because cameras or displays appear in the
+  system. Keep ISMAR only when mixed/augmented reality is the research object:
+  tracking in situated environments, registration error, spatial perception,
+  display/latency constraints, embodied interaction, or user performance inside
+  an immersive workflow. If the novelty is segmentation, diagnosis, or a static
+  image benchmark, compare MICCAI/CVPR/ISBI instead.
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.
 - Keep the anonymous submission self-contained; external material should follow the current-cycle policy exactly.
 - For generated or foundation-model outputs, show robustness, data provenance, and evaluation beyond cherry-picked visuals.

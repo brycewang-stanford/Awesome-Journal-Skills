@@ -64,6 +64,25 @@ Changes: "<quoted new manuscript text>" (p. X, lines Y–Z; new fig. Sk).
 
 If a reviewer says the conclusion outruns the data, this is the **most dangerous** comment for a Science paper. Either add the evidence or **narrow the claim** in the abstract, title, and last paragraph — and say you did. Re-run `sci-fit` if the narrowed claim weakens broad significance.
 
+## Science-specific revision packet
+
+Science revisions must preserve a compact, high-signal main story while moving
+technical detail into the right support surface. Before writing the response,
+map each requested change onto this packet:
+
+| Science surface | Revision question |
+|---|---|
+| Main-text claim ladder | Which one or two claims still deserve main-text space after the revision? |
+| Figures | Does the new evidence change the main figure logic, not just add another panel? |
+| Supplementary materials | Are added methods, controls, statistics, and sensitivity checks easy to find from the response letter? |
+| Cross-disciplinary readability | Can a broad Science editor understand why the new evidence changes confidence in the central claim? |
+| Scope statement | If the claim narrows, did the abstract, title, first paragraph, and final paragraph all narrow together? |
+
+Do not answer Science reviewers by simply accumulating supplementary analyses.
+The response must explain how the revision sharpens the main claim, what moved
+to supplementary materials, and why the core story still has Science-level
+breadth after any narrowing.
+
 ## Output format
 
 ```
@@ -73,6 +92,7 @@ If a reviewer says the conclusion outruns the data, this is the **most dangerous
 【Comment triage】 Do [...] / Do-partial [...] / Defend [...] / Defer [...]
 【Experiment priority】 ranked by impact × feasibility
 【Claim integrity】 any narrowing needed? (re-check sci-fit)
+【Science revision packet】 main-text claim ladder / figures / supplementary materials / scope statement
 【Response letter】 drafted point-by-point with quoted changes
 ```
 
