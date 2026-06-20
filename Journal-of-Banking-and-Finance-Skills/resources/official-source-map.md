@@ -1,34 +1,63 @@
 # JBF Official Source Map
 
 Primary and authoritative sources behind the *Journal of Banking & Finance* (JBF)
-facts injected into this skill pack. **Access date for all entries: 2026-06-01.**
-Re-verify volatile items (fee, lead editor, data policy wording, abstract caps)
-before relying on them — journal pages change, and several official Elsevier /
-ScienceDirect pages were CAPTCHA / 403-gated to automated fetches at access time
-(noted inline and under UNVERIFIED).
+facts injected into this skill pack. **Policy refresh date: 2026-06-20.** Re-check
+the live ScienceDirect pages before submission because fees, editor rosters, and
+special-issue instructions can change.
 
-## Official journal & publisher pages (Elsevier / ScienceDirect)
+## Official journal & publisher pages
 
-- **https://www.sciencedirect.com/journal/journal-of-banking-and-finance** — JBF homepage on ScienceDirect. Verifies: publisher = Elsevier; submissions handled through the journal homepage. (Editorial-board page returned 403/CAPTCHA to automated fetch — see UNVERIFIED.)
-- **https://www.sciencedirect.com/journal/journal-of-banking-and-finance/publish/guide-for-authors** — Guide for Authors. Verifies: submissions handled exclusively through Elsevier **Editorial Manager**; **USD 350 submission fee** for unsolicited new manuscripts (non-refundable; paper may be rejected without review; discount codes for eligible authors entered in Editorial Manager; proceeds fund academic activities and reviewer rewards for timely, quality reviews); **double anonymized** review (anonymized manuscript + separate title page); free-format / "your paper your way" submission (no strict reference-format requirement at submission; journal style applied at proof stage); **1-7 English keywords** required; **Highlights** encouraged at submission; generative-AI use must be declared at submission; free **SSRN** preprint posting available at submission (posted publicly once it passes initial desk review). NOTE: this page returned **403 Forbidden / CAPTCHA** to automated fetch on 2026-06-01; facts attributed to it were corroborated via official-source-quoting search-result snippets, not a direct page read — **待核实 (verify wording on the live page)**.
-- **https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees** — Elsevier submission-fee policy. Verifies: JBF is among the economics/finance/accounting journals that charge a submission fee; all such journals offer **waivers for authors with limited means and from developing countries**.
-- **https://www.elsevier.com/reviewer/what-is-peer-review/guidelines** — Elsevier peer-review guidance. Verifies: **double anonymized** peer review conceals identities of both authors and reviewers; the anonymized manuscript must omit author names, affiliations, and identifying acknowledgements.
-- **Elsevier research-data policy** (general; linked from the Guide for Authors) — Verifies: authors are encouraged/asked to share research data and to include a **data availability statement**; data may be deposited in a repository (e.g., **Mendeley Data**) and linked, with DOIs recommended. JBF does **not** run a dedicated mandatory data/code archive comparable to the JAE Data Archive or the JFE/AFA replication archives. **待核实** — exact mandatory-vs-encouraged wording could not be read from the blocked ScienceDirect guide.
+- **https://www.sciencedirect.com/journal/journal-of-banking-and-finance** — JBF
+  homepage on ScienceDirect. Verifies: publisher = Elsevier; current metrics;
+  current **Managing Editor = Christa Bouwman** at Texas A&M University; current
+  homepage submission link points to **Editorial Manager**; open-access APC and
+  ScienceDirect decision-time insights are displayed on the journal page.
+- **https://www.sciencedirect.com/journal/journal-of-banking-and-finance/about/editorial-board** —
+  official editorial board. Verifies: **Christa Bouwman** as Managing Editor;
+  Co-Editors **Edith Hotchkiss** and **Xiaoyan Zhang**; a large associate-editor
+  board; and the country/region distribution of the editorial board.
+- **https://www.sciencedirect.com/journal/journal-of-banking-and-finance/publish/guide-for-authors** —
+  Guide for Authors. Verifies: JBF scope covers theoretical and empirical finance
+  and banking, including asset pricing/management, banking, corporate finance,
+  regulation, FinTech, market microstructure, systemic risk, and related areas;
+  the journal receives about 1500 new submissions per year; peer review is
+  **double anonymized** with editor screening and usually at least one reviewer;
+  author submission uses **Editorial Manager**; unsolicited new manuscripts carry
+  a **USD 350 submission fee**; resubmitting an editor-rejected paper counts as a
+  new submission; fees are non-refundable and papers may be rejected before
+  external review; eligible authors can obtain a discount code for use in
+  Editorial Manager.
+- The same Guide verifies submission-format facts: editable Word/LaTeX source
+  files are required; the title page and anonymized manuscript must be separate;
+  the anonymized manuscript must omit author details and acknowledgements; the
+  abstract must be concise/factual and **not exceed 250 words**; **1-7 English
+  keywords** are required; **Highlights** are encouraged at submission and should
+  be 3-5 bullets, each no more than 85 characters; generative-AI use in
+  manuscript preparation must be declared; SSRN preprint posting is offered
+  during submission and becomes public once the paper passes initial desk review.
+- The same Guide verifies research-data and reference facts: for this journal,
+  Elsevier **Option C** applies, so authors are required to deposit research data
+  in a relevant repository and cite/link it, or state why data cannot be shared;
+  a data-availability statement is required at submission and appears with the
+  published article; Data in Brief / MethodsX co-submission is available through
+  Editorial Manager; first submission has no strict reference-format requirement
+  if references are complete and consistent, and JBF's proof-stage style is a
+  numbered Elsevier reference style with dataset and software examples.
+- **https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees** —
+  Elsevier submission-fee policy. Verifies: all Elsevier journals that charge a
+  submission fee offer waivers for authors with limited means and authors from
+  developing countries, while journal-specific details should be checked in the
+  relevant Guide for Authors.
 
-## History, scope, editor, metadata — secondary, cross-checked
+## Current operational notes
 
-- **https://en.wikipedia.org/wiki/Journal_of_Banking_and_Finance** — Verifies: publisher Elsevier; **founded 1977**; **monthly**; **ISSN 0378-4266**; **Christa Bouwman** (Texas A&M University) managing editor from **February 2025**, succeeding **Geert Bekaert** (2015–Feb 2025); journal absorbed *Studies in Banking & Finance* in 1989. Treated as secondary; the official editorial-board page could not be machine-read (see UNVERIFIED).
-
-## Referencing style — secondary, cross-checked
-
-- **https://paperpile.com/s/journal-of-banking-and-finance-citation-style/** — Verifies: JBF uses **author-date (Harvard)** referencing — in-text citations give author surname and year in parentheses; reference list places year after author name.
-- **https://citationsy.com/styles/journal-of-banking-and-finance** — Cross-confirms author-date style (e.g., (Angelou, 1969); (Petit and Sieffermann, 2007)); reference-list entries place year after author surname.
-
-## UNVERIFIED items (待核实)
-
-- **Abstract word cap (待核实)**: no JBF-specific abstract length could be confirmed in retrievable sources. JBF appears to follow Elsevier defaults (commonly a concise abstract, often ≤250 words), but no journal-specific figure was confirmable — recorded as **null / 待核实**.
-- **Lead editor / masthead title (待核实)**: the official ScienceDirect editorial-board page returned 403/CAPTCHA and could not be read directly. Wikipedia and multiple secondary sources state **Christa Bouwman is the lead editor ("Managing Editor") since Feb 2025**; one AI-generated search summary asserted **Iftekhar Hasan (RPI) is "Editor-in-Chief"** — this EiC claim could **not** be confirmed against the official board and may be erroneous. Treat the exact masthead title and any co-editor list as unverified; Bouwman's role as lead/Managing Editor is the better-supported fact.
-- **Guide-for-Authors / editorial-board pages not directly fetchable (待核实)**: ScienceDirect returned 403 Forbidden / CAPTCHA on 2026-06-01. Facts attributed to the Guide for Authors were corroborated via official-source-quoting search-result snippets, not a direct read. Recommend a manual check of the live guide for exact wording (fee amount, keyword count, Highlights, AI declaration, SSRN posting).
-- **Data & replication policy (待核实)**: JBF does not run a dedicated mandatory data/code archive (unlike the JAE Data Archive, AEA/openICPSR, JFE, or AFA archives). Data sharing is governed by general Elsevier research-data policy (data availability statement; Mendeley Data linking). Whether a data availability statement or code package is strictly **mandatory** vs. **encouraged** for JBF specifically could not be verified verbatim from the blocked guide — treated as **encouraged / Elsevier-default**.
-- **Manuscript length & Highlights requirement (待核实)**: JBF states no strict length limit and Highlights are "encouraged" (per Elsevier defaults); JBF-specific hard caps on pages/words could not be confirmed.
-- **JEL classification (待核实)**: finance/economics convention and search snippets indicate JEL codes are expected; the exact mandatory-vs-optional status was not confirmable verbatim.
+- Treat **Editorial Manager** as the submission system.
+- Treat **USD 350** as the active unsolicited-new-manuscript fee and plan the
+  fee/discount-code decision before submission.
+- Treat JBF as **double anonymized**: body manuscript, acknowledgements, metadata,
+  and title page must be separated cleanly.
+- Treat data sharing as stronger than a generic encouragement: either deposit,
+  cite, and link the research data, or make an explicit non-sharing statement.
+- Treat JEL codes as finance/economics convention rather than a JBF-specific
+  requirement in the currently inspected Guide text; keep them in the checklist
+  as helpful metadata, not as a hard journal rule.

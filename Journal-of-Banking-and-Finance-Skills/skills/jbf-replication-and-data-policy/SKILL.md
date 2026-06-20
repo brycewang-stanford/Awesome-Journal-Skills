@@ -1,6 +1,6 @@
 ---
 name: jbf-replication-and-data-policy
-description: Use when preparing the data availability statement, code archive, Mendeley Data or repository materials, and proprietary-data documentation for a Journal of Banking & Finance manuscript under Elsevier research-data expectations.
+description: Use when preparing the required data statement, code archive, repository deposit/link, and proprietary-data documentation for a Journal of Banking & Finance manuscript under Elsevier Option C research-data expectations.
 ---
 
 # Replication & Data Policy (jbf-replication-and-data-policy)
@@ -13,11 +13,13 @@ description: Use when preparing the data availability statement, code archive, M
 
 ## Policy stance
 
-JBF follows Elsevier research-data expectations rather than a dedicated journal-run
-replication archive. The exact JBF-specific mandatory wording should be checked on
-the live Guide for Authors. Treat data/code sharing as expected good practice:
-include a data availability statement, share what can be shared, and document what
-cannot be redistributed.
+JBF follows Elsevier **Option C** research-data instructions. At submission, authors
+must state data availability. For shareable data, deposit the research data in a
+relevant repository and cite/link it in the article. If data cannot be shared,
+state why (for example, proprietary, sensitive, confidential, or licensing limits).
+JBF does not operate a dedicated journal-run replication archive, so the practical
+package should combine a repository deposit where rights allow, code, metadata,
+and a precise access route for restricted inputs.
 
 ## Package structure
 
@@ -92,7 +94,7 @@ pipeline without them.
 - [ ] the synthetic or masked sample passes every script end to end
 - [ ] vendor vintages and download dates recorded for Bank Focus, DealScan, and any WRDS pulls
 - [ ] no author-identifying paths or initials in code comments (double-anonymized review)
-- [ ] repository or Mendeley Data deposit linked in the data availability statement where rights allow
+- [ ] repository deposit linked and cited where rights allow, or non-sharing reason stated clearly
 
 A package failing two or more boxes usually signals deeper pipeline debt; route back to `jbf-data-analysis` before drafting the statement.
 
@@ -100,7 +102,7 @@ A package failing two or more boxes usually signals deeper pipeline debt; route 
 
 - "The package cannot run without DealScan." → ship a synthetic or masked sample that exercises every script end to end.
 - "Which Bank Focus vintage?" → record vendor vintage and download date; bank coverage shifts across vintages.
-- "Confidential supervisory data make this unreviewable." → document the authority's access procedure and provide all code plus aggregate moments; confirm acceptable wording against the journal's current author guidelines.
+- "Confidential supervisory data make this unreviewable." → document the authority's access procedure and provide all code plus aggregate moments; the data statement must explain the access limits.
 
 ## Output format
 

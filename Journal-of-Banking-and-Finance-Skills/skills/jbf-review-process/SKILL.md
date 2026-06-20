@@ -11,10 +11,10 @@ description: Use when you need to understand the Journal of Banking & Finance (J
 - After submission, to interpret status changes in Editorial Manager
 - When deciding how to engage with the fee, the desk screen, and reviewers
 
-## How JBF review works (verified 2026-06-01; lead-editor masthead 待核实)
+## How JBF review works (verified 2026-06-20)
 
 - **Publisher / platform.** Elsevier; the editorial pipeline runs in **Editorial Manager**, reached from the journal homepage on ScienceDirect.
-- **Lead editor.** **Christa H. S. Bouwman** (Texas A&M University) has led the journal since **February 2025**, succeeding **Geert Bekaert** (2015–Feb 2025). The journal's lead masthead title appears to be **"Managing Editor."** A secondary AI-generated claim naming Iftekhar Hasan as "Editor-in-Chief" could not be confirmed against the official board — **待核实**; treat the exact title and co-editor list as unverified.
+- **Managing Editor.** **Christa Bouwman** (Texas A&M University) is listed by ScienceDirect as Managing Editor. Current Co-Editors are **Edith Hotchkiss** and **Xiaoyan Zhang**.
 - **The fee funds review quality.** The **USD 350 non-refundable** submission fee is explicitly used to fund academic activities and **reviewer rewards for timely, high-quality reports**. This is unusual among top finance journals and signals an emphasis on review turnaround.
 - **Desk screen first.** Editors can **desk-reject without sending the paper to referees** — even after the fee is paid. A clean, on-scope, well-anonymized submission is what clears this first screen. Free **SSRN** posting becomes available once the paper passes this initial desk review.
 - **Double-anonymized refereeing.** Identities of both authors and reviewers are concealed. Referees assess scope fit (banking / intermediation / capital markets / corporate finance / regulation), contribution, identification, data, and robustness.
@@ -32,7 +32,7 @@ description: Use when you need to understand the Journal of Banking & Finance (J
 - **"With Editor" for an extended period** usually means the desk screen or referee recruitment, not a hidden verdict; JBF recruits referees by banking/markets subfield, which can take longer for niche topics. Do not infer outcomes from status text.
 - **"Under Review"** — referees secured. The reviewer-reward design favors timely reports, but do not assume a specific turnaround; confirm any timing expectation against the journal's current author guidelines.
 - **A status reverting** (e.g., back to "With Editor") commonly reflects a referee dropping out, not a decision being drafted.
-- Polite status queries after a long silence go through Editorial Manager — never to a guessed editor name (masthead details 待核实).
+- Polite status queries after a long silence go through Editorial Manager — never to a guessed editor name.
 
 ## Desk-screen failure patterns at JBF
 
@@ -65,4 +65,4 @@ Reports at this venue typically work through: scope fit; the contribution delta 
 
 ## Supplementary resources
 
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — sources for editor, fee, and review-model facts (and 待核实 notes)
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — sources for editor, fee, review-model, data-policy, and submission facts

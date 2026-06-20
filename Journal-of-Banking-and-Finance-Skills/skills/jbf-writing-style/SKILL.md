@@ -1,6 +1,6 @@
 ---
 name: jbf-writing-style
-description: Use when polishing Journal of Banking & Finance prose, structure, abstracts, introductions, variable definitions, result paragraphs, and Elsevier author-date reference style for a concise finance-journal manuscript.
+description: Use when polishing Journal of Banking & Finance prose, structure, abstracts, introductions, variable definitions, result paragraphs, and Elsevier numbered-reference readiness for a concise finance-journal manuscript.
 ---
 
 # Writing Style (jbf-writing-style)
@@ -33,9 +33,9 @@ The estimate is robust to [key check], supporting [mechanism].
 
 ## Elsevier/JBF submission style notes
 
-- First submission is free-format, but use a consistent author-date style.
-- Prepare 1-7 keywords and JEL codes.
-- Highlights are encouraged; make them result-forward and short.
+- First submission has no strict reference-format requirement if references are complete and consistent; prepare for JBF's proof-stage numbered Elsevier reference style.
+- Prepare 1-7 English keywords; keep JEL codes as useful finance metadata rather than a verified hard requirement.
+- Highlights are encouraged; make them 3-5 result-forward bullets, each no more than 85 characters.
 - Declare generative-AI use when applicable.
 - Keep anonymization intact under double-anonymized review.
 
@@ -49,7 +49,7 @@ The estimate is robust to [key check], supporting [mechanism].
 
 ## Abstract calibration for JBF
 
-A JBF-ready abstract typically runs four to six sentences: question, setting and data, design, headline magnitude in finance units, and one bounded implication. Elsevier defaults often cap abstracts near 250 words — confirm against the journal's current author guidelines.
+A JBF-ready abstract typically runs four to six sentences: question, setting and data, design, headline magnitude in finance units, and one bounded implication. The current Guide caps the abstract at **250 words**.
 
 ```text
 [Question] Does X friction change Y bank/market outcome?
@@ -104,6 +104,6 @@ This prevents significance-only prose and forces the mechanism into the result p
 [Main edit] ...
 [Magnitude wording] ...
 [Claim boundary] ...
-[Submission polish] keywords / JEL / highlights / declarations
+[Submission polish] keywords / optional JEL / highlights / declarations
 [Next step] jbf-submission
 ```

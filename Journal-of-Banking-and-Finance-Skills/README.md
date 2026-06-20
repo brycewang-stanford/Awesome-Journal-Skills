@@ -7,10 +7,10 @@ regulation.
 
 This pack is built for empirical and theory-backed finance papers that need a
 JBF-specific path from topic fit through Editorial Manager submission and R&R.
-Volatile details such as the submission fee, exact editor title, data-policy
-wording, and abstract limits must be checked against the live Elsevier Guide for
-Authors before submission; the local source map records what was checked on
-2026-06-01.
+Core policy facts were refreshed from official ScienceDirect/Elsevier pages on
+2026-06-20: Editorial Manager submission, USD 350 unsolicited-manuscript fee,
+double-anonymized review, 250-word abstract, required data statement / Option C
+data deposit-or-explain policy, and current Managing Editor Christa Bouwman.
 
 ## Skills
 
@@ -23,7 +23,7 @@ Authors before submission; the local source map records what was checked on
 | `jbf-data-analysis` | Build samples, estimates, robustness, and reproducible empirical pipelines. |
 | `jbf-tables-figures` | Prepare finance-style tables, event-study plots, and appendix exhibits. |
 | `jbf-contribution-framing` | Make the "so what" clear for JBF editors and referees. |
-| `jbf-writing-style` | Polish concise Elsevier/JBF prose and author-date references. |
+| `jbf-writing-style` | Polish concise Elsevier/JBF prose, numbered-reference readiness, and result-forward style. |
 | `jbf-replication-and-data-policy` | Prepare data availability, code sharing, and proprietary-data notes. |
 | `jbf-review-process` | Understand desk screening, double-anonymized review, and decision paths. |
 | `jbf-submission` | Run the Editorial Manager preflight. |
@@ -31,8 +31,8 @@ Authors before submission; the local source map records what was checked on
 
 ## Source Basis
 
-- `resources/official-source-map.md` records official and secondary sources,
-  including ScienceDirect / Elsevier pages and unresolved items.
+- `resources/official-source-map.md` records official ScienceDirect / Elsevier
+  sources for submission, review, data, and style facts.
 - `resources/external_tools.md` lists common banking/finance data, Stata/R/Python
   tools, and reproducibility resources.
 

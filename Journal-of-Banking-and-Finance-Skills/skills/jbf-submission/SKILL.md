@@ -1,6 +1,6 @@
 ---
 name: jbf-submission
-description: Use when running the final pre-submission preflight for the Journal of Banking & Finance (JBF) via Elsevier Editorial Manager — the USD 350 submission fee, double-anonymized manuscript plus separate title page, free-format submission, author-date references, keywords/JEL, Highlights, SSRN posting, and the generative-AI declaration. Final checks; it does not draft content.
+description: Use when running the final pre-submission preflight for the Journal of Banking & Finance (JBF) via Elsevier Editorial Manager — the USD 350 submission fee, double-anonymized manuscript plus separate title page, 250-word abstract, keywords, Highlights, SSRN posting, data statement, and the generative-AI declaration. Final checks; it does not draft content.
 ---
 
 # Submission Preflight (jbf-submission)
@@ -11,23 +11,29 @@ description: Use when running the final pre-submission preflight for the Journal
 - Unsure what Editorial Manager expects at initial submission
 - Confirming anonymization, fee, and declarations are JBF-compliant
 
-## Process facts (verified 2026-06-01; re-confirm on the official guide — several Elsevier/ScienceDirect pages were CAPTCHA/403-gated)
+## Process facts (verified 2026-06-20 on the official ScienceDirect guide)
 
 - **Elsevier**; submission exclusively through **Editorial Manager** (via the journal homepage on ScienceDirect).
 - A **USD 350 fee** applies to unsolicited new manuscripts, paid in Editorial Manager. It is **non-refundable**, and a paper may be **desk-rejected without review** even after payment. **Waiver/discount codes** exist for authors with limited means or from developing countries — request one pre-submission, then enter it in Editorial Manager.
 - Review is **double anonymized**: an **anonymized manuscript** (no names, affiliations, or identifying acknowledgements) plus a **separate title page**.
-- **Free-format ("your paper your way")**: no strict length limit; any consistent reference style at first submission, with Elsevier author-date (Harvard) applied at proof.
-- Provide **1-7 English keywords**; **JEL codes** expected (待核实). **Highlights** encouraged. **Generative-AI use must be declared**. Free **SSRN** posting is offered (public once past initial desk review). Abstract cap not JBF-specified; Elsevier default (often ≤250 words) likely — 待核实.
+- Provide editable Word/LaTeX source files; Editorial Manager converts uploaded article files into a single peer-review PDF.
+- First submission has no strict reference-format requirement if references are complete and consistent; JBF's proof-stage style is numbered Elsevier references.
+- Provide **1-7 English keywords**. Keep JEL codes if useful for finance discoverability, but do not treat them as a current JBF hard rule.
+- **Abstract:** concise/factual and **≤250 words**.
+- **Highlights:** encouraged, submitted as a separate editable file, **3-5 bullets**, each no more than **85 characters**.
+- **Data:** Elsevier Option C applies. Deposit/cite/link research data or state why data cannot be shared; a data statement is required at submission.
+- **Generative-AI use must be declared**. Free **SSRN** posting is offered (public once past initial desk review).
 
 ## Preflight checklist
 
 - [ ] Anonymized manuscript (no identity in body or PDF metadata; self-citations neutral)
 - [ ] Separate **title page** (authors, affiliations, corresponding author, acknowledgements, funding)
-- [ ] Consistent references; 1-7 keywords; JEL codes; Highlights (3-5 bullets)
+- [ ] Consistent references; 1-7 English keywords; optional JEL codes; Highlights (3-5 bullets, <=85 characters each)
+- [ ] Abstract is concise/factual and <=250 words
 - [ ] Fee path settled: pay **USD 350** or enter an approved waiver/discount code
 - [ ] Declared any **generative-AI** use; opted into **SSRN** posting if desired
 - [ ] Suggested/excluded reviewers; cover letter (question, design, headline result, JBF fit)
-- [ ] COI/funding disclosures; not under review elsewhere; data availability statement (see jbf-replication-and-data-policy)
+- [ ] COI/funding disclosures; not under review elsewhere; data statement plus deposit/link or non-sharing reason (see jbf-replication-and-data-policy)
 
 ## Cover letter skeleton (JBF-tuned)
 
@@ -45,7 +51,7 @@ and data availability statement are complete in Editorial Manager.
 
 ## Highlights drafting (illustrative)
 
-Elsevier Highlights are short result bullets (the common convention is 3-5 bullets of roughly 85 characters each — confirm against the journal's current author guidelines):
+Elsevier Highlights are short result bullets: 3-5 bullets, each no more than 85 characters including spaces.
 
 - "LCR adoption shifts large-bank lending toward short maturities" — good: result-forward.
 - "We study liquidity regulation using a large panel" — bad: describes activity, not a finding.
@@ -79,7 +85,7 @@ Elsevier Highlights are short result bullets (the common convention is 3-5 bulle
 ```
 【Anonymization】body + metadata clean; title page separate? [Y/N]
 【Fee】USD 350 paid OR waiver code entered? [Y/N]
-【Keywords/JEL】1-7 keywords + JEL set? [Y/N]
+【Keywords/JEL】1-7 English keywords + optional JEL set? [Y/N]
 【Declarations】AI use + COI/funding + data statement? [Y/N]
 【Next step】await desk screen → jbf-review-process; R&R → jbf-rebuttal
 ```

@@ -20,10 +20,10 @@ orientation. This pack is tuned to that nature, not to generic finance writing.
 4. `jbf-data-analysis` — sample construction, estimation, and the robustness JBF referees expect.
 5. `jbf-tables-figures` — clear exhibits with self-contained notes.
 6. `jbf-contribution-framing` — make the "so what" land for banking/finance readers and policy audiences.
-7. `jbf-writing-style` — Elsevier author-date (Harvard) house style; concise, results-forward prose.
-8. `jbf-replication-and-data-policy` — Elsevier data-availability statement + Mendeley Data sharing (no journal-run archive — 待核实).
+7. `jbf-writing-style` — concise, results-forward prose plus numbered-reference readiness.
+8. `jbf-replication-and-data-policy` — Elsevier Option C data statement plus deposit/link-or-explain package.
 9. `jbf-review-process` — what double-anonymized review and the desk screen involve.
-10. `jbf-submission` — Editorial Manager preflight: USD 350 fee, anonymized manuscript + title page, keywords/JEL, Highlights, AI declaration.
+10. `jbf-submission` — Editorial Manager preflight: USD 350 fee, anonymized manuscript + title page, 250-word abstract, keywords, Highlights, AI declaration, data statement.
 11. `jbf-rebuttal` — response-letter strategy for an R&R.
 
 ## Quick routing
@@ -34,7 +34,7 @@ orientation. This pack is tuned to that nature, not to generic finance writing.
 - Submitting this week → `jbf-submission` (then `jbf-review-process`)
 - Got an R&R → `jbf-rebuttal`
 
-Verify volatile specifics (fee, lead editor, data policy) on the official
+Verify volatile specifics (fee, editor roster, special-issue instructions) on the official
 ScienceDirect Guide for Authors — see `resources/official-source-map.md`.
 
 ## Router diagnostics
@@ -83,5 +83,5 @@ A draft asks whether the Basel III liquidity coverage ratio shifted bank lending
 [Blocking symptom] ...
 [Route] jbf-... sub-skill
 [Re-entry check] which gate to re-test after the fix
-[Volatile facts] fee / editor / data policy — re-verify via official-source-map
+[Volatile facts] fee / editor roster / calls — re-verify via official-source-map
 ```

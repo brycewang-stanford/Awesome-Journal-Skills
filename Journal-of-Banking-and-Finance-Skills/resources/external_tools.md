@@ -3,10 +3,10 @@
 Data sources, software, and packages useful when preparing a *Journal of Banking &
 Finance* (JBF) submission — typically an empirical study of banks, financial
 intermediaries, capital markets, investments, corporate finance, or financial
-regulation, with a credible research design, robustness, and (encouraged) shared
-data. Check licenses and current access terms before use. Volatile JBF specifics
-(USD 350 fee, lead editor, data-policy wording) should be verified on the live
-ScienceDirect Guide for Authors — see `official-source-map.md`.
+regulation, with a credible research design, robustness, and a data statement.
+Check licenses and current access terms before use. Current JBF specifics were
+refreshed from ScienceDirect / Elsevier on 2026-06-20 — see
+`official-source-map.md`.
 
 ## 1. Data sources
 
@@ -75,28 +75,28 @@ ScienceDirect Guide for Authors — see `official-source-map.md`.
 - Report winsorization, variable definitions, and sample-selection waterfalls
 - Vector output (PDF/EPS) for print resolution; self-contained table/figure notes
 
-## 5. Reproducibility & data sharing (JBF: encouraged via Elsevier — 待核实)
-- JBF follows general Elsevier research-data policy: include a **data availability statement**; deposit shareable data in a repository such as **Mendeley Data** and link with a DOI. JBF does **not** run a dedicated mandatory data/code archive (unlike JAE/JFE/AFA) — confirm current wording on the live Guide for Authors.
+## 5. Reproducibility & data sharing (JBF / Elsevier Option C)
+- JBF follows Elsevier **Option C** research-data instructions: deposit research data in a relevant repository and cite/link it in the article, or state why the data cannot be shared. A data statement is required at submission and appears with the published article.
 - Pin software/package versions; provide one master script (`run_all`) regenerating every table and figure; set and report random seeds for any bootstrap/simulation.
 - Document data licenses; much core data (CRSP, Compustat, Dealscan, Bankscope) is **proprietary** and cannot be redistributed — share code plus a data-access README instead.
 
 ## 6. Writing & references
-- Reference managers: Zotero, BibTeX/BibLaTeX, EndNote — set to **author-date (Harvard)** style (Elsevier journal style applied at proof stage; any consistent style accepted at first submission under free-format)
-- Provide 1-7 English keywords and JEL classification codes; Highlights are encouraged
+- Reference managers: Zotero, BibTeX/BibLaTeX, EndNote — first submission may use any complete, consistent reference style; prepare for JBF's numbered Elsevier style at proof stage
+- Provide 1-7 English keywords; keep JEL classification codes as optional finance metadata; Highlights are encouraged
 - Free integrated **SSRN** preprint posting is offered at submission (posted once past initial desk review)
 
 ## 7. Process & portal
 | Item | Note |
 |------|------|
 | Submission portal | Elsevier **Editorial Manager** (via the journal homepage) |
-| Submission fee | **USD 350**, non-refundable, paid in Editorial Manager; waiver/discount codes for eligible authors — verify amount on the live guide |
+| Submission fee | **USD 350**, non-refundable, paid in Editorial Manager; waiver/discount codes for eligible authors |
 | Review model | **Double anonymized** — anonymized manuscript + separate title page |
-| Data sharing | Data availability statement + Mendeley Data (encouraged; no journal-run archive — 待核实) |
+| Data sharing | Elsevier Option C: data statement plus deposit/cite/link, or explain why data cannot be shared |
 | AI declaration | Generative-AI use must be declared at submission |
 | Publisher | Elsevier |
 
 ## 8. Cautions
-1. **Verify volatile specifics** (fee, lead editor, data-policy wording, abstract cap) on the official ScienceDirect Guide for Authors — several official pages were CAPTCHA/403-gated at access time.
+1. **Verify volatile specifics** (fee, editor roster, special-issue instructions) on the official ScienceDirect pages before submission.
 2. **Respect data licenses** — CRSP/Compustat/Dealscan/Bankscope are proprietary; share code and access instructions, not the raw data.
 3. **Match estimator to design** — plain TWFE on staggered policy timing, or system GMM with an unchecked instrument count, are known pitfalls in bank panels.
 4. **Anonymize fully** under double-anonymized review — scrub author identity from the manuscript and PDF metadata; keep the title page separate.

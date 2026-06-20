@@ -5,11 +5,12 @@
 > field journal (ISSN 0378-4266) — with year and volume/issue, against the publisher record on
 > ScienceDirect (`sciencedirect.com/.../journal-of-banking-and-finance`), the IDEAS/RePEc series record
 > (`ideas.repec.org/a/eee/jbfina/...`), EconPapers, and corroborating Google Scholar lookups carrying the
-> journal name. Papers that could not be fully verified **as JBF** were **omitted** — this is deliberately
+> journal name. Papers without full verification **as JBF** were **omitted** — this is deliberately
 > a short, clean list, not a long, uncertain one.
 >
-> **Publisher / identity.** JBF is published by **Elsevier** and handled through Editorial Manager; it
-> uses **author-date (Harvard)** referencing. For JBF-specific scope, fees, blinding, and house style, see
+> **Publisher / identity.** JBF is published by **Elsevier** and handled through Editorial Manager; first
+> submission permits any complete, consistent reference style and proof-stage style is numbered Elsevier.
+> For JBF-specific scope, fees, blinding, and house style, see
 > [`../official-source-map.md`](../official-source-map.md).
 >
 > **Sibling-journal guard (read this before citing anything).** JBF is a strong field journal, but it sits
