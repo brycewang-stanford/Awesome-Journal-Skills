@@ -38,6 +38,10 @@ A JAIS exhibit should have a single job a reader can state in a sentence. A resu
 - Keep figures legible in grayscale print; do not rely on color or interactivity to convey meaning.
 - Number and reference every exhibit in the text; an exhibit the prose never points to is noise.
 
+## The required SEM matrix is an exhibit, not an afterthought
+
+For SEM studies JAIS requires "a full correlation matrix or covariation matrix as a part of articles (appendix)," plus descriptives (检索于 2026-06；以官网为准). Treat this as a first-class exhibit you design now: label the constructs clearly, report means, standard deviations, and the inter-construct correlations (with reliabilities on the diagonal where conventional), and place it in the appendix the body points to. Reviewers and Senior Editors use it to re-check discriminant validity and to spot multicollinearity the path diagram hides; an SEM paper that omits it invites an administrative or first-round return.
+
 ## Mind the length budget through exhibits
 
 Bloated exhibits push the manuscript toward the **~15,000-word extra-scrutiny zone and the 65-page hard ceiling**. Consolidate redundant tables, move secondary robustness exhibits to an appendix file (while keeping the body self-contained for the main claims), and prefer one clear figure over three partial ones.

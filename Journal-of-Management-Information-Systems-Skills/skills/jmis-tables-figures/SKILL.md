@@ -64,6 +64,9 @@ JMIS uses **numbered bracketed citations [n]** with an alphabetized reference li
 - A staggered-DID paper with no event-study/leads figure
 - A survey paper missing discriminant-validity evidence
 - Color-only figures that fail in grayscale
+- A "kitchen-sink" main table with no marked preferred specification
+- Author-date references in a table note when JMIS uses numbered brackets
+- Figures or screenshots that de-anonymize the author or proprietary data source in a blind file
 
 ## Common exhibit defects JMIS referees flag
 

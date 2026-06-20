@@ -23,6 +23,10 @@ JAIS runs a **double-blind** process: the Editor-in-Chief routes a submission, t
 
 Because JAIS has seven categories each with its own SE, **the category you chose at submission determines who reviews you and against what bar**. A Theory submission is read for generative theory; a Foundational submission for disciplined description of a novel phenomenon; a Literature Review for method and theoretical payoff. If a paper is mis-categorized, expect a fit challenge or a re-route before substantive review — which is why category selection (`jais-topic-selection`) is upstream of everything.
 
+## What the seven Senior Editors signal about routing
+
+Each category's Senior Editor brings that genre's standards, so the *identity* of your handling editor is a clue to what your reviews will emphasize. A Theory submission routed to the Theory SE will be pressed hardest on construct novelty and generativity; a Literature Review under Gregory Vial on method and theoretical payoff; a Research Perspective under Dirk Hovorka on the strength and defensibility of the argument; a Foundational submission under Varun Grover on disciplined description of a genuinely novel phenomenon; a Policy and Impact paper under Roman Beck on the credibility of the research-to-policy bridge (SE names 待核实 — confirm before relying on them). If your paper would be stronger under a different category's bar, that is a topic-selection signal, not a review-process one.
+
 ## Read the decision letter for what it actually says
 
 | Decision | What it usually means | Your move |

@@ -33,6 +33,10 @@ Because JAIS treats theory as a first-class contribution, the narrative spine is
 - Define every construct on first use; do not assume cross-tradition familiarity.
 - Keep the abstract a faithful, self-contained summary of phenomenon, theory, method, and contribution.
 
+## Match the prose register to the category
+
+JAIS's categories carry different rhetorical contracts, and the prose should honor the one you chose. A **Theory** paper reads as a sustained conceptual argument — definitions, logic, propositions — where every paragraph advances the construct or framework. A **Research Perspectives** paper is allowed (indeed expected) to take a position and argue it, with a more essayistic, persuasive voice. **Foundational Research** prose should be vivid and descriptive about the novel phenomenon, resisting premature abstraction. A **Research Article** keeps the theory-first spine but moves briskly into design and evidence. Writing a Theory paper in the clipped hypothesis-test register of a Research Article (or vice versa) signals category confusion before a reviewer reaches the contribution.
+
 ## Respect double-blind anonymity in the prose
 
 Word self-citations neutrally ("prior research (Author, 2020) found…"), not "in our earlier work." Strip acknowledgments, funding, and identifying site/dataset names from the body; they belong on the separate title page. Anonymity failures in the prose cause administrative returns before review.

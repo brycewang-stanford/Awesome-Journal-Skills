@@ -65,6 +65,9 @@ JMIS is a quarterly with a single EIC and a board of AEs; turnaround depends on 
 - Assuming a fast portal-style turnaround — this is an EIC-led email process
 - Treating a desk return for length/anonymization as a substantive rejection
 - Quoting acceptance rates or review times as fact without a source
+- Revising a paper whose core problem is fit, on sunk-cost grounds, instead of rerouting
+- Treating the referee reports as the decision rather than the AE's synthesizing letter
+- Underestimating how front-loaded scope discipline is in an EIC-managed intake
 
 ## Decide whether to revise or reroute
 

@@ -30,6 +30,10 @@ The category you chose sets the kind of contribution reviewers expect. A mismatc
 | **Foundational Research** | the first disciplined account of a novel digital phenomenon, with new or pre-theoretical insight |
 | **Policy and Impact** | a credible translation from IS research to policy |
 
+## "Interesting" is a JAIS criterion, not a flourish
+
+The about-page phrase "innovative, interesting and rigorously developed" is doing evaluative work. JAIS rewards contributions that challenge an assumption the field holds, surface a counterintuitive mechanism, or reframe a settled debate — not contributions that merely confirm an expected effect with cleaner data. When you frame the contribution, test it against this bar: *which prior belief does this unsettle?* A paper that answers "none, but our estimate is more precise" is rigorous but not interesting, and at JAIS that is a reason for rejection, not a minor revision. Pair the surprise with the rigor; one without the other does not clear the bar.
+
 ## Frame it in one auditable sentence
 
 Write: *"Before this paper, IS scholars [believed / could not / lacked X]; this paper shows [Y], which changes [Z]."* Then check that every section earns its place against that sentence. The abstract and introduction should let a reviewer from a *different* tradition grasp the contribution without your sub-field's shorthand — pluralism means your reader may not share your priors.

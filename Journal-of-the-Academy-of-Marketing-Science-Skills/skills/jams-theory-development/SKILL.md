@@ -74,6 +74,12 @@ Many measurement problems are really theory problems, so catch them now: a const
 - **Construct sprawl**: many overlapping constructs with no discriminant logic
 - **A mechanism with no managerial consequence** anyone could act on
 
+## Anti-patterns (continued)
+
+- **Borrowing a lens you do not use:** naming a theory in the front end that never constrains a hypothesis or interpretation.
+- **A model figure that overpromises:** boxes and arrows the empirics will not actually test.
+- **Propositions with no logic** in a conceptual paper — assertions are not theory.
+
 ## Output format
 
 ```text

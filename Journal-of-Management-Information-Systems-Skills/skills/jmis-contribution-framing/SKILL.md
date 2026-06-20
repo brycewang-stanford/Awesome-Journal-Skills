@@ -63,6 +63,9 @@ JMIS prizes work that contributes to *both* IS theory and IS practice, and the j
 - An implicit contribution the reader must infer from tables
 - Overclaiming a causal or general effect the design cannot support
 - A contribution sentence in the intro that the discussion silently contradicts
+- Claiming a contribution whose verb mismatches the genre (e.g., "we propose a construct" for an empirical paper)
+- A theory contribution with only generic practice advice, or strong practice with no theory — half a JMIS contribution
+- A contribution that depends on a volatile process fact left unverified against the source map
 
 ## Calibrate the contribution to the genre's currency
 

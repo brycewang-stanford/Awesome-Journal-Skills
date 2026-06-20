@@ -66,6 +66,9 @@ On IT-value and platform papers, the most common first-round attack is "this cou
 - Discriminant validity skipped; constructs that empirically overlap treated as distinct
 - ML accuracy against strawman baselines, or with no out-of-sample check
 - Significance stars with no economic magnitude or managerial interpretation
+- Waiting for the reverse-causality objection instead of pre-empting it with timing/within-unit/sensitivity evidence
+- A robustness section that adds specifications without naming the threat each one defends against
+- A load-bearing analysis that exists only in the online appendix, not the body
 
 ## Keep the analysis reproducible and self-contained
 

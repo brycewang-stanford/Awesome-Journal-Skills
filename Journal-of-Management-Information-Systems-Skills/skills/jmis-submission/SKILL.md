@@ -59,6 +59,9 @@ Keep the package as two deliberately separated parts. (1) The **anonymized manus
 - A manuscript over 50 pages, or an abstract over 150 words / with citations
 - Author-date references when JMIS requires numbered brackets
 - Bundling the cover letter into the anonymized file, or omitting survey-instrument attachments
+- Measuring page count on a single-spaced draft, then overrunning once 12pt double-spacing is applied
+- A stray citation in the abstract, or a [n] that does not map to the alphabetized reference list
+- Leaving identifying metadata in the Word/PDF file properties of an otherwise blind manuscript
 
 ## Last-mile checks that catch real returns
 

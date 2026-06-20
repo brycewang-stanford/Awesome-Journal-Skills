@@ -37,6 +37,10 @@ Name the source of variation — a platform/policy change, a staggered rollout, 
 
 A JAIS design-science paper lives or dies on **evaluation tied to design principles**. Decide before building how you will demonstrate utility: held-out benchmarks against credible baselines, a controlled experiment or A/B field deployment, simulation, or expert evaluation — and connect each back to a design proposition. "We built it and it ran" is not an evaluation.
 
+## Design science: anchor in a recognized DSR tradition
+
+A JAIS design-science paper should make its design-research logic legible: state the relevant problem, the kernel/justificatory theory behind the design choices, the generalizable design principles, and the evaluation that will test them. The artifact is the vehicle; the prescriptive, reusable design knowledge is the contribution — which is also why JAIS routes such work through its theory-forward lens rather than treating "we built a working system" as sufficient.
+
 ## Qualitative/interpretive: make philosophical stance explicit
 
 JAIS welcomes interpretive and critical work, so state your paradigm (positivist, interpretive, critical, design) and let it govern the criteria you invite reviewers to apply. Build a traceable chain from raw data to constructs and an audit trail; trustworthiness, not p-values, is the currency.

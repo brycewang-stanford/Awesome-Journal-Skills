@@ -65,6 +65,9 @@ JMIS prose goes into a fully anonymized file, so the writing itself must not lea
 - Author-date phrasings that fight JMIS's numbered-reference style
 - "Implications for practice" that no manager could act on
 - Polishing prose while the mechanism or identification is still moving
+- Drifting between synonyms for one construct, so reviewers doubt the measurement
+- First-person self-citations ("in our earlier study") that break double-blind anonymization
+- Importing reference-discipline jargon without glossing it for an IS reader
 
 ## Keep the IS vocabulary precise and consistent
 

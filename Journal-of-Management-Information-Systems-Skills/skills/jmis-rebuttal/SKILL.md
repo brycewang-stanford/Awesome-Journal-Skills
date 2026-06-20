@@ -63,6 +63,9 @@ A referee demands an instrument you do not have. Arguing "no valid instrument ex
 - Silently following one referee against another without explaining the reconciliation
 - "We have addressed this" with no pointer to the change or new evidence
 - Letting added analyses push the paper past 50 pages or break anonymization
+- A response the AE cannot verify against the manuscript without hunting for the change
+- Answering a contested request literally instead of resolving the underlying concern with available evidence
+- Reintroducing identifying details in the revision letter or revised manuscript
 
 ## Structure the response document for fast adjudication
 
