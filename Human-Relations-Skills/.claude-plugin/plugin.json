@@ -1,0 +1,23 @@
+{
+  "name": "human-relations-skills",
+  "description": "Agent skill stack for manuscripts targeted at Human Relations (Human Relations). Twelve role skills cover fit, contribution, evidence, writing, submission, and revision with source-backed Human Relations guardrails.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/human-relations-skills",
+  "repository": "https://github.com/brycewang-stanford/human-relations-skills",
+  "keywords": [
+    "human-relations",
+    "management",
+    "academic-writing",
+    "journal-skills",
+    "workplace-relation",
+    "power-and-identity",
+    "employment-institution",
+    "qualitative-insight",
+    "social-theory"
+  ]
+}

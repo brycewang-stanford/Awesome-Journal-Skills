@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "human-relations-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Human Relations manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "human-relations-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Human Relations manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/human-relations-skills",
+      "repository": "https://github.com/brycewang-stanford/human-relations-skills",
+      "keywords": [
+        "human-relations",
+        "management",
+        "academic-writing",
+        "journal-skills",
+        "workplace-relation",
+        "power-and-identity",
+        "employment-institution",
+        "qualitative-insight"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/humrel-workflow",
+        "skills/humrel-topic-selection",
+        "skills/humrel-theory-development",
+        "skills/humrel-literature-positioning",
+        "skills/humrel-methods",
+        "skills/humrel-data-analysis",
+        "skills/humrel-contribution-framing",
+        "skills/humrel-tables-figures",
+        "skills/humrel-writing-style",
+        "skills/humrel-submission",
+        "skills/humrel-review-process",
+        "skills/humrel-rebuttal"
+      ]
+    }
+  ]
+}

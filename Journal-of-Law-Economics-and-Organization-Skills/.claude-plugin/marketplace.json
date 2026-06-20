@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jleo-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Journal of Law, Economics, and Organization manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jleo-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Law, Economics, and Organization manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jleo-skills",
+      "repository": "https://github.com/brycewang-stanford/jleo-skills",
+      "keywords": [
+        "jleo",
+        "journal-of-law-economics-and-organization",
+        "econ",
+        "academic-writing",
+        "journal-skills",
+        "organizational-governance",
+        "contracting-institution",
+        "legal-economic-mechanism"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jleo-workflow",
+        "skills/jleo-topic-selection",
+        "skills/jleo-literature-positioning",
+        "skills/jleo-identification",
+        "skills/jleo-theory-model",
+        "skills/jleo-robustness",
+        "skills/jleo-tables-figures",
+        "skills/jleo-writing-style",
+        "skills/jleo-replication-package",
+        "skills/jleo-referee-strategy",
+        "skills/jleo-submission",
+        "skills/jleo-rebuttal"
+      ]
+    }
+  ]
+}

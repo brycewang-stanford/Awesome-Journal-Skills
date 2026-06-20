@@ -1,0 +1,24 @@
+{
+  "name": "jcp-skills",
+  "description": "Agent skill stack for manuscripts targeted at Journal of Consumer Psychology (JCP). Twelve role skills cover fit, contribution, evidence, writing, submission, and revision with source-backed JCP guardrails.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jcp-skills",
+  "repository": "https://github.com/brycewang-stanford/jcp-skills",
+  "keywords": [
+    "jcp",
+    "journal-of-consumer-psychology",
+    "management",
+    "academic-writing",
+    "journal-skills",
+    "consumer-mechanism",
+    "experimental-manipulation",
+    "psychological-process",
+    "moderation-logic",
+    "consumer-welfare"
+  ]
+}

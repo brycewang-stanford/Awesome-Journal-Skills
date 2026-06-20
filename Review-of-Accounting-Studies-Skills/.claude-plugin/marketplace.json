@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "review-of-accounting-studies-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Review of Accounting Studies manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "review-of-accounting-studies-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Review of Accounting Studies manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/review-of-accounting-studies-skills",
+      "repository": "https://github.com/brycewang-stanford/review-of-accounting-studies-skills",
+      "keywords": [
+        "rast",
+        "review-of-accounting-studies",
+        "management",
+        "academic-writing",
+        "journal-skills",
+        "accounting-disclosure",
+        "audit-quality",
+        "capital-market-accounting"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/revacc-workflow",
+        "skills/revacc-topic-selection",
+        "skills/revacc-theory-development",
+        "skills/revacc-literature-positioning",
+        "skills/revacc-methods",
+        "skills/revacc-data-analysis",
+        "skills/revacc-contribution-framing",
+        "skills/revacc-tables-figures",
+        "skills/revacc-writing-style",
+        "skills/revacc-submission",
+        "skills/revacc-review-process",
+        "skills/revacc-rebuttal"
+      ]
+    }
+  ]
+}

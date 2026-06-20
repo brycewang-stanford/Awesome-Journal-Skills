@@ -1,0 +1,24 @@
+{
+  "name": "human-resource-management-skills",
+  "description": "Agent skill stack for manuscripts targeted at Human Resource Management (HRM). Twelve role skills cover fit, contribution, evidence, writing, submission, and revision with source-backed HRM guardrails.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/human-resource-management-skills",
+  "repository": "https://github.com/brycewang-stanford/human-resource-management-skills",
+  "keywords": [
+    "hrm",
+    "human-resource-management",
+    "management",
+    "academic-writing",
+    "journal-skills",
+    "hr-system",
+    "talent-architecture",
+    "employment-relation",
+    "workforce-analytics",
+    "strategic-hr"
+  ]
+}

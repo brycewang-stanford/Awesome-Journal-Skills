@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jmis-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Journal of Management Information Systems manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jmis-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Management Information Systems manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jmis-skills",
+      "repository": "https://github.com/brycewang-stanford/jmis-skills",
+      "keywords": [
+        "jmis",
+        "journal-of-management-information-systems",
+        "management",
+        "academic-writing",
+        "journal-skills",
+        "digital-platform",
+        "it-governance",
+        "analytics-adoption"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jmis-workflow",
+        "skills/jmis-topic-selection",
+        "skills/jmis-theory-development",
+        "skills/jmis-literature-positioning",
+        "skills/jmis-methods",
+        "skills/jmis-data-analysis",
+        "skills/jmis-contribution-framing",
+        "skills/jmis-tables-figures",
+        "skills/jmis-writing-style",
+        "skills/jmis-submission",
+        "skills/jmis-review-process",
+        "skills/jmis-rebuttal"
+      ]
+    }
+  ]
+}

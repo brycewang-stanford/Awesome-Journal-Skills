@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "informs-journal-on-computing-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for INFORMS Journal on Computing manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "informs-journal-on-computing-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the INFORMS Journal on Computing manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/informs-journal-on-computing-skills",
+      "repository": "https://github.com/brycewang-stanford/informs-journal-on-computing-skills",
+      "keywords": [
+        "ijoc",
+        "informs-journal-on-computing",
+        "management",
+        "academic-writing",
+        "journal-skills",
+        "algorithmic-contribution",
+        "computational-experiment",
+        "optimization-benchmark"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/ijoc-workflow",
+        "skills/ijoc-topic-selection",
+        "skills/ijoc-theory-development",
+        "skills/ijoc-literature-positioning",
+        "skills/ijoc-methods",
+        "skills/ijoc-data-analysis",
+        "skills/ijoc-contribution-framing",
+        "skills/ijoc-tables-figures",
+        "skills/ijoc-writing-style",
+        "skills/ijoc-submission",
+        "skills/ijoc-review-process",
+        "skills/ijoc-rebuttal"
+      ]
+    }
+  ]
+}

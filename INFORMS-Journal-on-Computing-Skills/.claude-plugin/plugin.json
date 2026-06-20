@@ -1,0 +1,24 @@
+{
+  "name": "informs-journal-on-computing-skills",
+  "description": "Agent skill stack for manuscripts targeted at INFORMS Journal on Computing (IJOC). Twelve role skills cover fit, contribution, evidence, writing, submission, and revision with source-backed IJOC guardrails.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/informs-journal-on-computing-skills",
+  "repository": "https://github.com/brycewang-stanford/informs-journal-on-computing-skills",
+  "keywords": [
+    "ijoc",
+    "informs-journal-on-computing",
+    "management",
+    "academic-writing",
+    "journal-skills",
+    "algorithmic-contribution",
+    "computational-experiment",
+    "optimization-benchmark",
+    "reproducible-code",
+    "decision-analytics"
+  ]
+}

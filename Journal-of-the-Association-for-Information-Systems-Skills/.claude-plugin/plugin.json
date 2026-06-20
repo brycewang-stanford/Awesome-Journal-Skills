@@ -1,0 +1,24 @@
+{
+  "name": "jais-skills",
+  "description": "Agent skill stack for manuscripts targeted at Journal of the Association for Information Systems (JAIS). Twelve role skills cover fit, contribution, evidence, writing, submission, and revision with source-backed JAIS guardrails.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jais-skills",
+  "repository": "https://github.com/brycewang-stanford/jais-skills",
+  "keywords": [
+    "jais",
+    "journal-of-the-association-for-information-systems",
+    "management",
+    "academic-writing",
+    "journal-skills",
+    "sociotechnical-system",
+    "is-theory",
+    "digital-innovation",
+    "methodological-pluralism",
+    "cumulative-contribution"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "annual-review-of-economics-skills",
+  "description": "Agent skill stack for manuscripts targeted at Annual Review of Economics (AREcon). Twelve role skills cover fit, contribution, evidence, writing, submission, and revision with source-backed AREcon guardrails.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/annual-review-of-economics-skills",
+  "repository": "https://github.com/brycewang-stanford/annual-review-of-economics-skills",
+  "keywords": [
+    "arecon",
+    "annual-review-of-economics",
+    "review",
+    "academic-writing",
+    "journal-skills",
+    "field-synthesis",
+    "research-frontier",
+    "conceptual-map",
+    "evidence-stocktake",
+    "future-agenda"
+  ]
+}

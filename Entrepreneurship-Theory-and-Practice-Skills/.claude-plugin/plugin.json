@@ -1,0 +1,24 @@
+{
+  "name": "entrepreneurship-theory-and-practice-skills",
+  "description": "Agent skill stack for manuscripts targeted at Entrepreneurship Theory and Practice (ETP). Twelve role skills cover fit, contribution, evidence, writing, submission, and revision with source-backed ETP guardrails.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/entrepreneurship-theory-and-practice-skills",
+  "repository": "https://github.com/brycewang-stanford/entrepreneurship-theory-and-practice-skills",
+  "keywords": [
+    "etp",
+    "entrepreneurship-theory-and-practice",
+    "management",
+    "academic-writing",
+    "journal-skills",
+    "venture-formation",
+    "founder-team",
+    "entrepreneurial-ecosystem",
+    "opportunity-process",
+    "startup-finance"
+  ]
+}

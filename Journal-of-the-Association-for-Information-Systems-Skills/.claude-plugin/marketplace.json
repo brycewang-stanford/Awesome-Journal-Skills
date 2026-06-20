@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jais-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Journal of the Association for Information Systems manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jais-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of the Association for Information Systems manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jais-skills",
+      "repository": "https://github.com/brycewang-stanford/jais-skills",
+      "keywords": [
+        "jais",
+        "journal-of-the-association-for-information-systems",
+        "management",
+        "academic-writing",
+        "journal-skills",
+        "sociotechnical-system",
+        "is-theory",
+        "digital-innovation"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jais-workflow",
+        "skills/jais-topic-selection",
+        "skills/jais-theory-development",
+        "skills/jais-literature-positioning",
+        "skills/jais-methods",
+        "skills/jais-data-analysis",
+        "skills/jais-contribution-framing",
+        "skills/jais-tables-figures",
+        "skills/jais-writing-style",
+        "skills/jais-submission",
+        "skills/jais-review-process",
+        "skills/jais-rebuttal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "review-of-accounting-studies-skills",
+  "description": "Agent skill stack for manuscripts targeted at Review of Accounting Studies (RAST). Twelve role skills cover fit, contribution, evidence, writing, submission, and revision with source-backed RAST guardrails.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/review-of-accounting-studies-skills",
+  "repository": "https://github.com/brycewang-stanford/review-of-accounting-studies-skills",
+  "keywords": [
+    "rast",
+    "review-of-accounting-studies",
+    "management",
+    "academic-writing",
+    "journal-skills",
+    "accounting-disclosure",
+    "audit-quality",
+    "capital-market-accounting",
+    "tax-and-reporting",
+    "earnings-information"
+  ]
+}

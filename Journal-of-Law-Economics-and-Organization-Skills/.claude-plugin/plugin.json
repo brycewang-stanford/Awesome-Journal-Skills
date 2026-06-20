@@ -1,0 +1,24 @@
+{
+  "name": "jleo-skills",
+  "description": "Agent skill stack for manuscripts targeted at Journal of Law, Economics, and Organization (JLEO). Twelve role skills cover fit, contribution, evidence, writing, submission, and revision with source-backed JLEO guardrails.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jleo-skills",
+  "repository": "https://github.com/brycewang-stanford/jleo-skills",
+  "keywords": [
+    "jleo",
+    "journal-of-law-economics-and-organization",
+    "econ",
+    "academic-writing",
+    "journal-skills",
+    "organizational-governance",
+    "contracting-institution",
+    "legal-economic-mechanism",
+    "agency-problem",
+    "institutional-design"
+  ]
+}

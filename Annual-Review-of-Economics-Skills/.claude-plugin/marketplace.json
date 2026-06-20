@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "annual-review-of-economics-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Annual Review of Economics manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "annual-review-of-economics-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Annual Review of Economics manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/annual-review-of-economics-skills",
+      "repository": "https://github.com/brycewang-stanford/annual-review-of-economics-skills",
+      "keywords": [
+        "arecon",
+        "annual-review-of-economics",
+        "review",
+        "academic-writing",
+        "journal-skills",
+        "field-synthesis",
+        "research-frontier",
+        "conceptual-map"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/arecon-workflow",
+        "skills/arecon-topic-selection",
+        "skills/arecon-proposal-framing",
+        "skills/arecon-literature-synthesis",
+        "skills/arecon-organizing-framework",
+        "skills/arecon-evidence-standards",
+        "skills/arecon-tables-figures",
+        "skills/arecon-writing-style",
+        "skills/arecon-editor-strategy",
+        "skills/arecon-submission",
+        "skills/arecon-review-process",
+        "skills/arecon-revision"
+      ]
+    }
+  ]
+}

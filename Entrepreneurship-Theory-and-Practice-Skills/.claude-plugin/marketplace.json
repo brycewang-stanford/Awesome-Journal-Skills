@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "entrepreneurship-theory-and-practice-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Entrepreneurship Theory and Practice manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "entrepreneurship-theory-and-practice-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Entrepreneurship Theory and Practice manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/entrepreneurship-theory-and-practice-skills",
+      "repository": "https://github.com/brycewang-stanford/entrepreneurship-theory-and-practice-skills",
+      "keywords": [
+        "etp",
+        "entrepreneurship-theory-and-practice",
+        "management",
+        "academic-writing",
+        "journal-skills",
+        "venture-formation",
+        "founder-team",
+        "entrepreneurial-ecosystem"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/etp-workflow",
+        "skills/etp-topic-selection",
+        "skills/etp-theory-development",
+        "skills/etp-literature-positioning",
+        "skills/etp-methods",
+        "skills/etp-data-analysis",
+        "skills/etp-contribution-framing",
+        "skills/etp-tables-figures",
+        "skills/etp-writing-style",
+        "skills/etp-submission",
+        "skills/etp-review-process",
+        "skills/etp-rebuttal"
+      ]
+    }
+  ]
+}

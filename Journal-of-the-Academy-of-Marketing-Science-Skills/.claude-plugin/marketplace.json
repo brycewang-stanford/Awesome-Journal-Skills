@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jams-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Journal of the Academy of Marketing Science manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jams-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of the Academy of Marketing Science manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jams-skills",
+      "repository": "https://github.com/brycewang-stanford/jams-skills",
+      "keywords": [
+        "jams",
+        "journal-of-the-academy-of-marketing-science",
+        "management",
+        "academic-writing",
+        "journal-skills",
+        "marketing-strategy",
+        "customer-response",
+        "brand-mechanism"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jams-workflow",
+        "skills/jams-topic-selection",
+        "skills/jams-theory-development",
+        "skills/jams-literature-positioning",
+        "skills/jams-methods",
+        "skills/jams-data-analysis",
+        "skills/jams-contribution-framing",
+        "skills/jams-tables-figures",
+        "skills/jams-writing-style",
+        "skills/jams-submission",
+        "skills/jams-review-process",
+        "skills/jams-rebuttal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jcp-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Journal of Consumer Psychology manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jcp-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Consumer Psychology manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jcp-skills",
+      "repository": "https://github.com/brycewang-stanford/jcp-skills",
+      "keywords": [
+        "jcp",
+        "journal-of-consumer-psychology",
+        "management",
+        "academic-writing",
+        "journal-skills",
+        "consumer-mechanism",
+        "experimental-manipulation",
+        "psychological-process"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jcp-workflow",
+        "skills/jcp-topic-selection",
+        "skills/jcp-theory-development",
+        "skills/jcp-literature-positioning",
+        "skills/jcp-methods",
+        "skills/jcp-data-analysis",
+        "skills/jcp-contribution-framing",
+        "skills/jcp-tables-figures",
+        "skills/jcp-writing-style",
+        "skills/jcp-submission",
+        "skills/jcp-review-process",
+        "skills/jcp-rebuttal"
+      ]
+    }
+  ]
+}

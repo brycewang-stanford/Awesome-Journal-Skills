@@ -1,0 +1,24 @@
+{
+  "name": "imf-economic-review-skills",
+  "description": "Agent skill stack for manuscripts targeted at IMF Economic Review (IMFER). Twelve role skills cover fit, contribution, evidence, writing, submission, and revision with source-backed IMFER guardrails.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/imf-economic-review-skills",
+  "repository": "https://github.com/brycewang-stanford/imf-economic-review-skills",
+  "keywords": [
+    "imfer",
+    "imf-economic-review",
+    "econ",
+    "academic-writing",
+    "journal-skills",
+    "international-macro",
+    "sovereign-risk",
+    "capital-flow-policy",
+    "imf-policy-audience",
+    "macro-financial-stability"
+  ]
+}

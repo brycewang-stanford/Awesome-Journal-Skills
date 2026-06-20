@@ -1,0 +1,24 @@
+{
+  "name": "academy-of-management-annals-skills",
+  "description": "Agent skill stack for manuscripts targeted at Academy of Management Annals (Annals). Twelve role skills cover fit, contribution, evidence, writing, submission, and revision with source-backed Annals guardrails.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/academy-of-management-annals-skills",
+  "repository": "https://github.com/brycewang-stanford/academy-of-management-annals-skills",
+  "keywords": [
+    "annals",
+    "academy-of-management-annals",
+    "review",
+    "academic-writing",
+    "journal-skills",
+    "integrative-review",
+    "theory-synthesis",
+    "agenda-setting",
+    "management-field-map",
+    "conceptual-reconciliation"
+  ]
+}

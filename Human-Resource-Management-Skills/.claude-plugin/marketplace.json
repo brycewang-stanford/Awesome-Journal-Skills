@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "human-resource-management-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Human Resource Management manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "human-resource-management-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Human Resource Management manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/human-resource-management-skills",
+      "repository": "https://github.com/brycewang-stanford/human-resource-management-skills",
+      "keywords": [
+        "hrm",
+        "human-resource-management",
+        "management",
+        "academic-writing",
+        "journal-skills",
+        "hr-system",
+        "talent-architecture",
+        "employment-relation"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/hrm-workflow",
+        "skills/hrm-topic-selection",
+        "skills/hrm-theory-development",
+        "skills/hrm-literature-positioning",
+        "skills/hrm-methods",
+        "skills/hrm-data-analysis",
+        "skills/hrm-contribution-framing",
+        "skills/hrm-tables-figures",
+        "skills/hrm-writing-style",
+        "skills/hrm-submission",
+        "skills/hrm-review-process",
+        "skills/hrm-rebuttal"
+      ]
+    }
+  ]
+}

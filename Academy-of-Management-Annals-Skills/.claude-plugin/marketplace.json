@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "academy-of-management-annals-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Academy of Management Annals manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "academy-of-management-annals-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Academy of Management Annals manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/academy-of-management-annals-skills",
+      "repository": "https://github.com/brycewang-stanford/academy-of-management-annals-skills",
+      "keywords": [
+        "annals",
+        "academy-of-management-annals",
+        "review",
+        "academic-writing",
+        "journal-skills",
+        "integrative-review",
+        "theory-synthesis",
+        "agenda-setting"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/amann-workflow",
+        "skills/amann-topic-selection",
+        "skills/amann-proposal-framing",
+        "skills/amann-literature-synthesis",
+        "skills/amann-organizing-framework",
+        "skills/amann-evidence-standards",
+        "skills/amann-tables-figures",
+        "skills/amann-writing-style",
+        "skills/amann-editor-strategy",
+        "skills/amann-submission",
+        "skills/amann-review-process",
+        "skills/amann-revision"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "imf-economic-review-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for IMF Economic Review manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "imf-economic-review-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the IMF Economic Review manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/imf-economic-review-skills",
+      "repository": "https://github.com/brycewang-stanford/imf-economic-review-skills",
+      "keywords": [
+        "imfer",
+        "imf-economic-review",
+        "econ",
+        "academic-writing",
+        "journal-skills",
+        "international-macro",
+        "sovereign-risk",
+        "capital-flow-policy"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/imfer-workflow",
+        "skills/imfer-topic-selection",
+        "skills/imfer-literature-positioning",
+        "skills/imfer-identification",
+        "skills/imfer-theory-model",
+        "skills/imfer-robustness",
+        "skills/imfer-tables-figures",
+        "skills/imfer-writing-style",
+        "skills/imfer-replication-package",
+        "skills/imfer-referee-strategy",
+        "skills/imfer-submission",
+        "skills/imfer-rebuttal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "economic-policy-skills",
+  "description": "Agent skill stack for manuscripts targeted at Economic Policy (Economic Policy). Twelve role skills cover fit, contribution, evidence, writing, submission, and revision with source-backed Economic Policy guardrails.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/economic-policy-skills",
+  "repository": "https://github.com/brycewang-stanford/economic-policy-skills",
+  "keywords": [
+    "economic-policy",
+    "econ",
+    "academic-writing",
+    "journal-skills",
+    "policy-question",
+    "european-policy-debate",
+    "cepr-audience",
+    "welfare-implication",
+    "transparent-counterfactual"
+  ]
+}
