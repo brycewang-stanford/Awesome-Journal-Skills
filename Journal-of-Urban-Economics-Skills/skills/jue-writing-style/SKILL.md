@@ -1,70 +1,91 @@
 ---
 name: jue-writing-style
-description: Use when working on writing style for a Journal of Urban Economics manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the prose of a Journal of Urban Economics (JUE) manuscript buries the spatial mechanism, or the intro/abstract do not land for an urban-economics audience. Sharpens the writing to JUE house voice; it does not run analysis or build exhibits. Late-stage — invoke after identification and the mechanism settle.
 ---
 
 # Writing Style (jue-writing-style)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Urban Economics (JUE)** and writing style is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's urban economics, spatial equilibrium, housing, transport, local public finance, and neighborhood sorting standard.
-- The paper risks being confused with nearby venues: Journal of Public Economics, Journal of Economic Geography, Regional Science and Urban Economics, and AEJ Applied.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The introduction explains the data and method before it says what is *spatially* new
+- The abstract reads like a generic applied-micro paper — space could be deleted and it would still parse
+- A reader cannot state the urban mechanism in one sentence after the intro
+- The policy or theory implication is asserted at the end rather than threaded through
+- The draft uses spatial-econometrics jargon where a plain mechanism sentence would land harder
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| spatial equilibrium is central | Make the spatial equilibrium assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| housing supply is central | Make the housing supply assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| commuting margin is central | Make the commuting margin assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| local public goods is central | Make the local public goods assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| neighborhood sorting is central | Make the neighborhood sorting assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The JUE intro arc
 
-## JUE fit notes
+JUE referees read the first page to decide whether the paper is a real urban-economics contribution. A JUE introduction should, in order:
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: spatial equilibrium, housing supply, commuting margin, local public goods, neighborhood sorting.
-- Sibling boundary: Journal of Public Economics, Journal of Economic Geography, Regional Science and Urban Economics, and AEJ Applied.
-- House-style aim: spatially grounded evidence with clear maps, mechanisms, and equilibrium caveats.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/journal-of-urban-economics
-- https://www.elsevier.com/journals/journal-of-urban-economics/0094-1190/guide-for-authors
+1. **Open with the spatial question and why it matters** for cities, housing, or local policy — not with a literature gap.
+2. **Name the spatial mechanism** in one sentence a non-specialist urban economist would grasp (capitalization, agglomeration spillover, sorting, congestion, market access).
+3. **State the identifying variation** plainly — the boundary, the shift-share, the policy rollout — and why it is credible against sorting and spillovers.
+4. **Give the headline magnitude in interpretable units** (a % capitalization, an elasticity), early, so the reader knows the answer.
+5. **Place the contribution** against the right strand in 2–3 sentences (handoff from `jue-literature-positioning`).
+6. **Preview the equilibrium reading** — what the estimate means once agents re-sort, and the policy implication.
 
-## Stage-specific moves
+## House voice
 
-1. State the exact writing style question in one sentence.
-2. Identify which JUE audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jue-replication-package` if the stage passes, or back to `jue-workflow` if it does not.
+- **Spatially grounded, mechanism-first.** Lead with the economics of place; let the method serve the mechanism, not the reverse.
+- **Concrete geography.** Name the cities, the corridor, the policy — readers of an urban journal expect institutional texture, not abstract "regions."
+- **Magnitudes over significance.** "Prices rose 4.5%" beats "the coefficient is significant"; JUE cares what the number means for welfare and policy.
+- **Honest about the local estimand.** Say plainly that a boundary or LATE estimate is local; do not let the prose imply a city-wide or national effect.
+- **Plain over jargon.** Use "households sort across neighborhoods" rather than dense spatial-econometrics phrasing where the plain sentence is clearer.
+
+## Section discipline
+
+- **Abstract:** spatial question → design → headline magnitude → implication, in ~150 words; references in full if cited (检索于 2026-06；以官网为准 for exact limits).
+- **Data section:** make the geography legible — units, coverage, how locations are defined and matched.
+- **Results:** lead each table with the mechanism it tests, not "Table 3 shows."
+- **Conclusion:** the equilibrium and policy reading, with the local-estimand caveat restated.
 
 ## Checklist
-- [ ] The JUE audience can see why the paper belongs in urban economics, spatial equilibrium, housing, transport, local public finance, and neighborhood sorting.
-- [ ] The draft distinguishes JUE from Journal of Public Economics, Journal of Economic Geography, Regional Science.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for writing style names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] First paragraph states the spatial question and why it matters, not a literature gap
+- [ ] The urban mechanism is stated in one plain sentence
+- [ ] The identifying variation and its credibility (vs sorting/spillovers) are in the intro
+- [ ] The headline magnitude appears early, in interpretable units
+- [ ] The local nature of the estimand is honest throughout the prose
+- [ ] Geography is concrete (named cities/policies), not abstract "regions"
+- [ ] Abstract follows question → design → magnitude → implication
+- [ ] The abstract collapses if spatial words are deleted (the fit test passes)
+- [ ] The policy reading is earned by the estimand, not a bolted-on closing paragraph
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JUE without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- An intro that leads with method and data before the spatial mechanism
+- An abstract from which "space" could be deleted with no loss — the fit tell
+- Reporting significance instead of an interpretable magnitude
+- Prose that lets a local boundary/LATE estimate read as a city-wide effect
+- Abstract "regions" with no institutional or geographic texture
+- Dense spatial-econometrics jargon substituting for a clear mechanism sentence
+
+## Words that signal a JUE paper vs a misfiled one
+
+The vocabulary should make the spatial economics unavoidable. Lead with the primitives the field owns — capitalization, agglomeration, sorting, spatial equilibrium, market access, supply elasticity, incidence, reallocation. Avoid letting the paper drift into a-spatial framing ("treatment effect on outcome Y") where the geographic mechanism is the point. At the same time, do not over-reach into economic-geography vocabulary (clusters, milieu, path dependence) that signals JEG rather than JUE, nor into pure spatial-econometrics framing that signals RSUE. The register is applied urban economics: concrete, mechanism-first, magnitude-led.
+
+## Threading the policy reading
+
+JUE values papers that bear on urban policy, but the implication must be *earned by the estimand*, not bolted on. Thread it: state in the intro why the magnitude matters for housing, transport, or place-based policy; in the results, note what each estimate implies; in the conclusion, give the policy reading with the local-estimand caveat restated. Avoid the failure mode of a rigorous paper that ends with a generic "policymakers should consider..." paragraph disconnected from what was actually identified.
+
+## The abstract test
+
+The fastest fit diagnostic for a JUE submission is the abstract deletion test: cross out every spatial word and read what remains. If the abstract still describes a coherent, complete result, the paper is probably not a JUE paper — the geography is a label, not the economics. A JUE abstract should collapse without its spatial terms because capitalization, sorting, agglomeration, or market access *is* the result. Rewrite until the spatial mechanism is structurally necessary to the sentences, then confirm the four-beat arc (question → design → magnitude → implication) survives within the word limit (检索于 2026-06；以官网为准 for the exact count).
+
+## Worked vignette (illustrative)
+
+A draft opens: "We use a regression discontinuity design with administrative data to study attendance boundaries." A JUE rewrite leads with mechanism and magnitude: "Households pay to live on the better-school side of an attendance boundary; we show this capitalization is 4.5% of house value at the line, identified by comparing otherwise-identical homes a block apart. Because the boundary is arbitrary relative to housing and amenities, the jump isolates willingness to pay for school quality — a magnitude that bears directly on the welfare case for school-finance equalization." The method now serves the mechanism.
 
 ## Output format
 
 ```text
-【Journal】Journal of Urban Economics
-【Skill】jue-writing-style
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking writing style
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Public Economics, Journal of Economic Geography
-【Source status】verified URL / 待核实 / not asserted
+【Intro arc】question→mechanism→variation→magnitude→contribution→equilibrium present? [Y/N each]
+【Mechanism sentence】one plain sentence
+【Headline magnitude】in interpretable units, stated early? [Y/N]
+【Estimand honesty】local estimand not oversold? [Y/N]
+【Geography】concrete (named) vs abstract?
+【Abstract】question→design→magnitude→implication, ~150w? [Y/N]
 【Next skill】jue-replication-package
 ```
+
+> Do not run this skill until identification and the spatial mechanism are settled — rewriting the intro around a magnitude that still moves wastes the polish and invites a second rewrite after the next robustness round.

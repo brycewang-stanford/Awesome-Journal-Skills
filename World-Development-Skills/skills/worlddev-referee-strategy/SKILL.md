@@ -1,70 +1,76 @@
 ---
 name: worlddev-referee-strategy
-description: Use when working on referee strategy for a World Development manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when anticipating the objections a World Development (WD) manuscript will draw under double-anonymized, multidisciplinary review. Pre-empts referee pushback before submission; it does not invent evidence or citations.
 ---
 
 # Referee Strategy (worlddev-referee-strategy)
 
 ## When to trigger
-- The manuscript is aimed at **World Development (World Development)** and referee strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's development studies and development economics across poverty, institutions, sustainability, and policy implementation standard.
-- The paper risks being confused with nearby venues: Journal of Development Economics, World Bank Economic Review, Economic Development and Cultural Change, and World Development Perspectives.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Before submitting, to war-game the reports the paper will draw
+- The paper sits between disciplines and could face one economist and one non-economist referee with incompatible standards
+- A previous WD or sibling-journal rejection cited objections that were never addressed
+- The development relevance is implicit and a referee could read the paper as "just an applied estimate"
+- You need to decide what to fix now vs. what to defend in the response letter
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| development intervention is central | Make the development intervention assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| local institution is central | Make the local institution assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| poverty mechanism is central | Make the poverty mechanism assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| implementation constraint is central | Make the implementation constraint assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| global-south relevance is central | Make the global-south relevance assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The WD review reality
 
-## World Development fit notes
+WD review is **double-anonymized**: at least two independent referees, who cannot see who you are (and you cannot see them). Because WD is multidisciplinary, the referee pool is **heterogeneous in method and standard** — a single paper may be read by an applied economist who wants tighter identification and a development sociologist who wants richer context and reflexivity. The strategic implication: **a WD paper must satisfy more than one evidentiary culture at once.** A paper that is bulletproof to one referee community but illegible or naive to the other is the classic WD split-decision that stalls.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: development intervention, local institution, poverty mechanism, implementation constraint, global-south relevance.
-- Sibling boundary: Journal of Development Economics, World Bank Economic Review, Economic Development and Cultural Change, and World Development Perspectives.
-- House-style aim: development evidence that connects identification to implementation, equity, and institutions.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/world-development
-- https://www.elsevier.com/journals/world-development/0305-750X/guide-for-authors
+Anonymize hard, too — WD's double-blind model means self-citation patterns, "in our previous work," named local institutions, or a give-away acknowledgments line can unmask you and prejudice review.
 
-## Stage-specific moves
+## War-gaming the two referee archetypes
 
-1. State the exact referee strategy question in one sentence.
-2. Identify which World Development audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `worlddev-submission` if the stage passes, or back to `worlddev-workflow` if it does not.
+| Referee lens | What they will attack | Pre-empt by |
+|--------------|----------------------|-------------|
+| **The methodologist** (often an economist) | identification, clustering, measurement, robustness, over-claiming | Tight design diagnostics; threat-organized robustness; claims matched to warrant |
+| **The contextualist** (political scientist / sociologist / area expert) | thin context, no mechanism, no reflexivity, decontextualized numbers, weak external relevance | Grounded institutional detail; a load-bearing framework; scope conditions; named place |
+
+The best WD papers **anticipate both columns**. Map each anticipated objection to a place in the paper that already answers it, and note where you will defend rather than concede.
+
+## Predictable WD objections and the fix
+
+- *"Interesting, but what's the development contribution?"* → Foreground stakes and policy/practice implication; this is the most common WD desk-or-referee killer.
+- *"This is an applied paper that could be set anywhere."* → Show what the development context specifically teaches; argue external relevance.
+- *"OLS with controls is presented as causal."* → Strengthen the design or downgrade the claim (see `worlddev-identification`).
+- *"The qualitative evidence is cherry-picked."* → Add negative cases and a systematic display.
+- *"The framework is decorative."* → Make it load-bearing or cut it.
+- *"Generalizing from one site."* → State scope conditions; do not claim more than the case supports.
+- *"Numbers with no human meaning."* → Translate magnitudes into development-relevant units.
+
+## Suggesting reviewers (where the portal allows)
+
+If Editorial Manager invites suggested/opposed reviewers, propose scholars who **span the disciplines the paper bridges** — not only co-authors' allies — to ensure the contextualist side is read by someone equipped to value it. Justify briefly. Oppose only with a concrete conflict, sparingly.
 
 ## Checklist
-- [ ] The World Development audience can see why the paper belongs in development studies and development economics across poverty, institutions, sustainability, and policy implementation.
-- [ ] The draft distinguishes World Development from Journal of Development Economics, World Bank Economic Review, Economic Development.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for referee strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Each likely objection from BOTH the methodologist and contextualist columns is mapped to where the paper answers it
+- [ ] The development contribution is explicit enough to survive the "so what?" referee
+- [ ] External relevance / scope conditions stated for single-site or single-case work
+- [ ] Manuscript fully anonymized (self-citation, prior-work phrasing, acknowledgments, identifying institutions)
+- [ ] Qualitative evidence pre-empts the "cherry-picked" charge with negative cases
+- [ ] Concede-vs-defend decided for each major anticipated objection
+- [ ] Suggested reviewers (if used) span the relevant disciplines
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to World Development without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Optimizing only for the economist referee and ignoring the contextualist who will also be assigned
+- Leaving the development "so what" implicit and hoping the referee infers it
+- Self-citation or "our earlier study" that unmasks the authors under double-anonymization
+- Suggesting only friendly, same-method reviewers
+- Planning to defend every objection in rebuttal instead of fixing the cheap ones now
 
 ## Output format
 
 ```text
-【Journal】World Development
+【Journal】World Development (WD)
 【Skill】worlddev-referee-strategy
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking referee strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Development Economics, World Bank Economic Review
+【Verdict】submission-ready / pre-empt first
+【Methodologist objections】[objection → where answered / fix]
+【Contextualist objections】[objection → where answered / fix]
+【Development "so what"】explicit? [Y/N]
+【Anonymization】clean for double-blind? [Y/N]
+【Concede vs defend】split for major objections
 【Source status】verified URL / 待核实 / not asserted
 【Next skill】worlddev-submission
 ```

@@ -1,70 +1,93 @@
 ---
 name: wber-rebuttal
-description: Use when working on rebuttal strategy for a The World Bank Economic Review manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when a The World Bank Economic Review (WBER) decision letter has arrived (R&R or reject-with-encouragement) and you need the response-letter strategy — triaging editor vs. referee asks, sequencing new analysis, and writing point-by-point replies for the identification and policy referee archetypes. Plans the revision; it does not run the new analysis.
 ---
 
 # Rebuttal Strategy (wber-rebuttal)
 
 ## When to trigger
-- The manuscript is aimed at **The World Bank Economic Review (WBER)** and rebuttal strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's policy-relevant development economics, impact evaluation, institutions, trade, labor, agriculture, and poverty standard.
-- The paper risks being confused with nearby venues: Journal of Development Economics, World Development, Economic Development and Cultural Change, and AEJ Applied.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A WBER decision letter arrived (R&R, major/minor revision, or reject-with-encouragement)
+- You need to triage which referee asks are deal-breakers vs. optional
+- The two referees disagree, or one is identification-focused and the other policy-focused
+- You are deciding what new analysis is worth running before resubmitting
+- You need to draft the point-by-point response letter
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| policy counterfactual is central | Make the policy counterfactual assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| program evaluation is central | Make the program evaluation assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| World Bank audience is central | Make the World Bank audience assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| developing-country data is central | Make the developing-country data assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| implementation margin is central | Make the implementation margin assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Read the letter through the WBER lens
 
-## WBER fit notes
+WBER revisions almost always hit the journal's two-part bar: the **identification referee** wants the design hardened; the **policy referee** wants relevance, external validity, and cost. The editor's letter is the binding document — **the editor's synthesis outranks any single referee**, and the editor will signal which concerns are essential. Read the editor's framing first, then map each referee point to a referee archetype so your tone and evidence fit the reader. Single-anonymized review means the referees know who you are; engage them as informed colleagues, not adversaries.
 
-- Publisher / owner context: Oxford University Press for the World Bank.
-- Submission route to re-check: OUP / ScholarOne submission.
-- Signature vocabulary: policy counterfactual, program evaluation, World Bank audience, developing-country data, implementation margin.
-- Sibling boundary: Journal of Development Economics, World Development, Economic Development and Cultural Change, and AEJ Applied.
-- House-style aim: development-policy evidence with transparent data construction and actionable interpretation.
-- Official URLs currently used by the pack:
-- https://academic.oup.com/wber
-- https://academic.oup.com/wber/pages/General_Instructions
+## Triage every point
 
-## Stage-specific moves
+| Tier | What it is | How to handle |
+|------|-----------|----------------|
+| **Deal-breaker** | The editor or a referee flags it as essential (e.g., "the design is not credible as is") | Do the work fully; lead the response with it; show the new result in the paper |
+| **Substantive** | A real concern short of fatal (a robustness gap, an external-validity question) | Address with new analysis or a clear argument; revise the text |
+| **Framing** | "Reads like a project report," "clarify the contribution" | Reframe and rewrite; usually cheap, high-return |
+| **Optional / misread** | A referee misunderstood, or asks for out-of-scope work | Clarify respectfully; push back with evidence, do not capitulate to scope creep |
 
-1. State the exact rebuttal strategy question in one sentence.
-2. Identify which WBER audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `wber-rebuttal` if the stage passes, or back to `wber-workflow` if it does not.
+Resolve referee disagreements by appealing to the **editor's synthesis** and to evidence — if Referee 1 wants a structural model and Referee 2 wants none, state which serves the paper's question and why, and let the editor's priorities adjudicate.
+
+## Writing the response letter
+
+- **Open with a short summary** of the main changes and the headline that survived.
+- **Point-by-point, quote each comment**, then give: what you did, where in the revised paper, and the result.
+- **Show numbers, not promises.** "We re-estimated with Callaway–Sant'Anna; the ATT is 4.1pp (s.e. 1.0), up from 3.8pp" beats "we addressed this."
+- **Match tone to archetype.** For the identification referee, lead with the diagnostic and the robust estimate. For the policy referee, lead with external validity, scale-up, and cost.
+- **Update the data/code package** to match the revised exhibits — WBER's release is a condition of publication, so the deposit must track the final results.
+- **Be honest about trade-offs.** If a requested check weakens precision, report it and explain; do not hide it.
+- **Respect the 40-page cap** when adding material — move secondary additions to the supplementary appendix.
+
+## Sequencing the revision work
+
+Order the work so the deal-breakers cannot sink the resubmission:
+
+1. **Do the essential analysis first** — the design re-estimation or new evidence the editor flagged as binding. If it changes the headline, everything downstream (exhibits, abstract, model) must follow.
+2. **Lock the revised result**, then rebuild exhibits and the data/code package against it.
+3. **Rewrite the framing** — intro, contribution, external-validity — to match the new result.
+4. **Draft the response letter last**, once you can report concrete numbers and locations.
+
+Never write the response letter promising work you have not yet done; WBER editors and the same referees will re-read, and an unfulfilled promise reads worse than an honest "this check weakened precision, and here is why we still believe the result."
 
 ## Checklist
-- [ ] The WBER audience can see why the paper belongs in policy-relevant development economics, impact evaluation, institutions, trade, labor, agriculture, and poverty.
-- [ ] The draft distinguishes WBER from Journal of Development Economics, World Development, Economic Development.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for rebuttal strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Editor's letter read first; essential concerns identified and led with
+- [ ] Every referee point triaged (deal-breaker / substantive / framing / optional) and answered
+- [ ] Each response quotes the comment, states the change, the location, and the new number
+- [ ] Identification asks answered with diagnostics + robust estimates
+- [ ] Policy asks answered with external validity / scale-up / cost
+- [ ] Referee disagreements resolved by appeal to the editor's synthesis + evidence
+- [ ] Data/code package and DOI-linked DAS updated to the revised results
+- [ ] Added material respects the 40-page cap; secondary content in the appendix
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to WBER without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Responding to referees before parsing the editor's synthesis (the editor decides)
+- "We thank the referee and have addressed this" with no specific change or number
+- Capitulating to scope creep that would dilute the paper's question
+- Answering the identification referee with policy prose, or vice versa
+- Letting the revised paper drift over 40 pages with reactive additions
+- Leaving the replication package stale relative to the new exhibits
+- Treating single-anonymized referees as anonymous adversaries rather than informed colleagues
+
+## Tone and the single-anonymized referee
+
+WBER's single-anonymized review means the referees know who you are, but you do not know them — so write as if to a respected colleague, never as if scoring points. Thank substantive criticism genuinely, concede what is right, and push back only with evidence and a clear reason. When you disagree, frame it as "we considered this and here is why the alternative would not serve the question," not as a dismissal. Editors weigh the *tone* of a response: a defensive or evasive letter can sink a revision that the analysis would otherwise have saved.
+
+## Worked vignette (illustrative)
+
+A reject-with-encouragement letter says the editor likes the question but Referee 1 calls the TWFE design biased and Referee 2 says the result "won't generalize beyond three districts." Triage: both are deal-breakers. The team re-estimates with a heterogeneity-robust estimator (ATT now 4.1pp, s.e. 1.0, with flat pre-trend leads) and adds an external-validity section comparing the three districts to the national distribution plus a fiscal-cost-at-scale figure. The response letter leads with the editor's two priorities, quotes each referee, shows the new numbers and their locations, and notes the openICPSR-style package and DOI-linked DAS now match the revised tables. The paper stays at 39 pages by moving older specifications to the appendix.
 
 ## Output format
 
 ```text
-【Journal】The World Bank Economic Review
-【Skill】wber-rebuttal
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking rebuttal strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Development Economics, World Development
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】wber-rebuttal
+【Decision】R&R / major / minor / reject-with-encouragement
+【Editor's essential concerns】led-with items
+【Triage】deal-breakers / substantive / framing / optional
+【Identification responses】diagnostic + robust estimate + location
+【Policy responses】external validity / scale-up / cost + location
+【Disagreement resolution】how editor synthesis adjudicates
+【Package updated】data/code + DOI DAS match revised exhibits? [Y/N]
+【Page cap】revision ≤40 pages? [Y/N]
+【Next step】resubmit via ScholarOne
 ```

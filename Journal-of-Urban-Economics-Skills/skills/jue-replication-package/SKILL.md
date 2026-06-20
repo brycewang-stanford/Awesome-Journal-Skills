@@ -1,70 +1,91 @@
 ---
 name: jue-replication-package
-description: Use when working on replication package for a Journal of Urban Economics manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when assembling the data and code deposit for a Journal of Urban Economics (JUE) manuscript under its mandatory replication policy — especially geocoded, restricted, or proprietary spatial data. Builds the JUE-compliant replication folder and confidentiality path; it does not run the analysis or write the prose.
 ---
 
 # Replication Package (jue-replication-package)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Urban Economics (JUE)** and replication package is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's urban economics, spatial equilibrium, housing, transport, local public finance, and neighborhood sorting standard.
-- The paper risks being confused with nearby venues: Journal of Public Economics, Journal of Economic Geography, Regional Science and Urban Economics, and AEJ Applied.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The paper contains empirical, simulation, or experimental work — JUE's **mandatory replication policy** applies
+- The data is **geocoded, restricted, or proprietary** (addresses, parcels, admin records) and you need a confidentiality path
+- You are at acceptance and must upload the replication folder *before publication*
+- A spatial pipeline (geocoding, GIS joins, distance/ring construction) is undocumented and not reproducible
+- A coauthor assumes the deposit can wait until after publication — it cannot
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| spatial equilibrium is central | Make the spatial equilibrium assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| housing supply is central | Make the housing supply assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| commuting margin is central | Make the commuting margin assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| local public goods is central | Make the local public goods assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| neighborhood sorting is central | Make the neighborhood sorting assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## JUE's mandatory replication policy (检索于 2026-06；以官网为准)
 
-## JUE fit notes
+JUE will publish a paper only if the data and code are **clearly documented and readily available for replication**. At **acceptance, before publication**, authors of papers with empirical work, simulations, or experiments must upload a **replication folder to a major data repository**. The minimum deposit is:
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: spatial equilibrium, housing supply, commuting margin, local public goods, neighborhood sorting.
-- Sibling boundary: Journal of Public Economics, Journal of Economic Geography, Regional Science and Urban Economics, and AEJ Applied.
-- House-style aim: spatially grounded evidence with clear maps, mechanisms, and equilibrium caveats.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/journal-of-urban-economics
-- https://www.elsevier.com/journals/journal-of-urban-economics/0094-1190/guide-for-authors
+1. **The dataset(s)** used to generate all estimates reported in the paper;
+2. **A description of how intermediate datasets and programs** were used to build the final dataset(s);
+3. **The complete set of code** from raw data to final results — except where code would reveal confidential information about the data.
 
-## Stage-specific moves
+**Proprietary / confidential data:** authors may request an exemption from providing data and/or code. The request must be made in the **submission cover letter to the editor**. Even with an exemption, document the pipeline and provide whatever code does not reveal confidential information so the path to results is auditable.
 
-1. State the exact replication package question in one sentence.
-2. Identify which JUE audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jue-referee-strategy` if the stage passes, or back to `jue-workflow` if it does not.
+## Spatial-data deposits are harder than they look
+
+Urban papers carry data hazards that generic replication checklists miss:
+
+- **Geocoding is not reproducible by default.** Pin the geocoder, version, and date; deposit the crosswalk from addresses to coordinates (or a de-identified version) so distance/boundary variables can be regenerated.
+- **Restricted address/parcel data.** Provide a synthetic or aggregated extract plus exact instructions to obtain the restricted file (agency, application, access tier), and deposit all code that runs against it.
+- **GIS layers and shapefiles.** Deposit or cite the exact boundary/shapefile vintages (tracts, school zones, transit lines); boundaries change across years and silently break replication.
+- **Spatial construction code.** Ring/donut buffers, distance-to-boundary, market-access, and spatial-weight matrices must be in the code, with the distance cutoffs and projection (CRS) stated.
+
+## Building the folder
+
+1. **One-click master script** (`run_all`) raw → cleaned → estimates → exhibits, with a stated software/version environment.
+2. **README** mapping each table/figure to the script that produces it; list data sources with access tiers and the GIS-layer vintages.
+3. **Separate raw, intermediate, and final data** so reviewers can re-run from any stage.
+4. **Confidential path:** if exempt, the README states what is withheld, why, and how a researcher with access can reproduce it; the cover-letter exemption is filed.
+5. **Verify on a clean machine** before deposit — the most common failure is hard-coded local paths and unstated CRS/geocoder versions.
+
+## Restricted-data access paths common in urban work
+
+Urban papers lean on data that cannot simply be posted; document the *path*, not just the absence:
+
+- **Census/admin microdata in an RDC/FSRDC enclave** — state the dataset, the project-approval route, and deposit all code that runs inside the enclave plus disclosure-cleared output; a researcher with clearance must be able to reproduce.
+- **Proprietary real-estate / transaction data** (CoreLogic, Zillow ZTRAX-type, MLS) — cite the vendor and vintage, deposit construction code, and provide a synthetic or aggregated extract where the license permits.
+- **Geocoded individual records** — deposit the de-identified crosswalk or the construction code that maps protected addresses to the spatial variables (distance, ring, boundary side), withholding only the raw identifiers.
+- **Mobility / GPS / cell-phone data** — document the provider, the spatial and temporal resolution, and the aggregation that produces the analysis file.
+
+In every case the cover-letter exemption names what is withheld and why, and the README states exactly how an authorized researcher reproduces the results.
 
 ## Checklist
-- [ ] The JUE audience can see why the paper belongs in urban economics, spatial equilibrium, housing, transport, local public finance, and neighborhood sorting.
-- [ ] The draft distinguishes JUE from Journal of Public Economics, Journal of Economic Geography, Regional Science.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for replication package names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Replication folder targets a major repository; deposit planned for acceptance (before publication)
+- [ ] All datasets behind reported estimates included (or exemption requested in the cover letter)
+- [ ] Intermediate-data construction described; raw → final pipeline complete
+- [ ] Geocoder/version/date pinned; address↔coordinate crosswalk (or de-identified) deposited
+- [ ] GIS layer/shapefile vintages cited; CRS/projection stated
+- [ ] Spatial construction code (buffers, distance, weights, market access) included with cutoffs
+- [ ] `run_all` master script verified on a clean machine; README maps exhibits to scripts
+- [ ] Confidential-data exemption documented if applicable
+- [ ] Restricted-access path (RDC/vendor/enclave) named with the route to reproduce
+- [ ] Folder assembled during the R&R as a correctness check, not left to acceptance
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JUE without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Assuming the deposit waits until after publication (JUE requires it at acceptance, before publication)
+- Geocoding with an unpinned service, so distance/boundary variables cannot be regenerated
+- Depositing code but not the GIS-layer vintages, so boundaries silently differ across years
+- Hard-coded local paths and an unstated CRS that break the spatial pipeline on another machine
+- Claiming proprietary data without filing the cover-letter exemption or documenting the access path
+- A README that lists files but never maps each table/figure to the code that makes it
+
+## Why early assembly pays off
+
+Although JUE requires the deposit only at acceptance, assembling the folder during the R&R (or before submission) protects you twice. First, the act of building a one-click `run_all` from raw geocoded data to final maps routinely surfaces silent errors — a wrong CRS, a stale shapefile vintage, a dropped buffer — that would otherwise survive into the published result. Second, an acceptance deadline is the worst time to discover a restricted-data path cannot be reproduced or that a vendor license forbids posting an extract; the exemption and access instructions take time to negotiate. Treat the replication folder as a correctness check on the spatial pipeline, not a post-acceptance formality.
 
 ## Output format
 
 ```text
-【Journal】Journal of Urban Economics
-【Skill】jue-replication-package
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking replication package
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Public Economics, Journal of Economic Geography
-【Source status】verified URL / 待核实 / not asserted
+【Policy trigger】empirical/simulation/experimental? deposit at acceptance planned? [Y/N]
+【Datasets】all reported-estimate data included / exemption requested in cover letter
+【Pipeline】raw→intermediate→final documented; run_all verified clean? [Y/N]
+【Geocoding】geocoder+version pinned; crosswalk deposited? [Y/N]
+【GIS layers】shapefile vintages cited; CRS stated? [Y/N]
+【Spatial code】buffers/distance/weights/market-access included with cutoffs? [Y/N]
+【Confidential path】exemption + access instructions documented? [Y/N/NA]
 【Next skill】jue-referee-strategy
 ```

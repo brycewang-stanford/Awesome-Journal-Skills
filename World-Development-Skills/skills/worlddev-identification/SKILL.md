@@ -1,70 +1,78 @@
 ---
 name: worlddev-identification
-description: Use when working on identification strategy for a World Development manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the inference logic is the bottleneck for a World Development (WD) manuscript — credible causal design for quantitative work, or a transparent inferential logic for qualitative and mixed-methods work. Stress-tests the strategy to WD's pluralist bar before exhibits are finalized.
 ---
 
-# Identification Strategy (worlddev-identification)
+# Identification & Inference Strategy (worlddev-identification)
 
 ## When to trigger
-- The manuscript is aimed at **World Development (World Development)** and identification strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's development studies and development economics across poverty, institutions, sustainability, and policy implementation standard.
-- The paper risks being confused with nearby venues: Journal of Development Economics, World Bank Economic Review, Economic Development and Cultural Change, and World Development Perspectives.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A causal claim rests on OLS + controls, or TWFE on staggered timing
+- An RCT or quasi-experiment exists but the estimand and external relevance are unstated
+- A **qualitative** paper makes causal-sounding claims with no explicit inferential logic
+- A **mixed-methods** paper runs strands in parallel without saying how they jointly warrant the claim
+- You are unsure whether the evidence clears WD's bar for the *kind* of claim being made
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| development intervention is central | Make the development intervention assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| local institution is central | Make the local institution assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| poverty mechanism is central | Make the poverty mechanism assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| implementation constraint is central | Make the implementation constraint assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| global-south relevance is central | Make the global-south relevance assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## WD's pluralist standard
 
-## World Development fit notes
+WD does not impose a single identification template. It imposes a single demand: **the route from evidence to claim must be explicit, defended, and matched to the claim's strength.** A paper that says "is associated with" needs descriptive credibility; a paper that says "causes" needs a design that earns it; a paper that says "this mechanism explains why" needs a logic — quantitative or interpretive — that traces the mechanism. The cardinal sin at WD is a **claim that outruns its warrant**, in either direction (over-claiming causality from correlation, or burying a genuine causal design under hedging). Pick the branch that fits your claim and make the warrant transparent.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: development intervention, local institution, poverty mechanism, implementation constraint, global-south relevance.
-- Sibling boundary: Journal of Development Economics, World Bank Economic Review, Economic Development and Cultural Change, and World Development Perspectives.
-- House-style aim: development evidence that connects identification to implementation, equity, and institutions.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/world-development
-- https://www.elsevier.com/journals/world-development/0305-750X/guide-for-authors
+### Branch A — Quantitative causal design
 
-## Stage-specific moves
+- **DID / event study:** with staggered adoption, move past TWFE (Callaway–Sant'Anna, Sun–Abraham, de Chaisemartin–D'Haultfœuille); show clean pre-trends; report a Goodman-Bacon decomposition where relevant.
+- **IV:** strong first stage; with weak instruments use Anderson–Rubin / weak-IV-robust sets; defend exclusion in institutions and theory, not just algebra — WD referees probe whether the instrument is plausible *in that development context*.
+- **RDD:** density (McCrary / Cattaneo–Jansson–Ma) test; optimal bandwidth + robustness; covariate smoothness; bias-corrected CIs.
+- **RCT:** explicit estimand; randomization balance; attrition (Lee bounds if differential); multiple-hypothesis adjustment; and — distinctively for WD — **external relevance**: why this site/sample teaches something beyond itself.
+- Inference clustered at the assignment/treatment level; address few-cluster issues (wild-cluster bootstrap). Spatial correlation matters in development data — consider Conley SEs.
 
-1. State the exact identification strategy question in one sentence.
-2. Identify which World Development audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `worlddev-theory-model` if the stage passes, or back to `worlddev-workflow` if it does not.
+### Branch B — Qualitative inference
+
+Qualitative is **not** second-class at WD. The bar is transparency of inference, not sample size.
+
+- **Name the logic:** process tracing, comparative case logic (most-similar / most-different), congruence testing, or interpretive thematic analysis — say which.
+- **Case selection justified by the logic**, not by convenience; explain why these cases can bear the claim.
+- **Evidence trail:** how data were generated (interviews, archives, observation), coding approach, and how rival explanations were tested and rejected (not merely mentioned).
+- **Trustworthiness:** triangulation across sources, attention to negative cases, reflexivity about the researcher's position.
+
+### Branch C — Mixed-methods integration
+
+The contribution of a mixed-methods paper is the **integration**, not the coexistence of two strands. State the design (sequential explanatory, sequential exploratory, convergent) and what each strand does that the other cannot: e.g., the quant estimates *how much*, the qual explains *why* and *for whom*. A paper where the qualitative section is decorative will be read as a quantitative paper with an unexamined appendix.
+
+## Referee pushback mapped to the fix
+
+- *"OLS with controls is not identification."* → Find a design (DID/IV/RDD) or downgrade the claim to descriptive and own it.
+- *"Staggered TWFE is biased here."* → Re-estimate with Callaway–Sant'Anna / Sun–Abraham; show flat leads.
+- *"Why these three cases?"* → Justify selection by the inferential logic and show how rivals were ruled out.
+- *"The RCT is clean but local."* → Argue external relevance: mechanism, scope conditions, transferable lessons.
+- *"The qual and quant don't talk to each other."* → Make the integration explicit; show the joint inference.
 
 ## Checklist
-- [ ] The World Development audience can see why the paper belongs in development studies and development economics across poverty, institutions, sustainability, and policy implementation.
-- [ ] The draft distinguishes World Development from Journal of Development Economics, World Bank Economic Review, Economic Development.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for identification strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Branch chosen; the evidence-to-claim route stated in one sentence
+- [ ] Quant: design-appropriate diagnostics (pre-trends / density / first-stage / balance); modern estimator where TWFE would bias; clustering correct
+- [ ] Qual: inferential logic named; case selection justified; rivals tested, not just listed
+- [ ] Mixed: integration design stated; each strand's distinct job is explicit
+- [ ] External relevance argued for single-site/single-case work
+- [ ] Inference reported with SEs / coverage (no significance asterisks); the claim never exceeds the warrant
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to World Development without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- "Causes" from OLS + controls with no design
+- Treating a qualitative paper as needing "more N" rather than a clearer inferential logic
+- A mixed-methods paper that runs strands in parallel and never integrates them
+- An RCT presented with no discussion of who is left out or whether it travels
+- Significance asterisks instead of standard errors / confidence intervals
 
 ## Output format
 
 ```text
-【Journal】World Development
+【Journal】World Development (WD)
 【Skill】worlddev-identification
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking identification strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Development Economics, World Bank Economic Review
+【Branch】quant-causal / qualitative / mixed
+【Evidence→claim route】one sentence
+【Warrant evidence】design diagnostics / inferential logic + rival tests / integration design
+【External relevance】why it travels beyond the site/case
+【What it does NOT warrant】the claim it cannot support
 【Source status】verified URL / 待核实 / not asserted
 【Next skill】worlddev-theory-model
 ```

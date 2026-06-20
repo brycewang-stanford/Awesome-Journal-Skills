@@ -1,70 +1,86 @@
 ---
 name: worlddev-robustness
-description: Use when working on robustness strategy for a World Development manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when results may be sensitive — to specification, sample, measurement, or inference for quantitative work, or to interpretation and triangulation for qualitative work — in a World Development (WD) manuscript. Organizes checks by threat; it does not invent evidence or citations.
 ---
 
-# Robustness Strategy (worlddev-robustness)
+# Robustness & Trustworthiness (worlddev-robustness)
 
 ## When to trigger
-- The manuscript is aimed at **World Development (World Development)** and robustness strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's development studies and development economics across poverty, institutions, sustainability, and policy implementation standard.
-- The paper risks being confused with nearby venues: Journal of Development Economics, World Bank Economic Review, Economic Development and Cultural Change, and World Development Perspectives.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The headline result moves under plausible alternative specifications
+- A referee suspects the finding is driven by one region, one wave, or one measurement choice
+- Development data are messy (recall error, measurement in informal economies, attrition) and this is unaddressed
+- A qualitative finding rests on a few vivid quotes with no account of disconfirming evidence
+- The robustness section is a mechanical dump of appendix tables organized by table, not by threat
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| development intervention is central | Make the development intervention assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| local institution is central | Make the local institution assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| poverty mechanism is central | Make the poverty mechanism assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| implementation constraint is central | Make the implementation constraint assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| global-south relevance is central | Make the global-south relevance assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Organize by threat, not by table
 
-## World Development fit notes
+The single biggest WD robustness failure is a wall of appendix tables with no logic. A WD referee — often from a different discipline than the author — wants to see that you **identified the threats to your specific claim and addressed each one**. Structure the robustness work as a short list of named threats, each with the check that retires it and a one-line verdict. For each threat: *what would break the claim, what test isolates it, what the test shows.*
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: development intervention, local institution, poverty mechanism, implementation constraint, global-south relevance.
-- Sibling boundary: Journal of Development Economics, World Bank Economic Review, Economic Development and Cultural Change, and World Development Perspectives.
-- House-style aim: development evidence that connects identification to implementation, equity, and institutions.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/world-development
-- https://www.elsevier.com/journals/world-development/0305-750X/guide-for-authors
+### Quantitative threat map
 
-## Stage-specific moves
+| Threat | Check |
+|--------|-------|
+| Specification dependence | Add/drop controls in a disciplined sequence (Oster-style δ/bounds); specification curve if the literature is unsettled |
+| Sample / outlier dependence | Drop influential units, regions, or waves; leave-one-out; trim |
+| Measurement error (acute in development data) | Alternative measures; validation against an independent source; bounds |
+| Inference fragility | Cluster at the right level; few-cluster wild bootstrap; spatial (Conley) SEs; randomization inference for RCTs |
+| Selection / attrition | Lee bounds; selection models; characterize who exits |
+| Multiple hypotheses | Romano–Wolf or sharpened q-values across the family of outcomes |
+| Mechanism vs. confound | Show the proposed mechanism's footprint; rule out the leading alternative explicitly |
 
-1. State the exact robustness strategy question in one sentence.
-2. Identify which World Development audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `worlddev-tables-figures` if the stage passes, or back to `worlddev-workflow` if it does not.
+Run the checks the threat justifies — not the full menu. A paper that reports forty robustness tables but never addresses the obvious confound has gold-plated the wrong corner.
+
+### Qualitative trustworthiness map
+
+Robustness for qualitative WD work is **trustworthiness**, and it is judged, not waived:
+
+- **Triangulation:** corroborate key claims across data sources or informant types.
+- **Negative-case analysis:** actively present and account for evidence that cuts against the argument — its absence is a red flag.
+- **Member checking / saturation:** where appropriate, evidence that interpretations were checked and categories stabilized.
+- **Audit trail:** enough on coding and analysis that another researcher could follow the inference.
+- **Reflexivity:** acknowledge how the researcher's position shaped access and interpretation.
+
+### Mixed-methods
+
+Show the strands **converge or that divergence is informative**. When quant and qual disagree, that tension is data — explain it rather than hiding the weaker strand.
+
+## Development-specific traps WD referees catch
+
+- Treating survey measures from informal/subsistence settings as if measured with the precision of administrative data
+- Ignoring spatial autocorrelation in geographically clustered development data
+- Pooling heterogeneous countries/regions and reporting one average that masks the policy-relevant variation
+- Generalizing from one program/site without scope conditions
+- Reporting the robust result but not the *fragile* one a skeptic would run
 
 ## Checklist
-- [ ] The World Development audience can see why the paper belongs in development studies and development economics across poverty, institutions, sustainability, and policy implementation.
-- [ ] The draft distinguishes World Development from Journal of Development Economics, World Bank Economic Review, Economic Development.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for robustness strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Robustness organized by named threat, each with check + one-line verdict
+- [ ] Inference matched to the design (clustering level, few-cluster, spatial, randomization)
+- [ ] Measurement error addressed where development data warrant it
+- [ ] The leading alternative explanation is ruled out, not merely mentioned
+- [ ] Qual: triangulation + negative cases + audit trail present
+- [ ] Heterogeneity that matters for policy is shown, not averaged away
+- [ ] No significance asterisks; effect sizes and uncertainty reported in real units
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to World Development without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A robustness appendix sorted by table number with no threat logic
+- Forty checks for a non-threat, zero for the obvious confound
+- Burying a fragile headline result and reporting only the survivor specifications
+- Qualitative work that quotes only confirming voices and never the disconfirming ones
+- Hiding quant/qual divergence in a mixed paper instead of explaining it
 
 ## Output format
 
 ```text
-【Journal】World Development
+【Journal】World Development (WD)
 【Skill】worlddev-robustness
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking robustness strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Development Economics, World Bank Economic Review
+【Verdict】robust / fragile / mixed
+【Threats addressed】[threat → check → verdict] for each
+【Leading alternative】how it is ruled out
+【Qual trustworthiness】triangulation / negative cases / audit trail (if applicable)
+【Policy-relevant heterogeneity】shown / hidden
 【Source status】verified URL / 待核实 / not asserted
 【Next skill】worlddev-tables-figures
 ```

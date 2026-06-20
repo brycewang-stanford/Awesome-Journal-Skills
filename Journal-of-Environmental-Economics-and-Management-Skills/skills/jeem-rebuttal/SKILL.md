@@ -1,70 +1,90 @@
 ---
 name: jeem-rebuttal
-description: Use when working on rebuttal strategy for a Journal of Environmental Economics and Management manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when a Journal of Environmental Economics and Management (JEEM) decision letter or referee report needs a response strategy — triaging R&R demands, planning new spatial/valuation robustness, and writing the response letter the editor and field referees expect. Plans the revision; it loops back to the analysis skills for the actual work.
 ---
 
 # Rebuttal Strategy (jeem-rebuttal)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Environmental Economics and Management (JEEM)** and rebuttal strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's environmental economics, resource economics, climate policy, regulation, valuation, and natural-resource management standard.
-- The paper risks being confused with nearby venues: Review of Environmental Economics and Policy, AEJ Economic Policy, Journal of Public Economics, and Nature Climate Change.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A JEEM R&R, major-revision, or reject-and-resubmit letter has arrived
+- Two referees disagree (a methods referee vs. a policy referee) and you must satisfy both plus the editor
+- A referee demands new spatial SEs, an alternative valuation specification, or a leakage analysis
+- You need to decide what is a must-do versus a polite-decline before drafting responses
+- The headline welfare number moved under a requested check and you must decide how to present it
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| environmental externality is central | Make the environmental externality assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| regulatory design is central | Make the regulatory design assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| valuation evidence is central | Make the valuation evidence assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| climate adaptation is central | Make the climate adaptation assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| resource management is central | Make the resource management assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Tone and structure of the response document
 
-## JEEM fit notes
+The response is a professional document the editor and referees will reread alongside the revision, so structure it for their convenience. Open with a short cover note summarizing the major changes and where the core demand was addressed. Then reproduce each referee comment verbatim in a quoted block, followed by your response in plain text, followed by a pointer to the exact location in the revision ("see revised Section 4.2 and Table 5"). Keep the register collegial and evidence-led even when a referee erred; the editor is reading for whether you engaged seriously, not whether you won every exchange. Brevity that shows the work beats long defensive prose.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: environmental externality, regulatory design, valuation evidence, climate adaptation, resource management.
-- Sibling boundary: Review of Environmental Economics and Policy, AEJ Economic Policy, Journal of Public Economics, and Nature Climate Change.
-- House-style aim: economic identification linked to environmental mechanisms and policy welfare.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/journal-of-environmental-economics-and-management
-- https://www.elsevier.com/journals/journal-of-environmental-economics-and-management/0095-0696/guide-for-authors
+## Reading a JEEM decision letter
 
-## Stage-specific moves
+The editor's letter is the contract — read it first and let it set priorities; referee reports are evidence, the editor's summary is the verdict. At JEEM the typical fault lines are field-specific: a referee will press on **sorting/spatial confounding, valuation bias, leakage, or welfare overreach**, and the editor will weight whichever threatens the paper's core welfare claim. Separate (1) requests that go to the headline number (must-do), (2) requests that strengthen but do not threaten it (do well), and (3) requests that are wrong or out of scope (decline with evidence).
 
-1. State the exact rebuttal strategy question in one sentence.
-2. Identify which JEEM audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jeem-rebuttal` if the stage passes, or back to `jeem-workflow` if it does not.
+## Triage and response craft
+
+1. **Build a point-by-point table.** Every referee comment → your action → where in the revision it appears. Editors at JEEM expect a complete, numbered response; a missed comment reads as evasion.
+2. **Lead each response with the action, then the evidence.** "We now report Conley spatial SEs at a 100 km cutoff (Table 3); the estimate is unchanged at 4.5%." Not a paragraph of throat-clearing.
+3. **Route new analysis to the right skill.** Spatial/valuation/DiD robustness → `jeem-robustness`; a contested identification claim → `jeem-identification`; a welfare-mapping dispute → `jeem-theory-model`; new exhibits → `jeem-tables-figures`. Do the work there, then report it here.
+4. **Decline with evidence, not attitude.** When a referee is wrong (e.g., asks for a check that the design makes irrelevant), show *why* with a sentence and a citation; concede the framing even when you reject the request.
+5. **Reconcile the two referees explicitly.** If R1 wants more structure and R2 wants more reduced-form transparency, state how the revision serves both, so the editor sees you navigated the conflict.
+6. **Re-check the welfare claim's honesty.** Many JEEM revisions are accepted once the authors bound the claim (marginal not total, local not external) the referees worried about.
+
+## Concession as strategy
+
+The strongest JEEM rebuttals concede where the referee is right and bound the damage rather than fighting every point. If a referee shows the welfare gain is smaller once leakage is netted, report the smaller number and show the conclusion survives — a defended $0.8X beats an indefensible $X. If a check moves the estimate, say so and explain why the headline holds. Editors read graceful concession as scientific maturity; reflexive defense of every claim reads as the opposite and makes the editor side with the referee.
 
 ## Checklist
-- [ ] The JEEM audience can see why the paper belongs in environmental economics, resource economics, climate policy, regulation, valuation, and natural-resource management.
-- [ ] The draft distinguishes JEEM from Review of Environmental Economics, Policy, AEJ Economic Policy.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for rebuttal strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] The editor's letter is treated as the priority contract; must-do vs. do-well vs. decline sorted
+- [ ] A complete numbered point-by-point response table exists; no comment skipped
+- [ ] Each response leads with the action and the evidence (table/figure number, new estimate)
+- [ ] New analyses were actually run via the relevant jeem-* skill, not promised
+- [ ] Declines are backed by a reason and, where possible, a citation — never dismissive
+- [ ] Conflicting referees are reconciled explicitly for the editor
+- [ ] The welfare claim is re-bounded where a referee challenged its scope
+- [ ] Process/style facts re-verified against the current guide for authors (待核实)
+
+## Mapping the classic JEEM pushback to the revision move
+
+- *"The hedonic still looks like sorting."* → Add the boundary-discontinuity or amenity-shock specification to the main text; show parallel pre-trends in price; report the estimate is unchanged.
+- *"Your standard errors ignore spatial correlation."* → Report Conley SEs at multiple cutoffs in the main results table, not an appendix; note the CI still excludes zero.
+- *"The welfare number is overstated."* → Re-bound the claim (marginal not total, local not external, PE not GE); restate the policy implication within the bound.
+- *"Leakage / reshuffling could flip your sign."* → Add the leakage analysis (uncovered-source response, coverage share) and show the net welfare conclusion survives.
+- *"The contingent-valuation result has no scope test."* → Add or surface the scope test and a hypothetical-bias calibration; report adjusted WTP.
+- *"This is weather, not climate."* → Separate the short-run shock from the long-run expectation and add the adaptation discussion; restate which estimand the headline number is.
+
+## Worked vignette (illustrative)
+
+A reject-and-resubmit on a cap-and-trade paper: R1 (methods) wants the permit-price endogeneity addressed; R2 (policy) wants the distributional incidence; the editor flags leakage as the binding concern. The plan: route the endogeneity to `jeem-identification` (instrument the cap with a legislated schedule), add a leakage bound to `jeem-robustness` (uncovered-source emissions response), and add an incidence table via `jeem-tables-figures`. The response letter leads each point with the new exhibit number and states that the net welfare gain falls from $X to $0.8X once leakage is netted out but stays positive — conceding the magnitude while defending the conclusion.
+
+## Track the changes for the editor
+
+A revision that the editor cannot verify quickly invites another round. Provide a clearly marked diff or a changes-highlighted manuscript alongside the clean version, and make every response point to a specific, locatable change (section, table, figure number). For new analyses, state the result inline in the letter so the editor sees the answer without hunting through the paper. The goal is to let a busy editor confirm in one read that each demand was met — that confirmability, as much as the analysis itself, is what converts an R&R into an acceptance.
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JEEM without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Answering referees while ignoring the editor's stated priorities
+- A response that argues in prose but never shows the new number or exhibit
+- Promising analysis in the letter without putting it in the revised paper
+- Dismissing a wrong referee without evidence (the editor sides with the referee by default)
+- Leaving two referees' conflicting demands unreconciled for the editor to untangle
+- Re-asserting an overreaching welfare claim the referees already flagged
+
+## Calibrating expectations for the JEEM review cycle
+
+JEEM reviews can be slow and instruments more than one round of revision is common; plan for it rather than treating the first R&R as the last word. Three practical calibrations: (1) a "major revision" that asks for new identification work is a genuine invitation, not a soft reject — invest in it. (2) A "reject and resubmit" is treated as a fresh submission and may incur the fee again (待核实) — confirm before resubmitting, and make the new version substantially stronger, not cosmetically changed. (3) If a referee's demand would turn the paper into a different (e.g., methods-only) contribution, raise it with the editor rather than silently complying — the editor protects the paper's core welfare claim and can adjudicate scope creep.
 
 ## Output format
 
 ```text
 【Journal】Journal of Environmental Economics and Management
 【Skill】jeem-rebuttal
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking rebuttal strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Review of Environmental Economics, Policy
+【Editor priority】the core demand from the editor's letter
+【Triage】must-do: ___ | do-well: ___ | decline-with-evidence: ___
+【New analysis routed to】jeem-robustness / jeem-identification / jeem-theory-model / jeem-tables-figures
+【Referee reconciliation】how R1 and R2 are both served
+【Welfare claim】re-bounded where challenged? [Y/N]
 【Source status】verified URL / 待核实 / not asserted
-【Next skill】jeem-rebuttal
+【Next skill】loop to the routed analysis skill, then jeem-submission for the resubmission
 ```

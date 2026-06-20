@@ -1,70 +1,91 @@
 ---
 name: jue-theory-model
-description: Use when working on theory and model craft for a Journal of Urban Economics manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when a Journal of Urban Economics (JUE) manuscript needs a spatial model to interpret its mechanism — a spatial-equilibrium frame, a sorting model, or a quantitative spatial model (QSM) for counterfactuals. Builds the theory that disciplines the empirics; it does not establish the identification (jue-identification) or run robustness (jue-robustness).
 ---
 
-# Theory and Model Craft (jue-theory-model)
+# Spatial Theory & Model Craft (jue-theory-model)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Urban Economics (JUE)** and theory and model craft is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's urban economics, spatial equilibrium, housing, transport, local public finance, and neighborhood sorting standard.
-- The paper risks being confused with nearby venues: Journal of Public Economics, Journal of Economic Geography, Regional Science and Urban Economics, and AEJ Applied.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A reduced-form spatial result needs a mechanism that interprets the magnitude
+- A referee asks "what does this estimate mean in equilibrium, once agents re-sort?"
+- The paper wants **counterfactuals** (a policy, an infrastructure change) that require a quantitative spatial model
+- The empirical object (a density-wage elasticity, a capitalization rate) maps to a structural parameter you have not named
+- You are choosing how much model the paper needs: a one-equation Rosen–Roback wedge or a full QSM
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| spatial equilibrium is central | Make the spatial equilibrium assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| housing supply is central | Make the housing supply assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| commuting margin is central | Make the commuting margin assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| local public goods is central | Make the local public goods assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| neighborhood sorting is central | Make the neighborhood sorting assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## How much model does a JUE paper need?
 
-## JUE fit notes
+JUE is empirically led, but referees expect theory to **discipline interpretation**, not decorate it. Match the model to the claim:
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: spatial equilibrium, housing supply, commuting margin, local public goods, neighborhood sorting.
-- Sibling boundary: Journal of Public Economics, Journal of Economic Geography, Regional Science and Urban Economics, and AEJ Applied.
-- House-style aim: spatially grounded evidence with clear maps, mechanisms, and equilibrium caveats.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/journal-of-urban-economics
-- https://www.elsevier.com/journals/journal-of-urban-economics/0094-1190/guide-for-authors
+| The claim is... | The model you need | Pitfalls |
+|-----------------|--------------------|----------|
+| "this amenity/disamenity is valued at X" | Rosen–Roback capitalization, wages + rents jointly | using only prices ignores the wage margin and the worker indifference condition |
+| "agglomeration raises productivity by Y" | sharing/matching/learning micro-foundation; sorting vs spillover decomposition | attributing sorting of high types to true agglomeration |
+| "policy/infrastructure changes welfare by Z" | quantitative spatial model with mobility, trade/commuting, housing | counterfactual not invariant to the policy; ignored general-equilibrium reallocation |
+| "households sort on local public goods" | Tiebout / discrete-choice sorting model | treating sorting as exogenous; no equilibrium in prices |
+| "market access drives outcomes" | gravity/market-access (Donaldson–Hornbeck, ARSW) | endogenous network; access measured without the structural weight |
 
-## Stage-specific moves
+## Spatial-equilibrium discipline
 
-1. State the exact theory and model craft question in one sentence.
-2. Identify which JUE audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jue-robustness` if the stage passes, or back to `jue-workflow` if it does not.
+1. **Respect the indifference/zero-profit conditions.** In a Rosen–Roback world a local change that looks like a pure benefit is partly capitalized into rents and partly offset by wage adjustment. A JUE referee will ask where the incidence falls — land, labor, or firms.
+2. **Close the model where agents move.** If your empirical comparison holds location fixed but theory says agents re-sort, the reduced form is a short-run object; say so and bound the long-run.
+3. **For a QSM, tie every parameter to data.** State which moment or reduced-form estimate identifies each elasticity (migration, commuting, housing supply, agglomeration). Report sensitivity of counterfactuals to the parameters that are least well identified.
+4. **Argue invariance for counterfactuals.** The estimated elasticities must be policy-invariant enough for the experiment you run (a spatial Lucas critique).
+5. **Use theory to sign and bound, not to over-claim.** The most persuasive JUE theory section delivers a comparative static the data then confirms.
 
 ## Checklist
-- [ ] The JUE audience can see why the paper belongs in urban economics, spatial equilibrium, housing, transport, local public finance, and neighborhood sorting.
-- [ ] The draft distinguishes JUE from Journal of Public Economics, Journal of Economic Geography, Regional Science.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for theory and model craft names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] The model is matched to the claim (capitalization / agglomeration / QSM / sorting / market access)
+- [ ] Spatial-equilibrium conditions (indifference, zero-profit, market clearing) are respected
+- [ ] Incidence is located: who bears the change — land, labor, or firms
+- [ ] Short-run (location fixed) vs long-run (re-sorting) is distinguished
+- [ ] QSM: each structural parameter is tied to an identifying moment/estimate; counterfactual sensitivity reported
+- [ ] Counterfactual parameters argued policy-invariant
+- [ ] Open-city vs closed-economy assumption stated and defended for the geographic scale
+- [ ] The model is load-bearing (removing it makes an estimate uninterpretable), not decorative
+- [ ] Theory yields a comparative static the empirics actually test
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JUE without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A reduced-form result with no mechanism, leaving the magnitude uninterpretable
+- Reading a capitalization estimate from prices alone, ignoring the wage and the worker indifference margin
+- Attributing the density-wage elasticity to agglomeration when it is sorting of high-productivity workers
+- A QSM whose counterfactual rests on parameters never tied to data, or whose elasticities are not policy-invariant
+- Decorative theory: a model that does not change how any estimate is read
+- Ignoring general-equilibrium reallocation, so a local gain is reported as a national welfare gain
+
+## Referee pushback mapped to the theory fix
+
+- *"What does this mean once households re-sort?"* → Embed the estimate in a spatial-equilibrium model; report the short-run (location fixed) vs long-run (re-sorting) effect and where incidence lands.
+- *"Is this agglomeration or sorting of high types?"* → Add the sharing/matching/learning micro-foundation and a decomposition that separates true spillovers from compositional sorting.
+- *"Your counterfactual parameters are not policy-invariant."* → Argue invariance explicitly (spatial Lucas critique); show the elasticities are primitives, not functions of the policy.
+- *"The model is decorative."* → Derive a comparative static the data then tests; if the model changes no estimate's interpretation, cut it.
+
+## Calibrate vs estimate
+
+JUE accepts both calibrated and estimated spatial models, but the referee asks the same question: *what disciplines the parameters?* For a calibrated QSM, cite the external estimates each elasticity comes from and report counterfactual sensitivity to the least-credible one. For an estimated model, name the moment or reduced-form variation that identifies each parameter (this hands off to `jue-identification`). Either way, the counterfactual's credibility is only as strong as the weakest-identified elasticity — surface it rather than hiding it in an appendix.
+
+## Open vs closed city, and why it matters here
+
+A recurring JUE referee question is whether your setting is an **open city** (migration equalizes utility, so local shocks capitalize into land and dissipate in welfare terms) or a **closed economy** (population fixed, effects fall on prices and quantities differently). The choice changes the sign and incidence of your comparative statics: in an open-city model a local amenity gain is fully capitalized into rents with no utility change, whereas in a closed model it raises resident welfare. State which assumption you make and defend it for your geographic scale — a single metro is more open than a national system. Getting this wrong is a common interpretation error referees flag.
+
+## Worked vignette (illustrative)
+
+A paper estimates that a zoning relaxation raised housing units in treated tracts. Reduced form alone cannot say whether welfare rose, because households re-sort and rents adjust elsewhere. The JUE theory move: embed the estimate in a small spatial-equilibrium model with mobility and housing supply, calibrate the supply elasticity to the reduced-form response and the migration elasticity to prior estimates, and report the welfare counterfactual with sensitivity to the migration elasticity (the least-identified parameter). The model shows the local rent decline is partly undone by in-migration — a comparative static the data then supports.
+
+## Where the model lives in the paper
+
+JUE referees punish theory that is either missing or overgrown. A reduced-form paper usually needs only a compact framework — a few equations stating the indifference/zero-profit conditions and the comparative static the data tests — placed before the empirics so the estimate has meaning when it arrives. A structural paper carries a fuller model but should still front-load the intuition and relegate derivations to an appendix. The test in both cases: remove the model and ask whether any estimate changes meaning. If nothing changes, the model is decoration; if the magnitude becomes uninterpretable, the model is load-bearing and belongs in the main text.
 
 ## Output format
 
 ```text
-【Journal】Journal of Urban Economics
-【Skill】jue-theory-model
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking theory and model craft
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Public Economics, Journal of Economic Geography
-【Source status】verified URL / 待核实 / not asserted
+【Claim type】capitalization / agglomeration / QSM-counterfactual / sorting / market-access
+【Model chosen】one line — and why this much model
+【Equilibrium conditions】indifference / zero-profit / clearing respected? [Y/N]
+【Incidence】land / labor / firms
+【Run vs long-run】short-run (fixed location) vs long-run (re-sorting)
+【QSM params → data】each elasticity tied to a moment; sensitivity reported?
+【Comparative static tested】[...]
 【Next skill】jue-robustness
 ```

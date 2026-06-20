@@ -1,70 +1,78 @@
 ---
 name: worlddev-literature-positioning
-description: Use when working on literature positioning for a World Development manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when staking a World Development (WD) manuscript's contribution across the multidisciplinary development literature. Sharpens the gap and the claim; it does not invent evidence or citations.
 ---
 
 # Literature Positioning (worlddev-literature-positioning)
 
 ## When to trigger
-- The manuscript is aimed at **World Development (World Development)** and literature positioning is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's development studies and development economics across poverty, institutions, sustainability, and policy implementation standard.
-- The paper risks being confused with nearby venues: Journal of Development Economics, World Bank Economic Review, Economic Development and Cultural Change, and World Development Perspectives.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The intro cites only one disciplinary literature (e.g. only development economics) for a problem that spans several
+- A referee asks "what do we learn that we did not already know?" and the answer is thin
+- The contribution is framed as "first study of X in country Y" with no conceptual payoff
+- The paper sits between economics and another field and risks reading as derivative to both
+- The cited frontier is a top-5 economics literature, but WD's actual conversation is broader and more applied
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| development intervention is central | Make the development intervention assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| local institution is central | Make the local institution assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| poverty mechanism is central | Make the poverty mechanism assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| implementation constraint is central | Make the implementation constraint assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| global-south relevance is central | Make the global-south relevance assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Positioning for a multidisciplinary readership
 
-## World Development fit notes
+WD readers come from economics, political science, sociology, anthropology, geography, public health, and practice. Positioning that satisfies only one of these communities reads as parochial to the rest. The strongest WD intros do three things:
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: development intervention, local institution, poverty mechanism, implementation constraint, global-south relevance.
-- Sibling boundary: Journal of Development Economics, World Bank Economic Review, Economic Development and Cultural Change, and World Development Perspectives.
-- House-style aim: development evidence that connects identification to implementation, equity, and institutions.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/world-development
-- https://www.elsevier.com/journals/world-development/0305-750X/guide-for-authors
+1. **Name the development conversation, not just the technique literature.** "We contribute to the literature on community-driven development and local accountability" lands; "we contribute to the staggered-DID literature" does not — that is a JDE move. The method is a tool; the contribution is to a development debate.
+2. **Bridge disciplines deliberately.** WD prizes papers that connect, say, an economic finding to an institutional or political-economy mechanism that another field has theorized. Cite across fields where the problem genuinely spans them; do not name-drop.
+3. **State the marginal claim as one sentence a non-specialist can repeat.** "Decentralization improves service delivery only where local elections are competitive" is a WD contribution. "We estimate a heterogeneous treatment effect" is not.
 
-## Stage-specific moves
+## A contribution-type ladder (pick the rung you actually occupy)
 
-1. State the exact literature positioning question in one sentence.
-2. Identify which World Development audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `worlddev-identification` if the stage passes, or back to `worlddev-workflow` if it does not.
+| Rung | What it claims | WD verdict |
+|------|----------------|------------|
+| Replication / context transfer | "X holds (or fails) in a new context" | Publishable **only** if the context teaches something general about why |
+| New evidence on a contested mechanism | "The effect runs through institutions, not income" | Strong WD contribution |
+| New measurement / concept | "We operationalize livelihood resilience and show it predicts…" | Strong, if the concept travels |
+| Reframing / synthesis | "These contradictory findings reconcile once we distinguish…" | Strong, high-risk; needs breadth |
+| Pure method | "A better estimator for…" | Reroute to JDE; WD wants the development payoff |
+
+Position one rung up from where a skeptic would place you, and defend that rung — not two rungs up.
+
+## Handling the qualitative and mixed-methods case
+
+For qualitative or mixed work, "the gap" is rarely a missing coefficient. It is usually an **unexamined mechanism, an untheorized context, or a contradiction in the existing record**. Position against the *interpretive* literature: whose account does your evidence revise, extend, or complicate? A mixed-methods paper should state what the qualitative strand explains that the quantitative strand cannot, and vice versa — that integration *is* the contribution.
+
+## A worked positioning (illustrative)
+
+A draft on decentralization and water access opens: "Few studies examine decentralization in [country]." That is a site-novelty claim — the weakest rung. The WD rewrite engages the *conversation*: the economics literature finds decentralization improves service delivery; the political-science literature finds it can be captured by local elites; these conflict. The paper's contribution becomes the **reconciliation** — "decentralization improves water access only where local elections are competitive enough to discipline elites" — cited against both literatures, with the bridging mechanism (political competition) named explicitly. The same evidence now reframes a contested debate instead of merely adding a data point.
+
+## Engaging the grey literature
+
+WD's practitioner readership knows the World Bank, UNDP, FAO, and major NGO evidence base. A positioning that ignores a well-known Bank report or systematic review on the same question reads as out of touch — even if the academic citations are impeccable. Engage the grey literature where it frames the policy debate, and show what your study adds beyond it (rigor, mechanism, contrary finding, or context). Do not, however, treat grey-literature claims as peer-reviewed evidence; cite them as the policy conversation, not as established fact.
 
 ## Checklist
-- [ ] The World Development audience can see why the paper belongs in development studies and development economics across poverty, institutions, sustainability, and policy implementation.
-- [ ] The draft distinguishes World Development from Journal of Development Economics, World Bank Economic Review, Economic Development.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for literature positioning names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] The contribution is to a development conversation, not to a methods literature
+- [ ] Literatures from at least the relevant adjacent field are engaged where the problem spans them
+- [ ] The marginal claim is one sentence a non-specialist can repeat
+- [ ] The chosen contribution rung is defended, not inflated
+- [ ] Sibling-journal work (JDE, WBER, JDS, EDCC) on the same question is cited and differentiated
+- [ ] Qual/mixed papers position against the interpretive record, not against an absent regression
+- [ ] No fabricated citations; uncertain attributions flagged
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to World Development without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A literature review that is a serial summary ("X found… Y found…") with no synthesis or tension
+- Citing only economics for a problem that political scientists and sociologists have long studied
+- "First study in [country]" as the whole contribution — novelty of site is not novelty of insight
+- Over-claiming the rung: calling a context transfer a reframing
+- Ignoring grey literature (World Bank, UN, NGO reports) that the practitioner readership knows
 
 ## Output format
 
 ```text
-【Journal】World Development
+【Journal】World Development (WD)
 【Skill】worlddev-literature-positioning
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking literature positioning
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Development Economics, World Bank Economic Review
+【Verdict】positioned / under-claimed / over-claimed
+【Marginal claim】one sentence, non-specialist-legible
+【Contribution rung】replication / mechanism / measurement / reframing
+【Cross-field bridges】which adjacent literatures are engaged and why
+【Sibling boundary】how the claim differs from JDE / WBER / JDS / EDCC work
 【Source status】verified URL / 待核实 / not asserted
 【Next skill】worlddev-identification
 ```

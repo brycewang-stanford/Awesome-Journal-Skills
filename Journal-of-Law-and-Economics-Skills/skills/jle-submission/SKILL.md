@@ -1,76 +1,92 @@
 ---
 name: jle-submission
-description: Use when working on submission preflight for a The Journal of Law and Economics manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when running the final pre-submission preflight for a The Journal of Law and Economics (JLE) manuscript via the Editorial Manager portal — the single-blind title page, the US$100 submission fee, Chicago author-date style, the replication-policy readiness, and disclosures. Final checks; it does not draft content.
 ---
 
 # Submission Preflight (jle-submission)
 
 ## When to trigger
-- The manuscript is aimed at **The Journal of Law and Economics (JLE)** and submission preflight is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's law and economics, regulation, property rights, contracts, liability, antitrust, and legal institutions standard.
-- The paper risks being confused with nearby venues: Journal of Legal Studies, JLEO, American Law and Economics Review, and Journal of Public Economics.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- "Submitting tomorrow" — last check before pressing submit on JLE's Editorial Manager site
+- Unsure which files, fee, and declarations the JLE submission expects
+- Confirming the single-blind front matter (title page with author names) is right — not anonymized
+- Confirming the paper is replication-policy-ready should it advance
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| legal rule variation is central | Make the legal rule variation assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| institutional doctrine is central | Make the institutional doctrine assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| contracting friction is central | Make the contracting friction assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| regulatory incidence is central | Make the regulatory incidence assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| court or statute design is central | Make the court or statute design assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Process facts (检索于 2026-06；以官网为准 — re-confirm on journals.uchicago.edu/journals/jle)
 
-## JLE fit notes
+- JLE is published by the **University of Chicago Press** in association with the University of Chicago Law School; it is the founding journal of law and economics (since 1958). Submission is through the **JLE Editorial Manager** site.
+- **Single-blind review:** authors' identities are visible to referees; referees are anonymous. **Do not anonymize the manuscript.** Include a **title page with each author's name and contact information.**
+- **Submission fee:** **US$100**, required for all manuscripts **beginning May 1, 2026**; **editorial review does not proceed until the fee is paid**; the fee is **non-refundable** (检索于 2026-06；以官网为准).
+- **Editors (as of 2026):** Elliott Ash, Matthew Backus, Dennis W. Carlton, Dhammika Dharmapala, Thomas J. Miles, Sam Peltzman (检索于 2026-06；以官网为准).
+- **Citation style:** Chicago author-date (University of Chicago Press house style).
+- **Data & replication:** the JLE data policy requires data, programs, and computation details **available for replication before publication**; you need not deposit at submission, but the paper must be buildable into a replication package (`jle-replication-package`).
+- **Length / abstract limits, exact format specifics:** **待核实** — confirm current limits on the instructions-for-authors page before submitting.
 
-- Publisher / owner context: University of Chicago Press.
-- Submission route to re-check: Chicago Journals online submission.
-- Signature vocabulary: legal rule variation, institutional doctrine, contracting friction, regulatory incidence, court or statute design.
-- Sibling boundary: Journal of Legal Studies, JLEO, American Law and Economics Review, and Journal of Public Economics.
-- House-style aim: economics-first legal analysis that respects doctrine, timing, and institutional assignment.
-- Official URLs currently used by the pack:
-- https://www.journals.uchicago.edu/journals/jle/instruct
-- https://www.journals.uchicago.edu/toc/jle/current
+## Preflight checklist
 
-## Stage-specific moves
+### Front matter (single-blind)
+- [ ] **Title page** with every author's name, affiliation, and contact — manuscript **not** anonymized
+- [ ] Abstract and keywords per the instructions page (exact abstract limit **待核实**)
+- [ ] JEL codes if requested; acknowledgments and funding included
 
-1. State the exact submission preflight question in one sentence.
-2. Identify which JLE audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jle-rebuttal` if the stage passes, or back to `jle-workflow` if it does not.
+### Format & style
+- [ ] **Chicago author-date** citations and reference list, consistent throughout
+- [ ] Tables and figures legible with **standard errors and clustering level** reported; notes self-contained
+- [ ] Appendix / online appendix prepared and separated from the main paper
+- [ ] Manuscript length within the journal's current limit (**待核实**); pages numbered
 
-## Checklist
-- [ ] The JLE audience can see why the paper belongs in law and economics, regulation, property rights, contracts, liability, antitrust, and legal institutions.
-- [ ] The draft distinguishes JLE from Journal of Legal Studies, JLEO, American Law.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for submission preflight names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+### Files, fee & policy readiness
+- [ ] Manuscript and exhibits uploaded as the Editorial Manager site requires
+- [ ] **US$100 submission fee** ready to pay (non-refundable; review will not start until paid)
+- [ ] Replication package buildable; data-availability statement drafted
+- [ ] Restricted/sealed legal data: access path documented; synthetic extract planned
+
+### Declarations
+- [ ] Disclosure of funding and interested-party relationships
+- [ ] Confirmed not under review elsewhere; AI not listed as an author
+
+## What JLE does NOT require (so you don't import a sibling's rules)
+
+Authors coming from AEA or Econometric Society journals often over-prepare in the wrong direction. At JLE:
+
+- **No manuscript anonymization.** Unlike AEJ (double-blind) or QE, JLE is single-blind — leave your name on the title page.
+- **No society-membership gate.** Unlike Quantitative Economics (Econometric Society membership) you need not be a member to submit.
+- **No openICPSR pre-acceptance pipeline.** Unlike AEA journals, JLE does not run a Data-Editor reproducibility verification through openICPSR; its requirement is documentation and availability for replication before publication — important, but a different process.
+- **No CC-BY open-access mandate by default.** JLE is a subscription journal with an optional open-access route; do not assume an APC unless you opt in (检索于 2026-06；以官网为准).
+
+Confirm each against the current instructions page rather than carrying a habit from another journal.
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JLE without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Anonymizing the manuscript** — JLE is single-blind; the title page must carry author names
+- Submitting before paying the **US$100 fee** (editorial review will not begin)
+- Assuming the fee is refundable, or assuming exact length/abstract limits from memory instead of re-confirming (**待核实**)
+- Non-Chicago citation style, or exhibits missing standard errors / clustering level
+- Treating the replication policy as irrelevant at submission, then scrambling before publication
+
+## Worked vignette (illustrative)
+
+An author about to submit a tort-reform paper runs the preflight and catches three things a JLE desk would flag. First, the manuscript had been anonymized out of habit — wrong for single-blind JLE; the author restores the title page with names and contact. Second, references were in a numbered style; the author converts to **Chicago author-date**. Third, the **US$100 fee** (effective May 1, 2026) was not budgeted; the author confirms payment is ready, since editorial review will not begin until it is paid. The replication package is buildable and the data-availability statement drafted. The exact abstract word limit was not visible on the cached instructions page, so the author marks it **待核实** and re-checks the live page before pressing submit.
 
 ## Output format
 
-```text
-【Journal】The Journal of Law and Economics
-【Skill】jle-submission
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking submission preflight
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Legal Studies, JLEO
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jle-rebuttal
 ```
+【Front matter】title page named (NOT anonymized) + abstract/keywords? [Y/N]
+【Style】Chicago author-date; SEs + clustering in exhibits? [Y/N]
+【Length/abstract limits】confirmed on instructions page? [Y/N — else 待核实]
+【Fee】US$100 ready to pay (non-refundable)? [Y/N]
+【Replication readiness】package buildable + DAS drafted? [Y/N]
+【Declarations】disclosure done; not under review elsewhere; no AI author? [Y/N]
+【Next step】submit via Editorial Manager → jle-rebuttal after the decision
+```
+
+## Last-mile sanity pass
+
+Right before pressing submit, confirm the four items most likely to trigger an avoidable delay: the **title page is present and names every author** (single-blind), the **US$100 fee is queued** (review will not start otherwise), the **references are in Chicago author-date**, and every **exhibit reports SEs with the clustering level**. Then re-open the live instructions page once more to re-verify anything marked 待核实 — limits and fee mechanics are the volatile fields.
 
 ## Supplementary resources
 
-- [`templates/checklist.md`](templates/checklist.md) — submission self-check
+- [`templates/checklist.md`](templates/checklist.md) — pre-submission self-check
 - [`templates/manuscript_template.md`](templates/manuscript_template.md) — lightweight manuscript scaffold
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official URLs and volatile facts
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official UChicago Press / JLE URLs behind every fact
+```

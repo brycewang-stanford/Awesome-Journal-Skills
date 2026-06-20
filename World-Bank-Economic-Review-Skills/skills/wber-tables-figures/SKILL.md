@@ -1,70 +1,91 @@
 ---
 name: wber-tables-figures
-description: Use when working on tables and figures for a The World Bank Economic Review manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when building the exhibits for a The World Bank Economic Review (WBER) manuscript so they read cleanly for a mixed economist + policymaker audience, fit the 40-page cap, and carry the policy magnitude. Designs and audits tables/figures; it does not run the analysis or write the prose.
 ---
 
 # Tables and Figures (wber-tables-figures)
 
 ## When to trigger
-- The manuscript is aimed at **The World Bank Economic Review (WBER)** and tables and figures is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's policy-relevant development economics, impact evaluation, institutions, trade, labor, agriculture, and poverty standard.
-- The paper risks being confused with nearby venues: Journal of Development Economics, World Development, Economic Development and Cultural Change, and AEJ Applied.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Tables are dense regression dumps a policymaker cannot read
+- Significance is shown with asterisks instead of standard errors / confidence intervals
+- Effect sizes are reported only in coefficient units, not policy-meaningful magnitudes
+- Exhibits are pushing the paper over the 40-page total cap
+- An event-study or treatment effect is buried in a table when a figure would carry it
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| policy counterfactual is central | Make the policy counterfactual assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| program evaluation is central | Make the program evaluation assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| World Bank audience is central | Make the World Bank audience assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| developing-country data is central | Make the developing-country data assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| implementation margin is central | Make the implementation margin assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The WBER exhibit standard
 
-## WBER fit notes
+WBER exhibits serve **two readers at once**: the applied economist who checks the design and the practitioner who wants the magnitude and its policy meaning. The best WBER tables and figures make the headline effect legible in *policy units* — percentage-point change in enrollment, dollars of consumption, cost per outcome — not just a coefficient. And remember the **40-page total cap includes tables, figures, references, and appendices**: every exhibit competes for scarce space, so each must earn its place. Lead with the design (balance, first stage, pre-trends) and then the effect; do not bury the main result in column 6 of a kitchen-sink table.
 
-- Publisher / owner context: Oxford University Press for the World Bank.
-- Submission route to re-check: OUP / ScholarOne submission.
-- Signature vocabulary: policy counterfactual, program evaluation, World Bank audience, developing-country data, implementation margin.
-- Sibling boundary: Journal of Development Economics, World Development, Economic Development and Cultural Change, and AEJ Applied.
-- House-style aim: development-policy evidence with transparent data construction and actionable interpretation.
-- Official URLs currently used by the pack:
-- https://academic.oup.com/wber
-- https://academic.oup.com/wber/pages/General_Instructions
+## Building exhibits that work
 
-## Stage-specific moves
+- **One question per exhibit.** A table that answers "is the design valid?" should not also try to answer "how big is the effect?" Split them.
+- **Report SEs / CIs, never asterisks.** WBER, like serious applied journals, expects standard errors (and ideally confidence intervals) so readers judge magnitude and precision, not a star count. Note the clustering level in the table.
+- **Translate to policy units in the table or note.** Beside the coefficient, give the effect as a share of the control mean, a percentage-point change, or a cost-effectiveness figure. State the units and the baseline.
+- **Figures for designs and dynamics.** Event-study leads/lags, RD scatter with fitted lines and bins, and dose-response curves belong in figures — they show pre-trends, manipulation, and functional form at a glance.
+- **Self-contained notes.** Each note states the sample, the data source (LSMS/DHS/admin), the estimator, the clustering, and the units. A practitioner skimming exhibits should understand the paper without the text.
+- **Space discipline for the cap.** Move secondary specifications to the supplementary appendix; keep the main paper's exhibits to the load-bearing ones.
 
-1. State the exact tables and figures question in one sentence.
-2. Identify which WBER audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `wber-writing-style` if the stage passes, or back to `wber-workflow` if it does not.
+## Exhibit-by-purpose map
+
+| Purpose | Best exhibit | Must show |
+|---------|-------------|-----------|
+| Design validity (RCT) | Balance table | covariate means by arm, normalized differences, attrition |
+| Design validity (DiD) | Event-study figure | flat leads, dynamic effects, CI bands |
+| Design validity (RD) | RD scatter + density plot | binned means, fitted lines, no density jump |
+| Design validity (IV) | First-stage table | effective F, exclusion-falsification |
+| Main effect | Compact results table | point estimate, SE/CI, clustering, control mean, policy-unit translation |
+| Mechanism / heterogeneity | Coefficient/forest plot | subgroup effects with CIs, MHT-adjusted |
+| Cost / policy magnitude | Small summary table or note | cost per outcome, benefit-cost, fiscal scale |
+
+## Referee pushback mapped to the exhibit fix
+
+- *"I can't tell how big this effect is."* → Add the control mean and a policy-unit translation (share of mean / pp / cost per outcome) beside the coefficient.
+- *"Where's the evidence the design is valid?"* → Promote balance / pre-trends / density / first-stage from text to a dedicated exhibit.
+- *"The asterisks tell me nothing about magnitude."* → Replace with standard errors and confidence intervals; state the clustering level.
+- *"This table has too much in it."* → Split into a design exhibit and an effect exhibit; move nuisance columns to the appendix.
+- *"The paper is over length."* → Audit every exhibit against the 40-page cap; keep only load-bearing ones in the main text.
 
 ## Checklist
-- [ ] The WBER audience can see why the paper belongs in policy-relevant development economics, impact evaluation, institutions, trade, labor, agriculture, and poverty.
-- [ ] The draft distinguishes WBER from Journal of Development Economics, World Development, Economic Development.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for tables and figures names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Each exhibit answers exactly one question
+- [ ] SEs / CIs reported; no significance asterisks; clustering level stated
+- [ ] Headline effect translated into policy units (share of mean / pp / cost per outcome)
+- [ ] Design diagnostics (balance / pre-trends / density / first stage) shown as exhibits
+- [ ] Event-study, RD, and dose-response shown as figures, not buried in tables
+- [ ] Notes are self-contained: sample, source, estimator, clustering, units
+- [ ] Main-text exhibits trimmed to load-bearing ones; secondary ones in the appendix (40-page cap)
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to WBER without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Significance asterisks instead of standard errors / confidence intervals
+- A kitchen-sink table where the main effect hides among nuisance coefficients
+- Coefficients reported with no baseline mean or policy-unit translation
+- An event-study or RD presented as a table when the figure tells the story
+- Notes that omit the data source, clustering, or units
+- Pushing the paper over 40 pages with redundant exhibits that belong in the appendix
+
+## Worked vignette (illustrative)
+
+A draft reports a transfer program's effect in one wide table: 14 columns, asterisks everywhere, coefficient = 0.08 with no context. The WBER rebuild: Table 1 is balance (means by arm, normalized differences, 6% attrition, balanced). Table 2 is the main effect — one preferred specification, coefficient 0.08 (s.e. 0.02, clustered at village), control-mean consumption stated, with a note translating it to a 9% increase and a cost of about $34 per 10% consumption gain (illustrative). Figure 1 is the event study showing flat pre-trends. The kitchen-sink columns move to the appendix. The result is now legible to both an econometrician and a finance ministry.
+
+## Reading exhibits for two audiences
+
+A WBER exhibit is tested by a "two-reader skim": hand the tables and figures (without the text) to an econometrician and to a policy analyst.
+
+- The **econometrician** should be able to verify the design from the exhibits alone — balance, pre-trends, first stage, clustering — and judge whether the estimate is credible.
+- The **policy analyst** should be able to read off the magnitude in units they care about — how many more children enrolled, how many dollars, at what cost — without decoding a coefficient.
+
+If either reader is lost, the exhibit set has failed. The note line is the bridge: it must state the data source (LSMS/DHS/admin), the estimator, the clustering level, the sample, and the units, so each reader can self-serve.
 
 ## Output format
 
 ```text
-【Journal】The World Bank Economic Review
-【Skill】wber-tables-figures
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking tables and figures
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Development Economics, World Development
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】wber-writing-style
+【Exhibit inventory】design / main / mechanism / cost — one question each
+【Inference display】SE/CI shown, no asterisks, clustering noted? [Y/N]
+【Policy-unit translation】effect as share of mean / pp / cost per outcome? [state]
+【Figures】event-study / RD / dose-response as figures? [Y/N]
+【Self-contained notes】source + estimator + clustering + units? [Y/N]
+【Page-cap discipline】main exhibits trimmed; secondary in appendix? [Y/N]
+【Next step】wber-writing-style
 ```

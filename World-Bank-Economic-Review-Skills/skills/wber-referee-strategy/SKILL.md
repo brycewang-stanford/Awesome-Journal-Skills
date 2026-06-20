@@ -1,70 +1,91 @@
 ---
 name: wber-referee-strategy
-description: Use when working on referee strategy for a The World Bank Economic Review manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when anticipating referee and editor objections before submitting to The World Bank Economic Review (WBER) — pre-empting the predictable development-economics pushbacks (external validity, identification, data quality, policy relevance) and writing the cover letter. Plans defenses; it does not run new analysis.
 ---
 
 # Referee Strategy (wber-referee-strategy)
 
 ## When to trigger
-- The manuscript is aimed at **The World Bank Economic Review (WBER)** and referee strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's policy-relevant development economics, impact evaluation, institutions, trade, labor, agriculture, and poverty standard.
-- The paper risks being confused with nearby venues: Journal of Development Economics, World Development, Economic Development and Cultural Change, and AEJ Applied.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The paper is near submission and you want to surface objections before a referee does
+- You are writing the cover letter and choosing how to frame the contribution to the editor
+- You suspect one referee will be a hard-identification economist and another a policy reader
+- You want to decide which robustness checks to pre-load in the paper vs. hold for the response
+- You are unsure whether the framing will survive the "is this a World Bank paper?" reflex
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| policy counterfactual is central | Make the policy counterfactual assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| program evaluation is central | Make the program evaluation assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| World Bank audience is central | Make the World Bank audience assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| developing-country data is central | Make the developing-country data assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| implementation margin is central | Make the implementation margin assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Who referees WBER — and what they punish
 
-## WBER fit notes
+WBER's review is **single-anonymized** (referees are anonymous; your name is on the title page), and editors (Eric Edmonds and Nina Pavcnik, Dartmouth, 检索于 2026-06；以官网为准) draw on a development-economics referee pool that overlaps heavily with JDE, AEJ: Applied, and the AEA journals. Expect **two referee archetypes** and write for both:
 
-- Publisher / owner context: Oxford University Press for the World Bank.
-- Submission route to re-check: OUP / ScholarOne submission.
-- Signature vocabulary: policy counterfactual, program evaluation, World Bank audience, developing-country data, implementation margin.
-- Sibling boundary: Journal of Development Economics, World Development, Economic Development and Cultural Change, and AEJ Applied.
-- House-style aim: development-policy evidence with transparent data construction and actionable interpretation.
-- Official URLs currently used by the pack:
-- https://academic.oup.com/wber
-- https://academic.oup.com/wber/pages/General_Instructions
+- **The identification referee** — sophisticated about staggered-DiD bias, weak IV, RD manipulation, attrition, spillovers. Punishes asserted exclusion restrictions, TWFE on staggered timing, and overreach beyond the estimand.
+- **The policy/development referee** — asks "so what for development policy?", "does this generalize?", "what about general equilibrium and cost?". Punishes project-report framing and results with no scale-up relevance.
 
-## Stage-specific moves
+A paper that satisfies only one archetype is the canonical WBER R&R-or-reject. Pre-empt both.
 
-1. State the exact referee strategy question in one sentence.
-2. Identify which WBER audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `wber-submission` if the stage passes, or back to `wber-workflow` if it does not.
+## The predictable WBER objections (pre-empt in the paper)
+
+| Likely objection | Pre-emption to build in before submitting |
+|------------------|-------------------------------------------|
+| "This is a project report, not general-interest" | Frame around a transferable mechanism; state external validity explicitly (`wber-topic-selection`, `wber-identification`) |
+| "Identification rests on an untested assumption" | Show the diagnostic that could have failed; report design-specific sensitivity (`wber-identification`, `wber-robustness`) |
+| "Developing-country data quality is suspect" | Measurement-error and coverage checks against an alternative source (`wber-robustness`) |
+| "The LATE won't survive scale-up" | Discuss complier-vs-population, GE channels, fiscal cost (`wber-identification`) |
+| "Why WBER and not JDE / World Development?" | One intro sentence on the policy-audience contribution (`wber-literature-positioning`) |
+| "Not reproducible" | Have the data/code package and DOI-linked DAS ready (`wber-replication-package`) |
+
+## The cover letter
+
+- **Name the development question and the policy decision** in the first two sentences — give the editor the "why this journal" instantly.
+- **State the contribution as a claim** with a magnitude, and the identification in one line.
+- **Pre-empt the sibling question:** one sentence on why this is WBER, not JDE/World Development/Research Observer.
+- **Note the data/code package** is prepared and the data availability statement is in place.
+- **Suggest reviewers honestly** (if the portal asks) across both archetypes; flag genuine conflicts.
+- Keep it under a page; do not restate the abstract verbatim.
+
+## Pre-load vs. hold in reserve
+
+Not every check belongs in the submitted paper. Decide deliberately:
+
+- **Pre-load in the paper:** the design diagnostic the identification referee will demand first (balance/pre-trends/density/first-stage), the headline robustness, and the external-validity/cost paragraph. These are cheap insurance against a fast reject.
+- **Hold in reserve (ready to run):** exotic robustness a referee *might* ask for, alternative estimators that would bloat the main text, and extended heterogeneity. Have the code ready so you can produce them in one round if asked, without padding the 40 pages now.
+
+The judgment call: anything a competent referee would *certainly* ask goes in the paper; anything they *might* ask is held, code-ready, for the response letter.
 
 ## Checklist
-- [ ] The WBER audience can see why the paper belongs in policy-relevant development economics, impact evaluation, institutions, trade, labor, agriculture, and poverty.
-- [ ] The draft distinguishes WBER from Journal of Development Economics, World Development, Economic Development.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for referee strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Both referee archetypes (identification + policy) explicitly addressed in the paper
+- [ ] Each predictable objection has a pre-emption already in the text, not held in reserve
+- [ ] External validity / scale-up / cost is in the paper, not only the cover letter
+- [ ] The "why WBER not a sibling" sentence is in both the intro and the cover letter
+- [ ] Data/code package and DOI-linked DAS ready before submission
+- [ ] Cover letter names the policy decision in the opening lines and states a magnitude
+- [ ] Suggested reviewers (if requested) span both archetypes; conflicts disclosed
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to WBER without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Writing only for the identification referee and ignoring the policy reader (or vice versa)
+- Holding back the obvious robustness check, hoping no one asks — they will
+- A cover letter that restates the abstract and never says "why WBER"
+- Leaving external validity entirely to the cover letter instead of the paper
+- Assuming single-anonymized review hides the authors — your name is on the title page; reputation and self-citation are visible
+- Suggesting only friendly reviewers from one camp
+
+## Self-citation and the single-anonymized reality
+
+Because WBER review is single-anonymized, referees can see who you are — so the usual double-blind tricks do not apply and can backfire. Do not over-cite yourself to signal authority; do not strip your own relevant prior work to feign novelty (a referee who knows your record will notice). Cite your prior work where it is genuinely the right reference, in the third person, and let the contribution stand on the new result. Treat the referees as informed colleagues who may well know your earlier papers better than you expect.
+
+## Worked vignette (illustrative)
+
+Before submitting an RD evaluation of a subsidy, the authors war-game two reports. The identification referee will challenge manipulation at the eligibility score; they pre-load a Cattaneo–Jansson–Ma density test and a donut check. The policy referee will ask whether a local-at-cutoff effect justifies a national change; they add a paragraph on the complier population and a back-of-envelope fiscal cost at scale. The cover letter opens: "Governments spend billions on means-tested subsidies but lack credible estimates of marginal effects; using [country]'s eligibility threshold we estimate a 5pp enrollment gain at $90 per enrollee." Both archetypes are answered before review begins.
 
 ## Output format
 
 ```text
-【Journal】The World Bank Economic Review
-【Skill】wber-referee-strategy
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking referee strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Development Economics, World Development
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】wber-submission
+【Identification referee】top objection + pre-emption in paper
+【Policy referee】top objection + pre-emption in paper
+【External validity / cost】in the paper? [Y/N]
+【Why-WBER sentence】in intro AND cover letter? [Y/N]
+【Package readiness】data/code + DOI DAS ready? [Y/N]
+【Cover letter】names policy decision + magnitude in opening? [Y/N]
+【Next step】wber-submission
 ```

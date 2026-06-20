@@ -1,70 +1,92 @@
 ---
 name: jle-robustness
-description: Use when working on robustness strategy for a The Journal of Law and Economics manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when a The Journal of Law and Economics (JLE) manuscript's headline estimate must be shown to survive specification, sample, jurisdiction, and inference choices before submission or in an R&R. Builds the robustness suite a law-and-economics referee expects; it does not establish the primary identification (jle-identification) or format the exhibits (jle-tables-figures).
 ---
 
-# Robustness Strategy (jle-robustness)
+# Robustness Suite (jle-robustness)
 
 ## When to trigger
-- The manuscript is aimed at **The Journal of Law and Economics (JLE)** and robustness strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's law and economics, regulation, property rights, contracts, liability, antitrust, and legal institutions standard.
-- The paper risks being confused with nearby venues: Journal of Legal Studies, JLEO, American Law and Economics Review, and Journal of Public Economics.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The main estimate of a legal/regulatory effect is in hand and you must show it is not an artifact of one specification
+- A referee asks "is this robust to alternative controls / sample / which jurisdictions / how you date the rule?"
+- The result depends on a bandwidth, a clustering choice, a treatment date, or a sample of included jurisdictions that could be questioned
+- You suspect specification-search concerns and want to pre-empt them
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| legal rule variation is central | Make the legal rule variation assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| institutional doctrine is central | Make the institutional doctrine assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| contracting friction is central | Make the contracting friction assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| regulatory incidence is central | Make the regulatory incidence assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| court or statute design is central | Make the court or statute design assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The JLE robustness bar
 
-## JLE fit notes
+JLE referees — economists who know the institution — probe whether the estimated effect of the rule is **stable, honestly inferred, and not the product of researcher degrees of freedom**, with special attention to **legal-design choices**: how you dated the rule, which jurisdictions you treated as controls, whether enforcement was uniform. Robustness here is not a wall of regressions; it is a **targeted set of checks each tied to a specific threat to the legal identification**. Map every plausible objection to the one check that answers it, and show the point estimate barely moves.
 
-- Publisher / owner context: University of Chicago Press.
-- Submission route to re-check: Chicago Journals online submission.
-- Signature vocabulary: legal rule variation, institutional doctrine, contracting friction, regulatory incidence, court or statute design.
-- Sibling boundary: Journal of Legal Studies, JLEO, American Law and Economics Review, and Journal of Public Economics.
-- House-style aim: economics-first legal analysis that respects doctrine, timing, and institutional assignment.
-- Official URLs currently used by the pack:
-- https://www.journals.uchicago.edu/journals/jle/instruct
-- https://www.journals.uchicago.edu/toc/jle/current
+| Threat to the result | The check that answers it |
+|----------------------|---------------------------|
+| Omitted confounders | Oster δ / coefficient-stability bounds; controls added in steps |
+| Wrong treatment date | re-date to signing vs. effective vs. enforcement onset; donut around the date |
+| Contaminated control jurisdictions | drop jurisdictions with contemporaneous reforms; alternative donor pools; placebo on uncovered legal areas |
+| Specification search | a specification curve; declare the primary spec up front |
+| Functional form | levels vs. logs, alternative outcome/penalty definitions, nonparametric version |
+| Sample / jurisdiction selection | leave-one-state-out, balanced vs. unbalanced panel, drop the largest jurisdiction |
+| Inference too narrow (few jurisdictions) | cluster at the legal-variation level; wild-cluster bootstrap; randomization/permutation inference |
+| Design-specific fragility | DiD: honest-DID bounds; RD: bandwidth/donut; IV: weak-IV-robust set |
 
-## Stage-specific moves
+## Robustness craft
 
-1. State the exact robustness strategy question in one sentence.
-2. Identify which JLE audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jle-tables-figures` if the stage passes, or back to `jle-workflow` if it does not.
+1. **Lock the primary specification first.** Everything else perturbs around it; do not present five co-equal specs and let the reader guess the preferred one.
+2. **One threat → one check.** A robustness table should read "here is the worry, here is the evidence it is not a problem."
+3. **Stress the legal-design choices specifically.** Re-dating the rule, swapping the control jurisdictions, and varying enforcement assumptions are the JLE-characteristic checks a referee who knows the institution will demand.
+4. **Show stability of the point estimate**, not just surviving significance.
+5. **Match inference to the data structure.** With few states/jurisdictions, asymptotic clustered SEs over-reject; report a wild-cluster bootstrap or randomization inference — the single most common JLE robustness failure.
+6. **Be honest about where it weakens.** A check that moves the estimate is information; report it and bound the implication.
+7. **Use placebos on uncovered legal areas.** A distinctive and persuasive JLE robustness move is a placebo on an outcome the rule should *not* affect (an uncapped tort alongside a capped one, an unregulated adjacent market) — a null there isolates the legal channel far more credibly than another control regression.
 
 ## Checklist
-- [ ] The JLE audience can see why the paper belongs in law and economics, regulation, property rights, contracts, liability, antitrust, and legal institutions.
-- [ ] The draft distinguishes JLE from Journal of Legal Studies, JLEO, American Law.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for robustness strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Primary specification declared before perturbations
+- [ ] Each robustness check mapped to a specific threat, not added for volume
+- [ ] Treatment-date sensitivity shown (signing vs. effective vs. enforcement)
+- [ ] Control-jurisdiction sensitivity shown (drop contaminated, leave-one-out, placebo legal area)
+- [ ] Coefficient-stability evidence (Oster δ or stepwise) for selection on unobservables
+- [ ] Inference at the legal-variation level + wild-cluster/randomization where jurisdictions are few
+- [ ] Design-specific sensitivity (honest-DID / RD bandwidth / weak-IV set)
+- [ ] Stability of the point estimate shown; any check that moves it reported honestly
+
+## Separating identification robustness from policy interpretation
+
+Keep the robustness section about whether the *estimate of the legal effect* is stable, and do not let it drift into re-arguing the rule's normative merits. A referee wants to know the number survives re-dating, control swaps, and correct inference — not your view on whether the rule is good policy. Park the welfare and policy discussion in its own section (see `jle-theory-model`) so the robustness evidence reads as clean, mechanical stress-testing of the identified effect.
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JLE without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A 20-column robustness table with no map from check to threat ("kitchen-sink robustness")
+- Clustering at the firm or case level when the legal variation is at the state level, then claiming robust precision
+- Ignoring few-cluster bias with a dozen states and reporting naive clustered SEs
+- Hiding the treatment-date choice or the control-jurisdiction choice that breaks the result
+- Reporting only that significance survives while the point estimate wanders
+- Treating "added more controls and it survived" as sufficient for selection on unobservables
+
+## Worked vignette (illustrative)
+
+A DiD estimate that an entry-licensing law raised consumer prices is 6% (s.e. 2). The robustness suite: (i) re-dating from the statute's signing to its effective date shifts the estimate trivially (6.1%); (ii) dropping the three states with simultaneous occupational-licensing reforms leaves it at 5.7%; (iii) a leave-one-state-out sweep stays within [5.2%, 6.4%]; (iv) Oster δ implies selection on unobservables would need to be 2.1× selection on observables to nullify it; (v) with 11 treated states a wild-cluster bootstrap keeps the 95% interval away from zero, whereas naive clustering over-rejects; (vi) a placebo on an unlicensed adjacent service is null. The point estimate barely moves — the JLE target.
+
+## The few-clusters problem is the JLE default, not the exception
+
+Most JLE empirical designs exploit variation across a small number of legal units — 50 states, a dozen circuits, a handful of countries, one agency's enforcement regions. With few clusters, conventional clustered standard errors **over-reject**, so a result that looks significant may not survive correct inference. Treat this as the baseline expectation, not a corner case:
+
+- Report a **wild-cluster bootstrap** (Cameron–Gelbach–Miller) or **randomization/permutation inference** as the primary inference when clusters are few, with naive clustered SEs shown only for comparison.
+- For a single treated unit or a few, consider **synthetic control** with placebo-based inference instead of DiD.
+- Do not "solve" few clusters by clustering at a finer level (case, firm) that the legal variation does not justify — that manufactures precision the design cannot support.
+
+## Referee pushback mapped to the robustness fix
+
+- *"You only have 11 states — your standard errors are too small."* → Cluster at the state level and report a wild-cluster bootstrap or randomization-inference p-value.
+- *"Your result depends on when you say the law took effect."* → Show estimates under signing, effective, and enforcement dates with a donut around each.
+- *"Could the control states' own reforms drive this?"* → Drop contaminated controls, run leave-one-out, and add a placebo on an unaffected legal area.
+- *"One treated state can't give you valid inference."* → Switch to synthetic control with placebo (in-space) inference rather than asymptotic clustering.
 
 ## Output format
 
-```text
-【Journal】The Journal of Law and Economics
-【Skill】jle-robustness
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking robustness strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Legal Studies, JLEO
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jle-tables-figures
+```
+【Primary spec】declared? [Y/N] — estimate: ___ (s.e. ___)
+【Threat → check map】confounders: ___ | date: ___ | controls: ___ | form: ___ | sample: ___ | inference: ___ | design: ___
+【Inference】clustering level: ___; few-cluster method: ___
+【Design sensitivity】honest-DID / RD bandwidth / weak-IV set: ___
+【Estimate stability】range across checks: [___, ___]; checks that move it: ___
+【Next step】jle-tables-figures
 ```

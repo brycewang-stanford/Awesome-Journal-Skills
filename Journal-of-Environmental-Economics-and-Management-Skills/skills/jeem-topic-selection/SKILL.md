@@ -1,60 +1,79 @@
 ---
 name: jeem-topic-selection
-description: Use when working on topic selection for a Journal of Environmental Economics and Management manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when scoping or scope-testing a Journal of Environmental Economics and Management (JEEM) manuscript — confirming the environmental/resource mechanism is load-bearing and the question clears the field-journal bar before any analysis is finalized. Decides fit and routes; it does not invent evidence or citations.
 ---
 
 # Topic Selection (jeem-topic-selection)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Environmental Economics and Management (JEEM)** and topic selection is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's environmental economics, resource economics, climate policy, regulation, valuation, and natural-resource management standard.
-- The paper risks being confused with nearby venues: Review of Environmental Economics and Policy, AEJ Economic Policy, Journal of Public Economics, and Nature Climate Change.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The paper is aimed at JEEM and you are not sure the **environmental or resource mechanism is doing the work** versus being a label on a generic applied-micro result
+- A coauthor asks "is this JEEM, JAERE, JPubE, AEJ: Policy, or Ecological Economics?"
+- The result is interesting but the **policy or welfare stakes** are not articulated
+- The paper is a method/valuation exercise and you must show it speaks to a substantive environmental question, not just a technique
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| environmental externality is central | Make the environmental externality assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| regulatory design is central | Make the regulatory design assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| valuation evidence is central | Make the valuation evidence assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| climate adaptation is central | Make the climate adaptation assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| resource management is central | Make the resource management assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Data first or question first
 
-## JEEM fit notes
+Environmental economics is data-rich — satellite imagery, sensor networks, administrative permit registries, parcel records — and that abundance tempts a "we have a great dataset, what can we estimate?" approach. JEEM rewards the reverse: a sharp environmental-economic *question* that the data then answer. A novel dataset is an asset only if it identifies a welfare-relevant parameter the field wants; on its own it is a desk-reject risk ("interesting data, no contribution"). Before committing, write the one-sentence question and the regulator-usable number it targets, then ask whether the data identify it — not the other way around.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: environmental externality, regulatory design, valuation evidence, climate adaptation, resource management.
-- Sibling boundary: Review of Environmental Economics and Policy, AEJ Economic Policy, Journal of Public Economics, and Nature Climate Change.
-- House-style aim: economic identification linked to environmental mechanisms and policy welfare.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/journal-of-environmental-economics-and-management
-- https://www.elsevier.com/journals/journal-of-environmental-economics-and-management/0095-0696/guide-for-authors
+## The JEEM fit test
 
-## Stage-specific moves
+JEEM is a **field** journal: the environmental, resource, or climate content is the point, and the economics must be credible. A paper passes the fit test only if the environmental mechanism is *necessary* to the contribution — remove it and the paper collapses. Run the question through these gates in order:
 
-1. State the exact topic selection question in one sentence.
-2. Identify which JEEM audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jeem-literature-positioning` if the stage passes, or back to `jeem-workflow` if it does not.
+1. **Is the object environmental/resource-economic?** pollution & climate, energy, water, fisheries/forests/land, ecosystem services, environmental regulation & permits, or the **nonmarket value** of an environmental good. If the externality or resource is just a setting for a labor/IO/public-finance result, JEEM is the wrong field journal.
+2. **Is there a welfare or policy stake?** JEEM rewards numbers a regulator could use — a marginal damage, a willingness-to-pay, a compliance cost, an abatement-cost curve, a resource rent. "X correlates with pollution" is not a JEEM contribution; "the marginal external cost of X is $Y, so the efficient tax is Z" is.
+3. **Does the method clear the bar for its branch?** A causal claim needs a real design (not OLS + controls); a valuation needs a defensible preference-recovery argument; a theory paper needs a comparative static that bites.
+
+## Branch-specific scoping
+
+| Archetype | What makes it a JEEM paper | What makes it a desk-reject |
+|-----------|----------------------------|------------------------------|
+| Environmental-policy causal | a regulation/permit-market/standard generates clean variation; welfare or compliance-cost interpretation | reduced-form correlation with no design; environment is incidental |
+| Revealed-preference valuation | hedonic/travel-cost recovers a WTP for a defined environmental amenity | a house-price regression with no amenity/welfare claim |
+| Stated-preference valuation | CV/DCE elicits WTP for a policy-relevant good with credible survey design | a survey with no incentive compatibility or scope test |
+| Resource/pollution theory | a model yields a testable or policy-relevant prediction about resource use or abatement | math with no environmental comparative static or empirical hook |
+| Climate / damages | weather/climate variation maps to an economic outcome and adaptation margin | a climate-impacts paper with no economics (belongs in a science journal) |
+
+## Sibling boundaries (be explicit in the paper)
+
+- **vs. JAERE** — AERE's own journal and the closest substitute; JEEM is the older Elsevier flagship. Position on contribution, not prestige; do not claim "AERE official journal" status without checking current ownership (待核实).
+- **vs. AEJ: Economic Policy / JPubE** — those reward the general policy/public-finance contribution; JEEM rewards the *environmental* mechanism and field audience.
+- **vs. Ecological Economics** — that journal is pluralist/interdisciplinary; JEEM is neoclassical welfare economics.
+- **vs. Nature Climate Change** — that is a science venue; JEEM needs the economics (preferences, welfare, optimization), not just an impact estimate.
+
+## Worked vignette (illustrative)
+
+A team has clean administrative data on a firm subsidy and finds it raised employment. They want to submit to JEEM because the firms happen to be in renewable energy. Run the fit test: the *object* is a labor/IO subsidy effect, the *welfare stake* is jobs not an environmental externality, and the *environmental mechanism is not load-bearing* — strip out "renewable" and the paper is unchanged. Verdict: reroute to a public-finance or labor venue. Contrast a version that estimates how the subsidy changed **abatement and emissions**, recovers the **implied cost per ton of CO2 abated**, and compares it to the social cost of carbon — now the environmental mechanism carries the contribution and a regulator-usable number emerges. That version is a JEEM paper.
+
+## Short-paper route
+
+JEEM accepts short papers / notes that make a contribution comparable to a full paper, with expedited review (检索于 2026-06；以官网为准; exact word ceiling 待核实). This route fits a sharp, single-result environmental contribution: a clean new estimate of one parameter, a decisive robustness correction to a published result, or a focused methodological note for valuation. If the contribution is one crisp number rather than a multi-part argument, scope it as a short paper rather than padding it to full length.
+
+## The desk-reject self-test
+
+Before investing, simulate the editor's scope screen with three blunt questions. (1) If I deleted the word "environmental/climate/pollution" from the title and abstract, would the paper still make sense as a labor/IO/public-finance paper? If yes, the mechanism is not load-bearing — reroute. (2) Can I state a number a regulator could use (a damage, a WTP, an abatement cost, a quota)? If no, there is no welfare contribution yet. (3) Is there a recent JEEM or JAERE paper a referee would say I am merely re-running on new data? If yes, find what I fix. Passing all three is the minimum bar before topic selection is settled.
 
 ## Checklist
-- [ ] The JEEM audience can see why the paper belongs in environmental economics, resource economics, climate policy, regulation, valuation, and natural-resource management.
-- [ ] The draft distinguishes JEEM from Review of Environmental Economics, Policy, AEJ Economic Policy.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for topic selection names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] One sentence states the environmental/resource object and why it matters for policy or welfare
+- [ ] Removing the environmental mechanism would collapse the contribution (it is load-bearing)
+- [ ] The branch is named (policy-causal / RP valuation / SP valuation / theory / climate) and its method bar is met
+- [ ] A regulator-usable parameter (damage, WTP, abatement cost, rent, elasticity) is the target, not a bare correlation
+- [ ] The paper distinguishes itself from JAERE and from the general-interest / interdisciplinary siblings
+- [ ] Short-paper route considered if the contribution is sharp but narrow (JEEM accepts short papers / notes)
+- [ ] Process facts cited are in `resources/official-source-map.md` or marked 待核实
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JEEM without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- "Environmental" as a setting, not a mechanism — a generic DiD that happens to use a green outcome
+- Estimating an effect with no welfare interpretation and no number a policymaker could use
+- Picking JEEM for prestige when the audience is really public finance or development
+- A pure climate-science impact paper with no economic model of behavior or welfare
+- Asserting JEEM is "the AERE official journal" without verifying current ownership (待核实)
+
+## Timeliness without chasing headlines
+
+JEEM rewards questions that matter for current environmental policy — carbon pricing, air-quality regulation, water and fisheries management, climate adaptation, the energy transition — but it is a welfare-economics journal, not a news outlet. A topic earns durability when it pins down a parameter or mechanism that remains useful after the specific policy episode passes: the marginal damage of a pollutant, the WTP for an ecosystem service, the abatement-cost response to a price signal. Choose a question whose answer a regulator could cite in five years, not one that depends entirely on a fleeting policy debate. The best JEEM topics pair a salient policy context with a parameter of lasting interest.
 
 ## Output format
 
@@ -62,9 +81,10 @@ description: Use when working on topic selection for a Journal of Environmental 
 【Journal】Journal of Environmental Economics and Management
 【Skill】jeem-topic-selection
 【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking topic selection
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Review of Environmental Economics, Policy
+【Environmental mechanism】is it load-bearing? [Y/N] — one sentence
+【Branch】policy-causal / RP-valuation / SP-valuation / theory / climate
+【Policy-relevant target】damage / WTP / abatement cost / rent / elasticity
+【Sibling boundary】why JEEM not JAERE / JPubE / Ecological Economics
 【Source status】verified URL / 待核实 / not asserted
 【Next skill】jeem-literature-positioning
 ```

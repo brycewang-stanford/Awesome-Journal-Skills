@@ -1,70 +1,90 @@
 ---
 name: jle-topic-selection
-description: Use when working on topic selection for a The Journal of Law and Economics manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when deciding whether a law-and-economics project belongs at The Journal of Law and Economics (JLE) rather than the Journal of Legal Studies, JLEO, or the American Law and Economics Review, and what its central legal/regulatory question should be. Sets venue fit and question scope; it does not design the identification (see jle-identification).
 ---
 
-# Topic Selection (jle-topic-selection)
+# Topic Selection & Venue Fit (jle-topic-selection)
 
 ## When to trigger
-- The manuscript is aimed at **The Journal of Law and Economics (JLE)** and topic selection is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's law and economics, regulation, property rights, contracts, liability, antitrust, and legal institutions standard.
-- The paper risks being confused with nearby venues: Journal of Legal Studies, JLEO, American Law and Economics Review, and Journal of Public Economics.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A project analyzes a law, a regulation, a court, or a legal institution economically, but you are unsure it is "JLE-shaped"
+- The question reads like doctrinal legal scholarship, an organizational-governance study, or a generic applied-micro paper — and you need to place it
+- The same dataset (court records, enforcement actions, statute panels) supports several framings and you must pick the one that lands here
+- A co-author asks "why JLE and not the Journal of Legal Studies or JLEO?"
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| legal rule variation is central | Make the legal rule variation assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| institutional doctrine is central | Make the institutional doctrine assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| contracting friction is central | Make the contracting friction assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| regulatory incidence is central | Make the regulatory incidence assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| court or statute design is central | Make the court or statute design assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The JLE fit test
 
-## JLE fit notes
+JLE wants **economic analysis of law, regulation, and legal institutions** where a **real legal/regulatory question** is answered with a **credible empirical design or a disciplined theoretical model**, in the Chicago price-theory-plus-institutions tradition. The legal rule or institution must be load-bearing — not background color for a generic economics paper, and not a doctrinal argument dressed in regression.
 
-- Publisher / owner context: University of Chicago Press.
-- Submission route to re-check: Chicago Journals online submission.
-- Signature vocabulary: legal rule variation, institutional doctrine, contracting friction, regulatory incidence, court or statute design.
-- Sibling boundary: Journal of Legal Studies, JLEO, American Law and Economics Review, and Journal of Public Economics.
-- House-style aim: economics-first legal analysis that respects doctrine, timing, and institutional assignment.
-- Official URLs currently used by the pack:
-- https://www.journals.uchicago.edu/journals/jle/instruct
-- https://www.journals.uchicago.edu/toc/jle/current
+| Signal in your project | Likely fit |
+|------------------------|-----------|
+| A legal rule / regulation / enforcement regime changes behavior, and you identify the effect credibly | **JLE** (core) |
+| The contribution is primarily doctrinal or normative-legal, lightly empirical | lean **Journal of Legal Studies** (also UChicago, more legal/doctrinal) |
+| The question is about organizations, governance, or positive political economy / institutions-as-equilibria | lean **JLEO** |
+| Solid law-and-econ but incremental, field-internal, or a shorter contribution | **American Law and Economics Review** |
+| The legal angle is incidental; it is really labor/public/IO with a law label | a **field journal** or AEJ, not JLE |
+| Pure mechanism-design / contract theory with no legal institution | a **theory journal**, not JLE |
 
-## Stage-specific moves
+JLE is **question-first and institution-respecting**: an empirical paper needs the rule's mechanics right (who is bound, when it binds, what the counterfactual rule is); a theory paper needs comparative statics about a legal rule that someone could in principle test or recognize in the world.
 
-1. State the exact topic selection question in one sentence.
-2. Identify which JLE audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jle-literature-positioning` if the stage passes, or back to `jle-workflow` if it does not.
+## Sharpening the question (do this before writing anything)
+
+1. **One-sentence legal/economic question** with the rule and the object named: "What is the effect of legal rule R on outcome Y for agents A, identified by [the change/threshold/assignment]?"
+2. **Why a law-and-economics audience cares** — name the regulatory or doctrinal debate the answer informs (e.g., damages caps and litigation, merger policy and prices, sentencing and deterrence).
+3. **The institutional detail that makes it real** — when does the rule bind, who is exempt, what is the counterfactual legal regime; if you cannot state this, the topic is not yet JLE-shaped.
+4. **The credible-design or model seed** — a law change, a threshold, a court/case assignment, an enforcement event, or a model whose comparative statics are testable; if none, route to `jle-identification` or `jle-theory-model`.
 
 ## Checklist
-- [ ] The JLE audience can see why the paper belongs in law and economics, regulation, property rights, contracts, liability, antitrust, and legal institutions.
-- [ ] The draft distinguishes JLE from Journal of Legal Studies, JLEO, American Law.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for topic selection names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] One-sentence question naming the legal rule/institution and the economic outcome
+- [ ] Venue placed against the table; the reason it is JLE and not JLS / JLEO / ALER written in one line
+- [ ] The legal-institutional mechanics stated (who is bound, when it binds, the counterfactual rule)
+- [ ] The regulatory or doctrinal debate the answer speaks to, named
+- [ ] A candidate design (law change / threshold / assignment / enforcement event) or a testable model
+- [ ] No causal overclaim from a design that cannot support it, and no doctrinal argument standing in for evidence
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JLE without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A generic applied-micro paper with a thin legal label sent to JLE for "fit" — desk-reject risk
+- Doctrinal/normative legal argument with token regressions (belongs at JLS, or is not yet a JLE paper)
+- An organizations / positive-political-economy study that is really JLEO-shaped
+- "Interesting court dataset, no question" — data availability is not a contribution
+- Getting the institution wrong (treating a non-binding rule as binding, ignoring exemptions or enforcement gaps)
+
+## Worked vignette (illustrative)
+
+A researcher has scraped two decades of state appellate decisions and wants to "study judges and the economy." That is a dataset, not a question. Working through the fit test: the cleanest variation is the staggered random assignment of cases to judges with measurably different priors — a court-assignment design. The question becomes "what is the effect of being assigned a pro-defendant judge on firm investment after a contract dispute, identified by random case assignment?" The doctrinal debate is whether judicial discretion creates legal uncertainty that chills investment; the institution is real (assignment rules, recusal, appeal). Now it is JLE-shaped — and clearly not a doctrinal JLS note or a JLEO governance study.
+
+## The field areas JLE is built for
+
+A project lands more naturally if it sits in one of JLE's historical strengths. Use this to confirm the question is recognizably law-and-economics:
+
+- **Antitrust & competition** — merger effects, collusion, market definition, the economics of enforcement and consent decrees
+- **Regulation & its incidence** — who bears the cost of a rule, capture, the Stigler/Peltzman theory of regulation, deregulation episodes
+- **Crime & deterrence** — the Becker margin (probability × severity), sentencing, enforcement intensity, recidivism
+- **Property & contract** — entitlements and bargaining (Coase), contract enforcement, property-rights regimes
+- **Corporate & securities law** — disclosure rules, governance mandates, securities enforcement, litigation
+- **Litigation & courts** — selection of disputes (Priest–Klein), fee rules, damages caps, judicial behavior
+- **Intellectual property** — patent/copyright scope, infringement, innovation incentives
+- **Political economy of law** — lawmaking, lobbying, the supply of legal rules
+
+If the question does not sit in or adjacent to one of these, re-examine whether the legal institution is really load-bearing.
+
+## Sibling-placement quick test
+
+- Is the deliverable an *economic effect of a legal rule*, credibly identified? → **JLE**
+- Is it primarily a doctrinal or normative-legal argument? → **Journal of Legal Studies**
+- Is it about organizations, governance, or institutions-as-equilibria? → **JLEO**
+- Is it solid but incremental law-and-econ? → **American Law and Economics Review**
+- Would a non-law economist cite it without caring about the rule? → a **field journal**, not JLE
 
 ## Output format
 
-```text
-【Journal】The Journal of Law and Economics
-【Skill】jle-topic-selection
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking topic selection
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Legal Studies, JLEO
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jle-literature-positioning
+```
+【Question】one sentence, legal rule + economic outcome + agents named
+【Venue verdict】JLE because [not JLS: ___] [not JLEO: ___] [not ALER: ___]
+【Institutional mechanics】who is bound / when it binds / counterfactual rule: ___
+【Debate it informs】regulatory or doctrinal question: ___
+【Design or model seed】law change / threshold / assignment / enforcement event / testable model
+【Next step】jle-literature-positioning
 ```

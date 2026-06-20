@@ -1,70 +1,95 @@
 ---
 name: jue-identification
-description: Use when working on identification strategy for a Journal of Urban Economics manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the spatial identification argument is the bottleneck for a Journal of Urban Economics (JUE) manuscript — boundary discontinuity, shift-share/Bartik, historical or geographic IV, place-based DiD, or mobility experiment. Stress-tests the spatial design against sorting, spillovers, and spatial-autocorrelation confounds before exhibits are finalized.
 ---
 
-# Identification Strategy (jue-identification)
+# Spatial Identification (jue-identification)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Urban Economics (JUE)** and identification strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's urban economics, spatial equilibrium, housing, transport, local public finance, and neighborhood sorting standard.
-- The paper risks being confused with nearby venues: Journal of Public Economics, Journal of Economic Geography, Regional Science and Urban Economics, and AEJ Applied.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A causal claim rests on OLS + region controls, or TWFE on staggered place-based policy
+- A shift-share/Bartik instrument's exogeneity (shares vs shocks) is asserted, not argued
+- A boundary/border discontinuity lacks a continuity-of-confounders defense
+- The estimate could be driven by **spatial sorting/selection** across locations rather than the treatment
+- Control areas may be contaminated by **spillovers/displacement** (SUTVA failure)
+- Inference ignores **spatial autocorrelation** (Conley/HAC) and overstates precision
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| spatial equilibrium is central | Make the spatial equilibrium assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| housing supply is central | Make the housing supply assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| commuting margin is central | Make the commuting margin assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| local public goods is central | Make the local public goods assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| neighborhood sorting is central | Make the neighborhood sorting assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The JUE identification bar
 
-## JUE fit notes
+JUE referees are sophisticated about the failure modes that are *specific to space*. A clean national design is not enough; you must defend it against the three spatial confounds that recur in every urban paper: **(1) sorting/selection** — people, firms, and developers choose locations, so cross-location comparisons mix treatment with composition; **(2) spillovers/SUTVA** — treating one place moves activity to or from neighbors, contaminating controls and biasing reduced forms; **(3) spatial autocorrelation** — nearby units are correlated, so naive SEs are too small. State the estimand, name the identifying variation, show the diagnostic that could have failed, and address all three confounds explicitly.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: spatial equilibrium, housing supply, commuting margin, local public goods, neighborhood sorting.
-- Sibling boundary: Journal of Public Economics, Journal of Economic Geography, Regional Science and Urban Economics, and AEJ Applied.
-- House-style aim: spatially grounded evidence with clear maps, mechanisms, and equilibrium caveats.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/journal-of-urban-economics
-- https://www.elsevier.com/journals/journal-of-urban-economics/0094-1190/guide-for-authors
+## Design paths
 
-## Stage-specific moves
+### Path A: Boundary / spatial discontinuity (school zones, jurisdiction borders, corridors)
+- **Continuity defense:** show pre-determined covariates are smooth across the boundary; the running variable is geographic distance.
+- Local-linear with data-driven bandwidth; **bias-corrected robust CIs**; donut to drop units at the exact line; bandwidth sensitivity.
+- Defend that the boundary is not also a discontinuity in *something else* (other jurisdiction services, zoning, natural features).
+- The estimand is the **local** effect at the border — resist extrapolating to the whole city.
 
-1. State the exact identification strategy question in one sentence.
-2. Identify which JUE audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jue-theory-model` if the stage passes, or back to `jue-workflow` if it does not.
+### Path B: Shift-share / Bartik (local labor demand, immigration, trade exposure)
+- State whether identification rests on **exogenous shares** (Goldsmith-Pinkham–Sorkin–Swift; report Rotemberg weights) or **exogenous shocks** (Borusyak–Hull–Jaravel).
+- Show the implied just-identified instruments and which industries/shocks drive the estimate.
+- Address that initial shares reflect prior sorting; defend pre-period balance and exclusion.
+
+### Path C: Historical / geographic IV (terrain, soil, historical infrastructure, lines on maps)
+- Argue the instrument affects the outcome **only through** the spatial channel of interest — the exclusion restriction is where these papers live or die.
+- Falsification on placebo outcomes and never-treated channels; control for the geography the instrument correlates with.
+
+### Path D: Place-based policy DiD / event study (zones, infrastructure, rezoning)
+- With staggered rollout, **move beyond TWFE** (Callaway–Sant'Anna, Sun–Abraham, de Chaisemartin–D'Haultfœuille); clean event-study leads; Goodman-Bacon decomposition.
+- **Spillover-robust controls:** ring/donut specifications around treated areas; estimate displacement to neighbors rather than assuming SUTVA.
+- Rambachan–Roth honest-DID sensitivity to parallel-trend violations.
+
+### Path E: Mobility / neighborhood experiment (MTO-style, voucher lotteries)
+- Lottery/randomization as the source of variation; ITT and LATE/TOT distinguished; non-compliance handled.
+- Selection into take-up addressed; neighborhood exposure measured, not assumed.
+
+## Cross-cutting spatial inference
+
+- **Spatial autocorrelation:** Conley spatial-HAC SEs (with a defended distance cutoff) or cluster at the spatial-market level; report how SEs change versus naive.
+- **Sorting/selection:** show composition is balanced or model the sorting; never present a cross-location comparison as if locations were randomly assigned.
+- **SUTVA/spillovers:** define the treated and control geography so that spillovers do not contaminate controls; estimate the spillover itself where possible.
 
 ## Checklist
-- [ ] The JUE audience can see why the paper belongs in urban economics, spatial equilibrium, housing, transport, local public finance, and neighborhood sorting.
-- [ ] The draft distinguishes JUE from Journal of Public Economics, Journal of Economic Geography, Regional Science.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for identification strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Estimand named (local-at-boundary / ATT / LATE) and matched to the design
+- [ ] The spatial variation is stated in one sentence; the diagnostic that could have failed is shown
+- [ ] **Sorting/selection** addressed (balance, composition, or explicit sorting model)
+- [ ] **Spillovers/SUTVA** addressed (rings/donuts; displacement estimated, not assumed away)
+- [ ] **Spatial autocorrelation** in inference (Conley/spatial cluster), reported vs naive SEs
+- [ ] Shift-share: shares-vs-shocks identification stated; Rotemberg weights or BHJ reported
+- [ ] Modern estimator where TWFE/2SLS would bias; the claim never exceeds the local estimand
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JUE without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- TWFE on staggered place-based policy with no heterogeneity-bias discussion
+- A boundary RD with no covariate-smoothness test or with the boundary confounding other services
+- "Plausibly exogenous" shares/geography asserted with no falsification or Rotemberg/BHJ diagnostic
+- Treating control regions as clean when treatment plausibly displaced activity into them
+- Naive (non-spatial) standard errors on geographically clustered data
+- Reading a local boundary or LATE estimate as a city-wide or national effect
+
+## Referee pushback mapped to the identification fix
+
+- *"This is sorting, not the treatment."* → Show pre-period composition is balanced across treated/control, or model the location choice; add a placebo on pre-trends.
+- *"Your controls are contaminated by displacement."* → Add a spillover ring; estimate the displacement to neighbors rather than assuming SUTVA; show controls outside the ring give the same answer.
+- *"Your standard errors ignore spatial correlation."* → Report Conley spatial-HAC SEs at a defended distance cutoff and contrast them with the naive SEs.
+- *"Staggered TWFE is biased here."* → Re-estimate with Callaway–Sant'Anna or Sun–Abraham; show flat event-study leads and a Goodman-Bacon decomposition.
+- *"Your shift-share shares are not exogenous."* → Report Rotemberg weights (which industries drive it) or move to a Borusyak–Hull–Jaravel shock-exogeneity argument.
+
+## Worked vignette (illustrative)
+
+A new light-rail line is evaluated with a DiD comparing corridor tracts to the rest of the metro. A referee flags two spatial confounds: richer households **sort** into the corridor, and demand **displaced** from control tracts contaminates them. The JUE fix: a boundary-distance design with ring controls (0–800m treated, 800–1600m as a spillover ring, >1600m control), covariate-smoothness across the ring boundary, Conley SEs with a 5km cutoff, and a sorting check on pre-period demographics. The capitalization estimate settles at 4.5% (Conley s.e. 1.3) and the spillover ring shows measurable displacement — reported, not hidden.
 
 ## Output format
 
 ```text
-【Journal】Journal of Urban Economics
-【Skill】jue-identification
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking identification strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Public Economics, Journal of Economic Geography
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jue-theory-model
+【Design】boundary-RD / shift-share / historical-IV / place-based-DiD / mobility-experiment
+【Spatial variation → estimand】one sentence
+【Estimand】local-at-boundary / ATT / LATE
+【Sorting/selection】how addressed
+【Spillovers/SUTVA】rings/donut; displacement estimated?
+【Spatial inference】Conley/spatial cluster + cutoff; vs naive SEs
+【What it does NOT identify】[...]
+【Next skill】jue-theory-model (if a model is needed) or jue-robustness
 ```

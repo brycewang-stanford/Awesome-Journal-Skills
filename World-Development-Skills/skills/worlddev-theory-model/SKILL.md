@@ -1,70 +1,75 @@
 ---
 name: worlddev-theory-model
-description: Use when working on theory and model craft for a World Development manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the conceptual or analytical framework is the bottleneck for a World Development (WD) manuscript — development theory that organizes the evidence, not necessarily a formal model. Makes the framework do real analytical work; it does not invent evidence or citations.
 ---
 
-# Theory and Model Craft (worlddev-theory-model)
+# Conceptual & Analytical Framework (worlddev-theory-model)
 
 ## When to trigger
-- The manuscript is aimed at **World Development (World Development)** and theory and model craft is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's development studies and development economics across poverty, institutions, sustainability, and policy implementation standard.
-- The paper risks being confused with nearby venues: Journal of Development Economics, World Bank Economic Review, Economic Development and Cultural Change, and World Development Perspectives.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The paper has a "theory" or "conceptual framework" section that is decorative — cited and then never used
+- Reviewers say the empirics are fine but the paper "doesn't add up to an argument"
+- A formal model is included by reflex, when a clear conceptual framework would serve WD's readers better
+- The mechanism connecting cause and outcome is asserted, not theorized
+- A qualitative paper's themes are described but not organized by any analytical lens
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| development intervention is central | Make the development intervention assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| local institution is central | Make the local institution assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| poverty mechanism is central | Make the poverty mechanism assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| implementation constraint is central | Make the implementation constraint assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| global-south relevance is central | Make the global-south relevance assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## What "theory" means at WD
 
-## World Development fit notes
+WD is **not** a journal that demands a formal model. For most WD papers, "theory" means a **conceptual or analytical framework drawn from development scholarship** — a structured account of the mechanism that tells the reader what to look for, why the variables matter, and how the pieces connect. A formal model is welcome when it earns its place (it disciplines an argument that prose cannot), but a model bolted on for prestige is a liability: WD's multidisciplinary referees punish "theory theater" — equations that do no work the empirics depend on.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: development intervention, local institution, poverty mechanism, implementation constraint, global-south relevance.
-- Sibling boundary: Journal of Development Economics, World Bank Economic Review, Economic Development and Cultural Change, and World Development Perspectives.
-- House-style aim: development evidence that connects identification to implementation, equity, and institutions.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/world-development
-- https://www.elsevier.com/journals/world-development/0305-750X/guide-for-authors
+The test of a good WD framework is **load-bearing**: remove it and the paper's interpretation collapses. It should generate the hypotheses (quant) or sensitizing concepts (qual), define the scope conditions, and frame what the findings mean for development.
 
-## Stage-specific moves
+## Choosing the right framework vehicle
 
-1. State the exact theory and model craft question in one sentence.
-2. Identify which World Development audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `worlddev-robustness` if the stage passes, or back to `worlddev-workflow` if it does not.
+| Vehicle | Use when | WD caution |
+|---------|----------|------------|
+| **Formal model** | A precise mechanism with non-obvious comparative statics the data test | Must connect to estimands; no model for ornament |
+| **Conceptual framework** (boxes-and-arrows / theory-of-change) | A multi-step development mechanism (e.g. aid → institutions → service delivery) | Each arrow must be defended and ideally evidenced |
+| **Analytical lens** (capabilities, political settlements, institutional bricolage, livelihoods, commons governance) | The contribution reinterprets evidence through a development-theory tradition | Apply the lens; do not just invoke its name |
+| **Grounded / inductive** | Qualitative work building concepts from data | Make the build explicit; show how data generated the categories |
+
+Pick **one** primary vehicle. Stacking a formal model, a theory-of-change diagram, and three analytical lenses signals that none is doing the work.
+
+## Making the framework load-bearing — a sequence
+
+1. **State the mechanism in one sentence** before any formalism: "X improves Y because it shifts the bargaining power of Z."
+2. **Derive what we should observe** if the mechanism holds — and crucially what we should *not* observe (a discriminating prediction).
+3. **Map each prediction to a specific piece of evidence** later in the paper (a coefficient, a case contrast, an interview pattern).
+4. **State scope conditions** — where the mechanism should and should not operate. WD readers care intensely about context-dependence; a framework that claims universality is suspect.
+5. **Return to the framework in the discussion** — show what the evidence taught you about the theory, not just about the world.
+
+## A worked example (illustrative)
+
+A paper argues microcredit raises women's autonomy. A decorative version cites empowerment theory and runs regressions. A load-bearing WD version specifies the mechanism (credit relaxes a liquidity constraint that previously forced dependence on a spouse), derives a discriminating prediction (effects concentrate where women lacked independent income, not everywhere), maps it to a heterogeneity test, and states the scope condition (no effect where social norms bar women from controlling the loan). Now the theory predicts the pattern of effects, not merely their existence.
 
 ## Checklist
-- [ ] The World Development audience can see why the paper belongs in development studies and development economics across poverty, institutions, sustainability, and policy implementation.
-- [ ] The draft distinguishes World Development from Journal of Development Economics, World Bank Economic Review, Economic Development.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for theory and model craft names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] One primary framework vehicle chosen, fit to the contribution
+- [ ] The mechanism is stated in plain language before any formalism
+- [ ] The framework generates a discriminating prediction (or sensitizing concepts) used in the empirics
+- [ ] Each prediction maps to a specific exhibit, case, or pattern
+- [ ] Scope conditions / context-dependence are explicit
+- [ ] The discussion revisits the framework in light of the evidence
+- [ ] No formal model included purely for prestige; no lens merely name-checked
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to World Development without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- "Theory theater": equations or a diagram that the empirical strategy never uses
+- Citing a development-theory tradition (capabilities, political settlements) and then ignoring it in analysis
+- Asserting the mechanism instead of theorizing it, leaving the reader to infer the logic
+- Claiming a universal mechanism with no scope conditions — WD distrusts context-free claims
+- A qualitative paper whose themes float free of any analytical organizing principle
 
 ## Output format
 
 ```text
-【Journal】World Development
+【Journal】World Development (WD)
 【Skill】worlddev-theory-model
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking theory and model craft
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Development Economics, World Bank Economic Review
+【Vehicle】formal model / conceptual framework / analytical lens / grounded
+【Mechanism】one plain-language sentence
+【Discriminating prediction】what we should and should NOT observe
+【Prediction→evidence map】which exhibit/case tests each
+【Scope conditions】where the mechanism does / does not operate
 【Source status】verified URL / 待核实 / not asserted
 【Next skill】worlddev-robustness
 ```

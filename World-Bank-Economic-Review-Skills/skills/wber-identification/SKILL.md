@@ -1,70 +1,91 @@
 ---
 name: wber-identification
-description: Use when working on identification strategy for a The World Bank Economic Review manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the causal identification argument is the bottleneck for a The World Bank Economic Review (WBER) manuscript — RCT/program evaluation, DiD/event study around a reform, regression discontinuity, or IV in a developing-country setting. Stress-tests the data-to-estimate mapping AND the external-validity/policy-interpretation step to the WBER bar; it does not write prose or build the package.
 ---
 
 # Identification Strategy (wber-identification)
 
 ## When to trigger
-- The manuscript is aimed at **The World Bank Economic Review (WBER)** and identification strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's policy-relevant development economics, impact evaluation, institutions, trade, labor, agriculture, and poverty standard.
-- The paper risks being confused with nearby venues: Journal of Development Economics, World Development, Economic Development and Cultural Change, and AEJ Applied.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A causal claim rests on OLS + controls, or TWFE on staggered reform timing
+- An RCT's estimand, balance, attrition, or spillover handling is not pinned down
+- An RD's density, bandwidth, or covariate-smoothness defense is missing
+- An IV's first stage is weak or the exclusion restriction is asserted, not argued
+- The design is clean but the *policy interpretation* (scale-up, GE, fiscal cost) is missing
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| policy counterfactual is central | Make the policy counterfactual assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| program evaluation is central | Make the program evaluation assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| World Bank audience is central | Make the World Bank audience assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| developing-country data is central | Make the developing-country data assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| implementation margin is central | Make the implementation margin assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The WBER identification bar
 
-## WBER fit notes
+WBER demands the **same identification rigor as a top applied-micro field journal** — and then one more thing that siblings let slide: the **mapping from the local causal estimate to a development-policy lesson** must be argued, not assumed. A pristine ITT from one trial is necessary but not sufficient; the WBER referee asks "what does this imply for a finance ministry deciding whether to scale this?" So state the estimand, name the identifying assumption, show the diagnostic that could have failed, **and** address external validity, general equilibrium, and scaling. Inference must match the design (clustering at the assignment level; few-cluster corrections). Report standard errors and confidence intervals — not significance asterisks.
 
-- Publisher / owner context: Oxford University Press for the World Bank.
-- Submission route to re-check: OUP / ScholarOne submission.
-- Signature vocabulary: policy counterfactual, program evaluation, World Bank audience, developing-country data, implementation margin.
-- Sibling boundary: Journal of Development Economics, World Development, Economic Development and Cultural Change, and AEJ Applied.
-- House-style aim: development-policy evidence with transparent data construction and actionable interpretation.
-- Official URLs currently used by the pack:
-- https://academic.oup.com/wber
-- https://academic.oup.com/wber/pages/General_Instructions
+## Design paths
 
-## Stage-specific moves
+### Path A: RCT / program evaluation (own or admin data)
+- **Estimand stated** (ITT vs. LATE/TOT); randomization unit and stratification described.
+- **Pre-registration** where applicable (AEA RCT Registry / OSF); report deviations from the analysis plan.
+- **Balance table** on baseline covariates; **attrition** examined and bounded (Lee bounds if differential) — attrition is endemic in field settings.
+- **Spillovers / SUTVA**: in dense developing-country settings, treatment can leak to controls; design or test for it.
+- **Multiple-hypothesis adjustment** across outcomes/subgroups; explicit external-validity and scale-up discussion.
 
-1. State the exact identification strategy question in one sentence.
-2. Identify which WBER audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `wber-theory-model` if the stage passes, or back to `wber-workflow` if it does not.
+### Path B: Difference-in-differences / event study around a reform
+- With staggered adoption, **move beyond TWFE** — Callaway–Sant'Anna, Sun–Abraham, de Chaisemartin–D'Haultfœuille, or Borusyak–Jaravel–Spiess imputation.
+- **Clean event-study with leads** for pre-trends; report a Goodman-Bacon decomposition.
+- State and defend **parallel trends**; consider Rambachan–Roth honest-DiD sensitivity. Developing-country reforms are often non-random in timing — argue why.
+
+### Path C: Regression discontinuity (eligibility thresholds, geographic borders)
+- **Density / manipulation test** (McCrary / Cattaneo–Jansson–Ma); covariate smoothness at the cutoff.
+- **Local-linear** with data-driven bandwidth; **bias-corrected robust CIs** (rdrobust); donut and bandwidth-sensitivity checks.
+- Many development RDs are **proxy-means-test** or poverty-line cutoffs — guard against score manipulation by enumerators or applicants.
+
+### Path D: IV / shift-share
+- **Strong first stage** (effective F); with weak instruments use Anderson–Rubin / weak-IV-robust sets.
+- **Exclusion restriction** argued from institutions/theory + falsification. Be wary of tired development instruments (rainfall, distance, colonial-era variables) — argue exogeneity, do not invoke by tradition.
+
+## The external-validity layer (the WBER differentiator)
+
+- **From LATE to policy:** name *whose* effect you estimate and how the complier population differs from the scale-up population.
+- **General equilibrium:** a partial-equilibrium treatment effect can vanish or reverse at scale (wages, prices, congestion). Acknowledge and, where possible, bound it.
+- **Fiscal cost / cost-effectiveness:** WBER readers weigh effects against budgets — a cost-per-outcome or benefit-cost figure makes the result actionable.
 
 ## Checklist
-- [ ] The WBER audience can see why the paper belongs in policy-relevant development economics, impact evaluation, institutions, trade, labor, agriculture, and poverty.
-- [ ] The draft distinguishes WBER from Journal of Development Economics, World Development, Economic Development.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for identification strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Design chosen; variation-to-estimand mapping stated in one sentence
+- [ ] Estimand named (ITT/LATE/ATT/local-at-cutoff) and matched to the design
+- [ ] Design-appropriate diagnostic shown (balance+attrition+spillovers / pre-trends+Bacon / density+bandwidth / first-stage+exclusion)
+- [ ] Modern estimator used where TWFE or 2SLS would bias
+- [ ] Inference clustered at the assignment level; few-cluster corrected
+- [ ] External validity, GE, and scaling/fiscal cost explicitly addressed
+- [ ] SEs and CIs reported (no asterisks); claim never exceeds what the design identifies
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to WBER without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A clean trial with zero discussion of external validity or scale-up — reads as a project report
+- TWFE on staggered reform timing with no heterogeneity-bias discussion
+- A development RD with no density test at a proxy-means or poverty-line cutoff
+- Rainfall/distance/colonial IVs invoked by tradition with no exclusion argument
+- Reading a local LATE as the population ATE for a national scale-up
+- Asterisks instead of clustered SEs / weak-IV-robust sets
+
+## Referee pushback mapped to the identification fix
+
+- *"Staggered TWFE here is biased."* → Re-estimate with Callaway–Sant'Anna or Sun–Abraham; show flat event-study leads and a Goodman-Bacon decomposition.
+- *"Your instrument is rainfall/distance — assert exclusion at your peril."* → Argue the exclusion restriction from institutions and falsify it (reduced form on never-takers, placebo outcomes); if it fails, drop the IV.
+- *"This RD eligibility score is manipulable by enumerators."* → Report a density test, covariate smoothness, and a donut estimate; discuss the assignment mechanism.
+- *"Differential attrition contaminates the trial."* → Show attrition by arm and Lee bounds; if spillovers are plausible, test or design for them.
+- *"A three-district LATE tells me nothing about a national program."* → Characterize the complier population, bound the GE channel, and report a cost-per-outcome at scale.
+
+## Worked vignette (illustrative)
+
+A paper evaluates a fee-elimination reform rolled out across districts in staggered years using TWFE; a referee flags negative weighting. The WBER fix: re-estimate with Callaway–Sant'Anna by adoption cohort, show flat pre-trend leads, report a Goodman-Bacon decomposition (say 15% of the TWFE estimate came from forbidden already-treated comparisons, illustrative). The cohort-robust ATT settles at 4.3pp enrollment (s.e. 1.1). Then the WBER-specific step: the authors note the complier districts were poorer than average, bound the GE wage effect on teachers, and report a cost-per-additional-enrollee, turning a clean ATT into a scale-up-relevant number.
 
 ## Output format
 
 ```text
-【Journal】The World Bank Economic Review
-【Skill】wber-identification
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking identification strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Development Economics, World Development
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】wber-theory-model
+【Design】RCT / DiD / RD / IV
+【Variation-to-estimand mapping】one sentence
+【Estimand】ITT / LATE / ATT / local-at-cutoff
+【Identification evidence】[balance+attrition+spillovers / pre-trends+Bacon / density+bandwidth / first-stage+exclusion]
+【Estimator + inference】modern estimator; clustering level; weak-IV/honest-DiD sensitivity if any
+【External validity】complier vs. scale-up population; GE; cost-effectiveness
+【What it does NOT identify】[...]
+【Next step】wber-theory-model (if interpretation needs a model) or wber-robustness
 ```

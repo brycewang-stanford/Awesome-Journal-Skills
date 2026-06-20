@@ -1,72 +1,70 @@
 ---
 name: worlddev-submission
-description: Use when working on submission preflight for a World Development manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when running the final pre-submission preflight for World Development (WD) via Elsevier Editorial Manager — double-anonymized formatting, abstract/keyword limits, declarations, data statement, and house style. Final checks; it does not draft content.
 ---
 
 # Submission Preflight (worlddev-submission)
 
 ## When to trigger
-- The manuscript is aimed at **World Development (World Development)** and submission preflight is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's development studies and development economics across poverty, institutions, sustainability, and policy implementation standard.
-- The paper risks being confused with nearby venues: Journal of Development Economics, World Bank Economic Review, Economic Development and Cultural Change, and World Development Perspectives.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- "Submitting tomorrow" — last check before uploading to Elsevier Editorial Manager
+- Unsure which files and declarations the WD submission requires
+- Confirming the manuscript is correctly anonymized for double-anonymized review
+- Confirming abstract, keywords, and structure meet WD/Elsevier requirements
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| development intervention is central | Make the development intervention assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| local institution is central | Make the local institution assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| poverty mechanism is central | Make the poverty mechanism assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| implementation constraint is central | Make the implementation constraint assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| global-south relevance is central | Make the global-south relevance assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Process facts (检索于 2026-06；以官网为准)
 
-## World Development fit notes
+- WD is **Elsevier's** multidisciplinary development-studies journal (ISSN 0305-750X; online 1873-5991), founded 1973, published monthly. Submission is through **Elsevier Editorial Manager** (verify the live link). Editors as of 2026: **Jampel Dell'Angelo and Angelika Rettberg** (待核实 — re-confirm on the journal page).
+- **Review model: double-anonymized.** Author and reviewer identities are mutually concealed — this drives the anonymization requirements below.
+- **Abstract ≤250 words**, single unstructured paragraph; **3–6 keywords** in English; abstract must stand alone (no undefined abbreviations, no in-text references).
+- **Article length / word limit: 待核实.** WD full articles are substantial; confirm the current maximum on the live Guide for Authors before relying on any number — do not assume a short limit borrowed from a sibling title.
+- **"Your Paper Your Way":** initial submission formatting is flexible (single file, references in any consistent style accepted at first round); strict Elsevier reference formatting is applied at revision/acceptance. Re-verify.
+- **Open-access option** available (APC) alongside the subscription route; exact fees and waivers (e.g., Research4Life country waivers) are **待核实**.
+- **Declarations** expected per Elsevier policy: declaration of competing interests, funding sources, CRediT author-contribution statement, data-availability statement, and ethics/consent approval for human-subjects research.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: development intervention, local institution, poverty mechanism, implementation constraint, global-south relevance.
-- Sibling boundary: Journal of Development Economics, World Bank Economic Review, Economic Development and Cultural Change, and World Development Perspectives.
-- House-style aim: development evidence that connects identification to implementation, equity, and institutions.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/world-development
-- https://www.elsevier.com/journals/world-development/0305-750X/guide-for-authors
+## Preflight checklist
 
-## Stage-specific moves
+### Anonymization (double-blind — do this first)
+- [ ] Title page with author names/affiliations is a **separate file**; the manuscript itself is identity-free
+- [ ] No "in our previous work" / self-citations phrased to unmask; third-person where unavoidable
+- [ ] Acknowledgments, funding IDs, and identifying local-institution names removed from the blinded file
+- [ ] Data-availability statement is **review-safe** (no identifying repository URL until acceptance)
+- [ ] File metadata / properties scrubbed of author name
 
-1. State the exact submission preflight question in one sentence.
-2. Identify which World Development audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `worlddev-rebuttal` if the stage passes, or back to `worlddev-workflow` if it does not.
+### Format & style
+- [ ] Abstract **≤250 words**, single paragraph, stands alone; **3–6 keywords**
+- [ ] No significance asterisks; standard errors / confidence intervals reported in exhibits
+- [ ] Tables and figures legible at print size; grayscale- and color-blind-safe; maps clearly classified
+- [ ] Effect sizes in interpretable, development-relevant units
+- [ ] References in a single consistent style (Elsevier formatting can wait for revision); confirm length against live limit (待核实)
 
-## Checklist
-- [ ] The World Development audience can see why the paper belongs in development studies and development economics across poverty, institutions, sustainability, and policy implementation.
-- [ ] The draft distinguishes World Development from Journal of Development Economics, World Bank Economic Review, Economic Development.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for submission preflight names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+### Files & declarations for Editorial Manager
+- [ ] Blinded main manuscript + separate title page
+- [ ] Cover letter: development contribution, fit for WD (not JDE/WBER/JDS/EDCC), and why it suits a multidisciplinary readership
+- [ ] Declaration of competing interests; funding statement; CRediT contributions
+- [ ] Data-availability statement (matched to reality; review-safe)
+- [ ] Ethics/IRB approval and consent statements for human-subjects or qualitative fieldwork
+- [ ] Suggested/opposed reviewers if the form invites them (span the relevant disciplines)
+- [ ] Confirm not under review elsewhere; AI not listed as an author
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to World Development without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Uploading a manuscript that unmasks the authors (self-citation, acknowledgments, identifying institutions, live repo link)
+- Asterisks for significance, or numbers with no development-relevant interpretation
+- Abstract over 250 words or that lists methods without the development finding
+- A cover letter that pitches the paper as JDE-style methods rather than WD-style development relevance
+- Asserting a word limit, fee, or editor name not confirmed on the live page (mark 待核实)
 
 ## Output format
 
 ```text
-【Journal】World Development
-【Skill】worlddev-submission
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking submission preflight
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Development Economics, World Bank Economic Review
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】worlddev-rebuttal
+【Anonymization】blinded file + separate title page; no unmasking? [Y/N]
+【Abstract】≤250 words + 3–6 keywords + stands alone? [Y/N]
+【Exhibits】no asterisks; units interpretable? [Y/N]
+【Declarations】COI / funding / CRediT / data statement / ethics ready? [Y/N]
+【Cover letter】states WD development contribution + sibling boundary? [Y/N]
+【Volatile facts】word limit / fees / editors re-verified or marked 待核实? [Y/N]
+【Next step】submit via Editorial Manager → worlddev-rebuttal for the decision letter
 ```
 
 ## Supplementary resources

@@ -1,70 +1,76 @@
 ---
 name: worlddev-tables-figures
-description: Use when working on tables and figures for a World Development manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when exhibits in a World Development (WD) manuscript are dense, asterisk-laden, or fail a multidisciplinary reader — including maps and qualitative displays. Makes every exhibit answer a development question; it does not invent evidence or citations.
 ---
 
-# Tables and Figures (worlddev-tables-figures)
+# Tables, Figures & Qualitative Displays (worlddev-tables-figures)
 
 ## When to trigger
-- The manuscript is aimed at **World Development (World Development)** and tables and figures is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's development studies and development economics across poverty, institutions, sustainability, and policy implementation standard.
-- The paper risks being confused with nearby venues: Journal of Development Economics, World Bank Economic Review, Economic Development and Cultural Change, and World Development Perspectives.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Tables report significance with asterisks instead of standard errors / confidence intervals
+- Coefficients are shown in model units a non-economist cannot interpret (log points, latent indices)
+- A geographic study has no map, or a busy map that communicates nothing
+- A qualitative paper has no systematic display — just block quotes scattered through prose
+- The main exhibits do not, on their own, let a reader reconstruct the paper's argument
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| development intervention is central | Make the development intervention assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| local institution is central | Make the local institution assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| poverty mechanism is central | Make the poverty mechanism assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| implementation constraint is central | Make the implementation constraint assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| global-south relevance is central | Make the global-south relevance assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The WD exhibit standard
 
-## World Development fit notes
+WD's readership is multidisciplinary and policy-facing, so exhibits must clear a higher legibility bar than in a specialist economics journal: **a development scholar from another field, or an informed practitioner, should grasp the headline from the exhibit and its note alone.** That changes priorities. Effect sizes in interpretable units beat starred coefficients; a clean figure beats a dense table; a well-built map or qualitative matrix can carry an argument that prose cannot.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: development intervention, local institution, poverty mechanism, implementation constraint, global-south relevance.
-- Sibling boundary: Journal of Development Economics, World Bank Economic Review, Economic Development and Cultural Change, and World Development Perspectives.
-- House-style aim: development evidence that connects identification to implementation, equity, and institutions.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/world-development
-- https://www.elsevier.com/journals/world-development/0305-750X/guide-for-authors
+### Tables
 
-## Stage-specific moves
+- **Report uncertainty, not stars.** Standard errors or confidence intervals in parentheses; no `***`. WD's audience reads magnitudes, and asterisks invite dichotomous "significant/not" thinking that the journal's evidence culture resists.
+- **Translate to real units.** Convert log points to percent; index effects to a meaningful benchmark (a standard deviation, a mean, a poverty-line equivalent). State the comparison ("relative to the control mean of X").
+- **One question per table.** The title states the question; the note states the sample, the units, the inference, and what is being held fixed.
+- **Show the magnitude that matters for policy**, not only the cleanest specification.
 
-1. State the exact tables and figures question in one sentence.
-2. Identify which World Development audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `worlddev-writing-style` if the stage passes, or back to `worlddev-workflow` if it does not.
+### Figures
+
+- **Prefer figures for the headline.** Coefficient plots, event-study leads/lags, dose-response curves, and distributional plots communicate to a broad audience faster than tables.
+- **Maps for spatial development data** — choropleths for outcomes/treatment, with clear classification, projection, and a note on the unit. A map should answer a question, not decorate.
+- Design for **grayscale and color-blind safety** (Elsevier prints and renders both); never rely on red/green alone.
+
+### Qualitative displays
+
+Qualitative WD papers should *display* evidence, not only narrate it. Use:
+
+- **Coding/thematic matrices** (themes × cases or × informant groups) to show pattern across the corpus.
+- **Process-tracing timelines** linking events to mechanism steps.
+- **Illustrative-quote tables** that tie each quote to a theme and a source identifier — including, where it matters, a disconfirming quote.
+- **Typologies** that organize cases along the dimensions the argument turns on.
+
+## A worked fix (illustrative)
+
+A table reports "0.18***" for a transfer program on consumption. The WD fix: report "0.18 (0.05)" and add a note — "an 18% increase relative to the control-group mean of 1,420 PPP$; clustered at the village level (N=86 clusters)." Better still, move it to a coefficient plot with the control-mean reference line, so a public-health reader sees the magnitude and its precision at a glance.
 
 ## Checklist
-- [ ] The World Development audience can see why the paper belongs in development studies and development economics across poverty, institutions, sustainability, and policy implementation.
-- [ ] The draft distinguishes World Development from Journal of Development Economics, World Bank Economic Review, Economic Development.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for tables and figures names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] No significance asterisks anywhere; SEs / CIs reported
+- [ ] Effects in interpretable units, benchmarked to a meaningful quantity
+- [ ] Each table/figure answers one stated question; notes give sample, units, inference
+- [ ] Headline result available as a figure, not buried in a wide table
+- [ ] Spatial data shown on a legible, well-classified map where relevant
+- [ ] Qualitative evidence displayed systematically (matrix/timeline/quote table), not only quoted in prose
+- [ ] Grayscale- and color-blind-safe; figures readable at print size
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to World Development without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Asterisk-driven tables that train the reader to read "significant vs. not" instead of magnitude
+- Coefficients in raw model units no cross-disciplinary reader can interpret
+- A decorative map that conveys no comparison, or a missing map for clearly spatial data
+- Kitchen-sink regression tables with twelve columns and no signposted headline
+- Qualitative evidence reduced to cherry-picked block quotes with no systematic display
 
 ## Output format
 
 ```text
-【Journal】World Development
+【Journal】World Development (WD)
 【Skill】worlddev-tables-figures
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking tables and figures
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Development Economics, World Bank Economic Review
+【Verdict】reader-ready / revise
+【Asterisks】removed; SEs/CIs present? [Y/N]
+【Units】effects translated + benchmarked? [Y/N]
+【Headline exhibit】figure / map carrying the main result
+【Qual display】matrix / timeline / quote table present? [Y/N / n/a]
 【Source status】verified URL / 待核实 / not asserted
 【Next skill】worlddev-writing-style
 ```
