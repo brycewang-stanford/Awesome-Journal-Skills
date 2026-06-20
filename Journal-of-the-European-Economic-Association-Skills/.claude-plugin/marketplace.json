@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jeea-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of the European Economic Association (JEEA), the European Economic Association's flagship general-interest journal of theory and empirics.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jeea-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of the European Economic Association (JEEA) manuscript lifecycle, from topic selection through the JEEA Data Editor replication check and R&R rebuttal.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jeea-skills",
+      "repository": "https://github.com/brycewang-stanford/jeea-skills",
+      "keywords": [
+        "journal-of-the-european-economic-association",
+        "jeea",
+        "european-economic-association",
+        "general-interest-economics",
+        "reproducibility",
+        "oxford-university-press",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jeea-workflow",
+        "skills/jeea-topic-selection",
+        "skills/jeea-literature-positioning",
+        "skills/jeea-identification",
+        "skills/jeea-theory-model",
+        "skills/jeea-robustness",
+        "skills/jeea-tables-figures",
+        "skills/jeea-writing-style",
+        "skills/jeea-replication-package",
+        "skills/jeea-referee-strategy",
+        "skills/jeea-submission",
+        "skills/jeea-rebuttal"
+      ]
+    }
+  ]
+}

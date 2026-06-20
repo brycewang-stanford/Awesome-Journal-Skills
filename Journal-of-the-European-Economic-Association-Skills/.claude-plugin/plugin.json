@@ -1,0 +1,26 @@
+{
+  "name": "jeea-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of the European Economic Association (JEEA) — the flagship general-interest journal of the European Economic Association (EEA), published by Oxford University Press (ISSN 1542-4774). JEEA publishes high-quality work across ALL fields of economics — micro and macro theory, applied econometrics, applied micro, finance, development, and public — judged at a strong general-interest theory-and-empirics bar, the European counterpart to the top general-interest outlets. Covers JEEA's distinctive process: EEA membership gate, the submission fee effective Feb 2026, single-blind review managed by a co-editor with a fast-decision target, the DCAS-endorsed data-and-code policy verified by the JEEA Data Editor before formal acceptance with replication packages posted to the JEEA Zenodo community, and an online appendix. Twelve role skills span workflow routing, topic selection, literature positioning, identification (credible empirical designs AND theory/structural identification), theory-model craft, robustness, tables and figures, writing style, the replication package, referee strategy, submission preflight, and the R&R rebuttal. Bilingual en / zh-CN docs; Stata / R / Python conventions for empirical, structural, and simulation work.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jeea-skills",
+  "repository": "https://github.com/brycewang-stanford/jeea-skills",
+  "keywords": [
+    "journal-of-the-european-economic-association",
+    "jeea",
+    "european-economic-association",
+    "general-interest-economics",
+    "theory-and-empirics",
+    "identification",
+    "structural-estimation",
+    "reproducibility",
+    "data-and-code-availability",
+    "dcas",
+    "oxford-university-press",
+    "academic-writing"
+  ]
+}
