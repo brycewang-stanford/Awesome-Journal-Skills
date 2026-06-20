@@ -51,13 +51,12 @@ errors.
 
 ## 5. Data citation & availability (Elsevier policy)
 - Cite underlying/relevant datasets in the text **and** in the reference list, tagged **`[dataset]`**
-  with author(s), title, repository, version, year, and persistent identifier (DOI). *待核实: confirm
-  current tagging requirements on the live Guide for Authors.*
+  with author(s), title, repository, version, year, and persistent identifier (DOI).
 - A **data availability statement** is supported. JoE does **not** (as of access date) operate a
   single mandatory central code/data archive comparable to the JAE Data Archive or Econometric
   Society replication packages — replication materials for applied illustrations are **encouraged**
-  rather than universally mandated. *待核实 against an explicit official replication-policy statement.*
-- Optional **Data in Brief / MethodsX** co-submission exists via Editorial Manager. *待核实.*
+  rather than universally mandated.
+- Optional **Data in Brief / MethodsX** co-submission exists via Editorial Manager.
 
 ## 6. Writing & references
 - Reference managers: Zotero, BibTeX/BibLaTeX, EndNote, Mendeley — any CSL-compatible manager can
@@ -68,17 +67,17 @@ errors.
 ## 7. Process & portal
 | Item | Note (re-verify on official pages — see official-source-map.md) |
 |------|------|
-| Author-submission portal | **Editorial Express** (self-hosted, database `je`), not Elsevier Editorial Manager. 待核实 routing vs. ScienceDirect text. |
-| Submission fee | **USD $75** nonrefundable (new + resubmissions > 1 yr); proof of payment uploaded **before** submission; VAT for EU authors. 待核实 exact amount/wording. |
-| Format at submission | **PDF only**, ~40 pages, ≥1.5 spacing, 11pt. 待核实 (norm, not a hard cap). |
-| Abstract | ≤ **250 words**; cited references given in full. 待核实. |
-| Review model | **Single anonymized**; ≥2 referees after editor screen. 待核实. |
+| Author-submission portal | Current official pages split guidance: ScienceDirect/new-submission link points to **Editorial Manager**; JoE Google Sites and the EE page remain relevant for **Editorial Express** resubmission/track flows. |
+| Submission fee | **USD $75** nonrefundable (new + resubmissions > 1 yr); VAT for EU authors; no student discounts/refunds. |
+| Format at submission | ScienceDirect route asks for editable source files; Editorial Express resubmission flow asks for **PDF only**, ~40 pages, ≥1.5 spacing, 11pt. |
+| Abstract | ≤ **250 words**; concise and factual. |
+| Review model | **Single anonymized**; ≥2 referees after editor screen. |
 | Tracks | **Regular / Annals / Themed** Issues. |
 | Publisher | **Elsevier**. |
 
 ## 8. Cautions
-1. **Verify volatile specifics** (fee, abstract/page limits, editors, portal routing, data policy)
-   on the official journal pages — several Elsevier pages returned HTTP 403 to automated fetches.
+1. **Verify volatile specifics** (portal routing, editors, open themed calls) on the official
+   journal pages before submission.
 2. **Match the Monte Carlo to the theory** — a theorem with no finite-sample evidence, or
    simulations that never stress the assumptions, is the most common methodological weakness.
 3. **State and check every regularity condition** — referees will probe whether they are primitive,

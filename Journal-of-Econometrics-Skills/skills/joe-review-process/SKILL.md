@@ -14,9 +14,9 @@ description: Use to understand and navigate the Journal of Econometrics (JoE) ed
 
 ## How JoE review works
 
-- **Single-anonymized review:** referees know the authors' identities; authors do **not** know the referees. (待核实: confirm on the live Guide for Authors.)
+- **Single-anonymized review:** referees know the authors' identities; authors do **not** know the referees.
 - **Editor screening first:** editors screen submissions; suitable papers are sent to a **minimum of two independent expert referees**, and the editors make the **final decision**. Unsuitable or out-of-scope papers are desk-screened out.
-- **Co-Editors-in-Chief:** Michael Jansson (UC Berkeley) and Aureo de Paula (UCL), supported by a set of Co-Editors. The full current board beyond the two EICs is **待核实** (the editorial-board page 403'd to automated fetches; older RePEc rosters are outdated).
+- **Co-Editors-in-Chief:** Michael Jansson (UC Berkeley) and Aureo de Paula (UCL), supported by a set of Co-Editors. Check the live board page for the complete current roster before naming a handling editor.
 
 ## The three submission tracks
 
@@ -56,7 +56,7 @@ If the packet cannot be filled without hedging, the paper is not ready for JoE s
 
 ## Anti-patterns
 
-- Treating JoE like a double-anonymized journal and over-anonymizing (it is single-anonymized — 待核实)
+- Treating JoE like a double-anonymized journal and over-anonymizing (it is single-anonymized)
 - Submitting to a Themed Issue whose scope your paper does not actually match
 - Ignoring that editors screen first — a buried contribution dies at the screen
 - Assuming a purely applied paper will survive referees here

@@ -9,7 +9,14 @@ description: Use when deciding which joe-* sub-skill to invoke next, or when seq
 
 This is the router. It tells you **which joe-* skill to use at the current stage** of a manuscript aimed at the *Journal of Econometrics* (JoE). Default assumption unless the user says otherwise: the target is JoE — an **Elsevier** journal (founded 1973) for **substantive econometric methodology**, covering identification, estimation, testing, decision, and prediction problems in economic research, plus applications of econometric techniques. The center of gravity is a **new estimator, test, identification result, or asymptotic theory**, defended with proofs and **Monte Carlo evidence**; purely empirical work without a methodological advance is typically out of scope.
 
-Operational tells you are at JoE and not a sibling: author submission via the self-hosted **Editorial Express** portal (database `je`), a **USD $75 nonrefundable fee** with proof of payment uploaded before submission, **PDF-only** single-file submission of roughly **40 pages** (≥1.5 spacing, 11pt), a **250-word** abstract, **single-anonymized** review by a minimum of two referees, the **elsarticle** LaTeX class, and three tracks: **Regular, Annals, and Themed Issues**. Co-Editors-in-Chief: **Michael Jansson (UC Berkeley)** and **Aureo de Paula (UCL)**. Re-verify volatile specifics (fee, limits, editors, portal routing) on the official pages — several Elsevier pages 403 to automated fetches (待核实).
+Operational tells you are at JoE and not a sibling: current official pages split portal guidance
+(ScienceDirect/new-submission links to **Editorial Manager**; JoE Google Sites and the
+resubmission flow still reference **Editorial Express**), a **USD $75 nonrefundable fee** for new
+submissions and resubmissions over one year, a **250-word** abstract, **single-anonymized** review
+by a minimum of two referees after editor screening, Elsevier source-file rules plus Editorial
+Express resubmission PDF norms, and three tracks: **Regular, Annals, and Themed Issues**.
+Co-Editors-in-Chief: **Michael Jansson (UC Berkeley)** and **Aureo de Paula (UCL)**. Re-verify
+volatile specifics (portal routing, editors, open themed calls) on the official pages.
 
 ## When to trigger
 
@@ -31,7 +38,7 @@ Operational tells you are at JoE and not a sibling: author submission via the se
 | Prose buries the result; proofs are hard to follow | `joe-writing-style` |
 | Code/data archive and data-citation norms unclear | `joe-replication-and-data-policy` |
 | Need to understand single-anonymized review / track choice | `joe-review-process` |
-| Ready to submit via Editorial Express; need a preflight | `joe-submission` |
+| Ready to submit; need live portal and file preflight | `joe-submission` |
 | Received a revision request; need a response strategy | `joe-rebuttal` |
 
 ## Default order
@@ -45,7 +52,7 @@ Operational tells you are at JoE and not a sibling: author submission via the se
 7. `joe-writing-style` — make proofs legible; abstract + intro last
 8. `joe-replication-and-data-policy` — assemble code/data per Elsevier norms
 9. `joe-review-process` — pick the track; anticipate referees
-10. `joe-submission` — Editorial Express preflight (incl. fee proof)
+10. `joe-submission` — live portal preflight (incl. fee/file proof)
 11. `joe-rebuttal` — after the revision request
 
 > `joe-writing-style` is a late polish. Do not rewrite the intro before the theorems and Monte Carlo are settled — the claims will change.

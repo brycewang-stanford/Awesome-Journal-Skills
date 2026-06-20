@@ -16,7 +16,7 @@ description: Use to make a Journal of Econometrics (JoE) manuscript read in hous
 
 The *Journal of Econometrics* publishes mathematically rigorous methodology, and its prose has to make rigor **legible**. Editors screen before assigning a **minimum of two referees**, so the abstract and introduction must land the contribution fast. Key house facts to write to:
 
-- **Abstract ≤ 250 words**, concise and factual; any references cited in the abstract must be given **in full**. (待核实: confirm on the live Guide for Authors.)
+- **Abstract ≤ 250 words**, concise and factual; avoid references unless essential, and if used cite author/year in the abstract.
 - **elsarticle** LaTeX document class; **Elsevier** reference style (numbered or author-year, any CSL-compatible manager). Dataset citations tagged **`[dataset]`** with author/title/repository/version/year/persistent ID.
 - Initial submission is a **single PDF** (~40 pages, ≥1.5 spacing, 11pt); write for that length norm rather than a hard word count.
 

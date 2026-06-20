@@ -32,7 +32,7 @@ Then tie each claimed gap to a citation and, ideally, to a Monte Carlo compariso
 
 - Identify the **single nearest method** and write one sentence: "Unlike X (Author, year), which assumes/achieves ___, we ___."
 - Map the **lineage**: the classical result, the modern refinements, and where you sit.
-- Use **Elsevier reference style** (numbered or author-year, CSL-compatible); cite datasets with the `[dataset]` tag where relevant. (待核实: confirm the current style on the live Guide for Authors.)
+- Use **Elsevier reference style** (numbered or author-year, CSL-compatible); cite datasets with the `[dataset]` tag where relevant.
 - Pre-empt the "special case" objection: show explicitly that prior results are nested or that your conditions are not implied by theirs.
 
 ## Anti-patterns

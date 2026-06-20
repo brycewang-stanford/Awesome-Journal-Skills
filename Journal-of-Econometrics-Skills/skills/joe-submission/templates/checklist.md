@@ -1,8 +1,8 @@
 # Journal of Econometrics — Pre-Submission Self-Check
 
-Work top to bottom before pressing submit on Editorial Express (database `je`).
-Re-verify volatile items (fee, abstract/page limits, portal routing, review model) on the
-official pages — several Elsevier pages return HTTP 403 to automated fetches (待核实).
+Work top to bottom before pressing submit through the live JoE official route. ScienceDirect's
+current new-submission link points to Editorial Manager; JoE Google Sites and the Editorial Express
+`dbase=je` page remain relevant for resubmission/track-specific flows.
 
 ## 1. Scope & contribution
 - [ ] The paper makes a **substantive methodological contribution** (estimator / test / identification result / asymptotic theory), not a purely applied result
@@ -28,19 +28,20 @@ official pages — several Elsevier pages return HTTP 403 to automated fetches (
 - [ ] Figures are vector, grayscale-safe, and legible within the single PDF
 
 ## 5. Format & style
-- [ ] **Single PDF**, ~**40 pages**, **≥1.5 spacing, 11pt** (norm — 待核实)
+- [ ] Editable source files (`.doc/.docx` or `.tex`) staged for the ScienceDirect/Editorial Manager route
+- [ ] If using Editorial Express resubmission: **single PDF**, ~**40 pages**, **≥1.5 spacing, 11pt**
 - [ ] **Abstract ≤ 250 words**; cited references spelled out in full
 - [ ] **elsarticle** LaTeX class; **Elsevier** reference style; dataset citations tagged **`[dataset]`** (author/title/repository/version/year/DOI)
 
 ## 6. Fee & portal
-- [ ] **USD $75 fee paid** (VAT for EU authors); **proof-of-payment file ready to upload** (待核实)
+- [ ] **USD $75 fee paid** if required (VAT for EU authors); **proof-of-payment file ready** if requested
 - [ ] Confirmed new submission vs. resubmission > 1 year (fee trigger)
-- [ ] Submitting via **Editorial Express** (db `je`), not Editorial Manager (待核实)
+- [ ] Live route confirmed: **Editorial Manager** for new submission or **Editorial Express** for resubmission/track flow
 - [ ] **Track chosen**: Regular / Annals / Themed (Guest AE if Themed)
 
 ## 7. Review readiness & files
-- [ ] Review is **single-anonymized** — authors visible to referees; confirm no referee-only content exposed (待核实)
-- [ ] Files staged: main **PDF**, **proof of payment**, cover letter, suggested/excluded referees
+- [ ] Review is **single-anonymized** — authors visible to referees; confirm no referee-only content exposed
+- [ ] Files staged: editable source files, PDF if requested, proof of payment if requested, cover letter, suggested/excluded referees
 - [ ] Reproducible artifact: estimator command/function + `run_all` pipeline staged
 
 ## 8. Declarations

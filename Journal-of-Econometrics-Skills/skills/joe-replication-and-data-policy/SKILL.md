@@ -8,13 +8,19 @@ description: Use to prepare code and data materials for a Journal of Econometric
 ## When to trigger
 
 - You are assembling the code/data materials for a JoE submission or revision
-- You need to know whether a mandatory replication package is required (it is not, as far as verified)
+- You need to know whether a mandatory JoE-specific central replication archive is required
 - You are citing a dataset and need the correct Elsevier format
 - Your Monte Carlo or empirical illustration must be made reproducible for referees
 
 ## What JoE actually requires (and does not)
 
-The *Journal of Econometrics* applies **Elsevier's research-data policy**: authors are **encouraged** to cite underlying datasets and to support a **data availability statement**. Crucially, JoE has **not** historically operated a **mandatory, centrally-enforced public code/data archive** for all empirical papers — unlike the *Journal of Applied Econometrics* (JAE Data Archive) or Econometric Society journals (replication packages vetted by a Data Editor). For JoE, replication materials for applied **illustrations** are **encouraged rather than universally mandated**. (待核实: this characterization is inferred from the absence of a stated mandate plus secondary summaries; confirm against an explicit official replication-policy statement before relying on it.)
+The *Journal of Econometrics* applies **Elsevier's research-data policy**: authors are
+**encouraged** to deposit research data in a relevant repository, cite it in the article, and use
+Elsevier data-linking / co-submission routes where useful. JoE does not present a
+Journal-of-Applied-Econometrics-style mandatory central archive or Econometric-Society-style Data
+Editor package as a universal submission requirement in the current Guide for Authors. For JoE,
+replication materials for applied **illustrations** should be treated as expected best practice
+rather than a named central-archive mandate.
 
 Because JoE is a **methodology** journal, the reproducibility center of gravity is the **Monte Carlo and the estimator code**, not a large administrative-data archive. Make the *method* runnable.
 
@@ -22,18 +28,18 @@ Because JoE is a **methodology** journal, the reproducibility center of gravity 
 
 - Cite relevant/underlying datasets in the text **and** in the reference list, tagged **`[dataset]`**.
 - Elements: **author(s), dataset title, repository, version, year, persistent identifier (DOI)**.
-- Include a **data availability statement** describing access conditions for any real data used in the illustration. (待核实: confirm the exact current requirements on the live Guide for Authors.)
+- Include a **data availability statement** describing access conditions for any real data used in the illustration.
 
 ## Reproducible methodology package (best practice)
 
 - **Estimator as a usable artifact:** ship the new estimator/test as a documented function or command (R/Stata/Python/MATLAB/Julia) with a minimal worked example so referees can run it.
 - **`run_all` master script** that regenerates **every Monte Carlo table, every theory figure, and the empirical illustration** from raw inputs.
 - **Pin versions and seeds:** `renv.lock` / `requirements.txt` / recorded `ssc` versions / `Project.toml`; fix and report random seeds and replication counts so simulations reproduce exactly.
-- **Archive on a stable repository** (e.g., Zenodo, openICPSR) even though JoE does not mandate a central archive — it pre-empts referee replication requests and supports the optional **Data in Brief / MethodsX** co-submission route. (待核实: co-submission is via Editorial Manager per the Elsevier guide.)
+- **Archive on a stable repository** (e.g., Zenodo, openICPSR) even though JoE does not name a central archive — it pre-empts referee replication requests and supports the optional **Data in Brief / MethodsX** co-submission route via Editorial Manager.
 
 ## Anti-patterns
 
-- Assuming a mandatory, Data-Editor-vetted package like the Econometric Society journals — JoE does not enforce one (待核实)
+- Assuming a mandatory, Data-Editor-vetted package like the Econometric Society journals — JoE's current Guide does not name one as a universal requirement
 - Citing a dataset only in prose, without the `[dataset]` reference-list entry
 - Unreproducible Monte Carlo (unreported seeds, package versions, or replication counts)
 - Shipping results but not the estimator, so referees cannot actually run the method

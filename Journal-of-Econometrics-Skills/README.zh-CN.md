@@ -3,8 +3,9 @@
 面向 **Journal of Econometrics (JoE)** 的 12 个 agent skills。JoE 是 Elsevier 的计量经济学方法旗舰，
 关注 identification、estimation、testing、decision、prediction 与经济研究中的方法应用。
 
-官方依据核验日期：2026-06-01。来源见 `resources/official-source-map.md`，包括 JoE 自有指南、
-Editorial Express、Elsevier/ScienceDirect guide 以及若干 `待核实` 项。
+官方依据最新核验日期：2026-06-20。来源见 `resources/official-source-map.md`，包括
+ScienceDirect Guide for Authors、JoE 自有指南、Editorial Express resubmission 页面，以及当前
+“新投稿入口 vs. Editorial Express 指引”并存的操作性冲突。
 
 ## Skills
 
@@ -18,5 +19,5 @@ Editorial Express、Elsevier/ScienceDirect guide 以及若干 `待核实` 项。
 - `joe-writing-style`：压缩 abstract、intro 与 proofs。
 - `joe-replication-and-data-policy`：处理 Elsevier data citation 与可复现材料。
 - `joe-review-process`：理解 single-anonymized review、tracks 与 referee expectations。
-- `joe-submission`：核查 Editorial Express、fee、PDF 与 track。
+- `joe-submission`：核查 live portal、fee、files/PDF 与 track。
 - `joe-rebuttal`：撰写修改回复。

@@ -28,13 +28,13 @@ Each skill is tuned to JoE's actual norms, not a generic template. Co-Editors-in
 
 | JoE reality | How the pack uses it |
 |---|---|
-| Self-hosted **Editorial Express** portal (db `je`), not Editorial Manager | `joe-submission`, `joe-workflow` route to the right portal (待核实 vs. ScienceDirect text) |
+| Current official links split portal guidance: ScienceDirect/new-submission links point to **Editorial Manager**; JoE Google Sites and resubmission materials still point to **Editorial Express** | `joe-submission`, `joe-workflow` start from the live official link and treat Editorial Express as resubmission/track-specific unless the live page directs otherwise |
 | **USD $75 nonrefundable fee**, proof-of-payment uploaded *before* submission | `joe-submission` preflight makes the fee a blocking step |
-| **PDF-only**, ~40 pages (≥1.5 spacing, 11pt); **250-word** abstract | `joe-tables-figures`, `joe-writing-style`, `joe-submission` |
+| ScienceDirect source-file rules plus Editorial Express resubmission norms: editable source files for the Guide; PDF-only and ~40 pages inside the EE resubmission flow; **250-word** abstract | `joe-tables-figures`, `joe-writing-style`, `joe-submission` |
 | **Single-anonymized** review; editor screen → ≥2 referees | `joe-review-process`, `joe-rebuttal` |
 | Three tracks: **Regular / Annals / Themed** (Guest Associate Editors) | `joe-topic-selection`, `joe-review-process` |
 | **elsarticle** LaTeX class; Elsevier **`[dataset]`** citations | `joe-writing-style`, `joe-replication-and-data-policy` |
-| **No** mandatory central replication archive (encouraged, not mandated) | `joe-replication-and-data-policy` (待核实) |
+| No universal JoE-specific central archive found; Elsevier encourages repository deposit and dataset citation | `joe-replication-and-data-policy` |
 | Honorific **"Fellow of the Journal of Econometrics"** (4+ articles) | context in `joe-workflow` |
 
 ## The twelve skills
@@ -51,7 +51,7 @@ Each skill is tuned to JoE's actual norms, not a generic template. Co-Editors-in
 | 8 | `joe-writing-style` | 250-word abstract, contribution-first intro, legible proofs |
 | 9 | `joe-replication-and-data-policy` | Reproducible code/data under Elsevier norms |
 | 10 | `joe-review-process` | Single-anonymized review, tracks, what referees look for |
-| 11 | `joe-submission` | Editorial Express preflight (fee, PDF, abstract, track) |
+| 11 | `joe-submission` | Live portal preflight (fee, files, abstract, track) |
 | 12 | `joe-rebuttal` | Response letter + revised manuscript after a revision request |
 
 ## Default order
@@ -90,7 +90,10 @@ Journal-of-Econometrics-Skills/
 
 ## A note on verification
 
-Journal policies change, and several Elsevier/ScienceDirect pages return HTTP 403 to automated fetches. Facts captured indirectly are tagged **待核实** ("to be verified") in the skills and in [`resources/official-source-map.md`](resources/official-source-map.md). Re-confirm the fee, abstract/page limits, portal routing, editorial board, and data policy on the live official pages before relying on them.
+Journal policies change. The 2026-06-20 source refresh verified the fee, review model, abstract
+limit, data-citation guidance, and the current portal split directly from official pages. Re-confirm
+portal routing, open themed calls, and editor roster on the live official pages before relying on
+them.
 
 ## License
 

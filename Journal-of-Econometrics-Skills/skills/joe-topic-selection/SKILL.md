@@ -26,7 +26,7 @@ So the test is two-sided. Ask:
 
 - **Regular Issues** — standalone methodological papers (the default).
 - **Annals Issues** — focused volumes on a coherent theme.
-- **Themed Issues** — topic-based collections, often conference-originated, where proposers may serve as **Guest Associate Editors**. If your work fits an active theme, that route can be a strong fit. (待核实: check the journal's Themes page for current calls.)
+- **Themed Issues** — topic-based collections, often conference-originated, where proposers may serve as **Guest Associate Editors**. If your work fits an active theme, that route can be a strong fit; check the live Themes page for current calls.
 
 ## Decision shortcuts
 

@@ -1,6 +1,6 @@
 ---
 name: joe-rebuttal
-description: Use after a Journal of Econometrics (JoE) revision request to plan the response letter and revised manuscript — handling technical referee objections on assumptions, asymptotics, and Monte Carlo, and resubmitting via Editorial Express (note the fee can re-trigger on resubmissions over one year old).
+description: Use after a Journal of Econometrics (JoE) revision request to plan the response letter and revised manuscript — handling technical referee objections on assumptions, asymptotics, and Monte Carlo, and resubmitting through the live official route (note the fee can re-trigger on resubmissions over one year old).
 ---
 
 # Revision Rebuttal (joe-rebuttal)
@@ -10,11 +10,11 @@ description: Use after a Journal of Econometrics (JoE) revision request to plan 
 - A JoE decision letter arrived with referee reports and a revision request
 - Referees challenge an assumption, a proof step, or the adequacy of the Monte Carlo
 - You need a response-letter strategy that satisfies technical specialists
-- You are about to resubmit and need to know what Editorial Express expects
+- You are about to resubmit and need to know what the current portal expects
 
 ## The JoE revision reality
 
-JoE referees are **specialists** who read methods papers closely, and review is **single-anonymized** (they know who you are). Reports are usually detailed and technical: a missing regularity condition, a gap in an asymptotic argument, a Monte Carlo that does not stress the assumptions, or an under-credited competing method. The editors make the final call after weighing the (minimum two) referees. Treat the revision as **making the theory and simulations airtight**, not as a rhetorical exercise. Note: resubmissions **over one year old** can re-trigger the **USD $75 fee** with proof-of-payment upload — budget for it (待核实).
+JoE referees are **specialists** who read methods papers closely, and review is **single-anonymized** (they know who you are). Reports are usually detailed and technical: a missing regularity condition, a gap in an asymptotic argument, a Monte Carlo that does not stress the assumptions, or an under-credited competing method. The editors make the final call after weighing the (minimum two) referees. Treat the revision as **making the theory and simulations airtight**, not as a rhetorical exercise. Note: resubmissions **over one year old** can re-trigger the **USD $75 fee** — budget for it.
 
 ## Response-letter strategy
 
@@ -37,8 +37,9 @@ JoE referees are **specialists** who read methods papers closely, and review is 
 
 ## Resubmission logistics
 
-- Resubmit through **Editorial Express** (db `je`); check whether the **fee re-triggers** and stage **proof of payment** if so (待核实).
-- Provide a clean revised PDF plus the response letter; keep the **elsarticle** formatting and ≤250-word abstract intact.
+- Resubmit through the **live official route**. If the Editorial Express resubmission flow applies, use database `je`; if the route points to Editorial Manager, follow that workflow.
+- Check whether the **fee re-triggers** and stage **proof of payment** if the live route requests it.
+- Provide a clean revised manuscript plus the response letter; keep the Elsevier formatting and ≤250-word abstract intact.
 - Update the reproducible artifact (`run_all`, estimator code, seeds) to match any new Monte Carlo.
 
 ## Anti-patterns
@@ -56,6 +57,6 @@ JoE referees are **specialists** who read methods papers closely, and review is 
 【Theory changes】assumptions weakened / lemma added / variance proof
 【Monte Carlo changes】new DGPs / boundary cases / size-power added
 【Manuscript pointers】where each change lives
-【Resubmission】Editorial Express; fee re-trigger checked? [Y/N] (待核实)
+【Resubmission】live route checked; fee re-trigger checked? [Y/N]
 【Next step】joe-submission preflight on the revised PDF
 ```
