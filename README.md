@@ -345,7 +345,7 @@
 |---|---|---|
 | **封面卡和根目录期刊文件夹**，例如 `American-Economic-Review/` 或 `Jingji-Yanjiu/` | 只负责导航；它们指向 canonical skill 位置，故意不放 `SKILL.md`。 | 你在 GitHub 根目录按期刊名浏览。 |
 | **深度包**，例如 `AER-skills/`、`Economic-Research-Journal-Skills/` 或 `Cell-Skills/` | 单刊全流程工作流，通常含 9-13 个 skills，覆盖选题、定位、方法、表格、投稿和回复。 | 目标期刊已确定，且需要完整投稿生命周期支持。 |
-| **广度合集**：`Chinese-SocialScience-Journal-Skills/`、`English-SocialScience-Journal-Skills/`、`English-NaturalScience-Journal-Skills/`、`Engineering-Technology-Journal-Skills/` | 每本期刊一个轻量 fit-and-house-style skill，另有 router skill 用于选刊。 | 你需要覆盖 100 本期刊级别的路线图，或还在比较投稿目标。 |
+| **广度合集**：`Chinese-SocialScience-Journal-Skills/`、`English-SocialScience-Journal-Skills/`、`English-NaturalScience-Journal-Skills/`、`Engineering-Technology-Journal-Skills/`、`Agriculture-Environment-Journal-Skills/`、`Clinical-Medicine-Journal-Skills/`、`Computer-Science-Conference-Skills/` | 每本期刊一个轻量 fit-and-house-style skill，另有 router skill 用于选刊。 | 你需要覆盖 100 本期刊级别的路线图，或还在比较投稿目标。 |
 | **收录 / 工具包**，例如 `nature-skills/`、`claude-scholar/` 或 `codex-claude-academic-skills/` | 收录的上游包或通用学术工具，与期刊包并列保存。 | 你需要跨期刊的研究、写作或工作流支持。 |
 
 经验法则：浏览时从根目录文件夹或封面卡开始；选刊时用广度合集；目标期刊确定后再进入对应深度包。
@@ -455,7 +455,7 @@
 
 ## 📚 Skill Pack 一览
 
-> **收录范围。** 本索引聚焦**经管社科中英文顶刊**、**人文与广义社科顶刊**（社会学 / 政治学 / 心理学 / 人口学 / 传播 / 历史 / 艺术 / 哲学 / 文学 / 宗教）、**自然科学 / 临床 / 物理 / 环境 / 农业英文顶刊**、**工程技术英文顶刊**，以及 **AI 优先的计算机科学顶会**。每个重点期刊都是一个**深度包**（单刊全流程，约 12 步）；五个**广度合集**则为每个 venue 提供一个“选刊/选会定位 + 写作风格”技能——[Computer-Science-Conference-Skills](Computer-Science-Conference-Skills/) 覆盖 155 个 CS 会议 + router，[Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) 覆盖 102 个中文社科期刊 profile，[English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) 覆盖 100 本英文主流经管/商科期刊，[English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) 覆盖 154 本英文主流自然科学/临床/物理/形式科学期刊，[Engineering-Technology-Journal-Skills](Engineering-Technology-Journal-Skills/) 覆盖 40 本英文工程技术旗舰期刊。重点中文期刊、英文侧的 AER、以及 5 本自然科学旗舰（Science、Cell、PNAS、NEJM、The Lancet），有意同时以两种形态收录。自然科学另以**自有深度包**形态提供，与收录的第三方 Nature 包并列。
+> **收录范围。** 本索引聚焦**经管社科中英文顶刊**、**人文与广义社科顶刊**（社会学 / 政治学 / 心理学 / 人口学 / 传播 / 历史 / 艺术 / 哲学 / 文学 / 宗教）、**自然科学 / 临床 / 物理 / 环境 / 农业英文顶刊**、**工程技术英文顶刊**，以及 **AI 优先的计算机科学顶会**。每个重点期刊都是一个**深度包**（单刊全流程，约 12 步）；七个**广度合集**则为每个 venue 提供一个“选刊/选会定位 + 写作风格”技能——[Computer-Science-Conference-Skills](Computer-Science-Conference-Skills/) 覆盖 155 个 CS 会议 + router，[Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) 覆盖 103 个中文社科期刊 profile，[English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) 覆盖 100 本英文主流经管/商科期刊，[English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) 覆盖 154 本英文主流自然科学/临床/物理/形式科学期刊，[Engineering-Technology-Journal-Skills](Engineering-Technology-Journal-Skills/) 覆盖 40 本英文工程技术旗舰期刊，[Agriculture-Environment-Journal-Skills](Agriculture-Environment-Journal-Skills/) 覆盖 30 本英文农业·环境·地球科学旗舰期刊，[Clinical-Medicine-Journal-Skills](Clinical-Medicine-Journal-Skills/) 覆盖 30 本英文临床专科旗舰期刊。重点中文期刊、英文侧的 AER、以及 5 本自然科学旗舰（Science、Cell、PNAS、NEJM、The Lancet），有意同时以两种形态收录。自然科学另以**自有深度包**形态提供，与收录的第三方 Nature 包并列。
 
 ### 计算机科学 · AI 优先会议广度合集
 
@@ -1193,10 +1193,12 @@ awesome-journal-skills/
 ├── PMLA-Skills/                           → PMLA（文学 / 语言）（12 skills）
 ├── Critical-Inquiry-Skills/               → Critical Inquiry（12 skills）
 ├── Journal-of-the-American-Academy-of-Religion-Skills/ → JAAR（12 skills）
-├── Chinese-SocialScience-Journal-Skills/  → 中文广度合集，102 个期刊 profile + router（103 skills）
+├── Chinese-SocialScience-Journal-Skills/  → 中文广度合集，103 个期刊 profile + router（104 skills）
 ├── English-SocialScience-Journal-Skills/  → 英文经管广度合集，100 本期刊 fit 技能 + 路由（101 skills）
 ├── English-NaturalScience-Journal-Skills/ → 英文自然科学广度合集，154 本期刊 fit 技能 + 路由（155 skills）
 ├── Engineering-Technology-Journal-Skills/ → 英文工程技术广度合集，40 本期刊 fit 技能 + 路由（41 skills）
+├── Agriculture-Environment-Journal-Skills/ → 英文农业·环境·地球广度合集，30 本期刊 fit 技能 + 路由（31 skills）
+├── Clinical-Medicine-Journal-Skills/      → 英文临床专科广度合集，30 本期刊 fit 技能 + 路由（31 skills）
 │   # CS/AI 会议深度包（本仓库内编写维护）
 ├── AAAI-Skills/                   → AAAI 主技术轨（12 skills）
 ├── AISTATS-Skills/                → AISTATS 主会（12 skills）
@@ -1309,12 +1311,14 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 
 ### ✅ 已落地
 
-- **五个广度合集** —— 每个 venue 一个“选刊/选会定位 + 写作风格”技能：
+- **七个广度合集** —— 每个 venue 一个“选刊/选会定位 + 写作风格”技能：
   - [Computer-Science-Conference-Skills](Computer-Science-Conference-Skills/) —— 155 个计算机科学会议 profile + `cs-ai-conference-workflow`，以 NeurIPS / ICML / ICLR / AAAI / IJCAI 开头
   - [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) —— 102 个中文社科期刊 profile
   - [English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) —— 100 本英文经济 / 金融 / 管理 / 会计 / 营销 / 运营 / 信息系统期刊
   - [English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) —— 154 本英文自然科学 / 临床 / 物理 / 形式科学期刊
   - [Engineering-Technology-Journal-Skills](Engineering-Technology-Journal-Skills/) —— 40 本英文工程技术期刊
+  - [Agriculture-Environment-Journal-Skills](Agriculture-Environment-Journal-Skills/) —— 30 本英文农业·环境·地球科学期刊
+  - [Clinical-Medicine-Journal-Skills](Clinical-Medicine-Journal-Skills/) —— 30 本英文临床专科期刊
 - **每刊封面直达** 覆盖全部广度期刊，两份 README 内嵌默认展开的封面画廊，并提供 200 个根目录轻量入口文件夹便于首页浏览。
 - **单刊/单会全流程深度包（约 12 步）** —— 113 个仓库内自有 venue 包，覆盖五大板块（AER 与 Nature 另以收录/submodule 包形态提供）：
   - **英文经济学：** AER（submodule）· QJE · JPE · Econometrica · REStud · Journal of Development Economics · Journal of Public Economics · Journal of Labor Economics · Journal of International Economics · Journal of Monetary Economics · RAND Journal of Economics · Journal of Econometrics · Econometric Theory · Quantitative Economics · Journal of Applied Econometrics · JBES · The Econometrics Journal · Review of Economic Dynamics · Journal of Economic Growth · Journal of Economic Theory · Games and Economic Behavior · Journal of Human Resources
