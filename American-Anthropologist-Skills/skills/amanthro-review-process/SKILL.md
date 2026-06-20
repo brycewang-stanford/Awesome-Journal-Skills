@@ -63,6 +63,26 @@ ethical evidence.
 【Next】amanthro-submission (or amanthro-rebuttal if decided)
 ```
 
+## What reviewers are asked to weigh (anticipate it)
+
+| Reviewer focus | What it means at AA | How to pre-empt it |
+|----------------|--------------------|--------------------|
+| Four-field significance | Does this matter beyond the home subfield? | State the cross-field stake in the introduction |
+| Evidence & rigor | Is the claim grounded; is interpretation disciplined? | Ground each claim; name and adjudicate the rival reading |
+| Reflexivity | Is the author's position visible and accounted for? | Make positionality part of the argument |
+| Ethics & care | Consent, anonymization, heritage, no harm | Resolve and state these before submitting |
+| Citational practice | Are marginalized/regional voices engaged? | Cite beyond the metropolitan canon |
+| Craft | Is it well written and legible across fields? | Polish with `amanthro-writing-style` |
+
+## Calibration anchors (hedged)
+
+- The **ethics of care** shapes the *tone* of review (constructive, non-destructive), not the *bar*:
+  expect rigorous, sometimes cross-subfield critique even in a generous letter.
+- A **revise-and-resubmit is the normal positive outcome**; treat it as an invitation, not a near-miss
+  (see `amanthro-rebuttal`). Outright first-round acceptance is rare.
+- Decision-category names, reviewer counts, and acceptance rates are not published as fixed figures —
+  confirm the current process on the live editorial site (待核实).
+
 ## Supplementary resources
 
 - [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — peer-review model, ethics-of-care statement, section types, editorial board
