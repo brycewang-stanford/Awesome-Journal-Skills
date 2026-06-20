@@ -73,6 +73,10 @@ A referee demands an instrument you do not have. Arguing "no valid instrument ex
 
 The EIC and AE adjudicate faster when the letter is built for scanning. Open with a one-page **summary of major changes** that states how the contribution is now sharper and lists the three or four biggest revisions. Then take each reviewer in turn, quoting every comment verbatim in a distinct font or block, followed by your response in plain text with an explicit pointer ("see revised Section 4.2, Table 3, p. 18") and the new result stated inline. Where the same concern came from multiple reviewers, answer it once and cross-reference, so the AE sees consistency rather than contradictions. Close each reviewer's section by inviting them to the specific changed passages. A response that the AE can verify against the manuscript without hunting is itself evidence that you took the review seriously.
 
+## Route the underlying work, then write the letter
+
+The response letter documents fixes; it does not perform them. Before drafting, send each substantive concern to the skill that owns the real change — identification and measurement to `jmis-data-analysis`, contribution doubts to `jmis-contribution-framing`, exhibit problems to `jmis-tables-figures` — and complete those revisions in the manuscript first. Then write the letter against the finished revision, so every "we have done X" points to a change that already exists. A letter written ahead of the work invariably overpromises and underdelivers.
+
 ## Output format
 
 ```text

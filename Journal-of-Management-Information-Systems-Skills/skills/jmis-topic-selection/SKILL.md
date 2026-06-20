@@ -75,6 +75,10 @@ JMIS's identity — shaped by Vladimir Zwass's long editorship and his parallel 
 
 Three quick tests separate a JMIS topic from a near-miss. **The deletion test:** remove the IT artifact from the question — if it still makes sense, the technology was a setting, not the subject, and the paper is probably not IS. **The audience test:** picture the JMIS readership (IS scholars who study the management and economics of technology) — can you name the subset who would cite this and the subset who would shrug? If you cannot name either, the topic is too diffuse. **The decision test:** does answering the question change a real technology decision (invest, govern, price, design, disclose)? JMIS's management identity rewards a question whose answer a manager or platform could act on; a purely descriptive "we characterize X" topic, however novel, sits closer to the journal's margin.
 
+## Hand off only when fit is settled
+
+Do not route to `jmis-theory-development` while the fit verdict is still "borderline." A topic that is unsure of its home wastes theory and analysis effort, because a reframe at the contribution stage often forces the mechanism to be rebuilt. Resolve the fit first — sharpen the management/economics angle until the deletion, audience, and decision tests all pass, or reroute honestly to the sibling that fits — and only then commit downstream work.
+
 ## Output format
 
 ```text

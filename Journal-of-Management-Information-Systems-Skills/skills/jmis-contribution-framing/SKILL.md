@@ -73,6 +73,10 @@ JMIS prizes work that contributes to *both* IS theory and IS practice, and the j
 
 The same result earns credit differently depending on the paper's genre, and overclaiming the wrong kind of contribution invites pushback. An **empirical** paper's currency is a credibly identified effect plus the mechanism behind it — its contribution sentence should foreground "we identify" and "the mechanism is," not "we propose a new construct." An **analytical** paper's currency is a non-obvious insight or comparative static — claim the surprising result, not the existence of a model. A **design-science / data-science** paper's currency is an evaluated, useful artifact and the generalizable design knowledge it embodies — claim utility against credible baselines and the transferable principle, not raw accuracy. Match the verb to the genre and the contribution lands; mismatch it and a referee will say the paper "claims more than its genre delivers."
 
+## Test the contribution against the EIC's fit gate
+
+Before handing off to exhibits and prose, read the contribution as the EIC will at intake: is this an advance to an IS-management/economics conversation, or a reference-discipline result with an IS setting? If a sharp colleague could say "this is really an economics/CS/marketing paper," the framing has not yet earned its place at JMIS. Strengthen the IS-artifact dependence and the managerial payload until the contribution is unambiguously an IS contribution — that is the single most common reason a competent paper is returned.
+
 ## Output format
 
 ```text

@@ -69,6 +69,10 @@ Keep the package as two deliberately separated parts. (1) The **anonymized manus
 
 Beyond the headline rules, a few details account for most avoidable returns. Confirm the **page count under JMIS's counting** (the complete manuscript, with the required 12pt double-spacing, not a single-spaced draft that looks shorter than it is). Verify the **abstract is genuinely citation-free** — a stray "[3]" in the abstract violates the rule. Check that the **reference list is alphabetized and the in-text numbers map to it correctly**, since a mismatched [n] is an obvious copyedit flag. Make sure **survey instruments and online appendixes are attached and anonymized**, not merely promised. And re-read the manuscript once with the single question "could a referee guess who wrote this?" — the answer must be no. (检索于 2026-06；以官网为准.)
 
+## When in doubt, re-verify rather than assume
+
+Every process fact here — the intake email, the page and abstract limits, the reference style, the absence of a fee — is the kind of detail journals change without much notice. Treat the source map as a snapshot, not a guarantee: before sending, open jmis-web.org / the Taylor & Francis journal page and confirm the current intake route and formatting rules. It is far cheaper to spend five minutes re-checking than to have a paper returned for a rule that moved. (检索于 2026-06；以官网为准.)
+
 ## Output format
 
 ```text

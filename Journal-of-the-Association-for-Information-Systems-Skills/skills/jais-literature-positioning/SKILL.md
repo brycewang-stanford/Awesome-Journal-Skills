@@ -25,7 +25,7 @@ JAIS draws reviewers from across the IS field's traditions — behavioral, econo
 
 ## Position relative to the siblings, explicitly
 
-JAIS shares the Basket with MISQ, ISR, JMIS, EJIS, ISJ, JSIS, and JIT. Reviewers will ask "why JAIS?" Be ready: a paper whose contribution is **the theory or the conceptual framework itself** is a natural JAIS fit (it has a Theory category); a paper that is primarily a hard identification result may read as ISR; a strongly design-science artifact may read as MISQ. State the fit in the cover letter and let the front end reinforce it.
+JAIS shares the Senior Scholars' Basket with MISQ, ISR, JMIS, EJIS, ISJ, JSIS, and JIT. Reviewers will ask "why JAIS?" Be ready: a paper whose contribution is **the theory or the conceptual framework itself** is a natural JAIS fit (it has a standalone Theory category); a paper that is primarily a hard identification result may read as ISR; a strongly design-science artifact may read as MISQ; an applied systems/economic-modeling paper may read as JMIS. State the fit in the cover letter and let the front end reinforce it. The positioning should make the JAIS reader feel the paper is in dialogue with the journal's own theory-and-method project, not merely seeking a high-ranked outlet — that perception of belonging is what carries a paper past the editor's fit screen.
 
 ## Two failure modes JAIS reviewers name by name
 

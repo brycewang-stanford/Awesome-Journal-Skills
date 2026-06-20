@@ -75,6 +75,10 @@ JMIS prose goes into a fully anonymized file, so the writing itself must not lea
 
 IS readers are unforgiving about loose construct language. Decide on one term per construct and use it everywhere — do not drift between "IT capability," "digital capability," and "technology resource" for the same thing, or between "platform openness" and "API accessibility" if you mean one concept. Define each construct at first use and keep the definition stable through theory, measurement, and discussion. When you import a reference-discipline term (e.g., a specific elasticity, a game-theoretic equilibrium concept), gloss it for the IS reader rather than assuming fluency. Precision here is not pedantry: a referee who sees a construct shift names mid-paper will doubt the measurement and the theory.
 
+## Polish last, and only once
+
+Writing-style is the final pass, so run it only after the mechanism, identification, contribution, and exhibits are settled — polishing prose around a moving argument wastes effort and risks locking in sentences you will have to cut. When you do polish, make one full pass for argument flow (does each section advance the claim?), one for construct and citation consistency, and one for sentence-level economy. Then write the abstract last, against the finished intro.
+
 ## Output format
 
 ```text

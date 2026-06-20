@@ -21,6 +21,10 @@ JAIS reviewers span behavioral, economic, design-science, organizational, and cr
 
 A JAIS introduction should, in roughly its first two pages, answer: what is the IS phenomenon, why is it interesting and unresolved, what is the contribution, and why JAIS's audience should care across traditions. Open with the puzzle, not a textbook definition. State the contribution sentence early ("before this paper… ; this paper shows… ; which changes…"). Reviewers who cannot find the contribution by page two assume there isn't one.
 
+## Define constructs before you use them
+
+The fastest way to lose a cross-tradition reviewer is to deploy a construct as if its meaning were settled. JAIS prose should define each construct at first use, distinguish it from the nearest familiar term, and keep the label consistent thereafter — no quiet synonym-swapping that makes a reader wonder whether two terms denote the same thing. This is doubly important for a new construct in a Theory paper, where the definition *is* part of the contribution and any slippage between the definition, the figure, and the propositions reads as conceptual imprecision.
+
 ## Foreground the theory, then the evidence
 
 Because JAIS treats theory as a first-class contribution, the narrative spine is the theoretical argument; methods and results serve it. Walk the reader through the mechanism in words before equations or coefficients. For a Theory or Perspectives paper, the prose *is* the contribution — invest accordingly, with crisp construct definitions and a clean logical chain from premises to propositions.

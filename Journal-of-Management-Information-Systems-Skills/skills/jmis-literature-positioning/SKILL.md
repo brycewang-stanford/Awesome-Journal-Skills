@@ -75,6 +75,10 @@ JMIS reviewers notice when a paper engages the IS basket generically but skips t
 
 A JMIS introduction's positioning usually resolves into three paragraphs. (1) **The phenomenon and stake** — a concrete IT/management development and why managers, firms, or platforms care. (2) **The IS conversation and its tension** — the specific stream you join, what it currently holds, and the contradiction or unresolved question (theory vs. evidence, or stream A vs. stream B) that your paper targets. (3) **The delta and approach** — what the field believed, what it should believe after your paper, and the leverage (identification, model, or evaluation) that lets you claim it. Reference-discipline tools appear in paragraph three as the method, never as the contribution. If a paragraph cannot be written because the stream, the tension, or the delta is missing, that is the gap to close before drafting further.
 
+## Keep positioning honest about what is new
+
+Resist the urge to inflate the gap. A reviewer who knows the literature will catch a "no one has studied this" claim that ignores a near-identical prior paper, and the credibility cost is high. State precisely what prior work established and where it stopped, then claim only the increment you actually deliver. Honest, well-bounded positioning that names the closest predecessor and the exact delta reads as command of the field; overstated novelty reads as not having done the reading.
+
 ## Output format
 
 ```text

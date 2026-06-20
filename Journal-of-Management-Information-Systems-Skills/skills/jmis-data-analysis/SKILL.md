@@ -76,6 +76,10 @@ On IT-value and platform papers, the most common first-round attack is "this cou
 
 JMIS submissions are double-anonymized and capped at 50 pages, which shapes how you present analysis. Online appendixes are permitted, but the body must stand on its own: a reviewer should be able to follow the identification and the headline result without the appendix, and should never find that a load-bearing robustness check exists only there. Document the sample construction, the estimator, the software/version, and the inference choices clearly enough that the result is traceable; if you reference your own prior code or data, phrase it so it does not de-anonymize you. Tighten the analysis narrative — full diagnostic batteries and secondary specifications belong in the appendix, while the body carries the chain that establishes the contribution.
 
+## Hand a stable headline to the next stage
+
+Do not move to `jmis-contribution-framing` while the headline number is still drifting across specifications. The contribution sentence and the exhibits both depend on a settled effect size and a settled inference, so lock the preferred specification, confirm it survives the robustness battery, and fix the economic-magnitude interpretation before framing the claim. A contribution built on a coefficient that later moves forces a rewrite of the intro, the discussion, and the abstract.
+
 ## Output format
 
 ```text
