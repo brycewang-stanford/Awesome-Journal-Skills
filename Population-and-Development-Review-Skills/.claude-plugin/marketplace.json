@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "population-and-development-review-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Population and Development Review (PDR), the Population Council's quarterly journal published by Wiley at the intersection of demography and development.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "population-and-development-review-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Population and Development Review (PDR) manuscript lifecycle across the demography-and-development intersection, with demographic methods (life tables, decomposition, event history, age-period-cohort, projections), synthetic-essay craft, double-anonymized review, Free Format ScholarOne submission, and no author fees under the standard model.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/population-and-development-review-skills",
+      "repository": "https://github.com/brycewang-stanford/population-and-development-review-skills",
+      "keywords": [
+        "population-and-development-review",
+        "pdr",
+        "population-council",
+        "wiley",
+        "demography",
+        "development",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/popdevr-workflow",
+        "skills/popdevr-topic-selection",
+        "skills/popdevr-literature-positioning",
+        "skills/popdevr-theory-building",
+        "skills/popdevr-research-design",
+        "skills/popdevr-data-analysis",
+        "skills/popdevr-tables-figures",
+        "skills/popdevr-writing-style",
+        "skills/popdevr-transparency-and-data",
+        "skills/popdevr-review-process",
+        "skills/popdevr-submission",
+        "skills/popdevr-rebuttal"
+      ]
+    }
+  ]
+}

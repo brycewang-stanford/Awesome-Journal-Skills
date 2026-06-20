@@ -1,0 +1,30 @@
+{
+  "name": "population-and-development-review-skills",
+  "description": "Agent skill stack for manuscripts targeted at Population and Development Review (PDR) — the quarterly journal published by Wiley on behalf of the Population Council, founded in 1975, at the intersection of demography and development. PDR advances knowledge of the relationships between population and social, economic, and environmental change and the public policy that mediates them: fertility and family change, mortality and health, migration and urbanization, ageing and population structure, and population and environment/climate. It publishes empirical demography, formal demography, and the substantial synthetic/conceptual essays it is known for, plus Notes & Commentary, Data & Perspectives, Archives, and book reviews. Submission is via ScholarOne Manuscripts with Free Format first-round submission, double-anonymized peer review by at least two referees, APA-style house referencing, a data availability statement under Wiley's research-integrity framework, ORCID, and no author fees (no APC) under the standard model. Research Articles run roughly 8,000-10,000 words. The twelve skills cover topic selection and population-and-development fit, broad-interest literature positioning, theory and synthetic-framework building, research design (life tables, decomposition, event-history/survival, age-period-cohort, projections, and causal inference), data analysis, demographic and comparative exhibits, lucid essayistic writing, transparency and data sharing, the review process, ScholarOne submission, and R&R rebuttals. Bilingual en / zh-CN docs. Volatile specifics (current editors, abstract limit, exact length caps, portal link, fee/Online Open options) are marked for verification on the Wiley author page.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/population-and-development-review-skills",
+  "repository": "https://github.com/brycewang-stanford/population-and-development-review-skills",
+  "keywords": [
+    "population-and-development-review",
+    "pdr",
+    "population-council",
+    "wiley",
+    "demography",
+    "development",
+    "population-policy",
+    "fertility",
+    "mortality",
+    "migration",
+    "population-and-environment",
+    "ageing",
+    "demographic-transition",
+    "demographic-dividend",
+    "scholarone",
+    "academic-writing"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "governance-journal-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Governance: An International Journal of Policy, Administration, and Institutions, the comparative venue for executive politics, public policy, public administration, and the organization of the state.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "governance-journal-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Governance: An International Journal of Policy, Administration, and Institutions manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/governance-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/governance-journal-skills",
+      "keywords": [
+        "governance-journal",
+        "public-administration",
+        "public-policy",
+        "comparative-governance",
+        "regulatory-governance",
+        "research-transparency",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/govern-workflow",
+        "skills/govern-topic-selection",
+        "skills/govern-literature-positioning",
+        "skills/govern-theory-building",
+        "skills/govern-research-design",
+        "skills/govern-data-analysis",
+        "skills/govern-tables-figures",
+        "skills/govern-writing-style",
+        "skills/govern-transparency-and-data",
+        "skills/govern-review-process",
+        "skills/govern-submission",
+        "skills/govern-rebuttal"
+      ]
+    }
+  ]
+}

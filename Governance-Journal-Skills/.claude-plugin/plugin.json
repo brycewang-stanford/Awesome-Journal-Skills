@@ -1,0 +1,26 @@
+{
+  "name": "governance-journal-skills",
+  "description": "Agent skill stack for manuscripts targeted at Governance: An International Journal of Policy, Administration, and Institutions — published by Wiley(-Blackwell) in association with the IPSA Research Committee 27 on the Structure & Organization of Government (SOG), under double-blind peer review with at least two referees and a separate title page. Governance is the comparative and international venue for executive politics, public policy, public administration, and the organization of the state; it welcomes quantitative, qualitative, and comparative-historical work, but excludes corporate governance and stand-alone literature reviews. Facts covered include the ~9,000-word working cap (excluding citations/bibliography), the ~150-word abstract, the mandatory Data Availability Statement with recommended DOI-citable deposit, and the option to supply an anonymized pre-analysis plan as supplementary material. Covers comparative-governance topic selection, literature positioning in policy / administration / institutions, theory and argument building, research design across comparative cases / causal inference / QCA / mixed methods, data-analysis norms, exhibits, writing within the word cap, transparency and data policy, the review process, Wiley-system submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/governance-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/governance-journal-skills",
+  "keywords": [
+    "governance-journal",
+    "public-administration",
+    "public-policy",
+    "comparative-governance",
+    "executive-politics",
+    "regulatory-governance",
+    "institutional-reform",
+    "policy-process",
+    "ipsa-sog",
+    "research-transparency",
+    "academic-writing",
+    "wiley"
+  ]
+}
