@@ -13,7 +13,8 @@ for policy relevance. Write so each of them can follow the argument — within t
 
 - Drafting the introduction, abstract, or discussion
 - A reviewer said the paper is "hard to follow," "jargon-heavy," or "buries the contribution"
-- Cutting to meet the word cap (Research Articles up to ~8,000 words; abstract ≤ ~250 words — verify)
+- Cutting to meet the word cap (Research Articles up to 8,000 words; Perspectives up to 3,000 words;
+  abstract <=250 words)
 - Writing the abstract and the plain-language framing
 
 ## What GEC prose does well
@@ -29,15 +30,17 @@ for policy relevance. Write so each of them can follow the argument — within t
 5. **Discussion that earns the conclusion.** Interpret results against the framework, state scope
    conditions and limitations honestly, and set up the policy implications (`gec-policy-relevance-and-implications`).
 
-## The abstract (≤ ~250 words — verify on the live page)
+## The abstract (<=250 words)
 
 - State the **problem, approach, key finding, and significance** for the human/policy dimension.
 - Avoid undefined jargon; an editor from another field decides desk-fate partly on the abstract.
 
-## Length discipline (verify caps)
+## Length discipline
 
-- Research Articles **up to ~8,000 words** (excl. references); cut method minutiae to supplementary
-  material rather than diluting the argument.
+- Research Articles **up to 8,000 words** (including main body text and table/figure captions, excluding
+  references); cut method minutiae to supplementary material rather than diluting the argument.
+- Perspective articles **up to 3,000 words** (excluding references) must be argument-led; if the paper
+  needs methods/data-analysis description, route it as a Research Article.
 - Every section should advance the contribution; if a paragraph does not, cut or move it.
 
 ## Anti-patterns
@@ -53,8 +56,8 @@ for policy relevance. Write so each of them can follow the argument — within t
 ```
 【Contribution stated by】page/paragraph (front-loaded? Y/N)
 【Jargon check】terms defined; acronyms spelled out? [Y/N]
-【Abstract】word count (≤ ~250) + states problem/approach/finding/significance?
-【Length】within ~8,000 words (excl. refs)? [Y/N]
+【Abstract】word count (<=250) + states problem/approach/finding/significance?
+【Length】within the chosen article-type cap? [Y/N]
 【Limitations】stated honestly? [Y/N]
 【Next】gec-policy-relevance-and-implications
 ```

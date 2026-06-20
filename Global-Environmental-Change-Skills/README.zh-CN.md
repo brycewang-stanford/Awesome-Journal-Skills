@@ -33,18 +33,17 @@ GEC 的约束不同于单一学科的社会科学刊或自然科学刊：
 | 范围 | 全球环境变化的**人类与政策维度** | 仅有生物物理结果不合适 |
 | 看重 | **显著的社会科学成分** + 社会/政策意义 | 以人类维度立论，而非仅讲灾害趋势 |
 | 方法 | 定量/定性/混合——各按其标准评判 | 方法要匹配问题；混合方法须说明整合逻辑 |
-| 出版方 | **爱思唯尔 Elsevier**（ISSN 0959-3780 / 1872-9495） | 通过 **Editorial Manager**（`editorialmanager.com/gec`）投稿 |
-| 评审模式 | **双盲**（待核实），多位跨学科评审 | 稿件须匿名化；面向不同学科评审写作 |
-| 篇幅 | 研究论文 **约 ≤ 8,000 词**；**摘要 ≤ 约 250 词** | 把方法细节移入补充材料 |
-| Highlights | **3-5 条要点，每条 ≤ 约 85 字符**，单独文件 | 作为贡献的橱窗来撰写 |
+| 出版方 | **爱思唯尔 Elsevier**（ISSN 0959-3780 / 1872-9495） | 通过 Elsevier 在线投稿系统提交 |
+| 评审模式 | **双向匿名 / double-anonymized**；通常至少两位专家评审 | title page 与匿名稿件分开提交 |
+| 篇幅 | Research Article **8,000 词以内**；Perspective **3,000 词以内**；摘要 **≤250 词** | 把方法细节移入补充材料 |
+| Highlights | 必须提交：**3-5 条要点，每条 ≤85 字符**，单独可编辑文件 | 作为贡献的橱窗来撰写 |
 | 框架 | 理论严谨；框架必须**发挥作用** | 不要无理论、纯描述的论文 |
-| 透明度 | 爱思唯尔研究数据政策；**数据可得性声明** | 边做边建材料；存放并引用数据 |
+| 透明度 | 爱思唯尔 **Option C** 研究数据政策；**数据可得性声明** | deposit/cite/link 数据，或解释为何不能共享 |
 | 意义 | 多尺度：地方过程伴随**全球/跨尺度后果** | 把案例连接到超越地方的尺度 |
 
-易变的具体信息（确切篇幅上限、APC、编辑、文章类型、数据政策措辞）会变化，且若干爱思唯尔 / ScienceDirect
-页面对自动抓取返回 **HTTP 403**——未直接核实项在
-[`resources/official-source-map.md`](resources/official-source-map.md) 中标记 **待核实**。
-**请以官方期刊页面为准。**
+官方 ScienceDirect 页面已于 **2026-06-20** 刷新进
+[`resources/official-source-map.md`](resources/official-source-map.md)。投稿级建议前仍须重开 live 页面，
+因为 APC、编辑名单、special call 与政策文字可能变化。
 
 ### GEC 看重什么
 
@@ -128,14 +127,14 @@ gec-revision-and-rebuttal
 | `gec-figures-and-tables` | 自洽、可读的图表与必备的 Highlights |
 | `gec-writing-style` | 跨学科可读的严谨写作，控制在字数与摘要上限内 |
 | `gec-policy-relevance-and-implications` | 现实含义：行动者、杠杆、适用范围、公平、不确定性 |
-| `gec-review-process` | 双盲评审、范围/社会科学筛查、决定类别 |
-| `gec-submission` | Editorial Manager 投稿前检查（匿名化、上限、Highlights、数据声明） |
+| `gec-review-process` | 双向匿名评审、范围/社会科学筛查、决定类别 |
+| `gec-submission` | Elsevier 投稿前检查（匿名化、上限、Highlights、数据声明） |
 | `gec-revision-and-rebuttal` | 面向跨学科评审 + 编辑的回应信策略 |
 
 ### 资源
 
 - [`resources/external_tools.md`](resources/external_tools.md) — 环境变化数据源（IPCC / ND-GAIN / FAOSTAT / WVS / Global Forest Watch）+ R / Stata / Python 与定性/CAQDAS 及系统方法工具
-- [`resources/official-source-map.md`](resources/official-source-map.md) — 每条事实背后的爱思唯尔 / ScienceDirect 官方 URL，未核实项标 待核实
+- [`resources/official-source-map.md`](resources/official-source-map.md) — 当前流程事实背后的爱思唯尔 / ScienceDirect 官方 URL，2026-06-20 已刷新
 
 ---
 
@@ -143,7 +142,7 @@ gec-revision-and-rebuttal
 
 - 不替你写出可直接投稿的稿件
 - 不模拟任何特定编辑或评审人的口味
-- 不臆断易变元数据（确切上限、APC、编辑、文章类型、政策措辞）——请以官方页面为准；未核实项标 待核实
+- 不冻结易变元数据（APC、编辑名单、special call、政策措辞）；真正投稿前必须重新核验 live 页面
 - 不替你判断你的问题是否具有真正的人类维度贡献——那是研究者的判断
 
 ---

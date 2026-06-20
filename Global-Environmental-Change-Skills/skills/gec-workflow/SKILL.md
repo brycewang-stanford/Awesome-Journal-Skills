@@ -21,13 +21,13 @@ social-science component** and a real-world / policy payoff, not just an environ
 
 | Situation | Format | Route to |
 |-----------|--------|----------|
-| Full original study, broad significance | **Research Article** (up to ~8,000 words) | normal pipeline below |
-| Distinctive viewpoint / agenda-setting argument | **Perspective** (shorter; verify cap) | `gec-conceptual-framework` + `gec-writing-style` |
-| Integrative synthesis of an emerging issue | **Review Article** (verify cap) | `gec-literature-positioning` + `gec-conceptual-framework` |
+| Full original study, broad significance | **Research Article** (up to 8,000 words) | normal pipeline below |
+| Distinctive viewpoint / agenda-setting argument | **Perspective** (up to 3,000 words) | `gec-conceptual-framework` + `gec-writing-style` |
+| Integrative synthesis needing methods/data analysis | Usually **Research Article** | `gec-literature-positioning` + `gec-conceptual-framework` |
 | Prospective design, data not yet collected | plan transparency early | `gec-research-design` + `gec-review-process` |
 
-> Caps and the exact article-type list are volatile and several Elsevier pages 403 to fetches — confirm
-> on the live Guide for Authors (see 待核实 in the source map).
+> The 8,000-word and 3,000-word caps were refreshed from the official Guide on 2026-06-20. Re-check the
+> live Guide before filing, especially for special issue instructions.
 
 ## Routing map (stage → skill)
 

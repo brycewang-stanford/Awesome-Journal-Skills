@@ -14,7 +14,7 @@ you invest.
 
 - Choosing among possible projects or framings for a GEC submission
 - A reviewer/colleague said the paper feels "too natural-science" or "no social-science contribution"
-- Deciding between a full **Research Article** and a shorter **Perspective** or **Review**
+- Deciding between a full **Research Article** and a shorter **Perspective**
 - Checking that the work speaks to multiple scales (local processes, global consequences)
 
 ## The GEC fit test
@@ -43,9 +43,10 @@ A strong GEC paper usually clears all four:
 
 ## Format choice
 
-- **Research Article** — full study, broad claim, up to ~8,000 words (verify cap).
-- **Perspective** — a distinctive, agenda-setting viewpoint; shorter (verify cap); argument-led.
-- **Review Article** — integrative synthesis of an emerging issue (verify cap and scope).
+- **Research Article** — full study, broad claim, up to **8,000 words**; review-style pieces belong here
+  only when they add new insight beyond summarizing the literature.
+- **Perspective** — a distinctive, agenda-setting viewpoint, up to **3,000 words**; argument-led and not
+  the right format for papers requiring methods/data-analysis description.
 
 ## Anti-patterns
 
@@ -61,7 +62,7 @@ A strong GEC paper usually clears all four:
 【Human / policy dimension】the social drivers, consequences, or governance processes at stake
 【Societal significance】who outside the subfield cares, and why
 【Contribution type】framework / test / measurement / reconceptualization / evidence-for-action
-【Format】Research Article / Perspective / Review
+【Format】Research Article / Perspective / other
 【Fit verdict】strong / needs reframing / off-fit (why)
 【Next】gec-literature-positioning
 ```

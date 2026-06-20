@@ -36,18 +36,17 @@ GEC's constraints differ from a disciplinary social-science journal or a natural
 | Scope                 | **Human and policy dimensions** of global environmental change                 | A biophysical result alone is off-fit                             |
 | Premium on            | A **significant social-science component** + societal/policy significance      | Lead with the human dimension, not a hazard trend                 |
 | Methods               | Quantitative, qualitative, mixed — judged on their own terms                   | Match method to question; state mixed-methods integration         |
-| Publisher             | **Elsevier** (ISSN 0959-3780 / 1872-9495)                                      | Submitted via **Editorial Manager** (`editorialmanager.com/gec`)  |
-| Review model          | **Double-blind** (verify), multiple interdisciplinary reviewers                | Anonymize the manuscript; write for reviewers across disciplines  |
-| Length                | Research Articles **up to ~8,000 words**; **abstract ≤ ~250**                  | Cut method minutiae to supplementary material                     |
-| Highlights            | **3-5 bullets, ≤ ~85 characters each**, separate file                          | Draft them as a shop window for the contribution                  |
+| Publisher             | **Elsevier** (ISSN 0959-3780 / 1872-9495)                                      | Submitted through Elsevier's online submission system             |
+| Review model          | **Double-anonymized**; typically at least two expert reviewers                 | Separate title page from an anonymized manuscript                 |
+| Length                | Research Articles **up to 8,000 words**; Perspectives **up to 3,000 words**; **abstract ≤250** | Cut method minutiae to supplementary material                     |
+| Highlights            | Required: **3-5 bullets, ≤85 characters each**, separate editable file         | Draft them as a shop window for the contribution                  |
 | Framework             | Theoretically rigorous; the framework must **do work**                         | No atheoretical, purely descriptive papers                        |
-| Transparency          | Elsevier research-data policy; **Data Availability Statement**                 | Build the archive as you go; deposit and cite data                |
+| Transparency          | Elsevier **Option C** research-data policy; **Data Availability Statement**     | Deposit/cite/link data, or explain why sharing is impossible      |
 | Significance          | Multi-scale: local processes with **global / cross-scale consequences**        | Connect your case to scales beyond the local                      |
 
-Volatile specifics (exact caps, APC, editors, article types, data-policy wording) change, and several
-Elsevier / ScienceDirect pages return **HTTP 403** to automated fetches — items not directly confirmed
-are marked **待核实** in [`resources/official-source-map.md`](resources/official-source-map.md).
-**Verify on the official journal page.**
+The official ScienceDirect pages were refreshed on **2026-06-20** in
+[`resources/official-source-map.md`](resources/official-source-map.md). Re-check live pages before
+submission-ready advice because APCs, editors, special calls, and policy wording can change.
 
 ### What GEC looks for
 
@@ -132,14 +131,14 @@ papers loop **framework ↔ design ↔ analysis** several times before writing-s
 | `gec-figures-and-tables`                   | Self-contained, accessible exhibits and the required Highlights               |
 | `gec-writing-style`                        | Rigor that reads across disciplines, within the word and abstract caps        |
 | `gec-policy-relevance-and-implications`    | Real-world implications: actors, levers, scope, equity, uncertainty           |
-| `gec-review-process`                       | Double-blind review, scope/social-science screening, decision categories      |
-| `gec-submission`                           | Editorial Manager preflight (anonymization, caps, Highlights, data statement) |
+| `gec-review-process`                       | Double-anonymized review, scope/social-science screening, decision categories |
+| `gec-submission`                           | Elsevier submission preflight (anonymization, caps, Highlights, data statement) |
 | `gec-revision-and-rebuttal`                | Response-letter strategy for interdisciplinary reviewers + editor             |
 
 ### Resources
 
 - [`resources/external_tools.md`](resources/external_tools.md) — environmental-change data sources (IPCC / ND-GAIN / FAOSTAT / WVS / Global Forest Watch) + R / Stata / Python and qualitative/CAQDAS and systems tooling
-- [`resources/official-source-map.md`](resources/official-source-map.md) — official Elsevier / ScienceDirect URLs behind every fact, with 待核实 markers on unverified items
+- [`resources/official-source-map.md`](resources/official-source-map.md) — official Elsevier / ScienceDirect URLs behind current process facts, refreshed 2026-06-20
 
 ---
 
@@ -147,7 +146,7 @@ papers loop **framework ↔ design ↔ analysis** several times before writing-s
 
 - It does not write a submittable manuscript for you
 - It does not simulate any specific editor's or reviewer's taste
-- It does not assert volatile metadata (exact caps, APC, editors, article types, policy wording) — verify on the official page; unverified items are marked 待核实
+- It does not freeze volatile metadata (APC, editors, special calls, policy wording); re-check live pages before filing
 - It does not decide whether your question has a genuine human-dimensions contribution — that is the researcher's call
 
 ---

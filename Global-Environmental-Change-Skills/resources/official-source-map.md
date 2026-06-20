@@ -1,92 +1,67 @@
 # GEC Official Source Map
 
-Primary and authoritative sources behind the *Global Environmental Change* (GEC) facts injected into
-this skill pack. Access date for all entries: **2026-06-02**. Several Elsevier / ScienceDirect pages
-return **HTTP 403** to automated fetches, so some items were verified via search renderings and
-secondary indexers rather than a direct read of the live page — those are flagged **待核实** below and
-should be re-confirmed on the official Guide for Authors. Re-verify all volatile items (exact word and
-abstract caps, APC, editors, data-policy wording, article types) before relying on them — journal
-pages change.
+Primary and authoritative sources behind the *Global Environmental Change* (GEC)
+facts injected into this skill pack. **Policy refresh date: 2026-06-20.** The
+official ScienceDirect pages were directly readable during this refresh. Re-check
+the live pages before submission-ready advice because editors, calls for papers,
+APCs, and Elsevier policy wording can change.
 
 ## Official journal, author & submission pages
 
 - **https://www.sciencedirect.com/journal/global-environmental-change**
-  — *Global Environmental Change* on ScienceDirect (publisher home, current issues). Verifies:
-  publisher = **Elsevier**; **ISSN 0959-3780** (print), **1872-9495** (online); full title
-  *Global Environmental Change: Human and Policy Dimensions*. (Direct fetch returns 403; confirmed via
-  search rendering.) 待核实 on live read.
+  — ScienceDirect journal home. Verifies: publisher = **Elsevier**; title =
+  *Global Environmental Change*; **Print ISSN 0959-3780** and **Online ISSN
+  1872-9495**; aims and scope; APC/subscription publishing options; current
+  homepage editors; current calls and article examples.
 - **https://www.sciencedirect.com/journal/global-environmental-change/publish/guide-for-authors**
-  — Guide for Authors (manuscript preparation). Verifies (via search rendering; **direct fetch 403**):
-  **Research Articles up to ~8,000 words** (including main body text and table/figure captions, **not**
-  including references; longer articles accepted occasionally if the topic demands it); **abstract
-  ≤ ~250 words**; **Highlights** required — **3-5 bullet points, each ≤ ~85 characters including
-  spaces**, submitted as a separate editable file; Elsevier reference styles (the journal template uses
-  an Elsevier numbered/`elsarticle` style — confirm the current author-date vs. numbered requirement on
-  the live page). 待核实 on exact caps and current reference style.
-- **https://www.elsevier.com/journals/global-environmental-change/0959-3780/guide-for-authors**
-  — Elsevier.com mirror of the Guide for Authors (same content as ScienceDirect). 待核实 on live read.
-- **https://www.editorialmanager.com/gec/** — **Editorial Manager** submission portal for GEC
-  (Elsevier's manuscript-handling system). Verifies: submission is handled through Editorial Manager.
-  An older EES URL (`ees.elsevier.com/gec`) appears in secondary indexers and now redirects. 待核实 on
-  the current portal URL.
+  — Guide for Authors. Verifies the article types, peer-review model,
+  double-anonymized file handling, abstract/keyword/highlight requirements,
+  research-data policy, cover-letter expectations, submission link, and
+  reference/data-reference rules.
+- **https://www.sciencedirect.com/journal/global-environmental-change/about/editorial-board**
+  — Editorial board. Verifies current editorial-board structure and the current
+  Editors-in-Chief / Managing Editor / Editors.
 
-## Aims, scope & human-dimensions emphasis
+## Checked facts
 
-- ScienceDirect journal page (above) and the **Aims & Scope** section verify the scope statement:
-  GEC publishes *"high quality, theoretically and empirically rigorous articles, which advance
-  knowledge about the **human and policy dimensions** of global environmental change."* It seeks
-  articles with **a significant social-science component** — addressing the **social drivers or
-  consequences** of environmental change, or the **social and policy processes** that seek to address
-  it. Topics include, but are not restricted to, the drivers, consequences, and management of changes
-  in **biodiversity and ecosystem services, climate, coasts, food systems, land use and land cover,
-  oceans, urban areas, and water resources**. Global environmental change is interpreted as the
-  outcome of processes **manifest in localities but with consequences at multiple spatial, temporal,
-  and socio-political scales**. (Aims-and-scope page direct fetch 403; confirmed via search rendering.)
+| Fact | Official source |
+| --- | --- |
+| Aims: human and policy dimensions of global environmental change, with a significant social-science component | ScienceDirect journal home; Guide for Authors |
+| Scope topics include biodiversity and ecosystem services, climate, coasts, food systems, land use/land cover, oceans, urban areas, and water resources | ScienceDirect journal home; Guide for Authors |
+| Research Articles: original research up to **8,000 words**, including main body text and table/figure captions, excluding references; longer articles only occasionally when the topic demands it | Guide for Authors |
+| Perspective Articles: novel / distinctive viewpoint within scope; evidence-grounded and forward-looking; **<=3,000 words**, excluding references | Guide for Authors |
+| Methods/data-analysis papers should be Research Articles, not Perspectives | Guide for Authors |
+| Peer review is **double anonymized**; editors screen suitability first; suitable submissions typically go to a **minimum of two reviewers** | Guide for Authors |
+| Formal appeal possible if it meets Elsevier appeal-policy requirements; **one appeal per submission**; appeal decision final | Guide for Authors |
+| Open-access APC: **USD 6,120** excluding taxes; subscription route has **no publication fee charged to authors** | ScienceDirect journal home |
+| Current Editors-in-Chief: **Dabo Guan**, **Petra Tschakert**, and **Abigail York** | ScienceDirect journal home; editorial board |
+| Current Managing Editor: **Kathryn Michelle Benavidez Westrich** | Editorial board |
+| Current Editors: **Ranjan Datta**, **Laurent Drouet**, **Jane Southworth**, and **Zengkai Zhang** | Editorial board |
+| Editable source files required; PDF is not an acceptable source file | Guide for Authors |
+| Title page and anonymized manuscript must be submitted as separate files; acknowledgments belong on the title page only | Guide for Authors |
+| Abstract must be concise/factual and **<=250 words** | Guide for Authors |
+| **1-7 English keywords** required for indexing | Guide for Authors |
+| Highlights required at submission: separate editable file; **3-5 bullet points**, **<=85 characters** each including spaces | Guide for Authors |
+| Generative-AI manuscript-preparation use must be declared at submission in a section before references; AI tools may not be authors | Guide for Authors |
+| Preprints allowed under Elsevier policy; optional free SSRN posting during submission after initial desk review, with no effect on editorial outcome | Guide for Authors |
+| Research-data **Option C** applies: deposit research data in a relevant repository and cite/link it, or explain why it cannot be shared | Guide for Authors |
+| Data statement is supported and appears with the article when provided; data links can be supplied during submission | Guide for Authors |
+| References can be in any internally consistent style at submission; journal reference style is applied after acceptance at proof stage | Guide for Authors |
+| Data references should be cited in the article and listed in the reference list with author, title, repository, version/year, and persistent identifier where available | Guide for Authors |
+| Cover letter should be **one page or less**, not repeat the abstract, and explain conceptual/methodological innovation plus fit with prior GEC literature | Guide for Authors |
+| Online submission uses Elsevier's submission system; the system converts article files to a single peer-review PDF | Guide for Authors |
 
-## Peer-review model
+## Operational notes for this pack
 
-- Secondary indexers (LetPub journal selector; Editage journal metrics) verify a **double-blind**
-  peer-review process with typically **at least 2, preferably 3, external reviewers**, and a review
-  timeline often quoted as roughly **12-24 weeks**. Confirm the current model and timeline on the live
-  journal page — review speed is volatile. 待核实.
-
-## Research data & transparency
-
-- **https://www.elsevier.com/about/policies-and-standards/research-data**
-  — Elsevier Research Data policy (applies to GEC as an Elsevier title). Verifies: authors are
-  encouraged/required to include a **Data Availability Statement**, may **share data in a repository**
-  and **cite the dataset**, and the journal supports the **research-data linking / "Data in Brief"**
-  ecosystem. The exact level of GEC's data mandate (encouraged vs. required) should be confirmed on the
-  journal's own Guide for Authors. 待核实 on GEC-specific wording.
-
-## Owner, publisher, editors, history
-
-- **https://en.wikipedia.org/wiki/Global_Environmental_Change** — Verifies: GEC **founded 1990**
-  (originally Butterworth-Heinemann; now **Elsevier**); flagship interdisciplinary journal on the human
-  dimensions of global environmental change; editors-in-chief listed (as of 2024) as **Dabo Guan** and
-  **Harini Nagendra**. Editor roster and impact metrics are volatile. 待核实.
-- **https://www.scimagojr.com/journalsearch.php?q=36483&tip=sid** — SCImago profile (rank, quartile,
-  SJR). For metrics only; not used for policy facts.
-
-## UNVERIFIED / 待核实 items
-
-- **Exact word and abstract caps**: Research Articles "up to ~8,000 words" and abstract "≤ ~250 words"
-  were confirmed via search renderings of the Guide for Authors, not a direct live read (ScienceDirect
-  returns 403 to automated fetches). Treat as working figures; confirm on the live page. 待核实.
-- **Full article-type list and per-type caps** (Research Articles, Review Articles ~7,000 words,
-  Perspectives ~3,000 words, and any short-communication / commentary types): the set and caps appear
-  in Elsevier article-type tables and secondary sources; confirm the current list on the live Guide for
-  Authors. 待核实.
-- **Reference style** (Elsevier numbered `elsarticle-num` vs. author-date): the journal template is
-  cited as Elsevier numbered, but author-date is common in social-science submissions; confirm the
-  current requirement. 待核实.
-- **APC / open-access fee**: an Article Publishing Charge (quoted around **USD 6,120** for the
-  gold-open-access option) appears in secondary sources; the subscription route carries no author fee.
-  Confirm the current APC and whether a no-fee subscription route exists on the official page. 待核实.
-- **Peer-review model, reviewer count, and time-to-decision**: double-blind and ~12-24 weeks come from
-  secondary indexers; confirm on the live journal page. 待核实.
-- **Current editor-in-chief roster and editorial board**: changes over time; confirm the current
-  masthead. 待核实.
-- **Data-availability mandate (encouraged vs. required) for GEC specifically**: the Elsevier
-  research-data policy applies, but the GEC-specific level should be confirmed on its Guide for Authors.
-  待核实.
+- Treat Research Article (8,000 words) and Perspective (3,000 words) as the
+  only article-type caps this pack hard-codes. Do not invent a separate Review
+  Article cap unless the live Guide states one.
+- Keep GEC advice explicitly double-anonymized: strip the manuscript body and
+  file metadata, and keep acknowledgments / author details on the title page.
+- Treat data policy as **Option C deposit/cite/link-or-explain**. For sensitive
+  human-subjects, Indigenous, interview, or restricted administrative data,
+  explain why raw data cannot be shared and deposit code, instruments, metadata,
+  or approved derived artifacts where ethically and legally possible.
+- The APC and editorial board are live metadata. Re-check the ScienceDirect
+  journal home and editorial-board page before naming current fees or editors in
+  submission-ready advice.

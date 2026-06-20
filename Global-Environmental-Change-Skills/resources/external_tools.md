@@ -68,12 +68,13 @@ GEC-specific policy in [`official-source-map.md`](official-source-map.md).
 - Coefficient/forest plots (`ggplot2`/`broom`, `coefplot`); marginal-effects plots (`marginaleffects`)
 - Conceptual-framework diagrams, systems maps, pathway/flow diagrams (drawio, `DiagrammeR`, TikZ)
 - Maps for spatial variation (`sf`, `tmap`, QGIS); colorblind-safe palettes; legible in grayscale
-- Vector output (PDF/EPS) for print; supply Highlights (3-5 bullets, ~85 chars) as a separate file
+- Vector output (PDF/EPS) for print; supply required Highlights (3-5 bullets, <=85 chars) as a separate
+  editable file
 
 ## 5. Writing & references
-- Reference managers: Zotero, Mendeley, BibTeX/BibLaTeX — format to the journal's current Elsevier
-  style (numbered `elsarticle` vs. author-date — confirm on the Guide for Authors; see 待核实)
-- Typesetting: LaTeX (Elsevier `elsarticle` class, Overleaf) or Word; keep the abstract ≤ ~250 words
+- Reference managers: Zotero, Mendeley, BibTeX/BibLaTeX — any internally consistent reference style is
+  accepted at submission; the journal style is applied after acceptance at proof.
+- Typesetting: LaTeX (Elsevier `elsarticle` class, Overleaf) or Word; keep the abstract <=250 words
 - Plain-language summaries help reach the policy and interdisciplinary audience GEC serves
 
 ## 6. Preregistration, data & transparency
@@ -86,17 +87,16 @@ GEC-specific policy in [`official-source-map.md`](official-source-map.md).
 ## 7. Process & portal
 | Item | Note |
 |------|------|
-| Submission portal | **Editorial Manager** (`editorialmanager.com/gec`) — confirm current URL |
+| Submission portal | Elsevier online submission system |
 | Owner / publisher | **Elsevier** (ISSN 0959-3780 print / 1872-9495 online) |
-| Review model | **Double-blind** — anonymize the manuscript (待核实; confirm on the live page) |
-| Article length | Research Articles **up to ~8,000 words** (excl. references); abstract **≤ ~250 words** |
-| Highlights | **3-5 bullets, ≤ ~85 characters each**, as a separate editable file |
-| Data policy | Elsevier research-data policy; **Data Availability Statement** expected (verify level) |
+| Review model | **Double-anonymized** — title page and anonymized manuscript are separate files |
+| Article length | Research Articles **up to 8,000 words**; Perspectives **up to 3,000 words**; abstract **<=250 words** |
+| Highlights | Required: **3-5 bullets, <=85 characters each**, as a separate editable file |
+| Data policy | Elsevier **Option C**; deposit/cite/link research data, or explain why sharing is restricted |
 
 ## 8. Cautions
-1. **Verify volatile specifics** (exact caps, APC, article types, reference style, data-policy wording)
-   on the official Elsevier/ScienceDirect pages — they change, and several return 403 to fetches; items
-   not directly read are marked 待核实.
+1. **Verify volatile specifics** (APC, editors, special calls, and policy wording) on the official
+   Elsevier/ScienceDirect pages before filing.
 2. **Lead with the human dimension** — GEC wants a significant social-science component, not a natural-
    science result with a policy sentence bolted on.
 3. **Make the framework and the policy implications real** — interdisciplinary rigor plus genuine

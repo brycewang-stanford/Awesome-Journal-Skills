@@ -17,7 +17,7 @@ econometrics code kit** (see below).
 | --- | --- |
 | [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | See a before→after rewrite of a paper **introduction** in GEC house style — coupling human + environmental systems, a framework that does work, two literatures, policy relevance. Illustrative fictional paper; no real policy invented. |
 | [`exemplars/library.md`](exemplars/library.md) | Benchmark against **real, web-verified GEC papers** (Elsevier; `10.1016/...gloenvcha`) organized by method × topic, with a sibling-confusion guard. Design positioning only — no fabricated findings. |
-| [`official-source-map.md`](official-source-map.md) | **GEC-specific policy & facts:** Editorial Manager submission, ~8,000-word cap, ≤~250-word abstract, Highlights, human-and-policy-dimensions scope, double-blind review, editors/history. The authoritative pack source (several items flagged 待核实). |
+| [`official-source-map.md`](official-source-map.md) | **GEC-specific policy & facts:** Elsevier submission, 8,000-word Research Article cap, 3,000-word Perspective cap, <=250-word abstract, Highlights, human-and-policy-dimensions scope, double-anonymized review, Option C data policy, editors/history. The authoritative pack source, refreshed 2026-06-20. |
 | [`external_tools.md`](external_tools.md) | External tools, data sources, and software referenced by the pack (quant, qualitative/CAQDAS, governance and environmental data). |
 
 ## Shared empirical-methods kit (venue-neutral, cross-pack) — used selectively

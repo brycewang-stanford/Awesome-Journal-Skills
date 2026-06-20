@@ -29,9 +29,9 @@ skill also covers the journal's **Highlights** requirement.
 5. **Accessible.** Colorblind-safe palettes, legible in grayscale, vector output (PDF/EPS) for print;
    no information conveyed by color alone.
 
-## Highlights (Elsevier requirement — verify on the live page)
+## Highlights (Elsevier requirement)
 
-- **3-5 bullet points**, each **≤ ~85 characters including spaces**, submitted as a **separate editable
+- **3-5 bullet points**, each **<=85 characters including spaces**, submitted as a **separate editable
   file** with "highlights" in the file name.
 - Capture the **novel results and contribution** in plain language — they are a shop window for an
   interdisciplinary, policy audience.
@@ -74,7 +74,8 @@ A coastal-adaptation paper proposes a single choropleth of "vulnerability" acros
 
 - **Self-containment bar:** a non-specialist editor should grasp the contribution from the exhibit plus caption; if they cannot, it is not yet a GEC exhibit.
 - **Accessibility bar:** colorblind-safe, grayscale-legible, vector output is the expectation, not a courtesy.
-- Verify the current Highlights specification (count and character limit) and figure-format rules on the journal's live author guidelines, as Elsevier updates them.
+- Re-check figure-format rules on the journal's live author guidelines before filing, as Elsevier
+  updates them.
 
 ## Output format
 
@@ -83,7 +84,7 @@ A coastal-adaptation paper proposes a single choropleth of "vulnerability" acros
 【Point】the one human-dimensions takeaway it must convey
 【Self-contained】readable from caption alone? [Y/N]
 【Accessible】colorblind-safe + grayscale-legible + vector? [Y/N]
-【Highlights】3-5 bullets, ≤85 chars each, drafted? [Y/N]
+【Highlights】3-5 bullets, <=85 chars each, drafted? [Y/N]
 【Next】gec-writing-style
 ```
 

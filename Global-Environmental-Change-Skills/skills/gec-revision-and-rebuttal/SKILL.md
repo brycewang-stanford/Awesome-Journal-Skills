@@ -33,7 +33,7 @@ is intact.
 5. **Protect the contribution.** Add robustness and clarification; resist changes that dilute the
    human-dimensions / policy contribution that earned the revision. Defend scope conditions rather than
    over-claiming.
-6. **Keep anonymity intact** in the revised manuscript (still double-blind), and **update the Data
+6. **Keep anonymity intact** in the revised manuscript (still double-anonymized), and **update the Data
    Availability Statement and archive** so new tables/figures remain reproducible (see `gec-submission`).
 
 ## Response-letter format
@@ -68,9 +68,9 @@ the location of the change so the editor can verify quickly.
 【Cross-disciplinary conflicts】reconciled and explained to editor? [Y/N]
 【Contribution protected】human-dimensions contribution intact? [Y/N]
 【Anonymity + data statement/archive updated】[Y/N]
-【Next】resubmit via Editorial Manager
+【Next】resubmit through Elsevier's online submission system
 ```
 
 ## Supplementary resources
 
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — review model and decision-category notes (with 待核实 markers)
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — review model, appeal, and submission notes
