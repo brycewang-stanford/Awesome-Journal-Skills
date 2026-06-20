@@ -1,0 +1,24 @@
+{
+  "name": "jel-skills",
+  "description": "Agent skill stack for survey and review articles targeted at the Journal of Economic Literature (JEL) — the American Economic Association's flagship survey-of-record journal (founded 1969), which publishes commissioned and peer-reviewed syntheses of bodies of economic research, book reviews, and maintains the JEL classification system. Unlike a primary-research journal, JEL does not publish original empirical findings; the stack therefore replaces identification-strategy and replication-package craft with survey craft: scoping a synthesis-worthy literature, the proposal/commissioning route (a ~10-page proposal emailed to the editor before a full draft), systematic literature gathering with coverage discipline, imposing an analytical organizing framework rather than an annotated bibliography, balancing comprehensiveness against selectivity and treating schools and controversies even-handedly, summary who-found-what tables and conceptual figures, the authoritative-yet-accessible JEL voice, correct JEL classification-code assignment, working with the editor and referees on scope, the AEA submission preflight, and revising a survey for coverage and balance. Bilingual en / zh-CN docs. Process facts (editor, fees, portal) are marked volatile and deferred to the official AEA pages.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jel-skills",
+  "repository": "https://github.com/brycewang-stanford/jel-skills",
+  "keywords": [
+    "journal-of-economic-literature",
+    "jel",
+    "american-economic-association",
+    "survey-article",
+    "literature-review",
+    "literature-synthesis",
+    "jel-classification-codes",
+    "review-article",
+    "commissioned-survey",
+    "academic-writing"
+  ]
+}

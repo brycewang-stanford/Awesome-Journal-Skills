@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jel-skills",
+  "version": "0.1.0",
+  "description": "An agent skill stack for writing survey and review articles for the Journal of Economic Literature (JEL), the American Economic Association's survey-of-record journal.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jel-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Economic Literature (JEL) survey-article lifecycle, from topic selection and the proposal/commissioning route through synthesis, framework-building, balance, submission, and revision.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jel-skills",
+      "repository": "https://github.com/brycewang-stanford/jel-skills",
+      "keywords": [
+        "journal-of-economic-literature",
+        "jel",
+        "survey-article",
+        "literature-synthesis",
+        "jel-classification-codes",
+        "american-economic-association",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jel-workflow",
+        "skills/jel-topic-selection",
+        "skills/jel-proposal-and-commissioning",
+        "skills/jel-literature-synthesis",
+        "skills/jel-organizing-framework",
+        "skills/jel-comprehensiveness-and-balance",
+        "skills/jel-tables-figures",
+        "skills/jel-writing-style",
+        "skills/jel-classification-system",
+        "skills/jel-editor-strategy",
+        "skills/jel-submission",
+        "skills/jel-revision"
+      ]
+    }
+  ]
+}
