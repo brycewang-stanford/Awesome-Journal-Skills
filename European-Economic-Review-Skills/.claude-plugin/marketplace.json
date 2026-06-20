@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "eer-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the European Economic Review (EER), Elsevier's general-interest European economics journal covering all fields, theory and empirical.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "eer-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the European Economic Review (EER) manuscript lifecycle, from topic selection through the mandatory replication package and R&R rebuttal.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/eer-skills",
+      "repository": "https://github.com/brycewang-stanford/eer-skills",
+      "keywords": [
+        "european-economic-review",
+        "eer",
+        "elsevier",
+        "general-interest-economics",
+        "identification",
+        "replication-policy",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/eer-workflow",
+        "skills/eer-topic-selection",
+        "skills/eer-literature-positioning",
+        "skills/eer-identification",
+        "skills/eer-theory-model",
+        "skills/eer-robustness",
+        "skills/eer-tables-figures",
+        "skills/eer-writing-style",
+        "skills/eer-replication-package",
+        "skills/eer-referee-strategy",
+        "skills/eer-submission",
+        "skills/eer-rebuttal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "eer-skills",
+  "description": "Agent skill stack for manuscripts targeted at the European Economic Review (EER) — Elsevier's long-standing (founded 1969) general-interest European economics journal, covering all fields of economics, theory and empirical, hosted on ScienceDirect (ISSN 0014-2921). The twelve role skills span EER's distinctive process: Editorial Manager submission (editorialmanager.com/eerev), single-anonymized (single-blind) external review, a non-refundable submission fee (EUR 125 regular / EUR 100 PhD; Research4Life Group A waiver), the mandatory replication policy (data, code, and computational details deposited before publication for empirical/simulation/experimental work), Elsevier economics house style (structured abstract, JEL codes, keywords, research highlights, declaration of interest, standard errors reported), and the broad-interest bar that distinguishes EER from field journals and from the EEA flagship JEEA. Covers workflow routing, topic selection, literature positioning, identification, theory/model craft, robustness, tables and figures, writing style, the replication package, referee strategy, submission preflight, and the R&R rebuttal. Bilingual en / zh-CN docs; Stata / R / Python conventions for empirical work; volatile process facts are dated and to be re-verified on the official Elsevier / ScienceDirect pages.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/eer-skills",
+  "repository": "https://github.com/brycewang-stanford/eer-skills",
+  "keywords": [
+    "european-economic-review",
+    "eer",
+    "elsevier",
+    "general-interest-economics",
+    "macroeconomics",
+    "microeconomics",
+    "identification",
+    "replication-policy",
+    "editorial-manager",
+    "single-blind-review",
+    "academic-writing",
+    "economics"
+  ]
+}
