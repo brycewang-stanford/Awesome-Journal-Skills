@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "comparative-political-studies-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Comparative Political Studies (CPS), a leading comparative-politics journal published by SAGE.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "comparative-political-studies-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Comparative Political Studies (CPS) manuscript lifecycle across comparative-politics subfields and methods, from comparative-fit framing through the CPS Dataverse replication deposit.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/comparative-political-studies-skills",
+      "repository": "https://github.com/brycewang-stanford/comparative-political-studies-skills",
+      "keywords": [
+        "comparative-political-studies",
+        "cps",
+        "comparative-politics",
+        "political-science",
+        "sage",
+        "research-transparency",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/cps-workflow",
+        "skills/cps-topic-selection",
+        "skills/cps-literature-positioning",
+        "skills/cps-theory-building",
+        "skills/cps-research-design",
+        "skills/cps-data-analysis",
+        "skills/cps-tables-figures",
+        "skills/cps-writing-style",
+        "skills/cps-transparency-and-data",
+        "skills/cps-review-process",
+        "skills/cps-submission",
+        "skills/cps-rebuttal"
+      ]
+    }
+  ]
+}

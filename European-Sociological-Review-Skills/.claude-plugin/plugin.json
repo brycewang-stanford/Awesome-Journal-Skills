@@ -1,0 +1,26 @@
+{
+  "name": "european-sociological-review-skills",
+  "description": "Agent skill stack for manuscripts targeted at the European Sociological Review (ESR) — the flagship quantitative-sociology journal of the European Consortium for Sociological Research (ECSR), published by Oxford University Press and submitted through ScholarOne Manuscripts under double-blind peer review. ESR is Europe's leading quantitative sociology venue: social stratification and mobility, education, labor markets, family and life course, migration and ethnicity, attitudes, and comparative cross-national European social structure, with rigorous quantitative methods (multilevel/SEM, panel and event-history, comparative designs, causal inference where feasible) on harmonized survey data (ESS, EU-SILC, SOEP, EVS). Articles run around 8,000 words including endnotes and references (tables and figures excluded) with a non-identifying abstract of at most 200 words; a Data Availability Statement is required for every manuscript, and (for submissions from 1 January 2025) a replication package for statistical or computational work is required upon conditional acceptance. Covers topic selection and fit, comparative literature positioning, theory building, comparative/longitudinal research design, multilevel and longitudinal data analysis, exhibits, house writing style, transparency and replication, the double-blind review process, ScholarOne submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/european-sociological-review-skills",
+  "repository": "https://github.com/brycewang-stanford/european-sociological-review-skills",
+  "keywords": [
+    "european-sociological-review",
+    "esr",
+    "ecsr",
+    "quantitative-sociology",
+    "social-stratification",
+    "comparative-sociology",
+    "multilevel-models",
+    "life-course",
+    "migration",
+    "oxford-university-press",
+    "double-blind-review",
+    "replication-package"
+  ]
+}

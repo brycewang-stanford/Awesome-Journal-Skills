@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "european-sociological-review-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the European Sociological Review (ESR), the flagship quantitative-sociology journal of the European Consortium for Sociological Research.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "european-sociological-review-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the European Sociological Review (ESR) manuscript lifecycle for comparative and longitudinal quantitative sociology.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/european-sociological-review-skills",
+      "repository": "https://github.com/brycewang-stanford/european-sociological-review-skills",
+      "keywords": [
+        "european-sociological-review",
+        "esr",
+        "quantitative-sociology",
+        "social-stratification",
+        "comparative-sociology",
+        "double-blind-review",
+        "replication-package"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/eursr-workflow",
+        "skills/eursr-topic-selection",
+        "skills/eursr-literature-positioning",
+        "skills/eursr-theory-building",
+        "skills/eursr-research-design",
+        "skills/eursr-data-analysis",
+        "skills/eursr-tables-figures",
+        "skills/eursr-writing-style",
+        "skills/eursr-transparency-and-data",
+        "skills/eursr-review-process",
+        "skills/eursr-submission",
+        "skills/eursr-rebuttal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "comparative-political-studies-skills",
+  "description": "Agent skill stack for manuscripts targeted at Comparative Political Studies (CPS) — a leading comparative-politics journal published by SAGE since 1968, submitted via SAGE Track (ScholarOne) under anonymous peer review. CPS publishes comparative work on democratization & regimes, political institutions, political behavior & participation, ethnic politics & conflict, comparative political economy, and parties & elections, across countries and over time, and is methodologically pluralist: large-N quantitative and causal-inference designs, formal theory, qualitative and comparative-historical inference, and multi-method work. Facts covered include the 11,000-word limit (references, tables, and figures excluded), the unstructured ~150-word abstract, APA-style author-date references, ORCID for the submitting author, an optional anonymized pre-analysis plan, a required data availability statement, and the CPS Dataverse (Harvard Dataverse) replication deposit that gates final acceptance for quantitative papers. Covers comparative topic selection, cross-regional literature positioning, portable-mechanism theory building, research design across cross-national panels / case-based comparison / experiments / multi-method, data analysis on comparative data, exhibits, CPS house writing, transparency and data policy, the review process, submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/comparative-political-studies-skills",
+  "repository": "https://github.com/brycewang-stanford/comparative-political-studies-skills",
+  "keywords": [
+    "comparative-political-studies",
+    "cps",
+    "comparative-politics",
+    "political-science",
+    "sage",
+    "democratization",
+    "political-economy",
+    "ethnic-politics",
+    "parties-and-elections",
+    "causal-inference",
+    "qualitative-methods",
+    "research-transparency",
+    "dataverse",
+    "academic-writing",
+    "sage-track"
+  ]
+}

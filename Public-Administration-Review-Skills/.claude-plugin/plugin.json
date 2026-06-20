@@ -1,0 +1,26 @@
+{
+  "name": "public-administration-review-skills",
+  "description": "Agent skill stack for manuscripts targeted at Public Administration Review (PAR) — the flagship journal of the American Society for Public Administration (ASPA), published by Wiley, under double-blind peer review with no stated submission fee. PAR is the field's premier practice-bridging venue spanning bureaucracy and governance, public-sector performance and management, public personnel/HR, public finance and budgeting, collaborative governance, public service motivation, and policy implementation. Its signature requirement is Evidence for Practice (3-5 practitioner takeaway points, encouraged at submission and required at revision). Facts covered include the 8,000-word limit (including abstract, endnotes, and references; tables/figures/appendices excluded), the 150-word abstract cap, APA author-date formatting, the five article types (Scholarly Takes, Conceptualizing Public Administration, Early Career Intel, Practically Speaking, Public Administration in Print), and PAR's status as a Center for Open Science TOP-guidelines signatory with data sharing via Dataverse (quantitative) and the Qualitative Data Repository (qualitative). Covers PA topic selection, cross-subfield literature positioning, theory and mechanism building, research design across public-management causal inference / bureaucrat and citizen experiments / case comparison / mixed methods, data analysis norms, exhibits, APA-style writing, transparency and data policy, the review process, submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/public-administration-review-skills",
+  "repository": "https://github.com/brycewang-stanford/public-administration-review-skills",
+  "keywords": [
+    "public-administration-review",
+    "par",
+    "public-administration",
+    "public-management",
+    "aspa",
+    "wiley",
+    "evidence-for-practice",
+    "public-service-motivation",
+    "performance-management",
+    "collaborative-governance",
+    "research-transparency",
+    "academic-writing"
+  ]
+}

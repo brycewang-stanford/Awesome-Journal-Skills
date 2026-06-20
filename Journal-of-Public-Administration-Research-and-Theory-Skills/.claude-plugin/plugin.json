@@ -1,0 +1,29 @@
+{
+  "name": "jpart-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of Public Administration Research and Theory (JPART) — the theory-and-research flagship of public administration, published by Oxford University Press on behalf of the Public Management Research Association (PMRA), submitted via Editorial Express under double-blind peer review. JPART rewards a contribution to public-management theory (bureaucratic behavior, public service motivation, red tape, representative bureaucracy, performance management, collaborative and network governance, behavioral public administration) carried by rigorous, increasingly experimental and causal empirics. Facts covered include the ~12,000-word limit that includes the abstract, tables, and references, the theory-first abstract template, the 3–5 keyword convention (theory / research theme / method), OUP author-date style with DOIs, double-blind anonymization (cover-sheet identifiers, third-person self-citation), blinded preregistration reports, and the mandatory public release of data and software code as a condition of publication with a Data Availability Statement. Covers topic selection and venue fit vs. PAR / JPAM / Governance, literature positioning, public-management theory building, research design across experiments / causal observational / multilevel / mixed methods, analysis norms (common-method bias, selection), exhibits, OUP-style writing, transparency and data policy, the review process, submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jpart-skills",
+  "repository": "https://github.com/brycewang-stanford/jpart-skills",
+  "keywords": [
+    "journal-of-public-administration-research-and-theory",
+    "jpart",
+    "public-administration",
+    "public-management",
+    "pmra",
+    "public-service-motivation",
+    "red-tape",
+    "representative-bureaucracy",
+    "performance-management",
+    "behavioral-public-administration",
+    "causal-inference",
+    "survey-experiments",
+    "research-transparency",
+    "academic-writing",
+    "oxford-university-press"
+  ]
+}

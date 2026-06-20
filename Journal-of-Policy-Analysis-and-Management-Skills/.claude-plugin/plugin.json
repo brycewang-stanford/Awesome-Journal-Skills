@@ -1,0 +1,28 @@
+{
+  "name": "jpam-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of Policy Analysis and Management (JPAM) — the flagship cross-disciplinary public-policy-analysis journal of the Association for Public Policy Analysis and Management (APPAM), published by Wiley. JPAM bridges economics, political science, and public management to publish rigorous causal evaluation of policies and programs across the policy fields (education, health, labor and welfare, housing, crime and justice, environment, immigration, and social policy), with an editorial premium on credible identification and on translating evidence into clear, non-overclaimed policy implications. The pack encodes JPAM-specific facts: the six article types (Feature Research Articles, the distinctive non-peer-reviewed Point/Counterpoint forum, Methods for Policy Analysis, Policy Insights, Policy Retrospectives, Book Reviews), double-blind review with a separate anonymized title page, ScholarOne submission, the APPAM submission fee (waived for members), the data-and-code archiving requirement for replication, ORCID, and the Raymond Vernon Memorial Prize. Twelve skills cover policy-relevant topic selection, cross-disciplinary literature positioning, policy mechanism and theory of change, credible identification design (RCT, DiD/event-study, RD, IV, synthetic control), program-evaluation estimation plus cost-benefit and distributional analysis, exhibits, plain-implication writing, transparency and replication materials, the review process, submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jpam-skills",
+  "repository": "https://github.com/brycewang-stanford/jpam-skills",
+  "keywords": [
+    "journal-of-policy-analysis-and-management",
+    "jpam",
+    "appam",
+    "public-policy",
+    "policy-analysis",
+    "program-evaluation",
+    "causal-inference",
+    "cost-benefit-analysis",
+    "difference-in-differences",
+    "regression-discontinuity",
+    "research-transparency",
+    "academic-writing",
+    "wiley",
+    "scholarone"
+  ]
+}

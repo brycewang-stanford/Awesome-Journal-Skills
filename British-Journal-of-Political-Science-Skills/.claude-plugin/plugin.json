@@ -1,0 +1,28 @@
+{
+  "name": "british-journal-of-political-science-skills",
+  "description": "Agent skill stack for manuscripts targeted at the British Journal of Political Science (BJPS / BJPolS) — a leading general political-science journal published by Cambridge University Press, submitted under double-blind peer review across three formats: Research Articles (~10,000 words), Letters (short articles, ~4,000 words), and Comments. BJPS is broad and internationally oriented, covering all subfields — comparative politics, international relations, political theory, political behaviour and public opinion, political economy, and political methodology — and welcomes scholars from related disciplines (sociology, social psychology, economics, philosophy). Facts covered include the 150-word abstract cap, Cambridge/Harvard author-date house style, anonymized double-blind preparation, the DA-RT transparency commitment, and the replication-data deposit to the BJPolS Dataverse on Harvard Dataverse at acceptance. Covers topic selection and format choice, cross-subfield literature positioning, theory and argument building (formal, empirical, and interpretive), research design across causal inference / qualitative case work / experiments / formal-empirical linkage, data-analysis norms, exhibits, house-style writing, transparency and replication, the review process, submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/british-journal-of-political-science-skills",
+  "repository": "https://github.com/brycewang-stanford/british-journal-of-political-science-skills",
+  "keywords": [
+    "british-journal-of-political-science",
+    "bjps",
+    "bjpols",
+    "political-science",
+    "comparative-politics",
+    "international-relations",
+    "political-behaviour",
+    "political-economy",
+    "political-methodology",
+    "causal-inference",
+    "research-transparency",
+    "dataverse",
+    "academic-writing",
+    "cambridge-university-press"
+  ]
+}

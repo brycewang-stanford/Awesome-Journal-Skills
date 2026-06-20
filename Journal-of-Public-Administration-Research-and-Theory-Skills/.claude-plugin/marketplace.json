@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jpart-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Public Administration Research and Theory (JPART), the theory-and-research flagship of public administration published by OUP for the Public Management Research Association.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jpart-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Public Administration Research and Theory (JPART) manuscript lifecycle — public-management theory building, experimental and causal research design, and the journal's double-blind, public-data-and-code submission process.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jpart-skills",
+      "repository": "https://github.com/brycewang-stanford/jpart-skills",
+      "keywords": [
+        "journal-of-public-administration-research-and-theory",
+        "jpart",
+        "public-administration",
+        "public-management",
+        "public-service-motivation",
+        "research-transparency",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jpart-workflow",
+        "skills/jpart-topic-selection",
+        "skills/jpart-literature-positioning",
+        "skills/jpart-theory-building",
+        "skills/jpart-research-design",
+        "skills/jpart-data-analysis",
+        "skills/jpart-tables-figures",
+        "skills/jpart-writing-style",
+        "skills/jpart-transparency-and-data",
+        "skills/jpart-review-process",
+        "skills/jpart-submission",
+        "skills/jpart-rebuttal"
+      ]
+    }
+  ]
+}

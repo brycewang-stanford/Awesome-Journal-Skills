@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "public-administration-review-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Public Administration Review (PAR), the practice-bridging flagship journal of the American Society for Public Administration.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "public-administration-review-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Public Administration Review (PAR) manuscript lifecycle across public-administration subfields, the journal's five article types, and its research-and-practice Evidence for Practice requirement.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/public-administration-review-skills",
+      "repository": "https://github.com/brycewang-stanford/public-administration-review-skills",
+      "keywords": [
+        "public-administration-review",
+        "par",
+        "public-administration",
+        "public-management",
+        "evidence-for-practice",
+        "research-transparency",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/pubar-workflow",
+        "skills/pubar-topic-selection",
+        "skills/pubar-literature-positioning",
+        "skills/pubar-theory-building",
+        "skills/pubar-research-design",
+        "skills/pubar-data-analysis",
+        "skills/pubar-tables-figures",
+        "skills/pubar-writing-style",
+        "skills/pubar-transparency-and-data",
+        "skills/pubar-review-process",
+        "skills/pubar-submission",
+        "skills/pubar-rebuttal"
+      ]
+    }
+  ]
+}

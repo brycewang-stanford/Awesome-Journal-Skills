@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jpam-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Policy Analysis and Management (JPAM), the cross-disciplinary public-policy-analysis flagship of APPAM.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jpam-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Policy Analysis and Management (JPAM) manuscript lifecycle — credible policy evaluation, cost-benefit and distributional analysis, and clear policy implications across the policy fields.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jpam-skills",
+      "repository": "https://github.com/brycewang-stanford/jpam-skills",
+      "keywords": [
+        "journal-of-policy-analysis-and-management",
+        "jpam",
+        "appam",
+        "public-policy",
+        "program-evaluation",
+        "causal-inference",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jpam-workflow",
+        "skills/jpam-topic-selection",
+        "skills/jpam-literature-positioning",
+        "skills/jpam-theory-building",
+        "skills/jpam-research-design",
+        "skills/jpam-data-analysis",
+        "skills/jpam-tables-figures",
+        "skills/jpam-writing-style",
+        "skills/jpam-transparency-and-data",
+        "skills/jpam-review-process",
+        "skills/jpam-submission",
+        "skills/jpam-rebuttal"
+      ]
+    }
+  ]
+}

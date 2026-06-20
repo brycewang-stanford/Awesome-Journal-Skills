@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "british-journal-of-political-science-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the British Journal of Political Science (BJPS), the broad, internationally-oriented general political-science journal published by Cambridge University Press.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "british-journal-of-political-science-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the British Journal of Political Science (BJPS) manuscript lifecycle across all political-science subfields and the journal's Research Article, Letter, and Comment formats.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/british-journal-of-political-science-skills",
+      "repository": "https://github.com/brycewang-stanford/british-journal-of-political-science-skills",
+      "keywords": [
+        "british-journal-of-political-science",
+        "bjps",
+        "political-science",
+        "comparative-politics",
+        "research-transparency",
+        "causal-inference",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/bjps-workflow",
+        "skills/bjps-topic-selection",
+        "skills/bjps-literature-positioning",
+        "skills/bjps-theory-building",
+        "skills/bjps-research-design",
+        "skills/bjps-data-analysis",
+        "skills/bjps-tables-figures",
+        "skills/bjps-writing-style",
+        "skills/bjps-transparency-and-data",
+        "skills/bjps-review-process",
+        "skills/bjps-submission",
+        "skills/bjps-rebuttal"
+      ]
+    }
+  ]
+}
