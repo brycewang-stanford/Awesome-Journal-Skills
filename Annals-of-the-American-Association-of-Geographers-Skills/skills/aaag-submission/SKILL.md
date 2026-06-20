@@ -1,0 +1,79 @@
+---
+name: aaag-submission
+description: Use when running the final pre-submission preflight for the Annals of the American Association of Geographers via ScholarOne Manuscripts — area/article-type selection, double-anonymous preparation, the 11,000-word inclusive cap, Chicago style, keywords, ORCID, and declarations. Final checks; it does not draft content.
+---
+
+# Submission Preflight (aaag-submission)
+
+The last check before pressing submit on **ScholarOne Manuscripts**. The Annals is **double-anonymous**
+and caps almost everything against the word limit, so the two most common avoidable failures are an
+under-anonymized manuscript and an over-length one. Verify volatile specifics on the official pages
+before relying on them (检索于 2026-06；以官网为准).
+
+## When to trigger
+
+- "Submitting tomorrow" — last pass before upload
+- Unsure which files/metadata ScholarOne expects, or which area/type to pick
+- Confirming the chosen type's cap is met and the manuscript is properly anonymized
+
+## Process facts (verify volatile items on the official page)
+
+- **Owner / publisher:** American Association of Geographers (AAG) / **Taylor & Francis (Routledge)**.
+- **Portal:** **ScholarOne Manuscripts** (via the Taylor & Francis journal page).
+- **Review model:** **double-anonymous** — anonymize the manuscript; provide a separate title page.
+- **Area:** declare one — Methods / Human / Nature-Society / Physical / General — it routes the editor.
+- **Article types & caps:** **Article ≤ 11,000 words** (incl. abstract, references, notes, tables,
+  figure captions); **Forum** intro 2,500 + papers 5,000 each, ≤ 25,000 total; **Commentary** < 2,000
+  incl. references. (检索于 2026-06；以官网为准)
+- **Style:** **Chicago Manual of Style, author-date**; abstract + **3-5 italicized, alphabetized keywords**.
+- **ORCID:** provide for authors (Taylor & Francis standard; verify requirement).
+- **Fee:** no submission fee stated for standard articles; any open-access APC handled by Taylor &
+  Francis after acceptance (待核实).
+
+## Preflight checklist
+
+### Area, type & length
+- [ ] Area declared (Methods / Human / Nature-Society / Physical / General)
+- [ ] Article type chosen and its cap met (Article ≤ 11,000 / Forum ≤ 25,000 / Commentary < 2,000)
+- [ ] Total word count **includes** abstract, references, notes, tables, and figure captions
+- [ ] Abstract present + **3-5 keywords**, italicized and alphabetized at the abstract's end
+
+### Anonymity (double-anonymous)
+- [ ] No author names, affiliations, or acknowledgments in the manuscript
+- [ ] No obvious self-references; self-citations neutralized
+- [ ] Identifying **file metadata stripped**; study-site detail not de-anonymizing
+- [ ] Separate (non-anonymous) title page prepared as a distinct file
+
+### Format, exhibits & metadata
+- [ ] Chicago author-date formatting; consistent reference list
+- [ ] Maps/figures meet **Graphics Guidelines** (projection, legend, resolution) — see `aaag-tables-figures`
+- [ ] ORCID ready; cover letter notes the area and contribution
+
+### Compliance & data
+- [ ] Ethics / IRB / consent and **geoprivacy** handled (see `aaag-transparency-and-data`)
+- [ ] Data-availability statement drafted; provenance + CRS documented
+- [ ] Original work; preprint status checked against Taylor & Francis policy; AI-use policy reviewed
+
+## Anti-patterns
+
+- Counting only the body and overrunning once captions/notes/tables/refs are added
+- Leaving author identifiers in text, acknowledgments, study-site detail, or file metadata
+- Submitting to the wrong area (lands with the wrong editor/reviewers)
+- Non-Chicago citations; missing or non-italicized keywords
+- Maps that fail the Graphics Guidelines (projection/legend/resolution)
+
+## Output format
+
+```
+【Area / type】Methods/Human/Nature-Society/Physical/General · Article/Forum/Commentary (cap met? Y/N)
+【Word count】total incl. abstract/refs/notes/tables/captions vs. cap
+【Anonymized】text + self-refs + metadata + study-site detail clean? [Y/N]
+【Style】Chicago author-date + 3-5 italicized keywords? [Y/N]
+【Data/ethics】geoprivacy + IRB + data-availability statement? [Y/N]
+【Next】await decision → aaag-rebuttal on revision
+```
+
+## Supplementary resources
+
+- [`./templates/checklist.md`](./templates/checklist.md) — copy-paste preflight checklist
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official Annals/AAG/Taylor & Francis URLs behind every fact

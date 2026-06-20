@@ -1,0 +1,26 @@
+{
+  "name": "annals-aag-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Annals of the American Association of Geographers (Annals of the AAG) — the flagship geography journal published by Taylor & Francis (Routledge) for the American Association of Geographers (AAG), founded in 1911 and submitted via ScholarOne Manuscripts under double-anonymous peer review. The Annals is organized around four areas plus a cross-disciplinary/general track — Geographic Methods (GIScience, spatial analysis, modeling); Human Geography (including qualitative work); Nature and Society; and Physical Geography, Earth, and Environmental Sciences — and is highly interdisciplinary, judging quantitative/spatial analysis, GIScience, remote sensing and physical methods, qualitative human geography, and nature-society mixed methods each on its own terms. Facts covered include the 11,000-word manuscript cap (inclusive of abstract, references, notes, tables, and figure captions), the Forum and Commentary formats, the Chicago Manual of Style author-date house style, 3-5 italicized keywords, ORCID, and spatial-data provenance/geoprivacy transparency. Covers area-aware topic selection, geographic literature positioning, theory building on geographic theory, research design spanning the four areas, data analysis, cartographic and figure exhibits, Annals writing style, transparency and spatial-data ethics, the review process, submission preflight, and revision rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/annals-aag-skills",
+  "repository": "https://github.com/brycewang-stanford/annals-aag-skills",
+  "keywords": [
+    "annals-of-the-aag",
+    "american-association-of-geographers",
+    "geography",
+    "human-geography",
+    "physical-geography",
+    "giscience",
+    "spatial-analysis",
+    "nature-society",
+    "remote-sensing",
+    "geoprivacy",
+    "taylor-francis",
+    "academic-writing"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "american-anthropologist-skills",
+  "description": "Agent skill stack for manuscripts targeted at American Anthropologist (AA) — the flagship four-field journal of the American Anthropological Association (AAA), published by Wiley, submitted through the Research Exchange platform under anonymous peer review with no submission or publication fee. AA spans sociocultural anthropology, archaeology, biological/physical anthropology, and linguistic anthropology, plus reflexive and public anthropology, and it is predominantly ethnographic and qualitative while also publishing material/archaeological and quantitative biological work. The stack treats ethnographic and qualitative inference as first-class (fieldwork design, participant observation, interviews, archival and material analysis) alongside appropriate lab/quantitative methods, foregrounds reflexivity and positionality, and centers research ethics and accountability — informed consent, anonymization, protection of vulnerable communities, and heritage/repatriation obligations under the AAA Principles of Professional Responsibility and an ethics of care. Facts covered include the 8,000-word Research Article cap (extendable to ~10,500 on acceptance), the 200-word abstract, Chicago author-date with free-format submission and DOIs, the journal's sections (Research Articles, Vital Topics Forums, World/Public/Multimodal Anthropologies, Essays, Commentaries, Review Essays, Book Reviews), alt-text and image-permission requirements, and anonymous review. Covers topic selection and four-field fit, cross-subfield and decolonial literature positioning, conceptual theory building, research design across ethnographic/archival/material/biological modes, analysis and interpretation norms, ethnographic and multimodal exhibits, AA-style writing, ethics and data policy, the review process, submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/american-anthropologist-skills",
+  "repository": "https://github.com/brycewang-stanford/american-anthropologist-skills",
+  "keywords": [
+    "american-anthropologist",
+    "anthropology",
+    "aaa",
+    "four-field-anthropology",
+    "ethnography",
+    "sociocultural-anthropology",
+    "archaeology",
+    "biological-anthropology",
+    "linguistic-anthropology",
+    "qualitative-methods",
+    "research-ethics",
+    "reflexivity",
+    "repatriation",
+    "academic-writing",
+    "wiley"
+  ]
+}

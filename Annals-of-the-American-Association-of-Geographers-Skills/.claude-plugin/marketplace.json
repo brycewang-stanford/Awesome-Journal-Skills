@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "annals-aag-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Annals of the American Association of Geographers (Annals of the AAG), the four-area flagship geography journal of the AAG.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "annals-aag-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Annals of the American Association of Geographers (Annals of the AAG) manuscript lifecycle across the journal's four areas and cross-disciplinary track.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/annals-aag-skills",
+      "repository": "https://github.com/brycewang-stanford/annals-aag-skills",
+      "keywords": [
+        "annals-of-the-aag",
+        "american-association-of-geographers",
+        "geography",
+        "giscience",
+        "human-geography",
+        "physical-geography",
+        "nature-society"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/aaag-workflow",
+        "skills/aaag-topic-selection",
+        "skills/aaag-literature-positioning",
+        "skills/aaag-theory-building",
+        "skills/aaag-research-design",
+        "skills/aaag-data-analysis",
+        "skills/aaag-tables-figures",
+        "skills/aaag-writing-style",
+        "skills/aaag-transparency-and-data",
+        "skills/aaag-review-process",
+        "skills/aaag-submission",
+        "skills/aaag-rebuttal"
+      ]
+    }
+  ]
+}

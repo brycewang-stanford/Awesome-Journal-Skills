@@ -1,0 +1,66 @@
+---
+name: amanthro-tables-figures
+description: Use when building exhibits for an American Anthropologist (AA) manuscript — photographs, maps, site plans, artifact images, kinship diagrams, transcripts, evidence tables, and multimodal media — so they are self-contained, accessible (alt text), ethically cleared (consent, permissions), and count toward the word budget. Designs exhibits; it does not run analysis or clear permissions for you.
+---
+
+# Tables, Figures & Multimodal Exhibits (amanthro-tables-figures)
+
+At AA, exhibits do more than display numbers — a photograph, a map, a site plan, a kinship chart, or a
+film clip can *carry* the argument, and the **Multimodal Anthropologies** section treats media as
+scholarship in its own right. Exhibits also **cost words** (the Research-Article count includes figures,
+tables, references, and notes), and they carry **ethical and rights obligations** that other fields'
+charts do not.
+
+## When to trigger
+
+- Designing the key photograph, map, site plan, artifact image, kinship/network diagram, or table
+- Preparing a transcript or evidence table linking claims to sources
+- Building a **Multimodal Anthropologies** piece where image/sound/film is the argument
+- A reviewer found an exhibit unclear, unlabeled, or ethically/rights-problematic
+
+## Principles
+
+1. **Self-contained.** A reader understands each exhibit from its caption, labels, and note alone —
+   state place, date, what is shown, sample/N (for quantitative exhibits), and the source.
+2. **The exhibit should argue.** A photograph or map that merely decorates wastes scarce words; choose
+   exhibits that advance the interpretation (a contrast, a spatial pattern, a relational structure).
+3. **Consent & dignity.** People depicted have consented to that use; faces/identifiers are handled per
+   the consent given (blur or anonymize where required). Do not publish images that expose or endanger
+   interlocutors (see `amanthro-transparency-and-data`).
+4. **Permissions & rights.** Secure permissions for archival images, museum objects, and others' media;
+   credit lines and licenses are correct. Heritage/community rights over images of cultural property and
+   ancestral remains are respected — some images should not be reproduced at all.
+5. **Accessible.** Provide **alt text** for figures; colorblind-safe and grayscale-legible where color
+   carries meaning; legible transcripts with transcription conventions stated.
+6. **Reproducible (quant exhibits).** Numbers in tables/plots match the underlying analysis exactly.
+
+## Discipline-specific exhibits
+- **Archaeology:** site maps, stratigraphic sections, artifact plates, distribution maps, chronologies.
+- **Biological:** measurement plots with uncertainty, morphological figures, sampling maps.
+- **Linguistic:** interlinear glossed transcripts (with conventions), discourse excerpts.
+- **Sociocultural:** field photographs (with consent), kinship/network diagrams, evidence tables.
+
+## Anti-patterns
+
+- A photograph or map that decorates rather than argues (and still costs words)
+- Images of identifiable people without consent for that use; exposing vulnerable interlocutors
+- Reproducing sacred/heritage objects or ancestral remains against community wishes
+- Missing permissions/credit for archival or museum images
+- No alt text; color-only encoding that fails in grayscale; unlabeled transcript conventions
+- Quantitative exhibit values that don't match the analysis
+
+## Output format
+
+```
+【Main exhibit】what it shows + why it argues (not decorates)
+【Self-contained?】caption + labels + source + date/place present? [Y/N]
+【Consent & rights】people consented / permissions secured / heritage respected? [Y/N]
+【Accessible?】alt text + grayscale-legible + transcript conventions? [Y/N]
+【Word-budget impact】noted (figures/tables count)
+【Next】amanthro-writing-style
+```
+
+## Supplementary resources
+
+- [`../../resources/external_tools.md`](../../resources/external_tools.md) — mapping/GIS, image, transcription, and plotting tools
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — alt-text, permissions, and figure requirements

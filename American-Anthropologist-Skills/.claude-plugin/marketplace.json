@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "american-anthropologist-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at American Anthropologist (AA), the flagship four-field journal of the American Anthropological Association.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "american-anthropologist-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the American Anthropologist (AA) manuscript lifecycle across the four subfields, with ethnographic/qualitative inference as first-class and research ethics, consent, and accountability at the center.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/american-anthropologist-skills",
+      "repository": "https://github.com/brycewang-stanford/american-anthropologist-skills",
+      "keywords": [
+        "american-anthropologist",
+        "anthropology",
+        "aaa",
+        "ethnography",
+        "four-field-anthropology",
+        "research-ethics",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/amanthro-workflow",
+        "skills/amanthro-topic-selection",
+        "skills/amanthro-literature-positioning",
+        "skills/amanthro-theory-building",
+        "skills/amanthro-research-design",
+        "skills/amanthro-data-analysis",
+        "skills/amanthro-tables-figures",
+        "skills/amanthro-writing-style",
+        "skills/amanthro-transparency-and-data",
+        "skills/amanthro-review-process",
+        "skills/amanthro-submission",
+        "skills/amanthro-rebuttal"
+      ]
+    }
+  ]
+}
