@@ -73,7 +73,7 @@ current access terms before use, and verify any GCB-specific policy in
 - Driver-response curves, dose-response, partial-effect/marginal plots; maps for spatial pattern (`tmap`,
   `ggplot2` + `sf`); flux/time-series with uncertainty ribbons; forest plots for meta-analysis
 - Colour-blind-safe palettes (`viridis`, Okabe-Ito), legible in grayscale; vector output for line art;
-  300 dpi colour / 600 dpi line art (待核实 on current spec)
+  live-check the current resolution and file-format specifications before upload
 
 ## 5. Data, code & references
 - Archive **data** in a DOI-minting public repository: **Dryad**, **Zenodo**, **PANGAEA** (Earth/
@@ -88,15 +88,15 @@ current access terms before use, and verify any GCB-specific policy in
 |------|------|
 | Submission portal | **ScholarOne / Manuscript Central** (`mc.manuscriptcentral.com/gcb`) — confirm current URL |
 | Publisher | **Wiley** |
-| Review model | Expert peer review, typically **2–3 reviewers**; generally single-anonymous (待核实) |
-| Article types | Primary Research Articles · Technical Advances · Reviews / Research Reviews · Opinions / Perspectives (待核实 on full list) |
-| Length | Research articles up to **~15,000 words incl. references** (a ~8,000-word framing also appears — 待核实); abstract **~300 words**; 6–10 keywords |
+| Review model | Editor-mediated expert review; live-check current anonymity / transparent-review options |
+| Article types | Research Articles · Technical Advances · Reviews · GCB Reviews · Mini Reviews · Opinions · Perspectives |
+| Length | Research Articles currently route to **up to 8,000 words**; abstract **300 words**; 6–10 keywords or phrases |
 | Graphical abstract | **Required** — driver-to-response mechanism |
 | Data / code policy | Archive data + code in a public repo with a **DOI** as a condition of publication |
 
 ## 7. Cautions
 1. **Verify volatile specifics** (word/abstract caps, article types, fee/APC, data-policy wording, review
-   model) on the official Wiley page — they change; unverified items are marked 待核实.
+   model) on the official Wiley page immediately before submission.
 2. **Lead with mechanism and global-change significance** — GCB wants the causal link between a driver and
    a biological response, not a local description or a conservation action plan.
 3. **Match scale and inference** — manipulative, observational/gradient, and modelling designs each have

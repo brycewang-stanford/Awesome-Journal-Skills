@@ -8,7 +8,7 @@ description: Use when building figures, tables, and the mandatory graphical abst
 In GCB, exhibits carry the **mechanism**. The strongest papers show a clear **driver → biological
 response** relationship in the main figures, with uncertainty visible. GCB also **requires a graphical
 abstract** that depicts the mechanistic link (not a site map or phylogeny). Verify current figure specs
-on the live guidelines page (see 待核实 in the source map).
+on the live guidelines page before submission.
 
 ## When to trigger
 
@@ -28,7 +28,7 @@ on the live guidelines page (see 待核实 in the source map).
 4. **Self-contained exhibits.** Each figure/table readable from its caption alone (units, n, sample,
    statistic, scale).
 5. **Accessibility.** Colour-blind-safe palettes (`viridis`, Okabe-Ito), legible in grayscale; vector
-   line art; adequate resolution (one rendering: 300 dpi colour / 600 dpi line art — 待核实).
+   line art; live-check the current resolution and file-format specifications.
 
 ## Tables
 - Report effect sizes with intervals and units; define every symbol and abbreviation in the caption.

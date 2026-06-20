@@ -10,7 +10,7 @@ verified exemplars, and confirm journal policy. Pair these with the relevant `sk
 | --- | --- |
 | [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | See a before→after rewrite of a paper **abstract + introduction** in GCB house style (global-change driver → biological response → mechanism, quantified, significance early). Illustrative **fictional** paper, derived only from this pack's skills. |
 | [`exemplars/library.md`](exemplars/library.md) | Benchmark against **real, web-verified GCB papers** (Wiley; DOI `10.1111/gcb...`) organized by method × topic. Design positioning only — no fabricated numbers; includes a sibling-confusion guard and documented omissions. |
-| [`official-source-map.md`](official-source-map.md) | **GCB-specific policy & facts:** ScholarOne submission, Wiley data/code-DOI archiving policy, aims-and-scope (molecular-to-biome, aquatic/terrestrial), article types, and volatile caps flagged 待核实. The authoritative pack source. |
+| [`official-source-map.md`](official-source-map.md) | **GCB-specific policy & facts:** ScholarOne submission, Wiley data/code-DOI archiving policy, aims-and-scope (molecular-to-biome, aquatic/terrestrial), article types, and live-check notes for volatile caps. The authoritative pack source. |
 | [`external_tools.md`](external_tools.md) | Global-change **data sources** (climate, flux, biodiversity, traits), R/Python and process-model toolchains, design/synthesis/uncertainty practice, and repositories. |
 
 ## Discipline note: no econometric code kit vendored

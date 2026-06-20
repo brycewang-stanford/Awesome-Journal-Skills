@@ -31,15 +31,16 @@ claims.
 5. **Signpost.** Clear IMRaD-style structure so a reader can navigate framing → model → evaluation →
    trade-offs → implications.
 
-## Format & front matter (verify current requirements)
+## Format & front matter (source map refreshed 2026-06-20)
 
 - **Abstract**: **≤ 250 words**, stating purpose, principal results, and major conclusions.
-- **Highlights**: a few short bullet points capturing the core systems findings.
-- **Graphical abstract**: one figure summarizing the work for an interdisciplinary audience — often a
-  conceptual system diagram or a trade-off result.
+- **Highlights**: 3-5 short bullet points, each no more than 85 characters including spaces.
+- **Graphical abstract**: a separate figure file summarizing the work for an interdisciplinary audience
+  — often a conceptual system diagram or a trade-off result; live-check current size/format specs.
 - **References**: format to the journal's style; manage with Zotero/Mendeley/BibTeX (Elsevier
   `elsarticle` for LaTeX). 
-- **Declarations**: CRediT roles, declaration of competing interest, ORCID (see `agsy-submission`).
+- **Declarations**: CRediT roles, declaration of competing interest, funding, and AI-use disclosure
+  where applicable (see `agsy-submission`).
 
 ## Length discipline (research paper ~8,000 words; no hard cap)
 
@@ -95,7 +96,7 @@ quantified trade-off (illustrative), and decision in one sentence.
 【Abstract】word count (≤250)
 【Highlights + graphical abstract】prepared? [Y/N]
 【Length】near ~8,000 words; extras moved to supplementary? [Y/N]
-【References + declarations】styled + CRediT/COI/ORCID ready? [Y/N]
+【References + declarations】styled + CRediT/COI/funding/AI disclosure ready? [Y/N]
 【Next】agsy-impact-and-implications
 ```
 

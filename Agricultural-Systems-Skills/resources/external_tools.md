@@ -58,8 +58,8 @@ licenses and current access terms before use, and verify any AgSy-specific polic
 | Long-term experiments & farm networks | Various | Calibration/validation data for systems models |
 
 ## 4. Reproducibility for data *and* models (AgSy applies Elsevier's research-data policy)
-- Deposit data **and code/models** in a repository (Mendeley Data, Zenodo, OSF, or a domain repository),
-  cite and link it in the article; if data cannot be shared, **state why** (see
+- Deposit research data **and code/models** in a repository (Mendeley Data, Zenodo, OSF, or a domain repository),
+  cite and link the dataset in the article; if data cannot be shared, **state why** (see
   `agsy-reproducibility-and-data-policy`).
 - Document **model version, parameter sets, calibration data, and run scripts**; pin software versions
   (`renv.lock` / `requirements.txt` / environment files); set and report **seeds** for stochastic runs.
@@ -75,22 +75,24 @@ licenses and current access terms before use, and verify any AgSy-specific polic
 ## 6. Writing & references
 - Reference managers: Zotero, Mendeley, BibTeX/BibLaTeX — format to the journal's reference style
 - Typesetting: LaTeX (Elsevier `elsarticle`) or Word; prepare **Highlights**, a **graphical abstract**,
-  a **CRediT** statement, a **declaration of competing interest**, and an **ORCID** for authors
+  a **CRediT** statement, a **declaration of competing interest**, funding disclosure, and any required
+  AI-use disclosure
 
 ## 7. Process & portal
 | Item | Note |
 |------|------|
-| Submission portal | **Editorial Manager** (legacy `ees.elsevier.com/agsy` redirects there) — confirm current URL |
+| Submission portal | Use the current ScienceDirect **Submit your article** link / Editorial Manager path |
 | Publisher | **Elsevier** (ISSN 0308-521X print / 1873-2267 online) |
-| Review model | **Single anonymized**; minimum two reviewers; editor decides (verify) |
-| Article types | Research paper (~8,000 words), short communication (~4,000), perspective (~2,000, rapid review), comment (~1,000), review (verify) |
-| Abstract | **≤ 250 words**; **Highlights** + **graphical abstract** requested |
-| Data/code policy | Deposit data, code, and models in a repository or explain why not (Elsevier research-data policy) |
+| Review model | **Single anonymized**; suitable submissions typically go to a minimum of two reviewers; editor decides |
+| Article types | Original scientific papers (~8,000 words), short communications (~4,000), perspectives (~2,000, rapid review), comments (~1,000), reviews |
+| Abstract | **≤ 250 words**; 1-7 keywords; **Highlights** required as 3-5 bullets of max 85 characters each; **graphical abstract** required |
+| OA / subscription | Open Access APC **USD 3,850 excluding taxes**; subscription route has no publication fee charged to authors |
+| Data/code policy | Option C: deposit research data, cite and link it, or explain why sharing is not possible; code and models are research data |
 
 ## 8. Cautions
-1. **Verify volatile specifics** (editors, exact caps, article types, fee/APC, data-policy wording,
-   review model) on the official Elsevier/ScienceDirect pages — they change and 403 to fetchers;
-   unverified items are marked 待核实.
+1. **Live-check volatile specifics** (editors, APC, submission-system URL, graphical-abstract specs,
+   and article-type consultation rules) on the official Elsevier/ScienceDirect pages before a real
+   upload.
 2. **Center the system, not a single factor** — AgSy wants interactions, hierarchical levels, and
    trade-offs, not a one-treatment field trial.
 3. **Describe and evaluate the model** — version, calibration data, evaluation metrics, and uncertainty;

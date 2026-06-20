@@ -28,7 +28,7 @@ conservation-management plan.
 | Argued position / forward-looking view | **Opinion** (~3,000–5,000 w) / **Perspective** (~1,500 w) | `gcb-topic-selection` + `gcb-writing-style` |
 
 > GCB Reviews are **commissioned**; the **Research Reviews** section is open for unsolicited submission.
-> Confirm the current article-type list and caps (see 待核实 in the source map).
+> Live-check the current article-type list and caps in the official Wiley guidance before submission.
 
 ## Routing map (stage → skill)
 

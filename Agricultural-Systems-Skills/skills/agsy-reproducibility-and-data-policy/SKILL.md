@@ -8,8 +8,9 @@ description: Use when preparing the data, code, and model materials for an Agric
 AgSy is a modelling journal, so reproducibility is not just about data — it is about whether someone
 else could **re-run or re-implement your model**. Elsevier's research-data policy explicitly counts
 **software, code, models, algorithms, protocols, and methods** as research data. Build the package as
-you go so submission and revision do not stall. (Verify the exact current policy strength — mandatory
-vs. encouraged — on the journal page; see 待核实.)
+you go so submission and revision do not stall. The 2026-06-20 Guide for Authors refresh says
+Agricultural Systems applies **Option C**: deposit research data, cite and link it, or state why
+sharing is not possible.
 
 ## When to trigger
 
@@ -19,16 +20,16 @@ vs. encouraged — on the journal page; see 待核实.)
   the exemption path
 - Preparing model documentation so reviewers can assess reproducibility
 
-## What AgSy / Elsevier expects (verify current wording)
+## What AgSy / Elsevier expects
 
 1. **Deposit research data in a repository.** Use a recognized repository (Mendeley Data, Zenodo, OSF,
    or a domain repository), **cite and link** the dataset in the article. Not a personal website.
 2. **Code and models count as data.** Deposit run scripts, parameter files, and — where licensing
    allows — the model code or a pointer to the exact model version. A black-box model with no access
    path weakens the paper.
-3. **Data-availability statement.** State where the data, code, and model are, or **explain why they
-   cannot be shared** (third-party licence, privacy, proprietary model) and how others could obtain
-   equivalent access.
+3. **Data-availability statement.** State the availability of data at submission. If data, code, or the
+   model cannot be shared, **explain why** (third-party licence, privacy, proprietary model) and how
+   others could obtain equivalent access.
 4. **Model description.** Document model version, structure/equations, parameter sources, calibration
    vs. evaluation data, and driving inputs. For agent-based models, follow the **ODD protocol** so the
    model can be re-implemented.
@@ -80,10 +81,10 @@ exercisable substitute exists.
 - *"Only the data is shared."* → Add run scripts, parameter files, and the model/version — Elsevier
   counts them as research data.
 
-## Calibration anchors (hedged where policy is volatile)
+## Calibration anchors
 
-- Whether deposit is strictly mandatory or strongly encouraged is set by the Elsevier research-data
-  policy as applied by the journal — confirm the current strength on the author guidelines.
+- Agricultural Systems currently uses Elsevier **Option C** research-data instructions: deposit, cite,
+  and link research data, or explain why sharing is not possible.
 - The ODD protocol is a community standard for agent-based models, not a journal format.
 
 ## Output format

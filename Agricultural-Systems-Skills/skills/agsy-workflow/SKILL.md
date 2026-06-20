@@ -26,7 +26,7 @@ not a single-factor agronomic trial.
 | One focused systems result | **Short communication** (~4,000 words) | normal pipeline, tighter scope |
 | Forward-looking opinion on agricultural-systems science | **Perspective** (~2,000 words, rapid review) | `agsy-writing-style` + `agsy-impact-and-implications` |
 | Short response to a published AgSy paper | **Comment** (~1,000 words) | `agsy-literature-positioning` + `agsy-writing-style` |
-| Integrative synthesis of a systems literature | **Review** (verify scope) | `agsy-literature-positioning` + `agsy-systems-framing-and-modeling` |
+| Integrative synthesis of a systems literature | **Review** (consult editors first where required) | `agsy-literature-positioning` + `agsy-systems-framing-and-modeling` |
 
 > If the work is really a single-treatment field trial with no interactions, trade-offs, or model, it
 > is **off-fit** — reframe it as a systems question or send it to a field-crops/agronomy journal.

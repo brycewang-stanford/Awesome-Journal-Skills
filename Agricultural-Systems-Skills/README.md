@@ -11,9 +11,9 @@
 
 English | [简体中文](README.zh-CN.md)
 
-Agent skill stack for manuscripts targeted at **Agricultural Systems (AgSy)** — the leading
-international journal for the **systems analysis of agricultural systems**, founded in **1976** and
-published by **Elsevier** (ISSN 0308-521X). Agricultural Systems is, by its own definition, a journal
+Agent skill stack for manuscripts targeted at **Agricultural Systems (AgSy)** — an international journal
+for the **systems analysis of agricultural systems**, published by **Elsevier** (ISSN 0308-521X print /
+1873-2267 online). Agricultural Systems is, by its own definition, a journal
 about **interactions**: among the components of agricultural systems, among hierarchical levels
 (field → farm → landscape → region → food system), between agricultural and other land-use systems, and
 between agricultural systems and their **natural, social, and economic environments**.
@@ -36,17 +36,16 @@ AgSy's constraints differ from a field-trial agronomy journal or a generic metho
 | Core object           | **Interactions** across components and hierarchical levels                            | A single-factor result is off-fit unless embedded in a system        |
 | Premium on            | **Whole-farm / landscape / food-system** scope + integrated **modelling**             | Pure plot-level agronomy belongs in a field-crops journal            |
 | Methods               | Conceptual + empirical + **dynamic / bio-economic modelling**, trade-off analysis      | Describe, calibrate, and **evaluate** the model; report uncertainty  |
-| Publisher             | **Elsevier** (ISSN 0308-521X print / 1873-2267 online)                                | Submitted via **Editorial Manager**, not Editorial Express/OUP       |
+| Publisher             | **Elsevier** (ISSN 0308-521X print / 1873-2267 online)                                | Use the current **Submit your article** / Editorial Manager path     |
 | Review model          | **Single anonymized**; minimum two reviewers; editor decides                          | Author identity is visible; argue to expert systems reviewers        |
 | Length                | Research paper **~8,000 words** (short comm. ~4,000; perspective ~2,000; comment ~1,000) | No hard cap, but stay near the guideline                          |
 | Abstract / front      | **Abstract ≤ 250 words** + **Highlights** + **graphical abstract**                    | Prepare all three at submission                                      |
-| Declarations          | **CRediT** roles + **declaration of competing interest** + **ORCID**                  | Add them up front                                                    |
-| Data / code / models  | **Deposit data, code, and models** in a repository (or explain why not)               | Elsevier treats code and models as research data — build it as you go |
+| Declarations          | **CRediT** roles + **declaration of competing interest** + funding / AI disclosures   | Add them up front                                                    |
+| Data / code / models  | **Deposit, cite, and link research data** or explain why sharing is not possible      | Elsevier treats code and models as research data — build it as you go |
 
-Volatile specifics (editors, exact caps, article types, fee/APC, policy wording, review model) change,
-and Elsevier's pages often 403 to automated fetchers — items not directly confirmed are marked
-**待核实** in [`resources/official-source-map.md`](resources/official-source-map.md).
-**Verify on the official journal page.**
+The current source map was refreshed from live ScienceDirect / Elsevier pages on **2026-06-20**.
+Volatile specifics still need a final live check before a real upload, especially editors, APC,
+submission-system URL, graphical-abstract specs, and article-type consultation rules.
 
 ### Article types
 
@@ -54,7 +53,8 @@ and Elsevier's pages often 403 to automated fetchers — items not directly conf
 - **Short communication** — a focused contribution, **~4,000 words**.
 - **Perspective** — a forward-looking opinion piece, **~2,000 words**, under **rapid review**.
 - **Comment** — a short response to published work, **~1,000 words**.
-- **Review article** — integrative synthesis of a systems literature (confirm scope on the guide). 待核实.
+- **Review article** — usually method-application focused rather than descriptive synthesis; consult the
+  editors first where the guide requires pre-submission advice.
 
 ---
 
@@ -135,13 +135,13 @@ is the contribution, spend most of your time in `agsy-systems-framing-and-modeli
 | `agsy-writing-style`                   | Clear scientific prose; abstract ≤ 250, Highlights, graphical abstract           |
 | `agsy-impact-and-implications`         | Decision / management / policy relevance — why the systems result matters        |
 | `agsy-review-process`                  | Single-anonymized review, desk screening, reviewer expectations, decision types  |
-| `agsy-submission`                      | Editorial Manager preflight (article type, abstract, declarations, ORCID, files) |
+| `agsy-submission`                      | Editorial Manager preflight (article type, abstract, declarations, data, files) |
 | `agsy-revision-and-rebuttal`           | Response-letter strategy for multiple reviewers + editor                         |
 
 ### Resources
 
 - [`resources/external_tools.md`](resources/external_tools.md) — systems models (APSIM / DSSAT / STICS / DNDC), whole-farm & bio-economic models, ABM / integrated-assessment tools, calibration / sensitivity / uncertainty packages, and food-system data sources (FAOSTAT / GYGA / FADN)
-- [`resources/official-source-map.md`](resources/official-source-map.md) — official Elsevier / ScienceDirect URLs behind every fact, with 待核实 markers on unverified items
+- [`resources/official-source-map.md`](resources/official-source-map.md) — official Elsevier / ScienceDirect URLs behind every journal fact used by this pack
 
 ---
 
@@ -150,7 +150,7 @@ is the contribution, spend most of your time in `agsy-systems-framing-and-modeli
 - It does not write a submittable manuscript for you
 - It does not build, calibrate, or run your simulation model — it tells you what reviewers expect of it
 - It does not turn a single-factor field trial into a systems paper; the systems question must be real
-- It does not assert volatile metadata (current editors, exact caps, article types, fee/APC, policy wording, review model) — verify on the official page; unverified items are marked 待核实
+- It does not freeze volatile metadata (current editors, fees, URLs, or rule wording) — live-check the official page before a real upload
 - It does not decide whether your question is a genuine systems question — that is the researcher's call
 
 ---

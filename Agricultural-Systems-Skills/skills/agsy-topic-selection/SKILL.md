@@ -46,6 +46,8 @@ A strong AgSy paper usually clears all four:
 - **Perspective** — a forward-looking argument about agricultural-systems science, **~2,000 words**,
   **rapid review** (see `agsy-review-process`).
 - **Comment** — a focused response to a published AgSy paper, **~1,000 words**.
+- **Review** — usually method-application focused rather than descriptive synthesis; consult editors
+  first where the Guide requires it.
 
 ## Anti-patterns
 
@@ -86,11 +88,12 @@ A team has trial data showing a legume intercrop raises maize yield:
   the headline, not a single "best" share.
 - *Decision relevance?* A farmer choosing rotation intensity acts differently. Verdict: strong AgSy fit.
 
-## Calibration anchors (hedged where uncertain)
+## Calibration anchors
 
 - AgSy's remit centers on interactions, hierarchical levels, trade-offs, and integrated modelling at
-  farm/landscape/food-system scale; confirm the current aims-and-scope statement on the journal page.
-- The article-type lengths are guidelines, not hard caps — verify against the current author guidelines.
+  farm/landscape/food-system scale; live-check the current aims-and-scope statement before final
+  submission advice.
+- The article-type lengths are guidelines, not hard caps; live-check the Guide before final upload.
 
 ## Output format
 

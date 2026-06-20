@@ -8,7 +8,7 @@ description: Use to understand how a Global Change Biology (GCB) manuscript is j
 GCB is selective and desk-rejects a large share of submissions before review. Knowing **how** it is
 judged — what triggers desk rejection, who reviews, and what decisions look like — lets you prepare a
 manuscript that survives screening and convinces reviewers. Verify volatile specifics on the official
-page (see 待核实 in the source map).
+page before submission.
 
 ## When to trigger
 
@@ -23,9 +23,8 @@ page (see 待核实 in the source map).
    global-change → biological-response advance), **significance / broad relevance**, and basic
    soundness. A large fraction is **desk-rejected** quickly; a poor scope/significance fit is the most
    common cause.
-2. **Expert peer review.** Typically **2–3 reviewers** with matched expertise assess mechanism,
-   design, inference, uncertainty, and reproducibility; the model is generally **single-anonymous**
-   (author identities visible to reviewers) — confirm current model on the live page (待核实).
+2. **Expert peer review.** Matched experts assess mechanism, design, inference, uncertainty, and
+   reproducibility; live-check current anonymity / transparent-review options on the official page.
 3. **Reviewer access to data.** Reviewers may request access to data during evaluation — have the
    archive/availability ready.
 4. **Decision categories.** Accept (rare on first pass), **minor / major revision**, or **reject**;
@@ -80,7 +79,7 @@ at the desk. Reviewer counts and roles are illustrative; confirm the current mod
 ```
 【Desk-screen risk】scope + significance unmistakable? [Y/N → why]
 【Reviewer concerns】scale / confounding / uncertainty / reproducibility pre-empted?
-【Review model】single-anonymous; 2–3 reviewers (待核实)
+【Review model】expert review; anonymity / transparent-review option live-checked? [Y/N]
 【Data ready for reviewers】[Y/N]
 【Decision likely】revision categories anticipated
 【Next】gcb-submission (pre-decision) or gcb-revision-and-rebuttal (post-decision)

@@ -38,17 +38,16 @@ GCB's constraints differ from a regional ecology journal or a conservation journ
 | Premium on            | **Mechanism + broad relevance**, not local description                         | A single-site result with no mechanism is off-fit                 |
 | Distinct from         | **Conservation practice** (action/management)                                  | GCB wants mechanism/ecosystems, not conservation prescriptions    |
 | Publisher             | **Wiley**                                                                       | Submitted via **ScholarOne / Manuscript Central**, not Editorial Manager |
-| Review model          | Expert review, typically **2–3 reviewers**; generally single-anonymous (待核实) | Author identities usually visible; pre-empt expert concerns       |
-| Length                | Research articles up to **~15,000 words incl. refs** (a ~8,000-word framing also appears — 待核实) | Confirm the current cap by article type             |
-| Abstract              | **~300 words** (one rendering says 250); **6–10 keywords**                     | State aim, approach, quantified result, conclusion (待核实)        |
+| Review model          | Editor-mediated expert review; live-check current anonymity/transparent-review options | Pre-empt expert concerns and data-access requests      |
+| Length                | Research articles currently route to an **up to 8,000-word** main-body cap     | Confirm the current cap by article type before upload             |
+| Abstract              | **300-word limit**; **6–10 keywords or phrases**                               | State aim, approach, quantified result, conclusion                |
 | Graphical abstract    | **Required** — depicts the driver-to-response mechanism                        | Not a site map or phylogeny                                       |
 | Data & code           | **Archived in a public repo with a DOI** as a condition of publication         | **"Available on request" is not accepted** — deposit before publication |
 
-Volatile specifics (exact caps, accepted article types, fee/APC, policy wording, review model) change —
-items not directly confirmed are marked **待核实** in
-[`resources/official-source-map.md`](resources/official-source-map.md). Several Wiley pages return HTTP
-402/403 to automated fetchers; some facts were confirmed via search renderings. **Verify on the official
-journal page.**
+Volatile specifics (exact caps, accepted article types, fee/APC, policy wording, review model) change.
+[`resources/official-source-map.md`](resources/official-source-map.md) now routes each operational fact
+to Wiley, ScholarOne, or a DOI-capable repository source; live-check the official Wiley pages in a
+browser immediately before upload.
 
 ### Article types
 
@@ -56,8 +55,8 @@ journal page.**
 - **Technical Advances** — new tools, methods, or modelling approaches for global-change biology.
 - **Reviews / Research Reviews** — integrative syntheses; **GCB Reviews are by invitation**, while the
   **Research Reviews** section is open for unsolicited submission.
-- **Opinions / Perspectives** — argued, forward-looking pieces (Opinions ~3,000–5,000 words;
-  Perspectives ~1,500 words). See 待核实 for the current full list and caps.
+- **Opinions / Perspectives** — argued, forward-looking pieces; live-check the current word caps and
+  eligibility before choosing this route.
 
 ---
 
@@ -143,7 +142,7 @@ Review** (GCB Reviews are commissioned).
 ### Resources
 
 - [`resources/external_tools.md`](resources/external_tools.md) — global-change data sources (ERA5 / CMIP6 / FLUXNET / MODIS / GBIF / TRY) + R / Python / process-model and meta-analysis tooling, and DOI repositories (Dryad / Zenodo / PANGAEA)
-- [`resources/official-source-map.md`](resources/official-source-map.md) — official Wiley / GCB URLs behind every fact, with 待核实 markers on unverified items
+- [`resources/official-source-map.md`](resources/official-source-map.md) — official Wiley / GCB URLs behind every fact, plus live-check notes for volatile items
 
 ---
 
@@ -151,7 +150,7 @@ Review** (GCB Reviews are commissioned).
 
 - It does not write a submittable manuscript for you
 - It does not simulate any specific editor's or reviewer's taste
-- It does not assert volatile metadata (exact caps, article types, fee/APC, policy wording, review model) — verify on the official page; unverified items are marked 待核实
+- It does not assert volatile metadata (exact caps, article types, fee/APC, policy wording, review model) without an official-source route; live-check those items on the official page before submission
 - It does not turn a conservation-management or local-description paper into a global-change mechanism — that is the researcher's science
 
 ---

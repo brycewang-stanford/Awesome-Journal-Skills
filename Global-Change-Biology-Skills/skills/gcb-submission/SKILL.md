@@ -8,7 +8,7 @@ description: Use when running the final pre-submission preflight for Global Chan
 The last check before pressing submit on **ScholarOne / Manuscript Central** (`mc.manuscriptcentral.com/gcb`).
 GCB desk-rejects heavily, so the preflight is about removing avoidable reasons to bounce: wrong scope
 framing, missing graphical abstract, over-length text, or a non-compliant data statement. Verify
-volatile specifics on the official page before relying on them (see 待核实 in the source map).
+volatile specifics on the official page before relying on them.
 
 ## When to trigger
 
@@ -20,21 +20,23 @@ volatile specifics on the official page before relying on them (see 待核实 in
 
 - **Publisher:** Wiley.
 - **Portal:** **ScholarOne / Manuscript Central** (`mc.manuscriptcentral.com/gcb`).
-- **Article types:** Primary Research Article, Technical Advance, Review / Research Review (GCB Reviews
-  are invited), Opinion (~3,000–5,000 w) / Perspective (~1,500 w) — confirm full list (待核实).
-- **Length:** research articles up to **~15,000 words incl. references** in one rendering; a **~8,000-word**
-  framing also appears — confirm current cap and what it includes (待核实).
-- **Abstract:** **~300 words** (one rendering says 250); **6–10 keywords** (待核实).
+- **Article types:** Research Articles, Technical Advances, Reviews, GCB Reviews, Mini Reviews,
+  Opinions, and Perspectives; GCB Reviews should be treated as commissioned unless the live guidance
+  states otherwise.
+- **Length:** Research Articles currently route to an **up to 8,000-word** cap; confirm what the cap
+  includes on the live page.
+- **Abstract:** **300-word limit**; **6–10 keywords or phrases**.
 - **Graphical abstract:** **required** — depicts the driver-to-response mechanism.
 - **Data/code:** **data availability statement** required; data and code archived with a **DOI** as a
   condition of publication ("available on request" not accepted).
-- **Review model:** generally single-anonymous (待核实).
+- **Review model:** editor-mediated expert review; live-check current anonymity / transparent-review
+  options.
 
 ## Preflight checklist
 
 ### Article type & length
-- [ ] Article type chosen and its word cap met (confirm current cap; 待核实)
-- [ ] Abstract within cap (~300 words; 待核实), states aim + approach + quantified result + conclusion
+- [ ] Article type chosen and its word cap met (confirm current cap)
+- [ ] Abstract within 300-word limit, states aim + approach + quantified result + conclusion
 - [ ] 6–10 keywords
 
 ### Required elements
@@ -57,7 +59,7 @@ desk-reject letter.
 | Failure mode | Where it bites | Pre-upload fix |
 |--------------|----------------|----------------|
 | Graphical abstract missing/non-mechanistic | Required element check | Supply a driver → response figure |
-| Abstract over cap | Metadata field | Trim to the current limit (confirm; 待核实) |
+| Abstract over cap | Metadata field | Trim to the current limit |
 | Data statement says "on request" | Compliance screen | Name repository + DOI + access route |
 | Wrong article type for the content | Editorial triage | Match type to contribution and its caps |
 | Missing ORCID / conflicts / funding | ScholarOne fields | Complete all author metadata |
@@ -90,8 +92,8 @@ submitting.
 ## Output format
 
 ```
-【Article type】… (cap met? confirm current cap — 待核实) [Y/N]
-【Abstract】word count (~300; 待核实) + 6–10 keywords
+【Article type】... (cap met? confirm current cap) [Y/N]
+【Abstract】word count (300-word limit) + 6–10 keywords
 【Graphical abstract】driver → response present? [Y/N]
 【Data statement + DOI deposit】names repo, not "on request"? [Y/N]
 【Cover letter + metadata】scope fit, ORCID, conflicts complete? [Y/N]

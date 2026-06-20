@@ -3,8 +3,8 @@
 > **Verified via web search, access date 2026-06-08.** Every paper below was checked on Wiley Online
 > Library (`onlinelibrary.wiley.com`) to confirm it actually appeared in *Global Change Biology* (GCB),
 > with a GCB DOI (`10.1111/gcb...` or the legacy `10.1046/j.1365-2486...` / `10.1111/j.1365-2486...`
-> prefix), and with author/year/volume confirmed. Papers that could not be **fully** verified as GCB —
-> or whose full citation could not be cleanly confirmed — were **omitted and documented** below. This is
+> prefix), and with author/year/volume confirmed. Papers lacking full GCB confirmation —
+> or whose full citation was not cleanly confirmed — were **omitted and documented** below. This is
 > deliberately a short, clean list (5 fully verified) rather than a long, uncertain one.
 >
 > **Sibling-confusion guard.** GCB is published by **Wiley** and is **not** any of these adjacent
@@ -113,8 +113,8 @@ To keep the list zero-hallucination, these candidates were **excluded** after ch
   National Academy of Sciences* (PNAS), **not GCB**. A frequently-cited FACE landmark, listed here only
   as a guardrail against misattribution.
 - **Burrows et al. marine "velocity of climate change" / poleward-shift work (2014)** — referenced
-  widely in the GCB range-shift literature, but the specific paper's venue and full citation could not
-  be cleanly confirmed as GCB by web search (the velocity-of-climate-change paper appeared in *Science*;
+  widely in the GCB range-shift literature, but the specific paper's venue and full citation were not
+  cleanly confirmed as GCB by web search (the velocity-of-climate-change paper appeared in *Science*;
   related work is dispersed across venues), so it is omitted pending re-check.
 - **"Temperature change effects on marine fish range shifts: a meta-analysis" (DOI 10.1111/gcb.16770)** —
   appears to be a genuine GCB article, but its full author/year/volume citation was **not** cleanly

@@ -46,7 +46,7 @@ question shape to the inferential machinery a quantitatively literate reviewer w
 
 | Question shape | Expected machinery | What a reviewer checks |
 |----------------|--------------------|------------------------|
-| Effect of a manipulated driver across blocked plots | Mixed model with plot/block random effects | Random structure matches the design; no pseudoreplication |
+| Effect of a manipulated driver across randomized plots | Mixed model with plot/block random effects | Random structure matches the design; no pseudoreplication |
 | Trend in a flux time series | Autocorrelation-aware regression / state-space | Residual autocorrelation modelled, not ignored |
 | Spatial pattern across a gradient | Spatial random field (INLA/`spaMM`) | Spatial dependence handled; CRS and area stated |
 | Synthesis across many studies | Random/mixed-effects meta-analysis | Effect-size choice, I^2/tau^2, bias check |

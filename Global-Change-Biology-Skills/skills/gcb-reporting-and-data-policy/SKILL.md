@@ -9,7 +9,7 @@ GCB treats open data and code as a **condition of publication**, not a courtesy.
 data supporting the results must be **archived in a publicly accessible repository with a persistent
 identifier (DOI)**, code/software likewise (e.g., Zenodo), and the manuscript must carry a **data
 availability statement**. Crucially, **"available on request" is not accepted**. Build the deposit as
-you go. Confirm current wording on the policy page (see 待核实 in the source map).
+you go. Confirm current wording on the policy page before submission.
 
 ## When to trigger
 

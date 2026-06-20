@@ -10,7 +10,7 @@ Action-oriented resources for the *Agricultural Systems* (AgSy) skill pack (Else
 | --- | --- |
 | [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | See a before→after rewrite of an *Agricultural Systems* **abstract + introduction** in AgSy house style — systems framing, an independently **evaluated** model, and **trade-offs across the farming system**. Illustrative **fictional** paper; no real policy invented. Derived only from this pack's own skill files. |
 | [`exemplars/library.md`](exemplars/library.md) | Benchmark against **real, web-verified** *Agricultural Systems* papers (DOI `10.1016/j.agsy...`) organized by topic × method. Design positioning only — no fabricated numbers; includes a sibling-confusion guard and documented omissions. |
-| [`official-source-map.md`](official-source-map.md) | **AgSy-specific policy & facts:** Elsevier/ScienceDirect home and Guide for Authors, aims & scope (interactions across hierarchical levels), single-anonymized review, the research-data policy (data **and** code/models), and a 待核实/to-verify list. The authoritative pack source. |
+| [`official-source-map.md`](official-source-map.md) | **AgSy-specific policy & facts:** Elsevier/ScienceDirect home and Guide for Authors, aims & scope (interactions across hierarchical levels), single-anonymized review, article types/front matter, APC/subscription route, and the Option C research-data policy (data **and** code/models). The authoritative pack source. |
 | [`external_tools.md`](external_tools.md) | Systems models by scale (process/whole-farm/bio-economic/ABM/integrated-assessment), calibration / sensitivity / uncertainty and multi-objective software, data sources, and reproducibility tooling. |
 
 ## No econometrics code kit is vendored

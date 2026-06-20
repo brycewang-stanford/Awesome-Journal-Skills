@@ -35,15 +35,15 @@ GCB 的约束不同于地区性生态刊或保护类期刊：
 | 看重 | **机制 + 广泛意义**，而非局地描述 | 无机制的单点结果不合适 |
 | 区别于 | **保护实践**（行动/管理） | GCB 要机制/生态系统，而非保护处方 |
 | 出版方 | **Wiley** | 通过 **ScholarOne / Manuscript Central** 投稿（非 Editorial Manager） |
-| 评审模式 | 专家评审，通常 **2–3 位审稿人**；一般为单向匿名（待核实） | 作者身份通常可见；预先回应专家关切 |
-| 篇幅 | 研究论文上限约 **15,000 词（含参考文献）**（另有约 8,000 词的说法——待核实） | 按文章类型核实当前上限 |
-| 摘要 | **约 300 词**（另一说 250）；**6–10 个关键词** | 写明目的、方法、量化结果、结论（待核实） |
+| 评审模式 | 编辑介导的专家评审；匿名/透明评审选项以现行官方页为准 | 预先回应专家关切与数据访问要求 |
+| 篇幅 | 研究论文当前按 **最高 8,000 词**正文上限处理 | 投稿前按文章类型核对现行上限 |
+| 摘要 | **300 词上限**；**6–10 个关键词/短语** | 写明目的、方法、量化结果、结论 |
 | 图形摘要 | **必需**——展示驱动—响应机制 | 不是研究地点图或系统发育树 |
 | 数据与代码 | **存入带 DOI 的公共仓库**，作为发表前提条件 | **不接受“可应要求提供”**——须在发表前归档 |
 
-易变的具体信息（确切篇幅上限、文章类型、费用/APC、政策措辞、评审模式）会变化——未直接核实项在
-[`resources/official-source-map.md`](resources/official-source-map.md) 中标记 **待核实**。部分 Wiley 页面
-对自动抓取返回 HTTP 402/403，部分事实经搜索渲染核对。**请以官方页面为准。**
+易变的具体信息（确切篇幅上限、文章类型、费用/APC、政策措辞、评审模式）会变化。
+[`resources/official-source-map.md`](resources/official-source-map.md) 现在为每条操作性事实标出 Wiley、
+ScholarOne 或 DOI 仓库来源路径；投稿前请在浏览器中即时核对官方 Wiley 页面。
 
 ### 文章类型
 
@@ -51,8 +51,7 @@ GCB 的约束不同于地区性生态刊或保护类期刊：
 - **Technical Advances（技术进展）**——面向全球变化生物学的新工具、新方法或新建模手段。
 - **Reviews / Research Reviews（综述）**——整合性综述；**GCB Reviews 为约稿**，而 **Research Reviews**
   栏目向自由投稿开放。
-- **Opinions / Perspectives（观点/展望）**——有论点、面向未来的文章（Opinions 约 3,000–5,000 词；
-  Perspectives 约 1,500 词）。当前完整清单与上限见 待核实。
+- **Opinions / Perspectives（观点/展望）**——有论点、面向未来的文章；选择该路线前即时核对现行字数上限与资格要求。
 
 ---
 
@@ -137,7 +136,7 @@ gcb-revision-and-rebuttal
 ### 资源
 
 - [`resources/external_tools.md`](resources/external_tools.md) — 全球变化数据源（ERA5 / CMIP6 / FLUXNET / MODIS / GBIF / TRY）+ R / Python / 过程模型与元分析工具，及 DOI 仓库（Dryad / Zenodo / PANGAEA）
-- [`resources/official-source-map.md`](resources/official-source-map.md) — 每条事实背后的 Wiley / GCB 官方 URL，未核实项标 待核实
+- [`resources/official-source-map.md`](resources/official-source-map.md) — 每条事实背后的 Wiley / GCB 官方 URL，以及易变项目的 live-check 提示
 
 ---
 
@@ -145,7 +144,7 @@ gcb-revision-and-rebuttal
 
 - 不替你写出可直接投稿的稿件
 - 不模拟任何特定编辑或评审人的口味
-- 不臆断易变元数据（确切上限、文章类型、费用/APC、政策措辞、评审模式）——请以官方页面为准；未核实项标 待核实
+- 不在缺少官方来源路径时臆断易变元数据（确切上限、文章类型、费用/APC、政策措辞、评审模式）；投稿前请以官方页面即时核对
 - 不会把保护管理或局地描述的论文“变成”全球变化机制——那是研究者自己的科学
 
 ---

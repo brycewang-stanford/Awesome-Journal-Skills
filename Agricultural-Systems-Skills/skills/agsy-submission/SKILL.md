@@ -1,14 +1,15 @@
 ---
 name: agsy-submission
-description: Use when running the final pre-submission preflight for Agricultural Systems (AgSy) via Editorial Manager — article-type selection, abstract <= 250 words, Highlights, graphical abstract, CRediT and declaration-of-interest statements, ORCID, reference style, and data/code/model availability. Final checks; it does not draft content.
+description: Use when running the final pre-submission preflight for Agricultural Systems (AgSy) via the current Elsevier submission path / Editorial Manager — article-type selection, abstract <= 250 words, Highlights, graphical abstract, CRediT and declaration-of-interest statements, funding/AI disclosures, reference style, and data/code/model availability. Final checks; it does not draft content.
 ---
 
 # Submission Preflight (agsy-submission)
 
-The last check before pressing submit on **Editorial Manager**. AgSy is **single anonymized**, so there
-is no manuscript-anonymization step — but the front matter (abstract, Highlights, graphical abstract,
-declarations) and the data/code/model availability statement are where avoidable failures happen.
-Verify volatile specifics on the official page before relying on them.
+The last check before pressing submit through the current Elsevier submission path / **Editorial
+Manager**. AgSy is **single anonymized**, so there is no manuscript-anonymization step — but the front
+matter (abstract, Highlights, graphical abstract, declarations) and the data/code/model availability
+statement are where avoidable failures happen. Live-check volatile specifics on the official page
+before relying on them.
 
 ## When to trigger
 
@@ -16,26 +17,31 @@ Verify volatile specifics on the official page before relying on them.
 - Unsure which files/metadata Editorial Manager expects
 - Confirming the article type's guideline length is met and all front matter is prepared
 
-## Process facts (verify volatile items on the official page)
+## Process facts (source map refreshed 2026-06-20)
 
 - **Publisher:** Elsevier (ISSN 0308-521X print / 1873-2267 online).
-- **Portal:** **Editorial Manager** (legacy `ees.elsevier.com/agsy` redirects there — confirm current URL).
-- **Review model:** **single anonymized** — no manuscript anonymization required (待核实).
+- **Portal:** current ScienceDirect **Submit your article** link / Editorial Manager path.
+- **Review model:** **single anonymized** — no manuscript anonymization required.
 - **Article types:** Research paper (~8,000 words), Short communication (~4,000), Perspective (~2,000,
-  rapid review), Comment (~1,000), Review (verify) — no hard word cap, but stay near the guideline.
+  rapid review), Comment (~1,000), Review — no hard word cap, but stay near the guideline.
+- **Consultation:** Review, Perspective, and book-review submissions should be discussed with editors
+  first where the Guide requires it.
 - **Abstract:** **≤ 250 words.**
-- **Highlights** + **graphical abstract:** prepared.
+- **Highlights:** required at submission; 3-5 bullets, each max 85 characters including spaces.
+- **Graphical abstract:** required as a separate file; check the current pixel/format specs before upload.
 - **Declarations:** **CRediT** author-contribution statement; **declaration of competing interest**;
-  **ORCID** for authors.
-- **Data/code/model:** repository deposit + data-availability statement (Elsevier research-data policy).
-- **Fee:** subscription journal with a hybrid Gold OA option; confirm any APC after acceptance (待核实).
+  funding sources; generative-AI disclosure when AI tools were used.
+- **Data/code/model:** Option C repository deposit + dataset citation/link + data-availability statement,
+  or a reason sharing is not possible.
+- **Fee:** Open Access APC **USD 3,850 excluding taxes**; subscription route has no publication fee
+  charged to authors.
 
 ## Preflight checklist
 
 ### Article type & length
 - [ ] Article type chosen; length near its guideline (research ~8,000 / short comm ~4,000 / perspective ~2,000 / comment ~1,000)
 - [ ] Abstract ≤ 250 words; states purpose, principal results, major conclusions
-- [ ] Highlights drafted; graphical abstract prepared
+- [ ] Highlights drafted (3-5 bullets, max 85 characters each); graphical abstract prepared
 
 ### Systems content (fit)
 - [ ] The systems question (interactions / hierarchical levels / trade-offs) is explicit
@@ -45,7 +51,7 @@ Verify volatile specifics on the official page before relying on them.
 ### Format & declarations
 - [ ] References in the journal's style; consistent throughout
 - [ ] **CRediT** roles + **declaration of competing interest** completed
-- [ ] **ORCID** for authors; corresponding author and contact details correct
+- [ ] Funding and AI-use disclosures complete; corresponding author and contact details correct
 - [ ] Figures/tables self-contained and accessible (see `agsy-figures-and-tables`)
 
 ### Data, code & compliance
@@ -57,7 +63,7 @@ Verify volatile specifics on the official page before relying on them.
 ## Anti-patterns
 
 - Abstract over 250 words; missing Highlights or graphical abstract
-- No CRediT / competing-interest statement; missing ORCID
+- No CRediT / competing-interest statement; missing funding or AI-use disclosure where required
 - A single-factor field trial sent to a systems journal (fit failure — see `agsy-review-process`)
 - A black-box model with no calibration/evaluation or no data/code/model deposit
 - Sending a full study to the Perspective track (wrong type and length)
@@ -84,17 +90,16 @@ Result: a clean upload rather than three Editorial Manager bounce-backs.
 - *Black-box model.* No version, calibration, evaluation, or deposit → the model cannot be assessed.
 - *Wrong track.* A full study compressed into Perspective length, or a Perspective padded into a
   research paper — type/length mismatch is an early screen.
-- *Incomplete front matter.* Missing Highlights, graphical abstract, CRediT, COI, or ORCID stalls the
+- *Incomplete front matter.* Missing Highlights, graphical abstract, CRediT, COI, funding, or AI-use disclosure stalls the
   submission before review starts.
 
-## Calibration anchors (hedged where policy is volatile)
+## Calibration anchors
 
-- The ≤250-word abstract, Highlights, and graphical abstract are standing Elsevier front-matter
-  expectations; confirm exact wording and any new fields on the current author guidelines.
-- The portal is Editorial Manager; legacy `ees.elsevier.com/agsy` links redirect — confirm the current
-  submission URL (待核实).
-- Any APC for the hybrid Gold OA option is set by the publisher — confirm after acceptance, not from
-  memory.
+- The ≤250-word abstract, 3-5 Highlights, graphical abstract, CRediT roles, competing-interest
+  declaration, funding disclosure, AI-use disclosure, and Option C data statement are the current
+  pre-submission checks.
+- Re-open the ScienceDirect **Submit your article** link and Guide for Authors before upload because
+  URLs, fees, and file specs can change.
 
 ## Output format
 
@@ -102,7 +107,7 @@ Result: a clean upload rather than three Editorial Manager bounce-backs.
 【Article type】Research / Short comm / Perspective / Comment / Review (length near guideline? Y/N)
 【Abstract】word count (≤250); Highlights + graphical abstract? [Y/N]
 【Systems content】question + model + evaluation + decision relevance? [Y/N]
-【Declarations】CRediT + COI + ORCID? [Y/N]
+【Declarations】CRediT + COI + funding/AI disclosure? [Y/N]
 【Data/code/model】deposited + availability statement? [Y/N]
 【References】journal style consistent? [Y/N]
 【Next】await decision → agsy-revision-and-rebuttal on revision

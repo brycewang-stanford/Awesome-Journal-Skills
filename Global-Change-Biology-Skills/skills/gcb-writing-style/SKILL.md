@@ -8,7 +8,7 @@ description: Use when drafting or polishing the prose of a Global Change Biology
 A GCB paper must read for a **broad global-change audience** — ecologists, biogeochemists, and
 Earth-system scientists who are not specialists in your system. Lead with the **mechanism** and the
 **global-change significance**, quantify everything, and stay within the length and abstract limits.
-Verify exact caps on the live guidelines page (see 待核实 in the source map).
+Verify exact caps on the live guidelines page before submission.
 
 ## When to trigger
 
@@ -25,7 +25,7 @@ Verify exact caps on the live guidelines page (see 待核实 in the source map).
    global change, beyond a single site/species.
 3. **Quantified claims.** Effect sizes with intervals and units in the abstract and results; avoid vague
    "increased significantly" without magnitude.
-4. **Structured, disciplined abstract.** ~300 words (待核实; one rendering says 250); state aim,
+4. **Structured, disciplined abstract.** 300-word limit; state aim,
    approach, key quantitative result, and conclusion; 6–10 keywords.
 5. **Honest scope.** Be explicit about the system, scale, and extrapolation limits — generality claimed
    only as far as the evidence reaches.
@@ -33,8 +33,8 @@ Verify exact caps on the live guidelines page (see 待核实 in the source map).
    subfield.
 
 ## Length & structure
-- Respect the article-type word ceiling (research articles up to ~15,000 words incl. references in one
-  rendering; a ~8,000-word framing also appears — 待核实). Cut method minutiae to supporting information.
+- Respect the article-type word ceiling; Research Articles currently route to an up to 8,000-word cap.
+  Cut method minutiae to supporting information.
 - Standard IMRaD for Primary Research Articles; argument-led structure for Opinions/Perspectives.
 
 ## Sentence-level rewrites for a global-change audience
@@ -80,7 +80,7 @@ significance now sit in the first lines, inside the abstract cap. Numbers illust
 【Mechanism stated early】driver → response in abstract + intro? [Y/N]
 【Significance early】global-change relevance up front? [Y/N]
 【Quantified】effect sizes + intervals + units in abstract/results? [Y/N]
-【Abstract】word count (~300; 待核实) + 6–10 keywords
+【Abstract】word count (300-word limit) + 6–10 keywords
 【Length】within article-type ceiling? [Y/N]
 【Accessible】jargon/acronyms defined for general reader? [Y/N]
 【Next】gcb-cover-letter

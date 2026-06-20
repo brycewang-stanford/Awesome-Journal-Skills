@@ -8,7 +8,8 @@ description: Use to understand how Agricultural Systems (AgSy) evaluates a manus
 Knowing how AgSy screens and decides lets you pre-empt the failure modes before submitting. AgSy is
 **single anonymized** (reviewers see the authors), screens for **fit and genuine systems content**, and
 sends suitable papers to a **minimum of two expert reviewers**; the **editor** makes the decision.
-Verify volatile specifics on the official page (待核实).
+Source-map process facts were refreshed from ScienceDirect on 2026-06-20; live-check them before a
+real upload because review wording and submission links can change.
 
 ## When to trigger
 
@@ -17,7 +18,7 @@ Verify volatile specifics on the official page (待核实).
 - Interpreting a decision letter and setting expectations
 - Understanding what systems reviewers are likely to weigh
 
-## How AgSy review works (verify current process)
+## How AgSy review works
 
 1. **Single anonymized.** Reviewers know the authors; authors do not know reviewers. There is no
    manuscript anonymization step (unlike a double-anonymous journal).
@@ -29,7 +30,8 @@ Verify volatile specifics on the official page (待核实).
    independent assessment of scientific quality.
 4. **Decision.** Accept / minor or major revision / reject — taken by the **journal's editors**.
 5. **Perspective rapid review.** **Perspective** articles undergo a **rapid** review process for a short
-   submission-to-publication time.
+   submission-to-publication time; authors should consult editors before submitting a Perspective where
+   the Guide requires it.
 
 ## What systems reviewers weigh
 

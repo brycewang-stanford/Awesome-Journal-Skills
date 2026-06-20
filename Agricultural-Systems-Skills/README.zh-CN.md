@@ -11,8 +11,8 @@
 
 [English](README.md) | 简体中文
 
-面向 **《农业系统》（Agricultural Systems, AgSy）** 投稿的 Agent 技能栈。AgSy 是**农业系统系统分析**领域
-的国际领军期刊，创刊于 **1976 年**，由 **Elsevier（爱思唯尔）** 出版（ISSN 0308-521X）。按其自身定义，
+面向 **《农业系统》（Agricultural Systems, AgSy）** 投稿的 Agent 技能栈。AgSy 是面向**农业系统系统分析**
+的国际期刊，由 **Elsevier（爱思唯尔）** 出版（ISSN 0308-521X 印刷 / 1873-2267 在线）。按其自身定义，
 本刊是一本关于**相互作用（interactions）**的期刊：农业系统各组分之间、系统各层级之间
 （田块 → 农场 → 景观 → 区域 → 食物系统）、农业系统与其他土地利用系统之间，以及农业系统与其
 **自然、社会、经济环境**之间的相互作用。
@@ -34,17 +34,15 @@ AgSy 的约束不同于田间试验型农学刊或泛用方法刊：
 | 核心对象 | 跨组分、跨层级的**相互作用** | 单因子结果若不嵌入系统则不合适 |
 | 看重 | **整农场 / 景观 / 食物系统**尺度 + 集成**建模** | 纯田块尺度农学应投田间作物类刊 |
 | 方法 | 概念 + 经验 + **动态 / 生物经济建模**、权衡分析 | 须描述、校准并**评估**模型，报告不确定性 |
-| 出版方 | **Elsevier**（ISSN 0308-521X 印刷 / 1873-2267 在线） | 通过 **Editorial Manager** 投稿 |
+| 出版方 | **Elsevier**（ISSN 0308-521X 印刷 / 1873-2267 在线） | 使用当前 **Submit your article** / Editorial Manager 路径 |
 | 评审模式 | **单向匿名**；至少两位评审；编辑决定 | 作者身份可见；面向系统领域专家评审论证 |
 | 篇幅 | 研究论文 **约 8,000 词**（短讯约 4,000；展望约 2,000；评论约 1,000） | 无硬性上限，但应贴近指南 |
 | 摘要 / 首页 | **摘要 ≤ 250 词** + **Highlights** + **图文摘要** | 投稿时三者齐备 |
-| 声明 | **CRediT** 贡献 + **利益冲突声明** + **ORCID** | 提前准备 |
-| 数据 / 代码 / 模型 | **将数据、代码与模型**存入仓库（或说明为何不能） | Elsevier 把代码与模型视作研究数据——边做边建 |
+| 声明 | **CRediT** 贡献 + **利益冲突声明** + 资助 / AI 使用披露 | 提前准备 |
+| 数据 / 代码 / 模型 | **存储、引用并链接研究数据**，或说明为何无法共享 | Elsevier 把代码与模型视作研究数据——边做边建 |
 
-易变的具体信息（编辑、确切上限、文章类型、费用/APC、政策措辞、评审模式）会变化，且 Elsevier 页面
-常对自动抓取返回 403——未直接核实项在
-[`resources/official-source-map.md`](resources/official-source-map.md) 中标记 **待核实**。
-**请以官方页面为准。**
+当前 source map 已按 **2026-06-20** 可直接访问的 ScienceDirect / Elsevier 官方页面刷新。实际投稿前仍应
+现场复核易变项，尤其是编辑、APC、投稿系统 URL、图文摘要规格，以及综述 / 展望文章的投稿前咨询规则。
 
 ### 文章类型
 
@@ -52,7 +50,7 @@ AgSy 的约束不同于田间试验型农学刊或泛用方法刊：
 - **Short communication（短讯）**——聚焦型贡献，**约 4,000 词**。
 - **Perspective（展望）**——前瞻性观点文章，**约 2,000 词**，采用**快速评审**。
 - **Comment（评论）**——对已发表工作的简短回应，**约 1,000 词**。
-- **Review article（综述）**——对某一系统文献的整合性综述（范围以指南为准）。待核实。
+- **Review article（综述）**——通常应聚焦特定方法的应用，而不是描述性综述；指南要求时先咨询编辑。
 
 ---
 
@@ -132,13 +130,13 @@ agsy-revision-and-rebuttal
 | `agsy-writing-style` | 清晰的科学写作；摘要 ≤ 250、Highlights、图文摘要 |
 | `agsy-impact-and-implications` | 决策 / 管理 / 政策相关性——系统结果为何重要 |
 | `agsy-review-process` | 单向匿名评审、桌面筛查、评审期待、决定类别 |
-| `agsy-submission` | Editorial Manager 投稿前检查（文章类型、摘要、声明、ORCID、文件） |
+| `agsy-submission` | Editorial Manager 投稿前检查（文章类型、摘要、声明、数据、文件） |
 | `agsy-revision-and-rebuttal` | 面向多位评审 + 编辑的回应信策略 |
 
 ### 资源
 
 - [`resources/external_tools.md`](resources/external_tools.md) — 系统模型（APSIM / DSSAT / STICS / DNDC）、整农场与生物经济模型、ABM / 集成评估工具、校准 / 敏感性 / 不确定性软件包，以及食物系统数据源（FAOSTAT / GYGA / FADN）
-- [`resources/official-source-map.md`](resources/official-source-map.md) — 每条事实背后的 Elsevier / ScienceDirect 官方 URL，未核实项标 待核实
+- [`resources/official-source-map.md`](resources/official-source-map.md) — 本包所用期刊事实背后的 Elsevier / ScienceDirect 官方 URL
 
 ---
 
@@ -147,7 +145,7 @@ agsy-revision-and-rebuttal
 - 不替你写出可直接投稿的稿件
 - 不替你搭建、校准或运行模型——只告诉你评审对模型的期待
 - 不把单因子田间试验包装成系统论文；系统问题必须是真问题
-- 不臆断易变元数据（现任编辑、确切上限、文章类型、费用/APC、政策措辞、评审模式）——请以官方页面为准；未核实项标 待核实
+- 不固化易变元数据（现任编辑、费用、URL 或规则措辞）——真实投稿前请现场复核官方页面
 - 不替你判断你的问题是否为真正的系统问题——那是研究者的判断
 
 ---
