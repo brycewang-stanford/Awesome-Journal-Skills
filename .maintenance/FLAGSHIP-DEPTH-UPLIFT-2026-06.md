@@ -113,3 +113,25 @@ Journal-of-Law-Economics-and-Organization (jleo, econ), Annual-Review-of-Economi
   "Register 44 flagship depth packs ..."). Honest quality note: the 6 hand-built Wave-1 packs +
   JEL are the richest prose (94.0); the bulk built by the parallel lane are complete and
   venue-specific but more templated (90-91) — all above the repo's 85 "excellent" bar.
+- 2026-06-20: DEEPENING PASS complete (user: "把剩下的工作全部做扎实"). The 33 packs that were
+  still on the templated decision-map skeleton were rewritten skill-by-skill to genuine
+  venue-specific flagship prose via 6 QC'd parallel subagent batches (A IER/JMCB/JFM/JIMF/FM/JHE;
+  B JUE/JEEM/JLE/WorldDev/WBER; C JEBO/JEG/JRU/ExpEcon/IMFER/EconPolicy/JLEO; D AnnualRevEcon/
+  INFORMS-JoC/RAST/JOM/JMS/ResearchPolicy; E+F OrgStudies/AoM-Annals/JAMS/JCP/HRM/HumanRelations/
+  ETP/JMIS/JAIS). Brief: `.maintenance/SUBAGENT-DEEPEN-BRIEF.md`. Each rewrite removed every
+  template tell, kept frontmatter (name+description, name==folder) and the resource layer untouched,
+  and web-verified venue facts (review model, portal, fee, length, data policy, sibling guards) with
+  volatile items marked 待核实. Subagents fixed many latent self-loop rebuttal handoffs and surfaced
+  real corrections (JLEO portal = Editorial Express not ScholarOne; JCP now Wiley not Elsevier; JMIS
+  intake = email to the EIC, not a portal; Economic Policy relaunched 2025 commissioned-only; AEJ:Macro/Micro
+  single-blind; ExpEcon now Cambridge UP/OA). RESULT: template-tell sweep across all 44 packs = 0
+  remaining; `tools/quality_scorecard.py` for the 44 rose 92.0 → **94.0** (median 94.0, min 93.3),
+  repo mean 92.8 → 93.3; `tools/clone_audit.py` no pair ≥ 0.85 repo-wide; `tools/run_checks.py
+  --skip-reports` all green (2665/171/200). Committed across batch commits (668cb1b, ccfdcc7,
+  b9ee9a4, b06741b) plus auto-commit-hook commits for batch E+F.
+- Known follow-ups (logged, honest): (a) a repo auto-commit hook produced very granular commits for
+  batch E+F (one per file) — cosmetic git-history noise, not a correctness issue; (b) a few
+  `resources/official-source-map.md` files now slightly lag their deepened skills (JCP Elsevier→Wiley,
+  Economic Policy 2025 relaunch, JMIS email intake) — the skills carry the corrected facts with 待核实
+  markers; refresh the source maps in a later pass; (c) re-confirm all 待核实 volatile facts (current
+  editors, fees, exact limits) against official sites before relying on them.
