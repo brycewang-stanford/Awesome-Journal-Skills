@@ -43,7 +43,7 @@ description: Use when deciding which Chinese social-science/economics/management
 | 劳动、就业、社保、社会政策 | `studies-in-labor-economics` / `social-security-studies` |
 | 跨学科最高平台、原创理论命题 | `social-sciences-in-china` |
 | 社会学问题意识、定量/定性社会学 | `sociological-studies` |
-| 体育学（运动训练、运动人体科学、体育人文社会学、学校体育） | `china-sport-science`（其它·体育学；体育只是案例的经管稿仍回经管刊） |
+| 体育学（运动训练、运动人体科学、体育人文社会学等） | 转中文体育学期刊合集 `Chinese-Sport-Science-Journal-Skills`（`cn-sport-journal-workflow`）；体育只是案例的经管稿仍回经管刊 |
 
 ## 相近刊物区分
 

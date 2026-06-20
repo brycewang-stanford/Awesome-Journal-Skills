@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "chinese-sport-science-journal-skills",
+  "version": "0.1.0",
+  "description": "Per-journal fit-and-house-style skills for the 12 CSSCI source journals of sport science (体育学), plus cn-sport-journal-workflow routing.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "chinese-sport-science-journal-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Chinese sport-science journal routing and per-journal fit skills with official-submission-check discipline.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "cssci",
+        "chinese-journal",
+        "sport-science",
+        "physical-education",
+        "exercise-science",
+        "sport-sociology"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/china-sport-science",
+        "skills/china-sport-science-and-technology",
+        "skills/cn-sport-journal-workflow",
+        "skills/journal-of-beijing-sport-university",
+        "skills/journal-of-chengdu-sport-university",
+        "skills/journal-of-physical-education",
+        "skills/journal-of-shanghai-university-of-sport",
+        "skills/journal-of-shenyang-sport-university",
+        "skills/journal-of-sports-research",
+        "skills/journal-of-tianjin-university-of-sport",
+        "skills/journal-of-wuhan-sports-university",
+        "skills/journal-of-xian-physical-education-university",
+        "skills/sports-and-science"
+      ]
+    }
+  ]
+}

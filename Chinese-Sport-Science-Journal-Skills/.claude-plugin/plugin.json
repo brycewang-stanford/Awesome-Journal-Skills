@@ -1,0 +1,24 @@
+{
+  "name": "chinese-sport-science-journal-skills",
+  "description": "Agent skill stack for the 12 CSSCI source journals of sport science (体育学) — promoting sport science from an 'Other' footnote in the Chinese social-science bundle to its own first-class discipline category. Covers the field-defining 《体育科学》 and 《中国体育科技》 (China Institute of Sport Science), the综合性体育学报 of Beijing / Shanghai / Chengdu / Wuhan / Xi'an / Shenyang / Tianjin sport universities, and the humanities-and-social-science-leaning 《体育学刊》《体育学研究》《体育与科学》. One self-contained fit-and-house-style skill per journal, plus cn-sport-journal-workflow routing. Spans both 运动人体科学 (exercise physiology / biomechanics / sports medicine) and 体育人文社会学 (sport sociology / management / policy / history).",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "cssci",
+    "chinese-journal",
+    "sport-science",
+    "physical-education",
+    "exercise-science",
+    "sports-medicine",
+    "kinesiology",
+    "sport-sociology",
+    "academic-writing",
+    "journal-submission"
+  ]
+}
