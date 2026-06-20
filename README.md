@@ -44,6 +44,16 @@
   <sub><b>先看期刊，再进 Pack。</b>点击任意封面即可进入对应的期刊 Skill 包。</sub>
 </p>
 <p align="center">
+  <a href="Engineering-Technology-Journal-Skills/"><img src="assets/covers/bundle-engineering-technology.png" alt="Engineering &amp; Technology Journal Skills（40 刊）" width="150"></a>
+  <a href="Agriculture-Environment-Journal-Skills/"><img src="assets/covers/bundle-agriculture-environment.png" alt="Agriculture &amp; Environment Journal Skills（30 刊）" width="150"></a>
+  <a href="Clinical-Medicine-Journal-Skills/"><img src="assets/covers/bundle-clinical-medicine.png" alt="Clinical Medicine Journal Skills（30 刊）" width="150"></a>
+  <a href="English-Humanities-Journal-Skills/"><img src="assets/covers/bundle-english-humanities.png" alt="English Humanities Journal Skills（36 刊）" width="150"></a>
+  <a href="Chinese-Sport-Science-Journal-Skills/"><img src="assets/covers/bundle-chinese-sport-science.png" alt="Chinese Sport Science Journal Skills（12 刊）" width="150"></a>
+</p>
+<p align="center">
+  <sub><b>🆕 五个最新学科广度合集</b> —— 工程技术 40 · 农业环境 30 · 临床医学 30 · 英文人文 36 · 中文体育学 12；点击封面进入合集页。</sub>
+</p>
+<p align="center">
   <a href="Economic-Research-Journal-Skills/"><img src="assets/covers/economic-research.png" alt="《经济研究》 Economic Research" width="160"></a>
   <a href="Journal-of-Management-World-Skills/"><img src="assets/covers/management-world.png" alt="《管理世界》 Management World" width="160"></a>
   <a href="Social-Sciences-in-China-Skills/"><img src="assets/covers/social-sciences-in-china.png" alt="《中国社会科学》 Social Sciences in China" width="160"></a>

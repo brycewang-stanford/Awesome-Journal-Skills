@@ -44,6 +44,16 @@ Spanning <b>economics &amp; business, the social sciences &amp; humanities, the 
   <sub><b>Start with the venue.</b> Click any cover to open its journal-specific skill pack.</sub>
 </p>
 <p align="center">
+  <a href="Engineering-Technology-Journal-Skills/"><img src="assets/covers/bundle-engineering-technology.png" alt="Engineering &amp; Technology Journal Skills (40 journals)" width="150"></a>
+  <a href="Agriculture-Environment-Journal-Skills/"><img src="assets/covers/bundle-agriculture-environment.png" alt="Agriculture &amp; Environment Journal Skills (30 journals)" width="150"></a>
+  <a href="Clinical-Medicine-Journal-Skills/"><img src="assets/covers/bundle-clinical-medicine.png" alt="Clinical Medicine Journal Skills (30 journals)" width="150"></a>
+  <a href="English-Humanities-Journal-Skills/"><img src="assets/covers/bundle-english-humanities.png" alt="English Humanities Journal Skills (36 journals)" width="150"></a>
+  <a href="Chinese-Sport-Science-Journal-Skills/"><img src="assets/covers/bundle-chinese-sport-science.png" alt="Chinese Sport Science Journal Skills (12 journals)" width="150"></a>
+</p>
+<p align="center">
+  <sub><b>🆕 Five newest discipline breadth bundles</b> — Engineering &amp; Technology 40 · Agriculture &amp; Environment 30 · Clinical Medicine 30 · English Humanities 36 · Chinese Sport Science 12; click a cover to open the bundle.</sub>
+</p>
+<p align="center">
   <a href="Economic-Research-Journal-Skills/"><img src="assets/covers/economic-research.png" alt="《经济研究》 Economic Research" width="160"></a>
   <a href="Journal-of-Management-World-Skills/"><img src="assets/covers/management-world.png" alt="《管理世界》 Management World" width="160"></a>
   <a href="Social-Sciences-in-China-Skills/"><img src="assets/covers/social-sciences-in-china.png" alt="《中国社会科学》 Social Sciences in China" width="160"></a>
