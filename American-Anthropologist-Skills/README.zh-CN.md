@@ -42,7 +42,8 @@ AA 的约束不同于单一子领域期刊或定量社会科学期刊：
 | 伦理            | **知情同意、匿名化、遗产／归还、问责**为核心                        | 伦理须在设计阶段嵌入，并影响能否发表                |
 | 特色栏目        | Vital Topics Forum · World／Public／Multimodal Anthropologies · 书评 | 提前选对栏目                                         |
 
-易变的具体信息（现任主编与任期、确切字数上限、ORCID／费用／APC、政策措辞）会变化——未直接确认者在
+**官方依据核对于 2026-06**（检索于 2026-06；以官网为准）。易变的具体信息（现任主编与任期、确切字数上限、
+ORCID／费用／APC、政策措辞）会变化——未直接确认者在
 [`resources/official-source-map.md`](resources/official-source-map.md) 中标注 **待核实**。**请以官网为准。**
 
 ### 栏目一览

@@ -46,9 +46,10 @@ AA's constraints differ from a single-subfield journal or a quantitative social-
 | Ethics                | **Consent, anonymization, heritage/repatriation, accountability** are central   | Ethics is designed in, and gates publication                     |
 | Distinctive sections  | Vital Topics Forums · World / Public / Multimodal Anthropologies · Review Essays | Choose the right section up front                                |
 
-Volatile specifics (current editor and term, exact caps, ORCID/fee/APC, policy wording) change — items
-not directly confirmed are marked **待核实** in
-[`resources/official-source-map.md`](resources/official-source-map.md). **Verify on the official page.**
+**Official basis checked 2026-06** (检索于 2026-06；以官网为准). Volatile specifics (current editor and
+term, exact caps, ORCID/fee/APC, policy wording) change — items not directly confirmed are marked
+**待核实** in [`resources/official-source-map.md`](resources/official-source-map.md). **Verify on the
+official page.**
 
 ### Sections at a glance
 
