@@ -35,6 +35,10 @@ A JAIS exhibit should have a single job a reader can state in a sentence. A resu
 | **Theory / conceptual** | the framework diagram, a propositions table | the diagram and the prose must say the same thing |
 | **Qualitative** | data-structure figure (codes → themes → dimensions), representative-quotation table | show the path from data to constructs |
 
+## Keep exhibits anonymized for double-blind review
+
+Tables and figures are a common place double-blind anonymity leaks: a screenshot showing an institutional logo or URL, a dataset name that identifies the field site, a figure caption thanking a named funder, or file metadata carrying the author's name. Before submission, scrub every exhibit and its source file — mask identifying screenshots, neutralize site/dataset names, and strip embedded metadata. An exhibit that de-anonymizes the authors triggers the same administrative return as a self-identifying citation, regardless of how strong the evidence is.
+
 ## Style and reporting norms
 
 - **APA 6th edition** governs table/figure formatting and notes (JAIS's required reference style) (检索于 2026-06；以官网为准).
