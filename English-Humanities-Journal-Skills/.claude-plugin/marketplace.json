@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "english-humanities-journal-skills",
+  "version": "0.1.0",
+  "description": "Per-journal fit-and-house-style skills for 36 flagship English-language humanities journals, plus en-humanities-journal-workflow routing.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "english-humanities-journal-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "English humanities journal routing and per-journal fit skills with argument-, source-, and style-guide discipline.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "humanities",
+        "history",
+        "philosophy",
+        "literary-studies",
+        "classics",
+        "art-history",
+        "religious-studies",
+        "linguistics",
+        "musicology"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/analysis",
+        "skills/art-history",
+        "skills/comparative-literature",
+        "skills/critical-inquiry",
+        "skills/en-humanities-journal-workflow",
+        "skills/ethics",
+        "skills/harvard-theological-review",
+        "skills/history-and-theory",
+        "skills/history-of-religions",
+        "skills/journal-of-linguistics",
+        "skills/journal-of-social-history",
+        "skills/journal-of-the-american-musicological-society",
+        "skills/language",
+        "skills/linguistic-inquiry",
+        "skills/mind",
+        "skills/modern-language-quarterly",
+        "skills/music-theory-spectrum",
+        "skills/natural-language-and-linguistic-theory",
+        "skills/new-literary-history",
+        "skills/nous",
+        "skills/october",
+        "skills/past-and-present",
+        "skills/philosophy-and-public-affairs",
+        "skills/pmla",
+        "skills/representations",
+        "skills/the-american-historical-review",
+        "skills/the-art-bulletin",
+        "skills/the-burlington-magazine",
+        "skills/the-classical-quarterly",
+        "skills/the-english-historical-review",
+        "skills/the-journal-of-aesthetics-and-art-criticism",
+        "skills/the-journal-of-modern-history",
+        "skills/the-journal-of-philosophy",
+        "skills/the-journal-of-religion",
+        "skills/the-journal-of-roman-studies",
+        "skills/the-philosophical-review",
+        "skills/the-william-and-mary-quarterly"
+      ]
+    }
+  ]
+}

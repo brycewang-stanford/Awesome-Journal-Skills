@@ -1,0 +1,25 @@
+{
+  "name": "english-humanities-journal-skills",
+  "description": "Agent skill stack for 36 flagship English-language humanities journals — completing the 'humanities' category that the existing breadth bundles leave thin. Covers the leading venues in history (The American Historical Review, Past & Present, The Journal of Modern History), philosophy (The Philosophical Review, Mind, Noûs, Ethics, Philosophy & Public Affairs), literary studies (PMLA, Critical Inquiry, New Literary History, Representations), classics (The Classical Quarterly, The Journal of Roman Studies), art and architectural history (The Art Bulletin, Art History, October, The Burlington Magazine), religious studies, linguistics (Language, Linguistic Inquiry), and musicology and aesthetics. One self-contained fit-and-house-style skill per journal, plus en-humanities-journal-workflow routing, with argument-, source-, and style-guide discipline appropriate to humanistic scholarship.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "humanities",
+    "history",
+    "philosophy",
+    "literary-studies",
+    "classics",
+    "art-history",
+    "religious-studies",
+    "linguistics",
+    "musicology",
+    "academic-writing",
+    "journal-submission"
+  ]
+}

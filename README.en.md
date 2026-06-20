@@ -1,7 +1,7 @@
 # Awesome Journal Skills (AJS)
 
 <p align="center">
-  <img src="assets/banner-en.png" alt="Awesome Journal Skills (AJS) — a one-stop index of journal-specific AI submission workflows: 2088 agent skills, 125 packs, 456 top journals, 155 CS/AI venues" width="100%">
+  <img src="assets/banner-en.png" alt="Awesome Journal Skills (AJS) — a one-stop index of journal-specific AI submission workflows: 2125 agent skills, 126 packs, 492 top journals, 155 CS/AI venues" width="100%">
 </p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -333,7 +333,7 @@ Use aer-workflow to assess how far my draft is from AER's bar and what to do nex
 | ⚙️ **Engineering & technology**<br><sub>control · communications · signal · power · robotics · photonics · biomedical engineering · materials</sub> | Proceedings of the IEEE · TAC · Automatica · Optica · Nature Electronics · Acta Materialia | EN breadth bundle |
 | 🤖 **Computer-science conferences**<br><sub>AI-first</sub> | NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS + 155 venues | depth packs + breadth bundle |
 
-<sub><b>125 packs / 2088 skills</b> total. A "depth pack" = one venue, end-to-end (~12 skills); a "breadth bundle" = one lightweight "venue-fit + house-style" skill per venue plus a router.</sub>
+<sub><b>126 packs / 2125 skills</b> total. A "depth pack" = one venue, end-to-end (~12 skills); a "breadth bundle" = one lightweight "venue-fit + house-style" skill per venue plus a router.</sub>
 
 ---
 
@@ -357,7 +357,7 @@ Rule of thumb: start from a root folder or cover card when browsing, use a bread
 
 ## 📂 200 Root Journal Folders
 
-For visual browsing at the repository root, the 200 social-science breadth journals now also have one lightweight folder each: 100 Chinese roadmap journals in pinyin folder names, and 100 English econ / finance / management / business journals in title-style folder names. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the 2088-skill count stay stable.
+For visual browsing at the repository root, the 200 social-science breadth journals now also have one lightweight folder each: 100 Chinese roadmap journals in pinyin folder names, and 100 English econ / finance / management / business journals in title-style folder names. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the 2125-skill count stay stable.
 
 ### Chinese Roadmap Journals · 100 Pinyin Folders
 
@@ -455,7 +455,7 @@ Take the most complete one — the **Economic Research depth pack** (18 skills) 
 
 ## 📚 The Skill Packs
 
-> **Scope.** This index targets **business & social-science flagships (Chinese + English)**, **humanities & broader social science** (sociology / political science / psychology / demography / communication / history / art / philosophy / literature / religion), **top natural-science / clinical / physical / environment / agriculture journals (English)**, **top engineering & technology journals (English)**, and **top computer-science conferences with AI first**. Each flagship venue ships as a **depth pack** (single-venue, end-to-end ~12-step workflow); seven **breadth bundles** add one fit-and-house-style skill per venue — [Computer-Science-Conference-Skills](Computer-Science-Conference-Skills/) for 155 CS conferences + router, [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) for 103 Chinese social-science journal profiles (the 100 China econ/management roadmap journals plus 3 broader social-science flagships), [English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) for the 100 mainstream English econ/finance/management/accounting/marketing/OM/IS journals, [English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) for 154 mainstream English natural-science / clinical / physical / formal-science journals, [Engineering-Technology-Journal-Skills](Engineering-Technology-Journal-Skills/) for 40 flagship English engineering and technology journals, [Agriculture-Environment-Journal-Skills](Agriculture-Environment-Journal-Skills/) for 30 flagship English agriculture, environment and earth-science journals, and [Clinical-Medicine-Journal-Skills](Clinical-Medicine-Journal-Skills/) for 30 flagship English specialty clinical-medicine journals. The flagship Chinese venues, AER on the English side, and the five natural-science flagships (Science, Cell, PNAS, NEJM, The Lancet) are intentionally covered both ways. Natural sciences also ship as **first-party depth packs** alongside the curated third-party Nature packs.
+> **Scope.** This index targets **business & social-science flagships (Chinese + English)**, **humanities & broader social science** (sociology / political science / psychology / demography / communication / history / art / philosophy / literature / religion), **top natural-science / clinical / physical / environment / agriculture journals (English)**, **top engineering & technology journals (English)**, and **top computer-science conferences with AI first**. Each flagship venue ships as a **depth pack** (single-venue, end-to-end ~12-step workflow); eight **breadth bundles** add one fit-and-house-style skill per venue — [Computer-Science-Conference-Skills](Computer-Science-Conference-Skills/) for 155 CS conferences + router, [Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) for 103 Chinese social-science journal profiles (the 100 China econ/management roadmap journals plus 3 broader social-science flagships), [English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) for the 100 mainstream English econ/finance/management/accounting/marketing/OM/IS journals, [English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) for 154 mainstream English natural-science / clinical / physical / formal-science journals, [Engineering-Technology-Journal-Skills](Engineering-Technology-Journal-Skills/) for 40 flagship English engineering and technology journals, [Agriculture-Environment-Journal-Skills](Agriculture-Environment-Journal-Skills/) for 30 flagship English agriculture, environment and earth-science journals, [Clinical-Medicine-Journal-Skills](Clinical-Medicine-Journal-Skills/) for 30 flagship English specialty clinical-medicine journals, and [English-Humanities-Journal-Skills](English-Humanities-Journal-Skills/) for 36 flagship English humanities journals. The flagship Chinese venues, AER on the English side, and the five natural-science flagships (Science, Cell, PNAS, NEJM, The Lancet) are intentionally covered both ways. Natural sciences also ship as **first-party depth packs** alongside the curated third-party Nature packs.
 
 ### Computer science · AI-first conference breadth bundle
 
@@ -1093,7 +1093,7 @@ This bundle is the natural-science sibling of the English social-science breadth
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | Ideation → writing → publication (Claude Code / OpenCode / Codex) | upstream |
 | **Codex/Claude Academic Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | Reading · writing · scientific computing | upstream |
 
-<sub><b>Count methodology.</b> The homepage <b>2088</b> = every <code>SKILL.md</code> minus the 10 duplicated Nature plugin-mirror files, spread across <b>125 packs</b>. All seven breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation: <b>1363</b> (113 in-repo depth packs, single venue end-to-end, ~12 skills each) + <b>619</b> (7 breadth bundles: CN social science 104 + EN social science 101 + EN natural science 155 + engineering technology 41 + agriculture environment 31 + clinical medicine 31 + CS conferences 156) + <b>106</b> (5 imported/submodule packs: AER 9 + Nature family 10 + Nature-Paper 18 + claude-scholar 45 + codex-claude 24) = <b>2088</b>. The figure is enforced in CI by <code>python3 tools/audit_repo.py</code>; the README and the actual file count are not allowed to drift.</sub>
+<sub><b>Count methodology.</b> The homepage <b>2125</b> = every <code>SKILL.md</code> minus the 10 duplicated Nature plugin-mirror files, spread across <b>126 packs</b>. All eight breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation: <b>1363</b> (113 in-repo depth packs, single venue end-to-end, ~12 skills each) + <b>656</b> (8 breadth bundles: CN social science 104 + EN social science 101 + EN natural science 155 + engineering technology 41 + agriculture environment 31 + clinical medicine 31 + English humanities 36 + CS conferences 156) + <b>106</b> (5 imported/submodule packs: AER 9 + Nature family 10 + Nature-Paper 18 + claude-scholar 45 + codex-claude 24) = <b>2125</b>. The figure is enforced in CI by <code>python3 tools/audit_repo.py</code>; the README and the actual file count are not allowed to drift.</sub>
 
 ---
 
@@ -1199,6 +1199,7 @@ awesome-journal-skills/
 ├── Engineering-Technology-Journal-Skills/ → EN engineering breadth bundle, 40-journal fit skills + router (41 skills)
 ├── Agriculture-Environment-Journal-Skills/ → EN agriculture/environment/earth breadth bundle, 30-journal fit skills + router (31 skills)
 ├── Clinical-Medicine-Journal-Skills/      → EN specialty clinical-medicine breadth bundle, 30-journal fit skills + router (31 skills)
+├── English-Humanities-Journal-Skills/     → EN humanities breadth bundle, 36-journal fit skills + router (37 skills)
 │   # CS/AI conference depth packs (first-party, authored / maintained here)
 ├── AAAI-Skills/                   → AAAI main technical track (12 skills)
 ├── AISTATS-Skills/                → AISTATS main conference (12 skills)
@@ -1308,7 +1309,7 @@ use next for my manuscript targeted at <journal>.
 
 ## 🗺 Roadmap
 
-**Status:** the seven breadth bundles are fully shipped (including the AI-first CS conference bundle, the engineering-technology bundle, the agriculture-environment bundle, and the clinical-medicine bundle); depth packs now extend beyond business & economics into **humanities & broader social science** (24 flagship venues across sociology, political science, psychology, demography, communication, history, art, philosophy, literature, religion) and **environment / ecology / agriculture** (6 venues), for a repo-wide total of **125 packs / 2088 skills**. The Roadmap now tracks the next tier of expansion.
+**Status:** the eight breadth bundles are fully shipped (including the AI-first CS conference bundle, the engineering-technology bundle, the agriculture-environment bundle, the clinical-medicine bundle, and the English-humanities bundle); depth packs now extend beyond business & economics into **humanities & broader social science** (24 flagship venues across sociology, political science, psychology, demography, communication, history, art, philosophy, literature, religion) and **environment / ecology / agriculture** (6 venues), for a repo-wide total of **126 packs / 2125 skills**. The Roadmap now tracks the next tier of expansion.
 
 ### ✅ Shipped
 
@@ -1320,6 +1321,7 @@ use next for my manuscript targeted at <journal>.
   - [Engineering-Technology-Journal-Skills](Engineering-Technology-Journal-Skills/) — 40 English engineering and technology journals
   - [Agriculture-Environment-Journal-Skills](Agriculture-Environment-Journal-Skills/) — 30 English agriculture, environment and earth-science journals
   - [Clinical-Medicine-Journal-Skills](Clinical-Medicine-Journal-Skills/) — 30 English specialty clinical-medicine journals
+  - [English-Humanities-Journal-Skills](English-Humanities-Journal-Skills/) — 36 English humanities journals
 - **Per-journal cover wall** for breadth journals, always-expanded cover galleries in both READMEs, and 200 lightweight root entry folders for repo-front browsing.
 - **Full end-to-end depth packs (~12 steps)** — 113 first-party venue packs across five areas (AER and Nature additionally ship as curated submodule packs):
   - **English economics:** AER (submodule) · QJE · JPE · Econometrica · REStud · Journal of Development Economics · Journal of Public Economics · Journal of Labor Economics · Journal of International Economics · Journal of Monetary Economics · RAND Journal of Economics · Journal of Econometrics · Econometric Theory · Quantitative Economics · Journal of Applied Econometrics · JBES · The Econometrics Journal · Review of Economic Dynamics · Journal of Economic Growth · Journal of Economic Theory · Games and Economic Behavior · Journal of Human Resources

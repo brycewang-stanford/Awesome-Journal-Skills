@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="1100" viewBox="0 0 880 1100" role="img" aria-label="English Humanities Journal Skills — 36 flagship humanities journals">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1206"/>
+      <stop offset="0.55" stop-color="#2c1d0c"/>
+      <stop offset="1" stop-color="#23170e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e7b75f"/>
+      <stop offset="0.5" stop-color="#d99a55"/>
+      <stop offset="1" stop-color="#c2703c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="880" height="1100" fill="url(#bg)"/>
+  <rect x="36" y="36" width="808" height="1028" rx="28" fill="none" stroke="#4a3318" stroke-width="2"/>
+
+  <!-- open book + column motif -->
+  <g transform="translate(440,250)" stroke="url(#accent)" fill="none" opacity="0.9">
+    <path d="M-130 40 C -90 10, -20 10, 0 30 C 20 10, 90 10, 130 40" stroke-width="3"/>
+    <path d="M-130 40 L -130 -36 C -90 -66, -20 -66, 0 -46 C 20 -66, 90 -66, 130 -36 L 130 40" stroke-width="3"/>
+    <line x1="0" y1="-46" x2="0" y2="30" stroke-width="2.4"/>
+    <line x1="-96" y1="-30" x2="-30" y2="-40" stroke-width="1.4"/>
+    <line x1="-96" y1="-10" x2="-30" y2="-20" stroke-width="1.4"/>
+    <line x1="96" y1="-30" x2="30" y2="-40" stroke-width="1.4"/>
+    <line x1="96" y1="-10" x2="30" y2="-20" stroke-width="1.4"/>
+  </g>
+  <g transform="translate(440,250)" stroke="#c2703c" stroke-width="2" fill="none" opacity="0.5">
+    <line x1="-150" y1="78" x2="150" y2="78"/>
+    <line x1="-150" y1="84" x2="150" y2="84"/>
+  </g>
+
+  <text x="440" y="470" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="64" fill="#f6ecd9" font-weight="700">Humanities</text>
+  <text x="440" y="534" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#e7b75f" font-weight="600">Journal Skills</text>
+
+  <line x1="240" y1="586" x2="640" y2="586" stroke="#4a3318" stroke-width="2"/>
+
+  <text x="440" y="644" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="30" fill="#e8d8bd">36 flagship humanities journals</text>
+  <text x="440" y="686" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#b79a72">AHR · PMLA · The Philosophical Review · Mind</text>
+  <text x="440" y="718" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#b79a72">Critical Inquiry · The Art Bulletin · Language</text>
+
+  <text x="440" y="772" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="20" fill="#9c8260">history · philosophy · literature · classics</text>
+  <text x="440" y="800" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="20" fill="#9c8260">art history · religion · linguistics · musicology</text>
+
+  <g font-family="-apple-system, 'Segoe UI', sans-serif" font-size="20" fill="#1a1206">
+    <rect x="250" y="836" width="160" height="44" rx="22" fill="url(#accent)"/>
+    <text x="330" y="864" text-anchor="middle" font-weight="700">fit · framing</text>
+    <rect x="470" y="836" width="160" height="44" rx="22" fill="#d99a55"/>
+    <text x="550" y="864" text-anchor="middle" font-weight="700">house style</text>
+  </g>
+
+  <text x="440" y="968" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="20" fill="#7c6648">One fit-and-house-style skill per journal</text>
+  <text x="440" y="998" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="20" fill="#7c6648">+ en-humanities-journal-workflow routing</text>
+</svg>
