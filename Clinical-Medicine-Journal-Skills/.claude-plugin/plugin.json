@@ -1,0 +1,27 @@
+{
+  "name": "clinical-medicine-journal-skills",
+  "description": "Agent skill stack for 30 flagship English-language specialty clinical-medicine journals — deepening the clinical-medicine category beyond the general big-four (NEJM, Lancet, JAMA, BMJ) and broad-specialty venues already covered by the natural-science bundle. Covers the JAMA Network specialty journals (Internal Medicine, Oncology, Cardiology, Neurology, Pediatrics, Psychiatry, Surgery), the Lancet specialty titles (Respiratory Medicine, Diabetes & Endocrinology, Public Health, Psychiatry), and the leading society/specialty flagships across oncology, respiratory/critical care, nephrology, endocrinology, hepatology/GI, allergy/immunology, rheumatology, neurology, radiology, anesthesiology, obstetrics/gynecology, and urology. One self-contained fit-and-house-style skill per journal, plus en-clinmed-journal-workflow routing, with reporting-guideline and trial-registration discipline.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "clinical-medicine",
+    "medicine",
+    "clinical-trials",
+    "oncology",
+    "cardiology",
+    "neurology",
+    "nephrology",
+    "endocrinology",
+    "radiology",
+    "psychiatry",
+    "reporting-guidelines",
+    "academic-writing",
+    "journal-submission"
+  ]
+}

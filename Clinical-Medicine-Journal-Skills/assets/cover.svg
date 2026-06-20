@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="1100" viewBox="0 0 880 1100" role="img" aria-label="Clinical Medicine Journal Skills — 30 flagship specialty clinical journals">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#120a10"/>
+      <stop offset="0.55" stop-color="#2a0f1c"/>
+      <stop offset="1" stop-color="#0f2030"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fb7185"/>
+      <stop offset="0.5" stop-color="#f43f5e"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="880" height="1100" fill="url(#bg)"/>
+  <rect x="36" y="36" width="808" height="1028" rx="28" fill="none" stroke="#3a2330" stroke-width="2"/>
+
+  <!-- pulse / ECG motif inside a cross -->
+  <g transform="translate(440,250)">
+    <circle r="104" fill="none" stroke="url(#accent)" stroke-width="2.5" opacity="0.8"/>
+    <rect x="-22" y="-78" width="44" height="156" rx="10" fill="url(#accent)" opacity="0.16"/>
+    <rect x="-78" y="-22" width="156" height="44" rx="10" fill="url(#accent)" opacity="0.16"/>
+    <path d="M-96 0 H-46 L-30 -44 L -6 52 L 14 -22 L 30 0 H96"
+          fill="none" stroke="url(#accent)" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+
+  <text x="440" y="470" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="60" fill="#fdeef2" font-weight="700">Clinical</text>
+  <text x="440" y="538" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="60" fill="#fdeef2" font-weight="700">Medicine</text>
+  <text x="440" y="600" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#fb7185" font-weight="600">Journal Skills</text>
+
+  <line x1="240" y1="648" x2="640" y2="648" stroke="#3a2330" stroke-width="2"/>
+
+  <text x="440" y="706" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="30" fill="#f1d6dd">30 flagship specialty clinical journals</text>
+  <text x="440" y="748" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#c39aa6">JAMA &amp; Lancet specialty · Radiology · Brain</text>
+  <text x="440" y="780" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#c39aa6">CONSORT · PRISMA · STROBE · trial registration</text>
+
+  <g font-family="-apple-system, 'Segoe UI', sans-serif" font-size="20" fill="#120a10">
+    <rect x="250" y="828" width="160" height="44" rx="22" fill="url(#accent)"/>
+    <text x="330" y="856" text-anchor="middle" font-weight="700">fit · framing</text>
+    <rect x="470" y="828" width="160" height="44" rx="22" fill="#38bdf8"/>
+    <text x="550" y="856" text-anchor="middle" font-weight="700">house style</text>
+  </g>
+
+  <text x="440" y="960" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="20" fill="#8a6a74">One fit-and-house-style skill per journal</text>
+  <text x="440" y="990" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="20" fill="#8a6a74">+ en-clinmed-journal-workflow routing</text>
+</svg>

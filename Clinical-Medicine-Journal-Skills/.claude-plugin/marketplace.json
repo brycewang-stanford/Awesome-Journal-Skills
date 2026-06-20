@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "clinical-medicine-journal-skills",
+  "version": "0.1.0",
+  "description": "Per-journal fit-and-house-style skills for 30 flagship English-language specialty clinical-medicine journals, plus en-clinmed-journal-workflow routing.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "clinical-medicine-journal-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "English specialty clinical-medicine journal routing and per-journal fit skills with reporting-guideline, trial-registration, and official-submission-check discipline.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "clinical-medicine",
+        "medicine",
+        "clinical-trials",
+        "oncology",
+        "cardiology",
+        "neurology",
+        "nephrology",
+        "endocrinology",
+        "radiology",
+        "psychiatry"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/american-journal-of-gastroenterology",
+        "skills/american-journal-of-obstetrics-and-gynecology",
+        "skills/american-journal-of-respiratory-and-critical-care-medicine",
+        "skills/anesthesiology",
+        "skills/annals-of-oncology",
+        "skills/arthritis-and-rheumatology",
+        "skills/brain",
+        "skills/critical-care-medicine",
+        "skills/diabetologia",
+        "skills/en-clinmed-journal-workflow",
+        "skills/european-urology",
+        "skills/hepatology",
+        "skills/jama-cardiology",
+        "skills/jama-internal-medicine",
+        "skills/jama-neurology",
+        "skills/jama-oncology",
+        "skills/jama-pediatrics",
+        "skills/jama-psychiatry",
+        "skills/jama-surgery",
+        "skills/journal-of-allergy-and-clinical-immunology",
+        "skills/journal-of-clinical-endocrinology-and-metabolism",
+        "skills/journal-of-hepatology",
+        "skills/journal-of-the-american-society-of-nephrology",
+        "skills/kidney-international",
+        "skills/nature-reviews-clinical-oncology",
+        "skills/radiology",
+        "skills/stroke",
+        "skills/the-lancet-diabetes-and-endocrinology",
+        "skills/the-lancet-psychiatry",
+        "skills/the-lancet-public-health",
+        "skills/the-lancet-respiratory-medicine"
+      ]
+    }
+  ]
+}
