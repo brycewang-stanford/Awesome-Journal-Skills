@@ -144,7 +144,13 @@ def pack_cue_words(pack: Path, skills: list[Path] | None = None) -> set[str]:
 def score_pack(pack: Path) -> dict:
     skills = skill_files(pack)
     n = len(skills)
-    is_breadth = n >= 50
+    # Breadth bundles are venue-fit-card collections (one fit card per venue + a
+    # router), so their capability layer is routing, not a depth-pack code library.
+    # Single-venue depth packs top out at ~18 skills, while breadth bundles run from
+    # the low-30s (a focused discipline bundle) up to 150+; a threshold of 25 sits
+    # cleanly between the two and avoids penalising smaller, genuine breadth bundles
+    # for "missing" a code library they are not meant to ship.
+    is_breadth = n >= 25
     is_conference_depth = pack.name in CONFERENCE_DEPTH_PACKS
 
     line_counts: list[int] = []
