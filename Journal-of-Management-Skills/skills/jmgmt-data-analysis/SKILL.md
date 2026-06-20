@@ -1,70 +1,88 @@
 ---
 name: jmgmt-data-analysis
-description: Use when working on data analysis for a Journal of Management manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when estimation and results are the bottleneck for a Journal of Management (JOM) manuscript — SEM/CFA, HLM/multilevel, regression and interactions, mediation/moderation, and meta-analytic estimation with artifact corrections. Runs and validates the analysis; it does not design the study (jmgmt-methods) or frame the contribution (jmgmt-contribution-framing).
 ---
 
 # Data Analysis (jmgmt-data-analysis)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Management (JOMgmt)** and data analysis is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's management theory and empirical work across organizational behavior, strategy, HR, entrepreneurship, and research methods standard.
-- The paper risks being confused with nearby venues: Academy of Management Journal, Strategic Management Journal, Organization Science, and Journal of Management Studies.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The model is fit but a reviewer questions the measurement model or fit indices
+- Mediation/moderation is tested in a way a JOM methods reviewer would challenge
+- Nested data are being analyzed without modeling the nesting
+- A meta-analysis needs the right estimator, corrections, and heterogeneity diagnostics
+- Results are reported with significance asterisks and no effect sizes
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| management theory contribution is central | Make the management theory contribution assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| multi-study design is central | Make the multi-study design assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| construct validity is central | Make the construct validity assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| organizational mechanism is central | Make the organizational mechanism assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| boundary conditions is central | Make the boundary conditions assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The JOM analysis bar
 
-## JOMgmt fit notes
+JOM houses some of the field's leading **research-methods** scholars and runs methods reviews, so analysis is read by an unusually demanding audience. The expectation is a **transparent measurement model before the structural model**, **effect sizes and confidence intervals** alongside tests (not p-stars alone), and analysis choices that match the level and design set in `jmgmt-methods`. Report enough that the analysis is reconstructable from the paper and the (anonymized) data transparency table.
 
-- Publisher / owner context: SAGE for the Southern Management Association.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: management theory contribution, multi-study design, construct validity, organizational mechanism, boundary conditions.
-- Sibling boundary: Academy of Management Journal, Strategic Management Journal, Organization Science, and Journal of Management Studies.
-- House-style aim: theory-driven management research with clean construct logic and robust empirical design.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/jom
-- https://journals.sagepub.com/author-instructions/JOM
+## Branch paths
 
-## Stage-specific moves
+### Branch A: SEM / CFA (latent-variable micro models)
+- Report the **measurement model first**: standardized loadings, reliability (composite reliability/ω, not only α), AVE, and a **discriminant-validity** check (AVE vs. squared inter-construct correlations, or HTMT).
+- Report multiple **fit indices** (χ²/df, CFI/TLI, RMSEA with CI, SRMR) — never a single index.
+- For mediation, report the **indirect effect with a bootstrap CI** (e.g., 5,000 resamples, bias-corrected); do not infer mediation from a Sobel test alone or from two significant paths.
+- Compare the hypothesized model against a theoretically motivated alternative.
 
-1. State the exact data analysis question in one sentence.
-2. Identify which JOMgmt audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jmgmt-contribution-framing` if the stage passes, or back to `jmgmt-workflow` if it does not.
+### Branch B: Multilevel / HLM (nested data)
+- Report **null-model ICC(1)/ICC(2)** to justify multilevel modeling; group-mean-center level-1 predictors where the theory concerns within-group effects, and say which centering and why.
+- Model **random slopes** when testing cross-level moderation; report the variance components.
+- Test cross-level interactions with adequate level-2 N; do not over-interpret a cross-level slope from few groups.
+
+### Branch C: Regression / interactions (archival or single-level)
+- Report standardized and unstandardized coefficients, robust/clustered SEs as appropriate, and **effect sizes** (ΔR², f²).
+- **Probe interactions**: simple slopes at ±1 SD, an interaction plot, and a region-of-significance (Johnson–Neyman) where useful.
+- For curvilinear claims, test the quadratic term *and* report the turning point with a CI.
+- Carry the endogeneity strategy from `jmgmt-methods` through to the estimates (first-stage strength, exclusion logic).
+
+### Branch D: Meta-analysis
+- Use the chosen model (Hunter–Schmidt psychometric vs. Hedges–Olkin random-effects); report **k, total N, corrected mean effect, 95% CI, and the 80% credibility interval**.
+- Report heterogeneity (Q, I², τ²); run **moderator/meta-regression** tied to competing theories.
+- Run **publication-bias diagnostics** (funnel/trim-and-fill, Egger's, PET-PEESE or selection models) and discuss robustness.
+
+## Robustness the JOM audience expects
+
+Because JOM reviewers are methods-literate, anticipate the standard robustness asks rather than waiting for them: report the focal result under alternative specifications (with/without controls, alternative operationalizations), show it is not driven by influential cases, and — for archival work — report the endogeneity-corrected estimate alongside the naive one so the reader sees how much the correction moves the coefficient. Park the full robustness battery in the online supplement and summarize it in a sentence in the main text; the 50-page limit makes the supplement essential, not optional.
+
+## Worked vignette (illustrative)
+
+A multilevel paper claims a cross-level moderation: team climate strengthens the individual-level link between role clarity and performance. The weak version reports a significant level-2 × level-1 product term and stops. The JOM-grade version reports the **ICC(1) = .18** that justifies HLM, grand-mean-centers the level-2 moderator and group-mean-centers the level-1 predictor (stating why), fits a **random-slope** model, reports the cross-level interaction with its CI, and **plots the simple slopes** of role clarity at high vs. low team climate. The plot, not the p-value, is what convinces a reviewer the moderation is real and correctly modeled.
 
 ## Checklist
-- [ ] The JOMgmt audience can see why the paper belongs in management theory and empirical work across organizational behavior, strategy, HR, entrepreneurship, and research methods.
-- [ ] The draft distinguishes JOMgmt from Academy of Management Journal, Strategic Management Journal, Organization Science.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for data analysis names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Measurement model reported before the structural model (loadings, CR/ω, AVE, discriminant)
+- [ ] Multiple fit indices reported, not a single favorable one
+- [ ] Mediation tested with bootstrap CIs; moderation probed with simple slopes/plots
+- [ ] Nested data modeled with HLM; ICC and centering reported and justified
+- [ ] Effect sizes and CIs reported alongside significance (not asterisks alone)
+- [ ] Endogeneity strategy reflected in the estimates (first-stage, diagnostics)
+- [ ] (Meta) corrected effects, credibility intervals, heterogeneity, bias diagnostics
+- [ ] Analysis matches the level and design from jmgmt-methods
+
+## Reproducibility under masked review
+
+JOM's masked review and its data transparency table mean the analysis must be *describable* in enough detail to reconstruct without revealing the authors. Report the software and key package versions, the estimator and its options (e.g., MLR estimation, bootstrap resamples, centering choices), and how missing data were handled (FIML vs. listwise vs. multiple imputation). Where a method has researcher degrees of freedom — moderator coding in a meta-analysis, item parceling in SEM — state the choice and show the result is not an artifact of it. This is what turns "trust me" into "check me" for a methods-literate referee.
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JOMgmt without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Structural model without a measurement model** — reporting paths before establishing the constructs
+- **Cherry-picked fit index** (only CFI, hiding a bad RMSEA)
+- **Mediation by two significant paths** or a bare Sobel test, no bootstrap CI
+- **Unprobed interactions** — a significant product term with no simple slopes or plot
+- **OLS on nested data**, ignoring non-independence
+- **p-stars without effect sizes** — JOM wants the magnitude, not just the verdict
+- **Meta-analysis with no artifact corrections, no credibility interval, no bias check**
 
 ## Output format
 
-```text
-【Journal】Journal of Management
-【Skill】jmgmt-data-analysis
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking data analysis
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Academy of Management Journal, Strategic Management Journal
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jmgmt-contribution-framing
+```
+【Branch】SEM/CFA / HLM / regression / meta-analysis
+【Measurement】loadings, CR/ω, AVE, discriminant (HTMT?) ...
+【Fit / model comparison】CFI/TLI/RMSEA(CI)/SRMR; alt model ...
+【Focal effects】coef + effect size + CI (no asterisk-only)
+【Mediation/moderation】bootstrap CI / simple slopes / J-N ...
+【Multilevel】ICC, centering, random slopes ...
+【Meta】k, N, corrected effect, 80% CV, I², bias checks ...
+【Next step】jmgmt-contribution-framing
 ```

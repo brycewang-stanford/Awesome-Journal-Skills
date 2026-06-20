@@ -1,70 +1,89 @@
 ---
 name: jmgmt-contribution-framing
-description: Use when working on contribution framing for a Journal of Management manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when turning results into an explicit theoretical contribution for a Journal of Management (JOM) manuscript — the "what new theory do we learn?" statement and the discussion section. Frames the contribution; it does not build the original theory (jmgmt-theory-development) or run the analysis (jmgmt-data-analysis).
 ---
 
-# Contribution Framing (jmgmt-contribution-framing)
+# Contribution Framing & Discussion (jmgmt-contribution-framing)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Management (JOMgmt)** and contribution framing is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's management theory and empirical work across organizational behavior, strategy, HR, entrepreneurship, and research methods standard.
-- The paper risks being confused with nearby venues: Academy of Management Journal, Strategic Management Journal, Organization Science, and Journal of Management Studies.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Results are in but the "so what for theory" is vague or missing
+- The discussion restates findings instead of advancing the theory
+- A reviewer says the contribution is "incremental," "descriptive," or "unclear"
+- You can describe what you found but not what the field now knows that it did not before
+- A meta-analysis reports corrected effects but never says what theory they settle
+- The practical-implications paragraph is generic ("managers should pay attention to X")
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| management theory contribution is central | Make the management theory contribution assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| multi-study design is central | Make the multi-study design assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| construct validity is central | Make the construct validity assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| organizational mechanism is central | Make the organizational mechanism assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| boundary conditions is central | Make the boundary conditions assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The contribution question JOM asks
 
-## JOMgmt fit notes
+JOM's gate is the **theoretical contribution**: *what do we now understand about the theory that we did not before?* Strong results with no theoretical advance read as a technical report, not a JOM paper — and that is true for empirical papers *and* for meta-analyses/reviews, which must move theory, not merely tally effects. Because JOM is a general-management journal, the best contributions also **travel across subfields**: a mechanism uncovered in HR that informs strategy or entrepreneurship is exactly the kind of cross-cutting advance JOM prizes.
 
-- Publisher / owner context: SAGE for the Southern Management Association.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: management theory contribution, multi-study design, construct validity, organizational mechanism, boundary conditions.
-- Sibling boundary: Academy of Management Journal, Strategic Management Journal, Organization Science, and Journal of Management Studies.
-- House-style aim: theory-driven management research with clean construct logic and robust empirical design.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/jom
-- https://journals.sagepub.com/author-instructions/JOM
+## Types of theoretical contribution (claim the right one)
 
-## Stage-specific moves
+| Contribution type | What it does |
+|-------------------|--------------|
+| Reveal a new mechanism | Explains *why* an established effect occurs |
+| Establish a boundary | Shows *when* an effect holds, weakens, or reverses |
+| Adjudicate competing theories | Shows which of two rival predictions holds, and why |
+| Integrate / bridge | Connects two literatures into a more general account |
+| Challenge an assumption | Overturns a taken-for-granted premise (problematization) |
+| Introduce/refine a construct | Conceptualizes and validates a construct that earns its keep |
+| Synthesize & redirect | (Review/meta) consolidates a literature and sets the agenda |
 
-1. State the exact contribution framing question in one sentence.
-2. Identify which JOMgmt audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jmgmt-tables-figures` if the stage passes, or back to `jmgmt-workflow` if it does not.
+State explicitly which type(s) you claim; do not gesture at "contributing to the literature."
+
+## Writing the discussion
+
+A strong JOM discussion typically:
+
+1. **Restates the core finding** in theoretical terms (one short paragraph, no number-dump).
+2. **Theoretical implications** — for each, name the literature, state what changes, and how. This is the heart of the section, and where cross-subfield reach should be made explicit.
+3. **Practical implications** — specific to the phenomenon and grounded in the findings, never boilerplate.
+4. **Limitations** — honest, but framed as **boundary conditions and future directions**, not fatal confessions.
+5. **Future research** — concrete questions the study opens, tied to the mechanism/boundary.
+
+Match the discussion to the front end: the contributions claimed here must be the ones promised in the introduction. A reviewer will check that the intro's promise and the discussion's delivery line up.
+
+## Contribution framing for a meta-analysis / review
+
+- A meta-analysis's contribution is the **theoretical resolution** the pooled evidence provides — which moderator pattern adjudicates which theory — plus the agenda its credibility intervals and heterogeneity reveal.
+- A review's contribution is its **organizing framework** and **forward research agenda**; the discussion should make the agenda concrete and theory-anchored, not a generic "more research is needed."
+
+## The contribution statement (intro and discussion)
+
+Draft 2–4 explicit contribution sentences and place a version in the introduction and the discussion. Each: "We contribute to [literature] by showing [mechanism/boundary/integration/adjudication], which advances [theory] because [reason]."
 
 ## Checklist
-- [ ] The JOMgmt audience can see why the paper belongs in management theory and empirical work across organizational behavior, strategy, HR, entrepreneurship, and research methods.
-- [ ] The draft distinguishes JOMgmt from Academy of Management Journal, Strategic Management Journal, Organization Science.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for contribution framing names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] The contribution type is named (mechanism/boundary/adjudication/integration/assumption/construct/synthesis)
+- [ ] 2–4 explicit contribution sentences, consistent between intro and discussion
+- [ ] Discussion advances theory; cross-subfield reach made explicit where it exists
+- [ ] Practical implications specific to the phenomenon and the findings
+- [ ] Limitations framed as boundary conditions + future directions
+- [ ] Future research follows from the mechanism/boundary, not generic
+- [ ] (Meta/review) the theoretical resolution / forward agenda is explicit
+- [ ] Intro's promised contribution = discussion's delivered contribution
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JOMgmt without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Restating results as "contribution"**: "We found A affects B" is a finding, not a contribution
+- **Incremental framing**: "we extend prior work to a new setting" with no theoretical change
+- **Over-claiming**: a paradigm shift a single study cannot support
+- **Boilerplate practical implications**: "managers should be aware of X," untethered from data
+- **Coefficient-census meta-analysis**: corrected effects with no theory they settle
+- **Intro/discussion mismatch**: promising one contribution, delivering another
+- **Limitations as confession**: flaws listed without converting them into boundary conditions
 
 ## Output format
 
-```text
-【Journal】Journal of Management
-【Skill】jmgmt-contribution-framing
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking contribution framing
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Academy of Management Journal, Strategic Management Journal
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jmgmt-tables-figures
+```
+【Contribution type(s)】mechanism / boundary / adjudication / integration / assumption / construct / synthesis
+【Contribution sentences】1–4 (intro = discussion)
+【Theoretical implications】per literature: what changes and why ...
+【Cross-subfield reach】who else in management this informs ...
+【Practical implications】specific, grounded ...
+【Limitations → boundaries】...
+【Future research】concrete, mechanism-tied ...
+【Intro↔discussion consistency】yes/no
+【Next step】jmgmt-tables-figures
 ```

@@ -1,70 +1,70 @@
 ---
 name: revacc-writing-style
-description: Use when working on writing style for a Review of Accounting Studies manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the prose is the bottleneck for a Review of Accounting Studies (RAST) manuscript — front-loading the contribution, writing an abstract and introduction that land, and adopting the accounting house voice. Polishes the manuscript; it does not sharpen the contribution claim (revacc-contribution-framing) or build exhibits (revacc-tables-figures).
 ---
 
 # Writing Style (revacc-writing-style)
 
 ## When to trigger
-- The manuscript is aimed at **Review of Accounting Studies (RAST)** and writing style is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's analytical, empirical, and experimental accounting research with strong economics foundations standard.
-- The paper risks being confused with nearby venues: The Accounting Review, Journal of Accounting Research, Journal of Accounting and Economics, and Contemporary Accounting Research.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The introduction buries the result under setup and literature
+- The abstract describes the topic but not the finding or its implication
+- The prose is passive, jargon-heavy, or reads like a finance paper that forgot the accounting
+- An analytical paper drowns the intuition in notation before the reader sees the payoff
+- You are doing the final pass and the manuscript voice does not match RAST's
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| accounting disclosure is central | Make the accounting disclosure assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| audit quality is central | Make the audit quality assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| capital-market accounting is central | Make the capital-market accounting assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| tax and reporting is central | Make the tax and reporting assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| earnings information is central | Make the earnings information assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Write the contribution first, everywhere
 
-## RAST fit notes
+RAST's first-round-decision culture rewards a manuscript whose contribution is unmissable on page one. The intro should reach the **result and its accounting implication within the first page** — not after three pages of institutional background. Use the canonical accounting-paper intro arc, compressed:
 
-- Publisher / owner context: Springer.
-- Submission route to re-check: Springer Nature submission.
-- Signature vocabulary: accounting disclosure, audit quality, capital-market accounting, tax and reporting, earnings information.
-- Sibling boundary: The Accounting Review, Journal of Accounting Research, Journal of Accounting and Economics, and Contemporary Accounting Research.
-- House-style aim: accounting research that links institutional reporting detail to credible economic mechanisms.
-- Official URLs currently used by the pack:
-- https://link.springer.com/journal/11142
-- https://www.springer.com/journal/11142/submission-guidelines
+1. **The accounting question** in one or two sentences, with why it matters for reporting/markets.
+2. **What you do** — the setting, design or model, in one paragraph.
+3. **What you find** — the headline result with its economic magnitude (or the proposition with its accounting reading).
+4. **Why it is credible** — the identification or the modeling move, briefly.
+5. **The contribution** — what the field learns and the conversation it joins (one paragraph, not a list).
 
-## Stage-specific moves
+## The abstract has to do real work
 
-1. State the exact writing style question in one sentence.
-2. Identify which RAST audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `revacc-submission` if the stage passes, or back to `revacc-workflow` if it does not.
+Within the journal's limit (~150–250 words, 待核实; 检索于 2026-06), the abstract must state the question, the design/data or the model, the **finding with direction**, and the implication. Cut "this paper examines"; lead with what is true. A topic-only abstract that withholds the result reads as thin to a journal that often decides in one round.
+
+## The accounting house voice
+
+- **Active and direct:** "We find that mandatory disclosure reduces…" not "It is found that…".
+- **Construct discipline:** define the accounting construct on first use and use it consistently; do not let "disclosure quality" drift between proxies mid-paper.
+- **Mechanism in the verbs:** "tightens monitoring," "relaxes the covenant," "disciplines investment" — the channel should live in the prose, not only the hypotheses.
+- **Institutional precision without overload:** give exactly the reporting/regulatory detail the result needs; relegate the rest.
+- **For analytical papers:** intuition before algebra. State the result in words, then formalize; keep proofs in the appendix.
+
+## Sequence and scope
+
+Polish prose **last**, after identification/model, exhibits, and contribution are settled — rewriting the intro around a result you may still rebuild wastes effort. On a near-final pass: read the intro aloud, ensure each results paragraph maps to a numbered exhibit, and confirm the abstract and intro tell the *same* story as the conclusion.
 
 ## Checklist
-- [ ] The RAST audience can see why the paper belongs in analytical, empirical, and experimental accounting research with strong economics foundations.
-- [ ] The draft distinguishes RAST from The Accounting Review, Journal of Accounting Research, Journal of Accounting.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for writing style names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] The result and its accounting implication appear on the first page of the intro
+- [ ] The abstract states question, design/model, finding-with-direction, and implication within the limit
+- [ ] Prose is active; "this paper examines" and empty hedges are cut
+- [ ] The focal accounting construct is defined once and used consistently
+- [ ] The channel/mechanism lives in the verbs, not just the hypothesis list
+- [ ] Analytical sections give intuition before notation; proofs are in the appendix
+- [ ] Abstract, intro, and conclusion tell one consistent story
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to RAST without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Buried lede:** the finding arrives on page four after exhaustive background.
+- **Topic-only abstract:** describes the area, withholds the result.
+- **Passive-voice fog:** "it is documented that…" draining agency from the claim.
+- **Construct drift:** the key term silently changes meaning across sections.
+- **Notation wall:** an analytical paper that formalizes before the reader sees the point.
+- **Finance-in-disguise prose:** the accounting payoff never surfaces in the writing.
 
 ## Output format
 
 ```text
-【Journal】Review of Accounting Studies
-【Skill】revacc-writing-style
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking writing style
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not The Accounting Review, Journal of Accounting Research
-【Source status】verified URL / 待核实 / not asserted
+【Intro arc】question → what we do → finding → credibility → contribution (all on p.1?)
+【Abstract】question + design/model + finding-with-direction + implication; within limit (待核实)
+【Voice】active? construct defined once? channel in the verbs?
+【Analytical】intuition-before-notation? proofs in appendix?
+【Consistency】abstract = intro = conclusion story
 【Next skill】revacc-submission
 ```

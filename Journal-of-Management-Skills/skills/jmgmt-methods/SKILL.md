@@ -1,70 +1,90 @@
 ---
 name: jmgmt-methods
-description: Use when working on methods for a Journal of Management manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when research design and measurement are the bottleneck for a Journal of Management (JOM) manuscript — matching design to the theoretical claim, construct validity, common-method bias, endogeneity, multilevel structure, and (for meta-analyses) coding/artifact corrections. Designs the study; it does not run the estimation (jmgmt-data-analysis).
 ---
 
-# Methods (jmgmt-methods)
+# Research Design & Methods (jmgmt-methods)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Management (JOMgmt)** and methods is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's management theory and empirical work across organizational behavior, strategy, HR, entrepreneurship, and research methods standard.
-- The paper risks being confused with nearby venues: Academy of Management Journal, Strategic Management Journal, Organization Science, and Journal of Management Studies.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The design may not match the theory's level, timing, or causal claim
+- Data are single-source, single-wave, self-reported (common-method bias risk)
+- The theory is causal but the design is cross-sectional/correlational
+- Constructs lack established, validated measures
+- A meta-analysis needs a defensible coding protocol and artifact-correction plan
+- A reviewer says "the design cannot test this hypothesis" or "endogeneity is unaddressed"
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| management theory contribution is central | Make the management theory contribution assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| multi-study design is central | Make the multi-study design assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| construct validity is central | Make the construct validity assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| organizational mechanism is central | Make the organizational mechanism assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| boundary conditions is central | Make the boundary conditions assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Match the design to the claim
 
-## JOMgmt fit notes
+JOM welcomes **all empirical methods** — survey, experiment, archival panel, multilevel field study, qualitative, and meta-analysis — and judges on *fit and rigor*, not a preferred method. JOM's **research-methods identity** (it explicitly covers research methods and runs methods-focused reviews) means design choices are scrutinized closely.
 
-- Publisher / owner context: SAGE for the Southern Management Association.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: management theory contribution, multi-study design, construct validity, organizational mechanism, boundary conditions.
-- Sibling boundary: Academy of Management Journal, Strategic Management Journal, Organization Science, and Journal of Management Studies.
-- House-style aim: theory-driven management research with clean construct logic and robust empirical design.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/jom
-- https://journals.sagepub.com/author-instructions/JOM
+| Theoretical claim | Design that earns it |
+|-------------------|----------------------|
+| Causal effect of a manipulable cause | Experiment (lab/online/field), or natural experiment |
+| Process unfolding over time | Multi-wave panel; longitudinal/lagged design |
+| Firm/strategy outcome from archival cause | Panel archival with fixed effects + an endogeneity strategy |
+| Cross-level mechanism (team→individual) | Multilevel/nested data analyzed with HLM, not OLS |
+| Synthesis across a literature | Meta-analysis with a pre-registered coding protocol |
 
-## Stage-specific moves
+A two-study design (field study for generalizability + experiment for the causal mechanism) is a recognized JOM strength — it buys internal and external validity at once.
 
-1. State the exact methods question in one sentence.
-2. Identify which JOMgmt audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jmgmt-data-analysis` if the stage passes, or back to `jmgmt-workflow` if it does not.
+## Designing against the threats JOM referees punish
+
+- **Common-method bias (CMB)**: separate the sources of predictor and outcome; separate them temporally across waves; use objective/archival outcomes where possible. **Procedural remedies beat statistical fixes** (the Podsakoff et al. guidance is the field reference). Plan this *before* collecting data; a Harman single-factor test alone will not satisfy a JOM reviewer.
+- **Endogeneity (archival/macro)**: anticipate omitted variables, reverse causality, and selection. Specify an identification strategy — instrument, natural experiment, panel fixed effects, difference-in-differences, Heckman/2SLS, propensity matching — and state the assumptions each requires.
+- **Measurement / construct validity**: use validated multi-item scales; pilot new measures; plan a confirmatory factor analysis (CFA) with fit indices and a discriminant-validity test (AVE vs. shared variance, or the HTMT ratio). State the level at which each construct is measured.
+- **Multilevel discipline**: if data are nested, justify aggregation with ICC(1), ICC(2), and r_wg; model the nesting (random effects/HLM). Theorizing at the team level but running OLS on disaggregated individuals is a standard rejection trigger.
+- **Sampling & power**: justify the frame, response rate, and statistical power — *especially for interactions*, which JOM reviewers know are underpowered when authors present null moderation as a "boundary condition."
+
+## Meta-analysis design
+
+- Pre-specify inclusion/exclusion criteria and a transparent search; report a PRISMA-style flow.
+- Double-code a subset; report inter-coder agreement.
+- Choose the artifact-correction model (Hunter–Schmidt psychometric meta-analysis vs. Hedges–Olkin random-effects) and justify it; correct for sampling error and, where defensible, measurement unreliability and range restriction.
+- Plan moderator/meta-regression analyses that map to *competing theories*, plus publication-bias diagnostics.
+
+## Referee pushback mapped to the design fix
+
+- *"This is single-source, single-wave — common-method bias is unaddressed."* → Add temporal/source separation or an objective outcome; a Harman test alone will not close it.
+- *"Your archival regressor is endogenous."* → Specify and defend an identification strategy (IV/NE/FE/DiD/matching) and report first-stage strength.
+- *"The new scale's discriminant validity is unestablished."* → Report a CFA with AVE vs. shared variance or an HTMT ratio, plus an alternative-model comparison.
+- *"You theorize at the team level but test individuals."* → Justify aggregation (ICC, r_wg) and model the nesting, or re-pitch the theory at the individual level.
+- *"The interaction is underpowered."* → Report power for the interaction specifically; if it is a true null, theorize the boundary rather than presenting an underpowered null as a finding.
+
+## Designing a multi-study program
+
+JOM rewards study programs that *triangulate* rather than merely accumulate. A canonical pairing is a field study (external validity, real outcomes) plus an experiment (causal mechanism, manipulation of the antecedent). Decide what each study is *for* — generalizability, causal identification, or mechanism evidence — and make sure together they license the central claim. A second study that merely re-runs the first in a new sample adds length without adding inferential leverage, and the 50-page limit punishes it.
 
 ## Checklist
-- [ ] The JOMgmt audience can see why the paper belongs in management theory and empirical work across organizational behavior, strategy, HR, entrepreneurship, and research methods.
-- [ ] The draft distinguishes JOMgmt from Academy of Management Journal, Strategic Management Journal, Organization Science.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for methods names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Design can actually test each hypothesis (causal claims have causal leverage)
+- [ ] CMB addressed by procedural design (separate sources/time), not just a post-hoc test
+- [ ] Endogeneity strategy specified for archival/observational causal claims
+- [ ] Validated measures; new scales piloted; CFA + discriminant validity planned
+- [ ] Levels aligned across theory/measurement/analysis; aggregation (ICC, r_wg) justified
+- [ ] Sampling frame, response rate, and power (incl. interactions) justified
+- [ ] (Meta) coding protocol, inter-coder agreement, artifact-correction model, bias diagnostics
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JOMgmt without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Cross-sectional causal claims**: "X causes Y" from one-wave correlational data
+- **CMB as afterthought**: a Harman single-factor test instead of designed separation
+- **Ignored endogeneity**: an archival "effect" with an obviously endogenous regressor and no strategy
+- **Mismatched levels**: theorizing at the team level, testing individuals via OLS
+- **Home-grown scales** with no reliability or discriminant-validity evidence
+- **Underpowered interactions** presented as null "boundary conditions"
+- **Vote-counting meta-analysis** with no artifact corrections or bias checks
 
 ## Output format
 
-```text
-【Journal】Journal of Management
-【Skill】jmgmt-methods
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking methods
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Academy of Management Journal, Strategic Management Journal
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jmgmt-data-analysis
+```
+【Design】experiment / panel-archival / multilevel survey / qualitative / meta-analysis
+【Hypothesis-design fit】each H testable? notes ...
+【CMB plan】procedural remedies ...
+【Endogeneity strategy】instrument / NE / FE / DiD / matching ...
+【Measures】validated? new (piloted)? CFA + discriminant?
+【Levels】theory / measurement / analysis aligned? aggregation (ICC, r_wg) ...
+【Power & sampling】frame, N, power for interactions ...
+【Meta only】coding / agreement / artifact model / bias checks ...
+【Next step】jmgmt-data-analysis
 ```

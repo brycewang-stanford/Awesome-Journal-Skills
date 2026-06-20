@@ -1,72 +1,70 @@
 ---
 name: ijoc-submission
-description: Use when working on submission preflight for a INFORMS Journal on Computing manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when running the final pre-submission preflight for an INFORMS Journal on Computing (IJOC) submission via ScholarOne — page limit, LaTeX template, single-blind rules, technical-area choice, and the GitHub code/data deposit. Final checks; it does not draft content.
 ---
 
 # Submission Preflight (ijoc-submission)
 
 ## When to trigger
-- The manuscript is aimed at **INFORMS Journal on Computing (IJOC)** and submission preflight is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's operations research and computing, algorithms, optimization, machine learning, simulation, and computational decision systems standard.
-- The paper risks being confused with nearby venues: Operations Research, Management Science, Manufacturing & Service Operations Management, and ACM/IEEE computing venues.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- "Submitting tomorrow" — last check before pressing submit on ScholarOne
+- Unsure which files, area, and declarations the IJOC submission expects
+- Confirming the **25-page limit**, the LaTeX template, and the single-blind format are met
+- Preparing (or stubbing) the **IJOC GitHub Software and Data Repository** deposit
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| algorithmic contribution is central | Make the algorithmic contribution assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| computational experiment is central | Make the computational experiment assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| optimization benchmark is central | Make the optimization benchmark assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| reproducible code is central | Make the reproducible code assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| decision analytics is central | Make the decision analytics assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Process facts (source map refreshed 2026-06; re-confirm on the official INFORMS pages)
 
-## IJOC fit notes
+- IJOC is the **INFORMS** journal at the **OR/MS ↔ computer-science** interface; content is hosted on **INFORMS PubsOnline**. Submission is through **ScholarOne Manuscripts** at `mc.manuscriptcentral.com/ijoc`, a six-step process.
+- **Technical area:** you select **one of the journal's 10 technical areas**; the **Area Editor** judges suitability and **desk-rejects roughly 40%**, then assigns an associate editor whose identity is **never disclosed** to authors.
+- **Review model:** **single-blind** — reviewers see author names; the title page carries all authors and affiliations. (Do not blind the manuscript.)
+- **Length policy (effective May 2025):** main manuscript **≤25 pages including all references, tables, and figures**, plus up to **10 pages of appendices**; longer appendices go to online supplements. Code/data are hosted on GitHub and excluded from the page count.
+- **Abstract:** **≤300 words, no formulas or mathematical notation.**
+- **Format:** single-column, **1.5-spaced, 12-point font, 1-inch margins**; **LaTeX strongly preferred** (`JOC-template.tex` in the Author Portal); MS Word accepted; PDF for the main document.
+- **Editor-in-chief:** **David Woodruff** (succeeding Alice Smith, term ended 2025-12-31) — 待核实 at submission time.
+- **Open access:** optional INFORMS Open Option, **US$3,000** assessed at production (not a submission fee); standard publication has no APC.
 
-- Publisher / owner context: INFORMS.
-- Submission route to re-check: INFORMS / ScholarOne submission.
-- Signature vocabulary: algorithmic contribution, computational experiment, optimization benchmark, reproducible code, decision analytics.
-- Sibling boundary: Operations Research, Management Science, Manufacturing & Service Operations Management, and ACM/IEEE computing venues.
-- House-style aim: computational OR contribution with transparent algorithms, benchmarks, and reproducibility.
-- Official URLs currently used by the pack:
-- https://pubsonline.informs.org/journal/ijoc
-- https://pubsonline.informs.org/page/ijoc/submission-guidelines
+## Preflight checklist
 
-## Stage-specific moves
+### Format & length
+- [ ] Single-column, **1.5-spaced**, **12pt**, **1-inch margins**; pages numbered
+- [ ] Main paper **≤25 pages** incl. references/tables/figures; appendices **≤10 pages** (longer → online supplement)
+- [ ] **Abstract ≤300 words, no formulas**; covers questions/challenges → methodology/results → importance
+- [ ] LaTeX `JOC-template.tex` used (or compliant Word); main document as PDF
+- [ ] Algorithms as numbered pseudocode; equations numbered; notation defined once
+- [ ] **No significance asterisks**; statistical comparisons reported in text/profiles
 
-1. State the exact submission preflight question in one sentence.
-2. Identify which IJOC audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `ijoc-review-process` if the stage passes, or back to `ijoc-workflow` if it does not.
+### Area, files & ScholarOne
+- [ ] One of the **10 technical areas** chosen to match the *method*; justified in the cover letter if straddling
+- [ ] Title page with all authors/affiliations (single-blind — not anonymized)
+- [ ] Cover letter; supplemental files (long proofs, extra tables) designated as supplements
+- [ ] Conflict-of-interest disclosure and ethical certifications completed in the six-step form
 
-## Checklist
-- [ ] The IJOC audience can see why the paper belongs in operations research and computing, algorithms, optimization, machine learning, simulation, and computational decision systems.
-- [ ] The draft distinguishes IJOC from Operations Research, Management Science, Manufacturing & Service Operations Management.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for submission preflight names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+### Reproducibility deposit (IJOC GitHub)
+- [ ] Repo started from the template `github.com/INFORMSJoC/2019.0000`; placeholders → manuscript ID
+- [ ] Root files present: **README.md** (with `## Cite` first subheading), **LICENSE**, **AUTHORS**
+- [ ] `src/ data/ scripts/ results/ docs/` organized; dependencies pinned (`requirements.txt`/`Manifest.toml`)
+- [ ] README replication path regenerates each table/figure; results match the manuscript
+- [ ] Aware that acceptance snapshots a tag `vXXXX.YYYY` and mints a code DOI `…​.cd`
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to IJOC without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Submitting to a technical area that mismatches the method → fast Area-Editor desk reject
+- Anonymizing the manuscript as if double-blind (IJOC is single-blind)
+- Exceeding 25 main pages by leaving full proofs and raw result tables in the body
+- A formula in the abstract, or significance asterisks in tables
+- Treating the GitHub deposit as an after-acceptance chore; arriving with no reproducible artifact
+- Mistaking the US$3,000 Open Option for a required submission fee
 
 ## Output format
 
 ```text
-【Journal】INFORMS Journal on Computing
-【Skill】ijoc-submission
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking submission preflight
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Operations Research, Management Science
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】ijoc-review-process
+【Format】1.5-spaced / 12pt / 1-in margins / ≤25pp main (+≤10 appendix)? [Y/N]
+【Abstract】≤300 words, no formulas? [Y/N]
+【Area】one of 10, matched to method? [area]
+【Single-blind】title page with authors, not anonymized? [Y/N]
+【Exhibits】no significance asterisks; tests in text/profiles? [Y/N]
+【Deposit】template/README+Cite/LICENSE/AUTHORS/scripts ready? [Y/N]
+【Next step】submit via ScholarOne → ijoc-review-process for what to expect
 ```
 
 ## Supplementary resources

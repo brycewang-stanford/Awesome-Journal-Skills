@@ -1,70 +1,71 @@
 ---
 name: arecon-revision
-description: Use when working on revision strategy for a Annual Review of Economics manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when responding to Editorial Committee and referee feedback on an Annual Review of Economics (ARE) review — coverage gaps, balance/accuracy complaints, framework/structure asks, and accessibility. Drafts the response and revision plan; it does not run the delivery preflight (arecon-submission) or redesign the spine from scratch (arecon-organizing-framework).
 ---
 
-# Revision Strategy (arecon-revision)
+# Revision & Response for a Review (arecon-revision)
 
 ## When to trigger
-- The manuscript is aimed at **Annual Review of Economics (AREcon)** and revision strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's commissioned review articles synthesizing major areas of economics for specialists and adjacent economists standard.
-- The paper risks being confused with nearby venues: Journal of Economic Literature, Journal of Economic Perspectives, Handbook chapters, and Academy of Management Annals.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A Committee/referee letter on the invited review arrived
+- Referees flagged missing literatures, imbalance, mischaracterization, or "reads like a list"
+- The editor asked to expand, cut, or rebalance coverage, or to make the framework explicit
+- You need a point-by-point response for a review article, not a primary paper
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| field synthesis is central | Make the field synthesis assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| research frontier is central | Make the research frontier assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| conceptual map is central | Make the conceptual map assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| evidence stocktake is central | Make the evidence stocktake assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| future agenda is central | Make the future agenda assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Categories of review feedback (and how to answer each)
 
-## AREcon fit notes
+ARE revision asks cluster differently from primary-research asks. Triage every point into one bucket:
 
-- Publisher / owner context: Annual Reviews.
-- Submission route to re-check: Annual Reviews editorial process.
-- Signature vocabulary: field synthesis, research frontier, conceptual map, evidence stocktake, future agenda.
-- Sibling boundary: Journal of Economic Literature, Journal of Economic Perspectives, Handbook chapters, and Academy of Management Annals.
-- House-style aim: agenda-setting synthesis that clarifies what the field knows, disputes, and should do next.
-- Official URLs currently used by the pack:
-- https://www.annualreviews.org/journal/economics
-- https://www.annualreviews.org/page/authors/general-information
+| Feedback type | Typical phrasing | Response move |
+|---------------|------------------|---------------|
+| **Coverage gap** | "you omit the X literature / author Y" | almost always *concede and integrate* — place the missing work in the right framework cell; re-run saturation (`arecon-literature-synthesis`) |
+| **Balance / fairness** | "this slights school Z / over-cites the author" | steelman the slighted side; re-audit self-citation (`arecon-evidence-standards`) |
+| **Appraisal accuracy** | "you mischaracterize study W" | correct precisely; reviewed authors often referee — fix exactly |
+| **Framework / structure** | "this is an annotated bibliography" | strengthen or make explicit the spine (`arecon-organizing-framework`); do not just reorder paragraphs |
+| **Accessibility** | "a non-specialist can't follow Section 4" | add intuition, define jargon (`arecon-writing-style`) |
+| **Scope** | "too broad / too narrow / overruns length" | negotiate with the editor (`arecon-editor-strategy`); rescope deliberately, within the page envelope |
 
-## Stage-specific moves
+## Writing the response letter
 
-1. State the exact revision strategy question in one sentence.
-2. Identify which AREcon audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `arecon-revision` if the stage passes, or back to `arecon-workflow` if it does not.
+- **Point-by-point, quote-then-respond.** Reproduce each comment, then state the change and where it lives (section/page/table).
+- **Coverage asks: concede and integrate.** A missing literature is a real defect in a review of record; adding it strengthens the article. Resist defensiveness — the omitting author may be the referee who named it.
+- **Balance asks: show the steelman.** Demonstrate the revised text states the other side at its strongest; that is what a fairness complaint actually demands.
+- **Accuracy asks: fix exactly.** Mischaracterizing a reviewed author who is your referee is the fastest route to a hostile second round; correct the wording precisely and, where helpful, quote their own framing.
+- **Disagree rarely and respectfully.** If an ask would break the spine or overrun the page envelope, explain the trade-off and propose an alternative, ideally pre-cleared with the editor.
+- **Keep the editor central.** On scope and conflicting referee asks, ask the Committee editor to adjudicate rather than satisfying mutually-incompatible referees.
+- **Track every addition's ripple.** Adding a literature can shift the review's center of gravity; after each integration, re-check that the framework cells, the summary tables, and the balance audit still hold, and that the draft still fits the volume's length envelope.
+- **Mind the volume clock.** Revisions run against a production deadline (`arecon-review-process`); plan the rework so the article stays in its volume.
 
 ## Checklist
-- [ ] The AREcon audience can see why the paper belongs in commissioned review articles synthesizing major areas of economics for specialists and adjacent economists.
-- [ ] The draft distinguishes AREcon from Journal of Economic Literature, Journal of Economic Perspectives, Handbook chapters.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for revision strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] The review explains inclusion/exclusion logic and how competing schools are balanced.
-- [ ] The synthesis produces an agenda, taxonomy, or framework rather than a bibliography.
+
+- [ ] Every comment triaged into a bucket (coverage / balance / appraisal / framework / accessibility / scope)
+- [ ] Coverage gaps conceded and integrated into the right framework cell; saturation re-run
+- [ ] Balance complaints answered by demonstrable steelmanning + self-citation re-audit
+- [ ] Mischaracterizations corrected precisely (reviewed authors may be the referees)
+- [ ] "Annotated bibliography" asks answered by a stronger/explicit spine, not reordering
+- [ ] Accessibility fixes add intuition / define jargon for the adjacent economist
+- [ ] Scope conflicts routed to the editor; rework fits the page envelope and the volume deadline
+- [ ] Point-by-point letter: quote-then-respond, with section/page/table locations
+- [ ] Comprehensiveness + balance re-audited after all additions
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to AREcon without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Defending an omission rather than adding the missing literature (a review gap is a real defect)
+- Answering a balance complaint with assertions of fairness instead of revised, steelmanned text
+- Dismissing or re-mischaracterizing a reviewed author who is likely your referee
+- "Fixing" an annotated-bibliography critique by shuffling paragraphs without imposing a spine
+- Bloating scope to satisfy every "also cover…" until the review overruns its length and slips the volume
+- Trying to satisfy two contradictory referees instead of asking the editor to decide
 
 ## Output format
 
 ```text
-【Journal】Annual Review of Economics
-【Skill】arecon-revision
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking revision strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Economic Literature, Journal of Economic Perspectives
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】arecon-revision
+【Triage】each comment bucketed (coverage/balance/appraisal/framework/accessibility/scope)? Y/N
+【Coverage gaps】conceded + integrated into framework cells; saturation re-run? Y/N
+【Balance】steelman shown in revised text; self-citation re-audited? Y/N
+【Appraisal fixes】mischaracterizations corrected precisely? Y/N
+【Framework asks】spine strengthened/made explicit (not reordered)? Y/N
+【Scope/length】fits page envelope + volume deadline? Y/N
+【Letter】point-by-point, quote-then-respond, with locations? Y/N
+【Next step】→ arecon-submission (re-deliver the revised review)
 ```

@@ -1,70 +1,73 @@
 ---
 name: ijoc-rebuttal
-description: Use when working on rebuttal strategy for a INFORMS Journal on Computing manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when drafting the response to an INFORMS Journal on Computing (IJOC) decision letter — turning referee objections (especially about experiments and reproducibility) into a point-by-point response with re-run evidence. Builds the rebuttal and revision plan; it does not run new analysis on its own (route to ijoc-data-analysis).
 ---
 
 # Rebuttal Strategy (ijoc-rebuttal)
 
 ## When to trigger
-- The manuscript is aimed at **INFORMS Journal on Computing (IJOC)** and rebuttal strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's operations research and computing, algorithms, optimization, machine learning, simulation, and computational decision systems standard.
-- The paper risks being confused with nearby venues: Operations Research, Management Science, Manufacturing & Service Operations Management, and ACM/IEEE computing venues.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- An IJOC **major/minor revision** arrived and you need a response-letter strategy
+- Referees challenge the **fairness, scale, or reproducibility** of the computational experiments
+- You disagree with a referee on a method point and must push back **without alienating** the associate editor
+- You need to convert a long, mixed decision letter into an ordered, checkable revision plan
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| algorithmic contribution is central | Make the algorithmic contribution assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| computational experiment is central | Make the computational experiment assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| optimization benchmark is central | Make the optimization benchmark assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| reproducible code is central | Make the reproducible code assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| decision analytics is central | Make the decision analytics assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The IJOC rebuttal mindset
 
-## IJOC fit notes
+IJOC revisions are won with **evidence, not rhetoric**. Most consequential objections are computational ("the comparison is unfair," "instances too small," "cannot reproduce"), and the strongest response is a re-run that settles the question: more standard instances, a stronger baseline, more seeds, a performance profile, an updated deposit. Because the **associate editor is undisclosed and single-blind**, write to the substance of each report for a technical reader; never speculate about who wrote what. The AE is reading for whether you took the experiments seriously.
 
-- Publisher / owner context: INFORMS.
-- Submission route to re-check: INFORMS / ScholarOne submission.
-- Signature vocabulary: algorithmic contribution, computational experiment, optimization benchmark, reproducible code, decision analytics.
-- Sibling boundary: Operations Research, Management Science, Manufacturing & Service Operations Management, and ACM/IEEE computing venues.
-- House-style aim: computational OR contribution with transparent algorithms, benchmarks, and reproducibility.
-- Official URLs currently used by the pack:
-- https://pubsonline.informs.org/journal/ijoc
-- https://pubsonline.informs.org/page/ijoc/submission-guidelines
+## Structure of the response
 
-## Stage-specific moves
+1. **Open with the changes that matter.** A short summary: the main new experiments, the strengthened baselines, the reproducibility fixes — so the AE sees the substantive work first.
+2. **Point-by-point, quoting each comment.** Reproduce each referee point verbatim, then respond. Use a consistent tag: **[Done — with evidence]**, **[Done — text]**, **[Respectfully disagree — with reason]**.
+3. **Show the evidence inline.** For computational objections, include the new table/profile or its key number and a pointer to where it now lives in the paper and the deposit. "We re-ran on the full MIPLIB-class set; the performance profile (new Fig. 5) shows we dominate beyond τ=1.4; updated in `results/` (illustrative)."
+4. **Be honest about limits.** Where a competitor still wins a regime, say so and scope the claim rather than overclaiming — IJOC referees reward calibrated honesty.
 
-1. State the exact rebuttal strategy question in one sentence.
-2. Identify which IJOC audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `ijoc-rebuttal` if the stage passes, or back to `ijoc-workflow` if it does not.
+## Mapping common IJOC objections to the response
+
+| Objection | Winning response | Owning skill |
+|-----------|------------------|--------------|
+| "baseline is weak / outdated" | re-run vs. current solver/SOTA, symmetric tuning; show the new comparison | `ijoc-data-analysis` |
+| "instances cherry-picked / too small" | full standard set + scaling plot; report losses too | `ijoc-data-analysis` |
+| "results not statistically supported" | add Wilcoxon + performance profile; multiple-seed dispersion | `ijoc-data-analysis` |
+| "no guarantee / correctness unclear" | add validity/complexity proof; reconcile theory with plots | `ijoc-theory-development` |
+| "cannot reproduce your numbers" | fix and re-tag the deposit; align `results/` to tables; confirm it runs clean | `ijoc-data-analysis` |
+| "contribution incremental" | sharpen claim + positioning vs. recent work | `ijoc-contribution-framing` / `ijoc-literature-positioning` |
+| "out of scope" | re-argue computing-first fit, or reconsider venue | `ijoc-topic-selection` |
+
+## Disagreeing well
+
+You may push back, but with a reason a technical reviewer accepts: a misread of the method, a baseline that is not actually comparable, a request outside the paper's scope. Concede the framing ("the reviewer is right that X would strengthen the paper") even while declining ("but it changes the research question; we instead add Y, which addresses the underlying concern"). Flat refusal with no alternative is what loses AEs.
 
 ## Checklist
-- [ ] The IJOC audience can see why the paper belongs in operations research and computing, algorithms, optimization, machine learning, simulation, and computational decision systems.
-- [ ] The draft distinguishes IJOC from Operations Research, Management Science, Manufacturing & Service Operations Management.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for rebuttal strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Response opens with the substantive new experiments and reproducibility fixes
+- [ ] Every referee point quoted and answered with a clear status tag
+- [ ] Computational objections answered with re-run evidence, not prose
+- [ ] New/updated exhibits pointed to in both the paper and the deposit
+- [ ] The deposit re-tagged and confirmed to reproduce the revised results
+- [ ] Disagreements carry a technical reason and an alternative
+- [ ] Claims rescoped honestly where a competitor still wins
+- [ ] Tone is professional; no speculation about the undisclosed AE/referees
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to IJOC without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Answering an experimental objection with words instead of a re-run
+- Marking points "Done" without changing the paper or the deposit
+- Updating the manuscript but leaving the GitHub deposit stale (a "cannot reproduce" relapse)
+- Flat refusal of a reviewer request with no reason or alternative
+- Overclaiming after revision instead of scoping to the regimes you actually win
+- Guessing the AE's or reviewer's identity and writing to it
 
 ## Output format
 
 ```text
 【Journal】INFORMS Journal on Computing
 【Skill】ijoc-rebuttal
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking rebuttal strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Operations Research, Management Science
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】ijoc-rebuttal
+【Summary of changes】new experiments / baselines / reproducibility fixes
+【Point-by-point】each comment quoted + status tag + evidence pointer
+【Re-run evidence】profiles/tests/seeds added where challenged
+【Deposit】re-tagged and reproduces revised results? [Y/N]
+【Honest scoping】claims rescoped where a rival wins
+【Next step】resubmit via ScholarOne → ijoc-review-process to track the new round
 ```

@@ -1,70 +1,79 @@
 ---
 name: respol-writing-style
-description: Use when working on writing style for a Research Policy manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when prose and structure are the bottleneck for a Research Policy (RP) manuscript — making an interdisciplinary innovation-studies argument land for economists, management scholars, and policymakers at once. Polishes the writing; it does not change the contribution (respol-contribution-framing) or run the submission preflight (respol-submission).
 ---
 
 # Writing Style (respol-writing-style)
 
 ## When to trigger
-- The manuscript is aimed at **Research Policy (Research Policy)** and writing style is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's innovation, science policy, technology management, entrepreneurship, R&D, and knowledge production standard.
-- The paper risks being confused with nearby venues: Strategic Management Journal, Management Science, Industrial and Corporate Change, and Journal of Business Venturing.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The intro takes pages to reach the point; the contribution is hidden on page 4
+- The prose is written for one discipline and opaque to the others RP serves
+- The abstract lists topics ("this paper examines…") instead of stating findings
+- Jargon from one tradition (econometrics, or STS, or strategy) is used without translation
+- A referee says the paper is "hard to follow," "the argument doesn't flow," or "what is the point?"
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| innovation system is central | Make the innovation system assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| science policy is central | Make the science policy assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| patent evidence is central | Make the patent evidence assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| R&D organization is central | Make the R&D organization assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| technology diffusion is central | Make the technology diffusion assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The Research Policy voice
 
-## Research Policy fit notes
+RP prose must work for an **interdisciplinary innovation-studies readership** — an economist, a management scholar, and an STI policymaker should each be able to follow the argument. That means leading with the puzzle and the contribution, naming the innovation mechanism in plain terms before formalizing it, and translating any field-specific jargon. The house argument shape links **mechanisms, institutions, and technology evidence** into a claim about how innovation works or should be governed; writing that stops at "the coefficient is significant" reads as the wrong journal regardless of polish.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: innovation system, science policy, patent evidence, R&D organization, technology diffusion.
-- Sibling boundary: Strategic Management Journal, Management Science, Industrial and Corporate Change, and Journal of Business Venturing.
-- House-style aim: innovation-policy argument linking mechanisms, institutions, and technology evidence.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/research-policy
-- https://www.elsevier.com/journals/research-policy/0048-7333/guide-for-authors
+RP is not a place for either pure mathematical opacity or pure narrative hand-waving — the writing should be analytically precise *and* accessible across disciplines.
 
-## Stage-specific moves
+## Structuring the argument
 
-1. State the exact writing style question in one sentence.
-2. Identify which Research Policy audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `respol-submission` if the stage passes, or back to `respol-workflow` if it does not.
+### Introduction (the highest-leverage section — write it last)
+- Open with the **innovation puzzle or policy tension**, not a literature throat-clear.
+- By the end of the first 1–2 pages, state the question, the approach, the headline finding, and the contribution.
+- Signpost the contribution explicitly ("This paper contributes to [innovation-studies conversation] by showing…").
+- Name the policy/managerial stakes early so policymaking readers stay engaged.
+
+### Abstract (verify the limit on the guide for authors; ~150–250 words typical for Elsevier journals, 待核实)
+- State the question, data/method, the actual finding (with direction), and the implication. Avoid "this paper examines" with no result.
+
+### Body
+- Theory before results; mechanism before estimate; let each section do one job.
+- Translate jargon: define an indicator or a tradition-specific term the first time it appears.
+- Keep the innovation-system / policy thread visible from intro to conclusion.
+
+### Conclusion
+- Restate the contribution, give the earned policy/managerial implication with its scope conditions, and state limitations honestly.
+
+## Line-level craft
+
+- Prefer active voice and concrete subjects; cut hedging stacks ("it may possibly suggest").
+- One idea per paragraph, with a topic sentence carrying the argument.
+- Quantify in the text where it helps a reader judge magnitude (effect size, share), not just significance.
+- Use British or American spelling consistently per the Elsevier guide (待核实) and follow the journal's reference style.
 
 ## Checklist
-- [ ] The Research Policy audience can see why the paper belongs in innovation, science policy, technology management, entrepreneurship, R&D, and knowledge production.
-- [ ] The draft distinguishes Research Policy from Strategic Management Journal, Management Science, Industrial.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for writing style names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] The contribution is visible within the first 1–2 pages of the intro
+- [ ] The abstract states an actual finding with direction, not just a topic
+- [ ] Jargon from any one tradition is translated for the others
+- [ ] The innovation-mechanism / policy thread runs from intro to conclusion
+- [ ] Theory precedes results; each section does one job
+- [ ] The conclusion gives an earned, scope-bounded implication
+- [ ] Word/abstract limits and reference style follow the guide (verified or 待核实)
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Research Policy without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A "funnel" intro that buries the contribution after a long literature recap
+- An abstract that announces topics but reports no finding
+- Single-discipline opacity in an interdisciplinary journal
+- Stopping the prose at statistical significance with no magnitude or mechanism
+- Hedging every sentence until the claim disappears
+- Inconsistent spelling/reference style that signals a careless submission
 
 ## Output format
 
 ```text
 【Journal】Research Policy
 【Skill】respol-writing-style
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking writing style
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Strategic Management Journal, Management Science
-【Source status】verified URL / 待核实 / not asserted
+【Intro】contribution visible in 1–2 pages? [Y/N]
+【Abstract】states a finding with direction + implication? [Y/N]
+【Cross-discipline】jargon translated for econ/management/policy readers? [Y/N]
+【Thread】mechanism→institution→evidence visible throughout? [Y/N]
+【Conclusion】earned, scope-bounded policy/managerial implication? [Y/N]
+【Format】word/abstract limit + reference style checked (or 待核实)
 【Next skill】respol-submission
 ```

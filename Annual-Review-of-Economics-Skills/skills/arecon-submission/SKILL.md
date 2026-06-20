@@ -1,76 +1,70 @@
 ---
 name: arecon-submission
-description: Use when working on submission preflight for a Annual Review of Economics manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when running the final delivery preflight for a commissioned Annual Review of Economics (ARE) review via the Annual Reviews production system — disclosure statements, reference/format compliance, figure permissions, and the transparency/reproducibility of any meta-analysis the review itself contains. Final checks; it does not draft content.
 ---
 
-# Submission Preflight (arecon-submission)
+# Delivery Preflight (arecon-submission)
 
 ## When to trigger
-- The manuscript is aimed at **Annual Review of Economics (AREcon)** and submission preflight is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's commissioned review articles synthesizing major areas of economics for specialists and adjacent economists standard.
-- The paper risks being confused with nearby venues: Journal of Economic Literature, Journal of Economic Perspectives, Handbook chapters, and Academy of Management Annals.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- "Delivering soon" — last check before handing the commissioned review to Annual Reviews
+- Unsure which files, declarations, and permissions the production system expects
+- Confirming reference style, format, and figure specs are Annual Reviews-compliant
+- Verifying transparency obligations for any quantitative synthesis (meta-analysis) the review itself reports
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| field synthesis is central | Make the field synthesis assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| research frontier is central | Make the research frontier assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| conceptual map is central | Make the conceptual map assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| evidence stocktake is central | Make the evidence stocktake assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| future agenda is central | Make the future agenda assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Process facts (检索于 2026-06；以官网为准 — re-confirm on the Annual Reviews author pages)
 
-## AREcon fit notes
+- **Publisher / venue.** ARE is published by **Annual Reviews** (nonprofit), founded **2009**, as an **annual volume**; it is a **review series**, distinct from JEL (AEA survey of record), JEP (non-technical), and Handbook chapters. Articles are **commissioned by the Editorial Committee**; there is **no cold-submission portal for unsolicited manuscripts** — delivery happens within the invited-article workflow (检索于 2026-06；以官网为准).
+- **Open access.** Volumes are published **open access under the Subscribe-to-Open (S2O) model** (2023–2025 converted; 2026 in production), under a Creative Commons license — there is **no author-facing APC** under S2O (检索于 2026-06；以官网为准). Do not treat S2O as a pay-to-publish APC.
+- **Disclosure (required).** Annual Reviews requires authors to **disclose potential sources of bias / conflicts of interest**; funding sources are stated. Prepare the disclosure as the author pages specify (检索于 2026-06；以官网为准).
+- **Reproducibility of the review itself.** A pure review reports no new data. The transparency obligation bites on **your systematic coverage** (a documented, near-PRISMA-style account of how the literature was searched and selected, from `arecon-literature-synthesis`) and on **any meta-analysis you contribute** — its data and code should be reproducible and depositable (检索于 2026-06；以官网为准).
+- **Reference & format style.** Annual Reviews applies its **own house format and reference style** (numbered/name style distinct from AEA author-year) at production; the production editor copyedits to house style, so the delivered draft need not pre-conform, but reference data must be complete and accurate (检索于 2026-06；以官网为准).
+- **Figures / permissions.** Confirm figure specs and secure permission for any reproduced exhibit (检索于 2026-06；以官网为准).
+- **Length / abstract limits.** Exact word/abstract limits are **待核实** — confirm on the author pages; typical published reviews run ~25–40 pages (检索于 2026-06；以官网为准).
 
-- Publisher / owner context: Annual Reviews.
-- Submission route to re-check: Annual Reviews editorial process.
-- Signature vocabulary: field synthesis, research frontier, conceptual map, evidence stocktake, future agenda.
-- Sibling boundary: Journal of Economic Literature, Journal of Economic Perspectives, Handbook chapters, and Academy of Management Annals.
-- House-style aim: agenda-setting synthesis that clarifies what the field knows, disputes, and should do next.
-- Official URLs currently used by the pack:
-- https://www.annualreviews.org/journal/economics
-- https://www.annualreviews.org/page/authors/general-information
+## Preflight checklist
 
-## Stage-specific moves
+### Article & files
+- [ ] This is a **commissioned/invited** article delivered in the invited-article workflow (not a cold submission)
+- [ ] Manuscript complete; references complete and accurate (house style applied at production)
+- [ ] Title page: title, complete author affiliations, keywords; abstract in review style
+- [ ] Figures meet current specs; reproduced exhibits have permission and attribution
 
-1. State the exact submission preflight question in one sentence.
-2. Identify which AREcon audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `arecon-review-process` if the stage passes, or back to `arecon-workflow` if it does not.
+### Transparency
+- [ ] Systematic-coverage account documented (search strategy, inclusion/exclusion) — near-PRISMA where applicable
+- [ ] Any meta-analysis the review reports: data + code reproducible and depositable
 
-## Checklist
-- [ ] The AREcon audience can see why the paper belongs in commissioned review articles synthesizing major areas of economics for specialists and adjacent economists.
-- [ ] The draft distinguishes AREcon from Journal of Economic Literature, Journal of Economic Perspectives, Handbook chapters.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for submission preflight names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] The review explains inclusion/exclusion logic and how competing schools are balanced.
-- [ ] The synthesis produces an agenda, taxonomy, or framework rather than a bibliography.
+### Declarations
+- [ ] Conflict-of-interest / potential-bias disclosure prepared per Annual Reviews policy
+- [ ] Funding sources stated
+- [ ] AI not listed as an author
+
+### Volatile re-confirms
+- [ ] Exact length/abstract limits, current reference style, figure specs, disclosure format, S2O/OA status — re-checked on the Annual Reviews author pages (检索于 2026-06)
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to AREcon without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Treating ARE like a journal with a cold-submission portal — it is invited; deliver through the commissioned workflow
+- Treating S2O open access as a pay-to-publish APC (it is not author-funded under S2O)
+- Omitting the conflict-of-interest / bias disclosure Annual Reviews requires
+- Asserting a length limit, fee, or editor name from memory rather than the live author pages
+- Delivering a meta-analysis with no reproducible data/code, or a systematic review with no documented search
 
 ## Output format
 
 ```text
-【Journal】Annual Review of Economics
-【Skill】arecon-submission
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking submission preflight
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Economic Literature, Journal of Economic Perspectives
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】arecon-review-process
+【Article type】commissioned/invited review (not cold submission)? Y/N
+【References】complete + accurate (house style at production)? Y/N
+【Abstract + front matter】review-style abstract, keywords, affiliations? Y/N
+【Transparency】coverage account documented; meta-analysis (if any) reproducible? Y/N
+【Disclosure】COI / bias disclosure + funding prepared? Y/N
+【Figures】specs met; permissions secured? Y/N
+【Volatile re-confirms】length / style / OA / disclosure checked on Annual Reviews pages? Y/N
+【Next step】deliver to Annual Reviews → arecon-review-process for what to expect
 ```
 
 ## Supplementary resources
 
 - [`templates/checklist.md`](templates/checklist.md) — submission self-check
 - [`templates/manuscript_template.md`](templates/manuscript_template.md) — lightweight manuscript scaffold
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official URLs and volatile facts
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official Annual Reviews URLs and volatile facts

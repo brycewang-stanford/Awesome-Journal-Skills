@@ -1,70 +1,83 @@
 ---
 name: jmgmt-review-process
-description: Use when working on review process for a Journal of Management manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when you need to understand or set expectations for the Journal of Management (JOM) editorial and masked-review process — desk screening, the developmental R&R culture, the Review Issue track, and reading a decision letter. Explains the process; it does not draft the response letter (jmgmt-rebuttal).
 ---
 
-# Review Process (jmgmt-review-process)
+# Understanding the Review Process (jmgmt-review-process)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Management (JOMgmt)** and review process is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's management theory and empirical work across organizational behavior, strategy, HR, entrepreneurship, and research methods standard.
-- The paper risks being confused with nearby venues: Academy of Management Journal, Strategic Management Journal, Organization Science, and Journal of Management Studies.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Before submitting, to calibrate expectations about timeline and decision types
+- A decision letter arrived and you need to interpret it (R&R vs. reject; major vs. minor)
+- You are unsure how reviewers vs. the action editor weigh in under masked review
+- You are routing a review/meta-analysis and want to know how the Review Issue track works
+- You want to plan a revision strategy before drafting the response (then go to `jmgmt-rebuttal`)
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| management theory contribution is central | Make the management theory contribution assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| multi-study design is central | Make the multi-study design assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| construct validity is central | Make the construct validity assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| organizational mechanism is central | Make the organizational mechanism assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| boundary conditions is central | Make the boundary conditions assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+> Editorial structure, named editors, and timelines change. Verify the current team and turnaround on the SAGE JOM page; the norms below are durable. As of 2026-06: JOM uses **masked (double-blind) review** with an **anonymized data transparency table**, is **developmental and multi-round**, and the Editor-in-Chief is **Cynthia E. Devers (Virginia Tech)** (检索于 2026-06；以官网为准).
 
-## JOMgmt fit notes
+## How JOM review works (durable norms)
 
-- Publisher / owner context: SAGE for the Southern Management Association.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: management theory contribution, multi-study design, construct validity, organizational mechanism, boundary conditions.
-- Sibling boundary: Academy of Management Journal, Strategic Management Journal, Organization Science, and Journal of Management Studies.
-- House-style aim: theory-driven management research with clean construct logic and robust empirical design.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/jom
-- https://journals.sagepub.com/author-instructions/JOM
+1. **Submission & routing.** The Editor-in-Chief or a deputy/associate editor screens the masked manuscript and routes it to an action editor in the relevant domain (OB, HR, strategy, entrepreneurship, methods). Submission is via SAGE/ScholarOne, fully anonymized.
+2. **Desk decision.** Off-fit, atheoretical, or fatally under-designed papers — and reviews/meta-analyses with no organizing framework or no theoretical advance — may be desk-rejected without external review. A clear **theoretical contribution** and an appropriate design are what get a paper past the desk.
+3. **External peer review.** Typically multiple (often two to three) masked reviewers from the focal conversation evaluate the theoretical contribution, design rigor, and analysis. Because JOM covers research methods, expect a **methodologically exacting** reading (CMB, endogeneity, measurement, multilevel modeling, meta-analytic corrections).
+4. **Action editor synthesis.** The action editor weighs the reviews, forms an independent judgment, and writes the decision letter. **The editor's letter — not a vote count — drives the outcome.**
+5. **Decision.** Common outcomes: reject; reject with encouragement to resubmit as new; major revision (R&R); minor revision; (rarely) accept. A first-round acceptance is essentially unheard of.
 
-## Stage-specific moves
+## The Review Issue track
 
-1. State the exact review process question in one sentence.
-2. Identify which JOMgmt audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jmgmt-rebuttal` if the stage passes, or back to `jmgmt-workflow` if it does not.
+JOM runs **biannual Review Issues (January and July)** of systematic reviews and meta-analyses. These follow the same masked, developmental review, but referees judge the **organizing framework, search/coding rigor, and the forward research agenda** rather than new primary data. Invited reviews still go through peer review. If you are aiming for a Review Issue, calibrate to that bar, not the empirical-paper bar.
+
+## JOM is developmental and multi-round
+
+JOM's culture is **developmental**: an R&R is an invitation to improve the paper over (often) multiple rounds. Reviewers push hard on the **theoretical contribution** and the **method** — expect requests to deepen theory, add a study or a wave, strengthen identification, address common-method/endogeneity concerns, or add artifact corrections to a meta-analysis. Treat an R&R as a serious opportunity, not a near-acceptance and not a rejection.
+
+## Reading the decision letter
+
+- **Find the action editor's priorities first.** The letter signals which reviewer points are essential vs. optional; address the editor's framing above all.
+- **Distinguish fatal from fixable.** If a core identification or theory concern is fatal and unaddressable, an honest reframe (or a different paper) beats a doomed revision.
+- **Gauge encouragement.** "We see promise" + major revision signals a real path; language about poor developmental fit signals reject.
+- **Map every reviewer point** to theory / method / analysis / framing / writing — this becomes the revision plan that feeds `jmgmt-rebuttal`.
+
+## Worked example (illustrative)
+
+An entrepreneurship paper returns as a **major revision**. The action editor's letter foregrounds two asks: deepen the theory beyond a single "effectuation" label, and address an endogenous-founder-experience concern. Reviewer 1 also wants a new control; Reviewer 2 questions a scale's discriminant validity. Reading it correctly: the *editor's two asks are essential* (theory depth + endogeneity), the scale concern is real but bounded (a fuller CFA/HTMT will satisfy it), and the new control is optional polish. The revision plan therefore front-loads a sharper mechanism and an identification strategy, treats the CFA as a quick win, and adds the control with a one-line justification — rather than spreading effort evenly across all four comments. That prioritization is exactly what a developmental editor rewards.
+
+## Calibrating expectations before you submit
+
+- Assume **multiple rounds**: a strong paper still typically sees a major and then a minor R&R before acceptance.
+- Expect a **methods-heavy** read; pre-empt the standard pushbacks (CMB, endogeneity, measurement, levels) in the manuscript so the first round is about theory, not hygiene.
+- For the **Review track**, budget time for the framework and agenda to be challenged; reviewers treat an integrative contribution as seriously as a new dataset.
+
+## How much weight reviewers vs. the action editor carry
+
+Under JOM's masked, developmental model the **action editor is decisive**. Reviewers advise; the editor integrates, forms an independent view, and may overrule a harsh review or temper an enthusiastic one. Practically: if two reviewers are positive but the editor's letter is cautious, believe the editor; if a reviewer is hostile but the editor signals a path, the path is real. Read the editor's letter twice before reading the reviews, and let it set the priority order for the revision.
 
 ## Checklist
-- [ ] The JOMgmt audience can see why the paper belongs in management theory and empirical work across organizational behavior, strategy, HR, entrepreneurship, and research methods.
-- [ ] The draft distinguishes JOMgmt from Academy of Management Journal, Strategic Management Journal, Organization Science.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for review process names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Decision type identified (R&R major/minor, reject-resubmit, reject)
+- [ ] The action editor's priorities extracted and ranked above individual reviewer asks
+- [ ] Every reviewer comment categorized (theory / method / analysis / framing / writing)
+- [ ] Fatal vs. fixable concerns separated honestly
+- [ ] Feasibility of demanded new theory/data/analyses assessed against the deadline
+- [ ] Reviewer conflicts noted for the editor's attention
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JOMgmt without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Treating an R&R as a near-acceptance and making only cosmetic changes
+- Treating an R&R as a rejection and walking away from a viable path
+- Counting reviewer votes instead of reading the action editor's letter
+- Ignoring the editor's stated priorities while over-investing in a minor reviewer point
+- Submitting a review/meta-analysis to the Review track without the framework-and-agenda the editors expect
 
 ## Output format
 
-```text
-【Journal】Journal of Management
-【Skill】jmgmt-review-process
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking review process
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Academy of Management Journal, Strategic Management Journal
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jmgmt-rebuttal
+```
+【Decision type】R&R(major/minor) / reject-resubmit / reject
+【Track】empirical / Review Issue
+【Editor's priorities】1... 2... 3...
+【Comment map】theory:[...] method:[...] analysis:[...] framing:[...] writing:[...]
+【Fatal vs. fixable】...
+【New work needed】theory / data / analysis — feasible? ...
+【Reviewer conflicts】...
+【Next step】jmgmt-rebuttal
 ```

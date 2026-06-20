@@ -1,70 +1,70 @@
 ---
 name: respol-literature-positioning
-description: Use when working on literature positioning for a Research Policy manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when staking the contribution against the innovation-studies literature for a Research Policy (RP) manuscript — anchoring in the RP/SPRU canon and showing a genuine gap rather than an incremental replication. Positions the paper; it does not build the mechanism (respol-theory-development) or write the closing claim (respol-contribution-framing).
 ---
 
 # Literature Positioning (respol-literature-positioning)
 
 ## When to trigger
-- The manuscript is aimed at **Research Policy (Research Policy)** and literature positioning is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's innovation, science policy, technology management, entrepreneurship, R&D, and knowledge production standard.
-- The paper risks being confused with nearby venues: Strategic Management Journal, Management Science, Industrial and Corporate Change, and Journal of Business Venturing.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The reference list is "almost entirely economics or management journals" — the RP out-of-scope tell
+- A referee says the contribution is "incremental," "we already know this," or "not positioned in the right literature"
+- The paper cites RP exemplars superficially but does not engage their arguments
+- You cannot name in one sentence what RP readers believed before your paper and what they should believe after
+- The gap is stated as "no one has studied X in country Y" (a data gap, not a knowledge gap)
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| innovation system is central | Make the innovation system assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| science policy is central | Make the science policy assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| patent evidence is central | Make the patent evidence assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| R&D organization is central | Make the R&D organization assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| technology diffusion is central | Make the technology diffusion assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The Research Policy positioning bar
 
-## Research Policy fit notes
+RP referees are innovation-studies insiders. They expect the paper to be **rooted in the innovation-studies conversation** — RP itself, plus the foundational lineage (Freeman, Nelson & Winter, Pavitt, Dosi, Cohen & Levinthal, Lundvall, Malerba, and the journals around RP: ICC, Technovation, JPIM where genuinely relevant). A reference base drawn only from economics or strategy journals signals the wrong audience and is a documented desk-reject trigger (检索于 2026-06；以官网为准). Positioning is not a citation dump: it is an argument that there is a **knowledge gap** in how innovation works or is governed, and that this paper closes it.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: innovation system, science policy, patent evidence, R&D organization, technology diffusion.
-- Sibling boundary: Strategic Management Journal, Management Science, Industrial and Corporate Change, and Journal of Business Venturing.
-- House-style aim: innovation-policy argument linking mechanisms, institutions, and technology evidence.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/research-policy
-- https://www.elsevier.com/journals/research-policy/0048-7333/guide-for-authors
+The gap must be a *knowledge* gap, not a *data* gap. "First study of region Z" is rarely enough; "the dominant view assumes X, but mechanism Y implies the opposite, and we show which holds" is RP-grade.
 
-## Stage-specific moves
+## Positioning moves
 
-1. State the exact literature positioning question in one sentence.
-2. Identify which Research Policy audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `respol-methods` if the stage passes, or back to `respol-workflow` if it does not.
+1. **Anchor in the RP canon.** Identify 3–6 RP / innovation-studies works your paper directly extends or contradicts, and engage their *arguments*, not just their existence.
+2. **Name the prevailing belief.** State the current consensus or dominant assumption in that conversation in one sentence.
+3. **State the gap as tension.** Show why the consensus is incomplete, contradicted, or untested for the conditions you study — ideally a tension between two innovation-studies positions your paper resolves.
+4. **Place the contribution.** Say precisely what changes: a new mechanism, a boundary on a known one, contradicting evidence, or a measurement that resolves a debate.
+5. **Triage adjacent fields.** Cite economics/strategy where it earns its place, but keep the innovation-studies literature in the foreground so the paper reads as RP.
+
+## Distinguishing the contribution from siblings
+
+| Sibling literature | How RP positioning differs |
+|--------------------|----------------------------|
+| Strategy (SMJ) | Frame around innovation/technology mechanisms and systems, not firm competitive advantage |
+| Industrial and Corporate Change | Foreground innovation/STI policy and knowledge production, not industrial-dynamics/capabilities theory per se |
+| Technovation / JPIM | Make a research contribution to innovation *theory/evidence*, not a managerial how-to or NPD-process study |
+| Economics of innovation field journals | Lead with the innovation-studies and policy implication, not the pure econometric contribution |
 
 ## Checklist
-- [ ] The Research Policy audience can see why the paper belongs in innovation, science policy, technology management, entrepreneurship, R&D, and knowledge production.
-- [ ] The draft distinguishes Research Policy from Strategic Management Journal, Management Science, Industrial.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for literature positioning names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] 3–6 RP/innovation-studies anchors are engaged by argument, not just cited
+- [ ] The prevailing belief is stated in one sentence before the gap
+- [ ] The gap is a knowledge gap (a tension), not a data/geography gap
+- [ ] What readers should believe differently after the paper is explicit
+- [ ] Economics/strategy citations are present where earned but not dominant
+- [ ] The contribution is distinguished from SMJ / ICC / Technovation / JPIM framings
+- [ ] Process/source facts cited are verified or marked 待核实
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Research Policy without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A literature base with no RP/innovation-studies anchors (out-of-scope risk)
+- "No one has studied this in country/sector X" presented as the contribution (data gap)
+- Citing RP exemplars without engaging their actual claims
+- A laundry-list review that never states the prevailing belief or the tension
+- Letting the strategy or econometrics literature crowd out innovation studies
+- Inventing exemplar papers or mis-attributing canonical arguments
 
 ## Output format
 
 ```text
 【Journal】Research Policy
 【Skill】respol-literature-positioning
+【RP anchors engaged】3–6 works extended or contradicted
+【Prevailing belief】one sentence
+【Gap as tension】why the consensus is incomplete / contradicted / untested
+【Contribution placement】new mechanism / boundary / contradicting evidence / resolving measurement
+【Sibling framing avoided】not SMJ / ICC / Technovation / JPIM
 【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking literature positioning
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Strategic Management Journal, Management Science
-【Source status】verified URL / 待核实 / not asserted
 【Next skill】respol-methods
 ```

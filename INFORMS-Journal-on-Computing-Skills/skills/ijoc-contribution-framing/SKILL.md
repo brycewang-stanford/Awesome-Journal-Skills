@@ -1,70 +1,73 @@
 ---
 name: ijoc-contribution-framing
-description: Use when working on contribution framing for a INFORMS Journal on Computing manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the one-sentence computational/methodological claim of an INFORMS Journal on Computing (IJOC) manuscript is not sharp, or the contribution reads as application rather than computing. Sharpens the "what is new and by how much"; it does not run the experiments that back it.
 ---
 
 # Contribution Framing (ijoc-contribution-framing)
 
 ## When to trigger
-- The manuscript is aimed at **INFORMS Journal on Computing (IJOC)** and contribution framing is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's operations research and computing, algorithms, optimization, machine learning, simulation, and computational decision systems standard.
-- The paper risks being confused with nearby venues: Operations Research, Management Science, Manufacturing & Service Operations Management, and ACM/IEEE computing venues.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You cannot state in one sentence **what is computationally new and by how much**
+- The intro frames an *application* win when the contribution should be the *method*
+- A coauthor or referee says "interesting but what is the actual contribution?"
+- The experiments are solid (`ijoc-data-analysis`) but the paper does not *claim* them crisply
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| algorithmic contribution is central | Make the algorithmic contribution assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| computational experiment is central | Make the computational experiment assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| optimization benchmark is central | Make the optimization benchmark assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| reproducible code is central | Make the reproducible code assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| decision analytics is central | Make the decision analytics assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The IJOC contribution sentence
 
-## IJOC fit notes
+A strong IJOC contribution sentence names the **method**, the **axis of improvement**, the **magnitude**, and the **evidence regime** — and is falsifiable. Template:
 
-- Publisher / owner context: INFORMS.
-- Submission route to re-check: INFORMS / ScholarOne submission.
-- Signature vocabulary: algorithmic contribution, computational experiment, optimization benchmark, reproducible code, decision analytics.
-- Sibling boundary: Operations Research, Management Science, Manufacturing & Service Operations Management, and ACM/IEEE computing venues.
-- House-style aim: computational OR contribution with transparent algorithms, benchmarks, and reproducibility.
-- Official URLs currently used by the pack:
-- https://pubsonline.informs.org/journal/ijoc
-- https://pubsonline.informs.org/page/ijoc/submission-guidelines
+> "We propose [method] for [OR problem]; it [wins on axis] by [magnitude] over [SOTA baseline] on [benchmark set], with [guarantee/property]."
 
-## Stage-specific moves
+Worked, illustrative: "We propose a Benders-with-lazy-cuts scheme for two-stage stochastic network design that solves instances 6× larger than the best published exact method on standard library instances within the same time limit, with a proof of cut validity and a 31% root-gap reduction." That sentence tells the Area Editor exactly what to verify.
 
-1. State the exact contribution framing question in one sentence.
-2. Identify which IJOC audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `ijoc-tables-figures` if the stage passes, or back to `ijoc-workflow` if it does not.
+## Types of contribution IJOC rewards
+
+Frame the contribution as one (or a clear combination) of these, and make the *primary* one unambiguous:
+
+| Contribution type | What makes it land at IJOC | Common failure |
+|-------------------|---------------------------|----------------|
+| New exact method / formulation | larger solvable instances, tighter bounds, with validity proven | "new model" with no computational edge |
+| New heuristic/matheuristic | better quality or time, fairly compared, ideally with a bound | win over a strawman baseline |
+| ML-for-OR method | beats both OR and prior learning baselines; feasibility safe | a black box with no OR baseline |
+| New simulation/estimation method | lower variance/cost at equal accuracy, with theory | "we simulated it" with no methodological news |
+| Computational tooling/methodology | enables computations not previously feasible, reproducibly | software existence without a methodological claim |
+
+## Application is the motivation, not the contribution
+
+The most common framing error at IJOC is leading with the application ("we study airline crew scheduling") rather than the computing ("we design a column-generation acceleration that…"). State the application in one or two sentences as motivation, then pivot hard to the methodological news. If you remove the application and the paper still has a contribution, you are framed correctly; if it collapses, the computing is not yet the contribution — return to `ijoc-topic-selection`.
+
+## Calibrating the claim to the evidence
+
+Overclaiming triggers referee distrust; underclaiming wastes a good result. Match the verb to the evidence: "proves," "guarantees" only with proofs; "consistently outperforms" only with a performance profile and a statistical test; "scales to" only with a scaling plot. Scope honestly by regime ("on sparse, large instances") rather than blanket dominance. The claim in the abstract, the intro, and the conclusion must be the *same* claim.
 
 ## Checklist
-- [ ] The IJOC audience can see why the paper belongs in operations research and computing, algorithms, optimization, machine learning, simulation, and computational decision systems.
-- [ ] The draft distinguishes IJOC from Operations Research, Management Science, Manufacturing & Service Operations Management.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for contribution framing names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] One sentence states method + axis + magnitude + baseline + benchmark + property
+- [ ] The primary contribution type is unambiguous
+- [ ] The claim is computing-first; application is motivation only
+- [ ] Verbs match the evidence (prove/guarantee/outperform/scale) and nothing stronger
+- [ ] The claim is scoped by regime where a competitor still wins
+- [ ] Abstract, intro, and conclusion state the identical claim
+- [ ] Removing the application leaves a standing contribution
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to IJOC without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Leading with the application domain and burying the method
+- "We are faster/better" with no magnitude, baseline, or benchmark named
+- A contribution sentence that would fit *Operations Research* (model news) rather than IJOC (computing news)
+- Claiming guarantees the theory section does not prove
+- Different contribution wording in the abstract vs. the conclusion
+- Listing five small contributions with no headline — referees cannot tell what to evaluate
 
 ## Output format
 
 ```text
 【Journal】INFORMS Journal on Computing
 【Skill】ijoc-contribution-framing
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking contribution framing
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Operations Research, Management Science
-【Source status】verified URL / 待核实 / not asserted
+【Contribution sentence】method + axis + magnitude + baseline + benchmark + property
+【Primary type】exact / heuristic / ML-for-OR / simulation / tooling
+【Computing-first?】application is motivation only? [Y/N]
+【Claim–evidence match】verbs justified by proofs/profiles/scaling? [Y/N]
+【Regime scoping】where the claim holds / where a rival wins
 【Next skill】ijoc-tables-figures
 ```

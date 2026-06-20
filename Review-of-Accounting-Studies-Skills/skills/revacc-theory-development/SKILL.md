@@ -1,70 +1,70 @@
 ---
 name: revacc-theory-development
-description: Use when working on theory development for a Review of Accounting Studies manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the economic mechanism, analytical model, or testable predictions are the bottleneck for a Review of Accounting Studies (RAST) manuscript — articulating the friction behind an accounting effect or building a parsimonious disclosure/contracting model with proven propositions. Builds the argument; it does not design identification (revacc-methods) or run estimation (revacc-data-analysis).
 ---
 
-# Theory Development (revacc-theory-development)
+# Theory & Model Development (revacc-theory-development)
 
 ## When to trigger
-- The manuscript is aimed at **Review of Accounting Studies (RAST)** and theory development is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's analytical, empirical, and experimental accounting research with strong economics foundations standard.
-- The paper risks being confused with nearby venues: The Accounting Review, Journal of Accounting Research, Journal of Accounting and Economics, and Contemporary Accounting Research.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Predictions read as bald associations ("disclosure X relates to outcome Y") with no friction
+- You have archival results and are tempted to write predictions around them (HARKing risk)
+- An analytical paper needs a clean information structure, equilibrium, and comparative statics
+- A claimed channel (information asymmetry, agency, real effects) is asserted but not modeled
+- A referee says "what is the friction?", "the model is not minimal", or "the comparative static has no accounting reading"
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| accounting disclosure is central | Make the accounting disclosure assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| audit quality is central | Make the audit quality assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| capital-market accounting is central | Make the capital-market accounting assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| tax and reporting is central | Make the tax and reporting assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| earnings information is central | Make the earnings information assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## RAST is a genuine home for analytical accounting
 
-## RAST fit notes
+Unlike outlets where modeling is marginal, RAST runs a real **analytical lane** alongside archival and experimental work. That raises two distinct bars depending on the lane, and the most common failure is mixing them up.
 
-- Publisher / owner context: Springer.
-- Submission route to re-check: Springer Nature submission.
-- Signature vocabulary: accounting disclosure, audit quality, capital-market accounting, tax and reporting, earnings information.
-- Sibling boundary: The Accounting Review, Journal of Accounting Research, Journal of Accounting and Economics, and Contemporary Accounting Research.
-- House-style aim: accounting research that links institutional reporting detail to credible economic mechanisms.
-- Official URLs currently used by the pack:
-- https://link.springer.com/journal/11142
-- https://www.springer.com/journal/11142/submission-guidelines
+- **Analytical / modeling.** State primitives — players, **information structure** (who knows what, when), payoffs — then solve for equilibrium and present **propositions with proofs** and **comparative statics**. The RAST-specific demand: the model must be the **minimal structure** that delivers an *accounting* implication (optimal disclosure granularity, the demand for conservatism, signaling through reporting choices, audit-effort incentives, performance-measure design, the real effects of mandatory reporting). An elegant equilibrium with no accounting payoff is a math paper RAST will reject.
+- **Empirical archival.** Derive directional predictions from accounting and information economics *before* estimation. Name the friction the accounting acts on and the channel verb (reduces information asymmetry, tightens monitoring, relaxes a covenant, disciplines investment, deters tax aggressiveness).
+- **Experimental / behavioral.** Ground hypotheses in psychology plus accounting theory (judgment, motivated reasoning, professional skepticism, investor processing) where archival data cannot isolate the mechanism; the experiment manipulates the construct to establish the channel directly.
 
-## Stage-specific moves
+## The mechanism chain (archival/experimental)
 
-1. State the exact theory development question in one sentence.
-2. Identify which RAST audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `revacc-literature-positioning` if the stage passes, or back to `revacc-workflow` if it does not.
+1. **Setting & construct** — the accounting object (disclosure, accrual, audit, tax position) and the institutional setting that makes it bite.
+2. **Friction** — the information or agency friction (asymmetric information, adverse selection, moral hazard, contracting/monitoring force, attention constraint).
+3. **Channel** — the economic process linking construct to outcome (pricing, contracting, real investment, litigation, reputation, enforcement).
+4. **Direction & form** — sign; monotone, non-monotone, or conditional.
+5. **Cross-section / boundary** — where the effect strengthens or reverses, and *why* economically.
+
+## Building the analytical model (RAST-style)
+
+- Make the **information structure explicit** and defend each assumption as load-bearing — referees probe whether a simpler model gives the same result.
+- **Prove** propositions; never assert equilibrium properties. Put proofs in an appendix, intuition in the text.
+- Translate comparative statics into **empirical predictions or policy implications** an accounting reader cares about; pair the model with a stylized empirical illustration where feasible — RAST values theory that speaks to data.
+- Name the closest existing disclosure/agency model and state the **marginal modeling move** (a new friction, a relaxed assumption, an added stage).
 
 ## Checklist
-- [ ] The RAST audience can see why the paper belongs in analytical, empirical, and experimental accounting research with strong economics foundations.
-- [ ] The draft distinguishes RAST from The Accounting Review, Journal of Accounting Research, Journal of Accounting.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for theory development names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Every prediction rests on a named friction and channel, not a mechanical correlation
+- [ ] Archival predictions were fixed before estimation (no HARKing)
+- [ ] Analytical claims are stated as **proven propositions** with comparative statics
+- [ ] The model is defended as the minimal structure for the result
+- [ ] Each comparative static has an explicit **accounting** reading (not just an economics one)
+- [ ] At least one rival explanation is named and will be tested or modeled out
+- [ ] The marginal move over the nearest prior model/theory is stated
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to RAST without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **HARKing:** writing predictions to match regression output after the fact.
+- **Model without payoff:** a clean equilibrium whose comparative statics carry no accounting implication.
+- **Non-minimal model:** assumptions a referee can strip without changing the result.
+- **Borrowed friction:** invoking "information asymmetry" with no account of how it operates here.
+- **Mechanical prediction:** a sign that follows from accounting identities rather than economics.
+- **Channel by proxy:** asserting a real-effects channel the design cannot separate from pricing.
 
 ## Output format
 
 ```text
-【Journal】Review of Accounting Studies
-【Skill】revacc-theory-development
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking theory development
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not The Accounting Review, Journal of Accounting Research
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】revacc-literature-positioning
+【Lane】archival / analytical / experimental
+【Friction】information asymmetry / agency / contracting / attention ...
+【Analytical only】primitives + information structure stated? propositions proven? minimal? yes/no
+【Prediction P1 (focal)】construct → channel → outcome; direction/form
+【Prediction P2 (channel/mediation)】...
+【P3+ (cross-section/boundary)】... economic reason
+【Accounting payoff】the implication a reporting reader cares about
+【Rival explanation】named + how it will be ruled out
+【Next skill】revacc-literature-positioning, then revacc-methods
 ```

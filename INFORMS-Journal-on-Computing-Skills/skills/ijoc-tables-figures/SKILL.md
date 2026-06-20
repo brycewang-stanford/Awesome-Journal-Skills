@@ -1,70 +1,72 @@
 ---
 name: ijoc-tables-figures
-description: Use when working on tables and figures for a INFORMS Journal on Computing manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the computational exhibits — performance profiles, runtime-vs-size plots, and results tables — are dense, misleading, or do not answer the question for an INFORMS Journal on Computing (IJOC) manuscript. Designs exhibits that make the computational claim legible; it does not generate the underlying results.
 ---
 
-# Tables and Figures (ijoc-tables-figures)
+# Performance Exhibits (ijoc-tables-figures)
 
 ## When to trigger
-- The manuscript is aimed at **INFORMS Journal on Computing (IJOC)** and tables and figures is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's operations research and computing, algorithms, optimization, machine learning, simulation, and computational decision systems standard.
-- The paper risks being confused with nearby venues: Operations Research, Management Science, Manufacturing & Service Operations Management, and ACM/IEEE computing venues.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Your results are in giant tables of times and gaps that no reader can parse
+- You are comparing several methods across many instances and need a single legible exhibit
+- A referee says the figures "do not show the claimed advantage" or are hard to read
+- You need to show **scaling** and cannot tell whether the growth is linear, polynomial, or exponential
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| algorithmic contribution is central | Make the algorithmic contribution assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| computational experiment is central | Make the computational experiment assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| optimization benchmark is central | Make the optimization benchmark assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| reproducible code is central | Make the reproducible code assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| decision analytics is central | Make the decision analytics assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The IJOC exhibit toolkit
 
-## IJOC fit notes
+IJOC exhibits exist to make a *computational* claim legible at a glance. Choose the exhibit to the claim:
 
-- Publisher / owner context: INFORMS.
-- Submission route to re-check: INFORMS / ScholarOne submission.
-- Signature vocabulary: algorithmic contribution, computational experiment, optimization benchmark, reproducible code, decision analytics.
-- Sibling boundary: Operations Research, Management Science, Manufacturing & Service Operations Management, and ACM/IEEE computing venues.
-- House-style aim: computational OR contribution with transparent algorithms, benchmarks, and reproducibility.
-- Official URLs currently used by the pack:
-- https://pubsonline.informs.org/journal/ijoc
-- https://pubsonline.informs.org/page/ijoc/submission-guidelines
+- **Performance profile (Dolan–Moré).** The default for "our solver dominates across an instance set." Plot the fraction of instances solved within a factor τ of the best solver; the curve that is highest-and-leftmost wins. Far more honest and readable than a table of per-instance times.
+- **Runtime / memory vs. instance size.** Use **log scales** (often log–log or semilog) so polynomial vs. exponential growth is visible as a slope. Overlay the theoretical complexity from `ijoc-theory-development` so theory and experiment are seen together.
+- **Time-to-target / quality-over-time plots.** For anytime algorithms and heuristics, show solution quality as a function of wall-clock; this exposes whether a method is fast-but-poor or slow-but-exact.
+- **Gap-closure / convergence plots.** For exact methods, show primal–dual gap over time or over nodes.
+- **Box/violin plots across seeds.** For stochastic methods, show the distribution, not a bar of means.
 
-## Stage-specific moves
+## Tables that earn their space
 
-1. State the exact tables and figures question in one sentence.
-2. Identify which IJOC audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `ijoc-writing-style` if the stage passes, or back to `ijoc-workflow` if it does not.
+Tables are for precise numbers a profile cannot give: final gaps, node counts, instance characteristics. Make them readable:
+
+- Report **dispersion** for stochastic results (mean ± sd, or median [IQR]), not bare means.
+- State the **time limit, hardware, and units** in the caption — a "time" column is meaningless without them.
+- Define every metric (how the gap is computed, what "solved" means) in the caption or a note.
+- Bold or mark the best per row sparingly and consistently; do **not** use significance asterisks — IJOC results are about magnitudes and statistical tests reported in text, not starred cells.
+- Aggregate: a summary table plus a deposited full-results file (in the GitHub `results/`) beats a 12-page raw dump.
+
+## Make the exhibit answer the claim
+
+Every exhibit should map to a sentence in the paper. If the claim is "we scale better," the scaling plot must show diverging slopes; if it is "we dominate across instances," the performance profile must show the dominant curve. An exhibit that does not visibly support its claim invites the referee to doubt the claim itself. Reproducibility extends here too: the script that produces each figure should live in the deposit's `scripts/`, so a reviewer can regenerate it.
 
 ## Checklist
-- [ ] The IJOC audience can see why the paper belongs in operations research and computing, algorithms, optimization, machine learning, simulation, and computational decision systems.
-- [ ] The draft distinguishes IJOC from Operations Research, Management Science, Manufacturing & Service Operations Management.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for tables and figures names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Multi-method, multi-instance comparison shown as a performance profile, not a mega-table
+- [ ] Scaling shown on log axes with the theoretical complexity overlaid
+- [ ] Anytime/heuristic results shown as quality-over-time where relevant
+- [ ] Stochastic results show distribution/dispersion, not means alone
+- [ ] Every table caption states time limit, hardware, units, and metric definitions
+- [ ] No significance asterisks; best-per-row marked consistently and sparingly
+- [ ] Each exhibit visibly supports the specific claim it serves
+- [ ] Figure-generating scripts are in the deposit and regenerate the exhibit
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to IJOC without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A 50-row table of per-instance times where a performance profile would settle the comparison
+- Linear axes hiding exponential growth in a scaling plot
+- Bare means for randomized methods, with no dispersion or distribution
+- Time columns with no stated time limit, hardware, or units
+- Significance asterisks imported from a social-science template
+- An exhibit whose visible message does not match the claim it is cited for
+- Figures that cannot be regenerated from the deposited scripts
 
 ## Output format
 
 ```text
 【Journal】INFORMS Journal on Computing
 【Skill】ijoc-tables-figures
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking tables and figures
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Operations Research, Management Science
-【Source status】verified URL / 待核实 / not asserted
+【Claim → exhibit】each claim mapped to its exhibit type
+【Profiles/scaling】performance profile + log-axis scaling present? [Y/N]
+【Dispersion】distributions shown for stochastic results? [Y/N]
+【Captions】time limit / hardware / units / metric defined? [Y/N]
+【No asterisks】confirmed [Y/N]
+【Reproducible】figure scripts in deposit? [Y/N]
 【Next skill】ijoc-writing-style
 ```

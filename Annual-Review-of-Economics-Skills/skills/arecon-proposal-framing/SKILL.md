@@ -1,70 +1,69 @@
 ---
 name: arecon-proposal-framing
-description: Use when working on proposal framing for a Annual Review of Economics manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when getting a review topic in front of the Annual Review of Economics (ARE) Editorial Committee or shaping an accepted invitation — the commissioned/invited intake route, how to suggest a topic, and what a Committee-ready pitch contains. Frames the commission; it does not gather the literature (arecon-literature-synthesis) or run the delivery preflight (arecon-submission).
 ---
 
-# Proposal Framing (arecon-proposal-framing)
+# Invitation & Commissioning (arecon-proposal-framing)
 
 ## When to trigger
-- The manuscript is aimed at **Annual Review of Economics (AREcon)** and proposal framing is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's commissioned review articles synthesizing major areas of economics for specialists and adjacent economists standard.
-- The paper risks being confused with nearby venues: Journal of Economic Literature, Journal of Economic Perspectives, Handbook chapters, and Academy of Management Annals.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The topic passed `arecon-topic-selection` and you want it considered for an ARE volume
+- You received an invitation from the Editorial Committee and need to lock the angle before reading
+- You are unsure how ARE intake works — it is **not** a portal you submit a finished paper to
+- You want to maximize the chance the Committee commissions *you* for *this* topic
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| field synthesis is central | Make the field synthesis assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| research frontier is central | Make the research frontier assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| conceptual map is central | Make the conceptual map assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| evidence stocktake is central | Make the evidence stocktake assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| future agenda is central | Make the future agenda assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## How ARE intake actually works (检索于 2026-06；以官网为准)
 
-## AREcon fit notes
+This is the single most important difference from a normal journal — get it right or you waste months. ARE is **commissioning-driven**:
 
-- Publisher / owner context: Annual Reviews.
-- Submission route to re-check: Annual Reviews editorial process.
-- Signature vocabulary: field synthesis, research frontier, conceptual map, evidence stocktake, future agenda.
-- Sibling boundary: Journal of Economic Literature, Journal of Economic Perspectives, Handbook chapters, and Academy of Management Annals.
-- House-style aim: agenda-setting synthesis that clarifies what the field knows, disputes, and should do next.
-- Official URLs currently used by the pack:
-- https://www.annualreviews.org/journal/economics
-- https://www.annualreviews.org/page/authors/general-information
+- **The Editorial Committee invites articles.** The Committee identifies salient topics and **solicits reviews from qualified authors**, selecting on scholarly reputation, academic record, and publication history (检索于 2026-06；以官网为准).
+- **Unsolicited finished manuscripts are not accepted.** You do not write the full review and submit it cold the way you would to JEL or a field journal (检索于 2026-06；以官网为准). The leverage point is getting your *topic and your name* onto the Committee's radar, not polishing a finished draft no one asked for.
+- **Suggesting a topic is the controllable move.** Authors and Committee members can **propose topics**; a member may propose another member or an outside expert. Proposed topics are evaluated with the same rigor as any commissioned article and go through review after submission (检索于 2026-06；以官网为准). So your realistic path is a sharp, short pitch — to the Committee, an editor you know, or via the journal's suggestion channel — that demonstrates the topic is ARE-shaped and that you are the right author.
+- **After an invitation, scope is negotiated** with the editor/Committee before you draft (see `arecon-editor-strategy`).
 
-## Stage-specific moves
+> Because you cannot manufacture an invitation, the closest controllable substitute is a one-to-two-page topic pitch that reads like the Committee's own reasoning: here is a field that has matured, here is why an adjacent economist needs a map of it now, here is the spine I would impose, and here is why I can write it fairly. Put your name in front of the Committee as *the person who could write that review.*
 
-1. State the exact proposal framing question in one sentence.
-2. Identify which AREcon audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `arecon-literature-synthesis` if the stage passes, or back to `arecon-workflow` if it does not.
+## Anatomy of a Committee-ready topic pitch
+
+| Element | What it must do | Length guide |
+|---------|-----------------|--------------|
+| The field & animating question | State the literature and the *question about it* (from `arecon-topic-selection`) | ~1 paragraph |
+| Why a synthesis is needed *now* | New evidence / method shift / policy salience; the adjacent-economist payoff | ~1 paragraph |
+| The organizing spine | The taxonomy or analytical structure you would impose — not a chapter list | ~2–3 paragraphs |
+| Coverage signal | The main research lines and key references you would weigh (breadth evidence) | a curated list |
+| Provisional conclusions | Your read of what the field has settled and the open questions (the payoff) | ~1 paragraph |
+| Your standing & balance | Why you can review this fairly, and how you will handle your own work even-handedly | ~2 sentences |
 
 ## Checklist
-- [ ] The AREcon audience can see why the paper belongs in commissioned review articles synthesizing major areas of economics for specialists and adjacent economists.
-- [ ] The draft distinguishes AREcon from Journal of Economic Literature, Journal of Economic Perspectives, Handbook chapters.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for proposal framing names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] The review explains inclusion/exclusion logic and how competing schools are balanced.
-- [ ] The synthesis produces an agenda, taxonomy, or framework rather than a bibliography.
+
+- [ ] You understand ARE is invited — you are pitching a *topic*, not submitting a finished paper
+- [ ] The pitch states the contents, why adjacent economists will care, and the main references you would weigh
+- [ ] It leads with an **organizing spine**, not a table of contents
+- [ ] It demonstrates command of the literature (the reference signal shows breadth)
+- [ ] It names the provisional conclusions and open questions (so the Committee sees a payoff)
+- [ ] It addresses balance, especially if you are a contributor to the field
+- [ ] You have identified the right channel (suggestion form / known editor / Committee contact) and confirmed it on the official page (volatile)
+- [ ] If already invited: scope/angle confirmed with the editor before heavy reading (`arecon-editor-strategy`)
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to AREcon without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Writing a 40-page draft and trying to submit it cold — ARE does not take unsolicited manuscripts
+- A pitch that is a topic outline ("Section 3 will discuss X") with no analytical spine
+- A reference list that is a literature dump rather than evidence of a curated, weighable corpus
+- Promising "comprehensive coverage" with no statement of what the review will *conclude*
+- Asserting editor names / Committee contacts / process from memory instead of the live Annual Reviews page
+- Treating an invitation as a blank check — scope is still negotiated, and a review cannot grow without bound
 
 ## Output format
 
 ```text
-【Journal】Annual Review of Economics
-【Skill】arecon-proposal-framing
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking proposal framing
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Economic Literature, Journal of Economic Perspectives
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】arecon-literature-synthesis
+【Field & question】<one sentence>
+【Why now】<new evidence / method shift / policy salience>
+【Proposed spine】<the organizing framework in 2–3 sentences>
+【Coverage signal】<research lines + key references signalling breadth>
+【Provisional conclusions + open questions】<what the review will argue>
+【Route】topic suggestion / known-editor contact / accepted invitation
+【Balance note】<how the author's own work is handled>
+【Source status】Committee process / contact re-confirmed on Annual Reviews page? Y/N · 待核实
+【Next step】→ arecon-literature-synthesis (begin systematic reading) after the invitation
 ```

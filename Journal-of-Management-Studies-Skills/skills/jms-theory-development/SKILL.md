@@ -1,70 +1,76 @@
 ---
 name: jms-theory-development
-description: Use when working on theory development for a Journal of Management Studies manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the theoretical argument is the bottleneck for a Journal of Management Studies (JMS) manuscript — building a mechanism and deriving hypotheses a priori, OR abstracting grounded constructs and propositions from qualitative data. Constructs the theory both deductively and inductively; it does not run the analysis (jms-data-analysis) or write the final contribution paragraph (jms-contribution-framing).
 ---
 
 # Theory Development (jms-theory-development)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Management Studies (JMS)** and theory development is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's management and organization studies, strategy, entrepreneurship, innovation, OB, and critical perspectives standard.
-- The paper risks being confused with nearby venues: Journal of Management, Organization Studies, AMJ, AMR, and Strategic Management Journal.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Hypotheses read as bald predictions ("A is positively related to B") with no mechanism
+- An inductive study produces rich description but no abstracted theoretical model
+- The argument leans on one borrowed citation rather than a developed logic
+- A reviewer says "the theory is thin," "this is description, not theory," or "what is the contribution to theory?"
+- You are unsure whether to write a priori hypotheses or emergent propositions
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| theoretical pluralism is central | Make the theoretical pluralism assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| organization studies is central | Make the organization studies assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| critical boundary is central | Make the critical boundary assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| international management is central | Make the international management assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| phenomenon-driven contribution is central | Make the phenomenon-driven contribution assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The JMS theory bar
 
-## JMS fit notes
+JMS exists to advance management and organization **theory**, and — unlike a US empirical journal — it treats the **deductive** and **inductive** paths as equally legitimate. The bar is the same for both: a reader must finish understanding *why* the relationship or pattern holds and *under what conditions* it changes. Pick the path the design demands; do not force a qualitative study into a hypothetico-deductive template or write post-hoc hypotheses around quantitative results.
 
-- Publisher / owner context: Wiley for the Society for the Advancement of Management Studies.
-- Submission route to re-check: Wiley online submission.
-- Signature vocabulary: theoretical pluralism, organization studies, critical boundary, international management, phenomenon-driven contribution.
-- Sibling boundary: Journal of Management, Organization Studies, AMJ, AMR, and Strategic Management Journal.
-- House-style aim: conceptually rich management scholarship that makes theory travel beyond one setting.
-- Official URLs currently used by the pack:
-- https://onlinelibrary.wiley.com/journal/14676486
-- https://onlinelibrary.wiley.com/page/journal/14676486/homepage/forauthors.html
+## Path A — Deductive: build a hypothesis as a mechanism chain
 
-## Stage-specific moves
+For each hypothesis, write the explicit chain and skip no step:
 
-1. State the exact theory development question in one sentence.
-2. Identify which JMS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jms-literature-positioning` if the stage passes, or back to `jms-workflow` if it does not.
+1. **Antecedent** — the predictor and why it matters in this organizational context.
+2. **Mechanism** — the theoretical process linking antecedent to outcome (e.g., institutional logics, attention allocation, identity work, resource dependence, signalling). Name the theory and the process verb (legitimates, depletes, redirects attention, signals).
+3. **Outcome** — the dependent construct, defined at a stated level of analysis (individual / team / firm / field).
+4. **Direction & form** — sign, and whether linear, curvilinear, or threshold (justify a turning point with two opposing forces, not a significant squared term).
+5. **Boundary** — the moderator(s) and the *theoretical reason* the mechanism strengthens or reverses. "It depends" is not a theory until you say why.
+
+Keep hypotheses to a defensible set (a focal effect plus a mechanism and one or two boundaries); a "kitchen sink" of ten thin predictions signals weak theory. A boxes-and-arrows model figure must map one-to-one to the hypotheses.
+
+## Path B — Inductive: abstract data into a grounded theoretical model
+
+For qualitative theory-building, JMS does **not** want a priori hypotheses — it wants a credible journey from data to a model. The Gioia-style discipline is the field reference:
+
+1. **First-order codes** — informant-centric terms, staying close to the data.
+2. **Second-order themes** — researcher-centric theoretical concepts that aggregate the codes.
+3. **Aggregate dimensions** — the small set of constructs that organise the themes.
+4. **Process / theoretical model** — a figure showing how the dimensions relate dynamically, with **propositions** (not hypotheses) abstracting the relationships.
+
+Make the **data-to-theory chain visible** (a data-structure figure plus representative quotes table is the convention) so a reviewer can audit how a quote became a construct. For process/longitudinal work, use temporal bracketing or a visual-mapping strategy and theorise the *mechanism of change over time*, not just a stage sequence.
+
+## Engage rival explanations
+
+Whichever path you take, name at least one alternative theoretical account and show why yours explains the phenomenon better or differently. JMS reviewers reward a paper that takes the strongest counter-theory seriously, not one that ignores it.
 
 ## Checklist
-- [ ] The JMS audience can see why the paper belongs in management and organization studies, strategy, entrepreneurship, innovation, OB, and critical perspectives.
-- [ ] The draft distinguishes JMS from Journal of Management, Organization Studies, AMJ.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for theory development names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Path chosen (deductive mechanism / inductive grounded model) and consistent with the design
+- [ ] Deductive: every hypothesis has an explicit mechanism, not just a predicted sign; level of analysis stated
+- [ ] Inductive: first-order → second-order → aggregate-dimensions chain is explicit and auditable; propositions (not hypotheses)
+- [ ] A theoretical/process model figure maps one-to-one to hypotheses or propositions
+- [ ] Boundaries/moderators (or scope conditions) are theorised with substantive reasons
+- [ ] At least one rival theoretical explanation is named and engaged
+- [ ] No HARKing: deductive hypotheses fixed before analysis; inductive constructs traceable to data
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JMS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Description masquerading as theory**: a vivid case with no abstracted constructs or model
+- **Bald predictions**: "we hypothesise A relates to B" with no *why*
+- **Borrowed theory by name only**: invoking dynamic capabilities or institutional logics without using its logic
+- **HARKing**: hypothesising after results are known; every hypothesis supported, none surprising
+- **Stage models without mechanism**: a phase sequence that never explains what drives the transitions
+- **Boundary without reason**: a moderator with no theoretical account of why the effect differs
 
 ## Output format
 
 ```text
-【Journal】Journal of Management Studies
-【Skill】jms-theory-development
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking theory development
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Management, Organization Studies
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jms-literature-positioning
+【Path】deductive (hypotheses) / inductive (grounded model)
+【Focal theory / conversation】... (process verb: ...)
+【Deductive】H1 antecedent→mechanism→outcome (level); H2 mechanism; H3+ boundary+reason
+【Inductive】first-order → second-order → aggregate dimensions → propositions
+【Model figure】matches hypotheses/propositions one-to-one? yes/no
+【Rival explanation engaged】...
+【Next step】jms-literature-positioning, then jms-methods
 ```

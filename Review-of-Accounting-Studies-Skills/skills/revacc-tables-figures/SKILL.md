@@ -1,70 +1,73 @@
 ---
 name: revacc-tables-figures
-description: Use when working on tables and figures for a Review of Accounting Studies manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the exhibits are the bottleneck for a Review of Accounting Studies (RAST) manuscript — building self-contained accounting panel tables, event-study and equilibrium figures, and a descriptive-statistics block that survives referee scrutiny. Builds the exhibits; it does not run the analysis (revacc-data-analysis) or polish the surrounding prose (revacc-writing-style).
 ---
 
-# Tables and Figures (revacc-tables-figures)
+# Tables & Figures (revacc-tables-figures)
 
 ## When to trigger
-- The manuscript is aimed at **Review of Accounting Studies (RAST)** and tables and figures is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's analytical, empirical, and experimental accounting research with strong economics foundations standard.
-- The paper risks being confused with nearby venues: The Accounting Review, Journal of Accounting Research, Journal of Accounting and Economics, and Contemporary Accounting Research.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Tables are dense, inconsistent, or not self-explanatory without the text
+- Your descriptive-statistics table is missing or does not let a referee sanity-check the sample
+- A DiD or event study has no dynamic/event-time figure
+- An analytical paper has propositions but no figure illustrating the comparative statics
+- Significance is shown only with asterisks, or coefficients lack the economic-magnitude read
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| accounting disclosure is central | Make the accounting disclosure assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| audit quality is central | Make the audit quality assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| capital-market accounting is central | Make the capital-market accounting assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| tax and reporting is central | Make the tax and reporting assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| earnings information is central | Make the earnings information assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The standard RAST exhibit set
 
-## RAST fit notes
+Accounting empirical papers at RAST converge on a recognizable sequence; build it in order.
 
-- Publisher / owner context: Springer.
-- Submission route to re-check: Springer Nature submission.
-- Signature vocabulary: accounting disclosure, audit quality, capital-market accounting, tax and reporting, earnings information.
-- Sibling boundary: The Accounting Review, Journal of Accounting Research, Journal of Accounting and Economics, and Contemporary Accounting Research.
-- House-style aim: accounting research that links institutional reporting detail to credible economic mechanisms.
-- Official URLs currently used by the pack:
-- https://link.springer.com/journal/11142
-- https://www.springer.com/journal/11142/submission-guidelines
+1. **Variable definitions** — every variable defined with its data source (Compustat item, CRSP field, I/B/E/S measure) so the sample is reconstructable.
+2. **Descriptive statistics** — N, mean, median, SD, key percentiles for all variables; this is the table referees use to catch a broken sample (implausible accruals, miswinsorized ratios).
+3. **Correlations** — Pearson/Spearman where it informs multicollinearity or the main association.
+4. **Main result** — the focal estimating equation with fixed effects and clustering noted in the table notes; report **economic magnitude**, not only significance.
+5. **Identification diagnostics** — pre-trends/dynamic effects (DiD), first stage (IV), bandwidth/density (RD).
+6. **Robustness and cross-section** — alternative proxies, subsamples, channel partitions.
 
-## Stage-specific moves
+For **analytical** papers, the exhibit set is figures: an equilibrium/comparative-static plot that makes the proposition legible, and a stylized numerical example.
 
-1. State the exact tables and figures question in one sentence.
-2. Identify which RAST audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `revacc-writing-style` if the stage passes, or back to `revacc-workflow` if it does not.
+## Make every exhibit self-contained
+
+A RAST table must be readable without the body text. The title states what is estimated; the notes give the **sample, period, unit of observation, fixed effects, clustering, winsorization, and what significance markers mean**. A referee should reconstruct the specification from the table alone. Report coefficients with standard errors (or t-stats) consistently, and translate the headline coefficient into an economic magnitude ("a one-SD increase in disclosure quality lowers the bid-ask spread by X%").
+
+## Figures that earn their place
+
+- **Event-time / dynamic-effect plot** for any DiD — the single most persuasive identification exhibit; show the flat pre-trend and the post-treatment path with confidence bands.
+- **Event-study CAR plot** for information-content/value-relevance claims, with the window and benchmark stated.
+- **Comparative-static figure** for analytical papers — plot the equilibrium object against the key primitive so the accounting reading is visible.
+- Avoid chartjunk and dual axes; one figure, one message.
+
+## House-style discipline
+
+Follow the journal's formatting (待核实; 检索于 2026-06；以官网为准): consistent decimal places, a stated significance convention, numbered tables/figures referenced in order, and an abstract within the journal's limit (~150–250 words, 待核实). Keep exhibits anonymized for double-blind review (no author-identifying file names or acknowledgements embedded).
 
 ## Checklist
-- [ ] The RAST audience can see why the paper belongs in analytical, empirical, and experimental accounting research with strong economics foundations.
-- [ ] The draft distinguishes RAST from The Accounting Review, Journal of Accounting Research, Journal of Accounting.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for tables and figures names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Variable-definitions table with data sources present
+- [ ] Descriptive-statistics table lets a referee sanity-check the sample
+- [ ] Main table reports economic magnitude, not just significance
+- [ ] Table notes give sample, period, unit, FE, clustering, winsorization, significance convention
+- [ ] DiD has a dynamic/event-time figure; IV/RD diagnostics shown
+- [ ] Analytical comparative statics illustrated in a figure
+- [ ] Every exhibit is self-contained and anonymized for double-blind review
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to RAST without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Asterisks-only inference** with no standard errors and no economic magnitude.
+- **Table dependent on the text** — notes too thin to reconstruct the specification.
+- **No descriptive-statistics table**, hiding a broken or implausible sample.
+- **A DiD with no event-time plot**, leaving pre-trends unshown.
+- **Chartjunk / dual axes** that obscure the one message a figure should carry.
+- **Identifying file names or acknowledgements** breaking anonymization.
 
 ## Output format
 
 ```text
-【Journal】Review of Accounting Studies
-【Skill】revacc-tables-figures
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking tables and figures
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not The Accounting Review, Journal of Accounting Research
-【Source status】verified URL / 待核实 / not asserted
+【Exhibit set】var-defs / descriptives / correlations / main / diagnostics / robustness
+【Main table】FE + clustering in notes; economic magnitude reported? yes/no
+【Identification figure】DiD event-time / IV first stage / RD plot
+【Analytical figure】comparative static illustrated? yes/no
+【Self-contained?】each exhibit readable alone; anonymized for double-blind
+【House style】decimals/significance convention/abstract limit (待核实)
 【Next skill】revacc-writing-style
 ```

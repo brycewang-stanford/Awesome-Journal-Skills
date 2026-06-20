@@ -1,70 +1,74 @@
 ---
 name: respol-review-process
-description: Use when working on review process for a Research Policy manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when calibrating expectations and choreography for the Research Policy (RP) review cycle — the double-blind process, the out-of-scope desk screen, handling-editor routing, the Research Note option, and what RP referees reward versus reject. Sets expectations; it does not draft the response letter (respol-rebuttal).
 ---
 
 # Review Process (respol-review-process)
 
 ## When to trigger
-- The manuscript is aimed at **Research Policy (Research Policy)** and review process is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's innovation, science policy, technology management, entrepreneurship, R&D, and knowledge production standard.
-- The paper risks being confused with nearby venues: Strategic Management Journal, Management Science, Industrial and Corporate Change, and Journal of Business Venturing.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You want realistic odds and timelines before or after submitting to RP
+- A desk reject arrived and you need to read whether it was scope, contribution, or fit
+- You are deciding whether to position the work as a full article or a Research Note
+- A decision letter arrived (reject / major / minor) and you need to plan, not yet write, the response
+- You are weighing transfer to a sibling (ICC, Technovation, JPIM) after an RP rejection
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| innovation system is central | Make the innovation system assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| science policy is central | Make the science policy assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| patent evidence is central | Make the patent evidence assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| R&D organization is central | Make the R&D organization assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| technology diffusion is central | Make the technology diffusion assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## How Research Policy review actually works
 
-## Research Policy fit notes
+RP runs a **double-blind** process (检索于 2026-06；以官网为准): the Editor-in-Chief routes a submission to a **Handling Editor** matched to its area (innovation systems, science/technology policy, entrepreneurship and innovation, university-industry interactions, R&D management, or innovation methodology), who manages the referees and the decision. Before referees, there is a **desk screen** that tests two things: whether the paper is genuinely innovation studies (the out-of-scope filter for econ/management-only papers) and whether the substantive contribution is plausible. Surviving that, expect a small number of expert referees and the standard reject / major-revision / minor-revision / accept ladder. Treat all timeline numbers as volatile and verify on the live journal pages (待核实).
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: innovation system, science policy, patent evidence, R&D organization, technology diffusion.
-- Sibling boundary: Strategic Management Journal, Management Science, Industrial and Corporate Change, and Journal of Business Venturing.
-- House-style aim: innovation-policy argument linking mechanisms, institutions, and technology evidence.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/research-policy
-- https://www.elsevier.com/journals/research-policy/0048-7333/guide-for-authors
+## What RP referees reward vs. punish
 
-## Stage-specific moves
+| RP referees reward | RP referees punish / desk-reject |
+|--------------------|----------------------------------|
+| A genuine advance to innovation theory or evidence | Technique-as-contribution with no innovation-studies payoff |
+| Construct-disciplined patent/bibliometric or mixed-methods work | "Patents = innovation" and black-box pipelines |
+| A claim with an earned policy/managerial implication | A token "implications for policymakers" paragraph |
+| Engagement with the RP/SPRU canon | A lit base that is "all economics or management journals" (out of scope) |
+| Methodological pluralism fit to the question | A default design forced onto the wrong question |
 
-1. State the exact review process question in one sentence.
-2. Identify which Research Policy audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `respol-rebuttal` if the stage passes, or back to `respol-workflow` if it does not.
+## Reading the decision letter and planning the cycle
+
+- **Desk reject (scope):** the literature/framing signaled the wrong audience. Re-anchor in innovation studies (→ `respol-topic-selection`, `respol-literature-positioning`) before any other venue.
+- **Desk reject (contribution):** the so-what was not RP-grade. Sharpen the advance (→ `respol-contribution-framing`), or consider a sibling honestly.
+- **Major revision:** the most common path to acceptance. Triage referee points into (a) must-fix identification/construct issues, (b) framing/positioning, (c) discretionary. Plan the analysis before drafting the letter.
+- **Minor revision:** mostly exhibits, clarity, and framing — handle with `respol-tables-figures` / `respol-writing-style`.
+- **Research Note pivot:** if the contribution is real but compact, the Note format (~3–5k words, with a justifying cover letter) may fit better than padding a thin full article.
+
+## When to consider a sibling instead
+
+- Firm performance / competitive advantage lens dominates → SMJ.
+- Industrial dynamics / capabilities / evolutionary firm theory dominates → Industrial and Corporate Change.
+- A managerial how-to or NPD-process study → Technovation / JPIM.
+- A pure causal estimate with thin innovation theory → a field economics journal.
 
 ## Checklist
-- [ ] The Research Policy audience can see why the paper belongs in innovation, science policy, technology management, entrepreneurship, R&D, and knowledge production.
-- [ ] The draft distinguishes Research Policy from Strategic Management Journal, Management Science, Industrial.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for review process names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Expectations set to RP's double-blind, handling-editor process (not a generic top-journal model)
+- [ ] The desk-reject risk (scope vs. contribution) is correctly diagnosed
+- [ ] Article-type choice (full vs. Research Note) is revisited against the contribution's size
+- [ ] Referee points are triaged into must-fix / framing / discretionary before drafting
+- [ ] A sibling-venue decision, if any, is made on substance, not just impact factor
+- [ ] Timeline/odds claims are marked 待核实, not asserted as fixed
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Research Policy without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Treating an out-of-scope desk reject as a quality problem and resubmitting unchanged elsewhere
+- Assuming RP timelines/acceptance rates from memory instead of verifying
+- Padding a Note-sized contribution into a thin full article (or vice versa)
+- Planning the rebuttal before triaging which referee points are binding
+- Shopping the paper to a sibling without fixing the underlying framing
 
 ## Output format
 
 ```text
 【Journal】Research Policy
 【Skill】respol-review-process
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking review process
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Strategic Management Journal, Management Science
-【Source status】verified URL / 待核实 / not asserted
+【Stage】pre-submission / desk-reject / major / minor / planning-transfer
+【Decision read】scope vs. contribution vs. fixable execution
+【Article type revisit】full vs. Research Note
+【Referee triage】must-fix / framing / discretionary
+【Sibling option】RP-fixable or genuinely SMJ/ICC/Technovation/JPIM?
+【Source status】timelines/odds verified or 待核实
 【Next skill】respol-rebuttal
 ```

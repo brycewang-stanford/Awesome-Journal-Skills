@@ -1,72 +1,74 @@
 ---
 name: respol-submission
-description: Use when working on submission preflight for a Research Policy manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when running the final pre-submission preflight for Research Policy (RP) via Elsevier's online submission system — article-type choice, length/abstract limits, double-blind anonymization, data & code statement, and the out-of-scope desk-screen. Final checks; it does not draft content.
 ---
 
 # Submission Preflight (respol-submission)
 
 ## When to trigger
-- The manuscript is aimed at **Research Policy (Research Policy)** and submission preflight is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's innovation, science policy, technology management, entrepreneurship, R&D, and knowledge production standard.
-- The paper risks being confused with nearby venues: Strategic Management Journal, Management Science, Industrial and Corporate Change, and Journal of Business Venturing.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- "Submitting tomorrow" — last check before uploading to the Elsevier submission system
+- Choosing between a full article and a Research Note, and what each requires
+- Confirming length, abstract, anonymization, and declaration rules are RP-compliant
+- Making sure the paper will not trip the out-of-scope desk screen
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| innovation system is central | Make the innovation system assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| science policy is central | Make the science policy assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| patent evidence is central | Make the patent evidence assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| R&D organization is central | Make the R&D organization assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| technology diffusion is central | Make the technology diffusion assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Process facts (source map refreshed 2026-06；以官网为准)
 
-## Research Policy fit notes
+- RP is **Elsevier's** flagship innovation-studies journal (Print ISSN 0048-7333); manuscripts go through the **Elsevier online submission system** (Editorial Manager), which assembles a single PDF for review; editable source files (Word/LaTeX) are required at acceptance for typesetting.
+- **Review model: double-blind** — the manuscript must be anonymized; author identities are concealed from referees and vice versa (检索于 2026-06；以官网为准).
+- **Article types & length:** full articles ~**8,000–10,000 words** including footnotes, references, and text in tables; **Research Notes** ~**3,000–5,000 words** (not a faster, lighter article — a Note requires a cover letter explaining its rationale, contribution, and why the Note format) (检索于 2026-06；以官网为准).
+- **Scope desk-screen:** a paper whose literature is "almost entirely economics or management journals" is likely desk-rejected as out of scope; the cover letter and references must show innovation-studies (SPRU-tradition) grounding (检索于 2026-06；以官网为准).
+- **Data & code:** include a data (and, where relevant, code) availability statement; verify the exact policy and any mandatory statement wording on the guide for authors (待核实).
+- Exact current abstract word limit, fees/APC for any open-access option, and keyword/JEL requirements: 待核实 — confirm on the live guide for authors before submitting.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: innovation system, science policy, patent evidence, R&D organization, technology diffusion.
-- Sibling boundary: Strategic Management Journal, Management Science, Industrial and Corporate Change, and Journal of Business Venturing.
-- House-style aim: innovation-policy argument linking mechanisms, institutions, and technology evidence.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/research-policy
-- https://www.elsevier.com/journals/research-policy/0048-7333/guide-for-authors
+## Preflight checklist
 
-## Stage-specific moves
+### Scope & article type
+- [ ] References and cover letter visibly anchor the paper in innovation studies (not econ/management-only)
+- [ ] Article type chosen deliberately: full article vs. Research Note (with the Note rationale cover letter if applicable)
+- [ ] The cover letter names the innovation-studies contribution and the suggested handling-editor area
 
-1. State the exact submission preflight question in one sentence.
-2. Identify which Research Policy audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `respol-review-process` if the stage passes, or back to `respol-workflow` if it does not.
+### Format & anonymization
+- [ ] Length within the article-type limit (full ~8–10k incl. notes/refs/tables; Note ~3–5k) — 待核实 exact figure on the guide
+- [ ] Manuscript fully **anonymized** for double-blind review (no author names, acknowledgements, self-citations that reveal identity, or identifying file metadata)
+- [ ] Abstract within the journal's limit; keywords (and JEL if requested) present — 待核实
+- [ ] Tables and figures legible, numbered, with self-contained notes; reference style per the Elsevier guide
+- [ ] Editable source files (Word/LaTeX) ready for the acceptance stage
 
-## Checklist
-- [ ] The Research Policy audience can see why the paper belongs in innovation, science policy, technology management, entrepreneurship, R&D, and knowledge production.
-- [ ] The draft distinguishes Research Policy from Strategic Management Journal, Management Science, Industrial.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for submission preflight names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+### Declarations
+- [ ] Data (and code) availability statement included and consistent with the analysis
+- [ ] Funding, competing-interest, and authorship statements prepared per Elsevier policy
+- [ ] Confirmed the paper is not under review elsewhere; AI not listed as an author
+
+## Full article vs. Research Note (decide before you format)
+
+| | Full article | Research Note |
+|---|---|---|
+| Length (待核实 exact) | ~8,000–10,000 words incl. notes/refs/tables | ~3,000–5,000 words |
+| Best for | a developed mechanism + full evidence and robustness | a focused, complete contribution (a finding, a measurement, a replication-with-twist) |
+| Cover letter | states the innovation-studies contribution | **must additionally justify the Note format** — RP stresses a Note is *not* a faster/lighter article |
+| Common mistake | padding a Note-sized idea into a thin full article | submitting an underdeveloped full article as a "Note" to dodge rigor |
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Research Policy without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Submitting a paper whose lit base is "all econ/management" — the canonical out-of-scope desk reject
+- Treating a Research Note as a quick, lighter article (it needs its own justifying cover letter)
+- Leaving author-identifying traces in a double-blind submission (acknowledgements, file metadata, "as we showed in [own work]")
+- Omitting or mismatching the data/code availability statement
+- Asserting an exact word/abstract limit or fee as fixed when it is volatile — mark 待核实 and check live
 
 ## Output format
 
 ```text
 【Journal】Research Policy
 【Skill】respol-submission
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking submission preflight
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Strategic Management Journal, Management Science
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】respol-review-process
+【Scope】lit base + cover letter anchored in innovation studies? [Y/N]
+【Article type】full / Research Note (+ Note rationale letter if Note)
+【Length & abstract】within limits (or 待核实)? [Y/N]
+【Anonymization】double-blind clean (text + metadata)? [Y/N]
+【Data/code statement】included and consistent? [Y/N]
+【Declarations】funding / competing interest / authorship ready? [Y/N]
+【Next step】submit via Elsevier system → respol-review-process for what to expect
 ```
 
 ## Supplementary resources

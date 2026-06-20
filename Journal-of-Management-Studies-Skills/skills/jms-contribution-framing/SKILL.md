@@ -1,70 +1,73 @@
 ---
 name: jms-contribution-framing
-description: Use when working on contribution framing for a Journal of Management Studies manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the "so what for management theory and practice" is the bottleneck for a Journal of Management Studies (JMS) manuscript — sharpening the one-sentence contribution and the implications. Crystallises the claim; it does not build the theory (jms-theory-development) or position against the literature (jms-literature-positioning).
 ---
 
 # Contribution Framing (jms-contribution-framing)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Management Studies (JMS)** and contribution framing is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's management and organization studies, strategy, entrepreneurship, innovation, OB, and critical perspectives standard.
-- The paper risks being confused with nearby venues: Journal of Management, Organization Studies, AMJ, AMR, and Strategic Management Journal.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A reviewer or coauthor asks "what exactly does this contribute to theory?"
+- The discussion section restates results instead of stating what changed in the conversation
+- The paper has findings but no crisp one-sentence claim
+- Practical implications are an afterthought ("managers should be aware…") rather than earned
+- The contribution is over-claimed (grand) or under-claimed (buried, hedged)
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| theoretical pluralism is central | Make the theoretical pluralism assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| organization studies is central | Make the organization studies assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| critical boundary is central | Make the critical boundary assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| international management is central | Make the international management assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| phenomenon-driven contribution is central | Make the phenomenon-driven contribution assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The JMS contribution bar
 
-## JMS fit notes
+A JMS paper must articulate a **theoretical contribution** that engages an organizational phenomenon and says what it changes — its house phrasing is the "**so what for management theory and practice**." Two things are non-negotiable: the contribution is to a *theory/conversation* (not just "we found an effect"), and it is *commensurate* with the evidence (neither inflated nor hidden). Because JMS is pluralist, the contribution can be a refined construct, a process model, a boundary condition, a reconciliation, or a challenge to orthodoxy — but it must be nameable in one sentence.
 
-- Publisher / owner context: Wiley for the Society for the Advancement of Management Studies.
-- Submission route to re-check: Wiley online submission.
-- Signature vocabulary: theoretical pluralism, organization studies, critical boundary, international management, phenomenon-driven contribution.
-- Sibling boundary: Journal of Management, Organization Studies, AMJ, AMR, and Strategic Management Journal.
-- House-style aim: conceptually rich management scholarship that makes theory travel beyond one setting.
-- Official URLs currently used by the pack:
-- https://onlinelibrary.wiley.com/journal/14676486
-- https://onlinelibrary.wiley.com/page/journal/14676486/homepage/forauthors.html
+## Build the contribution claim
 
-## Stage-specific moves
+State it in this shape and pressure-test each slot:
 
-1. State the exact contribution framing question in one sentence.
-2. Identify which JMS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jms-tables-figures` if the stage passes, or back to `jms-workflow` if it does not.
+> *"We contribute to [named conversation] by showing [specific theoretical insight], which revises/extends/reconciles [prior understanding] under [scope conditions]."*
+
+- **Named conversation** — must match what `jms-literature-positioning` staked.
+- **Specific insight** — a *mechanism, construct, model, or condition*, not a restated finding ("trust mediates" is a finding; "trust substitutes for formal control only when ties are multiplex" is a contribution).
+- **What it revises** — the prior belief your work changes; if nothing changes, there is no contribution.
+- **Scope conditions** — where the claim holds and where it does not; bounding a claim strengthens it at JMS.
+
+## Calibrate the size of the claim
+
+| Failure | Symptom | Fix |
+|---------|---------|-----|
+| **Over-claim** | "Transforms how we understand strategy" from one study | Bound to the conversation and scope; let reviewers infer reach |
+| **Under-claim** | The contribution is a sub-clause in paragraph 4 of the discussion | Lead the intro and discussion with it; one clear sentence |
+| **Finding-as-contribution** | "We found X is significant" as the contribution | Translate the finding into what it changes theoretically |
+| **Contribution sprawl** | Five contributions, each thin | Keep one or two strong, integrated contributions |
+
+## Earn the practice implication
+
+JMS values practical relevance, but it must be *derived from the theory*, not bolted on. Ask: given the mechanism, what should a specific decision-maker do differently, and under what condition? Generic "managers should pay attention to X" is not an implication — name the actor, the decision, and the contingency.
 
 ## Checklist
-- [ ] The JMS audience can see why the paper belongs in management and organization studies, strategy, entrepreneurship, innovation, OB, and critical perspectives.
-- [ ] The draft distinguishes JMS from Journal of Management, Organization Studies, AMJ.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for contribution framing names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] The contribution is stated in one sentence using the named conversation
+- [ ] It is a theoretical insight (mechanism/construct/model/condition), not a restated finding
+- [ ] It names what prior understanding it revises/extends/reconciles
+- [ ] Scope conditions are stated (where it holds / does not)
+- [ ] The claim is commensurate with the evidence — not inflated, not buried
+- [ ] One or two integrated contributions, not a sprawl of thin ones
+- [ ] The practice implication names an actor, a decision, and a contingency
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JMS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Finding dressed as contribution**: "we showed a significant effect" with no theoretical translation
+- **Grand-claim inflation**: cosmic significance unsupported by a single study's evidence
+- **Buried contribution**: the "so what" hidden in the discussion instead of leading the intro
+- **Contribution sprawl**: a bullet list of five weak contributions instead of one strong one
+- **Bolt-on practice section**: generic managerial advice not derived from the mechanism
+- **Conversation drift**: the framed contribution targets a different conversation than the positioning
 
 ## Output format
 
 ```text
-【Journal】Journal of Management Studies
-【Skill】jms-contribution-framing
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking contribution framing
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Management, Organization Studies
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jms-tables-figures
+【Conversation】named conversation (must match positioning)
+【Contribution sentence】"we contribute to … by showing …, revising … under …"
+【Type】mechanism / construct / process model / boundary condition / reconciliation / challenge
+【Scope conditions】where it holds / does not
+【Size check】over-claim? under-claim? finding-as-contribution? → fix
+【Practice implication】actor + decision + contingency
+【Next step】jms-tables-figures, then jms-writing-style
 ```

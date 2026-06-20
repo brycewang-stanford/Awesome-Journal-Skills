@@ -1,70 +1,71 @@
 ---
 name: respol-theory-development
-description: Use when working on theory development for a Research Policy manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the conceptual argument is the bottleneck for a Research Policy (RP) manuscript — building an innovation-studies mechanism or framework that an interdisciplinary readership will accept as a contribution. Builds the theory; it does not run the analysis (respol-data-analysis) or write the final contribution paragraph (respol-contribution-framing).
 ---
 
 # Theory Development (respol-theory-development)
 
 ## When to trigger
-- The manuscript is aimed at **Research Policy (Research Policy)** and theory development is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's innovation, science policy, technology management, entrepreneurship, R&D, and knowledge production standard.
-- The paper risks being confused with nearby venues: Strategic Management Journal, Management Science, Industrial and Corporate Change, and Journal of Business Venturing.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The empirics are solid but the paper "just measures something" with no innovation-theory advance
+- A referee says "the contribution is empirical only" or "what do we learn about innovation we didn't know?"
+- The argument leans on one borrowed framework (absorptive capacity, NIS, open innovation) by name only
+- A qualitative/case study has rich data but no crisp constructs or propositions yet
+- The mechanism linking the innovation cause to the innovation outcome is implicit or hand-waved
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| innovation system is central | Make the innovation system assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| science policy is central | Make the science policy assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| patent evidence is central | Make the patent evidence assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| R&D organization is central | Make the R&D organization assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| technology diffusion is central | Make the technology diffusion assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The Research Policy theory bar
 
-## Research Policy fit notes
+RP is interdisciplinary, so "theory" is pluralist: it can be **economic** (incentives, market/coordination failures, appropriability), **managerial/organizational** (capabilities, search, recombination, governance of R&D), or **evolutionary/STS** (selection, path dependence, socio-technical regimes, the social shaping of technology). What RP will not accept is *atheoretical measurement*. The contribution must change how an innovation-studies reader understands a mechanism, an institution, or a system — and the argument must be legible across disciplines, not buried in one field's jargon.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: innovation system, science policy, patent evidence, R&D organization, technology diffusion.
-- Sibling boundary: Strategic Management Journal, Management Science, Industrial and Corporate Change, and Journal of Business Venturing.
-- House-style aim: innovation-policy argument linking mechanisms, institutions, and technology evidence.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/research-policy
-- https://www.elsevier.com/journals/research-policy/0048-7333/guide-for-authors
+Because RP carries the SPRU/Freeman-Nelson-Pavitt tradition, system- and institution-level reasoning is valued: tie firm- or patent-level findings up to how the *innovation system* works (incentives, linkages, knowledge flows, policy) rather than stopping at a coefficient.
 
-## Stage-specific moves
+## Building the argument (the innovation-mechanism chain)
 
-1. State the exact theory development question in one sentence.
-2. Identify which Research Policy audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `respol-literature-positioning` if the stage passes, or back to `respol-workflow` if it does not.
+For the focal claim, make each link explicit:
+
+1. **Antecedent** — the innovation cause (a policy, an institutional arrangement, a knowledge source, an organizational practice) and why it bites *here*.
+2. **Mechanism** — the innovation process it triggers: knowledge recombination, spillover/absorption, appropriability shift, selection pressure, signaling, coordination of complementary actors. Name the tradition and the process verb (recombines, diffuses, appropriates, selects, legitimates).
+3. **Outcome** — the innovation object affected (invention, diffusion rate, entry, productivity of R&D, direction of search), defined at a stated level (inventor, firm, region, sector, system).
+4. **Boundary / system context** — the institutional or sectoral conditions under which the mechanism strengthens, weakens, or reverses (e.g., appropriability regime, technological opportunity, absorptive capacity of the receiving unit).
+
+State the level of analysis and keep the theory at the level where the mechanism operates; flag cross-level claims (inventor → region) as such.
+
+## Adapting by tradition
+
+- **Economic frame**: identify the market/coordination failure the innovation policy or institution addresses; predict the sign and the welfare/efficiency logic.
+- **Managerial/organizational frame**: theorize the capability or search process; specify what the firm does differently and why it yields innovation.
+- **Evolutionary/STS frame**: specify variation-selection-retention or the socio-technical configuration; avoid post-hoc storytelling — make the proposition falsifiable.
+- **Theory-building (qualitative)**: do not force a priori hypotheses; build a grounded model with emergent propositions and explicit constructs, and argue the *theoretical* generalization (not statistical) your cases support.
 
 ## Checklist
-- [ ] The Research Policy audience can see why the paper belongs in innovation, science policy, technology management, entrepreneurship, R&D, and knowledge production.
-- [ ] The draft distinguishes Research Policy from Strategic Management Journal, Management Science, Industrial.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for theory development names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] The paper advances an innovation mechanism/framework, not just a measurement
+- [ ] The driving tradition (economic / managerial / evolutionary-STS) is named and its logic used, not just cited
+- [ ] Firm/patent-level findings are connected up to the innovation-system or policy level
+- [ ] Level of analysis is stated and consistent across argument and design
+- [ ] Boundary/system conditions are theorized, not just listed
+- [ ] For qualitative work, constructs and propositions are crisp and generalizable theoretically
+- [ ] At least one rival explanation is named and engaged
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Research Policy without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Atheoretical measurement**: a clean indicator with no claim about how innovation works
+- **Framework name-dropping**: invoking NIS / absorptive capacity / open innovation without using its actual logic
+- **Stopping at the coefficient**: never connecting the estimate up to the innovation system or policy
+- **Single-discipline opacity**: an argument only one field can read, in an interdisciplinary journal
+- **HARKing in disguise**: propositions reverse-engineered from the results in a "build" paper
+- **Boundary as decoration**: a moderator with no theoretical account of why the mechanism shifts
 
 ## Output format
 
 ```text
 【Journal】Research Policy
 【Skill】respol-theory-development
+【Tradition】economic / managerial-organizational / evolutionary-STS / theory-building
+【Mechanism chain】antecedent → innovation process → outcome (level)
+【System/policy link】how it scales up to the innovation system
+【Boundary conditions】where it strengthens / weakens / reverses
+【Rival explanation addressed】...
 【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking theory development
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Strategic Management Journal, Management Science
-【Source status】verified URL / 待核实 / not asserted
 【Next skill】respol-literature-positioning
 ```

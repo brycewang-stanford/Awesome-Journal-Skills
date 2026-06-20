@@ -1,72 +1,69 @@
 ---
 name: jms-submission
-description: Use when working on submission preflight for a Journal of Management Studies manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when running the final pre-submission preflight for a Journal of Management Studies (JMS) manuscript via the Wiley ScholarOne portal — anonymisation for double-blind review, Harvard referencing, the inclusive word count, article type, and the anonymous title page. Final checks; it does not draft content.
 ---
 
 # Submission Preflight (jms-submission)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Management Studies (JMS)** and submission preflight is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's management and organization studies, strategy, entrepreneurship, innovation, OB, and critical perspectives standard.
-- The paper risks being confused with nearby venues: Journal of Management, Organization Studies, AMJ, AMR, and Strategic Management Journal.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- "Submitting tomorrow" — last check before pressing submit on ScholarOne
+- Unsure which files JMS expects (anonymised manuscript + separate title page)
+- Confirming the manuscript meets double-blind anonymisation and house format
+- Choosing the right article type (Original, Review, Point–CounterPoint, JMS Says)
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| theoretical pluralism is central | Make the theoretical pluralism assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| organization studies is central | Make the organization studies assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| critical boundary is central | Make the critical boundary assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| international management is central | Make the international management assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| phenomenon-driven contribution is central | Make the phenomenon-driven contribution assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Process facts (source map refreshed 2026-06; re-confirm on the official Wiley/SAMS pages)
 
-## JMS fit notes
+- JMS is the **Society for the Advancement of Management Studies (SAMS)** journal, published by **Wiley**; content is hosted on **Wiley Online Library** (the journal home is `onlinelibrary.wiley.com/journal/14676486`). The editorial office is at **Durham University**. `(检索于 2026-06；以官网为准)`
+- **Submission portal:** Wiley **ScholarOne / Manuscript Central** at **mc.manuscriptcentral.com/jmstudies**. `(检索于 2026-06；以官网为准)`
+- **Review model:** **double-blind**. The manuscript must be **fully anonymised** (no author names, no identifying self-citations in the first person, no acknowledgements that reveal identity); author details go on a **separate title page** uploaded as a distinct file.
+- **Length:** typically **10,000–13,000 words inclusive of tables, figures, and references**; manuscripts substantially over (e.g., >15,000) may be returned for reduction before review. `(检索于 2026-06；以官网为准)`
+- **Abstract:** **≤200 words**; **4–6 keywords** in alphabetical order. `(检索于 2026-06；以官网为准)`
+- **Article types:** Original Articles, Review Articles, Special Issues, **Point–CounterPoints** (Point ~9,000–12,000 words; CounterPoint ~7,000 words, editorially curated), and **JMS Says** essays. Confirm the current set and length rules. `(检索于 2026-06；以官网为准)`
+- **No submission fee** is charged at submission for standard articles; open-access APCs apply only if the author chooses OA at acceptance (Wiley hybrid). Do not treat any APC as a submission-time fee. `(检索于 2026-06；以官网为准 — 待核实 exact figures)`
 
-- Publisher / owner context: Wiley for the Society for the Advancement of Management Studies.
-- Submission route to re-check: Wiley online submission.
-- Signature vocabulary: theoretical pluralism, organization studies, critical boundary, international management, phenomenon-driven contribution.
-- Sibling boundary: Journal of Management, Organization Studies, AMJ, AMR, and Strategic Management Journal.
-- House-style aim: conceptually rich management scholarship that makes theory travel beyond one setting.
-- Official URLs currently used by the pack:
-- https://onlinelibrary.wiley.com/journal/14676486
-- https://onlinelibrary.wiley.com/page/journal/14676486/homepage/forauthors.html
+## Preflight checklist
 
-## Stage-specific moves
+### Anonymisation (double-blind)
+- [ ] Manuscript contains **no author names**, affiliations, or identifying acknowledgements
+- [ ] Self-citations phrased in the **third person** ("Smith (2019) found…", not "in our prior work")
+- [ ] File metadata/properties scrubbed of author identity
+- [ ] **Separate title page** file with names, affiliations, ORCID, corresponding author, acknowledgements, and funding
 
-1. State the exact submission preflight question in one sentence.
-2. Identify which JMS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jms-review-process` if the stage passes, or back to `jms-workflow` if it does not.
+### Format & house style
+- [ ] **Double-spaced** throughout, including notes and references
+- [ ] **Harvard author-date** referencing; alphabetical reference list; page numbers for quotations
+- [ ] **Endnotes only** (no footnotes), kept minimal
+- [ ] Tables numbered with **Roman numerals**, figures with **Arabic numerals**; each exhibit self-sufficient
+- [ ] **UK or US English**, consistent throughout
+- [ ] **Abstract ≤200 words**; **4–6 alphabetical keywords**
+- [ ] Total length within the **inclusive** 10,000–13,000-word budget
 
-## Checklist
-- [ ] The JMS audience can see why the paper belongs in management and organization studies, strategy, entrepreneurship, innovation, OB, and critical perspectives.
-- [ ] The draft distinguishes JMS from Journal of Management, Organization Studies, AMJ.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for submission preflight names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+### Article type & declarations
+- [ ] Correct article type selected on ScholarOne (Original / Review / Point–CounterPoint / JMS Says)
+- [ ] **AI use declared** (including copy-editing) per current policy
+- [ ] Data/transparency statement included if required for the design
+- [ ] Confirmed the paper is not under review elsewhere; no AI listed as an author
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JMS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Submitting a manuscript that reveals authorship (first-person self-citations, acknowledgements, metadata)
+- Wrong referencing style (numbered/APA instead of Harvard author-date)
+- Forgetting that the word count is **inclusive** of tables/figures/references — then exceeding it
+- Footnotes instead of endnotes; figures/tables mis-numbered against house style
+- Treating a Point–CounterPoint or JMS Says as a normal Original Article
+- Confusing an OA APC with a submission fee
 
 ## Output format
 
 ```text
-【Journal】Journal of Management Studies
-【Skill】jms-submission
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking submission preflight
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Management, Organization Studies
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jms-review-process
+【Anonymisation】no author identity in manuscript + separate title page? [Y/N]
+【Referencing】Harvard author-date, alphabetical, double-spaced, endnotes only? [Y/N]
+【Abstract】≤200 words + 4–6 alphabetical keywords? [Y/N]
+【Length】within inclusive 10,000–13,000 words? [Y/N]
+【Article type】Original / Review / Point–CounterPoint / JMS Says selected correctly? [Y/N]
+【Declarations】AI use + data/transparency statement? [Y/N]
+【Next step】submit via ScholarOne → jms-review-process for what to expect
 ```
 
 ## Supplementary resources

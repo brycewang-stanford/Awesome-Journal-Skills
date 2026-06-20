@@ -1,70 +1,76 @@
 ---
 name: revacc-literature-positioning
-description: Use when working on literature positioning for a Review of Accounting Studies manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the contribution relative to the accounting frontier and the sibling journals is fuzzy for a Review of Accounting Studies (RAST) manuscript — joining the right disclosure/earnings/valuation conversation and stating the marginal contribution. Positions the paper; it does not sharpen the one-sentence claim (revacc-contribution-framing) or build the mechanism (revacc-theory-development).
 ---
 
 # Literature Positioning (revacc-literature-positioning)
 
 ## When to trigger
-- The manuscript is aimed at **Review of Accounting Studies (RAST)** and literature positioning is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's analytical, empirical, and experimental accounting research with strong economics foundations standard.
-- The paper risks being confused with nearby venues: The Accounting Review, Journal of Accounting Research, Journal of Accounting and Economics, and Contemporary Accounting Research.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The intro reads as gap-spotting ("no one has studied X") rather than joining a conversation
+- You cannot name the three or four papers your result directly speaks to or overturns
+- A referee asks "what do we learn beyond [prior paper]?" or "how is this not [classic result]?"
+- The paper straddles disclosure, earnings, and valuation literatures without committing to one
+- You are unsure whether the natural cite set is the RAST/analytical-accounting frontier or the empirical-archival frontier
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| accounting disclosure is central | Make the accounting disclosure assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| audit quality is central | Make the audit quality assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| capital-market accounting is central | Make the capital-market accounting assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| tax and reporting is central | Make the tax and reporting assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| earnings information is central | Make the earnings information assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Position into a conversation, not a gap
 
-## RAST fit notes
+RAST referees punish gap-spotting. The job is to identify the **specific accounting conversation** your paper joins, name the two or three works that define its current frontier, and state the **marginal move** — a new friction, a cleaner setting, a sharper construct, a model that rationalizes a puzzle, or a boundary the prior work did not reach. Because RAST runs both archival and analytical lanes, your positioning must place you on the right frontier and, where relevant, **bridge the two**: an empirical paper that tests a disclosure-theory prediction, or a model that explains an archival regularity, lands especially well at RAST.
 
-- Publisher / owner context: Springer.
-- Submission route to re-check: Springer Nature submission.
-- Signature vocabulary: accounting disclosure, audit quality, capital-market accounting, tax and reporting, earnings information.
-- Sibling boundary: The Accounting Review, Journal of Accounting Research, Journal of Accounting and Economics, and Contemporary Accounting Research.
-- House-style aim: accounting research that links institutional reporting detail to credible economic mechanisms.
-- Official URLs currently used by the pack:
-- https://link.springer.com/journal/11142
-- https://www.springer.com/journal/11142/submission-guidelines
+Map your cite set onto the live debates RAST publishes in:
 
-## Stage-specific moves
+- **Disclosure:** voluntary vs. mandatory disclosure, disclosure quality and granularity, proprietary costs, real effects of disclosure.
+- **Earnings quality:** earnings management, accruals quality, smoothing, the contracting vs. capital-market motives.
+- **Valuation / capital markets:** value-relevance, information content of earnings, post-earnings-announcement drift, cost of capital effects.
+- **Analysts / forecasting:** forecast accuracy and bias, the information environment, analyst incentives.
+- **Audit & tax:** audit quality and demand, tax avoidance and reporting, regulatory and enforcement consequences.
 
-1. State the exact literature positioning question in one sentence.
-2. Identify which RAST audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `revacc-methods` if the stage passes, or back to `revacc-workflow` if it does not.
+## Stake the contribution against the siblings
+
+State explicitly why the paper is RAST rather than a sibling, because referees and the editor will:
+
+| Journal | Center of gravity | When it, not RAST, is the home |
+|---------|-------------------|--------------------------------|
+| **TAR** (AAA) | Contribution-to-the-literature bar; method-agnostic; archival-dominated | The contribution is broad-significance accounting with no special modeling angle |
+| **JAR** (Chicago Booth) | Identification-first; posts a data-and-code package; Registered Reports | The paper lives or dies on a sharp causal design and reproducibility is the headline |
+| **JAE** (Elsevier) | Economics-of-accounting; contracting and capital markets; JAE data archive | A contracting/positive-accounting question in the JAE house style |
+| **CAR** (CPA Canada) | Broad, methodologically catholic accounting | A solid but not frontier-defining accounting study |
+
+RAST's edge: it welcomes **analytical modeling on equal footing** and rewards papers that connect a model to data — use that to justify the venue.
+
+## Write the positioning paragraph
+
+1. Name the conversation in one clause; cite its two or three frontier works.
+2. State the marginal move in one sentence (new friction / setting / construct / model / boundary).
+3. Say what changes if you are right — for theory *and* for empirics where you can.
+4. Pre-empt the obvious "this is just [prior paper]" with the precise difference.
 
 ## Checklist
-- [ ] The RAST audience can see why the paper belongs in analytical, empirical, and experimental accounting research with strong economics foundations.
-- [ ] The draft distinguishes RAST from The Accounting Review, Journal of Accounting Research, Journal of Accounting.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for literature positioning names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] The specific accounting conversation is named, not a generic gap
+- [ ] Two or three frontier works are cited and the marginal move over them is explicit
+- [ ] The archival/analytical bridge is exploited if the paper supports it
+- [ ] The "why RAST not TAR/JAR/JAE/CAR" sentence is present and honest
+- [ ] The nearest rival paper is named and distinguished precisely
+- [ ] Citations are real and verifiable; none fabricated (mark 待核实 if unsure)
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to RAST without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Gap-spotting:** "the literature is silent on X" instead of joining a debate.
+- **Citation dumping:** a paragraph of cites with no statement of the marginal move.
+- **Sibling blindness:** never explaining why RAST and not the more obvious AAA/Chicago/Elsevier outlet.
+- **One-lane tunnel vision:** ignoring the analytical (or empirical) frontier the paper actually touches.
+- **Inventing exemplars:** citing papers you have not verified exist in the archive.
 
 ## Output format
 
 ```text
-【Journal】Review of Accounting Studies
-【Skill】revacc-literature-positioning
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking literature positioning
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not The Accounting Review, Journal of Accounting Research
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】revacc-methods
+【Conversation】the specific accounting debate joined
+【Frontier works】2–3 real, verified cites
+【Marginal move】new friction / setting / construct / model / boundary
+【Archival↔analytical bridge】present? how exploited
+【Why RAST】vs TAR / JAR / JAE / CAR — one honest sentence
+【Nearest rival】named + precise difference
+【Source status】citations verified / 待核实
+【Next skill】revacc-methods (then revacc-contribution-framing)
 ```

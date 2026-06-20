@@ -1,70 +1,77 @@
 ---
 name: respol-tables-figures
-description: Use when working on tables and figures for a Research Policy manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when exhibits are the bottleneck for a Research Policy (RP) manuscript — designing tables and figures (regression tables, patent/bibliometric maps, event-study plots, case data structures) that carry the innovation mechanism for an interdisciplinary readership. Builds exhibits; it does not run the analysis (respol-data-analysis) or write prose (respol-writing-style).
 ---
 
 # Tables and Figures (respol-tables-figures)
 
 ## When to trigger
-- The manuscript is aimed at **Research Policy (Research Policy)** and tables and figures is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's innovation, science policy, technology management, entrepreneurship, R&D, and knowledge production standard.
-- The paper risks being confused with nearby venues: Strategic Management Journal, Management Science, Industrial and Corporate Change, and Journal of Business Venturing.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The key result is buried in a wall-of-coefficients table no reader can parse
+- A bibliometric/patent map or network is decorative — pretty but uninterpretable
+- An event-study or dose-response plot is missing where the design demands one
+- A qualitative paper has no data-structure table linking evidence to constructs
+- A referee says exhibits "don't answer the question" or descriptive stats are missing/opaque
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| innovation system is central | Make the innovation system assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| science policy is central | Make the science policy assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| patent evidence is central | Make the patent evidence assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| R&D organization is central | Make the R&D organization assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| technology diffusion is central | Make the technology diffusion assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The Research Policy exhibits bar
 
-## Research Policy fit notes
+RP exhibits serve an **interdisciplinary** readership, so they must be self-explanatory to an economist, a management scholar, and a policymaker alike. Each exhibit should answer one question and visibly support the contribution; the headline result deserves a focused exhibit, not a dump of every specification. Innovation data also carry specific exhibit conventions: descriptive statistics that reveal the **skew and zeros** typical of patent/citation data, transparent variable definitions, and maps/networks that are *interpreted*, not merely displayed.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: innovation system, science policy, patent evidence, R&D organization, technology diffusion.
-- Sibling boundary: Strategic Management Journal, Management Science, Industrial and Corporate Change, and Journal of Business Venturing.
-- House-style aim: innovation-policy argument linking mechanisms, institutions, and technology evidence.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/research-policy
-- https://www.elsevier.com/journals/research-policy/0048-7333/guide-for-authors
+## Designing the core exhibits
 
-## Stage-specific moves
+### Regression / estimation tables
+- Lead with a table that isolates the headline innovation effect; relegate the full specification grid to robustness.
+- Report coefficients with standard errors and the relevant model statistics; state the estimator, sample, fixed effects, and clustering in the notes so the table stands alone.
+- For count models, report incidence-rate ratios or marginal effects where they aid interpretation — a raw NB coefficient is opaque to many RP readers.
+- Provide a descriptive-statistics and correlation table that shows the distribution (means, SDs, and the share of zeros for count variables).
 
-1. State the exact tables and figures question in one sentence.
-2. Identify which Research Policy audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `respol-writing-style` if the stage passes, or back to `respol-workflow` if it does not.
+### Patent / bibliometric exhibits
+- Co-occurrence/citation networks and technology maps must have an interpretive payoff: annotate clusters, state the layout algorithm and the tie definition, and tell the reader what to see.
+- Time-series of patenting/diffusion should mark policy dates or structural breaks relevant to the claim.
+
+### Causal-design plots
+- Event-study plots with leads/lags and confidence bands for DID; first-stage and reduced-form plots for IV; RD plots with binned means and the fitted discontinuity.
+
+### Qualitative exhibits
+- A data-structure table (1st-order codes → 2nd-order themes → aggregate dimensions) and a representative-quotes table that ties evidence to each construct.
+
+## General craft
+
+- Every exhibit has a number, a self-contained title, complete notes (source, sample, units), and is referenced and *interpreted* in the text.
+- Units and variable definitions are explicit; do not assume the reader knows your patent indicator.
+- Figures should be legible in greyscale and at print size; avoid chartjunk and uninterpreted color.
+- Place exhibits to follow the argument's logic; the appendix holds robustness, not load-bearing results.
 
 ## Checklist
-- [ ] The Research Policy audience can see why the paper belongs in innovation, science policy, technology management, entrepreneurship, R&D, and knowledge production.
-- [ ] The draft distinguishes Research Policy from Strategic Management Journal, Management Science, Industrial.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for tables and figures names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] A focused exhibit isolates the headline innovation effect
+- [ ] Descriptive stats reveal skew/zeros in patent/citation variables
+- [ ] Count-model results are reported in interpretable units (IRR / marginal effects) where helpful
+- [ ] Patent/bibliometric maps are annotated and interpreted, not decorative
+- [ ] Design-required plots (event study / first stage / RD) are present
+- [ ] Qualitative data-structure and quotes tables link evidence to constructs
+- [ ] Each exhibit stands alone (title + notes: source, sample, estimator, clustering)
+- [ ] Every exhibit is interpreted in the text, not just cited
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Research Policy without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A single mega-table where the headline result is one column among twenty
+- A network/map shown without telling the reader what to conclude from it
+- Raw negative-binomial coefficients with no interpretive translation
+- Descriptive tables that hide the zero-inflation of innovation counts
+- Color-dependent figures that fail in greyscale
+- A qualitative paper with quotes scattered in prose but no data-structure table
 
 ## Output format
 
 ```text
 【Journal】Research Policy
 【Skill】respol-tables-figures
+【Headline exhibit】what it isolates and how it supports the contribution
+【Descriptives】skew/zeros of innovation variables shown? [Y/N]
+【Interpretation】count units / map annotation / design plots present? [Y/N]
+【Stand-alone notes】source, sample, estimator, clustering in each note? [Y/N]
+【Qualitative】data-structure + quotes table? [Y/N / NA]
 【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking tables and figures
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Strategic Management Journal, Management Science
-【Source status】verified URL / 待核实 / not asserted
 【Next skill】respol-writing-style
 ```

@@ -1,70 +1,71 @@
 ---
 name: ijoc-topic-selection
-description: Use when working on topic selection for a INFORMS Journal on Computing manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when deciding whether a project is computing-first enough for an INFORMS Journal on Computing (IJOC) submission and which of its 10 technical areas fits. Scopes the contribution to the OR↔computing interface; it does not invent results or citations.
 ---
 
 # Topic Selection (ijoc-topic-selection)
 
 ## When to trigger
-- The manuscript is aimed at **INFORMS Journal on Computing (IJOC)** and topic selection is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's operations research and computing, algorithms, optimization, machine learning, simulation, and computational decision systems standard.
-- The paper risks being confused with nearby venues: Operations Research, Management Science, Manufacturing & Service Operations Management, and ACM/IEEE computing venues.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You have an OR/analytics result and are unsure whether the **computing is the contribution** or merely the vehicle
+- You cannot say which of IJOC's **10 technical areas** the paper belongs to, or it straddles two
+- The work could plausibly go to *Operations Research*, *Management Science*, *Mathematical Programming Computation*, or an ACM/IEEE venue and you need to decide
+- A coauthor wants the "is this an IJOC paper?" call before any writing starts
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| algorithmic contribution is central | Make the algorithmic contribution assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| computational experiment is central | Make the computational experiment assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| optimization benchmark is central | Make the optimization benchmark assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| reproducible code is central | Make the reproducible code assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| decision analytics is central | Make the decision analytics assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The IJOC scope test
 
-## IJOC fit notes
+IJOC sits at the **intersection of OR/MS and computer science**. A paper passes the scope test only if the **computational and/or methodological advance is the headline** — a new algorithm, a sharper formulation, a learning method that helps an OR task, a simulation or computational-probability method, or tooling that changes what OR practitioners can compute. Run the four questions in order; a "no" on Q1 usually means a different journal.
 
-- Publisher / owner context: INFORMS.
-- Submission route to re-check: INFORMS / ScholarOne submission.
-- Signature vocabulary: algorithmic contribution, computational experiment, optimization benchmark, reproducible code, decision analytics.
-- Sibling boundary: Operations Research, Management Science, Manufacturing & Service Operations Management, and ACM/IEEE computing venues.
-- House-style aim: computational OR contribution with transparent algorithms, benchmarks, and reproducibility.
-- Official URLs currently used by the pack:
-- https://pubsonline.informs.org/journal/ijoc
-- https://pubsonline.informs.org/page/ijoc/submission-guidelines
+1. **Is the news computational/methodological, not the application?** "We solved a logistics problem with CPLEX" is not IJOC; "we designed a decomposition that solves an order-of-magnitude larger logistics instance" is. The application motivates; the method is the contribution.
+2. **Is there a measurable computational claim?** IJOC contributions are checkable: faster, larger, tighter bounds, better-quality solutions at equal time, better generalization, lower variance. If you cannot name the axis on which you win, you have a topic but not yet an IJOC paper.
+3. **Will it survive a fair experimental comparison?** If the advantage rests on hand-picked instances or asymmetric tuning, the Area Editor will see it. Pick a topic where you can win on **standard, public benchmark instances** against a **credible baseline**.
+4. **Can the artifact be deposited and reproduced?** IJOC hosts code/data in its **GitHub Software and Data Repository**. A topic whose data cannot be shared or whose results cannot be reproduced is a poor fit; plan the deposit now, not at acceptance.
 
-## Stage-specific moves
+## Choosing the technical area
 
-1. State the exact topic selection question in one sentence.
-2. Identify which IJOC audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `ijoc-theory-development` if the stage passes, or back to `ijoc-workflow` if it does not.
+At submission you select **one of 10 areas** in ScholarOne, and that choice routes you to an Area Editor who decides suitability (and desk-rejects ~40%). The wrong area invites a fast rejection. IJOC's areas span computational optimization / mathematical programming, stochastic and robust optimization, heuristic search and metaheuristics, simulation, computational probability, machine learning and data science for OR, networks/graphs, and computational tooling (full current list 待核实 — confirm on the official Areas page). Map your headline method (not your application domain) to the area; if you straddle, pick the area whose Area Editor and reviewer pool will best judge the *method*, and say so in the cover letter.
+
+## Sibling boundary — pick the right venue
+
+| If the news is… | Go to | Not IJOC because |
+|-----------------|-------|------------------|
+| broad OR theory / a substantive OR model | *Operations Research* | IJOC wants the computing to be the advance |
+| a broad management-science result | *Management Science* | same — computing is incidental there |
+| a pure computational mathematical-programming method/software | *Mathematical Programming Computation* | MPC is narrower MP-computation; IJOC spans simulation/ML/probability/tooling too |
+| optimization theory / new optimization paradigm | *INFORMS Journal on Optimization* | IJOC is the OR↔computing interface, not optimization theory |
+| a CS-systems or ML-theory result with no OR task | ACM/IEEE venue | IJOC requires an OR/MS connection |
+
+## Rescuing a borderline topic
+
+If the project fails Q1 (the news is the application), there are two honest paths back to IJOC rather than abandoning it. (a) **Find the computational obstacle the application exposed** — if the off-the-shelf solver failed at the real scale, the methodological fix that makes it tractable *is* the IJOC paper, and the application becomes the motivating instance set. (b) **Generalize from one instance to a class** — a method that solves one company's problem is an application; the same method shown to dominate on a *family* of standard instances is computing. If neither path exists, the work is genuinely an *Operations Research* / *Management Science* model paper, and forcing it into IJOC wastes a desk-reject. Make this call before writing, not after the Area Editor makes it for you.
 
 ## Checklist
-- [ ] The IJOC audience can see why the paper belongs in operations research and computing, algorithms, optimization, machine learning, simulation, and computational decision systems.
-- [ ] The draft distinguishes IJOC from Operations Research, Management Science, Manufacturing & Service Operations Management.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for topic selection names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] The headline is a computational/methodological advance, not an application win
+- [ ] The win axis is named (time / size / bound / quality / generalization / variance) and measurable
+- [ ] A public benchmark instance set and a credible baseline exist for fair comparison
+- [ ] One of the 10 technical areas is chosen and justified by the *method*, not the domain
+- [ ] The code/data can be deposited and reproduced in the IJOC GitHub repository
+- [ ] The sibling-boundary call is explicit (why IJOC and not OR / MS / MPC / IJOO)
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to IJOC without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- An application paper dressed as computing — solver used off-the-shelf, no methodological news
+- "We are faster" with no benchmark instances and no baseline named
+- Submitting to a technical area that mismatches the method, inviting an Area-Editor desk reject
+- Choosing a topic whose data is proprietary and undepositable, then discovering the reproducibility regime at acceptance
+- Pitching to IJOC what is really an *Operations Research* model paper or an *IJOO* optimization-theory paper
 
 ## Output format
 
 ```text
 【Journal】INFORMS Journal on Computing
 【Skill】ijoc-topic-selection
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking topic selection
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Operations Research, Management Science
-【Source status】verified URL / 待核实 / not asserted
+【Verdict】computing-first IJOC fit / reroute to sibling / not yet
+【Headline advance】the one computational/methodological claim
+【Win axis】time / size / bound / quality / generalization / variance
+【Technical area】chosen area + why (method-based)
+【Sibling boundary】why IJOC and not OR / MS / MPC / IJOO
+【Source status】verified URL / 待核实
 【Next skill】ijoc-theory-development
 ```

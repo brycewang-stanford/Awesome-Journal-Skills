@@ -1,70 +1,70 @@
 ---
 name: respol-rebuttal
-description: Use when working on rebuttal strategy for a Research Policy manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when drafting the response to a Research Policy (RP) decision letter — converting double-blind referee and handling-editor comments into a point-by-point response and a revision plan that protects the innovation-studies contribution. Builds the response strategy; it is the terminal skill in the pack.
 ---
 
 # Rebuttal Strategy (respol-rebuttal)
 
 ## When to trigger
-- The manuscript is aimed at **Research Policy (Research Policy)** and rebuttal strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's innovation, science policy, technology management, entrepreneurship, R&D, and knowledge production standard.
-- The paper risks being confused with nearby venues: Strategic Management Journal, Management Science, Industrial and Corporate Change, and Journal of Business Venturing.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- An RP major/minor revision arrived and you must turn comments into a response letter
+- Referees disagree with each other and you need a coherent line across both
+- A referee challenges a patent/bibliometric construct, an identification choice, or the scope
+- The handling editor's summary signals which points are binding for acceptance
+- You are tempted to concede everything (losing the contribution) or rebut everything (losing the editor)
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| innovation system is central | Make the innovation system assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| science policy is central | Make the science policy assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| patent evidence is central | Make the patent evidence assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| R&D organization is central | Make the R&D organization assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| technology diffusion is central | Make the technology diffusion assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## How RP rebuttals are read
 
-## Research Policy fit notes
+The **Handling Editor** who managed your double-blind review reads the response and decides. Their summary letter is the priority signal: address those points first and unambiguously. Referees are innovation-studies experts, so a credible response defends the *innovation claim and its constructs* with evidence, not rhetoric — and concedes gracefully where they are right. The fastest route to a second rejection is a response that argues with referees instead of resolving their concern, or that fixes wording while leaving a substantive construct/identification challenge unanswered.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: innovation system, science policy, patent evidence, R&D organization, technology diffusion.
-- Sibling boundary: Strategic Management Journal, Management Science, Industrial and Corporate Change, and Journal of Business Venturing.
-- House-style aim: innovation-policy argument linking mechanisms, institutions, and technology evidence.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/research-policy
-- https://www.elsevier.com/journals/research-policy/0048-7333/guide-for-authors
+## Building the response
 
-## Stage-specific moves
+1. **Open with the editor.** A short cover note: thank the editor and referees, state the main changes, and map them to the editor's summary points.
+2. **Point-by-point, quote-then-respond.** Restate each comment verbatim, then respond. For each: (a) what you changed, (b) where (section/table/page), (c) the result. Make the change visible, not merely promised.
+3. **Triage by stakes.**
+   - *Must-fix (binding):* construct validity of patent/bibliometric measures, identification/endogeneity, out-of-scope framing, overclaiming. These decide acceptance — resolve with new analysis or honest reframing.
+   - *Framing/positioning:* re-anchor in the RP/innovation-studies canon; sharpen the contribution.
+   - *Discretionary:* exhibits, clarity, citations — make them; they build goodwill.
+4. **Defend with evidence, concede with grace.** Where a referee is right, fix it and say so. Where a referee is wrong, show the analysis (a robustness check, a construct test) rather than asserting; if a request is infeasible, explain why and offer the closest feasible alternative.
+5. **Protect the contribution.** Do not let scattered concessions erode the innovation-studies claim; if a requested change would dilute it, propose a way to satisfy the concern without abandoning the advance.
+6. **Reconcile conflicting referees.** State the tension openly and choose a defensible course; tell the editor how you weighed the two.
 
-1. State the exact rebuttal strategy question in one sentence.
-2. Identify which Research Policy audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `respol-rebuttal` if the stage passes, or back to `respol-workflow` if it does not.
+## RP-specific pushbacks and how to answer
+
+- *"Your patent/citation measure is endogenous / a poor proxy."* → Add a bias-targeted check (examiner vs. applicant citations, self-citation correction, alternative indicator) and report stability.
+- *"This reads like economics/strategy, not innovation studies."* → Re-anchor the framing and references in the RP canon; foreground the innovation-system/policy implication.
+- *"The contribution is incremental / technique-driven."* → Restate before→after for innovation studies; show the new mechanism or boundary the evidence establishes.
+- *"Robustness is thin."* → Vary the key innovation construct and the specification; show the result is not an artifact of the measure.
 
 ## Checklist
-- [ ] The Research Policy audience can see why the paper belongs in innovation, science policy, technology management, entrepreneurship, R&D, and knowledge production.
-- [ ] The draft distinguishes Research Policy from Strategic Management Journal, Management Science, Industrial.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for rebuttal strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] A cover note maps the main changes to the handling editor's summary points
+- [ ] Every comment is quoted then answered with what/where/result
+- [ ] Binding construct/identification/scope points are resolved with evidence, not rhetoric
+- [ ] Concessions are made where referees are right, without eroding the contribution
+- [ ] Conflicting referee requests are reconciled explicitly for the editor
+- [ ] A change log / tracked-changes manuscript accompanies the letter
+- [ ] The revised paper still anchors clearly in innovation studies
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Research Policy without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Arguing with a referee instead of resolving the concern
+- Fixing wording while leaving a substantive construct/identification challenge unanswered
+- Conceding so broadly that the innovation-studies contribution disappears
+- Ignoring the editor's summary and answering only the referees
+- Claiming a change without showing where it landed in the manuscript
+- Promising future work in place of doing the requested analysis
 
 ## Output format
 
 ```text
 【Journal】Research Policy
 【Skill】respol-rebuttal
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking rebuttal strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Strategic Management Journal, Management Science
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】respol-rebuttal
+【Editor summary mapped】main changes tied to the editor's points? [Y/N]
+【Binding points】construct / identification / scope / overclaim — resolved how
+【Framing points】re-anchored in innovation studies? [Y/N]
+【Conflicts reconciled】how disagreeing referees were handled
+【Contribution protected】claim intact after revisions? [Y/N]
+【Artifacts】response letter + tracked-changes manuscript ready? [Y/N]
+【Next step】resubmit via Elsevier system; if rejected, respol-review-process to weigh a sibling
 ```

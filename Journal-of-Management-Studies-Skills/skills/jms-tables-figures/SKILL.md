@@ -1,70 +1,69 @@
 ---
 name: jms-tables-figures
-description: Use when working on tables and figures for a Journal of Management Studies manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when exhibits are the bottleneck for a Journal of Management Studies (JMS) manuscript — regression/SEM tables and interaction plots for quantitative work, and data-structure, representative-quotes, and process-model figures for qualitative work. Builds and audits exhibits; it does not run the analysis (jms-data-analysis) or polish prose (jms-writing-style).
 ---
 
 # Tables and Figures (jms-tables-figures)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Management Studies (JMS)** and tables and figures is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's management and organization studies, strategy, entrepreneurship, innovation, OB, and critical perspectives standard.
-- The paper risks being confused with nearby venues: Journal of Management, Organization Studies, AMJ, AMR, and Strategic Management Journal.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A regression table is a wall of coefficients with no story or a model figure is missing
+- A qualitative paper has rich quotes but no data-structure figure tying them to constructs
+- A process model is described in prose but never drawn
+- Tables count against the 10,000–13,000-word budget and need pruning
+- A reviewer says "I can't follow how the data became the theory" or "the table doesn't answer the question"
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| theoretical pluralism is central | Make the theoretical pluralism assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| organization studies is central | Make the organization studies assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| critical boundary is central | Make the critical boundary assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| international management is central | Make the international management assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| phenomenon-driven contribution is central | Make the phenomenon-driven contribution assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The JMS exhibit bar
 
-## JMS fit notes
+JMS exhibits must **make the argument legible**, in whichever idiom. Two house facts shape them: the word count is **inclusive of tables, figures, and references**, so every exhibit must earn its space; and **tables are numbered with Roman numerals, figures with Arabic numerals** (verify against current author guidance — `检索于 2026-06；以官网为准`). Quantitative and qualitative papers need different exhibit sets — match the set to the design.
 
-- Publisher / owner context: Wiley for the Society for the Advancement of Management Studies.
-- Submission route to re-check: Wiley online submission.
-- Signature vocabulary: theoretical pluralism, organization studies, critical boundary, international management, phenomenon-driven contribution.
-- Sibling boundary: Journal of Management, Organization Studies, AMJ, AMR, and Strategic Management Journal.
-- House-style aim: conceptually rich management scholarship that makes theory travel beyond one setting.
-- Official URLs currently used by the pack:
-- https://onlinelibrary.wiley.com/journal/14676486
-- https://onlinelibrary.wiley.com/page/journal/14676486/homepage/forauthors.html
+## Quantitative exhibit set
 
-## Stage-specific moves
+- **Descriptives + correlations** (one table): means, SDs, correlations, and reliabilities on the diagonal; flag any near-collinear pairs.
+- **Measurement model**: CFA loadings / AVE / CR where SEM is used — reviewers check discriminant validity here.
+- **Regression / SEM results**: build models hierarchically (controls → main → interactions); report unstandardised coefficients with SEs (and standardised where helpful), N, and fit. Make the *focal* coefficient visually findable.
+- **Interaction plot**: any moderation hypothesis needs a plotted interaction with simple-slope annotation — a table alone does not convey form.
+- **Theoretical model figure**: boxes-and-arrows mapping one-to-one to hypotheses.
 
-1. State the exact tables and figures question in one sentence.
-2. Identify which JMS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jms-writing-style` if the stage passes, or back to `jms-workflow` if it does not.
+## Qualitative exhibit set (first-class at JMS)
+
+- **Data-structure figure** (Gioia convention): first-order codes → second-order themes → aggregate dimensions, shown as a single visual so a reader sees the abstraction ladder at a glance.
+- **Representative-quotes table**: each second-order theme illustrated with verbatim quotes (attributed to anonymised informants), demonstrating evidentiary depth without dumping transcripts.
+- **Process / theoretical model figure**: the dynamic relationships among aggregate dimensions, with arrows that carry mechanism (and time, for process work) — not a static box diagram.
+- **Case / informant table**: cases, roles, data sources, and counts (interviews, hours, documents) so the evidentiary base is auditable.
+
+## Self-sufficiency and house style
+
+- Every exhibit reads on its own: a title that states what it shows, defined variables/constructs, units, N, and notes.
+- Place exhibits to serve the argument; avoid duplicating the same numbers in text and table.
+- Prefer one well-designed figure to three crowded tables — space is scarce under the inclusive word count.
 
 ## Checklist
-- [ ] The JMS audience can see why the paper belongs in management and organization studies, strategy, entrepreneurship, innovation, OB, and critical perspectives.
-- [ ] The draft distinguishes JMS from Journal of Management, Organization Studies, AMJ.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for tables and figures names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Exhibit set matches the design (quant set vs. qual set)
+- [ ] Quant: descriptives+correlations with reliabilities; hierarchical models with focal coefficient findable; every moderation plotted
+- [ ] Qual: data-structure figure present; representative-quotes table; process/theoretical model figure; case/informant table with counts
+- [ ] Theoretical/process model figure maps one-to-one to hypotheses/propositions
+- [ ] Each exhibit is self-sufficient (title, defined terms, N, notes)
+- [ ] Numbering follows house style (tables Roman, figures Arabic — verify)
+- [ ] Exhibits earn their space under the inclusive word count; no redundant tables
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JMS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Coefficient wall**: a regression table with no hierarchy and no visually findable focal effect
+- **Unplotted interaction**: a moderation hypothesis shown only as a product-term coefficient
+- **Quotes without structure**: rich quotes with no data-structure figure linking them to constructs
+- **Prose-only model**: a process/theoretical model described but never drawn
+- **Transcript dump**: pages of raw quotes instead of a curated representative-quotes table
+- **Redundancy**: the same statistics in both text and table, wasting the inclusive word budget
 
 ## Output format
 
 ```text
-【Journal】Journal of Management Studies
-【Skill】jms-tables-figures
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking tables and figures
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Management, Organization Studies
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jms-writing-style
+【Idiom】quantitative / qualitative
+【Quant exhibits】descriptives+correlations · measurement model · hierarchical results · interaction plot · model figure
+【Qual exhibits】data-structure figure · representative-quotes table · process model figure · case/informant table
+【Model figure ↔ hypotheses/propositions】one-to-one? yes/no
+【Space】fits inclusive word count? redundancies removed?
+【Next step】jms-writing-style
 ```

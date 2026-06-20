@@ -1,70 +1,85 @@
 ---
 name: arecon-evidence-standards
-description: Use when working on evidence standards for a Annual Review of Economics manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when appraising the credibility of the primary studies an Annual Review of Economics (ARE) review synthesizes, and when calibrating comprehensiveness, balance, and fair treatment of competing views. Weighs evidence and audits even-handedness; it does not design the spine (arecon-organizing-framework) or run your own identification.
 ---
 
-# Evidence Standards (arecon-evidence-standards)
+# Evidence Appraisal & Balance (arecon-evidence-standards)
 
 ## When to trigger
-- The manuscript is aimed at **Annual Review of Economics (AREcon)** and evidence standards is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's commissioned review articles synthesizing major areas of economics for specialists and adjacent economists standard.
-- The paper risks being confused with nearby venues: Journal of Economic Literature, Journal of Economic Perspectives, Handbook chapters, and Academy of Management Annals.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The framework is set and you are filling cells with conflicting empirical results
+- You must decide whether "the literature finds X" is actually supported, or only loosely
+- The field has rival schools, a live controversy, or estimates that disagree
+- You are a contributor to this literature and worry the review tilts toward your own work
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| field synthesis is central | Make the field synthesis assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| research frontier is central | Make the research frontier assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| conceptual map is central | Make the conceptual map assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| evidence stocktake is central | Make the evidence stocktake assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| future agenda is central | Make the future agenda assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Appraising evidence you did not produce
 
-## AREcon fit notes
+An ARE review **runs no identification of its own** — there is no design to defend, no replication package of your data. Instead you act as the field's **referee-of-record for adjacent readers**: you judge how much weight each primary study can bear so the review weighs the evidence correctly. Make the appraisal explicit, not implicit:
 
-- Publisher / owner context: Annual Reviews.
-- Submission route to re-check: Annual Reviews editorial process.
-- Signature vocabulary: field synthesis, research frontier, conceptual map, evidence stocktake, future agenda.
-- Sibling boundary: Journal of Economic Literature, Journal of Economic Perspectives, Handbook chapters, and Academy of Management Annals.
-- House-style aim: agenda-setting synthesis that clarifies what the field knows, disputes, and should do next.
-- Official URLs currently used by the pack:
-- https://www.annualreviews.org/journal/economics
-- https://www.annualreviews.org/page/authors/general-information
+- **DID / event study:** does the cited paper use TWFE on staggered timing without addressing heterogeneity bias? A study that predates Callaway–Sant'Anna / Sun–Abraham corrections may not support the magnitude you attribute to it — flag it.
+- **IV:** is the first stage strong and the exclusion restriction defended, or is it a convenience instrument? Weak-IV results carry less weight in your synthesis.
+- **RDD:** density/manipulation checks, bandwidth robustness — a fragile RDD is a fragile data point.
+- **Structural / calibration:** are the parameters identified and the counterfactual policy-invariant, or is it calibration presented as estimation?
+- **Experiments:** pre-registration, balance, attrition, multiple-hypothesis adjustment, external validity.
 
-## Stage-specific moves
+You are not re-running these — you are **rating their credibility** in the evidence matrix so the review's conclusions track the *best* evidence, not the *loudest* paper.
 
-1. State the exact evidence standards question in one sentence.
-2. Identify which AREcon audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `arecon-tables-figures` if the stage passes, or back to `arecon-workflow` if it does not.
+## Weighing, not vote-counting
+
+Conflicting results are reconciled by **credibility and by what each study estimates**, never by tallying "7 studies positive, 4 negative." Two estimates that disagree often measure different objects (different populations, estimands, time horizons); say so, and let the framework's cells carry the distinction. A pooled "consensus" across non-comparable designs manufactures false agreement that ARE's methodologically literate readers will catch.
+
+## Comprehensiveness vs. selectivity: the ARE contract
+
+A review must be **comprehensive in coverage** yet **selective in emphasis** — and stay accessible in ~25–40 pages. Tier the corpus:
+
+| Tier | Treatment |
+|------|-----------|
+| **Foundational / field-defining** | discussed in text, with what they established and their limits |
+| **Important contributions** | grouped and weighed within framework cells; cited with their finding |
+| **Confirmatory / incremental** | cited in clusters ("see also …") to show coverage without bloating prose |
+| **Tangential** | cited only where they bear on a specific claim |
+
+Comprehensiveness is proven by the citation set + saturation log (`arecon-literature-synthesis`); selectivity is exercised in the prose.
+
+## Fairness and the self-citation trap
+
+ARE referees are frequently the surveyed authors themselves, so balance is strategic as well as ethical:
+
+- **Steelman every camp.** State each school's strongest case in terms its proponents would accept *before* noting weaknesses.
+- **Attribute ideas to originators**, not popularizers (a recurring referee complaint).
+- **Handle live controversies without resolving by fiat.** Lay out the disagreement, what evidence would settle it, and where your own read sits — labelled as *your read*, not as consensus.
+- **Audit self-citation.** Your own work appears at the tier its importance to the field warrants — no more; rivals get their strongest statement; a reader who does not know the author cannot tell from the emphasis.
 
 ## Checklist
-- [ ] The AREcon audience can see why the paper belongs in commissioned review articles synthesizing major areas of economics for specialists and adjacent economists.
-- [ ] The draft distinguishes AREcon from Journal of Economic Literature, Journal of Economic Perspectives, Handbook chapters.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for evidence standards names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] The review explains inclusion/exclusion logic and how competing schools are balanced.
-- [ ] The synthesis produces an agenda, taxonomy, or framework rather than a bibliography.
+
+- [ ] Each pivotal primary study carries a credibility appraisal (design, identification, robustness)
+- [ ] Outdated or fragile designs flagged where the review leans on their magnitudes
+- [ ] Conflicting findings reconciled by credibility + estimand, not vote-counting
+- [ ] Corpus tiered; prose emphasis matches tier; coverage provable from the saturation log
+- [ ] Every rival school stated at its strongest before critique (steelman)
+- [ ] Idea attribution traces to originators
+- [ ] Live controversies presented with what evidence would settle them; author's read labelled
+- [ ] Self-citation audited: own work at warranted tier; emphasis is identity-blind
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to AREcon without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Citing a study's headline number without noting its identification is now known to be biased
+- Vote-counting conflicting results instead of weighing credibility and estimand
+- Pooling non-comparable estimates into one "the literature shows…" magnitude
+- Comprehensiveness theatre: equal-length summaries of every paper (no editorial judgment)
+- Strawmanning the camp the author disagrees with
+- A review that doubles as the author's CV (the most-punished ARE balance failure)
+- Declaring a live controversy "resolved" by assertion rather than the evidentiary state
 
 ## Output format
 
 ```text
-【Journal】Annual Review of Economics
-【Skill】arecon-evidence-standards
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking evidence standards
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Economic Literature, Journal of Economic Perspectives
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】arecon-tables-figures
+【Credibility appraisal】pivotal studies rated (design/identification/robustness)? Y/N
+【Conflict handling】reconciled by credibility + estimand (not vote-count)? Y/N
+【Tiering】corpus split foundational/important/confirmatory/tangential? Y/N
+【Comprehensiveness】saturation log supports "nothing important missing"? Y/N
+【Steelman】each rival school stated at its strongest? Y/N
+【Controversy】evidence-to-settle stated; author's read labelled? Y/N
+【Self-citation audit】own work at warranted tier; emphasis identity-blind? Y/N
+【Next step】→ arecon-tables-figures (who-found-what tables) → arecon-writing-style
 ```

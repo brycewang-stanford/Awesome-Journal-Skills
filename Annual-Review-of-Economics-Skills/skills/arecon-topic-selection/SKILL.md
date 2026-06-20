@@ -1,70 +1,77 @@
 ---
 name: arecon-topic-selection
-description: Use when working on topic selection for a Annual Review of Economics manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when judging whether a literature is an Annual Review of Economics (ARE)-scale review topic — mature, important, and genuinely in need of an authoritative, accessible synthesis — and framing the review's animating question. Decides fit; it does not gather the literature (arecon-literature-synthesis).
 ---
 
-# Topic Selection (arecon-topic-selection)
+# Topic Selection for an ARE Review (arecon-topic-selection)
 
 ## When to trigger
-- The manuscript is aimed at **Annual Review of Economics (AREcon)** and topic selection is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's commissioned review articles synthesizing major areas of economics for specialists and adjacent economists standard.
-- The paper risks being confused with nearby venues: Journal of Economic Literature, Journal of Economic Perspectives, Handbook chapters, and Academy of Management Annals.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You have a candidate field and need to know if it is "ARE-shaped"
+- A topic feels either too narrow (a single-question review) or too sprawling (a whole subfield)
+- You are deciding between ARE and a sibling outlet (JEL, JEP, a Handbook chapter, a field journal's review section)
+- The literature is young/fast-moving and you suspect it is not yet ready for an annual-volume review
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| field synthesis is central | Make the field synthesis assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| research frontier is central | Make the research frontier assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| conceptual map is central | Make the conceptual map assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| evidence stocktake is central | Make the evidence stocktake assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| future agenda is central | Make the future agenda assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## What ARE is for
 
-## AREcon fit notes
+ARE is the **Annual Reviews** economics survey series: a yearly volume of **invited, authoritative review articles** that are **accessible to economists outside the subfield**, not only to its specialists. The reader is a competent economist who wants to enter, teach, or locate the open questions of a field they do not currently work in. That reader profile — and the annual-volume cadence — sets the fit bar.
 
-- Publisher / owner context: Annual Reviews.
-- Submission route to re-check: Annual Reviews editorial process.
-- Signature vocabulary: field synthesis, research frontier, conceptual map, evidence stocktake, future agenda.
-- Sibling boundary: Journal of Economic Literature, Journal of Economic Perspectives, Handbook chapters, and Academy of Management Annals.
-- House-style aim: agenda-setting synthesis that clarifies what the field knows, disputes, and should do next.
-- Official URLs currently used by the pack:
-- https://www.annualreviews.org/journal/economics
-- https://www.annualreviews.org/page/authors/general-information
+## The four ARE-fit tests
 
-## Stage-specific moves
+A literature belongs in ARE when it passes all four. If it fails one, route accordingly.
 
-1. State the exact topic selection question in one sentence.
-2. Identify which AREcon audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `arecon-proposal-framing` if the stage passes, or back to `arecon-workflow` if it does not.
+1. **Maturity.** There is a *body* of research — multiple research lines, accumulated evidence, recognizable debates — not a handful of recent working papers. A field still being born produces a *premature* review that dates within a volume cycle. (Fails → too young; wait.)
+2. **Broad importance.** The questions matter to economists generally, not only to a dozen specialists. ARE explicitly serves **adjacent economists**; a review that only its own subfield could love is a field-journal review, not an ARE article. (Fails → too niche.)
+3. **Need for an accessible synthesis.** A newcomer cannot currently get oriented without a guide, *and* existing entry points (a recent JEL survey, a Handbook chapter) have not already done the job. The value is the **accessible map**, not the **list**. (Fails → already synthesized; nothing to add.)
+4. **Tractable for ~25–40 pages.** ARE reviews are substantial but not Handbook-length (检索于 2026-06；以官网为准). One author/team must read and weigh the relevant literature within that envelope. (Fails → carve a coherent axis, or it is a Handbook chapter.)
+
+## Decision table
+
+| Situation | Verdict | Action |
+|-----------|---------|--------|
+| Mature, broadly important, needs accessible synthesis, fits ~25–40 pp | ARE-shaped | → `arecon-proposal-framing` |
+| Important but immature | Not yet | revisit in a volume or two |
+| Mature but narrow / specialist-only | Wrong venue | field-journal review section |
+| Mature, important, but enormous and exhaustive | Wrong venue | Handbook chapter or JEL (deeper, longer) |
+| Non-technical, policy-facing, short, lay-adjacent | Wrong venue | Journal of Economic Perspectives (JEP) |
+
+## Framing the animating question
+
+An ARE review is organized by a **question about the field**, not by a topic label. Before approaching the Committee, write one sentence of each:
+
+- **State-of-knowledge question:** "What do we now know about X, and how confident should we be?"
+- **Why now:** what makes a synthesis valuable *for this volume* — a wave of new evidence, a methodological shift, a policy debate, convergence or fracture of findings.
+- **Reader payoff:** what an economist from an adjacent field can *do* after reading (enter the field, teach it, locate the open questions).
 
 ## Checklist
-- [ ] The AREcon audience can see why the paper belongs in commissioned review articles synthesizing major areas of economics for specialists and adjacent economists.
-- [ ] The draft distinguishes AREcon from Journal of Economic Literature, Journal of Economic Perspectives, Handbook chapters.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for topic selection names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] The review explains inclusion/exclusion logic and how competing schools are balanced.
-- [ ] The synthesis produces an agenda, taxonomy, or framework rather than a bibliography.
+
+- [ ] The field passes all four fit tests (maturity, broad importance, need, ~25–40 pp tractability)
+- [ ] The animating *question about the field* is written in one sentence
+- [ ] The "why now" is concrete (new evidence / method shift / policy salience), not "no one has reviewed this"
+- [ ] The intended reader is the **adjacent / non-specialist economist**, and the payoff is stated
+- [ ] You can name the 3–6 research lines the review must cover (a coverage skeleton)
+- [ ] Checked it is not a JEP piece (non-technical, broad), a JEL survey (deeper/longer), or a Handbook chapter (exhaustive)
+- [ ] You are *not* the field's only contributor — the review will not become a self-retrospective
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to AREcon without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- "No one has reviewed X" used as the *sole* justification — absence is not importance
+- Reviewing your own research program under a neutral title (self-promotion; ARE referees punish this)
+- Picking a field so new the review freezes a moving target before the volume prints
+- A scope so broad it becomes a Handbook chapter; so narrow it is a field-journal review
+- Confusing "topic" (a label) with "animating question" (what the review argues about the field)
+- Planning to submit cold — ARE does not take unsolicited manuscripts (see `arecon-proposal-framing`)
 
 ## Output format
 
 ```text
-【Journal】Annual Review of Economics
-【Skill】arecon-topic-selection
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking topic selection
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Economic Literature, Journal of Economic Perspectives
+【Field】<the literature>
+【Four tests】maturity / broad-importance / need-for-synthesis / ~25–40pp-tractable — pass or fail each
+【Animating question】"What do we know about ___, and how sure are we?"
+【Why now】<new evidence / method shift / policy salience>
+【Reader payoff】<what an adjacent economist can do after reading>
+【Coverage skeleton】<3–6 research lines the review must cover>
+【Verdict】ARE-shaped / rescope / wrong-venue (→ JEL / JEP / Handbook / field review)
 【Source status】verified URL / 待核实 / not asserted
-【Next skill】arecon-proposal-framing
+【Next step】→ arecon-proposal-framing (get the topic to the Editorial Committee)
 ```

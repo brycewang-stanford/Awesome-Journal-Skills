@@ -1,70 +1,75 @@
 ---
 name: jms-methods
-description: Use when working on methods for a Journal of Management Studies manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the research design is the bottleneck for a Journal of Management Studies (JMS) manuscript — matching design (qualitative case/ethnography, process/longitudinal, survey, archival, experiment, multi-method) to the theoretical question, with qualitative rigor treated as first-class. Designs the study; it does not run the estimation or trustworthiness checks (jms-data-analysis).
 ---
 
-# Methods (jms-methods)
+# Research Design & Methods (jms-methods)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Management Studies (JMS)** and methods is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's management and organization studies, strategy, entrepreneurship, innovation, OB, and critical perspectives standard.
-- The paper risks being confused with nearby venues: Journal of Management, Organization Studies, AMJ, AMR, and Strategic Management Journal.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The design may not match the theory's level, timing, or causal claim
+- A qualitative study's case selection, saturation, or analytic procedure is under-specified
+- Quantitative data are single-source, single-wave, self-reported (common-method bias risk)
+- The theory is causal but the design is cross-sectional/correlational
+- A reviewer says "the design cannot test/show this" or "the method is not rigorous enough"
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| theoretical pluralism is central | Make the theoretical pluralism assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| organization studies is central | Make the organization studies assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| critical boundary is central | Make the critical boundary assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| international management is central | Make the international management assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| phenomenon-driven contribution is central | Make the phenomenon-driven contribution assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Match the design to the question — pluralism with rigor
 
-## JMS fit notes
+JMS welcomes **all** rigorous designs and is, distinctively, a friendly home for **qualitative and process** work — but rigor must clear a top-tier bar regardless of method. Choose the design the question demands:
 
-- Publisher / owner context: Wiley for the Society for the Advancement of Management Studies.
-- Submission route to re-check: Wiley online submission.
-- Signature vocabulary: theoretical pluralism, organization studies, critical boundary, international management, phenomenon-driven contribution.
-- Sibling boundary: Journal of Management, Organization Studies, AMJ, AMR, and Strategic Management Journal.
-- House-style aim: conceptually rich management scholarship that makes theory travel beyond one setting.
-- Official URLs currently used by the pack:
-- https://onlinelibrary.wiley.com/journal/14676486
-- https://onlinelibrary.wiley.com/page/journal/14676486/homepage/forauthors.html
+| Theoretical claim / question | Design that earns it |
+|------------------------------|----------------------|
+| *How/why* a phenomenon emerges or works | Inductive multi-case (Eisenhardt) or ethnography |
+| *How* something unfolds over time | Process / longitudinal (temporal bracketing, visual mapping) |
+| Causal effect of a manipulable cause | Experiment (lab / field / online) or natural experiment |
+| Whether & how much, with generalisation | Survey (multi-wave) or panel archival |
+| Cross-level mechanism (firm → individual) | Multilevel / nested design (HLM-appropriate) |
+| Contested, novel, or richly contextual | Multi-method (e.g., qual study 1 + quant study 2) |
 
-## Stage-specific moves
+## Designing qualitative rigor (first-class at JMS)
 
-1. State the exact methods question in one sentence.
-2. Identify which JMS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jms-data-analysis` if the stage passes, or back to `jms-workflow` if it does not.
+- **Case/site selection** is theoretical, not convenient: state the sampling logic (extreme, polar, theoretically replicating). Justify the number of cases and why they let the theory travel.
+- **Data sources triangulated**: interviews + archives + observation; report counts (informants, hours, documents) and the period.
+- **Analytic procedure stated**: which approach (Gioia, Eisenhardt cross-case, grounded theory, narrative/temporal bracketing) and how codes became constructs.
+- **Trustworthiness** in the qualitative idiom: member checking, an audit trail, negative-case analysis, inter-coder agreement where appropriate — not p-values.
+
+## Designing against the threats JMS reviewers cite (quantitative)
+
+- **Common-method bias**: separate sources / temporal separation across waves; objective or archival outcomes where possible. Procedural design beats a post-hoc Harman test (the Podsakoff guidance is standard).
+- **Endogeneity (archival/survey)**: anticipate omitted variables, reverse causality, selection; plan an identification strategy (panel FE, DiD, IV/2SLS, natural experiment, matching) and state each one's assumptions.
+- **Measurement**: validated multi-item scales; pilot new measures; plan a CFA; state the level each construct is measured at and justify any aggregation (ICC, r_wg).
+- **Power & sampling**: justify the frame, response rate, and power — interactions need more power than main effects.
+
+## Level-of-analysis discipline
+
+State the level for theory, measurement, and analysis, and keep them aligned. If theory is at the firm level but data are individual, justify aggregation; for cross-level effects, model the nesting — do not run OLS on nested data.
 
 ## Checklist
-- [ ] The JMS audience can see why the paper belongs in management and organization studies, strategy, entrepreneurship, innovation, OB, and critical perspectives.
-- [ ] The draft distinguishes JMS from Journal of Management, Organization Studies, AMJ.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for methods names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Design can actually answer the question (causal claims have causal leverage)
+- [ ] Qualitative: theoretical case selection, triangulated sources with counts, named analytic procedure, trustworthiness checks
+- [ ] Quantitative: CMB addressed by design; endogeneity strategy specified; validated/piloted measures; CFA planned
+- [ ] Level of analysis aligned across theory, measurement, analysis; aggregation justified
+- [ ] Sampling frame, N, and power (incl. interactions) justified
+- [ ] Where useful, a second study triangulates the mechanism
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JMS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Qualitative-by-default vagueness**: "we did a case study" with no selection logic or analytic procedure
+- **Cross-sectional causal claims**: "X causes Y" from one-wave correlational data
+- **CMB as afterthought**: relying on a single Harman test instead of designed separation
+- **Ignored endogeneity**: an obviously endogenous regressor with no identification strategy
+- **Mismatched levels**: theorising at the firm level, testing disaggregated individual data via OLS
+- **Method theatre**: a fashionable estimator or qualitative label not justified by the question
 
 ## Output format
 
 ```text
-【Journal】Journal of Management Studies
-【Skill】jms-methods
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking methods
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Management, Organization Studies
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jms-data-analysis
+【Design】qual multi-case / ethnography / process / experiment / survey / panel-archival / multi-method
+【Question-design fit】can the design answer each claim? notes …
+【Qualitative rigor】(if qual) case selection · sources+counts · analytic procedure · trustworthiness
+【CMB / endogeneity】(if quant) procedural remedy · identification strategy
+【Measures】validated? new (piloted)? CFA planned?
+【Levels】theory / measurement / analysis aligned? aggregation justified?
+【Next step】jms-data-analysis
 ```

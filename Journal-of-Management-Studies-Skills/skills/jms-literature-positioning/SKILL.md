@@ -1,70 +1,68 @@
 ---
 name: jms-literature-positioning
-description: Use when working on literature positioning for a Journal of Management Studies manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when positioning the contribution against the literature for a Journal of Management Studies (JMS) manuscript — locating the paper in a named theoretical conversation and showing what it adds. Stakes the contribution; it does not build the mechanism (jms-theory-development) or write the closing contribution paragraph (jms-contribution-framing).
 ---
 
 # Literature Positioning (jms-literature-positioning)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Management Studies (JMS)** and literature positioning is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's management and organization studies, strategy, entrepreneurship, innovation, OB, and critical perspectives standard.
-- The paper risks being confused with nearby venues: Journal of Management, Organization Studies, AMJ, AMR, and Strategic Management Journal.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The literature review is a "camel train" — a chronological parade of citations with no argument
+- A reviewer says "I don't see what this adds" or "this conversation has moved on"
+- The paper cites broadly but never names the *specific* conversation it advances
+- Reviewers from two sub-fields disagree about which literature the paper belongs to
+- The framing oversells ("we are the first") or undersells (buries the contribution in a sub-clause)
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| theoretical pluralism is central | Make the theoretical pluralism assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| organization studies is central | Make the organization studies assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| critical boundary is central | Make the critical boundary assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| international management is central | Make the international management assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| phenomenon-driven contribution is central | Make the phenomenon-driven contribution assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The JMS positioning bar
 
-## JMS fit notes
+At JMS, positioning is not a literature survey — it is an **argument about where the conversation is stuck and how your paper unsticks it**. Because JMS is pluralist and internationally oriented, you must position against the *theoretical* conversation (e.g., institutional logics, dynamic capabilities, entrepreneurial ecosystems, paradox theory), not merely the empirical topic. The strongest JMS contributions do one of a few recognisable moves; name yours explicitly.
 
-- Publisher / owner context: Wiley for the Society for the Advancement of Management Studies.
-- Submission route to re-check: Wiley online submission.
-- Signature vocabulary: theoretical pluralism, organization studies, critical boundary, international management, phenomenon-driven contribution.
-- Sibling boundary: Journal of Management, Organization Studies, AMJ, AMR, and Strategic Management Journal.
-- House-style aim: conceptually rich management scholarship that makes theory travel beyond one setting.
-- Official URLs currently used by the pack:
-- https://onlinelibrary.wiley.com/journal/14676486
-- https://onlinelibrary.wiley.com/page/journal/14676486/homepage/forauthors.html
+## Contribution archetypes — name your move
 
-## Stage-specific moves
+| Move | What it looks like | Risk JMS reviewers flag |
+|------|--------------------|-------------------------|
+| **Extend** | Push a theory into a new boundary, mechanism, or context | "Incremental" if the extension is obvious |
+| **Challenge / revise** | Show an accepted relationship reverses or is conditional | Must be airtight; reviewers defend the orthodoxy |
+| **Reconcile** | Resolve a contradiction between two literatures | Both literatures must be represented fairly |
+| **Build** | Induce a new construct/process model from data (Path B) | "Description, not theory" if not abstracted |
+| **Bridge** | Import a theory from another field to illuminate a management phenomenon | "Borrowed badly" if the source logic is misused |
 
-1. State the exact literature positioning question in one sentence.
-2. Identify which JMS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jms-methods` if the stage passes, or back to `jms-workflow` if it does not.
+Whatever the move, the contribution sentence should read: *"The conversation about [X] assumes/overlooks [Y]; this paper shows [Z], which changes how we understand [X]."*
+
+## Positioning craft for JMS
+
+- **Construct a tension, not a gap.** "Gap" framing invites "so fill it — who cares?" Tension framing ("the literature predicts both A and not-A under similar conditions") invites the reader to want your resolution.
+- **Engage the closest, strongest work.** Cite the most threatening adjacent paper and say precisely how you differ — JMS reviewers are often the authors of that work.
+- **Position internationally where it matters.** If your contribution turns on an institutional or national context, say why that context reveals something the (often US-centric) literature missed; this is a JMS strength.
+- **Match the conversation to the venue.** A strategy-economics conversation belongs at SMJ; a process-philosophy conversation at Organization Studies; a US large-N micro-OB conversation at AMJ/JoM. JMS wants a *management/organization-theory* conversation with a phenomenon at its core.
 
 ## Checklist
-- [ ] The JMS audience can see why the paper belongs in management and organization studies, strategy, entrepreneurship, innovation, OB, and critical perspectives.
-- [ ] The draft distinguishes JMS from Journal of Management, Organization Studies, AMJ.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for literature positioning names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] One **named** theoretical conversation the paper advances (not just a topic area)
+- [ ] The contribution move is identified (extend / challenge / reconcile / build / bridge)
+- [ ] Positioning is built as a tension or puzzle, not a "gap"
+- [ ] The closest, most threatening prior work is cited and distinguished
+- [ ] International/contextual leverage is made explicit where the contribution depends on it
+- [ ] The contribution is neither over-claimed ("first ever") nor buried in a sub-clause
+- [ ] The conversation is a JMS conversation, not an SMJ / Organization Studies / AMJ one
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JMS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **The camel train**: a chronological list of who-studied-what with no argument
+- **Gap-spotting**: "no one has examined X" as if absence were importance
+- **Strawmanning the orthodoxy**: a challenge move that misrepresents the view it overturns
+- **Citation name-dropping**: invoking a famous theory without engaging its actual claims
+- **Venue mismatch**: positioning in a strategy-economics or pure-process conversation that belongs elsewhere
+- **Hedged contribution**: the "so what" hidden in the discussion section instead of the intro
 
 ## Output format
 
 ```text
-【Journal】Journal of Management Studies
-【Skill】jms-literature-positioning
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking literature positioning
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Management, Organization Studies
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jms-methods
+【Conversation】named theoretical conversation
+【Move】extend / challenge / reconcile / build / bridge
+【Tension】the puzzle or contradiction (not a gap)
+【Closest prior work】[cite] — how we differ
+【Contribution sentence】"the conversation assumes X; we show Z, changing understanding of …"
+【Venue check】why JMS not SMJ/OrgStudies/AMJ
+【Next step】jms-methods (or jms-contribution-framing to finalise the claim)
 ```

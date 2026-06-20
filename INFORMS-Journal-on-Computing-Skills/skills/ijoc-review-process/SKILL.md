@@ -1,70 +1,69 @@
 ---
 name: ijoc-review-process
-description: Use when working on review process for a INFORMS Journal on Computing manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when calibrating expectations for the INFORMS Journal on Computing (IJOC) review cycle — the Area-Editor desk-reject gate, the undisclosed associate editor, single-blind reviewing, decision types, and whether a sibling journal fits better. Sets expectations and strategy; it does not draft the rebuttal (see ijoc-rebuttal).
 ---
 
 # Review Process (ijoc-review-process)
 
 ## When to trigger
-- The manuscript is aimed at **INFORMS Journal on Computing (IJOC)** and review process is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's operations research and computing, algorithms, optimization, machine learning, simulation, and computational decision systems standard.
-- The paper risks being confused with nearby venues: Operations Research, Management Science, Manufacturing & Service Operations Management, and ACM/IEEE computing venues.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You are about to submit and want to understand the **gates** and likely timeline
+- A submission has been silent and you are unsure where it sits in the IJOC pipeline
+- A decision arrived (reject / major / minor) and you need to read it correctly before responding
+- You are weighing whether IJOC or a **sibling** (Operations Research, Management Science, MPC, IJOO) is the better home after a tough first round
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| algorithmic contribution is central | Make the algorithmic contribution assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| computational experiment is central | Make the computational experiment assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| optimization benchmark is central | Make the optimization benchmark assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| reproducible code is central | Make the reproducible code assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| decision analytics is central | Make the decision analytics assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## How the IJOC pipeline actually works
 
-## IJOC fit notes
+The cycle has a structure worth planning around (检索于 2026-06；以官网为准):
 
-- Publisher / owner context: INFORMS.
-- Submission route to re-check: INFORMS / ScholarOne submission.
-- Signature vocabulary: algorithmic contribution, computational experiment, optimization benchmark, reproducible code, decision analytics.
-- Sibling boundary: Operations Research, Management Science, Manufacturing & Service Operations Management, and ACM/IEEE computing venues.
-- House-style aim: computational OR contribution with transparent algorithms, benchmarks, and reproducibility.
-- Official URLs currently used by the pack:
-- https://pubsonline.informs.org/journal/ijoc
-- https://pubsonline.informs.org/page/ijoc/submission-guidelines
+1. **Area-Editor suitability gate.** Your chosen technical area routes the paper to an **Area Editor** who first judges fit. Roughly **40% are desk-rejected** here for being out of scope, computing-light, or mismatched to the area. This gate rewards the `ijoc-topic-selection` and `ijoc-contribution-framing` work: an Area Editor who cannot see the computational advance in the abstract and intro will not send it out.
+2. **Associate-editor handling — blind to you.** Survivors are assigned an **associate editor who manages the review and whose identity is never revealed** to authors. You cannot tailor a response to "the AE"; write to the report content, not the person.
+3. **Single-blind refereeing.** Reviewers see your names; you do not see theirs. Reviewers are typically active researchers in your area who will know the current methods and may try to **reproduce your results from the deposit** — another reason the GitHub artifact must actually run.
+4. **Decision.** Outcomes are the usual reject / major revision / minor revision / accept. A major revision on a computational paper often means re-running experiments (more instances, fairer baselines, more seeds), not just rewriting.
 
-## Stage-specific moves
+## Reading an IJOC decision letter
 
-1. State the exact review process question in one sentence.
-2. Identify which IJOC audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `ijoc-rebuttal` if the stage passes, or back to `ijoc-workflow` if it does not.
+Triage every point by what it really demands:
+
+| Referee theme | What it usually means | Where to fix |
+|---------------|----------------------|--------------|
+| "comparison is unfair / baseline weak" | re-run against the SOTA / current solver, symmetric tuning | `ijoc-data-analysis` |
+| "instances cherry-picked / too small" | full standard set + scaling | `ijoc-data-analysis` |
+| "contribution unclear / incremental" | sharpen the claim and positioning | `ijoc-contribution-framing` / `ijoc-literature-positioning` |
+| "no guarantee / correctness unproven" | add validity/complexity argument | `ijoc-theory-development` |
+| "cannot reproduce" | fix the deposit; align results to scripts | `ijoc-data-analysis` |
+| "out of scope for this area" | re-argue fit, or consider sibling/area change | `ijoc-topic-selection` |
+
+## Sibling fit after a hard round
+
+If the recurring objection is "the contribution is the OR model, not the computing," the paper may belong at *Operations Research*; if it is "this is optimization theory," at *INFORMS Journal on Optimization*; if it is "pure MP-computation," at *Mathematical Programming Computation*. Conversely, a strong computational result rejected elsewhere as "too applied/computational" may fit IJOC well. Decide before burning a revision cycle on the wrong venue.
 
 ## Checklist
-- [ ] The IJOC audience can see why the paper belongs in operations research and computing, algorithms, optimization, machine learning, simulation, and computational decision systems.
-- [ ] The draft distinguishes IJOC from Operations Research, Management Science, Manufacturing & Service Operations Management.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for review process names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Abstract/intro make the computational advance visible to clear the Area-Editor gate
+- [ ] You expect to write to report content, not to a named AE
+- [ ] The deposit runs, in case a referee tries to reproduce it
+- [ ] Each decision-letter point is triaged to the owning skill and classed as re-experiment vs. rewrite
+- [ ] A major revision plan budgets compute time for re-running experiments
+- [ ] The sibling-fit question is answered if scope objections recur
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to IJOC without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Treating the Area-Editor gate as a formality and submitting a computing-light paper
+- Trying to guess and flatter the (undisclosed) associate editor
+- Submitting a deposit that does not run, then being surprised by a "cannot reproduce" report
+- Reading a "major revision" on experiments as a rewrite job and not budgeting compute
+- Re-submitting to IJOC when the persistent objection says the paper belongs at a sibling
 
 ## Output format
 
 ```text
 【Journal】INFORMS Journal on Computing
 【Skill】ijoc-review-process
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking review process
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Operations Research, Management Science
-【Source status】verified URL / 待核实 / not asserted
+【Stage】pre-submit / in-review / decision-received
+【Gate read】Area-Editor fit risk; AE undisclosed; single-blind noted
+【Decision triage】point → owning skill → re-experiment vs. rewrite
+【Compute budget】re-run plan if major revision
+【Sibling check】stay IJOC / consider OR / MS / MPC / IJOO
 【Next skill】ijoc-rebuttal
 ```

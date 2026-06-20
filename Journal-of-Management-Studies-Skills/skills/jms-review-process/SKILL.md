@@ -1,70 +1,69 @@
 ---
 name: jms-review-process
-description: Use when working on review process for a Journal of Management Studies manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when you need to understand or set expectations for the Journal of Management Studies (JMS) editorial and peer-review process — desk screening, double-blind developmental review, and reading a decision letter. Explains the process and how to read decisions; it does not draft the response letter (jms-rebuttal).
 ---
 
-# Review Process (jms-review-process)
+# Understanding the Review Process (jms-review-process)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Management Studies (JMS)** and review process is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's management and organization studies, strategy, entrepreneurship, innovation, OB, and critical perspectives standard.
-- The paper risks being confused with nearby venues: Journal of Management, Organization Studies, AMJ, AMR, and Strategic Management Journal.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Before submitting, to calibrate expectations about timeline, desk-reject odds, and decision types
+- A decision letter arrived and you need to interpret it (R&R vs. reject; major vs. minor)
+- You are unsure how much weight reviewers vs. the handling editor carry
+- You want to plan a revision strategy before drafting the response (then go to `jms-rebuttal`)
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| theoretical pluralism is central | Make the theoretical pluralism assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| organization studies is central | Make the organization studies assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| critical boundary is central | Make the critical boundary assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| international management is central | Make the international management assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| phenomenon-driven contribution is central | Make the phenomenon-driven contribution assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+> Editorial structure, named editors, and exact turnaround change; verify the current team and policies on the official Wiley/SAMS pages. As of `检索于 2026-06；以官网为准`: JMS uses **double-blind** review; the editorial office is at **Durham University**; the General Editors/Editor-in-Chief and exact timelines are **待核实** unless quoted from an official page at submission time. The norms below are durable.
 
-## JMS fit notes
+## How JMS review works (durable norms)
 
-- Publisher / owner context: Wiley for the Society for the Advancement of Management Studies.
-- Submission route to re-check: Wiley online submission.
-- Signature vocabulary: theoretical pluralism, organization studies, critical boundary, international management, phenomenon-driven contribution.
-- Sibling boundary: Journal of Management, Organization Studies, AMJ, AMR, and Strategic Management Journal.
-- House-style aim: conceptually rich management scholarship that makes theory travel beyond one setting.
-- Official URLs currently used by the pack:
-- https://onlinelibrary.wiley.com/journal/14676486
-- https://onlinelibrary.wiley.com/page/journal/14676486/homepage/forauthors.html
+1. **Submission & routing.** A fully anonymised manuscript enters via ScholarOne (mc.manuscriptcentral.com/jmstudies). A General Editor (or an Associate/handling Editor) screens it and, if it passes, routes it to a handling editor in the relevant area.
+2. **Desk decision.** Manuscripts that are off-fit, that lack a clear **theoretical contribution**, that are out of scope, or that are not engaged with a management/organization conversation may be desk-rejected without external review. The most common desk-reject reason is "no clear contribution to theory."
+3. **External peer review.** Typically two or more reviewers in the focal conversation evaluate the theoretical contribution and the rigor of the method — held to the same bar whether the paper is quantitative or qualitative.
+4. **Editor synthesis.** The handling editor weighs the reviews, forms an independent judgment, and writes the decision letter. The **editor's letter — not a vote count** — drives the outcome.
+5. **Decision.** Common outcomes: reject; reject with possible resubmission as new; **major revision (R&R)**; minor revision; (rarely) accept. A first-round acceptance is essentially unheard of.
 
-## Stage-specific moves
+## JMS is developmental and pluralist
 
-1. State the exact review process question in one sentence.
-2. Identify which JMS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jms-rebuttal` if the stage passes, or back to `jms-workflow` if it does not.
+JMS's review culture is **developmental** and **method-pluralist**: an R&R is an invitation to improve the paper over (often) multiple rounds, and reviewers will push hardest on the **theoretical contribution**. For qualitative work, expect demands for a sharper model, clearer data-to-theory transparency, and a tighter contribution — *not* a demand to "add hypotheses." For quantitative work, expect endogeneity, CMB, and robustness pushback plus a "deepen the mechanism" demand. Treat an R&R as a serious opportunity, not a near-acceptance.
+
+## Reading the decision letter
+
+- **Find the editor's priorities first.** The handling editor's letter signals which reviewer points are essential vs. optional; address the editor's framing above all.
+- **Distinguish fatal from fixable.** If the core contribution or identification concern is fatal and unaddressable, an honest reframe (or a different paper) beats a doomed revision.
+- **Gauge encouragement.** "We see promise" + major revision signals a real path; "does not make a sufficient theoretical contribution" signals reject.
+- **Count the asks by category.** Map every reviewer point to: theory / method / analysis / framing / writing — this becomes the plan that feeds `jms-rebuttal`.
+
+## Planning the revision
+
+- Decide whether you can meet the **theoretical-contribution** demands; if not, no method fix will save the revision.
+- Scope new analyses, data, or fieldwork the reviewers imply and whether they are feasible in the window.
+- Identify where reviewers conflict; plan to surface the conflict for the editor rather than silently siding with one.
 
 ## Checklist
-- [ ] The JMS audience can see why the paper belongs in management and organization studies, strategy, entrepreneurship, innovation, OB, and critical perspectives.
-- [ ] The draft distinguishes JMS from Journal of Management, Organization Studies, AMJ.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for review process names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Decision type identified (R&R major/minor, reject-resubmit, reject)
+- [ ] The handling editor's priorities extracted and ranked above individual reviewer asks
+- [ ] Every reviewer comment categorised (theory / method / analysis / framing / writing)
+- [ ] Fatal vs. fixable concerns separated honestly
+- [ ] Feasibility of demanded new theory/data/analysis assessed against the deadline
+- [ ] Reviewer conflicts noted for the editor's attention
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JMS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Treating an R&R as a near-acceptance and making only cosmetic changes
+- Treating an R&R as a rejection and walking away from a viable path
+- Counting reviewer votes instead of reading the handling editor's letter
+- Responding to a qualitative-paper review as if it demanded hypotheses
+- Starting the response letter before mapping and planning the revision
 
 ## Output format
 
 ```text
-【Journal】Journal of Management Studies
-【Skill】jms-review-process
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking review process
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Management, Organization Studies
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jms-rebuttal
+【Decision type】R&R(major/minor) / reject-resubmit / reject
+【Editor's priorities】1… 2… 3…
+【Comment map】theory:[…] method:[…] analysis:[…] framing:[…] writing:[…]
+【Fatal vs. fixable】…
+【New work needed】theory / data / analysis — feasible? …
+【Reviewer conflicts】…
+【Next step】jms-rebuttal (plan revisions, then draft response)
 ```

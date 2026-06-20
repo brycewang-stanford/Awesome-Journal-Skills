@@ -1,70 +1,70 @@
 ---
 name: ijoc-writing-style
-description: Use when working on writing style for a INFORMS Journal on Computing manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the prose, abstract, or introduction of an INFORMS Journal on Computing (IJOC) manuscript buries the computational advance or misreads the house voice. Makes the method land for an OR-meets-CS readership; it does not change the underlying results.
 ---
 
 # Writing Style (ijoc-writing-style)
 
 ## When to trigger
-- The manuscript is aimed at **INFORMS Journal on Computing (IJOC)** and writing style is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's operations research and computing, algorithms, optimization, machine learning, simulation, and computational decision systems standard.
-- The paper risks being confused with nearby venues: Operations Research, Management Science, Manufacturing & Service Operations Management, and ACM/IEEE computing venues.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The abstract reads like an application summary and never states the computational advance
+- The introduction takes pages to reach "what is new computationally"
+- The method section is unreadable prose where pseudocode and structured statements belong
+- The paper is over the **25-page limit** and needs tightening, not just trimming
+- A coauthor wants the draft to read like an IJOC paper, not a CS conference paper or an OR theory paper
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| algorithmic contribution is central | Make the algorithmic contribution assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| computational experiment is central | Make the computational experiment assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| optimization benchmark is central | Make the optimization benchmark assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| reproducible code is central | Make the reproducible code assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| decision analytics is central | Make the decision analytics assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The IJOC voice
 
-## IJOC fit notes
+IJOC readers are OR/MS researchers comfortable with computation and CS researchers comfortable with OR — write for both. The voice is **precise, methods-forward, and quantitative**: state the problem, state the method, state what it provably and empirically achieves, in that order. Avoid two failure modes the readership notices instantly — the *application-essay* voice that delays the method, and the *CS-conference* voice that drops OR rigor (no problem formulation, no fair baseline discussion). The house format reinforces brevity: single-column, 1.5-spaced, 12-point, 1-inch margins, with a **≤300-word abstract carrying no formulas or mathematical notation** (检索于 2026-06；以官网为准).
 
-- Publisher / owner context: INFORMS.
-- Submission route to re-check: INFORMS / ScholarOne submission.
-- Signature vocabulary: algorithmic contribution, computational experiment, optimization benchmark, reproducible code, decision analytics.
-- Sibling boundary: Operations Research, Management Science, Manufacturing & Service Operations Management, and ACM/IEEE computing venues.
-- House-style aim: computational OR contribution with transparent algorithms, benchmarks, and reproducibility.
-- Official URLs currently used by the pack:
-- https://pubsonline.informs.org/journal/ijoc
-- https://pubsonline.informs.org/page/ijoc/submission-guidelines
+## The abstract: three moves in ≤300 words
 
-## Stage-specific moves
+IJOC's guidance is to cover, without notation: (1) **research questions and challenges** — the OR problem and why it is computationally hard; (2) **methodology and results** — what you designed and what it achieves; (3) **importance and implications** — why the computational advance matters. Lead the second move with the magnitude ("solves instances an order of magnitude larger"), not the technique name alone. Because formulas are barred, describe the method in words a non-specialist in your sub-area can follow.
 
-1. State the exact writing style question in one sentence.
-2. Identify which IJOC audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `ijoc-submission` if the stage passes, or back to `ijoc-workflow` if it does not.
+## The introduction: reach the contribution fast
+
+By the end of page one the reader should know the OR problem, why existing methods fall short computationally, what you do, and by how much. Use the **contribution sentence** from `ijoc-contribution-framing` near the top, then a short bulleted list of contributions. Defer the literature deep-dive; do not open with a multi-page survey.
+
+## Method prose, equations, and pseudocode
+
+Write algorithms as **numbered pseudocode**, not paragraphs; reserve prose for the *idea* and the *invariants*. Number and reference every equation you rely on. State theorem assumptions in the theorem, not three pages earlier. Define notation once, in a table if it is heavy. The reader should be able to re-implement from the paper plus the deposit — that is the IJOC standard.
+
+## Fitting the page limit
+
+The **main paper is capped at 25 pages including references, tables, and figures**, with up to **10 further pages of appendices**; longer appendices move to online supplements, and code/data live in the GitHub deposit (not the page count). Tighten by moving long proofs and exhaustive result tables to the supplement/deposit while keeping the **main paper self-contained on its central claims** — a reader must be able to follow the contribution without the supplement.
+
+## Word choices that signal computational rigor
+
+Small lexical habits mark an experienced IJOC author. Say "on standard benchmark instances" rather than "on our test problems"; "within the same time limit / at equal wall-clock" rather than "faster"; "the performance profile shows" rather than "results indicate"; "we prove" only when you do, otherwise "we observe empirically." Report numbers with their units and conditions inline (e.g., "31% root-gap reduction on the full set, single-threaded, 1-hour limit"), so a skimming reviewer absorbs the conditions with the claim. Avoid hedge-words ("somewhat," "quite") around quantitative results — give the magnitude instead. This register is what tells the Area Editor the paper was written by someone who runs experiments seriously.
 
 ## Checklist
-- [ ] The IJOC audience can see why the paper belongs in operations research and computing, algorithms, optimization, machine learning, simulation, and computational decision systems.
-- [ ] The draft distinguishes IJOC from Operations Research, Management Science, Manufacturing & Service Operations Management.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for writing style names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Abstract ≤300 words, no formulas, covering questions/challenges → methodology/results → importance
+- [ ] Page one delivers problem, gap, method, and magnitude
+- [ ] Contribution sentence appears early and matches the abstract and conclusion
+- [ ] Algorithms in numbered pseudocode; equations numbered and referenced
+- [ ] Notation defined once; theorem assumptions stated locally
+- [ ] Within 25 main pages (+≤10 appendix); main paper self-contained on central claims
+- [ ] Voice is methods-forward — neither application essay nor formulation-free CS paper
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to IJOC without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- An abstract that summarizes the application and never states the computational advance
+- A formula or heavy notation in the abstract (against IJOC guidance)
+- A multi-page survey before the contribution
+- Algorithms described in dense prose instead of pseudocode
+- Over the page limit because raw result tables and full proofs sit in the main text
+- A main paper that cannot be understood without the online supplement
 
 ## Output format
 
 ```text
 【Journal】INFORMS Journal on Computing
 【Skill】ijoc-writing-style
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking writing style
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Operations Research, Management Science
-【Source status】verified URL / 待核实 / not asserted
+【Abstract】≤300 words, no formulas, 3 moves present? [Y/N]
+【Page-one contribution】problem+gap+method+magnitude? [Y/N]
+【Pseudocode/equations】algorithms numbered; equations referenced? [Y/N]
+【Length】≤25pp main (+≤10 appendix); self-contained? [Y/N]
+【Voice】methods-forward, not app-essay / not formulation-free CS? [Y/N]
 【Next skill】ijoc-submission
 ```

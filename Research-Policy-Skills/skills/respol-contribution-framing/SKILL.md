@@ -1,70 +1,71 @@
 ---
 name: respol-contribution-framing
-description: Use when working on contribution framing for a Research Policy manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the one-sentence "so what" is the bottleneck for a Research Policy (RP) manuscript — converting solid results into an explicit advance for innovation theory/evidence that usually carries a policy or managerial implication. Frames the claim; it does not build the mechanism (respol-theory-development) or polish prose (respol-writing-style).
 ---
 
 # Contribution Framing (respol-contribution-framing)
 
 ## When to trigger
-- The manuscript is aimed at **Research Policy (Research Policy)** and contribution framing is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's innovation, science policy, technology management, entrepreneurship, R&D, and knowledge production standard.
-- The paper risks being confused with nearby venues: Strategic Management Journal, Management Science, Industrial and Corporate Change, and Journal of Business Venturing.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The results are in but the paper cannot say in one sentence what innovation studies now knows that it didn't
+- The contribution is stated as "we find a significant effect of X on Y" (a result, not a contribution)
+- There is no policy or managerial implication, or one is bolted on as a token final paragraph
+- A referee says "the contribution is unclear / overclaimed / not commensurate with the evidence"
+- The intro promises one contribution and the discussion delivers another
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| innovation system is central | Make the innovation system assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| science policy is central | Make the science policy assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| patent evidence is central | Make the patent evidence assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| R&D organization is central | Make the R&D organization assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| technology diffusion is central | Make the technology diffusion assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The Research Policy contribution bar
 
-## Research Policy fit notes
+RP rewards a **genuine contribution to innovation theory or evidence over narrow technique**. A submittable contribution states (a) what innovation-studies readers believed before, (b) what they should believe after, and (c) why it matters — almost always with a **policy or managerial implication** that follows from the mechanism, not from a generic call to "inform policymakers." The implication must be *earned*: it should change a specific design choice (a subsidy rule, an IP regime, a university-industry interface, an R&D organizational practice), not gesture at relevance.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: innovation system, science policy, patent evidence, R&D organization, technology diffusion.
-- Sibling boundary: Strategic Management Journal, Management Science, Industrial and Corporate Change, and Journal of Business Venturing.
-- House-style aim: innovation-policy argument linking mechanisms, institutions, and technology evidence.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/research-policy
-- https://www.elsevier.com/journals/research-policy/0048-7333/guide-for-authors
+The contribution must be **commensurate with the evidence**: a single-country patent study should not claim a universal law of innovation, and a clean estimate with a thin mechanism should not claim to "rewrite" a theory.
 
-## Stage-specific moves
+## Building the contribution statement
 
-1. State the exact contribution framing question in one sentence.
-2. Identify which Research Policy audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `respol-tables-figures` if the stage passes, or back to `respol-workflow` if it does not.
+1. **Before/after.** Write "Innovation scholars have assumed/shown X; we show Y," where Y is a mechanism, boundary, or contradicting fact — not just a coefficient.
+2. **Type.** Name the contribution type: a new mechanism, a boundary condition on a known one, contradicting evidence, a measurement that resolves a debate, or a new construct/typology.
+3. **Audience split.** State separately what this means for innovation *theory* and for innovation *policy/management* — RP readers come from both sides.
+4. **Earned implication.** Tie the policy/managerial implication to the estimated mechanism: "because the effect runs through [channel], policy lever [Z] should change in [direction]." If you cannot do this, the implication is decorative.
+5. **Calibrate.** Match the strength of the claim to the design, sample, and external validity. Acknowledge what the evidence does not establish.
+
+## Aligning the paper around the claim
+
+- The abstract, the last paragraph of the intro, and the discussion must state the *same* contribution in compatible words.
+- The theoretical-model / mechanism and the headline result must both point at the contribution; if a result is not load-bearing for the claim, it belongs in robustness, not the headline.
+- The policy/managerial implication in the conclusion must trace to a specific finding, with its scope conditions attached.
+
+## Worked example (illustrative)
+
+A study estimates that a national R&D tax credit raises patenting among small firms. A *result-shaped* framing says "the credit increases patents by X%." An *RP contribution* says: "Innovation scholars have assumed R&D subsidies mainly relieve financing constraints; we show the effect runs through *new collaboration* between subsidized firms and universities, implying the additionality is relational, not just financial." That before→after names a mechanism (collaboration, not finance), splits the audience (theory: rethink the additionality channel; policy: design credits to reward university linkage), and earns its policy lever from the estimated channel. The calibration line then concedes the evidence is one country and one firm-size band, so the claim is about a mechanism's existence, not its universal magnitude.
 
 ## Checklist
-- [ ] The Research Policy audience can see why the paper belongs in innovation, science policy, technology management, entrepreneurship, R&D, and knowledge production.
-- [ ] The draft distinguishes Research Policy from Strategic Management Journal, Management Science, Industrial.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for contribution framing names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] The contribution is stated as before→after for innovation studies, not as a result
+- [ ] The contribution type is named (mechanism / boundary / contradiction / measurement / construct)
+- [ ] Implications for innovation theory AND policy/management are both explicit
+- [ ] The policy/managerial implication is earned from the mechanism, not generic
+- [ ] The claim is commensurate with the evidence and external validity
+- [ ] Abstract, intro, and discussion state the same contribution
+- [ ] What the evidence does NOT establish is acknowledged
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Research Policy without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- "We find a significant effect" presented as the contribution
+- A token "implications for policymakers" paragraph with no specific lever
+- Overclaiming a universal innovation law from one country/sector/period
+- A contribution in the intro that the discussion silently changes
+- Technique-as-contribution ("we apply method M to data D") with no innovation-studies advance
+- Burying the actual contribution under a literature recap
 
 ## Output format
 
 ```text
 【Journal】Research Policy
 【Skill】respol-contribution-framing
+【Before → After】innovation scholars believed X; we show Y
+【Contribution type】mechanism / boundary / contradiction / measurement / construct
+【Theory implication】what changes for innovation theory
+【Policy/managerial implication】specific lever + direction, earned from the mechanism
+【Calibration】claim matches evidence + external validity? [Y/N]
 【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking contribution framing
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Strategic Management Journal, Management Science
-【Source status】verified URL / 待核实 / not asserted
 【Next skill】respol-tables-figures
 ```

@@ -1,70 +1,63 @@
 ---
 name: jms-data-analysis
-description: Use when working on data analysis for a Journal of Management Studies manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the execution and credibility of the analysis is the bottleneck for a Journal of Management Studies (JMS) manuscript — regression/SEM and robustness for quantitative work, OR coding, abduction, and trustworthiness for qualitative work. Runs and defends the analysis; it does not design the study (jms-methods) or build exhibits (jms-tables-figures).
 ---
 
 # Data Analysis (jms-data-analysis)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Management Studies (JMS)** and data analysis is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's management and organization studies, strategy, entrepreneurship, innovation, OB, and critical perspectives standard.
-- The paper risks being confused with nearby venues: Journal of Management, Organization Studies, AMJ, AMR, and Strategic Management Journal.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Estimates are in but reviewers question endogeneity, robustness, or the indirect-effect claim
+- A qualitative analysis reaches findings but the path from data to constructs is not auditable
+- Effects hinge on a single specification with no robustness
+- A mediation/moderation result is reported without the analysis JMS expects
+- A reviewer says "the analysis does not support the claim" or "I can't see how you got here"
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| theoretical pluralism is central | Make the theoretical pluralism assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| organization studies is central | Make the organization studies assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| critical boundary is central | Make the critical boundary assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| international management is central | Make the international management assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| phenomenon-driven contribution is central | Make the phenomenon-driven contribution assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The JMS analysis bar — two idioms, one standard
 
-## JMS fit notes
+JMS judges analysis by whether it **credibly supports the theoretical claim**, in whichever idiom the study uses. Quantitative work is held to identification and robustness standards; qualitative work is held to **trustworthiness and transparency** standards. Use the path that matches your design; do not import quant criteria (p-values, effect sizes) to judge a qualitative paper, or qualitative looseness into a quantitative one.
 
-- Publisher / owner context: Wiley for the Society for the Advancement of Management Studies.
-- Submission route to re-check: Wiley online submission.
-- Signature vocabulary: theoretical pluralism, organization studies, critical boundary, international management, phenomenon-driven contribution.
-- Sibling boundary: Journal of Management, Organization Studies, AMJ, AMR, and Strategic Management Journal.
-- House-style aim: conceptually rich management scholarship that makes theory travel beyond one setting.
-- Official URLs currently used by the pack:
-- https://onlinelibrary.wiley.com/journal/14676486
-- https://onlinelibrary.wiley.com/page/journal/14676486/homepage/forauthors.html
+## Quantitative path
 
-## Stage-specific moves
+- **Specification & estimator**: match the estimator to the data structure (OLS/GLM, fixed effects for panels, SEM for latent constructs and full mediation models, multilevel models for nested data). State why.
+- **Mediation done right**: test indirect effects with bootstrapped confidence intervals (not Baron–Kenny steps alone); but remember an indirect effect is *evidence for* a theorised mechanism, not a substitute for theorising it.
+- **Moderation**: plot the interaction; report simple slopes and the region of significance; do not over-read a marginal interaction.
+- **Endogeneity & robustness**: run the identification strategy planned in `jms-methods` (FE, IV/2SLS, DiD, matching) and a robustness battery — alternative measures, alternative samples, controls in/out — each tied to a *named threat*, not a fishing expedition.
+- **Measurement evidence**: report reliability (alpha/CR), convergent/discriminant validity (AVE), and CFA fit; address CMB with a designed test, not only Harman.
 
-1. State the exact data analysis question in one sentence.
-2. Identify which JMS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jms-contribution-framing` if the stage passes, or back to `jms-workflow` if it does not.
+## Qualitative path
+
+- **Coding transparency**: show the move from first-order codes → second-order themes → aggregate dimensions; a reader should be able to trace a quote to a construct.
+- **Abductive logic**: make the iteration between data and theory explicit — surprising observations, the candidate explanations considered, why the retained one fits best. JMS rewards visible abduction, not a tidy after-the-fact story.
+- **Evidentiary support**: a representative-quotes table tying each theme to data; report disconfirming/negative cases and how they refined the model.
+- **Trustworthiness**: state the procedures used (audit trail, member checking, inter-coder reliability where appropriate, prolonged engagement) so credibility is demonstrable.
+- **From narrative to mechanism**: for process work, show *what drives the transitions* across phases, not just the sequence.
 
 ## Checklist
-- [ ] The JMS audience can see why the paper belongs in management and organization studies, strategy, entrepreneurship, innovation, OB, and critical perspectives.
-- [ ] The draft distinguishes JMS from Journal of Management, Organization Studies, AMJ.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for data analysis names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Path chosen (quantitative / qualitative) and matched to the design
+- [ ] Quant: estimator fits the data; mediation via bootstrapped CIs; interactions plotted with simple slopes
+- [ ] Quant: each robustness check tied to a named threat; CMB addressed by design; CFA/validity reported
+- [ ] Qual: first-order → second-order → aggregate-dimension chain is auditable
+- [ ] Qual: abductive reasoning visible; representative quotes table; negative cases reported
+- [ ] Qual: trustworthiness procedures stated
+- [ ] The claim never exceeds what the analysis supports
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JMS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Mechanism by mediation**: claiming a process exists only because the indirect effect is significant
+- **Robustness theatre**: a wall of checks that never names the threat each one rules out
+- **p-hacking / specification mining**: the one significant model among many, presented as the model
+- **Quote-mining**: cherry-picked quotes with no systematic coding behind them
+- **Tidy abduction**: a too-clean narrative that hides the messy data-theory iteration reviewers want to see
+- **Idiom confusion**: judging a qualitative paper by sample size and significance, or a quant paper by "richness"
 
 ## Output format
 
 ```text
-【Journal】Journal of Management Studies
-【Skill】jms-data-analysis
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking data analysis
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Management, Organization Studies
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jms-contribution-framing
+【Path】quantitative / qualitative
+【Quant】estimator + why; mediation (bootstrap CI); moderation (simple slopes); robustness→threats; CMB/CFA
+【Qual】coding chain (1st→2nd→dimensions); abduction made visible; quotes table; negative cases; trustworthiness
+【Claim support】does the analysis carry the theoretical claim? gaps …
+【Next step】jms-tables-figures
 ```

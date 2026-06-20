@@ -1,70 +1,73 @@
 ---
 name: jms-writing-style
-description: Use when working on writing style for a Journal of Management Studies manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when prose and structure are the bottleneck for a Journal of Management Studies (JMS) manuscript — landing the abstract and intro, sustaining a theory-forward narrative, and meeting house conventions (Harvard refs, UK/US English, 200-word abstract). Polishes the writing; it does not invent the contribution (jms-contribution-framing) or run the analysis.
 ---
 
 # Writing Style (jms-writing-style)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Management Studies (JMS)** and writing style is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's management and organization studies, strategy, entrepreneurship, innovation, OB, and critical perspectives standard.
-- The paper risks being confused with nearby venues: Journal of Management, Organization Studies, AMJ, AMR, and Strategic Management Journal.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The introduction takes three pages to reach the point
+- The abstract describes activity ("we examine…") instead of stating the contribution
+- The prose is jargon-dense, hedged, or reads like a methods report rather than an argument
+- A reviewer says "I had to dig for the contribution" or "the writing obscures the idea"
+- House conventions (Harvard referencing, abstract length, UK/US English consistency) are unmet
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| theoretical pluralism is central | Make the theoretical pluralism assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| organization studies is central | Make the organization studies assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| critical boundary is central | Make the critical boundary assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| international management is central | Make the international management assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| phenomenon-driven contribution is central | Make the phenomenon-driven contribution assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The JMS voice
 
-## JMS fit notes
+JMS prose is **theory-forward and argumentative** — every section advances the contribution, and the reader is told *why this matters* early and often. It is scholarly but not opaque: the journal's international readership rewards clarity over field-insider shorthand. Write the paper around the claim, not around the chronology of what you did. Do this section by section.
 
-- Publisher / owner context: Wiley for the Society for the Advancement of Management Studies.
-- Submission route to re-check: Wiley online submission.
-- Signature vocabulary: theoretical pluralism, organization studies, critical boundary, international management, phenomenon-driven contribution.
-- Sibling boundary: Journal of Management, Organization Studies, AMJ, AMR, and Strategic Management Journal.
-- House-style aim: conceptually rich management scholarship that makes theory travel beyond one setting.
-- Official URLs currently used by the pack:
-- https://onlinelibrary.wiley.com/journal/14676486
-- https://onlinelibrary.wiley.com/page/journal/14676486/homepage/forauthors.html
+## Section-by-section moves
 
-## Stage-specific moves
+- **Title**: signal the phenomenon *and* the theoretical angle; avoid a method-only title.
+- **Abstract (≤200 words)**: phenomenon → tension → what you did → what you found → what it contributes. State the contribution in the abstract, not just the activity. Provide **4–6 keywords in alphabetical order** (verify; `检索于 2026-06；以官网为准`).
+- **Introduction**: by the end of page two the reader should know the phenomenon, the tension, the contribution, and the design. Open with the puzzle, not a literature tour.
+- **Theory section**: lead each block with its claim; cite to build the argument, not to demonstrate reading. For qualitative work, narrate the journey from data to model.
+- **Methods/findings**: write findings as an argument, not a data dump; for qualitative work, weave quotes into theoretical claims rather than listing them.
+- **Discussion**: open by restating the contribution (from `jms-contribution-framing`), then implications for theory, then for practice, then bounded limitations and future directions.
 
-1. State the exact writing style question in one sentence.
-2. Identify which JMS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jms-submission` if the stage passes, or back to `jms-workflow` if it does not.
+## House conventions to enforce
+
+- **Harvard author-date** referencing throughout: "(Author, Year)" in text, alphabetical reference list, page numbers for quotes "(Author, Year, p. XX)". Verify against current author guidance.
+- **UK or US English** — pick one and be consistent.
+- **Double-spaced** throughout including notes and references; **endnotes only**, kept minimal (no footnotes).
+- Declare any **use of AI** (including copy-editing) per current policy.
+- Keep total length within **10,000–13,000 words inclusive of tables, figures, and references**; over-length manuscripts can be returned before review.
+
+## Prose discipline
+
+- Cut throat-clearing ("It is important to note that…"); start sentences with their subject.
+- Replace nominalisations with verbs ("we theorise" not "a theorisation is offered").
+- One idea per paragraph, with a topic sentence that states the claim.
+- Define each construct once, then use the term consistently — do not switch synonyms.
 
 ## Checklist
-- [ ] The JMS audience can see why the paper belongs in management and organization studies, strategy, entrepreneurship, innovation, OB, and critical perspectives.
-- [ ] The draft distinguishes JMS from Journal of Management, Organization Studies, AMJ.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for writing style names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] The contribution is stated in the abstract and by page two of the intro
+- [ ] Each section leads with its claim, not its activity
+- [ ] Qualitative quotes are woven into theory, not listed
+- [ ] Abstract ≤200 words; 4–6 alphabetical keywords
+- [ ] Harvard author-date referencing applied consistently; UK/US English consistent
+- [ ] Double-spaced, endnotes only; AI use declared
+- [ ] Total length within the inclusive 10,000–13,000-word budget
+- [ ] Constructs defined once and used consistently
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JMS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Activity abstract**: "this paper examines X" with no contribution stated
+- **Literature-tour intro**: pages of citations before the puzzle appears
+- **Data-dump findings**: results listed in run order rather than as an argument
+- **Quote listing**: qualitative quotes stacked without theoretical interpretation
+- **House-style misses**: wrong citation style, over-length, mixed UK/US English, footnotes instead of endnotes
+- **Hedge fog**: so many qualifiers the claim disappears
 
 ## Output format
 
 ```text
-【Journal】Journal of Management Studies
-【Skill】jms-writing-style
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking writing style
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Management, Organization Studies
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jms-submission
+【Abstract】contribution stated, ≤200 words, 4–6 keywords? [Y/N]
+【Intro】phenomenon+tension+contribution+design by page 2? [Y/N]
+【Sections lead with claims】[Y/N] — notes
+【House style】Harvard refs · UK/US consistent · double-spaced · endnotes · AI declared? [Y/N]
+【Length】within 10,000–13,000 words inclusive? [Y/N]
+【Next step】jms-submission
 ```

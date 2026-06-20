@@ -1,70 +1,73 @@
 ---
 name: respol-data-analysis
-description: Use when working on data analysis for a Research Policy manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when executing and stress-testing the empirical analysis for a Research Policy (RP) manuscript — building bibliometric/patent variables, running estimation or qualitative coding, and assembling robustness that an innovation-studies referee will accept. Executes the analysis; it does not choose the design (respol-methods) or present exhibits (respol-tables-figures).
 ---
 
 # Data Analysis (respol-data-analysis)
 
 ## When to trigger
-- The manuscript is aimed at **Research Policy (Research Policy)** and data analysis is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's innovation, science policy, technology management, entrepreneurship, R&D, and knowledge production standard.
-- The paper risks being confused with nearby venues: Strategic Management Journal, Management Science, Industrial and Corporate Change, and Journal of Business Venturing.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Patent/bibliometric variables are built but the construction steps are not documented or reproducible
+- Headline results exist but robustness to alternative measures and specifications is thin
+- A count outcome (patents, citations) is run with OLS instead of an appropriate count model
+- Qualitative coding lacks a transparent coding scheme or inter-coder reliability
+- A referee says results are "not robust," "driven by outliers/one sector," or "the data are a black box"
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| innovation system is central | Make the innovation system assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| science policy is central | Make the science policy assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| patent evidence is central | Make the patent evidence assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| R&D organization is central | Make the R&D organization assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| technology diffusion is central | Make the technology diffusion assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The Research Policy analysis bar
 
-## Research Policy fit notes
+RP referees know innovation data intimately and distrust opaque pipelines. The two things they probe hardest are **how the variables were built** (especially patent/bibliometric ones) and **whether the finding survives the obvious alternatives**. Counts and skewed distributions are the norm in innovation data, so estimators must respect that; and because most RP indicators are noisy proxies, robustness is not optional decoration — it is how you show the innovation claim, not the measure's artifacts, drives the result.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: innovation system, science policy, patent evidence, R&D organization, technology diffusion.
-- Sibling boundary: Strategic Management Journal, Management Science, Industrial and Corporate Change, and Journal of Business Venturing.
-- House-style aim: innovation-policy argument linking mechanisms, institutions, and technology evidence.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/research-policy
-- https://www.elsevier.com/journals/research-policy/0048-7333/guide-for-authors
+## Building and modeling innovation data
 
-## Stage-specific moves
+### Variable construction (document everything)
+- For patents/citations: record office, family definition, matching algorithm to firms/regions/inventors, name-disambiguation method, and truncation window. A referee should be able to rebuild the variable from the description plus the deposited code.
+- For composite indicators (originality, generality, technological proximity): state the formula and the classification scheme (IPC/CPC) and version used.
+- Flag and justify any sample restrictions (years, sectors, minimum patent counts) — selection on the dependent variable is a common RP rejection cause.
 
-1. State the exact data analysis question in one sentence.
-2. Identify which Research Policy audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `respol-contribution-framing` if the stage passes, or back to `respol-workflow` if it does not.
+### Estimation that fits innovation outcomes
+- Patent/citation **counts**: Poisson/negative binomial (or fixed-effects Poisson / PPML) rather than logging-plus-OLS, which mishandles zeros and Jensen's inequality. Address over-dispersion and excess zeros explicitly.
+- Skewed continuous outcomes: justify transformation and report level results.
+- Panels: choose FE vs. RE on substantive grounds (Hausman is a guide, not a verdict) and cluster at the level of treatment/assignment; address few-cluster inference where relevant.
+- Causal designs: report the diagnostics the design demands (pre-trends/event study for DID, first stage and weak-IV-robust inference for IV, density and bandwidth robustness for RDD).
+
+### Qualitative analysis
+- Make the coding scheme explicit; report how codes became constructs; report inter-coder agreement where multiple coders; show a data-structure/evidence table linking quotes to constructs.
+
+### Robustness that persuades RP
+- Alternative measures of the key innovation construct (e.g., patent count vs. citation-weighted vs. family size).
+- Alternative specifications, samples (drop dominant sector/period), and estimators.
+- A direct test that the result is not an artifact of the indicator's known bias (e.g., truncation, propensity to patent).
 
 ## Checklist
-- [ ] The Research Policy audience can see why the paper belongs in innovation, science policy, technology management, entrepreneurship, R&D, and knowledge production.
-- [ ] The draft distinguishes Research Policy from Strategic Management Journal, Management Science, Industrial.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for data analysis names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Every patent/bibliometric variable is documented well enough to rebuild from the text + code
+- [ ] Count outcomes use count models, not log-OLS hacks; zeros and over-dispersion handled
+- [ ] Panel FE/RE and clustering choices are justified substantively
+- [ ] Causal designs report their required diagnostics
+- [ ] Qualitative coding scheme and reliability are transparent
+- [ ] Robustness varies the key innovation measure, not just controls
+- [ ] At least one check targets the indicator's known bias directly
+- [ ] A reproducibility package (data sources + code) is assembled or planned
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Research Policy without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A patent-variable "black box" no referee could reconstruct
+- Logging patent counts and running OLS instead of a count model
+- Robustness that only adds controls and never varies the innovation measure
+- Selecting the sample on the outcome (only patenting firms) without addressing it
+- Qualitative findings with no visible coding scheme or evidence table
+- Reporting only the specification that "works"
 
 ## Output format
 
 ```text
 【Journal】Research Policy
 【Skill】respol-data-analysis
+【Variable build】patent/bibliometric construction documented? [Y/N]
+【Estimator】count/panel/causal choice + why it fits the outcome
+【Diagnostics】design-required checks reported
+【Robustness】alternative measures + specs + bias-targeted check
+【Reproducibility】data sources + code package status
 【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking data analysis
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Strategic Management Journal, Management Science
-【Source status】verified URL / 待核实 / not asserted
 【Next skill】respol-contribution-framing
 ```

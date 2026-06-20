@@ -1,70 +1,75 @@
 ---
 name: ijoc-theory-development
-description: Use when working on theory development for a INFORMS Journal on Computing manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the algorithm or model formulation, its correctness, and its theoretical guarantees are the bottleneck for an INFORMS Journal on Computing (IJOC) manuscript. Pins down formulation, complexity, and what the method provably does before experiments are finalized; it does not run the experiments.
 ---
 
-# Theory Development (ijoc-theory-development)
+# Algorithm & Model Formulation (ijoc-theory-development)
 
 ## When to trigger
-- The manuscript is aimed at **INFORMS Journal on Computing (IJOC)** and theory development is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's operations research and computing, algorithms, optimization, machine learning, simulation, and computational decision systems standard.
-- The paper risks being confused with nearby venues: Operations Research, Management Science, Manufacturing & Service Operations Management, and ACM/IEEE computing venues.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- An algorithm "works" empirically but its **statement, invariants, and termination** are not written down rigorously
+- A formulation is proposed but its **validity** (the model exactly captures the problem; the cuts are valid; the relaxation is correct) is asserted, not argued
+- A referee asks for **complexity, convergence, approximation ratio, or correctness** and the paper has none
+- A heuristic or ML method needs the **theoretical scaffolding** (what it guarantees, when it can fail) that distinguishes IJOC from a pure benchmark paper
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| algorithmic contribution is central | Make the algorithmic contribution assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| computational experiment is central | Make the computational experiment assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| optimization benchmark is central | Make the optimization benchmark assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| reproducible code is central | Make the reproducible code assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| decision analytics is central | Make the decision analytics assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## What "theory" means at IJOC
 
-## IJOC fit notes
+IJOC is not a pure-theory journal, but it expects the **method to be defined and defended**, not just demonstrated. The advance is computational, yet referees want to know *why the method is correct* and *what it provably achieves* before they trust the experiments. Match the rigor to the archetype — an exact method needs validity and finiteness; a heuristic needs a clear procedure and, where possible, bounds; an ML-for-OR method needs a stated learning task and a guarantee or a falsifiable claim. The theory and the experiments must agree: a proven worst case should be visible in the runtime-vs-size plot.
 
-- Publisher / owner context: INFORMS.
-- Submission route to re-check: INFORMS / ScholarOne submission.
-- Signature vocabulary: algorithmic contribution, computational experiment, optimization benchmark, reproducible code, decision analytics.
-- Sibling boundary: Operations Research, Management Science, Manufacturing & Service Operations Management, and ACM/IEEE computing venues.
-- House-style aim: computational OR contribution with transparent algorithms, benchmarks, and reproducibility.
-- Official URLs currently used by the pack:
-- https://pubsonline.informs.org/journal/ijoc
-- https://pubsonline.informs.org/page/ijoc/submission-guidelines
+## Branch paths
 
-## Stage-specific moves
+### Branch A: Exact methods (B&B / B&C / B&P, decomposition)
+- **State the formulation precisely** and prove it is a valid model of the problem (feasible region = exactly the intended solutions).
+- **Prove validity of cuts / columns / Benders cuts**; show the separation/pricing problem and its complexity.
+- **Argue finite termination / correctness** of the algorithm; state the relaxation and any bound-tightening.
+- **Complexity:** give the per-iteration cost and, where possible, worst-case size; if NP-hard, say so and motivate the empirical study that follows.
 
-1. State the exact theory development question in one sentence.
-2. Identify which IJOC audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `ijoc-literature-positioning` if the stage passes, or back to `ijoc-workflow` if it does not.
+### Branch B: Heuristics / metaheuristics / matheuristics
+- **Write the procedure as pseudocode** with explicit neighborhood/operators, acceptance rule, and stopping criterion — reproducibility starts here.
+- **State guarantees where they exist:** approximation ratio, performance bound, local-optimality conditions; if none, say the contribution is empirical and design the experiments to earn that claim.
+- **Argue why the design fits the structure** of the problem (what the operator exploits), not just "it performed well."
+
+### Branch C: Machine learning for OR / learning-to-optimize
+- **Define the learning task and the loss** precisely; state what is learned and what is solved exactly.
+- **Generalization claim:** state the distribution of instances and what is claimed to transfer; provide a guarantee or a falsifiable out-of-distribution test plan.
+- **Feasibility/optimality safeguards:** if a learned policy can produce infeasible or arbitrarily bad solutions, state the repair/guarantee that prevents it.
+
+### Branch D: Simulation / computational probability
+- **Specify the model and estimator**; state unbiasedness/consistency and the variance behavior.
+- **Variance reduction:** state the technique (CRN, control variates, importance sampling) and prove or argue it reduces variance for this estimand.
+- **Convergence / error bounds** for the computational scheme; state regularity assumptions.
 
 ## Checklist
-- [ ] The IJOC audience can see why the paper belongs in operations research and computing, algorithms, optimization, machine learning, simulation, and computational decision systems.
-- [ ] The draft distinguishes IJOC from Operations Research, Management Science, Manufacturing & Service Operations Management.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for theory development names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Branch chosen; the method is stated as a formal formulation or pseudocode, not prose only
+- [ ] Exact: model validity proven; cuts/columns valid; finite termination/correctness argued; complexity stated
+- [ ] Heuristic: full pseudocode; bounds stated where they exist; design tied to problem structure
+- [ ] ML-for-OR: learning task + loss defined; generalization claim falsifiable; feasibility safeguard stated
+- [ ] Simulation: estimator properties + variance-reduction justification given
+- [ ] Every theorem has assumptions stated and a proof (main text or supplement, but referenced)
+- [ ] The theoretical claim and the experimental claim do not contradict each other
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to IJOC without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- "The algorithm converged / it works" presented as if it were correctness or a guarantee
+- Asserting cut/column validity without proof — a fatal flaw for an exact-methods paper
+- A heuristic with no pseudocode, so neither referee nor the GitHub deposit can reproduce it
+- An ML-for-OR method that can return infeasible solutions with no stated safeguard
+- Claiming an approximation ratio that the experiments quietly violate
+- Burying the proof of a key result in a supplement the main paper depends on (keep the main paper self-contained on its central claims)
+
+## Worked vignette (illustrative)
+
+A paper proposes new valid inequalities for a stochastic facility-location MIP and a branch-and-cut that uses them. A weak version says "the cuts helped." An IJOC version: state the polyhedral result (the inequalities are facet-defining under a stated condition), give the separation algorithm and its O(n log n) cost, and prove they are valid for the original feasible region. Then the experiments are interpretable — the root-gap closure (say 31%, illustrative) and the node-count reduction are *predicted* by the theory, not surprises.
 
 ## Output format
 
 ```text
-【Journal】INFORMS Journal on Computing
-【Skill】ijoc-theory-development
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking theory development
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Operations Research, Management Science
-【Source status】verified URL / 待核实 / not asserted
+【Branch】exact / heuristic / ML-for-OR / simulation
+【Formulation or pseudocode】stated? [Y/N]
+【Guarantee】validity / finiteness / complexity / approx ratio / variance — which, and proven where
+【Assumptions】[...]
+【What it does NOT guarantee】[...]
+【Theory–experiment consistency】[Y/N]
 【Next skill】ijoc-literature-positioning
 ```

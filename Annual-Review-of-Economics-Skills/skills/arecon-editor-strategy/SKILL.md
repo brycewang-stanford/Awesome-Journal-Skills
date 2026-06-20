@@ -1,70 +1,71 @@
 ---
 name: arecon-editor-strategy
-description: Use when working on editor strategy for a Annual Review of Economics manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when working with the Annual Review of Economics (ARE) Editorial Committee and production team — negotiating the commissioned scope, anticipating what review referees evaluate, and the author–editor relationship on an invited article. Plans the interaction; it does not run the delivery preflight (arecon-submission) or draft the response letter (arecon-revision).
 ---
 
-# Editor Strategy (arecon-editor-strategy)
+# Editor & Committee Strategy (arecon-editor-strategy)
 
 ## When to trigger
-- The manuscript is aimed at **Annual Review of Economics (AREcon)** and editor strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's commissioned review articles synthesizing major areas of economics for specialists and adjacent economists standard.
-- The paper risks being confused with nearby venues: Journal of Economic Literature, Journal of Economic Perspectives, Handbook chapters, and Academy of Management Annals.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The Editorial Committee invited the topic and you are negotiating the review's scope
+- You want to anticipate what ARE referees of a *review* will push on (different from a paper)
+- The editor has asked you to expand, cut, or rebalance coverage
+- You are calibrating how the Committee-driven review cycle and the Annual Reviews production timeline work
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| field synthesis is central | Make the field synthesis assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| research frontier is central | Make the research frontier assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| conceptual map is central | Make the conceptual map assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| evidence stocktake is central | Make the evidence stocktake assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| future agenda is central | Make the future agenda assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Who you are working with at ARE
 
-## AREcon fit notes
+ARE is run by an **Editorial Committee** of senior economists (current co-editors 检索于 2026-06：Philippe Aghion, Hélène Rey, Timothy Besley；以官网为准) plus the journal's **production editors** at Annual Reviews. Your primary partners differ by phase: the **commissioning editor / Committee** owns scope and acceptance; the **production editor** owns format, figures, copyediting, and the volume schedule. Because the article is **commissioned**, the relationship is more collaborative than adversarial — the Committee wants the review to succeed — but acceptance is **not** automatic: an invited manuscript still goes through review for accuracy, rigor, and balance (检索于 2026-06；以官网为准).
 
-- Publisher / owner context: Annual Reviews.
-- Submission route to re-check: Annual Reviews editorial process.
-- Signature vocabulary: field synthesis, research frontier, conceptual map, evidence stocktake, future agenda.
-- Sibling boundary: Journal of Economic Literature, Journal of Economic Perspectives, Handbook chapters, and Academy of Management Annals.
-- House-style aim: agenda-setting synthesis that clarifies what the field knows, disputes, and should do next.
-- Official URLs currently used by the pack:
-- https://www.annualreviews.org/journal/economics
-- https://www.annualreviews.org/page/authors/general-information
+## How review differs for a review article
 
-## Stage-specific moves
+ARE referees do **not** check an identification strategy or replicate results — there are none of the author's own. They evaluate the review **as a review**:
 
-1. State the exact editor strategy question in one sentence.
-2. Identify which AREcon audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `arecon-submission` if the stage passes, or back to `arecon-workflow` if it does not.
+| Referee question | What they are really checking |
+|------------------|-------------------------------|
+| Is the coverage complete? | the saturation/comprehensiveness from `arecon-literature-synthesis` — can they name an omitted literature? |
+| Is it balanced and accurate? | even-handedness across schools; no self-promotion (`arecon-evidence-standards`) |
+| Is there a real framework? | the spine vs. an annotated bibliography (`arecon-organizing-framework`) |
+| Is it accessible? | can an adjacent economist follow it (`arecon-writing-style`) |
+| Are the appraisals fair and correct? | does the author characterize each study's contribution and limits accurately |
+| Is it the right scope? | not too narrow (field review) nor unfinishably broad (Handbook) |
+
+Referees of an ARE review are often **the reviewed authors themselves** — the people whose work is being weighed will read how you weighed it. This makes balance and accurate attribution strategic, not just ethical.
+
+## Scope negotiation with the Committee
+
+- **Lock scope early, in writing.** The invitation/acceptance stage is where scope is cheapest to change. Confirm the boundaries with the editor before months of reading.
+- **Negotiate, don't capitulate, on coverage asks.** If a referee or editor wants an added literature, assess whether it fits the spine; propose where it goes or explain why it is out of scope — a review cannot grow without bound and must stay in the ~25–40-page envelope (检索于 2026-06；以官网为准).
+- **Surface conflicts of interest.** If a likely referee is a central author you must critique, tell the editor — Annual Reviews requires disclosure of potential bias, and it protects both the process and you.
+- **Respect the volume schedule.** ARE publishes one volume per year; production has fixed deadlines. A late draft can slip a whole volume. Confirm the timeline with the production editor and plan backward from it.
+- **Keep a coverage ledger.** Maintain a short, sharable record of what is in scope and why (and what was deliberately excluded), so when the editor or a referee asks "why not X?", you answer with a decision already made.
 
 ## Checklist
-- [ ] The AREcon audience can see why the paper belongs in commissioned review articles synthesizing major areas of economics for specialists and adjacent economists.
-- [ ] The draft distinguishes AREcon from Journal of Economic Literature, Journal of Economic Perspectives, Handbook chapters.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for editor strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] The review explains inclusion/exclusion logic and how competing schools are balanced.
-- [ ] The synthesis produces an agenda, taxonomy, or framework rather than a bibliography.
+
+- [ ] Scope agreed with the commissioning editor in writing at the invitation stage
+- [ ] Anticipated the six review-referee questions (coverage, balance/accuracy, framework, accessibility, appraisal, scope)
+- [ ] Coverage-expansion asks evaluated against the spine and the page envelope before agreeing
+- [ ] Conflicts of interest (referees who are reviewed authors) flagged to the editor
+- [ ] Attribution and appraisals double-checked, knowing reviewed authors may referee
+- [ ] Volume/production timeline calibrated with the production editor (volatile — confirm)
+- [ ] A plan for which asks you accept vs. push back on, with reasons
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to AREcon without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Treating an invitation as guaranteed acceptance — invited reviews are still refereed for rigor and balance
+- Accepting every "please also cover…" until the review loses its spine and overruns the page envelope
+- Mischaracterizing a reviewed author's work when that author may be your referee
+- Hiding a conflict of interest instead of disclosing it (Annual Reviews requires disclosure)
+- Missing the production deadline and slipping the volume
+- Asserting current editors / timeline / process from memory rather than the live Annual Reviews pages
 
 ## Output format
 
 ```text
-【Journal】Annual Review of Economics
-【Skill】arecon-editor-strategy
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking editor strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Economic Literature, Journal of Economic Perspectives
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】arecon-submission
+【Scope agreement】boundaries locked with editor in writing? Y/N
+【Referee anticipation】coverage / balance / framework / accessibility / appraisal / scope — prepared each? Y/N
+【Coverage asks】evaluated against spine + page envelope; accept/push-back plan? Y/N
+【COI】reviewed-author referees flagged to editor? Y/N
+【Timeline】volume/production schedule calibrated? Y/N · 待核实
+【Source status】current editors/process re-confirmed on Annual Reviews pages? Y/N
+【Next step】→ arecon-submission (preflight) → arecon-review-process (what to expect)
 ```

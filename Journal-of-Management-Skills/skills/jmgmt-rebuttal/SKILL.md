@@ -1,70 +1,81 @@
 ---
 name: jmgmt-rebuttal
-description: Use when working on rebuttal strategy for a Journal of Management manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when drafting the response-to-reviewers for a Journal of Management (JOM) R&R — the point-by-point letter, the editor-first revision strategy, handling masked-reviewer conflicts, and staying within the 50-page limit across rounds. Drafts and structures the response; it does not run new analyses (jmgmt-data-analysis) or rebuild the theory (jmgmt-theory-development).
 ---
 
-# Rebuttal Strategy (jmgmt-rebuttal)
+# Rebuttal & Response Letter (jmgmt-rebuttal)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Management (JOMgmt)** and rebuttal strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's management theory and empirical work across organizational behavior, strategy, HR, entrepreneurship, and research methods standard.
-- The paper risks being confused with nearby venues: Academy of Management Journal, Strategic Management Journal, Organization Science, and Journal of Management Studies.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A JOM R&R arrived and you need a response-letter strategy
+- Reviewers disagree and you must resolve the conflict for the action editor
+- You are tempted to argue with a reviewer rather than revise
+- The revision risks pushing the paper over the **50-page** limit
+- You need to show, not just assert, that you addressed the theoretical-contribution and method concerns
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| management theory contribution is central | Make the management theory contribution assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| multi-study design is central | Make the multi-study design assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| construct validity is central | Make the construct validity assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| organizational mechanism is central | Make the organizational mechanism assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| boundary conditions is central | Make the boundary conditions assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The JOM rebuttal stance
 
-## JOMgmt fit notes
+JOM's review is **developmental and masked**, so the response letter is read by the action editor and the (anonymous) reviewers as evidence of whether the paper can become publishable. Two principles govern everything: **the editor's priorities come first**, and **revise before you rebut** — when you disagree, you must still respond with new analysis, theory, or evidence, not just a counter-argument. A defensive letter that wins arguments but changes nothing is the most common way a viable R&R dies.
 
-- Publisher / owner context: SAGE for the Southern Management Association.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: management theory contribution, multi-study design, construct validity, organizational mechanism, boundary conditions.
-- Sibling boundary: Academy of Management Journal, Strategic Management Journal, Organization Science, and Journal of Management Studies.
-- House-style aim: theory-driven management research with clean construct logic and robust empirical design.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/jom
-- https://journals.sagepub.com/author-instructions/JOM
+## Structure of the response
 
-## Stage-specific moves
+1. **Cover note to the action editor.** Thank the editor; restate the contribution; summarize the *major* changes; flag any place where reviewers conflicted and how you resolved it. Mirror the editor's stated priorities here.
+2. **Point-by-point, per reviewer.** Quote each comment verbatim, then give: (a) what you changed, (b) where (section/page/table number in the revised manuscript), and (c) the new text if short. Make the change *findable*.
+3. **A change log / summary of revisions** if the paper changed substantially.
 
-1. State the exact rebuttal strategy question in one sentence.
-2. Identify which JOMgmt audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jmgmt-rebuttal` if the stage passes, or back to `jmgmt-workflow` if it does not.
+## Handling the recurring JOM concerns
+
+- **"The theory is thin / the contribution is incremental."** Strengthen the mechanism, add a boundary, or claim the contribution type explicitly (see `jmgmt-theory-development`, `jmgmt-contribution-framing`) — do not merely re-assert importance.
+- **"Common-method bias / cross-sectional causality."** Add a time-lagged or multi-source wave, an objective outcome, or a marker-variable/CFA test; if a design fix is infeasible, bound the claim honestly.
+- **"Endogeneity is unaddressed."** Add an identification strategy (IV, NE, FE, DiD, matching) and report diagnostics, or temper the causal language.
+- **"Measurement / discriminant validity."** Report a fuller CFA, HTMT, or an alternative-model comparison.
+- **(Meta-analysis) "no artifact corrections / publication bias."** Add corrections, credibility intervals, and bias diagnostics; re-run moderators tied to theory.
+
+## Resolving masked-reviewer conflict
+
+When two reviewers want opposite things, **do not silently side with one**. State the tension in the cover note, explain your reasoning, and let the action editor adjudicate. The editor's letter — not reviewer head-count — is decisive, so surface the conflict to the person who decides.
+
+## Length discipline across rounds
+
+Revisions add text; the **50-page inclusive limit still binds**. As you add theory, analyses, and exhibits, move secondary material to the online supplement and trim the literature review. Note in the cover letter where added detail lives (main text vs. supplement) so reviewers can find it without inflating the main file.
+
+## Sample response entry (illustrative)
+
+A reviewer writes: *"The cross-sectional design cannot support the causal claim in H2."* A weak reply argues that prior work also used cross-sectional data. A JOM-grade reply revises first: *"We agree. We collected a second, time-lagged wave (T2, three months later; new sample described on p. 14) and re-estimated H2 with the T2 outcome (Table 4, Model 3); the lagged effect holds (β = .21, 95% CI [.08, .34]). We have tempered the causal language in the discussion (p. 28) and added the design limitation as a boundary condition (p. 30)."* It concedes the point, shows the new evidence, gives exact locations, and updates the claim — the pattern every comment should follow.
+
+## Preparing for the next round
+
+A major-revision response usually leads to a *minor* round, not acceptance. Keep a running change log and a clean record of what each reviewer asked and how it was resolved, so the next-round letter can show continuity. If a reviewer re-raises a point you addressed, point precisely to where it was handled rather than re-litigating it. Treat the second round as confirmation, not a fresh argument.
 
 ## Checklist
-- [ ] The JOMgmt audience can see why the paper belongs in management theory and empirical work across organizational behavior, strategy, HR, entrepreneurship, and research methods.
-- [ ] The draft distinguishes JOMgmt from Academy of Management Journal, Strategic Management Journal, Organization Science.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for rebuttal strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Cover note mirrors the action editor's priorities and summarizes major changes
+- [ ] Every reviewer comment quoted and answered with what/where/new-text
+- [ ] Changes are findable (section/page/table references to the revised manuscript)
+- [ ] Disagreements are answered with new evidence/analysis, not just argument
+- [ ] Reviewer conflicts surfaced to the editor, not silently resolved
+- [ ] Recurring concerns (theory, CMB, endogeneity, measurement, meta corrections) substantively addressed
+- [ ] Revised manuscript still within the 50-page limit; overflow in the supplement
+- [ ] Tone is collegial and developmental throughout
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JOMgmt without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Arguing instead of revising** — winning the point but changing nothing
+- **Vague responses** ("we have addressed this") with no location or new text
+- **Silently siding** with one reviewer against another
+- **Cosmetic compliance** on the theory/method asks the editor flagged as essential
+- **Letting the revision balloon** past 50 pages instead of using the supplement
+- **Defensive or dismissive tone** in a developmental-culture journal
 
 ## Output format
 
-```text
-【Journal】Journal of Management
-【Skill】jmgmt-rebuttal
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking rebuttal strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Academy of Management Journal, Strategic Management Journal
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jmgmt-rebuttal
+```
+【Decision being answered】R&R major / minor
+【Cover note】contribution restated + major changes + conflicts flagged
+【Per reviewer】comment → change → location (section/page/table) → new text
+【Theory/contribution asks】how addressed ...
+【Method asks (CMB / endogeneity / measurement / meta)】how addressed ...
+【Reviewer conflicts】surfaced to editor: ...
+【Length】revised manuscript ≤50 pages? overflow in supplement? [Y/N]
+【Next step】resubmit via SAGE/ScholarOne (→ jmgmt-review-process for the next round)
 ```

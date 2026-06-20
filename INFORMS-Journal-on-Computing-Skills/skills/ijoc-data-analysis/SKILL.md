@@ -1,70 +1,78 @@
 ---
 name: ijoc-data-analysis
-description: Use when working on data analysis for a INFORMS Journal on Computing manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when running and reporting the computational experiments — and assembling the reproducible code/data deposit — for an INFORMS Journal on Computing (IJOC) manuscript. Turns a designed protocol (see ijoc-methods) into defensible, reproducible results; it does not redesign the experiment.
 ---
 
-# Data Analysis (ijoc-data-analysis)
+# Computational Experiments & Reproducibility (ijoc-data-analysis)
 
 ## When to trigger
-- The manuscript is aimed at **INFORMS Journal on Computing (IJOC)** and data analysis is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's operations research and computing, algorithms, optimization, machine learning, simulation, and computational decision systems standard.
-- The paper risks being confused with nearby venues: Operations Research, Management Science, Manufacturing & Service Operations Management, and ACM/IEEE computing venues.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The protocol is designed and you are now **running experiments** and interpreting results
+- A referee questions whether a performance win is **real** versus tuning, seed luck, or benchmark selection
+- You need to turn raw outputs into the **statistical comparison** IJOC expects (not just a table of best times)
+- You are assembling the **IJOC GitHub Software and Data Repository** deposit and want it to reproduce the paper
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| algorithmic contribution is central | Make the algorithmic contribution assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| computational experiment is central | Make the computational experiment assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| optimization benchmark is central | Make the optimization benchmark assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| reproducible code is central | Make the reproducible code assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| decision analytics is central | Make the decision analytics assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Making the computational claim defensible
 
-## IJOC fit notes
+IJOC's distinctive risk is a result that is real on the page but an artifact underneath. Pre-empt the three ways a referee will attack it.
 
-- Publisher / owner context: INFORMS.
-- Submission route to re-check: INFORMS / ScholarOne submission.
-- Signature vocabulary: algorithmic contribution, computational experiment, optimization benchmark, reproducible code, decision analytics.
-- Sibling boundary: Operations Research, Management Science, Manufacturing & Service Operations Management, and ACM/IEEE computing venues.
-- House-style aim: computational OR contribution with transparent algorithms, benchmarks, and reproducibility.
-- Official URLs currently used by the pack:
-- https://pubsonline.informs.org/journal/ijoc
-- https://pubsonline.informs.org/page/ijoc/submission-guidelines
+- **Tuning artifact.** Show the win holds with tuning done symmetrically on a disjoint set. Report performance at default *and* tuned for both your method and the baselines, so the gain is not hidden in hyperparameters.
+- **Seed/variance artifact.** For any stochastic component, run **multiple seeds** (commonly ≥10) and report mean, dispersion (sd/IQR), and the distribution — a box/violin plot or a table of quartiles — not a single best run. State the seeds; they go in the deposit.
+- **Benchmark-selection artifact.** Report on the **full** standard instance set, including instances where you lose or time out; aggregate with a **performance profile** (Dolan–Moré) so the whole picture is visible. Cherry-picking the favorable subset is the fastest way to lose a referee's trust.
 
-## Stage-specific moves
+## The statistics IJOC reviewers expect
 
-1. State the exact data analysis question in one sentence.
-2. Identify which IJOC audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `ijoc-contribution-framing` if the stage passes, or back to `ijoc-workflow` if it does not.
+Means and "X is fastest" are not enough. Use the comparisons that suit computational data:
+
+- **Performance profiles** to compare solvers across a whole instance set (fraction solved within a factor of the best).
+- **Pairwise nonparametric tests** (Wilcoxon signed-rank for matched instances; sign test) rather than t-tests on heavy-tailed runtimes.
+- **Multiple-comparison control** (e.g., Holm/Bonferroni) when comparing several methods at once.
+- **Scaling evidence:** runtime/memory vs. instance size on log axes, with the empirical growth compared to the theory from `ijoc-theory-development`.
+- **Equal-effort comparisons:** quality at equal time, or time at equal quality — never "ours had more time."
+
+Report optimality gaps with their definition, dual bounds where available, and time limits explicitly (a "solved" count is meaningless without the limit).
+
+## Assembling the IJOC reproducibility deposit
+
+Accepted IJOC papers deposit artifacts in the **INFORMSJoC GitHub organization**, and the deposit is part of the contribution — design it to *reproduce the paper*. Concretely (检索于 2026-06；以官网为准):
+
+- Start from the **template repository** (`github.com/INFORMSJoC/2019.0000`) and replace placeholders with your manuscript ID `XXXX.YYYY`.
+- Three root files are required: **`README.md`** (with a `## Cite` section as the first subheading, using DOI `10.1287/ijoc.XXXX.YYYY.cd`), **`LICENSE`**, and **`AUTHORS`**.
+- Organize into `src/`, `data/` (with documented provenance), `scripts/` (to replicate experiments), `results/`, `docs/`.
+- Pin dependencies (`requirements.txt`, `Manifest.toml`, environment files). A best-faith reproducibility effort is expected even if exact bit-reproduction is not.
+- On acceptance, a **tagged snapshot** (`vXXXX.YYYY`) is archived and a **code DOI** (`…​.cd`) is minted alongside the article DOI — so the deposited state must match the published results.
+
+The README's replication section should let a reader regenerate each table/figure from `scripts/`. If your `results/` directory maps one-to-one to the paper's exhibits, the reproducibility reviewer's job — and yours during the R&R — becomes mechanical.
 
 ## Checklist
-- [ ] The IJOC audience can see why the paper belongs in operations research and computing, algorithms, optimization, machine learning, simulation, and computational decision systems.
-- [ ] The draft distinguishes IJOC from Operations Research, Management Science, Manufacturing & Service Operations Management.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for data analysis names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Win shown at default and tuned; tuning symmetric on a disjoint set
+- [ ] ≥ multiple seeds for stochastic runs; dispersion and distribution reported; seeds recorded
+- [ ] Full standard instance set reported, including losses/timeouts; performance profile shown
+- [ ] Nonparametric pairwise test (Wilcoxon) + multiple-comparison control where needed
+- [ ] Scaling plot vs. size on log axes; compared to the theoretical complexity
+- [ ] Gaps defined; dual bounds and time limits stated
+- [ ] Deposit built from the IJOC template: README(+`## Cite`)/LICENSE/AUTHORS; src/data/scripts/results; pinned deps; seeds
+- [ ] `results/` maps to the paper's tables/figures; scripts regenerate them
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to IJOC without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A single best run reported for a randomized algorithm
+- Means and "fastest" with no statistical test or performance profile
+- Dropping the instances where the method loses or times out
+- Reporting "solved 47/50" without the time limit
+- A deposit that is a code dump with no README replication path, or that does not reproduce the published numbers
+- Letting the deposited snapshot drift from the accepted results
 
 ## Output format
 
 ```text
 【Journal】INFORMS Journal on Computing
 【Skill】ijoc-data-analysis
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking data analysis
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Operations Research, Management Science
-【Source status】verified URL / 待核实 / not asserted
+【Headline result】the computational win, stated with its metric
+【Artifact controls】default+tuned / #seeds+dispersion / full instance set
+【Statistics】performance profile + Wilcoxon (+ MC control)? [Y/N]
+【Scaling vs. theory】[consistent / discrepancy noted]
+【Deposit】template/README+Cite/LICENSE/AUTHORS/scripts/seeds ready? [Y/N]
 【Next skill】ijoc-contribution-framing
 ```

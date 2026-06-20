@@ -1,70 +1,71 @@
 ---
 name: jms-rebuttal
-description: Use when working on rebuttal strategy for a Journal of Management Studies manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when drafting the response-to-reviewers and revision for a Journal of Management Studies (JMS) R&R — turning a developmental, often multi-round decision letter into a point-by-point response that satisfies the handling editor. Drafts the rebuttal; it does not re-plan the review reading (jms-review-process) or rebuild the theory from scratch (jms-theory-development).
 ---
 
 # Rebuttal Strategy (jms-rebuttal)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Management Studies (JMS)** and rebuttal strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's management and organization studies, strategy, entrepreneurship, innovation, OB, and critical perspectives standard.
-- The paper risks being confused with nearby venues: Journal of Management, Organization Studies, AMJ, AMR, and Strategic Management Journal.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A JMS R&R (major or minor) has arrived and you are drafting the response letter
+- Reviewers disagree and you must decide whom to follow without alienating the other
+- A reviewer demands a change that would weaken the paper and you need to push back gracefully
+- The contribution must be re-sharpened in response to "the theoretical contribution is unclear"
+- You are entering round 2+ and need to show the editor decisive progress
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| theoretical pluralism is central | Make the theoretical pluralism assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| organization studies is central | Make the organization studies assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| critical boundary is central | Make the critical boundary assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| international management is central | Make the international management assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| phenomenon-driven contribution is central | Make the phenomenon-driven contribution assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The JMS rebuttal bar
 
-## JMS fit notes
+JMS review is **developmental and multi-round**, so the response letter is itself a piece of scholarship: it must be **respectful, point-by-point, and complete**, and it must convince the **handling editor** (not just placate reviewers) that the contribution is now clear and the rigor demands are met. The most consequential thread is almost always the **theoretical contribution** — center your response there, then handle method/analysis/framing/writing.
 
-- Publisher / owner context: Wiley for the Society for the Advancement of Management Studies.
-- Submission route to re-check: Wiley online submission.
-- Signature vocabulary: theoretical pluralism, organization studies, critical boundary, international management, phenomenon-driven contribution.
-- Sibling boundary: Journal of Management, Organization Studies, AMJ, AMR, and Strategic Management Journal.
-- House-style aim: conceptually rich management scholarship that makes theory travel beyond one setting.
-- Official URLs currently used by the pack:
-- https://onlinelibrary.wiley.com/journal/14676486
-- https://onlinelibrary.wiley.com/page/journal/14676486/homepage/forauthors.html
+## Structure the response letter
 
-## Stage-specific moves
+1. **Opening to the editor.** Thank the editor and reviewers; state the *overall* change — how the contribution and paper have improved — in a short paragraph. Signal that you took the development seriously.
+2. **Point-by-point, comment-by-comment.** Reproduce each comment verbatim, then respond. For each: (a) what you changed, (b) where (section/page/table number in the revision), (c) the brief reasoning. Quote the new text where it helps.
+3. **Where you disagree.** Disagree only when you must, with evidence and theory — never with attitude. Offer a compromise (a clarification, a bounded claim, an added robustness check or quote) rather than a flat refusal.
+4. **Reviewer conflicts.** When reviewers contradict each other, surface it explicitly and explain the path you took, deferring to the editor's framing.
 
-1. State the exact rebuttal strategy question in one sentence.
-2. Identify which JMS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jms-rebuttal` if the stage passes, or back to `jms-workflow` if it does not.
+## Handling the signature JMS asks
+
+| Reviewer ask | Strong response |
+|--------------|-----------------|
+| "Contribution to theory is unclear" | Re-state the one-sentence contribution up front; show the revised intro/discussion; do not just add citations |
+| "This is description, not theory" (qual) | Strengthen the data-structure → model abstraction; add propositions; do *not* bolt on hypotheses |
+| "Endogeneity / CMB unaddressed" (quant) | Add the identification strategy or robustness; report it; state residual limits honestly |
+| "Mechanism is asserted, not shown" | Add mediation evidence or richer process tracing; tie it back to the theorised mechanism |
+| "Out of scope / wrong conversation" | Re-anchor positioning in a JMS conversation; or concede if truly mis-fit |
+
+## Round-2+ discipline
+
+By later rounds the editor is watching for *responsiveness and convergence*. Make every prior promise visibly kept; flag anything you could not do and why; avoid reopening settled points. A change log mapping comment → action → location speeds the editor's check.
 
 ## Checklist
-- [ ] The JMS audience can see why the paper belongs in management and organization studies, strategy, entrepreneurship, innovation, OB, and critical perspectives.
-- [ ] The draft distinguishes JMS from Journal of Management, Organization Studies, AMJ.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for rebuttal strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Every comment addressed individually; none silently skipped
+- [ ] Each response states what changed, where (section/page/exhibit), and why
+- [ ] The theoretical contribution is re-centered and visibly strengthened
+- [ ] Disagreements are evidence-based, respectful, and offer a compromise
+- [ ] Reviewer conflicts surfaced for the editor, not silently resolved
+- [ ] Qualitative asks answered in the qualitative idiom (no bolted-on hypotheses)
+- [ ] Tone is collegial and developmental throughout; a change log aids the editor
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JMS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Defensive or dismissive tone** — fatal in a developmental culture
+- **Cosmetic compliance** — claiming a change without actually making it (editors check)
+- **Citation-stuffing** the contribution instead of re-articulating it
+- **Adding hypotheses to a qualitative paper** because a reviewer used quant language
+- **Silently siding** with one reviewer against another without telling the editor
+- **Reopening settled points** in later rounds, signalling non-convergence
 
 ## Output format
 
 ```text
-【Journal】Journal of Management Studies
-【Skill】jms-rebuttal
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking rebuttal strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Management, Organization Studies
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jms-rebuttal
+【Decision】R&R major / minor (round N)
+【Editor headline】one-paragraph overall improvement statement
+【Contribution re-center】revised one-sentence contribution + where shown
+【Point-by-point】comment → change → location (section/page/exhibit) → reasoning
+【Disagreements】point · evidence · compromise offered
+【Conflicts surfaced】… (deferred to editor)
+【Change log】comment → action → location
+【Next step】resubmit via ScholarOne; if rejected, jms-topic-selection to reframe
 ```

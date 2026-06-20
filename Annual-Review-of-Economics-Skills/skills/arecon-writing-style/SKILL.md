@@ -1,70 +1,77 @@
 ---
 name: arecon-writing-style
-description: Use when working on writing style for a Annual Review of Economics manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when revising an Annual Review of Economics (ARE) review for the ARE voice — authoritative, accessible to economists outside the subfield, signposted, with a strong opening, a forward-looking close, and a survey-style abstract. Polishes prose and structure; it does not design the framework (arecon-organizing-framework) or appraise evidence (arecon-evidence-standards).
 ---
 
-# Writing Style (arecon-writing-style)
+# ARE Writing Style — the Review Voice (arecon-writing-style)
 
 ## When to trigger
-- The manuscript is aimed at **Annual Review of Economics (AREcon)** and writing style is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's commissioned review articles synthesizing major areas of economics for specialists and adjacent economists standard.
-- The paper risks being confused with nearby venues: Journal of Economic Literature, Journal of Economic Perspectives, Handbook chapters, and Academy of Management Annals.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The framework and evidence appraisal are settled and it is time to make the review *read* well
+- An economist from an adjacent field would get lost or bored in the current draft
+- The opening buries the field's importance under machinery or throat-clearing
+- The abstract reads like a paper abstract ("we find…") rather than a review abstract
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| field synthesis is central | Make the field synthesis assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| research frontier is central | Make the research frontier assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| conceptual map is central | Make the conceptual map assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| evidence stocktake is central | Make the evidence stocktake assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| future agenda is central | Make the future agenda assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The ARE voice: authoritative + accessible + forward-looking
 
-## AREcon fit notes
+An ARE review is read by **economists outside the subfield** — smart, but not specialists here. The voice is a trusted, fair expert teaching the field to a colleague from another area. Four qualities define it:
 
-- Publisher / owner context: Annual Reviews.
-- Submission route to re-check: Annual Reviews editorial process.
-- Signature vocabulary: field synthesis, research frontier, conceptual map, evidence stocktake, future agenda.
-- Sibling boundary: Journal of Economic Literature, Journal of Economic Perspectives, Handbook chapters, and Academy of Management Annals.
-- House-style aim: agenda-setting synthesis that clarifies what the field knows, disputes, and should do next.
-- Official URLs currently used by the pack:
-- https://www.annualreviews.org/journal/economics
-- https://www.annualreviews.org/page/authors/general-information
+1. **Authoritative.** Confident judgments about what is known, what is contested, and how good the evidence is. The reader wants your *appraisal*, not neutrality-as-evasion — but authority is earned by comprehensiveness and balance, never asserted.
+2. **Accessible.** Technical machinery is explained intuition-first, notation-second; a method is motivated by the question it answers before any formalism. Jargon is defined or avoided. This is sharper at ARE than at a field journal: the *defining* reader is the outsider, and a review only the subfield can follow has missed ARE's mandate.
+3. **Signposted.** A substantial review needs a map: section architecture that mirrors the spine, plus periodic "where we are / where we go next" cues, so a reader never loses the thread.
+4. **Synthesis prose, not summary prose.** Sentences make papers *talk to each other* ("Whereas X finds…, the design in Y suggests…"), rather than marching paper-by-paper.
 
-## Stage-specific moves
+## The review opening arc
 
-1. State the exact writing style question in one sentence.
-2. Identify which AREcon audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `arecon-editor-strategy` if the stage passes, or back to `arecon-workflow` if it does not.
+An ARE introduction differs from a research-paper intro:
+
+> **frame the field** (what it studies, why it matters to economists broadly) → **why a synthesis is needed now** (new evidence / method shift / policy salience) → **the organizing question and the spine** (the map the reader will be given) → **what the review concludes and the open questions** (the payoff, stated up front) → **roadmap** (brief).
+
+State the bottom line early. A review that withholds its conclusions to the end wastes the outsider's time and reads as indecisive.
+
+## The forward-looking close
+
+ARE prizes the **future-agenda** ending more than most outlets: the empty cells of the framework become a concrete research agenda — what we do not yet know, what evidence would resolve it, which methods are ripe to apply. An ARE review that ends with "more research is needed" has wasted its most valuable section; name the specific open questions instead.
+
+## The abstract
+
+A review abstract describes **what the review does for the reader** — the field, why a synthesis now, the organizing idea, the headline state-of-knowledge takeaway — not a single empirical finding. Avoid "we estimate / we find a coefficient of…"; that is a primary-paper abstract. Confirm length/format limits on the Annual Reviews author pages (检索于 2026-06；以官网为准).
+
+## House style notes
+
+Annual Reviews uses its own format, including a **numbered/name reference style** distinct from AEA author-year (检索于 2026-06；以官网为准); the production editor applies house style at acceptance, so the delivered draft need not pre-conform, but the reference data must be complete and accurate. Keep prose crisp: length is a privilege, and every section must earn its pages by advancing the argument about the field.
 
 ## Checklist
-- [ ] The AREcon audience can see why the paper belongs in commissioned review articles synthesizing major areas of economics for specialists and adjacent economists.
-- [ ] The draft distinguishes AREcon from Journal of Economic Literature, Journal of Economic Perspectives, Handbook chapters.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for writing style names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] The review explains inclusion/exclusion logic and how competing schools are balanced.
-- [ ] The synthesis produces an agenda, taxonomy, or framework rather than a bibliography.
+
+- [ ] Opening follows the arc: frame field → why now → question + spine → conclusions + open questions → roadmap
+- [ ] Bottom-line state of knowledge stated early, not withheld to the end
+- [ ] Technical material introduced intuition-first, notation-second; jargon defined or avoided
+- [ ] Section architecture mirrors the spine; periodic signposting present
+- [ ] Prose synthesizes (papers in dialogue), not summarizes (paper-by-paper)
+- [ ] Author's appraisals are explicit and labelled as the author's read where contested
+- [ ] The close names a concrete future agenda, not "more research is needed"
+- [ ] Abstract describes the review's contribution to the reader, not a single estimate
+- [ ] An economist from an adjacent field could follow start to finish
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to AREcon without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- The annotated-bibliography drone: "Smith (2010) finds… Jones (2012) finds…" with no connective argument
+- Opening with method/notation before the field's question and stakes
+- Withholding the review's conclusions until the final section
+- Notation-first exposition that locks out the cross-field reader (ARE's defining audience)
+- A primary-paper abstract ("we find a coefficient of 0.3") on a review
+- A limp "more research is needed" ending instead of a specific research agenda
+- Neutrality-as-evasion: refusing to appraise because appraising feels risky
 
 ## Output format
 
 ```text
-【Journal】Annual Review of Economics
-【Skill】arecon-writing-style
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking writing style
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Economic Literature, Journal of Economic Perspectives
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】arecon-editor-strategy
+【Opening arc】frame → why-now → question+spine → conclusions+open-questions → roadmap? Y/N
+【Bottom line early】state of knowledge stated up front? Y/N
+【Accessibility】intuition-first; jargon controlled; adjacent economist can follow? Y/N
+【Signposting】architecture mirrors spine; periodic cues? Y/N
+【Synthesis prose】papers in dialogue, not listed? Y/N
+【Forward agenda】close names concrete open questions? Y/N
+【Abstract】review-style (contribution to reader), not a single estimate? Y/N
+【Next step】→ arecon-editor-strategy → arecon-submission
 ```

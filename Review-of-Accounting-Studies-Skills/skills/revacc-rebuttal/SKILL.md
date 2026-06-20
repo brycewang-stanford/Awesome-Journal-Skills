@@ -1,70 +1,68 @@
 ---
 name: revacc-rebuttal
-description: Use when working on rebuttal strategy for a Review of Accounting Studies manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when a Review of Accounting Studies (RAST) revise-and-resubmit has arrived and you must plan the revision and draft the point-by-point response — resolving the editor's first-order concerns (identification, the channel, measurement, or the model) before writing the letter. Plans and drafts the response; it does not run the new analyses from scratch (revacc-data-analysis) or re-run the submission preflight (revacc-submission).
 ---
 
-# Rebuttal Strategy (revacc-rebuttal)
+# R&R Revision & Response (revacc-rebuttal)
 
 ## When to trigger
-- The manuscript is aimed at **Review of Accounting Studies (RAST)** and rebuttal strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's analytical, empirical, and experimental accounting research with strong economics foundations standard.
-- The paper risks being confused with nearby venues: The Accounting Review, Journal of Accounting Research, Journal of Accounting and Economics, and Contemporary Accounting Research.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You received a RAST **revise-and-resubmit** and must plan the revision
+- You need to draft the point-by-point response to the editor and referees
+- Referees disagree and you must triage which concerns are binding
+- New analyses change tables and the manuscript needs re-aligning
+- An analytical paper's referee disputes an assumption or a proposition
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| accounting disclosure is central | Make the accounting disclosure assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| audit quality is central | Make the audit quality assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| capital-market accounting is central | Make the capital-market accounting assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| tax and reporting is central | Make the tax and reporting assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| earnings information is central | Make the earnings information assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## An R&R at RAST is a strong signal — treat it accordingly
 
-## RAST fit notes
+Because RAST often decides on the first round, an R&R is a meaningful vote of confidence rather than routine. That raises the stakes on getting the revision right: you may not get a third round, so resolve the **editor's first-order concerns substantively**, not rhetorically. Do the analytical (or modeling) work **before** drafting the letter — a RAST R&R turns on whether you have actually strengthened **identification, the economic channel, construct measurement, or the model**, not on rhetorical skill.
 
-- Publisher / owner context: Springer.
-- Submission route to re-check: Springer Nature submission.
-- Signature vocabulary: accounting disclosure, audit quality, capital-market accounting, tax and reporting, earnings information.
-- Sibling boundary: The Accounting Review, Journal of Accounting Research, Journal of Accounting and Economics, and Contemporary Accounting Research.
-- House-style aim: accounting research that links institutional reporting detail to credible economic mechanisms.
-- Official URLs currently used by the pack:
-- https://link.springer.com/journal/11142
-- https://www.springer.com/journal/11142/submission-guidelines
+## Triage the referee points
 
-## Stage-specific moves
+- **First-order (must resolve):** endogeneity/identification threats, an unidentified channel, fragile or invalid construct measurement, sample-construction concerns; for analytical papers, a load-bearing assumption a referee rejects or a proposition whose generality is questioned. These usually require **new analyses** (a cleaner setting, additional diagnostics, alternative proxies, falsification tests) or **new modeling** (relaxing an assumption, an extension, a robustness proposition).
+- **Second-order (resolve or reason):** additional robustness, exposition, framing, extra citations. Implement where cheap; otherwise explain clearly.
+- **Conflicting referees:** do not whipsaw the paper. State the trade-off and follow the **editor's** steer; note where you sided with one referee and why.
 
-1. State the exact rebuttal strategy question in one sentence.
-2. Identify which RAST audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `revacc-rebuttal` if the stage passes, or back to `revacc-workflow` if it does not.
+The editor's letter is the binding map — it tells you which points are first-order. Address those first.
+
+## Draft the response letter
+
+- **One point, one response.** Quote each comment, then give your response and **point to the exact change** (section, table number, new analysis, new proposition).
+- **Show the new evidence.** For identification/measurement concerns, present the new table or diagnostic in the letter (or a response appendix), not just a promise. For analytical concerns, show the revised result.
+- **Be candid about limits.** Where a concern cannot be fully resolved, state what the design (or model) can and cannot deliver, and add the scope condition to the paper.
+- **Respectful and specific.** Thank referees, concede valid points, defend with evidence — never dismiss.
+
+## Keep the manuscript consistent and anonymized
+
+Re-align variable names, hypothesis labels, table numbers, and the contribution statement after the revision so the paper still reads as one story. Keep it **double-anonymized** for the next round (no acknowledgements or self-citation leaks introduced during revision). Refresh the data-provenance trail so it regenerates all revised exhibits; confirm any current data/code expectation on the official page (待核实; 检索于 2026-06).
 
 ## Checklist
-- [ ] The RAST audience can see why the paper belongs in analytical, empirical, and experimental accounting research with strong economics foundations.
-- [ ] The draft distinguishes RAST from The Accounting Review, Journal of Accounting Research, Journal of Accounting.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for rebuttal strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Revision analyses / modeling completed **before** drafting the response
+- [ ] Editor's first-order concerns identified and substantively resolved
+- [ ] Each referee comment quoted with a specific, change-anchored response
+- [ ] New identification/measurement/model evidence shown, not promised
+- [ ] Conflicting referees reconciled per the editor's steer
+- [ ] Manuscript re-aligned (names, labels, table numbers, contribution) and still anonymized
+- [ ] Provenance trail regenerates all revised exhibits
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to RAST without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Writing the letter before doing the work.**
+- **Treating all referees equally** instead of following the editor's priorities.
+- **Promising robustness** instead of showing it.
+- **Cosmetic responses** to first-order identification or measurement concerns.
+- **Squandering a strong signal:** under-investing in an R&R that RAST rarely grants.
+- **Leaking anonymity** through acknowledgements or self-cites added during revision.
 
 ## Output format
 
 ```text
-【Journal】Review of Accounting Studies
-【Skill】revacc-rebuttal
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking rebuttal strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not The Accounting Review, Journal of Accounting Research
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】revacc-rebuttal
+【Editor first-order asks】[...] — resolved by ...
+【Referee triage】R1/R2/R3 first-order vs second-order
+【New work done】identification / measurement / falsification / modeling ...
+【Response letter】per-point, change-anchored draft status
+【Conflicts reconciled】editor's steer followed where ...
+【Consistency & anonymity】manuscript re-aligned; still double-blind
+【Next step】resubmit via Editorial Manager (revacc-submission for preflight)
 ```
