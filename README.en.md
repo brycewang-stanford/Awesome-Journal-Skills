@@ -1,7 +1,7 @@
 # Awesome Journal Skills (AJS)
 
 <p align="center">
-  <img src="assets/banner-en.png" alt="Awesome Journal Skills (AJS) — a one-stop index of journal-specific AI submission workflows: 2137 agent skills, 127 packs, 504 top journals, 155 CS/AI venues" width="100%">
+  <img src="assets/banner-en.png" alt="Awesome Journal Skills (AJS) — a one-stop index of journal-specific AI submission workflows: 2269 agent skills, 138 packs, 504 top journals, 155 CS/AI venues" width="100%">
 </p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -20,7 +20,7 @@ English | [简体中文](README.md)
       </td>
       <td width="56"></td>
       <td align="center">
-        <a href="https://sccei.fsi.stanford.edu/reap"><img src="assets/stanford-reap-logo.png" alt="Stanford REAP — Stanford Center on China's Economy & Institutions" width="360" /></a>
+        <a href="https://reap.fsi.stanford.edu/"><img src="assets/stanford-reap-logo.png" alt="Stanford REAP" width="360" /></a>
       </td>
     </tr>
   </table>
@@ -343,7 +343,7 @@ Use aer-workflow to assess how far my draft is from AER's bar and what to do nex
 | ⚙️ **Engineering & technology**<br><sub>control · communications · signal · power · robotics · photonics · biomedical engineering · materials</sub> | Proceedings of the IEEE · TAC · Automatica · Optica · Nature Electronics · Acta Materialia | EN breadth bundle |
 | 🤖 **Computer-science conferences**<br><sub>AI-first</sub> | NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS + 155 venues | depth packs + breadth bundle |
 
-<sub><b>127 packs / 2137 skills</b> total. A "depth pack" = one venue, end-to-end (~12 skills); a "breadth bundle" = one lightweight "venue-fit + house-style" skill per venue plus a router.</sub>
+<sub><b>138 packs / 2269 skills</b> total. A "depth pack" = one venue, end-to-end (~12 skills); a "breadth bundle" = one lightweight "venue-fit + house-style" skill per venue plus a router.</sub>
 
 ---
 
@@ -367,7 +367,7 @@ Rule of thumb: start from a root folder or cover card when browsing, use a bread
 
 ## 📂 200 Root Journal Folders
 
-For visual browsing at the repository root, the 200 social-science breadth journals now also have one lightweight folder each: 100 Chinese roadmap journals in pinyin folder names, and 100 English econ / finance / management / business journals in title-style folder names. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the 2137-skill count stay stable.
+For visual browsing at the repository root, the 200 social-science breadth journals now also have one lightweight folder each: 100 Chinese roadmap journals in pinyin folder names, and 100 English econ / finance / management / business journals in title-style folder names. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the 2269-skill count stay stable.
 
 ### Chinese Roadmap Journals · 100 Pinyin Folders
 
@@ -1103,7 +1103,7 @@ This bundle is the natural-science sibling of the English social-science breadth
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | Ideation → writing → publication (Claude Code / OpenCode / Codex) | upstream |
 | **Codex/Claude Academic Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | Reading · writing · scientific computing | upstream |
 
-<sub><b>Count methodology.</b> The homepage <b>2137</b> = every <code>SKILL.md</code> minus the 10 duplicated Nature plugin-mirror files, spread across <b>127 packs</b>. All nine breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation: <b>1363</b> (113 in-repo depth packs, single venue end-to-end, ~12 skills each) + <b>668</b> (9 breadth bundles: CN social science 103 + EN social science 101 + EN natural science 155 + engineering technology 41 + agriculture environment 31 + clinical medicine 31 + English humanities 37 + Chinese sport science 13 + CS conferences 156) + <b>106</b> (5 imported/submodule packs: AER 9 + Nature family 10 + Nature-Paper 18 + claude-scholar 45 + codex-claude 24) = <b>2137</b>. The figure is enforced in CI by <code>python3 tools/audit_repo.py</code>; the README and the actual file count are not allowed to drift.</sub>
+<sub><b>Count methodology.</b> The homepage <b>2269</b> = every <code>SKILL.md</code> minus the 10 duplicated Nature plugin-mirror files, spread across <b>138 packs</b>. All nine breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation: <b>1495</b> (124 in-repo depth packs, single venue end-to-end, ~12 skills each) + <b>668</b> (9 breadth bundles: CN social science 103 + EN social science 101 + EN natural science 155 + engineering technology 41 + agriculture environment 31 + clinical medicine 31 + English humanities 37 + Chinese sport science 13 + CS conferences 156) + <b>106</b> (5 imported/submodule packs: AER 9 + Nature family 10 + Nature-Paper 18 + claude-scholar 45 + codex-claude 24) = <b>2269</b>. The figure is enforced in CI by <code>python3 tools/audit_repo.py</code>; the README and the actual file count are not allowed to drift.</sub>
 
 ---
 
@@ -1320,7 +1320,7 @@ use next for my manuscript targeted at <journal>.
 
 ## 🗺 Roadmap
 
-**Status:** the nine breadth bundles are fully shipped (including the AI-first CS conference bundle, the engineering-technology bundle, the agriculture-environment bundle, the clinical-medicine bundle, the English-humanities bundle, and the Chinese sport-science bundle); depth packs now extend beyond business & economics into **humanities & broader social science** (24 flagship venues across sociology, political science, psychology, demography, communication, history, art, philosophy, literature, religion) and **environment / ecology / agriculture** (6 venues), for a repo-wide total of **127 packs / 2137 skills**. The Roadmap now tracks the next tier of expansion.
+**Status:** the nine breadth bundles are fully shipped (including the AI-first CS conference bundle, the engineering-technology bundle, the agriculture-environment bundle, the clinical-medicine bundle, the English-humanities bundle, and the Chinese sport-science bundle); depth packs now extend beyond business & economics into **humanities & broader social science** (24 flagship venues across sociology, political science, psychology, demography, communication, history, art, philosophy, literature, religion) and **environment / ecology / agriculture** (6 venues), for a repo-wide total of **138 packs / 2269 skills**. The Roadmap now tracks the next tier of expansion.
 
 ### ✅ Shipped
 
@@ -1335,8 +1335,8 @@ use next for my manuscript targeted at <journal>.
   - [English-Humanities-Journal-Skills](English-Humanities-Journal-Skills/) — 36 English humanities journals
   - [Chinese-Sport-Science-Journal-Skills](Chinese-Sport-Science-Journal-Skills/) — 12 Chinese sport-science (体育学) journals
 - **Per-journal cover wall** for breadth journals, always-expanded cover galleries in both READMEs, and 200 lightweight root entry folders for repo-front browsing.
-- **Full end-to-end depth packs (~12 steps)** — 113 first-party venue packs across five areas (AER and Nature additionally ship as curated submodule packs):
-  - **English economics:** AER (submodule) · QJE · JPE · Econometrica · REStud · Journal of Development Economics · Journal of Public Economics · Journal of Labor Economics · Journal of International Economics · Journal of Monetary Economics · RAND Journal of Economics · Journal of Econometrics · Econometric Theory · Quantitative Economics · Journal of Applied Econometrics · JBES · The Econometrics Journal · Review of Economic Dynamics · Journal of Economic Growth · Journal of Economic Theory · Games and Economic Behavior · Journal of Human Resources
+- **Full end-to-end depth packs (~12 steps)** — 124 first-party venue packs across five areas (AER and Nature additionally ship as curated submodule packs):
+  - **English economics:** AER (submodule) · AER: Insights · AEJ Applied Economics · AEJ Economic Policy · AEJ Macroeconomics · AEJ Microeconomics · JEEA · The Economic Journal · European Economic Review · Journal of Economic Literature · Journal of Economic Perspectives · Review of Economics and Statistics · QJE · JPE · Econometrica · REStud · Journal of Development Economics · Journal of Public Economics · Journal of Labor Economics · Journal of International Economics · Journal of Monetary Economics · RAND Journal of Economics · Journal of Econometrics · Econometric Theory · Quantitative Economics · Journal of Applied Econometrics · JBES · The Econometrics Journal · Review of Economic Dynamics · Journal of Economic Growth · Journal of Economic Theory · Games and Economic Behavior · Journal of Human Resources
   - **English finance:** Journal of Finance · Journal of Financial Economics · Review of Financial Studies · Review of Finance · JFQA · JFI · Journal of Corporate Finance · Journal of Banking & Finance · Mathematical Finance
   - **English management / OM / IS:** AMJ · AMR · ASQ · SMJ · Organization Science · JIBS · JBV · Management Science · Operations Research · M&SOM · JOM · POM · MISQ · ISR
   - **English marketing / consumer research:** JM · JMR · Marketing Science · JCR
@@ -1861,11 +1861,11 @@ Natural-science / life-science skill libraries (broad, not journal-specific — 
 
 ## 👥 Maintainers
 
-This index is curated and maintained by the team behind **[CoPaper.AI](https://copaper.ai)** — an empirical-research AI assistant **incubated by researchers at [Stanford REAP / SCCEI (Stanford Center on China's Economy and Institutions)](https://sccei.fsi.stanford.edu/reap)**. The venue-specific editorial standards encoded across these packs come out of Stanford REAP's empirical-economics methodology and applied causal-inference tradition.
+This index is curated and maintained by the team behind **[CoPaper.AI](https://copaper.ai)** — an empirical-research AI assistant **incubated by researchers at [Stanford REAP](https://reap.fsi.stanford.edu/)**. The venue-specific editorial standards encoded across these packs come out of Stanford REAP's empirical-economics methodology and applied causal-inference tradition.
 
 | Layer | Anchor | Role |
 |-------|--------|------|
-| 🏛️ **Academic lineage** | **Stanford REAP / SCCEI** — Stanford Center on China's Economy and Institutions | The empirical-economics methodology and applied causal-inference tradition behind the venue-specific identification and editorial standards encoded here |
+| 🏛️ **Academic lineage** | **Stanford REAP** | The empirical-economics methodology and applied causal-inference tradition behind the venue-specific identification and editorial standards encoded here |
 | 🔧 **Engineering delivery** | **[CoPaper.AI](https://copaper.ai)** | Empirical-research AI assistant that turns these journal-specific Skills into an end-to-end, submission-ready manuscript pipeline |
 | ⚙️ **Open-source engine** | **[StatsPAI](https://github.com/brycewang-stanford/StatsPAI)** | The causal-inference engine (900+ functions, MIT-licensed, JOSS in submission) powering CoPaper.AI |
 
@@ -1887,7 +1887,7 @@ MIT
       </td>
       <td width="40"></td>
       <td align="center">
-        <a href="https://sccei.fsi.stanford.edu/reap"><img src="assets/stanford-reap-logo.png" alt="Stanford REAP" width="320" /></a>
+        <a href="https://reap.fsi.stanford.edu/"><img src="assets/stanford-reap-logo.png" alt="Stanford REAP" width="320" /></a>
       </td>
     </tr>
   </table>
@@ -1912,7 +1912,7 @@ MIT
 
   <br/>
 
-  Maintained by <a href="https://copaper.ai"><strong>CoPaper.AI</strong></a>, incubated at <a href="https://sccei.fsi.stanford.edu/reap"><strong>Stanford REAP / SCCEI</strong></a> · Powered by <a href="https://github.com/brycewang-stanford/StatsPAI">StatsPAI</a> (900+ functions, MIT)
+  Maintained by <a href="https://copaper.ai"><strong>CoPaper.AI</strong></a>, incubated at <a href="https://reap.fsi.stanford.edu/"><strong>Stanford REAP</strong></a> · Powered by <a href="https://github.com/brycewang-stanford/StatsPAI">StatsPAI</a> (900+ functions, MIT)
 </div>
 
 ## Star History

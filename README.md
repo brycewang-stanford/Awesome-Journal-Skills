@@ -1,7 +1,7 @@
 # Awesome Journal Skills (AJS)
 
 <p align="center">
-  <img src="assets/banner-zh.png" alt="Awesome Journal Skills (AJS) — 按「期刊」定制的一站式 AI 投稿工作流索引：2137 个 Agent Skill、127 个 Pack、504 本顶级期刊、155 个 CS/AI 顶会" width="100%">
+  <img src="assets/banner-zh.png" alt="Awesome Journal Skills (AJS) — 按「期刊」定制的一站式 AI 投稿工作流索引：2269 个 Agent Skill、138 个 Pack、504 本顶级期刊、155 个 CS/AI 顶会" width="100%">
 </p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -20,7 +20,7 @@
       </td>
       <td width="56"></td>
       <td align="center">
-        <a href="https://sccei.fsi.stanford.edu/reap"><img src="assets/stanford-reap-logo.png" alt="Stanford REAP — 斯坦福中国经济与制度研究中心" width="360" /></a>
+        <a href="https://reap.fsi.stanford.edu/"><img src="assets/stanford-reap-logo.png" alt="Stanford REAP" width="360" /></a>
       </td>
     </tr>
   </table>
@@ -343,7 +343,7 @@
 | ⚙️ **工程技术**<br><sub>控制 · 通信 · 信号 · 电力 · 机器人 · 光子 · 生医工程 · 材料</sub> | Proceedings of the IEEE · TAC · Automatica · Optica · Nature Electronics · Acta Materialia | 英文广度合集 |
 | 🤖 **计算机科学顶会**<br><sub>AI 优先</sub> | NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS + 155 个会议 | 深度包 + 广度合集 |
 
-<sub>共 <b>127 个 pack / 2137 个 skill</b>。"深度包"= 单刊单会全流程（约 12 个 skill）；"广度合集"= 每个 venue 一个轻量"选刊定位 + 写作风格"skill 加一个 router。</sub>
+<sub>共 <b>138 个 pack / 2269 个 skill</b>。"深度包"= 单刊单会全流程（约 12 个 skill）；"广度合集"= 每个 venue 一个轻量"选刊定位 + 写作风格"skill 加一个 router。</sub>
 
 ---
 
@@ -367,7 +367,7 @@
 
 ## 📂 根目录 200 个期刊文件夹
 
-为了让用户在仓库首页的根目录就能看到完整的社科期刊阵列，现在 200 本广度合集期刊各有一个轻量入口文件夹：100 本中文经管路线图期刊使用拼音目录名，100 本英文经管 / 商科期刊使用英文题名目录名。这些目录只负责导航；真正可安装的 `SKILL.md` 仍保留在对应 bundle 内，因此插件路径和 2137 个 skill 的计数不会被重复放大。
+为了让用户在仓库首页的根目录就能看到完整的社科期刊阵列，现在 200 本广度合集期刊各有一个轻量入口文件夹：100 本中文经管路线图期刊使用拼音目录名，100 本英文经管 / 商科期刊使用英文题名目录名。这些目录只负责导航；真正可安装的 `SKILL.md` 仍保留在对应 bundle 内，因此插件路径和 2269 个 skill 的计数不会被重复放大。
 
 ### 中文经管路线图 · 100 个拼音目录
 
@@ -1103,7 +1103,7 @@
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | 选题 → 写作 → 发表（Claude Code / OpenCode / Codex） | upstream |
 | **Codex/Claude 学术 Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | 阅读 · 写作 · 科学计算 | upstream |
 
-<sub><b>计数口径。</b> 首页 <b>2137</b> = 仓库内全部 <code>SKILL.md</code> 减去 10 个 Nature 插件镜像重复文件，分布在 <b>127 个 pack</b> 中。九个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。三段对账：<b>1363</b>（113 个仓库内深度包，单刊/单会全流程，每包约 12 个 skill）+ <b>668</b>（9 个广度合集：中文社科 103 + 英文社科 101 + 英文自然科学 155 + 工程技术 41 + 农业环境 31 + 临床医学 31 + 英文人文 37 + 中文体育 13 + CS 会议 156）+ <b>106</b>（5 个收录/submodule 包：AER 9 + Nature 系 10 + Nature-Paper 18 + claude-scholar 45 + codex-claude 24）= <b>2137</b>。该数字由 <code>python3 tools/audit_repo.py</code> 在 CI 中强制校验，README 与实际文件数不允许漂移。</sub>
+<sub><b>计数口径。</b> 首页 <b>2269</b> = 仓库内全部 <code>SKILL.md</code> 减去 10 个 Nature 插件镜像重复文件，分布在 <b>138 个 pack</b> 中。九个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。三段对账：<b>1495</b>（124 个仓库内深度包，单刊/单会全流程，每包约 12 个 skill）+ <b>668</b>（9 个广度合集：中文社科 103 + 英文社科 101 + 英文自然科学 155 + 工程技术 41 + 农业环境 31 + 临床医学 31 + 英文人文 37 + 中文体育 13 + CS 会议 156）+ <b>106</b>（5 个收录/submodule 包：AER 9 + Nature 系 10 + Nature-Paper 18 + claude-scholar 45 + codex-claude 24）= <b>2269</b>。该数字由 <code>python3 tools/audit_repo.py</code> 在 CI 中强制校验，README 与实际文件数不允许漂移。</sub>
 
 ---
 
@@ -1319,7 +1319,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 
 ## 🗺 路线图
 
-**进度：** 九个广度合集已全部落地（含 AI 优先 CS 会议合集、工程技术合集、农业·环境合集、临床医学合集、英文人文合集与中文体育学合集）；深度包已从经管社科扩展到**人文与广义社科**（社会学、政治学、心理学、人口、传播、历史、艺术、哲学、文学、宗教共 24 本旗舰刊）以及**环境 / 生态 / 农业** 6 本，全仓库现共 **127 个 pack / 2137 个 skill**。路线图现在聚焦下一梯队的扩展。
+**进度：** 九个广度合集已全部落地（含 AI 优先 CS 会议合集、工程技术合集、农业·环境合集、临床医学合集、英文人文合集与中文体育学合集）；深度包已从经管社科扩展到**人文与广义社科**（社会学、政治学、心理学、人口、传播、历史、艺术、哲学、文学、宗教共 24 本旗舰刊）以及**环境 / 生态 / 农业** 6 本，全仓库现共 **138 个 pack / 2269 个 skill**。路线图现在聚焦下一梯队的扩展。
 
 ### ✅ 已落地
 
@@ -1334,8 +1334,8 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
   - [English-Humanities-Journal-Skills](English-Humanities-Journal-Skills/) —— 36 本英文人文期刊
   - [Chinese-Sport-Science-Journal-Skills](Chinese-Sport-Science-Journal-Skills/) —— 12 本中文体育学（体育科学）期刊
 - **每刊封面直达** 覆盖全部广度期刊，两份 README 内嵌默认展开的封面画廊，并提供 200 个根目录轻量入口文件夹便于首页浏览。
-- **单刊/单会全流程深度包（约 12 步）** —— 113 个仓库内自有 venue 包，覆盖五大板块（AER 与 Nature 另以收录/submodule 包形态提供）：
-  - **英文经济学：** AER（submodule）· QJE · JPE · Econometrica · REStud · Journal of Development Economics · Journal of Public Economics · Journal of Labor Economics · Journal of International Economics · Journal of Monetary Economics · RAND Journal of Economics · Journal of Econometrics · Econometric Theory · Quantitative Economics · Journal of Applied Econometrics · JBES · The Econometrics Journal · Review of Economic Dynamics · Journal of Economic Growth · Journal of Economic Theory · Games and Economic Behavior · Journal of Human Resources
+- **单刊/单会全流程深度包（约 12 步）** —— 124 个仓库内自有 venue 包，覆盖五大板块（AER 与 Nature 另以收录/submodule 包形态提供）：
+  - **英文经济学：** AER（submodule）· AER: Insights · AEJ Applied Economics · AEJ Economic Policy · AEJ Macroeconomics · AEJ Microeconomics · JEEA · The Economic Journal · European Economic Review · Journal of Economic Literature · Journal of Economic Perspectives · Review of Economics and Statistics · QJE · JPE · Econometrica · REStud · Journal of Development Economics · Journal of Public Economics · Journal of Labor Economics · Journal of International Economics · Journal of Monetary Economics · RAND Journal of Economics · Journal of Econometrics · Econometric Theory · Quantitative Economics · Journal of Applied Econometrics · JBES · The Econometrics Journal · Review of Economic Dynamics · Journal of Economic Growth · Journal of Economic Theory · Games and Economic Behavior · Journal of Human Resources
   - **英文金融：** Journal of Finance · Journal of Financial Economics · Review of Financial Studies · Review of Finance · JFQA · JFI · Journal of Corporate Finance · Journal of Banking & Finance · Mathematical Finance
   - **英文管理 / 运营 / 信息系统：** AMJ · AMR · ASQ · SMJ · Organization Science · JIBS · JBV · Management Science · Operations Research · M&SOM · JOM · POM · MISQ · ISR
   - **英文营销 / 消费者研究：** JM · JMR · Marketing Science · JCR
@@ -1860,11 +1860,11 @@ GitHub Actions 会运行同一套硬门槛检查。它会检查 canonical skill 
 
 ## 👥 维护团队
 
-本索引由 **[CoPaper.AI](https://copaper.ai)** 团队精选与维护 —— 一款**由 [Stanford REAP / SCCEI（斯坦福中国经济与制度研究中心）](https://sccei.fsi.stanford.edu/reap) 研究人员孵化**的实证研究 AI 助手。各 pack 中编码的单刊编委标准，源自 Stanford REAP 在实证经济学方法论与应用因果推断上的长期积累。
+本索引由 **[CoPaper.AI](https://copaper.ai)** 团队精选与维护 —— 一款**由 [Stanford REAP](https://reap.fsi.stanford.edu/) 研究人员孵化**的实证研究 AI 助手。各 pack 中编码的单刊编委标准，源自 Stanford REAP 在实证经济学方法论与应用因果推断上的长期积累。
 
 | 层次 | 依托 | 角色 |
 |------|------|------|
-| 🏛️ **学术血统** | **Stanford REAP / SCCEI** —— 斯坦福中国经济与制度研究中心 | 本仓库单刊识别标准与编委规范背后的实证经济学方法论与应用因果推断传统 |
+| 🏛️ **学术血统** | **Stanford REAP** | 本仓库单刊识别标准与编委规范背后的实证经济学方法论与应用因果推断传统 |
 | 🔧 **工程交付** | **[CoPaper.AI](https://copaper.ai)** | 将这些单刊 Skills 串成端到端、可直接投稿的论文流水线的实证研究 AI 助手 |
 | ⚙️ **开源引擎** | **[StatsPAI](https://github.com/brycewang-stanford/StatsPAI)** | 驱动 CoPaper.AI 的因果推断引擎（900+ 函数，MIT 许可，JOSS 在投） |
 
@@ -1886,7 +1886,7 @@ MIT
       </td>
       <td width="40"></td>
       <td align="center">
-        <a href="https://sccei.fsi.stanford.edu/reap"><img src="assets/stanford-reap-logo.png" alt="Stanford REAP" width="320" /></a>
+        <a href="https://reap.fsi.stanford.edu/"><img src="assets/stanford-reap-logo.png" alt="Stanford REAP" width="320" /></a>
       </td>
     </tr>
   </table>
@@ -1911,7 +1911,7 @@ MIT
 
   <br/>
 
-  由 <a href="https://copaper.ai"><strong>CoPaper.AI</strong></a> 维护，孵化于 <a href="https://sccei.fsi.stanford.edu/reap"><strong>Stanford REAP / SCCEI</strong></a> · 由 <a href="https://github.com/brycewang-stanford/StatsPAI">StatsPAI</a> 驱动（900+ 函数，MIT）
+  由 <a href="https://copaper.ai"><strong>CoPaper.AI</strong></a> 维护，孵化于 <a href="https://reap.fsi.stanford.edu/"><strong>Stanford REAP</strong></a> · 由 <a href="https://github.com/brycewang-stanford/StatsPAI">StatsPAI</a> 驱动（900+ 函数，MIT）
 </div>
 
 ## Star History
