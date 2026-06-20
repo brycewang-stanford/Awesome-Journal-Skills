@@ -33,6 +33,10 @@ Science does NOT contain Cell Press "STAR Methods"; earlier claim retracted.)
 - **Codex — 2026-06-17 audit-quality cleanup lane**: scorecard trigger semantics and the
   single remaining machine-only root card (`Zuzhi-Yu-Guanli/README.md`); no journal-content
   skill rewrites, no pack-count changes, no root README wall edits, and no submodule edits.
+- **Codex — 2026-06-20 month-long quality uplift lane**: measurement-driven cleanup in
+  `.maintenance/MONTHLY-UPLIFT-2026-06-20.md`; prioritize low-tail breadth packs, root-card
+  provenance, source-map unresolved debt, and clone-audit triage; no submodule edits and no
+  count growth unless the user explicitly opens an expansion lane.
 
 ## Claim log
 | Pack | Agent | Status | Notes |
@@ -100,6 +104,7 @@ Science does NOT contain Cell Press "STAR Methods"; earlier claim retracted.)
 | tools/external_link_audit.py | Codex | done | markdown URL-boundary fix for adjacent links; no network gate added |
 | Computer-Science-Conference-Skills URL anchors | Codex | done | verified 404 replacements only; no new conference/profile count |
 | Computer-Science-Conference-Skills HRI/CoRL routing | Codex | done | sibling-routing correction only; no profile-count changes |
+| Repo-wide monthly quality uplift | Codex | in progress | see `.maintenance/MONTHLY-UPLIFT-2026-06-20.md`; count-disciplined score/root/source/clone cleanup |
 
 ## Lane — 全学科扩张规划 (10×100 = 1000 packs)
 - **Owner**: planning agent + Codex support · Status: Wave 0 done; Wave 1 inventory split done
