@@ -45,6 +45,25 @@ four-area flagship's bar. Confirm volatile specifics on the official pages (æ£€ç
 - **Nature-Society** reviewers check that *both* sides are theorized and integrated.
 - **Physical / RS** reviewers check measurement validity, validation samples, and uncertainty.
 
+## Reading a decision letter
+
+| Decision | What it means | What to do |
+|----------|---------------|-----------|
+| Accept (rare on first pass) | publishable | final-submission guidelines; production |
+| Minor revision | small, scoped changes | address fully and quickly (`aaag-rebuttal`) |
+| Major revision (R&R) | promising, but real gaps | treat as a genuine invitation; rebuild where asked |
+| Reject (with encouragement) | not now, but resubmittable | if invited, address substance before any resubmission |
+| Desk reject | scope/fit/format failure | re-evaluate venue and the geography fit |
+
+Editors weigh **strong, geographically-grounded support across referees** plus their own judgment; a
+single enthusiastic review rarely carries a paper, and a fixable methods gap need not sink one.
+
+## Self-screen before you submit (pre-empt the desk)
+
+- Could a generalist geographer state the contribution and the area in one sentence?
+- Is every map and spatial method defensible to an area specialist *and* a methods reviewer?
+- Are anonymity and the inclusive word cap genuinely satisfied?
+
 ## Checklist
 
 - [ ] Area declared so the right subject editor receives it

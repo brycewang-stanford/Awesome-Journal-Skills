@@ -54,6 +54,24 @@ before relying on them (检索于 2026-06；以官网为准).
 - [ ] Data-availability statement drafted; provenance + CRS documented
 - [ ] Original work; preprint status checked against Taylor & Francis policy; AI-use policy reviewed
 
+## Geography-specific anonymity trap
+
+Double-anonymous review is harder in geography because the **study site can identify the author**. A
+single-county study by the only group working there, named field stations, or distinctive local data can
+de-anonymize as effectively as a name in the header. Mitigations:
+
+- Generalize identifying site descriptors where the argument allows ("a mid-sized county in the US
+  Southeast" rather than naming a tiny home county) — or note the unavoidable in the cover letter.
+- Cite your own prior fieldwork in that site in the third person; strip acknowledgments to funders/locals.
+- Remove GPS metadata and identifying coordinates from figures and attached files.
+
+## File set for ScholarOne (verify current requirements)
+
+- Anonymized main manuscript (no identifiers, clean metadata)
+- Separate, non-anonymous title page (authors, affiliations, ORCID, acknowledgments)
+- Figures/maps at required resolution per the Graphics Guidelines
+- Cover letter (area, contribution, fit); data-availability statement; any supplementary materials
+
 ## Anti-patterns
 
 - Counting only the body and overrunning once captions/notes/tables/refs are added
