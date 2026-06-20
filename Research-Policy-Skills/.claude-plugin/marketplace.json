@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "research-policy-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Research Policy manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "research-policy-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Research Policy manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/research-policy-skills",
+      "repository": "https://github.com/brycewang-stanford/research-policy-skills",
+      "keywords": [
+        "research-policy",
+        "management",
+        "academic-writing",
+        "journal-skills",
+        "innovation-system",
+        "science-policy",
+        "patent-evidence",
+        "r-d-organization"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/respol-workflow",
+        "skills/respol-topic-selection",
+        "skills/respol-theory-development",
+        "skills/respol-literature-positioning",
+        "skills/respol-methods",
+        "skills/respol-data-analysis",
+        "skills/respol-contribution-framing",
+        "skills/respol-tables-figures",
+        "skills/respol-writing-style",
+        "skills/respol-submission",
+        "skills/respol-review-process",
+        "skills/respol-rebuttal"
+      ]
+    }
+  ]
+}

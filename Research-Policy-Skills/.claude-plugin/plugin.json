@@ -1,0 +1,23 @@
+{
+  "name": "research-policy-skills",
+  "description": "Agent skill stack for manuscripts targeted at Research Policy (Research Policy). Twelve role skills cover fit, contribution, evidence, writing, submission, and revision with source-backed Research Policy guardrails.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/research-policy-skills",
+  "repository": "https://github.com/brycewang-stanford/research-policy-skills",
+  "keywords": [
+    "research-policy",
+    "management",
+    "academic-writing",
+    "journal-skills",
+    "innovation-system",
+    "science-policy",
+    "patent-evidence",
+    "r-d-organization",
+    "technology-diffusion"
+  ]
+}

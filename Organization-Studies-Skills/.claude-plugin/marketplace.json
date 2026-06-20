@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "organization-studies-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Organization Studies manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "organization-studies-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Organization Studies manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/organization-studies-skills",
+      "repository": "https://github.com/brycewang-stanford/organization-studies-skills",
+      "keywords": [
+        "os",
+        "organization-studies",
+        "management",
+        "academic-writing",
+        "journal-skills",
+        "institutional-process",
+        "qualitative-depth",
+        "organization-theory"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/orgstud-workflow",
+        "skills/orgstud-topic-selection",
+        "skills/orgstud-theory-development",
+        "skills/orgstud-literature-positioning",
+        "skills/orgstud-methods",
+        "skills/orgstud-data-analysis",
+        "skills/orgstud-contribution-framing",
+        "skills/orgstud-tables-figures",
+        "skills/orgstud-writing-style",
+        "skills/orgstud-submission",
+        "skills/orgstud-review-process",
+        "skills/orgstud-rebuttal"
+      ]
+    }
+  ]
+}

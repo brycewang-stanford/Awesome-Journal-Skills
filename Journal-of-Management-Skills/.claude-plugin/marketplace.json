@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "journal-of-management-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Journal of Management manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "journal-of-management-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Management manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/journal-of-management-skills",
+      "repository": "https://github.com/brycewang-stanford/journal-of-management-skills",
+      "keywords": [
+        "jomgmt",
+        "journal-of-management",
+        "management",
+        "academic-writing",
+        "journal-skills",
+        "management-theory-contribution",
+        "multi-study-design",
+        "construct-validity"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jmgmt-workflow",
+        "skills/jmgmt-topic-selection",
+        "skills/jmgmt-theory-development",
+        "skills/jmgmt-literature-positioning",
+        "skills/jmgmt-methods",
+        "skills/jmgmt-data-analysis",
+        "skills/jmgmt-contribution-framing",
+        "skills/jmgmt-tables-figures",
+        "skills/jmgmt-writing-style",
+        "skills/jmgmt-submission",
+        "skills/jmgmt-review-process",
+        "skills/jmgmt-rebuttal"
+      ]
+    }
+  ]
+}

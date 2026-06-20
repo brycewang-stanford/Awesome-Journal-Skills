@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jms-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Journal of Management Studies manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jms-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Management Studies manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jms-skills",
+      "repository": "https://github.com/brycewang-stanford/jms-skills",
+      "keywords": [
+        "jms",
+        "journal-of-management-studies",
+        "management",
+        "academic-writing",
+        "journal-skills",
+        "theoretical-pluralism",
+        "organization-studies",
+        "critical-boundary"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jms-workflow",
+        "skills/jms-topic-selection",
+        "skills/jms-theory-development",
+        "skills/jms-literature-positioning",
+        "skills/jms-methods",
+        "skills/jms-data-analysis",
+        "skills/jms-contribution-framing",
+        "skills/jms-tables-figures",
+        "skills/jms-writing-style",
+        "skills/jms-submission",
+        "skills/jms-review-process",
+        "skills/jms-rebuttal"
+      ]
+    }
+  ]
+}

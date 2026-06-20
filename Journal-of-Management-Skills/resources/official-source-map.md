@@ -1,0 +1,27 @@
+# Journal of Management Official Source Map
+
+Primary source map for facts used in the JOMgmt skill pack. **Access date: 2026-06.** Re-check editor names, fees, exact length limits, portal forms, data policies, and style details before relying on them. Items not confirmed from an official page are marked **待核实** in the skills.
+
+## Official pages
+
+- **https://journals.sagepub.com/home/jom** — official page used to verify or re-check JOMgmt scope, submission, policy, or author guidance. Access date: 2026-06.
+- **https://journals.sagepub.com/author-instructions/JOM** — official page used to verify or re-check JOMgmt scope, submission, policy, or author guidance. Access date: 2026-06.
+
+## Facts used in the skills
+
+| Fact area | Source |
+|-----------|--------|
+| Journal scope: management theory and empirical work across organizational behavior, strategy, HR, entrepreneurship, and research methods | Official journal home / author instructions |
+| Publisher / owner: SAGE for the Southern Management Association | Official journal home |
+| Submission route: SAGE / ScholarOne submission | Author instructions or submission portal |
+| Sibling boundary: Academy of Management Journal, Strategic Management Journal, Organization Science, and Journal of Management Studies | Inferred from journal scope and local repository taxonomy |
+| management theory contribution | Official pages above; re-check live before submission |
+| multi-study design | Official pages above; re-check live before submission |
+| construct validity | Official pages above; re-check live before submission |
+| organizational mechanism | Official pages above; re-check live before submission |
+
+## Unverified / volatile items
+
+- Current editor names and board composition are **待核实** unless explicitly quoted in an official page at submission time.
+- Exact submission fees, APCs, waivers, word limits, abstract limits, and blinding rules are **待核实** if not visible in the official pages above.
+- Exemplar articles must be verified in the official archive or DOI page before being cited as real examples.

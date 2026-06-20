@@ -1,0 +1,23 @@
+{
+  "name": "experimental-economics-skills",
+  "description": "Agent skill stack for manuscripts targeted at Experimental Economics (Experimental Economics). Twelve role skills cover fit, contribution, evidence, writing, submission, and revision with source-backed Experimental Economics guardrails.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/experimental-economics-skills",
+  "repository": "https://github.com/brycewang-stanford/experimental-economics-skills",
+  "keywords": [
+    "experimental-economics",
+    "econ",
+    "academic-writing",
+    "journal-skills",
+    "experimental-protocol",
+    "incentive-compatibility",
+    "pre-analysis-plan",
+    "treatment-contrast",
+    "subject-pool-design"
+  ]
+}

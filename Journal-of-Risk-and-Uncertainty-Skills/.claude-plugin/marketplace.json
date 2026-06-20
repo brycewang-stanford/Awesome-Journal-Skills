@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jru-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Journal of Risk and Uncertainty manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jru-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Risk and Uncertainty manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jru-skills",
+      "repository": "https://github.com/brycewang-stanford/jru-skills",
+      "keywords": [
+        "jru",
+        "journal-of-risk-and-uncertainty",
+        "econ",
+        "academic-writing",
+        "journal-skills",
+        "risk-preference",
+        "uncertainty-attitude",
+        "prospect-theory-test"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jru-workflow",
+        "skills/jru-topic-selection",
+        "skills/jru-literature-positioning",
+        "skills/jru-identification",
+        "skills/jru-theory-model",
+        "skills/jru-robustness",
+        "skills/jru-tables-figures",
+        "skills/jru-writing-style",
+        "skills/jru-replication-package",
+        "skills/jru-referee-strategy",
+        "skills/jru-submission",
+        "skills/jru-rebuttal"
+      ]
+    }
+  ]
+}
