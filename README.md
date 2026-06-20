@@ -1,5 +1,9 @@
 # Awesome Journal Skills (AJS)
 
+<p align="center">
+  <img src="assets/banner-zh.png" alt="Awesome Journal Skills (AJS) — 按「期刊」定制的一站式 AI 投稿工作流索引：1984 个 Agent Skill、122 个 Pack、356 本顶级期刊、155 个 CS/AI 顶会" width="100%">
+</p>
+
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/agent-Claude%20Code-cc785c)](https://github.com/anthropics/claude-code)
@@ -24,12 +28,7 @@
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Skills-1984-cc785c?style=for-the-badge" alt="1984 个 Agent Skill">
-  &nbsp;
-  <img src="https://img.shields.io/badge/Skill_Packs-122-2b3137?style=for-the-badge" alt="122 个 Skill 包">
-</p>
-<p align="center">
-<b>1984 个 Agent Skill</b>，横跨<b>经管社科 · 人文社科 · 自然科学 · 临床医学 · AI 计算机</b>等多个主流学科，凝结为 <b>122 个精选期刊／会议 Pack</b><br><sub>—— 按<b>期刊与会议</b>定制的一站式 AI 投稿工作流索引</sub>
+横跨<b>经管社科 · 人文社科 · 自然科学 · 临床医学 · AI 计算机</b>等多个主流学科，为<b>每一本期刊 / 每一个会议</b>单独编码它的投稿工作流。
 </p>
 <p align="center">
   <sub>

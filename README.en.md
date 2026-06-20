@@ -1,5 +1,9 @@
 # Awesome Journal Skills (AJS)
 
+<p align="center">
+  <img src="assets/banner-en.png" alt="Awesome Journal Skills (AJS) — a one-stop index of journal-specific AI submission workflows: 1984 agent skills, 122 packs, 356 top journals, 155 CS/AI venues" width="100%">
+</p>
+
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/agent-Claude%20Code-cc785c)](https://github.com/anthropics/claude-code)
@@ -24,12 +28,7 @@ English | [简体中文](README.md)
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Skills-1984-cc785c?style=for-the-badge" alt="1984 agent skills">
-  &nbsp;
-  <img src="https://img.shields.io/badge/Skill_Packs-122-2b3137?style=for-the-badge" alt="122 skill packs">
-</p>
-<p align="center">
-<b>1984 agent skills</b> spanning <b>economics &amp; business, the social sciences &amp; humanities, the natural sciences, clinical medicine and AI / computer science</b>, distilled into <b>122 curated journal &amp; venue packs</b><br><sub>— a one-stop index of journal- and venue-specific AI submission workflows</sub>
+Spanning <b>economics &amp; business, the social sciences &amp; humanities, the natural sciences, clinical medicine and AI / computer science</b> — with a submission workflow encoded for <b>each individual journal and venue</b>.
 </p>
 <p align="center">
   <sub>
