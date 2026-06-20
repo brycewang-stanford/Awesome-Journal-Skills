@@ -47,17 +47,17 @@ current INFORMS/Management Science policies before using any resource.
 
 ## 3. Reproducibility — Data and Code Disclosure (front-loaded, verified)
 
-Management Science enforces a **Data and Code Disclosure Policy** (articles submitted on/after
-July 1, 2019). A dedicated **Data Editor** independently **verifies** that accepted papers'
-data and code replicate all main-manuscript results **before publication** — a verification
-step, not a deposit-on-request promise. Build for this from day one:
+Management Science enforces a **Code and Data Disclosure Policy** (effective June 1, 2019;
+revised April 20, 2026). Authors provide an **AsCollected project-page URL** at submission,
+and accepted numerical/computational papers must provide data, programs, and details
+sufficient to permit replication before production. Build for this from day one:
 
 1. A single master script that regenerates **every** table/figure/proposition-illustration in the main text from raw inputs.
 2. A README with exact software versions, seeds, run order, and expected runtime; pin solver/package versions.
 3. For analytical papers: numerical code and notebooks that reproduce every figure and computed example; symbolic-derivation files where used.
 4. A data-availability statement, sources, and access/confidentiality terms; a de-identified dataset and codebook where sharing is permitted.
-5. Author-contribution disclosure and (where applicable) a pre-registration / project page URL provided at submission (AsPredicted / AsCollected — **verify the current platform**).
-6. Budget ~17 extra days on average for verification; appendix replication is welcomed but not compulsory.
+5. Author-contribution disclosure and an AsCollected project page URL provided at submission.
+6. For proprietary or sensitive data, a disclosure plan that preserves replicability while respecting access limits.
 
 ## 4. Reference & writing tools
 

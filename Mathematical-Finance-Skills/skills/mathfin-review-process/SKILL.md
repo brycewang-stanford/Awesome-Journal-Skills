@@ -16,8 +16,9 @@ description: Use when navigating the Mathematical Finance (Wiley) review process
 The accessible Wiley author-guideline text identifies **single-blind peer review**:
 the editor screens submissions, suitable papers may be assigned to an Associate
 Editor, outside referees may be consulted, and the Associate Editor prepares a
-recommendation. The live editorial-board page should be checked before naming a
-current editor because source metadata conflicted at access time.
+recommendation. The current Wiley product-page metadata checked on 2026-06-20
+lists Rama Cont as editor; reopen the live product or editorial-board page before
+naming the editor in advice to an author.
 
 ## What reviewers evaluate
 

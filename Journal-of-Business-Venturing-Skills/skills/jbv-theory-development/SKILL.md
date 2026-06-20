@@ -9,7 +9,7 @@ description: Use when building the theoretical argument for a Journal of Busines
 
 - Your "hypotheses" are descriptive ("A relates to B in startups") with no entrepreneurial mechanism
 - You need to choose the disciplinary engine — agency/real-options (economics), cognition/affect (psychology), networks/legitimacy (sociology)
-- A field editor or reviewer says the theory "could be about any organization, not entrepreneurship"
+- A handling editor or reviewer says the theory "could be about any organization, not entrepreneurship"
 - You are deciding whether to write a deductive model or a narrative/interpretive theory
 
 ## JBV's theory bar

@@ -75,7 +75,7 @@ downstream sections.
 ## Orientation heuristics for ambiguous stages
 
 When a manuscript seems to sit between gates, locate it by its weakest artifact, not its
-newest one: a polished introduction resting on an unverified verification theorem is a gate-2
+newest one: a polished introduction resting on an unchecked verification theorem is a gate-2
 paper, and a complete proof set under an empirical-sounding abstract is a gate-3 paper. The
 pipeline is re-entrant — a referee report or a discovered gap legitimately sends the project
 back two or three gates, and re-running the later skills after such a regression is cheaper

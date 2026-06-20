@@ -14,7 +14,7 @@ description: Use when building or cleaning the exhibits for a Journal of Busines
 
 ## JBV exhibit conventions
 
-JBV publishes via Elsevier/ScienceDirect, so prepare figures for both print and online, with self-contained captions and consistent author–date in-text references. Each exhibit must stand alone: a reader should grasp it without the text.
+JBV publishes via Elsevier/ScienceDirect, so prepare figures for both print and online, with self-contained captions and references that can be reconciled to the journal's numbered style. Each exhibit must stand alone: a reader should grasp it without the text.
 
 ## The standard exhibit set (match to your design)
 

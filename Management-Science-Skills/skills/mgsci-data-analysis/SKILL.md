@@ -38,7 +38,7 @@ Because Management Science is **bimethodological**, "analysis" means proving/com
 
 ## Data and Code Disclosure (mandatory, verified)
 
-Management Science enforces a **Data and Code Disclosure Policy** (articles submitted on/after July 1, 2019). A dedicated **Data Editor (Ben Greiner**, with Milos Fisar and Ali Ozkes) **verifies** that data and code replicate **all main-manuscript results before publication**; appendix replication is welcomed but not compulsory, and verification adds **~17 days** on average. Provide a master script, version-pinned environment, README, data sources, and (where applicable) a pre-registration/project-page URL at submission (AsPredicted / AsCollected — verify the current platform).
+Management Science enforces a **Code and Data Disclosure Policy** (effective June 1, 2019; revised April 20, 2026). Authors must create an **AsCollected project page** and provide its URL during submission. Accepted papers with numerical or computational work must provide data, programs, and details sufficient to permit replication before production, or an approved alternative disclosure plan for proprietary/sensitive data. Provide a master script, version-pinned environment, README, data sources, and a clear disclosure plan from the start.
 
 ## Anti-patterns
 

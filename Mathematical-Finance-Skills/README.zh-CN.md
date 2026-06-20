@@ -26,6 +26,6 @@
 
 ## 资料
 
-- `resources/official-source-map.md`：Wiley、Bachelier Finance Society、Research Exchange
-  和政策来源，以及 2026-06-01 仍需现场复核的事项。
+- `resources/official-source-map.md`：2026-06-20 复核过的 Wiley、Bachelier Finance
+  Society、Research Exchange 和 Wiley 数据政策来源，并列出编辑、费用、APC、作者规则等易变事项的现场复核入口。
 - `resources/external_tools.md`：LaTeX、定理环境、分类号、数值实验和复现资源。

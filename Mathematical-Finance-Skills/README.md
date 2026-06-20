@@ -30,8 +30,8 @@ developments.
 ## Source Basis
 
 - `resources/official-source-map.md` records Wiley, Bachelier Finance Society,
-  Research Exchange, and policy sources checked on 2026-06-01, plus items still
-  requiring live verification.
+  Research Exchange, and Wiley data-policy sources checked on 2026-06-20, with
+  live-check notes for volatile editor, fee, APC, and author-rule details.
 - `resources/external_tools.md` lists LaTeX, theorem, classification, numerical,
   and reproducibility resources.
 

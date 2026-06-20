@@ -1,6 +1,6 @@
 ---
 name: jbv-writing-style
-description: Use when polishing the prose of a Journal of Business Venturing (JBV) manuscript — front-loading the entrepreneurial phenomenon, writing for a multidisciplinary audience, honoring JBV's openness to narrative/interpretive voice, and applying Elsevier author–date conventions and a ≤250-word abstract. Late-stage polish; do not use as a substitute for a real entrepreneurship-theory contribution (jbv-contribution-framing).
+description: Use when polishing the prose of a Journal of Business Venturing (JBV) manuscript — front-loading the entrepreneurial phenomenon, writing for a multidisciplinary audience, honoring JBV's openness to narrative/interpretive voice, and applying Elsevier reference conventions and a ≤250-word abstract. Late-stage polish; do not use as a substitute for a real entrepreneurship-theory contribution (jbv-contribution-framing).
 ---
 
 # Writing Style (jbv-writing-style)
@@ -37,7 +37,7 @@ JBV welcomes "theories, narratives, and interpretations." Match voice to mode:
 ## House style
 
 - **Abstract**: concise and factual, **not exceeding 250 words**; convey phenomenon, approach, and contribution.
-- **References**: author–date style; at first submission, "Your Paper Your Way" allows flexible formatting provided each reference is complete (author, title, year, journal/book, volume, pages/article number).
+- **References**: flexible at first submission if complete and consistent; current Guide for Authors says the journal style after acceptance uses numbered references in square brackets.
 - Active voice, present tense for established findings, past tense for what you did.
 
 ## Checklist
@@ -48,7 +48,7 @@ JBV welcomes "theories, narratives, and interpretations." Match voice to mode:
 - [ ] Cross-discipline constructs defined; integration signposted
 - [ ] Voice matches mode (deductive crispness vs. disciplined narrative)
 - [ ] Abstract ≤ 250 words, phenomenon-first
-- [ ] Author–date references complete and consistent
+- [ ] References complete and consistent; numbered style planned for accepted version
 
 ## Anti-patterns
 
@@ -75,6 +75,6 @@ Treat this skill as an executable review pass, not a prose hint. First lock the 
 【Multidisciplinary clarity】jargon defined; integration signposted ...
 【Voice】deductive | disciplined-narrative — consistent? ...
 【Abstract】word count ≤250; phenomenon-first? ...
-【References】author–date complete/consistent? ...
+【References】complete/consistent; numbered style ready for revision/proof? ...
 【Next step】jbv-submission
 ```

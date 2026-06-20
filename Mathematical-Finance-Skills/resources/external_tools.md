@@ -13,7 +13,8 @@ a stand-alone empirical exercise. Check licenses and current terms before use.
 - **Wiley LaTeX template / class** — use the publisher's article class where available; keep custom macros minimal so the source compiles cleanly on the editor's side.
 - **Proof / theorem environments**: `amsthm`, `thmtools`, `mathtools`, `amssymb` for theorem–lemma–proof structure and aligned displays.
 - **Cross-referencing**: `cleveref` for consistent "Theorem 3.2 / Assumption (A1)" references; `hyperref` for navigation.
-- **References**: BibLaTeX / BibTeX via Zotero or JabRef. Confirm the journal's named reference style on the author page (style name 待核实).
+- **References**: BibLaTeX / BibTeX via Zotero or JabRef. Confirm the journal's current
+  named reference style on the Wiley author page before final upload.
 
 ## 2. Classification codes (required-style metadata)
 
@@ -62,8 +63,8 @@ with no supporting rigorous analysis, is explicitly out of scope for this journa
 |------|------|
 | Submission portal | Wiley Research Exchange (`submission.wiley.com`) / Author Services |
 | Review model | Single-blind (author identity may remain) |
-| Submission fee | None stated (待核实) |
-| Open Access | Optional; APC applies if chosen — confirm current figure on the APC page (待核实) |
+| Submission fee | No separate submission fee was found in the checked Wiley/BFS sources; live-check the Wiley submission flow before advising an author |
+| Open Access | Optional hybrid route; confirm current APC terms on Wiley's OA/APC pages if the author selects Open Access |
 | Society access | Bachelier Finance Society members get free online access via their BFS account |
 | Publisher | Wiley-Blackwell |
 
@@ -74,4 +75,4 @@ with no supporting rigorous analysis, is explicitly out of scope for this journa
 2. **Move detailed analysis to the Appendix** — keep the main text on results and intuition.
 3. **Numerics must serve theory** — purely computational data applications are out of scope.
 4. **Verify volatile specifics** (editor, APC amount, abstract limit, reference style) on the
-   official Wiley page — several are currently 待核实.
+   official Wiley page immediately before upload.

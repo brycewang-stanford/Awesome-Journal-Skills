@@ -11,11 +11,11 @@
 
 English | [简体中文](README.zh-CN.md)
 
-Agent skill stack for manuscripts targeted at the **Journal of Business Venturing (JBV)** — an FT50 flagship in **entrepreneurship and new venture creation**, published by **Elsevier** (established 1985 by Ian MacMillan; print ISSN 0883-9026, eISSN 1873-2003; bimonthly). The editorial office is housed at the Johnson Center for Entrepreneurship & Innovation, Kelley School of Business, Indiana University.
+Agent skill stack for manuscripts targeted at the **Journal of Business Venturing (JBV)** — an FT50 flagship in **entrepreneurship and new venture creation**, published by **Elsevier** (print ISSN 0883-9026, online ISSN 1873-2003). Current ScienceDirect metadata lists **Sophie Bacq** and **Simon Parker** as Co-Editors-in-Chief.
 
-This repository is opinionated. It is **not** a generic "management writing" toolbox. It is a **JBV-specific** stack built around JBV's defining bar: a paper must illuminate the **entrepreneurial phenomenon in its myriad of forms** and make a clear theoretical contribution to entrepreneurship — entrepreneurship must be *central*, not an incidental empirical setting. It covers phenomenon-driven topic selection, multidisciplinary theory development (economics, psychology, sociology), literature positioning in the entrepreneurship conversation, methodologically pluralistic design and analysis (econometrics on novel venture datasets, experiments, qualitative process work, mixed methods), theoretical-contribution framing, Elsevier house-style exhibits and prose, Editorial Manager submission under double-anonymized review, the field-editor review process, and R&R rebuttals.
+This repository is opinionated. It is **not** a generic "management writing" toolbox. It is a **JBV-specific** stack built around JBV's defining bar: a paper must illuminate the **entrepreneurial phenomenon in its myriad of forms** and make a clear theoretical contribution to entrepreneurship — entrepreneurship must be *central*, not an incidental empirical setting. It covers phenomenon-driven topic selection, multidisciplinary theory development (economics, psychology, sociology), literature positioning in the entrepreneurship conversation, methodologically pluralistic design and analysis (econometrics on novel venture datasets, experiments, qualitative process work, mixed methods), theoretical-contribution framing, Elsevier house-style exhibits and prose, Editorial Manager submission under double-anonymized review, area-editor review routing, and R&R rebuttals.
 
-> Durable norms only. Field editors, the APC, exact length expectations, and policies change — always verify on the official JBV Guide for Authors (ScienceDirect) and the Editorial Manager portal. Several official pages were 403-blocked on 2026-06-01; see [`resources/official-source-map.md`](resources/official-source-map.md) for what is verified vs. 待核实.
+> Durable norms only. Editors, area-editor domains, APCs, metrics, and policies change — always verify on the official JBV Guide for Authors (ScienceDirect), editorial-board page, open-access page, and Editorial Manager portal. `resources/official-source-map.md` was refreshed on 2026-06-20.
 
 ---
 
@@ -29,11 +29,11 @@ JBV imposes constraints that differ materially from general management or econom
 | Disciplinary lens       | Self-consciously **multidisciplinary** (econ, psych, sociology)    | Breadth of lens is an expectation, not a bonus                   |
 | Contribution mode       | Welcomes "theories, **narratives, and interpretations**"           | Not only the strict hypothetico-deductive template               |
 | Methodology             | Pluralistic but **theory-first** — method must serve the question  | Method showcased without theory advance is desk-reject risk      |
-| Routing                 | **Field editors** under the EIC curate their own reviewer pools    | Fit with a field editor's domain shapes routing and outcome      |
+| Routing                 | **Area editors / handling editors** under the Co-EICs shape review | Fit with the relevant domain shapes routing and outcome          |
 | Review                  | **Double-anonymized**; minimum two reviewers                       | Anonymize fully (no names, affiliations, acknowledgements)       |
-| Submission              | Elsevier **Editorial Manager**; "Your Paper Your Way" first        | Single-file flexible first submission; co-submit Data in Brief/MethodsX |
+| Submission              | Elsevier **Editorial Manager**; flexible references at submission  | Separate title page + anonymized manuscript; co-submit Data in Brief/MethodsX |
 | Declarations            | Competing-interest **and** generative-AI disclosure required       | Both mandatory at submission                                     |
-| Data                    | Data availability statement expected (Elsevier framework)          | Explain access or why data cannot be shared                      |
+| Data                    | Elsevier **Option C** research-data policy                         | Deposit/cite/link data or explain why data cannot be shared      |
 
 Generic "scientific writing" or "social-science methods" packs do not address these constraints.
 
@@ -110,14 +110,14 @@ jbv-rebuttal
 | `jbv-data-analysis`         | Survival/selection/panel estimators, attrition, endogeneity, robustness       |
 | `jbv-contribution-framing`  | Explicit contribution to entrepreneurship theory + boundary conditions        |
 | `jbv-tables-figures`        | Venture-data tables, process models, interaction plots in Elsevier style      |
-| `jbv-writing-style`         | Phenomenon-forward argument, active voice, Elsevier author–date style         |
+| `jbv-writing-style`         | Phenomenon-forward argument, active voice, Elsevier reference style           |
 | `jbv-submission`            | Editorial Manager preflight + anonymization, declarations, co-submission      |
-| `jbv-review-process`        | How JBV field-editor review/decisions work; reading a decision letter         |
+| `jbv-review-process`        | How JBV area-editor review/decisions work; reading a decision letter          |
 | `jbv-rebuttal`              | Multi-round R&R revision and point-by-point response letter                   |
 
 ### Resources
 
-- [`resources/official-source-map.md`](resources/official-source-map.md) — every used fact + official URL + accessed date; verified vs. 待核实
+- [`resources/official-source-map.md`](resources/official-source-map.md) — every used fact + official URL + accessed date; refreshed 2026-06-20
 - [`resources/external_tools.md`](resources/external_tools.md) — entrepreneurship data sources (GEM / PSED / Kauffman / PitchBook / Crunchbase / Kickstarter) and analysis software (Stata survival/panel, R `fixest`/`survival`, NVivo, fsQCA, G*Power)
 
 ---
@@ -126,7 +126,7 @@ jbv-rebuttal
 
 - **Phenomenon-driven mandate** — the paper must illuminate the entrepreneurial phenomenon; entrepreneurship is the contribution, not the setting. This separates JBV from general management journals that accept any well-identified organizational study.
 - **Multidisciplinary by design** — grounded in economics, psychology, and sociology, and welcoming anthropology, geography, history, and multiple functional areas.
-- **Field-editor (handling-editor) routing** — manuscripts are managed by field editors under EIC Jeffery S. McMullen; field editors curate trusted reviewer pools, so domain fit matters.
+- **Area-editor / handling-editor routing** — manuscripts are routed under the current Co-Editors-in-Chief; fit with the relevant entrepreneurship domain matters.
 - **Theories, narratives, and interpretations** — JBV elevates interesting narrative and interpretive theorizing alongside hypothesis-testing.
 - **FT50 / discipline-defining flagship** — a high theory bar; off-topic or insufficiently theorized work is commonly desk-rejected.
 - **Built-in co-submission** — Data in Brief / MethodsX artifacts attach in the Editorial Manager workflow.

@@ -108,6 +108,6 @@ a theorem, appendix pointer, or data statement remains unstable.
 [Scientific readiness] pass / gaps
 [Files ready] tex / pdf / bib / figures / supplement
 [Policy statements] data / conflicts / funding / OA
-[Live checks needed] editor / APC / fee / style
+[Live checks needed] editor / APC / submission-flow fee screen / reference style
 [Next step] submit or fix listed gaps
 ```

@@ -29,9 +29,9 @@ Management Science imposes constraints that differ materially from single-method
 | Methodology             | **Bimethodological** — analytical modeling *and* empirical, equally | Pick the right lane; meet that lane's rigor bar                |
 | Routing                 | **Department / area-editor** structure; the DE owns the desk screen | Wrong Department or wrong literature → wrong desk               |
 | Core bar                | Rigor **plus** a decision-relevant insight that travels across departments | A correct model with no managerial reading is off-mission     |
-| Fit                     | Must belong here vs **Operations Research / M&SOM / Marketing Science** | ~50–60% (approx.) desk-rejected, often on fit                  |
-| Review                  | **Double-anonymized**; ~2–3 reviewers via an AE (approx.)         | Anonymize fully; disclose proceedings versions anonymously       |
-| Transparency            | **Data and Code Disclosure** — a Data Editor *verifies* replication before publication | Build a regenerating replication package from day one         |
+| Fit                     | Must belong here vs **Operations Research / M&SOM / Marketing Science** | DE/AE first screen for department fit and merit                 |
+| Review                  | **Double-anonymized**; AE recruits reviewers after initial screen | Anonymize fully; disclose proceedings versions anonymously       |
+| Transparency            | **Code and Data Disclosure** + AsCollected project page | Build a regenerating replication package from day one         |
 | Fee                     | **$79** per submission (Aug 1, 2025), member / low-income / honor waivers | Pay or claim a waiver; no justification needed for the honor waiver |
 | Length                  | No initial limit; prefers **short, focused** papers; invited revisions capped | Tight notation and a lean main body; offload to the online appendix |
 | Style                   | **Author-year** citations; 11-pt, 1-inch; abstract ≤ 250 words, 3–5 keywords | Configure the reference manager to name–date                  |
@@ -119,7 +119,7 @@ mgsci-rebuttal
 ### Resources
 
 - [`resources/external_tools.md`](resources/external_tools.md) — analytical tooling (Gurobi / CPLEX / JuMP / Mathematica) and empirical tooling (Stata / R / Python / oTree / Prolific) plus the Data-and-Code-Disclosure package recipe
-- [`resources/official-source-map.md`](resources/official-source-map.md) — official INFORMS/Management Science URLs behind every verified fact (accessed 2026-06-01)
+- [`resources/official-source-map.md`](resources/official-source-map.md) — official INFORMS/Management Science URLs behind current process facts (accessed 2026-06-20)
 
 ---
 
@@ -132,9 +132,9 @@ mgsci-rebuttal
 - **Style:** **author-year** in-text citations (e.g., Norman 1977); 11-pt, 1-inch margins; PDF preferred.
 - **Length:** no formal initial limit; invited revisions ≤ **47 pages double-spaced** or **32 pages 1.5-spaced**, online appendix excluded.
 - **Fee:** **$79** per original submission (effective Aug 1, 2025); INFORMS-member, low-/lower-middle-income-economy, and honor-based waivers.
-- **Transparency:** **Data and Code Disclosure Policy** (articles on/after July 1, 2019); a **Data Editor verifies** replication of main-text results before publication (~17 days added).
+- **Transparency:** **Code and Data Disclosure Policy** (effective June 1, 2019; revised April 20, 2026); authors provide an **AsCollected** project-page URL at submission, and accepted numerical/computational papers provide data, programs, and details sufficient to permit replication before production.
 
-See [`resources/official-source-map.md`](resources/official-source-map.md) for sources and items flagged 待核实 (to be verified).
+See [`resources/official-source-map.md`](resources/official-source-map.md) for the official INFORMS source trail.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: mgsci-review-process
-description: Use to understand how Management Science (INFORMS) review and decisions work — the Department/area-editor desk screen, the high desk-reject rate, double-anonymized refereeing, the cross-department fit bar, turnaround targets, and how to read a decision letter — before or after submitting. It explains the process; it does not draft the response (mgsci-rebuttal).
+description: Use to understand how Management Science (INFORMS) review and decisions work — the Department/area-editor desk screen, double-anonymized refereeing, the cross-department fit bar, official turnaround targets, and how to read a decision letter — before or after submitting. It explains the process; it does not draft the response (mgsci-rebuttal).
 ---
 
 # Review Process (mgsci-review-process)
@@ -14,9 +14,9 @@ description: Use to understand how Management Science (INFORMS) review and decis
 
 ## How a submission flows
 
-1. **Department/area routing.** A submission is channeled into a specific **Department** (e.g., Accounting; Behavioral Economics and Decision Analysis; Business Strategy; Data Science; Finance; Information Systems; Operations Management; Optimization and Decision Analytics; Revenue Management & Market Analytics; Stochastic Models and Simulation). The **Department Editor owns the desk screen and the standards** for that field.
-2. **Desk screen.** The Department Editor decides whether the paper goes to external review. **A high share is desk-rejected** (reported ~50–60% screened out before external review — **approximate / 待核实**), commonly on **fit** ("better suited to Operations Research / M&SOM / Marketing Science") or insufficient rigor/contribution.
-3. **External review.** Papers passing screen go to roughly **2–3 reviewers**, often coordinated by an **Associate Editor** (~ figures **approximate / 待核实**). Review is **double-anonymized** — neither side sees the other's identity.
+1. **Department/area routing.** A submission is channeled into a specific **Department** (e.g., Accounting; Behavioral Economics and Decision Analysis; Data Science; Entrepreneurship and Innovation; Finance; Healthcare Management; Information Systems; Market Design, Platform, and Demand Analytics; Marketing; Operations Management; Optimization and Decision Analytics; Organizations; Stochastic Models and Simulation; Strategy; Sustainability). The **Department Editor owns the desk screen and the standards** for that field.
+2. **Desk screen.** The Department Editor, and possibly an Associate Editor, first evaluates whether the manuscript is a good fit for the department and has enough merit to send to reviewers. If not, the paper is returned with the editors' reasoning, commonly on **fit** ("better suited to Operations Research / M&SOM / Marketing Science") or insufficient rigor/contribution.
+3. **External review.** If the manuscript passes the initial screen, an **Associate Editor** recruits reviewers and later recommends to the Department Editor. Review is **double-anonymous** — neither side sees the other's identity.
 4. **Decision.** The Department Editor recommends; the **Editor-in-Chief (Christoph Loch, term 2024–2026)** provides final oversight and **cross-department arbitration** for ambiguous-fit papers.
 
 ## The cross-department fit bar
@@ -25,7 +25,7 @@ Beyond field rigor, papers are judged on whether they **belong in Management Sci
 
 ## Turnaround
 
-The journal aims for an **ambitious turnaround** — reportedly giving high-quality feedback to ~90% of authors within ~90 days (**approximate / 待核实**, among the more aggressive commitments in top-tier business publishing). Acceptance triggers **Data and Code Disclosure verification** by the Data Editor, which adds ~17 days on average before publication.
+The journal states that it strives to provide high-quality feedback to **90% of authors within 90 days**. If a paper is sent to reviewers, authors receive a Department Editor decision within **65 days on average**. Acceptance does not end the workflow: accepted numerical/computational papers still need the Code and Data Disclosure materials required before production.
 
 ## Reading a decision letter
 
@@ -57,7 +57,7 @@ Letter A: "Interesting model, but the algorithmic contribution would be better a
 
 ## Calibration anchor
 
-Desk-reject shares, reviewer counts, and turnaround targets above are approximate and evolve — treat them as orientation, and confirm current figures against editorial statements.
+Turnaround targets, department rosters, and disclosure requirements evolve — treat the values above as current official guidance and re-check the source map before submission or appeal advice.
 
 ## Anti-patterns
 

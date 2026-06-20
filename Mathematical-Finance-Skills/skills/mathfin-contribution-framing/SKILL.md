@@ -85,7 +85,7 @@ When unsure of current norms, calibrate against the latest issues rather than ol
 
 ```
 【Modelling problem】one sentence
-【Obstruction in prior work】what blocked it
+【Obstruction in prior work】what prevented it
 【Theorem as resolution】one sentence
 【Novelty axis】model / assumption / constructive / rate / representation / unification
 【Modelling payoff】the financial statement the theorem licenses

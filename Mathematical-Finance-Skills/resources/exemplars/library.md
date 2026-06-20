@@ -5,7 +5,7 @@
 > (`api.crossref.org/works/<DOI>`), which independently confirmed `container-title = Mathematical
 > Finance` together with the title, authors, year, volume, issue, and pages. Each DOI uses a genuine
 > *Mathematical Finance* prefix — either the legacy `10.1111/j.1467-9965.<year>...` / `10.1111/1467-9965...`
-> form or the current `10.1111/mafi...` form. Papers that could not be confirmed as *Mathematical
+> form or the current `10.1111/mafi...` form. Papers not confirmed as *Mathematical
 > Finance* were **omitted** (see the guardrail list) — this is deliberately a short, clean list rather
 > than a long, uncertain one (**6 verified > 15 guessed**).
 >
@@ -19,12 +19,12 @@
 > **Use principle (zero hallucination):** this file gives **theorem-level design positioning only**. It
 > does **not** reproduce or invent theorem statements, constants, rates, or numerical findings — read
 > the original on Wiley before citing any result. For *Mathematical Finance*-specific policy, scope,
-> and the editor 待核实 note, see [`../official-source-map.md`](../official-source-map.md).
+> and current live-check notes, see [`../official-source-map.md`](../official-source-map.md).
 >
-> **Verification caveat.** Wiley article pages were behind a Cloudflare/402 challenge to automated
-> fetches at access time (the same condition documented in `../official-source-map.md`). Bibliographic
-> facts below were therefore confirmed via the freely-readable **Crossref** record for each DOI plus the
-> Wiley search-result listing; re-confirm on the live Wiley page before quoting anything load-bearing.
+> **Verification caveat.** At the 2026-06-08 exemplar pass, automated article-page access did not expose
+> full Wiley article pages. Bibliographic facts below were therefore confirmed via the freely-readable
+> **Crossref** record for each DOI plus the Wiley search-result listing; reopen the live Wiley page
+> before quoting anything load-bearing.
 
 ---
 

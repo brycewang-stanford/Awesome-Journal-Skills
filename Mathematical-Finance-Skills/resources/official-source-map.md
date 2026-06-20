@@ -1,50 +1,81 @@
 # Mathematical Finance Official Source Map
 
-Primary and authoritative sources behind the *Mathematical Finance*-specific facts injected
-into this skill pack. Access date for all entries: **2026-06-01**. Re-verify volatile items
-(editor, fees, policy wording, classification requirements) on the live page before relying on
-them — journal pages change, and several Wiley pages were behind a Cloudflare/JavaScript
-challenge at access time (see the verification note at the bottom).
+Primary sources behind the *Mathematical Finance*-specific facts injected into this skill pack.
+Access date for all entries: **2026-06-20**. Live-check volatile facts before submission because
+Wiley journal, editorial-board, fee, and author-rule pages can change.
 
-Items that could not be positively confirmed are flagged **待核实 (to be verified)** below.
+## Wiley journal, author, and submission pages
 
-## Official journal pages (Wiley Online Library)
-
-- **https://onlinelibrary.wiley.com/journal/14679965** — *Mathematical Finance* journal home (Wiley Online Library). Verifies: publisher = Wiley (Wiley-Blackwell / John Wiley & Sons); ISSN 0960-1627; international financial-mathematics scope.
-- **https://onlinelibrary.wiley.com/page/journal/14679965/homepage/forauthors.html** — Author Guidelines / "For Authors". Verifies: submissions must be in a **mathematically rigorous style**; evaluated on **methodological novelty and contribution to financial modelling**; **numerical experiments welcome only when accompanied by rigorous analysis** supporting the theoretical developments, and **routine application of computational methods to financial data will not be considered**; **single-blind peer review**; Editor screens submissions and, if suitable, assigns an Associate Editor who may seek outside reviewers and prepares a recommendation; **detailed mathematical analysis should be placed in an Appendix wherever possible**; the paper must be **self-contained, including full proofs**; figures and tables supplied as separate files at revision; **LaTeX submission via Research Exchange** with the file designations "Main Document - LaTeX .tex File", "Main Document - LaTeX PDF", and "LaTeX Supplementary File". (Page partly behind a Cloudflare challenge to automated fetches; facts cross-read via search-engine renderings of the official page.)
-- **https://onlinelibrary.wiley.com/page/journal/14679965/homepage/editorialboard.html** — Editorial board. Verifies: **Editor listed as Vadim Linetsky (Northwestern University)**; Advisory Board incl. Robert C. Merton (MIT), Mark H. A. Davis (Imperial), Freddy Delbaen (ETH), Hans Föllmer (Humboldt), Robert Jarrow (Cornell), L.C.G. Rogers (Cambridge), Dilip Madan (Maryland); Associate Editors incl. Beatrice Acciaio (LSE), Erhan Bayraktar (Michigan). **NOTE:** the editor identity conflicts with the RePEc record below — treat as **待核实**.
-- **https://onlinelibrary.wiley.com/page/journal/14679965/homepage/oa-advantages** — Open Access / hybrid options. Verifies: *Mathematical Finance* is a **hybrid (subscription) journal** offering optional Open Access for an **Article Publication Charge (APC)**.
-
-## Submission system
-
-- **https://submission.wiley.com/** (Wiley Research Exchange) / **Wiley Author Services** — Verifies: manuscripts are **submitted and status-tracked via Research Exchange**; LaTeX `.tex`, compiled PDF, and supplementary files uploaded under the designations named above.
+- **https://onlinelibrary.wiley.com/journal/14679965** — Wiley Online Library journal home. Wiley's
+  current search result describes *Mathematical Finance* as an international financial mathematics
+  journal focused on novel mathematical and statistical methods for the analysis of financial problems.
+- **https://www.wiley.com/en-no/journals/Mathematical%2BFinance-p-b14679965** and
+  **https://www.wiley.com/en-es/Mathematical%2BFinance-p-14679965** — Wiley product pages surfaced by
+  official search. Current snippets list **Edited By: Rama Cont**, Print ISSN **0960-1627**, Online
+  ISSN **1467-9965**, and Impact Factor **2.4**.
+- **https://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1467-9965/homepage/ForAuthors.html** and
+  **https://onlinelibrary.wiley.com/page/journal/14679965/homepage/forauthors.html** — Wiley author
+  guidelines / For Authors pages. The pack uses these as the live source for the theorem-first fit rule,
+  mathematically rigorous style, numerical-experiments-only-when-theory-supported rule, single-blind
+  review path, self-contained proofs, appendix-for-detailed-mathematics convention, and Research
+  Exchange LaTeX upload designations.
+- **https://onlinelibrary.wiley.com/page/journal/14679965/homepage/editorialboard.html** — Wiley
+  editorial-board page. Use this page for the current editor and board roster before naming any editor
+  in live advice.
+- **https://onlinelibrary.wiley.com/page/journal/14679965/homepage/oa-advantages** — Wiley open-access
+  / hybrid-options page. Use this page and Wiley's Article Publication Charges page for current
+  open-access terms and APC figures.
+- **https://submission.wiley.com/** — Wiley Research Exchange / Wiley submission entry point. Use for
+  manuscript submission and status tracking; LaTeX source, compiled PDF, and supplementary files should
+  be prepared for upload.
 
 ## Society affiliation
 
-- **https://www.bachelierfinance.org/journals** — Bachelier Finance Society "Journals" page. Verifies: **the Bachelier Finance Society is affiliated with *Mathematical Finance* (Wiley-Blackwell)**; **BFS members receive free access** to the online editions through their BFS account.
+- **https://www.bachelierfinance.org/journals** — Bachelier Finance Society journals page. Confirms that
+  BFS is affiliated with *Mathematical Finance* (Wiley-Blackwell) and that BFS members get free access to
+  online editions through their BFS account.
 
 ## Wiley-wide data policy
 
-- **https://authors.wiley.com/author-resources/Journal-Authors/open-access/data-sharing-citation/data-sharing-policy.html** — Wiley Data Sharing & Citation policy. Verifies: research articles must include a **Data Availability Statement** (whether or not data are shared); authors are **encouraged** to share data, code, software, algorithms, and materials and to cite shared data per the **Joint Declaration of Data Citation Principles**. There is **no journal-specific mandatory replication-package archive** (no JAE-style Data Archive) for this venue.
+- **https://authors.wiley.com/author-resources/Journal-Authors/open-access/data-sharing-citation/data-sharing-policy.html** —
+  Wiley Data Sharing Policies. Confirms that Wiley encourages authors to share research data including
+  raw data, processed data, software, code, algorithms, protocols, methods, and materials. Confirms that
+  all research- and synthesis-based articles must include a **Data Availability Statement**, whether or
+  not data are shared. Confirms standard DAS templates, including the theory/no-new-data template: "Data
+  sharing not applicable to this article as no datasets were generated or analysed during the current
+  study." Confirms data citation format when data are available and linked.
 
 ## Metadata / cross-reference
 
-- **https://ideas.repec.org/s/bla/mathfi3.html** — RePEc/IDEAS record for *Mathematical Finance*. Verifies: publisher Wiley Blackwell; ISSN 0960-1627; **lists editor Jerome Detemple (Boston University)** — this **conflicts** with the Wiley editorial-board page listing Vadim Linetsky. The editor field is therefore **待核实**.
+- **https://ideas.repec.org/s/bla/mathfi3.html** — RePEc/IDEAS record. Confirms publisher **Wiley
+  Blackwell**, ISSN **0960-1627**, and the RePEc handle for historical metadata. The local pack does not
+  rely on this page for current editor identity.
+- **https://portal.issn.org/resource/ISSN/1467-9965** — ISSN Portal record for the online ISSN. Confirms
+  preservation metadata and links the online ISSN to John Wiley & Sons / Blackwell-era preservation
+  records.
 
-## UNVERIFIED / 待核实 items (do NOT state as fact)
+## Facts used in the skills
 
-- **Editor / Editor-in-Chief identity — 待核实.** The Wiley editorial-board page lists **Vadim Linetsky**; the RePEc/IDEAS metadata lists **Jerome Detemple**. Confirm on the live editorial-board page before naming the editor.
-- **Abstract word limit — 待核实.** No journal-specific abstract limit was found on the official author-guidelines page. (The ~150/300-word figures seen elsewhere come from the general AMS author handbook, not this journal.)
-- **Manuscript length / page / word limit — 待核实.** No explicit hard cap was located in the accessible guideline text; the journal instead stresses self-contained proofs and moving detailed mathematics to an Appendix.
-- **Submission fee — 待核实 (believed none).** No submission fee is stated in the author guidelines, and none is expected for a standard subscription/hybrid Wiley journal, but a single explicit "no fee" statement could not be confirmed.
-- **Open Access APC exact amount — 待核实.** A secondary search summary cited on the order of ~USD 3,840 / GBP 2,590 / EUR 3,190; this was **not** read directly off the official Wiley APC page. Confirm the current figure on the journal's Article Publication Charges page before quoting it.
-- **Named citation/reference style — 待核实.** LaTeX template use, JEL + AMS/MSC classification, and the appendix-for-proofs convention were verified, but the specific named reference style (e.g., author-date) could not be extracted from accessible text.
+| Fact | Source URL |
+|------|------------|
+| Publisher and journal platform are Wiley / Wiley Online Library | Wiley journal home; Wiley product pages |
+| Print ISSN 0960-1627; Online ISSN 1467-9965 | Wiley product pages; ISSN Portal; RePEc |
+| Current Wiley product-page snippet lists Rama Cont as editor | Wiley product pages |
+| BFS affiliation and BFS member online access | Bachelier Finance Society journals page |
+| Journal scope: novel mathematical and statistical methods for financial problems | Wiley journal home / product snippets |
+| Theorem-first fit: mathematically rigorous financial-mathematics contribution, not routine empirical finance | Wiley author guidelines |
+| Numerical work must support rigorous theory rather than stand alone as computational application | Wiley author guidelines |
+| Single-blind review; editor screen; Associate Editor/referee path | Wiley author guidelines |
+| Research Exchange / Wiley submission path | Wiley author guidelines; submission.wiley.com |
+| Data Availability Statement required for research and synthesis articles; data/code sharing encouraged | Wiley data policy |
+| No-data statement available for purely theoretical papers | Wiley data policy |
+| Data citation format when linked data are used | Wiley data policy |
+| Open-access / APC details are handled by Wiley's current OA/APC pages | Wiley OA page |
 
-## Verification note
+## Live-check items before upload
 
-Wiley pages (`onlinelibrary.wiley.com`, `wiley.com`, `submission.wiley.com`) were protected
-by a Cloudflare JavaScript challenge and returned HTTP 402/403 to direct fetches and `curl`;
-`web.archive.org` was also blocked. Facts were therefore extracted from search-engine
-renderings of those official pages plus directly fetchable sources (RePEc, Bachelier Finance
-Society). **Direct re-verification on the live pages is recommended** before relying on any
-load-bearing specific.
+- Re-open the Wiley author-guidelines page before final upload for any changes to Research Exchange file
+  labels, reference style, classification-code expectations, article formatting, and review-policy
+  wording.
+- Re-open the Wiley product/editorial-board pages before naming the editor or editorial-board members.
+- Re-open Wiley open-access/APC pages before quoting any fee or open-access charge.

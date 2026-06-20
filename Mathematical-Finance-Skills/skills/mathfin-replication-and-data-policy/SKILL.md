@@ -13,19 +13,19 @@ description: Use when preparing Wiley data availability statements and reproduci
 
 ## Policy stance
 
-Wiley policy expects research articles to include a Data Availability Statement.
-For this journal, that often means saying no empirical data were generated or
-used. There is no journal-specific mandatory replication archive comparable to
-empirical economics/finance data archives, but code for numerical illustrations
-should be reproducible when included.
+Wiley policy expects all research- and synthesis-based articles to include a
+Data Availability Statement. For this journal, that often means using Wiley's
+theory/no-new-data template. There is no journal-specific mandatory replication
+archive comparable to empirical economics/finance data archives, but code for
+numerical illustrations should be reproducible when included.
 
 ## Statement templates
 
 ### No data
 
 ```text
-Data availability statement: No empirical data were generated or analysed in
-support of this research.
+Data availability statement: Data sharing is not applicable to this article as
+no datasets were generated or analysed during the current study.
 ```
 
 ### Numerical code only

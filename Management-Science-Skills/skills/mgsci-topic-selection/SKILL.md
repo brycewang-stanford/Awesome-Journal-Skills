@@ -19,7 +19,7 @@ Management Science publishes work whose unifying test is **methodological rigor 
 Ask three questions before investing:
 
 1. **Decision relevance.** What management decision changes if the result holds? A model with no managerial reading, or an empirical fact with no decision lever, is off-mission.
-2. **Which Department?** Name it: Accounting; Behavioral Economics and Decision Analysis; Business Strategy; Data Science; Entrepreneurship & Innovation; Finance; Information Systems; Operations Management; Optimization and Decision Analytics; Revenue Management & Market Analytics; Stochastic Models and Simulation (Marketing/Organizations as applicable; exact 2026 set 待核实). The Department Editor owns your desk screen and standards.
+2. **Which Department?** Name it: Accounting; Behavioral Economics and Decision Analysis; Data Science; Entrepreneurship and Innovation; Finance; Healthcare Management; Information Systems; Market Design, Platform, and Demand Analytics; Marketing; Operations Management; Optimization and Decision Analytics; Organizations; Stochastic Models and Simulation; Strategy; Sustainability. The Department Editor owns your desk screen and standards.
 3. **Cross-department travel.** Does the insight matter beyond a single niche? Management Science prizes results that a reader in another Department still finds informative.
 
 ## The sister-journal fit test (this is where papers die)

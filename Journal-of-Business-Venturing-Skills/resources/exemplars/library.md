@@ -3,7 +3,7 @@
 > **Verified via web search, access date 2026-06-08.** Every paper below was checked to confirm it
 > actually appeared in the **_Journal of Business Venturing_** (Elsevier; ISSN 0883-9026), with year and
 > volume/issue/pages, against Elsevier ScienceDirect article pages and the RePEc/EconPapers
-> `eee/jbvent` series (which indexes JBV by that ISSN). Papers that could not be fully verified as JBV —
+> `eee/jbvent` series (which indexes JBV by that ISSN). Papers lacking enough JBV placement evidence —
 > including several famous entrepreneurship papers that actually appeared in *AMR*, *Organization
 > Science*, or *Strategic Management Journal* — were **omitted and documented below**. This is
 > deliberately a short, clean list (**6 verified > 15 guessed**).

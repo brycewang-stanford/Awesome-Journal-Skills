@@ -18,17 +18,17 @@ At an FT50 entrepreneurship flagship, "no one has studied this" is a weak motiva
 
 - **Problematize**: surface and challenge an assumption the entrepreneurship field takes for granted (e.g., that opportunities are discovered vs. created, that VC signals quality, that more resources always help nascent ventures). Problematization beats gap-filling.
 - **Name the conversation**: state precisely which entrepreneurship debate you enter — opportunity discovery vs. creation, effectuation vs. causation, the role of failure and learning, financing signals, ecosystem effects — and what you add or overturn.
-- **Engage multidisciplinarily**: JBV is grounded in economics, psychology, and sociology. If your phenomenon spans lenses, cite across them; positioning only within one discipline when the puzzle is broader reads as thin to a field editor who routes across domains.
+- **Engage multidisciplinarily**: JBV is grounded in economics, psychology, and sociology. If your phenomenon spans lenses, cite across them; positioning only within one discipline when the puzzle is broader reads as thin to an editor who routes across domains.
 
 ## Map the landscape before claiming novelty
 
 - Distinguish the *entrepreneurship* literature from the general management/strategy literature your work touches. JBV cares that the conversation is about the entrepreneurial phenomenon.
 - Cite the foundational and the most recent JBV / entrepreneurship work on your topic; show you are current, not re-deriving settled results.
-- Identify the closest two or three papers and articulate the *delta* — what they assumed or could not see that you now show.
+- Identify the closest two or three papers and articulate the *delta* — what they assumed or were unable to see that you now show.
 
 ## Field-editor routing implication
 
-Because manuscripts are managed by **field editors** who curate their own reviewer pools, your positioning signals which domain (and editor) should handle the paper. Make the home conversation unmistakable in the first two pages so the paper routes to a sympathetic, expert field editor and reviewers.
+Because manuscripts route through a domain-specific area-editor structure, your positioning signals which domain should handle the paper. Make the home conversation unmistakable in the first two pages so the paper routes to a sympathetic, expert editor and reviewers.
 
 ## Checklist
 
@@ -37,7 +37,7 @@ Because manuscripts are managed by **field editors** who curate their own review
 - [ ] Multidisciplinary engagement where the phenomenon warrants it
 - [ ] Closest 2-3 papers identified with an explicit delta
 - [ ] Entrepreneurship literature distinguished from adjacent general-management work
-- [ ] Positioning makes the field-editor domain obvious
+- [ ] Positioning makes the area-editor domain obvious
 
 ## Anti-patterns
 

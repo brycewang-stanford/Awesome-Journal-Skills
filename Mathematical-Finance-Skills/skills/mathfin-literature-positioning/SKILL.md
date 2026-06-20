@@ -17,7 +17,7 @@ Because the journal prizes **methodological novelty and contribution to financia
 positioning must be **theorem-level**, not topic-level. The reader (often a Bachelier Finance
 Society member steeped in stochastic analysis) wants to know exactly which assumptions you
 relax, which generality you add, or which open problem you close — and why earlier machinery
-could not. A vague "the literature has studied X" invites a desk concern about novelty.
+was unable to. A vague "the literature has studied X" invites a desk concern about novelty.
 
 ## How to position
 

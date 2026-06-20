@@ -34,7 +34,7 @@ description: Use when responding to a Mathematical Finance (Wiley) revise-and-re
 | Referee objection (typical phrasing) | Likely root cause | Repair that satisfies this venue |
 | --- | --- | --- |
 | "X is only a local martingale" | Missing uniform-integrability / Novikov-type condition | Add the integrability lemma; or weaken the conclusion to supermartingale and fix downstream claims |
-| "Girsanov/Itô applied without checking hypotheses" | Cited theorem's conditions unverified in your setting | Insert a verification step with explicit moment bounds, citing the precise theorem number |
+| "Girsanov/Itô applied without checking hypotheses" | Cited theorem's conditions were not checked in your setting | Insert a verification step with explicit moment bounds, citing the precise theorem number |
 | "The candidate strategy is not shown admissible" | Admissible set defined too loosely | Tighten the definition, prove membership, re-run the verification theorem |
 | "This follows from [prior work] by a change of variables" | Novelty gap | Theorem-by-theorem comparison; isolate the hypothesis prior work cannot drop |
 | "The proof of Lemma k is only sketched" | Routine step left informal | Write it out in the appendix; never answer with "standard" |

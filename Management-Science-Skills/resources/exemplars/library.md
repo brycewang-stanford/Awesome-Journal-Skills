@@ -2,8 +2,8 @@
 
 > **Verified via web search, access date 2026-06-07.** Every paper below was checked against INFORMS
 > PubsOnline (`pubsonline.informs.org/journal/mnsc` / DOI prefix `10.1287/mnsc.*`) to confirm it actually
-> appeared in ***Management Science*** specifically — *not* a sister or look-alike venue. Papers that
-> could not be fully confirmed as *Management Science* were **omitted** and several are listed below as
+> appeared in ***Management Science*** specifically — *not* a sister or look-alike venue. Papers without
+> full confirmation as *Management Science* were **omitted** and several are listed below as
 > explicit guardrails. It is deliberately a short, clean list (6 verified) rather than a long, uncertain
 > one.
 >

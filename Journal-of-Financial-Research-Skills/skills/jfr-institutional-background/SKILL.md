@@ -41,7 +41,7 @@ description: Use to write or stress-test the institutional-background section of
 - [ ] 市场分层/所有制分类与研究对象一致
 - [ ] 制度细节服务于识别外生性（不是背景装饰）
 - [ ] 政策冲击的"改了哪条规则"说得清
-- [ ] 不确定的条款已核对官方文件或标注待核实
+- [ ] 不确定的条款已核对官方文件或明确列为需复核项
 
 ## 微型走查：把"绿色信贷政策"写成可识别的制度段
 
@@ -81,6 +81,6 @@ description: Use to write or stress-test the institutional-background section of
 【制度对象】<规则/市场/主体>
 【三要素】规则名□ 生效时点□ 约束对象□
 【服务识别】是 / 否 <如何制造变异>
-【准确性存疑点】无 / <列出待核实>
+【准确性存疑点】无 / <列出需复核项>
 【下一步】jfr-identification
 ```

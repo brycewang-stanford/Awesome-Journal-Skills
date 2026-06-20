@@ -18,7 +18,7 @@ JBV publishes research on the **entrepreneurial phenomenon in its myriad of form
 
 - **Centrality**: Is the creation of new ventures or new economic activity (or entrepreneurial cognition, behavior, financing, teams, social/sustainable/international entrepreneurship, or ecosystems) the heart of the contribution? If entrepreneurship is merely the empirical setting for a general theory of organizations, JBV is the wrong venue — that distinction is the single most common desk-reject reason at this FT50 flagship.
 - **Phenomenon, not method**: The question must matter for understanding entrepreneurship, not exist to showcase a dataset or technique.
-- **Disciplinary lens**: JBV is grounded in economics, psychology, and sociology and welcomes anthropology, geography, history, and multiple functional areas (finance, management, marketing, strategy). Name the primary lens — it shapes the mechanism and which **field editor** handles your paper.
+- **Disciplinary lens**: JBV is grounded in economics, psychology, and sociology and welcomes anthropology, geography, history, and multiple functional areas (finance, management, marketing, strategy). Name the primary lens — it shapes the mechanism and likely area-editor domain.
 
 ## Sharpening the question
 
@@ -40,7 +40,7 @@ JBV publishes research on the **entrepreneurial phenomenon in its myriad of form
 - [ ] Primary disciplinary lens (econ / psych / sociology / other) named
 - [ ] Stage of the entrepreneurial process specified
 - [ ] Question framed as a phenomenon-puzzle, not a literature gap
-- [ ] Plausible field-editor domain identified for routing
+- [ ] Plausible area-editor domain identified for routing
 - [ ] Decision made: hypothesis-testing vs. narrative/interpretive theorizing
 
 ## Fit triage and venue routing

@@ -57,30 +57,32 @@ This document lists external data sources, analysis software, and writing tools 
 
 | Tool | Note |
 |------|------|
-| Mendeley | Elsevier-native; CSL templates for Elsevier author–date styles |
-| Zotero | Free; supports author–date / Elsevier styles |
+| Mendeley | Elsevier-native; CSL templates for Elsevier journal styles |
+| Zotero | Free; supports numbered and Elsevier journal styles |
 | EndNote | Broad journal style support |
-| Overleaf / LaTeX | Optional; "Your Paper Your Way" accepts flexible first-submission layout |
+| Overleaf / LaTeX | Optional; submit editable source files and follow the current Guide for Authors file requirements |
 | Grammarly | Language polish |
 
-JBV uses an author–date style; "Your Paper Your Way" allows flexible reference formatting at first submission provided each reference is complete (author, title, year, journal/book, volume, pages/article number). Reconcile against the current Elsevier Guide for Authors before a revision.
+JBV allows flexible reference formatting at first submission if each reference is complete and the style is consistent. The current Guide for Authors says the journal style after acceptance uses numbered references in square brackets, so reconcile references against the live guide before revision or proof.
 
 ## 4. Submission & Process
 
 - **Submission portal**: Elsevier **Editorial Manager** (editorialmanager.com/jbvi) — verify the current link on the official ScienceDirect JBV page.
 - **Co-submission**: Data in Brief / MethodsX artifacts can be attached on the "Attach files" page in Editorial Manager.
-- **Anonymization**: prepare a double-anonymized manuscript (no author names, affiliations, or acknowledgements; third-person self-citation).
-- **Declarations**: include a declaration of competing interest and a generative-AI disclosure statement.
+- **Anonymization**: prepare a separate title page and an anonymized manuscript (no author names, affiliations, or acknowledgements; third-person self-citation).
+- **Declarations**: include a declaration of competing interest, CRediT author-contribution statement, and generative-AI disclosure statement if AI tools were used.
+- **Highlights**: submit 3 to 5 article highlights, each no more than 85 characters including spaces.
+- **Graphical abstract**: encouraged but optional; submit as a separate file if used.
 - **ORCID**: keep an ORCID linked to your Editorial Manager account.
 
 ## 5. Reproducibility & Transparency
 
 1. Keep clean, commented scripts (do-files, R scripts) that regenerate every table/figure.
 2. Document venture-sample construction, survivorship/selection handling, and exclusion rules — critical given high attrition in new-venture panels.
-3. Prepare a data availability statement explaining how data can be accessed or why it cannot be shared (e.g., proprietary VC or confidential founder data).
-4. Consider depositing de-identified data and a codebook in a repository, consistent with Elsevier's research-data policy.
+3. Prepare a data availability statement explaining where data are deposited and cited, or why sharing is not possible (e.g., proprietary VC or confidential founder data).
+4. Deposit de-identified data and a codebook when legally possible, consistent with JBV's Elsevier Option C research-data policy.
 5. Verify all licensing and confidentiality terms (PitchBook, Crunchbase, proprietary VC data) before depositing or sharing.
 
 ## 6. Verify Before You Rely
 
-Editorial team (field editors), submission links, formatting expectations, APC, and transparency/data policies change over time. Several official ScienceDirect pages were 403-blocked on 2026-06-01 — always confirm current requirements on the official JBV Guide for Authors and the Editorial Manager portal before submitting.
+Editorial team, area-editor domains, submission links, formatting expectations, APC, and transparency/data policies change over time. Always confirm current requirements on the official JBV Guide for Authors, editorial-board page, open-access page, and Editorial Manager portal before submitting.

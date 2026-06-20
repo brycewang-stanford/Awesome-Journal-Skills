@@ -44,7 +44,7 @@ Front-loaded rewrite (numbers illustrative): "When buyer search costs fall by ha
 
 ## Referee-pushback patterns and the prose-level fix
 
-- **"I could not find the contribution until the conclusion."** Front-load a one-sentence result with a decision lever on page 1.
+- **"The contribution only appears in the conclusion."** Front-load a one-sentence result with a decision lever on page 1.
 - **"The notation is impenetrable for a non-specialist."** A flagship-specific risk: a single-field journal's reviewers share your symbols; the cross-department pool here may not. Add a notation table; verbalize every proposition.
 - **"This reads like an Operations Research / Marketing Science paper."** Prose is method- or single-application-forward; re-angle toward the cross-department reading.
 

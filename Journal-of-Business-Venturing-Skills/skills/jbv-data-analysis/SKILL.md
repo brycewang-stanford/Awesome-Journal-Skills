@@ -10,7 +10,7 @@ description: Use when running and reporting the analysis for a Journal of Busine
 - Data are collected and it is time to estimate and report
 - You are unsure the estimator matches an entrepreneurial-data structure (venture survival, founding choice, nested funding events)
 - Reviewers will probe survivorship, selection into founding, or endogeneity
-- A field editor says "the analysis does not support the inference about entrepreneurship"
+- A handling editor says "the analysis does not support the inference about entrepreneurship"
 
 ## Match the estimator to the entrepreneurial data structure
 

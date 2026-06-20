@@ -8,7 +8,7 @@ description: Use when turning results or a theory into an explicit contribution 
 ## When to trigger
 
 - Results exist but the "so what for entrepreneurship theory" is thin or implicit
-- A reviewer/field editor calls the contribution "incremental" or "a setting, not a contribution"
+- A reviewer or handling editor calls the contribution "incremental" or "a setting, not a contribution"
 - You cannot state in one sentence what the field now knows about entrepreneurship that it did not
 - You need to write the contribution paragraph of the intro and the theoretical-implications section
 
@@ -27,7 +27,7 @@ JBV is a discipline-defining FT50 flagship, so the theory bar is high: the paper
 
 ## Build the contribution statement
 
-1. **Before**: what the entrepreneurship field assumed or could not explain.
+1. **Before**: what the entrepreneurship field assumed or failed to explain.
 2. **Move**: the specific theoretical move (new mechanism, boundary, reconception, integration of lenses).
 3. **After**: what we now understand about the entrepreneurial phenomenon.
 4. **Boundary conditions**: where the claim holds (stage, context, venture type, ecosystem).

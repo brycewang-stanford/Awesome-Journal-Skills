@@ -9,15 +9,15 @@ description: Use when deciding which jbv-* sub-skill to invoke next, or when seq
 
 This is the router. It does not replace any specialized skill; it tells you **which jbv-* skill to use right now** for your JBV manuscript.
 
-Default assumption: unless the user says otherwise, treat the target as the **Journal of Business Venturing (JBV)** — an FT50 flagship in entrepreneurship and new venture creation, published by Elsevier (established 1985 by Ian MacMillan; print ISSN 0883-9026, eISSN 1873-2003; bimonthly). The editorial office sits at the Johnson Center for Entrepreneurship & Innovation, Kelley School of Business, Indiana University; the Editor-in-Chief is Jeffery S. McMullen. JBV's defining bar is **phenomenon-driven**: a paper must illuminate the "entrepreneurial phenomenon in its myriad of forms" and advance theory about it. Entrepreneurship must be *central* to the contribution, not an incidental setting — this is what distinguishes JBV from general management journals that accept any well-identified organizational study. The journal is self-consciously **multidisciplinary** (grounded in economics, psychology, and sociology) and welcomes "theories, narratives, and interpretations," so reviewers ask "what new theory of entrepreneurship do we learn?" as insistently as "is the method sound?"
+Default assumption: unless the user says otherwise, treat the target as the **Journal of Business Venturing (JBV)** — an FT50 flagship in entrepreneurship and new venture creation, published by Elsevier (print ISSN 0883-9026, online ISSN 1873-2003). Current ScienceDirect metadata lists Sophie Bacq and Simon Parker as Co-Editors-in-Chief. JBV's defining bar is **phenomenon-driven**: a paper must illuminate the "entrepreneurial phenomenon in its myriad of forms" and advance theory about it. Entrepreneurship must be *central* to the contribution, not an incidental setting — this is what distinguishes JBV from general management journals that accept any well-identified organizational study. The journal is self-consciously **multidisciplinary** (grounded in economics, psychology, and sociology) and welcomes "theories, narratives, and interpretations," so reviewers ask "what new theory of entrepreneurship do we learn?" as insistently as "is the method sound?"
 
-> Routing reality: manuscripts are managed by **field editors** under the EIC, each curating their own reviewer pool. Review is **double-anonymized**. Verify the current masthead and Guide for Authors on ScienceDirect; the APC (≈ USD 4,280) and metrics fluctuate — treat any figure as **approximate / 待核实**.
+> Routing reality: manuscripts are routed through the current Co-EIC / area-editor structure. Review is **double-anonymized**. Verify the current masthead, Guide for Authors, APC, and metrics on ScienceDirect before author-facing advice.
 
 ## When to trigger
 
 - "What should I do next?" with a half-built JBV manuscript
 - You have venture data and a result but no clear entrepreneurship-theory story
-- A reviewer/field editor pushes on "is entrepreneurship really central?" and you are unsure which stage is the bottleneck
+- A reviewer or handling editor pushes on "is entrepreneurship really central?" and you are unsure which stage is the bottleneck
 - You received a JBV decision letter (R&R or reject) and need to switch into response mode
 - You keep bouncing between theory, method, and writing without a plan
 
@@ -34,7 +34,7 @@ Default assumption: unless the user says otherwise, treat the target as the **Jo
 | Tables/figures cluttered, off Elsevier style, or not self-explanatory    | `jbv-tables-figures`        |
 | Prose buries the phenomenon; passive; jargon-heavy                       | `jbv-writing-style`         |
 | Ready to submit; need the Editorial Manager preflight                    | `jbv-submission`            |
-| Want to understand how JBV field-editor review works before/after submit | `jbv-review-process`        |
+| Want to understand how JBV area-editor review works before/after submit  | `jbv-review-process`        |
 | Received an R&R; need to plan and draft the response                     | `jbv-rebuttal`              |
 
 ## Default order
@@ -48,7 +48,7 @@ Default assumption: unless the user says otherwise, treat the target as the **Jo
 7. `jbv-tables-figures` — finalize main exhibits in Elsevier house style
 8. `jbv-writing-style` — full-manuscript prose polish (phenomenon-forward, active voice)
 9. `jbv-submission` — Editorial Manager preflight (anonymization, declarations, files)
-10. `jbv-review-process` — set expectations for the field-editor, multi-round process
+10. `jbv-review-process` — set expectations for the area-editor / handling-editor, multi-round process
 11. `jbv-rebuttal` — after an R&R, plan revisions then draft the response letter
 
 > `jbv-tables-figures` and `jbv-writing-style` are **late-stage polish**. Do not invoke them while the entrepreneurial phenomenon, theory, or identification is still unsettled.
@@ -61,11 +61,11 @@ Default assumption: unless the user says otherwise, treat the target as the **Jo
 - "Venture-survival sample with heavy attrition" → `jbv-data-analysis`
 - "Selection into founding may be endogenous" → `jbv-methods` then `jbv-data-analysis`
 - "Submitting tomorrow" → `jbv-submission`
-- "Got an R&R from a field editor" → `jbv-review-process` then `jbv-rebuttal`
+- "Got an R&R from a handling editor" → `jbv-review-process` then `jbv-rebuttal`
 
 ## Difference vs. general management / strategy stacks
 
-- **JBV**: entrepreneurship/new venture creation must be central; multidisciplinary; welcomes narratives and interpretations; Elsevier Editorial Manager; double-anonymized; field-editor routing.
+- **JBV**: entrepreneurship/new venture creation must be central; multidisciplinary; welcomes narratives and interpretations; Elsevier Editorial Manager; double-anonymized; area-editor routing.
 - **AMJ/AMR/ASQ/SMJ**: an entrepreneurship paper can fit those venues, but only JBV requires the *entrepreneurial phenomenon itself* to be the contribution. If entrepreneurship is incidental to your study, JBV is the wrong venue.
 
 ## Anti-patterns
