@@ -29,6 +29,10 @@ The fastest way to lose a cross-tradition reviewer is to deploy a construct as i
 
 Because JAIS treats theory as a first-class contribution, the narrative spine is the theoretical argument; methods and results serve it. Walk the reader through the mechanism in words before equations or coefficients. For a Theory or Perspectives paper, the prose *is* the contribution — invest accordingly, with crisp construct definitions and a clean logical chain from premises to propositions.
 
+## Write the abstract to do its job across traditions
+
+The abstract is the first and sometimes only thing an editor reads before deciding fit, and at JAIS it must be self-contained and legible to reviewers from any tradition. A strong JAIS abstract moves cleanly through four beats: the IS phenomenon and why it matters, the theoretical move (new construct / framework / mechanism), the method and evidence in a clause, and the contribution stated as a change in what the field knows. Avoid opening the abstract with method ("Using a survey of 412…") — lead with the phenomenon and the idea, because that is what a cross-tradition editor is screening for.
+
 ## Prose mechanics JAIS reviewers notice
 
 - **APA 6th edition** references and in-text citation; lead with the idea, not a parenthetical pile-up.
