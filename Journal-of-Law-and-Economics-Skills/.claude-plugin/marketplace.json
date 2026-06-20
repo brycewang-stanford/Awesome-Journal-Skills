@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jle-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for The Journal of Law and Economics manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jle-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the The Journal of Law and Economics manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jle-skills",
+      "repository": "https://github.com/brycewang-stanford/jle-skills",
+      "keywords": [
+        "jle",
+        "the-journal-of-law-and-economics",
+        "econ",
+        "academic-writing",
+        "journal-skills",
+        "legal-rule-variation",
+        "institutional-doctrine",
+        "contracting-friction"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jle-workflow",
+        "skills/jle-topic-selection",
+        "skills/jle-literature-positioning",
+        "skills/jle-identification",
+        "skills/jle-theory-model",
+        "skills/jle-robustness",
+        "skills/jle-tables-figures",
+        "skills/jle-writing-style",
+        "skills/jle-replication-package",
+        "skills/jle-referee-strategy",
+        "skills/jle-submission",
+        "skills/jle-rebuttal"
+      ]
+    }
+  ]
+}

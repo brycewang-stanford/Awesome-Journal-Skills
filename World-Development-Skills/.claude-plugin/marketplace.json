@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "world-development-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for World Development manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "world-development-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the World Development manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/world-development-skills",
+      "repository": "https://github.com/brycewang-stanford/world-development-skills",
+      "keywords": [
+        "world-development",
+        "econ",
+        "academic-writing",
+        "journal-skills",
+        "development-intervention",
+        "local-institution",
+        "poverty-mechanism",
+        "implementation-constraint"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/worlddev-workflow",
+        "skills/worlddev-topic-selection",
+        "skills/worlddev-literature-positioning",
+        "skills/worlddev-identification",
+        "skills/worlddev-theory-model",
+        "skills/worlddev-robustness",
+        "skills/worlddev-tables-figures",
+        "skills/worlddev-writing-style",
+        "skills/worlddev-replication-package",
+        "skills/worlddev-referee-strategy",
+        "skills/worlddev-submission",
+        "skills/worlddev-rebuttal"
+      ]
+    }
+  ]
+}

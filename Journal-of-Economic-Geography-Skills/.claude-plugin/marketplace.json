@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "journal-of-economic-geography-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Journal of Economic Geography manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "journal-of-economic-geography-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Economic Geography manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/journal-of-economic-geography-skills",
+      "repository": "https://github.com/brycewang-stanford/journal-of-economic-geography-skills",
+      "keywords": [
+        "jeg",
+        "journal-of-economic-geography",
+        "econ",
+        "academic-writing",
+        "journal-skills",
+        "spatial-clustering",
+        "regional-divergence",
+        "place-based-policy"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jegeo-workflow",
+        "skills/jegeo-topic-selection",
+        "skills/jegeo-literature-positioning",
+        "skills/jegeo-identification",
+        "skills/jegeo-theory-model",
+        "skills/jegeo-robustness",
+        "skills/jegeo-tables-figures",
+        "skills/jegeo-writing-style",
+        "skills/jegeo-replication-package",
+        "skills/jegeo-referee-strategy",
+        "skills/jegeo-submission",
+        "skills/jegeo-rebuttal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "jeem-skills",
+  "description": "Agent skill stack for manuscripts targeted at Journal of Environmental Economics and Management (JEEM). Twelve role skills cover fit, contribution, evidence, writing, submission, and revision with source-backed JEEM guardrails.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jeem-skills",
+  "repository": "https://github.com/brycewang-stanford/jeem-skills",
+  "keywords": [
+    "jeem",
+    "journal-of-environmental-economics-and-management",
+    "econ",
+    "academic-writing",
+    "journal-skills",
+    "environmental-externality",
+    "regulatory-design",
+    "valuation-evidence",
+    "climate-adaptation",
+    "resource-management"
+  ]
+}

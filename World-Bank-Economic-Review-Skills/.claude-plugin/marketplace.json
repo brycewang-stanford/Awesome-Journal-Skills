@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "wber-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for The World Bank Economic Review manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "wber-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the The World Bank Economic Review manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/wber-skills",
+      "repository": "https://github.com/brycewang-stanford/wber-skills",
+      "keywords": [
+        "wber",
+        "the-world-bank-economic-review",
+        "econ",
+        "academic-writing",
+        "journal-skills",
+        "policy-counterfactual",
+        "program-evaluation",
+        "world-bank-audience"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/wber-workflow",
+        "skills/wber-topic-selection",
+        "skills/wber-literature-positioning",
+        "skills/wber-identification",
+        "skills/wber-theory-model",
+        "skills/wber-robustness",
+        "skills/wber-tables-figures",
+        "skills/wber-writing-style",
+        "skills/wber-replication-package",
+        "skills/wber-referee-strategy",
+        "skills/wber-submission",
+        "skills/wber-rebuttal"
+      ]
+    }
+  ]
+}

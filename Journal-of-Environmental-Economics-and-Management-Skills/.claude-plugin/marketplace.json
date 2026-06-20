@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jeem-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Journal of Environmental Economics and Management manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jeem-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Environmental Economics and Management manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jeem-skills",
+      "repository": "https://github.com/brycewang-stanford/jeem-skills",
+      "keywords": [
+        "jeem",
+        "journal-of-environmental-economics-and-management",
+        "econ",
+        "academic-writing",
+        "journal-skills",
+        "environmental-externality",
+        "regulatory-design",
+        "valuation-evidence"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jeem-workflow",
+        "skills/jeem-topic-selection",
+        "skills/jeem-literature-positioning",
+        "skills/jeem-identification",
+        "skills/jeem-theory-model",
+        "skills/jeem-robustness",
+        "skills/jeem-tables-figures",
+        "skills/jeem-writing-style",
+        "skills/jeem-replication-package",
+        "skills/jeem-referee-strategy",
+        "skills/jeem-submission",
+        "skills/jeem-rebuttal"
+      ]
+    }
+  ]
+}

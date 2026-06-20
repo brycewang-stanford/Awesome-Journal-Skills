@@ -1,0 +1,24 @@
+{
+  "name": "wber-skills",
+  "description": "Agent skill stack for manuscripts targeted at The World Bank Economic Review (WBER). Twelve role skills cover fit, contribution, evidence, writing, submission, and revision with source-backed WBER guardrails.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/wber-skills",
+  "repository": "https://github.com/brycewang-stanford/wber-skills",
+  "keywords": [
+    "wber",
+    "the-world-bank-economic-review",
+    "econ",
+    "academic-writing",
+    "journal-skills",
+    "policy-counterfactual",
+    "program-evaluation",
+    "world-bank-audience",
+    "developing-country-data",
+    "implementation-margin"
+  ]
+}

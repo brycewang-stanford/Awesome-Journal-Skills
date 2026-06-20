@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jebo-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Journal of Economic Behavior and Organization manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jebo-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Economic Behavior and Organization manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jebo-skills",
+      "repository": "https://github.com/brycewang-stanford/jebo-skills",
+      "keywords": [
+        "jebo",
+        "journal-of-economic-behavior-and-organization",
+        "econ",
+        "academic-writing",
+        "journal-skills",
+        "behavioral-mechanism",
+        "institutional-setting",
+        "laboratory-evidence"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jebo-workflow",
+        "skills/jebo-topic-selection",
+        "skills/jebo-literature-positioning",
+        "skills/jebo-identification",
+        "skills/jebo-theory-model",
+        "skills/jebo-robustness",
+        "skills/jebo-tables-figures",
+        "skills/jebo-writing-style",
+        "skills/jebo-replication-package",
+        "skills/jebo-referee-strategy",
+        "skills/jebo-submission",
+        "skills/jebo-rebuttal"
+      ]
+    }
+  ]
+}
