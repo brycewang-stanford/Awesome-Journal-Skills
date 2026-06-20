@@ -32,6 +32,10 @@ JAIS shares the Senior Scholars' Basket with MISQ, ISR, JMIS, EJIS, ISJ, JSIS, a
 - **Single-silo positioning.** The front end cites only the author's home sub-tradition (say, only behavioral IS) while the reviewer pool spans economics, design science, and interpretive work. Cure: anchor the conversation in terms recognizable across traditions, then specialize.
 - **Import-without-return.** The paper borrows a reference-discipline theory (economics, psychology, sociology, CS) and applies it to an IS setting without changing what that theory predicts. JAIS calls this a borrowed-theory application; cure it by making the IS context revise the source theory.
 
+## Cite JAIS's own discourse where it exists
+
+A small but effective signal of fit is engaging JAIS's own published conversation on your topic — its Theory pieces, its literature reviews, its Research Perspectives. This is not citation-stuffing the home journal; it shows the editor your paper extends a discussion the journal already values, and it helps the SE see continuity with the journal's intellectual agenda. Where JAIS has not yet covered your phenomenon (common for genuinely novel digital topics), say so plainly and let that absence motivate a Foundational or Theory framing rather than papering over it with loosely related cites.
+
 ## For Literature Review submissions, positioning *is* the method
 
 JAIS's Literature Review category (SE Gregory Vial, 待核实) recognizes two genres: a structured synthesis that informs new directions, and theory development/elaboration *through* review. Either way, the boundary of the literature you include is a defended choice — state inclusion/exclusion criteria, the search and coding procedure, and the theoretical payoff the synthesis produces. A review without a method and a forward-looking contribution is a desk-reject here.
