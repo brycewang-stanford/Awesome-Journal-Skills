@@ -60,6 +60,26 @@ charts do not.
 【Next】amanthro-writing-style
 ```
 
+## Exhibit decision table (by subfield)
+
+| If your exhibit is… | The first question an AA editor/reviewer asks | The fix that clears it |
+|---------------------|------------------------------------------------|------------------------|
+| A field photograph of people | Did they consent to *this* image being published? | Consent on file; blur/withhold per the consent; caption with place/date |
+| A map or site plan | Does it reveal a protected/sacred location? | Generalize coordinates; consult the community before publishing |
+| An artifact plate / museum image | Are permissions and credits secured; is it heritage-sensitive? | Clear rights; respect community authority; some objects are not reproduced |
+| An interlinear transcript | Are transcription conventions stated and glosses legible? | State conventions; align glosses; translate fairly |
+| A quantitative plot (bio/archaeo) | Does it show uncertainty, and do values match the analysis? | Plot intervals/effect sizes; reconcile numbers to the source |
+| A multimodal piece (film/sound) | Does the media *argue*, with consent and access controls? | Make it carry analytic weight; document consent for the medium |
+
+## Calibration anchors (hedged)
+
+- At AA, **an exhibit is an ethical act**, not just a display: consent, heritage authority, and the
+  dignity of the people shown can override the cleanest visualization.
+- Exhibits **cost words** in Research Articles (the count includes figures, tables, references, and
+  notes), so a decorative image is doubly expensive — drop it or move support to where it argues.
+- Wiley's exact alt-text, resolution, and permission specifics can change — confirm on the live author
+  guidelines (待核实) before final formatting.
+
 ## Supplementary resources
 
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — mapping/GIS, image, transcription, and plotting tools
