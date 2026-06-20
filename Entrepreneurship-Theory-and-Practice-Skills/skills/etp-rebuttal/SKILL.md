@@ -1,70 +1,70 @@
 ---
 name: etp-rebuttal
-description: Use when working on rebuttal strategy for a Entrepreneurship Theory and Practice manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when drafting the response to an Entrepreneurship Theory and Practice (ETP) R&R — building a point-by-point response letter that honors the developmental, double-anonymized review and re-secures the theory-and-practice contribution. Drafts the response; it does not run the submission preflight (etp-submission) or re-read the decision (etp-review-process).
 ---
 
 # Rebuttal Strategy (etp-rebuttal)
 
 ## When to trigger
-- The manuscript is aimed at **Entrepreneurship Theory and Practice (ETP)** and rebuttal strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's entrepreneurship theory, new ventures, founder teams, entrepreneurial finance, ecosystems, and family business standard.
-- The paper risks being confused with nearby venues: Journal of Business Venturing, Strategic Entrepreneurship Journal, Research Policy, and Academy of Management Journal.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- An ETP major or minor R&R arrived and you must draft the response
+- Reviewers disagree and you need a strategy that does not whipsaw the paper
+- A reviewer asks for analysis or theory you are unsure you should provide
+- The theory contribution or the practice mandate took fire and must be re-secured
+- You need a response-letter structure an editor and reviewers will find easy to verify
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| venture formation is central | Make the venture formation assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| founder team is central | Make the founder team assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| entrepreneurial ecosystem is central | Make the entrepreneurial ecosystem assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| opportunity process is central | Make the opportunity process assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| startup finance is central | Make the startup finance assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The ETP rebuttal mindset
 
-## ETP fit notes
+ETP's review is **developmental** — an R&R is an invitation, and the editor and reviewers have invested in the paper's improvement. The winning posture is **gracious, thorough, and responsive**: take every point seriously, do the work where it is reasonable, and disagree only with evidence and a clear rationale. A defensive or selective response squanders the goodwill an R&R represents and is the most common way authors lose a winnable revision.
 
-- Publisher / owner context: SAGE for Baylor University.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: venture formation, founder team, entrepreneurial ecosystem, opportunity process, startup finance.
-- Sibling boundary: Journal of Business Venturing, Strategic Entrepreneurship Journal, Research Policy, and Academy of Management Journal.
-- House-style aim: entrepreneurship theory with credible venture-level evidence and boundary conditions.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/etp
-- https://journals.sagepub.com/author-instructions/ETP
+## Structure the response letter
 
-## Stage-specific moves
+- **Open with a synthesis** thanking the editor and reviewers and summarizing the *major changes* (e.g., "we re-grounded the mechanism in effectuation theory, added an event-history model addressing survivorship, and rewrote the practice section"). This orients busy readers before the point-by-point.
+- **Reproduce every comment verbatim**, then respond beneath it. Number them (R1.1, R2.3) so the editor can audit coverage.
+- **For each point**: state what you changed, *quote the new manuscript text*, and give the page/line. "Done" without showing the change is unverifiable and irritates reviewers.
+- **Lead with the editor's binding concerns** in your synthesis even though the letter follows reviewer order — show you read the editor's prioritization.
 
-1. State the exact rebuttal strategy question in one sentence.
-2. Identify which ETP audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `etp-rebuttal` if the stage passes, or back to `etp-workflow` if it does not.
+## Handle the three hard cases
+
+| Situation | ETP-appropriate move |
+|-----------|---------------------|
+| **Reviewers conflict** | Follow the editor's signal; explain to both reviewers what you did and why, transparently, rather than quietly siding with one |
+| **A request you should resist** | Disagree respectfully with evidence/logic; offer an alternative (e.g., a robustness check instead of a flawed re-specification); never just refuse |
+| **A request beyond feasibility** | Do the feasible core; acknowledge the limit honestly and add it to limitations/future research rather than faking the analysis |
+
+## Re-secure the two contributions
+
+ETP R&Rs frequently push on (1) whether the mechanism is *truly entrepreneurial* and (2) whether the *practice contribution* is real. Treat both as first-order in the revision: if a reviewer said the theory "could be about any firm," your response must show the sharpened entrepreneurial mechanism (with the new text), not merely assert it. If the practice section was called generic, rewrite it to be mechanism-derived and actor-specific, and point to it in the letter. Winning the theory while leaving the practice mandate weak is a classic ETP miss.
 
 ## Checklist
-- [ ] The ETP audience can see why the paper belongs in entrepreneurship theory, new ventures, founder teams, entrepreneurial finance, ecosystems, and family business.
-- [ ] The draft distinguishes ETP from Journal of Business Venturing, Strategic Entrepreneurship Journal, Research Policy.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for rebuttal strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Synthesis opening summarizes major changes and acknowledges the editor's priorities
+- [ ] Every reviewer comment reproduced and answered, numbered for audit
+- [ ] Each response quotes the new manuscript text with page/line, not just "done"
+- [ ] Reviewer conflicts handled via the editor's signal, transparently to both
+- [ ] Resisted requests are declined with evidence and an alternative, not a refusal
+- [ ] The entrepreneurial mechanism is re-secured with concrete new text
+- [ ] The practice contribution is rebuilt where it was challenged
+- [ ] Tone is gracious and developmental throughout
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to ETP without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **"Done" with no shown text** — unverifiable claims that frustrate reviewers
+- **Selective response** — answering easy points, dodging the hard one the editor flagged
+- **Defensiveness** — arguing instead of revising, or dismissing a reviewer
+- **Whipsawing** — satisfying one reviewer in a way that breaks the paper for another, with no editor logic
+- **Theory-only revision** — re-securing the mechanism while leaving the practice mandate thin
+- **Faking infeasible analysis** instead of scoping honestly to limitations
 
 ## Output format
 
 ```text
 【Journal】Entrepreneurship Theory and Practice
-【Skill】etp-rebuttal
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking rebuttal strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Business Venturing, Strategic Entrepreneurship Journal
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】etp-rebuttal
+【Synthesis】major changes + editor priorities acknowledged
+【Coverage】every comment numbered + answered with quoted new text? Y/N
+【Conflict handling】how reviewer disagreement resolved via editor signal
+【Resisted points】declined with evidence + alternative? Y/N
+【Mechanism re-secured】new text showing it is entrepreneurial? Y/N
+【Practice rebuilt】mechanism-derived + actor-specific? Y/N
+【Next step】etp-submission preflight → resubmit via ScholarOne
 ```

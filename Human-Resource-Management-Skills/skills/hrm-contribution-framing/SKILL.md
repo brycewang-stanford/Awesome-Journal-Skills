@@ -1,70 +1,69 @@
 ---
 name: hrm-contribution-framing
-description: Use when working on contribution framing for a Human Resource Management manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the one-sentence claim is not sharp for a Human Resource Management (Wiley "HRM") manuscript — articulating the dual contribution the journal demands: a scholarly advance AND a clear implication for workforce policy or HRM practice. Frames the claim; it does not build the theory (hrm-theory-development).
 ---
 
 # Contribution Framing (hrm-contribution-framing)
 
 ## When to trigger
-- The manuscript is aimed at **Human Resource Management (HRM)** and contribution framing is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's human resource management, talent, compensation, employment systems, workforce analytics, and HR strategy standard.
-- The paper risks being confused with nearby venues: Personnel Psychology, Journal of Management, Human Relations, and Academy of Management Journal.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You cannot state in one sentence what the field now knows that it didn't
+- The theory contribution is clear but the **practice implication** is missing or hand-waved
+- The practice takeaway is vivid but the **scholarly advance** is thin
+- A reviewer or the EIC's screen says "incremental," "no clear contribution," or "so what for practice?"
+- The contribution lives in the discussion, not the abstract and intro
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| HR system is central | Make the HR system assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| talent architecture is central | Make the talent architecture assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| employment relation is central | Make the employment relation assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| workforce analytics is central | Make the workforce analytics assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| strategic HR is central | Make the strategic HR assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## HRM's dual contribution is the whole game
 
-## HRM fit notes
+*Human Resource Management* states plainly that submissions must **advance the academic literature (theoretically, empirically, and/or methodologically) AND have practical significance — clear implications for workforce policy or HRM practice.** Most desk rejections at HRM trace to one of two failures: a rigorous paper with no realistic practice payoff, or a relevant paper with no scholarly advance. The framing task is to make **both halves** undeniable, in the abstract and the first two pages.
 
-- Publisher / owner context: Wiley.
-- Submission route to re-check: Wiley online submission.
-- Signature vocabulary: HR system, talent architecture, employment relation, workforce analytics, strategic HR.
-- Sibling boundary: Personnel Psychology, Journal of Management, Human Relations, and Academy of Management Journal.
-- House-style aim: HR scholarship that connects people practices to organizational mechanisms and outcomes.
-- Official URLs currently used by the pack:
-- https://onlinelibrary.wiley.com/journal/1099050x
-- https://onlinelibrary.wiley.com/page/journal/1099050x/homepage/forauthors.html
+Write the contribution as two linked sentences:
 
-## Stage-specific moves
+1. **Scholarly advance.** "We show that [HR mechanism/relationship], which extends/qualifies/overturns [conversation], because [evidence]." Name the type — theoretical, empirical, or methodological.
+2. **Practice payoff.** "For HR leaders/policy-makers, this means [specific decision changes], because [the effect is large/conditional/actionable]." Name the decision-maker and the choice.
 
-1. State the exact contribution framing question in one sentence.
-2. Identify which HRM audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `hrm-tables-figures` if the stage passes, or back to `hrm-workflow` if it does not.
+## The contribution test (run it in both directions)
+
+| Question | If you can't answer → fix |
+|----------|---------------------------|
+| What does the field now know that it didn't? | Sharpen the scholarly advance; pick one contribution verb |
+| Whose HR decision changes, and how? | Add the practice payoff with a named decision-maker |
+| Is the effect big or conditional enough to act on? | Translate the result into a practitioner magnitude |
+| Could a reviewer call this incremental? | Show the wrong conclusion the field would draw without you |
+| Is the takeaway in the abstract? | Move both halves up front; do not bury them in the discussion |
+
+## Calibrating the practice payoff (avoid the "managerial implications" cliché)
+
+HRM referees know a boilerplate "managers should pay attention to X" paragraph when they see one. A strong payoff is **specific, conditional, and tied to your evidence**: which practice, for whom, at what cost, under what conditions, with what expected return. If your result says HPWS helps only when line managers actually enact it, the payoff is about **implementation**, not adoption — say that. If the effect reverses for a subgroup, the honest payoff includes the caution.
 
 ## Checklist
-- [ ] The HRM audience can see why the paper belongs in human resource management, talent, compensation, employment systems, workforce analytics, and HR strategy.
-- [ ] The draft distinguishes HRM from Personnel Psychology, Journal of Management, Human Relations.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for contribution framing names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] One sentence each: the scholarly advance and the practice payoff
+- [ ] The contribution type is named (theoretical / empirical / methodological)
+- [ ] A specific decision-maker and a specific decision are named in the payoff
+- [ ] The payoff is conditional and evidence-based, not boilerplate
+- [ ] The effect is translated into a practitioner-meaningful magnitude
+- [ ] Both halves appear in the abstract and the opening pages, not only the discussion
+- [ ] The framing pre-empts the "incremental" verdict
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to HRM without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Single-gate framing**: a contribution that is all theory or all practice
+- **Boilerplate implications**: a generic "managers should attend to X" paragraph
+- **Buried claim**: the contribution stated only in the discussion section
+- **Overclaim**: a practice prescription the data cannot support (cross-sectional → causal advice)
+- **Verb soup**: claiming to extend, qualify, and overturn at once instead of one clear move
+- **Magnitude silence**: a "significant" effect with no actionable size
 
 ## Output format
 
 ```text
-【Journal】Human Resource Management
+【Journal】Human Resource Management (Wiley "HRM")
 【Skill】hrm-contribution-framing
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking contribution framing
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Personnel Psychology, Journal of Management
-【Source status】verified URL / 待核实 / not asserted
+【Scholarly advance (1 sentence)】type: theoretical/empirical/methodological — what the field now knows
+【Practice payoff (1 sentence)】decision-maker + decision changed + condition
+【Practitioner magnitude】the actionable number
+【Incremental-proofing】wrong conclusion avoided because of this paper
+【Placement】both halves in abstract + intro? yes/no
 【Next skill】hrm-tables-figures
 ```

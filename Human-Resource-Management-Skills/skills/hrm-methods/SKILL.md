@@ -1,70 +1,73 @@
 ---
 name: hrm-methods
-description: Use when working on methods for a Human Resource Management manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the research design is the bottleneck for a Human Resource Management (Wiley "HRM") manuscript — matching multilevel structure, multi-source/multi-wave timing, construct validity, and common-method-bias defenses to the theoretical claim. Designs the study; it does not run the estimation (hrm-data-analysis).
 ---
 
-# Methods (hrm-methods)
+# Research Design & Methods (hrm-methods)
 
 ## When to trigger
-- The manuscript is aimed at **Human Resource Management (HRM)** and methods is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's human resource management, talent, compensation, employment systems, workforce analytics, and HR strategy standard.
-- The paper risks being confused with nearby venues: Personnel Psychology, Journal of Management, Human Relations, and Academy of Management Journal.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Predictor and outcome are single-source, single-wave, self-reported (common-method-bias risk)
+- The theory is cross-level (unit HR system → individual outcome) but data are one level
+- HR-system or practice constructs lack validated measures or a defended aggregation
+- The causal claim ("HPWS raises performance") rests on cross-sectional correlation
+- A reviewer says "the design cannot test this hypothesis," "CMB," or "HPWS adoption is endogenous"
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| HR system is central | Make the HR system assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| talent architecture is central | Make the talent architecture assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| employment relation is central | Make the employment relation assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| workforce analytics is central | Make the workforce analytics assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| strategic HR is central | Make the strategic HR assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## HRM accepts any rigorous design — the bar is fit, not method
 
-## HRM fit notes
+HRM welcomes qualitative, quantitative, meta-analytic, and critical-review work, exploratory or confirmatory, inductive/deductive/abductive. The judgment is **fit and rigor**, plus the journal's demand that the design support a **practice-relevant** conclusion. Match the design to the claim:
 
-- Publisher / owner context: Wiley.
-- Submission route to re-check: Wiley online submission.
-- Signature vocabulary: HR system, talent architecture, employment relation, workforce analytics, strategic HR.
-- Sibling boundary: Personnel Psychology, Journal of Management, Human Relations, and Academy of Management Journal.
-- House-style aim: HR scholarship that connects people practices to organizational mechanisms and outcomes.
-- Official URLs currently used by the pack:
-- https://onlinelibrary.wiley.com/journal/1099050x
-- https://onlinelibrary.wiley.com/page/journal/1099050x/homepage/forauthors.html
+| Theoretical claim | Design that earns it |
+|-------------------|----------------------|
+| HR practice/system → individual attitudes & behavior | Multi-source, multi-wave survey; predictor and outcome from different sources/times |
+| Unit HR system → individual outcomes (cross-level) | Nested data (employees in units); HLM-appropriate structure; aggregation justified |
+| HR system → firm/establishment performance | Panel archival with fixed effects + an endogeneity/identification strategy |
+| Causal effect of an HR intervention | Field experiment, natural experiment, or quasi-experiment (DiD) |
+| Rich, contested, or emergent HR phenomenon | Qualitative / multi-method, with grounded rigor and a transparent audit trail |
 
-## Stage-specific moves
+A **two-study design** (e.g., a field study for generalizability plus an experiment for the mechanism) is a recognized HRM strength.
 
-1. State the exact methods question in one sentence.
-2. Identify which HRM audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `hrm-data-analysis` if the stage passes, or back to `hrm-workflow` if it does not.
+## Designing against the threats HRM referees punish
+
+- **Common-method bias (CMB).** Procedural remedies beat statistical fixes: separate the **source** (self-report predictor, supervisor/objective outcome) and the **time** (multi-wave lag) of measurement, and plan this *before* data collection. A Harman single-factor test or a single unmeasured-latent-method-factor model is a supplement, not a defense.
+- **Endogeneity of HR adoption (archival/strategic HRM).** Firms choose HPWS for reasons correlated with performance. Anticipate omitted variables, reverse causality, and selection; specify an identification strategy (panel fixed effects, DiD, instrument, or natural experiment) and state the assumption each requires.
+- **Construct validity.** Use validated multi-item scales; pilot new HR-practice measures; plan a CFA establishing convergent/discriminant validity. Be explicit whether you measure the **intended**, **implemented**, or **perceived** HR system — they are different constructs and require different respondents.
+- **Aggregation.** When measuring a unit-level HR system from individual reports, justify aggregation with **r_wg**, **ICC(1) / ICC(2)**, and a substantive composition model (referent-shift vs. direct consensus). Do not aggregate without a theory of why the construct is shared.
+- **Sampling and power.** Justify the sampling frame and response rate; power the **interaction/cross-level** effects, which need more power than main effects.
+
+## Level-of-analysis discipline
+
+State the level for theory, measurement, and analysis, and keep them aligned. If theory is unit-level but data are individual, justify aggregation; if effects are cross-level, the analysis must model the nesting — do not run OLS on nested data.
 
 ## Checklist
-- [ ] The HRM audience can see why the paper belongs in human resource management, talent, compensation, employment systems, workforce analytics, and HR strategy.
-- [ ] The draft distinguishes HRM from Personnel Psychology, Journal of Management, Human Relations.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for methods names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Design can actually test each hypothesis (causal claims have causal leverage)
+- [ ] CMB addressed by **designed** source/time separation, not just a post-hoc test
+- [ ] Endogeneity strategy specified for HR-adoption / archival causal claims
+- [ ] Constructs use validated measures; new HR measures piloted; CFA planned
+- [ ] Intended vs. implemented vs. perceived HR system stated and matched to respondent
+- [ ] Aggregation justified (r_wg, ICC) with a stated composition model
+- [ ] Levels aligned across theory, measurement, analysis; nesting modeled
+- [ ] Power justified for cross-level / interaction effects, not just main effects
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to HRM without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Cross-sectional causal claim**: "HR practice causes outcome" from one-wave self-report
+- **CMB as afterthought**: a Harman test standing in for designed separation
+- **Endogeneity ignored**: an HPWS→performance coefficient with an obviously self-selected adopter set
+- **Aggregation by fiat**: averaging individuals into a "unit HR system" with no r_wg/ICC
+- **Construct slippage**: measuring perceived practices but theorizing the implemented system
+- **Underpowered cross-level interaction** reported as a null boundary condition
 
 ## Output format
 
 ```text
-【Journal】Human Resource Management
-【Skill】hrm-methods
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking methods
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Personnel Psychology, Journal of Management
-【Source status】verified URL / 待核实 / not asserted
+【Design】multi-source survey / multilevel nested / panel-archival / experiment / qualitative / multi-method
+【Hypothesis–design fit】each H testable? notes ...
+【CMB plan】source separation + time lag ...
+【Endogeneity strategy】(if archival) FE / DiD / IV / natural experiment ...
+【Constructs】validated? new (piloted)? CFA? intended/implemented/perceived?
+【Aggregation】r_wg / ICC(1)/ICC(2); composition model
+【Levels & power】theory/measurement/analysis aligned; power for cross-level/interaction
 【Next skill】hrm-data-analysis
 ```

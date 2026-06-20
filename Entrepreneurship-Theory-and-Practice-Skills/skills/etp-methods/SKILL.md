@@ -1,70 +1,71 @@
 ---
 name: etp-methods
-description: Use when working on methods for a Entrepreneurship Theory and Practice manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when designing or defending the research design for an Entrepreneurship Theory and Practice (ETP) manuscript — matching a method to an entrepreneurial question and handling the selection, survivorship, and process-observation problems unique to new ventures. Designs the study; it does not estimate it (etp-data-analysis) or frame the contribution (etp-contribution-framing).
 ---
 
-# Methods (etp-methods)
+# Methods & Research Design (etp-methods)
 
 ## When to trigger
-- The manuscript is aimed at **Entrepreneurship Theory and Practice (ETP)** and methods is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's entrepreneurship theory, new ventures, founder teams, entrepreneurial finance, ecosystems, and family business standard.
-- The paper risks being confused with nearby venues: Journal of Business Venturing, Strategic Entrepreneurship Journal, Research Policy, and Academy of Management Journal.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You are choosing a design and unsure it can observe the entrepreneurial process you theorize
+- A reviewer flags selection into entrepreneurship, survivorship bias, or an undocumented sampling frame
+- The design is cross-sectional but the theory is a venturing *process*
+- You are weighing inductive qualitative work, experiments, archival venture panels, or mixed methods
+- Construct validity for an entrepreneurial measure (alertness, effectuation, SEW, passion) is in doubt
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| venture formation is central | Make the venture formation assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| founder team is central | Make the founder team assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| entrepreneurial ecosystem is central | Make the entrepreneurial ecosystem assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| opportunity process is central | Make the opportunity process assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| startup finance is central | Make the startup finance assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## ETP is method-plural but theory-first
 
-## ETP fit notes
+ETP publishes strong **quantitative, qualitative, and mixed-methods** work; it has no single preferred method. The constant is that the design must let you **build or test entrepreneurship theory** and that it confronts the inference problems that are *endemic to studying new ventures*. Choose the design that can actually observe the mechanism, then design against the entrepreneurship-specific threats below — these are the things ETP referees reflexively probe.
 
-- Publisher / owner context: SAGE for Baylor University.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: venture formation, founder team, entrepreneurial ecosystem, opportunity process, startup finance.
-- Sibling boundary: Journal of Business Venturing, Strategic Entrepreneurship Journal, Research Policy, and Academy of Management Journal.
-- House-style aim: entrepreneurship theory with credible venture-level evidence and boundary conditions.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/etp
-- https://journals.sagepub.com/author-instructions/ETP
+| Entrepreneurial question / claim | Fitting design |
+|----------------------------------|----------------|
+| How ventures/opportunities emerge; sensemaking; identity work | Inductive qualitative (Gioia, process), longitudinal cases |
+| Founder decision logic / cognition under uncertainty | Experiments, conjoint / policy-capturing, verbal protocols |
+| Antecedents/consequences across many ventures | Archival venture panels (Crunchbase, PitchBook, GEM, PSED/KFS, registries) |
+| Founding, exit, IPO, failure, time-to-event | Survival / event-history models |
+| Financing signals (VC, angels, crowdfunding) | Field/natural experiments; panels with funding events |
+| Family-firm behavior (SEW) | Survey + archival; sometimes dyadic/family data |
+| Theory-building plus generalization | Mixed methods (qual to build, quant to test) |
 
-## Stage-specific moves
+## The four threats ETP referees reflexively probe
 
-1. State the exact methods question in one sentence.
-2. Identify which ETP audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `etp-data-analysis` if the stage passes, or back to `etp-workflow` if it does not.
+- **Selection into entrepreneurship.** Founders self-select; comparing them to non-founders, or treating "who became an entrepreneur" as random, invites a Heckman/Roy or design-based response. Ignoring selection is a near-automatic flag.
+- **Survivorship.** New-venture samples lose failed ventures fast; a sample of survivors silently conditions on success and biases any "what makes ventures succeed" claim. Push the frame upstream to nascent/registry panels (PSED-style) that capture pre-founding and failed ventures.
+- **Process observability and temporal precedence.** To claim antecedents or a process, the design must order constructs in time — longitudinal waves, pre/post a shock, staged measurement. A single cross-section cannot carry a venturing-process claim.
+- **Construct validity for entrepreneurial constructs.** Effectuation, alertness, passion, SEW, and entrepreneurial orientation are contested measures; cite the validated scale, report reliability, and show discriminant validity from the generic relabel (e.g., effectuation ≠ improvisation; SEW ≠ ownership concentration).
+
+## Qualitative rigor at ETP
+
+For inductive work, ETP expects a visible **trustworthiness** apparatus: a clear data structure (1st-order codes → 2nd-order themes → aggregate dimensions), an audit trail, representative quotations tied to informants, and a process model as the output. Sampling logic (theoretical, not convenience) and saturation should be argued. A rich story without this scaffolding reads as journalism to a methods-attentive ETP reviewer.
 
 ## Checklist
-- [ ] The ETP audience can see why the paper belongs in entrepreneurship theory, new ventures, founder teams, entrepreneurial finance, ecosystems, and family business.
-- [ ] The draft distinguishes ETP from Journal of Business Venturing, Strategic Entrepreneurship Journal, Research Policy.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for methods names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] The design can actually observe/test the theorized entrepreneurial mechanism
+- [ ] Selection into founding is modeled or addressed by design
+- [ ] Survivorship/attrition handled in the sampling frame, not patched statistically later
+- [ ] Temporal precedence supports any antecedent/process claim
+- [ ] Entrepreneurial constructs use validated scales with reliability + discriminant validity
+- [ ] Qualitative: data structure, audit trail, theoretical sampling, quotations, process model
+- [ ] Sample frame, coverage, and construction documented (especially for novel datasets)
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to ETP without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Survivor-only sample** treated as representative of venture creation
+- **Cross-sectional self-report** used to claim a dynamic entrepreneurial process
+- **Selection ignored** — founders compared to non-founders as if assignment were random
+- **Construct relabeling** — a generic measure renamed as an entrepreneurial one
+- **Convenience startup sample** with an undocumented frame
+- **Thin qual** — vivid quotes, no data structure or audit trail
 
 ## Output format
 
 ```text
 【Journal】Entrepreneurship Theory and Practice
-【Skill】etp-methods
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking methods
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Business Venturing, Strategic Entrepreneurship Journal
-【Source status】verified URL / 待核实 / not asserted
+【Question→design fit】design + why it observes the entrepreneurial mechanism
+【Selection】founding-choice strategy (model / design-based / N/A + why)
+【Survivorship/attrition】sampling-frame handling
+【Temporal precedence】how constructs are ordered in time
+【Construct validity】scale + reliability + discriminant evidence
+【Qual rigor】data structure / audit trail / saturation (if applicable)
 【Next skill】etp-data-analysis
 ```

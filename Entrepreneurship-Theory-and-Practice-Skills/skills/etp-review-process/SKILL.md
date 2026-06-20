@@ -1,70 +1,74 @@
 ---
 name: etp-review-process
-description: Use when working on review process for a Entrepreneurship Theory and Practice manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when calibrating expectations for the Entrepreneurship Theory and Practice (ETP) review cycle — desk-reject odds, the developmental double-anonymized review, R&R norms, and revision choreography. Sets expectations and strategy; it does not draft the response letter (etp-rebuttal).
 ---
 
 # Review Process (etp-review-process)
 
 ## When to trigger
-- The manuscript is aimed at **Entrepreneurship Theory and Practice (ETP)** and review process is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's entrepreneurship theory, new ventures, founder teams, entrepreneurial finance, ecosystems, and family business standard.
-- The paper risks being confused with nearby venues: Journal of Business Venturing, Strategic Entrepreneurship Journal, Research Policy, and Academy of Management Journal.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You just submitted and want to know what to expect and when
+- A decision letter arrived and you need to read the signal (reject / major R&R / minor)
+- You are deciding whether an R&R is winnable and how much to invest
+- You want to understand ETP's developmental review culture before you respond
+- You are weighing a resubmission to ETP vs. a reroute to JBV/SEJ/AMJ
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| venture formation is central | Make the venture formation assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| founder team is central | Make the founder team assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| entrepreneurial ecosystem is central | Make the entrepreneurial ecosystem assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| opportunity process is central | Make the opportunity process assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| startup finance is central | Make the startup finance assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## How ETP review actually runs
 
-## ETP fit notes
+ETP uses **double-anonymized peer review** through ScholarOne, typically with a handling/associate editor and **two to three reviewers**. Like its top management/entrepreneurship peers, ETP runs a **developmental review model**: reviewers and editors aim to help a promising paper become publishable across rounds, so a **major R&R is the realistic "good" first outcome** for a strong submission — outright first-round acceptance is rare. Expect substantive, theory-heavy reviews and an editor letter that prioritizes among reviewer concerns.
 
-- Publisher / owner context: SAGE for Baylor University.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: venture formation, founder team, entrepreneurial ecosystem, opportunity process, startup finance.
-- Sibling boundary: Journal of Business Venturing, Strategic Entrepreneurship Journal, Research Policy, and Academy of Management Journal.
-- House-style aim: entrepreneurship theory with credible venture-level evidence and boundary conditions.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/etp
-- https://journals.sagepub.com/author-instructions/ETP
+Calibrate volatile specifics (current turnaround times, acceptance rate, editor) on the SAGE journal page and your ScholarOne dashboard (检索于 2026-06；以官网为准).
 
-## Stage-specific moves
+## Reading the decision letter
 
-1. State the exact review process question in one sentence.
-2. Identify which ETP audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `etp-rebuttal` if the stage passes, or back to `etp-workflow` if it does not.
+| Decision | What it usually means | Your move |
+|----------|----------------------|-----------|
+| **Desk reject** | Fit/contribution/anonymization problem before review | Reroute or re-engineer the contribution (etp-topic-selection / etp-contribution-framing) |
+| **Reject after review** | Fixable-in-principle but too far this round | Harvest the reviews; major rebuild before any resubmission |
+| **Major R&R** | The realistic strong outcome — winnable with serious work | Plan a full revision; this is `etp-rebuttal` territory |
+| **Minor R&R** | Close; targeted fixes | Address precisely; do not reopen settled issues |
+| **Conditional accept** | Almost there | Execute the editor's conditions exactly |
+
+The **editor's letter is the master document**: it tells you which reviewer concerns are binding. When reviewers conflict, the editor usually signals whose view governs — follow that signal rather than trying to satisfy everyone equally.
+
+## Why ETP papers get desk-rejected
+
+- **Fit**: a strategy/finance/general-management paper with entrepreneurship as mere setting
+- **Thin theory**: a mechanism that "could be about any firm"
+- **Missing practice mandate**: no credible implications-for-practice contribution
+- **Anonymization failure**: author identity leaks, mishandled under double-anonymized review
+- **Length/format**: over the page limit or non-APA, signaling carelessness
+
+## Choosing whether to fight for the R&R
+
+An ETP major R&R is **worth heavy investment** when the editor signals the contribution is valued and the binding concerns are addressable with available data/redesign. It is *not* worth it when a core reviewer rejects the premise (the mechanism isn't entrepreneurial, the design can't support the claim) and no feasible revision changes that — there, a reroute or rebuild beats a doomed resubmission. The developmental culture means editors expect a serious, responsive revision; a thin response burns the goodwill an R&R represents.
 
 ## Checklist
-- [ ] The ETP audience can see why the paper belongs in entrepreneurship theory, new ventures, founder teams, entrepreneurial finance, ecosystems, and family business.
-- [ ] The draft distinguishes ETP from Journal of Business Venturing, Strategic Entrepreneurship Journal, Research Policy.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for review process names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] You have identified the decision type and the editor's binding priorities
+- [ ] You can name the 2–3 concerns that must be resolved to win the R&R
+- [ ] You have judged whether the contribution premise survived (if not, reroute)
+- [ ] You know which reviewer the editor sided with on any conflict
+- [ ] The revision plan covers theory, evidence, and the practice contribution
+- [ ] Timeline and feasibility (new data? new analysis?) are realistic
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to ETP without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Treating a major R&R as a near-acceptance** and revising lightly
+- **Satisfying all reviewers equally** while ignoring the editor's prioritization
+- **Reopening settled points** in a minor R&R
+- **Fighting an unwinnable R&R** when the premise itself was rejected
+- **Ignoring the practice mandate** in the revision because the theory got most reviewer ink
 
 ## Output format
 
 ```text
 【Journal】Entrepreneurship Theory and Practice
-【Skill】etp-review-process
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking review process
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Business Venturing, Strategic Entrepreneurship Journal
-【Source status】verified URL / 待核实 / not asserted
+【Decision type】desk reject / reject / major R&R / minor R&R / conditional
+【Editor's binding priorities】top 2-3 concerns the letter foregrounds
+【Reviewer conflict】whose view the editor signals governs
+【Premise survives?】is the entrepreneurial contribution still alive? Y/N
+【Winnability】invest / reroute / rebuild + why
+【Revision scope】theory / evidence / practice section
 【Next skill】etp-rebuttal
 ```

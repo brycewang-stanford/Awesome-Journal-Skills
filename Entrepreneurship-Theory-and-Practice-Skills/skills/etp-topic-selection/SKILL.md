@@ -1,70 +1,65 @@
 ---
 name: etp-topic-selection
-description: Use when working on topic selection for a Entrepreneurship Theory and Practice manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when deciding whether a question is entrepreneurship-central enough for an Entrepreneurship Theory and Practice (ETP) manuscript, and whether ETP (vs. JBV/SEJ/AMJ) is the right home. Locks the question; it does not build the theory (etp-theory-development) or run analysis (etp-data-analysis).
 ---
 
 # Topic Selection (etp-topic-selection)
 
 ## When to trigger
-- The manuscript is aimed at **Entrepreneurship Theory and Practice (ETP)** and topic selection is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's entrepreneurship theory, new ventures, founder teams, entrepreneurial finance, ecosystems, and family business standard.
-- The paper risks being confused with nearby venues: Journal of Business Venturing, Strategic Entrepreneurship Journal, Research Policy, and Academy of Management Journal.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You have a result or a dataset but the *question* it answers is not obviously about entrepreneurship
+- You are unsure whether ETP, JBV, SEJ, or AMJ is the right outlet for this question
+- A coauthor asks "is this an ETP paper or a generic management/strategy paper?"
+- The phenomenon is interesting but you cannot say which entrepreneurship conversation it joins
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| venture formation is central | Make the venture formation assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| founder team is central | Make the founder team assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| entrepreneurial ecosystem is central | Make the entrepreneurial ecosystem assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| opportunity process is central | Make the opportunity process assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| startup finance is central | Make the startup finance assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## What makes a question an ETP question
 
-## ETP fit notes
+ETP is the **theory-and-practice flagship** of entrepreneurship (SAGE for Baylor; official journal of USASBE). A topic clears the ETP bar when it is **about the distinctively entrepreneurial** — the creation of new economic activity under uncertainty — *and* it promises to **move a theory conversation** while saying something a practitioner (founder, investor, family-firm owner, policymaker, educator) could act on. ETP's historical roots in small business and its USASBE affiliation mean it takes practice seriously; its current identity is high-theory. A good ETP topic lives at that intersection.
 
-- Publisher / owner context: SAGE for Baylor University.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: venture formation, founder team, entrepreneurial ecosystem, opportunity process, startup finance.
-- Sibling boundary: Journal of Business Venturing, Strategic Entrepreneurship Journal, Research Policy, and Academy of Management Journal.
-- House-style aim: entrepreneurship theory with credible venture-level evidence and boundary conditions.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/etp
-- https://journals.sagepub.com/author-instructions/ETP
+Entrepreneurship-central phenomena ETP publishes: new-venture creation and the **opportunity** process (recognition/discovery vs. creation), **effectuation** and entrepreneurial decision logic, **bricolage** and resourcefulness under constraint, **entrepreneurial identity** and cognition, **family business** (a core ETP franchise), **social and sustainable entrepreneurship**, entrepreneurial **finance** (VC, angels, crowdfunding), **ecosystems**, and entrepreneurship **education**. If your question does not touch one of these, it is probably a management/strategy/finance question wearing a startup costume.
 
-## Stage-specific moves
+## A three-test filter before you commit
 
-1. State the exact topic selection question in one sentence.
-2. Identify which ETP audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `etp-theory-development` if the stage passes, or back to `etp-workflow` if it does not.
+1. **The substitution test.** Swap "new venture / founder" for "established firm / manager" in your research question. If the question still makes complete sense, it is not yet entrepreneurship — find the primitive (novelty, Knightian uncertainty, liability of newness, resource constraint, founder centrality) that breaks under substitution.
+2. **The conversation test.** Name the *specific* ETP conversation you join (e.g., the discovery-vs-creation debate; the effectuation–causation contrast; socioemotional wealth in family firms). "The entrepreneurship literature" is not a conversation.
+3. **The practice test.** Say in one sentence what a founder, investor, or policymaker would do differently if you are right. If the only answer is "scholars should cite a new moderator," ETP is the wrong claim shape.
+
+## Choosing ETP over its siblings
+
+| If the core of the paper is… | Aim at | Why not ETP |
+|------------------------------|--------|-------------|
+| Entrepreneurship *theory* + practice implication | **ETP** | — |
+| A wide-lens / narrative / multidisciplinary venturing study | JBV | JBV tolerates a broader method/narrative range; ETP wants tighter theory + practice |
+| The *strategy* of entrepreneurial firms (advantage, scaling) | SEJ | SEJ sits at the strategy–entrepreneurship interface |
+| A general management phenomenon with a startup sample | AMJ | If entrepreneurship is the setting, not the theory, AMJ fits better |
+| Innovation-systems / R&D / policy with firms incidental | Research Policy | Not founder/venture-centric theory |
 
 ## Checklist
-- [ ] The ETP audience can see why the paper belongs in entrepreneurship theory, new ventures, founder teams, entrepreneurial finance, ecosystems, and family business.
-- [ ] The draft distinguishes ETP from Journal of Business Venturing, Strategic Entrepreneurship Journal, Research Policy.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for topic selection names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] The question survives the substitution test (breaks when "founder/new venture" is removed)
+- [ ] A *named* ETP conversation is the target, not "the literature"
+- [ ] A one-sentence practice implication exists and is non-trivial
+- [ ] The phenomenon is one ETP actually publishes (opportunity, family business, effectuation, social/sustainable, finance, ecosystems, education)
+- [ ] ETP beats JBV/SEJ/AMJ for *this* question, and you can say why
+- [ ] The contribution is theory-forward, not a dataset-forward "we have new data on startups"
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to ETP without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Setting-not-theory**: a startup sample standing in for an entrepreneurial mechanism
+- **Conversation-less**: positioning against "the entrepreneurship literature" with no specific debate
+- **Practice as decoration**: a paper with no actionable implication, hoping the USASBE heritage forgives it
+- **Outlet drift**: a strategy or finance paper sent to ETP because a coauthor likes the impact factor
+- **Trend-chasing**: a topic chosen because "AI startups / crowdfunding" is hot, with no entrepreneurial mechanism
 
 ## Output format
 
 ```text
 【Journal】Entrepreneurship Theory and Practice
-【Skill】etp-topic-selection
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking topic selection
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Business Venturing, Strategic Entrepreneurship Journal
-【Source status】verified URL / 待核实 / not asserted
+【Question (one sentence)】...
+【Substitution test】breaks because: <entrepreneurial primitive> / FAILS (reroute)
+【Named conversation】<specific debate, e.g. discovery vs. creation>
+【Practice implication】what a founder/investor/policymaker does differently
+【Outlet check】ETP > JBV/SEJ/AMJ because ...
+【Verdict】proceed / sharpen / reroute to <venue>
 【Next skill】etp-theory-development
 ```

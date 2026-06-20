@@ -1,70 +1,66 @@
 ---
 name: hrm-topic-selection
-description: Use when working on topic selection for a Human Resource Management manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when scoping or stress-testing the research question for a Human Resource Management (Wiley "HRM") manuscript — confirming an HR-system/practice phenomenon with both a scholarly advance and a workforce-policy or HRM-practice payoff. Locks the question; it does not build the theory (hrm-theory-development).
 ---
 
 # Topic Selection (hrm-topic-selection)
 
 ## When to trigger
-- The manuscript is aimed at **Human Resource Management (HRM)** and topic selection is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's human resource management, talent, compensation, employment systems, workforce analytics, and HR strategy standard.
-- The paper risks being confused with nearby venues: Personnel Psychology, Journal of Management, Human Relations, and Academy of Management Journal.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The phenomenon is interesting but you cannot name what HR leaders or policy-makers would do differently
+- The question reads like a Personnel Psychology / JAP micro-study with no HR-system, unit, or firm tie
+- You are unsure whether the paper belongs at HRM or at HRMJ (the UK journal), JOM, or AMJ
+- A coauthor asks "is this an HRM paper?" and the answer is really "it's adjacent"
+- The topic is a managerial trend with no scholarly contribution to anchor it
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| HR system is central | Make the HR system assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| talent architecture is central | Make the talent architecture assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| employment relation is central | Make the employment relation assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| workforce analytics is central | Make the workforce analytics assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| strategic HR is central | Make the strategic HR assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The HRM fit test
 
-## HRM fit notes
+*Human Resource Management* (Wiley) rewards questions about **how HR is designed, enacted, and experienced — and why that matters for people and for the organization**. The journal explicitly spans **micro, macro, and multi-level** phenomena and accepts conceptual, empirical, meta-analytic, and critical-review work. But two gates decide fit, and a topic must clear **both**:
 
-- Publisher / owner context: Wiley.
-- Submission route to re-check: Wiley online submission.
-- Signature vocabulary: HR system, talent architecture, employment relation, workforce analytics, strategic HR.
-- Sibling boundary: Personnel Psychology, Journal of Management, Human Relations, and Academy of Management Journal.
-- House-style aim: HR scholarship that connects people practices to organizational mechanisms and outcomes.
-- Official URLs currently used by the pack:
-- https://onlinelibrary.wiley.com/journal/1099050x
-- https://onlinelibrary.wiley.com/page/journal/1099050x/homepage/forauthors.html
+1. **Scholarly advance.** The question must let you contribute theoretically, empirically, and/or methodologically — not merely apply known findings to a new sample.
+2. **Practical significance.** The question must have clear implications for **workforce policy or HRM practice**. This is HRM's signature; a question with no realistic practice payoff is a desk-reject risk even if rigorous.
 
-## Stage-specific moves
+A useful framing: *whose HR decision changes if you are right?* If you cannot name the decision-maker (HR director, line manager, compensation committee, policy-maker) and the choice, the topic is not yet HRM-shaped.
 
-1. State the exact topic selection question in one sentence.
-2. Identify which HRM audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `hrm-theory-development` if the stage passes, or back to `hrm-workflow` if it does not.
+## Locating the topic in HRM's space
+
+| Candidate phrasing | Sharpen toward an HRM question |
+|--------------------|--------------------------------|
+| "Personality predicts performance" | "Which HR practice (selection, development, job design) converts that trait into unit performance — and is the gain worth the cost?" |
+| "Employees are stressed" | "Does this HR-system feature (workload design, staffing levels, voice mechanisms) cause well-being loss, and what is the policy lever?" |
+| "AI is changing work" | "How should HR redesign roles, skills, and the employment deal as tasks are automated — with evidence, not prediction?" |
+| "Turnover is costly" | "Which retention practice works for whom, at what level, and what is the firm-performance return?" |
+
+State the **level of analysis** in the question itself (individual, team/unit, establishment, firm) because HRM is explicitly multi-level and a level mismatch surfaces immediately.
 
 ## Checklist
-- [ ] The HRM audience can see why the paper belongs in human resource management, talent, compensation, employment systems, workforce analytics, and HR strategy.
-- [ ] The draft distinguishes HRM from Personnel Psychology, Journal of Management, Human Relations.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for topic selection names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] The question names an HR phenomenon — a practice, system, the employment relationship, talent, or HR's outcomes — not just a psychological trait
+- [ ] You can name the decision-maker and the HR/policy decision your answer changes
+- [ ] Both gates clear: a scholarly advance (theory/empirics/method) AND a practice/policy payoff
+- [ ] Level of analysis is explicit and the data can speak to it
+- [ ] You can say in one sentence why this is HRM and not HRMJ / PPsych / JAP / AMJ
+- [ ] The contribution is more than "first study in context X" — there is a mechanism or systemic insight
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to HRM without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Practice-free rigor**: a clean micro-effect with no implication any HR function would act on
+- **Rigor-free relevance**: a topical managerial issue with no theoretical or empirical advance
+- **Wrong-sibling fit**: a critical employment-relations essay that belongs at HRMJ, or a psychometric scale study that belongs at PPsych
+- **Level laundering**: a firm-performance claim built only on individual self-reports
+- **Trend-chasing**: "we study [buzzword]" with no HR-design question underneath
 
 ## Output format
 
 ```text
-【Journal】Human Resource Management
+【Journal】Human Resource Management (Wiley "HRM")
 【Skill】hrm-topic-selection
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking topic selection
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Personnel Psychology, Journal of Management
-【Source status】verified URL / 待核实 / not asserted
+【Verdict】fit / sharpen / reroute
+【HR phenomenon】practice / system / employment relationship / talent / outcomes
+【Decision-maker + decision changed】who acts differently if you're right
+【Dual-gate】scholarly advance: ... | practice payoff: ...
+【Level of analysis】individual / unit / establishment / firm
+【Sibling boundary】why HRM and not HRMJ / PPsych / JAP / AMJ
+【Source status】verified / 检索于 2026-06；以官网为准 / 待核实
 【Next skill】hrm-theory-development
 ```

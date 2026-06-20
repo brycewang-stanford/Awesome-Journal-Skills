@@ -1,70 +1,74 @@
 ---
 name: etp-theory-development
-description: Use when working on theory development for a Entrepreneurship Theory and Practice manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when building the theoretical argument for an Entrepreneurship Theory and Practice (ETP) manuscript — constructing an explicitly entrepreneurial mechanism (opportunity, effectuation, bricolage, identity, socioemotional wealth) and choosing the theorizing mode. Builds the argument; it does not pick the question (etp-topic-selection) or run the analysis (etp-data-analysis).
 ---
 
 # Theory Development (etp-theory-development)
 
 ## When to trigger
-- The manuscript is aimed at **Entrepreneurship Theory and Practice (ETP)** and theory development is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's entrepreneurship theory, new ventures, founder teams, entrepreneurial finance, ecosystems, and family business standard.
-- The paper risks being confused with nearby venues: Journal of Business Venturing, Strategic Entrepreneurship Journal, Research Policy, and Academy of Management Journal.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Your "hypotheses" are descriptive ("X relates to Y in startups") with no entrepreneurial mechanism
+- A reviewer or editor says the theory "could be about any organization, not entrepreneurship"
+- You are choosing among the entrepreneurship theory engines (opportunity, effectuation, bricolage, identity) and don't yet have a mechanism
+- You are deciding between deductive hypotheses, an inductive grounded model, and a conceptual reconciliation
+- The "implications for practice" section is empty or generic
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| venture formation is central | Make the venture formation assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| founder team is central | Make the founder team assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| entrepreneurial ecosystem is central | Make the entrepreneurial ecosystem assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| opportunity process is central | Make the opportunity process assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| startup finance is central | Make the startup finance assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## ETP's theory bar
 
-## ETP fit notes
+ETP wants a **genuine contribution to entrepreneurship theory** — a new construct, a new mechanism, a boundary condition that changes what we predict, or a reconciliation of competing accounts — paired with a **defensible implication for practice**. The dual mandate (theory *and* practice, USASBE heritage) is structural, not cosmetic: an elegant model with no practitioner payoff and a useful tip with no theory both fall short. The mechanism must be **about the entrepreneurial phenomenon itself** — opportunity, judgment under Knightian uncertainty, resource assembly under constraint, the liability of newness, founder identity — not a generic organizational process relabeled.
 
-- Publisher / owner context: SAGE for Baylor University.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: venture formation, founder team, entrepreneurial ecosystem, opportunity process, startup finance.
-- Sibling boundary: Journal of Business Venturing, Strategic Entrepreneurship Journal, Research Policy, and Academy of Management Journal.
-- House-style aim: entrepreneurship theory with credible venture-level evidence and boundary conditions.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/etp
-- https://journals.sagepub.com/author-instructions/ETP
+## Pick the theory engine (and use it deliberately)
 
-## Stage-specific moves
+| Engine | Core idea | When it fits | Signature constructs |
+|--------|-----------|--------------|----------------------|
+| **Opportunity** | Discovery vs. creation of new means-ends | Why/how ventures form; recognition | alertness, prior knowledge, enactment |
+| **Effectuation** | Control over prediction under uncertainty | Founder decision logic; pivoting | affordable loss, pre-commitments, bird-in-hand |
+| **Bricolage** | Making do with resources at hand | Resource-constrained venturing | resource recombination, parallel bricolage |
+| **Entrepreneurial cognition/identity** | How founders think and who they are | Persistence, role identity, passion | self-efficacy, identity centrality, mindset |
+| **Socioemotional wealth (SEW)** | Non-financial family utility | Family business behavior | family control, dynastic intent, FIBER |
+| **Institutional / ecosystem** | Legitimacy and supportive structures | Context-dependent venturing | legitimacy, embeddedness, ecosystem health |
 
-1. State the exact theory development question in one sentence.
-2. Identify which ETP audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `etp-literature-positioning` if the stage passes, or back to `etp-workflow` if it does not.
+State the mechanism as a causal/process chain with a **why**, **scope conditions**, and the **entrepreneurial actor or activity at its center**. If you integrate two engines (e.g., effectuation × identity), justify the integration — do not staple constructs together.
+
+## Choose and execute a theorizing mode
+
+- **Hypothetico-deductive**: derive falsifiable hypotheses from the mechanism; moderators/mediators must reflect entrepreneurial context (uncertainty, novelty, resource scarcity, founder/team attributes), not generic firm covariates.
+- **Inductive / grounded process theory**: build an internally coherent process model (Gioia data structure, process diagram); ETP publishes strong qualitative theory, but the output must be a *model*, not a rich description.
+- **Conceptual / reconciliation**: introduce a new construct or reconcile competing accounts (e.g., discovery vs. creation); a literature review is not a theory paper.
+
+## Make the practice contribution a real contribution
+
+The "implications for practice" section should follow *from the mechanism*: if effectuation logic drives the result, the implication is about how founders/investors/educators should treat predictive planning — specific, not "managers should pay attention." A throwaway practice paragraph signals to ETP reviewers that the dual mandate was not taken seriously.
 
 ## Checklist
-- [ ] The ETP audience can see why the paper belongs in entrepreneurship theory, new ventures, founder teams, entrepreneurial finance, ecosystems, and family business.
-- [ ] The draft distinguishes ETP from Journal of Business Venturing, Strategic Entrepreneurship Journal, Research Policy.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for theory development names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] The mechanism is specific to the entrepreneurial phenomenon (breaks under the established-firm substitution)
+- [ ] A named theory engine drives the argument; any integration is justified
+- [ ] Theorizing mode chosen (deductive / inductive process / conceptual) and executed consistently
+- [ ] Scope and boundary conditions of the theory are stated
+- [ ] Moderators/mediators reflect entrepreneurial context, not generic covariates
+- [ ] A tension or orthodoxy is challenged, not merely confirmed
+- [ ] The practice implication follows from the mechanism and is actionable
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to ETP without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Generic-org theory in a startup costume** — the mechanism reads identically for an incumbent
+- **Hypothesis salad** — many predictions, no unifying entrepreneurial mechanism
+- **Construct import without a boundary** — a psychology/sociology construct dropped in with no scope for the venture setting
+- **Pretend deduction (HARKing)** — hypotheses reverse-engineered from results
+- **Practice as ornament** — a generic "implications for managers" paragraph the mechanism does not generate
+- **Description masquerading as process theory** — rich qual data with no model
 
 ## Output format
 
 ```text
 【Journal】Entrepreneurship Theory and Practice
-【Skill】etp-theory-development
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking theory development
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Business Venturing, Strategic Entrepreneurship Journal
-【Source status】verified URL / 待核实 / not asserted
+【Engine】opportunity / effectuation / bricolage / cognition-identity / SEW / institutional (+ integration)
+【Mechanism (one chain)】the entrepreneurial why ...
+【Mode】deductive H1..Hk | inductive process model | conceptual reconciliation
+【Boundary conditions】...
+【Tension challenged】...
+【Practice implication】what follows for founders/investors/educators
+【Substitution check】breaks for established firms because ...
 【Next skill】etp-literature-positioning
 ```

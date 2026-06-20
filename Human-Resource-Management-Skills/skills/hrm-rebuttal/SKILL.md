@@ -1,70 +1,81 @@
 ---
 name: hrm-rebuttal
-description: Use when working on rebuttal strategy for a Human Resource Management manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when drafting the revision and response letter after a Human Resource Management (Wiley "HRM") revise-and-resubmit — structuring point-by-point responses to the action editor and reviewers across the journal's developmental, multi-round, double-blind process. Drafts the response after revisions; it does not interpret the decision letter (hrm-review-process).
 ---
 
-# Rebuttal Strategy (hrm-rebuttal)
+# R&R Response & Rebuttal (hrm-rebuttal)
 
 ## When to trigger
-- The manuscript is aimed at **Human Resource Management (HRM)** and rebuttal strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's human resource management, talent, compensation, employment systems, workforce analytics, and HR strategy standard.
-- The paper risks being confused with nearby venues: Personnel Psychology, Journal of Management, Human Relations, and Academy of Management Journal.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You received an HRM R&R and have planned the revision (via `hrm-review-process`)
+- You have made (or scoped) the manuscript changes and need to write the response document
+- You must reconcile conflicting reviewer demands for the action editor
+- A later-round decision asks you to defend or further revise prior changes
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| HR system is central | Make the HR system assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| talent architecture is central | Make the talent architecture assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| employment relation is central | Make the employment relation assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| workforce analytics is central | Make the workforce analytics assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| strategic HR is central | Make the strategic HR assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+> Write the response letter **after** revising the manuscript, not before — it documents changes made, not promises. HRM's process is developmental and typically multi-round; resubmit the revised (still-anonymized) manuscript and the response document through Wiley **ScholarOne**, keeping the same action editor across rounds where possible (检索于 2026-06；以官网为准).
 
-## HRM fit notes
+## Response-document structure
 
-- Publisher / owner context: Wiley.
-- Submission route to re-check: Wiley online submission.
-- Signature vocabulary: HR system, talent architecture, employment relation, workforce analytics, strategic HR.
-- Sibling boundary: Personnel Psychology, Journal of Management, Human Relations, and Academy of Management Journal.
-- House-style aim: HR scholarship that connects people practices to organizational mechanisms and outcomes.
-- Official URLs currently used by the pack:
-- https://onlinelibrary.wiley.com/journal/1099050x
-- https://onlinelibrary.wiley.com/page/journal/1099050x/homepage/forauthors.html
+1. **Opening letter to the action editor.** Thank the editor and reviewers; summarize the most important changes in 2–4 sentences; explicitly state how you addressed the editor's stated priorities; note where reviewers conflicted and how you resolved it.
+2. **Per-reviewer sections.** For each reviewer, restate every comment (verbatim or faithfully numbered), then respond.
+3. **Point-by-point format** for each comment:
+   - **Comment** (quoted/numbered)
+   - **Response** (what you did and the theoretical/methodological reasoning)
+   - **Location** (section/page/table where the change appears)
+   - Quote new manuscript text where helpful.
 
-## Stage-specific moves
+## Responding to HRM's signature demands
 
-1. State the exact rebuttal strategy question in one sentence.
-2. Identify which HRM audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `hrm-rebuttal` if the stage passes, or back to `hrm-workflow` if it does not.
+- **"Deepen the theoretical mechanism / the contribution is incremental."** Revise the argument and the contribution sentences — name the mechanism, show what the field now learns. Adding citations is not a fix (see `hrm-theory-development`, `hrm-contribution-framing`).
+- **"Common-method bias."** Provide designed or additional evidence (a lagged wave, a second source). If new data are impossible, give the strongest available statistical evidence (e.g., a marker-variable or unmeasured-latent-method-factor model) and frame residual risk as a boundary.
+- **"HPWS adoption / the HR system is endogenous."** Add an identification strategy (panel FE, DiD, IV, or a natural experiment), report it, and explain why it resolves the concern (see `hrm-methods`, `hrm-data-analysis`).
+- **"Justify the aggregation / construct validity."** Report r_wg, ICC(1)/ICC(2), the composition model, and a CFA establishing discriminant validity.
+- **"What is the practice implication?"** This is HRM-specific: strengthen a **specific, conditional** practice payoff tied to your evidence — not a boilerplate "managers should attend to X" paragraph.
+- **"Add a study."** A second study (often an experiment nailing the mechanism, or a replication) can be decisive in HRM's developmental culture; place heavy new material in an online supplement to respect length.
+
+## Tone and tactics
+
+- **Be respectful and substantive.** Reviewers are anonymous colleagues investing in your paper; thank them and engage seriously even when disagreeing.
+- **Concede gracefully** where they are right; make the change.
+- **Disagree with evidence, not assertion.** If you decline a request, give a theoretical or empirical reason and, where possible, an alternative analysis showing robustness.
+- **Address every point.** Silent omissions read as evasion; one unanswered non-trivial point can sink a revision.
+- **Surface conflicts to the editor.** When reviewers ask for opposite things, explain the trade-off and your chosen resolution for the editor to adjudicate.
+- **Keep it self-contained.** A reviewer should not have to hunt the manuscript to see what changed; preserve anonymization in the resubmission.
 
 ## Checklist
-- [ ] The HRM audience can see why the paper belongs in human resource management, talent, compensation, employment systems, workforce analytics, and HR strategy.
-- [ ] The draft distinguishes HRM from Personnel Psychology, Journal of Management, Human Relations.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for rebuttal strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Manuscript actually revised before the letter was written
+- [ ] Editor's priorities addressed first and explicitly in the opening letter
+- [ ] Every reviewer comment restated and answered (none skipped)
+- [ ] Each response names the location of the change and quotes new text where useful
+- [ ] Theory/contribution, CMB, endogeneity, and aggregation demands met with real changes
+- [ ] The **practice payoff** strengthened where reviewers questioned relevance
+- [ ] Declined requests justified with evidence and, where possible, an alternative test
+- [ ] Reviewer conflicts surfaced and resolved for the editor
+- [ ] Resubmission still anonymized for double-blind review
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to HRM without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Writing the response before making the changes
+- Skipping or burying an inconvenient comment
+- Answering "we added a citation" to a "deepen the theory" request
+- Defensive or dismissive tone toward reviewers
+- Declining a request with assertion ("we believe this is fine") and no evidence
+- Fixing the rigor but ignoring a reviewer's doubt about the practice payoff
+- Breaking anonymization in the revised manuscript
 
 ## Output format
 
 ```text
-【Journal】Human Resource Management
+【Journal】Human Resource Management (Wiley "HRM")
 【Skill】hrm-rebuttal
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking rebuttal strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Personnel Psychology, Journal of Management
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】hrm-rebuttal
+【Decision round】1st R&R / 2nd round / ...
+【Editor priorities addressed】1... 2... 3...
+【Per-reviewer coverage】R1: x/x, R2: x/x, R3: x/x — all answered? yes/no
+【Major changes】theory: ... method/data (CMB/endogeneity/aggregation): ... new study: ...
+【Practice payoff strengthened】...
+【Declined requests + justification】...
+【Reviewer conflicts resolved】...
+【Anonymization preserved】yes/no
+【Next step】resubmit via ScholarOne; on next decision → hrm-review-process
 ```

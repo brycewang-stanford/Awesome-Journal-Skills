@@ -1,70 +1,73 @@
 ---
 name: etp-data-analysis
-description: Use when working on data analysis for a Entrepreneurship Theory and Practice manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when executing or defending the analysis for an Entrepreneurship Theory and Practice (ETP) manuscript — estimation, event-history, SEM, endogeneity, and qualitative coding rigor, with the new-venture inference problems front of mind. Runs the analysis; it does not choose the design (etp-methods) or frame the contribution (etp-contribution-framing).
 ---
 
 # Data Analysis (etp-data-analysis)
 
 ## When to trigger
-- The manuscript is aimed at **Entrepreneurship Theory and Practice (ETP)** and data analysis is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's entrepreneurship theory, new ventures, founder teams, entrepreneurial finance, ecosystems, and family business standard.
-- The paper risks being confused with nearby venues: Journal of Business Venturing, Strategic Entrepreneurship Journal, Research Policy, and Academy of Management Journal.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The estimator is chosen but endogeneity, selection, or survivorship is not yet addressed in the numbers
+- You used TWFE/OLS on staggered or time-varying venture data without checking for bias
+- A time-to-event outcome (founding, exit, failure, IPO) is modeled with a linear regression
+- A reviewer asks for robustness, an alternative specification, or an IV/control-function
+- Qualitative coding needs an analysis plan a methods reviewer will accept
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| venture formation is central | Make the venture formation assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| founder team is central | Make the founder team assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| entrepreneurial ecosystem is central | Make the entrepreneurial ecosystem assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| opportunity process is central | Make the opportunity process assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| startup finance is central | Make the startup finance assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The ETP analysis bar
 
-## ETP fit notes
+ETP wants analysis that the **theory can stand on** and that survives the new-venture inference traps. Because the journal is method-plural, "analysis" differs by branch — but every branch must (a) match the estimator to the outcome and the entrepreneurial data structure, (b) confront endogeneity/selection head-on, and (c) report uncertainty honestly. ETP house style follows **APA**: report effect sizes and confidence intervals, not a forest of significance asterisks standing in for substance.
 
-- Publisher / owner context: SAGE for Baylor University.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: venture formation, founder team, entrepreneurial ecosystem, opportunity process, startup finance.
-- Sibling boundary: Journal of Business Venturing, Strategic Entrepreneurship Journal, Research Policy, and Academy of Management Journal.
-- House-style aim: entrepreneurship theory with credible venture-level evidence and boundary conditions.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/etp
-- https://journals.sagepub.com/author-instructions/ETP
+## Branch paths
 
-## Stage-specific moves
+### Quantitative — outcome-appropriate estimation
+- **Time-to-event** (founding, exit, failure, IPO): use survival / event-history (Cox, discrete-time hazard, competing risks). Modeling "did it exit (0/1)" with OLS throws away timing and censoring information.
+- **Counts / rare events** (patents, hires, funding rounds): negative binomial / zero-inflated where overdispersion or excess zeros bite, not OLS.
+- **Bounded / proportion** outcomes (survival rate, equity share): fractional/beta models, not naive linear.
+- **Panel with staggered timing** (policy/financing shocks across cohorts): beyond TWFE — Callaway–Sant'Anna, Sun–Abraham — with a clean event-study and pre-trend evidence.
 
-1. State the exact data analysis question in one sentence.
-2. Identify which ETP audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `etp-contribution-framing` if the stage passes, or back to `etp-workflow` if it does not.
+### Endogeneity and selection (the ETP reflex)
+- **Selection into founding / survival**: Heckman / control-function when the sample conditions on success; report the exclusion restriction's logic.
+- **IV**: strong first stage; with weak instruments use weak-IV-robust inference; defend exclusion in institutions and theory, not just statistically.
+- **Reverse causality** (does growth cause financing or vice versa): lagged designs, shocks, or dynamic panel (system-GMM) with instrument-count discipline.
+
+### SEM / measurement models
+- Report CFA fit (CFI, RMSEA, SRMR), composite reliability, AVE, and discriminant validity (HTMT) for entrepreneurial constructs; test common-method bias when self-report dominates (marker variable, not just Harman's single factor).
+
+### Qualitative analysis
+- A transparent coding scheme, the Gioia data structure as an exhibit, inter-coder agreement where appropriate, and traceability from quotation → code → theoretical dimension. The output is a process model, not a code count.
+
+## Make the magnitude mean something for practice
+
+ETP's dual mandate reaches the results: translate coefficients into the venture-relevant scale (a hazard ratio as "ventures with X fail 30% faster," a marginal effect as "one more co-founder shifts funding probability by Y points"). A practitioner implication needs a magnitude, not a p-value.
 
 ## Checklist
-- [ ] The ETP audience can see why the paper belongs in entrepreneurship theory, new ventures, founder teams, entrepreneurial finance, ecosystems, and family business.
-- [ ] The draft distinguishes ETP from Journal of Business Venturing, Strategic Entrepreneurship Journal, Research Policy.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for data analysis names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Estimator matches the outcome type (hazard for time-to-event; count/fractional models where appropriate)
+- [ ] Selection/survivorship addressed in the analysis, not just acknowledged
+- [ ] Endogeneity strategy stated with a defended exclusion/identification logic
+- [ ] Staggered designs use modern DID with pre-trend evidence (no naive TWFE)
+- [ ] SEM: fit indices, reliability, AVE, discriminant validity, CMB test reported
+- [ ] Qualitative: data structure, coding transparency, quotation traceability
+- [ ] Effects reported with magnitudes and CIs (APA), translated for practice
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to ETP without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Linear regression on a time-to-event outcome** (ignores censoring and timing)
+- **Selection/survivorship acknowledged in prose but absent from the model**
+- **Asterisk theater** — significance stars substituting for effect sizes and CIs
+- **Naive TWFE** on staggered venture/policy data with no heterogeneity-bias check
+- **Harman's single factor** offered as if it settled common-method bias
+- **Code counts** presented as if they were a process theory
 
 ## Output format
 
 ```text
 【Journal】Entrepreneurship Theory and Practice
-【Skill】etp-data-analysis
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking data analysis
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Business Venturing, Strategic Entrepreneurship Journal
-【Source status】verified URL / 待核实 / not asserted
+【Branch】quantitative / SEM / qualitative
+【Outcome→estimator】outcome type + matched model
+【Selection/survivorship】how addressed in the numbers
+【Endogeneity】IV / control-function / lagged / dynamic panel + exclusion logic
+【Inference】effect sizes + CIs (APA); CMB if self-report
+【Magnitude for practice】coefficient translated to venture scale
 【Next skill】etp-contribution-framing
 ```

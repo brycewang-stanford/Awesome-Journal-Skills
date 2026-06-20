@@ -1,70 +1,74 @@
 ---
 name: hrm-theory-development
-description: Use when working on theory development for a Human Resource Management manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the theoretical argument and hypotheses are the bottleneck for a Human Resource Management (Wiley "HRM") manuscript — building an HRM/OB mechanism (AMO, HR-system strength, signaling, social exchange) and deriving testable predictions a priori. Builds the theory; it does not run the analysis (hrm-data-analysis).
 ---
 
 # Theory Development (hrm-theory-development)
 
 ## When to trigger
-- The manuscript is aimed at **Human Resource Management (HRM)** and theory development is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's human resource management, talent, compensation, employment systems, workforce analytics, and HR strategy standard.
-- The paper risks being confused with nearby venues: Personnel Psychology, Journal of Management, Human Relations, and Academy of Management Journal.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Hypotheses read as bald predictions ("HPWS is positively related to performance") with no mechanism
+- You have results and are tempted to write hypotheses around them (HARKing risk)
+- The argument leans on one borrowed citation rather than a developed HRM logic
+- A mediator (the "black box" between HR practices and outcomes) is in the data but not theorized
+- A reviewer says "the theory is thin," "why would this practice produce this outcome?", or "the mechanism is a label, not an argument"
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| HR system is central | Make the HR system assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| talent architecture is central | Make the talent architecture assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| employment relation is central | Make the employment relation assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| workforce analytics is central | Make the workforce analytics assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| strategic HR is central | Make the strategic HR assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The HRM theory bar
 
-## HRM fit notes
+HRM publishes work that **explains how HR practices and systems shape attitudes, behavior, and performance — and under what conditions.** The contribution must be theoretical, empirical, and/or methodological, but even an empirically driven paper needs an articulated mechanism written *before* the results are known. Crucially, the theory should sit close enough to HR design that a **practice implication** falls out of it; pure psychological process with no HR-system anchor drifts toward PPsych/JAP.
 
-- Publisher / owner context: Wiley.
-- Submission route to re-check: Wiley online submission.
-- Signature vocabulary: HR system, talent architecture, employment relation, workforce analytics, strategic HR.
-- Sibling boundary: Personnel Psychology, Journal of Management, Human Relations, and Academy of Management Journal.
-- House-style aim: HR scholarship that connects people practices to organizational mechanisms and outcomes.
-- Official URLs currently used by the pack:
-- https://onlinelibrary.wiley.com/journal/1099050x
-- https://onlinelibrary.wiley.com/page/journal/1099050x/homepage/forauthors.html
+For **qualitative / theory-building** work, HRM does not expect a priori hypotheses; it expects a grounded model with emergent propositions and the same demand for a transparent mechanism. For **critical reviews and meta-analyses**, the "theory" is the organizing framework that turns scattered findings into a cumulative HRM claim.
 
-## Stage-specific moves
+## The HRM theory toolkit (use the right lens)
 
-1. State the exact theory development question in one sentence.
-2. Identify which HRM audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `hrm-literature-positioning` if the stage passes, or back to `hrm-workflow` if it does not.
+| Mechanism family | What it explains | Process verb |
+|------------------|------------------|--------------|
+| **AMO** (ability–motivation–opportunity) | how a bundle of HR practices raises performance via three pathways | enables / motivates / affords |
+| **HR-system strength** (Bowen & Ostroff) | how distinctive, consistent, consensual HR signals create a shared climate | signals / aligns |
+| **Social exchange / POS** | why employees reciprocate investment with effort, commitment, citizenship | reciprocates / obligates |
+| **Signaling** | how HR practices communicate intent to employees and applicants | signals / screens |
+| **Ability/sorting & human capital** | how practices change the stock or flow of skills | selects / develops |
+| **AMO + climate cross-level** | how unit HR systems shape individual outcomes through climate | cascades / shapes |
+
+For each hypothesis, write the explicit chain: **antecedent (HR practice/system) → mechanism (named theory + process) → outcome (defined construct, stated level) → form/direction → boundary (moderator and *why* the slope changes).** Keep the theory at the level where the mechanism operates and flag cross-level mediation as such.
+
+## Multilevel and "black box" discipline
+
+- HRM's core debate is the **HR–performance black box**: do not assert a link without theorizing the intervening climate, attitudes, or capabilities, and do not infer the mechanism from a significant indirect effect alone.
+- Beware **construct drift**: "HPWS," "high-commitment," "high-involvement," and "HR system" are not interchangeable — define yours and stay consistent.
+- For multi-level theory, distinguish the **intended** HR system (espoused policy), the **implemented** system (what managers enact), and the **perceived** system (what employees experience); a great deal of HRM contribution lives in that gap.
 
 ## Checklist
-- [ ] The HRM audience can see why the paper belongs in human resource management, talent, compensation, employment systems, workforce analytics, and HR strategy.
-- [ ] The draft distinguishes HRM from Personnel Psychology, Journal of Management, Human Relations.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for theory development names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Every hypothesis has an explicit mechanism (named HRM/OB theory + process verb), not just a predicted sign
+- [ ] The HR practice/system construct is defined and not conflated with adjacent labels
+- [ ] Level of analysis is stated and consistent across argument and design; cross-level paths flagged
+- [ ] Mediators (the black box) and moderators are theorized a priori with substantive reasons
+- [ ] Hypotheses were fixed before analysis (no HARKing)
+- [ ] A theoretical-model figure maps one-to-one to the hypotheses
+- [ ] The mechanism is close enough to HR design that a practice implication is visible
+- [ ] At least one rival explanation (e.g., reverse causality, selection) is named
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to HRM without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Label-as-theory**: invoking "social exchange" or "AMO" by name without using its actual logic
+- **Bald predictions**: "practice X relates to outcome Y" with no *why*
+- **Black-box skipping**: an HR→performance arrow with no theorized intervening process
+- **HARKing**: every hypothesis supported and none surprising
+- **Construct conflation**: HPWS / high-commitment / HR strength used as synonyms
+- **Level confusion**: theorizing a unit-level climate effect but arguing it in individual-psychology terms
+- **Practice-blind theory**: an elegant mechanism with no implication any HR function could act on
 
 ## Output format
 
 ```text
-【Journal】Human Resource Management
-【Skill】hrm-theory-development
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking theory development
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Personnel Psychology, Journal of Management
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】hrm-literature-positioning
+【Focal mechanism】AMO / HR-system strength / social exchange / signaling / human capital (process verb: ...)
+【HR construct】practice / bundle / system — defined; level stated
+【H1 (focal effect)】HR antecedent → mechanism → outcome; direction/form; level
+【H2 (black box / mediation)】intervening climate/attitude/capability
+【H3+ (boundary)】moderator + reason the slope changes
+【Rival explanation addressed】reverse causality / selection / ...
+【HARKing check】hypotheses fixed before analysis? yes/no
+【Practice hook】what the theory implies for HR practice
+【Next skill】hrm-literature-positioning, then hrm-methods
 ```

@@ -1,70 +1,72 @@
 ---
 name: hrm-writing-style
-description: Use when working on writing style for a Human Resource Management manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the prose, abstract, or introduction are the bottleneck for a Human Resource Management (Wiley "HRM") manuscript — making the HRM/OB argument land and surfacing the practitioner takeaway in the journal's dual-audience voice. Late-stage polish; it does not fix the theory or design (hrm-theory-development, hrm-methods).
 ---
 
 # Writing Style (hrm-writing-style)
 
 ## When to trigger
-- The manuscript is aimed at **Human Resource Management (HRM)** and writing style is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's human resource management, talent, compensation, employment systems, workforce analytics, and HR strategy standard.
-- The paper risks being confused with nearby venues: Personnel Psychology, Journal of Management, Human Relations, and Academy of Management Journal.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The abstract states what you did but not what the field (and HR leaders) now know
+- The introduction takes a page to reach the contribution
+- The practitioner takeaway is invisible or relegated to a boilerplate final paragraph
+- Construct labels drift across sections (HPWS / high-commitment / HR system used loosely)
+- A reviewer says "hard to follow," "the contribution is unclear," or "reads like a tech report"
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| HR system is central | Make the HR system assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| talent architecture is central | Make the talent architecture assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| employment relation is central | Make the employment relation assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| workforce analytics is central | Make the workforce analytics assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| strategic HR is central | Make the strategic HR assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## HRM's dual-audience voice
 
-## HRM fit notes
+HRM is read by scholars **and** by reflective practitioners, and the journal demands both a scholarly advance and a practice payoff. The prose must therefore do two things at once: be **theoretically precise** (named mechanisms, defined constructs, careful causal language) and **accessible** (a reader can extract what to do without decoding jargon). Write for an intelligent HR scholar who is not a specialist in your exact niche — and remember the EIC screens for fit and relevance, so the contribution must be legible on page one.
 
-- Publisher / owner context: Wiley.
-- Submission route to re-check: Wiley online submission.
-- Signature vocabulary: HR system, talent architecture, employment relation, workforce analytics, strategic HR.
-- Sibling boundary: Personnel Psychology, Journal of Management, Human Relations, and Academy of Management Journal.
-- House-style aim: HR scholarship that connects people practices to organizational mechanisms and outcomes.
-- Official URLs currently used by the pack:
-- https://onlinelibrary.wiley.com/journal/1099050x
-- https://onlinelibrary.wiley.com/page/journal/1099050x/homepage/forauthors.html
+## The introduction in five moves (the AMJ/management arc, HRM-tuned)
 
-## Stage-specific moves
+1. **Hook the phenomenon** — a real HR problem (turnover, the implementation gap, AI and skills, well-being) that matters to organizations and people.
+2. **Name the conversation and the tension** — the specific HRM literature and the unresolved question (not "little is known").
+3. **State the contribution — both halves** — the scholarly advance *and* the practice implication, explicitly, in the first two pages.
+4. **Preview the approach** — theory, design, level, and what the evidence shows, in a sentence or two.
+5. **Forecast the payoff** — what scholars and practitioners take away.
 
-1. State the exact writing style question in one sentence.
-2. Identify which HRM audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `hrm-submission` if the stage passes, or back to `hrm-workflow` if it does not.
+## The abstract that survives the screen
+
+Pack four things into ~150–200 words (confirm the current limit on the author page; 检索于 2026-06；以官网为准): the question, the design (sample, level, method), the key finding with a magnitude, and the dual contribution. An abstract that omits the practice payoff signals the wrong journal to the screening editor.
+
+## Sentence-level craft for HRM
+
+- **Construct discipline.** Use one label per construct, defined once, throughout. Drift between "HPWS," "high-commitment," and "HR system" reads as conceptual confusion.
+- **Causal honesty.** Match verbs to the design — "is associated with" for cross-sectional, "increases" only when identification supports it. Referees punish causal language the design cannot back.
+- **Level clarity.** Make the level explicit in prose ("at the unit level," "employees within establishments"), not just in the method.
+- **Active, economical sentences.** Prefer "managers who enact the system" over "the system that is enacted by managers." Cut hedging stacks ("it may possibly suggest").
+- **Earn the practice paragraph.** Replace boilerplate ("managers should pay attention") with a specific, conditional recommendation grounded in your effect.
 
 ## Checklist
-- [ ] The HRM audience can see why the paper belongs in human resource management, talent, compensation, employment systems, workforce analytics, and HR strategy.
-- [ ] The draft distinguishes HRM from Personnel Psychology, Journal of Management, Human Relations.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for writing style names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Abstract states question, design (sample/level/method), finding + magnitude, dual contribution
+- [ ] The contribution — both halves — is on page one or two, not the discussion
+- [ ] One label per construct, defined once, consistent throughout
+- [ ] Causal verbs match the identification the design supports
+- [ ] Level of analysis is explicit in the prose
+- [ ] The practice implication is specific and conditional, not boilerplate
+- [ ] Jargon is defined or replaced; an HR scholar outside the niche can follow it
+- [ ] APA style and house conventions respected (检索于 2026-06；以官网为准)
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to HRM without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Buried contribution**: the "so what" arrives only in the discussion
+- **Method-report tone**: what-we-did with no what-it-means
+- **Construct drift**: synonyms used as if interchangeable
+- **Causal overreach**: "X improves Y" from cross-sectional data
+- **Boilerplate practice paragraph**: generic implications that fit any paper
+- **Hedge stacking**: "may possibly tentatively suggest"
+- **Abstract without a payoff**: scholarly result only, no practice signal
 
 ## Output format
 
 ```text
-【Journal】Human Resource Management
+【Journal】Human Resource Management (Wiley "HRM")
 【Skill】hrm-writing-style
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking writing style
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Personnel Psychology, Journal of Management
-【Source status】verified URL / 待核实 / not asserted
+【Abstract】question + design + finding/magnitude + dual contribution? [Y/N]
+【Contribution placement】both halves on p.1–2? [Y/N]
+【Construct discipline】one label per construct? [Y/N]
+【Causal language】matches identification? [Y/N]
+【Practice paragraph】specific & conditional (not boilerplate)? [Y/N]
 【Next skill】hrm-submission
 ```

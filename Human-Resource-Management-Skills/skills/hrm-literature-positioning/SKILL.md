@@ -1,70 +1,71 @@
 ---
 name: hrm-literature-positioning
-description: Use when working on literature positioning for a Human Resource Management manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when staking the contribution of a Human Resource Management (Wiley "HRM") manuscript against the right conversation — and against the siblings it is confused with (HRMJ, Personnel Psychology, JAP, AMJ). Positions the paper; it does not sharpen the one-line claim (hrm-contribution-framing).
 ---
 
 # Literature Positioning (hrm-literature-positioning)
 
 ## When to trigger
-- The manuscript is aimed at **Human Resource Management (HRM)** and literature positioning is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's human resource management, talent, compensation, employment systems, workforce analytics, and HR strategy standard.
-- The paper risks being confused with nearby venues: Personnel Psychology, Journal of Management, Human Relations, and Academy of Management Journal.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The intro reviews "everything on the topic" instead of the specific HRM conversation the paper joins
+- A reviewer asks "what do we now know that we didn't?" and the answer is fuzzy
+- The paper could plausibly be read as a Personnel Psychology, JAP, or HRMJ paper
+- You are citing the dependent-variable literature but not the HR-practice literature (or vice versa)
+- The contribution is "first study in [country/sector]" with no theoretical or systemic advance
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| HR system is central | Make the HR system assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| talent architecture is central | Make the talent architecture assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| employment relation is central | Make the employment relation assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| workforce analytics is central | Make the workforce analytics assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| strategic HR is central | Make the strategic HR assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Position against the conversation, not the topic
 
-## HRM fit notes
+HRM contributions are judged relative to a **specific scholarly conversation** — e.g., the HR–performance black box, HR-system strength and climate, the implementation gap, line-manager enactment, talent differentiation, HR and well-being, HR analytics. Identify the **2–4 anchor works** that own your conversation and state precisely how your paper **extends, qualifies, reconciles, or overturns** them. Vague positioning ("little is known about X in Y") is a desk-screen risk because the EIC gates on fit and contribution before review.
 
-- Publisher / owner context: Wiley.
-- Submission route to re-check: Wiley online submission.
-- Signature vocabulary: HR system, talent architecture, employment relation, workforce analytics, strategic HR.
-- Sibling boundary: Personnel Psychology, Journal of Management, Human Relations, and Academy of Management Journal.
-- House-style aim: HR scholarship that connects people practices to organizational mechanisms and outcomes.
-- Official URLs currently used by the pack:
-- https://onlinelibrary.wiley.com/journal/1099050x
-- https://onlinelibrary.wiley.com/page/journal/1099050x/homepage/forauthors.html
+## The sibling map (this is where HRM papers get mis-positioned)
 
-## Stage-specific moves
+| Journal | Center of gravity | How to position *toward* HRM |
+|---------|-------------------|------------------------------|
+| **HRMJ** (Wiley, UK/CIPD; ISSN 1748-8583) | critical, European, employment-relations and context | Frame around HR design and its measurable outcomes, not a critical/contextual essay |
+| **Personnel Psychology** | rigorous micro selection, performance, individual differences | Tie the individual effect up to the HR system, unit, or firm |
+| **Journal of Applied Psychology** | psychological mechanisms, lab + field, individual level | Make the HR practice/policy the cause, not just a psychological state |
+| **Academy of Management Journal** | broad management theory test | Deliver an HR-practice/policy payoff, not only a theory extension |
+| **Journal of Management** | broad strategy/OB; reviews | Keep the HR-system or employment-relationship as the focal object |
 
-1. State the exact literature positioning question in one sentence.
-2. Identify which HRM audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `hrm-methods` if the stage passes, or back to `hrm-workflow` if it does not.
+A one-line "why here, not there" belongs in the intro: e.g., "Unlike micro work that treats psychological safety as the cause, we treat the **HR voice system** as the cause and trace its firm-level return."
+
+## Building the contribution gap
+
+1. **Map the conversation.** Name the anchor works and the current consensus.
+2. **Locate the tension.** Find the unresolved disagreement, the untested boundary, the conflated constructs, or the implementation gap.
+3. **State your move.** Extend / qualify / reconcile / overturn — pick one verb and own it.
+4. **Pre-empt the "incremental" verdict.** Show that without your paper the field would draw a wrong or incomplete conclusion.
+5. **Add the practice angle.** HRM positioning also asks: what would practitioners get wrong without this?
 
 ## Checklist
-- [ ] The HRM audience can see why the paper belongs in human resource management, talent, compensation, employment systems, workforce analytics, and HR strategy.
-- [ ] The draft distinguishes HRM from Personnel Psychology, Journal of Management, Human Relations.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for literature positioning names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] The specific HRM conversation (not the broad topic) is named with anchor works
+- [ ] The contribution verb (extend/qualify/reconcile/overturn) is explicit
+- [ ] A one-line "why HRM, not HRMJ / PPsych / JAP / AMJ" is stated
+- [ ] Both the HR-practice literature and the outcome literature are engaged
+- [ ] The gap is a real tension, not just "understudied in context X"
+- [ ] The positioning makes the practice payoff visible, not only the theory gap
+- [ ] APA citation style throughout (HRM house style)
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to HRM without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Topic dump**: reviewing all work on the dependent variable instead of the focal conversation
+- **Gap-by-absence**: "no one has studied X in Y" as the whole contribution
+- **Sibling blur**: positioning that would fit HRMJ or PPsych equally well
+- **One-sided literature**: citing the outcome literature but not the HR-practice literature
+- **Citation padding**: long reference lists that never state the disagreement being resolved
+- **Buried contribution**: the contribution sentence appears only in the discussion, not the intro
 
 ## Output format
 
 ```text
-【Journal】Human Resource Management
+【Journal】Human Resource Management (Wiley "HRM")
 【Skill】hrm-literature-positioning
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking literature positioning
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Personnel Psychology, Journal of Management
-【Source status】verified URL / 待核实 / not asserted
+【Conversation joined】HR–performance black box / HR-system strength / implementation gap / ...
+【Anchor works】2–4 works owning the conversation
+【Contribution verb】extend / qualify / reconcile / overturn
+【Why HRM not sibling】one line vs. HRMJ / PPsych / JAP / AMJ
+【Practice angle】what practitioners would get wrong without this
+【Source status】verified / 检索于 2026-06；以官网为准 / 待核实
 【Next skill】hrm-methods
 ```

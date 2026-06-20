@@ -1,70 +1,76 @@
 ---
 name: etp-literature-positioning
-description: Use when working on literature positioning for a Entrepreneurship Theory and Practice manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when staking the contribution of an Entrepreneurship Theory and Practice (ETP) manuscript against the entrepreneurship frontier and its sibling journals (JBV, SEJ, AMJ, Research Policy). Locates the gap and the conversation; it does not build the mechanism (etp-theory-development) or sharpen the headline claim (etp-contribution-framing).
 ---
 
 # Literature Positioning (etp-literature-positioning)
 
 ## When to trigger
-- The manuscript is aimed at **Entrepreneurship Theory and Practice (ETP)** and literature positioning is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's entrepreneurship theory, new ventures, founder teams, entrepreneurial finance, ecosystems, and family business standard.
-- The paper risks being confused with nearby venues: Journal of Business Venturing, Strategic Entrepreneurship Journal, Research Policy, and Academy of Management Journal.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The intro cites "the entrepreneurship literature" instead of a specific debate
+- A reviewer says the contribution is "incremental" or "already known"
+- You cannot say in one sentence what *changes* in the field if your paper is right
+- The paper could be claimed by JBV, SEJ, or AMJ and you have not defended ETP as its home
+- You are unsure which prior ETP/entrepreneurship work you must engage to be taken seriously
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| venture formation is central | Make the venture formation assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| founder team is central | Make the founder team assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| entrepreneurial ecosystem is central | Make the entrepreneurial ecosystem assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| opportunity process is central | Make the opportunity process assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| startup finance is central | Make the startup finance assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Position inside a named entrepreneurship conversation
 
-## ETP fit notes
+ETP reviewers are entrepreneurship specialists who know the canon. Generic gap-spotting ("little research has examined X") reads as a desk-reject signal. Instead, **name the conversation and your move within it**: are you extending discovery-vs-creation, contrasting effectuation with causation, advancing socioemotional-wealth theory in family firms, reconciling competing accounts of entrepreneurial persistence? State whose claims you build on, whose you qualify, and whose you overturn. The standard is "we change what entrepreneurship scholars believe about Z," not "we add a moderator."
 
-- Publisher / owner context: SAGE for Baylor University.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: venture formation, founder team, entrepreneurial ecosystem, opportunity process, startup finance.
-- Sibling boundary: Journal of Business Venturing, Strategic Entrepreneurship Journal, Research Policy, and Academy of Management Journal.
-- House-style aim: entrepreneurship theory with credible venture-level evidence and boundary conditions.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/etp
-- https://journals.sagepub.com/author-instructions/ETP
+## A four-move positioning grid
 
-## Stage-specific moves
+| Move | What it claims | What it must show | ETP risk if weak |
+|------|----------------|-------------------|------------------|
+| **Extend** | Pushes a known mechanism into new conditions | The extension is non-obvious and the boundary is informative | "Incremental" |
+| **Qualify** | A known effect holds only under entrepreneurial conditions | A scope condition that prior work missed | "We already knew this" |
+| **Reconcile** | Two competing accounts both hold, conditionally | The contingency that resolves the conflict | "Just splits the difference" |
+| **Overturn** | A received belief is wrong in the entrepreneurial setting | Strong evidence and a replacement mechanism | "Overclaimed" |
 
-1. State the exact literature positioning question in one sentence.
-2. Identify which ETP audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `etp-methods` if the stage passes, or back to `etp-workflow` if it does not.
+Pick the strongest move your evidence supports — and only that move. ETP punishes a paper that promises to overturn but delivers an extension.
+
+## Engage the right literature, including ETP's own
+
+- **Cite the entrepreneurship core**, not just adjacent management theory. A paper on family firms that ignores the SEW lineage, or an opportunity paper that skips the discovery/creation exchange, signals an outsider.
+- **Engage ETP's franchises**: family business, social/sustainable entrepreneurship, and entrepreneurial finance are areas where ETP has published defining work — situate yourself within them when relevant.
+- **Use APA** and represent prior findings accurately; mischaracterizing a cited paper is a credibility wound a specialist reviewer will catch.
+
+## Sibling boundaries (and how to defend ETP)
+
+| Sibling | Their center of gravity | Your ETP defense |
+|---------|------------------------|------------------|
+| **JBV** | Broad, multidisciplinary, narrative-tolerant venturing | "We build tight theory with a practice implication, ETP's dual mandate" |
+| **SEJ** | Strategy of entrepreneurial firms; advantage, scaling | "Our contribution is entrepreneurship theory, not competitive strategy" |
+| **AMJ** | General management theory | "Entrepreneurship is the theory here, not just the setting" |
+| **Research Policy** | Innovation systems, R&D, policy | "Our unit is founders/ventures, not the innovation system" |
+
+If a sibling genuinely owns your contribution, recommend rerouting *before* polishing — a misplaced paper is a slow desk-reject.
 
 ## Checklist
-- [ ] The ETP audience can see why the paper belongs in entrepreneurship theory, new ventures, founder teams, entrepreneurial finance, ecosystems, and family business.
-- [ ] The draft distinguishes ETP from Journal of Business Venturing, Strategic Entrepreneurship Journal, Research Policy.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for literature positioning names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] A *named* conversation is the target, with specific cited interlocutors
+- [ ] The positioning move (extend / qualify / reconcile / overturn) is explicit and matches the evidence
+- [ ] ETP's relevant franchise literature (family, social, finance) is engaged where applicable
+- [ ] Prior findings are represented accurately (APA, no straw men)
+- [ ] The "what changes if we're right" sentence is concrete and field-level
+- [ ] ETP is defended over JBV/SEJ/AMJ for this contribution
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to ETP without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Gap-spotting** ("little/no research has examined…") with no conversation named
+- **Citation dumping** — long lists that show reading breadth but no argued position
+- **Adjacent-only citing** — leaning on management/psych theory while ignoring the entrepreneurship core
+- **Move inflation** — claiming "overturn" while delivering "extend"
+- **Sibling blindness** — never addressing why this is ETP and not JBV/SEJ/AMJ
 
 ## Output format
 
 ```text
 【Journal】Entrepreneurship Theory and Practice
-【Skill】etp-literature-positioning
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking literature positioning
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Business Venturing, Strategic Entrepreneurship Journal
-【Source status】verified URL / 待核实 / not asserted
+【Conversation】<named debate + key cites>
+【Positioning move】extend / qualify / reconcile / overturn
+【What changes if we're right】one field-level sentence
+【Core lit engaged】entrepreneurship canon + ETP franchise (family/social/finance)
+【Sibling defense】ETP > JBV/SEJ/AMJ because ...
+【Verdict】positioned / sharpen / reroute to <venue>
 【Next skill】etp-methods
 ```

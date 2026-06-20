@@ -1,70 +1,71 @@
 ---
 name: etp-contribution-framing
-description: Use when working on contribution framing for a Entrepreneurship Theory and Practice manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when sharpening the headline claim of an Entrepreneurship Theory and Practice (ETP) manuscript into a contribution to entrepreneurship theory AND practice. Frames the "so what"; it does not build the mechanism (etp-theory-development) or position against the literature (etp-literature-positioning).
 ---
 
 # Contribution Framing (etp-contribution-framing)
 
 ## When to trigger
-- The manuscript is aimed at **Entrepreneurship Theory and Practice (ETP)** and contribution framing is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's entrepreneurship theory, new ventures, founder teams, entrepreneurial finance, ecosystems, and family business standard.
-- The paper risks being confused with nearby venues: Journal of Business Venturing, Strategic Entrepreneurship Journal, Research Policy, and Academy of Management Journal.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A reviewer or coauthor asks "what is the contribution, in one sentence?" and you stumble
+- The paper has results but the "so what for theory" is buried or implied
+- The "implications for practice" section is generic boilerplate
+- The contribution claimed in the abstract does not match what the evidence delivers
+- You cannot say which entrepreneurship belief your paper *changes*
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| venture formation is central | Make the venture formation assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| founder team is central | Make the founder team assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| entrepreneurial ecosystem is central | Make the entrepreneurial ecosystem assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| opportunity process is central | Make the opportunity process assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| startup finance is central | Make the startup finance assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## ETP's dual contribution standard
 
-## ETP fit notes
+ETP's identity is **theory AND practice**. A passing ETP contribution makes a **specific theoretical claim** — a new construct, a mechanism, a boundary condition, a reconciliation — *and* a **specific, mechanism-derived practice claim**. Both must be true, both must be earned by the evidence, and the practice claim cannot be a decorative afterthought. This is the single most ETP-specific framing demand: many strong-theory papers fail at ETP because their practice section reads as an obligatory paragraph.
 
-- Publisher / owner context: SAGE for Baylor University.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: venture formation, founder team, entrepreneurial ecosystem, opportunity process, startup finance.
-- Sibling boundary: Journal of Business Venturing, Strategic Entrepreneurship Journal, Research Policy, and Academy of Management Journal.
-- House-style aim: entrepreneurship theory with credible venture-level evidence and boundary conditions.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/etp
-- https://journals.sagepub.com/author-instructions/ETP
+## Build the contribution as a matched pair
 
-## Stage-specific moves
+| Layer | The claim must… | Failure tell |
+|-------|------------------|--------------|
+| **Theory** | Name what changes in a specific entrepreneurship conversation | "We contribute to the literature" (which one? what changes?) |
+| **Practice** | Follow from the mechanism; name who acts differently and how | "Managers should consider…" (generic, not mechanism-derived) |
+| **Calibration** | Match the strength of the claim to the evidence (extend ≠ overturn) | Abstract overclaims relative to results |
 
-1. State the exact contribution framing question in one sentence.
-2. Identify which ETP audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `etp-tables-figures` if the stage passes, or back to `etp-workflow` if it does not.
+Write the pair as two sentences and test them against each other: if the practice sentence does not *follow from* the theory sentence, one of them is wrong.
+
+## The one-sentence claim test
+
+Force the headline into: *"We show that [entrepreneurial mechanism] explains [outcome] under [boundary condition], which means [theory move] and implies [practitioner action]."* If you cannot fill every slot with something specific and non-obvious, the contribution is not yet framed. The boundary condition is doing real work here — at ETP a contribution that holds "always, for everyone" usually means the scope was never thought through.
+
+## Calibrate the claim to the evidence
+
+- An **inductive** paper contributes a *model/construct*, not a tested effect — frame the contribution as theory-building, and be explicit that generalizability is for future work.
+- A **single-context quantitative** paper contributes a *tested mechanism with stated boundaries* — do not generalize beyond the sample's frame.
+- A **conceptual** paper contributes a *new way of seeing* — its "evidence" is logical coherence and generative power, and the practice implication should be illustrative, clearly flagged as conjectural.
+
+## Don't let the practice section sink you
+
+ETP's USASBE heritage means a reviewer may *be* a practitioner-facing scholar. The practice implication should be (1) derived from your mechanism, (2) actionable by a named actor (founder, investor, family-firm successor, educator, policymaker), and (3) honest about what is not yet known. "Entrepreneurs should be alert to opportunities" is not a contribution; "investors should weight a founder's prior failure as a learning signal rather than a red flag, *because* failure speeds subsequent pivoting" is.
 
 ## Checklist
-- [ ] The ETP audience can see why the paper belongs in entrepreneurship theory, new ventures, founder teams, entrepreneurial finance, ecosystems, and family business.
-- [ ] The draft distinguishes ETP from Journal of Business Venturing, Strategic Entrepreneurship Journal, Research Policy.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for contribution framing names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] The theory contribution names a specific conversation and what changes in it
+- [ ] The practice contribution follows from the mechanism and names who acts differently
+- [ ] The two contributions are mutually consistent (practice follows from theory)
+- [ ] The claim strength matches the evidence (no overturn-on-an-extension)
+- [ ] A boundary condition scopes the claim
+- [ ] The abstract's promise equals the paper's delivery
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to ETP without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Practice as ornament** — a generic "implications for managers" paragraph the mechanism does not generate
+- **Contribution-by-citation** — "we contribute to the X literature" with no stated change
+- **Overclaiming** — the abstract promises more than the design supports
+- **Boundary-free claims** — an effect asserted to hold universally
+- **Mismatched pair** — a practice tip that does not follow from the theory mechanism
 
 ## Output format
 
 ```text
 【Journal】Entrepreneurship Theory and Practice
-【Skill】etp-contribution-framing
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking contribution framing
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Business Venturing, Strategic Entrepreneurship Journal
-【Source status】verified URL / 待核实 / not asserted
+【Theory contribution】what changes in <named conversation>
+【Practice contribution】who does what differently, derived from the mechanism
+【One-sentence claim】We show [mechanism] → [outcome] under [boundary], meaning [theory] and implying [action]
+【Calibration】claim strength vs. evidence (inductive/quant/conceptual)
+【Abstract = delivery?】Y/N
 【Next skill】etp-tables-figures
 ```

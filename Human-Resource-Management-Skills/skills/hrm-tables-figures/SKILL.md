@@ -1,70 +1,77 @@
 ---
 name: hrm-tables-figures
-description: Use when working on tables and figures for a Human Resource Management manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when exhibits are the bottleneck for a Human Resource Management (Wiley "HRM") manuscript — the descriptives/correlation table, the model build-up, interaction and simple-slope plots, the theoretical-model figure, and (for qualitative work) the data-structure figure. Builds reader-ready exhibits; it does not run the analysis (hrm-data-analysis).
 ---
 
-# Tables and Figures (hrm-tables-figures)
+# Tables & Figures (hrm-tables-figures)
 
 ## When to trigger
-- The manuscript is aimed at **Human Resource Management (HRM)** and tables and figures is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's human resource management, talent, compensation, employment systems, workforce analytics, and HR strategy standard.
-- The paper risks being confused with nearby venues: Personnel Psychology, Journal of Management, Human Relations, and Academy of Management Journal.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The correlation table is missing means, SDs, reliabilities, or has inconsistent decimals
+- A significant interaction is reported in text but never plotted
+- The regression/HLM tables dump every coefficient with no model build-up logic
+- The theoretical model in the intro does not match the hypotheses being tested
+- A qualitative paper has rich quotes but no data-structure figure
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| HR system is central | Make the HR system assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| talent architecture is central | Make the talent architecture assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| employment relation is central | Make the employment relation assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| workforce analytics is central | Make the workforce analytics assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| strategic HR is central | Make the strategic HR assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The exhibits HRM expects (and the conventions referees enforce)
 
-## HRM fit notes
+HRM follows management/applied-psychology table norms (APA-aligned house style). The standard set:
 
-- Publisher / owner context: Wiley.
-- Submission route to re-check: Wiley online submission.
-- Signature vocabulary: HR system, talent architecture, employment relation, workforce analytics, strategic HR.
-- Sibling boundary: Personnel Psychology, Journal of Management, Human Relations, and Academy of Management Journal.
-- House-style aim: HR scholarship that connects people practices to organizational mechanisms and outcomes.
-- Official URLs currently used by the pack:
-- https://onlinelibrary.wiley.com/journal/1099050x
-- https://onlinelibrary.wiley.com/page/journal/1099050x/homepage/forauthors.html
+| Exhibit | Must contain |
+|---------|--------------|
+| **Table 1 — descriptives & correlations** | Means, SDs, full correlation matrix, **scale reliabilities (α) on the diagonal**; significance noted; level-appropriate (within/between if multilevel) |
+| **Table 2+ — regression / HLM / SEM** | Nested **model build-up** (controls → main effects → interactions); unstandardized and/or standardized coefficients with SEs; model fit (R², ΔR², pseudo-R², CFI/RMSEA for SEM); df and N at each level |
+| **Interaction plot** | Simple slopes at ±1 SD, axes labeled in construct units, the moderator legend clear, region of significance where relevant |
+| **Theoretical-model figure** | Boxes and arrows mapping **one-to-one** to the numbered hypotheses |
+| **Mediation figure** | Path coefficients on the diagram; indirect effect + bootstrap CI reported |
+| **Qualitative data-structure figure** | First-order codes → second-order themes → aggregate dimensions (Gioia-style) |
 
-## Stage-specific moves
+## Make exhibits carry the argument, not just the numbers
 
-1. State the exact tables and figures question in one sentence.
-2. Identify which HRM audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `hrm-writing-style` if the stage passes, or back to `hrm-workflow` if it does not.
+- **The correlation table is the credibility table.** Reviewers read it first; reliabilities below ~.70, a correlation near 1.0 between "distinct" constructs (discriminant-validity red flag), or a mean at a scale ceiling all undermine the paper before the hypotheses are tested.
+- **Build models, don't dump them.** A nested progression shows the incremental variance the focal effect explains over controls — that ΔR²/Δ-2LL is the contribution made visible.
+- **Always plot a supported interaction.** A coefficient is not interpretable as "the effect strengthens"; the plot is. Label axes in real construct units, not z-scores, so an HR reader can see the practical magnitude.
+- **The model figure is a contract.** Every arrow must be a hypothesis and every hypothesis an arrow; mismatches read as sloppiness or HARKing.
+- **Translate magnitude for practice.** Where possible, annotate the practically meaningful difference (e.g., the predicted productivity gap between low- and high-HPWS units) so the exhibit serves HRM's practice mandate.
+
+## Formatting discipline
+
+- Self-contained titles and notes: a reader should understand each exhibit without the text (N, level, what significance markers mean, abbreviations defined).
+- Consistent decimals (typically two) and consistent variable names across all tables and the text.
+- Report **effect sizes and CIs**, not only stars; do not let asterisks substitute for interpretation.
+- Place exhibits per Wiley/ScholarOne submission conventions; keep figures legible in greyscale.
 
 ## Checklist
-- [ ] The HRM audience can see why the paper belongs in human resource management, talent, compensation, employment systems, workforce analytics, and HR strategy.
-- [ ] The draft distinguishes HRM from Personnel Psychology, Journal of Management, Human Relations.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for tables and figures names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Table 1 has M, SD, correlations, and reliabilities on the diagonal
+- [ ] Regression/HLM/SEM tables show a nested model build-up with fit and ΔR²/Δfit
+- [ ] Every supported interaction is plotted with labeled, construct-unit axes
+- [ ] The theoretical-model figure maps one-to-one to the hypotheses
+- [ ] Mediation diagrams show paths and indirect-effect bootstrap CIs
+- [ ] Qualitative papers include a first-order → themes → dimensions data structure
+- [ ] Titles/notes are self-contained; decimals and variable names consistent
+- [ ] Effect sizes / CIs reported; practitioner magnitude annotated where possible
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to HRM without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Missing reliabilities**: a correlation table with no α on the diagonal
+- **Coefficient dump**: one mega-table with no model build-up
+- **Unplotted interaction**: a claimed moderation never shown graphically
+- **Figure–hypothesis mismatch**: arrows that don't correspond to numbered hypotheses
+- **Star-only reporting**: asterisks instead of effect sizes and CIs
+- **Z-score axes**: interaction plots no HR reader can map to practice
+- **Orphan exhibits**: tables that cannot be read without the surrounding text
 
 ## Output format
 
 ```text
-【Journal】Human Resource Management
+【Journal】Human Resource Management (Wiley "HRM")
 【Skill】hrm-tables-figures
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking tables and figures
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Personnel Psychology, Journal of Management
-【Source status】verified URL / 待核实 / not asserted
+【Table 1】M/SD/correlations/reliabilities present? [Y/N]
+【Model tables】nested build-up + fit + ΔR²/Δfit? [Y/N]
+【Interactions】all supported ones plotted, construct-unit axes? [Y/N]
+【Model figure】one-to-one with hypotheses? [Y/N]
+【Mediation/qual】path CIs / data-structure figure present? [Y/N]
+【Magnitude】practitioner-meaningful annotation added? [Y/N]
 【Next skill】hrm-writing-style
 ```

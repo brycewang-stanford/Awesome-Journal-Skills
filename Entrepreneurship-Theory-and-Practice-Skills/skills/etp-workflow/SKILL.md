@@ -1,63 +1,89 @@
 ---
 name: etp-workflow
-description: Use when deciding which etp-* sub-skill to invoke next for a Entrepreneurship Theory and Practice manuscript. Routes the workflow; it does not replace the specialized skills.
+description: Use when deciding which etp-* sub-skill to invoke next, or when sequencing manuscript work from topic selection through rebuttal for an Entrepreneurship Theory and Practice (ETP) submission. Routes — it does not replace — the specialized skills.
 ---
 
-# Workflow Router (etp-workflow)
+# ETP Workflow Router (etp-workflow)
 
 ## Overview
 
-This router sequences the twelve-skill stack for **Entrepreneurship Theory and Practice (ETP)**. The journal's center of gravity is entrepreneurship theory, new ventures, founder teams, entrepreneurial finance, ecosystems, and family business. Use the router to decide the next skill, not to replace specialist review.
+This is the router. It tells you **which etp-* skill to use at the current stage** of a manuscript aimed at *Entrepreneurship Theory and Practice* (ETP) — the **theory-and-practice flagship** of entrepreneurship research, published by **SAGE on behalf of Baylor University** and the **official journal of USASBE** (United States Association for Small Business and Entrepreneurship). ETP rewards papers that **build entrepreneurship theory** — opportunity, effectuation, bricolage, entrepreneurial identity, cognition, family business, social/sustainable entrepreneurship — *and* draw out implications for practice, on the back of rigorous empirics (quantitative, qualitative, or mixed).
 
-Publisher / platform notes checked for this pack: SAGE for Baylor University; submission route to re-check live: SAGE / ScholarOne submission. Volatile facts are treated as `检索于 2026-06；以官网为准`.
+Default assumption: unless the user says otherwise, treat the target as ETP. Operational tells that you are at ETP and not a sibling: review is **double-anonymized** (scrub author identity, not just the title page); the contribution is judged on **theoretical advance AND a defensible "implications for practice" section**; Original Articles run **≤40 pages double-spaced, 12pt Times New Roman, 1-inch margins** (Research Briefs ≤20 pages); references are **APA**; submission is via **ScholarOne Manuscripts** at mc.manuscriptcentral.com/ETP. Johan Wiklund is listed as executive editor (待核实 — confirm the masthead at submission). Re-verify volatile specifics on the SAGE author-instructions page (检索于 2026-06；以官网为准).
 
 ## When to trigger
-- A manuscript is being aimed at ETP and the next bottleneck is unclear.
-- A draft is moving between framing, design, evidence, exhibits, and submission checks.
-- A decision letter arrived and you need to choose between revision strategy and rebuttal drafting.
-- The team is comparing ETP with nearby venues: Journal of Business Venturing, Strategic Entrepreneurship Journal, Research Policy, and Academy of Management Journal.
+
+- The user asks "what should I do next?" on an ETP-bound paper
+- A draft needs its current bottleneck diagnosed
+- Work is ping-ponging between theory, design, evidence, framing, and the response letter
+- An ETP decision letter (usually R&R) arrived and the user needs to switch into revision mode
 
 ## Routing table
 
 | Current symptom | Next skill |
 |-----------------|------------|
-| scope, audience, or outlet fit is uncertain | `etp-topic-selection` |
-| the management-theory contribution is underdeveloped | `etp-theory-development` |
-| the contribution relative to adjacent journals is fuzzy | `etp-literature-positioning` |
-| methods and construct validity need alignment | `etp-methods` |
-| analysis design, estimation, or qualitative coding needs review | `etp-data-analysis` |
-| the theoretical contribution needs sharper positioning | `etp-contribution-framing` |
-| exhibits are hard to read or do not answer the question | `etp-tables-figures` |
-| the introduction, abstract, or prose misses the journal voice | `etp-writing-style` |
-| the paper is close to submission and needs a final preflight | `etp-submission` |
-| review-cycle expectations and revision choreography need planning | `etp-review-process` |
-| a decision letter or referee report needs a response plan | `etp-rebuttal` |
+| Question is interesting but not clearly *entrepreneurship*, or outlet fit is uncertain | `etp-topic-selection` |
+| The theoretical contribution is thin / "could be about any firm" | `etp-theory-development` |
+| Contribution vs. JBV / SEJ / AMJ is fuzzy or the gap is undersold | `etp-literature-positioning` |
+| Design can't observe the venturing process; selection/survival worries | `etp-methods` |
+| Estimation, endpoints, event-history, or qualitative coding need work | `etp-data-analysis` |
+| The "so what for theory AND practice" claim is not sharp | `etp-contribution-framing` |
+| Exhibits dense; significance asterisks; figures don't show the mechanism | `etp-tables-figures` |
+| Prose buries the idea; intro/abstract don't land the ETP voice | `etp-writing-style` |
+| Ready to submit via ScholarOne; need a preflight + double-anonymization scrub | `etp-submission` |
+| Want referee timeline / desk-reject odds / R&R norms | `etp-review-process` |
+| Received an R&R; need a response-letter strategy | `etp-rebuttal` |
 
 ## Default order
 
-`etp-workflow → etp-topic-selection → etp-theory-development → etp-literature-positioning → etp-methods → etp-data-analysis → etp-contribution-framing → etp-tables-figures → etp-writing-style → etp-submission → etp-review-process → etp-rebuttal`
+1. `etp-topic-selection` — lock an entrepreneurship-central question
+2. `etp-theory-development` — build the entrepreneurial mechanism (opportunity / effectuation / identity / family)
+3. `etp-literature-positioning` — stake the gap vs. the entrepreneurship frontier
+4. `etp-methods` — design that survives selection/survivorship and observes the process
+5. `etp-data-analysis` — estimation / event-history / SEM / qualitative rigor
+6. `etp-contribution-framing` — sharpen the theory + practice claim
+7. `etp-tables-figures` — exhibits and a mechanism figure, no asterisk theater
+8. `etp-writing-style` — make the idea land (abstract + intro last)
+9. `etp-submission` — ScholarOne preflight + double-anonymization
+10. `etp-review-process` — calibrate the developmental R&R
+11. `etp-rebuttal` — after the decision letter
 
-## Journal-specific lenses
-- Scope lens: entrepreneurship theory, new ventures, founder teams, entrepreneurial finance, ecosystems, and family business.
-- Field vocabulary to keep visible: venture formation; founder team; entrepreneurial ecosystem; opportunity process; startup finance.
-- Sibling boundary: Journal of Business Venturing, Strategic Entrepreneurship Journal, Research Policy, and Academy of Management Journal.
-- Writing standard: entrepreneurship theory with credible venture-level evidence and boundary conditions.
-- Source discipline: quote only facts that are in `resources/official-source-map.md` or clearly marked 待核实.
+> `etp-writing-style` is a late-stage polish; do not rewrite the intro before theory, design, and evidence settle. The "implications for practice" section is a *contribution*, not boilerplate — sharpen it during framing, not the night before.
+
+## Routing by paper archetype
+
+ETP spans several research traditions, and the binding constraint differs by archetype. Read the archetype, then enter the chain at the right link.
+
+| Archetype | Likely first bottleneck | Enter at |
+|-----------|-------------------------|----------|
+| Inductive / qualitative process (opportunity, identity, sensemaking) | Process theory + trustworthiness, not a method label | `etp-theory-development` → `etp-methods` |
+| Large-N archival venture panel (founding, growth, exit, financing) | Selection into founding + survivorship + endogeneity | `etp-methods` → `etp-data-analysis` |
+| Experiment / cognition (effectuation, decision-making) | Construct anchored to a venture primitive; estimand | `etp-theory-development` → `etp-methods` |
+| Family business / social-sustainable entrepreneurship | Why the family/social mechanism is *theory*, not context | `etp-theory-development` → `etp-literature-positioning` |
+| Conceptual / theory paper | A genuinely new construct or reconciliation, not a review | `etp-theory-development` → `etp-contribution-framing` |
+| Meta-analysis / replication | Boundary conditions and what *new theory* the synthesis yields | `etp-literature-positioning` → `etp-data-analysis` |
+
+## Worked routing example (illustrative)
+
+A user says: "My panel of nascent ventures shows that founder prior failure predicts faster pivoting, but a reviewer says it's just survivor bias and that the result 'isn't really about entrepreneurship theory.'" That is two distinct ETP pushbacks — a *design* threat (the nascent panel silently drops ventures that died before pivoting, owned by `etp-methods` → `etp-data-analysis` for an event-history fix) and a *theory* threat (the mechanism reads as generic learning, owned by `etp-theory-development`, which must tie pivoting to an entrepreneurial primitive like experiential learning under Knightian uncertainty). Route to theory first to secure the entrepreneurial mechanism, then to methods to defend the sample; only once both settle do you return to `etp-contribution-framing` and `etp-rebuttal`.
 
 ## Anti-patterns
-- Treating ETP as interchangeable with Journal of Business Venturing
-- Treating ETP as interchangeable with Strategic Entrepreneurship Journal
-- Treating ETP as interchangeable with Research Policy
-- Using a generic top-five-economics or generic management template without the ETP audience.
-- Polishing prose before the design, contribution, and evidence hierarchy are stable.
-- Letting the appendix carry claims that the main text must establish.
 
-## Output format
+- Treating ETP like JBV (which welcomes a wider methodological/narrative range) or SEJ (strategy-of-entrepreneurship), or like AMJ (general management) — ETP wants entrepreneurship theory *with practice implications*
+- Polishing prose before theory, design, and the evidence hierarchy are stable
+- Treating "implications for practice" as a throwaway paragraph rather than part of the contribution
+- Forgetting that review is double-anonymized — leaving author tells in the file
+- Letting the appendix carry claims the main 40-page text must establish
 
-```text
-【Target】Entrepreneurship Theory and Practice
-【Current bottleneck】fit / contribution / design / evidence / exhibits / style / submission / revision
-【Next skill】<one etp-* skill>
-【Reason】why this step is the binding constraint
-【Source check】official facts verified or marked 待核实
+## Minimal decision snippet
+
+```
+if decision_letter_arrived:          -> etp-rebuttal
+elif ready_to_submit:                -> etp-submission
+elif exhibits_or_significance:       -> etp-tables-figures
+elif estimation_or_coding:           -> etp-data-analysis
+elif design_or_selection:            -> etp-methods
+elif claim_or_positioning_fuzzy:     -> etp-contribution-framing / etp-literature-positioning
+elif mechanism_not_entrepreneurial:  -> etp-theory-development
+else:                                -> etp-topic-selection
 ```
