@@ -10,15 +10,15 @@ description: Use when revising a Journal of Financial Intermediation (JFI) manus
 - Polishing a JFI draft before submission or revision
 - Aligning references, sections, and abstract with JFI/Elsevier conventions
 
-## JFI house conventions (verified 2026-06-01; re-confirm on the official page)
+## JFI house conventions (verified 2026-06-20; re-confirm on the official page)
 
 - **Numbered sections** (1, 1.1, 1.1.1) structure the manuscript.
 - **References:** "your-paper-your-way" at submission — any **internally consistent** style is accepted;
   the journal applies an **author–date (name–year) Elsevier** style at proof. In-text citations give
   surname(s) and year, with "et al." for three or more authors; the list is alphabetical then
   chronological, with a/b/c disambiguation for same-author/same-year items. Keep author–year fields clean.
-- **Abstract:** concise, factual, and able to stand alone, with references avoided; there is **no stated
-  numeric word cap** (待核实).
+- **Abstract:** concise, factual, and able to stand alone, with references avoided; keep it at **250 words
+  or fewer**.
 - **Optional Highlights:** 3–5 bullets, max 85 characters each, strongly encouraged.
 - **Generative-AI disclosure:** if AI writing tools were used, declare them in a dedicated section
   **before the References** (see jfi-submission).
@@ -81,7 +81,7 @@ Loose vocabulary signals a non-specialist to a single-blind referee who knows yo
 ```
 【Sections】numbered (1, 1.1)? [Y/N]
 【References】internally consistent, author–year-ready? [Y/N]
-【Abstract】concise, stand-alone, no refs? [Y/N]  (word cap 待核实)
+【Abstract】concise, stand-alone, no refs, <=250 words? [Y/N]
 【Mechanism-first】explained before specs? [Y/N]
 【AI disclosure】present-if-used? [Y/N]
 【Next skill】jfi-replication-and-data-policy

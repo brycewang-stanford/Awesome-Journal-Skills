@@ -879,6 +879,21 @@ EJ source-map policy refresh completed:
   Journal of Financial Intermediation, Global Environmental Change, Journal of Business and
   Economic Statistics, Journal of Development Economics, and Journal of Politics.
 
+JFI source-map policy refresh completed:
+- Refreshed `Journal-of-Financial-Intermediation-Skills/resources/official-source-map.md` against
+  official Elsevier / ScienceDirect pages accessed 2026-06-20.
+- Converted previously unresolved facts into current official facts: Editorial Manager route, USD 500
+  new-submission fee, Murillo Campello as Managing Editor, Elena Loutskina and Joao Santos as
+  Co-Editors, single-anonymized review, one-appeal policy, 250-word abstract cap, 1-7 English keywords,
+  optional Highlights, USD 3,760 OA APC, and Elsevier Option C data-sharing obligations.
+- Synchronized the JFI README, submission, review-process, writing-style, data-analysis, tables/figures,
+  workflow, replication/data-policy, and external-tools guidance so stale `待核实` fee/editor/abstract
+  caveats no longer conflict with the refreshed source map.
+- `python3 tools/source_map_audit.py` -> 156 first-party source maps, 0 warnings; JFI was removed from
+  the highest unresolved source-map list. Remaining highest unresolved packs start with Global
+  Environmental Change, Journal of Business and Economic Statistics, Journal of Development Economics,
+  Journal of Politics, and Review of Economics and Statistics.
+
 User-facing maintenance docs completed:
 - Added the monthly quality-program entry point to `README.md` and `README.en.md`.
 - `CONTRIBUTING.md` and `tools/README.md` now carry the acceptance command stack and evidence

@@ -1,6 +1,6 @@
 ---
 name: jfi-review-process
-description: Use when navigating the Journal of Financial Intermediation (JFI) editorial process — the active desk-rejection policy, single-anonymized (single-blind) review with a minimum of one expert referee, the editor's final and unappealable decision, and the option to choose the Managing Editor. It sets expectations; it does not draft content.
+description: Use when navigating the Journal of Financial Intermediation (JFI) editorial process — the active desk-rejection policy, single-anonymized (single-blind) review with at least one expert referee when sent out, the tightly limited appeal path, and the option to choose the Managing Editor. It sets expectations; it does not draft content.
 ---
 
 # Review Process (jfi-review-process)
@@ -11,22 +11,21 @@ description: Use when navigating the Journal of Financial Intermediation (JFI) e
 - After a decision, to understand what is (and is not) negotiable
 - Deciding whether to request a specific Managing Editor
 
-## Process facts (verified 2026-06-01; re-confirm on the official Guide for Authors)
+## Process facts (verified 2026-06-20; re-confirm on the official Guide for Authors)
 
 - **Active desk-rejection.** The process is explicitly designed so a large share of submissions are
   rejected **without full review**. A clean, well-targeted submission is part of clearing this screen.
 - **Editor-first triage.** Papers are first assessed by the editor for suitability; suitable papers are
-  typically sent to a **minimum of one independent expert reviewer** — fewer than the two common at many
+  typically sent to at least **one independent expert reviewer** — fewer than the two common at many
   finance journals.
 - **Single-anonymized (single-blind) review.** Referees see the authors' identities; authors do **not** see
   referee identities. You do **not** need to anonymize the manuscript body.
-- **Final, unappealable decision.** The Editor makes the final decision and **that decision is final**.
-  Plan as if there is no appeals channel.
+- **Narrow appeal path.** Elsevier permits an appeal route, but only one appeal per submission is
+  considered and the appeal decision is final. Plan as if the desk and referee rounds must win up front.
 - **Choose your Managing Editor.** Authors may request the Managing Editor in charge of their submission
   (accommodated within constraints); papers are reviewed largely by editorial-board-level experts.
-- The **Editor-in-Chief / current Managing Editor is 待核实** — the official editorial-board page could not
-  be confirmed from a dated source (HTTP 403). Conflicting secondary names appear (Thakor, von Thadden,
-  Fulghieri, Campello). Verify before requesting an editor by name.
+- Current official board page lists **Murillo Campello** as Managing Editor and **Elena Loutskina** /
+  **Joao Santos** as Co-Editors. Re-confirm before requesting an editor by name.
 
 ## How to use these facts
 
@@ -34,9 +33,9 @@ description: Use when navigating the Journal of Financial Intermediation (JFI) e
   and introduction; do not bury them (see jfi-contribution-framing).
 - **Plan for one strong referee.** A single expert can carry the decision — pre-empt the most likely
   objection from a banking specialist (see jfi-rebuttal).
-- **Treat the decision as final.** Win up front with a clean submission and tight cover letter.
+- **Treat appeal as exceptional.** Win up front with a clean submission and tight cover letter.
 - **Pick the editor deliberately** if your topic maps to a board member's expertise — but verify current
-  editors first (待核实).
+  editors first.
 
 ## Desk-reject patterns at this journal
 
@@ -64,7 +63,7 @@ shadow-banking work signals appetite beyond traditional bank-balance-sheet paper
 
 - Anonymizing the body as if double-blind (unnecessary; this is single-blind)
 - Assuming a two-referee process and being surprised by a single decisive report
-- Planning an appeal for a decision the journal states is final
+- Planning around appeal rather than fixing desk-screen fit and referee-facing evidence
 - Naming a requested editor from outdated secondary sources
 
 ## Output format
@@ -72,6 +71,6 @@ shadow-banking work signals appetite beyond traditional bank-balance-sheet paper
 ```
 【Desk-screen risk】<what could trip the screen + fix>
 【Referee plan】likely-one-expert objection + pre-empt
-【Editor choice】request <name/board area> or default  (current editors 待核实)
-【Decision posture】treat as final; win up front
+【Editor choice】request <name/board area> or default (verify current board)
+【Decision posture】appeal exceptional; win up front
 ```

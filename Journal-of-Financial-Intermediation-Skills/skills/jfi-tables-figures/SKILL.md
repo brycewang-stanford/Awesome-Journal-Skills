@@ -29,8 +29,8 @@ institution-aware:
 ## House conventions
 
 Number exhibits and call them out in order; **numbered manuscript sections** (1, 1.1) host them. Notes
-should name the estimator, sample, clustering, and significance markers. There is **no stated exhibit or
-length cap** (待核实).
+should name the estimator, sample, clustering, and significance markers. There is no fixed exhibit count,
+but optional Highlights are capped at 3-5 bullets of 85 characters each.
 
 ## Worked exhibit plan: a capital-shock transmission paper (illustrative)
 

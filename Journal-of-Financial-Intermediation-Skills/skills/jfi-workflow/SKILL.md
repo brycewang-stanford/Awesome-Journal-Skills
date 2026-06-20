@@ -70,8 +70,8 @@ submission → rebuttal.
 2. **Gate B** (after identification/data-analysis): a within-firm or equivalent demand control exists, or
    the theory's propositions are fully proved with stated boundaries.
 3. **Gate C** (before submission): the desk-screen self-audit passes — mechanism in the abstract, design
-   defended in the introduction, fee justified. The exact fee amount: confirm against the journal's
-   current author guidelines.
+   defended in the introduction, and the US$500 new-submission fee is justified. Re-confirm fees against
+   the journal's current author guidelines before filing.
 
 ## A routing pass, worked (illustrative)
 
@@ -88,8 +88,8 @@ On an R&R, re-enter the map at the skill matching the referee's heaviest comment
 ## Anti-patterns
 
 - Treating JFI as purely empirical when your contribution is a model (or vice versa)
-- Skipping `jfi-review-process` and being surprised by desk-rejection or a final, unappealable decision
-- Forgetting the US$500 fee until `jfi-submission` — see the source map; the exact amount is **待核实**
+- Skipping `jfi-review-process` and being surprised by desk-rejection or a narrow appeal path
+- Forgetting the US$500 fee until `jfi-submission` — see the source map and re-confirm before filing
 
 ## Output format
 

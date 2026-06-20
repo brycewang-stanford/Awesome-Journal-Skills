@@ -110,5 +110,6 @@ git status --short --branch
 | 2026-06-20 | JBF source-map policy refresh | done | `python3 tools/source_map_audit.py` -> 0 warnings; JBF removed from highest unresolved source-map list after official 2026-06-20 fee/review/editor/data/style refresh |
 | 2026-06-20 | JET source-map policy refresh | done | `python3 tools/source_map_audit.py` -> 0 warnings; JET removed from highest unresolved source-map list after official 2026-06-20 editor/review/data/style refresh |
 | 2026-06-20 | EJ source-map policy refresh | done | `python3 tools/source_map_audit.py` -> 0 warnings; EJ removed from highest unresolved source-map list after official 2026-06-20 submission-fee/editor/review/data refresh |
+| 2026-06-20 | JFI source-map policy refresh | done | `python3 tools/source_map_audit.py` -> 0 warnings; JFI removed from highest unresolved source-map list after official 2026-06-20 fee/editor/review/data refresh |
 | 2026-06-20 | User-facing maintenance docs | done | `CONTRIBUTING.md`, `tools/README.md`, `README.md`, and `README.en.md` now point maintainers to the count-disciplined monthly quality program and acceptance commands |
 | 2026-06-20 | Post-batch acceptance gates | done | `run_checks.py --skip-reports` passed; counts remain 2665 / 171 / 200; scorecard min 90.0; root/source-map warnings 0; clone audit has no 0.90 fail-threshold hits |

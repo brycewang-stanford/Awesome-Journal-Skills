@@ -19,9 +19,9 @@ corporate finance, regulation, and related financial-economics topics.
 This repository is opinionated. It is **not** a generic finance-writing toolbox. It is a **JFI-specific**
 stack built around the journal's real process: a US$500 non-refundable submission fee paid in **Editorial
 Manager** before a paper is considered, an **active desk-rejection** policy, **single-anonymized
-(single-blind)** review with a minimum of one expert referee and a **final** editorial decision, optional
+(single-blind)** review with at least one expert referee when sent out and a tightly limited appeal path, optional
 free **SSRN preprint** posting, "your-paper-your-way" submission with an **author–date Elsevier** reference
-style applied at proof, **up to 6 JEL codes** and a max of **6 keywords**, Elsevier **data-sharing** and
+style applied at proof, JEL codes and **1-7 English keywords**, Elsevier **Option C data-sharing** and
 **Data Statement** norms, and a mandatory **generative-AI disclosure**.
 
 ---
@@ -34,17 +34,17 @@ JFI imposes constraints that differ materially from a top-5 general-interest jou
 |----------------------|-----------------------------------------------------------------------------|--------------------------------------------------------------------|
 | Audience / scope     | Banking & financial intermediation specialists; theory **and** empirics     | A paper with no intermediation mechanism is off-fit                |
 | Submission fee       | **US$500**, paid in Editorial Manager **before** review, non-refundable on desk-reject | Budget for it; pay before the editor will even consider the paper  |
-| Screening            | **Active desk-rejection**; min. one expert referee; editor's decision **final** | A clean first screen matters; there is no appeal                   |
+| Screening            | **Active desk-rejection**; usually at least one expert referee if sent out; one appeal may be considered | A clean first screen matters; appeal is not a normal revision plan |
 | Review model         | **Single-anonymized (single-blind)** — referees see your identity           | Anonymizing the body is not required (unlike double-blind venues)  |
 | Preprints            | Free **SSRN** posting offered at submission; not prior publication          | You can circulate openly without prejudicing the outcome           |
-| Classification       | **Up to 6 JEL codes** + max **6 keywords**                                   | An economics-discipline convention many finance authors miss       |
+| Classification       | JEL codes + **1-7 English keywords**                                        | Economics metadata and search routing both matter                  |
 | Formatting           | "Your-paper-your-way"; **author–date** Elsevier style applied at proof      | Any consistent style at submission; clean author–year fields       |
-| Data                 | Elsevier **data-sharing** + published **Data Statement**; `[dataset]` tag    | No JAE/AER-style mandatory code archive, but sharing is expected   |
+| Data                 | Elsevier **Option C** deposit/cite/link-or-explain policy + Data Statement; `[dataset]` tag | No JAE/AER-style archive, but the data-sharing plan must be explicit |
 | AI disclosure        | Mandatory declaration before the References                                  | Undisclosed generative-AI use is a compliance failure              |
 
-Generic "finance writing" packs do not address these constraints. Volatile specifics (current editors,
-exact fee amount, length caps) change or could not be confirmed from a dated official source — **verify
-them on the official journal page**. Items we could not confirm are marked **待核实** in the source map.
+Generic "finance writing" packs do not address these constraints. Volatile specifics (fees, editor roster,
+open-access charges, and special calls) can change — **verify them on the official journal page**. Current
+official basis was refreshed on 2026-06-20 in the source map.
 
 ---
 
@@ -127,7 +127,7 @@ jfi-rebuttal
 ### Resources
 
 - [`resources/external_tools.md`](resources/external_tools.md) — bank/supervisory data (Call Reports, FDIC, DealScan, HMDA) + Stata / R / Python packages for banking empirics and theory toolkits
-- [`resources/official-source-map.md`](resources/official-source-map.md) — official JFI URLs behind every fact, with accessed dates and **待核实** flags
+- [`resources/official-source-map.md`](resources/official-source-map.md) — official JFI URLs behind every current process fact, refreshed 2026-06-20
 
 ---
 
@@ -135,8 +135,8 @@ jfi-rebuttal
 
 - It does not write a submittable manuscript for you
 - It does not simulate any specific editor's or referee's taste
-- It does not assert volatile metadata (current Editor-in-Chief, exact fee amount, length caps) — these are
-  marked **待核实** and must be verified on the official page
+- It does not freeze volatile metadata such as fees, editors, APCs, or special calls; re-check the official
+  page before submission-ready advice
 - It does not judge whether your contribution is genuinely original — that is the researcher's call
 
 ---
@@ -144,7 +144,7 @@ jfi-rebuttal
 ## Maintenance notes
 
 - Reopen the live Guide for Authors before giving submission-ready advice.
-- Keep source-map **待核实** items out of hard claims (fee amount, current editors, length/abstract caps).
+- Keep volatile items tied to the source map and re-check the live pages before final advice.
 - Fees, editors, data policy, review model, and formatting rules can change.
 
 ---

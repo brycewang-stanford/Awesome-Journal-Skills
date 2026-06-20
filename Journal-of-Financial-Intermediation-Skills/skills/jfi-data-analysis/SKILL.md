@@ -21,7 +21,8 @@ description: Use when planning or stress-testing the analysis behind a Journal o
   firm×time effects in matched lender–borrower panels to absorb demand.
 - **Robustness:** alternative samples and windows, placebo periods, leave-one-out by large institutions,
   alternative clustering, and a balance/parallel-trends check for DID. The expected battery is substantial
-  but there is **no fixed length cap** (待核实).
+  but there is no fixed robustness-table count; keep the main text compact and push secondary checks to
+  appendices.
 
 ## Theory track (numerical illustration)
 
@@ -34,7 +35,8 @@ When the paper is a model, "data analysis" is lighter and means **reproducible c
 ## Data sharing (both tracks)
 
 Prepare a **Data Statement** and link datasets via Editorial Manager; cite data with the `[dataset]` tag
-(see jfi-replication-and-data-policy). JFI has **no** mandatory code archive, but sharing is expected.
+(see jfi-replication-and-data-policy). Under Elsevier Option C, deposit/cite/link research data where
+possible or explain why sharing is restricted.
 
 ## Dataset-to-mechanism decision table
 
