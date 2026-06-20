@@ -39,6 +39,16 @@ If your hypotheses would survive deleting the technology, they are not IS theory
 
 IS effects are contingent on the artifact, the user, the firm, the market, and the period. Name the level (individual, firm, platform, market) and the scope where the theory holds and breaks — an honest scope condition beats an over-claimed law.
 
+## Worked vignette: from "AI improves productivity" to a JMIS mechanism (illustrative)
+
+A draft claims "generative-AI tools raise analyst productivity." As stated it is a correlation with no IS theory. The JMIS mechanism names *which* capability of the tool (it lowers the cost of drafting but not of verification), acting through *what* organizational process (task reallocation toward judgment-heavy work), under *which* complementarity (it pays only where the firm redesigns review workflows and has the human capital to vet output), producing *which* contingent outcome (productivity rises for routine tasks, is flat or negative for novel ones where verification cost dominates). That contingent, complementarity-laden statement is theory; "AI helps" is not. The hypotheses then follow a priori, including where the effect reverses.
+
+## Referee pushback mapped to a theory fix
+
+- *"This is descriptive — where is the mechanism?"* → State the IT-enabled force, the channel, the population, and the reversal condition before any estimation.
+- *"This is just TAM/UTAUT again."* → Anchor the mechanism in a specific system feature and theorize why *that feature* shifts behavior; extend or contest a mechanism rather than re-confirm acceptance.
+- *"Your model has no insight beyond its setup."* → Present the comparative static that surprises — the result the model yields that intuition would not predict.
+
 ## Checklist
 
 - [ ] The correct *form* of theory is used (value mechanism / platform model / economic model / behavioral mechanism)

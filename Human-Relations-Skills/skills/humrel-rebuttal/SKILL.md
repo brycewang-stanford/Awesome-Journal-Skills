@@ -1,70 +1,79 @@
 ---
 name: humrel-rebuttal
-description: Use when working on rebuttal strategy for a Human Relations manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when drafting the response to a Human Relations (HR) R&R after the manuscript has been revised — structuring the response letter and handling reviewer/editor comments in HR's developmental, theory-first culture. Drafts the response; it does not perform the underlying revisions (do those first).
 ---
 
-# Rebuttal Strategy (humrel-rebuttal)
+# R&R Rebuttal (humrel-rebuttal)
 
 ## When to trigger
-- The manuscript is aimed at **Human Relations (Human Relations)** and rebuttal strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's work, employment, organizations, social relations, power, identity, and critical management standard.
-- The paper risks being confused with nearby venues: Organization Studies, Journal of Management Studies, Administrative Science Quarterly, and Work Employment and Society.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You have an HR R&R and have **already revised** the manuscript
+- You need to structure a point-by-point response document
+- Reviewers disagree and you must navigate between them without contradicting yourself
+- The editor's letter asks you to "deepen the theoretical contribution" and you must answer with substance
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| workplace relation is central | Make the workplace relation assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| power and identity is central | Make the power and identity assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| employment institution is central | Make the employment institution assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| qualitative insight is central | Make the qualitative insight assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| social theory is central | Make the social theory assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+> Revise the paper *first*. The response letter documents changes you made; it is not a substitute for making them. If you have not revised yet, return to the relevant humrel-* skill.
 
-## Human Relations fit notes
+## Mindset for an HR revision
 
-- Publisher / owner context: SAGE for the Tavistock Institute.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: workplace relation, power and identity, employment institution, qualitative insight, social theory.
-- Sibling boundary: Organization Studies, Journal of Management Studies, Administrative Science Quarterly, and Work Employment and Society.
-- House-style aim: socially grounded organization research that links theory, context, and lived work.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/hum
-- https://journals.sagepub.com/author-instructions/HUM
+HR review is **developmental and theory-first**. Reviewers and the handling editor (under Co-Editors-in-Chief **Smriti Anand and Penny Dick**, 检索于 2026-06；以官网为准) took the idea seriously; the winning posture is **gracious, responsive, and intellectually serious**. The central question they will ask is "did the *theoretical contribution mature*?" — consistent with HR's gate of a "unique and substantive theoretical contribution." A letter that reads as a checklist of mechanical robustness additions — adequate at some quantitative-leaning venues — will underperform here if the theoretical insight and the social-relational argument have not sharpened.
 
-## Stage-specific moves
+## Structure of the response
 
-1. State the exact rebuttal strategy question in one sentence.
-2. Identify which Human Relations audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `humrel-rebuttal` if the stage passes, or back to `humrel-workflow` if it does not.
+1. **Cover note to the editors.** Thank the team; summarize the 3–5 most important changes and how the contribution is now sharper. Address the editors' central theoretical ask explicitly and up front.
+2. **Point-by-point responses**, grouped by reviewer, then by comment. For each:
+   - Quote the comment verbatim (or faithfully paraphrase).
+   - State your response: *Accepted / Partially accepted / Respectfully disagree*.
+   - Describe the exact change and **cite the new location** (page, section, table).
+   - Where you disagree, give the reasoned case with evidence, and offer a compromise where possible.
+3. **A summary of major changes** at the top helps editors tracking a multi-round file.
+
+## Handling hard cases
+
+- **"Deepen the contribution":** the most common HR ask. Show concretely how the theory is now sharper, the mechanism more specified, the social-relational stakes clearer — not just more tables or more cases.
+- **Reviewers disagree:** state both positions, explain your resolution, and let the editor see you reasoned it through. Do not silently side with one and ignore the other.
+- **A request would harm the paper:** explain *why* (theoretical or evidentiary cost), propose an alternative that meets the underlying concern, and defer to the editors.
+- **"It reads like a sibling-journal paper":** answer by re-foregrounding the relational/theoretical contribution that makes it HR, not by adding managerial implications.
+- **Out-of-scope requests:** politely note scope and, if useful, flag as future work.
+
+## Tone, craft, and compliance
+
+- Respectful, specific, and confident — never defensive or dismissive ("the reviewer misunderstood").
+- Make the editors' job easy: clear navigation, change locations, a quotable summary.
+- Keep the letter self-contained; a reviewer should not need the tracked-changes file to follow it.
+- Ensure consistency: a change for Reviewer 1 must not contradict a response to Reviewer 2.
+- Keep the revised manuscript **anonymized** (double-anonymous), within the **13k word cap**, and re-declare any **AI use** in the cover letter if applicable.
 
 ## Checklist
-- [ ] The Human Relations audience can see why the paper belongs in work, employment, organizations, social relations, power, identity, and critical management.
-- [ ] The draft distinguishes Human Relations from Organization Studies, Journal of Management Studies, Administrative Science Quarterly.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for rebuttal strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Manuscript revised **before** writing the letter
+- [ ] Editors' central theoretical ask addressed first and explicitly
+- [ ] Every comment answered; none skipped or merged away
+- [ ] Each response states accept/partial/disagree + the exact change location
+- [ ] "Deepen the contribution" answered with theoretical substance, not just additions
+- [ ] Reviewer conflicts navigated without internal contradictions
+- [ ] Revised file still anonymized, within 13k, AI re-declared if used
+- [ ] Tone gracious and serious throughout; letter is self-contained
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Human Relations without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Writing the response before actually revising
+- Defensive or dismissive replies
+- Claiming a change was made without pointing to where
+- Answering "deepen the contribution" with cosmetic additions or extra robustness
+- Satisfying one reviewer in a way that contradicts another's response
+- Re-introducing author-identifying traces or busting the word cap during revision
 
 ## Output format
 
 ```text
 【Journal】Human Relations
 【Skill】humrel-rebuttal
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking rebuttal strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Organization Studies, Journal of Management Studies
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】humrel-rebuttal
+【Round】1st / 2nd / later
+【Editors' core ask addressed】how + where
+【Comments handled】N / N (none skipped)
+【Disagreements】[...] + evidence/compromise
+【Contribution deepened】how the theory matured
+【Compliance】anonymized, ≤13k, AI re-declared (yes/no)
+【Next step】resubmit via ScholarOne
 ```

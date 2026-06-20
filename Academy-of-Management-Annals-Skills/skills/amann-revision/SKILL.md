@@ -1,70 +1,79 @@
 ---
 name: amann-revision
-description: Use when working on revision strategy for a Academy of Management Annals manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when responding to an Academy of Management Annals (Annals) proposal decision or full-review referee letter — framework/attitude asks, coverage gaps, balance complaints, and accessibility. Drafts the response letter and revision plan; it does not run the portal preflight (amann-submission) or redesign the framework from scratch (amann-organizing-framework).
 ---
 
-# Revision Strategy (amann-revision)
+# Revision & Response for a Review (amann-revision)
 
 ## When to trigger
-- The manuscript is aimed at **Academy of Management Annals (Annals)** and revision strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's commissioned and high-level reviews that synthesize management and organization research standard.
-- The paper risks being confused with nearby venues: Academy of Management Review, Journal of Management, Journal of Management Studies, and Annual Review outlets.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A proposal decision letter arrived (invited / revise-and-resubmit / declined)
+- A full-review referee letter arrived (major revision is the norm for a long review)
+- Referees flagged "no real framework," missing streams, imbalance, or "reads like a list"
+- You need a point-by-point response letter for a review article, not a primary paper
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| integrative review is central | Make the integrative review assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| theory synthesis is central | Make the theory synthesis assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| agenda setting is central | Make the agenda setting assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| management field map is central | Make the management field map assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| conceptual reconciliation is central | Make the conceptual reconciliation assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## First: which letter is this?
 
-## Annals fit notes
+Annals' two-step process produces two kinds of feedback, and they call for different moves:
 
-- Publisher / owner context: Academy of Management / Taylor & Francis.
-- Submission route to re-check: Academy of Management submission.
-- Signature vocabulary: integrative review, theory synthesis, agenda setting, management field map, conceptual reconciliation.
-- Sibling boundary: Academy of Management Review, Journal of Management, Journal of Management Studies, and Annual Review outlets.
-- House-style aim: field-defining synthesis that reorganizes theory rather than merely cataloging papers.
-- Official URLs currently used by the pack:
-- https://journals.aom.org/journal/annals
-- https://aom.org/research/publishing-with-aom/author-resources
+- **Proposal-stage feedback** (double-blind, from the Associate Editors). The decision is mainly about *fit and promise*: is the literature Annals-scale, and is there a genuinely new framework under "New insights"? A revise-and-resubmit here usually means sharpen the contribution before the full review is invited — route back through `amann-topic-selection` / `amann-organizing-framework` / `amann-proposal-framing`.
+- **Full-review feedback** (editor-only: Associate Editor and Editor). The review is being developed; feedback is about *execution* — framework strength, coverage, balance, attitude, accessibility. This is the classic point-by-point revision below.
 
-## Stage-specific moves
+## Categories of full-review feedback (and how to answer each)
 
-1. State the exact revision strategy question in one sentence.
-2. Identify which Annals audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `amann-revision` if the stage passes, or back to `amann-workflow` if it does not.
+Triage every point into one bucket:
+
+| Feedback type | Typical phrasing | Response move |
+|---------------|------------------|---------------|
+| **Framework / contribution** | "this is an annotated bibliography" / "where is the integration?" | strengthen or make explicit the spine (`amann-organizing-framework`); do not just reorder — this is the acceptance bar |
+| **Attitude / agenda** | "this is descriptive; take a position" / "the agenda is generic" | add the critical position and a framework-tied agenda (`amann-writing-style`) |
+| **Coverage gap** | "you omit the X stream / author Y" | almost always *concede and integrate*; place the work in the right cell; re-run saturation (`amann-literature-synthesis`) |
+| **Balance / fairness** | "this slights school Z / over-cites the author" | steelman the slighted side; re-audit self-citation (`amann-evidence-standards`) |
+| **Appraisal accuracy** | "you mischaracterize study W" | correct it precisely — reviewed authors often referee |
+| **Scope** | "too broad / too narrow" | renegotiate with the editor (`amann-editor-strategy`); rescope deliberately, not by random cuts |
+
+## Writing the response letter
+
+- **Point-by-point, quote-then-respond.** Reproduce each comment, then state the change and where it lives (section/page/table/figure).
+- **Framework asks are existential — answer them first.** "No real framework" is a reject reason at Annals; a stronger or more explicit spine, not reordered paragraphs, is the required answer.
+- **Coverage asks: concede gracefully and integrate.** A missing stream is a real defect in a review-of-the-field; adding it strengthens the article. Resist defensiveness.
+- **Balance asks: show the steelman.** Demonstrate the revised text states the other side at its strongest.
+- **Disagree rarely and respectfully.** If an ask would break the framework or expand scope unfinishably, explain the trade-off and propose an alternative, ideally pre-cleared with the editor.
+- **Keep the editor central.** Because the full review is developed with the AE and Editor, route scope conflicts and incompatible asks to them rather than trying to satisfy everyone.
+- **Track every addition's ripple.** Adding a stream can shift the review's center of gravity; after each integration, re-check that the framework cells, the synthesis tables, and the balance audit still hold.
 
 ## Checklist
-- [ ] The Annals audience can see why the paper belongs in commissioned and high-level reviews that synthesize management and organization research.
-- [ ] The draft distinguishes Annals from Academy of Management Review, Journal of Management, Journal of Management Studies.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for revision strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] The review explains inclusion/exclusion logic and how competing schools are balanced.
-- [ ] The synthesis produces an agenda, taxonomy, or framework rather than a bibliography.
+
+- [ ] Identified whether the letter is proposal-stage (fit/promise) or full-review (execution)
+- [ ] Every comment triaged (framework / attitude / coverage / balance / appraisal / scope)
+- [ ] "No framework" / "annotated bibliography" answered with a stronger explicit spine, not reordering
+- [ ] "Descriptive" answered by adding a critical position + framework-tied agenda
+- [ ] Coverage gaps conceded and integrated into the right cell; saturation re-run
+- [ ] Balance complaints answered by demonstrable steelmanning + self-citation re-audit
+- [ ] Mischaracterizations corrected precisely (reviewed authors may be the referees)
+- [ ] Scope conflicts routed to the editor for adjudication
+- [ ] Point-by-point letter: quote-then-respond, with section/page/table locations
+- [ ] Framework, coverage, and balance re-audited after all additions
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Annals without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- "Fixing" a no-framework critique by shuffling paragraphs without strengthening the spine
+- Answering a "be more provocative" ask with the same neutral prose
+- Defending an omission rather than adding the missing stream (a review gap is a real defect)
+- Answering a balance complaint with assertions of fairness instead of revised, steelmanned text
+- Mischaracterizing or dismissing a reviewed author who is likely your referee
+- Bloating scope to satisfy every "also cover…" until the review no longer finishes
 
 ## Output format
 
 ```text
-【Journal】Academy of Management Annals
-【Skill】amann-revision
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking revision strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Academy of Management Review, Journal of Management
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】amann-revision
+【Letter type】proposal-stage (fit/promise) / full-review (execution)
+【Triage】each comment bucketed (framework/attitude/coverage/balance/appraisal/scope)? Y/N
+【Framework asks】spine strengthened/made explicit (not reordered)? Y/N
+【Attitude/agenda】critical position + framework-tied agenda added? Y/N
+【Coverage gaps】conceded + integrated into cells; saturation re-run? Y/N
+【Balance】steelman shown in revised text; self-citation re-audited? Y/N
+【Scope conflicts】routed to editor? Y/N
+【Letter】point-by-point, quote-then-respond, with locations? Y/N
+【Next skill】→ amann-submission (re-preflight the revised proposal or review)
 ```

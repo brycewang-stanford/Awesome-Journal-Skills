@@ -56,6 +56,13 @@ Avoid both under- and over-claiming. Under-claiming buries a real move under hed
 - Abstract/intro/discussion describing three subtly different contributions
 - Framing that would suit AMJ/Org Science empirics rather than OS theory
 
+## Referee pushback mapped to the framing fix
+
+- *"I don't see the contribution."* → The intro states findings, not a move. Rewrite the contribution sentence at the level of the theory and put it on page one or two.
+- *"This is incremental / well-known."* → The claim is an extension, not a reconceptualization. Show what about your case *forces* an amendment the prior account cannot make.
+- *"The contribution is overstated."* → The claim exceeds the evidence ceiling. Pull it back to exactly what the mechanism supports (`orgstud-data-analysis` sets that ceiling).
+- *"The discussion just repeats the results."* → Develop the move instead: implications for the conversation, boundary conditions, and the new questions it opens.
+
 ## Output format
 
 ```text

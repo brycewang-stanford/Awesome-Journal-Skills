@@ -1,70 +1,72 @@
 ---
 name: amann-review-process
-description: Use when working on review process for a Academy of Management Annals manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when planning around the two-step proposal→invited-review process of the Academy of Management Annals (Annals) — the twice-yearly proposal cadence, double-blind proposal review, the editor-only full-review development, and timelines. Explains the process; it does not write the proposal (amann-proposal-framing) or run the portal preflight (amann-submission).
 ---
 
-# Review Process (amann-review-process)
+# The Annals Review Process (amann-review-process)
 
 ## When to trigger
-- The manuscript is aimed at **Academy of Management Annals (Annals)** and review process is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's commissioned and high-level reviews that synthesize management and organization research standard.
-- The paper risks being confused with nearby venues: Academy of Management Review, Journal of Management, Journal of Management Studies, and Annual Review outlets.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You are deciding whether to start now or wait for the next deadline
+- You need to understand who reviews what, when, and how blinding changes between stages
+- You are planning a realistic timeline from proposal to published review
+- A coauthor assumes Annals works like a normal journal (it does not)
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| integrative review is central | Make the integrative review assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| theory synthesis is central | Make the theory synthesis assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| agenda setting is central | Make the agenda setting assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| management field map is central | Make the management field map assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| conceptual reconciliation is central | Make the conceptual reconciliation assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The two-step process is the defining feature
 
-## Annals fit notes
+Annals does not accept full reviews cold. Intake is a **gated, two-step process** (检索于 2026-06；以官网为准):
 
-- Publisher / owner context: Academy of Management / Taylor & Francis.
-- Submission route to re-check: Academy of Management submission.
-- Signature vocabulary: integrative review, theory synthesis, agenda setting, management field map, conceptual reconciliation.
-- Sibling boundary: Academy of Management Review, Journal of Management, Journal of Management Studies, and Annual Review outlets.
-- House-style aim: field-defining synthesis that reorganizes theory rather than merely cataloging papers.
-- Official URLs currently used by the pack:
-- https://journals.aom.org/journal/annals
-- https://aom.org/research/publishing-with-aom/author-resources
+| Stage | What happens | Blinding & reviewers | Output |
+|-------|--------------|----------------------|--------|
+| **1. Proposal** | Submit a ≤5-page proposal (four headings) at a deadline | **Double-blind**, reviewed by the **Associate Editors** | Invitation to develop the full review, or decline |
+| **2. Invited full review** | Develop the ~50-page review with editorial guidance | **Forgoes double-blind**; read by the **Associate Editor and Editor** | Conditional acceptance / revisions / decline |
 
-## Stage-specific moves
+The consequences are large: most of the *gatekeeping* happens at the lightweight proposal stage, and most of the *development* happens collaboratively with an editor who already endorsed the idea. This is closer to commissioning than to ordinary peer review — you are co-building an invited piece, not throwing a finished manuscript over the wall.
 
-1. State the exact review process question in one sentence.
-2. Identify which Annals audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `amann-revision` if the stage passes, or back to `amann-workflow` if it does not.
+## The cadence
+
+- **Deadlines: April 1 and October 1.** Proposals are not reviewed until the deadline passes, so submitting early gains nothing on timing — but submitting late means waiting six months.
+- **Proposal decision: ~6 weeks after the deadline.**
+- **Two issues per year (January and July).** Plan the full-review development and revision around this rhythm.
+- **Full-review development is substantial.** Budget months for reading, drafting, and likely multi-round revision with the editor — not a quick turnaround.
+
+## Planning the timeline
+
+1. **Pick the deadline first.** Decide which April 1 / October 1 window the proposal targets, and back-plan the proposal-writing from there.
+2. **Do not over-invest before invitation.** The proposal is the gate; do enough reading to write a credible "Review scope and process" and "New insights," but do not draft the full review before you are invited.
+3. **On invitation, ramp the systematic search** (`amann-literature-synthesis`) — full coverage to saturation is now required.
+4. **Treat the editor as a partner** through the editor-only full-review stage (`amann-editor-strategy`); expect substantive revision rounds.
+5. **Re-confirm every volatile date and rule** on the official pages before relying on them.
+
+> Strategic implication: because the proposal is cheap to write and the full review is expensive, the highest-leverage move is a *great proposal*. Failing fast at the proposal stage saves months; over-building before invitation wastes them.
 
 ## Checklist
-- [ ] The Annals audience can see why the paper belongs in commissioned and high-level reviews that synthesize management and organization research.
-- [ ] The draft distinguishes Annals from Academy of Management Review, Journal of Management, Journal of Management Studies.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for review process names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] The review explains inclusion/exclusion logic and how competing schools are balanced.
-- [ ] The synthesis produces an agenda, taxonomy, or framework rather than a bibliography.
+
+- [ ] Understood that full reviews are submitted only after a proposal is invited (no cold full submissions)
+- [ ] Target deadline (April 1 / October 1) chosen and proposal back-planned
+- [ ] Aware proposals are double-blind (Associate Editors); invited full review is editor-only (AE + Editor)
+- [ ] ~6-week proposal decision and Jan/Jul publishing rhythm factored into the plan
+- [ ] No full-review drafting before invitation (proposal is the gate)
+- [ ] Substantive, multi-round full-review revision budgeted (not a light turnaround)
+- [ ] All volatile dates/rules re-confirmed on the official AOM/Annals pages (检索于 2026-06)
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Annals without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Treating Annals like a rolling-submission journal and submitting a full review cold
+- Submitting the proposal early expecting a faster decision (review starts only after the deadline)
+- Drafting the entire ~50-page review before the proposal is invited
+- Expecting double-blind anonymity at the full-review stage (it forgoes double-blind)
+- Underestimating revision depth and the six-month deadline gap if you miss a window
+- Asserting current deadlines/timelines from memory rather than the live pages
 
 ## Output format
 
 ```text
-【Journal】Academy of Management Annals
-【Skill】amann-review-process
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking review process
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Academy of Management Review, Journal of Management
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】amann-revision
+【Stage】proposal (double-blind, AEs) / invited full review (editor-only, AE+Editor)
+【Target deadline】April 1 / October 1 → <which>; proposal back-planned? Y/N
+【Pre-invitation discipline】no full-review drafting before invitation? Y/N
+【Timeline】~6-week proposal decision + Jan/Jul rhythm factored in? Y/N
+【Revision budget】substantive multi-round development planned? Y/N
+【Volatile re-confirms】deadlines / blinding / timelines checked on official pages? Y/N
+【Next skill】→ amann-submission (preflight) or amann-revision (after a decision)
 ```

@@ -57,6 +57,10 @@ OS runs a **double-anonymized**, **developmental** review handled by a co-editor
 - Resubmitting a desk-rejected paper to a sibling without fixing the contribution problem
 - Ignoring reflexivity/positionality requests as if they were pro forma
 
+## Worked vignette: reading an ambiguous letter (illustrative)
+
+A letter reads: "The phenomenon is fascinating and the fieldwork is impressive, but the contribution to institutional theory remains underdeveloped; we invite a resubmission if the authors can sharpen the theoretical move." Two authors read this oppositely — one as encouragement, one as a polite reject. The correct read at OS: this is a **high-risk reject-and-resubmit**, not a routine major revision. The praise is for the empirics; the binding problem is the *theoretical contribution*, which means the revision is closer to a partial rewrite than a polish. Proceed only if you can genuinely make the institutional-theory move land (route to `orgstud-theory-development` and `orgstud-contribution-framing`); otherwise reposition. Treating it as a minor revision and resubmitting with cosmetic edits is the fast path to a final reject.
+
 ## Output format
 
 ```text

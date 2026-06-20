@@ -35,6 +35,16 @@ JMIS reviewers expect you to know the IS basket. Engage prior JMIS, MISQ, ISR, a
 | "This is single-paradigm; try ISR" | Either embracing JMIS's clean management/economics framing or, if the edge is silo-bridging, considering ISR honestly |
 | "This is just a better algorithm" | Reframing around managerial utility and IS decision-making, or rerouting to a CS venue |
 
+## Worked vignette: turning an absence into a tension (illustrative)
+
+A privacy paper opens: "Little is known about how breach disclosure laws affect firms." That is an absence, and a JMIS reviewer will read it as under-positioned. Reframed as a tension: *the security-economics literature argues mandatory disclosure disciplines firms into investing more in protection [signaling/deterrence], yet the disclosure literature implies it can trigger reputational over-reaction and under-reporting; we identify which force dominates and for whom.* Now the gap is a live debate the IS field can place, the contribution is a resolution rather than a first look, and the closest IS predecessors (prior JMIS/MISQ security-economics papers) become the conversation you advance rather than a citation pile.
+
+## Referee pushback mapped to a repositioning move
+
+- *"This reads like an economics paper that happens to use IS data."* → Move the IT artifact into the mechanism and make the takeaway an IS-management implication, not a generic economic one.
+- *"The contribution is incremental over [prior JMIS paper]."* → State the delta against that exact paper in one sentence: what it could not show that you now can.
+- *"You ignore the design-science / behavioral side of this question."* → Either bridge it explicitly (and weigh ISR) or argue why the management/economics framing is the right cut for JMIS.
+
 ## Checklist
 
 - [ ] The specific IS conversation (stream) is named, with its current frontier

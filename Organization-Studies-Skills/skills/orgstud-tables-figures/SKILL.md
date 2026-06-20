@@ -57,6 +57,10 @@ At OS, the exhibits are where reviewers **verify the data-to-theory inference**,
 - Exhibits the body must explain because their captions/notes are incomplete
 - Decorative figures that answer no question (cut them)
 
+## Worked vignette: rescuing a flat process figure (illustrative)
+
+A process paper submitted a figure of four boxes — "Onset → Escalation → Resolution → Stabilization" — joined by plain arrows. A reviewer wrote: "This is a timeline, not a process model; I cannot see the mechanism." The fix was not a prettier figure but a more *theoretical* one: each arrow was labeled with the **trigger** that drives the transition (e.g., "a breach makes the prior frame untenable") and each phase annotated with **what it accomplishes that the prior could not** (e.g., "Escalation surfaces the latent logic conflict"). The redrawn figure now encodes the generative logic, so a reader can reconstruct the theory from the image alone — which is exactly what an OS process exhibit must do.
+
 ## Output format
 
 ```text
