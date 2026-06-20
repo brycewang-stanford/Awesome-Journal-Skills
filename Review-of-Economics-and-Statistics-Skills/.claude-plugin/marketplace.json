@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "restat-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at The Review of Economics and Statistics (REStat), the MIT Press journal of applied economics and applied econometrics edited at the Harvard Kennedy School.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "restat-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the The Review of Economics and Statistics (REStat) manuscript lifecycle, from topic selection through the Harvard Dataverse replication package and R&R rebuttal.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/restat-skills",
+      "repository": "https://github.com/brycewang-stanford/restat-skills",
+      "keywords": [
+        "review-of-economics-and-statistics",
+        "restat",
+        "applied-economics",
+        "applied-econometrics",
+        "causal-identification",
+        "data-and-code-availability",
+        "reproducibility"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/restat-workflow",
+        "skills/restat-topic-selection",
+        "skills/restat-literature-positioning",
+        "skills/restat-identification",
+        "skills/restat-theory-model",
+        "skills/restat-robustness",
+        "skills/restat-tables-figures",
+        "skills/restat-writing-style",
+        "skills/restat-replication-package",
+        "skills/restat-referee-strategy",
+        "skills/restat-submission",
+        "skills/restat-rebuttal"
+      ]
+    }
+  ]
+}

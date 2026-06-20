@@ -1,0 +1,26 @@
+{
+  "name": "restat-skills",
+  "description": "Agent skill stack for manuscripts targeted at The Review of Economics and Statistics (REStat) — the venerable MIT Press journal edited at the Harvard Kennedy School (founded 1917/1919) for applied economics and applied econometrics. The pack is empirical-first and measurement-aware: it routes a manuscript from venue fit and credible causal identification, through robustness, exhibits, and house-style writing, into REStat's signature Data and Code Availability Policy — a replication package deposited to the journal's Harvard Dataverse and checked for reproducibility — and on through Editorial Express submission, referee strategy, and the R&R rebuttal. Twelve role skills span workflow routing, topic selection, literature positioning, identification, theory-model right-sizing, robustness, tables and figures, writing style, the replication package, referee strategy, submission preflight, and rebuttal. Bilingual en / zh-CN docs; Stata / R / Python conventions for applied causal-inference work.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/restat-skills",
+  "repository": "https://github.com/brycewang-stanford/restat-skills",
+  "keywords": [
+    "review-of-economics-and-statistics",
+    "restat",
+    "applied-economics",
+    "applied-econometrics",
+    "causal-identification",
+    "measurement",
+    "data-and-code-availability",
+    "harvard-dataverse",
+    "reproducibility",
+    "editorial-express",
+    "mit-press",
+    "academic-writing"
+  ]
+}
