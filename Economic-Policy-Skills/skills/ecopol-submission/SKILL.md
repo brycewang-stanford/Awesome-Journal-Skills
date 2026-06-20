@@ -1,72 +1,70 @@
 ---
 name: ecopol-submission
-description: Use when working on submission preflight for a Economic Policy manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when running the final preflight for an Economic Policy (EP) manuscript — the commissioning route, the conference-ready draft, and the camera-ready version (not an open submission portal). Final checks; it does not draft content.
 ---
 
-# Submission Preflight (ecopol-submission)
+# Submission / Commissioning Preflight (ecopol-submission)
 
 ## When to trigger
-- The manuscript is aimed at **Economic Policy (Economic Policy)** and submission preflight is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's policy-relevant economics papers written for an expert but broad policy audience standard.
-- The paper risks being confused with nearby venues: AEJ Economic Policy, Journal of Public Economics, IMF Economic Review, and World Bank Economic Review.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You have a commissioning invitation and need a conference-ready draft checked
+- You are pitching the Managing Editor to be commissioned and want the proposal tight
+- The paper has been through the panel and you are preparing the camera-ready version
+- A coauthor assumes there is an open submission portal and you need to correct the route
+- Final format/style check before the file goes to the journal
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| policy question is central | Make the policy question assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| European policy debate is central | Make the European policy debate assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| CEPR audience is central | Make the CEPR audience assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| welfare implication is central | Make the welfare implication assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| transparent counterfactual is central | Make the transparent counterfactual assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## EP has no open portal — it is commissioned
 
-## Economic Policy fit notes
+The single most important preflight fact: since the 2025 relaunch as *Economic Policy: Papers on European and Global Issues*, EP is **online-only and commissioned** — "all articles are invited by the Managing Editor"; **EP does not accept unsolicited submissions** (检索于 2026-06；以官网为准). There is no Manuscript-Central-style portal where you upload a cold submission. The realistic "submission" paths are:
 
-- Publisher / owner context: Oxford University Press / CEPR and partner institutions.
-- Submission route to re-check: OUP submission.
-- Signature vocabulary: policy question, European policy debate, CEPR audience, welfare implication, transparent counterfactual.
-- Sibling boundary: AEJ Economic Policy, Journal of Public Economics, IMF Economic Review, and World Bank Economic Review.
-- House-style aim: policy-first economics that states the decision problem, evidence, and limits plainly.
-- Official URLs currently used by the pack:
-- https://academic.oup.com/economicpolicy
-- https://academic.oup.com/economicpolicy/pages/General_Instructions
+1. **Get commissioned.** Circulate a strong working draft, pitch the Managing Editor on a timely policy question, and be visible in the CEPR / CESifo / Sciences Po policy networks. The proposal must read as a Panel-worthy, timely policy question (see `ecopol-topic-selection`).
+2. **Deliver a conference-ready draft.** Once invited, the paper is presented at a biannual conference and discussed by two invited discussants.
+3. **Produce the camera-ready.** After the panel, the final version is published with the discussants' comments within ~6 months of presentation (检索于 2026-06；以官网为准).
 
-## Stage-specific moves
+Authors receive a **journal template and style guidance at the time of commissioning**; files are submitted in **editable format (Microsoft Word or LaTeX)** (检索于 2026-06；以官网为准). Exact word/abstract limits are **待核实** — not quantified in the public guidelines; confirm against the template you are given.
 
-1. State the exact submission preflight question in one sentence.
-2. Identify which Economic Policy audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `ecopol-rebuttal` if the stage passes, or back to `ecopol-workflow` if it does not.
+## Preflight by stage
 
-## Checklist
-- [ ] The Economic Policy audience can see why the paper belongs in policy-relevant economics papers written for an expert but broad policy audience.
-- [ ] The draft distinguishes Economic Policy from AEJ Economic Policy, Journal of Public Economics, IMF Economic Review.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for submission preflight names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+### Stage 1 — Commissioning pitch
+- [ ] Headline policy sentence is timely, important, and Panel-worthy (`ecopol-topic-selection` passed)
+- [ ] Working draft circulated / visible; a clear hook for the Managing Editor's thematic priorities
+- [ ] European or global policy relevance is explicit
+
+### Stage 2 — Conference-ready draft
+- [ ] Main text accessible to a policy reader; technical machinery in the appendix (`ecopol-writing-style`)
+- [ ] Identification and robustness done; top discussant objections pre-empted (`ecopol-referee-strategy`)
+- [ ] Headline exhibits in policy units, CIs shown, no asterisk-driven headline (`ecopol-tables-figures`)
+- [ ] Data + code package ready for a provenance challenge (`ecopol-replication-package`)
+- [ ] File in editable format (Word/LaTeX); affiliations as they should appear
+
+### Stage 3 — Camera-ready (post-panel)
+- [ ] All discussant points addressed (fixed or rebutted in text) — they publish alongside you
+- [ ] Journal template applied; style guidance followed
+- [ ] Figures carry alt text per accessibility policy (待核实 exact spec)
+- [ ] Data/code submitted for journal verification and publication alongside the article
+- [ ] Disclosure / funding / authorship per OUP research-ethics policy
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Economic Policy without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Looking for an open submission portal and concluding the journal is closed — the route is commissioning (检索于 2026-06；以官网为准)
+- Pitching a topic that is academically novel but not timely or policy-decision-relevant
+- Submitting a PDF-only manuscript when editable Word/LaTeX is required
+- Treating discussant comments as optional — they are published next to your paper
+- Inventing word limits or fees instead of confirming against the commissioning template (待核实)
 
 ## Output format
 
 ```text
-【Journal】Economic Policy
+【Journal】Economic Policy (EP)
 【Skill】ecopol-submission
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking submission preflight
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not AEJ Economic Policy, Journal of Public Economics
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】ecopol-rebuttal
+【Route】commissioned — no open portal (检索于 2026-06)
+【Stage】pitch / conference-ready / camera-ready
+【Format】editable Word or LaTeX; affiliations set? [Y/N]
+【Accessible main text + technical appendix】[Y/N]
+【Discussant points addressed (if post-panel)】[Y/N]
+【Data/code for verification ready】[Y/N]
+【Limits】word/abstract limits 待核实 — check template
+【Next step】deliver to Managing Editor → ecopol-rebuttal after the panel
 ```
 
 ## Supplementary resources

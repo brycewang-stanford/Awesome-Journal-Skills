@@ -1,70 +1,100 @@
 ---
 name: jru-writing-style
-description: Use when working on writing style for a Journal of Risk and Uncertainty manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the prose of a Journal of Risk and Uncertainty (JRU) manuscript must convey a decision model and its measurement with precision. Sharpens abstract, intro, and exposition for a risk/uncertainty audience; it does not invent evidence or citations.
 ---
 
 # Writing Style (jru-writing-style)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Risk and Uncertainty (JRU)** and writing style is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's risk, uncertainty, decision theory, behavioral choice, insurance, and experimental evidence on risky decisions standard.
-- The paper risks being confused with nearby venues: Experimental Economics, Journal of Economic Behavior and Organization, Games and Economic Behavior, and Management Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The abstract says "we study risk preferences" without naming the primitive, the method, or the headline number
+- The introduction motivates with a policy anecdote but never states the decision-theoretic claim
+- Notation drifts: the same symbol means utility in one section and value in another, or w(p) is never formally introduced
+- The paper reads as either pure theory or pure empirics when JRU readers expect the bridge between them
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| risk preference is central | Make the risk preference assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| uncertainty attitude is central | Make the uncertainty attitude assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| prospect-theory test is central | Make the prospect-theory test assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| insurance behavior is central | Make the insurance behavior assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| experimental elicitation is central | Make the experimental elicitation assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The JRU voice
 
-## JRU fit notes
+JRU prose is **precise about the decision model and honest about measurement**. The reader is a risk-and-uncertainty specialist who wants, fast: which primitive the paper moves, how it was elicited or estimated, and how big and how precise the effect is. The house register is technical but not ornamental — the model earns its symbols, and every claim is calibrated to what the identification supports.
 
-- Publisher / owner context: Springer.
-- Submission route to re-check: Springer Nature submission.
-- Signature vocabulary: risk preference, uncertainty attitude, prospect-theory test, insurance behavior, experimental elicitation.
-- Sibling boundary: Experimental Economics, Journal of Economic Behavior and Organization, Games and Economic Behavior, and Management Science.
-- House-style aim: decision-theoretic clarity with careful measurement of risk and uncertainty.
-- Official URLs currently used by the pack:
-- https://link.springer.com/journal/11166
-- https://www.springer.com/journal/11166/submission-guidelines
+### Abstract (treat each sentence as load-bearing)
 
-## Stage-specific moves
+1. The primitive and the question ("How does ambiguity attitude shape insurance takeup?").
+2. The method in a phrase (incentive-compatible elicitation; hedonic-wage estimation; an axiomatization).
+3. The headline result as a *number with a direction* (a magnitude, not "significant").
+4. The decision-theoretic interpretation — what it implies for EU vs. its alternatives.
+Keep within the journal's abstract limit (待核实 — verify exact word cap on the official guidelines).
 
-1. State the exact writing style question in one sentence.
-2. Identify which JRU audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jru-replication-package` if the stage passes, or back to `jru-workflow` if it does not.
+### Introduction
+
+- Open on the **decision-theoretic puzzle**, not a news hook. The motivating tension should be a gap in how we represent or measure a risk primitive.
+- State the contribution as a property of a primitive in the first page (mirror `jru-literature-positioning`).
+- Preview the identification in one or two sentences — JRU readers want to know *what pins the parameter* before the results.
+- Tell the reader what the paper does **not** claim; over-claiming is the fastest route to a skeptical referee.
+
+### Exposition
+
+- Introduce the representation formally before interpreting it; define u, w(p), the prior set, the reference point once and use them consistently.
+- Report effects as **magnitudes with precision**, in interpretable units (a VSL in dollars, an elasticity, a λ).
+- Keep the experiment's incentive structure and the estimand visible in the main text, not buried in a procedures appendix.
+
+### Calibrating claims to the evidence
+
+JRU's referees are quick to flag prose that runs ahead of the identification. A few habits keep the register honest:
+
+- **Match the verb to the design.** Write "is associated with" for a correlation, "raises" only where the identification supports causation, "is consistent with" when a model fits but is not uniquely identified.
+- **Quantify, then interpret.** Lead with the number and its precision; follow with the decision-theoretic reading. Avoid an interpretation the confidence interval cannot bear.
+- **Name the scope of the claim.** A lab estimate of loss aversion is a statement about the elicited population and stakes, not a universal constant — say so.
+- **Reserve "robust" for the robustness section.** Do not assert robustness in the intro before the checks in `jru-robustness` are reported.
+
+### Section-by-section register
+
+- *Model section:* terse and formal — definitions, then results, then one paragraph of interpretation.
+- *Design / data section:* concrete — the mechanism, the stakes, the estimand, the sample, in plain sequence.
+- *Results section:* numbers with precision first, decision-theoretic meaning second.
+- *Discussion:* the boundary of the claim and what it implies for EU vs. its alternatives, without re-litigating the introduction.
 
 ## Checklist
-- [ ] The JRU audience can see why the paper belongs in risk, uncertainty, decision theory, behavioral choice, insurance, and experimental evidence on risky decisions.
-- [ ] The draft distinguishes JRU from Experimental Economics, Journal of Economic Behavior, Organization.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for writing style names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] The abstract names the primitive, the method, a signed magnitude, and the EU-vs-alternatives interpretation
+- [ ] The intro opens on a decision-theoretic puzzle and states the contribution within the first page
+- [ ] The identification is previewed before the results
+- [ ] Notation for u, w(p), priors, and reference point is defined once and used consistently
+- [ ] Effects are reported as magnitudes in interpretable units, with precision
+- [ ] The paper explicitly states what it does not claim
+- [ ] Abstract/length conform to the journal limits (verify exact caps; mark 待核实 if unconfirmed)
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JRU without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- An abstract that says "significant effects" without a number or a direction
+- A policy-anecdote opening that never reaches the decision model
+- Symbol drift (u vs. v, w(p) introduced only in a footnote)
+- Hiding the incentive mechanism or estimand in an appendix while the intro makes strong claims
+- Prose that over-states generality beyond what the elicitation/estimation supports
+
+## Worked vignette (illustrative)
+
+A draft abstract reads: "We run an experiment on decision-making and find significant behavioral effects." The JRU rewrite: "We elicit ambiguity attitudes with an incentive-compatible matching-probabilities task (N illustrative) and estimate an α-MEU model. Ambiguity aversion (α illustrative 0.62) raises the willingness to pay for an unambiguous prospect by [magnitude], a wedge expected utility cannot generate. The result implies insurance demand responds to *ambiguity*, not just to risk." Same study — but the primitive, method, magnitude, and theoretical stakes are all visible.
+
+## Terminology a JRU reader expects you to use precisely
+
+Sloppy vocabulary signals a non-specialist. Use these distinctions exactly:
+
+- **Risk** (known probabilities) vs. **uncertainty / ambiguity** (unknown probabilities) — never interchangeable.
+- **Risk aversion** (utility curvature) vs. **probability weighting** (distortion of p) vs. **loss aversion** (asymmetry around a reference point) — three different things, not synonyms for "cautious."
+- **Value** v(·) (prospect-theory carrier of utility over gains/losses) vs. **utility** u(·) (EU carrier over final wealth) — keep the symbols distinct.
+- **Certainty equivalent**, **risk premium**, **willingness to pay** — defined precisely, not used loosely.
+
+A paper that uses these terms cleanly reads as written by an insider; one that blurs them invites the referee to doubt the rest.
 
 ## Output format
 
 ```text
 【Journal】Journal of Risk and Uncertainty
 【Skill】jru-writing-style
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking writing style
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Experimental Economics, Journal of Economic Behavior
-【Source status】verified URL / 待核实 / not asserted
+【Verdict】lands / tighten / rebuild abstract
+【Abstract has】primitive + method + signed magnitude + EU-vs-alt interpretation [Y/N]
+【Intro】decision-theoretic puzzle + contribution on page 1 [Y/N]
+【Notation】consistent u / w(p) / priors / reference point [Y/N]
+【Limits】abstract/length within journal caps (待核实) [Y/N]
 【Next skill】jru-replication-package
 ```

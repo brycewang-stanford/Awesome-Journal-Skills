@@ -1,76 +1,92 @@
 ---
 name: jegeo-submission
-description: Use when working on submission preflight for a Journal of Economic Geography manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when running the final pre-submission preflight for a Journal of Economic Geography (JEG) manuscript via OUP / ScholarOne — word and abstract limits, double-anonymous scrub, ORCID, keywords/JEL, and house style. Final checks; it does not draft content.
 ---
 
 # Submission Preflight (jegeo-submission)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Economic Geography (JEG)** and submission preflight is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's economic geography, spatial economics, regional development, innovation clusters, trade, and place-based policy standard.
-- The paper risks being confused with nearby venues: Journal of Urban Economics, Regional Studies, Economic Geography, and Journal of International Economics.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- "Submitting tomorrow" — last check before pressing submit on ScholarOne / Manuscript Central
+- Unsure which files, limits, and declarations the OUP submission expects
+- Confirming the manuscript is double-anonymous-clean and within JEG's length/abstract limits
+- Deciding whether the paper fits the full-article or the shorter Emerging Voices lane
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| spatial clustering is central | Make the spatial clustering assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| regional divergence is central | Make the regional divergence assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| place-based policy is central | Make the place-based policy assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| network geography is central | Make the network geography assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| innovation ecosystem is central | Make the innovation ecosystem assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Process facts (检索于 2026-06；以官网为准)
 
-## JEG fit notes
+- JEG is published by **Oxford University Press**; submission is through **ScholarOne / Manuscript Central** at `mc.manuscriptcentral.com/joeg` (the OUP submission system).
+- Review is **double-anonymous**: the author's identity must be removed from the manuscript, not just the title page — referees and authors are mutually anonymized.
+- **Length:** standard articles are **≤8,000 words excluding references**; over-length papers may be asked to cut or to move non-essential material to an **online-only appendix**, and this can be a condition for review. The **Emerging Voices** format is shorter (≈5,000 words, few exhibits) for tighter contributions.
+- **Abstract ≤100 words**, followed by **four keywords** and **JEL codes**.
+- **ORCID iD** is required for the submitting author.
+- **Data/code policy** is encouragement-based and handled **after acceptance** (you are asked at acceptance whether associated data exist) — there is no pre-acceptance reproducibility archive.
+- Exact figure specs, fee/open-access details, and any updated limits are **待核实** — confirm on the OUP author-instructions page before submitting.
 
-- Publisher / owner context: Oxford University Press.
-- Submission route to re-check: OUP / ScholarOne submission.
-- Signature vocabulary: spatial clustering, regional divergence, place-based policy, network geography, innovation ecosystem.
-- Sibling boundary: Journal of Urban Economics, Regional Studies, Economic Geography, and Journal of International Economics.
-- House-style aim: spatial economic argument that combines maps, mechanisms, and regional theory.
-- Official URLs currently used by the pack:
-- https://academic.oup.com/joeg
-- https://academic.oup.com/joeg/pages/General_Instructions
+## Preflight checklist
 
-## Stage-specific moves
+### Length & structure
+- [ ] Main text **≤8,000 words excluding references**; over-length material moved to an online appendix (待核实 exact limit)
+- [ ] Main text is **self-contained** — the appendix supports, it does not carry a key claim
+- [ ] Emerging Voices papers within that format's shorter limit (检索于 2026-06；以官网为准)
 
-1. State the exact submission preflight question in one sentence.
-2. Identify which JEG audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jegeo-rebuttal` if the stage passes, or back to `jegeo-workflow` if it does not.
+### Abstract, keywords, classification
+- [ ] **Abstract ≤100 words**, contribution-first
+- [ ] **Four keywords** + **JEL codes** included
+- [ ] Title conveys the spatial economic contribution
 
-## Checklist
-- [ ] The JEG audience can see why the paper belongs in economic geography, spatial economics, regional development, innovation clusters, trade, and place-based policy.
-- [ ] The draft distinguishes JEG from Journal of Urban Economics, Regional Studies, Economic Geography.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for submission preflight names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+### Double-anonymous scrub
+- [ ] Author names/affiliations removed from the manuscript body and headers
+- [ ] Self-citations neutralized ("Author (2022)" not "In our 2022 paper on [city]")
+- [ ] Acknowledgments/funding lines removed to a separate non-blinded file
+- [ ] File metadata (PDF/Word author properties) scrubbed
+- [ ] Maps/figures carry no identifying institutional watermarks
+
+### House style & exhibits
+- [ ] **No significance asterisks**; standard errors / CIs reported; SE type (Conley/clustered) stated
+- [ ] Spatial-model tables report direct vs. indirect effects; W and cutoff noted
+- [ ] Maps make an argument, classification scheme stated, readable in grayscale
+- [ ] Figure/table specs meet OUP requirements (待核实)
+
+### Files & declarations
+- [ ] Anonymized main PDF/Word + separate title page with authors, affiliations, ORCID
+- [ ] **ORCID** for the submitting author ready
+- [ ] Online appendix file prepared if over length
+- [ ] Confirmed the paper is not under review elsewhere; AI not listed as an author
+
+## The double-anonymous scrub deserves its own pass
+
+Double-anonymous review is where economic-geography papers leak identity in ways authors miss, because the *place* is often a fingerprint. Beyond the usual name/affiliation removal:
+
+- A single-region case study can de-anonymize the author by the study site plus their known field area — phrase self-citations and acknowledgments to avoid confirming it.
+- Maps and figures sometimes carry institutional logos, GIS-license watermarks, or file-path captions exposing a username; export clean.
+- PDF/Word document properties retain the author name by default — clear them.
+- "Funded by [grant] to [PI]" in a footnote defeats the whole exercise; move it to the separate title page.
+
+Treat this as a dedicated checklist pass, not a side effect of deleting the byline.
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JEG without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Submitting with author identity still visible (defeats double-anonymous review — common desk-reject)
+- Abstract over 100 words or missing keywords/JEL
+- Over-length manuscript with no online-appendix plan
+- Significance asterisks, or spatial-lag tables with no direct/indirect split
+- Confusing JEG's post-acceptance data policy with a pre-acceptance archive and over- or under-preparing
+- Treating ScholarOne for JEG like an Elsevier portal (it is OUP/Manuscript Central)
 
 ## Output format
 
 ```text
-【Journal】Journal of Economic Geography
-【Skill】jegeo-submission
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking submission preflight
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Urban Economics, Regional Studies
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jegeo-rebuttal
+【Length】≤8,000 words excl. refs; appendix plan if over? [Y/N]
+【Abstract】≤100 words + 4 keywords + JEL? [Y/N]
+【Double-anonymous】body/citations/metadata/figures scrubbed? [Y/N]
+【House style】no asterisks; SE type + W/cutoff; maps argue? [Y/N]
+【ORCID + files】ORCID ready; anonymized MS + separate title page? [Y/N]
+【Format】full article / Emerging Voices
+【Next step】submit via mc.manuscriptcentral.com/joeg → jegeo-rebuttal on decision
 ```
 
 ## Supplementary resources
 
 - [`templates/checklist.md`](templates/checklist.md) — submission self-check
 - [`templates/manuscript_template.md`](templates/manuscript_template.md) — lightweight manuscript scaffold
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official URLs and volatile facts
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official OUP URLs and volatile facts

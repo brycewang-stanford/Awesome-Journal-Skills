@@ -1,70 +1,75 @@
 ---
 name: jleo-rebuttal
-description: Use when working on rebuttal strategy for a Journal of Law, Economics, and Organization manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when a Journal of Law, Economics, and Organization (JLEO) decision letter has arrived and you need a response-letter strategy — triaging an institutional-economist referee's report into a credible revision and point-by-point reply. Plans the rebuttal; it does not redo the analysis (route back to the relevant jleo-* skill).
 ---
 
 # Rebuttal Strategy (jleo-rebuttal)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Law, Economics, and Organization (JLEO)** and rebuttal strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's law, economics, and organization with emphasis on contracts, institutions, governance, and organizational design standard.
-- The paper risks being confused with nearby venues: Journal of Law and Economics, Journal of Legal Studies, Organization Science, and American Law and Economics Review.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A JLEO R&R or major-revision letter arrived and you must plan the response before editing
+- Two referees pull in opposite directions (one wants more theory, one more empirics) and you must reconcile
+- A referee challenges the institutional mechanism or the identification of a *chosen* governance/institution
+- The editor's letter signals which concerns are decisive and which are optional
+- You need a point-by-point response that an institutional-economics referee will read as responsive, not evasive
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| organizational governance is central | Make the organizational governance assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| contracting institution is central | Make the contracting institution assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| legal-economic mechanism is central | Make the legal-economic mechanism assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| agency problem is central | Make the agency problem assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| institutional design is central | Make the institutional design assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Reading a JLEO decision letter
 
-## JLEO fit notes
+JLEO editors and referees come from the institutional and organizational economics communities, and their reports tend to probe the **mechanism** and the **credibility of a chosen institutional object** harder than the marginal estimate. Before drafting, decode the letter:
 
-- Publisher / owner context: Oxford University Press.
-- Submission route to re-check: OUP submission.
-- Signature vocabulary: organizational governance, contracting institution, legal-economic mechanism, agency problem, institutional design.
-- Sibling boundary: Journal of Law and Economics, Journal of Legal Studies, Organization Science, and American Law and Economics Review.
-- House-style aim: institutional-economics argument that integrates legal rules, governance, and organizational mechanisms.
-- Official URLs currently used by the pack:
-- https://academic.oup.com/jleo
-- https://academic.oup.com/jleo/pages/General_Instructions
+1. **Find the editor's weighting.** The editor's cover note usually signals which referee points are binding. Solve those first; treat the rest as secondary unless cheap.
+2. **Separate the conceptual from the technical.** Institutional referees raise two kinds of point: "your mechanism is not what you claim / your contribution is smaller than stated" (conceptual — may require reframing or new tests) and "this robustness/inference is missing" (technical — usually a table). Triage accordingly.
+3. **Identify the deal-breakers.** A challenge to the identification of a self-selected governance form, or to the validity of a hand-coded institutional measure, is usually a deal-breaker that needs real work, not rhetoric.
 
-## Stage-specific moves
+## Building the response
 
-1. State the exact rebuttal strategy question in one sentence.
-2. Identify which JLEO audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jleo-rebuttal` if the stage passes, or back to `jleo-workflow` if it does not.
+| Referee point type | Response strategy |
+|--------------------|-------------------|
+| "Mechanism is mislabeled / contribution oversold" | Reframe honestly; add a test that pins the mechanism, or scope the claim down — do not just reassert |
+| "Governance/institution is endogenous" | New identification work (IV / shock / selection bound), then report it; route to jleo-identification |
+| "Institutional measure is invalid" | Validate with an alternative measure; document coding; route to jleo-replication-package |
+| "Model adds nothing" | Add a comparative static the intuition lacked, or cut the model to its working core |
+| "Alternative mechanism" | Add a discriminating test; concede partial if the rival is genuinely live |
+| "Missing robustness / inference" | Run it, add the table, point to it; route to jleo-robustness |
+| Referees conflict | Let the editor's signal break the tie; explain the choice respectfully to both |
+
+## Drafting discipline
+
+- **Point-by-point, quote then respond.** Reproduce each comment, then state what you changed and where (page/table). Institutional referees check that you actually moved the paper.
+- **Lead each reply with the action, not the argument.** "We have added X (Table 3)" before "we believe the original was adequate."
+- **Concede where right; defend with evidence where not.** A defended point needs a new exhibit or a citation, not just rhetoric. Never claim a change you did not make.
+- **Keep the institutional framing consistent.** If you reframe the mechanism for one referee, propagate it through the abstract, intro, and the other referee's reply so the paper reads coherently.
+- **Summarize the major changes up front** in a cover letter to the editor, mapped to the binding concerns.
 
 ## Checklist
-- [ ] The JLEO audience can see why the paper belongs in law, economics, and organization with emphasis on contracts, institutions, governance, and organizational design.
-- [ ] The draft distinguishes JLEO from Journal of Law, Economics, Journal of Legal Studies.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for rebuttal strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] The editor's binding concerns are identified and solved first
+- [ ] Every referee point has a quote-then-respond entry that names the change and its location
+- [ ] Deal-breakers (endogeneity, measure validity, mechanism) got real work, not rhetoric
+- [ ] Conflicting referees reconciled with reference to the editor's signal
+- [ ] No claimed change is unsupported by an actual edit/exhibit
+- [ ] The reframed institutional mechanism (if any) is consistent across the whole paper
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JLEO without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Reasserting the mechanism a referee challenged without new evidence or a scope-down
+- Answering an endogeneity objection with prose where a new design or a bound is needed
+- A response that argues with the referee instead of moving the paper
+- Claiming a change ("we now address selection") that the manuscript does not actually contain
+- Reframing for one referee while leaving the abstract/intro contradicting the new framing
+
+## Worked vignette (illustrative)
+
+Referee 1 says the make-or-buy effect is selection, not governance; Referee 2 says the model is decorative; the editor flags Referee 1 as decisive. The plan: route to jleo-identification for a specificity-shock design that breaks the selection (the decisive fix), then trim the model to the single comparative static the data test (answering Referee 2 cheaply). The response letter leads with the new identification, maps it to the editor's binding concern, and shows the slimmed model now earns its place.
 
 ## Output format
 
 ```text
-【Journal】Journal of Law, Economics, and Organization
-【Skill】jleo-rebuttal
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking rebuttal strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Law, Economics
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jleo-rebuttal
+【Decision】R&R / major / minor; editor's binding concerns: ___
+【Referee points triaged】conceptual vs. technical; deal-breakers: ___
+【Action per point】quote → change → location (page/table)
+【New work needed】route to jleo-identification / jleo-robustness / jleo-replication-package
+【Referee conflict resolution】per editor's signal: ___
+【Consistency】reframed mechanism propagated to abstract/intro? [Y/N]
+【Next step】revise, then re-run jleo-submission preflight before resubmitting
 ```

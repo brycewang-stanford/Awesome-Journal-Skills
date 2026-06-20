@@ -1,70 +1,97 @@
 ---
 name: jegeo-tables-figures
-description: Use when working on tables and figures for a Journal of Economic Geography manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when exhibits — especially maps — for a Journal of Economic Geography (JEG) manuscript are dense, decorative, or do not answer the spatial question. Makes maps and tables argue; it does not invent results.
 ---
 
 # Tables and Figures (jegeo-tables-figures)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Economic Geography (JEG)** and tables and figures is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's economic geography, spatial economics, regional development, innovation clusters, trade, and place-based policy standard.
-- The paper risks being confused with nearby venues: Journal of Urban Economics, Regional Studies, Economic Geography, and Journal of International Economics.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The paper has maps that are pretty but make no argument (a choropleth that just shows where the data are)
+- A key spatial pattern lives in a table of coefficients when a map or gradient plot would carry it
+- Regression tables are dense, use significance asterisks, or hide the spatial-inference choices (W, cutoff, scale)
+- A geographer reviewer cannot see the geography and an economist reviewer cannot see the magnitudes
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| spatial clustering is central | Make the spatial clustering assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| regional divergence is central | Make the regional divergence assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| place-based policy is central | Make the place-based policy assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| network geography is central | Make the network geography assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| innovation ecosystem is central | Make the innovation ecosystem assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Maps must argue, not decorate
 
-## JEG fit notes
+JEG is one of the few economics outlets where **the map is often the central exhibit**, and referees from the geography side judge cartographic craft. A map earns its place only if it makes a point a table cannot:
 
-- Publisher / owner context: Oxford University Press.
-- Submission route to re-check: OUP / ScholarOne submission.
-- Signature vocabulary: spatial clustering, regional divergence, place-based policy, network geography, innovation ecosystem.
-- Sibling boundary: Journal of Urban Economics, Regional Studies, Economic Geography, and Journal of International Economics.
-- House-style aim: spatial economic argument that combines maps, mechanisms, and regional theory.
-- Official URLs currently used by the pack:
-- https://academic.oup.com/joeg
-- https://academic.oup.com/joeg/pages/General_Instructions
+- **Show the variation the paper exploits**, not just where observations sit — e.g., the spatial discontinuity at a border, the treated vs. control regions, the gradient that motivates the mechanism.
+- **Classification is an argument:** the choropleth break scheme (quantiles, Jenks, equal-interval) changes the visual story — choose deliberately and say which, because a reviewer can re-bin and reach a different conclusion.
+- **Honest projection and scale:** a national choropleth visually inflates large rural regions; consider cartograms or rates-per-area where the unit-size distortion matters.
+- **Map the residual, not just the raw outcome** when the claim is about the part the model explains.
+- **Pair the map with a number** so the economist audience can size the effect — a map of the gradient plus the estimated slope.
 
-## Stage-specific moves
+## Tables in JEG house style
 
-1. State the exact tables and figures question in one sentence.
-2. Identify which JEG audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jegeo-writing-style` if the stage passes, or back to `jegeo-workflow` if it does not.
+- **No significance asterisks.** Report coefficients with standard errors (and ideally confidence intervals); let magnitudes and precision speak. State the SE type (Conley/clustered) and, for spatial models, the W and cutoff in the note.
+- **One table answers one question.** A reader should know from the title what spatial claim it supports.
+- **Surface the spatial choices** that drive results in the table note: spatial scale/unit, weight matrix, cutoff distance, treatment timing.
+- **Direct vs. indirect (spillover) effects** must be reported separately for spatial-lag/SDM models — a single coefficient is uninterpretable there.
+
+## Event-study and gradient plots
+
+- For spatial DID, the **event-study leads/lags plot** is more persuasive than a DID coefficient table — show the flat pre-trend.
+- For distance-based mechanisms, a **coefficient-by-distance-ring plot** makes the spatial decay visible and is exactly what a JEG referee wants to see.
+
+## Common map mistakes that draw a geographer's red pen
+
+- **Raw counts on a choropleth** when the claim is about rates or intensity — large or populous regions dominate visually and mislead; map a rate or density instead.
+- **A rainbow color ramp** for a sequential variable — it implies thresholds that are not in the data and fails in grayscale; use a perceptually ordered sequential or diverging ramp matched to the variable.
+- **No scale bar, north arrow, or unit definition** — minor in economics tables, but a geography referee reads their absence as carelessness about space.
+- **Mercator (or an unstated projection) for an area or distance claim** — distorts exactly the quantity the paper is about; pick an equal-area projection when area matters.
+- **Over-plotted point maps** where thousands of geocoded points become an ink blob — bin to a hex grid or aggregate to show the pattern.
 
 ## Checklist
-- [ ] The JEG audience can see why the paper belongs in economic geography, spatial economics, regional development, innovation clusters, trade, and place-based policy.
-- [ ] The draft distinguishes JEG from Journal of Urban Economics, Regional Studies, Economic Geography.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for tables and figures names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Every map makes an argument the text names (variation exploited, treatment, gradient, residual)
+- [ ] Choropleth classification scheme stated and chosen deliberately
+- [ ] Unit-size/projection distortion considered (cartogram or rate where needed)
+- [ ] Central map paired with the estimated magnitude
+- [ ] No significance asterisks; SEs/CIs reported; SE type and W/cutoff in the note
+- [ ] Spatial-lag/SDM tables report direct vs. indirect effects separately
+- [ ] Event-study or distance-ring plot used where it beats a coefficient table
+- [ ] Exhibits readable in grayscale and within JEG's figure specs (检索于 2026-06；以官网为准)
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JEG without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A decorative choropleth that shows where the data live but proves nothing
+- A break scheme chosen to maximize visual contrast, undisclosed and reversible by a referee
+- Significance asterisks instead of standard errors
+- A spatial-lag model reported as one coefficient with no direct/indirect split
+- Burying the paper's main spatial pattern in a coefficient table when a map would carry it
+- Color-only maps that collapse in grayscale or for color-blind readers
+
+## Worked vignette (illustrative)
+
+A paper claims knowledge spillovers decay sharply with distance, but the evidence is a single interaction coefficient in Table 3. The fix is a distance-ring plot: estimate the effect within 0–25km, 25–50km, 50–100km, 100km+ and plot the coefficients with CIs. The decay — strong within 25km, gone by 100km — becomes the figure that *is* the argument, legible to economists (magnitudes, CIs) and geographers (the spatial gradient) at once. The accompanying map then shows the actual clusters and their catchments, with the break scheme named and the estimated decay slope in the caption.
+
+## Choosing the right exhibit for the spatial claim
+
+| The claim is about... | The exhibit that carries it |
+|------------------------|------------------------------|
+| where activity concentrates | a choropleth/heat map with a stated break scheme, paired with a concentration index |
+| how an effect decays with distance | a coefficient-by-distance-ring plot with CIs |
+| a treatment rolled out across regions | a map of treatment timing + an event-study leads/lags plot |
+| a sharp change at a border | a spatial-RDD plot (outcome against distance to border) plus a locator map |
+| spillovers from a spatial-lag model | a table separating direct and indirect effects, not a single coefficient |
+| a network/relational structure | a flow map or network diagram, not a table of dyads |
+
+## Referee reactions a strong exhibit pre-empts
+
+- The geographer asks "where is the geography?" — a map that shows the *variation you exploit* answers it before it is asked.
+- The economist asks "how big is this?" — a magnitude in the caption or a CI-bearing plot answers it.
+- Either asks "would this flip with a different break scheme / scale?" — stating the classification and showing the distance-ring pattern shows you already checked.
 
 ## Output format
 
 ```text
 【Journal】Journal of Economic Geography
 【Skill】jegeo-tables-figures
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking tables and figures
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Urban Economics, Regional Studies
-【Source status】verified URL / 待核实 / not asserted
+【Central exhibit】which map/figure carries the argument + what it proves
+【Map craft】classification scheme / projection-distortion handling
+【Magnitude pairing】number attached to the map
+【Table style】no asterisks; SE type + W/cutoff in note; direct vs indirect if SDM
+【Spatial plot】event-study leads / distance-ring decay where it beats a table
 【Next skill】jegeo-writing-style
 ```

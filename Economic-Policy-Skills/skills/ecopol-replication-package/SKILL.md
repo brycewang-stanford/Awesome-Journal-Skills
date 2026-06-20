@@ -1,70 +1,80 @@
 ---
 name: ecopol-replication-package
-description: Use when working on replication package for a Economic Policy manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when assembling the data, code, and verification materials for an Economic Policy (EP) manuscript so results are accessible and replicable to the journal's standard. Builds the verification-ready package; it does not invent evidence or citations.
 ---
 
 # Replication Package (ecopol-replication-package)
 
 ## When to trigger
-- The manuscript is aimed at **Economic Policy (Economic Policy)** and replication package is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's policy-relevant economics papers written for an expert but broad policy audience standard.
-- The paper risks being confused with nearby venues: AEJ Economic Policy, Journal of Public Economics, IMF Economic Review, and World Bank Economic Review.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Empirical, experimental, or simulation results need to be made accessible and replicable
+- Code is scattered across machines with hard-coded paths and no master script
+- Data are restricted/proprietary and you need a verification plan that still works
+- The Managing Editor / production process will ask for the datasets and programs underlying the figures
+- You want the package ready before the conference so a discussant can probe a number on the spot
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| policy question is central | Make the policy question assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| European policy debate is central | Make the European policy debate assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| CEPR audience is central | Make the CEPR audience assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| welfare implication is central | Make the welfare implication assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| transparent counterfactual is central | Make the transparent counterfactual assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## EP's data standard: accessible and replicable, verified by the journal
 
-## Economic Policy fit notes
+EP's guidance is that **"all empirical, experimental and simulation results should, where possible, be accessible and replicable,"** and authors submit the datasets, programs, and sources for the journal to verify and publish alongside the article (检索于 2026-06；以官网为准). EP does not (as of this writing) run the AEA-style mandatory pre-acceptance Data Editor audit that AEJ:EP / QE use, so the bar is "where possible" rather than universal — but a paper feeding a policy recommendation lives or dies on whether its central number can be reproduced. Build the package as if a skeptical discussant will re-run it. Confirm the exact deposit location, README format, and any embargo rules in the live guidelines (待核实).
 
-- Publisher / owner context: Oxford University Press / CEPR and partner institutions.
-- Submission route to re-check: OUP submission.
-- Signature vocabulary: policy question, European policy debate, CEPR audience, welfare implication, transparent counterfactual.
-- Sibling boundary: AEJ Economic Policy, Journal of Public Economics, IMF Economic Review, and World Bank Economic Review.
-- House-style aim: policy-first economics that states the decision problem, evidence, and limits plainly.
-- Official URLs currently used by the pack:
-- https://academic.oup.com/economicpolicy
-- https://academic.oup.com/economicpolicy/pages/General_Instructions
+## What goes in the package
 
-## Stage-specific moves
+| Component | Requirement |
+|-----------|-------------|
+| Raw / source data | included if licensing allows; otherwise a precise acquisition guide |
+| Cleaning code | from raw to analysis dataset, one master script, no manual steps |
+| Analysis code | reproduces **every** number, table, and figure in the paper |
+| Master script | runs end-to-end with one command; relative paths only |
+| README | data sources, software + versions, run instructions, expected runtime |
+| Data citations | each dataset cited with provider, version, access date |
+| Mapping | exhibit → script → output (so a discussant can find any number fast) |
 
-1. State the exact replication package question in one sentence.
-2. Identify which Economic Policy audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `ecopol-referee-strategy` if the stage passes, or back to `ecopol-workflow` if it does not.
+## Handling restricted policy data
+
+EP papers often use confidential administrative or central-bank data. When you cannot deposit the raw data:
+
+- Provide the **full code** plus a synthetic or simulated dataset with the same structure so the pipeline runs end-to-end.
+- Document the **exact access procedure** (the agency, the application route, the version) so a determined replicator can obtain it.
+- Offer the journal a **verification path** (e.g., code run on-site, or output verified against a secure enclave) rather than nothing.
+- State the restriction openly in the data section — silence reads as evasion to a discussant.
+
+## Craft moves
+
+- **One-command reproducibility.** A reviewer should clone, run `master`, and get your exhibits. Hard-coded `/Users/yourname/` paths are the most common failure.
+- **Pin software versions.** "Stata 18.0", "R 4.4.1 with fixest 0.12" — not "recent version".
+- **Map every headline number** to the line of code that produces it; the conference is live and you may be asked to show provenance.
+- **Seed every simulation / bootstrap** and report the seed.
+- **Keep the package legible**, not just runnable — a clear folder structure signals the same care the policy audience expects of the analysis.
 
 ## Checklist
-- [ ] The Economic Policy audience can see why the paper belongs in policy-relevant economics papers written for an expert but broad policy audience.
-- [ ] The draft distinguishes Economic Policy from AEJ Economic Policy, Journal of Public Economics, IMF Economic Review.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for replication package names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Master script runs end-to-end with one command, relative paths only
+- [ ] Every table/figure/number in the paper is reproduced by the code
+- [ ] README lists data sources, software + exact versions, run instructions, runtime
+- [ ] Restricted data handled: synthetic data + access guide + verification path
+- [ ] Each dataset formally cited (provider, version, access date)
+- [ ] Exhibit → script → output mapping included
+- [ ] Simulations/bootstraps seeded and the seed reported
+- [ ] Deposit location / README format confirmed against live guidelines (待核实)
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Economic Policy without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Hard-coded absolute paths that break on any other machine
+- "Data available on request" with no code and no access procedure
+- A package that produces some but not all of the paper's numbers
+- Unpinned software versions, so the pipeline silently breaks on a newer release
+- Treating replication as a post-acceptance afterthought when a discussant may probe it at the conference
 
 ## Output format
 
 ```text
-【Journal】Economic Policy
+【Journal】Economic Policy (EP)
 【Skill】ecopol-replication-package
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking replication package
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not AEJ Economic Policy, Journal of Public Economics
-【Source status】verified URL / 待核实 / not asserted
+【One-command run】master reproduces all exhibits? Y/N
+【Coverage】every number/table/figure reproduced? Y/N
+【Restricted data plan】synthetic data + access guide + verification path
+【Versions pinned】software + package versions listed? Y/N
+【Exhibit→code map】present? Y/N
+【Deposit spec】confirmed / 待核实
 【Next skill】ecopol-referee-strategy
 ```

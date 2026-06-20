@@ -1,70 +1,74 @@
 ---
 name: jebo-referee-strategy
-description: Use when working on referee strategy for a Journal of Economic Behavior and Organization manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when anticipating the objections a Journal of Economic Behavior & Organization (JEBO) referee will raise before submitting — demand effects, mechanism-vs-alternative, external validity, sibling-journal fit. Pre-empts the modal JEBO referee; it does not draft the rebuttal to a received report.
 ---
 
 # Referee Strategy (jebo-referee-strategy)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Economic Behavior and Organization (JEBO)** and referee strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's behavioral economics, organization, institutions, experiments, and decision-making outside frictionless textbook settings standard.
-- The paper risks being confused with nearby venues: Experimental Economics, Games and Economic Behavior, Management Science, and Journal of Public Economics.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The draft is near-complete and you want to find the holes a referee will find first
+- You suspect a referee will say "interesting, but it belongs in [sibling journal]"
+- You cannot articulate why your behavioral mechanism beats the obvious alternative
+- A coauthor wants to know which objections are fatal vs. addressable
+- You are deciding what to add now vs. defend in the response letter
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| behavioral mechanism is central | Make the behavioral mechanism assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| institutional setting is central | Make the institutional setting assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| laboratory evidence is central | Make the laboratory evidence assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| field-experiment design is central | Make the field-experiment design assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| organizational incentives is central | Make the organizational incentives assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Who referees for JEBO
 
-## JEBO fit notes
+JEBO uses **single-anonymized** review (referees anonymous, authors named), typically **two-plus referees** after an editor screen (检索于 2026-06；以官网为准). The modal referee is a behavioral or experimental economist who has *seen the closest prior experiment* and is alert to the standard ways a behavioral claim can fail. Single-anonymized review means your name and prior work are visible — consistency with your own record and the relevant literature matters.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: behavioral mechanism, institutional setting, laboratory evidence, field-experiment design, organizational incentives.
-- Sibling boundary: Experimental Economics, Games and Economic Behavior, Management Science, and Journal of Public Economics.
-- House-style aim: mechanism-forward behavioral evidence with transparent experimental or institutional design.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization
-- https://www.elsevier.com/journals/journal-of-economic-behavior-and-organization/0167-2681/guide-for-authors
+## The objections JEBO referees raise most, and how to pre-empt
 
-## Stage-specific moves
+| Referee objection | Pre-empt before submitting |
+|-------------------|----------------------------|
+| "This could be an experimenter-demand effect." | Build in a demand-effect bound/treatment; address it in the text, not only if asked. |
+| "Your mechanism isn't separated from [rival channel]." | Add a moderation/mediation test the rival does not predict; name the alternative explicitly. |
+| "It's a single lab task — does it generalize?" | State the external-validity scope; if possible, a field or alternative-pool replication. |
+| "Significance, but is the effect *meaningful*?" | Report effect sizes in interpretable units; compare to a behavioral benchmark. |
+| "Why JEBO and not ExpEcon / GEB / JEP?" | Make the behavioral-economics contribution (not the method or the psychology) the headline. |
+| "Many comparisons, no correction." | Pre-register the primary outcome; report MHT-corrected results. |
+| "Is this just a replication?" | If partly, frame the value-added honestly (new pool, moderator, contested-result confirmation). |
+| "The model adds notation but no testable prediction." | Ensure the theory yields a pre-stated comparative static the data test. |
 
-1. State the exact referee strategy question in one sentence.
-2. Identify which JEBO audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jebo-submission` if the stage passes, or back to `jebo-workflow` if it does not.
+## Triage: fatal vs. addressable
+
+- **Fatal if unaddressed before submission:** deception in an incentivized study without justification; no demand-effect consideration; a confound that fully substitutes for the claimed mechanism; clear wrong-journal fit.
+- **Addressable now (cheap, do it):** MHT correction, effect-size reporting, comprehension-pass subsample, balance/attrition tables, a falsification check.
+- **Defensible in the letter (if cost is high):** an additional subject pool, a full structural extension — flag in limitations and offer in the response if requested.
+
+## Suggesting and excluding reviewers
+
+Editorial Manager lets you suggest/oppose reviewers. Suggest scholars who know the literature but are not close collaborators (single-anonymized review makes obvious conflicts visible); a credible suggestion of the scholar who owns the closest prior result can help, since they will be invited anyway.
 
 ## Checklist
-- [ ] The JEBO audience can see why the paper belongs in behavioral economics, organization, institutions, experiments, and decision-making outside frictionless textbook settings.
-- [ ] The draft distinguishes JEBO from Experimental Economics, Games, Economic Behavior.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for referee strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Each likely objection above has a pre-empt in the current draft or a planned response
+- [ ] Experimenter-demand and mechanism-vs-alternative are addressed in the text, not only reactively
+- [ ] External-validity scope is stated honestly
+- [ ] Effect sizes are interpretable; not relying on significance alone
+- [ ] The "why JEBO" answer is explicit and survives the sibling-journal test
+- [ ] MHT/pre-registration handled for multi-arm/multi-outcome designs
+- [ ] Reviewer suggestions/exclusions prepared with conflicts in mind
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JEBO without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Hoping the referee won't notice the demand-effect or rival-mechanism gap
+- Answering "does it generalize?" with silence rather than a bounded scope statement
+- Leaning on asterisks when asked whether the effect is *meaningful*
+- Submitting a paper whose strongest fit is a sibling journal and hoping the editor disagrees
+- Suggesting only friendly reviewers (transparent under single-anonymized review)
+- Deferring cheap, obviously-required checks to "if the referee asks"
 
 ## Output format
 
 ```text
-【Journal】Journal of Economic Behavior and Organization
-【Skill】jebo-referee-strategy
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking referee strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Experimental Economics, Games
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jebo-submission
+【Review model】single-anonymized; ~2+ referees after editor screen
+【Top 3 anticipated objections】
+  1. <objection> → <pre-empt: in-text now / planned response>
+  2. ...
+  3. ...
+【Fatal-if-unaddressed】<list>
+【Why-JEBO answer】<one sentence surviving sibling test>
+【Reviewer suggestions/exclusions】<prepared>
+【Next step】jebo-submission
 ```

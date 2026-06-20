@@ -1,70 +1,93 @@
 ---
 name: jegeo-identification
-description: Use when working on identification strategy for a Journal of Economic Geography manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the inference argument is the bottleneck for a Journal of Economic Geography (JEG) manuscript — spatial causal designs, quantitative-spatial model identification, or case-based geographic inference. Stress-tests the strategy to JEG's two-community bar before exhibits are finalized.
 ---
 
 # Identification Strategy (jegeo-identification)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Economic Geography (JEG)** and identification strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's economic geography, spatial economics, regional development, innovation clusters, trade, and place-based policy standard.
-- The paper risks being confused with nearby venues: Journal of Urban Economics, Regional Studies, Economic Geography, and Journal of International Economics.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A spatial regression rests on OLS + region fixed effects, or TWFE on staggered place-based policy
+- A quantitative-spatial / NEG model is estimated but it is unclear *what in the spatial data* identifies the key elasticities
+- Treatment in one region plausibly spills over to "control" regions (SUTVA across space is violated)
+- A qualitative/comparative-case paper makes a causal-sounding claim with no explicit logic of inference
+- You are unsure the strategy reads as credible to BOTH an economist and a geographer
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| spatial clustering is central | Make the spatial clustering assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| regional divergence is central | Make the regional divergence assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| place-based policy is central | Make the place-based policy assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| network geography is central | Make the network geography assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| innovation ecosystem is central | Make the innovation ecosystem assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The JEG identification bar
 
-## JEG fit notes
+Because JEG bridges geographical economics and human geography, "identification" means different things by branch — but in all of them the **spatial structure of the data is part of the identification problem, not a nuisance**. Two threats are nearly universal at JEG and referees expect them confronted head-on: **spatial autocorrelation** in errors (inference) and **spatial spillovers / general-equilibrium leakage** across units (SUTVA). Pick the branch and make the data-to-claim mapping explicit.
 
-- Publisher / owner context: Oxford University Press.
-- Submission route to re-check: OUP / ScholarOne submission.
-- Signature vocabulary: spatial clustering, regional divergence, place-based policy, network geography, innovation ecosystem.
-- Sibling boundary: Journal of Urban Economics, Regional Studies, Economic Geography, and Journal of International Economics.
-- House-style aim: spatial economic argument that combines maps, mechanisms, and regional theory.
-- Official URLs currently used by the pack:
-- https://academic.oup.com/joeg
-- https://academic.oup.com/joeg/pages/General_Instructions
+## Branch A: Spatial causal design (place-based policy, regional treatment)
 
-## Stage-specific moves
+- **Spatial DID / event study:** with staggered adoption move beyond TWFE (Callaway–Sant'Anna, Sun–Abraham, de Chaisemartin–D'Haultfœuille); show clean event-study leads; report a Goodman-Bacon decomposition.
+- **Spillovers / SUTVA across space:** the control region is often the treated region's neighbor. Use donut/ring specifications, model spatial spillovers explicitly, or argue why leakage is bounded — do not assume independence across adjacent units.
+- **Spatial RDD / border designs:** geographic discontinuities (administrative borders) are powerful but demand a continuity argument across the border and attention to what else changes at it.
+- **IV with a spatial instrument:** Bartik/shift-share and geography-based instruments are common; defend exogeneity of the shares (Goldsmith-Pinkham et al.) or of the shocks, not just first-stage strength.
+- **Inference:** cluster at the spatial-treatment level AND address spatial correlation across clusters with Conley spatial-HAC standard errors; report how the cutoff distance was chosen.
 
-1. State the exact identification strategy question in one sentence.
-2. Identify which JEG audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jegeo-theory-model` if the stage passes, or back to `jegeo-workflow` if it does not.
+## Branch B: Quantitative-spatial / NEG model identification
+
+- **Name what identifies each structural elasticity** (trade elasticity, agglomeration elasticity, migration elasticity) — tie it to specific spatial variation or moments, not "the estimator converged."
+- **Calibration vs. estimation:** if elasticities are borrowed, say from where and show the counterfactual is not driven by an indefensible borrowed value; report sensitivity.
+- **General-equilibrium counterfactuals:** the headline welfare/relocation number depends on the model's spatial linkages — show which parameters and which spatial structure move it.
+
+## Branch C: Case-based / qualitative geographic inference
+
+- Make the **logic of inference explicit**: comparative cases, process tracing, or theory-building from a critical case — and state what would have falsified the claim.
+- Justify case selection on substantive spatial grounds; address generalizability rather than claiming it.
+
+## Shift-share / Bartik instruments in a spatial setting
+
+Shift-share instruments are pervasive in economic geography (regional exposure to national shocks via local industry mix), and JEG referees scrutinize them closely. Two defenses, two literatures:
+
+- **Exogenous shares (Goldsmith-Pinkham–Sorkin–Swift):** identification rests on the pre-period industry shares being as-good-as-random; defend the shares' exogeneity and report the Rotemberg weights that show which industries drive the estimate.
+- **Exogenous shocks (Borusyak–Hull–Jaravel):** identification rests on many quasi-random national shocks; defend the shocks and the equivalent shock-level regression.
+
+State which justification you rely on — "we use a Bartik instrument" without naming the identifying assumption is exactly the move a JEG referee flags.
 
 ## Checklist
-- [ ] The JEG audience can see why the paper belongs in economic geography, spatial economics, regional development, innovation clusters, trade, and place-based policy.
-- [ ] The draft distinguishes JEG from Journal of Urban Economics, Regional Studies, Economic Geography.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for identification strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Branch chosen; the spatial-data-to-claim mapping stated in one sentence
+- [ ] Spatial autocorrelation addressed in inference (Conley SEs / appropriate clustering; cutoff justified)
+- [ ] Cross-unit spillovers / SUTVA across space confronted, not assumed away
+- [ ] Staggered designs use a modern estimator; pre-trends/leads shown
+- [ ] Structural: each key elasticity tied to identifying spatial variation; counterfactual sensitivity shown
+- [ ] Qualitative: explicit inference logic + falsification condition + case-selection justification
+- [ ] The claim never exceeds what the spatial design supports
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JEG without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Default heteroskedastic SEs (or clustering on one dimension) when errors are spatially correlated
+- Treating neighboring regions as clean controls while the treatment spills across the border
+- TWFE on staggered place-based policy with no heterogeneity-bias discussion
+- "The estimator converged" offered as structural identification of agglomeration/trade elasticities
+- A qualitative paper making a causal claim with no stated logic of inference or falsifier
+- Reporting significance with asterisks instead of standard errors and confidence intervals
+
+## Worked vignette (illustrative)
+
+A special economic zone is rolled out across regions and the paper estimates its effect on firm entry with TWFE and region-clustered SEs. Two JEG referees object: the economist says the zones were placed where growth was already accelerating (selection) and neighboring regions absorbed displaced firms (spillover inflates the gap); the geographer says "region" is the wrong scale because clusters cross administrative lines. The fix routes through all three: a Callaway–Sant'Anna estimator with clean leads (selection on trends), a ring specification isolating displacement (spillover), Conley SEs at a justified distance (spatial correlation), and a re-aggregation to commuting zones (scale). Only then is the entry effect — say a 6% rise, illustrative — credible to both readers.
+
+## Referee pushback mapped to the identification fix
+
+- *"Your control regions are the treated region's neighbors — spillover inflates the effect."* → Add ring/donut specs or a spatial-lag model; report the bounded effect net of displacement.
+- *"Standard errors ignore that adjacent units co-move."* → Conley spatial-HAC SEs over a range of cutoffs; show residual Moran's I.
+- *"The agglomeration elasticity is calibrated, not identified."* → Name the spatial variation that pins it; show the counterfactual is not driven by a borrowed value.
+- *"This is a region case study calling itself causal."* → State the inference logic and the falsifier explicitly, or downgrade the causal language.
+- *"The result is an artifact of the spatial unit."* → Re-estimate at another scale (the MAUP test) — partly a robustness move, but raised at identification.
+
+## Why spatial inference is non-negotiable at JEG
+
+Economic-geography data violate the independence assumption almost by construction: nearby places share shocks, labor markets, and institutions. A JEG referee from the economics side treats overstated inference as a fatal flaw, and one from the geography side treats "space as iid error" as conceptually naive. Confronting spatial autocorrelation and spillovers is therefore not a robustness afterthought here — it is part of whether the design identifies anything at all. Decide the spatial error structure and the spillover structure *before* you read the point estimate, so the inference is not reverse-engineered to keep significance.
 
 ## Output format
 
 ```text
-【Journal】Journal of Economic Geography
-【Skill】jegeo-identification
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking identification strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Urban Economics, Regional Studies
-【Source status】verified URL / 待核实 / not asserted
+【Branch】spatial-causal / quantitative-spatial-model / qualitative-case
+【Spatial-data-to-claim mapping】one sentence
+【Spatial autocorrelation】inference fix (Conley / clustering; cutoff)
+【Spillovers / SUTVA across space】how confronted
+【Identification evidence】leads+Bacon / elasticity-to-variation / inference logic
+【What it does NOT identify】[...]
 【Next skill】jegeo-theory-model
 ```

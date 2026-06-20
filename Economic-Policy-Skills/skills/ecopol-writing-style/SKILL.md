@@ -1,70 +1,71 @@
 ---
 name: ecopol-writing-style
-description: Use when working on writing style for a Economic Policy manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when an Economic Policy (EP) manuscript's prose reads like a technical report instead of accessible policy writing. Rewrites for the EP dual audience — non-technical main text, rigor in the appendix; it does not invent evidence or citations.
 ---
 
 # Writing Style (ecopol-writing-style)
 
 ## When to trigger
-- The manuscript is aimed at **Economic Policy (Economic Policy)** and writing style is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's policy-relevant economics papers written for an expert but broad policy audience standard.
-- The paper risks being confused with nearby venues: AEJ Economic Policy, Journal of Public Economics, IMF Economic Review, and World Bank Economic Review.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The introduction opens with the econometric specification instead of the policy question
+- A policymaker would stop reading at the third paragraph because of jargon or notation
+- The main text is dense with equations a policy reader cannot follow
+- The abstract states what you did, not what a policymaker should now think
+- The paper has rigor but not the accessible voice EP is known for
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| policy question is central | Make the policy question assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| European policy debate is central | Make the European policy debate assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| CEPR audience is central | Make the CEPR audience assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| welfare implication is central | Make the welfare implication assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| transparent counterfactual is central | Make the transparent counterfactual assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## EP's defining house style: accessible main text, rigorous appendix
 
-## Economic Policy fit notes
+This is the most distinctive EP craft skill, because EP's whole identity is **rigorous analysis written accessibly for economists and policymakers together**. The discipline is a *split*: the **main text is non-technical and policy-first**; the **technical machinery — proofs, full estimators, derivations — lives in the appendix**. A reader from a finance ministry should be able to read the main text start to finish and come away with the policy conclusion and the reasoning; an economist should be able to verify everything in the appendix. Write the main text as if explaining to a smart non-specialist, not dumbing down — making the logic legible without notation.
 
-- Publisher / owner context: Oxford University Press / CEPR and partner institutions.
-- Submission route to re-check: OUP submission.
-- Signature vocabulary: policy question, European policy debate, CEPR audience, welfare implication, transparent counterfactual.
-- Sibling boundary: AEJ Economic Policy, Journal of Public Economics, IMF Economic Review, and World Bank Economic Review.
-- House-style aim: policy-first economics that states the decision problem, evidence, and limits plainly.
-- Official URLs currently used by the pack:
-- https://academic.oup.com/economicpolicy
-- https://academic.oup.com/economicpolicy/pages/General_Instructions
+This is a late-stage skill: do not rewrite the intro before identification, the model, and the headline number have settled.
 
-## Stage-specific moves
+## The EP intro structure (write it in this order)
 
-1. State the exact writing style question in one sentence.
-2. Identify which Economic Policy audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `ecopol-replication-package` if the stage passes, or back to `ecopol-workflow` if it does not.
+1. **The policy question and why it is live now** — name the decision a policymaker faces.
+2. **What we find — the magnitude, in plain units** — the headline number a non-economist can repeat.
+3. **Why it is credible — one plain sentence on the identification**, no notation.
+4. **What it implies for policy** — the recommendation or the shift in the debate.
+5. **Then** the academic positioning and the road map.
+
+Notice rigor comes *after* the policy payoff, not before. This inverts the typical economics intro.
+
+## Sentence- and section-level moves
+
+- **Verbs over nouns, prose over notation.** "Firms above the threshold cut hiring by 8%" beats "the estimated coefficient on the treatment indicator is −0.08 (s.e. 0.02)."
+- **Define every term a policymaker might not know** on first use, in one clause.
+- **Move equations to the appendix** unless an equation *is* the clearest way to state a policy relationship; even then, gloss it in words.
+- **The abstract is a policy abstract:** question → finding (magnitude) → implication. Confirm the exact abstract length in the live guidelines (待核实).
+- **Anticipate the two discussants in the writing:** address the academic's likely concern in a footnote/appendix pointer and the policy reader's "so what" in the text.
+- **Avoid hedging fog.** Policymakers need a clear bottom line with its caveats stated, not a paragraph of qualifications that obscures the conclusion.
 
 ## Checklist
-- [ ] The Economic Policy audience can see why the paper belongs in policy-relevant economics papers written for an expert but broad policy audience.
-- [ ] The draft distinguishes Economic Policy from AEJ Economic Policy, Journal of Public Economics, IMF Economic Review.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for writing style names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Intro opens with the policy question, not the specification
+- [ ] Headline finding stated as a magnitude in plain units within the first page
+- [ ] Identification explained in one notation-free sentence in the main text
+- [ ] Policy implication stated explicitly, with caveats but a clear bottom line
+- [ ] Equations/proofs/full estimators relegated to the technical appendix
+- [ ] Jargon defined on first use; a non-economist could follow the main text
+- [ ] Abstract is question → magnitude → implication (length per guidelines — 待核实)
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Economic Policy without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- An introduction that leads with the model or the regression equation
+- A main text so notation-heavy that the policy discussant cannot read it without the appendix
+- An abstract that lists methods instead of stating the policy takeaway
+- Hedging so heavy the reader cannot tell what you actually conclude
+- "Dumbing down" by removing the rigor instead of moving it to the appendix — EP wants both
+- Copying an AEJ:EP-style technical intro and pasting a policy sentence on the end
 
 ## Output format
 
 ```text
-【Journal】Economic Policy
+【Journal】Economic Policy (EP)
 【Skill】ecopol-writing-style
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking writing style
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not AEJ Economic Policy, Journal of Public Economics
-【Source status】verified URL / 待核实 / not asserted
+【Intro order】policy Q → magnitude → plain identification → implication? Y/N
+【Main text legible to non-economist】Y/N
+【Notation in main text】minimal / needs moving to appendix
+【Abstract】question → magnitude → implication (length 待核实)
+【Bottom line】one clear policy sentence present? Y/N
 【Next skill】ecopol-replication-package
 ```

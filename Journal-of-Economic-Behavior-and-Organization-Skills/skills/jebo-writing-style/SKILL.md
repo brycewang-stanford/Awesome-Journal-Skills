@@ -1,70 +1,77 @@
 ---
 name: jebo-writing-style
-description: Use when working on writing style for a Journal of Economic Behavior and Organization manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when a Journal of Economic Behavior & Organization (JEBO) manuscript's prose buries the behavioral mechanism, or the abstract and introduction do not land for a pluralist behavioral audience. Shapes the mechanism-forward narrative and Elsevier-format front matter; it does not change the analysis.
 ---
 
 # Writing Style (jebo-writing-style)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Economic Behavior and Organization (JEBO)** and writing style is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's behavioral economics, organization, institutions, experiments, and decision-making outside frictionless textbook settings standard.
-- The paper risks being confused with nearby venues: Experimental Economics, Games and Economic Behavior, Management Science, and Journal of Public Economics.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The abstract describes what you did but not what agents *do* or *why*
+- The introduction reaches the behavioral mechanism only on page 4
+- The paper reads as a method demonstration, not a behavioral finding
+- Prose toggles between psychology jargon and econ jargon without serving either audience
+- You are formatting the abstract/keywords/JEL and unsure of JEBO's limits
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| behavioral mechanism is central | Make the behavioral mechanism assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| institutional setting is central | Make the institutional setting assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| laboratory evidence is central | Make the laboratory evidence assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| field-experiment design is central | Make the field-experiment design assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| organizational incentives is central | Make the organizational incentives assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The JEBO voice: mechanism-forward, audience-plural
 
-## JEBO fit notes
+JEBO readers span behavioral theorists, experimentalists, organizational economists, and evolutionary modelers. The prose must make the **behavioral mechanism** the protagonist and stay legible across those communities. Lead with the human behavior and its economic consequence; introduce method as the means, not the message.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: behavioral mechanism, institutional setting, laboratory evidence, field-experiment design, organizational incentives.
-- Sibling boundary: Experimental Economics, Games and Economic Behavior, Management Science, and Journal of Public Economics.
-- House-style aim: mechanism-forward behavioral evidence with transparent experimental or institutional design.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization
-- https://www.elsevier.com/journals/journal-of-economic-behavior-and-organization/0167-2681/guide-for-authors
+A reliable intro arc for JEBO:
 
-## Stage-specific moves
+1. **The behavioral puzzle / regularity** (one paragraph): a way real agents deviate from the frictionless benchmark, and why it matters for markets, organizations, or institutions.
+2. **What we did and the headline result** stated plainly and early (do not make the reader wait for the design section).
+3. **The mechanism**: name the channel (image concern, loss aversion, reciprocity, learning, norm) and why this design isolates it.
+4. **What it adds** to the specific literature (one sentence; see jebo-literature-positioning).
+5. **Roadmap**, brief.
 
-1. State the exact writing style question in one sentence.
-2. Identify which JEBO audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jebo-replication-package` if the stage passes, or back to `jebo-workflow` if it does not.
+## Abstract: write the behavior, not the procedure
+
+The abstract (**≤250 words**, 检索于 2026-06；以官网为准) should let a reader who skips the paper still learn the behavioral lesson. State the mechanism and the direction/size of the effect, not just "we run an experiment and find significant effects." Avoid undefined abbreviations and references in the abstract.
+
+## Calibrating jargon for a plural audience
+
+| Audience risk | Fix |
+|---------------|-----|
+| Psychology terms unfamiliar to economists | define on first use; tie to an economic primitive (preference/belief) |
+| Game-theory notation that loses experimentalists | give the intuition before the formalism |
+| Field-specific lab shorthand (e.g., "MPCR", "strategy method") | expand at first mention |
+| Over-claiming external validity from a lab task | bound the claim to what the design supports |
+
+## Front-matter mechanics (Elsevier / ScienceDirect; 检索于 2026-06)
+
+- **Abstract ≤250 words**; **1–7 keywords**; **JEL classification codes** included.
+- **References author-date (Elsevier Harvard)**: in-text "(Author, year)"; reference list "Author, Year. Title. Journal vol, pages." — sentence-case article titles, no quotation marks.
+- **Declaration of competing interest** and **declaration of generative-AI use** per Elsevier policy.
+- A **structured cover letter** is expected via Editorial Manager (see jebo-submission).
+- Highlights / graphical abstract optional per Elsevier (待核实 — confirm current requirement).
 
 ## Checklist
-- [ ] The JEBO audience can see why the paper belongs in behavioral economics, organization, institutions, experiments, and decision-making outside frictionless textbook settings.
-- [ ] The draft distinguishes JEBO from Experimental Economics, Games, Economic Behavior.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for writing style names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Abstract states the behavioral mechanism and the effect direction/size, ≤250 words, no undefined abbreviations
+- [ ] The headline result appears in the first page of the intro, not after the design section
+- [ ] The mechanism is named and tied to an economic primitive, legible across JEBO communities
+- [ ] Jargon from any one tradition is defined for the others
+- [ ] Keywords (1–7) + JEL codes present; references in author-date Elsevier Harvard
+- [ ] Competing-interest and generative-AI declarations drafted
+- [ ] Claims are bounded to what the design supports (no silent ATE/external-validity leaps)
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JEBO without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- An abstract that describes procedure ("we conduct three treatments") but never the behavior found
+- Burying the headline behavioral result behind pages of design detail
+- Writing for only one JEBO community and alienating the others
+- Importing dense psychology or game-theory jargon without translation
+- Significance-laden prose ("highly significant") instead of stating the mechanism and magnitude
+- Inflating a single lab task into a general behavioral law
 
 ## Output format
 
 ```text
-【Journal】Journal of Economic Behavior and Organization
-【Skill】jebo-writing-style
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking writing style
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Experimental Economics, Games
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jebo-replication-package
+【Abstract】mechanism + effect direction/size stated? ≤250 words? [Y/N]
+【Intro arc】puzzle → result-early → mechanism → contribution → roadmap [Y/N]
+【Audience legibility】jargon defined across communities? [Y/N]
+【Front matter】keywords(1–7) + JEL + author-date refs + AI/COI declarations [Y/N]
+【Claim discipline】bounded to design? [Y/N]
+【Next step】jebo-replication-package
 ```

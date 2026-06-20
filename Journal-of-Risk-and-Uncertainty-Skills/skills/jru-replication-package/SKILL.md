@@ -1,70 +1,96 @@
 ---
 name: jru-replication-package
-description: Use when working on replication package for a Journal of Risk and Uncertainty manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when assembling the data, code, and experiment materials for a Journal of Risk and Uncertainty (JRU) manuscript and writing its Data Availability Statement. Builds a transparent, reproducible package; it does not invent evidence or citations.
 ---
 
 # Replication Package (jru-replication-package)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Risk and Uncertainty (JRU)** and replication package is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's risk, uncertainty, decision theory, behavioral choice, insurance, and experimental evidence on risky decisions standard.
-- The paper risks being confused with nearby venues: Experimental Economics, Journal of Economic Behavior and Organization, Games and Economic Behavior, and Management Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The paper has experimental or field results and you need a Data Availability Statement for the Springer submission
+- z-Tree / oTree / Qualtrics materials and the structural estimation code exist but are not organized for a stranger to run
+- A referee or the editor asks whether the elicitation could be reproduced from the materials provided
+- Decisions about what data can be shared (human-subjects constraints) versus what must be documented are unsettled
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| risk preference is central | Make the risk preference assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| uncertainty attitude is central | Make the uncertainty attitude assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| prospect-theory test is central | Make the prospect-theory test assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| insurance behavior is central | Make the insurance behavior assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| experimental elicitation is central | Make the experimental elicitation assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## What JRU / Springer expect
 
-## JRU fit notes
+JRU requires a **Data Availability Statement** on original research articles, and Springer strongly encourages sharing the underlying research data (deposit in a recognized repository, with a citable DOI where possible). For this journal the package has two faces that generic econ replication advice misses: the **experiment must be reproducible as a procedure** (instructions, screens, incentive rules — not just the resulting dataset), and the **structural estimation must be re-runnable** (code that recovers the reported parameters). Exact policy wording and any mandatory-deposit details are 待核实 — verify on the official submission guidelines.
 
-- Publisher / owner context: Springer.
-- Submission route to re-check: Springer Nature submission.
-- Signature vocabulary: risk preference, uncertainty attitude, prospect-theory test, insurance behavior, experimental elicitation.
-- Sibling boundary: Experimental Economics, Journal of Economic Behavior and Organization, Games and Economic Behavior, and Management Science.
-- House-style aim: decision-theoretic clarity with careful measurement of risk and uncertainty.
-- Official URLs currently used by the pack:
-- https://link.springer.com/journal/11166
-- https://www.springer.com/journal/11166/submission-guidelines
+### The two-face package
 
-## Stage-specific moves
+| Component | Experimental paper | Structural/empirical paper |
+|-----------|--------------------|----------------------------|
+| Materials | full instructions, decision screens, comprehension checks, the incentive/payment protocol | data source + access terms, construction of the risk-exposure variable |
+| Code | z-Tree/oTree/Qualtrics source + analysis scripts | estimation code (MLE/GMM/MSM), from raw data to every reported parameter |
+| Data | subject-level choices (de-identified), session metadata, randomization seeds | analysis dataset or a clear access path if proprietary (e.g., admin/insurer data) |
+| Reproducibility | a stranger can re-run the experiment AND re-derive the estimates | one script regenerates every table/figure from raw inputs |
 
-1. State the exact replication package question in one sentence.
-2. Identify which JRU audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jru-referee-strategy` if the stage passes, or back to `jru-workflow` if it does not.
+### Human-subjects and proprietary data
+
+- De-identify subject data; document the IRB/ethics approval. If raw data cannot be shared, share the **derived** analysis data plus enough documentation to reproduce results.
+- For insurer/administrative VSL-type data, state the access terms and provide the code so the pipeline is auditable even if the data are restricted.
+- Pre-registration (if the study was pre-registered): link the registry and report deviations.
+
+### Layout that a stranger can run
+
+A clean package for a JRU elicitation or estimation paper has a predictable shape:
+
+- `/instructions` — participant-facing text, decision screens, comprehension checks, payment protocol
+- `/experiment` — z-Tree/oTree/Qualtrics source, with the random-incentive rule visible in code
+- `/data` — de-identified subject choices, session metadata, randomization seeds, codebook
+- `/code` — a single `master` script that runs raw → cleaned → every table/figure, plus the structural estimation
+- `README` — software versions, run order, expected outputs, and the data-access path for any restricted inputs
+
+The test is blunt: a colleague with the repository and nothing else should be able to (a) re-run the experiment and (b) reproduce every reported parameter.
+
+### Writing the Data Availability Statement
+
+- Match the statement to reality: if data are restricted, say so and give the access route, do not over-promise.
+- Cite the deposit with its DOI/repository where one exists; a citable archive is stronger than "available on request."
+- Cross-check the statement against the actual deposit before submission — a mismatch is a common, avoidable editorial flag.
 
 ## Checklist
-- [ ] The JRU audience can see why the paper belongs in risk, uncertainty, decision theory, behavioral choice, insurance, and experimental evidence on risky decisions.
-- [ ] The draft distinguishes JRU from Experimental Economics, Journal of Economic Behavior, Organization.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for replication package names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] A Data Availability Statement is drafted and matches what is actually deposited
+- [ ] Experiment: full instructions, screens, comprehension checks, and incentive rules are included (procedure reproducible)
+- [ ] Experiment software source (z-Tree/oTree/Qualtrics) and randomization seeds provided
+- [ ] One master script regenerates every table and figure from raw inputs
+- [ ] Structural code recovers the reported parameters; environment/versions documented
+- [ ] Data de-identified; IRB/ethics approval documented; proprietary-data access terms stated
+- [ ] Pre-registration linked and deviations reported (if applicable)
+- [ ] Policy specifics verified against official guidelines or marked 待核实
+
+## Common reproducibility failures in risk papers
+
+- **Seeds not saved**, so the randomized lottery sequence cannot be regenerated — the experiment is not reproducible even with the software.
+- **Hand-edited intermediates** between raw choices and the estimation, leaving a gap no script bridges.
+- **Estimation that does not converge to the reported numbers** on a clean machine because tolerances, starting values, or package versions were not pinned.
+- **Comprehension-check data dropped silently** in cleaning, so a stranger cannot reproduce the analysis sample.
+
+A quick self-test: clone the package into a fresh directory, run the master script end to end, and confirm it reproduces the headline parameter without manual intervention.
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JRU without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Depositing the dataset but not the **instructions** — for an elicitation paper the procedure *is* the method
+- A "results.do" that assumes hand-edited intermediate files no one else has
+- Sharing identifiable subject data, or omitting the IRB statement
+- A Data Availability Statement that promises data not actually in the package
+- Treating Springer's data policy as optional; the statement is required even when data are restricted
+
+## Worked vignette (illustrative)
+
+An ambiguity-elicitation paper deposits only the cleaned choice matrix. A referee cannot tell whether the matching-probabilities task was incentive-compatible as run. The JRU-ready package adds the oTree source, the on-screen instructions and comprehension checks, the random-incentive payment rule, the session seeds, and a single script that goes from raw choices to the reported α-MEU estimate — so the elicitation and the estimate are both reproducible.
 
 ## Output format
 
 ```text
 【Journal】Journal of Risk and Uncertainty
 【Skill】jru-replication-package
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking replication package
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Experimental Economics, Journal of Economic Behavior
-【Source status】verified URL / 待核实 / not asserted
+【Verdict】ready / complete materials / fix access
+【DAS drafted】matches deposit [Y/N]
+【Experiment reproducible】instructions+screens+incentives+seeds [Y/N]
+【Code reproducible】master script regenerates all exhibits [Y/N]
+【Ethics/data】IRB documented; de-identified; access terms stated [Y/N]
+【Policy status】verified / 待核实
 【Next skill】jru-referee-strategy
 ```

@@ -1,70 +1,90 @@
 ---
 name: imfer-robustness
-description: Use when working on robustness strategy for a IMF Economic Review manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when an IMF Economic Review (IMFER) manuscript's headline cross-country estimate must be shown to survive specification, sample, country-composition, and inference choices before submission or in an R&R. Builds the robustness suite a dual academic/policy referee expects; it does not establish identification (imfer-identification) or format exhibits (imfer-tables-figures).
 ---
 
-# Robustness Strategy (imfer-robustness)
+# Robustness Suite (imfer-robustness)
 
 ## When to trigger
-- The manuscript is aimed at **IMF Economic Review (IMFER)** and robustness strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's international macroeconomics, finance, development, policy, exchange rates, sovereign risk, and IMF-relevant evidence standard.
-- The paper risks being confused with nearby venues: Journal of International Economics, JIMF, JMCB, and Economic Policy.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The main estimate is in hand and you must show it is not an artifact of one specification
+- A referee asks "is this driven by a few countries / a particular crisis episode / the sample window?"
+- The result depends on a sample-selection rule, a country grouping, or a deflator/exchange-rate convention
+- You suspect a global common shock or one influential economy is doing the work
+- You want to pre-empt specification-search and country-cherry-picking concerns
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| international macro is central | Make the international macro assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| sovereign risk is central | Make the sovereign risk assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| capital-flow policy is central | Make the capital-flow policy assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| IMF policy audience is central | Make the IMF policy audience assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| macro-financial stability is central | Make the macro-financial stability assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The IMFER robustness bar
 
-## IMFER fit notes
+IMFER referees probe whether the headline number is **stable, honestly inferred, and not the product of country-composition or specification search** — and, distinctively, whether it would still *guide policy* under reasonable alternatives. Robustness here is a targeted set of checks, each tied to a specific threat to an *international-macro* design, not a wall of regressions. The persuasive object is that the **point estimate barely moves** when you drop the obvious country, switch the window, or change the inference.
 
-- Publisher / owner context: Springer Nature for the International Monetary Fund.
-- Submission route to re-check: Springer Nature submission.
-- Signature vocabulary: international macro, sovereign risk, capital-flow policy, IMF policy audience, macro-financial stability.
-- Sibling boundary: Journal of International Economics, JIMF, JMCB, and Economic Policy.
-- House-style aim: policy-facing international macro evidence with transparent country coverage and model assumptions.
-- Official URLs currently used by the pack:
-- https://link.springer.com/journal/41308
-- https://www.springer.com/journal/41308/submission-guidelines
+| Threat to the result | The check that answers it |
+|----------------------|---------------------------|
+| One country / region drives it | leave-one-country-out; drop the dominant economy or region; jackknife |
+| A single crisis episode drives it | drop the GFC / euro-crisis / COVID window; alternative event definitions |
+| Global common shock confounds it | add the global financial cycle factor / US-shock control; time effects |
+| Sample / coverage selection | balanced vs. unbalanced panel; alternative country-inclusion rules; advanced-vs-EM split |
+| Specification search | specification curve; pre-registered or primary spec; stepwise controls |
+| Measurement convention | alternative deflators, USD vs. local currency, gross vs. net flows |
+| Inference too narrow | Driscoll–Kraay (cross-sectional dependence); country clustering; wild-cluster bootstrap (few countries) |
+| Omitted confounders | Oster δ / coefficient-stability bounds |
 
-## Stage-specific moves
+### Inference under cross-country dependence (the common slip)
+Standard errors are where IMFER robustness most often fails, because country panels violate the assumptions behind default clustering. Flows, spreads, and prices are **cross-sectionally dependent** (a global shock hits everyone), so country-clustered SEs alone understate uncertainty — use Driscoll–Kraay or a two-way (country and time) cluster. The country dimension is usually **small** (30–60 economies), so cluster-robust asymptotics are unreliable — report a wild-cluster bootstrap. Serial correlation within country is the norm — do not assume i.i.d. errors. State which of these you address and why; a referee who suspects the SEs are too tight will discount the whole result.
 
-1. State the exact robustness strategy question in one sentence.
-2. Identify which IMFER audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `imfer-tables-figures` if the stage passes, or back to `imfer-workflow` if it does not.
+## Robustness craft
+
+1. **Lock the primary specification first.** Everything else perturbs it; do not present five co-equal panels and let the referee guess the preferred one.
+2. **Lead with the country-composition checks.** Leave-one-country-out and drop-the-dominant-economy are the *first* things an IMFER referee runs in their head — show them in the main paper.
+3. **Stress the global common shock.** Demonstrate the effect is not the global financial cycle masquerading as your policy variable.
+4. **Match inference to cross-country structure.** Driscoll–Kraay or two-way clustering, and wild-cluster bootstrap when the country count is small — wrong SEs are the most common IMFER robustness failure.
+5. **Report stability, not just significance.** Show the *point estimate* range across checks; a check that moves it is information — bound the implication for policy rather than hiding it.
 
 ## Checklist
-- [ ] The IMFER audience can see why the paper belongs in international macroeconomics, finance, development, policy, exchange rates, sovereign risk, and IMF-relevant evidence.
-- [ ] The draft distinguishes IMFER from Journal of International Economics, JIMF, JMCB.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for robustness strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Primary specification declared before perturbations
+- [ ] Leave-one-country-out / drop-dominant-economy shown (composition not driving the result)
+- [ ] Crisis-episode sensitivity (drop GFC / euro / COVID) reported
+- [ ] Global common shock / global financial cycle controlled
+- [ ] Sample-selection alternatives (balanced/unbalanced; AE/EM split; coverage rules) tested
+- [ ] Measurement conventions (currency, deflator, gross/net) varied
+- [ ] Inference correct for cross-sectional dependence and few-country count; SEs not asterisks
+- [ ] Point-estimate range across checks reported; any check that moves it explained
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to IMFER without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A 20-column robustness table with no map from check to threat ("kitchen-sink robustness")
+- Never running leave-one-country-out when one economy obviously dominates the panel
+- Ignoring the global financial cycle / US-shock common factor
+- Reporting only that significance survives while the point estimate wanders
+- Country clustering with very few countries and no wild-cluster bootstrap
+- Hiding the window or sample rule that breaks the result
+
+## Worked vignette (illustrative)
+
+A panel estimate of the spillover from US tightening to EM inflows is −0.8% of GDP (s.e. 0.2). The suite: (i) leave-one-country-out keeps it in [−0.9, −0.7] with no single economy decisive; (ii) dropping the GFC window leaves it at −0.7; (iii) adding the global financial cycle factor barely shifts it; (iv) the AE/EM split shows the effect concentrated in EMs as the mechanism predicts; (v) Driscoll–Kraay SEs (cross-country dependence) keep the CI away from zero; (vi) gross vs. net flows give the same sign and magnitude. The point estimate barely moves — the IMFER target — and the one check that softens it (excluding commodity exporters) is reported with its policy reading.
+
+## Referee pushback mapped to the robustness fix
+
+- *"This is driven by a few countries."* → Show leave-one-country-out and drop-the-dominant-economy in the main paper; report the estimate range.
+- *"This is the GFC / euro crisis, not your variable."* → Drop the crisis window and add the global-cycle control; show the result holds.
+- *"Did you cluster correctly?"* → Use Driscoll–Kraay for cross-country dependence; with few countries report a wild-cluster bootstrap.
+- *"Different currency / flow convention would change this."* → Re-run in USD and local currency, gross and net; show the same sign and magnitude.
+
+## The composition check IMFER referees run first
+
+Because IMFER panels are small in the country dimension and dominated by a few large economies, the single most predictable referee move is "drop the obvious country and show me it survives." Build this into the paper, not the appendix: report a leave-one-country-out distribution (or a coefficient plot with each country excluded), and if one economy is decisive, say so and bound the implication. A panel where China, the US, or one euro-area crisis country silently drives the headline is the most common IMFER robustness failure — and the easiest to pre-empt.
 
 ## Output format
 
 ```text
 【Journal】IMF Economic Review
 【Skill】imfer-robustness
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking robustness strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of International Economics, JIMF
-【Source status】verified URL / 待核实 / not asserted
+【Primary spec】declared? [Y/N] — estimate: ___ (s.e. ___)
+【Composition】leave-one-country-out / drop-dominant range: [___, ___]
+【Episode / window】drop-crisis result: ___
+【Common shock】global-financial-cycle control result: ___
+【Sample / measurement】AE-EM split, currency, gross/net: ___
+【Inference】Driscoll–Kraay / wild-cluster (few countries): ___
+【Estimate stability】range across checks: [___, ___]; checks that move it: ___
 【Next skill】imfer-tables-figures
 ```

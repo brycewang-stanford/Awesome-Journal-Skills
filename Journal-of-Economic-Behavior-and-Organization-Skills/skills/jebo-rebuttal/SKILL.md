@@ -1,70 +1,76 @@
 ---
 name: jebo-rebuttal
-description: Use when working on rebuttal strategy for a Journal of Economic Behavior and Organization manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when a Journal of Economic Behavior & Organization (JEBO) decision letter arrives and a response-to-referees strategy is needed — triaging a revise-and-resubmit, ordering concessions vs. pushback, and re-running experiments where required. Plans the revision and response letter; it does not run the new analysis.
 ---
 
-# Rebuttal Strategy (jebo-rebuttal)
+# Rebuttal & Revision (jebo-rebuttal)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Economic Behavior and Organization (JEBO)** and rebuttal strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's behavioral economics, organization, institutions, experiments, and decision-making outside frictionless textbook settings standard.
-- The paper risks being confused with nearby venues: Experimental Economics, Games and Economic Behavior, Management Science, and Journal of Public Economics.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A JEBO R&R (or reject-and-resubmit) arrived and you must plan the response
+- Two referees disagree and you need a coherent strategy across both
+- A referee demands a new treatment / additional subjects and you must scope it
+- You are deciding which points to concede and which to defend
+- You need to structure the point-by-point response letter for the editor
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| behavioral mechanism is central | Make the behavioral mechanism assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| institutional setting is central | Make the institutional setting assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| laboratory evidence is central | Make the laboratory evidence assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| field-experiment design is central | Make the field-experiment design assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| organizational incentives is central | Make the organizational incentives assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Read the editor's letter first
 
-## JEBO fit notes
+The decision letter, not the referee reports, sets the priorities. The editor signals which concerns are **conditions** for acceptance and which are optional. With **single-anonymized** review, the editor can also weigh your standing and the field context. Build the revision around the editor's emphasis; address every referee point but invest most where the editor pointed.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: behavioral mechanism, institutional setting, laboratory evidence, field-experiment design, organizational incentives.
-- Sibling boundary: Experimental Economics, Games and Economic Behavior, Management Science, and Journal of Public Economics.
-- House-style aim: mechanism-forward behavioral evidence with transparent experimental or institutional design.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization
-- https://www.elsevier.com/journals/journal-of-economic-behavior-and-organization/0167-2681/guide-for-authors
+## Triage every comment
 
-## Stage-specific moves
+Sort each referee point into four bins before writing anything:
 
-1. State the exact rebuttal strategy question in one sentence.
-2. Identify which JEBO audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jebo-rebuttal` if the stage passes, or back to `jebo-workflow` if it does not.
+| Bin | Action |
+|-----|--------|
+| Cheap + improves the paper | Do it; thank the referee; show the new exhibit/text. |
+| Costly but a genuine condition (new treatment, more subjects) | Scope it, run it, report it; this is usually the make-or-break for a JEBO experimental R&R. |
+| Based on a misreading | Clarify *and* edit the text that allowed the misreading — never just say "the referee misunderstood." |
+| Wrong / out of scope | Push back with evidence, respectfully; concede the framing even while holding the substance. |
+
+## JEBO-specific revision moves
+
+- **New experimental treatment / sessions.** Experimental R&Rs at JEBO frequently require running an additional arm (e.g., the demand-effect control or a mechanism-separating treatment a referee asked for). Plan the timeline; report the new arm with the same rigor (pre-register the addition if feasible).
+- **Mechanism vs. alternative.** If a referee proposed a rival channel, add the test that separates them rather than arguing verbally.
+- **Multiplicity after adding analyses.** New outcomes added in revision must be folded into the MHT correction; do not quietly expand the comparison set.
+- **External validity.** If asked to generalize, either add a pool/field replication or bound the claim explicitly and say so.
+
+## Writing the response letter
+
+- One document; **quote each referee comment**, then respond directly beneath it; point to the exact section/table/page where the change lives.
+- Lead each response with the action taken ("We added Treatment D…"), not with justification.
+- Keep a respectful, non-defensive tone — single-anonymized review means the relationship is not anonymous on your side.
+- Summarize the major changes in a short cover note to the editor mapped to the editor's stated priorities.
+- Maintain a change log so co-authors and the editor can see the manuscript's evolution.
 
 ## Checklist
-- [ ] The JEBO audience can see why the paper belongs in behavioral economics, organization, institutions, experiments, and decision-making outside frictionless textbook settings.
-- [ ] The draft distinguishes JEBO from Experimental Economics, Games, Economic Behavior.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for rebuttal strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Editor's letter parsed; conditions vs. optional points separated
+- [ ] Every referee comment binned (do / scope-and-run / clarify+edit / push back)
+- [ ] New experimental arms or subjects scoped with a realistic timeline
+- [ ] Rival-mechanism objections answered with a test, not prose
+- [ ] New analyses folded into MHT correction; comparison set not silently expanded
+- [ ] Response letter quotes each comment, leads with the action, cites exact locations
+- [ ] Tone respectful (single-anonymized — not anonymous on author side)
+- [ ] Misreadings fixed in the text, not merely rebutted
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JEBO without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Responding to referees while ignoring the editor's stated priorities
+- "The referee misunderstood" with no edit to the text that caused it
+- Verbally dismissing a rival-mechanism concern instead of running the test
+- Quietly adding outcomes in revision without updating the multiplicity correction
+- A defensive or curt tone toward a referee whose identity the editor knows
+- Promising a robustness check in the letter but not actually adding it to the paper
 
 ## Output format
 
 ```text
-【Journal】Journal of Economic Behavior and Organization
-【Skill】jebo-rebuttal
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking rebuttal strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Experimental Economics, Games
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jebo-rebuttal
+【Decision】R&R / major / minor / reject-and-resubmit
+【Editor's priorities】<conditions the editor emphasized>
+【Comment triage】do / scope-and-run / clarify+edit / push-back (counts)
+【New experiment needed?】<arm/sessions + timeline, or none>
+【Mechanism-vs-alternative test added?】[Y/N]
+【Response letter】quote-then-respond, action-first, locations cited [Y/N]
+【Next step】resubmit via Editorial Manager → jebo-workflow if re-triage needed
 ```

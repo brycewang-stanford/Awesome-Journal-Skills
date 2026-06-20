@@ -1,70 +1,90 @@
 ---
 name: jegeo-rebuttal
-description: Use when working on rebuttal strategy for a Journal of Economic Geography manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when a Journal of Economic Geography (JEG) decision letter arrives and you must plan a revision and response that satisfies a cross-disciplinary referee pair. Structures the rebuttal; it does not invent results or concede the core claim.
 ---
 
 # Rebuttal Strategy (jegeo-rebuttal)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Economic Geography (JEG)** and rebuttal strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's economic geography, spatial economics, regional development, innovation clusters, trade, and place-based policy standard.
-- The paper risks being confused with nearby venues: Journal of Urban Economics, Regional Studies, Economic Geography, and Journal of International Economics.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- An R&R or major-revision letter arrived and you must triage the reports
+- The two referees pull in opposite directions — the economist wants more identification, the geographer wants more mechanism/context
+- A referee asks for spatial work (different scale, weight matrix, spillover analysis) and you must decide how far to go
+- You need a response letter that reads as responsive to *both* communities and to the editor
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| spatial clustering is central | Make the spatial clustering assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| regional divergence is central | Make the regional divergence assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| place-based policy is central | Make the place-based policy assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| network geography is central | Make the network geography assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| innovation ecosystem is central | Make the innovation ecosystem assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Read the panel before you write a word
 
-## JEG fit notes
+At JEG the reports almost always come from **both communities**, and the most common rebuttal failure is answering the referee you understand and brushing off the other. Before drafting, classify every comment by where it comes from and what it really wants:
 
-- Publisher / owner context: Oxford University Press.
-- Submission route to re-check: OUP / ScholarOne submission.
-- Signature vocabulary: spatial clustering, regional divergence, place-based policy, network geography, innovation ecosystem.
-- Sibling boundary: Journal of Urban Economics, Regional Studies, Economic Geography, and Journal of International Economics.
-- House-style aim: spatial economic argument that combines maps, mechanisms, and regional theory.
-- Official URLs currently used by the pack:
-- https://academic.oup.com/joeg
-- https://academic.oup.com/joeg/pages/General_Instructions
+| Comment type | Likely source | What it actually demands |
+|--------------|---------------|--------------------------|
+| "not identified / selection / weak IV" | economist | a design fix or honest bound, not more prose |
+| "inference overstated / spatial correlation" | economist | Conley SEs / corrected clustering |
+| "where is the geography / just a fixed effect" | geographer | place made analytically central; mechanism in prose |
+| "no mechanism / no theory it speaks to" | geographer | a conceptual frame the result engages |
+| "wrong scale / MAUP" | either | re-estimate across scales; justify the unit |
+| "over-formalized / flattens real places" | geographer | interpretation and context, not more math |
 
-## Stage-specific moves
+## Drafting the response
 
-1. State the exact rebuttal strategy question in one sentence.
-2. Identify which JEG audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jegeo-rebuttal` if the stage passes, or back to `jegeo-workflow` if it does not.
+1. **Open with the editor's framing.** Restate the decision's main concerns in one paragraph and how the revision addresses them — editors at JEG weigh whether you bridged both reports.
+2. **Point-by-point, grouped by theme**, not strictly by referee, so a fix that answers both communities is shown once and credited to both.
+3. **Quote each comment, then answer with evidence** — the new table/map/SE, with a precise location ("now Section 4.2, Figure 3"). Show, do not promise.
+4. **Where you decline, decline with a reason** — a substantive argument or an honest scope limit, never silence. Declining is acceptable at JEG if argued; ignoring is fatal.
+5. **Protect the core claim.** Concede the bounded points; do not let an accumulation of small concessions dissolve the contribution.
+
+## The cross-disciplinary balancing act
+
+- A change that pleases the economist (more formalism, more controls) can provoke the geographer ("now even more black-box") — when you add machinery, add the matching mechanism/interpretation so both reports stay satisfied.
+- When the two referees genuinely conflict (e.g., one wants the model expanded, one wants it simplified), **surface the tension to the editor** and propose a resolution rather than silently siding with one.
+- Re-run the spatial robustness a referee requested *honestly* — if a different scale or W weakens the result, report the bounded version; JEG referees reward candor over a defended asterisk.
 
 ## Checklist
-- [ ] The JEG audience can see why the paper belongs in economic geography, spatial economics, regional development, innovation clusters, trade, and place-based policy.
-- [ ] The draft distinguishes JEG from Journal of Urban Economics, Regional Studies, Economic Geography.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for rebuttal strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Every comment classified by community and by what it actually demands
+- [ ] Response opens with the editor's framing and the bridge across both reports
+- [ ] Point-by-point, each comment quoted then answered with located evidence
+- [ ] Added machinery is paired with added mechanism/interpretation (both sides stay satisfied)
+- [ ] Genuine referee conflicts surfaced to the editor with a proposed resolution
+- [ ] Declines are argued, never silent; core claim protected from concession creep
+- [ ] Requested spatial checks (scale/W/spillover) re-run honestly and reported even if weakening
+
+## Spatial requests need a decision rule
+
+Referees at JEG often ask for additional *spatial* work — another scale, a different weight matrix, a spillover model, a finer unit. Decide each with a rule, not reflexively:
+
+- **Do it now** if the request targets a load-bearing assumption (the scale the headline depends on, the inference that could be overstated). Re-run it honestly and report even an unfavorable result.
+- **Argue the decline** if the request would not change the conclusion or rests on a misreading of the design — show why, with a small bound or a logical argument.
+- **Offer partially** when a full request (e.g., re-geocoding everything at a finer resolution) is disproportionate; provide a targeted version that answers the underlying worry.
+
+Reporting a bounded result after a requested spatial check is a strength signal at JEG; quietly dropping the check or reporting only the favorable version is the fastest way to lose the editor's trust on resubmission.
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JEG without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Answering the economist's report thoroughly and waving off the geographer's, or vice versa
+- Promising changes ("we will consider...") instead of showing the revised exhibit
+- Adding controls/formalism to satisfy one referee while ignoring the mechanism objection from the other
+- Silently ignoring a comment you find unreasonable instead of arguing the decline
+- Letting many small concessions erode the central spatial contribution
+- Reporting only the favorable scale/W after a referee asked you to test alternatives
+
+## Worked vignette (illustrative)
+
+A major-revision letter has an economist referee demanding the agglomeration elasticity be estimated structurally rather than reduced-form, and a geographer referee warning that "more modeling will bury the regional story." These pull in opposite directions. The losing move is to side silently with one. The winning move: add the structural estimate the economist wants, but pair it in the *same revision* with a tightened mechanism paragraph and a map that keeps the regional story visible for the geographer — then, in the response letter, name the tension explicitly to the editor and explain how the revision serves both. If the structural estimate moves the headline number (say from 0.08 to 0.06, illustrative), report it honestly; a bounded, candid number survives a JEG panel better than a defended original.
+
+## Editor-facing framing (often decisive)
+
+JEG editors sit on the bridge and weigh whether your revision reconciled two reports rather than placating one. Make their job easy: open with their letter's framing, show in one paragraph how the revision addresses the cross-disciplinary tension, and where the referees conflict, propose the resolution rather than forcing the editor to adjudicate. A response that visibly *bridges* the two reports is the strongest signal you understood what JEG is.
 
 ## Output format
 
 ```text
 【Journal】Journal of Economic Geography
 【Skill】jegeo-rebuttal
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking rebuttal strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Urban Economics, Regional Studies
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jegeo-rebuttal
+【Decision】R&R / major / minor
+【Economist-report fixes】comment → located evidence (done/declined+reason)
+【Geographer-report fixes】comment → located evidence (done/declined+reason)
+【Conflicts surfaced to editor】tension + proposed resolution
+【Core claim status】protected / adjusted (how)
+【Next step】resubmit via ScholarOne; route new bottlenecks through jegeo-workflow
 ```

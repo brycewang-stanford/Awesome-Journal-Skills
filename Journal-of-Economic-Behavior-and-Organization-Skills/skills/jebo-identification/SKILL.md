@@ -1,70 +1,80 @@
 ---
 name: jebo-identification
-description: Use when working on identification strategy for a Journal of Economic Behavior and Organization manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the design that isolates a behavioral mechanism is the bottleneck for a Journal of Economic Behavior & Organization (JEBO) manuscript — lab/field experiment, observational causal design, or simulation. Stress-tests experimental and observational identification to JEBO's behavioral-credibility bar; it does not write prose or build the deposit.
 ---
 
 # Identification Strategy (jebo-identification)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Economic Behavior and Organization (JEBO)** and identification strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's behavioral economics, organization, institutions, experiments, and decision-making outside frictionless textbook settings standard.
-- The paper risks being confused with nearby venues: Experimental Economics, Games and Economic Behavior, Management Science, and Journal of Public Economics.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A lab/field experiment's treatment, incentives, or comprehension are not pinned down
+- An effect could be an **experimenter-demand effect** rather than the claimed behavioral mechanism
+- An observational behavioral claim rests on OLS + controls, or TWFE on staggered timing
+- A study uses deception, or runs many treatments, and the inference/ethics implications are unaddressed
+- You are unsure the design isolates the *behavioral* mechanism, not a confound
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| behavioral mechanism is central | Make the behavioral mechanism assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| institutional setting is central | Make the institutional setting assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| laboratory evidence is central | Make the laboratory evidence assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| field-experiment design is central | Make the field-experiment design assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| organizational incentives is central | Make the organizational incentives assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The JEBO identification bar
 
-## JEBO fit notes
+JEBO judges identification through a **behavioral-mechanism** lens: the design must isolate the *psychological or institutional channel* the paper claims, not merely produce a significant difference. Because JEBO treats **experimental design as a first-class identification branch** alongside observational causal designs, "identification" means different things by branch — pick the branch and make the channel transparent. Inference must match the design (clustering at the level of randomization or assignment; few-cluster corrections).
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: behavioral mechanism, institutional setting, laboratory evidence, field-experiment design, organizational incentives.
-- Sibling boundary: Experimental Economics, Games and Economic Behavior, Management Science, and Journal of Public Economics.
-- House-style aim: mechanism-forward behavioral evidence with transparent experimental or institutional design.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization
-- https://www.elsevier.com/journals/journal-of-economic-behavior-and-organization/0167-2681/guide-for-authors
+### Branch A: Lab / online experiment (the JEBO core)
 
-## Stage-specific moves
+- **Incentive compatibility:** payoffs must make truthful/effortful behavior the dominant strategy for the elicited object (e.g., BDM, strategy method, incentivized beliefs). State the mechanism and the stakes.
+- **No-deception norm:** the experimental-economics convention is **no deception**; if you deviate, justify it and expect scrutiny — many referees treat deception as disqualifying for an incentivized study.
+- **Comprehension & attention checks:** report comprehension quizzes, control questions, and how failures were handled (drop / re-instruct), so the effect is not confusion.
+- **Experimenter demand:** rule out demand effects — neutral framing, between-subject where within-subject would cue the hypothesis, obfuscated objectives, or an explicit demand-treatment (e.g., Mummolo–Peterson / de Quidt-style bounds).
+- **Randomization & balance:** show balance on observables; report the randomization procedure and unit.
+- **Multiple treatments:** if several treatment arms, plan the comparisons and correct for multiplicity (see jebo-robustness).
+- **Pre-registration:** pre-register the design and primary analysis (AEA RCT Registry / AsPredicted / OSF) and report deviations. (JEBO does not currently mandate it — 待核实 — but referees increasingly expect it.)
 
-1. State the exact identification strategy question in one sentence.
-2. Identify which JEBO audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jebo-theory-model` if the stage passes, or back to `jebo-workflow` if it does not.
+### Branch B: Field experiment
+
+- ITT vs. LATE/TOT stated; randomization unit and stratification described; spillovers and SUTVA addressed.
+- Attrition examined and bounded (Lee bounds if differential); compliance documented.
+- Ethical clearance / consent noted; external-validity scope stated (the field setting's generality).
+
+### Branch C: Observational behavioral empirics
+
+- **DID / event study** with staggered adoption: move beyond TWFE (Callaway–Sant'Anna, Sun–Abraham, de Chaisemartin–D'Haultfœuille); show clean event-study leads; Goodman-Bacon decomposition.
+- **IV:** strong first stage (effective F); weak-IV-robust sets (Anderson–Rubin) when needed; defend exclusion in institutions/theory + falsification.
+- **RDD:** density/manipulation test (McCrary / Cattaneo–Jansson–Ma); local-linear, data-driven bandwidth, bias-corrected robust CIs.
+- The behavioral interpretation must be argued, not assumed — the design identifies an estimate; the *mechanism* connecting it to a behavioral channel needs its own evidence (see jebo-theory-model).
+
+### Branch D: Agent-based / simulation
+
+- Document the data-generating process and behavioral rules; set and report seeds; show the result is not an artifact of grid/tuning choices (see jebo-robustness).
 
 ## Checklist
-- [ ] The JEBO audience can see why the paper belongs in behavioral economics, organization, institutions, experiments, and decision-making outside frictionless textbook settings.
-- [ ] The draft distinguishes JEBO from Experimental Economics, Games, Economic Behavior.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for identification strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Branch chosen; the design-to-mechanism mapping stated in one sentence
+- [ ] Experiment: incentive-compatible elicitation; no deception (or justified); comprehension checks reported
+- [ ] Experimenter-demand effects ruled out or bounded
+- [ ] Randomization unit, balance, and (for field) attrition/spillovers handled
+- [ ] Observational: design-appropriate diagnostics; modern estimator where TWFE/2SLS would bias
+- [ ] Inference clustered at the randomization/assignment level; few-cluster issue addressed
+- [ ] The behavioral claim never exceeds what the design isolates
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JEBO without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Reporting a treatment difference as a behavioral mechanism without ruling out demand effects
+- Using deception in an incentivized study without justification (referees may reject outright)
+- Within-subject designs that cue the hypothesis, presented as if between-subject-clean
+- TWFE on staggered treatment with no heterogeneity-bias discussion
+- Calling a significant coefficient "evidence of [bias]" when a non-behavioral confound survives
+- Significance asterisks standing in for clustered SEs or a pre-registered primary outcome
+
+## Worked vignette (illustrative)
+
+A lab study claims that public visibility raises cooperation via image concerns. A referee asks whether subjects merely inferred the experimenter wanted more cooperation in the visible arm. The JEBO fix: add a demand-effect treatment (explicitly tell one cell "we expect more cooperation"), show the visibility effect (illustrative: +0.6 contributions, s.e. 0.2) is an order of magnitude larger than the pure demand response, and pre-register cooperation as the primary outcome — turning "could be demand" into a bounded, mechanism-level claim.
 
 ## Output format
 
 ```text
-【Journal】Journal of Economic Behavior and Organization
-【Skill】jebo-identification
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking identification strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Experimental Economics, Games
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jebo-theory-model
+【Branch】lab / field / observational / simulation
+【Design-to-mechanism mapping】one sentence
+【Behavioral channel isolated】<image concern / loss aversion / learning / norm / ...>
+【Identification evidence】[incentives+comprehension+demand-bound / balance+attrition / pre-trends+density+first-stage / DGP+seeds]
+【Estimator + inference】estimator; clustering level; weak-IV/honest-DID if any
+【What it does NOT identify】[...]
+【Next step】jebo-theory-model
 ```

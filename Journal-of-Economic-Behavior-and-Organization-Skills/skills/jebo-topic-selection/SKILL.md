@@ -1,70 +1,68 @@
 ---
 name: jebo-topic-selection
-description: Use when working on topic selection for a Journal of Economic Behavior and Organization manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when deciding whether a behavioral, experimental, or organizational question fits the Journal of Economic Behavior & Organization (JEBO) rather than a sibling outlet, and how to frame it. Sharpens scope and the behavioral hook; it does not invent evidence, editors, or citations.
 ---
 
 # Topic Selection (jebo-topic-selection)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Economic Behavior and Organization (JEBO)** and topic selection is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's behavioral economics, organization, institutions, experiments, and decision-making outside frictionless textbook settings standard.
-- The paper risks being confused with nearby venues: Experimental Economics, Games and Economic Behavior, Management Science, and Journal of Public Economics.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You have a clean result but are unsure whether JEBO or a sibling (Experimental Economics, GEB, J. Economic Psychology, J. Public Economics) is the right home
+- The paper is a good causal study but the **behavioral** angle is thin or bolted on
+- A coauthor asks "is this behavioral enough for JEBO?"
+- The question is interesting but the audience that would cite it is unclear
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| behavioral mechanism is central | Make the behavioral mechanism assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| institutional setting is central | Make the institutional setting assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| laboratory evidence is central | Make the laboratory evidence assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| field-experiment design is central | Make the field-experiment design assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| organizational incentives is central | Make the organizational incentives assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## What JEBO actually rewards
 
-## JEBO fit notes
+JEBO's organizing idea is **economic behavior outside the frictionless, fully-rational benchmark**: bounded rationality, social and other-regarding preferences, heuristics and biases, learning and adaptation, institutions and organizations as responses to behavioral constraints. A JEBO paper leads with a **behavioral mechanism** and uses whatever method (experiment, empirics, theory, simulation) best identifies it. The test is not "is the design clean?" but "does this teach us something about how real economic agents actually decide and organize?"
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: behavioral mechanism, institutional setting, laboratory evidence, field-experiment design, organizational incentives.
-- Sibling boundary: Experimental Economics, Games and Economic Behavior, Management Science, and Journal of Public Economics.
-- House-style aim: mechanism-forward behavioral evidence with transparent experimental or institutional design.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization
-- https://www.elsevier.com/journals/journal-of-economic-behavior-and-organization/0167-2681/guide-for-authors
+Run the topic through three filters, in order:
 
-## Stage-specific moves
+1. **Behavioral content.** Is there a genuine deviation from the rational-actor benchmark — a preference, belief, heuristic, or institutional response — that the paper measures or models? If the behavioral element is decorative ("we add a behavioral interpretation in the discussion"), the paper belongs elsewhere.
+2. **Generality of the lesson.** JEBO is broad but not a field journal for one micro-topic. The mechanism should travel beyond the specific lab task or one dataset.
+3. **Method-fit, not method-purity.** JEBO is pluralist; the method is judged by how well it serves the behavioral question, not by whether it is the most fashionable estimator.
 
-1. State the exact topic selection question in one sentence.
-2. Identify which JEBO audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jebo-literature-positioning` if the stage passes, or back to `jebo-workflow` if it does not.
+## Sibling boundary — where JEBO ends and others begin
+
+| If the paper's real contribution is… | Better home than JEBO | Why |
+|--------------------------------------|-----------------------|-----|
+| A new experimental method / design (deception detection, elicitation tool) for its own sake | Experimental Economics | ESA outlet is method-of-experiment-focused; JEBO wants the behavioral economics the experiment reveals |
+| A theorem about equilibrium, learning dynamics, or mechanism design | Games and Economic Behavior | GEB is formal game theory; JEBO theory must yield a *testable behavioral* prediction |
+| A psychology-first account (affect, personality, cognition) with light economic stakes | Journal of Economic Psychology | JEBO keeps an economic decision/organization at the center |
+| A clean policy-evaluation number where the behavioral story is secondary | AEJ: Applied / J. Public Economics | those reward the causal estimand; JEBO rewards the mechanism behind it |
+| A management/strategy contribution to organizational theory | Management Science / AMJ | JEBO's "organization" is economic, behaviorally micro-founded |
+
+If two filters pass and the boundary table keeps the paper at JEBO, the topic fits. If only one passes, the paper is *adjacent* — reframe around the behavioral mechanism or redirect.
+
+## Framing the hook
+
+State the contribution as: **"agents do X (a behavioral regularity) because of Y (mechanism), with consequence Z for markets/organizations/institutions."** That sentence should survive deletion of the dataset name — if the paper collapses to "we ran an RCT and found an effect," the behavioral hook is missing.
 
 ## Checklist
-- [ ] The JEBO audience can see why the paper belongs in behavioral economics, organization, institutions, experiments, and decision-making outside frictionless textbook settings.
-- [ ] The draft distinguishes JEBO from Experimental Economics, Games, Economic Behavior.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for topic selection names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] The behavioral mechanism (preference / belief / heuristic / institutional response) is named in one sentence, not implied
+- [ ] The lesson generalizes beyond the single task, sample, or institution studied
+- [ ] The method is justified by the question, not by fashion (experiment, empirics, theory, or simulation all welcome)
+- [ ] The sibling-boundary table places the paper at JEBO, not at ExpEcon / GEB / JEP / a policy journal
+- [ ] No fabricated editor, fee, or word limit; volatile facts marked 待核实
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JEBO without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A clean causal study with a behavioral interpretation tacked on in the conclusion (desk-reject risk: "right method, wrong journal")
+- A pure experimental-method or pure game-theory contribution sent to JEBO because it "involves behavior"
+- A single-task lab result with no argument that the mechanism travels
+- Pitching to "the JEBO audience" generically without naming which segment (behavioral, experimental, organizational, evolutionary) would cite it
+- Claiming a process fact (e.g., "JEBO requires pre-registration") that the source map does not verify
 
 ## Output format
 
 ```text
-【Journal】Journal of Economic Behavior and Organization
+【Journal】Journal of Economic Behavior & Organization
 【Skill】jebo-topic-selection
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking topic selection
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Experimental Economics, Games
-【Source status】verified URL / 待核实 / not asserted
+【Behavioral hook】agents do X because of Y, with consequence Z
+【Archetype】experiment / observational / theory / simulation
+【Fit verdict】fits JEBO / adjacent — reframe / redirect to <sibling>
+【Sibling boundary】why not ExpEcon / GEB / JEP / policy journal
+【Source status】verified / 待核实 / not asserted
 【Next skill】jebo-literature-positioning
 ```

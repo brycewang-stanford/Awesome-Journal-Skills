@@ -1,70 +1,97 @@
 ---
 name: expecon-robustness
-description: Use when working on robustness strategy for a Experimental Economics manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when an Experimental Economics (ExpEcon) result may be a power artifact, multiple-comparisons artifact, or sensitive to the inference unit, exclusions, or design choices. Hardens the statistical case; it does not design the experiment or draft prose.
 ---
 
-# Robustness Strategy (expecon-robustness)
+# Robustness & Inference (expecon-robustness)
 
 ## When to trigger
-- The manuscript is aimed at **Experimental Economics (Experimental Economics)** and robustness strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's laboratory, field, online, and artefactual experiments in economics standard.
-- The paper risks being confused with nearby venues: JEBO, Games and Economic Behavior, Management Science, and Journal of Risk and Uncertainty.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A referee asks "is the study adequately powered?" and there is no sample-size justification
+- You ran several treatments / outcomes and report many p-values without correction
+- Inference treats individual decisions as independent when subjects interact in groups
+- Results move when you change the exclusion rule, the outcome measure, or pool/unpool sessions
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| experimental protocol is central | Make the experimental protocol assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| incentive compatibility is central | Make the incentive compatibility assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| pre-analysis plan is central | Make the pre-analysis plan assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| treatment contrast is central | Make the treatment contrast assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| subject-pool design is central | Make the subject-pool design assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The ExpEcon inference stack
 
-## Experimental Economics fit notes
+Experimental control buys clean identification; it does not buy clean *inference*. Five things separate a robust ExpEcon paper from a fragile one.
 
-- Publisher / owner context: Springer for the Economic Science Association.
-- Submission route to re-check: Springer Nature submission.
-- Signature vocabulary: experimental protocol, incentive compatibility, pre-analysis plan, treatment contrast, subject-pool design.
-- Sibling boundary: JEBO, Games and Economic Behavior, Management Science, and Journal of Risk and Uncertainty.
-- House-style aim: protocol-transparent experimental economics with credible incentives and robust inference.
-- Official URLs currently used by the pack:
-- https://link.springer.com/journal/10683
-- https://www.springer.com/journal/10683/submission-guidelines
+### 1. Power / sample-size justification (do this before data, defend it after)
 
-## Stage-specific moves
+- Pre-specify the **minimum detectable effect (MDE)** that is economically meaningful and the power to detect it, at the **correct unit** (session or matching group, not individual decision). A study powered on individual n but analyzed at the group level is overstated.
+- Use pilot or prior-literature variances; for interactive games, simulate at the group level. Report the realized power for the primary comparison, not just a post-hoc "we found p<0.05."
+- A clean, well-powered **null** is publishable here — especially as a Registered Report. Do not p-hack a null into significance; defend it with power.
 
-1. State the exact robustness strategy question in one sentence.
-2. Identify which Experimental Economics audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `expecon-tables-figures` if the stage passes, or back to `expecon-workflow` if it does not.
+### 2. The unit-of-observation problem
+
+- Within a matching group, decisions are correlated; the **independent unit is the group/session**, often giving far fewer effective observations than the raw decision count suggests.
+- Use group-level summaries, **cluster-robust SEs at the session/matching-group level**, mixed models with group random effects, or non-parametric tests on group means (Mann–Whitney / permutation). With few clusters, prefer randomization-inference / permutation tests over asymptotic clustering.
+
+### 3. Multiple treatments & multiple hypotheses
+
+- If you test several outcomes or several pairwise treatment contrasts, **correct for multiplicity** (Holm, Romano–Wolf, List–Shaikh–Xu for experiments, or pre-registered families). Distinguish the **primary** pre-registered comparison (no correction needed if it is the single confirmatory test) from **secondary/exploratory** ones (correct, and label exploratory).
+- Report the pre-registered analysis first, exactly as specified; report deviations and additional analyses separately and labeled.
+
+### 4. Non-parametric vs. parametric
+
+- Experimental outcomes are often bounded, censored (contributions in [0,20]), or non-normal. Lead with **non-parametric tests** on the primary comparison; use regression for covariate adjustment and heterogeneity, not to rescue a fragile mean difference.
+
+### 5. Robustness to design and analysis choices
+
+- Show the effect survives: alternative exclusion rules (comprehension failers in/out), first-half vs. second-half rounds (learning), partner vs. stranger if both run, and a permutation test of the treatment label.
+- Report **attrition** and, in field/online studies, differential attrition (Lee bounds if it threatens balance).
 
 ## Checklist
-- [ ] The Experimental Economics audience can see why the paper belongs in laboratory, field, online, and artefactual experiments in economics.
-- [ ] The draft distinguishes Experimental Economics from JEBO, Games, Economic Behavior.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for robustness strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Sample size justified via MDE + power **at the group/session unit**; realized power reported
+- [ ] Inference uses the correct independent unit (cluster-robust / group-means / RI), not raw decision n
+- [ ] Few-cluster inference handled (permutation / randomization inference) when sessions are few
+- [ ] Multiplicity corrected across outcomes/contrasts; primary vs. exploratory clearly separated
+- [ ] Primary analysis matches the pre-analysis plan exactly; deviations flagged
+- [ ] Non-parametric test leads for the bounded/non-normal primary outcome
+- [ ] Robustness to exclusions, learning (round halves), and order shown; attrition reported
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Experimental Economics without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- "We found a significant effect" with no power analysis and a tiny number of independent groups
+- Per-decision n inflating significance when subjects are in repeated, interacting groups
+- A cherry-picked significant contrast among many, uncorrected and unlabeled as exploratory
+- Switching the primary outcome or exclusion rule after seeing results, without disclosure
+- Parametric t-tests on heavily censored contribution data as the only evidence
+- Declaring a null "no effect" when the design never had power to detect a meaningful effect
+
+## Worked vignette (illustrative)
+
+A public-goods paper runs 4 treatments × 3 outcomes and reports 7 significant tests. The fix: declare the single pre-registered primary contrast (cooperation under punishment vs. no-punishment) tested at the matching-group level via a permutation test on group means (say 12 groups/arm), then apply Romano–Wolf across the remaining family and label the rest exploratory. The headline survives correction (illustrative p=0.004); two secondary "effects" do not and are reported honestly as exploratory.
+
+## Referee pushback mapped to the fix
+
+- *"How many independent observations do you actually have?"* → Count **groups/sessions**, not decisions; report inference at that unit and the realized power for it.
+- *"You ran a fishing expedition."* → Declare the single pre-registered primary test; correct the rest (Romano–Wolf/Holm) and label them exploratory.
+- *"Few clusters — your SEs are unreliable."* → Use randomization inference / permutation tests on group means rather than asymptotic clustering.
+- *"The null is uninformative."* → Report the MDE; show the design had power to detect a meaningful effect, so the null is evidence of absence, not absence of evidence.
+- *"Results depend on dropping subjects."* → Show the effect with and without comprehension failers and state the pre-specified rule.
+
+## A minimal robustness panel to pre-build
+
+1. Primary test at the group/session unit (non-parametric lead).
+2. Same test with comprehension failers included vs. excluded.
+3. First-half vs. second-half rounds (learning).
+4. Permutation/randomization-inference p-value on the treatment label.
+5. Multiplicity-corrected family of secondary contrasts, labeled exploratory.
+6. Attrition table (and differential attrition / Lee bounds in field-online designs).
+
+If all six point the same way, the result is robust in the sense ExpEcon referees mean; if (3) or (4) flips it, the headline is fragile and you learned that before a referee did.
 
 ## Output format
 
 ```text
-【Journal】Experimental Economics
+【Journal】Experimental Economics (ESA method flagship)
 【Skill】expecon-robustness
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking robustness strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not JEBO, Games
-【Source status】verified URL / 待核实 / not asserted
+【Verdict】robust / fragile / underpowered
+【Power】MDE + power at group/session unit; realized power
+【Inference unit】group-means / cluster-robust / randomization inference
+【Multiplicity】correction used; primary vs. exploratory split
+【Design robustness】exclusions / learning halves / order / attrition
 【Next skill】expecon-tables-figures
 ```

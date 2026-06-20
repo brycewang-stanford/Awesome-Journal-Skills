@@ -1,70 +1,72 @@
 ---
 name: jleo-identification
-description: Use when working on identification strategy for a Journal of Law, Economics, and Organization manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the identification argument is the bottleneck for an empirical Journal of Law, Economics, and Organization (JLEO) manuscript — institutional/organizational causal designs (reforms, institutional variation, court/committee/case assignment, governance-form choice). Stress-tests the design to JLEO's institutional bar; it does not build the theory model (jleo-theory-model).
 ---
 
 # Identification Strategy (jleo-identification)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Law, Economics, and Organization (JLEO)** and identification strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's law, economics, and organization with emphasis on contracts, institutions, governance, and organizational design standard.
-- The paper risks being confused with nearby venues: Journal of Law and Economics, Journal of Legal Studies, Organization Science, and American Law and Economics Review.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The causal claim rests on OLS + controls, or TWFE on staggered institutional reforms
+- The unit chooses its own governance form (make-or-buy, integration, contract type) and the estimate confounds selection with effect
+- The "treatment" is a court/committee/judge/case assignment whose as-good-as-random status is asserted but not shown
+- A referee asks "what is the source of variation that identifies this institutional effect?"
+- The design borrows institutional variation across countries/states/firms without ruling out the obvious confounds
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| organizational governance is central | Make the organizational governance assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| contracting institution is central | Make the contracting institution assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| legal-economic mechanism is central | Make the legal-economic mechanism assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| agency problem is central | Make the agency problem assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| institutional design is central | Make the institutional design assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The JLEO identification bar
 
-## JLEO fit notes
+JLEO empirics live or die on whether the **institutional or organizational variation** that does the identifying is credible — because the object of interest is usually itself chosen by the agents (firms pick governance forms; legislatures pick rules; litigants select into courts). The credible-identification standards are the same as any top empirical economics journal, but the *threats* are institution-specific: endogenous boundaries, endogenous reform timing, selection into contract form, and strategic case selection. Name the variation, defend it, and never let the institutional story substitute for the design.
 
-- Publisher / owner context: Oxford University Press.
-- Submission route to re-check: OUP submission.
-- Signature vocabulary: organizational governance, contracting institution, legal-economic mechanism, agency problem, institutional design.
-- Sibling boundary: Journal of Law and Economics, Journal of Legal Studies, Organization Science, and American Law and Economics Review.
-- House-style aim: institutional-economics argument that integrates legal rules, governance, and organizational mechanisms.
-- Official URLs currently used by the pack:
-- https://academic.oup.com/jleo
-- https://academic.oup.com/jleo/pages/General_Instructions
+## Design branches and their institution-specific threats
 
-## Stage-specific moves
+### Reforms / institutional change (DID, event study)
+- With staggered adoption move beyond TWFE: Callaway–Sant'Anna, Sun–Abraham, de Chaisemartin–D'Haultfœuille; show clean event-study leads; report a Goodman–Bacon decomposition.
+- The first-order JLEO threat is **endogenous reform timing**: institutions reform when conditions change. Defend timing exogeneity (or instrument it), and test for anticipation.
 
-1. State the exact identification strategy question in one sentence.
-2. Identify which JLEO audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jleo-theory-model` if the stage passes, or back to `jleo-workflow` if it does not.
+### Governance-form / make-or-buy choice (the classic TCE empirics)
+- The boundary of the firm is *chosen*. A raw comparison of integrated vs. arm's-length transactions confounds the governance effect with the selection that produced it.
+- Use within-transaction variation, an IV for the governance choice, a selection model with a defensible exclusion, or matching on asset-specificity/uncertainty proxies — and say which, and why it breaks the selection.
+
+### Court / committee / judge / case assignment
+- The cleanest JLEO-style natural experiment: random or rotation-based assignment of cases to judges/panels, or bills to committees.
+- Show the assignment mechanism is actually as-good-as-random (balance on case characteristics); address case settlement/selection that re-introduces endogeneity downstream.
+
+### Cross-institutional variation (states, countries, firms)
+- Defend the variation against the obvious omitted institutional confounds; prefer within-jurisdiction-over-time variation or a sharp discontinuity to a cross-section of institutions.
+
+### IV / RDD where applicable
+- IV: strong first stage; weak-IV-robust inference (Anderson–Rubin) if weak; defend exclusion in the institutional context. RDD: density test (McCrary / Cattaneo–Jansson–Ma), bandwidth robustness, covariate smoothness, bias-corrected CIs.
+- Cluster inference at the level of the institutional treatment; address few-cluster problems (wild-cluster bootstrap).
 
 ## Checklist
-- [ ] The JLEO audience can see why the paper belongs in law, economics, and organization with emphasis on contracts, institutions, governance, and organizational design.
-- [ ] The draft distinguishes JLEO from Journal of Law, Economics, Journal of Legal Studies.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for identification strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] The identifying variation is named in one sentence and tied to the institutional setting
+- [ ] Selection into the governance form / institution is explicitly addressed, not assumed away
+- [ ] Reform timing exogeneity or assignment-as-random is defended and tested (anticipation, balance)
+- [ ] Staggered designs use a modern estimator; event-study leads shown flat
+- [ ] Inference clustered at the institutional treatment level; few-cluster issues handled
+- [ ] The causal claim never exceeds what the institutional variation supports
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JLEO without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Comparing integrated vs. non-integrated transactions as if governance form were randomly assigned
+- TWFE on staggered institutional reforms with no heterogeneity-bias discussion
+- Asserting judge/case/committee assignment is random without showing balance
+- Cross-country institutional regressions with controls standing in for identification
+- An "institutional story" doing the work the research design should do
+
+## Worked vignette (illustrative)
+
+A paper estimates the effect of vertical integration on hold-up costs using firm transaction data. The naive comparison is biased: firms integrate precisely the transactions most prone to hold-up. A JLEO-credible move uses a shock to asset specificity (e.g., a technology change raising relationship-specific investment for a subset of input categories) as the source of variation, with an event study around the shock and a placebo on unaffected categories. Suppose integrated-transaction disputes fall 18% (s.e. 6, illustrative) post-shock for treated categories only — that pattern, not the cross-section, identifies the governance effect.
 
 ## Output format
 
 ```text
-【Journal】Journal of Law, Economics, and Organization
-【Skill】jleo-identification
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking identification strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Law, Economics
-【Source status】verified URL / 待核实 / not asserted
+【Design】reform-DID / governance-choice / case-assignment / cross-institution / IV / RDD
+【Identifying variation】one sentence, tied to the institution
+【Selection/endogeneity threat + fix】[...]
+【Diagnostics】event-study leads / balance / first-stage / density / placebo
+【Inference】clustering level; few-cluster handling
+【What it does NOT identify】[...]
 【Next skill】jleo-theory-model
 ```

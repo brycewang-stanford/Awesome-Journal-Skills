@@ -1,70 +1,79 @@
 ---
 name: jebo-robustness
-description: Use when working on robustness strategy for a Journal of Economic Behavior and Organization manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when a Journal of Economic Behavior & Organization (JEBO) result may be fragile to demand effects, multiple comparisons, specification, or tuning. Organizes robustness by the behavioral threat each check addresses — for experiments, observational designs, and simulations; it does not redesign the identification or write the prose.
 ---
 
 # Robustness Strategy (jebo-robustness)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Economic Behavior and Organization (JEBO)** and robustness strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's behavioral economics, organization, institutions, experiments, and decision-making outside frictionless textbook settings standard.
-- The paper risks being confused with nearby venues: Experimental Economics, Games and Economic Behavior, Management Science, and Journal of Public Economics.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- An experiment has several treatment arms / outcomes and you have not corrected for multiplicity
+- A referee could attribute the effect to **experimenter demand**, confusion, or order effects
+- An observational result moves with controls, sample windows, or estimator choice
+- An agent-based result might be an artifact of grid, seed, or tuning choices
+- You have a long, unstructured "robustness" appendix and no map from check to threat
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| behavioral mechanism is central | Make the behavioral mechanism assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| institutional setting is central | Make the institutional setting assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| laboratory evidence is central | Make the laboratory evidence assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| field-experiment design is central | Make the field-experiment design assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| organizational incentives is central | Make the organizational incentives assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Organize robustness by behavioral threat, not by appendix list
 
-## JEBO fit notes
+At JEBO the right question is never "did we run enough checks?" but "for each way this could *not* be the behavioral mechanism, did we show it survives?" Build a threat → check map. The threats differ sharply across the four archetypes.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: behavioral mechanism, institutional setting, laboratory evidence, field-experiment design, organizational incentives.
-- Sibling boundary: Experimental Economics, Games and Economic Behavior, Management Science, and Journal of Public Economics.
-- House-style aim: mechanism-forward behavioral evidence with transparent experimental or institutional design.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization
-- https://www.elsevier.com/journals/journal-of-economic-behavior-and-organization/0167-2681/guide-for-authors
+### Experiments (lab/online/field)
 
-## Stage-specific moves
+| Threat | Check JEBO referees expect |
+|--------|----------------------------|
+| Experimenter demand | demand-treatment bounds (de Quidt-style), neutral framing, obfuscated objective |
+| Multiple comparisons | pre-registered primary outcome; MHT correction (Romano–Wolf, List–Shaikh–Xu, BH) across arms/outcomes |
+| Comprehension / confusion | results hold among subjects passing comprehension checks |
+| Order / sequence effects | randomize order; show within-order stability |
+| Subject pool / platform | replicate across pools (student vs. Prolific vs. field); attention screens on online samples |
+| Bots / inattentive online subjects | attention checks, completion-time filters, duplicate-IP screening |
+| Selection / attrition | balance among completers; Lee bounds if differential |
 
-1. State the exact robustness strategy question in one sentence.
-2. Identify which JEBO audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jebo-tables-figures` if the stage passes, or back to `jebo-workflow` if it does not.
+### Observational behavioral empirics
+
+- Specification curve / multiverse over reasonable controls and windows; show the headline is not a knife-edge.
+- Inference robustness: clustering level, wild-cluster bootstrap with few clusters, randomization inference where natural.
+- Placebo / falsification: effect absent where the mechanism predicts none; pre-trend tests for DID.
+- Sensitivity to unobservables (Oster δ; Rambachan–Roth honest-DID for parallel-trend violations).
+
+### Simulation / agent-based
+
+- Parameter sweeps over the behavioral-rule space; report the region where the result holds.
+- Seed sensitivity (many runs, report distribution not one path); grid/step-size invariance.
+- Sensitivity of emergent regularities to the behavioral rule chosen (e.g., reinforcement vs. EWA learning).
+
+## Distinguish "the effect is real" from "the mechanism is the claimed one"
+
+JEBO's distinctive robustness demand is **mechanism robustness**: even a real, replicable effect can be driven by a *different* behavioral channel than claimed. Where possible, add a check that separates your mechanism from the leading alternative (a moderation test the rival channel does not predict, a mediation analysis with the caveats stated, or a treatment that shuts the rival channel off).
 
 ## Checklist
-- [ ] The JEBO audience can see why the paper belongs in behavioral economics, organization, institutions, experiments, and decision-making outside frictionless textbook settings.
-- [ ] The draft distinguishes JEBO from Experimental Economics, Games, Economic Behavior.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for robustness strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Every robustness exhibit is labeled with the specific threat it neutralizes
+- [ ] Experiments: demand effects bounded; primary outcome pre-registered; MHT correction reported
+- [ ] Comprehension/order/subject-pool/attention threats addressed for the relevant design
+- [ ] Observational: spec-curve + inference robustness + placebo/falsification + unobservables sensitivity
+- [ ] Simulation: parameter sweeps + seed/grid sensitivity reported
+- [ ] At least one check separates the claimed mechanism from the leading alternative
+- [ ] The headline magnitude is reported with honest uncertainty across specifications
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JEBO without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A robustness appendix that lists 20 regressions without saying what threat each rebuts
+- Reporting only the cell that survives MHT, omitting the corrected p-values across all arms
+- Treating "the effect replicates" as proof the *mechanism* is the claimed one
+- Online experiments with no attention/bot screening
+- An agent-based headline shown for a single seed and a single grid
+- Hand-picked control sets that quietly maximize the coefficient
 
 ## Output format
 
 ```text
-【Journal】Journal of Economic Behavior and Organization
-【Skill】jebo-robustness
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking robustness strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Experimental Economics, Games
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jebo-tables-figures
+【Archetype】experiment / observational / simulation
+【Threat → check map】
+  - <threat 1> → <check>
+  - <threat 2> → <check>
+【Multiplicity】primary outcome pre-registered? MHT method:
+【Mechanism vs. alternative】<test separating claimed channel from rival>
+【Headline stability】<range of estimate across specs + uncertainty>
+【Next step】jebo-tables-figures
 ```

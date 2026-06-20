@@ -1,76 +1,90 @@
 ---
 name: jru-submission
-description: Use when working on submission preflight for a Journal of Risk and Uncertainty manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when running the final pre-submission preflight for the Journal of Risk and Uncertainty (JRU) via Springer's portal — file set, anonymization, Data Availability Statement, ethics and AI disclosures, and house-style checks. Final checks; it does not draft content.
 ---
 
 # Submission Preflight (jru-submission)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Risk and Uncertainty (JRU)** and submission preflight is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's risk, uncertainty, decision theory, behavioral choice, insurance, and experimental evidence on risky decisions standard.
-- The paper risks being confused with nearby venues: Experimental Economics, Journal of Economic Behavior and Organization, Games and Economic Behavior, and Management Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- "Submitting this week" — last pass before uploading to Springer's submission system
+- Unsure which files Springer's Editorial Manager expects, or how to anonymize for review
+- Confirming the Data Availability Statement, ethics, funding, and AI-use disclosures are in place
+- Verifying the abstract, length, and reference style conform before the editor sees the paper
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| risk preference is central | Make the risk preference assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| uncertainty attitude is central | Make the uncertainty attitude assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| prospect-theory test is central | Make the prospect-theory test assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| insurance behavior is central | Make the insurance behavior assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| experimental elicitation is central | Make the experimental elicitation assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Process facts (检索于 2026-06；以官网为准)
 
-## JRU fit notes
+- JRU is published by **Springer** (Springer Science+Business Media); content sits on **Springer Nature Link** (ISSN 0895-5646 print / 1573-0476 electronic). Editor-in-Chief and founder: **W. Kip Viscusi** (Vanderbilt), who has led the journal since 1988.
+- Submission is through Springer's online system (**Editorial Manager**, the Springer standard — 待核实 against the live guidelines); the Editor-in-Chief reserves the right to reject submissions that do not meet the author guidelines.
+- Review model: **single-blind** is the Springer econ default — **待核实**; confirm whether JRU anonymizes. If single-blind, author identities are visible to referees and need not be stripped, but verify before relying on it.
+- **Data Availability Statement** is required on original research articles; Springer strongly encourages depositing underlying data in a recognized repository.
+- **Exact abstract word limit, manuscript length cap, and any open-access / APC fees are 待核实** — read them off the official submission guidelines at submission time.
+- ORCID is recommended for submitting authors.
 
-- Publisher / owner context: Springer.
-- Submission route to re-check: Springer Nature submission.
-- Signature vocabulary: risk preference, uncertainty attitude, prospect-theory test, insurance behavior, experimental elicitation.
-- Sibling boundary: Experimental Economics, Journal of Economic Behavior and Organization, Games and Economic Behavior, and Management Science.
-- House-style aim: decision-theoretic clarity with careful measurement of risk and uncertainty.
-- Official URLs currently used by the pack:
-- https://link.springer.com/journal/11166
-- https://www.springer.com/journal/11166/submission-guidelines
+## Preflight checklist
 
-## Stage-specific moves
+### Manuscript & style
+- [ ] Abstract within the journal's word limit (待核实 — verify cap); keywords and JEL codes included
+- [ ] Title page with full affiliations; corresponding author and ORCID set
+- [ ] References in the journal's style (Springer basic / numbered — 待核实); every in-text cite resolves
+- [ ] Figures plot the key functions (w(p), value function) with the EU benchmark; tables report SE/CI, not bare asterisks
+- [ ] Experiment instructions / decision screens included as supplementary material; estimand stated in the main text
 
-1. State the exact submission preflight question in one sentence.
-2. Identify which JRU audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jru-rebuttal` if the stage passes, or back to `jru-workflow` if it does not.
+### Files & disclosures for the Springer portal
+- [ ] Main manuscript + supplementary appendix; experiment materials and code as supplementary files or repository link
+- [ ] **Data Availability Statement** present and consistent with what is deposited
+- [ ] **Ethics / IRB approval** stated for human-subjects experiments; consent noted
+- [ ] **Competing-interests and funding** declarations complete
+- [ ] **AI/LLM use** disclosed per Springer policy; AI not listed as an author
+- [ ] Anonymization handled per the confirmed review model (待核实)
 
-## Checklist
-- [ ] The JRU audience can see why the paper belongs in risk, uncertainty, decision theory, behavioral choice, insurance, and experimental evidence on risky decisions.
-- [ ] The draft distinguishes JRU from Experimental Economics, Journal of Economic Behavior, Organization.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for submission preflight names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+### Sibling-fit last look
+- [ ] The paper's object is a risk/uncertainty primitive — not a method demo (Experimental Economics) or a broad-behavioral result (JEBO); the cover letter says why JRU
+
+### Final consistency sweep
+- [ ] Every number in the abstract matches the corresponding table to the last digit
+- [ ] Notation in the text matches the notation in the figures and table notes
+- [ ] All in-text citations appear in the reference list and vice versa
+- [ ] Supplementary files referenced in the text are actually uploaded
+- [ ] Author list, affiliations, and ORCIDs are final (changes after submission are friction)
+- [ ] The paper does not assert a fact about the journal (limit, fee, policy) that is not verified — anything uncertain is left out, not guessed
+
+## Cover letter for a specialist desk
+
+The Editor-in-Chief screens for fit, so the cover letter does real work at JRU:
+
+- **One sentence on the primitive.** Name the risk/uncertainty object the paper moves (a representation, an elicited parameter, a VSL, an insurance elasticity).
+- **One sentence on why JRU, not a sibling.** Pre-empt the desk question: this is a risk/uncertainty contribution, not a method demo (Experimental Economics) or a broad behavioral result (JEBO).
+- **Suggested and excluded reviewers** if the system allows — useful in a small specialized pool where conflicts and rival camps are real.
+- **Prior-submission note** if the paper was previously reviewed elsewhere and substantially revised.
+
+## What to expect after submission
+
+- Single-blind specialist review (待核实) typically yields a few **deep** technical objections rather than many shallow ones; budget revision time for new analyses, not just edits.
+- The binding decision usually turns on the decision-theoretic or measurement core, so an R&R will most often ask you to shore up the representation or the identification (`jru-theory-model` / `jru-identification`).
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JRU without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Uploading without a Data Availability Statement (required even when data are restricted)
+- Reporting significance with asterisks instead of standard errors / confidence intervals
+- Omitting experiment instructions — for an elicitation paper the procedure is part of the method
+- Assuming a word/abstract limit or a fee instead of reading the live guidelines (mark 待核实)
+- A cover letter that does not say why the paper is JRU and not a sibling venue
 
 ## Output format
 
 ```text
-【Journal】Journal of Risk and Uncertainty
-【Skill】jru-submission
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking submission preflight
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Experimental Economics, Journal of Economic Behavior
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jru-rebuttal
+【Manuscript】abstract within cap (待核实) + keywords + JEL? [Y/N]
+【Exhibits】functions plotted vs. EU benchmark; SE/CI not stars? [Y/N]
+【Data Availability Statement】present + consistent with deposit? [Y/N]
+【Ethics/IRB + funding + AI disclosure】complete? [Y/N]
+【Experiment materials】instructions/screens/code supplied? [Y/N]
+【Fit】cover letter argues JRU over Experimental Economics / JEBO? [Y/N]
+【Next step】submit via Springer portal → jru-rebuttal for what to expect
 ```
 
 ## Supplementary resources
 
 - [`templates/checklist.md`](templates/checklist.md) — submission self-check
 - [`templates/manuscript_template.md`](templates/manuscript_template.md) — lightweight manuscript scaffold
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official URLs and volatile facts
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official Springer URLs and volatile facts

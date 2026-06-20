@@ -1,70 +1,92 @@
 ---
 name: jegeo-replication-package
-description: Use when working on replication package for a Journal of Economic Geography manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when assembling data, code, and spatial-data documentation for a Journal of Economic Geography (JEG) manuscript. Builds a credible, shareable package under JEG's encouragement-based post-acceptance policy; it does not invent data.
 ---
 
 # Replication Package (jegeo-replication-package)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Economic Geography (JEG)** and replication package is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's economic geography, spatial economics, regional development, innovation clusters, trade, and place-based policy standard.
-- The paper risks being confused with nearby venues: Journal of Urban Economics, Regional Studies, Economic Geography, and Journal of International Economics.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The analysis uses spatial data (shapefiles, geocoded points, raster, network ties) whose provenance and processing are not documented
+- A referee asks "can this be reproduced?" and the answer is currently no
+- You are deciding what to share given JEG's policy and any confidentiality constraints
+- Spatial joins, projections, and unit-boundary versions were done interactively and are not scripted
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| spatial clustering is central | Make the spatial clustering assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| regional divergence is central | Make the regional divergence assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| place-based policy is central | Make the place-based policy assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| network geography is central | Make the network geography assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| innovation ecosystem is central | Make the innovation ecosystem assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## What JEG actually requires (and what it does not)
 
-## JEG fit notes
+JEG's data/code policy is **encouragement-based and triggered after acceptance**, not a mandatory pre-acceptance replication archive (检索于 2026-06；以官网为准). Authors are asked at acceptance whether associated data exist and whether they wish to publish them as supplementary material; ORCID is required at submission. This is a genuine point of difference from QE, AEJ, and the AEA journals, which run a Data Editor reproducibility check before acceptance.
 
-- Publisher / owner context: Oxford University Press.
-- Submission route to re-check: OUP / ScholarOne submission.
-- Signature vocabulary: spatial clustering, regional divergence, place-based policy, network geography, innovation ecosystem.
-- Sibling boundary: Journal of Urban Economics, Regional Studies, Economic Geography, and Journal of International Economics.
-- House-style aim: spatial economic argument that combines maps, mechanisms, and regional theory.
-- Official URLs currently used by the pack:
-- https://academic.oup.com/joeg
-- https://academic.oup.com/joeg/pages/General_Instructions
+The practical implication: at JEG you are not forced to deposit, but a credible, well-documented package is a strong signal and pre-empts the reproducibility objection. **Build it as if it were required** — referees increasingly expect it, and editors may ask — but understand the timing and the discretion the policy gives you.
 
-## Stage-specific moves
+## Spatial data is the hard part
 
-1. State the exact replication package question in one sentence.
-2. Identify which JEG audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jegeo-referee-strategy` if the stage passes, or back to `jegeo-workflow` if it does not.
+Replication in economic geography fails most often on the *spatial* steps, not the regressions. Document them explicitly:
 
-## Checklist
-- [ ] The JEG audience can see why the paper belongs in economic geography, spatial economics, regional development, innovation clusters, trade, and place-based policy.
-- [ ] The draft distinguishes JEG from Journal of Urban Economics, Regional Studies, Economic Geography.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for replication package names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+| Spatial element | What to document |
+|-----------------|------------------|
+| Boundary/shapefile vintage | which year/version of the administrative units (boundaries change; results shift) |
+| Projection / CRS | the coordinate reference system used for distance and area calculations |
+| Geocoding | source, match rate, and how unmatched records were handled |
+| Spatial joins | the exact join logic (point-in-polygon, nearest, buffer radius) |
+| Distance / W construction | how the spatial weight matrix and any distance cutoffs were built |
+| Raster/aggregation | resolution, zonal-statistic method, and the aggregation to analysis units |
+
+## Confidential and proprietary spatial data
+
+- Geocoded firm or individual data are often confidential and cannot be posted. Provide instead: the **derived analysis file** where licensing allows, the **full code**, a **synthetic or simulated example dataset** so the code runs, and clear access instructions for the restricted source.
+- Note any disclosure-avoidance steps (aggregation, rounding) so a reader understands what was changed and why.
+
+## Reproducibility tooling for spatial work
+
+Spatial pipelines drift silently as upstream boundary files, projection libraries, and geocoding services change. Pin the moving parts:
+
+- Record exact versions of the geospatial stack (e.g., GDAL/PROJ, `sf`/`sp`, `geopandas`, PostGIS) — a PROJ upgrade can shift distance calculations.
+- Freeze and ship the boundary/shapefile actually used, or its exact source and vintage, rather than assuming a reader can re-download "the" boundaries.
+- Set and report random seeds anywhere simulation, bootstrap, or Conley-cutoff resampling enters.
+- Cache geocoding results (with match rates) so the pipeline does not silently re-query a changed external API.
+- Where a containerized or environment-locked setup (Docker, `renv`, conda env) is feasible, include it — spatial dependencies are the ones most likely to break on another machine.
+
+## Package contents
+
+- [ ] README mapping each table/figure/map to the script that produces it
+- [ ] Raw → analysis data pipeline scripted end to end (no manual GIS steps)
+- [ ] Spatial provenance documented (boundary vintage, CRS, geocoding, joins, W)
+- [ ] Software environment recorded (package/GIS-library versions, seeds)
+- [ ] Confidential data handled via derived file + synthetic example + access path
+- [ ] A data-availability statement drafted for the post-acceptance step
+- [ ] Code runs top-to-bottom on a clean machine and reproduces the headline numbers
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JEG without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Interactive, unscripted GIS work ("I joined these in QGIS") that no one can reproduce
+- Omitting the boundary/shapefile vintage so distances and units cannot be recreated
+- Sharing code that calls a confidential file with no synthetic stand-in to run it
+- Assuming JEG requires nothing because the policy is post-acceptance — then scrambling at acceptance
+- A README that lists files but never maps exhibits to the scripts that build them
+- Undocumented projection/CRS so distance-based results cannot be checked
+
+## Worked vignette (illustrative)
+
+A distance-decay result depends on a spatial weight matrix built from 2011-vintage NUTS-3 boundaries, but the boundaries were redrawn in 2016 and the README never says which were used. A reviewer rebuilds W with current boundaries and the decay shifts. The fix: freeze and document the boundary vintage and CRS, ship the W-construction script, and include a synthetic point dataset so the geocoding-and-join pipeline runs end to end even though the real firm coordinates are confidential. The package now reproduces the headline gradient and survives the reproducibility objection at JEG without depositing the restricted data.
+
+## How JEG differs from the AEA/QE model (and why it matters)
+
+It is tempting to import habits from journals with a mandatory Data Editor (QE, AEJ, the AER family), where a package is checked line-by-line *before* acceptance. JEG does not run that gate; the ask comes at acceptance and sharing is encouraged, not enforced. Two practical consequences:
+
+- **Do not under-prepare** on the assumption "JEG doesn't check." Referees increasingly request reproducibility, and a documented spatial pipeline is a credibility signal that pre-empts the "can this be reproduced?" objection during review.
+- **Do not over-engineer** to AEA-archive specs at submission time either — the binding work is documenting the *spatial* steps that actually break replication, not formatting to a checklist no one will run pre-acceptance.
+
+The right posture: build a referee-grade package, lead with spatial provenance, and keep the data-availability statement ready for the post-acceptance step.
 
 ## Output format
 
 ```text
 【Journal】Journal of Economic Geography
 【Skill】jegeo-replication-package
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking replication package
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Urban Economics, Regional Studies
-【Source status】verified URL / 待核实 / not asserted
+【Policy understood】post-acceptance, encouragement-based (not pre-acceptance archive)? [Y/N]
+【Spatial provenance】boundary vintage / CRS / geocoding / joins / W documented? [Y/N]
+【Pipeline】raw→analysis fully scripted, no manual GIS? [Y/N]
+【Confidential data】derived file + synthetic example + access path? [Y/N]
+【Reproducibility】runs clean and matches headline numbers? [Y/N]
 【Next skill】jegeo-referee-strategy
 ```

@@ -1,70 +1,75 @@
 ---
 name: ecopol-rebuttal
-description: Use when working on rebuttal strategy for a Economic Policy manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when responding to Economic Policy (EP) discussant comments and the panel debate — revising the paper for the camera-ready version that publishes alongside those comments. Plans the post-panel response; it does not invent evidence or citations.
 ---
 
-# Rebuttal Strategy (ecopol-rebuttal)
+# Post-Panel Rebuttal (ecopol-rebuttal)
 
 ## When to trigger
-- The manuscript is aimed at **Economic Policy (Economic Policy)** and rebuttal strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's policy-relevant economics papers written for an expert but broad policy audience standard.
-- The paper risks being confused with nearby venues: AEJ Economic Policy, Journal of Public Economics, IMF Economic Review, and World Bank Economic Review.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You have presented at an EP conference and have two discussants' written comments to address
+- You are preparing the camera-ready version that will be published *next to* those comments
+- The panel debate surfaced points that need a fix, a concession, or a counter-argument
+- A coauthor is treating discussant comments like an anonymous referee report and missing the public, side-by-side nature
+- You must decide, point by point, what to change vs. what to defend in the final text
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| policy question is central | Make the policy question assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| European policy debate is central | Make the European policy debate assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| CEPR audience is central | Make the CEPR audience assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| welfare implication is central | Make the welfare implication assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| transparent counterfactual is central | Make the transparent counterfactual assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## EP rebuttal is unusual: your reply is published next to the critique
 
-## Economic Policy fit notes
+At EP there is no private response-to-referees letter. The **two discussants' comments are published alongside your final paper**, and a summary of the panel discussion may accompany it (检索于 2026-06；以官网为准). So your "rebuttal" is mostly **the revised paper itself**: the reader will see the critique and your paper side by side and judge whether you answered it. This reshapes strategy:
 
-- Publisher / owner context: Oxford University Press / CEPR and partner institutions.
-- Submission route to re-check: OUP submission.
-- Signature vocabulary: policy question, European policy debate, CEPR audience, welfare implication, transparent counterfactual.
-- Sibling boundary: AEJ Economic Policy, Journal of Public Economics, IMF Economic Review, and World Bank Economic Review.
-- House-style aim: policy-first economics that states the decision problem, evidence, and limits plainly.
-- Official URLs currently used by the pack:
-- https://academic.oup.com/economicpolicy
-- https://academic.oup.com/economicpolicy/pages/General_Instructions
+1. **You cannot bury a concession in a private letter.** If a discussant is right, fix it in the paper or address it openly — the reader sees both documents.
+2. **Defending in the text, not in correspondence.** Where you disagree, the paper must contain the argument/evidence that answers the point, because there is no separate venue to make your case.
+3. **Tone is collegial and on the record.** Discussants are named; the exchange is part of the published scholarly conversation, not an adversarial referee fight.
 
-## Stage-specific moves
+## Triage every discussant point
 
-1. State the exact rebuttal strategy question in one sentence.
-2. Identify which Economic Policy audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `ecopol-rebuttal` if the stage passes, or back to `ecopol-workflow` if it does not.
+| Point type | Response |
+|------------|----------|
+| Correct and fixable | fix in the paper; note the improvement where natural |
+| Correct but unfixable (data/scope limit) | concede openly in the text; bound its impact on the conclusion |
+| A genuine disagreement | add the argument/evidence to the paper that answers it; acknowledge the alternative view |
+| A request beyond scope | address briefly; explain why it is a separate question |
+| A policy-framing concern | sharpen the policy bottom line / units (`ecopol-tables-figures`, `ecopol-writing-style`) |
+
+For each of the two discussants, work through every substantive point with this triage; do not cherry-pick the easy ones.
+
+## Craft moves
+
+- **Map academic vs. policy comments separately.** The academic discussant's points usually mean analysis changes (`ecopol-identification`, `ecopol-robustness`); the policy discussant's usually mean framing/magnitude/legibility changes.
+- **Strengthen the central magnitude** if either discussant questioned its robustness — that is the most damaging unanswered critique given the side-by-side format.
+- **Address the top points in the main text**, not only the appendix — the reader comparing the documents looks at the paper, not the footnotes.
+- **Be honest about what you did not change and why** — an unanswered, visible critique is worse than a frank concession.
+- **Keep the policy conclusion coherent** after revisions: if a fix moves the number, update the recommendation rather than leaving a stale headline.
 
 ## Checklist
-- [ ] The Economic Policy audience can see why the paper belongs in policy-relevant economics papers written for an expert but broad policy audience.
-- [ ] The draft distinguishes Economic Policy from AEJ Economic Policy, Journal of Public Economics, IMF Economic Review.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for rebuttal strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Every substantive point from **both** discussants triaged (fix / concede / defend / scope)
+- [ ] Corrections incorporated into the paper, not just promised
+- [ ] Genuine disagreements answered with argument/evidence *in the paper*
+- [ ] Central magnitude re-defended if its robustness was questioned
+- [ ] Top points addressed in the main text, given the side-by-side publication
+- [ ] Concessions stated openly and their impact on the conclusion bounded
+- [ ] Policy bottom line still coherent after all revisions
+- [ ] Tone collegial and on the record (discussants are named)
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Economic Policy without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Treating discussant comments like a private referee report you can answer in a hidden letter
+- Cherry-picking the easy points and silently ignoring a hard one the reader will see next to your paper
+- Defending a number a discussant credibly challenged without strengthening the robustness
+- Conceding a point in correspondence but leaving the paper unchanged
+- Leaving a stale policy recommendation after a revision moved the underlying estimate
 
 ## Output format
 
 ```text
-【Journal】Economic Policy
+【Journal】Economic Policy (EP)
 【Skill】ecopol-rebuttal
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking rebuttal strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not AEJ Economic Policy, Journal of Public Economics
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】ecopol-rebuttal
+【Format reality】discussant comments published alongside the paper
+【Discussant 1 (academic)】points → fix/concede/defend
+【Discussant 2 (policy)】points → fix/concede/defend
+【Central magnitude】re-defended if challenged? Y/N
+【Open concessions】stated in text + impact bounded? Y/N
+【Policy bottom line】still coherent post-revision? Y/N
+【Next step】finalize camera-ready → ecopol-submission (Stage 3)
 ```

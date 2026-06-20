@@ -1,70 +1,95 @@
 ---
 name: jru-literature-positioning
-description: Use when working on literature positioning for a Journal of Risk and Uncertainty manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when staking a Journal of Risk and Uncertainty (JRU) manuscript's contribution against the expected-utility-and-alternatives literature. Positions the claim within risk/uncertainty scholarship; it does not invent evidence or citations.
 ---
 
 # Literature Positioning (jru-literature-positioning)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Risk and Uncertainty (JRU)** and literature positioning is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's risk, uncertainty, decision theory, behavioral choice, insurance, and experimental evidence on risky decisions standard.
-- The paper risks being confused with nearby venues: Experimental Economics, Journal of Economic Behavior and Organization, Games and Economic Behavior, and Management Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The contribution is described as "new" but the relevant decision-theory or measurement literature is not engaged
+- A referee is likely to say "this was settled by [the prospect-theory / ambiguity / VSL literature] decades ago"
+- The paper sits between behavioral camps (EU loyalists vs. PT/RDU vs. ambiguity) and has not declared which conversation it joins
+- Citations lean on textbooks and reviews rather than the primary representations the paper builds on
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| risk preference is central | Make the risk preference assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| uncertainty attitude is central | Make the uncertainty attitude assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| prospect-theory test is central | Make the prospect-theory test assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| insurance behavior is central | Make the insurance behavior assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| experimental elicitation is central | Make the experimental elicitation assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The conversations JRU papers must locate themselves in
 
-## JRU fit notes
+JRU readers hold a precise map of the field. Position the paper on it explicitly rather than against "the literature" generically:
 
-- Publisher / owner context: Springer.
-- Submission route to re-check: Springer Nature submission.
-- Signature vocabulary: risk preference, uncertainty attitude, prospect-theory test, insurance behavior, experimental elicitation.
-- Sibling boundary: Experimental Economics, Journal of Economic Behavior and Organization, Games and Economic Behavior, and Management Science.
-- House-style aim: decision-theoretic clarity with careful measurement of risk and uncertainty.
-- Official URLs currently used by the pack:
-- https://link.springer.com/journal/11166
-- https://www.springer.com/journal/11166/submission-guidelines
+- **Expected utility and its critiques** — vNM/Savage as the benchmark; the Allais and Ellsberg paradoxes as the canonical anomalies a contribution must respect or explain.
+- **Non-EU under risk** — prospect theory and cumulative prospect theory (probability weighting, loss aversion, reference dependence); rank-dependent utility; disappointment/regret models. Say which functional family you adopt and why.
+- **Uncertainty / ambiguity** — maxmin and α-MEU, smooth ambiguity, variational and multiplier preferences, source-dependent weighting. If the paper is about *ambiguity*, it must not be positioned only against *risk* models.
+- **Measurement and elicitation** — the lineage of choice-list / multiple-price-list, BDM, and matching-probability methods, and the known biases each carries.
+- **VSL and risk valuation** — hedonic-wage and stated-preference traditions; the publication-selection / meta-analysis debates that any new VSL estimate must engage.
+- **Insurance and precaution** — demand-for-insurance puzzles, takeup under ambiguity, precautionary saving.
 
-## Stage-specific moves
+## How to stake the contribution
 
-1. State the exact literature positioning question in one sentence.
-2. Identify which JRU audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jru-identification` if the stage passes, or back to `jru-workflow` if it does not.
+1. Name the **single conversation** the paper joins and the two or three primary papers it directly extends or contradicts (primary sources, not reviews).
+2. State the gap as a property of a *primitive*: a representation that the existing models cannot generate, a measurement bias prior work conflated, an estimate prior work could not identify.
+3. Distinguish **incremental within a paradigm** (a sharper estimate of probability weighting) from **cross-paradigm** (evidence that adjudicates EU vs. PT) — JRU values both, but they need different framing and different referees.
+4. Pre-empt the "already known" objection by stating what is genuinely new relative to the closest prior result, in one sentence.
+5. Hand off to `jru-theory-model` (if the contribution is a representation) or `jru-identification` (if it is a measurement/estimate).
+
+## Citation discipline for a specialist readership
+
+JRU referees are likely to be among the authors you cite, so the bibliography is read as a map of how well you know the field — not as a formality.
+
+- **Cite the representation you use, in its original form.** If you fit cumulative prospect theory you owe the rank-dependent and sign-dependent foundations, not only a survey that mentions them.
+- **Cite the elicitation lineage.** A choice-list or BDM design should cite the methodological papers that established and critiqued the device, so the referee knows you adopted it with eyes open.
+- **Engage the inconvenient result.** If a prior paper found the opposite sign or a smaller weighting distortion, cite it and explain the difference (sample, stakes, design) — burying it invites a rejection on incomplete scholarship.
+- **Avoid review-only citations** for load-bearing claims; a review can frame, but the contribution must be located against primary work.
+
+## Worked vignette (illustrative)
+
+A draft claims to be "the first to measure ambiguity aversion in insurance choices." A JRU referee immediately recalls the ambiguity-and-insurance literature and the smooth-ambiguity tradition. The repositioned paper drops the "first" framing and instead stakes a *primitive* claim: existing estimates conflate ambiguity attitude with pessimistic beliefs, and the paper's design separates them, sharpening the ambiguity index by an identified amount. The two closest prior estimates are cited with the delta from each stated in the introduction — turning a vulnerable novelty claim into a defensible contribution.
+
+## Positioning across paradigms vs. within one
+
+The framing changes sharply depending on the ambition:
+
+- **Within a paradigm** (e.g., a sharper Prelec estimate, a cleaner VSL): position against the best prior *estimate*, lead with precision and identification, and let the contribution be "we measure X better, and here is why the old number was off."
+- **Cross-paradigm** (evidence that adjudicates EU vs. CPT, or risk vs. ambiguity): position against both camps' canonical predictions, give each its fair test, and make the discriminating prediction the centerpiece — referees will be drawn from the camp you challenge.
+- **Methodological** (a new elicitation that reveals a primitive prior devices distorted): position against the device literature, not the substantive literature, and show the old device's bias quantitatively.
+
+A common failure is writing a within-paradigm paper with cross-paradigm rhetoric ("we overturn expected utility") that the evidence cannot support — calibrate the claim to the design.
 
 ## Checklist
-- [ ] The JRU audience can see why the paper belongs in risk, uncertainty, decision theory, behavioral choice, insurance, and experimental evidence on risky decisions.
-- [ ] The draft distinguishes JRU from Experimental Economics, Journal of Economic Behavior, Organization.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for literature positioning names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] The paper declares which decision-theory conversation it joins (EU critique / non-EU risk / ambiguity / measurement / VSL / insurance)
+- [ ] The two or three closest **primary** papers are cited and the delta from each is stated
+- [ ] Ambiguity papers engage ambiguity models, not just risk models (and vice versa)
+- [ ] A new VSL or insurance estimate engages the relevant meta-analytic / selection debate
+- [ ] The contribution is framed as a property of a primitive, not as "a new context"
+- [ ] No citation is asserted that has not been verified; uncertain ones marked 待核实
+
+## Where the introduction makes the contribution land
+
+The positioning is only as strong as where it sits in the paper:
+
+- **The delta from the closest prior result belongs on page one**, in a sentence a referee can quote when recommending acceptance — not buried in a related-work section near the end.
+- **Frame the gap as a question the field already cares about**, then show prior work could not answer it for a stated reason (no design to separate u from w; no variation to separate preferences from beliefs).
+- **Acknowledge the strongest prior result fairly** before stating your advance; a generous reading of the predecessor makes your delta more credible, not less.
+
+A contribution paragraph that names the conversation, the closest two papers, the gap, and the advance — in four sentences — is what a JRU editor scans for first.
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JRU without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Citing Kahneman–Tversky or Savage as a courtesy while the actual contribution floats free of any model
+- Positioning an ambiguity paper as if Ellsberg and the smooth-ambiguity literature did not exist
+- "First to study X in country Y" framing — context novelty is not a JRU contribution by itself
+- Strawmanning EU: JRU referees include EU defenders who will punish a caricature
+- Burying the delta-from-prior-work in the discussion section instead of the introduction
 
 ## Output format
 
 ```text
 【Journal】Journal of Risk and Uncertainty
 【Skill】jru-literature-positioning
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking literature positioning
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Experimental Economics, Journal of Economic Behavior
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jru-identification
+【Verdict】well-positioned / re-anchor / under-cited
+【Conversation joined】EU critique / non-EU risk / ambiguity / measurement / VSL / insurance
+【Closest prior work】<2-3 primary papers> and the delta from each
+【Incremental vs. cross-paradigm】which, and why JRU cares
+【Source status】verified / 待核实 / not asserted
+【Next skill】jru-theory-model OR jru-identification
 ```

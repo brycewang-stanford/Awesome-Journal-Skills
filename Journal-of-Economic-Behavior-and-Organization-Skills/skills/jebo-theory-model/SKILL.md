@@ -1,70 +1,72 @@
 ---
 name: jebo-theory-model
-description: Use when working on theory and model craft for a Journal of Economic Behavior and Organization manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when a Journal of Economic Behavior & Organization (JEBO) manuscript needs a behavioral or bounded-rationality model to organize, predict, or interpret its evidence. Right-sizes theory in a pluralist journal — from a sharp testable prediction to a standalone behavioral model or agent-based simulation; it does not design the identification or build the package.
 ---
 
-# Theory and Model Craft (jebo-theory-model)
+# Behavioral Theory & Model (jebo-theory-model)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Economic Behavior and Organization (JEBO)** and theory and model craft is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's behavioral economics, organization, institutions, experiments, and decision-making outside frictionless textbook settings standard.
-- The paper risks being confused with nearby venues: Experimental Economics, Games and Economic Behavior, Management Science, and Journal of Public Economics.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A referee asks "what model rationalizes this behavior / what is the mechanism?"
+- The treatment effect is credible but its behavioral *meaning* is ambiguous
+- You have a behavioral model but it generates no prediction the experiment could falsify
+- You are building an agent-based or evolutionary model and must justify its discipline
+- You are tempted to lead with a heavy structural model and need to right-size it for JEBO
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| behavioral mechanism is central | Make the behavioral mechanism assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| institutional setting is central | Make the institutional setting assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| laboratory evidence is central | Make the laboratory evidence assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| field-experiment design is central | Make the field-experiment design assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| organizational incentives is central | Make the organizational incentives assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The JEBO theory dial
 
-## JEBO fit notes
+JEBO is pluralist: theory can be the **lead** (a behavioral/bounded-rationality model is itself the contribution) or the **support** (a model that yields the prediction an experiment tests, or interprets a reduced-form estimate). What JEBO does not reward is theory that adds notation without a **testable behavioral prediction** or a sharper interpretation. Pick the lightest tool that does the job — and whatever the weight, the model's *behavioral primitives* (preferences, beliefs, heuristics, learning rules) must be explicit and defensible, not assumed for convenience.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: behavioral mechanism, institutional setting, laboratory evidence, field-experiment design, organizational incentives.
-- Sibling boundary: Experimental Economics, Games and Economic Behavior, Management Science, and Journal of Public Economics.
-- House-style aim: mechanism-forward behavioral evidence with transparent experimental or institutional design.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization
-- https://www.elsevier.com/journals/journal-of-economic-behavior-and-organization/0167-2681/guide-for-authors
+| Theory's job | Right amount of model | Where it goes |
+|--------------|-----------------------|---------------|
+| Name the mechanism / give intuition | a few equations or a conceptual frame | short section before results |
+| Generate a sharp prediction to test | a small behavioral model with comparative statics | framework section; tested in results |
+| Map a reduced-form estimate to a behavioral parameter | sufficient-statistic / structural-behavioral link | inline derivation + appendix |
+| Lead the paper (theory is the contribution) | a full behavioral model, with at least one testable implication | main body, with a discipline section |
+| Explore emergent organizational/market behavior | agent-based / evolutionary model | main body + robustness sweeps |
 
-## Stage-specific moves
+### Making the prediction sharp (the usual JEBO sweet spot)
 
-1. State the exact theory and model craft question in one sentence.
-2. Identify which JEBO audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jebo-robustness` if the stage passes, or back to `jebo-workflow` if it does not.
+A behavioral model earns its place when it predicts something a *rational benchmark does not* — a sign, an ordering of treatments, a moderator. State the comparative static **before** the results ("the model predicts cooperation rises with γ only when monitoring is salient") so the test is a real test, not a post-hoc fit. A model whose every parameterization confirms the data predicts nothing.
+
+### Behavioral primitives, not free parameters
+
+Whether a social-preference utility (e.g., inequity aversion, reciprocity, reference dependence) or a learning rule (reinforcement, EWA, level-k / cognitive hierarchy), tie each behavioral primitive to something the design measures or the literature constrains. A "behavioral" parameter chosen only to fit the data is decoration.
+
+### Agent-based / evolutionary discipline
+
+Simulation is welcome at JEBO, but referees demand discipline: justify behavioral rules from evidence, calibrate to known moments, report parameter sweeps (handled in jebo-robustness), and distinguish robust emergent regularities from knife-edge artifacts.
 
 ## Checklist
-- [ ] The JEBO audience can see why the paper belongs in behavioral economics, organization, institutions, experiments, and decision-making outside frictionless textbook settings.
-- [ ] The draft distinguishes JEBO from Experimental Economics, Games, Economic Behavior.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for theory and model craft names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Theory's job named (mechanism / prediction / mapping / lead / emergent behavior)
+- [ ] Lightest adequate tool chosen; weight matches the journal slot
+- [ ] At least one comparative static / sign prediction stated *before* it is tested
+- [ ] Behavioral primitives (preferences/beliefs/learning rules) tied to data or literature, not free
+- [ ] If structural-behavioral: each parameter linked to a data feature; untargeted-moment check
+- [ ] If agent-based: rules justified, calibration stated, sweeps planned
+- [ ] Predictions/magnitudes carry scope and uncertainty
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JEBO without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A "model" section that adds notation but yields no testable behavioral prediction
+- Comparative statics derived *after* seeing the results (HARKing the theory)
+- A social-preference or learning parameter chosen purely to fit, with no independent discipline
+- Leading a thin empirical paper with a heavy structural model (reads as a different journal)
+- An agent-based model whose headline result is a knife-edge of untested tuning choices
+- Calling a reduced-form effect "loss aversion" with no model linking the estimate to that primitive
+
+## Worked vignette (illustrative)
+
+A within-firm field study finds output falls after a pay-cut more than it rises after an equal raise. The raw asymmetry is suggestive but ambiguous. The JEBO move: a reference-dependent effort model with the prior wage as the reference point predicts exactly this asymmetry and a *kink* at the reference wage. The paper states the kink prediction before testing, then shows effort drops ~2× as steeply below the reference as it rises above (illustrative) — turning a correlation into a mechanism-level result a reference-free model cannot produce.
 
 ## Output format
 
 ```text
-【Journal】Journal of Economic Behavior and Organization
-【Skill】jebo-theory-model
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking theory and model craft
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Experimental Economics, Games
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jebo-robustness
+【Theory's job】mechanism / prediction / mapping / lead / emergent
+【Tool chosen】frame / small behavioral model / structural-behavioral / agent-based
+【Behavioral primitives】<preferences / beliefs / learning rule> — disciplined by ___
+【Sharp prediction (pre-stated)】<sign / ordering / moderator>
+【Magnitude or interpretation delivered】[number + scope], or "prediction only"
+【Next step】jebo-robustness
 ```

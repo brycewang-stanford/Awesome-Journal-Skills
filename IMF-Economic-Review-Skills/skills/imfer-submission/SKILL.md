@@ -1,72 +1,87 @@
 ---
 name: imfer-submission
-description: Use when working on submission preflight for a IMF Economic Review manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when running the final pre-submission preflight for an IMF Economic Review (IMFER) manuscript via Editorial Manager — double-blind anonymization, italicized abstract with JEL codes, Chicago style, separate author-bio file, and the data-availability statement. Final checks; it does not draft content (imfer-writing-style) or plan the rebuttal (imfer-rebuttal).
 ---
 
 # Submission Preflight (imfer-submission)
 
 ## When to trigger
-- The manuscript is aimed at **IMF Economic Review (IMFER)** and submission preflight is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's international macroeconomics, finance, development, policy, exchange rates, sovereign risk, and IMF-relevant evidence standard.
-- The paper risks being confused with nearby venues: Journal of International Economics, JIMF, JMCB, and Economic Policy.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- "Submitting tomorrow" — last check before pressing submit on Editorial Manager
+- Unsure which files IMFER expects (anonymized main file, separate title/bio file, supplementary appendix)
+- Confirming house style: italicized abstract, JEL codes, Chicago citations, American spelling
+- Confirming the double-blind requirements are met and no author traces remain in the main file
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| international macro is central | Make the international macro assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| sovereign risk is central | Make the sovereign risk assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| capital-flow policy is central | Make the capital-flow policy assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| IMF policy audience is central | Make the IMF policy audience assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| macro-financial stability is central | Make the macro-financial stability assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Process facts (检索于 2026-06；以官网为准)
 
-## IMFER fit notes
+- IMFER is the **IMF's flagship scholarly journal**, published by **Palgrave Macmillan / Springer Nature** for the International Monetary Fund (Online via Springer Nature Link, journal 41308); successor to *IMF Staff Papers*. Submission is via the journal's **online system (Editorial Manager)** — confirm the live portal on the official page.
+- **Double-blind review:** the main article file and all table/figure files **must not contain any author-identifying information**; anonymize self-citations.
+- **Author information separate:** full contact details and author biographies go in a **separate file**; biographies **≤80 words per author**.
+- **Abstract + JEL:** the paper opens with an **italicized abstract** followed by **JEL classification codes**.
+- **Style:** essentially **The Chicago Manual of Style**; **American spelling**, punctuation, and syntax.
+- **Data & code:** prepare a data-availability statement and replication package; restricted IMF/central-bank inputs handled with access instructions, not redistribution (see `imfer-replication-package`). Confirm exact deposit requirements on the official pages — **待核实**.
+- **Fees / open access / exact length & abstract-word limits:** **待核实** — not asserted here; confirm on the Springer Nature IMFER submission-guidelines page before relying on them.
 
-- Publisher / owner context: Springer Nature for the International Monetary Fund.
-- Submission route to re-check: Springer Nature submission.
-- Signature vocabulary: international macro, sovereign risk, capital-flow policy, IMF policy audience, macro-financial stability.
-- Sibling boundary: Journal of International Economics, JIMF, JMCB, and Economic Policy.
-- House-style aim: policy-facing international macro evidence with transparent country coverage and model assumptions.
-- Official URLs currently used by the pack:
-- https://link.springer.com/journal/41308
-- https://www.springer.com/journal/41308/submission-guidelines
+## Preflight checklist
 
-## Stage-specific moves
+### Double-blind & files
+- [ ] Main article file and every table/figure file are **free of author names, affiliations, acknowledgments, and grant numbers**
+- [ ] Self-citations anonymized in text and references
+- [ ] **Separate file** with full contact details (corresponding author) and author bios **≤80 words each**
+- [ ] Supplementary / online appendix prepared as a separate file if used
+- [ ] Replication package / data-availability statement ready (restricted-data access instructions included)
 
-1. State the exact submission preflight question in one sentence.
-2. Identify which IMFER audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `imfer-rebuttal` if the stage passes, or back to `imfer-workflow` if it does not.
+### Format & house style
+- [ ] Abstract is **italicized**, compact, self-contained, with a policy-unit magnitude
+- [ ] **JEL codes** present immediately after the abstract
+- [ ] **Chicago Manual of Style** citations/references; **American spelling**
+- [ ] Figures/tables: transparent country coverage; **no significance asterisks**; SEs/CIs reported
+- [ ] Acronyms (CFM, DSA, GFC) defined on first use
 
-## Checklist
-- [ ] The IMFER audience can see why the paper belongs in international macroeconomics, finance, development, policy, exchange rates, sovereign risk, and IMF-relevant evidence.
-- [ ] The draft distinguishes IMFER from Journal of International Economics, JIMF, JMCB.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for submission preflight names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+### Substance gate (before the portal)
+- [ ] Policy "so what" explicit in intro and abstract; implication bounded to the evidence
+- [ ] Identification + country-composition checks visible in the main paper
+- [ ] Not under review elsewhere; AI not listed as an author
+
+### File-by-file upload map
+Editorial Manager expects the manuscript split across files; have them ready and correctly typed before you start the session, because the system will not let you finish without them.
+
+- **Main manuscript (anonymized PDF):** abstract (italic) + JEL + body + exhibits + references, no author traces
+- **Title / author file (separate):** title, all authors, affiliations, corresponding-author contacts, ≤80-word bios, acknowledgments, grant numbers
+- **Supplementary / online appendix (separate):** secondary proofs, reserve robustness, extended tables
+- **Replication / data-availability material:** the statement plus package or access instructions (per `imfer-replication-package`)
+- **Cover letter:** the contribution in two sentences and the policy relevance; suggested/excluded referees if invited
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to IMFER without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Submitting a main file that still names the authors or institution (breaks double-blind)
+- Putting bios/contact details in the main file instead of a separate file
+- A non-italicized abstract or missing JEL codes
+- Asterisks/boldface for significance; opaque country coverage
+- British spelling / non-Chicago references against house style
+- Asserting a fee, word limit, or deposit rule that is actually 待核实
+- Leaving acknowledgments, grant numbers, or a self-naming working-paper footnote that de-anonymizes the file
+
+## The double-blind sweep (do this last)
+
+Anonymization is the most common IMFER desk-return trigger, and it is easy to half-do. Before upload, sweep the main file and every exhibit file for: author names and initials; institutional affiliations; acknowledgments and thanks; grant and IRB numbers; "as we showed in [our prior paper]" self-references; working-paper series footnotes that name the authors; and file metadata/properties that embed the author. Self-citations should read in the third person. The title page, full contacts, and ≤80-word bios live in the *separate* file the system asks for — never in the manuscript.
+
+## Worked vignette (illustrative)
+
+A paper is otherwise ready but the PDF's first-page footnote thanks a discussant "at our department seminar," the acknowledgments name the grant, and Table 1's note says "see Smith and Lee (2024), our companion paper." All three break double-blind. The fix: move acknowledgments and the grant to the separate title file, rewrite the companion-paper note in the third person, strip PDF metadata, and confirm the abstract is italicized with JEL codes beneath it. Now the main file is clean for Editorial Manager.
 
 ## Output format
 
 ```text
 【Journal】IMF Economic Review
 【Skill】imfer-submission
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking submission preflight
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of International Economics, JIMF
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】imfer-rebuttal
+【Double-blind】main + exhibit files anonymized; self-cites blinded? [Y/N]
+【Separate file】contacts + bios (≤80 words)? [Y/N]
+【Abstract+JEL】italicized abstract + JEL codes? [Y/N]
+【House style】Chicago + American spelling; no asterisks? [Y/N]
+【Replication】data-availability statement + restricted-data access path? [Y/N]
+【Volatile facts】fees / limits / deposit rules confirmed or 待核实
+【Next step】submit via Editorial Manager → imfer-rebuttal after the decision
 ```
 
 ## Supplementary resources

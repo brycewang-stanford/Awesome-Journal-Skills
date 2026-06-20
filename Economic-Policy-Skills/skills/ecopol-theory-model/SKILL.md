@@ -1,70 +1,69 @@
 ---
 name: ecopol-theory-model
-description: Use when working on theory and model craft for a Economic Policy manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when building or tightening the conceptual frame or quantitative model that disciplines an Economic Policy (EP) manuscript's policy logic. Keeps the model minimal-but-honest and legible to a policy audience; it does not invent evidence or citations.
 ---
 
 # Theory and Model Craft (ecopol-theory-model)
 
 ## When to trigger
-- The manuscript is aimed at **Economic Policy (Economic Policy)** and theory and model craft is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's policy-relevant economics papers written for an expert but broad policy audience standard.
-- The paper risks being confused with nearby venues: AEJ Economic Policy, Journal of Public Economics, IMF Economic Review, and World Bank Economic Review.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The empirical results need a model to map estimates into a welfare or policy-cost statement
+- A quantitative/structural model runs the counterfactual policy but its mechanism is opaque to a non-specialist
+- The model is more elaborate than the policy question requires (a discussant will ask "why all this machinery?")
+- The counterfactual policy scenario is computed but the policymaker cannot see *which assumption* drives the headline number
+- Reviewers/discussants want the welfare interpretation, not just reduced-form effects
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| policy question is central | Make the policy question assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| European policy debate is central | Make the European policy debate assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| CEPR audience is central | Make the CEPR audience assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| welfare implication is central | Make the welfare implication assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| transparent counterfactual is central | Make the transparent counterfactual assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## EP's model standard: minimal, transparent, policy-bearing
 
-## Economic Policy fit notes
+EP is not a theory journal. A model earns its place only if it does policy work: it converts estimates into **welfare, fiscal cost, or distributional** statements; it disciplines a **counterfactual policy**; or it clarifies a **mechanism** that the reduced form cannot. The house style is accessible, so the model in the main text should be the **smallest model that carries the policy conclusion**, with derivations and extensions in the technical appendix. Two tests every EP model must pass:
 
-- Publisher / owner context: Oxford University Press / CEPR and partner institutions.
-- Submission route to re-check: OUP submission.
-- Signature vocabulary: policy question, European policy debate, CEPR audience, welfare implication, transparent counterfactual.
-- Sibling boundary: AEJ Economic Policy, Journal of Public Economics, IMF Economic Review, and World Bank Economic Review.
-- House-style aim: policy-first economics that states the decision problem, evidence, and limits plainly.
-- Official URLs currently used by the pack:
-- https://academic.oup.com/economicpolicy
-- https://academic.oup.com/economicpolicy/pages/General_Instructions
+1. **The transparency test.** Can a policymaker see which assumption produces the headline number, and how the number moves if that assumption changes? If the model is a black box, the policy discussant will not trust the recommendation.
+2. **The necessity test.** Remove the model — does the policy claim survive? If yes, the model is decoration; cut it to the appendix. If no, the model *is* the contribution and must be defended.
 
-## Stage-specific moves
+## Decision table: how much model does this paper need?
 
-1. State the exact theory and model craft question in one sentence.
-2. Identify which Economic Policy audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `ecopol-robustness` if the stage passes, or back to `ecopol-workflow` if it does not.
+| The paper's job | Model role | Where it lives |
+|-----------------|-----------|----------------|
+| Estimate a causal policy effect, no welfare claim | none / a one-equation framing | main text, a paragraph |
+| Turn effects into welfare or fiscal cost | a small sufficient-statistic / accounting model | main text, few equations; derivation in appendix |
+| Simulate a not-yet-enacted reform | a calibrated/estimated structural model | mechanism in main text, full model in appendix |
+| Explain a surprising mechanism | a stylized model isolating the channel | main text, deliberately minimal |
+
+## Craft moves
+
+- **Lead with the mechanism in words**, then formalize. The policy reader should grasp the channel before seeing a single equation.
+- **Expose the key elasticity / sufficient statistic.** EP readers want to know "the answer depends mostly on parameter θ, which we estimate / take from the literature as X." Make θ visible and its source explicit.
+- **Show the counterfactual's sensitivity** to the one or two assumptions that matter, in the main text — this is what a policymaker actually needs.
+- **Calibration discipline:** every calibrated parameter gets a source and a sensitivity range; "standard values" without citation invites a discussant takedown.
+- **Welfare framing:** state whose welfare, under what social objective, and what is omitted (distributional incidence, GE feedback, political constraints).
 
 ## Checklist
-- [ ] The Economic Policy audience can see why the paper belongs in policy-relevant economics papers written for an expert but broad policy audience.
-- [ ] The draft distinguishes Economic Policy from AEJ Economic Policy, Journal of Public Economics, IMF Economic Review.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for theory and model craft names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] The model passes the necessity test — without it the policy claim would not hold
+- [ ] The mechanism is stated in plain words before formalization
+- [ ] The key elasticity / sufficient statistic is named, sourced, and its value justified
+- [ ] Counterfactual policy sensitivity to the one or two driving assumptions is shown in the main text
+- [ ] Every calibrated parameter has a source and a sensitivity range
+- [ ] Welfare/cost claims state whose welfare, the objective, and what is omitted
+- [ ] Heavy derivations are in the technical appendix, not crowding the main text
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Economic Policy without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A general-equilibrium apparatus where a one-line sufficient-statistic argument would do — over-modeling for a policy audience
+- A black-box structural model whose headline number the reader cannot trace to an assumption
+- "Standard calibration" with no citations and no sensitivity range
+- A welfare statement that hides the distributional incidence a policymaker most cares about
+- Model derivations dominating the main text and burying the policy message
 
 ## Output format
 
 ```text
-【Journal】Economic Policy
+【Journal】Economic Policy (EP)
 【Skill】ecopol-theory-model
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking theory and model craft
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not AEJ Economic Policy, Journal of Public Economics
-【Source status】verified URL / 待核实 / not asserted
+【Model role】framing / welfare-accounting / structural-counterfactual / mechanism
+【Necessity test】does the policy claim need the model? Y/N
+【Key parameter】θ = <value> (source) ; headline sensitivity to θ
+【Welfare framing】whose welfare / objective / what is omitted
+【Main-text vs appendix】what stays / what moves to appendix
 【Next skill】ecopol-robustness
 ```

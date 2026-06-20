@@ -1,70 +1,71 @@
 ---
 name: jebo-tables-figures
-description: Use when working on tables and figures for a Journal of Economic Behavior and Organization manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when a Journal of Economic Behavior & Organization (JEBO) manuscript's exhibits must make a behavioral comparison legible — treatment bar charts, by-round dynamics, distribution plots, regression tables. Builds exhibits that show the mechanism; it does not run the analysis or write the prose.
 ---
 
-# Tables and Figures (jebo-tables-figures)
+# Tables & Figures (jebo-tables-figures)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Economic Behavior and Organization (JEBO)** and tables and figures is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's behavioral economics, organization, institutions, experiments, and decision-making outside frictionless textbook settings standard.
-- The paper risks being confused with nearby venues: Experimental Economics, Games and Economic Behavior, Management Science, and Journal of Public Economics.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Treatment differences are buried in a wall-of-coefficients regression table
+- A reader cannot see the behavioral effect without reading the surrounding paragraph
+- Experimental dynamics (learning over rounds, by-period contributions) are not visualized
+- The figure shows means but hides the *distribution* the behavioral story depends on
+- You are unsure whether significance markers belong in a JEBO exhibit
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| behavioral mechanism is central | Make the behavioral mechanism assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| institutional setting is central | Make the institutional setting assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| laboratory evidence is central | Make the laboratory evidence assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| field-experiment design is central | Make the field-experiment design assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| organizational incentives is central | Make the organizational incentives assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## What a JEBO exhibit must do
 
-## JEBO fit notes
+The reader should see the **behavioral comparison** — treatment vs. control, by group or over time — before reading a word of text. JEBO's experimental core makes a few exhibit types load-bearing:
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: behavioral mechanism, institutional setting, laboratory evidence, field-experiment design, organizational incentives.
-- Sibling boundary: Experimental Economics, Games and Economic Behavior, Management Science, and Journal of Public Economics.
-- House-style aim: mechanism-forward behavioral evidence with transparent experimental or institutional design.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization
-- https://www.elsevier.com/journals/journal-of-economic-behavior-and-organization/0167-2681/guide-for-authors
+- **Treatment-comparison plot.** Bar/dot plot of the outcome by treatment with confidence intervals; the headline contrast is the visual focus, not a footnote.
+- **Dynamics plot.** For repeated games / multi-round experiments, plot the outcome by period and treatment so learning, decay, or convergence is visible (the round-by-round graph is a JEBO signature).
+- **Distribution plot.** Where the mechanism is about heterogeneity (e.g., types, bimodality of contributions), show the full distribution (CDF, histogram, or beeswarm), not just the mean — a difference in means can hide a difference in shape.
+- **Regression table.** Used to *support* the figure, with the design-relevant comparison up top, clustered SEs, and pre-registered/primary specification flagged.
 
-## Stage-specific moves
+## Exhibit decisions by what the result is about
 
-1. State the exact tables and figures question in one sentence.
-2. Identify which JEBO audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jebo-writing-style` if the stage passes, or back to `jebo-workflow` if it does not.
+| The behavioral claim is about… | Lead exhibit | Common mistake |
+|--------------------------------|--------------|----------------|
+| A level difference across treatments | bar/dot plot with CIs | a 6-column table where the contrast is row 4 |
+| Change over repeated interaction | by-period line plot per treatment | reporting only the pooled average |
+| Heterogeneity / types | distribution / CDF / beeswarm | a single mean hiding bimodality |
+| A predicted ordering of arms | ordered plot matching the model's prediction | unordered table that obscures the ranking |
+| A structural/behavioral estimate | parameter plot with CIs + fit overlay | a table of parameters with no fit visualization |
+
+## House-style and Elsevier mechanics
+
+- **Confidence intervals over bare asterisks.** Show SEs/CIs; let the reader judge. (Elsevier permits significance stars, but a behavioral comparison is far more persuasive shown as overlapping/non-overlapping intervals; reserve any asterisks for support tables, never as the sole evidence.)
+- Self-contained captions: a referee should understand the exhibit without the body text — define treatment, unit, sample, error-bar meaning, and n.
+- Figures legible in **grayscale** (Elsevier print) — use patterns/markers, not color alone.
+- Report **n per cell** and the unit of observation (subject vs. subject-period vs. session); cluster the inference accordingly.
+- Number tables/figures and place near first mention; high-resolution vector figures per Elsevier artwork specs (检索于 2026-06；以官网为准).
 
 ## Checklist
-- [ ] The JEBO audience can see why the paper belongs in behavioral economics, organization, institutions, experiments, and decision-making outside frictionless textbook settings.
-- [ ] The draft distinguishes JEBO from Experimental Economics, Games, Economic Behavior.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for tables and figures names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] The headline behavioral comparison is visible in the lead figure before any prose
+- [ ] Repeated-interaction results have a by-period plot per treatment
+- [ ] Heterogeneity claims show the distribution, not only the mean
+- [ ] Confidence intervals shown; significance stars are not the only evidence
+- [ ] Captions are self-contained (treatment, unit, n, error-bar definition)
+- [ ] Figures readable in grayscale; n-per-cell and clustering level reported
+- [ ] Exhibit ordering matches the model's predicted ordering where one exists
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JEBO without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- The main treatment effect appearing only as a coefficient in a dense table
+- A bar of means concealing a bimodal contribution distribution
+- Asterisks doing all the persuasive work with no CIs
+- Color-only figures that collapse in grayscale print
+- Captions that require the body text to interpret
+- Reporting subject-period n as if it were independent subjects (wrong clustering)
 
 ## Output format
 
 ```text
-【Journal】Journal of Economic Behavior and Organization
-【Skill】jebo-tables-figures
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking tables and figures
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Experimental Economics, Games
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jebo-writing-style
+【Lead exhibit】treatment-comparison / by-period dynamics / distribution / parameter plot
+【What it shows at a glance】<the behavioral contrast>
+【Inference shown】CIs / SEs (asterisks support-only)
+【Unit + n per cell】<subject / subject-period / session>; clustering:
+【Grayscale-safe + self-contained caption】[Y/N]
+【Next step】jebo-writing-style
 ```

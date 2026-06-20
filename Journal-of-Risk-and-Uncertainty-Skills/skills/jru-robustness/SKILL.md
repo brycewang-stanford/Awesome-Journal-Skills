@@ -1,70 +1,91 @@
 ---
 name: jru-robustness
-description: Use when working on robustness strategy for a Journal of Risk and Uncertainty manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when a Journal of Risk and Uncertainty (JRU) result may be sensitive to specification, incentive frame, sample, or inference. Organizes robustness by the threat to the risk/uncertainty parameter; it does not invent evidence or citations.
 ---
 
 # Robustness Strategy (jru-robustness)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Risk and Uncertainty (JRU)** and robustness strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's risk, uncertainty, decision theory, behavioral choice, insurance, and experimental evidence on risky decisions standard.
-- The paper risks being confused with nearby venues: Experimental Economics, Journal of Economic Behavior and Organization, Games and Economic Behavior, and Management Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The headline risk/ambiguity parameter shifts under a different functional form (CRRA vs. CARA vs. expo-power) and you are unsure which to report
+- An experimental result might be an artifact of stakes, order, the random-incentive system, or a particular elicitation device
+- A referee will ask whether the finding survives EU vs. non-EU specifications, or pooled vs. heterogeneous-type estimation
+- Multiple hypotheses are tested across many lottery menus or treatments and no correction is in place
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| risk preference is central | Make the risk preference assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| uncertainty attitude is central | Make the uncertainty attitude assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| prospect-theory test is central | Make the prospect-theory test assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| insurance behavior is central | Make the insurance behavior assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| experimental elicitation is central | Make the experimental elicitation assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Organize robustness by threat, not by appendix
 
-## JRU fit notes
+A JRU robustness section earns its place when every check is tied to a **specific threat to the parameter's interpretation**. List the threats first, then the check that answers each.
 
-- Publisher / owner context: Springer.
-- Submission route to re-check: Springer Nature submission.
-- Signature vocabulary: risk preference, uncertainty attitude, prospect-theory test, insurance behavior, experimental elicitation.
-- Sibling boundary: Experimental Economics, Journal of Economic Behavior and Organization, Games and Economic Behavior, and Management Science.
-- House-style aim: decision-theoretic clarity with careful measurement of risk and uncertainty.
-- Official URLs currently used by the pack:
-- https://link.springer.com/journal/11166
-- https://www.springer.com/journal/11166/submission-guidelines
+| Threat to the result | The check that addresses it |
+|----------------------|-----------------------------|
+| Functional-form dependence of the risk parameter | Re-estimate under CRRA, CARA, expo-power; report whether the *qualitative* claim is stable |
+| Utility–weighting confound | Show the result holds under a model that separates u from w (e.g., RDU/CPT, not just EU) |
+| Elicitation-device artifact | Replicate the pattern with a second device (price list vs. BDM vs. matching probabilities) |
+| Random-incentive / isolation failure | Compare one-shot-paid vs. all-paid; test for portfolio/house-money effects |
+| Stake / hypothetical-bias sensitivity | Vary real stakes; compare to hypothetical where relevant |
+| Subject heterogeneity masked by pooling | Estimate a mixture / finite-type model or random coefficients, not just a representative agent |
+| Multiple comparisons across menus/treatments | Adjust (e.g., Holm / Romano–Wolf) and report which results survive |
+| Inference too optimistic | Cluster at the subject level; report with few-cluster corrections where needed |
 
-## Stage-specific moves
+For VSL / insurance empirics, add: alternative risk measures, sample-selection probes, and sensitivity to the publication-selection / meta-analytic benchmark.
 
-1. State the exact robustness strategy question in one sentence.
-2. Identify which JRU audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jru-tables-figures` if the stage passes, or back to `jru-workflow` if it does not.
+## Sequencing
+
+1. Rank threats by how badly each would damage the headline claim if true.
+2. Run the check that kills the most dangerous threat first; if the result dies there, stop and rethink before polishing anything.
+3. Report robustness as "the *sign and rough magnitude* of [parameter] is stable across [family]," not "Table A12 shows similar results."
+4. Distinguish checks that the **design** demands (incentive-frame tests for experiments) from generic ones (alternate clustering).
+5. Hand off to `jru-tables-figures` once the parameter is stable across the threats that matter.
 
 ## Checklist
-- [ ] The JRU audience can see why the paper belongs in risk, uncertainty, decision theory, behavioral choice, insurance, and experimental evidence on risky decisions.
-- [ ] The draft distinguishes JRU from Experimental Economics, Journal of Economic Behavior, Organization.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for robustness strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Every robustness exhibit names the threat it addresses
+- [ ] The risk parameter is shown stable across at least two functional forms
+- [ ] A model that separates utility from probability weighting is among the specifications
+- [ ] Experiments: incentive-frame, stake, and order effects probed; second elicitation device where feasible
+- [ ] Heterogeneity addressed (mixture / random coefficients) rather than masked by a representative agent
+- [ ] Multiple-comparison adjustment applied when many menus/treatments are tested
+- [ ] Inference clusters at the subject (or assignment) level; few-cluster issue handled
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JRU without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A robustness appendix that is a pile of tables with no map from threat to check
+- Reporting only the functional form that gives the cleanest number
+- Treating an EU-only robustness suite as sufficient when the claim is about non-EU behavior
+- Pooling across heterogeneous subjects and presenting the average as if it were a type
+- Mining many lottery menus and reporting the significant ones without correction
+
+## Distinguish robustness from a specification search
+
+JRU referees draw a sharp line between *probing a result* and *searching for one*. Stay on the right side of it:
+
+- **Pre-commit the headline specification** and present alternatives as deviations from it, not as a menu you chose among.
+- **Report all the forms you ran**, including the ones where the estimate weakened — selective reporting reads as a fishing expedition to a specialist.
+- **State the decision rule** for when the result "survives": e.g., the sign holds and the magnitude stays within a stated band across forms and devices.
+- For experiments, distinguish **pre-registered** confirmatory checks from exploratory ones, and label them as such.
+
+## Robustness the experiment specifically demands
+
+Lab and field elicitation papers carry threats that generic econometric robustness misses:
+
+- **Comprehension and noise:** show the result is not driven by subjects who failed comprehension checks; consider a trembling-hand / Fechner noise term rather than dropping "irrational" subjects.
+- **Incentive realism:** compare real vs. hypothetical, and high vs. low stakes, where the claim depends on it.
+- **Within-subject consistency:** report test-retest or internal consistency for the elicited parameter.
+
+## Worked vignette (illustrative)
+
+A paper reports loss aversion λ ≈ 2.1 from a choice-list experiment. The most dangerous threat is that λ is an artifact of the **list format** (multiple switching, framing). The first check replicates the estimate with a second device (matching probabilities); the second re-estimates under CPT vs. a reference-dependent EU baseline; the third splits by a mixture model to confirm λ is not driven by a confused minority. Only after λ survives all three — with the across-device range reported in full — does the paper present it as the headline in `jru-tables-figures`.
 
 ## Output format
 
 ```text
 【Journal】Journal of Risk and Uncertainty
 【Skill】jru-robustness
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking robustness strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Experimental Economics, Journal of Economic Behavior
-【Source status】verified URL / 待核实 / not asserted
+【Verdict】robust / patch / result fragile
+【Top threat】<the check that would most damage the claim>
+【Threat→check map】<list>
+【Parameter stability】sign+magnitude across <families/devices>
+【Heterogeneity】mixture / random coefficients / not addressed
+【Source status】verified / 待核实 / not asserted
 【Next skill】jru-tables-figures
 ```

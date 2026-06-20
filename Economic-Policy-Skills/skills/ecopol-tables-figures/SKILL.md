@@ -1,70 +1,72 @@
 ---
 name: ecopol-tables-figures
-description: Use when working on tables and figures for a Economic Policy manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when an Economic Policy (EP) manuscript's exhibits are too technical for a policy reader or do not carry the policy message. Redesigns tables and figures for the EP dual audience; it does not invent evidence or citations.
 ---
 
 # Tables and Figures (ecopol-tables-figures)
 
 ## When to trigger
-- The manuscript is aimed at **Economic Policy (Economic Policy)** and tables and figures is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's policy-relevant economics papers written for an expert but broad policy audience standard.
-- The paper risks being confused with nearby venues: AEJ Economic Policy, Journal of Public Economics, IMF Economic Review, and World Bank Economic Review.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A minister or central-bank reader could not extract the policy takeaway from your main exhibit
+- Tables are dense regression dumps with every coefficient and three sets of stars
+- The key magnitude is buried in a coefficient cell rather than shown as a headline effect
+- Figures lack the context (units, baseline, policy threshold) a non-economist needs
+- You are choosing which exhibits go in the accessible main text vs. the technical appendix
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| policy question is central | Make the policy question assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| European policy debate is central | Make the European policy debate assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| CEPR audience is central | Make the CEPR audience assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| welfare implication is central | Make the welfare implication assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| transparent counterfactual is central | Make the transparent counterfactual assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## EP exhibits serve two readers — design for the harder one
 
-## Economic Policy fit notes
+EP is read by economists **and** policymakers, and presented to two discussants. The main-text exhibits must be legible to the policy reader; the regression machinery belongs in the appendix. The governing principle: **lead with figures that show the policy effect, demote dense tables to the appendix.** A good EP figure answers the policy question by itself — an event-study plot of the reform's effect over time, a map of treated regions, a bar of the welfare/cost decomposition — with a caption a non-specialist can read standalone.
 
-- Publisher / owner context: Oxford University Press / CEPR and partner institutions.
-- Submission route to re-check: OUP submission.
-- Signature vocabulary: policy question, European policy debate, CEPR audience, welfare implication, transparent counterfactual.
-- Sibling boundary: AEJ Economic Policy, Journal of Public Economics, IMF Economic Review, and World Bank Economic Review.
-- House-style aim: policy-first economics that states the decision problem, evidence, and limits plainly.
-- Official URLs currently used by the pack:
-- https://academic.oup.com/economicpolicy
-- https://academic.oup.com/economicpolicy/pages/General_Instructions
+Note on house style: EP applies its template and copyediting at the commissioning/production stage, and authors receive style guidance on commissioning (检索于 2026-06；以官网为准). All figures should carry **alternative text (alt text)** for accessibility (检索于 2026-06；以官网为准). Confirm exact figure-format and table-style rules in the live author guidelines.
 
-## Stage-specific moves
+## Main-text vs. appendix split
 
-1. State the exact tables and figures question in one sentence.
-2. Identify which Economic Policy audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `ecopol-writing-style` if the stage passes, or back to `ecopol-workflow` if it does not.
+| Exhibit | Where it belongs |
+|---------|------------------|
+| Headline policy effect (event study, treatment effect over time) | main-text figure |
+| Magnitude in policy-meaningful units (€, jobs, % of GDP) | main-text figure/table |
+| Welfare / fiscal-cost decomposition | main-text figure |
+| Full regression table with all controls and specifications | appendix |
+| Robustness grid across specifications | compact summary in main text; full grid in appendix |
+| Balance / first-stage / density diagnostics | appendix |
+
+## Craft moves for the policy reader
+
+- **Translate units.** Show effects as €, jobs, percentage-points of GDP, or per-capita — not just a standardized coefficient. The policymaker thinks in outcomes, not z-scores.
+- **Put the baseline in the figure.** An effect of "−0.08" is meaningless without "relative to a baseline of 0.40." Annotate it.
+- **One message per figure.** If a figure makes two points, split it. Caption states the single takeaway.
+- **Drop significance asterisks from the headline story.** Show the point estimate and a visible confidence interval; let the policy reader see precision directly rather than decoding stars.
+- **Mark the policy object on the plot** — the reform date, the eligibility threshold, the counterfactual path — so the design is visible.
+- **Tables: only the coefficients that matter** in the main text; full controls in the appendix.
 
 ## Checklist
-- [ ] The Economic Policy audience can see why the paper belongs in policy-relevant economics papers written for an expert but broad policy audience.
-- [ ] The draft distinguishes Economic Policy from AEJ Economic Policy, Journal of Public Economics, IMF Economic Review.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for tables and figures names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] At least one main-text figure that conveys the policy effect standalone
+- [ ] Effects shown in policy-meaningful units, with the baseline annotated
+- [ ] Confidence intervals visible; headline message not asterisk-dependent
+- [ ] Policy object (reform date / threshold / counterfactual) marked on relevant figures
+- [ ] Dense regression tables and diagnostics moved to the appendix
+- [ ] Each figure has a standalone, non-technical caption (and alt text per accessibility policy — 待核实 on exact spec)
+- [ ] One message per exhibit; no two-point figures
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Economic Policy without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A main-text table of 20 coefficients × 6 columns that no policymaker will read
+- Reporting effects only as standardized/log coefficients with no real-world units
+- Three tiers of significance stars carrying the headline instead of a shown CI
+- Figures with no baseline, no units, and no marked policy event
+- Leaving the single most policy-relevant exhibit in the appendix while the main text shows diagnostics
 
 ## Output format
 
 ```text
-【Journal】Economic Policy
+【Journal】Economic Policy (EP)
 【Skill】ecopol-tables-figures
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking tables and figures
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not AEJ Economic Policy, Journal of Public Economics
-【Source status】verified URL / 待核实 / not asserted
+【Headline figure】does it convey the policy effect standalone? Y/N
+【Units】effect expressed in € / jobs / %GDP / per-capita?
+【Baseline + policy object】annotated on figure? Y/N
+【Precision】CI shown (not asterisk-driven)? Y/N
+【Main-text vs appendix】what moved to appendix
+【Accessibility】alt text / format per guidelines (待核实 exact spec)
 【Next skill】ecopol-writing-style
 ```

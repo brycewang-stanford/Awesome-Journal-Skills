@@ -1,70 +1,74 @@
 ---
 name: ecopol-topic-selection
-description: Use when working on topic selection for a Economic Policy manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when judging whether a topic is a timely, important policy question the Economic Policy (EP) Panel would commission and want to debate. Tests Panel-worthiness and policy timeliness; it does not invent evidence or citations.
 ---
 
 # Topic Selection (ecopol-topic-selection)
 
 ## When to trigger
-- The manuscript is aimed at **Economic Policy (Economic Policy)** and topic selection is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's policy-relevant economics papers written for an expert but broad policy audience standard.
-- The paper risks being confused with nearby venues: AEJ Economic Policy, Journal of Public Economics, IMF Economic Review, and World Bank Economic Review.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You are deciding whether a question is worth pitching to *Economic Policy* or developing for a possible commission
+- A coauthor asks "is this an EP paper, or a field-journal paper dressed up as policy?"
+- The topic is technically interesting but you cannot name the **decision** a policymaker faces
+- The question risks reading as last decade's debate rather than a live European/global policy issue
+- You need to know which of the two likely discussants (academic vs. policy) would find it worth their time
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| policy question is central | Make the policy question assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| European policy debate is central | Make the European policy debate assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| CEPR audience is central | Make the CEPR audience assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| welfare implication is central | Make the welfare implication assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| transparent counterfactual is central | Make the transparent counterfactual assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The EP topic bar: would the Panel commission this?
 
-## Economic Policy fit notes
+Since the 2025 relaunch, EP is **commissioned and online-only** — the Managing Editor invites papers on the journal's thematic priorities; unsolicited papers are not accepted (检索于 2026-06；以官网为准). In practice the realistic route is to **become the obvious person to commission**: circulate a working draft, pitch the Managing Editor, or get visible inside the CEPR/CESifo/Sciences Po networks. So topic selection is really *Panel selection*: would the Panel put this in front of two discussants and a room of economists and policymakers?
 
-- Publisher / owner context: Oxford University Press / CEPR and partner institutions.
-- Submission route to re-check: OUP submission.
-- Signature vocabulary: policy question, European policy debate, CEPR audience, welfare implication, transparent counterfactual.
-- Sibling boundary: AEJ Economic Policy, Journal of Public Economics, IMF Economic Review, and World Bank Economic Review.
-- House-style aim: policy-first economics that states the decision problem, evidence, and limits plainly.
-- Official URLs currently used by the pack:
-- https://academic.oup.com/economicpolicy
-- https://academic.oup.com/economicpolicy/pages/General_Instructions
+A topic clears the EP bar when it satisfies all four:
 
-## Stage-specific moves
+1. **Timely and live.** There is a current policy decision, reform, or debate on the table — not a settled question. EP's subtitle is *Papers on European and Global Issues*; a European or global policy hook is a strong signal.
+2. **Important.** The stakes are first-order — money, welfare, institutions — large enough that a finance ministry or central bank would care about the answer.
+3. **Tractable with credible evidence.** There is identifying variation or a disciplined model that can actually answer it, not just describe it.
+4. **A clear decision-relevant takeaway.** You can state, in one sentence, what a policymaker should do (or stop doing, or reconsider) if your result holds.
 
-1. State the exact topic selection question in one sentence.
-2. Identify which Economic Policy audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `ecopol-literature-positioning` if the stage passes, or back to `ecopol-workflow` if it does not.
+## Branch by what kind of policy question it is
+
+| If the question is… | The Panel will want… | The desk-reject risk |
+|---------------------|----------------------|----------------------|
+| Evaluation of an enacted policy | a credible counterfactual + a magnitude that matters | "interesting estimate, no policy lever" |
+| A proposed/forthcoming reform | a forward-looking, model-disciplined projection with stated assumptions | "speculation without discipline" |
+| A macro/fiscal/monetary diagnosis | timeliness + a number a central bank/ministry can act on | "commentary, not a paper" |
+| A cross-country / EU-institutional issue | comparable data + a genuinely European/global "so what" | "one-country study with EU branding bolted on" |
+
+## How to sharpen a weak topic
+
+- Write the **headline policy sentence first**: "Policy X raised/lowered Y by Z; therefore a policymaker should ___." If you cannot fill the blank, it is not yet an EP topic.
+- Identify the **two audiences** in the panel room: name the academic discussant's subfield and the policy discussant's institution. A topic that excites only one is at risk.
+- Pressure-test timeliness: is the decision being made now, or did it close? EP rewards papers that arrive while the debate is open.
+- Separate the *novel finding* from the *novel question*. EP can reward a sharp answer to an old question if the policy moment is live, but the policy relevance must be unmistakable.
 
 ## Checklist
-- [ ] The Economic Policy audience can see why the paper belongs in policy-relevant economics papers written for an expert but broad policy audience.
-- [ ] The draft distinguishes Economic Policy from AEJ Economic Policy, Journal of Public Economics, IMF Economic Review.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for topic selection names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] One-sentence headline that names a policy decision and a magnitude
+- [ ] The question is live — a current European or global policy debate, not a closed one
+- [ ] Stakes are first-order; a ministry/central bank/Commission would care about the answer
+- [ ] There is credible identifying variation or a disciplined model, not just description
+- [ ] Both panel personas (academic + policy discussant) would find it worth debating
+- [ ] It is distinguishable from an AEJ:EP / J.Pub.E. field paper — the policy decision, not the method, is the point
+- [ ] Process facts (commissioned-only, online-only) cited from `resources/official-source-map.md` or marked 待核实
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Economic Policy without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A clean estimate with **no policy lever** — EP is not a field journal that rewards identification for its own sake
+- A topic pitched purely to economists, ignoring the policy discussant who will be in the room
+- Branding a single-country study as "European" without a comparative or institutional payoff
+- Reviving a settled debate with no live decision attached
+- Assuming you can submit unsolicited — confirm the commissioning route (检索于 2026-06；以官网为准)
+- Inventing editor names, conference dates, or fees instead of marking 待核实
 
 ## Output format
 
 ```text
-【Journal】Economic Policy
+【Journal】Economic Policy (EP)
 【Skill】ecopol-topic-selection
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking topic selection
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not AEJ Economic Policy, Journal of Public Economics
-【Source status】verified URL / 待核实 / not asserted
+【Headline policy sentence】<decision + magnitude + recommendation>
+【Timeliness】live debate? (which current policy decision)
+【Panel personas】academic discussant subfield / policy discussant institution
+【Verdict】Panel-worthy / sharpen / reroute to field journal
+【Sibling boundary】why EP not AEJ:EP / Brookings / J.Pub.E.
+【Source status】verified URL / 待核实
 【Next skill】ecopol-literature-positioning
 ```

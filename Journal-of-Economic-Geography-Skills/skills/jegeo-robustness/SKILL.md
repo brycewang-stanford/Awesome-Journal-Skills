@@ -1,70 +1,96 @@
 ---
 name: jegeo-robustness
-description: Use when working on robustness strategy for a Journal of Economic Geography manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when results for a Journal of Economic Geography (JEG) manuscript may be sensitive to spatial scale, the weight matrix, spatial autocorrelation, sample, or specification. Organizes robustness by spatial threat; it does not invent results.
 ---
 
 # Robustness Strategy (jegeo-robustness)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Economic Geography (JEG)** and robustness strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's economic geography, spatial economics, regional development, innovation clusters, trade, and place-based policy standard.
-- The paper risks being confused with nearby venues: Journal of Urban Economics, Regional Studies, Economic Geography, and Journal of International Economics.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The headline result might flip at a different spatial scale (region vs. commuting zone vs. grid cell)
+- A spatial-econometric model's results depend on the chosen spatial weight matrix W
+- Standard errors ignore spatial correlation across units, so inference is overstated
+- Reviewers may suspect the effect is driven by a few large regions, a boundary artifact, or one definition of the spatial unit
+- You have a long appendix of checks with no story about which threat each one answers
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| spatial clustering is central | Make the spatial clustering assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| regional divergence is central | Make the regional divergence assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| place-based policy is central | Make the place-based policy assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| network geography is central | Make the network geography assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| innovation ecosystem is central | Make the innovation ecosystem assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The spatial robustness threats unique to JEG
 
-## JEG fit notes
+Most JEG robustness work is not generic — it answers threats that arise *because the data are spatial*. Organize by threat, not by a mechanical list, and lead with the spatial ones because that is where both communities probe hardest.
 
-- Publisher / owner context: Oxford University Press.
-- Submission route to re-check: OUP / ScholarOne submission.
-- Signature vocabulary: spatial clustering, regional divergence, place-based policy, network geography, innovation ecosystem.
-- Sibling boundary: Journal of Urban Economics, Regional Studies, Economic Geography, and Journal of International Economics.
-- House-style aim: spatial economic argument that combines maps, mechanisms, and regional theory.
-- Official URLs currently used by the pack:
-- https://academic.oup.com/joeg
-- https://academic.oup.com/joeg/pages/General_Instructions
+| Threat | What a referee fears | The check that answers it |
+|--------|----------------------|---------------------------|
+| **Modifiable Areal Unit Problem (MAUP)** | the result is an artifact of how space was carved into units | re-estimate at ≥2 spatial scales / aggregations; show the effect survives |
+| **Spatial weight matrix sensitivity** | W was reverse-engineered to fit | vary W (contiguity, k-nearest, distance-decay, economic distance); report the spread |
+| **Spatial autocorrelation in errors** | inference is overstated; "significance" is spurious | Conley spatial-HAC SEs over a range of cutoff distances; Moran's I on residuals |
+| **Spatial spillovers / SUTVA** | the effect leaks into "control" units | ring/donut specs; spatial-lag or SDM models; bound the leakage |
+| **Boundary / edge effects** | border units behave differently | drop border units; buffer zones; alternative boundary definitions |
+| **Driven by a few places** | one metro or region carries the result | leave-one-region-out; jackknife the largest units |
+| **Scale-dependent mechanism** | the mechanism only "works" at one resolution | show the sign/magnitude pattern is coherent across scales |
 
-## Stage-specific moves
+## Sequencing the robustness section
 
-1. State the exact robustness strategy question in one sentence.
-2. Identify which JEG audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jegeo-tables-figures` if the stage passes, or back to `jegeo-workflow` if it does not.
+1. **Spatial-scale / MAUP first** — if the result is scale-fragile, nothing else matters. Show it holds (or is honestly bounded) across aggregations.
+2. **Inference next** — Conley SEs and residual Moran's I; this is where overclaiming dies at JEG.
+3. **Spillovers / spatial model** — the SDM/SAR/SEM choice should be motivated by the mechanism, not run for completeness; report direct vs. indirect (spillover) effects if you use a spatial-lag model.
+4. **Sample / influence** — leave-one-region-out, alternative samples, outlier regions.
+5. **Specification** — alternative controls, functional form — last, and brief.
+
+Each robustness exhibit should answer "which threat does this kill?" in its title or note.
+
+## The two robustness checks JEG referees ask for most
+
+Across submissions, two requests recur so reliably that strong authors pre-empt them in the first version:
+
+1. **"Show it at another spatial scale."** Have the alternative-aggregation result ready (commuting zone if you used regions, or a finer grid), and report the attenuation honestly. This is the MAUP defense and it is almost always asked.
+2. **"Are your standard errors honest about spatial correlation?"** Have Conley SEs over a few cutoff distances plus a residual Moran's I in hand. Reviewers from the economics side treat the absence of this as a reason to discount every t-statistic.
+
+Building both before submission converts two likely R&R demands into evidence of rigor — and, if either weakens the result, you would far rather discover it yourself than have a referee surface it.
 
 ## Checklist
-- [ ] The JEG audience can see why the paper belongs in economic geography, spatial economics, regional development, innovation clusters, trade, and place-based policy.
-- [ ] The draft distinguishes JEG from Journal of Urban Economics, Regional Studies, Economic Geography.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for robustness strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] MAUP confronted: result shown across ≥2 spatial scales or aggregations
+- [ ] Spatial weight matrix W varied; sensitivity of the estimate reported
+- [ ] Spatial autocorrelation in errors addressed (Conley SEs over cutoffs; residual Moran's I)
+- [ ] Spillovers/SUTVA: spatial-lag/SDM or ring spec; direct vs. indirect effects if relevant
+- [ ] Boundary/edge effects checked
+- [ ] Leave-one-region-out / influence of the largest units shown
+- [ ] Every robustness exhibit is labeled by the threat it answers, not "Appendix Table A7"
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JEG without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A single spatial scale with no MAUP check, presented as if the unit were natural
+- One spatial weight matrix, never varied, with results that depend on it
+- Default or one-way-clustered SEs when residuals are visibly spatially correlated
+- A spatial-lag model run only to look sophisticated, with indirect effects never interpreted
+- A 15-table robustness appendix with no mapping from check to identifying threat
+- Hiding a scale-fragile result by reporting only the scale where it is significant
+
+## Worked vignette (illustrative)
+
+A cluster-productivity result is significant at the NUTS-3 region level with region-clustered SEs. A referee asks two spatial questions: does it survive at the commuting-zone scale (MAUP), and are the SEs honest given that adjacent regions co-move? Re-aggregating to commuting zones, the point estimate holds but attenuates ~20%; Conley SEs at a 100km cutoff roughly double the standard error, and the effect remains positive but now marginal. Reporting both — rather than only the favorable NUTS-3/clustered combination — is what earns referee trust at JEG, even though it weakens the headline. Honesty about spatial fragility beats a fragile asterisk.
+
+## Referee pushback mapped to the robustness fix
+
+- *"How do I know this isn't a MAUP artifact?"* → Show the estimate across ≥2 scales/aggregations; report attenuation honestly.
+- *"You chose W to get this result."* → Vary W (contiguity, k-NN, distance-decay, economic distance) and report the spread, not one favorable matrix.
+- *"Your t-stats assume spatial independence."* → Conley SEs over several cutoffs plus residual Moran's I.
+- *"It's all driven by [the capital region]."* → Leave-one-region-out and a jackknife of the largest units.
+- *"The 'spillover' is just spatial trend."* → Distinguish a spatial-lag spillover from a common spatial trend by including the trend and testing the lag separately.
+
+## A note on what NOT to over-do
+
+JEG referees value an honest, threat-organized robustness section over a wall of tables. A spatial-Durbin model, a spatial-error model, and three W matrices run "for completeness," with none interpreted, signals fishing rather than rigor. Choose the spatial model that matches the mechanism (does theory predict spillovers? then SDM and interpret the indirect effect; if not, do not bolt one on), and let each remaining check answer one named threat. Candor about a bounded or scale-fragile result reads as strength here; a defended asterisk reads as weakness.
 
 ## Output format
 
 ```text
 【Journal】Journal of Economic Geography
 【Skill】jegeo-robustness
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking robustness strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Urban Economics, Regional Studies
-【Source status】verified URL / 待核实 / not asserted
+【Top spatial threat】MAUP / W-sensitivity / spatial autocorrelation / spillovers / boundary / influence
+【MAUP check】scales tested + result
+【Inference】Conley SEs (cutoffs) + residual Moran's I
+【Spillover/spatial-model】spec + direct vs indirect effects
+【Influence】leave-one-region-out result
+【Honest verdict】robust / bounded / fragile (and where)
 【Next skill】jegeo-tables-figures
 ```

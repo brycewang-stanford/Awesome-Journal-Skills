@@ -1,70 +1,93 @@
 ---
 name: jru-referee-strategy
-description: Use when working on referee strategy for a Journal of Risk and Uncertainty manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when anticipating likely referee objections for a Journal of Risk and Uncertainty (JRU) manuscript before submission. Wargames the report a risk/uncertainty specialist would write; it does not invent evidence or citations.
 ---
 
 # Referee Strategy (jru-referee-strategy)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Risk and Uncertainty (JRU)** and referee strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's risk, uncertainty, decision theory, behavioral choice, insurance, and experimental evidence on risky decisions standard.
-- The paper risks being confused with nearby venues: Experimental Economics, Journal of Economic Behavior and Organization, Games and Economic Behavior, and Management Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The draft is nearly done and you want to pre-empt the objections a JRU referee will raise
+- You are choosing what to put in the main text vs. the appendix to disarm predictable pushback
+- The paper makes a strong EU-vs-alternatives claim and you expect a referee from the camp it challenges
+- You suspect the elicitation or the VSL identification has a soft spot a specialist will find
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| risk preference is central | Make the risk preference assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| uncertainty attitude is central | Make the uncertainty attitude assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| prospect-theory test is central | Make the prospect-theory test assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| insurance behavior is central | Make the insurance behavior assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| experimental elicitation is central | Make the experimental elicitation assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Who reviews for JRU, and what they hunt for
 
-## JRU fit notes
+JRU's reviewer pool is specialized — decision theorists, experimental risk researchers, and VSL/insurance empiricists, under a single-blind model typical of Springer econ journals (待核实). Each subculture has a signature objection. Wargame the report by reading the paper as each of these referees would.
 
-- Publisher / owner context: Springer.
-- Submission route to re-check: Springer Nature submission.
-- Signature vocabulary: risk preference, uncertainty attitude, prospect-theory test, insurance behavior, experimental elicitation.
-- Sibling boundary: Experimental Economics, Journal of Economic Behavior and Organization, Games and Economic Behavior, and Management Science.
-- House-style aim: decision-theoretic clarity with careful measurement of risk and uncertainty.
-- Official URLs currently used by the pack:
-- https://link.springer.com/journal/11166
-- https://www.springer.com/journal/11166/submission-guidelines
+| Referee type | Their reflex objection | Pre-empt by |
+|--------------|------------------------|-------------|
+| Decision theorist | "The representation has no behavioral content / the reference point is fit, not fixed" | Stating one prediction the model forbids; fixing the reference point a priori (`jru-theory-model`) |
+| Experimentalist | "The elicitation is not incentive-compatible / it confounds u and w" | Defending the mechanism's IC assumptions; a design that separates curvature from weighting (`jru-identification`) |
+| VSL / empirical economist | "Selection into risky jobs / publication-selection bias is ignored" | Selection probes and engagement with the meta-analytic benchmark (`jru-identification`, `jru-robustness`) |
+| EU loyalist | "A risk-averse EU agent with a pessimistic belief explains this" | Deriving a comparative static EU cannot produce; separating beliefs from preferences |
+| Methods skeptic | "Functional form drives the result" | Showing the parameter is stable across CRRA/CARA/expo-power and EU/non-EU (`jru-robustness`) |
 
-## Stage-specific moves
+## How to wargame
 
-1. State the exact referee strategy question in one sentence.
-2. Identify which JRU audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jru-submission` if the stage passes, or back to `jru-workflow` if it does not.
+1. Assign the paper to its two most likely referee types and write their harshest one-paragraph objection each.
+2. For every objection, decide: already answered (point to the section), answerable with existing data (add an exhibit), or a genuine limitation (state it candidly).
+3. Move the evidence that disarms the top objection **into the main text** — do not leave your best defense in an appendix the referee may skim.
+4. Pre-write the limitations paragraph: the objections you cannot fully resolve, stated before the referee does.
+5. Hand off to `jru-submission` once the predictable objections are either answered or openly conceded.
+
+## The questions a JRU report almost always asks
+
+Regardless of referee type, certain questions recur in this journal's reports. Have an answer ready for each:
+
+- *What exactly does your model predict that expected utility does not?* — the single most common decision-theory probe.
+- *How do you separate utility curvature from probability weighting (or risk from ambiguity)?* — the measurement probe.
+- *Is the elicitation incentive-compatible, and under what assumptions?* — the experimental probe.
+- *Does the headline parameter survive a different functional form?* — the methods probe.
+- *For VSL/insurance: is the effect a preference, or a belief / selection artifact?* — the empirical probe.
+
+If any of these has no crisp answer in the main text, fix the paper before the referee writes the report.
+
+## Worked second pass: choosing what to promote
+
+After wargaming, rank the objections by lethality and move the *one* analysis that defuses the most lethal objection into a numbered main-text result, not a robustness footnote. A referee who finds the decisive check in Appendix C may still write "the authors do not address X" simply because they did not reach it. Promotion is cheap insurance in a single-blind specialist process where the referee's first impression carries weight.
 
 ## Checklist
-- [ ] The JRU audience can see why the paper belongs in risk, uncertainty, decision theory, behavioral choice, insurance, and experimental evidence on risky decisions.
-- [ ] The draft distinguishes JRU from Experimental Economics, Journal of Economic Behavior, Organization.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for referee strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] The two most likely referee types are named and their sharpest objection written out
+- [ ] The decision-theorist's "no behavioral content" objection is pre-empted
+- [ ] The experimentalist's incentive-compatibility / u-vs-w objection is pre-empted
+- [ ] The EU-loyalist alternative explanation is addressed with a discriminating prediction
+- [ ] For VSL/insurance: selection and publication-selection objections are met
+- [ ] The best defense lives in the main text, not an appendix
+- [ ] A candid limitations paragraph states what cannot be resolved
+
+## Suggesting and excluding reviewers
+
+In a small specialist pool the reviewer suggestions carry weight:
+
+- **Suggest** scholars who work on your exact primitive and method, including some who might disagree but would review fairly — a credible suggestion list signals you know the field.
+- **Exclude** only genuine conflicts (advisors, recent coauthors, direct rivals with a stake) and say why briefly; a long exclusion list reads as fear of scrutiny.
+- Anticipate that the editor may still pick a referee from the camp your paper challenges — write the paper to survive that draw, do not try to route around it.
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JRU without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Writing only for a friendly referee and ignoring the camp the paper challenges
+- Leaving the decisive robustness check in the appendix where a skimming referee misses it
+- Treating "a referee might dislike non-EU" as unanswerable instead of giving EU its fair test
+- Hiding a known limitation and hoping no specialist notices — they will
+- Generic "reviewer 2" cynicism instead of mapping objections to this journal's actual subcultures
+
+## Worked vignette (illustrative)
+
+A CPT-based experiment expects two referees: a decision theorist and an EU loyalist. The theorist's objection — "your reference point is chosen to fit" — is pre-empted by fixing it to the status quo a priori and showing the fit is not improved by freeing it. The loyalist's objection — "risk-averse EU with pessimism does the same" — is met by a treatment that varies probabilities at fixed outcomes, producing the inverse-S weighting that EU cannot generate. Both defenses are promoted into the main text before submission.
 
 ## Output format
 
 ```text
 【Journal】Journal of Risk and Uncertainty
 【Skill】jru-referee-strategy
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking referee strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Experimental Economics, Journal of Economic Behavior
-【Source status】verified URL / 待核实 / not asserted
+【Verdict】defensible / patch / concede
+【Likely referees】<two types>
+【Top objection】<one paragraph> → answered / addable / limitation
+【Best defense location】main text [Y/N]
+【Limitations stated】[Y/N]
+【Source status】verified / 待核实 / not asserted
 【Next skill】jru-submission
 ```

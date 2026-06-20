@@ -1,70 +1,94 @@
 ---
 name: expecon-identification
-description: Use when working on identification strategy for a Experimental Economics manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the credibility of an Experimental Economics (ExpEcon) manuscript rests on experimental control — incentive compatibility, randomization, the no-deception gate, and clean treatment contrasts. Stress-tests design-based identification before exhibits are finalized; it does not draft prose.
 ---
 
-# Identification Strategy (expecon-identification)
+# Experimental Control & Identification (expecon-identification)
 
 ## When to trigger
-- The manuscript is aimed at **Experimental Economics (Experimental Economics)** and identification strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's laboratory, field, online, and artefactual experiments in economics standard.
-- The paper risks being confused with nearby venues: JEBO, Games and Economic Behavior, Management Science, and Journal of Risk and Uncertainty.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A referee questions whether the treatment effect is causal or an artifact of an uncontrolled difference
+- Payoffs may not be **incentive compatible** — subjects could earn more by misreporting, or stakes are hypothetical/trivial
+- Any procedure risks tripping the **ESA no-deception norm** (false feedback, fake co-players, rigged draws, undisclosed payoff manipulation)
+- Randomization, session structure, or the order of treatments could confound the comparison
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| experimental protocol is central | Make the experimental protocol assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| incentive compatibility is central | Make the incentive compatibility assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| pre-analysis plan is central | Make the pre-analysis plan assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| treatment contrast is central | Make the treatment contrast assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| subject-pool design is central | Make the subject-pool design assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Identification at ExpEcon = control + a clean contrast
 
-## Experimental Economics fit notes
+In observational economics, identification is an argument about why selection does not bias the estimate. In the lab, **you manufacture identification by design**: randomization plus tight control means the *only* systematic difference across conditions is the manipulated dimension. The job here is to verify that claim holds, on four fronts.
 
-- Publisher / owner context: Springer for the Economic Science Association.
-- Submission route to re-check: Springer Nature submission.
-- Signature vocabulary: experimental protocol, incentive compatibility, pre-analysis plan, treatment contrast, subject-pool design.
-- Sibling boundary: JEBO, Games and Economic Behavior, Management Science, and Journal of Risk and Uncertainty.
-- House-style aim: protocol-transparent experimental economics with credible incentives and robust inference.
-- Official URLs currently used by the pack:
-- https://link.springer.com/journal/10683
-- https://www.springer.com/journal/10683/submission-guidelines
+### 1. The two gates (binary; check first)
 
-## Stage-specific moves
+- **No deception (hard gate).** Experimental Economics only considers studies that **do not deceive participants** (检索于 2026-06；以官网为准). This is the single most common cause of an ExpEcon desk reject. Deception includes: false information about other participants or their choices, fabricated feedback, rigged "random" draws, misrepresenting payoffs or the true purpose in a payoff-relevant way, and confederates posing as subjects. **Acceptable** practices that are *not* deception: withholding (not misstating) information, abstract/neutral framing, the strategy method, and not naming the hypothesis. If a design needs deception to work, it cannot be saved by disclosure — redesign it.
+- **Salient real incentives.** Choices must be **incentivized with real consequences**. Verify the payment mechanism is **incentive compatible**: BDM/random-lottery for valuations and risk, strategy-method payoffs that match the decision being elicited, one-randomly-paid-round to avoid wealth/hedging effects, and truthful-reporting mechanisms where beliefs are elicited (e.g., a proper scoring rule, ideally binarized/BSR to be robust to risk preferences). State the ECU→money conversion and the realized average payment.
 
-1. State the exact identification strategy question in one sentence.
-2. Identify which Experimental Economics audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `expecon-theory-model` if the stage passes, or back to `expecon-workflow` if it does not.
+### 2. Randomization & control
+
+- Random assignment **to treatment**, and document the unit (individual, group, session). Report balance on observables and on a comprehension measure.
+- Hold everything else fixed: identical instructions except the manipulated clause, same interface, same matching protocol, same subject pool and recruitment (e.g., ORSEE/hroot), same physical/online conditions.
+- Beware **session-level confounds**: if a treatment was run in different sessions/cohorts than the control, session is confounded with treatment — randomize within session or run treatments interleaved.
+
+### 3. Comprehension, order, and learning
+
+- **Comprehension checks** before play; report pass rates and pre-specify how failures are handled (exclude vs. retain). A treatment difference driven by differential comprehension is not the mechanism.
+- **Order/learning effects:** if within-subject, counterbalance order and test for order effects; if between-subject, justify the loss of power against the gain in clean identification.
+
+### 4. The estimand and inference unit
+
+- State the **estimand** in one sentence: the average treatment effect of [manipulation] on [primary outcome], for [population]. Distinguish it from any structural parameter.
+- The independent unit is usually the **session or matching group, not the individual decision** (decisions within a group are not independent). Inference must respect this — see `expecon-robustness`.
 
 ## Checklist
-- [ ] The Experimental Economics audience can see why the paper belongs in laboratory, field, online, and artefactual experiments in economics.
-- [ ] The draft distinguishes Experimental Economics from JEBO, Games, Economic Behavior.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for identification strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] **No deception** confirmed against the ESA definition; if borderline, the borderline practice is named and defended as non-deceptive
+- [ ] Payment mechanism is **incentive compatible** for every elicited object; ECU→money rate and realized payments reported
+- [ ] Random assignment documented; balance + comprehension reported; treatment not confounded with session/cohort
+- [ ] Comprehension-check handling pre-specified; order/learning addressed
+- [ ] Estimand stated in one sentence; primary outcome and comparison pre-registered
+- [ ] Independent unit of inference identified (session/matching group)
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Experimental Economics without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Any deception, however mild, presented as harmless — this is the classic ExpEcon desk reject
+- Hypothetical or token stakes treated as "incentivized"
+- A non-incentive-compatible belief elicitation (e.g., flat-payment guesses) read as truthful beliefs
+- Treatment run in separate sessions from control, so session and treatment are confounded
+- Reporting per-decision n as if decisions were independent observations
+- Calling a comprehension-driven gap "the behavioral effect"
+
+## Worked vignette (illustrative)
+
+A trust-game variant gives second movers feedback on first movers' transfers. To boost a treatment, the authors consider *inflating* the displayed transfer. That is **deception** — desk-reject territory. The fix preserves identification without lying: run a strategy-method condition where second movers respond to *every* possible transfer, so the contrast is built from truthful, fully-incentivized responses and no feedback needs to be faked. Power is then justified at the matching-group level (e.g., 18 groups/arm for 80% power on a 1-token gap, illustrative).
+
+## Referee pushback mapped to the fix
+
+- *"Is this deception?"* → Name the procedure, classify it against the ESA definition (withholding/abstract framing/strategy method = OK; false feedback/fake co-players/rigged draws = not OK), and quote the instructions.
+- *"The belief elicitation isn't incentivized."* → Switch to a proper/binarized scoring rule and report it; flat-payment beliefs are not data.
+- *"Treatment is confounded with session."* → Show treatments were interleaved or randomized within session, or re-run; do not hand-wave.
+- *"The effect is just confusion."* → Report comprehension pass rates by treatment and re-run excluding failers; show the gap persists.
+- *"What is the estimand?"* → State the ATE in one sentence and the population it speaks to; separate it from any structural parameter.
+
+## Quick incentive-compatibility reference
+
+| Object elicited | Incentive-compatible mechanism |
+|-----------------|-------------------------------|
+| Valuation / WTP | BDM, or second-price/random-price |
+| Risk preference | one-randomly-paid lottery menu (e.g., Holt–Laury), paid for real |
+| Beliefs | proper scoring rule, ideally binarized (BSR) to be risk-robust |
+| Strategy across states | strategy method, with payoff for the realized contingency |
+| Repeated-game earnings | one-randomly-selected-round payment to avoid wealth/hedging |
+
+If an elicited object is *not* on an incentive-compatible footing, the data for that object are suggestive at best — fix it before claiming it identifies anything.
 
 ## Output format
 
 ```text
-【Journal】Experimental Economics
+【Journal】Experimental Economics (ESA method flagship)
 【Skill】expecon-identification
 【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking identification strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not JEBO, Games
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】expecon-theory-model
+【No-deception gate】clear / borderline-defended / FAILS
+【Incentive compatibility】mechanism per elicited object + ECU→money + realized pay
+【Randomization & control】unit, balance, session-confound check
+【Comprehension / order】pass rates + handling; counterbalancing
+【Estimand】ATE of [X] on [Y] for [pop]; inference unit = session/group
+【Next skill】expecon-robustness
 ```

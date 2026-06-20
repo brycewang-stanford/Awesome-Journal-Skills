@@ -1,70 +1,91 @@
 ---
 name: expecon-replication-package
-description: Use when working on replication package for a Experimental Economics manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when assembling the data, code, instructions, and experiment software for an Experimental Economics (ExpEcon) manuscript to meet the ESA reproducibility standard. Builds the deposit; it does not run the analysis or draft prose.
 ---
 
 # Replication Package (expecon-replication-package)
 
 ## When to trigger
-- The manuscript is aimed at **Experimental Economics (Experimental Economics)** and replication package is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's laboratory, field, online, and artefactual experiments in economics standard.
-- The paper risks being confused with nearby venues: JEBO, Games and Economic Behavior, Management Science, and Journal of Risk and Uncertainty.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You are preparing to submit and must attach **participant instructions** (required at submission) and a data/code appendix
+- The ESA **Data and Replication Policy** deposit (trusted repository) is not yet assembled
+- z-Tree / oTree code, raw session data, and analysis scripts are scattered and not runnable end-to-end
+- A referee or editor asks whether someone could **reproduce your numbers and re-run your experiment**
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| experimental protocol is central | Make the experimental protocol assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| incentive compatibility is central | Make the incentive compatibility assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| pre-analysis plan is central | Make the pre-analysis plan assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| treatment contrast is central | Make the treatment contrast assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| subject-pool design is central | Make the subject-pool design assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## What ExpEcon reproducibility actually requires
 
-## Experimental Economics fit notes
+Experimental Economics is an ESA journal, and since 2021 the **ESA Data and Replication Policy** requires authors to deposit, in a trusted online repository, the materials needed to **reproduce or replicate** the study (检索于 2026-06；以官网为准). Reproducibility here is stronger than at most economics journals because it has **two layers**:
 
-- Publisher / owner context: Springer for the Economic Science Association.
-- Submission route to re-check: Springer Nature submission.
-- Signature vocabulary: experimental protocol, incentive compatibility, pre-analysis plan, treatment contrast, subject-pool design.
-- Sibling boundary: JEBO, Games and Economic Behavior, Management Science, and Journal of Risk and Uncertainty.
-- House-style aim: protocol-transparent experimental economics with credible incentives and robust inference.
-- Official URLs currently used by the pack:
-- https://link.springer.com/journal/10683
-- https://www.springer.com/journal/10683/submission-guidelines
+- **Reproduce the analysis** — raw data + cleaning + analysis code regenerate every table and figure.
+- **Replicate the experiment** — instructions + experiment software let another lab *re-run* the study.
 
-## Stage-specific moves
+Treat the package as a deliverable engineered for both.
 
-1. State the exact replication package question in one sentence.
-2. Identify which Experimental Economics audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `expecon-referee-strategy` if the stage passes, or back to `expecon-workflow` if it does not.
+## The deposit, component by component
+
+1. **Instructions** — the exact instructions subjects received, per treatment, in the original language (translation if relevant). These are **required at submission**, not just at acceptance; reviewers read them to check for deception and comprehension.
+2. **Experiment software** — the **z-Tree `.ztt` treatment files** or the **oTree app** (full project, `settings.py`, requirements pinned). Include screenshots or the comprehension quiz as run. This is what makes re-running possible.
+3. **Raw data** — session-level exports as collected (z-Tree `.xls`/`.sbj`, oTree CSV), with a codebook for every variable and the session/treatment/matching-group identifiers.
+4. **Analysis code** — scripts (Stata/R/Python) that run from raw to results with a single master file; set and record the **random seed** for any simulation/permutation test.
+5. **README** — repository map, software versions, run order, expected runtime, and a table mapping each exhibit in the paper to the script that produces it.
+6. **Pre-registration / PAP link** — the registry entry and timestamp; for a Registered Report, the in-principle-acceptance Stage-1 protocol.
+7. **Ethics / consent** — IRB approval reference and the consent procedure (and the explicit no-deception statement).
+
+## Repository and hygiene
+
+- Deposit in a **trusted, persistent repository** (OSF, Harvard Dataverse, Zenodo, or OpenICPSR are commonly used by ESA authors) and cite the **DOI** in the paper.
+- Anonymize subject identifiers; never include payment records with identifying info.
+- Pin every dependency and software version; a package that does not run on a clean machine fails the policy.
+- Match repository contents to the paper exactly — no stale scripts, no figures the code cannot produce.
+
+## A workable directory layout
+
+```
+/instructions    treatment_A.pdf, treatment_B.pdf (+ translations)
+/software         ztree/  *.ztt    OR   otree/  (full app, requirements.txt)
+/data/raw         session exports as collected (.xls/.sbj or .csv)
+/data/clean       analysis-ready files built by /code
+/code             00_master.* , 01_clean.* , 02_analysis.* , 03_figures.*
+/output           tables + figures regenerated by /code
+README.md         map, versions, run order, exhibit→script table
+ETHICS.md         IRB ref, consent text, no-deception statement
+```
+
+The single rule the policy enforces in spirit: a stranger with a clean machine runs `00_master` and gets your paper's exact numbers, and another lab opens `/software` and `/instructions` and re-runs your experiment.
+
+## The two-layer self-test
+
+1. **Reproduce:** delete `/data/clean` and `/output`, run the master script, confirm every table/figure regenerates byte-for-byte (or value-for-value for stochastic steps with a fixed seed).
+2. **Replicate:** hand `/software` + `/instructions` to a colleague who was not on the project and confirm they can launch a session and understand what subjects faced.
 
 ## Checklist
-- [ ] The Experimental Economics audience can see why the paper belongs in laboratory, field, online, and artefactual experiments in economics.
-- [ ] The draft distinguishes Experimental Economics from JEBO, Games, Economic Behavior.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for replication package names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Participant **instructions** (all treatments, original language) included **at submission**
+- [ ] z-Tree `.ztt` / oTree app deposited so the experiment can be **re-run**
+- [ ] Raw session data + codebook + session/group/treatment IDs present
+- [ ] Master analysis script runs raw→results; seeds set for simulation/permutation
+- [ ] README maps every table/figure to the script that generates it; versions pinned
+- [ ] Pre-registration / PAP (or Stage-1 RR protocol) linked with timestamp
+- [ ] Trusted-repository DOI cited; data anonymized; IRB + no-deception statement included
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Experimental Economics without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Promising the package "on request" or only at acceptance — ESA expects a real deposit, and instructions are due at submission
+- Depositing data but **not** the z-Tree/oTree code, so the experiment cannot be replicated
+- A "replication package" whose scripts do not reproduce the paper's exact numbers
+- Unpinned software versions / no seed, so permutation tests and figures are not reproducible
+- Identifiable subject data or payment records left in the repository
 
 ## Output format
 
 ```text
-【Journal】Experimental Economics
+【Journal】Experimental Economics (ESA method flagship)
 【Skill】expecon-replication-package
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking replication package
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not JEBO, Games
-【Source status】verified URL / 待核实 / not asserted
+【Verdict】deposit-ready / incomplete
+【Instructions】all treatments, at submission? [Y/N]
+【Software】z-Tree .ztt / oTree app deposited (re-runnable)? [Y/N]
+【Data + code】raw + codebook + master script (seeded) reproduce all exhibits? [Y/N]
+【Repository】trusted-repo DOI; versions pinned; anonymized? [Y/N]
+【Pre-reg / ethics】PAP/RR link + IRB + no-deception statement
 【Next skill】expecon-referee-strategy
 ```

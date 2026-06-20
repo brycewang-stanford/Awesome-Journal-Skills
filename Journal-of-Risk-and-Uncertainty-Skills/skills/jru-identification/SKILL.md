@@ -1,70 +1,92 @@
 ---
 name: jru-identification
-description: Use when working on identification strategy for a Journal of Risk and Uncertainty manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when identifying a risk or uncertainty parameter is the bottleneck for a Journal of Risk and Uncertainty (JRU) manuscript — incentive-compatible elicitation in an experiment, or structural/empirical estimation of risk preferences, VSL, or insurance demand. Stress-tests how the data pin the primitive; it does not invent evidence or citations.
 ---
 
 # Identification Strategy (jru-identification)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Risk and Uncertainty (JRU)** and identification strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's risk, uncertainty, decision theory, behavioral choice, insurance, and experimental evidence on risky decisions standard.
-- The paper risks being confused with nearby venues: Experimental Economics, Journal of Economic Behavior and Organization, Games and Economic Behavior, and Management Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- An experiment elicits a risk or ambiguity attitude but the mechanism may not be **incentive-compatible** (truthful revelation in doubt)
+- A choice-list / BDM / matching-probability design is used and a referee questions whether it measures the parameter cleanly
+- A structural model is estimated on field data and it is unclear *what variation* identifies the risk parameter (vs. beliefs, vs. constraints)
+- A VSL or insurance-demand estimate rests on regressions whose exclusion or selection assumptions are not defended
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| risk preference is central | Make the risk preference assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| uncertainty attitude is central | Make the uncertainty attitude assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| prospect-theory test is central | Make the prospect-theory test assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| insurance behavior is central | Make the insurance behavior assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| experimental elicitation is central | Make the experimental elicitation assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The JRU identification bar
 
-## JRU fit notes
+At JRU "identification" means the **mapping from choices to the risk/uncertainty primitive** must be explicit and defended — whether that primitive is elicited in the lab or estimated from the field. Because the journal spans theory, experiment, and empirics, identification splits by branch. The unifying demand: the procedure must reveal the *intended* parameter and not confound it with utility curvature, beliefs, or constraints.
 
-- Publisher / owner context: Springer.
-- Submission route to re-check: Springer Nature submission.
-- Signature vocabulary: risk preference, uncertainty attitude, prospect-theory test, insurance behavior, experimental elicitation.
-- Sibling boundary: Experimental Economics, Journal of Economic Behavior and Organization, Games and Economic Behavior, and Management Science.
-- House-style aim: decision-theoretic clarity with careful measurement of risk and uncertainty.
-- Official URLs currently used by the pack:
-- https://link.springer.com/journal/11166
-- https://www.springer.com/journal/11166/submission-guidelines
+### Branch A: Experimental elicitation of risk / ambiguity preferences
 
-## Stage-specific moves
+- **Incentive compatibility.** State the mechanism and why it elicits truthfully: Becker–DeGroot–Marschak, multiple price lists / choice lists, the random-incentive (one-task-paid) system. Address the known threats — BDM is only IC under EU; the random-incentive system assumes isolation; multiple-switching in price lists signals confusion.
+- **Estimand before estimator.** Name what the task is meant to recover — a switching point, a certainty equivalent, a matching probability — and the structural parameter it maps to (curvature, w(p), ambiguity index).
+- **Design that separates u from w.** A single risk-attitude number cannot identify utility curvature and probability weighting jointly; use lottery menus designed to break that confound (e.g., varying probabilities at fixed outcomes).
+- **Stakes, hypothetical vs. real, order, and house-money** effects stated and, where they matter, randomized.
 
-1. State the exact identification strategy question in one sentence.
-2. Identify which JRU audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jru-theory-model` if the stage passes, or back to `jru-workflow` if it does not.
+### Branch B: Structural / empirical estimation (risk preferences, VSL, insurance)
+
+- **Name the identifying variation.** For VSL hedonic-wage: the wage–fatality-risk tradeoff, conditional on the compensating-differentials assumptions; defend why risk is not proxying for unobserved job disamenities. For insurance demand: the price/loss variation that moves takeup.
+- **Beliefs vs. preferences.** Field choices reflect both; say how the design separates a risk *attitude* from a subjective *belief* (e.g., independent belief elicitation, or variation that moves one but not the other).
+- **Selection and measurement error** in risk exposure addressed; report the estimating equation and the inference (clustered appropriately).
+- **Estimation regularity** for structural models: objective (MLE/GMM/MSM), starting values, and recovery of known parameters in simulation.
+
+### The confounds JRU referees probe most
+
+Three confounds recur across both branches; name how the design defeats each:
+
+- **Utility curvature vs. probability weighting.** A single risk-attitude index cannot separate them; only a design that varies probabilities and outcomes independently can.
+- **Preferences vs. beliefs.** Field and even lab choices reflect subjective probabilities; either elicit beliefs separately or use variation that moves price/cost while holding beliefs fixed.
+- **Preferences vs. constraints.** Low takeup or conservative choices may reflect liquidity, not taste; control for or exploit variation in the constraint.
+
+A clean identification section states, for each of these, whether the design breaks the confound or leaves it open — and the honest "leaves it open" entries belong in the limitations, not hidden.
 
 ## Checklist
-- [ ] The JRU audience can see why the paper belongs in risk, uncertainty, decision theory, behavioral choice, insurance, and experimental evidence on risky decisions.
-- [ ] The draft distinguishes JRU from Experimental Economics, Journal of Economic Behavior, Organization.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for identification strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Branch chosen; the choices-to-primitive mapping stated in one sentence
+- [ ] Experimental: mechanism named and its incentive-compatibility (and its assumptions) defended
+- [ ] Experimental: design separates utility curvature from probability weighting (or risk from ambiguity)
+- [ ] Empirical: the identifying variation is named; preferences are separated from beliefs and constraints
+- [ ] VSL: compensating-differentials / exclusion assumptions stated and probed
+- [ ] Inference appropriate to the design (clustering at randomization or assignment level)
+- [ ] The estimated parameter is not asked to carry interpretation the identification does not support
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JRU without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Calling a single risk-attitude index "the" risk preference when curvature and weighting are confounded
+- Using BDM or a price list and claiming truthful revelation without noting the EU/isolation assumptions it rests on
+- A VSL estimate that ignores selection of workers into risky jobs and the publication-selection debate
+- Reading a field choice as a pure preference when it also reflects beliefs or liquidity constraints
+- "The estimator converged" presented as if it were identification (structural)
+
+## Referee pushback mapped to the identification fix
+
+- *"Your 'risk preference' is just utility curvature times probability weighting — you can't tell them apart."* → Add lottery menus that vary probabilities at fixed outcomes so w(p) is identified separately from u; report both.
+- *"BDM is not incentive-compatible outside expected utility."* → State the IC assumptions; where the paper studies non-EU agents, use a mechanism whose IC does not presume EU, or bound the bias.
+- *"Low takeup could be misperceived risk, not a preference."* → Elicit subjective probabilities independently; use price variation that moves cost holding beliefs fixed.
+- *"Your VSL is contaminated by selection into risky jobs."* → Probe selection (instrument or panel within-worker variation), and benchmark against the meta-analytic VSL distribution rather than a single estimate.
+
+## Worked vignette (illustrative)
+
+A field study infers high risk aversion from low flood-insurance takeup. A referee notes this confounds preferences with **beliefs** (households may think the risk is near zero) and with **constraints** (premiums vs. liquidity). The JRU fix elicits subjective loss probabilities separately, then uses exogenous premium variation (say a subsidy lottery) to move price holding beliefs fixed — so the demand elasticity identifies a preference, not a misperception. The reported elasticity (illustrative −0.3) now means what the paper claims it means.
+
+## Second vignette: separating curvature from weighting (illustrative)
+
+A lab paper reports a single "risk aversion" coefficient from a Holt–Laury price list. A referee points out the coefficient bundles utility curvature with probability weighting, so it cannot speak to whether the behavior is EU or CPT. The JRU revision adds a menu block that holds outcomes fixed while sweeping probabilities; the resulting certainty equivalents trace an inverse-S w(p) that pins weighting independently of u — turning one confounded number into two interpretable primitives.
+
+## Stating what is NOT identified
+
+Every honest identification section closes a door it leaves open. Name explicitly what the design cannot recover — a population parameter beyond the experimental sample, a belief you could not elicit, a margin you could not exogenously vary. JRU referees treat a candid "we identify the preference but not the belief" far more kindly than an overclaim that the data cannot support, and it pre-empts the most damaging review verdict: that the headline number means something other than what the paper says.
 
 ## Output format
 
 ```text
 【Journal】Journal of Risk and Uncertainty
 【Skill】jru-identification
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking identification strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Experimental Economics, Journal of Economic Behavior
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jru-theory-model
+【Verdict】identified / patch design / re-estimate
+【Branch】experimental elicitation / structural-empirical
+【Choices-to-primitive mapping】one sentence
+【Identification evidence】mechanism+IC / identifying variation + belief separation
+【What it does NOT identify】<confounds left open>
+【Source status】verified / 待核实 / not asserted
+【Next skill】jru-robustness
 ```

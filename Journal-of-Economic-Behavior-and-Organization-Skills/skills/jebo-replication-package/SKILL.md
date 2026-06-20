@@ -1,70 +1,77 @@
 ---
 name: jebo-replication-package
-description: Use when working on replication package for a Journal of Economic Behavior and Organization manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when assembling the data, code, and experimental-materials deposit for a Journal of Economic Behavior & Organization (JEBO) manuscript — z-Tree/oTree code, instructions, raw and analysis data, and an Elsevier Research Data / Mendeley Data statement. Builds a reproducible package; it does not run the analysis.
 ---
 
-# Replication Package (jebo-replication-package)
+# Replication & Materials Package (jebo-replication-package)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Economic Behavior and Organization (JEBO)** and replication package is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's behavioral economics, organization, institutions, experiments, and decision-making outside frictionless textbook settings standard.
-- The paper risks being confused with nearby venues: Experimental Economics, Games and Economic Behavior, Management Science, and Journal of Public Economics.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The analysis is settled and you must assemble what others need to reproduce it
+- An experiment is done but the **instructions and z-Tree/oTree code** are not yet packaged
+- A referee or editor asks where the data and code are
+- You are writing the Elsevier "data availability" / Research Data statement
+- An agent-based model's runnable code and seeds are not yet organized for sharing
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| behavioral mechanism is central | Make the behavioral mechanism assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| institutional setting is central | Make the institutional setting assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| laboratory evidence is central | Make the laboratory evidence assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| field-experiment design is central | Make the field-experiment design assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| organizational incentives is central | Make the organizational incentives assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## JEBO's reproducibility posture
 
-## JEBO fit notes
+JEBO follows the **Elsevier Research Data** policy: data and code sharing is **strongly encouraged** (via Mendeley Data or a linked repository) but **not currently a hard pre-acceptance gate** the way the AEA Data Editor or the Econometric Society's pre-acceptance check are (检索于 2026-06；以官网为准). In practice, for an experimental journal, referees increasingly *expect* the full materials, and a credible deposit strengthens acceptance. Treat the package as part of the contribution, not an afterthought.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: behavioral mechanism, institutional setting, laboratory evidence, field-experiment design, organizational incentives.
-- Sibling boundary: Experimental Economics, Games and Economic Behavior, Management Science, and Journal of Public Economics.
-- House-style aim: mechanism-forward behavioral evidence with transparent experimental or institutional design.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization
-- https://www.elsevier.com/journals/journal-of-economic-behavior-and-organization/0167-2681/guide-for-authors
+The distinctive JEBO requirement is **experimental reproducibility**: a reader must be able to *re-run your experiment*, not just your regressions. That means the instructions, the screen-by-screen protocol, and the experiment software are first-class deposit items.
 
-## Stage-specific moves
+## What the package must contain
 
-1. State the exact replication package question in one sentence.
-2. Identify which JEBO audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jebo-referee-strategy` if the stage passes, or back to `jebo-workflow` if it does not.
+| Item | Detail JEBO referees look for |
+|------|-------------------------------|
+| Experiment instructions | full participant-facing text (translated to English if run in another language), including comprehension questions |
+| Experiment software | z-Tree `.ztt` / oTree app code, or the platform code, runnable with setup notes |
+| Screenshots / protocol | session protocol, screen flow, randomization procedure, payment scheme |
+| Raw data | subject-level raw output (anonymized), with a codebook |
+| Analysis code | scripts that go from raw data to every table/figure, with a master `run` file |
+| Software environment | versions (Stata/R/Python, z-Tree/oTree), packages, seeds for any simulation |
+| README | one-command (or clearly-ordered) reproduction path; maps each script to each exhibit |
+| Pre-registration link | registry URL + a note on deviations, if pre-registered |
+| Ethics / consent | IRB/ethics approval reference; consent procedure |
+
+For **agent-based / simulation** papers, the deposit is the model code, parameter files, seeds, and the sweep scripts that regenerate the reported figures.
+
+## Privacy and anonymization
+
+Strip direct identifiers from raw subject data; for field data, follow consent and data-protection constraints and document any access restrictions. State clearly if data cannot be shared and why (Elsevier allows a justified restricted-access statement).
+
+## The data-availability statement
+
+Write the Elsevier "Data availability" statement to match reality: a Mendeley Data DOI / repository link, or a justified statement of restriction. Vague statements ("data available on request") are weak and increasingly disfavored; deposit where possible.
 
 ## Checklist
-- [ ] The JEBO audience can see why the paper belongs in behavioral economics, organization, institutions, experiments, and decision-making outside frictionless textbook settings.
-- [ ] The draft distinguishes JEBO from Experimental Economics, Games, Economic Behavior.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for replication package names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Experiment instructions (English) + comprehension questions included
+- [ ] z-Tree/oTree or platform code included and runnable, with setup notes
+- [ ] Session protocol, screen flow, randomization, and payment scheme documented
+- [ ] Raw subject-level data (anonymized) + codebook
+- [ ] Analysis scripts reproduce every table/figure from raw data via a master file
+- [ ] Software versions, packages, and seeds recorded
+- [ ] README maps each script to each exhibit; reproduction path is explicit
+- [ ] Pre-registration link + deviations noted (if applicable); IRB/consent referenced
+- [ ] Data-availability statement points to a real deposit (Mendeley Data) or a justified restriction
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JEBO without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Sharing analysis code but not the experiment software/instructions (cannot re-run the experiment)
+- "Data available on request" with no deposit
+- Raw data with direct identifiers left in
+- A README that lists files but never gives the reproduction order
+- Simulation results with no seeds or sweep scripts
+- Claiming pre-registration without linking the registry or disclosing deviations
 
 ## Output format
 
 ```text
-【Journal】Journal of Economic Behavior and Organization
-【Skill】jebo-replication-package
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking replication package
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Experimental Economics, Games
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jebo-referee-strategy
+【Deposit location】Mendeley Data DOI / repository link / justified restriction
+【Experiment materials】instructions + z-Tree/oTree code + protocol [Y/N]
+【Data】raw (anonymized) + codebook [Y/N]
+【Code】master run file → every exhibit; versions + seeds recorded [Y/N]
+【README】explicit reproduction path mapping script→exhibit [Y/N]
+【Pre-reg + ethics】registry link + deviations; IRB/consent [Y/N / n.a.]
+【Next step】jebo-referee-strategy
 ```

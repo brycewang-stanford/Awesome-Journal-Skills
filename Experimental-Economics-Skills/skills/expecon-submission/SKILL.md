@@ -1,72 +1,94 @@
 ---
 name: expecon-submission
-description: Use when working on submission preflight for a Experimental Economics manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when running the final pre-submission preflight for an Experimental Economics (ExpEcon) manuscript via the Editorial Manager portal — the no-deception/incentive gates, instructions-at-submission rule, anonymous review, and ESA data-deposit prep. Final checks; it does not draft content.
 ---
 
 # Submission Preflight (expecon-submission)
 
 ## When to trigger
-- The manuscript is aimed at **Experimental Economics (Experimental Economics)** and submission preflight is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's laboratory, field, online, and artefactual experiments in economics standard.
-- The paper risks being confused with nearby venues: JEBO, Games and Economic Behavior, Management Science, and Journal of Risk and Uncertainty.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- "Submitting tomorrow" — the last check before uploading to Editorial Manager
+- Unsure which files the ExpEcon submission expects (manuscript, instructions, package)
+- Confirming the manuscript is anonymized for double-blind review
+- Verifying the no-deception and incentive statements are in the paper before it goes out
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| experimental protocol is central | Make the experimental protocol assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| incentive compatibility is central | Make the incentive compatibility assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| pre-analysis plan is central | Make the pre-analysis plan assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| treatment contrast is central | Make the treatment contrast assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| subject-pool design is central | Make the subject-pool design assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Process facts (检索于 2026-06；以官网为准)
 
-## Experimental Economics fit notes
+- Experimental Economics is the **official journal of the Economic Science Association (ESA)**; as of **January 2025 (Vol. 28)** it is published by **Cambridge University Press** and is **fully open access (CC BY)** — it moved from Springer. Re-confirm the current platform and any APC/waiver before submitting.
+- **Submission portal:** **Editorial Manager** (editorialmanager.com/eec). Review is **anonymous (double-blind)**; accepted papers require the approval of **two editors**.
+- **Hard gates:** the journal only considers studies that **do not deceive participants** and in which **participants are incentivized**. These are entry conditions, not preferences.
+- **Instructions at submission:** the **instructions participants received must be supplied at the time of submission** (reviewers check them for deception and comprehension). Methodology and replication papers are explicitly in scope.
+- **Data appendices:** authors submit separate **data appendices** attached to the article page on publication, consistent with the **ESA Data and Replication Policy** (trusted-repository deposit). Exact length/abstract limits and APC/waiver terms are **待核实** — confirm on the current Cambridge journal page.
 
-- Publisher / owner context: Springer for the Economic Science Association.
-- Submission route to re-check: Springer Nature submission.
-- Signature vocabulary: experimental protocol, incentive compatibility, pre-analysis plan, treatment contrast, subject-pool design.
-- Sibling boundary: JEBO, Games and Economic Behavior, Management Science, and Journal of Risk and Uncertainty.
-- House-style aim: protocol-transparent experimental economics with credible incentives and robust inference.
-- Official URLs currently used by the pack:
-- https://link.springer.com/journal/10683
-- https://www.springer.com/journal/10683/submission-guidelines
+## Preflight checklist
 
-## Stage-specific moves
+### The two gates (verify first)
+- [ ] **No deception** anywhere in the design; the paper states this explicitly
+- [ ] **Salient real incentives** for every elicited object; ECU→money conversion and realized average payment reported
 
-1. State the exact submission preflight question in one sentence.
-2. Identify which Experimental Economics audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `expecon-rebuttal` if the stage passes, or back to `expecon-workflow` if it does not.
+### Manuscript & anonymization
+- [ ] Manuscript anonymized for **double-blind** review (no author names, no identifying repository/IRB links in the blind copy; self-cites neutralized)
+- [ ] Abstract states the treatment contrast and the numeric headline effect
+- [ ] Design/Procedures section is reproducible from the text; names z-Tree/oTree
+- [ ] Predictions are signed and treatment-indexed; primary vs. exploratory results labeled
+- [ ] Effect sizes reported with CIs at the session/matching-group level (not stars only)
 
-## Checklist
-- [ ] The Experimental Economics audience can see why the paper belongs in laboratory, field, online, and artefactual experiments in economics.
-- [ ] The draft distinguishes Experimental Economics from JEBO, Games, Economic Behavior.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for submission preflight names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+### Files for Editorial Manager
+- [ ] Main manuscript (anonymized)
+- [ ] **Participant instructions** for every treatment (required at submission)
+- [ ] Data appendix / replication materials per ESA policy; experiment software (z-Tree `.ztt` / oTree app) ready
+- [ ] Pre-registration / PAP link (or Stage-1 Registered Report protocol) and timestamp
+- [ ] Cover letter framing the **methods contribution** and (if relevant) replication/RR status
+
+### Declarations
+- [ ] IRB/ethics approval and consent procedure stated; explicit no-deception statement
+- [ ] Funding and competing-interest disclosures; confirmation paper is not under review elsewhere
+- [ ] Open-access/CC-BY and any APC/waiver terms checked on the current Cambridge page (待核实)
+
+## Right journal, right ESA outlet
+
+Before you submit, confirm the paper is a **full design paper**, not a short-format piece. The ESA runs **two** journals: *Experimental Economics* (the method flagship, full papers) and the **Journal of the Economic Science Association (JESA)** — its shorter-format outlet for replications, null results, software notes, comments, and minor extensions. A brief replication or a z-Tree/oTree tool note is usually a JESA submission, not an Experimental Economics one. Submitting a short note to the flagship invites a transfer suggestion and lost time.
+
+## Cover letter essentials
+
+- One paragraph framing the **methods contribution** (the design/elicitation advance), not the topic.
+- Explicit statement that the study used **no deception** and **real salient incentives**.
+- Pre-registration / Registered Report status with the registry link and timestamp.
+- If a replication: what is replicated, the added power, and why it belongs in the flagship rather than JESA.
+- Suggested non-conflicted referees (optional but useful given double-blind review).
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Experimental Economics without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Uploading without the **participant instructions** — a structural incompleteness here
+- Any deceptive procedure, or hypothetical/token "incentives" — a desk reject
+- A non-anonymized manuscript breaking double-blind review
+- Stars-only significance with no effect sizes/CIs at the group unit
+- Treating the new CC-BY open-access model as a submission-time fee without checking current terms
+- Sending a short replication/software note to the flagship instead of JESA
+
+## The anonymization pass (double-blind, done last)
+
+Because review is anonymous, the blind manuscript needs a dedicated scrub that authors routinely botch:
+
+- Remove author names, affiliations, and acknowledgments from the blind copy.
+- Neutralize self-citations ("Smith (2022) showed" → "prior work showed [ref]") so they do not reveal authorship.
+- Strip identifying links — your lab's repository, an OSF page tied to your name, a university IRB number — from the blind copy; provide them separately for the editor.
+- Scrub document metadata (PDF author field, file properties) and any "Track Changes" author tags.
+- Keep the instructions and data-appendix references in a way that lets referees read them without de-anonymizing you.
+
+A manuscript that names its authors through a repository link defeats the blind review the journal runs; do this pass last, after all content is final.
 
 ## Output format
 
 ```text
-【Journal】Experimental Economics
+【Journal】Experimental Economics (ESA flagship; Cambridge UP, OA, 检索于 2026-06)
 【Skill】expecon-submission
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking submission preflight
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not JEBO, Games
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】expecon-rebuttal
+【Gates】no deception? salient incentives? both stated in paper? [Y/N]
+【Anonymized】double-blind copy clean? [Y/N]
+【Instructions】all treatments attached at submission? [Y/N]
+【Package】data appendix + z-Tree/oTree + PAP/RR link ready? [Y/N]
+【Declarations】IRB / disclosures / OA terms checked (待核实 where unverified)
+【Next step】submit via Editorial Manager (editorialmanager.com/eec) → expecon-rebuttal after decision
 ```
 
 ## Supplementary resources

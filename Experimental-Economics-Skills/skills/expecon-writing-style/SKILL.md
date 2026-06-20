@@ -1,70 +1,91 @@
 ---
 name: expecon-writing-style
-description: Use when working on writing style for a Experimental Economics manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the prose of an Experimental Economics (ExpEcon) manuscript buries the design or the result, or when the intro/abstract do not land for an experimentalist reader. Polishes structure and voice; it does not change the analysis.
 ---
 
 # Writing Style (expecon-writing-style)
 
 ## When to trigger
-- The manuscript is aimed at **Experimental Economics (Experimental Economics)** and writing style is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's laboratory, field, online, and artefactual experiments in economics standard.
-- The paper risks being confused with nearby venues: JEBO, Games and Economic Behavior, Management Science, and Journal of Risk and Uncertainty.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The abstract names a topic but never states the treatment contrast or the headline effect
+- A reader reaches the results before understanding *what subjects actually did*
+- The design is described as scattered implementation notes instead of a clean procedure section
+- The intro reads like a JEBO behavioral essay or a GEB theory paper rather than an experimental-methods paper
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| experimental protocol is central | Make the experimental protocol assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| incentive compatibility is central | Make the incentive compatibility assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| pre-analysis plan is central | Make the pre-analysis plan assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| treatment contrast is central | Make the treatment contrast assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| subject-pool design is central | Make the subject-pool design assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Structure: the design is the narrative
 
-## Experimental Economics fit notes
+ExpEcon papers have a near-canonical, **design-forward** shape. Honor it; referees read for it.
 
-- Publisher / owner context: Springer for the Economic Science Association.
-- Submission route to re-check: Springer Nature submission.
-- Signature vocabulary: experimental protocol, incentive compatibility, pre-analysis plan, treatment contrast, subject-pool design.
-- Sibling boundary: JEBO, Games and Economic Behavior, Management Science, and Journal of Risk and Uncertainty.
-- House-style aim: protocol-transparent experimental economics with credible incentives and robust inference.
-- Official URLs currently used by the pack:
-- https://link.springer.com/journal/10683
-- https://www.springer.com/journal/10683/submission-guidelines
+1. **Abstract (the contract).** Within a few sentences: the question, the **treatment contrast**, the **incentivized design** in one clause, the **headline effect with a number and direction**, and the takeaway. "We run a lab experiment in which [contrast]; [outcome] is X% higher under [T] (p=…); this adjudicates between [model A] and [model B]."
+2. **Introduction.** Motivate, state the precise hypothesis, then say *how the design isolates it* and what is new about that design. The reader should know your treatments before the literature review ends.
+3. **Design / Procedures (the load-bearing section).** This is what an experimentalist reads most carefully. Write it so the study is **reproducible from the text alone**: game and payoffs (ECU + conversion), treatments and what each manipulates, matching, information, rounds, incentive mechanism, subject pool and recruitment, software (z-Tree/oTree), sessions and n, comprehension checks. State explicitly that **no deception was used**.
+4. **Predictions.** The signed, treatment-indexed hypotheses from `expecon-theory-model`.
+5. **Results.** Raw behavior → primary test (correct unit) → secondary/exploratory (labeled) → robustness.
+6. **Discussion.** Mechanism, external validity, boundary conditions, and what the design cannot speak to.
 
-## Stage-specific moves
+## Voice an ExpEcon referee trusts
 
-1. State the exact writing style question in one sentence.
-2. Identify which Experimental Economics audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `expecon-replication-package` if the stage passes, or back to `expecon-workflow` if it does not.
+- **Procedural transparency over rhetoric.** The register is sober and precise. Claims are pinned to the design ("because matching was anonymous and one-shot, reputation cannot drive this"), not to adjectives.
+- **Subjects' perspective.** Describe what participants saw and decided, in their units; do not narrate only the analyst's regression.
+- **Say "no deception" out loud.** Experimentalist readers look for the explicit statement that participants were not deceived and were paid real, salient incentives. Make it unmissable.
+- **Calibrate the claim to control.** Internal validity is your strength; do not overclaim external validity. A line acknowledging the population (often a student pool) and what generalization is and is not warranted reads as competence, not weakness.
+- **Hedge honestly on nulls.** If the result is a precise null, frame it with the power to detect a meaningful effect; that is a strength here, not an apology.
+
+## Sentence-level habits
+
+- **Name treatments, do not number them only.** "the Punishment treatment" reads far better than "T3"; if you must abbreviate, define mnemonic labels (NoPun / Pun) and use them consistently.
+- **Quantify in the subjects' units.** "contributions rose by 3.2 tokens (16% of the 20-token endowment)" beats "contributions rose significantly."
+- **Attribute causality to the design, not the data.** "Because matching was anonymous and one-shot, reputation cannot explain X" is the ExpEcon move; "X is correlated with Y" is not.
+- **Front-load the procedure of each elicitation** before its result, so the reader knows what was incentivized.
+- **Use the past tense for what subjects did and the present for what the data show** — a small convention experimentalist readers expect.
 
 ## Checklist
-- [ ] The Experimental Economics audience can see why the paper belongs in laboratory, field, online, and artefactual experiments in economics.
-- [ ] The draft distinguishes Experimental Economics from JEBO, Games, Economic Behavior.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for writing style names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Abstract states contrast + incentivized design + numeric headline effect + takeaway
+- [ ] Treatments are introduced before the literature review closes
+- [ ] Design/Procedures section is reproducible from the text alone and names z-Tree/oTree
+- [ ] "No deception" and "salient real incentives" stated explicitly
+- [ ] Predictions are signed and treatment-indexed; results lead with raw behavior
+- [ ] Primary (pre-registered) vs. exploratory results are verbally distinguished
+- [ ] External-validity claims are calibrated to the subject pool and control
+- [ ] Treatments have mnemonic names; effects quantified in subjects' units
+
+## The Procedures section, line by line
+
+Because this is the section referees scrutinize, give it a fixed internal order so nothing is missing:
+
+1. **Subjects** — pool, recruitment system (ORSEE/hroot), n, sessions, dates if relevant.
+2. **The game** — actions, information, ECU payoffs and the money conversion, matching, horizon.
+3. **Treatments** — each condition and the *single* dimension it manipulates, with mnemonic names.
+4. **Incentives** — the payment mechanism per elicited object and the realized average payment.
+5. **Procedure flow** — instructions, comprehension quiz, practice rounds, paid rounds, debrief.
+6. **Software & environment** — z-Tree/oTree, lab vs. online, any device constraints.
+7. **Ethics** — IRB reference, consent, and the explicit **no-deception** statement.
+
+A reader who finishes this section should be able to reconstruct a session without emailing you. If they cannot, the paper is not yet submittable to this journal.
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Experimental Economics without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- An abstract with a topic and a vibe but no contrast and no number
+- Procedures so thin the experiment cannot be reproduced — fatal at this journal
+- Burying the treatment manipulation in a footnote or appendix
+- Overclaiming real-world generality from a student-lab sample
+- Prose that reads as a behavioral essay (JEBO) or a theory paper with a demo (GEB)
+- Never stating, in the body, that no deception was used
+
+## Writing the abstract as a contract
+
+The abstract is read by editors deciding whether to desk-screen and by referees deciding their prior. Treat it as a four-clause contract: (1) the question and why it matters; (2) the **incentivized experimental design** and the treatment contrast in one clause; (3) the **headline effect with a number, direction, and the comparison it comes from**; (4) the interpretation — which behavioral account it supports and the scope. Avoid abstracts that spend three sentences motivating and one vague sentence on "we find evidence that…". An experimentalist editor wants to know, by sentence two, *what you manipulated and what moved* — give it to them.
 
 ## Output format
 
 ```text
-【Journal】Experimental Economics
+【Journal】Experimental Economics (ESA method flagship)
 【Skill】expecon-writing-style
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking writing style
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not JEBO, Games
-【Source status】verified URL / 待核实 / not asserted
+【Verdict】lands / restructure
+【Abstract】contrast + design + numeric effect + takeaway present? [Y/N]
+【Design section】reproducible from text? names software? no-deception stated? [Y/N]
+【Results order】raw behavior → primary → exploratory(labeled) → robustness
+【Claim calibration】external-validity scoped to pool/control
 【Next skill】expecon-replication-package
 ```

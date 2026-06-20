@@ -1,70 +1,93 @@
 ---
 name: jegeo-literature-positioning
-description: Use when working on literature positioning for a Journal of Economic Geography manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when staking a Journal of Economic Geography (JEG) manuscript's contribution against both the geographical-economics and human-geography frontiers, and against sibling journals. Sharpens positioning; it does not invent citations.
 ---
 
 # Literature Positioning (jegeo-literature-positioning)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Economic Geography (JEG)** and literature positioning is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's economic geography, spatial economics, regional development, innovation clusters, trade, and place-based policy standard.
-- The paper risks being confused with nearby venues: Journal of Urban Economics, Regional Studies, Economic Geography, and Journal of International Economics.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The contribution sentence is vague ("we add to the agglomeration literature") or speaks to only one of JEG's two communities
+- Reviewers might say "this is already known" because you cited the NEG literature but not the evolutionary/institutional work, or vice versa
+- The paper sits between JEG and a sibling (JUE, RSUE, Economic Geography, Regional Studies, JIE) and the boundary is not argued
+- You are unsure whether the gap you claim is real or just under-cited
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| spatial clustering is central | Make the spatial clustering assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| regional divergence is central | Make the regional divergence assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| place-based policy is central | Make the place-based policy assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| network geography is central | Make the network geography assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| innovation ecosystem is central | Make the innovation ecosystem assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Positioning across two literatures at once
 
-## JEG fit notes
+JEG referees come from both sides of the bridge, so a one-sided literature review reads as not knowing the field. The contribution must be located against **both** frontiers:
 
-- Publisher / owner context: Oxford University Press.
-- Submission route to re-check: OUP / ScholarOne submission.
-- Signature vocabulary: spatial clustering, regional divergence, place-based policy, network geography, innovation ecosystem.
-- Sibling boundary: Journal of Urban Economics, Regional Studies, Economic Geography, and Journal of International Economics.
-- House-style aim: spatial economic argument that combines maps, mechanisms, and regional theory.
-- Official URLs currently used by the pack:
-- https://academic.oup.com/joeg
-- https://academic.oup.com/joeg/pages/General_Instructions
+- **The geographical-economics frontier:** New Economic Geography (Krugman, Fujita-Krugman-Venables), and the quantitative-spatial-economics turn (Redding, Rossi-Hansberg, Allen-Arkolakis, Donaldson) that made NEG estimable. If your paper is empirical, position against the quantitative-spatial models you are testing, calibrating, or relaxing.
+- **The proper-economic-geography frontier:** evolutionary economic geography (Boschma, Frenken — relatedness, branching, regional resilience), institutional and relational geography, global-value-chain / global-production-network theory (Coe, Yeung), and the clusters/knowledge-spillover tradition. If your paper is quantitative, you still owe this literature a real engagement, not a token citation.
 
-## Stage-specific moves
+The strongest JEG positioning shows the two literatures talking past each other on your question, and the paper as the place they meet.
 
-1. State the exact literature positioning question in one sentence.
-2. Identify which JEG audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jegeo-identification` if the stage passes, or back to `jegeo-workflow` if it does not.
+## Building the contribution claim
+
+| Move | Weak version | JEG-strong version |
+|------|--------------|--------------------|
+| State the gap | "little work on X" | "geographical economics measures X but ignores the institutional mechanism EEG theorizes — neither has tested both jointly" |
+| Name the frontier | a 2008 survey | the specific recent papers a referee will think of first, from both camps |
+| Position the method | "we run a regression" | "we bring quantitative-spatial identification to a question only handled qualitatively (or vice versa)" |
+| Claim the delta | "we add nuance" | one sentence naming the new thing we know about space and the economy |
+
+## Reading lists a JEG referee expects you to know
+
+You do not have to cite all of these, but a referee from each camp will notice if you seem unaware of their canon:
+
+- **Geographical economics:** the core-periphery NEG tradition (Krugman; Fujita-Krugman-Venables, *The Spatial Economy*) and the quantitative-spatial turn that made it estimable (Redding-Rossi-Hansberg on quantitative spatial economics; Allen-Arkolakis on trade and geography; Donaldson-Hornbeck on market access). Position empirical work against the model it tests, relaxes, or calibrates.
+- **Proper economic geography:** evolutionary EG (Boschma-Frenken on relatedness, branching, regional resilience), institutional and relational geography, and the GPN/GVC framework (Coe-Yeung). A quantitative paper still owes this side a real engagement, not a single citation.
+
+The tell of a one-community paper is a bibliography drawn almost entirely from one of these two lists. Aim for genuine coverage of both where the question touches them.
+
+## Sibling boundary, argued not asserted
+
+- **vs. Journal of Urban Economics** (Elsevier, formal urban economics): JUE rewards the clean urban-economic mechanism; JEG additionally demands that *geography* — scale, region, network, institutions — be analytically central. If place is just a fixed effect, it is a JUE paper.
+- **vs. Regional Science & Urban Economics:** RSUE is the methods-forward regional-science venue; JEG wants the geographic and economic interpretation, not only the spatial-econometric machinery.
+- **vs. Economic Geography & Regional Studies:** these lean more humanistic/qualitative; JEG expects engagement with the quantitative/economic frontier even in a conceptual paper.
+- **vs. Journal of International Economics:** a trade paper becomes JEG only when the *spatial reorganization of activity within or across regions* is the object, not aggregate trade flows.
+
+## Referee pushback mapped to the positioning fix
+
+- *"This is already known — see [classic agglomeration paper]."* → Show the open question lives at the **intersection** the prior work did not reach (e.g., quantity measured by NEG but mechanism only theorized by EEG), and that you join them.
+- *"The authors ignore the entire [evolutionary / quantitative-spatial] literature."* → A one-sided review reads as not knowing the field; engage the missing camp's live frontier, not a token cite.
+- *"Why is this JEG and not JUE / JIE?"* → Answer with the analytical role of geography (scale, region, network, institutions), not with a sentence asserting fit.
+- *"The contribution is incremental."* → Restate the delta as a single sentence of *new knowledge about space and the economy*, and tie it to a result a referee can check.
+
+## Worked vignette (illustrative)
+
+A paper measures how related-variety predicts regional industrial branching using patent data. The author positions it only against the evolutionary-economic-geography literature (Boschma, Frenken). An economist referee says the identification and the agglomeration mechanism are invisible; the contribution looks like one more relatedness regression. The positioning fix is not new data: it is reframing the contribution at the meeting point — relatedness (EEG) is shown to operate through a knowledge-spillover mechanism the quantitative-spatial literature can identify, and the paper brings causal spatial design to a claim EEG had only documented descriptively. Now both literatures appear, the gap is the place they had not met, and the delta — branching is causal, not just correlated with relatedness — is a sentence both camps can grip.
 
 ## Checklist
-- [ ] The JEG audience can see why the paper belongs in economic geography, spatial economics, regional development, innovation clusters, trade, and place-based policy.
-- [ ] The draft distinguishes JEG from Journal of Urban Economics, Regional Studies, Economic Geography.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for literature positioning names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Contribution stated in one sentence naming the new knowledge about space and the economy
+- [ ] Both frontiers cited and engaged — geographical economics AND human/evolutionary geography
+- [ ] The most obvious recent papers a referee from each camp would name are addressed
+- [ ] The gap is shown to be real (the question is open in both literatures), not merely under-cited
+- [ ] The sibling boundary is argued with a substantive reason, not asserted
+- [ ] No straw-man of either community's prior work
+- [ ] The contribution sits at the *intersection* of the two literatures, not inside one
+
+## Positioning the method as a contribution
+
+At JEG the method can itself be the bridge: bringing one community's tool to the other's question is a recognized contribution. Make it explicit when it applies — "the institutional account of cluster decline has been qualitative; we test it with a quantitative-spatial design," or "quantitative-spatial models assume frictionless relocation; we show, with case evidence, why institutions block it." Frame the methodological move as serving the substantive question, not as technique for its own sake, and the positioning lands with both camps at once.
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JEG without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A literature review that cites only NEG/quantitative-spatial work and ignores EEG/institutional geography, or the reverse
+- "Gap-spotting" — claiming novelty from absence of citations rather than a genuine open question
+- Citing a community's foundational paper but never engaging its actual argument (token bridging)
+- Asserting "this fits JEG better than JUE" without a reason rooted in the role of geography
+- Positioning against a decade-old survey instead of the live frontier
 
 ## Output format
 
 ```text
 【Journal】Journal of Economic Geography
 【Skill】jegeo-literature-positioning
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking literature positioning
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Urban Economics, Regional Studies
-【Source status】verified URL / 待核实 / not asserted
+【Contribution】one sentence: new knowledge about space and the economy
+【Geographical-economics frontier】papers engaged + delta
+【Human/evolutionary-geography frontier】papers engaged + delta
+【Gap is real because】open in both literatures, not just under-cited
+【Sibling boundary】why JEG not JUE / RSUE / EG / JIE (reason, not assertion)
 【Next skill】jegeo-identification
 ```

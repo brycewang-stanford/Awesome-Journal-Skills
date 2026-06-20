@@ -1,70 +1,67 @@
 ---
 name: ecopol-identification
-description: Use when working on identification strategy for a Economic Policy manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the identification argument is the bottleneck for an Economic Policy (EP) manuscript — causal identification of a policy effect, or parameter identification in a quantitative policy model. Stress-tests it to the EP bar (credible to an academic discussant, legible to a policy discussant) before exhibits are finalized.
 ---
 
 # Identification Strategy (ecopol-identification)
 
 ## When to trigger
-- The manuscript is aimed at **Economic Policy (Economic Policy)** and identification strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's policy-relevant economics papers written for an expert but broad policy audience standard.
-- The paper risks being confused with nearby venues: AEJ Economic Policy, Journal of Public Economics, IMF Economic Review, and World Bank Economic Review.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A policy effect rests on OLS + controls, or TWFE on staggered policy rollout
+- An IV's exclusion restriction is institutional hand-waving, not an argument
+- A structural/quantitative policy model is estimated but it is unclear *what in the data* pins each parameter
+- The counterfactual policy scenario relies on parameters whose policy-invariance is undefended
+- You must convince **two discussants at once** — one who will probe the econometrics, one who needs the design to be legible enough to trust the policy number
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| policy question is central | Make the policy question assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| European policy debate is central | Make the European policy debate assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| CEPR audience is central | Make the CEPR audience assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| welfare implication is central | Make the welfare implication assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| transparent counterfactual is central | Make the transparent counterfactual assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The EP identification bar
 
-## Economic Policy fit notes
+EP papers are debated by two named discussants and read by policymakers, so identification must be **both rigorous and legible**. The academic discussant will apply the modern frontier; the policy discussant must be able to follow *why* the estimate is causal without reading the appendix. The discipline: make the **mapping from data/variation to the policy claim** explicit in the main text in plain language, and carry the formal defense in a technical appendix (EP's house split — accessible main text, rigorous appendix). Because results feed a policy recommendation, the magnitude — not just the sign or the stars — must be defended; report standard errors and confidence intervals, never lean on significance asterisks for the headline claim.
 
-- Publisher / owner context: Oxford University Press / CEPR and partner institutions.
-- Submission route to re-check: OUP submission.
-- Signature vocabulary: policy question, European policy debate, CEPR audience, welfare implication, transparent counterfactual.
-- Sibling boundary: AEJ Economic Policy, Journal of Public Economics, IMF Economic Review, and World Bank Economic Review.
-- House-style aim: policy-first economics that states the decision problem, evidence, and limits plainly.
-- Official URLs currently used by the pack:
-- https://academic.oup.com/economicpolicy
-- https://academic.oup.com/economicpolicy/pages/General_Instructions
+## Branch A: Empirical causal design (most EP papers)
 
-## Stage-specific moves
+- **DID / event study:** with staggered policy adoption, move beyond TWFE — Callaway–Sant'Anna, Sun–Abraham, or de Chaisemartin–D'Haultfœuille. Show a clean event-study with pre-trends; a Goodman–Bacon decomposition pre-empts the "negative-weights" discussant.
+- **IV:** strong first stage (report it); with weak instruments use Anderson–Rubin / weak-IV-robust sets. Defend exclusion in three registers — theory, institutions, and a falsification test — because the policy discussant trusts institutional logic.
+- **RDD:** density test (McCrary / Cattaneo–Jansson–Ma), data-driven bandwidth + robustness, covariate smoothness, bias-corrected CIs. State who is at the cutoff and whether they are the policy-relevant population.
+- **Inference:** cluster at the policy-assignment level; address few-cluster problems (wild-cluster bootstrap) — many EP designs have few treated jurisdictions.
 
-1. State the exact identification strategy question in one sentence.
-2. Identify which Economic Policy audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `ecopol-theory-model` if the stage passes, or back to `ecopol-workflow` if it does not.
+## Branch B: Structural / quantitative policy model
+
+- **Name what identifies each parameter** — tie it to a data moment, not "the estimator converged."
+- **Targeted vs. untargeted moments:** report fit to targeted moments and validate against untargeted ones as out-of-sample discipline.
+- **Counterfactual policy-invariance:** the whole point of EP is the counterfactual policy. Argue (Lucas-critique style) that the estimated parameters are invariant to the policy you simulate; if they are not, say so and bound it.
+- **Numerical credibility:** state the objective (MLE/GMM/MSM), multi-start for the global optimum, tolerances; report Monte Carlo recovery of known parameters.
+
+## Translate the design for the policy reader
+
+For each design, write the one-sentence plain-language version that goes in the main text: e.g. "Because the reform applied only to firms just above a 50-employee threshold, firms just below serve as a control group — so the difference in their hiring is the reform's effect." The appendix carries the formal estimand and assumptions.
 
 ## Checklist
-- [ ] The Economic Policy audience can see why the paper belongs in policy-relevant economics papers written for an expert but broad policy audience.
-- [ ] The draft distinguishes Economic Policy from AEJ Economic Policy, Journal of Public Economics, IMF Economic Review.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for identification strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] One plain-language sentence in the main text: what variation identifies the policy effect
+- [ ] Modern estimator where TWFE would bias (staggered rollout) + clean event-study leads
+- [ ] IV: first stage reported; exclusion defended in theory + institutions + falsification
+- [ ] RDD: density + bandwidth robustness + bias-corrected CIs; cutoff population is policy-relevant
+- [ ] Structural: each parameter tied to a moment; counterfactual policy-invariance argued
+- [ ] Inference clustered at assignment level; few-cluster correction if needed
+- [ ] Headline magnitude reported with SE/CI; the policy claim never exceeds what identification supports
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Economic Policy without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- TWFE on staggered policy timing with no heterogeneity-bias discussion (the academic discussant pounces)
+- An exclusion restriction stated only as "plausibly exogenous" with no institutional or falsification backing
+- Running a counterfactual policy scenario on parameters whose invariance is never defended
+- Hiding the entire identification argument in the appendix so the policy discussant cannot follow the causal story
+- Headlining a policy recommendation off a starred coefficient without reporting the magnitude and its CI
 
 ## Output format
 
 ```text
-【Journal】Economic Policy
+【Journal】Economic Policy (EP)
 【Skill】ecopol-identification
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking identification strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not AEJ Economic Policy, Journal of Public Economics
-【Source status】verified URL / 待核实 / not asserted
+【Branch】empirical causal / structural-quantitative
+【Plain-language identification】one sentence for the policy reader
+【Frontier diagnostics】[event-study + Bacon / first-stage + AR / density + bandwidth / moments + invariance]
+【Inference】SE/CI + clustering level (no asterisk-driven headline)
+【What it does NOT identify】[...]
 【Next skill】ecopol-theory-model
 ```

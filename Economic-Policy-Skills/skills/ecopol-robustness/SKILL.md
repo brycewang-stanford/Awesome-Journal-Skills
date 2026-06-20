@@ -1,70 +1,70 @@
 ---
 name: ecopol-robustness
-description: Use when working on robustness strategy for a Economic Policy manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when an Economic Policy (EP) manuscript's results may be specification-, sample-, or inference-fragile, especially ahead of the two-discussant panel. Organizes robustness by the threat a discussant will raise; it does not invent evidence or citations.
 ---
 
 # Robustness Strategy (ecopol-robustness)
 
 ## When to trigger
-- The manuscript is aimed at **Economic Policy (Economic Policy)** and robustness strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's policy-relevant economics papers written for an expert but broad policy audience standard.
-- The paper risks being confused with nearby venues: AEJ Economic Policy, Journal of Public Economics, IMF Economic Review, and World Bank Economic Review.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The headline policy magnitude moves under plausible alternative specifications
+- A discussant could attribute the result to one sample, period, or country
+- Inference rests on few clusters / few treated units (common in policy evaluations)
+- The result is statistically significant but the **magnitude** — the part a policymaker uses — is imprecise
+- You are pre-empting the academic discussant's "have you tried…" before the conference
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| policy question is central | Make the policy question assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| European policy debate is central | Make the European policy debate assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| CEPR audience is central | Make the CEPR audience assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| welfare implication is central | Make the welfare implication assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| transparent counterfactual is central | Make the transparent counterfactual assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Robustness is discussant-proofing, not a checklist dump
 
-## Economic Policy fit notes
+At EP, robustness has a specific purpose: the paper will be debated live by **two invited discussants** who act as the referees, and the academic one will arrive with a list of fragility tests. So organize robustness **by the threat each test neutralizes**, not as a mechanical appendix of "alternative specifications." A reader (and the policy discussant) should see, for each test, *which way of being wrong it rules out*. Because EP papers carry a recommendation, the central object to defend is the **magnitude and its confidence interval**, not just the sign.
 
-- Publisher / owner context: Oxford University Press / CEPR and partner institutions.
-- Submission route to re-check: OUP submission.
-- Signature vocabulary: policy question, European policy debate, CEPR audience, welfare implication, transparent counterfactual.
-- Sibling boundary: AEJ Economic Policy, Journal of Public Economics, IMF Economic Review, and World Bank Economic Review.
-- House-style aim: policy-first economics that states the decision problem, evidence, and limits plainly.
-- Official URLs currently used by the pack:
-- https://academic.oup.com/economicpolicy
-- https://academic.oup.com/economicpolicy/pages/General_Instructions
+## The threat-to-test map (build the robustness section from this)
 
-## Stage-specific moves
+| Threat a discussant will raise | The test that answers it |
+|--------------------------------|--------------------------|
+| "It's driven by one period/sample" | leave-one-out by year/region; pre/post-crisis split |
+| "Functional form is doing the work" | alternative specifications; semi/non-parametric check |
+| "Parallel trends / pre-trends fail" | event-study leads; honest-DID / pre-trends sensitivity bounds |
+| "Confounders you didn't control for" | coefficient-stability / Oster δ bounds; placebo on unaffected groups |
+| "Inference is too optimistic with few clusters" | wild-cluster bootstrap; randomization inference |
+| "Measurement error in the policy variable" | alternative coding; instrument or bound the error |
+| "It won't generalize beyond this case" | replicate on a second jurisdiction/episode if data allow |
 
-1. State the exact robustness strategy question in one sentence.
-2. Identify which Economic Policy audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `ecopol-tables-figures` if the stage passes, or back to `ecopol-workflow` if it does not.
+## Craft moves
+
+- **Put a robustness summary in the main text**, not buried 40 pages deep: a compact figure or sentence showing the headline number is stable across the threats that matter. The policy discussant will not read the appendix.
+- **Distinguish robustness from heterogeneity.** Stable-everywhere = robust; differs-by-group = a finding to report, not a failure to hide.
+- **Report the range, not just a star.** "The effect lies between X and Y across all specifications" is the EP-useful statement.
+- **Pre-register the discussant's likely objections** (use `ecopol-referee-strategy`) and answer the top three in the main text proactively — you cannot reply live as easily as in a referee letter, so anticipate.
+- **Honesty about fragility.** If one test moves the number, say what it implies for the policy conclusion rather than hiding it — discussants will find it.
 
 ## Checklist
-- [ ] The Economic Policy audience can see why the paper belongs in policy-relevant economics papers written for an expert but broad policy audience.
-- [ ] The draft distinguishes Economic Policy from AEJ Economic Policy, Journal of Public Economics, IMF Economic Review.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for robustness strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Robustness section organized by threat, each test labeled with the threat it neutralizes
+- [ ] A main-text robustness summary (figure or sentence) — not appendix-only
+- [ ] Headline **magnitude + CI** shown to be stable (or its instability honestly bounded)
+- [ ] Few-cluster / few-treated inference addressed (wild bootstrap / randomization inference)
+- [ ] Pre-trends / parallel-trends sensitivity reported where the design needs it
+- [ ] Coefficient-stability or placebo evidence against unobserved confounders
+- [ ] Heterogeneity reported as a finding, not disguised as robustness
+- [ ] Top three likely discussant objections answered proactively in the main text
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Economic Policy without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A 20-table appendix of "alternative specifications" with no map to the threats they address
+- Defending only significance while the policy-relevant magnitude swings across specifications
+- Standard clustered SEs with five treated jurisdictions and no few-cluster correction
+- Burying every robustness result in the appendix where the policy discussant never sees it
+- Quietly dropping a specification that breaks the result instead of reporting and interpreting it
 
 ## Output format
 
 ```text
-【Journal】Economic Policy
+【Journal】Economic Policy (EP)
 【Skill】ecopol-robustness
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking robustness strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not AEJ Economic Policy, Journal of Public Economics
-【Source status】verified URL / 待核实 / not asserted
+【Headline magnitude】X (CI: [.,.]) — stable across threats? Y/N
+【Threats neutralized】[sample / functional form / pre-trends / confounders / inference / measurement / external]
+【Main-text summary】figure/sentence present? Y/N
+【Few-cluster inference】method used
+【Honest fragility note】what moves the number and the policy implication
 【Next skill】ecopol-tables-figures
 ```
