@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  :root{
+    --clay:#cc785c; --clay-deep:#b15a3f;
+    --slate:#3f566b; --slate-soft:#6b85a0; --gold:#be8c2e;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html,body{width:1200px;height:430px;background:#ffffff;}
+  .banner{
+    width:1200px;height:430px;overflow:hidden;position:relative;
+    background:linear-gradient(135deg,#23272d 0%,#2b3137 52%,#34302c 100%);
+    color:#f6f1e9;
+    font-family:"Segoe UI",-apple-system,"PingFang SC",sans-serif;
+    padding:34px 48px 0;
+  }
+  .banner::after{
+    content:"";position:absolute;right:-110px;top:-120px;
+    width:360px;height:360px;
+    background:radial-gradient(circle,rgba(204,120,92,.42),transparent 64%);
+  }
+  .kicker{
+    display:flex;align-items:center;gap:10px;
+    font-size:13px;letter-spacing:.22em;text-transform:uppercase;
+    color:#d8b9ac;font-weight:600;margin-bottom:14px;position:relative;z-index:2;
+  }
+  .kicker .dot{width:7px;height:7px;border-radius:50%;background:var(--clay);box-shadow:0 0 0 4px rgba(204,120,92,.25);}
+
+  .top{display:flex;align-items:flex-end;justify-content:space-between;gap:30px;position:relative;z-index:2;}
+  .brand-en{
+    font-family:"Iowan Old Style","Palatino Linotype",Georgia,serif;
+    font-size:54px;line-height:1.0;font-weight:700;letter-spacing:-.5px;
+  }
+  .brand-en .ajs{color:var(--clay);}
+  .brand-zh{margin-top:12px;font-size:20px;font-weight:600;color:#efe6da;letter-spacing:.01em;}
+  .brand-sub{margin-top:11px;font-size:14.5px;color:#b4b9bf;line-height:1.6;max-width:660px;}
+  .brand-sub b{color:#f1ddd2;font-weight:600;}
+
+  .stats{display:flex;gap:0;flex-shrink:0;}
+  .stat{padding:0 22px;text-align:center;border-left:1px solid rgba(255,255,255,.12);}
+  .stat:first-child{border-left:none;}
+  .stat .num{font-family:"Iowan Old Style",Georgia,serif;font-size:44px;font-weight:700;line-height:1;color:#fff;}
+  .stat.accent .num{color:var(--clay);}
+  .stat .lbl{margin-top:7px;font-size:12px;color:#aab0b6;letter-spacing:.04em;}
+
+  .cov{position:absolute;left:48px;right:48px;bottom:30px;z-index:2;}
+  .cov-bar{display:flex;height:30px;border-radius:6px;overflow:hidden;box-shadow:inset 0 0 0 1px rgba(255,255,255,.08);}
+  .seg{display:flex;align-items:center;justify-content:center;color:#fff;font-size:12.5px;font-weight:700;white-space:nowrap;}
+  .seg-cn{background:linear-gradient(180deg,var(--clay),var(--clay-deep));}
+  .seg-en1{background:linear-gradient(180deg,var(--slate),#33485a);}
+  .seg-en2{background:linear-gradient(180deg,var(--slate-soft),var(--slate));}
+  .seg-cs{background:linear-gradient(180deg,#c89a3a,var(--gold));}
+  .cov-cap{margin-top:9px;font-size:12px;color:#9aa0a6;display:flex;justify-content:space-between;}
+  .cov-cap b{color:#d8dde2;font-weight:600;}
+</style>
+</head>
+<body>
+<div class="banner">
+  <div class="kicker"><span class="dot"></span>Stanford REAP × CoPaper.AI · Open Source · MIT</div>
+  <div class="top">
+    <div>
+      <div class="brand-en">Awesome Journal Skills <span class="ajs">/ AJS</span></div>
+      <div class="brand-zh">A one-stop index of journal-specific AI submission workflows</div>
+      <div class="brand-sub">An open-source <b>Claude Code</b> Agent-Skill repo that encodes <b>each journal's</b> editorial taste, formatting red lines and identification bar — across the full lifecycle from topic to response letter.</div>
+    </div>
+    <div class="stats">
+      <div class="stat accent"><div class="num">1984</div><div class="lbl">Agent Skills</div></div>
+      <div class="stat"><div class="num">122</div><div class="lbl">Journal/Venue Packs</div></div>
+      <div class="stat accent"><div class="num">356</div><div class="lbl">Top Journals</div></div>
+      <div class="stat"><div class="num">155</div><div class="lbl">CS/AI Venues</div></div>
+    </div>
+  </div>
+  <div class="cov">
+    <div class="cov-bar">
+      <div class="seg seg-cn"  style="flex:102">CN 102</div>
+      <div class="seg seg-en1" style="flex:100">EN Econ/Biz 100</div>
+      <div class="seg seg-en2" style="flex:154">EN Natural Science/Clinical 154</div>
+      <div class="seg seg-cs"  style="flex:155">CS/AI Venues 155</div>
+    </div>
+    <div class="cov-cap"><span>Coverage</span><span><b>102 CN + 254 EN</b> top journals + 155 CS/AI venues</span></div>
+  </div>
+</div>
+</body>
+</html>

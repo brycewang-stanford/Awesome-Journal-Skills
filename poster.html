@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Awesome Journal Skills · 宣传海报</title>
+<style>
+  :root{
+    --paper:#f6f1e9;
+    --card:#fffdf9;
+    --ink:#20242a;
+    --ink-soft:#3a4149;
+    --muted:#6f7780;
+    --line:#e4ddd0;
+    --clay:#cc785c;
+    --clay-deep:#b15a3f;
+    --slate:#3f566b;
+    --slate-soft:#6b85a0;
+    --gold:#be8c2e;
+  }
+
+  *{box-sizing:border-box;margin:0;padding:0;}
+
+  html,body{
+    background:#d9cfbf;
+    background-image:
+      radial-gradient(circle at 20% 10%, rgba(204,120,92,.10), transparent 45%),
+      radial-gradient(circle at 85% 90%, rgba(63,86,107,.12), transparent 45%);
+    font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Segoe UI",-apple-system,sans-serif;
+    color:var(--ink);
+    -webkit-font-smoothing:antialiased;
+    padding:32px 16px;
+  }
+
+  .poster{
+    width:880px;
+    max-width:100%;
+    margin:0 auto;
+    background:var(--paper);
+    border:1px solid var(--line);
+    box-shadow:0 30px 80px -30px rgba(32,36,42,.55);
+    overflow:hidden;
+    position:relative;
+  }
+
+  /* ---------- masthead ---------- */
+  .masthead{
+    background:
+      linear-gradient(135deg,#23272d 0%,#2b3137 55%,#34302c 100%);
+    color:#f6f1e9;
+    padding:38px 48px 34px;
+    position:relative;
+    overflow:hidden;
+  }
+  .masthead::after{
+    content:"";
+    position:absolute;
+    right:-90px;top:-90px;
+    width:300px;height:300px;
+    background:radial-gradient(circle,rgba(204,120,92,.45),transparent 65%);
+  }
+  .kicker{
+    display:flex;align-items:center;gap:10px;
+    font-size:12px;letter-spacing:.22em;text-transform:uppercase;
+    color:#d8b9ac;font-weight:600;margin-bottom:18px;
+  }
+  .kicker .dot{width:7px;height:7px;border-radius:50%;background:var(--clay);box-shadow:0 0 0 4px rgba(204,120,92,.25);}
+  .brand-en{
+    font-family:"Iowan Old Style","Palatino Linotype",Georgia,"Songti SC",serif;
+    font-size:50px;line-height:1.02;font-weight:700;letter-spacing:-.5px;
+    margin-bottom:8px;position:relative;z-index:2;
+  }
+  .brand-en .ajs{color:var(--clay);}
+  .brand-zh{
+    font-size:20px;font-weight:600;color:#efe6da;letter-spacing:.04em;
+    position:relative;z-index:2;
+  }
+  .brand-sub{
+    margin-top:14px;font-size:14px;color:#b9bdc2;max-width:560px;line-height:1.6;
+    position:relative;z-index:2;
+  }
+  .brand-sub b{color:#f1ddd2;font-weight:600;}
+
+  /* ---------- stat strip ---------- */
+  .stats{
+    display:grid;grid-template-columns:repeat(4,1fr);
+    background:var(--ink);color:#f6f1e9;
+  }
+  .stat{
+    padding:22px 16px;text-align:center;border-right:1px solid rgba(255,255,255,.08);
+  }
+  .stat:last-child{border-right:none;}
+  .stat .num{
+    font-family:"Iowan Old Style",Georgia,serif;
+    font-size:40px;font-weight:700;line-height:1;color:#fff;
+  }
+  .stat.accent .num{color:var(--clay);}
+  .stat .lbl{margin-top:8px;font-size:12.5px;color:#aab0b6;letter-spacing:.05em;}
+
+  /* ---------- body ---------- */
+  .body{padding:34px 48px 20px;}
+
+  .pitch{
+    border-left:4px solid var(--clay);
+    padding:4px 0 4px 20px;margin-bottom:30px;
+  }
+  .pitch .q{
+    font-size:19px;font-weight:700;line-height:1.5;color:var(--ink);
+    font-family:"Songti SC","Iowan Old Style",Georgia,serif;
+  }
+  .pitch .q em{color:var(--clay-deep);font-style:normal;}
+  .pitch .a{margin-top:10px;font-size:13.5px;color:var(--muted);line-height:1.65;}
+
+  .section-h{
+    display:flex;align-items:baseline;gap:12px;margin-bottom:16px;
+  }
+  .section-h .zh{font-size:16px;font-weight:700;color:var(--ink);letter-spacing:.04em;}
+  .section-h .en{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--clay);font-weight:600;}
+  .section-h .rule{flex:1;height:1px;background:var(--line);}
+
+  /* coverage */
+  .coverage{margin-bottom:30px;}
+  .cov-bar{
+    display:flex;height:34px;border-radius:7px;overflow:hidden;
+    box-shadow:inset 0 0 0 1px rgba(0,0,0,.04);margin-bottom:14px;
+  }
+  .cov-seg{display:flex;align-items:center;justify-content:center;color:#fff;font-size:12px;font-weight:700;}
+  .seg-cn{background:linear-gradient(180deg,var(--clay),var(--clay-deep));}
+  .seg-en1{background:linear-gradient(180deg,var(--slate),#33485a);}
+  .seg-en2{background:linear-gradient(180deg,var(--slate-soft),var(--slate));}
+  .seg-cs{background:linear-gradient(180deg,#c89a3a,var(--gold));}
+
+  .cov-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;}
+  .cov-card{
+    background:var(--card);border:1px solid var(--line);border-radius:9px;
+    padding:14px 14px 13px;position:relative;
+  }
+  .cov-card .tag{display:flex;align-items:center;gap:7px;font-size:12px;color:var(--muted);font-weight:600;margin-bottom:6px;}
+  .cov-card .swatch{width:11px;height:11px;border-radius:3px;}
+  .cov-card .big{font-family:"Iowan Old Style",Georgia,serif;font-size:30px;font-weight:700;line-height:1;color:var(--ink);}
+  .cov-card .unit{font-size:12px;color:var(--muted);margin-left:3px;}
+  .cov-card .desc{margin-top:7px;font-size:11.5px;color:var(--muted);line-height:1.5;}
+  .sw-cn{background:var(--clay);}.sw-en1{background:var(--slate);}.sw-en2{background:var(--slate-soft);}.sw-cs{background:var(--gold);}
+
+  .cov-note{margin-top:13px;font-size:12px;color:var(--muted);line-height:1.6;}
+  .cov-note b{color:var(--ink-soft);}
+
+  /* lifecycle */
+  .flow{display:flex;align-items:stretch;gap:0;margin-bottom:28px;}
+  .step{
+    flex:1;background:var(--card);border:1px solid var(--line);
+    padding:13px 10px;text-align:center;position:relative;
+  }
+  .step:not(:last-child){border-right:none;}
+  .step:first-child{border-radius:9px 0 0 9px;}
+  .step:last-child{border-radius:0 9px 9px 0;}
+  .step .n{font-family:Georgia,serif;font-size:13px;color:var(--clay);font-weight:700;}
+  .step .t{margin-top:5px;font-size:12px;font-weight:600;color:var(--ink-soft);line-height:1.35;}
+  .step::after{
+    content:"›";position:absolute;right:-9px;top:50%;transform:translateY(-50%);
+    color:var(--clay);font-size:18px;font-weight:700;z-index:3;
+    background:var(--paper);padding:0 1px;
+  }
+  .step:last-child::after{display:none;}
+
+  /* two-col bottom */
+  .cols{display:grid;grid-template-columns:1.15fr 1fr;gap:22px;margin-bottom:28px;}
+  .disc-list{display:flex;flex-wrap:wrap;gap:8px;}
+  .chip{
+    background:#efe7da;border:1px solid var(--line);border-radius:20px;
+    padding:6px 13px;font-size:12.5px;color:var(--ink-soft);font-weight:600;
+  }
+  .chip.hot{background:var(--clay);color:#fff;border-color:var(--clay-deep);}
+
+  .use-box{background:#1f2429;border-radius:10px;padding:16px 18px;color:#e8e2d8;}
+  .use-box .lead{font-size:12.5px;color:#a9b0b7;margin-bottom:10px;}
+  .use-box code{
+    display:block;font-family:"SF Mono",ui-monospace,Menlo,monospace;
+    font-size:12px;line-height:1.7;color:#f2dccf;
+    background:#171b1f;border-radius:6px;padding:10px 12px;white-space:pre-wrap;
+  }
+  .use-box .tip{margin-top:10px;font-size:11.5px;color:#8b929a;line-height:1.5;}
+
+  /* footer */
+  .footer{
+    background:#2b3137;color:#cfd3d8;padding:22px 48px;
+    display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;
+  }
+  .footer .repo{font-family:"SF Mono",ui-monospace,Menlo,monospace;font-size:13px;color:#f1ddd2;font-weight:600;}
+  .footer .repo span{color:var(--clay);}
+  .footer .meta{font-size:11.5px;color:#9aa0a6;margin-top:5px;line-height:1.5;}
+  .badges{display:flex;gap:8px;flex-wrap:wrap;}
+  .badge{
+    font-size:10.5px;letter-spacing:.06em;border:1px solid rgba(255,255,255,.18);
+    border-radius:5px;padding:5px 9px;color:#d8dde2;text-transform:uppercase;
+  }
+  .badge.b-clay{background:var(--clay);border-color:var(--clay-deep);color:#fff;}
+
+  @media (max-width:680px){
+    .stats,.cov-grid{grid-template-columns:repeat(2,1fr);}
+    .cols{grid-template-columns:1fr;}
+    .flow{flex-wrap:wrap;}
+    .step{flex:1 1 30%;}
+    .brand-en{font-size:38px;}
+    .body,.masthead,.footer{padding-left:26px;padding-right:26px;}
+  }
+
+  @media print{
+    html,body{background:#fff;padding:0;}
+    .poster{box-shadow:none;border:none;width:100%;}
+    @page{size:A3 portrait;margin:8mm;}
+  }
+</style>
+</head>
+<body>
+<div class="poster">
+
+  <!-- MASTHEAD -->
+  <header class="masthead">
+    <div class="kicker"><span class="dot"></span>Stanford REAP × CoPaper.AI · Open Source · MIT</div>
+    <div class="brand-en">Awesome Journal Skills <span class="ajs">/ AJS</span></div>
+    <div class="brand-zh">按「期刊」定制的一站式 AI 投稿工作流索引</div>
+    <p class="brand-sub">
+      一个面向 <b>Claude Code</b> 的开源 Agent Skill 仓库——为<b>每一本期刊</b>单独编码它的
+      编委偏好、格式红线、识别标准与审稿文化，覆盖从选题到 Response Letter 的完整投稿生命周期。
+    </p>
+  </header>
+
+  <!-- STAT STRIP -->
+  <section class="stats">
+    <div class="stat accent"><div class="num">1984</div><div class="lbl">Agent Skills</div></div>
+    <div class="stat"><div class="num">122</div><div class="lbl">期刊 / 会议 Pack</div></div>
+    <div class="stat accent"><div class="num">356</div><div class="lbl">本顶级期刊</div></div>
+    <div class="stat"><div class="num">155</div><div class="lbl">个 CS / AI 顶会</div></div>
+  </section>
+
+  <!-- BODY -->
+  <main class="body">
+
+    <!-- PITCH -->
+    <div class="pitch">
+      <div class="q">同一篇文章，<em>退稿点完全不同</em>。</div>
+      <p class="a">
+        你的稿子在 <b>AER</b> 卡在识别策略，在《<b>管理世界</b>》卡在缺中国制度背景，在《<b>经济研究</b>》卡在缺经典理论文献。
+        一套泛泛的「学术写作」助手永远学不会这种差异——AJS 为每本刊单独建模。
+      </p>
+    </div>
+
+    <!-- COVERAGE -->
+    <div class="coverage">
+      <div class="section-h"><span class="zh">期刊覆盖</span><span class="en">Coverage</span><span class="rule"></span></div>
+      <div class="cov-bar">
+        <div class="cov-seg seg-cn"  style="flex:102" title="中文期刊 102">中文 102</div>
+        <div class="cov-seg seg-en1" style="flex:100" title="英文经管 100">英文经管 100</div>
+        <div class="cov-seg seg-en2" style="flex:154" title="英文自然科学 154">英文自然科学 / 临床 154</div>
+        <div class="cov-seg seg-cs"  style="flex:155" title="CS/AI 会议 155">CS / AI 会议 155</div>
+      </div>
+      <div class="cov-grid">
+        <div class="cov-card">
+          <div class="tag"><span class="swatch sw-cn"></span>中文期刊</div>
+          <div class="big">102<span class="unit">本</span></div>
+          <div class="desc">经管 · 社科 CSSCI 来源刊</div>
+        </div>
+        <div class="cov-card">
+          <div class="tag"><span class="swatch sw-en1"></span>英文 · 经管商科</div>
+          <div class="big">100<span class="unit">本</span></div>
+          <div class="desc">FT50 · UTD24 · ABS 顶刊</div>
+        </div>
+        <div class="cov-card">
+          <div class="tag"><span class="swatch sw-en2"></span>英文 · 自然科学</div>
+          <div class="big">154<span class="unit">本</span></div>
+          <div class="desc">临床 · 物理 · 化学 · 环境 · 农业</div>
+        </div>
+        <div class="cov-card">
+          <div class="tag"><span class="swatch sw-cs"></span>CS / AI 会议</div>
+          <div class="big">155<span class="unit">个</span></div>
+          <div class="desc">NeurIPS · ICML · ICLR · CVPR…</div>
+        </div>
+      </div>
+      <p class="cov-note">
+        合计 <b>中文 102 + 英文 254</b> 本顶级期刊 + 155 个 CS/AI 顶会。重点刊（《经济研究》《管理世界》《中国社会科学》/ AER · Science · Cell · NEJM · Lancet）
+        另以「<b>单刊全流程深度包</b>」形态收录，约 12 个 skill 覆盖一篇论文的完整生命周期。
+      </p>
+    </div>
+
+    <!-- LIFECYCLE -->
+    <div class="section-h"><span class="zh">一个 Pack = 一条投稿流水线</span><span class="en">Workflow</span><span class="rule"></span></div>
+    <div class="flow">
+      <div class="step"><div class="n">01</div><div class="t">选题<br>定位前沿</div></div>
+      <div class="step"><div class="n">02</div><div class="t">识别策略<br>方法对标</div></div>
+      <div class="step"><div class="n">03</div><div class="t">表格<br>图件规范</div></div>
+      <div class="step"><div class="n">04</div><div class="t">复制包<br>数据可得性</div></div>
+      <div class="step"><div class="n">05</div><div class="t">投稿<br>Cover Letter</div></div>
+      <div class="step"><div class="n">06</div><div class="t">Response<br>修改回复</div></div>
+    </div>
+
+    <!-- BOTTOM TWO COLS -->
+    <div class="cols">
+      <div>
+        <div class="section-h"><span class="zh">学科板块</span><span class="en">Disciplines</span><span class="rule"></span></div>
+        <div class="disc-list">
+          <span class="chip hot">经管社科</span>
+          <span class="chip">人文社科</span>
+          <span class="chip">自然科学</span>
+          <span class="chip">临床医学</span>
+          <span class="chip">AI 计算机</span>
+          <span class="chip">物理 · 化学</span>
+          <span class="chip">环境 · 农业</span>
+          <span class="chip">社会 · 政治 · 心理</span>
+        </div>
+      </div>
+      <div>
+        <div class="section-h"><span class="zh">如何使用</span><span class="en">Quick Start</span><span class="rule"></span></div>
+        <div class="use-box">
+          <div class="lead">在 Claude Code 中加载目标期刊的 Pack，把稿子交给它的 workflow：</div>
+          <code>“用《经济研究》的 skill
+帮我审一遍这篇稿子”</code>
+          <div class="tip">先看期刊 → 选定 Pack → 跑工作流。</div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div>
+      <div class="repo">github.com/<span>brycewang-stanford</span>/Awesome-Journal-Skills</div>
+      <div class="meta">由斯坦福实证方法论团队（Stanford REAP × CoPaper.AI）精选与维护 · Powered by StatsPAI · ⭐ Star us on GitHub</div>
+    </div>
+    <div class="badges">
+      <span class="badge b-clay">Claude Code</span>
+      <span class="badge">MIT License</span>
+      <span class="badge">Awesome List</span>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
