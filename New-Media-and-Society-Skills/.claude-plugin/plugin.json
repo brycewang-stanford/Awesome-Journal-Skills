@@ -1,0 +1,30 @@
+{
+  "name": "new-media-and-society-skills",
+  "description": "Agent skill stack for manuscripts targeted at New Media & Society (NM&S) — the leading interdisciplinary journal on digital media, the internet, and society, published by SAGE since 1999 and submitted through Sage Track (ScholarOne Manuscript Central) under strictly anonymous (double-anonymized) peer review. NM&S is methodologically pluralist and international: qualitative interviews and digital ethnography, critical and theoretical work, content and discourse analysis, computational methods, and mixed methods all appear in its pages. It targets manuscripts of about 8,000 words (all text including notes, references, tables, and charts), an unstructured abstract of about 150 words, at least four keywords, SAGE Harvard referencing, and SAGE/COPE research-ethics and data-availability norms with particular attention to the ethics of online and platform data (consent, anonymization, scraping, and platform terms of service). Covers topic selection and interdisciplinary fit (platforms and datafication, digital inequality, social media and online community, algorithms and AI in everyday life, digital labor, privacy and surveillance), literature positioning, theory building, research design across methods, data analysis and inference, exhibits, interdisciplinary writing, research ethics and transparency, the anonymous review process, Sage Track submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/new-media-and-society-skills",
+  "repository": "https://github.com/brycewang-stanford/new-media-and-society-skills",
+  "keywords": [
+    "new-media-and-society",
+    "nms",
+    "digital-media",
+    "internet-studies",
+    "platforms",
+    "datafication",
+    "digital-inequality",
+    "social-media",
+    "algorithms-and-ai",
+    "digital-labor",
+    "privacy-and-surveillance",
+    "anonymous-review",
+    "sage-harvard",
+    "sage-track",
+    "scholarone",
+    "sage"
+  ]
+}

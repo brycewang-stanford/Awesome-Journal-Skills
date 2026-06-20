@@ -1,0 +1,29 @@
+{
+  "name": "communication-research-skills",
+  "description": "Agent skill stack for manuscripts targeted at Communication Research (CR), SAGE's quantitative, social-scientific communication journal (founded 1974; bimonthly; ISSN 0093-6502 print / 1552-3810 online), submitted via SAGE Track (ScholarOne) under double-anonymized review where two independent reviews are required to back a Revise/Accept. CR concentrates on hypothesis-testing experiments and surveys with rigorous measurement and explicit theory across media effects and processing, persuasion and message effects, interpersonal and organizational communication, health and political communication, and new-media use and effects. Facts covered include the 45-page double-spaced limit inclusive of references, APA statistical reporting (effect sizes and standard deviations), double-anonymized anonymization with third-person self-citation, mediation/moderation process models with bootstrap CIs, intercoder reliability for content analysis, common-method-variance control, the data-availability statement, open-materials/data and preregistration, and ORCID. Distinguishes CR from the Journal of Communication (ICA all-paradigm flagship), Human Communication Research (interpersonal), and New Media & Society (digital, more qualitative). Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/communication-research-skills",
+  "repository": "https://github.com/brycewang-stanford/communication-research-skills",
+  "keywords": [
+    "communication-research",
+    "communication-science",
+    "sage",
+    "media-effects",
+    "message-effects",
+    "persuasion",
+    "health-communication",
+    "political-communication",
+    "mediation-moderation",
+    "content-analysis",
+    "survey-experiments",
+    "open-science",
+    "data-availability",
+    "academic-writing",
+    "sage-track"
+  ]
+}

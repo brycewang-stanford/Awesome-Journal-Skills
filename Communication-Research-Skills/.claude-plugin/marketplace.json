@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "communication-research-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Communication Research (CR), SAGE's quantitative, social-scientific communication journal.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "communication-research-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Communication Research (CR) manuscript lifecycle — hypothesis-testing experiments, surveys, and content analysis with rigorous measurement, mediation/moderation, and APA reporting.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/communication-research-skills",
+      "repository": "https://github.com/brycewang-stanford/communication-research-skills",
+      "keywords": [
+        "communication-research",
+        "communication-science",
+        "sage",
+        "media-effects",
+        "mediation-moderation",
+        "open-science",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/commres-workflow",
+        "skills/commres-topic-selection",
+        "skills/commres-literature-positioning",
+        "skills/commres-theory-building",
+        "skills/commres-research-design",
+        "skills/commres-data-analysis",
+        "skills/commres-tables-figures",
+        "skills/commres-writing-style",
+        "skills/commres-transparency-and-data",
+        "skills/commres-review-process",
+        "skills/commres-submission",
+        "skills/commres-rebuttal"
+      ]
+    }
+  ]
+}

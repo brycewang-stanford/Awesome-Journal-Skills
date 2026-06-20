@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "new-media-and-society-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at New Media & Society (NM&S), the leading interdisciplinary journal on digital media, the internet, and society.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "new-media-and-society-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the New Media & Society (NM&S) manuscript lifecycle across qualitative, critical, content/discourse, computational, and mixed methods.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/new-media-and-society-skills",
+      "repository": "https://github.com/brycewang-stanford/new-media-and-society-skills",
+      "keywords": [
+        "new-media-and-society",
+        "nms",
+        "digital-media",
+        "internet-studies",
+        "anonymous-review",
+        "sage-harvard",
+        "sage"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/newms-workflow",
+        "skills/newms-topic-selection",
+        "skills/newms-literature-positioning",
+        "skills/newms-theory-building",
+        "skills/newms-research-design",
+        "skills/newms-data-analysis",
+        "skills/newms-tables-figures",
+        "skills/newms-writing-style",
+        "skills/newms-transparency-and-data",
+        "skills/newms-review-process",
+        "skills/newms-submission",
+        "skills/newms-rebuttal"
+      ]
+    }
+  ]
+}
