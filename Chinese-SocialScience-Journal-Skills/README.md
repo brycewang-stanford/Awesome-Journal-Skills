@@ -8,7 +8,7 @@ English | [简体中文](README.zh-CN.md)
 
 An opinionated agent skill stack for the **100 Chinese economics / management roadmap journals** in the parent repository, plus two broader social-science flagships: 《中国社会科学》 and 《社会学研究》.
 
-Unlike the full lifecycle packs for 《经济研究》 and 《管理世界》, this pack ships **one self-contained fit-and-house-style skill per journal**, plus `cn-journal-workflow` for routing. Each journal skill helps answer: *is my manuscript on-target, how should it be framed, what methods and evidence does this journal expect, and what official submission details must be re-checked?*
+Unlike the full lifecycle packs for 《经济研究》 and 《管理世界》, this pack ships **one self-contained fit-and-house-style skill per journal**, plus `cn-journal-workflow` for routing. Each journal skill helps answer: *is my manuscript on-target, how should it be framed, what methods and evidence does this journal expect, and what official submission details must be re-checked?* By community request, it also adds the sport-science CSSCI flagship 《体育科学》 (China Sport Science); sport science has no standalone top-level category yet, so it is filed under **Other**.
 
 ## Coverage
 
@@ -18,6 +18,7 @@ Unlike the full lifecycle packs for 《经济研究》 and 《管理世界》, t
 | 管理学 / 战略 / 公共管理 | 30 roadmap journals, including management-world, management science, management review, systems engineering, public administration, soft science, S&T policy. |
 | 会计 / 审计 / 交叉 | 20 roadmap journals, including accounting, audit, social security, e-government, tax, securities market, business economics, regional finance journals. |
 | 额外社科旗舰 | social-sciences-in-china and sociological-studies, retained from the original ten-journal pack. |
+| Other (sport science) | 《体育科学》 (China Sport Science), the China Sport Science Society flagship CSSCI journal — the first non-econ/management addition, added by community request and filed under Other. |
 
 ## Quick Start
 
@@ -60,6 +61,7 @@ Every skill returns a fit verdict, method/evidence requirements, desk-reject ris
 | `china-rural-economy` | 《中国农村经济》 |
 | `china-rural-survey` | 《中国农村观察》 |
 | `china-soft-science` | 《中国软科学》 |
+| `china-sport-science` | 《体育科学》 (Other · sport science) |
 | `chinese-journal-of-management` | 《管理学报》 |
 | `chinese-journal-of-management-science` | 《中国管理科学》 |
 | `chinese-public-administration` | 《中国行政管理》 |

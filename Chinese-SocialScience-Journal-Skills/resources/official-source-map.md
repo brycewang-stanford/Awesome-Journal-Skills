@@ -23,6 +23,7 @@ do not treat third-party manuscript agencies as sources.
 | `china-rural-economy` | china-rural-economy | 检索“《中国农村经济》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式 | [`SKILL.md`](../skills/china-rural-economy/SKILL.md) |
 | `china-rural-survey` | china-rural-survey | 检索“《中国农村观察》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式 | [`SKILL.md`](../skills/china-rural-survey/SKILL.md) |
 | `china-soft-science` | china-soft-science | 检索“《中国软科学》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式 | [`SKILL.md`](../skills/china-soft-science/SKILL.md) |
+| `china-sport-science` | china-sport-science | 检索“《体育科学》 投稿须知 / 征稿简则 / 作者指南”，以期刊官网（中国体育科学学会主办）、官方采编系统或期刊官方 CNKI 页面为准；不要沿用二手代投网站格式 | [`SKILL.md`](../skills/china-sport-science/SKILL.md) |
 | `chinese-journal-of-management` | chinese-journal-of-management | 检索“《管理学报》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式 | [`SKILL.md`](../skills/chinese-journal-of-management/SKILL.md) |
 | `chinese-journal-of-management-science` | chinese-journal-of-management-science | 检索“《中国管理科学》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式 | [`SKILL.md`](../skills/chinese-journal-of-management-science/SKILL.md) |
 | `chinese-public-administration` | chinese-public-administration | 检索“《中国行政管理》 投稿须知 / 征稿简则 / 作者指南”，以最新页面为准；不要沿用二手代投网站格式 | [`SKILL.md`](../skills/chinese-public-administration/SKILL.md) |
