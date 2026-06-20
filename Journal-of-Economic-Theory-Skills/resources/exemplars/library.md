@@ -3,8 +3,8 @@
 > **Verified via web search, access date 2026-06-08.** Every paper below was checked against its
 > Elsevier / ScienceDirect article page to confirm it actually appeared in *The Journal of Economic
 > Theory* (publisher Elsevier; DOI/PII family `10.1016/0022-0531...` / `10.1016/j.jet...`, ScienceDirect
-> PII beginning `0022-0531` or `S0022-0531`). Papers that could not be fully verified **as JET** — or
-> that turned out to be in a sibling journal — were **omitted and documented below**. This is
+> PII beginning `0022-0531` or `S0022-0531`). Papers not fully verified **as JET** — or
+> papers found in a sibling journal — were **omitted and documented below**. This is
 > deliberately a short, clean list (6 verified) rather than a long, uncertain one.
 >
 > **Sibling-confusion guard.** JET is **not** *Econometrica*, *Theoretical Economics*, *Games and

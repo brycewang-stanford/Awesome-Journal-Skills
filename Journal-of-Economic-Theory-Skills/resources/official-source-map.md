@@ -1,104 +1,67 @@
 # JET Official Source Map
 
-Primary and authoritative sources behind every Journal of Economic Theory (JET) fact
-injected into this skill pack. Access date for all entries: **2026-06-01**.
-Re-verify volatile items (lead editor, fees, length caps, exact reference style,
-data policy wording) on the live page before relying on them — journal pages change.
+Primary and authoritative sources behind the Journal of Economic Theory (JET)
+facts injected into this skill pack. **Policy refresh date: 2026-06-20.** Re-check
+the live ScienceDirect pages before submission because editor rosters, calls, and
+submission details can change.
 
-Items that could NOT be confirmed against a reachable official source are marked **待核实**
-(to be verified) and are NOT used as load-bearing facts in any skill.
+## Official journal & publisher pages
 
-## Scope, review model, identity
+- **https://www.sciencedirect.com/journal/journal-of-economic-theory** — JET
+  homepage on ScienceDirect. Verifies: publisher = Elsevier; current homepage
+  submission link points to **Editorial Manager**; open-access APC is **USD 3,130
+  excluding taxes**; subscription publication has no publication fee charged to
+  authors; ScienceDirect displays decision-time insights; current **Lead Editor =
+  Faruk Gul** at Princeton University.
+- **https://www.sciencedirect.com/journal/journal-of-economic-theory/about/editorial-board** —
+  official editorial board. Verifies: **Faruk Gul** as Lead Editor; Editors
+  **Manuel Amador**, **Pierpaolo Battigalli**, **Marco Ottaviani**, and
+  **Juuso Valimaki**; Founding Editor **Karl Shell**; Journal Manager **Bibin
+  Thomas**; and an associate-editor board spanning 62 editors/board members in
+  13 countries/regions.
+- **https://www.sciencedirect.com/journal/journal-of-economic-theory/publish/guide-for-authors** —
+  Guide for Authors. Verifies: JET publishes original research on economic
+  theory and is the broadest general-interest journal among economic-theory
+  journals; it strives to respond within four months; empirical, experimental,
+  quantitative, and computational contributions are welcome only when firmly
+  grounded in theory; themes include mechanism design, information, finance,
+  matching, decision theory, game theory, political economy, market design,
+  macroeconomics, and monetary economics.
+- The same Guide verifies review and submission facts: JET uses **single
+  anonymized** review; editors first assess suitability; suitable manuscripts
+  are usually sent to at least **two reviewers**; editors make the final decision;
+  authors must declare generative-AI use in manuscript preparation; reviewers and
+  editors may not use generative-AI tools in evaluation; authors may choose SSRN
+  posting during submission once the manuscript passes initial desk review; online
+  submission is through **Editorial Manager**, which converts uploaded article
+  files to a peer-review PDF.
+- The same Guide verifies format and style facts: editable Word/LaTeX files are
+  required; a PDF is not an acceptable source file; abstracts must be concise,
+  factual, and **not exceed 250 words**; **1-7 English keywords** are required;
+  Highlights are encouraged as a separate editable file with **3-5 bullets**, each
+  no more than **85 characters**; graphical abstracts are encouraged but optional;
+  tables/equations/figures should be editable or separately supplied as relevant.
+- The same Guide verifies research-data facts: Elsevier **Option C** instructions
+  apply, so authors are required to deposit research data in a relevant repository
+  and cite/link it, or state why the data cannot be shared; data statements are
+  supported in the submission flow and appear with the published article; Data in
+  Brief / MethodsX co-submission is available through Editorial Manager.
+- The same Guide verifies reference facts: references cited in the abstract must
+  be given in full; unpublished results and personal communications should
+  generally stay out of the reference list; first submission has no strict
+  reference-format requirement if references are complete and consistent; JET's
+  proof-stage style is **name-year / author-year**, with reference list arranged
+  alphabetically and chronologically.
 
-- **https://www.sciencedirect.com/journal/journal-of-economic-theory/publish/guide-for-authors**
-  — Official Guide for Authors (ScienceDirect). Verifies: **single anonymized (single-blind) review**
-  — editors first assess suitability, suitable papers go to a **minimum of two reviewers**, and the
-  **editors make the accept/reject decision**; scope spans mechanism design, information economics,
-  finance theory, matching, decision theory, game theory, political economy, market design,
-  macroeconomics and monetary economics; **empirical/experimental/quantitative/computational work is
-  welcome only when grounded in theory**; **authors must declare generative-AI use at submission**;
-  **print ISSN 0022-0531**. NOTE: this official page returned **HTTP 403** to automated fetches on
-  the access date; the listed facts are cross-confirmed via the secondary sources below and treated
-  as high-confidence but re-confirmable.
+## Current operational notes
 
-- **https://en.wikipedia.org/wiki/Journal_of_Economic_Theory**
-  — Verifies: publisher **Elsevier (Academic Press / Elsevier Science)**; bimonthly peer-reviewed
-  journal; **print ISSN 0022-0531, electronic ISSN 1095-7235**; founded 1968/1969. Historical
-  editorship (Karl Shell from 1968, sharing editorship since 2000 with Benhabib, Lizzeri, Hellwig,
-  and more recently Pavan, Lagos, Siniscalchi, Vives) — treated as historical context only, not a
-  current masthead claim. See 待核实 below.
-
-## Submission system
-
-- **https://manusights.com/blog/journal-of-economic-theory-submission-guide**
-  — Secondary submission guide. Cross-confirms: submission is via **Elsevier Editorial Manager**;
-  manuscripts are submitted through Editorial Manager's attach-files page. Treated as secondary;
-  consistent with Elsevier's standard portal for this journal.
-
-## Fees (submission fee vs. open-access APC — do not conflate)
-
-- **https://kochiuyu.github.io/others/journalfee/**
-  — Third-party economics journal-fee tracker. Lists JET as charging **no submission fee ("Free")**.
-  Secondary; the official guide could not be machine-read to confirm. See 待核实.
-
-- **https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees**
-  — Elsevier submission-fee policy. Verifies: ~50 of Elsevier's economics/finance/accounting journals
-  levy submission fees; **when charged, the fee is flagged in the journal's guide for authors and at
-  submission**, with waivers for authors of limited means, developing-country researchers, editorial
-  board members, solicited work, and some students. Used to frame the fee question, not to assert a
-  specific JET amount.
-
-- **https://www.sciencedirect.com/journal/journal-of-economic-theory/publish/open-access-options**
-  — Official open-access options page. Verifies: JET is a **hybrid journal**; the open-access **Article
-  Publishing Charge (APC) is USD 3,130 (excluding taxes)**; open-access authors retain copyright and
-  grant Elsevier publishing/distribution rights. This APC is **separate** from any submission fee.
-
-## Data / replication policy
-
-- **https://github.com/atrisovic/econ-data-policy**
-  — Economics data-policy compilation. Verifies: Elsevier **recommends but does not require** data
-  sharing for this journal; options include linking to a repository, **Mendeley Data**, a **Data in
-  Brief** co-submission, or a data statement. Consistent with JET's theory-first orientation (no
-  JAE-Data-Archive-style mandatory replication archive).
-
-## Formatting / reference style
-
-- **https://scispace.com/formats/elsevier/journal-of-economic-theory/301bffde138aec54fad490b1397d1758**
-  — Template/formatting source. Verifies: JET uses the **Elsevier `elsarticle` LaTeX template**;
-  reference styles include **`elsarticle-harv` (name-year)** and **`elsarticle-num` (numbered)**;
-  **source files must be editable `.tex` (PDF is not accepted as a source file)**.
-
-- Guide-for-authors (URL above) also verifies: **references cited in the abstract must be given in
-  full**; **unpublished results / personal communications should generally be kept out of the
-  reference list**.
-
-## 待核实 (could NOT be confirmed against a reachable official source — NOT used as load-bearing)
-
-- **Current lead editor / editor-in-chief — 待核实.** The authoritative ScienceDirect editorial-board
-  page (`sciencedirect.com/journal/journal-of-economic-theory/about/editorial-board`) returned **HTTP
-  403** and could not be fetched. Secondary/mirror sources conflict and are likely dated: Wikipedia
-  describes a historical multi-editor model; an old Elsevier page labeled Alessandro Pavan "Lead
-  Editor"; one AI-generated summary claimed "Faruk Gul, lead editor as of 2024," which could NOT be
-  confirmed against any reachable official source. JET historically uses a **"Lead Editor + Editors"**
-  structure rather than a single conventional editor-in-chief. **Verify the current lead editor
-  directly on the live ScienceDirect editorial-board page before relying on a name.**
-
-- **Manuscript length / word limit — 待核实.** No length or word cap found in any reachable source; the
-  official guide was 403-blocked. JET is widely understood to impose no strict length cap on theory
-  papers, but this could not be officially confirmed.
-
-- **Abstract word limit — 待核实.** No abstract word-count limit found in reachable sources; only the
-  rule that references cited in the abstract must be given in full was confirmed.
-
-- **Submission fee = $0 — 待核实.** Marked "no fee indicated" based on a third-party tracker plus
-  Elsevier's general statement that fees, when charged, are flagged in the guide. The official JET
-  guide could not be directly fetched (403) to confirm. Do **not** conflate the no-submission-fee
-  status with the separate open-access APC of USD 3,130.
-
-- **Single canonical reference style — 待核实.** JET permits both name-year (`elsarticle-harv`) and
-  numbered (`elsarticle-num`) Elsevier styles per template sources; the single required style was not
-  confirmable from the blocked official guide. Confirm the exact required style in the live guide.
-
-- **JEL codes / keywords as a verbatim JET requirement — 待核实.** Stated as expected per standard
-  Elsevier economics-journal practice but not directly quoted from the (blocked) official JET guide.
-  Treat as standard-practice inference, not a verbatim JET rule.
+- Treat **Editorial Manager** as the submission route.
+- Treat **Faruk Gul** as current Lead Editor and avoid relying on historical
+  lead-editor lists.
+- Treat the **USD 3,130** amount as an open-access APC, not a submission fee.
+  The currently inspected official pages do not list a JET submission fee.
+- Treat JET as **single anonymized**: authors need not anonymize the manuscript
+  for blind review, but self-citations and prior work should be handled plainly.
+- Treat data sharing as deposit/cite/link-or-explain when research data exist;
+  pure theorem papers should still make any numerical or computational artifact
+  reproducible.

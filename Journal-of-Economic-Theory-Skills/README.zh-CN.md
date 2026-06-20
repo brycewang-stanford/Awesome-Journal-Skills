@@ -19,12 +19,12 @@
 | `jet-data-analysis` | 处理从属于理论的数值例子或计算。 |
 | `jet-tables-figures` | 准备理论图示、机制图、表格和符号展示。 |
 | `jet-writing-style` | 打磨 Elsevier/LaTeX 的 theorem-proof 写作。 |
-| `jet-replication-and-data-policy` | 准备可选的数据/代码共享和 AI 使用声明。 |
+| `jet-replication-and-data-policy` | 准备 Option C 数据声明、可复现计算和 AI 使用声明。 |
 | `jet-review-process` | 理解 single-anonymized 审稿和理论 referee 期待。 |
 | `jet-submission` | 进行 Editorial Manager 投稿前检查。 |
 | `jet-rebuttal` | 回复关于正确性、一般性、贡献和表达的审稿意见。 |
 
 ## 资料
 
-- `resources/official-source-map.md`：JET 官方和辅助来源，含待核实项。
+- `resources/official-source-map.md`：JET 官方来源和投稿、审稿、数据、格式依据。
 - `resources/external_tools.md`：LaTeX、证明、数值计算和复现工具。

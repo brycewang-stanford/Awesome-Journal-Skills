@@ -30,13 +30,13 @@ JET's constraints differ materially from an empirical flagship (QJE) or an econo
 | "Identification"      | **Assumptions, results, proof exposition, generality**               | There is no causal design — credibility is proof + minimal assumptions |
 | References            | Elsevier style; **abstract references in full**; no personal comms   | Abbreviated abstract cites / personal communications are off-norm |
 | Review                | **Single-anonymized**, **≥2 referees**, editors decide               | Referees verify proofs; reputation is visible (single-blind)      |
-| Governance            | **"Lead Editor + Editors"** routing by field                         | Name the subfield so the right editor picks the paper up          |
-| Data / replication    | **Encouraged, not required** (no JAE-Data-Archive analogue)          | No mandatory package; make any computation reproducible anyway    |
+| Governance            | **Lead Editor Faruk Gul + Editors** routing by field                 | Name the subfield so the right editor picks the paper up          |
+| Data / replication    | Elsevier **Option C** for research data; pure theory still centers proofs | Deposit/link data when present, or explain why not; make computation reproducible |
 | AI use                | **Authors disclose** at submission; **referees/editors barred**       | Disclosure is a submission step, not optional                     |
 
-Volatile specifics — the **current lead editor**, the **submission fee**, **length / abstract caps**, and the **single required reference style** — could not be confirmed against a reachable official source at build time and are marked **待核实** (to be verified). See [`resources/official-source-map.md`](resources/official-source-map.md).
+Core policy facts were refreshed from official ScienceDirect pages on 2026-06-20: Editorial Manager submission, Lead Editor Faruk Gul, single-anonymized review, 250-word abstract, 1-7 keywords, optional Highlights, author-year proof-stage references, SSRN posting, generative-AI disclosure, and Elsevier Option C data policy. See [`resources/official-source-map.md`](resources/official-source-map.md).
 
-> **Fee vs. APC, do not conflate:** JET appears to charge **no submission fee** (待核实), but it is a hybrid journal with a separate **open-access APC of USD 3,130** that applies only if you choose open access *after* acceptance.
+> **Fee vs. APC, do not conflate:** the inspected official pages do not list a JET submission fee, but JET is a hybrid journal with a separate **open-access APC of USD 3,130** that applies only if you choose open access *after* acceptance.
 
 ---
 
@@ -86,7 +86,7 @@ jet-tables-figures             (schematic exhibits, notation discipline)
         ▼
 jet-writing-style              (elsarticle theorem-proof prose; polish)
         ▼
-jet-replication-and-data-policy (encouraged, not required; reproducible computation)
+jet-replication-and-data-policy (Option C data statement; reproducible computation)
         ▼
 jet-review-process             (what single-anonymized refereeing expects)
         ▼
@@ -111,7 +111,7 @@ jet-rebuttal                   (single-anonymized R&R response letter)
 | `jet-data-analysis`              | Numerical examples / computation, subordinate to theory (light)              |
 | `jet-tables-figures`             | Schematic theory exhibits; notation discipline (light)                       |
 | `jet-writing-style`              | Elsevier `elsarticle` theorem-proof house style                              |
-| `jet-replication-and-data-policy`| Encouraged-not-required sharing; reproducible computation; AI disclosure      |
+| `jet-replication-and-data-policy`| Option C data statement; reproducible computation; AI disclosure              |
 | `jet-review-process`             | Single-anonymized, ≥2 referees, editor-decides pipeline                       |
 | `jet-submission`                 | Editorial Manager preflight (editable `.tex`, abstract refs, AI declaration)   |
 | `jet-rebuttal`                   | R&R response strategy (correctness / generality / exposition)                 |
@@ -119,7 +119,7 @@ jet-rebuttal                   (single-anonymized R&R response letter)
 ### Resources
 
 - [`resources/external_tools.md`](resources/external_tools.md) — elsarticle/LaTeX toolchain, proof-checking and reproducible-computation aids for theory papers
-- [`resources/official-source-map.md`](resources/official-source-map.md) — official JET URLs behind every fact, with `待核实` items flagged
+- [`resources/official-source-map.md`](resources/official-source-map.md) — official JET URLs behind submission, review, data, and style facts
 
 ---
 
@@ -129,7 +129,7 @@ jet-rebuttal                   (single-anonymized R&R response letter)
 |--------------------|---------------------------------------|-----------------------------------|-------------------------------|
 | Lead with          | A theorem / characterization          | A big empirical-micro question    | A method / estimator          |
 | "Identification"   | Assumptions + proof + generality      | Causal design (RCT/DID/IV/RDD)    | Estimator properties          |
-| Data / replication | Encouraged, not required              | Required (QJE Dataverse)          | Required (data editor)        |
+| Data / replication | Option C data statement; no theorem-only archive | Required (QJE Dataverse) | Required (data editor)        |
 | House style        | elsarticle theorem-proof, `.tex`      | Author-date, single PDF           | Theorem-proof rigor           |
 | Review             | Single-anonymized, ≥2 referees        | Double-blind                      | Varies                        |
 
@@ -139,7 +139,7 @@ jet-rebuttal                   (single-anonymized R&R response letter)
 
 - It does not write a submittable proof or manuscript for you
 - It does not check whether your theorem is correct — that is the author's and referees' job
-- It does not assert volatile metadata (current lead editor, exact fee, length caps, single reference style) — these are marked `待核实`; verify on the official page
+- It does not replace the live submission flow; recheck fees, calls, and editor roster before submission
 - It does not judge whether your contribution is genuinely original — that is the researcher's call
 
 ---

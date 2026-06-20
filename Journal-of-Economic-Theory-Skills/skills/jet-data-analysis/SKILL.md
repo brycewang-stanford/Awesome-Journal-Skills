@@ -30,7 +30,9 @@ default is *minimal* numerical content.
   assumption cannot be dropped (feeds jet-identification-strategy and jet-rebuttal).
 - **Reproducibility.** Provide a small self-contained script (SymPy/`numpy`/`scipy`, Julia, MATLAB/Octave)
   that regenerates every reported number and figure; pin versions and **set/report seeds** for anything
-  stochastic. Sharing is **encouraged, not required** (see jet-replication-and-data-policy).
+  stochastic. If the paper uses research data, Elsevier **Option C** requires a repository citation/link
+  or a cannot-share explanation; if it only has computation, share enough code for the referee to
+  reproduce the numerical claim (see jet-replication-and-data-policy).
 - **If genuinely empirical/experimental:** state the theoretical prediction first, then test it; the
   prediction is the contribution.
 

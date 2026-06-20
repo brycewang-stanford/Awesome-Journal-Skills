@@ -1,6 +1,6 @@
 ---
 name: jet-writing-style
-description: Use when applying the Journal of Economic Theory (JET) house style to a manuscript — the Elsevier elsarticle theorem-proof format with definition/assumption/proposition/theorem/proof structure, disciplined notation, full references in the abstract, and an Elsevier reference style. For drafting and polishing JET prose; it does not check proofs.
+description: Use when applying the Journal of Economic Theory (JET) house style to a manuscript — the Elsevier elsarticle theorem-proof format with definition/assumption/proposition/theorem/proof structure, disciplined notation, full references in the abstract, 250-word abstract, 1-7 keywords, optional Highlights, and author-year proof-stage references. For drafting and polishing JET prose; it does not check proofs.
 ---
 
 # Writing Style (jet-writing-style)
@@ -21,11 +21,13 @@ description: Use when applying the Journal of Economic Theory (JET) house style 
   every formal statement without hunting through prose.
 - **Notation discipline.** Introduce each symbol once, never reuse a symbol for two objects, keep the
   body and proofs identical. A notation table helps in long papers.
-- **References.** Elsevier style — `elsarticle-harv` (name-year) or `elsarticle-num` (numbered); the
-  required one is **待核实**, confirm in the live guide. **References cited in the abstract must be given
-  in full.** Keep **unpublished results / personal communications out of the reference list.**
-- **JEL codes and keywords** are expected per standard Elsevier economics practice (verbatim-rule
-  status is **待核实**).
+- **References.** First submission can use any complete, consistent reference format. JET's proof-stage
+  style is **name-year / author-year**; `elsarticle-harv` is the safest LaTeX default. **References
+  cited in the abstract must be given in full.** Keep **unpublished results / personal communications
+  out of the reference list.**
+- **Abstract / keywords / Highlights.** Keep the abstract to **250 words or fewer**, supply **1-7
+  English keywords**, and include Highlights only if you can make **3-5 bullets** of **85 characters or
+  fewer** each. JEL codes are optional metadata rather than a substitute for clear keywords.
 - **Generative-AI disclosure** belongs in the submission, not the prose; reviewers/editors are barred
   from using such tools — write so a human expert can follow every step.
 
@@ -101,7 +103,8 @@ that bounds it. Run this transformation on every hedge word in the abstract and 
 ```
 【Format】elsarticle .tex, amsthm environments? [Y/N]
 【Notation】one symbol ↔ one object, body=proof? [Y/N]
-【References】Elsevier style; abstract refs in full; no personal comms? [Y/N]
-【Disclosures】JEL+keywords; AI declared at submission? [Y/N]
+【References】author-year ready; abstract refs in full; no personal comms? [Y/N]
+【Metadata】≤250-word abstract; 1-7 keywords; Highlights compliant if used? [Y/N]
+【Disclosures】AI declared at submission? [Y/N]
 【Next】jet-tables-figures / jet-submission
 ```

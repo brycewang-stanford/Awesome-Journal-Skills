@@ -11,7 +11,7 @@ description: Use when interpreting the Journal of Economic Theory (JET) review p
 - You are deciding how defensively to write proofs and which objections to pre-empt
 - You received a decision and want to read it against JET's actual process
 
-## How JET evaluates (verified where reachable)
+## How JET evaluates (verified 2026-06-20)
 
 - **Two-stage flow.** Editors first assess **suitability** (a desk-screen / desk-rejection stage);
   papers that pass are sent out for refereeing.
@@ -24,7 +24,8 @@ description: Use when interpreting the Journal of Economic Theory (JET) review p
 - **Editors decide.** The accept/reject decision is taken by the **editors**. JET uses a multi-editor
   **"Lead Editor + Editors"** governance: a submission is routed to whichever editor's field best
   matches, and that editor — not a single managing editor-in-chief — makes the call. The current
-  lead editor is **待核实** (the official editorial-board page was unreachable; verify before naming anyone).
+  official board lists **Faruk Gul** as Lead Editor, with Editors **Manuel Amador**,
+  **Pierpaolo Battigalli**, **Marco Ottaviani**, and **Juuso Valimaki**.
 - **Generative-AI bar on evaluators.** Reviewers and editors are **prohibited** from using
   generative-AI tools in the evaluation process; authors, separately, must disclose AI use at submission.
 
@@ -79,5 +80,5 @@ Referee your own paper in JET's order of attention:
 【Stage now】desk-screen / out-to-referees / decision
 【Review model】single-anonymized, ≥2 referees, editor decides
 【Pre-empt】<top correctness/generality objection to neutralize> → jet-rebuttal / jet-identification-strategy
-【待核实】current lead editor — verify on official board page
+【Editor route】subfield matched to Lead Editor / Editor roster? [Y/N]
 ```

@@ -38,7 +38,7 @@ jet-tables-figures           (schematic exhibits, notation discipline)
         ▼
 jet-writing-style            (elsarticle theorem-proof prose; polish)
         ▼
-jet-replication-and-data-policy (encouraged, not required; reproducible computation)
+jet-replication-and-data-policy (Option C data statement; reproducible computation)
         ▼
 jet-review-process           (what single-anonymized refereeing expects)
         ▼
@@ -70,7 +70,7 @@ hidden assumption, unreadable proof, notation drift, or unsupported submission f
 | Full draft, introduction shaped like a data story | theorem buried at the desk screen | jet-contribution-framing, then jet-writing-style |
 | A numerical section dominating the paper | computation overshadowing the theory | jet-data-analysis |
 | Exhibits renaming model objects | notation drift across figure and proof | jet-tables-figures |
-| Camera-ready PDF, source files unverified | format bounce (PDF-as-source) | jet-submission |
+| Camera-ready PDF, source files not checked | format bounce (PDF-as-source) | jet-submission |
 | R&R letter alleging a proof gap | broken-lemma risk | jet-rebuttal plus jet-identification-strategy |
 
 ## Routing vignette: a dynamic-contracts paper
@@ -87,8 +87,9 @@ limited commitment, plus one computed example. The pass order actually used:
 5. Data-analysis — the computed contract path demoted to Example 2 with a pinned script.
 6. Tables-figures → writing-style → submission, in order.
 
-One skill was consciously skipped: replication (no JET obligation; the script was shared anyway).
-Record deliberate skips so a later pass does not mistake them for gaps.
+One skill was consciously skipped until submission: no external research data existed, but the computed
+example script was still made reproducible and the eventual Option C statement said so plainly. Record
+deliberate skips so a later pass does not mistake them for gaps.
 
 ## Loops, not a one-way pipe
 
@@ -105,5 +106,5 @@ Record deliberate skips so a later pass does not mistake them for gaps.
 【Where you are】<stage>
 【Use next】jet-<skill>
 【Why】<one line tied to JET's theory-first bar>
-【Open 待核实】<lead editor / fee / length if relevant>
+【Volatile facts checked】editor roster / APC / abstract cap / data statement? [Y/N]
 ```

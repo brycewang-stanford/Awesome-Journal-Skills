@@ -11,8 +11,8 @@ computation**, not large-scale data work. Check licenses and current access term
 
 - **LaTeX with the Elsevier `elsarticle` document class** — the standard for JET theory papers.
   Source files must be editable `.tex`; PDF is not accepted as a source file.
-- **Reference styles**: `elsarticle-harv` (name-year) and `elsarticle-num` (numbered) are both
-  available per template sources; confirm the single required style in the live guide for authors.
+- **Reference style**: first submission may use any complete, consistent reference format; JET's
+  proof-stage style is name-year / author-year. `elsarticle-harv` is the safest LaTeX default.
 - Distributions: TeX Live / MacTeX; **Overleaf** for collaborative drafting.
 - Theorem environments: `amsthm`, `amsmath`, `amssymb`, `mathtools`; `cleveref` for clean
   `\cref` cross-references to numbered results; `thm-restate` to restate theorems in an appendix.
@@ -21,7 +21,7 @@ computation**, not large-scale data work. Check licenses and current access term
 
 ## 2. Reference managers
 
-- Zotero, BibTeX / BibLaTeX, EndNote — set to the Elsevier name-year or numbered style.
+- Zotero, BibTeX / BibLaTeX, EndNote — set to the Elsevier name-year / author-year style.
 - Keep **unpublished results / personal communications out of the reference list** (JET norm);
   cite working papers only where genuinely load-bearing.
 - **References cited in the abstract must be given in full** — store complete entries, not "et al."
@@ -40,15 +40,17 @@ computation**, not large-scale data work. Check licenses and current access term
 
 ## 4. Reproducible numerical examples (only if the paper has them)
 
-JET imposes **no mandatory data/code archive** (data sharing is encouraged, not required). When a
-paper includes numerical examples, simulations, or computed equilibria:
+JET has no journal-run replication archive, but Elsevier **Option C** applies when research data
+exist: deposit/cite/link the data in a relevant repository, or explain why sharing is not possible.
+When a paper includes numerical examples, simulations, or computed equilibria:
 
 - Provide a small, self-contained script (Python + `numpy`/`scipy`, MATLAB/Octave, or Julia) that
   regenerates every numerical figure, table, and reported value.
 - Pin the environment (`requirements.txt`, `Project.toml`/`Manifest.toml`, recorded toolbox
   versions) and **set/report random seeds** for any stochastic illustration.
-- Share via a linked repository, **Mendeley Data**, a **Data in Brief** co-submission, or a data
-  statement — per Elsevier's encouraged-not-required options. There is no JAE-Data-Archive analogue.
+- Share via a linked repository, **Mendeley Data**, a **Data in Brief** co-submission, or another
+  appropriate repository, then cite/link it in the data statement. There is no JAE-Data-Archive
+  analogue.
 
 ## 5. Figures (illustrative, not data-driven)
 
@@ -65,9 +67,8 @@ paper includes numerical examples, simulations, or computed equilibria:
 
 ## 7. Cautions
 
-1. **Verify volatile specifics** (lead editor, fee, exact reference style, length, data wording) on
-   the official ScienceDirect guide for authors and editorial-board pages — several were unreachable
-   (HTTP 403) at build time and are marked 待核实 in `official-source-map.md`.
+1. **Re-check volatile specifics** (editor roster, APC amount, calls, and submission-system details) on
+   the official ScienceDirect guide for authors and editorial-board pages before a live submission.
 2. **Do not conflate** the (apparent) no-submission-fee status with the separate open-access APC of
    USD 3,130 — the APC applies only if you choose open access after acceptance.
 3. **Theory-first scope gate**: an empirical/computational result with no theoretical contribution is

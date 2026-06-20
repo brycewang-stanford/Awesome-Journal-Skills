@@ -1,6 +1,6 @@
 ---
 name: jet-replication-and-data-policy
-description: Use when handling the Journal of Economic Theory (JET) data/code expectations — JET has NO mandatory replication archive (consistent with its theorem-proof orientation); Elsevier encourages but does not require data sharing via Mendeley Data, a repository link, a Data in Brief co-submission, or a data statement. Focuses on reproducible computation when a paper has any, plus generative-AI disclosure. Light by design.
+description: Use when handling the Journal of Economic Theory (JET) data/code expectations — JET is theorem-proof oriented, but Elsevier Option C applies when research data exist: deposit/cite/link data in a repository or explain why sharing is not possible. Focuses on reproducible computation when a paper has any, plus generative-AI disclosure. Light by design.
 ---
 
 # Replication & Data Policy (jet-replication-and-data-policy)
@@ -14,21 +14,23 @@ description: Use when handling the Journal of Economic Theory (JET) data/code ex
 
 ## What JET actually requires
 
-- **No mandatory data/code availability requirement.** Unlike empirical AEA / Econometric Society
-  journals, JET has **no JAE-Data-Archive-style replication archive**. Because most papers are pure
-  theory, data/code sharing is **encouraged, not required** — this is a deliberate, distinctive norm.
-- As an **Elsevier** journal, JET **encourages** (does not mandate) sharing via:
-  - a **linked data statement**,
-  - deposit to a repository or **Mendeley Data**,
-  - or a **Data in Brief** co-submission.
+- **No journal-run replication archive.** Unlike empirical AEA / Econometric Society journals, JET has
+  no JAE-Data-Archive-style replication archive. Most JET papers are pure theory, so the main
+  reproducibility object is the proof and any supplementary appendix.
+- **Elsevier Option C applies when research data exist.** Deposit research data in a relevant
+  repository and cite/link it, or state why the data cannot be shared. Data statements are supported
+  in the submission flow and appear with the published article.
+- **Pure theorem papers still need a clear statement.** If there are no external research data and no
+  computation, say so plainly. If there are numerical examples, simulations, or computer-assisted
+  proof steps, make those artifacts reproducible and link/deposit them where appropriate.
 - **Generative-AI disclosure is required:** authors must declare any use of generative AI in manuscript
   preparation **at submission**. Reviewers and editors are **prohibited** from using generative-AI tools
   during evaluation.
 
 ## Reproducible-computation playbook (when the paper has computation)
 
-Even though sharing is optional, make any numerical content reproducible — it strengthens the paper and
-pre-empts referee doubt:
+JET's Option C rule is data-focused, but for a theory paper any numerical content should still be
+reproducible because it strengthens the paper and pre-empts referee doubt:
 
 - [ ] One **master script** regenerates every reported number, table, and figure from scratch
 - [ ] Environment pinned (`requirements.txt`, `Project.toml`/`Manifest.toml`, recorded toolbox versions)
@@ -44,8 +46,8 @@ pre-empts referee doubt:
 | Symbolic verification of closed forms (e.g., checking eq. (7) of a screening model) | one SymPy/Mathematica script per theorem | repo link in the data statement |
 | Counterexample found by search | the search code plus a certificate script confirming the final example violates the conclusion | repo; the certificate logic also goes in the paper |
 | Computed equilibria (e.g., a numerical fixed point for a dynamic-contract example) | solver script with tolerances and pinned environment | repo or Mendeley Data |
-| Experimental/empirical test of the theory (rare at JET) | data, cleaning, and analysis scripts | Mendeley Data / Data in Brief — confirm against the journal's current author guidelines |
-| Pure theory, no computation | nothing — do not manufacture an archive | N/A |
+| Experimental/empirical test of the theory (rare at JET) | data, cleaning, and analysis scripts | repository / Mendeley Data / Data in Brief, with Option C statement |
+| Pure theory, no computation | no archive to manufacture | no-data statement |
 
 ## Supplementary-appendix culture (the theory analogue of replication)
 
@@ -73,7 +75,8 @@ Every reported number in the paper appears in the output of exactly one script a
 
 ## Anti-patterns
 
-- Assuming JET requires a formal replication package — it does not (verify wording on the live policy page)
+- Assuming JET has a journal-run replication archive — it does not
+- Treating Option C as optional when the manuscript uses shareable research data
 - Reporting computed numbers no script can reproduce
 - Omitting the generative-AI declaration at submission
 - Treating the optional data statement as a substitute for a checkable proof — the proof carries the paper
@@ -81,8 +84,8 @@ Every reported number in the paper appears in the output of exactly one script a
 ## Output format
 
 ```
-【Has computation?】yes/no  →  if no, data policy is effectively N/A (theory paper)
-【Sharing】not required; chosen channel: repo | Mendeley Data | Data in Brief | data statement | none
+【Has data/computation?】none / data / computation / both
+【Option C】repository citation/link, or no-data/cannot-share statement? [Y/N]
 【Reproducible】master script + pinned env + seeds + README? [Y/N]
 【AI disclosure】declared at submission? [Y/N]
 【Next】jet-submission

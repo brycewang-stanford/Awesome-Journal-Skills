@@ -30,8 +30,8 @@ state the **delta in one of these precise forms**:
 - **References cited in the abstract must be written out in full** — so cite sparingly there.
 - **Keep unpublished results and personal communications out of the reference list**; lean on published
   theorems as the comparison set.
-- Use the Elsevier reference style (`elsarticle-harv` name-year or `elsarticle-num`; the required one is
-  **待核实** — confirm in the live guide).
+- First submission can use any complete, consistent reference format; JET's proof-stage style is
+  **name-year / author-year**, so `elsarticle-harv` is the safest LaTeX default.
 
 ## Theorem-delta table
 
