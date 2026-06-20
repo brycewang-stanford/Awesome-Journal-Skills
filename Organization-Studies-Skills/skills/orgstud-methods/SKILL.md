@@ -1,70 +1,74 @@
 ---
 name: orgstud-methods
-description: Use when working on methods for a Organization Studies manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when choosing and justifying the research design for an Organization Studies (OS) manuscript — qualitative/ethnographic, process, historical, or quantitative — and setting the rigor bar OS reviewers expect. Designs the study; it does not run the analysis (see orgstud-data-analysis).
 ---
 
-# Methods (orgstud-methods)
+# Methods & Research Design (orgstud-methods)
 
 ## When to trigger
-- The manuscript is aimed at **Organization Studies (OS)** and methods is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's organization theory, institutional theory, critical management, qualitative research, and process studies standard.
-- The paper risks being confused with nearby venues: Administrative Science Quarterly, Organization Science, Journal of Management Studies, and Academy of Management Review.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You are choosing between a qualitative/process design and a quantitative one
+- The design is chosen but its *rigor and transparency* are not yet defensible to OS reviewers
+- A qualitative study lacks a sampling logic, immersion account, or trustworthiness safeguards
+- A quantitative study leads with the estimator instead of the organizational mechanism it reveals
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| institutional process is central | Make the institutional process assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| qualitative depth is central | Make the qualitative depth assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| organization theory is central | Make the organization theory assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| critical reflexivity is central | Make the critical reflexivity assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| process temporality is central | Make the process temporality assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Method follows the theoretical question — and OS leans qualitative
 
-## OS fit notes
+At OS, **no method is privileged in principle**, but the journal's center of gravity is **qualitative, ethnographic, process, and historical** research, and such work is genuinely first-class here — not a tolerated minority. The non-negotiable is that the design fits the question (see `orgstud-theory-development`) and is executed with craft. A sophisticated estimator cannot rescue a thin theory, and a single immersive case can carry an OS paper if the theoretical insight is deep — a different bar from venues where a clean identification design is itself treated as the contribution. OS reviewers ask, above all, *does this design let you see the organizing process you claim to theorize?*
 
-- Publisher / owner context: SAGE for EGOS.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: institutional process, qualitative depth, organization theory, critical reflexivity, process temporality.
-- Sibling boundary: Administrative Science Quarterly, Organization Science, Journal of Management Studies, and Academy of Management Review.
-- House-style aim: organization-theory argument with careful positioning, reflexivity, and evidence-theory fit.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/oss
-- https://journals.sagepub.com/author-instructions/OSS
+## Branch A — Qualitative / process / ethnographic / historical
 
-## Stage-specific moves
+Use for *how/why* organizing unfolds: emergence, becoming, contestation, meaning, identity, institutional dynamics.
 
-1. State the exact methods question in one sentence.
-2. Identify which OS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `orgstud-data-analysis` if the stage passes, or back to `orgstud-workflow` if it does not.
+- **Theoretical (not convenience) sampling.** Cases/sites/informants chosen to illuminate the process or construct; state the logic — polar/extreme cases, theoretical replication, revelatory case, longitudinal window.
+- **Access and immersion.** Specify duration, depth, and your role (participant vs. non-participant); for ethnography, time in the field; for historical work, the archive and its limits.
+- **Triangulated data sources.** Interviews (count, who, when, guide), observation, internal/archival documents, secondary sources — and how they corroborate.
+- **Process design.** If the contribution is a process model, build in the *temporal* leverage: real-time and/or retrospective data, event sequences, turning points (Langley's process strategies — narrative, temporal bracketing, visual mapping — are the standard idiom).
+- **Trustworthiness.** Credibility, transferability, dependability, confirmability: member checks, prolonged engagement, audit trail, investigator triangulation, negative-case analysis.
+- **Reflexivity.** State your standpoint and how it shaped access and interpretation — expected at a European, critically-aware journal, not optional.
+
+## Branch B — Quantitative organization theory
+
+Use for *whether/how much/under what conditions* across many cases — welcome at OS when it does organization-theoretic work.
+
+- **Sample and unit of analysis** justified by the theory (organizations, fields, events, dyads, individuals nested in units).
+- **Identification in service of theory.** Be explicit about the causal claim and its threat (panel FE, event-history/survival, matching, natural experiments, DiD with modern staggered-adoption caveats). At OS, identification is a means to a *theoretical* end; a flawless quasi-experiment that yields no new understanding of organizing is still rejected. Lead with the mechanism, not the estimator.
+- **Measurement validity.** Operationalizations defended; multi-item reliability; common-method bias addressed if same-source.
+- **Multilevel structure.** If the theory is cross-level, use appropriate models and justify aggregation.
+
+## Either branch
+
+- The design must let you *see the mechanism / process*, not just the endpoints.
+- Pre-empt the obvious alternative explanations at the design stage, not only in robustness.
+- Plan the data-to-theory link now — it feeds `orgstud-data-analysis` and `orgstud-tables-figures`.
 
 ## Checklist
-- [ ] The OS audience can see why the paper belongs in organization theory, institutional theory, critical management, qualitative research, and process studies.
-- [ ] The draft distinguishes OS from Administrative Science Quarterly, Organization Science, Journal of Management Studies.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for methods names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Design matches the theoretical form (process → qualitative; variance → quantitative)
+- [ ] Qualitative: theoretical sampling logic stated; access/immersion specified
+- [ ] Qualitative: multiple triangulated sources; trustworthiness safeguards named; reflexivity addressed
+- [ ] Process work: temporal leverage built in (real-time/retrospective; turning points)
+- [ ] Quantitative: identification explicit and *subordinated to* the organizational mechanism
+- [ ] Quantitative: measurement validity and (if needed) multilevel structure handled
+- [ ] Obvious alternative explanations are designed against, not just discussed later
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to OS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Convenience sampling dressed up as theoretical sampling
+- Qualitative work with no transparency about coding, sources, or fieldwork depth
+- Treating a fancy estimator as the contribution when the question needs none
+- A quantitative paper that reads as applied econometrics with organizational variables bolted on
+- A design that can show *that* something happens but never *how/why* organizing produces it
+- Omitting reflexivity in interpretive work at a journal that expects it
 
 ## Output format
 
 ```text
-【Journal】Organization Studies
-【Skill】orgstud-methods
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking methods
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Administrative Science Quarterly, Organization Science
-【Source status】verified URL / 待核实 / not asserted
+【Design】qualitative (ethnographic/process/historical) / quantitative (type)
+【Why it fits】link to the theoretical question and process/mechanism
+【Sampling/identification】logic + key threat addressed
+【Data sources】list + triangulation / measurement plan
+【Temporal leverage】how the design captures process (if applicable)
+【Rigor safeguards】trustworthiness + reflexivity, or identification checks
 【Next skill】orgstud-data-analysis
 ```

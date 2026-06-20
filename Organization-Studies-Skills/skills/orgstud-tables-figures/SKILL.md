@@ -1,70 +1,69 @@
 ---
 name: orgstud-tables-figures
-description: Use when working on tables and figures for a Organization Studies manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when building the exhibits for an Organization Studies (OS) manuscript — data structures, process-model figures, evidence tables, and (for quantitative work) results tables. Designs exhibits that make the inference auditable; it does not run the analysis (see orgstud-data-analysis).
 ---
 
-# Tables and Figures (orgstud-tables-figures)
+# Tables & Figures (orgstud-tables-figures)
 
 ## When to trigger
-- The manuscript is aimed at **Organization Studies (OS)** and tables and figures is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's organization theory, institutional theory, critical management, qualitative research, and process studies standard.
-- The paper risks being confused with nearby venues: Administrative Science Quarterly, Organization Science, Journal of Management Studies, and Academy of Management Review.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Your qualitative paper has quotes scattered in prose but no data structure or evidence table
+- Your process paper narrates events but has no process-model figure
+- A reviewer cannot trace how your data became your constructs from the exhibits alone
+- Quantitative tables are dense, asterisk-driven, or do not answer the theoretical question
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| institutional process is central | Make the institutional process assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| qualitative depth is central | Make the qualitative depth assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| organization theory is central | Make the organization theory assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| critical reflexivity is central | Make the critical reflexivity assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| process temporality is central | Make the process temporality assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Exhibits carry the auditability of the inference
 
-## OS fit notes
+At OS, the exhibits are where reviewers **verify the data-to-theory inference**, not where decoration goes. For qualitative and process work especially, a few well-built exhibits do more than pages of prose: they let a skeptical reader see the analytic ladder at a glance. The exhibit set is part of the rigor argument, not an afterthought.
 
-- Publisher / owner context: SAGE for EGOS.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: institutional process, qualitative depth, organization theory, critical reflexivity, process temporality.
-- Sibling boundary: Administrative Science Quarterly, Organization Science, Journal of Management Studies, and Academy of Management Review.
-- House-style aim: organization-theory argument with careful positioning, reflexivity, and evidence-theory fit.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/oss
-- https://journals.sagepub.com/author-instructions/OSS
+## The core qualitative/process exhibits
 
-## Stage-specific moves
+- **Data structure figure (Gioia-style).** First-order codes (informant terms) → second-order themes (researcher constructs) → aggregate dimensions. This is the single most expected exhibit in inductive OS papers; it makes the abstraction from data to theory visible in one image.
+- **Data-to-theory / evidence table.** Rows = constructs or themes; columns = representative raw evidence (quotes, document excerpts), the code, and the construct. This is where "proof quotes" live, freeing the body for a few "power quotes."
+- **Process-model figure.** Phases/stages with **explicit transition arrows and labels** — what triggers each move and what each phase accomplishes. A process model with unlabeled arrows is a common reviewer complaint; the figure must encode the mechanism, not just sequence boxes.
+- **Case/site comparison table.** For multi-case designs (Eisenhardt idiom), a table contrasting cases on the dimensions that drive the theory.
+- **Informant/data-source table.** Who, how many, when, role — establishing the empirical base.
 
-1. State the exact tables and figures question in one sentence.
-2. Identify which OS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `orgstud-writing-style` if the stage passes, or back to `orgstud-workflow` if it does not.
+## Quantitative exhibits
+
+- **Descriptives + correlations** with clear units; **main results** in interpretable form.
+- **Report effect magnitudes** and confidence intervals, interpreted in organizational terms — not significance stars as the headline.
+- **Robustness** in a compact appendix table keyed to the specific theoretical threat each check addresses.
+- Multilevel/interaction effects plotted (marginal-effects/interaction figures) rather than left to coefficients.
+
+## Craft standards either way
+
+- **Every exhibit answers a question** stated in its title/caption; if you cannot say what question it answers, cut it.
+- **Self-contained.** Notes define abbreviations, units, sources, N; the reader should not need the body to parse the exhibit.
+- **The figure encodes the argument.** A process figure should let a reader reconstruct the theory; a data structure should let them reconstruct the coding.
+- **SAGE production.** Figures legible in greyscale and at print size; follow SAGE OS artwork specs at acceptance (检索于 2026-06；以官网为准).
 
 ## Checklist
-- [ ] The OS audience can see why the paper belongs in organization theory, institutional theory, critical management, qualitative research, and process studies.
-- [ ] The draft distinguishes OS from Administrative Science Quarterly, Organization Science, Journal of Management Studies.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for tables and figures names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Inductive paper has a data structure figure (first-order → second-order → dimensions)
+- [ ] A data-to-theory / evidence table makes the inference auditable; proof quotes live here
+- [ ] Process paper has a process-model figure with *labeled* transitions, not bare boxes
+- [ ] Informant/data-source table establishes the empirical base
+- [ ] Quantitative: magnitudes/CIs interpreted; robustness keyed to theoretical threats
+- [ ] Every exhibit answers a stated question and is self-contained (notes, units, N)
+- [ ] Figures legible in greyscale / at print size per SAGE specs
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to OS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- An inductive OS paper with no data structure figure — reviewers expect it
+- A process figure of unlabeled boxes and arrows that encodes sequence but not mechanism
+- Quotes scattered in prose with no evidence table to corroborate them
+- Significance asterisks presented as the result instead of interpreted magnitudes
+- Exhibits the body must explain because their captions/notes are incomplete
+- Decorative figures that answer no question (cut them)
 
 ## Output format
 
 ```text
-【Journal】Organization Studies
-【Skill】orgstud-tables-figures
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking tables and figures
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Administrative Science Quarterly, Organization Science
-【Source status】verified URL / 待核实 / not asserted
+【Exhibit set】data structure / evidence table / process model / case table / results
+【Auditability】can a reader trace data → constructs from exhibits alone? (Y/N)
+【Process figure】transitions labeled with triggers + what each phase does? (Y/N/NA)
+【Quant】magnitudes + CIs interpreted; robustness keyed to threats? (Y/N/NA)
+【Self-containment】captions/notes complete (units, N, sources)? (Y/N)
 【Next skill】orgstud-writing-style
 ```

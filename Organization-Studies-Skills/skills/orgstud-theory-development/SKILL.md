@@ -1,70 +1,79 @@
 ---
 name: orgstud-theory-development
-description: Use when working on theory development for a Organization Studies manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when building the theoretical engine for an Organization Studies (OS) manuscript — the mechanism, process model, or conceptual move that constitutes the contribution. Builds the argument; it does not select methods or run analysis.
 ---
 
 # Theory Development (orgstud-theory-development)
 
 ## When to trigger
-- The manuscript is aimed at **Organization Studies (OS)** and theory development is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's organization theory, institutional theory, critical management, qualitative research, and process studies standard.
-- The paper risks being confused with nearby venues: Administrative Science Quarterly, Organization Science, Journal of Management Studies, and Academy of Management Review.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You have a rich phenomenon (from `orgstud-topic-selection`) but no theoretical machinery that *organizes* it
+- Your "theory" is a set of labeled themes or a box-and-arrow diagram with no generative mechanism
+- A reviewer says the theory is "thin," "descriptive," "a relabeling of the data," or "doesn't engage the literature it claims to advance"
+- You must decide whether the contribution is a new construct, a process model, a reconceptualization, or a boundary condition
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| institutional process is central | Make the institutional process assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| qualitative depth is central | Make the qualitative depth assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| organization theory is central | Make the organization theory assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| critical reflexivity is central | Make the critical reflexivity assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| process temporality is central | Make the process temporality assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Theory is the deliverable at OS
 
-## OS fit notes
+This is the load-bearing skill in the pack. At OS the **theory itself is the contribution** — more so than the dataset or the estimator. The journal's European, sociologically-rooted tradition means process and interpretive theorizing are fully legitimate as the *main* claim (a different default from variance-template journals). Your job is to produce a **generative theoretical move** readers elsewhere can pick up and use.
 
-- Publisher / owner context: SAGE for EGOS.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: institutional process, qualitative depth, organization theory, critical reflexivity, process temporality.
-- Sibling boundary: Administrative Science Quarterly, Organization Science, Journal of Management Studies, and Academy of Management Review.
-- House-style aim: organization-theory argument with careful positioning, reflexivity, and evidence-theory fit.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/oss
-- https://journals.sagepub.com/author-instructions/OSS
+State the **mechanism / process logic**, not just constructs:
 
-## Stage-specific moves
+- Name the **actors** and what they are *doing* (sensemaking, justifying, translating, resisting, categorizing, accounting, coordinating).
+- Name the **social structure** they act within (institutional field, logic, hierarchy, network, category system, discourse, status order).
+- Specify the **generative logic**: why does this actor, in this structure, produce this sequence or this outcome? For process work, specify the *sequence and transitions* (phases, feedback, turning points), not a static relationship.
+- Specify **boundary conditions and scope**: where the mechanism holds, weakens, or reverses.
 
-1. State the exact theory development question in one sentence.
-2. Identify which OS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `orgstud-literature-positioning` if the stage passes, or back to `orgstud-workflow` if it does not.
+A test: can a reader *predict a non-obvious implication* — or *re-see a familiar phenomenon* — from your theory? If not, you have a label, not a contribution.
+
+## Branch by contribution type
+
+| Contribution type | What "good" looks like at OS |
+|-------------------|------------------------------|
+| **New process model** | Phases/turning points with explicit transition logic; a process figure; what each phase does that the prior one could not |
+| **Reconceptualization** | An existing construct (e.g., legitimacy, identity, routine) redefined so that a puzzle dissolves or a new range of cases comes into view |
+| **Extending a tradition** | A precise statement of what institutional/practice/sensemaking theory missed, and the specific amendment your evidence forces |
+| **Critical/reflexive** | A theoretical account of how power, ideology, or taken-for-grantedness operates — critique that *theorizes*, not critique that only denounces |
+| **Theoretical synthesis / essay** | Two conversations bridged into a usable new lens, with the move stated crisply enough to cite |
+
+## For inductive / grounded work
+
+If theory is *emergent*, this skill still applies — in reverse. The mechanism and process model are the **output**, presented after the data structure (see `orgstud-data-analysis`). Still required: a named mechanism, a process model (usually a figure with phases and feedback), and an explicit statement of novelty relative to existing organization theory. A grounded theory can be the *entire* OS contribution — it need not be a stepping-stone to a later test. Avoid "theory by adjective" (calling a pattern "dynamic," "recursive," "emergent" without specifying the process).
+
+## For deductive / quantitative work
+
+Hypotheses must be *derived*, each with its own causal-logic paragraph tied to the same core mechanism — not an asserted "bag of hypotheses." Moderators must be theoretically motivated, not data-mined. Even here, lead with the organizational mechanism the design illuminates; the estimator is in service of the theory.
+
+## Engaging social theory
+
+OS expects live engagement with social theory, used precisely. If you invoke institutional logics, Bourdieu's capital/field, Foucauldian discipline, Weickian sensemaking, or practice theory, deploy the concept's actual machinery — do not name-drop it as ornament. Misusing a borrowed framework is a fast reviewer pushback.
 
 ## Checklist
-- [ ] The OS audience can see why the paper belongs in organization theory, institutional theory, critical management, qualitative research, and process studies.
-- [ ] The draft distinguishes OS from Administrative Science Quarterly, Organization Science, Journal of Management Studies.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for theory development names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] A named generative mechanism (actors + structure + logic), not just constructs/themes
+- [ ] For process work: sequence, phases, and transition logic specified (not a static X→Y)
+- [ ] Boundary conditions / scope stated (where it holds, weakens, reverses)
+- [ ] The move yields a non-obvious implication *or* lets readers re-see a familiar phenomenon
+- [ ] Borrowed social theory used with its real machinery, precisely, not as ornament
+- [ ] Inductive: theory is output, with a planned process figure and explicit novelty
+- [ ] Deductive: each hypothesis derived from the shared mechanism; moderators motivated
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to OS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Box-and-arrow or theme-list models with no mechanism ("constructs in search of a story")
+- "Theory by adjective" — naming a pattern instead of explaining how it works
+- Variance framing forced onto a process phenomenon (or vice versa)
+- Critique that denounces without producing a theoretical account
+- Name-dropping Bourdieu/Foucault/Weick without using the framework's actual logic
+- A contribution stated as a finding ("we find X") rather than a usable theoretical move
 
 ## Output format
 
 ```text
-【Journal】Organization Studies
-【Skill】orgstud-theory-development
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking theory development
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Administrative Science Quarterly, Organization Science
-【Source status】verified URL / 待核实 / not asserted
+【Contribution type】process model / reconceptualization / extension / critical / synthesis
+【Core mechanism】actors + structure + generative/processual logic
+【Process structure (if applicable)】phases + transition logic
+【Boundary conditions】where it holds / weakens / reverses
+【Social theory engaged】framework + how its machinery is used
+【Novel move】the non-obvious implication or re-seeing
 【Next skill】orgstud-literature-positioning
 ```

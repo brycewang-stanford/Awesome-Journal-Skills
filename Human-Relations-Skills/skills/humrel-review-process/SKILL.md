@@ -1,70 +1,69 @@
 ---
 name: humrel-review-process
-description: Use when working on review process for a Human Relations manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when calibrating expectations for the Human Relations (HR) review process — the editorial scoping screen, double-anonymous developmental review, decision types, timelines, and when a sibling journal is the better route. Sets expectations; it does not draft the rebuttal (see humrel-rebuttal).
 ---
 
 # Review Process (humrel-review-process)
 
 ## When to trigger
-- The manuscript is aimed at **Human Relations (Human Relations)** and review process is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's work, employment, organizations, social relations, power, identity, and critical management standard.
-- The paper risks being confused with nearby venues: Organization Studies, Journal of Management Studies, Administrative Science Quarterly, and Work Employment and Society.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A submission is in (or about to enter) the HR pipeline and you want to calibrate odds and timing
+- A decision letter arrived and you must read it correctly (R&R vs. reject vs. resubmit-as-new)
+- You are deciding whether to persist at HR or reroute to a sibling
+- A coauthor expects fast quantitative-style turnaround and needs the developmental reality
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| workplace relation is central | Make the workplace relation assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| power and identity is central | Make the power and identity assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| employment institution is central | Make the employment institution assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| qualitative insight is central | Make the qualitative insight assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| social theory is central | Make the social theory assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## How HR review actually works
 
-## Human Relations fit notes
+HR runs a **two-gate** process. First, an **editorial scoping screen**: the handling editor assesses fit and whether the manuscript shows a plausible "unique and substantive theoretical contribution." HR is explicit that "suitable data are a necessary but not sufficient feature to get to full peer review" — so a competent empirical paper with no theoretical advance, or one that reads as a sibling-journal paper, can be returned *before* reviewers see it. Second, if it passes, it goes to **double-anonymous peer review** (typically multiple reviewers) and a developmental cycle. Reviews engage the argument seriously and tend to push on theory, contribution, and craft as much as on method.
 
-- Publisher / owner context: SAGE for the Tavistock Institute.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: workplace relation, power and identity, employment institution, qualitative insight, social theory.
-- Sibling boundary: Organization Studies, Journal of Management Studies, Administrative Science Quarterly, and Work Employment and Society.
-- House-style aim: socially grounded organization research that links theory, context, and lived work.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/hum
-- https://journals.sagepub.com/author-instructions/HUM
+## What HR decisions usually mean
 
-## Stage-specific moves
+| Decision | Read it as | Your move |
+|----------|-----------|-----------|
+| Desk return (scoping) | fit/contribution not legible, or sibling-shaped | reframe (`humrel-contribution-framing` / `humrel-literature-positioning`) or reroute |
+| Reject after review | a fundamental theory/contribution gap, not just fixes | rethink the contribution before any resubmission elsewhere |
+| Major revision (R&R) | the *idea* is promising; deepen theory + evidence | revise substantively, then `humrel-rebuttal` |
+| Minor revision | contribution accepted; tighten and clarify | targeted edits; do not reopen the theory |
+| Conditional accept | nearly there | comply precisely; preserve anonymized files |
 
-1. State the exact review process question in one sentence.
-2. Identify which Human Relations audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `humrel-rebuttal` if the stage passes, or back to `humrel-workflow` if it does not.
+An R&R at HR is an invitation to make the contribution *deeper*, not merely to add robustness — treat it as a developmental opportunity.
+
+## Calibrating expectations
+
+- **Theory-first bar.** Acceptance turns on the theoretical contribution and HR fit, not on a clean estimate alone. Methodological polish without theoretical payoff underperforms.
+- **Timelines vary** and are volatile; do not promise coauthors a specific turnaround (检索于 2026-06；以官网为准). Plan for a developmental, multi-round cycle rather than a fast accept/reject.
+- **Plural-methods reality:** a strong ethnography or critical paper competes on equal footing with quantitative work — the binding question is always the contribution.
+
+## When a sibling is the better route
+
+If reviews repeatedly say the paper is empirically sound but theoretically thin, or that it belongs elsewhere, that is signal. Consider Work, Employment and Society (sociology of work), JMS (managerial relevance), AMJ (US empirical OB), Organization Studies (organization-theory internal), or Organization (critical) — see `humrel-literature-positioning` for the boundary logic. Rerouting is a strategy, not a defeat.
 
 ## Checklist
-- [ ] The Human Relations audience can see why the paper belongs in work, employment, organizations, social relations, power, identity, and critical management.
-- [ ] The draft distinguishes Human Relations from Organization Studies, Journal of Management Studies, Administrative Science Quarterly.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for review process names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] You can name which gate the paper is at (scoping screen vs. full review)
+- [ ] The decision type is read correctly (R&R ≠ accept; desk return ≠ reject-after-review)
+- [ ] An R&R plan deepens the *contribution*, not just adds robustness
+- [ ] No specific timeline promised to coauthors (volatile)
+- [ ] Anonymized files preserved for the next round
+- [ ] If reviews say "wrong journal," a reroute target is identified honestly
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Human Relations without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Treating the scoping screen as a formality and submitting a contribution-thin paper
+- Reading "major revision" as "almost accepted" and revising superficially
+- Promising coauthors a fixed turnaround
+- Assuming quantitative work is favored (it is not — contribution decides)
+- Resubmitting a rejected paper elsewhere without rethinking the theoretical gap reviewers named
 
 ## Output format
 
 ```text
 【Journal】Human Relations
 【Skill】humrel-review-process
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking review process
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Organization Studies, Journal of Management Studies
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】humrel-rebuttal
+【Gate】scoping screen / full double-anonymous review
+【Decision read】desk return / reject / major R&R / minor / conditional
+【Binding issue】theory/contribution / fit / method / craft
+【Plan】deepen contribution + which humrel-* skills
+【Reroute?】stay at HR / consider sibling (which + why)
+【Next skill】humrel-rebuttal (if R&R)
 ```

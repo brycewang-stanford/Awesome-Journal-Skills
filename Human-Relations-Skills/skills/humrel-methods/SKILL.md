@@ -1,70 +1,87 @@
 ---
 name: humrel-methods
-description: Use when working on methods for a Human Relations manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when choosing and justifying the research design for a Human Relations (HR) manuscript — qualitative/ethnographic, critical, quantitative, or mixed — and setting the rigor bar. Designs the study; it does not run the analysis (see humrel-data-analysis).
 ---
 
-# Methods (humrel-methods)
+# Methods & Research Design (humrel-methods)
 
 ## When to trigger
-- The manuscript is aimed at **Human Relations (Human Relations)** and methods is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's work, employment, organizations, social relations, power, identity, and critical management standard.
-- The paper risks being confused with nearby venues: Organization Studies, Journal of Management Studies, Administrative Science Quarterly, and Work Employment and Society.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You are choosing among a qualitative/ethnographic, critical, quantitative, or mixed-methods design
+- The design is chosen but its *rigor and transparency* are not yet defensible
+- A qualitative study lacks a sampling logic or trustworthiness safeguards
+- A quantitative study lacks construct validity or theorizes only the coefficient
+- A mixed-methods study cannot say *why* both strands and what each adds
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| workplace relation is central | Make the workplace relation assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| power and identity is central | Make the power and identity assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| employment institution is central | Make the employment institution assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| qualitative insight is central | Make the qualitative insight assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| social theory is central | Make the social theory assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Principle: method follows the theoretical question — and HR privileges none
 
-## Human Relations fit notes
+HR treats qualitative, critical, quantitative, and mixed-methods work as **equally first-class**, in the Tavistock human-relations tradition. There is no house preference for an estimator or a paradigm; what is non-negotiable is that the design fits the social-theoretical question (from `humrel-theory-development`) and is executed with rigor, transparency, and reflexivity. A sophisticated method cannot rescue a thin theory, and a single immersive ethnography can carry an HR paper if the insight is deep and the craft is high. Note also the **double-anonymous review**: write methods so they establish credibility without revealing the authors' institution, field site identity, or grant.
 
-- Publisher / owner context: SAGE for the Tavistock Institute.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: workplace relation, power and identity, employment institution, qualitative insight, social theory.
-- Sibling boundary: Organization Studies, Journal of Management Studies, Administrative Science Quarterly, and Work Employment and Society.
-- House-style aim: socially grounded organization research that links theory, context, and lived work.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/hum
-- https://journals.sagepub.com/author-instructions/HUM
+## Branch A — Qualitative / ethnographic design
 
-## Stage-specific moves
+For *how/why* process, meaning, identity, and contested dynamics at work.
 
-1. State the exact methods question in one sentence.
-2. Identify which Human Relations audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `humrel-data-analysis` if the stage passes, or back to `humrel-workflow` if it does not.
+- **Theoretical (not convenience) sampling.** Sites/cases/informants chosen to illuminate the mechanism; state the logic (polar types, extreme/critical case, longitudinal, theoretical replication).
+- **Access and immersion.** Specify duration, depth, and your role (participant vs. non-participant); for ethnography, time in the field; for historical work, the archive.
+- **Triangulated data.** Interviews (count, who, when, guide), observation, documents — and how they corroborate.
+- **Trustworthiness.** Credibility, transferability, dependability, confirmability: member checks, prolonged engagement, audit trail, negative-case analysis.
+- **Reflexivity.** State your standpoint and how it shaped access, interpretation, and the relations you studied — HR expects this, not as confession but as method.
+
+## Branch B — Critical design
+
+For research interrogating power, ideology, discourse, and taken-for-granted arrangements.
+
+- Make the **critical-theoretical lens** explicit (labour process, Foucauldian, feminist, postcolonial, CDA) and tie analytic choices to it.
+- Treat reflexivity and positionality as central, not optional.
+- Ensure the critique is **generative**: the design must surface a constructive theoretical claim, not only an unmasking.
+
+## Branch C — Quantitative design
+
+For *whether/how much/under what conditions* across many cases.
+
+- **Sample and unit of analysis** justified relative to the theory (individuals nested in teams/organizations; dyads; events).
+- **Construct validity.** Operationalizations defended; multi-item measures with reliability; address common-method bias if same-source/cross-sectional.
+- **Multilevel structure.** If theory is cross-level, use HLM/mixed models and justify aggregation.
+- **Identification in service of theory.** Where causal claims are made, state the threat and the strategy (panel FE, longitudinal lags, quasi-experiment) — but identification is a means to a *theoretical* end at HR, not the contribution itself.
+
+## Branch D — Mixed methods
+
+- State the **integration logic**: sequential, concurrent, or nested, and *what each strand adds* that the other cannot. Avoid bolting a few interviews onto a survey for decoration.
+
+## Either branch
+
+- The design must let you *see the mechanism*, not just endpoints.
+- Pre-empt obvious alternative explanations at the design stage.
+- Plan the data-to-theory link now (feeds `humrel-data-analysis` and `humrel-tables-figures`).
 
 ## Checklist
-- [ ] The Human Relations audience can see why the paper belongs in work, employment, organizations, social relations, power, identity, and critical management.
-- [ ] The draft distinguishes Human Relations from Organization Studies, Journal of Management Studies, Administrative Science Quarterly.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for methods names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Design matches the theoretical form (process → qual/critical; variance → quant)
+- [ ] Qual: theoretical sampling stated; access/immersion specified; trustworthiness named
+- [ ] Critical: lens explicit; reflexivity central; critique is generative
+- [ ] Quant: construct validity and (if needed) multilevel structure addressed
+- [ ] Mixed: integration logic and the added value of each strand stated
+- [ ] Obvious alternatives are designed against, not just discussed later
+- [ ] Methods text is anonymized (no institution/site/grant tells)
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Human Relations without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Convenience sampling dressed up as theoretical sampling
+- Qualitative work with no transparency about coding, sources, or fieldwork depth
+- A fancy estimator chosen to signal rigor when the question doesn't need it
+- Critical work that is reflexive in tone but methodologically opaque
+- "Mixed methods" that is a survey with ornamental quotes
+- Methods that reveal author/site identity in a double-anonymous submission
 
 ## Output format
 
 ```text
 【Journal】Human Relations
 【Skill】humrel-methods
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking methods
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Organization Studies, Journal of Management Studies
-【Source status】verified URL / 待核实 / not asserted
+【Design】qualitative / critical / quantitative / mixed (type)
+【Why it fits】link to the social-theoretical question
+【Sampling/identification】logic + key threat addressed
+【Rigor safeguards】trustworthiness / construct validity / integration logic
+【Anonymization】no site/institution/grant tells (yes/no)
 【Next skill】humrel-data-analysis
 ```

@@ -1,76 +1,69 @@
 ---
 name: amann-submission
-description: Use when working on submission preflight for a Academy of Management Annals manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when running the final pre-submission preflight for an Academy of Management Annals (Annals) proposal or invited full review via the Manuscript Central portal — proposal-vs-invited-review route, deadlines, formatting, CV, and anonymity. Final checks; it does not draft content.
 ---
 
 # Submission Preflight (amann-submission)
 
 ## When to trigger
-- The manuscript is aimed at **Academy of Management Annals (Annals)** and submission preflight is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's commissioned and high-level reviews that synthesize management and organization research standard.
-- The paper risks being confused with nearby venues: Academy of Management Review, Journal of Management, Journal of Management Studies, and Annual Review outlets.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A deadline is near — last check before uploading a proposal to Manuscript Central
+- A proposal was accepted and you are submitting the invited full review
+- Confirming format, CV, and anonymity requirements for the right route
+- Unsure which files the portal expects for a proposal vs. a full review
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| integrative review is central | Make the integrative review assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| theory synthesis is central | Make the theory synthesis assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| agenda setting is central | Make the agenda setting assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| management field map is central | Make the management field map assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| conceptual reconciliation is central | Make the conceptual reconciliation assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Process facts (检索于 2026-06；以官网为准 — re-confirm on the AOM/Annals pages)
 
-## Annals fit notes
+- **Publisher / venue.** Annals is the Academy of Management's review-of-the-field journal, published with **Taylor & Francis**. It is distinct from AMR (original theory) and AMJ (empirical). Submission is via **Manuscript Central**: `https://mc.manuscriptcentral.com/aomannals`.
+- **Two routes, in order.** (1) **Proposal** — the mandatory gate: **≤5 pages, single-spaced, 1-inch margins, 12pt**, with the four headings (Focus of the review / Related reviews / Review scope and process / New insights); references and visuals do not count. (2) **Invited full review** — submitted only after a proposal is accepted; typically **~50 pages** of text plus tables/figures/refs.
+- **Deadlines.** Proposals are on a twice-yearly cycle — **April 1 and October 1**; not reviewed until the deadline passes; decisions **~6 weeks after** the deadline. Two issues publish per year (January and July).
+- **Anonymity.** **Proposals are double-blind** (reviewed by the Associate Editors) — anonymize the proposal. The **invited full review forgoes double-blind** (read by the Associate Editor and Editor), so anonymity requirements differ between the two routes — confirm current rules on the portal.
+- **CV.** A current CV may be required for the **editors' eyes only** (not seen by reviewers) — confirm at submission (待核实).
+- **Style / format.** Follow the current Annals/Taylor & Francis author guidelines for manuscript format and references (house style 待核实 — confirm APA vs. other on the live page). Length, abstract, and exact formatting specifics are volatile.
+- **Fees / APC.** Any submission fee or APC is **volatile — re-confirm on the official pages**; do not assert an amount.
 
-- Publisher / owner context: Academy of Management / Taylor & Francis.
-- Submission route to re-check: Academy of Management submission.
-- Signature vocabulary: integrative review, theory synthesis, agenda setting, management field map, conceptual reconciliation.
-- Sibling boundary: Academy of Management Review, Journal of Management, Journal of Management Studies, and Annual Review outlets.
-- House-style aim: field-defining synthesis that reorganizes theory rather than merely cataloging papers.
-- Official URLs currently used by the pack:
-- https://journals.aom.org/journal/annals
-- https://aom.org/research/publishing-with-aom/author-resources
+## Preflight checklist
 
-## Stage-specific moves
+### Route & files
+- [ ] Route chosen: **proposal** (≤5pp, four headings) **or** **invited full review** (after acceptance)
+- [ ] Proposal uses the four required headings verbatim and meets the ≤5pp / single-spaced / 1-in / 12pt limit
+- [ ] Targeting the correct April 1 / October 1 deadline
+- [ ] Full review (if invited) within the expected ~50-page norm; tables/figures/refs prepared
 
-1. State the exact submission preflight question in one sentence.
-2. Identify which Annals audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `amann-review-process` if the stage passes, or back to `amann-workflow` if it does not.
+### Front matter
+- [ ] Title, abstract (review-style — contribution to the field), and keywords present
+- [ ] Author affiliations complete; CV prepared if required (editors-only)
 
-## Checklist
-- [ ] The Annals audience can see why the paper belongs in commissioned and high-level reviews that synthesize management and organization research.
-- [ ] The draft distinguishes Annals from Academy of Management Review, Journal of Management, Journal of Management Studies.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for submission preflight names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] The review explains inclusion/exclusion logic and how competing schools are balanced.
-- [ ] The synthesis produces an agenda, taxonomy, or framework rather than a bibliography.
+### Anonymity & declarations
+- [ ] Proposal anonymized for double-blind review (proposal route)
+- [ ] Full-review anonymity handled per current rules (it forgoes double-blind)
+- [ ] Confirmed not under review elsewhere; AI not listed as an author
+
+### Volatile re-confirms
+- [ ] Portal specifics, fee/APC, CV requirement, house style, anonymity — re-checked on AOM/Annals pages (检索于 2026-06)
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Annals without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Uploading a full review without an accepted proposal — out of process at Annals
+- A proposal that exceeds 5 pages or omits one of the four required headings
+- Missing the April 1 / October 1 window because intake was assumed to be rolling
+- Asserting a fee/APC or editor name from memory rather than the live page
+- Failing to anonymize the proposal (it is double-blind) or mishandling the full-review anonymity difference
+- A primary-paper abstract on a review submission
 
 ## Output format
 
 ```text
-【Journal】Academy of Management Annals
-【Skill】amann-submission
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking submission preflight
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Academy of Management Review, Journal of Management
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】amann-review-process
+【Route】proposal (≤5pp, 4 headings) / invited full review (~50pp)
+【Deadline】targeting April 1 / October 1? <which>
+【Proposal headings】Focus / Related reviews / Scope & process / New insights present? Y/N
+【Anonymity】proposal anonymized (double-blind); full-review rule confirmed? Y/N
+【CV】prepared if required (editors-only)? Y/N
+【Volatile re-confirms】portal / fee / style / anonymity checked on AOM page? Y/N
+【Next step】submit via Manuscript Central → amann-review-process for what to expect
 ```
 
 ## Supplementary resources
 
 - [`templates/checklist.md`](templates/checklist.md) — submission self-check
 - [`templates/manuscript_template.md`](templates/manuscript_template.md) — lightweight manuscript scaffold
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official URLs and volatile facts

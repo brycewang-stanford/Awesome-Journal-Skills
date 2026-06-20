@@ -1,70 +1,77 @@
 ---
 name: orgstud-writing-style
-description: Use when working on writing style for a Organization Studies manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use for full-manuscript prose and the discursive European register of an Organization Studies (OS) manuscript — voice, theoretical texture, the argument's arc, and qualitative craft. Polishes the writing; it does not change the theory or analysis.
 ---
 
-# Writing Style (orgstud-writing-style)
+# Writing Style & Craft (orgstud-writing-style)
 
 ## When to trigger
-- The manuscript is aimed at **Organization Studies (OS)** and writing style is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's organization theory, institutional theory, critical management, qualitative research, and process studies standard.
-- The paper risks being confused with nearby venues: Administrative Science Quarterly, Organization Science, Journal of Management Studies, and Academy of Management Review.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The theory and analysis are settled; the prose must reach OS's register
+- The manuscript is technically correct but flat, atheoretical in tone, or hard to follow
+- A process study is written in dead "variance-speak" (factor A raised outcome B)
+- Reviewers/editors praise the idea but call the writing "underdeveloped theoretically" or "descriptive"
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| institutional process is central | Make the institutional process assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| qualitative depth is central | Make the qualitative depth assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| organization theory is central | Make the organization theory assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| critical reflexivity is central | Make the critical reflexivity assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| process temporality is central | Make the process temporality assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## OS's register: theoretically-rich, discursive, European
 
-## OS fit notes
+OS prose differs from the lean US empirical style. It is **discursive and conceptually textured**: the theoretical thread is foregrounded throughout, social theory is woven into the argument rather than quarantined in a lit review, and the writing carries an argumentative, sometimes essayistic confidence. This is not licence for vagueness — the best OS papers are *precise about their concepts and generous in developing them*. The voice should read as someone in deep conversation with organization theory, building an argument, not reporting a study.
 
-- Publisher / owner context: SAGE for EGOS.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: institutional process, qualitative depth, organization theory, critical reflexivity, process temporality.
-- Sibling boundary: Administrative Science Quarterly, Organization Science, Journal of Management Studies, and Academy of Management Review.
-- House-style aim: organization-theory argument with careful positioning, reflexivity, and evidence-theory fit.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/oss
-- https://journals.sagepub.com/author-instructions/OSS
+## The argument's arc
 
-## Stage-specific moves
+- **Open with the puzzle, theorized.** The first pages make a smart reader curious *and* signal the theoretical stakes — the anomaly and why existing theory cannot hold it, not a literature catalogue.
+- **Foreground theory throughout.** The theoretical thread is visible in every section, including methods and findings — a hallmark of OS, distinct from journals where theory lives only in intro and discussion.
+- **Develop, don't just report.** Findings sections in OS *theorize as they present* — interpreting evidence through the conceptual lens, not deferring all interpretation to a discussion.
+- **Earn the surprise / reframing.** Set up the prior carefully so the reader feels the reconceptualization land.
+- **Close on generativity.** End by opening new questions and implications for the conversation, not by restating findings.
 
-1. State the exact writing style question in one sentence.
-2. Identify which OS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `orgstud-submission` if the stage passes, or back to `orgstud-workflow` if it does not.
+## Prose discipline (precision under richness)
+
+- **Define concepts once, precisely, then use them consistently.** OS tolerates conceptual density but punishes sloppy or shifting use of borrowed theory.
+- **Concrete subjects and verbs;** cut nominalization stacks ("the operationalization of the conceptualization of...").
+- **One idea per paragraph**, with a topic sentence that advances the argument.
+- **Signpost the argument** so the reader always knows where they are in the theoretical journey.
+- **Engage theory actively** — make Weick, Bourdieu, institutional logics *do work* in the sentence, not appear as citations.
+
+## Process vs. variance voice
+
+- For **process theory**, write in process language: events, sequences, becoming, unfolding, enactment, feedback. Never flatten a process into a static relationship.
+- For **variance/quantitative** work at OS, be precise about relationships and magnitudes — but still narrate the organizational *why* and keep the theoretical thread visible.
+
+## Qualitative-specific craft
+
+- Weave informant voice into the analysis so quotes *advance* the argument.
+- Show enough of the field — thick description — to make the setting vivid and the inference credible, without drowning the theory.
+- Maintain analytic distance: vivid but not journalistic; interpretive but disciplined.
+- Make reflexivity audible where it matters, as the European tradition expects.
 
 ## Checklist
-- [ ] The OS audience can see why the paper belongs in organization theory, institutional theory, critical management, qualitative research, and process studies.
-- [ ] The draft distinguishes OS from Administrative Science Quarterly, Organization Science, Journal of Management Studies.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for writing style names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Opens with a *theorized* puzzle, not a literature dump
+- [ ] A single, traceable theoretical thread runs through every section, including findings
+- [ ] Findings theorize as they present, not just report
+- [ ] Borrowed theory used precisely and consistently; concepts defined once
+- [ ] Process papers written in process voice (not variance-speak)
+- [ ] One idea per paragraph; topic sentences carry the argument; signposting present
+- [ ] Qualitative: informant voice advances the argument; setting vivid but disciplined
+- [ ] Ends on generativity (new questions), not a findings recap
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to OS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- "Lab-report" prose: mechanical, voiceless, theory only in intro and discussion
+- Conceptual density that is actually vagueness — borrowed theory used loosely
+- Front-loading the literature so the puzzle never lands
+- Variance-speak imposed on a process phenomenon
+- Quote-dumping in qualitative papers with no analytic threading
+- A discussion that restates results instead of opening questions
 
 ## Output format
 
 ```text
-【Journal】Organization Studies
-【Skill】orgstud-writing-style
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking writing style
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Administrative Science Quarterly, Organization Science
-【Source status】verified URL / 待核实 / not asserted
+【Register】theory foregrounded throughout? findings theorize as they present? (Y/N)
+【Argument arc】theorized puzzle → development → reframing → generativity (status)
+【Theoretical thread】visible in every section? (Y/N)
+【Voice】process / variance — matches phenomenon?
+【Prose fixes】concept precision / nominalizations / paragraphing / signposting
+【Qual craft】informant voice + setting + reflexivity balanced?
 【Next skill】orgstud-submission
 ```

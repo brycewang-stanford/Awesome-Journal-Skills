@@ -1,72 +1,70 @@
 ---
 name: humrel-submission
-description: Use when working on submission preflight for a Human Relations manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when running the final pre-submission preflight for Human Relations (HR) via ScholarOne — anonymization, the 13k word cap, SAGE Harvard style, abstract/keywords, AI and data-transparency declarations. Final checks; it does not draft content.
 ---
 
 # Submission Preflight (humrel-submission)
 
 ## When to trigger
-- The manuscript is aimed at **Human Relations (Human Relations)** and submission preflight is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's work, employment, organizations, social relations, power, identity, and critical management standard.
-- The paper risks being confused with nearby venues: Organization Studies, Journal of Management Studies, Administrative Science Quarterly, and Work Employment and Society.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- "Submitting tomorrow" — last check before pressing submit on ScholarOne
+- Unsure which files, declarations, and format the HR submission expects
+- Confirming the manuscript is fully anonymized for double-anonymous review
+- Checking length, abstract, keywords, and SAGE Harvard compliance
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| workplace relation is central | Make the workplace relation assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| power and identity is central | Make the power and identity assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| employment institution is central | Make the employment institution assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| qualitative insight is central | Make the qualitative insight assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| social theory is central | Make the social theory assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Process facts (source map refreshed 2026-06; re-confirm on the official pages)
 
-## Human Relations fit notes
+- HR is published by **SAGE for the Tavistock Institute of Human Relations** (founded 1947, monthly). Submission is through **ScholarOne / ManuscriptCentral** (mc.manuscriptcentral.com/hr).
+- **Review model: double-anonymous.** The manuscript must contain no author names or identifying details and no links to external websites that could reveal authorship.
+- **Length: 13,000 words total**, including references and appendices (检索于 2026-06；以官网为准).
+- **Abstract: 100–200 words**, jargon-free, stating the topic/question, approach, and theoretical contribution; **keywords** as searchable key phrases.
+- **Referencing: SAGE Harvard** (author-date) (检索于 2026-06；以官网为准).
+- **Editorial scoping screen before full review:** "suitable data are a necessary but not sufficient feature to get to full peer review" — the theoretical contribution and HR fit must be legible up front. Article types: original empirical, theory-development, and intervention pieces; **critical/analytical reviews are accepted only through the annual special-issue call**.
+- **AI policy:** any AI use must be **declared at submission and detailed in the cover letter**; AI is permitted only for copy-editing/proofing — using it otherwise, or undisclosed, is grounds for rejection/retraction.
+- **Data transparency matrix:** if multiple papers draw on the same dataset, declare them and supply a matrix of which variables/quotations each uses; violation is grounds for rejection.
+- Manuscripts are checked with **iThenticate/CrossCheck** for prior publication; HR follows **COPE** standards.
+- Co-Editors-in-Chief: **Smriti Anand and Penny Dick** (检索于 2026-06；以官网为准) — address the cover letter to the editors, not a named individual unless verified.
 
-- Publisher / owner context: SAGE for the Tavistock Institute.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: workplace relation, power and identity, employment institution, qualitative insight, social theory.
-- Sibling boundary: Organization Studies, Journal of Management Studies, Administrative Science Quarterly, and Work Employment and Society.
-- House-style aim: socially grounded organization research that links theory, context, and lived work.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/hum
-- https://journals.sagepub.com/author-instructions/HUM
+## Preflight checklist
 
-## Stage-specific moves
+### Anonymization (double-anonymous)
+- [ ] No author names, affiliations, or identifying acknowledgements anywhere in the manuscript
+- [ ] Self-citations phrased neutrally (no "in our earlier work")
+- [ ] No live URLs, no identifying field-site/organization names, no grant numbers that reveal authorship
+- [ ] A separate (non-anonymized) title page uploaded as its own file, per portal fields
 
-1. State the exact submission preflight question in one sentence.
-2. Identify which Human Relations audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `humrel-review-process` if the stage passes, or back to `humrel-workflow` if it does not.
+### Format & style
+- [ ] Total length **≤13,000 words** including references and appendices
+- [ ] **Abstract 100–200 words**, jargon-free, naming the theoretical contribution; key-phrase keywords supplied
+- [ ] References in **SAGE Harvard** (author-date), consistent in-text and in the list
+- [ ] Exhibits legible, anonymized, and within the word budget
 
-## Checklist
-- [ ] The Human Relations audience can see why the paper belongs in work, employment, organizations, social relations, power, identity, and critical management.
-- [ ] The draft distinguishes Human Relations from Organization Studies, Journal of Management Studies, Administrative Science Quarterly.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for submission preflight names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+### Declarations & files (ScholarOne)
+- [ ] Cover letter to the editors: the contribution, HR fit, and **AI-use declaration** (if any)
+- [ ] Data transparency matrix attached if the dataset spans multiple papers
+- [ ] Article type selected correctly (do not submit a stand-alone review outside the special-issue call)
+- [ ] Ethics/COPE compliance confirmed; not under review elsewhere; AI not listed as an author
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Human Relations without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Leaving author-identifying traces in a double-anonymous submission (the most common desk return)
+- Exceeding 13k words and assuming an appendix is "free"
+- A cover letter that describes the topic but not the *theoretical contribution* — a scoping-screen risk
+- Submitting a stand-alone critical review outside the annual special-issue call
+- Undisclosed AI use, or AI use beyond copy-editing
+- Inconsistent or non-SAGE-Harvard references
 
 ## Output format
 
 ```text
 【Journal】Human Relations
 【Skill】humrel-submission
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking submission preflight
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Organization Studies, Journal of Management Studies
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】humrel-review-process
+【Anonymization】no author/site/grant tells; separate title page? [Y/N]
+【Length】≤13,000 words incl. refs + appendices? [Y/N]
+【Abstract】100–200 words + key-phrase keywords? [Y/N]
+【Style】SAGE Harvard references consistent? [Y/N]
+【Declarations】AI use declared; data matrix if needed; correct article type? [Y/N]
+【Next step】submit via ScholarOne → humrel-review-process for what to expect
 ```
 
 ## Supplementary resources

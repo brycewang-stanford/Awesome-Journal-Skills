@@ -1,70 +1,75 @@
 ---
 name: humrel-theory-development
-description: Use when working on theory development for a Human Relations manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when building the theoretical engine for a Human Relations (HR) manuscript — mechanisms grounded in social theory, process vs. variance logic, constructs, and boundary conditions. Builds the argument; it does not choose methods or run analysis.
 ---
 
 # Theory Development (humrel-theory-development)
 
 ## When to trigger
-- The manuscript is aimed at **Human Relations (Human Relations)** and theory development is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's work, employment, organizations, social relations, power, identity, and critical management standard.
-- The paper risks being confused with nearby venues: Organization Studies, Journal of Management Studies, Administrative Science Quarterly, and Work Employment and Society.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You have a work-and-society puzzle (from `humrel-topic-selection`) but no theoretical machinery to explain it
+- Your "theory" is a box-and-arrow diagram with labelled constructs but no *social mechanism*
+- A reviewer says the theory is "thin," "post hoc," "atheoretical," or "a relabelling of the finding"
+- You borrowed a fashionable construct (resilience, agility, the algorithmic) as a veneer over an under-theorized result
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| workplace relation is central | Make the workplace relation assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| power and identity is central | Make the power and identity assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| employment institution is central | Make the employment institution assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| qualitative insight is central | Make the qualitative insight assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| social theory is central | Make the social theory assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The HR standard: a substantive theoretical contribution drawing on social theory
 
-## Human Relations fit notes
+HR's gatekeeping criterion is **"a unique and substantive theoretical contribution"** to understanding work and organizations as social phenomena. Unlike a hypothesis-confirmation register, HR rewards theory that *engages social theory* — power, identity, institutions, practice, sensemaking, emotion, discourse, the labour process — and uses it to illuminate the relational dynamics of work. The deliverable is a change in how readers across organization studies, sociology, and psychology *understand* something, not a coefficient or a managerial recommendation.
 
-- Publisher / owner context: SAGE for the Tavistock Institute.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: workplace relation, power and identity, employment institution, qualitative insight, social theory.
-- Sibling boundary: Organization Studies, Journal of Management Studies, Administrative Science Quarterly, and Work Employment and Society.
-- House-style aim: socially grounded organization research that links theory, context, and lived work.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/hum
-- https://journals.sagepub.com/author-instructions/HUM
+## Mechanism first, grounded in a social process
 
-## Stage-specific moves
+A construct is not a mechanism. State the **generative social mechanism** — the relational/organizational process that produces the pattern or sequence:
 
-1. State the exact theory development question in one sentence.
-2. Identify which Human Relations audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `humrel-literature-positioning` if the stage passes, or back to `humrel-workflow` if it does not.
+- Name the **actors** and what they are doing relationally (negotiating identity, exercising or resisting power, making sense, categorizing, controlling, caring, contesting).
+- Name the **social structure** in which they act (occupation, hierarchy, field, institution, network, gender/class/race order, technological regime).
+- Specify the **processual or causal logic**: why does this actor, in this structure, produce this outcome or this next move?
+- Specify **boundary conditions**: where does the mechanism hold, weaken, or reverse? HR readers expect scope, not universal laws.
+
+A good test: can a reader *predict a new, non-obvious implication* for working life from your mechanism? If not, you have a label, not a theory.
+
+## Process theory vs. variance theory — match the form to the phenomenon
+
+- **Process theory** explains *how and why* something unfolds over time: sequences, events, becoming, contestation, feedback. Natural for ethnographic, historical, and critical HR papers.
+- **Variance theory** explains *how much* an outcome co-varies with antecedents, with moderators/mediators. Natural for survey/quantitative HR papers.
+
+HR accommodates both, but punishes a mismatch — variance framing forced onto a processual phenomenon ("control *increased* resistance") flattens exactly the relational dynamics HR exists to study. Let the form of the theory match the form of the phenomenon (this decision feeds `humrel-methods`).
+
+## Critical and reflexive theorizing
+
+HR's Tavistock lineage makes critical theorizing first-class: theory that problematizes power, ideology, and taken-for-granted arrangements is welcome — but it must be **generative as well as deconstructive**. A critique that only unmasks, without offering a new way to understand or a constructive reframing, reads as polemic. Pair the critical move with a positive theoretical claim that other scholars can build on.
+
+## Inductive vs. deductive
+
+- **Inductive/grounded:** theory is the *output*, presented after the data structure (see `humrel-data-analysis`). A grounded process model can be the *entire* HR contribution. Avoid "theory by adjective" (calling a pattern "dynamic" without specifying the process).
+- **Deductive:** hypotheses must be *derived* with an explicit causal-logic paragraph each, tied to one core mechanism — not a bag of hypotheses. Moderators must be theoretically motivated, not data-mined.
 
 ## Checklist
-- [ ] The Human Relations audience can see why the paper belongs in work, employment, organizations, social relations, power, identity, and critical management.
-- [ ] The draft distinguishes Human Relations from Organization Studies, Journal of Management Studies, Administrative Science Quarterly.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for theory development names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] A named generative social mechanism (actors + structure + logic), not just constructs
+- [ ] Theory engages a recognizable social-theoretical conversation, not a borrowed buzzword
+- [ ] Process vs. variance form matches the phenomenon
+- [ ] Boundary conditions stated (where it holds / weakens / reverses)
+- [ ] Mechanism yields at least one non-obvious implication for working life
+- [ ] Critical papers are generative, not only deconstructive
+- [ ] Deductive: each hypothesis derived from the core mechanism; inductive: a process model planned
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Human Relations without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Box-and-arrow models with no mechanism ("constructs in search of a story")
+- Variance framing imposed on a processual/relational phenomenon
+- A fashionable construct used as a veneer over a thin finding
+- Critique that only unmasks, with no constructive theoretical payoff
+- "Theory by adjective"; hypotheses asserted rather than derived; a moderator zoo
 
 ## Output format
 
 ```text
 【Journal】Human Relations
 【Skill】humrel-theory-development
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking theory development
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Organization Studies, Journal of Management Studies
-【Source status】verified URL / 待核实 / not asserted
+【Theory form】process / variance + why it matches the phenomenon
+【Core mechanism】actors + social structure + processual/causal logic
+【Social-theory anchor】the conversation it engages (power/identity/institutions/…)
+【Boundary conditions】where it holds / weakens / reverses
+【Non-obvious implication】the surprise for working life
 【Next skill】humrel-literature-positioning
 ```

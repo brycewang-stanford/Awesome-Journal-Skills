@@ -1,70 +1,79 @@
 ---
 name: humrel-writing-style
-description: Use when working on writing style for a Human Relations manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use for full-manuscript prose and narrative craft on a Human Relations (HR) manuscript — the reflexive, theoretically-engaged HR voice, intro/abstract, and structure within the 13k cap. Polishes the writing; it does not change the theory or analysis.
 ---
 
-# Writing Style (humrel-writing-style)
+# Writing Style & Craft (humrel-writing-style)
 
 ## When to trigger
-- The manuscript is aimed at **Human Relations (Human Relations)** and writing style is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's work, employment, organizations, social relations, power, identity, and critical management standard.
-- The paper risks being confused with nearby venues: Organization Studies, Journal of Management Studies, Administrative Science Quarterly, and Work Employment and Society.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The theory and analysis are settled and the prose needs to reach HR's register
+- The draft is technically correct but flat, jargon-heavy, or hard to follow
+- A process/critical study is written in dead "variance-speak"
+- A reviewer praises the idea but calls the writing "dense," "unclear," or "undertheorized in places"
+- You are tightening to the **13,000-word** cap or writing the **100–200 word** abstract
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| workplace relation is central | Make the workplace relation assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| power and identity is central | Make the power and identity assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| employment institution is central | Make the employment institution assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| qualitative insight is central | Make the qualitative insight assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| social theory is central | Make the social theory assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The HR register: reflexive and theoretically engaged
 
-## Human Relations fit notes
+HR prose is **scholarly, theoretically engaged, and socially aware** — closer to the reflexive register of European organizational social science than to the terse hypothesis-report style. The writing should make the social-theoretical argument visible throughout, keep the human relations at the centre, and (in qualitative/critical work) acknowledge the author's situatedness without lapsing into confession. It is theory-led but readable: a smart reader from sociology, psychology, or organization studies should follow the argument and feel its stakes.
 
-- Publisher / owner context: SAGE for the Tavistock Institute.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: workplace relation, power and identity, employment institution, qualitative insight, social theory.
-- Sibling boundary: Organization Studies, Journal of Management Studies, Administrative Science Quarterly, and Work Employment and Society.
-- House-style aim: socially grounded organization research that links theory, context, and lived work.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/hum
-- https://journals.sagepub.com/author-instructions/HUM
+## The narrative arc
 
-## Stage-specific moves
+- **Open with the puzzle.** The first page should make a smart reader curious about a tension in working life — the anomaly, not a literature catalogue.
+- **Build tension, then resolution.** The paper travels from puzzle → why existing theory falls short → your insight → evidence → reframing.
+- **Foreground theory throughout.** The theoretical thread is visible in every section, not only intro and discussion.
+- **Earn the surprise.** Set up the prior carefully so the reader feels the reversal.
+- **Close on generativity.** End by opening new questions for the social study of work, not by restating findings.
 
-1. State the exact writing style question in one sentence.
-2. Identify which Human Relations audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `humrel-submission` if the stage passes, or back to `humrel-workflow` if it does not.
+## Prose discipline
+
+- **Plain, precise English.** Concrete verbs, clear subjects; cut nominalizations ("the operationalization of the conceptualization…").
+- **Define jargon once, then use it consistently.** Do not stack neologisms — common at theory-heavy venues and punished when it obscures rather than clarifies.
+- **One idea per paragraph**, with a topic sentence carrying the argument.
+- **Process voice for process theory:** events, sequences, becoming, unfolding, contestation — do not flatten a relational process into "factor A raised outcome B."
+
+## Qualitative & critical craft
+
+- Weave informant voice into the analysis; quotes should *advance* the argument, not decorate it.
+- Show enough of the field to make the setting vivid and the inference credible — but keep analytic distance; vivid, not journalistic.
+- Make reflexivity methodologically meaningful: how your standpoint shaped access and interpretation.
+
+## The intro, abstract, and the word budget
+
+- Write the **introduction and abstract last**, once the contribution is fixed. The abstract is **100–200 words** (检索于 2026-06) and must state, without jargon, the topic/question, approach, and theoretical contribution; supply **keywords as key phrases** (e.g. "identity work," not "identity").
+- The **13,000-word total cap** includes references and appendices — cut the literature tour, not the argument. If you are over, trim positioning and redundant robustness prose before cutting analytic depth.
+- Keep the manuscript **anonymized**: no first-person self-citation that reveals authorship, no live URLs, no identifying acknowledgements (double-anonymous review).
 
 ## Checklist
-- [ ] The Human Relations audience can see why the paper belongs in work, employment, organizations, social relations, power, identity, and critical management.
-- [ ] The draft distinguishes Human Relations from Organization Studies, Journal of Management Studies, Administrative Science Quarterly.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for writing style names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Opens with a puzzle about working life, not a literature dump
+- [ ] A single, traceable theoretical thread runs through every section
+- [ ] The surprise is set up so the reader feels the reversal
+- [ ] Jargon defined once and used consistently; nominalizations cut
+- [ ] Process/critical papers written in process voice, not variance-speak
+- [ ] Qualitative: informant voice advances the argument; reflexivity is meaningful
+- [ ] Abstract 100–200 words, jargon-free, states the theoretical contribution; key-phrase keywords
+- [ ] Within the 13k total cap; manuscript fully anonymized
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Human Relations without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- "Lab-report" prose: mechanical, voiceless, no narrative tension
+- Front-loading the literature so the puzzle never lands
+- Jargon stacking and undefined neologisms (theoretical-sounding but empty)
+- Variance-speak imposed on a process/relational phenomenon
+- Quote-dumping with no analytic threading
+- A discussion that restates results instead of opening questions
+- Author-revealing traces left in a double-anonymous draft
 
 ## Output format
 
 ```text
 【Journal】Human Relations
 【Skill】humrel-writing-style
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking writing style
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Organization Studies, Journal of Management Studies
-【Source status】verified URL / 待核实 / not asserted
+【Narrative arc】puzzle → tension → insight → evidence → generativity (status)
+【Theoretical thread】visible throughout? (yes/no)
+【Voice】process / variance — matches phenomenon?
+【Abstract】100–200 words, jargon-free, contribution stated? (yes/no)
+【Budget + anonymity】within 13k; no author tells (yes/no)
 【Next skill】humrel-submission
 ```

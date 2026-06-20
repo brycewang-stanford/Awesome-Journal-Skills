@@ -1,70 +1,69 @@
 ---
 name: humrel-topic-selection
-description: Use when working on topic selection for a Human Relations manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when deciding whether a question belongs in Human Relations (HR) and how to frame it for the journal's interdisciplinary work-and-society audience. Tests fit and sharpens the question; it does not develop the theory or invent evidence.
 ---
 
 # Topic Selection (humrel-topic-selection)
 
 ## When to trigger
-- The manuscript is aimed at **Human Relations (Human Relations)** and topic selection is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's work, employment, organizations, social relations, power, identity, and critical management standard.
-- The paper risks being confused with nearby venues: Organization Studies, Journal of Management Studies, Administrative Science Quarterly, and Work Employment and Society.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You have a workplace/organizational phenomenon but are unsure it is an *HR* question rather than a sibling-journal question
+- The puzzle is interesting empirically but you cannot yet say what *social-theoretical* understanding it would advance
+- A coauthor asks "is this Human Relations, Organization Studies, JMS, or Work, Employment and Society?"
+- The topic is timely (AI at work, platform labour, hybrid work, inequality) and you need it to be more than topical
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| workplace relation is central | Make the workplace relation assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| power and identity is central | Make the power and identity assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| employment institution is central | Make the employment institution assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| qualitative insight is central | Make the qualitative insight assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| social theory is central | Make the social theory assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## What makes a question an HR question
 
-## Human Relations fit notes
+HR is the **interdisciplinary social-science journal of relationships at and around work**. Its self-description is the test: research that advances "our understanding of social relationships at and around work through theoretical development and empirical investigation." Three things travel together for a strong HR topic:
 
-- Publisher / owner context: SAGE for the Tavistock Institute.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: workplace relation, power and identity, employment institution, qualitative insight, social theory.
-- Sibling boundary: Organization Studies, Journal of Management Studies, Administrative Science Quarterly, and Work Employment and Society.
-- House-style aim: socially grounded organization research that links theory, context, and lived work.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/hum
-- https://journals.sagepub.com/author-instructions/HUM
+1. **The relational/social core.** The phenomenon is about people *in relation* — power, identity, meaning, conflict, control, solidarity, emotion, institutions — not a firm-level performance lever or an isolated individual trait. If the question could be answered without reference to social relations, it is probably not HR.
+2. **A theoretical stake, declared early.** HR runs an editorial scoping screen and demands "a unique and substantive theoretical contribution"; "suitable data are a necessary but not sufficient feature to get to full peer review." A topic that is only descriptive or only managerial-prescriptive will not clear the screen.
+3. **Interdisciplinary reach.** HR draws on sociology, psychology, organization studies, and critical theory. The best topics speak to a *conversation* readers from more than one tradition recognize.
 
-## Stage-specific moves
+## Sibling boundaries — where the topic should and should not go
 
-1. State the exact topic selection question in one sentence.
-2. Identify which Human Relations audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `humrel-theory-development` if the stage passes, or back to `humrel-workflow` if it does not.
+| If the centre of gravity is… | The natural home is… | HR's distinct angle |
+|------------------------------|----------------------|---------------------|
+| US-style hypothesis test of an OB effect | AMJ | HR wants theory + social context, methods plural, not a moderated-mediation template |
+| A debate internal to organization theory / paradigms | Organization Studies (EGOS) | HR is broader social science of work, less paradigm-internal |
+| Managerial relevance / strategy / the firm | JMS | HR foregrounds the *social relation*, not managerial payoff |
+| Employment, labour markets, class, work sociology | Work, Employment and Society | HR pulls the case up to *organizational/relational theory*, not labour-market description |
+| A purely critical/deconstructive intervention | Organization | HR welcomes critique but rewards a constructive, generative theoretical contribution |
+
+## How to sharpen the question
+
+- State the phenomenon as a **puzzle or tension** ("workers say X yet do Y"), not a topic label.
+- Name the **conversation** it joins and the **prior** it could unsettle (feeds `humrel-literature-positioning`).
+- Identify *which* HR readers would care (organizational sociologists? critical scholars? work psychologists?) and which would desk-screen it as out of scope.
+- Decide the likely archetype (ethnographic, critical, quantitative, mixed, theory) early — it sets the chain entry point in `humrel-workflow`.
 
 ## Checklist
-- [ ] The Human Relations audience can see why the paper belongs in work, employment, organizations, social relations, power, identity, and critical management.
-- [ ] The draft distinguishes Human Relations from Organization Studies, Journal of Management Studies, Administrative Science Quarterly.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for topic selection names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] The question is about **social relationships at/around work**, not a firm-performance lever
+- [ ] A theoretical stake is stated, not just an empirical gap or a timely topic
+- [ ] The target conversation and the prior it could overturn are named
+- [ ] You can say why it is HR and *not* OS / JMS / AMJ / WES / Organization
+- [ ] At least one HR reader segment would find it non-obvious and important
+- [ ] Process facts cited (length, review model, portal) trace to `resources/official-source-map.md` or are marked 待核实
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Human Relations without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A "hot topic" (AI, hybrid work) with no relational mechanism or theoretical stake
+- A managerial how-to or performance-optimization question dressed as organizational research
+- A descriptive case that never rises above its setting to organizational theory
+- Framing so generic the journal name could be swapped without changing a word
+- Treating the editorial scoping screen as a formality rather than the first real gate
 
 ## Output format
 
 ```text
 【Journal】Human Relations
 【Skill】humrel-topic-selection
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking topic selection
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Organization Studies, Journal of Management Studies
-【Source status】verified URL / 待核实 / not asserted
+【Verdict】fit / sharpen / reroute to sibling
+【Puzzle (one sentence)】the tension, not the topic
+【Relational core】how it is about relationships at/around work
+【Theoretical stake】what understanding it could advance
+【Sibling boundary】why HR and not OS / JMS / AMJ / WES / Organization
+【Source status】verified / 待核实 / not asserted
 【Next skill】humrel-theory-development
 ```

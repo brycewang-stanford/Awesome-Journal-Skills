@@ -1,70 +1,73 @@
 ---
 name: amann-organizing-framework
-description: Use when working on organizing framework for a Academy of Management Annals manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when building the novel integrative framework that an Academy of Management Annals (Annals) review must deliver — the theory-advancing "new way of seeing the field" that is the acceptance bar, not a catalog of papers. Designs the spine; it does not gather the literature (amann-literature-synthesis) or appraise evidence balance (amann-evidence-standards).
 ---
 
-# Organizing Framework (amann-organizing-framework)
+# Organizing Framework — the Acceptance Bar (amann-organizing-framework)
 
 ## When to trigger
-- The manuscript is aimed at **Academy of Management Annals (Annals)** and organizing framework is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's commissioned and high-level reviews that synthesize management and organization research standard.
-- The paper risks being confused with nearby venues: Academy of Management Review, Journal of Management, Journal of Management Studies, and Annual Review outlets.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The coding matrix is built but the draft would read like a list of papers
+- Sections are named after sub-topics ("Antecedents", "Outcomes") rather than ideas
+- You cannot state in one sentence the *new way of seeing the field* the review delivers
+- A reader could not predict why streams are grouped as they are, or what the review *argues*
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| integrative review is central | Make the integrative review assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| theory synthesis is central | Make the theory synthesis assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| agenda setting is central | Make the agenda setting assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| management field map is central | Make the management field map assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| conceptual reconciliation is central | Make the conceptual reconciliation assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Why the framework is the whole game at Annals
 
-## Annals fit notes
+Annals is "reviews with an attitude": it does not reward accurate summary, it rewards **theory advancement through synthesis**. The acceptance bar is whether the review **imposes an organizing logic the field did not have** — a typology, a process model, an integrating construct, a reconciliation of rival camps — that makes scattered work legible and generates a research agenda. The framework *is* the contribution; the citations are the evidence. This is what separates Annals from a descriptive review and from its sibling AMR, where new theory stands alone rather than emerging from a literature. Choose the spine deliberately:
 
-- Publisher / owner context: Academy of Management / Taylor & Francis.
-- Submission route to re-check: Academy of Management submission.
-- Signature vocabulary: integrative review, theory synthesis, agenda setting, management field map, conceptual reconciliation.
-- Sibling boundary: Academy of Management Review, Journal of Management, Journal of Management Studies, and Annual Review outlets.
-- House-style aim: field-defining synthesis that reorganizes theory rather than merely cataloging papers.
-- Official URLs currently used by the pack:
-- https://journals.aom.org/journal/annals
-- https://aom.org/research/publishing-with-aom/author-resources
+| Spine type | Organizes the field by | Best when |
+|-----------|------------------------|-----------|
+| **Typology / taxonomy** | mutually-exclusive categories of mechanism, form, or approach | the field is fragmented into incommensurable camps |
+| **Process / stage model** | a temporal or causal sequence (how a phenomenon unfolds) | the literature studies pieces of one process in isolation |
+| **Integrating construct** | a higher-order concept that subsumes scattered variables | many parallel constructs are really facets of one thing |
+| **Dialectic / reconciliation** | thesis–antithesis–synthesis across rival positions | a live debate has hardened into camps that talk past each other |
+| **Multi-level architecture** | individual ↔ team ↔ organization ↔ field linkages | the literature is siloed by level of analysis |
 
-## Stage-specific moves
+Pick **one** primary spine; a second axis can be a within-section ordering, but a review with two competing spines reads as two reviews.
 
-1. State the exact organizing framework question in one sentence.
-2. Identify which Annals audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `amann-evidence-standards` if the stage passes, or back to `amann-workflow` if it does not.
+## The test of a framework that clears the bar
+
+- **Generative:** it *predicts where the gaps are* — empty cells become the future-research agenda Annals demands, not omissions.
+- **Reconciling:** apparent contradictions become *explained* (studies disagree because they sit in different cells, different levels, or theorize different constructs).
+- **Integrative:** it makes previously siloed streams speak to each other, not just sit side by side.
+- **Portable:** a reader can restate the spine after one read and slot a new paper they encounter into it.
+- **Has attitude:** it takes a position — names what the field got wrong, what it over-studied, what it ignored — rather than neutrally cataloging.
+
+Stress-test by placing 5 hard cases (papers that resist categorization). If three have no home, the spine is wrong — redesign before drafting.
+
+> The framework is also what lets the review be *selective without being incomplete*: once each cell is defined, confirmatory work is cited in clusters within its cell while the prose discusses only the cell-defining studies. A review without a spine must either summarize everything (bloat) or omit silently (gaps). Design the spine before deciding what to foreground.
 
 ## Checklist
-- [ ] The Annals audience can see why the paper belongs in commissioned and high-level reviews that synthesize management and organization research.
-- [ ] The draft distinguishes Annals from Academy of Management Review, Journal of Management, Journal of Management Studies.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for organizing framework names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] The review explains inclusion/exclusion logic and how competing schools are balanced.
-- [ ] The synthesis produces an agenda, taxonomy, or framework rather than a bibliography.
+
+- [ ] One primary spine chosen (typology / process / integrating-construct / dialectic / multi-level)
+- [ ] The review's one-sentence *new way of seeing the field* is written
+- [ ] Every category traces to coded matrix rows (no empty rhetorical buckets)
+- [ ] The framework reconciles at least one live contradiction or debate in the field
+- [ ] Empty cells are surfaced as the *future-research agenda* (generativity)
+- [ ] The framework takes a position (the Annals "attitude"), not a neutral tour
+- [ ] 5 hard-case papers each have a natural home
+- [ ] Section headings name *ideas/mechanisms*, not "antecedents / outcomes / moderators"
+- [ ] A non-specialist could restate the spine and slot a new paper into it
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Annals without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- The annotated bibliography: stream-by-stream summaries with no integrating idea (the cardinal Annals reject)
+- The "antecedents–outcomes–moderators" skeleton dressed up as a framework (it organizes nothing)
+- A typology whose categories overlap so every paper is cited in three cells
+- Two competing spines fighting for control of the same review
+- A framework so bespoke only the author can apply it (not portable)
+- A descriptive map with no agenda and no position — coverage without the "attitude"
 
 ## Output format
 
 ```text
-【Journal】Academy of Management Annals
-【Skill】amann-organizing-framework
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking organizing framework
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Academy of Management Review, Journal of Management
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】amann-evidence-standards
+【Spine type】typology / process / integrating-construct / dialectic / multi-level
+【New way of seeing the field】"<one sentence the review argues>"
+【Categories】<the cells / stages / levels, each MECE>
+【Reconciliation】<which contradiction or debate the framework explains>
+【Future-research agenda】<empty cells surfaced as the agenda>
+【Attitude】<the position the framework takes — what the field got wrong/missed>
+【Hard-case test】5 awkward papers each placed? Y/N
+【Next skill】→ amann-evidence-standards (fill cells with appraised, balanced evidence)
 ```

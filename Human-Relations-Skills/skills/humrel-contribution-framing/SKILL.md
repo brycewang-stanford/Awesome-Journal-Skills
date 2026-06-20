@@ -1,70 +1,79 @@
 ---
 name: humrel-contribution-framing
-description: Use when working on contribution framing for a Human Relations manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when sharpening the theoretical contribution and the "so what" for a Human Relations (HR) manuscript once results exist. Frames the contribution; it does not develop the underlying theory or run analysis.
 ---
 
 # Contribution Framing (humrel-contribution-framing)
 
 ## When to trigger
-- The manuscript is aimed at **Human Relations (Human Relations)** and contribution framing is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's work, employment, organizations, social relations, power, identity, and critical management standard.
-- The paper risks being confused with nearby venues: Organization Studies, Journal of Management Studies, Administrative Science Quarterly, and Work Employment and Society.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Results exist but you cannot state the contribution in one crisp sentence
+- The intro/discussion reads as "we found X" rather than "we change how the field understands work"
+- A reviewer says "interesting findings, but what is the theoretical contribution?"
+- The paper risks reading as a vivid case, a method demonstration, or a managerial how-to
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| workplace relation is central | Make the workplace relation assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| power and identity is central | Make the power and identity assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| employment institution is central | Make the employment institution assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| qualitative insight is central | Make the qualitative insight assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| social theory is central | Make the social theory assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The HR deliverable: a substantive theoretical contribution
 
-## Human Relations fit notes
+HR's explicit gate is **"a unique and substantive theoretical contribution"** to understanding work and organizations as social phenomena. A finding answers a question; a contribution **reframes the question or overturns a prior** in a way readers across organization studies, sociology, and psychology can use. Frame around the surprise from `humrel-topic-selection` and the mechanism from `humrel-theory-development`. What is *not* the HR deliverable: a firm-performance improvement (a JMS register), a well-powered confirmation of a moderated hypothesis (an AMJ profile), a pure critique with no constructive claim (closer to Organization), or a rich description that never theorizes (closer to Work, Employment and Society).
 
-- Publisher / owner context: SAGE for the Tavistock Institute.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: workplace relation, power and identity, employment institution, qualitative insight, social theory.
-- Sibling boundary: Organization Studies, Journal of Management Studies, Administrative Science Quarterly, and Work Employment and Society.
-- House-style aim: socially grounded organization research that links theory, context, and lived work.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/hum
-- https://journals.sagepub.com/author-instructions/HUM
+## Name your contribution type
 
-## Stage-specific moves
+- **Reframing:** you reconceptualize a construct or relation (the field was looking at it wrong)
+- **Mechanism:** you reveal *how/why* a relational process happens that was a black box
+- **Boundary/contingency:** you show when an established effect reverses or breaks at work
+- **Integration:** you reconcile two conversations that appeared to conflict
+- **New construct/process model:** you name and theorize something the field lacked language for
+- **Critical reframing:** you show how power/ideology constitutes a phenomenon previously taken for granted — *and* offer a constructive alternative understanding
 
-1. State the exact contribution framing question in one sentence.
-2. Identify which Human Relations audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `humrel-tables-figures` if the stage passes, or back to `humrel-workflow` if it does not.
+Avoid the weakest "contributions" HR rejects: "we replicate prior work in a new setting," "we add a moderator," "we study an under-studied population."
+
+## The contribution paragraph
+
+Place a sharp statement early (intro) and revisit it in the discussion:
+
+> "We contribute to [conversation] by showing [surprising insight about social relations at work]. Whereas prior work assumed [prior], we demonstrate [reframing/mechanism/boundary], driven by [social mechanism]. This implies [non-obvious consequence for working life] and reopens [new question]."
+
+## Discussion that earns HR acceptance
+
+- **Lead with the theoretical contribution**, not a findings recap.
+- **Generativity:** spell out the new questions and directions the insight opens; HR values ideas that travel across the social sciences of work.
+- **Scope and reflexivity:** state boundary conditions and what the study cannot claim; for qualitative/critical work, acknowledge the situatedness of the account — this strengthens the contribution.
+- **Practical/societal relevance, if included, is brief and genuine** — HR is socially relevant but theory-led; do not pad with a managerial implications list to mask a thin contribution.
+- **Connect back to the surprise:** remind the reader why the prior was wrong.
+
+## Calibrate the claim
+
+- Too modest → "so what?" rejection at the scoping screen. Too grand → "overclaiming" rejection.
+- The claim must be *exactly as large as the evidence supports* — and a single case or critical reading should claim *analytical* generalization (to theory), not statistical generalization.
 
 ## Checklist
-- [ ] The Human Relations audience can see why the paper belongs in work, employment, organizations, social relations, power, identity, and critical management.
-- [ ] The draft distinguishes Human Relations from Organization Studies, Journal of Management Studies, Administrative Science Quarterly.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for contribution framing names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Contribution stated in one sentence a non-specialist work scholar would grasp
+- [ ] Contribution *type* named (reframing / mechanism / boundary / integration / new model / critical)
+- [ ] It is a change in understanding, not just a new finding or a managerial tip
+- [ ] Discussion leads with theory; generativity is explicit
+- [ ] Boundary conditions / situatedness stated honestly
+- [ ] Claim size matches evidence; qualitative claims are analytical not statistical
+- [ ] Societal relevance, if present, is brief and genuine
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Human Relations without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- "We found X" framing with no reframing of the conversation
+- Listing 4–5 weak contributions instead of one strong one
+- Contribution = "new setting / added moderator / new sample"
+- A managerial implications section padded to substitute for thin theory
+- Critique with no constructive theoretical alternative
+- Claiming statistical generalization from a single case or interpretive study
 
 ## Output format
 
 ```text
 【Journal】Human Relations
 【Skill】humrel-contribution-framing
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking contribution framing
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Organization Studies, Journal of Management Studies
-【Source status】verified URL / 待核实 / not asserted
+【Contribution (one sentence)】...
+【Type】reframing / mechanism / boundary / integration / new model / critical
+【Prior overturned】what the field assumed
+【Generativity】new questions opened
+【Claim calibration】matches evidence? analytical vs. statistical?
 【Next skill】humrel-tables-figures
 ```

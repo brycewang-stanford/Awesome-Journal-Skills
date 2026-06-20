@@ -1,70 +1,77 @@
 ---
 name: orgstud-data-analysis
-description: Use when working on data analysis for a Organization Studies manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when executing and reporting the analysis for an Organization Studies (OS) manuscript — qualitative coding and the data-to-theory ladder, process analysis, or quantitative estimation and robustness. Makes the evidence-to-theory link transparent; it does not design the study (see orgstud-methods).
 ---
 
-# Data Analysis (orgstud-data-analysis)
+# Data Analysis & Evidence (orgstud-data-analysis)
 
 ## When to trigger
-- The manuscript is aimed at **Organization Studies (OS)** and data analysis is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's organization theory, institutional theory, critical management, qualitative research, and process studies standard.
-- The paper risks being confused with nearby venues: Administrative Science Quarterly, Organization Science, Journal of Management Studies, and Academy of Management Review.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You have data but the path from raw material to theory is opaque
+- Qualitative: your quotes are decorative, not evidentiary; the coding is undocumented
+- Process: you have events but no visible analytic structure turning them into a model
+- Quantitative: main results exist but robustness and alternative explanations are thin
+- A reviewer asks "how did you get from your data to these constructs?"
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| institutional process is central | Make the institutional process assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| qualitative depth is central | Make the qualitative depth assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| organization theory is central | Make the organization theory assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| critical reflexivity is central | Make the critical reflexivity assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| process temporality is central | Make the process temporality assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## OS expects readers to *see* how data became theory
 
-## OS fit notes
+OS's interpretive, European tradition makes **analytic transparency** a first-class criterion — qualitative rigor is judged on its own terms, not against a quantitative yardstick. The reader must be able to *audit the inference* from raw data to theoretical claim. Make the analytic ladder visible.
 
-- Publisher / owner context: SAGE for EGOS.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: institutional process, qualitative depth, organization theory, critical reflexivity, process temporality.
-- Sibling boundary: Administrative Science Quarterly, Organization Science, Journal of Management Studies, and Academy of Management Review.
-- House-style aim: organization-theory argument with careful positioning, reflexivity, and evidence-theory fit.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/oss
-- https://journals.sagepub.com/author-instructions/OSS
+## Branch A — Qualitative analysis (the data-to-theory ladder)
 
-## Stage-specific moves
+- **Transparent coding.** Show first-order codes (informant terms), second-order themes (researcher constructs), and aggregate dimensions — the **Gioia data structure** — or an equivalent (Eisenhardt cross-case tables, Langley process bracketing). State who coded, how disagreements were resolved, and how iteration with theory proceeded.
+- **Data-to-theory table.** A table linking representative raw evidence → codes → constructs, so the inference is auditable (build it with `orgstud-tables-figures`).
+- **Power quotes vs. proof quotes.** A few vivid "power quotes" in the body carry the argument; corroborating "proof quotes" sit in tables/appendix. Quotes must *carry* the claim, not illustrate a conclusion reached elsewhere.
+- **Evidence for each construct.** Every construct backed by patterned evidence across informants/cases, with prevalence where appropriate.
+- **Negative cases.** Report disconfirming instances and how they refined the theory — central to trustworthiness at OS.
+- **Process display.** For process theory, show the temporal/event structure (timeline, phase model, visual mapping); make the transitions between phases analytically explicit, not just narrated.
 
-1. State the exact data analysis question in one sentence.
-2. Identify which OS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `orgstud-contribution-framing` if the stage passes, or back to `orgstud-workflow` if it does not.
+## Branch B — Process analysis (when the contribution is a process model)
+
+- Choose a **process strategy** explicitly: narrative, temporal bracketing, visual mapping, grounded theory, or alternate templates (Langley). Say why it fits.
+- Identify **events, sequences, and turning points**; show what triggers each transition and what each phase accomplishes that the prior could not.
+- Distinguish **real-time** from **retrospective** data and address the recall/hindsight risks of each.
+- The output is a **process model figure** plus the analytic account that earns it.
+
+## Branch C — Quantitative analysis
+
+- **Main models** match the design (FE/RE, event-history, multilevel, network); standard errors clustered at the right level.
+- **Robustness that targets the theory's threats** — alternative measures, samples, specifications, endogeneity checks, modern staggered-DiD diagnostics if relevant — not a wall of tables that never address the real threat.
+- **Mechanism evidence.** Don't stop at the reduced-form relationship; probe *why* (mediation/moderation or supplementary tests).
+- **Effect interpretation in organizational terms** — magnitudes, not just significance.
+
+## Either branch — the "so what" of the evidence
+
+- Tie every analytic result back to the mechanism and the theoretical puzzle.
+- Distinguish what the data *can* and *cannot* establish — overclaiming is a fast OS rejection.
+- Prepare exhibits jointly with `orgstud-tables-figures`.
 
 ## Checklist
-- [ ] The OS audience can see why the paper belongs in organization theory, institutional theory, critical management, qualitative research, and process studies.
-- [ ] The draft distinguishes OS from Administrative Science Quarterly, Organization Science, Journal of Management Studies.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for data analysis names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Qual: data structure (first-order → second-order → dimensions) documented
+- [ ] Qual: a data-to-theory / evidence table built; quotes carry (not decorate) claims
+- [ ] Qual: negative cases reported and used to refine the theory
+- [ ] Process: process strategy named; turning points and transitions made explicit
+- [ ] Quant: SEs clustered appropriately; robustness targets the theory's threats; magnitudes interpreted
+- [ ] Mechanism is probed, not just the headline relationship
+- [ ] Claims are matched to what the evidence can actually support
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to OS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- "Anecdotal" qualitative work: cherry-picked quotes with no coding transparency
+- Quotes that illustrate a pre-set conclusion rather than generating/supporting it
+- A process "model" that is really a narrative with no analytic structure or transition logic
+- Robustness theater: many tables that never address the real identification threat
+- Reporting significance with no interpretation of organizational magnitude
+- Overclaiming causality or generalizability beyond what the design supports
 
 ## Output format
 
 ```text
-【Journal】Organization Studies
-【Skill】orgstud-data-analysis
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking data analysis
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Administrative Science Quarterly, Organization Science
-【Source status】verified URL / 待核实 / not asserted
+【Branch】qualitative / process / quantitative
+【Data-to-theory link】data structure / process strategy / mechanism tests done
+【Key evidence】power quotes, the process model, or main estimates
+【Trustworthiness/robustness】checks completed + gaps (negative cases, clustering, alt explanations)
+【What evidence cannot show】explicit limits
 【Next skill】orgstud-contribution-framing
 ```

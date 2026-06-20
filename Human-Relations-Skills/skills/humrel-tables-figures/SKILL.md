@@ -1,70 +1,72 @@
 ---
 name: humrel-tables-figures
-description: Use when working on tables and figures for a Human Relations manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when building and auditing the exhibits for a Human Relations (HR) manuscript — qualitative data-structure and evidence tables, process models, and quantitative tables/figures. Improves the exhibits; it does not change the analysis or theory.
 ---
 
-# Tables and Figures (humrel-tables-figures)
+# Tables & Figures (humrel-tables-figures)
 
 ## When to trigger
-- The manuscript is aimed at **Human Relations (Human Relations)** and tables and figures is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's work, employment, organizations, social relations, power, identity, and critical management standard.
-- The paper risks being confused with nearby venues: Organization Studies, Journal of Management Studies, Administrative Science Quarterly, and Work Employment and Society.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Your exhibits exist but a reader cannot trace the inference from data to theory
+- A qualitative paper has quotes scattered in prose but no data-structure or evidence table
+- A process study has no figure showing the temporal/phase structure
+- Quantitative tables are dense, asterisk-driven, or report numbers without interpretation
+- You are checking exhibits for anonymization before a double-anonymous submission
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| workplace relation is central | Make the workplace relation assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| power and identity is central | Make the power and identity assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| employment institution is central | Make the employment institution assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| qualitative insight is central | Make the qualitative insight assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| social theory is central | Make the social theory assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Exhibits must make the argument visible
 
-## Human Relations fit notes
+At HR, exhibits are part of the *theoretical* apparatus, not an appendix of proof. The job differs by tradition, but the test is constant: each exhibit should let a reader *see the inference* that the prose claims.
 
-- Publisher / owner context: SAGE for the Tavistock Institute.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: workplace relation, power and identity, employment institution, qualitative insight, social theory.
-- Sibling boundary: Organization Studies, Journal of Management Studies, Administrative Science Quarterly, and Work Employment and Society.
-- House-style aim: socially grounded organization research that links theory, context, and lived work.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/hum
-- https://journals.sagepub.com/author-instructions/HUM
+## Qualitative & critical exhibits
 
-## Stage-specific moves
+- **Data-structure figure (the spine of a qualitative paper).** Show first-order codes → second-order themes → aggregate dimensions (Gioia) or the equivalent. This is often the single most scrutinized exhibit; build it from `humrel-data-analysis`.
+- **Evidence / data-to-theory table.** Representative quotations mapped to constructs, so the data-to-theory link is auditable. Quotes here are *proof quotes*; reserve a few vivid *power quotes* for the body.
+- **Process / phase model.** For process theory, a figure showing the sequence, events, and feedback over time — the visual argument of how the phenomenon unfolds.
+- **Informant / site table.** Roles, counts, durations — establishing the evidentiary base without revealing identifying detail (anonymize site and organization names).
 
-1. State the exact tables and figures question in one sentence.
-2. Identify which Human Relations audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `humrel-writing-style` if the stage passes, or back to `humrel-workflow` if it does not.
+## Quantitative exhibits
+
+- **Descriptives + correlations** with reliabilities on the diagonal where applicable.
+- **Main models** in a clean regression table; **report standard errors / confidence intervals**, and do not let significance asterisks *be* the result — interpret magnitudes in the text.
+- **Interactions plotted**, not left as raw coefficients; show simple slopes for moderation.
+- **Multilevel results** labelled by level; variance components reported where theory is cross-level.
+
+## House-style and submission constraints
+
+- **SAGE Harvard (author-date)** governs in-text references and notes within exhibits (检索于 2026-06；以官网为准).
+- The **13,000-word total cap** includes everything; bloated tables and a long appendix compete with the main text for that budget — every exhibit must earn its space.
+- **Anonymize all exhibits** for double-anonymous review: no organization names, no identifying figures, no author-revealing acknowledgements in notes.
+- Figures should be legible in greyscale and at the journal's column width.
 
 ## Checklist
-- [ ] The Human Relations audience can see why the paper belongs in work, employment, organizations, social relations, power, identity, and critical management.
-- [ ] The draft distinguishes Human Relations from Organization Studies, Journal of Management Studies, Administrative Science Quarterly.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for tables and figures names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Qual: a data-structure figure shows codes → themes → dimensions
+- [ ] Qual: an evidence table maps quotations to constructs (auditable inference)
+- [ ] Process papers: a phase/temporal model figure is present
+- [ ] Quant: SEs/CIs reported; magnitudes interpreted in text, not via asterisks alone
+- [ ] Interactions are plotted; multilevel results labelled by level
+- [ ] Every exhibit earns its place against the 13k word budget
+- [ ] All exhibits anonymized (no site/organization/author tells)
+- [ ] References within exhibits follow SAGE Harvard
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Human Relations without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A qualitative paper with no data-structure or evidence table (inference invisible)
+- Quote-dumping in tables with no mapping to constructs
+- Tables where significance asterisks substitute for substantive interpretation
+- Process claims with no figure showing the temporal structure
+- Exhibits that reveal the field site or author institution
+- An appendix so large it crowds out the main argument under the word cap
 
 ## Output format
 
 ```text
 【Journal】Human Relations
 【Skill】humrel-tables-figures
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking tables and figures
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Organization Studies, Journal of Management Studies
-【Source status】verified URL / 待核实 / not asserted
+【Qual exhibits】data structure / evidence table / process model status
+【Quant exhibits】SEs-CIs reported; magnitudes interpreted (yes/no)
+【Inference visible】can a reader trace data → theory? (yes/no)
+【Anonymization】exhibits clean of site/author tells (yes/no)
+【Budget】exhibits justified against 13k cap (yes/no)
 【Next skill】humrel-writing-style
 ```

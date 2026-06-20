@@ -1,70 +1,70 @@
 ---
 name: amann-tables-figures
-description: Use when working on tables and figures for a Academy of Management Annals manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when building exhibits for an Academy of Management Annals (Annals) review — the signature framework figure, who-studied-what synthesis tables, and search/coverage exhibits that summarize across a literature. Designs review exhibits; it does not produce original-estimate regression tables (an Annals review reports no new data of its own).
 ---
 
-# Tables and Figures (amann-tables-figures)
+# Tables & Figures for a Review (amann-tables-figures)
 
 ## When to trigger
-- The manuscript is aimed at **Academy of Management Annals (Annals)** and tables and figures is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's commissioned and high-level reviews that synthesize management and organization research standard.
-- The paper risks being confused with nearby venues: Academy of Management Review, Journal of Management, Journal of Management Studies, and Annual Review outlets.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The synthesis is done and the reader needs to *see* the field at a glance
+- The organizing framework would land far better as a diagram than as prose
+- A fragmented literature would be clearer as a synthesis table than as paragraphs
+- You are tempted to paste a regression table — but this is a review, not a primary paper
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| integrative review is central | Make the integrative review assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| theory synthesis is central | Make the theory synthesis assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| agenda setting is central | Make the agenda setting assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| management field map is central | Make the management field map assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| conceptual reconciliation is central | Make the conceptual reconciliation assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The exhibit types an Annals review actually uses
 
-## Annals fit notes
+Annals exhibits **summarize and reorganize across the literature**; they never present the author's own estimation. The workhorses:
 
-- Publisher / owner context: Academy of Management / Taylor & Francis.
-- Submission route to re-check: Academy of Management submission.
-- Signature vocabulary: integrative review, theory synthesis, agenda setting, management field map, conceptual reconciliation.
-- Sibling boundary: Academy of Management Review, Journal of Management, Journal of Management Studies, and Annual Review outlets.
-- House-style aim: field-defining synthesis that reorganizes theory rather than merely cataloging papers.
-- Official URLs currently used by the pack:
-- https://journals.aom.org/journal/annals
-- https://aom.org/research/publishing-with-aom/author-resources
+| Exhibit | Purpose | Design notes |
+|---------|---------|--------------|
+| **Framework figure** | render the organizing spine — typology grid, process model, multi-level architecture | this is usually the review's *signature* exhibit; it should be restate-able from memory and carry the "new way of seeing the field" |
+| **Who-studied-what synthesis table** | one row per study (or per stream): construct, theory base, method/context, finding, your appraisal | rows ordered by the framework's cells, not chronology; columns let the reader compare *comparable* work |
+| **Search / coverage exhibit** | a PRISMA-style flow, a search-terms table, or a publications-over-time chart | documents the systematic process from `amann-literature-synthesis` and pre-empts "why did you omit X?" |
+| **Agenda / gap matrix** | the framework's empty cells laid out as the future-research agenda | turns the generativity of the framework into a concrete, visible roadmap |
 
-## Stage-specific moves
+## Building credible synthesis exhibits
 
-1. State the exact tables and figures question in one sentence.
-2. Identify which Annals audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `amann-writing-style` if the stage passes, or back to `amann-workflow` if it does not.
+- **The framework figure must do conceptual work.** It should *be* the contribution rendered visually — readers should be able to reconstruct the review's argument from it. A decorative diagram that merely lists topics fails.
+- **Compare like with like.** In a synthesis table, group studies that theorize the *same* construct; never put incommensurable constructs in one column (the exhibit version of the pooling error from `amann-literature-synthesis`).
+- **Carry an appraisal column.** A finding column without a credibility/method note invites "but how good is that study?" — answer it in the table (links to `amann-evidence-standards`).
+- **Self-contained captions.** An Annals exhibit is read on its own; the caption states what it shows, the unit, how to read a row, and the source studies.
+- **Source every cell.** Each entry traces to a paper in the coding matrix; an unsourced number in a review is indefensible.
+
+## Meta-analysis and bibliometric caution
+
+If you assemble effect sizes into a quantitative synthesis (forest plot, meta-regression) or a co-citation map, you are doing meta-analysis or bibliometrics, with all their assumptions — comparable constructs, independence, publication-bias diagnostics, weighting. Do this only where the literature genuinely supports it; a spurious pooled magnitude or an over-interpreted co-citation cluster is less honest than a qualitative synthesis table. Annals readers include the methodologists who would catch invalid pooling.
 
 ## Checklist
-- [ ] The Annals audience can see why the paper belongs in commissioned and high-level reviews that synthesize management and organization research.
-- [ ] The draft distinguishes Annals from Academy of Management Review, Journal of Management, Journal of Management Studies.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for tables and figures names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] The review explains inclusion/exclusion logic and how competing schools are balanced.
-- [ ] The synthesis produces an agenda, taxonomy, or framework rather than a bibliography.
+
+- [ ] Each exhibit synthesizes across studies (no original-estimate regression output of the author's own)
+- [ ] A framework figure renders the spine and carries the "new way of seeing the field"; restate-able from memory
+- [ ] Synthesis-table rows ordered by the framework's cells; only comparable constructs share a column
+- [ ] Finding columns carry an appraisal/method note, not bare claims
+- [ ] A search/coverage exhibit documents the systematic process (PRISMA-style or terms table)
+- [ ] Any meta-analytic or bibliometric exhibit pools only commensurable work; diagnostics noted
+- [ ] Captions are self-contained (what / unit / how to read a row / sources)
+- [ ] Every cell sources to a paper in the coding matrix
+- [ ] An agenda/gap exhibit makes the future-research roadmap visible
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Annals without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Pasting a regression table of the author's *own* new estimates — a review reports no new results
+- A framework figure that merely lists topics instead of encoding the integrative argument
+- A synthesis table that pools incommensurable constructs into one column
+- A forest plot or co-citation map implying structure the literature does not support
+- Finding columns with no appraisal note (every reader then asks "is that study any good?")
+- Exhibits whose captions require the body text to be intelligible
 
 ## Output format
 
 ```text
-【Journal】Academy of Management Annals
-【Skill】amann-tables-figures
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking tables and figures
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Academy of Management Review, Journal of Management
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】amann-writing-style
+【Exhibit set】<framework figure / synthesis tables / coverage exhibit / agenda matrix>
+【Framework figure】encodes the spine + "new way of seeing"; restate-able from memory? Y/N
+【Synthesis table】rows by framework cell; comparable constructs only? Y/N
+【Appraisal column】present for every finding? Y/N
+【Coverage exhibit】documents the systematic search (PRISMA-style)? Y/N
+【Meta/bibliometric】pools only commensurable work (or omitted)? Y/N
+【Sourcing】every cell traces to the coding matrix? Y/N
+【Next skill】→ amann-writing-style (weave exhibits into the synthesis prose)
 ```

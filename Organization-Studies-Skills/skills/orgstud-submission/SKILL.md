@@ -1,72 +1,70 @@
 ---
 name: orgstud-submission
-description: Use when working on submission preflight for a Organization Studies manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when running the final pre-submission preflight for Organization Studies (OS) via ScholarOne — double-anonymization, the 13,000-word cap, the 300-word unstructured abstract, the keyword rule, and SAGE house format. Final checks; it does not draft content.
 ---
 
 # Submission Preflight (orgstud-submission)
 
 ## When to trigger
-- The manuscript is aimed at **Organization Studies (OS)** and submission preflight is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's organization theory, institutional theory, critical management, qualitative research, and process studies standard.
-- The paper risks being confused with nearby venues: Administrative Science Quarterly, Organization Science, Journal of Management Studies, and Academy of Management Review.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- "Submitting tomorrow" — last check before pressing submit on ScholarOne
+- Unsure which files and fields the OS ScholarOne form expects
+- Confirming the manuscript is properly anonymized for double-anonymized review
+- Checking length, abstract, and keyword rules against OS's actual limits
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| institutional process is central | Make the institutional process assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| qualitative depth is central | Make the qualitative depth assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| organization theory is central | Make the organization theory assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| critical reflexivity is central | Make the critical reflexivity assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| process temporality is central | Make the process temporality assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Process facts (source map refreshed 2026-06; re-confirm on the SAGE OS and EGOS pages)
 
-## OS fit notes
+- OS is published by **SAGE for EGOS** (founded 1980; ISSN 0170-8406 print / 1741-3044 online; monthly; FT50 generalist-management list). Submission is via **ScholarOne Manuscripts** at `mc.manuscriptcentral.com/orgstudies`.
+- **Review model: double-anonymized** — both author and reviewer identities are concealed. This drives the whole preflight: the manuscript must carry **no identifying information**, and author details go on a **separate title page** uploaded as a distinct file (检索于 2026-06；以官网为准).
+- **Length: ≤13,000 words including references and appendices** (检索于 2026-06；以官网为准). This is generous by US standards and signals OS's tolerance for discursive, theoretically-developed prose — but the cap is inclusive of references/appendices, which surprises authors.
+- **Abstract: unstructured, ≤300 words** (not a structured abstract) (检索于 2026-06；以官网为准).
+- **Keywords: 5–7**, with **four selected from the OS ScholarOne keyword list** and the remainder free (检索于 2026-06；以官网为准).
+- **Referencing: SAGE Harvard** (author–date) house style (检索于 2026-06；以官网为准).
+- Managing editor (EGOS office): Sophia Tzagaraki (osofficek@gmail.com); editors-in-chief Renate Meyer and Paolo Quattrone (检索于 2026-06；以官网为准).
+- Open-access/APC and exact fee terms are **待核实** — confirm OA option and any charge on the SAGE OS page before relying on them.
 
-- Publisher / owner context: SAGE for EGOS.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: institutional process, qualitative depth, organization theory, critical reflexivity, process temporality.
-- Sibling boundary: Administrative Science Quarterly, Organization Science, Journal of Management Studies, and Academy of Management Review.
-- House-style aim: organization-theory argument with careful positioning, reflexivity, and evidence-theory fit.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/oss
-- https://journals.sagepub.com/author-instructions/OSS
+## Preflight checklist
 
-## Stage-specific moves
+### Anonymization (double-anonymized review)
+- [ ] Manuscript file contains **no author names, affiliations, acknowledgements, or funding** that identify authors
+- [ ] **Self-citations neutralized** (cite in third person; no "as we showed in...")
+- [ ] Document properties / file metadata stripped of author identity
+- [ ] Separate **title page** uploaded with full author details, affiliations, acknowledgements
+- [ ] Site/organization identities masked if confidentiality requires (state the masking)
 
-1. State the exact submission preflight question in one sentence.
-2. Identify which OS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `orgstud-review-process` if the stage passes, or back to `orgstud-workflow` if it does not.
+### Format & length
+- [ ] Total **≤13,000 words including references and appendices**
+- [ ] **Unstructured abstract ≤300 words**
+- [ ] **5–7 keywords**, four from the OS ScholarOne list
+- [ ] **SAGE Harvard** referencing throughout
+- [ ] Figures/tables prepared to SAGE artwork specs; legible in greyscale
+- [ ] Effect magnitudes/CIs interpreted (quant); data structure + process figures present (qual)
 
-## Checklist
-- [ ] The OS audience can see why the paper belongs in organization theory, institutional theory, critical management, qualitative research, and process studies.
-- [ ] The draft distinguishes OS from Administrative Science Quarterly, Organization Science, Journal of Management Studies.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for submission preflight names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+### Declarations & policy
+- [ ] Not under review elsewhere; original work; AI not listed as an author (per SAGE policy)
+- [ ] Ethics/consent statements for fieldwork; data-availability statement as required
+- [ ] Conflict-of-interest and funding statement prepared (on the title page, not the blinded file)
+- [ ] OA option / any APC checked on the SAGE OS page (待核实)
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to OS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Leaving author-identifying self-citations or acknowledgements in the blinded manuscript
+- Treating the 13,000-word cap as excluding references/appendices (it does not)
+- Submitting a structured abstract or exceeding 300 words
+- Fewer than four keywords from the OS ScholarOne list
+- Putting funding/COI in the blinded file instead of the title page
+- Assuming an APC applies (or doesn't) without checking — mark 待核实
 
 ## Output format
 
 ```text
-【Journal】Organization Studies
-【Skill】orgstud-submission
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking submission preflight
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Administrative Science Quarterly, Organization Science
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】orgstud-review-process
+【Anonymization】no author info in manuscript; self-cites neutral; separate title page? [Y/N]
+【Length】≤13,000 words incl. refs/appendices? [Y/N]
+【Abstract】unstructured ≤300 words? [Y/N]
+【Keywords】5–7, four from OS ScholarOne list? [Y/N]
+【Referencing】SAGE Harvard? [Y/N]
+【Declarations】ethics / data / COI / funding on title page? [Y/N]
+【Next step】submit via ScholarOne → orgstud-review-process for what to expect
 ```
 
 ## Supplementary resources

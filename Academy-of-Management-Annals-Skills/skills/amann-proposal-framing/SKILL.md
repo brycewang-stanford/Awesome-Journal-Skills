@@ -1,70 +1,75 @@
 ---
 name: amann-proposal-framing
-description: Use when working on proposal framing for a Academy of Management Annals manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when writing the short proposal that gates an Academy of Management Annals (Annals) review — the ≤5-page, four-heading proposal submitted under the twice-yearly deadlines before any full review is invited. Builds the proposal; it does not gather the literature (amann-literature-synthesis) or run the portal preflight (amann-submission).
 ---
 
-# Proposal Framing (amann-proposal-framing)
+# Proposal Framing — the Gate (amann-proposal-framing)
 
 ## When to trigger
-- The manuscript is aimed at **Academy of Management Annals (Annals)** and proposal framing is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's commissioned and high-level reviews that synthesize management and organization research standard.
-- The paper risks being confused with nearby venues: Academy of Management Review, Journal of Management, Journal of Management Studies, and Annual Review outlets.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The literature passed `amann-topic-selection` and you are ready to approach Annals
+- You need to know exactly what the proposal must contain and how long it can be
+- You are about to write a full review — stop: at Annals the **proposal is mandatory and comes first**
+- An April 1 / October 1 deadline is approaching and the proposal is the deliverable
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| integrative review is central | Make the integrative review assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| theory synthesis is central | Make the theory synthesis assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| agenda setting is central | Make the agenda setting assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| management field map is central | Make the management field map assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| conceptual reconciliation is central | Make the conceptual reconciliation assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## How Annals intake actually works (检索于 2026-06；以官网为准)
 
-## Annals fit notes
+Annals uses a **two-step, proposal-first process**. You do **not** submit a full review cold; you submit a short proposal, and only an **accepted proposal is invited** to develop into a full article.
 
-- Publisher / owner context: Academy of Management / Taylor & Francis.
-- Submission route to re-check: Academy of Management submission.
-- Signature vocabulary: integrative review, theory synthesis, agenda setting, management field map, conceptual reconciliation.
-- Sibling boundary: Academy of Management Review, Journal of Management, Journal of Management Studies, and Annual Review outlets.
-- House-style aim: field-defining synthesis that reorganizes theory rather than merely cataloging papers.
-- Official URLs currently used by the pack:
-- https://journals.aom.org/journal/annals
-- https://aom.org/research/publishing-with-aom/author-resources
+- **Proposal length.** No longer than **5 pages, single-spaced, 1-inch margins, 12-point font**; references and visual elements do not count toward the limit.
+- **Four required sections, with these exact headings:**
+  1. **Focus of the review** — the literature and the animating problem.
+  2. **Related reviews** — what reviews already exist and why yours is *not* redundant.
+  3. **Review scope and process** — boundaries, inclusion logic, how you will gather and synthesize the corpus.
+  4. **New insights** — the integrative contribution, the "attitude," and the agenda the review will produce.
+- **Deadlines.** Proposals are accepted on a twice-yearly cycle — **April 1 and October 1**. Submissions are not reviewed until the deadline passes; decision letters arrive **~6 weeks after the deadline**.
+- **Who reviews the proposal.** Proposals are **double-blind peer-reviewed by the Associate Editors**. (The invited full review later forgoes double-blind and is read only by the AE and Editor — see `amann-review-process`.)
+- **Portal.** Submit via Manuscript Central: `https://mc.manuscriptcentral.com/aomannals`. A current CV may be requested for the editors' eyes only — confirm at submission time (待核实).
 
-## Stage-specific moves
+> The ≤5-page proposal is the single most consequential document in the Annals lifecycle: it is the gate. A strong proposal earns an invitation before you sink months into reading and drafting; a weak one ends the project regardless of how good the eventual review would have been. Treat it as a high-stakes argument, not an outline.
 
-1. State the exact proposal framing question in one sentence.
-2. Identify which Annals audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `amann-literature-synthesis` if the stage passes, or back to `amann-workflow` if it does not.
+## What each heading must accomplish
+
+| Heading | What it must do | Common failure |
+|---------|-----------------|----------------|
+| **Focus of the review** | Name the literature and the *problem with the field* (from `amann-topic-selection`), not just the topic | A topic label ("a review of X") with no problem |
+| **Related reviews** | Show command of prior reviews and stake the *delta* — what yours does that none did | Claiming "no review exists" instead of differentiating from the ones that do |
+| **Review scope and process** | State boundaries, inclusion/exclusion logic, databases, and the synthesis method (narrative / systematic / bibliometric) | Vague "we will read the literature" with no transparent process |
+| **New insights** | Lead with the *integrative framework* and the agenda — the new way of seeing the field, with attitude | A promise of "comprehensive coverage" and no new organizing idea |
+
+The center of gravity is **New insights**: Associate Editors are deciding whether this review will *reorganize* the field, not whether it will summarize it. A proposal that nails coverage but offers no framework is the most common proposal-stage reject.
 
 ## Checklist
-- [ ] The Annals audience can see why the paper belongs in commissioned and high-level reviews that synthesize management and organization research.
-- [ ] The draft distinguishes Annals from Academy of Management Review, Journal of Management, Journal of Management Studies.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for proposal framing names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] The review explains inclusion/exclusion logic and how competing schools are balanced.
-- [ ] The synthesis produces an agenda, taxonomy, or framework rather than a bibliography.
+
+- [ ] Proposal is ≤5 pages, single-spaced, 1-inch margins, 12pt (refs/visuals excluded)
+- [ ] Uses the four required headings verbatim: Focus / Related reviews / Review scope and process / New insights
+- [ ] "Focus" states a *problem with the field*, not a topic label
+- [ ] "Related reviews" differentiates from existing reviews (delta), not "none exists"
+- [ ] "Review scope and process" names boundaries, inclusion logic, databases, and synthesis method
+- [ ] "New insights" leads with the integrative framework + agenda + the critical "attitude"
+- [ ] Targeted at the correct April 1 / October 1 window
+- [ ] Balance addressed if you are a contributor to the literature
+- [ ] Portal, CV requirement, and any current specifics re-confirmed (检索于 2026-06；以官网为准 / 待核实)
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Annals without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Writing the full ~50-page review and trying to submit it — Annals invites full reviews only after proposal acceptance
+- A proposal that is a chapter outline with no integrative idea under "New insights"
+- "Related reviews" that asserts novelty by ignoring the reviews that already exist (reviewers will name them)
+- A "Review scope and process" section with no inclusion logic or named databases (looks unsystematic)
+- Promising comprehensive coverage as if coverage alone were the contribution
+- Missing the deadline and assuming rolling intake
 
 ## Output format
 
 ```text
-【Journal】Academy of Management Annals
-【Skill】amann-proposal-framing
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking proposal framing
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Academy of Management Review, Journal of Management
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】amann-literature-synthesis
+【Focus of the review】<literature + animating problem, one sentence>
+【Related reviews】<existing reviews + the delta yours provides>
+【Review scope and process】<boundaries / inclusion logic / databases / synthesis method>
+【New insights】<integrative framework + agenda + the critical attitude>
+【Length check】≤5pp single-spaced, 1-in margins, 12pt (refs/visuals excluded)? Y/N
+【Deadline】targeting April 1 / October 1? <which>
+【Balance note】<how author's own work is handled, if a contributor>
+【Open verifications】portal / CV / specifics re-confirmed on official page? Y/N
+【Next skill】→ amann-literature-synthesis (begin systematic reading) after invitation
 ```

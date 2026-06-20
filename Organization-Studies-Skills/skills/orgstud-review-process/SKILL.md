@@ -1,70 +1,69 @@
 ---
 name: orgstud-review-process
-description: Use when working on review process for a Organization Studies manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when calibrating expectations for the Organization Studies (OS) review cycle — desk-screen odds, the developmental double-anonymized process, decision types, and how to read what reviewers and the handling editor are signalling. Sets expectations and reading strategy; it does not draft the response (see orgstud-rebuttal).
 ---
 
 # Review Process (orgstud-review-process)
 
 ## When to trigger
-- The manuscript is aimed at **Organization Studies (OS)** and review process is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's organization theory, institutional theory, critical management, qualitative research, and process studies standard.
-- The paper risks being confused with nearby venues: Administrative Science Quarterly, Organization Science, Journal of Management Studies, and Academy of Management Review.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You want to calibrate desk-reject odds and timeline before or after submitting
+- A decision letter arrived and you need to read what the editor is *actually* signalling
+- You are unsure whether an R&R is "major-but-encouraging" or "high-risk reject-with-resubmission"
+- You are deciding whether to revise for OS or reposition to a sibling journal
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| institutional process is central | Make the institutional process assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| qualitative depth is central | Make the qualitative depth assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| organization theory is central | Make the organization theory assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| critical reflexivity is central | Make the critical reflexivity assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| process temporality is central | Make the process temporality assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## How OS review works (and how it differs)
 
-## OS fit notes
+OS runs a **double-anonymized**, **developmental** review handled by a co-editor with (typically) 2–3 reviewers drawn from the relevant conversation. The European, theory-first culture shapes what reviewers do: they engage your **theoretical contribution and your use of social theory** as the primary axis — not just method execution. Reviewers here often *co-develop* the theory across rounds, which is why OS R&Rs can be intellectually demanding and multi-round, but also why a serious R&R is a genuine signal of interest. Expect reviewers who know the canonical works in your conversation intimately.
 
-- Publisher / owner context: SAGE for EGOS.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: institutional process, qualitative depth, organization theory, critical reflexivity, process temporality.
-- Sibling boundary: Administrative Science Quarterly, Organization Science, Journal of Management Studies, and Academy of Management Review.
-- House-style aim: organization-theory argument with careful positioning, reflexivity, and evidence-theory fit.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/oss
-- https://journals.sagepub.com/author-instructions/OSS
+**Desk-screen** is real and theory-driven. The most common desk-rejects are not method failures but **"interesting phenomenon, no theoretical contribution,"** wrong-fit ("belongs at a sibling journal"), or superficial engagement with the literature it claims to advance. A clean dataset will not save a paper with a thin theoretical move.
 
-## Stage-specific moves
+## Reading the decision
 
-1. State the exact review process question in one sentence.
-2. Identify which OS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `orgstud-rebuttal` if the stage passes, or back to `orgstud-workflow` if it does not.
+| Outcome | What it usually means | Your move |
+|---------|----------------------|-----------|
+| **Desk reject** | Fit/contribution problem caught pre-review | Re-diagnose with `orgstud-topic-selection` / `orgstud-contribution-framing`; consider sibling fit |
+| **Reject (post-review)** | Reviewers see a fatal theoretical or evidentiary gap | Read for whether the core idea survives; usually reposition, don't resubmit |
+| **Reject & resubmit / high-risk R&R** | Promising but currently not a contribution | Treat as a near-rewrite of the theory; only proceed if you can make the move land |
+| **Major revision** | The contribution is real; theory/evidence need substantial development | The expected good outcome; plan a multi-issue revision (`orgstud-rebuttal`) |
+| **Minor revision** | Rare on first round; contribution accepted, polishing needed | Address precisely; do not reopen settled points |
+
+## Reading the reviewers and editor
+
+- **The editor's letter is the binding instruction.** When reviewers conflict, the co-editor usually signals which threads are essential — prioritize those.
+- **Theory comments outrank cosmetic ones.** A reviewer asking you to "engage [conversation] more deeply" or "clarify the mechanism" is naming the contribution bar; treat it as central, not as a citation chore.
+- **Distinguish "develop this" from "drop this."** OS reviewers frequently push you to *develop* an underdeveloped idea — that is an invitation, not a rejection of it.
+- **Reflexivity / positionality requests** are substantive at OS, not box-ticking.
+
+## Deciding to revise vs. reposition
+
+- Revise for OS if the contribution is real and the reviewers' essential asks are *achievable* without breaking the paper.
+- Reposition if the core asks would turn it into a different paper, or if the fit critique (too descriptive, wrong conversation, sibling-shaped) is fundamental — `orgstud-workflow` can route the repositioning.
 
 ## Checklist
-- [ ] The OS audience can see why the paper belongs in organization theory, institutional theory, critical management, qualitative research, and process studies.
-- [ ] The draft distinguishes OS from Administrative Science Quarterly, Organization Science, Journal of Management Studies.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for review process names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] You have separated *essential* asks (editor-flagged, theory-level) from optional ones
+- [ ] You can state, in one line, whether the contribution survives the reviews
+- [ ] Theory/mechanism/literature comments are treated as central, not cosmetic
+- [ ] The outcome type is correctly read (R&R encouragement vs. high-risk resubmission)
+- [ ] Revise-vs-reposition decision is made deliberately, not by default
+- [ ] Timeline expectations are realistic (multi-round developmental review)
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to OS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Reading a "reject & resubmit" as a minor revision (or vice versa)
+- Treating deep-engagement/theory requests as optional polish
+- Cherry-picking easy reviewer points while dodging the editor's essential threads
+- Resubmitting a desk-rejected paper to a sibling without fixing the contribution problem
+- Ignoring reflexivity/positionality requests as if they were pro forma
 
 ## Output format
 
 ```text
-【Journal】Organization Studies
-【Skill】orgstud-review-process
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking review process
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Administrative Science Quarterly, Organization Science
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】orgstud-rebuttal
+【Outcome】desk reject / reject / reject-resubmit / major / minor
+【Contribution survives?】yes / needs rebuild / no
+【Editor's essential threads】the must-address asks
+【Theory-level asks】mechanism / literature / reflexivity items flagged central
+【Decision】revise for OS / reposition (which sibling)
+【Next skill】orgstud-rebuttal (if revising)
 ```

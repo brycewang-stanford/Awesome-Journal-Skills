@@ -1,70 +1,77 @@
 ---
 name: amann-topic-selection
-description: Use when working on topic selection for a Academy of Management Annals manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when judging whether a management/organization literature is an Academy of Management Annals (Annals)-scale review topic — mature, important, fragmented, and integrable into a new framework — rather than a narrow review. Decides fit and frames the review's animating problem; it does not gather the literature (amann-literature-synthesis) or write the proposal (amann-proposal-framing).
 ---
 
-# Topic Selection (amann-topic-selection)
+# Topic Selection for an Annals Review (amann-topic-selection)
 
 ## When to trigger
-- The manuscript is aimed at **Academy of Management Annals (Annals)** and topic selection is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's commissioned and high-level reviews that synthesize management and organization research standard.
-- The paper risks being confused with nearby venues: Academy of Management Review, Journal of Management, Journal of Management Studies, and Annual Review outlets.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You have a candidate literature and need to know whether it is "Annals-shaped"
+- A topic feels either too narrow (a single-construct review) or too sprawling (a whole discipline)
+- You are deciding between Annals and a sibling outlet — AMR, AMJ, Journal of Management, Journal of Management Studies, or an Annual Review
+- The domain is young/fast-moving and you suspect it is not yet mature enough to review for Annals
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| integrative review is central | Make the integrative review assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| theory synthesis is central | Make the theory synthesis assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| agenda setting is central | Make the agenda setting assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| management field map is central | Make the management field map assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| conceptual reconciliation is central | Make the conceptual reconciliation assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The five Annals-fit tests
 
-## Annals fit notes
+A literature belongs in Annals when it passes all five. Fail one and route accordingly.
 
-- Publisher / owner context: Academy of Management / Taylor & Francis.
-- Submission route to re-check: Academy of Management submission.
-- Signature vocabulary: integrative review, theory synthesis, agenda setting, management field map, conceptual reconciliation.
-- Sibling boundary: Academy of Management Review, Journal of Management, Journal of Management Studies, and Annual Review outlets.
-- House-style aim: field-defining synthesis that reorganizes theory rather than merely cataloging papers.
-- Official URLs currently used by the pack:
-- https://journals.aom.org/journal/annals
-- https://aom.org/research/publishing-with-aom/author-resources
+1. **Maturity.** There is a *body* of research — multiple research streams, accumulated findings, recognizable debates — not a handful of recent studies. A domain still being born produces a *premature* review that dates within a year. (Fails → too young; wait, or place a focused piece elsewhere.)
+2. **Importance / breadth of interest.** The questions matter to management and organization scholars broadly, and to allied audiences (organizational psychology, sociology of organizations), not only to a dozen specialists. Annals reaches across the field. (Fails → too niche; a field journal's review section fits better.)
+3. **Fragmentation / need for integration.** The literature is *scattered, siloed, contradictory, or conceptually muddled* — rival constructs, parallel streams that never speak to each other, conflicting evidence. The review's value is the **integration**, not the inventory. (Fails → already well-synthesized; nothing to add.)
+4. **Integrability.** You can see a *plausible new organizing logic* that would make the fragments cohere — a framework, a typology, a process model, a reconciliation. If you cannot imagine the spine, you have a topic, not an Annals review. (Fails → keep reading, or it is not yet an Annals piece.)
+5. **Tractable scope.** One author/team can read and weigh the *whole* relevant literature in a single ~50-page review (检索于 2026-06；以官网为准). Annals reviews are long but bounded. (Fails → carve a coherent sub-domain.)
 
-## Stage-specific moves
+## Decision table
 
-1. State the exact topic selection question in one sentence.
-2. Identify which Annals audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `amann-proposal-framing` if the stage passes, or back to `amann-workflow` if it does not.
+| Situation | Verdict | Action |
+|-----------|---------|--------|
+| Mature, broadly important, fragmented, integrable, tractable | Annals-shaped | → `amann-proposal-framing` |
+| Important but immature | Not yet | revisit in 2–3 years; place a focused piece elsewhere |
+| Mature but narrow / specialist | Wrong venue | field-journal review section, or Journal of Management |
+| Mature, important, but enormous (whole discipline) | Rescope | pick a coherent axis; → `amann-organizing-framework` to test the cut |
+| You have *new theory*, not a review | Wrong venue | Academy of Management Review (AMR) |
+| You have *new data / hypothesis tests* | Wrong venue | Academy of Management Journal (AMJ) |
+
+## Framing the animating problem
+
+An Annals review is organized by a **problem with the field**, not a topic label. Before proposing, write one sentence of each:
+
+- **The state-of-knowledge problem**: "This literature has accumulated a lot, but it is fragmented/contradictory/conceptually confused in *this specific way*."
+- **The integrative payoff**: the new way of seeing the field your review will deliver (the seed of the framework).
+- **The agenda**: what becomes researchable *after* the review that was not before — Annals expects a forward-looking agenda, not a closing summary.
+- **The "attitude"**: where you will take a critical, potentially provocative position grounded in the evidence (the Annals house signature), not neutral description.
 
 ## Checklist
-- [ ] The Annals audience can see why the paper belongs in commissioned and high-level reviews that synthesize management and organization research.
-- [ ] The draft distinguishes Annals from Academy of Management Review, Journal of Management, Journal of Management Studies.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for topic selection names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] The review explains inclusion/exclusion logic and how competing schools are balanced.
-- [ ] The synthesis produces an agenda, taxonomy, or framework rather than a bibliography.
+
+- [ ] The literature passes all five fit tests (maturity, importance, fragmentation, integrability, tractable scope)
+- [ ] The animating *problem with the field* is written in one sentence (not a topic label)
+- [ ] You can sketch a *plausible new organizing logic* — the integrability test is met
+- [ ] The "why now" is concrete (a wave of new work, a method shift, a fractured debate), not "no review exists"
+- [ ] The intended audience is broad (management + allied fields), and the agenda payoff is stated
+- [ ] You can name the 3–6 research streams the review must cover (a coverage skeleton)
+- [ ] Checked it is not an AMR (new theory) or AMJ (new data) piece, nor a narrow field-review
+- [ ] You are *not* the dominant contributor to this literature — the review will not be a self-retrospective
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to Annals without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- "No comprehensive review of X exists" as the *sole* justification — absence is not importance or integrability
+- Reviewing your own research program under a neutral-sounding title (self-promotion; review referees punish this)
+- Picking a domain so new the review freezes a moving target
+- A scope so broad it becomes an inventory; a scope so narrow it is a field-journal review
+- Mistaking a *topic* (a label) for an *animating problem* (what is wrong with how the field is organized)
+- Proposing a descriptive map with no "attitude" — Annals wants critique and an agenda, not a tour
 
 ## Output format
 
 ```text
-【Journal】Academy of Management Annals
-【Skill】amann-topic-selection
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking topic selection
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Academy of Management Review, Journal of Management
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】amann-proposal-framing
+【Literature】<the body of research>
+【Five tests】maturity / importance / fragmentation / integrability / tractable-scope — pass or fail each
+【Animating problem】"This field is fragmented/contradictory in ___ way"
+【Integrative payoff】<the new way of seeing the field — seed of the framework>
+【Why now】<new work / method shift / fractured debate>
+【Agenda】<what becomes researchable after the review>
+【Coverage skeleton】<3–6 research streams the review must cover>
+【Verdict】Annals-shaped / rescope / wrong-venue (→ AMR / AMJ / field-review)
+【Next skill】→ amann-proposal-framing (write the ≤5-page proposal)
 ```

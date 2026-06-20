@@ -1,70 +1,68 @@
 ---
 name: orgstud-contribution-framing
-description: Use when working on contribution framing for a Organization Studies manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when sharpening the one-sentence theoretical contribution of an Organization Studies (OS) manuscript and the intro/discussion claims that carry it. Frames the contribution; it does not build the theory (see orgstud-theory-development) or run analysis.
 ---
 
 # Contribution Framing (orgstud-contribution-framing)
 
 ## When to trigger
-- The manuscript is aimed at **Organization Studies (OS)** and contribution framing is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's organization theory, institutional theory, critical management, qualitative research, and process studies standard.
-- The paper risks being confused with nearby venues: Administrative Science Quarterly, Organization Science, Journal of Management Studies, and Academy of Management Review.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The theory and evidence are settled but the paper cannot say its contribution in one sentence
+- The intro lists findings rather than a theoretical move; the discussion restates results
+- A reviewer says "I don't see the contribution," "this is incremental," or "what does this add to theory?"
+- The contribution is described as a *finding* ("we find X") rather than a usable *theoretical move*
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| institutional process is central | Make the institutional process assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| qualitative depth is central | Make the qualitative depth assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| organization theory is central | Make the organization theory assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| critical reflexivity is central | Make the critical reflexivity assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| process temporality is central | Make the process temporality assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## At OS, the contribution is a theoretical move others can use
 
-## OS fit notes
+The single most important sentence in an OS paper is: *"We contribute to [conversation] by [the theoretical move], which shows that [the new understanding]."* The move must be something a reader **elsewhere can pick up and apply** — a new mechanism, a reconceptualized construct, a process model, a resolved tension, a boundary that wasn't seen. A finding is not a contribution; a finding *plus what it changes in how we theorize organizing* is.
 
-- Publisher / owner context: SAGE for EGOS.
-- Submission route to re-check: SAGE / ScholarOne submission.
-- Signature vocabulary: institutional process, qualitative depth, organization theory, critical reflexivity, process temporality.
-- Sibling boundary: Administrative Science Quarterly, Organization Science, Journal of Management Studies, and Academy of Management Review.
-- House-style aim: organization-theory argument with careful positioning, reflexivity, and evidence-theory fit.
-- Official URLs currently used by the pack:
-- https://journals.sagepub.com/home/oss
-- https://journals.sagepub.com/author-instructions/OSS
+OS distinguishes sharply between **empirical contribution** ("we found this happens") and **theoretical contribution** ("this changes how the field should think"). OS desk-rejects papers whose contribution is only the former. Frame the move at the level of the theory, then use the evidence as warrant.
 
-## Stage-specific moves
+## Calibrating the *size* of the claim
 
-1. State the exact contribution framing question in one sentence.
-2. Identify which OS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `orgstud-tables-figures` if the stage passes, or back to `orgstud-workflow` if it does not.
+| Claim type | OS verdict | Fix |
+|-----------|-----------|-----|
+| "First study of X in setting Y" | weak (empirical novelty only) | Reframe as a theoretical move the setting *enabled* |
+| "We extend theory T to context C" | risky (often incremental) | Specify what about C *forces* an amendment to T |
+| "We reconceptualize construct K" | strong if earned | Show a puzzle that dissolves under the new conception |
+| "We theorize a new process/mechanism M" | strong | State M's logic and a non-obvious implication |
+| "We bridge conversations A and B" | strong if usable | Give the bridge a name and show what it newly explains |
+
+Avoid both under- and over-claiming. Under-claiming buries a real move under hedges; over-claiming ("we overturn institutional theory") invites reviewers to find the move smaller than advertised. Match the claim to exactly what the mechanism and evidence support (`orgstud-data-analysis` sets that ceiling).
+
+## Where the contribution must appear
+
+- **Abstract** — the move stated plainly within the 300-word unstructured limit.
+- **Intro** — the puzzle, why existing theory fails, and the one-sentence contribution, landed on the first page or two.
+- **Discussion** — the contribution *developed*: implications for the conversation, boundary conditions, and what new questions it opens (generativity, not a findings recap).
+- The same move should read consistently across all three; drift between abstract, intro, and discussion is a common reviewer flag.
 
 ## Checklist
-- [ ] The OS audience can see why the paper belongs in organization theory, institutional theory, critical management, qualitative research, and process studies.
-- [ ] The draft distinguishes OS from Administrative Science Quarterly, Organization Science, Journal of Management Studies.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for contribution framing names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] The contribution fits the sentence "We contribute to [conversation] by [move], showing [new understanding]"
+- [ ] It is a *theoretical move others can use*, not just a finding or an empirical first
+- [ ] The claim size matches what the mechanism + evidence support (no under/over-claiming)
+- [ ] The move is stated consistently across abstract, intro, and discussion
+- [ ] The discussion develops the contribution and opens questions, rather than restating results
+- [ ] Boundary conditions and scope of the contribution are explicit
+- [ ] The framing is unmistakably OS (theory-first), not an empirical-journal framing
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to OS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- "Contribution" stated as a finding or as empirical novelty ("first study of...")
+- Burying a real theoretical move under hedges and qualifications
+- Over-claiming relative to the evidence — inviting reviewers to shrink the contribution
+- A discussion that recaps results instead of developing the theoretical move
+- Abstract/intro/discussion describing three subtly different contributions
+- Framing that would suit AMJ/Org Science empirics rather than OS theory
 
 ## Output format
 
 ```text
-【Journal】Organization Studies
-【Skill】orgstud-contribution-framing
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking contribution framing
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Administrative Science Quarterly, Organization Science
-【Source status】verified URL / 待核实 / not asserted
+【Contribution sentence】We contribute to [conversation] by [move], showing [new understanding]
+【Move type】new mechanism / reconceptualization / process model / resolved tension / bridge
+【Claim calibration】matched to evidence ceiling? (under / right / over)
+【Where stated】abstract / intro / discussion — consistent? (Y/N)
+【Generativity】the new questions it opens
 【Next skill】orgstud-tables-figures
 ```
