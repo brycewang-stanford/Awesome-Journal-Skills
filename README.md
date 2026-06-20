@@ -1806,6 +1806,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 每个 pack 都在自己的仓库里。要为某个 pack 贡献内容，请到对应仓库提 PR。要提议新增 pack，请在本仓库提 issue。
 
 多 agent 协作流程、submodule 边界和验证检查见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+月度质量提升计划、score/source/clone/root-card 报告栈见 [tools/README.md](tools/README.md)。
 
 如果 PR 会改根目录导航、manifest 或 pack 元数据，请先运行：
 

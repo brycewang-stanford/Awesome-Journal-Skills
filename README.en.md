@@ -1807,6 +1807,7 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 Each pack lives in its own repository. To contribute to a pack, open a PR on that pack's repo. To propose a new pack, open an issue here.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the multi-agent workflow, submodule boundary rules, and verification checks.
+For the monthly quality-uplift lane and score/source/clone/root-card report stack, see [tools/README.md](tools/README.md).
 
 Before opening a PR that changes root navigation, manifests, or pack metadata, run:
 

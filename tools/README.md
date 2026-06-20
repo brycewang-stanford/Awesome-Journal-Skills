@@ -24,6 +24,25 @@ should fail on warnings.
 | [`quality_scorecard.py`](quality_scorecard.py) | Scores every first-party pack 0–100 on objective quality dimensions. It distinguishes single-venue `depth` packs, compressed AI-conference `conference` packs, and large `breadth` bundles: depth packs get credit for code/worked examples/exemplars, conference packs use a shorter skill-body target, and breadth bundles get credit for routers, rosters/source maps, worked routing cases, and selection patterns. The `unit` column is cross-language: Latin/technical tokens count as one unit and two CJK characters count as one unit. Venue-cue checks use pack names plus common skill-directory prefixes such as `jbf`, `ectj`, or `red`. `code=n/a` means the pack's resources explicitly explain why runnable econometric code is not discipline-appropriate. `--top N` shows the lowest scorers; `--show-skills` names the thinnest files inside each displayed pack; `--json` for diffing the trajectory over time; `--min-score` can gate a focused cleanup. | `python3 tools/quality_scorecard.py --top 20 --show-skills` |
 | [`external_link_audit.py`](external_link_audit.py) | Reports liveness for external official/publisher/submission URLs cited in first-party Markdown. It is network-dependent and advisory: 404/410 are actionable, while 401/403/429 and timeouts usually need manual recheck. Results are cached under `tools/.cache/`. | `python3 tools/external_link_audit.py` |
 
+## Monthly Quality Program
+
+The 2026-06 uplift lane is measurement-driven and count-disciplined: do not
+change expected skill/pack/root-entry counts unless an explicit expansion lane
+is approved. Use this report stack to choose and verify batches:
+
+```bash
+python3 tools/audit_repo.py --counts
+python3 tools/quality_scorecard.py --top 40 --show-skills
+python3 tools/root_entry_audit.py
+python3 tools/source_map_audit.py
+python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 40
+python3 tools/run_checks.py --skip-reports
+git diff --check
+```
+
+Track score movement, source-map debt, clone triage, and remaining risks in
+`.maintenance/MONTHLY-UPLIFT-2026-06-20.md` before handing off.
+
 ### Updating the inventory tripwires
 
 `audit_repo.py` hard-codes the expected skill/pack/root-entry counts so accidental

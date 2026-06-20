@@ -761,3 +761,139 @@ and no submodule changes.
   0 machine-only cards; `tools/quality_scorecard.py --top 30 --show-skills` reports mean 93.0,
   min 90.0, p10 90.2, below 86/88/90 = 0/0/0; `tools/external_link_audit.py --only DEAD`
   reports DEAD=0 across 1345 current first-party URLs.
+
+## Wave 38 — month-long quality uplift kickoff (Codex, 2026-06-20)
+
+User requested a one-month repo-level improvement program. Created
+`.maintenance/MONTHLY-UPLIFT-2026-06-20.md` as the tracking artifact and opened a count-disciplined
+quality lane in `.maintenance/CLAIMS.md`.
+
+Baseline from a clean `main...origin/main` checkout:
+- `python3 tools/audit_repo.py --counts` -> 2665 skills / 171 packs / 200 root entries.
+- `python3 tools/quality_scorecard.py --top 40 --show-skills` -> 166 first-party packs, mean 92.6,
+  min 86.0, below 86/88/90 = 0/5/5.
+- Low-tail packs below 90: Agriculture-Environment-Journal-Skills,
+  Chinese-Sport-Science-Journal-Skills, Clinical-Medicine-Journal-Skills,
+  Engineering-Technology-Journal-Skills, and English-Humanities-Journal-Skills.
+- `python3 tools/root_entry_audit.py` -> 4 no-URL warnings:
+  `Gaige`, `Hongguan-Jingji-Yanjiu`, `Jingji-Wenti`, and `Xiandai-Jinrong-Yanjiu`.
+- `python3 tools/source_map_audit.py` -> 156 source maps, 0 warnings; highest unresolved debt in
+  Journal of Banking and Finance, Journal of Economic Theory, The Economic Journal,
+  Journal of Econometrics, and Journal of Financial Intermediation.
+- `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 40` -> no
+  fail-threshold hits; top near-clone risks are the Science/PNAS rebuttal pair and CS conference
+  breadth profiles around 0.799.
+
+Root-card closure batch completed the same day:
+- Added source rows to `Gaige`, `Hongguan-Jingji-Yanjiu`, `Jingji-Wenti`, and
+  `Xiandai-Jinrong-Yanjiu` using source labels that distinguish official pages from database
+  evidence.
+- `python3 tools/root_entry_audit.py` -> 200 enriched cards, 0 machine-only cards, 0 warnings.
+- `git diff --check` -> clean.
+
+Low-tail breadth batch completed:
+- Added `resources/README.md` entry points for Agriculture-Environment, Chinese Sport Science,
+  Clinical Medicine, Engineering Technology, and English Humanities breadth packs. The new files
+  route users to already-existing source maps, source-basis notes, worked routing examples, and
+  selection-pattern resources without adding journals or changing skill counts.
+- `python3 tools/quality_scorecard.py --top 12 --show-skills` -> 166 first-party packs, mean 92.8,
+  min 90.0, below 86/88/90 = 0/0/0.
+- `python3 tools/quality_scorecard.py --min-score 90 --top 8` -> passed.
+- `git diff --check` -> clean.
+
+Clone-audit triage batch completed:
+- Added PNAS-specific and Science-specific rebuttal ledgers so the prior cross-family rebuttal pair
+  no longer appears at or above the 0.75 reporting threshold.
+- Added concrete clone-audit guardrails to six high-risk CS conference profiles and recorded the
+  broader CS sibling-routing interpretation in
+  `Computer-Science-Conference-Skills/resources/exemplars/selection-patterns.md` plus
+  `.maintenance/CLONE-TRIAGE-2026-06-20.md`.
+- `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 40` -> no
+  fail-threshold hits; remaining top pairs are documented CS breadth sibling profiles.
+
+JoE source-map policy refresh completed:
+- Refreshed `Journal-of-Econometrics-Skills/resources/official-source-map.md` against official
+  pages accessed 2026-06-20. Current ScienceDirect new-submission link points to Editorial Manager;
+  JoE Google Sites still says Editorial Express; the Editorial Express `dbase=je` page says it is
+  for resubmissions only and links new submissions to Editorial Manager.
+- Synchronized the JoE README, workflow, submission, rebuttal, writing-style, review-process,
+  replication/data-policy, topic-selection, literature-positioning, checklist, and external-tools
+  files so they no longer assert the stale "Editorial Express, not Editorial Manager" route.
+- `python3 tools/source_map_audit.py` -> 156 first-party source maps, 0 warnings; JoE was removed
+  from the highest unresolved source-map list. Remaining highest unresolved packs start with
+  Journal of Banking and Finance, Journal of Economic Theory, The Economic Journal, Journal of
+  Financial Intermediation, and Global Environmental Change.
+- `git diff --check` -> clean.
+
+JBF source-map policy refresh completed:
+- Refreshed `Journal-of-Banking-and-Finance-Skills/resources/official-source-map.md` against
+  official ScienceDirect / Elsevier pages accessed 2026-06-20.
+- Converted previously unresolved facts into current official facts: Editorial Manager route,
+  USD 350 unsolicited-new-manuscript fee, double-anonymized review, 250-word abstract, 1-7 English
+  keywords, 3-5 Highlights of <=85 characters, required data statement / Elsevier Option C
+  deposit-or-explain policy, SSRN preprint option, current Managing Editor Christa Bouwman, and
+  Co-Editors Edith Hotchkiss and Xiaoyan Zhang.
+- Fixed stale JBF pack guidance that described proof-stage references as author-date/Harvard and
+  data sharing as merely encouraged. The pack now treats first submission as free-format if
+  references are complete/consistent, proof-stage references as numbered Elsevier style, JEL codes
+  as optional finance metadata, and Option C data sharing as deposit/cite/link or explain.
+- `python3 tools/source_map_audit.py` -> 156 first-party source maps, 0 warnings; JBF was removed
+  from the highest unresolved source-map list. Remaining highest unresolved packs start with
+  Journal of Economic Theory, The Economic Journal, Journal of Financial Intermediation, Global
+  Environmental Change, and Journal of Business and Economic Statistics.
+- `python3 tools/quality_scorecard.py --min-score 90 --top 8` -> passed.
+- `git diff --check` -> clean.
+
+User-facing maintenance docs started:
+- Added the count-disciplined monthly quality lane and acceptance command stack to
+  `CONTRIBUTING.md`.
+- Added the same report stack and handoff target to `tools/README.md`, so future contributors can
+  reproduce the score/source/clone/root-card checks without rediscovering the monthly plan.
+
+JET source-map policy refresh completed:
+- Refreshed `Journal-of-Economic-Theory-Skills/resources/official-source-map.md` against official
+  ScienceDirect pages accessed 2026-06-20.
+- Converted previously unresolved facts into current official facts: Editorial Manager route,
+  Lead Editor Faruk Gul and current editor roster, single-anonymized review, 250-word abstract,
+  1-7 English keywords, optional Highlights, author-year proof-stage references, SSRN preprint
+  option, generative-AI disclosure, and Elsevier Option C data policy.
+- Fixed stale JET pack guidance that treated data sharing as merely encouraged and reference style,
+  lead editor, submission fee, and length caps as unresolved. The pack now distinguishes no
+  journal-run replication archive from Option C's deposit/cite/link-or-explain requirement when
+  research data exist, and treats the USD 3,130 amount as an OA APC rather than a submission fee.
+- `python3 tools/source_map_audit.py` -> 156 first-party source maps, 0 warnings; JET was removed
+  from the highest unresolved source-map list. Remaining highest unresolved packs start with The
+  Economic Journal, Journal of Financial Intermediation, Global Environmental Change, Journal of
+  Business and Economic Statistics, and Journal of Development Economics.
+- `git diff --check -- Journal-of-Economic-Theory-Skills` -> clean.
+
+EJ source-map policy refresh completed:
+- Refreshed `The-Economic-Journal-Skills/resources/official-source-map.md` against official OUP,
+  RES, and EJ Data Editor pages accessed 2026-06-20.
+- Converted previously unresolved facts into current official facts: Editorial Express route,
+  single-blind review, Editor-in-Chief Francesco Lippi, Data Editor Damian Clarke, new-submission
+  fee categories plus VAT, accepted-author abstract/short-title/keyword limits, author-date
+  reference rules, print-colour charge, and the EJ reproducibility package / Zenodo workflow.
+- `python3 tools/source_map_audit.py` -> 156 first-party source maps, 0 warnings; EJ was removed
+  from the highest unresolved source-map list. Remaining highest unresolved packs start with
+  Journal of Financial Intermediation, Global Environmental Change, Journal of Business and
+  Economic Statistics, Journal of Development Economics, and Journal of Politics.
+
+User-facing maintenance docs completed:
+- Added the monthly quality-program entry point to `README.md` and `README.en.md`.
+- `CONTRIBUTING.md` and `tools/README.md` now carry the acceptance command stack and evidence
+  recording convention for the count-disciplined quality lane.
+
+Post-batch acceptance gates passed:
+- `python3 tools/audit_repo.py --counts` -> 2665 skills / 171 packs / 200 root entries.
+- `python3 tools/quality_scorecard.py --top 40 --show-skills` -> mean 92.8, min 90.0,
+  below 86/88/90 = 0/0/0.
+- `python3 tools/root_entry_audit.py` -> 200 enriched cards, 0 machine-only cards, 0 warnings.
+- `python3 tools/source_map_audit.py` -> 156 first-party source maps, 0 warnings; remaining highest
+  unresolved packs start with Journal of Financial Intermediation, Global Environmental Change,
+  Journal of Business and Economic Statistics, Journal of Development Economics, and Journal of
+  Politics.
+- `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 40` -> no
+  fail-threshold hits; remaining reported pairs are CS breadth sibling profiles.
+- `python3 tools/run_checks.py --skip-reports` -> all hard checks passed.
+- `git diff --check` -> clean.
