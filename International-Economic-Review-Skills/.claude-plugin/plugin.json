@@ -1,0 +1,24 @@
+{
+  "name": "ier-skills",
+  "description": "Agent skill stack for manuscripts targeted at International Economic Review (IER). Twelve role skills cover fit, contribution, evidence, writing, submission, and revision with source-backed IER guardrails.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/ier-skills",
+  "repository": "https://github.com/brycewang-stanford/ier-skills",
+  "keywords": [
+    "ier",
+    "international-economic-review",
+    "econ",
+    "academic-writing",
+    "journal-skills",
+    "general-equilibrium-discipline",
+    "structural-clarity",
+    "international-readership",
+    "theory-empirics-balance",
+    "concise-identification"
+  ]
+}

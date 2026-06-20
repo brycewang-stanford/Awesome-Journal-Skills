@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "ier-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for International Economic Review manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "ier-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the International Economic Review manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/ier-skills",
+      "repository": "https://github.com/brycewang-stanford/ier-skills",
+      "keywords": [
+        "ier",
+        "international-economic-review",
+        "econ",
+        "academic-writing",
+        "journal-skills",
+        "general-equilibrium-discipline",
+        "structural-clarity",
+        "international-readership"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/ier-workflow",
+        "skills/ier-topic-selection",
+        "skills/ier-literature-positioning",
+        "skills/ier-identification",
+        "skills/ier-theory-model",
+        "skills/ier-robustness",
+        "skills/ier-tables-figures",
+        "skills/ier-writing-style",
+        "skills/ier-replication-package",
+        "skills/ier-referee-strategy",
+        "skills/ier-submission",
+        "skills/ier-rebuttal"
+      ]
+    }
+  ]
+}
