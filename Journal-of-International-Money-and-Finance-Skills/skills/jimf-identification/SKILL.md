@@ -1,70 +1,93 @@
 ---
 name: jimf-identification
-description: Use when working on identification strategy for a Journal of International Money and Finance manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the identification argument is the bottleneck for a Journal of International Money and Finance (JIMF) manuscript — open-economy causal designs, high-frequency policy/FX surprises, capital-control natural experiments, or parameter identification in an open-economy model. Stress-tests the strategy to JIMF's international-finance bar.
 ---
 
 # Identification Strategy (jimf-identification)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of International Money and Finance (JIMF)** and identification strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's international finance, exchange rates, global banking, capital flows, and open-economy macro-finance standard.
-- The paper risks being confused with nearby venues: Journal of International Economics, Journal of Monetary Economics, JMCB, and Journal of Financial Economics.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A cross-country result rests on OLS-plus-controls and a referee will call it a correlation
+- A high-frequency event study's "surprise" measure may be contaminated (information channel, anticipation, overlapping windows)
+- A capital-control / FX-intervention / regime-switch design lacks a credible control group
+- An open-economy model is estimated but it is unclear *what in the data* identifies each parameter
+- You are unsure the design clears JIMF's bar for an international causal claim
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| exchange-rate pass-through is central | Make the exchange-rate pass-through assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| capital-flow shocks is central | Make the capital-flow shocks assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| global financial cycle is central | Make the global financial cycle assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| sovereign risk is central | Make the sovereign risk assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| cross-border banking is central | Make the cross-border banking assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The JIMF identification bar
 
-## JIMF fit notes
+JIMF judges identification through an **open-economy lens**: the threat to causality usually comes from a *global* confounder (the global financial cycle, a common US monetary shock, world risk appetite) or from *policy endogeneity* (countries impose controls or intervene precisely when flows or the exchange rate move). State the data-to-object mapping in one sentence, then defend it against the international-specific confounder. Pick the branch.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: exchange-rate pass-through, capital-flow shocks, global financial cycle, sovereign risk, cross-border banking.
-- Sibling boundary: Journal of International Economics, Journal of Monetary Economics, JMCB, and Journal of Financial Economics.
-- House-style aim: international-finance identification that respects exchange-rate regimes and cross-country comparability.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/journal-of-international-money-and-finance
-- https://www.elsevier.com/journals/journal-of-international-money-and-finance/0261-5606/guide-for-authors
+### Branch A: High-frequency / surprise identification (FX, policy spillovers)
+- **Construct the surprise cleanly**: narrow event windows (intraday or daily), surprises measured from futures/swaps (e.g. fed funds futures, OIS), and a window short enough to exclude other news.
+- **Separate the monetary shock from the information shock**: a Fed/ECB announcement moves both policy expectations and the central bank's signal about the economy; show the sign/co-movement test (e.g. with stock prices) or use a poor-man's information-robust shock. JIMF referees now expect this.
+- **Spillover design**: regress foreign asset prices / flows on the cleaned foreign (usually US) surprise in the tight window; cluster appropriately; report the first-stage strength if used as an IV.
 
-## Stage-specific moves
+### Branch B: Cross-country panel causal design
+- **Push vs. pull**: isolate the *global push* (common foreign factor) from *country pull* (domestic fundamentals) — interact the global shock with ex-ante country exposure rather than running a pooled regression that conflates them.
+- **Staggered policy adoption** (capital controls, macroprudential, regime change): move beyond TWFE (Callaway–Sant'Anna, Sun–Abraham, de Chaisemartin–D'Haultfœuille); show event-study leads and a Goodman–Bacon decomposition; the control group must be plausibly unaffected by the same global shock.
+- **Endogenous policy**: argue why the control/intervention timing is not a response to the outcome; use an instrument (e.g. exposure shares interacted with a global shock — a Bartik/shift-share, defended on the shares or the shocks) or an institutional discontinuity.
 
-1. State the exact identification strategy question in one sentence.
-2. Identify which JIMF audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jimf-empirical-design` if the stage passes, or back to `jimf-workflow` if it does not.
+### Branch C: Capital-control / FX-intervention natural experiment
+- Define treatment date and intensity precisely; identify a comparison set of countries or assets not subject to the measure but exposed to the same external environment.
+- Address anticipation and circumvention (controls leak; interventions are sterilized); test pre-trends and placebo countries/assets.
+
+### Branch D: Open-economy model / parameter identification
+- Tie each structural parameter to an identifying data feature or moment (e.g. UIP deviation pins the risk-premium parameter; the term-structure slope pins persistence); report a sensitivity matrix and Monte Carlo recovery.
+- Argue counterfactual / policy-invariance for the exchange-rate or capital-flow experiment you run (Lucas critique under a regime change).
 
 ## Checklist
-- [ ] The JIMF audience can see why the paper belongs in international finance, exchange rates, global banking, capital flows, and open-economy macro-finance.
-- [ ] The draft distinguishes JIMF from Journal of International Economics, Journal of Monetary Economics, JMCB.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for identification strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Market, firm, or asset identifiers are documented enough to audit sample construction.
-- [ ] Internet appendix material has a clear map from each table to the main claim.
+
+- [ ] Branch chosen; data-to-object mapping stated in one sentence
+- [ ] The *global* confounder (GFCy / common US shock / world risk) is named and addressed, not ignored
+- [ ] High-frequency: window justified; monetary vs. information shock separated; surprise source stated
+- [ ] Panel: push/pull separated; modern estimator where staggered TWFE would bias; control group not hit by the same global shock
+- [ ] Policy experiment: endogenous-timing concern argued; anticipation/leakage tested; placebos shown
+- [ ] Inference clusters at the right level (country, time, or two-way); few-cluster cross-country inference handled (wild bootstrap / Driscoll–Kraay where serial/cross correlation matters)
+- [ ] Push-pull made explicit where relevant: global shock × predetermined country exposure, with time FE
+- [ ] Exposure / instrument variables are predetermined (lagged/pre-sample), not contemporaneous
+- [ ] The claim never exceeds what the design supports (correlation labeled as correlation)
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JIMF without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A pooled cross-country regression that conflates global push with country pull and calls the coefficient causal
+- Treating an announcement-day return as a clean monetary shock without addressing the central-bank information channel
+- Staggered capital-control adoption analyzed with plain TWFE and no heterogeneity-bias discussion
+- A control group of countries that were hit by the same global financial-cycle shock as the treated group
+- Ignoring that capital controls leak and FX intervention is often sterilized, then interpreting a null as "no effect"
+- Calibrating an open-economy model and running a regime-change counterfactual with no invariance argument
+
+## What this skill does not cover
+
+This skill stress-tests the *identification logic*. It does not build the dataset or defend the measurement choices (use `jimf-empirical-design` for the country set, frequency, and series choices) and it does not design the robustness layer that shows the identified effect is stable (use `jimf-robustness`). Identification and robustness are distinct objects at JIMF: identification answers "is this causal?"; robustness answers "is the causal estimate stable across reasonable choices?" Settle identification first — a robustness section defending a non-identified estimate persuades no one.
+
+## Worked vignette (illustrative)
+
+A paper claims a Fed tightening surprise causes EM portfolio outflows. The referee says the result is the global financial cycle, not US monetary policy. The JIMF fix: build the surprise from fed funds / OIS in a tight window, purge the information component (drop or sign-correct announcements where the surprise co-moves "wrongly" with US equities), and interact it with each country's *ex-ante* bond-market openness so identification comes from differential exposure, not the common time series. Suppose outflows load 0.6 (s.e. 0.2, illustrative) per 25bp on high-exposure vs. low-exposure countries — the cross-sectional interaction, not the aggregate time series, is what survives.
+
+## Referee pushback mapped to the identification fix
+
+- *"This is the global financial cycle, not your variable."* → Add time fixed effects that absorb all common shocks; show the within-time (cross-country) coefficient survives, identified by differential ex-ante exposure.
+- *"Your announcement-window return is not a monetary shock."* → Purge the central-bank information component (sign-restriction / poor-man's sign test against equities); report the cleaned series and the affected announcements.
+- *"Capital-control timing is endogenous to the flow surge."* → Argue timing exogeneity from the institutional rule; add placebo countries hit by the same surge without controls; show pre-trends are flat.
+- *"Staggered TWFE is biased here."* → Re-estimate with Callaway–Sant'Anna or Sun–Abraham; show the event-study leads and the Goodman–Bacon decomposition.
+- *"Your instrument's exclusion restriction fails."* → Defend it on the shares (shift-share) or the shocks; show a falsification where the instrument should have no effect.
+
+## Inference notes for cross-country international panels
+
+Cross-country international data are serially and cross-sectionally correlated (common global shocks), so default one-way clustering understates standard errors. Match the inference to the structure: two-way (country and time) clustering when both dimensions matter; Driscoll–Kraay when cross-sectional dependence is pervasive; wild-cluster bootstrap when the country count is small (≈20–40). State the clustering level and why; a mismatched standard error is a common, avoidable JIMF rejection trigger.
+
+## The push-pull decomposition, made explicit
+
+Many JIMF identification problems reduce to separating a *global push* from a *country pull*. The clean design interacts the global shock (a foreign monetary surprise, a world-risk move) with ex-ante, predetermined country exposure (capital-account openness, foreign-currency debt share, bank-funding reliance), and absorbs the common time effect with time fixed effects. Identification then comes from *differential exposure*, not the aggregate time series — which is exactly what answers the "it's the global financial cycle" objection, because the cycle is in the time effect while your coefficient is on the interaction. Make the exposure measure predetermined (lagged, pre-sample) so it cannot itself respond to the shock, and report the main effect and the interaction so the reader sees the decomposition.
 
 ## Output format
 
 ```text
-【Journal】Journal of International Money and Finance
-【Skill】jimf-identification
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking identification strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of International Economics, Journal of Monetary Economics
-【Source status】verified URL / 待核实 / not asserted
+【Branch】high-frequency / cross-country panel / policy experiment / open-economy model
+【Data-to-object mapping】one sentence
+【Global confounder addressed】GFCy / common US shock / world risk → how
+【Identification evidence】cleaned surprise / push-pull interaction / pre-trends + placebos / sensitivity matrix
+【Inference】clustering level; few-cluster / serial-correlation fix
+【What it does NOT identify】[...]
 【Next skill】jimf-empirical-design
 ```

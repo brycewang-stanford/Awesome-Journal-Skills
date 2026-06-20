@@ -1,72 +1,87 @@
 ---
 name: jfm-submission
-description: Use when working on submission preflight for a Journal of Financial Markets manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when running the final pre-submission preflight for a Journal of Financial Markets (JFM) manuscript via Elsevier Editorial Manager — file set, blinding, declarations, data statement, and house formatting. Final checks; it does not draft content.
 ---
 
 # Submission Preflight (jfm-submission)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Financial Markets (JFM)** and submission preflight is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's market microstructure, asset pricing, liquidity, trading, and financial-market design standard.
-- The paper risks being confused with nearby venues: Journal of Finance, Journal of Financial Economics, Review of Financial Studies, and Management Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- "Submitting this week" — last check before uploading to Editorial Manager
+- Unsure which files and declarations the Elsevier submission form expects
+- Confirming the manuscript is correctly blinded for the review model
+- Verifying competing-interest, data, and AI-use statements are in place
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| microstructure mechanism is central | Make the microstructure mechanism assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| liquidity measurement is central | Make the liquidity measurement assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| trading venue design is central | Make the trading venue design assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| price discovery is central | Make the price discovery assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| high-frequency evidence is central | Make the high-frequency evidence assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Process facts (检索于 2026-06；以官网为准; re-confirm on the JFM guide for authors before submitting)
 
-## JFM fit notes
+- JFM is an **Elsevier** journal (ISSN 1386-4181 print / 1878-576X online); submission is via **Elsevier Editorial Manager** (待核实 the exact portal link on the journal's guide-for-authors page).
+- **Review model:** double-blind reported by secondary sources (待核实 against the official guide). If double-blind, the manuscript file must be **fully anonymized** — no author names, no acknowledgments, no self-citation tells like "in our earlier work," no identifying file metadata; author details go on a separate title page.
+- **Reference style, abstract word limit, and any structured-abstract / JEL requirements:** 待核实 on the guide for authors. Elsevier finance journals typically use an author-date style; confirm the exact format.
+- **Declarations (Elsevier-standard):** Declaration of Competing Interest; funding sources; CRediT author-contribution statement; data-availability statement; statement on generative-AI use (AI may not be listed as an author). Verify the current required set.
+- **APC / open access:** JFM offers subscription and open-access routes; the OA APC is 待核实. There is no per-page submission fee analogue to society journals; do not assume one.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: microstructure mechanism, liquidity measurement, trading venue design, price discovery, high-frequency evidence.
-- Sibling boundary: Journal of Finance, Journal of Financial Economics, Review of Financial Studies, and Management Science.
-- House-style aim: precise institutional detail, clean market data, and careful measurement of frictions.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/journal-of-financial-markets
-- https://www.elsevier.com/journals/journal-of-financial-markets/1386-4181/guide-for-authors
+## Preflight checklist
 
-## Stage-specific moves
+### Blinding & files
+- [ ] If double-blind: manuscript fully anonymized (text, acknowledgments, self-citations, file metadata)
+- [ ] Separate title page with all authors, affiliations, and corresponding-author contact
+- [ ] Main manuscript (PDF/Word per portal), exhibits embedded or per Elsevier convention
+- [ ] Internet Appendix / supplementary file uploaded as a separate item
+- [ ] Cover letter naming the microstructure contribution and why JFM (not JF/JFE/RFS)
 
-1. State the exact submission preflight question in one sentence.
-2. Identify which JFM audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jfm-referee-strategy` if the stage passes, or back to `jfm-workflow` if it does not.
+### Content & style
+- [ ] Abstract within the stated limit (待核实); keywords / JEL as required
+- [ ] Reference style matches the guide for authors (待核实)
+- [ ] Every liquidity measure defined; units consistent across exhibits; SE/clustering in table notes
+- [ ] Suggested reviewers prepared if the portal requests them (avoid conflicts/coauthors)
 
-## Checklist
-- [ ] The JFM audience can see why the paper belongs in market microstructure, asset pricing, liquidity, trading, and financial-market design.
-- [ ] The draft distinguishes JFM from Journal of Finance, Journal of Financial Economics, Review of Financial Studies.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for submission preflight names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Market, firm, or asset identifiers are documented enough to audit sample construction.
-- [ ] Internet appendix material has a clear map from each table to the main claim.
+### Declarations
+- [ ] Declaration of Competing Interest + funding statement
+- [ ] CRediT contribution statement
+- [ ] Data-availability statement (consistent with the proprietary-feed access path in the Internet Appendix)
+- [ ] Generative-AI use statement; AI not listed as author
+- [ ] Confirmed the paper is not under review elsewhere
+
+## Matching the data statement to reality
+
+Elsevier requires a data-availability statement, and for microstructure papers this is where proprietary feeds create a trap. The statement must be **truthful and consistent with the Internet Appendix access path**: if the order-book data come from a licensed vendor that prohibits redistribution, say so and point to the access path, rather than checking "data available on request." An inconsistency between a permissive data statement and a paper that visibly uses a restricted feed is a credibility flag the editor can see at desk screen. Confirm the journal's current data-and-code policy and whether any deposit is required at submission vs. acceptance (待核实).
+
+## The blinding pass (if double-blind — 待核实)
+
+Anonymization fails most often on subtle tells, so do an explicit pass: (1) strip author names, affiliations, emails, and acknowledgments (including grant-number thanks that name an author's institution); (2) neutralize self-citations — "we show in Smith (2022)" becomes "as shown in prior work (citation withheld for review)"; (3) clear document metadata (author field, file path, track-changes history) from the PDF/Word file; (4) remove links to a named personal/SSRN page that identifies the authors; (5) check figure source files and embedded code comments for names. A separate, fully attributed title page carries all the author information the editor needs.
+
+## Cover letter craft
+
+The cover letter is read by the handling editor as a triage signal. In a tight paragraph: state the **microstructure contribution** in one sentence with the headline magnitude; say **why JFM specifically** (the trading-process mechanism / specialist depth, not "we were rejected by JF"); name the **data and identifying variation**; and confirm the paper is not under review elsewhere. If suggesting reviewers, propose microstructure specialists with no coauthorship/advising conflict. A letter that pitches the paper as broad finance undercuts the desk-screen for a microstructure journal.
+
+## Suggested reviewers and conflicts
+
+If the portal requests suggested reviewers, treat it as a real lever. Propose three to five **microstructure specialists** whose own work your paper engages, excluding recent coauthors, advisors/advisees, and same-institution colleagues — a conflicted suggestion is worse than none. The point is to signal which sub-field expertise the paper needs (information-based, market design, HFT), helping the editor route it well. If there are scholars who should be excluded for a genuine conflict, the portal usually allows that too; use it sparingly and only for real conflicts, since over-exclusion reads as gaming the process. None of this substitutes for the paper standing on its own at desk screen.
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JFM without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Uploading a non-anonymized manuscript when the model is double-blind (self-citation/metadata tells)
+- A data-availability statement that contradicts the replication package's access path
+- Assuming a society-style submission fee or a fixed word limit without checking the guide
+- A cover letter that pitches the paper as broad finance instead of microstructure
+- Treating any volatile fact above as settled when it is marked 待核实
+
+## Last-mile consistency checks
+
+The cheapest rejections come from internal inconsistencies a careful pass would catch. Confirm: the title, abstract, and intro state the **same headline magnitude**; every liquidity measure is **defined on first use** and labeled identically across tables; **units** (bps/cents/shares/horizon) are consistent everywhere; table notes **all** name the clustering scheme; the **data-availability statement** matches the proprietary-feed access path documented in the Internet Appendix; and the reference list format matches the guide for authors (待核实). Run a final figure check that every event study shows pre-event leads. These take an hour and remove the most common avoidable desk-screen failures for a microstructure submission.
 
 ## Output format
 
 ```text
-【Journal】Journal of Financial Markets
+【Journal】Journal of Financial Markets (JFM)
 【Skill】jfm-submission
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking submission preflight
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Finance, Journal of Financial Economics
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jfm-referee-strategy
+【Blinding】anonymized for double-blind + separate title page? [Y/N]
+【Files】manuscript + title page + Internet Appendix + cover letter ready? [Y/N]
+【Style】abstract limit / reference style verified or 待核实
+【Declarations】COI / funding / CRediT / data / AI all present? [Y/N]
+【Cover letter】names microstructure contribution + why JFM? [Y/N]
+【Source status】portal & policy verified or 待核实
+【Next step】submit via Editorial Manager → jfm-referee-strategy for what to expect
 ```
 
 ## Supplementary resources

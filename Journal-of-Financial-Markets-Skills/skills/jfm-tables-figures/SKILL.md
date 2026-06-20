@@ -1,70 +1,92 @@
 ---
 name: jfm-tables-figures
-description: Use when working on tables and figures for a Journal of Financial Markets manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when microstructure exhibits — spreads, depth, price-impact, order-flow, and event-study plots — are the bottleneck for a Journal of Financial Markets (JFM) manuscript. Sharpens the exhibits; it does not invent evidence or citations.
 ---
 
 # Tables and Figures (jfm-tables-figures)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Financial Markets (JFM)** and tables and figures is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's market microstructure, asset pricing, liquidity, trading, and financial-market design standard.
-- The paper risks being confused with nearby venues: Journal of Finance, Journal of Financial Economics, Review of Financial Studies, and Management Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The main table reports many liquidity coefficients but the reader cannot see the headline result
+- A market-structure event has no event-study figure showing the spread/depth path around the date
+- Units are ambiguous (basis points vs. cents vs. percent; per-share vs. per-dollar) across exhibits
+- Intraday or cross-sectional patterns are described in prose where a figure would carry them
+- Summary statistics for the liquidity measures and the sample are missing or buried
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| microstructure mechanism is central | Make the microstructure mechanism assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| liquidity measurement is central | Make the liquidity measurement assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| trading venue design is central | Make the trading venue design assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| price discovery is central | Make the price discovery assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| high-frequency evidence is central | Make the high-frequency evidence assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## What a JFM exhibit set must carry
 
-## JFM fit notes
+Microstructure papers live or die on whether the trading-process pattern is **visible**. The exhibit set should let a referee verify the mechanism without re-reading the text.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: microstructure mechanism, liquidity measurement, trading venue design, price discovery, high-frequency evidence.
-- Sibling boundary: Journal of Finance, Journal of Financial Economics, Review of Financial Studies, and Management Science.
-- House-style aim: precise institutional detail, clean market data, and careful measurement of frictions.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/journal-of-financial-markets
-- https://www.elsevier.com/journals/journal-of-financial-markets/1386-4181/guide-for-authors
+| Exhibit | What it must show | Common JFM failure |
+|---------|-------------------|---------------------|
+| Summary stats / sample | distribution of spreads, depth, impact, volume; N stocks × days | reporting only means, hiding skew/outliers |
+| Headline regression | the one coefficient that is the contribution, isolated | the result drowned in a 12-column table |
+| Event study (if a shock) | spread/depth path with pre-event leads + CIs around the date | no leads shown, so pre-trends invisible |
+| Cross-section / heterogeneity | effect strongest where mechanism predicts | only the pooled average |
+| Intraday / dynamics | U-shaped pattern, impulse-response of impact | described in prose, not plotted |
 
-## Stage-specific moves
+## Craft rules JFM referees reward
 
-1. State the exact tables and figures question in one sentence.
-2. Identify which JFM audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jfm-internet-appendix` if the stage passes, or back to `jfm-workflow` if it does not.
+1. **State units and horizon on every liquidity exhibit.** "Effective spread (bps)", "5-min permanent impact", "depth at touch (shares)". Inconsistent units between tables is an immediate credibility hit.
+2. **Make the headline coefficient unmissable.** One column or one panel is the contribution; the rest is support. Bold the takeaway in the caption, not with significance stars on every cell.
+3. **Report standard errors and the clustering** in the table notes — say it is two-way stock×time / Newey-West, not just "robust SE."
+4. **Event studies need leads.** Show the periods *before* the market-structure change so pre-trends are visible; without them the design is unfalsifiable on the page.
+5. **Self-contained notes.** Each table/figure note states sample, period, measure construction, and inference — a referee should not have to hunt.
+6. **Plot what is intrinsically dynamic** (intraday U-shape, impulse responses, order-book replenishment) rather than tabulating it.
+
+## Worked exhibit set (illustrative)
+
+For a tick-size-change paper, a clean four-exhibit core: **Table 1** summary stats (quoted/effective spread in bps, depth in shares, daily volume, N stocks × days, with percentiles not just means); **Figure 1** event study — effective spread plotted from t−10 to t+10 days with confidence bands, leads visibly flat, the level shift at t=0 obvious; **Table 2** the DiD with the single treatment coefficient in column 1 isolated, columns 2-4 adding controls, notes stating two-way stock×day clustering; **Figure 2** heterogeneity — the spread effect by adverse-selection quintile, rising monotonically, showing the mechanism. A reader can verify the mechanism from the exhibits alone. Anything beyond this goes to the Internet Appendix.
+
+## Summary statistics that pre-empt questions
+
+The summary-statistics table is the first thing a referee reads, and a good one answers questions before they arise. For a microstructure paper, report not just means but the **distribution** (percentiles, SD) of each liquidity measure, the cross-sectional spread across stocks, and the sample dimensions (N stocks, N days, N trades). Show the liquidity measures' pairwise correlations so the reader sees whether your alternative constructs actually agree. Flag the skew that liquidity variables always exhibit — an unreported fat tail invites the "is this driven by a few illiquid names?" objection that a percentile table would have closed.
+
+## Reading the exhibit like a referee
+
+A microstructure referee scans, in order: Are the units sensible (a 200-bps "effective spread" on a liquid large cap is a red flag)? Do the event-study leads look flat, or is there a pre-trend the authors did not mention? Does the magnitude make economic sense relative to the average spread? Is the clustering in the notes, and does it match the panel structure? Build the exhibits to pass this scan — surprising-but-unexplained numbers and missing leads are what trigger the first skeptical comment.
+
+## Captions and notes do real work
+
+In microstructure papers the table/figure notes carry as much information as the cells. A complete note states: the sample (universe, period, N), the exact construction of each measure (effective spread formula, impact horizon, sign rule), the estimator and the **standard-error / clustering scheme**, and the units. A reader should be able to understand an exhibit without leaving it for the text. Vague notes ("robust standard errors in parentheses") invite the clustering objection; precise notes ("standard errors two-way clustered by stock and trading day") close it on the page. Treat the note as part of the result, not boilerplate.
 
 ## Checklist
-- [ ] The JFM audience can see why the paper belongs in market microstructure, asset pricing, liquidity, trading, and financial-market design.
-- [ ] The draft distinguishes JFM from Journal of Finance, Journal of Financial Economics, Review of Financial Studies.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for tables and figures names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Market, firm, or asset identifiers are documented enough to audit sample construction.
-- [ ] Internet appendix material has a clear map from each table to the main claim.
+
+- [ ] Every liquidity/impact exhibit states units and (for impact) the horizon
+- [ ] The headline coefficient is visually isolated, not buried in a wide table
+- [ ] Table notes name the SE/clustering scheme explicitly
+- [ ] Any market-structure event has an event-study figure with pre-event leads and CIs
+- [ ] Summary stats show distributions (not only means) for the liquidity measures
+- [ ] Heterogeneity exhibit shows the effect is largest where the mechanism predicts
+- [ ] Each exhibit note is self-contained (sample, period, construction, inference)
+
+## Magnitude over stars
+
+JFM exhibits should make the *economic* size of the effect unmissable, not just its statistical significance. With microstructure sample sizes, almost everything is significant at the 1% level, so a wall of three-star coefficients conveys little. Anchor every headline number against a benchmark a reader can judge: an effect of 3 bps means more when the table also shows the mean effective spread is 8 bps. State the implied magnitude in the caption ("a 38% reduction in the average effective spread"), and pair coefficients with the sample mean of the dependent variable. Significance markers are fine as a secondary signal, but the economic interpretation is what a microstructure referee weighs — a tiny, precisely estimated effect is not a contribution.
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JFM without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Inconsistent units (bps in one table, cents in the next) across the paper
+- A 10-column regression table where the contribution is invisible
+- An event study with no pre-event leads, so pre-trends cannot be judged
+- Significance stars as the only signal of magnitude; no economic-size statement
+- Describing the intraday pattern in a paragraph instead of plotting it
+- Table notes that omit the clustering scheme
+
+## Figures earn their place in microstructure papers
+
+Some objects are intrinsically visual and lose their force in a table. Plot, do not tabulate: the **intraday U-shape** of spreads/depth/volume; the **event-study path** of a liquidity measure around a market-structure change (with leads and bands); the **price-impact / impulse-response function** showing how a trade's effect decays into permanent and temporary parts; **order-book replenishment** after a large trade; and **heterogeneity gradients** across an adverse-selection or size dimension. A well-built figure lets a referee confirm the dynamics in seconds; the same content in a 30-cell table is unreadable. Reserve tables for point estimates and their inference, figures for shapes and dynamics.
 
 ## Output format
 
 ```text
-【Journal】Journal of Financial Markets
+【Journal】Journal of Financial Markets (JFM)
 【Skill】jfm-tables-figures
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking tables and figures
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Finance, Journal of Financial Economics
+【Headline exhibit】is the contribution coefficient visually isolated? [Y/N]
+【Units & horizon】stated on every liquidity/impact exhibit? [Y/N]
+【Event study】leads + CIs around the shock shown? [Y/N / NA]
+【Inference in notes】clustering scheme stated? [Y/N]
+【Heterogeneity】mechanism-predicted pattern shown? [Y/N]
 【Source status】verified URL / 待核实 / not asserted
 【Next skill】jfm-internet-appendix
 ```

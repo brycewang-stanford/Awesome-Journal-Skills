@@ -1,70 +1,95 @@
 ---
 name: finman-empirical-design
-description: Use when working on empirical design for a Financial Management manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the sample construction, variable measurement, panel structure, or inference of a Financial Management (FM) manuscript is fragile — before identification can be trusted or exhibits finalized. Hardens the data layer; it does not establish the causal claim (finman-identification) or run robustness (finman-robustness).
 ---
 
 # Empirical Design (finman-empirical-design)
 
 ## When to trigger
-- The manuscript is aimed at **Financial Management (FM)** and empirical design is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's corporate finance, investments, market institutions, and applied financial decision-making standard.
-- The paper risks being confused with nearby venues: Journal of Corporate Finance, Journal of Banking and Finance, JFQA, and Review of Financial Studies.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The sample comes from CRSP / Compustat / a vendor feed and the screens and survivorship choices are not documented
+- A key variable (leverage, payout, governance index, a return measure) has several definitions and you picked one without justification
+- The panel mixes frequencies, has look-ahead bias, or merges datasets on a fragile key
+- Standard errors are reported but the clustering and cross-sectional/time dependence are not justified
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| corporate policy is central | Make the corporate policy assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| capital structure is central | Make the capital structure assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| payout and investment is central | Make the payout and investment assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| governance channel is central | Make the governance channel assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| FMA audience is central | Make the FMA audience assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The FM empirical-design bar
 
-## FM fit notes
+FM publishes empirical finance across corporate, asset-pricing, and banking data, so the design layer is judged on whether **a competent referee could reconstruct your sample and trust your measures**. The journal's "less weight on trivial robustness" stance is a double-edged sword: it means you should not bury the paper in redundant checks, *but* it raises the premium on getting the **primary design right the first time** — the screens, the variable definitions, the merge, and the inference. FM referees in corporate finance are especially alert to silent sample screens, point-in-time vs. restated accounting data, and clustering that ignores the panel's dependence structure.
 
-- Publisher / owner context: Wiley for the Financial Management Association.
-- Submission route to re-check: Wiley online submission.
-- Signature vocabulary: corporate policy, capital structure, payout and investment, governance channel, FMA audience.
-- Sibling boundary: Journal of Corporate Finance, Journal of Banking and Finance, JFQA, and Review of Financial Studies.
-- House-style aim: applied finance evidence that ties estimates to managerial or market decisions.
-- Official URLs currently used by the pack:
-- https://onlinelibrary.wiley.com/journal/1755053x
-- https://www.fma.org/financial-management
+## The data-layer audit
 
-## Stage-specific moves
+| Layer | What FM referees check | Common failure |
+|-------|------------------------|----------------|
+| Sample frame | universe, date range, every screen stated with counts dropped | "standard filters" with no attrition table |
+| Survivorship / look-ahead | delisted firms retained; accounting data point-in-time | using restated Compustat as if known contemporaneously |
+| Variable construction | each key variable defined, winsorization level stated, source field named | a leverage measure that silently switches book/market |
+| Merge integrity | join keys, match rate, unmatched-firm bias | CRSP-Compustat merge with an unreported low match rate |
+| Panel structure | frequency, balanced vs. unbalanced, entry/exit handling | mixing annual and quarterly without stating it |
+| Inference | clustering level justified by the dependence; few-cluster / two-way addressed | white SEs on a firm-year panel with serial correlation |
 
-1. State the exact empirical design question in one sentence.
-2. Identify which FM audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `finman-robustness` if the stage passes, or back to `finman-workflow` if it does not.
+## Hardening sequence
+
+1. **Build the attrition table.** Start from the raw universe and report the count dropped at each screen; this single exhibit answers most sample-construction doubts.
+2. **Pin every key variable to a source field and a definition.** State winsorization (typically 1%/99%) and why; if a variable has competing definitions, justify yours and note the alternative goes to the appendix.
+3. **Defend point-in-time discipline.** For accounting variables, use data as it would have been known; for returns, avoid look-ahead in signal construction.
+4. **Justify the clustering.** Cluster at the level where the shocks are correlated (firm, industry, state); use two-way (firm and time) when both dimensions have common shocks; address few-cluster with wild-cluster bootstrap.
+5. **Report power/economic scale.** State N, the dependent-variable mean, and the standard-deviation-scaled effect so a reader sees the magnitude in context.
 
 ## Checklist
-- [ ] The FM audience can see why the paper belongs in corporate finance, investments, market institutions, and applied financial decision-making.
-- [ ] The draft distinguishes FM from Journal of Corporate Finance, Journal of Banking, Finance.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for empirical design names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Market, firm, or asset identifiers are documented enough to audit sample construction.
-- [ ] Internet appendix material has a clear map from each table to the main claim.
+
+- [ ] Attrition table from raw universe to estimation sample, with counts per screen
+- [ ] Every key variable defined, winsorization stated, source field named
+- [ ] Survivorship and look-ahead bias addressed (point-in-time accounting; clean signals)
+- [ ] Merge keys and match rate reported; unmatched-firm bias discussed
+- [ ] Panel frequency and balanced/unbalanced status stated; entry/exit handled
+- [ ] Clustering level justified; two-way / few-cluster handled where needed
+- [ ] Dependent-variable mean and N reported so magnitudes are interpretable
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to FM without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- "We apply standard filters" with no attrition table or counts
+- Restated accounting data used as if it were known at the time (look-ahead)
+- A leverage / payout / governance measure that silently switches definition across tables
+- CRSP-Compustat (or vendor) merges with an unreported or low match rate
+- White / homoskedastic SEs on a firm-year panel with obvious serial and cross-sectional dependence
+- Reporting only t-statistics with no dependent-variable mean to anchor the magnitude
+
+## Worked vignette (illustrative)
+
+A draft studies payout on a "standard Compustat sample" with white standard errors. A referee cannot reconstruct it. The FM fix: add Table 1 Panel A as an attrition table (raw universe → drop financials/utilities → drop missing payout → final N), define payout precisely as dividends-plus-repurchases over assets winsorized at 1%/99%, switch to standard errors clustered by firm and year (the panel has both firm persistence and common market shocks), and report the dependent-variable mean so the coefficient's economic size is legible. The design is now reconstructable and the inference defensible.
+
+## Data-source notes specific to finance
+
+- **Compustat:** beware restated data — use point-in-time (PIT) snapshots for accounting variables that signals are built from; flag any look-ahead in the merge.
+- **CRSP:** retain delisted securities and apply delisting returns; survivorship bias from dropping them inflates many results.
+- **CRSP–Compustat link:** report the link table used and the match rate; unmatched firms skew toward small/young/foreign issuers.
+- **Vendor / hand-collected data (governance, syndicated loans, microstructure):** describe coverage, the time window, and any sample selection the vendor's universe imposes — FM referees ask "what is *not* in this dataset?"
+- **Returns:** state whether returns are gross or net, the holding-period convention, and how microcaps/penny stocks are treated.
+
+## Referee pushback mapped to the design fix
+
+- *"I can't reproduce your sample."* → Add the attrition table from the raw universe with counts dropped per screen.
+- *"Your accounting variable uses restated data."* → Switch to point-in-time data and say so in the note.
+- *"The standard errors look too small."* → Justify and report two-way (or wild-cluster) standard errors matched to the panel's dependence.
+- *"Is this effect economically meaningful?"* → Report the dependent-variable mean and a one-SD-scaled effect.
+
+## When the design choice is itself the contribution
+
+Some FM papers earn their place through a *measurement* or *sample-construction* innovation — a cleaner proxy, a newly merged dataset, a hand-collected sample. When that is the contribution:
+
+- **Validate the new measure** against an external benchmark or a known case, not just internal consistency.
+- **Show what it captures that prior proxies miss**, with a side-by-side comparison.
+- **Document construction in painstaking detail** in the internet appendix, because the measure *is* the asset and referees will probe it.
+- **Connect the measurement gain to a substantive finding** — a better proxy is interesting at FM only if it changes what we conclude about a decision-relevant question.
 
 ## Output format
 
-```text
-【Journal】Financial Management
-【Skill】finman-empirical-design
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking empirical design
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Corporate Finance, Journal of Banking
-【Source status】verified URL / 待核实 / not asserted
+```
+【Sample frame】universe + date range + screens (attrition table? [Y/N])
+【Key variables】defined + winsorized + source fields named? [Y/N]
+【Bias controls】survivorship / look-ahead handled? [Y/N]
+【Merge】keys + match rate reported? [Y/N]
+【Inference】clustering level justified; two-way/few-cluster handled? [Y/N]
+【Magnitude】dep-var mean + N reported? [Y/N]
 【Next skill】finman-robustness
 ```

@@ -1,70 +1,90 @@
 ---
 name: jimf-robustness
-description: Use when working on robustness strategy for a Journal of International Money and Finance manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when a Journal of International Money and Finance (JIMF) result must be shown stable across samples, regimes, measures, and inference choices. Designs the robustness layer mapped to international-finance threats; it does not establish the design (jimf-identification / jimf-empirical-design).
 ---
 
 # Robustness Strategy (jimf-robustness)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of International Money and Finance (JIMF)** and robustness strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's international finance, exchange rates, global banking, capital flows, and open-economy macro-finance standard.
-- The paper risks being confused with nearby venues: Journal of International Economics, Journal of Monetary Economics, JMCB, and Journal of Financial Economics.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The main coefficient is in hand but a referee will ask whether it survives sample, period, and measurement choices
+- The result might be driven by one crisis episode, one dominant country (the US), or one regime
+- Inference is OLS-clustered-one-way and the panel has serial and cross-sectional correlation
+- You are assembling a robustness section and want it to answer *threats*, not pad column count
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| exchange-rate pass-through is central | Make the exchange-rate pass-through assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| capital-flow shocks is central | Make the capital-flow shocks assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| global financial cycle is central | Make the global financial cycle assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| sovereign risk is central | Make the sovereign risk assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| cross-border banking is central | Make the cross-border banking assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The JIMF robustness logic: every check answers a named threat
 
-## JIMF fit notes
+A JIMF robustness section is persuasive when each exhibit is tied to an *international-finance threat to inference*, not when it is a wall of specifications. Build the section as a threat → check map. The threats that JIMF referees raise most are: a single global episode driving everything; US-centrism; regime dependence; a fragile measurement choice; and inference that ignores cross-country dependence.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: exchange-rate pass-through, capital-flow shocks, global financial cycle, sovereign risk, cross-border banking.
-- Sibling boundary: Journal of International Economics, Journal of Monetary Economics, JMCB, and Journal of Financial Economics.
-- House-style aim: international-finance identification that respects exchange-rate regimes and cross-country comparability.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/journal-of-international-money-and-finance
-- https://www.elsevier.com/journals/journal-of-international-money-and-finance/0261-5606/guide-for-authors
+| Threat (JIMF-specific) | Check that answers it |
+|------------------------|------------------------|
+| One global episode drives the result (GFC, taper tantrum, COVID) | Drop the episode / window; rolling samples; show stability |
+| US-centrism — the result is the dollar / the Fed, not "international" | Drop the US; use NEER not USD; replicate with ECB/other-center shocks |
+| Regime dependence (peg vs. float; capital-account open vs. closed) | Split by Ilzetzki–Reinhart–Rogoff regime; interact with openness (Chinn–Ito / AREAER) |
+| Fragile measurement | Swap CDS↔spread, gross↔net flows, VIX↔GFCy factor, policy rate↔shadow rate |
+| Cross-country / serial dependence in inference | Two-way clustering; Driscoll–Kraay; wild-cluster bootstrap with few countries |
+| Reverse causality / anticipation | Lead-lag tests; placebo windows; controls for ex-ante exposure |
+| Outliers / influential country-quarters | Winsorize; jackknife by country; influence diagnostics |
+| Omitted global factor | Add time fixed effects (absorbs common shocks) and show within-time variation still identifies |
 
-## Stage-specific moves
+## How to sequence and present it
 
-1. State the exact robustness strategy question in one sentence.
-2. Identify which JIMF audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jimf-tables-figures` if the stage passes, or back to `jimf-workflow` if it does not.
+1. **Lead with the threat the referee will raise first** — usually "this is just the GFC" or "this is just the dollar." Answer it in the main text, not the appendix.
+2. **Show point-estimate stability, not just significance.** A coefficient that wanders from 0.6 to 0.1 across measures is fragile even if each stays "significant." Plot the estimate across specifications (a specification curve or coefficient-stability figure reads well at JIMF).
+3. **Use time fixed effects as both a control and a diagnostic.** Adding time FE that absorb all common global shocks and seeing the within-time (cross-country) coefficient survive is the cleanest answer to "it's the global cycle."
+4. **Match inference to the panel.** With ~20–60 countries and serially correlated errors, one-way clustering understates SEs; report Driscoll–Kraay or two-way clustering, and wild-cluster bootstrap when the cluster count is small.
+5. **Demote the rest to the online appendix** with a map (see `jimf-internet-appendix`).
 
 ## Checklist
-- [ ] The JIMF audience can see why the paper belongs in international finance, exchange rates, global banking, capital flows, and open-economy macro-finance.
-- [ ] The draft distinguishes JIMF from Journal of International Economics, Journal of Monetary Economics, JMCB.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for robustness strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Market, firm, or asset identifiers are documented enough to audit sample construction.
-- [ ] Internet appendix material has a clear map from each table to the main claim.
+
+- [ ] Each robustness exhibit names the threat it answers
+- [ ] "It's just the GFC/COVID" answered by dropping the episode and by rolling samples
+- [ ] "It's just the dollar/Fed" answered by dropping the US, using NEER, or a non-US center
+- [ ] Regime/openness dependence tested (IRR classification; Chinn–Ito / AREAER openness)
+- [ ] Headline measure swapped for the leading alternative; point estimate stable, not just significant
+- [ ] Inference accounts for cross-country and serial dependence (Driscoll–Kraay / two-way / wild bootstrap)
+- [ ] Influential single country ruled out (jackknife by country)
+- [ ] The two reflex checks (drop-US, drop-episode) are in the main text, not buried in the appendix
+- [ ] Time fixed effects shown to leave within-time identification intact (or absence justified)
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JIMF without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A robustness section that is 15 specifications with no statement of which threat each addresses
+- Reporting only that significance survives while the point estimate halves across measures
+- Never dropping the US or the GFC episode — the two checks every JIMF referee wants
+- One-way clustering on a 30-country panel with obvious serial and cross-sectional correlation
+- Treating "we added more controls" as robustness when the threat is a global confounder (which time FE, not controls, address)
+- Burying the most important robustness (regime split, drop-US) in the appendix where the editor won't see it
+
+## Robustness vs. identification (do not confuse them)
+
+A robustness section cannot rescue a non-identified estimate; it can only show an identified estimate is stable. If a referee's concern is that the result is *not causal* (a global confounder, endogenous policy), that is an identification problem owned by `jimf-identification` — adding twenty more specifications does not address it. Robustness here means: holding the identification fixed, does the magnitude survive reasonable choices of sample, period, regime, measure, and inference? Keep the two sections distinct, and do not pad robustness to compensate for a weak design.
+
+## Worked vignette (illustrative)
+
+A draft's headline is that capital-account openness amplifies spillovers. The referee suspects it is mechanically the 2008 crisis and the dollar. The JIMF fix: (1) drop 2008Q3–2009Q2 and show the interaction holds; (2) re-estimate with time fixed effects so only cross-country differences in openness identify the coefficient; (3) split by IRR regime and show the amplification is in floats; (4) re-run with two-way (country and quarter) clustering, where the openness interaction stays at ~0.4 (s.e. 0.15, illustrative). Each check is captioned with the threat it kills.
+
+## Referee pushback mapped to the robustness fix
+
+- *"This is just the 2008 crisis."* → Drop the crisis window and show the coefficient holds; add rolling-sample estimates so the reader sees stability over time.
+- *"This is just the dollar / the US."* → Drop the US from the panel; re-run in NEER terms; replicate with a non-US monetary center (ECB) where feasible.
+- *"It only works for floats / open economies."* → Either own the regime dependence as a finding (split by IRR / openness) or show it holds across regimes.
+- *"Your standard errors are too small."* → Move from one-way to two-way or Driscoll–Kraay; wild-cluster bootstrap with few countries; report how inference changes.
+- *"One country drives this."* → Jackknife by country; show the estimate is not an artifact of a single influential country-quarter.
+
+## Sequencing the robustness section against page limits
+
+Lead the main-text robustness with the two checks every JIMF referee runs in their head — drop the obvious episode and drop the US — plus the time-FE diagnostic for the global confounder. Put measurement swaps and the full regime/openness grid in the online appendix with an index (see `jimf-internet-appendix`). The goal is that the editor, reading only the body, already sees the result is not the crisis, not the dollar, and not the global cycle; everything else is there for the referee who wants it.
 
 ## Output format
 
 ```text
 【Journal】Journal of International Money and Finance
 【Skill】jimf-robustness
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking robustness strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of International Economics, Journal of Monetary Economics
-【Source status】verified URL / 待核实 / not asserted
+【Top threat answered in main text】GFC-only / dollar-only / regime / measurement / inference
+【Stability shown】point estimate across specs (not just significance)? [Y/N]
+【Regime + openness split】IRR / Chinn–Ito / AREAER tested? [Y/N]
+【Inference】Driscoll–Kraay / two-way / wild bootstrap as warranted
+【Demoted to appendix】list → jimf-internet-appendix
 【Next skill】jimf-tables-figures
 ```

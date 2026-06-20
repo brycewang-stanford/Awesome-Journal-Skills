@@ -1,72 +1,87 @@
 ---
 name: finman-submission
-description: Use when working on submission preflight for a Financial Management manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when running the final pre-submission preflight for Financial Management (FM) via the FMA portal and ScholarOne — submission fee and membership tiers, format and anonymization rules, and the FMA-specific process quirks. Final checks; it does not draft content.
 ---
 
 # Submission Preflight (finman-submission)
 
 ## When to trigger
-- The manuscript is aimed at **Financial Management (FM)** and submission preflight is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's corporate finance, investments, market institutions, and applied financial decision-making standard.
-- The paper risks being confused with nearby venues: Journal of Corporate Finance, Journal of Banking and Finance, JFQA, and Review of Financial Studies.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- "Submitting tomorrow" — last check before pressing submit on the FMA form / ScholarOne
+- Unsure which fee tier applies and whether membership is bundled
+- Confirming format, anonymization, and house-style rules are FM-compliant
+- Assembling the files and declarations the FMA→ScholarOne flow expects
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| corporate policy is central | Make the corporate policy assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| capital structure is central | Make the capital structure assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| payout and investment is central | Make the payout and investment assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| governance channel is central | Make the governance channel assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| FMA audience is central | Make the FMA audience assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Process facts (检索于 2026-06；以官网为准)
 
-## FM fit notes
+- FM is the **FMA's flagship quarterly**, published by **Wiley** (Online ISSN 1755-053X). Submission begins on the **FMA submissions page**, where you complete a form and pay the fee, and are then **forwarded to ScholarOne** for the manuscript upload.
+- **Submission fee (per manuscript):** **$250** for professional or PhD **FMA members**; **$350** for professional **nonmembers**; **$280** for PhD **nonmembers**. The $350 and $280 nonmember fees **include a one-year FMA membership** for the submitting author. (Re-confirm amounts and tiers on the FMA submissions page.)
+- **Editorial criteria:** originality, rigor, timeliness, practical relevance, and quality; the editors target a **median 6–8 week turnaround** including desk rejections and commit to explanatory feedback on every submission.
+- **Originality declaration:** manuscripts are reviewed on the understanding they are **not under review elsewhere**, are the authors' **original work**, and have **not been previously published** in whole or in part.
+- **Co-Editors (待核实):** Michael Goldstein, Kathleen Kahle, and Shawn Thomas; managing-editor contact is at the University of South Florida. Confirm names before relying on them.
+- **Review model / anonymization, abstract word limit, and exact manuscript length limit: 待核实** — these are not confirmed from the official pages in this pack and must be read off the Wiley author guidelines before submission.
 
-- Publisher / owner context: Wiley for the Financial Management Association.
-- Submission route to re-check: Wiley online submission.
-- Signature vocabulary: corporate policy, capital structure, payout and investment, governance channel, FMA audience.
-- Sibling boundary: Journal of Corporate Finance, Journal of Banking and Finance, JFQA, and Review of Financial Studies.
-- House-style aim: applied finance evidence that ties estimates to managerial or market decisions.
-- Official URLs currently used by the pack:
-- https://onlinelibrary.wiley.com/journal/1755053x
-- https://www.fma.org/financial-management
+## Preflight checklist
 
-## Stage-specific moves
+### Format & style
+- [ ] Manuscript in the format Wiley specifies (PDF or Word) — **confirm on the author guidelines (待核实)**
+- [ ] Abstract within the stated word limit — **limit 待核实**
+- [ ] Figures and tables prepared to Wiley specs; notes self-contained
+- [ ] References in the journal's house style — **confirm exact style (待核实)**
+- [ ] If review is anonymous, the manuscript is fully de-identified (no author names, acknowledgments, or self-citation tells) — **blinding model 待核实**
 
-1. State the exact submission preflight question in one sentence.
-2. Identify which FM audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `finman-referee-strategy` if the stage passes, or back to `finman-workflow` if it does not.
+### Files & fees for the FMA→ScholarOne flow
+- [ ] Correct fee tier identified (member $250 / professional nonmember $350 / PhD nonmember $280; 检索于 2026-06)
+- [ ] Payment method ready on the FMA form; note nonmember fee bundles a one-year membership
+- [ ] Main manuscript + internet appendix + any data/code per Wiley policy (data/code policy 待核实)
+- [ ] Cover letter framing the contribution and the general-interest fit
 
-## Checklist
-- [ ] The FM audience can see why the paper belongs in corporate finance, investments, market institutions, and applied financial decision-making.
-- [ ] The draft distinguishes FM from Journal of Corporate Finance, Journal of Banking, Finance.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for submission preflight names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Market, firm, or asset identifiers are documented enough to audit sample construction.
-- [ ] Internet appendix material has a clear map from each table to the main claim.
+### Declarations
+- [ ] Originality/exclusivity statement (not under review elsewhere; not previously published)
+- [ ] Conflict-of-interest / funding disclosure per Wiley policy
+- [ ] Author contributions / ORCID as required by Wiley
+
+## The FMA → ScholarOne flow, step by step
+
+The submission path is two-stage and trips up first-time FM authors who expect a single Wiley portal:
+
+1. **Start on the FMA submissions page**, not on ScholarOne directly — you complete a submission form there first.
+2. **Pay the fee** at the FMA step, choosing the correct tier; note that the nonmember tiers bundle a one-year membership for the submitting author.
+3. **Get forwarded to ScholarOne**, FM's submission partner, where you upload the manuscript files and metadata.
+4. **Confirm the manuscript and files arrived in ScholarOne** — the two-stage handoff is where uploads occasionally fail silently.
+Skipping the FMA form and trying to go straight to ScholarOne is the most common process error.
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to FM without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Uploading to ScholarOne without first completing the FMA form and fee step
+- Choosing the wrong fee tier (or missing that the nonmember fee includes membership)
+- Naming yourself in the manuscript before confirming whether review is anonymous
+- Treating the abstract limit, length limit, or citation style as known when they are 待核实
+- Submitting work that overlaps a prior publication, breaching the originality declaration
+
+## What to expect after submitting
+
+Set the author's expectations so the wait is read correctly:
+
+- **Fast clock.** The editors target a **median 6–8 week turnaround including desk rejections**, so silence past a couple of months is unusual — but median is not maximum.
+- **Desk-reject is common and quick.** With 300+ submissions a year and sub-10% acceptance, a fit/interest desk-reject can come within days; the explanatory note tells you whether to re-target (fit) or revise (execution).
+- **Feedback on every submission.** FM commits to explanatory feedback even on rejections — treat it as a free referee read before spending a second fee elsewhere.
+- **The fee is per submission.** A rejection means a new fee on resubmission (and the nonmember tiers already bundled a year of membership), so use the feedback before re-engaging.
+
+## Final go / no-go gate
+
+Do not submit if any of these is unresolved: the headline result is still moving; identification's leading alternative is undefended; the abstract does not lead with the finding; the fee tier or anonymization rule is unverified. A fast desk-reject on an avoidable flaw wastes the fee and the clock.
 
 ## Output format
 
-```text
-【Journal】Financial Management
-【Skill】finman-submission
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking submission preflight
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Corporate Finance, Journal of Banking
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】finman-referee-strategy
+```
+【Route】FMA form + fee → ScholarOne upload confirmed? [Y/N]
+【Fee tier】member $250 / prof nonmember $350 / PhD nonmember $280 (检索于 2026-06) — chosen? [Y/N]
+【Format】Wiley format + abstract limit + citation style verified or 待核实
+【Anonymization】blinding model confirmed; manuscript de-identified if required (待核实)
+【Files】main + internet appendix + data/code per policy? [Y/N]
+【Declarations】originality / disclosure / contributions ready? [Y/N]
+【Next step】submit → finman-rebuttal when the decision letter arrives
 ```
 
 ## Supplementary resources

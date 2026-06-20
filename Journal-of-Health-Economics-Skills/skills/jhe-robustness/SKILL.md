@@ -1,70 +1,90 @@
 ---
 name: jhe-robustness
-description: Use when working on robustness strategy for a Journal of Health Economics manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when a Journal of Health Economics (JHE) result must be shown stable to specification, sample, inference, and mechanism threats before submission or in response to referees. Organizes robustness by identifying threat; it does not establish the design (jhe-identification) or build exhibits.
 ---
 
 # Robustness Strategy (jhe-robustness)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Health Economics (JHE)** and robustness strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's health economics, insurance, provider incentives, medical technology, health policy, and health behavior standard.
-- The paper risks being confused with nearby venues: American Journal of Health Economics, Journal of Public Economics, Health Economics, and AEJ Economic Policy.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The headline estimate may be sensitive to specification, sample window, or functional form
+- Inference is suspect: few clusters (states), serial correlation, or multiple outcomes/subgroups
+- A referee will ask whether the result is a coverage/take-up artifact rather than the claimed effect
+- The mechanism story is asserted but not separated from competing explanations
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| provider incentives is central | Make the provider incentives assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| insurance design is central | Make the insurance design assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| patient selection is central | Make the patient selection assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| clinical-policy margin is central | Make the clinical-policy margin assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| health-data privacy is central | Make the health-data privacy assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Robustness the JHE way: organize by threat, not by appendix
 
-## JHE fit notes
+A wall of starred alternative specifications persuades no one. JHE referees want each robustness check **mapped to a specific threat to the health-economics claim**, with the point estimate's *stability* — not its significance — as the object. Build the robustness section as a threat-response ledger: name the threat a health economist would raise, run the check that addresses it, and report whether the magnitude moves. The threats that recur at JHE are selection, concurrent policy, measurement of health/utilization, and inference with few policy clusters.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: provider incentives, insurance design, patient selection, clinical-policy margin, health-data privacy.
-- Sibling boundary: American Journal of Health Economics, Journal of Public Economics, Health Economics, and AEJ Economic Policy.
-- House-style aim: policy-relevant causal evidence with institutional health-system detail.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/journal-of-health-economics
-- https://www.elsevier.com/journals/journal-of-health-economics/0167-6296/guide-for-authors
+## Threat-to-check ledger
 
-## Stage-specific moves
+| Threat to the claim | Check that addresses it |
+|---------------------|-------------------------|
+| Residual selection into insurance/treatment | bounds (Lee/Manski/Oster); selection-on-observables-to-unobservables (Oster δ) |
+| Concurrent reform contaminates the policy variation | placebo on ineligible group/period; leave-one-reform-out; pre-period falsification |
+| Staggered-timing bias | heterogeneity-robust estimator (CS / SA / dCDH); honest-DID sensitivity |
+| Health/utilization mismeasurement (claims coding, self-report) | alternative outcome definitions; administrative vs. survey cross-check; coding-change robustness |
+| Functional form / sample window | log vs. level, trimming outliers (skewed health spending!), alternative bandwidths, donut RD |
+| Few-cluster inference (states) | wild-cluster bootstrap; randomization inference; correct clustering level |
+| Multiple outcomes/subgroups | MHT adjustment (Romano–Wolf / sharpened q-values); pre-specify the primary outcome |
+| Mechanism is one of several | horse-race the channels; show the competing story predicts a pattern you do not see |
 
-1. State the exact robustness strategy question in one sentence.
-2. Identify which JHE audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jhe-tables-figures` if the stage passes, or back to `jhe-workflow` if it does not.
+## Sequencing
+
+1. **Lead with the threat the editor/referee will raise first** — usually selection or concurrent policy at JHE.
+2. **Report stability, not stars.** Show the point estimate across checks in one figure or compact table; if it moves, say so and explain.
+3. **Right-size the spending/skew problem.** Health expenditure is heavily right-skewed and zero-inflated; defend the estimator (two-part, GLM, IHS) rather than defaulting to OLS on a log.
+4. **Treat inference as a first-class robustness item**, not a footnote — few-state clustering is a classic JHE referee catch.
+5. **Pre-register the primary outcome** where multiple health outcomes invite cherry-picking.
+6. **Show, do not assert, stability.** A single figure plotting the point estimate and CI across every check is worth more than a paragraph claiming robustness; a referee can read it in seconds.
 
 ## Checklist
-- [ ] The JHE audience can see why the paper belongs in health economics, insurance, provider incentives, medical technology, health policy, and health behavior.
-- [ ] The draft distinguishes JHE from American Journal of Health Economics, Journal of Public Economics, Health Economics.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for robustness strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Every robustness check is mapped to a named threat to the health-econ claim
+- [ ] Point-estimate stability is the reported object (not just significance)
+- [ ] Selection and concurrent-policy threats are addressed head-on
+- [ ] Skewed/zero-inflated health spending handled with a defended estimator
+- [ ] Inference matches the design: correct clustering level + few-cluster correction
+- [ ] Multiple outcomes/subgroups get MHT adjustment; primary outcome pre-specified
+- [ ] The mechanism is distinguished from at least one competing explanation
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JHE without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A leave-out or alternative-sample check run but never reconciled when the estimate moves
+- An appendix of starred specifications with no map from check to threat
+- OLS on log spending with no handling of zeros or skew
+- Clustering below the policy level, then claiming significance
+- Running every subgroup and reporting the significant ones with no MHT adjustment
+- "Results are robust" with no figure showing the point estimate holding
+- Dodging the selection threat with more controls instead of a bound or design fix
+
+## The skewed-spending decision, made explicitly
+
+Health spending and utilization are the journal's signature dependent variables, and they are right-skewed, zero-inflated, and heavy-tailed — the estimator choice is itself a robustness question a referee will press. Make it a deliberate, defended choice rather than a default:
+
+- **Many zeros + continuous positive part** → two-part model (probit/logit for any use × GLM for the positive amount); report both parts.
+- **Skew without excess zeros** → GLM with a log link (often gamma), which avoids retransformation bias that plagues OLS-on-log.
+- **Want to keep zeros and interpret in levels** → IHS or Poisson/PPML, stating the elasticity interpretation honestly.
+- Whatever you pick, **show the result is not an artifact of the functional form** by reporting at least one alternative, and never present OLS-on-log as if retransformation were free.
+
+## Worked vignette (illustrative)
+
+A provider-payment paper shows intensity rises after a fee change; a referee suspects it is patient selection, not a true behavioral response. The JHE fix: hold the threat ledger explicit — (a) an Oster δ shows selection on unobservables would need to be 2× the observables to overturn the result; (b) a placebo on a fee-unaffected service shows no jump; (c) the spending outcome is re-run with a two-part model given 30% zeros; (d) inference is wild-cluster bootstrapped over 41 providers. The point estimate holds across all four (say 6.2%, stable within ±0.8pp, illustrative). The mechanism — behavioral response, not selection — now survives.
 
 ## Output format
 
 ```text
 【Journal】Journal of Health Economics
 【Skill】jhe-robustness
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking robustness strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not American Journal of Health Economics, Journal of Public Economics
-【Source status】verified URL / 待核实 / not asserted
+【Primary threat】selection / concurrent-policy / staggered-bias / measurement / inference
+【Threat→check ledger】[threat: check → estimate movement]
+【Spending estimator】OLS / two-part / GLM / IHS — defended? [Y/N]
+【Inference】clustering level + few-cluster correction
+【MHT】adjusted across outcomes/subgroups? [Y/N]
+【Verdict】estimate stable / moves (explained) / fragile
 【Next skill】jhe-tables-figures
 ```
+
+## Handoff boundary
+
+This skill stress-tests an already-identified estimate; it does not fix a broken design (that is `jhe-identification`) or present the results (that is `jhe-tables-figures`). If a robustness check reveals the estimate is not actually identified — it swings with the selection bound or fails the placebo — route back to `jhe-identification` rather than papering over it with more specifications. When the point estimate holds across the threat ledger, hand off to `jhe-tables-figures` to make the stability legible.

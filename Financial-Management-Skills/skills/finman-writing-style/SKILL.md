@@ -1,70 +1,90 @@
 ---
 name: finman-writing-style
-description: Use when working on writing style for a Financial Management manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the prose, abstract, or introduction of a Financial Management (FM) manuscript buries the idea or its managerial/market payoff — FM's brand is "articles people actually read." Shapes exposition for a general finance audience; it does not establish results (finman-identification) or run the submission preflight (finman-submission).
 ---
 
 # Writing Style (finman-writing-style)
 
 ## When to trigger
-- The manuscript is aimed at **Financial Management (FM)** and writing style is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's corporate finance, investments, market institutions, and applied financial decision-making standard.
-- The paper risks being confused with nearby venues: Journal of Corporate Finance, Journal of Banking and Finance, JFQA, and Review of Financial Studies.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The abstract and intro state what was done but not why a finance reader (or a practitioner) should care
+- The paper reads like a technical report — correct, dense, and unread
+- The contribution is buried under literature review or methodology before the finding appears
+- You are doing the final exposition pass before submission (do this *after* the evidence settles)
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| corporate policy is central | Make the corporate policy assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| capital structure is central | Make the capital structure assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| payout and investment is central | Make the payout and investment assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| governance channel is central | Make the governance channel assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| FMA audience is central | Make the FMA audience assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The FM writing bar
 
-## FM fit notes
+FM is unusually explicit that it wants **"a finance journal that publishes academic articles that people actually read."** That is a writing standard, not a slogan. The exposition is judged on whether a **general finance audience** — not just the immediate subfield — grasps the question, the answer, and the **practical relevance** quickly, and whether the paper **provokes and furthers debate.** Concretely: the abstract and first page must deliver the finding and its managerial/market implication before any apparatus; jargon that only insiders parse is a cost; and the "so-what for managers, investors, or regulators" must be stated, not left for the reader to infer. This is the lane that separates FM from siblings whose house voice tolerates a denser, more specialist register.
 
-- Publisher / owner context: Wiley for the Financial Management Association.
-- Submission route to re-check: Wiley online submission.
-- Signature vocabulary: corporate policy, capital structure, payout and investment, governance channel, FMA audience.
-- Sibling boundary: Journal of Corporate Finance, Journal of Banking and Finance, JFQA, and Review of Financial Studies.
-- House-style aim: applied finance evidence that ties estimates to managerial or market decisions.
-- Official URLs currently used by the pack:
-- https://onlinelibrary.wiley.com/journal/1755053x
-- https://www.fma.org/financial-management
+## The exposition build (in order)
 
-## Stage-specific moves
+1. **Abstract: finding-first.** Lead with the result and its implication in the first two sentences; method and data come after. A reader should know the "so-what" without reading the paper. (Exact abstract word limit 待核实 — check the Wiley author guidelines.)
+2. **First page: the hook and the payoff.** State the live financial question, the answer, and who should change a decision because of it — within the first page, before the literature.
+3. **Contribution paragraph.** One paragraph naming the specific delta (from `finman-literature-positioning`) and the general-interest implication; resist the temptation to bury it on page 4.
+4. **Mechanism and magnitude in plain finance language.** Explain the channel and the economic magnitude in terms a CFO, investor, or regulator would use, not only in regression-speak.
+5. **Practical-relevance close.** End sections (and the paper) by connecting the estimate to a decision; FM rewards a paper that tells the reader what to *do* with the finding.
+6. **Cut for readability.** Remove throat-clearing, redundant caveats, and apparatus that does not change a conclusion — every sentence should earn its place.
 
-1. State the exact writing style question in one sentence.
-2. Identify which FM audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `finman-submission` if the stage passes, or back to `finman-workflow` if it does not.
+## The first-page test (FM's hardest sentence-level bar)
+
+FM editors and referees decide interest fast. Treat the first page as the audition and engineer four sentences deliberately:
+
+1. **The hook sentence** — the live financial tension or puzzle a general reader recognizes ("Boards routinely set covenants without knowing how creditors will use control rights").
+2. **The finding sentence** — the answer, with the direction and a magnitude in plain terms ("We show creditors cut investment by ~7% after a breach").
+3. **The why-it-matters sentence** — the decision that changes ("Boards can price this into covenant design ex ante").
+4. **The how-we-know sentence** — the design in one line ("using a staggered covenant-rule change as quasi-exogenous variation").
+A first page that delivers these four before the literature review passes FM's interest screen; one that opens with data counts and estimators fails it.
 
 ## Checklist
-- [ ] The FM audience can see why the paper belongs in corporate finance, investments, market institutions, and applied financial decision-making.
-- [ ] The draft distinguishes FM from Journal of Corporate Finance, Journal of Banking, Finance.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for writing style names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Market, firm, or asset identifiers are documented enough to audit sample construction.
-- [ ] Internet appendix material has a clear map from each table to the main claim.
+
+- [ ] Abstract leads with the finding and its implication, not the method
+- [ ] The first-page four sentences (hook / finding / why-it-matters / how-we-know) are present
+- [ ] The question, answer, and decision-maker appear on the first page, before the literature
+- [ ] The contribution and its general-interest payoff are stated in one clear paragraph
+- [ ] The mechanism and economic magnitude are explained in plain finance terms
+- [ ] At least one explicit "so-what for managers / investors / regulators" statement
+- [ ] Jargon minimized; a non-specialist finance reader can follow the argument
+- [ ] Prose trimmed of throat-clearing and apparatus that changes no conclusion
+
+## Writing the implications so they survive a skeptical read
+
+The "so-what" is where FM papers most often slide into either vagueness or overreach. Calibrate:
+
+- **Be specific, not gestural.** "Has implications for policy" persuades no one; "regulators weighing covenant disclosure rules should expect investment to fall ~7% post-breach" does.
+- **Stay inside the evidence.** Tie each implication to a result you actually identified; a managerial recommendation that outruns the design invites a "you didn't show this" report.
+- **Address the decision-maker by name.** CFO, board, lender, investor, regulator — naming who acts makes the relevance concrete and FM-typical.
+- **Distinguish positive from normative.** Separate "this is what happens" from "this is what they should do," and flag the assumptions the normative step requires.
+A skeptical referee should finish the implications paragraph thinking "supported and useful," not "nice story, unproven."
+- **Lead the title with the finding, not the method.** An FM-typical title names the financial phenomenon and its twist, not the estimator; it is the first interest signal the editor sees.
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to FM without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A method-first abstract that withholds the finding until the last sentence
+- A first page dominated by literature review with the contribution deferred to page 4
+- Stating significance but never the managerial/market implication — fails FM's relevance brand
+- Subfield jargon that locks out the general finance audience FM is written for
+- Hedging every sentence into unreadability "to be careful"
+- Polishing prose before identification and the evidence hierarchy have settled
+
+## Worked vignette (illustrative)
+
+A draft's abstract opens "Using a panel of 4,312 firm-years and a two-way fixed-effects specification, we estimate…" and the finding arrives in sentence five. A referee says it is "well-executed but a slog." The FM rewrite: open with "Firms cut investment by 7% when creditors gain control after a covenant breach — a response boards can anticipate and price into covenant design," then give the design in one sentence and the magnitude in plain terms. Move the contribution paragraph to page one, and close the introduction with the implication for how CFOs should negotiate covenants. The paper now reads — and a general finance audience reaches the "so-what" in the first two sentences.
+
+## Referee pushback mapped to the writing fix
+
+- *"Well-executed but I lost interest by page three."* → Rebuild the first page around the four-sentence test; move the contribution and so-what forward.
+- *"I can't tell why this matters in practice."* → Add an explicit managerial/market implication and translate the coefficient into a decision-relevant unit (basis points, dollars, % of the mean).
+- *"This reads like a specialist paper."* → Strip subfield jargon, define the mechanism in general finance terms, and frame the takeaway for the broad FM audience.
+- *"The abstract buries the result."* → Reorder so the finding and implication are the first two sentences; demote method and sample to the end.
 
 ## Output format
 
-```text
-【Journal】Financial Management
-【Skill】finman-writing-style
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking writing style
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Corporate Finance, Journal of Banking
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】finman-submission
+```
+【Abstract】finding-first, implication stated up front? [Y/N]
+【First page】question + answer + decision-maker before the literature? [Y/N]
+【Contribution paragraph】delta + general-interest payoff, one paragraph? [Y/N]
+【Magnitude in plain terms】economic significance legible to a practitioner? [Y/N]
+【So-what】explicit managerial/market implication present? [Y/N]
+【Limits checked】abstract word limit verified or 待核实
+【Next skill】finman-referee-strategy
 ```

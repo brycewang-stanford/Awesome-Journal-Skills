@@ -1,72 +1,87 @@
 ---
 name: jimf-submission
-description: Use when working on submission preflight for a Journal of International Money and Finance manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when running the final pre-submission preflight for a Journal of International Money and Finance (JIMF) manuscript via Elsevier Editorial Manager — file set, abstract/Highlights/JEL, declarations (competing interest, CRediT), data statement, and house style. Final checks; it does not draft content.
 ---
 
 # Submission Preflight (jimf-submission)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of International Money and Finance (JIMF)** and submission preflight is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's international finance, exchange rates, global banking, capital flows, and open-economy macro-finance standard.
-- The paper risks being confused with nearby venues: Journal of International Economics, Journal of Monetary Economics, JMCB, and Journal of Financial Economics.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- "Submitting tomorrow" — last check before uploading to Elsevier Editorial Manager
+- Unsure which files and declarations the Elsevier submission expects
+- Confirming the abstract, Highlights, keywords, JEL codes, and references are JIMF/Elsevier-compliant
+- Confirming the Data Availability Statement, competing-interest declaration, and CRediT statement are ready
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| exchange-rate pass-through is central | Make the exchange-rate pass-through assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| capital-flow shocks is central | Make the capital-flow shocks assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| global financial cycle is central | Make the global financial cycle assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| sovereign risk is central | Make the sovereign risk assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| cross-border banking is central | Make the cross-border banking assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Process facts (检索于 2026-06；以官网为准 — re-confirm on the live Guide for Authors)
 
-## JIMF fit notes
+- JIMF is an **Elsevier** journal (ISSN 0261-5606 print; 1873-0639 online; founded 1982), hosted on ScienceDirect. Submission is through **Elsevier Editorial Manager** (待核实 if the journal has moved to a newer Elsevier submission system).
+- **No society membership and no submission fee** for a standard paper; an open-access APC applies only if the author chooses gold OA (exact fee 待核实).
+- **Peer review:** single-anonymized is the Elsevier default; whether JIMF uses single- or double-anonymized review is 待核实 — confirm before deciding whether to anonymize the manuscript.
+- **Abstract ≤250 words**; **Highlights** (3–5 bullets) and **keywords** required; **JEL codes** expected (F3x / E4x / G15 territory).
+- **Declarations** required by Elsevier: **Declaration of Competing Interest**, **CRediT** author-contribution statement, funding sources, and a **Data Availability Statement**.
+- **Editor identity is volatile** — do not name an editor in the cover letter from memory; verify on the live editorial board page. 待核实.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: exchange-rate pass-through, capital-flow shocks, global financial cycle, sovereign risk, cross-border banking.
-- Sibling boundary: Journal of International Economics, Journal of Monetary Economics, JMCB, and Journal of Financial Economics.
-- House-style aim: international-finance identification that respects exchange-rate regimes and cross-country comparability.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/journal-of-international-money-and-finance
-- https://www.elsevier.com/journals/journal-of-international-money-and-finance/0261-5606/guide-for-authors
+## Preflight checklist
 
-## Stage-specific moves
+### Manuscript & front matter
+- [ ] Title page with all affiliations and the corresponding author
+- [ ] **Abstract ≤250 words**, factual, with the headline magnitude
+- [ ] **Highlights** (3–5 bullets, each a finding); **keywords**; **JEL codes** present
+- [ ] Figures and tables with self-contained notes; consistent reference style (Elsevier/author-date — 待核实 exact style)
+- [ ] Acronyms defined on first use (UIP, ERPT, GFCy, FXI, NEER)
+- [ ] Online/supplementary appendix prepared and indexed (see `jimf-internet-appendix`)
+- [ ] Substantive checks done first (identification, robustness, positioning) — this is the mechanics pass, not a content review
+- [ ] References complete and consistent; in-text citations all resolve in the list
 
-1. State the exact submission preflight question in one sentence.
-2. Identify which JIMF audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jimf-referee-strategy` if the stage passes, or back to `jimf-workflow` if it does not.
+### Files & declarations for Editorial Manager
+- [ ] Main manuscript (and a blinded version if double-anonymized review is confirmed)
+- [ ] Highlights file, and any supplementary appendix file(s)
+- [ ] **Declaration of Competing Interest** statement
+- [ ] **CRediT** author-contribution statement; funding/grant acknowledgments
+- [ ] **Data Availability Statement**; data/code deposit (Mendeley Data or repository link) ready
+- [ ] Suggested reviewers if the journal requests them; cover letter naming the international contribution
+- [ ] Blinded manuscript prepared if double-anonymized review is confirmed (待核实)
+- [ ] OA choice decided; APC not confused with a submission fee
 
-## Checklist
-- [ ] The JIMF audience can see why the paper belongs in international finance, exchange rates, global banking, capital flows, and open-economy macro-finance.
-- [ ] The draft distinguishes JIMF from Journal of International Economics, Journal of Monetary Economics, JMCB.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for submission preflight names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Market, firm, or asset identifiers are documented enough to audit sample construction.
-- [ ] Internet appendix material has a clear map from each table to the main claim.
+### Cover letter
+- [ ] One paragraph: the international question, the design, the headline finding, and why it is JIMF (not JIE/JME/JMCB/JFE)
+- [ ] Confirms the paper is not under review elsewhere and is original
+- [ ] Does NOT name a specific editor from memory (verify the board first)
+
+## Deciding on the Econometrica/transfer and OA questions
+
+- **No transfer route** like the society journals: JIMF is a standalone Elsevier journal; there is no fee-waived transfer of reports from a sibling. A paper rejected elsewhere is a fresh submission here.
+- **Open access is a choice, not a requirement.** JIMF is a subscription journal with an optional gold-OA route at an APC (exact fee 待核实). Do not treat the APC as a submission fee; standard submission carries no fee.
+- **Anonymization** depends on the review model: if double-anonymized is confirmed, prepare a blinded manuscript (no author names, scrubbed acknowledgments, neutral self-citations) and a separate title page; if single-anonymized, the author-visible manuscript is fine. Confirm before deciding (待核实).
+- **Suggested/opposed reviewers**: if Editorial Manager requests them, suggest international-finance specialists in the paper's sub-program and avoid conflicts.
+
+## Final-pass desk-reject screen
+
+Before uploading, read the paper as an editor doing a 10-minute triage: Is the international contribution unmistakable on page 1? Is the abstract under 250 words with a number? Are Highlights, keywords, and JEL present? Is the cover letter saying why JIMF and not a sibling? Is the data/code deposit attached, not promised? A "no" on any of these is a common, avoidable desk-reject and should be fixed before submission, not after.
+
+## What this preflight does not do
+
+This is a mechanics-and-compliance check, not a content review. It confirms the file set, front matter, declarations, and house style are submission-ready; it does not judge whether the identification holds (`jimf-identification`), whether the result is robust (`jimf-robustness`), or whether the contribution is staked (`jimf-literature-positioning`). Run those substantive checks first; a perfectly formatted submission with a weak design wastes a review cycle. The preflight's value is catching the avoidable rejections — missing Highlights, an over-long abstract, an absent data statement, a cover letter that never says why JIMF.
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JIMF without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Uploading without Highlights, keywords, or JEL codes — a visible Elsevier-compliance gap
+- An abstract over 250 words or with undefined acronyms
+- Missing the Declaration of Competing Interest, CRediT statement, or Data Availability Statement
+- A cover letter that does not say why the paper is *international money and finance* specifically
+- Naming a current editor from memory when the board page is the source of truth
+- Treating the data/code deposit as a post-acceptance task instead of attaching it now
 
 ## Output format
 
 ```text
-【Journal】Journal of International Money and Finance
-【Skill】jimf-submission
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking submission preflight
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of International Economics, Journal of Monetary Economics
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jimf-referee-strategy
+【Front matter】abstract ≤250w + Highlights + keywords + JEL? [Y/N]
+【Declarations】competing interest + CRediT + funding + data statement? [Y/N]
+【Files】manuscript (+ blinded if needed) + Highlights + appendix + deposit ready? [Y/N]
+【Cover letter】states the international contribution; no editor named from memory? [Y/N]
+【Review model】single/double-anonymized confirmed? [Y/N / 待核实]
+【Source check】Elsevier process facts verified / 待核实 / 检索于 2026-06
+【Next step】submit via Editorial Manager → jimf-referee-strategy for what to expect
 ```
 
 ## Supplementary resources

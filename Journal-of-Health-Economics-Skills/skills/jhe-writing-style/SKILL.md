@@ -1,70 +1,90 @@
 ---
 name: jhe-writing-style
-description: Use when working on writing style for a Journal of Health Economics manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the prose of a Journal of Health Economics (JHE) manuscript buries the question or the policy stakes — abstract, introduction, and the institutional setup. Shapes the writing so a health economist sees the contribution fast; it does not establish results or build exhibits.
 ---
 
 # Writing Style (jhe-writing-style)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Health Economics (JHE)** and writing style is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's health economics, insurance, provider incentives, medical technology, health policy, and health behavior standard.
-- The paper risks being confused with nearby venues: American Journal of Health Economics, Journal of Public Economics, Health Economics, and AEJ Economic Policy.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The abstract states what you did but not what is new for health economics or why a policymaker should care
+- The introduction takes a page to reach the question
+- The institutional setup is missing, so the reader cannot judge whether the variation is credible
+- The paper reads as generic applied micro and could be about any market, not health
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| provider incentives is central | Make the provider incentives assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| insurance design is central | Make the insurance design assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| patient selection is central | Make the patient selection assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| clinical-policy margin is central | Make the clinical-policy margin assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| health-data privacy is central | Make the health-data privacy assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The JHE voice
 
-## JHE fit notes
+JHE prose is **policy-relevant causal writing with institutional grounding**. The reader is a health economist who wants three things fast: the health-system question, the credible estimate, and the policy or welfare lesson. The house voice is precise and institutionally literate — it names the program, the payment rule, the market — not breezy and not a methods showcase. Because review is single-anonymized, you write as an identified author to a specialist audience; the goal is to make the contribution and its institutional credibility obvious, not to obscure scope.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: provider incentives, insurance design, patient selection, clinical-policy margin, health-data privacy.
-- Sibling boundary: American Journal of Health Economics, Journal of Public Economics, Health Economics, and AEJ Economic Policy.
-- House-style aim: policy-relevant causal evidence with institutional health-system detail.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/journal-of-health-economics
-- https://www.elsevier.com/journals/journal-of-health-economics/0167-6296/guide-for-authors
+## Where the writing must work hardest
 
-## Stage-specific moves
+### Abstract (1–7 keywords required; abstract length 待核实 — re-check the guide)
+- Sentence 1: the health-economics question and why it matters now.
+- Sentence 2: the setting and source of variation (name the program/market).
+- Sentence 3: the headline estimate with its sign and magnitude.
+- Sentence 4: the mechanism / interpretation.
+- Sentence 5: the policy or welfare implication. Avoid jargon a policy reader cannot parse.
 
-1. State the exact writing style question in one sentence.
-2. Identify which JHE audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jhe-replication-package` if the stage passes, or back to `jhe-workflow` if it does not.
+### Introduction (the funnel)
+1. **Open on the policy/health stake**, not the literature.
+2. **State the question** in one sentence by the end of paragraph one or two.
+3. **Name the setting and identifying variation** early — JHE readers judge credibility from institutions.
+4. **State the headline result with its number** in the intro; do not make readers wait.
+5. **Three-part contribution**: what is new empirically, what is new for the mechanism, what it means for policy.
+6. **Roadmap** kept short.
+
+### Institutional section (a JHE signature)
+Devote real space to how the program/market actually works — eligibility, payment, timing, the rule that generates your variation. This is not throat-clearing; it is where a health economist decides whether to believe the design.
+
+## Calibrating the policy claim in prose
+
+JHE prose lives or dies on **scope discipline** — claiming exactly what the design identifies, in words. The most common overreach is treating utilization or coverage language as welfare language. Write the verb that matches the estimand: a coverage expansion "raised take-up," "shifted who pays," or "increased preventive visits" — it "improved welfare" only if a model says so. Magnitudes should be in **policy-legible units**: percentage-point changes in coverage, dollars of spending, lives or QALYs only if estimated. Avoid the two extremes JHE referees dislike — breathless overclaiming and hedged mush that never states a number.
+
+## Reporting conventions that signal a health economist wrote this
+
+- Report **standard errors with clustering**, not just stars; name the clustering level in prose when it matters for inference.
+- Quote effects **relative to a base** ("a 4.1pp rise from a 62% baseline"), since health economists read magnitudes against utilization/coverage rates.
+- Handle **skewed spending** honestly in the text — note the estimator and that the mean can understate tail effects.
+- Use the field's vocabulary precisely: moral hazard, adverse vs. advantageous selection, take-up, crowd-out, intensive vs. extensive margin — misusing these signals an outsider.
+- Define program-specific acronyms on first use (DRG, ACO, FFS, DUA) — JHE is international, and not every reader shares the US institutional shorthand.
 
 ## Checklist
-- [ ] The JHE audience can see why the paper belongs in health economics, insurance, provider incentives, medical technology, health policy, and health behavior.
-- [ ] The draft distinguishes JHE from American Journal of Health Economics, Journal of Public Economics, Health Economics.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for writing style names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Identification or model assumptions are separated from policy interpretation.
-- [ ] Robustness checks are organized by threat, not by a mechanical appendix list.
+
+- [ ] Abstract states question, variation, magnitude, mechanism, and policy lesson in plain language
+- [ ] 1–7 English keywords selected (检索于 2026-06；以官网为准)
+- [ ] Introduction reaches the question within the first page
+- [ ] The headline number appears in the introduction, not only in Section 5
+- [ ] The institutional setting is described concretely enough to judge the variation
+- [ ] Contribution stated as empirical + mechanism + policy, not "we extend the literature"
+- [ ] Prose names the health-system specifics; it could not be about a generic market
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JHE without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Burying the institutional setup so deep that the design's credibility never registers
+- An abstract that lists methods but never states the policy lesson
+- An introduction that opens on a literature gap instead of the health/policy stake
+- Hiding the headline estimate until the results section
+- Skimping on the institutional section so referees cannot judge the design
+- Generic applied-micro prose with the health setting interchangeable
+- Overclaiming welfare in the abstract when the design identifies only a coverage/utilization effect
+
+## Worked vignette (illustrative)
+
+A draft opens: "A large literature studies insurance and utilization. We contribute to it." A health economist learns nothing. The JHE rewrite opens on the stake — "Whether expanding public coverage raises *appropriate* care or merely shifts who pays is central to Medicaid policy" — states the question, names the staggered state expansions as the variation in sentence three, and gives the number: "Take-up rose 4.1pp (s.e. 1.0), concentrated in preventive visits, with no detectable change in inpatient intensity." The contribution is then empirical (identified take-up by margin), mechanistic (preventive vs. acute), and policy (which margin the expansion actually moved). The reader knows in one paragraph what the paper is and why it matters.
 
 ## Output format
 
 ```text
 【Journal】Journal of Health Economics
 【Skill】jhe-writing-style
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking writing style
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not American Journal of Health Economics, Journal of Public Economics
-【Source status】verified URL / 待核实 / not asserted
+【Abstract】question + variation + magnitude + mechanism + policy? [Y/N]
+【Intro funnel】question by page 1; headline number in intro? [Y/N]
+【Institutional section】setting concrete enough to judge the design? [Y/N]
+【Contribution】empirical + mechanism + policy stated? [Y/N]
+【Voice】institutionally literate, not generic applied micro? [Y/N]
 【Next skill】jhe-replication-package
 ```
+
+## Handoff boundary
+
+This is a late-stage polish; it makes the settled result land, it does not change the science. Do not rewrite the introduction before identification, the headline estimate, and the exhibits have stabilized — prose written around a moving number has to be redone. When the abstract and intro carry the question, the number, and the policy lesson cleanly, hand off to `jhe-replication-package` to assemble the deposit and Data Availability Statement.

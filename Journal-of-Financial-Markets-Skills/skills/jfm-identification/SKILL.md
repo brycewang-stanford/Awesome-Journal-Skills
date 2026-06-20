@@ -1,70 +1,90 @@
 ---
 name: jfm-identification
-description: Use when working on identification strategy for a Journal of Financial Markets manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the identification argument is the bottleneck for a Journal of Financial Markets (JFM) manuscript — causal effects on market quality, or what pins down a microstructure model. Stress-tests the design against JFM's microstructure-insider bar before exhibits are finalized.
 ---
 
 # Identification Strategy (jfm-identification)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Financial Markets (JFM)** and identification strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's market microstructure, asset pricing, liquidity, trading, and financial-market design standard.
-- The paper risks being confused with nearby venues: Journal of Finance, Journal of Financial Economics, Review of Financial Studies, and Management Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A causal claim about liquidity, spreads, depth, or price discovery rests on OLS + controls
+- An event study uses a window so wide that confounding news or contemporaneous market-wide shocks contaminate it
+- A market-structure change is exploited but the parallel-trends / no-anticipation logic is not argued
+- Reverse causality is live: liquidity and the regressor (volume, volatility, ownership) are jointly determined
+- A microstructure model is fit but it is unclear what *moment in the data* identifies the key parameter (PIN, lambda, adverse-selection share)
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| microstructure mechanism is central | Make the microstructure mechanism assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| liquidity measurement is central | Make the liquidity measurement assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| trading venue design is central | Make the trading venue design assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| price discovery is central | Make the price discovery assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| high-frequency evidence is central | Make the high-frequency evidence assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The JFM identification bar
 
-## JFM fit notes
+JFM referees know that market-quality variables are **endogenous to almost everything** — volume, volatility, information arrival, and prices co-move mechanically. So the bar is high for any causal liquidity/price-impact claim, and the journal especially rewards designs built on **exogenous changes in market structure**. The credible JFM toolkit is design-based, not control-saturated.
 
-- Publisher / owner context: Elsevier.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: microstructure mechanism, liquidity measurement, trading venue design, price discovery, high-frequency evidence.
-- Sibling boundary: Journal of Finance, Journal of Financial Economics, Review of Financial Studies, and Management Science.
-- House-style aim: precise institutional detail, clean market data, and careful measurement of frictions.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/journal-of-financial-markets
-- https://www.elsevier.com/journals/journal-of-financial-markets/1386-4181/guide-for-authors
+### Branch A: Market-structure natural experiments (the JFM sweet spot)
+- **Canonical shocks:** decimalization, the SEC Tick-Size Pilot (2016-18), Reg NMS, MiFID/MiFID II, short-sale bans, circuit-breaker/LULD triggers, venue entry/exit, fee/rebate (maker-taker) changes, tick-size regime changes.
+- **Design:** DiD across affected vs. unaffected stocks/venues; RDD at a price/market-cap threshold (e.g., tick-size eligibility); event study around a known implementation date.
+- **With staggered timing,** move beyond TWFE (Callaway-Sant'Anna, Sun-Abraham, de Chaisemartin-D'Haultfœuille); show clean pre-trends in spreads/depth; cluster at the assignment level (stock/venue), not the observation.
 
-## Stage-specific moves
+### Branch B: Intraday / high-frequency event studies
+- Tight, pre-registered windows around a discrete event (an order-type launch, a latency upgrade, a halt). Justify the window from market mechanics, not from where the effect is biggest.
+- Control for **market-wide microstructure shocks** (index moves, scheduled macro releases) and for the diurnal (U-shaped) intraday pattern in spreads/volume.
 
-1. State the exact identification strategy question in one sentence.
-2. Identify which JFM audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jfm-empirical-design` if the stage passes, or back to `jfm-workflow` if it does not.
+### Branch C: Instruments for liquidity / order flow
+- Honest about weak instruments: report first-stage F, use Anderson-Rubin / weak-IV-robust sets. Defend exclusion in market-mechanism terms (the instrument moves trading frictions only through the channel claimed).
+
+### Branch D: Structural microstructure models
+- Tie each parameter to an identifying data feature: adverse-selection component from the permanent price impact / spread decomposition; PIN from the trade-imbalance distribution; Kyle's lambda from the price-impact regression. State estimator (MLE/GMM), and show the parameter is not just a fit artifact.
+
+## Referee pushback mapped to the identification fix
+
+- *"Liquidity and your regressor are jointly determined."* → Replace the panel regression with an exogenous market-structure shock (DiD/RDD), or a defensible IV; show the result is not a mechanical co-movement with volume/volatility.
+- *"Your staggered TWFE is biased with heterogeneous effects."* → Re-estimate with Callaway-Sant'Anna or Sun-Abraham; plot flat pre-event leads in spreads/depth.
+- *"The event window is cherry-picked."* → Justify the window from market mechanics (settlement, implementation date), show robustness to nearby windows, and rule out contemporaneous macro releases.
+- *"What identifies PIN/lambda?"* → Point to the data moment (trade-imbalance distribution; permanent price impact) and report estimation diagnostics, not just the point estimate.
+- *"Your control group is contaminated."* → Show the control stocks/venues were not indirectly affected (e.g., order flow migrating from treated to control); report a clean, unaffected comparison or a spillover-robust design.
+
+## Separating mechanical from behavioral effects
+
+A recurring identification subtlety in market-structure work is that a rule change has both a **mechanical** effect (a wider tick arithmetically widens the minimum quotable spread) and a **behavioral** effect (liquidity suppliers and informed traders re-optimize). A credible JFM design isolates the behavioral channel, because the mechanical one is not a finding. Show the effect on stocks where the tick does not bind, decompose the spread change into the binding-tick component and the residual, or condition on pre-period spread relative to the new tick. Conflating the two is a frequent reviewer catch.
+
+## Worked vignette: the tick-size pilot (illustrative)
+
+The SEC Tick-Size Pilot widened the quoting/trading increment for a randomized set of small-cap stocks. This is close to an ideal JFM design: random treatment assignment, a discrete date, and a treated/control split. The clean identification statement is one sentence — *the effect of a wider tick on depth is identified by the random assignment of stocks to the pilot's test groups.* The credible version shows flat pre-pilot trends in depth, estimates with assignment-level clustering, and separates the mechanical (tick-binding) effect from the behavioral (liquidity-supply) response. A weak version regresses depth on a post-dummy with controls and calls it causal.
 
 ## Checklist
-- [ ] The JFM audience can see why the paper belongs in market microstructure, asset pricing, liquidity, trading, and financial-market design.
-- [ ] The draft distinguishes JFM from Journal of Finance, Journal of Financial Economics, Review of Financial Studies.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for identification strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Market, firm, or asset identifiers are documented enough to audit sample construction.
-- [ ] Internet appendix material has a clear map from each table to the main claim.
+
+- [ ] Branch chosen; the data-to-effect (or data-to-parameter) mapping stated in one sentence
+- [ ] Endogeneity of the liquidity/flow variable explicitly addressed, not assumed away
+- [ ] Market-structure design: clean pre-trends, modern staggered estimator, assignment-level clustering
+- [ ] Intraday events: window justified from mechanics; diurnal pattern and market-wide shocks controlled
+- [ ] IV: first-stage strength reported; exclusion defended in microstructure terms
+- [ ] Structural: each parameter tied to an identifying moment; estimator and inference stated
+- [ ] The causal claim never exceeds what the design supports
+
+## A catalog of clean market-structure shocks
+
+Knowing the field's natural experiments speeds design. Commonly exploited exogenous changes, each with its own caveats: **decimalization (2001)** — tick size from sixteenths to pennies; **the SEC Tick-Size Pilot (2016-18)** — randomized, the cleanest assignment; **Reg NMS (2007)** — order protection and access fees; **MiFID (2007) / MiFID II (2018)** — European venue competition and transparency; **short-sale bans (2008, and country-specific)** — abrupt constraint changes; **maker-taker / fee pilots** — rebate structure; **circuit breakers / LULD** — discrete trading halts; **index reconstitutions** — forced, scheduled order flow; **venue launches/closures and dark-pool entry**. For each, the identification hinges on (a) whether assignment is plausibly exogenous to the stock's liquidity trajectory and (b) whether a clean control group exists. Argue both explicitly; a shock is not self-justifying.
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JFM without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- "Liquidity → outcome" from a panel regression with controls, called identification
+- TWFE on a staggered tick-size / decimalization rollout with no heterogeneity-bias discussion
+- An event window chosen to maximize significance rather than from market mechanics
+- Ignoring the intraday U-shape so that time-of-day masquerades as the treatment effect
+- Reporting a PIN/lambda estimate without saying what moment in the data moves it
+
+## Inference choices that travel with the design
+
+Identification is not finished until inference matches the data structure. Microstructure panels are correlated in two dimensions — the same stock is autocorrelated over time and all stocks co-move on a given day — so single-clustered or plain OLS standard errors overstate precision. Default to **two-way clustering by stock and by day**; use **Newey-West** when the time-series autocorrelation is the dominant concern; use a **wild-cluster bootstrap** when the number of treated venues or events is small (few-cluster bias). For event studies, account for cross-sectional correlation in abnormal liquidity across the event window. State the choice and its rationale where the design is described, not as an afterthought — a referee reads the clustering as part of the identification claim.
 
 ## Output format
 
 ```text
-【Journal】Journal of Financial Markets
+【Journal】Journal of Financial Markets (JFM)
 【Skill】jfm-identification
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking identification strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Finance, Journal of Financial Economics
+【Branch】market-structure NE / intraday event / IV / structural
+【Data-to-effect mapping】one sentence
+【Identifying variation】<shock / window / instrument / moment>
+【Endogeneity handled】how liquidity/flow endogeneity is broken
+【Inference】clustering level + (if needed) weak-IV-robust set
+【What it does NOT identify】<…>
 【Source status】verified URL / 待核实 / not asserted
 【Next skill】jfm-empirical-design
 ```

@@ -1,70 +1,94 @@
 ---
 name: finman-identification
-description: Use when working on identification strategy for a Financial Management manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the causal or economic credibility of a Financial Management (FM) result is the bottleneck — endogenous corporate policy choices, staggered-event designs, weak instruments, or a "correlation dressed as a channel." Stress-tests the identification to FM's applied-finance bar before exhibits are finalized.
 ---
 
 # Identification Strategy (finman-identification)
 
 ## When to trigger
-- The manuscript is aimed at **Financial Management (FM)** and identification strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's corporate finance, investments, market institutions, and applied financial decision-making standard.
-- The paper risks being confused with nearby venues: Journal of Corporate Finance, Journal of Banking and Finance, JFQA, and Review of Financial Studies.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The headline claim rests on a regression of an outcome on an endogenous corporate-policy choice plus controls
+- A difference-in-differences exploits a regulation or shock with **staggered** adoption and uses plain TWFE
+- An instrument is invoked but the exclusion restriction and first-stage strength are not defended
+- You are asserting a *channel* or *mechanism* where the design only supports a correlation
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| corporate policy is central | Make the corporate policy assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| capital structure is central | Make the capital structure assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| payout and investment is central | Make the payout and investment assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| governance channel is central | Make the governance channel assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| FMA audience is central | Make the FMA audience assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The FM identification bar
 
-## FM fit notes
+FM is an applied-finance journal that prizes **practical relevance**, but practical relevance does not buy a pass on identification — the editors list **rigor** alongside relevance among the five criteria. The realistic standard is **credible, well-defended causal or economic identification appropriate to corporate-finance data**, not the absolute frontier bar of JF/JFE/RFS. What FM referees reward: a clearly named source of exogenous variation, a design matched to it, and an honest statement of what is and is not identified — paired with an economically meaningful magnitude. What they punish: endogeneity hand-waved away with firm fixed effects, a "shock" that is anticipated or confounded, and a mechanism claim the design cannot reach.
 
-- Publisher / owner context: Wiley for the Financial Management Association.
-- Submission route to re-check: Wiley online submission.
-- Signature vocabulary: corporate policy, capital structure, payout and investment, governance channel, FMA audience.
-- Sibling boundary: Journal of Corporate Finance, Journal of Banking and Finance, JFQA, and Review of Financial Studies.
-- House-style aim: applied finance evidence that ties estimates to managerial or market decisions.
-- Official URLs currently used by the pack:
-- https://onlinelibrary.wiley.com/journal/1755053x
-- https://www.fma.org/financial-management
+## Branch paths
 
-## Stage-specific moves
+### Branch A: Corporate-finance event / regulation designs (DiD, event study)
+- With **staggered** adoption, move beyond TWFE — use Callaway–Sant'Anna, Sun–Abraham, or de Chaisemartin–D'Haultfœuille; report a Goodman-Bacon decomposition to show what TWFE was averaging.
+- Show a clean **event study with pre-period leads** flat around zero; FM referees read the pre-trend plot before the table.
+- Defend that the shock is **unanticipated and not bundled** with a confounding policy; address anticipation/reversal.
+- Cluster inference at the level of treatment assignment (firm, state, industry); flag few-cluster problems.
 
-1. State the exact identification strategy question in one sentence.
-2. Identify which FM audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `finman-empirical-design` if the stage passes, or back to `finman-workflow` if it does not.
+### Branch B: Endogenous corporate-policy choices (capital structure, payout, governance, M&A)
+- Treat the policy as a **choice**, not an exogenous regressor; name the omitted variable / reverse-causality story explicitly and show how the design breaks it.
+- Where an IV is used, defend the **exclusion restriction in institutional and economic terms**, report first-stage strength, and use weak-IV-robust inference (Anderson–Rubin) when F is modest.
+- Matching / entropy balancing must show covariate balance and acknowledge selection on unobservables (Oster-style sensitivity is persuasive and cheap).
+
+### Branch C: Asset pricing / return predictability
+- Identification here is about **separating signal from data-snooping**: control for known factors, address multiple testing, and show the result survives reasonable transaction costs and out-of-sample.
+- Distinguish a risk explanation from a mispricing one explicitly rather than leaving the channel ambiguous.
+
+### Branch D: Mechanism / channel claims
+- A correlation between treatment and outcome is not a channel. To claim a mechanism, show the **intermediate variable moves** and that shutting it down attenuates the effect (mediation, heterogeneity by mechanism intensity).
 
 ## Checklist
-- [ ] The FM audience can see why the paper belongs in corporate finance, investments, market institutions, and applied financial decision-making.
-- [ ] The draft distinguishes FM from Journal of Corporate Finance, Journal of Banking, Finance.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for identification strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Market, firm, or asset identifiers are documented enough to audit sample construction.
-- [ ] Internet appendix material has a clear map from each table to the main claim.
+
+- [ ] The source of exogenous (or quasi-exogenous) variation is named in one sentence
+- [ ] Staggered designs use a modern estimator; event-study leads shown and flat
+- [ ] Endogenous policy choices have the OVB/reverse-causality story named and addressed
+- [ ] IVs defend exclusion in economic/institutional terms; weak-IV inference where F is modest
+- [ ] Inference clustered at the assignment level; few-cluster issues flagged
+- [ ] Channel claims backed by intermediate-variable evidence, not just the reduced form
+- [ ] The economic magnitude is stated and plausible — not just statistical significance
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to FM without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- "We include firm and year fixed effects" presented as if it solved endogeneity
+- Plain TWFE on staggered treatment with no heterogeneity-robust check or Bacon decomposition
+- An instrument whose exclusion restriction is asserted, never argued institutionally
+- Calling a reduced-form correlation a "channel" with no intermediate-variable evidence
+- Significance-chasing a tiny coefficient while the economic magnitude is trivial — FM cares about the magnitude
+
+## Worked vignette (illustrative)
+
+A paper regresses firm investment on board independence and calls independence a "monitoring channel." A referee notes independent boards are chosen, not assigned. The FM fix: exploit a staggered listing-rule change that forced independence on some firms, re-estimate with Sun–Abraham, show flat pre-trend leads, and demonstrate that the investment response concentrates where the monitoring slack was largest (the mechanism). Then state the magnitude — say a 2.1pp change in investment (s.e. 0.7, illustrative) — so the result is both identified and economically legible to a manager.
+
+## Referee pushback mapped to the identification fix
+
+- *"Firm and year fixed effects don't solve endogeneity here."* → Name the specific OVB/reverse-causality story and bring a design (quasi-shock, IV, or matching) that breaks it; add an Oster bound for unobservables.
+- *"Staggered TWFE is biased in this setting."* → Re-estimate with Callaway–Sant'Anna or Sun–Abraham; show flat event-study leads and a Goodman-Bacon decomposition.
+- *"Your instrument is not plausibly excluded."* → Defend exclusion institutionally, report first-stage F, and use Anderson–Rubin inference if F is modest.
+- *"This is a correlation, not the channel you claim."* → Show the intermediate variable moves and that attenuating it kills the effect.
+- *"Significant, but is it economically large?"* → State the magnitude scaled to a managerial unit; FM weights economic size, not stars.
+
+## A note on FM's identification taste vs. the top-3
+
+FM does not demand the absolute frontier identification bar of JF/JFE/RFS, where a single contested assumption can sink a paper. It demands a **credible, honestly-bounded** design with the threats named and the leading one defused — paired with relevance. Over-engineering identification at the cost of a legible economic story is a *mis-read* of the journal; under-defending it and leaning on relevance is the more common, and fatal, error.
+
+## The minimum credible-design package by branch
+
+When time is short, these are the non-negotiable elements a referee will look for first:
+
+- **Event/regulation DiD:** a flat pre-trend event-study plot + a heterogeneity-robust estimator + clustering at assignment level.
+- **Endogenous policy:** the named OVB/reverse-causality story + one design element that breaks it (IV, quasi-shock, or matching) + an Oster sensitivity bound.
+- **Asset pricing:** factor controls + a multiple-testing acknowledgment + net-of-cost evidence + a risk-vs-mispricing statement.
+- **Mechanism:** intermediate-variable evidence + heterogeneity along mechanism intensity.
+A paper missing its branch's minimum package will draw a credibility report no matter how relevant the question.
 
 ## Output format
 
-```text
-【Journal】Financial Management
-【Skill】finman-identification
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking identification strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Corporate Finance, Journal of Banking
-【Source status】verified URL / 待核实 / not asserted
+```
+【Branch】event/regulation DiD / endogenous policy / asset pricing / mechanism
+【Exogenous variation】one sentence
+【Design + estimator】[modern DiD / IV / matching / factor controls]
+【Identification evidence】[pre-trends / first-stage / balance / mediation]
+【Inference】clustering level; weak-IV handling if any
+【Economic magnitude】stated and plausible? [Y/N]
+【What it does NOT identify】[...]
 【Next skill】finman-empirical-design
 ```

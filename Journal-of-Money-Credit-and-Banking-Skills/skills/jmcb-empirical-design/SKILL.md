@@ -1,69 +1,94 @@
 ---
 name: jmcb-empirical-design
-description: Use when working on empirical design for a Journal of Money, Credit and Banking manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when bank/central-bank data construction, measurement, or sample design is the bottleneck for a Journal of Money, Credit and Banking (JMCB) manuscript. Hardens how the dataset is built and measured so the identification can do its job; it does not re-argue the causal strategy or write prose.
 ---
 
 # Empirical Design (jmcb-empirical-design)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Money, Credit and Banking (JMCB)** and empirical design is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's monetary economics, banking, credit markets, financial intermediation, and macro-finance standard.
-- The paper risks being confused with nearby venues: Journal of Monetary Economics, Review of Economic Dynamics, Journal of Finance, and Journal of Financial Intermediation.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The dataset is assembled from Call Reports, Y-9C, supervisory, credit-register, or central-bank sources and the construction is under-documented
+- The key variable (a "monetary shock," a "bank capital ratio," a "credit-supply" measure) is a constructed object whose definition matters for the result
+- Sample period, window, or frequency choices are not motivated and could be driving the finding
+- Restricted-access bank/central-bank data are involved and the access path is unstated
+- A referee questioned whether the measurement, not the mechanism, produces the result
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| monetary transmission is central | Make the monetary transmission assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| bank balance sheets is central | Make the bank balance sheets assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| credit frictions is central | Make the credit frictions assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| central-bank relevance is central | Make the central-bank relevance assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| macro-finance identification is central | Make the macro-finance identification assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The JMCB measurement bar
 
-## JMCB fit notes
+JMCB carries a deep replication heritage — the journal's own 1980s–2000s Data Archive episodes (Dewald–Thursby–Anderson; the 2006 "Got Replicability?" audit) made it acutely aware that monetary/banking results often hinge on how series are spliced, deflated, and aligned. So referees scrutinize **construction and timing**: how a series is seasonally adjusted, how regulatory definitions changed mid-sample, how a bank merger reshapes a panel, and whether the announcement window for a monetary surprise is defensible. The standard is that a reader could rebuild the central variables from the description.
 
-- Publisher / owner context: Wiley for the Ohio State University Department of Economics.
-- Submission route to re-check: Wiley online submission.
-- Signature vocabulary: monetary transmission, bank balance sheets, credit frictions, central-bank relevance, macro-finance identification.
-- Sibling boundary: Journal of Monetary Economics, Review of Economic Dynamics, Journal of Finance, and Journal of Financial Intermediation.
-- House-style aim: policy-relevant macro-finance evidence with transparent timing and institutional detail.
-- Official URLs currently used by the pack:
-- https://onlinelibrary.wiley.com/journal/15384616
+## Construction craft by data type
 
-## Stage-specific moves
+### Bank micro-data (Call Reports / Y-9C / credit registers)
+- **Identifier hygiene:** track RSSD/entity IDs through mergers and acquisitions; state how you treat acquirers vs. targets so a merger does not masquerade as growth.
+- **Balance-sheet ratios:** define capital, liquidity, and lending consistently across the sample; note Basel/regulatory regime changes that redefine the numerator or denominator mid-panel.
+- **Winsorize/trim** extreme ratios and state the rule; report how many bank-quarters are dropped and why.
 
-1. State the exact empirical design question in one sentence.
-2. Identify which JMCB audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jmcb-robustness` if the stage passes, or back to `jmcb-workflow` if it does not.
+### Monetary / macro series
+- **Real-time vs. revised data:** for policy questions use the vintage the policymaker saw (ALFRED / real-time databases); say which and why.
+- **Frequency and alignment:** state how high-frequency surprises are aggregated to the estimation frequency and how announcement timestamps map to observations.
+- **Splicing and deflation:** document base years, deflators, and any series breaks (e.g., reserve-regime or reference-rate transitions).
+
+### Central-bank / supervisory / restricted data
+- **Access path:** name the RDC / central-bank data room / register and the disclosure constraints; this scopes what the replication package can contain.
+- **Confidentiality:** state aggregation/masking rules and how they affect inference.
+
+## Sample and specification hygiene
+
+- Motivate the **sample window** from the institution/policy, not from where significance appears.
+- Pre-specify the **frequency** (the local-projection horizon, the panel frequency) and show the headline survives nearby choices.
+- Document **missing-data and entry/exit** handling so survivorship does not drive results.
+
+## The construction decisions referees probe most
+
+A JMCB referee will mentally re-run your data build and ask where it could have gone wrong. The recurring pressure points:
+
+- **Seasonal adjustment and deflation.** State the SA method and base year; an unstated SA choice can manufacture or erase a cyclical pattern.
+- **Reference-rate and regime transitions.** LIBOR→SOFR, reserve-regime changes, and the move to ample reserves all break series; splice them explicitly and note the break date.
+- **Treatment timing.** For a policy/regulation study, the *exact* effective date and any anticipation window matter; misdated treatment biases event studies.
+- **Aggregation level.** Holding-company (Y-9C) vs. bank (Call Report) reporting answers different questions; pick the level that matches the mechanism and say why.
+- **Survivorship.** Failed and acquired banks leaving the panel during a crisis is not random; show the result is not an artifact of who exits.
+
+## From measurement to a credible replication path
+
+Measurement and reproducibility are the same discipline at JMCB. As you finalize the data build, write the construction in enough detail that the eventual replication package — or, for restricted data, the documented access path — lets someone rebuild the central variables. Note which inputs are public (Call Reports, Y-9C, FRED, ALFRED real-time vintages) and which require restricted access (supervisory panels, credit registers, RDC), since this determines what `jmcb-internet-appendix` can include. A measurement section that doubles as a reproduction recipe pre-empts the journal's signature replication concern.
 
 ## Checklist
-- [ ] The JMCB audience can see why the paper belongs in monetary economics, banking, credit markets, financial intermediation, and macro-finance.
-- [ ] The draft distinguishes JMCB from Journal of Monetary Economics, Review of Economic Dynamics, Journal of Finance.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for empirical design names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Market, firm, or asset identifiers are documented enough to audit sample construction.
-- [ ] Internet appendix material has a clear map from each table to the main claim.
+
+- [ ] Every constructed key variable has a definition a reader could rebuild
+- [ ] Bank IDs tracked through M&A; merger treatment stated
+- [ ] Regulatory/definitional regime changes within the sample flagged and handled
+- [ ] Real-time vs. revised data choice stated and justified for policy questions
+- [ ] Window/frequency motivated by institutions, not by significance; headline survives nearby choices
+- [ ] Restricted-data access path and disclosure constraints documented
+- [ ] Winsorizing/trimming and missing-data rules stated with counts
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JMCB without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A constructed "shock" or ratio whose definition is buried, so the result cannot be reproduced
+- Bank mergers silently inflating growth because acquirer/target handling is unspecified
+- Using revised data for a real-time policy question (or vice versa) without saying so
+- A sample window or estimation horizon that quietly maximizes significance
+- Restricted-data results with no statement of what the replication package can and cannot include
+- Splicing series across a regime break (reserve regime, reference-rate transition) without noting it
+
+## Public-data first, restricted-data when the mechanism demands it
+
+Not every JMCB question needs supervisory access. Call Reports and Y-9C (bank balance sheets and income), FRED and ALFRED (macro series and real-time vintages), and disclosed monetary-surprise datasets carry a large share of publishable transmission and banking work, and they make the replication path trivial. Reserve restricted data (credit registers, supervisory loan-level panels, RDC products) for mechanisms that genuinely require within-firm-across-bank or loan-level variation. Choosing the lightest data that identifies the mechanism is both a feasibility win and a reproducibility win.
+
+## Worked vignette (illustrative)
+
+A paper measures the deposits channel using bank-level deposit betas. A referee notes the panel grows 30% over the sample and asks whether mergers drive it. The fix: build a merger-adjusted panel that aggregates acquirer+target pre-merger, recompute betas, and show the deposit-beta gradient is unchanged (e.g., high-branch-density banks pass through 40% of rate hikes vs. 70% for low-density, illustrative). Documenting the RSSD crosswalk and the winsorization rule turns a fragile measurement into a defensible one.
 
 ## Output format
 
 ```text
 【Journal】Journal of Money, Credit and Banking
 【Skill】jmcb-empirical-design
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking empirical design
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Monetary Economics, Review of Economic Dynamics
-【Source status】verified URL / 待核实 / not asserted
+【Data sources】Call Report / Y-9C / register / central-bank / macro series
+【Key constructed variable】definition a reader could rebuild
+【Timing/measurement risk】real-time vs revised / window / regime change handled
+【Sample hygiene】M&A, entry/exit, winsorizing, counts
+【Access constraints】restricted-data path + disclosure limits (if any)
 【Next skill】jmcb-robustness
 ```
