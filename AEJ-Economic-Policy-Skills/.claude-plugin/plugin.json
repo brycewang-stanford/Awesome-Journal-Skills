@@ -1,0 +1,26 @@
+{
+  "name": "aej-economic-policy-skills",
+  "description": "Agent skill stack for manuscripts targeted at the American Economic Journal: Economic Policy (AEJ: Policy) — the American Economic Association's quarterly journal for economic analysis OF policy, spanning public economics and taxation, environmental and energy, health, education, labor and social insurance, regulation, development policy, and the political economy of policy. The pack foregrounds the policy question and its welfare / cost-benefit / distributional implication as the through-line: topic selection and contribution framing must lead with the policy counterfactual; identification centers credible quasi-experimental and RCT policy evaluation; writing-style covers translating estimates into a clear policy takeaway without overclaiming. Covers AEA process specifics: double-blind review via the AEA submission system, JEL codes, the AEA Data and Code Availability Policy and the AEA Data Editor pre-publication reproducibility check (openICPSR / AEA Data and Code Repository), AEA house style with standard errors and online appendix. Twelve role skills span workflow routing, topic selection, literature positioning, identification, theory/model, robustness, tables and figures, writing style, the replication package, referee strategy, submission, and rebuttal. Bilingual en / zh-CN docs; Stata / R / Python conventions for empirical policy-evaluation work.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/aej-economic-policy-skills",
+  "repository": "https://github.com/brycewang-stanford/aej-economic-policy-skills",
+  "keywords": [
+    "aej-economic-policy",
+    "economic-policy",
+    "american-economic-association",
+    "public-economics",
+    "policy-evaluation",
+    "quasi-experimental",
+    "cost-benefit-welfare",
+    "reproducibility",
+    "aea-data-editor",
+    "openicpsr",
+    "double-blind-review",
+    "academic-writing"
+  ]
+}

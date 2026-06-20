@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "aej-economic-policy-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the American Economic Journal: Economic Policy (AEJ: Policy), the AEA's quarterly journal for credible, welfare-relevant economic analysis of policy.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "aej-economic-policy-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the American Economic Journal: Economic Policy (AEJ: Policy) manuscript lifecycle, from a policy-question-first topic through credible quasi-experimental identification, the AEA Data Editor reproducibility check, and R&R rebuttal.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/aej-economic-policy-skills",
+      "repository": "https://github.com/brycewang-stanford/aej-economic-policy-skills",
+      "keywords": [
+        "aej-economic-policy",
+        "economic-policy",
+        "public-economics",
+        "policy-evaluation",
+        "quasi-experimental",
+        "reproducibility",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/aejpol-workflow",
+        "skills/aejpol-topic-selection",
+        "skills/aejpol-literature-positioning",
+        "skills/aejpol-identification",
+        "skills/aejpol-theory-model",
+        "skills/aejpol-robustness",
+        "skills/aejpol-tables-figures",
+        "skills/aejpol-writing-style",
+        "skills/aejpol-replication-package",
+        "skills/aejpol-referee-strategy",
+        "skills/aejpol-submission",
+        "skills/aejpol-rebuttal"
+      ]
+    }
+  ]
+}
