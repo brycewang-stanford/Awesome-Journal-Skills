@@ -18,7 +18,7 @@ JIBS is phenomenon-driven. Open by anchoring the reader in a concrete cross-bord
 
 ## Respect the inclusive word budget
 
-The JIBS word count is **inclusive of everything**: abstract, text, endnotes, references, tables, figures, and appendices. Target ~10,000 words for a strong/broad contribution or ~7,000 for a narrower one; Research Notes in principle under 4,000 words. Write tight: every method nuance not essential to the inference belongs in an online appendix, and even that counts. The abstract is capped at **200 words** — use it to name the phenomenon, the design, the finding, and the IB contribution.
+The JIBS article word count includes abstract, text, endnotes, and references; tables, figures, and online supplemental appendices can follow. Target ~10,000 words for a strong/broad contribution or ~7,000 for a narrower one; Research Notes should be 4,000-6,000 words including everything in the manuscript. Write tight: every method nuance not essential to the inference belongs in an online appendix. The abstract is capped at **200 words** — use it to name the phenomenon, the design, the finding, and the IB contribution.
 
 ## Discipline cross-cultural language
 
@@ -42,7 +42,7 @@ Use this as a second-pass capability check. First lock the cross-border mechanis
 
 ```
 【Phenomenon-forward open】present? IB contribution stated early? ...
-【Word budget】count vs. inclusive ~10k/7k/<4k limit; abstract ≤200 ...
+【Word budget】count vs. ~10k/7k article target or 4k-6k Research Note rule; abstract ≤200 ...
 【Cross-cultural terminology】essentializing removed; level/mechanism precise ...
 【Style】11-pt TNR, double-spaced, author-date consistent ...
 【Consistency】hypothesis/construct/exhibit labels aligned ...
@@ -53,5 +53,5 @@ Use this as a second-pass capability check. First lock the cross-border mechanis
 
 - A method-first or gap-first opening that hides the phenomenon and contribution.
 - Essentializing countries ("Germans are...") instead of naming level and mechanism.
-- Ignoring that references and appendices count toward the word limit.
+- Ignoring that abstract, text, endnotes, and references count toward the article word target.
 - A non-author-date citation style straight from a reference manager.

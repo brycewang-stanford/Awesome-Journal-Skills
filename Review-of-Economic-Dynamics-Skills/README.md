@@ -12,16 +12,19 @@ norms so a manuscript clears the desk screen and respects the journal's code-fir
 
 ## What makes RED distinctive (and why this pack exists)
 
-- **A real per-submission fee.** USD **175** standard; USD **100** if all coauthors are full-time
-  students at submission; **waived for second-and-later resubmissions**. The review process does not
-  begin until the fee is received — unusual versus most top general-interest economics journals.
+- **A real per-submission fee.** The current Elsevier Guide lists USD **195** standard; USD **100** if
+  all coauthors are full-time students at submission; **waived for second-and-later resubmissions**. The
+  review process does not begin until the fee is received — unusual versus most top general-interest
+  economics journals.
 - **Run by a scholarly community, not a generalist masthead.** The SED — the macro/dynamics community
   behind the SED Annual Meetings — owns the journal.
 - **Code-first replication.** A dedicated *Availability of Data and Computer Code* policy covers
   **computational as well as empirical** papers; archives are posted on the RED site and indexed as a
   citable **RePEc "Computer Codes"** series. README requirements are specific (software/OS, execution
   order, expected runtime, random seeds).
-- **Speed.** SED advertises fast reviews targeting roughly a **two-month average post-desk turnaround**.
+- **Fast-review orientation.** The current reviewer page asks reviewers to notify the editor if they
+  cannot act within six weeks, and older SED newsletters report fast first-decision performance; treat
+  timing as guidance, not a promised clock.
 - **Single-anonymized review** (not double-blind), with a **minimum of two referees** after an editor desk screen.
 - Coordinating Editor: **Loukas Karabarbounis** (University of Minnesota / Minneapolis Fed).
 
@@ -36,9 +39,9 @@ norms so a manuscript clears the desk screen and respects the journal's code-fir
 | `red-data-analysis` | Calibration, moment-matching, estimation, numerical solution discipline |
 | `red-contribution-framing` | Frame the marginal quantitative/dynamic contribution |
 | `red-tables-figures` | IRFs, moment tables, calibration tables, model-vs-data exhibits |
-| `red-writing-style` | RED house style; author-year references; ~250-word abstract |
+| `red-writing-style` | RED house style; author-year references; ≤250-word abstract |
 | `red-replication-and-data-policy` | The Data/Code archive, readme.txt, .zip/.gz to the code editor, RePEc indexing |
-| `red-review-process` | Desk screen, single-anonymized refereeing, ~two-month target |
+| `red-review-process` | Desk screen, single-anonymized refereeing, live timing expectations |
 | `red-submission` | Pre-submission preflight: fee, ScienceDirect/Editorial Manager, keywords, AI declaration |
 | `red-rebuttal` | Response-to-referees strategy after a revise-and-resubmit |
 
@@ -51,12 +54,10 @@ marketplace at this directory and enable the `red-skills` plugin, then invoke a 
 ## Sourcing & honesty
 
 Every venue-specific fact traces to an official SED/Elsevier page in
-[`resources/official-source-map.md`](resources/official-source-map.md) (accessed 2026-06-01). Items that
-could not be confirmed from a directly readable official page are flagged **待核实** there and are never
-asserted as fact in the skills — notably the absence of a confirmed manuscript length cap, the data-policy
-start date, and the OA/APC amount. The Guide-for-Authors page returned HTTP 403 to direct fetch, so the
-abstract limit, review model, author-year style, and 1–6 keyword facts were captured via search extraction
-and are flagged accordingly.
+[`resources/official-source-map.md`](resources/official-source-map.md) (accessed 2026-06-20). The source
+map records the active Elsevier Guide fee, the older SED fee text, the optional OA APC price-list entry,
+the single-anonymized review model, and the overlapping SED/Elsevier data-policy requirements so the
+skills do not rely on stale scraper notes.
 
 ## License
 

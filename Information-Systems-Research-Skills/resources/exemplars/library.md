@@ -3,8 +3,8 @@
 > **Verified via web search, access date 2026-06-08.** Every paper below was checked against the
 > INFORMS PubsOnline article page (`pubsonline.informs.org/doi/10.1287/isre.*`) to confirm it actually
 > appeared in *Information Systems Research* (the INFORMS journal, internal code `isre`), with author(s),
-> year, and volume/issue where recoverable. Papers that could not be fully verified as ISR were
-> **omitted** — this is deliberately a short, clean list rather than a long, uncertain one.
+> year, and volume/issue where recoverable. Papers outside ISR were **omitted** — this is deliberately a
+> short, clean list rather than a long, uncertain one.
 >
 > **Sibling-confusion guard.** ISR is **not** *MIS Quarterly* (MISQ), *Journal of MIS* (JMIS),
 > *Journal of the AIS* (JAIS), or *Management Science* (MS). A paper with an `isre.*` DOI on PubsOnline
@@ -60,7 +60,7 @@ identification and inference table stakes referenced below.
 
 ### Online field experiment — causal effect of a platform intervention (empirical, experimental)
 
-- **Chen & Horton, "Research Note—Are Online Labor Markets Spot Markets for Tasks? A Field Experiment on the Behavioral Response to Wage Cuts," ISR 2016, 27(2):403–423.**
+- **Chen & Horton, "Research Note—Are Online Labor Markets Spot Markets for Tasks? A Field Experiment on the Behavioral Response to Wage Cuts," ISR 2016, 27(2).**
   Verified: `pubsonline.informs.org/doi/10.1287/isre.2016.0633`.
   - **Why it is an exemplar:** randomized manipulation of a wage on a real digital-labor platform delivers
     clean causal identification of a behavioral response that the platform's market design makes possible.

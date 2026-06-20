@@ -47,7 +47,7 @@ foreign R&D subsidiaries in advanced and other emerging host countries.
   (`jibs-writing-style`, `jibs-theory-development` anti-pattern) instead of naming the level and the
   micro mechanism.
 - **No explicit IB-theory contribution on page one**, and no statement of why a single-country study
-  could not answer the question — the core `jibs-contribution-framing` bar.
+  would not answer the question — the core `jibs-contribution-framing` bar.
 - **Over-signposted roadmap** doing the work the argument should do.
 
 ---

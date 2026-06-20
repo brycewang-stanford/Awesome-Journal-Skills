@@ -28,7 +28,10 @@ In an analytical paper, give the **intuition before the algebra** — every key 
 
 ## INFORMS style and double-anonymization
 
-Use the INFORMS **author-date** reference style (exact edition 待核实 — reconcile with the current guidelines). Files are **double-spaced**, **at least 11-point** font, with **one-inch margins** on all four sides. Keep the text **double-anonymized**: remove names, affiliations, and identifying acknowledgments, and word self-citations neutrally so the prose does not reveal authorship.
+Use the INFORMS **author-date** reference style: references alphabetized by author, with in-text citations
+by author name and year. Files are **double-spaced**, **at least 11-point** font, with **one-inch margins**
+on all four sides. Keep the text **double-anonymized**: remove names, affiliations, and identifying
+acknowledgments, and word self-citations neutrally so the prose does not reveal authorship.
 
 ## Checklist
 

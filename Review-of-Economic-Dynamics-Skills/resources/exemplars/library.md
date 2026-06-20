@@ -3,8 +3,8 @@
 > **Verified via web search, access date 2026-06-08.** Every paper below was checked to confirm it
 > actually appeared in the **Review of Economic Dynamics** (Elsevier, for the **Society for Economic
 > Dynamics** / SED), with year and volume/issue, against the journal's RePEc/EconPapers `red:issued`
-> records and the Elsevier ScienceDirect article pages. Candidates that could not be fully verified as
-> RED — or that turned out to be in a **sibling** outlet — were **omitted** and documented below. This is
+> records and the Elsevier ScienceDirect article pages. Candidates outside the confirmed RED record —
+> including papers that turned out to be in a **sibling** outlet — were **omitted** and documented below. This is
 > deliberately a short, clean, verified list rather than a long, uncertain one.
 >
 > **Sibling-confusion guardrail.** RED is *not* the *Journal of Monetary Economics*, *AEJ:

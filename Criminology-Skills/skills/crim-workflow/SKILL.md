@@ -22,7 +22,7 @@ or measurement contribution** about crime, not just a finding about a crime data
 | Situation | Type | Route to |
 |-----------|------|----------|
 | Full original study advancing theory/measurement | **Article** | normal pipeline below |
-| One focused, self-contained contribution | **Research Note** (待核实 cap) | normal pipeline, tighter scope |
+| One focused, self-contained contribution | **Research Note** | normal pipeline, tighter scope |
 | Re-examining / reproducing a published finding | replication-style study | `crim-research-design` + `crim-data-and-transparency` |
 | Prospective design, data not yet collected | preregister first | `crim-data-and-transparency` (preregistration) early |
 
@@ -74,8 +74,8 @@ the skill that fixes it. These are the recurring flags for the ASC flagship.
 | "belongs at CPP" | scope/fit | crim-topic-selection |
 | "can't reproduce this" | transparency | crim-data-and-transparency |
 
-A Research Note routes through the same chain with a tighter scope; the confirmed length cap is 待核实,
-so check it against the journal's current submission guidelines before committing to the type.
+A Research Note routes through the same chain with a tighter scope; the pack does not encode a numeric
+cap, so check it against the journal's current submission guidelines before committing to the type.
 
 ## Router pass for Criminology
 

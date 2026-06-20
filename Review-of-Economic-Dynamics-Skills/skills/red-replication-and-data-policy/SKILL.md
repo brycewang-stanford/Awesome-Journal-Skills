@@ -1,6 +1,6 @@
 ---
 name: red-replication-and-data-policy
-description: Use when building the Review of Economic Dynamics (RED) data-and-code archive to the journal's actual "Availability of Data and Computer Code for Published Papers" policy — covering computational and empirical papers, the specific readme.txt requirements, .zip/.gz/.gzip submission to the RED code editor, posting on the RED site, RePEc Computer Codes indexing, and the proprietary-data exemption.
+description: Use when building the Review of Economic Dynamics (RED) data-and-code archive to the journal's actual "Availability of Data and Computer Code for Published Papers" policy and Elsevier Option C data instructions — covering computational and empirical papers, the specific readme.txt requirements, .zip/.gz/.gzip submission to the RED code editor, posting on the RED site, RePEc Computer Codes indexing, repository/data-statement metadata, and the proprietary-data exemption.
 ---
 
 # Replication & Data/Code Policy for RED (red-replication-and-data-policy)
@@ -16,7 +16,9 @@ description: Use when building the Review of Economic Dynamics (RED) data-and-co
 RED enforces an **Availability of Data and Computer Code for Published Papers** policy. Before final
 acceptance, authors must provide data and code sufficient for others to replicate the results. RED's
 culture is **code-first** — the policy covers **computational as well as empirical** papers, and
-archives are first-class, citable objects.
+archives are first-class, citable objects. The Elsevier Guide also applies **Option C** research-data
+instructions: deposit research data in a relevant repository and cite/link it in the article when possible,
+or provide a data-availability statement explaining why sharing is not possible.
 
 - **Empirical papers**: final datasets **plus** the code that manipulates them and, if applicable, how
   the final dataset was derived from original sources.
@@ -28,16 +30,17 @@ archives are first-class, citable objects.
   data/code editor **Christian Zimmermann**.
 - **Posting & indexing**: materials are posted on the **RED website** and indexed on **RePEc** (the RED
   **"Computer Codes"** series at IDEAS/RePEc).
+- **Elsevier Option C layer**: prepare repository DOI/links and data/software citations where possible;
+  if data cannot be shared, prepare the data-availability statement during submission.
 - **Exemptions**: proprietary/confidential-data exemptions must be **approved by the Coordinating Editor
   at the time of submission** — note this in the cover letter, not after acceptance.
-
-*(The policy's effective/start date is not stated on the current policy page — 待核实 — so do not cite one.)*
 
 ## Checklist
 
 - [ ] Final data (empirical) or final programs (computational), with a master run-all script
 - [ ] readme.txt lists software/OS, execution order, expected runtime, and random seeds
 - [ ] Packaged as .zip/.gz/.gzip; addressed to the RED code editor
+- [ ] Repository DOI/links and data/software citations prepared, or data statement explains limits
 - [ ] Proprietary-data exemption (if any) flagged to the Coordinating Editor at submission
 - [ ] Archive verified to reproduce headline tables/figures from scratch
 
@@ -45,6 +48,7 @@ archives are first-class, citable objects.
 
 - Assuming a code-only computational paper is exempt (it is not)
 - A readme missing seeds, runtime, or execution order
+- Treating a RED website archive as a substitute for the Elsevier Option C data statement
 - Raising a proprietary-data exemption after acceptance instead of at submission
 
 ## Archive manifest
@@ -52,7 +56,7 @@ archives are first-class, citable objects.
 Create a manifest before final acceptance:
 
 ```text
-Result | Script/program | Inputs | Runtime | Seed | Output path | README line
+Result | Script/program | Inputs | Runtime | Seed | Output path | README line | DOI/data statement
 ```
 
 For computational RED papers, include solution routines, calibration files, counterfactual scripts,
@@ -96,7 +100,7 @@ so in readme.txt and provide cached intermediates plus the code that regenerates
 [Archive status] ready / missing readme / missing code / exemption needed
 [Replication object] empirical data / computational program / mixed
 [Required readme fields] software_OS / order / runtime / seeds
-[Delivery risk] archive format / code editor / proprietary data / RePEc posting
+[Delivery risk] archive format / code editor / proprietary data / RePEc posting / Option C data statement
 [Next repair] <single file or script to fix>
 ```
 

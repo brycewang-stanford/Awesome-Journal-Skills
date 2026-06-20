@@ -15,7 +15,7 @@ Agent skill stack for manuscripts targeted at the **Journal of International Bus
 
 This repository is opinionated. It is **not** a generic "management writing" toolbox. It is a **JIBS-specific** stack built around JIBS's defining bar: a manuscript must address a real-world **international-business phenomenon** and make an explicit, non-incremental contribution to **IB theory**, with **country and culture treated as levels of analysis**. It covers phenomenon-driven topic selection, cross-level theory development, positioning in the IB conversation, methodologically pluralistic design, cross-national measurement equivalence and validity, common-method-variance and (dynamic-)endogeneity rigor anchored to the JIBS "From the Editors" methods canon, IB contribution framing, JIBS Style Guide exhibits and prose, Springer Nature submission, double-blind review, the DART data-transparency regime, and multi-round R&R rebuttals.
 
-> Durable norms only. Editors, fees, the submission-platform name, exact word limits, and policies change — always verify on the official JIBS submission-guidelines page and the JIBS Style Guide. Items not confirmed against a single primary source are flagged **待核实** in [`resources/official-source-map.md`](resources/official-source-map.md).
+> Durable norms first. Current platform, masthead, word limits, DART language, and optional OA APC were refreshed from official Springer/AIB pages on 2026-06-20. Always re-check the live JIBS submission-guidelines page and Style Guide before uploading.
 
 ---
 
@@ -34,7 +34,7 @@ JIBS imposes constraints that differ materially from general-management or singl
 | Endogeneity           | **Dynamic endogeneity** named for internationalization-as-process      | Process designs need an identification strategy                  |
 | Methods canon         | ~28 "From the Editors" editorials as de facto standards                 | Reviewers cite them by name                                       |
 | Transparency          | **DART** policy + Data Accessibility Statement                          | A DAS is required on acceptance                                  |
-| Format                | JIBS Style Guide; **word limit inclusive of everything**               | References/tables/appendices count toward the limit              |
+| Format                | JIBS Style Guide; article word target counts abstract/text/endnotes/references | Tables, figures, and online supplement can follow                |
 | Process               | Springer Nature portal; double-blind; area-editor routing by IB subfield | First-round accepts are essentially unheard of                   |
 
 Generic "scientific writing" or "social-science methods" packs do not address these constraints.
@@ -112,7 +112,7 @@ jibs-rebuttal
 | `jibs-data-analysis`         | Measurement invariance, CMV, multilevel/dynamic-panel estimators, endogeneity  |
 | `jibs-contribution-framing`  | Explicit, non-incremental IB-theory contribution + societal-impact framing     |
 | `jibs-tables-figures`        | Country coverage, invariance summary, cross-level interaction plots (Style Guide) |
-| `jibs-writing-style`         | Phenomenon-forward prose, disciplined cross-cultural terms, inclusive word budget |
+| `jibs-writing-style`         | Phenomenon-forward prose, disciplined cross-cultural terms, article/RN word budget |
 | `jibs-submission`            | Springer Nature preflight: anonymization, DART/DAS, format, files              |
 | `jibs-review-process`        | How JIBS desk-screen/double-blind/area-editor review works; reading a decision |
 | `jibs-rebuttal`              | Multi-round R&R revision and point-by-point response letter                    |
@@ -120,7 +120,7 @@ jibs-rebuttal
 ### Resources
 
 - [`resources/external_tools.md`](resources/external_tools.md) — cross-country data (Hofstede/GLOBE, World Bank/WGI, Orbis, SDC, fDi Markets) and analysis/measurement-equivalence software (Mplus / R lavaan + semTools / Stata / dynamic-panel GMM / fsQCA)
-- [`resources/official-source-map.md`](resources/official-source-map.md) — official JIBS/AIB/Springer URLs behind every verified fact (accessed 2026-06-01); 待核实 items flagged
+- [`resources/official-source-map.md`](resources/official-source-map.md) — official JIBS/AIB/Springer URLs behind every encoded current fact, refreshed 2026-06-20
 
 ---
 

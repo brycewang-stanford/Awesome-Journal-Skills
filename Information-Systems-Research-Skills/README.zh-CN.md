@@ -15,7 +15,7 @@
 
 本仓库是有立场的。它**不是**通用的"信息系统写作"工具箱，而是围绕 ISR 的核心身份打造的 **ISR 专用**技能栈：一份明确的 **社会技术（sociotechnical）** 与 **跨学科内（intradisciplinary）** 使命，在同一本期刊内将 **严谨的行为/实证研究** 与 **解析式经济、计量与设计科学建模** 并列为 **同等地位的一流体裁**。覆盖范围包括：以契合度驱动的选题、行为假设或解析命题的机制构建、**打通 IS 内部各"竖井"** 的文献定位、多方法研究设计与分析、强制性的约 500 词贡献声明、符合 INFORMS 体例的图表与文风、含编辑/审稿人提名的 ScholarOne 投稿、由资深编辑（Senior Editor）主导的评审流程，以及 R&R 答复。
 
-> 仅描述持久规范。主编、版面费、确切页数限制及各项政策会变化 —— 请务必以 ISR 官方投稿指南（INFORMS PubsOnline）与当前 INFORMS 作者资源为准。ISR 官方页面在 2026-06-01 受反爬保护，凡无法从官方页面确认者，已在 source map 中标注 **待核实**。
+> 先写持久规范。当前页数上限、编辑/审稿人提名数量、评审模式、ORCID 要求与 Open Option 费用已在 2026-06-20 用 INFORMS 官方页面刷新；上传前仍请重新检查 ISR 投稿指南。
 
 ---
 
@@ -119,7 +119,7 @@ isr-rebuttal
 ### 资源
 
 - [`resources/external_tools.md`](resources/external_tools.md) —— IS 数据源（平台/痕迹数据、Compustat/CiTDB、Qualtrics/Prolific）与两类体裁的软件（解析用 Mathematica/MATLAB/Gurobi；实证用 Stata/R/Mplus/SmartPLS；设计科学评估工具）
-- [`resources/official-source-map.md`](resources/official-source-map.md) —— 每一条所用事实、其官方 INFORMS/ISR 链接、访问日期 2026-06-01，并对任何未能从官方页面确认者标注 **待核实**
+- [`resources/official-source-map.md`](resources/official-source-map.md) —— 每条已写入当前事实及其 INFORMS/ISR 官方链接，2026-06-20 刷新
 
 ---
 
@@ -130,7 +130,7 @@ isr-rebuttal
 | 领域               | IS（社会技术、跨学科内）                       | IS                                | IS                            | 广义管理 / 运筹                    |
 | 体裁身份           | 行为 **与** 解析/设计科学并列                  | **设计科学** 身份更强             | IS，体例不同                   | 管理/运筹，非 IS 专属              |
 | 出版方             | INFORMS                                       | MISRC / 明尼苏达大学              | Taylor & Francis              | INFORMS                            |
-| 费用说明           | 未确认有投稿费（待核实）                       | —                                 | —                             | 79 美元原始投稿费（2025 年起）     |
+| 费用说明           | INFORMS Open Option 接收后 3,000 美元          | —                                 | —                             | 79 美元原始投稿费（2025 年起）     |
 
 若你的贡献是一个力求进入"设计科学体裁主场"的已构建人造物，可考虑 **MISQ**；若 IS 角度只是附带、内核是通用运筹/经济学，可考虑 **Management Science**。
 

@@ -39,22 +39,23 @@ credible **data-and-transparency** path.
 | Methods               | Quantitative, qualitative, mixed — judged on own terms                        | Do not force one template onto every paper                       |
 | Crime measurement     | Reported (**UCR/NIBRS**), victimization (**NCVS**), self-report differ        | State the construct; address the **dark figure**                 |
 | Life-course claims    | **Within- vs. between-person** change must be separated                       | Fixed-effects / hybrid models for developmental arguments        |
-| Publisher / owner     | **Wiley** / **American Society of Criminology**                               | Submitted via **Wiley Research Exchange**, not OUP/SAGE portals   |
-| Review model          | **Blinded / anonymized** (待核实 exact wording)                                | Anonymized main document + separate title page                   |
+| Publisher / owner     | **Wiley** / **American Society of Criminology**                               | Use the official online submission link from ASC/Wiley            |
+| Review model          | **Double anonymized**                                                         | Anonymized main document + separate title page                   |
 | Style                 | **A form of APA** (fall back to APA 6th); bias-free, person-first language    | Not Chicago; double-spaced; < 100-word author bios               |
 | Exclusivity           | **One journal at a time** — simultaneous submission not allowed               | Submission is a commitment to publish in *Criminology*           |
 | Sister journal        | Policy evaluation belongs at **Criminology & Public Policy**                  | Route program evaluations there, not here                        |
 
-Volatile specifics (editors and term, exact length/abstract caps, fee/APC, review-model and data-policy
-wording, accepted article types) change — items not directly confirmed are marked **待核实** in
-[`resources/official-source-map.md`](resources/official-source-map.md).
-**Verify on the official journal page.**
+Volatile specifics still change. The pack now encodes only source-backed current facts in
+[`resources/official-source-map.md`](resources/official-source-map.md): interim editor text, Wiley ACT
+review/OA/ORCID/preprint fields, and the Research Note track. It deliberately does **not** encode a
+word/page cap or abstract cap; use the live Wiley author-guidelines page at upload.
 
 ### Article types
 
 - **Articles** — full original studies advancing criminological theory or measurement; the field's main format.
 - **Research Notes** — focused, self-contained contributions; *Criminology* hosts a distinct Research Note
-  track (exact length cap **待核实** — see the source map).
+  track; the pack does not encode a numeric cap, so check the live Wiley Research Note description before
+  committing to the format.
 - **Replication / reappraisal** studies — re-examining or reproducing an influential published finding.
 
 ---
@@ -135,13 +136,13 @@ on `crim-research-design` + `crim-data-and-transparency`.
 | `crim-writing-style`           | APA-based style; bias-free, person-first language; reach the whole field      |
 | `crim-data-and-transparency`   | Data-availability, reproducibility package, preregistration, restricted data  |
 | `crim-review-process`          | Blinded review, editorial screening, decision categories, expert reviewers    |
-| `crim-submission`              | Research Exchange preflight (anonymized doc, title page, APA, single-submit)   |
+| `crim-submission`              | Online submission preflight (anonymized doc, title page, APA, single-submit)   |
 | `crim-rebuttal`                | R&R response-letter strategy for multiple expert reviewers + editor           |
 
 ### Resources
 
 - [`resources/external_tools.md`](resources/external_tools.md) — crime & life-course data (UCR / NIBRS / NCVS / NACJD / Add Health / NLSY / PHDCN / Pathways) + R / Stata / Python (trajectory, survival, spatial) and CAQDAS
-- [`resources/official-source-map.md`](resources/official-source-map.md) — official ASC / Wiley URLs behind every fact, with 待核实 markers on unverified items
+- [`resources/official-source-map.md`](resources/official-source-map.md) — official ASC / Wiley URLs behind every encoded current fact
 
 ---
 
@@ -149,7 +150,7 @@ on `crim-research-design` + `crim-data-and-transparency`.
 
 - It does not write a submittable manuscript for you
 - It does not simulate any specific editor's or reviewer's taste
-- It does not assert volatile metadata (current editors and term, exact length/abstract caps, fee/APC, review-model and data-policy wording) — verify on the official page; unverified items are marked 待核实
+- It does not guess volatile metadata missing from official sources; live Wiley/ASC pages govern submission-day caps and portal behavior
 - It does not decide whether your question makes a criminological contribution — that is the researcher's call
 
 ---

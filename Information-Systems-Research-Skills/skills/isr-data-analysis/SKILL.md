@@ -50,7 +50,10 @@ If a claim lacks a row, downgrade the language before submission. ISR reviewers 
 
 ## Reproducibility and the electronic companion
 
-ISR's exact data/code-sharing requirement is **待核实** (described in secondary sources as encouraged, not mandated). Regardless, keep clean scripts/solver inputs that regenerate every exhibit, and use the electronic companion for proofs, full measurement items, and supplementary analyses given the 32-page text / 38-page total caps.
+ISR's source-backed compliance rule is data provenance certification: authors certify rights to use data
+and publish results, and any legal or corporate permissions must be obtained before submission. Regardless,
+keep clean scripts/solver inputs that regenerate every exhibit, and use the electronic companion for
+proofs, full measurement items, and supplementary analyses given the 32-page text / 38-page total caps.
 
 ## Checklist
 

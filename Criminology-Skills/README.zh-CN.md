@@ -35,22 +35,22 @@
 | 方法 | 定量/定性/混合——各按其标准评判 | 不要把同一模板硬套到所有论文 |
 | 犯罪测量 | 报案（**UCR/NIBRS**）、被害（**NCVS**）、自我报告各异 | 须说明所测构念；处理**暗数字** |
 | 生命历程论断 | 必须区分**个体内 vs. 个体间**变化 | 发展性论断用固定效应/混合模型 |
-| 出版方 / 所有者 | **Wiley** / **美国犯罪学学会** | 通过 **Wiley Research Exchange** 投稿 |
-| 评审模式 | **匿名评审**（确切措辞 待核实） | 匿名正文 + 单独标题页 |
+| 出版方 / 所有者 | **Wiley** / **美国犯罪学学会** | 使用 ASC/Wiley 官方页面给出的在线投稿入口 |
+| 评审模式 | **双匿名评审** | 匿名正文 + 单独标题页 |
 | 体例 | **一种 APA 变体**（其余按 APA 第 6 版）；无偏见、以人为本语言 | 非 Chicago；双倍行距；作者简介 < 100 词 |
 | 独占性 | **一次只投一刊**——不允许同时投稿 | 投稿即承诺在《犯罪学》发表 |
 | 姊妹刊 | 政策评估应投 **Criminology & Public Policy** | 项目评估请投该刊，而非本刊 |
 
-易变的具体信息（编辑与任期、确切篇幅/摘要上限、费用/APC、评审模式与数据政策措辞、接受的文章类型）
-会变化——未直接核实项在
-[`resources/official-source-map.md`](resources/official-source-map.md) 中标记 **待核实**。
-**请以官方页面为准。**
+易变信息仍需以投稿当天的官方页面为准。本包只写入
+[`resources/official-source-map.md`](resources/official-source-map.md) 中有来源支撑的当前事实：临时编辑信息、
+Wiley ACT 中的评审/OA/ORCID/预印本字段，以及 Research Note 通道。本包**不写死**字数/页数或摘要上限；
+上传前请看 Wiley 作者指南。
 
 ### 文章类型
 
 - **Articles（论文）**——推进犯罪学理论或测量的完整原创研究；学科主力形式。
-- **Research Notes（研究札记）**——聚焦、自洽的贡献；《犯罪学》设有独立的研究札记通道（确切篇幅上限
-  **待核实**——见来源地图）。
+- **Research Notes（研究札记）**——聚焦、自洽的贡献；《犯罪学》设有独立的研究札记通道。本包不写死
+  数字上限；定稿前请看 Wiley 当前 Research Note 说明。
 - **复现 / 再评估研究**——重新检验或再现某一有影响力的已发表发现。
 
 ---
@@ -130,13 +130,13 @@ crim-rebuttal
 | `crim-writing-style` | APA 变体体例；无偏见、以人为本语言；触达整个领域 |
 | `crim-data-and-transparency` | 数据可得性、可复现材料包、预注册、受限数据 |
 | `crim-review-process` | 匿名评审、编辑初筛、决定类别、专家评审 |
-| `crim-submission` | Research Exchange 投稿前检查（匿名正文、标题页、APA、单刊投稿） |
+| `crim-submission` | 在线投稿前检查（匿名正文、标题页、APA、单刊投稿） |
 | `crim-rebuttal` | 面向多位专家评审 + 编辑的 R&R 回应信策略 |
 
 ### 资源
 
 - [`resources/external_tools.md`](resources/external_tools.md) — 犯罪与生命历程数据（UCR / NIBRS / NCVS / NACJD / Add Health / NLSY / PHDCN / Pathways）+ R / Stata / Python（轨迹、生存、空间）与 CAQDAS
-- [`resources/official-source-map.md`](resources/official-source-map.md) — 每条事实背后的 ASC / Wiley 官方 URL，未核实项标 待核实
+- [`resources/official-source-map.md`](resources/official-source-map.md) — 每条已写入当前事实背后的 ASC / Wiley 官方 URL
 
 ---
 
@@ -144,7 +144,7 @@ crim-rebuttal
 
 - 不替你写出可直接投稿的稿件
 - 不模拟任何特定编辑或评审人的口味
-- 不臆断易变元数据（现任编辑与任期、确切篇幅/摘要上限、费用/APC、评审模式与数据政策措辞）——请以官方页面为准；未核实项标 待核实
+- 不臆断官方来源没有给出的易变元数据；投稿当天的 Wiley/ASC 页面决定篇幅上限和入口行为
 - 不替你判断你的问题是否构成犯罪学贡献——那是研究者的判断
 
 ---

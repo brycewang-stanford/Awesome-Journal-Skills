@@ -15,7 +15,7 @@ Agent skill stack for manuscripts targeted at **Information Systems Research (IS
 
 This repository is opinionated. It is **not** a generic "IS writing" toolbox. It is an **ISR-specific** stack built around ISR's defining identity: a **sociotechnical** and **intradisciplinary** mission that houses **both** rigorous behavioral/empirical research **and** analytical economic, econometric, and design-science modeling as **co-equal** first-class genres under one cover. It covers fit-driven topic selection, behavioral or analytical mechanism building, literature positioning that **bridges IS silos**, multimethod research design and analysis, the mandatory ~500-word contribution statement, INFORMS house-style exhibits and prose, ScholarOne submission with required editor/reviewer nominations, the Senior-Editor-led review process, and R&R rebuttals.
 
-> Durable norms only. Editors, fees, exact page limits, and policies change — always verify on the official ISR submission guidelines (INFORMS PubsOnline) and the current INFORMS author resources. The live ISR pages were bot-protected on 2026-06-01; items we could not confirm are flagged **待核实** in the source map.
+> Durable norms first. Current page limits, nomination counts, review model, ORCID requirement, and Open Option fee were refreshed from official INFORMS pages on 2026-06-20. Always re-check the live ISR submission guidelines before uploading.
 
 ---
 
@@ -119,7 +119,7 @@ isr-rebuttal
 ### Resources
 
 - [`resources/external_tools.md`](resources/external_tools.md) — IS data sources (platform/trace data, Compustat/CiTDB, Qualtrics/Prolific) and software for both genres (Mathematica/MATLAB/Gurobi for analytical; Stata/R/Mplus/SmartPLS for empirical; DSR evaluation harnesses)
-- [`resources/official-source-map.md`](resources/official-source-map.md) — every used fact, its official INFORMS/ISR URL, accessed 2026-06-01, with **待核实** flags for anything not confirmed from an official page
+- [`resources/official-source-map.md`](resources/official-source-map.md) — every encoded current fact and its official INFORMS/ISR URL, refreshed 2026-06-20
 
 ---
 
@@ -130,7 +130,7 @@ isr-rebuttal
 | Field              | IS (sociotechnical, intradisciplinary)       | IS                                | IS                            | Broad management / OR              |
 | Genre identity     | Behavioral **and** analytical/DSR, co-equal  | Stronger **design-science** identity | IS, distinct conventions    | Management/OR, not IS-specific     |
 | Publisher          | INFORMS                                       | MISRC / U. Minnesota              | Taylor & Francis              | INFORMS                            |
-| Fee note           | No per-submission fee confirmed (待核实)      | —                                 | —                             | $79 original-submission fee (2025) |
+| Fee note           | INFORMS Open Option $3,000 after acceptance   | —                                 | —                             | $79 original-submission fee (2025) |
 
 If your contribution is a built artifact seeking the design-science genre's home, weigh **MISQ**; if the IS angle is incidental to a generic OR/economics core, weigh **Management Science**.
 

@@ -32,12 +32,12 @@ criminal justice, economics), formatted to the journal's **APA-based style**, an
 - **Citations**: the journal uses **a form of APA**; for anything unspecified, follow **APA (6th ed.)** —
   author-date in text, an alphabetical reference list. Keep one consistent style (manage with Zotero/BibTeX).
 - **Manuscript**: prepare an **anonymized main document** plus a **separate title page** (the review
-  workflow is blinded — confirm exact wording, 待核实). Include a short author biography per author on the
-  title page (< 100 words each).
+  model is double anonymized). Include a short author biography per author on the title page
+  (< 100 words each).
 - **Formatting**: double-space everything (text, notes, tables, references); follow current Wiley
-  Research Exchange file requirements.
-- **Length / abstract**: a specific word/page cap and abstract length for *Criminology* are 待核实 — confirm
-  on the live author-guidelines page and stay within it.
+  online submission file requirements.
+- **Length / abstract**: no numeric cap is encoded here; confirm on the live author-guidelines page and
+  stay within it.
 
 ## Bias-free, person-first language (a Criminology expectation)
 
@@ -72,11 +72,11 @@ Treat this skill as an executable review pass, not a prose hint. First lock the 
 【APA-based style consistent】[Y/N]
 【Anonymized main doc + separate title page】[Y/N]
 【Bias-free / person-first language】[Y/N]
-【Length/abstract within cap (待核实)】[Y/N]
+【Length/abstract within live cap】[Y/N]
 【Next】crim-data-and-transparency
 ```
 
 ## Supplementary resources
 
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — reference managers and APA-style tooling
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — APA-based style, anonymized document, bias-free language, length/abstract (待核实)
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — APA-based style, double-anonymized review, bias-free language, live length/abstract guardrail

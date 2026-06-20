@@ -95,9 +95,9 @@ point engaged; the contribution holds.
 【Reviewer conflicts】reconciled and explained to editor? [Y/N]
 【Contribution protected】theory + scope conditions intact? [Y/N]
 【Anonymity + package updated】[Y/N]
-【Next】resubmit via Wiley Research Exchange
+【Next】resubmit via the official ASC/Wiley online submission link
 ```
 
 ## Supplementary resources
 
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — review/decision norms and editor-discretion items (待核实)
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — review/decision norms and editor-discretion items

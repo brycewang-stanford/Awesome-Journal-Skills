@@ -1,84 +1,87 @@
 # Criminology Official Source Map
 
 Primary and authoritative sources behind the *Criminology*-specific facts injected into this skill
-pack. Access date for all entries: **2026-06-02**. Re-verify volatile items (editors and editorial
-term, exact word/page caps, abstract length, fee/APC, data-policy and review-model wording, accepted
-article types) on the official page before relying on them — journal pages change, and the Wiley
-author-guidelines page is frequently paywalled (HTTP 402/403) to automated fetches, so several items
-below were confirmed only via ASC pages, Wikipedia, and search renderings and are flagged 待核实.
+pack. Access date for all entries: **2026-06-20**. Re-check volatile items (editors, portals,
+article-type details, open-access charges, and Wiley compliance-tool rows) on the official pages
+before submission.
 
-## Official journal, submission & author pages
+## Official journal, owner, scope & editors
+
+- **https://asc41.org/publications-no-prs/criminology-an-interdisciplinary-journal/**
+  — ASC "Criminology: An Interdisciplinary Journal" page. Verifies: *Criminology* is an **official
+  publication of the American Society of Criminology**; the journal is interdisciplinary and devoted to
+  crime and deviant behavior as addressed through sociology, psychology, design, systems analysis, and
+  decision theory applied to crime and criminal justice; emphasis is on **empirical research and
+  scientific methodology**, with priority to original research, while also publishing literature-review
+  and theoretical work; it is published **four times annually** in February, May, August, and November;
+  submissions go through the official online submission process linked from the page; current page text
+  lists **Chris Sullivan** as **Interim Editor** and **Meghan Zelasko** as **Managing Editor**, and states
+  that the ASC board changed leadership effective **September 12, 2025** while a search began for the
+  **2027-2031** editorial team.
+- **https://onlinelibrary.wiley.com/journal/17459125**
+  — Wiley Online Library publisher home. Verifies publisher home, journal title, ISSN route, current
+  issue access, author-guidelines link, open-access link, and Research Notes link.
+- **https://www.wiley.com/en-us/Criminology-p-17459125**
+  — Wiley product page. Verifies Wiley's short scope statement: the journal studies crime and deviant
+  behavior, is interdisciplinary, and publishes articles advancing criminology and criminal justice.
+- **https://asc41.org/about-asc/history-of-the-american-society-of-criminology/editors-of-asc-publications/**
+  — ASC editors history. Verifies historical publication lineage: **Criminologica** editors Charles L.
+  Newman (1963-1966) and Simon Dinitz (1966-1969), and later *Criminology* editors. Use this page for
+  history, not as the live operational masthead when the ASC journal page has newer operational text.
+- **https://portal.issn.org/resource/ISSN/1745-9125**
+  — ISSN Portal record for the online ISSN **1745-9125**; confirms publication continuity and Wiley
+  access record through 2026.
+
+## Author guidelines, review model & article types
 
 - **https://onlinelibrary.wiley.com/page/journal/17459125/homepage/forauthors.html**
-  — Wiley Online Library *Criminology* Author Guidelines (ISSN 1745-9125). Verifies (via search
-  rendering; page itself returned **HTTP 402** to direct fetch): submission is online via the **Wiley
-  Research Exchange** portal at **`https://wiley.atyponrex.com/journal/CRIM`**; each submission must
-  contain **at least one title page and one anonymized main document** (i.e., a blinded review
-  workflow); the journal uses **a form of APA style**, falling back to **APA (6th edition)** for
-  anything not covered, with **author-date** in-text citations and an alphabetical reference list; a
-  short **author biography (< 100 words)** per author; all material **typed double-spaced** (including
-  notes, tables, references) on 8.5 × 11-inch paper; manuscripts must comply with **APA bias-free
-  language** guidelines, including when discussing people who have committed crime, experienced
-  victimization, or had criminal-legal-system contact; **simultaneous submission to another journal is
-  unacceptable** (submission is treated as a commitment to publish in *Criminology*). Status can be
-  checked at `submission.wiley.com` → "My Submissions".
-- **https://onlinelibrary.wiley.com/journal/17459125** — *Criminology* on Wiley Online Library
-  (publisher home, current issue, metrics).
+  — Wiley Online Library *Criminology* Author Guidelines. Web-search rendering of the official Wiley
+  page verifies a short **author biography of less than 100 words** for each author. Earlier official
+  Wiley renderings for this page also identify a separate title page and an anonymized main document,
+  APA-based style, double-spaced material, bias-free language, and single-submission commitment; live
+  Wiley page/portal should govern file and format details at upload.
+- **https://authors.wiley.com/asset/ACT.xlsx**
+  — Wiley Author Compliance Tool workbook (checked 2026-06-20; `CRIM`, ISSN route `17459125` row).
+  Verifies journal-specific compliance metadata: **Hybrid Open Access**; licenses **CC BY, CC BY-NC, or
+  CC BY-NC-ND**; **APC $3,750**; self-archiving **Standard Policy** with submitted version allowed on
+  submission and accepted version embargo **24 months**; data-sharing policy field **No Policy**;
+  preprint field **Does Not Accept Preprints**; ORCID policy **Encouraged**; review model **Double
+  anonymized**.
 - **https://onlinelibrary.wiley.com/pb-assets/assets/17459125/CRIMINOLOGY-Research%20Note-Description-1685724953153.pdf**
-  — "Research Notes in Criminology" description PDF (the journal hosts a distinct **Research Note**
-  article type). The PDF returned **HTTP 402** to direct fetch; its existence confirms the track but
-  its exact length cap and scope are 待核实.
+  — Wiley-hosted "Research Notes in Criminology" PDF. Search rendering verifies that Research Notes are
+  a distinct manuscript type and that authors may submit a manuscript for Research Note consideration.
+  The pack encodes the type, but does not encode a numeric Research Note length cap.
+- **https://onlinelibrary.wiley.com/pb-assets/assets/17459125/Criminology-AI-Declaration-Policy-1691420780790.pdf**
+  — Wiley-hosted *Criminology* AI declaration policy PDF. Search rendering verifies that authors must
+  disclose use of generative AI and AI-assisted technologies in the writing process by adding a statement
+  to the submitted work.
 
-## Owner, publisher, scope, history
+## Transparency, data & open access
 
-- **https://asc41.org/publications/criminology-an-interdisciplinary-journal/**
-  — ASC "Criminology: An Interdisciplinary Journal" page. Verifies: *Criminology* is an **official
-  publication of the American Society of Criminology (ASC)**, published by **Wiley**, appearing
-  **quarterly** (February, May, August, November); scope spans **crime and deviant behavior** drawing
-  on **sociology, psychology, design, systems analysis, and decision theory**, prioritizing **empirical
-  research and original studies** while also publishing **theoretical and literature-review** articles;
-  ranked by ISI as **the leading professional journal in criminology (1st of 27)**, 6th among sociology
-  journals, 29th in law. Lists (as of access date) Co-Editors **Dana Haynie (Ohio State)**, **Gary
-  Sweeten (Arizona State)**, **Andromachi Tseloni (Nottingham Trent)**, with an Interim Editor and a
-  Managing Editor, and a search underway for the **2027–2031** editorial team.
-- **https://en.wikipedia.org/wiki/Criminology_(journal)** — Verifies: *Criminology* **established
-  1963** under the title **_Criminologica_**, assumed its **current title in 1970**; published by
-  **Wiley-Blackwell** for the ASC; **quarterly**; interdisciplinary scope (criminology, penology,
-  cybercrime, deviance, criminal justice); described as the discipline's leading journal.
-- **https://en.wikipedia.org/wiki/American_Society_of_Criminology** — ASC background (founded 1941;
-  scholarly/professional society for criminology and criminal justice).
-
-## Transparency, open access & open science
-
-- **https://onlinelibrary.wiley.com/page/journal/17459125/homepage/fundedaccess.html**
-  — *Criminology* open-access information. Verifies (via search rendering): the journal offers an
-  **optional open-access** route with an **APC of $3,570 USD / £2,380 GBP / €2,970 EUR** on
-  acceptance; this is **not a submission fee**.
+- **https://authors.wiley.com/asset/Wiley-Journal-APCs-OnlineOpen.xlsx**
+  — Wiley hybrid open-access APC workbook (last-modified 2026-06-18 when checked). The `Criminology`
+  row with ISSN route `17459125` verifies **APC $3,750 / GBP 2,500 / EUR 3,120** and license choices
+  **CC BY, CC BY-NC, or CC BY-NC-ND**.
+- **https://authors.wiley.com/author-resources/Journal-Authors/open-access/data-sharing-citation/data-sharing-policy.html**
+  — Wiley data-sharing policy. Verifies Wiley's standardized data-policy tiers and that research- and
+  synthesis-based articles include a **Data Availability Statement** describing data availability or the
+  absence of shared data, with repository links and data citation where data are shared.
+- **https://authors.wiley.com/author-resources/Journal-Authors/open-access/data-sharing-citation/faqs.html**
+  — Wiley data-sharing and citation FAQ. Verifies that Wiley data availability statements describe where
+  research data and related artefacts can be found, that Wiley journals implement data citation policy,
+  and that sensitive/confidential data and third-party-restricted data receive restriction-aware
+  handling.
 - **https://authors.wiley.com/open-research/open-recognition-and-reward/open-science-badges.html**
-  — Wiley Open Science / Open Research Badges (Center for Open Science): **Open Data**, **Open
-  Materials/Preregistered** badges available on participating Wiley journals. Whether *Criminology*
-  currently issues badges and what its data-availability statement requires is 待核实 on the live page.
+  — Wiley Open Research Badges. Verifies badge types (**Open Data**, **Preregistered**, **Open
+  Materials**) and that authors apply during submission where the target journal has implemented badges.
+  Use journal/portal-specific prompts to decide whether a badge is available for a given upload.
 
-## UNVERIFIED / 待核实 items
+## Pack-level guardrails
 
-- **Exact review-model wording** (single-blind vs. double-blind / double-anonymous vs. masked): the
-  guidelines require an **anonymized main document + separate title page**, which implies at least
-  author-blinded review, but the precise term used by *Criminology* was **not** confirmed verbatim
-  (the Wiley page 402'd). Treat as "blinded / anonymized review" and **confirm on the live page**. 待核实.
-- **Manuscript length cap** (word or page limit for full articles): no firm figure was confirmed for
-  *Criminology* itself; double-spaced formatting is required, but a specific word/page cap is 待核实.
-  (Sister journal *Criminology & Public Policy* suggests ~30 double-spaced pages / ~8,000 words; do
-  **not** assume this applies to *Criminology*.)
-- **Abstract length**: a specific abstract word cap for *Criminology* was not confirmed verbatim. 待核实.
-- **Research Note exact length / scope**: the track exists (PDF hosted by Wiley) but its cap is 待核实.
-- **Submission fee**: no submission fee was found; the only fee identified is the **optional OA APC**.
-  Treat "no submission fee" as the working assumption and confirm on the live page. 待核实.
-- **Data-availability / replication / preregistration requirements**: ASC/Wiley signal growing
-  transparency norms and Wiley offers open-science badges, but the **mandatory** data-availability
-  statement wording and any replication/preregistration policy specific to *Criminology* were not
-  confirmed verbatim. 待核实.
-- **Current editorial team and term dates**: the masthead lists Co-Editors and an Interim Editor as of
-  access time, with a **2027–2031** editor search underway; exact term start/end dates and the final
-  incoming team are 待核实.
-- **ORCID requirement**: Wiley commonly requests/requires ORCID for corresponding authors; whether it
-  is mandatory for *Criminology* was not confirmed verbatim. 待核实.
+- Do not hard-code a word/page cap or abstract cap in active guidance unless the live Wiley author
+  guidelines show one for *Criminology*.
+- Do not treat the optional OnlineOpen APC as a submission fee.
+- Do not direct authors to post a manuscript preprint unless the live Wiley guidance changes the Author
+  Compliance Tool's "Does Not Accept Preprints" row.
+- For portal routing, follow the official submit link exposed by the ASC/Wiley journal pages at the time
+  of upload.

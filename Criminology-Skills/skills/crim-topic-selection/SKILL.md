@@ -45,7 +45,8 @@ A strong *Criminology* paper usually clears all four:
 
 - **Article** — full study, full theoretical argument, complete evidentiary load.
 - **Research Note** — one focused, self-contained contribution (a decisive test, a measurement advance,
-  a targeted reappraisal). Do not pad it into an Article; exact cap is 待核实 (see source map).
+  a targeted reappraisal). Do not pad it into an Article; check the live Wiley Research Note description
+  for the current numeric cap before committing to the format.
 
 ## Anti-patterns
 
@@ -57,7 +58,7 @@ A strong *Criminology* paper usually clears all four:
 ## What an ASC-flagship editor screens for (desk-reject grid)
 
 *Criminology* is the official journal of the American Society of Criminology, published by Wiley, and
-its co-editors triage hard at the desk. The disposition column is the common pattern, not a rule —
+its editorial team triages hard at the desk. The disposition column is the common pattern, not a rule —
 editor discretion governs, so confirm scope wording against the journal's current submission guidelines.
 
 | Manuscript signal at the desk | Likely editor read | Typical disposition |

@@ -1,43 +1,43 @@
 ---
 name: crim-submission
-description: Use when running the final pre-submission preflight for Criminology (ASC / Wiley) via the Wiley Research Exchange portal — anonymized main document plus separate title page, APA-based formatting, bias-free language, single-submission commitment, and (待核实) length/abstract caps and ORCID. Final checks; it does not draft content.
+description: Use when running the final pre-submission preflight for Criminology (ASC / Wiley) via the official online submission link — anonymized main document plus separate title page, APA-based formatting, bias-free language, double-anonymized review, single-submission commitment, Wiley ACT ORCID/OA/preprint fields, and live length/abstract caps. Final checks; it does not draft content.
 ---
 
 # Submission Preflight (crim-submission)
 
-The last check before pressing submit on the **Wiley Research Exchange** portal
-(`wiley.atyponrex.com/journal/CRIM`). *Criminology* uses a **blinded/anonymized** workflow, so the most
-common avoidable failure is an under-anonymized main document. Verify volatile specifics on the
-official page before relying on them (many are 待核实).
+The last check before pressing submit through the official ASC/Wiley online submission link.
+*Criminology* uses **double-anonymized** review, so the most common avoidable failure is an
+under-anonymized main document. Verify length/abstract caps and portal prompts on the live official page.
 
 ## When to trigger
 
 - "Submitting tomorrow" — last pass before upload
-- Unsure which files/metadata Research Exchange expects
+- Unsure which files/metadata the official online submission system expects
 - Confirming the manuscript is anonymized and formatted to the journal's APA-based style
 
 ## Process facts (verify volatile items on the official page)
 
 - **Owner / publisher:** American Society of Criminology (ASC) / Wiley.
-- **Portal:** **Wiley Research Exchange** — `https://wiley.atyponrex.com/journal/CRIM`; track status at
-  `submission.wiley.com` → "My Submissions".
-- **Files:** at least **one title page** + **one anonymized main document** (blinded workflow).
+- **Portal:** use the official online submission link exposed by the ASC/Wiley journal pages at upload.
+- **Review model / files:** **double anonymized**; prepare a separate **title page** and **anonymized
+  main document**.
 - **Style:** **a form of APA**; fall back to **APA (6th ed.)** for anything unspecified; author-date,
   alphabetical reference list; everything **double-spaced**.
 - **Author bio:** a short biography (**< 100 words**) per author on the title page.
 - **Language:** **APA bias-free, person-first** language for justice-involved populations.
 - **Exclusivity:** **one journal at a time** — simultaneous submission is not allowed.
-- **Length / abstract caps:** specific word/page and abstract limits for *Criminology* are 待核实 — confirm
-  on the live author-guidelines page.
-- **ORCID:** Wiley commonly requests it for the corresponding author (待核实 whether mandatory).
-- **Fee:** no submission fee identified; only an **optional OA APC** on acceptance (待核实).
+- **Length / abstract caps:** no numeric cap is encoded here; confirm on the live author-guidelines page.
+- **ORCID:** Wiley ACT lists ORCID as **Encouraged** for *Criminology*.
+- **Fees / OA:** Wiley ACT lists **Hybrid Open Access** and an optional **APC of $3,750**; do not treat
+  that APC as a submission fee.
+- **Preprints:** Wiley ACT lists *Criminology* as **Does Not Accept Preprints**.
 
 ## Preflight checklist
 
 ### Files & length
 - [ ] Separate **title page** (authors, affiliations, < 100-word bios) prepared as its own file
 - [ ] **Anonymized main document** uploaded separately
-- [ ] Length/abstract within the journal's current cap (待核实 — confirm on live page)
+- [ ] Length/abstract within the journal's current live cap
 
 ### Anonymity (blinded workflow)
 - [ ] No author names, affiliations, or acknowledgments in the main document
@@ -49,7 +49,7 @@ official page before relying on them (many are 待核实).
 - [ ] APA-based style; consistent author-date citations; double-spaced throughout
 - [ ] **Bias-free, person-first** language for offenders, victims, justice-involved people
 - [ ] Figures/tables/maps self-contained and accessible (see `crim-tables-figures`)
-- [ ] Corresponding-author **ORCID** ready (待核实 whether required)
+- [ ] Corresponding-author **ORCID** ready (encouraged by Wiley ACT)
 
 ### Compliance & files
 - [ ] Ethics / IRB / human-subjects + data-use agreements in order
@@ -83,8 +83,8 @@ Scan for each before upload.
 A team uploading a recidivism survival study splits the file into a title page (authors, affiliations,
 three < 100-word bios) and an anonymized main document; confirms double-spacing across the 6 tables and
 references; converts "felons" to "people with a prior conviction"; strips the agency name from methods;
-and stages the NACJD access note off the main document. They leave the length check at 待核实 and do not
-press submit until the current word cap is verified on the live page.
+and stages the NACJD access note off the main document. They leave the numeric length check open until
+the current cap is read from the live page.
 
 ## Referee/editor-desk pushback at submission (the Criminology fix)
 
@@ -97,7 +97,7 @@ press submit until the current word cap is verified on the live page.
 ```
 【Files】title page + anonymized main document both prepared? [Y/N]
 【Anonymized】text + self-refs + file metadata clean? [Y/N]
-【Length/abstract within cap (待核实)】[Y/N]
+【Length/abstract within live cap】[Y/N]
 【APA-based style + double-spaced】[Y/N]
 【Bias-free / person-first language】[Y/N]
 【Single submission + ethics/DUA】[Y/N]
@@ -108,4 +108,4 @@ press submit until the current word cap is verified on the live page.
 ## Supplementary resources
 
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — reference managers, anonymization, repro tooling
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — Research Exchange portal, APA-based style, anonymized files, caps/fee (待核实)
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — ASC/Wiley portal route, APA-based style, double-anonymized review, ACT OA/ORCID/preprint fields

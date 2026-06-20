@@ -15,15 +15,16 @@ description: Use when applying Review of Economic Dynamics (RED) house style —
 
 - **Abstract**: concise and factual, **not exceeding 250 words**, and **able to stand alone** —
   references inside the abstract are discouraged. Lead with the question, the model, and the headline
-  quantitative result. *(Captured via search extraction; the Guide-for-Authors page 403'd a direct read — 待核实 wording.)*
+  quantitative result.
 - **References**: **author-year (Harvard-style)** citation system; reference list alphabetical and consistent.
 - **Keywords**: **1 to 6** required.
 - **Formatting**: Elsevier's general Guide for Authors applies; **LaTeX accepted via the `elsarticle`
   class**; initial submission is flexible ("your paper your way"), so you need not fully typeset to
   Elsevier style for the first round.
 - **Generative AI**: any use of generative-AI tools must be **declared at submission**.
-- **Length**: no explicit page/word cap was found in available sources — **待核实**; do not assert a number,
-  but keep the paper as long as the contribution warrants and no longer.
+- **Length**: this pack does not encode a RED-specific manuscript word/page cap. Use the current Guide and
+  Editorial Manager prompts for live file constraints; keep the paper as long as the contribution warrants
+  and no longer.
 
 ## Abstract shape
 
@@ -95,7 +96,7 @@ magnitude in three sentences — the pattern a RED desk screen rewards.
 
 - A 250+-word abstract or one that cannot be read without the paper
 - Mixed citation styles instead of clean author-year
-- Asserting a manuscript length cap that is unverified
+- Asserting a manuscript length cap that the current RED Guide does not publish
 
 ## Output format
 
@@ -109,4 +110,4 @@ magnitude in three sentences — the pattern a RED desk screen rewards.
 
 ## Supplementary resources
 
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — Guide-for-Authors facts and their 待核实 flags
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — Guide-for-Authors facts and fee/source-precedence notes

@@ -69,10 +69,12 @@ and data-use agreements before use, and verify any *Criminology*-specific policy
 - **Recidivism survival analysis** with competing risks and right-censoring handled explicitly
 
 ## 4. Transparency, preregistration & replication
-- Preregistration / pre-analysis plans: **OSF Registries**, AsPredicted; preprints: **CrimRxiv**
+- Preregistration / pre-analysis plans: **OSF Registries**, AsPredicted. Wiley's current Author
+  Compliance Tool row for *Criminology* says it **does not accept preprints**, so do not post a
+  manuscript preprint unless the live Wiley guidance changes.
 - Replication and restricted-data archiving: **ICPSR / NACJD** (incl. controlled-access deposits)
 - Wiley **Open Science / Open Research Badges** (Open Data, Open Materials, Preregistered) — see
-  `crim-data-and-transparency`; confirm current *Criminology* data-availability requirements (待核实)
+  `crim-data-and-transparency`; badge prompts depend on the live submission portal
 
 ## 5. Figures & exhibits
 - Age–crime curves, trajectory-group plots, survival/recidivism curves, coefficient/forest plots,
@@ -84,12 +86,13 @@ and data-use agreements before use, and verify any *Criminology*-specific policy
   form of APA; fall back to **APA 6th** for anything unspecified), author-date
 - Prepare an **anonymized main document** plus a **separate title page**; use **bias-free, person-first
   language** for justice-involved populations (per APA guidance)
-- Typesetting: LaTeX (TeX Live / MacTeX, Overleaf) or Word; submit via Wiley **Research Exchange**
+- Typesetting: LaTeX (TeX Live / MacTeX, Overleaf) or Word; submit via the official ASC/Wiley online
+  submission link
 
 ## 7. Cautions
-1. **Verify volatile specifics** (review model wording, length/abstract caps, fee/APC, data policy,
-   accepted article types, editors) on the official Wiley/ASC pages — they change and the Wiley page
-   often 402s to automated fetches; unverified items are marked 待核实.
+1. **Verify volatile specifics** (length/abstract caps, portal prompts, editor text, and article-type
+   details) on the official Wiley/ASC pages at upload. The source map records current ACT facts for
+   review model, APC, ORCID, data-policy field, and preprints.
 2. **Mind the dark figure** — UCR/NIBRS (reported crime), NCVS (victimization), and self-report capture
    different things; triangulate and state which construct you measure.
 3. **Restricted data** — many criminology datasets (NACJD restricted-use, juvenile records) require DUAs

@@ -15,7 +15,7 @@
 
 本仓库是有立场的。它**不是**通用的"管理学写作"工具箱，而是围绕 JIBS 的核心标准打造的 **JIBS 专用**技能栈：稿件必须针对一个真实的**国际商务现象（phenomenon）**，并对**国际商务（IB）理论**做出明确且非增量的贡献，且要把**国家与文化作为分析层次（levels of analysis）**来处理。覆盖范围包括：以现象驱动的选题、跨层次理论构建、在 IB 学术对话中的定位、方法论多元的研究设计、跨国测量等价性与效度、锚定 JIBS "From the Editors" 方法论社论范式的共同方法偏差（CMV）与（动态）内生性的严谨处理、IB 理论贡献的提炼、符合 JIBS Style Guide 的图表与文风、Springer Nature 投稿、双盲评审、DART 数据透明制度，以及多轮 R&R 答复。
 
-> 仅描述持久规范。主编、版面费、投稿平台名称、确切字数限制及各项政策会变化 —— 请务必以 JIBS 官方投稿指南页面与当前版本的 JIBS Style Guide 为准。凡未能由单一权威来源确认的事实，均在 [`resources/official-source-map.md`](resources/official-source-map.md) 中标注为 **待核实**。
+> 先写持久规范。当前投稿平台、编辑团队、字数限制、DART 表述与可选 OA APC 已在 2026-06-20 用 Springer/AIB 官方页面刷新；上传前仍请重新检查 JIBS 投稿指南与 Style Guide。
 
 ---
 
@@ -34,7 +34,7 @@
 | 内生性          | 针对国际化过程设计点名"**动态内生性**"                                     | 过程型设计须有识别策略                                |
 | 方法论社论范式  | 约 28 篇 "From the Editors" 社论构成事实标准                               | 审稿人会直接点名引用                                  |
 | 透明度          | **DART** 政策 + 数据可获取性声明（DAS）                                    | 录用时须提供 DAS                                      |
-| 体例            | JIBS Style Guide；**字数限制含一切内容**                                   | 参考文献/表/附录都计入字数                            |
+| 体例            | JIBS Style Guide；文章字数目标计入摘要/正文/尾注/参考文献                 | 表、图与在线补充可随后附上                            |
 | 流程            | Springer Nature 平台；双盲；按 IB 子领域的领域编辑分流                     | 首轮直接录用几乎闻所未闻                              |
 
 通用的"科研写作"或"社科方法"技能包无法覆盖这些约束。
@@ -112,7 +112,7 @@ jibs-rebuttal
 | `jibs-data-analysis`          | 测量等价性、CMV、多层次/动态面板估计、内生性                          |
 | `jibs-contribution-framing`   | 明确、非增量的 IB 理论贡献 + 社会影响框定                              |
 | `jibs-tables-figures`         | 国家覆盖、等价性汇总、跨层次交互图（符合 Style Guide）                 |
-| `jibs-writing-style`          | 现象前置的行文、严谨的跨文化表述、含一切内容的字数预算                 |
+| `jibs-writing-style`          | 现象前置的行文、严谨的跨文化表述、Article/Research Note 字数预算       |
 | `jibs-submission`             | Springer Nature 投稿前检查：匿名化、DART/DAS、格式、文件              |
 | `jibs-review-process`         | JIBS 桌面初筛/双盲/领域编辑评审如何运作；如何解读决定信                |
 | `jibs-rebuttal`               | 多轮 R&R 修改与逐条回复信                                              |
@@ -120,7 +120,7 @@ jibs-rebuttal
 ### 资源
 
 - [`resources/external_tools.md`](resources/external_tools.md) —— 跨国数据（Hofstede/GLOBE、World Bank/WGI、Orbis、SDC、fDi Markets）与分析/测量等价性软件（Mplus / R lavaan + semTools / Stata / 动态面板 GMM / fsQCA）
-- [`resources/official-source-map.md`](resources/official-source-map.md) —— 每条已核实事实背后的 JIBS/AIB/Springer 官方 URL（访问于 2026-06-01）；待核实项已标注
+- [`resources/official-source-map.md`](resources/official-source-map.md) —— 每条已写入当前事实背后的 JIBS/AIB/Springer 官方 URL，2026-06-20 刷新
 
 ---
 

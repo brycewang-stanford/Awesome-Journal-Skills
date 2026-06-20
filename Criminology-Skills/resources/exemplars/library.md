@@ -2,8 +2,8 @@
 
 > **Verified via web search, access date 2026-06-08.** Every paper below was confirmed on Wiley
 > Online Library under *Criminology* (the flagship journal of the American Society of Criminology;
-> ISSN/DOI stem `1745-9125`). Papers that could not be confirmed *in Criminology specifically* were
-> omitted and are listed at the bottom as sibling-journal guardrails. This is a positioning aid —
+> ISSN/DOI stem `1745-9125`). Papers outside *Criminology* were omitted and are listed at the bottom
+> as sibling-journal guardrails. This is a positioning aid —
 > read the originals; do not reproduce their numbers.
 >
 > **Sibling-confusion guard.** *Criminology* is NOT: *Journal of Quantitative Criminology* (JQC),

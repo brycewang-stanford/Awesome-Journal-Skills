@@ -92,7 +92,7 @@ volatility. Illustrative review of its parameter discipline:
 |---|---|---|
 | "A free parameter drives the result" | quantitative | sensitivity table or a narrower claim |
 | "Equilibrium existence is assumed silently" | theory | state it as an assumption or prove it |
-| "Accuracy unverified at the calibrated point" | computational | Euler/den Haan check at exactly that parameterization |
+| "Accuracy not stress-tested at the calibrated point" | computational | Euler/den Haan check at exactly that parameterization |
 | "The reduced-form estimate maps to no model object" | empirical | name the structural parameter or moment the estimate disciplines |
 
 ## Supplementary resources

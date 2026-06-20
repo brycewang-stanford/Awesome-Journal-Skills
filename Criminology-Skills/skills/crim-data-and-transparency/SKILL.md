@@ -6,9 +6,11 @@ description: Use when preparing the data, replication, and transparency material
 # Data & Transparency (crim-data-and-transparency)
 
 Criminology research increasingly travels with its data and code. Expert reviewers and editors expect
-that your reported tables and figures could be reproduced, and Wiley supports open-science badges. Much
-criminal-justice data is **restricted**, so plan provenance, access, and an exemption path early —
-build the package as you go.
+that your reported tables and figures could be reproduced. Wiley's general data-sharing guidance requires
+a Data Availability Statement for research- and synthesis-based articles, while the current Wiley ACT row
+for *Criminology* lists the journal-specific data-sharing policy field as **No Policy**. Treat that as:
+prepare a credible statement and package, but do not claim a journal-specific mandatory repository deposit
+unless the live portal requires it.
 
 ## When to trigger
 
@@ -17,18 +19,19 @@ build the package as you go.
 - Working with restricted data (juvenile records, NACJD restricted-use, agency administrative data)
 - A reviewer asked how the analysis can be reproduced or the data accessed
 
-## What to prepare (verify current Criminology wording — 待核实)
+## What to prepare
 
 1. **Data-availability statement.** State where data and code live (e.g., **ICPSR / NACJD**, OSF, a
-   Wiley/Dryad repository) or why they cannot be shared. Confirm the journal's required wording and any
-   mandatory deposit on the live policy page (待核实).
+   Wiley/Dryad repository) or why they cannot be shared. Use Wiley DAS templates and the live portal
+   wording; do not imply mandatory deposit where restricted data make that impossible.
 2. **Reproducibility package.** Data (or synthetic/derived substitutes), a **master script** that
    regenerates every table and figure, a **README** documenting provenance and construction, **seeds**
    for stochastic steps, and **pinned** software/package versions.
 3. **Preregistration (prospective work).** Lodge a pre-analysis plan (OSF Registries, AsPredicted) and
-   mark **registered vs. exploratory** analyses; a preprint can go to **CrimRxiv**.
+   mark **registered vs. exploratory** analyses. Wiley ACT currently says *Criminology* does **not**
+   accept preprints, so separate preregistration from manuscript preprint posting.
 4. **Open-science badges.** Wiley offers **Open Data**, **Open Materials**, and **Preregistered** badges
-   via the Center for Open Science; confirm whether *Criminology* currently issues them (待核实).
+   via the Center for Open Science on participating journals; follow the live submission prompts.
 
 ## Restricted criminal-justice data (common in criminology)
 
@@ -39,7 +42,7 @@ build the package as you go.
 
 ## Build-as-you-go checklist
 
-- [ ] Data-availability statement drafted to the journal's current requirement (待核实)
+- [ ] Data-availability statement drafted to Wiley/current portal wording
 - [ ] One **master script** regenerates **every** table and figure from raw/constructed data
 - [ ] **README** documents data provenance, construction, and how to reproduce each exhibit
 - [ ] **Seeds** set/reported for every stochastic step (bootstrap, RI, EM-based trajectory fits)
@@ -68,7 +71,7 @@ path*, so the answer is rarely "cannot share." Match your situation to a tier.
 | Agency / juvenile confidential records | DUA or confidentiality exemption + contact | code + simulated data matching schema |
 
 The principle: even when raw data cannot travel, the *code* and a runnable substitute should. Confirm
-the required statement wording against the journal's current submission guidelines (待核实).
+the final statement wording against the journal's current submission guidelines.
 
 ## Worked vignette: a restricted-data statement (illustrative)
 
@@ -87,16 +90,16 @@ the restriction, the legal basis, and the access route — not "available on req
 ## Output format
 
 ```
-【Data-availability statement】drafted to current requirement (待核实)? [Y/N]
+【Data-availability statement】drafted to Wiley/current portal wording? [Y/N]
 【Reproduces tables/figures?】master script verified locally? [Y/N]
 【Documentation】README + provenance + seeds + pinned versions? [Y/N]
 【Restricted data?】exemption note + access path (NACJD/agency) + synthetic data?
 【Preregistration】lodged + registered vs. exploratory marked? [Y/N/NA]
-【Badges】Open Data / Materials / Preregistered targeted? [list / 待核实]
+【Badges】Open Data / Materials / Preregistered targeted if portal offers them? [list / NA]
 【Next】crim-review-process
 ```
 
 ## Supplementary resources
 
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — ICPSR/NACJD archiving, preregistration, reproducibility tooling
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — open-science badges and data-policy items (待核实)
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — Wiley DAS guidance, ACT data-policy/preprint fields, and open-badge sources

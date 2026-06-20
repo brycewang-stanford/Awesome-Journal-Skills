@@ -1,6 +1,6 @@
 ---
 name: red-submission
-description: Use when running the final pre-submission preflight for the Review of Economic Dynamics (RED) — the USD 175 fee (USD 100 all-student; waived on second-and-later resubmissions) that gates review, submission via the ScienceDirect page through Elsevier Editorial Manager, the ≤250-word abstract, 1-6 keywords, author-year references, single-anonymized (no anonymization) format, AI declaration, and optional SSRN preprint. Final checks; it does not draft content.
+description: Use when running the final pre-submission preflight for the Review of Economic Dynamics (RED) — the current Elsevier Guide's USD 195 fee (USD 100 all-student; waived on second-and-later resubmissions) that gates review, submission via ScienceDirect/Editorial Manager, the ≤250-word abstract, 1-6 keywords, author-year references, single-anonymized format, AI declaration, Option C data statement, and optional SSRN preprint. Final checks; it does not draft content.
 ---
 
 # Submission Preflight for RED (red-submission)
@@ -13,9 +13,10 @@ description: Use when running the final pre-submission preflight for the Review 
 
 ## RED submission facts (verified; re-confirm on official pages)
 
-- **Fee gates review.** A **USD 175** submission fee is standard; **USD 100** if all coauthors are
-  full-time students at submission; **no fee for papers being resubmitted a second or later time**
-  (post-first-round revisions are exempt). **The review process does not begin until the fee is received.**
+- **Fee gates review.** The current Elsevier Guide lists a **USD 195** standard submission fee; **USD
+  100** if all coauthors are full-time students at submission; **no fee for papers being resubmitted a
+  second or later time**. First invited resubmissions pay a new fee. **The review process does not begin
+  until the fee is received.**
 - **Route.** Submit via the journal's **ScienceDirect** page ("Submit your article"); the workflow runs
   through **Elsevier Editorial Manager**.
 - **Do NOT anonymize.** RED uses **single-anonymized** review — author identity is visible to reviewers.
@@ -25,18 +26,19 @@ description: Use when running the final pre-submission preflight for the Review 
 - **Generative AI**: declare any use at submission.
 - **SSRN preprint**: RED offers **free SSRN preprint posting** during submission; the manuscript is made
   public once it passes the initial desk screen — opt in if you want early visibility.
-- **Replication readiness**: stage the data/code archive now (see `red-replication-and-data-policy`); a fast
-  acceptance should not stall on a missing archive. Flag any proprietary-data exemption to the Coordinating
-  Editor at submission.
+- **Replication and data readiness**: stage the RED data/code archive now and prepare the Elsevier Option C
+  data statement/repository metadata (see `red-replication-and-data-policy`). Flag any proprietary-data
+  exemption to the Coordinating Editor at submission.
 
 ## Preflight checklist
 
-- [ ] Fee path confirmed (USD 175 / USD 100 all-student / exempt resubmission); ready to pay
+- [ ] Fee path confirmed (USD 195 / USD 100 all-student / exempt second-or-later resubmission); ready to pay
 - [ ] Submitting via ScienceDirect → Editorial Manager
 - [ ] Manuscript **not** anonymized (single-anonymized model)
 - [ ] Abstract ≤250 words, stand-alone; 1–6 keywords; author-year references
 - [ ] Generative-AI declaration prepared
-- [ ] Replication archive staged; proprietary-data exemption flagged if needed
+- [ ] Replication archive staged; Option C data statement/repository metadata prepared
+- [ ] Proprietary-data exemption flagged if needed
 - [ ] SSRN preprint opt-in decided
 
 ## Anti-patterns
@@ -57,17 +59,19 @@ Run this scan after the mechanical preflight — it catches the substantive issu
 | Computation disclosed | solution method and an accuracy statement appear in text or appendix |
 | Archive runnable today | run-all executes end to end before you pay the fee |
 
-Paying USD 175 for a paper that will stall at the suitability screen is the most expensive formatting
+Paying USD 195 for a paper that will stall at the suitability screen is the most expensive formatting
 error at this journal: the fee is per submission and the screen happens before referees see anything.
 
 ## Fee-path micro-decisions
 
 - Mixed team (one student, one faculty): the USD 100 rate does not apply — **every** coauthor must be a
   full-time student at submission.
-- Resubmission rounds: the stated policy exempts papers resubmitted a second or later time — confirm
-  which round your revision counts as against the journal's current author guidelines before paying again.
+- Resubmission rounds: first invited resubmissions pay again; second-and-later resubmissions are exempt —
+  confirm which round your revision counts as against Editorial Manager before paying again.
 - Fee paid but desk-rejected: the fee is sunk; do not resubmit a cosmetic revision, since the same
   suitability screen applies.
+- Source precedence: the SED author page still carries an older 175 US dollar amount, while the active Elsevier
+  Guide/payment workflow lists USD 195; use the Guide amount for live preflight.
 
 ## Upload-order note
 
@@ -79,12 +83,12 @@ a garbled Bellman equation at the desk screen is a self-inflicted wound.
 ## Output format
 
 ```
-【Fee】USD 175 / 100 (all-student) / exempt (2nd+ resubmission)? [which]
+【Fee】USD 195 / 100 (all-student) / exempt (2nd+ resubmission)? [which]
 【Route】ScienceDirect → Editorial Manager? [Y/N]
 【Anonymization】left non-anonymized (single-anonymized)? [Y/N]
 【Front matter】abstract ≤250w / 1-6 keywords / author-year refs? [Y/N each]
 【Declarations】AI-use declared? [Y/N]
-【Replication】archive staged; exemption flagged if needed? [Y/N]
+【Data/replication】archive staged; Option C statement/repository metadata prepared; exemption flagged if needed? [Y/N]
 【Next step】await desk screen → red-review-process → red-rebuttal on R&R
 ```
 

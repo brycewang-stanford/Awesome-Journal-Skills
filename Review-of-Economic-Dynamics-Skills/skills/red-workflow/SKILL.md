@@ -1,6 +1,6 @@
 ---
 name: red-workflow
-description: Use when mapping the end-to-end lifecycle of a Review of Economic Dynamics (RED) manuscript — from confirming dynamic/quantitative scope, through the USD 175 fee and ScienceDirect/Editorial Manager submission, the single-anonymized two-referee review, the code-first data/code archive, to the revise-and-resubmit. Orchestration; it routes to the other red- skills rather than drafting content.
+description: Use when mapping the end-to-end lifecycle of a Review of Economic Dynamics (RED) manuscript — from confirming dynamic/quantitative scope, through the current Elsevier Guide's USD 195 fee and ScienceDirect/Editorial Manager submission, the single-anonymized two-reviewer process, the code-first data/code archive plus Option C data statement, to the revise-and-resubmit. Orchestration; it routes to the other red- skills rather than drafting content.
 ---
 
 # RED Manuscript Workflow (red-workflow)
@@ -23,15 +23,15 @@ description: Use when mapping the end-to-end lifecycle of a Review of Economic D
 6. **Exhibits** — IRFs, moment tables, model-vs-data figures. → `red-tables-figures`
 7. **Write** — RED house style, author-year references, ≤250-word stand-alone abstract, 1–6 keywords. → `red-writing-style`
 8. **Stage replication** — Build the data/code archive early; RED's policy is code-first. → `red-replication-and-data-policy`
-9. **Understand review** — Desk screen, single-anonymized, ≥2 referees, ~two-month post-desk target. → `red-review-process`
-10. **Submit** — Pay the USD 175 fee (USD 100 all-student), submit via ScienceDirect / Editorial Manager. → `red-submission`
+9. **Understand review** — Desk screen, single-anonymized, ≥2 reviewers when sent out; plan around fast-review norms without assuming a guaranteed decision date. → `red-review-process`
+10. **Submit** — Pay the USD 195 fee (USD 100 all-student), submit via ScienceDirect / Editorial Manager. → `red-submission`
 11. **Revise** — Response-to-referees after an R&R; resubmissions are fee-exempt. → `red-rebuttal`
 
 ## Anti-patterns
 
 - Treating RED like a generalist top-5 venue and ignoring its method-defined scope
 - Forgetting the per-submission fee gates the review (no fee paid → no review)
-- Leaving the replication archive to the accepted stage when the policy expects code-first discipline
+- Leaving the replication archive or Option C data statement to the accepted stage when the policy expects code-first discipline
 
 ## Router diagnostics
 
@@ -59,7 +59,7 @@ RED PIPELINE — [paper short title]
   G6 archive:      run-all reproduces exhibits; readme.txt drafted      [ ]
   G7 manuscript:   abstract ≤250w; author-year refs; 1–6 keywords       [ ]
   G8 submission:   fee path decided; ScienceDirect upload checked       [ ]
-  G9 review:       desk cleared; ~2-month post-desk clock running       [ ]
+  G9 review:       desk cleared; reviewer-clock expectations logged     [ ]
   G10 revision:    point-by-point reply; archive re-run and re-sent     [ ]
 ```
 

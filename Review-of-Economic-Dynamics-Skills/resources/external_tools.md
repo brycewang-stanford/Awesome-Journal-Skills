@@ -31,6 +31,8 @@ models. Choose tools that produce a clean, runnable replication archive — RED'
   expected computation time.
 - **Open-standard archives** — package the archive as `.zip`, `.gz`, or `.gzip` (the formats the RED
   data/code editor accepts) with a master "run-all" script.
+- **Repository/data-statement layer** — prepare repository DOI/links and data/software citations for
+  Elsevier Option C, or draft the data-availability statement explaining why sharing is limited.
 
 ## Empirical / time-series & calibration data
 

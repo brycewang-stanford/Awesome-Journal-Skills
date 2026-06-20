@@ -12,19 +12,19 @@ description: Use when running the final pre-submission preflight for a Journal o
 - Need to confirm double-blind anonymization is complete
 - Verifying the manuscript matches the JIBS Style Guide and the inclusive word limit
 
-> Always re-verify current limits, the submission-platform name, fees, and policy wording on the official JIBS submission-guidelines page and the JIBS Style Guide before submitting — specifics change. As of 2026-06-01 the key specs are below; items marked 待核实 are not confirmed against a single primary source.
+> Current limits, platform, fees, and policy wording below were refreshed from official JIBS/Springer/AIB pages on 2026-06-20. Re-verify the live submission-guidelines page and JIBS Style Guide before submitting.
 
 ## Verified JIBS specs (confirm current values)
 
-- **Length (inclusive):** Articles ~**10,000 words** for strong/broad contributions or ~**7,000 words** for narrower contributions; the count is **inclusive of everything** — abstract, text, endnotes, references, tables, figures, appendices. Research Notes in principle **under 4,000 words** (inclusive; exact ceiling 待核实).
+- **Length:** Articles ~**10,000 words** for strong/broad contributions or ~**7,000 words** for narrower contributions; word count includes abstract, text, endnotes, and references, while tables, figures, and online supplemental appendices can follow. Research Notes should be **4,000-6,000 words including everything**.
 - **Abstract:** up to **200 words** (raised from the historical 100-word limit).
 - **Formatting:** **JIBS Style Guide** — **11-point Times New Roman, double-spaced**; **author-date (name, year)** in-text citation style.
-- **Submission portal:** Springer Nature online manuscript-submission system, reached via the JIBS submission-guidelines page. (Exact platform name 待核实 — the AIB page references "Manuscript Central" while an aggregator names "Editorial Manager"; confirm the live link.)
+- **Submission portal:** JIBS online submission tool at **mc.manuscriptcentral.com**, reached from the Springer/AIB JIBS pages.
 - **Review:** **double-blind** (authors and reviewers mutually anonymous), preceded by an editorial desk-screen for fit and contribution.
 - **Integrity:** manuscripts are screened with **iThenticate/CrossCheck**; format-compliance checks run on the platform.
 - **Data transparency (DART):** the **JIBS Data Access and Research Transparency (DART)** policy applies; on acceptance, authors provide a **Data Accessibility Statement (DAS)**; data made available should be deposited in a reputable repository with a **DOI**.
 - **Ethics:** read the **JIBS Code of Ethics** before submitting.
-- **Fees:** **no submission fee** (submission fees abolished); subscription-published with no mandatory APC. An optional gold open-access APC exists (amount 待核实).
+- **Fees:** subscription-route publication has **no APC charges**; optional gold open access after acceptance currently lists **GBP 3,090 / USD 4,990 / EUR 3,990**.
 
 ## Pre-submission checklist
 
@@ -89,4 +89,4 @@ description: Use when running the final pre-submission preflight for a Journal o
 ## Resources
 
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — cross-country data sources and analysis/measurement-equivalence software
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official JIBS/AIB/Springer URLs behind every verified fact (accessed 2026-06-01); 待核实 items flagged
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official JIBS/AIB/Springer URLs behind every encoded current fact (refreshed 2026-06-20)

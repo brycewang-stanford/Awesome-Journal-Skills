@@ -1,6 +1,6 @@
 ---
 name: red-review-process
-description: Use when understanding or planning around the Review of Economic Dynamics (RED) editorial process — the editor desk/suitability screen, single-anonymized refereeing with a minimum of two reviewers, and SED's fast ~two-month average post-desk turnaround. Sets expectations and timelines; it is not the submission preflight (see red-submission).
+description: Use when understanding or planning around the Review of Economic Dynamics (RED) editorial process — the editor desk/suitability screen, single-anonymized refereeing with a minimum of two reviewers, and RED's fast-review orientation without promising a fixed decision date. Sets expectations and timelines; it is not the submission preflight (see red-submission).
 ---
 
 # Review Process at RED (red-review-process)
@@ -18,10 +18,11 @@ description: Use when understanding or planning around the Review of Economic Dy
 - **Single-anonymized review.** Reviewers' identities are concealed from authors, but **author identities
   are visible to reviewers** — this is *not* double-blind, so you do **not** anonymize the manuscript.
 - **Minimum of two reviewers.** Suitable papers go to at least **two independent referees**.
-- **Speed is a feature.** The SED advertises fast reviews, targeting roughly a **two-month average
-  post-desk turnaround** — RED positions itself among the more efficient journals in economics.
+- **Speed is a feature, not a guarantee.** The current reviewer page asks reviewers to notify the editor
+  if they cannot act within six weeks, and older SED newsletters report fast first-decision performance.
+  Treat this as planning guidance, then confirm live expectations in the current author system.
 - **Coordinating Editor.** **Loukas Karabarbounis** (University of Minnesota / Minneapolis Fed) is RED's
-  Coordinating Editor (the editor-in-chief equivalent). *(Some third-party sources are outdated on this — 待核实 elsewhere, but SED's own page is authoritative.)*
+  Coordinating Editor (the editor-in-chief equivalent), cross-checked on SED and ScienceDirect pages.
 
 ## Planning implications
 
@@ -44,13 +45,13 @@ Before submission, stage the same materials you would need for a fast R&R:
 
 - [ ] Manuscript is **not** anonymized (single-anonymized model)
 - [ ] Paper is in-scope and complete enough to clear the desk screen quickly
-- [ ] Expectations set for ≥2 referees and a ~two-month post-desk target
+- [ ] Expectations set for ≥2 referees and live post-desk timing guidance
 - [ ] Replication materials staged so a fast acceptance is not bottlenecked
 
 ## Anti-patterns
 
 - Double-blind-scrubbing a manuscript for a single-anonymized journal
-- Expecting the ~two-month clock to cover the desk screen or fee step
+- Treating an older turnaround statistic as a guaranteed current deadline
 - Treating slow-journal habits (thin appendix, no code) as acceptable here
 
 ## What fails the suitability screen
@@ -72,7 +73,7 @@ judgment, not a published rubric):
 ROUND LOG — [paper short title]
   Submitted (fee received):  [date]   ← clock starts after fee + desk
   Desk decision:             [date]   suitable / not suitable
-  Referee reports expected:  ~2 months post-desk (SED target; actuals vary)
+  Referee reports expected:  [live guidance / historical fast-review benchmark]
   Decision:                  [date]   reject / R&R / accept
   If R&R — archive rerun:    [date]   resubmission fee: exempt (2nd+ resubmission)
 ```

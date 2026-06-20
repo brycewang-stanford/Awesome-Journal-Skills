@@ -75,7 +75,7 @@ neutralizes it. Selection into offending and into treatment is the recurring wor
 ## Worked micro-example: a deterrence-policy quasi-experiment (illustrative)
 
 A state raises a sentencing penalty in some counties before others. A naive TWFE gives a 9% drop
-(illustrative); a referee flags forbidden comparisons among staggered adopters. Refit with a
+(illustrative); a referee flags invalid comparisons among staggered adopters. Refit with a
 heterogeneity-robust staggered estimator: flat pre-trends and a credibly identified 4% first-year drop.
 Cluster at the county (assignment) level; with 14 treated counties add a wild-cluster bootstrap, and
 note a NIBRS transition could inflate pre-period UCR counts.

@@ -6,9 +6,9 @@ description: Use to understand how Criminology (ASC / Wiley) evaluates a manuscr
 # Review Process (crim-review-process)
 
 Knowing how *Criminology* screens and decides lets you pre-empt failure modes before submitting. The
-journal uses a **blinded/anonymized** workflow (anonymized main document + separate title page) and is
-edited by a team of Co-Editors handling an interdisciplinary, theory-forward field. Verify the exact
-review-model wording and current masthead on the official pages (待核实).
+journal uses **double-anonymized** review (anonymized main document + separate title page) and is
+handled by the ASC/Wiley editorial team for an interdisciplinary, theory-forward field. Check the live
+ASC/Wiley pages for submission-day masthead text.
 
 ## When to trigger
 
@@ -19,17 +19,16 @@ review-model wording and current masthead on the official pages (待核实).
 
 ## How Criminology review works
 
-1. **Blinded / anonymized review.** Reviewers assess an **anonymized main document**; a **separate
-   title page** carries author identities. Anonymize accordingly (see `crim-submission`). The precise
-   term (single- vs. double-blind / masked) is 待核实 — confirm on the live page.
+1. **Double-anonymized review.** Reviewers assess an **anonymized main document**; a **separate title
+   page** carries author identities. Anonymize accordingly (see `crim-submission`).
 2. **Editorial screening first.** Editors screen for fit and quality before sending out for review.
    Papers that are out of scope, atheoretical, better suited to a sister journal (*Criminology & Public
    Policy* for policy evaluation), or methodologically unsound can be returned without full review.
 3. **Expert external review.** Papers passing screening go to reviewers chosen for theory and method;
    criminology reviewers probe identification, the dark figure, model choice, and theoretical payoff.
 4. **Decision categories.** Typically **reject**, **revise and resubmit** (major/minor), or **accept**;
-   a strong paper usually goes through at least one major revision. Exact category labels and norms are
-   set by the editors (待核实).
+   a strong paper usually goes through at least one major revision. Treat labels as editor-governed and
+   interpret them from the decision letter.
 5. **One submission at a time.** Submission is treated as a commitment to publish in *Criminology*;
    simultaneous submission elsewhere is not allowed.
 
@@ -51,8 +50,8 @@ review-model wording and current masthead on the official pages (待核实).
 
 ## Decision-letter decoder (set realistic expectations)
 
-The exact category labels are set by the editors (待核实), but the common reads map as follows. A first
-major revision is the modal good outcome at the ASC flagship, not a near-miss.
+The exact category labels are set by the editors, but the common reads map as follows. A first major
+revision is the modal good outcome at the ASC flagship, not a near-miss.
 
 | Letter signal | What it usually means | Your move |
 |---------------|-----------------------|-----------|
@@ -83,4 +82,4 @@ Treat this skill as an executable review pass, not a prose hint. First lock the 
 
 ## Supplementary resources
 
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — review model, editors, decision norms, sister-journal distinction (待核实)
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — review model, editor sources, decision norms, sister-journal distinction

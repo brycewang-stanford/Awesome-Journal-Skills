@@ -78,7 +78,8 @@ The JIBS Style Guide specifies 11-point Times New Roman, double-spaced, with aut
 
 ## 4. Submission & transparency (JIBS-specific)
 
-- **Submission portal:** Springer Nature online manuscript-submission system, reached via the JIBS submission-guidelines page (exact platform name 待核实 — verify the live link).
+- **Submission portal:** JIBS uses the online submission tool at **mc.manuscriptcentral.com**, reached from
+  the Springer/AIB JIBS pages; verify the live link before upload.
 - **DART / Data Accessibility Statement:** prepare a Data Accessibility Statement describing data availability; where data can be shared, deposit in a reputable repository with a **DOI** (e.g., OSF, ICPSR, Harvard Dataverse, Zenodo) and record the DOI.
 - **Code of Ethics:** read the JIBS Code of Ethics before submitting.
 - **ORCID:** keep an ORCID linked to your account.
@@ -94,4 +95,6 @@ The JIBS Style Guide specifies 11-point Times New Roman, double-spaced, with aut
 
 ## 6. Verify before you rely
 
-Editorial team, the submission platform name, word limits, fees, the optional open-access APC amount, and the DART policy wording change over time. Always confirm current requirements on the official JIBS submission-guidelines page and the JIBS Style Guide before submitting. Items marked 待核实 in `official-source-map.md` are not yet confirmed against a single primary source.
+Editorial team, submission links, word limits, fees, the optional open-access APC amount, and DART wording
+change over time. Always confirm current requirements on the official JIBS submission-guidelines page and
+the JIBS Style Guide before submitting.
