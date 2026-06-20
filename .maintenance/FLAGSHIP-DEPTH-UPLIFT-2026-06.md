@@ -96,5 +96,11 @@ Journal-of-Law-Economics-and-Organization (jleo, econ), Annual-Review-of-Economi
 
 ## Progress log
 - 2026-06-20: program defined; recon complete; prefixes verified collision-free; build brief locked.
+- 2026-06-20: Wave 1 and most of Wave 2 were published as 13 commits, bringing the repo to
+  2269 skills / 138 packs.
+- 2026-06-20: stuck remainder resumed by Codex; generated the remaining Wave 2 IER pack, all
+  Wave 3 finance/applied packs, all Wave 4 field-economics packs, all Wave 5 applied-tail and
+  management packs, and the full Wave 6+ backlog. New live inventory: 2665 skills / 171 packs /
+  200 root journal entries. Shared README/audit count registration updated in the same worktree.
 </content>
 </invoke>
