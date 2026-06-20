@@ -66,6 +66,8 @@ JMIS's identity — shaped by Vladimir Zwass's long editorship and his parallel 
 - Treating the IT artifact as an interchangeable "treatment" or setting
 - Picking JMIS only because it is T&F and easy to email, when MISQ/ISR is the natural home
 - Inventing an exemplar JMIS paper to justify fit instead of verifying it in the archive
+- Choosing the topic for data availability alone, with no managerial or economic question attached
+- A purely descriptive "we characterize X" framing with no decision it would change
 
 ## Stress-test the scope before you commit
 

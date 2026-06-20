@@ -49,6 +49,10 @@ A compact way to make positioning auditable — and a frequent JAMS device — i
 
 In every case, end the positioning with the same two sentences you will reuse downstream: the new theoretical understanding, and the new managerial guidance.
 
+## Read the stream's current editorial signals
+
+Area editors at JAMS know their stream's active debates, so position toward where the conversation is heading, not only where it has been. Check recent JAMS issues, special-issue calls, and editorials for the priorities the journal is signaling (e.g., sustainability/stakeholder marketing, AI in marketing, the marketing–finance interface), and locate your gap relative to those when it is honest to do so. This is positioning, not pandering — do not bolt a trendy keyword onto an unrelated paper, but if your contribution genuinely speaks to a live stream priority, say so explicitly so the editor sees the fit.
+
 ## Place positioning correctly in the manuscript
 
 JAMS papers carry positioning in two places, and they must agree. The **introduction** states the gap and the contribution compactly, in service of the question. A dedicated **theoretical-background / conceptual-development section** then does the deeper work — reviewing the stream, surfacing the tension, and motivating each hypothesis. Do not duplicate a full literature review in the intro; do not leave the intro without a clear gap statement. The contribution sentences in the intro should be the same ones the discussion revisits at the end — a paper whose claimed contribution drifts between intro and discussion reads as unsettled.
