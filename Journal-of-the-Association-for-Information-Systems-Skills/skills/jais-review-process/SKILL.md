@@ -13,6 +13,10 @@ description: Use when calibrating expectations for the Journal of the Associatio
 - You want to understand JAIS's "developmental reviewing" culture and how to engage it
 - You are deciding whether a major-revision invitation is worth the effort or signals a likely path to acceptance
 
+## Fit is screened before quality
+
+Like its Basket siblings, JAIS screens **fit** before it spends reviewer effort on quality — the Editor-in-Chief (or a deputy) assesses whether the paper belongs in JAIS and in the declared category before routing it for full review. This is why a technically excellent paper can be desk-rejected: not because the work is weak, but because the contribution is not a JAIS contribution, or the category is wrong. Practically, the fit screen rewards the upstream work in `jais-topic-selection` and `jais-contribution-framing` more than any amount of late polish. If you keep getting desk rejects, the problem is almost always fit or contribution, not execution.
+
 ## How JAIS review actually works
 
 JAIS runs a **double-blind** process: the Editor-in-Chief routes a submission, typically to a **Senior Editor** in the relevant category, who manages the review (commonly through an Associate Editor and reviewers). The distinctive feature is the journal's stated commitment to **"developmental reviewing"** with "an editorial board of eminent scholars engaging with authors on promising papers" — JAIS frames itself as trying to *build* good papers, not merely gate them. Practically: the SE's letter is the authoritative synthesis of where the paper stands and what it needs, and a developmental tone in the letter is a real signal that the editor sees promise.

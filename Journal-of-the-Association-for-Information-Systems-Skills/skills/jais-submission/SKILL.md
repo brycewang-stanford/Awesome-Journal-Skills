@@ -32,6 +32,10 @@ Self-select among JAIS's seven categories and confirm the budget (检索于 2026
 
 > Confirm the abstract word limit on the live style guide — it is **待核实** from the public format page.
 
+## Confirm the category one last time
+
+The single most consequential field in the JAIS submission form is the category, because it determines the Senior Editor, the reviewer pool, and the bar. Re-confirm at submission that the declared category still matches the paper after all revisions: a paper that drifted from an empirical test toward a construct-development contribution should move from Research Article to Theory; a synthesis that grew a forward-looking theoretical payoff may now be a Literature Review. A category mismatch is the most avoidable cause of a fit-screen return — fix it here, not after a rejection.
+
 ## Double-blind anonymization
 
 - [ ] No author names, affiliations, or identifying acknowledgments anywhere in the manuscript body

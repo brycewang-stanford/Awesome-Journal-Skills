@@ -20,6 +20,10 @@ Do not draft the response letter before the manuscript is actually revised. The 
 
 The **Senior Editor owns the decision**, so the SE's letter sets priorities. Build a triage table: SE-elevated concerns first, then AE and reviewer points, flagging where reviewers conflict. Resolve conflicts in the direction the SE signaled, and say so explicitly when you do. A revision that satisfies every reviewer but misses the SE's central concern fails; a revision that nails the SE's priorities and addresses reviewers proportionately succeeds.
 
+## Disagree only with evidence, and only where the SE has not ruled
+
+JAIS's developmental ethos rewards engagement over deference, so you may push back on a reviewer point — but do it on evidence, not rhetoric, and never against a position the Senior Editor has already settled. When two reviewers conflict and the SE has signaled a direction, follow it and explain in the letter that you are resolving the conflict per the editor's guidance. A revision that quietly ignores the SE's call, or that argues with the editor's framing, reads as not having understood the developmental conversation — the fastest way to convert a promising R&R into a rejection.
+
 ## Answer concerns in the currency of your tradition
 
 JAIS reviewers span paradigms, so a persuasive response speaks the right dialect of rigor.
