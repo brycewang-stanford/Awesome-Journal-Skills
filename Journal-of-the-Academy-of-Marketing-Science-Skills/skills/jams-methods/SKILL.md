@@ -38,6 +38,14 @@ JAMS publishes several empirical genres; the validity question is genre-specific
 - **Inter-coder reliability** reported; effect-size metric and artifact corrections justified.
 - **Moderator analysis** that tests the theory, plus publication-bias diagnostics.
 
+## Construct validity is JAMS's most-policed area
+
+Because so many JAMS papers are survey-based, the measurement model is where reviewers concentrate fire. Make the chain airtight: each construct has a **conceptual definition** first, then a measure whose items match that definition (content validity), then evidence of **reliability** (CR/α), **convergent validity** (AVE ≥ .50, significant loadings), and **discriminant validity**. For discriminant validity, report **HTMT** (threshold typically .85/.90) in addition to Fornell–Larcker — reviewers increasingly treat Fornell–Larcker alone as insufficient. If you adapt an existing scale, justify the changes and re-validate; if you create a new scale, follow a recognized scale-development procedure (item generation, purification, validation on a fresh sample). A reflective construct measured with formative items (or vice versa) is a fatal mismatch.
+
+## Tie the design back to the claim and the manager
+
+A method is "JAMS-ready" only when it supports both the theoretical claim and the managerial reading. After choosing the design, write one line: *the variation / manipulation that identifies the focal effect*, and one line: *the managerial quantity the estimates will produce*. If the design cannot deliver a managerially interpretable magnitude (e.g., a standardized path with no translatable unit), plan now to add a study, an elasticity, or a scenario analysis — discovering this after data collection is expensive. Hand the executed plan to `jams-data-analysis`, which carries the same managerial-magnitude discipline into reporting.
+
 ## Checklist
 
 - [ ] Genre named; design matched to the causal/behavioral/structural claim

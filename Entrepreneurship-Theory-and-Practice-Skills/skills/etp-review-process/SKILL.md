@@ -60,6 +60,10 @@ An ETP major R&R is **worth heavy investment** when the editor signals the contr
 - **Fighting an unwinnable R&R** when the premise itself was rejected
 - **Ignoring the practice mandate** in the revision because the theory got most reviewer ink
 
+## Worked vignette (illustrative)
+
+An author receives a major R&R. The editor's letter says the contribution is "potentially important" but lists two binding concerns: R1 doubts the mechanism is distinctively entrepreneurial, and R2 calls the practice section thin; a third reviewer raises minor measurement points. Reading the signal: "potentially important" plus a major R&R in ETP's developmental culture means this is a *winnable, worth-investing* revision, not a near-acceptance — the author should plan a substantial rebuild, not a light pass. The editor's prioritization is explicit (R1 and R2 are binding; R3 is secondary), so the revision plan leads with re-securing the entrepreneurial mechanism and rewriting the practice section as a real contribution, then mops up R3's measurement points. If, instead, R1 had rejected the premise outright with the editor concurring ("this is not an entrepreneurship contribution"), no feasible revision would save it and a reroute to JBV or a rebuild would beat a doomed resubmission. The author hands the prioritized plan to `etp-rebuttal`.
+
 ## Output format
 
 ```text

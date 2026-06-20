@@ -62,6 +62,10 @@ If a sibling genuinely owns your contribution, recommend rerouting *before* poli
 - **Move inflation** — claiming "overturn" while delivering "extend"
 - **Sibling blindness** — never addressing why this is ETP and not JBV/SEJ/AMJ
 
+## Worked vignette (illustrative)
+
+A family-business paper opens: "Although family firms are common, little research examines how they innovate." A specialist ETP reviewer reads this as gap-spotting and an outsider tell — the socioemotional wealth (SEW) literature has examined exactly this for years. The repositioning names the conversation and a move: the SEW account predicts family firms *under-invest* in risky innovation to protect non-financial endowments, yet recent evidence is mixed. The paper's move is **reconcile** — it shows the SEW innovation-aversion holds when family control is threatened but reverses when innovation is framed as preserving the firm *for the next generation* (transgenerational intent as the contingency). Now the contribution is field-level ("we resolve when SEW suppresses vs. spurs innovation"), it engages ETP's family-business franchise directly, and the sibling defense is clean: this is entrepreneurship/family-firm theory (ETP), not a competitive-strategy story (SEJ) or a generic innovation-management study (AMJ). Critically, the move is "reconcile," matched to evidence — not an inflated "overturn."
+
 ## Output format
 
 ```text

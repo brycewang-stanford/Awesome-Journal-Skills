@@ -58,6 +58,10 @@ A draft claims "generative-AI tools raise analyst productivity." As stated it is
 - [ ] Economic/platform papers state assumptions and yield falsifiable comparative statics
 - [ ] Level of analysis and boundary conditions are explicit
 
+## Tie the theory to a managerial decision
+
+JMIS theory earns its place when it implies a decision a manager, firm, or platform could make differently. After stating the mechanism and predictions, ask: *whose choice does this theory inform, and how?* A platform-openness model should tell a platform operator when to open vs. close an API; an IT-value mechanism should tell a CIO which complementary investments make a system pay; a privacy-economics model should tell a firm when disclosure deters vs. invites harm. Theory with no decision attached can still be correct, but at JMIS it reads as under-motivated — the journal's center of gravity is the *management* of IS, so the managerial hook belongs in the theory, not only in a closing implications paragraph.
+
 ## Anti-patterns
 
 - "More IT → more performance" with no process, complementarity, or contingency

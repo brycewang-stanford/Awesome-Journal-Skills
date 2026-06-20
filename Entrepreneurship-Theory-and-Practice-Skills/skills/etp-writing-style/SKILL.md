@@ -62,6 +62,10 @@ The discussion should (1) restate the theory contribution against the conversati
 - **Perfunctory practice close** — "managers should pay attention" as the final word
 - **Premature intro** — an introduction written before the contribution settled
 
+## Worked vignette (illustrative)
+
+Compare two openings for the same paper. Weak: "Entrepreneurship is important for economic growth. Prior research has studied many factors affecting venture performance. In this paper, we study the effect of founder cognition on outcomes." It is a truism, names no conversation, and hides the contribution. Strong: "Founders routinely bet a venture's survival on intuitions that, by any predictive standard, look reckless — yet some of these bets are exactly what keeps young firms alive. We show that effectual, affordable-loss reasoning extends venture survival in highly uncertain markets but not in stable ones, qualifying the effectuation–causation debate. For investors and accelerators, this means predictive business plans are not a universal quality signal: in uncertain markets, evidence of affordable-loss experimentation is the better bet." The strong version hooks with a real entrepreneurial puzzle, names the conversation, states the matched theory-and-practice contribution within the first paragraph, and keeps the phenomenon concrete — exactly the ETP voice. Note it was written *after* the analysis settled.
+
 ## Output format
 
 ```text

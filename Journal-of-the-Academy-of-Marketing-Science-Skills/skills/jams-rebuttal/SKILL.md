@@ -36,6 +36,23 @@ JAMS R&Rs are **developmental and often multi-round**. Revise the manuscript fir
 
 If the revision is heading toward conditional acceptance, prepare the **data and code availability statement** and any repository deposit (e.g., OSF / Mendeley Data) per Springer policy, so acceptance is not a scramble. Keep deposited materials and links anonymized while review continues.
 
+## Triage the comments before you start revising
+
+Not every comment carries equal weight. Sort them into a working table so effort follows priority:
+
+| Tier | What it is | How to handle |
+|---|---|---|
+| Decisive | Editor-flagged "must address"; touches the theory or managerial gate | Do first; lead the response and the revision with these |
+| Substantive | Validity/identification (CMV, endogeneity), positioning, missing analysis | Address fully with new analysis or reframing |
+| Clarifying | Exposition, construct naming, exhibit readability | Fix and note briefly |
+| Decline | A request that would harm the paper or exceeds the design | Decline respectfully, with evidence and reasoning |
+
+The fastest way to lose a JAMS R&R is to spend the revision on tier-3 polish while a decisive tier-1 concern is met with a paragraph instead of new work.
+
+## Handle conflicting reviewers
+
+When two reviewers pull in opposite directions, do not silently side with one. State the tension to the editor in the response letter, explain the choice you made and why (often deferring to the editor's stated priorities), and where feasible offer a compromise (e.g., a robustness analysis in the appendix that satisfies the second reviewer). Surfacing the conflict is read as candor; ignoring one reviewer to please the other is read as evasion and usually resurfaces in the next round.
+
 ## Checklist
 
 - [ ] Manuscript revised before the letter was drafted

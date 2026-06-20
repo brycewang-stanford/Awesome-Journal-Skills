@@ -59,6 +59,10 @@ A team wants to claim that an ERP go-live raised plant productivity. A cross-sec
 - [ ] Design-science: utility evaluated vs. credible baselines, tied to a managerial decision
 - [ ] Core evidence fits ≤50 pages; appendix carries only support, not load-bearing claims
 
+## Platform and e-commerce data: design around its pathologies
+
+Platform and marketplace data — a JMIS staple — carry built-in threats that the design must anticipate, not patch later. Participation and intensity are endogenous (sellers/buyers self-select into features); two-sidedness means a shock to one side feeds back to the other, so a naive one-side regression is mis-specified; ranking/recommendation systems create feedback loops where the outcome you measure was partly caused by the system you study; and platform redesigns are often rolled out non-randomly. Build the identification around a genuine source of exogenous variation (a staged redesign, an exogenous policy or pricing change, a randomized experiment the platform ran) and state explicitly how you handle cross-side feedback and algorithmic confounding. Reviewers on platform papers will probe exactly these points.
+
 ## Anti-patterns
 
 - A causal IT-value claim resting on a cross-sectional or correlational design

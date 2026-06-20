@@ -54,6 +54,10 @@ A privacy paper opens: "Little is known about how breach disclosure laws affect 
 - [ ] Reference-discipline borrowing is subordinated to the IS contribution
 - [ ] Fit vs. MISQ/ISR/JAIS/Management Science is argued where relevant
 
+## Show you know the JMIS conversation specifically
+
+JMIS reviewers notice when a paper engages the IS basket generically but skips the *JMIS* lineage on its own topic. If you write on platforms, e-commerce, IT value, or security/privacy economics, the journal has published streams on exactly those questions; engaging them signals you are joining JMIS's conversation, not just any IS conversation. This is also where the management/economics cut matters: position against the IT-value, platform-economics, or security-economics literatures (JMIS's home turf) rather than only against design-science or pure-behavioral streams, which read as a better fit for MISQ. The strongest front ends make the reader feel the paper was *written for* JMIS, not retrofitted to it.
+
 ## Anti-patterns
 
 - Positioning only in economics/marketing/CS with no IS stream named

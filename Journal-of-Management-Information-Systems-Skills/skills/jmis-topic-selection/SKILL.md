@@ -55,6 +55,10 @@ Topic selection is also an outlet decision, and it is cheaper to make now than a
 - [ ] Fit vs. MISQ/ISR/JAIS/Management Science is argued, not assumed
 - [ ] The insight generalizes beyond the single system, firm, or dataset
 
+## Topics JMIS has historically rewarded
+
+JMIS's identity — shaped by Vladimir Zwass's long editorship and his parallel work on electronic commerce — leans toward the *management and economics* of IS. Questions that sit squarely in its wheelhouse: the business value and complementarities of IT and emerging tech (now including AI/analytics); the design, governance, and competition of **digital platforms and marketplaces**; **e-commerce** and digital channels; the economics of **information security and privacy**; decision support and business analytics in real managerial settings; and the organizational and market impacts of new technology. A topic that maps cleanly onto one of these — with the technology load-bearing — starts with the wind at its back; one that only borrows an IS setting to make a reference-discipline point starts behind.
+
 ## Anti-patterns
 
 - A technically strong model with no managerial or economic question — reads as a CS paper in IS clothing
