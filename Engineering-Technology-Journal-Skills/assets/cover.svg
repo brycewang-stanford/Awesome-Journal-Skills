@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="1100" viewBox="0 0 880 1100" role="img" aria-label="Engineering & Technology Journal Skills — 40 flagship engineering journals">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0f1a"/>
+      <stop offset="0.55" stop-color="#13233b"/>
+      <stop offset="1" stop-color="#0e2b2b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f59e0b"/>
+      <stop offset="0.5" stop-color="#fb923c"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="880" height="1100" fill="url(#bg)"/>
+  <rect x="36" y="36" width="808" height="1028" rx="28" fill="none" stroke="#243b55" stroke-width="2"/>
+
+  <!-- gear + circuit motif -->
+  <g transform="translate(440,250)" stroke="url(#accent)" fill="none" opacity="0.9">
+    <circle r="96" stroke-width="3"/>
+    <circle r="40" stroke-width="3"/>
+    <g stroke-width="14" stroke-linecap="butt">
+      <line x1="0" y1="-96" x2="0" y2="-128"/>
+      <line x1="0" y1="96" x2="0" y2="128"/>
+      <line x1="-96" y1="0" x2="-128" y2="0"/>
+      <line x1="96" y1="0" x2="128" y2="0"/>
+      <line x1="-68" y1="-68" x2="-90" y2="-90"/>
+      <line x1="68" y1="68" x2="90" y2="90"/>
+      <line x1="-68" y1="68" x2="-90" y2="90"/>
+      <line x1="68" y1="-68" x2="90" y2="-90"/>
+    </g>
+  </g>
+  <g transform="translate(440,250)" stroke="#38bdf8" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M-170 150 H-120 V110 H-70"/>
+    <circle cx="-170" cy="150" r="5" fill="#38bdf8" stroke="none"/>
+    <path d="M170 150 H120 V110 H70"/>
+    <circle cx="170" cy="150" r="5" fill="#34d399" stroke="none"/>
+  </g>
+
+  <text x="440" y="470" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="58" fill="#f4f6fb" font-weight="700">Engineering &amp;</text>
+  <text x="440" y="538" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="58" fill="#f4f6fb" font-weight="700">Technology</text>
+  <text x="440" y="600" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#fb923c" font-weight="600">Journal Skills</text>
+
+  <line x1="240" y1="648" x2="640" y2="648" stroke="#243b55" stroke-width="2"/>
+
+  <text x="440" y="706" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="30" fill="#cbd5e1">40 flagship engineering journals</text>
+  <text x="440" y="748" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#94a3b8">IEEE · Automatica · IJRR · Optica · Nature Electronics</text>
+  <text x="440" y="780" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#94a3b8">AIChE · Acta Materialia · JFM · JMPS · Applied Energy</text>
+
+  <g font-family="-apple-system, 'Segoe UI', sans-serif" font-size="20" fill="#0a0f1a">
+    <rect x="250" y="828" width="160" height="44" rx="22" fill="url(#accent)"/>
+    <text x="330" y="856" text-anchor="middle" font-weight="700">fit · framing</text>
+    <rect x="470" y="828" width="160" height="44" rx="22" fill="#38bdf8"/>
+    <text x="550" y="856" text-anchor="middle" font-weight="700">house style</text>
+  </g>
+
+  <text x="440" y="960" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="20" fill="#64748b">One fit-and-house-style skill per journal</text>
+  <text x="440" y="990" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="20" fill="#64748b">+ en-engtech-journal-workflow routing</text>
+</svg>

@@ -1,0 +1,28 @@
+{
+  "name": "engineering-technology-journal-skills",
+  "description": "Agent skill stack for 40 flagship English-language engineering and technology journals — completing the 'engineering & technology' category that the natural-science bundle leaves thin. Covers the IEEE Transactions / Proceedings family (control, information theory, signal processing, communications, power, industrial electronics, antennas, robotics, medical imaging, biomedical engineering), Automatica and IJRR, the optics/photonics flagships (Optica, Light: Science & Applications, Laser & Photonics Reviews), Nature Electronics and Nature Biomedical Engineering, the mechanics/solids/fluids/manufacturing/aerospace venues, the AIChE/chemical-and-process-engineering and energy-engineering flagships, and the materials-engineering and civil/transportation leaders. One self-contained fit-and-house-style skill per journal, plus en-engtech-journal-workflow routing.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "engineering",
+    "technology",
+    "electrical-engineering",
+    "control-systems",
+    "communications",
+    "robotics",
+    "photonics",
+    "mechanical-engineering",
+    "chemical-engineering",
+    "energy",
+    "materials-engineering",
+    "biomedical-engineering",
+    "academic-writing",
+    "journal-submission"
+  ]
+}

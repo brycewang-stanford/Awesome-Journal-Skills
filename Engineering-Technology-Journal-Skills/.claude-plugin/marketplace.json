@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "engineering-technology-journal-skills",
+  "version": "0.1.0",
+  "description": "Per-journal fit-and-house-style skills for 40 flagship English-language engineering and technology journals, plus en-engtech-journal-workflow routing.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "engineering-technology-journal-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "English engineering / technology journal routing and per-journal fit skills with official-submission-check discipline.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "engineering",
+        "technology",
+        "electrical-engineering",
+        "control-systems",
+        "communications",
+        "robotics",
+        "photonics",
+        "chemical-engineering",
+        "energy",
+        "materials-engineering"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/acta-materialia",
+        "skills/additive-manufacturing",
+        "skills/aiche-journal",
+        "skills/applied-energy",
+        "skills/automatica",
+        "skills/biomaterials",
+        "skills/cement-and-concrete-research",
+        "skills/chemical-engineering-journal",
+        "skills/composites-part-b-engineering",
+        "skills/en-engtech-journal-workflow",
+        "skills/energy-storage-materials",
+        "skills/ieee-journal-on-selected-areas-in-communications",
+        "skills/ieee-transactions-on-antennas-and-propagation",
+        "skills/ieee-transactions-on-automatic-control",
+        "skills/ieee-transactions-on-biomedical-engineering",
+        "skills/ieee-transactions-on-communications",
+        "skills/ieee-transactions-on-industrial-electronics",
+        "skills/ieee-transactions-on-information-theory",
+        "skills/ieee-transactions-on-medical-imaging",
+        "skills/ieee-transactions-on-power-electronics",
+        "skills/ieee-transactions-on-power-systems",
+        "skills/ieee-transactions-on-robotics",
+        "skills/ieee-transactions-on-signal-processing",
+        "skills/ieee-transactions-on-wireless-communications",
+        "skills/international-journal-of-machine-tools-and-manufacture",
+        "skills/international-journal-of-plasticity",
+        "skills/journal-of-fluid-mechanics",
+        "skills/journal-of-membrane-science",
+        "skills/journal-of-power-sources",
+        "skills/journal-of-the-mechanics-and-physics-of-solids",
+        "skills/laser-and-photonics-reviews",
+        "skills/light-science-and-applications",
+        "skills/nature-biomedical-engineering",
+        "skills/nature-electronics",
+        "skills/optica",
+        "skills/proceedings-of-the-ieee",
+        "skills/progress-in-aerospace-sciences",
+        "skills/progress-in-energy-and-combustion-science",
+        "skills/progress-in-materials-science",
+        "skills/the-international-journal-of-robotics-research",
+        "skills/transportation-research-part-b-methodological"
+      ]
+    }
+  ]
+}
