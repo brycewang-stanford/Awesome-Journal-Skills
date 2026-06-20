@@ -66,6 +66,7 @@ Senior Editors at JAIS are reading for whether the paper's *trajectory* has impr
 - [ ] Required data materials (matrix/descriptives, anonymized dataset) updated and referenced
 - [ ] Revised manuscript within its category budget and ≤65pp; double-blind anonymity preserved
 - [ ] Every comment quoted, answered, and cross-referenced to a change
+- [ ] The letter opens with the sharpened contribution and the two or three biggest changes
 
 ## Anti-patterns
 

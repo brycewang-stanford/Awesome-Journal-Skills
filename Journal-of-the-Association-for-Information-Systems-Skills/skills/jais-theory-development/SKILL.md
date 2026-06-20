@@ -56,6 +56,7 @@ IS effects are contingent on the artifact, the user, the task, and the context. 
 - [ ] Hypotheses / propositions / design propositions are derived *before* results (no HARKing)
 - [ ] Boundary conditions and scope are stated
 - [ ] The genre matches the chosen JAIS category (construct-first → Theory, not Research Article)
+- [ ] Any borrowed reference-discipline theory is revised by the IS context (a round trip, not a one-way import)
 
 ## Referee pushback mapped to the theory fix
 

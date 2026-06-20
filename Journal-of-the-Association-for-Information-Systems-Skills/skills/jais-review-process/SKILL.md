@@ -58,6 +58,7 @@ The **Senior Editor owns the decision.** When reviewers conflict, resolve in the
 - [ ] Reviewer conflicts are identified and a resolution direction (per the SE) is noted
 - [ ] The developmental tone (or its absence) is read as a promise signal
 - [ ] Expectations for revision scope and timeline are realistic for the decision type
+- [ ] Volatile facts (SE names, timelines, acceptance rate, impact factor) are treated as 待核实
 
 ## Engage the developmental culture deliberately
 

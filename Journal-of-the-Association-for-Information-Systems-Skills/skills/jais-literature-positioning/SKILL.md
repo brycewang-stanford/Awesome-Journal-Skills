@@ -14,6 +14,10 @@ description: Use when positioning a Journal of the Association for Information S
 - You cannot answer "why JAIS rather than ISR / MISQ / JMIS" from the front end alone
 - You are writing a Literature Review submission and need to justify *which* literature and *why*
 
+## What positioning is for at JAIS
+
+Positioning is not a courtesy survey of prior work; at a theory-forward journal it is where you earn the right to make a contribution. The front end must convince a pluralistic editor of three things in quick succession: that there is a live IS conversation worth advancing, that you know it well enough to move it, and that JAIS is where this move belongs. Everything else in the paper — theory, method, evidence — is read against the stake you set here. Weak positioning is not a stylistic flaw; it is the most common reason a competent paper is desk-rejected for fit.
+
 ## Position for a pluralistic, theory-forward audience
 
 JAIS draws reviewers from across the IS field's traditions — behavioral, economic, design-science, organizational, and critical/philosophical — because the journal is "inclusive in topics, level and unit of analysis, theory, method and philosophical and research approach." Two consequences for positioning. First, you cannot assume your reviewer shares your sub-tradition's shorthand: define your conversation explicitly. Second, because JAIS "encourages theory based multi- or inter-disciplinary research," the strongest front ends show how an IS phenomenon lets you *speak back* to a reference discipline, not just import from it.
@@ -50,6 +54,8 @@ JAIS's Literature Review category (SE Gregory Vial, 待核实) recognizes two ge
 - [ ] Self-citations are worded neutrally for double-blind review
 - [ ] For a Literature Review: scope, search/coding method, and theoretical payoff are stated
 - [ ] Citations are real and verifiable (no invented exemplars); APA 6th style
+- [ ] The front end alone makes a pluralistic editor feel the paper belongs in JAIS's project
+- [ ] Process facts quoted are from the source map or marked 待核实
 
 ## Referee pushback mapped to the positioning fix
 

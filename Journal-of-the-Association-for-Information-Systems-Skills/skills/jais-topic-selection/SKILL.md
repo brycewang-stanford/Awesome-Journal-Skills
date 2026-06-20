@@ -65,6 +65,8 @@ Suppose a team has rich field data on how a new decentralized-finance protocol c
 - [ ] The unit/level of analysis (individual, group, firm, network, society) is named
 - [ ] Length budget fits the category (≤~15k typical; ≤65pp absolute)
 - [ ] The reason this is JAIS and not MISQ/ISR/JMIS can be stated in one sentence
+- [ ] Swapping the IT artifact for a non-technological equivalent would break the contribution (the load-bearing test)
+- [ ] Volatile category facts (SE names, word budgets) are treated as 待核实 against the live author page
 
 ## Anti-patterns
 
