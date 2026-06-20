@@ -53,6 +53,10 @@ A method is "JAMS-ready" only when it supports both the theoretical claim and th
 - **Provenance.** Name the data source (panel/scanner such as NielsenIQ/Circana, CRM, a field partner, a Prolific/Qualtrics panel) and document sample construction, screening, and any exclusions — JAMS reviewers and the data-availability policy both expect a clear data trail.
 - **Multi-source / multi-wave designs** strengthen both causal credibility and the CMV defense; flag where a single-source cross-section limits the causal claim and adjust the language accordingly.
 
+## Pre-registration and replicability
+
+For experiments and field studies, pre-registration (AsPredicted / OSF) strengthens the inference and pre-empts a HARKing or *p*-hacking critique; report any deviations from the plan. Across all genres, design the data and analysis pipeline now so it can satisfy the Springer data/code availability policy at acceptance — keep raw data, cleaning scripts, and estimation code organized and documented from the start rather than reconstructing them under deadline. A clean, shareable pipeline is also the cheapest insurance against a reviewer who asks to see a specific robustness check.
+
 ## Checklist
 
 - [ ] Genre named; design matched to the causal/behavioral/structural claim

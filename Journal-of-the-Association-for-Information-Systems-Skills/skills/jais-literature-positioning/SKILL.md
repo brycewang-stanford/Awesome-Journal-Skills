@@ -27,6 +27,11 @@ JAIS draws reviewers from across the IS field's traditions — behavioral, econo
 
 JAIS shares the Basket with MISQ, ISR, JMIS, EJIS, ISJ, JSIS, and JIT. Reviewers will ask "why JAIS?" Be ready: a paper whose contribution is **the theory or the conceptual framework itself** is a natural JAIS fit (it has a Theory category); a paper that is primarily a hard identification result may read as ISR; a strongly design-science artifact may read as MISQ. State the fit in the cover letter and let the front end reinforce it.
 
+## Two failure modes JAIS reviewers name by name
+
+- **Single-silo positioning.** The front end cites only the author's home sub-tradition (say, only behavioral IS) while the reviewer pool spans economics, design science, and interpretive work. Cure: anchor the conversation in terms recognizable across traditions, then specialize.
+- **Import-without-return.** The paper borrows a reference-discipline theory (economics, psychology, sociology, CS) and applies it to an IS setting without changing what that theory predicts. JAIS calls this a borrowed-theory application; cure it by making the IS context revise the source theory.
+
 ## For Literature Review submissions, positioning *is* the method
 
 JAIS's Literature Review category (SE Gregory Vial, 待核实) recognizes two genres: a structured synthesis that informs new directions, and theory development/elaboration *through* review. Either way, the boundary of the literature you include is a defended choice — state inclusion/exclusion criteria, the search and coding procedure, and the theoretical payoff the synthesis produces. A review without a method and a forward-looking contribution is a desk-reject here.

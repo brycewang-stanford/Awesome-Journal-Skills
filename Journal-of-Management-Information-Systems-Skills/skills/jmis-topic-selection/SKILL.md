@@ -54,6 +54,8 @@ Topic selection is also an outlet decision, and it is cheaper to make now than a
 - [ ] You can name the JMIS audience segment that cares and the one that would desk-reject
 - [ ] Fit vs. MISQ/ISR/JAIS/Management Science is argued, not assumed
 - [ ] The insight generalizes beyond the single system, firm, or dataset
+- [ ] The question passes the deletion, audience, and decision tests
+- [ ] The phenomenon maps onto a JMIS-rewarded area (IT value, platforms, e-commerce, security/privacy economics, analytics)
 
 ## Topics JMIS has historically rewarded
 

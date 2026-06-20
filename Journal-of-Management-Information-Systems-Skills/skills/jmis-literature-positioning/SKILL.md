@@ -65,6 +65,9 @@ JMIS reviewers notice when a paper engages the IS basket generically but skips t
 - "Gap = nobody did this" with no theoretical tension
 - Ignoring prior JMIS papers on the exact phenomenon (signals not knowing the field)
 - Citing the IS basket as decoration while the real argument lives in the reference discipline
+- Skipping prior JMIS papers on the topic while citing distant econ/CS work
+- A positioning that any of the three paragraphs (phenomenon / tension / delta) cannot be written for
+- Positioning against design-science/behavioral streams when the management-economics cut is the JMIS fit
 
 ## A three-paragraph positioning skeleton
 

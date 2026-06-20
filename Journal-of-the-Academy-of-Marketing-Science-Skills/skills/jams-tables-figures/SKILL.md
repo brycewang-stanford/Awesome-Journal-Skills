@@ -55,6 +55,10 @@ Two exhibits decide whether a JAMS reviewer believes the contingency story and t
 
 Give every exhibit a **descriptive title** that states what it shows ("Table 3. Structural Model Estimates for the Brand-Equity → Firm-Value Path"), define every variable and abbreviation in the note, state the sample size, and number exhibits in the order they are first cited in the text. Keep one numbering sequence across the main paper, and a separate clearly-prefixed sequence for any online appendix, so a reviewer can always tell which file an exhibit lives in.
 
+## Main text vs. supplementary split
+
+Decide deliberately what each exhibit is for. The **main text** carries only the exhibits a reader needs to follow the core argument: the conceptual model, the key measurement evidence, the structural results, the central interaction/mediation, and the managerial-magnitude exhibit. Everything else — full item wording, complete correlation matrices, additional samples, alternative specifications, and most robustness — belongs in the **online/supplementary appendix**, clearly labeled and self-contained. Pushing supporting detail to the appendix keeps the printed paper legible and signals to the reviewer that you know which exhibits actually prove the claim.
+
 ## Checklist
 
 - [ ] Conceptual model figure present and matches the hypothesis list exactly

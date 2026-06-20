@@ -70,6 +70,9 @@ Platform and marketplace data — a JMIS staple — carry built-in threats that 
 - Single-source, single-wave self-report with no procedural CMB remedies
 - A design-science artifact benchmarked only against strawman baselines, or with no managerial relevance
 - A design that "fits" only by exporting half the evidence to an online appendix
+- Method chosen for fashion (deep learning where transparent regression answers the claim better)
+- A platform analysis that ignores two-sided feedback or algorithmic confounding in the data
+- No statement of why this method is the right tool for this specific claim
 
 ## Make the method serve the claim, not fashion
 

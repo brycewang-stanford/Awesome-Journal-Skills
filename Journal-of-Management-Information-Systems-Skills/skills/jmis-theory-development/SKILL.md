@@ -69,6 +69,9 @@ JMIS theory earns its place when it implies a decision a manager, firm, or platf
 - An analytical model whose contribution is "we model X" rather than an insight
 - "We applied [reference-discipline theory] to [IS setting]" with no new IS mechanism
 - Hypotheses that merely restate correlations the data already revealed
+- Importing a reference-discipline theory with no IS-forced extension (application, not contribution)
+- Theory with no managerial decision attached — correct but under-motivated for JMIS
+- Boundary conditions left implicit, so the claim reads as an over-generalized universal law
 
 ## Borrow reference-discipline theory, but earn an IS extension
 

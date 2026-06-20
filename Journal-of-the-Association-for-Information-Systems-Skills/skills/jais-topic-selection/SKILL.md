@@ -34,6 +34,20 @@ JAIS's distinctive feature is that **theory and review are first-class submissio
 
 Most empirical/theory/review/foundational papers should stay under **~15,000 words** — beyond that "are very likely to receive extra scrutiny from the editors and may be returned to be shortened," and **manuscripts over 65 pages including everything will not be sent out for review** (检索于 2026-06；以官网为准). Decide the category *and* its budget now, before you over-build.
 
+## The "why JAIS, not the sibling" test, made concrete
+
+The single most useful pre-submission discipline is answering "why JAIS?" against each near neighbor, because a wrong answer predicts a fit desk-reject. Use this map.
+
+| If a reviewer says it reads like… | The real home might be… | The JAIS-defending move |
+|-----------------------------------|-------------------------|--------------------------|
+| a hard causal identification result with thin theory | ISR (INFORMS) | foreground the theoretical/conceptual payoff; consider Theory or Research Article with theory first |
+| a polished IT-artifact build with light theory | MISQ (design-science identity) | sharpen the generalizable design knowledge; lean into JAIS's theory framing |
+| an applied systems/economic-modeling study | JMIS | show the cross-disciplinary theoretical contribution, not just the model |
+| a broad management/OR study not about IS | Management Science | confirm the IT artifact is load-bearing, or reroute |
+| a literature summary with no forward theory | a review outlet without JAIS's two-genre bar | add method + theoretical destination (Literature Review category) |
+
+If you cannot win the "why JAIS" argument for *any* category, the topic is not yet a JAIS topic — fix that before writing.
+
 ## Worked vignette: routing the same study to different categories (illustrative)
 
 Suppose a team has rich field data on how a new decentralized-finance protocol changed lending behavior. The *same evidence* could anchor three different JAIS submissions, and the category choice changes everything downstream. As a **Research Article**, the payoff is a theory-tested empirical result about IT-enabled disintermediation — reviewers will demand identification and validity. As **Foundational Research on Novel Digital Phenomena**, the payoff is the first disciplined account of a genuinely new phenomenon, and over-theorizing too early would be a flaw; reviewers reward careful description and pre-theoretical insight. As a **Theory** paper, the data recede and a new construct (say, "algorithmic trust substitution") plus its nomological net becomes the contribution. Pick before you write: each route has a different Senior Editor, bar, and length budget.

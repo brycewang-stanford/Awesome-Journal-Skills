@@ -49,6 +49,10 @@ Not every comment carries equal weight. Sort them into a working table so effort
 
 The fastest way to lose a JAMS R&R is to spend the revision on tier-3 polish while a decisive tier-1 concern is met with a paragraph instead of new work.
 
+## Show movement across rounds
+
+JAMS R&Rs are often multi-round, and area editors track whether each revision actually moves on the concerns they flagged. In a second-round letter, briefly remind the editor what changed since the prior round and how the remaining concerns were addressed, so progress is visible rather than buried. Avoid re-litigating points already settled in an earlier round; reopening a resolved issue signals that the paper is going backward. The trajectory the editor wants to see is a paper that is demonstrably stronger on the theory and managerial gates with each pass.
+
 ## Handle conflicting reviewers
 
 When two reviewers pull in opposite directions, do not silently side with one. State the tension to the editor in the response letter, explain the choice you made and why (often deferring to the editor's stated priorities), and where feasible offer a compromise (e.g., a robustness analysis in the appendix that satisfies the second reviewer). Surfacing the conflict is read as candor; ignoring one reviewer to please the other is read as evasion and usually resurfaces in the next round.
