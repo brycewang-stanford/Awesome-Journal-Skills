@@ -57,6 +57,8 @@ A draft claims "generative-AI tools raise analyst productivity." As stated it is
 - [ ] IT-value papers theorize complementarities and contingencies, not a universal effect
 - [ ] Economic/platform papers state assumptions and yield falsifiable comparative statics
 - [ ] Level of analysis and boundary conditions are explicit
+- [ ] Any borrowed reference-discipline theory has a named, IS-forced extension
+- [ ] The theory implies a concrete decision a manager, firm, or platform could make differently
 
 ## Tie the theory to a managerial decision
 

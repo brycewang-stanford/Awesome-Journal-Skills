@@ -53,6 +53,8 @@ Suppose the main coefficient implies the ranking redesign cut marginal-seller re
 - [ ] ML: credible baselines, uncertainty reported, out-of-sample validation
 - [ ] Inference: clustering correct; robustness to spec/sample shown
 - [ ] Magnitudes, not just significance, are reported and interpreted for managers
+- [ ] Reverse causality/selection pre-empted (timing, within-unit, sensitivity bounds)
+- [ ] Body is self-contained; sample construction, estimator, and inference are traceable
 
 ## Pre-empt the reverse-causality reflex
 

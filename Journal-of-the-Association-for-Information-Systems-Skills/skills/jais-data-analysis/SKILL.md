@@ -39,6 +39,10 @@ Benchmark against the baselines a skeptic would name, run ablations to show whic
 
 Show the coding structure and an audit trail so a reader can follow how raw material became constructs. Representative quotations and negative cases build trustworthiness; the analytic narrative, not a coefficient, carries the claim.
 
+## Tie every result back to the theory
+
+JAIS is theory-forward, so analysis that floats free of the theoretical argument reads as dredging. After each estimate, evaluation, or coded theme, state explicitly which hypothesis, proposition, or construct it bears on and what it implies for the mechanism. A results section that marches through coefficients without re-connecting to the theory invites the "strong finding, thin contribution" critique — the most common JAIS pushback. The discipline is to report the number and immediately say what the field now knows because of it.
+
 ## Prepare the JAIS data materials
 
 JAIS policy requires authors to make datasets **"available on request for checking by senior editors or reviewers after care has been taken to anonymize the data,"** and for quantitative studies to provide **"the co-variance or correlation matrix plus descriptives."** If you reuse a dataset, you must justify it for an alternative theoretical purpose or a new methodological approach. Assemble these now and keep them anonymized for double-blind review.

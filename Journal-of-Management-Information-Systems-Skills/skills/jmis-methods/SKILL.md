@@ -58,6 +58,8 @@ A team wants to claim that an ERP go-live raised plant productivity. A cross-sec
 - [ ] Economic model: assumptions stated; empirical test maps to a model prediction
 - [ ] Design-science: utility evaluated vs. credible baselines, tied to a managerial decision
 - [ ] Core evidence fits ≤50 pages; appendix carries only support, not load-bearing claims
+- [ ] The design section states why this method is the right tool for this specific claim
+- [ ] Platform designs address two-sided feedback and algorithmic confounding
 
 ## Platform and e-commerce data: design around its pathologies
 

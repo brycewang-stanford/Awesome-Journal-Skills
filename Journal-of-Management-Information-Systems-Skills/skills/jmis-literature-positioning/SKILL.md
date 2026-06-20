@@ -53,6 +53,8 @@ A privacy paper opens: "Little is known about how breach disclosure laws affect 
 - [ ] Closest IS predecessors (incl. prior JMIS) are cited, not just reference-discipline work
 - [ ] Reference-discipline borrowing is subordinated to the IS contribution
 - [ ] Fit vs. MISQ/ISR/JAIS/Management Science is argued where relevant
+- [ ] The three-paragraph skeleton (phenomenon / tension / delta) can each be written
+- [ ] The front end reads as written for JMIS's management-economics conversation, not retrofitted
 
 ## Show you know the JMIS conversation specifically
 

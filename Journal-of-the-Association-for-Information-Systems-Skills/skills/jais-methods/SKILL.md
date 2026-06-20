@@ -25,6 +25,10 @@ JAIS is explicitly "inclusive in… method and philosophical and research approa
 | **Qualitative / interpretive** | case study, ethnography, grounded theory, mixed methods | trustworthiness, rich context, and a transparent path from data to constructs |
 | **Literature review** | structured synthesis or theory-elaborating review | a defended scope, a reproducible search/coding protocol, and a theoretical payoff |
 
+## Let the philosophical stance pick the criteria
+
+JAIS is inclusive of "philosophical and research approach," which means the method must declare its epistemology so reviewers apply the right standards. Positivist work is judged on validity, reliability, and identification; interpretive work on credibility, transferability, and the authenticity of the account; critical work on the reflexivity and the emancipatory or analytic insight; design-science work on artifact utility and the generalizability of design knowledge. Stating the stance up front pre-empts the frequent mismatch where a reviewer from a different paradigm grades the paper against criteria it never claimed to meet.
+
 ## Behavioral: design out the threats before you collect
 
 JAIS expects the measurement model to be defensible *by design*, not patched later. Build temporal/source/psychological separation against common-method bias, use validated scales (or justify new ones — but note construct *development* as the headline belongs in the Theory category), and include attention/manipulation checks. Plan to report the full measurement model and, for SEM, the correlation/covariance matrix the journal requires in an appendix.

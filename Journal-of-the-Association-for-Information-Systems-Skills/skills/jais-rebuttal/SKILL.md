@@ -42,6 +42,10 @@ If the revision changes the empirical core, refresh the materials JAIS requires:
 
 Revisions grow papers, but JAIS still flags manuscripts over **~15,000 words** and will not review beyond **65 pages**. Plan offsetting cuts (tighter framing, consolidated exhibits) as part of the revision. Keep the manuscript **double-blind** — neutral self-citations, no identifying info — while it is still under review, and confirm the revised paper still fits its declared category.
 
+## Open the response with a contribution-and-changes summary
+
+Senior Editors at JAIS are reading for whether the paper's *trajectory* has improved, so open the letter with a short synopsis: restate the sharpened contribution in one sentence, then list the two or three most consequential changes. This frames the point-by-point that follows and lets a developmental SE confirm quickly that you moved the paper where the editorial team hoped. Bury the contribution restatement at the end and you force the editor to reconstruct your logic from scattered replies.
+
 ## Write a clean, auditable response
 
 - Quote each comment, then give your response and point to the changed page/section.

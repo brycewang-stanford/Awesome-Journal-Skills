@@ -38,6 +38,10 @@ The about-page phrase "innovative, interesting and rigorously developed" is doin
 
 Write: *"Before this paper, IS scholars [believed / could not / lacked X]; this paper shows [Y], which changes [Z]."* Then check that every section earns its place against that sentence. The abstract and introduction should let a reviewer from a *different* tradition grasp the contribution without your sub-field's shorthand — pluralism means your reader may not share your priors.
 
+## Name the type of theoretical contribution
+
+Reviewers respond better when you say *what kind* of theoretical move you are making, because it tells them which yardstick to apply. The common JAIS-relevant types: introducing a **new construct**; building a **new framework or model** relating constructs; offering a **novel integration** that reconciles two theories; identifying a **boundary condition** that bounds an accepted claim; surfacing a **new mechanism** behind a known relationship; or, in the Foundational category, a **pre-theoretical insight** about a phenomenon too new to model. State the type in the introduction so the contribution is not left for the reviewer to reverse-engineer.
+
 ## Separate the theoretical from the empirical and managerial
 
 JAIS reviewers will not accept a strong finding as a substitute for a theoretical contribution. State the theoretical advance first, then the empirical evidence that supports it, then (briefly) implications for practice. A paper with rich data but no theoretical payoff is a desk-reject; a paper with a sharp theory and honest, scoped evidence can succeed.
