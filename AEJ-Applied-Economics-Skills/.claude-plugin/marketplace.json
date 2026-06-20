@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "aej-applied-economics-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the American Economic Journal: Applied Economics (AEJ: Applied), the American Economic Association's quarterly journal for empirical applied microeconomics with credible causal identification.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "aej-applied-economics-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the American Economic Journal: Applied Economics (AEJ: Applied) manuscript lifecycle, from topic selection through the AEA Data Editor reproducibility check and R&R rebuttal.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/aej-applied-economics-skills",
+      "repository": "https://github.com/brycewang-stanford/aej-applied-economics-skills",
+      "keywords": [
+        "applied-economics",
+        "aej-applied",
+        "applied-microeconomics",
+        "causal-identification",
+        "aea-data-editor",
+        "reproducibility",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/aeja-workflow",
+        "skills/aeja-topic-selection",
+        "skills/aeja-literature-positioning",
+        "skills/aeja-identification",
+        "skills/aeja-theory-model",
+        "skills/aeja-robustness",
+        "skills/aeja-tables-figures",
+        "skills/aeja-writing-style",
+        "skills/aeja-replication-package",
+        "skills/aeja-referee-strategy",
+        "skills/aeja-submission",
+        "skills/aeja-rebuttal"
+      ]
+    }
+  ]
+}

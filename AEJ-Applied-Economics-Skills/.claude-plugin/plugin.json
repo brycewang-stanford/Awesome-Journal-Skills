@@ -1,0 +1,26 @@
+{
+  "name": "aej-applied-economics-skills",
+  "description": "Agent skill stack for manuscripts targeted at the American Economic Journal: Applied Economics (AEJ: Applied) — the American Economic Association's quarterly journal for empirical applied microeconomics with credible causal identification, spanning labor, development, health, education, public, urban, environmental, and household finance. Covers AEJ: Applied's distinctive process: double-blind review through the AEA online submission system, a modest member submission fee with nonmember surcharge, required JEL codes, and the signature AEA Data and Code Availability Policy administered by the AEA Data Editor (Lars Vilhuber) under which accepted papers deposit data and code to the AEA Data and Code Repository on openICPSR and are verified for reproducibility before publication. Twelve role skills span workflow routing, topic selection, literature positioning, identification, theory/model interpretation, robustness, tables and figures, writing style, the replication package, referee strategy, submission preflight, and the R&R rebuttal. Bilingual en / zh-CN docs; Stata / R / Python conventions for applied-micro causal work.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/aej-applied-economics-skills",
+  "repository": "https://github.com/brycewang-stanford/aej-applied-economics-skills",
+  "keywords": [
+    "applied-economics",
+    "aej-applied",
+    "american-economic-association",
+    "applied-microeconomics",
+    "causal-identification",
+    "difference-in-differences",
+    "randomized-controlled-trial",
+    "aea-data-editor",
+    "reproducibility",
+    "openicpsr",
+    "double-blind-review",
+    "academic-writing"
+  ]
+}
