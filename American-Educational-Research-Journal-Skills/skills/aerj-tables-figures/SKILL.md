@@ -42,10 +42,10 @@ no identifying clues (institution names, data-source giveaways in titles).
 - Identifying clues in titles/notes that break masking
 - Exhibit values that drift from the replication package
 
-## What AERJ exhibit referees check (both sections)
+## What AERJ exhibit referees check
 
-Reviewers in **Social and Institutional Analysis (SIA)** and **Teaching, Learning, and Human
-Development (TLHD)** read exhibits before they read prose, so an unreadable exhibit damages the paper
+Reviewers across AERJ's policy/institutional, teaching/learning, development, and cross-cutting lenses
+read exhibits before they read prose, so an unreadable exhibit damages the paper
 before the argument is even heard. Use this as a pre-submission exhibit triage.
 
 | Exhibit type | What an AERJ referee expects to see | Desk-screen / first-round red flag |
@@ -58,7 +58,7 @@ before the argument is even heard. Use this as a pre-submission exhibit triage.
 
 ## Worked exhibit vignette (illustrative)
 
-Take a TLHD-section study of a middle-school **reading-comprehension intervention** in 40 schools.
+Take an AERJ study of a middle-school **reading-comprehension intervention** in 40 schools.
 The core table reports a treatment coefficient of **0.18 SD** (95% CI [0.04, 0.32]), a school-level
 ICC of **0.14**, and **N = 3,200** students in **40** schools (all numbers illustrative). A strong
 AERJ exhibit puts the estimate, the interval, the ICC, and both N levels in one self-contained note;

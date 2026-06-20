@@ -51,8 +51,9 @@ can judge — and a replicator could reproduce — the result.
 
 ## Warrant-and-transparency checklist by method (AERJ referees)
 
-The AERA reporting standards apply to every tradition AERJ publishes, but referees in each section
-probe different things. Audit your results section against the row that matches your design.
+The AERA reporting standards apply to every tradition AERJ publishes, but referees probe different
+things by design and evidentiary tradition. Audit your results section against the row that matches
+your design.
 
 | Design | What must be reported for warrant | What transparency requires made explicit |
 |--------|-----------------------------------|------------------------------------------|
@@ -64,7 +65,7 @@ probe different things. Audit your results section against the row that matches 
 
 ## Worked analysis vignette (illustrative)
 
-A SIA-section quasi-experimental evaluation of a **ninth-grade early-warning system** uses a
+An AERJ quasi-experimental evaluation of a **ninth-grade early-warning system** uses a
 difference-in-differences design across 25 districts. Warranted reporting states the estimand (effect
 on on-track-to-graduate rates), shows the parallel pre-trend, reports an illustrative **+4.1
 percentage points** (95% CI [1.2, 7.0]) with district-clustered SEs, and adds a sensitivity check

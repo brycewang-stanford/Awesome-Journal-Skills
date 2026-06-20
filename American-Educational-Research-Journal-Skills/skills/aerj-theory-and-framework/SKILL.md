@@ -8,7 +8,7 @@ description: Use when building the conceptual or theoretical framework for an Am
 AERJ rewards work that is **theoretically grounded** — a framework that frames the question, justifies
 the design, and gives the findings meaning for the field. A strong result without a frame reads as a
 report, not a contribution. The frame can be a formal theory, a conceptual model, or an interpretive
-lens, depending on your tradition and section.
+lens, depending on your methodological tradition and dominant education-research lens.
 
 ## When to trigger
 
@@ -47,19 +47,19 @@ If a choice has no such line, either the choice or the framework is underspecifi
 
 ## Framework expectations by tradition (AERJ referees)
 
-AERJ rewards conceptual advance, but what a "framework doing work" looks like differs by section and
-method. Calibrate yours against the row that fits your study.
+AERJ rewards conceptual advance, but what a "framework doing work" looks like differs by method and
+dominant education-research lens. Calibrate yours against the row that fits your study.
 
-| Tradition / section | Frame should generate | Under-theorized tell a referee flags |
+| Tradition / lens | Frame should generate | Under-theorized tell a referee flags |
 |---------------------|-----------------------|--------------------------------------|
-| Quantitative, TLHD | Hypotheses and construct-to-measure links | Hypotheses with no derivation from the frame |
-| Quantitative, SIA | Mechanisms the policy/organizational design tests | A frame cited once, then never revisited |
+| Quantitative, teaching/learning lens | Hypotheses and construct-to-measure links | Hypotheses with no derivation from the frame |
+| Quantitative, policy/institutional lens | Mechanisms the policy/organizational design tests | A frame cited once, then never revisited |
 | Qualitative | Sensitizing concepts guiding what to look for | "Lens" named but coding runs on intuition |
 | Mixed | Why integration is theoretically motivated | Two strands with two unrelated frames |
 
 ## Worked framework vignette (illustrative)
 
-An SIA-section study of a **school-funding equalization reform** invokes an organizational-resource
+An integrated-AERJ study of a **school-funding equalization reform** invokes an organizational-resource
 framework. To make it do work, the authors derive that equalization should compress *between-school*
 variance in instructional spending more than *within-school* variance — a testable implication. Their
 multilevel design then reports an illustrative drop in between-school spending variance from **0.30 to

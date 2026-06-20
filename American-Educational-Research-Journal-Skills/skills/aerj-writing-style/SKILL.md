@@ -1,6 +1,6 @@
 ---
 name: aerj-writing-style
-description: Use when drafting or polishing the prose of an American Educational Research Journal (AERJ) manuscript. AERJ is read across the whole field, follows APA 7th-edition style, and expects a 100–120-word abstract within a roughly 20–50-page manuscript. Improves clarity and compliance; it does not ghostwrite the paper.
+description: Use when drafting or polishing the prose of an American Educational Research Journal (AERJ) manuscript. AERJ is read across the whole field, follows APA 7th-edition style, and expects a 100–120-word abstract within a maximum 50-page manuscript. Improves clarity and compliance; it does not ghostwrite the paper.
 ---
 
 # Writing Style (aerj-writing-style)
@@ -20,8 +20,8 @@ stakes, and the contribution. Verify the current length and abstract limits on t
 
 - **Citation/reference style:** **APA 7th edition** (author-date) throughout.
 - **Abstract:** **100–120 words** — state purpose, design/method, key findings, significance.
-- **Length:** manuscripts run **~20–50 pages**, double-spaced, 12-pt, 1" margins, **inclusive** of
-  tables, figures, notes, and references (待核实 — confirm the current figure and what counts).
+- **Length:** manuscript **maximum 50 pages**, double-spaced, 12-pt, 1" margins, **inclusive** of
+  tables, figures, notes, and references.
 - **Masked:** no author-identifying language; self-citations neutralized (see `aerj-submission`).
 
 ## How to write for the field
@@ -71,7 +71,7 @@ journal's current submission guidelines.
 
 ## Referee pushback and the venue fix
 
-- *"I couldn't follow this outside the subfield."* → Translate each specialist term on first use; add
+- *"This is hard to follow outside the subfield."* → Translate each specialist term on first use; add
   the plain-language stake.
 - *"The claims outrun the evidence."* → Hedge to what the design supports and state scope conditions.
 - *"Citations and headings are inconsistent."* → Run a clean APA-7 author-date and heading pass before
@@ -92,4 +92,4 @@ journal's current submission guidelines.
 ## Supplementary resources
 
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — APA 7th reference managers and typesetting (apa7 / papaja)
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — APA style, abstract, and length requirements (待核实)
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — APA style, abstract, and length requirements

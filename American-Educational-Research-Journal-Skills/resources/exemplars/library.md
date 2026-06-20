@@ -3,7 +3,7 @@
 > **Verified via web search, access date 2026-06-08.** Confirmed entries below were checked on SAGE
 > Journals under *American Educational Research Journal* (AERA's flagship; DOI stem
 > `10.3102/00028312`). Following this repo's discipline, **only web-verified papers carry a specific
-> attribution**; additional topic×method cells are marked `待核实 / TO VERIFY` rather than filled from
+> attribution**; additional topic×method cells are kept as future candidates rather than filled from
 > memory. Expand them by confirming each candidate's `0002831X` DOI before adding. Positioning aid —
 > read the originals; do not reproduce numbers.
 >
@@ -32,7 +32,7 @@ qualitative policy analysis** (Marsh et al.), and **higher-education policy even
 its substantive core (equity; teaching quality and achievement; school choice, accountability, and
 higher-education access policy).
 
-## To verify and add (`待核实 / TO VERIFY`)
+## Future candidates to check
 
 Confirm the `10.3102/0002831X…` DOI before listing. Remaining cells to fill:
 

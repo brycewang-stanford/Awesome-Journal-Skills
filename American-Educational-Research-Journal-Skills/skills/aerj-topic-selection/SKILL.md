@@ -1,19 +1,19 @@
 ---
 name: aerj-topic-selection
-description: Use when deciding whether a topic fits the American Educational Research Journal (AERJ) and which of its two separately edited sections — Social and Institutional Analysis (SIA) or Teaching, Learning, and Human Development (TLHD) — to target. AERJ rewards broad significance to education research, not subfield-only description. Tests fit and routes the section; it does not generate research questions.
+description: Use when deciding whether a topic fits the American Educational Research Journal (AERJ), now an integrated field-wide journal, and whether the manuscript's dominant education-research lens is clear. AERJ rewards broad significance to education research, not subfield-only description. Tests fit; it does not generate research questions.
 ---
 
-# Topic Selection & Section Fit (aerj-topic-selection)
+# Topic Selection & AERJ Fit (aerj-topic-selection)
 
 AERJ publishes work that spans the **whole field of education research** and matters **beyond a single
-subfield**. Before anything else, decide two things: is the question of **broad significance**, and
-which **section** (SIA or TLHD) should carry it.
+subfield**. Before anything else, decide two things: is the question of **broad significance**, and what
+dominant education-research lens makes it legible to the integrated AERJ audience.
 
 ## When to trigger
 
 - Choosing or sharpening the question for an AERJ paper
 - Unsure whether the topic is "big enough" for a flagship general journal
-- Deciding between **SIA** and **TLHD**
+- Naming the dominant lens: policy/institutional, teaching/learning, human development, or cross-cutting
 - Weighing AERJ vs a specialty outlet (e.g., a subfield or methods journal)
 
 ## The fit test (broad significance)
@@ -27,52 +27,52 @@ which **section** (SIA or TLHD) should carry it.
 4. **Equity and context.** AERJ readers expect attention to who is studied, in what context, and for
    whom the claim holds.
 
-## Choosing the section (SIA vs TLHD)
+## Naming the dominant lens
 
-| Your topic is about… | Section |
-|----------------------|---------|
-| Policy, governance, finance, accountability, organizations, institutions, equity at the system level | **SIA** |
-| Teaching, instruction, curriculum, learning processes, cognition, motivation, human development | **TLHD** |
-| The school as an organization *and* what happens in classrooms | name the **dominant** lens; say why |
+| Your topic is about... | Dominant lens |
+|------------------------|---------------|
+| Policy, governance, finance, accountability, organizations, institutions, equity at the system level | Policy / institutional / organizational |
+| Teaching, instruction, curriculum, learning processes, cognition, motivation, human development | Teaching / learning / development |
+| The school as an organization *and* what happens in classrooms | Name the **dominant** framing; explain cross-field travel |
 
-> Section is about **topic and framing**, not method. A multilevel quantitative study and an
-> ethnography can both belong in either section.
+> The lens is about **topic and framing**, not method. A multilevel quantitative study and an
+> ethnography can both belong if the field-wide contribution is clear.
 
 ## Anti-patterns
 
 - A descriptive result with no broader significance ("we found X in one district")
 - Pitching to a niche when the framing could reach the field
-- Picking a section by method (e.g., "it's qualitative so it must be TLHD") — wrong axis
+- Picking a lens by method (e.g., "it's qualitative so it must be learning/development") — wrong axis
 - Chasing trendiness over a durable conceptual question
 
 ## Fit-and-routing decision grid (AERJ-specific)
 
 A flagship AERA general journal weighs *reach across the field* more heavily than methodological
-novelty alone. Read your topic against this grid before committing to a section.
+novelty alone. Read your topic against this grid before committing to the AERJ target.
 
-| Topic shape | Likely verdict | Section lean | Why |
-|-------------|----------------|--------------|-----|
-| Single-district descriptive finding, no broader claim | Better suited to a specialty outlet | — | Fails broad-significance test |
-| Statewide accountability policy and its equity consequences | Strong fit | SIA | System-level institutional question |
-| Classroom-level mechanism of how students learn a concept | Strong fit | TLHD | Learning/development process |
-| School organization shaping classroom instruction | Fit — name dominant lens | SIA or TLHD | Straddles; pick framing axis, justify it |
-| Methods demonstration with thin substantive stake | Needs sharpening | — | AERJ wants the education question foregrounded |
+| Topic shape | Likely verdict | Dominant lens | Why |
+|-------------|----------------|---------------|-----|
+| Single-district descriptive finding, no broader claim | Better suited to a specialty outlet | None yet | Fails broad-significance test |
+| Statewide accountability policy and its equity consequences | Strong fit | Policy / institutional | System-level institutional question |
+| Classroom-level mechanism of how students learn a concept | Strong fit | Teaching / learning / development | Learning/development process |
+| School organization shaping classroom instruction | Fit — name dominant lens | Cross-cutting | Straddles; pick framing axis, justify it |
+| Methods demonstration with thin substantive stake | Needs sharpening | None yet | AERJ wants the education question foregrounded |
 
 ## Worked fit vignette (illustrative)
 
 A researcher has data on a **principal-mentoring program** across 60 schools and finds a leadership
 turnover reduction of about **9 percentage points** (illustrative). Pitched as "a turnover study,"
 it reads as a niche HR result. Re-pitched as *how institutional support reshapes who stays to lead
-high-need schools and what that means for equity of access to stable leadership*, it becomes an SIA
-question of broad significance — the same 9-point number now carries a field-wide stake. The topic
+high-need schools and what that means for equity of access to stable leadership*, it becomes a
+policy/institutional question of broad significance — the same 9-point number now carries a field-wide stake. The topic
 did not change; the framing crossed it from subfield-only to AERJ-appropriate.
 
 ## Common rejection-at-the-gate patterns and the fix
 
 - *Topic is real but small.* → Connect the local finding to a field-wide debate or a policy/practice
   stake the whole field recognizes; if none exists, route to a specialty journal honestly.
-- *Section chosen by method, not topic.* → Re-choose on the topic axis; both SIA and TLHD publish
-  quantitative, qualitative, and mixed work.
+- *Lens chosen by method, not topic.* → Re-choose on the topic axis; AERJ publishes quantitative,
+  qualitative, and mixed work.
 - *Trend-chasing with no durable question.* → Anchor to a conceptual question that survives the news
   cycle; confirm scope expectations against the journal's current submission guidelines.
 
@@ -82,7 +82,7 @@ did not change; the framing crossed it from subfield-only to AERJ-appropriate.
 【Question】one sentence
 【Broad significance】who beyond the subfield cares + policy/practice stake
 【Conceptual contribution】what we understand differently
-【Section】SIA / TLHD (and why)
+【Dominant lens】policy/institutional / teaching-learning / development / cross-cutting (and why)
 【Fit verdict】strong / needs sharpening / better suited elsewhere
 【Next】aerj-literature-positioning
 ```
@@ -90,4 +90,4 @@ did not change; the framing crossed it from subfield-only to AERJ-appropriate.
 ## Supplementary resources
 
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — education-research data sources by topic and level
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — AERJ scope and the two-section descriptions
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — AERJ scope and integrated-journal history

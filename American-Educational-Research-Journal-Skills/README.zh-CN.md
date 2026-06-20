@@ -16,13 +16,12 @@
 **整个教育研究领域** 的同行评审原创研究——跨越所有子领域、各级教育与人的全生命周期、各种学习形式——
 **定量、定性与混合方法** 兼收并蓄。
 
-AERJ 在结构上的独特之处在于：它是**同一刊名下两个分别独立编辑的板块（section）**——
-**社会与制度分析（Social and Institutional Analysis, SIA）**（教育中的政治、文化、社会、经济与组织议题）
-与 **教学、学习与人的发展（Teaching, Learning, and Human Development, TLHD）**
-（正式与非正式情境中教学、学习与人的发展之过程与结果）。
+AERJ 在结构上的独特之处在于：它是**整合后的全领域旗舰期刊**。AERJ 曾有 SIA/TLHD 两个板块，
+但 AERA 已在 2015 年对新稿件启用整合后的 AERJ。现行投稿不应按旧板块路由，而应说明问题为何能
+跨教育研究领域产生意义，不论主导视角是政策/制度、教学/学习、人的发展，还是跨领域设计。
 
 本仓库是**有主见的**。它**不是**通用社会科学写作工具箱，**也不是**把经济学或心理学包改个名字套到教育学。
-它是 **AERJ 专属** 技能栈：一个对**整个教育研究领域都有广泛意义**的问题、投到**正确的板块**、一个锚定在
+它是 **AERJ 专属** 技能栈：一个对**整个教育研究领域都有广泛意义**的问题、面向**整合后的 AERJ 读者**、一个锚定在
 **概念或理论框架**上的论证、一个能在**各自方法论标准**下站得住的研究设计（定量/定性/混合）、按 **APA 第 7 版**
 体例完成的**匿名（masked）**稿件准备，以及符合 **AERA 实证社会科学研究报告标准** 的报告规范。
 
@@ -35,26 +34,25 @@ AERJ 的约束不同于窄领域专刊或方法刊：
 | 约束 | AERJ | 含义 |
 |------|------|------|
 | 范围 | **整个教育研究领域**，各级教育与各类方法 | 论文必须超越单一子领域才有意义 |
-| 结构 | **两个分别独立编辑的板块**——SIA 与 TLHD | 投稿时选对板块，路由到正确编辑团队 |
+| 结构 | **整合后的全领域期刊**（旧 SIA/TLHD 新稿件分流已于 2015 年结束） | 清楚说明主导教育研究视角 |
 | 看重 | **广泛意义** + 清晰的概念/理论框架 | 仅做窄范围描述的结果不合适 |
 | 方法 | 定量/定性/混合——各按其标准评判 | 不要把同一模板硬套到所有论文 |
 | 出版方 / 所有者 | **SAGE** / **AERA** | 通过 **ScholarOne Manuscript Central** 投稿 |
 | 评审模式 | **匿名（masked）** | 稿件须匿名化，作者姓名仅出现在题名页文件 |
-| 费用 | 未列**投稿费**；投稿**不要求** AERA 会员 | 不要预算投稿费（以官方为准） |
-| 篇幅 | 稿件 **约 20–50 页**（双倍行距、12 号字、1 英寸页边距，含所有内容） | 篇幅须含表、图、注释、参考文献 |
+| 费用 | 官方说明**投稿与发表不收费**；SAGE Choice 金色开放获取需付费 | 不要预算投稿费；开放获取费用以官网为准 |
+| 篇幅 | 稿件 **最多 50 页**（双倍行距、12 号字、1 英寸页边距，含所有内容） | 篇幅须含表、图、注释、参考文献 |
 | 摘要 | **100–120 词** | 紧凑、结构化的摘要 |
 | 体例 | **APA 第 7 版**（作者—年份） | 非 Chicago/自定体例；通讯作者须 ORCID |
 | 报告标准 | **AERA 报告标准**（实证社会科学；另有人文取向配套标准） | 按与你方法相符的标准来报告 |
 
-易变的具体信息（编辑与板块分工、确切上限、费用/APC、投稿门户 URL、政策措辞）会变化——未直接核实项在
-[`resources/official-source-map.md`](resources/official-source-map.md) 中标记 **待核实**。
-**请以官方页面为准。**
+易变的具体信息（编辑名单、SAGE Choice 费用、投稿门户行为、政策措辞）会变化。正式上传前请以
+SAGE/AERA 官方页面为准。
 
-### 两个板块
+### 契合视角
 
-- **社会与制度分析（SIA）**——教育中的政治、文化、社会、经济与组织议题：政策、治理、公平、制度、组织。
-- **教学、学习与人的发展（TLHD）**——跨各级教育、正式与非正式情境中教学、学习与人的发展之过程与结果。
-- 两个板块都跨多学科与多方法。**投稿时由你选择板块**；若横跨两者，指明更契合的一个并说明理由。
+- **政策 / 制度 / 组织**：治理、公平、系统、资源与教育组织。
+- **教学 / 学习 / 人的发展**：教学、课程、学习过程、认知、动机与发展。
+- **跨领域研究**：明确主导视角，同时说明贡献如何超越单一子领域。
 
 ---
 
@@ -90,7 +88,7 @@ mkdir -p ~/.codex/skills && cp -R skills/aerj-* ~/.codex/skills/
 ## 默认工作流
 
 ```text
-aerj-topic-selection         （含 SIA vs TLHD）
+aerj-topic-selection         （全领域契合）
         ▼
 aerj-literature-positioning
         ▼
@@ -113,7 +111,7 @@ aerj-submission
 aerj-rebuttal
 ```
 
-`aerj-workflow` 是路由器——根据你所处阶段以及哪个**板块**（SIA 或 TLHD）契合，告诉你下一步用哪个技能。
+`aerj-workflow` 是路由器——根据你所处阶段，以及主导教育研究视角和全领域贡献是否清楚，告诉你下一步用哪个技能。
 若设计是**前瞻性**的，尽早走 `aerj-research-design` 考虑**预注册**；若贡献偏概念或方法，则倚重
 `aerj-theory-and-framework` 与 `aerj-literature-positioning`。
 
@@ -123,8 +121,8 @@ aerj-rebuttal
 
 | 技能 | 用途 |
 |------|------|
-| `aerj-workflow` | 路由器——决定下一步调用哪个子技能；提示板块契合 |
-| `aerj-topic-selection` | 跨全领域的广泛意义契合；选择 **SIA vs TLHD** |
+| `aerj-workflow` | 路由器——决定下一步调用哪个子技能；提示 AERJ 契合 |
+| `aerj-topic-selection` | 跨全领域的广泛意义契合；明确主导教育研究视角 |
 | `aerj-literature-positioning` | 跨越子领域对话；回应 AERJ 读者期待的文献 |
 | `aerj-theory-and-framework` | 打造统领贡献的概念/理论框架 |
 | `aerj-research-design` | 为设计辩护——教育中的定量、定性或混合方法 |
@@ -132,14 +130,14 @@ aerj-rebuttal
 | `aerj-tables-figures` | APA 第 7 版格式下可读、自洽的图表 |
 | `aerj-writing-style` | APA 第 7 版；在篇幅上限内触达整个领域 |
 | `aerj-transparency-and-data-policy` | AERA 报告标准；数据可得性；定性透明度 |
-| `aerj-review-process` | 匿名评审、桌面筛查、板块路由、决定类别 |
+| `aerj-review-process` | 匿名评审、桌面筛查、全领域契合、决定类别 |
 | `aerj-submission` | ScholarOne 投稿前检查（匿名化、篇幅、摘要、APA、ORCID、题名页） |
-| `aerj-rebuttal` | 面向多位评审 + 板块编辑的 R&R 回应信策略 |
+| `aerj-rebuttal` | 面向多位评审 + 处理编辑的 R&R 回应信策略 |
 
 ### 资源
 
 - [`resources/external_tools.md`](resources/external_tools.md) — 教育研究数据源（NCES / ECLS / NAEP / SEDA / PISA / TIMSS / 州级 SLDS / QDR）+ R / Stata / Mplus / HLM 与定性/CAQDAS 工具
-- [`resources/official-source-map.md`](resources/official-source-map.md) — 每条事实背后的 AERA / SAGE 官方 URL，未核实项标 待核实
+- [`resources/official-source-map.md`](resources/official-source-map.md) — 当前流程事实背后的 AERA / SAGE 官方 URL
 
 ---
 
@@ -147,9 +145,9 @@ aerj-rebuttal
 
 - 不替你写出可直接投稿的稿件
 - 不模拟任何特定编辑或评审人的口味
-- 不臆断易变元数据（现任编辑与板块分工、确切上限、费用/APC、政策措辞）——请以官方页面为准；未核实项标 待核实
+- 不把易变元数据（现任编辑、SAGE Choice 费用、投稿门户行为、政策措辞）当作永久事实——请以官方页面为准
 - 不替你判断你的问题是否对教育研究有广泛意义——那是研究者的判断
-- 不替你选板块——它帮你权衡 SIA vs TLHD
+- 不替你选择旧板块——它帮你面向整合后的 AERJ 框定主导教育研究视角
 
 ---
 
@@ -157,7 +155,7 @@ aerj-rebuttal
 
 - [awesome-journal-skills](https://github.com/brycewang-stanford/awesome-journal-skills) — 期刊专属技能包索引
 - [American Educational Research Journal（SAGE Journals）](https://journals.sagepub.com/home/aer) — 出版方主页
-- [AERA 上的 AERJ](https://www.aera.net/Publications/Journals/American-Educational-Research-Journal) — 所有者、板块、编辑、政策
+- [AERA 上的 AERJ](https://www.aera.net/Publications/Journals/American-Educational-Research-Journal) — 所有者、编辑、政策
 
 ---
 

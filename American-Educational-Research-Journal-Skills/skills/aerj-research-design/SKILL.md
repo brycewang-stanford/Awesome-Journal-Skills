@@ -7,7 +7,7 @@ description: Use when defending the research design of an American Educational R
 
 AERJ accepts many methodologies but is demanding about each. The design must credibly connect the
 framework (`aerj-theory-and-framework`) to evidence and meet the relevant **AERA reporting standards**.
-This skill is mode-aware: pick the section that matches your work and defend it against the strongest
+This skill is mode-aware: name the dominant education-research lens and defend it against the strongest
 alternative explanation.
 
 ## When to trigger
@@ -69,7 +69,7 @@ to locate the assumption a referee will press hardest.
 
 ## Worked design vignette (illustrative)
 
-A TLHD-section team evaluates a **peer-tutoring program** with a regression-discontinuity design on an
+An AERJ team evaluates a **peer-tutoring program** with a regression-discontinuity design on an
 eligibility test score. The credibility case states the estimand (effect at the cutoff), shows a
 density test with no manipulation, reports a bandwidth-robust estimate of an illustrative **0.21 SD**
 on the outcome, and writes the adjudication sentence: *if selection rather than the program drove the

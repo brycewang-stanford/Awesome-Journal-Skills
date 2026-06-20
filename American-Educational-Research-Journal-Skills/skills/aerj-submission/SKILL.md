@@ -1,6 +1,6 @@
 ---
 name: aerj-submission
-description: Use when running the final pre-submission preflight for the American Educational Research Journal (AERJ) via ScholarOne Manuscript Central — section selection (SIA vs TLHD), masked preparation, length and abstract limits, APA 7th-edition formatting, ORCID, and a separate title page. Final checks; it does not draft content.
+description: Use when running the final pre-submission preflight for the American Educational Research Journal (AERJ) via ScholarOne Manuscripts — masked preparation, length and abstract limits, APA 7th-edition formatting, ORCID, and a separate title page. Final checks; it does not draft content.
 ---
 
 # Submission Preflight (aerj-submission)
@@ -13,27 +13,25 @@ volatile specifics on the official page before relying on them.
 
 - "Submitting tomorrow" — last pass before upload
 - Unsure which files/metadata ScholarOne expects
-- Confirming the section choice, length/abstract limits, masking, and APA compliance
+- Confirming length/abstract limits, masking, and APA compliance
 
-## Process facts (verify volatile items on the official page)
+## Process facts (verified 2026-06-20; re-check live page before upload)
 
 - **Owner / publisher:** American Educational Research Association (AERA) / SAGE.
-- **Portal:** **ScholarOne Manuscript Central** (confirm the current URL on the guidelines page).
-- **Section:** choose **SIA** or **TLHD** at submission (separately edited).
-- **Review model:** **masked (anonymous)** — names only on the **separate title page file**.
-- **Length:** manuscripts **~20–50 pages**, double-spaced, 12-pt, 1" margins, **inclusive** of tables,
-  figures, notes, and references (待核实 — confirm current figure and what counts).
-- **Abstract:** **100–120 words** (待核实).
+- **Portal:** **ScholarOne Manuscripts** at **https://mc.manuscriptcentral.com/aerj**.
+- **Review model:** **double-anonymous / masked** — names only on the **separate title page file**.
+- **Length:** manuscript **maximum 50 pages**, double-spaced, 12-pt, 1" margins, **inclusive** of tables,
+  figures, notes, and references.
+- **Abstract:** **100–120 words**.
 - **Style:** **APA 7th edition** (author-date).
 - **ORCID:** provide for the corresponding author.
-- **Fee:** no submission fee stated; AERA membership not required to submit; gold OA via **SAGE
-  Choice** for a fee (待核实).
+- **Fee:** the SAGE guidelines state there is **no fee to publish or submit**; gold OA via **SAGE Choice** is available for a fee.
 
 ## Preflight checklist
 
-### Section & length
-- [ ] Section chosen (**SIA / TLHD**) and justified if it straddles both
-- [ ] Manuscript within the page limit, including tables/figures/notes/references (verify)
+### Fit & length
+- [ ] Dominant education-research lens named for integrated AERJ fit
+- [ ] Manuscript within the 50-page maximum, including tables/figures/notes/references
 - [ ] Abstract **100–120 words**, stating purpose + method + finding + significance
 
 ### Masking (anonymous review)
@@ -58,27 +56,27 @@ volatile specifics on the official page before relying on them.
 
 - Leaving author identifiers in the text, acknowledgments, or file metadata (breaks masking)
 - Abstract outside 100–120 words; manuscript over the page limit
-- Submitting to the wrong section
+- Letting the manuscript read as a specialty-journal paper with no field-wide AERJ fit
 - Mixing citation styles instead of clean APA 7th
 - Budgeting for a submission fee that is not charged (verify)
 
 ## Desk-reject triggers at upload (AERJ-specific)
 
-ScholarOne screening and the section editor catch avoidable failures before review. This table maps
+ScholarOne screening and the editors catch avoidable failures before review. This table maps
 the most common pre-submission errors to their consequence so you can clear each one.
 
 | Failure at upload | What it breaks | Avoidable fix |
 |-------------------|----------------|---------------|
 | Author name in text/metadata | Masked review | Strip identifiers; move them to the title-page file |
-| Wrong section selected | Fit and reviewer match | Re-choose on topic/framing axis (SIA vs TLHD) |
+| No clear AERJ fit | Editor/reviewer match | Name the dominant education lens and field-wide significance |
 | Abstract over the limit | Format compliance | Trim to the stated word range; verify the figure |
 | Over-length manuscript | Inclusive page count | Cut to the page limit counting tables/figures/refs |
 | Mixed citation styles | APA-7 compliance | Run a single clean author-date pass |
 
 ## Worked preflight vignette (illustrative)
 
-A team is uploading a **mixed-methods evaluation of a community-schools initiative** to the SIA
-section. The preflight catches three things: an acknowledgments line thanking a named foundation
+A team is uploading a **mixed-methods evaluation of a community-schools initiative** to AERJ. The
+preflight catches three things: an acknowledgments line thanking a named foundation
 (breaks masking), an abstract of **134** words (illustrative, over a 100–120 target), and a figure
 note citing "our prior district study" (a self-citation tell). Fixing all three before submission —
 moving funder thanks to the title page, trimming the abstract to **118** words, neutralizing the
@@ -88,15 +86,14 @@ abstract limits against the journal's current submission guidelines.
 ## Referee/editor pushback the preflight pre-empts
 
 - *"This is not anonymized."* → Strip text, self-citation, and file-metadata identifiers before upload.
-- *"Submitted to the wrong section."* → Justify the SIA/TLHD choice in the cover letter when the paper
-  straddles both.
+- *"The paper reads too narrow for AERJ."* → State the dominant education lens and field-wide stake in the cover letter.
 - *"Reporting materials missing."* → Have the AERA-standard reporting and data-availability plan ready
   at submission, not after acceptance.
 
 ## Output format
 
 ```
-【Section】SIA / TLHD (justified? Y/N)
+【AERJ fit】dominant lens + field-wide stake stated? [Y/N]
 【Masked】text + self-refs + file metadata clean + separate title page? [Y/N]
 【Abstract】word count (100–120)
 【Length】within limit incl. tables/figures/refs? [Y/N]
@@ -108,4 +105,4 @@ abstract limits against the journal's current submission guidelines.
 ## Supplementary resources
 
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — APA reference managers, anonymization, repro tooling
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official AERJ submission facts (待核实 on volatile items)
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official AERJ submission facts

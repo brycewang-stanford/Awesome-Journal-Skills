@@ -70,7 +70,7 @@ reanalysis" means depends on the data. Match your obligation to the row below.
 
 ## Worked transparency vignette (illustrative)
 
-An SIA-section study links a **state longitudinal data system** to a district intervention. The data
+An AERJ policy/institutional study links a **state longitudinal data system** to a district intervention. The data
 cannot be shared, so the transparency package states the reason (SLDS confidentiality and a data-use
 agreement), gives the application path to the state agency, and ships **synthetic** data with the same
 schema so the master script runs end to end. The README documents construction of every derived

@@ -1,11 +1,11 @@
 ---
 name: aerj-rebuttal
-description: Use when writing the response to an American Educational Research Journal (AERJ) revise-and-resubmit. AERJ R&Rs come back through the section editor (SIA or TLHD) and multiple masked reviewers, so the response must convert each reviewer while keeping the editor confident the revision is convergent. Structures the response letter; it does not fabricate new results.
+description: Use when writing the response to an American Educational Research Journal (AERJ) revise-and-resubmit. AERJ R&Rs come back through the handling editor and multiple masked reviewers, so the response must convert each reviewer while keeping the editor confident the revision is convergent. Structures the response letter; it does not fabricate new results.
 ---
 
 # R&R Rebuttal (aerj-rebuttal)
 
-An AERJ **R&R is a strong signal** — but acceptance generally needs the **section editor** satisfied
+An AERJ **R&R is a strong signal** — but acceptance generally needs the **handling editor** satisfied
 and the **reviewers** moved toward yes. The response letter must address every comment, defend the
 contribution, and keep the revision coherent. The editor adjudicates; reviewers advise.
 
@@ -14,11 +14,11 @@ contribution, and keep the revision coherent. The editor adjudicates; reviewers 
 - An R&R decision arrived and you are planning the revision + response letter
 - Reviewers disagree with each other and you must reconcile their demands
 - A reviewer requests analyses or reframing that would change the paper's claims
-- Writing the cover note to the section editor summarizing the revision
+- Writing the cover note to the handling editor summarizing the revision
 
 ## Strategy
 
-1. **Read the editor's letter as the rubric.** The section editor (SIA or TLHD) signals which points
+1. **Read the editor's letter as the rubric.** The handling editor signals which points
    are decisive. Solve those first; the editor adjudicates disagreements among reviewers.
 2. **One point-by-point response, every comment addressed.** Quote each comment, then respond. Never
    skip one — silence reads as non-compliance.
@@ -46,7 +46,7 @@ Response: [What we did / why we respectfully disagree].
 Change: [Section/page/table-figure number where the revision appears].
 ```
 
-Open with a short **summary of the main changes** to the section editor; group by reviewer; end each
+Open with a short **summary of the main changes** to the handling editor; group by reviewer; end each
 per-comment entry with the location of every change so the editor can verify quickly.
 
 ## Anti-patterns
@@ -61,7 +61,7 @@ per-comment entry with the location of every change so the editor can verify qui
 
 ## Triaging reviewer comments (concede/rebut grid)
 
-The section editor adjudicates, so the letter must signal which comments you accepted and which you
+The handling editor adjudicates, so the letter must signal which comments you accepted and which you
 contested on principle. Sort each comment into this grid first.
 
 | Comment type | Default move | Editor wants |
@@ -74,7 +74,7 @@ contested on principle. Sort each comment into this grid first.
 
 ## Worked rebuttal vignette (illustrative)
 
-A TLHD R&R on a **classroom-discussion intervention** returns three reviewers. R1 wants the
+An AERJ R&R on a **classroom-discussion intervention** returns three reviewers. R1 wants the
 illustrative **0.19 SD** effect re-estimated with school fixed effects; R2 wants the qualitative
 strand cut; R3 wants it expanded. The editor's letter names *integration* as decisive. The response
 concedes R1 (the estimate holds at **0.17 SD**) and reconciles R2/R3: cutting the strand would
@@ -95,7 +95,7 @@ visible reasoning — not capitulation to every voice — keeps the editor confi
 【Editor's decisive points】addressed first? [list]
 【Coverage】every reviewer comment answered? [Y/N]
 【Concede vs rebut】each tagged with evidence + change location
-【Reviewer conflicts】reconciled and explained to the section editor? [Y/N]
+【Reviewer conflicts】reconciled and explained to the handling editor? [Y/N]
 【Contribution protected】no dilution of broad significance? [Y/N]
 【Masking + materials updated】[Y/N]
 【Next】resubmit via ScholarOne Manuscript Central
@@ -103,5 +103,5 @@ visible reasoning — not capitulation to every voice — keeps the editor confi
 
 ## Supplementary resources
 
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — masked review, sections, and decision categories
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — masked review, integrated-journal history, and decision categories
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — reporting standards and reproducibility tooling for the revision

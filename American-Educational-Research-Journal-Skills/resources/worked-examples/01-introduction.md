@@ -24,15 +24,16 @@ things, in plain language a researcher from another subfield can follow:
 5. **Front-loaded contribution** for a general education-research audience, in **APA 7th** style
    (`aerj-writing-style`).
 
-It also picks a **section** at the outset — **Social and Institutional Analysis (SIA)** vs **Teaching,
-Learning, and Human Development (TLHD)** — because AERJ is two separately edited sections and the framing
-should signal fit (`aerj-topic-selection`).
+It also states a **dominant education-research lens** at the outset. AERJ is now an integrated,
+field-wide journal, so the framing should signal fit across the whole readership while making clear
+whether the paper primarily speaks to policy/institutional, teaching/learning, developmental, or
+cross-cutting debates (`aerj-topic-selection`).
 
 **Illustrative paper (fictional):** *"Whose Counselor? Caseload Reductions, Counselor–Student Match,
 and College-Going in a Statewide Reform."* Fictional setting: an invented state that lowered the
-maximum high-school counselor caseload, phased in across districts in different years. **Target section:
-SIA** (a system-level resource-and-organization question), with attention to **equity** and **context**
-as AERJ expects.
+maximum high-school counselor caseload, phased in across districts in different years. **Dominant lens:
+policy/institutional resource allocation** (a system-level organization question), with attention to
+**equity** and **context** as AERJ expects.
 
 ---
 
@@ -120,7 +121,7 @@ as AERJ expects.
 | AERJ demand | Skill | Where the "after" satisfies it |
 |---|---|---|
 | Broad significance, not one-district description | `aerj-topic-selection` | First two paragraphs: the dosage-vs-match debate and the equity stake reach the whole field, not just counseling. |
-| Right section, framed not by method | `aerj-topic-selection` | A system-level resource-allocation question → **SIA**; the method (multilevel DiD) does not decide the section. |
+| Dominant lens, framed not by method | `aerj-topic-selection` | A system-level resource-allocation question -> **policy/institutional lens**; the method (multilevel DiD) does not decide the AERJ fit. |
 | Field-wide positioning, cross-subfield | `aerj-literature-positioning` | Connects counseling to organizational staffing and equity literatures — the "so what for the field" sentence. |
 | Framework that does work | `aerj-theory-and-framework` | The resource-and-relationships frame *generates* the match-specific estimand and the design choice. |
 | Design defended; rival ruled out; nesting modeled | `aerj-research-design` | Staggered heterogeneity-robust design, explicit nesting/clustering, and the adjudication sentence. |
@@ -129,7 +130,7 @@ as AERJ expects.
 > **Note on numbers and policy:** every figure, the framework name, and the reform are **invented for
 > teaching**. When you adapt this arc, the framework, estimand, and rival must come from *your* study;
 > see the matching skills above, and benchmark design positioning against real AERJ articles before
-> importing any section norms or claims.
+> importing journal-process claims.
 
 ## See also (shared empirical-methods hub)
 

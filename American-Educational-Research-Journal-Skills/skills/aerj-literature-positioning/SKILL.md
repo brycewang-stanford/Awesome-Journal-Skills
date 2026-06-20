@@ -20,8 +20,8 @@ general education-research reader.
 
 1. **Map the conversation, not a pile of citations.** Organize by debate or construct, not by author.
    Show the reader the shape of what is known and where it disagrees.
-2. **Engage what AERJ readers expect.** Cite the field-defining and section-relevant work (SIA:
-   policy/organizational/equity literatures; TLHD: learning/teaching/development literatures), plus the
+2. **Engage what AERJ readers expect.** Cite the field-defining and lens-relevant work (policy /
+   organizational / equity literatures; learning / teaching / development literatures), plus the
    methodological literature your design rests on.
 3. **Name the gap precisely.** Not "little is known" — specify the unanswered question, the unresolved
    tension, or the untested mechanism your study addresses.
@@ -41,18 +41,18 @@ who would care are already in your niche, broaden the framing or the literatures
 - Reviewing only your own subfield's recent work; ignoring foundational or adjacent literatures
 - A gap stated as "no one has studied X in this exact setting" with no broader stake
 - Strawmanning prior work rather than engaging its strongest version
-- Mismatched citations to the wrong section's debates
+- Mismatched citations to the wrong education-research debate
 
 ## What AERJ reviewers expect a review to engage
 
-Because AERJ readers span the whole field, referees in both sections probe whether the review reaches
-beyond the author's home cluster. Map your citations against the literatures each section's reviewers
+Because AERJ readers span the whole field, referees probe whether the review reaches
+beyond the author's home cluster. Map your citations against the literatures each lens's reviewers
 treat as table stakes.
 
-| Section | Literatures referees expect engaged | Engaging-only-your-niche tell |
+| Lens | Literatures referees expect engaged | Engaging-only-your-niche tell |
 |---------|-------------------------------------|-------------------------------|
-| SIA | Policy/governance, organizational, stratification/equity, plus the relevant methods literature | Only program-evaluation cites from one district context |
-| TLHD | Learning sciences, instruction/curriculum, developmental/cognitive, plus measurement literature | Only recent intervention RCTs in one content area |
+| Policy/institutional | Policy/governance, organizational, stratification/equity, plus the relevant methods literature | Only program-evaluation cites from one district context |
+| Teaching/learning/development | Learning sciences, instruction/curriculum, developmental/cognitive, plus measurement literature | Only recent intervention RCTs in one content area |
 | Either | The foundational statement of each construct you invoke | Citing textbook glosses instead of the canonical source |
 
 ## Worked positioning vignette (illustrative)
@@ -60,7 +60,7 @@ treat as table stakes.
 A quasi-experimental evaluation of a **dual-language immersion program** initially cites only recent
 bilingual-education impact studies. A general AERJ reader cannot see why the field should care. The
 positioning fix maps the paper onto two debates — *language-as-resource vs language-as-problem*
-framing (a constructs debate) and *how schools allocate access to enrichment tracks* (an SIA
+framing (a constructs debate) and *how schools allocate access to enrichment tracks* (a policy/institutional
 stratification debate) — then names the precise gap: prior work estimates average effects but never
 tests the access mechanism. With an illustrative effect of **0.22 SD** on biliteracy, the contribution
 now reads as advancing a field-wide conversation about access, not a program report.
@@ -88,4 +88,4 @@ now reads as advancing a field-wide conversation about access, not a program rep
 ## Supplementary resources
 
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — reference managers (APA 7th) and literature tooling
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — AERJ scope and section literatures
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — AERJ scope and field-wide literature expectations

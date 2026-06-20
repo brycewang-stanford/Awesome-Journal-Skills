@@ -3,10 +3,9 @@
 Data sources, software, and packages useful when preparing an *American Educational Research Journal*
 (AERJ) submission. AERJ is a **field-wide generalist** education journal: a submission may be
 **quantitative** (multilevel/HLM, IRT/measurement, value-added, quasi-experimental, RCT),
-**qualitative** (ethnography, case study, interview, discourse, narrative), or **mixed methods**, and
-it may sit in either the **Social and Institutional Analysis (SIA)** section (policy, organizations,
-equity, institutions) or the **Teaching, Learning, and Human Development (TLHD)** section (instruction,
-learning, development). Match tools to your section and design. Check licenses and current access
+**qualitative** (ethnography, case study, interview, discourse, narrative), or **mixed methods**.
+It may foreground policy/institutions, teaching/learning, human development, or a cross-cutting design.
+Match tools to your dominant lens and design. Check licenses and current access
 terms before use, and verify any AERJ-specific policy in
 [`official-source-map.md`](official-source-map.md).
 
@@ -92,25 +91,22 @@ terms before use, and verify any AERJ-specific policy in
 ## 6. Process & portal
 | Item | Note |
 |------|------|
-| Submission portal | **ScholarOne Manuscript Central** — confirm current URL on the guidelines page |
+| Submission portal | **ScholarOne Manuscripts** at `https://mc.manuscriptcentral.com/aerj` |
 | Owner / publisher | **AERA** / **SAGE** |
-| Sections | **Social and Institutional Analysis (SIA)** · **Teaching, Learning, and Human Development (TLHD)** — separately edited; choose at submission |
-| Review model | **Masked (anonymous)** — anonymize the manuscript; names only on the title page file |
-| Length | Manuscripts **~20–50 pages**, double-spaced, 12-pt, 1" margins, inclusive of tables/figures/notes/references (verify) |
-| Abstract | **100–120 words** (verify) |
+| Integrated fit | Name the dominant education lens and field-wide significance; do not route by the former SIA/TLHD split |
+| Review model | **Double-anonymous / masked** — anonymize the manuscript; names only on the title page file |
+| Length | Manuscript **maximum 50 pages**, double-spaced, 12-pt, 1" margins, inclusive of tables/figures/notes/references |
+| Abstract | **100–120 words** |
 | Style | **APA 7th edition** (author-date) |
-| Submission fee | None stated for AERJ (verify); gold OA via **SAGE Choice** for a fee |
+| Submission fee | SAGE guidelines state **no fee to publish or submit**; gold OA via **SAGE Choice** for a fee |
 | Reporting standards | **AERA Standards for Reporting on Empirical Social Science Research** (quant + qual) |
 
 ## 7. Cautions
-1. **Verify volatile specifics** (editors and section assignments, exact length/abstract limits,
-   fee/APC, portal URL, data-policy wording) on the official AERA/SAGE pages — they change; unverified
-   items are marked 待核实.
+1. **Verify volatile specifics** (editors, SAGE Choice fee, portal behavior, data-policy wording) on the official AERA/SAGE pages before upload.
 2. **Anonymize properly** — AERJ is masked; strip author metadata, self-citations, and identifying
    footnotes; put names only on the separate title page file.
 3. **Match method to standards** — AERJ judges quantitative, qualitative, and mixed-methods work on
    its own terms; report against the AERA reporting standards appropriate to your method.
-4. **Choose the right section** — SIA (policy/institutions/equity) vs TLHD (teaching/learning/
-   development); a mis-routed manuscript wastes a review cycle.
+4. **Name the right AERJ lens** — policy/institutions/equity, teaching/learning/development, or cross-cutting; a narrow or unclear frame weakens review.
 5. **Write for the whole field** — an AERJ paper must speak past one subfield to a general
    education-research audience, with explicit attention to significance for policy and/or practice.
