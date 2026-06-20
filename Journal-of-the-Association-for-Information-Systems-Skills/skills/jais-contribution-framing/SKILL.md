@@ -38,6 +38,8 @@ The about-page phrase "innovative, interesting and rigorously developed" is doin
 
 Write: *"Before this paper, IS scholars [believed / could not / lacked X]; this paper shows [Y], which changes [Z]."* Then check that every section earns its place against that sentence. The abstract and introduction should let a reviewer from a *different* tradition grasp the contribution without your sub-field's shorthand — pluralism means your reader may not share your priors.
 
+A useful stress test: hand the one-sentence contribution to a colleague in another IS tradition and ask them to restate what is new. If they can only restate what you *did* (the method, the data), the contribution is still framed as activity; if they can restate what the field now *knows*, it is framed as a contribution. JAIS's pluralistic reviewer pool effectively runs this test for you — better to pass it before submission than to learn the answer in the decision letter.
+
 ## Name the type of theoretical contribution
 
 Reviewers respond better when you say *what kind* of theoretical move you are making, because it tells them which yardstick to apply. The common JAIS-relevant types: introducing a **new construct**; building a **new framework or model** relating constructs; offering a **novel integration** that reconciles two theories; identifying a **boundary condition** that bounds an accepted claim; surfacing a **new mechanism** behind a known relationship; or, in the Foundational category, a **pre-theoretical insight** about a phenomenon too new to model. State the type in the introduction so the contribution is not left for the reviewer to reverse-engineer.
