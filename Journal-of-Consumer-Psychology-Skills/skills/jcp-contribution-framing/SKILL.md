@@ -1,70 +1,65 @@
 ---
 name: jcp-contribution-framing
-description: Use when working on contribution framing for a Journal of Consumer Psychology manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when sharpening the one-sentence contribution of a Journal of Consumer Psychology (JCP) manuscript so the novelty reads as a psychological PROCESS, not an effect. Frames the contribution; it does not build the theory (jcp-theory-development) or run analyses (jcp-data-analysis).
 ---
 
 # Contribution Framing (jcp-contribution-framing)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Consumer Psychology (JCP)** and contribution framing is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's consumer psychology, judgment and decision-making, persuasion, emotion, identity, and consumption behavior standard.
-- The paper risks being confused with nearby venues: Journal of Consumer Research, Journal of Marketing Research, Marketing Science, and Psychological Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Your "contribution" sentence describes an **effect** ("X increases Y") rather than a mechanism
+- Reviewers say the finding is "interesting but incremental" or "not surprising"
+- The abstract and intro promise more than the process evidence delivers (over-claiming)
+- You have strong studies but cannot say in one line what the field learns about the consumer's mind
+- Multiple contributions are listed and none is sharp
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| consumer mechanism is central | Make the consumer mechanism assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| experimental manipulation is central | Make the experimental manipulation assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| psychological process is central | Make the psychological process assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| moderation logic is central | Make the moderation logic assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| consumer welfare is central | Make the consumer welfare assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The JCP contribution is a process claim
 
-## JCP fit notes
+A JCP contribution sentence has a specific shape: **"We show that [antecedent] shapes [consumer outcome] because it [changes psychological state M], which means [implication / new boundary / overturned belief]."** The "because" clause is the contribution. If your sentence stops at the comma after the outcome, you have an effect, and an effect alone is a reject. The framing job is to make the *mechanism* the headline and the effect merely the vehicle that reveals it.
 
-- Publisher / owner context: Elsevier for the Society for Consumer Psychology.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: consumer mechanism, experimental manipulation, psychological process, moderation logic, consumer welfare.
-- Sibling boundary: Journal of Consumer Research, Journal of Marketing Research, Marketing Science, and Psychological Science.
-- House-style aim: psychological mechanism evidence tied to consumer behavior and marketing theory.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/journal-of-consumer-psychology
-- https://www.elsevier.com/journals/journal-of-consumer-psychology/1057-7408/guide-for-authors
+The second JCP requirement is **theoretical surprise or correction**: the process should change what a knowledgeable reader expected — a non-obvious mediator, a reversal under a predicted condition, a reconciliation of conflicting accounts. "Confirms intuition" is not a JCP contribution; "explains why the intuitive account is wrong" is.
 
-## Stage-specific moves
+## Three framings that land at JCP
 
-1. State the exact contribution framing question in one sentence.
-2. Identify which JCP audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jcp-tables-figures` if the stage passes, or back to `jcp-workflow` if it does not.
+| Framing | Template | When to use |
+|---------|----------|-------------|
+| Novel mechanism | "Effect E runs through unexpected process M, not the assumed P" | The effect is known but mis-attributed |
+| Theory-test moderation | "Because the effect runs through M, it reverses when C blocks M" | You have strong moderation-of-process data |
+| Reconciliation | "Conflicting findings F1/F2 are reconciled once M is recognized" | Two literatures disagree and your process resolves it |
+
+Whichever you pick, lead with the **mental process** and the **consumer stake** in the same breath; JCP wants both theoretical interest and consumer relevance, but the process is primary.
+
+## Calibrating the claim to the evidence
+
+- **Match scope to studies**: do not claim a general process if every study used one population/stimulus. Bound the claim to what the moderation and replications support.
+- **Promote the strongest process study**: the contribution sentence should be backed by your best design (manipulated mediator or moderation-of-process), not the weakest measured-mediation study.
+- **One contribution, stated once**: a single sharp process claim beats a list of three. Subsidiary contributions (a new measure, a boundary) are support, not headlines.
+- **Name the practical payoff briefly**: a sentence on what marketers/consumers can do with the mechanism — but never let practice replace the theoretical process as the contribution.
 
 ## Checklist
-- [ ] The JCP audience can see why the paper belongs in consumer psychology, judgment and decision-making, persuasion, emotion, identity, and consumption behavior.
-- [ ] The draft distinguishes JCP from Journal of Consumer Research, Journal of Marketing Research, Marketing Science.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for contribution framing names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] The contribution sentence contains a **"because [process]"** clause, not just an effect
+- [ ] The process is theoretically non-obvious or corrects a prior belief
+- [ ] The claim's scope matches the moderation/replication evidence (no over-generalization)
+- [ ] The headline contribution is backed by the strongest process study, not the weakest
+- [ ] There is one primary contribution, stated once and consistently across abstract/intro/discussion
+- [ ] Consumer relevance is present but does not substitute for the psychological process
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JCP without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Effect-as-contribution**: "we find that X affects Y" with no because-clause
+- **Confirms-intuition framing**: a result no informed reader would have doubted
+- **Over-claim**: a universal process claim built on one stimulus/sample
+- **Contribution inflation**: three or four "contributions" that dilute the one that matters
+- **Managerial bait-and-switch**: leading with practice because the theoretical novelty is thin
 
 ## Output format
 
 ```text
-【Journal】Journal of Consumer Psychology
-【Skill】jcp-contribution-framing
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking contribution framing
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Consumer Research, Journal of Marketing Research
-【Source status】verified URL / 待核实 / not asserted
+【Contribution sentence】"…because it [process M]…" (one line, process-led)
+【Why non-obvious】what informed reader belief it corrects/surprises
+【Backing study】the strongest process design that supports it
+【Scope bound】populations/stimuli the claim is limited to
+【Consumer stake】one line of relevance (subordinate to the process)
 【Next skill】jcp-tables-figures
 ```

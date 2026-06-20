@@ -1,70 +1,80 @@
 ---
 name: jcp-methods
-description: Use when working on methods for a Journal of Consumer Psychology manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when designing or stress-testing the experiments for a Journal of Consumer Psychology (JCP) manuscript — manipulations, controls and confounds, manipulation checks, power, the multi-study chain, and pre-registration. Designs the studies that test the process; it does not analyze them (jcp-data-analysis).
 ---
 
-# Methods (jcp-methods)
+# Experimental Design & Methods (jcp-methods)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Consumer Psychology (JCP)** and methods is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's consumer psychology, judgment and decision-making, persuasion, emotion, identity, and consumption behavior standard.
-- The paper risks being confused with nearby venues: Journal of Consumer Research, Journal of Marketing Research, Marketing Science, and Psychological Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You have a mechanism but are unsure which experiments can actually isolate it
+- A reviewer questions whether your manipulation moves the construct it claims to
+- Mediation rests on a single measured mediator and you need stronger process evidence
+- Sample sizes were chosen by convention, not by an a priori power analysis
+- You are deciding whether to pre-register, or whether to take the Registered Report route (待核实)
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| consumer mechanism is central | Make the consumer mechanism assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| experimental manipulation is central | Make the experimental manipulation assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| psychological process is central | Make the psychological process assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| moderation logic is central | Make the moderation logic assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| consumer welfare is central | Make the consumer welfare assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## JCP's design bar: causal isolation of a psychological process
 
-## JCP fit notes
+JCP is an **experimental journal**: random assignment, manipulated independent variables, and measured (or manipulated) mediators are the default. The design must do more than show an effect — it must **rule out that the effect is anything other than the proposed process**. Since the rigor reforms of the 2010s, JCP reviewers expect adequately powered cells, clean manipulations with checks, pre-registered confirmatory studies where feasible, and a multi-study package whose studies each test a different link in the causal chain rather than re-running the same demonstration.
 
-- Publisher / owner context: Elsevier for the Society for Consumer Psychology.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: consumer mechanism, experimental manipulation, psychological process, moderation logic, consumer welfare.
-- Sibling boundary: Journal of Consumer Research, Journal of Marketing Research, Marketing Science, and Psychological Science.
-- House-style aim: psychological mechanism evidence tied to consumer behavior and marketing theory.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/journal-of-consumer-psychology
-- https://www.elsevier.com/journals/journal-of-consumer-psychology/1057-7408/guide-for-authors
+## The multi-study chain
 
-## Stage-specific moves
+A persuasive JCP package walks the mechanism:
 
-1. State the exact methods question in one sentence.
-2. Identify which JCP audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jcp-data-analysis` if the stage passes, or back to `jcp-workflow` if it does not.
+1. **Existence** — establish the effect cleanly with a strong manipulation and a behavioral or consequential DV where possible.
+2. **Mediation** — show the process carries the effect. A measured mediator is the floor; **manipulating the mediator** (or moderation-of-process) is far stronger and increasingly expected.
+3. **Moderation** — a theory-predicted moderator that switches the process on/off; this is the most convincing process evidence.
+4. **Boundary / robustness** — generalize across stimuli, populations, and operationalizations so the effect is not stimulus-bound.
+
+Vary the operationalization across studies (different manipulations of the same construct, different DVs, different samples) so a reviewer cannot attribute the result to one idiosyncratic stimulus.
+
+## Manipulations, controls, and confounds
+
+- **Manipulation checks**: include a check that the IV moved the intended construct *and nothing else*. A manipulation that also shifts mood, difficulty, or attention is confounded.
+- **Pretest stimuli**: pretest scenarios/images/copy so conditions differ only on the focal dimension.
+- **Confound audit**: ask of every manipulation, "what else changed?" — fluency, plausibility, arousal, social desirability, demand. Design controls (yoked conditions, neutral comparisons) before collecting data.
+- **Demand and attention**: attention/comprehension checks, funnel debrief for hypothesis guessing, and a design that does not telegraph the prediction.
+- **Process-of-mediation**: prefer **causal-chain (experimental-mediation)** or **moderation-of-process** designs over Baron-Kenny on a measured mediator, which reviewers now treat as weak causal evidence.
+
+## Power and samples
+
+- Run an **a priori power analysis** (effect-size assumption justified by pilot or prior literature, not back-solved) and report target N before data collection.
+- Pre-specify **exclusion rules** (attention checks, completion, duplicates) in advance; report Ns before and after exclusions.
+- For online panels (Prolific/MTurk/CloudResearch), document the platform, screening, and data-quality safeguards.
+
+## Pre-registration and transparency as design choices
+
+- **Pre-register** confirmatory studies (OSF/AsPredicted): hypotheses, design, sample size, analysis plan, exclusions. JCP encourages preregistration with an analysis plan (检索于 2026-06；以官网为准); report deviations transparently.
+- Plan the **open data + materials** deposit and the code from the start (see jcp-submission), not at acceptance.
+- Consider a **Registered Report** for a strong confirmatory theory test where the result should publish regardless of direction (待核实 whether JCP currently offers this format).
 
 ## Checklist
-- [ ] The JCP audience can see why the paper belongs in consumer psychology, judgment and decision-making, persuasion, emotion, identity, and consumption behavior.
-- [ ] The draft distinguishes JCP from Journal of Consumer Research, Journal of Marketing Research, Marketing Science.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for methods names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Each study tests a distinct link: existence → mediation → moderation → boundary
+- [ ] At least one strong process design (manipulated mediator or moderation-of-process), not only measured mediation
+- [ ] Manipulation checks confirm the IV moved the construct and not a confound
+- [ ] Stimuli pretested; conditions differ only on the focal dimension
+- [ ] A priori power analysis; target N and exclusion rules pre-specified
+- [ ] Confirmatory studies pre-registered; deviations to be reported
+- [ ] Materials, data, and code deposit planned now
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JCP without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **One study, big claim**: a single experiment asked to carry a process contribution
+- **Measured-mediation-only**: Baron-Kenny on a self-report mediator presented as causal process
+- **Confounded manipulation**: the IV also shifts mood/difficulty/arousal and there is no check
+- **Convenience N**: 50/cell because "that's what we usually run," with no power plan
+- **Stimulus-bound effect**: one scenario, one product, generalized to "consumers"
+- **Post-hoc exclusions**: dropping participants until p < .05 (a rigor-era red flag)
 
 ## Output format
 
 ```text
-【Journal】Journal of Consumer Psychology
-【Skill】jcp-methods
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking methods
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Consumer Research, Journal of Marketing Research
-【Source status】verified URL / 待核实 / not asserted
+【Study chain】existence → mediation → moderation → boundary (map studies)
+【Process design】measured mediator / manipulated mediator / moderation-of-process
+【Manipulation + check】IV, the construct it moves, the check, the confounds controlled
+【Power & samples】a priori N per cell, exclusion rules, platform
+【Pre-registration】which studies, registry, what is locked
+【Transparency plan】data + materials + code deposit
 【Next skill】jcp-data-analysis
 ```

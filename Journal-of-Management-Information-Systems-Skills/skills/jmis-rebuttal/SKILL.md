@@ -1,70 +1,73 @@
 ---
 name: jmis-rebuttal
-description: Use when working on rebuttal strategy for a Journal of Management Information Systems manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when planning and drafting the response to a Journal of Management Information Systems (JMIS) major/minor revision — a point-by-point reply to the EIC, Associate Editor, and double-anonymized referees that resolves identification, measurement, contribution, and robustness concerns. Plans and drafts the response; revisit earlier jmis-* skills to execute the underlying fixes.
 ---
 
 # Rebuttal Strategy (jmis-rebuttal)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Management Information Systems (JMIS)** and rebuttal strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's information systems, digital transformation, platforms, analytics, IT governance, and organizational impacts of technology standard.
-- The paper risks being confused with nearby venues: MIS Quarterly, Information Systems Research, Journal of the AIS, and Management Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A JMIS major- or minor-revision letter arrived and you need a response plan
+- Referee and AE comments conflict and you must decide whom to follow
+- A reviewer asks for analysis you have not run, or challenges the contribution's IS relevance
+- You need a point-by-point response letter that the EIC and AE can adjudicate quickly
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| digital platform is central | Make the digital platform assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| IT governance is central | Make the IT governance assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| analytics adoption is central | Make the analytics adoption assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| information systems theory is central | Make the information systems theory assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| organizational technology is central | Make the organizational technology assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Triage before you draft
 
-## JMIS fit notes
+JMIS revisions come back through an **EIC-led, double-anonymized** process: the EIC and Associate Editor weigh the referees, so your response is read by people deciding whether you have *resolved* concerns, not merely answered them. Triage every comment:
 
-- Publisher / owner context: Taylor & Francis.
-- Submission route to re-check: Taylor & Francis submission.
-- Signature vocabulary: digital platform, IT governance, analytics adoption, information systems theory, organizational technology.
-- Sibling boundary: MIS Quarterly, Information Systems Research, Journal of the AIS, and Management Science.
-- House-style aim: IS scholarship that connects technology mechanisms to organizational and managerial outcomes.
-- Official URLs currently used by the pack:
-- https://www.tandfonline.com/journals/mmis20
-- https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=mmis20
+1. **Fit / contribution concerns first.** If the AE or EIC doubts the IS-management contribution, no robustness check rescues it — re-run `jmis-contribution-framing` and lead the letter with the reframe.
+2. **Identification / measurement / robustness.** Classify each as a real fix (new analysis), a clarification (already in the paper, surface it), or a defensible decline (explain why the request is not appropriate, with evidence).
+3. **Cosmetic / clarity.** Batch and resolve quickly.
 
-## Stage-specific moves
+## Weight the AE over a divergent referee, but answer everyone
 
-1. State the exact rebuttal strategy question in one sentence.
-2. Identify which JMIS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jmis-rebuttal` if the stage passes, or back to `jmis-workflow` if it does not.
+When referees conflict, the **AE's letter is the decision signal** — prioritize the concerns the AE foregrounds, and where two referees disagree, say how you reconciled them and why. Never silently side with one referee against another; make the resolution explicit so the AE can see your reasoning. Answer every comment, even the ones you decline.
+
+## Draft the point-by-point response
+
+- **Lead with a summary** of the major changes and how the contribution is now sharper for IS management.
+- **Quote each comment, then respond** with what you changed, where (section/table/page), and the result. Show, do not assert: paste the new estimate, the new validity figure, the new robustness column.
+- **Where you decline,** give a reasoned, evidence-backed explanation — politely and without defensiveness.
+- **Keep the revised paper inside ≤50 pages** even after additions; if new analyses crowd the body, move support to the online appendix rather than overrunning the limit.
+- **Maintain anonymization** in the revised manuscript and respect the numbered-reference style throughout.
+
+## Match the fix to the right skill
+
+| Referee concern | Where the real fix happens |
+|-----------------|----------------------------|
+| Contribution unclear / incremental | `jmis-contribution-framing` (+ `jmis-literature-positioning`) |
+| Endogeneity / weak identification | `jmis-data-analysis` (+ `jmis-methods`) |
+| Construct validity / common-method bias | `jmis-data-analysis` |
+| Not robust / not generalizable | `jmis-data-analysis` |
+| Exhibits unclear | `jmis-tables-figures` |
+| Prose / abstract / framing | `jmis-writing-style` |
 
 ## Checklist
-- [ ] The JMIS audience can see why the paper belongs in information systems, digital transformation, platforms, analytics, IT governance, and organizational impacts of technology.
-- [ ] The draft distinguishes JMIS from MIS Quarterly, Information Systems Research, Journal of the AIS.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for rebuttal strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Every comment is triaged: real fix / clarification / reasoned decline
+- [ ] Fit/contribution concerns are addressed first and lead the letter
+- [ ] AE's emphasis is prioritized; conflicting referees explicitly reconciled
+- [ ] Each response names the change, its location, and the result (with new numbers)
+- [ ] Declines are justified with evidence, not asserted
+- [ ] Revised manuscript stays ≤50pp, anonymized, with numbered references
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JMIS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A defensive letter that argues with referees instead of resolving concerns
+- Answering robustness asks while leaving the contribution doubt untouched
+- Silently following one referee against another without explaining the reconciliation
+- "We have addressed this" with no pointer to the change or new evidence
+- Letting added analyses push the paper past 50 pages or break anonymization
 
 ## Output format
 
 ```text
-【Journal】Journal of Management Information Systems
-【Skill】jmis-rebuttal
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking rebuttal strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not MIS Quarterly, Information Systems Research
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jmis-rebuttal
+【Decision type】major / minor revision
+【Lead change】how the IS-management contribution is now sharper
+【Comment triage】#fixes / #clarifications / #reasoned-declines
+【AE emphasis】the concerns prioritized; conflicts reconciled
+【Response letter】point-by-point, each with location + new result
+【Constraints kept】≤50pp / anonymized / numbered refs
+【Underlying fixes routed to】jmis-data-analysis / jmis-contribution-framing / jmis-tables-figures / …
 ```

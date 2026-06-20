@@ -1,70 +1,70 @@
 ---
 name: jais-theory-development
-description: Use when working on theory development for a Journal of the Association for Information Systems manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when building the theoretical engine of a Journal of the Association for Information Systems (JAIS) manuscript — original theory for the Theory category, a behavioral mechanism, an economic mechanism, a design theory, or a pre-theoretical framing for a novel digital phenomenon. Adapts the form of "theory" to the category and tradition; it does not run the analysis (jais-data-analysis) or frame the contribution (jais-contribution-framing).
 ---
 
 # Theory Development (jais-theory-development)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of the Association for Information Systems (JAIS)** and theory development is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's information systems theory, digital innovation, sociotechnical systems, methods, and cumulative IS scholarship standard.
-- The paper risks being confused with nearby venues: MIS Quarterly, Information Systems Research, JMIS, and Management Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Your claims are descriptive ("A is associated with B") with no IS mechanism
+- You are targeting the **Theory** category and need a genuinely *new* construct or framework, not a relabeled import
+- You built an IT artifact but cannot say what generalizable **design knowledge** it embodies
+- A Senior Editor or reviewer says "the theoretical contribution is unclear" or "this is a borrowed-theory application"
+- You have a novel digital phenomenon and need a disciplined pre-theoretical framing
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| sociotechnical system is central | Make the sociotechnical system assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| IS theory is central | Make the IS theory assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| digital innovation is central | Make the digital innovation assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| methodological pluralism is central | Make the methodological pluralism assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| cumulative contribution is central | Make the cumulative contribution assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Why theory carries more weight at JAIS
 
-## JAIS fit notes
+JAIS is the AIS flagship and the Basket journal that treats **theory as a contribution in its own right** — it runs a standalone Theory category for "original theory" that proposes new concepts or integrates existing theories into novel frameworks. Even in empirical Research Articles, JAIS **discourages primary construct development** as the headline move — meaning a paper whose contribution *is* a new construct usually belongs in Theory, not as a bolt-on to a Research Article. This is the JAIS-specific discipline: name your theoretical genre, then build to that genre's bar.
 
-- Publisher / owner context: Association for Information Systems.
-- Submission route to re-check: AIS eLibrary / journal submission.
-- Signature vocabulary: sociotechnical system, IS theory, digital innovation, methodological pluralism, cumulative contribution.
-- Sibling boundary: MIS Quarterly, Information Systems Research, JMIS, and Management Science.
-- House-style aim: theory-forward IS research with method fit and clear community contribution.
-- Official URLs currently used by the pack:
-- https://aisel.aisnet.org/jais/
-- https://aisel.aisnet.org/jais/policies.html
+## Theory takes a different shape by genre — pick your row
 
-## Stage-specific moves
+| Genre | What "theory" means here | What you must produce |
+|-------|--------------------------|------------------------|
+| **Theory category (conceptual)** | a new construct, a novel framework, or a novel theory integration | the construct's definition + nomological net, OR the integrative framework and its boundary conditions, with generative propositions |
+| **Behavioral** | a causal mechanism linking IT to cognition, behavior, or outcomes | a priori hypotheses with an explicit mechanism, mediation/moderation logic, and boundary conditions |
+| **Economics of IS** | an economic mechanism (incentives, information, matching, network effects) | a model or argument yielding signed, falsifiable predictions and an identification logic |
+| **Design science** | a *design theory* — the principles that make the artifact work | kernel/justificatory theory, generalizable design principles, and testable utility propositions |
+| **Foundational / novel phenomenon** | a pre-theoretical conceptualization of something not yet studied | a careful conceptual vocabulary and the insight it surfaces — over-theorizing too early is itself a flaw here |
 
-1. State the exact theory development question in one sentence.
-2. Identify which JAIS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jais-literature-positioning` if the stage passes, or back to `jais-workflow` if it does not.
+## Build a *new* construct properly (the Theory-category trap)
+
+A relabeled existing construct is the most common Theory desk-reject. To clear the bar: define the construct precisely; distinguish it from its nearest neighbors (discriminant logic, not just a new name); specify its dimensions and how it would be measured; and embed it in a nomological net of antecedents and consequences. JAIS reviewers reward a construct that *does work* the field's existing vocabulary cannot.
+
+## Integrate theories without flattening them
+
+A "novel integration" must change what each source theory predicts, not staple them side by side. State the tension or gap between the theories, then show how the integration resolves it and yields predictions neither theory makes alone. Multi- or inter-disciplinary borrowing is encouraged — but the IS phenomenon must reshape the borrowed theory, not merely host it.
+
+## Make boundary conditions and the IT artifact load-bearing
+
+IS effects are contingent on the artifact, the user, the task, and the context. Name where the theory holds and where it breaks, and ensure the technology is *in* the mechanism (not an interchangeable treatment). A theorized scope condition beats an over-claimed universal law.
 
 ## Checklist
-- [ ] The JAIS audience can see why the paper belongs in information systems theory, digital innovation, sociotechnical systems, methods, and cumulative IS scholarship.
-- [ ] The draft distinguishes JAIS from MIS Quarterly, Information Systems Research, JMIS.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for theory development names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] The genre's correct *form* of theory is used (new construct / framework / mechanism / design theory / pre-theoretical framing)
+- [ ] If a new construct: defined, discriminated from neighbors, dimensionalized, embedded in a nomological net
+- [ ] If an integration: the tension is named and the synthesis yields predictions neither parent makes
+- [ ] The IT artifact / digital phenomenon is load-bearing in the mechanism, not decorative
+- [ ] Hypotheses / propositions / design propositions are derived *before* results (no HARKing)
+- [ ] Boundary conditions and scope are stated
+- [ ] The genre matches the chosen JAIS category (construct-first → Theory, not Research Article)
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JAIS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- "We applied [theory X] to [setting Y]" with no new IS mechanism — a borrowed-theory application.
+- A "new construct" that is an existing one with a fresh label and no discriminant logic.
+- A Theory-category submission that summarizes literature instead of producing generative theory.
+- A design-science paper with an artifact but no generalizable design principles.
+- Over-theorizing a Foundational/novel-phenomenon paper before it has been carefully described.
 
 ## Output format
 
 ```text
-【Journal】Journal of the Association for Information Systems
-【Skill】jais-theory-development
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking theory development
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not MIS Quarterly, Information Systems Research
-【Source status】verified URL / 待核实 / not asserted
+【Genre & theory form】new construct / framework / behavioral mechanism / economic model / design theory / pre-theoretical
+【JAIS category fit】Theory / Research Article / Foundational / Literature Review
+【Core mechanism or construct】IT-enabled force → on whom → through what channel (or construct definition + net)
+【Claims】H1..Hn / propositions P1..Pn / signed predictions
+【Boundary conditions】where it holds / reverses
+【Source status】verified URL / 待核实
 【Next skill】jais-literature-positioning
 ```

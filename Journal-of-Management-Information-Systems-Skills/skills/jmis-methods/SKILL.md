@@ -1,70 +1,68 @@
 ---
 name: jmis-methods
-description: Use when working on methods for a Journal of Management Information Systems manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when choosing and defending the research design for a Journal of Management Information Systems (JMIS) manuscript — IT-value/platform econometrics, a behavioral survey or experiment, an analytical/economic model, or a design-science/data-science artifact. Matches the method to the IS claim and the ≤50-page budget; it designs the study and hands estimation/evaluation to jmis-data-analysis.
 ---
 
-# Methods (jmis-methods)
+# Research Design & Methods (jmis-methods)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Management Information Systems (JMIS)** and methods is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's information systems, digital transformation, platforms, analytics, IT governance, and organizational impacts of technology standard.
-- The paper risks being confused with nearby venues: MIS Quarterly, Information Systems Research, Journal of the AIS, and Management Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You have a mechanism or propositions but no defensible way to test/evaluate them
+- The method may not match the claim (a causal IT-value claim resting on a cross-sectional correlation)
+- A reviewer asks "what identifies this effect?" or "how do you know the artifact is useful?"
+- You need to decide what evidence fits inside the **50-page** complete-manuscript ceiling
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| digital platform is central | Make the digital platform assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| IT governance is central | Make the IT governance assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| analytics adoption is central | Make the analytics adoption assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| information systems theory is central | Make the information systems theory assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| organizational technology is central | Make the organizational technology assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Match the design to the JMIS research style and the strength of the claim
 
-## JMIS fit notes
+JMIS is methodologically broad but the design must earn the causal/economic verb in the claim.
 
-- Publisher / owner context: Taylor & Francis.
-- Submission route to re-check: Taylor & Francis submission.
-- Signature vocabulary: digital platform, IT governance, analytics adoption, information systems theory, organizational technology.
-- Sibling boundary: MIS Quarterly, Information Systems Research, Journal of the AIS, and Management Science.
-- House-style aim: IS scholarship that connects technology mechanisms to organizational and managerial outcomes.
-- Official URLs currently used by the pack:
-- https://www.tandfonline.com/journals/mmis20
-- https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=mmis20
+| Style | Typical designs | The design must establish |
+|-------|-----------------|----------------------------|
+| **IT business value / firm** | Panel econometrics, natural experiment, DiD, IV, matching | Credible identification of IT's causal value against endogenous IT investment |
+| **Platform / e-commerce** | Quasi-experiments on platform shocks, structural demand, field experiments | The network/two-sided mechanism, controlling for selection on platform data |
+| **Behavioral IS** | Lab/online/field experiment, multi-wave survey, panel | Internal + construct validity and *procedural* remedies for common-method bias |
+| **Economics of IS** | Analytical model; empirical test of a model's prediction | A coherent model with stated assumptions, or a test that maps to the prediction |
+| **Design-science / data-science** | Build-and-evaluate of an IT/ML artifact | Novelty *and* managerial utility vs. credible baselines — not "it ran" |
 
-## Stage-specific moves
+## IT-value and platform empirics: identify, do not just control
 
-1. State the exact methods question in one sentence.
-2. Identify which JMIS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jmis-data-analysis` if the stage passes, or back to `jmis-workflow` if it does not.
+IT investment and platform participation are chosen, not random. Anchor identification in a real source of exogenous variation — a policy change, a staggered system rollout, a platform redesign, a security breach, a pricing shock — and pre-commit the comparison and the assumptions you will defend. With staggered adoption, plan a modern estimator (Callaway–Sant'Anna, Sun–Abraham, de Chaisemartin–D'Haultfœuille) rather than naive TWFE, and design the event-study leads up front. Endogeneity that is only "controlled for" with covariates will draw reviewer fire.
+
+## Behavioral IS: design out the threats before you collect data
+
+Build *procedural* separations against common-method bias — temporal/source/psychological separation, validated and pretested scales, attention and manipulation checks — because statistical fixes (e.g., a marker variable) alone will not convince reviewers later. For experiments, make the IT manipulation realistic and the estimand explicit; report power.
+
+## Design-science / data-science: plan the utility evaluation up front
+
+A JMIS artifact paper lives on **managerial utility**, not algorithmic novelty alone. Decide before building how you will demonstrate utility: held-out benchmarks against credible (not strawman) baselines, a controlled experiment or A/B field deployment, simulation, or expert evaluation — each tied to the artifact's design rationale and to a real managerial decision. State the problem's relevance and the evaluation criteria so reviewers judge rigor *and* relevance.
+
+## Scope the evidence to the 50-page budget
+
+The complete manuscript is capped at **≤50 pages** (12pt, double-spaced). Online appendixes are permitted, but the main paper must be self-contained and the core claims established in the body — do not design a study whose key evidence only fits by exporting it. Survey instruments go as separate anonymized attachments. (检索于 2026-06；以官网为准.)
 
 ## Checklist
-- [ ] The JMIS audience can see why the paper belongs in information systems, digital transformation, platforms, analytics, IT governance, and organizational impacts of technology.
-- [ ] The draft distinguishes JMIS from MIS Quarterly, Information Systems Research, Journal of the AIS.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for methods names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Design matches the style and the strength of the claim
+- [ ] IT-value/platform: a named source of exogenous variation; modern estimator where TWFE would bias
+- [ ] Behavioral: validity threats and CMB designed out procedurally, not just measured
+- [ ] Economic model: assumptions stated; empirical test maps to a model prediction
+- [ ] Design-science: utility evaluated vs. credible baselines, tied to a managerial decision
+- [ ] Core evidence fits ≤50 pages; appendix carries only support, not load-bearing claims
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JMIS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A causal IT-value claim resting on a cross-sectional or correlational design
+- Endogenous IT/platform choice "handled" only with control variables
+- Single-source, single-wave self-report with no procedural CMB remedies
+- A design-science artifact benchmarked only against strawman baselines, or with no managerial relevance
+- A design that "fits" only by exporting half the evidence to an online appendix
 
 ## Output format
 
 ```text
-【Journal】Journal of Management Information Systems
-【Skill】jmis-methods
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking methods
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not MIS Quarterly, Information Systems Research
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jmis-data-analysis
+【Style & design】firm econometrics / platform quasi-exp / survey-experiment / analytical / build-and-evaluate
+【Identification or evaluation】source of variation OR evaluation plan + credible baselines
+【Validity threats handled】endogeneity / CMB / construct validity / external validity
+【Fits ≤50pp?】yes / trim
+【Next step】jmis-data-analysis
 ```

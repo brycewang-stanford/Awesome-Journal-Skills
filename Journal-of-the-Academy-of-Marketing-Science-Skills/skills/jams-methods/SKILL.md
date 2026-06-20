@@ -1,70 +1,72 @@
 ---
 name: jams-methods
-description: Use when working on methods for a Journal of the Academy of Marketing Science manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when matching the research design to the claim for a Journal of the Academy of Marketing Science (JAMS) manuscript — construct validity and measurement, survey/SEM design, secondary-data identification, experiments, or meta-analysis. Designs the study and stress-tests validity; jams-data-analysis executes and reports the estimates.
 ---
 
-# Methods (jams-methods)
+# Research Design, Measurement & Identification (jams-methods)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of the Academy of Marketing Science (JAMS)** and methods is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's marketing strategy, consumer behavior, channels, branding, innovation, and marketing theory standard.
-- The paper risks being confused with nearby venues: Journal of Marketing, Journal of Marketing Research, Marketing Science, and Journal of Consumer Research.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The design may not actually support the theoretical claim
+- Constructs are measured but scale validity (reliability, convergent, discriminant) is unestablished
+- A causal claim rests on a cross-sectional survey or OLS-with-controls
+- Reviewers will probe common method variance, endogeneity, manipulation validity, or coding reliability
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| marketing strategy is central | Make the marketing strategy assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| customer response is central | Make the customer response assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| brand mechanism is central | Make the brand mechanism assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| managerial relevance is central | Make the managerial relevance assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| marketing theory is central | Make the marketing theory assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Match design to claim by genre
 
-## JAMS fit notes
+JAMS publishes several empirical genres; the validity question is genre-specific. Pick the genre, then clear its bar.
 
-- Publisher / owner context: Springer for the Academy of Marketing Science.
-- Submission route to re-check: Springer Nature submission.
-- Signature vocabulary: marketing strategy, customer response, brand mechanism, managerial relevance, marketing theory.
-- Sibling boundary: Journal of Marketing, Journal of Marketing Research, Marketing Science, and Journal of Consumer Research.
-- House-style aim: marketing scholarship with clear managerial implications and theory contribution.
-- Official URLs currently used by the pack:
-- https://link.springer.com/journal/11747
-- https://www.springer.com/journal/11747/submission-guidelines
+### Survey + SEM/PLS (strategy, B2B, services, branding)
+- **Construct validity is the gate.** Report reliability (composite reliability / Cronbach's α), **convergent validity** (AVE ≥ .50, loadings), and **discriminant validity** (Fornell–Larcker and/or the **HTMT** ratio — JAMS reviewers increasingly expect HTMT).
+- **Common method variance (CMV):** design against it (temporal/source separation, marker variable) and test for it (Harman is weak — prefer a marker-variable or CFA-marker approach). CMV is a top reason survey papers stall at JAMS.
+- **Measurement before structure:** establish the measurement model (CFA) before interpreting the structural model; report fit (χ²/df, CFI, TLI, RMSEA, SRMR).
+- **Formative vs. reflective:** justify the specification; do not run a reflective CFA on a formative construct.
+- **Endogeneity in survey models:** a clean SEM does not buy causality — address it (instruments, Gaussian-copula control, panel design) where the claim is causal.
 
-## Stage-specific moves
+### Secondary-data econometrics (scanner, CRM, marketing–finance)
+- **Identification is the gate.** Name the strategy the variation supports — DiD (modern staggered estimators), IV/2SLS, RDD, matching, control function — and defend the exclusion / parallel-trends / continuity assumption explicitly.
+- Address **endogeneity of marketing actions** (price, advertising, entry are chosen, not random); a lagged regressor is not identification.
+- Cluster inference at the assignment level; report first-stage strength / pre-trends as relevant.
 
-1. State the exact methods question in one sentence.
-2. Identify which JAMS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jams-data-analysis` if the stage passes, or back to `jams-workflow` if it does not.
+### Behavioral experiment
+- **Manipulation validity:** clean operationalization, manipulation and attention checks, pretested stimuli.
+- **Mechanism, not just effect:** measured-or-manipulated **mediation** and **process-by-moderation**; power sized for the *interaction*, not the main effect.
+- **Multi-study logic:** lab establishes the mechanism; a field study or a consequential outcome adds external validity (a JAMS strength).
+
+### Meta-analysis
+- Pre-specified **sampling frame** and search protocol; transparent inclusion/exclusion.
+- **Inter-coder reliability** reported; effect-size metric and artifact corrections justified.
+- **Moderator analysis** that tests the theory, plus publication-bias diagnostics.
 
 ## Checklist
-- [ ] The JAMS audience can see why the paper belongs in marketing strategy, consumer behavior, channels, branding, innovation, and marketing theory.
-- [ ] The draft distinguishes JAMS from Journal of Marketing, Journal of Marketing Research, Marketing Science.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for methods names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Genre named; design matched to the causal/behavioral/structural claim
+- [ ] Survey: reliability + AVE + discriminant validity (Fornell–Larcker / HTMT) reported
+- [ ] Survey: CMV designed against and tested (not Harman alone)
+- [ ] Measurement model validated before the structural model; fit indices reported
+- [ ] Secondary data: identification strategy named and its key assumption defended
+- [ ] Experiment: manipulation/attention checks; mediation + moderation; power for interaction
+- [ ] Meta: coding reliability + moderators + publication-bias checks
+- [ ] Causal language never exceeds what the design identifies
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JAMS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Treating a good-fitting SEM as evidence of causality
+- Discriminant validity by Fornell–Larcker only when HTMT would fail
+- Harman's single-factor test offered as the whole CMV defense
+- Endogenous marketing regressors with a lagged variable passed off as a fix
+- A single-cell or confounded manipulation that cannot isolate the cause
+- A meta-analysis with no inter-coder reliability or publication-bias check
 
 ## Output format
 
 ```text
-【Journal】Journal of the Academy of Marketing Science
-【Skill】jams-methods
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking methods
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Marketing, Journal of Marketing Research
-【Source status】verified URL / 待核实 / not asserted
+【Genre】survey-SEM / secondary-data / experiment / meta-analysis
+【Claim】causal / structural / descriptive
+【Construct validity】reliability + AVE + discriminant (FL/HTMT): pass/fix
+【CMV (survey)】design + test (marker/CFA-marker): pass/fix/NA
+【Identification (secondary)】strategy + key assumption: [...] / NA
+【Experiment】manipulation + mediation + moderation + power: pass/fix/NA
+【Meta】frame + coding reliability + bias checks: pass/fix/NA
 【Next skill】jams-data-analysis
 ```

@@ -1,70 +1,75 @@
 ---
 name: jams-tables-figures
-description: Use when working on tables and figures for a Journal of the Academy of Marketing Science manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when building exhibits for a Journal of the Academy of Marketing Science (JAMS) manuscript — the conceptual model figure, measurement and structural tables, interaction/simple-slopes plots, and managerial summary exhibits in APA style. Makes each exhibit self-contained and decision-relevant; it does not write the surrounding prose (jams-writing-style).
 ---
 
-# Tables and Figures (jams-tables-figures)
+# Tables & Figures (jams-tables-figures)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of the Academy of Marketing Science (JAMS)** and tables and figures is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's marketing strategy, consumer behavior, channels, branding, innovation, and marketing theory standard.
-- The paper risks being confused with nearby venues: Journal of Marketing, Journal of Marketing Research, Marketing Science, and Journal of Consumer Research.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The conceptual model figure is missing, cluttered, or inconsistent with the hypotheses
+- Measurement and structural results are crammed into one unreadable table
+- Interaction or mediation results need a clear plot
+- Exhibits report significance but not the managerial magnitude
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| marketing strategy is central | Make the marketing strategy assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| customer response is central | Make the customer response assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| brand mechanism is central | Make the brand mechanism assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| managerial relevance is central | Make the managerial relevance assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| marketing theory is central | Make the marketing theory assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The exhibits a JAMS paper is expected to carry
 
-## JAMS fit notes
+JAMS papers have a recognizable exhibit grammar. Build these deliberately:
 
-- Publisher / owner context: Springer for the Academy of Marketing Science.
-- Submission route to re-check: Springer Nature submission.
-- Signature vocabulary: marketing strategy, customer response, brand mechanism, managerial relevance, marketing theory.
-- Sibling boundary: Journal of Marketing, Journal of Marketing Research, Marketing Science, and Journal of Consumer Research.
-- House-style aim: marketing scholarship with clear managerial implications and theory contribution.
-- Official URLs currently used by the pack:
-- https://link.springer.com/journal/11747
-- https://www.springer.com/journal/11747/submission-guidelines
+1. **Conceptual model figure.** Almost every framework paper opens its empirics with a drawn nomological net — boxes for constructs, arrows labeled H1…Hk, mediators and moderators positioned correctly. The figure must match the hypotheses *exactly*; a mismatch between the model figure and the hypothesis list is a classic reviewer catch.
+2. **Measurement table.** Items, loadings, reliability (CR / α), AVE — and a discriminant-validity table (Fornell–Larcker diagonal of √AVE, and/or an **HTMT** matrix).
+3. **Structural results table.** Standardized path coefficients with SEs/CIs, *R²* for endogenous constructs, model fit (CFI, TLI, RMSEA, SRMR) or PLS metrics (*Q²*, *f²*).
+4. **Mediation/moderation exhibit.** Indirect effects with bias-corrected CIs; an **interaction plot with simple slopes** (and error bands) where a moderator is central.
+5. **Managerial exhibit (the JAMS differentiator).** A table or figure that translates the estimates into decision terms — effect on sales/share/CLV/margin by segment or scenario. This is where JAMS exhibits do work that the modeling siblings' tables do not.
 
-## Stage-specific moves
+## House-style and reporting essentials
 
-1. State the exact tables and figures question in one sentence.
-2. Identify which JAMS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jams-writing-style` if the stage passes, or back to `jams-workflow` if it does not.
+- **Self-contained.** Each exhibit has a descriptive title, defined variables and units, sample size, and a note stating the estimator and SE type. A reader should grasp it without the body text.
+- **APA style** in notes and captions; numbering consistent across text, tables, and figures; every exhibit referenced in the text in order.
+- **Effect sizes visible.** Standardized coefficients, *R²*, *d*/η², or odds ratios — not significance alone. If you use significance markers, still report the magnitude.
+- **Mediation done right in the exhibit:** show the indirect effect and its bias-corrected CI, not a row of Baron–Kenny steps.
+- **Don't bury the contribution.** The main text carries the exhibits that prove the core argument; supplementary descriptives, full item lists, and extra robustness belong in an online appendix / supplementary file, not padded into the paper.
+
+## Exhibit-by-genre quick guide
+
+The right exhibit set depends on the empirical genre — build to the genre, not to a generic template:
+
+- **Survey + SEM/PLS:** conceptual model figure → measurement table (loadings, CR/AVE) → discriminant-validity table (Fornell–Larcker with √AVE on the diagonal, and an HTMT matrix) → structural-paths table with standardized coefficients, *R²*, and fit → simple-slopes plot for any moderator → a managerial scenario table.
+- **Secondary-data econometrics:** descriptives/correlations → identification diagnostic (first stage, pre-trends plot, balance) → main regression table with cluster-robust SEs → robustness columns → an elasticity/magnitude exhibit in managerial units.
+- **Experiment:** a study-flow/design figure → cell-means table (M, SD, n per condition) → interaction plot with error bars → a mediation figure with bootstrapped indirect effects.
+- **Meta-analysis:** a sample/coding-flow (PRISMA-style) figure → forest-style effect-size table → moderator meta-regression table → a funnel plot or other publication-bias diagnostic.
+
+## Make the moderator and the magnitude visible
+
+Two exhibits decide whether a JAMS reviewer believes the contingency story and the managerial payoff. The **interaction plot** must show the moderator on separate lines with the simple slopes labeled and significance of each slope stated in the note — a bare interaction coefficient in a table is not enough. The **managerial magnitude exhibit** should convert the focal effect into the unit a decision maker uses (e.g., "a one-SD increase in the focal construct raises predicted retention by X points for high-equity brands but only Y for low-equity brands"), so the boundary condition reads as a segmentation rule, not a statistical artifact.
 
 ## Checklist
-- [ ] The JAMS audience can see why the paper belongs in marketing strategy, consumer behavior, channels, branding, innovation, and marketing theory.
-- [ ] The draft distinguishes JAMS from Journal of Marketing, Journal of Marketing Research, Marketing Science.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for tables and figures names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Conceptual model figure present and matches the hypothesis list exactly
+- [ ] Measurement table: loadings, CR/α, AVE; discriminant validity (FL / HTMT)
+- [ ] Structural table: standardized paths + SE/CI, *R²*, fit indices (or PLS metrics)
+- [ ] Interaction/simple-slopes plot for any central moderator
+- [ ] Mediation exhibit shows indirect effect + bias-corrected CI
+- [ ] At least one exhibit translates estimates into managerial magnitudes
+- [ ] Every exhibit self-contained; APA notes; consistent numbering; referenced in order
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JAMS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A conceptual model figure that contradicts the hypotheses or the structural table
+- Measurement and structural results fused into one indecipherable table
+- Tables with significance stars but no effect sizes or magnitudes
+- A moderator hypothesis with no interaction plot
+- Mediation shown as causal-steps rows instead of bootstrapped indirect effects
+- Padding the main text with descriptives that belong in supplementary material
 
 ## Output format
 
 ```text
-【Journal】Journal of the Academy of Marketing Science
-【Skill】jams-tables-figures
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking tables and figures
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Marketing, Journal of Marketing Research
-【Source status】verified URL / 待核实 / not asserted
+【Conceptual model figure】present + matches hypotheses? yes/fix
+【Measurement table】loadings/CR/AVE + discriminant (FL/HTMT): pass/fix
+【Structural table】std paths + SE/CI + R² + fit: pass/fix
+【Mediation/moderation exhibit】indirect+CI / simple slopes: pass/fix
+【Managerial exhibit】estimates → decision units? present/add
+【House style】APA notes, self-contained, numbered, referenced: pass/fix
 【Next skill】jams-writing-style
 ```

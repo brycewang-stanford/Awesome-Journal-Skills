@@ -1,70 +1,72 @@
 ---
 name: jams-contribution-framing
-description: Use when working on contribution framing for a Journal of the Academy of Marketing Science manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when stating the contribution of a Journal of the Academy of Marketing Science (JAMS) manuscript — discharging JAMS's dual mandate of a theoretical AND a managerial contribution and defending against "incremental." Frames the contribution; it does not run the analysis (jams-data-analysis) or polish the prose (jams-writing-style).
 ---
 
-# Contribution Framing (jams-contribution-framing)
+# Contribution Framing, Dual Mandate (jams-contribution-framing)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of the Academy of Marketing Science (JAMS)** and contribution framing is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's marketing strategy, consumer behavior, channels, branding, innovation, and marketing theory standard.
-- The paper risks being confused with nearby venues: Journal of Marketing, Journal of Marketing Research, Marketing Science, and Journal of Consumer Research.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Results exist but the "so what" — especially the managerial one — is thin
+- A reviewer or editor calls the contribution "incremental" or a "new-context replication"
+- The discussion lists implications generically with no decision a manager would change
+- You need to draft the explicit contribution sentences for the intro and discussion
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| marketing strategy is central | Make the marketing strategy assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| customer response is central | Make the customer response assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| brand mechanism is central | Make the brand mechanism assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| managerial relevance is central | Make the managerial relevance assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| marketing theory is central | Make the marketing theory assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## JAMS's contribution bar has two parts — both required
 
-## JAMS fit notes
+JAMS exists to **advance the science and practice of marketing**. That dual purpose is structural, not rhetorical: a JAMS contribution statement must do two things at once, and the paper is incomplete if either is missing.
 
-- Publisher / owner context: Springer for the Academy of Marketing Science.
-- Submission route to re-check: Springer Nature submission.
-- Signature vocabulary: marketing strategy, customer response, brand mechanism, managerial relevance, marketing theory.
-- Sibling boundary: Journal of Marketing, Journal of Marketing Research, Marketing Science, and Journal of Consumer Research.
-- House-style aim: marketing scholarship with clear managerial implications and theory contribution.
-- Official URLs currently used by the pack:
-- https://link.springer.com/journal/11747
-- https://www.springer.com/journal/11747/submission-guidelines
+1. **Theoretical contribution.** A *new, consequential* understanding of a marketing relationship — a mechanism, a contingency/boundary condition, a reconciliation of competing frameworks, or a validated construct the field lacked. Not "we confirmed X in setting Y."
+2. **Managerial contribution.** A concrete way a marketer, sales leader, channel partner, or policy maker can act differently. At JAMS this is **expected and weighted**, not a courtesy paragraph — it is the journal's historic identity and a frequent point of reviewer pushback.
 
-## Stage-specific moves
+Write both explicitly in the introduction and revisit both in the discussion. If you can only write one, the paper is not yet a JAMS paper. A theory-only paper drifts toward the modeling/consumer siblings; a managerial-only paper reads as a trade article.
 
-1. State the exact contribution framing question in one sentence.
-2. Identify which JAMS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jams-tables-figures` if the stage passes, or back to `jams-workflow` if it does not.
+## Make each contribution concrete
+
+**Theoretical:**
+- State what the field *could not explain or predict* before this paper.
+- Tie it to your mechanism (mediator) and contingencies (moderators), not just a significant main effect.
+
+**Managerial:**
+- Name the **decision** and the **decision maker**.
+- Quantify the stake in **managerial units** using your effect sizes (sales lift, share, CLV, margin, retention, WTP, brand-equity points, firm value).
+- State the **conditions** under which the prescription holds — your boundary conditions become managerial guardrails and segmentation rules.
+- Where relevant, extend to **policy / societal** stakes (consumer welfare, sustainability, well-being).
+
+## Defend against "incremental"
+
+Prepare a one-sentence answer to each predictable challenge:
+
+- *"We already knew this."* → What is new, surprising, or decision-changing that prior work could not have told us?
+- *"You just changed the setting."* → What about the **mechanism, magnitude, or boundary** is genuinely different — not merely the industry/country/platform?
+- *"So what for practice?"* → Which decision changes, for whom, and how large is the gain in managerial units?
 
 ## Checklist
-- [ ] The JAMS audience can see why the paper belongs in marketing strategy, consumer behavior, channels, branding, innovation, and marketing theory.
-- [ ] The draft distinguishes JAMS from Journal of Marketing, Journal of Marketing Research, Marketing Science.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for contribution framing names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] One-sentence theoretical contribution (new, consequential understanding) written
+- [ ] One-sentence managerial contribution (decision changed, quantified) written
+- [ ] Both appear in the introduction and are revisited in the discussion
+- [ ] Managerial stake quantified in real units, with conditions/guardrails
+- [ ] "Incremental / new-context" challenge answered explicitly
+- [ ] Policy/societal angle addressed where the question warrants
+- [ ] Contribution does not rest on methodological novelty alone
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JAMS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Relevance boilerplate**: "managers should pay attention to X" with no decision or magnitude
+- **Theory without practice**, or **practice without new insight** — JAMS needs both
+- **Contribution = method**: leading with the estimator/model instead of the marketing insight
+- **New-context framing** dressed up as a contribution
+- **Over-claiming** beyond what the effect sizes and design support
 
 ## Output format
 
 ```text
-【Journal】Journal of the Academy of Marketing Science
-【Skill】jams-contribution-framing
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking contribution framing
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Marketing, Journal of Marketing Research
-【Source status】verified URL / 待核实 / not asserted
+【Theoretical contribution】[one sentence: new, consequential understanding]
+【Managerial contribution】[one sentence: decision changed + magnitude in managerial units]
+【Both in intro + discussion】yes/no
+【Quantified stake】lift / share / CLV / WTP / firm value = [...]; conditions: [...]
+【Incremental/new-context defense】[...]
+【Policy/societal angle】[...] / NA
 【Next skill】jams-tables-figures
 ```

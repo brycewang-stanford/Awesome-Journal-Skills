@@ -1,76 +1,63 @@
 ---
 name: jcp-submission
-description: Use when working on submission preflight for a Journal of Consumer Psychology manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when running the final pre-submission preflight for a Journal of Consumer Psychology (JCP) manuscript — manuscript type and length, APA formatting, double-blind anonymization, the open-science / data-materials package, and the Wiley ScholarOne portal. Final checks; it does not draft content.
 ---
 
 # Submission Preflight (jcp-submission)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Consumer Psychology (JCP)** and submission preflight is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's consumer psychology, judgment and decision-making, persuasion, emotion, identity, and consumption behavior standard.
-- The paper risks being confused with nearby venues: Journal of Consumer Research, Journal of Marketing Research, Marketing Science, and Psychological Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- "Submitting this week" — last check before uploading to JCP
+- Unsure which manuscript type your paper is, or whether it fits the length limit
+- Confirming APA formatting, anonymization, and the open-science deposit are in order
+- Assembling the data/materials/code package and disclosure statements
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| consumer mechanism is central | Make the consumer mechanism assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| experimental manipulation is central | Make the experimental manipulation assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| psychological process is central | Make the psychological process assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| moderation logic is central | Make the moderation logic assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| consumer welfare is central | Make the consumer welfare assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Process facts (检索于 2026-06；以官网为准; the resources source-map still says Elsevier — JCP is now Wiley)
 
-## JCP fit notes
+- JCP is the journal of the **Society for Consumer Psychology (SCP)**, APA Division 23, published by **Wiley** (it migrated from Elsevier). pISSN 1057-7408, eISSN 1532-7663. Submission is via Wiley's **ScholarOne / Manuscript Central** workflow (待核实 the exact portal; confirm the current submission link on the Wiley/myscp author page).
+- **Manuscript types**: **Research Article** (≤50 double-spaced pages including abstract, references, tables, and figures); **Research Report** (**<4,000 words** excluding abstract, references, tables, and figures); **Conceptual Review** (≤50 pages); **Research Dialogue**.
+- **Formatting**: **APA Style** (confirm 6th vs 7th on the current author page; APA 7 is the field default as of 2026 — 待核实). Double-spaced; title page, abstract, keywords.
+- **Review model**: **double-blind** (待核实) — the manuscript must be anonymized.
+- **Open science**: JCP is committed to transparency and reproducibility and to APA ethical standards. Authors may **pre-register** with an analysis plan in an independent registry (OSF/AsPredicted); plan to **share data and materials** (verify whether deposit is required vs. encouraged on the current page).
+- There is no submission fee for standard submission to a hybrid Wiley journal; an APC applies only if you choose open access (待核实 the current amount).
 
-- Publisher / owner context: Elsevier for the Society for Consumer Psychology.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: consumer mechanism, experimental manipulation, psychological process, moderation logic, consumer welfare.
-- Sibling boundary: Journal of Consumer Research, Journal of Marketing Research, Marketing Science, and Psychological Science.
-- House-style aim: psychological mechanism evidence tied to consumer behavior and marketing theory.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/journal-of-consumer-psychology
-- https://www.elsevier.com/journals/journal-of-consumer-psychology/1057-7408/guide-for-authors
+## Preflight checklist
 
-## Stage-specific moves
+### Manuscript type & length
+- [ ] Correct type chosen (Article / Report / Review / Dialogue)
+- [ ] Research Article ≤50 double-spaced pages **including** abstract/refs/tables/figures
+- [ ] Research Report **<4,000 words** excluding abstract/refs/tables/figures
+- [ ] Abstract within limit; keywords included (待核实 exact abstract word cap on the author page)
 
-1. State the exact submission preflight question in one sentence.
-2. Identify which JCP audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jcp-review-process` if the stage passes, or back to `jcp-workflow` if it does not.
+### Format & anonymization
+- [ ] **APA Style** throughout (headings, citations, references, statistics, tables/figures)
+- [ ] Double-spaced; title page separate; pages numbered
+- [ ] Manuscript **anonymized** for double-blind review (no author names, no self-identifying citations in the body, scrubbed file metadata)
+- [ ] Effect sizes and CIs reported; tables not asterisk-only
 
-## Checklist
-- [ ] The JCP audience can see why the paper belongs in consumer psychology, judgment and decision-making, persuasion, emotion, identity, and consumption behavior.
-- [ ] The draft distinguishes JCP from Journal of Consumer Research, Journal of Marketing Research, Marketing Science.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for submission preflight names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+### Open science & disclosures
+- [ ] Pre-registration links included where studies were registered; deviations described
+- [ ] **Data + materials + analysis code** deposited (OSF / ResearchBox / repository) with a review-accessible (anonymized) link
+- [ ] All conditions and measures disclosed; sample-size determination and exclusion rules stated
+- [ ] Ethics/IRB statement; conflicts of interest; funding; author contributions
+- [ ] Confirmed the paper is not under review elsewhere; AI not listed as an author
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JCP without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Submitting a one-mechanism finding as a 50-page Article (or four studies as a Report)
+- Leaving author-identifying citations or file metadata in a double-blind submission
+- Treating open data/materials as a post-acceptance chore instead of preparing it now
+- Asterisk-only tables with no effect sizes/CIs (fails the rigor-era bar)
+- Quoting "Elsevier / Editorial Manager" from the stale source map — re-verify on the Wiley/myscp page
 
 ## Output format
 
 ```text
-【Journal】Journal of Consumer Psychology
-【Skill】jcp-submission
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking submission preflight
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Consumer Research, Journal of Marketing Research
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jcp-review-process
+【Manuscript type】Article / Report / Review / Dialogue (+ length compliant? Y/N)
+【APA format】headings/citations/stats/exhibits APA-compliant? [Y/N]
+【Anonymization】body + metadata scrubbed for double-blind? [Y/N]
+【Open science】preregistration links + data/materials/code deposited? [Y/N]
+【Disclosures】conditions/measures, exclusions, ethics, COI, funding? [Y/N]
+【Portal】ScholarOne submission link verified on Wiley/myscp page? [Y/N / 待核实]
+【Next step】submit, then jcp-review-process for what to expect
 ```
-
-## Supplementary resources
-
-- [`templates/checklist.md`](templates/checklist.md) — submission self-check
-- [`templates/manuscript_template.md`](templates/manuscript_template.md) — lightweight manuscript scaffold
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official URLs and volatile facts

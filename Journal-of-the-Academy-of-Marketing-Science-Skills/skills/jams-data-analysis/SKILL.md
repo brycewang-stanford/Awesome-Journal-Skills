@@ -1,70 +1,82 @@
 ---
 name: jams-data-analysis
-description: Use when working on data analysis for a Journal of the Academy of Marketing Science manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when running and reporting the analysis for a Journal of the Academy of Marketing Science (JAMS) manuscript — selecting the estimator that matches the design (SEM/PLS, HLM, regression/econometrics, experiments, meta-analysis), reporting effect sizes and uncertainty, and translating estimates into managerial magnitudes. Executes and reports; jams-methods designs the study and jams-contribution-framing states the payoff.
 ---
 
-# Data Analysis (jams-data-analysis)
+# Data Analysis & Reporting (jams-data-analysis)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of the Academy of Marketing Science (JAMS)** and data analysis is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's marketing strategy, consumer behavior, channels, branding, innovation, and marketing theory standard.
-- The paper risks being confused with nearby venues: Journal of Marketing, Journal of Marketing Research, Marketing Science, and Journal of Consumer Research.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Data are collected and it is time to estimate and report
+- You are unsure whether the estimator matches the design or the data structure
+- A reviewer says "the analysis does not support the inference" or "report effect sizes"
+- Significance is reported but the managerial magnitude is missing
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| marketing strategy is central | Make the marketing strategy assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| customer response is central | Make the customer response assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| brand mechanism is central | Make the brand mechanism assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| managerial relevance is central | Make the managerial relevance assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| marketing theory is central | Make the marketing theory assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Choose the estimator that matches the design
 
-## JAMS fit notes
+| Design / claim | Estimator |
+|---|---|
+| Latent constructs + structural paths (survey) | Covariance-based **SEM** (Mplus / lavaan / AMOS); **PLS-SEM** when prediction or formative constructs dominate |
+| Nested data (consumers in stores, firms in industries) | **HLM / multilevel** models; random intercepts/slopes; report ICC |
+| Mediation (process) | Bootstrapped indirect effects (PROCESS / lavaan), **bias-corrected CIs**; report the indirect effect, not just Baron–Kenny steps |
+| Moderation / moderated mediation | Interaction term + simple slopes; conditional indirect effects (index of moderated mediation) |
+| Experiment (factorial) | ANOVA / regression; estimated marginal means; planned contrasts; effect sizes per cell |
+| Panel / observational causal | FE / **DiD** (modern staggered estimators); cluster-robust SE |
+| Endogenous marketing regressor | IV/2SLS or Gaussian-copula control function; report first stage / instrument strength |
+| Discrete choice / demand | Logit/probit; random-coefficient (mixed) logit |
+| Meta-analysis | Random-effects effect-size synthesis; moderator meta-regression; publication-bias diagnostics |
 
-- Publisher / owner context: Springer for the Academy of Marketing Science.
-- Submission route to re-check: Springer Nature submission.
-- Signature vocabulary: marketing strategy, customer response, brand mechanism, managerial relevance, marketing theory.
-- Sibling boundary: Journal of Marketing, Journal of Marketing Research, Marketing Science, and Journal of Consumer Research.
-- House-style aim: marketing scholarship with clear managerial implications and theory contribution.
-- Official URLs currently used by the pack:
-- https://link.springer.com/journal/11747
-- https://www.springer.com/journal/11747/submission-guidelines
+Match SE clustering to the sampling/assignment structure (participant, store, market, firm).
 
-## Stage-specific moves
+## JAMS reporting conventions
 
-1. State the exact data analysis question in one sentence.
-2. Identify which JAMS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jams-contribution-framing` if the stage passes, or back to `jams-workflow` if it does not.
+- **APA results style.** Report exact statistics (coefficients, SEs or *t*-values, CIs, exact *p* where shown). Avoid asterisk-only tables where the journal asks for precision; let the magnitude, not the star count, carry the result.
+- **Effect sizes and uncertainty, always.** Standardized coefficients, *R²*/*f²*, η²/Cohen's *d*, or odds ratios as the model requires — significance without magnitude is not a JAMS result.
+- **SEM reporting:** measurement model first (loadings, AVE, CR, discriminant validity), then the structural model (standardized paths, *R²* for endogenous constructs, overall fit: CFI, TLI, RMSEA, SRMR).
+- **PLS reporting:** loadings/weights, CR, AVE, HTMT, *R²*, *Q²* (predictive relevance), and *f²*; bootstrap the path significances.
+
+## Translate every result into a managerial magnitude
+
+This is the JAMS-distinguishing step. For each headline result, write a ledger row before drafting the results paragraph:
+
+| Result | Theory point it supports | Required statistic | Managerial magnitude |
+|---|---|---|---|
+| Main path / treatment effect | which hypothesis / mechanism is confirmed | std. coef. + CI / *d* | sales lift, share, CLV, margin, retention, brand-equity points |
+| Mediation (process) | which mechanism carries the effect | indirect effect + bias-corrected CI | why the process matters for the decision |
+| Moderation (contingency) | when the effect strengthens/reverses | interaction + simple slopes | the managerial guardrail / segmentation rule |
+| Robustness / alternative model | which threat (CMV, endogeneity) is reduced | same discipline as the main result | whether the conclusion's direction/size holds |
+
+If the managerial-magnitude column is empty, the result is not yet ready for a JAMS results section.
 
 ## Checklist
-- [ ] The JAMS audience can see why the paper belongs in marketing strategy, consumer behavior, channels, branding, innovation, and marketing theory.
-- [ ] The draft distinguishes JAMS from Journal of Marketing, Journal of Marketing Research, Marketing Science.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for data analysis names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Estimator matches design and data structure; SE clustering correct
+- [ ] SEM: measurement model reported before structural; full fit indices given
+- [ ] PLS: HTMT, *R²*, *Q²*, *f²* reported; paths bootstrapped
+- [ ] Mediation via bootstrapped indirect effects with bias-corrected CIs
+- [ ] Moderation: simple slopes + index of moderated mediation where relevant
+- [ ] Effect sizes and uncertainty reported throughout (APA style)
+- [ ] Every headline result has a managerial-magnitude translation
+- [ ] Robustness addresses the design's specific threat (CMV / endogeneity / pre-trends)
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JAMS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Baron–Kenny causal-steps mediation instead of bootstrapped indirect effects
+- Reporting fit indices but no standardized paths or *R²*
+- Significance with no effect size and no managerial magnitude
+- Ignoring nesting (consumers within stores) and clustering
+- A weak/untested instrument, or endogeneity waved away
+- Asterisk tables that hide the size of the effect
 
 ## Output format
 
 ```text
-【Journal】Journal of the Academy of Marketing Science
-【Skill】jams-data-analysis
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking data analysis
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Marketing, Journal of Marketing Research
-【Source status】verified URL / 待核实 / not asserted
+【Design】survey-SEM / PLS / HLM / experiment / panel-causal / choice / meta
+【Estimator】matches design? SE clustering: [...]
+【Measurement (if SEM/PLS)】AVE/CR/discriminant + fit/HTMT: pass/fix
+【Effect sizes + uncertainty】reported (APA)? pass/fix
+【Mediation/moderation】bootstrapped indirect / simple slopes: done?
+【Managerial-magnitude ledger】every headline result translated? yes/fix
+【Robustness】design-specific threat addressed: [...]
 【Next skill】jams-contribution-framing
 ```

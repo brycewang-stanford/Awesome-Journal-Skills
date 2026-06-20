@@ -1,70 +1,75 @@
 ---
 name: jais-writing-style
-description: Use when working on writing style for a Journal of the Association for Information Systems manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when polishing the prose of a Journal of the Association for Information Systems (JAIS) manuscript — the abstract, introduction, theory narrative, and APA-6 mechanics — so a pluralistic, theory-forward reviewer pool can follow the argument. A late-stage polish; it does not build the contribution (jais-contribution-framing) or check submission mechanics (jais-submission).
 ---
 
 # Writing Style (jais-writing-style)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of the Association for Information Systems (JAIS)** and writing style is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's information systems theory, digital innovation, sociotechnical systems, methods, and cumulative IS scholarship standard.
-- The paper risks being confused with nearby venues: MIS Quarterly, Information Systems Research, JMIS, and Management Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The theory, evidence, and contribution are settled and the prose now needs to carry them
+- The introduction reads as a literature dump and the contribution does not land in the first pages
+- Your sub-field's shorthand makes the paper opaque to reviewers from other IS traditions
+- References and in-text citations are not in APA 6th edition
+- A reviewer says the writing is "dense," "jargon-heavy," or "the argument is hard to follow"
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| sociotechnical system is central | Make the sociotechnical system assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| IS theory is central | Make the IS theory assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| digital innovation is central | Make the digital innovation assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| methodological pluralism is central | Make the methodological pluralism assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| cumulative contribution is central | Make the cumulative contribution assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Write for a pluralistic, theory-forward reader
 
-## JAIS fit notes
+JAIS reviewers span behavioral, economic, design-science, organizational, and critical/philosophical traditions, and the journal prizes "innovative, interesting and rigorously developed" work. Your prose must therefore do two things at once: make the **theoretical argument** vivid and primary, and stay legible to a reader who does not share your methodological dialect. Define terms the first time; explain why a move matters before you make it; lead with ideas, not apparatus.
 
-- Publisher / owner context: Association for Information Systems.
-- Submission route to re-check: AIS eLibrary / journal submission.
-- Signature vocabulary: sociotechnical system, IS theory, digital innovation, methodological pluralism, cumulative contribution.
-- Sibling boundary: MIS Quarterly, Information Systems Research, JMIS, and Management Science.
-- House-style aim: theory-forward IS research with method fit and clear community contribution.
-- Official URLs currently used by the pack:
-- https://aisel.aisnet.org/jais/
-- https://aisel.aisnet.org/jais/policies.html
+## The introduction is the contribution, told as a story
 
-## Stage-specific moves
+A JAIS introduction should, in roughly its first two pages, answer: what is the IS phenomenon, why is it interesting and unresolved, what is the contribution, and why JAIS's audience should care across traditions. Open with the puzzle, not a textbook definition. State the contribution sentence early ("before this paper… ; this paper shows… ; which changes…"). Reviewers who cannot find the contribution by page two assume there isn't one.
 
-1. State the exact writing style question in one sentence.
-2. Identify which JAIS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jais-submission` if the stage passes, or back to `jais-workflow` if it does not.
+## Foreground the theory, then the evidence
+
+Because JAIS treats theory as a first-class contribution, the narrative spine is the theoretical argument; methods and results serve it. Walk the reader through the mechanism in words before equations or coefficients. For a Theory or Perspectives paper, the prose *is* the contribution — invest accordingly, with crisp construct definitions and a clean logical chain from premises to propositions.
+
+## Prose mechanics JAIS reviewers notice
+
+- **APA 6th edition** references and in-text citation; lead with the idea, not a parenthetical pile-up.
+- Prefer active voice and concrete subjects; cut nominalizations ("the operationalization of" → "we measured").
+- One idea per paragraph, with a topic sentence that states the claim.
+- Define every construct on first use; do not assume cross-tradition familiarity.
+- Keep the abstract a faithful, self-contained summary of phenomenon, theory, method, and contribution.
+
+## Respect double-blind anonymity in the prose
+
+Word self-citations neutrally ("prior research (Author, 2020) found…"), not "in our earlier work." Strip acknowledgments, funding, and identifying site/dataset names from the body; they belong on the separate title page. Anonymity failures in the prose cause administrative returns before review.
+
+## Mind the length while polishing
+
+Tightening prose is also length management: JAIS flags manuscripts over **~15,000 words** for extra scrutiny and will not review beyond **65 pages**. Cut throat-clearing, consolidate repeated framing, and let exhibits carry detail the text need not restate.
 
 ## Checklist
-- [ ] The JAIS audience can see why the paper belongs in information systems theory, digital innovation, sociotechnical systems, methods, and cumulative IS scholarship.
-- [ ] The draft distinguishes JAIS from MIS Quarterly, Information Systems Research, JMIS.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for writing style names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] The contribution is stated within the first ~two pages of the introduction
+- [ ] The theoretical argument is the narrative spine; methods/results serve it
+- [ ] Every construct is defined on first use; cross-tradition jargon is unpacked
+- [ ] Active voice, concrete subjects, one idea per paragraph
+- [ ] APA 6th references and in-text citation throughout
+- [ ] Abstract is a faithful, standalone summary (phenomenon → theory → method → contribution)
+- [ ] Self-citations neutral; no identifying info in the body (double-blind)
+- [ ] Prose tightened so the manuscript stays within the length budget
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JAIS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- An introduction that reviews the literature for pages before stating the contribution.
+- Method-first prose that buries the theoretical argument under apparatus.
+- Sub-field jargon left undefined for a pluralistic reviewer pool.
+- "In our prior work" phrasing that breaks double-blind anonymity.
+- Polishing prose before the theory, evidence, and contribution are actually settled.
 
 ## Output format
 
 ```text
-【Journal】Journal of the Association for Information Systems
-【Skill】jais-writing-style
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking writing style
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not MIS Quarterly, Information Systems Research
-【Source status】verified URL / 待核实 / not asserted
+【Journal】Journal of the Association for Information Systems (JAIS)
+【Contribution by page 2?】yes/fix
+【Theory-first narrative】theory is the spine, methods serve it: yes/fix
+【Cross-tradition legibility】jargon defined: yes/fix
+【APA 6th + active voice】pass/fix
+【Abstract】standalone phenomenon→theory→method→contribution: yes/fix
+【Anonymity in prose】no identifying info; neutral self-cites: pass/fix
+【Length】within ~15k words / 65pp: yes/trim
 【Next skill】jais-submission
 ```

@@ -1,70 +1,73 @@
 ---
 name: jais-data-analysis
-description: Use when working on data analysis for a Journal of the Association for Information Systems manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when running and reporting the empirical core of a Journal of the Association for Information Systems (JAIS) manuscript — SEM measurement and structural models for behavioral IS, identification and robustness for economics-of-IS, artifact evaluation for design science, or trustworthiness for qualitative work — and assembling the data/matrix materials JAIS requires. Executes and reports the analysis; it does not design the study (jais-methods) or frame the contribution (jais-contribution-framing).
 ---
 
-# Data Analysis (jais-data-analysis)
+# Data Analysis & Evidence (jais-data-analysis)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of the Association for Information Systems (JAIS)** and data analysis is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's information systems theory, digital innovation, sociotechnical systems, methods, and cumulative IS scholarship standard.
-- The paper risks being confused with nearby venues: MIS Quarterly, Information Systems Research, JMIS, and Management Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Data are collected (or the artifact built) and it is time to estimate, evaluate, and report
+- A reviewer probes measurement validity, identification, artifact utility, or replicability
+- You must prepare the **correlation/covariance matrix plus descriptives** JAIS requires for quantitative studies
+- Effects are reported as stars with no magnitude or theoretical meaning
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| sociotechnical system is central | Make the sociotechnical system assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| IS theory is central | Make the IS theory assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| digital innovation is central | Make the digital innovation assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| methodological pluralism is central | Make the methodological pluralism assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| cumulative contribution is central | Make the cumulative contribution assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Analyze in the currency of your tradition
 
-## JAIS fit notes
+JAIS's pluralism means there is no single mandated estimator; the standard is the rigor norm of your tradition, reported transparently enough for a developmental Senior Editor to interrogate. Pick the row.
 
-- Publisher / owner context: Association for Information Systems.
-- Submission route to re-check: AIS eLibrary / journal submission.
-- Signature vocabulary: sociotechnical system, IS theory, digital innovation, methodological pluralism, cumulative contribution.
-- Sibling boundary: MIS Quarterly, Information Systems Research, JMIS, and Management Science.
-- House-style aim: theory-forward IS research with method fit and clear community contribution.
-- Official URLs currently used by the pack:
-- https://aisel.aisnet.org/jais/
-- https://aisel.aisnet.org/jais/policies.html
+| Tradition | What to report |
+|-----------|----------------|
+| **Behavioral** | reliability (alpha/CR), CFA or PLS measurement model, AVE, discriminant validity (Fornell-Larcker / HTMT); structural paths with effect sizes; mediation via bootstrap CIs; moderation via simple slopes |
+| **Economics of IS** | the identifying variation, parallel-trends/exogeneity evidence, clustered SEs, and a robustness battery (alternative specs, placebo/event-time tests, sensitivity to the key assumption) |
+| **Design science** | artifact performance against credible baselines on held-out data; ablations; field/A-B or expert evaluation tied to design propositions; cost/utility discussion |
+| **Qualitative / interpretive** | a transparent data structure (codes → themes → dimensions), an audit trail, and representative quotations tracing raw data to constructs |
 
-## Stage-specific moves
+## Behavioral IS: defend measurement, then satisfy the JAIS matrix rule
 
-1. State the exact data analysis question in one sentence.
-2. Identify which JAIS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jais-contribution-framing` if the stage passes, or back to `jais-workflow` if it does not.
+Report the measurement model first: reliabilities, AVE, and discriminant validity. PLS-SEM suits predictive/formative models; covariance-based SEM suits theory-testing with reflective constructs — justify the choice. Address **common-method bias** beyond a single-factor (Harman) test — a marker variable, an unmeasured method factor, or showing interactions survive. Then report structural paths with **effect sizes**, not just significance. Crucially, JAIS requires you to **"provide a full correlation matrix or covariation matrix as a part of articles (appendix)"** for SEM studies, plus descriptives — prepare this now, not at proof stage (检索于 2026-06；以官网为准).
+
+## Economics of IS: make the causal claim earn its keep
+
+Lead with the identification logic, then stress-test it: alternative specifications, placebo and event-study plots, sensitivity to the key assumption, and clustering matched to the data structure. With staggered timing, use a modern estimator and show flat pre-trends. Report magnitudes and their economic meaning, not just stars.
+
+## Design science: evaluate the artifact, not just the math
+
+Benchmark against the baselines a skeptic would name, run ablations to show which design principles matter, and connect each result back to a design proposition. Where feasible, evaluate in a realistic field setting. Utility for a real problem is the contribution.
+
+## Qualitative: make the path from data to theory traceable
+
+Show the coding structure and an audit trail so a reader can follow how raw material became constructs. Representative quotations and negative cases build trustworthiness; the analytic narrative, not a coefficient, carries the claim.
+
+## Prepare the JAIS data materials
+
+JAIS policy requires authors to make datasets **"available on request for checking by senior editors or reviewers after care has been taken to anonymize the data,"** and for quantitative studies to provide **"the co-variance or correlation matrix plus descriptives."** If you reuse a dataset, you must justify it for an alternative theoretical purpose or a new methodological approach. Assemble these now and keep them anonymized for double-blind review.
 
 ## Checklist
-- [ ] The JAIS audience can see why the paper belongs in information systems theory, digital innovation, sociotechnical systems, methods, and cumulative IS scholarship.
-- [ ] The draft distinguishes JAIS from MIS Quarterly, Information Systems Research, JMIS.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for data analysis names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Analysis matches the tradition (SEM / causal econometrics / artifact evaluation / qualitative)
+- [ ] Behavioral: reliability, AVE, discriminant validity, CMB beyond single-factor; effect sizes reported
+- [ ] SEM: full correlation/covariance matrix + descriptives prepared as an appendix
+- [ ] Economics: identification defended, robustness/placebo tests, clustered SEs, magnitudes
+- [ ] Design science: baselines, ablations, field/expert evaluation tied to design propositions
+- [ ] Qualitative: traceable data structure and audit trail
+- [ ] Datasets anonymized and available on request to SEs/reviewers; reuse justified if applicable
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JAIS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A single-factor (Harman) test as the sole common-method-bias defense.
+- Submitting SEM results without the required correlation/covariance matrix and descriptives.
+- A causal claim with no identification and no robustness battery.
+- A design-science "evaluation" with no credible baseline.
+- Reporting p-values with no effect sizes or practical/theoretical interpretation.
 
 ## Output format
 
 ```text
-【Journal】Journal of the Association for Information Systems
-【Skill】jais-data-analysis
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking data analysis
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not MIS Quarterly, Information Systems Research
-【Source status】verified URL / 待核实 / not asserted
+【Tradition & analysis】SEM / DiD-IV-RD / artifact eval / qualitative
+【Validity or identification】measurement + CMB / identification + robustness / baselines + ablations
+【Effect sizes / utility】magnitudes and meaning
+【JAIS data materials】correlation/covariance matrix + descriptives + anonymized dataset on request: ready/gaps
+【Source status】verified URL / 待核实
 【Next skill】jais-contribution-framing
 ```

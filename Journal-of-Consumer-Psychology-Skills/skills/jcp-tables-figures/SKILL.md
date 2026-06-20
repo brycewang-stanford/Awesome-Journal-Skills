@@ -1,70 +1,68 @@
 ---
 name: jcp-tables-figures
-description: Use when working on tables and figures for a Journal of Consumer Psychology manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when building the exhibits for a Journal of Consumer Psychology (JCP) manuscript — condition-means tables, mediation/moderation path figures, interaction plots, and APA-formatted statistical reporting that makes the process visible. Builds the exhibits; it does not run the analysis (jcp-data-analysis).
 ---
 
-# Tables and Figures (jcp-tables-figures)
+# Tables & Figures (jcp-tables-figures)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Consumer Psychology (JCP)** and tables and figures is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's consumer psychology, judgment and decision-making, persuasion, emotion, identity, and consumption behavior standard.
-- The paper risks being confused with nearby venues: Journal of Consumer Research, Journal of Marketing Research, Marketing Science, and Psychological Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Your means tables show stars but not the effect sizes/CIs a reviewer needs
+- A mediation result is buried in prose instead of shown as a path diagram
+- An interaction is described but there is no plot of the simple effects
+- Tables/figures do not follow APA format and the copyeditor will bounce them
+- Exhibits across studies are inconsistent, so the multi-study chain is hard to follow
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| consumer mechanism is central | Make the consumer mechanism assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| experimental manipulation is central | Make the experimental manipulation assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| psychological process is central | Make the psychological process assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| moderation logic is central | Make the moderation logic assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| consumer welfare is central | Make the consumer welfare assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Exhibits at JCP must make the process legible
 
-## JCP fit notes
+In a JCP paper the exhibits exist to let a reader **see the mechanism**, not just the effect. A condition-means table that shows cells without the contrast that tests the hypothesis wastes space; a mediation figure that shows the indirect path with its coefficient and CI earns its place. Build exhibits in **APA Style** (7th edition; 检索于 2026-06；以官网为准) — table titles and notes, figure captions, decimals and statistics formatted per APA — because JCP formats manuscripts to APA and non-conforming exhibits create friction at every stage.
 
-- Publisher / owner context: Elsevier for the Society for Consumer Psychology.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: consumer mechanism, experimental manipulation, psychological process, moderation logic, consumer welfare.
-- Sibling boundary: Journal of Consumer Research, Journal of Marketing Research, Marketing Science, and Psychological Science.
-- House-style aim: psychological mechanism evidence tied to consumer behavior and marketing theory.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/journal-of-consumer-psychology
-- https://www.elsevier.com/journals/journal-of-consumer-psychology/1057-7408/guide-for-authors
+## What each exhibit type should carry
 
-## Stage-specific moves
+| Exhibit | Must show | Common failure |
+|---------|-----------|----------------|
+| Condition means | M, SD (or SE), n per cell; the focal contrast | a sea of numbers with no highlighted comparison |
+| Mediation path figure | a→b paths with coefficients, the indirect effect + bootstrap CI | only c/c′ shown; CI omitted |
+| Moderation / interaction plot | the interaction with **probed simple effects** (spotlight values) | bar chart with no simple-effect annotation |
+| Moderated mediation | conditional indirect effects by moderator level + index | a single mediation figure that hides the moderation |
+| Multi-study summary | a study-by-study row: design, N, key result, effect size | inconsistent metrics across studies |
 
-1. State the exact tables and figures question in one sentence.
-2. Identify which JCP audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jcp-writing-style` if the stage passes, or back to `jcp-workflow` if it does not.
+A path diagram for the focal study and an interaction plot for the key moderation are usually the two highest-value figures; they carry the process argument visually.
+
+## Reporting conventions (APA + rigor era)
+
+- Report **effect sizes and CIs** in tables, not asterisks alone; readers must judge magnitude.
+- Keep **decimal places consistent** and follow APA for statistics (e.g., italic test letters, leading zeros per APA convention).
+- Note **Ns before and after exclusions** in the table or its note.
+- Each exhibit must be **interpretable standalone** — title, note defining abbreviations, and units.
+- Do not duplicate the same result in a table and a figure; pick the form that shows the mechanism best.
 
 ## Checklist
-- [ ] The JCP audience can see why the paper belongs in consumer psychology, judgment and decision-making, persuasion, emotion, identity, and consumption behavior.
-- [ ] The draft distinguishes JCP from Journal of Consumer Research, Journal of Marketing Research, Marketing Science.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for tables and figures names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Every table/figure earns its place by making the **effect or process** clearer than prose would
+- [ ] Mediation shown as a path figure with coefficients and the bootstrap CI
+- [ ] Interaction shown with probed simple effects (spotlight/floodlight annotated)
+- [ ] Effect sizes and CIs present; not asterisk-only
+- [ ] APA formatting for tables, figures, notes, and statistics
+- [ ] Ns (before/after exclusions) reported; abbreviations defined in notes
+- [ ] Metrics consistent across the multi-study exhibits so the chain reads cleanly
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JCP without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Asterisk theater**: stars instead of effect sizes and CIs
+- **Buried mediation**: the indirect effect described in text with no figure and no CI
+- **Naked interaction**: an interaction plot with no simple-effect probing shown
+- **Decorative figures**: a chart that repeats a table and adds nothing about the mechanism
+- **Non-APA exhibits**: formatting that the JCP copyeditor will return
+- **Inconsistent multi-study tables**: different metrics per study, hiding convergence
 
 ## Output format
 
 ```text
-【Journal】Journal of Consumer Psychology
-【Skill】jcp-tables-figures
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking tables and figures
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Consumer Research, Journal of Marketing Research
-【Source status】verified URL / 待核实 / not asserted
+【Key exhibits】which table(s)/figure(s) carry the effect and the process
+【Mediation figure】paths + coefficients + bootstrap CI shown? [Y/N]
+【Interaction plot】simple effects probed/annotated? [Y/N]
+【Reporting】effect sizes + CIs (not asterisk-only)? APA format? [Y/N]
+【Multi-study table】consistent metrics across studies? [Y/N]
 【Next skill】jcp-writing-style
 ```

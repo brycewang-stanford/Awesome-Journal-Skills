@@ -1,70 +1,70 @@
 ---
 name: jams-topic-selection
-description: Use when working on topic selection for a Journal of the Academy of Marketing Science manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when choosing or sharpening the research question for a Journal of the Academy of Marketing Science (JAMS) manuscript — confirming it is a broad, managerially consequential marketing-science question and routing it away from sibling marketing journals. Frames the question; it does not build the theory (jams-theory-development) or run the analysis.
 ---
 
 # Topic Selection (jams-topic-selection)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of the Academy of Marketing Science (JAMS)** and topic selection is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's marketing strategy, consumer behavior, channels, branding, innovation, and marketing theory standard.
-- The paper risks being confused with nearby venues: Journal of Marketing, Journal of Marketing Research, Marketing Science, and Journal of Consumer Research.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You have a marketing finding or dataset but no crisp, JAMS-sized question
+- A coauthor asks "is this a JAMS paper, or does it belong at JM / JMR / Marketing Science / JCR?"
+- The question feels narrow, niche, or like a single-context replication
+- You can state a method but not the **marketing decision** the answer would change
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| marketing strategy is central | Make the marketing strategy assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| customer response is central | Make the customer response assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| brand mechanism is central | Make the brand mechanism assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| managerial relevance is central | Make the managerial relevance assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| marketing theory is central | Make the marketing theory assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## What a JAMS question looks like
 
-## JAMS fit notes
+JAMS is the **Academy of Marketing Science** flagship and the discipline's broad marketing-science outlet. A JAMS-grade question has three properties at once:
 
-- Publisher / owner context: Springer for the Academy of Marketing Science.
-- Submission route to re-check: Springer Nature submission.
-- Signature vocabulary: marketing strategy, customer response, brand mechanism, managerial relevance, marketing theory.
-- Sibling boundary: Journal of Marketing, Journal of Marketing Research, Marketing Science, and Journal of Consumer Research.
-- House-style aim: marketing scholarship with clear managerial implications and theory contribution.
-- Official URLs currently used by the pack:
-- https://link.springer.com/journal/11747
-- https://www.springer.com/journal/11747/submission-guidelines
+1. **Substantive and broad.** It speaks to one of JAMS's core domains — marketing strategy and firm performance, B2B/industrial marketing, services, retailing and channels, sales-force management, branding, innovation/NPD, the marketing–finance interface, sustainability/stakeholder marketing, or consumer behavior — not a hyper-local curiosity.
+2. **Theoretically generative.** It promises a *mechanism or framework*, not just a correlation. JAMS rewards papers that explain **why** a marketing relationship holds and **when** it reverses.
+3. **Managerially consequential.** A real decision maker (CMO, brand manager, sales VP, channel partner, policy maker) would act differently if the answer came out one way vs. another. This managerial stake is JAMS's signature, not a courtesy paragraph.
 
-## Stage-specific moves
+If you can only satisfy two of the three, the question is not yet a JAMS question. A broad + managerial question with no theory is consulting; a theory + broad question with no managerial edge drifts toward the modeling or consumer-theory siblings.
 
-1. State the exact topic selection question in one sentence.
-2. Identify which JAMS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jams-theory-development` if the stage passes, or back to `jams-workflow` if it does not.
+## Route it against the siblings before committing
+
+| If the paper's center of gravity is… | The better home is… | JAMS keeps it when… |
+|---|---|---|
+| Strategy / managerial thought-leadership, big substantive impact | **Journal of Marketing (JM)** | the contribution is a measurement-rich framework with strong method, broad marketing-science fit |
+| A methods/measurement advance or a clean identification result | **Journal of Marketing Research (JMR)** | method serves a substantive marketing mechanism, not vice versa |
+| An analytical/quant model, equilibrium, or estimation method | **Marketing Science** | the work is empirical with a managerial framework, not modeling-first |
+| Consumer psychology / interpretive consumer theory for its own sake | **Journal of Consumer Research (JCR)** | consumer insight is embedded in a broader marketing-strategy/managerial question |
+
+JAMS's sweet spot is the broad marketing-science question with **construct-based theory, strong empirics, and an explicit manager takeaway** — the union the siblings each cover only partly.
+
+## Sharpen the question
+
+- Write the question as one sentence: "Does/How does [marketing construct X] affect [outcome Y] for [unit], and under what conditions?"
+- Name the **outcome managers care about** in managerial units (sales, share, CLV, margin, retention, brand equity, firm value).
+- Name the **moderators/boundary conditions** that make it a contingency story, not a main effect.
+- Identify the **JAMS audience segment** that would champion it — and the one that would desk-reject it as out of scope or incremental.
 
 ## Checklist
-- [ ] The JAMS audience can see why the paper belongs in marketing strategy, consumer behavior, channels, branding, innovation, and marketing theory.
-- [ ] The draft distinguishes JAMS from Journal of Marketing, Journal of Marketing Research, Marketing Science.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for topic selection names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] One-sentence question with construct, outcome, unit, and conditions
+- [ ] All three properties present: broad marketing-science, theory-generative, managerially consequential
+- [ ] Outcome expressible in a managerial unit
+- [ ] Sibling routing decided explicitly (why JAMS, not JM/JMR/MktSci/JCR)
+- [ ] At least one boundary condition / moderator identified
+- [ ] The paper is not a single-context replication dressed up as new
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JAMS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A narrow, single-industry curiosity with no broad marketing-science reach
+- A method or model looking for an application (route to JMR / Marketing Science instead)
+- "Managers should pay attention to X" with no decision a manager would change
+- A main-effect-only question with no contingency or mechanism
+- New-context replication ("X, but in country/industry/platform Z") framed as novelty
 
 ## Output format
 
 ```text
-【Journal】Journal of the Academy of Marketing Science
-【Skill】jams-topic-selection
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking topic selection
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Marketing, Journal of Marketing Research
-【Source status】verified URL / 待核实 / not asserted
+【Journal】Journal of the Academy of Marketing Science (JAMS)
+【Question】one sentence: construct → outcome (managerial unit), conditions
+【Three-property check】broad✓/theory✓/managerial✓ or the missing one
+【Why JAMS not sibling】JM / JMR / MktSci / JCR boundary reasoned
+【Audience champion vs. desk-reject risk】[...]
+【Source status】verified / 待核实 / 检索于 2026-06
 【Next skill】jams-theory-development
 ```

@@ -1,70 +1,75 @@
 ---
 name: jcp-data-analysis
-description: Use when working on data analysis for a Journal of Consumer Psychology manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when analyzing experimental data for a Journal of Consumer Psychology (JCP) manuscript — ANOVA/regression on the effect, measured and experimental mediation, moderation and moderated mediation, measurement of the process, and the rigor-era reporting standards. Analyzes the studies; it does not design them (jcp-methods).
 ---
 
 # Data Analysis (jcp-data-analysis)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Consumer Psychology (JCP)** and data analysis is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's consumer psychology, judgment and decision-making, persuasion, emotion, identity, and consumption behavior standard.
-- The paper risks being confused with nearby venues: Journal of Consumer Research, Journal of Marketing Research, Marketing Science, and Psychological Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Your effect is significant but the **process evidence** does not yet hold up
+- You ran mediation but a reviewer calls it correlational or under-powered
+- A moderation is predicted but the interaction is messy or the simple effects are not probed
+- You need to report results to JCP's post-rigor-reform standards (effect sizes, CIs, exclusions)
+- The measure of your psychological process is noisy or its validity is in question
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| consumer mechanism is central | Make the consumer mechanism assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| experimental manipulation is central | Make the experimental manipulation assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| psychological process is central | Make the psychological process assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| moderation logic is central | Make the moderation logic assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| consumer welfare is central | Make the consumer welfare assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Analyze the process, not just the p-value
 
-## JCP fit notes
+JCP's contribution is a mechanism, so the analysis must make the **process** visible and defensible. The headline test of the effect (typically ANOVA or regression with the manipulated IV) is necessary but not sufficient; the paper lives or dies on whether the **mediation/moderation** evidence supports the proposed psychological process and rules out rivals. Report estimates with **effect sizes and confidence intervals**, exact statistics, and full Ns before and after pre-specified exclusions. APA reporting style is the house norm.
 
-- Publisher / owner context: Elsevier for the Society for Consumer Psychology.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: consumer mechanism, experimental manipulation, psychological process, moderation logic, consumer welfare.
-- Sibling boundary: Journal of Consumer Research, Journal of Marketing Research, Marketing Science, and Psychological Science.
-- House-style aim: psychological mechanism evidence tied to consumer behavior and marketing theory.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/journal-of-consumer-psychology
-- https://www.elsevier.com/journals/journal-of-consumer-psychology/1057-7408/guide-for-authors
+## The analysis toolkit by link in the chain
 
-## Stage-specific moves
+| Link | Standard analysis | What reviewers look for |
+|------|-------------------|-------------------------|
+| Existence of effect | t-test / ANOVA / OLS with the manipulated IV | clean cells, effect size (d, η²), CI, no covariate fishing |
+| Measured mediation | bootstrapped indirect effect (e.g., PROCESS / lavaan), bias-corrected CI | indirect effect with CI excluding 0; honesty that this is **correlational** evidence on the mediator |
+| Experimental mediation | causal-chain design or manipulated-mediator analysis | the manipulation of M moves Y as the theory predicts |
+| Moderation | regression interaction; ANOVA factorial | interaction term + **probed simple effects** (spotlight/floodlight), not just a significant interaction |
+| Moderated mediation | conditional indirect effects (index of moderated mediation) | the index, with CI, and conditional indirect effects by moderator level |
 
-1. State the exact data analysis question in one sentence.
-2. Identify which JCP audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jcp-contribution-framing` if the stage passes, or back to `jcp-workflow` if it does not.
+Prefer **experimental/causal-chain mediation and moderation-of-process** over measured-mediator-only inference: JCP reviewers now treat a bootstrapped indirect effect on a self-reported mediator as suggestive, not dispositive, because it cannot establish the causal direction of M → Y.
+
+## Measuring the psychological process
+
+- **Validate the mediator measure**: report reliability (α/ω) for multi-item scales; show the measure captures the intended construct and discriminates from confounds (mood, arousal, difficulty).
+- **Rule out alternative mediators** statistically: include rival process measures and show the focal mediator carries the effect when they are modeled together.
+- **Avoid mediator-as-manipulation-check confusion**: a manipulation check is not a mediator; the mediator is the downstream mental state.
+
+## Rigor-era reporting (post-2010s consumer-psych reforms)
+
+- Report **exact test statistics, p-values, effect sizes, and CIs** — not just "p < .05."
+- Disclose **all conditions and measures** collected; do not hide arms (the disclosure norm).
+- Report **sample size determination** and adherence to (or deviation from) the pre-registration.
+- State **exclusions and their rule** transparently, with Ns before/after.
+- Avoid asterisk-only tables; report the numbers a reader needs to assess the process.
 
 ## Checklist
-- [ ] The JCP audience can see why the paper belongs in consumer psychology, judgment and decision-making, persuasion, emotion, identity, and consumption behavior.
-- [ ] The draft distinguishes JCP from Journal of Consumer Research, Journal of Marketing Research, Marketing Science.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for data analysis names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Effect reported with exact stats, effect size, and CI; cells and Ns clear
+- [ ] Mediation uses bootstrapped/bias-corrected CIs; measured-only mediation is labeled correlational
+- [ ] At least one stronger-than-Baron-Kenny process test where the claim is causal
+- [ ] Moderation: interaction reported **and** simple effects probed (spotlight/floodlight)
+- [ ] Moderated mediation: index of moderated mediation + conditional indirect effects
+- [ ] Mediator measure reliability reported; rival mediators modeled and ruled out
+- [ ] Exclusions pre-specified; all conditions/measures disclosed; preregistration deviations noted
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JCP without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Indirect-effect worship**: a significant bootstrapped indirect effect treated as proof of causal process
+- **Interaction without simple effects**: a significant interaction with no spotlight/floodlight probing
+- **Covariate fishing**: adding controls until the effect appears, undisclosed
+- **Hidden arms**: dropping conditions or DVs that didn't work without reporting them
+- **p-only reporting**: asterisks instead of effect sizes and CIs
+- **Mediator confound**: a "mediator" that is just mood/difficulty the manipulation also moved
 
 ## Output format
 
 ```text
-【Journal】Journal of Consumer Psychology
-【Skill】jcp-data-analysis
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking data analysis
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Consumer Research, Journal of Marketing Research
-【Source status】verified URL / 待核实 / not asserted
+【Effect】test, stat, effect size, CI, cell Ns
+【Mediation】measured / experimental; indirect effect + CI; correlational caveat if measured-only
+【Moderation】interaction + probed simple effects (spotlight/floodlight)
+【Moderated mediation】index + conditional indirect effects (if applicable)
+【Process measure】reliability + rival mediators ruled out
+【Rigor disclosures】exclusions, all conditions/measures, preregistration deviations
 【Next skill】jcp-contribution-framing
 ```

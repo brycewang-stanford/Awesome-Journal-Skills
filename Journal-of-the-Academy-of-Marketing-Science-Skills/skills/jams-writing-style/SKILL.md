@@ -1,70 +1,68 @@
 ---
 name: jams-writing-style
-description: Use when working on writing style for a Journal of the Academy of Marketing Science manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when shaping the prose, abstract, and introduction of a Journal of the Academy of Marketing Science (JAMS) manuscript so the dual theory-and-managerial contribution lands in the journal's voice. Polishes exposition; it does not state the contribution (jams-contribution-framing) or run the submission preflight (jams-submission).
 ---
 
 # Writing Style (jams-writing-style)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of the Academy of Marketing Science (JAMS)** and writing style is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's marketing strategy, consumer behavior, channels, branding, innovation, and marketing theory standard.
-- The paper risks being confused with nearby venues: Journal of Marketing, Journal of Marketing Research, Marketing Science, and Journal of Consumer Research.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The introduction buries the idea, or opens with literature instead of the phenomenon
+- The abstract reads like a method summary with no contribution or managerial payoff
+- A reviewer says the paper is "hard to follow" or "the contribution is unclear"
+- The discussion section lists implications generically with no decision attached
+- This is late-stage polish — theory, design, and the takeaway are already settled
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| marketing strategy is central | Make the marketing strategy assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| customer response is central | Make the customer response assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| brand mechanism is central | Make the brand mechanism assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| managerial relevance is central | Make the managerial relevance assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| marketing theory is central | Make the marketing theory assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The JAMS voice: rigorous, but legible to a manager
 
-## JAMS fit notes
+JAMS prose carries strong method while staying readable to a marketing academic *and* a thoughtful practitioner. The register is precise but not opaque — jargon and notation earn their place only when they sharpen the argument. The journal's identity is the **bridge between marketing science and marketing practice**, and the writing has to keep both readers in the room. Write so a CMO could follow the implications and a methodologist could trust the rigor.
 
-- Publisher / owner context: Springer for the Academy of Marketing Science.
-- Submission route to re-check: Springer Nature submission.
-- Signature vocabulary: marketing strategy, customer response, brand mechanism, managerial relevance, marketing theory.
-- Sibling boundary: Journal of Marketing, Journal of Marketing Research, Marketing Science, and Journal of Consumer Research.
-- House-style aim: marketing scholarship with clear managerial implications and theory contribution.
-- Official URLs currently used by the pack:
-- https://link.springer.com/journal/11747
-- https://www.springer.com/journal/11747/submission-guidelines
+## Build the introduction in the JAMS arc
 
-## Stage-specific moves
+A strong JAMS introduction does five things, in order:
 
-1. State the exact writing style question in one sentence.
-2. Identify which JAMS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jams-submission` if the stage passes, or back to `jams-workflow` if it does not.
+1. **Open on the marketing phenomenon / managerial puzzle** — a real, consequential question, not a literature gap on its own.
+2. **State the gap** in the relevant marketing-science stream (theoretical, empirical, *and* managerial).
+3. **State the contribution explicitly — both halves.** One sentence on the theoretical advance, one on the managerial advance. Do not make the reader infer them.
+4. **Preview the approach** — the framework, the data/design, and what is estimated — in a few sentences.
+5. **Preview the findings and their managerial magnitude** — the headline result in real units.
+
+Write the introduction and abstract **last**, after results stabilize, so the promises match the paper.
+
+## Abstract and section discipline
+
+- **Abstract:** state question, framework, method, key finding (with magnitude), and the managerial implication — a compact arc, not a method recital. Follow JAMS/Springer length and structure conventions (typically ~200–250 words; structured per house convention — 检索于 2026-06；以官网为准).
+- **Hypotheses:** number them, state them as testable sentences, and keep the wording identical across intro, model figure, hypotheses section, and results.
+- **Discussion:** lead with the theoretical contribution, then a substantive **managerial implications** subsection that names decisions and magnitudes (JAMS readers expect this section to be real), then limitations and future research.
+- **Construct consistency:** one name per construct throughout; do not let a construct drift between synonyms.
 
 ## Checklist
-- [ ] The JAMS audience can see why the paper belongs in marketing strategy, consumer behavior, channels, branding, innovation, and marketing theory.
-- [ ] The draft distinguishes JAMS from Journal of Marketing, Journal of Marketing Research, Marketing Science.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for writing style names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Introduction opens on the phenomenon/managerial puzzle, not a bare gap
+- [ ] Both contributions stated explicitly in the intro (theory + managerial)
+- [ ] Abstract states finding with magnitude and a managerial implication
+- [ ] Hypotheses numbered and worded identically everywhere they appear
+- [ ] Discussion has a real managerial-implications subsection with decisions/magnitudes
+- [ ] Construct names consistent throughout; jargon kept legible
+- [ ] Intro and abstract written/finalized after results settled
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JAMS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- An introduction that opens with "The literature on X has grown…" instead of the phenomenon
+- An abstract that summarizes methods but never states the contribution or magnitude
+- A managerial-implications section that is generic ("managers should monitor X")
+- Construct names drifting between synonyms across sections
+- Hypothesis wording that differs between the model figure and the results
+- Notation-heavy prose where plain language would carry the idea
 
 ## Output format
 
 ```text
-【Journal】Journal of the Academy of Marketing Science
-【Skill】jams-writing-style
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking writing style
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Marketing, Journal of Marketing Research
-【Source status】verified URL / 待核实 / not asserted
+【Intro arc】phenomenon → gap → dual contribution → approach → findings: pass/fix
+【Dual contribution stated】theory + managerial both explicit? yes/fix
+【Abstract】finding + magnitude + managerial implication; length/structure ok? pass/fix
+【Hypotheses】numbered + consistent wording everywhere? pass/fix
+【Discussion】real managerial-implications subsection? pass/fix
+【Construct consistency】one name per construct? pass/fix
 【Next skill】jams-submission
 ```

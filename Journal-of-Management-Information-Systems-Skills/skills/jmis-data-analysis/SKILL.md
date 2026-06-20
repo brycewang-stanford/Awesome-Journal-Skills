@@ -1,70 +1,67 @@
 ---
 name: jmis-data-analysis
-description: Use when working on data analysis for a Journal of Management Information Systems manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the estimation, identification, construct validity, or modeling is the bottleneck for a Journal of Management Information Systems (JMIS) manuscript — econometrics on firm/platform data, SEM/PLS for behavioral constructs, analytical-model derivations, or ML/analytics evaluation. Executes and stress-tests the analysis the design (jmis-methods) chose; it does not redesign the study.
 ---
 
 # Data Analysis (jmis-data-analysis)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Management Information Systems (JMIS)** and data analysis is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's information systems, digital transformation, platforms, analytics, IT governance, and organizational impacts of technology standard.
-- The paper risks being confused with nearby venues: MIS Quarterly, Information Systems Research, Journal of the AIS, and Management Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A regression "works" but the identifying variation and threats are not pinned down
+- A survey model is run but reliability, validity, and common-method bias are not established
+- An ML/analytics artifact reports accuracy but no credible-baseline comparison or robustness
+- A reviewer says results are "not robust," "not identified," or "could be reverse causality"
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| digital platform is central | Make the digital platform assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| IT governance is central | Make the IT governance assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| analytics adoption is central | Make the analytics adoption assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| information systems theory is central | Make the information systems theory assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| organizational technology is central | Make the organizational technology assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Run the analysis to the JMIS standard for your evidence type
 
-## JMIS fit notes
+JMIS reviewers are method-literate across econometrics, psychometrics, analytical modeling, and data science. The bar is that the analysis credibly supports the verb in your claim.
 
-- Publisher / owner context: Taylor & Francis.
-- Submission route to re-check: Taylor & Francis submission.
-- Signature vocabulary: digital platform, IT governance, analytics adoption, information systems theory, organizational technology.
-- Sibling boundary: MIS Quarterly, Information Systems Research, Journal of the AIS, and Management Science.
-- House-style aim: IS scholarship that connects technology mechanisms to organizational and managerial outcomes.
-- Official URLs currently used by the pack:
-- https://www.tandfonline.com/journals/mmis20
-- https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=mmis20
+### Empirical IT-value / platform econometrics
+- **Identification, made visible.** Show the source of variation (shock/rollout/breach), not just the regression. With staggered timing, use Callaway–Sant'Anna / Sun–Abraham / de Chaisemartin–D'Haultfœuille and report a clean event study with leads; for naive TWFE, run a Goodman-Bacon decomposition to expose contamination.
+- **Endogeneity head-on.** For IT investment and platform participation, address reverse causality and selection: IV with a defended exclusion restriction and a strong first stage (weak-IV-robust inference if not), or a credible quasi-experiment; do not lean on "we control for X."
+- **Inference.** Cluster at the assignment/treatment level; handle few clusters (wild-cluster bootstrap); report robustness to specification, sample, and functional form.
 
-## Stage-specific moves
+### Behavioral IS (survey / experiment)
+- **Measurement first.** Report reliability (composite reliability / α), convergent and discriminant validity (AVE, HTMT), and confirm the measurement model before the structural model.
+- **Common-method bias.** Go beyond Harman's single-factor test — use a marker/measured latent-method variable and report whether structural paths survive.
+- **Structural model.** SEM (CB-SEM) or PLS as the theory and sample justify; for moderation/mediation use proper interaction or indirect-effect tests (bootstrapped indirect effects), not a chain of separate regressions.
 
-1. State the exact data analysis question in one sentence.
-2. Identify which JMIS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jmis-contribution-framing` if the stage passes, or back to `jmis-workflow` if it does not.
+### Analytical / economic models
+- State assumptions; prove the propositions; present comparative statics as the result. Sketch proofs in the body, full proofs in an appendix. Show the insight is not an artifact of a knife-edge assumption (robustness to functional form / parameter ranges).
+
+### Design-science / ML artifacts
+- Benchmark against **credible** baselines (strong incumbents, not strawmen); report appropriate metrics with variance/uncertainty; validate out-of-sample; tie performance back to the managerial decision the artifact serves.
+
+## Report effects so a manager can read them
+
+JMIS values managerial relevance: report **economic magnitude** (elasticities, marginal effects, dollar value, lift), not only significance. Translate the headline coefficient into what it means for a firm, platform, or decision.
 
 ## Checklist
-- [ ] The JMIS audience can see why the paper belongs in information systems, digital transformation, platforms, analytics, IT governance, and organizational impacts of technology.
-- [ ] The draft distinguishes JMIS from MIS Quarterly, Information Systems Research, Journal of the AIS.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for data analysis names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Empirical: identifying variation named; modern estimator where TWFE would bias; endogeneity addressed, not just controlled
+- [ ] Behavioral: reliability + convergent/discriminant validity reported; CMB tested beyond Harman's
+- [ ] Mediation/moderation tested with proper indirect-effect / interaction methods
+- [ ] Analytical: assumptions stated, propositions proven, robustness to functional form shown
+- [ ] ML: credible baselines, uncertainty reported, out-of-sample validation
+- [ ] Inference: clustering correct; robustness to spec/sample shown
+- [ ] Magnitudes, not just significance, are reported and interpreted for managers
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JMIS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- "The coefficient is significant" presented as if it were identification
+- Endogenous IT/platform variables left to control variables
+- Reporting only Harman's single-factor test as the CMB defense
+- Discriminant validity skipped; constructs that empirically overlap treated as distinct
+- ML accuracy against strawman baselines, or with no out-of-sample check
+- Significance stars with no economic magnitude or managerial interpretation
 
 ## Output format
 
 ```text
-【Journal】Journal of Management Information Systems
-【Skill】jmis-data-analysis
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking data analysis
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not MIS Quarterly, Information Systems Research
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jmis-contribution-framing
+【Evidence type】firm/platform econometrics / survey-SEM / experiment / analytical / ML
+【Identification or validity】variation source + diagnostics / measurement model + CMB test / proof + robustness
+【Inference】clustering / weak-IV-robust / bootstrap as applicable
+【Magnitude】economic/managerial interpretation of the headline effect
+【Robustness done】spec / sample / functional-form / out-of-sample
+【Next step】jmis-contribution-framing
 ```

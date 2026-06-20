@@ -1,70 +1,63 @@
 ---
 name: jais-literature-positioning
-description: Use when working on literature positioning for a Journal of the Association for Information Systems manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when positioning a Journal of the Association for Information Systems (JAIS) manuscript against the IS conversation — engaging the right cross-disciplinary literatures, citing the IS canon and JAIS's own discourse, and staking the gap the theory will fill. Builds the front-end argument; it does not build the theory itself (jais-theory-development) or run the review's method (jais-methods, for Literature Review submissions).
 ---
 
 # Literature Positioning (jais-literature-positioning)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of the Association for Information Systems (JAIS)** and literature positioning is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's information systems theory, digital innovation, sociotechnical systems, methods, and cumulative IS scholarship standard.
-- The paper risks being confused with nearby venues: MIS Quarterly, Information Systems Research, JMIS, and Management Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Your introduction reads as "no one has studied X" gap-spotting rather than joining a live debate
+- You borrow heavily from a reference discipline but never connect to the IS conversation
+- A reviewer says the paper "does not engage the relevant IS literature" or "reinvents a known result"
+- You are unsure which IS sub-tradition's scholars are your reviewers, and so which canon to cite
+- You are writing a Literature Review submission and need to justify *which* literature and *why*
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| sociotechnical system is central | Make the sociotechnical system assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| IS theory is central | Make the IS theory assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| digital innovation is central | Make the digital innovation assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| methodological pluralism is central | Make the methodological pluralism assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| cumulative contribution is central | Make the cumulative contribution assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Position for a pluralistic, theory-forward audience
 
-## JAIS fit notes
+JAIS draws reviewers from across the IS field's traditions — behavioral, economic, design-science, organizational, and critical/philosophical — because the journal is "inclusive in topics, level and unit of analysis, theory, method and philosophical and research approach." Two consequences for positioning. First, you cannot assume your reviewer shares your sub-tradition's shorthand: define your conversation explicitly. Second, because JAIS "encourages theory based multi- or inter-disciplinary research," the strongest front ends show how an IS phenomenon lets you *speak back* to a reference discipline, not just import from it.
 
-- Publisher / owner context: Association for Information Systems.
-- Submission route to re-check: AIS eLibrary / journal submission.
-- Signature vocabulary: sociotechnical system, IS theory, digital innovation, methodological pluralism, cumulative contribution.
-- Sibling boundary: MIS Quarterly, Information Systems Research, JMIS, and Management Science.
-- House-style aim: theory-forward IS research with method fit and clear community contribution.
-- Official URLs currently used by the pack:
-- https://aisel.aisnet.org/jais/
-- https://aisel.aisnet.org/jais/policies.html
+## Build the positioning in three moves
 
-## Stage-specific moves
+1. **Name the conversation, not the gap.** State the ongoing IS debate your paper enters and the specific claim within it you advance or contest. "Prior work disagrees about whether X; we show when each side holds" beats "no one has examined X."
+2. **Engage the IS canon and JAIS's own discourse.** Cite the foundational IS work the conversation rests on, and — where relevant — JAIS's own theory and review pieces, so the editor sees the paper is in dialogue with the journal's intellectual project, not parachuting in.
+3. **Make the cross-disciplinary move legible.** If you borrow from economics, psychology, sociology, or computer science, show what the IS context *adds back* to that discipline. JAIS rewards the round trip.
 
-1. State the exact literature positioning question in one sentence.
-2. Identify which JAIS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jais-methods` if the stage passes, or back to `jais-workflow` if it does not.
+## Position relative to the siblings, explicitly
+
+JAIS shares the Basket with MISQ, ISR, JMIS, EJIS, ISJ, JSIS, and JIT. Reviewers will ask "why JAIS?" Be ready: a paper whose contribution is **the theory or the conceptual framework itself** is a natural JAIS fit (it has a Theory category); a paper that is primarily a hard identification result may read as ISR; a strongly design-science artifact may read as MISQ. State the fit in the cover letter and let the front end reinforce it.
+
+## For Literature Review submissions, positioning *is* the method
+
+JAIS's Literature Review category (SE Gregory Vial, 待核实) recognizes two genres: a structured synthesis that informs new directions, and theory development/elaboration *through* review. Either way, the boundary of the literature you include is a defended choice — state inclusion/exclusion criteria, the search and coding procedure, and the theoretical payoff the synthesis produces. A review without a method and a forward-looking contribution is a desk-reject here.
 
 ## Checklist
-- [ ] The JAIS audience can see why the paper belongs in information systems theory, digital innovation, sociotechnical systems, methods, and cumulative IS scholarship.
-- [ ] The draft distinguishes JAIS from MIS Quarterly, Information Systems Research, JMIS.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for literature positioning names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] The front end names a live IS conversation and the precise claim within it
+- [ ] The relevant IS canon (and JAIS's own discourse where apt) is engaged, not just cited
+- [ ] Any borrowed reference-discipline theory is shown to gain something back from the IS context
+- [ ] The "why JAIS, not MISQ/ISR/JMIS" answer is implicit in the positioning and explicit in the cover letter
+- [ ] Self-citations are worded neutrally for double-blind review
+- [ ] For a Literature Review: scope, search/coding method, and theoretical payoff are stated
+- [ ] Citations are real and verifiable (no invented exemplars); APA 6th style
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JAIS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A "research gap" front end with no debate, so the contribution reads as novelty-for-its-own-sake.
+- Importing a reference-discipline theory and never connecting to IS scholars or JAIS's project.
+- Citing only your own sub-tradition while the reviewer pool spans five traditions.
+- A literature review with no inclusion criteria, no coding method, and no theoretical destination.
+- Self-identifying citations ("in our prior work") that break double-blind anonymity.
 
 ## Output format
 
 ```text
-【Journal】Journal of the Association for Information Systems
-【Skill】jais-literature-positioning
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking literature positioning
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not MIS Quarterly, Information Systems Research
-【Source status】verified URL / 待核实 / not asserted
+【Journal】Journal of the Association for Information Systems (JAIS)
+【Conversation joined】the live IS debate + the claim advanced/contested
+【IS canon engaged】foundational works + JAIS discourse cited
+【Cross-disciplinary round trip】what the IS context gives back to the reference discipline
+【Why JAIS not sibling】one sentence
+【If review】scope + method + theoretical payoff stated
+【Source status】verified URL / 待核实
 【Next skill】jais-methods
 ```

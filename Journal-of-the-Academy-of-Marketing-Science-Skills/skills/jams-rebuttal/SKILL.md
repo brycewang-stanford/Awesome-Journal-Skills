@@ -1,70 +1,71 @@
 ---
 name: jams-rebuttal
-description: Use when working on rebuttal strategy for a Journal of the Academy of Marketing Science manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when planning a revision and drafting the point-by-point response letter for a Journal of the Academy of Marketing Science (JAMS) R&R — prioritizing the editor's decisive concerns, strengthening both the theoretical and managerial contribution, and preserving double-anonymized rules. Plans and drafts the response; it does not interpret the original decision (jams-review-process).
 ---
 
-# Rebuttal Strategy (jams-rebuttal)
+# R&R Revision & Response (jams-rebuttal)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of the Academy of Marketing Science (JAMS)** and rebuttal strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's marketing strategy, consumer behavior, channels, branding, innovation, and marketing theory standard.
-- The paper risks being confused with nearby venues: Journal of Marketing, Journal of Marketing Research, Marketing Science, and Journal of Consumer Research.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You received a JAMS major/minor revision and need a plan and a response letter
+- A reviewer challenged the **theoretical contribution**, **managerial relevance**, construct validity, or identification
+- You must revise *before* writing the response (do not draft the letter on an unrevised paper)
+- A subsequent round arrived and you need to show movement since the last revision
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| marketing strategy is central | Make the marketing strategy assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| customer response is central | Make the customer response assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| brand mechanism is central | Make the brand mechanism assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| managerial relevance is central | Make the managerial relevance assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| marketing theory is central | Make the marketing theory assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Sequence: revise first, then respond
 
-## JAMS fit notes
+JAMS R&Rs are **developmental and often multi-round**. Revise the manuscript first; the response letter documents changes that already exist. Lead the work with the **editor's decisive concerns**, which at JAMS almost always include the two gates: a genuine **theoretical contribution** and a clear **managerial contribution**. A revision that polishes peripheral points but leaves a gate unaddressed will not advance — and area editors track whether each round actually moves on the issues they flagged.
 
-- Publisher / owner context: Springer for the Academy of Marketing Science.
-- Submission route to re-check: Springer Nature submission.
-- Signature vocabulary: marketing strategy, customer response, brand mechanism, managerial relevance, marketing theory.
-- Sibling boundary: Journal of Marketing, Journal of Marketing Research, Marketing Science, and Journal of Consumer Research.
-- House-style aim: marketing scholarship with clear managerial implications and theory contribution.
-- Official URLs currently used by the pack:
-- https://link.springer.com/journal/11747
-- https://www.springer.com/journal/11747/submission-guidelines
+## Build the response letter
 
-## Stage-specific moves
+- **Open** with a brief summary of the most important changes and how the paper is now stronger on both the theory and managerial bars.
+- **Point-by-point:** restate each comment, then state the change, with **section/page or quoted-text pointers** to the revised manuscript (cite sections/pages or quote the revised text; do not rely on line numbers that shift).
+- **Quote new text inline** so the editor and reviewers see the change without hunting.
+- **Stay anonymized:** no author-revealing language anywhere in the letter or revised files; keep preregistration/repository links anonymized.
+- **Be candid on disagreements:** where you decline a suggestion, explain respectfully with evidence; never silently ignore a comment.
 
-1. State the exact rebuttal strategy question in one sentence.
-2. Identify which JAMS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jams-rebuttal` if the stage passes, or back to `jams-workflow` if it does not.
+## Address JAMS-specific concerns head-on
+
+- **"Theoretical contribution is incremental / new context"** → foreground the new mechanism, contingency, reconciliation, or validated construct; revise the contribution sentences (see `jams-contribution-framing`) and the conceptual model (see `jams-theory-development`).
+- **"So what for managers?"** → add or sharpen the managerial-implications subsection: name the decision, quantify the stake in managerial units, and state the guardrails (boundary conditions).
+- **"Common method variance" (survey)** → add a marker-variable / CFA-marker test and design-based defenses; report discriminant validity via HTMT (see `jams-methods`).
+- **"Endogeneity / identification is weak" (secondary data)** → add the design-appropriate fix (instrument, Gaussian-copula control, modern DiD, robustness/placebo) per `jams-data-analysis`.
+- **"Effect sizes / magnitude missing"** → ensure standardized effects, CIs, and managerial magnitudes appear throughout.
+
+## Prepare transparency deliverables
+
+If the revision is heading toward conditional acceptance, prepare the **data and code availability statement** and any repository deposit (e.g., OSF / Mendeley Data) per Springer policy, so acceptance is not a scramble. Keep deposited materials and links anonymized while review continues.
 
 ## Checklist
-- [ ] The JAMS audience can see why the paper belongs in marketing strategy, consumer behavior, channels, branding, innovation, and marketing theory.
-- [ ] The draft distinguishes JAMS from Journal of Marketing, Journal of Marketing Research, Marketing Science.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for rebuttal strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Manuscript revised before the letter was drafted
+- [ ] Editor's decisive concerns addressed first
+- [ ] Theoretical-contribution and managerial-relevance challenges answered explicitly
+- [ ] Validity/identification fixes (CMV, endogeneity) completed where requested
+- [ ] Effect sizes and managerial magnitudes verified throughout after revision
+- [ ] Point-by-point letter with section/page pointers and quoted new text
+- [ ] Anonymization preserved in letter and files (incl. prereg/repository links)
+- [ ] Data/code availability statement prepared if nearing acceptance
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JAMS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Letter before revision** — promising changes not yet made
+- **Cosmetic edits** to a gatekeeping (theory/managerial) concern
+- **Defensive non-answers** that dodge a reviewer's point
+- **Reintroducing identity** in the response or revised files
+- **Over-claiming** new results beyond what the added analysis supports
+- Answering the theory comments while leaving the managerial-relevance comments thin
 
 ## Output format
 
 ```text
-【Journal】Journal of the Academy of Marketing Science
-【Skill】jams-rebuttal
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking rebuttal strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Marketing, Journal of Marketing Research
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jams-rebuttal
+【Revision done first】yes/no
+【Editor decisive concerns addressed】[...]
+【Theory + managerial answers】[...]
+【Validity/identification additions】CMV / endogeneity / robustness: [...]
+【Effect-size + magnitude check】verified post-revision? yes/fix
+【Letter】point-by-point with pointers + quoted text drafted?
+【Anonymization】preserved (incl. links)?
+【Transparency】data/code statement + deposit if nearing acceptance: [...]
+【Next step】resubmit via Editorial Manager → jams-review-process for the next round
 ```

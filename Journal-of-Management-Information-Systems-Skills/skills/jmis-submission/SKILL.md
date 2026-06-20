@@ -1,72 +1,67 @@
 ---
 name: jmis-submission
-description: Use when working on submission preflight for a Journal of Management Information Systems manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when running the final pre-submission preflight for a Journal of Management Information Systems (JMIS) manuscript — the email-to-EIC intake, full anonymization for double-blind review, the ≤50-page and 150-word-abstract limits, the numbered bracketed reference style, and the cover-letter/attachment package. Final checks; it does not draft content.
 ---
 
 # Submission Preflight (jmis-submission)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Management Information Systems (JMIS)** and submission preflight is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's information systems, digital transformation, platforms, analytics, IT governance, and organizational impacts of technology standard.
-- The paper risks being confused with nearby venues: MIS Quarterly, Information Systems Research, Journal of the AIS, and Management Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- "Submitting tomorrow" — last check before emailing the manuscript to the EIC
+- Unsure exactly what files, anonymization, and formatting JMIS expects
+- Confirming the paper is double-blind-ready and inside the page/abstract limits
+- The team assumed a ScholarOne/T&F portal and needs the actual intake route
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| digital platform is central | Make the digital platform assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| IT governance is central | Make the IT governance assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| analytics adoption is central | Make the analytics adoption assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| information systems theory is central | Make the information systems theory assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| organizational technology is central | Make the organizational technology assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Process facts (source map refreshed 2026-06; re-confirm on jmis-web.org / tandfonline)
 
-## JMIS fit notes
+- JMIS is the Taylor & Francis (Routledge) quarterly founded in 1984 and edited by **Vladimir Zwass** (Fairleigh Dickinson University); Online ISSN 1557-928X.
+- **Intake is by email, not a portal.** Manuscripts are submitted to the EIC at **jmis@fdu.edu** with the subject line **"JMIS Submission"**, as MS Word or PDF attachments. There is no ScholarOne/T&F submission system at the intake stage. (检索于 2026-06；以官网为准.)
+- **Review is double-anonymized.** The manuscript file must be **fully anonymized** so authors are not identifiable anywhere in the work; self-references may remain in the reference list (written so they do not reveal authorship).
+- **Length:** the complete manuscript should **not exceed 50 pages**; text in **12-point, double-spaced, left-justified**, pages numbered.
+- **Abstract:** **up to 150 words**, with **no citations**; include a set of **keywords/phrases**.
+- **References:** numbered in brackets (e.g., **[9]**) with an **alphabetized reference list** — an IEEE-like numbered style, not author-date.
+- **Attachments:** a cover letter (author affiliations, contact info, brief biographies) sent separately from the anonymized paper; **online appendixes** may be submitted separately; **survey instruments** must be provided as separate anonymized attachments if not in the paper.
+- No submission fee is stated in the author guidelines. **待核实** if a fee or APC appears at acceptance.
 
-- Publisher / owner context: Taylor & Francis.
-- Submission route to re-check: Taylor & Francis submission.
-- Signature vocabulary: digital platform, IT governance, analytics adoption, information systems theory, organizational technology.
-- Sibling boundary: MIS Quarterly, Information Systems Research, Journal of the AIS, and Management Science.
-- House-style aim: IS scholarship that connects technology mechanisms to organizational and managerial outcomes.
-- Official URLs currently used by the pack:
-- https://www.tandfonline.com/journals/mmis20
-- https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=mmis20
+## Preflight checklist
 
-## Stage-specific moves
+### Anonymization (double-blind)
+- [ ] No author names, affiliations, emails, acknowledgments, or funding IDs in the manuscript file
+- [ ] Self-citations phrased so they do not reveal authorship; identifying file metadata stripped
+- [ ] Survey instruments / appendixes anonymized as separate attachments
 
-1. State the exact submission preflight question in one sentence.
-2. Identify which JMIS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jmis-review-process` if the stage passes, or back to `jmis-workflow` if it does not.
+### Format & length
+- [ ] Complete manuscript **≤50 pages**; **12pt, double-spaced, left-justified**; pages numbered
+- [ ] **Abstract ≤150 words, no citations**; keywords/phrases included
+- [ ] References in **numbered bracketed [n]** style with an **alphabetized list**; formats correct for periodicals/books/chapters/proceedings
+- [ ] Core claims established in the body; appendixes carry support only
+- [ ] Tables/figures legible (grayscale-safe), with self-contained notes
 
-## Checklist
-- [ ] The JMIS audience can see why the paper belongs in information systems, digital transformation, platforms, analytics, IT governance, and organizational impacts of technology.
-- [ ] The draft distinguishes JMIS from MIS Quarterly, Information Systems Research, Journal of the AIS.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for submission preflight names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+### Files & intake
+- [ ] Anonymized manuscript (MS Word or PDF)
+- [ ] Separate cover letter (affiliations, contact, brief bios)
+- [ ] Separate online appendix / survey-instrument attachments as needed
+- [ ] Email to **jmis@fdu.edu**, subject **"JMIS Submission"**
+- [ ] Confirmed the paper is not under review elsewhere
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JMIS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Submitting through a Taylor & Francis / ScholarOne portal — JMIS intake is the EIC's email
+- An identifiable manuscript (names, affiliations, funding) sent into a double-blind process
+- A manuscript over 50 pages, or an abstract over 150 words / with citations
+- Author-date references when JMIS requires numbered brackets
+- Bundling the cover letter into the anonymized file, or omitting survey-instrument attachments
 
 ## Output format
 
 ```text
-【Journal】Journal of Management Information Systems
-【Skill】jmis-submission
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking submission preflight
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not MIS Quarterly, Information Systems Research
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jmis-review-process
+【Anonymization】fully blind, metadata stripped, self-cites safe? [Y/N]
+【Format】≤50pp / 12pt double-spaced / pages numbered? [Y/N]
+【Abstract】≤150 words, no citations, keywords present? [Y/N]
+【References】numbered [n] + alphabetized list? [Y/N]
+【Files】anonymized MS + separate cover letter + appendix/instruments? [Y/N]
+【Intake】email to jmis@fdu.edu, subject "JMIS Submission"? [Y/N]
+【Next step】jmis-review-process for what to expect
 ```
 
 ## Supplementary resources

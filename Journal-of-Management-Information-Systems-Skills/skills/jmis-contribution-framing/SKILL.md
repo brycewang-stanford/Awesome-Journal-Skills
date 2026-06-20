@@ -1,70 +1,63 @@
 ---
 name: jmis-contribution-framing
-description: Use when working on contribution framing for a Journal of Management Information Systems manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when turning results into an explicit contribution for a Journal of Management Information Systems (JMIS) manuscript — an advance to an IS-management/economics conversation with theoretical and managerial implications. Frames the contribution and aligns intro/discussion; it does not position the literature (jmis-literature-positioning) or run the submission preflight (jmis-submission).
 ---
 
 # Contribution Framing (jmis-contribution-framing)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Management Information Systems (JMIS)** and contribution framing is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's information systems, digital transformation, platforms, analytics, IT governance, and organizational impacts of technology standard.
-- The paper risks being confused with nearby venues: MIS Quarterly, Information Systems Research, Journal of the AIS, and Management Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Results exist but the "so what for IS management" is thin or implicit
+- A reviewer or the EIC says the contribution is incremental or reads as a reference-discipline result
+- The paper is a competent study with no clear advance to a JMIS conversation
+- The introduction's "we show that…" sentences and the discussion's implications do not match
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| digital platform is central | Make the digital platform assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| IT governance is central | Make the IT governance assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| analytics adoption is central | Make the analytics adoption assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| information systems theory is central | Make the information systems theory assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| organizational technology is central | Make the organizational technology assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## What counts as a JMIS contribution
 
-## JMIS fit notes
+JMIS rewards a contribution to the **technology–organization–economics nexus**: a finding that changes what the IS field believes *and* what a manager, firm, platform, or policymaker should do about technology. Strong JMIS contributions:
 
-- Publisher / owner context: Taylor & Francis.
-- Submission route to re-check: Taylor & Francis submission.
-- Signature vocabulary: digital platform, IT governance, analytics adoption, information systems theory, organizational technology.
-- Sibling boundary: MIS Quarterly, Information Systems Research, Journal of the AIS, and Management Science.
-- House-style aim: IS scholarship that connects technology mechanisms to organizational and managerial outcomes.
-- Official URLs currently used by the pack:
-- https://www.tandfonline.com/journals/mmis20
-- https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=mmis20
+- **Advance a named IS conversation** (IT value, platforms, e-commerce, IS economics, security/privacy, analytics) — not only a reference discipline.
+- **Make the IT artifact essential** to the advance: delete the technology and the contribution collapses.
+- **Carry a managerial/economic payload.** Beyond theory, say what changes for practice — pricing, governance, investment, design, policy. JMIS's identity makes the practical implication first-class, not an afterthought.
+- **Match the genre's currency.** An empirical paper contributes a credibly identified effect and mechanism; an analytical paper contributes a new insight/comparative static; a design-science paper contributes a useful, evaluated artifact and generalizable design knowledge.
 
-## Stage-specific moves
+## Write the contribution as a claim narrower than your evidence
 
-1. State the exact contribution framing question in one sentence.
-2. Identify which JMIS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jmis-tables-figures` if the stage passes, or back to `jmis-workflow` if it does not.
+Translate results into three sentences: *what we did not know → what we now know → why it matters for IS theory and practice.* Then deliberately make the claim narrower than the evidence supports — overclaiming beyond the identification/proof/evaluation is the fastest route to reviewer distrust. Name the alternative explanation you ruled out and the boundary where the effect stops.
+
+## Align the introduction and discussion
+
+The contribution must appear explicitly, and consistently, in two places: the **introduction** ("we show that…", stated for an IS reader) and the **discussion**, which revisits it with implications for IS theory, for managers/firms/platforms, and — where apt — for policy, plus honest boundary conditions and future work. Do not leave the contribution for the reader to reconstruct from the results section.
+
+## Decision ledger to hand to the next pass
+
+Return rows of `claim / evidence / blocker / next edit` so the manuscript can be patched directly. If the contribution depends on a fact that is volatile (a process rule, a fee), reopen `resources/official-source-map.md` and name the one unresolved item.
 
 ## Checklist
-- [ ] The JMIS audience can see why the paper belongs in information systems, digital transformation, platforms, analytics, IT governance, and organizational impacts of technology.
-- [ ] The draft distinguishes JMIS from MIS Quarterly, Information Systems Research, Journal of the AIS.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for contribution framing names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] A three-sentence contribution (didn't know → now know → why it matters) is drafted
+- [ ] The advance is to a named IS conversation, not only a reference discipline
+- [ ] The IT artifact is essential to the contribution
+- [ ] A concrete managerial/economic implication is stated (not generic "implications for practice")
+- [ ] The claim is narrower than the evidence; ruled-out alternatives and boundaries are named
+- [ ] Intro "we show that…" and discussion implications state the same contribution
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JMIS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A reference-discipline contribution (pure econ/marketing/CS finding) with no IS advance
+- "Implications for practice" as a throwaway paragraph with nothing actionable
+- An implicit contribution the reader must infer from tables
+- Overclaiming a causal or general effect the design cannot support
+- A contribution sentence in the intro that the discussion silently contradicts
 
 ## Output format
 
 ```text
-【Journal】Journal of Management Information Systems
-【Skill】jmis-contribution-framing
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking contribution framing
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not MIS Quarterly, Information Systems Research
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jmis-tables-figures
+【Contribution (3 sentences)】didn't know → now know → why it matters
+【IS conversation advanced】[stream]
+【IT-artifact dependence】why the technology is essential
+【Managerial/economic payload】concrete action that changes
+【Claim vs. evidence】narrower? alternative ruled out? boundary stated?
+【Decision ledger】claim / evidence / blocker / next edit rows
+【Next step】jmis-tables-figures
 ```

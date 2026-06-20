@@ -1,76 +1,81 @@
 ---
 name: jams-submission
-description: Use when working on submission preflight for a Journal of the Academy of Marketing Science manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when running the final pre-submission preflight for a Journal of the Academy of Marketing Science (JAMS) manuscript — Springer Editorial Manager portal, double-anonymized blinding, APA style, the blinded title page, data/code availability, and declarations. Checks readiness to submit; it does not handle the post-decision response (jams-rebuttal).
 ---
 
-# Submission Preflight (jams-submission)
+# Pre-Submission Preflight (jams-submission)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of the Academy of Marketing Science (JAMS)** and submission preflight is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's marketing strategy, consumer behavior, channels, branding, innovation, and marketing theory standard.
-- The paper risks being confused with nearby venues: Journal of Marketing, Journal of Marketing Research, Marketing Science, and Journal of Consumer Research.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- "We're submitting this week" — the last check before pressing submit on Editorial Manager
+- Unsure what the Springer portal requires (anonymized file, title page, statements)
+- Verifying blinding, APA style, and required declarations are in place
+- Confirming the data/code availability statement is prepared
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| marketing strategy is central | Make the marketing strategy assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| customer response is central | Make the customer response assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| brand mechanism is central | Make the brand mechanism assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| managerial relevance is central | Make the managerial relevance assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| marketing theory is central | Make the marketing theory assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+> Always re-verify current limits and required files on the official JAMS submission guidelines (link.springer.com/journal/11747) before submitting — specifics change. Facts below were checked 2026-06; volatile items are marked 检索于 2026-06；以官网为准 or 待核实.
 
-## JAMS fit notes
+## Verified JAMS / Springer specs (confirm current values)
 
-- Publisher / owner context: Springer for the Academy of Marketing Science.
-- Submission route to re-check: Springer Nature submission.
-- Signature vocabulary: marketing strategy, customer response, brand mechanism, managerial relevance, marketing theory.
-- Sibling boundary: Journal of Marketing, Journal of Marketing Research, Marketing Science, and Journal of Consumer Research.
-- House-style aim: marketing scholarship with clear managerial implications and theory contribution.
-- Official URLs currently used by the pack:
-- https://link.springer.com/journal/11747
-- https://www.springer.com/journal/11747/submission-guidelines
+- **Publisher / owner:** Springer, for the **Academy of Marketing Science (AMS)**. ISSN **0092-0703** (print) / **1552-7824** (online); bimonthly.
+- **Submission portal:** Springer **Editorial Manager** for JAMS (reached via the journal's "Submit manuscript" link). Online submission only.
+- **Review model:** **double-anonymized** (double-blind) — the manuscript file must be fully anonymized; author identities and reviewer identities are mutually concealed.
+- **Citation style:** **APA** author–date is JAMS house style (检索于 2026-06；以官网为准).
+- **Co-Editors-in-Chief:** Stephanie M. Noble and Charles H. Noble (University of Tennessee), since June 2024 (检索于 2026-06；以官网为准).
+- **Abstract:** structured/concise abstract, typically **~200–250 words** (待核实 — confirm exact limit and whether structured on the official guidelines).
+- **Length / page limit:** JAMS does not publish a single hard page count the way some AMA journals do; follow the article-type guidance on the official page (待核实 — confirm current limit).
+- **Data & code:** Springer **research-data policy** applies; prepare a **data (and code) availability statement** and deposit references (e.g., OSF / Mendeley Data) where applicable (检索于 2026-06；以官网为准).
+- **Fees:** subscription publication has **no submission fee / no APC**; **Open Access (Hybrid OA)** is optional and carries an article-processing charge for accepted articles only — often covered by Springer transformative agreements (待核实 — confirm current APC).
 
-## Stage-specific moves
+## Pre-submission checklist
 
-1. State the exact submission preflight question in one sentence.
-2. Identify which JAMS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jams-review-process` if the stage passes, or back to `jams-workflow` if it does not.
+### Anonymization (double-anonymized)
+- [ ] Manuscript file has **no** author names, affiliations, acknowledgments, or funding
+- [ ] Self-citations worded neutrally ("prior research (Author, 2020)"), not "our earlier work"
+- [ ] File properties/metadata and file names scrubbed of identity
+- [ ] Any preregistration or data-repository links anonymized (no identity leakage)
 
-## Checklist
-- [ ] The JAMS audience can see why the paper belongs in marketing strategy, consumer behavior, channels, branding, innovation, and marketing theory.
-- [ ] The draft distinguishes JAMS from Journal of Marketing, Journal of Marketing Research, Marketing Science.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for submission preflight names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+### Format & style
+- [ ] **APA** author–date citations; reference list complete and reconciled with in-text cites
+- [ ] Abstract within the journal's limit; keywords supplied
+- [ ] Tables/figures self-contained, with effect sizes and uncertainty (not stars only)
+- [ ] Conceptual model figure matches the hypothesis list
+- [ ] Article type follows the official guidelines (length, structure)
+
+### Files for Editorial Manager
+- [ ] Anonymized main manuscript (text + exhibits, or as the portal specifies)
+- [ ] **Separate title page** with all authors, affiliations, ORCID iDs, acknowledgments, funding
+- [ ] Cover letter (fit to JAMS; theoretical **and** managerial contribution; not under review elsewhere)
+- [ ] Supplementary/online appendix file(s) for material kept out of the main text
+
+### Declarations & transparency
+- [ ] **Data (and code) availability statement** prepared per Springer policy
+- [ ] Human-subjects/IRB / ethics approval stated where applicable (on the title page)
+- [ ] Conflicts of interest and funding disclosed (title page)
+- [ ] No concurrent submission; conference/working-paper versions disclosed in the cover letter
+- [ ] AI not listed as an author; any AI-assistance disclosed per policy
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JAMS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Self-identifying language ("in our 2019 study") or a link that reveals identity in the blinded file
+- Wrong (non-APA) citation style straight from a reference manager
+- A missing or generic cover letter that omits the managerial contribution JAMS expects
+- No data/code availability statement, or no plan for a repository deposit
+- Treating the optional OA APC as a mandatory submission fee
+- Quoting a page/abstract limit as fixed without checking the current guidelines
 
 ## Output format
 
 ```text
-【Journal】Journal of the Academy of Marketing Science
-【Skill】jams-submission
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking submission preflight
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Marketing, Journal of Marketing Research
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jams-review-process
+【Anonymization】no identity in file/metadata/links: pass/fix
+【Style】APA citations; abstract within limit; keywords: pass/fix
+【Files】anon manuscript / separate title page (ORCID) / cover letter / appendix: ready?
+【Cover letter】states fit + theory + managerial contribution? yes/fix
+【Transparency】data/code availability statement + repo plan: ready?
+【Declarations】IRB / COI / funding / no concurrent submission: complete?
+【Source check】volatile items (limit, APC, editors) re-verified or marked 检索于 2026-06
+【Next step】submit via Editorial Manager → jams-review-process
 ```
 
 ## Supplementary resources
 
-- [`templates/checklist.md`](templates/checklist.md) — submission self-check
-- [`templates/manuscript_template.md`](templates/manuscript_template.md) — lightweight manuscript scaffold
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official URLs and volatile facts
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official Springer/JAMS URLs and volatile facts

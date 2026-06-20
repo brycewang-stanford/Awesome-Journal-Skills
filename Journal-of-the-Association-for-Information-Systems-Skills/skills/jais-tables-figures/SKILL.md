@@ -1,70 +1,74 @@
 ---
 name: jais-tables-figures
-description: Use when working on tables and figures for a Journal of the Association for Information Systems manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when building the exhibits of a Journal of the Association for Information Systems (JAIS) manuscript — tables, figures, the required SEM correlation/covariance matrix, and theory diagrams — so the body remains a self-contained, APA-styled document. Makes exhibits answer the question; it does not write surrounding prose (jais-writing-style) or run the analysis (jais-data-analysis).
 ---
 
-# Tables and Figures (jais-tables-figures)
+# Tables & Figures (jais-tables-figures)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of the Association for Information Systems (JAIS)** and tables and figures is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's information systems theory, digital innovation, sociotechnical systems, methods, and cumulative IS scholarship standard.
-- The paper risks being confused with nearby venues: MIS Quarterly, Information Systems Research, JMIS, and Management Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Exhibits are cluttered, off APA style, or do not answer the question a reader brings to them
+- You are relying on multimedia, links, or external files to carry evidence the body should hold
+- Your SEM paper has no correlation/covariance matrix exhibit yet
+- A theory/framework paper has no diagram, or a diagram that does not match the prose
+- A reviewer says a table "buries the result" or a figure "is unreadable in print"
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| sociotechnical system is central | Make the sociotechnical system assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| IS theory is central | Make the IS theory assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| digital innovation is central | Make the digital innovation assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| methodological pluralism is central | Make the methodological pluralism assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| cumulative contribution is central | Make the cumulative contribution assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## The JAIS-specific constraint: the body must stand alone
 
-## JAIS fit notes
+JAIS instructs that the article body may include **"text, tables, and figures only"** and that **"the body should function as a standalone document"**; complex materials go in separate files, and **links and multimedia belong in appendices** (检索于 2026-06；以官网为准). This is a real design constraint: every claim a reviewer needs to evaluate must be readable inside the body, on paper, without clicking out. Design exhibits that work in static, printed form.
 
-- Publisher / owner context: Association for Information Systems.
-- Submission route to re-check: AIS eLibrary / journal submission.
-- Signature vocabulary: sociotechnical system, IS theory, digital innovation, methodological pluralism, cumulative contribution.
-- Sibling boundary: MIS Quarterly, Information Systems Research, JMIS, and Management Science.
-- House-style aim: theory-forward IS research with method fit and clear community contribution.
-- Official URLs currently used by the pack:
-- https://aisel.aisnet.org/jais/
-- https://aisel.aisnet.org/jais/policies.html
+## Make each exhibit answer one question
 
-## Stage-specific moves
+A JAIS exhibit should have a single job a reader can state in a sentence. A results table answers "what is the estimated relationship and how precise is it?"; a measurement table answers "are the constructs reliable and distinct?"; a theory figure answers "what is the mechanism?" Title and note each exhibit so it is self-contained — readable without hunting through the text.
 
-1. State the exact tables and figures question in one sentence.
-2. Identify which JAIS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jais-writing-style` if the stage passes, or back to `jais-workflow` if it does not.
+## Exhibit kit by tradition
+
+| Tradition | Core exhibits | Watch for |
+|-----------|---------------|-----------|
+| **Behavioral / SEM** | measurement model (loadings, AVE, CR), discriminant-validity table, structural path diagram with effect sizes, **correlation/covariance matrix + descriptives** | the matrix is *required* in an appendix — do not omit it |
+| **Economics of IS** | main estimates with clustered SEs, event-study/pre-trends plot, robustness table | report magnitudes; avoid stars-only tables |
+| **Design science** | architecture/artifact figure, evaluation-vs-baseline table, ablation table | tie each row back to a design proposition |
+| **Theory / conceptual** | the framework diagram, a propositions table | the diagram and the prose must say the same thing |
+| **Qualitative** | data-structure figure (codes → themes → dimensions), representative-quotation table | show the path from data to constructs |
+
+## Style and reporting norms
+
+- **APA 6th edition** governs table/figure formatting and notes (JAIS's required reference style) (检索于 2026-06；以官网为准).
+- Report **effect sizes / magnitudes**, not significance stars alone; precision (SEs, CIs) belongs in the exhibit.
+- Keep figures legible in grayscale print; do not rely on color or interactivity to convey meaning.
+- Number and reference every exhibit in the text; an exhibit the prose never points to is noise.
+
+## Mind the length budget through exhibits
+
+Bloated exhibits push the manuscript toward the **~15,000-word extra-scrutiny zone and the 65-page hard ceiling**. Consolidate redundant tables, move secondary robustness exhibits to an appendix file (while keeping the body self-contained for the main claims), and prefer one clear figure over three partial ones.
 
 ## Checklist
-- [ ] The JAIS audience can see why the paper belongs in information systems theory, digital innovation, sociotechnical systems, methods, and cumulative IS scholarship.
-- [ ] The draft distinguishes JAIS from MIS Quarterly, Information Systems Research, JMIS.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for tables and figures names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] The body is self-contained: all main-claim evidence is in text/tables/figures, not behind links
+- [ ] Each exhibit answers one stated question and is readable standalone (title + note)
+- [ ] SEM paper includes the required correlation/covariance matrix + descriptives (appendix)
+- [ ] Theory figure and propositions table agree with the prose
+- [ ] Magnitudes/effect sizes reported with precision, not stars alone
+- [ ] APA 6th formatting; legible in grayscale; every exhibit referenced in text
+- [ ] Exhibits trimmed so the manuscript stays within the length budget
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JAIS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Putting load-bearing evidence in a clickable link or multimedia file, breaking the standalone body.
+- Omitting the correlation/covariance matrix from an SEM submission.
+- A framework diagram that contradicts or outruns the prose.
+- Significance-stars tables with no effect sizes or confidence intervals.
+- Figures that only work in color, illegible once printed in grayscale.
 
 ## Output format
 
 ```text
-【Journal】Journal of the Association for Information Systems
-【Skill】jais-tables-figures
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking tables and figures
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not MIS Quarterly, Information Systems Research
-【Source status】verified URL / 待核实 / not asserted
+【Journal】Journal of the Association for Information Systems (JAIS)
+【Body standalone?】all main evidence in text/tables/figures: yes/fix
+【Exhibit inventory】measurement / results / event-study / artifact / framework / data-structure
+【SEM matrix】correlation/covariance + descriptives present: yes/fix
+【Reporting】effect sizes + precision (not stars only): yes/fix
+【Style】APA 6th; grayscale-legible; all referenced: pass/fix
+【Length impact】within ~15k words / 65pp: yes/trim
 【Next skill】jais-writing-style
 ```

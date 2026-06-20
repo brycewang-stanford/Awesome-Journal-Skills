@@ -1,70 +1,68 @@
 ---
 name: jams-review-process
-description: Use when working on review process for a Journal of the Academy of Marketing Science manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when understanding how Journal of the Academy of Marketing Science (JAMS) review and decisions work — the Springer Editorial Manager flow, the double-anonymized developmental review, the area-editor structure, the dual theory-and-managerial evaluation bar, and how to read a decision letter. Explains the process and reads the letter; it does not draft the response (jams-rebuttal).
 ---
 
 # Review Process (jams-review-process)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of the Academy of Marketing Science (JAMS)** and review process is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's marketing strategy, consumer behavior, channels, branding, innovation, and marketing theory standard.
-- The paper risks being confused with nearby venues: Journal of Marketing, Journal of Marketing Research, Marketing Science, and Journal of Consumer Research.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Before submitting, to set realistic expectations about JAMS review
+- A decision letter arrived and you need to interpret it before responding
+- You are unsure who decides at JAMS and what reviewers are told to weigh
+- You want to know what conditional acceptance triggers (data/code deposit)
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| marketing strategy is central | Make the marketing strategy assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| customer response is central | Make the customer response assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| brand mechanism is central | Make the brand mechanism assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| managerial relevance is central | Make the managerial relevance assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| marketing theory is central | Make the marketing theory assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## How JAMS review works
 
-## JAMS fit notes
+- **Double-anonymized.** Authors and reviewers are concealed from each other; keep every round anonymized, including revised files and any preregistration links.
+- **Developmental philosophy.** JAMS, like the AMS journals, runs a **developmental review** — area editors and reviewers aim to improve promising papers across rounds, not merely gatekeep. A well-run R&R is the realistic best case; first-round acceptance is essentially unheard of.
+- **Decision structure.** Manuscripts are handled by an **Area / Associate Editor** under the Co-Editors-in-Chief (Stephanie M. Noble and Charles H. Noble, since June 2024 — 检索于 2026-06；以官网为准). Your keyword/area choices in Editorial Manager influence routing, so choose them to reach the right editor and reviewers.
+- **What reviewers weigh.** JAMS's evaluation is **dual**: (1) a genuine **theoretical contribution** to a broad marketing-science question, and (2) a clear **managerial contribution** — what a decision maker should do. Expect probes on construct validity / CMV (survey), endogeneity / identification (secondary data), mechanism and power (experiments), and on whether the contribution is more than a new-context replication.
+- **Integrity.** Springer plagiarism screening; no concurrent submission; research-data and ethics policies apply.
 
-- Publisher / owner context: Springer for the Academy of Marketing Science.
-- Submission route to re-check: Springer Nature submission.
-- Signature vocabulary: marketing strategy, customer response, brand mechanism, managerial relevance, marketing theory.
-- Sibling boundary: Journal of Marketing, Journal of Marketing Research, Marketing Science, and Journal of Consumer Research.
-- House-style aim: marketing scholarship with clear managerial implications and theory contribution.
-- Official URLs currently used by the pack:
-- https://link.springer.com/journal/11747
-- https://www.springer.com/journal/11747/submission-guidelines
+## Likely decisions
 
-## Stage-specific moves
+| Decision | What it means |
+|---|---|
+| Desk reject | Out of scope, not a broad marketing-science contribution, or no managerial relevance |
+| Reject (after review) | Theoretical or managerial contribution, or identification/validity, judged insufficient |
+| Major revision (R&R) | Promising core; substantial work required (often multi-round) |
+| Minor revision | Contribution sound; targeted fixes |
+| Conditional acceptance | Triggers final transparency steps — data/code availability statement and any required deposit |
 
-1. State the exact review process question in one sentence.
-2. Identify which JAMS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jams-rebuttal` if the stage passes, or back to `jams-workflow` if it does not.
+## Reading the decision letter
+
+- **Read the AE/editor letter first** — it states the path to acceptance and which concerns are decisive ("must address") versus secondary.
+- **Cluster reviewer comments** by theme: theoretical contribution, managerial relevance, construct validity/measurement, identification/analysis, positioning, exposition.
+- **Flag the gatekeeping themes** — any comment touching the **theoretical-contribution** or **managerial-relevance** bar is top priority; these are JAMS's twin gates.
+- **Separate new-data/analysis requests from reframing requests** — they have very different timelines.
+- **Anticipate transparency** — if nearing conditional acceptance, prepare the data/code availability statement and any repository deposit.
 
 ## Checklist
-- [ ] The JAMS audience can see why the paper belongs in marketing strategy, consumer behavior, channels, branding, innovation, and marketing theory.
-- [ ] The draft distinguishes JAMS from Journal of Marketing, Journal of Marketing Research, Marketing Science.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for review process names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] AE/editor letter parsed: decisive vs. secondary concerns identified
+- [ ] Reviewer comments clustered by theme
+- [ ] Theoretical-contribution and managerial-relevance comments flagged top priority
+- [ ] New-data vs. reframing requests separated for timeline planning
+- [ ] Validity/identification concerns (CMV, endogeneity) mapped to specific fixes
+- [ ] Conditional-acceptance transparency steps anticipated (data/code statement)
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JAMS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Treating all reviewer comments as equal, ignoring the editor's stated priorities
+- De-anonymizing yourself in a response or a revised file
+- Reading a major R&R as a near-accept and doing superficial edits
+- Neglecting the managerial-contribution comments because the theory comments feel weightier
+- Deferring data/code-availability prep until after conditional acceptance
 
 ## Output format
 
 ```text
-【Journal】Journal of the Academy of Marketing Science
-【Skill】jams-review-process
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking review process
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Marketing, Journal of Marketing Research
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jams-rebuttal
+【Decision】desk reject / reject / major R&R / minor / conditional accept
+【Editor priorities】must-address: [...]; secondary: [...]
+【Comment clusters】theory / managerial / measurement / identification / positioning / exposition
+【Gatekeeper flags】theoretical + managerial contribution comments: [...]
+【New data vs. reframing】[...]
+【Transparency next】data/code availability + deposit readiness: [...]
+【Next step】jams-rebuttal
 ```

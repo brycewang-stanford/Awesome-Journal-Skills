@@ -1,70 +1,71 @@
 ---
 name: jcp-writing-style
-description: Use when working on writing style for a Journal of Consumer Psychology manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when writing or revising the prose of a Journal of Consumer Psychology (JCP) manuscript — the process-led intro, the abstract, the theory build, and the APA-style voice — so the mechanism, not the effect, is the story. Polishes the writing; it does not change the design or analysis.
 ---
 
 # Writing Style (jcp-writing-style)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Consumer Psychology (JCP)** and writing style is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's consumer psychology, judgment and decision-making, persuasion, emotion, identity, and consumption behavior standard.
-- The paper risks being confused with nearby venues: Journal of Consumer Research, Journal of Marketing Research, Marketing Science, and Psychological Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The introduction opens with an effect or a context, not the psychological process
+- The abstract reports "X affects Y" and never names the mechanism
+- The theory section reads as a literature list rather than an argument toward a mediator
+- Reviewers say the paper is "hard to follow" or "the contribution is buried"
+- The prose is the bottleneck — but only after design and process evidence are stable
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| consumer mechanism is central | Make the consumer mechanism assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| experimental manipulation is central | Make the experimental manipulation assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| psychological process is central | Make the psychological process assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| moderation logic is central | Make the moderation logic assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| consumer welfare is central | Make the consumer welfare assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Write the mechanism as the protagonist
 
-## JCP fit notes
+JCP papers are stories about the **consumer's mind**. The reader should learn, early, *which mental process* the paper is about and *why it matters* — then watch each study tighten the case. The house voice is APA-scientific: precise, hypothesis-driven, economical. Unlike JCR's longer, more discursive intros, JCP prose is tight and process-forward, and the Research Report format (<4,000 words; 检索于 2026-06；以官网为准) rewards severe economy. Do the writing **last**: an intro that promises a mechanism cannot be finalized until the mediation/moderation evidence is settled.
 
-- Publisher / owner context: Elsevier for the Society for Consumer Psychology.
-- Submission route to re-check: Editorial Manager / Elsevier submission.
-- Signature vocabulary: consumer mechanism, experimental manipulation, psychological process, moderation logic, consumer welfare.
-- Sibling boundary: Journal of Consumer Research, Journal of Marketing Research, Marketing Science, and Psychological Science.
-- House-style aim: psychological mechanism evidence tied to consumer behavior and marketing theory.
-- Official URLs currently used by the pack:
-- https://www.sciencedirect.com/journal/journal-of-consumer-psychology
-- https://www.elsevier.com/journals/journal-of-consumer-psychology/1057-7408/guide-for-authors
+## The process-led introduction
 
-## Stage-specific moves
+A JCP intro typically moves in four beats:
 
-1. State the exact writing style question in one sentence.
-2. Identify which JCP audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jcp-submission` if the stage passes, or back to `jcp-workflow` if it does not.
+1. **The puzzle** — a consumer phenomenon or a tension between what we'd expect and what happens.
+2. **The process gap** — what the field thinks the mechanism is, and why that's incomplete or wrong.
+3. **The contribution** — "We propose that [antecedent] affects [outcome] *because* it [changes mental state M]," with the theory-predicted moderation that tests it.
+4. **The roadmap** — what each study establishes (effect → process → boundary).
+
+Lead with the mechanism, not "Marketing managers care about…". The managerial hook can come after the theoretical contribution, never before it.
+
+## The abstract
+
+The abstract must name the **effect, the process, and the boundary** in a few sentences: what shifts, the mental mechanism that drives it, the moderator that proves the mechanism, and the contribution. Reviewers and the editor decide fit from the abstract; an abstract that reports only an effect signals an effect-only paper.
+
+## Sentence-level craft
+
+- **Name the construct, then use its logic** — invoke a process by its established meaning, not as a label.
+- **Hypotheses stated cleanly** (H1, H2…), each tied to a study and a link in the chain.
+- **No HARKing in the prose**: present a priori predictions as predictions, post-hoc insights as exploratory.
+- **Active, economical voice**; cut throat-clearing ("It is important to note that…").
+- **APA mechanics**: tense (past for completed studies), statistics formatted per APA, hedge appropriately ("suggests," "is consistent with") when evidence is correlational.
 
 ## Checklist
-- [ ] The JCP audience can see why the paper belongs in consumer psychology, judgment and decision-making, persuasion, emotion, identity, and consumption behavior.
-- [ ] The draft distinguishes JCP from Journal of Consumer Research, Journal of Marketing Research, Marketing Science.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for writing style names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] The intro names the psychological process within the first page
+- [ ] The abstract states effect + process + boundary + contribution
+- [ ] The contribution is process-led ("because [M]"), not effect-led, throughout
+- [ ] Hypotheses are clean, a priori, and mapped to the study chain
+- [ ] Managerial relevance is present but subordinate to the theoretical process
+- [ ] Voice is tight, APA-scientific; Research Reports respect the word ceiling
+- [ ] No HARKing; correlational claims are hedged appropriately
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JCP without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- **Effect-first opening**: an intro that leads with the finding or the context, not the mechanism
+- **Managerial cold open**: opening with what firms should do before the theory
+- **Process-free abstract**: reporting "X affects Y" with no mechanism
+- **Literature-list theory**: paragraphs of citations with no argument toward the mediator
+- **Bloated prose**: discursive, hedge-heavy writing that buries the contribution (and busts the Report limit)
+- **Tense/HARK slippage**: post-hoc accounts written as if predicted a priori
 
 ## Output format
 
 ```text
-【Journal】Journal of Consumer Psychology
-【Skill】jcp-writing-style
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking writing style
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not Journal of Consumer Research, Journal of Marketing Research
-【Source status】verified URL / 待核实 / not asserted
+【Intro lead】process named on page 1? [Y/N]
+【Abstract】effect + process + boundary + contribution present? [Y/N]
+【Contribution thread】process-led and consistent across intro/abstract/discussion? [Y/N]
+【Hypotheses】clean, a priori, mapped to studies? [Y/N]
+【Voice】APA-scientific, economical; Report within word limit? [Y/N]
 【Next skill】jcp-submission
 ```

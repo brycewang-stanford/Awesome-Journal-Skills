@@ -1,70 +1,64 @@
 ---
 name: jmis-tables-figures
-description: Use when working on tables and figures for a Journal of Management Information Systems manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the exhibits are the bottleneck for a Journal of Management Information Systems (JMIS) manuscript — regression/SEM tables, platform/value figures, measurement-model exhibits, or artifact-evaluation charts that must carry the argument inside the 50-page budget. Finalizes exhibits and labeling; it does not run the analysis (jmis-data-analysis) or polish prose (jmis-writing-style).
 ---
 
 # Tables and Figures (jmis-tables-figures)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Management Information Systems (JMIS)** and tables and figures is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's information systems, digital transformation, platforms, analytics, IT governance, and organizational impacts of technology standard.
-- The paper risks being confused with nearby venues: MIS Quarterly, Information Systems Research, Journal of the AIS, and Management Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- A reader cannot get the headline result from the tables/figures without the text
+- Exhibits are dense, mislabeled, or report estimates without economic magnitude
+- The exhibit count is pushing the manuscript over the **50-page** ceiling
+- Survey papers lack the measurement-model exhibits reviewers expect (reliability/validity, loadings, HTMT)
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| digital platform is central | Make the digital platform assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| IT governance is central | Make the IT governance assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| analytics adoption is central | Make the analytics adoption assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| information systems theory is central | Make the information systems theory assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| organizational technology is central | Make the organizational technology assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Make each exhibit answer one question
 
-## JMIS fit notes
+A JMIS exhibit should be readable on its own: a self-contained title, defined variables and units, the sample and period, and a note stating the estimator, clustering, and what the stars/SEs mean. The reader should be able to state the finding from the table alone. Order exhibits to track the argument — descriptive/measurement first, main result next, mechanism and robustness after.
 
-- Publisher / owner context: Taylor & Francis.
-- Submission route to re-check: Taylor & Francis submission.
-- Signature vocabulary: digital platform, IT governance, analytics adoption, information systems theory, organizational technology.
-- Sibling boundary: MIS Quarterly, Information Systems Research, Journal of the AIS, and Management Science.
-- House-style aim: IS scholarship that connects technology mechanisms to organizational and managerial outcomes.
-- Official URLs currently used by the pack:
-- https://www.tandfonline.com/journals/mmis20
-- https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=mmis20
+## Report magnitudes, not just significance
 
-## Stage-specific moves
+JMIS values managerial relevance, so a coefficient table that shows only significance underdelivers. Report **economic magnitude** — marginal effects, elasticities, dollar value, or lift — alongside (or instead of) raw coefficients, and put the number that matters in the table the reader will actually look at. Report standard errors (and the clustering level) clearly; a figure with confidence intervals often communicates an effect better than a wall of asterisks.
 
-1. State the exact tables and figures question in one sentence.
-2. Identify which JMIS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jmis-writing-style` if the stage passes, or back to `jmis-workflow` if it does not.
+## Exhibits by evidence type
+
+| Evidence type | Exhibits reviewers expect |
+|---------------|----------------------------|
+| **IT-value / platform econometrics** | Descriptives + balance; main DiD/IV table; an **event-study figure with leads** for parallel-trends; robustness table; magnitude in interpretable units |
+| **Behavioral survey (SEM/PLS)** | Measurement model (loadings, CR, AVE), discriminant validity (HTMT / Fornell-Larcker), structural-path diagram with coefficients and significance |
+| **Experiment** | Cell means with CIs, manipulation-check results, treatment-effect figure, mediation/moderation exhibit |
+| **Design-science / ML** | Benchmark table vs. credible baselines with uncertainty; ablation; a figure tying performance to the managerial decision |
+| **Analytical model** | Comparative-static figures showing how the key outcome moves with the parameter that carries the insight |
+
+## Respect the page budget and the appendix boundary
+
+The complete manuscript is capped at **≤50 pages** (12pt, double-spaced), so exhibits compete with text for space. Keep in the body the exhibits that establish the contribution; move secondary robustness, full measurement batteries, and large parameter tables to the online appendix — but never let a load-bearing result live only in the appendix. Figures should be legible in grayscale and not rely on color alone. (检索于 2026-06；以官网为准.)
 
 ## Checklist
-- [ ] The JMIS audience can see why the paper belongs in information systems, digital transformation, platforms, analytics, IT governance, and organizational impacts of technology.
-- [ ] The draft distinguishes JMIS from MIS Quarterly, Information Systems Research, Journal of the AIS.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for tables and figures names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Every exhibit is self-contained (title, variables, units, sample, period, note)
+- [ ] The headline finding is readable from the main exhibits without the prose
+- [ ] Economic magnitude (not just significance) is reported for the key effect
+- [ ] SEs and clustering level are stated; CIs used where they communicate better
+- [ ] Survey papers include measurement-model and discriminant-validity exhibits
+- [ ] Empirical papers include an event-study/leads figure where parallel trends matter
+- [ ] Body holds the contribution-establishing exhibits; appendix holds only support; ≤50pp respected
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JMIS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- A coefficient table with stars but no magnitude or interpretation
+- Exhibits the reader cannot parse without hunting through the text
+- A load-bearing result relegated to the online appendix
+- A staggered-DID paper with no event-study/leads figure
+- A survey paper missing discriminant-validity evidence
+- Color-only figures that fail in grayscale
 
 ## Output format
 
 ```text
-【Journal】Journal of Management Information Systems
-【Skill】jmis-tables-figures
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking tables and figures
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not MIS Quarterly, Information Systems Research
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jmis-writing-style
+【Headline exhibit】reads alone? magnitude shown? [Y/N]
+【Diagnostics shown】event-study/leads | measurement model + HTMT | benchmarks + uncertainty
+【Inference labeling】SEs + clustering stated; CIs where clearer [Y/N]
+【Body vs. appendix】contribution exhibits in body; ≤50pp respected [Y/N]
+【Next step】jmis-writing-style
 ```

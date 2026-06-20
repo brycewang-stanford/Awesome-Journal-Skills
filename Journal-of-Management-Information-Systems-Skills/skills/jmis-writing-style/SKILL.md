@@ -1,70 +1,65 @@
 ---
 name: jmis-writing-style
-description: Use when working on writing style for a Journal of Management Information Systems manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when the prose is the bottleneck for a Journal of Management Information Systems (JMIS) manuscript — an abstract and introduction that land the IS-management contribution, and a body that reads for a method-literate but management-minded IS audience. Late-stage polish; do not invoke before the mechanism, identification, and contribution are settled.
 ---
 
 # Writing Style (jmis-writing-style)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Management Information Systems (JMIS)** and writing style is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's information systems, digital transformation, platforms, analytics, IT governance, and organizational impacts of technology standard.
-- The paper risks being confused with nearby venues: MIS Quarterly, Information Systems Research, Journal of the AIS, and Management Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- The mechanism, identification, and contribution are settled and the prose is the remaining gap
+- The abstract or introduction buries the contribution under setup or method
+- The paper reads like a reference-discipline manuscript (pure econ/CS) wearing an IS label
+- The abstract exceeds **150 words** or quietly slips in citations
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| digital platform is central | Make the digital platform assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| IT governance is central | Make the IT governance assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| analytics adoption is central | Make the analytics adoption assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| information systems theory is central | Make the information systems theory assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| organizational technology is central | Make the organizational technology assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Lead with the IS-management contribution
 
-## JMIS fit notes
+A JMIS reader is method-literate but management-minded. The introduction should reach the contribution fast: the technology, the managerial/economic question, what was not known, and what you show — stated for an IS audience, not buried under literature. The recurring failure is an intro that spends pages on background before the "we show that…" sentences. Get the IT artifact and the managerial stake on the first page.
 
-- Publisher / owner context: Taylor & Francis.
-- Submission route to re-check: Taylor & Francis submission.
-- Signature vocabulary: digital platform, IT governance, analytics adoption, information systems theory, organizational technology.
-- Sibling boundary: MIS Quarterly, Information Systems Research, Journal of the AIS, and Management Science.
-- House-style aim: IS scholarship that connects technology mechanisms to organizational and managerial outcomes.
-- Official URLs currently used by the pack:
-- https://www.tandfonline.com/journals/mmis20
-- https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=mmis20
+## Write the 150-word, citation-free abstract last and tight
 
-## Stage-specific moves
+JMIS requires an abstract of **up to 150 words** with **no citations**, plus a set of **keywords** indicating the paper's content. Draft it after the intro is stable. It should name the technology/setting, the question, the method and data, the headline result *with magnitude*, and the contribution — in plain sentences a busy editor can scan. Do not pad it with background or cite prior work. (检索于 2026-06；以官网为准.)
 
-1. State the exact writing style question in one sentence.
-2. Identify which JMIS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jmis-submission` if the stage passes, or back to `jmis-workflow` if it does not.
+## Keep the technology and the managerial payoff visible throughout
+
+Because JMIS sits at the technology–organization–economics nexus, the prose should keep the **IT artifact load-bearing** and surface the **managerial/economic implication** as a first-class thread, not an afterthought paragraph. Translate statistical findings into managerial language where it helps (what a firm/platform should do), without overclaiming past the evidence. Define IS constructs precisely and use them consistently; explain reference-discipline machinery for an IS reader rather than assuming it.
+
+## Match prose to JMIS's numbered-reference house style
+
+JMIS uses **numbered bracketed citations [9] with an alphabetized reference list**, not author-date. Write so the argument reads cleanly with numeric cites (avoid "as Author (2020) argued" constructions that assume author-date), and confirm references are formatted to JMIS's numbered style before submission. (检索于 2026-06；以官网为准.)
+
+## Tighten the prose
+
+- Prefer the active voice and concrete subjects ("the platform redesign raised…") over nominalized passives.
+- Cut hedging stacks ("it may possibly suggest") to a single calibrated claim.
+- One idea per paragraph; topic sentence carries the point.
+- Make every "implications for practice" sentence say something a manager could act on.
 
 ## Checklist
-- [ ] The JMIS audience can see why the paper belongs in information systems, digital transformation, platforms, analytics, IT governance, and organizational impacts of technology.
-- [ ] The draft distinguishes JMIS from MIS Quarterly, Information Systems Research, Journal of the AIS.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for writing style names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Intro reaches the IT artifact, managerial question, and contribution on the first page
+- [ ] "We show that…" sentences are explicit and match the discussion
+- [ ] Abstract ≤150 words, citation-free, names result + magnitude; keywords present
+- [ ] IT artifact stays load-bearing; managerial/economic payoff is a visible thread
+- [ ] IS constructs defined and used consistently; reference-discipline machinery explained
+- [ ] Prose reads cleanly with numbered citations; references in JMIS numbered style
+- [ ] Active voice; hedging trimmed; one idea per paragraph
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JMIS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- An intro that withholds the contribution until after pages of background
+- An abstract over 150 words, or with citations, or with no magnitude
+- Prose written for an econ/CS audience that never surfaces the IS-management takeaway
+- Author-date phrasings that fight JMIS's numbered-reference style
+- "Implications for practice" that no manager could act on
+- Polishing prose while the mechanism or identification is still moving
 
 ## Output format
 
 ```text
-【Journal】Journal of Management Information Systems
-【Skill】jmis-writing-style
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking writing style
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not MIS Quarterly, Information Systems Research
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jmis-submission
+【Intro】contribution on page 1? "we show that…" explicit? [Y/N]
+【Abstract】≤150 words, citation-free, magnitude + keywords? [Y/N]
+【IS-management thread】artifact load-bearing; managerial payoff visible? [Y/N]
+【Citation style】reads with numbered cites; refs in JMIS numbered format? [Y/N]
+【Next step】jmis-submission
 ```

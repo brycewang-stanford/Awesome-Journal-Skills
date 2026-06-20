@@ -1,70 +1,68 @@
 ---
 name: jmis-theory-development
-description: Use when working on theory development for a Journal of Management Information Systems manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use when building the theoretical engine of a Journal of Management Information Systems (JMIS) manuscript — an IT-business-value logic, a platform/network-effects mechanism, an economic model of IS, or a technology-specific behavioral theory. Adapts the form of "theory" to JMIS's management-and-economics-of-IS identity; it does not run the analysis (jmis-data-analysis) or frame the contribution (jmis-contribution-framing).
 ---
 
 # Theory Development (jmis-theory-development)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of Management Information Systems (JMIS)** and theory development is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's information systems, digital transformation, platforms, analytics, IT governance, and organizational impacts of technology standard.
-- The paper risks being confused with nearby venues: MIS Quarterly, Information Systems Research, Journal of the AIS, and Management Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- Your claims are descriptive ("IT spend correlates with performance") with no economic or behavioral mechanism
+- You built an artifact or ran a regression but cannot say what *IS knowledge* it advances
+- A reviewer says "the theoretical contribution is unclear" or "this is a technical/empirical exercise"
+- You need hypotheses, propositions, or signed predictions derived *before* you look at results
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| digital platform is central | Make the digital platform assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| IT governance is central | Make the IT governance assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| analytics adoption is central | Make the analytics adoption assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| information systems theory is central | Make the information systems theory assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| organizational technology is central | Make the organizational technology assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Theory takes a different shape in each JMIS style
 
-## JMIS fit notes
+JMIS spans empirical, economic-analytical, and design-oriented IS work, so "develop theory" means different things. Pick the row that matches your study; JMIS's distinctive pull is toward the **economics and management of IS**, so even behavioral papers benefit from naming the value or incentive at stake.
 
-- Publisher / owner context: Taylor & Francis.
-- Submission route to re-check: Taylor & Francis submission.
-- Signature vocabulary: digital platform, IT governance, analytics adoption, information systems theory, organizational technology.
-- Sibling boundary: MIS Quarterly, Information Systems Research, Journal of the AIS, and Management Science.
-- House-style aim: IS scholarship that connects technology mechanisms to organizational and managerial outcomes.
-- Official URLs currently used by the pack:
-- https://www.tandfonline.com/journals/mmis20
-- https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=mmis20
+| Style | What "theory" means here | What you must produce |
+|-------|--------------------------|------------------------|
+| **IT business value** | A mechanism by which a specific IT capability creates, captures, or destroys value | Causal logic from IT capability → intermediate process → firm/market outcome, with complementarities and contingencies named |
+| **Platform / e-commerce** | Network effects, two-sidedness, matching, governance, or pricing logic | A model or argument yielding directional predictions about adoption, cross-side effects, competition, or platform revenue |
+| **Economics of IS** | An economic mechanism (incentives, information asymmetry, signaling, security/privacy economics) | Comparative-static, signed, falsifiable predictions and the assumptions they rest on |
+| **Behavioral IS** | A technology-specific cognitive/behavioral mechanism (not generic TAM) | A priori hypotheses with the IT artifact in the causal path, boundary conditions, and mediation/moderation logic |
 
-## Stage-specific moves
+## IT business value: make the mechanism, not the correlation, the theory
 
-1. State the exact theory development question in one sentence.
-2. Identify which JMIS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jmis-literature-positioning` if the stage passes, or back to `jmis-workflow` if it does not.
+A JMIS IT-value paper is not "more IT, more performance." State *which* IT capability, acting through *what* organizational process, under *which* complementary conditions (process redesign, human capital, governance), produces *which* outcome. Theorize the **complementarities and contingencies** — JMIS reviewers reward a contingent value mechanism over a universal "IT pays" claim, because the field already knows the productivity-paradox debate.
+
+## Platform and economics-of-IS: derive signed predictions a priori
+
+State the economic force in words before any math: *who has what incentive, what information, and how does the IT-mediated market structure change behavior?* Then write comparative-static predictions (e.g., "stronger same-side network effects raise the platform's optimal openness"). For an analytical model, the contribution is the **insight the model yields**, not the model's existence. Avoid HARKing — predictions precede estimation.
+
+## Behavioral IS: keep the artifact load-bearing
+
+If your hypotheses would survive deleting the technology, they are not IS theory. Anchor the mechanism in a feature of the system (recommendation transparency, gamification, anonymity, automation) and theorize *why that feature* shifts cognition or behavior, and where the effect reverses. Generic TAM/UTAUT re-tests are a desk-reject risk; extend or challenge a mechanism instead.
+
+## Make boundary conditions and level of analysis explicit
+
+IS effects are contingent on the artifact, the user, the firm, the market, and the period. Name the level (individual, firm, platform, market) and the scope where the theory holds and breaks — an honest scope condition beats an over-claimed law.
 
 ## Checklist
-- [ ] The JMIS audience can see why the paper belongs in information systems, digital transformation, platforms, analytics, IT governance, and organizational impacts of technology.
-- [ ] The draft distinguishes JMIS from MIS Quarterly, Information Systems Research, Journal of the AIS.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for theory development names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] The correct *form* of theory is used (value mechanism / platform model / economic model / behavioral mechanism)
+- [ ] The IT artifact or capability is load-bearing, not decorative
+- [ ] Hypotheses / propositions / signed predictions are derived *before* results (no HARKing)
+- [ ] IT-value papers theorize complementarities and contingencies, not a universal effect
+- [ ] Economic/platform papers state assumptions and yield falsifiable comparative statics
+- [ ] Level of analysis and boundary conditions are explicit
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JMIS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- "More IT → more performance" with no process, complementarity, or contingency
+- A generic TAM/UTAUT replication offered as the theoretical contribution
+- An analytical model whose contribution is "we model X" rather than an insight
+- "We applied [reference-discipline theory] to [IS setting]" with no new IS mechanism
+- Hypotheses that merely restate correlations the data already revealed
 
 ## Output format
 
 ```text
-【Journal】Journal of Management Information Systems
-【Skill】jmis-theory-development
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking theory development
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not MIS Quarterly, Information Systems Research
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jmis-literature-positioning
+【Style & theory form】IT-value / platform / economics-of-IS / behavioral
+【Core mechanism】IT capability or feature → channel → on whom → outcome
+【Claims】H1..Hn / propositions P1..Pn / signed comparative statics
+【Complementarities / boundary conditions】where it holds / reverses
+【Level of analysis】individual / firm / platform / market
+【Next step】jmis-literature-positioning
 ```
