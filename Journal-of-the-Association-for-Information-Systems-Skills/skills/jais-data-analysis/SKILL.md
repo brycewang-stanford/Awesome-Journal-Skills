@@ -31,6 +31,10 @@ Report the measurement model first: reliabilities, AVE, and discriminant validit
 
 Lead with the identification logic, then stress-test it: alternative specifications, placebo and event-study plots, sensitivity to the key assumption, and clustering matched to the data structure. With staggered timing, use a modern estimator and show flat pre-trends. Report magnitudes and their economic meaning, not just stars.
 
+## Report robustness as a defense of the theory, not a ritual
+
+A robustness battery at JAIS should be legible as protecting the *theoretical* claim, not as a checklist. For each check, state the threat it neutralizes: a placebo test guards against spurious timing, an alternative specification guards against functional-form dependence, a sensitivity analysis bounds the unobserved-confounding concern. Listing checks without naming the threat each addresses is a recurring pushback — and at a theory-forward journal, an unmotivated robustness section signals that the author is not sure which threat actually endangers the contribution.
+
 ## Design science: evaluate the artifact, not just the math
 
 Benchmark against the baselines a skeptic would name, run ablations to show which design principles matter, and connect each result back to a design proposition. Where feasible, evaluate in a realistic field setting. Utility for a real problem is the contribution.
