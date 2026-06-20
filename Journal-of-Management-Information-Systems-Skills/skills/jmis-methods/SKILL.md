@@ -40,6 +40,16 @@ A JMIS artifact paper lives on **managerial utility**, not algorithmic novelty a
 
 The complete manuscript is capped at **≤50 pages** (12pt, double-spaced). Online appendixes are permitted, but the main paper must be self-contained and the core claims established in the body — do not design a study whose key evidence only fits by exporting it. Survey instruments go as separate anonymized attachments. (检索于 2026-06；以官网为准.)
 
+## Worked vignette: identifying IT business value (illustrative)
+
+A team wants to claim that an ERP go-live raised plant productivity. A cross-section of ERP-adopters vs. non-adopters cannot carry that claim — adopters differ systematically (larger, better-managed firms self-select). The JMIS design uses the **staggered go-live timing** across plants as the variation, estimates with Callaway–Sant'Anna (not naive TWFE), pre-specifies the event-study window, and checks that pre-trends are flat before go-live. The identifying assumption — that go-live timing is not driven by anticipated productivity shocks — is argued from the institutional rollout schedule and falsified with a placebo on plants whose go-live slipped. That is the difference between "ERP correlates with productivity" and "ERP go-live raised productivity by X%."
+
+## Referee pushback mapped to a design fix
+
+- *"Selection — adopters are not comparable to non-adopters."* → Switch from cross-section to within-firm timing variation or a defended IV; show balance/pre-trends.
+- *"How do you know the artifact is actually useful?"* (design-science) → Add an evaluation against credible baselines tied to a real managerial decision, not a benchmark of convenience.
+- *"Common-method bias undermines your survey."* → Show the procedural separations you built in *ex ante*, then the statistical test; do not rely on the test alone.
+
 ## Checklist
 
 - [ ] Design matches the style and the strength of the claim

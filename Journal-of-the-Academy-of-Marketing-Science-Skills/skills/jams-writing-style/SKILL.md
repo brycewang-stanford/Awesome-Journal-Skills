@@ -36,6 +36,23 @@ Write the introduction and abstract **last**, after results stabilize, so the pr
 - **Discussion:** lead with the theoretical contribution, then a substantive **managerial implications** subsection that names decisions and magnitudes (JAMS readers expect this section to be real), then limitations and future research.
 - **Construct consistency:** one name per construct throughout; do not let a construct drift between synonyms.
 
+## Sentence-level moves that read as "JAMS"
+
+- **Lead paragraphs with the claim, then the support.** Topic sentence states the point; the rest of the paragraph evidences it. Reviewers skim topic sentences first.
+- **Active voice for the contribution** ("We show that…", "Our framework predicts…"); reserve passive for routine procedure.
+- **Translate statistics into substance in the prose**, not just the table — "the effect is large (β = .38), implying roughly a [X]% lift in retention," so the reader meets the magnitude in words.
+- **Quarantine jargon and acronyms:** define each construct once, then use the same plain label; do not stack three acronyms in one sentence.
+- **Hypothesis recaps in results:** restate the hypothesis verbatim before reporting whether it was supported, so the reader is not flipping back to the hypotheses section.
+
+## Tighten the managerial implications section
+
+This subsection is where JAMS papers are most often weakest. Make it concrete:
+
+- Open each implication with the **decision maker and the decision** ("For a sales manager allocating effort across accounts…").
+- Quantify the **stake** in the unit that manager uses, drawn from your effect sizes.
+- State the **condition** under which the advice holds (your moderator becomes the guardrail).
+- Avoid the generic close ("managers should monitor X and invest accordingly") — if a sentence would fit any marketing paper, cut it.
+
 ## Checklist
 
 - [ ] Introduction opens on the phenomenon/managerial puzzle, not a bare gap

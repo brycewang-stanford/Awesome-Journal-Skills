@@ -59,6 +59,10 @@ The "implications for practice" section should follow *from the mechanism*: if e
 - **Practice as ornament** — a generic "implications for managers" paragraph the mechanism does not generate
 - **Description masquerading as process theory** — rich qual data with no model
 
+## Worked vignette (illustrative)
+
+A draft argues that "founder resilience improves venture performance." This is generic and untestable as theory. Rebuild it through an engine. Choosing **entrepreneurial identity**: resilience matters because, under the chronic setbacks of new-venture creation, a founder whose *identity is centrally entrepreneurial* reframes failure as role-consistent learning rather than personal defeat, sustaining effort — the mechanism is identity-driven persistence, not a trait. The boundary condition: this advantage is strongest *early*, when the venture's survival depends on the founder's effort, and weakens as the firm professionalizes and effort decentralizes. The substitution check passes — an established firm's CEO does not face identity-threatening, existential setbacks at the same frequency, so the mechanism is entrepreneurial. The practice implication follows from the mechanism: accelerators and investors coaching founders should strengthen entrepreneurial identity centrality (not generic "grit training"), and the value of doing so declines as the venture matures.
+
 ## Output format
 
 ```text

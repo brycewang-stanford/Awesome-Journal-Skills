@@ -38,6 +38,19 @@ description: Use when understanding how Journal of the Academy of Marketing Scie
 - **Separate new-data/analysis requests from reframing requests** — they have very different timelines.
 - **Anticipate transparency** — if nearing conditional acceptance, prepare the data/code availability statement and any repository deposit.
 
+## Calibrate expectations before you submit
+
+- **First-round R&R, not acceptance, is the goal.** JAMS's developmental review means most successful papers go through two or more revision rounds; budget months, not weeks, between rounds.
+- **Desk-reject risk is highest on scope and relevance.** A paper that is narrow, modeling-first, purely consumer-psychology, or missing a managerial implication is the most common early casualty — fix fit (`jams-topic-selection`) before submitting.
+- **Reviewer continuity matters.** The same reviewers usually see your revision, so a response that visibly addresses *their* concern (not a generic improvement) is what advances the paper.
+- **Routing is partly in your hands.** Keyword and area-of-interest choices in Editorial Manager steer the manuscript toward an area editor whose domain matches the paper; a mismatch slows the process and risks an unsympathetic read.
+
+## Where JAMS differs from the siblings' processes
+
+- **vs. JM (AMA):** JM is double-anonymized via ScholarOne with a Coeditor structure and a hard page limit; JAMS runs on Springer Editorial Manager with an area-editor structure and article-type guidance rather than one fixed page cap.
+- **vs. JMR:** JMR enforces exact three-digit p-values and a Web Appendix convention; JAMS emphasizes construct validity and the managerial contribution more than a single statistics-reporting rule.
+- **vs. Marketing Science / JCR:** those weigh modeling rigor or consumer-theory depth respectively; JAMS will not accept a paper strong on one of those but thin on the managerial takeaway.
+
 ## Checklist
 
 - [ ] AE/editor letter parsed: decisive vs. secondary concerns identified

@@ -34,6 +34,14 @@ JMIS values managerial relevance, so a coefficient table that shows only signifi
 
 The complete manuscript is capped at **≤50 pages** (12pt, double-spaced), so exhibits compete with text for space. Keep in the body the exhibits that establish the contribution; move secondary robustness, full measurement batteries, and large parameter tables to the online appendix — but never let a load-bearing result live only in the appendix. Figures should be legible in grayscale and not rely on color alone. (检索于 2026-06；以官网为准.)
 
+## Worked example: turning a coefficient table into a JMIS exhibit (illustrative)
+
+A draft Table 3 reports `redesign × post = −0.062 (0.018)***` and nothing else. A JMIS reader cannot tell what that means. The fixed exhibit keeps the coefficient but adds a column translating it to the managerial scale (−6.2 pp seller retention; ≈N exits/quarter at the observed base), states the estimator and the clustering level in the note, and is paired with an **event-study figure** whose flat pre-period leads visibly support parallel trends. The reader now gets identification *and* magnitude from the exhibits without leaving for the prose — which is exactly what a method-literate, management-minded JMIS referee scans for first.
+
+## Sequence the exhibits to track the argument
+
+Order is part of the argument: (1) descriptives/balance establish the sample and comparability; (2) the main effect table/figure delivers the headline with magnitude; (3) the mechanism exhibit shows *why* (mediation, heterogeneity, the channel); (4) robustness shows the threat-by-threat survival. A reader should be able to reconstruct the paper's logic from the exhibit sequence alone. Resist the temptation to front-load a dramatic figure before the reader can interpret it.
+
 ## Checklist
 
 - [ ] Every exhibit is self-contained (title, variables, units, sample, period, note)

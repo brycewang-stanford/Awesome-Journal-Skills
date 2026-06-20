@@ -35,6 +35,14 @@ JMIS uses **numbered bracketed citations [9] with an alphabetized reference list
 - One idea per paragraph; topic sentence carries the point.
 - Make every "implications for practice" sentence say something a manager could act on.
 
+## A first-page test for the introduction
+
+Read only page one and ask: can a JMIS editor name the technology, the managerial/economic question, the gap, and what you show? If any is missing, the intro is too slow. A reliable JMIS opening moves in four beats: (1) a concrete IT/management phenomenon a reader cares about; (2) the tension or gap in the IS conversation; (3) "in this paper we show that…" with the contribution and its magnitude; (4) why it matters for IS theory and for managers/firms/platforms. Save the extended literature for the positioning section — do not make the reader earn the contribution.
+
+## Worked fix: an abstract that overruns and under-delivers (illustrative)
+
+Before: a 190-word abstract that spends three sentences on background, cites two papers, and ends "implications are discussed." After: a 140-word, citation-free abstract — "Using the staggered redesign of a marketplace's ranking algorithm, we show that personalization reduced marginal-seller retention by 6 percentage points, shrinking buyer-side variety; the effect is concentrated among supply-constrained categories, implying platforms should temper personalization where seller supply is thin" — plus four keywords. It states setting, method, result *with magnitude*, and the managerial contribution, and it obeys the ≤150-word, no-citation rule.
+
 ## Checklist
 
 - [ ] Intro reaches the IT artifact, managerial question, and contribution on the first page

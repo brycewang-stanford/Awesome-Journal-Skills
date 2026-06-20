@@ -30,6 +30,22 @@ JMIS is an **Editor-in-Chief-led** journal: founding and current EIC **Vladimir 
 | "Robustness / generalizability" | Effect believed but not yet solid | Add robustness; bound the claim |
 | Desk return for length/anonymization | Process, not substance | Fix and resubmit per `jmis-submission` |
 
+## What the EIC-led model means for you, concretely
+
+Because intake is the EIC's email and the EIC steers assignment, two things follow that a portal-driven journal would not surface. First, **scope discipline is front-loaded**: the EIC can return a paper that is not an IS-management/economics question before it ever reaches a referee, so the time you spend at `jmis-topic-selection` and `jmis-contribution-framing` is the cheapest insurance against a fast return. Second, the **AE is your interlocutor on the substance**: the AE synthesizes the referees and signals the editorial direction, so when you eventually respond (`jmis-rebuttal`) you are persuading the AE that concerns are *resolved*, not just answered. Read the AE letter as the decision; read the referee reports as the evidence the AE is weighing.
+
+## Match the review style to your evidence type
+
+The substantive pressure differs by archetype, and anticipating it shortens the cycle:
+
+| Archetype | Where referees press hardest |
+|-----------|------------------------------|
+| IT-value / firm econometrics | endogeneity of IT investment; whether the design supports a causal verb |
+| platform / e-commerce | selection on platform data; whether the network mechanism is identified, not assumed |
+| behavioral survey / experiment | construct validity, discriminant validity, common-method bias, manipulation realism |
+| analytical / economic model | the assumptions, and whether the insight survives relaxing them |
+| design-science / ML | utility vs. credible baselines and managerial relevance, not algorithmic novelty |
+
 ## Calibrate timing and expectations
 
 JMIS is a quarterly with a single EIC and a board of AEs; turnaround depends on referee availability, so plan for a multi-month first round and budget real time for a major revision. Exact current turnaround statistics are **待核实** — check the journal page or recent author reports rather than assuming. Treat a major-revision invitation as a genuine path to acceptance if you can answer the substantive concerns, and do not confuse it with a reject.

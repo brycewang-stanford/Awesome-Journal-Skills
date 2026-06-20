@@ -1,6 +1,6 @@
 ---
 name: humrel-writing-style
-description: Use for full-manuscript prose and narrative craft on a Human Relations (HR) manuscript — the reflexive, theoretically-engaged HR voice, intro/abstract, and structure within the 13k cap. Polishes the writing; it does not change the theory or analysis.
+description: Use when polishing full-manuscript prose and narrative craft on a Human Relations (HR) manuscript — the reflexive, theoretically-engaged HR voice, intro/abstract, and structure within the 13k cap. Polishes the writing; it does not change the theory or analysis.
 ---
 
 # Writing Style & Craft (humrel-writing-style)

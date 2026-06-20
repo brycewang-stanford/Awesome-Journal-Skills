@@ -36,6 +36,19 @@ Prepare a one-sentence answer to each before a reviewer raises it:
 - Cite across the sibling boundary where relevant (a JCR consumer mechanism, a Marketing Science model) to show command of the field, while keeping the paper's home at JAMS.
 - Use **APA** style (JAMS house style) consistently; reconcile every in-text citation with the reference list.
 
+## Build the contribution table reviewers look for
+
+A compact way to make positioning auditable — and a frequent JAMS device — is a **contribution/comparison table** in the front end: rows are the closest prior papers, columns are the dimensions that matter (construct studied, mechanism, moderators, data/method, managerial outcome), and your paper is the last row showing what it adds. This turns "we extend the literature" into a visible gap. Keep the columns honest; a reviewer who is one of those prior authors will read it.
+
+## Positioning by archetype
+
+- **Survey/SEM contribution:** the gap is often a **missing mediator or moderator** in an established nomological net, or a **validated construct** the stream lacked. Position against the canonical model you are extending.
+- **Secondary-data contribution:** the gap is usually **credible identification** of a relationship the field has only correlated, or a **magnitude** in firm/market terms never quantified.
+- **Experimental contribution:** the gap is a **mechanism** that prior work assumed but never tested, or a **boundary condition** that bounds a known effect.
+- **Meta-analytic contribution:** the gap is **resolving inconsistency** across a fragmented literature and explaining it with theory-driven moderators — not merely averaging effect sizes.
+
+In every case, end the positioning with the same two sentences you will reuse downstream: the new theoretical understanding, and the new managerial guidance.
+
 ## Checklist
 
 - [ ] The literature stream the paper joins is named explicitly

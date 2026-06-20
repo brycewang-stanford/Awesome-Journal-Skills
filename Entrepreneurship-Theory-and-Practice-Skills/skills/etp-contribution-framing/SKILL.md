@@ -58,6 +58,10 @@ ETP's USASBE heritage means a reviewer may *be* a practitioner-facing scholar. T
 - **Boundary-free claims** — an effect asserted to hold universally
 - **Mismatched pair** — a practice tip that does not follow from the theory mechanism
 
+## Worked vignette (illustrative)
+
+A paper finds that founders who reason via affordable loss (rather than expected return) survive longer in highly uncertain markets. A weak framing says: "We contribute to the effectuation literature and managers should consider affordable loss." An ETP-strength framing builds the matched pair. **Theory**: it qualifies the effectuation–causation debate by showing effectual logic's survival advantage is *conditional on market uncertainty* — under low uncertainty, predictive (causal) logic does as well or better; the boundary condition is the contribution, not the main effect. **Practice**: because the advantage is conditional, the implication is specific — investors and accelerators should not treat predictive business plans as a universal quality signal; in genuinely uncertain markets they should reward evidence of affordable-loss experimentation instead. The two sentences are mutually consistent (the practice tip follows directly from the boundary condition), and the claim is calibrated to "qualify," not "overturn."
+
 ## Output format
 
 ```text

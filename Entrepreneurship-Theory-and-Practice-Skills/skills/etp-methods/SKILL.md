@@ -57,6 +57,10 @@ For inductive work, ETP expects a visible **trustworthiness** apparatus: a clear
 - **Convenience startup sample** with an undocumented frame
 - **Thin qual** — vivid quotes, no data structure or audit trail
 
+## Worked vignette (illustrative)
+
+A study claims that founders' prior startup failure *causes* faster pivoting in their next venture, using a panel of funded startups. An ETP methods reviewer sees three traps at once. **Survivorship**: the panel only includes ventures that secured funding and survived long enough to be observed pivoting — failures that died before pivoting are invisible, so "failure speeds pivoting" may be an artifact of who survived. **Selection**: founders who start again after failure differ systematically from those who quit; the comparison is not random. **Temporal precedence**: pivoting must be measured *after* the prior-failure exposure, not concurrently. The design fix moves the frame upstream to a nascent/registry panel (PSED-style) that captures ventures from formation regardless of survival, models the founding/restart decision (Heckman or a design-based shock to who restarts), and times the pivot measurement strictly after the failure. Only then does the antecedent claim survive — and the analysis hands off to an event-history model in `etp-data-analysis`.
+
 ## Output format
 
 ```text

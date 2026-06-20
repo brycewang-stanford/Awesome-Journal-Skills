@@ -1,71 +1,78 @@
 ---
 name: jais-submission
-description: Use when working on submission preflight for a Journal of the Association for Information Systems manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use for the final pre-submission preflight of a Journal of the Association for Information Systems (JAIS) manuscript — ManuscriptCentral portal, double-blind anonymization, the correct manuscript category and its length budget, the required SEM correlation/covariance matrix, the cover-letter elements (Senior Editor nomination, two suggested reviewers), and APA-6 formatting. Verifies readiness to submit; it does not polish prose (jais-writing-style) or interpret decisions (jais-review-process).
 ---
 
 # Submission Preflight (jais-submission)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of the Association for Information Systems (JAIS)** and submission preflight is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's information systems theory, digital innovation, sociotechnical systems, methods, and cumulative IS scholarship standard.
-- The paper risks being confused with nearby venues: MIS Quarterly, Information Systems Research, JMIS, and Management Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- "Submitting this week" — the last compliance pass before pressing submit
+- Unsure which JAIS category to declare or whether you are within its length budget
+- Need to confirm double-blind anonymization and APA-6 formatting are complete
+- You want to avoid an administrative return before review
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| sociotechnical system is central | Make the sociotechnical system assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| IS theory is central | Make the IS theory assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| digital innovation is central | Make the digital innovation assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| methodological pluralism is central | Make the methodological pluralism assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| cumulative contribution is central | Make the cumulative contribution assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Submission channel and format facts (检索于 2026-06；以官网为准)
 
-## JAIS fit notes
+- **Portal:** submit online via **ManuscriptCentral** at `http://mc.manuscriptcentral.com/jais`. JAIS is the **flagship journal of the Association for Information Systems (AIS)**; ISSN 1536-9323.
+- **Review:** **double blind** — authors are anonymous to reviewers and vice versa; avoid self-identifying language in the text and references.
+- **Reference style:** **APA 6th edition.**
+- **Review-copy formatting:** for the review version, **double-space** the document and use **Times New Roman 12 pt**.
+- **Body:** "text, tables, and figures only"; the body must "function as a standalone document"; links/multimedia go in appendices; complex materials in separate files.
+- **Fees / OA:** JAIS follows AIS **Green Open Access** (authors may self-archive with no embargo; articles free to AIS members); **no article processing charge** is stated. Copyright is transferred to AIS prior to publication.
 
-- Publisher / owner context: Association for Information Systems.
-- Submission route to re-check: AIS eLibrary / journal submission.
-- Signature vocabulary: sociotechnical system, IS theory, digital innovation, methodological pluralism, cumulative contribution.
-- Sibling boundary: MIS Quarterly, Information Systems Research, JMIS, and Management Science.
-- House-style aim: theory-forward IS research with method fit and clear community contribution.
-- Official URLs currently used by the pack:
-- https://aisel.aisnet.org/jais/
-- https://aisel.aisnet.org/jais/policies.html
+## Declare the right category and check the length budget
 
-## Stage-specific moves
+Self-select among JAIS's seven categories and confirm the budget (检索于 2026-06；以官网为准):
+- **Research Articles / Theory / Literature Reviews / Foundational Research** — over **~15,000 words** "are very likely to receive extra scrutiny… and may be returned to be shortened."
+- **Research Perspectives** — approximately **10,000 words.**
+- **Editorials** — **6,000–8,000 words** (typically invited).
+- **Policy and Impact** — **5,000–7,000 words.**
+- **Absolute ceiling:** "Manuscripts that exceed **65 pages including everything** will not be sent out for review."
 
-1. State the exact submission preflight question in one sentence.
-2. Identify which JAIS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jais-review-process` if the stage passes, or back to `jais-workflow` if it does not.
+> Confirm the abstract word limit on the live style guide — it is **待核实** from the public format page.
 
-## Checklist
-- [ ] The JAIS audience can see why the paper belongs in information systems theory, digital innovation, sociotechnical systems, methods, and cumulative IS scholarship.
-- [ ] The draft distinguishes JAIS from MIS Quarterly, Information Systems Research, JMIS.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for submission preflight names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+## Double-blind anonymization
+
+- [ ] No author names, affiliations, or identifying acknowledgments anywhere in the manuscript body
+- [ ] Self-citations worded neutrally ("prior research (Author, 2020)"), never "our earlier work"
+- [ ] Acknowledgments, funding, and grant numbers kept off the body (cover letter / separate page)
+- [ ] Identifying site/dataset names masked; file metadata scrubbed of author identity
+
+## Cover letter and data materials JAIS expects
+
+- [ ] **Cover letter** with authorship details, pre-submission history, prior publications, and acknowledgments
+- [ ] **Senior Editor nomination** and **two suggested unbiased reviewers** (non-binding, but route the paper well)
+- [ ] **SEM studies:** full **correlation or covariance matrix plus descriptives** included as an appendix
+- [ ] Dataset prepared to be **made available on request** to SEs/reviewers, anonymized; dataset reuse justified if applicable
+- [ ] AIS **Code of Research Conduct** adhered to; copyright-transfer expectation acknowledged
+
+## Format & files check
+
+- [ ] Category declared and within its length budget; ≤65pp absolute
+- [ ] Body is self-contained (text/tables/figures); appendices/multimedia in separate files
+- [ ] Double-spaced, Times New Roman 12 pt for the review copy; APA 6th references
+- [ ] First page elements (title, abstract, keywords) prepared per the style guide (counts 待核实)
+- [ ] Statement that the paper is not under review elsewhere; prior versions disclosed
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JAIS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Submitting through the wrong portal — JAIS uses ManuscriptCentral, not an INFORMS or Wiley system.
+- Declaring "Research Article" for a construct-development paper (route to the Theory category).
+- Omitting the required SEM correlation/covariance matrix and descriptives.
+- Leaving self-identifying citations or acknowledgments in a double-blind file.
+- Exceeding 65 pages or sitting well past ~15,000 words without a category justification.
 
 ## Output format
 
 ```text
-【Journal】Journal of the Association for Information Systems
-【Skill】jais-submission
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking submission preflight
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not MIS Quarterly, Information Systems Research
-【Source status】verified URL / 待核实 / not asserted
+【Portal/format】ManuscriptCentral; double-spaced TNR 12pt; APA 6th: ready
+【Category/length】declared category within budget; ≤65pp: yes/trim
+【Anonymity】no identifying info; neutral self-cites: yes/fix
+【Cover letter】SE nomination + two suggested reviewers + history: ready
+【SEM matrix + data】correlation/covariance + descriptives; anonymized data on request: ready/gaps
+【Body standalone】text/tables/figures only; appendices separate: yes/fix
+【Source status】verified URL / 待核实 (abstract limit)
 【Next skill】jais-review-process
 ```
 

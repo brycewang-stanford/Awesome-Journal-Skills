@@ -40,6 +40,17 @@ JAMS's sweet spot is the broad marketing-science question with **construct-based
 - Name the **moderators/boundary conditions** that make it a contingency story, not a main effect.
 - Identify the **JAMS audience segment** that would champion it — and the one that would desk-reject it as out of scope or incremental.
 
+## Stress-test the question before you commit months to it
+
+- **The reversal test.** Could the relationship plausibly go the other way, or flip under a condition? If both directions are defensible, you have a genuine empirical question; if the answer is obvious, the contribution is thin.
+- **The "imagine the result" test.** Sketch the headline finding as if it were already in. Does it change a marketing decision? If neither outcome would alter what a manager does, the question lacks managerial stake.
+- **The generalizability test.** Does the answer travel beyond the one dataset/context, or is it bound to a single firm's idiosyncrasy? JAMS wants insight that generalizes across the marketing-science domain.
+- **The feasibility test.** Can you actually measure the focal constructs validly and identify the effect with the data you can get? A great question you cannot execute is a dead end — check this with `jams-methods` early.
+
+## Anchor the question to a JAMS domain explicitly
+
+JAMS is broad but not boundless. Before committing, name which core domain your question sits in — marketing strategy and performance, B2B/industrial marketing, services, retailing/channels, sales-force management, branding, innovation/NPD, the marketing–finance interface, sustainability/stakeholder marketing, or consumer behavior — and confirm the question advances that domain's conversation. A question that cannot be filed under a JAMS domain is a fit risk; a question that sits squarely in one but ignores its recent literature reads as incremental. The strongest JAMS questions sit at the **intersection of two domains** (e.g., branding × marketing–finance, services × innovation), where a contingency or mechanism has not yet been worked out.
+
 ## Checklist
 
 - [ ] One-sentence question with construct, outcome, unit, and conditions

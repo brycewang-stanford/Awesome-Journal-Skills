@@ -41,6 +41,29 @@ Prepare a one-sentence answer to each predictable challenge:
 - *"You just changed the setting."* → What about the **mechanism, magnitude, or boundary** is genuinely different — not merely the industry/country/platform?
 - *"So what for practice?"* → Which decision changes, for whom, and how large is the gain in managerial units?
 
+## Diagnose which type of theoretical contribution you have
+
+Naming the *type* of advance sharpens the claim and tells the reviewer how to judge it:
+
+- **New mechanism** — you identify and test the process (mediator) carrying a known effect.
+- **New contingency** — you bound a known effect, showing when it strengthens, weakens, or reverses (a moderator).
+- **Reconciliation** — you resolve a contradiction between two literatures or two prior findings.
+- **New construct / measure** — you conceptualize and validate something the field could not previously measure.
+- **New magnitude / fact** — you credibly quantify, for the first time, a relationship the field had only assumed.
+
+A JAMS paper usually rests on one of these as its primary claim; trying to claim all five at once dilutes the contribution and invites the "overclaiming" critique.
+
+## Write the four contribution sentences
+
+Draft these explicitly and reuse them verbatim in the intro and discussion:
+
+1. *Theoretical:* "We contribute to [stream] by showing that [mechanism/contingency], which prior work could not [explain/predict]."
+2. *Managerial:* "For [decision maker] facing [decision], our results imply [action], worth roughly [magnitude in managerial units] under [condition]."
+3. *Boundary/guardrail:* "This holds when [moderator]; managers should not apply it when [reversal condition]."
+4. *Scope of the claim:* "We do not claim [overreach the design cannot support]."
+
+If sentence 1 or 2 will not write, the paper is not yet a JAMS paper; if sentence 4 is hard, the claim is probably overreaching.
+
 ## Checklist
 
 - [ ] One-sentence theoretical contribution (new, consequential understanding) written

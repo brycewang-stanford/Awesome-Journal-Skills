@@ -36,6 +36,14 @@ JMIS reviewers are method-literate across econometrics, psychometrics, analytica
 
 JMIS values managerial relevance: report **economic magnitude** (elasticities, marginal effects, dollar value, lift), not only significance. Translate the headline coefficient into what it means for a firm, platform, or decision.
 
+## Worked vignette: making robustness answer a threat (illustrative)
+
+A referee writes "the result is not robust." A weak reply adds ten specifications and reports they are "all significant." A JMIS-grade reply names the *threat each check defends against*: a placebo on a period before the platform change rules out a secular trend; an alternative control group rules out a coincident shock; a sensitivity analysis (e.g., Oster-style bounds on selection) shows the estimate survives plausible unobserved confounding; an alternative measure of the construct rules out operationalization artifacts. Robustness is not a quantity of regressions; it is a mapping from each surviving threat to the check that kills it.
+
+## Translate the headline into a managerial number
+
+Suppose the main coefficient implies the ranking redesign cut marginal-seller retention by 6 percentage points. State it that way, then carry it to the platform decision: at the observed seller base that is roughly N exits per quarter and a Y% variety reduction (illustrative). A JMIS reader wants the economic magnitude and its managerial reading, not just `p < 0.01`.
+
 ## Checklist
 
 - [ ] Empirical: identifying variation named; modern estimator where TWFE would bias; endogeneity addressed, not just controlled

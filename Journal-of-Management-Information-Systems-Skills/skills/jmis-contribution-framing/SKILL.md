@@ -33,6 +33,16 @@ The contribution must appear explicitly, and consistently, in two places: the **
 
 Return rows of `claim / evidence / blocker / next edit` so the manuscript can be patched directly. If the contribution depends on a fact that is volatile (a process rule, a fee), reopen `resources/official-source-map.md` and name the one unresolved item.
 
+## Worked vignette: narrowing the claim to fit the evidence (illustrative)
+
+A results section supports: "the recommender redesign reduced marginal-seller retention on this marketplace over 2023–24." The discussion, though, claims "personalized ranking harms platform ecosystems." That overclaim invites a reviewer to list every boundary the paper did not test (other platforms, other periods, buyer-side gains). The JMIS-grade contribution states the narrower true claim, names what it does *not* establish (welfare, generalization across platform types), and converts the boundary into a managerial nuance: *aggressive personalization trades short-run match quality against long-run seller supply, so the optimal intensity depends on how supply-constrained the platform is.* Narrower claim, stronger paper, clearer practice implication.
+
+## Referee pushback mapped to a framing fix
+
+- *"Contribution is unclear / incremental."* → Lead with the three-sentence didn't-know → now-know → why-it-matters and name the exact IS belief you move.
+- *"This is an economics finding, not an IS one."* → Make the IT artifact essential and the implication actionable for an IS decision-maker.
+- *"You overclaim."* → State the narrower claim, name ruled-out alternatives and boundaries, and align the intro and discussion to it.
+
 ## Checklist
 
 - [ ] A three-sentence contribution (didn't know → now know → why it matters) is drafted

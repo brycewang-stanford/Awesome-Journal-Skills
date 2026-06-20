@@ -56,6 +56,10 @@ ETP R&Rs frequently push on (1) whether the mechanism is *truly entrepreneurial*
 - **Theory-only revision** — re-securing the mechanism while leaving the practice mandate thin
 - **Faking infeasible analysis** instead of scoping honestly to limitations
 
+## Worked vignette (illustrative)
+
+R2 writes: "The mechanism could describe any organization; this isn't entrepreneurship theory." R3 writes: "Add a mediation analysis to prove the cognitive pathway." The editor's letter foregrounds R2 (the contribution premise) and treats R3 as secondary. A losing response argues with R2 ("we believe it is entrepreneurial") and bolts on R3's mediation. A winning ETP response: in the synthesis, lead by acknowledging R2 as the binding concern and summarize the rebuild — "we re-grounded the mechanism in the liability of newness, added a venture-formation boundary condition, and rewrote the practice section accordingly." Under R2.1, quote the new theory text and page. For R3, do the mediation *if defensible*; if the data cannot support a clean mediation test (a common entrepreneurship-data limit), say so transparently, offer a conditional-process robustness check as an alternative, and add the limit to future research — rather than reporting a fragile mediation that a methods reviewer will puncture next round.
+
 ## Output format
 
 ```text

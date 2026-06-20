@@ -1,70 +1,81 @@
 ---
 name: jais-rebuttal
-description: Use when working on rebuttal strategy for a Journal of the Association for Information Systems manuscript. Provides journal-specific decision checks and handoff criteria; it does not invent evidence or citations.
+description: Use after a Journal of the Association for Information Systems (JAIS) revision decision to plan the revision and draft the point-by-point response — prioritizing the Senior Editor's letter, answering theory- and method-specific concerns in their proper currency, updating the required data materials, and keeping the manuscript within its category budget and double-blind anonymity. Drafts the response after the manuscript is actually revised; interpret the decision first with jais-review-process.
 ---
 
-# Rebuttal Strategy (jais-rebuttal)
+# Rebuttal & Response Letter (jais-rebuttal)
 
 ## When to trigger
-- The manuscript is aimed at **Journal of the Association for Information Systems (JAIS)** and rebuttal strategy is the active bottleneck.
-- A coauthor asks whether the draft meets the journal's information systems theory, digital innovation, sociotechnical systems, methods, and cumulative IS scholarship standard.
-- The paper risks being confused with nearby venues: MIS Quarterly, Information Systems Research, JMIS, and Management Science.
-- The team needs a source-backed handoff rather than generic journal advice.
 
-## Core decision map
+- You received a major or minor revision (or a reject-and-resubmit) from JAIS
+- You have read the decision with `jais-review-process` and revised the manuscript
+- You need a point-by-point response that the Senior Editor and reviewers can audit
+- Reviewers conflict and you must decide which way to revise
 
-| Signal | What to inspect | Pass condition |
-|--------|-----------------|----------------|
-| sociotechnical system is central | Make the sociotechnical system assumption, measurement, and interpretation explicit | Evidence block 1 names the data, identifying variation, or conceptual logic |
-| IS theory is central | Make the IS theory assumption, measurement, and interpretation explicit | Evidence block 2 names the data, identifying variation, or conceptual logic |
-| digital innovation is central | Make the digital innovation assumption, measurement, and interpretation explicit | Evidence block 3 names the data, identifying variation, or conceptual logic |
-| methodological pluralism is central | Make the methodological pluralism assumption, measurement, and interpretation explicit | Evidence block 4 names the data, identifying variation, or conceptual logic |
-| cumulative contribution is central | Make the cumulative contribution assumption, measurement, and interpretation explicit | Evidence block 5 names the data, identifying variation, or conceptual logic |
+## Revise first, then write the response
 
-## JAIS fit notes
+Do not draft the response letter before the manuscript is actually revised. The response is a map to real changes, not a list of promises. For each point, make the change in the manuscript first; the letter then points to where and how. This matters more at JAIS because the process is **developmental** — the SE is engaging with the paper's trajectory, and an honest, concrete response shows you used the developmental opportunity rather than deflecting it.
 
-- Publisher / owner context: Association for Information Systems.
-- Submission route to re-check: AIS eLibrary / journal submission.
-- Signature vocabulary: sociotechnical system, IS theory, digital innovation, methodological pluralism, cumulative contribution.
-- Sibling boundary: MIS Quarterly, Information Systems Research, JMIS, and Management Science.
-- House-style aim: theory-forward IS research with method fit and clear community contribution.
-- Official URLs currently used by the pack:
-- https://aisel.aisnet.org/jais/
-- https://aisel.aisnet.org/jais/policies.html
+## Anchor the revision in the Senior Editor's letter
 
-## Stage-specific moves
+The **Senior Editor owns the decision**, so the SE's letter sets priorities. Build a triage table: SE-elevated concerns first, then AE and reviewer points, flagging where reviewers conflict. Resolve conflicts in the direction the SE signaled, and say so explicitly when you do. A revision that satisfies every reviewer but misses the SE's central concern fails; a revision that nails the SE's priorities and addresses reviewers proportionately succeeds.
 
-1. State the exact rebuttal strategy question in one sentence.
-2. Identify which JAIS audience segment would care and which would desk-reject the paper.
-3. Separate evidence already in the draft from evidence that still needs analysis, coding, or literature review.
-4. Convert each concern into an auditable action with owner, file, and expected output.
-5. End with a handoff to `jais-rebuttal` if the stage passes, or back to `jais-workflow` if it does not.
+## Answer concerns in the currency of your tradition
+
+JAIS reviewers span paradigms, so a persuasive response speaks the right dialect of rigor.
+
+| Concern raised | A persuasive JAIS response… |
+|----------------|------------------------------|
+| **Theory contribution unclear / incremental** | sharpens the new construct or framework, restates the contribution sentence, and shows what the field now knows that it did not |
+| **Behavioral** validity / common-method bias | adds procedural evidence, a marker/method-factor test, or shows interactions survive — not just a Harman test |
+| **Economics** identification | adds placebo/event-study evidence, alternative specifications, sensitivity to the key assumption |
+| **Design science** evaluation | adds baselines, ablations, or a field/expert evaluation tying results to design propositions |
+| **Qualitative** trustworthiness | strengthens the data structure, audit trail, and representative evidence |
+
+Note the first row: at JAIS, a "thin contribution" challenge is answered with *theory*, not with more robustness checks. Reviewers here will not accept additional analyses as a substitute for a sharpened theoretical payoff.
+
+## Update the required data materials
+
+If the revision changes the empirical core, refresh the materials JAIS requires: the **correlation/covariance matrix plus descriptives** for SEM work, and the anonymized dataset that must be **available on request** to SEs/reviewers. Note in the letter what you updated.
+
+## Keep length, anonymity, and category in check
+
+Revisions grow papers, but JAIS still flags manuscripts over **~15,000 words** and will not review beyond **65 pages**. Plan offsetting cuts (tighter framing, consolidated exhibits) as part of the revision. Keep the manuscript **double-blind** — neutral self-citations, no identifying info — while it is still under review, and confirm the revised paper still fits its declared category.
+
+## Write a clean, auditable response
+
+- Quote each comment, then give your response and point to the changed page/section.
+- Be specific and gracious; disagree only with evidence and a clear rationale, and only when the SE has not already settled the point.
+- Summarize the major changes at the top so the SE can see the arc quickly.
+- Keep a developmental, collaborative tone that matches the journal's culture.
 
 ## Checklist
-- [ ] The JAIS audience can see why the paper belongs in information systems theory, digital innovation, sociotechnical systems, methods, and cumulative IS scholarship.
-- [ ] The draft distinguishes JAIS from MIS Quarterly, Information Systems Research, JMIS.
-- [ ] Claims using current process facts are backed by `resources/official-source-map.md` or marked 待核实.
-- [ ] The role-specific deliverable for rebuttal strategy names the next decision, not just prose edits.
-- [ ] Tables, exhibits, appendices, or review material support the main claim without burying it.
-- [ ] Construct definitions, boundary conditions, and theory mechanisms are aligned.
-- [ ] Methods are justified by the phenomenon, not by convenience or fashion.
+
+- [ ] Manuscript revised before the letter was drafted
+- [ ] SE-elevated points addressed first; reviewer conflicts resolved per the SE's signal
+- [ ] A "thin contribution" challenge answered with sharpened theory, not just extra analysis
+- [ ] Tradition-specific rigor concern answered in its proper currency
+- [ ] Required data materials (matrix/descriptives, anonymized dataset) updated and referenced
+- [ ] Revised manuscript within its category budget and ≤65pp; double-blind anonymity preserved
+- [ ] Every comment quoted, answered, and cross-referenced to a change
 
 ## Anti-patterns
-- Submitting a paper that is merely adjacent to JAIS without the journal's audience and mechanism.
-- Relying on generic phrasing after the clone audit would strip out the journal name.
-- Listing robustness checks without explaining which identifying threat each one addresses.
-- Treating official process facts as permanent when the source map marks them as volatile.
-- Inventing exemplar papers, editor names, fees, or word limits instead of marking uncertainty.
+
+- Drafting the response before making the changes.
+- Treating all reviewers as equal and ignoring the SE's prioritization.
+- Answering a theory-contribution concern with more robustness tests instead of better theory.
+- Letting the revision balloon past the length budget by bolting on appendices.
+- Breaking anonymity with "in our revised work" phrasing while still under double-blind review.
 
 ## Output format
 
 ```text
-【Journal】Journal of the Association for Information Systems
-【Skill】jais-rebuttal
-【Verdict】pass / revise / reroute
-【Binding issue】one concrete issue blocking rebuttal strategy
-【Evidence needed】data, model, literature, exhibit, or policy source
-【Sibling boundary】why not MIS Quarterly, Information Systems Research
-【Source status】verified URL / 待核实 / not asserted
-【Next skill】jais-rebuttal
+【Journal】Journal of the Association for Information Systems (JAIS)
+【Decision being answered】major / minor / reject-and-resubmit
+【SE-first triage】ranked changes made
+【Contribution response】theory sharpened (not substituted by analysis): yes/fix
+【Rigor responses】behavioral / economics / design science / qualitative evidence added
+【Data materials updated】matrix/descriptives + anonymized dataset: yes
+【Length & anonymity】within budget; double-blind preserved: yes
+【Response letter】point-by-point, cross-referenced: ready
 ```

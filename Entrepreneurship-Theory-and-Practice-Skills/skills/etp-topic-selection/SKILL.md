@@ -51,6 +51,10 @@ Entrepreneurship-central phenomena ETP publishes: new-venture creation and the *
 - **Outlet drift**: a strategy or finance paper sent to ETP because a coauthor likes the impact factor
 - **Trend-chasing**: a topic chosen because "AI startups / crowdfunding" is hot, with no entrepreneurial mechanism
 
+## Worked vignette (illustrative)
+
+A team has Crunchbase data showing that startups with a CFO hire earlier raise larger Series A rounds. As stated, this is a corporate-finance result — apply the substitution test: "firms with a CFO raise more capital" is true of established firms too, so the question is not yet entrepreneurial. The fix is to find the venture primitive: reframe around *legitimacy under the liability of newness* — an early CFO is a costly signal that a young, unproven venture is investment-ready, and the conversation becomes signaling/legitimacy in entrepreneurial finance (not generic capital structure). Now the substitution breaks (a 30-year-old firm needs no such legitimacy signal), the named conversation is concrete, and the practice implication is sharp: founders facing investor skepticism can use a senior-finance hire as a legitimacy signal, but only before the liability of newness fades. The same data, re-questioned, becomes an ETP paper.
+
 ## Output format
 
 ```text

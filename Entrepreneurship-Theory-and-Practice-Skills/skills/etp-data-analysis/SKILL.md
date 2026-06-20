@@ -59,6 +59,10 @@ ETP's dual mandate reaches the results: translate coefficients into the venture-
 - **Harman's single factor** offered as if it settled common-method bias
 - **Code counts** presented as if they were a process theory
 
+## Worked vignette (illustrative)
+
+A team wants to test whether accelerator participation raises venture survival, using cohorts admitted across several years and a binary "survived to year 3" outcome. The first draft runs OLS on the 0/1 outcome with year and region controls. Three ETP-specific upgrades: (1) the outcome is fundamentally *time-to-event* — recast as a discrete-time hazard or Cox model with competing risks (acquired vs. shut down vs. still operating), recovering the timing and censoring OLS discards; (2) accelerators *select* promising ventures, so survival differences may be selection, not treatment — exploit a plausibly exogenous admission threshold (a scoring cutoff supports a regression-discontinuity or fuzzy-RD design) rather than controls alone; (3) because cohorts enter in staggered years and the program changed over time, a naive two-way fixed-effects "treatment" coefficient can be biased — use a modern staggered-DID estimator with a pre-trend check. Finally, report the hazard ratio with a CI and translate it: "admitted ventures fail roughly 25% slower over three years," a magnitude an accelerator director can act on.
+
 ## Output format
 
 ```text

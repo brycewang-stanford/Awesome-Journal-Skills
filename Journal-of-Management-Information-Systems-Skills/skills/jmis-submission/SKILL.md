@@ -44,6 +44,14 @@ description: Use when running the final pre-submission preflight for a Journal o
 - [ ] Email to **jmis@fdu.edu**, subject **"JMIS Submission"**
 - [ ] Confirmed the paper is not under review elsewhere
 
+## Why the intake route is the easiest thing to get wrong
+
+Because JMIS is published by Taylor & Francis, authors reasonably assume the submission flows through the T&F/ScholarOne portal used by most of that publisher's journals. It does not: JMIS keeps an **EIC-managed email intake** (jmis@fdu.edu). Sending the paper into a portal, or into the generic T&F system, can route it nowhere or to the wrong desk. Confirm the current intake address on jmis-web.org before sending, because this is exactly the kind of process detail that can change. (检索于 2026-06；以官网为准.)
+
+## A two-file discipline for double-blind
+
+Keep the package as two deliberately separated parts. (1) The **anonymized manuscript** — no names, affiliations, emails, funding IDs, acknowledgments, or revealing self-citations, and with document metadata stripped (a leftover author name in PDF/Word properties defeats blinding). (2) The **cover letter**, sent separately, carrying the identifying information (affiliations, contact, brief bios) the anonymized file must not. Survey instruments and online appendixes ride as additional **anonymized** attachments. Treat anything that could de-anonymize the authors in the manuscript file as a defect to fix before sending.
+
 ## Anti-patterns
 
 - Submitting through a Taylor & Francis / ScholarOne portal — JMIS intake is the EIC's email
