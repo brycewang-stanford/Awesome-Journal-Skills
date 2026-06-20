@@ -14,7 +14,13 @@ description: Use when planning around the Journal of Business & Economic Statist
 
 ## How JBES review is structured
 
-JBES is run by a **rotating panel of Co-Editors / Joint Editors with no single Editor-in-Chief**. The confirmed 2022–2024 term was held by **Atsushi Inoue (Vanderbilt) and Ivan Canay (Northwestern)**; the current Joint Editors are reported as **Yingying Fan (USC), Michael Kolesár (Princeton), and Dacheng Xiu (Chicago)** — 待核实, since this comes from secondary snippets rather than a directly fetched official board page. Practical consequence: unlike a single-Editor-in-Chief journal, **field fit and cover-letter targeting** matter, because a handling Co-Editor whose expertise matches your method is more likely to evaluate and route it well. The submission platform, the peer-review blinding model (single- vs double-anonymized), and review timelines are **待核实** — the official instructions page was inaccessible — so do not assert them; verify on the live page.
+JBES is run by a **rotating panel of Joint Editors with no single Editor-in-Chief**. The confirmed
+2022-2024 term was held by **Atsushi Inoue** and **Ivan Canay**; current Joint Editors are **Yingying
+Fan**, **Michael Kolesár**, and **Dacheng Xiu** per the official T&F search snippet. Practical
+consequence: unlike a single-Editor-in-Chief journal, **field fit and cover-letter targeting** matter,
+because a handling Joint Editor whose expertise matches your method is more likely to evaluate and route
+it well. Submission platform, review-anonymity model, and timelines are live-page checks; do not assert
+them from this pack alone.
 
 ## What method referees scrutinize
 
@@ -22,13 +28,16 @@ Because JBES is a **methods-with-empirics** journal owned by the ASA, referees a
 
 ## The discussion-paper tradition
 
-JBES has a long-standing association with **invited discussion papers and published comments/rejoinders** (a hallmark shared with leading statistics journals such as JASA). Treat this as a strong convention rather than a verbatim-sourced rule (待核实): a sufficiently novel and broadly relevant method may be handled as a discussion paper, which shapes how the contribution should be pitched.
+JBES has a long-standing association with **invited discussion papers and published comments/rejoinders**
+(a hallmark shared with leading statistics journals such as JASA). Treat this as a strong convention
+rather than a submission guarantee: a sufficiently novel and broadly relevant method may be handled as a
+discussion paper, which shapes how the contribution should be pitched.
 
 ## Checklist
 
 - [ ] Cover letter targets the method to a plausible handling Co-Editor's expertise
 - [ ] The three referee axes (validity / relevance / reproducibility) each addressed
-- [ ] No unverified claims about platform, blinding, or timeline in your planning (待核实)
+- [ ] No claims about platform, review-anonymity model, or timeline without checking live T&F instructions
 - [ ] Considered whether the paper fits the discussion-paper format
 - [ ] ASA editorial/ethics norms (not AEA Data Editor norms) assumed
 
@@ -54,7 +63,7 @@ Run this as a concrete capability pass. First lock the statistical estimand, ide
 ```
 【Editor model】multi-Co-Editor; targeted handling editor: ...
 【Three axes】validity / relevance / reproducibility addressed? [Y/N each]
-【Unverified items】platform / blinding / timeline flagged as 待核实? [Y/N]
+【Live-page items】platform / review model / timeline checked if relevant? [Y/N]
 【Discussion paper?】plausible fit considered? [Y/N]
 【Next step】jbes-submission
 ```

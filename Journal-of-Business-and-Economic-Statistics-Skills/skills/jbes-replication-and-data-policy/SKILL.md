@@ -14,7 +14,7 @@ description: Use when assembling the reproducible data-and-code supplement for a
 
 ## Why this matters at JBES
 
-JBES is owned by the **American Statistical Association** and published by Taylor & Francis, so it follows **ASA's data-sharing and reproducibility policy** rather than the AEA Data Editor regime. Under that policy, the ASA **strongly encourages** authors to include **data sets and code as supplementary material** that demonstrate the article's results, to make the underlying data **publicly available**, and to include a **data availability statement**; individual ASA journal editors may set their own (possibly stricter) rules, and authors may request a **waiver** for confidentiality/security reasons. Important: JBES does **NOT** use the JAE Data Archive — that archive belongs to the *Journal of Applied Econometrics*, a separate Wiley journal. Whether JBES **mandates** code+data at acceptance with a dedicated reproducibility check (as JASA does) versus merely encouraging it could not be confirmed and is **待核实** — verify on the live instructions page.
+JBES is owned by the **American Statistical Association** and published by Taylor & Francis, so it follows **ASA's data-sharing and reproducibility policy** rather than the AEA Data Editor regime. Under that policy, the ASA **strongly encourages** authors to include **data sets and code as supplementary material** that demonstrate the article's results, to make the underlying data **publicly available**, and to include a **data availability statement**; individual ASA journal editors may set their own stricter rules, and authors may request a **waiver** for confidentiality/security reasons. Important: JBES does **NOT** use the JAE Data Archive — that archive belongs to the *Journal of Applied Econometrics*, a separate Wiley journal. Treat any stricter JBES-specific enforcement as a live T&F instructions check.
 
 ## Supplement anatomy (methods paper)
 
@@ -48,7 +48,7 @@ supplement/
 - [ ] Restricted/proprietary data have documented access steps + a runnable proxy
 - [ ] No hand-edited derived data; absolute paths removed
 - [ ] Output regenerated and checked against the manuscript numbers
-- [ ] Live JBES enforcement (mandatory vs encouraged) verified (待核实)
+- [ ] Live JBES-specific enforcement checked if submission-ready advice is being given
 
 ## Anti-patterns
 
@@ -56,7 +56,7 @@ supplement/
 - Hard-coded local paths that break on another machine
 - Missing seeds, so Monte Carlo numbers cannot be reproduced
 - Assuming the JAE Data Archive applies (it does not — that is a different journal)
-- Asserting JBES mandates deposit without checking (status is 待核实)
+- Asserting JBES mandates deposit beyond ASA policy without checking the live T&F instructions
 
 ## Worked vignette: building a supplement for a Bayesian VAR forecasting paper
 
@@ -70,7 +70,10 @@ A hypothetical JBES paper proposes a hierarchical-shrinkage Bayesian VAR and for
 | "Your scripts assume your machine." | Remove absolute paths; pin package versions via `renv.lock`/`requirements.txt` |
 | "Where is the data availability statement?" | Draft it per ASA expectation; for restricted data give access steps plus a runnable proxy |
 
-Calibration anchor (hedged): JBES follows **ASA data-sharing and reproducibility policy** under Taylor & Francis — *not* the AEA Data Editor regime and *not* the JAE Data Archive (a different journal). ASA strongly encourages a code-and-data supplement and a data availability statement; whether JBES *mandates* deposit with a dedicated reproducibility check at acceptance is **待核实** — confirm against the journal's current author guidelines.
+Calibration anchor (hedged): JBES follows **ASA data-sharing and reproducibility policy** under Taylor &
+Francis — *not* the AEA Data Editor regime and *not* the JAE Data Archive (a different journal). ASA
+strongly encourages a code-and-data supplement and a data availability statement; check live T&F
+instructions before asserting stricter JBES-specific enforcement.
 
 ## Output format
 
@@ -80,6 +83,6 @@ Calibration anchor (hedged): JBES follows **ASA data-sharing and reproducibility
 【Seeds】set + reported? [Y/N]
 【Data availability statement】drafted? [Y/N]
 【Restricted data】access steps + runnable proxy? [Y/N / NA]
-【Policy check】live JBES enforcement verified? [Y/N — 待核实]
+【Policy check】live JBES-specific enforcement checked if needed? [Y/N]
 【Next step】jbes-review-process
 ```

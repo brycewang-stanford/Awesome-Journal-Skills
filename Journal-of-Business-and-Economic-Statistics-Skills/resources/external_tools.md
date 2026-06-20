@@ -59,7 +59,7 @@ rules and a waiver path exists for confidential data. Practical tooling:
 - Containerize heavy simulations where helpful (`Docker`); archive on a stable repository
   (Zenodo, OSF, or the journal's supplementary-material system). **Note: JBES does NOT use the
   JAE Data Archive (that belongs to the Journal of Applied Econometrics, a separate Wiley
-  journal); 待核实 whether code+data are mandatory at acceptance vs encouraged.**
+  journal); check live T&F instructions before asserting stricter JBES-specific enforcement.**
 
 ## 5. Tables, figures & typesetting (methods papers)
 - Simulation tables: `kableExtra`/`modelsummary` (R), `stargazer`, `esttab`/`estout` (Stata),
@@ -67,16 +67,17 @@ rules and a waiver path exists for confidential data. Practical tooling:
 - Figures: size-power curves, coverage plots, empirical-vs-nominal QQ plots, sampling
   distributions; vector output (PDF/EPS); avoid chartjunk
 - Typesetting: LaTeX (TeX Live / MacTeX / Overleaf); confirm current T&F/JBES style on the
-  official instructions page (**待核实** — page Cloudflare-blocked this session)
+  live author-instruction page before filing
 
 ## 6. References & process
-- Reference managers: Zotero, BibTeX/BibLaTeX — set to the journal's required style (**待核实**)
-- Process specifics (submission platform, fee, length limit, review model) are **待核实** —
-  confirm on the live JBES instructions-for-authors page before relying on them
+- Reference managers: Zotero, BibTeX/BibLaTeX — set to the journal's required style after the live
+  T&F check
+- Process specifics (submission platform, fee, length limit, review model) are live-page preflight
+  items; confirm on the JBES instructions-for-authors page before relying on them
 
 ## 7. Cautions
-1. **Verify volatile specifics** (editors, fee, length, review model, deposit rules, portal) on
-   the official JBES page — several were Cloudflare-blocked and remain **待核实**.
+1. **Verify volatile specifics** (fee, length, review model, deposit rules, portal) on the official
+   JBES page before filing.
 2. **Match the asymptotics to the DGP** — report Monte Carlo standard errors, not just point
    rejection rates; show where the method breaks (small n, heavy tails, dependence).
 3. **An empirical application is part of scope** — a pure derivation with no application is

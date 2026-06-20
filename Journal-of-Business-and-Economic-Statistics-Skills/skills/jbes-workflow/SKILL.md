@@ -9,7 +9,7 @@ description: Use when deciding which jbes-* sub-skill to invoke next, or when se
 
 This is the router. It does not replace any specialized skill. It tells you **which jbes-* skill to use at the current stage** of a manuscript aimed at the *Journal of Business & Economic Statistics*.
 
-Default assumption: unless the user says otherwise, treat the target as JBES — a methodological econometrics-and-statistics journal (established 1983) published by **Taylor & Francis on behalf of the American Statistical Association (ASA)**. JBES's defining demand is **methods-with-empirics**: a new or improved statistical/econometric method (machine-learning and data-science adaptations and computational improvements explicitly welcomed) that has **clear empirical relevance** and usually a **substantive empirical application**. Pure theory without empirical motivation, or pure applications without methodological novelty, are off-scope. The journal runs on a **rotating panel of Co-Editors / Joint Editors with no single Editor-in-Chief** (Inoue & Canay held the 2022–2024 term; current Joint Editors reported as Fan, Kolesár & Xiu — 待核实). Submission platform, fee, length limit, and review model are 待核实 (the official instructions page was inaccessible); verify before relying on them.
+Default assumption: unless the user says otherwise, treat the target as JBES — a methodological econometrics-and-statistics journal published by **Taylor & Francis on behalf of the American Statistical Association (ASA)**. JBES's defining demand is **methods-with-empirics**: a new or improved statistical/econometric method (machine-learning and data-science adaptations and computational improvements explicitly welcomed) that has **clear empirical relevance** and usually a **substantive empirical application**. Pure theory without empirical motivation, or pure applications without methodological novelty, are off-scope. The journal runs on a **rotating Joint Editor model with no single Editor-in-Chief**; current Joint Editors are **Yingying Fan**, **Michael Kolesár**, and **Dacheng Xiu** per the official T&F search snippet. Submission-only details still require opening the live T&F author instructions.
 
 ## When to trigger
 
@@ -65,11 +65,13 @@ A hypothetical JBES manuscript — a dependence-robust forecast-comparison test 
 【Symptom】the current bottleneck in one phrase
 【Route to】the single jbes-* skill that owns it
 【Scope gate】novelty AND empirical relevance present? [Y/N] — if N, topic-selection first
-【Verify-later】any 待核实 fact flagged? [Y/N]
+【Live-T&F preflight needed】submission-only fact could change route? [Y/N]
 【Next】the skill to invoke now
 ```
 
-Calibration anchor (hedged): the spine is **methods-with-empirics** — a method with no application is desk-rejected, and exhibits wait until the asymptotics settle. Editorial specifics are **待核实**.
+Calibration anchor (hedged): the spine is **methods-with-empirics** — a method with no application is
+desk-rejected, and exhibits wait until the asymptotics settle. Submission-specific rules are live-page
+preflight items.
 
 ## Anti-patterns
 

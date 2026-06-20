@@ -63,7 +63,9 @@ A hypothetical JBES paper reports a Monte Carlo size-power table for a new break
 | "No baseline, so 'improvement' is unquantified." | Place the incumbent in the same exhibit under identical DGPs |
 | "The note does not let me interpret the table alone." | State DGP/data, n, replications, level, method, and units in every note |
 
-Calibration anchor (hedged): JBES exhibits serve two audiences — a statistician reading Monte Carlo properties and an applied economist reading the payoff — so every table must be legible to both. Exact format specifics are **待核实**.
+Calibration anchor (hedged): JBES exhibits serve two audiences — a statistician reading Monte Carlo
+properties and an applied economist reading the payoff — so every table must be legible to both. Exact
+format specifics are live T&F preflight items.
 
 ## Exhibit pass for Journal of Business & Economic Statistics
 

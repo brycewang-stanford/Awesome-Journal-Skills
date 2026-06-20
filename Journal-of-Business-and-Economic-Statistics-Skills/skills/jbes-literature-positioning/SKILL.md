@@ -53,7 +53,9 @@ A hypothetical JBES paper adapts double/debiased machine learning to estimate a 
 | "A chronological survey, not a delta." | Replace the timeline with a per-incumbent statement of assumptions/rates/robustness improved |
 | "Vague claim that the method performs better." | State the dimension and magnitude of improvement against a named incumbent |
 
-Calibration anchor (hedged): JBES welcomes machine-learning and data-science adaptations, so your nearest competitor often sits **outside** econometrics — missing the identical idea in statistics/ML invites the sharpest rejection. The precise current scope language is **待核实**.
+Calibration anchor (hedged): JBES welcomes machine-learning and data-science adaptations, so your
+nearest competitor often sits **outside** econometrics — missing the identical idea in statistics/ML
+invites the sharpest rejection.
 
 ## Output format
 

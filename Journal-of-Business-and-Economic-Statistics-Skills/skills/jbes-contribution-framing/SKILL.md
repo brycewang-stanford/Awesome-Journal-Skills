@@ -54,7 +54,10 @@ A hypothetical JBES paper builds a conformal prediction interval for synthetic-c
 | "Why JBES not a statistics theory journal?" | Attach the empirical task the method now enables in micro/macro/finance |
 | "You claim generality the proof does not deliver." | Scope the claim to the conditions actually proved and simulated |
 
-Calibration anchor (hedged): a JBES contribution is the **method-plus-application arc**, not either pole — Theory-and-Methods-style work still owes a substantive application and Applications-and-Case-Studies-style work still owes a methodological increment. The exact ASA section taxonomy JBES uses is **待核实**; confirm against the journal's current author guidelines.
+Calibration anchor (hedged): a JBES contribution is the **method-plus-application arc**, not either pole
+— theory-and-methods-style work still owes a substantive application and applications-and-case-studies
+work still owes a methodological increment. Confirm any current ASA/T&F section taxonomy against the
+live author guidelines.
 
 ## Output format
 

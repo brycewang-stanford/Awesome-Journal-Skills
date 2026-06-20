@@ -12,20 +12,24 @@ description: Use when running the final pre-submission preflight for the Journal
 - Confirming the data/code supplement and declarations are ready
 - Drafting the cover letter for a multi-Co-Editor journal
 
-## Process facts (verified vs. 待核实)
+## Process facts (verified 2026-06-20, with live-T&F preflight required)
 
-- JBES is published by **Taylor & Francis on behalf of the American Statistical Association (ASA)**; it is offered as **Open Select** (hybrid open access — an optional article publishing charge applies only if you choose OA). Source: tandfonline.com/journals/ubes20.
-- The **submission platform** (ScholarOne / Editorial Manager / a T&F portal), any **submission fee**, the **manuscript length/word limit**, the **abstract word limit**, the **peer-review blinding model**, and the **required formatting/citation style** could **not** be confirmed (the official instructions page was Cloudflare-blocked). All are **待核实** — confirm on the live JBES instructions-for-authors page before submitting. Do not assume an APC figure; a third-party ~US$2,500 number was not verified.
-- Editors are a **rotating panel of Co-Editors / Joint Editors** (no single Editor-in-Chief); target the cover letter accordingly (see jbes-review-process).
+- JBES is published by **Taylor & Francis on behalf of the American Statistical Association (ASA)**; it
+  is offered as **Open Select** / hybrid open access.
+- Current Joint Editors are **Yingying Fan**, **Michael Kolesár**, and **Dacheng Xiu** per the official
+  T&F search snippet; target the cover letter accordingly (see jbes-review-process).
+- The live T&F author-instruction page must be opened before declaring a submission ready. This pack
+  does not hard-code platform, fees, manuscript length, abstract limit, review anonymity model, or
+  required citation style from indirect evidence.
 
 ## Preflight checklist
 
 ### Files & format
-- [ ] Manuscript prepared per the **live** JBES instructions (format/length/abstract limit — 待核实, verify on the page)
+- [ ] Manuscript prepared per the **live** JBES instructions (format, length, abstract, and file rules)
 - [ ] Theorems precise and self-contained; heavy proofs in an appendix
 - [ ] Tables/figures numbered, called out in order, with self-contained notes (see jbes-tables-figures)
-- [ ] References in the journal's required style (待核实)
-- [ ] If the review is anonymized (待核实), the manuscript and PDF metadata are anonymized
+- [ ] References in the journal's required style after live T&F check
+- [ ] If the live page requires anonymization, the manuscript and PDF metadata are anonymized
 
 ### Supplement (ASA expectation)
 - [ ] Data-and-code supplement assembled (see jbes-replication-and-data-policy)
@@ -44,7 +48,7 @@ description: Use when running the final pre-submission preflight for the Journal
 
 ## Anti-patterns
 
-- Asserting the platform, fee, length limit, or blinding model without checking the live page (all 待核实)
+- Asserting the platform, fee, length limit, or review-anonymity model without checking the live page
 - Submitting strong theory with no empirical application (off-scope at a methods-with-empirics journal)
 - Omitting the data/code supplement that ASA policy expects
 - A generic cover letter that ignores the multi-Co-Editor model
@@ -59,9 +63,11 @@ description: Use when running the final pre-submission preflight for the Journal
 | An off-the-shelf method on new data, no methodological increment | Reframe around the novel adaptation, or re-route to an applied economics journal |
 | Data/code supplement missing | Assemble it per ASA expectation before pressing submit (see jbes-replication-and-data-policy) |
 | Generic cover letter to a single "Editor" | Target a plausible handling Co-Editor; there is no single Editor-in-Chief |
-| APC budgeted from an unverified figure | Treat the charge as Open Select/optional and confirm; do not assume a number |
+| APC budgeted from a non-official figure | Treat the charge as Open Select/optional and confirm; do not assume a number |
 
-Calibration anchor (hedged): JBES is published by **Taylor & Francis on behalf of the ASA** as Open Select (hybrid OA). The submission platform, fee, length and abstract limits, blinding model, and citation style are **待核实** — the official instructions page was Cloudflare-blocked; confirm each against the journal's current author guidelines before declaring the package ready.
+Calibration anchor (hedged): JBES is published by **Taylor & Francis on behalf of the ASA** as Open
+Select (hybrid OA). Treat platform, fees, length and abstract limits, review-anonymity model, and
+citation style as live-page preflight items; do not infer them from other T&F journals.
 
 ## Submission pass for Journal of Business & Economic Statistics
 
@@ -70,12 +76,13 @@ Run this as a concrete capability pass. First lock the statistical estimand, ide
 - **Primary move:** Treat current official instructions as volatile; verify portal, file format, anonymity, length, data, ethics, and disclosure requirements before saying ready.
 - **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
 - **Sibling comparison:** compare against Journal of Econometrics for theory-heavy methods, Econometric Theory for proof-first work, Quantitative Economics for economics-theory methods; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
-- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+- **Verification floor:** before submission-ready advice, open the live T&F instructions and name the one
+  submission-only fact that could change the recommendation.
 
 ## Output format
 
 ```
-【Live facts checked】platform / fee / length / abstract / blinding / style verified? [Y/N — 待核实]
+【Live T&F facts checked】platform / fee / length / abstract / review model / style? [Y/N]
 【Manuscript】theorems + exhibits + references ready? [Y/N]
 【Supplement】code+data + data availability statement + seeds? [Y/N]
 【Declarations】COI / funding / not-under-review / restricted-data? [Y/N]

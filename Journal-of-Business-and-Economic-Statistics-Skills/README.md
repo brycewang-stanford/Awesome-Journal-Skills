@@ -15,7 +15,10 @@ Agent skill stack for manuscripts targeted at the **Journal of Business & Econom
 
 This repository is opinionated. It is **not** a generic econometrics-writing toolbox. It is a **JBES-specific** stack built around the journal's defining demand — **methods with empirics**: a new or improved statistical/econometric method (machine-learning and data-science adaptations and computational improvements explicitly welcomed) that carries **clear empirical relevance** and usually a **substantive empirical application**. Pure theory without empirical motivation, or pure applications without methodological novelty, are off-scope.
 
-> **Verify volatile specifics on the official page.** The JBES instructions-for-authors page was inaccessible (Cloudflare-blocked) when this pack was built, so the submission platform, fee, length/abstract limits, peer-review model, and exact reproducibility rules are marked **待核实 (to be verified)** throughout. Confirm them on the live page before relying on them. See [`resources/official-source-map.md`](resources/official-source-map.md).
+> **Check live T&F instructions before filing.** The source map was refreshed on 2026-06-20. The pack
+> hard-codes stable official facts (scope, ASA ownership, current Joint Editors, and ASA reproducibility
+> expectations) but does **not** hard-code submission platform, fee, length/abstract limits, review model,
+> or formatting rules that require the live T&F author-instruction page.
 
 ---
 
@@ -111,13 +114,13 @@ jbes-rebuttal
 | `jbes-writing-style` | Method-first, application-anchored prose and theorem statements |
 | `jbes-replication-and-data-policy` | Reproducible code+data supplement under ASA policy |
 | `jbes-review-process` | The multi-Co-Editor path and discussion-paper tradition |
-| `jbes-submission` | Preflight for the (待核实) submission portal |
+| `jbes-submission` | Preflight for live T&F submission facts and ASA supplement readiness |
 | `jbes-rebuttal` | R&R response-letter strategy for a methods paper |
 
 ### Resources
 
 - [`resources/external_tools.md`](resources/external_tools.md) — simulation engines, method-family libraries (Stata / R / Python), application data (FRED / CRSP / IPUMS), and reproducibility tooling
-- [`resources/official-source-map.md`](resources/official-source-map.md) — every used fact mapped to an official URL (accessed 2026-06-01), with 待核实 items flagged
+- [`resources/official-source-map.md`](resources/official-source-map.md) — current official-source map, refreshed 2026-06-20, with submission-only facts intentionally not encoded until the live T&F page is opened
 
 ---
 
@@ -136,7 +139,7 @@ jbes-rebuttal
 
 - It does not write a submittable manuscript for you
 - It does not simulate any specific Co-Editor's or referee's taste
-- It does not assert volatile metadata (current editors, exact fee, platform, deposit rules) — these are 待核实; verify on the official page
+- It does not assert submission-only metadata (platform, exact fee, length limits, review model, formatting rules) unless the live T&F author instructions have been opened
 - It does not judge whether your method is genuinely novel — that is the researcher's call
 
 ---

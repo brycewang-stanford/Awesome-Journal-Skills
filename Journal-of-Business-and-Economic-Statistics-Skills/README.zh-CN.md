@@ -15,7 +15,7 @@
 
 本仓库刻意**不通用**——它不是泛化的"计量写作助手"，而是围绕 JBES 的核心要求构建的方法论沉淀，即 **方法 + 实证（methods with empirics）**：一项新的或改进的统计/计量方法（明确欢迎对机器学习与数据科学方法的改造，以及计算上的改进），并且具有**清晰的实证相关性**，通常还配有一个**有分量的实证应用**。**只有理论而无实证动机**，或**只有应用而无方法创新**，都属于不符合范围（off-scope）。
 
-> **易变信息请到官网核实。** 构建本工具栈时 JBES 的作者须知页面无法访问（被 Cloudflare 拦截），因此投稿系统、费用、篇幅/摘要字数限制、同行评审模式、以及确切的复现规则均在全文标注为 **待核实**。在依赖这些信息前请到官方页面确认。参见 [`resources/official-source-map.md`](resources/official-source-map.md)。
+> **投稿前必须核验 live T&F instructions。** 来源地图已于 2026-06-20 刷新。本包只固化稳定的官方事实（范围、ASA 归属、现任 Joint Editors、ASA 可复现政策），不把需要 live 作者须知页面确认的投稿系统、费用、篇幅/摘要上限、评审模式或格式规则写成硬事实。
 
 ---
 
@@ -111,13 +111,13 @@ jbes-rebuttal
 | `jbes-writing-style` | 方法优先、以应用为锚的行文与定理陈述 |
 | `jbes-replication-and-data-policy` | 遵循 ASA 政策的可复现代码+数据补充材料 |
 | `jbes-review-process` | 多 Co-Editor 评审路径与讨论论文传统 |
-| `jbes-submission` | 面向（待核实的）投稿系统的投稿前 preflight |
+| `jbes-submission` | 面向 live T&F 投稿事实与 ASA supplement 准备度的投稿前 preflight |
 | `jbes-rebuttal` | 方法类论文的 R&R 回复信策略 |
 
 ### 附属资源
 
 - [`resources/external_tools.md`](resources/external_tools.md) —— 仿真引擎、各方法族库（Stata / R / Python）、应用数据（FRED / CRSP / IPUMS）与可复现工具
-- [`resources/official-source-map.md`](resources/official-source-map.md) —— 每条所用事实映射到官方 URL（访问日期 2026-06-01），并标注 待核实 项
+- [`resources/official-source-map.md`](resources/official-source-map.md) —— 2026-06-20 刷新的官方来源地图；投稿专属事实在打开 live T&F 页面前不编码
 
 ---
 
@@ -136,7 +136,7 @@ jbes-rebuttal
 
 - 不替你写出可以直接投稿的稿件
 - 不模拟任何特定 Co-Editor 或审稿人的偏好
-- 不断言易变的元数据（现任编辑、确切费用、投稿系统、复制材料规则）——这些均为 待核实，请到官网核实
+- 不在未打开 live T&F 作者须知时断言投稿系统、确切费用、篇幅上限、评审模式或格式规则
 - 不评判你的方法是否真有原创性——这是研究者本人的判断
 
 ---

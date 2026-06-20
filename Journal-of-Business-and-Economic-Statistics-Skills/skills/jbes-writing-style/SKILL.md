@@ -30,7 +30,7 @@ JBES is read by both econometricians and applied economists/statisticians, so th
 - Open with the methodological contribution and its empirical relevance; do not bury the method behind generic motivation.
 - State theorems in words once before the formalism; define notation as you introduce it, not all at once.
 - Quantify the gains ("controls size where method X over-rejects by 12 points") rather than vague claims.
-- Verify the abstract length and required style on the live JBES instructions page — these specifics are 待核实.
+- Check the abstract length and required style on the live JBES instructions page before filing.
 
 ## Checklist
 
@@ -39,7 +39,7 @@ JBES is read by both econometricians and applied economists/statisticians, so th
 - [ ] Theorem statements are precise and self-contained; proofs in the appendix
 - [ ] Notation introduced incrementally, not dumped
 - [ ] Gains quantified against named incumbents
-- [ ] Abstract length / citation style checked on the live instructions page (待核实)
+- [ ] Abstract length / citation style checked on the live instructions page
 
 ## Anti-patterns
 
@@ -61,7 +61,8 @@ A hypothetical JBES paper proposes a regularized HAR forecaster for realized vol
 | "Could not tell what is new until Section 4." | Contribution sentence into the abstract; defer the survey |
 | "Application feels bolted on." | Weave the macro-finance use into the problem and evidence |
 
-Calibration anchor (hedged): JBES prose tolerates a precise theorem in the abstract *provided* empirical relevance sits beside it. Word limit and style are **待核实**.
+Calibration anchor (hedged): JBES prose tolerates a precise theorem in the abstract *provided*
+empirical relevance sits beside it. Word limit and style are live T&F preflight items.
 
 ## Style execution pass for Journal of Business & Economic Statistics
 
@@ -79,6 +80,6 @@ Run this as a concrete capability pass. First lock the statistical estimand, ide
 【Intro arc】problem / gap / contribution / evidence / positioning present? [Y/N each]
 【Theorem clarity】precise + glossed + proofs in appendix? [Y/N]
 【Notation】introduced incrementally? [Y/N]
-【Style facts】abstract length + citation style verified live? [Y/N — 待核实]
+【Style facts】abstract length + citation style verified live? [Y/N]
 【Next step】jbes-replication-and-data-policy
 ```

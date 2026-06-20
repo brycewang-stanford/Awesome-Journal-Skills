@@ -60,7 +60,10 @@ A hypothetical JBES R&R on a new spectral test for structural breaks in volatili
 | "You promised this for future work." | Do the theory/simulation/application this round; an R&R is near-final |
 | "Where in the paper did you change this?" | Cite the exact section/theorem/table/figure/page in each response |
 
-Calibration anchor (hedged): the handling Co-Editor's letter is the contract — a point the editor underscores is binding, one only a single referee raised and the editor did not flag is lower priority (still answered). Whether JBES treats R&R as a strict one-shot is **待核实**; confirm against the decision letter's own instructions.
+Calibration anchor (hedged): the handling Co-Editor's letter is the contract — a point the editor
+underscores is binding, one only a single referee raised and the editor did not flag is lower priority
+(still answered). For the number and scope of revision rounds, follow the decision letter's own
+instructions.
 
 ## Output format
 

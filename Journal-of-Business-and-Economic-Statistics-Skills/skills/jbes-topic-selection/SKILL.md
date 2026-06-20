@@ -57,7 +57,10 @@ Three hypothetical projects hit the JBES scope bar differently (verdicts **illus
 | Standard method on new data, no novelty | Find the methodological increment, or re-route to an applied economics journal |
 | "We use deep learning" with no econometric problem solved | Make the adaptation to the econometric problem the novelty, not the off-the-shelf tool |
 
-Calibration anchor (hedged): JBES scope is a **conjunction** — methodological novelty AND clear empirical relevance, usually with a substantive application — at the statistics–econometrics interface (time series and forecasting, volatility, causal inference, high-dimensional and Bayesian methods). A single-leg project is off-fit; the exact current scope wording is **待核实**.
+Calibration anchor (hedged): JBES scope is a **conjunction** — methodological novelty AND clear
+empirical relevance, usually with a substantive application — at the statistics–econometrics interface
+(time series and forecasting, volatility, causal inference, high-dimensional and Bayesian methods). A
+single-leg project is off-fit.
 
 ## Output format
 
