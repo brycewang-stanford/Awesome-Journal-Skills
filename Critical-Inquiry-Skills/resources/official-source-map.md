@@ -1,82 +1,85 @@
 # Critical Inquiry Official Source Map
 
-Primary and authoritative sources behind the *Critical Inquiry* (CI) facts injected into this skill
-pack. Access date for all entries: **2026-06-01**. Re-verify volatile items (editors and editorial
-term, exact word caps, fee/APC, image-permission and submission wording, accepted formats) on the
-official page before relying on them — journal pages change. Some University of Chicago Press pages
-(`journals.uchicago.edu`) may return **403** to automated fetches; where a fact could only be read
-through the journal's own site (`criticalinquiry.uchicago.edu`) or a search rendering, it is marked
-accordingly and any residual uncertainty is logged as **待核实**.
+Primary sources behind the *Critical Inquiry* (CI) facts injected into this skill pack.
+Access date for all entries: **2026-06-20**. Live-check volatile journal details before
+submission because editorial rosters, open-access terms, and publisher instructions can change.
 
-## Official journal, submission & author pages
+## CI journal site
 
-- **https://criticalinquiry.uchicago.edu/info/submissions/**
-  — Critical Inquiry Submissions (journal site). Verifies: **articles should not exceed 9,500 words**,
-  a limit that **includes discursive notes and all bibliographical information**; **Critical Responses
-  ≤ 3,000 words**; **Reviews ≤ 500 words**; submission via **Editorial Manager**
-  (`editorialmanager.com/ci/`); manuscripts must be **Microsoft Word** files; **images supplied as
-  separate 300 ppi JPEG or TIFF files**, not embedded; **footnote style roughly follows The Chicago
-  Manual of Style, 17th edition**, footnotes numbered consecutively, **no list of works cited**; the
-  journal **does not accept multiple or simultaneous submissions**; all peer-reviewed and commissioned
-  manuscripts are **reviewed by the editors-in-chief in consultation with the editorial team**;
-  authors must **secure permissions for published images before publication**; contributors receive a
-  complimentary one-year electronic subscription and a copy of the issue. Special-issue proposals may
-  go to `cisubmissions[at]gmail.com`.
-- **https://criticalinquiry.uchicago.edu/info/** — Critical Inquiry "Info" / About (journal site).
-  Verifies the mission: an **interdisciplinary, peer-reviewed journal devoted to the best critical
-  thought in the arts and humanities**, "associated with no single school of thought, tied to no
-  single discipline," combining "rigorous scholarship with a vital concern for dialogue and debate."
-- **https://www.journals.uchicago.edu/journals/ci/instruct** — Instructions for Authors (UChicago
-  Press). Publisher-side author instructions. May **403** to automated fetch; cross-checked against
-  the journal-site submissions page above and search renderings.
-- **https://www.journals.uchicago.edu/journals/ci/prep-gen** — Manuscript Preparation – General
-  (UChicago Press). Word-file and formatting requirements. May **403**; cross-checked as above.
+- **https://criticalinquiry.uchicago.edu/info/** — CI overview page. Confirms that *Critical
+  Inquiry* is an interdisciplinary, peer-reviewed journal devoted to critical thought in the arts
+  and humanities; founded in 1974; combines rigorous scholarship with dialogue and debate; is
+  associated with no single school of thought and tied to no single discipline.
+- **https://criticalinquiry.uchicago.edu/info/submissions/** — CI submissions page. Confirms:
+  manuscripts in English appropriate to CI's aims; article manuscripts should not exceed **9,500
+  words**, including discursive notes and all bibliographical information; no multiple submissions
+  or simultaneous submissions elsewhere; previously published material needs explicit citation and
+  quotation marking. Confirms author-secured image permissions, no contributor payment, one-year
+  complimentary electronic subscription and issue copy for contributors, and PDF copies for reviewers.
+  Confirms peer-reviewed and commissioned manuscripts are reviewed by the editors-in-chief in
+  consultation with the editorial team; acceptance is conditional on revisions requested by the
+  editors; accepted authors approve typeset proofs before publication. Confirms Microsoft Word files,
+  Editorial Manager submission, separate **300 ppi JPEG or TIFF** image files, footnotes without a
+  works-cited list, footnote style roughly following **The Chicago Manual of Style, 17th edition**,
+  Critical Responses up to **3,000 words**, Reviews up to **500 words**, special-issue proposal
+  routing, copyright assignment to the University of Chicago, publication-ethics link, and green/gold
+  open-access policy. Confirms Gold OA fee **$2,500** and that the request should be made at submission
+  or no later than acceptance.
+- **https://criticalinquiry.uchicago.edu/info/editors/** — CI editorial staff page. Confirms the
+  editorial-board structure and current staff listed on 2026-06-20: Editors in Chief **Heather
+  Keenleyside** and **Daniel Morgan**; Executive Editor **Bill Brown**; Coeditors including Jonathan
+  Flatley, Thomas Lamarre, Jennifer Iverson, Tina Post, Angie Heo, Larissa Brewer-Garcia, Orit Bashkin,
+  Haun Saussy, Patrick Jagoda, and Richard Neer; European Editor **Arnold Davidson**; Managing Editor
+  **Hank Scotch**; Manuscript Editor **Colin Harris**; Consulting Editors including Frances Ferguson,
+  Joel Snyder, Francoise Meltzer, Elizabeth Helsinger, Dipesh Chakrabarty, and W. J. T. Mitchell.
+- **https://criticalinquiry.uchicago.edu/** — CI home page. Use as the stable journal-site entry point
+  for current issue, features, review content, archive, and info navigation.
 
-## Scope, history & ownership
+## Publisher pages and submission systems
 
-- **https://www.journals.uchicago.edu/journals/ci/about** — About Critical Inquiry (publisher home).
-  Verifies: **quarterly**, **peer-reviewed**, published by the **University of Chicago Press**;
-  publishes "articles by eminent and emerging scholars, critics and artists on a wide variety of
-  issues in contemporary criticism and culture." May **403**; cross-checked against the journal site
-  and Wikipedia.
-- **https://en.wikipedia.org/wiki/Critical_Inquiry** — Verifies: **founded 1974** by **Wayne Booth,
-  Arthur Heiserman, and Sheldon Sacks**; edited by **W. J. T. Mitchell from 1978 to 2020**; described
-  as "academe's most prestigious theory journal" (New York Times) and "one of the best known and most
-  influential journals in the world" (Chicago Tribune); interdisciplinary humanities/theory venue
-  published by the University of Chicago Press.
+- **https://www.editorialmanager.com/ci/** — Editorial Manager submission portal linked from the CI
+  submissions page. Use for live manuscript upload and status tracking.
+- **https://www.journals.uchicago.edu/journals/ci/instruct** — University of Chicago Press
+  instructions-for-authors page. Official publisher-side confirmation of the CI submission rules; use
+  with the CI submissions page before final upload.
+- **https://www.journals.uchicago.edu/journals/ci/board** — University of Chicago Press editorial-board
+  page. Publisher-side confirmation of the current board and editors.
+- **https://www.journals.uchicago.edu/journals/ci/open** and
+  **https://press.uchicago.edu/resource/open_access.html** — University of Chicago Press open-access
+  information. Use with the CI submissions page for green OA deposit terms and Gold OA requests.
+- **https://www.journals.uchicago.edu/publication-ethics-statement** — University of Chicago Press
+  publication-ethics statement linked from the CI submissions page.
 
-## Editors & editorial board
+## Facts used in the skills
 
-- **https://criticalinquiry.uchicago.edu/info/editors/** — Editors (journal site). Verifies the
-  masthead structure: editors-in-chief (co-editors) plus a managing editor, manuscript editor, and a
-  large editorial / consulting board. The **specific current names** change with each editorial term
-  (see 待核实 below).
-- **https://www.journals.uchicago.edu/journals/ci/board** — Editorial Board (publisher). May **403**;
-  use the journal-site editors page as the live source.
+| Fact | Source URL |
+|------|------------|
+| Interdisciplinary, peer-reviewed arts-and-humanities theory journal | CI overview page |
+| Founded in 1974 | CI overview page |
+| Associated with no single school of thought and tied to no single discipline | CI overview page |
+| Article cap is 9,500 words including discursive notes and all bibliographical information | CI submissions page |
+| Critical Response cap is 3,000 words; Review cap is 500 words | CI submissions page |
+| No multiple submissions or simultaneous submission elsewhere | CI submissions page |
+| Microsoft Word manuscript file required | CI submissions page |
+| Submission via Editorial Manager | CI submissions page; Editorial Manager |
+| Images should be separate 300 ppi JPEG/TIFF files, not embedded | CI submissions page |
+| Authors secure permissions for published images before publication | CI submissions page |
+| Footnotes numbered consecutively; no works-cited list | CI submissions page |
+| Footnote style roughly follows Chicago Manual of Style, 17th edition | CI submissions page |
+| Peer-reviewed and commissioned manuscripts are reviewed by editors-in-chief with editorial team | CI submissions page |
+| Revisions can be required before acceptance; accepted authors review proofs | CI submissions page |
+| Special issues require at least one current CI editor as coeditor and use the listed proposal email | CI submissions page |
+| Current editors-in-chief are Heather Keenleyside and Daniel Morgan | CI editorial staff page; publisher board page |
+| Managing editor is Hank Scotch; manuscript editor is Colin Harris | CI editorial staff page |
+| Green OA deposit path and Gold OA fee/request timing | CI submissions page; UChicago open-access pages |
+| No separate submission fee is listed on the checked CI submissions instructions | CI submissions page |
+| No separate abstract requirement is listed in the checked CI submissions instructions | CI submissions page |
 
-## Rights & open access
+## Live-check items before upload
 
-- **https://www.journals.uchicago.edu/journals/ci/jrnl_rights** — Guidelines for Journal Authors'
-  Rights (UChicago Press). Author-rights/licensing terms. May **403**; treat the journal-site
-  submissions page as the working source for the **optional Gold open-access** fee.
-
-## UNVERIFIED / 待核实 items
-
-- **Current editors-in-chief and term.** As of July 1, 2020 **Bill Brown and Frances Ferguson** began
-  a term as editors; more recent renderings list **Heather Keenleyside and Daniel Morgan** as editors,
-  with managing editor **Hank Scotch** and manuscript editor **Colin Harris**. Exact current names and
-  term dates were not confirmed verbatim from a publisher page (possible 403). 待核实 on
-  `criticalinquiry.uchicago.edu/info/editors/`.
-- **Abstract requirement.** The submissions guidelines as read did **not** specify a required abstract
-  for articles. Treat "no separate abstract specified" as the working assumption and confirm on the
-  live page. 待核实.
-- **Exact Gold open-access APC.** A Gold OA option of **$2,500** (for funded researchers) appeared in
-  a rendering; the figure and eligibility are publisher-set and change. 待核实; confirm on the live
-  rights/OA page.
-- **Time-to-decision, acceptance/desk-rejection rates, number of referees.** Not stated as fixed
-  numbers on the public pages. 待核实.
-- **Whether the Chicago edition cited is 17th or 18th.** The submissions page says footnotes "roughly
-  follow" **CMOS 17th ed.**; CMOS 18th ed. now exists. Treat 17th as stated and confirm the current
-  wording. 待核实.
-- **Special-issue / Critical Response commissioning process.** Critical Responses and some content are
-  commissioned; the exact invitation/proposal workflow is editor-managed and not fully public. 待核实.
+- Reopen the CI submissions page before upload for current word caps, file labels, Editorial Manager
+  link, image specifications, copyright, open-access terms, and special-issue routing.
+- Reopen the CI editorial staff or publisher board page before naming editors, coeditors, or board
+  members in author-facing advice.
+- Do not state fixed time-to-decision, acceptance-rate, desk-rate, or referee-count numbers unless the
+  journal publishes them in a current public source.

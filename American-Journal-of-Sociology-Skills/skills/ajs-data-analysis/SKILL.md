@@ -91,4 +91,4 @@ Treat this skill as an executable review pass, not a prose hint. First lock the 
 ## Supplementary resources
 
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — analysis packages (R / Stata / Python / CAQDAS / QCA)
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — AJS evidence expectations (and the 待核实 note on data policy)
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — AJS evidence expectations and live-check boundary for data policy

@@ -98,8 +98,8 @@ any AJS-specific policy in [`official-source-map.md`](official-source-map.md).
 
 ## 7. Cautions
 1. **Verify volatile specifics** (current editor, fee/waiver, length and abstract expectations,
-   citation-style details, any data policy) on the official UChicago Press AJS pages — they change,
-   and those pages are 403 to automated fetch; unverified items are marked 待核实.
+   citation-style details, any data policy) on the official UChicago Press AJS pages immediately before
+   submission; the source map records the official route for each item, but operational details change.
 2. **Use AJS's house style, not the ASA Style Guide** — this is a key contrast with ASA journals
    (e.g., ASR). Confirm the current reference forms against the live prep pages / Formatting PDF.
 3. **Prepare for double-blind review** — no identifying information in the manuscript, a separate

@@ -2,11 +2,10 @@
 
 > **Verified via web search, access date 2026-06-08.** Every essay below was checked to confirm it
 > actually appeared in *Critical Inquiry* (University of Chicago Press; DOIs in the **`10.1086/…`**
-> range), with author, title, year, and volume/issue. Where the University of Chicago Press article
-> page (`journals.uchicago.edu`) returns **403** to automated fetches, the placement was confirmed
-> through the journal's own listings, JSTOR volume pages, and indexing services that reproduce the CI
-> citation; the verifying DOI/URL is given per entry. Essays that could **not** be fully verified as CI
-> were **omitted** — this is deliberately a short, clean list rather than a long, uncertain one.
+> range), with author, title, year, and volume/issue. Placement was confirmed through publisher DOI
+> pages, the journal's own listings, JSTOR volume pages, and indexing services that reproduce the CI
+> citation; the verifying DOI/URL is given per entry. Essays lacking enough CI placement evidence were
+> **omitted** — this is deliberately a short, clean list rather than a long, uncertain one.
 >
 > **Sibling-confusion guard.** *Critical Inquiry* is **not** PMLA, *New Literary History*,
 > *Representations*, *October*, *Diacritics*, or *boundary 2*. Many landmark theory essays live in
@@ -139,16 +138,14 @@ appeared in a **sibling** venue, not CI — useful guardrails against the siblin
   I/146 (1984), **not CI**.
 - **Eve Kosofsky Sedgwick, "Paranoid Reading and Reparative Reading"** — a chapter in *Touching
   Feeling* (Duke University Press, 2003) / *Novel Gazing* (Duke, 1997), **not a CI article**.
-- **Stephen Greenblatt, "Towards a Poetics of Culture"** — could not be confirmed as a CI article by
-  web search; omitted rather than attributed.
+- **Stephen Greenblatt, "Towards a Poetics of Culture"** — lacked CI placement evidence in this pass;
+  omitted rather than attributed.
 
 Before adding any new essay to this library, confirm it on `journals.uchicago.edu` (DOI in the
 `10.1086/…` range with CI volume/issue) and update the access-date header. **When in doubt, omit.**
 
-> **待核实 / TO VERIFY note.** The Latour, White, Gates, Spivak, and Azoulay DOIs were each read from a
+> **Bibliographic note.** The Latour, White, Gates, Spivak, and Azoulay DOIs were each read from a
 > publisher DOI/article URL during verification; the Fish (1976) original was confirmed by venue,
 > volume, issue, and pages and by the CI reply it provoked, but its exact `10.1086/…` DOI string was
-> not transcribed here and should be filled in from the live article page before citing the DOI
-> verbatim. The `journals.uchicago.edu` pages may **403** automated fetches (see
-> [`../official-source-map.md`](../official-source-map.md)); re-confirm volatile bibliographic details
-> on the live page.
+> not transcribed here. Fill it in from the live article page before citing the DOI verbatim, and
+> refresh volatile bibliographic details on the live page.

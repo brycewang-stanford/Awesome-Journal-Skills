@@ -6,8 +6,9 @@ description: Use when running the final pre-submission preflight for the Journal
 # Submission Preflight (jmf-submission)
 
 The last check before pressing submit. JMF is **double-blind**, so the single most common avoidable
-failure is an under-anonymized manuscript. JMF is also **mid-migration** between submission systems, so
-confirm the current portal before you start. Verify volatile specifics on the official pages (待核实).
+failure is an under-anonymized manuscript. New JMF manuscripts have used **Wiley Research Exchange**
+since the June 25, 2025 NCFR transition; live-check the current portal link and file requirements
+before upload.
 
 ## When to trigger
 
@@ -15,7 +16,7 @@ confirm the current portal before you start. Verify volatile specifics on the of
 - Unsure which files/metadata the portal expects
 - Confirming the chosen format's limits are met and the manuscript is properly anonymized
 
-## Process facts (verify volatile items on the official page)
+## Process facts (live-check operational items on the official page)
 
 - **Owner / publisher:** NCFR (National Council on Family Relations) / **Wiley**.
 - **Portal:** **Wiley Research Exchange** for new submissions (after 25 Jun 2025); **ScholarOne
@@ -23,14 +24,14 @@ confirm the current portal before you start. Verify volatile specifics on the of
 - **Review model:** **double-blind anonymous** — anonymize the manuscript; supply author details
   separately as the system requires.
 - **Formats:** **Article** (≤ ~35 pages) and **Brief Report** (≤ ~25 pages), including abstract, text,
-  tables, and figures (待核实 on exact inclusions).
+  tables, and figures.
 - **Abstract:** **structured, ~200–225 words** — Objective / Background / Method / Results /
   Conclusion / Implications — included in the main document.
 - **Style:** **modified APA**; Microsoft Word, 12-point font; **bias-free language** per APA.
 - **Data:** **data availability statement** per Wiley's data-sharing policy; replication-level detail
-  (待核实 on the exact tier).
-- **ORCID / fees:** ORCID for the corresponding author is standard at Wiley; a submission fee has been
-  reported (待核实 — confirm current fee and any open-access APC).
+  and shared/restricted data access path.
+- **ORCID / fees:** ORCID is common in Wiley workflows; live-check the current portal for required
+  identifiers, submission charges, and open-access APC options.
 
 ## Preflight checklist
 
@@ -49,7 +50,7 @@ confirm the current portal before you start. Verify volatile specifics on the of
 - [ ] **Data availability statement** drafted (shared / restricted + access path)
 - [ ] Replication materials / code staged (OSF/ICPSR/Dataverse) where data terms allow
 - [ ] Ethics / IRB / human-subjects protections documented
-- [ ] Corresponding-author **ORCID** ready; fee/OA status checked (待核实)
+- [ ] Corresponding-author **ORCID** ready if required; fee/OA status checked in the live portal
 
 ## Desk-handling patterns at JMF (avoid before upload)
 
@@ -60,7 +61,7 @@ confirm the current portal before you start. Verify volatile specifics on the of
 | Wrong format-to-limit | A full study sent as a Brief Report (or padded into an Article) | Match the contribution to Article vs. Brief Report and meet the page limit incl. tables/figures |
 | Abstract unstructured | Reviewers are recruited on the structured abstract | Use Objective/Background/Method/Results/Conclusion/Implications, ~200–225 words |
 | No data availability statement | Wiley data-sharing policy expects one | Draft shared/restricted status + access path before upload |
-| Stale portal/fee assumption | JMF migrated submission systems mid-2025 | Confirm the live portal and any fee on NCFR's Submit page (待核实) |
+| Stale portal/fee assumption | JMF migrated submission systems mid-2025 | Confirm the live portal and any fee on NCFR's Submit page |
 
 These are anonymization, scope, and format gates that an editor can apply *before* peer review; clearing
 them is what converts a desk-screen into a sent-for-review decision.
@@ -88,8 +89,8 @@ availability statement and the live portal link get confirmed.
 ## Calibration anchors (hedged where uncertain)
 
 - Owner/publisher (NCFR/Wiley), the double-blind model, the structured abstract, and the
-  Article/Brief-Report split are stable identity features of JMF; the *exact* page counts, word range, fee,
-  and portal URL are volatile — confirm against the journal's current submission guidelines before upload.
+  Article/Brief-Report split are stable identity features of JMF; live-check the portal URL, file
+  requirements, fee/APC information, and any policy wording before upload.
 - Treat every numeric limit in this skill as a default to verify, not a guarantee.
 
 ## Anti-patterns

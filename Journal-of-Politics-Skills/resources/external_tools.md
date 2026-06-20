@@ -104,12 +104,12 @@ JOP counts **pages**, not words: Research Articles **≤ 35 pages**, Short Artic
 | Categories | **Research Article** (≤ 35 pp) · **Short Article** (≤ 10 pp); Online Appendix ≤ 25 pp |
 | Length basis | **Pages**, double-spaced 12-pt — *not* a word count (unlike APSR / AJPS) |
 | Abstract | **≤ 150 words**, 4–5 keywords |
-| Submission fee | None stated (verify); any open-access APC handled by U Chicago Press after acceptance |
+| Upload-stage charge / OA fee | No separate upload-stage charge identified in the refreshed official snippets; UChicago snippets show an optional open-access request fee of USD 2,500 to confirm on the live page |
 | Data policy | Replication package to the **JOP Dataverse**, assessed by a **JOP replication analyst** at conditional acceptance; non-replicable papers are rejected |
 
 ## 8. Cautions
-1. **Verify volatile specifics** (editors, exact page limits, fee/APC, categories, data-policy wording)
-   on the official UChicago Press / SPSA pages — they change; unverified items are marked 待核实.
+1. **Live-check volatile specifics** (editors, exact page limits, fee/APC, categories, data-policy wording)
+   on the official UChicago Press / SPSA pages before upload; they change.
 2. **Plan for pages, not words** — JOP's page budget is the binding constraint; APSR/AJPS word-count
    habits will mislead you.
 3. **Anonymize properly** — JOP is double-blind; strip author metadata and obvious self-references.

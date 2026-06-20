@@ -41,9 +41,9 @@ JMF 的约束不同于通用社会学、心理学或经济学期刊：
 | 体例 | **改良版 APA**；无偏见语言 | 非泛用 Chicago；精准描述家庭形态 |
 | 透明度 | 可复现级别细节 + **数据可得性声明**（Wiley 政策） | 为受限数据规划：获取路径 + 合成数据 |
 
-易变的具体信息（编辑与任期、确切篇幅上限、费用、投稿系统 URL、政策措辞）会变化——未直接核实项在
-[`resources/official-source-map.md`](resources/official-source-map.md) 中标记 **待核实**。
-**请以官方 NCFR / Wiley 页面为准。**
+本包中的期刊事实已映射到
+[`resources/official-source-map.md`](resources/official-source-map.md) 中的 NCFR / Wiley 来源。真正上传前，
+仍需现场检查官方页面上的易变操作信息，例如投稿入口、费用、当前编辑名单、文件要求和期刊专属政策更新。
 
 ### 两种稿件形式
 
@@ -133,7 +133,7 @@ jmf-rebuttal
 ### 资源
 
 - [`resources/external_tools.md`](resources/external_tools.md) — 家庭科学数据源（PSID / NLSY / Add Health / Fragile Families / NSFG / HRS / pairfam / IPUMS）+ R / Stata / Python 的二元、纵向、生存与调查工具
-- [`resources/official-source-map.md`](resources/official-source-map.md) — 每条事实背后的 NCFR / Wiley 官方 URL，未核实项标 待核实
+- [`resources/official-source-map.md`](resources/official-source-map.md) — 本包期刊专属事实背后的 NCFR / Wiley 官方 URL
 
 ---
 
@@ -141,7 +141,7 @@ jmf-rebuttal
 
 - 不替你写出可直接投稿的稿件
 - 不模拟任何特定编辑或评审人的口味
-- 不臆断易变元数据（现任编辑与任期、确切上限、费用、投稿系统 URL、政策措辞）——请以官方页面为准；未核实项标 待核实
+- 不替代最终上传前对操作性元数据（投稿入口、费用、当前编辑名单、文件要求、政策措辞）的现场检查
 - 不替你判断你的问题是否构成真正的家庭科学贡献——那是研究者的判断
 
 ---

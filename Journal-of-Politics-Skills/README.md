@@ -47,9 +47,9 @@ JOP's constraints differ from a Cambridge/APSA flagship or a Wiley/MPSA field-qu
 | Style                 | **The JOP Style Guide** (house author-date)                                    | Pick one consistent style; not APSA-or-Chicago generic            |
 
 Volatile specifics (editors and term, exact page/abstract limits, fee/APC, categories, policy wording)
-change — items not directly confirmed are marked **待核实** in
-[`resources/official-source-map.md`](resources/official-source-map.md). The publisher site often returns
-HTTP 403 to automated fetches; **verify on the official journal page.**
+change. [`resources/official-source-map.md`](resources/official-source-map.md) was refreshed on
+2026-06-20 and separates direct SPSA/Dataverse evidence from UChicago Press rules surfaced through
+official publisher search snippets; **re-open the live official page before submission.**
 
 ### Three differentiators worth internalizing
 
@@ -58,7 +58,7 @@ HTTP 403 to automated fetches; **verify on the official journal page.**
   page, and move the overflow into the **≤ 25-page Online Appendix**.
 - **Shorter and faster by reputation.** JOP is known for tighter articles and an efficient review
   process. The **Short Article (≤ 10 pp)** route exists for a single crisp contribution; treat speed as
-  a qualitative norm, not a guaranteed clock (待核实).
+  a qualitative norm, not a guaranteed clock.
 - **A replication analyst, not just a deposit.** JOP makes acceptance **contingent on replicability**
   and assigns a **JOP replication analyst** at conditional acceptance who checks your materials before
   publication — distinct from APSR's editorial-office reproduction check and AJPS's external
@@ -69,7 +69,8 @@ HTTP 403 to automated fetches; **verify on the official journal page.**
 - **Research Article** — full original study, **≤ 35 pages** inclusive of text, notes, references, and
   tables/figures, with an **Online Appendix ≤ 25 pages** for supporting material.
 - **Short Article** — a single, sharply focused contribution, **≤ 10 pages** on the same inclusive
-  basis. Not a padded Research Article; not (per the pages consulted) a separate "Letters" track (待核实).
+  basis. Not a padded Research Article; do not describe it as a separate "Letters" track unless the
+  current JOP category menu uses that label.
 
 ---
 
@@ -156,7 +157,7 @@ much you can carry in the main text.
 ### Resources
 
 - [`resources/external_tools.md`](resources/external_tools.md) — political-science data sources (ANES / CES / V-Dem / CSES / COW / ACLED / MARPOR) + R / Stata / Python and qualitative/CAQDAS tooling, plus page-budget and replication-package conventions
-- [`resources/official-source-map.md`](resources/official-source-map.md) — official UChicago Press / SPSA / Harvard Dataverse URLs behind every fact, with 待核实 markers on unverified items
+- [`resources/official-source-map.md`](resources/official-source-map.md) — official UChicago Press / SPSA / Harvard Dataverse URLs behind every volatile process fact, refreshed 2026-06-20
 
 ---
 
@@ -164,7 +165,7 @@ much you can carry in the main text.
 
 - It does not write a submittable manuscript for you
 - It does not simulate any specific editor's or reviewer's taste
-- It does not assert volatile metadata (current editors and term, exact page/abstract limits, fee/APC, categories, policy wording) — verify on the official page; unverified items are marked 待核实
+- It does not freeze volatile metadata (current editors and term, exact page/abstract limits, fee/APC, categories, policy wording) — verify on the live official page before uploading
 - It does not run or pass the replication-analyst check for you — that is the JOP analyst's job; this pack only prepares a re-runnable package
 
 ---

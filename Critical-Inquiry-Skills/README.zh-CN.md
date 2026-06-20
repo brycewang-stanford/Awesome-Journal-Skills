@@ -34,19 +34,17 @@ CI 的约束不同于领域刊、方法刊或社会科学刊：
 | 看重 | 具有**跨领域意义**的**理论介入** | 没有赌注的细读不合适 |
 | 证据 | **被细读的对象**——文本、图像、艺术品、电影、案例（非数据） | 无数据集、无统计、无复现 |
 | 理论 | 作为**工具**对对象发挥作用 | 把术语当装饰是典型失败 |
-| 出版方 | **芝加哥大学出版社**（创刊于 1974） | 通过 **Editorial Manager** 投稿（`editorialmanager.com/ci/`） |
+| 出版方 | **芝加哥大学出版社**；CI 创刊于 1974 年 | 通过 **Editorial Manager** 投稿（`editorialmanager.com/ci/`） |
 | 评审模式 | **同行评审**；主编与编辑团队共同细读 | 须说服严肃的通才型批评家，而非仅专家 |
 | 投稿规则 | **不接受一稿多投 / 同时投稿** | 只投 CI |
 | 篇幅 | **论文 ≤ 9,500 词**（含论述性脚注与**全部**文献信息） | 脚注算字数——纳入预算 |
 | 其他体裁 | **批评回应（Critical Response）≤ 3,000**；**书评 ≤ 500** | 投稿前选对体裁 |
 | 引注 | **《芝加哥手册》（第 17 版）** 脚注；**无参考文献表** | 非作者—年份；完整信息置于脚注 |
 | 稿件 / 图片 | **Microsoft Word**；图片为**单独的 300 ppi JPEG/TIFF**，作者自清版权 | 自行尽早办理图片授权 |
-| 费用 | **无投稿费**；可选金色开放获取 | 不要预算投稿费 |
+| 费用 | 投稿说明未列单独投稿费；可选金色开放获取费用 **$2,500** | 只有选择 Gold OA 时才现场复核 OA 费用 |
 
-易变的具体信息（现任编辑与任期、确切篇幅上限、费用/APC、CMOS 版本、授权措辞）会变化——未直接核实项在
-[`resources/official-source-map.md`](resources/official-source-map.md) 中标记 **待核实**。
-**请以官方页面为准**（芝加哥大学出版社页面对自动抓取可能返回 403；期刊站点
-`criticalinquiry.uchicago.edu` 为可用来源）。
+`resources/official-source-map.md` 已于 2026-06-20 按 CI 投稿、简介和编辑团队页面刷新；其中记录了当前编辑、
+篇幅上限、Gold OA、CMOS 表述、图片授权和正式上传前需要重开的官方页面。
 
 ### 三种投稿体裁
 
@@ -137,7 +135,7 @@ ci-revision-and-response
 ### 资源
 
 - [`resources/external_tools.md`](resources/external_tools.md) — 档案、文本与图像来源（HathiTrust / 博物馆开放获取 / Artstor / EEBO）、理论与批评参考书架、芝加哥脚注与图片处理工具
-- [`resources/official-source-map.md`](resources/official-source-map.md) — 每条事实背后的 CI / 芝加哥大学出版社官方 URL，未核实项标 待核实
+- [`resources/official-source-map.md`](resources/official-source-map.md) — 每条事实背后的 CI / 芝加哥大学出版社官方 URL，2026-06-20 已刷新
 
 ---
 
@@ -146,7 +144,7 @@ ci-revision-and-response
 - 不替你写出可直接投稿的文章
 - 不模拟任何特定编辑或读者的口味
 - 不把批评变成数据——无数据集、无统计、无复现
-- 不臆断易变元数据（现任编辑与任期、确切上限、费用/APC、CMOS 版本、授权措辞）——请以官方页面为准；未核实项标 待核实
+- 不把易变元数据永久写死；给出编辑、篇幅、OA 费用、CMOS 表述、授权或投稿路径建议前，先重开官方 source map
 - 不替你判断你的想法是否构成真正的介入——那是批评者的判断
 
 ---

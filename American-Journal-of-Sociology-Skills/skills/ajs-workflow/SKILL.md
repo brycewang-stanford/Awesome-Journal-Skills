@@ -27,7 +27,7 @@ the University of Chicago Department of Sociology. The router's first job is to 
 | Reviewing a book | **Book review** (usually invited) | `ajs-writing-style` (out of scope for the article pipeline) |
 
 > AJS has a long **Comment-and-Reply tradition**: a focused critique of a published finding can be a
-> contribution in its own right. Confirm current Comment length/eligibility (待核实) in `ajs-submission`.
+> contribution in its own right. Live-check current Comment length/eligibility in `ajs-submission`.
 
 ## Routing map (stage → skill)
 

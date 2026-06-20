@@ -27,9 +27,12 @@ contribution to the field's traditions and must arrive properly blinded.
    individual cognition or purely macro sociology is a poor fit and may be screened out.
 3. **External review.** Papers are sent to expert reviewers, typically from the relevant tradition
    (symbolic interaction, SSP, group processes, identity, affect) and sometimes an adjacent one.
-4. **Decision pattern.** Outcomes are **reject**, **revise and resubmit**, or **accept** (accept usually
+4. **Current masthead and metrics.** SAGE lists Joseph C. Dippong and Lisa Slattery Walker as editors,
+   with a displayed acceptance rate of 10.7%, average manuscript review time of 7.9 weeks, and average
+   acceptance-to-online-publication time of 69 days. Treat these as planning signals, not promises.
+5. **Decision pattern.** Outcomes are **reject**, **revise and resubmit**, or **accept** (accept usually
    after revision). An R&R is an opportunity, not a promise.
-5. **Data sharing is not a review criterion.** SPQ encourages sharing but **willingness to share data has
+6. **Data sharing is not a review criterion.** SPQ encourages sharing but **willingness to share data has
    no impact on acceptance** (see `spq-data-and-transparency`) — don't expect credit or penalty for it.
 
 ## Shape the paper to pass
@@ -57,7 +60,7 @@ Run this as a concrete capability pass. First lock the social-psychological proc
 - **Primary move:** Turn likely reviewer objections into a ledger with response evidence, manuscript location, and the decision-maker who must be convinced first.
 - **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
 - **Sibling comparison:** compare against JPSP for psychology breadth, ASR/AJS for sociology theory stakes, Social Forces for broader empirical sociology; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
-- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` and name the live-check item that could change the upload plan.
 
 ## Output format
 

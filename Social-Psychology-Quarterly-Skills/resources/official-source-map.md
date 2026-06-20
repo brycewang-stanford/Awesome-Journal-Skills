@@ -1,92 +1,100 @@
 # SPQ Official Source Map
 
-Primary and authoritative sources behind the SPQ-specific facts injected into this skill pack.
-Access date for all entries: **2026-06-01**. Re-verify volatile items (editors and term, processing
-fee, word/abstract caps, data policy wording, masking rules) on the official page before relying on
-them — journal pages change, and the SAGE author-instructions and ASA pages returned HTTP 403 to
-automated fetch at access time (facts below come from the official SAGE submission-guidelines PDF,
-ASA-hosted documents, and web-search renderings of those pages).
+Primary sources behind the Social Psychology Quarterly facts used in this skill pack.
+Access date for this refresh: **2026-06-20**. Before an actual upload, live-check
+SAGE/Manuscript Central for the portal state, fee workflow, required fields, and any policy
+wording that may have changed after this refresh.
 
-## Official submission & author pages
+## Journal Identity, Scope, and Metrics
 
-- **https://journals.sagepub.com/author-instructions/spq** — Social Psychology Quarterly Submission
-  Guidelines (SAGE). Verifies: **initial article submissions ≤ 10,000 words** including all parts and
-  excluding supplementary materials; **Notes ≤ 5,000 words**; **abstract ≤ 150 words** on a separate
-  page headed by the title with **author names omitted** and **a few keywords** after the abstract;
-  each submission contains **separate files for the title page and the (blinded) main manuscript**;
-  if a manuscript is **not sufficiently blinded the editorial office temporarily rejects** it for
-  reformatting; the **title page** carries title, authors, affiliations, running head, and the
-  approximate word count (including notes and references); a **$25 manuscript processing fee** is
-  required on first submission, **not** required for revised/resubmitted manuscripts or for
-  manuscripts by **ASA student members**; submission via **SageTrack / ScholarOne Manuscript Central**;
-  formatting follows the **ASA Style Guide**. (Page returned HTTP 403 to automated fetch; confirmed
-  via the SAGE PDF below + web-search renderings.)
+- **https://journals.sagepub.com/home/spq** — SAGE journal home for **Social Psychology
+  Quarterly**. Verifies SPQ's scope: theoretical and empirical papers on the link between
+  the individual and society, including relations among individuals, groups, collectivities,
+  and institutions, plus intra-individual processes as they influence or are influenced by
+  social structure and process. Also verifies that SPQ is interdisciplinary, publishes work
+  by sociologists and psychologists, displays American Sociological Association branding,
+  lists ISSN **0190-2725** and Online ISSN **1939-8999**, and carries ASA copyright.
+- **https://journals.sagepub.com/editorial-board/SPQ** — Current SAGE editorial-board page.
+  Verifies current editors **Joseph C. Dippong** and **Lisa Slattery Walker** (University of
+  North Carolina-Charlotte), deputy editors **Amanda Marie Gengler** and **David Schaefer**,
+  and the current editorial-board list.
+- **https://www.asanet.org/publications/journals/social-psychology-quarterly/** — ASA SPQ
+  page. Use as the association-side checkpoint for ownership and editor-term information;
+  current public snippets list Walker and Dippong as editors for **2025-2029**.
+
+## Submission, Masking, and File Requirements
+
+- **https://journals.sagepub.com/author-instructions/spq** — SAGE SPQ Submission Guidelines.
+  Verifies that manuscripts may be returned when they do not conform; simultaneous
+  submission elsewhere is unethical; ASA ethics and data-sharing norms apply; submissions
+  use Manuscript Central / ScholarOne / SageTrack at `mc.manuscriptcentral.com/spq`; the
+  editorial office email is `socpsychq@charlotte.edu`; the submission must contain separate
+  files for the title page, acknowledgments, and manuscript proper; `.doc`, `.docx`, and
+  `.rtf` are the standard formats; PDF and LaTeX are accepted with a recommendation to email
+  the managing editor before using them; and the main manuscript file must be blind of
+  author-identifying information.
+- **SAGE SPQ Submission Guidelines, "Manuscript Central (Scholar One/SageTrack Procedures)"**
+  — Verifies that users create/retain a Manuscript Central account, choose article type at
+  first submission, upload separate title-page and main-manuscript files, may upload a cover
+  letter, can save/resume submission, and can track progress after submission. If the
+  manuscript is not sufficiently blinded, the editorial office temporarily rejects it and
+  sends it back for reformatting; once the corrected version is received, review resumes.
 - **https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-social-psychology-quarterly_-sage-journals.pdf**
-  — Official SAGE SPQ submission-guidelines PDF (same content as the author-instructions page).
-- **https://www.asanet.org/publications/journals/social-psychology-quarterly/** — Social Psychology
-  Quarterly at the American Sociological Association. Verifies: SPQ is owned by the **American
-  Sociological Association**; published by **SAGE**; scope is the **link between the individual and
-  society** — relations of individuals to one another, to groups, collectivities, and institutions,
-  and intra-individual processes insofar as they substantially influence or are influenced by social
-  structure and process. (Page returned HTTP 403 to automated fetch; confirmed via web-search
-  renderings + JSTOR/SAGE/Wikipedia.)
-- **https://www.asanet.org/publications/journals/submission-information-for-asa-publications/** — ASA
-  submission information. Verifies: the shared ASA **$25 processing fee** (waived for resubmissions
-  and ASA student members), SageTrack/Manuscript Central submission, ASA ethics and data-sharing norm.
-- **https://www.asanet.org/wp-content/uploads/savvy/documents/spq/SPQResearchNoteGuidelines.pdf** —
-  SPQ Research Note Guidelines (ASA-hosted). Verifies the **Note** format (a contribution communicable
-  in **≤ 5,000 words**). 待核实 on the exact current inclusions/exclusions for the note count.
+  — Official SAGE PDF version of the submission guidelines. Use as a stable snapshot of the
+  same rules in the live author-instructions page.
 
-## Data, transparency & ethics
+## Fees, Article Types, and Formatting
 
-- **SPQ data-and-materials statement** (via the SAGE author-instructions rendering): "SPQ **encourages**
-  researchers to make their data, code, and other materials available for others to review and use.
-  Because not all areas of social psychology are able to provide these materials, practically or
-  ethically, **this is not a requirement** and **willingness to publicly release data and other
-  materials will have no impact on the likelihood of acceptance.**" This is a deliberate contrast with
-  journals that mandate or grade open data.
-- **ASA data-sharing policy / Code of Ethics (2018)** (via the ASA submission-information page): "As a
-  regular practice, sociologists share data and pertinent documentation as an integral part of a
-  research plan. Sociologists generally make their data available after completion of a project or its
-  major publications, except where proprietary agreements … preclude such accessibility or when it is
-  impossible to share data and protect the confidentiality of the research participants (e.g., field
-  notes or detailed information from ethnographic interviews)."
-- **https://www.asanet.org/publications/journals/asa-style-guide/** — ASA Style Guide (author-date
-  citation, manuscript preparation for ASA journals).
+- **SAGE SPQ Submission Guidelines, "Submitting Your Manuscript"** — Verifies the **$25**
+  ASA manuscript processing fee for first submissions; no processing fee for revised and
+  resubmitted manuscripts or manuscripts by ASA student members; payment through Manuscript
+  Central / ScholarOne / SageTrack; and the student-member waiver route through the "ASA
+  Student Member Submission" manuscript type.
+- **SAGE SPQ Submission Guidelines, "Preparation of Manuscripts"** — Verifies double-spaced
+  manuscripts, preferred 12-point type, 1-1/4 inch margins, **Article** initial submissions
+  of **10,000 words or less** including all parts and excluding supplementary materials,
+  **Notes** of **5,000 words or less**, and optional online-only appendices with no word
+  limit for methods, procedures, data, code, instruments, supplemental analyses, or
+  discussion.
+- **SAGE SPQ Submission Guidelines, title page / abstract / style sections** — Verifies that
+  the title page includes full title, author names, affiliations, running head, approximate
+  word count including notes and references, title footnote, acknowledgments, credits, and
+  grant numbers; the abstract is on a separate page headed by the title, omits author names,
+  is no more than **150 words**, and is followed by a few keywords; text begins on a new
+  page headed by the title; citations are ASA author-date with page numbers for quotes or
+  specific passages; notes are numbered consecutively; references are in a section headed
+  **REFERENCES**; and the ASA Style Guide, 7th ed. (2022), supplies additional examples.
+- **SAGE SPQ Submission Guidelines, tables/figures/accessibility/ORCID sections** — Verifies
+  table and figure numbering, table notes and significance markers, camera-ready artwork
+  expectations after acceptance, SAGE accessibility guidance, name/pronoun change policy,
+  and ORCID collection for corresponding authors during submission.
 
-## Owner, publisher, editors, history
+## Data, Materials, and Ethics
 
-- **https://en.wikipedia.org/wiki/Social_Psychology_Quarterly** — Verifies: founded **1937** as
-  **Sociometry** by **Jacob L. Moreno**; ASA assumed ownership in **1955**; renamed **Social
-  Psychology** in **1978** and **Social Psychology Quarterly** in **1979**; published by **SAGE** for
-  the **ASA**; sociological (not psychological-discipline) approach to social psychology; quarterly.
-- **https://www.asanet.org/wp-content/uploads/2024/05/SPQ-Editor-Proposal-Walker-Dippong-2025.pdf** —
-  Editor proposal (ASA-hosted): a forthcoming editorial team **Lisa Slattery Walker and Joseph
-  Dippong (University of North Carolina at Charlotte)**. Treat the editors and the exact term as
-  **待核实** against the live masthead.
-- **https://journals.sagepub.com/home/spq** — SPQ on SAGE Journals (publisher home, current issues).
-- **https://www.jstor.org/journal/socipsycquar** — SPQ on JSTOR (archive, scope statement).
+- **SAGE SPQ Submission Guidelines, ethics and data-sharing sections** — Verifies ASA's
+  data-sharing norm: sociologists generally share data and documentation after a project or
+  its major publications, except where proprietary agreements or participant confidentiality
+  prevent access. It also verifies SPQ's journal-specific stance: SPQ encourages researchers
+  to make data, code, and other materials available; the journal can help locate a suitable
+  depository and add footnotes to deposits; sharing is **not a requirement** because some
+  social-psychology areas cannot share materials practically or ethically; and willingness to
+  publicly release data and materials has **no impact on likelihood of acceptance**.
+- **SAGE SPQ Submission Guidelines, ethics section** — Verifies that duplicate or concurrent
+  submission is unethical under ASA norms and that significant findings or contributions
+  appearing elsewhere must be clearly identified.
 
-## UNVERIFIED / 待核实 items
+## Review, Timing, and Operational Signals
 
-- **Current editorial team / exact term**: the Walker–Dippong (UNC Charlotte) team comes from an
-  ASA-hosted 2024 editor proposal; earlier renderings list a University of Georgia team (Clay-Warner,
-  Robinson, Tinkler). Confirm the **current** editors and term start/end on the live SPQ/ASA masthead.
-  待核实.
-- **Exact word-count inclusions/exclusions**: "≤ 10,000 words including all parts, excluding
-  supplementary materials" for articles and "≤ 5,000 words" for Notes are reported from the
-  guidelines; confirm exactly what is counted (references, footnotes, tables) on the live page. 待核实.
-- **Abstract bound (150 words) and keyword count**: from web-search rendering of the guidelines; the
-  SAGE page (403) should be checked for the current wording. 待核实.
-- **$25 fee amount and student-waiver wording**: $25 with waivers for resubmissions and ASA student
-  members is reported consistently across ASA journals; confirm the current figure and precise waiver
-  category on SageTrack. 待核实. 待核实 for any post-acceptance open-access APC handled by SAGE.
-- **Masked-review specifics** (single vs. double anonymity, reviewer instructions): the guidelines
-  require a **blinded manuscript + separate title page** and temporary rejection if under-blinded;
-  confirm the precise anonymity model and reviewer instructions on the live page. 待核实.
-- **Whether SPQ runs an editor-verified reproducibility check**: SPQ **encourages but does not require**
-  data/code/materials and states sharing **has no impact on acceptance** — this is **not** a mandatory,
-  editor-run replication-package verification. Do not assert a verification step the policy does not
-  state. 待核实 for any current supplementary-materials or preregistration requirement.
-- **Registered Reports / article types beyond Articles and Notes**: not confirmed as offered; do not
-  assert a Registered Reports track for SPQ. 待核实.
+- **SAGE journal home, "Journal Metrics"** — Verifies currently displayed metrics:
+  acceptance rate **10.7%**, average manuscript review time **7.9 weeks**, and average time
+  from acceptance to online publication **69 days**.
+- **SAGE SPQ Submission Guidelines, masking procedure** — Verifies the practical review gate:
+  the manuscript must arrive blinded, and an under-blinded file is temporarily rejected for
+  reformatting before review resumes.
+
+## Operational Live-Check Items
+
+Check the live SAGE instructions and Manuscript Central immediately before upload for the
+current submission link, file-type handling, editor-office email, $25 payment workflow, ASA
+student-member waiver behavior, open-access/APC prompts, and any changes to data/materials,
+masking, or article-type language.

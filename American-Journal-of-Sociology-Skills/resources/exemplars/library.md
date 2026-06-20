@@ -5,7 +5,7 @@
 > 1895, published by the **University of Chicago Press** for the Department of Sociology at the University
 > of Chicago — with author, year, and volume/issue, against the UChicago Press article page
 > (`journals.uchicago.edu/doi/...`, DOI prefix `10.1086/...`), JSTOR, and corroborating Google Scholar
-> lookups carrying the journal name. Papers that could not be fully verified **as AJS** were **omitted** —
+> lookups carrying the journal name. Papers that lacked full AJS confirmation were **omitted** —
 > this is deliberately a short, clean, verified list rather than a long, uncertain one.
 >
 > **Sibling-journal guard.** AJS is **not** the *American Sociological Review* (ASR, ASA/SAGE), *Social

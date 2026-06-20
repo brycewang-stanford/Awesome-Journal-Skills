@@ -6,10 +6,9 @@ description: Use when preparing the reproducibility / replication and data-shari
 # Transparency & Data Policy (jmf-transparency-and-data-policy)
 
 JMF expects enough detail on design and procedures to **facilitate replication**, and Wiley applies a
-**data-sharing policy** (typically including a **data availability statement**). Many family datasets
+**data-sharing policy** requiring a **Data Availability Statement** for research and synthesis articles. Many family datasets
 (PSID, Add Health, Fragile Families, NSFG) are **restricted-use** and cannot be redistributed — so plan
-transparency around *access*, not redistribution. Verify the current JMF/Wiley wording on the policy
-pages (待核实).
+transparency around *access*, not redistribution. Live-check the current JMF/Wiley wording before upload.
 
 ## When to trigger
 
@@ -18,14 +17,14 @@ pages (待核实).
 - Your data are **restricted-use** and cannot be posted
 - A **replication** submission (materials expectations are central)
 
-## What JMF / Wiley expect (verify current wording)
+## What JMF / Wiley expect
 
 1. **Replication-level detail.** The Method and any supplements describe the sample derivation,
    measures, coding, and analytic approach in enough detail that a competent reader could reproduce
    the study. Brief reports are explicitly welcomed for **replications** and **important null findings**.
-2. **Data availability statement.** Wiley's data-sharing policy generally calls for a statement in the
-   article confirming whether data are shared and how they can be accessed (the exact JMF tier is
-   待核实 — confirm on the Wiley author page).
+2. **Data availability statement.** Wiley's data-sharing policy requires a statement in research and
+   synthesis articles confirming whether data are shared and how they can be accessed; check whether
+   JMF adds journal-specific wording at upload.
 3. **Analysis code.** Deposit code that regenerates the reported tables and figures in an approved
    repository (e.g., **OSF**, **ICPSR**, Harvard Dataverse) where data terms allow. Master script +
    README + pinned versions + seeds.
@@ -86,9 +85,9 @@ illustrative placeholders to confirm against the provider.
 
 ## Calibration anchors (hedged where uncertain)
 
-- That JMF expects replication-level detail and that Wiley applies a data-sharing policy with a data
-  availability statement are stable features; the *exact* JMF data tier and required statement wording are
-  volatile (待核实) — confirm against the journal's current author and Wiley data-policy pages.
+- That JMF expects replication-level detail and that Wiley requires a Data Availability Statement are
+  stable features; live-check whether the JMF upload workflow adds journal-specific wording or
+  repository expectations beyond Wiley's general policy.
 - Brief reports are an established channel for replications and important null findings, which raises the
   premium on a clean reproducibility package; treat this as a venue norm to verify, not a quota.
 
@@ -114,4 +113,4 @@ illustrative placeholders to confirm against the provider.
 ## Supplementary resources
 
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — repositories, reproducibility tooling, and restricted-data handling
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — Wiley data-sharing policy and JMF replication guidance (待核实 items)
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — Wiley data-sharing policy and JMF replication guidance

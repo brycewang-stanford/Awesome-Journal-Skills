@@ -6,7 +6,7 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Journal](https://img.shields.io/badge/journal-AJS-2f3e5c)](https://www.journals.uchicago.edu/journals/ajs)
-[![Field](https://img.shields.io/badge/field-Sociology-1f6feb)](https://en.wikipedia.org/wiki/American_Journal_of_Sociology)
+[![Field](https://img.shields.io/badge/field-Sociology-1f6feb)](https://www.journals.uchicago.edu/journals/ajs)
 [![Claude Code](https://img.shields.io/badge/agent-Claude%20Code-cc785c)](https://github.com/anthropics/claude-code)
 
 English | [简体中文](README.zh-CN.md)
@@ -39,14 +39,14 @@ AJS's constraints differ from ASR and from field/methods journals:
 | Fee                   | **$30 submission fee**; waived for **sole-author graduate students**           | Budget the fee unless the waiver applies                         |
 | Length                | **No fixed word cap**; concision encouraged (referees may need more time over ~18,000 words) | Long is tolerated, not rewarded; **abstract ~150 words**  |
 | Style                 | **AJS's own author-date house style**                                          | **Not** the ASA Style Guide; confirm forms on the prep pages     |
-| Transparency          | **No advertised mandatory editor-verified replication deposit**                | Document well; do not over-state requirements (待核实)            |
+| Transparency          | **No advertised mandatory editor-verified replication deposit**                | Document well; verify current policy before claiming any deposit gate |
 | Distinctive features  | **Comment-and-Reply** tradition; substantial **book-review** section; Roger V. Gould Prize | Choose the right piece type up front                  |
 
 Volatile specifics (current editor and term, the exact fee/waiver, length and abstract expectations,
-citation-style details, any data policy) change — items not directly page-verified are marked
-**待核实** in [`resources/official-source-map.md`](resources/official-source-map.md). The University of
-Chicago Press pages return HTTP 403 to automated fetch, so facts come from web-search renderings of
-the official pages plus Wikipedia. **Verify on the official journal page.**
+citation-style details, any data policy) change. The refresh notes in
+[`resources/official-source-map.md`](resources/official-source-map.md) route each fact to an official
+UChicago Press, Editorial Manager, or University of Chicago source, and operational details should be
+live-checked in a browser immediately before upload.
 
 ### AJS vs. ASR at a glance
 
@@ -139,7 +139,7 @@ usually sharpens late.
 ### Resources
 
 - [`resources/external_tools.md`](resources/external_tools.md) — sociology data sources (GSS / IPUMS / PSID / V-Dem / network & qualitative data) + R / Stata / Python and CAQDAS/QCA tooling
-- [`resources/official-source-map.md`](resources/official-source-map.md) — official UChicago Press / AJS URLs behind every fact, with 待核实 markers on unverified items
+- [`resources/official-source-map.md`](resources/official-source-map.md) — official UChicago Press / AJS URLs behind every fact, plus live-check notes for volatile items
 
 ---
 
@@ -148,7 +148,8 @@ usually sharpens late.
 - It does not write a submittable manuscript for you
 - It does not simulate any specific editor's or reviewer's taste
 - It does not assert volatile metadata (current editor and term, exact fee/waiver, length/abstract
-  rules, citation-style forms, data policy) — verify on the official page; unverified items are 待核实
+  rules, citation-style forms, data policy) without a current official-source route; live-check those
+  items on the official page before submission
 - It does not decide whether your work is theoretically ambitious enough for AJS — that is the researcher's call
 
 ---
@@ -157,7 +158,7 @@ usually sharpens late.
 
 - [awesome-journal-skills](https://github.com/brycewang-stanford/awesome-journal-skills) — Index of journal-specific skill packs
 - [American Journal of Sociology (UChicago Press)](https://www.journals.uchicago.edu/journals/ajs) — publisher home, instructions, editorial policy
-- [AJS on Wikipedia](https://en.wikipedia.org/wiki/American_Journal_of_Sociology) — history, founding, scope
+- [AJS Instructions for Authors](https://www.journals.uchicago.edu/journals/ajs/instruct) — current author guidance and submission mechanics
 
 ---
 

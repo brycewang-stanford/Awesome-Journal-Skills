@@ -8,8 +8,7 @@ description: Use when running the final pre-submission preflight for the America
 The last check before pressing submit on **Editorial Manager** (`editorialmanager.com/ucp-ajs`). AJS
 is **double-blind**, so the most common avoidable failures are an under-anonymized manuscript and a
 cover page left inside the manuscript file. Also unique to AJS: a **$30 submission fee** and **AJS's
-own house style** (not the ASA Style Guide). Verify volatile items on the live pages (待核实; UChicago
-Press pages are 403 to automated fetch).
+own house style** (not the ASA Style Guide). Verify volatile items on the live pages before submission.
 
 ## When to trigger
 
@@ -25,10 +24,12 @@ Press pages are 403 to automated fetch).
 - **Review model:** **double-blind** — anonymize the manuscript; submit the **cover page as a separate
   file** so personal information is not in the manuscript.
 - **Submission fee:** **$30** per new submission; **waived for graduate students submitting as sole
-  authors** (proof of status may be requested). (待核实 — confirm current amount/waiver.)
+  authors** (proof of status may be requested). Confirm the current amount and waiver workflow on the
+  official page.
 - **Abstract:** **~150 words** (as close to 150 as possible); must state the question/puzzle, identify
   the data, and indicate findings. **No abstract → not sent to reviewers.**
-- **Length:** **no fixed word cap**; be concise (referees may need more time over ~18,000 words). (待核实.)
+- **Length:** **no fixed word cap**; be concise (referees may need more time over ~18,000 words).
+  Live-check current guidance before upload.
 - **Style:** **AJS's own author-date house style** (name + year; "et al." for 3+); **NOT the ASA Style
   Guide**. Notes start at "1"; acknowledgment note on the cover sheet with an asterisk; footnotes or
   endnotes both fine.

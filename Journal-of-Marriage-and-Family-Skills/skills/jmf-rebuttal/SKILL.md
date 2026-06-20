@@ -94,9 +94,9 @@ couple fixed-effects plus a sensitivity bound. Illustrative letter entry:
 ## Calibration anchors (hedged where uncertain)
 
 - Treating the R&R as a genuine opportunity rather than a soft rejection reflects JMF's norm that most
-  publications iterate; the precise decision labels and timelines are volatile (待核实) — confirm on the
-  journal's editorial pages. Protecting the family-science contribution while answering reviewers is the
-  central balancing act; the editor's letter signals which points are decisive.
+  publications iterate; NCFR describes reject, revise-and-resubmit, rare near-immediate acceptance, and
+  written reconsideration for serious reviewer error. Protecting the family-science contribution while
+  answering reviewers is the central balancing act; the editor's letter signals which points are decisive.
 
 ## Anti-patterns
 
@@ -121,4 +121,4 @@ couple fixed-effects plus a sensitivity bound. Illustrative letter entry:
 
 ## Supplementary resources
 
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — review model, editorial process, and decision pathway (待核实 items)
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — review model, editorial process, and decision pathway

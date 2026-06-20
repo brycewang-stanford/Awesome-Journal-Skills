@@ -37,20 +37,18 @@ CI's constraints differ from a field journal, a methods journal, or a social-sci
 | Premium on            | A **theoretical intervention** with cross-field stakes                        | A competent close reading with no stakes is off-fit              |
 | Evidence              | **Objects read closely** — texts, images, artworks, films, cases (no data)    | No datasets, no statistics, no replication                       |
 | Theory                | Used as an **instrument** that does work on the object                        | Jargon-as-decoration is the classic failure                      |
-| Publisher             | **University of Chicago Press** (est. 1974)                                   | Submitted via **Editorial Manager** (`editorialmanager.com/ci/`) |
+| Publisher             | **University of Chicago Press**; CI founded in 1974                           | Submitted via **Editorial Manager** (`editorialmanager.com/ci/`) |
 | Review model          | **Peer-reviewed**; read by editors-in-chief with the editorial team           | Persuade serious generalist critics, not just specialists        |
 | Submission rule       | **No multiple / simultaneous submission**                                     | Submit to CI alone                                               |
 | Length                | **Article ≤ 9,500 words** (incl. discursive notes + **all** bibliographical info) | Count the notes — they are in the budget                     |
 | Other formats         | **Critical Response ≤ 3,000**; **Review ≤ 500**                               | Choose the right format up front                                 |
 | Citations             | **Chicago Manual of Style (17th ed.)** footnotes; **no works-cited list**     | Not author-date; full info lives in the notes                    |
 | Manuscript / images   | **Microsoft Word**; images as **separate 300 ppi JPEG/TIFF**, author-cleared  | Clear image permissions yourself, early                          |
-| Fee                   | **No submission fee**; optional Gold open access                              | Do not budget a submission fee                                   |
+| Fee                   | No separate submission fee listed; optional Gold OA fee **$2,500**            | Live-check OA only if selecting Gold OA                           |
 
-Volatile specifics (current editors and term, exact caps, fee/APC, CMOS edition, permissions wording)
-change — items not directly confirmed are marked **待核实** in
-[`resources/official-source-map.md`](resources/official-source-map.md). **Verify on the official
-journal page** (University of Chicago Press pages may return 403 to automated fetches; the journal site
-`criticalinquiry.uchicago.edu` is the working source).
+`resources/official-source-map.md` was refreshed on 2026-06-20 from the CI submissions, overview, and
+editorial-staff pages. It records current editors, caps, Gold OA terms, CMOS wording, permissions, and
+the live-check items to reopen immediately before upload.
 
 ### Three submission formats
 
@@ -143,7 +141,7 @@ most of the weight; a **Review** goes almost directly to writing-style and submi
 ### Resources
 
 - [`resources/external_tools.md`](resources/external_tools.md) — archives, text and image sources (HathiTrust / museum open access / Artstor / EEBO), the theory and criticism reference shelf, Chicago-notes and image-prep tooling
-- [`resources/official-source-map.md`](resources/official-source-map.md) — official CI / University of Chicago Press URLs behind every fact, with 待核实 markers on unverified items
+- [`resources/official-source-map.md`](resources/official-source-map.md) — official CI / University of Chicago Press URLs behind every fact, refreshed 2026-06-20
 
 ---
 
@@ -152,7 +150,7 @@ most of the weight; a **Review** goes almost directly to writing-style and submi
 - It does not write a submittable essay for you
 - It does not simulate any specific editor's or reader's taste
 - It does not turn criticism into data — no datasets, no statistics, no replication
-- It does not assert volatile metadata (current editors and term, exact caps, fee/APC, CMOS edition, permissions wording) — verify on the official page; unverified items are marked 待核实
+- It does not freeze volatile metadata forever; reopen the official source map before advising on editors, caps, OA fees, CMOS wording, permissions, or submission routing
 - It does not decide whether your idea is a genuine intervention — that is the critic's call
 
 ---

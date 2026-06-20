@@ -49,7 +49,7 @@ A strong AJS paper usually clears all four:
 |----------------|---------------------------|
 | Quantitative / stratification | draw out the general mechanism and theoretical stakes, not just an estimate |
 | Comparative-historical | make the comparative logic and the portable theory explicit, not just the cases |
-| Ethnography / interviews | show what the case lets the field *see* theoretically that it could not before |
+| Ethnography / interviews | show what the case lets the field newly *see* theoretically |
 | Networks / computational | connect structure to social theory, not method for its own sake |
 | Theory | tie the conceptual move to empirical or interpretive consequences sociologists can use |
 

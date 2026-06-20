@@ -30,8 +30,8 @@ editors-in-chief in consultation with the editorial team**. The decisive questio
 4. **No multiple/simultaneous submission.** CI does **not** accept manuscripts under consideration
    elsewhere — submit to CI alone.
 5. **Commissioned and special-issue content.** Critical Responses and some pieces are commissioned;
-   special-issue proposals follow an editor-managed route (the exact workflow is not fully public —
-   see 待核实 in the source map).
+   special-issue proposals are accepted only when at least one current CI editor serves as coeditor,
+   with proposal routing through the address listed on the submissions page.
 6. **Revisions expected.** Acceptance typically follows author revisions; an invitation to revise is a
    serious, encouraging signal (see `ci-revision-and-response`).
 
@@ -73,5 +73,5 @@ Treat this skill as an executable review pass, not a prose hint. First lock the 
 
 ## Supplementary resources
 
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — review model, no-simultaneous-submission rule, commissioning notes, 待核实 items
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — review model, no-simultaneous-submission rule, commissioning notes, and live-check items
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — process and portal summary

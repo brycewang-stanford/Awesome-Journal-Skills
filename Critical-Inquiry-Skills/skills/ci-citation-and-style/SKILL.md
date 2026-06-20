@@ -22,7 +22,7 @@ an afterthought. Verify the current edition and wording on the official page.
 
 - **Footnotes**, numbered **consecutively** throughout the manuscript.
 - **No works-cited / bibliography list** — give full bibliographical information in the note at first
-  citation, short form thereafter, per **CMOS 17th ed.** (verify; CMOS 18th now exists — 待核实).
+  citation, short form thereafter, following the CI submissions page's **CMOS 17th ed.** wording.
 - Keep **discursive notes** lean: the cap **includes notes and all bibliographical information**
   (see `ci-writing-style`).
 - Use a reference manager with a **Chicago notes** style (Zotero / EndNote / BibLaTeX) and keep it

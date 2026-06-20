@@ -1,96 +1,106 @@
 # JMF Official Source Map
 
-Primary and authoritative sources behind the JMF-specific facts injected into this skill pack.
-Access date for all entries: **2026-06-02**. Re-verify volatile items (editor and editorial term,
-exact page/abstract caps, submission fees, submission-system URL, data-policy wording, article types)
-on the official page before relying on them — journal pages change, and JMF is mid-migration between
-submission systems.
+Primary sources behind the Journal of Marriage and Family facts used in this skill pack.
+Access date for this refresh: **2026-06-20**. Before an actual upload, live-check the
+NCFR submission pages for portal links, page-limit wording, fees, editor roster, and any
+journal-specific policy changes.
 
-## Official journal, submission & author pages
+## Journal Identity, Scope, and Ownership
 
-- **https://www.ncfr.org/jmf** — *Journal of Marriage and Family* home at the **National Council on
-  Family Relations (NCFR)**. Verifies: JMF is NCFR's flagship family-science journal, published by
-  **Wiley**; scope spans marriage, close relationships, and families.
-- **https://www.ncfr.org/jmf/submit-jmf/guidelines-first-submission-jmf** — Guidelines for First
-  Submission to JMF. Verifies: manuscript length limited to **35 pages** (including abstract, text,
-  tables, and figures); **brief reports ≤ 25 pages**; **modified APA style**; 12-point font, Microsoft
-  Word; manuscripts prepared for **anonymous (double-blind) peer review**; abstract included in the
-  main document. (NCFR pages may return HTTP 403 to automated fetchers; figures confirmed via NCFR
-  search renderings — re-verify on the live page. 待核实)
-- **https://www.ncfr.org/jmf/submit-jmf/jmf-style-guide** — JMF Style Guide. Verifies: **structured
-  abstract ~200–225 words** with labeled sections — **Objective** (1 sentence), **Background**
-  (2–3 sentences), **Method** (2–3 sentences), **Results** (2–3 sentences), **Conclusion**
-  (1–2 sentences), and **Implications** (optional); modified APA style; bias-free language per APA.
-- **https://www.ncfr.org/jmf/submit-jmf** — Submit to JMF (portal entry). Verifies: as of **June 25,
-  2025**, new JMF manuscripts are submitted through the **Wiley Research Exchange** platform;
-  submissions started before that date are managed in **ScholarOne Manuscript Central**.
-- **https://www.ncfr.org/jmf/submit-jmf/frequently-asked-questions** — FAQ about submitting to JMF.
-- **https://www.ncfr.org/jmf/submit-jmf/call-papers-transformative-family-scholarship** — Call for
-  Papers (transformative family scholarship); evidence of special-issue / call mechanisms.
-- **https://onlinelibrary.wiley.com/journal/17413737** — JMF on **Wiley Online Library** (publisher
-  home, current issues; ISSN **1741-3737**). Wiley pages may return **402/403** to automated fetchers;
-  re-verify in a browser.
-- **https://onlinelibrary.wiley.com/page/journal/17413737/homepage/forauthors.html** — Wiley author
-  guidelines for JMF (manuscript preparation, data policy, ORCID, open access). 待核实 (402/403 to
-  fetchers).
+- **https://www.ncfr.org/jmf** — NCFR journal home. Verifies that JMF is a leading
+  family-science journal published by NCFR, with original research, theory, research
+  interpretation, integrative reviews, methodological/statistical advances, critical
+  discussion, and brief reports on marriage, close relationships, and families. Also
+  verifies the broad social-science methods remit; contributors from Family Science,
+  human development, anthropology, demography, economics, history, psychology, and
+  sociology; February/April/June/August/October publication rhythm; COPE membership;
+  and NCFR copyright.
+- **https://www.ncfr.org/jmf/jmf-editorial-board-and-staff** — Current editorial board
+  and staff page. Verifies the current editor as **Spencer B. Olmstead, Ph.D.**
+  (University of Tennessee, Knoxville editorial office), current editorial assistants,
+  and the deputy-editor team. Use this page for any current masthead fact.
+- **https://onlinelibrary.wiley.com/journal/17413737** — Wiley Online Library journal
+  page. Use as the publisher-side current-issues and metadata checkpoint for JMF.
+- **https://onlinelibrary.wiley.com/page/journal/17413737/homepage/forauthors.html** —
+  Wiley author-guidelines landing page for JMF. It points authors back to NCFR for the
+  current submission guidelines; use it as a publisher-side route check, not as a
+  substitute for the NCFR instructions.
 
-## Peer-review & editorial policy
+## Submission, Format, and Style
 
-- **https://www.ncfr.org/jmf/jmf-reviewers/reviewer-guidelines** — Reviewer Guidelines for JMF.
-  Verifies: **double-blind anonymous peer review**; manuscripts must omit author names, affiliations,
-  contact information, and acknowledgements; self-citations to work under review or forthcoming should
-  be temporarily neutralized for review.
-- **https://www.ncfr.org/jmf/jmf-reviewers/editorial-review-process** — Editorial Review Process.
-  Verifies: the editor (or designate) identifies **three potential reviewers** (subject/method
-  specialists); reviewers who accept are given **21 days** to complete the review.
+- **https://www.ncfr.org/jmf/submit-jmf** — NCFR Submit to JMF page. Verifies that, as
+  of **June 25, 2025**, all new JMF manuscripts are submitted through **Wiley Research
+  Exchange**; manuscripts started before that date remain in Manuscript Central. It
+  also points authors to first-submission instructions, resubmission instructions,
+  style guide, table guidance, responsibilities, and FAQ.
+- **https://www.ncfr.org/jmf/submit-jmf/guidelines-first-submission-jmf** — NCFR first
+  submission guidelines, updated June 2025. Verifies that nonconforming manuscripts may
+  be returned before review; submissions must not be under review elsewhere, forthcoming,
+  or previously published; new submissions after June 25, 2025 use Wiley Research
+  Exchange; the manuscript should be double-spaced, 12-point font, in Microsoft Word;
+  Article manuscripts are limited to **35 pages** including abstract, text, tables, and
+  figures; Brief Reports are limited to **25 pages**; JMF uses modified APA style; the
+  abstract appears in the main manuscript; no footnotes or endnotes are allowed; up to
+  six keywords may be supplied; and tables are embedded in the text for review.
+- **https://www.ncfr.org/jmf/submit-jmf/jmf-style-guide** — JMF Style Guide, updated May
+  2024. Verifies modified APA style with JMF exceptions; Merriam-Webster's Collegiate
+  Dictionary, 11th ed., as the spelling reference; double spacing, ragged-right text,
+  12-point Times New Roman, one-inch margins, and page numbering; a structured abstract
+  of roughly **200-225 words** with **Objective**, **Background**, **Method**, **Results**,
+  **Conclusion**, and optional **Implications** headings; avoidance of first person in
+  the abstract; no footnotes/endnotes except acknowledgments; self-contained tables and
+  figures; two decimal places at most in tables; analytic sample sizes in each table or
+  model; Word tables; grayscale article figures; and title-history guidance for pre-2001
+  citations.
+- **https://www.ncfr.org/jmf/submit-jmf/frequently-asked-questions** — NCFR FAQ, updated
+  June 2025. Verifies that JMF publishes standard full-length manuscripts, Brief Reports,
+  and comments; Brief Reports suit focused contributions such as replications, innovative
+  designs, and important null findings; the reference list can be up to four pages for a
+  Brief Report; online-only appendices are excluded from the Brief Report page count; JMF
+  receives over 700 submissions per year; and accepted papers typically appear in print
+  approximately six to nine months after acceptance.
+
+## Blind Review and Editorial Process
+
+- **https://www.ncfr.org/jmf/submit-jmf/guidelines-first-submission-jmf** — Verifies
+  double-blind anonymous peer review and the anonymization requirements: omit author
+  names, affiliations, contact information, and acknowledgments; avoid self-citations
+  that reveal identity; do not replace names with "Author"; and temporarily remove
+  revealing under-review or forthcoming self-citations during review.
+- **https://www.ncfr.org/jmf/submit-jmf/frequently-asked-questions** — Verifies the
+  review pathway: editor screening; outright rejection when the paper is inappropriate
+  or unlikely to succeed; about **35%** of submissions rejected at that stage; three
+  potential reviewers identified by the editor or designate when the paper proceeds;
+  reviewers have **21 days** after accepting; decisions include reject, revise and
+  resubmit, or additional review; acceptance with almost no revision is rare; revisions
+  include a revision memo; at least one original reviewer often reads the revision; and
+  reconsideration requests must be submitted in writing within **30 days** when there is
+  a serious reviewer error.
+- **https://www.ncfr.org/jmf/jmf-reviewers/reviewer-guidelines** — Reviewer-facing
+  expectations and conduct guidance for evaluating JMF manuscripts.
 - **https://www.ncfr.org/jmf/jmf-reviewers/responsibilities-and-rights-peer-reviewers** —
-  Responsibilities and rights of JMF peer reviewers.
+  Reviewer responsibilities and rights within the JMF process.
 
-## Research transparency & data policy
+## Research Transparency and Data Policy
 
 - **https://authors.wiley.com/author-resources/Journal-Authors/open-access/data-sharing-citation/data-sharing-policy.html**
-  — Wiley Data Sharing Policy. Verifies the standard Wiley tiers (Encourages / Expects / Mandates):
-  the **"Expects"** tier (≈ TOP Level 1) requires a **data availability statement** in every article
-  to confirm presence or absence of shared data, plus data citation. The **specific tier JMF adopts**
-  was not confirmed verbatim. 待核实.
-- **https://www.ncfr.org/jmf/submit-jmf/guidelines-first-submission-jmf** — JMF guidance that authors
-  provide **sufficient detail on design and procedures to facilitate replication**; brief reports /
-  research notes are explicitly encouraged for **replications, innovative designs, and important null
-  findings**.
+  — Wiley Data Sharing Policy. Verifies that Wiley encourages sharing research data,
+  including raw/processed data, software, code, algorithms, protocols, methods, and
+  materials; all research- and synthesis-based articles must include a **Data
+  Availability Statement**; and Wiley defines tiered data-sharing expectations
+  (Encourages, Expects, Mandates) with standard statement templates and dataset citation
+  guidance.
+- **https://www.ncfr.org/jmf/submit-jmf/guidelines-first-submission-jmf** — JMF-specific
+  manuscript guidance to provide enough design and procedure detail for readers to
+  assess and reproduce the work where possible.
+- **https://www.ncfr.org/jmf/submit-jmf/frequently-asked-questions** — Confirms that JMF
+  explicitly welcomes Brief Reports for replications, innovative designs, and important
+  null findings, which raises the premium on clean replication materials.
 
-## Scope, owner, publisher, editor, history
+## Operational Live-Check Items
 
-- **https://onlinelibrary.wiley.com/journal/17413737** — Verifies: published by **Wiley** (Wiley-
-  Blackwell) on behalf of **NCFR**; scope = research, theory, interpretation, and critical discussion
-  on **marriage, close relationships, and families**.
-- **https://en.wikipedia.org/wiki/Journal_of_Marriage_and_Family** — Verifies: founded **1939** (as
-  *Living*; *Marriage and Family Living* 1941; current title **1964**); ISSN 1741-3737; published by
-  Wiley-Blackwell for NCFR; emphasis on social psychology, developmental psychology, demography,
-  family life, and gender studies.
-- **https://research.com/journal/journal-of-marriage-and-family** — Third-party metrics page.
-  Verifies (as of access date): Editor-in-Chief listed as **Kristi Williams (Ohio State University)**;
-  Q1; 2024 Impact Factor ≈ 4.18. Editor and metrics are volatile. 待核实.
-
-## UNVERIFIED / 待核实 items
-
-- **Current Editor-in-Chief and editorial term**: third-party pages list **Kristi Williams (OSU)** as
-  current and **Liana C. Sayer (Maryland)** as a recent prior editor with a deputy-editor team; the
-  exact term dates were not confirmed verbatim on an NCFR masthead. Confirm on the live NCFR page. 待核实.
-- **Submission fee**: a third-party journal-review page cites a **$25 (NCFR member) / $35 (non-member)**
-  submission fee; this was **not** confirmed verbatim on the live NCFR/Wiley pages and may be outdated
-  or changed by the system migration. Treat as indicative and confirm before budgeting. 待核实.
-- **Exact abstract word cap**: working figure is **~200–225 words** (structured) from the Style Guide;
-  confirm the current number and whether it is a hard cap on the live page. 待核实.
-- **Page-limit basis** (double-spaced; what counts; whether references/appendices are included):
-  working figure is **35 pages (≤ 25 for brief reports) including abstract, text, tables, figures**;
-  confirm inclusions/exclusions and any word-count equivalent on the live page. 待核实.
-- **Submission-system URL**: JMF is migrating to **Wiley Research Exchange** (new submissions after
-  25 Jun 2025) from **ScholarOne Manuscript Central**; confirm the current link from the NCFR "Submit"
-  page. 待核实.
-- **Data-sharing tier and any preregistration/open-science policy**: JMF asks for replication-level
-  detail and Wiley applies a data-sharing policy, but the **specific JMF tier**, data-availability-
-  statement requirement, and any **preregistration / Registered Reports** option were not confirmed
-  verbatim. Confirm on the Wiley author page. 待核实.
-- **Decision categories and time-to-decision**: reviewers get 21 days, but the journal's formal
-  decision labels (reject / major or minor revision / accept) and average time-to-decision were not
-  stated as fixed figures. 待核实.
+Do not hard-code these items into a manuscript plan without checking the current official
+page: the Wiley Research Exchange upload link, any current fee or open-access charge, exact
+file requirements, editor/deputy-editor roster, and whether the journal has added
+JMF-specific data-sharing language beyond Wiley's general Data Availability Statement
+requirement.

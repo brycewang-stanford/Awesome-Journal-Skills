@@ -3,8 +3,8 @@
 > **Verified via web search, access dates 2026-06-08 and 2026-06-13.** Every paper below was checked against SAGE
 > Journals' *Social Psychology Quarterly* article pages (`journals.sagepub.com/doi/...`, DOI prefix
 > `10.1177/...`) to confirm it actually appeared in **Social Psychology Quarterly** (the American
-> Sociological Association journal, published by SAGE), with year. Papers that could not be fully
-> verified as SPQ were **omitted** — this is deliberately a short, clean list rather than a long,
+> Sociological Association journal, published by SAGE), with year. Papers without full SPQ venue
+> confirmation were **omitted** — this is deliberately a short, clean list rather than a long,
 > uncertain one.
 >
 > **Sibling-confusion guard — SPQ is NOT any of these.** Do **not** attribute work here to, or confuse SPQ
@@ -16,8 +16,7 @@
 > **Use principle (zero hallucination):** this file gives **tradition + design positioning only**. It does
 > **not** reproduce or invent coefficients, sample sizes, or specific findings — read the original on SAGE
 > before citing any number. Every entry's exact volume(issue):pages is web-verified on the SAGE article
-> page; any future addition whose issue/pages cannot be confirmed should be marked **待核实 / TO VERIFY**
-> rather than guessed. For SPQ-specific
+> page; omit future additions until issue/pages can be confirmed on SAGE. For SPQ-specific
 > policy, scope, and the "do-not-misattribute" list, see [`../official-source-map.md`](../official-source-map.md).
 
 ---

@@ -95,14 +95,13 @@ licenses and current access terms before use, and verify any JMF-specific policy
 | Owner / publisher | **NCFR** (National Council on Family Relations) / **Wiley** |
 | Review model | **Double-blind anonymous** — anonymize the manuscript |
 | Article formats | Original research (quantitative / qualitative / multi-method); **brief reports** (≤ 25 pp.) for focused contributions, replications, innovative designs, important null findings |
-| Length | Manuscript **≤ 35 pages** (incl. abstract, text, tables, figures); **brief reports ≤ 25 pages** (待核实) |
+| Length | Article manuscript **≤ 35 pages** (incl. abstract, text, tables, figures); **Brief Report ≤ 25 pages** |
 | Style | **Modified APA**; structured abstract ~200–225 words; bias-free language |
-| Data policy | Replication-level detail; Wiley data-sharing policy / data availability statement (specific tier 待核实) |
+| Data policy | Replication-level detail; Wiley Data Availability Statement; document shared/restricted data access path |
 
 ## 7. Cautions
-1. **Verify volatile specifics** (editor, exact caps, fees, submission-system URL, data-policy wording)
-   on the official NCFR/Wiley pages — they change, and JMF is mid-migration; unverified items are
-   marked 待核实.
+1. **Live-check volatile specifics** (editor roster, exact file requirements, fees, portal link,
+   and any journal-specific data-policy wording) on the official NCFR/Wiley pages before upload.
 2. **Anonymize properly** — JMF is double-blind; strip names, affiliations, contact info,
    acknowledgements, and self-references to work under review/forthcoming.
 3. **Match the unit of analysis** — individual, dyad, family, household, or cohort; use dyadic/

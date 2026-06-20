@@ -8,7 +8,7 @@ description: Use when responding to an American Journal of Sociology (AJS) decis
 Two distinct AJS situations need a response: a **revise-and-resubmit** (respond to anonymous reviewers
 + editor) and an **author Reply** to a published **Comment** (AJS's long Comment-and-Reply tradition).
 Both reward calm, specific, evidence-based engagement over defensiveness. Verify any process detail
-(R&R timelines, Comment/Reply mechanics) on the live pages (待核实).
+(R&R timelines, Comment/Reply mechanics) on the live pages before submission.
 
 ## When to trigger
 

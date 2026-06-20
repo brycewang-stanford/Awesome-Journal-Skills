@@ -74,14 +74,13 @@ policy in [`official-source-map.md`](official-source-map.md).
 | Formats | Article **≤ 9,500 words** (incl. discursive notes + all bibliographical info) · Critical Response **≤ 3,000** · Review **≤ 500** |
 | File format | **Microsoft Word**; images as **separate 300 ppi JPEG/TIFF** |
 | Citations | **Chicago Manual of Style, 17th ed.** footnotes; **no works-cited list** |
-| Submission fee | **None stated**; optional **Gold open access** (APC, verify) |
+| Submission fee | No separate submission fee listed in the checked CI submissions instructions; optional **Gold open access** fee **$2,500** |
 | Multiple submission | **Not accepted** — no simultaneous submission elsewhere |
 | Permissions | **Author secures image permissions** before publication |
 
 ## 6. Cautions
-1. **Verify volatile specifics** (editors and term, exact caps, fee/APC, image-permission wording,
-   accepted formats) on the official CI / University of Chicago Press pages — they change; unverified
-   items are marked 待核实.
+1. **Verify volatile specifics** (editors and term, caps, OA terms, image-permission wording,
+   accepted formats) on the official CI / University of Chicago Press pages immediately before upload.
 2. **This is theory, not data.** Do not import a social-science apparatus (hypotheses, datasets,
    models, replication) into a CI essay; the "evidence" is texts, images, artworks, and cases read
    closely (see `ci-evidence-and-objects`).

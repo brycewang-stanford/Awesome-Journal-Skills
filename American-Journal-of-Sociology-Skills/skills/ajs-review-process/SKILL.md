@@ -9,7 +9,7 @@ AJS's review process is **unusual** and worth understanding before submitting. I
 run out of the **University of Chicago Department of Sociology**, with graduate students doing
 reviewer assignment and a **"preject"** screen for papers not in dialogue with current sociology.
 Knowing this lets you pre-empt the failure modes. Verify volatile specifics on the live editorial
-pages (待核实; UChicago Press pages are 403 to automated fetch).
+pages before submission.
 
 ## When to trigger
 

@@ -46,10 +46,10 @@ JMF's constraints differ from a general sociology, psychology, or economics jour
 | Style                 | **Modified APA**; bias-free language                                           | Not generic Chicago; describe family forms precisely              |
 | Transparency          | Replication-level detail + **data availability statement** (Wiley policy)      | Plan for restricted-use data: access path + synthetic data        |
 
-Volatile specifics (editor and term, exact caps, fees, submission-system URL, data-policy wording)
-change — items not directly confirmed are marked **待核实** in
-[`resources/official-source-map.md`](resources/official-source-map.md). **Verify on the official
-NCFR / Wiley pages.**
+The pack's venue facts are mapped to NCFR / Wiley sources in
+[`resources/official-source-map.md`](resources/official-source-map.md). Before an actual upload,
+live-check the official pages for volatile operational details such as the portal link, fees,
+editor roster, file requirements, and any journal-specific policy updates.
 
 ### Two manuscript formats
 
@@ -141,7 +141,7 @@ reassessing a published finding or reporting an important null, consider the **B
 ### Resources
 
 - [`resources/external_tools.md`](resources/external_tools.md) — family-science data sources (PSID / NLSY / Add Health / Fragile Families / NSFG / HRS / pairfam / IPUMS) + R / Stata / Python dyadic, longitudinal, survival, and survey tooling
-- [`resources/official-source-map.md`](resources/official-source-map.md) — official NCFR / Wiley URLs behind every fact, with 待核实 markers on unverified items
+- [`resources/official-source-map.md`](resources/official-source-map.md) — official NCFR / Wiley URLs behind the pack's venue-specific facts
 
 ---
 
@@ -149,7 +149,7 @@ reassessing a published finding or reporting an important null, consider the **B
 
 - It does not write a submittable manuscript for you
 - It does not simulate any specific editor's or reviewer's taste
-- It does not assert volatile metadata (current editor and term, exact caps, fees, submission-system URL, policy wording) — verify on the official pages; unverified items are marked 待核实
+- It does not replace a live final check of operational metadata (portal link, fees, current masthead, file requirements, policy wording)
 - It does not decide whether your question is a genuine family-science contribution — that is the researcher's call
 
 ---

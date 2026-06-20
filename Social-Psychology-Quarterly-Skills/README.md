@@ -46,10 +46,10 @@ and the general-sociology journals:
 | Style                 | **ASA Style Guide** (author-date)                                             | Not APA; not Chicago-generic                                     |
 | Data / transparency   | Sharing data/code/materials **encouraged, NOT required**; **no impact on acceptance** | A norm, **not** a verified replication gate              |
 
-Volatile specifics (editors and term, fee, exact caps, data-policy wording, masking rules) change — items
-not directly confirmed are marked **待核实** in
-[`resources/official-source-map.md`](resources/official-source-map.md). **Verify on the official journal
-page.**
+The pack's venue facts are mapped to SAGE / ASA sources in
+[`resources/official-source-map.md`](resources/official-source-map.md). Before an actual upload,
+live-check the official pages for operational details such as the submission link, fee workflow,
+editorial-office email, file handling, open-access prompts, and policy wording.
 
 ### The traditions of sociological social psychology
 
@@ -142,7 +142,7 @@ whether you are writing a full **Article** or a **Note**.
 ### Resources
 
 - [`resources/external_tools.md`](resources/external_tools.md) — sociological-social-psychology data (GSS / ACL / MIDUS / Add Health) + experimental, survey, SEM, affect-control, and CAQDAS tooling by tradition
-- [`resources/official-source-map.md`](resources/official-source-map.md) — official SAGE / ASA URLs behind every fact, with 待核实 markers
+- [`resources/official-source-map.md`](resources/official-source-map.md) — official SAGE / ASA URLs behind the pack's venue-specific facts
 
 ---
 
@@ -150,7 +150,7 @@ whether you are writing a full **Article** or a **Note**.
 
 - It does not write a submittable manuscript for you
 - It does not simulate any specific editor's or reviewer's taste
-- It does not assert volatile metadata (current editors and term, fee, exact caps, data-policy wording) — verify on the official page; unverified items are marked 待核实
+- It does not replace a live final check of operational metadata (submission link, fee workflow, current masthead, file handling, policy wording)
 - It does not turn a psychology paper or a macro-sociology paper into an SPQ paper — the structure–individual contribution is the researcher's to make
 
 ---

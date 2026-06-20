@@ -7,8 +7,8 @@ description: Use when running the final pre-submission preflight for Social Psyc
 
 The last check before pressing submit on **SageTrack / ScholarOne Manuscript Central**. SPQ is **masked**,
 so the single most common avoidable failure is an under-blinded manuscript — which the editorial office
-will **temporarily reject** and return for reformatting. Verify volatile specifics on the official page
-before relying on them.
+will **temporarily reject** and return for reformatting. Live-check SageTrack for the current upload
+fields and payment prompt before relying on a saved checklist.
 
 ## When to trigger
 
@@ -16,21 +16,22 @@ before relying on them.
 - Unsure which files/metadata SageTrack expects
 - Confirming the chosen article type's caps are met and the manuscript is properly blinded
 
-## Process facts (verify volatile items on the official page)
+## Process facts
 
 - **Owner / publisher:** American Sociological Association (ASA) / SAGE.
 - **Portal:** **SageTrack / ScholarOne Manuscript Central** (create an account if you have not used it for
   another ASA journal).
 - **Review model:** **masked / blinded** — a blinded manuscript file **plus a separate title page** file.
 - **Article types:** **Article** (≤ 10,000 words, all parts, excl. supplementary materials) and **Note**
-  (≤ 5,000 words). (待核实 on any other types; do not assume a Registered Reports track.)
+  (≤ 5,000 words). Do not assume a Registered Reports track for SPQ unless it appears in the live
+  SageTrack options.
 - **Abstract:** **~150 words**, **non-identifying**, on a separate page headed by the title; **author
   names omitted**; a few **keywords** after the abstract.
 - **Title page (separate file):** full title, author(s) and affiliation(s), running head, and the
   **approximate word count** (including notes and references).
 - **Style:** **ASA Style Guide** (author-date).
 - **Fee:** **$25** manuscript processing fee on **first** submission; **not** charged for
-  revised/resubmitted manuscripts or for **ASA student members** (待核实 the current amount/waiver wording).
+  revised/resubmitted manuscripts or for **ASA student members**.
 
 ## Preflight checklist
 

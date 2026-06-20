@@ -25,7 +25,7 @@ review process, and ties final acceptance to **replicability** assessed by a **J
    incremental papers are at risk here.
 3. **External review.** Papers passing the desk go to expert reviewers across the relevant subfield(s).
 4. **Decision categories**: typically **reject**, **revise and resubmit**, or **accept** — and JOP is
-   reputed for an **efficient** process (treat speed as a qualitative norm, not a guaranteed clock; 待核实).
+   reputed for an **efficient** process (treat speed as a qualitative norm, not a guaranteed clock).
 5. **Conditional acceptance → replication check.** Acceptance is **contingent on replicability**: a
    **JOP replication analyst** assesses the deposited package before publication, and **non-replicable
    manuscripts are rejected** (see `jop-replication-and-data-policy`).
@@ -42,7 +42,7 @@ review process, and ties final acceptance to **replicability** assessed by a **J
 
 - Submitting a specialist-only paper to a general-interest journal (fit desk screen)
 - Over-length or wrong-category submission (page-budget screen)
-- Assuming a guaranteed turnaround because JOP is "fast" — speed is a norm, not a promise (待核实)
+- Assuming a guaranteed turnaround because JOP is "fast" — speed is a norm, not a promise
 - Treating acceptance as final before the replication analyst has signed off
 
 ## The gauntlet, stage by stage

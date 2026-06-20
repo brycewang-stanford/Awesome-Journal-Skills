@@ -91,8 +91,8 @@ licenses and current access terms before use, and verify any SPQ-specific policy
 | Data policy | Sharing data/code/materials is **encouraged but NOT required**; willingness to share **has no impact on acceptance** (ASA data-sharing norm) |
 
 ## 7. Cautions
-1. **Verify volatile specifics** (editors, exact caps, fee, data-policy wording) on the official
-   SAGE/ASA pages — they change; unverified items are marked 待核实.
+1. **Live-check operational specifics** (submission link, editor-office email, fee workflow,
+   open-access prompts, and file handling) on the official SAGE/ASA pages before upload.
 2. **Blind properly** — SPQ is masked; submit a blinded manuscript plus a separate title page, or the
    editorial office will temporarily reject it.
 3. **Sharing is encouraged, not mandated** — do **not** treat SPQ like an open-data-required journal;

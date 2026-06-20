@@ -9,8 +9,7 @@ AJS's public author guidance is **less prescriptive** on mandatory replication t
 there is **no advertised editor-verified reproducibility deposit** comparable to a Dataverse
 verification step. Do **not** assert a requirement that AJS does not state. The right posture is:
 document thoroughly, share what you ethically can, protect informants, and **confirm the current
-supplementary-materials / data-availability policy on the live AJS pages** (待核实; UChicago Press
-pages are 403 to automated fetch).
+supplementary-materials / data-availability policy on the live AJS pages** before submission.
 
 ## When to trigger
 
@@ -22,8 +21,8 @@ pages are 403 to automated fetch).
 ## What AJS does / does not require (verify current wording)
 
 - **No advertised mandatory, editor-verified replication package.** Treat reproducibility as **good
-  practice you choose**, not a stated gate. 待核实 for any current data-availability or supplementary
-  policy.
+  practice you choose**, not a stated gate; live-check current data-availability or supplementary
+  policy before submission.
 - **Originality / overlap:** if the paper overlaps your prior published or under-review work, prepare
   a brief **originality statement** saying what is new here.
 - **Ethics:** **concurrent submission to more than one journal violates the Press's ethical
@@ -47,7 +46,7 @@ pages are 403 to automated fetch).
 
 AJS is method-pluralist, so "transparency" means a checkable evidentiary trail proportionate to the claim, not a one-size deposit. Confirm current policy wording against the journal's current submission guidelines.
 
-| Tradition | Minimum documentation | Substitute when sharing is blocked |
+| Tradition | Minimum documentation | Substitute when full sharing is impossible |
 |-----------|-----------------------|------------------------------------|
 | Quantitative (public data) | master script, codebook, pinned versions, seeds | post code + derivation steps |
 | Quantitative (restricted) | as above + an access path | synthetic data + application instructions |
@@ -57,7 +56,7 @@ AJS is method-pluralist, so "transparency" means a checkable evidentiary trail p
 
 ## Calibration (where AJS sits, hedged)
 
-AJS's craftsmanship culture means referees value a documentation trail that lets a skeptical reader follow the inference — even though AJS does not advertise an editor-verified replication gate the way some political-science journals do. Unlike a parsimony-first sibling that may lean on one mandatory deposit, at AJS the depth and checkability of the tradition-appropriate trail carry the day; treat thorough documentation as a craft choice, and confirm the live data-availability policy (待核实; UChicago Press pages are 403 to automated fetch).
+AJS's craftsmanship culture means referees value a documentation trail that lets a skeptical reader follow the inference — even though AJS does not advertise an editor-verified replication gate the way some political-science journals do. Unlike a parsimony-first sibling that may lean on one mandatory deposit, at AJS the depth and checkability of the tradition-appropriate trail carry the day; treat thorough documentation as a craft choice, and confirm the live data-availability policy before submission.
 
 Illustrative: a welfare-state study draws on three archives plus a restricted panel that cannot be redistributed. Applying the table, the author posts the script and codebook, adds a source appendix with exact archive locators (an illustrative ~140 primary sources), and supplies a synthetic panel plus data-access steps — documentation chosen to make the inference checkable, not overstated as an AJS-verified deposit.
 
@@ -77,11 +76,11 @@ Illustrative: a welfare-state study draws on three archives plus a restricted pa
 【Documentation】README/codebook + provenance + (quant) seeds/pinned versions? [Y/N]
 【Confidentiality】informant/participant protection handled? [Y/N]
 【Originality statement】prepared if overlap with prior work? [Y/N/NA]
-【Policy check】current AJS data/supplementary policy confirmed on live page? [Y/N/待核实]
+【Policy check】current AJS data/supplementary policy confirmed on live page? [Y/N/live-check needed]
 【Next】ajs-review-process
 ```
 
 ## Supplementary resources
 
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — reproducibility tooling and controlled-access options (QDR)
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — AJS ethics / originality (and the 待核实 note that no verified replication deposit is advertised)
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — AJS ethics / originality and the live-check boundary for data policy

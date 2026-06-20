@@ -8,7 +8,7 @@ description: Use when building tables and figures for an American Journal of Soc
 AJS has **specific house conventions** for exhibits, and it now **requires alt text for every figure
 at submission**. Get the mechanics right so the exhibits read cleanly under double-blind review and
 pass straight into production. Verify current formatting against the AJS Manuscript Preparation pages
-and Formatting PDF (待核实; UChicago Press pages are 403 to automated fetch).
+and Formatting PDF before submission.
 
 ## When to trigger
 

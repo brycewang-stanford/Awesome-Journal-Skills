@@ -3,8 +3,8 @@
 > **Verified via web search, access date 2026-06-08.** Every paper below was checked against Wiley
 > Online Library (`onlinelibrary.wiley.com/doi/...jomf...` or the legacy `...j.1741-3737...` /
 > `...j.0022-2445...` DOIs) to confirm it actually appeared in the **Journal of Marriage and Family**
-> (National Council on Family Relations / Wiley), with year and volume/pages. Candidates that could not
-> be fully verified as JMF were **omitted** — it is deliberately a short, clean list rather than a long,
+> (National Council on Family Relations / Wiley), with year and volume/pages. Candidates without full
+> JMF venue confirmation were **omitted** — it is deliberately a short, clean list rather than a long,
 > uncertain one.
 >
 > **Same-journal note:** JMF was titled *Journal of Marriage and **the** Family* through 2000 and was
@@ -63,7 +63,7 @@ in the shared hub: [`../../../shared-resources/empirical-methods/reviewer-object
     explain a gap between stated marriage intentions and behavior — a model of multi-method integration
     where each strand does work the other cannot (see the qualitative/mixed section of
     [`../../skills/jmf-research-design/SKILL.md`](../../skills/jmf-research-design/SKILL.md)).
-  - **Self-check:** in your mixed design, does each strand add something the other could not, with an
+  - **Self-check:** in your mixed design, does each strand add something unavailable from the other strand, with an
     explicit joint interpretation?
 
 ### Quantitative synthesis of a dyadic association (meta-analysis / couples)

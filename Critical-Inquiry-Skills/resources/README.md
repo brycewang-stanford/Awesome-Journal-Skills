@@ -15,7 +15,7 @@ deliberate contrast to the empirical-economics packs.
 | --- | --- |
 | [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | See a before→after rewrite of an essay **opening** in CI house style — the arc *object → stakes → intervention → conversation → turn → opening close*, with a declared intervention type and cross-field stakes. Clearly-marked **fictional** essay; no data, no invented quotations. |
 | [`exemplars/library.md`](exemplars/library.md) | Benchmark against **real, web-verified CI essays** (University of Chicago Press; `10.1086/…` DOIs) organized by field × kind of intervention. Positioning only — no fabricated arguments or quotations; includes a sibling-confusion guard and an omissions list. |
-| [`official-source-map.md`](official-source-map.md) | **CI-specific policy & facts:** Editorial Manager submission, Word-file requirement, ≤ 9,500-word cap (notes + all bibliographical info included), 300 ppi JPEG/TIFF image rule and author-secured permissions, Chicago footnotes / no works-cited list, scope/history, and a 待核实 list of volatile items. The authoritative pack source. |
+| [`official-source-map.md`](official-source-map.md) | **CI-specific policy & facts:** Editorial Manager submission, Word-file requirement, ≤ 9,500-word cap (notes + all bibliographical info included), 300 ppi JPEG/TIFF image rule and author-secured permissions, Chicago footnotes / no works-cited list, scope/history, current editorial metadata, OA terms, and live-check items. The authoritative pack source. |
 | [`external_tools.md`](external_tools.md) | External tools, archives, text/image sources, and the note-discipline / word-count aids referenced by the pack. |
 
 ## No code kit (humanities venue)

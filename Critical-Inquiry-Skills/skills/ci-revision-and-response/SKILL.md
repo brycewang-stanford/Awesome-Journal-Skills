@@ -66,7 +66,7 @@ Use this as a second-pass capability check. First lock the object, theoretical s
 - **Primary move:** Return a claim-evidence-risk ledger; every recommendation must point to a manuscript location or missing artifact.
 - **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
 - **Neighbor test:** compare against PMLA for literary-field reach, New Literary History for theory/history, Representations for historically grounded cultural analysis; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
-- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name any live-check fact that could change the recommendation.
 
 ## Output format
 

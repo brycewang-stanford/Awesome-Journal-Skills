@@ -6,7 +6,7 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Journal](https://img.shields.io/badge/journal-AJS-2f3e5c)](https://www.journals.uchicago.edu/journals/ajs)
-[![Field](https://img.shields.io/badge/field-社会学-1f6feb)](https://en.wikipedia.org/wiki/American_Journal_of_Sociology)
+[![Field](https://img.shields.io/badge/field-社会学-1f6feb)](https://www.journals.uchicago.edu/journals/ajs)
 [![Claude Code](https://img.shields.io/badge/agent-Claude%20Code-cc785c)](https://github.com/anthropics/claude-code)
 
 [English](README.md) | 简体中文
@@ -36,13 +36,12 @@ AJS 的约束不同于 ASR，也不同于领域刊/方法刊：
 | 费用 | **30 美元投稿费**；**单一作者研究生** 可免 | 非研究生须预算此费 |
 | 篇幅 | **无固定字数上限**；鼓励精炼（超过约 18,000 词评审更费时）| 容忍长文但不鼓励；**摘要约 150 词** |
 | 体例 | **AJS 自有 author-date 体例** | **不是** ASA Style Guide；具体格式核对官方页 |
-| 透明度 | **未宣称强制的编辑部核验复现存储** | 充分记录，但不要夸大要求（待核实） |
+| 透明度 | **未宣称强制的编辑部核验复现存储** | 充分记录；声明存储门槛前核对现行政策 |
 | 特色 | **Comment-and-Reply** 传统；可观的 **书评** 栏目；Roger V. Gould 奖 | 投稿前选对文章类型 |
 
-易变信息（现任编辑与任期、确切费用/豁免、篇幅与摘要要求、引用体例细节、任何数据政策）会变化——
-未直接页面核实项在 [`resources/official-source-map.md`](resources/official-source-map.md) 中标 **待核实**。
-芝加哥大学出版社页面在自动抓取时返回 HTTP 403，故事实来自其官方页面的检索渲染与维基百科。
-**请以官方期刊页面为准。**
+易变信息（现任编辑与任期、确切费用/豁免、篇幅与摘要要求、引用体例细节、任何数据政策）会变化。
+[`resources/official-source-map.md`](resources/official-source-map.md) 为每条事实标出芝加哥大学出版社、
+Editorial Manager 或芝加哥大学的官方来源路径；投稿前请在浏览器中即时核对这些操作性细节。
 
 ### AJS vs. ASR 一览
 
@@ -132,7 +131,7 @@ ajs-rebuttal
 ### 资源
 
 - [`resources/external_tools.md`](resources/external_tools.md) — 社会学数据源（GSS / IPUMS / PSID / V-Dem / 网络与定性数据）+ R / Stata / Python 与 CAQDAS/QCA 工具
-- [`resources/official-source-map.md`](resources/official-source-map.md) — 每条事实背后的芝大社 / AJS 官方 URL，未核实项标 待核实
+- [`resources/official-source-map.md`](resources/official-source-map.md) — 每条事实背后的芝大社 / AJS 官方 URL，以及易变项目的 live-check 提示
 
 ---
 
@@ -140,7 +139,7 @@ ajs-rebuttal
 
 - 不替你写出可直接投稿的稿件
 - 不模拟任何特定编辑或评审人的口味
-- 不臆断易变元数据（现任编辑与任期、确切费用/豁免、篇幅/摘要规则、引用体例、数据政策）——请以官方页面为准；未核实项标 待核实
+- 不在缺少当前官方来源路径时臆断易变元数据（现任编辑与任期、确切费用/豁免、篇幅/摘要规则、引用体例、数据政策）；投稿前请以官方页面即时核对
 - 不替你判断你的工作是否对 AJS 足够有理论雄心——那是研究者的判断
 
 ---
@@ -149,7 +148,7 @@ ajs-rebuttal
 
 - [awesome-journal-skills](https://github.com/brycewang-stanford/awesome-journal-skills) — 期刊专属技能包索引
 - [American Journal of Sociology（芝加哥大学出版社）](https://www.journals.uchicago.edu/journals/ajs) — 出版方主页、投稿说明、编辑政策
-- [AJS 维基百科](https://en.wikipedia.org/wiki/American_Journal_of_Sociology) — 历史、创办、范围
+- [AJS 投稿说明](https://www.journals.uchicago.edu/journals/ajs/instruct) — 当前作者指南与投稿机制
 
 ---
 

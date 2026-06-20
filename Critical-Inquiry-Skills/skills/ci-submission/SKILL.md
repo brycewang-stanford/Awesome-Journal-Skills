@@ -26,13 +26,14 @@ page before relying on them.
 - **Formats & caps:** **Article ≤ 9,500 words** (**includes discursive notes and all bibliographical
   information**); **Critical Response ≤ 3,000 words**; **Review ≤ 500 words**.
 - **Manuscript file:** **Microsoft Word**.
-- **Citations:** **Chicago Manual of Style, 17th ed.** footnotes, numbered consecutively; **no
-  works-cited list** (待核实 on 17th vs 18th ed.).
+- **Citations:** footnotes roughly following **The Chicago Manual of Style, 17th ed.**, numbered
+  consecutively; **no works-cited list**.
 - **Images:** **separate 300 ppi JPEG/TIFF** files, not embedded; **author secures permissions** before
   publication.
 - **Multiple submission:** **not accepted** — not under consideration elsewhere.
-- **Fee:** **no submission fee** stated; optional **Gold open access** APC (待核实 on amount/eligibility).
-- **Abstract:** none specified in the guidelines (待核实).
+- **Fee:** no separate submission fee listed in the checked submissions instructions; optional **Gold
+  open access** fee **$2,500**, requested at submission or no later than acceptance when relevant.
+- **Abstract:** no separate abstract requirement is listed in the checked submissions instructions.
 
 ## Preflight checklist
 
@@ -70,7 +71,7 @@ Use this as a second-pass capability check. First lock the object, theoretical s
 - **Primary move:** Verify portal, article type, anonymity, declarations, files, data/code, and current source-map facts; return blockers before formatting advice.
 - **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
 - **Neighbor test:** compare against PMLA for literary-field reach, New Literary History for theory/history, Representations for historically grounded cultural analysis; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
-- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name any live-check fact that could change the recommendation.
 
 ## Output format
 

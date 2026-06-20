@@ -15,7 +15,7 @@ failure modes dominate: an **over-the-page-budget** manuscript (JOP counts **pag
 - Unsure which files/metadata Editorial Manager expects
 - Confirming the category's page limit is met and the manuscript is properly anonymized
 
-## Process facts (verify volatile items on the official page)
+## Process facts (refreshed 2026-06-20; live-check volatile items on the official page)
 
 - **Owner / publisher:** Southern Political Science Association (SPSA) / University of Chicago Press.
 - **Portal:** **Editorial Manager** (`editorialmanager.com/jop`).
@@ -25,7 +25,8 @@ failure modes dominate: an **over-the-page-budget** manuscript (JOP counts **pag
 - **Online Appendix:** separate file, **≤ 25 pages**, **excluded** from the 35-page limit.
 - **Abstract:** **≤ 150 words** (question + approach + findings; no citations); **4–5 keywords**.
 - **Style:** **The JOP Style Guide** (house author-date).
-- **Fee:** no submission fee stated; no membership requirement (待核实; confirm any post-acceptance OA APC).
+- **Fee:** no separate upload-stage charge identified in the refreshed official snippets; UChicago
+  snippets show an optional open-access request fee of **USD 2,500** to confirm on the live page.
 
 ## Preflight checklist
 
@@ -55,7 +56,7 @@ failure modes dominate: an **over-the-page-budget** manuscript (JOP counts **pag
 - Leaving author identifiers in the text, acknowledgments, or file metadata (breaks anonymity)
 - Online Appendix over 25 pages, or smuggling main-text content into it to dodge the 35-page cap
 - Sending a long paper to the Short Article category
-- Budgeting for a submission fee that is not charged (verify)
+- Budgeting for an upload-stage charge without checking the live Editorial Manager/UChicago screen
 
 ## Desk-reject triggers at the upload gate
 
@@ -85,7 +86,7 @@ bibliography is trimmed, and footnotes fold into the text, bringing it to 34 pag
 - *"Anonymity is compromised."* The most common leak is PDF document properties, not the text — strip
   metadata and keep the title page a separate file.
 - *"Confirm fee / OA terms."* Fee and open-access policies can change; confirm against the journal's
-  current submission guidelines rather than assuming (待核实).
+  current submission guidelines and Editorial Manager screen rather than assuming.
 
 ## Output format
 

@@ -7,7 +7,7 @@ description: Use to understand how the Journal of Marriage and Family (JMF) eval
 
 Knowing how JMF screens and decides lets you pre-empt failure modes before submitting. JMF is
 **double-blind**: reviewers do not know who you are and you do not know them, so anonymization is not
-optional. Verify volatile specifics (editor, exact timelines, decision labels) on the official pages.
+optional. Use the current NCFR pages for live editor roster, portal, and timeline checks.
 
 ## When to trigger
 
@@ -30,7 +30,7 @@ optional. Verify volatile specifics (editor, exact timelines, decision labels) o
    abstract attracts good reviewers and speeds decisions.
 4. **Decision pathway.** Expect **reject**, **revise and resubmit** (major or minor), or **accept**.
    Most papers that ultimately publish go through at least one R&R; treat an R&R as a real opportunity,
-   not a near-rejection (decision labels and timelines: 待核实).
+   not a near-rejection.
 
 ## Shape the paper to pass
 
@@ -72,4 +72,4 @@ Treat this skill as an executable review pass, not a prose hint. First lock the 
 
 ## Supplementary resources
 
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — reviewer guidelines, editorial review process, double-blind policy (待核实 items)
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — reviewer guidelines, editorial review process, and double-blind policy

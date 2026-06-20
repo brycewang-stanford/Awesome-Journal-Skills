@@ -60,7 +60,7 @@ Run this as a concrete capability pass. First lock the social-psychological proc
 - **Primary move:** Rewrite the opening and transitions so the venue-level claim, evidence object, and contribution are visible before technical detail; keep house-style limits tied to the source map.
 - **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
 - **Sibling comparison:** compare against JPSP for psychology breadth, ASR/AJS for sociology theory stakes, Social Forces for broader empirical sociology; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
-- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` and name the live-check item that could change the upload plan.
 
 ## Output format
 

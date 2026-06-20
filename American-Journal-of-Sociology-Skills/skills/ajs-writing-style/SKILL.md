@@ -8,8 +8,7 @@ description: Use when shaping the prose, structure, and citations of an American
 AJS uses its **own author-date house style** — documented in the AJS Manuscript Preparation pages and
 Formatting PDF — **not** the ASA Style Guide that ASA journals (e.g., ASR) require. This is a frequent,
 avoidable mistake. Beyond mechanics, AJS prose should be **theoretically ambitious and legible to a
-generalist sociologist**. Verify current style details on the live prep pages (待核实; UChicago Press
-pages are 403 to automated fetch).
+generalist sociologist**. Verify current style details on the live prep pages before submission.
 
 ## When to trigger
 
@@ -39,7 +38,7 @@ pages are 403 to automated fetch).
   able to follow a quantitative paper, and vice versa.
 - **Concision over length.** AJS has **no fixed word cap** but explicitly encourages concision, and
   **referees may need more time for papers over ~18,000 words** — long is allowed, not rewarded.
-  (待核实 — confirm current length norms.)
+  Live-check current length guidance before upload.
 
 ## The AJS sentence-level prose bar (calibration, hedged)
 
@@ -60,7 +59,7 @@ Craft heuristics for the journal's long-form culture, not graded rules; confirm 
 | "Long without warrant." | pages not earning their keep | cut procedural narration; keep argumentative prose |
 | "Tone is defensive / thin." | rival readings ignored | name the strongest alternative and address it in text |
 
-Illustrative: an ethnographic draft opens with four pages of site description before any concept; a referee writes "I could not find the argument until page 12." The author moves the portable claim — an illustrative "interactional deference rituals reproduce class advantage without explicit gatekeeping" — to page 2, glosses two field-specific terms, and cuts scene-setting that did not advance the mechanism.
+Illustrative: an ethnographic draft opens with four pages of site description before any concept; a referee writes "I only found the argument on page 12." The author moves the portable claim — an illustrative "interactional deference rituals reproduce class advantage without explicit gatekeeping" — to page 2, glosses two field-specific terms, and cuts scene-setting that did not advance the mechanism.
 
 ## Anti-patterns
 

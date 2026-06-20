@@ -80,7 +80,7 @@ bootstrap CI, and the re-run matches the printed page.
 - *"Your code does not run on my machine."* Test from a fresh clone with no local state, use relative
   paths, and pin software and package versions in the readme.
 - *"Confirm the data are restricted as claimed."* Confirm the journal's current sharing expectations
-  against the policy page before relying on a restricted-data path (待核实).
+  against the policy page before relying on a restricted-data path.
 
 ## Output format
 
