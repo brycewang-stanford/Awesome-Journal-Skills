@@ -1,6 +1,7 @@
 ---
 name: etp-writing-style
-description: Use when the prose, abstract, or introduction of an Entrepreneurship Theory and Practice (ETP) manuscript does not land the journal's theory-and-practice voice. Polishes the writing; it does not build the contribution (etp-contribution-framing) or run the submission preflight (etp-submission).
+description: Use when the prose, abstract, or introduction of an Entrepreneurship Theory and Practice (ETP) manuscript does not land the journal's theory-and-practice voice.
+Polishes the writing; it does not build the contribution (etp-contribution-framing) or run the submission preflight (etp-submission).
 ---
 
 # Writing Style (etp-writing-style)
@@ -15,7 +16,10 @@ description: Use when the prose, abstract, or introduction of an Entrepreneurshi
 
 ## The ETP voice
 
-ETP prose is **theory-forward and accessible**. It is more conceptual than a finance journal and more practitioner-aware than a pure-theory management outlet — the USASBE heritage means a reader expects the writing to *connect to entrepreneurial reality*. The hallmark is a paper that a sophisticated scholar reads for the theory and a thoughtful practitioner reads for the implication, without either feeling shortchanged. Write in **APA** style, in clear declarative prose, and keep the entrepreneurial phenomenon concrete (real venturing situations, not abstractions about "organizations").
+ETP prose is **theory-forward and accessible**.
+It is more conceptual than a finance journal and more practitioner-aware than a pure-theory management outlet — the USASBE heritage means a reader expects the writing to *connect to entrepreneurial reality*.
+The hallmark is a paper that a sophisticated scholar reads for the theory and a thoughtful practitioner reads for the implication, without either feeling shortchanged.
+Write in **APA** style, in clear declarative prose, and keep the entrepreneurial phenomenon concrete (real venturing situations, not abstractions about "organizations").
 
 ## Engineer the introduction (do this last)
 
@@ -31,7 +35,9 @@ Write the introduction *after* the analysis and contribution settle; an intro dr
 
 ## Make the abstract a contribution, not a recap
 
-The abstract should state the puzzle, the mechanism, the key finding *with a sense of magnitude*, and the dual contribution (theory + practice). A common ETP abstract failure is spending most of the words on data and method while never saying what the reader should now believe. Confirm the current abstract length limit on the SAGE author-instructions page before finalizing (检索于 2026-06；以官网为准).
+The abstract should state the puzzle, the mechanism, the key finding *with a sense of magnitude*, and the dual contribution (theory + practice).
+A common ETP abstract failure is spending most of the words on data and method while never saying what the reader should now believe.
+Confirm the current abstract length limit on the SAGE author-instructions page before finalizing (检索于 2026-06；以官网为准).
 
 ## Keep the phenomenon and the mechanism visible
 
@@ -41,7 +47,8 @@ The abstract should state the puzzle, the mechanism, the key finding *with a sen
 
 ## The discussion and practice section
 
-The discussion should (1) restate the theory contribution against the conversation, (2) draw out boundary conditions and a research agenda, and (3) deliver the **practice implications as a genuine section** — mechanism-derived, actor-named, honest about limits. ETP discussions that end on a perfunctory "managers should pay attention" undercut an otherwise strong paper.
+The discussion should (1) restate the theory contribution against the conversation, (2) draw out boundary conditions and a research agenda, and (3) deliver the **practice implications as a genuine section** — mechanism-derived, actor-named, honest about limits.
+ETP discussions that end on a perfunctory "managers should pay attention" undercut an otherwise strong paper.
 
 ## Checklist
 
@@ -64,7 +71,14 @@ The discussion should (1) restate the theory contribution against the conversati
 
 ## Worked vignette (illustrative)
 
-Compare two openings for the same paper. Weak: "Entrepreneurship is important for economic growth. Prior research has studied many factors affecting venture performance. In this paper, we study the effect of founder cognition on outcomes." It is a truism, names no conversation, and hides the contribution. Strong: "Founders routinely bet a venture's survival on intuitions that, by any predictive standard, look reckless — yet some of these bets are exactly what keeps young firms alive. We show that effectual, affordable-loss reasoning extends venture survival in highly uncertain markets but not in stable ones, qualifying the effectuation–causation debate. For investors and accelerators, this means predictive business plans are not a universal quality signal: in uncertain markets, evidence of affordable-loss experimentation is the better bet." The strong version hooks with a real entrepreneurial puzzle, names the conversation, states the matched theory-and-practice contribution within the first paragraph, and keeps the phenomenon concrete — exactly the ETP voice. Note it was written *after* the analysis settled.
+Compare two openings for the same paper.
+Weak: "Entrepreneurship is important for economic growth.
+Prior research has studied many factors affecting venture performance.
+In this paper, we study the effect of founder cognition on outcomes." It is a truism, names no conversation, and hides the contribution.
+Strong: "Founders routinely bet a venture's survival on intuitions that, by any predictive standard, look reckless — yet some of these bets are exactly what keeps young firms alive.
+We show that effectual, affordable-loss reasoning extends venture survival in highly uncertain markets but not in stable ones, qualifying the effectuation–causation debate.
+For investors and accelerators, this means predictive business plans are not a universal quality signal: in uncertain markets, evidence of affordable-loss experimentation is the better bet." The strong version hooks with a real entrepreneurial puzzle, names the conversation, states the matched theory-and-practice contribution within the first paragraph, and keeps the phenomenon concrete — exactly the ETP voice.
+Note it was written *after* the analysis settled.
 
 ## Output format
 

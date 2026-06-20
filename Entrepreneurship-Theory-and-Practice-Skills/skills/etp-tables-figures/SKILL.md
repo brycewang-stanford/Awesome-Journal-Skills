@@ -1,6 +1,7 @@
 ---
 name: etp-tables-figures
-description: Use when building the exhibits for an Entrepreneurship Theory and Practice (ETP) manuscript — results tables, the theoretical/mechanism model figure, and (for qualitative work) the Gioia data structure, in APA style. Builds exhibits; it does not run the analysis (etp-data-analysis) or write the prose (etp-writing-style).
+description: Use when building the exhibits for an Entrepreneurship Theory and Practice (ETP) manuscript — results tables, the theoretical/mechanism model figure, and (for qualitative work) the Gioia data structure, in APA style.
+Builds exhibits; it does not run the analysis (etp-data-analysis) or write the prose (etp-writing-style).
 ---
 
 # Tables & Figures (etp-tables-figures)
@@ -15,7 +16,9 @@ description: Use when building the exhibits for an Entrepreneurship Theory and P
 
 ## What ETP exhibits must do
 
-At ETP, exhibits carry two loads: the **empirical** (do the numbers support the claim?) and the **theoretical** (can a reader *see* the mechanism?). The journal's strong-theory identity means a **conceptual/mechanism figure is expected** in most papers — a diagram of the hypothesized chain (antecedents → entrepreneurial mechanism → outcomes, with moderators/mediators) — and for inductive work a **Gioia data structure** is essentially mandatory. Format to **APA**: descriptive titles, defined abbreviations, notes that make the table self-contained.
+At ETP, exhibits carry two loads: the **empirical** (do the numbers support the claim?) and the **theoretical** (can a reader *see* the mechanism?).
+The journal's strong-theory identity means a **conceptual/mechanism figure is expected** in most papers — a diagram of the hypothesized chain (antecedents → entrepreneurial mechanism → outcomes, with moderators/mediators) — and for inductive work a **Gioia data structure** is essentially mandatory.
+Format to **APA**: descriptive titles, defined abbreviations, notes that make the table self-contained.
 
 ## The exhibit suite by paper type
 
@@ -29,18 +32,22 @@ At ETP, exhibits carry two loads: the **empirical** (do the numbers support the 
 
 ## Make results tables earn their space
 
-- **Lead with magnitude, not stars.** Report coefficients with standard errors and, where possible, confidence intervals; give effect sizes (hazard ratios, marginal effects, standardized betas). Significance asterisks may appear by APA convention, but they cannot be the story.
+- **Lead with magnitude, not stars.** Report coefficients with standard errors and, where possible, confidence intervals; give effect sizes (hazard ratios, marginal effects, standardized betas).
+  Significance asterisks may appear by APA convention, but they cannot be the story.
 - **One question per table.** A reader should know what claim each table tests from its title.
 - **Show the moderation, don't just tabulate it.** An interaction is best read as a simple-slopes plot; a table of products rarely communicates the contingency.
 - **Correlation tables**: include means, SDs, and reliabilities on the diagonal for self-report constructs.
 
 ## The mechanism figure is a contribution, not decoration
 
-A clean theoretical model figure does triple duty: it states the hypotheses visually, signals the entrepreneurial mechanism (so a reviewer cannot mistake it for a generic-org model), and gives the reader a map for the results. Label the constructs with your *entrepreneurial* names (e.g., "affordable-loss reasoning," "socioemotional wealth"), not generic placeholders, and make moderators/mediators visually distinct.
+A clean theoretical model figure does triple duty: it states the hypotheses visually, signals the entrepreneurial mechanism (so a reviewer cannot mistake it for a generic-org model), and gives the reader a map for the results.
+Label the constructs with your *entrepreneurial* names (e.g., "affordable-loss reasoning," "socioemotional wealth"), not generic placeholders, and make moderators/mediators visually distinct.
 
 ## Qualitative exhibits
 
-The Gioia data structure is the trust contract for inductive ETP work: it shows the inductive chain from informant terms to theoretical dimensions. Pair it with a process-model figure (the dynamic "movie" of the static data structure) and a quotation table that ties evidence to dimensions and informants. Thin or absent data structures are a fast credibility loss.
+The Gioia data structure is the trust contract for inductive ETP work: it shows the inductive chain from informant terms to theoretical dimensions.
+Pair it with a process-model figure (the dynamic "movie" of the static data structure) and a quotation table that ties evidence to dimensions and informants.
+Thin or absent data structures are a fast credibility loss.
 
 ## Checklist
 
@@ -63,7 +70,12 @@ The Gioia data structure is the trust contract for inductive ETP work: it shows 
 
 ## Worked vignette (illustrative)
 
-A quantitative effectuation paper submits four dense regression tables, asterisks marking significance, and no figure. An ETP-ready exhibit suite reorganizes this. Add a **theoretical model figure** first: boxes labeled with the entrepreneurial constructs (affordable-loss reasoning → venture survival), market uncertainty drawn as a moderator on the path — so a reviewer immediately sees the mechanism is effectual, not generic risk-taking. Collapse the four tables into one descriptives-plus-correlations table (means, SDs, reliabilities on the diagonal) and one main results table that *leads with hazard ratios and confidence intervals*, with asterisks demoted to a footnote per APA. Replace the buried interaction term with a **simple-slopes plot**: two survival curves, high vs. low uncertainty, making the contingency legible at a glance. The result is fewer exhibits doing more work, each self-contained, and the mechanism visible to a reviewer in the first figure rather than reconstructed from a coefficient table.
+A quantitative effectuation paper submits four dense regression tables, asterisks marking significance, and no figure.
+An ETP-ready exhibit suite reorganizes this.
+Add a **theoretical model figure** first: boxes labeled with the entrepreneurial constructs (affordable-loss reasoning → venture survival), market uncertainty drawn as a moderator on the path — so a reviewer immediately sees the mechanism is effectual, not generic risk-taking.
+Collapse the four tables into one descriptives-plus-correlations table (means, SDs, reliabilities on the diagonal) and one main results table that *leads with hazard ratios and confidence intervals*, with asterisks demoted to a footnote per APA.
+Replace the buried interaction term with a **simple-slopes plot**: two survival curves, high vs. low uncertainty, making the contingency legible at a glance.
+The result is fewer exhibits doing more work, each self-contained, and the mechanism visible to a reviewer in the first figure rather than reconstructed from a coefficient table.
 
 ## Output format
 

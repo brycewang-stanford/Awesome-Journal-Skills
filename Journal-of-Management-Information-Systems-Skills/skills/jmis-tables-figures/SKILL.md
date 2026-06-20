@@ -65,6 +65,15 @@ JMIS uses **numbered bracketed citations [n]** with an alphabetized reference li
 - A survey paper missing discriminant-validity evidence
 - Color-only figures that fail in grayscale
 
+## Common exhibit defects JMIS referees flag
+
+- **A "kitchen-sink" main table** with twenty controls and no marked specification — highlight the preferred column and relegate the rest.
+- **Stars without a scale** — a reader cannot tell whether `0.06***` is large; always pair significance with an interpretable magnitude.
+- **A staggered-DID paper with only a single pooled coefficient** — show the dynamic event-study so pre-trends and the post-treatment path are visible.
+- **A survey paper whose constructs overlap** — without an HTMT/Fornell-Larcker exhibit, reviewers assume discriminant validity fails.
+- **Figures that die in print** — JMIS appears in print, so a color-coded figure that becomes unreadable in grayscale will draw a production comment; encode with line style or labels too.
+- **Notes that omit the estimator or clustering** — the reader must be able to reconstruct what produced the numbers from the note alone.
+
 ## Output format
 
 ```text

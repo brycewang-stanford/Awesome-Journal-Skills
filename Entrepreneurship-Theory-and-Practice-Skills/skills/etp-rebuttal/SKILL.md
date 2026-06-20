@@ -1,6 +1,7 @@
 ---
 name: etp-rebuttal
-description: Use when drafting the response to an Entrepreneurship Theory and Practice (ETP) R&R — building a point-by-point response letter that honors the developmental, double-anonymized review and re-secures the theory-and-practice contribution. Drafts the response; it does not run the submission preflight (etp-submission) or re-read the decision (etp-review-process).
+description: Use when drafting the response to an Entrepreneurship Theory and Practice (ETP) R&R — building a point-by-point response letter that honors the developmental, double-anonymized review and re-secures the theory-and-practice contribution.
+Drafts the response; it does not run the submission preflight (etp-submission) or re-read the decision (etp-review-process).
 ---
 
 # Rebuttal Strategy (etp-rebuttal)
@@ -15,11 +16,14 @@ description: Use when drafting the response to an Entrepreneurship Theory and Pr
 
 ## The ETP rebuttal mindset
 
-ETP's review is **developmental** — an R&R is an invitation, and the editor and reviewers have invested in the paper's improvement. The winning posture is **gracious, thorough, and responsive**: take every point seriously, do the work where it is reasonable, and disagree only with evidence and a clear rationale. A defensive or selective response squanders the goodwill an R&R represents and is the most common way authors lose a winnable revision.
+ETP's review is **developmental** — an R&R is an invitation, and the editor and reviewers have invested in the paper's improvement.
+The winning posture is **gracious, thorough, and responsive**: take every point seriously, do the work where it is reasonable, and disagree only with evidence and a clear rationale.
+A defensive or selective response squanders the goodwill an R&R represents and is the most common way authors lose a winnable revision.
 
 ## Structure the response letter
 
-- **Open with a synthesis** thanking the editor and reviewers and summarizing the *major changes* (e.g., "we re-grounded the mechanism in effectuation theory, added an event-history model addressing survivorship, and rewrote the practice section"). This orients busy readers before the point-by-point.
+- **Open with a synthesis** thanking the editor and reviewers and summarizing the *major changes* (e.g., "we re-grounded the mechanism in effectuation theory, added an event-history model addressing survivorship, and rewrote the practice section").
+  This orients busy readers before the point-by-point.
 - **Reproduce every comment verbatim**, then respond beneath it. Number them (R1.1, R2.3) so the editor can audit coverage.
 - **For each point**: state what you changed, *quote the new manuscript text*, and give the page/line. "Done" without showing the change is unverifiable and irritates reviewers.
 - **Lead with the editor's binding concerns** in your synthesis even though the letter follows reviewer order — show you read the editor's prioritization.
@@ -34,7 +38,10 @@ ETP's review is **developmental** — an R&R is an invitation, and the editor an
 
 ## Re-secure the two contributions
 
-ETP R&Rs frequently push on (1) whether the mechanism is *truly entrepreneurial* and (2) whether the *practice contribution* is real. Treat both as first-order in the revision: if a reviewer said the theory "could be about any firm," your response must show the sharpened entrepreneurial mechanism (with the new text), not merely assert it. If the practice section was called generic, rewrite it to be mechanism-derived and actor-specific, and point to it in the letter. Winning the theory while leaving the practice mandate weak is a classic ETP miss.
+ETP R&Rs frequently push on (1) whether the mechanism is *truly entrepreneurial* and (2) whether the *practice contribution* is real.
+Treat both as first-order in the revision: if a reviewer said the theory "could be about any firm," your response must show the sharpened entrepreneurial mechanism (with the new text), not merely assert it.
+If the practice section was called generic, rewrite it to be mechanism-derived and actor-specific, and point to it in the letter.
+Winning the theory while leaving the practice mandate weak is a classic ETP miss.
 
 ## Checklist
 
@@ -58,7 +65,10 @@ ETP R&Rs frequently push on (1) whether the mechanism is *truly entrepreneurial*
 
 ## Worked vignette (illustrative)
 
-R2 writes: "The mechanism could describe any organization; this isn't entrepreneurship theory." R3 writes: "Add a mediation analysis to prove the cognitive pathway." The editor's letter foregrounds R2 (the contribution premise) and treats R3 as secondary. A losing response argues with R2 ("we believe it is entrepreneurial") and bolts on R3's mediation. A winning ETP response: in the synthesis, lead by acknowledging R2 as the binding concern and summarize the rebuild — "we re-grounded the mechanism in the liability of newness, added a venture-formation boundary condition, and rewrote the practice section accordingly." Under R2.1, quote the new theory text and page. For R3, do the mediation *if defensible*; if the data cannot support a clean mediation test (a common entrepreneurship-data limit), say so transparently, offer a conditional-process robustness check as an alternative, and add the limit to future research — rather than reporting a fragile mediation that a methods reviewer will puncture next round.
+R2 writes: "The mechanism could describe any organization; this isn't entrepreneurship theory." R3 writes: "Add a mediation analysis to prove the cognitive pathway." The editor's letter foregrounds R2 (the contribution premise) and treats R3 as secondary.
+A losing response argues with R2 ("we believe it is entrepreneurial") and bolts on R3's mediation.
+A winning ETP response: in the synthesis, lead by acknowledging R2 as the binding concern and summarize the rebuild — "we re-grounded the mechanism in the liability of newness, added a venture-formation boundary condition, and rewrote the practice section accordingly." Under R2.1, quote the new theory text and page.
+For R3, do the mediation *if defensible*; if the data cannot support a clean mediation test (a common entrepreneurship-data limit), say so transparently, offer a conditional-process robustness check as an alternative, and add the limit to future research — rather than reporting a fragile mediation that a methods reviewer will puncture next round.
 
 ## Output format
 

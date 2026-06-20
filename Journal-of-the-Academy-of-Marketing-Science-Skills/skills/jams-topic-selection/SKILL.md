@@ -51,6 +51,15 @@ JAMS's sweet spot is the broad marketing-science question with **construct-based
 
 JAMS is broad but not boundless. Before committing, name which core domain your question sits in — marketing strategy and performance, B2B/industrial marketing, services, retailing/channels, sales-force management, branding, innovation/NPD, the marketing–finance interface, sustainability/stakeholder marketing, or consumer behavior — and confirm the question advances that domain's conversation. A question that cannot be filed under a JAMS domain is a fit risk; a question that sits squarely in one but ignores its recent literature reads as incremental. The strongest JAMS questions sit at the **intersection of two domains** (e.g., branding × marketing–finance, services × innovation), where a contingency or mechanism has not yet been worked out.
 
+## Phenomenon-first vs. theory-first entry
+
+A JAMS question can originate two ways, and both are legitimate so long as the destination is the same broad, theory-generative, managerial question:
+
+- **Phenomenon-first:** you notice a real, consequential marketing pattern (a pricing response, a channel shift, a brand reversal, a sales-allocation puzzle) and ask why it happens. This often yields the most managerially vivid JAMS papers, but you must still build the theory to explain the pattern (hand off to `jams-theory-development`) rather than report it.
+- **Theory-first:** you start from a marketing-theory tension or an untested boundary condition and design a study to resolve it. Cleaner theoretically, but verify it has a real managerial stake before committing.
+
+Either way, the deliverable from this stage is a *question*, not a finding — declare which entry you took so the framework you build next is honest.
+
 ## Checklist
 
 - [ ] One-sentence question with construct, outcome, unit, and conditions
@@ -59,6 +68,7 @@ JAMS is broad but not boundless. Before committing, name which core domain your 
 - [ ] Sibling routing decided explicitly (why JAMS, not JM/JMR/MktSci/JCR)
 - [ ] At least one boundary condition / moderator identified
 - [ ] The paper is not a single-context replication dressed up as new
+- [ ] The question survives the reversal, imagine-the-result, generalizability, and feasibility tests
 
 ## Anti-patterns
 

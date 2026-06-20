@@ -49,6 +49,17 @@ IS effects are contingent on the artifact, the user, the task, and the context. 
 - [ ] Boundary conditions and scope are stated
 - [ ] The genre matches the chosen JAIS category (construct-first → Theory, not Research Article)
 
+## Referee pushback mapped to the theory fix
+
+- *"This is a relabeled existing construct."* → Add discriminant logic: define your construct against its nearest neighbors, give its dimensions, and show the work it does that the existing vocabulary cannot.
+- *"The integration just staples two theories together."* → Name the tension between them and derive a prediction neither parent makes alone; if there is none, you have a literature summary, not a theory.
+- *"The technology is interchangeable here."* → Put the artifact's specific affordances *inside* the mechanism so swapping the technology would change the prediction.
+- *"This belongs in a Research Article, not Theory."* (or vice versa) → Re-match the genre to the category; a construct-first paper is Theory, a theory-test is a Research Article.
+
+## Worked vignette: building a construct for the Theory category (illustrative)
+
+A team wants to theorize how always-on AI copilots change knowledge work. A weak Theory submission relabels "technostress" as "AI-stress" and stops. A JAIS-grade move defines a genuinely new construct — say, *delegation ambivalence*, the simultaneous pull to offload cognition to the copilot and the felt loss of authorship over the output. It is discriminated from technostress (which is about overload, not authorship), dimensionalized (offloading intensity × authorship threat), and embedded in a net: antecedents in the copilot's proactivity and the task's identity-relevance, consequences in trust calibration and skill atrophy. Generative propositions follow that neither the technostress literature nor the automation literature predicts. *That* is a Theory-category contribution; the same idea bolted onto a survey would be discouraged as primary construct development in a Research Article.
+
 ## Anti-patterns
 
 - "We applied [theory X] to [setting Y]" with no new IS mechanism — a borrowed-theory application.

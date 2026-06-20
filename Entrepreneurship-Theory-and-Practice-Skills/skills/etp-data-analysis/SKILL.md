@@ -1,6 +1,7 @@
 ---
 name: etp-data-analysis
-description: Use when executing or defending the analysis for an Entrepreneurship Theory and Practice (ETP) manuscript — estimation, event-history, SEM, endogeneity, and qualitative coding rigor, with the new-venture inference problems front of mind. Runs the analysis; it does not choose the design (etp-methods) or frame the contribution (etp-contribution-framing).
+description: Use when executing or defending the analysis for an Entrepreneurship Theory and Practice (ETP) manuscript — estimation, event-history, SEM, endogeneity, and qualitative coding rigor, with the new-venture inference problems front of mind.
+Runs the analysis; it does not choose the design (etp-methods) or frame the contribution (etp-contribution-framing).
 ---
 
 # Data Analysis (etp-data-analysis)
@@ -15,12 +16,15 @@ description: Use when executing or defending the analysis for an Entrepreneurshi
 
 ## The ETP analysis bar
 
-ETP wants analysis that the **theory can stand on** and that survives the new-venture inference traps. Because the journal is method-plural, "analysis" differs by branch — but every branch must (a) match the estimator to the outcome and the entrepreneurial data structure, (b) confront endogeneity/selection head-on, and (c) report uncertainty honestly. ETP house style follows **APA**: report effect sizes and confidence intervals, not a forest of significance asterisks standing in for substance.
+ETP wants analysis that the **theory can stand on** and that survives the new-venture inference traps.
+Because the journal is method-plural, "analysis" differs by branch — but every branch must (a) match the estimator to the outcome and the entrepreneurial data structure, (b) confront endogeneity/selection head-on, and (c) report uncertainty honestly.
+ETP house style follows **APA**: report effect sizes and confidence intervals, not a forest of significance asterisks standing in for substance.
 
 ## Branch paths
 
 ### Quantitative — outcome-appropriate estimation
-- **Time-to-event** (founding, exit, failure, IPO): use survival / event-history (Cox, discrete-time hazard, competing risks). Modeling "did it exit (0/1)" with OLS throws away timing and censoring information.
+- **Time-to-event** (founding, exit, failure, IPO): use survival / event-history (Cox, discrete-time hazard, competing risks).
+  Modeling "did it exit (0/1)" with OLS throws away timing and censoring information.
 - **Counts / rare events** (patents, hires, funding rounds): negative binomial / zero-inflated where overdispersion or excess zeros bite, not OLS.
 - **Bounded / proportion** outcomes (survival rate, equity share): fractional/beta models, not naive linear.
 - **Panel with staggered timing** (policy/financing shocks across cohorts): beyond TWFE — Callaway–Sant'Anna, Sun–Abraham — with a clean event-study and pre-trend evidence.
@@ -34,11 +38,13 @@ ETP wants analysis that the **theory can stand on** and that survives the new-ve
 - Report CFA fit (CFI, RMSEA, SRMR), composite reliability, AVE, and discriminant validity (HTMT) for entrepreneurial constructs; test common-method bias when self-report dominates (marker variable, not just Harman's single factor).
 
 ### Qualitative analysis
-- A transparent coding scheme, the Gioia data structure as an exhibit, inter-coder agreement where appropriate, and traceability from quotation → code → theoretical dimension. The output is a process model, not a code count.
+- A transparent coding scheme, the Gioia data structure as an exhibit, inter-coder agreement where appropriate, and traceability from quotation → code → theoretical dimension.
+  The output is a process model, not a code count.
 
 ## Make the magnitude mean something for practice
 
-ETP's dual mandate reaches the results: translate coefficients into the venture-relevant scale (a hazard ratio as "ventures with X fail 30% faster," a marginal effect as "one more co-founder shifts funding probability by Y points"). A practitioner implication needs a magnitude, not a p-value.
+ETP's dual mandate reaches the results: translate coefficients into the venture-relevant scale (a hazard ratio as "ventures with X fail 30% faster," a marginal effect as "one more co-founder shifts funding probability by Y points").
+A practitioner implication needs a magnitude, not a p-value.
 
 ## Checklist
 
@@ -61,7 +67,10 @@ ETP's dual mandate reaches the results: translate coefficients into the venture-
 
 ## Worked vignette (illustrative)
 
-A team wants to test whether accelerator participation raises venture survival, using cohorts admitted across several years and a binary "survived to year 3" outcome. The first draft runs OLS on the 0/1 outcome with year and region controls. Three ETP-specific upgrades: (1) the outcome is fundamentally *time-to-event* — recast as a discrete-time hazard or Cox model with competing risks (acquired vs. shut down vs. still operating), recovering the timing and censoring OLS discards; (2) accelerators *select* promising ventures, so survival differences may be selection, not treatment — exploit a plausibly exogenous admission threshold (a scoring cutoff supports a regression-discontinuity or fuzzy-RD design) rather than controls alone; (3) because cohorts enter in staggered years and the program changed over time, a naive two-way fixed-effects "treatment" coefficient can be biased — use a modern staggered-DID estimator with a pre-trend check. Finally, report the hazard ratio with a CI and translate it: "admitted ventures fail roughly 25% slower over three years," a magnitude an accelerator director can act on.
+A team wants to test whether accelerator participation raises venture survival, using cohorts admitted across several years and a binary "survived to year 3" outcome.
+The first draft runs OLS on the 0/1 outcome with year and region controls.
+Three ETP-specific upgrades: (1) the outcome is fundamentally *time-to-event* — recast as a discrete-time hazard or Cox model with competing risks (acquired vs. shut down vs. still operating), recovering the timing and censoring OLS discards; (2) accelerators *select* promising ventures, so survival differences may be selection, not treatment — exploit a plausibly exogenous admission threshold (a scoring cutoff supports a regression-discontinuity or fuzzy-RD design) rather than controls alone; (3) because cohorts enter in staggered years and the program changed over time, a naive two-way fixed-effects "treatment" coefficient can be biased — use a modern staggered-DID estimator with a pre-trend check.
+Finally, report the hazard ratio with a CI and translate it: "admitted ventures fail roughly 25% slower over three years," a magnitude an accelerator director can act on.
 
 ## Output format
 

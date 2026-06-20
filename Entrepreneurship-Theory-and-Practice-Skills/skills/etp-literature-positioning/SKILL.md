@@ -1,6 +1,7 @@
 ---
 name: etp-literature-positioning
-description: Use when staking the contribution of an Entrepreneurship Theory and Practice (ETP) manuscript against the entrepreneurship frontier and its sibling journals (JBV, SEJ, AMJ, Research Policy). Locates the gap and the conversation; it does not build the mechanism (etp-theory-development) or sharpen the headline claim (etp-contribution-framing).
+description: Use when staking the contribution of an Entrepreneurship Theory and Practice (ETP) manuscript against the entrepreneurship frontier and its sibling journals (JBV, SEJ, AMJ, Research Policy).
+Locates the gap and the conversation; it does not build the mechanism (etp-theory-development) or sharpen the headline claim (etp-contribution-framing).
 ---
 
 # Literature Positioning (etp-literature-positioning)
@@ -15,7 +16,11 @@ description: Use when staking the contribution of an Entrepreneurship Theory and
 
 ## Position inside a named entrepreneurship conversation
 
-ETP reviewers are entrepreneurship specialists who know the canon. Generic gap-spotting ("little research has examined X") reads as a desk-reject signal. Instead, **name the conversation and your move within it**: are you extending discovery-vs-creation, contrasting effectuation with causation, advancing socioemotional-wealth theory in family firms, reconciling competing accounts of entrepreneurial persistence? State whose claims you build on, whose you qualify, and whose you overturn. The standard is "we change what entrepreneurship scholars believe about Z," not "we add a moderator."
+ETP reviewers are entrepreneurship specialists who know the canon.
+Generic gap-spotting ("little research has examined X") reads as a desk-reject signal.
+Instead, **name the conversation and your move within it**: are you extending discovery-vs-creation, contrasting effectuation with causation, advancing socioemotional-wealth theory in family firms, reconciling competing accounts of entrepreneurial persistence?
+State whose claims you build on, whose you qualify, and whose you overturn.
+The standard is "we change what entrepreneurship scholars believe about Z," not "we add a moderator."
 
 ## A four-move positioning grid
 
@@ -30,7 +35,8 @@ Pick the strongest move your evidence supports — and only that move. ETP punis
 
 ## Engage the right literature, including ETP's own
 
-- **Cite the entrepreneurship core**, not just adjacent management theory. A paper on family firms that ignores the SEW lineage, or an opportunity paper that skips the discovery/creation exchange, signals an outsider.
+- **Cite the entrepreneurship core**, not just adjacent management theory.
+  A paper on family firms that ignores the SEW lineage, or an opportunity paper that skips the discovery/creation exchange, signals an outsider.
 - **Engage ETP's franchises**: family business, social/sustainable entrepreneurship, and entrepreneurial finance are areas where ETP has published defining work — situate yourself within them when relevant.
 - **Use APA** and represent prior findings accurately; mischaracterizing a cited paper is a credibility wound a specialist reviewer will catch.
 
@@ -64,7 +70,11 @@ If a sibling genuinely owns your contribution, recommend rerouting *before* poli
 
 ## Worked vignette (illustrative)
 
-A family-business paper opens: "Although family firms are common, little research examines how they innovate." A specialist ETP reviewer reads this as gap-spotting and an outsider tell — the socioemotional wealth (SEW) literature has examined exactly this for years. The repositioning names the conversation and a move: the SEW account predicts family firms *under-invest* in risky innovation to protect non-financial endowments, yet recent evidence is mixed. The paper's move is **reconcile** — it shows the SEW innovation-aversion holds when family control is threatened but reverses when innovation is framed as preserving the firm *for the next generation* (transgenerational intent as the contingency). Now the contribution is field-level ("we resolve when SEW suppresses vs. spurs innovation"), it engages ETP's family-business franchise directly, and the sibling defense is clean: this is entrepreneurship/family-firm theory (ETP), not a competitive-strategy story (SEJ) or a generic innovation-management study (AMJ). Critically, the move is "reconcile," matched to evidence — not an inflated "overturn."
+A family-business paper opens: "Although family firms are common, little research examines how they innovate." A specialist ETP reviewer reads this as gap-spotting and an outsider tell — the socioemotional wealth (SEW) literature has examined exactly this for years.
+The repositioning names the conversation and a move: the SEW account predicts family firms *under-invest* in risky innovation to protect non-financial endowments, yet recent evidence is mixed.
+The paper's move is **reconcile** — it shows the SEW innovation-aversion holds when family control is threatened but reverses when innovation is framed as preserving the firm *for the next generation* (transgenerational intent as the contingency).
+Now the contribution is field-level ("we resolve when SEW suppresses vs. spurs innovation"), it engages ETP's family-business franchise directly, and the sibling defense is clean: this is entrepreneurship/family-firm theory (ETP), not a competitive-strategy story (SEJ) or a generic innovation-management study (AMJ).
+Critically, the move is "reconcile," matched to evidence — not an inflated "overturn."
 
 ## Output format
 

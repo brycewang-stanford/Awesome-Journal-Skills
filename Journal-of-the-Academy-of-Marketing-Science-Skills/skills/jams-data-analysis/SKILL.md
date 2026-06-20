@@ -59,6 +59,17 @@ If the managerial-magnitude column is empty, the result is not yet ready for a J
 - [ ] Every headline result has a managerial-magnitude translation
 - [ ] Robustness addresses the design's specific threat (CMV / endogeneity / pre-trends)
 
+## Robustness that targets the design's real threat
+
+Generic robustness ("we also ran model B") rarely persuades JAMS reviewers; the robustness must answer the *specific* threat to the genre's inference:
+
+- **Survey/SEM:** rule out CMV with a marker-variable / CFA-marker model and report whether paths survive; test an alternative measurement specification; show results hold on a holdout or second sample.
+- **Secondary data:** placebo tests, alternative instruments, pre-trend/parallel-trends evidence, sensitivity to the identifying assumption, and alternative fixed-effect structures.
+- **Experiment:** replication across stimuli/samples, a confound-ruling-out study, and a test of the alternative-mechanism account.
+- **Meta-analysis:** sensitivity to coding decisions, trim-and-fill / PET-PEESE for publication bias, and influence diagnostics for outlier studies.
+
+State, for each robustness check, *which threat it neutralizes* — a list of checks with no mapped threat reads as box-ticking.
+
 ## Anti-patterns
 
 - Baron–Kenny causal-steps mediation instead of bootstrapped indirect effects
@@ -67,6 +78,7 @@ If the managerial-magnitude column is empty, the result is not yet ready for a J
 - Ignoring nesting (consumers within stores) and clustering
 - A weak/untested instrument, or endogeneity waved away
 - Asterisk tables that hide the size of the effect
+- Robustness checks listed with no statement of which threat each addresses
 
 ## Output format
 

@@ -1,6 +1,7 @@
 ---
 name: etp-contribution-framing
-description: Use when sharpening the headline claim of an Entrepreneurship Theory and Practice (ETP) manuscript into a contribution to entrepreneurship theory AND practice. Frames the "so what"; it does not build the mechanism (etp-theory-development) or position against the literature (etp-literature-positioning).
+description: Use when sharpening the headline claim of an Entrepreneurship Theory and Practice (ETP) manuscript into a contribution to entrepreneurship theory AND practice.
+Frames the "so what"; it does not build the mechanism (etp-theory-development) or position against the literature (etp-literature-positioning).
 ---
 
 # Contribution Framing (etp-contribution-framing)
@@ -15,7 +16,10 @@ description: Use when sharpening the headline claim of an Entrepreneurship Theor
 
 ## ETP's dual contribution standard
 
-ETP's identity is **theory AND practice**. A passing ETP contribution makes a **specific theoretical claim** — a new construct, a mechanism, a boundary condition, a reconciliation — *and* a **specific, mechanism-derived practice claim**. Both must be true, both must be earned by the evidence, and the practice claim cannot be a decorative afterthought. This is the single most ETP-specific framing demand: many strong-theory papers fail at ETP because their practice section reads as an obligatory paragraph.
+ETP's identity is **theory AND practice**.
+A passing ETP contribution makes a **specific theoretical claim** — a new construct, a mechanism, a boundary condition, a reconciliation — *and* a **specific, mechanism-derived practice claim**.
+Both must be true, both must be earned by the evidence, and the practice claim cannot be a decorative afterthought.
+This is the single most ETP-specific framing demand: many strong-theory papers fail at ETP because their practice section reads as an obligatory paragraph.
 
 ## Build the contribution as a matched pair
 
@@ -29,7 +33,8 @@ Write the pair as two sentences and test them against each other: if the practic
 
 ## The one-sentence claim test
 
-Force the headline into: *"We show that [entrepreneurial mechanism] explains [outcome] under [boundary condition], which means [theory move] and implies [practitioner action]."* If you cannot fill every slot with something specific and non-obvious, the contribution is not yet framed. The boundary condition is doing real work here — at ETP a contribution that holds "always, for everyone" usually means the scope was never thought through.
+Force the headline into: *"We show that [entrepreneurial mechanism] explains [outcome] under [boundary condition], which means [theory move] and implies [practitioner action]."* If you cannot fill every slot with something specific and non-obvious, the contribution is not yet framed.
+The boundary condition is doing real work here — at ETP a contribution that holds "always, for everyone" usually means the scope was never thought through.
 
 ## Calibrate the claim to the evidence
 
@@ -39,7 +44,9 @@ Force the headline into: *"We show that [entrepreneurial mechanism] explains [ou
 
 ## Don't let the practice section sink you
 
-ETP's USASBE heritage means a reviewer may *be* a practitioner-facing scholar. The practice implication should be (1) derived from your mechanism, (2) actionable by a named actor (founder, investor, family-firm successor, educator, policymaker), and (3) honest about what is not yet known. "Entrepreneurs should be alert to opportunities" is not a contribution; "investors should weight a founder's prior failure as a learning signal rather than a red flag, *because* failure speeds subsequent pivoting" is.
+ETP's USASBE heritage means a reviewer may *be* a practitioner-facing scholar.
+The practice implication should be (1) derived from your mechanism, (2) actionable by a named actor (founder, investor, family-firm successor, educator, policymaker), and (3) honest about what is not yet known.
+"Entrepreneurs should be alert to opportunities" is not a contribution; "investors should weight a founder's prior failure as a learning signal rather than a red flag, *because* failure speeds subsequent pivoting" is.
 
 ## Checklist
 
@@ -60,7 +67,9 @@ ETP's USASBE heritage means a reviewer may *be* a practitioner-facing scholar. T
 
 ## Worked vignette (illustrative)
 
-A paper finds that founders who reason via affordable loss (rather than expected return) survive longer in highly uncertain markets. A weak framing says: "We contribute to the effectuation literature and managers should consider affordable loss." An ETP-strength framing builds the matched pair. **Theory**: it qualifies the effectuation–causation debate by showing effectual logic's survival advantage is *conditional on market uncertainty* — under low uncertainty, predictive (causal) logic does as well or better; the boundary condition is the contribution, not the main effect. **Practice**: because the advantage is conditional, the implication is specific — investors and accelerators should not treat predictive business plans as a universal quality signal; in genuinely uncertain markets they should reward evidence of affordable-loss experimentation instead. The two sentences are mutually consistent (the practice tip follows directly from the boundary condition), and the claim is calibrated to "qualify," not "overturn."
+A paper finds that founders who reason via affordable loss (rather than expected return) survive longer in highly uncertain markets.
+A weak framing says: "We contribute to the effectuation literature and managers should consider affordable loss." An ETP-strength framing builds the matched pair. **Theory**: it qualifies the effectuation–causation debate by showing effectual logic's survival advantage is *conditional on market uncertainty* — under low uncertainty, predictive (causal) logic does as well or better; the boundary condition is the contribution, not the main effect. **Practice**: because the advantage is conditional, the implication is specific — investors and accelerators should not treat predictive business plans as a universal quality signal; in genuinely uncertain markets they should reward evidence of affordable-loss experimentation instead.
+The two sentences are mutually consistent (the practice tip follows directly from the boundary condition), and the claim is calibrated to "qualify," not "overturn."
 
 ## Output format
 

@@ -1,6 +1,7 @@
 ---
 name: etp-topic-selection
-description: Use when deciding whether a question is entrepreneurship-central enough for an Entrepreneurship Theory and Practice (ETP) manuscript, and whether ETP (vs. JBV/SEJ/AMJ) is the right home. Locks the question; it does not build the theory (etp-theory-development) or run analysis (etp-data-analysis).
+description: Use when deciding whether a question is entrepreneurship-central enough for an Entrepreneurship Theory and Practice (ETP) manuscript, and whether ETP (vs.
+JBV/SEJ/AMJ) is the right home. Locks the question; it does not build the theory (etp-theory-development) or run analysis (etp-data-analysis).
 ---
 
 # Topic Selection (etp-topic-selection)
@@ -14,9 +15,13 @@ description: Use when deciding whether a question is entrepreneurship-central en
 
 ## What makes a question an ETP question
 
-ETP is the **theory-and-practice flagship** of entrepreneurship (SAGE for Baylor; official journal of USASBE). A topic clears the ETP bar when it is **about the distinctively entrepreneurial** — the creation of new economic activity under uncertainty — *and* it promises to **move a theory conversation** while saying something a practitioner (founder, investor, family-firm owner, policymaker, educator) could act on. ETP's historical roots in small business and its USASBE affiliation mean it takes practice seriously; its current identity is high-theory. A good ETP topic lives at that intersection.
+ETP is the **theory-and-practice flagship** of entrepreneurship (SAGE for Baylor; official journal of USASBE).
+A topic clears the ETP bar when it is **about the distinctively entrepreneurial** — the creation of new economic activity under uncertainty — *and* it promises to **move a theory conversation** while saying something a practitioner (founder, investor, family-firm owner, policymaker, educator) could act on.
+ETP's historical roots in small business and its USASBE affiliation mean it takes practice seriously; its current identity is high-theory.
+A good ETP topic lives at that intersection.
 
-Entrepreneurship-central phenomena ETP publishes: new-venture creation and the **opportunity** process (recognition/discovery vs. creation), **effectuation** and entrepreneurial decision logic, **bricolage** and resourcefulness under constraint, **entrepreneurial identity** and cognition, **family business** (a core ETP franchise), **social and sustainable entrepreneurship**, entrepreneurial **finance** (VC, angels, crowdfunding), **ecosystems**, and entrepreneurship **education**. If your question does not touch one of these, it is probably a management/strategy/finance question wearing a startup costume.
+Entrepreneurship-central phenomena ETP publishes: new-venture creation and the **opportunity** process (recognition/discovery vs. creation), **effectuation** and entrepreneurial decision logic, **bricolage** and resourcefulness under constraint, **entrepreneurial identity** and cognition, **family business** (a core ETP franchise), **social and sustainable entrepreneurship**, entrepreneurial **finance** (VC, angels, crowdfunding), **ecosystems**, and entrepreneurship **education**.
+If your question does not touch one of these, it is probably a management/strategy/finance question wearing a startup costume.
 
 ## A three-test filter before you commit
 
@@ -53,7 +58,11 @@ Entrepreneurship-central phenomena ETP publishes: new-venture creation and the *
 
 ## Worked vignette (illustrative)
 
-A team has Crunchbase data showing that startups with a CFO hire earlier raise larger Series A rounds. As stated, this is a corporate-finance result — apply the substitution test: "firms with a CFO raise more capital" is true of established firms too, so the question is not yet entrepreneurial. The fix is to find the venture primitive: reframe around *legitimacy under the liability of newness* — an early CFO is a costly signal that a young, unproven venture is investment-ready, and the conversation becomes signaling/legitimacy in entrepreneurial finance (not generic capital structure). Now the substitution breaks (a 30-year-old firm needs no such legitimacy signal), the named conversation is concrete, and the practice implication is sharp: founders facing investor skepticism can use a senior-finance hire as a legitimacy signal, but only before the liability of newness fades. The same data, re-questioned, becomes an ETP paper.
+A team has Crunchbase data showing that startups with a CFO hire earlier raise larger Series A rounds.
+As stated, this is a corporate-finance result — apply the substitution test: "firms with a CFO raise more capital" is true of established firms too, so the question is not yet entrepreneurial.
+The fix is to find the venture primitive: reframe around *legitimacy under the liability of newness* — an early CFO is a costly signal that a young, unproven venture is investment-ready, and the conversation becomes signaling/legitimacy in entrepreneurial finance (not generic capital structure).
+Now the substitution breaks (a 30-year-old firm needs no such legitimacy signal), the named conversation is concrete, and the practice implication is sharp: founders facing investor skepticism can use a senior-finance hire as a legitimacy signal, but only before the liability of newness fades.
+The same data, re-questioned, becomes an ETP paper.
 
 ## Output format
 

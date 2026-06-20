@@ -1,6 +1,7 @@
 ---
 name: etp-theory-development
-description: Use when building the theoretical argument for an Entrepreneurship Theory and Practice (ETP) manuscript — constructing an explicitly entrepreneurial mechanism (opportunity, effectuation, bricolage, identity, socioemotional wealth) and choosing the theorizing mode. Builds the argument; it does not pick the question (etp-topic-selection) or run the analysis (etp-data-analysis).
+description: Use when building the theoretical argument for an Entrepreneurship Theory and Practice (ETP) manuscript — constructing an explicitly entrepreneurial mechanism (opportunity, effectuation, bricolage, identity, socioemotional wealth) and choosing the theorizing mode.
+Builds the argument; it does not pick the question (etp-topic-selection) or run the analysis (etp-data-analysis).
 ---
 
 # Theory Development (etp-theory-development)
@@ -15,7 +16,9 @@ description: Use when building the theoretical argument for an Entrepreneurship 
 
 ## ETP's theory bar
 
-ETP wants a **genuine contribution to entrepreneurship theory** — a new construct, a new mechanism, a boundary condition that changes what we predict, or a reconciliation of competing accounts — paired with a **defensible implication for practice**. The dual mandate (theory *and* practice, USASBE heritage) is structural, not cosmetic: an elegant model with no practitioner payoff and a useful tip with no theory both fall short. The mechanism must be **about the entrepreneurial phenomenon itself** — opportunity, judgment under Knightian uncertainty, resource assembly under constraint, the liability of newness, founder identity — not a generic organizational process relabeled.
+ETP wants a **genuine contribution to entrepreneurship theory** — a new construct, a new mechanism, a boundary condition that changes what we predict, or a reconciliation of competing accounts — paired with a **defensible implication for practice**.
+The dual mandate (theory *and* practice, USASBE heritage) is structural, not cosmetic: an elegant model with no practitioner payoff and a useful tip with no theory both fall short.
+The mechanism must be **about the entrepreneurial phenomenon itself** — opportunity, judgment under Knightian uncertainty, resource assembly under constraint, the liability of newness, founder identity — not a generic organizational process relabeled.
 
 ## Pick the theory engine (and use it deliberately)
 
@@ -28,7 +31,8 @@ ETP wants a **genuine contribution to entrepreneurship theory** — a new constr
 | **Socioemotional wealth (SEW)** | Non-financial family utility | Family business behavior | family control, dynastic intent, FIBER |
 | **Institutional / ecosystem** | Legitimacy and supportive structures | Context-dependent venturing | legitimacy, embeddedness, ecosystem health |
 
-State the mechanism as a causal/process chain with a **why**, **scope conditions**, and the **entrepreneurial actor or activity at its center**. If you integrate two engines (e.g., effectuation × identity), justify the integration — do not staple constructs together.
+State the mechanism as a causal/process chain with a **why**, **scope conditions**, and the **entrepreneurial actor or activity at its center**.
+If you integrate two engines (e.g., effectuation × identity), justify the integration — do not staple constructs together.
 
 ## Choose and execute a theorizing mode
 
@@ -61,7 +65,11 @@ The "implications for practice" section should follow *from the mechanism*: if e
 
 ## Worked vignette (illustrative)
 
-A draft argues that "founder resilience improves venture performance." This is generic and untestable as theory. Rebuild it through an engine. Choosing **entrepreneurial identity**: resilience matters because, under the chronic setbacks of new-venture creation, a founder whose *identity is centrally entrepreneurial* reframes failure as role-consistent learning rather than personal defeat, sustaining effort — the mechanism is identity-driven persistence, not a trait. The boundary condition: this advantage is strongest *early*, when the venture's survival depends on the founder's effort, and weakens as the firm professionalizes and effort decentralizes. The substitution check passes — an established firm's CEO does not face identity-threatening, existential setbacks at the same frequency, so the mechanism is entrepreneurial. The practice implication follows from the mechanism: accelerators and investors coaching founders should strengthen entrepreneurial identity centrality (not generic "grit training"), and the value of doing so declines as the venture matures.
+A draft argues that "founder resilience improves venture performance." This is generic and untestable as theory.
+Rebuild it through an engine. Choosing **entrepreneurial identity**: resilience matters because, under the chronic setbacks of new-venture creation, a founder whose *identity is centrally entrepreneurial* reframes failure as role-consistent learning rather than personal defeat, sustaining effort — the mechanism is identity-driven persistence, not a trait.
+The boundary condition: this advantage is strongest *early*, when the venture's survival depends on the founder's effort, and weakens as the firm professionalizes and effort decentralizes.
+The substitution check passes — an established firm's CEO does not face identity-threatening, existential setbacks at the same frequency, so the mechanism is entrepreneurial.
+The practice implication follows from the mechanism: accelerators and investors coaching founders should strengthen entrepreneurial identity centrality (not generic "grit training"), and the value of doing so declines as the venture matures.
 
 ## Output format
 

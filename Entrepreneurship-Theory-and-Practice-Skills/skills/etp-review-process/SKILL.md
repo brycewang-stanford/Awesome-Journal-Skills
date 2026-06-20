@@ -1,6 +1,7 @@
 ---
 name: etp-review-process
-description: Use when calibrating expectations for the Entrepreneurship Theory and Practice (ETP) review cycle — desk-reject odds, the developmental double-anonymized review, R&R norms, and revision choreography. Sets expectations and strategy; it does not draft the response letter (etp-rebuttal).
+description: Use when calibrating expectations for the Entrepreneurship Theory and Practice (ETP) review cycle — desk-reject odds, the developmental double-anonymized review, R&R norms, and revision choreography.
+Sets expectations and strategy; it does not draft the response letter (etp-rebuttal).
 ---
 
 # Review Process (etp-review-process)
@@ -15,7 +16,9 @@ description: Use when calibrating expectations for the Entrepreneurship Theory a
 
 ## How ETP review actually runs
 
-ETP uses **double-anonymized peer review** through ScholarOne, typically with a handling/associate editor and **two to three reviewers**. Like its top management/entrepreneurship peers, ETP runs a **developmental review model**: reviewers and editors aim to help a promising paper become publishable across rounds, so a **major R&R is the realistic "good" first outcome** for a strong submission — outright first-round acceptance is rare. Expect substantive, theory-heavy reviews and an editor letter that prioritizes among reviewer concerns.
+ETP uses **double-anonymized peer review** through ScholarOne, typically with a handling/associate editor and **two to three reviewers**.
+Like its top management/entrepreneurship peers, ETP runs a **developmental review model**: reviewers and editors aim to help a promising paper become publishable across rounds, so a **major R&R is the realistic "good" first outcome** for a strong submission — outright first-round acceptance is rare.
+Expect substantive, theory-heavy reviews and an editor letter that prioritizes among reviewer concerns.
 
 Calibrate volatile specifics (current turnaround times, acceptance rate, editor) on the SAGE journal page and your ScholarOne dashboard (检索于 2026-06；以官网为准).
 
@@ -29,7 +32,8 @@ Calibrate volatile specifics (current turnaround times, acceptance rate, editor)
 | **Minor R&R** | Close; targeted fixes | Address precisely; do not reopen settled issues |
 | **Conditional accept** | Almost there | Execute the editor's conditions exactly |
 
-The **editor's letter is the master document**: it tells you which reviewer concerns are binding. When reviewers conflict, the editor usually signals whose view governs — follow that signal rather than trying to satisfy everyone equally.
+The **editor's letter is the master document**: it tells you which reviewer concerns are binding.
+When reviewers conflict, the editor usually signals whose view governs — follow that signal rather than trying to satisfy everyone equally.
 
 ## Why ETP papers get desk-rejected
 
@@ -41,7 +45,9 @@ The **editor's letter is the master document**: it tells you which reviewer conc
 
 ## Choosing whether to fight for the R&R
 
-An ETP major R&R is **worth heavy investment** when the editor signals the contribution is valued and the binding concerns are addressable with available data/redesign. It is *not* worth it when a core reviewer rejects the premise (the mechanism isn't entrepreneurial, the design can't support the claim) and no feasible revision changes that — there, a reroute or rebuild beats a doomed resubmission. The developmental culture means editors expect a serious, responsive revision; a thin response burns the goodwill an R&R represents.
+An ETP major R&R is **worth heavy investment** when the editor signals the contribution is valued and the binding concerns are addressable with available data/redesign.
+It is *not* worth it when a core reviewer rejects the premise (the mechanism isn't entrepreneurial, the design can't support the claim) and no feasible revision changes that — there, a reroute or rebuild beats a doomed resubmission.
+The developmental culture means editors expect a serious, responsive revision; a thin response burns the goodwill an R&R represents.
 
 ## Checklist
 
@@ -62,7 +68,11 @@ An ETP major R&R is **worth heavy investment** when the editor signals the contr
 
 ## Worked vignette (illustrative)
 
-An author receives a major R&R. The editor's letter says the contribution is "potentially important" but lists two binding concerns: R1 doubts the mechanism is distinctively entrepreneurial, and R2 calls the practice section thin; a third reviewer raises minor measurement points. Reading the signal: "potentially important" plus a major R&R in ETP's developmental culture means this is a *winnable, worth-investing* revision, not a near-acceptance — the author should plan a substantial rebuild, not a light pass. The editor's prioritization is explicit (R1 and R2 are binding; R3 is secondary), so the revision plan leads with re-securing the entrepreneurial mechanism and rewriting the practice section as a real contribution, then mops up R3's measurement points. If, instead, R1 had rejected the premise outright with the editor concurring ("this is not an entrepreneurship contribution"), no feasible revision would save it and a reroute to JBV or a rebuild would beat a doomed resubmission. The author hands the prioritized plan to `etp-rebuttal`.
+An author receives a major R&R. The editor's letter says the contribution is "potentially important" but lists two binding concerns: R1 doubts the mechanism is distinctively entrepreneurial, and R2 calls the practice section thin; a third reviewer raises minor measurement points.
+Reading the signal: "potentially important" plus a major R&R in ETP's developmental culture means this is a *winnable, worth-investing* revision, not a near-acceptance — the author should plan a substantial rebuild, not a light pass.
+The editor's prioritization is explicit (R1 and R2 are binding; R3 is secondary), so the revision plan leads with re-securing the entrepreneurial mechanism and rewriting the practice section as a real contribution, then mops up R3's measurement points.
+If, instead, R1 had rejected the premise outright with the editor concurring ("this is not an entrepreneurship contribution"), no feasible revision would save it and a reroute to JBV or a rebuild would beat a doomed resubmission.
+The author hands the prioritized plan to `etp-rebuttal`.
 
 ## Output format
 

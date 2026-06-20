@@ -48,6 +48,17 @@ JAIS reviewers will not accept a strong finding as a substitute for a theoretica
 - [ ] The theoretical advance is not silently replaced by a strong empirical finding
 - [ ] Boundary conditions keep the claim from over-reaching the evidence
 
+## Referee pushback mapped to the framing fix
+
+- *"The contribution is incremental."* → Re-state it as a change in what the field knows ("before this paper… ; this paper shows…"), and show the prior belief it overturns or the gap it closes — not a marginal effect-size update.
+- *"This reads as a strong finding without a theoretical contribution."* → Lead with the theoretical advance; demote the empirical result to evidence *for* it. JAIS will not accept data in place of theory.
+- *"Why is this a Research Article and not a Theory paper?"* → If the real novelty is a construct or framework, re-categorize; if it is the empirical test of an existing theory, say so and keep the construct claims modest.
+- *"I can't tell what's new for my sub-field."* → Add a sentence translating the contribution into terms a reviewer from another IS tradition would value.
+
+## Worked vignette (illustrative)
+
+A paper reports that a platform's switch to algorithmic matching raised transaction completion by a measured amount. Framed as activity — "we analyzed 2.3M transactions before and after a matching-algorithm change" — it reads as a strong finding with no theory, a likely JAIS desk-reject. Reframed for JAIS: "Before this paper, IS theory treated platform matching as a search-cost reduction; this paper shows it also reshapes *who trusts whom*, introducing an algorithmic-trust channel that the search-cost account cannot explain — which changes how we theorize platform governance." The number now serves a theoretical advance, and the contribution is legible to behavioral, economic, and design-science reviewers alike. If the algorithmic-trust channel is the whole payoff, the paper may belong in the Theory category instead.
+
 ## Anti-patterns
 
 - A contribution stated as activity ("we conducted a survey of…") rather than as new knowledge.

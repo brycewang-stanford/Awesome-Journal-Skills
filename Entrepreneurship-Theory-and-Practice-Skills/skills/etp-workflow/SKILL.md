@@ -1,15 +1,20 @@
 ---
 name: etp-workflow
-description: Use when deciding which etp-* sub-skill to invoke next, or when sequencing manuscript work from topic selection through rebuttal for an Entrepreneurship Theory and Practice (ETP) submission. Routes — it does not replace — the specialized skills.
+description: Use when deciding which etp-* sub-skill to invoke next, or when sequencing manuscript work from topic selection through rebuttal for an Entrepreneurship Theory and Practice (ETP) submission.
+Routes — it does not replace — the specialized skills.
 ---
 
 # ETP Workflow Router (etp-workflow)
 
 ## Overview
 
-This is the router. It tells you **which etp-* skill to use at the current stage** of a manuscript aimed at *Entrepreneurship Theory and Practice* (ETP) — the **theory-and-practice flagship** of entrepreneurship research, published by **SAGE on behalf of Baylor University** and the **official journal of USASBE** (United States Association for Small Business and Entrepreneurship). ETP rewards papers that **build entrepreneurship theory** — opportunity, effectuation, bricolage, entrepreneurial identity, cognition, family business, social/sustainable entrepreneurship — *and* draw out implications for practice, on the back of rigorous empirics (quantitative, qualitative, or mixed).
+This is the router. It tells you **which etp-* skill to use at the current stage** of a manuscript aimed at *Entrepreneurship Theory and Practice* (ETP) — the **theory-and-practice flagship** of entrepreneurship research, published by **SAGE on behalf of Baylor University** and the **official journal of USASBE** (United States Association for Small Business and Entrepreneurship).
+ETP rewards papers that **build entrepreneurship theory** — opportunity, effectuation, bricolage, entrepreneurial identity, cognition, family business, social/sustainable entrepreneurship — *and* draw out implications for practice, on the back of rigorous empirics (quantitative, qualitative, or mixed).
 
-Default assumption: unless the user says otherwise, treat the target as ETP. Operational tells that you are at ETP and not a sibling: review is **double-anonymized** (scrub author identity, not just the title page); the contribution is judged on **theoretical advance AND a defensible "implications for practice" section**; Original Articles run **≤40 pages double-spaced, 12pt Times New Roman, 1-inch margins** (Research Briefs ≤20 pages); references are **APA**; submission is via **ScholarOne Manuscripts** at mc.manuscriptcentral.com/ETP. Johan Wiklund is listed as executive editor (待核实 — confirm the masthead at submission). Re-verify volatile specifics on the SAGE author-instructions page (检索于 2026-06；以官网为准).
+Default assumption: unless the user says otherwise, treat the target as ETP.
+Operational tells that you are at ETP and not a sibling: review is **double-anonymized** (scrub author identity, not just the title page); the contribution is judged on **theoretical advance AND a defensible "implications for practice" section**; Original Articles run **≤40 pages double-spaced, 12pt Times New Roman, 1-inch margins** (Research Briefs ≤20 pages); references are **APA**; submission is via **ScholarOne Manuscripts** at mc.manuscriptcentral.com/ETP.
+Johan Wiklund is listed as executive editor (待核实 — confirm the masthead at submission).
+Re-verify volatile specifics on the SAGE author-instructions page (检索于 2026-06；以官网为准).
 
 ## When to trigger
 
@@ -65,7 +70,8 @@ ETP spans several research traditions, and the binding constraint differs by arc
 
 ## Worked routing example (illustrative)
 
-A user says: "My panel of nascent ventures shows that founder prior failure predicts faster pivoting, but a reviewer says it's just survivor bias and that the result 'isn't really about entrepreneurship theory.'" That is two distinct ETP pushbacks — a *design* threat (the nascent panel silently drops ventures that died before pivoting, owned by `etp-methods` → `etp-data-analysis` for an event-history fix) and a *theory* threat (the mechanism reads as generic learning, owned by `etp-theory-development`, which must tie pivoting to an entrepreneurial primitive like experiential learning under Knightian uncertainty). Route to theory first to secure the entrepreneurial mechanism, then to methods to defend the sample; only once both settle do you return to `etp-contribution-framing` and `etp-rebuttal`.
+A user says: "My panel of nascent ventures shows that founder prior failure predicts faster pivoting, but a reviewer says it's just survivor bias and that the result 'isn't really about entrepreneurship theory.'" That is two distinct ETP pushbacks — a *design* threat (the nascent panel silently drops ventures that died before pivoting, owned by `etp-methods` → `etp-data-analysis` for an event-history fix) and a *theory* threat (the mechanism reads as generic learning, owned by `etp-theory-development`, which must tie pivoting to an entrepreneurial primitive like experiential learning under Knightian uncertainty).
+Route to theory first to secure the entrepreneurial mechanism, then to methods to defend the sample; only once both settle do you return to `etp-contribution-framing` and `etp-rebuttal`.
 
 ## Anti-patterns
 

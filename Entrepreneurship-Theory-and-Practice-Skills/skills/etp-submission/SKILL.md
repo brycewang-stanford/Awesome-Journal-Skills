@@ -1,6 +1,7 @@
 ---
 name: etp-submission
-description: Use when running the final pre-submission preflight for Entrepreneurship Theory and Practice (ETP) via ScholarOne Manuscripts — page/format limits, the double-anonymization scrub, APA references, article type, and required statements. Final checks; it does not draft content.
+description: Use when running the final pre-submission preflight for Entrepreneurship Theory and Practice (ETP) via ScholarOne Manuscripts — page/format limits, the double-anonymization scrub, APA references, article type, and required statements.
+Final checks; it does not draft content.
 ---
 
 # Submission Preflight (etp-submission)
@@ -15,9 +16,12 @@ description: Use when running the final pre-submission preflight for Entrepreneu
 
 ## Process facts (source map refreshed 2026-06; re-confirm on the SAGE author-instructions page)
 
-- ETP is published by **SAGE on behalf of Baylor University** and is the **official journal of USASBE**. Submission is through **ScholarOne Manuscripts** at **mc.manuscriptcentral.com/ETP**. Manuscript file format: **Word preferred**.
+- ETP is published by **SAGE on behalf of Baylor University** and is the **official journal of USASBE**.
+  Submission is through **ScholarOne Manuscripts** at **mc.manuscriptcentral.com/ETP**.
+  Manuscript file format: **Word preferred**.
 - **Peer review is double-anonymized** — the manuscript itself (not just the title page) must be scrubbed of author identity: remove author names/affiliations, anonymize self-citations ("Author, 2020"), strip acknowledgments and identifying file metadata, and avoid telltale dataset or institution references.
-- **Length:** Original Articles are typically **≤40 pages**, double-spaced, **12-pt Times New Roman**, **1-inch margins** (no lower limit). **Research Briefs ≤20 pages** plus tables and references. Confirm whether tables/references count against the limit on the current author-instructions page (待核实).
+- **Length:** Original Articles are typically **≤40 pages**, double-spaced, **12-pt Times New Roman**, **1-inch margins** (no lower limit). **Research Briefs ≤20 pages** plus tables and references.
+  Confirm whether tables/references count against the limit on the current author-instructions page (待核实).
 - **References:** **APA** style throughout.
 - **Abstract:** required; confirm the exact word limit on the current author-instructions page (待核实).
 - **ORCID, data availability / open-data statements, and any funding/conflict declarations:** SAGE policies apply — confirm which are required at submission on the current page (待核实).
@@ -70,7 +74,12 @@ description: Use when running the final pre-submission preflight for Entrepreneu
 
 ## Worked vignette: a self-citation that breaks anonymization (illustrative)
 
-A team submits an otherwise clean manuscript. In the theory section they write: "Building on our earlier finding (Smith & Jones, 2021) that nascent founders…" and the reference list shows Smith and Jones as the only two authors — who are also the submitting authors. Under ETP's double-anonymized review this is a de-anonymization: any reviewer can infer the authorship. The fix is not to delete the citation (which would orphan a needed reference) but to anonymize it in text — "prior work has found that nascent founders… ([Author], 2021)" — and place the full reference in a separate, non-anonymized title-page file along with names, affiliations, acknowledgments, and funding. Then scrub the Word document's properties (author metadata) and check headers/footers. The substance is unchanged; the team's identity is no longer leaked into the file the reviewers see.
+A team submits an otherwise clean manuscript.
+In the theory section they write: "Building on our earlier finding (Smith & Jones, 2021) that nascent founders…" and the reference list shows Smith and Jones as the only two authors — who are also the submitting authors.
+Under ETP's double-anonymized review this is a de-anonymization: any reviewer can infer the authorship.
+The fix is not to delete the citation (which would orphan a needed reference) but to anonymize it in text — "prior work has found that nascent founders… ([Author], 2021)" — and place the full reference in a separate, non-anonymized title-page file along with names, affiliations, acknowledgments, and funding.
+Then scrub the Word document's properties (author metadata) and check headers/footers.
+The substance is unchanged; the team's identity is no longer leaked into the file the reviewers see.
 
 ## Supplementary resources
 
