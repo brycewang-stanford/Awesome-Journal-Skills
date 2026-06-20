@@ -70,6 +70,10 @@ JMIS theory earns its place when it implies a decision a manager, firm, or platf
 - "We applied [reference-discipline theory] to [IS setting]" with no new IS mechanism
 - Hypotheses that merely restate correlations the data already revealed
 
+## Borrow reference-discipline theory, but earn an IS extension
+
+Much JMIS theory imports machinery from economics, psychology, or operations — that is expected and fine. What is not fine is stopping at the import. "We apply [transaction-cost economics / regulatory focus / queueing theory] to [an IS setting]" is an application, not a contribution; the IS field already knows the borrowed theory. The contribution comes from the **extension the IS context forces**: a digital artifact that changes the cost structure the borrowed theory assumed, a platform feature that creates a moderator the parent theory never anticipated, an automation that breaks a behavioral mechanism's boundary. Name explicitly what the IS context adds to or revises in the parent theory, and that addition — not the import — is your theoretical contribution.
+
 ## Output format
 
 ```text

@@ -66,6 +66,10 @@ JMIS is a quarterly with a single EIC and a board of AEs; turnaround depends on 
 - Treating a desk return for length/anonymization as a substantive rejection
 - Quoting acceptance rates or review times as fact without a source
 
+## Decide whether to revise or reroute
+
+Not every revision invitation is worth taking, and a clean reject sometimes signals a fit problem better solved by rerouting. Use a simple decision rule: if the binding concern is **fit/contribution** and the question is not really an IS-management/economics question, a revision will likely fail again — reconsider whether MISQ, ISR, JAIS, or an economics/CS venue is the true home before reinvesting. If the binding concern is **evidence** (identification, measurement, robustness) and you can plausibly produce the missing analysis within the revision window, a major revision is a genuine path to acceptance. If it is **process** (length, anonymization, scope-of-claims), fix and resubmit. Sunk-cost reasoning — "we already emailed it to JMIS" — is not a reason to revise a paper whose question belongs elsewhere.
+
 ## Output format
 
 ```text

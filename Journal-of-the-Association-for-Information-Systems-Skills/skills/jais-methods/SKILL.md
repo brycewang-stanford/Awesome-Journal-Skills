@@ -51,6 +51,14 @@ JAIS welcomes interpretive and critical work, so state your paradigm (positivist
 - [ ] Review: scope, reproducible protocol, and theoretical payoff specified
 - [ ] Data/code can be made available on request to SEs/reviewers (anonymized) per JAIS policy
 
+## Justify the method to a cross-paradigm panel
+
+Because JAIS's reviewer pool spans paradigms, the method section must do explicit justification work that a single-paradigm journal can leave implicit. State *why this design answers this question* in a sentence a reviewer from another tradition would accept, then meet that tradition's own rigor norms. A positivist reviewer reading an interpretive paper, or an interpretive reviewer reading an experiment, should both be able to see that the method is the right tool — not merely a competently executed default. Pluralism cuts both ways: it widens what is publishable and raises the burden of fit justification.
+
+## Worked vignette: matching method to claim (illustrative)
+
+A team asks whether a firm's adoption of a generative-AI service desk *causes* faster ticket resolution. If the claim is causal, a multi-wave survey of agent perceptions will not earn it — a reviewer will ask "what identifies the effect?" The fitting design names exogenous variation (a staggered rollout across regions), pre-commits a modern staggered-DID estimator and the event-study/placebo evidence, and clusters at the rollout unit. But if the team's real question is *how* agents renegotiate their professional identity around the AI, the causal design answers the wrong question; a qualitative, interpretive design with a stated paradigm and a traceable data-to-construct chain is the rigorous choice. Same setting, different claim, different method — and JAIS will publish either when the fit is argued.
+
 ## Anti-patterns
 
 - A causal IS claim resting on a cross-sectional correlation.

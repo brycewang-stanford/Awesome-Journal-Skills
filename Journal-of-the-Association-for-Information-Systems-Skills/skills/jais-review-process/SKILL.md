@@ -47,6 +47,14 @@ The **Senior Editor owns the decision.** When reviewers conflict, resolve in the
 - [ ] The developmental tone (or its absence) is read as a promise signal
 - [ ] Expectations for revision scope and timeline are realistic for the decision type
 
+## Engage the developmental culture deliberately
+
+JAIS's "developmental reviewing" is a resource, not just a label. When an SE letter is constructive and specific, treat it as collaborative coaching: respond to the *spirit* of the editor's concern, not only its letter, and signal in the revision that you understood where the paper is trying to go. JAIS also runs activities that reflect this ethos (for example, theory-development engagement around the IS community); a paper whose authors treat reviewers as partners in building the contribution tends to fare better than one that litigates every point. This is a meaningful contrast with more gatekeeping-style processes elsewhere.
+
+## Worked reading of a decision letter (illustrative)
+
+An SE writes: "All three reviewers find the phenomenon timely, but the theoretical contribution is not yet distinct from prior work; R2's identification concern is secondary to this." Read correctly, this is a developmental **major revision** whose single binding constraint is the theory contribution — not R2's identification point, which the SE has explicitly demoted. The revision plan should therefore lead with sharpening the construct/framework (route to `jais-theory-development` and `jais-contribution-framing`), then address identification proportionately. Spending the revision budget on robustness checks while leaving the theory thin would answer the loudest reviewer and miss the editor — the most common way a promising JAIS R&R fails.
+
 ## Anti-patterns
 
 - Reacting to a developmental major-revision letter as if it were a rejection.

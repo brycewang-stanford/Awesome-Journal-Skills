@@ -49,6 +49,10 @@ A compact way to make positioning auditable — and a frequent JAMS device — i
 
 In every case, end the positioning with the same two sentences you will reuse downstream: the new theoretical understanding, and the new managerial guidance.
 
+## Place positioning correctly in the manuscript
+
+JAMS papers carry positioning in two places, and they must agree. The **introduction** states the gap and the contribution compactly, in service of the question. A dedicated **theoretical-background / conceptual-development section** then does the deeper work — reviewing the stream, surfacing the tension, and motivating each hypothesis. Do not duplicate a full literature review in the intro; do not leave the intro without a clear gap statement. The contribution sentences in the intro should be the same ones the discussion revisits at the end — a paper whose claimed contribution drifts between intro and discussion reads as unsettled.
+
 ## Checklist
 
 - [ ] The literature stream the paper joins is named explicitly
@@ -58,6 +62,7 @@ In every case, end the positioning with the same two sentences you will reuse do
 - [ ] Foundational + current canon of the stream cited; no obvious pillar missing
 - [ ] APA citations consistent; in-text and reference list reconciled
 - [ ] Contribution not oversold beyond what the design can deliver
+- [ ] Intro gap statement and discussion contribution claim agree
 
 ## Anti-patterns
 

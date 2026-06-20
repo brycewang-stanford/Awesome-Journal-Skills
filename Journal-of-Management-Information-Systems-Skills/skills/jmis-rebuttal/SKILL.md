@@ -64,6 +64,10 @@ A referee demands an instrument you do not have. Arguing "no valid instrument ex
 - "We have addressed this" with no pointer to the change or new evidence
 - Letting added analyses push the paper past 50 pages or break anonymization
 
+## Structure the response document for fast adjudication
+
+The EIC and AE adjudicate faster when the letter is built for scanning. Open with a one-page **summary of major changes** that states how the contribution is now sharper and lists the three or four biggest revisions. Then take each reviewer in turn, quoting every comment verbatim in a distinct font or block, followed by your response in plain text with an explicit pointer ("see revised Section 4.2, Table 3, p. 18") and the new result stated inline. Where the same concern came from multiple reviewers, answer it once and cross-reference, so the AE sees consistency rather than contradictions. Close each reviewer's section by inviting them to the specific changed passages. A response that the AE can verify against the manuscript without hunting is itself evidence that you took the review seriously.
+
 ## Output format
 
 ```text
