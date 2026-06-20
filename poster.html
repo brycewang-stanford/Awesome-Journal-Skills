@@ -16,6 +16,7 @@
     --clay-deep:#b15a3f;
     --slate:#3f566b;
     --slate-soft:#6b85a0;
+    --green:#5d7a60;
     --gold:#be8c2e;
   }
 
@@ -128,9 +129,10 @@
   .seg-cn{background:linear-gradient(180deg,var(--clay),var(--clay-deep));}
   .seg-en1{background:linear-gradient(180deg,var(--slate),#33485a);}
   .seg-en2{background:linear-gradient(180deg,var(--slate-soft),var(--slate));}
+  .seg-eng{background:linear-gradient(180deg,#6f8b70,var(--green));}
   .seg-cs{background:linear-gradient(180deg,#c89a3a,var(--gold));}
 
-  .cov-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;}
+  .cov-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;}
   .cov-card{
     background:var(--card);border:1px solid var(--line);border-radius:9px;
     padding:14px 14px 13px;position:relative;
@@ -140,7 +142,7 @@
   .cov-card .big{font-family:"Iowan Old Style",Georgia,serif;font-size:30px;font-weight:700;line-height:1;color:var(--ink);}
   .cov-card .unit{font-size:12px;color:var(--muted);margin-left:3px;}
   .cov-card .desc{margin-top:7px;font-size:11.5px;color:var(--muted);line-height:1.5;}
-  .sw-cn{background:var(--clay);}.sw-en1{background:var(--slate);}.sw-en2{background:var(--slate-soft);}.sw-cs{background:var(--gold);}
+  .sw-cn{background:var(--clay);}.sw-en1{background:var(--slate);}.sw-en2{background:var(--slate-soft);}.sw-eng{background:var(--green);}.sw-cs{background:var(--gold);}
 
   .cov-note{margin-top:13px;font-size:12px;color:var(--muted);line-height:1.6;}
   .cov-note b{color:var(--ink-soft);}
@@ -228,9 +230,9 @@
 
   <!-- STAT STRIP -->
   <section class="stats">
-    <div class="stat accent"><div class="num">1984</div><div class="lbl">Agent Skills</div></div>
-    <div class="stat"><div class="num">122</div><div class="lbl">期刊 / 会议 Pack</div></div>
-    <div class="stat accent"><div class="num">356</div><div class="lbl">本顶级期刊</div></div>
+    <div class="stat accent"><div class="num">2137</div><div class="lbl">Agent Skills</div></div>
+    <div class="stat"><div class="num">127</div><div class="lbl">期刊 / 会议 Pack</div></div>
+    <div class="stat accent"><div class="num">504</div><div class="lbl">本顶级期刊</div></div>
     <div class="stat"><div class="num">155</div><div class="lbl">个 CS / AI 顶会</div></div>
   </section>
 
@@ -250,16 +252,17 @@
     <div class="coverage">
       <div class="section-h"><span class="zh">期刊覆盖</span><span class="en">Coverage</span><span class="rule"></span></div>
       <div class="cov-bar">
-        <div class="cov-seg seg-cn"  style="flex:102" title="中文期刊 102">中文 102</div>
+        <div class="cov-seg seg-cn"  style="flex:115" title="中文期刊 115">中文 115</div>
         <div class="cov-seg seg-en1" style="flex:100" title="英文经管 100">英文经管 100</div>
         <div class="cov-seg seg-en2" style="flex:154" title="英文自然科学 154">英文自然科学 / 临床 154</div>
+        <div class="cov-seg seg-eng" style="flex:135" title="英文工程·农医·人文 135">工程·农医·人文 135</div>
         <div class="cov-seg seg-cs"  style="flex:155" title="CS/AI 会议 155">CS / AI 会议 155</div>
       </div>
       <div class="cov-grid">
         <div class="cov-card">
           <div class="tag"><span class="swatch sw-cn"></span>中文期刊</div>
-          <div class="big">102<span class="unit">本</span></div>
-          <div class="desc">经管 · 社科 CSSCI 来源刊</div>
+          <div class="big">115<span class="unit">本</span></div>
+          <div class="desc">经管 · 社科 · 体育学 CSSCI 来源刊</div>
         </div>
         <div class="cov-card">
           <div class="tag"><span class="swatch sw-en1"></span>英文 · 经管商科</div>
@@ -272,13 +275,18 @@
           <div class="desc">临床 · 物理 · 化学 · 环境 · 农业</div>
         </div>
         <div class="cov-card">
+          <div class="tag"><span class="swatch sw-eng"></span>英文 · 工程农医人文</div>
+          <div class="big">135<span class="unit">本</span></div>
+          <div class="desc">IEEE · Nature Food · JAMA 子刊 · AHR</div>
+        </div>
+        <div class="cov-card">
           <div class="tag"><span class="swatch sw-cs"></span>CS / AI 会议</div>
           <div class="big">155<span class="unit">个</span></div>
           <div class="desc">NeurIPS · ICML · ICLR · CVPR…</div>
         </div>
       </div>
       <p class="cov-note">
-        合计 <b>中文 102 + 英文 254</b> 本顶级期刊 + 155 个 CS/AI 顶会。重点刊（《经济研究》《管理世界》《中国社会科学》/ AER · Science · Cell · NEJM · Lancet）
+        合计 <b>中文 115 + 英文 389</b> 本顶级期刊 + 155 个 CS/AI 顶会。重点刊（《经济研究》《管理世界》《中国社会科学》/ AER · Science · Cell · NEJM · Lancet）
         另以「<b>单刊全流程深度包</b>」形态收录，约 12 个 skill 覆盖一篇论文的完整生命周期。
       </p>
     </div>
