@@ -24,23 +24,18 @@
     <path d="M0 36 L -32 8 M0 4 L 30 -22 M0 -34 L -26 -56" stroke="#08140d" stroke-width="2.4" fill="none"/>
   </g>
 
-  <text x="440" y="470" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="56" fill="#eefbf3" font-weight="700">Agriculture &amp;</text>
-  <text x="440" y="536" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="56" fill="#eefbf3" font-weight="700">Environment</text>
-  <text x="440" y="598" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#4ade80" font-weight="600">Journal Skills</text>
+  <text x="440" y="566" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#eefbf3" font-weight="700">Agriculture &amp;</text>
+  <text x="440" y="638" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#eefbf3" font-weight="700">Environment</text>
+  <text x="440" y="706" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="40" fill="#4ade80" font-weight="600">Journal Skills</text>
 
-  <line x1="240" y1="646" x2="640" y2="646" stroke="#1d4435" stroke-width="2"/>
+  <line x1="240" y1="768" x2="640" y2="768" stroke="#1d4435" stroke-width="2"/>
 
-  <text x="440" y="704" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="30" fill="#cbe8d6">30 flagship ag · env · earth journals</text>
-  <text x="440" y="746" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#8fb8a3">Nature Food · Nature Plants · New Phytologist</text>
-  <text x="440" y="778" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#8fb8a3">Global Change Biology · Water Resources Research</text>
+  <text x="440" y="856" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="46" fill="#cbe8d6" font-weight="600">30 flagship journals</text>
 
-  <g font-family="-apple-system, 'Segoe UI', sans-serif" font-size="20" fill="#08140d">
-    <rect x="250" y="828" width="160" height="44" rx="22" fill="url(#accent)"/>
-    <text x="330" y="856" text-anchor="middle" font-weight="700">fit · framing</text>
-    <rect x="470" y="828" width="160" height="44" rx="22" fill="#38bdf8"/>
-    <text x="550" y="856" text-anchor="middle" font-weight="700">house style</text>
+  <g font-family="-apple-system, 'Segoe UI', sans-serif" font-size="26" fill="#08140d">
+    <rect x="240" y="912" width="178" height="54" rx="27" fill="url(#accent)"/>
+    <text x="329" y="948" text-anchor="middle" font-weight="700">fit · framing</text>
+    <rect x="462" y="912" width="178" height="54" rx="27" fill="#38bdf8"/>
+    <text x="551" y="948" text-anchor="middle" font-weight="700">house style</text>
   </g>
-
-  <text x="440" y="960" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="20" fill="#5f8472">One fit-and-house-style skill per journal</text>
-  <text x="440" y="990" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="20" fill="#5f8472">+ en-agrienv-journal-workflow routing</text>
 </svg>

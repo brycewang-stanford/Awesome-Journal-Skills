@@ -30,25 +30,17 @@
     <line x1="-150" y1="84" x2="150" y2="84"/>
   </g>
 
-  <text x="440" y="470" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="64" fill="#f6ecd9" font-weight="700">Humanities</text>
-  <text x="440" y="534" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#e7b75f" font-weight="600">Journal Skills</text>
+  <text x="440" y="600" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="78" fill="#f6ecd9" font-weight="700">Humanities</text>
+  <text x="440" y="670" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="40" fill="#e7b75f" font-weight="600">Journal Skills</text>
 
-  <line x1="240" y1="586" x2="640" y2="586" stroke="#4a3318" stroke-width="2"/>
+  <line x1="240" y1="734" x2="640" y2="734" stroke="#4a3318" stroke-width="2"/>
 
-  <text x="440" y="644" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="30" fill="#e8d8bd">36 flagship humanities journals</text>
-  <text x="440" y="686" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#b79a72">AHR · PMLA · The Philosophical Review · Mind</text>
-  <text x="440" y="718" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#b79a72">Critical Inquiry · The Art Bulletin · Language</text>
+  <text x="440" y="822" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="46" fill="#e8d8bd" font-weight="600">36 flagship journals</text>
 
-  <text x="440" y="772" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="20" fill="#9c8260">history · philosophy · literature · classics</text>
-  <text x="440" y="800" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="20" fill="#9c8260">art history · religion · linguistics · musicology</text>
-
-  <g font-family="-apple-system, 'Segoe UI', sans-serif" font-size="20" fill="#1a1206">
-    <rect x="250" y="836" width="160" height="44" rx="22" fill="url(#accent)"/>
-    <text x="330" y="864" text-anchor="middle" font-weight="700">fit · framing</text>
-    <rect x="470" y="836" width="160" height="44" rx="22" fill="#d99a55"/>
-    <text x="550" y="864" text-anchor="middle" font-weight="700">house style</text>
+  <g font-family="-apple-system, 'Segoe UI', sans-serif" font-size="26" fill="#1a1206">
+    <rect x="240" y="884" width="178" height="54" rx="27" fill="url(#accent)"/>
+    <text x="329" y="920" text-anchor="middle" font-weight="700">fit · framing</text>
+    <rect x="462" y="884" width="178" height="54" rx="27" fill="#d99a55"/>
+    <text x="551" y="920" text-anchor="middle" font-weight="700">house style</text>
   </g>
-
-  <text x="440" y="968" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="20" fill="#7c6648">One fit-and-house-style skill per journal</text>
-  <text x="440" y="998" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="20" fill="#7c6648">+ en-humanities-journal-workflow routing</text>
 </svg>

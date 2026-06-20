@@ -13,12 +13,12 @@ Captured on 2026-06-20 from a clean `main...origin/main` checkout.
 
 | Check | Current result |
 |---|---:|
-| `tools/audit_repo.py --counts` | 2665 skills / 171 packs / 200 root entries |
-| `tools/quality_scorecard.py --top 40 --show-skills` | mean 92.6, min 86.0, below 86/88/90 = 0/5/5 |
-| Low-tail packs below 90 | Agriculture-Environment, Chinese Sport Science, Clinical Medicine, Engineering Technology, English Humanities |
-| `tools/root_entry_audit.py` | 200 enriched cards, 4 warnings |
-| `tools/source_map_audit.py` | 156 source maps, 0 warnings |
-| Highest unresolved source maps | Journal of Banking and Finance, Journal of Economic Theory, The Economic Journal, Journal of Econometrics, Journal of Financial Intermediation |
+| `tools/audit_repo.py --counts` | 2809 skills / 183 packs / 200 root entries |
+| `tools/quality_scorecard.py --top 40 --show-skills` | mean 93.3, min 89.2, below 86/88/90 = 0/0/2 |
+| Low-tail packs below 90 | Journal of Public Administration Research and Theory, Comparative Political Studies |
+| `tools/root_entry_audit.py` | 200 enriched cards, 0 warnings |
+| `tools/source_map_audit.py` | 168 source maps, 0 warnings |
+| Highest unresolved source maps | American Anthropologist, New Media & Society, AER Insights, AJPS, Journal of Labor Economics |
 | `tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 40` | no fail-threshold hits; top risks are Science/PNAS rebuttal and CS conference breadth pairs around 0.799 |
 
 ## Work worth doing
@@ -132,5 +132,10 @@ git status --short --branch
 | 2026-06-20 | JIE source-map policy refresh | done | `python3 tools/source_map_audit.py Journal-of-International-Economics-Skills --all` -> unresolved_flags 0 after 2026-06-20 ScienceDirect Guide/editorial-board, Mendeley Data, and Elsevier submission-fee refresh |
 | 2026-06-20 | Management Science source-map policy refresh | done | `python3 tools/source_map_audit.py Management-Science-Skills --all` -> unresolved_flags 0 after 2026-06-20 INFORMS PubsOnline submission-guidelines/editorial-board/code-data/fee refresh |
 | 2026-06-20 | AERJ source-map policy refresh | done | `python3 tools/source_map_audit.py American-Educational-Research-Journal-Skills --all` -> unresolved_flags 0 after 2026-06-20 SAGE author-instructions/AERA home/editors/operations/standards refresh and integrated-journal correction |
+| 2026-06-20 | Criminology source-map policy refresh | done | `python3 tools/source_map_audit.py Criminology-Skills --all` -> unresolved_flags 0 after 2026-06-20 ASC/Wiley/ACT/APC/data-policy/preprint review refresh |
+| 2026-06-20 | ISR source-map policy refresh | done | `python3 tools/source_map_audit.py Information-Systems-Research-Skills --all` -> unresolved_flags 0 after 2026-06-20 INFORMS submission-guidelines/editorial-board/editorial-statement/Open-Option refresh |
+| 2026-06-20 | JIBS source-map policy refresh | done | `python3 tools/source_map_audit.py Journal-of-International-Business-Studies-Skills --all` -> unresolved_flags 0 after 2026-06-20 Springer/AIB journal-home/editorial-board/submission-guidelines/OA-DART refresh |
+| 2026-06-20 | RED source-map policy refresh | done | `python3 tools/source_map_audit.py Review-of-Economic-Dynamics-Skills --all` -> unresolved_flags 0 after 2026-06-20 SED/ScienceDirect Guide/editorial-board/data-code/APC refresh |
+| 2026-06-20 | JPAM source-map policy refresh | done | `python3 tools/source_map_audit.py Journal-of-Policy-Analysis-and-Management-Skills --all` -> unresolved_flags 0 after 2026-06-20 APPAM/Wiley Research Exchange/fee/article-type/data-repository refresh |
 | 2026-06-20 | User-facing maintenance docs | done | `CONTRIBUTING.md`, `tools/README.md`, `README.md`, and `README.en.md` now point maintainers to the count-disciplined monthly quality program and acceptance commands |
-| 2026-06-20 | Post-batch acceptance gates | done | `run_checks.py --skip-reports` passed; counts remain 2665 / 171 / 200; scorecard min 90.0; root/source-map warnings 0; clone audit has no 0.90 fail-threshold hits |
+| 2026-06-20 | Post-batch acceptance gates | done | `run_checks.py --skip-reports` passed; counts remain 2809 / 183 / 200; scorecard min 89.2; root/source-map warnings 0; clone audit has no 0.90 fail-threshold hits |
