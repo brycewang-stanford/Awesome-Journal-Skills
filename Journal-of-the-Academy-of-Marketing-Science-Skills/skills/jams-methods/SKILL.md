@@ -46,6 +46,13 @@ Because so many JAMS papers are survey-based, the measurement model is where rev
 
 A method is "JAMS-ready" only when it supports both the theoretical claim and the managerial reading. After choosing the design, write one line: *the variation / manipulation that identifies the focal effect*, and one line: *the managerial quantity the estimates will produce*. If the design cannot deliver a managerially interpretable magnitude (e.g., a standardized path with no translatable unit), plan now to add a study, an elasticity, or a scenario analysis — discovering this after data collection is expensive. Hand the executed plan to `jams-data-analysis`, which carries the same managerial-magnitude discipline into reporting.
 
+## Sample, power, and data provenance
+
+- **Sample frame and response.** For surveys, justify the sampling frame, report the response rate, and test for **non-response bias** (e.g., early-vs-late respondents) and **informant quality** (key-informant competence for B2B/firm-level constructs).
+- **Power.** Size the study for the effect that carries the contribution — usually an **interaction or an indirect effect**, which needs more power than a main effect. State the a priori power analysis.
+- **Provenance.** Name the data source (panel/scanner such as NielsenIQ/Circana, CRM, a field partner, a Prolific/Qualtrics panel) and document sample construction, screening, and any exclusions — JAMS reviewers and the data-availability policy both expect a clear data trail.
+- **Multi-source / multi-wave designs** strengthen both causal credibility and the CMV defense; flag where a single-source cross-section limits the causal claim and adjust the language accordingly.
+
 ## Checklist
 
 - [ ] Genre named; design matched to the causal/behavioral/structural claim

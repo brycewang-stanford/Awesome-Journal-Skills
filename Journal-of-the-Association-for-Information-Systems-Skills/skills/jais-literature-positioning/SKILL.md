@@ -41,6 +41,17 @@ JAIS's Literature Review category (SE Gregory Vial, 待核实) recognizes two ge
 - [ ] For a Literature Review: scope, search/coding method, and theoretical payoff are stated
 - [ ] Citations are real and verifiable (no invented exemplars); APA 6th style
 
+## Referee pushback mapped to the positioning fix
+
+- *"This is a borrowed-theory application; what does it add to IS?"* → Make the cross-disciplinary round trip explicit: show how the IS context revises or extends the source theory's predictions, not just borrows them.
+- *"The paper does not engage the relevant IS literature."* → Name the live IS conversation and the canonical works that anchor it; add JAIS's own discourse where the topic has a history in the journal.
+- *"Why JAIS rather than ISR or MISQ?"* → If the payoff is the theory/framework itself, foreground that — JAIS's Theory category and developmental ethos make it the natural home; say so in the cover letter.
+- *"The review has no boundaries."* → State inclusion/exclusion criteria, the search and coding procedure, and the theoretical destination the synthesis reaches.
+
+## Worked vignette (illustrative)
+
+A team studies how generative-AI assistants reshape knowledge-worker collaboration, leaning on psychological theories of trust. A weak front end says "no prior study examines AI-assistant trust" and cites only HCI work. A JAIS-grade front end names a live IS conversation — say, the long debate over how automation reallocates agency between people and systems — states which side it advances, cites the IS canon that frames that debate, and then makes the round trip: the AI-assistant setting *revises* the trust theory because the "trustee" now adapts to the user in real time, a feature the borrowed theory never modeled. That revision, fed back to psychology, is the cross-disciplinary contribution JAIS rewards. The cover letter then says plainly why this is JAIS (the theoretical reframing is the point) and not a pure identification paper for ISR.
+
 ## Anti-patterns
 
 - A "research gap" front end with no debate, so the contribution reads as novelty-for-its-own-sake.

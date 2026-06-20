@@ -43,6 +43,18 @@ The right exhibit set depends on the empirical genre — build to the genre, not
 
 Two exhibits decide whether a JAMS reviewer believes the contingency story and the managerial payoff. The **interaction plot** must show the moderator on separate lines with the simple slopes labeled and significance of each slope stated in the note — a bare interaction coefficient in a table is not enough. The **managerial magnitude exhibit** should convert the focal effect into the unit a decision maker uses (e.g., "a one-SD increase in the focal construct raises predicted retention by X points for high-equity brands but only Y for low-equity brands"), so the boundary condition reads as a segmentation rule, not a statistical artifact.
 
+## Common exhibit defects JAMS reviewers flag
+
+- **Hypothesis–figure–table mismatch.** The conceptual model shows a moderator the structural table never tests, or the hypothesis numbers do not line up across the three. Cross-check them as a set before submitting.
+- **Stars without sizes.** A table of asterisks tells the reader nothing about magnitude; add standardized coefficients, CIs, and *R²*.
+- **Mediation as a flowchart of p-values.** Show the indirect effect and its bias-corrected CI as a number, not a diagram of significant arrows.
+- **Notes that omit the estimator.** A reader cannot judge a coefficient without knowing the model, the SE type, and the sample base — put them in the note.
+- **No managerial exhibit at all.** Many otherwise-clean JAMS submissions stop at the structural table; the missing decision-units exhibit is exactly what a reviewer asks for in round one.
+
+## Title, label, and number discipline
+
+Give every exhibit a **descriptive title** that states what it shows ("Table 3. Structural Model Estimates for the Brand-Equity → Firm-Value Path"), define every variable and abbreviation in the note, state the sample size, and number exhibits in the order they are first cited in the text. Keep one numbering sequence across the main paper, and a separate clearly-prefixed sequence for any online appendix, so a reviewer can always tell which file an exhibit lives in.
+
 ## Checklist
 
 - [ ] Conceptual model figure present and matches the hypothesis list exactly

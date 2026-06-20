@@ -53,6 +53,10 @@ Before: a 190-word abstract that spends three sentences on background, cites two
 - [ ] Prose reads cleanly with numbered citations; references in JMIS numbered style
 - [ ] Active voice; hedging trimmed; one idea per paragraph
 
+## Write so the double-blind file stays blind
+
+JMIS prose goes into a fully anonymized file, so the writing itself must not leak authorship. Phrase self-citations in the third person ("Prior work [12] shows…", not "In our earlier study we showed…"); avoid "as we have argued elsewhere"; keep acknowledgments, grant numbers, and institution names out of the draft; and do not name a proprietary dataset or platform in a way that fingerprints the author. These are stylistic habits, not just submission mechanics — building them into the prose now means the `jmis-submission` anonymization check finds nothing to fix.
+
 ## Anti-patterns
 
 - An intro that withholds the contribution until after pages of background

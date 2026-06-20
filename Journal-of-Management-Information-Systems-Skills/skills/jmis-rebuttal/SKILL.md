@@ -52,6 +52,10 @@ When referees conflict, the **AE's letter is the decision signal** — prioritiz
 - [ ] Declines are justified with evidence, not asserted
 - [ ] Revised manuscript stays ≤50pp, anonymized, with numbered references
 
+## Worked move: converting a contested request into a resolved concern (illustrative)
+
+A referee demands an instrument you do not have. Arguing "no valid instrument exists" reads as a dodge. The resolving move triangulates: add the within-unit/quasi-experimental evidence you *can* produce, run a selection-sensitivity analysis showing how large unobserved confounding would have to be to overturn the result, and state plainly the residual limitation in the discussion. You did not give the referee the exact tool requested, but you addressed the underlying worry — endogeneity — with evidence, and you let the AE see that the concern is now bounded rather than ignored. That is what "resolved, not just answered" means in an EIC-led process.
+
 ## Anti-patterns
 
 - A defensive letter that argues with referees instead of resolving concerns

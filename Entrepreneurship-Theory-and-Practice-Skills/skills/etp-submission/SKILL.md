@@ -68,6 +68,10 @@ description: Use when running the final pre-submission preflight for Entrepreneu
 【Next step】submit via ScholarOne (mc.manuscriptcentral.com/ETP) → etp-review-process
 ```
 
+## Worked vignette: a self-citation that breaks anonymization (illustrative)
+
+A team submits an otherwise clean manuscript. In the theory section they write: "Building on our earlier finding (Smith & Jones, 2021) that nascent founders…" and the reference list shows Smith and Jones as the only two authors — who are also the submitting authors. Under ETP's double-anonymized review this is a de-anonymization: any reviewer can infer the authorship. The fix is not to delete the citation (which would orphan a needed reference) but to anonymize it in text — "prior work has found that nascent founders… ([Author], 2021)" — and place the full reference in a separate, non-anonymized title-page file along with names, affiliations, acknowledgments, and funding. Then scrub the Word document's properties (author metadata) and check headers/footers. The substance is unchanged; the team's identity is no longer leaked into the file the reviewers see.
+
 ## Supplementary resources
 
 - [`templates/checklist.md`](templates/checklist.md) — submission self-check

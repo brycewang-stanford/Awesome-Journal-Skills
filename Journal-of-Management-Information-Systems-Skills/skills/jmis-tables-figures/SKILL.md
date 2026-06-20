@@ -52,6 +52,10 @@ Order is part of the argument: (1) descriptives/balance establish the sample and
 - [ ] Empirical papers include an event-study/leads figure where parallel trends matter
 - [ ] Body holds the contribution-establishing exhibits; appendix holds only support; ≤50pp respected
 
+## Number and reference exhibits for JMIS's house style
+
+JMIS uses **numbered bracketed citations [n]** with an alphabetized reference list, so any in-text reference to a source *inside* a table note should use the same numbered form, not author-date. Number tables and figures consecutively, give each a caption that names what it shows (not just "Regression results"), and make sure every exhibit is called out in the text in order. Because the manuscript is double-anonymized, scrub identifying content from figures too — institution logos, internal dashboard screenshots, or proprietary platform names that reveal the author or data source belong out of the blind file or suitably masked. (检索于 2026-06；以官网为准.)
+
 ## Anti-patterns
 
 - A coefficient table with stars but no magnitude or interpretation

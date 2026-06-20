@@ -1,6 +1,6 @@
 ---
 name: jais-submission
-description: Use for the final pre-submission preflight of a Journal of the Association for Information Systems (JAIS) manuscript — ManuscriptCentral portal, double-blind anonymization, the correct manuscript category and its length budget, the required SEM correlation/covariance matrix, the cover-letter elements (Senior Editor nomination, two suggested reviewers), and APA-6 formatting. Verifies readiness to submit; it does not polish prose (jais-writing-style) or interpret decisions (jais-review-process).
+description: Use when running the final pre-submission preflight of a Journal of the Association for Information Systems (JAIS) manuscript — ManuscriptCentral portal, double-blind anonymization, the correct manuscript category and its length budget, the required SEM correlation/covariance matrix, the cover-letter elements (Senior Editor nomination, two suggested reviewers), and APA-6 formatting. Verifies readiness to submit; it does not polish prose (jais-writing-style) or interpret decisions (jais-review-process).
 ---
 
 # Submission Preflight (jais-submission)

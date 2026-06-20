@@ -54,6 +54,10 @@ Suppose the main coefficient implies the ranking redesign cut marginal-seller re
 - [ ] Inference: clustering correct; robustness to spec/sample shown
 - [ ] Magnitudes, not just significance, are reported and interpreted for managers
 
+## Pre-empt the reverse-causality reflex
+
+On IT-value and platform papers, the most common first-round attack is "this could be reverse causality or selection." Do not wait for it — pre-empt it in the analysis. Show the timing (the cause precedes the effect), use within-unit variation that differences out fixed selection, lean on a quasi-experimental shock where you have one, and where you must use an instrument, defend the exclusion restriction on institutional grounds and report weak-IV-robust inference if the first stage is not strong. Then bound what remains: a selection-sensitivity analysis (e.g., Oster-style δ/bounds) tells a referee how much unobserved confounding it would take to overturn the result. Anticipating the endogeneity objection inside the paper is worth more than answering it in a rebuttal.
+
 ## Anti-patterns
 
 - "The coefficient is significant" presented as if it were identification

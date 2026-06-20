@@ -1,6 +1,6 @@
 ---
 name: jais-rebuttal
-description: Use after a Journal of the Association for Information Systems (JAIS) revision decision to plan the revision and draft the point-by-point response — prioritizing the Senior Editor's letter, answering theory- and method-specific concerns in their proper currency, updating the required data materials, and keeping the manuscript within its category budget and double-blind anonymity. Drafts the response after the manuscript is actually revised; interpret the decision first with jais-review-process.
+description: Use when a Journal of the Association for Information Systems (JAIS) revision decision has arrived and you must plan the revision and draft the point-by-point response — prioritizing the Senior Editor's letter, answering theory- and method-specific concerns in their proper currency, updating the required data materials, and keeping the manuscript within its category budget and double-blind anonymity. Drafts the response after the manuscript is actually revised; interpret the decision first with jais-review-process.
 ---
 
 # Rebuttal & Response Letter (jais-rebuttal)

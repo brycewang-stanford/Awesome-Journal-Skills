@@ -52,6 +52,10 @@ A results section supports: "the recommender redesign reduced marginal-seller re
 - [ ] The claim is narrower than the evidence; ruled-out alternatives and boundaries are named
 - [ ] Intro "we show that…" and discussion implications state the same contribution
 
+## Make the dual contribution explicit
+
+JMIS prizes work that contributes to *both* IS theory and IS practice, and the journal's management identity means the practical side is not optional. State the theoretical contribution (what the IS field now believes) and the managerial/economic contribution (what a firm, platform, CIO, or policymaker should do) as two distinct, named payloads — not one blurred "implications" paragraph. The two should reinforce each other: the mechanism you theorized is *why* the managerial advice holds, and the managerial advice is the *stakes* that make the mechanism worth knowing. A paper that nails the theory but offers only generic practice advice, or vice versa, reads as half a JMIS contribution.
+
 ## Anti-patterns
 
 - A reference-discipline contribution (pure econ/marketing/CS finding) with no IS advance
