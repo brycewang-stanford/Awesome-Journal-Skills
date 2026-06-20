@@ -54,6 +54,14 @@ description: Use when running the final pre-submission preflight for a Journal o
 - [ ] No concurrent submission; conference/working-paper versions disclosed in the cover letter
 - [ ] AI not listed as an author; any AI-assistance disclosed per policy
 
+## Editorial Manager operation notes
+
+- Reach the portal from the journal's "Submit manuscript" link (link.springer.com/journal/11747); keep your account and **ORCID** current.
+- Choose **article type, keywords, and area/classifications** carefully — they route the manuscript to the area editor whose domain matches the paper. A mismatch slows review and risks an unsympathetic read.
+- Upload the **anonymized manuscript** and the **separate title page** into the slots the system designates; the title page (not the blinded file) carries authors, affiliations, ORCID, funding, and acknowledgments.
+- **Preview the system-built PDF** before final submission to confirm exhibits render and no identity leaked into headers, properties, or file names.
+- Have the **cover letter** ready in the portal: state fit to JAMS, the theoretical *and* managerial contribution, and that the paper is not under review elsewhere.
+
 ## Anti-patterns
 
 - Self-identifying language ("in our 2019 study") or a link that reveals identity in the blinded file
@@ -62,6 +70,7 @@ description: Use when running the final pre-submission preflight for a Journal o
 - No data/code availability statement, or no plan for a repository deposit
 - Treating the optional OA APC as a mandatory submission fee
 - Quoting a page/abstract limit as fixed without checking the current guidelines
+- Generic keyword/area choices that misroute the manuscript to the wrong editor
 
 ## Output format
 

@@ -51,6 +51,15 @@ description: Use when understanding how Journal of the Academy of Marketing Scie
 - **vs. JMR:** JMR enforces exact three-digit p-values and a Web Appendix convention; JAMS emphasizes construct validity and the managerial contribution more than a single statistics-reporting rule.
 - **vs. Marketing Science / JCR:** those weigh modeling rigor or consumer-theory depth respectively; JAMS will not accept a paper strong on one of those but thin on the managerial takeaway.
 
+## After the decision: the immediate moves
+
+- **Desk reject:** re-evaluate fit before resubmitting elsewhere — a scope/relevance desk reject usually means the paper needs `jams-topic-selection` and `jams-contribution-framing` work, not a quick reformat.
+- **Reject after review:** mine the reports for the decisive flaw; if it is fixable (identification, validity, a missing study), the work may suit a sibling or a later JAMS resubmission as a new paper — but do not re-submit the same paper to JAMS without a fundamental change.
+- **R&R (major/minor):** move straight to `jams-rebuttal`; revise the manuscript before drafting the letter, and lead with the editor's decisive concerns.
+- **Conditional acceptance:** finalize the data/code availability statement and any repository deposit, confirm declarations, and complete the production checklist.
+
+Throughout, keep the manuscript and all correspondence anonymized until a decision releases that requirement; reviewers see your revisions, and a slip that reveals identity can compromise the round.
+
 ## Checklist
 
 - [ ] AE/editor letter parsed: decisive vs. secondary concerns identified
