@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "aej-microeconomics-skills",
+  "version": "0.1.0",
+  "description": "An opinionated, theory-first agent skill stack for manuscripts targeted at the American Economic Journal: Microeconomics (AEJ: Micro), the American Economic Association's journal for microeconomic theory and its applications.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "aej-microeconomics-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the American Economic Journal: Microeconomics (AEJ: Micro) manuscript lifecycle, from topic selection through the central theory-model and proof craft to the AEA Data Editor reproducibility check and R&R rebuttal.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/aej-microeconomics-skills",
+      "repository": "https://github.com/brycewang-stanford/aej-microeconomics-skills",
+      "keywords": [
+        "aej-microeconomics",
+        "microeconomic-theory",
+        "mechanism-design",
+        "game-theory",
+        "contract-theory",
+        "american-economic-association",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/aejmic-workflow",
+        "skills/aejmic-topic-selection",
+        "skills/aejmic-literature-positioning",
+        "skills/aejmic-identification",
+        "skills/aejmic-theory-model",
+        "skills/aejmic-robustness",
+        "skills/aejmic-tables-figures",
+        "skills/aejmic-writing-style",
+        "skills/aejmic-replication-package",
+        "skills/aejmic-referee-strategy",
+        "skills/aejmic-submission",
+        "skills/aejmic-rebuttal"
+      ]
+    }
+  ]
+}

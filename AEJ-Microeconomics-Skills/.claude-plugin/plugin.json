@@ -1,0 +1,26 @@
+{
+  "name": "aej-microeconomics-skills",
+  "description": "Agent skill stack for manuscripts targeted at the American Economic Journal: Microeconomics (AEJ: Micro) — the American Economic Association's quarterly journal for microeconomic THEORY and its applications (game theory, mechanism and market design, industrial-organization theory, contract theory, information economics, decision theory, behavioral theory, and theory-grounded experiments). Founded 2009, one of four AEJs, double-blind via the AEA submission system, with JEL codes required and the AEA Data and Code Availability Policy administered by the AEA Data Editor through the AEA Data and Code Repository (openICPSR). The pack is theory-first: aejmic-theory-model is the central skill (model setup, equilibrium concept, proof strategy, generality versus tractability), aejmic-identification covers both empirical/structural identification and what makes a pure-theory result tight, and the result-presentation, replication, and review skills are reframed for propositions, numerical examples, and proof appendices. Twelve role skills span workflow routing, topic selection, literature positioning, identification, theory modeling, robustness/extensions, tables and figures, writing style, the replication package, referee strategy, submission, and rebuttal. Bilingual en / zh-CN docs; vendored Stata / R / Python code for the empirical/structural/experimental subset.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/aej-microeconomics-skills",
+  "repository": "https://github.com/brycewang-stanford/aej-microeconomics-skills",
+  "keywords": [
+    "aej-microeconomics",
+    "aej-micro",
+    "microeconomic-theory",
+    "mechanism-design",
+    "market-design",
+    "game-theory",
+    "contract-theory",
+    "information-economics",
+    "industrial-organization",
+    "american-economic-association",
+    "experimental-economics",
+    "academic-writing"
+  ]
+}
