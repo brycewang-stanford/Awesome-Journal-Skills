@@ -1,0 +1,25 @@
+{
+  "name": "aer-insights-skills",
+  "description": "Agent skill stack for short-format manuscripts targeted at American Economic Review: Insights (AER: Insights) — the AEA's general-interest journal for SHORT, self-contained papers built around a single important, well-executed idea (empirical, theoretical, or methodological). The whole pack is engineered around AER: Insights's two hard constraints: the length cap (7,000 words with no exhibits, minus 200 words per exhibit, maximum five exhibits, abstract 100 or fewer words) and the single-insight discipline. It also encodes the journal's fast, decisive review model — no traditional revise-and-resubmit; first decisions are conditional accept or reject, with conditional accepts usually not returned to referees — and the AEA submission portal, fees, JEL codes, and the AEA Data and Code Availability Policy / AEA Data Editor reproducibility check. Twelve role skills span workflow routing, topic selection, literature positioning, identification, theory/model, robustness, tables and figures, writing style, the replication package, referee strategy, submission preflight, and the conditional-accept response. Bilingual en / zh-CN docs; Stata / R / Python conventions for short empirical, structural, and methodological work.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/aer-insights-skills",
+  "repository": "https://github.com/brycewang-stanford/aer-insights-skills",
+  "keywords": [
+    "aer-insights",
+    "aeri",
+    "american-economic-association",
+    "short-format",
+    "single-insight",
+    "word-limit",
+    "conditional-accept",
+    "reproducibility",
+    "data-and-code-availability",
+    "general-interest-economics",
+    "academic-writing"
+  ]
+}

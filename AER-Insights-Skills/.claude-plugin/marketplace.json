@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "aer-insights-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for short-format manuscripts targeted at American Economic Review: Insights (AER: Insights), the AEA journal for single-idea papers under a hard length cap.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "aer-insights-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the American Economic Review: Insights (AER: Insights) manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/aer-insights-skills",
+      "repository": "https://github.com/brycewang-stanford/aer-insights-skills",
+      "keywords": [
+        "aer-insights",
+        "aeri",
+        "american-economic-association",
+        "short-format",
+        "single-insight",
+        "conditional-accept",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/aeri-workflow",
+        "skills/aeri-topic-selection",
+        "skills/aeri-literature-positioning",
+        "skills/aeri-identification",
+        "skills/aeri-theory-model",
+        "skills/aeri-robustness",
+        "skills/aeri-tables-figures",
+        "skills/aeri-writing-style",
+        "skills/aeri-replication-package",
+        "skills/aeri-referee-strategy",
+        "skills/aeri-submission",
+        "skills/aeri-rebuttal"
+      ]
+    }
+  ]
+}
