@@ -11,6 +11,7 @@ description: Use when positioning a Journal of the Association for Information S
 - You borrow heavily from a reference discipline but never connect to the IS conversation
 - A reviewer says the paper "does not engage the relevant IS literature" or "reinvents a known result"
 - You are unsure which IS sub-tradition's scholars are your reviewers, and so which canon to cite
+- You cannot answer "why JAIS rather than ISR / MISQ / JMIS" from the front end alone
 - You are writing a Literature Review submission and need to justify *which* literature and *why*
 
 ## Position for a pluralistic, theory-forward audience
@@ -19,9 +20,9 @@ JAIS draws reviewers from across the IS field's traditions — behavioral, econo
 
 ## Build the positioning in three moves
 
-1. **Name the conversation, not the gap.** State the ongoing IS debate your paper enters and the specific claim within it you advance or contest. "Prior work disagrees about whether X; we show when each side holds" beats "no one has examined X."
+1. **Name the conversation, not the gap.** State the ongoing IS debate your paper enters and the specific claim within it you advance or contest. "Prior work disagrees about whether X; we show when each side holds" beats "no one has examined X." A gap is a hole; a conversation is a stake — JAIS reviewers fund stakes, not holes.
 2. **Engage the IS canon and JAIS's own discourse.** Cite the foundational IS work the conversation rests on, and — where relevant — JAIS's own theory and review pieces, so the editor sees the paper is in dialogue with the journal's intellectual project, not parachuting in.
-3. **Make the cross-disciplinary move legible.** If you borrow from economics, psychology, sociology, or computer science, show what the IS context *adds back* to that discipline. JAIS rewards the round trip.
+3. **Make the cross-disciplinary move legible.** If you borrow from economics, psychology, sociology, or computer science, show what the IS context *adds back* to that discipline. JAIS rewards the round trip, and a front end that only imports reads as a borrowed-theory application before the reviewer reaches the method.
 
 ## Position relative to the siblings, explicitly
 
