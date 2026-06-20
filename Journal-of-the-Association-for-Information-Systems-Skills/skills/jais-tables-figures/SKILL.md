@@ -52,6 +52,10 @@ Bloated exhibits push the manuscript toward the **~15,000-word extra-scrutiny zo
 - [ ] APA 6th formatting; legible in grayscale; every exhibit referenced in text
 - [ ] Exhibits trimmed so the manuscript stays within the length budget
 
+## Worked vignette: the figure that breaks the standalone rule (illustrative)
+
+A design-science team showcases its artifact with an interactive dashboard hosted on a personal site and a video walkthrough, and the results "figure" in the body is a screenshot pointing readers to the live demo for the real evidence. At JAIS this fails the standalone-body requirement: a reviewer reading the printed manuscript cannot evaluate the artifact's utility without clicking out, and the live link risks de-anonymizing the authors. The fix is to bring the load-bearing evidence into the body as static, grayscale-legible exhibits — an architecture figure, an evaluation-vs-baseline table tied to each design proposition, and an ablation table — while the interactive demo and video move to clearly labeled appendix files. The body must carry the argument on paper; the multimedia is supplementary, not primary.
+
 ## Anti-patterns
 
 - Putting load-bearing evidence in a clickable link or multimedia file, breaking the standalone body.

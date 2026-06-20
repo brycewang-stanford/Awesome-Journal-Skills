@@ -39,6 +39,18 @@ If your question does not touch one of these, it is probably a management/strate
 | A general management phenomenon with a startup sample | AMJ | If entrepreneurship is the setting, not the theory, AMJ fits better |
 | Innovation-systems / R&D / policy with firms incidental | Research Policy | Not founder/venture-centric theory |
 
+## Where ETP-fit questions tend to come from
+
+Strong ETP topics rarely start from a method or a dataset; they start from a puzzle in entrepreneurial reality.
+Productive sources to mine before committing:
+
+- **Anomalies in founder behavior** — founders doing what standard theory says they should not (betting on affordable loss, persisting after failure, giving up control to keep a family firm intact). The anomaly is the seed of a mechanism.
+- **A practice debate without theory** — something founders, investors, or accelerators argue about (does an early CFO signal quality? do failed founders deserve a second bet?) that the literature has not adjudicated.
+- **A construct that traveled poorly** — a management/psychology idea imported into entrepreneurship without a venture boundary, ripe for re-theorizing with a scope condition.
+- **An ETP franchise with a live tension** — family business (SEW vs. innovation), social/sustainable entrepreneurship (mission vs. survival), entrepreneurial finance (signaling vs. screening) — where ETP has depth and an unresolved contingency.
+
+A topic sourced this way usually clears the substitution and conversation tests by construction, because it begins from the entrepreneurial primitive rather than retrofitting one.
+
 ## Checklist
 
 - [ ] The question survives the substitution test (breaks when "founder/new venture" is removed)

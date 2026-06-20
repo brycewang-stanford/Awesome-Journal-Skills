@@ -67,6 +67,10 @@ On IT-value and platform papers, the most common first-round attack is "this cou
 - ML accuracy against strawman baselines, or with no out-of-sample check
 - Significance stars with no economic magnitude or managerial interpretation
 
+## Keep the analysis reproducible and self-contained
+
+JMIS submissions are double-anonymized and capped at 50 pages, which shapes how you present analysis. Online appendixes are permitted, but the body must stand on its own: a reviewer should be able to follow the identification and the headline result without the appendix, and should never find that a load-bearing robustness check exists only there. Document the sample construction, the estimator, the software/version, and the inference choices clearly enough that the result is traceable; if you reference your own prior code or data, phrase it so it does not de-anonymize you. Tighten the analysis narrative — full diagnostic batteries and secondary specifications belong in the appendix, while the body carries the chain that establishes the contribution.
+
 ## Output format
 
 ```text

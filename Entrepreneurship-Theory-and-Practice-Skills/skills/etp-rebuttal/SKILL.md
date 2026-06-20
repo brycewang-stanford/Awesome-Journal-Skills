@@ -43,6 +43,18 @@ Treat both as first-order in the revision: if a reviewer said the theory "could 
 If the practice section was called generic, rewrite it to be mechanism-derived and actor-specific, and point to it in the letter.
 Winning the theory while leaving the practice mandate weak is a classic ETP miss.
 
+## Sequence the revision before you write the letter
+
+A common failure is drafting the response letter first and reverse-engineering the manuscript to match it.
+Do the opposite, in this order:
+
+- **Triage by the editor's letter.** List concerns as binding (editor-foregrounded), important (raised by a reviewer the editor weighted), and minor. Invest effort in that order.
+- **Revise the manuscript fully** before writing a word of the response. The letter documents changes that exist; it cannot substitute for them.
+- **Build a change log** mapping each comment → manuscript edit → page/line, then turn the log into the point-by-point letter. This guarantees coverage and gives you the quotes the letter needs.
+- **Re-run the contribution check** (theory + practice) on the revised draft, because a heavy revision can quietly shift the claim; make sure the abstract still matches what the paper now delivers.
+
+This sequence is what makes a developmental R&R land: the editor and reviewers can verify, point by point, that their concerns produced concrete change.
+
 ## Checklist
 
 - [ ] Synthesis opening summarizes major changes and acknowledges the editor's priorities

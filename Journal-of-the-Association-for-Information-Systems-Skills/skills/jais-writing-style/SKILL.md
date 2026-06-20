@@ -52,6 +52,10 @@ Tightening prose is also length management: JAIS flags manuscripts over **~15,00
 - [ ] Self-citations neutral; no identifying info in the body (double-blind)
 - [ ] Prose tightened so the manuscript stays within the length budget
 
+## Worked vignette: rewriting an opening for JAIS (illustrative)
+
+A draft opens: "Information systems research has long studied technology adoption (citation, citation, citation). Recently, AI agents have emerged. In this paper, we study AI agents in customer service using survey data from 412 agents." Three sentences in and a JAIS reviewer still does not know the puzzle or the contribution. A theory-forward rewrite opens on the tension: "When an AI agent can complete a service task autonomously, who is the service worker accountable to — the customer, the manager, or the algorithm? Existing adoption theory assumes the human remains the locus of action; we show that autonomous agents relocate it, and we develop the construct of *accountability displacement* to theorize the consequences." The puzzle is live, the contribution is stated by the second sentence, and a reviewer from any tradition can see why it matters — exactly what a pluralistic, theory-forward panel rewards.
+
 ## Anti-patterns
 
 - An introduction that reviews the literature for pages before stating the contribution.

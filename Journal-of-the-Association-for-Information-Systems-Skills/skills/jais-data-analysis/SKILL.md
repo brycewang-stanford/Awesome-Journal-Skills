@@ -53,6 +53,17 @@ JAIS policy requires authors to make datasets **"available on request for checki
 - [ ] Qualitative: traceable data structure and audit trail
 - [ ] Datasets anonymized and available on request to SEs/reviewers; reuse justified if applicable
 
+## Referee pushback mapped to the analysis fix
+
+- *"Common-method bias is not ruled out."* → Go beyond Harman's single-factor test: add a marker variable or an unmeasured method factor, and note that interaction effects are robust to method variance.
+- *"Where is the correlation matrix?"* → Add the required full correlation/covariance matrix plus descriptives as an appendix; this is a JAIS submission rule, not an optional courtesy.
+- *"The causal claim is not identified."* → Lead with the identifying variation, add placebo/event-study evidence and sensitivity to the key assumption, and re-estimate staggered designs with a modern estimator.
+- *"You report stars, not magnitudes."* → Report effect sizes/economic magnitudes with precision and interpret what they mean for the theory.
+
+## Worked vignette: the SEM submission that stalls on transparency (illustrative)
+
+A behavioral paper reports a clean PLS-SEM with all paths significant, strong reliabilities, and HTMT discriminant validity — but no correlation matrix and only a Harman test for common-method bias. At JAIS this stalls twice: the missing matrix violates an explicit submission requirement (datasets and the covariance/correlation matrix must be available for SE/reviewer checking), and the single-factor CMB defense is the field's textbook example of an insufficient remedy. The fix is concrete: add the correlation/covariance matrix and descriptives as an appendix, add a marker-variable or unmeasured-method-factor analysis, report effect sizes alongside the path coefficients, and prepare the anonymized dataset for on-request checking. None of this changes the model; all of it changes whether a developmental SE can defend the paper.
+
 ## Anti-patterns
 
 - A single-factor (Harman) test as the sole common-method-bias defense.

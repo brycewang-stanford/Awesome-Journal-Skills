@@ -48,6 +48,16 @@ ETP's USASBE heritage means a reviewer may *be* a practitioner-facing scholar.
 The practice implication should be (1) derived from your mechanism, (2) actionable by a named actor (founder, investor, family-firm successor, educator, policymaker), and (3) honest about what is not yet known.
 "Entrepreneurs should be alert to opportunities" is not a contribution; "investors should weight a founder's prior failure as a learning signal rather than a red flag, *because* failure speeds subsequent pivoting" is.
 
+## Three contribution shapes ETP rewards
+
+Not every contribution is a "new effect." Naming the shape you are claiming helps you frame it honestly and helps a reviewer see it.
+
+- **A new construct or measure** — you give the field a name and an operationalization for something it could not previously study (e.g., a validated entrepreneurial-identity-centrality scale). The bar is construct clarity, discriminant validity, and demonstrated usefulness.
+- **A boundary or contingency** — you show a known relationship reverses or vanishes under an entrepreneurial condition. The contribution *is* the scope condition, so it must be theorized, not just a significant interaction term.
+- **A reconciliation** — you resolve a standing contradiction in an ETP conversation by identifying the contingency under which each side holds. The bar is that the reconciliation is generative, not a split-the-difference truce.
+
+State which shape you claim before you draft the abstract; a paper that claims "new effect" but actually offers a "boundary" usually reads as overclaimed to an ETP reviewer.
+
 ## Checklist
 
 - [ ] The theory contribution names a specific conversation and what changes in it

@@ -60,6 +60,10 @@ Keep the package as two deliberately separated parts. (1) The **anonymized manus
 - Author-date references when JMIS requires numbered brackets
 - Bundling the cover letter into the anonymized file, or omitting survey-instrument attachments
 
+## Last-mile checks that catch real returns
+
+Beyond the headline rules, a few details account for most avoidable returns. Confirm the **page count under JMIS's counting** (the complete manuscript, with the required 12pt double-spacing, not a single-spaced draft that looks shorter than it is). Verify the **abstract is genuinely citation-free** — a stray "[3]" in the abstract violates the rule. Check that the **reference list is alphabetized and the in-text numbers map to it correctly**, since a mismatched [n] is an obvious copyedit flag. Make sure **survey instruments and online appendixes are attached and anonymized**, not merely promised. And re-read the manuscript once with the single question "could a referee guess who wrote this?" — the answer must be no. (检索于 2026-06；以官网为准.)
+
 ## Output format
 
 ```text

@@ -50,6 +50,10 @@ JAMS also publishes purely conceptual / framework articles, and the bar is highe
 - Make the **research agenda** concrete: what the framework lets future empirical work test that it could not test before.
 - Carry the framework to a **managerial reading** — even a conceptual JAMS paper should tell a decision maker how the framework changes how they think about a marketing problem.
 
+## Avoid the construct-validity traps at the theory stage
+
+Many measurement problems are really theory problems, so catch them now: a construct that cannot be defined distinctly from a neighbor will fail discriminant validity later; a construct defined so broadly that it absorbs its own antecedents creates tautology; and a mediator that is conceptually the same as the outcome cannot carry a mechanism. Before handing off to `jams-methods`, confirm each construct has a single, bounded definition, that no two constructs overlap conceptually, and that mediator, predictor, and outcome are genuinely distinct ideas — not three labels for the same thing.
+
 ## Checklist
 
 - [ ] Every focal construct conceptually defined and distinct from its neighbors
@@ -59,6 +63,7 @@ JAMS also publishes purely conceptual / framework articles, and the bar is highe
 - [ ] Theoretical lens fits the marketing phenomenon (not a generic borrowed theory)
 - [ ] Managerial implication is derived from the mechanism, not bolted on
 - [ ] Route (theory-first vs. empirics-first) declared honestly
+- [ ] Constructs are conceptually distinct (no tautology, no predictor/outcome overlap)
 
 ## Anti-patterns
 

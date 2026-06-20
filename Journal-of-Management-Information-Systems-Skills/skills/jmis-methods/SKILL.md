@@ -71,6 +71,10 @@ Platform and marketplace data — a JMIS staple — carry built-in threats that 
 - A design-science artifact benchmarked only against strawman baselines, or with no managerial relevance
 - A design that "fits" only by exporting half the evidence to an online appendix
 
+## Make the method serve the claim, not fashion
+
+JMIS reviewers reward a method chosen because the *claim and phenomenon* demand it, and they penalize method for method's sake. A flashy deep-learning model where a transparent regression would answer the managerial question better is a liability, not an asset; conversely, a simple OLS where the design clearly calls for a quasi-experiment will not carry a causal claim. State, in the design section, *why this method is the right tool for this claim* — what it identifies or evaluates that a simpler or fancier alternative would not. Where you combine methods (e.g., an experiment to establish a mechanism plus field data for external validity), say what each leg buys you. The method should read as the inevitable consequence of the question, not a showcase.
+
 ## Output format
 
 ```text

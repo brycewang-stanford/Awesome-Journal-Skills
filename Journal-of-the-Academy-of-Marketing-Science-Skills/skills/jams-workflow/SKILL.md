@@ -63,6 +63,22 @@ JAMS spans several genres, and the binding constraint differs by genre. Read the
 | Meta-analysis | sampling frame, coding reliability, moderators | `jams-methods` → `jams-data-analysis` |
 | Conceptual / framework paper | a genuinely new framework, not a literature recap | `jams-theory-development` → `jams-contribution-framing` |
 
+## Worked routing example (illustrative)
+
+A user says: "My survey SEM fits well and all paths are significant, but a reviewer says the contribution is a new-context replication and the managerial implications are generic." That is two distinct JAMS pushbacks. The contribution challenge is owned by `jams-literature-positioning` (find the live gap) and `jams-contribution-framing` (state the dual contribution and defend against "incremental"); the generic-managerial-implication challenge is owned by `jams-contribution-framing` and `jams-writing-style` (rewrite the implications section with decisions and magnitudes). A good fit also routes through `jams-data-analysis` to make sure each path has a managerial magnitude to cite. Note what is *not* the bottleneck here: the measurement model already fits, so do not start by re-running the SEM.
+
+## Minimal decision snippet
+
+```
+if decision_letter_arrived:          -> jams-rebuttal
+elif ready_to_submit:                -> jams-submission
+elif exhibits_unclear:               -> jams-tables-figures
+elif estimation_or_validity:         -> jams-data-analysis / jams-methods
+elif contribution_or_positioning:    -> jams-contribution-framing / jams-literature-positioning
+elif theory_thin:                    -> jams-theory-development
+else:                                -> jams-topic-selection
+```
+
 ## Anti-patterns
 
 - Treating JAMS as interchangeable with JM (AMA strategy outlet), JMR (methods/measurement), Marketing Science (analytical modeling), or JCR (consumer/interpretive)

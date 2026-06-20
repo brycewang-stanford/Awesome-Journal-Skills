@@ -53,6 +53,10 @@ This subsection is where JAMS papers are most often weakest. Make it concrete:
 - State the **condition** under which the advice holds (your moderator becomes the guardrail).
 - Avoid the generic close ("managers should monitor X and invest accordingly") — if a sentence would fit any marketing paper, cut it.
 
+## Section flow JAMS readers expect
+
+The conventional empirical JAMS article moves: introduction → theoretical background / conceptual development (with the hypotheses and the model figure) → method → results → general discussion (theoretical contribution, managerial implications, limitations, future research). Keep transitions explicit so the argument is one continuous thread — each section should open by saying what it does for the contribution, and the results should be read back against the hypotheses in order. Conceptual papers replace method/results with the framework and propositions, but still close on theory plus managerial reading. A paper that reads as disconnected modules — a method section with no tie to the hypotheses, a discussion that introduces new claims — is a frequent exposition complaint.
+
 ## Checklist
 
 - [ ] Introduction opens on the phenomenon/managerial puzzle, not a bare gap
@@ -62,6 +66,7 @@ This subsection is where JAMS papers are most often weakest. Make it concrete:
 - [ ] Discussion has a real managerial-implications subsection with decisions/magnitudes
 - [ ] Construct names consistent throughout; jargon kept legible
 - [ ] Intro and abstract written/finalized after results settled
+- [ ] Sections connect as one argument; discussion introduces no new claims
 
 ## Anti-patterns
 
