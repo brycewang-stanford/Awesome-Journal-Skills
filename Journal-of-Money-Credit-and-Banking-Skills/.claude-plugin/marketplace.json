@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jmcb-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Journal of Money, Credit and Banking manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jmcb-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Money, Credit and Banking manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jmcb-skills",
+      "repository": "https://github.com/brycewang-stanford/jmcb-skills",
+      "keywords": [
+        "jmcb",
+        "journal-of-money-credit-and-banking",
+        "finance",
+        "academic-writing",
+        "journal-skills",
+        "monetary-transmission",
+        "bank-balance-sheets",
+        "credit-frictions"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jmcb-workflow",
+        "skills/jmcb-topic-selection",
+        "skills/jmcb-literature-positioning",
+        "skills/jmcb-identification",
+        "skills/jmcb-empirical-design",
+        "skills/jmcb-robustness",
+        "skills/jmcb-tables-figures",
+        "skills/jmcb-internet-appendix",
+        "skills/jmcb-writing-style",
+        "skills/jmcb-submission",
+        "skills/jmcb-referee-strategy",
+        "skills/jmcb-rebuttal"
+      ]
+    }
+  ]
+}

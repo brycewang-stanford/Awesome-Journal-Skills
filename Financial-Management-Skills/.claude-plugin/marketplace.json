@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "financial-management-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Financial Management manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "financial-management-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Financial Management manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/financial-management-skills",
+      "repository": "https://github.com/brycewang-stanford/financial-management-skills",
+      "keywords": [
+        "fm",
+        "financial-management",
+        "finance",
+        "academic-writing",
+        "journal-skills",
+        "corporate-policy",
+        "capital-structure",
+        "payout-and-investment"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/finman-workflow",
+        "skills/finman-topic-selection",
+        "skills/finman-literature-positioning",
+        "skills/finman-identification",
+        "skills/finman-empirical-design",
+        "skills/finman-robustness",
+        "skills/finman-tables-figures",
+        "skills/finman-internet-appendix",
+        "skills/finman-writing-style",
+        "skills/finman-submission",
+        "skills/finman-referee-strategy",
+        "skills/finman-rebuttal"
+      ]
+    }
+  ]
+}

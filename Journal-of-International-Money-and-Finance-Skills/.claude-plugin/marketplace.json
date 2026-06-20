@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jimf-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Journal of International Money and Finance manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jimf-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of International Money and Finance manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jimf-skills",
+      "repository": "https://github.com/brycewang-stanford/jimf-skills",
+      "keywords": [
+        "jimf",
+        "journal-of-international-money-and-finance",
+        "finance",
+        "academic-writing",
+        "journal-skills",
+        "exchange-rate-pass-through",
+        "capital-flow-shocks",
+        "global-financial-cycle"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jimf-workflow",
+        "skills/jimf-topic-selection",
+        "skills/jimf-literature-positioning",
+        "skills/jimf-identification",
+        "skills/jimf-empirical-design",
+        "skills/jimf-robustness",
+        "skills/jimf-tables-figures",
+        "skills/jimf-internet-appendix",
+        "skills/jimf-writing-style",
+        "skills/jimf-submission",
+        "skills/jimf-referee-strategy",
+        "skills/jimf-rebuttal"
+      ]
+    }
+  ]
+}

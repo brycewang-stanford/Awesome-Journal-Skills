@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jue-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Journal of Urban Economics manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jue-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Urban Economics manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jue-skills",
+      "repository": "https://github.com/brycewang-stanford/jue-skills",
+      "keywords": [
+        "jue",
+        "journal-of-urban-economics",
+        "econ",
+        "academic-writing",
+        "journal-skills",
+        "spatial-equilibrium",
+        "housing-supply",
+        "commuting-margin"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jue-workflow",
+        "skills/jue-topic-selection",
+        "skills/jue-literature-positioning",
+        "skills/jue-identification",
+        "skills/jue-theory-model",
+        "skills/jue-robustness",
+        "skills/jue-tables-figures",
+        "skills/jue-writing-style",
+        "skills/jue-replication-package",
+        "skills/jue-referee-strategy",
+        "skills/jue-submission",
+        "skills/jue-rebuttal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jfm-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Journal of Financial Markets manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jfm-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Financial Markets manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jfm-skills",
+      "repository": "https://github.com/brycewang-stanford/jfm-skills",
+      "keywords": [
+        "jfm",
+        "journal-of-financial-markets",
+        "finance",
+        "academic-writing",
+        "journal-skills",
+        "microstructure-mechanism",
+        "liquidity-measurement",
+        "trading-venue-design"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jfm-workflow",
+        "skills/jfm-topic-selection",
+        "skills/jfm-literature-positioning",
+        "skills/jfm-identification",
+        "skills/jfm-empirical-design",
+        "skills/jfm-robustness",
+        "skills/jfm-tables-figures",
+        "skills/jfm-internet-appendix",
+        "skills/jfm-writing-style",
+        "skills/jfm-submission",
+        "skills/jfm-referee-strategy",
+        "skills/jfm-rebuttal"
+      ]
+    }
+  ]
+}

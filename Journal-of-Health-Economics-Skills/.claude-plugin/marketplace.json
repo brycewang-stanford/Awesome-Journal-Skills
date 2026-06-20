@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jhe-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Journal of Health Economics manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jhe-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Health Economics manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jhe-skills",
+      "repository": "https://github.com/brycewang-stanford/jhe-skills",
+      "keywords": [
+        "jhe",
+        "journal-of-health-economics",
+        "econ",
+        "academic-writing",
+        "journal-skills",
+        "provider-incentives",
+        "insurance-design",
+        "patient-selection"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jhe-workflow",
+        "skills/jhe-topic-selection",
+        "skills/jhe-literature-positioning",
+        "skills/jhe-identification",
+        "skills/jhe-theory-model",
+        "skills/jhe-robustness",
+        "skills/jhe-tables-figures",
+        "skills/jhe-writing-style",
+        "skills/jhe-replication-package",
+        "skills/jhe-referee-strategy",
+        "skills/jhe-submission",
+        "skills/jhe-rebuttal"
+      ]
+    }
+  ]
+}

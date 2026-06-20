@@ -1,0 +1,24 @@
+{
+  "name": "financial-management-skills",
+  "description": "Agent skill stack for manuscripts targeted at Financial Management (FM). Twelve role skills cover fit, contribution, evidence, writing, submission, and revision with source-backed FM guardrails.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/financial-management-skills",
+  "repository": "https://github.com/brycewang-stanford/financial-management-skills",
+  "keywords": [
+    "fm",
+    "financial-management",
+    "finance",
+    "academic-writing",
+    "journal-skills",
+    "corporate-policy",
+    "capital-structure",
+    "payout-and-investment",
+    "governance-channel",
+    "fma-audience"
+  ]
+}
