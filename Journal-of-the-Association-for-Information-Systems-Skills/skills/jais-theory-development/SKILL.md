@@ -31,6 +31,10 @@ JAIS is the AIS flagship and the Basket journal that treats **theory as a contri
 
 A relabeled existing construct is the most common Theory desk-reject. To clear the bar: define the construct precisely; distinguish it from its nearest neighbors (discriminant logic, not just a new name); specify its dimensions and how it would be measured; and embed it in a nomological net of antecedents and consequences. JAIS reviewers reward a construct that *does work* the field's existing vocabulary cannot.
 
+## Cross- and inter-disciplinary borrowing is a feature, used correctly
+
+JAIS explicitly "encourages theory based multi- or inter-disciplinary research," so importing from economics, psychology, sociology, organization theory, or computer science is welcome — but the import must be transformed by the IS context. The strongest theory papers run a *round trip*: they borrow a theory, show how a digital phenomenon breaks or extends one of its assumptions, and return a revised theory that the source discipline would also find new. A one-way import ("we apply self-determination theory to app use") is the weak version; a round trip ("autonomous AI agents violate self-determination theory's assumption that competence is self-earned, requiring a revised account of motivation under delegated competence") is the JAIS version.
+
 ## Integrate theories without flattening them
 
 A "novel integration" must change what each source theory predicts, not staple them side by side. State the tension or gap between the theories, then show how the integration resolves it and yields predictions neither theory makes alone. Multi- or inter-disciplinary borrowing is encouraged — but the IS phenomenon must reshape the borrowed theory, not merely host it.

@@ -34,6 +34,10 @@ JAIS's distinctive feature is that **theory and review are first-class submissio
 
 Most empirical/theory/review/foundational papers should stay under **~15,000 words** — beyond that "are very likely to receive extra scrutiny from the editors and may be returned to be shortened," and **manuscripts over 65 pages including everything will not be sent out for review** (检索于 2026-06；以官网为准). Decide the category *and* its budget now, before you over-build.
 
+## Confirm the IT artifact is theoretically load-bearing
+
+JAIS's inclusiveness is often misread as "anything touching technology fits." It does not. The test is whether the information-technology artifact or digital phenomenon is *doing theoretical work* — whether removing it would collapse the contribution. A study where IT is merely the setting (e.g., "we surveyed employees who happen to use software") is not a JAIS topic no matter how clean the data; a study where a specific affordance of the technology drives the mechanism is. Run this test before committing: name the artifact, then ask what the paper would lose if you swapped it for a non-technological equivalent. If the answer is "nothing," reshape the topic before choosing a category.
+
 ## The "why JAIS, not the sibling" test, made concrete
 
 The single most useful pre-submission discipline is answering "why JAIS?" against each near neighbor, because a wrong answer predicts a fit desk-reject. Use this map.
