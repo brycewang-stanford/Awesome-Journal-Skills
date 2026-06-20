@@ -102,5 +102,14 @@ Journal-of-Law-Economics-and-Organization (jleo, econ), Annual-Review-of-Economi
   Wave 3 finance/applied packs, all Wave 4 field-economics packs, all Wave 5 applied-tail and
   management packs, and the full Wave 6+ backlog. New live inventory: 2665 skills / 171 packs /
   200 root journal entries. Shared README/audit count registration updated in the same worktree.
-</content>
-</invoke>
+- 2026-06-20: independent verification + finish (this session). Confirmed on disk: all 44 target
+  packs present, each exactly 12 SKILL.md (528 new skills); `python3 tools/run_checks.py
+  --skip-reports` green (audit 2665/171/200, clone audit max 0.788 = pre-existing CS-conference
+  breadth pairs only, `git diff --check` clean); the 44 new packs show no clone pair >= 0.82
+  with anything. `tools/quality_scorecard.py`: the 44 new packs score 90.2-94.0 (mean 92.0),
+  at repo parity (mean 92.8); JEL/JEP correctly carry no econometric code kit (survey /
+  non-technical). Closed a registration gap the count-only commits left: added all 44 packs to
+  the root README depth-pack discovery tables in BOTH README.md and README.en.md (commit
+  "Register 44 flagship depth packs ..."). Honest quality note: the 6 hand-built Wave-1 packs +
+  JEL are the richest prose (94.0); the bulk built by the parallel lane are complete and
+  venue-specific but more templated (90-91) — all above the repo's 85 "excellent" bar.
