@@ -1,0 +1,26 @@
+{
+  "name": "jep-skills",
+  "description": "Agent skill stack for articles and proposals targeted at the Journal of Economic Perspectives (JEP) — the open-access, non-technical synthesis journal of the American Economic Association, founded 1987, sister to the Journal of Economic Literature (technical surveys of record) and the AER/AEJ research journals. JEP is largely invited and organized in symposia, and rewards accessible writing readable by 90 percent of AEA members, not new identification or replication. Twelve role skills cover the JEP lifecycle: workflow routing, topic selection for a broad audience, the 2–5 page proposal and symposium pitch (jep@aeapubs.org), narrative arc for a general economist reader, plain-language translation of technical results, presenting evidence with minimal equations, exhibits a non-specialist can read, the JEP voice, balance and objectivity over advocacy, working with the managing-editor-led editorial team, the pre-submission preflight, and revising for accessibility and balance. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jep-skills",
+  "repository": "https://github.com/brycewang-stanford/jep-skills",
+  "keywords": [
+    "journal-of-economic-perspectives",
+    "jep",
+    "american-economic-association",
+    "economics-synthesis",
+    "accessible-writing",
+    "science-communication",
+    "symposium",
+    "non-technical",
+    "open-access",
+    "invited-articles",
+    "policy-relevance",
+    "academic-writing"
+  ]
+}

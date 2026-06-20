@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jep-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for accessible synthesis articles and proposals targeted at the Journal of Economic Perspectives (JEP), the open-access, non-technical journal of the American Economic Association.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jep-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Economic Perspectives (JEP) lifecycle, from judging whether a topic is JEP-shaped, through the 2–5 page proposal/symposium pitch, accessible non-technical writing, and balance, to the email submission and editor-driven revision.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jep-skills",
+      "repository": "https://github.com/brycewang-stanford/jep-skills",
+      "keywords": [
+        "journal-of-economic-perspectives",
+        "jep",
+        "american-economic-association",
+        "accessible-writing",
+        "symposium",
+        "open-access",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jep-workflow",
+        "skills/jep-topic-selection",
+        "skills/jep-proposal-and-symposium",
+        "skills/jep-narrative-arc",
+        "skills/jep-accessibility-and-translation",
+        "skills/jep-evidence-without-equations",
+        "skills/jep-exhibits-for-general-readers",
+        "skills/jep-writing-style",
+        "skills/jep-balance-and-objectivity",
+        "skills/jep-editor-strategy",
+        "skills/jep-submission",
+        "skills/jep-revision"
+      ]
+    }
+  ]
+}
