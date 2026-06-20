@@ -146,11 +146,20 @@ def score_pack(pack: Path) -> dict:
     n = len(skills)
     # Breadth bundles are venue-fit-card collections (one fit card per venue + a
     # router), so their capability layer is routing, not a depth-pack code library.
-    # Single-venue depth packs top out at ~18 skills, while breadth bundles run from
-    # the low-30s (a focused discipline bundle) up to 150+; a threshold of 25 sits
-    # cleanly between the two and avoids penalising smaller, genuine breadth bundles
-    # for "missing" a code library they are not meant to ship.
-    is_breadth = n >= 25
+    # Two signals mark a breadth bundle, either of which is sufficient:
+    #   1. Size: single-venue depth packs top out at ~18 skills, while most breadth
+    #      bundles run from the low-30s up to 150+; a threshold of 25 sits cleanly
+    #      between the two.
+    #   2. A router skill named "*-journal-workflow". This is the canonical breadth
+    #      router across all eight breadth bundles and never appears in a depth pack,
+    #      so it correctly recognises a small focused breadth bundle (e.g. the
+    #      12-journal sport-science bundle) that the size cutoff alone would miss.
+    # Either signal avoids penalising a genuine breadth bundle for "missing" a
+    # depth-pack code library it is not meant to ship.
+    has_breadth_router = any(
+        sf.parent.name.endswith("-journal-workflow") for sf in skills
+    )
+    is_breadth = n >= 25 or has_breadth_router
     is_conference_depth = pack.name in CONFERENCE_DEPTH_PACKS
 
     line_counts: list[int] = []
