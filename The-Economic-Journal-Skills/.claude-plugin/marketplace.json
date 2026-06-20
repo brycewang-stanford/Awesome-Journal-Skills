@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "economic-journal-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at The Economic Journal (EJ), the Royal Economic Society's flagship general-interest economics journal published by Oxford University Press.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "economic-journal-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the The Economic Journal (EJ) manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/economic-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/economic-journal-skills",
+      "keywords": [
+        "economic-journal",
+        "royal-economic-society",
+        "oxford-university-press",
+        "general-interest-economics",
+        "exposition",
+        "reproducibility",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/ecj-workflow",
+        "skills/ecj-topic-selection",
+        "skills/ecj-literature-positioning",
+        "skills/ecj-identification",
+        "skills/ecj-theory-model",
+        "skills/ecj-robustness",
+        "skills/ecj-tables-figures",
+        "skills/ecj-writing-style",
+        "skills/ecj-replication-package",
+        "skills/ecj-referee-strategy",
+        "skills/ecj-submission",
+        "skills/ecj-rebuttal"
+      ]
+    }
+  ]
+}

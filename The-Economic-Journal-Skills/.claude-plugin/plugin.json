@@ -1,0 +1,26 @@
+{
+  "name": "economic-journal-skills",
+  "description": "Agent skill stack for manuscripts targeted at The Economic Journal (EJ) — the Royal Economic Society's flagship general-interest journal, founded 1891 and published by Oxford University Press, covering all fields of economics for a broad international readership. Twelve role skills span workflow routing, topic/fit selection, literature positioning, identification, theory/mechanism modeling, robustness, tables and figures, EJ writing and exposition style, the RES/EJ data-and-code replication package (DCAS-endorsed, EJ Data Editor reproducibility check, Zenodo deposit), referee strategy, Editorial Express submission preflight (single-blind review), and the R&R rebuttal. Tuned to EJ's premium on broad relevance and clear exposition, its short-paper (AER:Insights-style) option, and the RES replication regime. Bilingual en / zh-CN docs; Stata / R / Python conventions for empirical and structural work.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/economic-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/economic-journal-skills",
+  "keywords": [
+    "economic-journal",
+    "ej",
+    "royal-economic-society",
+    "oxford-university-press",
+    "general-interest-economics",
+    "exposition",
+    "identification",
+    "reproducibility",
+    "dcas",
+    "ej-data-editor",
+    "single-blind-review",
+    "academic-writing"
+  ]
+}
