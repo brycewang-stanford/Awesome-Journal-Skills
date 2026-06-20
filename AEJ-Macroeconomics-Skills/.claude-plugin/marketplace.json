@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "aej-macroeconomics-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the American Economic Journal: Macroeconomics (AEJ: Macro), the AEA's quarterly broad-interest macroeconomics journal welcoming both quantitative-theoretical and identified-empirical work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "aej-macroeconomics-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the American Economic Journal: Macroeconomics (AEJ: Macro) manuscript lifecycle, from topic selection through the AEA Data Editor reproducibility check and R&R rebuttal.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/aej-macroeconomics-skills",
+      "repository": "https://github.com/brycewang-stanford/aej-macroeconomics-skills",
+      "keywords": [
+        "aej-macroeconomics",
+        "macroeconomics",
+        "american-economic-association",
+        "dsge",
+        "local-projections",
+        "reproducibility",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/aejmac-workflow",
+        "skills/aejmac-topic-selection",
+        "skills/aejmac-literature-positioning",
+        "skills/aejmac-identification",
+        "skills/aejmac-theory-model",
+        "skills/aejmac-robustness",
+        "skills/aejmac-tables-figures",
+        "skills/aejmac-writing-style",
+        "skills/aejmac-replication-package",
+        "skills/aejmac-referee-strategy",
+        "skills/aejmac-submission",
+        "skills/aejmac-rebuttal"
+      ]
+    }
+  ]
+}

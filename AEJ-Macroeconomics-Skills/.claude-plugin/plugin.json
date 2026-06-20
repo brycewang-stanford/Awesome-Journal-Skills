@@ -1,0 +1,26 @@
+{
+  "name": "aej-macroeconomics-skills",
+  "description": "Agent skill stack for manuscripts targeted at the American Economic Journal: Macroeconomics (AEJ: Macro) — the American Economic Association's quarterly journal for broad-interest macroeconomics, covering growth, business cycles, monetary and fiscal policy, labor-macro, international macro, and macro-finance. The pack treats AEJ: Macro's defining feature: it welcomes BOTH quantitative-theoretical work (DSGE, heterogeneous-agent, structural estimation) AND identified empirical work (SVAR, local projections, narrative identification), judged on quantitative discipline and policy relevance. Covers the AEA submission system, the membership-scaled submission fee, single-blind review, JEL codes, the AEA Data and Code Availability Policy with the AEA Data Editor's pre-publication reproducibility check (including simulation and calibration code) deposited at the AEA Data and Code Repository on openICPSR, and AEA house style. Twelve role skills span workflow routing, topic selection, literature positioning, identification, theory/model discipline, robustness, tables and figures, writing style, the replication package, referee strategy, submission preflight, and the R&R rebuttal. Bilingual en / zh-CN docs; Stata / R / Python / Julia / Dynare conventions for empirical, structural, and simulation macro.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/aej-macroeconomics-skills",
+  "repository": "https://github.com/brycewang-stanford/aej-macroeconomics-skills",
+  "keywords": [
+    "aej-macroeconomics",
+    "aej-macro",
+    "american-economic-association",
+    "macroeconomics",
+    "dsge",
+    "heterogeneous-agent",
+    "local-projections",
+    "svar",
+    "structural-estimation",
+    "reproducibility",
+    "data-and-code-availability",
+    "academic-writing"
+  ]
+}
