@@ -12,7 +12,12 @@ description: Use when assembling the data and code replication package for a The
 - Some data are proprietary or restricted and you must request an exemption and document access
 - You are setting up the project early so reproducibility is not a last-minute scramble
 
-> Verify the current policy on the EJ Data Editor site (ejdataeditor.github.io) and the RES replication-policy page before depositing. Since **July 2019** EJ has run **pre-acceptance reproducibility checks**: the paper is **accepted for final publication only after results have been checked for reproducibility** — the EJ Data Editor confirms the code is complete and, with the data, reproduces all tables and figures (检索于 2026-06；以官网为准). EJ is part of the **RES** journals that endorse **DCAS (the Data and Code Availability Standard)** alongside the AEA, REStud, the Canadian Journal of Economics, and Economic Inquiry. Once accepted, the **replication package is posted on the journal's Zenodo repository** and linked from the paper (other *trusted* repositories may be acceptable). It is essential to **request a data exemption at the point of first submission** if you face any access restrictions.
+> Verify the current policy on the EJ Data Editor site (ejdataeditor.github.io) and the OUP
+> Instructions before depositing. EJ runs **pre-acceptance reproducibility checks**: the paper is
+> accepted for final publication only after results have been checked for reproducibility. The
+> package is posted to the journal's Zenodo repository or another trusted repository and linked from
+> the paper. It is essential to **request a data exemption at the point of first submission** if you
+> face any access restrictions.
 
 ## What a passing package contains
 
@@ -22,7 +27,7 @@ description: Use when assembling the data and code replication package for a The
    - Computational requirements: software + versions, packages + versions, OS, memory, and approximate run time.
    - Instructions to run: a single master script ordering everything end to end.
    - List of every table/figure/in-text number with the script and line that produces it.
-2. **Data**: raw inputs (when license permits) and the code that builds analysis files from them. Provide complete documentation of all variables; if data are in a proprietary format (e.g., Stata `.dta`), also provide an ASCII/plain-text version (检索于 2026-06；以官网为准). If raw data are restricted, include construction code plus a synthetic/pseudo dataset that lets the pipeline run.
+2. **Data**: raw inputs (when license permits) and the code that builds analysis files from them. Provide complete documentation of all variables; if data are in a proprietary format (e.g., Stata `.dta`), also provide an ASCII/plain-text copy such as `.csv`. If raw data are restricted, include construction code plus a synthetic/simulated dataset that lets the pipeline run.
 3. **Code**: a `master` script that reproduces every number, table, and figure from raw inputs, with relative paths and fixed seeds.
 4. **Output**: log files and generated exhibits, so the editor can diff against the paper.
 
@@ -45,6 +50,7 @@ description: Use when assembling the data and code replication package for a The
 
 - [ ] README follows the DCAS template (overview, data availability, requirements, run instructions, exhibit map)
 - [ ] Deposit goes to the journal's Zenodo repository (or another trusted repository) with a license allowing replication
+- [ ] Package layout matches EJ guidance: `1-paper`, `2-appendices`, `README.pdf`, `3-replication-package.zip`, and optional `4-confidential-data-not-for-publication.zip`
 - [ ] Single master script reproduces every table, figure, and in-text number from inputs
 - [ ] Software and package versions pinned and recorded
 - [ ] Random seeds set and documented

@@ -14,7 +14,7 @@ description: Use when running a pre-submission pre-mortem on a The Economic Jour
 
 ## How EJ referees read
 
-EJ referees read the paper as an **economic argument for a broad audience** and probe two things: is it credible, and is it of **broad interest** to economists at large? The prototypical EJ referee asks "so what — why should the wider profession care?" as hard as "is this identified?". They are unimpressed by a clean coefficient with no economic meaning or no general relevance, and they will name the alternative mechanism or the over-claimed generality. EJ review is **single-blind** (referees know who you are; you do not know them) (检索于 2026-06；以官网为准), so do not anonymize. Anticipating these objections is worth more than any extra robustness table, because a single unanswered first-order objection — especially "this is too narrow for EJ" — sinks the paper.
+EJ referees read the paper as an **economic argument for a broad audience** and probe two things: is it credible, and is it of **broad interest** to economists at large? The prototypical EJ referee asks "so what — why should the wider profession care?" as hard as "is this identified?". They are unimpressed by a clean coefficient with no economic meaning or no general relevance, and they will name the alternative mechanism or the over-claimed generality. EJ review is **single-blind** (referees know who you are; you do not know them; verified 2026-06-20), so do not anonymize. Anticipating these objections is worth more than any extra robustness table, because a single unanswered first-order objection — especially "this is too narrow for EJ" — sinks the paper.
 
 ## The objection taxonomy (pre-empt each in the text)
 

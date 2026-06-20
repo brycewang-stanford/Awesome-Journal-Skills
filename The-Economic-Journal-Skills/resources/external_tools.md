@@ -51,7 +51,7 @@ official OUP/RES pages.
 - One master script (`run_all`) regenerating every table, figure, and in-text number from raw data
 - Set and report seeds for simulation / bootstrap / randomization inference
 - Provide complete variable documentation; if data are in a proprietary format (e.g., Stata `.dta`),
-  also provide an ASCII/plain-text version (检索于 2026-06；以官网为准)
+  also provide an ASCII/plain-text version such as CSV.
 
 ## 3. Strategy toolkit by paper type
 
@@ -69,24 +69,28 @@ official OUP/RES pages.
 - For a **short paper** (AER:Insights style), keep within ~5 exhibits and push the rest to the online appendix.
 
 ## 5. Writing & references
-- Reference managers: Zotero, BibTeX/BibLaTeX. EJ uses an **author-date** style; verify the exact
-  current reference and formatting requirements on the official OUP author guidelines (待核实).
+- Reference managers: Zotero, BibTeX/BibLaTeX. EJ uses an **author-date** style; arrange references
+  alphabetically and then chronologically for each author. Cite datasets and replication packages
+  where relevant.
 - Typesetting: LaTeX (TeX Live / MacTeX / Overleaf) or Word; submit as a **single PDF** including appendices.
+- Accepted-author metadata: short title <=40 characters, abstract <=100 words, keywords <=20
+  characters each.
 - Acknowledge all sources of research funding in the manuscript.
 
 ## 6. Process & portal (verify on the official OUP/RES pages)
 | Item | Note |
 |------|------|
 | Submission portal | **Editorial Express** (editorialexpress.com) — NOT ScholarOne; single PDF incl. appendices |
-| Review model | **Single-blind** — referees anonymous to authors; authors not anonymized (检索于 2026-06) |
+| Review model | **Single-blind** — referees anonymous to authors; authors not anonymized |
 | Format options | Full-length article, or **short paper (AER:Insights style, <6,000 words, ~5 exhibits)** |
 | Metadata | JEL classification codes + keywords entered in Editorial Express |
 | Replication | RES/EJ data-and-code policy (DCAS-endorsed); EJ Data Editor pre-acceptance check; **Zenodo** deposit |
 | Restricted data | Request exemption **at first submission** |
+| Submission fee | RES charges new EJ submissions; current fee depends on membership category and is plus VAT; resubmissions are fee-exempt |
 | Funding | All research funding sources acknowledged in the manuscript |
 
 ## 7. Cautions
-1. **Verify volatile specifics** (editor, abstract limit, reference style, fees if any, policy dates)
+1. **Verify volatile specifics** (editor roster, submission fees, OA/colour charges, and special calls)
    on the official OUP/RES pages — they change.
 2. **Reproducibility is checked before final acceptance** — assemble raw data, code, and
    documentation early; provide an ASCII companion for proprietary-format data.

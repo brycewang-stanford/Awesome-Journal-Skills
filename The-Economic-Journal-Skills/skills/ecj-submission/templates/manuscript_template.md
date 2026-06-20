@@ -3,9 +3,9 @@
 A structural template for a The Economic Journal manuscript. EJ publishes the full breadth of
 economics for a broad international readership, values clear exposition, and uses **author-date**
 references. Adapt section order so theory leads when the model is the contribution. For a **short
-paper** (AER:Insights style), compress to ~6,000 words / ~5 exhibits. Verify current formatting,
-abstract limit, and reference style against the official OUP author guidelines before submission
-(检索于 2026-06；以官网为准).
+paper** (AER:Insights style), compress to <6,000 words / 5 exhibits. The accepted-author guide
+uses author-date references, a <=100-word abstract, a <=40-character short title, and keywords of
+<=20 characters each; re-check the live portal for any submission-form field limits.
 
 ---
 
@@ -15,10 +15,10 @@ abstract limit, and reference style against the official OUP author guidelines b
 ## Abstract
 > State the economic question, the mechanism, what you do (model and/or identification), the main
 > finding with a magnitude, and the **broad economic implication**. Lead with the economics, not
-> the method. (Verify the current abstract word limit on the official page.)
+> the method. Keep it within 100 words for accepted-author production.
 
 **JEL Classification:** [≥2 codes — required at submission]
-**Keywords:** [3–5 — required at submission]
+**Keywords:** [concise terms, each <=20 characters for accepted-author production]
 
 ---
 
@@ -86,7 +86,8 @@ abstract limit, and reference style against the official OUP author guidelines b
 
 Author, A. B., and C. D. Author. Year. "Title." *The Economic Journal* Volume (Issue): pages.
 
-(Verify the exact EJ author-date reference format on the official OUP author guidelines.)
+Order references alphabetically, then chronologically for each author; cite datasets and replication
+packages where relevant.
 
 ---
 

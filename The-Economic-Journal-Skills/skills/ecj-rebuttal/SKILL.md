@@ -16,7 +16,7 @@ description: Use when a The Economic Journal (EJ) decision letter (R&R or reject
 
 ## Reading the decision letter
 
-- The **editor's letter** is the binding document (at EJ a handling editor coordinates the report; editor-in-chief **Francesco Lippi**, 检索于 2026-06). Identify which referee points the editor flags as essential vs. optional and prioritize accordingly.
+- The **editor's letter** is the binding document (at EJ a handling editor coordinates the report; editor-in-chief **Francesco Lippi**, verified 2026-06-20). Identify which referee points the editor flags as essential vs. optional and prioritize accordingly.
 - Separate requests into: (a) must-do for the editor, (b) reasonable and cheap, (c) costly or wrong-headed. Negotiate (c) with evidence, not assertion.
 - An EJ editor and referees care most about the *economic argument* **and broad interest**: expect demands to strengthen the mechanism, broaden the relevance / bound the generality, or sharpen identification. Treat those as first-order.
 - Plan replication readiness now: acceptance triggers the **EJ Data Editor's** pre-acceptance reproducibility check and a **Zenodo** deposit (see `ecj-replication-package`).

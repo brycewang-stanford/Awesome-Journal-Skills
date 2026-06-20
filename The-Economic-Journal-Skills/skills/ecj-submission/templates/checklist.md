@@ -3,7 +3,7 @@
 Verify the *current* EJ author guidelines, review model, and RES/EJ data-and-code policy on the
 official OUP and Royal Economic Society pages before relying on any limit below. This list
 captures the durable structure of a The Economic Journal submission via Editorial Express
-(检索于 2026-06；以官网为准).
+(source refresh: 2026-06-20).
 
 ## 1. Format
 - [ ] Manuscript is a **single PDF** including appendices (cover letter and past reports are separate)
@@ -15,7 +15,8 @@ captures the durable structure of a The Economic Journal submission via Editoria
 
 ## 2. References (house style)
 - [ ] **Author-date** citations throughout — NOT numbered/bracket citations
-- [ ] Reference list complete, alphabetical, consistent (verify EJ's current style on the official page)
+- [ ] Reference list complete, alphabetical then chronological for each author
+- [ ] Dataset and replication-package citations included where relevant
 - [ ] Every in-text citation appears in the list; every list entry is cited at least once
 
 ## 3. Economic argument & broad interest (substance gate)
@@ -46,14 +47,15 @@ captures the durable structure of a The Economic Journal submission via Editoria
 - [ ] Restricted-data documentation prepared if applicable
 
 ## 7. Portal metadata (Editorial Express)
-- [ ] Title and abstract entered (check current abstract word limit)
+- [ ] Title and abstract entered; accepted-author abstract cap is 100 words
 - [ ] JEL classification codes entered
-- [ ] Keywords entered
+- [ ] Keywords entered; accepted-author keywords are 20 characters or fewer each
 - [ ] All co-authors and affiliations correct; corresponding author set
 - [ ] Suggested referees (and any opposed referees) prepared with brief justification
 
 ## 8. Final pass
 - [ ] Cover letter drafted (one page: question, contribution, fit with EJ's broad-interest mandate)
 - [ ] Full-length vs. short-paper route confirmed
+- [ ] New-submission fee category/payment path ready; resubmission fee exemption understood if applicable
 - [ ] Manuscript number / acknowledgment email expected after submission
 - [ ] Replication package re-run on a clean machine (ready for the EJ Data Editor)

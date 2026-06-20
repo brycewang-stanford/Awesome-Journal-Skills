@@ -29,15 +29,16 @@ Register rules:
 - **Sections**: Introduction → (Model / Theory) → Data / Institutional setting → Empirical strategy → Results → Mechanisms / Robustness → (Counterfactuals) → Conclusion. Order theory before empirics when the model leads.
 - **Introduction** does the heavy lifting (see `ecj-literature-positioning`): question, why a generalist cares, what is known, the gap, what you do, findings and the broad lesson.
 - **Conclusion** states what economics learned and the portable lesson — not a summary of every table.
-- **Short paper** (AER:Insights-style): compress hard to <6,000 words and ~5 exhibits (检索于 2026-06；以官网为准) — every sentence earns its place; one clean idea, no scaffolding.
+- **Short paper** (AER:Insights-style): compress hard to <6,000 words and 5 exhibits (verified 2026-06-20) — every sentence earns its place; one clean idea, no scaffolding.
 - Footnotes for genuine asides, not for results that belong in the text.
 
 ## House-style format
 
-- **References: author-date** style, with an alphabetized reference list. Verify EJ's *current* reference and formatting requirements on the official OUP author guidelines before submission — formatting details are updated periodically and the exact style name is 待核实.
-- Submit as a **single PDF** including appendices (检索于 2026-06；以官网为准). Equations numbered and referenced as "equation (3)."
-- Abstract: state the question, what you do, the headline magnitude, and the broad implication; verify the current abstract word limit on the official page (待核实).
+- **References: author-date** style, with an alphabetized then chronological reference list. Cite datasets and replication packages where relevant.
+- Submit as a **single PDF** including appendices (verified 2026-06-20). Equations numbered and referenced as "equation (3)."
+- Abstract: state the question, what you do, the headline magnitude, and the broad implication. The accepted-author guide caps the abstract at **100 words**, so keep it concise.
 - JEL classification codes and keywords are requested at submission via Editorial Express.
+- Accepted-author metadata asks for a short title of **40 characters or fewer** and keywords of **20 characters or fewer each**.
 - Acknowledge all sources of research funding in the manuscript (EJ requirement).
 
 ## Checklist
@@ -51,7 +52,7 @@ Register rules:
 - [ ] Conclusion states the portable economic lesson, not a table-by-table recap
 - [ ] Funding acknowledged; JEL codes and keywords prepared
 - [ ] (Short paper) within the word/exhibit budget
-- [ ] Format and reference style checked against EJ's current official guidelines
+- [ ] Abstract <=100 words; short title and keywords within accepted-author limits
 
 ## Anti-patterns
 
@@ -69,7 +70,7 @@ Register rules:
 【Hedging removed】list of softened claims tightened
 【Jargon】defined/removed for a generalist? [y/n]
 【Equations interpreted】all have prose meaning? [y/n]
-【Citation style】author-date verified against current EJ guidelines
+【Citation style】author-date; references alphabetical/chronological; data citations included?
 【Length mode】full-length / short paper (budget respected? [y/n])
 【Conclusion】states portable lesson? [y/n]
 【Next】ecj-referee-strategy

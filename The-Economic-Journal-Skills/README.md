@@ -9,7 +9,7 @@ English | [简体中文](README.zh-CN.md)
 
 Twelve agent skills for manuscripts targeted at **The Economic Journal (EJ)**, the Royal Economic Society's OUP-published general-interest economics journal. The pack covers broad-audience topic fit, literature positioning, identification or theory, robustness, exhibits, writing style, replication package, referee strategy, Editorial Express preflight, and R&R rebuttal.
 
-**Official basis checked 2026-06**: see [`resources/official-source-map.md`](resources/official-source-map.md).
+**Official basis refreshed 2026-06-20**: see [`resources/official-source-map.md`](resources/official-source-map.md). The current source map covers Editorial Express submission, Francesco Lippi as Editor-in-Chief, Damian Clarke as Data Editor, single-blind review, new-submission fee categories, the short-paper option, accepted-author metadata limits, author-date references, and the EJ Data Editor replication workflow.
 
 ## Quick Start
 

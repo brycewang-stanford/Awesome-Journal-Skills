@@ -6,7 +6,7 @@
 
 面向 **The Economic Journal（EJ）** 投稿的 12 个 agent skills。EJ 是 Royal Economic Society 旗下、由 OUP 出版的综合性经济学期刊。本包覆盖面向广泛读者的选题契合度、文献定位、识别或理论、稳健性、图表、写作风格、复现包、审稿人策略、Editorial Express 投稿终检与 R&R 回复。
 
-**官方依据核验日期：2026-06**：见 [`resources/official-source-map.md`](resources/official-source-map.md)。
+**官方依据核验日期：2026-06-20**：见 [`resources/official-source-map.md`](resources/official-source-map.md)。当前来源表覆盖 Editorial Express 投稿、Francesco Lippi 任 Editor-in-Chief、Damian Clarke 任 Data Editor、single-blind 审稿、新投稿费用类别、short-paper 路线、accepted-author 元数据限制、author-date 参考文献和 EJ Data Editor 复现流程。
 
 ## 快速开始
 

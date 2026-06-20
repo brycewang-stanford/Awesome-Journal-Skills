@@ -14,7 +14,7 @@ description: Use when scoping or framing a research question for a The Economic 
 
 ## The EJ fit test
 
-EJ (founded **1891**, the **Royal Economic Society's** flagship, published by **Oxford University Press**; editor-in-chief **Francesco Lippi**, 检索于 2026-06) publishes the **full breadth of economics — theory and applied** — for a **broad international readership**. Its stated bar is that a paper be **technically well-crafted, make a substantial contribution, and be of broad interest to economists at large**. Score the idea against these five questions before committing:
+EJ (founded **1891**, the **Royal Economic Society's** flagship, published by **Oxford University Press**; editor-in-chief **Francesco Lippi**, verified 2026-06-20) publishes the **full breadth of economics — theory and applied** — for a **broad international readership**. Its stated bar is that a paper be technically well-crafted, make a substantial contribution, and be of broad interest to economists at large. Score the idea against these five questions before committing:
 
 1. **Broad interest** — Would an economist *outside your subfield* care about the answer? EJ's defining bar is general relevance, not just field novelty.
 2. **Substantial contribution** — Does it move understanding, not just add a data point? "First to use dataset D" is not a contribution.
@@ -26,7 +26,7 @@ If you score high on broad interest **and** substantial contribution (1 and 2) p
 
 ## Full-length vs. the short-paper (AER:Insights-style) route
 
-EJ explicitly welcomes **short papers in the AER:Insights style — roughly <6,000 words and ~5 exhibits** (检索于 2026-06；以官网为准). Choose deliberately:
+EJ explicitly welcomes **short papers in the AER:Insights style — <6,000 words and 5 exhibits** (verified 2026-06-20). Choose deliberately:
 
 - **Short paper**: one crisp, surprising, well-identified result that needs little scaffolding; a single clean idea a generalist grasps fast. Do not pad it to full length.
 - **Full-length article**: a result that needs a model, multiple designs, mechanism evidence, and counterfactuals to land; or a theory paper with developed propositions.

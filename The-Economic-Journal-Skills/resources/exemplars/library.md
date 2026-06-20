@@ -5,7 +5,7 @@
 > journal, founded 1891; older articles published with Wiley/Blackwell under the `10.1111/...` or
 > `10.2307/...` DOI/JSTOR stems, articles from ~2019 onward with Oxford University Press under the
 > `10.1093/ej/...` stem). Year, volume(issue), and pages were read off the OUP / Wiley / RePEc
-> (`ecj:econjl` / `oup:econjl`) article pages. Papers that could not be fully verified as EJ were
+> (`ecj:econjl` / `oup:econjl`) article pages. Papers not fully verified as EJ were
 > **omitted** — this is deliberately a short, clean list rather than a long, uncertain one.
 >
 > **Sibling-confusion guard (do not misattribute).** EJ is **not** any of these, which share the
@@ -92,12 +92,11 @@ ask the self-check question before claiming your paper is "EJ-shaped." Remember 
   - **Self-check:** does your experiment have an identifying comparison (not just a treatment vs.
     control mean), and a mechanism that travels beyond the lab?
 
-- **"Culture and Gender Differences in Willingness to Compete," The Economic Journal 2023, 133(654):2403–… .**
-  Verified: `academic.oup.com/ej/article/133/654/2403` (OUP article page; experimental, competition gender gap).
+- **Hauge, K.E., Kotsadam, A. & Riege, A., "Culture and Gender Differences in Willingness to Compete," The Economic Journal 2023, 133(654):2403–2426.**
+  Verified: `academic.oup.com/ej/article/133/654/2403/7143100` (DOI `10.1093/ej/uead033`; OUP article page; experimental, competition gender gap).
   - **Why it is an exemplar:** a more recent EJ experimental contribution on the same broad question,
     useful as a model of how to position an incremental experimental result against an established
-    finding and still clear the broad-interest bar. **待核实:** exact end page and full author list
-    not captured from a static fetch — confirm on the OUP page before citing.
+    finding and still clear the broad-interest bar.
   - **Self-check:** if your result revisits an established finding, have you stated precisely what is
     new and why the profession should still care?
 
@@ -112,7 +111,7 @@ ask the self-check question before claiming your paper is "EJ-shaped." Remember 
 | Falling labour share | Leblebicioğlu & Weinberger, "Credit and the Labour Share" | 2020, 130(630) | DiD / deregulation panel | 10.1093/ej/ueaa025 |
 | Consumer information & markets | Anderson & Magruder, "Learning from the Crowd" | 2012, 122(563) | Regression discontinuity | 10.1111/j.1468-0297.2012.02512.x |
 | Gender, competition & culture | Booth, Fan, Meng & Zhang, "Gender Differences in Willingness to Compete" | 2019, 129(618) | Lab experiment | 10.1111/ecoj.12583 |
-| Gender, competition & culture | "Culture and Gender Differences in Willingness to Compete" | 2023, 133(654) | Lab experiment | OUP ej/133/654/2403 (待核实) |
+| Gender, competition & culture | Hauge, Kotsadam & Riege, "Culture and Gender Differences in Willingness to Compete" | 2023, 133(654) | Lab experiment | 10.1093/ej/uead033 |
 
 ---
 
@@ -128,7 +127,7 @@ To keep the list zero-hallucination, the following were **excluded** after check
   recalled as a classic theory piece, but it appeared in the ***American Economic Review***
   (61(1):65–73), **not EJ**. Guardrail only.
 - Several frequently-cited EJ-area applied and theory papers surfaced in search were left off because
-  their **exact EJ volume/issue/pages** could not be confirmed to the same standard in one pass; add
+  their **exact EJ volume/issue/pages** were not confirmed to the same standard in one pass; add
   them only after reading the OUP / Wiley / RePEc article page and confirming an EJ DOI stem
   (`10.1093/ej/...`, `10.1111/ecoj...`, `10.1111/j.1468-0297...`, or a JSTOR/`ecj:econjl` record).
 
