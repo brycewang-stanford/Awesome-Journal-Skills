@@ -12,9 +12,9 @@ description: Use when assembling the data and code replication package for a Jou
 - You want the package built *before* submission so the Data Editor check is painless
 - Results were produced ad hoc and you need a one-click reproduction path
 
-## The JEEA data & code bar (检索于 2026-06；以官网为准)
+## The JEEA data & code bar (source map refreshed 2026-06-20)
 
-JEEA **endorses DCAS — the Data and Code Availability Standard — and applies it (since Feb 1, 2024)**. JEEA publishes empirical/simulation/experimental papers **only if** the data are clearly and precisely documented and readily available for replication; for accepted papers the authors must supply, **before publication**, the data, programs, and computation details sufficient to permit replication. The **JEEA Data Editor (Maia Güell, since Feb 2024; re-confirm) runs a verification check, and an empirical paper can only be formally accepted after the Data Editor confirms the results replicate.** Replication packages are posted publicly through the **JEEA Community at Zenodo**. Build the package as you go — do not leave it to acceptance. Re-verify exact requirements on the EEA / OUP JEEA pages.
+JEEA **endorses DCAS — the Data and Code Availability Standard — and applies it (since Feb 1, 2024)**. JEEA publishes empirical/simulation/experimental papers **only if** the data are clearly and precisely documented and readily available for replication; for accepted papers the authors must supply, **before publication**, the data, programs, and computation details sufficient to permit replication. The **JEEA Data Editor (Maia Güell)** runs a verification check, and an empirical paper can only be formally accepted after the Data Editor confirms the results replicate. Replication packages are posted publicly through the **JEEA Community at Zenodo** after the check. Build the package as you go — do not leave it to acceptance.
 
 ## Package structure
 
@@ -48,7 +48,7 @@ replication/
 - [ ] README maps each output to the script that produces it (paper-matching names)
 - [ ] Restricted data: access instructions + exemption/limited-access request stated at submission
 - [ ] Partial-check scope documented; simplified versions + summary outputs shipped where needed
-- [ ] Package readied for the JEEA Zenodo community deposit (DCAS-compliant)
+- [ ] Package ZIP readied for JEEA's online data submission platform and later Zenodo community deposit
 
 ## Anti-patterns
 

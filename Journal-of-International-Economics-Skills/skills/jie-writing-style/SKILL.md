@@ -23,7 +23,7 @@ JIE serves a readership split between **international trade** and **internationa
 
 ### Keywords and codes
 - Provide **1-7 keywords**, chosen for field discoverability (e.g., "gravity," "exchange-rate pass-through," "sovereign default").
-- JEL codes are standard for economics submissions (待核实 against the official guide).
+- Prepare JEL codes only if the live submission system asks for them; the Guide-confirmed metadata are the abstract and keywords.
 
 ### Structure and balance
 - For empirical trade papers, foreground the specification (PPML, fixed effects) and the economic magnitude, not just significance.

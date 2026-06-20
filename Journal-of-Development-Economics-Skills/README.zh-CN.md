@@ -11,7 +11,7 @@
 
 [English](README.md) | 简体中文
 
-面向 **《发展经济学杂志》（Journal of Development Economics, JDE）** 投稿的智能体（agent）技能包。JDE 是 **发展经济学领域的旗舰期刊**，由 **爱思唯尔（Elsevier）** 出版，主编为 **Andrew Foster**（自 2016 年起担任 Lead Editor，编辑团队还包括 Dean Karlan）。JDE 发表关于发展中国家经济与经济发展进程的理论与实证研究。
+面向 **《发展经济学杂志》（Journal of Development Economics, JDE）** 投稿的智能体（agent）技能包。JDE 是 **发展经济学领域的旗舰期刊**，由 **爱思唯尔（Elsevier）** 出版，现任 Editors-in-Chief 为 **A. Foster** 与 **K. Macours**。JDE 发表关于发展中国家经济与经济发展进程的理论与实证研究。
 
 本仓库是有明确立场的，**不是**一个通用的经济学写作工具箱，而是 **专为 JDE 与发展经济学定制** 的技能栈：聚焦中低收入经济体的一阶（first-order）问题，在真实而嘈杂的田野环境中做可信识别（RCT / DID / IV / RDD），以福利相关的量纲呈现效应，配套详尽的在线附录，并准备一份 **在评审阶段即可被调取、强制要求的复制包**，托管于 Mendeley Data。
 
@@ -28,18 +28,18 @@ JDE 的约束条件与综合性顶刊或方法类期刊不同：
 | 识别          | RCT/田野实验、DID、IV、RDD——并为田野环境辩护                    | 仅靠 OLS + 控制变量不够                       |
 | 出版方 / 系统 | **爱思唯尔**，经 **Editorial Manager** 投稿                     | 非 OUP/Editorial Express；单向匿名评审        |
 | 评审模式      | **单向匿名**（审稿人知道作者身份）                              | 不要按双向盲审匿名化稿件                      |
-| 费用          | **无投稿费**；可选开放获取 APC 仅在录用后产生                   | 不要为投稿费做预算                            |
+| 费用          | 原稿 **50 美元不可退投稿费**；可选开放获取 APC 仅在录用后产生     | 投稿前预算并核验 live 付款页面                 |
 | 录取难度      | 每年约 1300 篇投稿，约 1/4 送审，**录用率约 6-8%**              | 干净、完整、定位清晰的稿件很重要              |
 | 复制政策      | **强制**；数据/代码托管于 **Mendeley Data**，**评审阶段即可调取** | 投稿前就要把复制包准备好                      |
 | 投稿上限      | **每位作者 12 个月内不超过 3 篇**                               | 提前规划投稿节奏                              |
 | 特色通道      | 预结果评审（Registered Reports）+ 仿 AER: Insights 短文通道     | 一开始就选对赛道                              |
 
-易变的具体信息（编辑、APC、评审模式措辞、投稿上限）会变化，且部分爱思唯尔官方页面无法被程序读取——未直接核实的条目在 [`resources/official-source-map.md`](resources/official-source-map.md) 中标记为 **待核实**。请以官方页面为准。
+官方 ScienceDirect 页面已于 **2026-06-20** 刷新到 [`resources/official-source-map.md`](resources/official-source-map.md)。投稿级建议前仍须重开 live 页面，因为费用、编辑名单、special issue 与政策措辞可能变化。
 
 ### 三条投稿通道
 
 - **全长（标准）通道：** 无固定篇幅限制；要求详尽的在线附录。
-- **短文（有限修改）通道：** 仿照 **AER: Insights**——正文 ≤ 6000 词，展品（表/图）≤ 5 个，在线附录 ≤ 20 页；决定通常在 **4-6 周** 内做出，仅一轮 **4 周** 修改，且重投 **不再** 返回审稿人。
+- **短文（有限修改）通道：** 仿照 **AER: Insights**——正文 ≤ 6000 词，展品（表/图）≤ 5 个，在线附录 ≤ 20 页；送审稿通常在 **6-8 周** 内决定，采用 conditional accept / reject 的有限修改结构。
 - **预结果评审（Registered Reports）：** **常设** 通道（与 **BITSS** 合作）——提交第一阶段方案（假设、流程、统计分析计划、功效分析、若有则含试点数据）≤ 60 页，摘要 ≤ 150 词；在 **结果未知前获得原则性接受**，之后再提交第二阶段稿件。
 
 ---
@@ -123,7 +123,7 @@ jde-rebuttal（修回与回复）
 ### 资源
 
 - [`resources/external_tools.md`](resources/external_tools.md) — 发展经济学数据源（LSMS / DHS / WDI / AEA RCT Registry）与可信设计田野工作的 Stata / R / Python 包
-- [`resources/official-source-map.md`](resources/official-source-map.md) — 每条事实背后的 JDE 官方链接，未核实项标注 待核实
+- [`resources/official-source-map.md`](resources/official-source-map.md) — 当前 JDE 流程事实背后的官方链接，2026-06-20 已刷新
 
 ---
 
@@ -131,7 +131,7 @@ jde-rebuttal（修回与回复）
 
 - 不替你写出可直接投稿的稿件
 - 不模拟任何特定编辑或审稿人的口味
-- 不断言易变的元数据（现任编辑、确切 APC、评审模式措辞、投稿上限）——请以官方页面为准，未核实项标注 待核实
+- 不冻结易变元数据（费用、编辑名单、APC、special issue、政策措辞）；真正投稿前必须重新核验 live 页面
 - 不替你判断你的发展问题是否真的属于一阶问题——这是研究者自己的判断
 
 ---

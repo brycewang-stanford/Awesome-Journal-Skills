@@ -12,14 +12,14 @@ description: Use when assembling the data-and-code replication package for a The
 - A README, master script, or directory structure needs to be assembled
 - You are unsure what REStat's Data and Code Availability Policy actually requires
 
-## The REStat data/code bar (verify on the official policy page; 检索于 2026-06)
+## The REStat data/code bar (refreshed 2026-06-20; live-check the official policy page)
 
 REStat operates a **Data and Code Availability Policy** for empirical papers. The signature features that distinguish REStat from its siblings:
 
 - **Deposit to the REStat Harvard Dataverse** (`dataverse.harvard.edu/dataverse/restat`) — REStat uses a **proper Dataverse archive**, NOT openICPSR (which the AEA journals use) and NOT the JAE Data Archive. Getting the repository right is a load-bearing REStat detail.
 - **Post data and code, with documented README files, before publication.** The goal is to **provide enough information to permit replication** of the results in the paper.
-- **Proprietary / restricted data:** indicate this **at submission**. When data cannot be posted, you must **document the data and provide instructions for how other researchers can obtain it**. Practical note: if your paper uses proprietary data, the journal asks you **not to pay the submission fee until the editorial office confirms your data comply with the policy** (检索于 2026-06；以官网为准).
-- Policy generally applies to papers from **volume 92 onward** (检索于 2026-06).
+- **Proprietary / restricted data:** indicate this **at submission**. When data cannot be posted, you must **document the data and provide instructions for how other researchers can obtain it**. Practical note: if your paper uses proprietary data, the journal asks you **not to pay the submission fee until the editorial office confirms your data comply with the policy**.
+- Policy generally applies to papers from **volume 92 onward** per the REStat Harvard Dataverse API description.
 
 ## Package architecture (build it as you go)
 

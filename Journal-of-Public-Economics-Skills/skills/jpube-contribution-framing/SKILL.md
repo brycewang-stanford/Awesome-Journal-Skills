@@ -14,7 +14,7 @@ description: Use when the contribution of a Journal of Public Economics (JPubE) 
 
 ## What "contribution" means at JPubE
 
-JPubE judges a paper by what it adds to our understanding of the **economic role of government** — the legacy of Atkinson's founding mandate and the standard the Friedman–Kopczuk editorial team applies. A coefficient is not a contribution; a **policy-relevant parameter, mechanism, or welfare conclusion** is. The strongest JPubE contributions take one of these shapes:
+JPubE judges a paper by what it adds to our understanding of the **economic role of government** — the legacy of Atkinson's founding mandate and the standard the Hendren–Kopczuk editorial team applies. A coefficient is not a contribution; a **policy-relevant parameter, mechanism, or welfare conclusion** is. The strongest JPubE contributions take one of these shapes:
 
 1. **A first-order policy elasticity** estimated credibly (e.g., the taxable-income or labor-supply elasticity, a take-up or moral-hazard parameter) that disciplines optimal-policy or welfare analysis.
 2. **A welfare verdict** via a transparent framework — deadweight loss, the Marginal Value of Public Funds (MVPF), or a **sufficient-statistics** mapping from estimated behavioral responses to welfare, holding stated primitives fixed.

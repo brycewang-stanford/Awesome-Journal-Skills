@@ -11,7 +11,7 @@ description: Use when preparing the replication package for a Journal of Interna
 - You want to build the replication package as you go, not scramble at the end
 - You have proprietary or restricted trade/macro data and need a compliant plan
 
-## JIE's data/replication policy (verified 2026-06-01)
+## JIE's data/replication policy (verified 2026-06-20)
 
 JIE requires that **all results be capable of replication**, and that **all materials needed to replicate published papers — including computer programs and data sets — be made available** at the journal's **secure repository**. In practice, replication files for published JIE papers are deposited and made available via **Mendeley Data** for the journal. Treat the deposit as a condition tied to publication: assemble it before acceptance, not after.
 

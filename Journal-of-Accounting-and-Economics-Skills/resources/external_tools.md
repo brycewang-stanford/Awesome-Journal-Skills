@@ -70,7 +70,7 @@ Guide for Authors.
 
 ## 4. Submission & Process
 
-- **Submission portal**: Elsevier **Editorial Manager (EM)**; the **USD 650** submission fee for new manuscripts (no fee for resubmissions) is paid via Elsevier's Submission Start portal (submissionstart.elsevier.com) — verify the current amount on the live Guide for Authors.
+- **Submission portal**: Elsevier **Editorial Manager (EM)**; local source-map defaults use **USD 650** for new manuscripts with no fee for resubmissions, paid via Elsevier's Submission Start portal (submissionstart.elsevier.com) — verify the current amount on the live Guide for Authors.
 - **Required at submission**: anonymized manuscript (double-anonymized review) plus a separate title page with author details; **Highlights** (2-5 bullets, ≤125 chars each); up to **6 keywords**; up to **6 JEL codes**.
 - **ORCID**: keep an ORCID linked to your EM account.
 - **Originality**: Elsevier screens with Crossref Similarity Check (iThenticate); no simultaneous submission.

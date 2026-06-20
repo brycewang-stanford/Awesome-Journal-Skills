@@ -1,6 +1,6 @@
 ---
 name: jae-submission
-description: Use when preparing to submit to the Journal of Accounting and Economics (JAE) — the Editorial Manager preflight, the USD 650 submission fee, double-anonymized file separation (anonymized manuscript plus title page), mandatory Highlights, keywords and JEL codes, and Elsevier author-date formatting.
+description: Use when preparing to submit to the Journal of Accounting and Economics (JAE) — the Editorial Manager preflight, submission-fee live check, double-anonymized file separation (anonymized manuscript plus title page), mandatory Highlights, keywords and JEL codes, and Elsevier author-date formatting.
 ---
 
 # Submission Preflight for JAE (jae-submission)
@@ -13,7 +13,7 @@ description: Use when preparing to submit to the Journal of Accounting and Econo
 
 ## Submission system and fee
 
-JAE submits through Elsevier **Editorial Manager (EM)**, which converts your files into a single review PDF. A **USD 650 submission fee** is charged for unsolicited **new** manuscripts; there is **no fee for resubmissions** (revisions). The fee is paid during the submission process via Elsevier's Submission Start portal (submissionstart.elsevier.com); **EU authors add applicable VAT**. The paper is only considered after the fee is paid; proceeds fund journal activities and reviewer reimbursements. (The fee amount is **待核实** against the live Guide for Authors — the current guide and the 2025 JAE Conference state USD 650, while an older Wharton mirror shows USD 500.)
+JAE submits through Elsevier **Editorial Manager (EM)**, which converts your files into a single review PDF. Local source-map defaults use **USD 650** for unsolicited **new** manuscripts and no fee for resubmissions, but you must check the current ScienceDirect Guide for Authors before payment. The fee is paid during the submission process via Elsevier's Submission Start portal (submissionstart.elsevier.com); **EU authors add applicable VAT**. The paper is only considered after the fee is paid; proceeds fund journal activities and reviewer reimbursements.
 
 ## Double-anonymized file separation
 
@@ -30,7 +30,7 @@ Check that headers, file properties, and "thank you" footnotes do not leak ident
 - **JEL classification codes**: up to **6** — required.
 - **References**: Elsevier author-date (Harvard) style; numbered sections (1, 1.1, 1.1.1).
 - **LaTeX** (optional): Elsevier `elsarticle.cls` with BibTeX; single-column native format.
-- A concise, factual **abstract** (purpose, principal results, major conclusions; stands alone; no references or uncommon abbreviations). No numeric word cap is stated in JAE's own guide (待核实 — third-party sites cite ~250 words, unconfirmed).
+- A concise, factual **abstract** (purpose, principal results, major conclusions; stands alone; no references or uncommon abbreviations). Do not import a numeric abstract cap from third-party templates unless the current JAE guide states it.
 
 ## Length and data policy
 
@@ -41,7 +41,7 @@ Check that headers, file properties, and "thank you" footnotes do not leak ident
 ## Checklist
 
 - [ ] Editorial Manager account + ORCID linked
-- [ ] Submission fee (USD 650, 待核实) budgeted; VAT for EU authors
+- [ ] Submission fee checked against the current JAE guide; VAT for EU authors
 - [ ] Anonymized manuscript + separate title page; metadata scrubbed
 - [ ] Self-citations and acknowledgments do not unmask authorship
 - [ ] Highlights (2-5, ≤125 chars), ≤6 keywords, ≤6 JEL codes
@@ -60,7 +60,7 @@ Check that headers, file properties, and "thank you" footnotes do not leak ident
 ## Output format
 
 ```
-【System】Editorial Manager; fee USD 650 (待核实) + VAT if EU
+【System】Editorial Manager; current fee checked + VAT if EU
 【Files】anonymized manuscript + title page; metadata scrubbed
 【Packaging】Highlights ✓ keywords(≤6) ✓ JEL(≤6) ✓
 【References】Elsevier author-date (Harvard) ✓

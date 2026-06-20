@@ -93,7 +93,7 @@ specifics on the official Econometric Society pages.
 | Submission fee | US$100 regular / US$50 student, paid by card at submission; waived for Econometrica transfers and invited resubmissions; low-income-country exemption; not refunded if rejected without review |
 | Econometrica transfer | Optional transfer of the coeditor decision letter, referee reports, and cover letters; QE process is independent; transfer waives the submission fee |
 | Replication deposit | ES Data and Code Availability Policy (DCAS-compatible); ES Data Editor reproducibility check **before** acceptance; NOT the JAE Data Archive |
-| Open Access | CC BY-NC, no APC; per-page publication fee ($24/page as of 2026) after final proofs, with student / low- and lower-middle-income / no-funding discounts |
+| Open Access | CC BY-NC; post-proof publication fee is based on 50% of production cost per page at the then-current rate, with listed student / low- and lower-middle-income / no-funding discounts |
 
 ## 7. Cautions
 1. **Verify volatile specifics** (editors, fee, page charge, policy effective

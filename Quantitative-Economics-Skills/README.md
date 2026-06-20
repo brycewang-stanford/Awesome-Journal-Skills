@@ -6,9 +6,9 @@ focuses on QE's Society-run submission process, membership and fee rules, 150-wo
 25-page Supplemental Appendix cap, open-access publication, disclosure rules, experimental
 pre-registration, and centralized Econometric Society data/code checks.
 
-Official basis checked on 2026-06-01: Econometric Society QE submission instructions,
-editorial procedures and policies, publication-preparation instructions, editorial-board
-pages, and data/code policy. See `resources/official-source-map.md`.
+Official basis checked on 2026-06-20: Econometric Society QE submission instructions,
+editorial procedures and policies, publication-preparation instructions, data/code policy,
+and Wiley journal metadata. See `resources/official-source-map.md`.
 
 ## Skills
 

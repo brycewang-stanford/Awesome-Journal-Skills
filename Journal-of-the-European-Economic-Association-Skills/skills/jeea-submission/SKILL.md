@@ -12,20 +12,22 @@ description: Use when running the final pre-submission preflight for the Journal
 - Confirming the format and house style are JEEA-compliant
 - Checking the membership gate and fee before you reach the payment step
 
-## Process facts (检索于 2026-06；以官网为准)
+## Process facts (source map refreshed 2026-06-20)
 
-- JEEA is the **EEA's flagship general-interest journal**, published by **Oxford University Press** (Online ISSN 1542-4774). Submission is through the **EEA submission system** (the JEEA online submission portal; the journal has used Editorial Express — re-confirm the current portal on the EEA site).
+- JEEA is the **EEA's general-interest journal**, published by **Oxford University Press** (Online ISSN 1542-4774; Print ISSN 1542-4766). Submission starts through the **EEA member area**; after payment, a "Submit a paper to JEEA" link appears.
 - **Membership gate:** the **submitting author must be a current EEA member** to submit *and* to resubmit a revised paper (join/renew via the EEA site).
-- **Submission fee:** a **standard submission fee of €100 applies as of Feb 1, 2026**, prompted at submission; **waived if the submitting author and all coauthors are based in low- and middle-income countries** (World Bank classification). Re-confirm the amount and exemptions — volatile.
-- **Single-blind review:** referees see the authors; manuscript anonymization is **not** required (re-confirm), but keep tone and self-citation professional.
+- **Submission fee:** a **standard submission fee of €100 applies as of Feb 1, 2026**, paid through the EEA membership profile at submission; **waived if the submitting author and all coauthors are based in low- and middle-income countries** (World Bank classification); non-refundable.
+- **Single-blind review:** referees see the authors; manuscript anonymization is **not** required, but keep tone and self-citation professional.
 - **Editorial flow:** a **co-editor** reads first and may **desk-reject without review**; otherwise it goes to referees, with a **fast-decision target (≈8 weeks where possible)**.
-- **Data & code:** for empirical/simulation/experimental work, JEEA applies **DCAS**; the **JEEA Data Editor verifies replication before formal acceptance**, and packages are posted to the **JEEA Zenodo community** (prepare via `jeea-replication-package`).
+- **Data & code:** for empirical/simulation/experimental work, JEEA applies **DCAS**; the **JEEA Data Editor verifies replication before formal acceptance**, packages are posted to the **JEEA Zenodo community**, and the package ZIP is submitted through the online data submission platform at Editorial Express (prepare via `jeea-replication-package`).
+- **AI / disclosure:** AI use beyond spelling and grammar checks should be explicitly disclosed and precisely described; disclosure/COI and funding statements should be prepared.
 
 ## Preflight checklist
 
 ### Format & style
-- [ ] Manuscript prepared per the current JEEA author guidelines (length/abstract/format per the live OUP page — re-confirm)
+- [ ] Manuscript prepared per the current JEEA author guidelines
 - [ ] Abstract present and concise; title, keywords, JEL codes, and affiliations on the title page
+- [ ] Alt text prepared for figures in final files; online appendix uses A, B, etc. labels where needed
 - [ ] Figures and tables legible and self-contained; **no asterisks or boldface for statistical significance** — report SEs / confidence sets
 - [ ] Online appendix (if any) carries auxiliary results/proofs; the main paper is self-contained
 - [ ] References complete and consistent (OUP house style applied at copyediting; the submitted file need not pre-conform)
@@ -71,7 +73,7 @@ Do not pay the fee before the membership and content checks pass — a failed ga
 【Online appendix】auxiliary results only; main paper self-contained? [Y/N]
 【Data policy】DCAS statement + package in progress? [Y/N]
 【Declarations】disclosure / COI / funding prepared? [Y/N]
-【Next step】submit via the EEA portal → jeea-referee-strategy for what to expect
+【Next step】submit via the EEA member-area flow → jeea-referee-strategy for what to expect
 ```
 
 ## Supplementary resources

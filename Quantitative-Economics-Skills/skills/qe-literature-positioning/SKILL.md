@@ -50,7 +50,7 @@ QE referees — refereeing for the **Econometric Society's empirically/quantitat
 | If the departure is mainly... | Natural home | QE positioning move |
 |-------------------------------|------|---------------------|
 | a new estimator/theorem | Econometrica / TE | foreground the quantity it newly enables |
-| a counterfactual prior designs could not run | QE | name the structural margin that makes it feasible |
+| a counterfactual earlier designs did not deliver | QE | name the structural margin that makes it feasible |
 | a measured object no prior data captured | QE | tie the fact to a question the field shares |
 
 The desk-reject trap is the **incremental-delta** paper: a competent re-estimation of a known model on new data with no new quantity. Make the delta a number the field lacked.

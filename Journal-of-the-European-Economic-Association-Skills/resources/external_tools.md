@@ -1,7 +1,7 @@
 # External Tools & Resources for JEEA
 
 Data sources, software, and packages useful when preparing a *Journal of the
-European Economic Association* (JEEA) submission. JEEA is the **EEA's flagship
+European Economic Association* (JEEA) submission. JEEA is the **EEA's
 general-interest journal** (published by Oxford University Press), so a typical
 paper pairs a **substantive, general-interest economic question** with execution
 that clears a strong bar — a credible empirical design **or** a disciplined
@@ -9,7 +9,7 @@ theory/structural model — and, for empirical work, **documented data and fully
 reproducible code**. Because the **JEEA Data Editor verifies replication before
 formal acceptance** (DCAS standard, endorsed Feb 2024), build the replication
 package as you go. Check licenses and current access terms before use; verify
-volatile process specifics on the official EEA / OUP pages (检索于 2026-06；以官网为准).
+volatile process specifics on the official EEA / OUP pages (source map refreshed 2026-06-20).
 
 ## 1. Data sources
 
@@ -82,18 +82,18 @@ volatile process specifics on the official EEA / OUP pages (检索于 2026-06；
 - Typesetting: LaTeX (TeX Live / MacTeX / Overleaf); follow the current JEEA
   author guidelines on the OUP page for any template requirements.
 
-## 6. Process & portal (verify on the official EEA / OUP pages)
+## 6. Process & portal (source map refreshed 2026-06-20)
 | Item | Note |
 |------|------|
-| Submission portal | EEA submission system (JEEA online submission; the journal has used Editorial Express — re-confirm the current portal) |
+| Submission portal | EEA members-only submission flow; after fee payment a "Submit a paper to JEEA" link appears |
 | Membership | EEA membership required — the **submitting author** must be a member to submit *and* to resubmit |
-| Submission fee | €100 standard, effective Feb 1, 2026; waived if the submitting author and all coauthors are based in low-/middle-income countries (World Bank) — re-confirm |
+| Submission fee | €100 standard, effective Feb 1, 2026; waived if the submitting author and all coauthors are based in low-/middle-income countries (World Bank); non-refundable |
 | Review | Single-blind; first read by a co-editor (desk-reject possible); fast-decision target (≈8 weeks where possible) |
-| Replication deposit | DCAS-endorsed (since Feb 2024); JEEA Data Editor verifies replication **before** formal acceptance; packages posted to the JEEA Zenodo community |
-| Publisher | Oxford University Press; Online ISSN 1542-4774 |
+| Replication deposit | DCAS-endorsed (since Feb 2024); JEEA Data Editor verifies replication **before** formal acceptance; packages posted to the JEEA Zenodo community; package ZIP submitted through the online data submission platform at Editorial Express |
+| Publisher | Oxford University Press; Online ISSN 1542-4774; Print ISSN 1542-4766 |
 
 ## 7. Cautions
-1. **Verify volatile specifics** (editors, fee, portal, policy effective dates,
+1. **Live-check volatile specifics** (editors, fee, portal, policy effective dates,
    registry list) on the official EEA / OUP pages — they change.
 2. **Replication is checked before acceptance** — assemble raw data, code, and
    documentation early; document any partial-check scope in the README.

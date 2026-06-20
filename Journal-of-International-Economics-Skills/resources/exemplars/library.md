@@ -2,10 +2,10 @@
 
 > **Verified via web search, access date 2026-06-08.** Every paper below was checked to confirm it
 > actually appeared in the **_Journal of International Economics_** (JIE) — the Elsevier field journal for
-> international trade and international macro/finance (Co-EiCs Costas Arkolakis and Martín Uribe; submission
+> international trade and international macro/finance (Editors Costas Arkolakis and Martin Uribe; submission
 > via Editorial Manager) — with year and volume/issue, against the journal's ScienceDirect article pages,
 > the RePEc/IDEAS series record (`ideas.repec.org/a/eee/inecon/...`), and corroborating Google Scholar
-> lookups carrying the journal name. Papers that could not be fully verified **as _JIE_** were **omitted**
+> lookups carrying the journal name. Papers without full confirmation **as _JIE_** were **omitted**
 > — this is deliberately a short, clean list, not a long, uncertain one.
 >
 > **Sibling-journal guard.** *JIE* is **not** the *Journal of International Money and Finance*, the *Review

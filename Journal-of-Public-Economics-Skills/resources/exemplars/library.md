@@ -5,7 +5,7 @@
 > founded in 1972 by Anthony B. Atkinson and published by **Elsevier** (ScienceDirect) — with year and
 > volume/issue, against the Elsevier/ScienceDirect article record and the RePEc **`eee/pubeco`** series
 > record (`ideas.repec.org/a/eee/pubeco/...`), corroborated by Google Scholar lookups carrying the journal
-> name. Papers that could not be fully verified **as _Journal of Public Economics_** were **omitted** —
+> name. Papers without full **_Journal of Public Economics_** venue confirmation were **omitted** —
 > this is deliberately a short, clean list, not a long, uncertain one.
 >
 > **Sibling-journal guard.** JPubE is **not** the *American Economic Journal: Economic Policy* (AEJ:Policy),

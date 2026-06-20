@@ -16,8 +16,7 @@ roadmap.**
 
 Two JEEA house rules drive the rewrite and distinguish it from a field-journal introduction:
 
-- JEEA is the **EEA's flagship general-interest journal** (published by Oxford University Press), the
-  European counterpart to the top general-interest outlets. A JEEA paper must make **both** the
+- JEEA is the **EEA's general-interest journal** (published by Oxford University Press). A JEEA paper must make **both** the
   substantive economic question **and** the approach legible early to an economist outside the subfield
   ([`jeea-topic-selection`](../../skills/jeea-topic-selection/SKILL.md)). The lesson must **travel**.
 - JEEA follows the modern-economics presentation discipline: **report point estimates with standard errors

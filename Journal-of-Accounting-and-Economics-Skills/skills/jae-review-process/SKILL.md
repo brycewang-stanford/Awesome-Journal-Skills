@@ -1,6 +1,6 @@
 ---
 name: jae-review-process
-description: Use when anticipating or interpreting the Journal of Accounting and Economics (JAE) review process — the editor suitability screen and Article Transfer Service desk-reject culture, double-anonymized review by a minimum of two reviewers, the compact co-Editor (Core/deHaan/Guay) final-decision model, and the annual JAE Conference special-issue pipeline.
+description: Use when anticipating or interpreting the Journal of Accounting and Economics (JAE) review process — the editor suitability screen and Article Transfer Service desk-reject culture, double-anonymized review by a minimum of two reviewers, compact editor-final decision model, and annual JAE Conference special-issue pipeline.
 ---
 
 # Understanding JAE's Review Process (jae-review-process)
@@ -16,7 +16,7 @@ description: Use when anticipating or interpreting the Journal of Accounting and
 
 1. **Editor suitability screen.** Every submission is first assessed by an editor for suitability. Because JAE enforces a high **economics-relevance bar**, papers judged off-fit (normative, behavioral, practitioner-oriented, or thin on economic mechanism) can be **desk-rejected without review** or redirected to another journal via Elsevier's **Article Transfer Service**.
 2. **Double-anonymized review.** Suitable papers go to a **minimum of two** independent expert reviewers; author and reviewer identities are concealed from each other.
-3. **Editor decision.** The **Editor makes the final decision, and that decision is final.** JAE uses a **compact co-Editor model** — a small handful of hands-on co-Editors (J. Core, MIT; E. deHaan, Stanford; W.R. Guay, Penn/Wharton) make calls, supported by a large (~40-person) Associate Editor body, rather than INFORMS-style departmental area-editor routing or a single Editor-in-Chief. (Roster is 待核实 against the live editorial-board page.)
+3. **Editor decision.** The **Editor makes the final decision, and that decision is final.** Treat JAE as a compact editor-final model rather than INFORMS-style departmental area-editor routing. Reopen the current ScienceDirect editorial-board page before naming editors or associate editors in author-facing advice.
 
 ## What reviewers push on
 

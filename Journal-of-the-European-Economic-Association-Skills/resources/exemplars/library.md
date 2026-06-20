@@ -1,13 +1,12 @@
 # JEEA Exemplars Library (method × topic)
 
 > **Verified via web search, access date 2026-06.** Every paper below was checked to confirm it actually
-> appeared in the ***Journal of the European Economic Association*** (the EEA's flagship general-interest
+> appeared in the ***Journal of the European Economic Association*** (the EEA's general-interest
 > journal, published by Oxford University Press; Online ISSN 1542-4774). JEEA's DOI stem is **`10.1093/jeea…`**
 > for the OUP era and the older **`10.1111/j.1542-4774…`** for the earlier Wiley-Blackwell era — both are
 > JEEA. Year, volume(issue), and pages were read off the OUP / publisher article pages where available.
-> Papers whose exact volume/issue/pages could not be fully confirmed to that standard in one pass are marked
-> **待核实** and kept off the clean list — this is deliberately a short, verified list rather than a long,
-> uncertain one.
+> Papers whose exact volume/issue/pages lacked full confirmation to that standard in one pass are kept
+> off the clean list — this is deliberately a short, verified list rather than a long, uncertain one.
 >
 > **Sibling-confusion guard (do not misattribute).** JEEA is **not** any of these adjacent outlets:
 > *The Economic Journal* (RES, Wiley/OUP), the *European Economic Review* (Elsevier), *Econometrica*
@@ -115,8 +114,8 @@ To keep the list zero-hallucination, the following were **excluded** after check
   page and DOI stem before attributing any paper to JEEA.
 - **Recent OUP-era pieces surfaced in search** (e.g., monetary-policy and pharmaceutical-market articles
   with `10.1093/jeea/jvag…` advance-article DOIs) were left off because their **final volume/issue/pages**
-  were still advance-online or could not be confirmed to the same standard in one pass; add them only after
-  reading the OUP article page and confirming volume/issue/pages. Their exact citations are **待核实**.
+  were still advance-online or not confirmed to the same standard in one pass; add them only after
+  reading the OUP article page and confirming volume/issue/pages.
 
 Before adding any new paper to this library, confirm it on `academic.oup.com/jeea` (or the
 Wiley-Blackwell page for pre-OUP articles) with volume/issue/pages **and** that the DOI begins

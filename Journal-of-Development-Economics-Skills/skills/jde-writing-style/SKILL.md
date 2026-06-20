@@ -16,7 +16,10 @@ description: Use when polishing prose for a Journal of Development Economics (JD
 
 JDE readers are development economists; the writing has to make a **first-order development question and its answer** land quickly, with policy stakes explicit. Principles:
 
-- **Abstract states the finding with a number.** Lead with the development question, the design in a phrase, and the headline effect in welfare-relevant units — not just "we study X in country Y." (Pre-results review Stage 1 proposals cap the abstract at **150 words**; a regular-submission abstract cap was not confirmed officially — keep it tight, see 待核实 in the source map.)
+- **Abstract states the finding with a number.** Lead with the development question, the design in a
+  phrase, and the headline effect in welfare-relevant units — not just "we study X in country Y."
+  Regular submissions have a **250-word** abstract cap; pre-results Stage 1 proposals cap the abstract at
+  **150 words**.
 - **Introduction as an argument.** Question → why it matters for development → setting and design in a few sentences → headline result with magnitude → contribution relative to the frontier → roadmap. Avoid a literature-survey opening.
 - **Policy and welfare made visible.** Translate effects into terms a development economist and a policymaker can weigh (poverty gap, cost-effectiveness, test-score SDs).
 - **Honest scope.** State external-validity limits plainly; development referees reward calibrated claims and punish overreach.
@@ -46,7 +49,7 @@ Hypothetical: a cluster-randomized teacher-incentive experiment in a low-income 
 
 ## Calibration anchors (hedged)
 
-- Pre-results Stage 1 abstracts cap at **150 words**; a regular-submission cap is not officially confirmed (**待核实**) — keep it tight regardless.
+- Regular submissions have a **250-word** abstract cap; pre-results Stage 1 abstracts cap at **150 words**.
 
 ## Anti-patterns
 

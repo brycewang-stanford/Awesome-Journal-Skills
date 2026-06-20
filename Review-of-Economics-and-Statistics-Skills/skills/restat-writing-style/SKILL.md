@@ -14,7 +14,7 @@ description: Use when revising the prose of a The Review of Economics and Statis
 
 ## The REStat prose bar
 
-REStat is **empirical-first applied economics**, so the intro must put the **applied question, the design, and the headline estimate (with units and a standard error)** on page one. The abstract is **≤100 words** (检索于 2026-06；以官网为准), in JEL-suitable form — so every word earns its place. The house style is plain, quantitative economics prose: state the number, state the design that earns it, state why an applied audience cares. REStat's measurement tradition means the writing should also make the **quality of the data/measurement** legible early when that is part of the contribution.
+REStat is **empirical-first applied economics**, so the intro must put the **applied question, the design, and the headline estimate (with units and a standard error)** on page one. The abstract is **≤100 words** (source map refreshed 2026-06-20), in JEL-suitable form — so every word earns its place. The house style is plain, quantitative economics prose: state the number, state the design that earns it, state why an applied audience cares. REStat's measurement tradition means the writing should also make the **quality of the data/measurement** legible early when that is part of the contribution.
 
 ## The REStat introduction arc
 
@@ -27,7 +27,7 @@ REStat is **empirical-first applied economics**, so the intro must put the **app
 
 ## Abstract rules (REStat)
 
-- **≤100 words** (verify on the current submission guidelines).
+- **≤100 words**; live-check the current submission guidelines before upload.
 - State the question, the design, and the **finding with a number**, not just "we study X."
 - JEL-suitable: written so it can be classified; keywords/JEL codes accompany the title page.
 - No undefined jargon; an applied economist outside your subfield should follow it.

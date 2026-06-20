@@ -4,7 +4,7 @@
 > actually appeared in ***Quantitative Economics*** (the Econometric Society's open-access journal,
 > published with Wiley) and carries a **`10.3982/QE…` DOI stem** — the marker that confirms QE
 > specifically. Year, volume(issue), and pages were read off the Wiley / Econometric Society article
-> pages. Papers that could not be fully verified as QE were **omitted** — this is deliberately a short,
+> pages. Papers lacking complete QE verification were **omitted** — this is deliberately a short,
 > clean list rather than a long, uncertain one.
 >
 > **Sibling-confusion guard (do not misattribute).** QE is **not** any of these, which share parts of the
@@ -126,8 +126,8 @@ To keep the list zero-hallucination, the following were **excluded** after check
   confirms it is in ***Econometrica*** (79(6):1823–1867, DOI `10.3982/ECTA7743`), **not QE**. Listed here
   only as a sibling-confusion guardrail: the `ECTA` stem, not `QE`, is the tell.
 - Several frequently-cited QE-area methods papers (e.g., additional quantile/panel and bootstrap pieces
-  surfaced in search) were left off because their **exact QE volume/issue/pages** could not be confirmed
-  to the same standard in one pass; add them only after reading the Wiley / Econometric Society article
+  surfaced in search) were left off because their **exact QE volume/issue/pages** did not meet the same
+  verification standard in one pass; add them only after reading the Wiley / Econometric Society article
   page and confirming the `10.3982/QE…` DOI.
 
 Before adding any new paper to this library, confirm it on `onlinelibrary.wiley.com` or

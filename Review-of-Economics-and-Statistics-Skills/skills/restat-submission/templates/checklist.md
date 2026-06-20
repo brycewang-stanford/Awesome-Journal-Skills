@@ -1,9 +1,9 @@
 # REStat Pre-Submission Self-Check (8 sections)
 
 A last-pass checklist for a *The Review of Economics and Statistics* (REStat)
-manuscript before submitting via **Editorial Express**. Verify volatile specifics
+manuscript before submitting via **Editorial Express**. Live-check volatile specifics
 (fee, abstract/appendix limits, editors, category rules) on the official MIT Press
-REStat pages (检索于 2026-06；以官网为准).
+REStat pages before upload.
 
 ## 1. Venue fit & category
 - [ ] The paper is applied economics / applied econometrics with credible identification or careful measurement

@@ -5,18 +5,18 @@
 English | [简体中文](README.zh-CN.md)
 
 Twelve agent skills for manuscripts targeted at the **Journal of the European Economic Association
-(JEEA)** — the **flagship general-interest journal of the European Economic Association (EEA)**, published
+(JEEA)** — the **general-interest journal of the European Economic Association (EEA)**, published
 by **Oxford University Press**. JEEA publishes high-quality work across **all** fields of economics — micro
 and macro theory, applied econometrics, applied micro, finance, development, and public — judged at a strong
-general-interest **theory-and-empirics** bar, the European counterpart to the top general-interest outlets.
+general-interest **theory-and-empirics** bar for a global economics audience.
 The pack routes a manuscript from venue fit and a sharp question, through credible identification (empirical
 **or** theory/structural), theory-model craft, robustness, exhibits, and writing, into the **DCAS data-and-code
 policy** — the replication package the **JEEA Data Editor verifies before formal acceptance**, posted to the
 JEEA Zenodo community — and on through single-blind submission and the R&R rebuttal.
 
-**Official basis checked 2026-06** (检索于 2026-06；以官网为准): EEA / JEEA submission, fee, and data-editor
-pages, the Oxford Academic JEEA journal and author-guidelines pages, and the DCAS endorsement. Sources and
-honest 待核实 markers are in [`resources/official-source-map.md`](resources/official-source-map.md).
+**Official basis checked 2026-06-20**: EEA submission, fee, and data-editor pages; Oxford Academic
+About, Author Guidelines, and Editorial Board pages; the DCAS endorsement; and the JEEA Zenodo
+community. Sources are in [`resources/official-source-map.md`](resources/official-source-map.md).
 
 ## Why a separate stack?
 
@@ -25,10 +25,10 @@ honest 待核实 markers are in [`resources/official-source-map.md`](resources/o
 | General-interest, field-agnostic | The lesson must travel beyond the subfield; subfield-only depth is off-fit |
 | Theory **and** empirics at a high bar | A credible empirical design **or** a disciplined model — execution gates acceptance |
 | EEA membership gate | The submitting author must be an EEA member to submit *and* to resubmit |
-| Submission fee (€100, eff. Feb 2026) | Prompted at submission; waived if the submitting author and all coauthors are LMIC-based |
+| Submission fee (€100, eff. Feb 2026) | Paid through the EEA membership profile; waived if the submitting author and all coauthors are LMIC-based |
 | Single-blind review, co-editor-led | Referees see the authors; the co-editor desk-rejects on general-interest fit |
 | DCAS data & code policy | JEEA Data Editor verifies replication **before** formal acceptance; package on the JEEA Zenodo community |
-| House presentation | No significance asterisks; report standard errors / confidence sets; online appendix |
+| House presentation | Report standard errors / confidence sets; online appendix; alt text for figures in final files |
 
 ## Quick Start
 
@@ -81,10 +81,10 @@ jeea-topic-selection → jeea-literature-positioning → jeea-identification →
 
 | Journal | Niche | This pack's positioning |
 |---------|-------|-------------------------|
-| **JEEA** | EEA's flagship general-interest theory + empirics | The target of this pack |
-| **The Economic Journal (RES)** | Broad European general-interest outlet | JEEA carries the EEA's flagship general-interest brand at a strong theory+empirics bar |
+| **JEEA** | EEA general-interest theory + empirics | The target of this pack |
+| **The Economic Journal (RES)** | Broad European general-interest outlet | JEEA carries the EEA association venue identity at a strong theory+empirics bar |
 | **European Economic Review (EER)** | Broad-scope European journal | JEEA aims higher on the general-interest novelty bar |
-| **Top-5 (AER / QJE / JPE / Ecma / REStud)** | Agenda-setting general interest | JEEA is the strong European flagship just below — a realistic, faster home |
+| **Top-5 (AER / QJE / JPE / Ecma / REStud)** | Agenda-setting general interest | JEEA is a strong European general-interest home below that bar |
 
 ## Related
 

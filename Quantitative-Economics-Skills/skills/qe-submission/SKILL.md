@@ -12,7 +12,7 @@ description: Use when running the final pre-submission preflight for Quantitativ
 - Confirming the format rules (PDF, 12pt, spacing, line limit) and house style are QE-compliant
 - Deciding whether to use the Econometrica-transfer route
 
-## Process facts (verified 2026-06-01; re-confirm on the official ES pages)
+## Process facts (source map refreshed 2026-06-20; re-confirm on the official ES pages)
 
 - QE is the **Econometric Society's** empirically/computationally oriented general-interest journal; content is hosted on **Wiley Online Library** (Online ISSN 1759-7331). Submission is through the ES **Online Submission** portal (ES e-publications), as **PDF**; the form currently allows two attachments (combine extras into one `.zip`).
 - **Membership gate:** at least one author must be a current **Econometric Society member** to submit (join/renew via the ES register page).
@@ -49,7 +49,7 @@ description: Use when running the final pre-submission preflight for Quantitativ
 - Submitting without an ES member among the authors (hard gate)
 - Asterisks/boldface for significance, or figures/tables dumped at the end
 - Forgetting to post the manuscript publicly during review
-- Treating the per-page Open-Access fee as if it were a submission-time APC
+- Treating the post-proof publication fee as if it were a submission-time APC
 - Using the Econometrica-transfer route without a cover letter addressing prior reports
 
 ## Output format

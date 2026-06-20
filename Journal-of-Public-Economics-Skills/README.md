@@ -11,7 +11,7 @@
 
 English | [简体中文](README.zh-CN.md)
 
-Agent skill stack for manuscripts targeted at the **Journal of Public Economics (JPubE)** — Elsevier's flagship field journal in **public economics / public finance**, founded in **1972 by Tony Atkinson** and edited by Co-Editors-in-Chief **John N. Friedman (Brown University)** and **Wojciech Kopczuk (Columbia University)**.
+Agent skill stack for manuscripts targeted at the **Journal of Public Economics (JPubE)** — Elsevier's flagship field journal in **public economics / public finance**, founded in **1972 by Tony Atkinson** and edited by **Nathaniel Hendren (MIT)** and **Wojciech Kopczuk (Columbia University)**.
 
 This repository is opinionated. It is **not** a generic economics-writing toolbox. It is a **JPubE-specific** stack for the economic role of government — taxation, public expenditure, social insurance, redistribution, externalities, public goods, and fiscal policy — answered with modern theory and quantitative methods, a credible policy-induced identification strategy (bunching, RKD, reform DID, IV, RDD), administrative/register data, sufficient-statistics or MVPF welfare mappings, figure-forward exhibits, and a reproducible package — for an international readership.
 
@@ -29,12 +29,14 @@ JPubE imposes constraints that differ materially from a free generalist top-5 or
 | Review model | **Single anonymized** (reviewers hidden; **authors known**), ≥ 2 reviewers | Do not strip your name expecting blind review |
 | Submission fee | **US$165** (US$82.50 student; waived on Elsevier transfer) | Budget for it — unlike free generalist journals |
 | Abstract | **250 words** maximum | A 300-word abstract is off-template |
+| Short paper track | **≤ 6,000 words**, up to **five exhibits** | A focused result can use the expedited track |
 | References | Author-date (name-and-year) | Numbered/footnote styles read as off-template |
 | Source files | Editable Word (single-column) or LaTeX `.tex` (double-column LaTeX-only) | A PDF-only submission is non-compliant |
+| Research data | Elsevier **Option C**: deposit/cite/link data or explain why data cannot be shared | Restricted public data need a precise access statement |
 | Preprint | Optional **SSRN** posting at submission, no effect on outcome | A free dissemination option, not a strategic lever |
 | Process | **Editorial Manager**; AI disclosure; **one appeal** per submission | Use the appeal only for a clear error |
 
-Generic "scientific writing" or "econ writing" packs do not address these. Volatile specifics (current editors, exact fee, data policy) change — **verify them on the official Guide for Authors**. Some official Elsevier/ScienceDirect pages were not directly fetchable at build time, so a few items are marked **待核实** in the source map.
+Generic "scientific writing" or "econ writing" packs do not address these. The pack maps its venue facts to the official ScienceDirect / Elsevier pages in [`resources/official-source-map.md`](resources/official-source-map.md); live-check those pages before an actual upload because fees, required fields, and data-policy wording can change.
 
 ---
 
@@ -116,7 +118,7 @@ jpube-rebuttal
 
 ### Resources
 
-- [`resources/official-source-map.md`](resources/official-source-map.md) — official JPubE/Elsevier URLs behind every fact, with **待核实** flags
+- [`resources/official-source-map.md`](resources/official-source-map.md) — official JPubE/Elsevier URLs behind the pack's venue-specific facts
 - [`resources/external_tools.md`](resources/external_tools.md) — data sources (IRS/SOI, LEHD, SSA, CMS, registers, TAXSIM) + Stata/R/Python packages for bunching, RKD, DID, IV
 
 ---
@@ -125,8 +127,8 @@ jpube-rebuttal
 
 - It does not write a submittable manuscript for you
 - It does not simulate any specific editor's or referee's taste
-- It does not assert volatile metadata (current editors, exact fee, exact data policy) — verify on the official page; some items are flagged **待核实**
-- It does not claim a mandatory JPubE-specific replication-deposit policy that could not be verified
+- It does not replace a live final check of operational metadata (fee, upload fields, APC options, current masthead, policy wording)
+- It does not treat restricted administrative data as shareable; it routes those papers to a precise access statement plus code package
 
 ---
 

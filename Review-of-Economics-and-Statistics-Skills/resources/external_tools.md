@@ -7,8 +7,8 @@ with a long **measurement tradition**, so a typical paper pairs a substantive
 applied question with **credible identification**, **careful measurement**, and a
 **reproducible data-and-code package** deposited to the **REStat Harvard Dataverse**.
 Build the replication package as you go. Check licenses and current access terms
-before use; verify volatile process specifics on the official MIT Press REStat pages
-(检索于 2026-06；以官网为准).
+before use; live-check volatile process specifics on the official MIT Press REStat pages
+before submission.
 
 ## 1. Data sources
 
@@ -32,7 +32,7 @@ before use; verify volatile process specifics on the official MIT Press REStat p
 > README files **before publication**, sufficient to permit replication. For
 > **proprietary/restricted** data, **indicate at submission** and document how other
 > researchers can obtain it; do **not pay the US$125 submission fee** until the
-> editorial office confirms compliance (检索于 2026-06；以官网为准).
+> editorial office confirms compliance.
 
 ## 2. Statistical & computational software
 
@@ -88,12 +88,11 @@ before use; verify volatile process specifics on the official MIT Press REStat p
 | Categories | Full-length **Articles**, **Notes**, **Short Papers** (≤6000 words, ≤5 exhibits since Dec 2019) |
 | Submission fee | **US$125** nonrefundable per new submission, by credit card; proprietary-data fee held until compliance confirmed |
 | Data/code archive | **REStat Harvard Dataverse** (NOT openICPSR, NOT the JAE archive); README permitting replication, before publication |
-| Editors (2026) | Will Dobbie (Harvard), Raymond Fisman (Boston U) — co-chairs (检索于 2026-06；以官网为准) |
+| Editors (2026) | Will Dobbie (Harvard), Raymond Fisman (Boston U) — co-chairs; confirm full board on the live MIT Press page |
 
 ## 7. Cautions
-1. **Verify volatile specifics** (editors, fee, abstract/appendix limits, category
-   rules) on the official MIT Press REStat pages — they change, and several pages
-   block automated fetches.
+1. **Live-check volatile specifics** (editors, fee, abstract/appendix limits, category
+   rules) on the official MIT Press REStat pages; they change.
 2. **Use the right archive** — REStat deposits to **Harvard Dataverse**, not
    openICPSR or the JAE archive; mixing these up is a REStat-specific error.
 3. **Declare proprietary data at submission** and hold the fee until the editorial

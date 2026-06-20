@@ -25,7 +25,7 @@ REStat publishes **applied economics and applied econometrics** with a long **me
 | Identification-driven applied micro of broad interest | AEJ: Applied (close sibling) | Overlaps heavily; REStat leans more on measurement + applied econometrics |
 | A new estimator with proofs; method *is* the contribution | *J. Econometrics* / *Econometrica* | REStat is applied — methods must be *applied*, not developed for their own sake |
 | Sub-field-internal contribution (JOLE / JPubE / JDE) | Field journal | REStat wants wider applied readership |
-| A short, sharp empirical result | **REStat Short Paper** (≤6000 words, ≤5 exhibits; 检索于 2026-06) | REStat has a short-format track for compact contributions |
+| A short, sharp empirical result | **REStat Short Paper** (≤6000 words, ≤5 exhibits; source map refreshed 2026-06-20) | REStat has a short-format track for compact contributions |
 
 ## The one-sentence test
 

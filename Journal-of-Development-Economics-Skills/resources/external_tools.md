@@ -93,7 +93,7 @@ deposited to Mendeley Data. Check licenses and current access terms before use.
 |------|------|
 | Submission portal | Editorial Manager (Elsevier) — confirm current URL in the Guide for Authors |
 | Submission fee | None for standard subscription publication; optional open-access APC applies only after acceptance (verify current figure) |
-| Review model | Single anonymized (referees know author identity; author does not know referees) — 待核实 on the live page |
+| Review model | Single anonymized (referees know author identity; author does not know referees) |
 | Pre-results review | Permanent Registered Reports track (Stage 1 proposal → in-principle acceptance → Stage 2), run with BITSS |
 | Short-paper track | AER: Insights-style limited-revision track (≤6,000 words, ≤5 exhibits, ≤20-page appendix) |
 | Submission cap | No more than three papers per author within any 12-month period |

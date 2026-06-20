@@ -11,7 +11,7 @@
 
 English | [简体中文](README.zh-CN.md)
 
-Agent skill stack for manuscripts targeted at the **Journal of Development Economics (JDE)** — the **leading field journal in development economics**, published by **Elsevier** and edited by Lead Editor **Andrew Foster** (with Dean Karlan among the editors). JDE publishes theoretical and empirical research on the economics of developing countries and the process of economic development.
+Agent skill stack for manuscripts targeted at the **Journal of Development Economics (JDE)** — the **leading field journal in development economics**, published by **Elsevier** and edited by Editors-in-Chief **A. Foster** and **K. Macours**. JDE publishes theoretical and empirical research on the economics of developing countries and the process of economic development.
 
 This repository is opinionated. It is **not** a generic economics-writing toolbox. It is a **JDE-specific** stack for development economics: a first-order question about low- and middle-income economies, credible identification in messy field settings (RCT / DID / IV / RDD), welfare-relevant magnitudes, an extensive online appendix, and a **mandatory, review-stage-ready replication package** deposited to Mendeley Data.
 
@@ -28,18 +28,18 @@ JDE imposes constraints that differ from a top-5 general-interest journal or a m
 | Identification        | RCT/field experiment, DID, IV, RDD — defended for field settings             | OLS + controls is not enough                                     |
 | Publisher / portal    | **Elsevier**, via **Editorial Manager**                                      | Not OUP/Editorial Express; single-anonymized review              |
 | Review model          | **Single-anonymized** (referees know the author)                             | Do not anonymize as double-blind                                 |
-| Fee                   | **No submission fee**; optional OA APC only after acceptance                 | Do not budget a submission fee                                   |
-| Selectivity           | ~1,300 submissions/yr, ~1/4 reviewed, **~6-8% accepted**                     | A clean, complete, well-framed submission matters                |
-| Replication           | **Mandatory**; data/code on **Mendeley Data**, requestable **during review** | Build the package before you submit                              |
+| Fee                   | **USD 50 non-refundable submission fee** for original manuscripts; optional OA APC after acceptance | Budget before filing; re-check the live payment screen           |
+| Selectivity           | ~1,300 submissions/yr, ~1/4 reviewed, **~6-8% published**                    | A clean, complete, well-framed submission matters                |
+| Replication           | Mandatory replication policy + Elsevier **Option C** data policy            | Build the package before you submit                              |
 | Submission cap        | **≤ 3 papers per author per 12 months**                                      | Plan your submissions                                            |
 | Distinctive routes    | Pre-results review (Registered Reports) + AER: Insights-style short-paper    | Choose the right track up front                                  |
 
-Volatile specifics (editors, APC, review-model wording, caps) change and several official Elsevier pages are not machine-readable — items not directly confirmed are marked **待核实** in [`resources/official-source-map.md`](resources/official-source-map.md). **Verify on the official journal page.**
+The official ScienceDirect pages were refreshed on **2026-06-20** in [`resources/official-source-map.md`](resources/official-source-map.md). Re-check live pages before submission-ready advice because fees, editors, special issues, and policy wording can change.
 
 ### Three submission routes
 
 - **Full-length (standard):** no fixed length limit; extensive online appendix expected.
-- **Short-paper (limited-revision):** modeled on **AER: Insights** — ≤ 6,000 words, ≤ 5 exhibits, ≤ 20-page online appendix; decisions in **4-6 weeks**, a single **4-week** revision round, resubmissions **not** returned to referees.
+- **Short-paper (limited-revision):** modeled on **AER: Insights** — ≤ 6,000 words, ≤ 5 exhibits, ≤ 20-page online appendix; refereed decisions generally in **6-8 weeks**, with a conditional-accept / reject structure.
 - **Pre-results review (Registered Reports):** a **permanent** track (run with **BITSS**) — submit a Stage 1 proposal (hypotheses, procedures, statistical analysis plan, power analysis, pilot data) ≤ 60 pages with a ≤ 150-word abstract; get **in-principle acceptance before results are known**, then submit Stage 2.
 
 ---
@@ -123,7 +123,7 @@ jde-rebuttal
 ### Resources
 
 - [`resources/external_tools.md`](resources/external_tools.md) — development data sources (LSMS / DHS / WDI / AEA RCT Registry) + Stata / R / Python packages for credible-design field work
-- [`resources/official-source-map.md`](resources/official-source-map.md) — official JDE URLs behind every fact, with 待核实 markers on unverified items
+- [`resources/official-source-map.md`](resources/official-source-map.md) — official JDE URLs behind current process facts, refreshed 2026-06-20
 
 ---
 
@@ -131,7 +131,7 @@ jde-rebuttal
 
 - It does not write a submittable manuscript for you
 - It does not simulate any specific editor's or referee's taste
-- It does not assert volatile metadata (current editors, exact APC, review-model wording, caps) — verify on the official page; unverified items are marked 待核实
+- It does not freeze volatile metadata (fees, editors, APC, special issues, policy wording); re-check live pages before filing
 - It does not judge whether your development question is genuinely first-order — that is the researcher's call
 
 ---

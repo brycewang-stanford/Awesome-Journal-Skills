@@ -14,7 +14,7 @@ description: Use when a Journal of Public Economics (JPubE) decision letter arri
 
 ## JPubE reality
 
-JPubE uses **single anonymized review** with a minimum of two reviewers who **know your identity**, and the handling editor (under Co-Editors-in-Chief Friedman and Kopczuk) synthesizes their reports through **Editorial Manager**. The **handling editor's letter is the contract**: it ranks which referee points are binding. Because referees are public-finance specialists, expect demands aimed at the *credibility of the policy parameter and its welfare mapping* — the counterfactual in a bunching design, the pre-trends in a reform DID, the sufficient-statistics assumptions, the external validity of a local elasticity.
+JPubE uses **single anonymized review** with a minimum of two reviewers who **know your identity**, and the handling editor (under the Hendren–Kopczuk editorial leadership) synthesizes their reports through **Editorial Manager**. The **handling editor's letter is the contract**: it ranks which referee points are binding. Because referees are public-finance specialists, expect demands aimed at the *credibility of the policy parameter and its welfare mapping* — the counterfactual in a bunching design, the pre-trends in a reform DID, the sufficient-statistics assumptions, the external validity of a local elasticity.
 
 ## Triage protocol
 

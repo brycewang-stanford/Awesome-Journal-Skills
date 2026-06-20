@@ -6,7 +6,7 @@
 
 面向 **The Review of Economics and Statistics（REStat）** 投稿的 12 个 agent skills。REStat 是 MIT Press 的应用经济学与应用计量经济学期刊。本包以实证为核心，覆盖选题契合度、文献定位、识别、理论/模型约束、稳健性、图表、写作风格、复现包、审稿人策略、投稿终检与回复修改。
 
-**官方依据核验日期：2026-06**：见 [`resources/official-source-map.md`](resources/official-source-map.md)。
+**官方依据核验日期：2026-06-20**：见 [`resources/official-source-map.md`](resources/official-source-map.md)。
 
 ## 快速开始
 

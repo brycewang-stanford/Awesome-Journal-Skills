@@ -85,10 +85,11 @@ model toolkits. Check licenses and current access terms before use.
 - Reference managers: Zotero, BibTeX/BibLaTeX, EndNote. JIE applies its reference style at the **proof stage**, so submit in any consistent style with all required elements (author names, title, year, volume, article number/pages); **DOIs encouraged**
 - Abstract: **150 words max**, factual, single paragraph, references avoided; **1-7 keywords**
 - Submission portal: **Editorial Manager**; non-refundable fee **USD 190 / EUR 169.20 / JPY 20,660** (USD 95 if all authors are PhD students); the **Prior Review Process (PRP)** carries decision letters + referee reports from AER/Econometrica/JPE/QJE/REStud at no extra fee
-- JEL classification codes are standard for econ submissions but **待核实** against the official JIE guide
+- Short Papers: **≤6,000 words** and **≤5 exhibits**, with the required word-count PDF; do not apply this cap to regular submissions
+- Prepare JEL classification codes only if the live submission system asks for them; the current Guide-confirmed metadata are the abstract and **1-7 keywords**
 
 ## 8. Cautions
-1. **Verify volatile specifics** (fee, editors, deposit rules, portal URL, length limits) on the official Guide for Authors — they change, and several pages 403 to automated fetches.
+1. **Verify volatile specifics** (fee, editors, deposit rules, portal URL) on the official Guide for Authors before upload.
 2. **Use PPML, not log-OLS, for gravity** when zeros and heteroskedasticity matter (Santos Silva–Tenreyro).
 3. **Match the estimator to the design** — staggered RTA/tariff adoption needs modern DID estimators; shift-share needs share-exogeneity arguments.
 4. **Reproducibility is mandatory at JIE** — assemble the Mendeley Data deposit before acceptance, not after.

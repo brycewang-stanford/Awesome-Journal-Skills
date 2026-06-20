@@ -13,7 +13,7 @@ guidance lives once in the shared empirical-methods hub and is linked below.
 | [`exemplars/library.md`](exemplars/library.md) | Benchmark against **real, web-verified REStat papers** organized by method × topic. Design positioning only — no fabricated numbers; includes a sibling-confusion guard vs. *J. Econometrics* / AEJ: Applied / *Econometrica*. |
 | [reviewer-objection-checklist](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) | The objections referees actually raise, by identification strategy (DiD / IV / RDD / DML / matching / mechanism), each with its preemption. Stress-test the design before drafting. |
 | [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) | Modern inference + reporting table stakes: SE clustering, weak-IV diagnostics, multiple-testing, DiD/RDD reporting, reproducibility. |
-| [`official-source-map.md`](official-source-map.md) | Venue-specific facts (fee, limits, categories, data policy, archive, house style) with sourcing discipline and honest 待核实 markers. |
+| [`official-source-map.md`](official-source-map.md) | Venue-specific facts (fee, limits, categories, data policy, archive, house style) with sourcing discipline and a 2026-06-20 refresh date. |
 | [`external_tools.md`](external_tools.md) | External tools / packages relevant to REStat (incl. measurement-error and shift-share tooling). |
 
 ## How to use

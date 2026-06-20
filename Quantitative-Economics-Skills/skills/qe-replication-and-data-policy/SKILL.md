@@ -12,13 +12,13 @@ description: Use to assemble a Quantitative Economics (QE) replication package t
 - Some data are proprietary or restricted and you need to plan an exemption
 - You want the package built so the pre-acceptance reproducibility check passes on the first pass
 
-## The QE / Econometric Society replication regime (verified 2026-06-01)
+## The QE / Econometric Society replication regime (source map refreshed 2026-06-20)
 
 QE follows the **Econometric Society Data and Code Availability Policy**, shared across *Econometrica*, *Quantitative Economics*, and *Theoretical Economics* and **compatible with DCAS** (the Data and Code Availability Standard). Key facts:
 
 - The Society publishes empirical / experimental / simulation papers **only if data and code are clearly documented and non-exclusive** to the authors.
 - **Before acceptance**, authors must provide **raw data, code, and documentation** sufficient to **replicate all results** in the paper and approved online appendices.
-- The **ES Data Editor** (inaugural Data Editor **Joan Llull**) conducts **reproducibility checks before final acceptance**. Partial-check scope must be **documented in the README**.
+- The **ES Data Editor** process conducts **reproducibility checks before final acceptance**. Partial-check scope must be **documented in the README**.
 - Replication / supplementary materials are **posted with the article**.
 - For **long-running or hard-to-access computations**, simplified/manageable versions and **summary output files** are encouraged.
 - Any request for **exemption or limits on data/code access** must be **stated at initial submission** and is at editor discretion.

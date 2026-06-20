@@ -3,7 +3,7 @@
 A last-pass checklist for a *Journal of the European Economic Association* (JEEA)
 manuscript before submitting via the EEA submission system. Verify volatile
 specifics (fee, membership, portal, editors, policy effective dates) on the
-official EEA / Oxford University Press JEEA pages (检索于 2026-06；以官网为准).
+official EEA / Oxford University Press JEEA pages (source map refreshed 2026-06-20).
 
 ## 1. Fit & contribution (beats desk rejection)
 - [ ] General-interest lesson stated up front; a non-specialist sees why it matters
@@ -38,7 +38,7 @@ official EEA / Oxford University Press JEEA pages (检索于 2026-06；以官网
 - [ ] Raw data, code, documentation assembled; one master script regenerates all results
 - [ ] Software versions pinned; seeds set and reported
 - [ ] Restricted data: access instructions + exemption/limited-access request stated now
-- [ ] Package readied for the JEEA Zenodo community deposit
+- [ ] Package readied for JEEA's online data submission platform and later Zenodo community deposit
 
 ## 8. Declarations & review awareness
 - [ ] Data-availability, disclosure / conflict-of-interest, and funding statements prepared

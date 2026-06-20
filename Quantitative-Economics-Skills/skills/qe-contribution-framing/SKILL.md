@@ -58,7 +58,7 @@ The most common desk-reject framing is the **method-as-contribution sentence**: 
 
 ## Worked vignette: a dynamic retirement model (illustrative)
 
-A paper estimates a dynamic model of retirement timing and evaluates raising the early-claiming age. Machinery-first framing: "We solve a dynamic program with a nested fixed-point estimator." A QE-fit rewrite names question + quantity + lesson: "Raising the early eligibility age by two years cuts early claiming by 14 percentage points (s.e. 3) and raises lifetime benefits 6% on average, but the gains are regressive — a margin reduced-form work could not quantify." (Numbers illustrative.) The rewrite carries uncertainty, states the policy quantity, and flags the distributional lesson; the estimator becomes a credibility footnote, not the headline.
+A paper estimates a dynamic model of retirement timing and evaluates raising the early-claiming age. Machinery-first framing: "We solve a dynamic program with a nested fixed-point estimator." A QE-fit rewrite names question + quantity + lesson: "Raising the early eligibility age by two years cuts early claiming by 14 percentage points (s.e. 3) and raises lifetime benefits 6% on average, but the gains are regressive — a margin reduced-form work leaves unquantified." (Numbers illustrative.) The rewrite carries uncertainty, states the policy quantity, and flags the distributional lesson; the estimator becomes a credibility footnote, not the headline.
 
 ## Referee pushback and the framing fix
 

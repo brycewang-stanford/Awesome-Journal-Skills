@@ -27,15 +27,16 @@ JIE imposes constraints that differ materially from a general-interest top-5 jou
 | Originality gate        | Original in **motivation or modelling structure**                                | A re-run of a known design on new data is off-fit                |
 | Submission system       | **Editorial Manager** (Elsevier)                                                 | Not Editorial Express / ScholarOne — different upload flow       |
 | Submission fee          | **USD 190 / EUR 169.20 / JPY 20,660** (USD 95 if all authors are PhD students)   | Budget for it; VAT added for relevant European authors           |
-| Expedited path          | **Prior Review Process (PRP)** carrying AER/EMA/JPE/QJE/REStud letters+reports   | Select 'PRP' as Article Type; no extra fee                       |
-| Submission types        | Regular, **short**, or PRP                                                        | Pick the type that fits the contribution                         |
+| Expedited path          | **Prior Review Process (PRP)** carrying AER/Econometrica/JPE/QJE/REStud letters+reports | Select 'PRP' as Article Type; no extra fee                       |
+| Submission types        | Regular, **Short Paper** (≤6,000 words, ≤5 exhibits), or PRP                     | Pick the type that fits the contribution                         |
+| Review model            | **Single anonymized**; suitable manuscripts typically go to at least two reviewers | Calibrate expectations before first submission                   |
 | Abstract                | **≤ 150 words**, factual, single paragraph, references avoided                    | A long, citation-heavy abstract is off-template                  |
 | Keywords                | **1-7 keywords**                                                                  | Choose field-discoverable terms                                  |
 | References              | Elsevier applies the journal style **at proof** — submit in any consistent style | Required elements must be present; DOIs encouraged               |
 | Data / code             | **Mandatory deposit** of programs and data in the JIE secure repository           | Build the Mendeley Data package as you go                        |
-| Editor fit              | Suggest a **(Co-)Editor** whose profile matches the paper                          | Trade vs macro/finance routing matters                          |
+| Editor fit              | Suggest an **Editor or Co-Editor** whose profile matches the paper                 | Trade vs macro/finance routing matters                          |
 
-Acceptance for regular submissions has historically run ~10-15%, with desk rejects around 25% (per Co-Editor Costas Arkolakis's site). Volatile specifics (current editors, exact fee, deposit policy, length limits) change — **verify them on the official Guide for Authors**. Several Elsevier/ScienceDirect pages return HTTP 403 to automated fetches, so a few items in this pack are marked **待核实** (to be verified).
+Acceptance for regular submissions has historically run ~10-15%, with desk rejects around 25% (per Editor Costas Arkolakis's site). The official Guide for Authors and editorial-board pages were refreshed on 2026-06-20 for this pack; still verify fee amounts, editor roster, and portal links on the live pages before upload.
 
 ---
 
@@ -118,15 +119,15 @@ jie-rebuttal
 ### Resources
 
 - [`resources/external_tools.md`](resources/external_tools.md) — trade data (Comtrade, BACI, CEPII gravity, WITS) + international macro/finance data (IMF IFS/BOP, BIS, EWN, Penn World Table) + Stata / R / Python / Dynare toolkits
-- [`resources/official-source-map.md`](resources/official-source-map.md) — official JIE / Elsevier URLs behind every fact in this pack, with 待核实 flags on unverified items
+- [`resources/official-source-map.md`](resources/official-source-map.md) — official JIE / Elsevier URLs behind the current process facts in this pack
 
 ---
 
 ## What This Repo Does Not Do
 
 - It does not write a submittable manuscript for you
-- It does not simulate any specific (Co-)Editor's or referee's taste
-- It does not assert volatile metadata (current editors, exact fee, deposit rules, length limits) — verify on the official page; some items are flagged 待核实
+- It does not simulate any specific editor's or referee's taste
+- It does not treat volatile metadata (current editors, exact fee, deposit rules, portal links) as evergreen — verify on the official page before submission
 - It does not judge whether your motivation or model is genuinely original — that is the researcher's call
 
 ---

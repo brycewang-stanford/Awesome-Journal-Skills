@@ -12,22 +12,26 @@ description: Use when running the final pre-submission preflight for the Journal
 - Confirming abstract length, reference style, and source-file format are JPubE-compliant
 - Checking declarations (AI, conflicts) and the SSRN preprint choice
 
-## Process facts (verified; re-confirm on the official Guide for Authors)
+## Process facts (live-check operational fields on the official Guide for Authors)
 
-- **Publisher Elsevier;** submission through Elsevier's **Editorial Manager** online system. Founded 1972 by Tony Atkinson; Co-Editors-in-Chief **John N. Friedman (Brown)** and **Wojciech Kopczuk (Columbia)**.
+- **Publisher Elsevier;** submission through Elsevier's **Editorial Manager** online system. Founded 1972 by Tony Atkinson; current Editors **Nathaniel Hendren (MIT)** and **Wojciech Kopczuk (Columbia)**.
 - **Submission fee: US$165** per unsolicited manuscript. A reduced **US$82.50** fee applies to **full-time students** via a student discount code (obtained by contacting the journal, entered during submission). The fee is **waived** when the manuscript is **transferred into the journal via Elsevier's article transfer service**. Unlike many top economics journals that are free or charge only a handling fee, JPubE charges this fee — budget for it unless you are transferring.
 - **Single anonymized review;** suitable submissions go to a minimum of two reviewers (author identity is known to reviewers — see `jpube-review-process`).
+- **Short Paper track:** no more than 6,000 words, up to five exhibits, main text and exhibits standing on their own; the journal aims for 4-6 week decisions on refereed short papers.
 - **Abstract: 250 words maximum**, concise and factual (purpose, principal results, major conclusion).
+- **Highlights:** required at submission; 3-5 bullet points, each at most 85 characters including spaces.
 - **References: author-date (name-and-year)** in-text per Elsevier formatting.
 - **Source files:** editable Word (**single-column**) or LaTeX (**.tex**; double-column permitted only for LaTeX).
 - **Generative-AI use must be declared** at submission; **one appeal per submission** is considered under Elsevier's Appeal Policy.
 - **Optional SSRN preprint** at submission, with no effect on the editorial outcome.
+- **Research data:** Elsevier Option C requires deposit/citation/linking of research data, or a statement explaining why data cannot be shared.
 
 ## Preflight checklist
 
 ### Format & style
 - [ ] Editable source files ready (Word single-column **or** LaTeX `.tex`)
 - [ ] Abstract ≤ **250 words**, factual (purpose / results / conclusion)
+- [ ] Highlights file ready (3-5 bullets, ≤85 characters each)
 - [ ] References in **author-date** style, alphabetical by surname
 - [ ] Tables/figures numbered, called in order, with self-contained notes
 - [ ] Figures legible at print resolution (vector preferred)
@@ -42,7 +46,7 @@ description: Use when running the final pre-submission preflight for the Journal
 - [ ] **Generative-AI** use declared if applicable
 - [ ] Conflict-of-interest / disclosure statement prepared
 - [ ] Funding and data-source disclosures prepared
-- [ ] Data-availability statement ready (see jpube-replication-and-data-policy)
+- [ ] Data-availability statement ready; repository link or restricted-data explanation prepared (see jpube-replication-and-data-policy)
 - [ ] Confirmed the paper is not under review elsewhere
 
 ### Content sanity
@@ -66,6 +70,7 @@ Before referees, a handling editor scans for fit and form. These are the avoidab
 |-----------|------------------------|-------------------|
 | No welfare/policy payoff | Reads as a labor/IO paper with a tax control | Land the MVPF / sufficient-statistic / DWL claim in the abstract |
 | Abstract > 250 words | Violates the stated cap | Cut to a number-bearing 250 |
+| Missing highlights | Required at submission | Prepare 3-5 short bullets that name result and policy relevance |
 | Flattened PDF only | No editable source for production | Ship Word single-column or LaTeX `.tex` |
 | Fee unbudgeted | Stalls at the Editorial Manager payment step | Confirm US$165 / student code / transfer waiver |
 
@@ -76,13 +81,14 @@ An author finishes a taxable-income-elasticity paper (headline **e = 0.3**, illu
 ## Calibration anchors
 
 - The fee, abstract cap, single-anonymized model, and author-date style are operational tells of JPubE specifically — treat them as binding form checks.
-- Hedge: fee amounts, the student-discount route, and the transfer waiver are volatile — re-confirm on the official Guide for Authors before quoting them.
+- Live-check fee amounts, the student-discount route, and transfer handling on the official Guide for Authors immediately before quoting them to coauthors.
 
 ## Output format
 
 ```
 【Source files】editable Word single-column / LaTeX .tex? [Y/N]
 【Abstract】≤250 words, states finding? [Y/N]
+【Highlights】3-5 bullets, ≤85 characters each? [Y/N]
 【References】author-date, alphabetical? [Y/N]
 【Fee】US$165 / US$82.50 student / transfer-waived — handled? [which]
 【Declarations】AI / COI / funding / data-availability ready? [Y/N each]

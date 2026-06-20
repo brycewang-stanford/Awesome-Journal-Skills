@@ -12,7 +12,7 @@ description: Use when an R&R or decision letter arrives for a Journal of the Eur
 - You are drafting the point-by-point response and are unsure how to prioritize
 - Referees disagree with each other, or with the co-editor
 
-## The JEEA revision reality (检索于 2026-06；以官网为准)
+## The JEEA revision reality (source map refreshed 2026-06-20)
 
 JEEA review is **single-blind** and **co-editor-led**: the co-editor's letter is the **controlling document** — it tells you which referee points are binding and which are optional. Resubmission also requires the **submitting author to be a current EEA member**. Empirical revisions must keep the **replication package current** because the **Data Editor verifies it before formal acceptance**. The editorial team works to a **fast timeline**, so a focused, complete revision is rewarded over a sprawling one. Address the **general-interest contribution** the co-editor cares about first; subfield minutiae second.
 

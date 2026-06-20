@@ -12,11 +12,11 @@ description: Use when running the final pre-submission preflight for The Review 
 - Confirming format (PDF, 12pt, double-spaced) and house style are REStat-compliant
 - Deciding Article vs Short Paper, and whether proprietary data affects the fee timing
 
-## Process facts (检索于 2026-06；以官网为准)
+## Process facts (refreshed 2026-06-20; live-check volatile items on MIT Press)
 
 - REStat is published by **MIT Press**, edited at the **Harvard Kennedy School**; submission is via **Editorial Express** (`editorialexpress.com/.../e-submit...?dbase=restat`). Editors as of 2026: Will Dobbie (Harvard) and Raymond Fisman (Boston U), co-chairs.
 - **Submission fee:** nonrefundable **US$125** per new submission, paid online by credit card at submission. **Proprietary-data papers: do NOT pay the fee until the editorial office confirms** the data comply with the Data and Code Availability Policy.
-- **Article categories:** full-length **Articles**, **Notes**, and (since Dec 2019) **Short Papers** — Short Papers strictly **≤6000 words and ≤5 exhibits** (re-confirm length rules; mark volatile).
+- **Article categories:** full-length **Articles**, **Notes**, and (since Dec 2019) **Short Papers** — Short Papers strictly **≤6000 words and ≤5 exhibits**; live-check category text before upload.
 - **Format:** one **PDF**; **12-point font**; **double-spaced throughout** (including abstract, acknowledgments, footnotes, references); **online appendix ≤20 pages**, but the **manuscript must be self-contained**.
 - **Abstract ≤100 words**, in JEL-suitable form; JEL codes / keywords on the title page.
 - **Data & code:** empirical papers fall under the Data and Code Availability Policy (deposit to the **REStat Harvard Dataverse** before publication); indicate proprietary data at submission (`restat-replication-package`).

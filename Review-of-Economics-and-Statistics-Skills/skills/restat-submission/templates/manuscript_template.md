@@ -5,7 +5,7 @@ manuscript. REStat is empirical-first: lead with the question and the estimate,
 right-size theory, and make measurement and identification legible. Format rules
 (12pt, double-spaced throughout, abstract ≤100 words, online appendix ≤20pp) are
 volatile — verify on the official MIT Press REStat submission guidelines
-(检索于 2026-06；以官网为准).
+before upload.
 
 ---
 

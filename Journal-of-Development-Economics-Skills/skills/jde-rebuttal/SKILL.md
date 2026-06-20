@@ -1,6 +1,6 @@
 ---
 name: jde-rebuttal
-description: Use when responding to a Journal of Development Economics (JDE) decision — drafting the response letter and revision plan for a single-anonymized R&R, including the short-paper track's single 4-week limited-revision round. Strategy for the response; it does not rewrite the manuscript.
+description: Use when responding to a Journal of Development Economics (JDE) decision — drafting the response letter and revision plan for a single-anonymized R&R, including the short-paper track's limited-revision structure. Strategy for the response; it does not rewrite the manuscript.
 ---
 
 # Rebuttal & R&R Strategy (jde-rebuttal)
@@ -72,5 +72,5 @@ Hypothetical: a full-length R&R on a cluster-randomized agricultural-extension t
 【Defend (with evidence)】[points + argument]
 【New analyses】[robustness/heterogeneity/identification added]
 【Replication in sync?】[Y/N]
-【Round constraint】single 4-week round? [Y/N]
+【Round constraint】limited-revision short-paper route? [Y/N]
 ```

@@ -13,7 +13,7 @@ description: Router for the Journal of International Economics (JIE) skill pack 
 
 ## What JIE expects, end to end
 
-JIE (Elsevier; Co-Editors-in-Chief Martin Uribe and Costas Arkolakis) is the leading field journal across **international trade and international macro/finance**. A submittable paper must (1) sit in scope, (2) be **original in its motivation or modelling structure**, (3) carry credible identification or a disciplined structural model, (4) report economic magnitudes, (5) deposit replication code and data in the JIE secure repository, and (6) be packaged for Editorial Manager (fee, 150-word abstract, 1-7 keywords, regular/short/PRP type, suggested editor). This router sequences the jie-* skills to get there.
+JIE (Elsevier; Editors Martin Uribe and Costas Arkolakis) is the leading field journal across **international trade and international macro/finance**. A submittable paper must (1) sit in scope, (2) be **original in its motivation or modelling structure**, (3) carry credible identification or a disciplined structural model, (4) report economic magnitudes, (5) deposit replication code and data in the JIE secure repository, and (6) be packaged for Editorial Manager (fee, 150-word abstract, 1-7 keywords, regular/Short Paper/PRP type, suggested Editor or Co-Editor). This router sequences the jie-* skills to get there.
 
 ## Default sequence
 

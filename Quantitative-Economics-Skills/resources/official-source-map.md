@@ -1,129 +1,87 @@
 # Quantitative Economics (QE) Official Source Map
 
-Primary and authoritative sources behind every QE-specific fact injected into this
-skill pack. **Access date for all entries: 2026-06-01.** QE is run by the
-Econometric Society (the Society owns and operates the editorial/publication
-process); content is hosted and distributed via Wiley Online Library. Re-verify
-volatile items (editors, fees, page charges, policy effective dates) before
-relying on them — Society and publisher pages change. Items that could not be
-confirmed from a primary fetch are marked **待核实 (to be verified)**.
+Primary sources behind the *Quantitative Economics* facts injected into this skill pack.
+Sources were checked on **2026-06-20**. Live-check the Econometric Society instructions,
+editorial procedures, data/code policy, and Wiley journal metadata before final upload because
+fees, rosters, policy wording, and submission-system labels can change.
 
-## Official Econometric Society pages (publisher / editorial authority)
+## Econometric Society sources
 
 - **https://www.econometricsociety.org/publications/quantitative-economics/submissions/instructions-for-submitting-articles**
-  — QE Instructions for Submitting Articles. Verifies: Econometric Society
-  membership required (at least one author a member); submit as PDF; font at
-  least 12 point; 1.5 or double spacing throughout (including references and
-  appendices); margins at least 1.25 inches; no more than 32 lines per page;
-  figures and tables placed in-text; references at the very end after
-  appendices; abstract no more than 150 words; Supplemental Appendix must not
-  exceed 25 pages; LaTeX template recommended (not required); submission fee
-  US$100 regular member / US$50 student member with World Bank low-income-country
-  exemption; Econometrica-transfer option waives the submission fee; Open Access
-  under a CC BY-NC license; authors asked NOT to use asterisks or boldface to
-  denote statistical significance; certified random author ordering not
-  permitted; experimental pre-registration requirement effective Jan 1, 2026;
-  per-page publication fee ($24/page as of 2026). Accessed 2026-06-01.
+  — QE instructions for submitting articles. Confirms the Econometric Society membership gate
+  for submission, ES online submission route, PDF upload, page-format rules, abstract limit,
+  Supplemental Appendix cap, Econometrica-transfer option and fee waiver, supplementary-material
+  upload conventions, manuscript public-posting requirement, Similarity Check, open-access license,
+  no certified random author-ordering statement, statistical-reporting rules, submission fees,
+  post-proof publication-fee rule, 12-month revise windows, and experimental / own-data requirements
+  effective **January 1, 2026**.
 - **https://www.econometricsociety.org/publications/quantitative-economics/submissions/editorial-procedures-and-policies**
-  — QE Editorial Procedures and Policies. Verifies: editor/coeditor-managed
-  external peer review aiming to complete the process in about four to five
-  months; desk rejection possible without referees; replication policy (raw data
-  and code provided before acceptance, reproducibility checks); AI policy (AI
-  cannot be an author); disclosure policy (US$10,000 interested-party threshold;
-  financial-support disclosure); conflict-of-interest policy; responsibility
-  statements required for multi-author accepted papers effective Jan 2026.
-  Accessed 2026-06-01.
+  — QE editorial procedures and policies. Confirms editor/coeditor-managed review, desk decisions
+  without external referees, external referee / associate-editor path, approximate four-to-five-month
+  review target, conflict and confidentiality rules, disclosure policy including the **US$10,000**
+  interested-party threshold, AI-author policy, and multi-author responsibility-statement rule.
 - **https://www.econometricsociety.org/publications/quantitative-economics/submissions/instructions-for-preparing-articles-for-publication**
-  — QE Instructions for Preparing Articles for Publication. Verifies: Open Access
-  with CC BY-NC license; final accepted versions preferred as LaTeX source with
-  .eps/.jpg figures; references must be published, in a stable public archive
-  (e.g., SSRN), or author-provided at final publication; QE house style applied
-  by the copyeditor/typesetter at acceptance; authors must post their work
-  online (publicly available website) during submission. Accessed 2026-06-01.
-- **https://www.econometricsociety.org/publications/quantitative-economics/about/editorial-board**
-  — QE editorial board header. Verifies: "Edited by: Bernard Salanié"; Print
-  ISSN 1759-7323; Online ISSN 1759-7331; "Journal of the Econometric Society."
-  Accessed 2026-06-01. (Full co-editor / associate-editor roster is JS-rendered
-  and **待核实** — see Unverified below.)
-- **https://www.econometricsociety.org/publications/news/Quantitative-Economics-Editorial-Board-Changes-2025-07-01.html**
-  — QE Editorial Board Changes (dated 2025-07-01). Verifies: outgoing Editor
-  Stéphane Bonhomme's term ended June 30, 2025; Bernard Salanié becomes Editor
-  (term 2025–2029, began July 1, 2025); Anna Mikusheva and Fabrizio Perri join
-  as co-Editors; Chao Fu and James (Jim) Hamilton continuing; Joan Llull cited as
-  the inaugural Data Editor of the Econometric Society. Accessed 2026-06-01.
+  — QE instructions for accepted articles. Use for current final-file, LaTeX, figure, reference,
+  and public-posting details before acceptance-stage advice.
+- **https://www.econometricsociety.org/publications/data-code-availability-policy**
+  and the linked **ES Data Editor Website** — Society-wide Data and Code Availability Policy.
+  Confirms the DCAS-compatible ES regime: empirical, experimental, and simulation papers require
+  documented data and code; raw data, code, and documentation must be supplied before acceptance
+  when required; reproducibility checks happen before final acceptance; restricted-data or partial
+  checks must be documented and requested through the ES process.
+- **https://www.econometricsociety.org/publications/quantitative-economics/submissions**
+  — QE submissions landing page. Use as the stable entry point for submission, editorial-procedure,
+  data-code, and publication-preparation links.
 
-## Publisher / hosting (Wiley Online Library)
+## Wiley journal metadata
 
-- **https://onlinelibrary.wiley.com/journal/17597331** — QE journal page on Wiley
-  Online Library (Online ISSN 1759-7331). Verifies: QE is hosted/distributed via
-  Wiley. **待核实 partial:** the page returned HTTP 402/403 to automated fetches
-  on 2026-06-01, so the precise Wiley-side description of the publisher
-  relationship and access terms could not be quoted directly; the
-  Society/publisher relationship is established instead from the Econometric
-  Society's own pages plus the Wiley ISSN/journal URL. Accessed 2026-06-01.
+- **https://www.wiley.com/journals/Quantitative%2BEconomics-p-b17597331** — Wiley product page.
+  Checked static page metadata lists *Quantitative Economics* as edited by **Bernard Salanié**,
+  Print ISSN **1759-7323**, Online ISSN **1759-7331**, Impact Factor **2.2**, and linked society
+  **Econometric Society**. It describes the journal as merging econometric analysis with empirical
+  research and theory and welcoming computation, statistics, and machine-learning papers.
+- **https://onlinelibrary.wiley.com/journal/17597331** — Wiley Online Library journal entry point.
+  Use for article records, DOI checks, issue metadata, and live article pages.
+- **https://portal.issn.org/resource/ISSN/1759-7331** — ISSN Portal record for the online ISSN.
+  Use for preservation and serial-metadata cross-checks when needed.
 
-## Society-wide replication regime (shared across Econometrica / QE / TE)
+## Facts used in the skills
 
-- **Econometric Society Data and Code Availability Policy** (linked from the QE
-  editorial-procedures page above) — Verifies: the Society publishes
-  empirical/experimental/simulation papers only if data and code are clearly
-  documented and non-exclusive to the authors; before acceptance authors must
-  provide raw data, code, and documentation sufficient to replicate all results
-  in the paper and approved online appendices; policy compatible with DCAS (the
-  Data and Code Availability Standard); the ES Data Editor (inaugural Data Editor
-  Joan Llull) conducts reproducibility checks before final acceptance;
-  partial-check scope must be documented in the README; replication materials are
-  posted with the article; exemption/limited-access requests must be stated at
-  initial submission and are at editor discretion. **NOTE:** QE uses this
-  centralized ES system and the ES Data Editor Website, **NOT** the JAE (Journal
-  of Applied Econometrics) Data Archive. Accessed 2026-06-01.
+| Fact | Source URL |
+|------|------------|
+| QE is an Econometric Society journal hosted on Wiley / Wiley Online Library | ES pages; Wiley product page; Wiley Online Library entry |
+| Wiley product metadata lists Bernard Salanié as editor; Print ISSN 1759-7323; Online ISSN 1759-7331; Impact Factor 2.2 | Wiley product page |
+| Scope includes econometric analysis, empirical research, theory, computation, statistics, and machine learning | Wiley product page; ES QE pages |
+| At least one author must be an Econometric Society member to submit | ES instructions for submitting articles |
+| Submission fee is US$100 for regular members and US$50 for student members; low-income-country exemption; not refunded if rejected without review | ES instructions for submitting articles |
+| Econometrica transfer can include decision letter, referee reports, and cover letters and waives the QE submission fee | ES instructions for submitting articles |
+| Submit PDF through the ES online system; extra materials use the portal attachment / zip-file rules | ES instructions for submitting articles |
+| Format: at least 12-point font, 1.5 or double spacing, margins at least 1.25 inches, at most 32 lines per page, pages numbered | ES instructions for submitting articles |
+| Figures and tables should appear in-text on the relevant page; references go after appendices | ES instructions for submitting articles |
+| Abstract limit is 150 words; keywords and affiliations on title page; JEL codes optional | ES instructions for submitting articles |
+| Supplemental Appendix must not exceed 25 pages and should not carry proofs of key results | ES instructions for submitting articles |
+| LaTeX template is recommended, with final accepted files handled under ES publication-preparation rules | ES instructions for submitting articles; ES instructions for accepted articles |
+| No asterisks or boldface for statistical significance; report standard errors and confidence / coverage sets | ES instructions for submitting articles |
+| Manuscript must be posted on a publicly available website during review unless the editor grants an exception | ES instructions for submitting articles; ES instructions for accepted articles |
+| Certified random author ordering is not permitted; author contributions can be noted in a footnote | ES instructions for submitting articles |
+| Open Access uses a CC BY-NC license; post-proof publication fees are based on 50 percent of production cost per page at the current rate | ES instructions for submitting articles |
+| Experimental submissions from January 1, 2026 require instructions / transcripts at submission; own-data studies require recognized pre-registration or editor-approved exemption | ES instructions for submitting articles |
+| Review is handled by editors / coeditors; desk decisions can occur without external referees; full review target is about four to five months | ES editorial procedures and policies |
+| Revise offers normally remain valid for 12 months | ES instructions for submitting articles |
+| Disclosure rule includes a US$10,000 interested-party threshold and financial-support disclosure | ES editorial procedures and policies |
+| AI tools cannot be listed as authors; authors remain responsible for submitted content | ES editorial procedures and policies |
+| Multi-author responsibility statement applies to accepted papers under the ES policy | ES editorial procedures and policies |
+| ES Data and Code Availability Policy is DCAS-compatible; pre-acceptance reproducibility checks use the ES Data Editor process, not the JAE archive | ES Data and Code Availability Policy; ES instructions for submitting articles |
 
-## Facts used in the skills — quick index (every load-bearing fact)
+## Live-check items before upload
 
-| Fact | Source URL (above) |
-|------|--------------------|
-| ES membership required to submit (≥1 author a member) | instructions-for-submitting-articles |
-| Submission fee US$100 regular / US$50 student; low-income exemption; not refunded if rejected without review | instructions-for-submitting-articles |
-| Econometrica-transfer option (decision letter + reports + cover letters transfer; waives submission fee) | instructions-for-submitting-articles |
-| PDF; ≥12pt; 1.5/double spacing; margins ≥1.25in; ≤32 lines/page; figures/tables in-text; references at end | instructions-for-submitting-articles |
-| Abstract ≤150 words; keywords + affiliations on title page; JEL optional | instructions-for-submitting-articles |
-| Supplemental Appendix ≤25 pages (not for proofs of key results) | instructions-for-submitting-articles |
-| LaTeX template recommended (e-publications.org/es/support) | instructions-for-submitting-articles |
-| No significance asterisks/boldface; report SEs / confidence/coverage sets | instructions-for-submitting-articles |
-| Certified random author ordering not permitted | instructions-for-submitting-articles |
-| Experimental instructions/transcripts at initial submission; own-data studies pre-registered (AEA RCT Registry / AsPredicted / OSF), effective Jan 1, 2026 | instructions-for-submitting-articles |
-| Open Access, CC BY-NC, no APC; per-page publication fee $24/page (2026), collected after final proofs | instructions-for-submitting-articles |
-| Review aims for ~4–5 months; desk reject possible without referees; revise offers normally valid 12 months | editorial-procedures-and-policies |
-| AI cannot be an author; disclosure threshold US$10,000; conflict-of-interest policy | editorial-procedures-and-policies |
-| Responsibility statement required for multi-author accepted papers (effective Jan 2026) | editorial-procedures-and-policies |
-| Final accepted = LaTeX source + .eps/.jpg; QE style applied by copyeditor; references published/in stable archive/author-provided | instructions-for-preparing-articles-for-publication |
-| Mandatory public posting of the manuscript during review | instructions-for-preparing-articles-for-publication |
-| Editor Bernard Salanié (2025–2029); co-Editors incl. Mikusheva, Perri, Fu, Hamilton; inaugural ES Data Editor Joan Llull | editorial-board ; news 2025-07-01 |
-| ES Data and Code Availability Policy; DCAS-compatible; pre-acceptance reproducibility check; NOT the JAE archive | ES Data and Code Availability Policy |
-| Hosted on Wiley Online Library; Print ISSN 1759-7323, Online ISSN 1759-7331 | onlinelibrary.wiley.com/journal/17597331 ; editorial-board |
-
-## Unverified items (待核实)
-
-- **Full co-editor / associate-editor roster as of 2026-06-01** — the
-  editorial-board page is JS-rendered and was not captured in static HTML. Editor
-  Bernard Salanié and co-Editors Anna Mikusheva and Fabrizio Perri are confirmed
-  via the page header and the 2025-07-01 board-changes news item, plus continuing
-  co-editors Chao Fu and Jim Hamilton; the complete current roster is **待核实**.
-- **Exact QE citation/reference house-style name** — the "Style and Formatting
-  Policies" page is client-side rendered and returned no static body text, so the
-  precise author-year format details could not be quoted verbatim. The submission
-  and preparation pages confirm QE applies its own house style at copyediting and
-  that the submitted manuscript need not pre-conform; the exact style name is
-  **待核实**.
-- **Precise Wiley-side publisher/access description** — the Wiley journal page
-  returned HTTP 402/403 to automated fetches on 2026-06-01; the
-  Society/publisher relationship and ISSNs are established from ES pages and the
-  Wiley journal URL, but the verbatim Wiley description is **待核实**.
-- **Lead-editor title** — QE's lead editor carries the title "Editor" (not
-  formally "Editor-in-Chief"); this pack uses Bernard Salanié as the
-  equivalent lead-editor role.
-- **Overall main-manuscript length cap** — no hard page/word cap is stated in the
-  official instructions; only formatting constraints (12pt, 1.5 spacing, ≤32
-  lines/page, margins ≥1.25in) and the 25-page Supplemental Appendix limit are
-  specified. "No fixed cap" reflects the absence of a verified numeric limit, not
-  a confirmed unlimited-length policy; **待核实** if a number is needed.
+- Reopen the ES instructions page before quoting submission fees, publication-fee rates, revise windows,
+  attachment rules, pre-registration registries, or policy effective dates.
+- Reopen the ES editorial-procedures page before advising on review timing, desk-decision process,
+  disclosure forms, AI policy, conflicts, confidentiality, or responsibility statements.
+- Reopen the ES data-code policy and Data Editor Website before preparing restricted-data exemptions,
+  partial reproducibility checks, or README language for the replication package.
+- Reopen Wiley product and editorial-board pages before naming editors, coeditors, associate editors,
+  impact factor, ISSNs, or society metadata in author-facing advice.
+- Do not state acceptance rates, desk-rejection rates, fixed page/word caps for the main manuscript, or
+  a full board roster unless the current official page provides the exact value.

@@ -12,9 +12,9 @@ description: Use to understand and plan around the Quantitative Economics (QE) e
 - You need to understand who decides and what gates lie between submission and acceptance
 - A long silence has you wondering whether the target turnaround has elapsed
 
-## How QE review works (verified 2026-06-01; re-confirm on ES pages)
+## How QE review works (source map refreshed 2026-06-20; re-confirm on ES pages)
 
-QE runs **editor/coeditor-managed external peer review**. The handling coeditor may **desk-reject without external review** (typically within a couple of weeks); most — but not all — papers that pass desk go to **one or more outside referees**, often including an Associate Editor. The journal targets completing the review process in **about four to five months**. QE is **not double-blind**, and authors must **post the manuscript publicly during review**, so author identity is effectively open on the author side. **Revise offers are normally valid for 12 months.** Editor as of 2026: **Bernard Salanié** (2025–2029); co-Editors include Anna Mikusheva, Fabrizio Perri, Chao Fu, and Jim Hamilton (full roster 待核实).
+QE runs **editor/coeditor-managed external peer review**. The handling coeditor may **desk-reject without external review** (typically within a couple of weeks); most — but not all — papers that pass desk go to **one or more outside referees**, often including an Associate Editor. The journal targets completing the review process in **about four to five months**. QE is **not double-blind**, and authors must **post the manuscript publicly during review**, so author identity is effectively open on the author side. **Revise offers are normally valid for 12 months.** Wiley product metadata checked on 2026-06-20 lists **Bernard Salanié** as editor; reopen the current official board page before naming the full coeditor or associate-editor roster.
 
 ## Gates between submission and acceptance
 
@@ -22,7 +22,7 @@ QE runs **editor/coeditor-managed external peer review**. The handling coeditor 
 2. **Desk screen** — handling coeditor decides whether to send out; a desk reject is fast and the fee is **not refunded** when rejected without review.
 3. **External refereeing** — one or more referees / an AE; the coeditor synthesizes.
 4. **Revision rounds** — the coeditor's letter sets binding vs. optional points; revise offers run ~12 months.
-5. **Pre-acceptance reproducibility check** — before final acceptance the **ES Data Editor** (inaugural Data Editor Joan Llull) runs reproducibility checks; raw data, code, and documentation must already be in hand (see `qe-replication-and-data-policy`).
+5. **Pre-acceptance reproducibility check** — before final acceptance the **ES Data Editor** process runs reproducibility checks; raw data, code, and documentation must already be in hand (see `qe-replication-and-data-policy`).
 
 ## The Econometrica-transfer route
 

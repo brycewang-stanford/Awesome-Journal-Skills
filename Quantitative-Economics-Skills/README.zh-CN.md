@@ -3,8 +3,8 @@
 面向 **Quantitative Economics (QE)** 的 12 个 agent skills。QE 是 Econometric Society 的
 quantitative economics 期刊，关注理论、实证、实验与计算材料的清晰量化贡献。
 
-官方依据核验日期：2026-06-01。来源见 `resources/official-source-map.md`，包括 QE submission
-instructions、editorial procedures、publication instructions、editorial-board pages 与 ES data/code policy。
+官方依据核验日期：2026-06-20。来源见 `resources/official-source-map.md`，包括 QE submission
+instructions、editorial procedures、publication instructions、ES data/code policy 与 Wiley journal metadata。
 
 ## Skills
 

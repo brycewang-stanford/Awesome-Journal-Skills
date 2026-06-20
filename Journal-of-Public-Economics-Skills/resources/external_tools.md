@@ -5,8 +5,8 @@ Economics* (JPubE) submission — typically a tax, transfer, social-insurance, p
 expenditure, or fiscal-policy question identified off administrative or policy
 variation, with a transparent design and (often) a welfare or sufficient-statistics
 interpretation. Check licenses, disclosure/IRB requirements, and current access
-terms before use. Volatile journal specifics (US$165 fee, single anonymized review,
-data policy) — verify on the official Guide for Authors.
+terms before use. Live-check operational journal specifics (fee, required fields,
+research-data wording) on the official Guide for Authors before upload.
 
 ## 1. Data sources
 
@@ -73,20 +73,20 @@ data policy) — verify on the official Guide for Authors.
 - Binned scatters (`binsreg` / `binscatter2`); incidence / distributional plots
 - Vector output (PDF/EPS) for print; minimal chartjunk
 
-## 5. Reproducibility & data (Elsevier framework)
-- Provide a **data-availability statement**; where data are open, link a repository (e.g., Mendeley Data, ICPSR/openICPSR, Zenodo) or include code to regenerate results
+## 5. Reproducibility & data (Elsevier Option C)
+- Deposit research data in a relevant repository, cite/link the dataset in the article, or state why research data cannot be shared
+- Provide a **data-availability statement**; where data are open, link a repository (e.g., Mendeley Data, ICPSR/openICPSR, Zenodo) and include code to regenerate results
 - Pin software/package versions; one master script (`run_all`) rebuilding every table and figure
 - Restricted tax/health/register data: document the access path; supply programs even when microdata are proprietary
-- Note: a binding JPubE-specific deposit/verification policy is **待核实** — confirm current requirements on the official Guide for Authors
 
 ## 6. Writing, references & submission
 - Reference managers: Zotero, BibTeX/BibLaTeX, EndNote — set to **author-date (name-and-year)**
 - Typesetting: LaTeX (.tex accepted; double-column allowed) or Word (single-column); supply editable source files
 - Submission portal: **Editorial Manager** (Elsevier); optional **SSRN** preprint at submission
-- Fee: **US$165** unsolicited / **US$82.50** students / **waived** for article-transfer submissions — verify current amounts
+- Fee: **US$165** unsolicited / **US$82.50** students / **waived** for article-transfer submissions
 
 ## 7. Cautions
-1. **Verify volatile specifics** (fee, editors, review model, data policy) on the official Guide for Authors — they change.
+1. **Live-check operational specifics** (fee, editor roster, upload fields, data-policy wording) on the official Guide for Authors before upload.
 2. **Respect data licenses and disclosure review** — IRS/SSA/CMS and register data require formal access and output clearance.
 3. **Match estimator to design** — plain TWFE on staggered reform timing is a known pitfall; bunching needs a defensible counterfactual.
 4. **Build the replication package as you go**, not at the end.

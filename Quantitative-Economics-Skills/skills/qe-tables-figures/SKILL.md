@@ -12,7 +12,7 @@ description: Use when building or auditing tables and figures for a Quantitative
 - Figures/tables are collected at the end instead of placed in-text
 - You are preparing final files and need the right formats and notes
 
-## QE house rules for exhibits (verified 2026-06-01)
+## QE house rules for exhibits (source map refreshed 2026-06-20)
 
 QE applies specific presentation rules that differ from most journals:
 

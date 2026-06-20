@@ -12,7 +12,7 @@ description: Use when anticipating referee and co-editor objections for a Journa
 - A co-author asks "what will the referees attack?"
 - You need to decide what to pre-empt in the paper vs. leave for the response
 
-## The JEEA review reality (检索于 2026-06；以官网为准)
+## The JEEA review reality (source map refreshed 2026-06-20)
 
 JEEA review is **single-blind**: referees know the authors. Every submission is first read by a **co-editor**, who may **desk-reject without peer review** if the fit or contribution is not strong enough for a general-interest journal; otherwise it goes to referees. The editorial team aims for a **fast decision (≈8 weeks where possible)**. Because the co-editor is a general-interest gatekeeper (not necessarily a subfield specialist), the **first hurdle is general-interest fit and a legible contribution**, not subfield depth. Re-verify volatile process facts on the EEA / OUP pages.
 

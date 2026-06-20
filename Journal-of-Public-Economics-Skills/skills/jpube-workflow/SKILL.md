@@ -9,7 +9,7 @@ description: Use when deciding which jpube-* sub-skill to invoke next, or when s
 
 This is the router. It does not replace any specialized skill. It tells you **which jpube-* skill to use at the current stage** of a manuscript aimed at the *Journal of Public Economics* (JPubE).
 
-Default assumption: unless the user says otherwise, treat the target as JPubE — Elsevier's flagship field journal in **public economics / public finance**, founded in **1972 by Tony Atkinson** and edited by Co-Editors-in-Chief **John N. Friedman (Brown)** and **Wojciech Kopczuk (Columbia)**. The journal covers the economic role of government — taxation, public expenditure, social insurance, redistribution, externalities, public goods, and fiscal policy — applying modern theory and quantitative methods to policy questions of interest to an international readership. Operational tells you are at JPubE and not a free top-5 generalist: a **US$165 submission fee** (US$82.50 for students; waived for Elsevier article-transfer submissions), submission via **Editorial Manager**, **single anonymized** review with a minimum of two reviewers, a **250-word abstract cap**, **author-date** references, an optional **SSRN preprint**, and **one appeal per submission**. Re-verify volatile specifics on the official Guide for Authors.
+Default assumption: unless the user says otherwise, treat the target as JPubE — Elsevier's flagship field journal in **public economics / public finance**, founded in **1972 by Tony Atkinson** and currently edited by **Nathaniel Hendren (MIT)** and **Wojciech Kopczuk (Columbia)**. The journal covers the economic role of government — taxation, public expenditure, social insurance, redistribution, externalities, public goods, and fiscal policy — applying modern theory and quantitative methods to policy questions of interest to an international readership. Operational tells you are at JPubE and not a free top-5 generalist: a **US$165 submission fee** (US$82.50 for students; waived for Elsevier article-transfer submissions), submission via **Editorial Manager**, **single anonymized** review with a minimum of two reviewers, a **250-word abstract cap**, required highlights, **author-date** references, Elsevier **Option C** research-data routing, an optional **SSRN preprint**, and **one appeal per submission**. Live-check the official Guide for Authors before upload.
 
 ## When to trigger
 
@@ -29,7 +29,7 @@ Default assumption: unless the user says otherwise, treat the target as JPubE �
 | Estimates exist but data handling / robustness is thin | `jpube-data-analysis` |
 | Tables are dense; design is not figure-forward | `jpube-tables-figures` |
 | Prose buries the policy lesson; abstract over 250 words | `jpube-writing-style` |
-| Need to assemble data/code per the Elsevier framework | `jpube-replication-and-data-policy` |
+| Need to assemble data/code per Elsevier Option C | `jpube-replication-and-data-policy` |
 | Want to understand the single-anonymized review timeline | `jpube-review-process` |
 | Ready to submit via Editorial Manager; need a preflight + fee check | `jpube-submission` |
 | Received an R&R / want to use the one appeal wisely | `jpube-rebuttal` |
@@ -43,7 +43,7 @@ Default assumption: unless the user says otherwise, treat the target as JPubE �
 5. `jpube-data-analysis` — administrative-data handling, elasticities, robustness
 6. `jpube-tables-figures` — finalize figure-forward exhibits
 7. `jpube-writing-style` — land the policy lesson (250-word abstract last)
-8. `jpube-replication-and-data-policy` — Elsevier research-data framework
+8. `jpube-replication-and-data-policy` — Elsevier Option C research-data route
 9. `jpube-review-process` — understand the single-anonymized timeline
 10. `jpube-submission` — Editorial Manager preflight + fee
 11. `jpube-rebuttal` — after the R&R

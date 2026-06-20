@@ -9,7 +9,7 @@ English | [简体中文](README.zh-CN.md)
 
 Twelve agent skills for manuscripts targeted at **The Review of Economics and Statistics (REStat)**, the MIT Press applied economics and applied econometrics journal. The pack is empirical-first: topic fit, literature positioning, identification, theory/model discipline, robustness, tables and figures, writing style, replication package, referee strategy, submission preflight, and rebuttal.
 
-**Official basis checked 2026-06**: see [`resources/official-source-map.md`](resources/official-source-map.md).
+**Official basis checked 2026-06-20**: see [`resources/official-source-map.md`](resources/official-source-map.md).
 
 ## Quick Start
 

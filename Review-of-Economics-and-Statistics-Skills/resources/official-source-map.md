@@ -1,101 +1,85 @@
 # The Review of Economics and Statistics (REStat) Official Source Map
 
-Primary and authoritative sources behind every REStat-specific fact injected into
-this skill pack. **Access date for all entries: 2026-06.** REStat is published by
-**MIT Press** for and edited at the **Harvard Kennedy School** (John F. Kennedy
-School of Government); replication materials are archived on **Harvard Dataverse**.
-Re-verify volatile items (editors, fee, abstract/appendix limits, category rules,
-policy effective dates) before relying on them — publisher and editorial pages
-change and several MIT Press pages return HTTP 403 to automated fetches. Items that
-could not be confirmed from a primary fetch are marked **待核实 (to be verified)**.
+Primary sources behind the REStat-specific facts injected into this skill pack.
+Access date for all entries: **2026-06-20**.
 
-## Official MIT Press / REStat pages (publisher / editorial authority)
+Use this map as a provenance ledger. MIT Press pages are the governing source for
+submission rules, editorial information, and data/code policy. Because these pages
+can change between repo refreshes, authors should re-open the live MIT Press
+Submission Guidelines, Editorial Info page, and Editorial Express workflow before
+uploading a manuscript or paying a fee.
 
-- **https://direct.mit.edu/rest/pages/submission-guidelines**
-  — REStat Submission Guidelines. Verifies (via web search of the page, page itself
-  returned HTTP 403 to direct fetch on 2026-06): initial submissions in **12-point
-  font, double-spaced throughout** (including abstract, acknowledgments, footnotes,
-  references), in **PDF**; **online appendices ≤20 pages**, manuscript must be
-  **self-contained**; **abstract ≤100 words** in JEL-suitable form; **Short Papers**
-  (since Dec 2019) strictly **≤6000 words and ≤5 exhibits**, in addition to
-  full-length papers; **nonrefundable US$125 submission fee** per new submission paid
-  online by card; **proprietary-data papers should not pay the fee until the
-  editorial office confirms** Data Availability Policy compliance; the Data and Code
-  Availability Policy requires posting data and code with documented README files
-  before publication, sufficient to permit replication. Accessed 2026-06.
-- **https://direct.mit.edu/rest/pages/editorial-info**
-  — REStat Editorial Info. Intended to verify the current editors, editorial-office
-  location, scope, ISSNs, and publisher. The page returned **HTTP 403** to automated
-  fetches on 2026-06; editor identities established instead from web search +
-  Wikipedia (see below) and marked **待核实** for the full board. Accessed 2026-06.
-- **https://direct.mit.edu/rest**
-  — REStat journal home on MIT Press (MIT Press Direct). Confirms MIT Press as
-  publisher / host. **待核实 partial:** returned HTTP 403 to direct fetch on 2026-06.
-  Accessed 2026-06.
-- **https://editorialexpress.com/cgi-bin/e-editor/e-submit_v6.cgi?dbase=restat**
-  — REStat secure online submission via **Editorial Express** (`dbase=restat`).
-  Verifies: REStat submission is handled through Editorial Express. Accessed 2026-06.
+## Official MIT Press / REStat pages
 
-## Data / code archive (Harvard Dataverse)
+- **https://direct.mit.edu/rest/pages/submission-guidelines** — REStat Submission
+  Guidelines. Official search-index snippets on 2026-06-20 verify the load-bearing
+  submission rules used by this pack: abstract **no more than 100 words** and
+  suitable for Journal of Economic Literature classification; manuscript in **PDF**;
+  **12-point font** and **double-spaced throughout**; **online appendix <= 20 pages**
+  while the paper remains self-contained; **Short Papers** with a strict
+  **<= 6000 words** and **<= 5 exhibits** budget; **US$125 nonrefundable submission
+  fee** for new submissions; proprietary-data papers should hold payment until the
+  editorial office confirms Data and Code Availability Policy compliance; data and
+  code with documented README files must be posted before publication with enough
+  information to permit replication.
+- **https://direct.mit.edu/rest/pages/editorial-info** — REStat Editorial Info.
+  Official snippets on 2026-06-20 verify the current editorial-info page and list
+  **Will Dobbie (Co-Chair), Harvard University** and **Raymond Fisman (Co-Chair),
+  Boston University**. The same snippet family also surfaces current editors such as
+  Treb Allen, Dmitry Arkhangelsky, Michael Dinerstein, and Ruixue Jia; this pack
+  names only the co-chairs and sends users to the live page for the full board.
+- **https://direct.mit.edu/rest** — REStat journal home on MIT Press Direct.
+  Use for publisher/journal-home context and current issue navigation.
 
-- **https://dataverse.harvard.edu/dataverse/restat**
-  — The Review of Economics and Statistics Dataverse on Harvard Dataverse. Verifies:
-  REStat maintains replication data and code on **Harvard Dataverse** (a proper
-  Dataverse archive — distinct from openICPSR used by the AEA journals and from the
-  JAE Data Archive); the policy generally applies to papers from **volume 92 onward**
-  (待核实 for the precise boundary). Accessed 2026-06.
+## Submission portal
 
-## Secondary / corroborating sources
+- **https://editorialexpress.com/cgi-bin/e-editor/e-submit_v22.cgi?dbase=restat** —
+  Editorial Express secure online submission workflow for Review of Economics and
+  Statistics. Direct rendering on 2026-06-20 verifies the staged workflow:
+  identify submitter, provide title/abstract info, identify coauthors, upload
+  manuscript and cover letter, upload additional files, **pay submission fee**, and
+  review/submit.
 
-- **https://en.wikipedia.org/wiki/The_Review_of_Economics_and_Statistics**
-  — Verifies: founded **1919** (originally established 1917 as *The Review of
-  Economic Statistics*; current title since **1948**); published by **MIT Press for
-  the John F. Kennedy School of Government**; **ISSN 0034-6535 (print), 1530-9142
-  (online)**; **5 issues per year**; scope "applied economics, with specific
-  relevance to the scope of econometrics"; current editors **Will Dobbie (Harvard
-  University)** and **Raymond Fisman (Boston University)**. Accessed 2026-06.
+## Data / code archive
 
-## Facts used in the skills — quick index (every load-bearing fact)
+- **https://dataverse.harvard.edu/dataverse/restat** and
+  **https://dataverse.harvard.edu/api/dataverses/restat** — Harvard Dataverse
+  collection and API record for **Review of Economics and Statistics Dataverse**.
+  The API record on 2026-06-20 returns alias `restat`, name **Review of Economics
+  and Statistics Dataverse**, affiliation **Harvard Kennedy School**, journal type,
+  contact `restat@hks.harvard.edu`, and description: "This page contains
+  replication data and code for the articles published in the Review of Economics
+  and Statistics." The same record notes that most articles in volumes before
+  **volume 92** were not subject to the journal's data availability policy.
 
-| Fact | Source (above) |
-|------|----------------|
-| Publisher MIT Press; edited at Harvard Kennedy School; founded 1917/1919, title since 1948 | Wikipedia ; editorial-info |
-| ISSN 0034-6535 print / 1530-9142 online; 5 issues/year | Wikipedia |
-| Scope: applied economics + applied econometrics (measurement tradition) | Wikipedia ; editorial-info |
-| Editors (2026): Will Dobbie (Harvard), Raymond Fisman (Boston U) — co-chairs | Wikipedia + web search (待核实 full board) |
-| Submission via Editorial Express (`dbase=restat`) | Editorial Express submit page |
-| Format: PDF, 12pt, double-spaced throughout | submission-guidelines |
-| Abstract ≤100 words (JEL-suitable); JEL codes / keywords | submission-guidelines |
-| Online appendix ≤20 pages; manuscript self-contained | submission-guidelines |
-| Categories: Articles, Notes, Short Papers (≤6000 words, ≤5 exhibits since Dec 2019) | submission-guidelines |
-| Submission fee US$125 nonrefundable; pay at submission | submission-guidelines |
-| Proprietary data: indicate at submission; do not pay fee until compliance confirmed | submission-guidelines |
-| Data and Code Availability Policy: post data + code + README before publication, permit replication | submission-guidelines |
-| Replication deposit on REStat Harvard Dataverse (not openICPSR, not JAE); vol. 92 onward | Harvard Dataverse ; submission-guidelines |
-| House style: SEs reported; stars permitted but SEs expected; self-contained exhibit notes | submission-guidelines (standard econ house style) |
+## Facts used in the skills
 
-## Unverified items (待核实)
+| Fact | Source |
+|------|--------|
+| Publisher / journal home: MIT Press Direct | MIT Press journal home |
+| Editorial home / Dataverse affiliation: Harvard Kennedy School | Harvard Dataverse API; MIT Press editorial info |
+| Current co-chairs: Will Dobbie and Raymond Fisman | MIT Press editorial-info snippets and annual-report snippets |
+| Submission via Editorial Express | Editorial Express workflow |
+| Workflow includes fee-payment step | Editorial Express workflow |
+| Format: PDF, 12pt, double-spaced throughout | MIT Press submission-guidelines snippets |
+| Abstract <=100 words, JEL-suitable | MIT Press submission-guidelines snippets |
+| Online appendix <=20 pages; manuscript self-contained | MIT Press submission-guidelines snippets |
+| Short Papers <=6000 words and <=5 exhibits | MIT Press submission-guidelines snippets |
+| Submission fee US$125, nonrefundable, for new submissions | MIT Press submission-guidelines snippets; Editorial Express fee step |
+| Proprietary data flagged at submission; hold fee until policy compliance is confirmed | MIT Press submission-guidelines snippets |
+| Data/code/README posted before publication to permit replication | MIT Press submission-guidelines snippets |
+| Replication archive is REStat Harvard Dataverse, not openICPSR or JAE | Harvard Dataverse API |
+| Most pre-volume-92 articles were outside the data-availability-policy period | Harvard Dataverse API |
 
-- **Full current editorial board / co-editor and associate-editor roster (2026)** —
-  the editorial-info page returned HTTP 403 to automated fetch. Editors **Will Dobbie
-  (Harvard)** and **Raymond Fisman (Boston U)** are confirmed via web search and
-  Wikipedia, but the complete current board is **待核实**; re-confirm on the official
-  page before naming any individual editor.
-- **Whether reproducibility is verified by a data editor PRE-acceptance vs. checked
-  at deposit** — REStat clearly requires posting data and code with documented README
-  files **before publication** sufficient to permit replication; whether a dedicated
-  data editor runs a full pre-acceptance reproducibility check (as at the AEA
-  journals / *Econometrica*) could not be confirmed verbatim from a primary fetch and
-  is **待核实**. The skills state the deposit-before-publication requirement, which is
-  verified, and avoid asserting an unverified verification mechanism.
-- **Exact current submission fee, abstract limit, and Short-Paper limits** — taken
-  from web-search excerpts of the submission-guidelines page (the page itself
-  returned HTTP 403); treat US$125 / ≤100 words / ≤6000 words / ≤5 exhibits as
-  **检索于 2026-06；以官网为准** and re-confirm on the live page.
-- **Precise "Notes" length limit** — REStat lists Notes as a category, but a specific
-  word/exhibit cap for Notes (distinct from Short Papers) was **not** confirmed in a
-  primary fetch; **待核实**.
-- **Whether review is formally double-blind** — REStat uses editor-managed external
-  peer review; the precise blinding policy (single- vs double-blind) was **not**
-  confirmed verbatim from a primary fetch on 2026-06 and is **待核实**. The skills
-  therefore do not assert a specific blinding regime.
+## Operational notes for this pack
+
+- The pack should state the **US$125** fee as a new-submission fee and keep the
+  proprietary-data hold as an explicit pre-payment gate.
+- The pack should state that empirical papers need data/code/README materials before
+  publication and should route users to the **REStat Harvard Dataverse**.
+- The pack should not claim a dedicated pre-acceptance reproducibility verifier unless
+  the live MIT Press page states that mechanism.
+- The pack should not assert a formal single-blind or double-blind review model unless
+  the live MIT Press page states it.
+- The pack should not name a full editorial board beyond the co-chairs unless the live
+  MIT Press Editorial Info page has been consulted in the submission pass.

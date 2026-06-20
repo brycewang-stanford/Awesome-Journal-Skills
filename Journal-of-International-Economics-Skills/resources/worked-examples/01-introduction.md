@@ -71,8 +71,8 @@ currency union; "dominant-currency exporters" are firms that invoiced in the anc
 > pre-trend on 2011–2012 volumes and a placebo on non-tradable-input firms. *(Data and identification in one
 > paragraph; the design is *defended*, not named — per `jie-identification-strategy` / `jie-data-analysis`.)*
 >
-> The excess collapse is **concentrated among firms with low import intensity** — those that could not
-> "naturally hedge" anchor-currency revenue with anchor-currency costs — and **does not appear before the
+> The excess collapse is **concentrated among firms with low import intensity** — those that lacked a
+> "natural hedge" between anchor-currency revenue and anchor-currency costs — and **does not appear before the
 > exit was anticipated**. *(Headline result restated with the mechanism signature that separates the
 > invoicing channel from a size or destination story.)*
 >

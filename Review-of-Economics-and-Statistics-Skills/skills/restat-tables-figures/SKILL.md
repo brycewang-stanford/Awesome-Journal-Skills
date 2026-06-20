@@ -14,7 +14,7 @@ description: Use when building or revising the exhibits of a The Review of Econo
 
 ## The REStat exhibit bar
 
-A REStat reader should grasp the **headline estimate from one main exhibit** — a table or, increasingly, an event-study / RD / coefficient-stability figure with a confidence band. REStat follows **standard economics house style**: significance **stars are permitted**, but **standard errors are expected in parentheses** and the exhibit must stand on its own. Every table and figure carries a **self-contained note** stating the sample, the specification, the unit of observation, the inference (clustering level), and what the reader should take away. The main paper is **self-contained**; supporting detail goes to the **online appendix (≤20 pages; 检索于 2026-06)**.
+A REStat reader should grasp the **headline estimate from one main exhibit** — a table or, increasingly, an event-study / RD / coefficient-stability figure with a confidence band. REStat follows **standard economics house style**: significance **stars are permitted**, but **standard errors are expected in parentheses** and the exhibit must stand on its own. Every table and figure carries a **self-contained note** stating the sample, the specification, the unit of observation, the inference (clustering level), and what the reader should take away. The main paper is **self-contained**; supporting detail goes to the **online appendix (≤20 pages; source map refreshed 2026-06-20)**.
 
 ## Exhibit design rules
 

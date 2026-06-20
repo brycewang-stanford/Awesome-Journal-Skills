@@ -7,9 +7,9 @@ description: Use when deciding which jeea-* sub-skill to invoke next, or when se
 
 ## Overview
 
-This is the router. It tells you **which jeea-* skill to use at the current stage** of a manuscript aimed at the *Journal of the European Economic Association* (JEEA) — the **flagship general-interest journal of the European Economic Association (EEA)**, published by **Oxford University Press (OUP)**. JEEA is the European counterpart to the top general-interest outlets: it publishes high-quality economics across **all** fields — micro and macro theory, applied econometrics, applied micro, finance, development, public — and judges every paper at a **general-interest theory-and-empirics bar**, not a field-specialist one. A JEEA paper can be a clean empirical design **or** a disciplined theory/structural contribution; both must matter to a broad European economics readership.
+This is the router. It tells you **which jeea-* skill to use at the current stage** of a manuscript aimed at the *Journal of the European Economic Association* (JEEA) — the **general-interest journal of the European Economic Association (EEA)**, published by **Oxford University Press (OUP)**. JEEA publishes high-quality economics across **all** fields — micro and macro theory, applied econometrics, applied micro, finance, development, public — and judges every paper at a **general-interest theory-and-empirics bar**, not a field-specialist one. A JEEA paper can be a clean empirical design **or** a disciplined theory/structural contribution; both must matter to a broad economics readership.
 
-Default assumption: unless the user says otherwise, treat the target as JEEA. Operational tells that you are at JEEA and not a sibling (*The Economic Journal*, the *European Economic Review*) or a top-5: **EEA membership is required** for the submitting author to submit and resubmit; there is a **submission fee** (€100, effective Feb 1, 2026; waived if the submitting author and all coauthors are based in low- and middle-income countries); review is **single-blind**, managed by a co-editor with a **fast-decision target (≈8 weeks where possible)**; and the **JEEA Data Editor** runs a **mandatory replication check before formal acceptance** under the DCAS standard (endorsed since Feb 1, 2024), with replication packages posted to the **JEEA Zenodo community**. Re-verify volatile specifics on the official EEA / OUP pages (检索于 2026-06；以官网为准).
+Default assumption: unless the user says otherwise, treat the target as JEEA. Operational tells that you are at JEEA and not a sibling (*The Economic Journal*, the *European Economic Review*) or a top-5: **EEA membership is required** for the submitting author to submit and resubmit; there is a **submission fee** (€100, effective Feb 1, 2026; waived if the submitting author and all coauthors are based in low- and middle-income countries); review is **single-blind**, managed by a co-editor with a **fast-decision target (≈8 weeks where possible)**; and the **JEEA Data Editor** runs a **mandatory replication check before formal acceptance** under the DCAS standard (endorsed since Feb 1, 2024), with replication packages posted to the **JEEA Zenodo community**. Source-map process facts were refreshed on 2026-06-20; live-check volatile specifics on the official EEA / OUP pages before a real upload.
 
 ## When to trigger
 
@@ -31,7 +31,7 @@ Default assumption: unless the user says otherwise, treat the target as JEEA. Op
 | Prose buries the idea; abstract/intro do not land | `jeea-writing-style` |
 | Data/code deposit, README, or JEEA Data Editor prep | `jeea-replication-package` |
 | Want to anticipate referee objections / desk-reject odds / timeline | `jeea-referee-strategy` |
-| Ready to submit via Editorial Express; need a preflight | `jeea-submission` |
+| Ready to submit via the EEA member-area flow; need a preflight | `jeea-submission` |
 | Received an R&R; need a response-letter strategy | `jeea-rebuttal` |
 
 ## Default order
@@ -45,7 +45,7 @@ Default assumption: unless the user says otherwise, treat the target as JEEA. Op
 7. `jeea-writing-style` — make the idea land (abstract + intro last)
 8. `jeea-replication-package` — assemble the DCAS package for the JEEA Data Editor
 9. `jeea-referee-strategy` — pre-empt objections; calibrate expectations
-10. `jeea-submission` — Editorial Express / EEA portal preflight
+10. `jeea-submission` — EEA member-area submission preflight
 11. `jeea-rebuttal` — after the R&R
 
 > `jeea-writing-style` is a late-stage polish; do not rewrite the intro before identification/theory/robustness settle.

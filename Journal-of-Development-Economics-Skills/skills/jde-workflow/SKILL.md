@@ -9,7 +9,15 @@ description: Use when deciding which jde-* sub-skill to invoke next, or when seq
 
 This is the router. It does not replace any specialized skill. It tells you **which jde-* skill to use at the current stage** of a manuscript aimed at the *Journal of Development Economics*.
 
-Default assumption: unless the user says otherwise, treat the target as JDE — the **leading field journal in development economics**, published by **Elsevier** and edited by Lead Editor **Andrew Foster** (since 2016, with Dean Karlan among the editors). It is highly selective: roughly **1,300 submissions a year**, only about a quarter sent for review, and an acceptance rate near **6-8%**. Submission is via **Editorial Manager** under **single-anonymized review**, with **no submission fee**. JDE has three distinctive routes: a permanent **pre-results review / Registered Reports** track (run with BITSS), an **AER: Insights-style short-paper** limited-revision track, and a standard full-length track — plus a **three-papers-per-author-per-12-months** cap and a **mandatory replication policy** (data/code on Mendeley Data). Re-verify volatile specifics (editors, APC, review model, caps) on the official page; several are marked 待核实 in the source map.
+Default assumption: unless the user says otherwise, treat the target as JDE — the **leading field journal
+in development economics**, published by **Elsevier** and edited by Editors-in-Chief **A. Foster** and
+**K. Macours**. It is highly selective: roughly **1,300 submissions a year**, only about a quarter sent
+for review, and roughly **6-8% published**. Submission is via **Editorial Manager** under
+**single-anonymized review**, with a **USD 50 non-refundable submission fee** for original manuscripts.
+JDE has three distinctive routes: a permanent **pre-results review / Registered Reports** track (run
+with BITSS), an **AER: Insights-style short-paper** limited-revision track, and a standard full-length
+track — plus a **three-papers-per-author-per-12-months** cap and a **mandatory replication / Option C
+data-policy** regime.
 
 ## When to trigger
 

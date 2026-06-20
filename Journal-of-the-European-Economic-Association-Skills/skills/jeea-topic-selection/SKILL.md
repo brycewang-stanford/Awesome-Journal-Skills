@@ -14,7 +14,7 @@ description: Use when deciding whether a question fits the Journal of the Europe
 
 ## The JEEA fit bar
 
-JEEA is the **EEA's flagship general-interest journal** — the European counterpart to the top general-interest outlets. The bar is **general interest at a high theory-and-empirics standard**: a paper must matter to a broad economics readership, not only to specialists in its subfield. JEEA is genuinely **field-agnostic** — micro and macro theory, applied econometrics, applied micro, finance, development, public all appear — so what discriminates is not the field but whether the **lesson generalizes** and whether the **execution clears a strong methodological bar** for either a credible empirical design or a disciplined model.
+JEEA is the **EEA's general-interest journal** for high-quality theoretical and empirical economics. The bar is **general interest at a high theory-and-empirics standard**: a paper must matter to a broad economics readership, not only to specialists in its subfield. JEEA is genuinely **field-agnostic** — micro and macro theory, applied econometrics, applied micro, finance, development, public all appear — so what discriminates is not the field but whether the **lesson generalizes** and whether the **execution clears a strong methodological bar** for either a credible empirical design or a disciplined model.
 
 Two questions decide fit:
 1. **Does the lesson travel?** State the take-away in one sentence a non-specialist economist would find surprising or consequential. If the sentence only lands for subfield insiders, it is a field-journal paper.
@@ -32,9 +32,9 @@ Two questions decide fit:
 
 ## Sibling discrimination (do not target the wrong European outlet)
 
-- **vs. *The Economic Journal* (RES):** both are broad European outlets; JEEA carries the EEA's flagship general-interest brand with a strong theory+empirics bar. Pick by where the lesson and the execution genuinely land.
+- **vs. *The Economic Journal* (RES):** both are broad European outlets; JEEA carries the EEA association-journal identity with a strong theory+empirics bar. Pick by where the lesson and the execution genuinely land.
 - **vs. *European Economic Review* (EER):** EER is broad-scope but typically less of a top-tier general-interest gatekeeper; JEEA aims higher on the general-interest novelty bar.
-- **vs. top-5:** JEEA is the strong European flagship **just below** the top-5 — a realistic, faster home for a paper with a genuine general-interest lesson that is not quite a top-5 swing.
+- **vs. top-5:** JEEA is a strong European general-interest home **below** the top-5 — a realistic, faster home for a paper with a genuine general-interest lesson that is not quite a top-5 swing.
 
 ## The two-minute fit triage
 

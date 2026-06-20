@@ -14,9 +14,14 @@ description: Use when choosing a submission route or understanding how peer revi
 
 ## How JDE review works
 
-JDE is the **leading field journal in development economics** (Elsevier), edited by Lead Editor **Andrew Foster** (since 2016), with **Dean Karlan** among the editors. Review is **single-anonymized** — referees know the author's identity; the author does not know the referees (待核实 on the live page; high-confidence). It is highly selective: ~**1,300 submissions a year**, only about **a quarter sent for review**, and an acceptance rate near **6-8%**. Submission is via **Editorial Manager**.
+JDE is the **leading field journal in development economics** (Elsevier), edited by Editors-in-Chief
+**A. Foster** and **K. Macours**, with **Dean Karlan** among the Co-Editors. Review is
+**single-anonymized** — referees know the author's identity; the author does not know the referees. It
+is highly selective: ~**1,300 submissions a year**, only about **a quarter sent for review**, and roughly
+**6-8% published**. Submission is via **Editorial Manager**.
 
-There is **no submission fee**. Open access is optional and paid only after acceptance (the APC figure is 待核实 — verify on the official open-access page).
+There is a **USD 50 non-refundable submission fee** for original manuscripts. Open access is optional;
+the current APC is **USD 4,760** excluding taxes.
 
 **Submission cap:** under normal circumstances an author may **not submit more than three papers within any 12-month period**. Plan submissions accordingly.
 
@@ -26,7 +31,10 @@ There is **no submission fee**. Open access is optional and paid only after acce
 The default track. No fixed length limit; an extensive online appendix is expected. Full single-anonymized review with multiple referees and R&R rounds.
 
 ### Short-paper (limited-revision) track
-Modeled on **AER: Insights**: at most **6,000 words**, at most **5 exhibits** (tables or figures), and an online appendix of at most **20 pages** (the manuscript must be self-contained). Decisions are fast — generally within **4-6 weeks** — with a **single revision round** of **4 weeks**, and **resubmissions are not returned to referees**. Best for a sharp, self-contained result that does not need a long treatment.
+Modeled on **AER: Insights**: at most **6,000 words**, at most **5 exhibits** (tables or figures), and an
+online appendix of at most **20 pages** (the manuscript must be self-contained). Refereed decisions
+generally occur within **6-8 weeks** and use a limited-revision structure. Best for a sharp,
+self-contained result that does not need a long treatment.
 
 ### Pre-results review (Registered Reports)
 A **permanent** track (piloted 2018-2019 with **BITSS**) for prospective empirical projects. You submit a **Stage 1 proposal** — background/motivation, hypotheses, study procedures, a statistical analysis plan, a **power analysis**, and pilot data if applicable, with a cover page carrying JEL codes and ethics/funding/conflict disclosures. The Stage 1 proposal **must not exceed 60 pages** and its **abstract is capped at 150 words**. If accepted **in principle before results are known**, you implement the study and submit the **Stage 2** manuscript. Published pre-results papers look like any other JDE article except for a footnote noting pre-results submission and the inclusion of the pre-specified plan in the supplementary online appendix. This route reduces publication bias and is well suited to RCTs and other prospective designs.
@@ -42,7 +50,7 @@ A **permanent** track (piloted 2018-2019 with **BITSS**) for prospective empiric
 | Your situation                                                  | Route          | Why                                                      |
 |-----------------------------------------------------------------|----------------|----------------------------------------------------------|
 | RCT not yet run; want the design locked and bias-proofed        | Pre-results    | Stage 1 accepted in principle before results exist       |
-| One sharp result, ≤ 6,000 words, ≤ 5 exhibits, self-contained   | Short-paper    | Fast (~4–6 wk), single 4-wk revision, editor decides     |
+| One sharp result, ≤ 6,000 words, ≤ 5 exhibits, self-contained   | Short-paper    | Fast (~6–8 wk), limited revision, editor decides         |
 | Rich design + theory + extensive heterogeneity and robustness   | Full-length    | No length cap; extensive online appendix expected        |
 | Quasi-experiment already estimated, needs full empirical defense | Full-length    | Multiple referees, multiple R&R rounds                   |
 
@@ -55,8 +63,8 @@ Hypothetical: a team has designed but not yet fielded a cluster-randomized cash-
 
 ## Calibration anchors (hedged)
 
-- Selectivity is high: ~1,300 submissions/year, about a quarter sent for review, ~6–8% accepted — high-confidence but **待核实** against the live Guide for Authors.
-- Short-paper decisions generally land in **4–6 weeks**; the full-length pipeline runs months across rounds — plan the **three-per-12-months** cap around it.
+- Selectivity is high: ~1,300 submissions/year, about a quarter sent for review, ~6-8% published.
+- Short-paper refereed decisions generally land in **6-8 weeks**; the full-length pipeline runs months across rounds — plan the **three-per-12-months** cap around it.
 - The development-policy-relevance bar is real: a technically clean paper with no first-order LMIC stake is a routine non-starter regardless of route.
 
 ## Anti-patterns

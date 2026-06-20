@@ -13,9 +13,9 @@ English | [简体中文](README.zh-CN.md)
 
 Agent skill stack for manuscripts targeted at the **Journal of Accounting and Economics (JAE)** — the Elsevier journal founded in **1979** by Ross L. Watts and Jerold L. Zimmerman as the home of **positive (economics-based) accounting research**.
 
-This repository is opinionated. It is **not** a generic "accounting writing" toolbox. It is a **JAE-specific** stack built around JAE's defining bar: an argument that **applies economic theory to explain accounting phenomena**, tested with large-sample archival data or built as an analytical economic model. It covers the role of accounting within the firm, the information content of accounting numbers in capital markets, accounting in financial contracting and the monitoring of agency relationships, the determination of accounting standards, and the regulation of corporate disclosure and the accounting profession — plus identification-focused design, Elsevier house-style exhibits, the Editorial Manager submission with its USD 650 fee, double-anonymized review, and R&R rebuttals.
+This repository is opinionated. It is **not** a generic "accounting writing" toolbox. It is a **JAE-specific** stack built around JAE's defining bar: an argument that **applies economic theory to explain accounting phenomena**, tested with large-sample archival data or built as an analytical economic model. It covers the role of accounting within the firm, the information content of accounting numbers in capital markets, accounting in financial contracting and the monitoring of agency relationships, the determination of accounting standards, and the regulation of corporate disclosure and the accounting profession — plus identification-focused design, Elsevier house-style exhibits, the Editorial Manager submission flow, double-anonymized review, and R&R rebuttals.
 
-> Durable norms only. Co-Editors, the submission fee, Highlights/keyword/JEL requirements, and the data-sharing policy change — always verify on the official JAE Guide for Authors (ScienceDirect) and the Elsevier submission-fee policy page.
+> Durable norms only. Editors, the submission fee, Highlights/keyword/JEL requirements, and the data-sharing policy change — always verify on the official JAE Guide for Authors (ScienceDirect) and Elsevier policy pages.
 
 ---
 
@@ -32,7 +32,7 @@ JAE imposes constraints that differ materially from behavioral, normative, or ge
 | Identification          | Natural experiments, DiD, IV, RD; firm/year FE; two-way clustering   | Pooled OLS presented as causal is punished                   |
 | Contribution            | What economic understanding of accounting changes?                   | "First to study X" is not a contribution                     |
 | Format                  | Elsevier author-date (Harvard); numbered sections; mandatory Highlights | Vancouver references and missing JEL codes fail preflight |
-| Process                 | Editorial Manager; USD 650 fee; double-anonymized; editor-final      | Desk-reject / Article-Transfer redirect for off-fit papers   |
+| Process                 | Editorial Manager; fee-bearing submission; double-anonymized; editor-final | Desk-reject / Article-Transfer redirect for off-fit papers |
 | Data policy             | **Voluntary** sharing (Elsevier policy), **no** mandated archive     | Unlike JAR/JFE, no replication package is required           |
 
 Generic "scientific writing" or "social-science methods" packs do not address these constraints.
@@ -117,7 +117,7 @@ jae-rebuttal
 
 ### Resources
 
-- [`resources/official-source-map.md`](resources/official-source-map.md) — every JAE fact used here, its official URL, and accessed date (2026-06-01); unverified items flagged 待核实
+- [`resources/official-source-map.md`](resources/official-source-map.md) — every JAE fact used here, its official URL, live-check boundary, and refreshed date (2026-06-20)
 - [`resources/external_tools.md`](resources/external_tools.md) — positive-accounting data sources (Compustat / CRSP / I/B/E/S / Execucomp / DealScan / Audit Analytics via WRDS), econometric software (Stata `reghdfe`/`ivreg2`/`csdid`, SAS, R `fixest`), and Elsevier/LaTeX writing tools
 
 ---
@@ -129,8 +129,8 @@ jae-rebuttal
 | Core identity      | Positive (economics-based) accounting| Top-3 archival accounting    | AAA flagship, broad tent     | Financial economics          |
 | Signature methods  | Archival econometrics + modeling     | Archival, identification     | Experimental/analytical/archival | Archival asset pricing/corp |
 | Replication policy  | **Voluntary** (no mandate)           | **Mandatory** code/data      | Varies                       | **Mandatory** Mendeley deposit |
-| Submission fee     | **USD 650** (no fee on resubmission) | Varies                       | Varies                       | Varies                       |
-| Editorial model    | Compact co-Editors (Core/deHaan/Guay)| Editor + AEs                 | Senior + area editors        | Editors + AEs                |
+| Submission fee     | Fee-bearing; check current JAE amount | Varies                       | Varies                       | Varies                       |
+| Editorial model    | Compact editor-final model; live-check names | Editor + AEs                 | Senior + area editors        | Editors + AEs                |
 
 If your paper is normative, behavioral-experimental, or has little accounting content, JAE is the wrong venue.
 

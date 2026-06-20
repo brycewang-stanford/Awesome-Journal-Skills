@@ -11,7 +11,7 @@ This is the router. It does not replace any specialized skill; it tells you **wh
 
 Default assumption: unless the user says otherwise, treat the target as JAE — the Elsevier journal founded in **1979** by Ross L. Watts and Jerold L. Zimmerman (the originators of Positive Accounting Theory), published bimonthly (ISSN 0165-4101). JAE exists to **apply economic theory to explain accounting phenomena**: the role of accounting within the firm; the information content of accounting numbers in capital markets; accounting in financial contracting and the monitoring of agency relationships; the determination of accounting standards; and the regulation of corporate disclosure and the accounting profession. The non-negotiable bar is an **economics-based** argument tested with large-sample archival data (or built as an analytical model) — not normative, behavioral, or practitioner-oriented work. Editors desk-reject or redirect (Article Transfer Service) papers that miss this economics-relevance bar.
 
-> Editorial team and policies change: the current co-Editors are J. Core (MIT), E. deHaan (Stanford), and W.R. Guay (Penn/Wharton), supported by a large (~40-person) Associate Editor body — verify the masthead on ScienceDirect. The USD 650 submission fee and Highlights/JEL requirements should be reconfirmed on the live Guide for Authors (treat as **待核实**).
+> Editorial team and policies change: verify the current masthead on ScienceDirect before naming editors or associate editors. The submission fee and Highlights/JEL requirements must be reconfirmed on the live Guide for Authors before upload.
 
 ## When to trigger
 
@@ -33,7 +33,7 @@ Default assumption: unless the user says otherwise, treat the target as JAE — 
 | Results exist but the "so what for accounting/economics" is thin         | `jae-contribution-framing`  |
 | Tables overloaded, off Elsevier style, or not self-explanatory           | `jae-tables-figures`        |
 | Prose is verbose, hedged, or buries the prediction                       | `jae-writing-style`         |
-| Ready to submit; need the Editorial Manager + USD 650-fee preflight      | `jae-submission`            |
+| Ready to submit; need the Editorial Manager + fee preflight              | `jae-submission`            |
 | Want to understand JAE double-anonymized review before/after submit      | `jae-review-process`        |
 | Received an R&R; need to plan and draft the response                     | `jae-rebuttal`              |
 
@@ -55,7 +55,7 @@ Default assumption: unless the user says otherwise, treat the target as JAE — 
 
 ## Difference vs. JAR / TAR / RAST / JFE stacks
 
-- **JAE**: economics-based positive accounting; Watts-Zimmerman tradition; **no mandatory** replication archive; USD 650 fee; double-anonymized; co-Editor (not area-editor) model.
+- **JAE**: economics-based positive accounting; Watts-Zimmerman tradition; voluntary Elsevier data-sharing default; fee-bearing submission; double-anonymized; editor-final model.
 - **JAR** (Chicago/Wiley): also top-3 archival, but **mandates** a replication/code package.
 - **TAR** (AAA flagship): broader methodological tent (experimental, analytical, archival).
 - **RAST** (Review of Accounting Studies): archival capital-markets, often valuation-focused.

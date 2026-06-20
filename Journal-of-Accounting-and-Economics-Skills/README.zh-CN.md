@@ -13,9 +13,9 @@
 
 面向 **《会计与经济学杂志》(Journal of Accounting and Economics, JAE)** 投稿的 Agent 技能栈 —— JAE 是 Elsevier 于 **1979 年**由 Ross L. Watts 与 Jerold L. Zimmerman 创办的、**实证（基于经济学的）会计研究**的大本营。
 
-本仓库是有立场的。它**不是**通用的"会计写作"工具箱，而是围绕 JAE 核心标准打造的 **JAE 专用**技能栈：一篇文章必须**运用经济学理论来解释会计现象**，并以大样本档案数据加以检验，或构建解析式经济模型。覆盖范围包括：会计在企业内部的作用、会计数字在资本市场中的信息含量、会计在财务契约与代理关系监督中的作用、会计准则的形成，以及公司信息披露与会计职业的监管 —— 同时涵盖以识别（identification）为核心的研究设计、符合 Elsevier 体例的图表、带 USD 650 投稿费的 Editorial Manager 投稿、双盲评审，以及 R&R 答复。
+本仓库是有立场的。它**不是**通用的"会计写作"工具箱，而是围绕 JAE 核心标准打造的 **JAE 专用**技能栈：一篇文章必须**运用经济学理论来解释会计现象**，并以大样本档案数据加以检验，或构建解析式经济模型。覆盖范围包括：会计在企业内部的作用、会计数字在资本市场中的信息含量、会计在财务契约与代理关系监督中的作用、会计准则的形成，以及公司信息披露与会计职业的监管 —— 同时涵盖以识别（identification）为核心的研究设计、符合 Elsevier 体例的图表、Editorial Manager 投稿流程、双盲评审，以及 R&R 答复。
 
-> 仅描述持久规范。共同主编、投稿费、Highlights/关键词/JEL 要求及数据共享政策都会变化 —— 请务必以 ScienceDirect 上 JAE 官方 Guide for Authors 与 Elsevier 投稿费政策页为准。
+> 仅描述持久规范。编辑名单、投稿费、Highlights/关键词/JEL 要求及数据共享政策都会变化 —— 请务必以 ScienceDirect 上 JAE 官方 Guide for Authors 与 Elsevier 政策页为准。
 
 ---
 
@@ -32,7 +32,7 @@
 | 识别           | 自然实验、DiD、IV、RD；公司/年份固定效应；双向聚类          | 把混合 OLS 当因果会被惩罚                                   |
 | 贡献           | 改变了对会计经济学的哪一点理解？                            | "首次研究 X"不算贡献                                        |
 | 体例           | Elsevier 著者-年份(Harvard)；编号章节；强制 Highlights      | 数字编号(Vancouver)引用、缺 JEL 码无法通过投稿前检查        |
-| 流程           | Editorial Manager；USD 650 费用；双盲；主编终审             | 不契合的文章会被桌拒 / 经文章转移服务改投                   |
+| 流程           | Editorial Manager；收费投稿；双盲；编辑终审                  | 不契合的文章会被桌拒 / 经文章转移服务改投                   |
 | 数据政策       | **自愿**共享(Elsevier 政策)，**不**强制存档                | 不同于 JAR/JFE，无需复现包                                  |
 
 通用的"科研写作"或"社科方法"技能包无法覆盖这些约束。
@@ -117,7 +117,7 @@ jae-rebuttal（R&R 答复）
 
 ### 资源
 
-- [`resources/official-source-map.md`](resources/official-source-map.md) —— 本包用到的每条 JAE 事实、对应官方 URL 及访问日期(2026-06-01)；未核实项标注 待核实
+- [`resources/official-source-map.md`](resources/official-source-map.md) —— 本包用到的每条 JAE 事实、对应官方 URL、live-check 边界及刷新日期(2026-06-20)
 - [`resources/external_tools.md`](resources/external_tools.md) —— 实证会计数据源（通过 WRDS 的 Compustat / CRSP / I/B/E/S / Execucomp / DealScan / Audit Analytics）、计量软件（Stata `reghdfe`/`ivreg2`/`csdid`、SAS、R `fixest`）与 Elsevier/LaTeX 写作工具
 
 ---
@@ -129,8 +129,8 @@ jae-rebuttal（R&R 答复）
 | 核心定位   | 实证（基于经济学的）会计     | 顶级档案会计三大刊  | AAA 旗舰，方法面广           | 金融经济学              |
 | 标志方法   | 档案计量 + 建模              | 档案、识别          | 实验/解析/档案               | 资产定价/公司金融档案   |
 | 复现政策   | **自愿**（不强制）           | **强制**代码/数据   | 不一                         | **强制** Mendeley 存档  |
-| 投稿费     | **USD 650**（再投不收费）    | 不一                | 不一                         | 不一                    |
-| 编辑模式   | 精简共同主编(Core/deHaan/Guay)| 主编 + AE          | 资深 + 领域编辑              | 主编 + AE               |
+| 投稿费     | 收费投稿；以 JAE 当前金额为准 | 不一                | 不一                         | 不一                    |
+| 编辑模式   | 精简编辑终审模式；姓名需现场核对 | 主编 + AE          | 资深 + 领域编辑              | 主编 + AE               |
 
 如果你的文章是规范性的、行为实验的，或会计内容很少，那么 JAE 是错误的投稿对象。
 

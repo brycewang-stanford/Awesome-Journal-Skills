@@ -14,7 +14,7 @@ description: Use when assessing whether a research question fits the Journal of 
 
 ## The JPubE fit bar
 
-JPubE was founded in 1972 by **Tony Atkinson** to be the home for rigorous analysis of the **economic role of government**, and under Co-Editors-in-Chief **John N. Friedman** and **Wojciech Kopczuk** it still rewards exactly that: a question about how government policy affects behavior, welfare, or the distribution of resources, answered with **modern theory and quantitative methods** and a lesson that travels to an **international readership**. A strong JPubE topic sits squarely in one of the field's pillars:
+JPubE was founded in 1972 by **Tony Atkinson** to be the home for rigorous analysis of the **economic role of government**, and under current Editors **Nathaniel Hendren** and **Wojciech Kopczuk** it still rewards exactly that: a question about how government policy affects behavior, welfare, or the distribution of resources, answered with **modern theory and quantitative methods** and a lesson that travels to an **international readership**. A strong JPubE topic sits squarely in one of the field's pillars:
 
 - **Taxation** — labor-supply and taxable-income elasticities, optimal tax, tax avoidance/evasion, corporate and capital taxation, bunching at kinks/notches
 - **Social insurance & transfers** — UI, DI, health insurance, pensions, EITC, means-tested programs, moral hazard vs. insurance-value trade-offs
