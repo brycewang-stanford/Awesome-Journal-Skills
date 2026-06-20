@@ -1,6 +1,6 @@
 ---
 name: amanthro-workflow
-description: Use as the entry point for any American Anthropologist (AA) manuscript. Routes to the right AA sub-skill based on lifecycle stage, subfield (sociocultural, archaeology, biological, linguistic), and section type (Research Article, Vital Topics Forum, World/Public/Multimodal Anthropologies, Review Essay). It dispatches; it does not draft content.
+description: Use when starting or navigating any American Anthropologist (AA) manuscript as the entry point. Routes to the right AA sub-skill based on lifecycle stage, subfield (sociocultural, archaeology, biological, linguistic), and section type (Research Article, Vital Topics Forum, World/Public/Multimodal Anthropologies, Review Essay). It dispatches; it does not draft content.
 ---
 
 # AA Workflow Router (amanthro-workflow)

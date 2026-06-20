@@ -1,6 +1,6 @@
 ---
 name: amanthro-review-process
-description: Use to understand how American Anthropologist (AA) evaluates a manuscript — editorial screening, anonymous peer review under an ethics of care, the four-field editorial board, decision categories, and how section choice shapes the path. Sets expectations and shapes the paper to survive review; it does not contact editors.
+description: Use when you need to understand how American Anthropologist (AA) evaluates a manuscript — editorial screening, anonymous peer review under an ethics of care, the four-field editorial board, decision categories, and how section choice shapes the path. Sets expectations and shapes the paper to survive review; it does not contact editors.
 ---
 
 # Review Process (amanthro-review-process)
