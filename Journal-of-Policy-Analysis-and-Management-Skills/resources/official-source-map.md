@@ -1,71 +1,93 @@
 # JPAM Official Source Map
 
 Primary and authoritative sources behind the JPAM-specific facts injected into this skill pack.
-Access date for all entries: **2026-06**. Re-verify volatile items (editor and editorial team, exact
-word/abstract caps, fee amounts, data-policy wording, portal URL, accepted article types) on the
-official page before relying on them — journal pages change (检索于 2026-06；以官网为准).
+Access date for all entries: **2026-06-20**. Re-check volatile items (editorial-board roster,
+submission prompts, policy wording, article-type limits, open-access charges, and repository
+requirements) on the live Wiley/APPAM pages before using this pack for a live submission.
 
-## Official journal, submission & author pages
+## Official journal, owner, scope & masthead
 
-- **https://onlinelibrary.wiley.com/journal/15206688** — *Journal of Policy Analysis and Management* on
-  Wiley Online Library (publisher home, current issues). Verifies: publisher = **Wiley** (Wiley-Blackwell);
-  ISSN **0276-8739** (print) / **1520-6688** (online); quarterly.
-- **https://onlinelibrary.wiley.com/page/journal/15206688/homepage/forauthors.html** — JPAM Author
-  Guidelines (Wiley). Verifies: manuscript preparation, double-blind preparation (anonymized manuscript +
-  separate title page), data-availability / replication expectations, reference style. *(Page returned a
-  403 to the automated fetch at access time; facts cross-checked against the APPAM author page and the
-  Wiley homepage. 待核实 on exact current wording, abstract cap, and feature-article word limit.)*
-- **https://www.appam.org/news/jpam/jpam-authors/** — APPAM "JPAM Authors" page. Verifies:
-  **Editor-in-Chief Erdal Tekin (American University)**; six article types — **Feature Research Articles,
-  Point/Counterpoint, Methods for Policy Analysis, Policy Insights, Policy Retrospectives, Book Reviews**;
-  the **submission fee** for non-members (**$100 professionals / $40 students**, student ID required),
-  **no fee for resubmission**, **free unlimited submissions for APPAM members**, and **waivers** for
-  authors from economically disadvantaged countries or facing financial hardship (info@appam.org);
-  JPAM **reserves the right to desk-reject papers without review**; submission via Wiley's online platform.
-- **https://www.appam.org/news/jpam/** — APPAM JPAM landing page (owner, scope, awards).
+- **https://www.appam.org/news/jpam/** — APPAM JPAM landing page. Verifies: APPAM founded the
+  *Journal of Policy Analysis and Management* in **1981** through the merger of *Policy Analysis* and
+  *Public Policy*; Wiley-Blackwell/Wiley has published JPAM since 1981; JPAM is a **quarterly,
+  peer-reviewed** research journal; JPAM is APPAM's journal of record for multidisciplinary research in
+  public policy and management; JPAM welcomes unsolicited manuscripts; the editor is appointed to a
+  five-year term by APPAM Policy Council; **Erdal Tekin** is listed as editor from **2018-present**;
+  the editor works with associate/section editors and an editorial board; JPAM gives the Raymond Vernon
+  Memorial Prize; special sections include **Point/Counterpoint**, **Methods for Policy Analysis**,
+  **Policy Insights**, **Policy Retrospectives**, and **Book Reviews**; JPAM is online-only.
+- **https://www.appam.org/news/jpam/jpam-authors/** — APPAM JPAM Authors page. Verifies: the JPAM
+  editorial office is at **American University** under current Editor-in-Chief **Erdal Tekin**; JPAM
+  reviews and publishes **six categories**: Feature Research Articles, Point/Counterpoint, Methods for
+  Policy Analysis, Policy Insights, Policy Retrospectives, and Book Reviews; JPAM content covers the
+  full spectrum of public-policy interests, domestic and international, including child welfare,
+  education, employment and training, economics, family policy, health, housing and community
+  development, welfare, immigration, international affairs, public finance, public management,
+  regulation, science policy, environmental issues, and research methods.
+- **https://www.appam.org/news/jpam/jpam-editorial-board/** — APPAM editorial-board entry point.
+  Use as the live route for board/section-editor checks; do not hard-code a roster from this pack.
+- **https://onlinelibrary.wiley.com/journal/15206688** — Wiley Online Library journal home. Use as the
+  publisher home, current issue, article, author-guidance, and Wiley submission-entry route.
+- **https://www.wiley.com/en-ae/journals/Journal%2Bof%2BPolicy%2BAnalysis%2Band%2BManagement-p-b15206688**
+  — Wiley product page. Cross-checks title, editor, publisher route, and ISSN metadata.
+- **https://ideas.repec.org/s/wly/jpamgt.html** — IDEAS/RePEc JPAM series page. Verifies the RePEc
+  series handle **wly:jpamgt** and recent JPAM issue/article metadata used for exemplar checking.
 
-## Article types & review model
+## Submission fees, article types & live portal
 
-- APPAM author page (above). Verifies: **Point/Counterpoint** and **Policy Insights** are **invited and
-  not peer-reviewed**; **Policy Insights** are short (**3,000 words or less**); Feature Research Articles
-  and Methods for Policy Analysis are the peer-reviewed research formats.
-- **Review model: double-blind** (anonymized manuscript + separate title page) — stated on the Wiley
-  author/peer-review pages. 待核实 on exact decision-category labels.
-- **Portal: ScholarOne / Manuscript Central** — JPAM moved manuscript management to ScholarOne; confirm
-  the current submission link from the Wiley/APPAM author page. 待核实 on the exact URL.
+- **Submission-fee requirement used by this pack:** submitting author must provide proof of current
+  APPAM membership, APPAM membership payment, JPAM fee payment, or an approved waiver before the
+  manuscript moves forward to review.
+- **Fee amounts verified on APPAM JPAM Authors page:** current APPAM members may submit unlimited JPAM
+  manuscripts at no charge; non-members pay **USD 100** for professionals or **USD 40** for students;
+  student fee submissions require a current student ID; there is **no fee for resubmission**; waivers
+  are considered for authors from economically disadvantaged countries or authors facing financial
+  hardship via **info@appam.org**. Fees are not refunded regardless of outcome.
+- **Desk-screen rule:** APPAM states that JPAM reserves the right to desk-reject papers without review.
+- **Article-type guardrail:** APPAM lists six JPAM categories. The related APPAM JPIE page clarifies
+  that JPAM **Policy Insights** are brief, non-peer-reviewed essays of up to **3,000 words**, distinct
+  from JPIE's peer-reviewed article model.
+- **Submission route:** APPAM's JPAM landing page links submitters to Wiley Authors. Wiley's 2026
+  "Notes from the Editor" search rendering states that JPAM recently transitioned from an older Wiley
+  portal to **Research Exchange**. Active guidance in this pack therefore routes authors through Wiley
+  Authors / Research Exchange and treats older portal references as stale operational metadata.
+- **2026 policy-change watch item:** a Wiley 2026 "Notes from the Editor" search rendering says JPAM
+  will implement a new manuscript-submission policy beginning in Summer 2026. Because the article body
+  is controlled by Wiley's interactive access layer, this pack records only the existence of the public
+  Wiley notice and directs users to the live Research Exchange prompts for the operative rule.
 
-## Owner, publisher, history & awards
+## Review model, style & submission guardrails
 
-- **https://en.wikipedia.org/wiki/Journal_of_Policy_Analysis_and_Management** — Verifies: founded **1981**
-  through the merger of **Policy Analysis** (1975–1981) and **Public Policy** (1940–1981); published by
-  **Wiley-Blackwell on behalf of APPAM**; **Erdal Tekin** editor-in-chief since **July 2018**; quarterly;
-  covers public-policy analysis and public management across fields; the annual **Raymond Vernon Memorial
-  Prize** for the best article in each volume; ISSN 0276-8739 / 1520-6688. (Impact-factor figures on this
-  page are dated; treat current metrics as 待核实.)
-- **https://en.wikipedia.org/wiki/Association_for_Public_Policy_Analysis_and_Management** — Verifies:
-  **APPAM** is the U.S. professional association that owns JPAM.
-- **https://ideas.repec.org/s/wly/jpamgt.html** — RePEc series record (`wly:jpamgt`) for JPAM; used to
-  verify the exemplar citations in [`exemplars/library.md`](exemplars/library.md).
+- JPAM is source-backed as a peer-reviewed research journal through APPAM. The pack keeps
+  **double-blind/anonymized preparation** as the submission preflight because JPAM/Wiley materials and
+  issue/special-call material have historically used a double-blind referee model; the live Wiley
+  Authors / Research Exchange prompts govern final file labels and anonymity instructions at upload.
+- Do not encode a feature-article word cap or abstract cap unless the live Wiley Authors / Research
+  Exchange instructions show one. The source-backed numeric limit in this pack is **Policy Insights up
+  to 3,000 words**.
+- Keep the submission checklist centered on verifiable operational facts: article type, anonymous main
+  file, separate title page if prompted, fee/membership document, data-availability statement, ethics
+  declarations, and replication materials.
 
-## Data / replication policy
+## Transparency, data & open-science guardrails
 
-- Wiley/APPAM author guidance (above). Verifies (working summary): authors are expected to **archive the
-  data and code** behind the reported results in a suitable public repository and to provide a
-  **data-availability statement**; restricted-data exemptions are handled by explaining the restriction
-  and giving an access path. 待核实 on the exact designated repository and whether the editorial office
-  performs reproduction verification.
+- Current public APPAM pages verify the fee, desk-screen, editor, categories, and scope, but do not
+  publish a detailed repository mandate on the visible APPAM pages. Treat Research Exchange / Wiley
+  Authors as the operational source for any required data statement, repository selection, and
+  reproduction-verification prompt.
+- Recent JPAM Wiley article pages and RePEc metadata show data-availability statements that deposit
+  code/data in a JPAM/Harvard Dataverse repository with persistent identifiers. This pack treats that as
+  current practice evidence, not a universal repository mandate.
+- The practical default for policy-evaluation manuscripts is: prepare a data-availability statement,
+  deposit shareable data/code in a persistent repository, document restricted-data access paths, and make
+  every table/figure reproducible from a master script before acceptance-stage checks.
 
-## UNVERIFIED / 待核实 items
+## Pack-level guardrails
 
-- **Exact feature-article word limit and abstract cap**: not confirmed verbatim (the Wiley author page
-  was not machine-readable at access time). The "3,000 words" figure that circulates refers to **Policy
-  Insights**, not feature articles. Confirm both on the live author page. 待核实.
-- **Current submission-fee amounts and waiver terms**: ~$100 professional / $40 student per the APPAM
-  page at access time; amounts and policy can change. 待核实.
-- **Designated replication repository and whether reproduction is verified by the editors**: not
-  confirmed verbatim. 待核实.
-- **Exact ScholarOne submission URL and current reference-style edition**: confirm on the live author
-  page. 待核实.
-- **Editorial team beyond the EIC, and current term**: Erdal Tekin listed as EIC (American University)
-  since July 2018; the full current masthead and any transition are 待核实 on the live page.
-- **Current impact factor / ranking**: older figures only; treat as 待核实.
+- Do not cite nonofficial aggregators as the operational source for editors, fees, article types, or
+  submission routing.
+- Do not route authors to older portal names; use Wiley Authors / Research Exchange and verify the live
+  prompts.
+- Do not treat the JPAM submission fee as an open-access article-processing charge.
+- Do not hard-code volatile editorial-board rosters, impact metrics, detailed style editions, feature
+  word caps, abstract caps, or repository mandates unless a live official source shows them.

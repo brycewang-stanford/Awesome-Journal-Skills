@@ -25,10 +25,9 @@ or program effect** (RCT, DiD/event-study, RD, IV, synthetic control), **cost-be
 analysis, a **policy implication stated without overclaiming**, **double-blind** preparation, the **APPAM
 membership-or-fee** requirement, and an **archived replication package** so results can be reproduced.
 
-> **Official basis checked 2026-06** — facts are anchored to the Wiley author page, the APPAM JPAM author
-> page, the journal Wikipedia entry, and the RePEc `wly:jpamgt` record. Volatile specifics (editor and
-> team, exact caps, fee amounts, data-policy wording, portal URL) are marked **待核实** in
-> [`resources/official-source-map.md`](resources/official-source-map.md). **Verify on the official page.**
+> **Official basis checked 2026-06-20** — facts are anchored to APPAM's JPAM pages, Wiley's journal /
+> author routes, Wiley 2026 editor-note search renderings, and the RePEc `wly:jpamgt` record. Live
+> submission prompts can change, so verify portal prompts and file metadata in Wiley Research Exchange.
 
 ---
 
@@ -42,14 +41,14 @@ JPAM's constraints differ from a field economics journal or a public-management 
 | Premium on            | **Credible causal identification** of a policy/program effect                  | Selection-on-observables rarely clears the bar                   |
 | Distinctive layer     | **Cost-benefit + distributional** analysis — who gains, who pays               | An estimate alone is not enough; "should we do it?" matters       |
 | House voice           | A **clear policy implication, without overclaiming**                           | Calibrate the claim to the estimand; name the limits             |
-| Publisher / owner     | **Wiley** / **APPAM**                                                          | Submitted via **ScholarOne**, not Editorial Manager/Express      |
-| Review model          | **Double-blind**                                                               | Anonymize the manuscript; separate title page                    |
-| Submission gate       | **APPAM membership OR a submission fee** (waivers available)                   | Members free; non-members ~$100 prof / $40 student (待核实)        |
+| Publisher / owner     | **Wiley** / **APPAM**                                                          | Submitted through Wiley Authors / **Research Exchange**          |
+| Review model          | **Double-blind / anonymized preflight**                                        | Anonymize the manuscript; keep a separate title page ready       |
+| Submission gate       | **APPAM membership OR a submission fee** (waivers available)                   | Members free; non-members **USD 100 professional / USD 40 student** |
 | Transparency          | **Archive data + code; data-availability statement**                          | Plan early for restricted administrative data                    |
 | Distinctive forum     | **Point/Counterpoint** (invited, not peer-reviewed) + Policy Insights          | Choose the right article type up front                           |
 
-Volatile specifics change — items not directly confirmed are marked **待核实** in
-[`resources/official-source-map.md`](resources/official-source-map.md).
+Volatile specifics change. The source map separates confirmed APPAM/Wiley facts from live Research
+Exchange prompts that must be checked at upload.
 
 ### Article types
 
@@ -137,13 +136,13 @@ the invitation and length rules before drafting.
 | `jpam-writing-style`           | A clear policy implication without overclaiming; cross-field legibility        |
 | `jpam-transparency-and-data`   | Replication package + data-availability statement; restricted-data path        |
 | `jpam-review-process`          | Double-blind review, desk screen, article types, decision categories           |
-| `jpam-submission`              | ScholarOne preflight (anonymization, fee/membership, ORCID, data statement)    |
+| `jpam-submission`              | Research Exchange preflight (anonymization, fee/membership, ORCID, data statement) |
 | `jpam-rebuttal`                | R&R response across an identification reviewer and a policy reviewer           |
 
 ### Resources
 
 - [`resources/external_tools.md`](resources/external_tools.md) — policy-evaluation data sources (CPS / SIPP / NCES / CMS / UCR / HUD / ACS) + R / Stata / Python and cost-benefit / MVPF tooling
-- [`resources/official-source-map.md`](resources/official-source-map.md) — official Wiley / APPAM URLs behind every fact, with 待核实 markers on unverified items
+- [`resources/official-source-map.md`](resources/official-source-map.md) — official Wiley / APPAM URLs behind every fact and live-check guardrail
 - [`resources/worked-examples/01-introduction.md`](resources/worked-examples/01-introduction.md) — before→after JPAM-style introduction (fictional, illustrative)
 - [`resources/exemplars/library.md`](resources/exemplars/library.md) — real, web-verified JPAM papers by field × method, with a sibling-journal guardrail
 - [`resources/code/`](resources/code/) — vendored Stata + Python causal-inference skeleton (DiD / IV / RD / DML)
@@ -154,7 +153,7 @@ the invitation and length rules before drafting.
 
 - It does not write a submittable manuscript for you
 - It does not simulate any specific editor's or reviewer's taste
-- It does not assert volatile metadata (current editor/team, exact caps, fee, policy wording) — verify on the official page; unverified items are marked 待核实
+- It does not hard-code volatile metadata beyond sourced facts; verify live Research Exchange prompts before upload
 - It does not decide whether your question is policy-relevant or your design credible — that is the researcher's call
 
 ---

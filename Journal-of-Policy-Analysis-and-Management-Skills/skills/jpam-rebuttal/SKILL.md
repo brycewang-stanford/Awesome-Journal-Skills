@@ -75,10 +75,10 @@ the location of the change so the editor can verify quickly.
 【Two-reviewer reconciliation】identification vs policy resolved + explained? [Y/N]
 【Core protected】implication still calibrated to the design? [Y/N]
 【Anonymity + package updated】[Y/N]
-【Next】resubmit via ScholarOne
+【Next】resubmit via Wiley Research Exchange
 ```
 
 ## Supplementary resources
 
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — decision categories and review model (待核实)
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — decision categories and review-model guardrails
 - [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md) — pre-empt the identification objections before they recur

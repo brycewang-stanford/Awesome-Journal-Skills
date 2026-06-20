@@ -22,9 +22,9 @@
 **成本—收益与分配分析**、**不夸大的政策含义**、**双盲匿名**准备、**APPAM 会员资格或投稿费**门槛，以及可复现的
 **已归档复制包**。
 
-> **官方信息核验于 2026-06** —— 事实锚定于 Wiley 作者页、APPAM 的 JPAM 作者页、期刊维基条目以及 RePEc
-> `wly:jpamgt` 记录。易变项（主编与团队、确切篇幅上限、费用金额、数据政策措辞、投稿门户 URL）在
-> [`resources/official-source-map.md`](resources/official-source-map.md) 中标注 **待核实**。**请以官网为准。**
+> **官方信息核验于 2026-06-20** —— 事实锚定于 APPAM 的 JPAM 页面、Wiley 期刊/作者入口、Wiley
+> 2026 年 editor note 的检索呈现，以及 RePEc `wly:jpamgt` 记录。投稿入口与文件要求会变化，正式上传前
+> 以 Wiley Research Exchange 的实时提示为准。
 
 ---
 
@@ -38,13 +38,13 @@ JPAM 的约束不同于经济学领域期刊或公共管理期刊：
 | 核心看重 | 政策/项目效应的**可信因果识别** | 仅靠可观测变量控制通常达不到门槛 |
 | 独特层次 | **成本—收益 + 分配分析**——谁受益、谁付费 | 仅有效应量不够，还要回答"是否值得做" |
 | 写作风格 | **清晰、不夸大的政策含义** | 论断须与估计量匹配，并明示边界 |
-| 出版方 / 所有者 | **Wiley** / **APPAM** | 经 **ScholarOne** 投稿，而非 Editorial Manager/Express |
-| 评审模式 | **双盲** | 匿名化正文；单独的标题页 |
-| 投稿门槛 | **APPAM 会员资格 或 投稿费**（可申请减免） | 会员免费；非会员约 $100 专业 / $40 学生（待核实） |
+| 出版方 / 所有者 | **Wiley** / **APPAM** | 经 Wiley Authors / **Research Exchange** 投稿 |
+| 评审模式 | **双盲 / 匿名化预检** | 匿名化正文；准备单独标题页 |
+| 投稿门槛 | **APPAM 会员资格 或 投稿费**（可申请减免） | 会员免费；非会员 **USD 100 专业 / USD 40 学生** |
 | 透明度 | **归档数据 + 代码；数据可得性声明** | 对受限行政数据要尽早规划 |
 | 独特栏目 | **Point/Counterpoint**（约稿，非同行评审）+ Policy Insights | 先选对文章类型 |
 
-易变项会变动——未直接核实者在 [`resources/official-source-map.md`](resources/official-source-map.md) 中标注 **待核实**。
+易变项会变动。来源图区分已经由 APPAM/Wiley 支撑的事实与上传时必须复核的 Research Exchange 实时提示。
 
 ### 文章类型
 
@@ -131,13 +131,13 @@ jpam-rebuttal
 | `jpam-writing-style` | 清晰、不夸大的政策含义；跨学科可读性 |
 | `jpam-transparency-and-data` | 复制包 + 数据可得性声明；受限数据路径 |
 | `jpam-review-process` | 双盲评审、桌拒筛查、文章类型、决定类别 |
-| `jpam-submission` | ScholarOne 投稿前检查（匿名化、会员/费用、ORCID、数据声明） |
+| `jpam-submission` | Research Exchange 投稿前检查（匿名化、会员/费用、ORCID、数据声明） |
 | `jpam-rebuttal` | 面向"识别评审人"与"政策评审人"的修回回复 |
 
 ### 资源
 
 - [`resources/external_tools.md`](resources/external_tools.md) —— 政策评估数据源（CPS / SIPP / NCES / CMS / UCR / HUD / ACS）+ R / Stata / Python 与成本—收益 / MVPF 工具
-- [`resources/official-source-map.md`](resources/official-source-map.md) —— 每条事实背后的 Wiley / APPAM 官方链接，未核实项标注 待核实
+- [`resources/official-source-map.md`](resources/official-source-map.md) —— 每条事实背后的 Wiley / APPAM 官方链接与实时复核守则
 - [`resources/worked-examples/01-introduction.md`](resources/worked-examples/01-introduction.md) —— JPAM 风格引言"修改前→修改后"示例（虚构、示意）
 - [`resources/exemplars/library.md`](resources/exemplars/library.md) —— 经网络核验的真实 JPAM 论文，按领域 × 方法编排，并附姊妹期刊防混淆清单
 - [`resources/code/`](resources/code/) —— 内置 Stata + Python 因果推断脚手架（DiD / IV / RD / DML）
@@ -148,7 +148,7 @@ jpam-rebuttal
 
 - 不替你写出可直接投稿的稿件
 - 不模拟任何特定主编或评审人的口味
-- 不臆断易变元数据（现任主编/团队、确切上限、费用、政策措辞）——请以官网为准；未核实项标注 待核实
+- 不把易变元数据写死为永久规则；正式上传前请复核 Research Exchange 的实时提示
 - 不替你判断选题是否具有政策相关性、设计是否可信——这是研究者的责任
 
 ---

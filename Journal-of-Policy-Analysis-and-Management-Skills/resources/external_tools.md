@@ -77,16 +77,16 @@ and verify any JPAM-specific policy in [`official-source-map.md`](official-sourc
 ## 6. Process & portal
 | Item | Note |
 |------|------|
-| Submission portal | **ScholarOne / Manuscript Central** — confirm current URL (待核实) |
+| Submission portal | **Wiley Authors / Research Exchange** — verify the live prompts before upload |
 | Owner / publisher | **APPAM** / **Wiley** |
-| Review model | **Double-blind** — anonymize the manuscript |
+| Review model | **Double-blind/anonymized preflight** — anonymize the manuscript and keep a separate title page ready |
 | Article types | Feature Research · Methods for Policy Analysis · Policy Retrospective (peer-reviewed) · Point/Counterpoint · Policy Insights (invited, not reviewed) · Book Reviews |
-| Fee / membership | Free for APPAM members; non-members ~$100 prof / $40 student; waivers available (待核实) |
-| Data policy | Archive data/code + data-availability statement (待核实 on designated repository) |
+| Fee / membership | Free for APPAM members; non-members **USD 100 professional / USD 40 student**; no resubmission fee; waivers available |
+| Data policy | Prepare a data-availability statement plus archived code/data in a persistent repository; Research Exchange governs exact prompts |
 
 ## 7. Cautions
-1. **Verify volatile specifics** (editor/team, exact caps, fee, accepted types, data-policy wording,
-   portal) on the official Wiley/APPAM pages — they change; unverified items are marked 待核实.
+1. **Verify volatile specifics** (editor/team, exact caps, accepted types, data-policy wording,
+   portal prompts) on the official Wiley/APPAM pages and in Research Exchange.
 2. **Anonymize properly** — JPAM is double-blind; strip metadata and obvious self-references.
 3. **Plan for restricted data** — policy evaluations often use administrative microdata; document an
    access path and provide runnable code on synthetic data.

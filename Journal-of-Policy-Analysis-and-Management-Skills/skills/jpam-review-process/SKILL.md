@@ -6,7 +6,7 @@ description: Use when anticipating how a Journal of Policy Analysis and Manageme
 # Review Process (jpam-review-process)
 
 Knowing how JPAM judges papers lets you pre-empt the objections that sink them. JPAM is an APPAM /
-Wiley journal with **double-blind** peer review and a stated right to **desk-reject without review**.
+Wiley journal with an anonymized-review preflight and a stated right to **desk-reject without review**.
 The reviewer pool is cross-disciplinary, so a paper must satisfy an economist's identification standard
 *and* a policy reader's relevance standard at once. (Verify volatile specifics on the author page:
 检索于 2026-06；以官网为准.)
@@ -23,8 +23,8 @@ The reviewer pool is cross-disciplinary, so a paper must satisfy an economist's 
 1. **Desk screen.** Editors may **desk-reject without review** for fit (not a credible policy
    evaluation / out of scope), inadequate identification, or insufficient significance. The submission
    must also satisfy the membership-or-fee requirement before it is considered (see `jpam-submission`).
-2. **Double-blind peer review.** Anonymized manuscript + separate title page; referees do not see author
-   identities and authors do not see referees'. Anonymize self-references.
+2. **Anonymized review preparation.** Prepare an anonymized manuscript plus a separate title page; follow
+   the live Research Exchange file labels and anonymity prompts. Anonymize self-references.
 3. **Cross-disciplinary referees.** Expect at least one identification-focused reviewer and one
    policy/field reviewer. Both must be satisfied — strong design, real relevance.
 4. **Decision categories.** Reject / major or minor revision (R&R) / accept (exact category labels vary;
@@ -78,4 +78,4 @@ The reviewer pool is cross-disciplinary, so a paper must satisfy an economist's 
 ## Supplementary resources
 
 - [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md) — objections by identification strategy
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — review model, article types, decision categories (待核实)
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — review model, article types, decision-category guardrails

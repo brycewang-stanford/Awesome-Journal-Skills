@@ -9,7 +9,8 @@ JPAM publishes program evaluations that often inform real spending decisions, so
 **reproducible**. The journal expects authors to **archive the data and code** behind the reported
 results in a suitable public repository, with a clear data-availability statement. Build the package as
 you go so it does not stall acceptance — and plan early for the **restricted administrative data**
-common in policy work. (Verify the current wording on the author page: 检索于 2026-06；以官网为准.)
+common in policy work. Verify the current wording in Wiley Authors / Research Exchange before upload
+(检索于 2026-06-20；以官网为准).
 
 ## When to trigger
 
@@ -22,8 +23,9 @@ common in policy work. (Verify the current wording on the author page: 检索于
 
 1. **Public deposit.** Place the replication materials in a recognized repository (e.g., the project's
    ICPSR/openICPSR archive, Harvard Dataverse, OSF, or a journal-designated repository) with a
-   persistent identifier — not a personal website or transient cloud link. Confirm the journal's current
-   designated repository on the author page.
+   persistent identifier — not a personal website or transient cloud link. Recent JPAM data-availability
+   statements often use a JPAM/Harvard Dataverse repository, while Research Exchange controls the exact
+   repository prompt.
 2. **Reproduce every reported number.** A master script regenerates every table and figure from the
    raw/constructed data. Exhibit numbers in the manuscript match the package output exactly.
 3. **Documentation.** A README covering data provenance, construction steps, software/package versions,
@@ -65,8 +67,8 @@ JPAM's transparency expectation is met honestly by:
 - Policy evaluations lean heavily on **restricted administrative data**; an honest restriction note plus
   a real access path and runnable code on synthetic/derived data is the expected, accepted route — not a
   loophole to skip transparency.
-- The exact deposit requirement, designated repository, and whether verification is performed can change;
-  confirm the current data-policy wording on the Wiley/APPAM author page (待核实).
+- The exact deposit requirement, repository prompt, and reproduction-check workflow can change; confirm
+  the current data-policy wording in Wiley Authors / Research Exchange.
 - Build the package alongside the analysis: retrofitting reproducibility after acceptance is where
   policy papers stall.
 
@@ -92,5 +94,5 @@ reproduce every number. (Illustrative.)
 
 ## Supplementary resources
 
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — JPAM data/replication policy + designated repository (待核实)
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — JPAM data/replication policy evidence and repository guardrails
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — repositories and reproducibility tooling for restricted-data projects

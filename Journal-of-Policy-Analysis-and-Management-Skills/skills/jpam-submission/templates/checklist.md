@@ -1,14 +1,14 @@
 # JPAM Pre-Submission Checklist (worksheet)
 
-Companion to [`../SKILL.md`](../SKILL.md). Work top to bottom before uploading to **ScholarOne /
-Manuscript Central**. Verify every volatile item against the current Wiley/APPAM author page —
-items marked 待核实 change (检索于 2026-06；以官网为准).
+Companion to [`../SKILL.md`](../SKILL.md). Work top to bottom before uploading through **Wiley Authors /
+Research Exchange**. Verify every volatile item against the current Wiley/APPAM author page and the
+live Research Exchange prompts (检索于 2026-06-20；以官网为准).
 
 ## 0. Article type
 - [ ] Type chosen: Feature Research Article / Methods for Policy Analysis / Policy Retrospective
       (peer-reviewed) — or Point/Counterpoint / Policy Insights (invited, **not** peer-reviewed) / Book Review
 - [ ] If targeting an invited type, an invitation/agreement is in hand
-- [ ] Length within current guidance for the type (Policy Insights ≤ 3,000 words; feature-article cap 待核实)
+- [ ] Length within current guidance for the type (Policy Insights ≤ 3,000 words; feature-article limit checked live)
 
 ## 1. Fit & contribution
 - [ ] A specific policy or program is evaluated (not a descriptive "determinants of" study)
@@ -38,10 +38,10 @@ items marked 待核实 change (检索于 2026-06；以官网为准).
 - [ ] Separate, non-anonymous **title page** prepared as a distinct file
 
 ## 5. Fee / membership & metadata
-- [ ] APPAM membership current **or** submission fee paid (~$100 prof / $40 student, 待核实)
+- [ ] APPAM membership current **or** submission fee paid (USD 100 professional / USD 40 student)
       **or** an approved waiver (info@appam.org) is in hand
 - [ ] Corresponding-author ORCID ready (confirm requirement on the live page)
-- [ ] References in the current Wiley/APPAM house style (待核实 on edition)
+- [ ] References in the current Wiley/APPAM house style
 
 ## 6. Transparency & compliance
 - [ ] Data-availability statement drafted
@@ -52,5 +52,5 @@ items marked 待核实 change (检索于 2026-06；以官网为准).
 
 ## 7. Final
 - [ ] Every number in the text matches the deposited replication output
-- [ ] Files and metadata required by ScholarOne assembled
+- [ ] Files and metadata required by Research Exchange assembled
 - [ ] After submission: await decision → on R&R, go to [`../../jpam-rebuttal/SKILL.md`](../../jpam-rebuttal/SKILL.md)
