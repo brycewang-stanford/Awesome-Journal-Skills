@@ -57,6 +57,8 @@ JMIS is a quarterly with a single EIC and a board of AEs; turnaround depends on 
 - [ ] You have separated fatal framing problems from fixable evidence gaps
 - [ ] Expectations on timing are realistic for an EIC-led quarterly
 - [ ] Any quoted turnaround/acceptance statistic is marked 待核实 unless sourced
+- [ ] The revise-vs-reroute decision rule has been applied to the binding concern
+- [ ] The AE letter, not the raw referee reports, is read as the decision signal
 
 ## Anti-patterns
 

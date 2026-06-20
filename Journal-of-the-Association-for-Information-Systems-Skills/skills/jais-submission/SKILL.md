@@ -55,6 +55,10 @@ Self-select among JAIS's seven categories and confirm the budget (检索于 2026
 - [ ] First page elements (title, abstract, keywords) prepared per the style guide (counts 待核实)
 - [ ] Statement that the paper is not under review elsewhere; prior versions disclosed
 
+## Open-access and rights expectations to confirm before you submit
+
+JAIS follows the AIS **Green Open Access** model: authors of accepted papers may self-archive the accepted version with no embargo, and articles are free to AIS members. There is no stated article processing charge, but **copyright is transferred to AIS prior to publication** via the Copyright Release form, with certain author rights retained. Confirm the current rights and OA terms on the policies page before submitting, and make sure your coauthors and any funder mandates are compatible with green self-archiving rather than gold OA. These are policy facts that shift, so treat specifics as **待核实** at submission time.
+
 ## Anti-patterns
 
 - Submitting through the wrong portal — JAIS uses ManuscriptCentral, not an INFORMS or Wiley system.

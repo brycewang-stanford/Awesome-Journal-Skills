@@ -35,6 +35,10 @@ A relabeled existing construct is the most common Theory desk-reject. To clear t
 
 A "novel integration" must change what each source theory predicts, not staple them side by side. State the tension or gap between the theories, then show how the integration resolves it and yields predictions neither theory makes alone. Multi- or inter-disciplinary borrowing is encouraged — but the IS phenomenon must reshape the borrowed theory, not merely host it.
 
+## Derive claims before you look at results
+
+Whatever the genre, JAIS expects the theoretical logic to *precede* the evidence. State the mechanism in words — what is the IT-enabled force, on whom, through what channel, and when does it reverse — then write the hypotheses (behavioral), comparative-statics predictions (economics), or design propositions (design science) that follow from it. Theorize mediation as a channel and moderation as a reason the IT effect strengthens or weakens, rather than as terms you happen to test. Predictions that merely restate correlations the data already revealed are HARKing, and a developmental Senior Editor will read the seams.
+
 ## Make boundary conditions and the IT artifact load-bearing
 
 IS effects are contingent on the artifact, the user, the task, and the context. Name where the theory holds and where it breaks, and ensure the technology is *in* the mechanism (not an interchangeable treatment). A theorized scope condition beats an over-claimed universal law.

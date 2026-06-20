@@ -17,6 +17,10 @@ description: Use when building the exhibits of a Journal of the Association for 
 
 JAIS instructs that the article body may include **"text, tables, and figures only"** and that **"the body should function as a standalone document"**; complex materials go in separate files, and **links and multimedia belong in appendices** (检索于 2026-06；以官网为准). This is a real design constraint: every claim a reviewer needs to evaluate must be readable inside the body, on paper, without clicking out. Design exhibits that work in static, printed form.
 
+## The theory figure earns its place at JAIS
+
+Because JAIS foregrounds theory, the framework or research-model figure is often the most-read exhibit in the paper — sometimes more than the results table. Make it carry real meaning: show the constructs, the directional relationships, the moderators/mediators, and the boundary, and ensure it matches the propositions in the text exactly. A diagram that adds a path the prose never theorizes, or omits one the prose argues, reads as a drafting error and undermines the theoretical contribution. For Theory and Foundational papers especially, invest in a figure that a reader could reconstruct the argument from.
+
 ## Make each exhibit answer one question
 
 A JAIS exhibit should have a single job a reader can state in a sentence. A results table answers "what is the estimated relationship and how precise is it?"; a measurement table answers "are the constructs reliable and distinct?"; a theory figure answers "what is the mechanism?" Title and note each exhibit so it is self-contained — readable without hunting through the text.

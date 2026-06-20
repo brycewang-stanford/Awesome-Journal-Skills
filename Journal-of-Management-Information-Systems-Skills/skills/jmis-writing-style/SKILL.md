@@ -52,6 +52,8 @@ Before: a 190-word abstract that spends three sentences on background, cites two
 - [ ] IS constructs defined and used consistently; reference-discipline machinery explained
 - [ ] Prose reads cleanly with numbered citations; references in JMIS numbered style
 - [ ] Active voice; hedging trimmed; one idea per paragraph
+- [ ] One term per construct, defined at first use and held stable throughout
+- [ ] Prose contains no first-person self-citation or detail that breaks double-blind
 
 ## Write so the double-blind file stays blind
 

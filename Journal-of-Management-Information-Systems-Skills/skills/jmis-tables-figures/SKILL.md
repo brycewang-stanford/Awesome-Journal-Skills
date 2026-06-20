@@ -51,6 +51,8 @@ Order is part of the argument: (1) descriptives/balance establish the sample and
 - [ ] Survey papers include measurement-model and discriminant-validity exhibits
 - [ ] Empirical papers include an event-study/leads figure where parallel trends matter
 - [ ] Body holds the contribution-establishing exhibits; appendix holds only support; ≤50pp respected
+- [ ] Exhibits numbered consecutively, captioned by content, and called out in order
+- [ ] No exhibit de-anonymizes the author or proprietary data source in the blind file
 
 ## Number and reference exhibits for JMIS's house style
 

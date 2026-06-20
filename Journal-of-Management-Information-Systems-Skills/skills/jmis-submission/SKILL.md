@@ -43,6 +43,8 @@ description: Use when running the final pre-submission preflight for a Journal o
 - [ ] Separate online appendix / survey-instrument attachments as needed
 - [ ] Email to **jmis@fdu.edu**, subject **"JMIS Submission"**
 - [ ] Confirmed the paper is not under review elsewhere
+- [ ] Re-read once asking "could a referee guess who wrote this?" — answer is no
+- [ ] Current intake address re-checked on jmis-web.org (process facts are volatile)
 
 ## Why the intake route is the easiest thing to get wrong
 

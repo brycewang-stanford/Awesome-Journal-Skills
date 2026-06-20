@@ -51,6 +51,8 @@ When referees conflict, the **AE's letter is the decision signal** — prioritiz
 - [ ] Each response names the change, its location, and the result (with new numbers)
 - [ ] Declines are justified with evidence, not asserted
 - [ ] Revised manuscript stays ≤50pp, anonymized, with numbered references
+- [ ] The letter opens with a one-page summary of major changes
+- [ ] Every response carries a verifiable pointer (section/table/page) the AE can check
 
 ## Worked move: converting a contested request into a resolved concern (illustrative)
 

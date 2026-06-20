@@ -51,6 +51,8 @@ A results section supports: "the recommender redesign reduced marginal-seller re
 - [ ] A concrete managerial/economic implication is stated (not generic "implications for practice")
 - [ ] The claim is narrower than the evidence; ruled-out alternatives and boundaries are named
 - [ ] Intro "we show that…" and discussion implications state the same contribution
+- [ ] The contribution verb matches the genre (identify / insight / evaluated artifact)
+- [ ] Both a theoretical and a managerial/economic payload are named and reinforce each other
 
 ## Make the dual contribution explicit
 

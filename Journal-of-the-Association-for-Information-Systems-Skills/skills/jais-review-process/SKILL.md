@@ -38,6 +38,10 @@ Each category's Senior Editor brings that genre's standards, so the *identity* o
 
 A developmental SE letter on a major revision is closer to a roadmap than a verdict. Mine it for the editor's priorities; those, not reviewer word-count, set your revision plan.
 
+## Timeline and expectations, calibrated
+
+JAIS, like its Basket siblings, runs a multi-round developmental process: an initial decision, then typically one or more rounds of major then minor revision before acceptance. Plan for this. A first-round major revision is the *normal* path to publication, not a near-miss; the work happens across rounds as the SE and reviewers engage the paper. Treat exact turnaround times, acceptance rates, and impact-factor figures as **待核实** — they move and vary by category — and do not let an optimistic timeline tempt you into a thin, rushed revision that squanders a developmental opening.
+
 ## Weight the comments by authorship
 
 The **Senior Editor owns the decision.** When reviewers conflict, resolve in the direction the SE signals and say so. Reviewer points that the SE did not elevate still deserve a response, but the SE's synthesis is the spine of the revision. Reading the letter this way prevents the classic error of treating every reviewer comment as equally binding.
