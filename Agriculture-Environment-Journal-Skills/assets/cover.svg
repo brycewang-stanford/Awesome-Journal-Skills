@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="1100" viewBox="0 0 880 1100" role="img" aria-label="Agriculture & Environment Journal Skills — 30 flagship agriculture, environment and earth-science journals">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08140d"/>
+      <stop offset="0.55" stop-color="#0e2a1c"/>
+      <stop offset="1" stop-color="#103027"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4ade80"/>
+      <stop offset="0.5" stop-color="#22c55e"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="880" height="1100" fill="url(#bg)"/>
+  <rect x="36" y="36" width="808" height="1028" rx="28" fill="none" stroke="#1d4435" stroke-width="2"/>
+
+  <!-- leaf + globe motif -->
+  <g transform="translate(440,250)">
+    <circle r="104" fill="none" stroke="url(#accent)" stroke-width="2.5" opacity="0.85"/>
+    <ellipse rx="104" ry="40" fill="none" stroke="#38bdf8" stroke-width="1.4" opacity="0.55"/>
+    <path d="M0 96 C -54 40, -54 -40, 0 -96 C 54 -40, 54 40, 0 96 Z" fill="url(#accent)" opacity="0.85"/>
+    <path d="M0 96 C 0 30, 0 -40, 0 -96" stroke="#08140d" stroke-width="3" fill="none"/>
+    <path d="M0 36 L -32 8 M0 4 L 30 -22 M0 -34 L -26 -56" stroke="#08140d" stroke-width="2.4" fill="none"/>
+  </g>
+
+  <text x="440" y="470" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="56" fill="#eefbf3" font-weight="700">Agriculture &amp;</text>
+  <text x="440" y="536" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="56" fill="#eefbf3" font-weight="700">Environment</text>
+  <text x="440" y="598" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#4ade80" font-weight="600">Journal Skills</text>
+
+  <line x1="240" y1="646" x2="640" y2="646" stroke="#1d4435" stroke-width="2"/>
+
+  <text x="440" y="704" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="30" fill="#cbe8d6">30 flagship ag · env · earth journals</text>
+  <text x="440" y="746" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#8fb8a3">Nature Food · Nature Plants · New Phytologist</text>
+  <text x="440" y="778" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#8fb8a3">Global Change Biology · Water Resources Research</text>
+
+  <g font-family="-apple-system, 'Segoe UI', sans-serif" font-size="20" fill="#08140d">
+    <rect x="250" y="828" width="160" height="44" rx="22" fill="url(#accent)"/>
+    <text x="330" y="856" text-anchor="middle" font-weight="700">fit · framing</text>
+    <rect x="470" y="828" width="160" height="44" rx="22" fill="#38bdf8"/>
+    <text x="550" y="856" text-anchor="middle" font-weight="700">house style</text>
+  </g>
+
+  <text x="440" y="960" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="20" fill="#5f8472">One fit-and-house-style skill per journal</text>
+  <text x="440" y="990" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="20" fill="#5f8472">+ en-agrienv-journal-workflow routing</text>
+</svg>

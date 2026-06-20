@@ -1,7 +1,7 @@
 # Awesome Journal Skills (AJS)
 
 <p align="center">
-  <img src="assets/banner-en.png" alt="Awesome Journal Skills (AJS) — a one-stop index of journal-specific AI submission workflows: 2025 agent skills, 123 packs, 396 top journals, 155 CS/AI venues" width="100%">
+  <img src="assets/banner-en.png" alt="Awesome Journal Skills (AJS) — a one-stop index of journal-specific AI submission workflows: 2056 agent skills, 124 packs, 426 top journals, 155 CS/AI venues" width="100%">
 </p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -333,7 +333,7 @@ Use aer-workflow to assess how far my draft is from AER's bar and what to do nex
 | ⚙️ **Engineering & technology**<br><sub>control · communications · signal · power · robotics · photonics · biomedical engineering · materials</sub> | Proceedings of the IEEE · TAC · Automatica · Optica · Nature Electronics · Acta Materialia | EN breadth bundle |
 | 🤖 **Computer-science conferences**<br><sub>AI-first</sub> | NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS + 155 venues | depth packs + breadth bundle |
 
-<sub><b>123 packs / 2025 skills</b> total. A "depth pack" = one venue, end-to-end (~12 skills); a "breadth bundle" = one lightweight "venue-fit + house-style" skill per venue plus a router.</sub>
+<sub><b>124 packs / 2056 skills</b> total. A "depth pack" = one venue, end-to-end (~12 skills); a "breadth bundle" = one lightweight "venue-fit + house-style" skill per venue plus a router.</sub>
 
 ---
 
@@ -357,7 +357,7 @@ Rule of thumb: start from a root folder or cover card when browsing, use a bread
 
 ## 📂 200 Root Journal Folders
 
-For visual browsing at the repository root, the 200 social-science breadth journals now also have one lightweight folder each: 100 Chinese roadmap journals in pinyin folder names, and 100 English econ / finance / management / business journals in title-style folder names. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the 2025-skill count stay stable.
+For visual browsing at the repository root, the 200 social-science breadth journals now also have one lightweight folder each: 100 Chinese roadmap journals in pinyin folder names, and 100 English econ / finance / management / business journals in title-style folder names. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the 2056-skill count stay stable.
 
 ### Chinese Roadmap Journals · 100 Pinyin Folders
 
@@ -1093,7 +1093,7 @@ This bundle is the natural-science sibling of the English social-science breadth
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | Ideation → writing → publication (Claude Code / OpenCode / Codex) | upstream |
 | **Codex/Claude Academic Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | Reading · writing · scientific computing | upstream |
 
-<sub><b>Count methodology.</b> The homepage <b>2025</b> = every <code>SKILL.md</code> minus the 10 duplicated Nature plugin-mirror files, spread across <b>123 packs</b>. All five breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation: <b>1363</b> (113 in-repo depth packs, single venue end-to-end, ~12 skills each) + <b>556</b> (5 breadth bundles: CN social science 103 + EN social science 101 + EN natural science 155 + engineering technology 41 + CS conferences 156) + <b>106</b> (5 imported/submodule packs: AER 9 + Nature family 10 + Nature-Paper 18 + claude-scholar 45 + codex-claude 24) = <b>2025</b>. The figure is enforced in CI by <code>python3 tools/audit_repo.py</code>; the README and the actual file count are not allowed to drift.</sub>
+<sub><b>Count methodology.</b> The homepage <b>2056</b> = every <code>SKILL.md</code> minus the 10 duplicated Nature plugin-mirror files, spread across <b>124 packs</b>. All six breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation: <b>1363</b> (113 in-repo depth packs, single venue end-to-end, ~12 skills each) + <b>587</b> (6 breadth bundles: CN social science 103 + EN social science 101 + EN natural science 155 + engineering technology 41 + agriculture environment 31 + CS conferences 156) + <b>106</b> (5 imported/submodule packs: AER 9 + Nature family 10 + Nature-Paper 18 + claude-scholar 45 + codex-claude 24) = <b>2056</b>. The figure is enforced in CI by <code>python3 tools/audit_repo.py</code>; the README and the actual file count are not allowed to drift.</sub>
 
 ---
 

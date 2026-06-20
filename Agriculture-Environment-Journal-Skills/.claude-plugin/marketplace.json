@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "agriculture-environment-journal-skills",
+  "version": "0.1.0",
+  "description": "Per-journal fit-and-house-style skills for 30 flagship English-language agriculture, environment, and earth-science journals, plus en-agrienv-journal-workflow routing.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "agriculture-environment-journal-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "English agriculture / environment / earth-science journal routing and per-journal fit skills with official-submission-check discipline.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "agriculture",
+        "agronomy",
+        "food-science",
+        "plant-science",
+        "soil-science",
+        "environment",
+        "sustainability",
+        "earth-science",
+        "hydrology",
+        "climate"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/agricultural-and-forest-meteorology",
+        "skills/agriculture-ecosystems-and-environment",
+        "skills/agronomy-for-sustainable-development",
+        "skills/annual-review-of-environment-and-resources",
+        "skills/annual-review-of-plant-biology",
+        "skills/bulletin-of-the-american-meteorological-society",
+        "skills/communications-earth-and-environment",
+        "skills/earth-and-planetary-science-letters",
+        "skills/earth-system-science-data",
+        "skills/en-agrienv-journal-workflow",
+        "skills/environment-international",
+        "skills/environmental-health-perspectives",
+        "skills/environmental-pollution",
+        "skills/field-crops-research",
+        "skills/food-chemistry",
+        "skills/forest-ecology-and-management",
+        "skills/geology",
+        "skills/global-biogeochemical-cycles",
+        "skills/global-change-biology",
+        "skills/journal-of-cleaner-production",
+        "skills/journal-of-climate",
+        "skills/journal-of-hydrology",
+        "skills/limnology-and-oceanography",
+        "skills/nature-food",
+        "skills/nature-plants",
+        "skills/new-phytologist",
+        "skills/resources-conservation-and-recycling",
+        "skills/soil-biology-and-biochemistry",
+        "skills/the-plant-journal",
+        "skills/trends-in-food-science-and-technology",
+        "skills/water-resources-research"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "agriculture-environment-journal-skills",
+  "description": "Agent skill stack for 30 flagship English-language agriculture, environment, and earth-science journals — completing the 'agriculture & environment' category that the natural-science bundle leaves almost empty. Covers the agriculture / food / plant / soil / crop flagships (Nature Food, Nature Plants, New Phytologist, The Plant Journal, Field Crops Research, soil and agronomy venues, Food Chemistry), the environment / sustainability / pollution leaders (Global Change Biology, Environment International, Environmental Health Perspectives, Journal of Cleaner Production), and the earth / atmosphere / hydrology / ocean / climate flagships (Journal of Climate, Water Resources Research, Earth and Planetary Science Letters, Geology, Global Biogeochemical Cycles). One self-contained fit-and-house-style skill per journal, plus en-agrienv-journal-workflow routing.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "agriculture",
+    "agronomy",
+    "food-science",
+    "plant-science",
+    "soil-science",
+    "environment",
+    "sustainability",
+    "earth-science",
+    "hydrology",
+    "climate",
+    "ecology",
+    "academic-writing",
+    "journal-submission"
+  ]
+}

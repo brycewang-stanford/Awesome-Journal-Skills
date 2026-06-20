@@ -112,5 +112,3 @@ JAMA / Lancet 专科子刊：
 4. clone 审计无 ≥0.90 配对；workflow 卡之间不互相克隆。
 5. `python3 tools/run_checks.py` 全绿。
 6. 根 README 双语 + 计数同步；`audit_repo.py` tripwire 同步。
-</content>
-</invoke>
