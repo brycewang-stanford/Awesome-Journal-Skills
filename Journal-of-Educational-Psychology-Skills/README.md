@@ -134,6 +134,7 @@ belong *before* schools are recruited.
 ### Resources
 
 - [`resources/external_tools.md`](resources/external_tools.md) — power for nested designs (PowerUpR/`simr`/Optimal Design), multilevel/SEM (`lme4`/`lavaan`/Mplus), preregistration (OSF/REES), repositories (OSF/ICPSR/Dataverse/Zenodo), JARS, `papaja`
+- [`resources/code/`](resources/code/) — runnable R skeletons for cluster-design diagnostics, multilevel/growth models, mediation, and JARS-ready tables
 - [`resources/official-source-map.md`](resources/official-source-map.md) — official APA URLs behind every fact, with 待核实 markers
 - [`resources/worked-examples/01-introduction.md`](resources/worked-examples/01-introduction.md) — a before→after JEP Introduction in house style (fictional)
 - [`resources/exemplars/library.md`](resources/exemplars/library.md) — real, web-verified JEP papers by method × topic, with a sibling-journal guard

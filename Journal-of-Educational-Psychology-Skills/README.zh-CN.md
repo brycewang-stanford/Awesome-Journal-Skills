@@ -128,6 +128,7 @@ jedpsych-rebuttal
 ### 资源
 
 - [`resources/external_tools.md`](resources/external_tools.md) —— 嵌套设计的功效（PowerUpR/`simr`/Optimal Design）、多层/SEM（`lme4`/`lavaan`/Mplus）、预注册（OSF/REES）、数据仓库（OSF/ICPSR/Dataverse/Zenodo）、JARS、`papaja`
+- [`resources/code/`](resources/code/) —— 可运行的 R 骨架，用于整群设计诊断、多层/增长模型、中介分析与符合 JARS 的结果表
 - [`resources/official-source-map.md`](resources/official-source-map.md) —— 每条事实背后的 APA 官方链接，含 待核实 标记
 - [`resources/worked-examples/01-introduction.md`](resources/worked-examples/01-introduction.md) —— 按 JEP 文风改写的引言「修改前→修改后」（虚构）
 - [`resources/exemplars/library.md`](resources/exemplars/library.md) —— 经网络核实的真实 JEP 论文，按 方法 × 主题 排列，附姊妹刊辨析
