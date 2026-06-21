@@ -50,12 +50,12 @@ the start (run this skill early *and* before submission).
 
 ## What about data sharing? (open-but-careful)
 
-- AA and Wiley have data-availability and ethics policies; share what you ethically can (e.g., codebooks,
-  non-sensitive materials, analysis details for quantitative subfields) and **document why** sensitive
-  data are withheld with an access/contact path where appropriate.
+- AA's Wiley compliance row does not impose a journal-specific data-sharing tier; share what you
+  ethically can (e.g., codebooks, non-sensitive materials, analysis details for quantitative subfields)
+  and **document why** sensitive data are withheld with an access/contact path where appropriate.
 - For biological/archaeological quantitative work, normal reproducibility hygiene applies: documented
   procedures, pinned versions, seeds — *subject to* the ethics constraints above. Sharing never trumps
-  consent or community harm. 待核实 the current AA/Wiley data-availability wording.
+  consent or community harm. Follow any Research Exchange data-availability prompt at upload.
 
 ## Anti-patterns
 

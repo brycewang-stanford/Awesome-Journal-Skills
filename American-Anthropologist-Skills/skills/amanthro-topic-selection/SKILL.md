@@ -46,7 +46,7 @@ A strong AA paper usually clears all four:
 ## Section choice
 
 - **Research Article** — full study, broad claim, **≤ 8,000 words** (extendable to ~10,500 at the
-  editors' discretion on acceptance). 待核实 the current caps on the live page.
+  editors' discretion on acceptance).
 - **Vital Topics Forum** — a curated multi-author debate on a pressing issue (often invited/proposed).
 - **World Anthropologies** — anthropology produced beyond the Anglophone center; decenters the canon.
 - **Public Anthropologies / Multimodal Anthropologies** — engaged, activist, or media-based work where

@@ -46,10 +46,9 @@ AA's constraints differ from a single-subfield journal or a quantitative social-
 | Ethics                | **Consent, anonymization, heritage/repatriation, accountability** are central   | Ethics is designed in, and gates publication                     |
 | Distinctive sections  | Vital Topics Forums · World / Public / Multimodal Anthropologies · Review Essays | Choose the right section up front                                |
 
-**Official basis checked 2026-06** (检索于 2026-06；以官网为准). Volatile specifics (current editor and
-term, exact caps, ORCID/fee/APC, policy wording) change — items not directly confirmed are marked
-**待核实** in [`resources/official-source-map.md`](resources/official-source-map.md). **Verify on the
-official page.**
+> **Official basis checked 2026-06-20** — facts are anchored to the AA editorial site, AAA ethics and
+> news pages, AnthroSource/Wiley, and Wiley's Author Compliance Tool. Live Research Exchange prompts,
+> APCs, and editorial rosters can change; verify those at upload or acceptance.
 
 ### Sections at a glance
 
@@ -144,7 +143,7 @@ decisions, not final-step checks.
 ### Resources
 
 - [`resources/external_tools.md`](resources/external_tools.md) — anthropology data sources, archives, and software (CAQDAS, transcription, GIS, lab/quant) by subfield
-- [`resources/official-source-map.md`](resources/official-source-map.md) — official AA / AAA / Wiley URLs behind every fact, with 待核实 markers on unverified items
+- [`resources/official-source-map.md`](resources/official-source-map.md) — official AA / AAA / Wiley URLs behind every fact and live-check guardrail
 - [`resources/worked-examples/01-introduction.md`](resources/worked-examples/01-introduction.md) — before→after AA-style introduction (fictional)
 - [`resources/exemplars/library.md`](resources/exemplars/library.md) — real, web-verified AA papers by subfield × method, with a sibling-journal guard
 
@@ -166,7 +165,7 @@ decisions, not final-step checks.
 - It does not write a submittable manuscript for you
 - It does not simulate any specific editor's or reviewer's taste
 - It does not grant ethics waivers or replace IRB/community review
-- It does not assert volatile metadata (current editor and term, exact caps, ORCID/fee/APC, policy wording) — verify on the official page; unverified items are marked 待核实
+- It does not hard-code volatile metadata beyond sourced facts; verify Research Exchange prompts, APCs, and masthead changes on the live pages
 
 ---
 

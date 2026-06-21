@@ -46,7 +46,7 @@ practices that lift marginalized voices** — style here is partly an ethical co
 - Choose the scenes and exhibits that argue; cut redundant description.
 - Notes count toward the limit — keep them lean.
 - If the piece is short and engaged, target the right section (Essay 2,000–3,000; Commentary ≤ 1,500;
-  Review Essay ≤ 5,000) rather than padding toward a Research Article. 待核实 current caps.
+  Review Essay ≤ 5,000) rather than padding toward a Research Article.
 
 ## Anti-patterns
 

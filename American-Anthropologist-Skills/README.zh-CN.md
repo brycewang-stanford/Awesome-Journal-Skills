@@ -42,9 +42,9 @@ AA 的约束不同于单一子领域期刊或定量社会科学期刊：
 | 伦理            | **知情同意、匿名化、遗产／归还、问责**为核心                        | 伦理须在设计阶段嵌入，并影响能否发表                |
 | 特色栏目        | Vital Topics Forum · World／Public／Multimodal Anthropologies · 书评 | 提前选对栏目                                         |
 
-**官方依据核对于 2026-06**（检索于 2026-06；以官网为准）。易变的具体信息（现任主编与任期、确切字数上限、
-ORCID／费用／APC、政策措辞）会变化——未直接确认者在
-[`resources/official-source-map.md`](resources/official-source-map.md) 中标注 **待核实**。**请以官网为准。**
+> **官方依据核对于 2026-06-20** —— 事实锚定于 AA 编辑部网站、AAA 伦理与新闻页面、
+> AnthroSource/Wiley，以及 Wiley Author Compliance Tool。Research Exchange 实时提示、APC 与编辑团队
+> 会变化，正式上传或接收后开放获取付款前请复核官网。
 
 ### 栏目一览
 
@@ -138,7 +138,7 @@ amanthro-rebuttal
 ### 资源
 
 - [`resources/external_tools.md`](resources/external_tools.md) —— 按子领域整理的人类学数据源、档案与软件（CAQDAS、转写、GIS、实验室／定量）
-- [`resources/official-source-map.md`](resources/official-source-map.md) —— 本包每条事实背后的 AA／AAA／Wiley 官方网址，未确认项标注 待核实
+- [`resources/official-source-map.md`](resources/official-source-map.md) —— 本包每条事实背后的 AA／AAA／Wiley 官方网址与实时复核守则
 - [`resources/worked-examples/01-introduction.md`](resources/worked-examples/01-introduction.md) —— AA 体例的前后对照引言示例（虚构）
 - [`resources/exemplars/library.md`](resources/exemplars/library.md) —— 经网络核实的真实 AA 论文，按子领域 × 方法整理，附姊妹刊防混淆清单
 
@@ -160,7 +160,7 @@ amanthro-rebuttal
 - 不替你写出可直接投稿的稿件
 - 不模拟任何特定主编或评审人的口味
 - 不发放伦理豁免，也不替代 IRB／社群审查
-- 不断言易变的元信息（现任主编与任期、确切字数上限、ORCID／费用／APC、政策措辞）——请以官网为准；未确认项标注 待核实
+- 不把易变元信息写死为永久规则；Research Exchange 提示、APC 与编辑团队变更须以官网为准
 
 ---
 

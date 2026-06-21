@@ -76,22 +76,22 @@ constraints override convenience** — see
   include **DOIs**
 - Typesetting: Word or LaTeX (TeX Live / MacTeX, Overleaf); prepare an **anonymized** manuscript
   (no identifying metadata, anonymized **file name**, no obvious self-references) plus a separate title page
-- Include the **200-word abstract**; an ORCID iD for the corresponding author (confirm requirement)
+- Include the **200-word abstract**; ORCID is required for AAA journals
 
 ## 6. Process & portal
 | Item | Note |
 |------|------|
-| Submission portal | **Research Exchange** (since 15 Apr 2025; pre-2025 used Manuscript Central) — confirm current URL |
+| Submission portal | **Research Exchange** for new manuscripts since 15 Apr 2025 |
 | Owner / publisher | **AAA** / **Wiley** |
 | Review model | **Anonymous** — anonymize the manuscript and **file name**; ethics of care |
 | Sections | Research Articles · Vital Topics Forums · World / Public / Multimodal Anthropologies · Essays · Commentaries · Interviews · Review Essays · Book Reviews |
 | Length | Research Articles **≤ 8,000 words** (extendable ~10,500 on acceptance); abstract **200 words** |
-| Fee | **None** for submission/publication; OnlineOpen APC only if going open access |
-| Ethics & data | AAA *Principles of Professional Responsibility*; Wiley data-availability policy; consent/heritage central |
+| Fee | **None** for submission/publication; OnlineOpen APC **USD 3,570** if choosing open access |
+| Ethics & data | AAA *Principles of Professional Responsibility*; Wiley ACT lists no AA-specific data-sharing tier; consent/heritage central |
 
 ## 7. Cautions
-1. **Verify volatile specifics** (editors, exact caps, ORCID/fee/APC, sections, data-policy wording) on
-   the official AA / Wiley pages — they change; unverified items are marked 待核实.
+1. **Verify volatile specifics** (editors, portal prompts, APC, section availability, production-file
+   details) on the official AA / Wiley pages and Research Exchange.
 2. **Ethics first** — consent, anonymization, and heritage/repatriation obligations override data-sharing
    convenience; protecting people can mean not sharing.
 3. **Match method to subfield** — AA judges ethnographic, material, biological, and linguistic work on

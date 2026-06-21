@@ -18,20 +18,20 @@ relying on them.
 - Confirming the chosen section's caps are met and the manuscript is anonymized
 - Finalizing the ethics statement and figure permissions
 
-## Process facts (verify volatile items — 检索于 2026-06；以官网为准)
+## Process facts (checked 2026-06-20; verify live portal prompts)
 
 - **Owner / publisher:** American Anthropological Association (AAA) / **Wiley**.
-- **Portal:** **Research Exchange** (since 15 April 2025; pre-2025 submissions used Manuscript Central).
-- **Review model:** **anonymous** — anonymize the manuscript and **file name**; supply a separate title
+- **Portal:** **Research Exchange** for new manuscripts since **15 April 2025**.
+- **Review model:** **anonymous / double anonymized** — anonymize the manuscript and **file name**; supply a separate title
   page with author details.
 - **Sections & caps:** Research Article **≤ 8,000 words** (incl. figures, tables, references, notes;
   excl. transcriptions + abstract; extendable to ~10,500 on acceptance); Essay 2,000–3,000; Commentary
-  ≤ 1,500; Interview ~2,000; Review Essay ≤ 5,000 (2–5 books); Book Review ≤ 1,000. 待核实.
+  ≤ 1,500; Interview ~2,000; Review Essay ≤ 5,000 (2–5 books); Book Review ≤ 1,000.
 - **Abstract:** **200 words.**
 - **Style:** **Chicago Manual of Style author-date**; **free-format** accepted at submission; include
   **DOIs** in references where available.
-- **ORCID:** encouraged/required per Wiley; confirm on the page. 待核实.
-- **Fee:** **no submission or publication fee**; OnlineOpen available for open access (APC) if chosen.
+- **ORCID:** required for AAA journals.
+- **Fee:** **no submission or publication fee**; optional OnlineOpen APC is **USD 3,570** if chosen.
 
 ## Preflight checklist
 
@@ -49,7 +49,7 @@ relying on them.
 
 ### Format & metadata
 - [ ] Chicago author-date; one consistent style; **DOIs** included where available
-- [ ] Corresponding-author **ORCID** ready (confirm requirement)
+- [ ] Corresponding-author **ORCID** ready
 - [ ] Figures self-contained with **alt text** and **permissions/credits** (see `amanthro-tables-figures`)
 
 ### Ethics & files

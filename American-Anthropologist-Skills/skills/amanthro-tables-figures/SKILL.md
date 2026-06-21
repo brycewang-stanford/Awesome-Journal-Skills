@@ -77,8 +77,8 @@ charts do not.
   dignity of the people shown can override the cleanest visualization.
 - Exhibits **cost words** in Research Articles (the count includes figures, tables, references, and
   notes), so a decorative image is doubly expensive — drop it or move support to where it argues.
-- Wiley's exact alt-text, resolution, and permission specifics can change — confirm on the live author
-  guidelines (待核实) before final formatting.
+- AA's current author guidance calls for TIF figures at 300 dpi or greater, captions, credits, alt text,
+  and image descriptions; confirm Research Exchange file prompts before final upload.
 
 ## Supplementary resources
 

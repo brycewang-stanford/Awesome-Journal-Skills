@@ -28,8 +28,7 @@ ethical evidence.
 3. **Ethics of care.** AA states it strives for an ethics of care in editing and asks reviewers to do
    the same — constructive, non-destructive review. This does not lower the bar; it shapes the tone.
 4. **Decision categories.** Reject; major or minor revisions (revise-and-resubmit); accept. R&R is the
-   common positive outcome; outright acceptance on first submission is rare. (待核实 exact category names
-   and any acceptance-rate figures on the live page.)
+   common positive outcome; exact portal labels and acceptance-rate figures are not fixed in this pack.
 5. **Section-specific paths.** Vital Topics Forums and special sections are often **invited or proposed**
    (and AA may not always be accepting proposals); Multimodal and Public Anthropologies have their own
    editors and expectations; Review Essays are commissioned or pitched.
@@ -80,8 +79,8 @@ ethical evidence.
   expect rigorous, sometimes cross-subfield critique even in a generous letter.
 - A **revise-and-resubmit is the normal positive outcome**; treat it as an invitation, not a near-miss
   (see `amanthro-rebuttal`). Outright first-round acceptance is rare.
-- Decision-category names, reviewer counts, and acceptance rates are not published as fixed figures —
-  confirm the current process on the live editorial site (待核实).
+- Decision-category names, reviewer counts, and acceptance rates are not published as fixed figures in
+  the checked public guidance; use the live Research Exchange/editorial letter wording.
 
 ## Supplementary resources
 

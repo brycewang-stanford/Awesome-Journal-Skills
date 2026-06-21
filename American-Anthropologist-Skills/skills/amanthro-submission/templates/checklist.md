@@ -5,7 +5,7 @@ linguistic, plus reflexive/public anthropology), published by **Wiley** for the 
 Anthropological Association**, submitted through **Research Exchange**, under **anonymous** peer review
 and an explicit **ethics of care**. AA charges **no submission or publication fee** (OnlineOpen APC only
 if you choose open access). Verify all volatile specifics (caps, ORCID requirement, portal, data policy
-wording) on the official AA / Wiley author pages before submitting — items below marked 待核实.
+wording) on the official AA / Wiley author pages and Research Exchange before submitting.
 
 ## 1. Scope & fit (four-field flagship)
 
@@ -16,7 +16,7 @@ wording) on the official AA / Wiley author pages before submitting — items bel
       *Current Anthropology* with its CA✩ comments format)
 - [ ] Confirmed against the current AA aims & scope
 
-## 2. Length & abstract (verify current caps — 待核实)
+## 2. Length & abstract
 
 - [ ] Research Article **≤ 8,000 words** (incl. figures, tables, references, notes; excl. transcriptions
       + abstract); shorter sections within their caps (Essay 2,000–3,000; Commentary ≤ 1,500;
@@ -69,7 +69,7 @@ wording) on the official AA / Wiley author pages before submitting — items bel
 ## 8. Portal & files (Research Exchange)
 
 - [ ] Submitted via **Research Exchange**; correct article/section type selected
-- [ ] **ORCID** ready for the corresponding author (confirm requirement — 待核实)
+- [ ] **ORCID** ready for the corresponding author
 - [ ] Original, unpublished, not under review elsewhere; preprint status checked vs. Wiley policy
 - [ ] No submission/publication fee due (OnlineOpen APC only if choosing open access)
 - [ ] Files staged: anonymized manuscript + separate title page + figures + ethics statement + any forms
