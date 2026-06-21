@@ -122,10 +122,19 @@
   /* coverage */
   .coverage{margin-bottom:30px;}
   .cov-bar{
-    display:flex;height:34px;border-radius:7px;overflow:hidden;
+    display:flex;height:76px;border-radius:10px;overflow:hidden;
     box-shadow:inset 0 0 0 1px rgba(0,0,0,.04);margin-bottom:14px;
   }
-  .cov-seg{display:flex;align-items:center;justify-content:center;color:#fff;font-size:12px;font-weight:700;}
+  .cov-seg{
+    display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;
+    min-width:0;padding:0 12px;text-align:center;text-shadow:0 1px 2px rgba(0,0,0,.24);
+  }
+  .cov-name{
+    font-size:22px;font-weight:850;line-height:1.08;white-space:normal;
+  }
+  .cov-count{
+    margin-top:3px;font-size:27px;font-weight:900;line-height:1;
+  }
   .seg-cn{background:linear-gradient(180deg,var(--clay),var(--clay-deep));}
   .seg-en1{background:linear-gradient(180deg,var(--slate),#33485a);}
   .seg-en2{background:linear-gradient(180deg,var(--slate-soft),var(--slate));}
@@ -252,11 +261,11 @@
     <div class="coverage">
       <div class="section-h"><span class="zh">期刊覆盖</span><span class="en">Coverage</span><span class="rule"></span></div>
       <div class="cov-bar">
-        <div class="cov-seg seg-cn"  style="flex:115" title="中文期刊 115">中文 115</div>
-        <div class="cov-seg seg-en1" style="flex:100" title="英文经管 100">英文经管 100</div>
-        <div class="cov-seg seg-en2" style="flex:154" title="英文自然科学 154">英文自然科学 / 临床 154</div>
-        <div class="cov-seg seg-eng" style="flex:135" title="英文工程·农医·人文 135">工程·农医·人文 135</div>
-        <div class="cov-seg seg-cs"  style="flex:155" title="CS/AI 会议 155">CS / AI 会议 155</div>
+        <div class="cov-seg seg-cn"  style="flex:115" title="中文期刊 115"><span class="cov-name">中文</span><span class="cov-count">115</span></div>
+        <div class="cov-seg seg-en1" style="flex:100" title="英文经管 100"><span class="cov-name">英文经管</span><span class="cov-count">100</span></div>
+        <div class="cov-seg seg-en2" style="flex:154" title="英文自然科学 154"><span class="cov-name">英文自然/临床</span><span class="cov-count">154</span></div>
+        <div class="cov-seg seg-eng" style="flex:135" title="英文工程·农医·人文 135"><span class="cov-name">工程·农医·人文</span><span class="cov-count">135</span></div>
+        <div class="cov-seg seg-cs"  style="flex:155" title="CS/AI 会议 155"><span class="cov-name">CS/AI 会议</span><span class="cov-count">155</span></div>
       </div>
       <div class="cov-grid">
         <div class="cov-card">
