@@ -20,8 +20,12 @@ Primary source map for facts used in the Research Policy skill pack. **Access da
 | patent evidence | Official pages above; re-check live before submission |
 | R&D organization | Official pages above; re-check live before submission |
 
+## Verified on official pages (2026-06)
+
+- **Distributed editorial team (no single Editor-in-Chief)**, anchored at SPRU (Science Policy Research Unit, University of Sussex); editors include Ben Martin, Ammon Salter, Maryann Feldman, Elisa Giuliani, Keun Lee, Reinhilde Veugelers, and Maria Savona, among others. (Elsevier Research Policy editorial board)
+- Published by **Elsevier**; submit via Editorial Manager from the Research Policy ScienceDirect page.
+
 ## Unverified / volatile items
 
-- Current editor names and board composition are **待核实** unless explicitly quoted in an official page at submission time.
-- Exact submission fees, APCs, waivers, word limits, abstract limits, and blinding rules are **待核实** if not visible in the official pages above.
+- Exact **submission / OA APC, word limits, abstract limits, and blinding rules**, and the full rotating editor roster, are **待核实** if not visible on the official pages above — confirm at submission time.
 - Exemplar articles must be verified in the official archive or DOI page before being cited as real examples.

@@ -20,8 +20,12 @@ Primary source map for facts used in the World Development skill pack. **Access 
 | poverty mechanism | Official pages above; re-check live before submission |
 | implementation constraint | Official pages above; re-check live before submission |
 
+## Verified on official pages (2026-06)
+
+- **Editor-in-Chief: Arun Agrawal** (EiC since 2013; confirm currency on the live page).
+- **Open-access APC: USD 4,750** (excl. tax), with discounts possible by institutional agreement, country, or eligibility assessed at submission. (Elsevier World Development open-access page)
+
 ## Unverified / volatile items
 
-- Current editor names and board composition are **待核实** unless explicitly quoted in an official page at submission time.
-- Exact submission fees, APCs, waivers, word limits, abstract limits, and blinding rules are **待核实** if not visible in the official pages above.
+- Exact **word limits, abstract limits, and blinding rules**, and the current EiC if leadership has rotated, are **待核实** if not visible on the official pages above — confirm at submission time.
 - Exemplar articles must be verified in the official archive or DOI page before being cited as real examples.
