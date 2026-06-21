@@ -1,7 +1,7 @@
 # Awesome Journal Skills (AJS)
 
 <p align="center">
-  <img src="assets/banner-zh.png" alt="Awesome Journal Skills (AJS) — 按「期刊」定制的一站式 AI 投稿工作流索引：2809 个 Agent Skill、183 个 Pack、504 本顶级期刊、155 个 CS/AI 顶会" width="100%">
+  <img src="assets/banner-zh.png" alt="Awesome Journal Skills (AJS) — 按「期刊」定制的一站式 AI 投稿工作流索引：2989 个 Agent Skill、198 个 Pack、519 本顶级期刊、155 个 CS/AI 顶会" width="100%">
 </p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -25,6 +25,20 @@
     </tr>
   </table>
   <sub><strong>Stanford REAP × CoPaper.AI</strong> · 由斯坦福实证方法论团队精选与维护</sub>
+  <br/>
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://copaper.ai"><img src="assets/copaper-qrcode.png" alt="访问 copaper.ai" width="180" /></a><br/>
+        <strong>访问 <a href="https://copaper.ai">copaper.ai</a></strong>
+      </td>
+      <td width="40"></td>
+      <td align="center">
+        <img src="assets/copaper-wechat.jpg" alt="CoPaper.AI 微信" width="180" /><br/>
+        <strong>微信：CoPaper.AI</strong>
+      </td>
+    </tr>
+  </table>
 </div>
 
 <p align="center">
@@ -340,12 +354,12 @@
 | 板块 | 代表 venue | 形态 |
 |------|-----------|------|
 | 💼 **经管社科**<br><sub>经济 · 金融 · 管理 · 会计 · 营销 · 运营 · 信息系统</sub> | AER · QJE · JPE · Econometrica · JF · AMJ · TAR · MISQ ·《经济研究》·《管理世界》·《中国社会科学》 | 深度包 + 中英文广度合集 |
-| 🏛 **人文与广义社科**<br><sub>社会学 · 政治学 · 心理学 · 人口学 · 传播学 · 历史 · 艺术 · 哲学 · 文学 · 宗教</sub> | ASR · AJS · APSR · AJPS · JPSP · Psych Science · Demography · POQ · AHR · PMLA · Mind | 深度包 |
+| 🏛 **人文与广义社科**<br><sub>社会学 · 人类学 · 法学 · 地理学 · 政治学 · 心理学 · 人口学 · 传播学 · 历史 · 艺术 · 哲学 · 文学 · 宗教</sub> | ASR · AJS · APSR · AJPS · JPSP · Psych Science · Demography · POQ · Harvard Law Review · Progress in Human Geography · AHR · PMLA · Mind | 深度包 |
 | 🔬 **自然科学与临床**<br><sub>综合 · 生命 · 临床 · 物理 · 化学 · 材料 · 环境 · 农业</sub> | Science · Cell · PNAS · NEJM · The Lancet · JAMA · PRL · JACS · ES&T · Global Change Biology | 深度包 + 英文广度合集 + 收录 Nature 系 |
 | ⚙️ **工程技术**<br><sub>控制 · 通信 · 信号 · 电力 · 机器人 · 光子 · 生医工程 · 材料</sub> | Proceedings of the IEEE · TAC · Automatica · Optica · Nature Electronics · Acta Materialia | 英文广度合集 |
 | 🤖 **计算机科学顶会**<br><sub>AI 优先</sub> | NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS + 155 个会议 | 深度包 + 广度合集 |
 
-<sub>共 <b>183 个 pack / 2809 个 skill</b>。"深度包"= 单刊单会全流程（约 12 个 skill）；"广度合集"= 每个 venue 一个轻量"选刊定位 + 写作风格"skill 加一个 router。</sub>
+<sub>共 <b>198 个 pack / 2989 个 skill</b>。"深度包"= 单刊单会全流程（约 12 个 skill）；"广度合集"= 每个 venue 一个轻量"选刊定位 + 写作风格"skill 加一个 router。</sub>
 
 ---
 
@@ -369,7 +383,7 @@
 
 ## 📂 根目录 200 个期刊文件夹
 
-为了让用户在仓库首页的根目录就能看到完整的社科期刊阵列，现在 200 本广度合集期刊各有一个轻量入口文件夹：100 本中文经管路线图期刊使用拼音目录名，100 本英文经管 / 商科期刊使用英文题名目录名。这些目录只负责导航；真正可安装的 `SKILL.md` 仍保留在对应 bundle 内，因此插件路径和 2809 个 skill 的计数不会被重复放大。
+为了让用户在仓库首页的根目录就能看到完整的社科期刊阵列，现在 200 本广度合集期刊各有一个轻量入口文件夹：100 本中文经管路线图期刊使用拼音目录名，100 本英文经管 / 商科期刊使用英文题名目录名。这些目录只负责导航；真正可安装的 `SKILL.md` 仍保留在对应 bundle 内，因此插件路径和 2989 个 skill 的计数不会被重复放大。
 
 ### 中文经管路线图 · 100 个拼音目录
 
@@ -467,7 +481,7 @@
 
 ## 📚 Skill Pack 一览
 
-> **收录范围。** 本索引聚焦**经管社科中英文顶刊**、**人文与广义社科顶刊**（社会学 / 政治学 / 心理学 / 人口学 / 传播 / 历史 / 艺术 / 哲学 / 文学 / 宗教）、**自然科学 / 临床 / 物理 / 环境 / 农业英文顶刊**、**工程技术英文顶刊**，以及 **AI 优先的计算机科学顶会**。每个重点期刊都是一个**深度包**（单刊全流程，约 12 步）；九个**广度合集**则为每个 venue 提供一个“选刊/选会定位 + 写作风格”技能——[Computer-Science-Conference-Skills](Computer-Science-Conference-Skills/) 覆盖 155 个 CS 会议 + router，[Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) 覆盖 103 个中文社科期刊 profile，[English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) 覆盖 100 本英文主流经管/商科期刊，[English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) 覆盖 154 本英文主流自然科学/临床/物理/形式科学期刊，[Engineering-Technology-Journal-Skills](Engineering-Technology-Journal-Skills/) 覆盖 40 本英文工程技术旗舰期刊，[Agriculture-Environment-Journal-Skills](Agriculture-Environment-Journal-Skills/) 覆盖 30 本英文农业·环境·地球科学旗舰期刊，[Clinical-Medicine-Journal-Skills](Clinical-Medicine-Journal-Skills/) 覆盖 30 本英文临床专科旗舰期刊，[English-Humanities-Journal-Skills](English-Humanities-Journal-Skills/) 覆盖 36 本英文人文旗舰期刊，[Chinese-Sport-Science-Journal-Skills](Chinese-Sport-Science-Journal-Skills/) 覆盖 12 本中文体育学旗舰期刊。重点中文期刊、英文侧的 AER、以及 5 本自然科学旗舰（Science、Cell、PNAS、NEJM、The Lancet），有意同时以两种形态收录。自然科学另以**自有深度包**形态提供，与收录的第三方 Nature 包并列。
+> **收录范围。** 本索引聚焦**经管社科中英文顶刊**、**人文与广义社科顶刊**（社会学 / 人类学 / 法学 / 地理学 / 政治学 / 心理学 / 人口学 / 传播 / 历史 / 艺术 / 哲学 / 文学 / 宗教）、**自然科学 / 临床 / 物理 / 环境 / 农业英文顶刊**、**工程技术英文顶刊**，以及 **AI 优先的计算机科学顶会**。每个重点期刊都是一个**深度包**（单刊全流程，约 12 步）；九个**广度合集**则为每个 venue 提供一个“选刊/选会定位 + 写作风格”技能——[Computer-Science-Conference-Skills](Computer-Science-Conference-Skills/) 覆盖 155 个 CS 会议 + router，[Chinese-SocialScience-Journal-Skills](Chinese-SocialScience-Journal-Skills/) 覆盖 103 个中文社科期刊 profile，[English-SocialScience-Journal-Skills](English-SocialScience-Journal-Skills/) 覆盖 100 本英文主流经管/商科期刊，[English-NaturalScience-Journal-Skills](English-NaturalScience-Journal-Skills/) 覆盖 154 本英文主流自然科学/临床/物理/形式科学期刊，[Engineering-Technology-Journal-Skills](Engineering-Technology-Journal-Skills/) 覆盖 40 本英文工程技术旗舰期刊，[Agriculture-Environment-Journal-Skills](Agriculture-Environment-Journal-Skills/) 覆盖 30 本英文农业·环境·地球科学旗舰期刊，[Clinical-Medicine-Journal-Skills](Clinical-Medicine-Journal-Skills/) 覆盖 30 本英文临床专科旗舰期刊，[English-Humanities-Journal-Skills](English-Humanities-Journal-Skills/) 覆盖 36 本英文人文旗舰期刊，[Chinese-Sport-Science-Journal-Skills](Chinese-Sport-Science-Journal-Skills/) 覆盖 12 本中文体育学旗舰期刊。重点中文期刊、英文侧的 AER、以及 5 本自然科学旗舰（Science、Cell、PNAS、NEJM、The Lancet），有意同时以两种形态收录。自然科学另以**自有深度包**形态提供，与收录的第三方 Nature 包并列。
 
 ### 计算机科学 · AI 优先会议广度合集
 
@@ -1161,7 +1175,7 @@
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | 选题 → 写作 → 发表（Claude Code / OpenCode / Codex） | upstream |
 | **Codex/Claude 学术 Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | 阅读 · 写作 · 科学计算 | upstream |
 
-<sub><b>计数口径。</b> 首页 <b>2809</b> = 仓库内全部 <code>SKILL.md</code> 减去 10 个 Nature 插件镜像重复文件，分布在 <b>183 个 pack</b> 中。九个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。三段对账：<b>2035</b>（169 个仓库内深度包，单刊/单会全流程，每包约 12 个 skill）+ <b>668</b>（9 个广度合集：中文社科 103 + 英文社科 101 + 英文自然科学 155 + 工程技术 41 + 农业环境 31 + 临床医学 31 + 英文人文 37 + 中文体育 13 + CS 会议 156）+ <b>106</b>（5 个收录/submodule 包：AER 9 + Nature 系 10 + Nature-Paper 18 + claude-scholar 45 + codex-claude 24）= <b>2809</b>。该数字由 <code>python3 tools/audit_repo.py</code> 在 CI 中强制校验，README 与实际文件数不允许漂移。</sub>
+<sub><b>计数口径。</b> 首页 <b>2989</b> = 仓库内全部 <code>SKILL.md</code> 减去 10 个 Nature 插件镜像重复文件，分布在 <b>198 个 pack</b> 中。九个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。三段对账：<b>2215</b>（184 个仓库内深度包，单刊/单会全流程，每包约 12 个 skill）+ <b>668</b>（9 个广度合集：中文社科 103 + 英文社科 101 + 英文自然科学 155 + 工程技术 41 + 农业环境 31 + 临床医学 31 + 英文人文 37 + 中文体育 13 + CS 会议 156）+ <b>106</b>（5 个收录/submodule 包：AER 9 + Nature 系 10 + Nature-Paper 18 + claude-scholar 45 + codex-claude 24）= <b>2989</b>。该数字由 <code>python3 tools/audit_repo.py</code> 在 CI 中强制校验，README 与实际文件数不允许漂移。</sub>
 
 ---
 
@@ -1377,7 +1391,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 
 ## 🗺 路线图
 
-**进度：** 九个广度合集已全部落地（含 AI 优先 CS 会议合集、工程技术合集、农业·环境合集、临床医学合集、英文人文合集与中文体育学合集）；深度包已从经管社科扩展到**人文与广义社科**（社会学、政治学、心理学、人口、传播、历史、艺术、哲学、文学、宗教共 36 本旗舰刊）以及**环境 / 生态 / 农业** 6 本，全仓库现共 **183 个 pack / 2809 个 skill**。路线图现在聚焦下一梯队的扩展。
+**进度：** 九个广度合集已全部落地（含 AI 优先 CS 会议合集、工程技术合集、农业·环境合集、临床医学合集、英文人文合集与中文体育学合集）；深度包已从经管社科扩展到**人文与广义社科**（社会学、人类学、法学、地理学、政治学、心理学、人口、传播、历史、艺术、哲学、文学、宗教共 51 本旗舰刊）以及**环境 / 生态 / 农业** 6 本，全仓库现共 **198 个 pack / 2989 个 skill**。路线图现在聚焦下一梯队的扩展。
 
 ### ✅ 已落地
 
@@ -1392,7 +1406,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
   - [English-Humanities-Journal-Skills](English-Humanities-Journal-Skills/) —— 36 本英文人文期刊
   - [Chinese-Sport-Science-Journal-Skills](Chinese-Sport-Science-Journal-Skills/) —— 12 本中文体育学（体育科学）期刊
 - **每刊封面直达** 覆盖全部广度期刊，两份 README 内嵌默认展开的封面画廊，并提供 200 个根目录轻量入口文件夹便于首页浏览。
-- **单刊/单会全流程深度包（约 12 步）** —— 169 个仓库内自有 venue 包，覆盖五大板块（AER 与 Nature 另以收录/submodule 包形态提供）：
+- **单刊/单会全流程深度包（约 12 步）** —— 184 个仓库内自有 venue 包，覆盖五大板块（AER 与 Nature 另以收录/submodule 包形态提供）：
   - **英文经济学：** AER（submodule）· AER: Insights · AEJ Applied Economics · AEJ Economic Policy · AEJ Macroeconomics · AEJ Microeconomics · JEEA · IER · The Economic Journal · European Economic Review · Journal of Economic Literature · Journal of Economic Perspectives · Review of Economics and Statistics · QJE · JPE · Econometrica · REStud · Journal of Development Economics · Journal of Public Economics · Journal of Labor Economics · Journal of International Economics · Journal of Monetary Economics · JMCB · IMF Economic Review · Economic Policy · RAND Journal of Economics · Journal of Econometrics · Econometric Theory · Quantitative Economics · Journal of Applied Econometrics · JBES · The Econometrics Journal · Review of Economic Dynamics · Journal of Economic Growth · Journal of Economic Theory · Games and Economic Behavior · Journal of Human Resources · Journal of Health Economics · Journal of Urban Economics · JEEM · JEBO · Journal of Law and Economics · JLEO · World Development · World Bank Economic Review · Journal of Economic Geography · Journal of Risk and Uncertainty · Experimental Economics · Annual Review of Economics
   - **英文金融：** Journal of Finance · Journal of Financial Economics · Review of Financial Studies · Review of Finance · JFQA · JFI · Journal of Corporate Finance · Journal of Banking & Finance · Journal of Financial Markets · Journal of International Money and Finance · Financial Management · Mathematical Finance
   - **英文管理 / 运营 / 信息系统：** AMJ · AMR · Academy of Management Annals · ASQ · SMJ · Organization Science · Organization Studies · Journal of Management · Journal of Management Studies · Human Relations · Human Resource Management · ETP · Research Policy · JIBS · JBV · Management Science · Operations Research · INFORMS Journal on Computing · M&SOM · JOM · POM · MISQ · ISR · JMIS · JAIS
@@ -1410,7 +1424,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 
 - **剩余英文营销与会计深度包：** JPP&M / JIM；Accounting, Organizations and Society。
 - **更多学科旗舰自然科学刊**（在现有基础上扩展：Cell Press / Nature 子刊家族，以及地球科学、材料领域的学科领头刊）。
-- **更多人文与广义社科旗舰刊**（在现有 24 本之外，按学科补齐法学、人类学、地理学、语言学等领域的代表刊）。
+- **更多人文与广义社科旗舰刊**（在现有 51 本之外，按学科补齐法学、人类学、地理学、语言学等领域的代表刊）。
 - **更多中文重点刊**（在现有 15 本之外，按需求扩展 CSSCI / FMS 高质量期刊）。
 
 希望优先把某本升级为深度包，请提 issue 或 PR 补充。
