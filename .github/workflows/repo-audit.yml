@@ -15,15 +15,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Init first-level submodules (non-recursive)
-        # The third-party `claude-scholar` submodule ships nested submodule gitlinks
-        # with no .gitmodules, so actions/checkout's recursive credential step
-        # (triggered by `submodules: true`) fails with exit 128:
-        #   "No url found for submodule path 'claude-scholar/plugins/...' in .gitmodules".
-        # We only need first-level submodules for the audit, so init them explicitly
-        # without recursing into the broken nested ones.
-        run: git submodule update --init --depth=1
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:

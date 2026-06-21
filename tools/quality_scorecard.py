@@ -30,7 +30,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 
-# Imported submodule packs are out of scope: we don't own their content.
+# External third-party imports are out of scope: we don't own their content.
 IMPORTED_ROOTS = {
     "AER-Skills",
     "AER-skills",

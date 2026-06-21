@@ -1,7 +1,7 @@
 # Awesome Journal Skills (AJS)
 
 <p align="center">
-  <img src="assets/banner-zh.png" alt="Awesome Journal Skills (AJS) — 按「期刊」定制的一站式 AI 投稿工作流索引：2989 个 Agent Skill、198 个 Pack、519 本顶级期刊、155 个 CS/AI 顶会" width="100%">
+  <img src="assets/banner-zh.png" alt="Awesome Journal Skills (AJS) — 按「期刊」定制的一站式 AI 投稿工作流索引：2883 个 Agent Skill、193 个 Pack、519 本顶级期刊、155 个 CS/AI 顶会" width="100%">
 </p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -123,7 +123,7 @@
 <p align="center"><b>综合 · 多学科 <i>Multidisciplinary</i></b></p>
 <p align="center">
   <a href="Science-Skills/"><img src="assets/covers/science.png" alt="Science" width="108"></a>
-  <a href="nature-skills/"><img src="assets/covers/nature.png" alt="Nature" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature/"><img src="assets/covers/nature.png" alt="Nature" width="108"></a>
   <a href="PNAS-Skills/"><img src="assets/covers/pnas.png" alt="PNAS" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/science-advances/"><img src="assets/covers/science-advances.png" alt="Science Advances" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-communications/"><img src="assets/covers/nature-communications.png" alt="Nature Communications" width="108"></a>
@@ -326,16 +326,17 @@
 ### ⚡ 30 秒上手
 
 ```bash
-# 在 Claude Code 里安装任意一个 pack（以 AER 为例）
-/plugin marketplace add https://github.com/brycewang-stanford/AER-skills
-/plugin install aer-skills
+# 1) 把本仓库添加为 marketplace（一次即可）
+/plugin marketplace add https://github.com/brycewang-stanford/awesome-journal-skills
+# 2) 安装目标期刊的 pack（以 QJE 为例；pack 名见各深度包 / 广度合集页面）
+/plugin install qje-skills
 /reload-plugins
 ```
 
 然后把目标期刊的稿子交给它的 workflow skill：
 
 ```text
-用 aer-workflow 评估我这份稿子离 AER 的发表标准还差什么，下一步该做什么。
+用 qje-workflow 评估我这份稿子离 QJE 的发表标准还差什么，下一步该做什么。
 ```
 
 > 还没定投哪本？先用**广度合集**里的 router skill 选刊 → 定下来后再装对应**深度包**。完整路径见下方[「快速浏览与布局指南」](#-快速浏览与布局指南)。
@@ -359,7 +360,7 @@
 | ⚙️ **工程技术**<br><sub>控制 · 通信 · 信号 · 电力 · 机器人 · 光子 · 生医工程 · 材料</sub> | Proceedings of the IEEE · TAC · Automatica · Optica · Nature Electronics · Acta Materialia | 英文广度合集 |
 | 🤖 **计算机科学顶会**<br><sub>AI 优先</sub> | NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS + 155 个会议 | 深度包 + 广度合集 |
 
-<sub>共 <b>198 个 pack / 2989 个 skill</b>。"深度包"= 单刊单会全流程（约 12 个 skill）；"广度合集"= 每个 venue 一个轻量"选刊定位 + 写作风格"skill 加一个 router。</sub>
+<sub>共 <b>193 个 pack / 2883 个 skill</b>。"深度包"= 单刊单会全流程（约 12 个 skill）；"广度合集"= 每个 venue 一个轻量"选刊定位 + 写作风格"skill 加一个 router。</sub>
 
 ---
 
@@ -370,9 +371,9 @@
 | 你看到的入口 | 它是什么 | 什么时候用 |
 |---|---|---|
 | **封面卡和根目录期刊文件夹**，例如 `American-Economic-Review/` 或 `Jingji-Yanjiu/` | 只负责导航；它们指向 canonical skill 位置，故意不放 `SKILL.md`。 | 你在 GitHub 根目录按期刊名浏览。 |
-| **深度包**，例如 `AER-skills/`、`Economic-Research-Journal-Skills/` 或 `Cell-Skills/` | 单刊全流程工作流，通常含 9-13 个 skills，覆盖选题、定位、方法、表格、投稿和回复。 | 目标期刊已确定，且需要完整投稿生命周期支持。 |
+| **深度包**，例如 `Economic-Research-Journal-Skills/`、`Cell-Skills/` 或 `Quarterly-Journal-of-Economics-Skills/` | 单刊全流程工作流，通常含 9-13 个 skills，覆盖选题、定位、方法、表格、投稿和回复。 | 目标期刊已确定，且需要完整投稿生命周期支持。 |
 | **广度合集**：`Chinese-SocialScience-Journal-Skills/`、`English-SocialScience-Journal-Skills/`、`English-NaturalScience-Journal-Skills/`、`Engineering-Technology-Journal-Skills/`、`Agriculture-Environment-Journal-Skills/`、`Clinical-Medicine-Journal-Skills/`、`English-Humanities-Journal-Skills/`、`Computer-Science-Conference-Skills/` | 每本期刊一个轻量 fit-and-house-style skill，另有 router skill 用于选刊。 | 你需要覆盖 100 本期刊级别的路线图，或还在比较投稿目标。 |
-| **收录 / 工具包**，例如 `nature-skills/`、`claude-scholar/` 或 `codex-claude-academic-skills/` | 收录的上游包或通用学术工具，与期刊包并列保存。 | 你需要跨期刊的研究、写作或工作流支持。 |
+| **第三方收录（外链）**，例如 [nature-skills](https://github.com/Yuan1z0825/nature-skills)、[claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) 或 [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | 第三方上游包或通用学术工具，以外链形式收录（不再 vendored 进本仓库）。 | 你需要跨期刊的研究、写作或工作流支持。 |
 
 经验法则：浏览时从根目录文件夹或封面卡开始；选刊时用广度合集；目标期刊确定后再进入对应深度包。
 
@@ -383,7 +384,7 @@
 
 ## 📂 根目录 200 个期刊文件夹
 
-为了让用户在仓库首页的根目录就能看到完整的社科期刊阵列，现在 200 本广度合集期刊各有一个轻量入口文件夹：100 本中文经管路线图期刊使用拼音目录名，100 本英文经管 / 商科期刊使用英文题名目录名。这些目录只负责导航；真正可安装的 `SKILL.md` 仍保留在对应 bundle 内，因此插件路径和 2989 个 skill 的计数不会被重复放大。
+为了让用户在仓库首页的根目录就能看到完整的社科期刊阵列，现在 200 本广度合集期刊各有一个轻量入口文件夹：100 本中文经管路线图期刊使用拼音目录名，100 本英文经管 / 商科期刊使用英文题名目录名。这些目录只负责导航；真正可安装的 `SKILL.md` 仍保留在对应 bundle 内，因此插件路径和 2883 个 skill 的计数不会被重复放大。
 
 ### 中文经管路线图 · 100 个拼音目录
 
@@ -1175,13 +1176,13 @@
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | 选题 → 写作 → 发表（Claude Code / OpenCode / Codex） | upstream |
 | **Codex/Claude 学术 Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | 阅读 · 写作 · 科学计算 | upstream |
 
-<sub><b>计数口径。</b> 首页 <b>2989</b> = 仓库内全部 <code>SKILL.md</code> 减去 10 个 Nature 插件镜像重复文件，分布在 <b>198 个 pack</b> 中。九个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。三段对账：<b>2215</b>（184 个仓库内深度包，单刊/单会全流程，每包约 12 个 skill）+ <b>668</b>（9 个广度合集：中文社科 103 + 英文社科 101 + 英文自然科学 155 + 工程技术 41 + 农业环境 31 + 临床医学 31 + 英文人文 37 + 中文体育 13 + CS 会议 156）+ <b>106</b>（5 个收录/submodule 包：AER 9 + Nature 系 10 + Nature-Paper 18 + claude-scholar 45 + codex-claude 24）= <b>2989</b>。该数字由 <code>python3 tools/audit_repo.py</code> 在 CI 中强制校验，README 与实际文件数不允许漂移。</sub>
+<sub><b>计数口径。</b> 首页 <b>2883</b> = 仓库内全部 <code>SKILL.md</code>，分布在 <b>193 个 pack</b> 中。九个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。两段对账：<b>2215</b>（184 个仓库内深度包，单刊/单会全流程，每包约 12 个 skill）+ <b>668</b>（9 个广度合集：中文社科 103 + 英文社科 101 + 英文自然科学 155 + 工程技术 41 + 农业环境 31 + 临床医学 31 + 英文人文 37 + 中文体育 13 + CS 会议 156）= <b>2883</b>。AER、Nature 系等第三方包以外链形式收录，不再 vendored，故不计入本仓库的 SKILL.md 计数。该数字由 <code>python3 tools/audit_repo.py</code> 在 CI 中强制校验，README 与实际文件数不允许漂移。</sub>
 
 ---
 
 ## 🗂 仓库结构
 
-本仓库由两类 pack 组成：**仓库内目录包**（中文重点期刊深度包与广度合集，在本仓库内编写维护）与 **git submodule**（AER 及第三方包，指向各自上游）。每天通过 GitHub Actions（[`.github/workflows/sync-submodules.yml`](.github/workflows/sync-submodules.yml)）自动把 submodule 指针 bump 到上游 `main` 最新提交。
+本仓库的 pack 全部为**仓库内目录包**（在本仓库内编写维护），并由根级 [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json) 聚合，可一次 `/plugin marketplace add` 后安装任意 pack。AER 及第三方包（Nature 系、claude-scholar、codex-claude-academic-skills 等）不再作为 git submodule vendored，改为以外链形式收录——这样 `/plugin marketplace add` 递归克隆时不会再被第三方包的嵌套 submodule 拖垮。
 
 根目录还额外提供 **200 个轻量期刊入口文件夹**，用于首页浏览冲击力：100 本中文经管路线图期刊使用拼音目录名（`Jingji-Yanjiu/`、`Guanli-Shijie/` 等），100 本英文经管 / 商科期刊使用英文题名目录名（`American-Economic-Review/`、`Journal-of-Finance/` 等）。这些目录只放导航 README；真正可安装的 `SKILL.md` 仍保留在下方 canonical bundle 路径里。
 
@@ -1308,29 +1309,15 @@ awesome-journal-skills/
 ├── Global-Environmental-Change-Skills/ → Global Environmental Change（12 skills）
 ├── Agricultural-Systems-Skills/   → Agricultural Systems（12 skills）
 ├── Field-Crops-Research-Skills/   → Field Crops Research（12 skills）
-│   # git submodule（指向上游，每日自动同步）
-├── AER-skills/                    → submodule: brycewang-stanford/AER-skills
-├── nature-skills/                 → submodule: Yuan1z0825/nature-skills（第三方收录）
-├── nature-paper-skills/           → submodule: Boom5426/Nature-Paper-Skills（第三方收录）
-├── claude-scholar/                → submodule: Galaxy-Dawn/claude-scholar（第三方收录）
-├── codex-claude-academic-skills/  → submodule: zLanqing/codex-claude-academic-skills（第三方收录）
-└── .github/workflows/sync-submodules.yml
+│   # 根级 marketplace 清单（聚合全部 193 个仓库内 pack）
+└── .claude-plugin/marketplace.json
 ```
 
-克隆并拉取一级 submodule：
+克隆本仓库（已无 git submodule，普通克隆即可）：
 
 ```bash
 git clone https://github.com/brycewang-stanford/awesome-journal-skills.git
 cd awesome-journal-skills
-git submodule update --init
-```
-
-本仓库只依赖一级 submodule。除非某个上游收录包明确要求，否则不要递归初始化嵌套 submodule。
-
-随时手动拉取最新 pack 内容：
-
-```bash
-git submodule update --remote --merge
 ```
 
 ---
@@ -1339,10 +1326,20 @@ git submodule update --remote --merge
 
 ### 方式 A —— Claude Code 插件（推荐）
 
-按需安装：
+**推荐：把本仓库作为一个 marketplace 添加，然后安装任意仓库内 pack（pack 名见各深度包 / 广度合集页面）：**
 
 ```bash
-# AER
+# 添加本仓库（一次即可）
+/plugin marketplace add https://github.com/brycewang-stanford/awesome-journal-skills
+/plugin install qje-skills                    # 例：QJE 深度包
+/plugin install english-natsci-journal-skills # 例：英文自然科学广度合集
+/reload-plugins
+```
+
+也可单独添加某个独立仓库（AER / 管理世界 / 经济研究 等以独立 marketplace 维护）：
+
+```bash
+# AER（独立仓库）
 /plugin marketplace add https://github.com/brycewang-stanford/AER-skills
 /plugin install aer-skills
 
@@ -1391,7 +1388,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 
 ## 🗺 路线图
 
-**进度：** 九个广度合集已全部落地（含 AI 优先 CS 会议合集、工程技术合集、农业·环境合集、临床医学合集、英文人文合集与中文体育学合集）；深度包已从经管社科扩展到**人文与广义社科**（社会学、人类学、法学、地理学、政治学、心理学、人口、传播、历史、艺术、哲学、文学、宗教共 51 本旗舰刊）以及**环境 / 生态 / 农业** 6 本，全仓库现共 **198 个 pack / 2989 个 skill**。路线图现在聚焦下一梯队的扩展。
+**进度：** 九个广度合集已全部落地（含 AI 优先 CS 会议合集、工程技术合集、农业·环境合集、临床医学合集、英文人文合集与中文体育学合集）；深度包已从经管社科扩展到**人文与广义社科**（社会学、人类学、法学、地理学、政治学、心理学、人口、传播、历史、艺术、哲学、文学、宗教共 51 本旗舰刊）以及**环境 / 生态 / 农业** 6 本，全仓库现共 **193 个 pack / 2883 个 skill**。路线图现在聚焦下一梯队的扩展。
 
 ### ✅ 已落地
 
@@ -1406,8 +1403,8 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
   - [English-Humanities-Journal-Skills](English-Humanities-Journal-Skills/) —— 36 本英文人文期刊
   - [Chinese-Sport-Science-Journal-Skills](Chinese-Sport-Science-Journal-Skills/) —— 12 本中文体育学（体育科学）期刊
 - **每刊封面直达** 覆盖全部广度期刊，两份 README 内嵌默认展开的封面画廊，并提供 200 个根目录轻量入口文件夹便于首页浏览。
-- **单刊/单会全流程深度包（约 12 步）** —— 184 个仓库内自有 venue 包，覆盖五大板块（AER 与 Nature 另以收录/submodule 包形态提供）：
-  - **英文经济学：** AER（submodule）· AER: Insights · AEJ Applied Economics · AEJ Economic Policy · AEJ Macroeconomics · AEJ Microeconomics · JEEA · IER · The Economic Journal · European Economic Review · Journal of Economic Literature · Journal of Economic Perspectives · Review of Economics and Statistics · QJE · JPE · Econometrica · REStud · Journal of Development Economics · Journal of Public Economics · Journal of Labor Economics · Journal of International Economics · Journal of Monetary Economics · JMCB · IMF Economic Review · Economic Policy · RAND Journal of Economics · Journal of Econometrics · Econometric Theory · Quantitative Economics · Journal of Applied Econometrics · JBES · The Econometrics Journal · Review of Economic Dynamics · Journal of Economic Growth · Journal of Economic Theory · Games and Economic Behavior · Journal of Human Resources · Journal of Health Economics · Journal of Urban Economics · JEEM · JEBO · Journal of Law and Economics · JLEO · World Development · World Bank Economic Review · Journal of Economic Geography · Journal of Risk and Uncertainty · Experimental Economics · Annual Review of Economics
+- **单刊/单会全流程深度包（约 12 步）** —— 184 个仓库内自有 venue 包，覆盖五大板块（AER 与 Nature 以第三方外链形式收录）：
+  - **英文经济学：** AER（外链收录）· AER: Insights · AEJ Applied Economics · AEJ Economic Policy · AEJ Macroeconomics · AEJ Microeconomics · JEEA · IER · The Economic Journal · European Economic Review · Journal of Economic Literature · Journal of Economic Perspectives · Review of Economics and Statistics · QJE · JPE · Econometrica · REStud · Journal of Development Economics · Journal of Public Economics · Journal of Labor Economics · Journal of International Economics · Journal of Monetary Economics · JMCB · IMF Economic Review · Economic Policy · RAND Journal of Economics · Journal of Econometrics · Econometric Theory · Quantitative Economics · Journal of Applied Econometrics · JBES · The Econometrics Journal · Review of Economic Dynamics · Journal of Economic Growth · Journal of Economic Theory · Games and Economic Behavior · Journal of Human Resources · Journal of Health Economics · Journal of Urban Economics · JEEM · JEBO · Journal of Law and Economics · JLEO · World Development · World Bank Economic Review · Journal of Economic Geography · Journal of Risk and Uncertainty · Experimental Economics · Annual Review of Economics
   - **英文金融：** Journal of Finance · Journal of Financial Economics · Review of Financial Studies · Review of Finance · JFQA · JFI · Journal of Corporate Finance · Journal of Banking & Finance · Journal of Financial Markets · Journal of International Money and Finance · Financial Management · Mathematical Finance
   - **英文管理 / 运营 / 信息系统：** AMJ · AMR · Academy of Management Annals · ASQ · SMJ · Organization Science · Organization Studies · Journal of Management · Journal of Management Studies · Human Relations · Human Resource Management · ETP · Research Policy · JIBS · JBV · Management Science · Operations Research · INFORMS Journal on Computing · M&SOM · JOM · POM · MISQ · ISR · JMIS · JAIS
   - **英文营销 / 消费者研究：** JM · JMR · JAMS · Marketing Science · JCR · Journal of Consumer Psychology
@@ -1877,7 +1874,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 
 每个 pack 都在自己的仓库里。要为某个 pack 贡献内容，请到对应仓库提 PR。要提议新增 pack，请在本仓库提 issue。
 
-多 agent 协作流程、submodule 边界和验证检查见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+多 agent 协作流程与验证检查见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 月度质量提升计划、score/source/clone/root-card 报告栈见 [tools/README.md](tools/README.md)。
 
 如果 PR 会改根目录导航、manifest 或 pack 元数据，请先运行：
@@ -1905,12 +1902,12 @@ GitHub Actions 会运行同一套硬门槛检查。它会检查 canonical skill 
 - [Awesome-Agent-Skills-for-Empirical-Research](https://github.com/brycewang-stanford/Awesome-Agent-Skills-for-Empirical-Research) — 精选 23,000+ agent skills，覆盖 8 大社科学科的实证研究（由 CoPaper.AI / Stanford REAP 维护）。
 - [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) — 通用的 research → write → review → revise → finalize 科研流水线 skill 包。
 
-已作为 submodule 收录至本仓库（见上方表格）：
+以外链形式收录（不再 vendored 进本仓库；点击前往各自上游仓库）：
 
-- [nature-skills](https://github.com/Yuan1z0825/nature-skills) → [`nature-skills/`](nature-skills/)
-- [Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) → [`nature-paper-skills/`](nature-paper-skills/)
-- [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) → [`claude-scholar/`](claude-scholar/)
-- [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) → [`codex-claude-academic-skills/`](codex-claude-academic-skills/)
+- [nature-skills](https://github.com/Yuan1z0825/nature-skills)
+- [Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills)
+- [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar)
+- [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills)
 
 通用的科研写作 skill 包（定位不同——非特定期刊，仅供参考）：
 

@@ -1,7 +1,7 @@
 # Awesome Journal Skills (AJS)
 
 <p align="center">
-  <img src="assets/banner-en.png" alt="Awesome Journal Skills (AJS) — a one-stop index of journal-specific AI submission workflows: 2989 agent skills, 198 packs, 519 top journals, 155 CS/AI venues" width="100%">
+  <img src="assets/banner-en.png" alt="Awesome Journal Skills (AJS) — a one-stop index of journal-specific AI submission workflows: 2883 agent skills, 193 packs, 519 top journals, 155 CS/AI venues" width="100%">
 </p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -123,7 +123,7 @@ Spanning <b>economics &amp; business, the social sciences &amp; humanities, the 
 <p align="center"><b>Multidisciplinary</b></p>
 <p align="center">
   <a href="Science-Skills/"><img src="assets/covers/science.png" alt="Science" width="108"></a>
-  <a href="nature-skills/"><img src="assets/covers/nature.png" alt="Nature" width="108"></a>
+  <a href="English-NaturalScience-Journal-Skills/skills/nature/"><img src="assets/covers/nature.png" alt="Nature" width="108"></a>
   <a href="PNAS-Skills/"><img src="assets/covers/pnas.png" alt="PNAS" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/science-advances/"><img src="assets/covers/science-advances.png" alt="Science Advances" width="108"></a>
   <a href="English-NaturalScience-Journal-Skills/skills/nature-communications/"><img src="assets/covers/nature-communications.png" alt="Nature Communications" width="108"></a>
@@ -326,16 +326,17 @@ Each pack is **journal-specific by design**: it encodes the editorial preference
 ### ⚡ 30-Second Start
 
 ```bash
-# Install any pack inside Claude Code (AER shown here)
-/plugin marketplace add https://github.com/brycewang-stanford/AER-skills
-/plugin install aer-skills
+# 1) Add this repository as a marketplace once
+/plugin marketplace add https://github.com/brycewang-stanford/awesome-journal-skills
+# 2) Install the target journal pack (QJE shown here; pack names are listed in each depth pack / breadth bundle)
+/plugin install qje-skills
 /reload-plugins
 ```
 
 Then hand your target journal's manuscript to its workflow skill:
 
 ```text
-Use aer-workflow to assess how far my draft is from AER's bar and what to do next.
+Use qje-workflow to assess how far my draft is from QJE's bar and what to do next.
 ```
 
 > Not sure where to submit yet? Use a **breadth bundle**'s router skill to pick a venue first, then install the matching **depth pack**. Full path in the [Quick Browsing & Layout Guide](#-quick-browsing--layout-guide) below.
@@ -359,7 +360,7 @@ Use aer-workflow to assess how far my draft is from AER's bar and what to do nex
 | ⚙️ **Engineering & technology**<br><sub>control · communications · signal · power · robotics · photonics · biomedical engineering · materials</sub> | Proceedings of the IEEE · TAC · Automatica · Optica · Nature Electronics · Acta Materialia | EN breadth bundle |
 | 🤖 **Computer-science conferences**<br><sub>AI-first</sub> | NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS + 155 venues | depth packs + breadth bundle |
 
-<sub><b>198 packs / 2989 skills</b> total. A "depth pack" = one venue, end-to-end (~12 skills); a "breadth bundle" = one lightweight "venue-fit + house-style" skill per venue plus a router.</sub>
+<sub><b>193 packs / 2883 skills</b> total. A "depth pack" = one venue, end-to-end (~12 skills); a "breadth bundle" = one lightweight "venue-fit + house-style" skill per venue plus a router.</sub>
 
 ---
 
@@ -370,9 +371,9 @@ Use the repo in three passes:
 | What you see | What it means | Use it when |
 |---|---|---|
 | **Cover cards and root journal folders** like `American-Economic-Review/` or `Jingji-Yanjiu/` | Navigation entries only; they point to the canonical skill location and intentionally do not contain `SKILL.md`. | You are browsing by journal name from the GitHub root. |
-| **Depth packs** like `AER-skills/`, `Economic-Research-Journal-Skills/`, or `Cell-Skills/` | Full per-venue workflows, usually 9-13 skills covering topic fit, framing, methods, tables, submission, and rebuttal. | You are targeting a flagship venue and need lifecycle help. |
-| **Breadth bundles**: `Chinese-SocialScience-Journal-Skills/`, `English-SocialScience-Journal-Skills/`, `English-NaturalScience-Journal-Skills/`, `Engineering-Technology-Journal-Skills/` | One lightweight fit-and-house-style skill per journal, plus a router skill for venue selection. | You need broad coverage across 100-journal roadmaps. |
-| **Imported / toolkit packs** like `nature-skills/`, `claude-scholar/`, or `codex-claude-academic-skills/` | Curated upstream packs or general academic tooling kept alongside the journal packs. | You need cross-journal research, writing, or workflow support. |
+| **Depth packs** like `Economic-Research-Journal-Skills/`, `Cell-Skills/`, or `Quarterly-Journal-of-Economics-Skills/` | Full per-venue workflows, usually 9-13 skills covering topic fit, framing, methods, tables, submission, and rebuttal. | You are targeting a flagship venue and need lifecycle help. |
+| **Breadth bundles**: `Chinese-SocialScience-Journal-Skills/`, `English-SocialScience-Journal-Skills/`, `English-NaturalScience-Journal-Skills/`, `Engineering-Technology-Journal-Skills/`, `Agriculture-Environment-Journal-Skills/`, `Clinical-Medicine-Journal-Skills/`, `English-Humanities-Journal-Skills/`, `Computer-Science-Conference-Skills/` | One lightweight fit-and-house-style skill per journal, plus a router skill for venue selection. | You need broad coverage across 100-journal roadmaps, or you are still comparing targets. |
+| **Third-party listings (external links)** like [nature-skills](https://github.com/Yuan1z0825/nature-skills), [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar), or [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | Curated upstream packs or general academic tooling listed as external links, not vendored into this repository. | You need cross-journal research, writing, or workflow support. |
 
 Rule of thumb: start from a root folder or cover card when browsing, use a breadth bundle when choosing between venues, and use a depth pack once the target journal is fixed.
 
@@ -383,7 +384,7 @@ Rule of thumb: start from a root folder or cover card when browsing, use a bread
 
 ## 📂 200 Root Journal Folders
 
-For visual browsing at the repository root, the 200 social-science breadth journals now also have one lightweight folder each: 100 Chinese roadmap journals in pinyin folder names, and 100 English econ / finance / management / business journals in title-style folder names. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the 2989-skill count stay stable.
+For visual browsing at the repository root, the 200 social-science breadth journals now also have one lightweight folder each: 100 Chinese roadmap journals in pinyin folder names, and 100 English econ / finance / management / business journals in title-style folder names. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the 2883-skill count stay stable.
 
 ### Chinese Roadmap Journals · 100 Pinyin Folders
 
@@ -1175,13 +1176,13 @@ This bundle is the natural-science sibling of the English social-science breadth
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | Ideation → writing → publication (Claude Code / OpenCode / Codex) | upstream |
 | **Codex/Claude Academic Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | Reading · writing · scientific computing | upstream |
 
-<sub><b>Count methodology.</b> The homepage <b>2989</b> = every <code>SKILL.md</code> minus the 10 duplicated Nature plugin-mirror files, spread across <b>198 packs</b>. All nine breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation: <b>2215</b> (184 in-repo depth packs, single venue end-to-end, ~12 skills each) + <b>668</b> (9 breadth bundles: CN social science 103 + EN social science 101 + EN natural science 155 + engineering technology 41 + agriculture environment 31 + clinical medicine 31 + English humanities 37 + Chinese sport science 13 + CS conferences 156) + <b>106</b> (5 imported/submodule packs: AER 9 + Nature family 10 + Nature-Paper 18 + claude-scholar 45 + codex-claude 24) = <b>2989</b>. The figure is enforced in CI by <code>python3 tools/audit_repo.py</code>; the README and the actual file count are not allowed to drift.</sub>
+<sub><b>Count methodology.</b> The homepage <b>2883</b> = every in-repository <code>SKILL.md</code>, spread across <b>193 packs</b>. All nine breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation: <b>2215</b> (184 in-repo depth packs, single venue end-to-end, ~12 skills each) + <b>668</b> (9 breadth bundles: CN social science 103 + EN social science 101 + EN natural science 155 + engineering technology 41 + agriculture environment 31 + clinical medicine 31 + English humanities 37 + Chinese sport science 13 + CS conferences 156) = <b>2883</b>. AER and Nature-family third-party packs are listed as external links, not vendored, so they are no longer included in this repository's <code>SKILL.md</code> count. The figure is enforced in CI by <code>python3 tools/audit_repo.py</code>; the README and the actual file count are not allowed to drift.</sub>
 
 ---
 
 ## 🗂 Repository Layout
 
-This repo combines **in-repo folder packs** (the China flagship depth packs and the breadth bundle, authored and maintained here) with **git submodules** pinned to upstream repos (AER plus the third-party packs). A scheduled GitHub Action ([`.github/workflows/sync-submodules.yml`](.github/workflows/sync-submodules.yml)) bumps the submodule pins to the latest upstream `main` daily.
+All installable packs in this repo are **in-repo folder packs** (authored and maintained here) and are aggregated by the root [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json). Add this marketplace once with `/plugin marketplace add`, then install any in-repo pack by name. AER and third-party packs such as the Nature family, claude-scholar, and codex-claude-academic-skills are listed as external links instead of vendored git submodules, so `/plugin marketplace add` no longer recurses into upstream submodules.
 
 The root also includes **200 lightweight journal entry folders** for visual browsing: 100 Chinese roadmap journals in pinyin (`Jingji-Yanjiu/`, `Guanli-Shijie/`, …) and 100 English econ/business journals (`American-Economic-Review/`, `Journal-of-Finance/`, …). These folders contain only navigation READMEs; installable `SKILL.md` files remain in the canonical bundle paths below.
 
@@ -1308,29 +1309,15 @@ awesome-journal-skills/
 ├── Global-Environmental-Change-Skills/ → Global Environmental Change (12 skills)
 ├── Agricultural-Systems-Skills/   → Agricultural Systems (12 skills)
 ├── Field-Crops-Research-Skills/   → Field Crops Research (12 skills)
-│   # Git submodules (pinned to upstream, auto-synced daily)
-├── AER-skills/                    → submodule of brycewang-stanford/AER-skills
-├── nature-skills/                 → submodule of Yuan1z0825/nature-skills (third-party)
-├── nature-paper-skills/           → submodule of Boom5426/Nature-Paper-Skills (third-party)
-├── claude-scholar/                → submodule of Galaxy-Dawn/claude-scholar (third-party)
-├── codex-claude-academic-skills/  → submodule of zLanqing/codex-claude-academic-skills (third-party)
-└── .github/workflows/sync-submodules.yml
+│   # Root marketplace manifest (aggregates all 193 in-repo packs)
+└── .claude-plugin/marketplace.json
 ```
 
-Clone with first-level submodules populated:
+Clone this repository normally; it has no git submodules:
 
 ```bash
 git clone https://github.com/brycewang-stanford/awesome-journal-skills.git
 cd awesome-journal-skills
-git submodule update --init
-```
-
-This repo only depends on its first-level submodules. Avoid recursive submodule initialization unless an imported upstream explicitly asks for it.
-
-Pull latest pack content locally at any time:
-
-```bash
-git submodule update --remote --merge
 ```
 
 ---
@@ -1339,10 +1326,20 @@ git submodule update --remote --merge
 
 ### Option A — Claude Code Plugin (recommended)
 
-For each pack you want:
+Recommended: add this repository as a marketplace, then install any in-repo pack. Pack names are listed in each depth pack or breadth bundle page.
 
 ```bash
-# AER
+# Add this repository once
+/plugin marketplace add https://github.com/brycewang-stanford/awesome-journal-skills
+/plugin install qje-skills                    # QJE depth pack example
+/plugin install english-natsci-journal-skills # English natural-science breadth bundle example
+/reload-plugins
+```
+
+You can still add standalone repositories directly when a pack is maintained outside this index:
+
+```bash
+# AER standalone repository
 /plugin marketplace add https://github.com/brycewang-stanford/AER-skills
 /plugin install aer-skills
 
@@ -1392,7 +1389,7 @@ use next for my manuscript targeted at <journal>.
 
 ## 🗺 Roadmap
 
-**Status:** the nine breadth bundles are fully shipped (including the AI-first CS conference bundle, the engineering-technology bundle, the agriculture-environment bundle, the clinical-medicine bundle, the English-humanities bundle, and the Chinese sport-science bundle); depth packs now extend beyond business & economics into **humanities & broader social science** (51 flagship venues across sociology, anthropology, law, geography, political science, psychology, demography, communication, history, art, philosophy, literature, religion) and **environment / ecology / agriculture** (6 venues), for a repo-wide total of **198 packs / 2989 skills**. The Roadmap now tracks the next tier of expansion.
+**Status:** the nine breadth bundles are fully shipped (including the AI-first CS conference bundle, the engineering-technology bundle, the agriculture-environment bundle, the clinical-medicine bundle, the English-humanities bundle, and the Chinese sport-science bundle); depth packs now extend beyond business & economics into **humanities & broader social science** (51 flagship venues across sociology, anthropology, law, geography, political science, psychology, demography, communication, history, art, philosophy, literature, religion) and **environment / ecology / agriculture** (6 venues), for a repo-wide total of **193 packs / 2883 skills**. The Roadmap now tracks the next tier of expansion.
 
 ### ✅ Shipped
 
@@ -1407,8 +1404,8 @@ use next for my manuscript targeted at <journal>.
   - [English-Humanities-Journal-Skills](English-Humanities-Journal-Skills/) — 36 English humanities journals
   - [Chinese-Sport-Science-Journal-Skills](Chinese-Sport-Science-Journal-Skills/) — 12 Chinese sport-science (体育学) journals
 - **Per-journal cover wall** for breadth journals, always-expanded cover galleries in both READMEs, and 200 lightweight root entry folders for repo-front browsing.
-- **Full end-to-end depth packs (~12 steps)** — 184 first-party venue packs across five areas (AER and Nature additionally ship as curated submodule packs):
-  - **English economics:** AER (submodule) · AER: Insights · AEJ Applied Economics · AEJ Economic Policy · AEJ Macroeconomics · AEJ Microeconomics · JEEA · IER · The Economic Journal · European Economic Review · Journal of Economic Literature · Journal of Economic Perspectives · Review of Economics and Statistics · QJE · JPE · Econometrica · REStud · Journal of Development Economics · Journal of Public Economics · Journal of Labor Economics · Journal of International Economics · Journal of Monetary Economics · JMCB · IMF Economic Review · Economic Policy · RAND Journal of Economics · Journal of Econometrics · Econometric Theory · Quantitative Economics · Journal of Applied Econometrics · JBES · The Econometrics Journal · Review of Economic Dynamics · Journal of Economic Growth · Journal of Economic Theory · Games and Economic Behavior · Journal of Human Resources · Journal of Health Economics · Journal of Urban Economics · JEEM · JEBO · Journal of Law and Economics · JLEO · World Development · World Bank Economic Review · Journal of Economic Geography · Journal of Risk and Uncertainty · Experimental Economics · Annual Review of Economics
+- **Full end-to-end depth packs (~12 steps)** — 184 first-party venue packs across five areas (AER and Nature are listed as external third-party resources):
+  - **English economics:** AER (external listing) · AER: Insights · AEJ Applied Economics · AEJ Economic Policy · AEJ Macroeconomics · AEJ Microeconomics · JEEA · IER · The Economic Journal · European Economic Review · Journal of Economic Literature · Journal of Economic Perspectives · Review of Economics and Statistics · QJE · JPE · Econometrica · REStud · Journal of Development Economics · Journal of Public Economics · Journal of Labor Economics · Journal of International Economics · Journal of Monetary Economics · JMCB · IMF Economic Review · Economic Policy · RAND Journal of Economics · Journal of Econometrics · Econometric Theory · Quantitative Economics · Journal of Applied Econometrics · JBES · The Econometrics Journal · Review of Economic Dynamics · Journal of Economic Growth · Journal of Economic Theory · Games and Economic Behavior · Journal of Human Resources · Journal of Health Economics · Journal of Urban Economics · JEEM · JEBO · Journal of Law and Economics · JLEO · World Development · World Bank Economic Review · Journal of Economic Geography · Journal of Risk and Uncertainty · Experimental Economics · Annual Review of Economics
   - **English finance:** Journal of Finance · Journal of Financial Economics · Review of Financial Studies · Review of Finance · JFQA · JFI · Journal of Corporate Finance · Journal of Banking & Finance · Journal of Financial Markets · Journal of International Money and Finance · Financial Management · Mathematical Finance
   - **English management / OM / IS:** AMJ · AMR · Academy of Management Annals · ASQ · SMJ · Organization Science · Organization Studies · Journal of Management · Journal of Management Studies · Human Relations · Human Resource Management · ETP · Research Policy · JIBS · JBV · Management Science · Operations Research · INFORMS Journal on Computing · M&SOM · JOM · POM · MISQ · ISR · JMIS · JAIS
   - **English marketing / consumer research:** JM · JMR · JAMS · Marketing Science · JCR · Journal of Consumer Psychology
@@ -1878,7 +1875,7 @@ Sources: [RePEc / IDEAS aggregate ranking](https://ideas.repec.org/top/top.journ
 
 Each pack lives in its own repository. To contribute to a pack, open a PR on that pack's repo. To propose a new pack, open an issue here.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the multi-agent workflow, submodule boundary rules, and verification checks.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the multi-agent workflow and verification checks.
 For the monthly quality-uplift lane and score/source/clone/root-card report stack, see [tools/README.md](tools/README.md).
 
 Before opening a PR that changes root navigation, manifests, or pack metadata, run:
@@ -1906,12 +1903,12 @@ Broader-scope agent skill collections (complementary to this journal-specific in
 - [Awesome-Agent-Skills-for-Empirical-Research](https://github.com/brycewang-stanford/Awesome-Agent-Skills-for-Empirical-Research) — curated 23,000+ agent skills across 8 social-science disciplines (maintained by CoPaper.AI / Stanford REAP).
 - [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) — generic research → write → review → revise → finalize skill pipeline for Claude Code.
 
-Curated as submodules under this repo (see the table above):
+Listed as external resources, no longer vendored into this repository:
 
-- [nature-skills](https://github.com/Yuan1z0825/nature-skills) → [`nature-skills/`](nature-skills/)
-- [Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) → [`nature-paper-skills/`](nature-paper-skills/)
-- [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) → [`claude-scholar/`](claude-scholar/)
-- [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) → [`codex-claude-academic-skills/`](codex-claude-academic-skills/)
+- [nature-skills](https://github.com/Yuan1z0825/nature-skills)
+- [Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills)
+- [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar)
+- [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills)
 
 Generic scientific-writing skill packs (different scope — not journal-specific, listed for reference):
 

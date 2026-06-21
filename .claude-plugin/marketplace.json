@@ -1,0 +1,1363 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "awesome-journal-skills",
+  "version": "1.0.0",
+  "description": "Per-journal fit-and-house-style agent skills across economics, business, social science, humanities, natural science, clinical medicine, engineering, and CS conferences — per-journal depth packs plus discipline breadth bundles. Add this marketplace once, then `/plugin install <pack-name>` for any venue.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "plugins": [
+    {
+      "name": "aaai-skills",
+      "source": "./AAAI-Skills",
+      "description": "Twelve AAAI-specific skills for AI conference submission strategy, grounded in official AAAI-26 submission instructions, review process, author policies, rebuttal FAQ, supplementary-material rules, and AI-assisted review FAQ.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "academy-of-management-annals-skills",
+      "source": "./Academy-of-Management-Annals-Skills",
+      "description": "Twelve-skill bundle covering the Academy of Management Annals manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "amj-skills",
+      "source": "./Academy-of-Management-Journal-Skills",
+      "description": "Twelve-skill bundle covering the Academy of Management Journal (AMJ) manuscript lifecycle.",
+      "version": "0.2.0",
+      "category": "academic"
+    },
+    {
+      "name": "amr-skills",
+      "source": "./Academy-of-Management-Review-Skills",
+      "description": "Twelve-skill theory-development bundle for the Academy of Management Review (AMR), AOM's conceptual/theory journal. Theory-puzzle framing, construct clarity, propositions (not hypotheses tested), argument-logic stress-testing, contribution differentiation, conceptual figures, APA/AOM style, ScholarOne double-anonymous developmental review. NO empirical data — that is AMJ's lane.",
+      "version": "0.2.0",
+      "category": "academic"
+    },
+    {
+      "name": "accounting-research-skills",
+      "source": "./Accounting-Research-Skills",
+      "description": "Thirteen-skill bundle covering the 《会计研究》 manuscript lifecycle: workflow router, accounting-vs-finance fit positioning, topic selection, literature review, institutional/standards background, accounting measurement, quasi-experimental identification, information mechanism, robustness, tables/figures, standard-setter/regulator implications, submission preflight, and rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "asq-skills",
+      "source": "./Administrative-Science-Quarterly-Skills",
+      "description": "Twelve-skill bundle covering the Administrative Science Quarterly (ASQ) manuscript lifecycle.",
+      "version": "0.2.0",
+      "category": "academic"
+    },
+    {
+      "name": "aej-applied-economics-skills",
+      "source": "./AEJ-Applied-Economics-Skills",
+      "description": "Twelve-skill bundle covering the American Economic Journal: Applied Economics (AEJ: Applied) manuscript lifecycle, from topic selection through the AEA Data Editor reproducibility check and R&R rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "aej-economic-policy-skills",
+      "source": "./AEJ-Economic-Policy-Skills",
+      "description": "Twelve-skill bundle covering the American Economic Journal: Economic Policy (AEJ: Policy) manuscript lifecycle, from a policy-question-first topic through credible quasi-experimental identification, the AEA Data Editor reproducibility check, and R&R rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "aej-macroeconomics-skills",
+      "source": "./AEJ-Macroeconomics-Skills",
+      "description": "Twelve-skill bundle covering the American Economic Journal: Macroeconomics (AEJ: Macro) manuscript lifecycle, from topic selection through the AEA Data Editor reproducibility check and R&R rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "aej-microeconomics-skills",
+      "source": "./AEJ-Microeconomics-Skills",
+      "description": "Twelve-skill bundle covering the American Economic Journal: Microeconomics (AEJ: Micro) manuscript lifecycle, from topic selection through the central theory-model and proof craft to the AEA Data Editor reproducibility check and R&R rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "aer-insights-skills",
+      "source": "./AER-Insights-Skills",
+      "description": "Twelve-skill bundle covering the American Economic Review: Insights (AER: Insights) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "agsy-skills",
+      "source": "./Agricultural-Systems-Skills",
+      "description": "Twelve-skill bundle covering the Agricultural Systems manuscript lifecycle, centered on systems analysis and modelling — whole-farm and food-system interactions, trade-offs, model description and evaluation, and decision support.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "agriculture-environment-journal-skills",
+      "source": "./Agriculture-Environment-Journal-Skills",
+      "description": "English agriculture / environment / earth-science journal routing and per-journal fit skills with official-submission-check discipline.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "aistats-skills",
+      "source": "./AISTATS-Skills",
+      "description": "Twelve AISTATS-specific skills for AI/statistics conference submission strategy, grounded in official AISTATS 2026 CFP, OpenReview group, PMLR proceedings pages, and Code of Conduct.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "american-anthropologist-skills",
+      "source": "./American-Anthropologist-Skills",
+      "description": "Twelve-skill bundle covering the American Anthropologist (AA) manuscript lifecycle across the four subfields, with ethnographic/qualitative inference as first-class and research ethics, consent, and accountability at the center.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "aerj-skills",
+      "source": "./American-Educational-Research-Journal-Skills",
+      "description": "Twelve-skill bundle covering the American Educational Research Journal (AERJ) manuscript lifecycle across quantitative, qualitative, and mixed-methods education research and the journal's two sections (Social and Institutional Analysis; Teaching, Learning, and Human Development).",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "ahr-skills",
+      "source": "./American-Historical-Review-Skills",
+      "description": "Twelve-skill bundle covering The American Historical Review (AHR) manuscript lifecycle — historiographical intervention, archival source criticism, interpretation, Chicago-style prose, and the review and submission process for a humanities flagship.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "ajps-skills",
+      "source": "./American-Journal-of-Political-Science-Skills",
+      "description": "Twelve-skill bundle covering the American Journal of Political Science (AJPS) manuscript lifecycle, with a dedicated skill for the journal's mandatory third-party verified replication package deposited to the AJPS Dataverse.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "ajs-skills",
+      "source": "./American-Journal-of-Sociology-Skills",
+      "description": "Twelve-skill bundle covering the American Journal of Sociology (AJS) manuscript lifecycle — UChicago Press house style, double-blind student-run review, the $30 submission fee, the Comment-and-Reply tradition, and AJS's strength in social theory and comparative-historical sociology.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "apsr-skills",
+      "source": "./American-Political-Science-Review-Skills",
+      "description": "Twelve-skill bundle covering the American Political Science Review (APSR) manuscript lifecycle across all political-science subfields and the journal's five publication tracks.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "asr-skills",
+      "source": "./American-Sociological-Review-Skills",
+      "description": "Twelve-skill bundle covering the American Sociological Review (ASR) manuscript lifecycle across sociological subfields and methods.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "annals-of-mathematics-skills",
+      "source": "./Annals-of-Mathematics-Skills",
+      "description": "Twelve-skill bundle covering the Annals of Mathematics manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "annals-aag-skills",
+      "source": "./Annals-of-the-American-Association-of-Geographers-Skills",
+      "description": "Twelve-skill bundle covering the Annals of the American Association of Geographers (Annals of the AAG) manuscript lifecycle across the journal's four areas and cross-disciplinary track.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "annual-review-of-economics-skills",
+      "source": "./Annual-Review-of-Economics-Skills",
+      "description": "Twelve-skill bundle covering the Annual Review of Economics manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "annual-review-of-psychology-skills",
+      "source": "./Annual-Review-of-Psychology-Skills",
+      "description": "Twelve-skill bundle covering the Annual Review of Psychology invited-review lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "annual-review-of-sociology-skills",
+      "source": "./Annual-Review-of-Sociology-Skills",
+      "description": "Twelve-skill bundle covering the Annual Review of Sociology invited-review lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "british-journal-of-political-science-skills",
+      "source": "./British-Journal-of-Political-Science-Skills",
+      "description": "Twelve-skill bundle covering the British Journal of Political Science (BJPS) manuscript lifecycle across all political-science subfields and the journal's Research Article, Letter, and Comment formats.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "cancer-cell-skills",
+      "source": "./Cancer-Cell-Skills",
+      "description": "Twelve-skill bundle covering the Cancer Cell (Cell Press) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "cell-skills",
+      "source": "./Cell-Skills",
+      "description": "Twelve-skill bundle covering the Cell manuscript lifecycle: workflow router, scope/significance fit, single-narrative framing, the Highlights + eTOC + Graphical Abstract trio, the ≤150-word Summary, main-text writing, display items, STAR Methods + Key Resources Table, data/code availability, Cell Press author–date references, submission preflight + cover letter, and reviewer rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "china-economic-quarterly-skills",
+      "source": "./China-Economic-Quarterly-Skills",
+      "description": "Twelve-skill bundle covering the 《经济学(季刊)》 manuscript lifecycle: workflow router, fit positioning, internationally-legible topic selection, field-benchmarked literature review, structural / quasi-experimental identification, modern staggered-DID compliance, inference rigor, mechanism evidence, figures-over-tables, English abstract, submission preflight, and rebuttal.",
+      "version": "0.2.0",
+      "category": "academic"
+    },
+    {
+      "name": "china-industrial-economics-skills",
+      "source": "./China-Industrial-Economics-Skills",
+      "description": "Thirteen-skill bundle covering the 《中国工业经济》 manuscript lifecycle: workflow router, fit positioning, topic selection, literature review, institutional background, multi-period DID / event-study identification, mechanism, heterogeneity, the signature robustness arms race, tables/figures with economic-magnitude interpretation, actionable policy implications, submission preflight, and rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "china-rural-economy-skills",
+      "source": "./China-Rural-Economy-Skills",
+      "description": "Twelve-skill bundle covering the 《中国农村经济》 manuscript lifecycle: workflow router, 三农 topic selection, literature review, micro-household identification, mechanism, heterogeneity, tables / figures, rural-revitalization policy implications, abstract, house style, submission preflight, and R&R rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "chinese-public-administration-skills",
+      "source": "./Chinese-Public-Administration-Skills",
+      "description": "Twelve-skill bundle covering the 《中国行政管理》 manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "chinese-socsci-journal-skills",
+      "source": "./Chinese-SocialScience-Journal-Skills",
+      "description": "Chinese social-science journal routing and per-journal fit skills with official-submission-check discipline.",
+      "version": "0.2.0",
+      "category": "academic"
+    },
+    {
+      "name": "chinese-sport-science-journal-skills",
+      "source": "./Chinese-Sport-Science-Journal-Skills",
+      "description": "Chinese sport-science journal routing and per-journal fit skills with official-submission-check discipline.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "clinical-medicine-journal-skills",
+      "source": "./Clinical-Medicine-Journal-Skills",
+      "description": "English specialty clinical-medicine journal routing and per-journal fit skills with reporting-guideline, trial-registration, and official-submission-check discipline.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "cognitive-psychology-skills",
+      "source": "./Cognitive-Psychology-Skills",
+      "description": "Twelve-skill bundle covering the Cognitive Psychology (Elsevier) manuscript lifecycle, including its long-form, multi-experiment, computational-modeling house style and code-transparency expectations.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "communication-research-skills",
+      "source": "./Communication-Research-Skills",
+      "description": "Twelve-skill bundle covering the Communication Research (CR) manuscript lifecycle — hypothesis-testing experiments, surveys, and content analysis with rigorous measurement, mediation/moderation, and APA reporting.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "comparative-political-studies-skills",
+      "source": "./Comparative-Political-Studies-Skills",
+      "description": "Twelve-skill bundle covering the Comparative Political Studies (CPS) manuscript lifecycle across comparative-politics subfields and methods, from comparative-fit framing through the CPS Dataverse replication deposit.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "computer-science-conference-skills",
+      "source": "./Computer-Science-Conference-Skills",
+      "description": "AI-first computer-science conference skill stack: 155 conference fit-and-submission profiles plus a CS/AI router. Covers top AI/ML, data mining, vision, NLP, robotics, HCI, systems, security, software engineering, programming languages, databases, and theory venues, with current-cycle CFP and author-kit re-check discipline.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "conbio-skills",
+      "source": "./Conservation-Biology-Skills",
+      "description": "Twelve-skill bundle covering the Conservation Biology manuscript lifecycle — from conservation-relevant topic fit through study design, analysis, data archiving, and revision — for the flagship journal of the Society for Conservation Biology.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "car-skills",
+      "source": "./Contemporary-Accounting-Research-Skills",
+      "description": "Twelve-skill bundle covering the Contemporary Accounting Research (CAR) manuscript lifecycle, from topic selection through R&R rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "crim-skills",
+      "source": "./Criminology-Skills",
+      "description": "Twelve-skill bundle covering the Criminology (ASC / Wiley) manuscript lifecycle, from theory-forward topic selection through crime-data analysis, transparency, blinded review, and R&R rebuttals.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "ci-skills",
+      "source": "./Critical-Inquiry-Skills",
+      "description": "Twelve-skill bundle covering the Critical Inquiry essay lifecycle — from a bold interdisciplinary theoretical intervention through the reading of texts, images, and objects, to Chicago-style submission and revision.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "current-anthropology-skills",
+      "source": "./Current-Anthropology-Skills",
+      "description": "Twelve-skill bundle covering the Current Anthropology (CA) manuscript lifecycle across all subfields, with ethnographic/qualitative inference as first-class, research ethics and accountability at the center, and the distinctive CA✩ comment-and-reply Treatment encoded into review and rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "demog-skills",
+      "source": "./Demography-Skills",
+      "description": "Twelve-skill bundle covering the Demography manuscript lifecycle across population science, with demographic methods (life tables, decomposition, event history, age-period-cohort, multistate, microsimulation, projections) and the journal's Subscribe to Open access model.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "developmental-psychology-skills",
+      "source": "./Developmental-Psychology-Skills",
+      "description": "Twelve-skill bundle covering the Developmental Psychology (APA) manuscript lifecycle, including developmental-change designs, JARS reporting, and the journal's open-science requirements.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "ectheory-skills",
+      "source": "./Econometric-Theory-Skills",
+      "description": "Twelve-skill bundle covering the Econometric Theory (ET) manuscript lifecycle, from theorem-driven topic selection through single-anonymous review and rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "econometrica-skills",
+      "source": "./Econometrica-Skills",
+      "description": "Twelve-skill bundle covering the Econometrica manuscript lifecycle.",
+      "version": "0.2.0",
+      "category": "academic"
+    },
+    {
+      "name": "economic-policy-skills",
+      "source": "./Economic-Policy-Skills",
+      "description": "Twelve-skill bundle covering the Economic Policy manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "economic-research-skills",
+      "source": "./Economic-Research-Journal-Skills",
+      "description": "Eighteen-skill bundle covering the 《经济研究》 manuscript lifecycle: workflow router, topic selection, introduction, literature review, theory & hypotheses, data & sample, modern identification (DID/IV/RDD/DML), mechanism (post-江艇 2022), heterogeneity, robustness, tables / figures, policy implications, abstract, house style, reviewer-lens self-audit, reproducibility, submission preflight, and R&R rebuttal — plus a runnable Stata + Python code library.",
+      "version": "0.3.0",
+      "category": "academic"
+    },
+    {
+      "name": "engineering-technology-journal-skills",
+      "source": "./Engineering-Technology-Journal-Skills",
+      "description": "English engineering / technology journal routing and per-journal fit skills with official-submission-check discipline.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "english-humanities-journal-skills",
+      "source": "./English-Humanities-Journal-Skills",
+      "description": "English humanities journal routing and per-journal fit skills with argument-, source-, and style-guide discipline.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "english-natsci-journal-skills",
+      "source": "./English-NaturalScience-Journal-Skills",
+      "description": "English natural-science / clinical / physical / formal-science journal routing and per-journal fit skills with official-submission-check discipline.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "english-socsci-journal-skills",
+      "source": "./English-SocialScience-Journal-Skills",
+      "description": "English economics / business journal routing and per-journal fit skills with official-submission-check discipline.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "entrepreneurship-theory-and-practice-skills",
+      "source": "./Entrepreneurship-Theory-and-Practice-Skills",
+      "description": "Twelve-skill bundle covering the Entrepreneurship Theory and Practice manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "est-skills",
+      "source": "./Environmental-Science-and-Technology-Skills",
+      "description": "Twelve-skill bundle covering the Environmental Science & Technology (ES&T) manuscript lifecycle — from environmental-significance framing through study design, QA/QC, the SI + TOC-graphic workflow, ACS submission, and revision.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "eer-skills",
+      "source": "./European-Economic-Review-Skills",
+      "description": "Twelve-skill bundle covering the European Economic Review (EER) manuscript lifecycle, from topic selection through the mandatory replication package and R&R rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "european-sociological-review-skills",
+      "source": "./European-Sociological-Review-Skills",
+      "description": "Twelve-skill bundle covering the European Sociological Review (ESR) manuscript lifecycle for comparative and longitudinal quantitative sociology.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "experimental-economics-skills",
+      "source": "./Experimental-Economics-Skills",
+      "description": "Twelve-skill bundle covering the Experimental Economics manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "fcr-skills",
+      "source": "./Field-Crops-Research-Skills",
+      "description": "Twelve-skill bundle covering the Field Crops Research (FCR) manuscript lifecycle for empirical agronomy and crop science — from multi-environment field-experiment design through mixed-model analysis, yield-gap framing, data-availability declaration, and revision.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "financial-management-skills",
+      "source": "./Financial-Management-Skills",
+      "description": "Twelve-skill bundle covering the Financial Management manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "geb-skills",
+      "source": "./Games-and-Economic-Behavior-Skills",
+      "description": "Twelve-skill bundle covering the Games and Economic Behavior (GEB) manuscript lifecycle, from game-theoretic topic selection through the Editor-in-Charge review process and R&R rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "gcb-skills",
+      "source": "./Global-Change-Biology-Skills",
+      "description": "Twelve-skill bundle covering the Global Change Biology (GCB) manuscript lifecycle — from global-change significance and study design through mechanism-first exhibits, open-data archiving, submission via ScholarOne, and revision.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "gec-skills",
+      "source": "./Global-Environmental-Change-Skills",
+      "description": "Twelve-skill bundle covering the Global Environmental Change (GEC) manuscript lifecycle for interdisciplinary, policy-relevant research on the human dimensions of environmental change.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "governance-journal-skills",
+      "source": "./Governance-Journal-Skills",
+      "description": "Twelve-skill bundle covering the Governance: An International Journal of Policy, Administration, and Institutions manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "harvard-law-review-skills",
+      "source": "./Harvard-Law-Review-Skills",
+      "description": "Twelve-skill bundle covering the Harvard Law Review (HLR) article lifecycle — from legal thesis and preemption check through Bluebook footnoting, Scholastica placement and expedites, student-editor review, and the cite-check.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "human-relations-skills",
+      "source": "./Human-Relations-Skills",
+      "description": "Twelve-skill bundle covering the Human Relations manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "human-resource-management-skills",
+      "source": "./Human-Resource-Management-Skills",
+      "description": "Twelve-skill bundle covering the Human Resource Management manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "iclr-skills",
+      "source": "./ICLR-Skills",
+      "description": "Twelve ICLR-specific skills for ML conference submission strategy, grounded in official ICLR 2026 CFP, Author Guide, Reviewer Guide, Code of Ethics, Code of Conduct, and LLM-use policy.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "icml-skills",
+      "source": "./ICML-Skills",
+      "description": "Twelve ICML-specific skills for ML conference submission strategy, grounded in official ICML 2026 author instructions, CFP, Peer Review FAQ, review instructions, and LLM-review policy.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "ijcai-skills",
+      "source": "./IJCAI-Skills",
+      "description": "Twelve IJCAI-specific skills for AI conference submission strategy, grounded in official IJCAI-ECAI 2026 CFP, submissions FAQ, author response FAQ, reproducibility guidelines, author kit, important dates, peer-review principles, and conflict policy.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "imf-economic-review-skills",
+      "source": "./IMF-Economic-Review-Skills",
+      "description": "Twelve-skill bundle covering the IMF Economic Review manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "isr-skills",
+      "source": "./Information-Systems-Research-Skills",
+      "description": "Twelve-skill bundle covering the Information Systems Research (ISR) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "informs-journal-on-computing-skills",
+      "source": "./INFORMS-Journal-on-Computing-Skills",
+      "description": "Twelve-skill bundle covering the INFORMS Journal on Computing manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "ier-skills",
+      "source": "./International-Economic-Review-Skills",
+      "description": "Twelve-skill bundle covering the International Economic Review manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "io-skills",
+      "source": "./International-Organization-Skills",
+      "description": "Twelve-skill bundle covering the International Organization (IO) manuscript lifecycle for international-relations research, centered on IR theory, IPE/security scope, and IO's verify-before-publication transparency policy.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jama-skills",
+      "source": "./JAMA-Skills",
+      "description": "Twelve-skill bundle covering the JAMA (Journal of the American Medical Association) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jae-skills",
+      "source": "./Journal-of-Accounting-and-Economics-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Accounting and Economics (JAE) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jar-skills",
+      "source": "./Journal-of-Accounting-Research-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Accounting Research (JAR) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jape-skills",
+      "source": "./Journal-of-Applied-Econometrics-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Applied Econometrics (JAE) manuscript lifecycle — from topic fit and identification on real data to the mandatory JAE Data Archive deposit.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "journal-of-applied-psychology-skills",
+      "source": "./Journal-of-Applied-Psychology-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Applied Psychology manuscript lifecycle — I-O theory, measurement and design rigor, SEM/HLM/meta-analysis, masked review, and TOP-aligned open science.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jbf-skills",
+      "source": "./Journal-of-Banking-and-Finance-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Banking & Finance (JBF) manuscript lifecycle: from topic selection through Editorial Manager submission and R&R rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jbes-skills",
+      "source": "./Journal-of-Business-and-Economic-Statistics-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Business & Economic Statistics (JBES) manuscript lifecycle, from method-fit topic selection through submission and rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jbv-skills",
+      "source": "./Journal-of-Business-Venturing-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Business Venturing (JBV) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "joc-skills",
+      "source": "./Journal-of-Communication-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Communication (JoC) manuscript lifecycle across communication research traditions — quantitative, computational, qualitative, and critical.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jcp-skills",
+      "source": "./Journal-of-Consumer-Psychology-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Consumer Psychology manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jcr-skills",
+      "source": "./Journal-of-Consumer-Research-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Consumer Research (JCR) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jcf-skills",
+      "source": "./Journal-of-Corporate-Finance-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Corporate Finance (JCF) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jde-skills",
+      "source": "./Journal-of-Development-Economics-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Development Economics (JDE) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "joe-skills",
+      "source": "./Journal-of-Econometrics-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Econometrics (JoE) manuscript lifecycle, from methodological topic selection through asymptotics, Monte Carlo, proof exposition, and revision rebuttals.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jebo-skills",
+      "source": "./Journal-of-Economic-Behavior-and-Organization-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Economic Behavior and Organization manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "journal-of-economic-geography-skills",
+      "source": "./Journal-of-Economic-Geography-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Economic Geography manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jeg-skills",
+      "source": "./Journal-of-Economic-Growth-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Economic Growth (JEG) manuscript lifecycle, calibrated to a specialist growth and dynamic-macroeconomics outlet spanning theory and empirics.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jel-skills",
+      "source": "./Journal-of-Economic-Literature-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Economic Literature (JEL) survey-article lifecycle, from topic selection and the proposal/commissioning route through synthesis, framework-building, balance, submission, and revision.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jep-skills",
+      "source": "./Journal-of-Economic-Perspectives-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Economic Perspectives (JEP) lifecycle, from judging whether a topic is JEP-shaped, through the 2–5 page proposal/symposium pitch, accessible non-technical writing, and balance, to the email submission and editor-driven revision.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jet-skills",
+      "source": "./Journal-of-Economic-Theory-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Economic Theory (JET) theorem-proof manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "journal-of-educational-psychology-skills",
+      "source": "./Journal-of-Educational-Psychology-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Educational Psychology manuscript lifecycle, including its classroom/school study designs, multilevel/SEM analysis, APA 7th format, and Transparency and Openness requirements.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jeem-skills",
+      "source": "./Journal-of-Environmental-Economics-and-Management-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Environmental Economics and Management manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "journal-of-finance-and-economics-skills",
+      "source": "./Journal-of-Finance-and-Economics-Skills",
+      "description": "Twelve-skill bundle covering the 《财经研究》 manuscript lifecycle: workflow router, topic selection, literature review, identification, mechanism, heterogeneity, tables / figures, policy implications, abstract, house style, submission preflight, and R&R rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jf-skills",
+      "source": "./Journal-of-Finance-Skills",
+      "description": "Twelve-skill bundle covering the The Journal of Finance (JF) manuscript lifecycle, with JF-specific mechanics (AFA portal, tiered submission fee, 60-page limit, bundled Internet Appendix, Data and Code Sharing Policy).",
+      "version": "0.2.0",
+      "category": "academic"
+    },
+    {
+      "name": "jfqa-skills",
+      "source": "./Journal-of-Financial-and-Quantitative-Analysis-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Financial and Quantitative Analysis (JFQA) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jfe-skills",
+      "source": "./Journal-of-Financial-Economics-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Financial Economics (JFE) manuscript lifecycle.",
+      "version": "0.2.0",
+      "category": "academic"
+    },
+    {
+      "name": "jfi-skills",
+      "source": "./Journal-of-Financial-Intermediation-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Financial Intermediation (JFI) manuscript lifecycle — banking and financial-intermediation research, theory and empirics, Editorial Manager submission with a non-refundable fee, single-blind review, and Elsevier data-sharing norms.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jfm-skills",
+      "source": "./Journal-of-Financial-Markets-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Financial Markets manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "journal-of-financial-research-skills",
+      "source": "./Journal-of-Financial-Research-Skills",
+      "description": "Twelve-skill bundle covering the 《金融研究》 manuscript lifecycle: workflow router, macro vs micro fit positioning, topic selection, literature review, financial-system institutional background, policy-shock and high-frequency identification, financial-channel mechanism, heterogeneity, tables and figures, operational policy implications, submission preflight, and rebuttal.",
+      "version": "0.2.0",
+      "category": "academic"
+    },
+    {
+      "name": "jhe-skills",
+      "source": "./Journal-of-Health-Economics-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Health Economics manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jhr-skills",
+      "source": "./Journal-of-Human-Resources-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Human Resources (JHR) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jibs-skills",
+      "source": "./Journal-of-International-Business-Studies-Skills",
+      "description": "Twelve-skill bundle covering the Journal of International Business Studies (JIBS) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jie-skills",
+      "source": "./Journal-of-International-Economics-Skills",
+      "description": "Twelve-skill bundle covering the Journal of International Economics (JIE) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jimf-skills",
+      "source": "./Journal-of-International-Money-and-Finance-Skills",
+      "description": "Twelve-skill bundle covering the Journal of International Money and Finance manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jole-skills",
+      "source": "./Journal-of-Labor-Economics-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Labor Economics (JOLE) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jle-skills",
+      "source": "./Journal-of-Law-and-Economics-Skills",
+      "description": "Twelve-skill bundle covering the The Journal of Law and Economics manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jleo-skills",
+      "source": "./Journal-of-Law-Economics-and-Organization-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Law, Economics, and Organization manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jmis-skills",
+      "source": "./Journal-of-Management-Information-Systems-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Management Information Systems manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "journal-of-management-sciences-in-china-skills",
+      "source": "./Journal-of-Management-Sciences-in-China-Skills",
+      "description": "Twelve-skill bundle covering the 《管理科学学报》 manuscript lifecycle: workflow router, fit positioning (数理 vs 经验实证), problem formulation, model building, proofs, algorithm design, numerical experiments, behavioral OM, managerial insights, notation style, submission preflight, and rebuttal.",
+      "version": "0.2.0",
+      "category": "academic"
+    },
+    {
+      "name": "journal-of-management-skills",
+      "source": "./Journal-of-Management-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Management manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jms-skills",
+      "source": "./Journal-of-Management-Studies-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Management Studies manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "management-world-skills",
+      "source": "./Journal-of-Management-World-Skills",
+      "description": "Eleven-skill bundle covering the 《管理世界》 manuscript lifecycle: workflow router, China-context topic selection, literature review, identification, institutional background, mechanism / heterogeneity, tables and figures, policy implications, submission preflight, R&R rebuttal, and post-acceptance data-and-code replication package.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jmr-skills",
+      "source": "./Journal-of-Marketing-Research-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Marketing Research (JMR) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jm-skills",
+      "source": "./Journal-of-Marketing-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Marketing (JM) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jmf-skills",
+      "source": "./Journal-of-Marriage-and-Family-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Marriage and Family (JMF) manuscript lifecycle for family-science research — family demography, relationships, parenting, child wellbeing, and family policy across sociology, psychology, demography, and family studies.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jme-skills",
+      "source": "./Journal-of-Monetary-Economics-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Monetary Economics (JME) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jmcb-skills",
+      "source": "./Journal-of-Money-Credit-and-Banking-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Money, Credit and Banking manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jom-skills",
+      "source": "./Journal-of-Operations-Management-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Operations Management (JOM) empirical-OM manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jpsp-skills",
+      "source": "./Journal-of-Personality-and-Social-Psychology-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Personality and Social Psychology (JPSP) manuscript lifecycle: choosing the right section (Attitudes and Social Cognition, Interpersonal Relations and Group Processes, Personality Processes and Individual Differences), building multi-study packages, internal meta-analysis, JARS reporting, APA 7th style, TOP-Level-2 transparency, masked review, and the per-section editorial process.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jpam-skills",
+      "source": "./Journal-of-Policy-Analysis-and-Management-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Policy Analysis and Management (JPAM) manuscript lifecycle — credible policy evaluation, cost-benefit and distributional analysis, and clear policy implications across the policy fields.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jpe-skills",
+      "source": "./Journal-of-Political-Economy-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Political Economy (JPE) manuscript lifecycle.",
+      "version": "0.2.0",
+      "category": "academic"
+    },
+    {
+      "name": "jop-skills",
+      "source": "./Journal-of-Politics-Skills",
+      "description": "Twelve-skill bundle covering The Journal of Politics (JOP) manuscript lifecycle across all political-science subfields, tuned to the journal's page-based length limits and its replication-analyst data-access policy.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jpart-skills",
+      "source": "./Journal-of-Public-Administration-Research-and-Theory-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Public Administration Research and Theory (JPART) manuscript lifecycle — public-management theory building, experimental and causal research design, and the journal's double-blind, public-data-and-code submission process.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jpube-skills",
+      "source": "./Journal-of-Public-Economics-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Public Economics (JPubE) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "journal-of-quantitative-and-technological-economics-skills",
+      "source": "./Journal-of-Quantitative-and-Technological-Economics-Skills",
+      "description": "Thirteen-skill bundle covering the 《数量经济技术经济研究》 manuscript lifecycle: workflow router, fit positioning (measurement/forecasting vs causal), topic selection, literature review, productivity/efficiency measurement, time-series & macro-econometric methods, out-of-sample forecasting evaluation, input-output / CGE / structural decomposition, measurement & parameter sensitivity, quantitative tables/figures, planning/forecasting/industry implications, submission preflight, and rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jru-skills",
+      "source": "./Journal-of-Risk-and-Uncertainty-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Risk and Uncertainty manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jams-skills",
+      "source": "./Journal-of-the-Academy-of-Marketing-Science-Skills",
+      "description": "Twelve-skill bundle covering the Journal of the Academy of Marketing Science manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jaar-skills",
+      "source": "./Journal-of-the-American-Academy-of-Religion-Skills",
+      "description": "Twelve-skill bundle covering the Journal of the American Academy of Religion (JAAR) manuscript lifecycle for humanities scholarship in the academic study of religion — argument, primary texts and traditions, theory and method, and reflexive scholarly prose.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jacs-skills",
+      "source": "./Journal-of-the-American-Chemical-Society-Skills",
+      "description": "Twelve-skill bundle covering the Journal of the American Chemical Society (JACS) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jais-skills",
+      "source": "./Journal-of-the-Association-for-Information-Systems-Skills",
+      "description": "Twelve-skill bundle covering the Journal of the Association for Information Systems manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jeea-skills",
+      "source": "./Journal-of-the-European-Economic-Association-Skills",
+      "description": "Twelve-skill bundle covering the Journal of the European Economic Association (JEEA) manuscript lifecycle, from topic selection through the JEEA Data Editor replication check and R&R rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jue-skills",
+      "source": "./Journal-of-Urban-Economics-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Urban Economics manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "journal-of-world-economy-skills",
+      "source": "./Journal-of-World-Economy-Skills",
+      "description": "Twelve-skill bundle covering the 《世界经济》 manuscript lifecycle: workflow router, open-economy fit positioning, international causal topic, international-literature dialogue, customs / cross-country / GVC data sources, external-shock + shift-share / gravity identification, transmission channels, heterogeneity, tables and figures, opening-up policy implications, submission preflight, and rebuttal.",
+      "version": "0.2.0",
+      "category": "academic"
+    },
+    {
+      "name": "lancet-skills",
+      "source": "./Lancet-Skills",
+      "description": "Twelve-skill bundle covering the Lancet manuscript lifecycle: workflow router, scope/significance fit, study design + trial registration, EQUATOR reporting guidelines, the Research in context panel, the structured abstract, main-text writing, clinical statistics, clinical figures/tables, ethics + declaration of interests + role of funding source, submission preflight, and reviewer rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "mgsci-skills",
+      "source": "./Management-Science-Skills",
+      "description": "Twelve-skill bundle covering the Management Science manuscript lifecycle across analytical and empirical departments.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "msom-skills",
+      "source": "./Manufacturing-and-Service-Operations-Management-Skills",
+      "description": "Twelve-skill bundle covering the Manufacturing & Service Operations Management (M&SOM) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "mksc-skills",
+      "source": "./Marketing-Science-Skills",
+      "description": "Twelve-skill bundle covering the Marketing Science manuscript lifecycle, from modeling-driven topic selection through double-anonymous review and the replication deposit.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "mathfin-skills",
+      "source": "./Mathematical-Finance-Skills",
+      "description": "Twelve-skill bundle covering the Mathematical Finance manuscript lifecycle, from theorem framing to Wiley Research Exchange submission and revision.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "mind-skills",
+      "source": "./Mind-Skills",
+      "description": "Twelve-skill bundle covering the Mind article lifecycle for analytic philosophy — from a sharp thesis and sound argument through objections and replies, conceptual method, exposition, the MIND house style, triple-anonymous review, and post-decision revision.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "misq-skills",
+      "source": "./MIS-Quarterly-Skills",
+      "description": "Twelve-skill bundle covering the MIS Quarterly (MISQ) manuscript lifecycle across the four IS research traditions.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "nankai-business-review-skills",
+      "source": "./Nankai-Business-Review-Skills",
+      "description": "Twelve-skill bundle covering the 《南开管理评论》 manuscript lifecycle: workflow router, fit positioning, theory-gap articulation, mechanism-backed hypothesis development, measurement rigor (reliability / validity / common-method-bias), survey-SEM (mediation / moderation / moderated mediation / HLM), experiments, multi-case / grounded theory, China contextualization, discussion that advances a management theory, submission preflight, and rebuttal.",
+      "version": "0.2.0",
+      "category": "academic"
+    },
+    {
+      "name": "nejm-skills",
+      "source": "./NEJM-Skills",
+      "description": "Twelve-skill bundle covering the NEJM clinical manuscript lifecycle: workflow router, clinical-significance fit, study design & trial registration, EQUATOR reporting guidelines, structured abstract, terse IMRAD writing, clinical statistics, clinical display items, clinical ethics & integrity, Vancouver/ICMJE references, submission preflight, and response to reviewers.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "neurips-skills",
+      "source": "./NeurIPS-Skills",
+      "description": "Twelve NeurIPS-specific skills for AI/ML conference submission strategy, grounded in official NeurIPS 2026 CFP, Main Track Handbook, checklist, OpenReview response mechanics, code/data guidance, and camera-ready rules.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "new-media-and-society-skills",
+      "source": "./New-Media-and-Society-Skills",
+      "description": "Twelve-skill bundle covering the New Media & Society (NM&S) manuscript lifecycle across qualitative, critical, content/discourse, computational, and mixed methods.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "ors-skills",
+      "source": "./Operations-Research-Skills",
+      "description": "Twelve-skill bundle covering the Operations Research (OR) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "orgsci-skills",
+      "source": "./Organization-Science-Skills",
+      "description": "Twelve-skill bundle covering the Organization Science manuscript lifecycle, from contribution statement to rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "organization-studies-skills",
+      "source": "./Organization-Studies-Skills",
+      "description": "Twelve-skill bundle covering the Organization Studies manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "perspectives-on-psychological-science-skills",
+      "source": "./Perspectives-on-Psychological-Science-Skills",
+      "description": "Twelve-skill bundle covering the Perspectives on Psychological Science manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "prl-skills",
+      "source": "./Physical-Review-Letters-Skills",
+      "description": "Twelve-skill bundle covering the Physical Review Letters (PRL) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "pmla-skills",
+      "source": "./PMLA-Skills",
+      "description": "Twelve-skill bundle covering the PMLA (Publications of the Modern Language Association) manuscript lifecycle for literary and language studies — argument, close reading, theory, and MLA style.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "pnas-skills",
+      "source": "./PNAS-Skills",
+      "description": "Twelve-skill bundle covering the PNAS manuscript lifecycle: workflow router, scope/significance fit, submission-track selection (Direct vs Contributed), the ≤120-word Significance Statement, ≤250-word abstract, main-text writing with in-text Materials and Methods + classification, display items, statistics & reproducibility, data/code availability, numbered reference style, submission preflight, and reviewer rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "population-and-development-review-skills",
+      "source": "./Population-and-Development-Review-Skills",
+      "description": "Twelve-skill bundle covering the Population and Development Review (PDR) manuscript lifecycle across the demography-and-development intersection, with demographic methods (life tables, decomposition, event history, age-period-cohort, projections), synthetic-essay craft, double-anonymized review, Free Format ScholarOne submission, and no author fees under the standard model.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "pom-skills",
+      "source": "./Production-and-Operations-Management-Skills",
+      "description": "Twelve-skill bundle covering the Production and Operations Management (POM) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "progress-in-human-geography-skills",
+      "source": "./Progress-in-Human-Geography-Skills",
+      "description": "Twelve-skill bundle covering the Progress in Human Geography (PiHG) review-article lifecycle, from topic selection and the commissioning/submission intake routes through critical synthesis, conceptual framework-building, balance, submission, and revision.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "psychbull-skills",
+      "source": "./Psychological-Bulletin-Skills",
+      "description": "Twelve-skill bundle covering the Psychological Bulletin review / meta-analysis lifecycle — from a meta-analyzable question through PRISMA search, coding, random-effects synthesis, moderators and publication-bias diagnostics, MARS/JARS reporting, transparency, submission, and rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "psychological-review-skills",
+      "source": "./Psychological-Review-Skills",
+      "description": "Twelve-skill theory-development bundle for Psychological Review, the APA's new-theory/formal-model flagship. Theory-problem framing, formal/conceptual model construction, prediction derivation against rival models and existing data, scope and boundary conditions, model diagrams and simulation-of-model-behavior exhibits, APA style, contribution differentiation, and masked review via Editorial Manager. NO primary empirical reports — that is the lane of the JEP family / Psychological Science.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "psci-skills",
+      "source": "./Psychological-Science-Skills",
+      "description": "Twelve-skill bundle covering the Psychological Science manuscript lifecycle, including its short-report word format and post-2024 open-science requirements.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "public-administration-review-skills",
+      "source": "./Public-Administration-Review-Skills",
+      "description": "Twelve-skill bundle covering the Public Administration Review (PAR) manuscript lifecycle across public-administration subfields, the journal's five article types, and its research-and-practice Evidence for Practice requirement.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "poq-skills",
+      "source": "./Public-Opinion-Quarterly-Skills",
+      "description": "Twelve-skill bundle covering the Public Opinion Quarterly (POQ) manuscript lifecycle with a survey-methodology spine — Total Survey Error, questionnaire design, sampling and weighting, mode effects, nonresponse — and AAPOR-standard methodological disclosure.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "qe-skills",
+      "source": "./Quantitative-Economics-Skills",
+      "description": "Twelve-skill bundle covering the Quantitative Economics (QE) manuscript lifecycle, from topic selection through the Econometric Society Data Editor reproducibility check and R&R rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "qje-skills",
+      "source": "./Quarterly-Journal-of-Economics-Skills",
+      "description": "Twelve-skill bundle covering the Quarterly Journal of Economics (QJE) manuscript lifecycle.",
+      "version": "0.2.0",
+      "category": "academic"
+    },
+    {
+      "name": "rje-skills",
+      "source": "./RAND-Journal-of-Economics-Skills",
+      "description": "Twelve-skill bundle covering The RAND Journal of Economics (RJE) manuscript lifecycle for industrial-organization research.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "research-policy-skills",
+      "source": "./Research-Policy-Skills",
+      "description": "Twelve-skill bundle covering the Research Policy manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "review-of-accounting-studies-skills",
+      "source": "./Review-of-Accounting-Studies-Skills",
+      "description": "Twelve-skill bundle covering the Review of Accounting Studies manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "red-skills",
+      "source": "./Review-of-Economic-Dynamics-Skills",
+      "description": "Twelve-skill bundle covering the Review of Economic Dynamics (RED) manuscript lifecycle for quantitative/dynamic economics.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "restud-skills",
+      "source": "./Review-of-Economic-Studies-Skills",
+      "description": "Twelve-skill bundle covering the The Review of Economic Studies (REStud) manuscript lifecycle.",
+      "version": "0.2.0",
+      "category": "academic"
+    },
+    {
+      "name": "restat-skills",
+      "source": "./Review-of-Economics-and-Statistics-Skills",
+      "description": "Twelve-skill bundle covering the The Review of Economics and Statistics (REStat) manuscript lifecycle, from topic selection through the Harvard Dataverse replication package and R&R rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "review-of-educational-research-skills",
+      "source": "./Review-of-Educational-Research-Skills",
+      "description": "Twelve-skill bundle covering the Review of Educational Research (RER) review-article lifecycle, from scoping a synthesis-worthy question and a preregistered protocol through systematic search, the organizing framework, comprehensiveness and risk-of-bias, PRISMA/MARS transparency, submission, and revision.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "rof-skills",
+      "source": "./Review-of-Finance-Skills",
+      "description": "Twelve-skill bundle covering the Review of Finance (RoF) manuscript lifecycle for empirical and theoretical finance.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "rfs-skills",
+      "source": "./Review-of-Financial-Studies-Skills",
+      "description": "Twelve-skill bundle covering the The Review of Financial Studies (RFS) manuscript lifecycle.",
+      "version": "0.2.0",
+      "category": "academic"
+    },
+    {
+      "name": "science-skills",
+      "source": "./Science-Skills",
+      "description": "Twelve-skill bundle covering the Science manuscript lifecycle: workflow router, scope/significance fit, advance framing, abstract + one-sentence summary, main-text writing, display items, statistics & reproducibility, data/materials/code availability, reference style, cover letter, submission preflight, and reviewer rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "sf-skills",
+      "source": "./Social-Forces-Skills",
+      "description": "Twelve-skill bundle covering the Social Forces manuscript lifecycle across the generalist sociological and social-science subfields the journal serves, under its strict reference-inclusive 10,000-word cap and Chicago author-date style.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "spq-skills",
+      "source": "./Social-Psychology-Quarterly-Skills",
+      "description": "Twelve-skill bundle covering the Social Psychology Quarterly (SPQ) manuscript lifecycle across sociological social psychology — self and identity, social structure and personality, group processes, symbolic interaction, status, and affect.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "social-sciences-in-china-skills",
+      "source": "./Social-Sciences-in-China-Skills",
+      "description": "Eleven-skill bundle covering the 《中国社会科学》 manuscript lifecycle: workflow router, fit positioning, problematic framing, original-theory contribution, theory-tradition literature dialogue, argumentation rigor, evidence handling, scholarly style, abstract + keywords, submission preflight, and rebuttal.",
+      "version": "0.2.0",
+      "category": "academic"
+    },
+    {
+      "name": "sociological-methods-and-research-skills",
+      "source": "./Sociological-Methods-and-Research-Skills",
+      "description": "Twelve-skill bundle covering the Sociological Methods & Research (SMR) manuscript lifecycle — method-contribution fit, derivation and analytical properties, Monte Carlo simulation studies, a real-data empirical illustration, released reproducible software, ScholarOne submission, and rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "sociological-studies-skills",
+      "source": "./Sociological-Studies-Skills",
+      "description": "Twelve-skill bundle covering the 《社会学研究》 manuscript lifecycle for both quantitative and qualitative sociology: workflow router, fit positioning, sociological problematic, theory dialogue, quantitative craft (CGSS/CFPS/CLDS), qualitative craft (ethnography/interview/grounded theory), social-process mechanism, concept building, scholarly style, abstract + keywords, submission preflight, and rebuttal.",
+      "version": "0.2.0",
+      "category": "academic"
+    },
+    {
+      "name": "sociological-theory-skills",
+      "source": "./Sociological-Theory-Skills",
+      "description": "Twelve-skill bundle covering the Sociological Theory (ST) manuscript lifecycle. Theoretical-problem framing, tradition positioning, concept and proposition construction, argument validity in place of statistical robustness, boundary conditions, conceptual exhibits (typologies and mechanism diagrams, never data plots), contribution framing, ASA style, and the double-anonymous Manuscript Central review. NO empirical hypothesis-testing — that is ASR / AJS's lane.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "smj-skills",
+      "source": "./Strategic-Management-Journal-Skills",
+      "description": "Twelve-skill bundle covering the Strategic Management Journal (SMJ) manuscript lifecycle.",
+      "version": "0.2.0",
+      "category": "academic"
+    },
+    {
+      "name": "tar-skills",
+      "source": "./The-Accounting-Review-Skills",
+      "description": "Twelve-skill bundle covering The Accounting Review (TAR) manuscript lifecycle for archival/empirical and analytical accounting research.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "artbull-skills",
+      "source": "./The-Art-Bulletin-Skills",
+      "description": "Twelve-skill bundle covering The Art Bulletin manuscript lifecycle, built around the image-and-permissions and visual-analysis demands that distinguish art-historical publishing.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "ectj-skills",
+      "source": "./The-Econometrics-Journal-Skills",
+      "description": "Twelve-skill bundle covering The Econometrics Journal (EctJ) manuscript lifecycle — leading-case fit, asymptotics, Monte Carlo, required empirical application, the ~20-page LaTeX-template format, and the conditional-on-acceptance replication package.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "economic-journal-skills",
+      "source": "./The-Economic-Journal-Skills",
+      "description": "Twelve-skill bundle covering the The Economic Journal (EJ) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "wber-skills",
+      "source": "./World-Bank-Economic-Review-Skills",
+      "description": "Twelve-skill bundle covering the The World Bank Economic Review manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "world-development-skills",
+      "source": "./World-Development-Skills",
+      "description": "Twelve-skill bundle covering the World Development manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "wp-skills",
+      "source": "./World-Politics-Skills",
+      "description": "Twelve-skill bundle covering the World Politics manuscript lifecycle for comparative-politics and international-relations research, including the journal's research-article and review-article tracks.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "yale-law-journal-skills",
+      "source": "./Yale-Law-Journal-Skills",
+      "description": "Twelve-skill bundle covering the The Yale Law Journal (YLJ) manuscript lifecycle for Articles, Essays, Features, student Notes & Comments, and the online YLJ Forum.",
+      "version": "0.1.0",
+      "category": "academic"
+    }
+  ]
+}

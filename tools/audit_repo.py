@@ -2,12 +2,11 @@
 """Repository-level consistency checks for Awesome Journal Skills.
 
 The checks are intentionally dependency-free so they can run in CI and on a
-fresh clone with first-level submodules populated.
+fresh clone.
 """
 
 from __future__ import annotations
 
-import configparser
 import json
 import re
 import sys
@@ -21,8 +20,8 @@ ROOT = Path(__file__).resolve().parents[1]
 # additions. When you intentionally add/remove packs, update these three values
 # (and the README badges) in the same commit. Run `python3 tools/audit_repo.py
 # --counts` to print the live numbers to copy in.
-EXPECTED_SKILL_COUNT = 2989
-EXPECTED_PACK_COUNT = 198
+EXPECTED_SKILL_COUNT = 2883
+EXPECTED_PACK_COUNT = 193
 EXPECTED_ROOT_JOURNAL_ENTRIES = 200
 
 IMPORTED_ROOTS = {
@@ -99,6 +98,14 @@ def top_level(path: Path) -> str:
     return path.relative_to(ROOT).parts[0]
 
 
+def first_party_plugin_roots() -> list[Path]:
+    return sorted(
+        path.parent.parent
+        for path in ROOT.glob("*/.claude-plugin/plugin.json")
+        if path.parent.parent.is_dir() and top_level(path) not in IMPORTED_ROOTS
+    )
+
+
 def load_json(path: Path, errors: list[str]) -> dict | None:
     try:
         return json.loads(path.read_text(encoding="utf-8"))
@@ -112,15 +119,7 @@ def check_counts(errors: list[str]) -> None:
     if skill_count != EXPECTED_SKILL_COUNT:
         errors.append(f"expected {EXPECTED_SKILL_COUNT} canonical SKILL.md files, found {skill_count}")
 
-    pack_roots = {
-        path.parent.parent
-        for path in ROOT.glob("*/.claude-plugin/plugin.json")
-        if path.parent.parent.is_dir()
-    }
-    for extra in ("nature-paper-skills", "codex-claude-academic-skills"):
-        root = ROOT / extra
-        if any(root.rglob("SKILL.md")):
-            pack_roots.add(root)
+    pack_roots = set(first_party_plugin_roots())
     if len(pack_roots) != EXPECTED_PACK_COUNT:
         names = ", ".join(sorted(rel(path) for path in pack_roots))
         errors.append(f"expected {EXPECTED_PACK_COUNT} curated pack roots, found {len(pack_roots)}: {names}")
@@ -142,67 +141,21 @@ def check_counts(errors: list[str]) -> None:
         )
 
 
-def gitmodule_paths(errors: list[str]) -> list[str]:
+def check_external_import_policy(errors: list[str]) -> None:
     gitmodules = ROOT / ".gitmodules"
-    parser = configparser.ConfigParser()
-    try:
-        with gitmodules.open(encoding="utf-8") as handle:
-            parser.read_file(handle)
-    except Exception as exc:  # noqa: BLE001 - keep the audit report actionable.
-        errors.append(f"{rel(gitmodules)}: could not parse .gitmodules: {exc}")
-        return []
+    if gitmodules.exists():
+        errors.append(f"{rel(gitmodules)} must not exist; third-party packs are external links")
 
-    paths: list[str] = []
-    for section in parser.sections():
-        path = parser.get(section, "path", fallback="").strip()
-        if not path:
-            errors.append(f"{rel(gitmodules)}: {section} missing path")
-            continue
-        paths.append(path)
-
-    duplicates = sorted(path for path in set(paths) if paths.count(path) > 1)
-    if duplicates:
-        errors.append(f"{rel(gitmodules)}: duplicate submodule path(s): {duplicates}")
-    return sorted(paths)
-
-
-def check_submodule_policy(errors: list[str]) -> None:
-    paths = gitmodule_paths(errors)
-    if not paths:
-        return
-
-    for path in paths:
-        if path not in IMPORTED_ROOTS:
-            errors.append(f"{rel(ROOT / '.gitmodules')}: path {path!r} missing from IMPORTED_ROOTS")
-
-    workflow = ROOT / ".github" / "workflows" / "sync-submodules.yml"
-    text = workflow.read_text(encoding="utf-8", errors="replace")
-    if re.search(r"^\s*submodules:\s*(?:true|recursive)\s*$", text, re.MULTILINE):
-        errors.append(f"{rel(workflow)}: use explicit first-level submodule init, not checkout submodules")
-    if re.search(r"\bgit\s+add\s+(?:\.|-A|--all)(?:\s|$)", text):
-        errors.append(f"{rel(workflow)}: sync bot must stage only known submodule paths")
-
-    # Pinned-index policy: this index deliberately pins its third-party submodule
-    # imports because the canonical skill count is an exact tripwire (and the
-    # README badges quote it). An auto-bump silently changes that count and breaks
-    # the audit on the next push, so the submodule workflow must stay read-only:
-    # no git commit/push, and no schedule trigger. Bumps are deliberate and local.
-    if re.search(r"\bgit\s+(?:commit|push)\b", text):
+    submodule_workflow = ROOT / ".github" / "workflows" / "sync-submodules.yml"
+    if submodule_workflow.exists():
         errors.append(
-            f"{rel(workflow)}: submodule workflow must stay read-only "
-            f"(no git commit/push) — bumps are deliberate and local"
-        )
-    if re.search(r"^\s*schedule\s*:", text, re.MULTILINE):
-        errors.append(
-            f"{rel(workflow)}: submodule workflow must not run on a schedule "
-            f"(manual workflow_dispatch only) so pinned imports never drift"
+            f"{rel(submodule_workflow)} must not exist; this index no longer vendors submodules"
         )
 
-    for path in paths:
-        if text.count(path) < 2:
-            errors.append(
-                f"{rel(workflow)}: expected {path!r} in both the init and update steps"
-            )
+    for name in sorted(IMPORTED_ROOTS):
+        path = ROOT / name
+        if path.exists():
+            errors.append(f"{name}/ must stay external-only, not vendored into this repository")
 
 
 def resolve_local_link(base: Path, target: str) -> Path:
@@ -276,6 +229,83 @@ def check_readme_badges(errors: list[str]) -> None:
             errors.append(f"{rel(path)} does not mention expected skill count {EXPECTED_SKILL_COUNT}")
         if str(EXPECTED_PACK_COUNT) not in text:
             errors.append(f"{rel(path)} does not mention expected pack count {EXPECTED_PACK_COUNT}")
+
+
+def check_root_marketplace(errors: list[str]) -> None:
+    marketplace_path = ROOT / ".claude-plugin" / "marketplace.json"
+    marketplace = load_json(marketplace_path, errors)
+    if not marketplace:
+        return
+
+    entries = marketplace.get("plugins")
+    if not isinstance(entries, list):
+        errors.append(f"{rel(marketplace_path)} plugins must be a list")
+        return
+
+    expected_roots = {rel(path) for path in first_party_plugin_roots()}
+    seen_roots: set[str] = set()
+    seen_names: set[str] = set()
+
+    if len(entries) != len(expected_roots):
+        errors.append(
+            f"{rel(marketplace_path)} expected {len(expected_roots)} plugin entries, "
+            f"found {len(entries)}"
+        )
+
+    for index, entry in enumerate(entries, 1):
+        if not isinstance(entry, dict):
+            errors.append(f"{rel(marketplace_path)} plugins[{index}] must be an object")
+            continue
+
+        name = str(entry.get("name") or "").strip()
+        source = str(entry.get("source") or "").strip()
+        if not name:
+            errors.append(f"{rel(marketplace_path)} plugins[{index}] missing name")
+        elif name in seen_names:
+            errors.append(f"{rel(marketplace_path)} duplicate plugin name {name!r}")
+        else:
+            seen_names.add(name)
+
+        if not source.startswith("./"):
+            errors.append(f"{rel(marketplace_path)} plugin {name or index!r} source must start with './'")
+            continue
+
+        source_root = source[2:].rstrip("/")
+        source_path = ROOT / source_root
+        if source_root in IMPORTED_ROOTS:
+            errors.append(f"{rel(marketplace_path)} plugin {name!r} points to external import {source_root!r}")
+            continue
+        if source_root in seen_roots:
+            errors.append(f"{rel(marketplace_path)} duplicate plugin source {source!r}")
+        else:
+            seen_roots.add(source_root)
+        if not source_path.is_dir():
+            errors.append(f"{rel(marketplace_path)} plugin {name!r} source {source!r} does not exist")
+            continue
+
+        plugin_path = source_path / ".claude-plugin" / "plugin.json"
+        plugin = load_json(plugin_path, errors)
+        if not plugin:
+            continue
+        if name and name != plugin.get("name"):
+            errors.append(
+                f"{rel(marketplace_path)} plugin {source!r} name {name!r} "
+                f"!= {rel(plugin_path)} {plugin.get('name')!r}"
+            )
+        version = entry.get("version")
+        if version != plugin.get("version"):
+            errors.append(
+                f"{rel(marketplace_path)} plugin {name!r} version {version!r} "
+                f"!= {rel(plugin_path)} {plugin.get('version')!r}"
+            )
+
+    missing = sorted(expected_roots - seen_roots)
+    extra = sorted(seen_roots - expected_roots)
+    if missing or extra:
+        errors.append(
+            f"{rel(marketplace_path)} source coverage drift: "
+            f"missing={missing or []}, extra={extra or []}"
+        )
 
 
 def check_plugin_metadata(errors: list[str]) -> None:
@@ -468,15 +498,7 @@ def check_markdown_links(errors: list[str]) -> None:
 
 def print_live_counts() -> int:
     skill_count = len(iter_skill_files())
-    pack_roots = {
-        path.parent.parent
-        for path in ROOT.glob("*/.claude-plugin/plugin.json")
-        if path.parent.parent.is_dir()
-    }
-    for extra in ("nature-paper-skills", "codex-claude-academic-skills"):
-        root = ROOT / extra
-        if any(root.rglob("SKILL.md")):
-            pack_roots.add(root)
+    pack_roots = set(first_party_plugin_roots())
     root_entries = sum(
         1
         for path in ROOT.glob("*/README.md")
@@ -494,9 +516,10 @@ def main() -> int:
         return print_live_counts()
     errors: list[str] = []
     check_counts(errors)
-    check_submodule_policy(errors)
+    check_external_import_policy(errors)
     check_root_journal_entries(errors)
     check_readme_badges(errors)
+    check_root_marketplace(errors)
     check_plugin_metadata(errors)
     check_pack_documentation(errors)
     check_source_maps(errors)

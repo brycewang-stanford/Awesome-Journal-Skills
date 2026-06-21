@@ -1,14 +1,14 @@
 # Maintenance Tools
 
 These scripts are dependency-free Python tools for repository maintenance. They
-are designed to run on a fresh clone after first-level submodules are populated.
+are designed to run on a fresh clone of the repository.
 
 ## Hard Gates
 
 | Tool | Purpose | Typical command |
 |------|---------|-----------------|
 | [`run_checks.py`](run_checks.py) | Runs the standard local hard gates and, by default, the report-only audits. CI uses `--skip-reports` so warnings stay advisory. | `python3 tools/run_checks.py` |
-| [`audit_repo.py`](audit_repo.py) | Validates repository invariants: skill counts, pack counts, root journal entries, plugin metadata, required source maps, frontmatter, local Markdown links, and submodule sync policy. | `python3 tools/audit_repo.py` |
+| [`audit_repo.py`](audit_repo.py) | Validates repository invariants: skill counts, pack counts, root marketplace coverage, root journal entries, plugin metadata, required source maps, frontmatter, local Markdown links, and external-import policy. | `python3 tools/audit_repo.py` |
 | [`clone_audit.py`](clone_audit.py) | Finds likely find-replace skill clones. CI reports near-clones at 0.75 and fails only at 0.90. | `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20` |
 
 ## Report-Only Tools

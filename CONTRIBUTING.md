@@ -9,8 +9,8 @@ source-backed, and easy to review.
    active lanes.
 2. If another agent or contributor is editing a pack, do not touch that pack in
    the same change.
-3. Treat submodules as read-only from this repository unless the change is only
-   a deliberate submodule pointer bump.
+3. Keep third-party packs as external links. Do not vendor upstream repositories
+   into this index unless the repository ownership model changes explicitly.
 
 ## Safe change boundaries
 
@@ -18,9 +18,8 @@ source-backed, and easy to review.
   `.claude-plugin/*.json`, `.github/`, and `tools/`.
 - Journal content: `*-Skills/skills/**`, `resources/**`, templates, and pack
   README files.
-- Imported upstream packs: `AER-skills/`, `nature-skills/`,
-  `nature-paper-skills/`, `claude-scholar/`, and
-  `codex-claude-academic-skills/`.
+- External third-party listings: README links to AER, Nature-family packs,
+  `claude-scholar`, and `codex-claude-academic-skills`.
 
 Avoid mixing these boundaries in one PR unless the connection is direct and
 documented.
@@ -100,15 +99,3 @@ warnings, weakens thresholds, or adds low-quality counts.
 - For source-map cleanup, use `python3 tools/source_map_audit.py` to find files
   with missing URLs, missing check dates, or heavy unresolved-flag loads. The
   tool is report-only unless run with `--strict`.
-
-## Submodules
-
-Initialize only first-level submodules:
-
-```bash
-git submodule update --init
-```
-
-Do not use recursive initialization unless a specific upstream package asks for
-it. Some imported upstreams contain nested submodule metadata that is irrelevant
-to this index.
