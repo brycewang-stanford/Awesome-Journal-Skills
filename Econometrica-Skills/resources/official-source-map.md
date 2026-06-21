@@ -49,13 +49,15 @@ the live Editorial Express portal). Access date for all entries below: **2026-05
   ≥1.25in; supplemental appendix ≤25 pages (same formatting); abstract ≤150 words; keywords
   required; JEL codes optional.**
   - https://www.econometricsociety.org/publications/econometrica/information-authors/instructions-submitting-articles
-- **Refereeing model / anonymization: reports and identities kept confidential; economics
-  convention is single-anonymous (author identity known to referees).**
+- **Refereeing model / anonymization: single-anonymous — author identity is known to referees;
+  the title page carries full author affiliations and there is no author-blinding mandate.
+  Referee reports and identities are kept confidential.** (Re-verified 2026-06-21 via the Wiley
+  "For Authors" page plus ES editorial-procedures search snippets; the journal does not ask
+  authors to strip identity from the manuscript PDF.)
   - https://www.econometricsociety.org/publications/econometrica/information-authors/editorial-procedures-and-policies
     (page returned 403 to the fetcher; statement corroborated via ES search snippets)
-  - **UNVERIFIED:** whether Econometrica currently mandates removing author identity from the
-    PDF. Re-verify "Instructions for Submitting Articles" and "Editorial Procedures and
-    Policies" before advising on blinding.
+  - https://onlinelibrary.wiley.com/page/journal/14680262/homepage/forauthors.html
+    (Wiley "For Authors": full author affiliations on the title page; single-blind model)
 
 ## Data and Code Availability Policy, Data Editor, deposit
 
@@ -83,14 +85,18 @@ the live Editorial Express portal). Access date for all entries below: **2026-05
 
 - **Conditional acceptance is a standard step (final files + Data Editor review at that
   stage); R&R is the common positive outcome; acceptance rate roughly 6–9%; first decision
-  takes several months.**
+  takes several months. Verified timing (2026-06-21): papers accepted in 2023–2024 averaged
+  ~9 months "in the hands of the journal" plus ~15 months in the authors' hands for revisions
+  (2022–2023: ~10 and ~21 months), per the official Editors' Reports.**
   - https://www.econometricsociety.org/publications/econometrica/information-authors/editorial-procedures-and-policies
     (403 to fetcher; corroborated via ES search snippets)
-  - https://www.econometricsociety.org/publications/econometrica/2024/01/01/The-Econometric-Society-Annual-Reports-Report-of-the-Editors-20222023/file/ecta200658.pdf
-    (Report of the Editors — authoritative for submission/decision statistics)
-  - **UNVERIFIED (precise figure):** the exact current acceptance rate and median
-    time-to-decision vary by year; the 6–9% range is approximate. Consult the latest
-    "Report of the Editors" in Econometrica for the current numbers.
+  - https://www.econometricsociety.org/publications/econometrica/annual-reports/Econometrica-Editors-Report-20232024-2025-01-29.html
+    (Editors' Report 2023–2024 — authoritative for submission/decision statistics and timing)
+  - https://www.econometricsociety.org/society/organization-and-governance/reports/Econometrica-Editors-Report-20242025-2026-02-05.html
+    (Editors' Report 2024–2025 — newest; consult for the current year's figures)
+  - **UNVERIFIED (precise figure):** the exact current acceptance rate varies by year and was
+    not surfaced as a single official percentage; the 6–9% range is approximate. Consult the
+    latest "Report of the Editors" above for the current numbers.
 
 ## Representative / landmark Econometrica papers (verified as Econometrica)
 
