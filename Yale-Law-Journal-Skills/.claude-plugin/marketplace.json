@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "yale-law-journal-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for legal scholarship targeted at The Yale Law Journal (YLJ), the student-edited flagship law review at Yale Law School.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "yale-law-journal-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the The Yale Law Journal (YLJ) manuscript lifecycle for Articles, Essays, Features, student Notes & Comments, and the online YLJ Forum.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/yale-law-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/yale-law-journal-skills",
+      "keywords": [
+        "yale-law-journal",
+        "ylj",
+        "law-review",
+        "legal-scholarship",
+        "bluebook",
+        "preemption-check",
+        "expedited-review"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/ylj-workflow",
+        "skills/ylj-topic-selection",
+        "skills/ylj-thesis-and-contribution",
+        "skills/ylj-preemption-check",
+        "skills/ylj-argument-structure",
+        "skills/ylj-sources-and-bluebook",
+        "skills/ylj-writing-style",
+        "skills/ylj-placement-strategy",
+        "skills/ylj-student-editor-review",
+        "skills/ylj-submission",
+        "skills/ylj-revision-and-editing",
+        "skills/ylj-footnotes-and-cite-check"
+      ]
+    }
+  ]
+}

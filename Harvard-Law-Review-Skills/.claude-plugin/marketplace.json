@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "harvard-law-review-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for legal scholarship targeted at the Harvard Law Review (HLR), the student-edited generalist law review affiliated with Harvard Law School.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "harvard-law-review-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Harvard Law Review (HLR) article lifecycle — from legal thesis and preemption check through Bluebook footnoting, Scholastica placement and expedites, student-editor review, and the cite-check.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/harvard-law-review-skills",
+      "repository": "https://github.com/brycewang-stanford/harvard-law-review-skills",
+      "keywords": [
+        "harvard-law-review",
+        "hlr",
+        "law-review",
+        "bluebook",
+        "scholastica",
+        "preemption-check",
+        "legal-scholarship"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/hlr-workflow",
+        "skills/hlr-topic-selection",
+        "skills/hlr-thesis-and-contribution",
+        "skills/hlr-preemption-check",
+        "skills/hlr-argument-structure",
+        "skills/hlr-sources-and-bluebook",
+        "skills/hlr-writing-style",
+        "skills/hlr-placement-strategy",
+        "skills/hlr-student-editor-review",
+        "skills/hlr-submission",
+        "skills/hlr-revision-and-editing",
+        "skills/hlr-footnotes-and-cite-check"
+      ]
+    }
+  ]
+}

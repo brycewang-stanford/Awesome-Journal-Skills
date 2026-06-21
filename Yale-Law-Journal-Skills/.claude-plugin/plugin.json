@@ -1,0 +1,21 @@
+{
+  "name": "yale-law-journal-skills",
+  "description": "An opinionated agent skill stack for legal scholarship aimed at The Yale Law Journal (YLJ), the student-edited flagship law review at Yale Law School. Twelve skills cover the law-review lifecycle: thesis and contribution, preemption checking, doctrine-to-normative argument structure, Bluebook footnote apparatus, multi-submission placement and expedite strategy, the student-editor review and source-pull, and the intensive edit cycle plus the online YLJ Forum.",
+  "version": "0.1.0",
+  "author": { "name": "Bryce Wang", "email": "brycew6m@stanford.edu" },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/yale-law-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/yale-law-journal-skills",
+  "keywords": [
+    "yale-law-journal",
+    "ylj",
+    "law-review",
+    "legal-scholarship",
+    "bluebook",
+    "student-edited",
+    "preemption-check",
+    "expedited-review",
+    "ylj-forum",
+    "academic-writing"
+  ]
+}

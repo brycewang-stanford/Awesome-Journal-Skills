@@ -1,0 +1,24 @@
+{
+  "name": "progress-in-human-geography-skills",
+  "description": "Agent skill stack for review and agenda-setting articles targeted at Progress in Human Geography (PiHG) — SAGE's flagship review/state-of-the-art journal in human geography (founded 1977), which publishes major critical review essays, theoretical and conceptual interventions, and the famous commissioned 'progress reports' that survey the trajectory of subfields (economic, urban, political, cultural, feminist, development, more-than-human geographies). Unlike a primary-research journal, PiHG does not publish original empirical studies or detailed cases; the stack therefore replaces identification-strategy and replication-package craft with review craft: scoping a synthesis-worthy literature, the dual intake route (commissioned progress reports vs. submitted review/theory articles), critical theoretically-informed synthesis of a subfield's development, imposing a conceptual organizing framework that argues where the field is and should go, fair and reflexive engagement across theoretical traditions, scholarly apparatus and positionality, summary exhibits that map a debate, the authoritative-yet-accessible PiHG voice, working with the editors on a commissioned report vs. a submitted review, the SAGE ScholarOne submission preflight, and revising a review for coverage, balance, and conceptual reach. Bilingual en / zh-CN docs. Process facts (editors, fees, portal, word limits) are marked volatile and deferred to the official SAGE pages.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/progress-in-human-geography-skills",
+  "repository": "https://github.com/brycewang-stanford/progress-in-human-geography-skills",
+  "keywords": [
+    "progress-in-human-geography",
+    "pihg",
+    "human-geography",
+    "sage-journals",
+    "review-article",
+    "progress-report",
+    "literature-synthesis",
+    "theoretical-intervention",
+    "critical-geography",
+    "academic-writing"
+  ]
+}

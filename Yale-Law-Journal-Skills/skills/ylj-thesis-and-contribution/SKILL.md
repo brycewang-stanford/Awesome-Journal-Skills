@@ -1,0 +1,79 @@
+---
+name: ylj-thesis-and-contribution
+description: Use when sharpening the central legal-scholarly claim and contribution for a The Yale Law Journal (YLJ) piece. It forces a falsifiable, generalist thesis and names the contribution type; it does not search prior literature (use ylj-preemption-check) or build the argument (use ylj-argument-structure).
+---
+
+# Thesis & Contribution (ylj-thesis-and-contribution)
+
+A YLJ piece lives or dies on a **single, sharp claim** that a generalist reader can restate. Student
+editors (and faculty advisors they consult) reject pieces whose "thesis" is really a topic or a survey.
+This skill nails the claim and labels the contribution; it does not yet prove novelty
+(`ylj-preemption-check`) or sequence the argument (`ylj-argument-structure`).
+
+## When to trigger
+
+- You can name the *area* but cannot state the *claim* in one sentence
+- A reader asks "so what's the argument?" and you give a paragraph, not a sentence
+- The introduction promises several things and the reader cannot tell which is the point
+- You are unsure whether the contribution is descriptive, doctrinal, theoretical, or normative
+
+## The one-sentence thesis test
+
+Write: **"This [Article/Essay] argues that ____, and therefore ____."** It must be:
+
+- **Contestable** — a smart reader could disagree; if no one would dispute it, it is not a thesis.
+- **Generalist** — legible to a reader outside the subfield (see `ylj-topic-selection`).
+- **Load-bearing** — every Part of the piece exists to establish or apply this claim.
+- **Yours** — it is the move *you* make, not a restatement of existing scholarship.
+
+If you need "and" three times, you have three theses; pick the one the piece is actually about.
+
+## Name the contribution (most YLJ pieces blend two)
+
+| Type | What it adds | Tell |
+|------|--------------|------|
+| **Descriptive** | A pattern no one has named (a doctrine is incoherent, a practice is widespread) | "Courts/agencies are actually doing X." |
+| **Doctrinal** | A better reading of authority (statute, precedent, constitutional text) | "The correct rule is X, not Y." |
+| **Theoretical** | A framework that reorganizes how we understand a field | "X is best understood as Y." |
+| **Normative** | A reform: what the law *should* be and who should change it | "Congress/the Court should do X." |
+| **Critical** | An immanent critique exposing a hidden assumption | "The standard account rests on an untenable Z." |
+
+State which type(s) you are making — and to **whom** the normative payoff is addressed (court,
+Congress, agency, bar), because YLJ readers include all of them.
+
+## Stress-test the contribution
+
+- **The "we already knew that" test** — if a knowledgeable reader says it, the descriptive layer is thin; deepen or drop it.
+- **The "so what" test** — articulate the consequence if you are right; a claim with no stakes is not YLJ-worthy.
+- **The "compared to what" test** — name the prevailing view your claim displaces (this previews `ylj-preemption-check`).
+
+## Checklist
+
+- [ ] Thesis fits the one-sentence template and is contestable
+- [ ] A generalist reader can restate it without your jargon
+- [ ] Contribution type(s) named; normative addressee identified
+- [ ] The prevailing view the claim displaces is named
+- [ ] Every planned Part maps to establishing or applying the claim
+
+## Anti-patterns
+
+- A "thesis" that is a topic ("This Article examines X") rather than a claim
+- Three theses stitched with "and" — the piece reads as unfocused to a student editor
+- A purely descriptive contribution dressed as theory (no framework actually emerges)
+- A normative payoff with no named decision-maker who could act on it
+- Overclaiming novelty before running `ylj-preemption-check`
+
+## Output format
+
+```
+【Thesis】"This [Article/Essay] argues that ___, and therefore ___."
+【Contribution】descriptive / doctrinal / theoretical / normative / critical (+ blend)
+【Displaces】the prevailing view this claim challenges
+【Addressee】who should act on the normative payoff
+【Next】ylj-preemption-check to confirm the claim is genuinely new
+```
+
+## Supplementary resources
+
+- [`../../resources/worked-examples/01-introduction.md`](../../resources/worked-examples/01-introduction.md) — a before→after YLJ introduction built around one claim
+- [`../../resources/exemplars/library.md`](../../resources/exemplars/library.md) — YLJ pieces grouped by contribution type

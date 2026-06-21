@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "progress-in-human-geography-skills",
+  "version": "0.1.0",
+  "description": "An agent skill stack for writing review and agenda-setting articles for Progress in Human Geography (PiHG), SAGE's flagship review/state-of-the-art journal in human geography.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "progress-in-human-geography-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Progress in Human Geography (PiHG) review-article lifecycle, from topic selection and the commissioning/submission intake routes through critical synthesis, conceptual framework-building, balance, submission, and revision.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/progress-in-human-geography-skills",
+      "repository": "https://github.com/brycewang-stanford/progress-in-human-geography-skills",
+      "keywords": [
+        "progress-in-human-geography",
+        "pihg",
+        "human-geography",
+        "review-article",
+        "progress-report",
+        "literature-synthesis",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/proghg-workflow",
+        "skills/proghg-topic-selection",
+        "skills/proghg-proposal-and-commissioning",
+        "skills/proghg-literature-synthesis",
+        "skills/proghg-organizing-framework",
+        "skills/proghg-comprehensiveness-and-balance",
+        "skills/proghg-tables-figures",
+        "skills/proghg-writing-style",
+        "skills/proghg-transparency-and-reproducibility",
+        "skills/proghg-editor-strategy",
+        "skills/proghg-submission",
+        "skills/proghg-revision"
+      ]
+    }
+  ]
+}

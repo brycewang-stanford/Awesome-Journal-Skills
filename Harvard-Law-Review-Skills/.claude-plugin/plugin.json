@@ -1,0 +1,28 @@
+{
+  "name": "harvard-law-review-skills",
+  "description": "Agent skill stack for legal scholarship targeted at the Harvard Law Review (HLR) — one of the oldest student-edited, generalist American law reviews, published by the Harvard Law Review Association and affiliated with Harvard Law School. HLR is NOT peer-reviewed: it is student-edited, and articles are placed through the distinctive U.S. law-review ecosystem (near-final manuscript submitted to many journals at once via Scholastica, leveraged with expedite requests across the February-March and August seasons). This pack encodes that reality: building a normative legal claim, running a preemption check (SSRN / Westlaw / HeinOnline) before writing, structuring the doctrine-to-theory-to-prescription argument, mastering the heavy footnote apparatus and Bluebook pinpoint citation (HLR co-publishes The Bluebook), preparing for the intensive student-editor substantive edit and the full cite-check / source-pull, timing placement and expedites, and surviving the revision cycle. Covers Articles, Essays, Book Reviews, and the annual Supreme Court issue and Foreword. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/harvard-law-review-skills",
+  "repository": "https://github.com/brycewang-stanford/harvard-law-review-skills",
+  "keywords": [
+    "harvard-law-review",
+    "hlr",
+    "law-review",
+    "legal-scholarship",
+    "student-edited",
+    "bluebook",
+    "scholastica",
+    "expedite",
+    "preemption-check",
+    "cite-check",
+    "footnotes",
+    "constitutional-law",
+    "supreme-court-foreword",
+    "academic-writing"
+  ]
+}
