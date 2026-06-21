@@ -66,7 +66,7 @@ Use this as a second-pass capability check. First lock the species/system threat
 - **Primary move:** Separate editor-order changes from referee-specific changes; answer each major objection with manuscript edits plus a short evidence citation.
 - **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
 - **Neighbor test:** compare against Biological Conservation for applied conservation breadth, Global Change Biology for climate/ecosystem process, Ecology Letters for theory-forward ecology; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
-- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+- **Submission-ready gate:** before final advice, re-open `resources/official-source-map.md` for upload-week rules and name the one live-check item that could change the recommendation.
 
 ## Output format
 

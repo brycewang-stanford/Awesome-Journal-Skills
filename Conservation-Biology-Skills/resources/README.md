@@ -10,7 +10,7 @@ Resources for the *Conservation Biology* (Society for Conservation Biology / Wil
 | --- | --- |
 | [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | See a before→after rewrite of a paper **abstract + introduction** in *Conservation Biology* house style — conservation problem front-loaded, finding stated, evidence-to-action so-what, the ≤300-word abstract. **Illustrative fictional paper; no real policy.** |
 | [`exemplars/library.md`](exemplars/library.md) | Benchmark against **real, web-verified *Conservation Biology* papers** (DOIs in the `10.1111/cobi…` / `10.1111/j.1523-1739…` family) organized by method × topic. Framing positioning only — no fabricated numbers; includes a sibling-journal guardrail. |
-| [`official-source-map.md`](official-source-map.md) | **Conservation Biology-specific policy & facts:** article types and word/abstract caps, IMRAD order, ScholarOne submission (`cobi`), double-blind review, Wiley/Dryad data policy, scope, and 待核实 items. The authoritative pack source. |
+| [`official-source-map.md`](official-source-map.md) | **Conservation Biology-specific policy & facts:** article types and word/abstract caps, IMRAD order, ScholarOne submission (`cobi`), double-blind review, Wiley data-sharing tier, OA/ORCID metadata, scope, and upload-week live-check items. The authoritative pack source. |
 | [`external_tools.md`](external_tools.md) | External tools and services referenced by the pack (reference managers, conservation data/evidence databases). |
 
 ## Scope note — no econometrics code kit vendored

@@ -84,17 +84,16 @@ current access terms before use, and verify any journal-specific policy in
 ## 6. Process & portal
 | Item | Note |
 |------|------|
-| Submission portal | **Wiley ScholarOne Manuscript Central** (`mc.manuscriptcentral.com/cobi`) — confirm current URL |
+| Submission portal | **Wiley ScholarOne Manuscript Central** (`mc.manuscriptcentral.com/cobi`) |
 | Owner / publisher | **Society for Conservation Biology (SCB)** / **Wiley** |
 | Review model | **Double-blind** (adopted 2014) — anonymize the manuscript and the authors' identities |
 | Article types | Contributed Papers · Research Notes · Reviews · Essays · Conservation Practice and Policy · Comments · Diversity · Letters (plus Registered Reports) |
-| Word limits | Contributed Papers ~6,000–7,000; Reviews ~7,500–8,000; Essays ~6,000; Practice & Policy 5,000; Research Notes 3,000; abstract ≤ 300 (verify — 待核实) |
-| Data policy | Data-availability statement required; deposit data/code in a public repository (e.g., Dryad) with a persistent identifier (verify wording) |
+| Word limits | Contributed Papers 7,000 in current Wiley listings; abstract ≤ 300; final caps for other article types belong to the live Instructions for Authors page |
+| Data policy | Data-availability statement required for research/synthesis articles; journal-specific Wiley tier encourages data sharing; archive shareable data/code with a persistent identifier and document restrictions for sensitive data |
 
 ## 7. Cautions
-1. **Verify volatile specifics** (per-type word/abstract caps, accepted article types, data-policy
-   wording, editor/board, APC) on the official Wiley/SCB pages — they change; unverified items are
-   marked 待核实.
+1. **Run an upload-week live check** for per-type word/abstract caps, accepted article types,
+   declarations, editor/board, APC, and production-file prompts on the official Wiley/SCB pages.
 2. **Lead with conservation relevance** — *Conservation Biology* requires results to have **direct
    implications for the conservation of biological diversity**; a sound but inconsequential study is
    off-fit (see `conbio-conservation-relevance-and-implications`).
@@ -104,5 +103,6 @@ current access terms before use, and verify any journal-specific policy in
    explain how, and provide an access path for restricted data.
 5. **Use modern ecological-inference tools** — account for detection (occupancy/distance sampling),
    spatial autocorrelation, and pseudoreplication; do not over-generalize from one site or short series.
-6. **Build the data/code package as you go** — a public-repository deposit with a DOI is expected at
-   acceptance (see `conbio-reporting-and-data-policy`).
+6. **Build the data/code package as you go** — even when sharing is restricted, the manuscript needs a
+   data-availability statement and a defensible access or masking plan (see
+   `conbio-reporting-and-data-policy`).

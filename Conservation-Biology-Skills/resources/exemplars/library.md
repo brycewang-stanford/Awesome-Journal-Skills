@@ -4,9 +4,9 @@
 > *Conservation Biology*'s article pages on Wiley Online Library
 > (`conbio.onlinelibrary.wiley.com/doi/...`) to confirm it actually appeared in **_Conservation
 > Biology_** (the Society for Conservation Biology / Wiley journal), with a **DOI in the `10.1111/cobi…`
-> or `10.1111/j.1523-1739…` / `10.1046/j.1523-1739…` family**. Papers that could not be fully verified
-> as *Conservation Biology* were **omitted** and documented below — it is deliberately a short, clean
-> list rather than a long, uncertain one.
+> or `10.1111/j.1523-1739…` / `10.1046/j.1523-1739…` family**. Papers without a clean journal-placement
+> match were **omitted** and documented below — it is deliberately a short, clean list rather than a
+> long, uncertain one.
 >
 > **Sibling-confusion guard.** *Conservation Biology* is **not** any of these adjacent journals, and a
 > paper in one of them does **not** belong here: *Biological Conservation* (Elsevier),

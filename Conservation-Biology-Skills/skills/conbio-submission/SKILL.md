@@ -7,8 +7,8 @@ description: Use when running the final pre-submission preflight for Conservatio
 
 The last check before pressing submit on **Wiley ScholarOne Manuscript Central**
 (`mc.manuscriptcentral.com/cobi`). *Conservation Biology* is **double-blind**, so the single most
-common avoidable failure is an under-anonymized manuscript. Verify volatile specifics on the official
-page before relying on them (per-type caps drift — see `resources/official-source-map.md`).
+common avoidable failure is an under-anonymized manuscript. Check upload-week specifics on the official
+page before relying on them (per-type caps can change — see `resources/official-source-map.md`).
 
 ## When to trigger
 
@@ -16,23 +16,24 @@ page before relying on them (per-type caps drift — see `resources/official-sou
 - Unsure which files/metadata ScholarOne expects
 - Confirming the chosen article type's caps are met and the manuscript is properly anonymized
 
-## Process facts (verify volatile items on the official page)
+## Process facts
 
 - **Owner / publisher:** Society for Conservation Biology (SCB) / Wiley.
 - **Portal:** **Wiley ScholarOne Manuscript Central** (`mc.manuscriptcentral.com/cobi`).
 - **Review model:** **double-blind** — anonymize the manuscript and author identities; provide a
   separate title page.
-- **Article types & word limits (verify; versions drift):** Contributed Papers ~6,000–7,000 · Research
-  Notes ~3,000 · Reviews ~7,500–8,000 · Essays ~6,000 · Conservation Practice and Policy 5,000 ·
-  Comments 2,000 · Diversity 2,000 · Letters 1,000.
+- **Article types & word limits:** Contributed Papers 7,000 in current Wiley listings; use the live
+  Instructions for Authors page for the final caps on Research Notes, Reviews, Essays, Conservation
+  Practice and Policy, Comments, Diversity, Letters, and any Registered Reports route.
 - **Abstract:** **≤ 300 words** (none for Letters, Comments, or Diversity).
 - **Word count:** runs from the **first word of the Abstract through the last word of Literature
   Cited**; **excludes** tables, figure legends, and text in tables.
 - **Exhibits:** about **one table/figure per four pages** of text.
 - **Style:** *Conservation Biology* **Style Guide** (author-date); IMRAD for Contributed Papers,
   Research Notes, and Practice & Policy.
-- **Data:** **data-availability statement** + deposit of data/code in a public repository (e.g., Dryad)
-  with a persistent identifier (待核实 on exact mandatory wording).
+- **Data:** **data-availability statement** for research/synthesis articles; the journal-specific Wiley
+  tier encourages data sharing, so archive shareable data/code in a DOI-capable repository and document
+  restrictions for sensitive data.
 
 ## Preflight checklist
 

@@ -21,15 +21,15 @@ transferable implications for the conservation of biological diversity**, not ju
 
 | Situation | Article type | Route to |
 |-----------|--------------|----------|
-| Full empirical study, IMRAD, broad relevance | **Contributed Paper** (~6,000–7,000 words) | normal pipeline below |
-| Focused or preliminary result | **Research Note** (~3,000 words) | normal pipeline, tighter scope |
-| Synthesis of a well-developed literature | **Review** (~7,500–8,000 words) | `conbio-literature-positioning` + `conbio-writing-style` |
-| Forward-looking argument on a conservation issue | **Essay** (~6,000 words) | `conbio-conservation-relevance-and-implications` |
-| Applied tools, policy, or management lessons | **Conservation Practice and Policy** (~5,000 words) | `conbio-study-design` + relevance |
-| Response to a published paper | **Comment** (~2,000 words) | `conbio-literature-positioning` |
+| Full empirical study, IMRAD, broad relevance | **Contributed Paper** (7,000 words in current Wiley listings) | normal pipeline below |
+| Focused or preliminary result | **Research Note** | normal pipeline, tighter scope |
+| Synthesis of a well-developed literature | **Review** | `conbio-literature-positioning` + `conbio-writing-style` |
+| Forward-looking argument on a conservation issue | **Essay** | `conbio-conservation-relevance-and-implications` |
+| Applied tools, policy, or management lessons | **Conservation Practice and Policy** | `conbio-study-design` + relevance |
+| Response to a published paper | **Comment** | `conbio-literature-positioning` |
 
-> Word caps drift between Style Guide versions — confirm the current per-type limits on the live
-> Instructions for Authors page (see `resources/official-source-map.md`, marked 待核实).
+> Use the live Instructions for Authors page for upload-week per-type limits and article-type
+> availability (see `resources/official-source-map.md`).
 
 ## Routing map (stage → skill)
 
@@ -70,7 +70,9 @@ Treat this skill as an executable review pass, not a prose hint. First lock the 
 - **Do the pass:** Run the pack as a sequence: fit gate, evidence gate, writing gate, source-map gate, and final output contract; stop when a gate lacks evidence.
 - **Return a ledger:** give `claim / evidence / risk / manuscript location` rows, so the next agent can edit rather than rediscover the issue.
 - **Sibling guard:** compare against Biological Conservation for applied conservation breadth, Global Change Biology for climate/ecosystem process, Ecology Letters for theory-forward ecology; if a sibling owns the contribution, recommend re-routing before polishing format.
-- **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
+- **Submission-ready gate:** do not give final advice until the pack's
+  `resources/official-source-map.md` has been checked for upload-week rules and the manuscript has one
+  concrete fix for the largest venue-specific risk.
 
 ## Output format
 

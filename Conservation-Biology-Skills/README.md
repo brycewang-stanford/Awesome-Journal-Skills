@@ -22,9 +22,9 @@ and social sciences.
 This repository is opinionated. It is **not** a generic ecology writing toolbox and it is **not** an
 economics or methods pack repurposed for conservation. It is a **Conservation Biology-specific** stack:
 a result with **direct, transferable implications for conserving biodiversity**, a design matched to the
-ecological question (detection, scale, counterfactuals), **double-blind** preparation, a **public
-data/code archive** (e.g., Dryad) with a persistent identifier, and conservation recommendations that
-**bridge science and practice** without over-claiming.
+ecological question (detection, scale, counterfactuals), **double-blind** preparation, a **data
+availability statement** with shareable data/code archived where possible, and conservation
+recommendations that **bridge science and practice** without over-claiming.
 
 ---
 
@@ -39,24 +39,24 @@ Conservation Biology's constraints differ from a general ecology journal or a me
 | Methods               | Field ecology, modeling, synthesis, human dimensions — judged on own terms    | Match design to the question; don't force one template           |
 | Publisher / owner     | **Wiley** / **Society for Conservation Biology (SCB)**                         | Submit via **ScholarOne Manuscript Central**, not Editorial Manager |
 | Review model          | **Double-blind** (adopted 2014)                                               | Anonymize manuscript *and* author identities                     |
-| Length                | Contributed Papers ~6,000–7,000; Reviews ~7,500–8,000; **abstract ≤ 300**     | Word count runs Abstract → Literature Cited (excludes tables)    |
+| Length                | Contributed Papers **7,000** in current Wiley listings; **abstract ≤ 300**     | Word count runs Abstract → Literature Cited (excludes tables)    |
 | Exhibits              | About **one table/figure per four pages** of text                             | Every exhibit must earn its space; rest goes to SI               |
-| Transparency          | **Data-availability statement** + public data/code archive (e.g., **Dryad**)  | Build the package as you go; protect sensitive species data      |
+| Transparency          | **Data-availability statement**; shareable data/code deposit encouraged        | Build the package as you go; protect sensitive species data      |
 | Sensitive data        | Mask precise locations of threatened / trafficked taxa                        | A map must not aid poaching or disturbance                       |
 
-Volatile specifics (current editors, exact per-type caps, data-policy wording, APC) change — items not
-directly confirmed are marked **待核实** in
-[`resources/official-source-map.md`](resources/official-source-map.md). The Wiley-hosted author page may
-return 402/403 to automated fetchers; facts were cross-checked against the SCB-hosted Style Guide.
-**Verify on the official journal page.**
+Use [`resources/official-source-map.md`](resources/official-source-map.md) for the source trail behind
+these claims. The final upload-week check belongs on the live Wiley Instructions for Authors page,
+especially for article-type availability, caps beyond Contributed Papers, declarations, and production
+file prompts.
 
 ### Main article types
 
-- **Contributed Papers** — full empirical study, IMRAD, broad relevance (~6,000–7,000 words).
-- **Research Notes** — focused or preliminary contributions (~3,000 words).
-- **Reviews** — comprehensive synthesis of a well-developed literature (~7,500–8,000 words).
-- **Essays** — forward-looking, evidence-grounded arguments on conservation issues (~6,000 words).
-- **Conservation Practice and Policy** — applied tools, policy, and management lessons (~5,000 words).
+- **Contributed Papers** — full empirical study, IMRAD, broad relevance (current Wiley listings show
+  7,000 words).
+- **Research Notes** — focused or preliminary contributions.
+- **Reviews** — comprehensive synthesis of a well-developed literature.
+- **Essays** — forward-looking, evidence-grounded arguments on conservation issues.
+- **Conservation Practice and Policy** — applied tools, policy, and management lessons.
 - **Comments / Diversity / Letters** — short formats (no abstract). Registered Reports where offered.
 
 ---
@@ -132,7 +132,7 @@ track; most papers loop design ↔ analysis ↔ conservation relevance before fi
 | `conbio-study-design`                            | Defend the design — detection, scale, counterfactuals, modeling, synthesis    |
 | `conbio-data-analysis`                           | Appropriate models, honest uncertainty, robustness, reproducibility           |
 | `conbio-figures-and-tables`                      | Self-contained, accessible exhibits and maps; mask sensitive locations        |
-| `conbio-reporting-and-data-policy`               | Data-availability statement + public data/code archive (Dryad); restricted data |
+| `conbio-reporting-and-data-policy`               | Data-availability statement + shareable data/code archive; restricted data     |
 | `conbio-writing-style`                           | Journal Style Guide; accessible prose within the per-type word cap            |
 | `conbio-conservation-relevance-and-implications` | Sharpen the so-what; actionable, transferable recommendations                 |
 | `conbio-review-process`                          | Double-blind review, editorial screening, decision categories, Registered Reports |
@@ -142,7 +142,7 @@ track; most papers loop design ↔ analysis ↔ conservation relevance before fi
 ### Resources
 
 - [`resources/external_tools.md`](resources/external_tools.md) — conservation data sources (GBIF / IUCN Red List / WDPA / Movebank / Global Forest Watch) + R / Python / GIS and synthesis tooling
-- [`resources/official-source-map.md`](resources/official-source-map.md) — official Wiley / SCB URLs behind every fact, with 待核实 markers on unverified items
+- [`resources/official-source-map.md`](resources/official-source-map.md) — official Wiley / SCB URLs behind every journal-specific fact and upload-week live-check boundary
 
 ---
 
@@ -150,7 +150,7 @@ track; most papers loop design ↔ analysis ↔ conservation relevance before fi
 
 - It does not write a submittable manuscript for you
 - It does not simulate any specific editor's or reviewer's taste
-- It does not assert volatile metadata (current editors, exact per-type caps, data-policy wording, APC) — verify on the official page; unverified items are marked 待核实
+- It does not freeze upload-week metadata such as article-type availability, all per-type caps, file prompts, or masthead details; check the official page before submission
 - It does not decide whether your result has genuine conservation relevance — that is the researcher's call
 
 ---

@@ -19,8 +19,8 @@
 
 本仓库是**有主见的**。它**不是**通用生态学写作工具箱，**也不是**把经济学或方法学技能包改名套用到保护
 领域。它是 **《保护生物学》专属** 技能栈：一项对**保护生物多样性具有直接、可迁移意义**的结果、一个
-与生态问题相匹配的设计（检测率、尺度、反事实）、**双盲**的稿件准备、一份带持久标识符的**公开数据/代码
-存档**（如 Dryad），以及**衔接科学与实践**、不夸大证据的保护建议。
+与生态问题相匹配的设计（检测率、尺度、反事实）、**双盲**的稿件准备、一份**数据可得性声明**，并在可
+共享时归档数据/代码，以及**衔接科学与实践**、不夸大证据的保护建议。
 
 ---
 
@@ -35,22 +35,23 @@
 | 方法 | 野外生态、建模、综合、人文维度——各按其标准评判 | 设计与问题匹配，不要硬套同一模板 |
 | 出版方 / 所有者 | **Wiley** / **国际保护生物学学会（SCB）** | 通过 **ScholarOne Manuscript Central** 投稿 |
 | 评审模式 | **双盲**（2014 年起） | 稿件**与作者身份**均须匿名 |
-| 篇幅 | Contributed Papers 约 6,000–7,000；Reviews 约 7,500–8,000；**摘要 ≤ 300 词** | 字数从摘要首词到 Literature Cited 末词（不含表格） |
+| 篇幅 | Wiley 当前列表中 Contributed Papers 为 **7,000 词**；**摘要 ≤ 300 词** | 字数从摘要首词到 Literature Cited 末词（不含表格） |
 | 图表 | 约**每四页正文一个表/图** | 每个图表都要物有所值，其余进 SI |
-| 透明度 | **数据可得性声明** + 公开数据/代码存档（如 **Dryad**） | 边做边建；保护敏感物种数据 |
+| 透明度 | **数据可得性声明**；鼓励存放可共享的数据/代码 | 边做边建；保护敏感物种数据 |
 | 敏感数据 | 遮蔽受威胁/被贩运物种的精确位置 | 地图不得助长盗猎或干扰 |
 
-易变的具体信息（现任编辑、各类型确切上限、数据政策措辞、APC）会变化——未直接核实项在
-[`resources/official-source-map.md`](resources/official-source-map.md) 中标记 **待核实**。Wiley 托管的
-作者页面对自动抓取常返回 402/403；相关事实已与 SCB 托管的体例指南交叉核对。**请以官方页面为准。**
+这些事实背后的来源见 [`resources/official-source-map.md`](resources/official-source-map.md)。最终投稿周
+仍应打开 Wiley Instructions for Authors 页面，核对文章类型是否开放、Contributed Papers 之外的各类型
+上限、声明项与生产文件提示。
 
 ### 主要文章类型
 
-- **Contributed Papers（贡献论文）**——完整实证研究，IMRAD 结构，意义广泛（约 6,000–7,000 词）。
-- **Research Notes（研究札记）**——聚焦或初步的贡献（约 3,000 词）。
-- **Reviews（综述）**——对成熟文献的全面综合（约 7,500–8,000 词）。
-- **Essays（述评）**——基于证据、面向未来的保护议题论证（约 6,000 词）。
-- **Conservation Practice and Policy（保护实践与政策）**——应用工具、政策与管理经验（约 5,000 词）。
+- **Contributed Papers（贡献论文）**——完整实证研究，IMRAD 结构，意义广泛（Wiley 当前列表显示
+  7,000 词）。
+- **Research Notes（研究札记）**——聚焦或初步的贡献。
+- **Reviews（综述）**——对成熟文献的全面综合。
+- **Essays（述评）**——基于证据、面向未来的保护议题论证。
+- **Conservation Practice and Policy（保护实践与政策）**——应用工具、政策与管理经验。
 - **Comments / Diversity / Letters**——短篇（无摘要）。在开放时亦有 Registered Reports。
 
 ---
@@ -126,7 +127,7 @@ conbio-revision-and-rebuttal
 | `conbio-study-design` | 为设计辩护——检测率、尺度、反事实、建模、综合 |
 | `conbio-data-analysis` | 恰当模型、诚实的不确定性、稳健性、可复现 |
 | `conbio-figures-and-tables` | 自洽、可读的图表与地图；遮蔽敏感位置 |
-| `conbio-reporting-and-data-policy` | 数据可得性声明 + 公开数据/代码存档（Dryad）；受限数据 |
+| `conbio-reporting-and-data-policy` | 数据可得性声明 + 可共享数据/代码归档；受限数据 |
 | `conbio-writing-style` | 期刊体例指南；在各类型字数上限内的可读文风 |
 | `conbio-conservation-relevance-and-implications` | 凝练「所以呢」；可行、可迁移的建议 |
 | `conbio-review-process` | 双盲评审、编辑筛查、决定类别、Registered Reports |
@@ -136,7 +137,7 @@ conbio-revision-and-rebuttal
 ### 资源
 
 - [`resources/external_tools.md`](resources/external_tools.md) — 保护数据源（GBIF / IUCN 红色名录 / WDPA / Movebank / Global Forest Watch）+ R / Python / GIS 与综合工具
-- [`resources/official-source-map.md`](resources/official-source-map.md) — 每条事实背后的 Wiley / SCB 官方 URL，未核实项标 待核实
+- [`resources/official-source-map.md`](resources/official-source-map.md) — 每条期刊专属事实背后的 Wiley / SCB 官方 URL 与投稿周 live-check 边界
 
 ---
 
@@ -144,7 +145,7 @@ conbio-revision-and-rebuttal
 
 - 不替你写出可直接投稿的稿件
 - 不模拟任何特定编辑或评审人的口味
-- 不臆断易变元数据（现任编辑、各类型确切上限、数据政策措辞、APC）——请以官方页面为准；未核实项标 待核实
+- 不冻结投稿周才应确认的元数据，例如文章类型开放状态、全部类型上限、文件提示或 masthead 细节；投稿前以官方页面为准
 - 不替你判断你的结果是否具有真正的保护意义——那是研究者的判断
 
 ---

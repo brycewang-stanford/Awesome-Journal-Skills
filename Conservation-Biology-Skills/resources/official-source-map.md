@@ -1,91 +1,84 @@
 # Conservation Biology Official Source Map
 
 Primary and authoritative sources behind the *Conservation Biology*-specific facts injected into this
-skill pack. Access date for all entries: **2026-06-02**. Re-verify volatile items (current
-editor-in-chief and editorial team, exact word/abstract caps per article type, accepted article
-types, data-policy wording, open-access APC) on the official page before relying on them — journal
-pages change, and the Wiley-hosted Instructions for Authors page may return **402/403** to automated
-fetchers (see notes below).
+skill pack. Access date for this refresh: **2026-06-20**. Wiley author-guideline pages are the live
+authority for upload rules, so check them in a browser immediately before submission for article-type
+availability, final file prompts, and any production changes.
 
-## Official journal, submission & author pages
+## Official Journal, Scope, and Society Context
 
-- **https://conbio.onlinelibrary.wiley.com/hub/journal/15231739/homepage/forauthors.html**
-  — *Conservation Biology* Instructions for Authors (Wiley Online Library). The authoritative source
-  for article types, word limits, abstract cap, sections/order, and data policy. NOTE: this Wiley URL
-  frequently returns **HTTP 402 Payment Required** to automated fetchers; facts below were
-  cross-checked against the SCB-hosted Author Style Guide PDF and search renderings, and any residual
-  uncertainty is marked 待核实.
-- **https://conbio.onlinelibrary.wiley.com/pb-assets/hub-assets/conbio/Author-Style-Guide-mar2023-1680017490977.pdf**
-  — *Conservation Biology* Style Guide for Authors (Mar 2023, Wiley-hosted). Manuscript specifications,
-  sections and order, title/abstract guidance. (402 to automated fetch; referenced via search.)
-- **https://conbio.org/images/content_publications/ConsBiol_Author_Style_Guide_Sep2014.pdf**
-  — *Conservation Biology* Style Guide for Authors (Sep 2014, SCB-hosted, machine-readable). Verifies
-  per-type word limits used in this pack: **Contributed Papers 6,000**, **Research Notes 3,000**,
-  **Reviews 7,500**, **Essays 6,000**, **Conservation Practice and Policy 5,000**, **Comments 2,000**,
-  **Diversity 2,000**, **Letters 1,000**; **Abstract ≤ 300 words** (no abstract for Letters, Comments,
-  or Diversity); word count runs from the **first word of the Abstract through the last word of
-  Literature Cited** and **excludes tables, figure legends, and text in the body of tables**; ~one
-  table/figure per four pages of text; Contributed Papers / Research Notes / Conservation Practice and
-  Policy follow **IMRAD** (Abstract, Introduction, Methods, Results, Discussion).
-- **https://conbio.org/publications/conservation-biology/** — SCB's *Conservation Biology* journal
-  page. Verifies: founded **1987**; owned by the **Society for Conservation Biology (SCB)**; published
-  by **Wiley**; **six issues/year** (Feb, Apr, Jun, Aug, Oct, Dec); flagship journal of the society.
+- **https://conbio.org/publications/conservation-biology/** — Society for Conservation Biology (SCB)
+  journal page. Verifies that *Conservation Biology* launched in **1987**, is owned by SCB, remains the
+  society's flagship journal, is published by **Wiley**, and appears **six times per year**. It also
+  verifies the core scope used throughout this pack: research articles, essays, and reviews that develop
+  theory and methods, define key problems, and propose solutions across the social, ecological, and
+  philosophical dimensions of conserving biological diversity, with globally relevant insights,
+  approaches, and syntheses.
+- **https://conbio.onlinelibrary.wiley.com/journal/15231739** — Wiley Online Library journal home.
+  Use as the publisher route for current issues, ISSN metadata, article pages, author-guideline links,
+  open-access links, and masthead navigation.
 
-## Submission portal
+## Submission Route, Author Rules, and Style
 
-- **https://mc.manuscriptcentral.com/cobi** — *Conservation Biology* submission site on **Wiley's
-  ScholarOne Manuscript Central** (journal code `cobi`). Verifies the submission portal.
+- **https://conbio.onlinelibrary.wiley.com/hub/journal/15231739/homepage/forauthors.html** —
+  *Conservation Biology* Instructions for Authors. This is the upload-week authority for current
+  article types, word limits, abstract rules, file prompts, declarations, and author instructions.
+  Public official listings for this page identify **Contributed Paper (7000 words)** as the current
+  headline full-article cap.
+- **https://conbio.onlinelibrary.wiley.com/hub/journal/15231739/reviewer-guidelines** — Wiley reviewer
+  guidelines. Public official listings verify that word limits exclude references, tables, and figure
+  legends, and repeat the **Contributed Paper (7000 words)** category description.
+- **https://conbio.org/images/content_publications/ConsBiol_Author_Style_Guide_Sep2014.pdf** —
+  SCB-hosted *Conservation Biology* Style Guide for Authors. Verifies durable house-style rules used by
+  this pack: the abstract must not exceed **300 words**; Letters, Comments, and Diversity pieces do not
+  include an abstract; word counts run from the first word of the Abstract through the last word of
+  Literature Cited and exclude tables, figure legends, and text in tables; manuscripts should include no
+  more than about one table or figure for every four pages of text; Contributed Papers, Research Notes,
+  and Conservation Practice and Policy papers follow **Abstract, Introduction, Methods, Results,
+  Discussion, Supporting Information paragraph, Literature Cited, tables, figure legends, and figures**;
+  Results and Discussion should not be combined; acknowledgments are added to the body after acceptance;
+  and there is no separate Conclusion section.
+- **https://mc.manuscriptcentral.com/cobi** — Wiley ScholarOne Manuscripts / Manuscript Central
+  submission portal for *Conservation Biology* (`cobi`).
 
-## Peer-review model
+## Peer Review, Editorial, and Compliance Metadata
 
 - **https://conbio.org/publications/scb-news-blog/conservation-biology-enacts-double-blind-peer-review**
-  — SCB news post. Verifies: *Conservation Biology* adopted **double-blind peer review in October
-  2014** — "authors do not know the identity of reviewers and reviewers do not know the identity of
-  authors or their affiliations"; rationale framed around reducing intentional and unintentional bias
-  and broadening participation by underrepresented groups and early-career researchers.
-- **https://conbio.onlinelibrary.wiley.com/hub/journal/15231739/reviewer-guidelines**
-  — Reviewer Guidelines (Wiley). Reviewer expectations and criteria (novelty, transferability, direct
-  conservation implications). (May 402 to automated fetch.)
+  — SCB news post dated **2014-10-07**. Verifies the adoption and meaning of double-blind peer review:
+  authors do not know reviewers, and reviewers do not know authors or affiliations.
+- **https://conbio.onlinelibrary.wiley.com/hub/journal/15231739/homepage/editorialboard.html** —
+  Wiley editorial-board page. Public official listings identify **Mark A. Burgman** of the University of
+  Hawaii at Manoa as Editor in Chief and **Austin Kane** as Senior Editor. Check the live page before
+  addressing a named editor because mastheads change.
+- **https://authors.wiley.com/asset/ACT.xlsx** — Wiley Author Compliance Tool workbook, `COBI` /
+  Print ISSN **0888-8892** / Online ISSN **1523-1739** row checked on **2026-06-20**. Verifies:
+  **Hybrid Open Access**; optional open-access APC **USD 3,400**; CC license choices **CC BY, CC BY-NC,
+  or CC BY-NC-ND**; standard self-archiving with submitted version allowed on submission and accepted
+  version after a **12-month** embargo; journal-specific Wiley data-sharing tier **Encourages**; Wiley
+  preprint policy **Accepts Preprints**; ORCID policy **Required**; review model **Double anonymized**.
 
-## Data availability & archiving
+## Data Availability, Code, Sensitive Data, and Repositories
 
-- **https://conbio.onlinelibrary.wiley.com/hub/journal/15231739/homepage/forauthors.html** (data
-  section) and Wiley's data-sharing policy:
-  **https://authors.wiley.com/author-resources/Journal-Authors/open-access/data-sharing-citation/data-sharing-policy.html**
-  — Wiley journals require a **data availability statement**. *Conservation Biology* expects data and
-  code supporting the results to be deposited in an appropriate public repository (e.g., **Dryad**,
-  Zenodo, Figshare, GenBank, or a comparable archive) with a persistent identifier, with sensitive
-  data (e.g., locations of threatened species) handled to avoid conservation harm. Exact mandatory
-  wording and embargo options are 待核实 — confirm on the live policy page.
-- **https://datadryad.org/** — Dryad data repository, commonly used for ecology/conservation datasets.
+- **https://authors.wiley.com/author-resources/Journal-Authors/open-access/data-sharing-citation/data-sharing-policy.html**
+  — Wiley data-sharing policy overview. Verifies that all research- and synthesis-based articles must
+  include a **Data Availability Statement**. The pack uses the `COBI` ACT row's **Encourages** tier as
+  the journal-specific rule: deposit data, code, scripts, and other research artifacts in an appropriate
+  repository when sharing is possible; if sharing would compromise privacy, legal obligations,
+  Indigenous or provider agreements, or conservation of threatened species, explain restrictions and
+  provide an access route or safe substitute where feasible.
+- **https://datadryad.org/**, **https://zenodo.org/**, **https://figshare.com/**,
+  **https://www.ncbi.nlm.nih.gov/genbank/** — repository routes commonly suitable for ecology,
+  conservation, software, and sequence-data deposits. Use the live Wiley author page and the manuscript's
+  disciplinary norms to choose the repository.
 
-## Scope, owner, publisher, history
+## Article-Type Operating Guardrails
 
-- **https://conbio.onlinelibrary.wiley.com/journal/15231739** — *Conservation Biology* on Wiley Online
-  Library (ISSN 1523-1739, online; 0888-8892, print). Scope: research, essays, and reviews that
-  develop theory and methods, define key problems, and propose solutions across the social, ecological,
-  and philosophical dimensions of conserving biological diversity; novelty, transferability, and direct
-  conservation implications are emphasized.
-- **https://en.wikipedia.org/wiki/Conservation_Biology_(journal)** — Verifies: founded **1987**;
-  flagship journal of the Society for Conservation Biology; published by Wiley.
-
-## UNVERIFIED / 待核实 items
-
-- **Per-type word limits (version drift):** the SCB-hosted Sep-2014 Style Guide lists **Contributed
-  Papers 6,000** and **Reviews 7,500**; later renderings of the Wiley page / third-party submission
-  guides cite **Contributed Papers 7,000** and **Reviews 8,000**. Treat the figures as approximate and
-  **confirm the current per-type caps on the live Instructions for Authors page**. 待核实.
-- **Current article-type roster:** this pack covers Contributed Papers, Reviews, Essays, Conservation
-  Practice and Policy, Research Notes, Comments, Diversity, and Letters, plus **Registered Reports**
-  (two-stage, with in-principle acceptance) referenced in recent guidance. Confirm which types are
-  currently open on the live page. 待核实.
-- **Abstract cap by type:** **≤ 300 words** for full papers per the Style Guide; structured-abstract
-  requirements and exact caps for shorter types may differ. 待核实.
-- **Data policy mandatory wording / embargo:** whether archiving is a hard condition of publication,
-  the accepted repositories, and any embargo window are not quoted verbatim here. 待核实.
-- **Current editor-in-chief, regional/handling-editor structure, and editorial board:** the masthead
-  changes; confirm on the journal's editorial-team page. 待核实.
-- **Open-access APC (Gold/Hybrid) and any submission charges:** handled by Wiley; not quoted here.
-  待核实.
-- **Time-to-first-decision, desk-rejection rate, impact factor / CiteScore:** metrics change yearly;
-  a CiteScore near 10.5 was reported at access time but should be reconfirmed. 待核实.
+- Current Wiley official listings establish **Contributed Paper (7000 words)** as the active
+  full-article benchmark. For Research Notes, Reviews, Essays, Conservation Practice and Policy,
+  Comments, Diversity, Letters, and any Registered Reports route, use the live Wiley Instructions for
+  Authors page for the final cap and eligibility check.
+- The SCB-hosted style guide remains the pack's source for stable formatting and counting mechanics:
+  abstract length, no abstract for short formats, the Abstract-through-Literature-Cited count window,
+  table/figure density, IMRAD order, no combined Results/Discussion, and no separate Conclusion.
+- Treat metrics, APCs, editor names, and article-type menus as live-check items. Do not use impact
+  metrics or editor identity as a manuscript-fit argument.

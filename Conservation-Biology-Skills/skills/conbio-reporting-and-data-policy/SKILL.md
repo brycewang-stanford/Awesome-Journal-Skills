@@ -1,14 +1,15 @@
 ---
 name: conbio-reporting-and-data-policy
-description: Use when preparing the data-availability statement and the data/code archive for a Conservation Biology manuscript. The journal (Wiley/SCB) expects supporting data and code to be deposited in a public repository such as Dryad with a persistent identifier, and sensitive species data to be protected. Prepares the package; it does not waive requirements.
+description: Use when preparing the data-availability statement and the data/code archive for a Conservation Biology manuscript. The journal (Wiley/SCB) requires a data-availability statement for research/synthesis articles, encourages data sharing, and requires sensitive species data to be protected. Prepares the package; it does not waive requirements.
 ---
 
 # Reporting & Data Policy (conbio-reporting-and-data-policy)
 
-*Conservation Biology* expects a **data-availability statement** and, in keeping with Wiley/SCB policy,
-deposit of the **data and code** supporting the results in an appropriate **public repository** (e.g.,
-**Dryad**, Zenodo, Figshare, GenBank) with a **persistent identifier**. Build the package as you go so
-acceptance does not stall. Confirm the current mandatory wording on the live policy page (待核实).
+*Conservation Biology* needs a **data-availability statement** for research/synthesis articles. The
+journal-specific Wiley data-sharing tier is **Encourages**, so the operating standard for this pack is:
+archive shareable **data and code** in an appropriate repository (e.g., **Dryad**, Zenodo, Figshare,
+GenBank) with a **persistent identifier**, and document restrictions when data cannot be shared. Build
+the package as you go so acceptance does not stall.
 
 ## When to trigger
 
@@ -17,13 +18,14 @@ acceptance does not stall. Confirm the current mandatory wording on the live pol
 - Data cannot be fully shared (sensitive species, privacy, legal/provider restrictions)
 - A Review or synthesis where the screened-study dataset should be shared
 
-## What to prepare (verify current wording on the policy page)
+## What to prepare
 
 1. **Data-availability statement.** A short statement in the manuscript saying where the data and code
    are (repository + DOI/identifier), or why they cannot be shared and how to obtain them.
-2. **Public-repository deposit.** Place data and code in a recognized archive with a **persistent
-   identifier** and a guarantee of preservation — not a personal website or transient cloud link.
-   Dryad is widely used for ecology/conservation; software-heavy work may also use Zenodo/GitHub-Zenodo.
+2. **Repository deposit where sharing is possible.** Place shareable data and code in a recognized
+   archive with a **persistent identifier** and a guarantee of preservation — not a personal website or
+   transient cloud link. Dryad is widely used for ecology/conservation; software-heavy work may also use
+   Zenodo/GitHub-Zenodo.
 3. **Quantitative materials.** Data, code, and documentation sufficient to regenerate every reported
    result: master script + README + pinned versions + seeds.
 4. **Synthesis materials.** For Reviews/meta-analyses, share the screening decisions, included-study
@@ -44,7 +46,7 @@ acceptance does not stall. Confirm the current mandatory wording on the live pol
 - [ ] **README** documents data provenance, construction steps, and how to reproduce each exhibit
 - [ ] **Seeds** set and reported for every stochastic step
 - [ ] Software/package **versions pinned** (`renv.lock` / `requirements.txt` / recorded installs)
-- [ ] **Data-availability statement** drafted with repository + identifier
+- [ ] **Data-availability statement** drafted with repository + identifier or restriction/access route
 - [ ] Sensitive localities **masked/coarsened**; masking noted
 - [ ] Restricted data: reason + access instructions + synthetic/aggregated substitute
 
@@ -64,7 +66,8 @@ Use this as a second-pass capability check. First lock the species/system threat
 - **Primary move:** Return a claim-evidence-risk ledger; every recommendation must point to a manuscript location or missing artifact.
 - **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
 - **Neighbor test:** compare against Biological Conservation for applied conservation breadth, Global Change Biology for climate/ecosystem process, Ecology Letters for theory-forward ecology; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
-- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+- **Submission-ready gate:** before final advice, re-open `resources/official-source-map.md` for
+  upload-week rules and name the one live-check item that could change the recommendation.
 
 ## Output format
 
