@@ -1,0 +1,26 @@
+{
+  "name": "developmental-psychology-skills",
+  "description": "Agent skill stack for manuscripts targeted at Developmental Psychology — the American Psychological Association (APA) journal for empirical work on human development across the life span (infancy, childhood, adolescence, adulthood, aging). The pack encodes what distinguishes this venue from siblings such as Child Development (SRCD) and Developmental Science: the central scientific question is developmental change (age effects, within-person change, trajectories), studied with experiments, longitudinal and cohort designs, observational coding, micro-genetic methods, and increasingly preregistered open-science work. It covers masked peer review submitted via Editorial Manager (editorialmanager.com/dvl), APA 7th-edition style with JARS reporting standards (JARS-Quant, JARS-Qual, MARS), the manuscript length tiers (brief report up to a multi-study/longitudinal report) and the required Public Significance Statement, study design issues unique to developmental work (age vs. cohort confounds, attrition, measurement invariance across ages, ethics with minors and vulnerable populations), growth-curve / multilevel / SEM analysis with mediation and moderation, and the journal's Transparency and Openness Promotion (TOP) commitments (data and materials sharing, preregistration, sample-size justification). Skills run topic selection, developmental theory and age-graded hypotheses, literature positioning, study design, data analysis, tables and figures, APA writing, open science and transparency, the review process, submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/developmental-psychology-skills",
+  "repository": "https://github.com/brycewang-stanford/developmental-psychology-skills",
+  "keywords": [
+    "developmental-psychology",
+    "devpsych",
+    "apa",
+    "lifespan-development",
+    "longitudinal",
+    "growth-curve",
+    "measurement-invariance",
+    "open-science",
+    "preregistration",
+    "jars",
+    "apa-style",
+    "editorial-manager"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "journal-of-educational-psychology-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of Educational Psychology (JEP) — the American Psychological Association's flagship outlet for original, primary psychological research on learning and instruction across all ages and educational levels. JEP publishes experiments and randomized field trials, quasi-experiments, longitudinal studies, and SEM/multilevel models of students nested in classes and schools; it occasionally publishes exceptionally important meta-analyses and typically does not publish reliability/validity studies of single instruments. Manuscripts run under masked review on Editorial Manager (editorialmanager.com/edu), follow APA 7th edition, generally do not exceed 12,000 words excluding references/tables/figures/appendices, carry a 250-word abstract, and include a Transparency and Openness subsection stating data, materials, and analysis-code availability with persistent identifiers; preregistration is encouraged not required, JARS (quantitative/qualitative/mixed and JARS-REC) reporting standards apply, and Open Science Badges are available. The stack covers learning-and-motivation topic selection, theory and hypotheses, literature positioning, classroom/school study design (cluster-randomized trials, nesting and power, measurement of learning constructs, ecological validity), multilevel/SEM/growth analysis with educationally meaningful effect sizes, APA exhibits, writing to the 12,000-word format, open science and transparency, the review process, submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/journal-of-educational-psychology-skills",
+  "repository": "https://github.com/brycewang-stanford/journal-of-educational-psychology-skills",
+  "keywords": [
+    "journal-of-educational-psychology",
+    "jep",
+    "educational-psychology",
+    "apa",
+    "learning-and-instruction",
+    "motivation",
+    "multilevel-modeling",
+    "cluster-randomized-trial",
+    "structural-equation-modeling",
+    "open-science",
+    "jars",
+    "apa-style",
+    "academic-writing",
+    "editorial-manager"
+  ]
+}

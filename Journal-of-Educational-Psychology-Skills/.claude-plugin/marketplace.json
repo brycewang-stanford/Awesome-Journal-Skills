@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "journal-of-educational-psychology-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Educational Psychology, the APA's flagship journal for psychological research on learning and instruction.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "journal-of-educational-psychology-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Educational Psychology manuscript lifecycle, including its classroom/school study designs, multilevel/SEM analysis, APA 7th format, and Transparency and Openness requirements.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/journal-of-educational-psychology-skills",
+      "repository": "https://github.com/brycewang-stanford/journal-of-educational-psychology-skills",
+      "keywords": [
+        "journal-of-educational-psychology",
+        "jep",
+        "educational-psychology",
+        "apa",
+        "multilevel-modeling",
+        "open-science",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jedpsych-workflow",
+        "skills/jedpsych-topic-selection",
+        "skills/jedpsych-theory-and-hypotheses",
+        "skills/jedpsych-literature-positioning",
+        "skills/jedpsych-study-design",
+        "skills/jedpsych-data-analysis",
+        "skills/jedpsych-tables-figures",
+        "skills/jedpsych-writing-style",
+        "skills/jedpsych-open-science-and-transparency",
+        "skills/jedpsych-review-process",
+        "skills/jedpsych-submission",
+        "skills/jedpsych-rebuttal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "journal-of-applied-psychology-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Applied Psychology, the APA flagship of industrial-organizational and applied psychology.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "journal-of-applied-psychology-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Applied Psychology manuscript lifecycle — I-O theory, measurement and design rigor, SEM/HLM/meta-analysis, masked review, and TOP-aligned open science.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/journal-of-applied-psychology-skills",
+      "repository": "https://github.com/brycewang-stanford/journal-of-applied-psychology-skills",
+      "keywords": [
+        "journal-of-applied-psychology",
+        "joap",
+        "io-psychology",
+        "apa",
+        "open-science",
+        "multilevel-modeling",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/joap-workflow",
+        "skills/joap-topic-selection",
+        "skills/joap-theory-and-hypotheses",
+        "skills/joap-literature-positioning",
+        "skills/joap-study-design",
+        "skills/joap-data-analysis",
+        "skills/joap-tables-figures",
+        "skills/joap-writing-style",
+        "skills/joap-open-science-and-transparency",
+        "skills/joap-review-process",
+        "skills/joap-submission",
+        "skills/joap-rebuttal"
+      ]
+    }
+  ]
+}

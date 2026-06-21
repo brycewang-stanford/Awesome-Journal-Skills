@@ -1,0 +1,26 @@
+{
+  "name": "cognitive-psychology-skills",
+  "description": "Agent skill stack for manuscripts targeted at Cognitive Psychology (Elsevier) — a leading journal of cognitive science covering attention, perception, memory, learning, language, categorization, reasoning, problem-solving, and judgment and decision-making. Cognitive Psychology is distinctive for rewarding longer, integrative, model-driven contributions: it favors multi-experiment programs that combine tightly controlled cognitive experiments with formal computational or mathematical modeling, running the experiment-to-model-fit loop to develop and test cognitive theory rather than to report a single isolated effect. The stack adapts theory and hypotheses to formal/computational models and falsifiable predictions, study design to stimulus construction, counterbalancing, confound control and power across multi-experiment designs, data analysis to model fitting and comparison (AIC/BIC/Bayes factors), (generalized) linear mixed models, and hierarchical Bayesian estimation, and open science to deposit of data plus model and analysis code plus materials for modeling reproducibility, with preregistration where applicable. Submission is via Elsevier Editorial Manager. Covers cognitive-science topic selection, literature positioning, theory and model formalization, experiment design, model-based analysis, exhibits, scientific writing, open-science and code transparency, the review process, submission preflight, and revision rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/cognitive-psychology-skills",
+  "repository": "https://github.com/brycewang-stanford/cognitive-psychology-skills",
+  "keywords": [
+    "cognitive-psychology",
+    "cognitive-science",
+    "computational-modeling",
+    "mathematical-psychology",
+    "model-comparison",
+    "multi-experiment",
+    "mixed-models",
+    "hierarchical-bayesian",
+    "open-science",
+    "elsevier",
+    "editorial-manager",
+    "academic-writing"
+  ]
+}

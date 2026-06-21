@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "cognitive-psychology-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Cognitive Psychology (Elsevier), the model-driven journal of cognitive science.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "cognitive-psychology-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Cognitive Psychology (Elsevier) manuscript lifecycle, including its long-form, multi-experiment, computational-modeling house style and code-transparency expectations.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/cognitive-psychology-skills",
+      "repository": "https://github.com/brycewang-stanford/cognitive-psychology-skills",
+      "keywords": [
+        "cognitive-psychology",
+        "cognitive-science",
+        "computational-modeling",
+        "model-comparison",
+        "multi-experiment",
+        "open-science",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/cogpsych-workflow",
+        "skills/cogpsych-topic-selection",
+        "skills/cogpsych-theory-and-hypotheses",
+        "skills/cogpsych-literature-positioning",
+        "skills/cogpsych-study-design",
+        "skills/cogpsych-data-analysis",
+        "skills/cogpsych-tables-figures",
+        "skills/cogpsych-writing-style",
+        "skills/cogpsych-open-science-and-transparency",
+        "skills/cogpsych-review-process",
+        "skills/cogpsych-submission",
+        "skills/cogpsych-rebuttal"
+      ]
+    }
+  ]
+}

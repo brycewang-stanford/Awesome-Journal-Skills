@@ -1,0 +1,28 @@
+{
+  "name": "journal-of-applied-psychology-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of Applied Psychology (JAP) — the American Psychological Association (APA) flagship of industrial-organizational (I-O) and applied psychology, covering work motivation, leadership, personnel selection and assessment, teams, job attitudes and well-being, organizational justice, training, and turnover. JAP rewards strong theory paired with rigorous quantitative measurement: lab and field experiments, multi-wave field studies, multilevel (HLM) and structural-equation (SEM) models, mediation and moderation, and meta-analysis. Submitted through Editorial Manager (editorialmanager.com/apl) under masked (anonymized) review, written in APA 7th-edition style, with transparency and openness held to the TOP framework (data, materials, code availability; preregistration weighed). Article types include Feature Articles, Research Reports, theory-development and integrative-review articles, qualitative research, and meta-analyses. Covers topic and fit selection, I-O theory and hypotheses, literature positioning, study and measurement design (construct validity, common-method variance, nested data), SEM/HLM/meta-analysis, exhibits, APA writing, open science and transparency, the masked review process, submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/journal-of-applied-psychology-skills",
+  "repository": "https://github.com/brycewang-stanford/journal-of-applied-psychology-skills",
+  "keywords": [
+    "journal-of-applied-psychology",
+    "joap",
+    "io-psychology",
+    "industrial-organizational-psychology",
+    "apa",
+    "open-science",
+    "top-guidelines",
+    "construct-validity",
+    "multilevel-modeling",
+    "structural-equation-modeling",
+    "meta-analysis",
+    "apa-style",
+    "academic-writing",
+    "editorial-manager"
+  ]
+}
