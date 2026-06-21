@@ -20,8 +20,12 @@ Primary source map for facts used in the JEBO skill pack. **Access date: 2026-06
 | laboratory evidence | Official pages above; re-check live before submission |
 | field-experiment design | Official pages above; re-check live before submission |
 
+## Verified on official pages (2026-06)
+
+- **Editors: Daniel Houser (George Mason University) and Daniela Puzzello (Indiana University).** (Elsevier JEBO editorial board / IDEAS-RePEc)
+- Published by **Elsevier**; submit via Editorial Manager from the JEBO ScienceDirect page.
+
 ## Unverified / volatile items
 
-- Current editor names and board composition are **待核实** unless explicitly quoted in an official page at submission time.
-- Exact submission fees, APCs, waivers, word limits, abstract limits, and blinding rules are **待核实** if not visible in the official pages above.
+- Exact **submission fee / OA APC, word limits, abstract limits, and blinding rules** are **待核实** if not visible on the official pages above — confirm at submission time.
 - Exemplar articles must be verified in the official archive or DOI page before being cited as real examples.

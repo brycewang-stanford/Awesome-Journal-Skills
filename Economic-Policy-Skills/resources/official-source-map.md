@@ -20,8 +20,12 @@ Primary source map for facts used in the Economic Policy skill pack. **Access da
 | CEPR audience | Official pages above; re-check live before submission |
 | welfare implication | Official pages above; re-check live before submission |
 
+## Verified on official pages (2026-06)
+
+- **Managing Editors: Roberto Galbiati and Isabelle Méjean.** (economic-policy.org editorial board)
+- **Submission model changed for 2026: Economic Policy now publishes only commissioned papers and does NOT accept unsolicited submissions** (fewer papers; authors may signal interest via submissions@economic-policy.org). Published twice yearly by OUP; jointly owned by CEPR, CESifo, and Sciences Po. (OUP / CEPR / economic-policy.org)
+
 ## Unverified / volatile items
 
-- Current editor names and board composition are **待核实** unless explicitly quoted in an official page at submission time.
-- Exact submission fees, APCs, waivers, word limits, abstract limits, and blinding rules are **待核实** if not visible in the official pages above.
+- Exact **length/format limits and any OA charge** are **待核实** if not visible on the official pages above — confirm before signalling interest.
 - Exemplar articles must be verified in the official archive or DOI page before being cited as real examples.
