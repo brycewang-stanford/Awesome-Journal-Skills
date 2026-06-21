@@ -41,8 +41,24 @@
   </table>
 </div>
 
+<p align="center"><b>按 11 个主流学科板块覆盖</b></p>
+
+<ul>
+  <li><h1><a href="#discipline-cross">综合·交叉</a></h1></li>
+  <li><h1><a href="#discipline-business">经管与商科</a></h1></li>
+  <li><h1><a href="#discipline-social-sciences">社会科学</a></h1></li>
+  <li><h1><a href="#discipline-humanities">人文学科</a></h1></li>
+  <li><h1><a href="#discipline-math-physical">数学与物理科学</a></h1></li>
+  <li><h1><a href="#discipline-life-sciences">生命科学</a></h1></li>
+  <li><h1><a href="#discipline-medicine-health">医学与健康</a></h1></li>
+  <li><h1><a href="#discipline-engineering-tech">工程与技术</a></h1></li>
+  <li><h1><a href="#discipline-cs-ai">计算机科学与 AI</a></h1></li>
+  <li><h1><a href="#discipline-agri-env-earth">农业·环境·地球科学</a></h1></li>
+  <li><h1><a href="#discipline-sport-science">体育科学</a></h1></li>
+</ul>
+
 <p align="center">
-按 <b>11 个主流学科板块</b> 覆盖：<b>综合·交叉、经管与商科、社会科学、人文学科、数学与物理科学、生命科学、医学与健康、工程与技术、计算机科学与 AI、农业·环境·地球科学、体育科学</b>；每类下的代表子领域在正文总览中完整列出，下方封面墙按 venue 导航，完整分类见<a href="#-覆盖一览">覆盖一览</a>。
+点击任一学科名可跳转到对应说明；每类下的代表子领域在正文总览中完整列出。下方封面墙按 venue 导航，完整分类见<a href="#-覆盖一览">覆盖一览</a>。
 </p>
 <p align="center">
   <sub>
@@ -339,17 +355,17 @@
 
 | 板块 | 子领域 | 代表 venue | 形态 |
 |------|--------|-----------|------|
-| 🌐 **综合·交叉** | 综合性大刊 · 交叉科学 · 计算社科 · 生物信息 · 网络科学 | Science · PNAS · Nature Communications · Science Advances · PNAS Nexus · Nature Human Behaviour | 深度包 + 英文自然科学广度合集 + 第三方 Nature 系 |
-| 💼 **经济学与管理学** | 经济 · 金融 · 管理 · 会计 · 营销 · 运营 · 信息系统 | AER · QJE · JPE · Econometrica · JF · AMJ · TAR · MISQ ·《经济研究》·《管理世界》 | 深度包 + 中英文广度合集 |
-| 🧭 **社会科学** | 社会学 · 人类学 · 政治学 · 心理学 · 教育 · 人口 · 传播 · 公共管理 · 法学 · 地理 | ASR · AJS · APSR · AJPS · JPSP · Demography · POQ · HLR · Progress in Human Geography | 深度包 + 中英文广度合集 |
-| 🏛 **人文学科** | 历史 · 艺术史 · 哲学 · 文学 · 宗教 · 批评理论 | AHR · PMLA · Mind · Critical Inquiry · The Art Bulletin · JAAR | 深度包 + 英文人文广度合集 |
-| 📐 **数学与物理科学** | 数学 · 物理 · 天文 · 化学 · 材料 · 能源 | Annals of Mathematics · PRL · Nature Physics · JACS · Nature Materials · Nature Energy | 深度包 + 英文自然科学广度合集 |
-| 🧬 **生命科学** | 细胞 · 分子 · 基因组 · 免疫 · 微生物 · 神经 · 植物 · 生态演化 | Cell · Cancer Cell · Molecular Cell · Neuron · Immunity · The Plant Cell · eLife | 深度包 + 英文自然科学广度合集 |
-| 🩺 **医学与健康** | 临床综合 · 肿瘤 · 心血管 · 神经 · 感染 · 内科 · 公共健康 · 转化医学 | NEJM · The Lancet · JAMA · BMJ · JCO · Circulation · Blood · Gastroenterology | 深度包 + 临床医学广度合集 + 英文自然科学广度合集 |
-| ⚙️ **工程与技术** | 控制 · 通信 · 信号 · 电力 · 机器人 · 光子 · 生医工程 · 材料 | Proceedings of the IEEE · TAC · Automatica · Optica · Nature Electronics · Acta Materialia | 英文工程技术广度合集 |
-| 🤖 **计算机科学与 AI** | AI/ML · CV · NLP · 数据挖掘 · 系统 · 数据库 · 安全 · HCI · 理论 | NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS + 155 个会议 | CS/AI 深度包 + 会议广度合集 |
-| 🌱 **农业·环境·地球科学** | 农业系统 · 作物 · 环境科学 · 气候 · 生态保护 · 地球系统 | Field Crops Research · Agricultural Systems · ES&T · Global Environmental Change · Conservation Biology · Global Change Biology | 深度包 + 农业环境广度合集 |
-| 🏅 **体育科学** | 运动训练 · 体育教育 · 运动人体科学 · 体育社会科学 | 《体育科学》·《北京体育大学学报》·《上海体育学院学报》 | 中文体育学广度合集 |
+| <a id="discipline-cross"></a>🌐 **综合·交叉** | 综合性大刊 · 交叉科学 · 计算社科 · 生物信息 · 网络科学 | Science · PNAS · Nature Communications · Science Advances · PNAS Nexus · Nature Human Behaviour | 深度包 + 英文自然科学广度合集 + 第三方 Nature 系 |
+| <a id="discipline-business"></a>💼 **经济学与管理学** | 经济 · 金融 · 管理 · 会计 · 营销 · 运营 · 信息系统 | AER · QJE · JPE · Econometrica · JF · AMJ · TAR · MISQ ·《经济研究》·《管理世界》 | 深度包 + 中英文广度合集 |
+| <a id="discipline-social-sciences"></a>🧭 **社会科学** | 社会学 · 人类学 · 政治学 · 心理学 · 教育 · 人口 · 传播 · 公共管理 · 法学 · 地理 | ASR · AJS · APSR · AJPS · JPSP · Demography · POQ · HLR · Progress in Human Geography | 深度包 + 中英文广度合集 |
+| <a id="discipline-humanities"></a>🏛 **人文学科** | 历史 · 艺术史 · 哲学 · 文学 · 宗教 · 批评理论 | AHR · PMLA · Mind · Critical Inquiry · The Art Bulletin · JAAR | 深度包 + 英文人文广度合集 |
+| <a id="discipline-math-physical"></a>📐 **数学与物理科学** | 数学 · 物理 · 天文 · 化学 · 材料 · 能源 | Annals of Mathematics · PRL · Nature Physics · JACS · Nature Materials · Nature Energy | 深度包 + 英文自然科学广度合集 |
+| <a id="discipline-life-sciences"></a>🧬 **生命科学** | 细胞 · 分子 · 基因组 · 免疫 · 微生物 · 神经 · 植物 · 生态演化 | Cell · Cancer Cell · Molecular Cell · Neuron · Immunity · The Plant Cell · eLife | 深度包 + 英文自然科学广度合集 |
+| <a id="discipline-medicine-health"></a>🩺 **医学与健康** | 临床综合 · 肿瘤 · 心血管 · 神经 · 感染 · 内科 · 公共健康 · 转化医学 | NEJM · The Lancet · JAMA · BMJ · JCO · Circulation · Blood · Gastroenterology | 深度包 + 临床医学广度合集 + 英文自然科学广度合集 |
+| <a id="discipline-engineering-tech"></a>⚙️ **工程与技术** | 控制 · 通信 · 信号 · 电力 · 机器人 · 光子 · 生医工程 · 材料 | Proceedings of the IEEE · TAC · Automatica · Optica · Nature Electronics · Acta Materialia | 英文工程技术广度合集 |
+| <a id="discipline-cs-ai"></a>🤖 **计算机科学与 AI** | AI/ML · CV · NLP · 数据挖掘 · 系统 · 数据库 · 安全 · HCI · 理论 | NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS + 155 个会议 | CS/AI 深度包 + 会议广度合集 |
+| <a id="discipline-agri-env-earth"></a>🌱 **农业·环境·地球科学** | 农业系统 · 作物 · 环境科学 · 气候 · 生态保护 · 地球系统 | Field Crops Research · Agricultural Systems · ES&T · Global Environmental Change · Conservation Biology · Global Change Biology | 深度包 + 农业环境广度合集 |
+| <a id="discipline-sport-science"></a>🏅 **体育科学** | 运动训练 · 体育教育 · 运动人体科学 · 体育社会科学 | 《体育科学》·《北京体育大学学报》·《上海体育学院学报》 | 中文体育学广度合集 |
 
 <sub>共 <b>193 个 pack / 2883 个 skill</b>。"深度包"= 单刊单会全流程（约 12 个 skill）；"广度合集"= 每个 venue 一个轻量"选刊定位 + 写作风格"skill 加一个 router。</sub>
 

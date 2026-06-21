@@ -41,8 +41,24 @@ English | [简体中文](README.md)
   </table>
 </div>
 
+<p align="center"><b>Coverage by 11 mainstream discipline areas</b></p>
+
+<ul>
+  <li><h1><a href="#discipline-cross">Multidisciplinary and cross-field venues</a></h1></li>
+  <li><h1><a href="#discipline-business">Economics and management</a></h1></li>
+  <li><h1><a href="#discipline-social-sciences">Social sciences</a></h1></li>
+  <li><h1><a href="#discipline-humanities">Humanities</a></h1></li>
+  <li><h1><a href="#discipline-math-physical">Mathematics and physical sciences</a></h1></li>
+  <li><h1><a href="#discipline-life-sciences">Life sciences</a></h1></li>
+  <li><h1><a href="#discipline-medicine-health">Medicine and health</a></h1></li>
+  <li><h1><a href="#discipline-engineering-tech">Engineering and technology</a></h1></li>
+  <li><h1><a href="#discipline-cs-ai">Computer science and AI</a></h1></li>
+  <li><h1><a href="#discipline-agri-env-earth">Agriculture / environment / earth science</a></h1></li>
+  <li><h1><a href="#discipline-sport-science">Sport science</a></h1></li>
+</ul>
+
 <p align="center">
-Coverage by <b>11 mainstream discipline areas</b>: <b>multidisciplinary and cross-field venues, economics and management, social sciences, humanities, mathematics and physical sciences, life sciences, medicine and health, engineering and technology, computer science and AI, agriculture / environment / earth science, and sport science</b>. Representative subfields are expanded in the overview paragraph below; the cover walls browse by venue, and the full map is in <a href="#-coverage-at-a-glance">Coverage at a Glance</a>.
+Click any discipline name to jump to its explanation. Representative subfields are expanded in the overview paragraph below; the cover walls browse by venue, and the full map is in <a href="#-coverage-at-a-glance">Coverage at a Glance</a>.
 </p>
 <p align="center">
   <sub>
@@ -339,17 +355,17 @@ Use qje-workflow to assess how far my draft is from QJE's bar and what to do nex
 
 | Block | Subfields | Representative venues | Form |
 |------|-----------|-----------------------|------|
-| 🌐 **Multidisciplinary & cross-field** | general flagships · cross-disciplinary science · computational social science · bioinformatics · network science | Science · PNAS · Nature Communications · Science Advances · PNAS Nexus · Nature Human Behaviour | depth packs + EN natural-science breadth bundle + imported Nature family |
-| 💼 **Economics & management** | economics · finance · management · accounting · marketing · operations · information systems | AER · QJE · JPE · Econometrica · JF · AMJ · TAR · MISQ · Economic Research · Management World | depth packs + CN/EN breadth bundles |
-| 🧭 **Social sciences** | sociology · anthropology · political science · psychology · education · demography · communication · public administration · law · geography | ASR · AJS · APSR · AJPS · JPSP · Demography · POQ · HLR · Progress in Human Geography | depth packs + CN/EN breadth bundles |
-| 🏛 **Humanities** | history · art history · philosophy · literature · religion · critical theory | AHR · PMLA · Mind · Critical Inquiry · The Art Bulletin · JAAR | depth packs + English humanities breadth bundle |
-| 📐 **Mathematics & physical sciences** | mathematics · physics · astronomy · chemistry · materials · energy | Annals of Mathematics · PRL · Nature Physics · JACS · Nature Materials · Nature Energy | depth packs + EN natural-science breadth bundle |
-| 🧬 **Life sciences** | cell · molecular · genomics · immunology · microbiology · neuroscience · plant science · ecology/evolution | Cell · Cancer Cell · Molecular Cell · Neuron · Immunity · The Plant Cell · eLife | depth packs + EN natural-science breadth bundle |
-| 🩺 **Medicine & health** | general medicine · oncology · cardiology · neurology · infectious disease · internal medicine · public health · translational medicine | NEJM · The Lancet · JAMA · BMJ · JCO · Circulation · Blood · Gastroenterology | depth packs + clinical medicine breadth bundle + EN natural-science breadth bundle |
-| ⚙️ **Engineering & technology** | control · communications · signal processing · power · robotics · photonics · biomedical engineering · materials | Proceedings of the IEEE · TAC · Automatica · Optica · Nature Electronics · Acta Materialia | English engineering breadth bundle |
-| 🤖 **Computer science & AI** | AI/ML · CV · NLP · data mining · systems · databases · security · HCI · theory | NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS + 155 venues | CS/AI depth packs + conference breadth bundle |
-| 🌱 **Agriculture, environment & earth science** | agricultural systems · crops · environmental science · climate · conservation · earth systems | Field Crops Research · Agricultural Systems · ES&T · Global Environmental Change · Conservation Biology · Global Change Biology | depth packs + agriculture/environment breadth bundle |
-| 🏅 **Sport science** | training · physical education · kinesiology · sport social science | 体育科学 · Journal of Beijing Sport University · Journal of Shanghai University of Sport | Chinese sport-science breadth bundle |
+| <a id="discipline-cross"></a>🌐 **Multidisciplinary & cross-field** | general flagships · cross-disciplinary science · computational social science · bioinformatics · network science | Science · PNAS · Nature Communications · Science Advances · PNAS Nexus · Nature Human Behaviour | depth packs + EN natural-science breadth bundle + imported Nature family |
+| <a id="discipline-business"></a>💼 **Economics & management** | economics · finance · management · accounting · marketing · operations · information systems | AER · QJE · JPE · Econometrica · JF · AMJ · TAR · MISQ · Economic Research · Management World | depth packs + CN/EN breadth bundles |
+| <a id="discipline-social-sciences"></a>🧭 **Social sciences** | sociology · anthropology · political science · psychology · education · demography · communication · public administration · law · geography | ASR · AJS · APSR · AJPS · JPSP · Demography · POQ · HLR · Progress in Human Geography | depth packs + CN/EN breadth bundles |
+| <a id="discipline-humanities"></a>🏛 **Humanities** | history · art history · philosophy · literature · religion · critical theory | AHR · PMLA · Mind · Critical Inquiry · The Art Bulletin · JAAR | depth packs + English humanities breadth bundle |
+| <a id="discipline-math-physical"></a>📐 **Mathematics & physical sciences** | mathematics · physics · astronomy · chemistry · materials · energy | Annals of Mathematics · PRL · Nature Physics · JACS · Nature Materials · Nature Energy | depth packs + EN natural-science breadth bundle |
+| <a id="discipline-life-sciences"></a>🧬 **Life sciences** | cell · molecular · genomics · immunology · microbiology · neuroscience · plant science · ecology/evolution | Cell · Cancer Cell · Molecular Cell · Neuron · Immunity · The Plant Cell · eLife | depth packs + EN natural-science breadth bundle |
+| <a id="discipline-medicine-health"></a>🩺 **Medicine & health** | general medicine · oncology · cardiology · neurology · infectious disease · internal medicine · public health · translational medicine | NEJM · The Lancet · JAMA · BMJ · JCO · Circulation · Blood · Gastroenterology | depth packs + clinical medicine breadth bundle + EN natural-science breadth bundle |
+| <a id="discipline-engineering-tech"></a>⚙️ **Engineering & technology** | control · communications · signal processing · power · robotics · photonics · biomedical engineering · materials | Proceedings of the IEEE · TAC · Automatica · Optica · Nature Electronics · Acta Materialia | English engineering breadth bundle |
+| <a id="discipline-cs-ai"></a>🤖 **Computer science & AI** | AI/ML · CV · NLP · data mining · systems · databases · security · HCI · theory | NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS + 155 venues | CS/AI depth packs + conference breadth bundle |
+| <a id="discipline-agri-env-earth"></a>🌱 **Agriculture, environment & earth science** | agricultural systems · crops · environmental science · climate · conservation · earth systems | Field Crops Research · Agricultural Systems · ES&T · Global Environmental Change · Conservation Biology · Global Change Biology | depth packs + agriculture/environment breadth bundle |
+| <a id="discipline-sport-science"></a>🏅 **Sport science** | training · physical education · kinesiology · sport social science | 体育科学 · Journal of Beijing Sport University · Journal of Shanghai University of Sport | Chinese sport-science breadth bundle |
 
 <sub><b>193 packs / 2883 skills</b> total. A "depth pack" = one venue, end-to-end (~12 skills); a "breadth bundle" = one lightweight "venue-fit + house-style" skill per venue plus a router.</sub>
 
