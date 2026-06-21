@@ -5,11 +5,11 @@ description: Use for the final preflight before submitting a New Media & Society
 
 # Submission Preflight (newms-submission)
 
-The last gate before upload. NM&S submits through **Sage Track (ScholarOne Manuscript Central)** at
+The last gate before upload. NM&S submits through **Sage Track** at
 `mc.manuscriptcentral.com/nms`. This skill is a mechanical preflight: format, length, masking, and the
 ethics/data statements that an anonymous, ethics-attentive interdisciplinary journal expects. **Verify
-every volatile specific on the live SAGE author-instructions page** — the page may block automated
-tools, and details change, especially across the 2026 editorial transition.
+every upload-field prompt on the live SAGE author-instructions page** because details can change,
+especially across the 2026 editorial transition.
 
 ## When to trigger
 
@@ -19,10 +19,10 @@ tools, and details change, especially across the 2026 editorial transition.
 
 ## Hard preflight checklist
 
-- [ ] **Word target ~8,000** — *all text including notes, references, tables, and charts*. Submissions
-      more than a few hundred words over the target are not considered. Report your count. (检索于 2026-06；以官网为准)
-- [ ] **Abstract ~150 words**, unstructured, stating purpose, approach, and findings. (检索于 2026-06；以官网为准)
-- [ ] **Keywords — at least 4**, after the abstract. (检索于 2026-06；以官网为准)
+- [ ] **Word target 8,000** — *all text including notes, references, tables, and charts*. Submissions
+      more than a few hundred words over the target are not considered. Report your count.
+- [ ] **Abstract 150 words**, unstructured, stating purpose, approach, and findings.
+- [ ] **Keywords — at least 4**, after the abstract.
 - [ ] **Masked for anonymous review** — no author names, affiliations, acknowledgments, or
       self-identifying phrasing in the manuscript; provide a separate title page. You may self-cite
       without naming yourself. (Confirm current masking format on the live page.)
@@ -30,7 +30,7 @@ tools, and details change, especially across the 2026 editorial transition.
 - [ ] **Research-ethics statement** — IRB/ethics approval, consent, anonymization, and (if used) scraping
       method/ToS handled per `newms-transparency-and-data`.
 - [ ] **Data-availability statement** — what is/ isn't shared and why, consistent with consent/ToS.
-- [ ] **ORCID** for the corresponding author, if required. (待核实 on the live page.)
+- [ ] **ORCID ID** for the submitting author; coauthors should link ORCID IDs before acceptance.
 - [ ] **Exhibits anonymized** — screenshots redacted, quotes reverse-search-resistant.
 - [ ] **Figures/tables** legible, self-contained, and counted toward the word target.
 
@@ -44,12 +44,11 @@ tools, and details change, especially across the 2026 editorial transition.
 | Supplementary (if any) | clearly limited; not a dumping ground to evade the word target |
 | Cover letter (if invited) | brief fit statement; not required to argue the whole case |
 
-## Volatile specifics to verify (do not trust memory)
+## Volatile specifics to verify
 
-The exact word target, abstract bounds, keyword minimum, masking format, ORCID requirement, APC/open-
-access options, and the current editor(s) all change — and the SAGE author page may return HTTP 403 to
-automated fetch. Confirm each on the live guidelines and mark anything you cannot verify **待核实**.
-See [`../../resources/official-source-map.md`](../../resources/official-source-map.md).
+Confirm Sage Track upload fields, optional open-access fee details, and the current masthead on the
+live SAGE pages. See [`../../resources/official-source-map.md`](../../resources/official-source-map.md)
+for the 2026-06-20 official-source baseline.
 
 ## Worked micro-example (illustrative)
 
@@ -80,12 +79,12 @@ Preflight on a digital-ethnography paper:
 ## Output format
 
 ```
-【Length】words incl. notes/refs/tables vs. ~8,000 target [count]
-【Abstract / keywords】~150 words / ≥4 keywords? [Y/N]
+【Length】words incl. notes/refs/tables vs. 8,000 target [count]
+【Abstract / keywords】150 words / ≥4 keywords? [Y/N]
 【Masked】no identifying info; separate title page? [Y/N]
 【Referencing】SAGE Harvard, consistent? [Y/N]
 【Ethics + data statements】present and accurate? [Y/N]
-【Verified on live page】volatile specifics checked / 待核实 noted? [Y/N]
+【Live check】Sage Track fields, OA choices, and masthead checked? [Y/N]
 【Next】newms-rebuttal (after a decision)
 ```
 

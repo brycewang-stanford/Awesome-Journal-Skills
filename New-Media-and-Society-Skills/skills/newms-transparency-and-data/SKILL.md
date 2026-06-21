@@ -7,10 +7,9 @@ description: Use when handling research ethics, transparency, and data sharing f
 
 NM&S studies people through digital media, so **research ethics for online and platform data** is
 central, and **transparency** is calibrated to the method, not to a one-size mandate. NM&S follows
-SAGE/COPE publishing ethics; it is not (as at some quantitative journals) a mandatory editor-verified
-replication deposit. The posture: clear ethics, anonymization that actually protects people, and
-documentation that lets a stranger judge your claims. **Confirm the current data-availability and
-ethics policy on the live guidelines** — this skill does not assert a step the policy doesn't state.
+SAGE/COPE publishing ethics and asks authors to handle ethics, consent, conflicts, funding, and data
+availability deliberately. The posture: clear ethics, anonymization that actually protects people, and
+documentation that lets a stranger judge your claims without overstating a replication requirement.
 
 ## When to trigger
 
@@ -41,7 +40,7 @@ ethics policy on the live guidelines** — this skill does not assert a step the
 | Computational / scraped | code + seeds, derived measures | raw API/ToS-restricted data | collection log, validation, model versions |
 | Any quantitative survey | data + code where ethical | identifiable records | codebook + master script + pinned versions |
 
-## Good practice (do this even though NM&S doesn't pre-verify)
+## Good practice
 
 - **Document provenance and construction**: a README/codebook describing sources, collection window,
   sampling, variable/category definitions, and analysis steps — so the work is checkable.
@@ -73,8 +72,9 @@ Transparency statement: "Coding scheme, anonymized excerpts, and analysis code a
 
 - **Public ≠ consented.** The ethics question is harm and reasonable expectations, not mere availability.
 - **Anonymize against reverse-search.** Verbatim posts and visible handles can re-identify users — paraphrase.
-- **Transparency, not a replication gate.** NM&S follows SAGE/COPE ethics and data-availability norms; do
-  not assert a mandatory editor-run replication check the policy doesn't state — confirm current wording.
+- **Transparency, not a replication gate.** SAGE asks authors to include a data-availability statement
+  and encourages sharing data where ethical/legal constraints allow; do not promise raw platform data
+  that cannot be shared.
 
 ## Anti-patterns
 
@@ -91,7 +91,7 @@ Transparency statement: "Coding scheme, anonymized excerpts, and analysis code a
 【Anonymization】reverse-search-resistant; screenshots redacted? [Y/N]
 【Data collection】API/scraping + ToS disclosed? [Y/N]
 【Sharing posture】what can be shared (code/codebook/excerpts) and what cannot, and why
-【Policy check】current NM&S ethics/data-availability policy confirmed? [Y/N/待核实]
+【Policy check】ethics and data-availability statement aligned with current SAGE guidance? [Y/N]
 【Next】newms-review-process
 ```
 

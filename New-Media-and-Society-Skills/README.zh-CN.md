@@ -33,16 +33,15 @@ NM&S 的约束不同于单一学科期刊或定量传播学期刊：
 | 范围       | **数字媒体、互联网与社会——跨学科**                                    | 文章须超越单一平台、单一学科                                |
 | 看重       | 可迁移的概念/机制 + 跨学科意义                                        | 没有可迁移想法的平台案例研究不对路                          |
 | 方法       | 质性、批判/理论、内容/话语、计算、混合——各按自身标准评判              | 不要把回归模板硬套到阐释性研究上                            |
-| 出版方     | **SAGE**（1999 年起；ISSN 1461-4448 / 1461-7315）                     | 经 **Sage Track**（ScholarOne）投稿，`mc.manuscriptcentral.com/nms` |
-| 评审模式   | **严格匿名（双向匿名）**——匿名稿件 + 单独标题页                       | 可自引，但不得以可识别身份的措辞自引                        |
+| 出版方     | **SAGE**（ISSN 1461-4448 / 1461-7315）                                | 经 **Sage Track** 投稿，`mc.manuscriptcentral.com/nms` |
+| 评审模式   | **匿名化投稿工作流**——匿名稿件 + 单独标题页                           | 以 SAGE 详细匿名化说明准备文件                              |
 | 篇幅       | **约 8000 词目标**——*含正文、注释、参考文献、表格与图表的全部文字*    | 参考文献与表格计入；超出数百词可能不予送审                  |
-| 摘要       | **约 150 词**，非结构化；**关键词 ≥ 4 个**                            | 简明陈述目的、方法与发现                                    |
+| 摘要       | **150 词**，非结构化；**关键词 ≥ 4 个**                               | 简明陈述目的、方法与发现                                    |
 | 引用体例   | **SAGE Harvard**（著者—出版年）                                       | 特定的稿件引用格式                                          |
-| 伦理与数据 | **SAGE/COPE** 伦理与数据可得性规范；**在线/平台数据伦理**             | 知情同意、匿名化、抓取与服务条款很重要——并非强制可复现性核验 |
+| 伦理与数据 | **SAGE/COPE** 伦理 + 数据可得性声明；**在线/平台数据伦理**            | 知情同意、匿名化、抓取与服务条款很重要                      |
 
-易变细节（现任主编与 2026 年主编换届、确切字数/摘要上限、ORCID、APC、匿名化格式）会变化——未直接核实者在
-[`resources/official-source-map.md`](resources/official-source-map.md) 中标注 **待核实**。**请以官网为准**
-（官网可能屏蔽自动化抓取）。
+> **官方依据核验于 2026-06-20** —— 事实锚定于 SAGE 的 NM&S 作者指南、期刊主页与编辑委员会页面。
+> Sage Track 实时提示、主编换届细节和可选开放获取费用会变化，上传或接收后付款前请复核官网。
 
 ---
 
@@ -125,7 +124,7 @@ newms-rebuttal
 ### 资源
 
 - [`resources/external_tools.md`](resources/external_tools.md) — 数字媒体数据源 + R / Python / CAQDAS / 内容分析 / 计算工具（按方法）
-- [`resources/official-source-map.md`](resources/official-source-map.md) — 本技能包每条事实背后的官方 SAGE / NM&S 链接，附 待核实 标注
+- [`resources/official-source-map.md`](resources/official-source-map.md) — 本技能包每条事实背后的官方 SAGE / NM&S 链接与实时复核守则
 - [`resources/worked-examples/01-introduction.md`](resources/worked-examples/01-introduction.md) — 一篇 NM&S 引言的 改前→改后（虚构，房屋风格）
 - [`resources/exemplars/library.md`](resources/exemplars/library.md) — 经网络核实的真实 NM&S 论文，按方法 × 主题排列，并附姊妹刊防混淆提示
 
@@ -135,7 +134,7 @@ newms-rebuttal
 
 - 不替你写出可直接投稿的稿件
 - 不模拟任何特定主编或审稿人的口味（注意 2026 年主编换届）
-- 不断言易变元数据（现任主编、确切上限、ORCID/APC、匿名化格式）——请以官网为准；未核实者标注 待核实
+- 不把易变元数据写死为永久规则；Sage Track 提示、主编变更和可选开放获取费用须以官网为准
 - 不替你判断选题是否具有广泛的跨学科意义——这是研究者自己的判断
 
 ---

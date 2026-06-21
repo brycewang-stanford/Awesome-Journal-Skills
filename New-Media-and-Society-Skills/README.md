@@ -24,7 +24,7 @@ This repository is opinionated. It is **not** a generic social-science writing t
 that reaches new media and society *broadly*, a portable concept rather than a platform report, a design
 defended on its own methodological terms, careful **research ethics for online and platform data**, a
 properly **masked** manuscript inside the **~8,000-word target**, and submission through **Sage Track**
-under **strictly anonymous (double-anonymized)** review.
+under an anonymized peer-review workflow.
 
 ---
 
@@ -37,17 +37,16 @@ NM&S's constraints differ from a single-field or a quantitative-comm journal:
 | Scope             | **Digital media, the internet, and society — interdisciplinary**                       | The paper must reach beyond one platform and one field            |
 | Premium on        | A portable concept/mechanism + interdisciplinary significance                          | A platform case study with no travelling idea is off-fit          |
 | Methods           | Qualitative, critical/theoretical, content/discourse, computational, mixed — judged on own terms | Don't force a regression template onto interpretive work |
-| Publisher         | **SAGE** (since 1999; ISSN 1461-4448 / 1461-7315)                                      | Submitted via **Sage Track** (ScholarOne), `mc.manuscriptcentral.com/nms` |
-| Review model      | **Strictly anonymous (double-anonymized)** — masked manuscript + separate title page    | You *may* self-cite, just not identifyingly                        |
+| Publisher         | **SAGE** (ISSN 1461-4448 / 1461-7315)                                                   | Submitted via **Sage Track**, `mc.manuscriptcentral.com/nms` |
+| Review model      | **Anonymized workflow** — masked manuscript + separate title page                       | Follow the detailed SAGE anonymization instructions                |
 | Length            | **~8,000-word target** — *all text incl. notes, references, tables, and charts*        | References and tables count; a few hundred over may mean no review |
-| Abstract          | **~150 words**, unstructured; **≥4 keywords**                                          | Concise purpose + approach + findings                              |
+| Abstract          | **150 words**, unstructured; **≥4 keywords**                                           | Concise purpose + approach + findings                              |
 | Referencing       | **SAGE Harvard** (author-date)                                                         | Specific house citation style                                     |
-| Ethics & data     | **SAGE/COPE** ethics + data-availability norms; **online/platform-data ethics**        | Consent, anonymization, scraping & ToS matter — not a verified replication gate |
+| Ethics & data     | **SAGE/COPE** ethics + data-availability statement; **online/platform-data ethics**    | Consent, anonymization, scraping & ToS matter                     |
 
-Volatile specifics (current editors and the 2026 editorial transition, exact word/abstract caps, ORCID,
-APC, masking format) change — items not directly confirmed are marked **待核实** in
-[`resources/official-source-map.md`](resources/official-source-map.md). **Verify on the official journal
-page** (which may block automated tools).
+> **Official basis checked 2026-06-20** — facts are anchored to SAGE's NM&S author instructions,
+> journal home, and editorial-board pages. Live Sage Track prompts, editor transition details, and
+> optional open-access fees can change; verify those at upload or acceptance.
 
 ---
 
@@ -130,7 +129,7 @@ newms-rebuttal
 ### Resources
 
 - [`resources/external_tools.md`](resources/external_tools.md) — digital-media data sources + R / Python / CAQDAS / content-analysis / computational tooling by method
-- [`resources/official-source-map.md`](resources/official-source-map.md) — official SAGE / NM&S URLs behind every fact, with 待核实 markers
+- [`resources/official-source-map.md`](resources/official-source-map.md) — official SAGE / NM&S URLs behind every fact and live-check guardrail
 - [`resources/worked-examples/01-introduction.md`](resources/worked-examples/01-introduction.md) — a before→after NM&S introduction (fictional, house style)
 - [`resources/exemplars/library.md`](resources/exemplars/library.md) — real, web-verified NM&S papers by method × theme, with a sibling-journal guard
 
@@ -140,7 +139,7 @@ newms-rebuttal
 
 - It does not write a submittable manuscript for you
 - It does not simulate any specific editor's or reviewer's taste (note the 2026 editorial transition)
-- It does not assert volatile metadata (current editors, exact caps, ORCID/APC, masking format) — verify on the official page; unverified items are marked 待核实
+- It does not hard-code volatile metadata beyond sourced facts; verify Sage Track prompts, editor changes, and optional OA charges on live SAGE pages
 - It does not decide whether your question is of broad interdisciplinary significance — that is the researcher's call
 
 ---

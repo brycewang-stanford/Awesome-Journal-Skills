@@ -1,69 +1,101 @@
 # NM&S Official Source Map
 
-Primary and authoritative sources behind the NM&S-specific facts injected into this skill pack.
-Access date for all entries: **2026-06-20**. Re-verify volatile items (current editors and the 2026
-editorial transition, processing/APC fees, exact word/abstract caps, masking format, ORCID) on the
-official page before relying on them — journal pages change, and the SAGE author-instructions page
-returned **HTTP 403** to automated fetch at access time (facts below come from the official SAGE
-submission-guidelines PDF, the journal's editor call, Wikipedia, and web-search renderings).
+Primary and authoritative sources behind the New Media & Society (NM&S)-specific facts injected into
+this skill pack. Access date for all entries: **2026-06-20**. Re-check volatile items (current editor
+transition, open-access fee amount, submission-system prompts, and production-file details) on the live
+SAGE pages before using this pack for a live submission.
 
-## Official submission & journal pages
+## Official journal, scope & masthead
 
-- **https://journals.sagepub.com/author-instructions/nms** — NM&S Submission Guidelines (SAGE).
-  Verifies: **unstructured abstract of ~150 words**; **at least 4 keywords**; **SAGE Harvard**
-  referencing; submission via **Sage Track** (ScholarOne Manuscript Central) at
-  `mc.manuscriptcentral.com/nms`; **strictly anonymous** peer review (reviewer name withheld from author,
-  author name from reviewer). (Page returned HTTP 403 to automated fetch; confirmed via the SAGE PDF
-  below + web renderings.)
-- **https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-new-media-society_-sage-journals.pdf**
-  — Official SAGE NM&S submission-guidelines PDF (same content as the author-instructions page);
-  references **COPE** publication-ethics and **ICMJE** guidelines, **SAGE Harvard** referencing, the
-  `mc.manuscriptcentral.com/nms` portal, and SAGE open-access ("SAGE Choice") options.
-- **https://journals.sagepub.com/home/nms** — NM&S journal home (SAGE). Verifies: publisher = **SAGE**;
-  scope = digital media, the internet, and society; interdisciplinary, social sciences and humanities.
-- **https://en.wikipedia.org/wiki/New_Media_%26_Society** — Verifies: founded **1999**; published by
-  **SAGE**; ISSN **1461-4448** (print) / **1461-7315** (web); ~**8 issues per year**; editor-in-chief
-  **Steve Jones** (University of Illinois at Chicago); covers sociology, media, and communication studies.
+- **https://journals.sagepub.com/home/nms** — NM&S SAGE journal home. Verifies: NM&S engages in
+  critical discussions of key issues arising from the scale and speed of new media development; it draws
+  on a wide range of disciplinary perspectives and both theoretical and empirical research; the journal
+  is a COPE member; print ISSN **1461-4448** and online ISSN **1461-7315**; SAGE reports Impact Factor
+  **4.6** and 5-year Impact Factor **7.0** on the current page; the page lists recent 2026 OnlineFirst
+  articles and provides the official submission-guidelines and editorial-board routes.
+- **https://journals.sagepub.com/editorial-board/nms** — SAGE editorial-board page. Verifies current
+  public masthead: **Steve Jones**, University of Illinois at Chicago, USA, as Editor; Associate Editors
+  **Despina Chronaki**, **Blake Hallinan**, **Marko Skoric**, **Harsh Taneja**, and **Panayiota Tsatsou**;
+  previous editors and international editorial board. Re-check this page because the journal home also
+  carries a 2026 editor-search notice.
+- **https://journals.sagepub.com/home/nms** — SAGE homepage editor-search card. Verifies the public
+  2026 call: NM&S was searching for an editor to join the team at the end of May, with application
+  deadline **2026-05-08**. Until the editorial-board page changes, this pack treats **Steve Jones** as
+  the current public contact/editor and flags editor-specific advice as live-check material.
 
-## Word target & review model (web-search rendering of the guidelines)
+## Submission route, fees, manuscript format & file set
 
-- **~8,000-word target**: the journal states a target of **8,000 words** covering **all text including
-  notes, references, tables, and charts**, and that submissions more than a few hundred words beyond the
-  target will not be considered. (From a web-search rendering of the SAGE guidelines; the SAGE page 403s
-  to automated fetch. **待核实** the exact current figure on the live page.)
-- **Strictly anonymous (double-anonymized) review**: the reviewer's name is withheld from the author and
-  the author's name from the reviewer; manuscripts must be masked. **待核实** the precise current masking
-  format on the live page.
+- **https://journals.sagepub.com/author-instructions/nms** — SAGE "Submission Guidelines" page.
+  Verifies:
+  - **Submission route:** submit manuscript through **Sage Track** at `mc.manuscriptcentral.com/nms`;
+    authors should check whether they already have a Sage Track account.
+  - **Access / preprints / identity row:** key information states **Subscription** access, **Accepts
+    preprints? Yes**, and identity transparency **Single anonymized**.
+  - **Fees:** there are **no fees payable to submit or publish** in NM&S; optional open access is
+    available for a fee through Sage Choice/Open Access agreements; color is free online, with print
+    color charges determined at production if requested.
+  - **Scope:** NM&S welcomes theoretical and empirical contributions about global/local relationships
+    between media and social change; individual/social/cultural/political dimensions of new media;
+    contemporary and historical developments; implications, impacts, determinants, and obstacles of
+    media change; relationships among theory, policy, and practice; and multidisciplinary work across
+    communication, media/cultural studies, sociology, geography, anthropology, economics, political
+    science, and information sciences.
+  - **Article types:** research articles, review articles, and reviews/book-review material are listed
+    in the author guidance.
+  - **Word target:** **8,000 words**, all text including notes, references, tables, charts, and similar
+    material; submissions more than a few hundred words beyond the target will not be considered.
+  - **Accepted files:** manuscript, title page, and tables should be Word files; tables should be
+    editable; no template is required, but headings and sections should be clear.
+  - **Abstract and keywords:** unstructured **150-word abstract** between title and main text; minimum
+    **4 keywords** after the abstract.
+  - **Title page/anonymization:** to ensure fair and anonymous peer review, the main manuscript must be
+    fully anonymized; author names, identifying information, headers/footers, file names, funder/ethics
+    identifiers, acknowledgments, funding, conflict, ethical approval, informed-consent statements,
+    data-availability statement, and other identifying material go on the title page when needed; the
+    title page is not sent to peer reviewers.
+  - **Statements and declarations:** submitted articles need a Statements and Declarations section after
+    acknowledgments/author contributions where applicable; headings include ethical considerations,
+    consent to participate, consent for publication, declaration of conflicting interest, funding, and
+    data availability. If a declaration is not applicable, the heading should still state that.
+  - **Ethics:** studies involving human participants, human data, or human tissue must state committee
+    approval or waiver with full committee/institution name and approval number where applicable.
+  - **Data:** subject to ethical and legal considerations, authors are encouraged to share research data
+    in a relevant public repository, include a data-availability statement linking to shared data or
+    explaining why sharing is impossible, and cite shared data.
+  - **Reference style:** the journal follows **SAGE Harvard**; every in-text citation must have a
+    matching reference-list entry and vice versa.
+  - **Supplemental material:** NM&S can host datasets, podcasts, videos, images, and similar materials
+    online alongside the article; survey/panel studies should disclose sampling design, sample size,
+    modeling/weighting assumptions, question wording/order, recruitment/retention practices, respondent
+    age/gender if collected, attrition consequences, and weighted-sample assumptions when relevant.
+  - **Preprints:** the journal will consider submissions posted on preprint servers; authors should
+    enter the preprint DOI and inform the editorial office; no updated version should be posted while
+    the manuscript is under peer review; after acceptance, the preprint should link to the final
+    published version.
+  - **Files:** upload cover letter, title page, anonymized manuscript, figures/images, and supplemental
+    material where relevant; figures must be numbered consecutively; figure resolution is **300 dpi**;
+    authors are responsible for permissions to reproduce copyrighted material.
+  - **Other submission metadata:** ORCID ID of the submitting author; full author list and affiliations;
+    keywords; number of figures, tables, and words; funder information; declaration of conflicting
+    interest; preprint DOI where applicable.
+  - **Peer review:** the page summary labels identity transparency **Single-anonymised**, while the same
+    guidance also states the journal uses a rigorous **double-anonymized** policy concealing author and
+    reviewer identities. Two independent reviews are required for a Revise or Accept decision; reviewers
+    are assigned by the journal, so author recommendations are not accepted; out-of-scope or unsuitable
+    manuscripts can be desk rejected before peer review.
+  - **Contact:** the editorial office contact section lists **Steve Jones**, Department of Communication,
+    University of Illinois at Chicago.
 
-## Editors, ownership, transition
+## Ethics, access & submission guardrails encoded in skills
 
-- **Editor-in-chief: Steve Jones**, University of Illinois at Chicago (long-standing editor). Per the
-  journal's **2026 call for 1-2 new editors** (application deadline May 8, 2026; new editor(s) begin
-  **June 2026** with a transition starting late May), editorial leadership is **changing in 2026** —
-  treat editor-specific preferences as volatile. 待核实 the current masthead on the live ASR/SAGE page.
-  Source: SAGE/journal editor call (web-search rendering, e.g. globalsouthopportunities.com posting, 2026).
-- **High submission volume**: the editor call describes roughly **300-400 manuscripts per month** — a
-  basis for the "desk rejection is common; fit is the first gate" guidance. (Web-search rendering;
-  approximate; 待核实.)
-- **https://comm.uic.edu/** — UIC Department of Communication pages confirm Steve Jones as NM&S editor.
-
-## Research ethics & data
-
-- NM&S follows **SAGE/COPE** publication ethics and **ICMJE** standards (per the SAGE PDF), with SAGE's
-  standard **data-availability** expectations. This pack treats transparency as a **norm calibrated to
-  method** plus **research ethics for online/platform data** (consent, anonymization, scraping, ToS) —
-  **not** a mandatory editor-verified replication deposit. 待核实 any current mandatory
-  data-availability or replication requirement on the live page.
-
-## UNVERIFIED / 待核实 items
-
-- **Exact word target (8,000) and the "few hundred over" rule**: from a web-search rendering of the
-  guidelines; the SAGE page (403) should be checked for the current wording. 待核实.
-- **Abstract bound (~150 words) and keyword minimum (≥4)**: from web-search rendering; confirm current
-  wording on the live page. 待核实.
-- **Current editor(s) / exact masthead after the 2026 transition**: leadership changes in June 2026;
-  confirm the current editor(s) on the live NM&S/SAGE page. 待核实.
-- **Masking format, ORCID requirement, APC/open-access amounts, article types beyond research articles**:
-  not confirmed verbatim from an accessible official page. 待核实.
-- **Exact peer-review terminology ("double-anonymized" vs. "anonymous")**: the guidelines describe a
-  strictly anonymous process (mutual withholding); confirm the journal's exact current label. 待核实.
+- The pack instructs authors to prepare a fully anonymized main manuscript and separate title page
+  because the detailed SAGE file instructions require that workflow, despite the key-information label
+  using "Single anonymized."
+- The pack encodes SAGE/COPE and ICMJE ethics, with NM&S-specific attention to online/platform data:
+  consent, public/private context, reverse-search risk, scraping/API terms, vulnerable users, and
+  screenshot or quote anonymization.
+- The pack treats data sharing as an encouraged SAGE research-data practice subject to ethical and legal
+  constraints, not as an editor-run replication-verification gate.
+- The pack does not encode a fixed Sage Choice APC amount. Optional open-access costs depend on SAGE's
+  current Sage Choice/Open Access agreement pages and the corresponding author's acceptance-stage
+  eligibility.

@@ -14,7 +14,7 @@ vendored here.
 | --- | --- |
 | [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | See a before→after rewrite of a digital-media paper introduction in NM&S house style: question + a portable concept (the mechanism) + the method that adjudicates the rival reading + broad interdisciplinary stakes. Illustrative fictional paper; no real-paper or policy claims. |
 | [`exemplars/library.md`](exemplars/library.md) | Benchmark against **real, web-verified NM&S papers** organized by method × theme — with a sibling-confusion guard (NM&S ≠ Journal of Communication / Communication Research / Information, Communication & Society / Social Media + Society). Conceptual positioning only — no fabricated numbers. |
-| [`official-source-map.md`](official-source-map.md) | **NM&S-specific policy & facts:** SAGE ownership, ~8,000-word target, ~150-word abstract, ≥4 keywords, anonymous review, SAGE Harvard referencing, Sage Track portal, editor/transition, and an honest "still 待核实" list. The authoritative pack source. |
+| [`official-source-map.md`](official-source-map.md) | **NM&S-specific policy & facts:** SAGE ownership, 8,000-word target, 150-word abstract, ≥4 keywords, anonymized workflow, SAGE Harvard referencing, Sage Track portal, editor/transition watch, preprints, data-availability statement, and live-check guardrails. The authoritative pack source. |
 | [`external_tools.md`](external_tools.md) | Tools by method: digital-media data sources, CAQDAS and content-analysis software, computational/network/text-as-data libraries, reference management, and reproducibility tooling. |
 
 ## Why there is no `code/` kit here

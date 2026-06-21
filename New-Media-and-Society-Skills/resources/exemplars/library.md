@@ -2,8 +2,8 @@
 
 > **Verified via web search, access date 2026-06-20.** Every paper below was checked to confirm it
 > actually appeared in **New Media & Society** (SAGE), with author, year, and volume/issue, against the
-> SAGE article page (`journals.sagepub.com/doi/...`). Papers that could not be fully verified as NM&S
-> were **omitted**, and several well-known digital-media works that turned out to be in *sibling* venues
+> SAGE article page (`journals.sagepub.com/doi/...`). Ambiguous candidate papers were **omitted**, and
+> several well-known digital-media works that turned out to be in *sibling* venues
 > (or in edited books) are listed in the "do-not-misattribute" section below as guardrails. This is a
 > deliberately short, clean, verified list rather than a long, uncertain one.
 >
@@ -14,7 +14,7 @@
 >
 > **Use principle (zero hallucination):** this file gives **conceptual positioning only**. It does
 > **not** reproduce or invent findings, effect sizes, or quotes — read the original on SAGE before
-> citing anything. For NM&S scope, the ~8,000-word target, anonymous review, and SAGE Harvard style, see
+> citing anything. For NM&S scope, the 8,000-word target, anonymized workflow, and SAGE Harvard style, see
 > [`../official-source-map.md`](../official-source-map.md).
 
 ---
