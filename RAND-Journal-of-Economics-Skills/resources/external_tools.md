@@ -71,14 +71,14 @@ before use, and confirm volatile process facts on rje.org.
 
 ## 6. Writing & references
 - Reference managers: Zotero, BibTeX/BibLaTeX, EndNote — set to **author-date** style with **no page numbers in in-text cites** and **no issue numbers** in journal references (RJE Style Guide)
-- The Style Guide directs authors to the **Chicago Manual of Style** (edition 待核实)
+- The Style Guide directs authors to the **Chicago Manual of Style** (the page links to the **18th edition**)
 - Typesetting: **Word or LaTeX** accepted at submission; observe house usage rules (because/as not *since*; whereas/although not *while*; "article" not "paper")
 
 ## 7. Process & portal
 | Item | Note |
 |------|------|
 | Submission portal | **Wiley Research Exchange** — `wiley.atyponrex.com/journal/RAND` (mandatory since April 23, 2025; replaced Editorial Express / e-submit) |
-| Submission fee | **$100 per article** (Wiley guidelines); **non-refundable as of January 1, 2026** — verify exact amount, 待核实 |
+| Submission fee | **Per-article fee** (Wiley guidelines); **non-refundable as of January 1, 2026** — exact amount 待核实 (snippets disagree, $100 vs $200; Wiley page HTTP 402), verify in portal |
 | Page caps | Main text <=40 pp; appendices+refs <=10 pp; total <=50 pp; double-spaced |
 | Abstract | <=100 words |
 | Review | Editor screen → two anonymous referees → handling Editor |

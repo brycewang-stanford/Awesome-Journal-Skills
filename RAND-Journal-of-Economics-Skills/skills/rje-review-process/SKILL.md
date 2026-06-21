@@ -15,7 +15,7 @@ description: Use to understand and plan around The RAND Journal of Economics (RJ
 
 RJE uses an **editor-screened, then two-anonymous-referee** model (source: rje.org/submissions.html):
 
-1. **Editor screen.** Each manuscript is first assigned to an Editor on the Board of Editors who **quickly reviews it and may desk-reject** before any refereeing. The current **Editor-in-Chief is Craig A. Bond (RAND)**; handling Editors include IO specialists such as Gary Biglaiser, Ying Fan, Alessandro Gavazza, Jean-François Houde, Julian Wright, and Jidong Zhou. Because the front screen is explicit and fast, the **first page of the article and the cover letter must make the IO contribution legible immediately**.
+1. **Editor screen.** Each manuscript is first assigned to an Editor on the Board of Editors who **quickly reviews it and may desk-reject** before any refereeing. The current **Editor-in-Chief is Craig Bond (RAND)**; handling Editors include IO specialists such as Gary Biglaiser, Ying Fan, Alessandro Gavazza, Jean-François Houde, Julian Wright, and Jidong Zhou. Because the front screen is explicit and fast, the **first page of the article and the cover letter must make the IO contribution legible immediately**.
 2. **Two anonymous referees.** Manuscripts that survive the screen go to **two referees who are anonymous to authors**. (Whether author identity is concealed from referees — single vs double blind — is **待核实**; do not assume double-blind.)
 3. **Handling Editor decision.** The handling Editor reads the reports and the article and issues the decision (reject / R&R / rare accept).
 

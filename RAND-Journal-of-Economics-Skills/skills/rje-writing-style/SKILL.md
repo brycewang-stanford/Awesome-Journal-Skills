@@ -11,9 +11,9 @@ description: Use to make a manuscript conform to The RAND Journal of Economics (
 - Converting a draft from a numbered/footnote citation style to RJE author-date
 - Catching the journal's specific usage rules that copy editors enforce
 
-## The RJE Style Guide (verified 2026-06-01)
+## The RJE Style Guide (verified 2026-06-20)
 
-RJE maintains its own Style Guide (rje.org/styleguide.html), which directs authors to the **Chicago Manual of Style** (edition 待核实). Its load-bearing rules:
+RJE maintains its own Style Guide (rje.org/styleguide.html), which directs authors to the **Chicago Manual of Style** (the page links to the **18th edition**). Its load-bearing rules:
 
 ### Citations and references
 - **In-text:** author-date, **name and year only, no page numbers** — e.g., "(Jones, 1991)" or "Jones (1991)".
