@@ -12,7 +12,7 @@ empirical replication kit.
 | [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | Fictional before/after review introduction in the ARSoc voice |
 | [`exemplars/library.md`](exemplars/library.md) | Real-paper slots with source discipline and sibling-journal guardrails |
 
-This pack ships **no `code/` directory**: ARSoc reviews report no primary estimates, so there is no
+This pack **does not vendor a `code/` kit**: ARSoc reviews report no primary estimates, so there is no
 empirical replication kit to vendor. The transparency obligation instead falls on the **coverage
 account** and on **any meta-analysis the review itself computes** — see
 [`../skills/arsoc-transparency-and-reproducibility/SKILL.md`](../skills/arsoc-transparency-and-reproducibility/SKILL.md).

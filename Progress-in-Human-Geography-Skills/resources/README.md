@@ -12,7 +12,7 @@ source honesty rather than an empirical replication kit.
 | [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | Fictional before/after review introduction in the PiHG voice |
 | [`exemplars/library.md`](exemplars/library.md) | Real-paper slots with source discipline and sibling-journal guardrails |
 
-This pack ships **no `code/` directory**: a PiHG review reports no primary estimates, so there is no
+This pack **does not vendor a `code/` kit**: a PiHG review reports no primary estimates, so there is no
 empirical replication kit to vendor. The transparency obligation instead falls on the **scholarly
 apparatus, positionality, and coverage account** — see
 [`../skills/proghg-transparency-and-reproducibility/SKILL.md`](../skills/proghg-transparency-and-reproducibility/SKILL.md).

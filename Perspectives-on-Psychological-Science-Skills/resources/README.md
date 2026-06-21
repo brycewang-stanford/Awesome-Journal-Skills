@@ -2,7 +2,7 @@
 
 This directory supports the `ppsych-*` skills with source-backed references for a broad integrative
 review, theoretical statement, or meta-science piece. PoPS reports no new empirical study of its own,
-so there is **no empirical code kit** in this pack; reproducibility tooling for meta-science lives in
+so this pack **does not vendor a `code/` kit**; reproducibility tooling for meta-science lives in
 `external_tools.md`.
 
 | Resource | Purpose |

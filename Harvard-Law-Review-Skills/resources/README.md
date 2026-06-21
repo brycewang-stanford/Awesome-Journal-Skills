@@ -1,7 +1,7 @@
 # Harvard Law Review — Resources
 
 Capability layer for the **Harvard Law Review** skill pack. Legal scholarship is **not** an empirical
-data pipeline, so this pack ships **no `code/` directory**: the value is in legal research databases,
+data pipeline, so this pack **does not vendor a `code/` kit**: the value is in legal research databases,
 the citation apparatus, the placement ecosystem, and exemplar awareness. The cross-cutting empirical
 material in the shared hub is referenced below only as **background** for the rare empirical-legal piece.
 

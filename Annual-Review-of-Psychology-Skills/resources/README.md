@@ -10,7 +10,7 @@ reproducibility scaffolding for **invited review articles** in the *Annual Revie
 | [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | Fictional before/after introduction in the ARPsych voice |
 | [`exemplars/library.md`](exemplars/library.md) | Real ARPsych articles (web-verified) and sibling-journal guardrails |
 
-This pack does **not** ship a code kit. A pure review reports no new data; the relevant
+This pack **does not vendor a `code/` kit**. A pure review reports no new data; the relevant
 reproducibility obligation is documenting the literature search and, where applicable, an
 embedded meta-analysis (see [`../skills/arpsych-transparency-and-reproducibility/SKILL.md`](../skills/arpsych-transparency-and-reproducibility/SKILL.md)).
 
