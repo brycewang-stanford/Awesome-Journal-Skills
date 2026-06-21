@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "perspectives-on-psychological-science-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Perspectives on Psychological Science manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "perspectives-on-psychological-science-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Perspectives on Psychological Science manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/perspectives-on-psychological-science-skills",
+      "repository": "https://github.com/brycewang-stanford/perspectives-on-psychological-science-skills",
+      "keywords": [
+        "ppsych",
+        "perspectives-on-psychological-science",
+        "integrative-review",
+        "meta-science",
+        "open-science",
+        "psychology",
+        "review-article"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/ppsych-workflow",
+        "skills/ppsych-topic-selection",
+        "skills/ppsych-proposal-and-commissioning",
+        "skills/ppsych-literature-synthesis",
+        "skills/ppsych-organizing-framework",
+        "skills/ppsych-comprehensiveness-and-balance",
+        "skills/ppsych-tables-figures",
+        "skills/ppsych-writing-style",
+        "skills/ppsych-transparency-and-reproducibility",
+        "skills/ppsych-editor-strategy",
+        "skills/ppsych-submission",
+        "skills/ppsych-revision"
+      ]
+    }
+  ]
+}

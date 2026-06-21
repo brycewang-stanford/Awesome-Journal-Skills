@@ -1,0 +1,24 @@
+{
+  "name": "annual-review-of-psychology-skills",
+  "description": "Agent skill stack for invited review articles in the Annual Review of Psychology (ARPsych). Twelve role skills cover topic selection, the Editorial-Committee invitation cycle, comprehensive literature synthesis, the organizing framework, even-handed coverage, the authoritative-yet-accessible house voice, transparency for any meta-analysis, and the Annual Reviews production/revision loop with source-backed guardrails.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/annual-review-of-psychology-skills",
+  "repository": "https://github.com/brycewang-stanford/annual-review-of-psychology-skills",
+  "keywords": [
+    "arpsych",
+    "annual-review-of-psychology",
+    "annual-reviews",
+    "invited-review",
+    "literature-synthesis",
+    "psychology",
+    "academic-writing",
+    "journal-skills",
+    "organizing-framework",
+    "subscribe-to-open"
+  ]
+}

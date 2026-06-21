@@ -1,0 +1,25 @@
+{
+  "name": "review-of-educational-research-skills",
+  "description": "Agent skill stack for comprehensive, critical, integrative review articles targeted at the Review of Educational Research (RER) — the American Educational Research Association's (AERA) flagship review journal, published by SAGE (founded 1931), which publishes systematic reviews, meta-analyses, and conceptual/critical syntheses of research bearing on education and does not publish original empirical research unless it is incorporated in a broader integrative review. Unlike an invited Annual Review, RER reviews are submitted and peer-reviewed, so the rigor of the review itself — a documented systematic search with a PRISMA flow, transparent inclusion/exclusion, reliable double-coding, defensible meta-analytic models, risk-of-bias and sensitivity analysis, and an organizing framework that advances theory or policy rather than tallying studies — is the contribution. The stack replaces primary-research identification and replication craft with review craft: scoping a synthesis-worthy question, a protocol and (where applicable) PROSPERO/PRISMA-P preregistration, systematic search and screening to a PRISMA flow, the conceptual organizing framework, comprehensiveness with risk-of-bias and sensitivity analysis, PRISMA/MARS-compliant transparency with open coding and reproducible meta-analysis, RER's masked APA-7 house style and 150-word abstract, working with the AERA/SAGE editors and reviewers, the Manuscript Central submission preflight, and revision. Bilingual en / zh-CN docs. Process facts (editors, fees, portal, exact limits) are marked volatile and deferred to the official AERA/SAGE pages.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/review-of-educational-research-skills",
+  "repository": "https://github.com/brycewang-stanford/review-of-educational-research-skills",
+  "keywords": [
+    "review-of-educational-research",
+    "rer",
+    "aera",
+    "systematic-review",
+    "meta-analysis",
+    "prisma",
+    "integrative-review",
+    "education-research",
+    "research-synthesis",
+    "risk-of-bias",
+    "academic-writing"
+  ]
+}

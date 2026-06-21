@@ -1,0 +1,26 @@
+{
+  "name": "perspectives-on-psychological-science-skills",
+  "description": "Agent skill stack for manuscripts targeted at Perspectives on Psychological Science (PoPS). Twelve role skills cover the broad integrative review and meta-science lifecycle — topic fit, the proposal/commissioning route, cross-area synthesis, organizing framework, balance, exemplary open science, editor strategy, submission, and revision — with source-backed PoPS guardrails.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/perspectives-on-psychological-science-skills",
+  "repository": "https://github.com/brycewang-stanford/perspectives-on-psychological-science-skills",
+  "keywords": [
+    "ppsych",
+    "perspectives-on-psychological-science",
+    "psychology",
+    "integrative-review",
+    "meta-science",
+    "open-science",
+    "review-article",
+    "academic-writing",
+    "journal-skills",
+    "aps",
+    "sage",
+    "theoretical-synthesis"
+  ]
+}

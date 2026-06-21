@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "psychological-review-skills",
+  "version": "0.1.0",
+  "description": "An opinionated theory-development skill stack for Psychological Review — the APA's flagship journal for new theory and formal/computational models, which publishes NO primary empirical reports (data only motivate or constrain theory).",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "psychological-review-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill theory-development bundle for Psychological Review, the APA's new-theory/formal-model flagship. Theory-problem framing, formal/conceptual model construction, prediction derivation against rival models and existing data, scope and boundary conditions, model diagrams and simulation-of-model-behavior exhibits, APA style, contribution differentiation, and masked review via Editorial Manager. NO primary empirical reports — that is the lane of the JEP family / Psychological Science.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/psychological-review-skills",
+      "repository": "https://github.com/brycewang-stanford/psychological-review-skills",
+      "keywords": [
+        "psychological-review",
+        "apa",
+        "psychological-theory",
+        "formal-models",
+        "computational-modeling",
+        "editorial-manager",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/psychrev-workflow",
+        "skills/psychrev-topic-selection",
+        "skills/psychrev-theory-construction",
+        "skills/psychrev-literature-positioning",
+        "skills/psychrev-argument-development",
+        "skills/psychrev-boundary-conditions",
+        "skills/psychrev-conceptual-exhibits",
+        "skills/psychrev-writing-style",
+        "skills/psychrev-contribution-framing",
+        "skills/psychrev-review-process",
+        "skills/psychrev-submission",
+        "skills/psychrev-rebuttal"
+      ]
+    }
+  ]
+}

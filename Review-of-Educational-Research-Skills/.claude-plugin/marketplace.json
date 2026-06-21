@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "review-of-educational-research-skills",
+  "version": "0.1.0",
+  "description": "An agent skill stack for writing systematic reviews, meta-analyses, and critical integrative syntheses for the Review of Educational Research (RER), AERA's flagship review journal published by SAGE.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "review-of-educational-research-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Review of Educational Research (RER) review-article lifecycle, from scoping a synthesis-worthy question and a preregistered protocol through systematic search, the organizing framework, comprehensiveness and risk-of-bias, PRISMA/MARS transparency, submission, and revision.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/review-of-educational-research-skills",
+      "repository": "https://github.com/brycewang-stanford/review-of-educational-research-skills",
+      "keywords": [
+        "review-of-educational-research",
+        "rer",
+        "systematic-review",
+        "meta-analysis",
+        "prisma",
+        "aera",
+        "education-research"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/revedres-workflow",
+        "skills/revedres-topic-selection",
+        "skills/revedres-proposal-and-commissioning",
+        "skills/revedres-literature-synthesis",
+        "skills/revedres-organizing-framework",
+        "skills/revedres-comprehensiveness-and-balance",
+        "skills/revedres-tables-figures",
+        "skills/revedres-writing-style",
+        "skills/revedres-transparency-and-reproducibility",
+        "skills/revedres-editor-strategy",
+        "skills/revedres-submission",
+        "skills/revedres-revision"
+      ]
+    }
+  ]
+}

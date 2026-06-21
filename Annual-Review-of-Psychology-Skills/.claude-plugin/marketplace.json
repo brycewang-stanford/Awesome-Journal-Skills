@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "annual-review-of-psychology-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Annual Review of Psychology invited review articles.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "annual-review-of-psychology-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Annual Review of Psychology invited-review lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/annual-review-of-psychology-skills",
+      "repository": "https://github.com/brycewang-stanford/annual-review-of-psychology-skills",
+      "keywords": [
+        "arpsych",
+        "annual-review-of-psychology",
+        "invited-review",
+        "literature-synthesis",
+        "psychology",
+        "organizing-framework",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/arpsych-workflow",
+        "skills/arpsych-topic-selection",
+        "skills/arpsych-proposal-and-commissioning",
+        "skills/arpsych-literature-synthesis",
+        "skills/arpsych-organizing-framework",
+        "skills/arpsych-comprehensiveness-and-balance",
+        "skills/arpsych-tables-figures",
+        "skills/arpsych-writing-style",
+        "skills/arpsych-transparency-and-reproducibility",
+        "skills/arpsych-editor-strategy",
+        "skills/arpsych-submission",
+        "skills/arpsych-revision"
+      ]
+    }
+  ]
+}
