@@ -12,15 +12,16 @@ description: Use when running the final pre-submission preflight for the Journal
 - Confirming single-blind (non-anonymized) format, the 100-word abstract, and Chicago author-date style are JOLE-compliant
 - Checking the submission fee and declarations before paying
 
-## Process facts (from official pages via search; re-confirm — site is access-gated)
+## Process facts (official source map; live-check the portal before upload)
 
-- JOLE is published by the **University of Chicago Press** for the **Society of Labor Economists (SOLE)**; manuscripts are in **English** and submitted online via **Editorial Manager** at `editorialmanager.com/jole`.
+- JOLE is published by the **University of Chicago Press** for the **Society of Labor Economists (SOLE)**; manuscripts are in **English** and submitted online via the current **Editorial Manager** route linked from the official instructions page.
 - **Submission fee (since July 1, 2018): $100 for SOLE members, $175 for non-members.** It is **non-refundable even if the paper is desk-rejected**, and **the decision is not released until the fee is paid**. Budget for it; SOLE membership lowers it.
 - The manuscript must **begin with a title page** giving **all co-authors' names, institutions, and email addresses**, followed by a **100-word abstract**.
 - Review is **single-blind** (single-anonymized): referees are anonymous but know the author's identity, so **do NOT anonymize the manuscript and do NOT anonymize references**. This is the opposite of double-blind journals.
 - JOLE does **not normally publish articles exceeding 20,000 words**, counting a **full-page table or figure as 500 words** toward that total.
 - References use **University of Chicago Press author-date (Chicago)** style; in-text citations are ordered **chronologically, then alphabetically within the same year** (a, b disambiguation), with **"et al." for three or more authors**. LaTeX is accepted (`.bib`/`.bst` rules; Biblatex/Biber supported with a required directive line).
 - Text and figures are preferred as **separate files** (or a single combined file). Operates under UChicago Press / **COPE** ethics guidelines.
+- The direct Editorial Manager shell can display portal-status banners; enter through the live official instructions route and follow the prompts shown in that session.
 
 ## Preflight checklist
 
@@ -44,6 +45,7 @@ description: Use when running the final pre-submission preflight for the Journal
 
 - [ ] Main manuscript (title page + 100-word abstract + body + exhibits)
 - [ ] Cover letter (concise: labor question, design, headline result, fit with SOLE's audience)
+- [ ] Portal path opened from the current UChicago Press instructions page, not an old bookmark
 - [ ] Data/proprietary-data notice prepared if applicable (see Declarations)
 - [ ] Replication materials staged for the accepted stage (see jole-replication-and-data-policy)
 
@@ -67,6 +69,7 @@ description: Use when running the final pre-submission preflight for the Journal
 - A manuscript well over 20,000 words, or exhibit-heavy without counting each full page as 500 words
 - Purely alphabetical in-text citations instead of chronological-then-alphabetical author-date
 - Forgetting the **non-refundable fee** — the decision will not be released until it is paid
+- Submitting from a stale portal bookmark without checking the current instructions route
 - Failing to flag **proprietary data** to the editor at submission
 
 ## Output format

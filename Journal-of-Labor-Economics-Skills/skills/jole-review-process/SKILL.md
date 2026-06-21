@@ -18,8 +18,8 @@ description: Use to understand how the Journal of Labor Economics (JOLE) actuall
 - **Submission via Editorial Manager** (`editorialmanager.com/jole`), with a cover letter. JOLE is the official journal of the **Society of Labor Economists (SOLE)** and is published by the **University of Chicago Press**.
 - **Non-refundable submission fee (since July 1, 2018): $100 for SOLE members, $175 for non-members.** It is charged **even if the paper is desk-rejected**, and the **decision is not released until the fee is paid** — so the fee gates your result, not just your submission. SOLE membership is the cheaper path.
 - **Publication-ethics regime:** UChicago Press / **COPE** guidelines, with explicit attention to confidential data and research on vulnerable / human subjects. Flag proprietary data or human-subjects concerns up front.
-- **Turnaround times:** 待核实 — the official turnaround-times page was not retrieved; do not promise the author a specific clock.
-- **Editor:** the current Editor-in-Chief is 待核实 (search surfaced Peter Kuhn, UC Santa Barbara, for Vol. 44 / 2026, with historical mentions of Paul Oyer and Kevin Lang). Do not address a cover letter to a specific named editor without confirming on the masthead.
+- **Review clock:** do not promise the author a specific turnaround time; this pack has no current official review-clock source encoded.
+- **Editor:** the current Editor-in-Chief is **Peter Kuhn, UC Santa Barbara**. Confirm the live board page before naming any editor or conflict in a cover letter.
 
 ## What labor referees expect
 
@@ -38,14 +38,14 @@ JOLE referees are labor economists judging a general-interest labor audience. Th
 - [ ] SOLE membership considered (lower fee)
 - [ ] Proprietary-data / human-subjects issues flagged to the editor at submission
 - [ ] Identification and robustness pre-empt the obvious labor-referee objections
-- [ ] Cover letter not addressed to an unconfirmed named editor
+- [ ] Live board checked before naming an editor or conflict
 
 ## Anti-patterns
 
 - Treating JOLE as double-blind and stripping author identity from the manuscript
 - Forgetting the fee blocks the decision, then being surprised no result arrives
-- Promising a specific review turnaround (待核实)
-- Addressing the cover letter to a specific editor whose tenure you have not confirmed
+- Promising a specific review turnaround
+- Naming an editor or conflict without checking the live board page
 - Submitting an empirical paper with no plan to make the data available
 
 ## Output format
@@ -61,5 +61,5 @@ JOLE referees are labor economists judging a general-interest labor audience. Th
 
 ## Supplementary resources
 
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official JOLE URLs and verification status (note the access-gating and 待核实 items)
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official JOLE URLs, source evidence, and live-check items
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — labor data sources and packages

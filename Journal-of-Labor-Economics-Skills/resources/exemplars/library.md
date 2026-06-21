@@ -4,7 +4,7 @@
 > *Journal of Labor Economics* article page at University of Chicago Press
 > (`journals.uchicago.edu/.../jole`) and/or its RePEc handle `ucp:jlabec` to confirm it actually
 > appeared in **JOLE** — the journal of the **Society of Labor Economists (SOLE)**, published by the
-> **University of Chicago Press** — with year and volume(issue). Papers that could not be fully
+> **University of Chicago Press** — with year and volume(issue). Papers that were not fully
 > verified as JOLE were **omitted** or moved to the guardrail list below. It is deliberately a short,
 > clean list (6 verified) rather than a long, uncertain one.
 >
@@ -134,7 +134,7 @@ labor papers that are *not* in JOLE, which is exactly the trap this file guards 
 - **Card, "Using Regional Variation in Wages to Measure the Effects of the Federal Minimum Wage" (1992)** —
   in the *ILR Review* 46(1):22–37, **not JOLE**.
 - **"The Effect of Unemployment Insurance on Unemployment Duration," JOLE 1987, 5(3):386–390** — appears
-  in JOLE but is a **short note (pp. 386–390)** whose authorship could not be cleanly confirmed by web
+  in JOLE but is a **short note (pp. 386–390)** whose authorship was not cleanly confirmed by web
   search; omitted from the flagship list rather than risk a misattribution.
 
 Before adding any new paper to this library, confirm it on `journals.uchicago.edu` (JOLE article page

@@ -29,7 +29,7 @@ A novel or newly linked labor dataset (matched employer–employee registers, ad
 ## Branch paths
 
 ### Branch A: DID / event study (policy reforms)
-- Staggered adoption? Move beyond TWFE: Callaway–Sant'Anna, Sun–Abraham, or de Chaisemartin–D'Haultfœuille; report a Goodman-Bacon decomposition to expose "forbidden" comparisons.
+- Staggered adoption? Move beyond TWFE: Callaway–Sant'Anna, Sun–Abraham, or de Chaisemartin–D'Haultfœuille; report a Goodman-Bacon decomposition to expose invalid negative-weight comparisons.
 - Pre-trends: clean event-study plot with leads near zero.
 - Inference: cluster at the treatment-assignment level (often state); wild-cluster bootstrap with few clusters.
 - Placebo timing and placebo outcomes that should not move.

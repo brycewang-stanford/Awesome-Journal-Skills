@@ -24,7 +24,7 @@ JOLE is read across labor economics, not by one subfield, so the prose must make
 ## The introduction arc (JOLE labor template)
 
 1. **The labor question** — one or two plain sentences; stakes for workers/firms/markets clear.
-2. **Why it is hard** — the identification or measurement problem that has blocked a clean answer.
+2. **Why it is hard** — the identification or measurement problem that has prevented a clean answer.
 3. **The setting & variation** — the policy reform, natural experiment, register, or survey that solves it.
 4. **The headline result** — the number with units (e.g., "raises earnings by 6%"), stated early.
 5. **Mechanism & interpretation** — the labor-economic channel in a sentence.

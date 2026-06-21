@@ -1,90 +1,99 @@
 # JOLE Official Source Map
 
 Primary and authoritative sources behind the *Journal of Labor Economics* (JOLE)-specific facts injected
-into this skill pack. **Access date for all entries: 2026-06-01.** Re-verify volatile items (editor,
-fees, policy wording) before relying on them — journal pages change.
+into this skill pack. **Access date for all entries: 2026-06-20.** Re-open the live UChicago Press
+author pages and Editorial Manager route immediately before upload, because editor rosters, portal
+banners, fee prompts, and policy wording can change between repo refreshes.
 
-> **Fetch caveat (read first).** The University of Chicago Press journal site (`journals.uchicago.edu`)
-> is behind a Cloudflare challenge and returned HTTP 403 to automated fetchers; the official pages below
-> could not be re-fetched verbatim. The facts were extracted from the search engine's rendering of those
-> official pages plus Wikipedia and Editorial Manager. **Treat every uchicago.edu line as
-> "from official page via search snippet, not independently re-fetched"** and do a manual browser check
-> before publishing.
+## Fetch note
 
-## Official journal pages (University of Chicago Press / SOLE)
+Several UChicago Press HTML pages return an automated-browser challenge page to command-line fetchers.
+This source map therefore combines three official evidence types:
 
-- **https://www.journals.uchicago.edu/journals/jole/instruct** — Instructions to Authors. Verifies:
-  published by University of Chicago Press; manuscripts in English; submission begins with a title page
-  (all co-authors' names, institutions, emails) plus a **100-word abstract**; submitted via Editorial
-  Manager with a cover letter; **submission fee since July 1, 2018 = $100 (SOLE members) / $175
-  (non-members)**, non-refundable even if desk-rejected, decisions withheld until the fee is paid; text
-  and figures preferred as separate files (or one combined file); operates under UChicago Press / COPE
-  publication-ethics guidelines.
-- **https://www.journals.uchicago.edu/journals/jole/prior-review** — Review / prior-review guidance.
-  Verifies: **single-blind (single-anonymized) review** — referees are anonymous but know the author's
-  identity, so the title page carries all co-author names/affiliations/emails and **references are NOT
-  anonymized**; JOLE **does not normally publish articles exceeding 20,000 words, counting a full-page
-  table or figure as 500 words**.
-- **https://www.journals.uchicago.edu/journals/jole/data-policy** — Data policy. Verifies: empirical /
-  simulation / experimental papers published only if data are documented and available for replication;
-  after acceptance authors upload data, programs, and documentation to **JOLE's Dataverse Repository**
-  prior to publication; for econometric/simulation papers the minimum is the dataset(s) and the programs
-  that run the final models plus a description of how intermediate datasets/programs built the final
-  dataset; **JOLE adopted the AER data-availability policy in February 2009** (articles submitted after
-  that date); the editor must be notified at submission if data are proprietary or requirements otherwise
-  cannot be met.
-- **https://www.journals.uchicago.edu/journals/jole/instruct-references** — Reference instructions.
-  Verifies: **University of Chicago Press author-date (Chicago)** style; in-text citations ordered
-  **chronologically, then alphabetically within the same year** (a, b disambiguation for same author /
-  same year); three-or-more authors cited as first author **"et al."**; LaTeX submissions accepted with
-  `.bib`/`.bst` handling rules, Biblatex/Biber supported with a required directive line.
-- **https://www.journals.uchicago.edu/journals/jole/board** — Editorial board page. Surfaced **Peter Kuhn
-  (UC Santa Barbara)** as Editor-in-Chief; current issue Vol. 44, No. 2 (2026). *Probable but unverified —
-  see UNVERIFIED below.*
+1. official UChicago Press search-index excerpts captured on 2026-06-20;
+2. directly rendered official pages where available, including Editorial Manager and SOLE pages; and
+3. UChicago Press issue front-matter PDFs, including the 2026 current-issue front matter surfaced by
+   the official search index and the directly rendered 2023 front matter with the same submission text.
 
-## Submission portal
+Use the map as a provenance ledger, not as a replacement for the live upload screen.
 
-- **https://www.editorialmanager.com/jole** — JOLE submission portal (Editorial Manager). Verifies:
-  submissions are made online through Editorial Manager for the Journal of Labor Economics.
+## Official UChicago Press / JOLE pages
 
-## Society, publisher, scope, history
+- **https://www.journals.uchicago.edu/toc/jole/current** — JOLE current issue page. Official
+  search-index excerpts on 2026-06-20 verify **Editor-in-Chief Peter Kuhn**, publication for the
+  **Society of Labor Economists**, and current issue **Volume 44, Number 2, April 2026**.
+- **https://www.journals.uchicago.edu/journals/jole/board** — JOLE editorial board page. Official
+  search-index excerpts on 2026-06-20 verify **Peter Kuhn, University of California, Santa Barbara** as
+  Editor-in-Chief and list the editorial board. This pack names the EIC only and sends users to the live
+  board for full conflict checks.
+- **https://www.journals.uchicago.edu/journals/jole/instruct** — Instructions for Authors. Official
+  search-index excerpts on 2026-06-20 verify that manuscripts are submitted via **Editorial Manager**;
+  must be in **English**; begin with a title page including all authors' names, email addresses, and
+  affiliations plus a **100-word abstract**; JOLE practices **single-blind review**; papers sent for
+  outside review are at the Editor-in-Chief's discretion; JOLE normally does not publish articles
+  exceeding **20,000 words**, treating a full-page table or figure as **500 words**; and the page carries
+  current author-instruction links.
+- **https://www.journals.uchicago.edu/doi/pdf/10.1086/741553** — UChicago Press front matter for
+  **Volume 44, Number 2, April 2026**. Official search-index excerpts verify that the current issue
+  includes the same author-instruction block, including the **100-word abstract** rule.
+- **https://www.journals.uchicago.edu/doi/pdf/10.1086/726706** — UChicago Press front matter for
+  **Volume 41, Number 3, July 2023**. Direct rendering verifies the operational submission text used as
+  a stable cross-check: quarterly publication by UChicago Press; membership/subscription tie to SOLE;
+  Editorial Manager at `http://jole.edmgr.com`; title page with author names, email addresses, and
+  affiliations plus a **100-word abstract**; accepted file formats; contact `jole@press.uchicago.edu`;
+  and submission fee **US$100 for SOLE members / US$175 for nonmembers**, with decisions not released
+  until paid and fees nonrefundable even for desk rejection.
+- **https://www.journals.uchicago.edu/journals/jole/data-policy** — Data Policy. Official search-index
+  excerpts on 2026-06-20 verify that JOLE has adopted the **AER data availability policy**, that the
+  policy applies to articles submitted after **February 2009**, and that accepted authors upload data,
+  programs, and sufficient replication documentation to **JOLE's Dataverse Repository** before
+  publication.
+- **https://www.journals.uchicago.edu/journals/jole/instruct-references** — Manuscript preparation /
+  reference instructions. Official search-index excerpts on 2026-06-20 verify that in-text citations are
+  ordered **chronologically and then alphabetically within the same year**.
+- **https://www.journals.uchicago.edu/journals/jole/prep-latex** — Manuscript Preparation - LaTeX.
+  Official search-index excerpts on 2026-06-20 verify the LaTeX/BibTeX/Biblatex/Biber guidance used by
+  the pack.
 
-- **https://en.wikipedia.org/wiki/Journal_of_Labor_Economics** — Verifies: JOLE is published **quarterly**
-  by the University of Chicago Press and is the **official publication of the Society of Labor Economists
-  (SOLE)**; general-interest, peer-reviewed coverage of labor economics.
+## Submission portal and society pages
 
-## Facts used in this pack (with status)
+- **https://www.editorialmanager.com/jole** — JOLE Editorial Manager page. Direct rendering on
+  2026-06-20 verifies the **Journal of Labor Economics** portal shell with Login/Register, Submit a
+  Manuscript, and links to Journal Overview, Instructions for Authors, and Contact. The live page also
+  displayed a development-use banner; submitters should enter through the current official UChicago
+  instructions route rather than relying on a saved portal URL.
+- **https://www.sole-jole.org/membership** — SOLE membership page. Direct rendering on 2026-06-20
+  verifies that SOLE membership is tied to JOLE subscription and includes a **discount on submission
+  fees to the Journal of Labor Economics**.
+- **https://www.sole-jole.org/executive-board** — SOLE Executive Board page. Direct rendering on
+  2026-06-20 lists **Peter Kuhn, University of California, Santa Barbara and the Journal of Labor
+  Economics, ex officio**, consistent with the UChicago Press current-issue and board excerpts.
 
-| Fact | Status |
+## Facts used in this pack
+
+| Fact | Source |
 |------|--------|
-| Publisher = University of Chicago Press, for SOLE; quarterly | From official/Wikipedia via search |
-| Submission via Editorial Manager (`editorialmanager.com/jole`) | Verified (portal reachable) |
-| Submission fee $100 SOLE / $175 non-member, since July 1, 2018, non-refundable, decisions withheld until paid | From official page via search snippet — re-confirm 2026 amounts |
-| 100-word abstract; title page with all co-author names/affiliations/emails | From official page via search snippet |
-| Single-blind review; references NOT anonymized | From official page via search snippet |
-| 20,000-word soft cap; full-page table/figure = 500 words | From official page via search snippet |
-| Chicago author-date; in-text chronological-then-alphabetical; "et al." for 3+ authors; LaTeX/.bib/.bst/Biber rules | From official page via search snippet |
-| Data + programs + documentation to JOLE Dataverse Repository before publication; AER policy adopted Feb 2009; proprietary-data notice at submission | From official page via search snippet |
-| Affiliated with SOLE; members get reduced fee | From official/Wikipedia via search |
-| COPE / UChicago Press ethics; attention to confidential data and human subjects | From official page via search snippet |
+| Publisher = University of Chicago Press; journal published for SOLE; quarterly issue rhythm | UChicago Press current issue/front matter; SOLE membership page |
+| Current EIC = Peter Kuhn, UC Santa Barbara | UChicago Press current issue and board excerpts; SOLE Executive Board |
+| Submission via Editorial Manager / `jole.edmgr.com` route | UChicago Press instructions/front matter; Editorial Manager portal shell |
+| Portal URL should be live-checked because the direct portal shell displayed a development-use banner | Editorial Manager direct rendering |
+| Manuscripts in English; title page includes all authors' names, emails, and affiliations | UChicago Press instructions/front matter |
+| Abstract = 100 words | UChicago Press instructions/front matter; 2026 current-issue front matter excerpt |
+| Submission fee = US$100 SOLE members / US$175 nonmembers since 2018-07-01; decision held until payment; nonrefundable even for desk rejection | UChicago Press issue front matter; instructions excerpts; SOLE membership discount page |
+| Single-blind review; authors are visible to anonymous referees; manuscript and references are not anonymized | UChicago Press instructions excerpts |
+| 20,000-word normal ceiling; full-page table or figure counted as 500 words | UChicago Press instructions excerpts |
+| Chicago author-date; in-text citations chronological, then alphabetical within a year | UChicago Press manuscript-preparation excerpts |
+| LaTeX/BibTeX/Biblatex/Biber guidance exists on JOLE manuscript-preparation pages | UChicago Press LaTeX preparation excerpts |
+| Data/programs/documentation deposited to JOLE Dataverse before publication; AER data policy adopted for post-February-2009 submissions | UChicago Press data-policy excerpts |
+| COPE/UChicago ethics and up-front proprietary/restricted-data disclosure | UChicago Press instructions and data-policy excerpts |
 
-## UNVERIFIED / 待核实 items
+## Live-check items before submission
 
-- **Editor-in-Chief — 待核实.** Search consistently surfaced **Peter Kuhn (UC Santa Barbara)** as current
-  Editor-in-Chief (current volume Vol. 44, 2026), but search summaries also mentioned historical editors
-  (**Paul Oyer**, in the role since 2012) and a separate mention of **Kevin Lang** as an incoming editor.
-  The exact current EIC and effective date could **not** be confirmed from a directly fetched official
-  page. Treat "Peter Kuhn" as probable-but-unverified; the skills do not lean on a specific named editor.
-- **Submission fee amounts ($100 / $175) — 待核实 for 2026.** Stated as effective July 1, 2018 on the
-  official instructions page (per search snippet); whether the amounts changed since then was not
-  separately confirmed against a freshly fetched 2026 page.
-- **Formatting / citation specifics — 待核实.** Chicago author-date, chronological-then-alphabetical in-text
-  ordering, and the LaTeX `.bib`/`.bst`/Biber rules come from the instruct-references page **via search
-  snippet**, not a directly fetched page.
-- **Turnaround times / structured-abstract or section requirements — 待核实.** The turnaround-times page was
-  not retrieved; peer-review timing and any required manuscript sections beyond title page + 100-word
-  abstract are unknown here.
-- **Whole-site fetch caveat — 待核实.** `journals.uchicago.edu` returned HTTP 403 / a JS-challenge to
-  automated tools; none of the four official JOLE pages (instruct, prior-review, data-policy,
-  instruct-references) were independently re-fetched verbatim. Recommend a manual/browser check before
-  relying on any quoted wording above.
+- Confirm the current Editorial Manager entry path from the live UChicago Press instructions page and
+  follow the portal prompts shown during that session.
+- Confirm the current submission-fee amount and any optional open-access/publication charges during the
+  live submission pass.
+- Confirm the live editor/board roster on the board page before naming a conflicted editor.
+- Confirm the current data-policy and Dataverse upload wording if data are proprietary, confidential, or
+  subject to third-party license limits.
+- Do not promise a review turnaround time; this pack has no current official review-clock source encoded.

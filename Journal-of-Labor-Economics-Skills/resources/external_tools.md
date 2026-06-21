@@ -90,15 +90,15 @@ as you go. Check licenses and current access terms before use.
 | Item | Note |
 |------|------|
 | Submission portal | Editorial Manager (`editorialmanager.com/jole`) |
-| Submission fee | **$100 SOLE members / $175 non-members** (since July 1, 2018), non-refundable even on desk reject; decisions withheld until paid — verify current amount |
+| Submission fee | **$100 SOLE members / $175 non-members** (since July 1, 2018), non-refundable even on desk reject; decisions withheld until paid — live-check during upload |
 | Society tie | Official journal of the **Society of Labor Economists (SOLE)**; membership lowers the fee |
 | Review model | **Single-blind** (referees anonymous, authors named) |
 | Replication deposit | Required for accepted empirical/simulation/experimental papers → JOLE Dataverse |
 | Publisher | University of Chicago Press |
 
 ## 8. Cautions
-1. **Verify volatile specifics** (fee amount, editor, deposit rules, portal URL) on the official journal
-   page — the UChicago Press site is Cloudflare-gated and could not be machine-read here.
+1. **Live-check upload specifics** (portal banner, fee prompts, editor conflicts, deposit wording) on the
+   official journal pages and upload screen.
 2. **Do NOT anonymize** the manuscript — JOLE is single-blind; the title page names all authors and
    references are not blinded (the opposite of double-blind journals).
 3. **Respect data licenses**; restricted data (FSRDC, registry data) require formal access and disclosure

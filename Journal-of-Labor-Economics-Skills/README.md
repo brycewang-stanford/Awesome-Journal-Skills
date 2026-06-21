@@ -41,10 +41,10 @@ JOLE imposes constraints that differ materially from a top-5 flagship or a doubl
 | Data policy             | Deposit data + programs + docs to the **JOLE Dataverse** (AER policy, adopted Feb 2009) | Empirical papers publish only if replicable                                |
 | Society tie             | Official journal of **SOLE**                                                            | Membership lowers the submission fee                                        |
 
-Generic "scientific writing" or "econ writing" skill packs do not address these constraints. Volatile
-specifics (current editor, exact fee, deposit wording) change and the publisher site is access-gated —
-**verify them on the official journal page**. See [`resources/official-source-map.md`](resources/official-source-map.md)
-for every fact and its status.
+Generic "scientific writing" or "econ writing" skill packs do not address these constraints. Live portal
+prompts, fee wording, editor rosters, and deposit instructions can change, so run the source-map live
+checks before upload. See [`resources/official-source-map.md`](resources/official-source-map.md) for
+every fact and its status.
 
 ---
 
@@ -137,8 +137,8 @@ jole-rebuttal
 
 - It does not write a submittable manuscript for you
 - It does not simulate any specific editor's or referee's taste
-- It does not assert volatile metadata (current editor, exact fee, deposit rules) as settled — the
-  publisher site is access-gated, so verify on the official page (items marked 待核实 in the source map)
+- It does not replace the live submission screen; re-check portal prompts, fees, editor conflicts, and
+  data-policy wording before upload
 - It does not judge whether your labor question is genuinely novel — that is the researcher's call
 
 ---
