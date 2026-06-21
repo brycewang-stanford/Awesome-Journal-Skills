@@ -20,8 +20,12 @@ Primary source map for facts used in the Annals skill pack. **Access date: 2026-
 | agenda setting | Official pages above; re-check live before submission |
 | management field map | Official pages above; re-check live before submission |
 
+## Verified on official pages (2026-06)
+
+- **Editors: Matthew A. Cronin and Elizabeth George.** Published by the **Academy of Management**.
+- **Proposal-first submission:** twice-yearly proposal deadlines (April 1 and October 1); Annals does **not** accept unsolicited full manuscripts — authors submit a short proposal and, if invited, have ~3 months to develop the full review. (AOM Annals submission guidelines)
+
 ## Unverified / volatile items
 
-- Current editor names and board composition are **待核实** unless explicitly quoted in an official page at submission time.
-- Exact submission fees, APCs, waivers, word limits, abstract limits, and blinding rules are **待核实** if not visible in the official pages above.
+- Exact **OA charge, length limits, and blinding details** are **待核实** if not visible on the official pages above — confirm at submission time.
 - Exemplar articles must be verified in the official archive or DOI page before being cited as real examples.

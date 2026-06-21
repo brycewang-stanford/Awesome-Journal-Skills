@@ -20,8 +20,12 @@ Primary source map for facts used in the AREcon skill pack. **Access date: 2026-
 | conceptual map | Official pages above; re-check live before submission |
 | evidence stocktake | Official pages above; re-check live before submission |
 
+## Verified on official pages (2026-06)
+
+- **Co-Editors: Philippe Aghion, Hélène Rey, and Timothy Besley.** Published by **Annual Reviews**.
+- **Invitation-only:** the editorial committee selects topics and solicits reviews; unsolicited manuscripts are not accepted. (Annual Reviews / annualreviews.org)
+
 ## Unverified / volatile items
 
-- Current editor names and board composition are **待核实** unless explicitly quoted in an official page at submission time.
-- Exact submission fees, APCs, waivers, word limits, abstract limits, and blinding rules are **待核实** if not visible in the official pages above.
+- Exact **length limits and any OA/processing terms** are **待核实** if not visible on the official pages above; the full editorial committee rotates — confirm on the live page.
 - Exemplar articles must be verified in the official archive or DOI page before being cited as real examples.
