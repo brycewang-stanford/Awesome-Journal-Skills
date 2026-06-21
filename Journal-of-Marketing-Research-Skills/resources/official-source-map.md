@@ -1,20 +1,23 @@
 # JMR Official Source Map
 
 Canonical sources for verifying every JMR-specific claim made in this skill pack.
-Sources were searched and corroborated on **2026-06-01**. The SAGE author-instructions
-page (journals.sagepub.com/author-instructions/mrj) intermittently returned **HTTP 403**
-to automated fetchers during this session, so some SAGE-hosted facts are corroborated
-through a successful fetch plus the AMA submission-guidelines and editorial-policy pages
-and corroborating search snippets rather than a fresh live scrape. Time-sensitive items
-(current Editor-in-Chief / incoming team, fees/APC, transparency-policy text) are flagged
+Sources were searched and corroborated on **2026-06-01** and re-verified on **2026-06-20**.
+On 2026-06-20 the SAGE MRJ submission-guidelines page (journals.sagepub.com/author-instructions/MRJ)
+was successfully read via an official page-snapshot capture, directly confirming the
+no-fee statement, double-anonymized identity transparency, subscription access, preprint
+acceptance, and the journal's reported Impact Factor (5.0) and 5-Year Impact Factor (8.1);
+the collapsed accordion sections (exact page/abstract limits, APC amount) were not expanded
+in that capture and are corroborated through the AMA submission-guidelines and
+editorial-policy pages plus corroborating search snippets. Time-sensitive items
+(current Editor-in-Chief / incoming team, exact APC amount) remain flagged
 **approximate** or **待核实 (to be verified)** where an official page could not be confirmed.
 
 ## Source table
 
 | # | URL | What it verifies | Accessed |
 | --- | --- | --- | --- |
-| 1 | https://journals.sagepub.com/author-instructions/mrj | SAGE author instructions (official submission guidelines): 50-page limit, 12pt Times New Roman, double-spaced, 1-inch margins; 200-word abstract (third person); double-anonymized review; two independent reviews required for Revise/Accept; empirical papers must report exact p-values, standard errors, effect sizes; no limit on references | 2026-06-01 |
-| 2 | https://www.ama.org/submission-guidelines-american-marketing-association-journals/ | AMA cross-journal submission guidelines: ScholarOne at mc.manuscriptcentral.com/ama_jmr; jmr@ama.org; 50-page inclusive limit with Web Appendix excluded; title <= 25 words; up to 8 keywords; Web Appendix as separate PDF with 'W'-prefixed labels; AMA reference style; AI-content disclosure; iThenticate; Data Availability Statement required | 2026-06-01 |
+| 1 | https://journals.sagepub.com/author-instructions/mrj | SAGE author instructions (official submission guidelines): identity transparency = Double anonymized; access = Subscription; accepts preprints = Yes; "There are no fees payable to submit or publish in this journal. Open access options are available"; Impact Factor 5.0, 5-Year Impact Factor 8.1; member of COPE, follows ICMJE; empirical papers must report exact p-values, standard errors, effect sizes (directly read 2026-06-20). Page/abstract/format limits live in collapsed accordions corroborated via #2/#4 | 2026-06-20 |
+| 2 | https://www.ama.org/submission-guidelines-american-marketing-association-journals/ | AMA cross-journal submission guidelines: ScholarOne at mc.manuscriptcentral.com/ama_jmr; jmr@ama.org; abstract limited to 200 words; 50-page inclusive limit with Web Appendix excluded; title <= 25 words; up to 8 primary keywords; Web Appendix as single PDF with 'W'-prefixed labels; AMA reference style (full first name); AI-content disclosure in main doc + Acknowledgments; iThenticate; Data Availability Statement on title page (directly read 2026-06-20) | 2026-06-20 |
 | 3 | https://mc.manuscriptcentral.com/ama_jmr | Live ScholarOne / Manuscript Central submission portal for JMR | 2026-06-01 |
 | 4 | https://www.ama.org/ama-journals-editorial-policies-procedures/ | AMA editorial policies: double-anonymous process; editor final authority; replication-enabling disclosure (in-text, Web Appendix, or online supplements) so a reasonably trained researcher can replicate; authors share code/instruments on request; report actual p-values (three digits) and effect sizes | 2026-06-01 |
 | 5 | https://www.ama.org/2025/10/28/journal-of-marketing-research-welcomes-new-editorial-team-for-2026-2029/ | Incoming editorial team 2026-2029: Raphael Thomadsen (Washington University in St. Louis) as EIC from 1 July 2026, with five Coeditors (Simon Blanchard, Bryan Bollinger, Elea McDonnell Feit, Katrijn Gielens, Manoj Thomas); new team began processing new manuscripts 1 April 2026 | 2026-06-01 |
