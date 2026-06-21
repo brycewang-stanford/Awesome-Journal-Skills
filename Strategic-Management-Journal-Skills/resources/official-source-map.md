@@ -43,6 +43,10 @@ Society (SMS)**, published by **Wiley**. All entries accessed **2026-05-30**.
 | SMJ partial-identification methods article (Frake, 2025) | https://sms.onlinelibrary.wiley.com/doi/full/10.1002/smj.3714 | SMJ's continuing methodological conversation on causal inference / partial identification in strategy | 2026-05-30 |
 | SMJ author instructions (endogeneity clause) | (see Author Instructions PDFs above) | SMJ asks authors to acknowledge endogeneity and make a good-faith effort to address it; states disapproval of data snooping / p-hacking; references its editorial on quantitative empirical analysis | 2026-05-30 |
 
+## Verified on official pages (2026-06)
+
+- **Co-Editors: Rajshree Agarwal (University of Maryland), Mary Benner (University of Minnesota), Vibha Gaba (INSEAD), and Brian Silverman (University of Toronto).** Published by **Wiley** for the **Strategic Management Society (SMS)**; submit via the **Wiley Research Exchange** portal (editorial office SMJedoffice@wiley.com). **Median time to first decision ~54 days.** (Wiley SMJ / SMS)
+
 ## UNVERIFIED / could not confirm from official source on 2026-05-30
 
 - Exact current **submission fee**: multiple secondary sources state **no submission fee** for
@@ -51,8 +55,8 @@ Society (SMS)**, published by **Wiley**. All entries accessed **2026-05-30**.
 - Exact **page/word limits** verbatim from the 2025 PDF: secondary sources cite ~40 pages
   (full article, incl. tables/figures/references) and ~20 pages (short research article). The
   2025 PDF text could not be machine-extracted this session — verify verbatim before quoting.
-- Exact **acceptance rate** (~7%) and **median time to first decision** (~54 days): from
-  third-party metric aggregators, not the official site — UNVERIFIED.
+- Exact **acceptance rate** (~7%): from third-party metric aggregators, not the official site —
+  UNVERIFIED. (Median time to first decision ~54 days is now confirmed in the verified section above.)
 - The precise **author roster and title** of SMJ's editorial on quantitative empirical analysis
   (commonly attributed to Bettis and colleagues): editorial exists and is referenced by SMJ,
   but exact byline not re-confirmed this session — cite as "SMJ's editorial on quantitative
