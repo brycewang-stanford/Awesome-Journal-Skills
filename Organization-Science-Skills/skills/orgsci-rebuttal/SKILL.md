@@ -32,7 +32,8 @@ The **Senior Editor decides** autonomously (accept/reject/R&R), so the SE's synt
 
 - Map every comment to a concrete change (text, new analysis, appendix material) or a reasoned, evidence-backed rebuttal, with page/line pointers.
 - Keep the revised manuscript and the standalone appendix anonymized; house new robustness/sensitivity work in the **separate appendix**, mindful of the ~50-page main-text norm.
-- Resubmit within the stated window (reported ~1 year, **待核实** — confirm in your letter).
+- Resubmit within the stated window; the submission guidelines specify **6 months** for invited
+  revisions unless the editor grants an exception.
 
 ## SE-centered revision ledger
 
@@ -63,6 +64,6 @@ The ledger prevents two common failures: a long letter that ignores the SE's dec
 【SE priority】SE concerns addressed first; reviewer conflicts adjudicated to SE framing
 【Revision ledger】SE-priority / manuscript action / response handling complete
 【New work】appendix-housed analyses; anonymization preserved
-【Window】resubmit within stated timeframe (~1 year 待核实)
+【Window】resubmit within 6 months unless the editor grants an exception
 【Next step】orgsci-submission (resubmit) → orgsci-review-process
 ```

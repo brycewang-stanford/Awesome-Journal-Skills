@@ -5,7 +5,7 @@
 > journal published by **INFORMS** (Institute for Operations Research and the Management Sciences) — with
 > year and volume/issue, against the journal's own article pages on INFORMS PubsOnLine
 > (`pubsonline.informs.org/doi/...orsc...`), corroborated against RePEc (`inm/ororsc`), Google Scholar, and
-> JSTOR. Papers that could not be fully verified **as _Organization Science_** were **omitted** — this is
+> JSTOR. Papers without a clean **_Organization Science_** placement match were **omitted** — this is
 > deliberately a short, clean list, not a long, uncertain one.
 >
 > **Sibling-journal guard.** *Organization Science* is **not** *Administrative Science Quarterly* (ASQ),

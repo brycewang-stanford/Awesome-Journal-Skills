@@ -13,9 +13,9 @@ English | [简体中文](README.zh-CN.md)
 
 Agent skill stack for manuscripts targeted at **Organization Science** — the interdisciplinary, **theory-driven** journal about organizations published by **INFORMS**, spanning **micro (individual/team) to macro (organizational/field/population)** levels.
 
-This repository is opinionated. It is **not** a generic "management writing" toolbox. It is an **Organization Science-specific** stack built around the journal's defining bar — **overall contribution over novelty** ("theoretical novelty is neither necessary nor sufficient") — and its **methodological eclecticism**, with a signature openness to **qualitative and inductive** work alongside quantitative, experimental, computational, and formal-analytical research. It covers theory-driven topic selection, deductive or inductive theory development, interdisciplinary literature positioning, method-fit design and transparent analysis, the mandatory **<500-word contribution statement**, INFORMS house-style exhibits and prose, ScholarOne submission under the all-inclusive ~50-page norm, the decentralized senior-editor review process, and R&R rebuttals under the journal's codified author-response norms.
+This repository is opinionated. It is **not** a generic "management writing" toolbox. It is an **Organization Science-specific** stack built around the journal's defining bar — **overall contribution over novelty** ("theoretical novelty is neither necessary nor sufficient") — and its **methodological eclecticism**, with a signature openness to **qualitative and inductive** work alongside quantitative, experimental, computational, and formal-analytical research. It covers theory-driven topic selection, deductive or inductive theory development, interdisciplinary literature positioning, method-fit design and transparent analysis, a concise **cover-letter contribution case**, INFORMS house-style exhibits and prose, ScholarOne submission under the all-inclusive ~50-page norm, the decentralized senior-editor review process, and R&R rebuttals under the journal's codified author-response norms.
 
-> Durable norms only. Editors, fees, exact length norms, abstract/keyword counts, and policies change — always verify on the official Organization Science submission-guidelines and editorial-statement pages and the Manuscript Length Policy PDF. Items we could not confirm on a freshly rendered official page are flagged **待核实** in [`resources/official-source-map.md`](resources/official-source-map.md).
+> Source-backed norms only. Check the live INFORMS submission guidelines, editorial statement, data and methods transparency page, editorial board, and Manuscript Length Policy PDF before upload.
 
 ---
 
@@ -29,9 +29,9 @@ Organization Science imposes constraints that differ materially from identificat
 | Core bar                | **Overall contribution** > novelty                              | "Never been studied" is not a contribution                        |
 | Methodology             | Eclectic; **qualitative/inductive signature**                   | Causal identification not required ("often impossible")           |
 | Inference               | Design + theory + institutional knowledge + mechanism            | A credible mechanism beats a thin instrument                      |
-| Contribution statement  | Mandatory **<500-word** statement in the cover letter (since 6/1/2023) | Missing it → returned **before** review                     |
+| Contribution case       | Cover letter visible to EIC/SE, not reviewers                         | State the contribution plainly; keep it concise             |
 | Length                  | All-inclusive **~50-page** norm; editor discretion              | Heavy material goes in a **separate anonymized appendix**         |
-| Review                  | **Double-anonymous**; ≥ 2 reviewers                             | Main manuscript fully anonymized; ORCID required                  |
+| Review                  | Submission workflow requires **double-blind** preparation; ≥ 2 reviewers | Main manuscript fully anonymized; ORCID required                  |
 | Editorial model         | **Decentralized senior editors** with autonomy; COI cascade     | The SE — not an area editor — decides your paper                  |
 | Format                  | INFORMS author-date; no Helvetica Narrow; abstract ≤ 250 words  | Numeric citation styles are wrong here                            |
 
@@ -108,7 +108,7 @@ orgsci-rebuttal
 | `orgsci-literature-positioning`| Joining an organization-theory conversation; problematization over gap-spotting     |
 | `orgsci-methods`               | Matching eclectic methods to the question; inference without identification         |
 | `orgsci-data-analysis`         | Method-specific rigor: trustworthiness, multilevel/EH estimators, simulation/formal |
-| `orgsci-contribution-framing`  | The mandatory **<500-word** contribution statement + matching discussion            |
+| `orgsci-contribution-framing`  | Cover-letter contribution case + matching discussion                               |
 | `orgsci-tables-figures`        | Data structure / process model / nested tables / sensitivity figures, INFORMS style  |
 | `orgsci-writing-style`         | Front-loaded argument for a micro-to-macro audience; INFORMS author-date style       |
 | `orgsci-submission`            | ScholarOne preflight (contribution statement, anonymization, ~50-page norm, appendix) |
@@ -117,7 +117,7 @@ orgsci-rebuttal
 
 ### Resources
 
-- [`resources/official-source-map.md`](resources/official-source-map.md) — every venue fact with its official INFORMS URL, accessed 2026-06-01; unconfirmed items flagged **待核实**
+- [`resources/official-source-map.md`](resources/official-source-map.md) — every venue fact with its official INFORMS URL and upload-week live-check boundary
 - [`resources/external_tools.md`](resources/external_tools.md) — organization-research data sources and software across the journal's eclectic methods (NVivo/ATLAS.ti and Gioia templates; NetLogo/Mesa and formal modeling; igraph/ERGM networks; lme4/Mplus/Stata multilevel & event-history)
 
 ---
@@ -131,7 +131,7 @@ orgsci-rebuttal
 | Methods            | Eclectic; qualitative/inductive signature     | Qualitative & quantitative         | SEM / HLM / panel / experiments  | More quantitative / analytical         |
 | Causal ID          | Valued but "not necessary, often impossible"  | Not required                       | Expected for archival claims     | Frequently expected                    |
 | Routing            | Autonomous **senior editors**; COI cascade     | Editor + board                     | AOM action editors               | **Departmental area editors**          |
-| Data policy        | Replicability + retention-on-request           | Journal policy                     | AOM transparency policy          | **Mandatory code-and-data disclosure** |
+| Data policy        | 2025 transparency policy: code/data sharing with exceptions | Journal policy                     | AOM transparency policy          | **Mandatory code-and-data disclosure** |
 
 If your paper needs no theory and lives or dies on a clean instrument, Management Science may fit better; if it is a bold, contextually deep study, ASQ; if you need equal empirical + theoretical weight under a page limit, AMJ. Organization Science rewards an **overall contribution** to organization research, with the method that fits.
 

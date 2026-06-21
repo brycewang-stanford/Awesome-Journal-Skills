@@ -21,7 +21,7 @@ Organization Science requires a **contribution statement of under 500 words in t
 The editorial philosophy is explicit: **"theoretical novelty is neither necessary nor sufficient,"** and overall contribution outweighs novelty. Identify which **source(s)** your contribution draws on and lead with the strongest:
 
 - **New theory** — a new construct, mechanism, or process model.
-- **New data** — a setting or dataset that lets the field see something it could not before.
+- **New data** — a setting or dataset that lets the field see something previously hidden.
 - **Methodological insight** — a new way to study an organizational question.
 - **New settings / generalizability** — testing whether a known relationship travels.
 - **Mechanisms** — opening the black box of a known association.
@@ -48,14 +48,14 @@ Use this as a second-pass capability check. First lock a level map, a mechanism 
 - **Primary move:** Translate the result into who learns what, which mechanism changes, and which rival explanation is ruled out; keep the claim narrower than the evidence.
 - **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
 - **Neighbor test:** compare against AMJ for empirical management framing, ASQ for organization-theory depth, Management Science for formal/quantitative operations; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
-- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+- **Submission-ready gate:** before final advice, re-open `resources/official-source-map.md` for upload-week rules and name the one live-check item that could change the recommendation.
 
 ## Output format
 
 ```
 【Contribution statement】<500 words, EIC/SE-facing, names the source(s)
 【Primary source】new theory / data / method / setting / mechanism / social relevance
-【What we now understand】one sentence the field could not say before
+【What we now understand】one sentence the field previously lacked
 【Level(s) advanced】micro / meso / macro / cross-level
 【Discussion alignment】delivers exactly what the statement promised? boundary conditions as theory?
 【Next step】orgsci-tables-figures or orgsci-submission

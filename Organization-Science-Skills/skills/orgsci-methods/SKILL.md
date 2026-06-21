@@ -51,7 +51,7 @@ Use this as a second-pass capability check. First lock a level map, a mechanism 
 - **Primary move:** Name assumptions, diagnostics, robustness, falsification, and failure modes; do not accept a method section that hides the decisive validity threat.
 - **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
 - **Neighbor test:** compare against AMJ for empirical management framing, ASQ for organization-theory depth, Management Science for formal/quantitative operations; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
-- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+- **Submission-ready gate:** before final advice, re-open `resources/official-source-map.md` for upload-week rules and name the one live-check item that could change the recommendation.
 
 ## Output format
 

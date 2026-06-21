@@ -1,6 +1,6 @@
 ---
 name: orgsci-review-process
-description: Use when you want to understand how Organization Science review and decisions work before or after submitting — the decentralized senior-editor model with strong SE autonomy, the conflict-of-interest routing cascade, double-anonymous reviewing, and how to read a decision letter at this venue.
+description: Use when you want to understand how Organization Science review and decisions work before or after submitting — the decentralized senior-editor model with strong SE autonomy, the conflict-of-interest routing cascade, double-blind submission preparation, and how to read a decision letter at this venue.
 ---
 
 # Review Process (orgsci-review-process)
@@ -17,21 +17,26 @@ Organization Science runs a **decentralized model**: **Senior Editors** plus an 
 
 ## What happens to your submission
 
-- **Desk review.** The EIC/SE read the **<500-word contribution statement and the abstract** first. A missing statement gets the paper **returned before editorial review**; an unconvincing contribution, poor fit, or excessive length can produce a **desk reject** (overlong submissions may be returned with an option to resubmit shorter).
-- **Peer review.** If sent out, it goes to **at least two reviewers** under **double-anonymous** review; the cover letter is seen by the EIC and SE but **not** by reviewers.
+- **Desk review.** The EIC/SE can see the cover letter and abstract. An unconvincing contribution,
+  poor fit, transparency gap, or excessive length can produce a **desk reject** (overlong submissions
+  may be returned with an option to resubmit shorter).
+- **Peer review.** If sent out, it goes to **at least two reviewers**; follow the submission guidelines'
+  double-blind preparation rules and keep the main manuscript anonymized. The cover letter is seen by
+  the EIC and SE but **not** by reviewers.
 - **Decision.** The SE synthesizes reviews into accept / reject / R&R. First-round accepts are rare; the realistic best early outcome is a **major R&R**.
 
 ## Reading the decision letter
 
 - **Identify the decider.** The SE letter is binding; reviewer comments are inputs the SE weights — when they differ, the SE's framing governs your revision priorities.
 - **Find the core concern.** Usually **overall contribution**, mechanism, or fit — not just method, given the "novelty is neither necessary nor sufficient" stance and the acceptance that causal identification is often impossible.
-- **Note the window.** Resubmit an R&R promptly (a ~one-year window is reported but **待核实** — confirm in your letter).
+- **Note the window.** The submission guidelines ask authors to resubmit invited revisions within
+  **6 months** unless the editor grants an exception.
 
 ## Anti-patterns
 
 - Treating reviewer comments as equal to the SE's verdict and ignoring the SE's prioritization.
-- Expecting area-editor routing or a code-and-data deposit mandate (those are Management Science).
-- Assuming a desk return is a rejection when it may be a fixable missing contribution statement.
+- Expecting area-editor routing or ignoring the 2025 data/methods transparency policy.
+- Assuming a desk return is a rejection when it may be a fixable compliance or length issue.
 
 
 ## Review-risk pass for Organization Science
@@ -41,7 +46,8 @@ Use this as a second-pass capability check. First lock a level map, a mechanism 
 - **Primary move:** Turn likely reviewer objections into a ledger with response evidence, manuscript location, and the decision-maker who must be convinced first.
 - **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
 - **Neighbor test:** compare against AMJ for empirical management framing, ASQ for organization-theory depth, Management Science for formal/quantitative operations; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
-- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+- **Submission-ready gate:** before final advice, re-open `resources/official-source-map.md` for
+  upload-week rules and name the one live-check item that could change the recommendation.
 
 ## Output format
 
@@ -50,6 +56,6 @@ Use this as a second-pass capability check. First lock a level map, a mechanism 
 【Stage reached】desk return / desk reject / out for review / R&R / reject
 【Core concern】overall contribution / mechanism / fit (method usually secondary)
 【SE vs reviewers】whose framing governs the revision
-【Window】resubmission timeframe (confirm; ~1 year 待核实)
+【Window】6-month invited-revision window unless editor grants an exception
 【Next step】orgsci-rebuttal
 ```

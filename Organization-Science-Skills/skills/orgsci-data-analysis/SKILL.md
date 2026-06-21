@@ -26,9 +26,13 @@ Because Organization Science is methodologically eclectic, "rigor" looks differe
 
 The venue holds that causal inference is valued but "not necessary and often impossible." Where clean identification is unavailable, support inference with **mechanism evidence, theoretical logic, institutional knowledge, triangulation, and falsification/placebo logic**, and rule out alternatives empirically where possible. Do not overclaim causality; do not abandon a credible mechanism for want of an instrument.
 
-## Replicability (not a deposit mandate)
+## Transparency and replicability
 
-Provide enough detail and references that others could replicate the work; be prepared to provide raw data for editorial review on request and to retain data after publication. Organization Science applies a replicability/data-retention-on-request standard rather than Management Science's mandatory code-and-data deposit mandate — but keep clean, regenerable scripts regardless.
+Provide enough detail and references that others could replicate the work. Under the 2025 data and
+methods transparency policy, authors should be ready to share statistical code upon editor request
+during review, and accepted quantitative papers must publicly share data/code unless a documented
+exception and alternative transparency plan applies. Keep clean, regenerable scripts regardless of
+whether the underlying data can be public.
 
 ## Anti-patterns
 
@@ -45,7 +49,8 @@ Use this as a second-pass capability check. First lock a level map, a mechanism 
 - **Primary move:** Audit unit, comparison, uncertainty, missingness, sensitivity, and reproducibility before making any prose or submission recommendation.
 - **Decision ledger:** return `claim / evidence / blocker / next edit` rows so the next pass can patch the manuscript directly.
 - **Neighbor test:** compare against AMJ for empirical management framing, ASQ for organization-theory depth, Management Science for formal/quantitative operations; if the neighboring outlet has the stronger audience claim, recommend re-routing before polishing.
-- **Verification floor:** before submission-ready advice, re-open `resources/official-source-map.md` for volatile rules and name the one unresolved fact that could change the recommendation.
+- **Submission-ready gate:** before final advice, re-open `resources/official-source-map.md` for
+  upload-week rules and name the one live-check item that could change the recommendation.
 
 ## Output format
 
@@ -53,6 +58,6 @@ Use this as a second-pass capability check. First lock a level map, a mechanism 
 【Method】qualitative / multilevel / panel-EH / experiment / simulation / formal
 【Rigor evidence】trustworthiness (data structure, audit trail) OR estimator + SE clustering OR sensitivity/seeds OR proofs
 【Inference】identification? if not — mechanism + design logic + falsification; alternatives ruled out
-【Replicability】detail/scripts retained; data-on-request ready
+【Replicability】detail/scripts ready; data/code sharing or exception plan ready
 【Next step】orgsci-contribution-framing
 ```
