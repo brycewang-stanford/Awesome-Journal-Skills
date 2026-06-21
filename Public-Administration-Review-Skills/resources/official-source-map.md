@@ -1,7 +1,7 @@
 # PAR Official Source Map
 
 Primary and authoritative sources behind the PAR-specific facts injected into this skill pack.
-Access date for all entries: **2026-06** (检索于 2026-06；以官网为准). Re-verify volatile items
+Access date for all entries: **2026-06** (检索于 2026-06；以官网为准). Re-check volatile items
 (editors and editorial term, exact word/abstract caps, fee/APC, portal, data-policy wording, article
 types) on the official page before relying on them — journal pages change.
 
@@ -14,8 +14,8 @@ types) on the official page before relying on them — journal pages change.
   charts, and appendices excluded from the count); all submissions should include **3–5 sentence-length
   takeaway points** providing **Evidence for Practice**; article types include **Conceptualizing Public
   Administration**, **Scholarly Takes**, **Early Career Intel**, **Practically Speaking**, and **Public
-  Administration in Print** (book reviews). (Page returned HTTP 403 to the build crawler; facts cross-
-  confirmed via the sources below. 待核实 on exact live wording.)
+  Administration in Print** (book reviews). Wiley's page should be re-opened for exact live wording
+  during submission.
 - **https://onlinelibrary.wiley.com/doi/10.1111/puar.13767** and **/10.1111/puar.13872**
   — "Information for Contributors," *Public Administration Review* (2023 / 2024 versions). Verifies:
   word and abstract limits, double-blind preparation, Evidence for Practice, TOP transparency standards.
@@ -46,7 +46,7 @@ types) on the official page before relying on them — journal pages change.
   Georgia)** as an Editor-in-Chief.
 - Search-confirmed (access date 2026-06): Editors-in-Chief **Jos Raadschelders (Ohio State
   University)** and **Katherine Willoughby (University of Georgia)**; **Editor Hongtao Yi**; editorial
-  term **2024–2026**. Confirm the current masthead on the editorial-board page. 待核实.
+  term **2024–2026**. Confirm the current masthead on the editorial-board page.
 - **https://en.wikipedia.org/wiki/Public_Administration_Review** — Verifies: PAR founded **1940**;
   flagship/peer-reviewed journal of public administration; published by Wiley-Blackwell for ASPA.
 
@@ -58,21 +58,19 @@ types) on the official page before relying on them — journal pages change.
   Repository** (qualitative); (3) recommend documenting research design/data prep/analysis in a
   supplementary document following relevant reporting standards (CONSORT/STROBE/PRISMA/COREQ); (4) make
   pre-registration **badges** available. Source: PAR submission-process guidance + Wiley For Authors.
-  Confirm exact current wording on the live policy/FAQ page. 待核实.
+  Re-open the live policy/FAQ page before copying exact current wording.
 
-## UNVERIFIED / 待核实 items
+## Bounded live-check rules
 
-- **Submission portal (Editorial Manager vs. ScholarOne):** the PAR submission-process page lists
-  **Editorial Manager** (`editorialmanager.com/par`); the task seed and some older guidance reference
-  **ScholarOne / Manuscript Central**. Confirm the live portal before submitting. 待核实.
-- **Editor-in-chief term / current masthead:** Raadschelders–Willoughby listed as current (term
-  2024–2026) at access time; confirm on the live editorial-board page. 待核实.
-- **Exact desk-rejection rate, time-to-decision, number of reviewers:** not stated as fixed figures.
-  待核实.
-- **Submission fee / open-access APC:** no submission fee is stated; treat "no submission fee" as the
-  working assumption and confirm any Wiley OA APC (Gold/Hybrid) after acceptance. 待核实.
-- **Exact word-count inclusions across article types** (e.g., whether all types share the 8,000-word
-  cap) and the **current APA edition** required: confirm on the live For-Authors page. 待核实.
+- Use Editorial Manager (`editorialmanager.com/par`) as the working submission route unless the live
+  Wiley/ASPA page gives a newer portal.
+- Treat the Raadschelders-Willoughby 2024-2026 team as source-backed context, but re-open the
+  editorial-board page before naming a current masthead in user-facing advice.
+- Do not encode fixed desk-rejection, reviewer-count, or time-to-decision numbers.
+- No source states a submission fee. Treat Wiley OA APCs as optional post-acceptance terms and check
+  them only if open access is selected.
+- Use the 8,000-word cap and 150-word abstract in checklist logic; open the current Wiley page for
+  article-type exceptions and exact APA-edition wording.
 
 ## Sibling-journal guard (do not conflate)
 

@@ -57,7 +57,7 @@ wording) on the official page before relying on them — journal policies change
 - **https://www.cos.io/initiatives/top-guidelines** — **TOP Guidelines** (Transparency and Openness
   Promotion), Center for Open Science. APA journals including *Psychological Bulletin* adopt TOP;
   *Bulletin* requires transparent reporting for empirical work including meta-analyses **effective
-  February 1, 2022** (see 待核实 on the exact level wording on the live page).
+  February 1, 2022** (see 需复核 on the exact level wording on the live page).
 
 ## Owner, publisher, history
 
@@ -66,20 +66,20 @@ wording) on the official page before relying on them — journal policies change
   integrative research reviews (qualitative/narrative and quantitative/meta-analytic); among the
   highest-impact journals in psychology.
 
-## UNVERIFIED / 待核实 items
+## Live-check / 需复核 items
 
 - **Current Editor-in-Chief and editorial term:** not asserted here; confirm the current editor on
-  the APA masthead for Psychological Bulletin. 待核实.
+  the APA masthead for Psychological Bulletin. 需复核.
 - **Exact TOP level / per-dimension requirement wording:** the journal requires transparent reporting
   for empirical work including meta-analyses effective **Feb 1, 2022**; the precise TOP level (e.g.,
   "Level 2") and the per-dimension requirement language should be confirmed on the live submission
-  page, as APA periodically revises it. 待核实.
+  page, as APA periodically revises it. 需复核.
 - **Manuscript length / word limit:** no single fixed maximum is stated; length depends on the type
-  and scope of the review. Confirm any current page/word guidance on the live page. 待核实.
+  and scope of the review. Confirm any current page/word guidance on the live page. 需复核.
 - **Reference-count expectation:** Psychological Bulletin reviews are reference-heavy by nature; no
-  fixed cap is asserted here. 待核实.
+  fixed cap is asserted here. 需复核.
 - **Submission / open-access fee:** no submission fee is stated in the guidelines; confirm any
-  open-access APC handled by APA after acceptance. 待核实.
+  open-access APC handled by APA after acceptance. 需复核.
 - **Precise current list of accepted review types and their definitions** (meta-review vs.
   meta-synthesis vs. qualitative review): confirm on the live guidelines page, since wording is
-  periodically revised. 待核实.
+  periodically revised. 需复核.

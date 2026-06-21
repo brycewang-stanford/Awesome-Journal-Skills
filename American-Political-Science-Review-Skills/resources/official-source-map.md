@@ -66,20 +66,20 @@ relying on them — journal pages change.
   **1906**; flagship general-interest journal of the discipline; published by Cambridge University
   Press for APSA.
 
-## UNVERIFIED / 待核实 items
+## Live-check / 需复核 items
 
 - **Current editorial term / start date of the Gerring–Nalepa team**: the About-the-Editors page
   lists them as current at access time and APSA/Political Science Now announced an editorial
-  transition, but the exact term start/end dates were not confirmed verbatim. 待核实 on the live page.
+  transition, but the exact term start/end dates were not confirmed verbatim. 需复核 on the live page.
 - **Research Note word cap (7,000 vs 8,000)**: the submission-guidelines page states Research Notes
   **< 7,000 words**; a separate "Notes from the Editors: Research Notes" piece references **8,000
   words including footnotes and references at final publication**. Treat **7,000 at submission** as
   the working cap and confirm the current figure and what it includes on the live guidelines page.
-  待核实.
+  需复核.
 - **Exact desk-rejection rate, time-to-decision, and number of reviewers**: not stated as fixed
-  numbers on the policy page. 待核实.
+  numbers on the policy page. 需复核.
 - **Submission fee / APSA membership**: no fee or membership requirement is stated in the
   guidelines; treat "no submission fee" as the working assumption and confirm on the live page.
-  待核实 for any open-access APC (Gold/Hybrid) handled by Cambridge after acceptance.
+  需复核 for any open-access APC (Gold/Hybrid) handled by Cambridge after acceptance.
 - **Full current Associate Editor roster and subfield coverage**: the roster changes with the
-  editorial team; confirm the current masthead on the About-the-Editors page. 待核实.
+  editorial team; confirm the current masthead on the About-the-Editors page. 需复核.

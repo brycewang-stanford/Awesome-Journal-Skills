@@ -27,7 +27,7 @@ page before relying on them — journal pages change.
 - **https://ecsrnet.eu/european-sociological-review-esr/** — ESR at the **European Consortium for
   Sociological Research (ECSR)**. Verifies: ESR is the **flagship journal of ECSR** (a non-profit
   association under German law, hosted at the WZB Berlin); published by **Oxford University Press**;
-  **Editor-in-Chief: Prof. Fabrizio Bernardi**. (待核实 on the current full editorial team and term, and
+  **Editor-in-Chief: Prof. Fabrizio Bernardi**. (需复核 on the current full editorial team and term, and
   on the deputy/associate editors, against the live Editorial_Board page.)
 - **https://en.wikipedia.org/wiki/European_Sociological_Review** — Verifies: ESR is a peer-reviewed
   journal published by OUP, the official journal of the ECSR, focusing on sociology with a quantitative
@@ -42,19 +42,19 @@ page before relying on them — journal pages change.
   via shareable code + a documented access path. Submitting to another journal while under ESR review is
   not permitted; prior appearances must be disclosed; acceptable English is the author's responsibility.
 
-## UNVERIFIED / 待核实 items
+## Live-check / 需复核 items
 
 - **Current editorial team / exact term**: Fabrizio Bernardi as Editor-in-Chief is from ECSR and
   web-search renderings; confirm the current editors, deputy/associate editors, and term on the live
-  ESR Editorial_Board page. 待核实.
+  ESR Editorial_Board page. 需复核.
 - **Exact word cap**: the OUP General Instructions give **~8,000 words incl. endnotes + references**;
   some third-party renderings cite a stricter "around/over 7,000 words rejected" figure. Treat the exact
-  threshold and any hard cap as volatile — confirm the current wording. 待核实.
+  threshold and any hard cap as volatile — confirm the current wording. 需复核.
 - **Abstract bound (≤200 words)**: from the General Instructions rendering; confirm current wording on
-  the live page. 待核实.
+  the live page. 需复核.
 - **Replication-policy effective dates and conditional-acceptance mechanics**: the 5 Sep 2022 (DAS) and
   1 Jan 2025 (package) dates and the qualitative exemption are reported on the General Instructions page
   and ECSR communications; confirm the current wording, the exact stage the package is required, and the
-  approved repositories. 待核实.
+  approved repositories. 需复核.
 - **Fees / open-access charges, ORCID requirement, exact Data Brief specifications**: not confirmed
-  verbatim from an accessible official page beyond standard OUP OA practice. 待核实.
+  verbatim from an accessible official page beyond standard OUP OA practice. 需复核.

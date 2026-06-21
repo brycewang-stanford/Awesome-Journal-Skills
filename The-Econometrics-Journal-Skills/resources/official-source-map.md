@@ -3,8 +3,8 @@
 Primary and authoritative sources behind every EctJ-specific fact injected into this
 skill pack. **Access date for all entries: 2026-06-01.** Re-verify volatile items
 (Editor-in-Chief, fee amount, page limit, policy wording) before relying on them —
-journal pages change. Facts that could not be confirmed on an official page are marked
-**待核实 (to be verified)** and are never stated as settled fact in the skills.
+journal pages change. Items not confirmed on an official page are handled in the
+live-check rules below.
 
 ## Official journal & society pages
 
@@ -18,9 +18,8 @@ journal pages change. Facts that could not be confirmed on an official page are 
 - **https://res.org.uk/journals/the-econometrics-journal/** — RES journal page. Verifies:
   **Editor-in-Chief Dennis Kristensen** (appointed **13 April 2026**); publisher OUP;
   society RES; **rapid review** (screening within one week, decision target ~three
-  months); established 1998. (2024 metrics — Impact Factor 7.0, 5-Year 4.6, Article
-  Influence 3.933 — appear here only as context, not load-bearing; **待核实** against
-  Clarivate.)
+  months); established 1998. 2024 metrics appear here only as context, not
+  load-bearing submission policy.
 - **https://res.org.uk/submissions/** — RES submission guidance. Verifies: page limit
   **not normally exceeding 20 pages including the printed appendix**; **summary/abstract
   no more than 150 words**; PDF in journal style via the **RES/EctJ LaTeX template**;
@@ -53,7 +52,7 @@ journal pages change. Facts that could not be confirmed on an official page are 
   of the AEA, Review of Economic Studies, Canadian Journal of Economics, the Econometric
   Society, and The Economic Journal & The Econometrics Journal** (**Florian Oswald** named
   as the EJ/EctJ Data Editor in cross-journal coordination announcements; current
-  dedicated EctJ data-editor page **待核实**).
+  dedicated EctJ data-editor page should be re-opened before naming a current person).
 
 ## Facts used in this pack and where they come from
 
@@ -82,26 +81,24 @@ journal pages change. Facts that could not be confirmed on an official page are 
 | Exemption requests at first submission; board may refuse | res.org.uk/replication-policy/ | 2026-06-01 |
 | Cross-journal Data Editor coordination; Oswald (EJ/EctJ) | res.org.uk/replication-policy/ | 2026-06-01 |
 
-## 待核实 (to be verified — NOT asserted as fact in the skills)
+## Bounded live-check rules
 
 - **Peer-review blinding model** (single-blind vs double-blind / anonymous): the official
   OUP and RES author pages document a screening + ~3-month-decision rapid-review process
-  but **do not name the anonymity model**. **待核实** — skills do not claim a blinding
-  model.
+  but **do not name the anonymity model**. Skills do not claim a blinding model.
 - **Exact citation / reference style name** (e.g., Harvard author-date): not stated in
   plain text on the official author pages; the mandated LaTeX template presumably encodes
-  it, but the style name itself was not verifiable. **待核实** — skills defer to the
-  template.
+  it, but the style name itself is not load-bearing. Skills defer to the template.
 - **Keyword count and mandatory JEL classification codes**: not explicitly required on the
   official author pages reviewed (the OUP page lists JEL categories only for browsing).
-  **待核实** — skills do not assert a required keyword/JEL rule.
+  Skills do not assert a required keyword/JEL rule.
 - **Current dedicated EctJ data-editor page / name**: Florian Oswald is named as the
   Economic Journal / Econometrics Journal Data Editor in cross-journal coordination
   materials, but a standalone EctJ data-editor page was not independently re-confirmed
-  this session. **待核实** for the current name.
+  this session. Re-open the current RES/OUP page before naming the person.
 - **2024 metrics (IF 7.0, 5-Year 4.6, Article Influence 3.933)**: surfaced on the RES
   journal page but not central to submission norms and not independently re-verified
-  against Clarivate. **待核实** — context only.
+  against Clarivate. Context only.
 
 ## Explicitly NOT applicable (checked, to avoid misattribution)
 

@@ -3,14 +3,14 @@
 Primary and authoritative sources behind every SMR-specific fact injected into this skill pack.
 **Access date for all entries: 2026-06 (检索于 2026-06；以官网为准).** Re-verify volatile items
 (Editor, fee/open-access charge, abstract limit, citation style, data policy wording) before relying
-on them — journal pages change. Facts that could not be confirmed on an official page are marked
-**待核实 (to be verified)** and are never stated as settled fact in the skills.
+on them — journal pages change. Facts that were not confirmed on an official page are marked
+**需复核 (to be verified)** and are never stated as settled fact in the skills.
 
 ## Official journal & publisher pages
 
 - **https://journals.sagepub.com/home/smr** — SAGE Journals SMR home. Verifies: published by **SAGE**;
   the journal's identity as a **quantitative/statistical-methodology** outlet for sociology and the
-  social sciences. (Editor name and term shown on the editorial-board tab; see 待核实 below.)
+  social sciences. (Editor name and term shown on the editorial-board tab; see 需复核 below.)
 - **https://journals.sagepub.com/author-instructions/smr** — SAGE author instructions for SMR (the
   authoritative submission page). Verifies: submission via **ScholarOne Manuscripts**;
   **double-anonymized peer review** (separate title page + anonymized main document); files in **Word,
@@ -43,23 +43,23 @@ on them — journal pages change. Facts that could not be confirmed on an offici
 | Verbatim-comment revised-manuscript response format | journals.sagepub.com/author-instructions/smr | 2026-06 |
 | No submission fee; Sage Choice open-access option is paid | journals.sagepub.com/author-instructions/smr | 2026-06 |
 
-## 待核实 (to be verified — NOT asserted as fact in the skills)
+## 需复核 (to be verified — NOT asserted as fact in the skills)
 
 - **Current Editor / Editor-in-Chief and term dates**: **Felix Elwert** (University of
   Wisconsin–Madison) was announced as Editor-in-Chief (announcement dated December 2020); some
   secondary indexes still list **Christopher Winship** (Harvard). The current editor and exact term
-  were **not re-confirmed on the live SAGE editorial-board page this session** — **待核实**; the skills
+  were **not re-confirmed on the live SAGE editorial-board page this session** — **需复核**; the skills
   do not assert a named editor as load-bearing.
 - **Exact open-access (Sage Choice / Gold OA) charge**: a figure around **US$3,900 plus taxes**
-  surfaced in author-page text, but APC amounts change frequently — **待核实**; confirm on the live
+  surfaced in author-page text, but APC amounts change frequently — **需复核**; confirm on the live
   SAGE OA page before quoting.
-- **Required keyword count**: not confirmed as a fixed number on the author page reviewed — **待核实**;
+- **Required keyword count**: not confirmed as a fixed number on the author page reviewed — **需复核**;
   the skills do not assert a specific count.
 - **Typical article length / word target**: SMR does not appear to enforce a hard word limit (a
-  "~10,000 words typical" figure circulates but is descriptive, not a stated cap) — **待核实**; the
+  "~10,000 words typical" figure circulates but is descriptive, not a stated cap) — **需复核**; the
   skills do not assert a hard length limit.
 - **Impact-factor / ranking metrics**: not load-bearing and not re-verified against Clarivate —
-  **待核实** (context only).
+  **需复核** (context only).
 
 ## Explicitly NOT applicable (checked, to avoid misattribution)
 

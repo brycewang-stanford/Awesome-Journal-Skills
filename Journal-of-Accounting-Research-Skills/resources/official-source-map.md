@@ -5,7 +5,7 @@ in this skill pack. Sources were searched and corroborated on **2026-06-01**. Se
 official pages were not directly fetchable on that date: the Wiley author-guidelines
 page (`forauthors.html`) returned **HTTP 402** to direct fetch, so the facts taken from
 it are corroborated **as indexed by web search** rather than by a live scrape. Items that
-could not be confirmed on any official JAR/Wiley/Chicago Booth page are marked **待核实**
+was not confirmed on any official JAR/Wiley/Chicago Booth page are marked **需复核**
 (to be verified). Time-sensitive items (editor roster, fees, conference theme, impact
 factor) are flagged **approximate** or carry an "as of" date — always re-confirm on the
 official page before relying on them.
@@ -41,12 +41,12 @@ official page before relying on them.
 - **Citation style:** a custom JAR house author-date style (consistent with Chicago author-date conventions used across Chicago Booth journals); not APA/numeric; authors are directed to match recent JAR articles. (#10, #1)
 - **Dominant methodology:** empirical-archival capital-markets research (large-sample financial-statement/market-data econometrics) is the historically defining methodology, alongside strong experimental and analytical/theory streams and a growing field-study/registered-report presence. (#1, #7, #8)
 
-## Items flagged 待核实 (unverified) or approximate
+## Items flagged 需复核 (unverified) or approximate
 
-- **Abstract word limit:** 待核实 — not found on any official JAR/Wiley/Chicago Booth page accessible on 2026-06-01; the likely location (Wiley `forauthors.html`) returned HTTP 402 to direct fetch and search did not surface a JAR-specific number.
-- **Overall manuscript length / word or page cap:** 待核实 — not found on an official JAR source (Wiley `forauthors.html` paywalled to direct fetch; no JAR-specific number surfaced). JAR is generally understood not to enforce a hard page cap on regular manuscripts, but this could not be confirmed from an official statement.
+- **Abstract word limit:** 需复核 — not found on any official JAR/Wiley/Chicago Booth page accessible on 2026-06-01; the likely location (Wiley `forauthors.html`) returned HTTP 402 to direct fetch and search did not surface a JAR-specific number.
+- **Overall manuscript length / word or page cap:** 需复核 — not found on an official JAR source (Wiley `forauthors.html` paywalled to direct fetch; no JAR-specific number surfaced). JAR is generally understood not to enforce a hard page cap on regular manuscripts, but this was not confirmed from an official statement.
 - **"Double-anonymized for regular manuscripts":** authoritative-but-indirect — surfaced from the official Wiley author-guidelines page via search-engine indexing rather than a direct fetch (page returns HTTP 402). Treat as authoritative until the live Wiley page is confirmed.
-- **Citation-style manual name:** 待核实 — described as a custom author-date JAR house style via a reference-manager vendor (Paperpile), not the journal. The journal's own page directs authors to recent articles rather than naming a manual; "Chicago author-date" is inferred, not officially stated.
-- **Article-type taxonomy and the four-papers-per-two-years cap:** taken from the official Wiley `forauthors.html` page as indexed by search; could not be re-confirmed by direct fetch — treat as authoritative-but-indirect.
+- **Citation-style manual name:** 需复核 — described as a custom author-date JAR house style via a reference-manager vendor (Paperpile), not the journal. The journal's own page directs authors to recent articles rather than naming a manual; "Chicago author-date" is inferred, not officially stated.
+- **Article-type taxonomy and the four-papers-per-two-years cap:** taken from the official Wiley `forauthors.html` page as indexed by search; was not re-confirmed by direct fetch — treat as authoritative-but-indirect.
 - **Editor roster currency:** Christian Leuz officially stepped down as Senior Editor effective June 30, 2025 per JAR news; the current Senior Editor list above is from the official editorial-information page (#4). A Wikipedia snapshot may still show Leuz — prefer #4. Re-confirm the live masthead.
 - **Impact factor (~4.9, 2023):** approximate; sources and years diverge — treat any single figure as approximate and confirm on the official/JCR source.

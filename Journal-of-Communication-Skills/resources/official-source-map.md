@@ -28,7 +28,7 @@ relying on them — journal pages change.
 - **https://academic.oup.com/joc**
   — Journal of Communication home (Oxford Academic). Verifies: publisher = **Oxford University Press**;
   society = **International Communication Association (ICA)**; ISSN **0021-9916** (print) / **1460-2466**
-  (online); six issues per year; Editors-in-Chief listed at access time (see 待核实).
+  (online); six issues per year; Editors-in-Chief listed at access time (see 需复核).
 
 ## Society, publisher & ICA journals
 
@@ -48,22 +48,22 @@ relying on them — journal pages change.
   — OUP APC waiver and discount policy. Verifies: **Research4Life (Tier 3) APC waivers** and
   discretionary waivers for authors unable to pay.
 
-## UNVERIFIED / 待核实 items
+## Live-check / 需复核 items
 
 - **Current Editors-in-Chief and editorial term**: the home page listed Editors-in-Chief (e.g., David
   R. Ewoldsen, Natascha Just, Chul-joo "CJ" Lee, Keren Tenenboim-Weinblatt) at access time, but the
-  exact term start/end dates were not confirmed verbatim. 待核实 on the live masthead.
+  exact term start/end dates were not confirmed verbatim. 需复核 on the live masthead.
 - **Exact APC amount and currency** for the JoC open-access option: not stated as a fixed figure on the
-  pages fetched; the price list is maintained separately by OUP and changes. 待核实 on the live OUP
+  pages fetched; the price list is maintained separately by OUP and changes. 需复核 on the live OUP
   charges page.
 - **Exact decision timeline**: search results referenced decisions "within 90 days" / "within 120 days"
   in different places; treat as approximate and confirm the current figure on the live guidelines page.
-  待核实.
+  需复核.
 - **Registered Reports track**: the pages fetched confirm **preregistration** support and an Open Science
   Badge for preregistration, but did **not** confirm a formal **Registered Reports** (Stage 1/Stage 2)
-  submission track for JoC. Do not assume one exists; 待核实 on the live guidelines / calls-for-papers.
+  submission track for JoC. Do not assume one exists; 需复核 on the live guidelines / calls-for-papers.
 - **Number of reviewers and desk-rejection criteria**: external review is "usually by two or three"
   referees per search results, but the formal desk-screening criteria are not enumerated on the fetched
-  pages. 待核实.
+  pages. 需复核.
 - **JoC Forum exact remit and current word band**: the 3,000–6,000-word band is stated on the
-  guidelines page; confirm whether the Forum is open for unsolicited submissions on the live page. 待核实.
+  guidelines page; confirm whether the Forum is open for unsolicited submissions on the live page. 需复核.

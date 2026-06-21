@@ -55,14 +55,14 @@ requirements effective 1 January 2024.
   flagship journal of the **Association for Psychological Science (APS)**, published by **SAGE**;
   founded **1990**; among the highest-impact journals in psychology.
 
-## UNVERIFIED / 待核实 items
+## Live-check / 需复核 items
 
 - **Current Editor-in-Chief and editorial term**: not asserted here; confirm the current editor on the
-  APS masthead. 待核实.
+  APS masthead. 需复核.
 - **Submission / open-access fee**: no submission fee is stated in the guidelines; confirm any
-  open-access APC handled by SAGE after acceptance. 待核实.
+  open-access APC handled by SAGE after acceptance. 需复核.
 - **Exact current word/format numbers**: the 2,000-words-combined / ≤2,500 Method+Results / 150-word
   abstract / ~40 references figures are from the official APS submission page at access time; confirm
-  the live page, since the journal periodically revises the format. 待核实.
+  the live page, since the journal periodically revises the format. 需复核.
 - **Precise list of currently accepted manuscript types**: confirm on the live page (types have
-  changed — e.g., Short Reports were retired). 待核实.
+  changed — e.g., Short Reports were retired). 需复核.

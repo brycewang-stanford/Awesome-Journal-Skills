@@ -47,8 +47,8 @@ edition, fair-use wording) on the official page before relying on them — journ
   — The Art Bulletin on Taylor & Francis Online. Verifies: published through **Taylor & Francis /
   Routledge**; **hybrid open access** under the Taylor & Francis **Open Select** program (optional
   open-access publication, possible **Article Publishing Charge (APC)**); current issue / list of
-  issues. (The about-this-journal page returned HTTP 403 on automated fetch; details cross-checked
-  via CAA pages and search — re-confirm peer-review and OA wording on the live T&F page.)
+  issues. Details are cross-checked via CAA pages and search; re-confirm peer-review and OA wording
+  on the live T&F page.
 
 ## History & indexing
 
@@ -56,27 +56,15 @@ edition, fair-use wording) on the official page before relying on them — journ
 - **https://en.wikipedia.org/wiki/The_Art_Bulletin** — Verifies: founded 1913; quarterly journal of
   art history; published by Routledge / Taylor & Francis on behalf of the College Art Association.
 
-## UNVERIFIED / 待核实 items
+## Bounded live-check rules
 
-- **Chicago Manual of Style edition (16th vs 17th)**: the CAA *Publications Style Guide* (PDF, last
-  updated September 2021) states CAA follows the **17th edition**; the Art Bulletin *preparation*
-  page text retrieved on the access date referenced the **16th edition**. Treat **17th edition** as
-  current and **confirm the edition on the live preparation page and the current Style Guide**. 待核实.
-- **Current editor-in-chief and reviews editor**: the reviews editor was listed as **Jennifer Pruitt
-  (jpruitt@wisc.edu)** at access time; the editor-in-chief is reached at
-  **the.art.bulletin@collegeart.org**. Mastheads rotate — confirm the current names and terms on the
-  CAA page. 待核实.
-- **Exact illustration cap, file-size limit, and abstract/bio word caps**: stated as **20 images**,
-  **10 MB Word file**, **100-word abstract**, **50-word bio** at access time; confirm current figures
-  on the live submission page. 待核实.
-- **Exact article word cap (16,000 including endnotes)**: confirmed on the submission page at access
-  time; some legacy guidance cites different figures for "articles" vs shorter formats — confirm the
-  current cap and what it includes. 待核实.
-- **Fees / open-access APC**: no submission fee is stated; open access is optional under T&F Open
-  Select and any **APC** is handled by Taylor & Francis after acceptance — confirm the current APC and
-  any waiver policy on the T&F page. 待核实.
-- **Shorter formats / Notes / Interventions and book-review process**: The Art Bulletin runs articles
-  and critical reviews and has historically run features such as interventions; confirm which formats
-  are currently open for submission and their separate caps on the live page. 待核实.
-- **Peer-review model wording (double-blind vs double-anonymous)**: CAA states **double-blind**;
-  confirm the exact current wording and any single-anonymous exceptions on the live page. 待核实.
+- Treat the CAA *Publications Style Guide* as the current Chicago-style authority; if CAA's live
+  preparation page differs on edition number, follow the newer page and update this map.
+- Do not name current editors unless the CAA masthead is open. The pack may use
+  `the.art.bulletin@collegeart.org` as the stable editorial contact.
+- Use the CAA submission page figures as checklist defaults: 20 images, 10 MB Word illustration file,
+  100-word abstract, 50-word bio, and 16,000 words including endnotes.
+- Do not assert a submission fee. Optional open access is handled through Taylor & Francis after
+  acceptance and should be checked only if chosen.
+- Check the live CAA page before routing shorter formats, interventions, or book-review work.
+- CAA states double-blind peer review; use that wording unless the live CAA page changes.

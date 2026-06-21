@@ -64,25 +64,25 @@ on the official page before relying on them — journal pages change.
 - **https://portal.issn.org/resource/ISSN/0002-7189** (print) and
   **https://portal.issn.org/resource/ISSN/1477-4585** (online) — Verifies ISSNs; **quarterly**.
 
-## UNVERIFIED / 待核实 items
+## Live-check / 需复核 items
 
 - **Current Editor(s) and editorial term**: the masthead/editorial-board page lists the current team at
   access time, but the exact editor names, institutions, and term start/end dates were not confirmed
-  verbatim here. 待核实 on the live Editorial Board page.
+  verbatim here. 需复核 on the live Editorial Board page.
 - **Current citation-style edition**: the downloadable style sheet directs authors to the **Chicago
   Manual of Style, 15th edition** for unaddressed issues; CMOS is now in its 18th edition, so the live
   style guide may reference a newer edition. Treat the in-text author-date JAAR style as primary and
-  confirm the current CMOS edition referenced. 待核实.
+  confirm the current CMOS edition referenced. 需复核.
 - **Exact article word range and what it includes**: the working figure is **~8,000–12,000 words
   including references and footnotes**; confirm the current range and inclusions on the live guidelines
-  / style guide. 待核实.
+  / style guide. 需复核.
 - **AAR membership requirement for submission**: no membership requirement for submitting an article was
   found; AAR membership confers access to JAAR. Treat "membership not required to submit" as the working
-  assumption and confirm on the live page. 待核实.
+  assumption and confirm on the live page. 需复核.
 - **Open-access APC amount**: an OA option with a charge exists, but the exact APC figure and current
-  Read & Publish coverage were not confirmed. 待核实 on the OUP open-access options page.
+  Read & Publish coverage were not confirmed. 需复核 on the OUP open-access options page.
 - **Precise anonymization file-metadata instructions**: the system uses a "Main Document (anonymous)"
   designation and a separate Title Page, but step-by-step instructions for stripping document
-  properties were not quoted on the public pages. 待核实 in the downloadable Style Guide.
+  properties were not quoted on the public pages. 需复核 in the downloadable Style Guide.
 - **Book review length and current Book Review Editor**: reviews are commissioned; the specific length
-  and the current Book Review Editor's name change over time. 待核实 on the live book-review page.
+  and the current Book Review Editor's name change over time. 需复核 on the live book-review page.

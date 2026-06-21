@@ -6,8 +6,8 @@ of the four *American Economic Journals* published by the **American Economic
 Association (AEA)**; it is the AEA's quarterly broad-interest macroeconomics
 journal (founded 2009). Re-verify volatile items (editors, fees, page charges,
 length guidance, policy effective dates) before relying on them — AEA pages
-change. Items that could not be confirmed from a primary fetch are marked
-**待核实 (to be verified)**.
+change. Items that were not confirmed from a primary fetch are marked
+**需复核 (to be verified)**.
 
 ## Official AEA pages (publisher / editorial authority)
 
@@ -29,7 +29,7 @@ change. Items that could not be confirmed from a primary fetch are marked
   — Editors of AEJ: Macroeconomics. Verifies: Editor **Ayşegül Şahin**
   (Princeton University); coeditors **Francesco Bianchi** (Johns Hopkins),
   **Şebnem Kalemli-Özcan** (Brown), and **Vincenzo Quadrini** (USC). Accessed
-  2026-06. (Full associate-editor roster not transcribed here; **待核实** if a
+  2026-06. (Full associate-editor roster not transcribed here; **需复核** if a
   complete list is needed.)
 - **https://www.aeaweb.org/journals/mac/editorial-policy**
   — AEJ: Macroeconomics Editorial Policy. Verifies: **single-blind** peer review
@@ -94,18 +94,18 @@ change. Items that could not be confirmed from a primary fetch are marked
 | Restricted-access data exceptions (5-year retention; public code; disclosure) | data-code-policy |
 | Print ISSN 1945-7707 / Online ISSN 1945-7715 | submissions (journal masthead) |
 
-## Unverified items (待核实)
+## Unverified items (需复核)
 
 - **Complete associate-editor roster as of 2026-06** — the editors page lists the
   Editor and the named coeditors above; the full associate-editor list was not
-  transcribed and is **待核实**.
+  transcribed and is **需复核**.
 - **Exact current fee schedule and page charge** — fees and the per-page charge
   are volatile; the figures above were read from the submissions page in 2026-06
   but should be re-confirmed before relying on a specific dollar amount (检索于
   2026-06；以官网为准).
 - **Precise income-tier country lists** — the fee tiers depend on a
   country-income classification maintained by the AEA; the exact current
-  country-to-tier mapping is **待核实**.
+  country-to-tier mapping is **需复核**.
 - **AEJ: Macro-specific submission-system URL** — submission is via the AEA
   submission system reached from the journal page; the exact portal endpoint may
-  change and is **待核实** beyond the journal submissions page above.
+  change and is **需复核** beyond the journal submissions page above.

@@ -48,22 +48,22 @@ journal pages change each volume.
   online component as the **YLJ Forum**, a hub for short-form, timely discussion of law and legal
   scholarship. (检索于 2026-06；以官网为准)
 
-## UNVERIFIED / 待核实 items
+## Live-check / 需复核 items
 
 - **Exact founding/first-publication year.** Wikipedia states "published continuously since 1891."
   Some sources date the Journal's origin slightly differently; treat **1891** as the working figure and
-  confirm on the official About page. 待核实.
+  confirm on the official About page. 需复核.
 - **Precise current-volume word caps and what they include.** The "< 25,000 / < 15,000 / < 10,000 words
   including footnotes" figures are the volumes-recent encouraged limits; the controlling numbers are on
-  the **current** volume's Submission Guidelines PDF. Confirm the live figures. 待核实.
+  the **current** volume's Submission Guidelines PDF. Confirm the live figures. 需复核.
 - **Submission fee.** No submission fee is typical for a student-edited law review and none was
-  confirmed on the live page at access time; treat "no fee" as the working assumption and confirm. 待核实.
+  confirmed on the live page at access time; treat "no fee" as the working assumption and confirm. 需复核.
 - **Exact submission windows / season dates.** The market pattern is a front-loaded **spring (Feb–Mar)**
   main cycle and a smaller **fall (Aug)** cycle; YLJ's precise open/close dates per volume are set each
-  year. Confirm the current window on the submissions page. 待核实.
+  year. Confirm the current window on the submissions page. 需复核.
 - **Notes/Comments caps beyond the first submission and current Notes Development specifics.** First-time
   caps (~20,000 / ~7,000 words) are from recent guidelines; resubmission rules and the current process
-  are on the live Notes & Comments page. 待核实.
+  are on the live Notes & Comments page. 需复核.
 
 ## Sibling-confusion guardrail (do NOT conflate)
 

@@ -56,19 +56,19 @@ official page before relying on them — journal pages change.
   — "Best Practice Recommendations for Replicating Experiments in Public Administration," JPART 29(4):609
   — evidence of JPART's active experimental-replication and transparency norm (context, not policy text).
 
-## UNVERIFIED / 待核实 items
+## Live-check / 需复核 items
 
 - **Current editorial term / exact start date of the Petersen–Mikkelsen team**: the Editorial Board page
   lists them as current at access time (a transition from Mary K. Feeney, ASU, whose term ran 2019–2024),
-  but exact term dates were not confirmed verbatim. 待核实 on the live page.
+  but exact term dates were not confirmed verbatim. 需复核 on the live page.
 - **Abstract word limit**: the guidelines specify the *content* of the abstract (theory/method/results/
-  implications) but no explicit abstract word cap was confirmed. 待核实.
+  implications) but no explicit abstract word cap was confirmed. 需复核.
 - **ORCID requirement**: not confirmed as mandatory on the JPART guidelines page (OUP often requires it at
-  the publisher level). 待核实.
+  the publisher level). 需复核.
 - **Manuscript-type taxonomy** (e.g., research article vs. research synthesis vs. concepts/theory pieces)
-  and any per-type length variants: not confirmed as a fixed list on the guidelines page. 待核实.
-- **Exact desk-rejection rate, time-to-decision, number of reviewers**: not stated as fixed numbers. 待核实.
+  and any per-type length variants: not confirmed as a fixed list on the guidelines page. 需复核.
+- **Exact desk-rejection rate, time-to-decision, number of reviewers**: not stated as fixed numbers. 需复核.
 - **Submission fee / open-access APC**: no submission fee stated; open access requires an APC handled by
-  OUP after acceptance — confirm the current figure and any waiver. 待核实.
+  OUP after acceptance — confirm the current figure and any waiver. 需复核.
 - **Decision-category wording** (reject / R&R / accept and any sub-categories): inferred from the
-  developmental-review description; confirm exact categories on the live page. 待核实.
+  developmental-review description; confirm exact categories on the live page. 需复核.

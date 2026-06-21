@@ -1,37 +1,37 @@
 # JCF Official Source Map
 
-Primary and authoritative sources behind the Journal of Corporate Finance (JCF) facts injected into this skill pack.
-Access date for all entries: **2026-06-20**. Re-verify volatile items (fee, editors, abstract cap, data policy wording, review model) before relying on them — journal pages change, and several Elsevier/ScienceDirect pages block automated fetches.
+Primary source map for Journal of Corporate Finance (JCF)-specific facts encoded
+in this pack. Official pages were re-checked on **2026-06-21**.
 
-## Official journal pages (Elsevier / ScienceDirect)
+## Official journal pages
 
-- **https://www.sciencedirect.com/journal/journal-of-corporate-finance/publish/guide-for-authors** — JCF Guide for Authors (ISSN **0929-1199**). Direct automated fetch returns HTTP 403; the facts below were each corroborated across 2–3 independent search-engine reads of this official ScienceDirect Guide-for-Authors URL on 2026-06-20. Verifies:
-  - Publisher = **Elsevier**; the journal publishes original manuscripts **or shorter format papers** in theoretical and empirical corporate finance. *(accessed 2026-06-20)*
-  - **Abstract ≤ 250 words** ("a concise and factual abstract which does not exceed 250 words"); references should be avoided in the abstract (cite author and year if essential); non-standard abbreviations defined at first mention; **1 to 7 keywords** required (English, single words preferred). *(accessed 2026-06-20)*
-  - Each new submission must be accompanied by a **US$340.00 submission fee**; submissions are considered **only after payment** during submission; the fee is **non-refundable**, and **desk-rejected articles are not refunded**. If a manuscript is transferred via the **article transfer service**, no second submission fee is required. Desk rejections occur if a paper does not fit aims and scope or its incremental contribution/quality is below the journal's bar. *(accessed 2026-06-20)*
-  - **Single anonymized (single-blind) review**; suitable submissions are sent to a **minimum of two independent reviewers**; an active **desk-rejection policy** rejects a non-trivial fraction without full review. *(accessed 2026-06-20)*
-  - At initial submission, **"your paper, your way"** — references may be in any consistent style provided all required elements are present (author names, journal/book and chapter/article titles, year, volume, article number/pagination); DOIs encouraged; formal Elsevier reference styling applies at revision/acceptance. *(accessed 2026-06-20)*
-  - **Research data = Elsevier Option C**: state data availability at submission; deposit/cite/link research data (including software, code, models, algorithms) in a relevant repository, or provide a statement explaining why data cannot be shared. *(accessed 2026-06-20)*
-  - **Free integrated SSRN preprint posting** offered at submission (SSRN, Elsevier's preprint/early-research repository; manuscript made publicly available immediately). *(accessed 2026-06-20)*
-  - Mandatory **generative-AI disclosure**: authors must declare use of generative AI in manuscript preparation at submission, and **AI tools must not be listed/cited as an author** (authorship implies human responsibility). Generative AI is **not currently permitted for reviewers/editors** in peer review. Required **competing-interest declaration** via Elsevier's declarations tool. *(accessed 2026-06-20)*
-  - Submission is via **Editorial Manager**, reached from the ScienceDirect "Submit your article" link. *(accessed 2026-06-20)*
+| # | URL | What it verifies | Accessed |
+|---|---|---|---|
+| 1 | https://www.sciencedirect.com/journal/journal-of-corporate-finance | ScienceDirect journal home; aims and scope; active desk-rejection policy; two-round convergence expectation; conflict policy; APC USD 4,520 excluding taxes; subscription route has no publication fee; submission-to-decision metrics; current Co-Editors-in-Chief H. Almeida and K. Hankins; print and online ISSNs | 2026-06-21 |
+| 2 | https://www.sciencedirect.com/journal/journal-of-corporate-finance/publish/guide-for-authors | Guide for Authors; single-anonymized review; minimum two reviewers for suitable submissions; new-submission fee; abstract and keyword limits; Option C research-data policy; data statement required; Editorial Manager submission; generative-AI and competing-interest rules; reference flexibility at initial submission | 2026-06-21 |
+| 3 | https://www.sciencedirect.com/journal/journal-of-corporate-finance/about/editorial-board | Full editorial board; Co-Editors-in-Chief H. Almeida and K. Hankins; Co-Editors including M. Bennedsen, R. Iyer, S. Kedia, E. Lyandres, T. Wang, and A. Zaldokas; associate-editor roster | 2026-06-21 |
+| 4 | https://www.editorialmanager.com/corfin/ | Editorial Manager submission entry linked by the Guide for Authors | 2026-06-21 |
 
-## Editors
+## Verified facts encoded in the pack
 
-- **https://www.sciencedirect.com/journal/journal-of-corporate-finance/about/announcements/introducing-new-editors-in-chief** — "The new Editors-in-Chief and Co-Editors of the Journal of Corporate Finance." Verifies (corroborated across multiple search-engine reads on 2026-06-20; the page redirects/403s on direct fetch): **Co-Editors-in-Chief Kristine (Kristine W.) Hankins** (University of Kentucky) and **Heitor Almeida** (University of Illinois at Urbana-Champaign), with the team effective **1 January 2021**. Co-Editors named in the same announcement: **Morten Bennedsen** (INSEAD / University of Copenhagen), **Simi Kedia** (Rutgers University), **Evgeny Lyandres** (Tel Aviv University), **Xuan Tian** (Tsinghua University), and **Tracy (Yue) Wang** (University of Minnesota). *(accessed 2026-06-20)*
-- **https://www.sciencedirect.com/journal/journal-of-corporate-finance/about/editorial-board** — JCF editorial board page (direct fetch 403). Search-engine reads on 2026-06-20 corroborate **Evgeny Lyandres** (Tel Aviv University) as a Co-Editor and **Omrane Guedhami** (University of South Carolina) and **Michael Ewens** among the Associate Editors; **Douglas (D.J.) Cumming** is listed as Managing Editor-in-Chief. *(accessed 2026-06-20)*
+- **Publisher / identity:** Elsevier / ScienceDirect journal, print ISSN 0929-1199 and online ISSN 1872-6313. (#1)
+- **Scope:** high-quality original manuscripts or shorter-format papers in theoretical and empirical corporate finance, including financial structure, governance, product markets, payout, labor, innovation, risk management, financial contracting, international finance, and intersections with macroeconomics, asset pricing, household/behavioral finance, fintech/blockchain, law, financial intermediation, and market microstructure. (#1, #2)
+- **Current Co-Editors-in-Chief:** H. Almeida (University of Illinois Urbana-Champaign) and K. Hankins (University of Kentucky). (#1, #3)
+- **Co-Editors visible on the 2026-06-21 editorial-board page:** M. Bennedsen, R. Iyer, S. Kedia, E. Lyandres, T. Wang, and A. Zaldokas. (#3)
+- **Correction retained:** prior local text named Lyandres/Lehar/Parlour as EiCs. The current official pages show Lyandres as a Co-Editor, Lehar/Parlour only as special-issue editors for a blockchain collection, and Almeida/Hankins as Co-Editors-in-Chief. (#1, #3)
+- **Review model:** single-anonymized review; suitable submissions typically go to at least two reviewers; editors make final decisions. (#2)
+- **Desk policy:** active desk-rejection policy; a non-trivial fraction of papers may be rejected without detailed review; desk-rejected papers are not refunded the submission fee. (#1, #2)
+- **Decision rhythm:** journal home page states an expectation that most papers converge to a decision within two rounds. (#1)
+- **Submission fee:** each new submission requires a non-refundable US$340 fee, paid during submission; article-transfer submissions do not require a second fee. (#2)
+- **Submission system:** Editorial Manager. (#2, #4)
+- **Abstract / keywords:** abstract maximum 250 words; 1-7 English keywords. (#2)
+- **Research data:** Elsevier research-data **Option C** applies: deposit research data in a relevant repository and cite/link it, or explain why data cannot be shared. A data-availability statement is required at submission. (#2)
+- **Reference handling:** no strict reference-format requirement at initial submission as long as complete elements are present and the style is consistent; journal style is applied after acceptance/proof. (#2)
+- **Open access:** hybrid journal; APC displayed as USD 4,520 excluding taxes; subscription route has no publication fee charged to authors. (#1)
+- **AI and declarations:** generative-AI use must be declared for manuscript preparation; AI tools cannot be authors; Elsevier declaration-of-competing-interest workflow applies. (#2)
 
-> CORRECTION (2026-06-20): A prior version of this map listed the Editors-in-Chief as "Evgeny Lyandres, Alfred Lehar (Calgary), and Christine Parlour (Berkeley)." Lyandres is a **Co-Editor** (not EiC); **Lehar and Parlour do not appear in any official JCF editorial source** and have been removed as unverifiable/incorrect. The confirmed Co-Editors-in-Chief are **Hankins and Almeida**.
+## Bounded live-check rules
 
-## Scope (from Guide for Authors and journal description)
-
-- Field focus = **corporate finance (empirical and theoretical)**: financial structure, governance, payout, financial contracting, risk management, innovation, M&A, and international corporate finance, including work at the intersection of corporate finance and macroeconomics, asset pricing, household/behavioral finance, fintech/blockchain, law, financial intermediation, and market microstructure. Source: ScienceDirect journal homepage + Guide for Authors. *(accessed 2026-06-20)*
-
-## UNVERIFIED / 待核实 items
-
-- **Manuscript length / word / page ceiling**: 待核实 — no explicit numeric maximum was found in the official Guide for Authors; the journal references "original manuscripts or shorter format papers" without a stated hard ceiling. Recorded as "no fixed limit" rather than a number. (Re-checked 2026-06-20: still no numeric ceiling found.)
-- **Revision / resubmission fee**: the official guide consistently states **US$340.00 (non-refundable)** for each new submission and confirms **no second fee on article-transfer**, but whether a separate (lower) **revision/resubmission fee** exists is **待核实** — not stated in the official guide. A crowd-sourced EconJobRumors fee table ($300 new / $270 revision) is non-authoritative and likely outdated; treat US$340 as current.
-- **Open-access Article Publishing Charge (APC)**: corroborated on 2026-06-20 via search-engine reads of the ScienceDirect journal page as **USD 4,520 (excluding taxes)** for the hybrid gold-open-access option; the exact figure could not be rendered from the Elsevier APC/pricing page directly (403), so treat the amount as **subject to annual revision — re-verify before quoting**. The US$340 figure is the separate submission/handling fee (well corroborated), **not** the APC. JCF is a **hybrid** (subscription + optional gold OA) title.
-- **Exact current editor roster as of 2026-06-20**: the **Co-Editors-in-Chief (Hankins, Almeida; effective 2021)** and the Co-Editors are corroborated across multiple search-engine reads of the official announcement and editorial-board pages, but the live ScienceDirect editorial-board page blocks direct fetch (403), so whether additional co-editors / associate editors have since been added or rotated off in 2026 is **待核实** — re-verify against the rendered editorial-board page when accessible.
-- **Dedicated mandatory replication/code archive (JFE-Data-Archive style)**: **待核实 / not found** — JCF uses the standard Elsevier data-availability-statement (Option C) framework, **not** a finance-society-style mandatory code/data archive.
-- **Fetch caveat**: ScienceDirect, the elsevier.com / journals.elsevier.com journal pages, and mirror sites returned HTTP 403 (or 302 redirects to the generic ScienceDirect browse page) to direct automated fetch on 2026-06-20; every guide-for-authors and editor fact above was therefore corroborated across 2–3 independent search-engine reads of the official ScienceDirect/Elsevier URLs rather than a single rendered page fetch.
+- Do not encode a separate revision or resubmission fee: the official guide states the US$340 new-submission fee and article-transfer exception but does not state a separate revision fee.
+- Do not encode a hard manuscript word/page ceiling: the official pages describe original manuscripts and shorter-format papers but do not publish a numeric maximum in the sections read on 2026-06-21.
+- Treat APC, editor roster, and journal metrics as volatile; re-open the ScienceDirect pages before quoting them in submission-ready advice.

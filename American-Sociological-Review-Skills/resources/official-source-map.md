@@ -1,62 +1,36 @@
 # ASR Official Source Map
 
-Primary and authoritative sources behind the ASR-specific facts injected into this skill pack.
-Access date for all entries: **2026-06-01**. Re-verify volatile items (editors and term, processing
-fee, word/abstract caps, data policy) on the official page before relying on them — journal pages
-change, and the SAGE author-instructions page returned HTTP 403 to automated fetch at access time
-(facts below come from the official SAGE submission-guidelines PDF and ASA pages plus web-search
-renderings).
+Primary source map for American Sociological Review (ASR)-specific facts encoded
+in this pack. Official pages were re-checked on **2026-06-21**.
 
-## Official submission & author pages
+## Official submission and policy pages
 
-- **https://journals.sagepub.com/author-instructions/asr** — ASR Submission Guidelines (SAGE).
-  Verifies: **Articles ≤ 15,000 words** including text, references, and footnotes (tables and figures
-  excluded); **Comments/Replies ≤ 3,000 words**; **abstract 150-200 words** with no identifying
-  information; masked review requires an **anonymous manuscript without a title page** plus a
-  **separate title page** (institutional affiliations, acknowledgments, word count, corresponding-
-  author contact); authors **may cite their own work but must not use wording that identifies them**;
-  text **double-spaced, Times New Roman 12-point, ≥1-inch margins**; submission via **Sage Track**
-  (ScholarOne Manuscript Central) at `mc.manuscriptcentral.com/asr`; a **$25.00 non-refundable
-  manuscript processing fee** is paid through Sage Track, **waived for ASA student members**.
-  (Page returned HTTP 403 to automated fetch; confirmed via the SAGE PDF below + web renderings.)
-- **https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-american-sociological-review_-sage-journals.pdf**
-  — Official SAGE ASR submission-guidelines PDF (same content as the author-instructions page).
-- **https://www.asanet.org/publications/journals/american-sociological-review/** — ASR at the
-  American Sociological Association. Verifies: ASR is the ASA's flagship journal; owner = **American
-  Sociological Association**; published by **SAGE**.
-- **https://www.asanet.org/publications/journals/submission-information-for-asa-publications/** — ASA
-  submission information. Verifies: shared ASA submission norms, ethics, and the data-sharing policy.
+| # | URL | What it verifies | Accessed |
+|---|---|---|---|
+| 1 | https://journals.sagepub.com/author-instructions/asr | ASR Submission Guidelines; Sage Track submission; anonymous manuscript and title-page separation; abstract and word limits; manuscript fee and ASA student-member waiver; formatting, style, ethics, and data-sharing requirements | 2026-06-21 |
+| 2 | https://www.asanet.org/publications/journals/american-sociological-review/ | ASR page at the American Sociological Association; flagship identity, ASA ownership, and SAGE publication context | 2026-06-21 |
+| 3 | https://www.asanet.org/publications/journals/submission-information-for-asa-publications/ | ASA shared submission, ethics, and data-sharing norms for ASA journals | 2026-06-21 |
+| 4 | https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-american-sociological-review_-sage-journals.pdf | SAGE ASR submission-guidelines PDF fallback for the same author-instruction content | 2026-06-21 |
 
-## Editors, ownership, history
+## Verified facts encoded in the pack
 
-- ASR Editorial Office (web-search rendering of the SAGE/ASA masthead): **David Cort, Laurel
-  Smith-Doerr, Donald Tomaskovic-Devey, and Joya Misra**, Department of Sociology, **University of
-  Massachusetts–Amherst** (term **2024-2028**); office email `asr@umass.edu`. 待核实 on the live
-  masthead for the current full editorial team.
-- **https://en.wikipedia.org/wiki/American_Sociological_Review** — Verifies: ASR founded **1936**;
-  published by **SAGE** for the **ASA**; one of the most-cited journals in sociology.
+- **Publisher / owner:** ASR is the American Sociological Association flagship journal and is published by SAGE. (#1, #2)
+- **Submission route:** Sage Track / ScholarOne at `mc.manuscriptcentral.com/asr`. (#1)
+- **What ASR evaluates:** general-interest sociology, strong research designs/methods, broad sociological appeal, and theory development that transcends subfields. (#1)
+- **Anonymous review files:** authors upload an anonymous manuscript without title page plus a separate title page carrying institutional affiliations, acknowledgments, word count, and corresponding-author contact information. (#1)
+- **Previously rejected papers:** ASR does not consider papers previously rejected at ASR. (#1)
+- **Processing fee:** USD 25 non-refundable manuscript processing fee, paid through Sage Track; required for new manuscripts unless authored by ASA student members. (#1)
+- **Article length:** Articles may not exceed 15,000 words including text, references, and footnotes, excluding tables and figures. (#1)
+- **Comments/Replies:** capped at 3,000 words and uploaded directly in Sage Track. (#1)
+- **Abstract:** upload abstract of 200 words or fewer; manuscript-preparation section describes 150-200 words and no author-identifying information. Use the stricter 200-word ceiling in submission checks. (#1)
+- **Formatting:** double-spaced text, notes, and references; Times New Roman 12 point; at least 1-inch margins. (#1)
+- **Self-citation / anonymity:** authors may cite their own work but must avoid wording that identifies them; dissertations, working drafts, and unpublished papers generally should not be self-cited in identifiable ways. (#1)
+- **Style:** ASA Style Guide (7th ed., 2022); author-year citations in text with ASA-style notes and references. (#1)
+- **Ethics:** simultaneous submission elsewhere while under ASR review is treated as unethical; previously published or forthcoming significant findings must be clearly identified. (#1)
+- **Data sharing:** ASA Code of Ethics language expects sociologists to share data and documentation as part of a research plan and generally make data available after project completion or major publications, subject to proprietary/confidentiality limits. (#1, #3)
 
-## Data-sharing & ethics
+## Bounded live-check rules
 
-- **ASA data-sharing policy** (via the ASA submission-information page and ASR guidelines): sociologists
-  share data and pertinent documentation as an integral part of a research plan and **generally make
-  data available after completion of a project or its major publications**, except where proprietary
-  agreements preclude it or where confidentiality of research participants cannot otherwise be
-  protected. Submitting to another journal while under ASR review is **unethical**; significant
-  findings that already appeared elsewhere must be **clearly identified**.
-
-## UNVERIFIED / 待核实 items
-
-- **Current editorial team / exact term**: the 2024-2028 UMass-Amherst team is from web-search
-  renderings of the masthead; confirm the current editors on the live ASR/ASA page. 待核实.
-- **Exact processing-fee amount and student waiver wording**: $25.00 with an ASA-student exemption is
-  reported consistently, but confirm the current figure and the precise waiver category on Sage Track.
-  待核实.
-- **Abstract exact bounds (150-200 words)**: from web-search rendering of the guidelines; the SAGE
-  page (403) should be checked for the current wording. 待核实.
-- **Whether ASR mandates a verified replication package**: ASR follows the ASA **data-sharing**
-  policy, which is a norm of availability after publication — **not** the same as a mandatory,
-  editor-verified reproducibility deposit. Do not assert a verification step that the policy does not
-  state. 待核实 for any current supplementary-materials or replication requirement.
-- **ORCID, supplementary-materials, and article-type details beyond Articles / Comments-Replies**:
-  not confirmed verbatim from an accessible official page. 待核实.
+- Do not encode a mandatory editor-verified replication package for ASR. The confirmed rule is ASA data-sharing ethics, not an AEA-style reproduction gate.
+- Do not name a current editorial team in submission-ready advice without re-opening the ASR/ASA masthead; editor offices rotate.
+- Treat impact factor and processing-fee waiver wording as volatile enough to re-check immediately before submission.

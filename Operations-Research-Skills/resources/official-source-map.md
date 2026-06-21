@@ -2,13 +2,13 @@
 
 Canonical sources for verifying every *Operations Research*-specific claim made in
 this skill pack. Sources were searched and corroborated on **2026-06-20**. The
-INFORMS submission-guidelines page is JavaScript-heavy; on this refresh its full
+INFORMS submission-guidelines page is client-side rendering-heavy; on this refresh its full
 rendered text (and the Code and Data Disclosure Policy and Generative AI Guidelines)
 was read through a rendering proxy of the official URL, which confirmed the detailed
 specs previously flagged **re-confirm**. The journal landing page and the EiC's
 official annual-report PDFs were read directly. Time-sensitive items (Editor-in-Chief,
 area editors, page tiers, impact factor) are flagged **approximate**, **re-confirm**,
-or **待核实 (unverified)** where an official page could not be confirmed directly.
+or **需复核 (unverified)** where an official page was not confirmed directly.
 
 ## Source table
 
@@ -48,7 +48,7 @@ or **待核实 (unverified)** where an official page could not be confirmed dire
 - **Policies:** Code and Data Disclosure Policy and Generative AI Guidelines apply. (#1)
 - **Generative AI (reviewer/editor side):** AI techniques conforming to the **RELX Responsible AI Principles** may support the review process (e.g., plagiarism checks), but **submitted manuscripts may not be uploaded to public-access generative AI**; the Area Editor, Associate Editor, and reviewers remain responsible for the accuracy and reasoning of their final reports. (#10)
 
-## Items flagged approximate, re-confirm, or 待核实 (unverified)
+## Items flagged approximate, re-confirm, or 需复核 (unverified)
 
 - **Submission fee — resolved (no fee):** the rendered submission-guidelines page (#2) lists **no submission or processing fee**; the only fee mentioned is the optional INFORMS Open Option open-access fee (US$3,000, after acceptance). Unlike Management Science, *Operations Research* does **not** charge a per-submission fee as of this access. Still verify on the live page before relying on it, as INFORMS fee policy has changed at sibling journals.
 - **Submission system branding — re-confirm:** the landing page labels the entry point "INFORMS Author Portal," while the guidelines and EiC reports show the underlying system is ScholarOne Manuscripts at mc.manuscriptcentral.com/opre. Consistent (the portal routes into ScholarOne) but exact current branding may vary.
@@ -56,4 +56,4 @@ or **待核实 (unverified)** where an official page could not be confirmed dire
 - **Area Editors roster — re-confirm:** the 14 named areas and their 21 Area Editors are taken from the EiC's 2024 and 2025 annual reports (#8, #9) and are current as of access but rotate; verify specific names against the live Editorial Board / Area Editors' Statements page (#4) before naming any individual.
 - **Context-and-Challenge category — re-confirm:** per the 2025 EiC report (#8) this category is currently **invited-only** and the EiC is deciding whether to keep or close it; treat it as provisional rather than an open submission track.
 - **Impact factor — confirmed (this access):** the landing page (#1) shows a **2024 impact factor of 2.6** and a **5-year impact factor of 3.3**; these update annually, so re-confirm before quoting.
-- **Generative AI author-side rules — 待核实:** the rendered Generative AI Guidelines view exposed only the reviewer/editor portion (#10); the author-side disclosure and no-AI-authorship rules follow the standard INFORMS policy but the OPRE-specific wording was not directly read this cycle.
+- **Generative AI author-side rules — 需复核:** the rendered Generative AI Guidelines view exposed only the reviewer/editor portion (#10); the author-side disclosure and no-AI-authorship rules follow the standard INFORMS policy but the OPRE-specific wording was not directly read this cycle.

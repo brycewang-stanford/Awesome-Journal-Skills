@@ -6,7 +6,7 @@ this skill pack. **Access date for all entries: 2026-06.** JEP is published by t
 (freely available at no charge). Re-verify volatile items (editor roster,
 submission address, exact front-matter/disclosure rules) before relying on them —
 AEA pages change. Items not directly confirmed from a primary fetch are marked
-**待核实 (to be verified)**.
+**需复核 (to be verified)**.
 
 ## Official AEA / JEP pages (publisher / editorial authority)
 
@@ -54,10 +54,10 @@ AEA pages change. Items not directly confirmed from a primary fetch are marked
   code, and documentation sufficient for replication, deposited in a trusted
   repository (e.g., the AEA Data and Code Repository). For JEP — a largely
   non-empirical synthesis venue — this applies to whatever original empirical
-  content a piece contains; **待核实** for the exact JEP-specific application.
+  content a piece contains; **需复核** for the exact JEP-specific application.
   Accessed 2026-06.
 - **AEA AI policy** (AEA author/editorial policies) — Verifies: **AI cannot be
-  listed as an author.** Accessed 2026-06; **待核实** for the precise JEP-specific
+  listed as an author.** Accessed 2026-06; **需复核** for the precise JEP-specific
   wording.
 
 ## Identifiers
@@ -88,16 +88,16 @@ AEA pages change. Items not directly confirmed from a primary fetch are marked
   gives **Heidi Williams** (Editor) and **Timothy Taylor** (Managing Editor) as of
   2026-06. This pack names them with the 检索于 2026-06 marker.
 
-## Unverified items (待核实)
+## Unverified items (需复核)
 
 - **Exact abstract / JEL-code / keyword requirements for JEP** — the submissions
   page emphasizes proposals and accessibility but did not, on this fetch, state a
   numeric abstract limit or mandate JEL codes verbatim; AEA front-matter norms are
-  assumed but the JEP-specific specifics are **待核实**. Confirm on the live
+  assumed but the JEP-specific specifics are **需复核**. Confirm on the live
   submissions/preparation pages before relying on a number.
 - **Any submission or page fee** — JEP is open access and freely read; whether any
-  author-side fee applies is **not asserted** here. **待核实**.
+  author-side fee applies is **not asserted** here. **需复核**.
 - **Precise JEP application of the AEA data-and-code and AI policies** — these are
-  AEA-wide; their exact JEP wording/scope is **待核实**.
+  AEA-wide; their exact JEP wording/scope is **需复核**.
 - **Full associate-editor roster as of 2026-06** — only the lead editors,
-  coeditors, and managing editor were captured; the complete board is **待核实**.
+  coeditors, and managing editor were captured; the complete board is **需复核**.

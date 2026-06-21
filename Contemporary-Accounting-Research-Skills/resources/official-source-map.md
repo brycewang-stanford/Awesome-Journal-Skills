@@ -7,8 +7,8 @@ and published by Wiley; most authoritative facts come from CAAA-hosted pages
 (author guidelines, editorial policies, editorial team, Data Integrity & Code
 Sharing Policy) plus the live Editorial Manager portal. Time-sensitive items
 (current Editor-in-Chief, fee amounts, impact metrics) are flagged **approximate**,
-and any fact that could not be confirmed on an accessible official page is marked
-**待核实 (to be verified)**.
+and any fact that was not confirmed on an accessible official page is marked
+**需复核 (to be verified)**.
 
 ## Source table
 
@@ -43,11 +43,11 @@ and any fact that could not be confirmed on an accessible official page is marke
 - **Author X/Twitter handles** collected at the final-version stage so CAR can tag authors when promoting forthcoming articles. (#2)
 - **Appeals:** formal appeals process with a one-month waiting period, a six-month deadline, and a new submission fee required to appeal. (#3)
 
-## Items flagged approximate or 待核实 (verify via sources above)
+## Items flagged approximate or 需复核 (verify via sources above)
 
-- **Peer-review label "double-anonymous / double-blind"** is inferred from CAR's documented requirements (blind manuscript with separate title page; reviewers discouraged from identifying authors; two assigned reviewers) rather than a verbatim "double-anonymous" statement on the accessible pages. **待核实** for the exact CAR phrasing.
-- **Wiley "For Authors" page** (onlinelibrary.wiley.com/page/journal/19113846/homepage/forauthors.html) returned HTTP 402 and could not be fetched; Wiley-side specifics (open-access APC amounts for hybrid/Gold OA, exact LaTeX NJD template details) were not directly verified from the live Wiley page, though CAR guidelines confirm Wiley handles production, copyright/Creative Commons licensing, and OA via Author Services/WALS. **待核实** for OA APC amounts.
-- **Submission system migration:** some web results referenced a ScholarOne/manuscriptcentral URL (mc.manuscriptcentral.com/car); the current author guidelines and Data Integrity policy reference Editorial Manager (EM), and the live portal is editorialmanager.com/car — EM is treated as authoritative, but a possible recent migration is **待核实**.
-- **Exact reference/citation style** (author-date format specifics) is governed by the "CAR Style Guide," referenced in the guidelines but not separately fetched; recorded style facts come from the guidelines' general format section. **待核实** for full Style Guide details.
-- **Prior Editor-in-Chief:** one earlier web search attributed the EIC role to Alan Webb (University of Waterloo); the current CAAA editorial-team page lists Anup Srivastava — likely an editor transition. Srivastava treated as current; the transition timing is **待核实**.
+- **Peer-review label "double-anonymous / double-blind"** is inferred from CAR's documented requirements (blind manuscript with separate title page; reviewers discouraged from identifying authors; two assigned reviewers) rather than a verbatim "double-anonymous" statement on the accessible pages. **需复核** for the exact CAR phrasing.
+- **Wiley "For Authors" page** (onlinelibrary.wiley.com/page/journal/19113846/homepage/forauthors.html) returned HTTP 402 and was not fetched; Wiley-side specifics (open-access APC amounts for hybrid/Gold OA, exact LaTeX NJD template details) were not directly verified from the live Wiley page, though CAR guidelines confirm Wiley handles production, copyright/Creative Commons licensing, and OA via Author Services/WALS. **需复核** for OA APC amounts.
+- **Submission system migration:** some web results referenced a ScholarOne/manuscriptcentral URL (mc.manuscriptcentral.com/car); the current author guidelines and Data Integrity policy reference Editorial Manager (EM), and the live portal is editorialmanager.com/car — EM is treated as authoritative, but a possible recent migration is **需复核**.
+- **Exact reference/citation style** (author-date format specifics) is governed by the "CAR Style Guide," referenced in the guidelines but not separately fetched; recorded style facts come from the guidelines' general format section. **需复核** for full Style Guide details.
+- **Prior Editor-in-Chief:** one earlier web search attributed the EIC role to Alan Webb (University of Waterloo); the current CAAA editorial-team page lists Anup Srivastava — likely an editor transition. Srivastava treated as current; the transition timing is **需复核**.
 - **Impact metrics** (2024 JIF ≈ 3.8, FT50, ABDC A*) come from the CAAA journal-overview page as prestige context, not author-submission requirements; treat any single number as **approximate**.

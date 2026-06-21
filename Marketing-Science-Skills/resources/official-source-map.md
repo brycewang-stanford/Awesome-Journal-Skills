@@ -2,11 +2,11 @@
 
 Canonical sources for verifying every *Marketing Science*-specific claim made in this
 skill pack. Sources were searched and corroborated on **2026-06-01**. Several official
-INFORMS PubsOnLine pages render via JavaScript/Cloudflare and return only a
+INFORMS PubsOnLine pages render via client-side rendering/Cloudflare and return only a
 login/navigation shell to direct `fetch`/`curl`, so some facts below were extracted
 from search-engine-indexed text of the same official URLs rather than a full direct
 page render. Time-sensitive items (current Editor-in-Chief, fees, board roster) are
-flagged **approximate** or **待核实 (to be verified)** where an official page could
+flagged **approximate** or **需复核 (to be verified)** where an official page could
 not be confirmed by direct render.
 
 ## Source table
@@ -46,11 +46,11 @@ not be confirmed by direct render.
 - **Cover letter & self-overlap:** cover letter is visible to the Editor/AE but not reviewers; authors may suggest 2 preferred Associate Editors and 3 preferred reviewers; if the submission builds on the authors' own published or under-review work, they must cite it and state how the contribution goes beyond it. (#4)
 - **Specialized tracks:** Database papers (built around a novel dataset); Practice Papers / Practice Prize (500–1,000-word Impact Statement, single-blind); Science-to-Practice submissions — reflecting INFORMS' analytics/practice orientation. (#13, #14)
 
-## Items flagged 待核实 (to be verified) or approximate (confirm via sources above)
+## Items flagged 需复核 (to be verified) or approximate (confirm via sources above)
 
-- **Mandatory "contribution statement" in the cover letter (under 500 words, since June 1, 2023):** 待核实. Could NOT confirm from an official Marketing Science source. A secondary blog (manusights.com) asserts it, but the official snippet attributing a "June 1, 2023, contribution statement in fewer than 500 words" belongs to *Information Systems Research* (ISR), not Marketing Science. Marketing Science's official guidelines confirm a cover letter (visible to Editor/AE, not reviewers) and a strong novelty bar, but a formally named mandatory "contribution statement" is unverified.
-- **Current 2025–2026 Senior Editor / Associate Editor roster:** 待核实. The official Editorial Board page (#12) lists EIC + Senior Editors + Editors + Advisory Board; read the live name list directly. Names surfaced in search (e.g., P. K. Kannan, S. Sriram) appeared in 2024 acknowledgment/award contexts and were not confirmed as current 2025–2026 Senior Editors.
+- **Mandatory "contribution statement" in the cover letter (under 500 words, since June 1, 2023):** 需复核. did not confirm from an official Marketing Science source. A secondary blog (manusights.com) asserts it, but the official snippet attributing a "June 1, 2023, contribution statement in fewer than 500 words" belongs to *Information Systems Research* (ISR), not Marketing Science. Marketing Science's official guidelines confirm a cover letter (visible to Editor/AE, not reviewers) and a strong novelty bar, but a formally named mandatory "contribution statement" is unverified.
+- **Current 2025–2026 Senior Editor / Associate Editor roster:** 需复核. The official Editorial Board page (#12) lists EIC + Senior Editors + Editors + Advisory Board; read the live name list directly. Names surfaced in search (e.g., P. K. Kannan, S. Sriram) appeared in 2024 acknowledgment/award contexts and were not confirmed as current 2025–2026 Senior Editors.
 - **US$3,000 Open Option APC:** this is the INFORMS-wide Open Option figure (#10) confirmed as applying to INFORMS journals including Marketing Science; a Marketing-Science-specific APC page was not separately located, so treat as the org-level figure.
-- **Word/page cap for regular (non-Frontiers) Original Articles:** official wording indicates no fixed page limit at initial submission for regular articles; the 6,000-word cap is specific to the Frontiers section. Any cap on regular articles is 待核实.
+- **Word/page cap for regular (non-Frontiers) Original Articles:** official wording indicates no fixed page limit at initial submission for regular articles; the 6,000-word cap is specific to the Frontiers section. Any cap on regular articles is 需复核.
 - **Abstract limit wording (200 vs. any 300-word claim in secondary sources):** the 200-word limit is taken from the official submission guidelines (#4); recommend a final human spot-check against the live page.
-- **General caution:** several official INFORMS pages render via JavaScript/Cloudflare; recommend a final human spot-check against the live pages for the most current wording.
+- **General caution:** several official INFORMS pages render via client-side rendering/Cloudflare; recommend a final human spot-check against the live pages for the most current wording.

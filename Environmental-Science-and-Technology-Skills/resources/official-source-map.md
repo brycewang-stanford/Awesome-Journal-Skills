@@ -25,8 +25,8 @@ on the official page before relying on them — ACS journal pages change.
   fraction declined without external review, then typically **three** expert reviewers; authors
   suggest **≥4** non-conflicted reviewers.
 - **https://pubs.acs.org/page/esthag/submission/authors.html**
-  — Information for Authors (ES&T) on pubs.acs.org. The canonical author page (note: may return
-  403 to automated fetchers; open in a browser). Confirms scope, article types, and the TOC-graphic /
+  — Information for Authors (ES&T) on pubs.acs.org. The canonical author page (open in a browser if
+  the crawler view is incomplete). Confirms scope, article types, and the TOC-graphic /
   Supporting Information requirements.
 - **https://publish.acs.org/publish/author_guidelines?coden=esthag** — ES&T Author Guidelines via
   the ACS Publishing Center / **ACS Paragon Plus** submission entry.
@@ -64,28 +64,20 @@ on the official page before relying on them — ACS journal pages change.
 
 ## Style & ethics
 
-- **https://pubs.acs.org/doi/full/10.1021/acsguide.40303** — ACS Style Quick Guide (ACS Guide to
-  Scholarly Communication). The house style for ES&T citations and conventions.
+- **ACS Style Quick Guide / ACS Guide to Scholarly Communication** — the house style for ES&T
+  citations and conventions. Use the ACS author-resources page below as the stable discovery route.
 - **https://pubs.acs.org/page/4authors/index.html** — ACS author resources, including the
   **Ethical Guidelines to Publication of Chemical Research**.
 
-## UNVERIFIED / 待核实 items
+## Bounded live-check rules
 
-- **Exact per-type word limits and what they include.** The researcher-resources page lists the caps
-  above, but ES&T has revised limits before (see the "Changes to ES&T Word Limits" editorial) and the
-  rule that **figures/schemes/tables count as ~300 (small) or ~600 (large) word-equivalents** comes
-  from older policy text. Confirm the current numbers and the word-equivalent accounting on the live
-  guidelines page. 待核实.
-- **Submission-system name.** ACS guidance now points authors to the **ACS Publishing Center**, while
-  the underlying peer-review environment is **ACS Paragon Plus**; the exact entry URL and branding
-  are in transition. Treat both names as referring to the ACS submission flow and confirm the live
-  link. 待核实.
-- **Blinding model.** ES&T uses editor-screened expert peer review with reviewer anonymity; whether
-  author identities are masked from reviewers (single- vs double-anonymous, or an optional
-  double-anonymous route) is not stated as a fixed rule on the pages fetched. 待核实.
-- **Current Editor-in-Chief, executive/associate editors, and masthead.** Changes with the editorial
-  team; confirm on the journal home / about page. 待核实.
-- **Impact factor / CiteScore, acceptance rate, time-to-first-decision.** Volatile metrics; confirm on
-  the journal home page. 待核实.
-- **Open-access / APC figures.** Any Gold/Hybrid OA charge handled by ACS after acceptance was not
-  captured verbatim; confirm current ACS Open Science / APC terms. 待核实.
+- Use the ACS Researcher Resources page as the controlling source for current article types and word
+  caps; re-open the live ACS page before relying on figure/table word-equivalent accounting.
+- Treat **ACS Publishing Center** and **ACS Paragon Plus** as the same ACS submission flow for routing;
+  use the live ACS entry link for actual upload.
+- Do not assert a double-anonymous review model. The source-backed claim is editor-screened expert
+  peer review with reviewer anonymity.
+- Re-open the journal home/about page before naming the current Editor-in-Chief or executive/associate
+  editors.
+- Do not encode impact factor, CiteScore, acceptance rate, or time-to-first-decision as policy.
+- Check ACS Open Science / APC terms only if the author chooses an open-access route.

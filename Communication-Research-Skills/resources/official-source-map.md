@@ -1,69 +1,37 @@
 # CR Official Source Map
 
-Primary and authoritative sources behind the *Communication Research* (CR) facts injected into this
-skill pack. Access date for all entries: **2026-06** (检索于 2026-06；以官网为准). Re-verify volatile
-items (editors and editorial term, exact caps, fee/APC, open-practice wording, accepted formats) on the
-official SAGE page before relying on them — journal pages change.
+Primary source map for *Communication Research* (CR)-specific facts encoded in
+this pack. Official pages were re-checked on **2026-06-21**.
 
-## Official journal, submission & author pages
+## Official journal, submission, and policy pages
 
-- **https://journals.sagepub.com/author-instructions/crx**
-  — *Communication Research* Submission Guidelines (SAGE Journals). Verifies: manuscripts **no more than
-  45 pages, double-spaced, inclusive of references**; statistics reported in line with **APA** guidelines
-  including **standard deviations and effect sizes** where applicable; a **rigorous double-anonymized**
-  reviewing policy in which the identities of reviewer and author are concealed from both parties; **two
-  independent reviews** are required for a manuscript to reach a **Revise or Accept** decision;
-  submission via **SAGE Track** (ScholarOne).
-- **https://journals.sagepub.com/home/crx**
-  — *Communication Research* journal home (SAGE Journals). Verifies: publisher = **SAGE Publishing**;
-  the journal examines the **processes, antecedents, and consequences of communication** in a broad range
-  of societal systems; bimonthly; Editors listed on the masthead at access time (see 待核实).
-- **https://us.sagepub.com/en-us/nam/submitting-your-manuscript**
-  — SAGE "Submitting your manuscript." Verifies: many SAGE journals (including CR) use **SAGE Track**, a
-  web-based submission and peer-review system **powered by ScholarOne Manuscripts**; check for an existing
-  SAGE Track account before creating a new one.
+| # | URL | What it verifies | Accessed |
+|---|---|---|---|
+| 1 | https://journals.sagepub.com/author-instructions/crx | SAGE Submission Guidelines; access model; fees; article type/length; abstract; review policy; Sage Track submission; peer-review identity model; data/preprint/ethics/publishing rules | 2026-06-21 |
+| 2 | https://journals.sagepub.com/home/crx | SAGE journal home; journal identity, aims/scope, publisher, issue context, and masthead context | 2026-06-21 |
+| 3 | https://us.sagepub.com/en-us/nam/submitting-your-manuscript | SAGE submission-system context, including SAGE Track / ScholarOne mechanics | 2026-06-21 |
+| 4 | https://us.sagepub.com/en-us/nam/open-access-at-sage | SAGE open-access options and Sage Choice context | 2026-06-21 |
+| 5 | https://journals.sagepub.com/home/nms | Sibling-journal guard for New Media & Society | 2026-06-21 |
+| 6 | https://academic.oup.com/joc | Sibling-journal guard for Journal of Communication | 2026-06-21 |
+| 7 | https://academic.oup.com/hcr | Sibling-journal guard for Human Communication Research | 2026-06-21 |
 
-## Publisher policies (open access, transparency, ORCID)
+## Verified facts encoded in the pack
 
-- **https://us.sagepub.com/en-us/nam/open-access-at-sage**
-  — SAGE Open Access. Verifies: subscription (Green OA) and Gold OA options; an **APC applies only to the
-  Gold OA route**, chosen after acceptance; no submission fee for the standard route (confirm the current
-  APC figure on the live page — 待核实).
-- **https://journals.sagepub.com/author-instructions/crx** (Research Data / ORCID sections)
-  — Verifies SAGE's **research-data sharing** guidance and **ORCID** practice for SAGE journals; confirm
-  whether a data-availability statement and ORCID are required vs. encouraged for CR specifically (待核实
-  on the exact wording).
+- **Publisher / identity:** SAGE journal in communication studies; subscription access with optional open-access route. (#1, #2)
+- **No standard submit/publish fee:** SAGE page states no fees payable to submit or publish in the journal; optional open access via Sage Choice/Open Access agreements may carry separate charges after acceptance. (#1, #4)
+- **Scope fit screen:** submissions must be in scope and of sufficient quality; out-of-scope/unsuitable manuscripts may be returned or desk rejected before peer review. (#1)
+- **Special issues:** CR does not publish special issues and does not work with guest editors. (#1)
+- **Length:** manuscripts no more than 45 double-spaced pages, inclusive of references; supplementary files do not count toward the page limit. (#1)
+- **Abstract:** unstructured abstract no more than 150 words between title and main body; clinical-trial registration details, if applicable, go at the end of the abstract. (#1)
+- **Reporting / statistics:** statistics should follow APA guidance, including standard deviations and effect sizes where applicable; power analysis, confidence intervals for bootstrapping, and correlation matrices as online appendix are encouraged where relevant. (#1)
+- **Review identity:** double-anonymized review. (#1)
+- **Review process:** initial evaluation before peer review; peer review after initial pass; two independent reviews required for Revise or Accept decisions; reviewers make recommendations to Co-editors, who make final decisions. (#1)
+- **Reviewer suggestions:** journal assigns reviewers and does not accept author recommendations. (#1)
+- **Submission route:** Sage Track / ScholarOne. (#1, #3)
+- **Preprints:** accepted as prior posting, with DOI supplied at submission and final-version link added if accepted. (#1)
 
-## Discipline / society context
+## Bounded live-check rules
 
-- **https://en.wikipedia.org/wiki/Communication_Research_(journal)**
-  — Encyclopedia summary (secondary source). Corroborates: founded **1974**; **SAGE Publishing**;
-  ISSN **0093-6502** (print) / **1552-3810** (online); field = communication studies; Editors
-  Silvia Knobloch-Westerwick and Jennifer Gibbs at the cited time. Treat editor/IF details as secondary
-  and confirm against the live SAGE masthead.
-
-## Sibling-journal disambiguation (do not conflate)
-
-- **https://academic.oup.com/joc** — *Journal of Communication* (ICA flagship, Oxford UP): **all-paradigm**,
-  field-wide. CR is the **quantitative social-scientific** outlet, not the generalist flagship.
-- **https://academic.oup.com/hcr** — *Human Communication Research* (ICA, Oxford UP): interpersonal /
-  HCR focus. CR is broader across communication science but more effects/processing-oriented than HCR.
-- **https://journals.sagepub.com/home/nms** — *New Media & Society* (SAGE): digital media, often more
-  **qualitative**. CR is quantitative and theory-testing.
-
-## UNVERIFIED / 待核实 items
-
-- **Current Editors-in-Chief and editorial term**: secondary sources list Silvia Knobloch-Westerwick
-  (Ohio State) and Jennifer Gibbs (UC Santa Barbara) at access time, but the exact term start/end dates
-  and any 2025–2026 transition were not confirmed verbatim. 待核实 on the live SAGE masthead.
-- **Exact abstract word cap and keyword count**: not confirmed verbatim on the fetched pages (SAGE blocks
-  automated fetch); the 45-page manuscript limit is confirmed. 待核实 on the live guidelines page.
-- **Exact APC amount and currency** for the CR Gold OA option: maintained separately by SAGE and changes.
-  待核实 on the live SAGE open-access charges page.
-- **Whether the data-availability statement and ORCID are strictly required vs. encouraged for CR**: SAGE
-  has general data-sharing and ORCID policies, but the journal-specific requirement level was not
-  confirmed verbatim. Prepare both; 待核实 on the live page.
-- **Decision timeline / desk-rejection criteria**: not enumerated on the fetched pages. The two-review
-  requirement for Revise/Accept is confirmed; the formal screening criteria are not. 待核实.
-- **Registered Reports track**: not confirmed for CR; do not assume one exists. 待核实 on the live
-  guidelines / calls-for-papers.
+- Do not encode a fixed current editor term without opening the live SAGE masthead; editor roles can rotate.
+- Do not assert a registered-reports track for CR unless it appears in the live guidelines or calls for papers.
+- Re-open the live SAGE open-access page before quoting any optional OA amount, since standard submission/publication is fee-free but open-access charges vary.

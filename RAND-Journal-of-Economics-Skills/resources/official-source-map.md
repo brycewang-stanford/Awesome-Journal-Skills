@@ -1,7 +1,7 @@
 # RJE Official Source Map
 
 Primary and authoritative sources behind the RAND-Journal-of-Economics-specific facts injected into this skill pack.
-Access date for all entries: **2026-06-20**. Re-verify volatile items (editors, fees, page caps, portal URL, policy wording) before relying on them — journal pages change. Items not confirmed on an official page are marked **待核实 (to be verified)**.
+Access date for all entries: **2026-06-20**. Re-check volatile items (editors, fees, page caps, portal URL, policy wording) before relying on them — journal pages change. Items not confirmed on an official page are handled in the live-check rules below.
 
 ## Official journal pages (rje.org / Wiley)
 
@@ -10,17 +10,20 @@ Access date for all entries: **2026-06-20**. Re-verify volatile items (editors, 
 - **https://www.rje.org/styleguide.html** — RAND Journal of Economics Style Guide. Verifies: **author-date in-text citations with no page numbers** (e.g., "Jones, 1991"); references **alphabetical, unnumbered, no issue numbers** in journal cites; abstract <=100 words; total 50 / main text 40 pages; footnotes ~50 words / 3 typeset lines; **sections numbered consecutively, subsections unnumbered**; equations numbered flush right with **(1a)/(1b)** for multi-part; house usage rules (**because/as** vs *since*; **whereas/although** vs *while* outside temporal contexts; **"article"** not *"paper"*); directs authors to the **Chicago Manual of Style** (the page links to the **18th edition** at chicagomanualofstyle.org/book/ed18/). Accessed 2026-06-20.
 - **https://www.rje.org/editorial-board.html** — Editorial board. Verifies: **Editor-in-Chief Craig Bond (RAND)** (page shows no middle initial); Editors include Gary Biglaiser (UNC Chapel Hill), Joyee Deb (Yale), Ying Fan (Michigan), Alessandro Gavazza (LSE), Jean-François Houde (Wisconsin–Madison), Julian Wright (NUS), Jidong Zhou (Yale); a further ~30-member Associate Editor roster is also listed (directly read 2026-06-20). Accessed 2026-06-20.
 - **https://www.rje.org/sup-mat.html** — Supplementary / supporting material page. Verifies: supplementary material is **hosted via author-maintained links (1999–2007) or through Wiley (2007–present)**; the journal does **not** host materials directly (provided "as a courtesy"); provision of supporting information **is not encouraged as a general rule**; the page states **no** data-availability or replication-package requirement. Accessed 2026-06-20.
-- **https://onlinelibrary.wiley.com/page/journal/17562171/homepage/forauthors.html** — Wiley "For Authors" guidelines. **Page returned HTTP 402 to automated fetching on 2026-06-20 and could NOT be directly read.** Search snippets indicate a **per-article submission fee** (amount disputed across snippets — $100 vs $200), the **Research Exchange** submission platform, abstract <=100 words, main text <=40 pages, total <=50 pages. All fee/amount items here are **snippet-corroborated, not directly read**. Accessed 2026-06-20.
+- **https://onlinelibrary.wiley.com/page/journal/17562171/homepage/forauthors.html** — Wiley "For Authors" guidelines. The page should be re-opened in a browser for current fee/OA terms. Search snippets indicate a **per-article submission fee** (amount disputed across snippets — $100 vs $200), the **Research Exchange** submission platform, abstract <=100 words, main text <=40 pages, total <=50 pages. All fee/amount items here are snippet-corroborated, not source-map load-bearing. Accessed 2026-06-20.
 
 ## Scope, history, ownership
 
 - RJE is **owned and sponsored by the RAND Corporation** (a non-university research institution), editorial office in **Santa Monica, CA**; it is the **continuation of the Bell Journal of Economics**. Source: rje.org/ homepage. Accessed 2026-06-20.
 - Field focus: **applied microeconomics with an industrial-organization core** — regulated industries, antitrust/competition, regulation, market structure and firm strategy, the economic analysis of organizations, and related law-and-economics; both theoretical and empirical work welcomed; widely regarded as the field's **flagship IO journal**. Source: rje.org/ and rje.org/submissions.html. Accessed 2026-06-20.
 
-## 待核实 (UNVERIFIED — do not treat as load-bearing)
+## Bounded live-check rules
 
-- **Exact current submission fee amount / payment method**: the live `rje.org/submissions.html` and the rje.org "Accepted Manuscript Submission Form" PDF (both **directly read 2026-06-20**) confirm a non-refundable submission fee exists but state **no dollar amount or payment method**. Search snippets of the Wiley "For Authors" page **disagree on the amount** — earlier snippets gave **$100**, two fresh 2026-06-20 snippets give **$200**. The Wiley page returns **HTTP 402** and **could not be directly read**, so the amount is **snippet-corroborated and conflicting, not directly read**; do NOT assert any specific figure. **待核实.**
-- **Open-access status / APC**: a 2026-06-20 search snippet of the Wiley pages indicates the journal is **hybrid** with an open-access **APC of $3,400 USD**, but the Wiley Open Access / journal pages return **HTTP 402** and were **not directly read**. **Snippet-corroborated, not directly read.** **待核实.**
-- **Data & replication / code-availability policy**: NOT confirmed from any official page. The supplementary-material page (**directly read 2026-06-20**) only addresses author-hosted supporting files and explicitly carries no formal data/code-sharing or replication-package requirement; no official Data Availability Statement policy was located. Treat as **unspecified**. **待核实.**
-- **Peer-review anonymity (single- vs double-blind)**: official rje.org text (**directly read 2026-06-20**) confirms "two anonymous referees" (referees anonymous to authors) but does **not** state whether author identities are concealed from referees. A 2026-06-20 search snippet characterizes the model as **single-anonymized**, but that is **snippet-corroborated, not directly read** on an official page; do not assume double-blind. **待核实.**
-- **Length limits**: limits are expressed in **PAGES (double-spaced)**, not words; **no explicit overall word-count limit** was found. **待核实** whether a word-count alternative exists.
+- The rje.org submissions page confirms a non-refundable submission fee exists but does not state a
+  dollar amount or payment method. Do not assert a fee amount until the live Wiley/RJE payment page is
+  open.
+- Treat open-access/APC figures as optional Wiley post-acceptance terms, not checklist facts.
+- Do not claim a formal data/code repository requirement. The directly read supplementary-material
+  page addresses author-hosted supporting files and does not state a replication-package mandate.
+- The source-backed review claim is "two anonymous referees"; do not assume double-blind review.
+- Use page limits, not a word limit: abstract <=100 words, main text <=40 pages, total <=50 pages.

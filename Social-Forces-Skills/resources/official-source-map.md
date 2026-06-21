@@ -57,22 +57,22 @@ official page before relying on them — journal pages change.
   processing charges (APCs) apply **only** if the author chooses open access; standard subscription
   publication carries the processing fee but **no page charges**.
 
-## UNVERIFIED / 待核实 items
+## Live-check / 需复核 items
 
 - **Exact abstract word limit**: the guidelines require an abstract (English, no references) on the
   title page but **no explicit numeric word cap** was confirmed verbatim. Treat ~150–200 words as a
-  safe working target and confirm the current figure on the live guidelines page. 待核实.
+  safe working target and confirm the current figure on the live guidelines page. 需复核.
 - **Current Editor(s) and editorial term**: the journal is edited from the UNC Department of Sociology
   but the current masthead and term dates were not confirmed verbatim at access time. Confirm on the
-  UNC and Oxford Academic pages. 待核实.
+  UNC and Oxford Academic pages. 需复核.
 - **Whether word-count exclusions exist for tables/figures**: the guideline wording is "10,000 words
   (including text, endnotes, and references)"; it does **not** carve out tables/figures the way some
-  journals do. Confirm whether table/figure text counts on the live page. 待核实.
+  journals do. Confirm whether table/figure text counts on the live page. 需复核.
 - **Mandatory replication-data deposit vs. statement-only**: Social Forces requires a **data
   availability statement** and encourages deposit in a public repository "where ethically feasible";
   it does **not** advertise an editor-run, pre-publication replication-verification step. Confirm any
-  evolving data/replication requirement on the live policy page. 待核实.
+  evolving data/replication requirement on the live policy page. 需复核.
 - **Exact APC amounts and current processing-fee/student-rate figures**: $50 / $20-student processing
-  fee and the OA APC schedule change; confirm current amounts with OUP before relying on them. 待核实.
+  fee and the OA APC schedule change; confirm current amounts with OUP before relying on them. 需复核.
 - **Exact desk-rejection rate, number of reviewers, and time-to-first-decision**: not stated as fixed
-  numbers; the ~71-day median review-to-decision figure is a reported metric, not a guarantee. 待核实.
+  numbers; the ~71-day median review-to-decision figure is a reported metric, not a guarantee. 需复核.

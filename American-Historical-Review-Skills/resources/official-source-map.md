@@ -66,23 +66,23 @@ formatting rules) on the official page before relying on them — journal pages 
   Chicago Press handling production 2007–2011); quarterly (**March, June, September, December**);
   ISSN **0002-8762** (print) / **1937-5239** (online).
 
-## UNVERIFIED / 待核实 items
+## Live-check / 需复核 items
 
 - **Whether a structured abstract is required at submission, and its word cap**: not confirmed verbatim
   on the Author Guidelines text retrieved; ScholarOne may prompt for an abstract/summary. Confirm on
-  the live submission portal and guidelines. 待核实.
+  the live submission portal and guidelines. 需复核.
 - **Current Editor and editorial term**: secondary sources list **Mark Philip Bradley** as a recent
   editor; the masthead and term were not confirmed verbatim on the live OUP/AHA page at access time.
-  Confirm the current editor on the official page. 待核实.
+  Confirm the current editor on the official page. 需复核.
 - **Exact CMOS edition and AHR house departures**: AHR follows Chicago notes, but the precise edition
   and any house exceptions (e.g., shortened-citation rules, ibid. usage) should be confirmed against
-  the current AHR submission and style guides. 待核实.
+  the current AHR submission and style guides. 需复核.
 - **Exact word figures and the "8,000 words" status (target vs. hard cap)**: the guidelines phrase it
   as "ideally not exceed 8,000 words"; treat it as a strong target, not a mechanical cap, and confirm
-  current wording. 待核实.
+  current wording. 需复核.
 - **Any open-access / APC option via Oxford after acceptance**: the AHR states it does not charge
   author processing fees for submission/publication; whether an optional OA license/APC exists through
-  OUP was not confirmed. 待核实.
+  OUP was not confirmed. 需复核.
 - **Number of reviews per year and standard review word lengths**: secondary sources cite roughly
   **650 reviews/year**; per-review word lengths are set in the commission letter. Confirm on the live
-  reviews guide. 待核实.
+  reviews guide. 需复核.

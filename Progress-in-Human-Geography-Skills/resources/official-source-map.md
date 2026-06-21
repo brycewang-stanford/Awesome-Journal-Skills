@@ -3,7 +3,7 @@
 Primary source map for facts used in the PiHG skill pack. **Access date: 2026-06.** Re-check editor
 names, strand word limits, the exact abstract limit, reference style, figure specs, portal URL, and
 open-access status before relying on them. Items not confirmed from an official page are marked
-**待核实** in the skills.
+**需复核** in the skills.
 
 ## Official pages
 
@@ -24,14 +24,14 @@ open-access status before relying on them. Items not confirmed from an official 
 | Does NOT publish | **results of empirical work or accounts of detailed cases** | Author guidelines |
 | Progress reports | **commissioned by the editors**; critical, regular summaries of work in human-geography subfields | Journal home / author guidelines |
 | Content strands | Perspectives, Reviews, Opinions, Biographies, Key Publications | Author guidelines |
-| Word limits | Reviews ~8,000; Perspectives/Opinions ~3,000; Biographies/Key Publications ~5,000; progress reports short (~1,500–4,000 by type) — **待核实, confirm** | Submission-guidelines PDF |
-| Abstract | unstructured, ~100–150 words — **待核实, confirm exact limit** | Author guidelines / PDF |
+| Word limits | Reviews ~8,000; Perspectives/Opinions ~3,000; Biographies/Key Publications ~5,000; progress reports short (~1,500–4,000 by type) — **需复核, confirm** | Submission-guidelines PDF |
+| Abstract | unstructured, ~100–150 words — **需复核, confirm exact limit** | Author guidelines / PDF |
 | Peer review | **double-anonymized** (blind both ways) | Author guidelines |
-| Editor-in-chief | Noel Castree (检索于 2026-06；**待核实, editors rotate**) | Journal home |
+| Editor-in-chief | Noel Castree (检索于 2026-06；**需复核, editors rotate**) | Journal home |
 | Submission portal | SAGE ScholarOne Manuscripts (mc.manuscriptcentral.com/pihg) | Author guidelines |
 | ORCID | required/expected at submission | Author guidelines |
 | Ethics | COPE standards; ICMJE-style authorship & disclosure; AI-use disclosure required | Author guidelines |
-| Open access | SAGE hybrid OA option (Sage Choice) with an APC — **APC amount 待核实** | SAGE OA pages |
+| Open access | SAGE hybrid OA option (Sage Choice) with an APC — **APC amount 需复核** | SAGE OA pages |
 | Impact metric | high (JIF historically among the top geography journals; e.g. ~5.0 in mid-2010s) — volatile, re-confirm | JCR via secondary sources |
 
 ## Sibling boundary
@@ -43,8 +43,8 @@ open-access status before relying on them. Items not confirmed from an official 
 
 ## Unverified / volatile items
 
-- Current editor names and the Editorial Advisory Board are **待核实** unless quoted from an official page at submission time.
-- Exact strand word limits and the abstract limit are **待核实** — confirm on the author pages / PDF.
-- Reference-style details, figure specs, portal file requirements, and the OA APC are **待核实** if not visible on the official pages above.
+- Current editor names and the Editorial Advisory Board are **需复核** unless quoted from an official page at submission time.
+- Exact strand word limits and the abstract limit are **需复核** — confirm on the author pages / PDF.
+- Reference-style details, figure specs, portal file requirements, and the OA APC are **需复核** if not visible on the official pages above.
 - The impact-factor figure is volatile (annual) — re-check the current Journal Citation Reports value.
 - Exemplar articles must be verified by DOI / publisher record (and confirmed to be PiHG, not a sibling) before being cited as real examples.

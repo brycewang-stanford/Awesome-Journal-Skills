@@ -65,7 +65,7 @@ pages change.
 - **https://en.wikipedia.org/wiki/World_Politics** — Tertiary source (not first-party). Reports: founded
   **1948**; quarterly; international relations and comparative politics; published by **Johns Hopkins
   University Press** on behalf of **PIIRS**; an impact figure that changes yearly (treat ranking/IF as
-  待核实). Accessed 2026-06-20
+  需复核). Accessed 2026-06-20
 
 ## Review & data policy
 
@@ -73,7 +73,7 @@ pages change.
   expectations for all articles (clear research goals; engagement with theoretical and substantive
   literatures; analytic clarity; explicit research design and appropriate methods; substantively
   important conclusions) plus separate expectations for quantitative and qualitative research. Read
-  the live page for the current full text. 待核实 for the exact current criteria text.
+  the live page for the current full text. 需复核 for the exact current criteria text.
 - **World Politics Dataverse** (linked from the *Guidelines for Contributors*; data-policy text re-read
   in full from the official PDF this cycle) — Verifies: authors who **rely on quantitative data** must
   deposit replication materials **after acceptance but prior to publication** (original data, specialized
@@ -99,20 +99,20 @@ flags are cleared:
 - **Frequency, founding year, scope, ISSNs** — quarterly, founded 1948, IR + comparative politics,
   ISSN 0043-8871 (print) / 1086-3338 (online), confirmed on Project MUSE this cycle.
 
-## Still to verify (待核实)
+## Still to verify (需复核)
 
 - **Exact academic editors / editorial committee / board and term.** The official PDF names only the
   Executive Editor (Emily Babson). The rotating academic editorial committee, board members, and
   associate editors are listed on the Princeton (`wpj.princeton.edu/people/editors`) and JHU Press
   editorial-board pages, which did not return readable text to automated fetches this cycle, and the
   Cambridge editorial-board page rendered no names. Search snippets suggest a roster, but it was not read
-  on an official page, so it is left unasserted — confirm the live masthead in a browser. 待核实.
+  on an official page, so it is left unasserted — confirm the live masthead in a browser. 需复核.
 - **Whether review articles are open to unsolicited submission.** Earlier snapshots say review articles
   are "usually commissioned"; the *Guidelines for Contributors* showcase both research and review
   articles and subject all manuscripts to triple-blind review, but do not state whether review articles
-  accept unsolicited submission. Not confirmable on a live official page this cycle. 待核实.
+  accept unsolicited submission. Not confirmable on a live official page this cycle. 需复核.
 - **Fee / APC and open-access options.** No submission fee or APC is stated anywhere in the *Guidelines*;
   any open-access charge would be handled by the publisher (JHU Press) after acceptance, but the OA/APC
-  terms were not readable on an official page this cycle. 待核实.
+  terms were not readable on an official page this cycle. 需复核.
 - **Impact factor / ranking.** Reported figures change yearly and were not read on a first-party page
-  this cycle. 待核实.
+  this cycle. 需复核.

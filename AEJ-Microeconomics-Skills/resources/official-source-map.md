@@ -6,7 +6,7 @@ operated by the **American Economic Association (AEA)**; replication is administ
 the **Office of the AEA Data Editor** and deposited in the **AEA Data and Code Repository
 on openICPSR**. Re-verify volatile items (fees, abstract limit, editors, policy effective
 dates) before relying on them — AEA pages change. Items not confirmed from a primary fetch
-are marked **待核实 (to be verified)**.
+are marked **需复核 (to be verified)**.
 
 ## Official AEA / AEJ: Micro pages
 
@@ -60,7 +60,7 @@ are marked **待核实 (to be verified)**.
 | Fact | Source URL (above) |
 |------|--------------------|
 | Published by AEA; quarterly; ISSN 1945-7669 / 1945-7685 | journals/mic |
-| Founded 2009 as one of four AEJ field journals | journals/mic (corroborated; see 待核实) |
+| Founded 2009 as one of four AEJ field journals | journals/mic (corroborated; see 需复核) |
 | Scope: theory + empirical/experimental work with a theoretical framework | journals/mic |
 | Editor Navin Kartik; coeditors Ali, Bonatti, Rozen, Xu | journals/mic/editors |
 | Data Editor Lars Vilhuber | journals/mic/editors ; aeadataeditor.github.io |
@@ -71,16 +71,16 @@ are marked **待核实 (to be verified)**.
 | AEA Data and Code Availability Policy applies to empirical/simulation/experimental work; openICPSR deposit; pre-acceptance check | journals/mic/submissions ; journals/data/faq |
 | Exemplars confirmed via 10.1257/mic DOI stem | ideas.repec.org/s/aea/aejmic.html ; aeaweb.org/articles |
 
-## Unverified / to-confirm (待核实)
+## Unverified / to-confirm (需复核)
 
 - **Exact founding year (2009)** — AEJ: Micro launched with the other AEJ field journals in
   2009; the journal-home fetch did not surface the founding year as static text, so the
-  2009 date is from general AEA history and is **待核实** against the official page.
+  2009 date is from general AEA history and is **需复核** against the official page.
 - **JEL-code requirement** — AEA submissions generally require JEL classification codes and
   openICPSR stores JEL codes for AEA deposits, but the AEJ: Micro submissions/editorial
   pages did not return an explicit "JEL required" sentence in a static fetch. The pack
-  states JEL codes as **expected/required per AEA practice**; the exact wording is **待核实**.
+  states JEL codes as **expected/required per AEA practice**; the exact wording is **需复核**.
 - **Current submission-fee amounts and per-page charge** — confirmed for 2026-06 from the
   submissions page, but these are **volatile**; re-confirm before relying on them.
 - **Full Board-of-Editors roster** — the editors page lists the Editor, coeditors, and Data
-  Editor reliably; the complete ~20-member board is **待核实** in detail.
+  Editor reliably; the complete ~20-member board is **需复核** in detail.

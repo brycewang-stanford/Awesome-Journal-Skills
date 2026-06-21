@@ -37,7 +37,7 @@ types) on the official page before relying on them — journal pages change.
   article; qualitative work is **strongly encouraged** to deposit at the **Qualitative Data Repository
   (QDR)** at Syracuse; a **Data Availability Statement** is **required for quantitative articles** (and
   encouraged for qualitative), appearing before the reference list. (Re-verify the exact wording and
-  any DA-RT/JETS references on the live page — 待核实 on verbatim policy text.)
+  any DA-RT/JETS references on the live page — 需复核 on verbatim policy text.)
 - **https://dataverse.harvard.edu/dataverse/IOJ** — **International Organization (IO) Journal
   Dataverse** on **Harvard Dataverse**. Verifies: replication materials for IO articles are hosted on
   Harvard Dataverse (the IO Dataverse).
@@ -60,24 +60,24 @@ types) on the official page before relying on them — journal pages change.
   alongside realist and liberal); past editors include **Robert Keohane, Peter Katzenstein, Stephen
   Krasner, Lisa Martin, Erik Voeten**.
 
-## UNVERIFIED / 待核实 items
+## Live-check / 需复核 items
 
 - **Current editor(s) and editorial term**: secondary sources list **Brett Ashley Leeds and Layna
   Mosley** as recent editors-in-chief, and the Cambridge About page lists **Erik Voeten (2016–2022)** as
   the most recent editor named there. The current masthead and term were **not confirmed verbatim on a
-  single official editorial-team page** at access time. 待核实 on the live journal page.
+  single official editorial-team page** at access time. 需复核 on the live journal page.
 - **Abstract word limit**: the preparing-your-materials page references abstract guidance and a separate
   abstract/keywords guideline but **did not state a numeric word cap** in the consulted text. Treat any
-  specific number (e.g., 150–250 words) as **待核实** and confirm on the live abstract guidelines.
+  specific number (e.g., 150–250 words) as **需复核** and confirm on the live abstract guidelines.
 - **Verbatim transparency-policy wording (DA-RT / JETS endorsement, exemption path for restricted
   data, synthetic-data expectations)**: the summary above reflects the policy's substance, but exact
-  language and the precise exemption procedure were **not quoted in full**. 待核实 on the live policy
+  language and the precise exemption procedure were **not quoted in full**. 需复核 on the live policy
   page.
 - **Article types and exact caps**: Research Article (14,000), Research Note (8,000), and Essay (10,000)
   were confirmed; whether other formats exist (e.g., review essays, forums, "The Forum") and the exact
-  inclusion rules were **not exhaustively confirmed**. 待核实.
+  inclusion rules were **not exhaustively confirmed**. 需复核.
 - **Fee / open-access APC**: no submission fee was stated in the consulted pages; any Gold/Hybrid
-  open-access APC handled by Cambridge after acceptance was **not confirmed**. 待核实.
+  open-access APC handled by Cambridge after acceptance was **not confirmed**. 需复核.
 - **Time-to-decision, desk-rejection rate, number of referees**: secondary text mentions proposals/
   manuscripts going to **two referees** with anonymous reviews returned to the author, but exact
-  figures and timelines are **not stated as fixed values**. 待核实.
+  figures and timelines are **not stated as fixed values**. 需复核.

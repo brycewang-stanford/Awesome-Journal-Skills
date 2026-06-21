@@ -57,26 +57,26 @@ features) on the official page before relying on them — journal pages change.
 - **https://www.cambridge.org/core/journals/pmla** — Verifies: published by **Cambridge University
   Press on behalf of the Modern Language Association**; appears in **January, March, May, and
   October**, with a **September** issue carrying the association's annual convention program; serves
-  the **large and heterogeneous** MLA membership. (Frequency/issue months are volatile — 待核实.)
+  the **large and heterogeneous** MLA membership. (Frequency/issue months are volatile — 需复核.)
 - **https://en.wikipedia.org/wiki/PMLA** — Verifies: PMLA is the journal of the **Modern Language
   Association of America**; one of the oldest scholarly journals in the United States; "PMLA" stands
   for **Publications of the Modern Language Association of America**.
 
-## UNVERIFIED / 待核实 items
+## Live-check / 需复核 items
 
 - **Current editor and editorial term**: the Cambridge page listed an editor at access time and an
   incoming editor was announced, but the exact term start/end dates were not confirmed verbatim.
-  待核实 on the live About / masthead page.
+  需复核 on the live About / masthead page.
 - **Publication frequency and exact issue months**: stated as four issues (January, March, May,
   October) plus a September convention-program issue at access time; frequency has changed over the
-  journal's history. Confirm the current schedule on Cambridge Core. 待核实.
+  journal's history. Confirm the current schedule on Cambridge Core. 需复核.
 - **Whether a formal abstract is required for regular articles**: the regular-article guidelines do
   not request an abstract; the **100-word abstract** appears only in the **Special Features proposal**
   process. Confirm on the live submission page whether any abstract is required at article submission.
-  待核实.
+  需复核.
 - **Exact special-feature word cap and deadline**: ~**3,500 words** and a **15 October** deadline were
-  stated at access time; confirm the current figures on the live author-instructions page. 待核实.
-- **Exact acceptance/desk-rejection rates and time-to-decision**: not stated as fixed numbers. 待核实.
+  stated at access time; confirm the current figures on the live author-instructions page. 需复核.
+- **Exact acceptance/desk-rejection rates and time-to-decision**: not stated as fixed numbers. 需复核.
 - **Membership-required-to-submit wording and any fee/open-access (APC) terms**: MLA membership is
   required to submit; no submission fee is stated. Confirm membership specifics and any
-  post-acceptance open-access charges handled by Cambridge. 待核实.
+  post-acceptance open-access charges handled by Cambridge. 需复核.

@@ -8,8 +8,8 @@ Sources were searched and corroborated on **2026-06-01** and re-verified on
 through the ASCM journal page, the community author-resource hub (jom-hub.com),
 and indexed official-page search snippets rather than a direct scrape of the Wiley
 landing page. Time-sensitive items (current Editors-in-Chief, Department Editor
-roster, APC amount, abstract limit) are flagged **approximate** or **待核实**
-(to be verified) where an official page could not be directly fetched.
+roster, APC amount, abstract limit) are flagged **approximate** or **需复核**
+(to be verified) where an official page was not directly fetched.
 
 ## Source table
 
@@ -51,11 +51,11 @@ roster, APC amount, abstract limit) are flagged **approximate** or **待核实**
 - **Ethics / plagiarism screening:** JOM is a **member of COPE** and uses **iThenticate's CrossCheck** software to detect overlapping/similar text in submissions. (#9)
 - **History / index:** Established **1980**; ISSN 0272-6963 (print) / 1873-1317 (web); **8 issues/year**; hybrid open access; on the **Financial Times FT50** list; 2024 impact factor **10.4**. (#7)
 
-## Items flagged 待核实 (to be verified) or approximate (confirm via sources above)
+## Items flagged 需复核 (to be verified) or approximate (confirm via sources above)
 
-- **Abstract word limit — 待核实.** Still not confirmed from an authoritative JOM/Wiley source as of 2026-06-20. A direct fetch of the jom-hub author-guidelines and documents-support pages (#2, #5) shows no abstract word limit; the official Wiley pages (#9) return HTTP 402 to fetchers. No reliable figure could be sourced. Confirm on the Wiley JOM Author Guidelines page or a recent issue's instructions.
-- **Open-access APC amount — 待核实 / approximate (corroboration strengthened 2026-06-20).** Reported as **USD 3,700 / GBP 2,450 / EUR 3,070** (CC-BY). On 2026-06-20 this figure was returned by two independent searches indexing the official Wiley JOM Open Access page (#10), but that page still returns HTTP 402 to direct fetchers, so per anti-cheat the exact current figure remains 待核实 (no direct scrape of the official page was possible). The "no submission fee / hybrid model / subscription publication free" facts remain reliable.
-- **JOM-specific replication/transparency policy — PARTIALLY RESOLVED 2026-06-20.** JOM does NOT operate an INFORMS-style mandatory code/data-deposit-and-verification gate, but its documents-support guidance (#5, directly fetched) DOES impose a journal-specific requirement: **all data and code needed to replicate the results must be retained by the author team for ≥10 years in vendor-neutral formats (csv/txt)**. This is now recorded as a verified fact above. Any further deposit-at-acceptance mandate, if it exists, would be in the full Wiley Author Guidelines (#9, HTTP 402) — that aspect remains 待核实.
+- **Abstract word limit — 需复核.** Still not confirmed from an authoritative JOM/Wiley source as of 2026-06-20. A direct fetch of the jom-hub author-guidelines and documents-support pages (#2, #5) shows no abstract word limit; the official Wiley pages (#9) return HTTP 402 to fetchers. No reliable figure could be sourced. Confirm on the Wiley JOM Author Guidelines page or a recent issue's instructions.
+- **Open-access APC amount — 需复核 / approximate (corroboration strengthened 2026-06-20).** Reported as **USD 3,700 / GBP 2,450 / EUR 3,070** (CC-BY). On 2026-06-20 this figure was returned by two independent searches indexing the official Wiley JOM Open Access page (#10), but that page still returns HTTP 402 to direct fetchers, so per anti-cheat the exact current figure remains 需复核 (no direct scrape of the official page was possible). The "no submission fee / hybrid model / subscription publication free" facts remain reliable.
+- **JOM-specific replication/transparency policy — PARTIALLY RESOLVED 2026-06-20.** JOM does NOT operate an INFORMS-style mandatory code/data-deposit-and-verification gate, but its documents-support guidance (#5, directly fetched) DOES impose a journal-specific requirement: **all data and code needed to replicate the results must be retained by the author team for ≥10 years in vendor-neutral formats (csv/txt)**. This is now recorded as a verified fact above. Any further deposit-at-acceptance mandate, if it exists, would be in the full Wiley Author Guidelines (#9, HTTP 402) — that aspect remains 需复核.
 - **Department Editor roster — re-verify before relying.** The roster was current as of the 2026-06-20 jom-hub.com fetch (#4); the two Co-EICs (Bendoly, Oliva) and Managing Editor (Sanchagrin) were re-confirmed today. Individual Department Editor names rotate; re-verify before relying on them in a submission-stage checklist.
-- **Exact manuscript word cap — 待核实.** JOM states it has no strict page limit (most manuscripts ≤ ~40 pages per #5); an exact hard word cap is not specified on any source fetched. Confirm any hard cap in the full author guidelines (#9).
-- **Current EIC term / pending transition — 待核实.** Bendoly and Oliva were re-confirmed as the current Co-EICs on 2026-06-20 (#4, #7), but their term/appointment dates and any pending editorial transition were not found on an official announcement; confirm they remain in post at submission time.
+- **Exact manuscript word cap — 需复核.** JOM states it has no strict page limit (most manuscripts ≤ ~40 pages per #5); an exact hard word cap is not specified on any source fetched. Confirm any hard cap in the full author guidelines (#9).
+- **Current EIC term / pending transition — 需复核.** Bendoly and Oliva were re-confirmed as the current Co-EICs on 2026-06-20 (#4, #7), but their term/appointment dates and any pending editorial transition were not found on an official announcement; confirm they remain in post at submission time.

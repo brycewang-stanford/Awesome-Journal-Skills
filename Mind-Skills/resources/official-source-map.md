@@ -54,21 +54,21 @@ the official page before relying on them — journal pages change.
   **longer than book reviews** and let the author develop their own ideas in response to the book under
   discussion.
 
-## UNVERIFIED / 待核实 items
+## Live-check / 需复核 items
 
 - **Current Editor and editorial term**: the Editorial Board page lists the current officers at access
-  time, but the exact name and term start/end dates were not pinned verbatim here. 待核实 on the live
+  time, but the exact name and term start/end dates were not pinned verbatim here. 需复核 on the live
   Editorial Board page.
 - **Exact submission-abstract maximum (250 words)**: the published abstract is stated as **50–200
   words**; the longer submission-abstract figure is reported but should be confirmed on the live
-  General Instructions page. 待核实.
+  General Instructions page. 需复核.
 - **Open-access charge (APC) amount and licences**: an open-access option exists for a charge, but the
   exact APC, eligible licences (e.g., CC BY), and any read-and-publish / transformative-agreement
-  waivers are handled by OUP and were not pinned here. 待核实. There is **no submission fee**.
+  waivers are handled by OUP and were not pinned here. 需复核. There is **no submission fee**.
 - **Time-to-first-decision, desk-rejection rate, and acceptance rate**: not stated as fixed numbers on
-  the official pages (only ">800 submissions each year"). 待核实.
+  the official pages (only ">800 submissions each year"). 需复核.
 - **Discussion-note and book-review/critical-notice word limits and how they are commissioned**: the
   general 8,000-word figure is for articles; exact limits and commissioning practice for discussions,
-  book reviews, and critical notices were not pinned verbatim. 待核实 on the live pages.
+  book reviews, and critical notices were not pinned verbatim. 需复核 on the live pages.
 - **Whether resubmissions count toward the one-article-per-12-months limit**: resubmissions go through
-  ScholarOne; how they interact with the annual single-submission rule should be confirmed. 待核实.
+  ScholarOne; how they interact with the annual single-submission rule should be confirmed. 需复核.

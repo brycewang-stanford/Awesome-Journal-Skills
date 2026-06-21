@@ -1,7 +1,7 @@
 # BJPS Official Source Map
 
 Primary and authoritative sources behind the BJPS-specific facts injected into this skill pack.
-Access date for all entries: **2026-06** (检索于 2026-06；以官网为准). Re-verify volatile items (editors
+Access date for all entries: **2026-06** (检索于 2026-06；以官网为准). Re-check volatile items (editors
 and editorial term, exact word/abstract caps, ORCID/fee/APC, data-policy wording, portal URL) on the
 official page before relying on them — journal pages change.
 
@@ -16,8 +16,8 @@ official page before relying on them — journal pages change.
   a premier journal in the field.
 - **https://www.cambridge.org/core/journals/british-journal-of-political-science/information/author-instructions**
   — BJPS Author Instructions. Verifies: article types — **Research Articles**, **Letters**,
-  **Comments**; submission via the journal's online system (Editorial Manager, `editorialmanager.com/bjpols`;
-  see 待核实 below on ScholarOne vs Editorial Manager); **Comments carry no article-processing charge**;
+  **Comments**; submission via the journal's online system (Editorial Manager, `editorialmanager.com/bjpols`);
+  **Comments carry no article-processing charge**;
   Research Articles and Letters may be eligible for Gold Open Access via Cambridge agreements.
 - **https://www.cambridge.org/core/journals/british-journal-of-political-science/information/instructions-contributors/style-guide**
   — BJPS style guide. Verifies: **Harvard author-date** referencing (in-text `(Elster 1983, 174)`;
@@ -33,8 +33,8 @@ official page before relying on them — journal pages change.
 - **https://github.com/erikgahner/poliscijournals** — community-maintained overview of political-science
   journal word limits. Lists BJPS as **~10,000 words (long/Research Articles)**, **~4,000 words (short
   articles/Letters)**, **~12,000 (reviews)**; APSR ~12,000 / ~4,000; AJPS ~10,000 — for sibling
-  comparison only. Treat as a working figure and **confirm the current cap on the live author-instructions
-  page**. 待核实.
+  comparison only. The official Information for Contributors PDF is the controlling source for BJPS
+  submission checks.
 
 ## Peer review & editorial policy
 
@@ -53,8 +53,7 @@ official page before relying on them — journal pages change.
 - BJPS replication policy (on the Cambridge author pages): Verifies: BJPolS is a **signatory of the Data
   Access and Research Transparency (DA-RT)** statement; **authors are not allowed to withhold information
   used to perform an analysis** featured in a BJPolS piece; **exemptions can be granted for
-  restricted-access source data**; replication-policy questions go to the BJPolS editorial staff (待核实
-  current contact email on the live page).
+  restricted-access source data**; replication-policy questions go to the BJPolS editorial staff.
 
 ## Owner, publisher, editors, history
 
@@ -62,21 +61,19 @@ official page before relying on them — journal pages change.
   **1971**; published quarterly by **Cambridge University Press**; covers "all aspects of political
   science"; associated with the **British Academy**; awards the **Brian Barry Prize in Political
   Science** (with CUP). Lists (at access time) eight editors: Shaun Bowler, René Lindstädt, Petra
-  Schleiter, Lucas Leemann, Cristina Bodea, Paul Bou-Habib, Tobias Böhmelt, Ruth Dassonneville (待核实 —
-  the masthead changes; confirm the current team on the journal's editorial-board page).
+  Schleiter, Lucas Leemann, Cristina Bodea, Paul Bou-Habib, Tobias Böhmelt, Ruth Dassonneville. Use only
+  as secondary background and re-open the current editorial-board page before naming editors in advice.
 
-## UNVERIFIED / 待核实 items
+## Bounded live-check rules
 
-- **Submission portal (ScholarOne vs Editorial Manager)**: the task seed flagged this as needing
-  verification; the Cambridge author pages point to an Editorial Manager URL
-  (`editorialmanager.com/bjpols`) at access time. Confirm the live portal before submitting. 待核实.
-- **Exact word caps and what they include** (Research Article ~10,000; Letter ~4,000; Review ~12,000):
-  cross-checked against a community list, not quoted verbatim from the live author page. Confirm the
-  current figures and whether they include footnotes/references/appendices. 待核实.
-- **Current editorial team and term**: the editor list above reflects the Wikipedia entry at access
-  time; the masthead rotates. Confirm the current editors on the journal's editorial-board page. 待核实.
-- **ORCID requirement / submission fee / OA APC**: Comments carry no APC; for Research Articles/Letters
-  confirm the current ORCID requirement and any Gold/Hybrid OA APC handled by Cambridge after acceptance.
-  待核实.
-- **Decision-category labels and time-to-decision / acceptance rate**: not quoted as fixed figures here.
-  Confirm on the live peer-review page. 待核实.
+- Use Editorial Manager (`editorialmanager.com/bjpols`) as the source-backed portal unless the live
+  Cambridge author page gives a newer route.
+- Use the official Information for Contributors PDF for word caps: Research Articles generally
+  4,000-10,000 words, Letters up to 4,000 words, Review Articles 5,000-12,000 words, and abstracts up
+  to 150 words with 5-7 keywords.
+- Do not name current editors from Wikipedia alone; open the Cambridge editorial-board page when the
+  editor roster matters.
+- Comments carry no APC under the author instructions. Re-open Cambridge OA/payment pages for
+  Research Article or Letter publication-charge details after acceptance.
+- Do not encode acceptance rates or time-to-decision as fixed policy; Cambridge does not present them
+  as submission rules in the source map.

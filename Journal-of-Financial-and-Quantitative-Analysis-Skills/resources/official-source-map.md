@@ -1,7 +1,7 @@
 # JFQA Official Source Map
 
 Primary and authoritative sources behind the JFQA-specific facts injected into this skill pack.
-Access date for all entries: **2026-06-01**. Re-verify volatile items (editors, fees, policy wording, formatting rules) on the live pages before relying on them — journal pages change. Items not confirmable from an official page are flagged **待核实 (to be verified)**.
+Access date for all entries: **2026-06-01**. Re-verify volatile items (editors, fees, policy wording, formatting rules) on the live pages before relying on them — journal pages change. Items not confirmable from an official page are flagged **需复核 (to be verified)**.
 
 ## Official journal & submission pages
 
@@ -37,11 +37,11 @@ Access date for all entries: **2026-06-01**. Re-verify volatile items (editors, 
 
 - JFQA publishes **theoretical and empirical** research in financial economics: **corporate finance, investments, capital and security markets, financial institutions**, and **quantitative methods** relevant to finance. Source: jfqa.org / Cambridge Core journal homepage.
 
-## 待核实 (to be verified) items
+## 需复核 (to be verified) items
 
-- **Review-model terminology.** The JFQA submissions page describes manuscripts as sent "blind to the reviewer(s)" with author-identifying information removed (commonly called "double-blind"), while Cambridge Core author instructions explicitly state "**double-anonymous**." These describe the same process; no source explicitly confirms that reviewer identities are concealed from authors beyond the standard anonymous model. **待核实.**
-- **Manuscript word/page limit.** No fixed numeric word or page limit found on official sources — only the qualitative statement that excessively long submissions are likely to be desk rejected. **待核实.**
-- **Named citation/bibliographic style at submission.** No specific named style (APA, Chicago, Harvard) is mandated at initial submission per official pages; the "Style Guide for Accepted and Conditionally Accepted Papers" and the "Style Sheet for Copyeditors and Proofreaders" govern final formatting, but their detailed citation rules were not fetched in this pass. **待核实.**
-- **Editor handling a given paper.** JFQA has seven Managing Editors rather than a single Editor-in-Chief; the editor handling a submission is assigned per-paper and is not a fixed top role. **待核实** for any individual assignment.
-- **Print circulation (~3,000 copies across ~70 nations).** A marketing/circulation statistic, not an author-submission fact, and not independently re-verified for currency as of 2026. **待核实.**
-- **Acceptance/desk-reject rates beyond "<9% printed of 1,000+ submitted."** Round-by-round statistics are not published on the official pages. **待核实.**
+- **Review-model terminology.** The JFQA submissions page describes manuscripts as sent "blind to the reviewer(s)" with author-identifying information removed (commonly called "double-blind"), while Cambridge Core author instructions explicitly state "**double-anonymous**." These describe the same process; no source explicitly confirms that reviewer identities are concealed from authors beyond the standard anonymous model. **需复核.**
+- **Manuscript word/page limit.** No fixed numeric word or page limit found on official sources — only the qualitative statement that excessively long submissions are likely to be desk rejected. **需复核.**
+- **Named citation/bibliographic style at submission.** No specific named style (APA, Chicago, Harvard) is mandated at initial submission per official pages; the "Style Guide for Accepted and Conditionally Accepted Papers" and the "Style Sheet for Copyeditors and Proofreaders" govern final formatting, but their detailed citation rules were not fetched in this pass. **需复核.**
+- **Editor handling a given paper.** JFQA has seven Managing Editors rather than a single Editor-in-Chief; the editor handling a submission is assigned per-paper and is not a fixed top role. **需复核** for any individual assignment.
+- **Print circulation (~3,000 copies across ~70 nations).** A marketing/circulation statistic, not an author-submission fact, and not independently re-verified for currency as of 2026. **需复核.**
+- **Acceptance/desk-reject rates beyond "<9% printed of 1,000+ submitted."** Round-by-round statistics are not published on the official pages. **需复核.**

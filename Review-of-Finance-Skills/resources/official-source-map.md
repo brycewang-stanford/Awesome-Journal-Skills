@@ -5,8 +5,8 @@ injected into this skill pack. **Access date for all entries: 2026-06-01.**
 
 Re-verify volatile items (editors, fees, refund amounts, page/abstract limits, policy
 wording) on the live pages before relying on them — journal and society pages change.
-Items that could not be confirmed against a single primary-source page are marked
-**待核实 (to be verified)**.
+Items that were not confirmed against a single primary-source page are marked
+**需复核 (to be verified)**.
 
 ## Official journal & society pages
 
@@ -40,15 +40,15 @@ Items that could not be confirmed against a single primary-source page are marke
 
 ## Editors / editorial board
 
-- **https://revfin.org/editorial-board/** — Editorial board. Verifies: **Managing Editor Marcin Kacperczyk (Imperial College London)**; Editors include **Ian Dew-Becker, Hui Chen, Laurent Fresard, Marcus Opp, Jun Pan, Jacopo Ponticelli, David Solomon, Margarita Tsoutsoura**; supported by **~29 Associate Editors** (exact current count 待核实 — see below).
+- **https://revfin.org/editorial-board/** — Editorial board. Verifies: **Managing Editor Marcin Kacperczyk (Imperial College London)**; Editors include **Ian Dew-Becker, Hui Chen, Laurent Fresard, Marcus Opp, Jun Pan, Jacopo Ponticelli, David Solomon, Margarita Tsoutsoura**; supported by **~29 Associate Editors** (exact current count 需复核 — see below).
 - **https://revfin.org/editorial-board-update-new-editors-and-associate-editors-from-1-january-2026/** — Board update. Verifies: **Hui Chen and Margarita Tsoutsoura became Editors effective 1 January 2026**, succeeding **Xavier Giroud (stepped down end of 2025)**; **Jun Pan's term ends June 2026.**
 
-## 待核实 (to be verified) — not confirmed against a single primary-source page
+## 需复核 (to be verified) — not confirmed against a single primary-source page
 
-- **Acceptance rate (~7.5%, July 2024–June 2025)** and **median submission-to-decision turnaround (~29 days)**: from aggregated summaries of revfin.org, not confirmed against a primary page quoting exact figures. Treat as approximate. 待核实.
-- **Six issues per year**: from a summary of revfin.org, not confirmed from an explicit official statement. 待核实.
-- **Exact current count and full membership of the Associate Editor panel (~29)**: may have shifted with the 1 January 2026 board update; not exhaustively enumerated. 待核实.
-- **Exact Fast-Track refund amounts** (e.g., EUR 600 desk rejection, EUR 550 for a > 14-day decision): from a rendered fees-page table; re-check against the live page before relying on specific Fast-Track refund figures. 待核实.
+- **Acceptance rate (~7.5%, July 2024–June 2025)** and **median submission-to-decision turnaround (~29 days)**: from aggregated summaries of revfin.org, not confirmed against a primary page quoting exact figures. Treat as approximate. 需复核.
+- **Six issues per year**: from a summary of revfin.org, not confirmed from an explicit official statement. 需复核.
+- **Exact current count and full membership of the Associate Editor panel (~29)**: may have shifted with the 1 January 2026 board update; not exhaustively enumerated. 需复核.
+- **Exact Fast-Track refund amounts** (e.g., EUR 600 desk rejection, EUR 550 for a > 14-day decision): from a rendered fees-page table; re-check against the live page before relying on specific Fast-Track refund figures. 需复核.
 
 ## Notes on use
 

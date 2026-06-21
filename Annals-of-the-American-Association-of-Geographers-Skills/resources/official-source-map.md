@@ -47,22 +47,22 @@ official pages before relying on them — journal pages change.
 - **The Professional Geographer** (also AAG / Taylor & Francis) — shorter articles and reports; sibling AAG journal.
 - **Transactions of the Institute of British Geographers** (RGS-IBG / Wiley) — UK flagship; not the AAG flagship.
 
-## UNVERIFIED / 待核实 items
+## Live-check / 需复核 items
 
 - **Current named editors and their exact terms**: the AAG page lists area editors (at access time:
   Anthony Howell — Methods; Paul Adams — Human; Brian King — Nature and Society; Michaela Buenemann —
   Physical; Rachel Franklin — General/Cross-Discipline; Stephen Hanna — Cartography), all on four-year
-  terms. The masthead rotates — confirm the **current** editors and term dates on the live AAG page. 待核实.
+  terms. The masthead rotates — confirm the **current** editors and term dates on the live AAG page. 需复核.
 - **Exact abstract word limit**: the Style Sheet specifies abstract + 3-5 italicized keywords, but the
-  precise abstract word cap was not confirmed verbatim here. Confirm on the current Style Sheet. 待核实.
+  precise abstract word cap was not confirmed verbatim here. Confirm on the current Style Sheet. 需复核.
 - **ORCID requirement**: Taylor & Francis commonly requests/encourages ORCID; whether it is *mandatory*
-  for the Annals corresponding author was not confirmed verbatim. 待核实.
+  for the Annals corresponding author was not confirmed verbatim. 需复核.
 - **Data-availability / data-sharing policy specifics**: the Annals follows Taylor & Francis editorial
   policies; whether a formal data-availability statement is *required* (vs. encouraged) and the exact
   wording were not confirmed verbatim. Treat thorough provenance + a data-availability statement as good
-  practice and confirm the current policy on the T&F Instructions for Authors / Editorial Policies page. 待核实.
+  practice and confirm the current policy on the T&F Instructions for Authors / Editorial Policies page. 需复核.
 - **Submission fee / open-access APC**: no submission fee is stated for standard articles; any Gold/Hybrid
-  OA APC is handled by Taylor & Francis after acceptance. Confirm current figures on the T&F page. 待核实.
-- **Exact desk-rejection rate, time-to-decision**: not stated as fixed numbers. 待核实.
+  OA APC is handled by Taylor & Francis after acceptance. Confirm current figures on the T&F page. 需复核.
+- **Exact desk-rejection rate, time-to-decision**: not stated as fixed numbers. 需复核.
 - **Current Graphics Guidelines specs** (resolution, formats, color): confirm on the live AAG/T&F page;
-  details change. 待核实.
+  details change. 需复核.

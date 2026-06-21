@@ -1,67 +1,37 @@
 # HLR Official Source Map
 
-Primary and authoritative sources behind the HLR-specific facts injected into this skill pack.
-Access date for all entries: **2026-06**. Re-verify volatile items (exact length guidance, submission
-channel, fee, expedite and decision-window policy, what is open in a given season) on the official page
-before relying on them — journal pages change. Volatile items are marked **待核实** or
-**(检索于 2026-06；以官网为准)**.
+Primary source map for Harvard Law Review (HLR)-specific facts encoded in this
+pack. Official pages were re-checked on **2026-06-21**.
 
-## Official journal, submission & author pages
+## Official journal, submission, and style pages
 
-- **https://harvardlawreview.org/** — Harvard Law Review home (the journal's official site).
-- **https://harvardlawreview.org/homepage/submissions/** — HLR Submissions page (author instructions).
-  Verifies: submissions handled via **Scholastica**; **expedited-review** requests made through the
-  unique link in the author's confirmation email; HLR makes every effort to honor expedite requests but
-  **does not omit any review stage** in response; HLR and several peer journals committed to give every
-  author **at least seven days** to decide whether to accept an offer of publication.
-  *(NOTE: at access time this page returned a 403 to the automated fetch; the facts above are
-  corroborated by the search snippet of this page and by widely reported HLR policy. Confirm the exact
-  current wording, any length guidance, and any fee directly on the live page. 待核实.)*
-- **https://scholasticahq.com/** — Scholastica, the law-review submission platform (multi-submit, bulk
-  expedite/withdrawal). Verifies the placement mechanics described in `hlr-placement-strategy`.
+| # | URL | What it verifies | Accessed |
+|---|---|---|---|
+| 1 | https://harvardlawreview.org/ | Harvard Law Review official site | 2026-06-21 |
+| 2 | https://harvardlawreview.org/homepage/submissions/ | Print and Forum submissions; current volume intake status; electronic submission system; length preferences; Word manuscripts; mail fallback; anonymous-review preparation; Bluebook 22nd edition; expedite link; seven-day offer window; review process and timing; source-attribution policy | 2026-06-21 |
+| 3 | https://harvardlawreview.org/about/ | Organization and history; student-run and student-edited organization; monthly November-June publication; Supreme Court and Developments issues; Articles, Essays, Book Reviews, Notes, comments; student writing unsigned; Bluebook institutional role | 2026-06-21 |
+| 4 | https://www.legalbluebook.com/ | The Bluebook online, the citation system HLR instructs authors to use | 2026-06-21 |
+| 5 | https://scholasticahq.com/ | Scholastica platform context for multi-submit, expedite, and withdrawal mechanics used in law-review placement strategy | 2026-06-21 |
 
-## What HLR publishes; organization & history
+## Verified facts encoded in the pack
 
-- **https://harvardlawreview.org/about/** — "Organization & History." Verifies: HLR publishes
-  **Articles, Essays, and Book Reviews** by outside authors (academics, judges, practitioners) and
-  student-written pieces including **Notes** and case/legislation comments; **all student writing is
-  unsigned**; the Review is **student-edited**; published by the **Harvard Law Review Association**;
-  affiliated with **Harvard Law School**.
-- **https://en.wikipedia.org/wiki/Harvard_Law_Review** — Verifies: HLR published its **first issue on
-  April 15, 1887**, one of the oldest operating student-edited U.S. law reviews; published **monthly
-  November-June**; a special **Supreme Court issue each November** (with the **Foreword**) and a
-  **Developments in the Law** issue each April; the November Supreme Court issue includes the Foreword,
-  a faculty Case Comment, and student Case Notes on the Term's major decisions.
+- **Publication identity:** HLR is a student-run, student-edited legal-scholarship journal. It is independent of Harvard Law School; student editors make editorial and organizational decisions with professional business-staff support. (#3)
+- **Publication rhythm:** monthly from November through June, including a special Supreme Court issue each November and a Developments in the Law issue each April. (#3)
+- **What HLR publishes:** outside-author Articles, Essays, and Book Reviews; student-written Notes and comments on recent cases, legislation, and other legal developments. Student writing is unsigned. (#3)
+- **Submission channel:** HLR and HLR Forum welcome Articles, Essays, and Book Review proposals through the electronic submission system; Word manuscripts are encouraged; manuscripts can alternatively be mailed to the Articles Office. (#2)
+- **Current intake signal:** the submissions page states that HLR is currently accepting submissions for Volume 140. Re-open #2 before relying on the live season status. (#2)
+- **Length preferences:** Articles (Print) 25,000 words; Book Review proposals need only be a few pages; Essays (Print/Forum) 12,000-17,500 words; Responses (Forum) 8,000 words; Commentaries (Forum) 6,000 words. The count includes text, footnotes, and appendices. Length above 30,000 words weighs against selection, and unconditional acceptance over 37,500 words is rare. (#2)
+- **Anonymous review preparation:** keep name, affiliation, bio, and acknowledgments on a separate cover page; include the manuscript title on the first text page; anonymize self-citations. (#2)
+- **Citation style:** footnotes should conform to the 22nd edition of The Bluebook. (#2, #4)
+- **Expedite mechanics:** expedited-review requests use the unique link in the author's confirmation email. HLR makes every effort to honor expedite requests but does not skip review stages for them. (#2)
+- **Seven-day offer window:** HLR and peer journals commit to at least seven days for authors to decide whether to accept an offer. (#2)
+- **Review process:** every piece is reviewed anonymously; at least three editors review each submission; many pieces proceed through Articles Committee vote, preemption check, faculty peer review, and full-body vote. (#2)
+- **Timing guidance:** authors who prefer HLR are advised to submit at least two weeks before submitting elsewhere; decisions are notified by email and reasons are not discussed. (#2)
+- **Source attribution:** HLR requires quotation marks for non-trivial reused exact language and citations for paraphrased ideas, including the author's prior work. (#2)
+- **Bluebook role:** Harvard Law Review editors compile The Bluebook with editors of Columbia Law Review, University of Pennsylvania Law Review, and The Yale Law Journal. (#3, #4)
 
-## The Bluebook (citation style)
+## Bounded live-check rules
 
-- **https://en.wikipedia.org/wiki/Bluebook** and **https://www.legalbluebook.com/** — Verify: **The
-  Bluebook: A Uniform System of Citation** is published by the **Harvard Law Review Association** in
-  conjunction with the **Columbia Law Review**, the **University of Pennsylvania Law Review**, and the
-  **Yale Law Journal**; it is the primary U.S. legal-citation guide. HLR pieces follow Bluebook academic
-  footnote conventions.
-
-## Law-review submission seasons & expedite mechanics (ecosystem context)
-
-- **https://blog.scholasticahq.com/post/guide-to-law-review-submission-cycle/** and
-  **https://scholasticahq.com/law-review-submissions-insights/** — Verify the season structure used in
-  `hlr-placement-strategy`: most journals open in late January (many on **Feb 1**) for the **spring**
-  cycle and late July (many on **Aug 1**) for the smaller **fall** cycle; the six weeks after Feb 1 carry
-  roughly a third of submissions, the six weeks after Aug 1 roughly a fifth; expedite requests are sent in
-  bulk through Scholastica and are visible to editors immediately; authors should expedite **only with an
-  offer in hand**. These are ecosystem-wide norms, not HLR-specific rules. 待核实 for exact HLR open dates.
-
-## UNVERIFIED / 待核实 items
-
-- **Exact length / word guidance for HLR Articles and Essays**: the live submissions page returned a 403
-  to the automated fetch and no specific HLR word cap was confirmed in the snippets. Law-review Articles
-  are long and heavily footnoted, but **do not assume a number** — confirm on the live page. 待核实.
-- **Submission fee**: no submission fee is typical for law reviews via Scholastica, but the exact HLR fee
-  status was not confirmed verbatim. Treat "no submission fee" as the working assumption and confirm on
-  the live page. 待核实.
-- **Exact current expedite wording and the seven-day commitment's current scope**: corroborated by the
-  page snippet and reported policy, but confirm verbatim on the live page. 待核实.
-- **Current editorial board / President and term**: HLR's masthead turns over annually; do not assert any
-  named editor. Confirm the current masthead on the official site. 待核实 — and never fabricate names.
-- **Whether HLR uses any blind / anonymized review of submissions**: not confirmed verbatim here; do not
-  assert an anonymity policy without checking the live submissions page. 待核实.
+- Do not assert a named current student president or editor in submission advice; the masthead turns over annually.
+- Do not promise that an HLR expedite will produce a fast decision. The official page emphasizes that the process has many stages and takes time.
+- For fee and portal account mechanics, check the live electronic-submission path at the moment of filing rather than encoding a stable HLR-specific fee rule here.

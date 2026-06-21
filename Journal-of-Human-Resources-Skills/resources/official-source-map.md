@@ -3,8 +3,8 @@
 Primary and authoritative sources behind the *Journal of Human Resources* (JHR)
 facts injected into this skill pack. **Access date for all entries: 2026-06-01.**
 Re-verify volatile items (Editor, fees, page limits, policy wording) before relying
-on them — journal pages change. Items that could not be confirmed in an official
-source are flagged **待核实** (to be verified) and are never asserted as fact in the skills.
+on them — journal pages change. Items that were not confirmed in an official
+source are flagged **需复核** (to be verified) and are never asserted as fact in the skills.
 
 ## Official journal pages (UW Press / IRP)
 
@@ -37,14 +37,14 @@ source are flagged **待核实** (to be verified) and are never asserted as fact
 - **https://www.ilr.cornell.edu/news/faculty/lovenheim-named-editor-journal-human-resources** — Cornell ILR announcement (April 23, 2026). Verifies:
   - **Michael Lovenheim (Cornell University)** named Editor of JHR, **effective July 1, 2026**, succeeding Anna Aizer (Brown University).
 
-## Discrepancies and 待核实 (to-be-verified) items
+## Discrepancies and 需复核 (to-be-verified) items
 
 - **Submission fee $175 vs. $150 — partially reconciled.** The live Authors page states **$175** (accessed 2026-06-01); the September-2024 Editorial Policies PDF still states **$150**. This pack treats the live Authors-page **$175** as current and the PDF as not yet updated. Re-confirm the exact amount on the live page before paying.
-- **Editor of record — time-sensitive.** As of **2026-06-01**, **Anna Aizer** is the listed Editor; **Michael Lovenheim** becomes Editor on **2026-07-01**. A pack used on/after July 1, 2026 should list **Lovenheim** as Editor. 待核实 on the live editorial-board page at time of use.
-- **Abstract length / JEL / keyword limits — 待核实.** No explicit abstract word limit, JEL-code, or keyword requirement was found on the official Authors page or Editorial Policies PDF -> treated as unspecified. Confirm on the live page before relying on any number.
-- **Manuscript citation/reference style — 待核实.** Official pages specify physical formatting (font size, spacing, margins, page count) and a data-citation format, but do **not** name a citation/reference style (e.g., Chicago/APA) for the manuscript body. Likely lives in a separate manuscript-preparation/style document not retrieved here. Do not assert a style; follow the live guidance.
-- **Publication frequency — 待核实 (conflicting official sources).** The UW Press page returned "six times per year" in one fetch while the Editorial Policies PDF and About text say "quarterly" (four/year). The PDF (primary policy doc) says quarterly; frequency could not be fully reconciled. Not used as a load-bearing fact.
-- **Submission-platform vendor — 待核实.** Only the canonical URL **http://jhr.msubmit.net** is confirmed; the underlying vendor (e.g., Editorial Manager vs. another system) behind msubmit.net was not separately confirmed.
+- **Editor of record — time-sensitive.** As of **2026-06-01**, **Anna Aizer** is the listed Editor; **Michael Lovenheim** becomes Editor on **2026-07-01**. A pack used on/after July 1, 2026 should list **Lovenheim** as Editor. 需复核 on the live editorial-board page at time of use.
+- **Abstract length / JEL / keyword limits — 需复核.** No explicit abstract word limit, JEL-code, or keyword requirement was found on the official Authors page or Editorial Policies PDF -> treated as unspecified. Confirm on the live page before relying on any number.
+- **Manuscript citation/reference style — 需复核.** Official pages specify physical formatting (font size, spacing, margins, page count) and a data-citation format, but do **not** name a citation/reference style (e.g., Chicago/APA) for the manuscript body. Likely lives in a separate manuscript-preparation/style document not retrieved here. Do not assert a style; follow the live guidance.
+- **Publication frequency — 需复核 (conflicting official sources).** The UW Press page returned "six times per year" in one fetch while the Editorial Policies PDF and About text say "quarterly" (four/year). The PDF (primary policy doc) says quarterly; frequency was not fully reconciled. Not used as a load-bearing fact.
+- **Submission-platform vendor — 需复核.** Only the canonical URL **http://jhr.msubmit.net** is confirmed; the underlying vendor (e.g., Editorial Manager vs. another system) behind msubmit.net was not separately confirmed.
 
 ## Notes on scope discipline
 

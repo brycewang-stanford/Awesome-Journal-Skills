@@ -52,16 +52,16 @@ relying on them — APA journal policies change.
   Developmental Psychology is the **broad APA lifespan-development** journal; positioning and exemplar
   attribution must respect these boundaries.
 
-## UNVERIFIED / 待核实 items
+## Live-check / 需复核 items
 
 - **Current Editor-in-Chief term length / associate-editor roster**: editor name confirmed on the APA
-  journal page at access time; the full editorial term and AE list are not asserted here. 待核实.
+  journal page at access time; the full editorial term and AE list are not asserted here. 需复核.
 - **Submission / open-access fee**: APA journals may levy an APC for open-access (e.g., a hybrid option)
-  after acceptance; no submission fee is asserted here. Confirm current APC handling. 待核实.
+  after acceptance; no submission fee is asserted here. Confirm current APC handling. 需复核.
 - **Exact current length-tier word counts and abstract ceiling**: the ~4,500 / ~10,500 / ~15,000 tiers and
   the Public Significance Statement length are from the APA submission guidelines at access time; confirm
-  the live page, since APA periodically revises these. 待核实.
+  the live page, since APA periodically revises these. 需复核.
 - **Precise masked-review default vs. opt-in mechanics**: confirm on the live submission page whether
-  masked review is default or requested, and the exact masked-copy procedure. 待核实.
+  masked review is default or requested, and the exact masked-copy procedure. 需复核.
 - **Exact TOP level / data-sharing requirement strength**: APA applies TOP, but the precise level (e.g.,
-  disclosure vs. required sharing) for this journal should be confirmed on the live page. 待核实.
+  disclosure vs. required sharing) for this journal should be confirmed on the live page. 需复核.

@@ -42,22 +42,22 @@ relying on them — journal policies change.
 - **https://www.apa.org/pubs/journals/resources/editor-conversations/open-science-educational-psychology**
   — APA editor conversation. Verifies: **Panayiota Kendeou** served as Editor-in-Chief (open-science
   emphasis). The **incoming Editor-in-Chief is Young-Suk Kim (University of California, Irvine)** per APA
-  editor-appointment information current at access time. 待核实 (confirm the live masthead for the current
+  editor-appointment information current at access time. 需复核 (confirm the live masthead for the current
   editor and term).
 - **https://en.wikipedia.org/wiki/Journal_of_Educational_Psychology** — Verifies: JEP is published by the
   **APA**; **founded 1910**; **8 issues per year**; ISSN 0022-0663 / 1939-2176; scope is psychological
   research on education at all ages/levels with occasional theoretical/review articles.
 
-## UNVERIFIED / 待核实 items
+## Live-check / 需复核 items
 
 - **Current Editor-in-Chief and editorial term**: the editorship transitioned to **Young-Suk Kim** per
-  APA information at access time; confirm the current editor and term on the live APA masthead. 待核实.
+  APA information at access time; confirm the current editor and term on the live APA masthead. 需复核.
 - **Exact current word/abstract numbers**: the **12,000-word** body limit (excluding refs/tables/figures/
   appendices) and **250-word** abstract are from the official APA submission page at access time; confirm
-  the live page, since limits are periodically revised. 待核实.
+  the live page, since limits are periodically revised. 需复核.
 - **Open-access APC**: peer review is free; any post-acceptance open-access fee (e.g., via APA/hybrid
-  options) is **not asserted here** — confirm on the APA author pages. 待核实.
+  options) is **not asserted here** — confirm on the APA author pages. 需复核.
 - **Impact factor**: reported ≈ **6.4** (5-year ≈ 7.5) at access time per third-party metrics; treat as
-  volatile and confirm current values. 待核实.
+  volatile and confirm current values. 需复核.
 - **Precise required headings/wording for the Transparency and Openness subsection**: confirm on the live
-  submission page before drafting. 待核实.
+  submission page before drafting. 需复核.

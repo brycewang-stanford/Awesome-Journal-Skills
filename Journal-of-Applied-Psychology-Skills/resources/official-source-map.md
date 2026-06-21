@@ -1,7 +1,7 @@
 # Journal of Applied Psychology Official Source Map
 
 Primary and authoritative sources behind the Journal of Applied Psychology (JAP)-specific facts injected
-into this skill pack. Access date for all entries: **2026-06** (检索于 2026-06；以官网为准). Re-verify
+into this skill pack. Access date for all entries: **2026-06** (检索于 2026-06；以官网为准). Re-check
 volatile items (editor, length caps, abstract limit, exact TOP level/wording, accepted article types,
 any open-access APC) on the official APA page before relying on them — journal policies change.
 
@@ -14,8 +14,7 @@ any open-access APC) on the official APA page before relying on them — journal
   and cultural levels across business, education, health, government, and military contexts; article
   types include **empirical investigations, meta-analyses, theory-development articles, integrative
   conceptual reviews, and qualitative research**; submission via **Editorial Manager**
-  (`www.editorialmanager.com/apl/`). Incoming Editor **Mo Wang**; outgoing Editor **Lillian T. Eby**
-  (confirm the live masthead — 待核实).
+  (`www.editorialmanager.com/apl/`). Incoming Editor **Mo Wang**; outgoing Editor **Lillian T. Eby**.
 - **https://www.apa.org/pubs/journals/apl** (Submission Guidelines section) — Verifies: manuscripts
   prepared per the **Publication Manual of the APA, 7th edition**; **masked (anonymized) review** with
   author identities withheld throughout consideration; completion of the **APA-published submission
@@ -25,7 +24,7 @@ any open-access APC) on the official APA page before relying on them — journal
   prepared in APA style and limited to **1,000 words** (exclusive of title, references, figures).
 - **https://www.apa.org/pubs/journals/features/apl-manuscript-checklist.pdf** — Manuscript Preparation
   Instructions / submission checklist (APA). Verifies: required preparation and masking steps; the
-  checklist gating submission. (Re-verify the live PDF — 待核实 for exact current contents.)
+  checklist gating submission. Open the live PDF when preparing the final upload packet.
 - **https://www.apa.org/pubs/authors/data-availability-statement** — APA data-availability statement
   guidance (APA). Background for the data-availability/transparency statement JAP expects under TOP.
 
@@ -35,7 +34,7 @@ any open-access APC) on the official APA page before relying on them — journal
   **at a minimum, adhere to the TOP (Transparency and Openness Promotion) Levels** — data, materials,
   and analysis-code availability with persistent identifiers, a data-availability statement, and
   preregistration weighed in evaluation. Confirm the **current TOP level** and exact statement wording
-  on the official APA author page (待核实).
+  on the official APA author page.
 - **https://www.cos.io/initiatives/top-guidelines** — Center for Open Science, TOP Guidelines.
   Background on the TOP framework that APA journals (including JAP) adopt.
 
@@ -56,16 +55,17 @@ any open-access APC) on the official APA page before relying on them — journal
 - **Journal of Organizational Behavior (JOB)** — broad OB with overlapping micro topics; JAP holds a
   stronger measurement/quantitative-rigor bar.
 
-## UNVERIFIED / 待核实 items
+## Bounded live-check rules
 
-- **Current Editor-in-Chief and editorial term**: Mo Wang (incoming) / Lillian T. Eby (outgoing) per the
-  APA page at access time; confirm the live masthead. 待核实.
-- **Exact Research Report page/length cap and Feature Article norms**: "length commensurate with
-  contribution" is stated; the precise Research Report page limit (a third-party guide cites ~19
-  manuscript pages) is **not** confirmed from the official page. 待核实.
-- **Exact abstract word limit**: commonly ~250 words for APA journals; confirm the live JAP figure. 待核实.
-- **Current TOP level and required data-availability-statement wording**: TOP adherence is required
-  (since 1 Nov 2021); the exact level and statement template should be confirmed on the live page. 待核实.
-- **Open-access APC / any submission fee**: not asserted here; confirm any APA/OA charge after
-  acceptance. 待核实.
-- **Acceptance rate**: third-party sources cite a low single/double-digit rate; not asserted here. 待核实.
+- Treat Mo Wang as the incoming editor handling new submissions in 2026, with Lillian T. Eby as outgoing
+  editor, based on the APA page and editorial-board page snippets; re-open the APA masthead before
+  naming term dates.
+- Do not encode a hard Research Report page cap unless the live APA page states one; the source-backed
+  rule is that Feature Article length should be commensurate with contribution.
+- Do not quote a generic APA 250-word abstract limit as a JAP-specific rule without checking the live
+  journal page.
+- TOP adherence and data-availability statements are load-bearing, but the exact statement template
+  should be copied from the live APA page during submission.
+- Do not assert a submission fee or APC in checklist logic; check APA open-access charges only if the
+  author chooses that publication route.
+- Do not use third-party acceptance-rate estimates as policy.

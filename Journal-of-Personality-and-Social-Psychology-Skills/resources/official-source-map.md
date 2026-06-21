@@ -82,29 +82,29 @@ one section may not hold for another.
   availability expectations (data available throughout review and for **at least 5 years** after
   publication).
 
-## UNVERIFIED / 待核实 items
+## Live-check / 需复核 items
 
 - **Current section editors and editorial terms.** As of the access date the APA page lists **Dolores
   Albarracín (UPenn, ASC)**, **Sandra L. Murray (University at Buffalo, SUNY; IRGP)**, and
   **Richard E. Lucas (Michigan State University; PPID)**, and the IRGP team took office in **January
   2024**. Editors and terms rotate per section — confirm each section's current masthead on the live
-  APA page. 待核实.
+  APA page. 需复核.
 - **PPID-specific length rules.** The APA page states PPID papers should be written **"as succinctly
   as possible"** with **no fixed introduction/discussion word cap** at access time (unlike ASC's
   3,500 and IRGP's 5,000). Confirm the current PPID guidelines, which the section can revise
-  independently. 待核实.
+  independently. 需复核.
 - **The 200-word post-abstract "statement of limitations."** Secondary summaries report a
   **limitations statement of up to 200 words following the abstract** (internal, construct,
   statistical, external validity) for nonspecialized readers; treat as a working detail and confirm
-  the exact requirement and which section(s) it applies to on the live APA page. 待核实.
+  the exact requirement and which section(s) it applies to on the live APA page. 需复核.
 - **IRGP 5-study cap and the "accept with revision" first-round option.** Verified from the
   December-2023 SPSP announcement for the incoming IRGP team; these are **section-specific** and may
-  not apply to ASC or PPID, and may be revised. Confirm on the live page. 待核实.
+  not apply to ASC or PPID, and may be revised. Confirm on the live page. 需复核.
 - **Exact abstract cap by section / any masking-is-optional nuance.** The APA page states masked
   review is journal policy for all submissions; if any section frames masking as author-optional,
-  confirm on that section's page. 待核实.
+  confirm on that section's page. 需复核.
 - **Submission fee / open-access APC.** No submission fee is stated; APA generally charges no
   submission fee, and any open-access (e.g., APA Open / hybrid) APC is handled after acceptance.
-  Confirm current APC figures on the APA page. 待核实.
+  Confirm current APC figures on the APA page. 需复核.
 - **Time-to-decision, desk-rejection / triage rates, reviewers per paper.** Not stated as fixed
-  numbers. 待核实.
+  numbers. 需复核.

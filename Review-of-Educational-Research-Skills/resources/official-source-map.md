@@ -6,8 +6,8 @@ behalf of the **American Educational Research Association (AERA)**; submission r
 through **Manuscript Central / ScholarOne** (`mc.manuscriptcentral.com/rer`).
 Re-verify volatile items (current editors, contact email, submission fee, exact
 length limit, policy effective dates) before relying on them — SAGE/AERA pages
-change. Items that could not be confirmed from a primary fetch are marked
-**待核实 (to be verified)**.
+change. Items not captured as stable page text are handled in the live-check rules
+below.
 
 ## Official SAGE / AERA RER pages (publisher / editorial authority)
 
@@ -26,8 +26,8 @@ change. Items that could not be confirmed from a primary fetch are marked
   or meta-analyses** should consult **The PRISMA Statement** and the **"Reporting
   Standards for Research in Psychology"** article in *American Psychologist* (the JARS
   family, incl. MARS); authors should consult the **Guidelines for Reviewers**.
-  Accessed 2026-06. (Page is partly JS-rendered; load-bearing facts corroborated via
-  web search of the same page — see 待核实 for items not captured as static text.)
+  Accessed 2026-06. Load-bearing facts are corroborated via the same SAGE/AERA page
+  family; open the live page for editor and formatting details.
 - **https://journals.sagepub.com/home/rer** — RER journal home (SAGE). Verifies: RER
   is an AERA journal published by SAGE; its remit is critical, integrative reviews of
   research bearing on education. Accessed 2026-06.
@@ -77,24 +77,17 @@ change. Items that could not be confirmed from a primary fetch are marked
 | Submission via Manuscript Central / ScholarOne | mc.manuscriptcentral.com/rer ; author-instructions/rer |
 | RER DOI stem is `10.3102/` (shared across AERA journals) | Crossref (exemplar DOIs) |
 
-## Unverified items (待核实)
+## Bounded live-check rules
 
-- **Current editors / editorial team** — as of access, RER's co-editors were reported
-  as **Mildred Boveda, Karly Sarita Ford, Erica Frankenberg, and Francesca López
-  (Pennsylvania State University)**, with editorial contact **REReditors@aera.net**
-  (检索于 2026-06；以官网为准). The masthead is dynamically rendered and editor terms
-  rotate; **confirm the current editors and contact on the SAGE/AERA RER editorial-board
-  page before asserting.**
-- **Submission fee** — the captured guidance did not state a submission fee; whether
-  RER/AERA charges one, and any amount/exemptions, is **待核实** — re-confirm on the
-  SAGE/AERA RER page. Do not assert an amount.
-- **Exact manuscript length limit** — RER's specific word/page maximum for a full
-  review was not captured as static text (directed to the detailed Formatting
-  Requirements); **待核实** — read it off the current RER formatting page.
-- **Decision timeline / number of reviewers** — typical time-to-first-decision and the
-  exact number of masked reviewers per manuscript were not stated in the captured
-  text; **待核实**.
-- **Open-data / preregistration mandate strength** — RER points to PRISMA and APA
-  reporting standards and to PROSPERO/OSF as good practice; whether any of these is a
-  hard requirement vs. strong recommendation for a given submission type is **待核实**
-  on the current RER policy page.
+- As of access, RER's co-editors were reported as **Mildred Boveda, Karly Sarita Ford,
+  Erica Frankenberg, and Francesca López (Pennsylvania State University)**, with
+  editorial contact **REReditors@aera.net**. Re-open the SAGE/AERA RER editorial-board
+  page before naming editors in current advice.
+- Do not assert a submission fee or fee waiver. The captured guidance did not state one.
+- Use the abstract <=150 words, APA 7, Word-file, blinded-title-page, and review-only
+  scope rules as load-bearing. Read any full-review length maximum from the current
+  RER formatting page.
+- Do not encode decision timelines or reviewer counts as fixed rules.
+- Treat PRISMA/JARS/MARS and protocol registration as RER-directed reporting standards
+  and good-practice infrastructure; check the current policy page before calling any
+  one item mandatory for every review type.

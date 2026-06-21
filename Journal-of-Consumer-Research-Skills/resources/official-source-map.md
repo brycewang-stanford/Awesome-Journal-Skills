@@ -6,7 +6,7 @@ author-facing rules live primarily on the editorial site **consumerresearcher.co
 the Oxford University Press (OUP) `academic.oup.com/jcr` "General Instructions" page
 largely acts as a landing page that defers detailed numeric rules to consumerresearcher.com.
 Time-sensitive items (current Editor-in-Chief and co-editor roster, fees) are flagged
-**approximate** or **待核实** where an official page could not be confirmed.
+**approximate** or **需复核** where an official page was not confirmed.
 
 ## Source table
 
@@ -34,10 +34,10 @@ Time-sensitive items (current Editor-in-Chief and co-editor roster, fees) are fl
 - **Editor in Chief:** Oleg Urminsky (University of Chicago Booth), term **Jan 1, 2025 – Dec 31, 2028**. (#4)
 - **Expanded formats (Jan 1, 2025):** Registered Reports and Brief Commentaries in addition to the standard empirical paper. (#6)
 
-## Items flagged approximate or 待核实 (confirm via sources above)
+## Items flagged approximate or 需复核 (confirm via sources above)
 
-- **Co-editor / area-editor roster** — 待核实 (time-sensitive). The editorial-leadership page (accessed 2026-06-01) lists Oleg Urminsky as EIC with co-editors Jacob Goldenberg, Meg Meloy, and Stephen Spiller, and indicated Giana Eckhardt stepped down with Markus Giesler joining as guest co-editor (interim) and Page Moreau as a Special Guest Editor for conflict-of-interest submissions (term Jul 1, 2025 – Jun 30, 2029). Verify the current active co-editor list before relying on specific names.
-- **Manuscript routing / desk-assignment mechanism** — 待核实. JCR uses Co-Editors who handle full manuscript portfolios plus Associate Editors and an Editorial Review Board, but the official pages reviewed do not describe a formal fixed departmental "area-editor routing" structure; the precise routing/desk-assignment mechanism was not explicitly documented in the sources accessed.
+- **Co-editor / area-editor roster** — 需复核 (time-sensitive). The editorial-leadership page (accessed 2026-06-01) lists Oleg Urminsky as EIC with co-editors Jacob Goldenberg, Meg Meloy, and Stephen Spiller, and indicated Giana Eckhardt stepped down with Markus Giesler joining as guest co-editor (interim) and Page Moreau as a Special Guest Editor for conflict-of-interest submissions (term Jul 1, 2025 – Jun 30, 2029). Verify the current active co-editor list before relying on specific names.
+- **Manuscript routing / desk-assignment mechanism** — 需复核. JCR uses Co-Editors who handle full manuscript portfolios plus Associate Editors and an Editorial Review Board, but the official pages reviewed do not describe a formal fixed departmental "area-editor routing" structure; the precise routing/desk-assignment mechanism was not explicitly documented in the sources accessed.
 - **Dominant methodology characterization** — characterization, not quoted policy. The pairing of multi-study behavioral experiments with qualitative/CCT interpretive work is an inference from JCR's stated multi-disciplinary scope and well-known publishing patterns; JCR's official guidelines deliberately state **no single preferred method**.
-- **Standalone preregistration mandate** — 待核实. No explicit standalone preregistration requirement for standard submissions was found in the research-ethics document reviewed; preregistration is associated with the optional Registered Reports format. A dedicated preregistration policy, if any, was not located on the pages accessed.
-- **Impact factor / acceptance rate** — 待核实; not confirmed on an official page on 2026-06-01. Treat any single number as approximate.
+- **Standalone preregistration mandate** — 需复核. No explicit standalone preregistration requirement for standard submissions was found in the research-ethics document reviewed; preregistration is associated with the optional Registered Reports format. A dedicated preregistration policy, if any, was not located on the pages accessed.
+- **Impact factor / acceptance rate** — 需复核; not confirmed on an official page on 2026-06-01. Treat any single number as approximate.

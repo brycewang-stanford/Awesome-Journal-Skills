@@ -60,24 +60,24 @@ the official page before relying on them — journal pages change.
 - **https://en.wikipedia.org/wiki/Public_Opinion_Quarterly** — Verifies: POQ founded **1937**;
   leading journal of public opinion / survey research; published by OUP for AAPOR.
 
-## UNVERIFIED / 待核实 items
+## Live-check / 需复核 items
 
 - **Section naming — "Poll Trends" vs "Polls in Context" (and historical "The Polls"
   Polls-Trends / Polls-Review)**: the current General Instructions name the short empirical-opinion
   section **"Polls in Context" (≤ 2,500 words)** and a longer **"Poll Trends"** form; the historical
   "The Polls — Trends" and "The Polls — Review" labels appear in older issues. Treat **Polls in
   Context** as the current short-form label and confirm the exact current section names and caps on
-  the live guidelines page. 待核实.
+  the live guidelines page. 需复核.
 - **Abstract word limit**: no explicit abstract word cap was stated verbatim on the General
   Instructions page at access time; a structured/short abstract is expected. Confirm the current
-  abstract requirement (and any structured-abstract format) on the live page. 待核实.
+  abstract requirement (and any structured-abstract format) on the live page. 需复核.
 - **Current Editor(s) and editorial term**: AAPOR periodically issues a "Call for Editors" for POQ and
   rotates the editorial team; the exact current editor(s) and term start/end were not confirmed
-  verbatim. 待核实 on the live About/masthead page.
+  verbatim. 需复核 on the live About/masthead page.
 - **Submission fee / open-access APC**: no submission fee is stated; any Gold/Hybrid open-access APC is
-  handled by Oxford University Press after acceptance. Confirm current charges on the OUP page. 待核实.
+  handled by Oxford University Press after acceptance. Confirm current charges on the OUP page. 需复核.
 - **Time-to-decision, acceptance rate, exact reviewer count**: typical referee count (2–3) is stated,
-  but precise time-to-decision and acceptance rates are not fixed figures on the policy page. 待核实.
+  but precise time-to-decision and acceptance rates are not fixed figures on the policy page. 需复核.
 - **Embargo length / DAS exact wording**: a twelve-month embargo may be requested and a Data
   Availability Statement is required; confirm the current maximum embargo and the required DAS wording
-  on the live page. 待核实.
+  on the live page. 需复核.

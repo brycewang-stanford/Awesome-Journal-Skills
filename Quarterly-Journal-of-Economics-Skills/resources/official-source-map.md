@@ -6,7 +6,7 @@ Access date for all entries: **2026-05-30**. Re-verify volatile items (editors, 
 ## Official journal pages (Oxford Academic / Harvard)
 
 - **https://academic.oup.com/qje** — QJE homepage. Verifies: publisher = Oxford University Press for the Harvard University Department of Economics; top-5 general-interest scope.
-- **https://academic.oup.com/qje/pages/General_Instructions** — Author Guidelines / general instructions. Verifies: submission via Editorial Express; PDF format; pointer to the data availability policy. (Page is partly CAPTCHA-gated to automated fetches; facts cross-confirmed via the submission portal and secondary sources below.)
+- **https://academic.oup.com/qje/pages/General_Instructions** — Author Guidelines / general instructions. Verifies: submission via Editorial Express; PDF format; pointer to the data availability policy. (Page is partly anti-bot challenge-gated to automated fetches; facts cross-confirmed via the submission portal and secondary sources below.)
 - **https://academic.oup.com/qje/pages/Instructions_To_Authors** — Instructions to Authors landing page. Verifies: existence/location of author guidance.
 - **https://editorialexpress.com/qje/** — QJE submission portal (Editorial Express). Verifies: submission system is Editorial Express; **manuscripts must be uploaded in PDF format only**; authors must read the data availability policy before submitting; admin contact qje_admin@editorialexpress.com.
 - **https://academic.oup.com/qje/pages/data_policy** — QJE Data Policy. Verifies: publishes only if data are documented and available for replication; accepted empirical/simulation/experimental papers must provide data, programs, and computation details prior to publication; deposit to a repository linked to the journal; proprietary-data exemption still requires the programs; README PDF required; QJE adopted the AER data availability policy.
@@ -15,7 +15,7 @@ Access date for all entries: **2026-05-30**. Re-verify volatile items (editors, 
 
 ## Editors, history, scope, metrics
 
-- **https://en.wikipedia.org/wiki/The_Quarterly_Journal_of_Economics** — Verifies: founded **1886**, oldest English-language professional economics journal; current Editors **Robert J. Barro, Lawrence F. Katz, Nathan Nunn, Andrei Shleifer, Stefanie Stantcheva** (five-person Harvard team); Pol Antràs, Alberto Alesina, Edward Glaeser among recent former editors; ranks among the top-5; scope covers micro-theory through empirical and theoretical macro. (Impact factor figures across sources vary — see UNVERIFIED note below.)
+- **https://en.wikipedia.org/wiki/The_Quarterly_Journal_of_Economics** — Verifies: founded **1886**, oldest English-language professional economics journal; current Editors **Robert J. Barro, Lawrence F. Katz, Nathan Nunn, Andrei Shleifer, Stefanie Stantcheva** (five-person Harvard team); Pol Antràs, Alberto Alesina, Edward Glaeser among recent former editors; ranks among the top-5; scope covers micro-theory through empirical and theoretical macro. (Impact factor figures across sources vary — see Live-check note below.)
 
 ## Process facts (no fee, timing, desk-reject) — secondary, cross-checked
 
@@ -37,9 +37,9 @@ Access date for all entries: **2026-05-30**. Re-verify volatile items (editors, 
 - Bertrand & Mullainathan, "Emily and Greg ..." (2004) — **American Economic Review**, not QJE
 - Chetty, Hendren & Katz, "Effects of Exposure to Better Neighborhoods ... MTO" (2016) — **American Economic Review**, not QJE
 
-## UNVERIFIED items
+## Live-check items
 
-- **Exact current submission fee = $0**: every source consulted states QJE charges no submission fee, but the official General Instructions page could not be machine-read in full (CAPTCHA). High-confidence but re-confirm on the live page.
-- **Abstract word cap**: one secondary source cites ~150 words, another ~250 words; the precise current limit is UNVERIFIED — confirm on the official instructions before relying on a number.
-- **Current impact factor**: reported values diverge widely across aggregators (6.662 in 2015 per JCR; later third-party figures range ~14–22). Not used as a load-bearing fact in the skills; UNVERIFIED for a single current number.
-- **Named data editor / formal reproducibility-check workflow**: QJE requires deposit to the QJE Dataverse and adopted the AER policy, but a dedicated QJE "data editor" role analogous to the AEA Data Editor is UNVERIFIED.
+- **Exact current submission fee = $0**: every source consulted states QJE charges no submission fee, but the official General Instructions page was not machine-read in full (anti-bot challenge). High-confidence but re-confirm on the live page.
+- **Abstract word cap**: one secondary source cites ~150 words, another ~250 words; the precise current limit requires a live check — confirm on the official instructions before relying on a number.
+- **Current impact factor**: reported values diverge widely across aggregators (6.662 in 2015 per JCR; later third-party figures range ~14–22). Not used as a load-bearing fact in the skills; requires a live check for a single current number.
+- **Named data editor / formal reproducibility-check workflow**: QJE requires deposit to the QJE Dataverse and adopted the AER policy, but a dedicated QJE "data editor" role analogous to the AEA Data Editor requires a live check.

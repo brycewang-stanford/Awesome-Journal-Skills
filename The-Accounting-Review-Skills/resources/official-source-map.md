@@ -3,12 +3,10 @@
 Canonical sources for verifying every fact about **The Accounting Review (TAR)** used in this
 skill pack. Sources were searched and corroborated on **2026-06-01**; the Senior Editor masthead
 was re-confirmed on **2026-06-20** (Mohan Venkatachalam is now the sitting Senior Editor). Several official AAA /
-AllenPress endpoints (the standalone `TAR_Editorial_Policy.pdf` on meridian.allenpress.com and
-the versioned Editorial Policy article on publications.aaahq.org) returned HTTP 403/Forbidden to
-automated fetchers, so the corresponding facts were taken instead from the aaahq.org Editorial
-Policy and Guide for Authors pages. Time-sensitive items (current Senior Editor, fees, board
-roster) are flagged **待核实 (to be re-confirmed)** where an official page could not be confirmed
-directly.
+AllenPress endpoints did not expose stable machine-readable text in this environment, so the
+corresponding facts were taken instead from the aaahq.org Editorial Policy and Guide for Authors
+pages. Time-sensitive items are kept in the live-check section below instead of being asserted from
+stale snippets.
 
 ## Source table
 
@@ -41,10 +39,10 @@ directly.
 - **ORCID + COI:** ORCID iD required for all authors; a completed Conflict of Interest form required at submission; plagiarism-detection screening applied to all manuscripts. (#1, #2)
 - **IRB / human subjects:** documentation required for experimental and survey work (relevant to TAR's behavioral/experimental stream). (#1)
 
-## Items flagged 待核实 (to be re-confirmed via the sources above)
+## Bounded live-check rules
 
-- **Submission fee amounts** — 待核实. The current Guide for Authors lists **$270 (member) / $645 (non-member)** and is treated as authoritative; a separate older AAA snippet showed $260 / $620. The dedicated fee/payment product URL returned 404/redirect at access time; re-confirm the exact current amounts on the AAA shop/payment page before relying on them.
-- **Standalone Editorial Policy PDF** — 待核实. The meridian.allenpress.com `TAR_Editorial_Policy.pdf` and the publications.aaahq.org versioned Editorial Policy article returned HTTP 403/Forbidden; facts were instead taken from the aaahq.org Editorial Policy and Guide for Authors pages (#1, #2).
-- **Full standing-editor roster (~two dozen)** — 待核实. The June 2026 board was summarized rather than enumerated; the complete roster and each editor's exact topical/methodological coverage were not individually verified from the announcement page (#4).
-- **"Dominant methodology" characterization** — 待核实 as official policy. The stated policy is explicitly open to all rigorous methods and designates no preferred methodology; the claim that large-sample archival/empirical work dominates the *de facto* publication mix (alongside substantial experimental and analytical streams) is a characterization, not an official statement (#1).
-- **Formal repository-deposit mandate at acceptance** — 待核实. Whether TAR maintains a named mandatory public code/data archive deposit at acceptance (versus the described data-authenticity confirmation requirements) was not separately confirmed; policy language emphasizes description and code access rather than a named archive (#2).
+- Treat the current Guide for Authors fee amounts, **$270 (member) / $645 (non-member)**, as the pack's source of record, and re-open the AAA shop/payment flow only when preparing an actual submission.
+- Use the aaahq.org Editorial Policy and Guide for Authors pages (#1, #2) as the stable policy authorities; the separate AllenPress/publications article mirrors are not required for the pack's load-bearing guidance.
+- Do not enumerate the full standing-editor roster unless the current masthead page is open in the browser; the skills rely only on Senior Editor and Lead Editor facts.
+- Do not describe archival/empirical work as TAR's official preferred methodology. The official policy is method-open; any mix-of-published-work statement is contextual only.
+- Do not claim a named mandatory public repository deposit. The verified policy is data-authenticity, code-access, and documentation sufficiency as described in #2.

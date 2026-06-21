@@ -1,75 +1,34 @@
 # Cognitive Psychology Official Source Map
 
-Primary and authoritative sources behind the Cognitive Psychology-specific facts injected into this
-skill pack. Access date for all entries: **2026-06** (检索于 2026-06；以官网为准). Re-verify volatile
-items (editor, review model, length guidance, abstract limit, data/code policy wording, accepted article
-types) on the official page before relying on them — journal policies change, and some Elsevier /
-ScienceDirect pages return HTTP 403 to automated fetch, so several facts below are anchored to the
-publisher landing page and the journal's encyclopedia entry rather than a machine-readable guide.
+Primary source map for Cognitive Psychology-specific facts encoded in this pack.
+Official pages were re-checked on **2026-06-21**.
 
-## Official journal & policy pages (Elsevier / ScienceDirect)
+## Official journal and author pages
 
-- **https://www.sciencedirect.com/journal/cognitive-psychology** — Cognitive Psychology journal home
-  (Elsevier / ScienceDirect). Verifies: publisher **Elsevier**; ISSN **0010-0285** (print);
-  cognitive-science scope (attention, perception, memory, learning, language, categorization, thinking
-  and reasoning; development/decline of cognition across maturation and aging); the journal
-  **specializes in longer, more integrative articles** that have a major impact on theories of
-  cognition and welcomes **modeling or neuroscientific approaches, literature reviews, or incisive
-  experiments** that provide a substantial theoretical advance.
-- **https://www.sciencedirect.com/journal/cognitive-psychology/publish/guide-for-authors** — Guide for
-  Authors (Elsevier). Verifies: submission via **Editorial Manager**; Elsevier **declaration of
-  competing interest** and **research-data** statement; authors are **strongly encouraged to share
-  data, model code, and analysis scripts** (open-science practices). (This page may return HTTP 403 to
-  automated fetch; confirm the live page in a browser for the current length guidance, abstract limit,
-  review model, and exact declaration requirements.) 待核实 for volatile numbers.
-- **https://www.elsevier.com/journals/cognition/0010-0277/guide-for-authors** — Guide for Authors for
-  the **sibling** journal *Cognition* (Elsevier), used **only** for the sibling-guard distinction (see
-  below) — Cognition is broader and more effect-/phenomenon-led; do not import its specifics into this
-  pack.
+| # | URL | What it verifies | Accessed |
+|---|---|---|---|
+| 1 | https://www.sciencedirect.com/journal/cognitive-psychology | Elsevier/ScienceDirect journal home; print ISSN 0010-0285, online ISSN 1095-5623; 2026 metrics visible on the page; APC USD 3,460 excluding taxes; no subscription publication fee; Editor-in-Chief C.M. Rotello, University of Massachusetts Amherst; scope emphasizes longer, integrative, theory-impacting cognition articles and open-science readiness | 2026-06-21 |
+| 2 | https://www.sciencedirect.com/journal/cognitive-psychology/publish/guide-for-authors | Guide for Authors; aims and scope; article types; single-anonymized review; minimum two reviewers for suitable submissions; abstract maximum 250 words; 1-7 keywords; highlights required; Editorial Manager submission; Elsevier Option B research-data policy; APA 7th references; generative-AI disclosure and image-use rules | 2026-06-21 |
+| 3 | https://www.editorialmanager.com/cogpsych/ | Editorial Manager submission entry point linked from the ScienceDirect "Submit your article" action | 2026-06-21 |
+| 4 | https://www.sciencedirect.com/journal/cognition | Sibling-journal guard: Cognition is a separate Elsevier journal and its article rules must not be imported into Cognitive Psychology | 2026-06-21 |
 
-## Scope & house identity
+## Verified facts encoded in the pack
 
-- Cognitive Psychology favors **longer, integrative, model-driven** contributions: typically a
-  **multi-experiment program** combined with **formal/computational or mathematical modeling** that is
-  fit and compared to develop and test theories of cognition — distinct from short single-effect
-  reports.
-- Statistical/modeling norms used in this pack (model fitting and comparison with AIC/BIC/Bayes factors,
-  parameter and model recovery, (generalized) linear mixed models and hierarchical Bayesian estimation,
-  effect sizes with intervals, reproducible model code) are standard expectations in the
-  computational-cognition community the journal serves; confirm any explicit reporting requirement on
-  the live guide for authors. 待核实 for journal-mandated specifics.
+- **Publisher / identity:** Elsevier / ScienceDirect journal, print ISSN 0010-0285 and online ISSN 1095-5623. (#1)
+- **Current Editor-in-Chief:** C.M. Rotello, PhD, University of Massachusetts Amherst. (#1)
+- **Scope:** memory, attention, perception, language processing, categorization, thinking, reasoning, and cognition across development/aging. The journal specializes in longer, integrative articles with major theoretical impact. (#1, #2)
+- **Article types:** original empirical, theoretical, tutorial, methodological, and critical-review papers in cognitive psychology; related areas are welcome when they directly interest cognitive psychologists and are understandable to that audience. (#2)
+- **Review model:** single-anonymized peer review; editor suitability screen first; suitable submissions typically go to at least two reviewers; editors make the accept/reject decision. (#2)
+- **Submission system:** Editorial Manager, reached from the ScienceDirect submit link. (#2, #3)
+- **Abstract / keywords:** abstract maximum 250 words; 1-7 English keywords. (#2)
+- **Highlights:** required at submission, 3-5 bullets, each up to 85 characters including spaces. (#2)
+- **Research data:** Elsevier research-data **Option B** applies; authors are encouraged to deposit, cite, and link data, code, models, algorithms, protocols, or state why data cannot be shared. Data availability statements are encouraged at submission. (#2)
+- **References:** APA 7th edition style; data and software references have explicit examples in the official guide. (#2)
+- **Open access:** hybrid journal; APC displayed on the journal home page as USD 3,460 excluding taxes; subscription route has no publication fee charged to authors. (#1)
+- **AI policy:** authors must declare generative-AI use in manuscript preparation; AI tools cannot be authors; generated or AI-altered manuscript images are not permitted except when the AI use is part of the research design and described reproducibly. (#2)
 
-## Owner, publisher, history
+## Bounded live-check rules
 
-- **https://en.wikipedia.org/wiki/Cognitive_Psychology_(journal)** — Verifies: **Cognitive Psychology**
-  is a peer-reviewed journal in cognitive psychology published by **Elsevier**; founded **1970**;
-  ISSN **0010-0285** (print), **1095-5623** (web); published **eight times per year**; among the
-  established journals in the field. (Impact-factor figures on this page are dated; treat any specific
-  metric as 待核实 and confirm the current Journal Citation Reports value.)
-
-## Sibling-journal guard (do not conflate)
-
-- **Cognition (Elsevier)** — broader, more effect-/phenomenon-led cognitive-science journal; Cognitive
-  Psychology skews longer and more model-driven.
-- **Journal of Experimental Psychology: General (APA)** — overlapping scope, but Cognitive Psychology
-  leans harder into formal modeling and the multi-experiment program.
-- **Psychological Science (APS/SAGE)** — short single-finding reports; opposite length/ambition.
-- **Journal of Memory and Language (Elsevier)** — natural home for narrower-scope memory/language work;
-  bring the integrative model-driven contribution to Cognitive Psychology.
-
-## UNVERIFIED / 待核实 items
-
-- **Current Editor-in-Chief and editorial term**: a 2026-06 web search returned **Caren Rotello
-  (University of Massachusetts Amherst)** as Editor-in-Chief; confirm the current editor on the
-  journal's official masthead before relying on it. 待核实.
-- **Review model (single- vs. double-anonymized) and referee count**: not asserted here; confirm on the
-  guide for authors. 待核实.
-- **Article length guidance / word limit and abstract limit/structure**: the journal favors longer
-  articles, but exact numeric guidance is not asserted here; confirm on the live guide for authors.
-  待核实.
-- **Open-access / article-publishing-charge (APC) and any submission fee**: handled by Elsevier; confirm
-  current amounts and the open-access options on the journal page. 待核实.
-- **Precise list of currently accepted article types** (regular articles, reviews, etc.): confirm on the
-  live page. 待核实.
-- **Current impact factor / CiteScore**: confirm the latest value; figures in older sources are stale.
-  待核实.
+- Do not encode a fixed manuscript word/page ceiling for this pack: the official guide emphasizes longer, integrative work but does not publish a numeric article-length cap in the sections read on 2026-06-21.
+- Treat metrics, APC, and editor listings as volatile. Re-open the ScienceDirect home page before quoting them in submission-ready advice.
+- Do not import rules from *Cognition*, *Journal of Experimental Psychology: General*, *Psychological Science*, or *Journal of Memory and Language*.

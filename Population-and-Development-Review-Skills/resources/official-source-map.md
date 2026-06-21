@@ -16,8 +16,8 @@ pages change.
   — Author Guidelines. Verifies: electronic submission via **ScholarOne Manuscripts**; **Free Format**
   first-round submission (references in any consistent style, strict formatting deferred to revision);
   required author fees for submission and publication: **none** under the standard model; data sharing
-  / data availability statement under Wiley's framework. (Wiley blocks automated fetch — confirm exact
-  abstract word limit, length caps, and Online Open APC options by opening the page in a browser. 待核实.)
+  / data availability statement under Wiley's framework. Open the live page for exact abstract,
+  length-cap, and Online Open APC wording.
 - **https://popcouncil.org/population-and-development-review-journal/**
   — Population Council's PDR page. Verifies: the journal "seeks to advance knowledge of the
   relationships between **population and social, economic, and environmental change**" and addresses
@@ -46,27 +46,20 @@ pages change.
   authors must **remove all identifying information about all co-authors**; an **editorial committee**
   decides whether to send a paper out; if sent for review, it goes to **at least two referees**; authors
   can expect written comments and a decision **approximately three months** after submission. Confirm
-  current categories and timelines on the official author page. 待核实.
+  current categories and timelines on the official author page.
 
-## UNVERIFIED / 待核实 items
+## Bounded live-check rules
 
-- **Current Editors / editorial term**: secondary sources (Population Council PDR page, 2026) list
-  **Raya Muttarak and Joshua Wilde** as Editors, with **Rachel Friedman** as Associate Director/Managing
-  Editor; **Paul Demeny** was the founding editor (1975). Editor rosters rotate — confirm the current
-  masthead on the official journal/editorial-board page. 待核实.
-- **Exact abstract word limit and length caps**: Research Articles run **roughly 8,000–10,000 words**
-  (widely reported norm); the precise main-text cap, abstract word limit, and per-type limits are not
-  machine-readable here because Wiley blocks automated fetch. Confirm on the author guidelines page. 待核实.
-- **Free Format scope**: PDR offers **Free Format** first-round submission; confirm exactly what is and
-  is not required in the first round (and that **APA-style** is the house style applied at revision) on
-  the live author page. 待核实.
-- **Fees / Online Open**: the standard model has **no submission fee and no APC**; Wiley's optional
-  **Online Open** (gold open access) may carry a separate APC if the author chooses it. Confirm current
-  amounts and eligibility on the Wiley page. 待核实.
-- **Submission portal URL**: PDR uses **ScholarOne Manuscripts**; confirm the exact current submission
-  link from the official author page. 待核实.
-- **Data-availability wording and mandate strength**: PDR follows **Wiley's** data-sharing policy and
-  expects a **data availability statement**; the exact policy tier (encourages vs. requires) and wording
-  should be confirmed on the live data-policy/author page. 待核实.
-- **Desk-rejection rate, exact number of reviewers, decision-time distribution**: not stated as fixed
-  numbers; "at least two referees" and "~three months" are norms, not guarantees. 待核实.
+- Treat the Wiley author-guidelines page as controlling for submission mechanics; re-open it before
+  quoting exact abstract or per-type length limits.
+- Use **Raya Muttarak and Joshua Wilde** as editor names only when the Population Council/Wiley masthead
+  is live; Paul Demeny remains historical founding-editor context.
+- Free Format is safe to encode for first-round routing, but final style and file requirements should
+  be taken from the live Wiley author page.
+- Standard submission/publication under the non-OA route has no author fee in this map. Optional Online
+  Open charges are a Wiley post-acceptance choice and should be checked only if selected.
+- Use ScholarOne Manuscripts as the working submission system but follow the live Wiley "Submit" link
+  for the exact portal URL.
+- Data-availability statements follow Wiley's framework; do not overstate the policy as a verified
+  pre-publication replication gate.
+- Do not encode desk-rejection rates or decision-time distributions as fixed policy.

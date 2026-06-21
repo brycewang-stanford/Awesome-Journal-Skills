@@ -70,24 +70,24 @@ them — journal pages change.
 - **https://en.wikipedia.org/wiki/Demography_(journal)** — Verifies: founded **1964**; flagship
   journal of the PAA; published by Duke University Press **since 2021**.
 
-## UNVERIFIED / 待核实 items
+## Live-check / 需复核 items
 
 - **Current Editor / editorial term**: secondary sources list **Sara R. Curran (University of
   Washington)** as Editor; the editor and Deputy Editor roster rotate. Confirm the current masthead on
-  the official journal/editorial-board page. 待核实.
+  the official journal/editorial-board page. 需复核.
 - **Which volume is open this year under S2O**: the 2021-2023 and 2026 volumes are confirmed open
   access; whether the **2024/2025 volumes opened** depends on the annual subscription threshold being
-  met by March 31. Confirm the current year's status on the Duke OA page. 待核实.
+  met by March 31. Confirm the current year's status on the Duke OA page. 需复核.
 - **Exact fee amounts and waiver mechanics**: $35 submission and $1,000 editorial-management fees were
   current at access time; the editorial-policy page also references a **submission-fee waiver for
   sole student authors**, while the fees page frames the $1,000 waiver around lack of institutional
-  /grant support. Confirm both amounts and the exact waiver eligibility on the live fees page. 待核实.
+  /grant support. Confirm both amounts and the exact waiver eligibility on the live fees page. 需复核.
 - **Submission portal URL**: the journal moved to **ScholarOne** on May 31, 2024; confirm the exact
   current submission link from the official Submit page (do not reuse old Editorial Manager links).
-  待核实.
+  需复核.
 - **Desk-rejection rate, time-to-decision, number of reviewers**: not stated as fixed numbers on the
-  review-process page. 待核实.
+  review-process page. 需复核.
 - **Data-availability timing/duration**: the current policy centers a **data availability statement
   at acceptance** with persistent identifiers; older guidance referenced preserving data for a period
   (e.g., from six months after publication). Treat the **statement-at-acceptance** policy as current
-  and confirm any retention window on the live ethics page. 待核实.
+  and confirm any retention window on the live ethics page. 需复核.
