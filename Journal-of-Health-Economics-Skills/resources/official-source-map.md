@@ -20,8 +20,12 @@ Primary source map for facts used in the JHE skill pack. **Access date: 2026-06.
 | patient selection | Official pages above; re-check live before submission |
 | clinical-policy margin | Official pages above; re-check live before submission |
 
+## Verified on official pages (2026-06)
+
+- **Multi-editor board (no single Editor-in-Chief)** — Co-Editors include J. Cawley (Cornell), C. Carpenter (Vanderbilt), M. K. Bundorf (Stanford), M. Lindeboom (Vrije Universiteit Amsterdam), O. A. O'Donnell (Erasmus), L. Siciliani (York), and K. Simon (Indiana), among others. (Elsevier JHE editorial board / IDEAS-RePEc)
+- Published by **Elsevier** (six issues/year); submit via Editorial Manager from the JHE ScienceDirect page.
+
 ## Unverified / volatile items
 
-- Current editor names and board composition are **待核实** unless explicitly quoted in an official page at submission time.
-- Exact submission fees, APCs, waivers, word limits, abstract limits, and blinding rules are **待核实** if not visible in the official pages above.
+- Exact **submission fee / OA APC, word limits, abstract limits, and blinding rules**, and the full rotating editor roster, are **待核实** if not visible on the official pages above — confirm at submission time.
 - Exemplar articles must be verified in the official archive or DOI page before being cited as real examples.
