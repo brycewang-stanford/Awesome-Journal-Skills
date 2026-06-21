@@ -42,7 +42,7 @@ English | [简体中文](README.md)
 </div>
 
 <p align="center">
-Spanning <b>economics &amp; business, the social sciences &amp; humanities, the natural sciences, clinical medicine and AI / computer science</b> — with a submission workflow encoded for <b>each individual journal and venue</b>.
+Coverage by <b>11 mainstream discipline areas</b>: <b>multidisciplinary and cross-field venues, economics and management, social sciences, humanities, mathematics and physical sciences, life sciences, medicine and health, engineering and technology, computer science and AI, agriculture / environment / earth science, and sport science</b>. Representative subfields are expanded in the overview paragraph below; the cover walls browse by venue, and the full map is in <a href="#-coverage-at-a-glance">Coverage at a Glance</a>.
 </p>
 <p align="center">
   <sub>
@@ -54,21 +54,6 @@ Spanning <b>economics &amp; business, the social sciences &amp; humanities, the 
   </sub>
 </p>
 
-<p align="center">
-  <sub><b>Start with the venue.</b> Click any cover to open its journal-specific skill pack.</sub>
-</p>
-<p align="center">
-  <a href="Engineering-Technology-Journal-Skills/"><img src="assets/covers/bundle-engineering-technology.png" alt="Engineering &amp; Technology Journal Skills (40 journals)" width="210"></a>
-  <a href="Agriculture-Environment-Journal-Skills/"><img src="assets/covers/bundle-agriculture-environment.png" alt="Agriculture &amp; Environment Journal Skills (30 journals)" width="210"></a>
-  <a href="Clinical-Medicine-Journal-Skills/"><img src="assets/covers/bundle-clinical-medicine.png" alt="Clinical Medicine Journal Skills (30 journals)" width="210"></a>
-  <a href="English-Humanities-Journal-Skills/"><img src="assets/covers/bundle-english-humanities.png" alt="English Humanities Journal Skills (36 journals)" width="210"></a>
-</p>
-<p align="center">
-  <sub><b>🆕 Four newest discipline breadth bundles</b> — Engineering &amp; Technology 40 · Agriculture &amp; Environment 30 · Clinical Medicine 30 · English Humanities 36; click a cover to open the bundle.</sub>
-</p>
-<p align="center">
-  <sub><b>Others ·</b> <a href="Chinese-Sport-Science-Journal-Skills/">Chinese Sport Science · 12 CSSCI sport-science journals</a></sub>
-</p>
 <p align="center">
   <a href="Economic-Research-Journal-Skills/"><img src="assets/covers/economic-research.png" alt="《经济研究》 Economic Research" width="160"></a>
   <a href="Journal-of-Management-World-Skills/"><img src="assets/covers/management-world.png" alt="《管理世界》 Management World" width="160"></a>
@@ -313,7 +298,7 @@ Spanning <b>economics &amp; business, the social sciences &amp; humanities, the 
 
 </details>
 
-A curated index of **journal- and conference-specific agent skill packs** for manuscript work — every skill covers one stage of the paper lifecycle: selecting topics, framing the advance, identifying causal effects, formatting tables and figures, preparing replication / data-availability packages, and responding to reviewers. Coverage spans five blocks: **business & social-science flagships (Chinese + English)** (economics, finance, management, accounting, marketing, operations, information systems), **humanities & broader social science** (sociology, political science, psychology, demography, communication, history, art, philosophy, literature, religion), **top natural-science & clinical journals** (Science, Cell, PNAS, NEJM, The Lancet, JAMA… plus environment, ecology, and agriculture flagships), and **AI-first computer-science conferences** (NeurIPS / ICML / ICLR / AAAI / IJCAI / AISTATS depth packs + a 155-conference breadth bundle).
+A curated index of **journal- and conference-specific agent skill packs** for manuscript work — every skill covers one stage of the paper lifecycle: selecting topics, framing the advance, identifying causal effects, formatting tables and figures, preparing replication / data-availability packages, and responding to reviewers. Coverage spans these **11 mainstream discipline areas**: **multidisciplinary and cross-field venues** (generalist journals, interdisciplinary science, computational social science, bioinformatics, network science), **economics and business** (economics, finance, accounting, management, marketing, operations, information systems, entrepreneurship), **social sciences** (sociology, anthropology, political science, law, public administration, demography, communication, geography, psychology), **humanities** (history, philosophy, literature, arts, religious studies), **mathematics and physical sciences** (mathematics, statistics, physics, astronomy, chemistry, materials, energy), **life sciences** (cell biology, molecular biology, genomics, immunology, microbiology, neuroscience, plant science, ecology and evolution), **medicine and health** (general medicine, oncology, cardiovascular medicine, neurology, infectious disease, internal medicine, public health, translational medicine), **engineering and technology** (control, communications, electronics, power systems, robotics, biomedical engineering, manufacturing, aerospace, civil and transportation engineering, chemical and process engineering), **computer science and AI** (machine learning, artificial intelligence, data mining, natural language processing, computer vision, robotics, human-computer interaction, systems, security, software engineering), **agriculture / environment / earth science** (agriculture, food, plants, soil, crops, environment, climate, earth science, atmospheric science, hydrology, ocean science), and **sport science** (exercise science, sports medicine, training science, sport humanities and social science).
 
 Each pack is **journal-specific by design**: it encodes the editorial preferences, formatting conventions, identification standards, and review culture of a single target venue. Generic "scientific writing" skill packs miss these constraints.
 
@@ -352,13 +337,19 @@ Use qje-workflow to assess how far my draft is from QJE's bar and what to do nex
 
 ### 📊 Coverage at a Glance
 
-| Block | Representative venues | Form |
-|------|-----------|------|
-| 💼 **Business & social science**<br><sub>econ · finance · management · accounting · marketing · operations · IS</sub> | AER · QJE · JPE · Econometrica · JF · AMJ · TAR · MISQ · Economic Research · Management World · Social Sciences in China | depth packs + CN/EN breadth bundles |
-| 🏛 **Humanities & broader social science**<br><sub>sociology · anthropology · law · geography · political science · psychology · demography · communication · history · art · philosophy · literature · religion</sub> | ASR · AJS · APSR · AJPS · JPSP · Psych Science · Demography · POQ · Harvard Law Review · Progress in Human Geography · AHR · PMLA · Mind | depth packs |
-| 🔬 **Natural science & clinical**<br><sub>general · life · clinical · physics · chemistry · materials · environment · agriculture</sub> | Science · Cell · PNAS · NEJM · The Lancet · JAMA · PRL · JACS · ES&T · Global Change Biology | depth packs + EN breadth bundle + imported Nature family |
-| ⚙️ **Engineering & technology**<br><sub>control · communications · signal · power · robotics · photonics · biomedical engineering · materials</sub> | Proceedings of the IEEE · TAC · Automatica · Optica · Nature Electronics · Acta Materialia | EN breadth bundle |
-| 🤖 **Computer-science conferences**<br><sub>AI-first</sub> | NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS + 155 venues | depth packs + breadth bundle |
+| Block | Subfields | Representative venues | Form |
+|------|-----------|-----------------------|------|
+| 🌐 **Multidisciplinary & cross-field** | general flagships · cross-disciplinary science · computational social science · bioinformatics · network science | Science · PNAS · Nature Communications · Science Advances · PNAS Nexus · Nature Human Behaviour | depth packs + EN natural-science breadth bundle + imported Nature family |
+| 💼 **Economics & management** | economics · finance · management · accounting · marketing · operations · information systems | AER · QJE · JPE · Econometrica · JF · AMJ · TAR · MISQ · Economic Research · Management World | depth packs + CN/EN breadth bundles |
+| 🧭 **Social sciences** | sociology · anthropology · political science · psychology · education · demography · communication · public administration · law · geography | ASR · AJS · APSR · AJPS · JPSP · Demography · POQ · HLR · Progress in Human Geography | depth packs + CN/EN breadth bundles |
+| 🏛 **Humanities** | history · art history · philosophy · literature · religion · critical theory | AHR · PMLA · Mind · Critical Inquiry · The Art Bulletin · JAAR | depth packs + English humanities breadth bundle |
+| 📐 **Mathematics & physical sciences** | mathematics · physics · astronomy · chemistry · materials · energy | Annals of Mathematics · PRL · Nature Physics · JACS · Nature Materials · Nature Energy | depth packs + EN natural-science breadth bundle |
+| 🧬 **Life sciences** | cell · molecular · genomics · immunology · microbiology · neuroscience · plant science · ecology/evolution | Cell · Cancer Cell · Molecular Cell · Neuron · Immunity · The Plant Cell · eLife | depth packs + EN natural-science breadth bundle |
+| 🩺 **Medicine & health** | general medicine · oncology · cardiology · neurology · infectious disease · internal medicine · public health · translational medicine | NEJM · The Lancet · JAMA · BMJ · JCO · Circulation · Blood · Gastroenterology | depth packs + clinical medicine breadth bundle + EN natural-science breadth bundle |
+| ⚙️ **Engineering & technology** | control · communications · signal processing · power · robotics · photonics · biomedical engineering · materials | Proceedings of the IEEE · TAC · Automatica · Optica · Nature Electronics · Acta Materialia | English engineering breadth bundle |
+| 🤖 **Computer science & AI** | AI/ML · CV · NLP · data mining · systems · databases · security · HCI · theory | NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS + 155 venues | CS/AI depth packs + conference breadth bundle |
+| 🌱 **Agriculture, environment & earth science** | agricultural systems · crops · environmental science · climate · conservation · earth systems | Field Crops Research · Agricultural Systems · ES&T · Global Environmental Change · Conservation Biology · Global Change Biology | depth packs + agriculture/environment breadth bundle |
+| 🏅 **Sport science** | training · physical education · kinesiology · sport social science | 体育科学 · Journal of Beijing Sport University · Journal of Shanghai University of Sport | Chinese sport-science breadth bundle |
 
 <sub><b>193 packs / 2883 skills</b> total. A "depth pack" = one venue, end-to-end (~12 skills); a "breadth bundle" = one lightweight "venue-fit + house-style" skill per venue plus a router.</sub>
 
@@ -372,7 +363,7 @@ Use the repo in three passes:
 |---|---|---|
 | **Cover cards and root journal folders** like `American-Economic-Review/` or `Jingji-Yanjiu/` | Navigation entries only; they point to the canonical skill location and intentionally do not contain `SKILL.md`. | You are browsing by journal name from the GitHub root. |
 | **Depth packs** like `Economic-Research-Journal-Skills/`, `Cell-Skills/`, or `Quarterly-Journal-of-Economics-Skills/` | Full per-venue workflows, usually 9-13 skills covering topic fit, framing, methods, tables, submission, and rebuttal. | You are targeting a flagship venue and need lifecycle help. |
-| **Breadth bundles**: `Chinese-SocialScience-Journal-Skills/`, `English-SocialScience-Journal-Skills/`, `English-NaturalScience-Journal-Skills/`, `Engineering-Technology-Journal-Skills/`, `Agriculture-Environment-Journal-Skills/`, `Clinical-Medicine-Journal-Skills/`, `English-Humanities-Journal-Skills/`, `Computer-Science-Conference-Skills/` | One lightweight fit-and-house-style skill per journal, plus a router skill for venue selection. | You need broad coverage across 100-journal roadmaps, or you are still comparing targets. |
+| **Breadth bundles**: `Chinese-SocialScience-Journal-Skills/`, `English-SocialScience-Journal-Skills/`, `English-NaturalScience-Journal-Skills/`, `Engineering-Technology-Journal-Skills/`, `Agriculture-Environment-Journal-Skills/`, `Clinical-Medicine-Journal-Skills/`, `English-Humanities-Journal-Skills/`, `Chinese-Sport-Science-Journal-Skills/`, `Computer-Science-Conference-Skills/` | One lightweight fit-and-house-style skill per journal, plus a router skill for venue selection. | You need broad coverage across 100-journal roadmaps, or you are still comparing targets. |
 | **Third-party listings (external links)** like [nature-skills](https://github.com/Yuan1z0825/nature-skills), [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar), or [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | Curated upstream packs or general academic tooling listed as external links, not vendored into this repository. | You need cross-journal research, writing, or workflow support. |
 
 Rule of thumb: start from a root folder or cover card when browsing, use a breadth bundle when choosing between venues, and use a depth pack once the target journal is fixed.
@@ -1404,7 +1395,7 @@ use next for my manuscript targeted at <journal>.
   - [English-Humanities-Journal-Skills](English-Humanities-Journal-Skills/) — 36 English humanities journals
   - [Chinese-Sport-Science-Journal-Skills](Chinese-Sport-Science-Journal-Skills/) — 12 Chinese sport-science (体育学) journals
 - **Per-journal cover wall** for breadth journals, always-expanded cover galleries in both READMEs, and 200 lightweight root entry folders for repo-front browsing.
-- **Full end-to-end depth packs (~12 steps)** — 184 first-party venue packs across five areas (AER and Nature are listed as external third-party resources):
+- **Full end-to-end depth packs (~12 steps)** — 184 first-party venue packs across the full discipline map (AER and Nature are listed as external third-party resources):
   - **English economics:** AER (external listing) · AER: Insights · AEJ Applied Economics · AEJ Economic Policy · AEJ Macroeconomics · AEJ Microeconomics · JEEA · IER · The Economic Journal · European Economic Review · Journal of Economic Literature · Journal of Economic Perspectives · Review of Economics and Statistics · QJE · JPE · Econometrica · REStud · Journal of Development Economics · Journal of Public Economics · Journal of Labor Economics · Journal of International Economics · Journal of Monetary Economics · JMCB · IMF Economic Review · Economic Policy · RAND Journal of Economics · Journal of Econometrics · Econometric Theory · Quantitative Economics · Journal of Applied Econometrics · JBES · The Econometrics Journal · Review of Economic Dynamics · Journal of Economic Growth · Journal of Economic Theory · Games and Economic Behavior · Journal of Human Resources · Journal of Health Economics · Journal of Urban Economics · JEEM · JEBO · Journal of Law and Economics · JLEO · World Development · World Bank Economic Review · Journal of Economic Geography · Journal of Risk and Uncertainty · Experimental Economics · Annual Review of Economics
   - **English finance:** Journal of Finance · Journal of Financial Economics · Review of Financial Studies · Review of Finance · JFQA · JFI · Journal of Corporate Finance · Journal of Banking & Finance · Journal of Financial Markets · Journal of International Money and Finance · Financial Management · Mathematical Finance
   - **English management / OM / IS:** AMJ · AMR · Academy of Management Annals · ASQ · SMJ · Organization Science · Organization Studies · Journal of Management · Journal of Management Studies · Human Relations · Human Resource Management · ETP · Research Policy · JIBS · JBV · Management Science · Operations Research · INFORMS Journal on Computing · M&SOM · JOM · POM · MISQ · ISR · JMIS · JAIS

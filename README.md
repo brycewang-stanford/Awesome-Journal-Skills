@@ -42,7 +42,7 @@
 </div>
 
 <p align="center">
-横跨<b>经管社科 · 人文社科 · 自然科学 · 临床医学 · AI 计算机</b>等多个主流学科，为<b>每一本期刊 / 每一个会议</b>单独编码它的投稿工作流。
+按 <b>11 个主流学科板块</b> 覆盖：<b>综合·交叉、经管与商科、社会科学、人文学科、数学与物理科学、生命科学、医学与健康、工程与技术、计算机科学与 AI、农业·环境·地球科学、体育科学</b>；每类下的代表子领域在正文总览中完整列出，下方封面墙按 venue 导航，完整分类见<a href="#-覆盖一览">覆盖一览</a>。
 </p>
 <p align="center">
   <sub>
@@ -54,21 +54,6 @@
   </sub>
 </p>
 
-<p align="center">
-  <sub><b>先看期刊，再进 Pack。</b>点击任意封面即可进入对应的期刊 Skill 包。</sub>
-</p>
-<p align="center">
-  <a href="Engineering-Technology-Journal-Skills/"><img src="assets/covers/bundle-engineering-technology.png" alt="Engineering &amp; Technology Journal Skills（40 刊）" width="210"></a>
-  <a href="Agriculture-Environment-Journal-Skills/"><img src="assets/covers/bundle-agriculture-environment.png" alt="Agriculture &amp; Environment Journal Skills（30 刊）" width="210"></a>
-  <a href="Clinical-Medicine-Journal-Skills/"><img src="assets/covers/bundle-clinical-medicine.png" alt="Clinical Medicine Journal Skills（30 刊）" width="210"></a>
-  <a href="English-Humanities-Journal-Skills/"><img src="assets/covers/bundle-english-humanities.png" alt="English Humanities Journal Skills（36 刊）" width="210"></a>
-</p>
-<p align="center">
-  <sub><b>🆕 四个最新学科广度合集</b> —— 工程技术 40 · 农业环境 30 · 临床医学 30 · 英文人文 36；点击封面进入合集页。</sub>
-</p>
-<p align="center">
-  <sub><b>其他合集 ·</b> <a href="Chinese-Sport-Science-Journal-Skills/">中文体育学 · 12 本 CSSCI 体育学来源刊</a></sub>
-</p>
 <p align="center">
   <a href="Economic-Research-Journal-Skills/"><img src="assets/covers/economic-research.png" alt="《经济研究》 Economic Research" width="160"></a>
   <a href="Journal-of-Management-World-Skills/"><img src="assets/covers/management-world.png" alt="《管理世界》 Management World" width="160"></a>
@@ -313,7 +298,7 @@
 
 </details>
 
-按**期刊与会议**组织的 Agent Skill 包索引——每个 skill 覆盖论文生命周期的一个环节：选题、定位核心进展、识别策略、表格与图件规范、复制包 / 数据可得性准备、投稿与修改回复。收录范围横跨五大板块：**经管社科中英文顶刊**（经济、金融、管理、会计、营销、运营、信息系统）、**人文与广义社科顶刊**（社会学、政治学、心理学、人口学、传播学、历史、艺术、哲学、文学、宗教）、**自然科学与临床顶刊**（Science、Cell、PNAS、NEJM、The Lancet、JAMA……以及环境、生态、农业领域旗舰刊），以及 **AI 优先的计算机科学顶会**（NeurIPS / ICML / ICLR / AAAI / IJCAI / AISTATS 深度包 + 155 个会议广度合集）。
+按**期刊与会议**组织的 Agent Skill 包索引——每个 skill 覆盖论文生命周期的一个环节：选题、定位核心进展、识别策略、表格与图件规范、复制包 / 数据可得性准备、投稿与修改回复。收录范围横跨以下 **11 个主流学科板块**：**综合·交叉**（综合性大刊、交叉科学、计算社会科学、生物信息、网络科学），**经管与商科**（经济学、金融、会计、管理、营销、运营、信息系统、创新创业），**社会科学**（社会学、人类学、政治学、法学、公共管理、人口学、传播学、地理学、心理学），**人文学科**（历史、哲学、文学、艺术、宗教学），**数学与物理科学**（数学、统计、物理、天文、化学、材料、能源），**生命科学**（细胞、分子、基因组、免疫、微生物、神经、植物、生态演化），**医学与健康**（临床综合、肿瘤、心血管、神经、感染、内科、公共卫生、转化医学），**工程与技术**（控制、通信、电子、电力、机器人、生医工程、制造、航空、土木交通、化工过程），**计算机科学与 AI**（机器学习、人工智能、数据挖掘、自然语言处理、计算机视觉、机器人、人机交互、系统、安全、软件工程），**农业·环境·地球科学**（农业、食品、植物、土壤、作物、环境、气候、地球、大气、水文、海洋），以及**体育科学**（运动人体科学、运动医学、训练学、体育人文社会学）。
 
 每个 pack 都是**针对单一期刊**的方法论沉淀：它编码了某一本期刊的编委偏好、格式规范、识别标准和审稿文化。通用的"科研写作"Skill 包做不到这一点。
 
@@ -352,13 +337,19 @@
 
 ### 📊 覆盖一览
 
-| 板块 | 代表 venue | 形态 |
-|------|-----------|------|
-| 💼 **经管社科**<br><sub>经济 · 金融 · 管理 · 会计 · 营销 · 运营 · 信息系统</sub> | AER · QJE · JPE · Econometrica · JF · AMJ · TAR · MISQ ·《经济研究》·《管理世界》·《中国社会科学》 | 深度包 + 中英文广度合集 |
-| 🏛 **人文与广义社科**<br><sub>社会学 · 人类学 · 法学 · 地理学 · 政治学 · 心理学 · 人口学 · 传播学 · 历史 · 艺术 · 哲学 · 文学 · 宗教</sub> | ASR · AJS · APSR · AJPS · JPSP · Psych Science · Demography · POQ · Harvard Law Review · Progress in Human Geography · AHR · PMLA · Mind | 深度包 |
-| 🔬 **自然科学与临床**<br><sub>综合 · 生命 · 临床 · 物理 · 化学 · 材料 · 环境 · 农业</sub> | Science · Cell · PNAS · NEJM · The Lancet · JAMA · PRL · JACS · ES&T · Global Change Biology | 深度包 + 英文广度合集 + 收录 Nature 系 |
-| ⚙️ **工程技术**<br><sub>控制 · 通信 · 信号 · 电力 · 机器人 · 光子 · 生医工程 · 材料</sub> | Proceedings of the IEEE · TAC · Automatica · Optica · Nature Electronics · Acta Materialia | 英文广度合集 |
-| 🤖 **计算机科学顶会**<br><sub>AI 优先</sub> | NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS + 155 个会议 | 深度包 + 广度合集 |
+| 板块 | 子领域 | 代表 venue | 形态 |
+|------|--------|-----------|------|
+| 🌐 **综合·交叉** | 综合性大刊 · 交叉科学 · 计算社科 · 生物信息 · 网络科学 | Science · PNAS · Nature Communications · Science Advances · PNAS Nexus · Nature Human Behaviour | 深度包 + 英文自然科学广度合集 + 第三方 Nature 系 |
+| 💼 **经济学与管理学** | 经济 · 金融 · 管理 · 会计 · 营销 · 运营 · 信息系统 | AER · QJE · JPE · Econometrica · JF · AMJ · TAR · MISQ ·《经济研究》·《管理世界》 | 深度包 + 中英文广度合集 |
+| 🧭 **社会科学** | 社会学 · 人类学 · 政治学 · 心理学 · 教育 · 人口 · 传播 · 公共管理 · 法学 · 地理 | ASR · AJS · APSR · AJPS · JPSP · Demography · POQ · HLR · Progress in Human Geography | 深度包 + 中英文广度合集 |
+| 🏛 **人文学科** | 历史 · 艺术史 · 哲学 · 文学 · 宗教 · 批评理论 | AHR · PMLA · Mind · Critical Inquiry · The Art Bulletin · JAAR | 深度包 + 英文人文广度合集 |
+| 📐 **数学与物理科学** | 数学 · 物理 · 天文 · 化学 · 材料 · 能源 | Annals of Mathematics · PRL · Nature Physics · JACS · Nature Materials · Nature Energy | 深度包 + 英文自然科学广度合集 |
+| 🧬 **生命科学** | 细胞 · 分子 · 基因组 · 免疫 · 微生物 · 神经 · 植物 · 生态演化 | Cell · Cancer Cell · Molecular Cell · Neuron · Immunity · The Plant Cell · eLife | 深度包 + 英文自然科学广度合集 |
+| 🩺 **医学与健康** | 临床综合 · 肿瘤 · 心血管 · 神经 · 感染 · 内科 · 公共健康 · 转化医学 | NEJM · The Lancet · JAMA · BMJ · JCO · Circulation · Blood · Gastroenterology | 深度包 + 临床医学广度合集 + 英文自然科学广度合集 |
+| ⚙️ **工程与技术** | 控制 · 通信 · 信号 · 电力 · 机器人 · 光子 · 生医工程 · 材料 | Proceedings of the IEEE · TAC · Automatica · Optica · Nature Electronics · Acta Materialia | 英文工程技术广度合集 |
+| 🤖 **计算机科学与 AI** | AI/ML · CV · NLP · 数据挖掘 · 系统 · 数据库 · 安全 · HCI · 理论 | NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS + 155 个会议 | CS/AI 深度包 + 会议广度合集 |
+| 🌱 **农业·环境·地球科学** | 农业系统 · 作物 · 环境科学 · 气候 · 生态保护 · 地球系统 | Field Crops Research · Agricultural Systems · ES&T · Global Environmental Change · Conservation Biology · Global Change Biology | 深度包 + 农业环境广度合集 |
+| 🏅 **体育科学** | 运动训练 · 体育教育 · 运动人体科学 · 体育社会科学 | 《体育科学》·《北京体育大学学报》·《上海体育学院学报》 | 中文体育学广度合集 |
 
 <sub>共 <b>193 个 pack / 2883 个 skill</b>。"深度包"= 单刊单会全流程（约 12 个 skill）；"广度合集"= 每个 venue 一个轻量"选刊定位 + 写作风格"skill 加一个 router。</sub>
 
@@ -372,7 +363,7 @@
 |---|---|---|
 | **封面卡和根目录期刊文件夹**，例如 `American-Economic-Review/` 或 `Jingji-Yanjiu/` | 只负责导航；它们指向 canonical skill 位置，故意不放 `SKILL.md`。 | 你在 GitHub 根目录按期刊名浏览。 |
 | **深度包**，例如 `Economic-Research-Journal-Skills/`、`Cell-Skills/` 或 `Quarterly-Journal-of-Economics-Skills/` | 单刊全流程工作流，通常含 9-13 个 skills，覆盖选题、定位、方法、表格、投稿和回复。 | 目标期刊已确定，且需要完整投稿生命周期支持。 |
-| **广度合集**：`Chinese-SocialScience-Journal-Skills/`、`English-SocialScience-Journal-Skills/`、`English-NaturalScience-Journal-Skills/`、`Engineering-Technology-Journal-Skills/`、`Agriculture-Environment-Journal-Skills/`、`Clinical-Medicine-Journal-Skills/`、`English-Humanities-Journal-Skills/`、`Computer-Science-Conference-Skills/` | 每本期刊一个轻量 fit-and-house-style skill，另有 router skill 用于选刊。 | 你需要覆盖 100 本期刊级别的路线图，或还在比较投稿目标。 |
+| **广度合集**：`Chinese-SocialScience-Journal-Skills/`、`English-SocialScience-Journal-Skills/`、`English-NaturalScience-Journal-Skills/`、`Engineering-Technology-Journal-Skills/`、`Agriculture-Environment-Journal-Skills/`、`Clinical-Medicine-Journal-Skills/`、`English-Humanities-Journal-Skills/`、`Chinese-Sport-Science-Journal-Skills/`、`Computer-Science-Conference-Skills/` | 每本期刊一个轻量 fit-and-house-style skill，另有 router skill 用于选刊。 | 你需要覆盖 100 本期刊级别的路线图，或还在比较投稿目标。 |
 | **第三方收录（外链）**，例如 [nature-skills](https://github.com/Yuan1z0825/nature-skills)、[claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) 或 [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | 第三方上游包或通用学术工具，以外链形式收录（不再 vendored 进本仓库）。 | 你需要跨期刊的研究、写作或工作流支持。 |
 
 经验法则：浏览时从根目录文件夹或封面卡开始；选刊时用广度合集；目标期刊确定后再进入对应深度包。
@@ -1403,7 +1394,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
   - [English-Humanities-Journal-Skills](English-Humanities-Journal-Skills/) —— 36 本英文人文期刊
   - [Chinese-Sport-Science-Journal-Skills](Chinese-Sport-Science-Journal-Skills/) —— 12 本中文体育学（体育科学）期刊
 - **每刊封面直达** 覆盖全部广度期刊，两份 README 内嵌默认展开的封面画廊，并提供 200 个根目录轻量入口文件夹便于首页浏览。
-- **单刊/单会全流程深度包（约 12 步）** —— 184 个仓库内自有 venue 包，覆盖五大板块（AER 与 Nature 以第三方外链形式收录）：
+- **单刊/单会全流程深度包（约 12 步）** —— 184 个仓库内自有 venue 包，覆盖 11 个主流学科板块：综合·交叉、经管与商科、社会科学、人文学科、数学与物理科学、生命科学、医学与健康、工程与技术、计算机科学与 AI、农业·环境·地球科学、体育科学（AER 与 Nature 以第三方外链形式收录）：
   - **英文经济学：** AER（外链收录）· AER: Insights · AEJ Applied Economics · AEJ Economic Policy · AEJ Macroeconomics · AEJ Microeconomics · JEEA · IER · The Economic Journal · European Economic Review · Journal of Economic Literature · Journal of Economic Perspectives · Review of Economics and Statistics · QJE · JPE · Econometrica · REStud · Journal of Development Economics · Journal of Public Economics · Journal of Labor Economics · Journal of International Economics · Journal of Monetary Economics · JMCB · IMF Economic Review · Economic Policy · RAND Journal of Economics · Journal of Econometrics · Econometric Theory · Quantitative Economics · Journal of Applied Econometrics · JBES · The Econometrics Journal · Review of Economic Dynamics · Journal of Economic Growth · Journal of Economic Theory · Games and Economic Behavior · Journal of Human Resources · Journal of Health Economics · Journal of Urban Economics · JEEM · JEBO · Journal of Law and Economics · JLEO · World Development · World Bank Economic Review · Journal of Economic Geography · Journal of Risk and Uncertainty · Experimental Economics · Annual Review of Economics
   - **英文金融：** Journal of Finance · Journal of Financial Economics · Review of Financial Studies · Review of Finance · JFQA · JFI · Journal of Corporate Finance · Journal of Banking & Finance · Journal of Financial Markets · Journal of International Money and Finance · Financial Management · Mathematical Finance
   - **英文管理 / 运营 / 信息系统：** AMJ · AMR · Academy of Management Annals · ASQ · SMJ · Organization Science · Organization Studies · Journal of Management · Journal of Management Studies · Human Relations · Human Resource Management · ETP · Research Policy · JIBS · JBV · Management Science · Operations Research · INFORMS Journal on Computing · M&SOM · JOM · POM · MISQ · ISR · JMIS · JAIS
