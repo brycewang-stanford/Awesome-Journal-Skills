@@ -20,8 +20,12 @@ Primary source map for facts used in the JMIS skill pack. **Access date: 2026-06
 | analytics adoption | Official pages above; re-check live before submission |
 | information systems theory | Official pages above; re-check live before submission |
 
+## Verified on official pages (2026-06)
+
+- **Editor-in-Chief: Vladimir Zwass (Fairleigh Dickinson University)** — founding and present EiC. (jmis-web.org / Taylor & Francis)
+- Published by **Taylor & Francis** (print and online).
+
 ## Unverified / volatile items
 
-- Current editor names and board composition are **待核实** unless explicitly quoted in an official page at submission time.
-- Exact submission fees, APCs, waivers, word limits, abstract limits, and blinding rules are **待核实** if not visible in the official pages above.
+- Exact **submission fee / OA APC, word limits, abstract limits, and blinding rules** are **待核实** if not visible on the official pages above — confirm at submission time.
 - Exemplar articles must be verified in the official archive or DOI page before being cited as real examples.

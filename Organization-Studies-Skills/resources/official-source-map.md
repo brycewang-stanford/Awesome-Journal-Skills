@@ -20,8 +20,11 @@ Primary source map for facts used in the OS skill pack. **Access date: 2026-06.*
 | organization theory | Official pages above; re-check live before submission |
 | critical reflexivity | Official pages above; re-check live before submission |
 
+## Verified on official pages (2026-06)
+
+- **Editors-in-Chief: Renate Meyer and Paolo Quattrone** (the co-EiC slate rotates and some listings differ — confirm the current pairing on the live page). Published by **SAGE** on behalf of **EGOS** (est. 1980).
+
 ## Unverified / volatile items
 
-- Current editor names and board composition are **待核实** unless explicitly quoted in an official page at submission time.
-- Exact submission fees, APCs, waivers, word limits, abstract limits, and blinding rules are **待核实** if not visible in the official pages above.
+- Exact **word limits, abstract limits, OA charge, and blinding rules** are **待核实** if not visible on the official pages above — confirm at submission time.
 - Exemplar articles must be verified in the official archive or DOI page before being cited as real examples.
