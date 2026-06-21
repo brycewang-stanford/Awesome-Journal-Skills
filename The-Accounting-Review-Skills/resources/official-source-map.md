@@ -1,7 +1,8 @@
 # TAR Official Source Map
 
 Canonical sources for verifying every fact about **The Accounting Review (TAR)** used in this
-skill pack. Sources were searched and corroborated on **2026-06-01**. Several official AAA /
+skill pack. Sources were searched and corroborated on **2026-06-01**; the Senior Editor masthead
+was re-confirmed on **2026-06-20** (Mohan Venkatachalam is now the sitting Senior Editor). Several official AAA /
 AllenPress endpoints (the standalone `TAR_Editorial_Policy.pdf` on meridian.allenpress.com and
 the versioned Editorial Policy article on publications.aaahq.org) returned HTTP 403/Forbidden to
 automated fetchers, so the corresponding facts were taken instead from the aaahq.org Editorial
@@ -19,12 +20,13 @@ directly.
 | 4 | https://aaahq.org/TAR2026-Editor-Announcement | Mohan Venkatachalam (Duke University) becomes Senior Editor of TAR in June 2026, succeeding Kathryn Kadous (Emory University); named Lead Editors (Brian Mittendorf, Edward L. Maydew, Kristina M. Rennekamp, Paul Hribar) share Senior Editor responsibilities including assigning editors, issuing decision letters, desk rejections, and appeals; roughly two dozen standing Editors; Senior Editor and Lead Editors may appoint Ad hoc Editors for specialized topics/methods | 2026-06-01 |
 | 5 | https://www.editorialmanager.com/accr | Editorial Manager submission portal for TAR (system entry point; account / ORCID / file upload) | 2026-06-01 |
 | 6 | https://aaahq.org | American Accounting Association (AAA) — publisher of TAR; AAA journal family context | 2026-06-01 |
+| 7 | https://aaahq.org/Research/Journals/The-Accounting-Review | TAR journal masthead — confirms **Mohan Venkatachalam (Duke University, Fuqua School of Business)** as the sitting Senior Editor; Lead Editors Paul Hribar (Iowa), Edward Maydew (UNC), Brian Mittendorf (Ohio State), Kristina Rennekamp (Cornell) | 2026-06-20 |
 
 ## VERIFIED facts injected into the skills (with source #)
 
 - **Field focus:** archival/empirical and analytical accounting across financial accounting, capital markets, auditing and assurance, management accounting, taxation, accounting information systems, and all areas of accounting broadly defined. (#1)
 - **Publisher:** American Accounting Association (AAA), aaahq.org. (#6)
-- **Senior Editor:** Kathryn Kadous (Emory University), with Mohan Venkatachalam (Duke University) succeeding her as Senior Editor beginning June 2026; Lead Editors (Mittendorf, Maydew, Rennekamp, Hribar) share Senior-Editor duties; Ad hoc Editors appointed for specialized topics/methods. (#4)
+- **Senior Editor:** Mohan Venkatachalam (Duke University, Fuqua School of Business), **sitting Senior Editor since June 2026** (succeeding Kathryn Kadous, Emory University); Lead Editors Paul Hribar (Iowa), Edward Maydew (UNC), Brian Mittendorf (Ohio State), and Kristina Rennekamp (Cornell) share Senior-Editor duties; Ad hoc Editors appointed for specialized topics/methods. (#4, #7)
 - **Submission system:** Editorial Manager at https://www.editorialmanager.com/accr. (#2, #5)
 - **Submission fee:** non-refundable; **$270 AAA members / $645 non-members** per the current Guide for Authors, paid via the AAA portal at submission. (#2)
 - **Length:** initial submissions should not exceed **55 pages** including references, figures, tables, and appendices; 12-pt Times New Roman, double-spaced, 1-inch margins, serially numbered pages. (#3)

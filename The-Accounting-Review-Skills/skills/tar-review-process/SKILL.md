@@ -17,8 +17,8 @@ description: Use when understanding how The Accounting Review (TAR) review and d
 TAR uses a **tiered editor structure** distinct from INFORMS-style permanent departmental
 area-editors:
 
-- A single **Senior Editor** oversees the whole process — Kathryn Kadous (Emory), with **Mohan
-  Venkatachalam (Duke) succeeding her as Senior Editor in June 2026** (verify the current masthead).
+- A single **Senior Editor** oversees the whole process — **Mohan Venkatachalam (Duke, Fuqua),
+  sitting Senior Editor since June 2026** (succeeding Kathryn Kadous, Emory; verify the current masthead).
 - Named **Lead Editors** (e.g., Brian Mittendorf, Edward L. Maydew, Kristina M. Rennekamp, Paul
   Hribar) share Senior-Editor responsibilities: assigning editors, issuing decision letters, handling
   **desk rejections** and **appeals**.
