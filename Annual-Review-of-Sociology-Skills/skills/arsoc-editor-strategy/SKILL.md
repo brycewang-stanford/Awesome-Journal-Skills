@@ -31,6 +31,12 @@ ARSoc reviewers do **not** check an identification strategy or replicate results
 
 Reviewers of an ARSoc review are often **the reviewed authors themselves** — the people whose work is being weighed will read how you weighed it. This makes balance and accurate attribution strategic, not just ethical.
 
+## Sociology-specific editorial posture
+
+- Treat the editor conversation as a scope contract about traditions, methods, and levels of analysis: theory, ethnography, historical/comparative work, surveys, experiments, networks, demography, and computational sociology do not ask identical evidence questions.
+- When an editor asks for broader coverage, answer by naming which sociological debate the added work changes: mechanism, institution, inequality axis, cultural process, population pattern, organizational field, or methodological boundary.
+- Push back on additions that flatten traditions into a bibliography; ARSoc value comes from mapping a debate and its tensions, not from treating every subfield as interchangeable coverage.
+
 ## Scope negotiation with the Committee
 
 - **Lock scope early, in writing.** The invitation/acceptance stage is where scope is cheapest to change. Confirm the boundaries — including which traditions and methods are in — before months of reading.

@@ -31,6 +31,12 @@ ARE referees do **not** check an identification strategy or replicate results â€
 
 Referees of an ARE review are often **the reviewed authors themselves** â€” the people whose work is being weighed will read how you weighed it. This makes balance and accurate attribution strategic, not just ethical.
 
+## Economics-specific editorial posture
+
+- Treat the editor conversation as a scope contract about literatures, mechanisms, and evidence hierarchies: theory, quasi-experimental work, structural models, macro evidence, and applied micro fields may each expect different standards of synthesis.
+- When an editor asks for broader coverage, answer by naming the economic question the added work changes: mechanism, welfare implication, identification lesson, policy margin, market design, or macro/finance channel.
+- Push back on additions that turn the piece into a handbook chapter; ARE value comes from a field-level economic framework plus selective appraisal, not from listing every empirical setting.
+
 ## Scope negotiation with the Committee
 
 - **Lock scope early, in writing.** The invitation/acceptance stage is where scope is cheapest to change. Confirm the boundaries with the editor before months of reading.
