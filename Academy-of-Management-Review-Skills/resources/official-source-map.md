@@ -65,5 +65,6 @@ in the skills.
   and AOM annual reports.
 - **AI-assistance / disclosure policy** specifics. Confirm at Source 4.
 - **Exact AMR ScholarOne portal URL.** Confirm via the submission link at Source 2.
-- **Year AMR was established.** Not confirmed from an official page on access date; commonly
-  cited as the mid-1970s but left UNVERIFIED here to avoid asserting an unconfirmed date.
+- **Year AMR was established: 1976** (Vol. 1, No. 1, January 1976) — verified 2026-06 via the
+  AOM journal archive (journals.aom.org/loi/amr lists Volume 1 in 1976) and corroborated by
+  JSTOR's AMR run and the journal's Wikipedia entry.

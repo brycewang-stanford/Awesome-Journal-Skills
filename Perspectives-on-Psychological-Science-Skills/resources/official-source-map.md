@@ -25,13 +25,13 @@ Primary source map for facts used in the `ppsych-*` skill pack. **Access date: 2
 | Suggest ≥5 objective reviewers (excluding mentors/colleagues/collaborators) | verified | APS submission guidelines |
 | Submission portal: mc.manuscriptcentral.com/pps | verified | APS submission guidelines |
 | Editor-in-Chief: Arturo Hernandez (from 2024-12-01) | verified 2026-06；以官网为准 (volatile) | APS editorial-team page / EiC editorial |
-| APA reference/statistics/exhibit style | 待核实 (confirm current APA edition + SAGE house deviations) | SAGE author instructions |
-| Open-Practice badge set (Open Data / Open Materials / Preregistration) for PoPS | 待核实 (confirm current availability + criteria) | SAGE/APS author pages |
+| APA reference/statistics/exhibit style | **APA 7th edition** (section order, headings/subheadings per APA 7) — verified 2026-06 | APS/SAGE submission guidelines |
+| Open-Practice badges for PoPS | **Discontinued for submissions on/after 2024-01-01** — replaced by *required* open data + open materials (case-by-case exemptions) and a top-of-article **Research Transparency Statement**; preregistration is an evaluation factor — verified 2026-06 | APS submission guidelines (psychologicalscience.org/publications/perspectives/pps-submissions) |
 | Sibling boundary: Psychological Science, Psychological Bulletin, Annual Review of Psychology, Current Directions in Psychological Science | inferred from scope + APS journal portfolio | APS journal portfolio |
 
 ## Unverified / volatile items
 
 - **Current editor names and board composition** are volatile; re-confirm the EiC and handling-editor structure on the editorial-team page at submission time.
-- **Exact APA edition, figure/color specs, and any SAGE house deviations** are 待核实 — confirm on the SAGE author instructions.
-- **The current Open-Practice badge set and criteria, and the journal's TOP level**, are 待核实 — confirm on the SAGE/APS author pages.
+- **Manuscript style is APA 7th edition** (verified 2026-06); the exact figure/color specs and any minor SAGE house deviations remain 待核实 — confirm on the SAGE author instructions.
+- **Open-Practice badges were discontinued for submissions on/after 2024-01-01** (verified 2026-06), replaced by mandatory open data/materials and a top-of-article Research Transparency Statement; the journal's exact **TOP level** number is 待核实 — confirm on the SAGE/APS author pages.
 - **Exemplar articles** must be verified in the official archive or DOI page before being cited as real examples (see `exemplars/library.md`).
