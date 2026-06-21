@@ -92,7 +92,8 @@ pages change. Items that could not be confirmed from a primary fetch are marked 
 - **Submission platform specifics** — submission is through the AEA online submission system; exact upload
   prompts and any platform migration details are portal-rendered and should be confirmed in the system at
   submission time.
-- **Founding year** — AEJ: Economic Policy launched with the other AEJs (vol. 1, 2009); treat the exact
-  launch month as 待核实 if a precise date is needed.
+- **Founding year** — AEJ: Economic Policy launched with the other AEJs in vol. 1, 2009; the inaugural
+  issue was **February 2009** (two issues in 2009, moving to quarterly in 2010), verified 2026-06 via the
+  AEA journal issues page, JSTOR, and IDEAS/RePEc.
 - **AEA Data Editor personnel** — Lars Vilhuber is the long-standing AEA Data Editor as of 2026-06-20; this
   is AEA-wide and re-confirmable, but personnel can change — re-verify before relying on the name.

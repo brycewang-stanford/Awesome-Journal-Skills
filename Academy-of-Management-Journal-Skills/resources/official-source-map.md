@@ -42,6 +42,6 @@ or **UNVERIFIED** where an official page could not be confirmed.
 
 - **Acceptance rate** ~6% per a third-party aggregator — treat as approximate; not confirmed on an official AOM page.
 - **Impact factor** sources diverge (2023 JCR ~9.5 vs. older/third-party figures); treat any single number as approximate.
-- **AOM membership requirement to submit** was not confirmed as a hard gate on an official page on 2026-05-30 (AOM is membership-driven, but the submit-time requirement is UNVERIFIED).
+- **AOM membership requirement to submit** — no membership gate is stated on the official AMJ submission/author-resources pages (re-checked 2026-06); AOM is membership-driven, but submission is not described as gated on membership in the public author guidelines.
 - **Full current editorial-board roster** and division action editors (rotates on multi-year terms).
 - **Formal open-science / data-availability mandate** wording: AOM ethics, iThenticate, and the AI policy are confirmed, but a mandatory data-deposit requirement was not confirmed.
