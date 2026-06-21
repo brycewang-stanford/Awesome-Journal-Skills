@@ -20,8 +20,12 @@ Primary source map for facts used in the Experimental Economics skill pack. **Ac
 | pre-analysis plan | Official pages above; re-check live before submission |
 | treatment contrast | Official pages above; re-check live before submission |
 
+## Verified on official pages (2026-06)
+
+- **Publisher change: from 2025, Experimental Economics is published by Cambridge University Press** (new submissions at cambridge.org/core/journals/experimental-economics); the former Springer site is archived and no longer accepts submissions. Journal of the **Economic Science Association (ESA)**.
+- Editors include Jordi Brandts, Timothy N. Cason, David J. Cooper, Lata Gangadharan, and Charles Noussair (confirm the current EiC on the Cambridge editorial board).
+
 ## Unverified / volatile items
 
-- Current editor names and board composition are **待核实** unless explicitly quoted in an official page at submission time.
-- Exact submission fees, APCs, waivers, word limits, abstract limits, and blinding rules are **待核实** if not visible in the official pages above.
+- Exact **submission fee / OA APC, word limits, abstract limits, and blinding rules** are **待核实** on the current Cambridge pages — confirm at submission time (any Springer URLs in this map point to the archived site).
 - Exemplar articles must be verified in the official archive or DOI page before being cited as real examples.

@@ -20,8 +20,11 @@ Primary source map for facts used in the IJOC skill pack. **Access date: 2026-06
 | optimization benchmark | Official pages above; re-check live before submission |
 | reproducible code | Official pages above; re-check live before submission |
 
+## Verified on official pages (2026-06)
+
+- Published by **INFORMS** (PubsOnLine); area editors are listed on the IJOC editorial-board page. **Editor-in-Chief in transition:** Alice E. Smith's term ran through end-2025 and a successor was under INFORMS search (committee chaired by David L. Woodruff).
+
 ## Unverified / volatile items
 
-- Current editor names and board composition are **待核实** unless explicitly quoted in an official page at submission time.
-- Exact submission fees, APCs, waivers, word limits, abstract limits, and blinding rules are **待核实** if not visible in the official pages above.
+- The **current (post-2025) Editor-in-Chief** and exact **Open-Option charge, word limits, and blinding rules** are **待核实** — confirm on the INFORMS IJOC pages at submission time.
 - Exemplar articles must be verified in the official archive or DOI page before being cited as real examples.
