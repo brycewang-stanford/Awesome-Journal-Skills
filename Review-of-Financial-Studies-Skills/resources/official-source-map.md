@@ -42,22 +42,25 @@ policies, editors, and fees change — re-verify against these URLs before relyi
 ## Verified on official SFS pages (corrects earlier aggregator guesses)
 
 - **Submission system: SFS Editorial Express** (not ScholarOne or Editorial Manager) — sfs.org/review-of-financial-studies/submit-a-paper.
-- **Fee: $260 SFS member / $320 non-member** (sfs.org/submission-fees) — supersedes the aggregator's ~$250/$350.
+- **Fee (待核实 — likely increased): the SFS "submit a paper" page read in 2026-06 lists tiered fees by SFS membership and World Bank income band — about **$400 SFS member / $460 non-member** for high-income economies, which appears to supersede the older $260/$320 (sfs.org/submission-fees). Confirm the exact current schedule on sfs.org/review-of-financial-studies/submit-a-paper before submitting.**
 - **Abstract ≤ 100 words; Chicago Manual of Style author-date references; double-spaced, ≤ 28 lines/page, font ≥ 11** (SFS submission-format page).
 - **Code-release condition** (academic.oup.com/rfs Instructions to Authors).
 
-## UNVERIFIED — third-party aggregator only (confirm on the official RFS site)
+## Verified on official SFS / OUP pages (re-checked 2026-06-21)
 
-These figures appear only on a third-party submission-guide aggregator and could **not** be
-confirmed against the official RFS/SFS pages at access time. They are flagged "UNVERIFIED"
-where used (and several are simply omitted from the skills).
+Figures previously sourced only from a third-party aggregator are now confirmed on the official
+Society for Financial Studies statistics/policy pages (the aggregator's ranges were imprecise):
 
-| Claim | Aggregator source | Status |
-|-------|-------------------|--------|
-| Acceptance rate ~5–7% | https://manusights.com/blog/review-of-financial-studies-submission-guide | UNVERIFIED — confirm on RFS site |
-| First decision typically ~4–8 weeks | https://manusights.com/blog/review-of-financial-studies-submission-guide | UNVERIFIED — confirm on RFS site |
-| Gold open-access APC ~$4,500 (2026) | https://manusights.com/blog/review-of-financial-studies-submission-guide | UNVERIFIED — confirm on RFS site |
-| 18-month resubmission window | https://manusights.com/blog/review-of-financial-studies-submission-guide | UNVERIFIED — confirm on RFS site |
+| Fact | Official value | Source |
+|------|----------------|--------|
+| Acceptance rate | **7.27%** (1 May 2025 – 1 May 2026) | https://sfs.org/rfs-statistics/ |
+| First-decision turnaround | **median 30 days, mean 34 days** | https://sfs.org/rfs-statistics/ |
+| Resubmission window | **18 months** from an R&R decision; later resubmissions are normally treated as new (need not return to the same editor/referees) | https://sfs.org/review-of-financial-studies/review-policy/ |
+
+- **Gold open-access APC — 待核实:** RFS is a **hybrid** OUP journal; OA is optional and is often
+  covered by an OUP "Read & Publish" agreement. A single official APC figure was **not** found on
+  the checked pages, so the aggregator's "~$4,500" is **not** asserted; confirm the current charge
+  on the OUP RFS open-access page before relying on it.
 
 ## Notes
 
