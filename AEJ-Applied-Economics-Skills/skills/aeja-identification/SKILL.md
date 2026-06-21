@@ -60,7 +60,7 @@ AEJ: Applied is **identification-driven applied micro**: the **mapping from a so
 
 ## Worked vignette (illustrative)
 
-A paper studies a job-training program rolled out across states in staggered years. The first draft uses TWFE and a referee flags negative weighting. The AEJ: Applied fix: re-estimate with Callaway–Sant'Anna by cohort, show flat pre-trend leads, and report a Goodman-Bacon decomposition revealing that 18% of the TWFE estimate came from forbidden already-treated comparisons (illustrative). The heterogeneity-robust ATT settles at 3.1pp (s.e. 0.9), and an honest-DID bound shows the result survives a plausible parallel-trend violation.
+A paper studies a job-training program rolled out across states in staggered years. The first draft uses TWFE and a referee flags negative weighting. The AEJ: Applied fix: re-estimate with Callaway–Sant'Anna by cohort, show flat pre-trend leads, and report a Goodman-Bacon decomposition revealing that 18% of the TWFE estimate came from contaminating already-treated comparisons (illustrative). The heterogeneity-robust ATT settles at 3.1pp (s.e. 0.9), and an honest-DID bound shows the result survives a plausible parallel-trend violation.
 
 ## Output format
 

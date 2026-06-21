@@ -13,7 +13,7 @@ guidance lives once in the shared empirical-methods hub and is linked below.
 | [`exemplars/library.md`](exemplars/library.md) | Benchmark against **real, web-verified AEJ: Applied papers** (confirmed `10.1257/app.` DOI stem) organized by method × topic. Design positioning only — no fabricated numbers; includes a sibling-confusion guard vs. *AER* / *AEJ: Economic Policy* / field journals. |
 | [reviewer-objection-checklist](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) | The objections referees actually raise, by identification strategy (DiD / IV / RDD / DML / matching / mechanism), each with its preemption. Stress-test the design before drafting. |
 | [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) | Modern inference + reporting table stakes: SE clustering, weak-IV diagnostics, multiple-testing, DiD/RDD reporting, reproducibility. |
-| [`official-source-map.md`](official-source-map.md) | Venue-specific facts (scope, editors, fee, double-blind, data policy, house citation style) with sourcing discipline. |
+| [`official-source-map.md`](official-source-map.md) | Venue-specific facts (scope, editors, fee, single-blind review, data policy, house citation style) with sourcing discipline. |
 | [`external_tools.md`](external_tools.md) | External tools / packages relevant to this venue. |
 
 ## How to use

@@ -73,7 +73,7 @@ Every magnitude is invented.
 > identification is hard — selection into adoption.)* Because the passes were phased in across
 > municipalities over several years, we use a **difference-in-differences design with staggered timing**,
 > estimated with a heterogeneity-robust estimator (Callaway–Sant'Anna) rather than two-way fixed effects,
-> which would mix in **forbidden comparisons** between newly treated and already-treated towns. We show
+> which would mix in **contaminating comparisons** between newly treated and already-treated towns. We show
 > **flat pre-trend leads**, report a Goodman-Bacon decomposition, and bound the estimate under a plausible
 > violation of parallel trends. *(the design that solves it, named plainly;
 > [`aeja-identification`](../../skills/aeja-identification/SKILL.md) Path B.)*

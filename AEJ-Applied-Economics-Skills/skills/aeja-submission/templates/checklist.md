@@ -2,18 +2,18 @@
 
 A last-pass checklist for an *American Economic Journal: Applied Economics*
 (AEJ: Applied) manuscript before submitting via the AEA online submission system.
-Verify volatile specifics (fee, editors, policy details) on the official AEA pages
-(检索于 2026-06；以官网为准).
+Baseline process facts were refreshed from official AEA pages on 2026-06-20; check
+the live pages during submission week.
 
 ## 1. Venue fit & scope
 - [ ] Empirical applied-micro question with a credible causal design (not an AER agenda swing, not a policy-ROI framing for AEJ: Economic Policy, not field-internal)
 - [ ] Two subfields beyond your own that will plausibly cite it, named
 - [ ] Headline result expressible as a magnitude with units and a standard error
 
-## 2. Anonymization (double-blind)
-- [ ] Manuscript fully anonymized: no author names, affiliations, acknowledgments
-- [ ] Identifying self-citations removed or neutralized
-- [ ] Separate non-anonymized title page prepared (authors, affiliations, contact, acknowledgments)
+## 2. Front matter (single-blind)
+- [ ] Title, byline, and author affiliations appear on the first page
+- [ ] Acknowledgement footnote prepared with emails, author-order statement, funding/grants, acknowledgments, IRB details, and RCT registration where applicable
+- [ ] Self-citations are transparent and not written as anonymity workarounds
 
 ## 3. Identification & robustness
 - [ ] Estimand stated (ITT / LATE / ATT / local-at-cutoff) and matched to the design
@@ -23,7 +23,7 @@ Verify volatile specifics (fee, editors, policy details) on the official AEA pag
 
 ## 4. Front matter
 - [ ] JEL codes assigned; keywords listed
-- [ ] Abstract within AEA norms, stating question + design + headline estimate + lesson
+- [ ] Abstract is 100 words or fewer and states question + design + headline estimate + lesson
 
 ## 5. Exhibits (AEA house presentation)
 - [ ] Main causal estimate readable in one table: coefficient, SE in parentheses, N, dep-var mean
@@ -42,6 +42,7 @@ Verify volatile specifics (fee, editors, policy details) on the official AEA pag
 - [ ] Restricted-data / exemption requests flagged early
 
 ## 8. Fees, declarations & policy
-- [ ] Submission fee ready (member vs nonmember confirmed; waiver if eligible)
-- [ ] Disclosure statement (funding, interested-party relationships) per AEA policy
+- [ ] Submission fee tier ready: member high/middle/low income or nonmember high/middle/low income
+- [ ] Publication-page-fee exposure understood if accepted
+- [ ] Separate disclosure statement PDF prepared for each author
 - [ ] Confirmed not under review elsewhere; AI not listed as an author

@@ -1,85 +1,91 @@
 # AEJ: Applied Official Source Map
 
-Primary and authoritative sources behind every AEJ: Applied-specific fact injected
-into this skill pack. **Access date for all entries: 2026-06.** AEJ: Applied is one
-of the four American Economic Journals, owned and operated by the **American
-Economic Association (AEA)**. Re-verify volatile items (editors, fees, policy
-details) before relying on them — Association pages change. Items that could not be
-confirmed from a primary fetch are marked **待核实 (to be verified)**.
+Primary sources behind every AEJ: Applied-specific fact injected into this skill
+pack. Sources were checked on **2026-06-20** against official American Economic
+Association (AEA) pages and AEA article pages. For editor rosters, fees, and
+portal fields, use the facts below as the package baseline and check the live AEA
+pages during submission week.
 
 ## Official AEA / AEJ: Applied pages
 
-- **https://www.aeaweb.org/journals/app** — AEJ: Applied journal home. Verifies:
-  scope is empirical applied microeconomics — "labor economics, development
-  microeconomics, health, education, demography, empirical corporate finance,
-  empirical studies of trade, and empirical behavioral economics"; published
-  quarterly (four issues/year) by the AEA. Accessed 2026-06.
+- **https://www.aeaweb.org/journals/app** — AEJ: Applied journal home. Verifies
+  title, print ISSN 1945-7782, online ISSN 1945-7790, quarterly publication, and
+  scope: empirical applied microeconomics including labor, development, health,
+  education, demography, empirical corporate finance, empirical trade, and
+  empirical behavioral economics.
 - **https://www.aeaweb.org/journals/app/editors** — AEJ: Applied editorial board.
-  Verifies (检索于 2026-06；以官网为准): Editor **Benjamin Olken** (MIT); coeditors
-  including **Leah Boustan** (Princeton), **Marika Cabral** (UT Austin),
-  **Peter Hull** (Brown), **Xavier Jaravel** (LSE), and **Nicholas Ryan** (Yale);
-  Data Editor **Lars Vilhuber** (Cornell); Managing Editor Michelle DeBlasi.
-  Accessed 2026-06. (Full board-of-editors roster is long and partially
-  JS-rendered — treat the specific associate-editor list as **待核实**.)
-- **https://www.aeaweb.org/journals/app/submissions** — AEJ: Applied submission
-  guidelines (submission portal + author instructions). Verifies: submission via
-  the AEA online submission system; double-blind review (anonymized manuscript);
-  JEL codes; submission fee with member/nonmember distinction. **待核实 partial:**
-  the exact current fee amount and any waiver schedule are volatile and must be
-  re-confirmed on the live page (the precise dollar figure was not pinned in this
-  pass). Accessed 2026-06.
-- **https://www.aeaweb.org/journals/policies/data-code** — AEA Data and Code
-  Availability Policy. Verifies: authors of papers with empirical/simulation/
-  experimental work must provide data, code, and computational details sufficient
-  to permit replication; accepted papers deposit a complete package to the **AEA
-  Data and Code Repository** (hosted on **openICPSR**), unzipped, with few
-  exceptions; the package must include data files, analysis + transformation code,
-  a README, a Data Availability Statement, and (when applicable) survey
-  instruments / experiment instructions; the **AEA Data Editor** assesses
-  compliance and **conducts reproducibility checks** with access to draft deposits
-  (i.e., verification occurs **before publication**). Accessed 2026-06.
+  Verifies current Editor **Raymond Fisman** (Boston University); coeditors Leah
+  Boustan, Marika Cabral, Peter Hull, Xavier Jaravel, and Nicholas Ryan; Board of
+  Editors roster; Data Editor **Lars Vilhuber**; Managing Editor Michelle
+  DeBlasi; Assistant Managing Editor Justin Shapiro; and past editors including
+  Ben Olken (2020-2025).
+- **https://www.aeaweb.org/journals/app/editorial-policy** — Peer-review and
+  editorial policy. Verifies **single-blind** peer review; editor/coeditor
+  assignment; return without referee review; second-coeditor consultation before
+  first R&R; data-replication package requested at R&R; disclosure, AI, data
+  legality, data/code, RCT registration, and transfer policy from AER/AER:
+  Insights.
+- **https://www.aeaweb.org/journals/app/submissions** — Submission guidelines.
+  Verifies original-work/no-concurrent-submission rules, CrossRef Similarity
+  Check, disclosure statements, AI disclosure, field-experiment RCT registration,
+  submission fees by AEA membership and country income tier, publication fee,
+  length recommendations, manuscript preparation, ScholarOne submission, AER/AER:
+  Insights transfer option, Chicago Manual author-date preference, AEA templates
+  in review mode, and random-order coauthor option.
+- **https://www.aeaweb.org/journals/app/reviewers** — Reviewer guidelines.
+  Verifies single-blind review from the reviewer side, disclosure-statement
+  availability to referees, and ScholarOne use for review tracking.
+- **https://www.aeaweb.org/journals/app/style-guide** — AEJ: Applied style guide.
+  Verifies title/byline placement at the top of the first page, acknowledgement
+  footnote contents, 100-word abstract cap, section-heading format, author-date
+  citations, table/figure rules, standard-error and significance-star practice,
+  and appendix numbering.
+- **https://www.aeaweb.org/journals/app/accepted-article-guidelines** — Accepted
+  article guidelines. Verifies final manuscript/native-file requirements,
+  supplemental appendix rules, signed data/code documents, disclosure statements,
+  publication agreement, and final data/code deposit expectations.
+- **https://www.aeaweb.org/journals/data/data-code-policy** — AEA Data and Code
+  Availability Policy, February 2026 version. Verifies that papers with
+  empirical, simulation, or experimental work must provide data, code, and
+  computational details before acceptance; materials must be retained in a
+  trusted repository such as the AEA Data and Code Repository; Data Availability
+  Statement, raw/analysis data, code, README, unzipped deposit, and Data Editor
+  compliance/reproducibility checks.
 - **https://www.aeaweb.org/journals/policies/disclosure-policy** — AEA Disclosure
-  Policy. Verifies: authors must disclose financial support and interested-party
-  relationships. **待核实:** exact monetary thresholds not re-quoted in this pass.
-  Accessed 2026-06.
+  Policy. Verifies funding-source disclosure, interested-party support threshold
+  of at least USD 10,000 over the past three years, relevant paid/unpaid
+  positions, close-relative/partner disclosures, third-party review rights,
+  disclosure PDF requirement, referee access to statements, publication of
+  statements, and IRB disclosure.
+- **https://www.aeaweb.org/articles?id=10.1257/app.20220451** — AEJ: Applied
+  article page for Harju, Jaeger, and Schoefer, "Voice at Work." Verifies the
+  DOI `10.1257/app.20220451`, volume 17 issue 3 pages 271-309, and the `app`
+  DOI stem rule used in the exemplars library.
 
-## Indexing / identifiers
+## Facts used in the skills
 
-- **https://ideas.repec.org/s/aea/aejapp.html** — RePEc series page for AEJ:
-  Applied. Used to confirm article-level citations (title/author/year/volume/
-  issue/pages) for the exemplars library. Accessed 2026-06.
-- AEJ: Applied DOI stem: **`10.1257/app…`** (e.g., `10.1257/app.20130533`). The
-  AEA-wide `10.1257` prefix is shared with AER (`aer`), AEJ: Policy (`pol`), AEJ:
-  Macro (`mac`), AEJ: Micro (`mic`), JEL (`jel`), and JEP (`jep`) — only the
-  **`/app.`** segment confirms AEJ: Applied. Print ISSN 1945-7782; Online ISSN
-  1945-7790 (检索于 2026-06；以官网为准).
+| Fact | Source |
+|------|--------|
+| Scope: empirical applied microeconomics; quarterly; print/online ISSN | journals/app |
+| Editor Raymond Fisman; coeditors Boustan/Cabral/Hull/Jaravel/Ryan; Data Editor Lars Vilhuber | journals/app/editors |
+| Single-blind review; editor/coeditor chain; return without review; second-coeditor consultation before first R&R | journals/app/editorial-policy; journals/app/reviewers |
+| Submission via ScholarOne; no concurrent review; Similarity Check; AI-use disclosure; RCT registration for field experiments | journals/app/submissions |
+| Submission fee: AEA members high-income USD 200, middle-income USD 100, low-income USD 0; nonmembers high-income USD 300, middle-income USD 200, low-income USD 0; 50 percent refund for papers rejected without review | journals/app/submissions |
+| Publication fee: USD 15 per typeset page for papers first submitted on or after 1 February 2024 | journals/app/submissions |
+| Length recommendation: average article 32-33 typeset pages; recommended manuscript maximum equivalent to 40 pages at 11-point/1.5 spacing/1-inch margins or 45 pages at 12-point/1.5 spacing/1-inch margins | journals/app/submissions |
+| Manuscript front matter: title, byline, and affiliations on first page; abstract of 100 or fewer words; JEL codes and Chicago author-date style expected | journals/app/submissions; journals/app/style-guide |
+| Accepted-article package: native files, supplemental appendix, data/code documents, disclosure statements, publication agreements | journals/app/accepted-article-guidelines |
+| AEA data/code policy; AEA Data and Code Repository on openICPSR; Data Availability Statement; README; unzipped deposit; reproducibility checks by AEA Data Editor | journals/data/data-code-policy |
+| Disclosure statements: funding, interested-party support of at least USD 10,000 over three years, relevant positions, IRB status, and statements supplied as PDFs | journals/policies/disclosure-policy |
+| DOI stem: `10.1257/app.` identifies AEJ: Applied articles among AEA journals | AEA article pages, including Voice at Work |
 
-## Facts used in the skills — quick index (every load-bearing fact)
+## Submission-week live checks
 
-| Fact | Source URL (above) |
-|------|--------------------|
-| Scope: empirical applied microeconomics (labor/dev/health/ed/etc.); quarterly; AEA | journals/app |
-| Editor Benjamin Olken; coeditors Boustan/Cabral/Hull/Jaravel/Ryan; Data Editor Lars Vilhuber | journals/app/editors |
-| Submission via AEA online system; double-blind (anonymized); JEL codes required | journals/app/submissions |
-| Member submission fee with nonmember surcharge (amount 待核实) | journals/app/submissions |
-| AEA Data and Code Availability Policy; deposit to AEA Data and Code Repository on openICPSR | policies/data-code |
-| Data Editor runs reproducibility check BEFORE publication; README + DAS required | policies/data-code |
-| Disclosure of funding and interested-party relationships required | policies/disclosure-policy |
-| DOI stem 10.1257/app.; Online ISSN 1945-7790 | RePEc / journals/app |
-
-## Unverified items (待核实)
-
-- **Exact submission-fee amount and waiver schedule** — member/nonmember
-  distinction is confirmed, but the precise current dollar figure is volatile and
-  was not pinned from a primary fetch in this pass; re-confirm on
-  aeaweb.org/journals/app/submissions before relying on a number.
-- **Full associate-editor / board-of-editors roster** — the editor and coeditor
-  set is confirmed from the editors page; the complete board list is long/partly
-  JS-rendered and is **待核实**.
-- **Exact disclosure monetary thresholds** — the disclosure policy is confirmed in
-  substance; specific dollar thresholds were not re-quoted in this pass.
-- **Number of referees per submission** — the skills assume "typically two to
-  three"; this reflects general AEA practice and is **待核实** against any
-  AEJ: Applied-specific statement.
-- **Print/Online ISSN** — read off the journal/article pages; treat as
-  (检索于 2026-06；以官网为准) and re-confirm if load-bearing.
+- Re-open the AEJ: Applied submissions page for the current fee table, page-fee
+  language, ScholarOne link, and transfer instructions.
+- Re-open the editors page before naming the editor, coeditors, board members, or
+  Data Editor in advice.
+- Re-open the data/code policy when preparing an actual deposit, because the AEA
+  version date and repository guidance can change.
+- Re-open the disclosure policy when threshold amounts or IRB wording are
+  load-bearing in an author checklist.

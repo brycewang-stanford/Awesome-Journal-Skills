@@ -8,10 +8,10 @@
 Applied 是美国经济学会（AEA）旗下的季刊，聚焦**具有可信因果识别的实证应用微观经济学**（劳动、发展、健康、
 教育、公共、城市、环境、家庭金融）。本技能包以识别为驱动、实证优先：从期刊定位与干净的研究设计出发，经稳健性、
 图表、AEA 风格写作，进入其标志性的 **AEA 数据与代码可得性政策**——即由 AEA 数据编辑在**发表前**核验可复现性的
-openICPSR 复现包——再到双盲投稿与 R&R 回复。
+openICPSR 复现包——再到单盲投稿与 R&R 回复。
 
-**官方依据核验日期：2026-06**（检索于 2026-06；以官网为准）：AEA / AEJ: Applied 期刊页、编辑名单与投稿页，以及
-AEA 数据与代码可得性政策。来源与诚实的「待核实」标记见
+**官方依据核验日期：2026-06-20**：AEA / AEJ: Applied 期刊页、编辑名单、编辑政策、审稿人指南、投稿页、体例页、披露政策与
+AEA 数据与代码可得性政策。来源与投稿周 live-check 边界见
 [`resources/official-source-map.md`](resources/official-source-map.md)。
 
 ## 为什么需要单独的技能栈？
@@ -19,11 +19,11 @@ AEA 数据与代码可得性政策。来源与诚实的「待核实」标记见
 | AEJ: Applied 约束 | 对稿件的要求 |
 |-------------------|--------------|
 | 实证优先的应用微观 | 可信的因果设计即贡献；理论只用于解释/结构化，不主导 |
-| 双盲评审 | 稿件与自引须匿名化 |
-| AEA 在线投稿 + JEL 代码 | 必须填写 JEL 代码；单独的非匿名标题页；会员/非会员投稿费 |
+| 单盲评审 | 作者身份对审稿人可见；审稿人身份对作者匿名 |
+| AEA 在线投稿 + JEL 代码 | 必须填写 JEL 代码；首页含标题、作者与机构；会员/非会员投稿费 |
 | AEA 数据与代码可得性政策 | 数据 + 代码须存入 openICPSR 上的 AEA Data and Code Repository |
 | 发表前可复现性核验（AEA 数据编辑 Lars Vilhuber） | 表与图须能从存放的复现包在发表前重新生成 |
-| AEA 排版规范 | 允许显著性星号，但要求报告标准误；图表注释须自洽；附线上附录 |
+| AEA 排版规范 | 摘要不超过 100 词；允许显著性星号，但要求报告标准误；图表注释须自洽；附线上附录 |
 
 ## 快速开始
 
@@ -60,7 +60,7 @@ aeja-topic-selection → aeja-literature-positioning → aeja-identification →
 | 8 | [`aeja-writing-style`](skills/aeja-writing-style/SKILL.md) | 让问题与估计在首段落地 |
 | 9 | [`aeja-replication-package`](skills/aeja-replication-package/SKILL.md) | 为 AEA 数据编辑核验构建 openICPSR 复现包 |
 | 10 | [`aeja-referee-strategy`](skills/aeja-referee-strategy/SKILL.md) | 预先化解该设计会招致的审稿意见 |
-| 11 | [`aeja-submission`](skills/aeja-submission/SKILL.md) | 投稿前终检：匿名化、JEL、费用、格式、声明 |
+| 11 | [`aeja-submission`](skills/aeja-submission/SKILL.md) | 投稿前终检：首页信息、JEL、费用、格式、声明 |
 | 12 | [`aeja-rebuttal`](skills/aeja-rebuttal/SKILL.md) | 撰写回复审稿人信与修改计划 |
 
 ## 资源

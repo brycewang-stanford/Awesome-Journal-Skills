@@ -3,8 +3,8 @@
 > **Verified via web search, access date 2026-06.** Every paper below was checked to confirm it actually
 > appeared in the ***American Economic Journal: Applied Economics*** (the American Economic Association's
 > quarterly applied-micro journal) and carries a **`10.1257/app.` DOI stem** — the marker that confirms
-> AEJ: Applied specifically. Year, volume(issue), and pages were read off the AEA article pages. Papers that
-> could not be fully verified as AEJ: Applied were **omitted** — this is deliberately a short, clean list
+> AEJ: Applied specifically. Year, volume(issue), and pages were read off the AEA article pages. Papers without
+> an AEJ: Applied placement were **omitted** — this is deliberately a short, clean list
 > rather than a long, uncertain one.
 >
 > **Sibling-confusion guard (do not misattribute).** AEJ: Applied is **not** any of these, which share the
@@ -97,13 +97,9 @@ persuasion ([`aeja-tables-figures`](../../skills/aeja-tables-figures/SKILL.md)).
 ### Field experiment — public economics / firms & labor
 
 - **Harju, Jarkko, Simon Jäger & Benjamin Schoefer, "Voice at Work," AEJ: Applied 2025, 17(3):271–309.**
-  Verified via the AEA RePEc series listing for AEJ: Applied (`ideas.repec.org/s/aea/aejapp.html`), volume
-  17(3), 2025 — DOI on the `10.1257/app.` stem (confirm the exact suffix on the AEA article page before
-  citing). **待核实 (DOI suffix not pinned in this pass).**
+  Verified: `aeaweb.org/articles?id=10.1257/app.20220451` (DOI `10.1257/app.20220451`).
   - **Why it is an exemplar:** studies how worker representation institutions affect labor-market outcomes
-    using credible variation — a public/labor question with broad applied-micro appeal. Listed because the
-    citation (title/authors/volume/issue/pages) was confirmed on the AEA RePEc series page; the exact DOI
-    suffix should be confirmed on the article page before use.
+    using credible variation — a public/labor question with broad applied-micro appeal.
   - **Self-check:** does your institutional-variation design rule out the obvious confound that institutions
     are chosen by the firms/workers they affect?
 
@@ -118,11 +114,11 @@ persuasion ([`aeja-tables-figures`](../../skills/aeja-tables-figures/SKILL.md)).
 | Early-childhood health policy | Billings & Schnepel, "Life after Lead" | 2018, 10(3) | Regression discontinuity | 10.1257/app.20160056 |
 | Vaccine direct/indirect effects | Freedman, Sacks, Simon & Wing, "Direct and Indirect Effects of Vaccines" | 2026, 18(1) | Quasi-experiment / DiD | 10.1257/app.20230717 |
 | Unemployment & human capital | Cohen, Johnston & Lindner, "Skill Depreciation during Unemployment" | 2025, 17(3) | Panel data / measurement | 10.1257/app.20230195 |
-| Worker voice / labor institutions | Harju, Jäger & Schoefer, "Voice at Work" | 2025, 17(3) | Field/quasi-experiment | 10.1257/app.（待核实 suffix） |
+| Worker voice / labor institutions | Harju, Jäger & Schoefer, "Voice at Work" | 2025, 17(3) | Field/quasi-experiment | 10.1257/app.20220451 |
 
 ---
 
-## Omitted for lack of full verification, or to avoid sibling-confusion (do not attribute to AEJ: Applied without re-checking)
+## Omitted for sibling-confusion (do not attribute to AEJ: Applied without re-checking)
 
 To keep the list zero-hallucination, the following were **excluded** after checking:
 
@@ -136,9 +132,8 @@ To keep the list zero-hallucination, the following were **excluded** after check
 - **Duflo & Hanna (teacher-absence camera-monitoring) and Jensen (mobile phones and fish-market price
   dispersion)** — frequently cited development/field-experiment papers, but both were published in the
   ***Quarterly Journal of Economics***, **not AEJ: Applied**. Excluded to avoid misattribution.
-- Several recent AEJ: Applied papers surfaced via the AEA RePEc series page (e.g., 2025–2026 issues) were
-  left off, or marked **待核实**, because their **exact DOI suffix** was not pinned to the same standard in
-  one pass; add them only after reading the AEA article page and confirming the `10.1257/app.` DOI.
+- Several recent AEJ: Applied papers surfaced via indexing pages but were left off until their AEA article
+  page and `10.1257/app.` DOI are checked to the same standard.
 
 Before adding any new paper to this library, confirm it on `aeaweb.org` (article page with volume/issue/
 pages) **and** that the DOI begins `10.1257/app.`, then update the access-date header. When in doubt, omit.

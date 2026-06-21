@@ -9,7 +9,7 @@ description: Use when deciding which aeja-* sub-skill to invoke next, or when se
 
 This is the router. It tells you **which aeja-* skill to use at the current stage** of a manuscript aimed at the *American Economic Journal: Applied Economics* (AEJ: Applied) — the **American Economic Association's** quarterly journal for **empirical applied microeconomics with credible causal identification**: labor, development, health, education, public, urban, environmental, and household finance. AEJ: Applied is **empirical-first**: a clean research design carrying a substantive economic question, with theory used to *interpret and structure* rather than to lead.
 
-Default assumption: unless the user says otherwise, treat the target as AEJ: Applied. Operational tells that you are at AEJ: Applied and not a sibling: review is **double-blind** (anonymize the manuscript); submission is via the **AEA online submission system** with a **modest member submission fee (nonmember surcharge)**; **JEL codes are required**; and the signature stable differentiator is the **AEA Data and Code Availability Policy** — administered by the **AEA Data Editor (Lars Vilhuber)**, accepted papers deposit data + code to the **AEA Data and Code Repository on openICPSR**, and the package is **verified for reproducibility before publication**. Editor as of 2026: **Benjamin Olken** (MIT), with coeditors incl. Boustan, Cabral, Hull, Jaravel, Ryan (检索于 2026-06；以官网为准). Re-verify volatile specifics (fee, editors) on aeaweb.org.
+Default assumption: unless the user says otherwise, treat the target as AEJ: Applied. Operational tells that you are at AEJ: Applied and not a sibling: review is **single-blind** (author identities are visible to referees); submission is via the **AEA ScholarOne system** with fee tiers by AEA membership and country-income status; **JEL codes and a 100-word abstract** are required; and the signature stable differentiator is the **AEA Data and Code Availability Policy** — administered by the **AEA Data Editor (Lars Vilhuber)**, accepted papers deposit data + code to the **AEA Data and Code Repository on openICPSR**, and the package is checked for reproducibility before publication. On 2026-06-20 the editor page listed **Raymond Fisman** (Boston University) as Editor, with coeditors Leah Boustan, Marika Cabral, Peter Hull, Xavier Jaravel, and Nicholas Ryan. Check live AEA pages for fees and editors before submission-week advice.
 
 ## When to trigger
 
@@ -45,7 +45,7 @@ Default assumption: unless the user says otherwise, treat the target as AEJ: App
 7. `aeja-writing-style` — make the design and estimate land (abstract + intro last)
 8. `aeja-replication-package` — assemble the openICPSR package for the AEA Data Editor
 9. `aeja-referee-strategy` — pre-empt the objections this design invites
-10. `aeja-submission` — AEA portal preflight (double-blind, JEL, fee)
+10. `aeja-submission` — AEA portal preflight (single-blind front matter, JEL, fee)
 11. `aeja-rebuttal` — after the R&R
 
 > `aeja-writing-style` is a late-stage polish; do not rewrite the intro before identification and robustness settle.
@@ -70,7 +70,7 @@ AEJ: Applied spans several applied-micro designs, and the first bottleneck diffe
 
 ## Worked routing example (illustrative)
 
-A user says: "My event study on a staggered state policy looks fine, but a referee says the two-way fixed-effects estimate is contaminated and the parallel-trends story is thin." That is two AEJ: Applied pushbacks — *negative-weighting / forbidden comparisons under staggered timing* and *pre-trend credibility* — both owned by `aeja-identification`, with the robustness presentation in `aeja-robustness`. Route there first; only once the heterogeneity-robust estimate is stable (say it settles at a 3.1pp effect, s.e. 0.9, illustrative) do you return to `aeja-tables-figures` and `aeja-rebuttal` to present and defend it.
+A user says: "My event study on a staggered state policy looks fine, but a referee says the two-way fixed-effects estimate is contaminated and the parallel-trends story is thin." That is two AEJ: Applied pushbacks — *negative-weighting / contaminating already-treated comparisons under staggered timing* and *pre-trend credibility* — both owned by `aeja-identification`, with the robustness presentation in `aeja-robustness`. Route there first; only once the heterogeneity-robust estimate is stable (say it settles at a 3.1pp effect, s.e. 0.9, illustrative) do you return to `aeja-tables-figures` and `aeja-rebuttal` to present and defend it.
 
 ## Minimal decision snippet
 

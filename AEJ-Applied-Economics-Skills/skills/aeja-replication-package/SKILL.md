@@ -14,7 +14,7 @@ description: Use when assembling the data and code replication package for an Am
 
 ## Why this is the AEJ: Applied signature
 
-The single most distinctive, stable, verifiable AEJ: Applied differentiator is the **AEA Data and Code Availability Policy**, administered by the **AEA Data Editor (Lars Vilhuber)**. Accepted papers must deposit a complete data + code package to the **AEA Data and Code Repository on openICPSR** (other trusted repositories only by prior approval), and the Data Editor **runs a reproducibility check BEFORE publication** — your tables and figures must regenerate from the deposited materials. Build this package as you analyze; do not treat it as an acceptance-day formality (检索于 2026-06；以官网为准; verify exact requirements on aeaweb.org/journals/policies/data-code).
+The single most distinctive AEJ: Applied differentiator is the **AEA Data and Code Availability Policy**, administered by the **AEA Data Editor (Lars Vilhuber)**. Papers offered a revise-and-resubmit are asked to submit a data replication package at resubmission, and accepted papers must clear the Data Editor's compliance and reproducibility checks before publication. The default home is the **AEA Data and Code Repository on openICPSR**; other trusted repositories require appropriate Data Editor access. Build this package as you analyze; do not treat it as an acceptance-day formality.
 
 ## What the package must contain
 

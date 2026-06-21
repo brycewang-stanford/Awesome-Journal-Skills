@@ -18,7 +18,7 @@ At AEJ: Applied the contribution is judged as: **a credibly identified answer to
 
 | Contribution type | What "new" must mean | Positioning move |
 |-------------------|----------------------|------------------|
-| New **answer** | a magnitude prior work could not credibly estimate | show why prior designs failed to identify it |
+| New **answer** | a magnitude prior work did not credibly estimate | show why prior designs failed to identify it |
 | New **design / source of variation** | a cleaner identification of a known question | contrast your design's assumptions vs. the standard one |
 | New **setting / population** | external validity that changes the lesson | argue why this setting is informative, not just available |
 | New **mechanism** | decomposing a known effect into channels | show the prior literature left the channel ambiguous |
@@ -37,7 +37,7 @@ At AEJ: Applied the contribution is judged as: **a credibly identified answer to
 - [ ] Three closest papers identified, each with "establishes / leaves open" sentences
 - [ ] One-sentence honest delta the closest author would accept
 - [ ] Positioned by identification, not merely by topic or geography
-- [ ] No overclaim of "first" without the design reason it could not be done before
+- [ ] No overclaim of "first" without the design reason prior work left it open
 - [ ] Related sibling-journal results acknowledged (AER / AEJ: Policy / field) so nothing settled is re-claimed
 
 ## Anti-patterns
@@ -62,7 +62,7 @@ contribution becomes a *mechanism* the closest authors would agree they did not 
 - *"This is incremental relative to [closest paper]."* → State the honest delta in one sentence the closest
   author would accept; show the specific gap their design left open.
 - *"You claim 'first' but it is just a new setting."* → Reframe as a cleaner identification or a new
-  mechanism, with the design reason it could not be done before.
+  mechanism, with the design reason prior work left it open.
 - *"You ignore [recent paper] that already does this."* → Cite it, state precisely what it settled, and
   position in the residual gap rather than the whole field.
 
@@ -72,7 +72,7 @@ contribution becomes a *mechanism* the closest authors would agree they did not 
 【Contribution type】answer / design / setting / mechanism / measurement
 【Three closest papers】1) ___ (open: ___) 2) ___ (open: ___) 3) ___ (open: ___)
 【Honest delta】one sentence the closest author would accept
-【Positioned by】identification reason it could not be done before: ___
+【Positioned by】identification reason prior work left it open: ___
 【Sibling check】settled by AER/AEJ:Policy/field that we do NOT re-claim: ___
 【Next step】aeja-identification (or aeja-writing-style if design is settled)
 ```

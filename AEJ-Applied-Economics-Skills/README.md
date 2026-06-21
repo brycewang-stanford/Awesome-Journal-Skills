@@ -10,11 +10,11 @@ microeconomics with credible causal identification** (labor, development, health
 environmental, household finance). The pack is identification-driven and empirical-first: it routes a
 manuscript from venue fit and a clean research design, through robustness, exhibits, and AEA house-style
 writing, into the signature **AEA Data and Code Availability Policy** — the openICPSR replication package
-that the AEA Data Editor verifies for reproducibility **before** publication — and on through double-blind
+that the AEA Data Editor checks for reproducibility **before** publication — and on through single-blind
 submission and the R&R rebuttal.
 
-**Official basis checked 2026-06** (检索于 2026-06；以官网为准): AEA / AEJ: Applied journal, editors, and
-submission pages, plus the AEA Data and Code Availability Policy. Sources and honest 待核实 markers are in
+**Official basis checked 2026-06-20**: AEA / AEJ: Applied journal, editors, editorial policy, reviewer,
+submission, style, disclosure, and data/code pages. Sources and live-check boundaries are in
 [`resources/official-source-map.md`](resources/official-source-map.md).
 
 ## Why a separate stack?
@@ -22,11 +22,11 @@ submission pages, plus the AEA Data and Code Availability Policy. Sources and ho
 | AEJ: Applied constraint | What it forces on the manuscript |
 |-------------------------|----------------------------------|
 | Empirical-first applied micro | A credible causal design is the contribution; theory only interprets/structures |
-| Double-blind review | Manuscript and self-citations must be anonymized |
-| AEA online submission + JEL codes | JEL codes required; separate non-anonymized title page; member/nonmember fee |
+| Single-blind review | Author identities are visible to referees; referee identities remain anonymous |
+| AEA online submission + JEL codes | JEL codes required; title/byline/affiliations on first page; member/nonmember fee |
 | AEA Data & Code Availability Policy | Data + code deposited to the AEA Data and Code Repository on openICPSR |
 | Pre-publication reproducibility check (AEA Data Editor, Lars Vilhuber) | Tables/figures must regenerate from the deposited package before publication |
-| AEA house presentation | Stars permitted but standard errors expected; self-contained exhibit notes; online appendix |
+| AEA house presentation | 100-word abstract; stars permitted but standard errors expected; self-contained exhibit notes; online appendix |
 
 ## Quick Start
 
@@ -63,7 +63,7 @@ aeja-topic-selection → aeja-literature-positioning → aeja-identification →
 | 8 | [`aeja-writing-style`](skills/aeja-writing-style/SKILL.md) | Land the question and estimate in the first paragraph |
 | 9 | [`aeja-replication-package`](skills/aeja-replication-package/SKILL.md) | Build the openICPSR package for the AEA Data Editor check |
 | 10 | [`aeja-referee-strategy`](skills/aeja-referee-strategy/SKILL.md) | Pre-empt the objections this design invites |
-| 11 | [`aeja-submission`](skills/aeja-submission/SKILL.md) | Final preflight: anonymization, JEL, fee, format, declarations |
+| 11 | [`aeja-submission`](skills/aeja-submission/SKILL.md) | Final preflight: front matter, JEL, fee, format, declarations |
 | 12 | [`aeja-rebuttal`](skills/aeja-rebuttal/SKILL.md) | Draft the response-to-referees letter and revision plan |
 
 ## Resources

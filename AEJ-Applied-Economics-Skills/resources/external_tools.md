@@ -7,8 +7,8 @@ with credible causal identification**, so a typical paper combines a **substanti
 applied-micro question** with a **clean research design** and a **fully
 reproducible data + code package**. Because the **AEA Data Editor (Lars Vilhuber)**
 runs a **pre-publication reproducibility check** on the openICPSR deposit, build the
-replication package as you go. Check licenses and current access terms before use;
-verify volatile process specifics on the official AEA pages (检索于 2026-06；以官网为准).
+replication package as you go. Check licenses, access terms, and live AEA process
+pages before use.
 
 ## 1. Data sources
 
@@ -74,19 +74,20 @@ verify volatile process specifics on the official AEA pages (检索于 2026-06�
 - Typesetting: LaTeX (TeX Live / MacTeX / Overleaf) or Word; the AEA provides LaTeX
   templates for accepted manuscripts.
 
-## 6. Process & portal (verify on the official AEA pages)
+## 6. Process & portal (check official AEA pages before submission)
 | Item | Note |
 |------|------|
-| Submission portal | AEA online submission system; blinded main file + separate title page + online appendix |
-| Review | Double-blind (anonymize manuscript and identifying self-citations) |
-| Front matter | JEL codes required; keywords; abstract per AEA norms |
-| Submission fee | Modest for AEA members, higher for nonmembers; amount volatile — re-confirm |
+| Submission portal | AEA ScholarOne system; main PDF + supplemental appendix as needed |
+| Review | Single-blind; author identities are visible to referees |
+| Front matter | Title/byline/affiliations on first page; JEL codes; abstract of 100 or fewer words |
+| Submission fee | AEA member/nonmember and country-income fee tiers; rejected-without-review papers receive a 50 percent refund |
+| Publication fee | USD 15 per typeset page for accepted papers first submitted on or after 1 February 2024 |
 | Replication deposit | AEA Data and Code Repository on openICPSR; Data Editor reproducibility check **before** publication |
 | Disclosure | Funding and interested-party relationships per AEA disclosure policy |
 
 ## 7. Cautions
-1. **Verify volatile specifics** (editors, fee, policy details) on the official AEA
-   pages — they change.
+1. Check editor, fee, and policy details on the official AEA pages during
+   submission week.
 2. **Reproducibility is checked before publication** — assemble raw data, code, and
    documentation early; document restricted-data access and provide a synthetic
    extract where possible.
