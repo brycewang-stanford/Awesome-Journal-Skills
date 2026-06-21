@@ -25,7 +25,7 @@ description: Use when running the final pre-submission preflight for a Journal o
 - **Web Appendix**: a **single separate PDF**, excluded from the page limit, with tables/figures labeled **'W'-prefixed** ("Table W1", "Figure W1").
 - **Transparency**: AMA Research Transparency Policy; a **Data Availability Statement is required on the title page**; be ready to share code, instruments, and materials on request and to provide data/materials before final acceptance.
 - **Integrity & AI**: every submission is screened with **iThenticate**; any **AI-generated content must be disclosed** in the main document and Acknowledgments.
-- **Fees**: 待核实 — no explicit "no submission fee" sentence was captured; no-fee / no-page-charge is inferred. Optional open access (APC) exists but the **exact JMR APC amount is 待核实**. Confirm on the SAGE JMR open-access pricing page.
+- **Fees**: the SAGE MRJ page states **"There are no fees payable to submit or publish in this journal"**; optional open access is available but the **exact JMR APC amount is 待核实**. Confirm on the SAGE JMR open-access pricing page.
 - **Editor transition**: Rebecca Hamilton (Georgetown) is EIC through 30 June 2026; Raphael Thomadsen's incoming team (WashU, 2026–2029) has processed new manuscripts since 1 April 2026.
 
 ## Pre-submission checklist (summary; full version in templates/checklist.md)
