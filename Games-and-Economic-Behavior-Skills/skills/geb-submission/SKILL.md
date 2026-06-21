@@ -19,7 +19,7 @@ description: Use when running the final pre-submission preflight for Games and E
 - **No upfront submission fee** is identified (待核实 — inferred from standard Elsevier practice, not an official quote). Optional **gold open access** carries an **Article Publishing Charge of USD 2,860 excluding tax**, only for accepted papers whose authors choose OA (待核实 — reconfirm; APCs change).
 - **Abstract must not exceed 250 words.** No fixed manuscript length/word/page limit is specified (treat as "not specified," not "confirmed absent").
 - The **cover letter must explain how the submission differs from any conference version** — GEB receives substantial CS/EC-conference-adjacent work, so prior conference publication is common and must be disclosed and distinguished.
-- Any use of generative AI/AI-assisted tools must be declared in a section titled **"Declaration of generative AI and AI-assisted technologies in the manuscript preparation process,"** placed **before the reference list** (basic grammar/spell tools exempt).
+- Any use of generative AI/AI-assisted tools must be declared in a section titled **"Declaration of generative AI and AI-assisted technologies..."** (待核实 — Elsevier uses both "...in the writing process" and "...in the manuscript preparation process"; copy the exact heading from the live Guide for Authors), placed **before the reference list** (basic grammar/spell tools exempt).
 - Review is the **Editor-in-Charge model**: the chief editor assigns your paper to one of **seven Editors** (publicly known, final authority) over **anonymous** Advisory Editors and referees; **~one-third desk-rejected**, **~15% published** (see geb-review-process).
 
 ## Preflight checklist

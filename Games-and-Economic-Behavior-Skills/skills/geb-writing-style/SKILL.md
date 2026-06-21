@@ -20,7 +20,7 @@ Format facts that shape the writing:
 
 - **Abstract must not exceed 250 words** — concise and factual; state the contribution and the main result, not just the topic.
 - **References:** no strict style is imposed at submission as long as it is **consistent**; the published style is **elsarticle-num**. (Avoid mixing styles.)
-- **Generative-AI use** must be disclosed in a section titled *"Declaration of generative AI and AI-assisted technologies in the manuscript preparation process,"* placed **before the reference list** (basic grammar/spell tools exempt) — keep the prose your own and the declaration accurate.
+- **Generative-AI use** must be disclosed in a section titled *"Declaration of generative AI and AI-assisted technologies..."* (待核实 — Elsevier uses both "...in the writing process" and "...in the manuscript preparation process"; copy the exact heading from the live Guide for Authors), placed **before the reference list** (basic grammar/spell tools exempt) — keep the prose your own and the declaration accurate.
 - This is a **late-stage** skill: polish only once theorems, assumptions, and (if any) experiments are settled.
 
 ## The introduction arc (GEB template)

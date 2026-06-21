@@ -48,48 +48,77 @@ named official page, not a directly loaded page.
   Editors / ~800 annual submissions at submission time. These names are intentionally **not** used
   as load-bearing named editors anywhere in the skills.
 
-- **https://en.wikipedia.org/wiki/Games_and_Economic_Behavior** — Verifies: publisher Elsevier;
-  one of two official journals of the Game Theory Society; **founded 1989 by Ehud Kalai** (founding
-  editor); current editor-in-chief **Hervé Moulin since 1 January 2021**; bimonthly; ISSN 0899-8256;
-  scope spans game theory, economics, political science, biology, computer science, mathematics,
-  psychology. Accessed 2026-06-01.
-  **⚠ 待核实:** Moulin confirmed as chief editor since 2021 and still listed as of late 2025; not
-  independently reconfirmed for mid-2026 — verify the masthead at submission time.
+- **https://en.wikipedia.org/wiki/Games_and_Economic_Behavior** — **Directly read 2026-06-20.**
+  Verifies: publisher Elsevier; one of two official journals of the Game Theory Society;
+  **founded 1989 by Ehud Kalai** (founding editor); current editor-in-chief **Hervé Moulin since
+  1 January 2021**; bimonthly; ISSN 0899-8256; scope spans game theory and economics, with
+  applications in political science, biology, computer science, mathematics, and psychology.
+  Accessed 2026-06-20.
+  **Note:** Moulin's "since 1 January 2021" tenure is cross-corroborated by the official GTS page
+  (above), which also lists him as current EIC as of 2026-06-20. Still re-verify the masthead at
+  submission time.
 
 ## Submission system & formatting
 
 - **https://www.elsevier.support/publishing/answer/how-to-submit-a-latex-file-in-editorial-manager**
   — Verifies: submission via Elsevier **Editorial Manager**; editable **Word or LaTeX** files
   required; LaTeX submissions use the **elsarticle** template / `.sty` file; correspondence by email.
-  Accessed 2026-06-01.
+  Accessed 2026-06-20. (Editorial Manager and editable .doc/.docx / .tex source files independently
+  reconfirmed 2026-06-20 via fresh snippets of the GEB Guide for Authors — snippet-corroborated.)
 
 ## Data / replication policy
 
-- **https://github.com/atrisovic/econ-data-policy/blob/master/README.md** — Independent survey of
-  economics-journal data policies. Verifies: GEB's data policy is **"encouraged but not mandatory"**
-  — Elsevier recommends data sharing but there is **no requirement** for this journal; GEB encourages
-  and enables authors to share data via repositories such as **Mendeley Data**, data statements, or a
-  Data Brief. Accessed 2026-06-01.
-  Note: this is a secondary aggregator; the underlying stance is Elsevier's "encourages and enables"
-  research-data policy (Option C). Cross-check the journal's own Guide for Authors.
+- **https://www.sciencedirect.com/journal/games-and-economic-behavior/publish/guide-for-authors**
+  (Research data section) — Verifies (snippet-corroborated 2026-06-20): GEB's data policy is
+  **"encouraged but not mandatory."** The page states "This journal encourages and enables you to
+  share data that supports your research publication where appropriate," with options including
+  linking metadata to a repository, using **Mendeley Data**, creating a **Data Brief**, or adding a
+  **data statement**; it also encourages sharing software, code, models, algorithms, protocols, and
+  methods. There is **no requirement** to share data for this journal (Elsevier "encourages and
+  enables," i.e. research-data Option C). Accessed 2026-06-20.
+  Secondary cross-reference: **https://github.com/atrisovic/econ-data-policy/blob/master/README.md**
+  — independent survey of economics-journal data policies, which likewise classifies GEB as
+  "encouraged but not mandatory." Accessed 2026-06-20.
 
 ## Fees / open access
 
-- **https://www.sciencedirect.com/journal/games-and-economic-behavior** — Verifies: gold open-access
-  APC = **USD 2,860 excluding tax**. Accessed 2026-06-01.
-  **⚠ 待核实:** no explicit "no submission fee" statement was confirmed from the official page; the
-  absence of a separate upfront submission fee is **inferred** from standard Elsevier practice, not an
-  official quote. The USD 2,860 APC was taken from a search snippet and should be reconfirmed (APC
-  amounts change over time).
+- **https://www.sciencedirect.com/journal/games-and-economic-behavior/publish/open-access-options**
+  — GEB open-access options page. Verifies (snippet-corroborated 2026-06-20): gold open-access
+  APC = **USD 2,860 excluding tax**; GEB is a **hybrid** (subscription) journal offering an optional
+  gold-OA route; institutional/national agreements may waive or discount the APC. Accessed 2026-06-20.
+  The USD 2,860 figure was reconfirmed on 2026-06-20 via a fresh search-engine snippet of this
+  official page (the page 403s to direct fetch). One unofficial aggregator listed a lower, stale
+  figure (~$2,540) and was disregarded in favor of the official-page snippet.
+  **⚠ 待核实:** APC amounts change over time — reconfirm on the live page before relying on it. No
+  explicit "no submission fee" statement was found on the official page; the absence of a separate
+  upfront submission fee is **inferred** from standard Elsevier practice, not an official quote.
+
+## AI policy (declaration heading wording)
+
+- **https://www.elsevier.com/about/policies-and-standards/the-use-of-generative-ai-and-ai-assisted-technologies-in-writing-for-elsevier**
+  — Elsevier's umbrella generative-AI policy, which GEB inherits. **Directly read 2026-06-20.**
+  Verifies: authors must add a declaration section placed **at the end of the manuscript,
+  immediately above the references**; **basic checks of grammar, spelling and punctuation (and
+  reference tools) need no declaration**; "If you have nothing to disclose, you do not need to add a
+  statement." Accessed 2026-06-20.
+  **⚠ 待核实 (heading wording):** Elsevier has used two heading variants — "Declaration of Generative
+  AI and AI-assisted technologies in the **writing process**" (on this general policy page) and
+  "...in the **manuscript preparation process**" (the variant previously recorded for GEB). The
+  GEB Guide-for-Authors snippets on 2026-06-20 confirmed the AI-declaration requirement and the
+  before-references placement but did **not** return the exact heading string verbatim. Use the
+  heading exactly as printed on the live GEB Guide for Authors at submission time.
 
 ## Facts treated as NOT specified / 待核实
 
 - **Manuscript length / word / page limit** — **待核实 (not specified):** no fixed length, word, or
-  page limit was found in available sources; the Elsevier Guide for Authors does not appear to impose a
-  hard cap. Treated as "not specified," not "confirmed-absent."
-- **Single anonymized peer review** — consistent with Elsevier's standard journal description and with
-  the GTS-described Editor-in-Charge / anonymous-Advisory-Editor process, but the exact phrase "single
-  anonymized" was **not captured from a directly loaded official GEB page** — **待核实**.
+  page limit was found in available sources (incl. the Wikipedia entry and GEB Guide-for-Authors
+  snippets reviewed 2026-06-20); the Elsevier Guide for Authors does not appear to impose a hard cap.
+  Treated as "not specified," not "confirmed-absent."
+- **Single anonymized peer review** — **snippet-corroborated 2026-06-20:** a fresh snippet of the GEB
+  Guide for Authors states the journal "follows a single anonymized review process," consistent with
+  the GTS-described Editor-in-Charge / anonymous-Advisory-Editor workflow. The exact phrase was not
+  captured from a directly loaded (non-403) GEB page, so confirm verbatim on the live page if the
+  precise label is load-bearing.
 - **Upfront submission fee = $0** — **待核实** (see APC note above): inferred, not officially quoted.
 
 ## Representative scope anchors (not load-bearing; verify before citing)
