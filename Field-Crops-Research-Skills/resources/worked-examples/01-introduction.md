@@ -20,7 +20,7 @@ This demonstrates the **FCR framing arc** assembled from this pack's own skills:
   design and the **G×E** structure that lets the result generalise.
 - **`fcr-data-analysis`** — report **estimated marginal means with SED/LSD**, effect sizes with
   uncertainty, and G×E done properly (not pooled plots, no a/b/c letters on a quantitative dose).
-- **`fcr-writing-style`** — abstract ≈ 400 words stating the **quantitative** finding in **SI units**;
+- **`fcr-writing-style`** — abstract ≤ 400 words stating the **quantitative** finding in **SI units**;
   a discussion that **interprets rather than repeats**; highlights that are findings, not topics.
 
 **Illustrative paper (fictional):** *"Closing the rainfed wheat yield gap with delayed nitrogen

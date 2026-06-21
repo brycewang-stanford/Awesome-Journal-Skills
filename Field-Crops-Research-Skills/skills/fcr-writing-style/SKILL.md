@@ -1,6 +1,6 @@
 ---
 name: fcr-writing-style
-description: Use when drafting or polishing a Field Crops Research (FCR) manuscript so it reads for a general agronomy/crop-science audience, follows FCR structure, and meets the format expectations (abstract ~400 words, 3-5 highlights of <=85 characters, grammatically sound English, concise results, a discussion that interprets rather than repeats). Tightens prose and format; it does not invent content.
+description: Use when drafting or polishing a Field Crops Research (FCR) manuscript so it reads for a general agronomy/crop-science audience, follows FCR structure, and meets the format expectations (abstract <=400 words, 3-5 highlights of <=85 characters, grammatically sound English, concise results, a discussion that interprets rather than repeats). Tightens prose and format; it does not invent content.
 ---
 
 # Writing Style (fcr-writing-style)
@@ -14,7 +14,7 @@ generating claims.
 ## When to trigger
 
 - Drafting the introduction, results, or discussion, or doing a final polish
-- Writing the **abstract** (≈ 400 words) and the **highlights** (3–5 bullets)
+- Writing the **abstract** (≤ 400 words) and the **highlights** (3–5 bullets)
 - Tightening a verbose results or discussion section
 - Aligning citations and units to the Elsevier/FCR style before submission
 
@@ -31,7 +31,7 @@ generating claims.
 
 ## Abstract & highlights
 
-- **Abstract** (**≤ ~400 words**, 待核实 exact cap): purpose, key methods (crop, environments),
+- **Abstract** (**≤ 400 words**): purpose, key methods (crop, environments),
   principal quantitative results, and the major agronomic conclusion.
 - **Highlights**: **3–5 bullet points, each ≤ 85 characters including spaces** — concrete findings,
   not topic labels.
@@ -79,14 +79,16 @@ Treat this skill as an executable review pass, not a prose hint. First lock the 
 - **Do the pass:** Rewrite the first two pages so each paragraph starts from the venue-level claim, not from chronology or method inventory; preserve exact source-map limits and move technical overflow to appendix or supplement.
 - **Return a ledger:** give `claim / evidence / risk / manuscript location` rows, so the next agent can edit rather than rediscover the issue.
 - **Sibling guard:** compare against Agricultural Systems for whole-system modeling, European Journal of Agronomy for agronomic breadth, Crop Science for cultivar or breeding emphasis; if a sibling owns the contribution, recommend re-routing before polishing format.
-- **Stop condition:** do not give submission-ready advice until the pack's `resources/official-source-map.md` has been checked for volatile rules and the manuscript has one concrete fix for the largest venue-specific risk.
+- **Submission-ready gate:** do not give final advice until the pack's
+  `resources/official-source-map.md` has been checked for upload-week rules and the manuscript has one
+  concrete fix for the largest venue-specific risk.
 
 ## Output format
 
 ```
 【Structure】intro → methods → concise results → interpretive discussion? [Y/N]
 【Discussion interprets, not repeats?】[Y/N]
-【Abstract】word count (≈≤400) + states quantitative finding? [Y/N]
+【Abstract】word count (≤400) + states quantitative finding? [Y/N]
 【Highlights】3-5 bullets, each ≤85 chars, findings not topics? [Y/N]
 【General reach】SI units + acronyms defined + quantified? [Y/N]
 【Next】fcr-cover-letter

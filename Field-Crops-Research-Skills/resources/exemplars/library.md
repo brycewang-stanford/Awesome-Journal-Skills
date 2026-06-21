@@ -111,10 +111,9 @@ To keep the list zero-hallucination, the following were **excluded** after check
 
 - **"Envirotyping facilitates understanding of genotype × environment interactions and highlights the
   potential of stay-green traits in wheat" (2025).** Web search indicates an FCR placement
-  (ScienceDirect `pii/S0378429025002059`; a bioRxiv preprint also exists), **but the exact DOI, volume,
-  and pages could not be confirmed** — a candidate DOI (`10.1016/j.fcr.2025.109577`) failed to resolve on
-  `doi.org` (HTTP 404). Strong G×E/envirotyping candidate; **re-verify the DOI on ScienceDirect before
-  citing.**
+  (ScienceDirect `pii/S0378429025002059`; a bioRxiv preprint also exists), but the DOI, volume, and
+  pages lacked a stable article-page match during this pass. Strong G×E/envirotyping candidate; check
+  the DOI on ScienceDirect before citing.
 - **Lobell, Cassman & Field, "Crop Yield Gaps: Their Importance, Magnitudes, and Causes" (2009)** —
   verified to be in the ***Annual Review of Environment and Resources*** (DOI
   10.1146/annurev.environ.041008.093740), **not FCR**. Listed here only as a guardrail against a common

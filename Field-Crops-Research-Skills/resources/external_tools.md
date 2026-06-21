@@ -5,7 +5,7 @@ FCR is an **empirical agronomy and crop-science** journal: a submission is typic
 experimental or modelling study on crop ecology, crop physiology, agronomy, or crop improvement, with
 **multi-season and/or multi-environment** relevance and, usually, **yield data**. Match tools to your
 design — controlled-environment-only work is out of scope (see `fcr-topic-selection`). Check licenses
-and current access terms before use, and verify any FCR-specific policy in
+and current access terms before use, and check any FCR-specific policy in
 [`official-source-map.md`](official-source-map.md).
 
 ## 1. Data sources & reference datasets
@@ -61,7 +61,7 @@ and current access terms before use, and verify any FCR-specific policy in
 - Reference managers: Zotero, Mendeley, BibTeX/BibLaTeX, EndNote — use the **Elsevier / FCR reference
   style** (Elsevier numbered or name–year as specified); keep one consistent style
 - Typesetting: LaTeX (Elsevier `elsarticle` class) or Word; prepare **highlights** (3–5 bullets,
-  ≤ 85 characters each) and an **abstract ≤ ~400 words**
+  ≤ 85 characters each) and an **abstract ≤ 400 words**
 - Reporting: SI units; full agronomic detail (cultivar, soil, weather, management, plot size,
   replication) so the experiment is reproducible
 
@@ -69,14 +69,15 @@ and current access terms before use, and verify any FCR-specific policy in
 
 | Item | Note |
 |------|------|
-| Submission portal | **Editorial Manager** — confirm current URL on the live guide |
+| Submission portal | **Editorial Manager** at `submit.elsevier.com/FIELD` |
 | Publisher | **Elsevier** (ISSN **0378-4290**) |
 | Review model | **Single anonymized** — typically ≥ 2 reviewers |
 | Article types | Original Research Paper · Review (usually invited) · Short Communication · Opinion · Loomis Review (invited) |
 | Multi-environment rule | Field experiments should include **≥ 2 seasons and/or multiple locations/environments** |
-| Abstract / highlights | Abstract **≤ ~400 words**; **3–5 highlights**, each **≤ 85 characters** |
-| Data policy | **State data availability at submission**; co-submit data/methods to **Data in Brief / MethodsX** where relevant |
+| Abstract / highlights | Abstract **≤ 400 words**; **3–5 highlights**, each **≤ 85 characters** |
+| Data policy | Elsevier Policy Type 3 / Option C: **state data availability at submission**; co-submit data/methods to **Data in Brief / MethodsX** where relevant |
 | AI disclosure | **Declare any use of generative AI** in preparation |
+| Open access | Optional OA APC shown by ScienceDirect: **USD 3,500** excluding taxes; subscription route has no open-access publication fee |
 
 ## 7. Cautions
 1. **Scope first** — FCR rejects controlled-environment-only (greenhouse/pot/root-restricting) work,
@@ -84,9 +85,9 @@ and current access terms before use, and verify any FCR-specific policy in
    studies. Confirm fit before investing (see `fcr-topic-selection`).
 2. **Multi-environment relevance** — a single-site, single-season trial usually does not meet the bar;
    design for **≥ 2 seasons and/or multiple environments** and analyse **G×E** properly.
-3. **Use the right statistics** — mixed models for MET / blocked / split-plot data; report **SED/LSD**
+3. **Use the right statistics** — mixed models for MET / block-design / split-plot data; report **SED/LSD**
    and estimated marginal means, not bare means with stars.
 4. **Document the agronomy** — cultivar, soil, weather (linked to phenology), and management must let a
    reader reproduce the experiment.
-5. **Verify volatile specifics** (editors, exact caps, article-type limits, fee/APC, data-policy
-   wording) on the official Elsevier page — they change; unverified items are marked 待核实.
+5. **Run an upload-week live check** on the official Elsevier pages for editor names, prices, file
+   prompts, and article-type menus before pressing submit.

@@ -72,9 +72,8 @@ site-years × 4 N rates × 3 reps ≈ 180 rows) is non-sensitive, so deposit it 
 Creative Commons, cite it with the DOI, and state "data are openly available at [DOI]." One site's
 soil-survey layer is licensed from a provider that forbids redistribution — for that layer only, state
 the **restriction and its reason** rather than leaving a blanket "available on request." The published
-statement must let a reader regenerate every yield mean and SED in the results. Confirm the current
-repository and statement wording against the journal's author guidelines, since Elsevier policy text is
-volatile.
+statement must let a reader regenerate every yield mean and SED in the results. Check the repository
+and statement wording against the journal's author guidelines during the final upload-week pass.
 
 ## Anti-patterns
 

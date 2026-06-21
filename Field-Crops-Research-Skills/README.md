@@ -41,13 +41,12 @@ FCR's constraints differ from a general plant-science or a controlled-environmen
 | Publisher / portal    | **Elsevier** / **Editorial Manager**                                          | Not OUP/Cambridge; submitted via Editorial Manager               |
 | Review model          | **Single anonymized**, typically ≥ 2 reviewers                                | Authors are not anonymized; expect expert agronomy review        |
 | Statistics            | **Appropriate** to the design (mixed models, G×E)                             | One-way ANOVA on pooled plots will not pass methods review       |
-| Abstract / highlights | Abstract **≤ ~400 words**; **3–5 highlights** of ≤ 85 characters              | Build them early; highlights are findings, not topics            |
+| Abstract / highlights | Abstract **≤ 400 words**; **3–5 highlights** of ≤ 85 characters               | Build them early; highlights are findings, not topics            |
 | Data policy           | **State data availability at submission**; declare generative-AI use          | Draft the statement before you upload                            |
 
-Volatile specifics (editors and term, exact caps, article-type limits, fee/APC, policy wording) change
-— items not directly confirmed are marked **待核实** in
-[`resources/official-source-map.md`](resources/official-source-map.md).
-**Verify on the official journal page.**
+Use [`resources/official-source-map.md`](resources/official-source-map.md) for the official source
+trail behind these claims. Final upload-week checks still belong on the live ScienceDirect / Elsevier
+pages because editor names, prices, file prompts, and article-type menus can change.
 
 ### The scope boundary (read this first)
 
@@ -136,7 +135,7 @@ write anything.
 | `fcr-data-analysis`                | Mixed models, G×E/stability, adjusted means + SED/LSD, model evaluation        |
 | `fcr-figures-and-tables`           | Self-contained exhibits with units and error; response curves and biplots     |
 | `fcr-reporting-and-data-policy`    | Agronomic reporting completeness; data-availability statement; AI disclosure  |
-| `fcr-writing-style`                | Concise results + interpretive discussion; abstract ~400 words; highlights     |
+| `fcr-writing-style`                | Concise results + interpretive discussion; abstract ≤400 words; highlights     |
 | `fcr-cover-letter`                 | Editor-facing letter establishing scope fit and the novel contribution        |
 | `fcr-review-process`               | Single-anonymized review, scope-based desk screening, decision categories     |
 | `fcr-submission`                   | Editorial Manager preflight (scope, format, reporting, declarations)          |
@@ -145,7 +144,7 @@ write anything.
 ### Resources
 
 - [`resources/external_tools.md`](resources/external_tools.md) — agronomy data sources (GYGA / FAOSTAT / WorldClim / NASA POWER / SoilGrids) + design, mixed-model, G×E, and crop-model software (agricolae / asreml / metan / APSIM / DSSAT / STICS)
-- [`resources/official-source-map.md`](resources/official-source-map.md) — official Elsevier / FCR URLs behind every fact, with 待核实 markers on unverified items
+- [`resources/official-source-map.md`](resources/official-source-map.md) — official Elsevier / FCR URLs behind every journal-specific fact and upload-week live-check boundary
 
 ---
 
@@ -153,7 +152,7 @@ write anything.
 
 - It does not write a submittable manuscript for you
 - It does not simulate any specific editor's or reviewer's taste
-- It does not assert volatile metadata (current editors and term, exact caps, article-type limits, fee/APC, policy wording) — verify on the official page; unverified items are marked 待核实
+- It does not freeze upload-week metadata such as editor names, prices, file prompts, or article-type menu changes; check the official page before submission
 - It does not decide whether your study is genuinely field-based and of general significance — that is the researcher's call
 
 ---

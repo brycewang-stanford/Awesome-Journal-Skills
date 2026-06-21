@@ -38,12 +38,11 @@ FCR 的约束不同于通用植物科学刊或受控环境刊：
 | 出版方 / 投稿系统 | **Elsevier** / **Editorial Manager** | 非 OUP/剑桥；经 Editorial Manager 投稿 |
 | 评审模式 | **单向匿名**，通常 ≥ 2 位评审 | 作者不匿名；预期接受农学专家评审 |
 | 统计 | 与设计**相匹配**（混合模型、G×E） | 对合并小区做单因素方差分析过不了方法关 |
-| 摘要 / 亮点 | 摘要 **≤ 约 400 词**；**3–5 条亮点**，每条 ≤ 85 字符 | 尽早准备；亮点是发现而非主题 |
+| 摘要 / 亮点 | 摘要 **≤ 400 词**；**3–5 条亮点**，每条 ≤ 85 字符 | 尽早准备；亮点是发现而非主题 |
 | 数据政策 | 投稿时**声明数据可得性**；声明生成式 AI 使用 | 上传前先拟好声明 |
 
-易变的具体信息（编辑与任期、确切上限、各文类篇幅限制、费用/APC、政策措辞）会变化——未直接核实项在
-[`resources/official-source-map.md`](resources/official-source-map.md) 中标记 **待核实**。
-**请以官方页面为准。**
+这些事实背后的官方来源见 [`resources/official-source-map.md`](resources/official-source-map.md)。
+最终投稿周仍应打开 ScienceDirect / Elsevier 页面，核对编辑名单、价格、文件提示和文类菜单是否有变化。
 
 ### 范围边界（请先读）
 
@@ -130,7 +129,7 @@ fcr-revision-and-rebuttal
 | `fcr-data-analysis` | 混合模型、G×E/稳定性、校正均值 + SED/LSD、模型评估 |
 | `fcr-figures-and-tables` | 自洽图表，带单位与误差；响应曲线与双标图 |
 | `fcr-reporting-and-data-policy` | 农学报告完整性；数据可得性声明；AI 声明 |
-| `fcr-writing-style` | 结果简洁 + 讨论重在解释；摘要约 400 词；亮点 |
+| `fcr-writing-style` | 结果简洁 + 讨论重在解释；摘要 ≤400 词；亮点 |
 | `fcr-cover-letter` | 面向编辑、确立范围契合与创新贡献的投稿信 |
 | `fcr-review-process` | 单向匿名评审、基于范围的桌面筛查、决定类别 |
 | `fcr-submission` | Editorial Manager 投稿前检查（范围、格式、报告、声明） |
@@ -139,7 +138,7 @@ fcr-revision-and-rebuttal
 ### 资源
 
 - [`resources/external_tools.md`](resources/external_tools.md) — 农学数据源（GYGA / FAOSTAT / WorldClim / NASA POWER / SoilGrids）+ 设计、混合模型、G×E 与作物模型软件（agricolae / asreml / metan / APSIM / DSSAT / STICS）
-- [`resources/official-source-map.md`](resources/official-source-map.md) — 每条事实背后的 Elsevier / FCR 官方 URL，未核实项标 待核实
+- [`resources/official-source-map.md`](resources/official-source-map.md) — 每条期刊专属事实背后的 Elsevier / FCR 官方 URL 与投稿周 live-check 边界
 
 ---
 
@@ -147,7 +146,7 @@ fcr-revision-and-rebuttal
 
 - 不替你写出可直接投稿的稿件
 - 不模拟任何特定编辑或评审人的口味
-- 不臆断易变元数据（现任编辑与任期、确切上限、各文类篇幅、费用/APC、政策措辞）——请以官方页面为准；未核实项标 待核实
+- 不冻结投稿周才应确认的元数据，例如编辑名单、价格、文件提示或文类菜单变化；投稿前以官方页面为准
 - 不替你判断研究是否真正基于大田、是否具有普遍意义——那是研究者的判断
 
 ---

@@ -1,6 +1,6 @@
 ---
 name: fcr-data-analysis
-description: Use when executing and reporting the statistical analysis for a Field Crops Research (FCR) manuscript — mixed models for multi-environment and blocked/split-plot designs, genotype-by-environment (G×E) and stability analysis, estimated marginal means with SED/LSD, and crop-model evaluation. FCR requires data analysed with appropriate statistics that match the design and address the objectives. Guides analysis norms; it does not fabricate results.
+description: Use when executing and reporting the statistical analysis for a Field Crops Research (FCR) manuscript — mixed models for multi-environment, block-design, and split-plot designs, genotype-by-environment (G×E) and stability analysis, estimated marginal means with SED/LSD, and crop-model evaluation. FCR requires data analysed with appropriate statistics that match the design and address the objectives. Guides analysis norms; it does not fabricate results.
 ---
 
 # Data Analysis (fcr-data-analysis)

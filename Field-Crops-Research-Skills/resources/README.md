@@ -11,14 +11,14 @@ verified exemplars, and confirm FCR-specific scope and policy. Pair each resourc
 | --- | --- |
 | [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | See a before→after rewrite of an **abstract + introduction** in FCR house style — yield-gap/agronomy framing, a multi-environment (≥ 2 seasons / multiple sites) design, and G×E reported properly. Illustrative **fictional** paper; no policy invented. |
 | [`exemplars/library.md`](exemplars/library.md) | Benchmark against **real, web-verified FCR papers** (Elsevier, DOI `10.1016/j.fcr…`) organised by topic × method. Framing/design positioning only — no fabricated numbers — with a sibling-journal guard. |
-| [`official-source-map.md`](official-source-map.md) | **FCR-specific policy & facts:** Elsevier/Editorial Manager submission, ISSN 0378-4290, scope gate (field-based, multi-environment, field crops, general significance), abstract ≈ 400 words, 3–5 highlights ≤ 85 chars, data-availability and generative-AI declarations. The authoritative pack source. |
+| [`official-source-map.md`](official-source-map.md) | **FCR-specific policy & facts:** Elsevier/Editorial Manager submission, ISSN 0378-4290, scope gate (field-based, multi-environment, field crops, general significance), abstract ≤ 400 words, 3–5 highlights ≤ 85 chars, data-availability and generative-AI declarations. The authoritative pack source. |
 | [`external_tools.md`](external_tools.md) | External agronomy/crop-science tools, data sources, and software referenced by the pack. |
 
 ## No vendored econometrics code kit (agronomy venue)
 
 Unlike the economics packs in this repo, **this pack does not vendor a causal-inference / econometrics
 code kit** (TWFE / DID / IV / RDD / DML do-files). FCR is a **field-agronomy and crop-science** journal:
-its analytical core is **linear mixed models** for blocked and split-plot multi-environment trials, G×E
+its analytical core is **linear mixed models** for block-design and split-plot multi-environment trials, G×E
 and stability analysis (Finlay–Wilkinson, AMMI, GGE), estimated marginal means with SED/LSD, and
 crop-model calibration/validation — **not** a reduced-form policy-evaluation pipeline. Vendoring the
 econometrics kit here would be off-discipline and misleading. The relevant analysis norms live in
