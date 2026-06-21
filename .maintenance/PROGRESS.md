@@ -912,3 +912,56 @@ Post-batch acceptance gates passed:
   fail-threshold hits; remaining reported pairs are CS breadth sibling profiles.
 - `python3 tools/run_checks.py --skip-reports` -> all hard checks passed.
 - `git diff --check` -> clean.
+
+JEP low-tail capability kit completed:
+- Avoided `Journal-of-Applied-Psychology-Skills` after a new untracked
+  `resources/code/README.md` appeared during this session, indicating another active lane.
+- Added a pack-local `Journal-of-Educational-Psychology-Skills/resources/code/` R kit:
+  setup/synthetic nested data, cluster-design diagnostics, multilevel/growth models,
+  mediation with indirect-effect intervals, and reproducible JARS table skeletons.
+- Updated JEP README/resource indexes to advertise the new code capability layer.
+- `python3 tools/quality_scorecard.py --top 10 --show-skills` -> repo floor is now min 90.0,
+  below 86/88/90 = 0/0/0.
+- `python3 tools/source_map_audit.py Journal-of-Educational-Psychology-Skills --all` -> 0 warnings.
+- `git diff --check -- Journal-of-Educational-Psychology-Skills` -> clean.
+- `Rscript` is not installed in this shell, so R templates were not executed locally.
+
+README full-discipline coverage map completed:
+- Replaced the compressed "经管社科 · 人文社科 · 自然科学 · 临床医学 · AI 计算机" framing
+  with a full bilingual discipline list.
+- Expanded `覆盖一览` / `Coverage at a Glance` from 5 merged rows to 11 explicit rows:
+  multidisciplinary/cross-field, economics/management, social sciences, humanities,
+  math/physical sciences, life sciences, medicine/health, engineering/technology,
+  computer science/AI, agriculture/environment/earth science, and sport science.
+- Removed stale "五大板块" / "five blocks" wording from the bilingual READMEs.
+
+Non-breadth clone-risk differentiation completed:
+- Differentiated the highest non-breadth clone pairs without touching broad generated bundles:
+  AREcon vs. ARSoc revision skills now carry separate economics-review and sociology-review
+  ledgers; American Anthropologist vs. Current Anthropology data-analysis skills now distinguish
+  AA four-field evidence/care review from CA comment-facing analysis and Reply preparation.
+- `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 30` now reports only
+  `Computer-Science-Conference-Skills` breadth-profile pairs above 0.75; the edited non-breadth
+  pairs no longer appear in the threshold list.
+
+Current Anthropology source-map debt cleanup completed:
+- Rewrote `Current-Anthropology-Skills/resources/official-source-map.md` to use directly readable
+  Wenner-Gren pages for the 1959 founding/sponsorship, all-branches scope, CA Treatment,
+  2025 co-editor transition, Editorial Manager, six-core-issue cadence, approximate operating figures,
+  and open-access/supplementary-material posture.
+- Kept UChicago Press `about`, `current`, `instruct`, `checklist`, `prep-gen`, `jrnl_rights`, and
+  `board` URLs as the canonical live policy anchors, while documenting that this shell received a
+  Cloudflare challenge and that live submission facts must be re-checked in a normal browser.
+- Removed the non-official Wikipedia dependency from the source map instead of relying on a stale editor
+  roster. `python3 tools/source_map_audit.py Current-Anthropology-Skills --all` now reports
+  `unresolved_flags=0`, down from 6, with 0 warnings.
+
+Annual Review of Sociology source-map debt cleanup completed:
+- Rewrote `Annual-Review-of-Sociology-Skills/resources/official-source-map.md` around Annual Reviews
+  official URL/snippet anchors for scope, ISSN/eISSN, co-editors, invitation-led intake, accuracy/rigor/
+  balance review bar, author-resource boundaries, and Subscribe-to-Open status.
+- Removed Wikipedia and secondary-JCR dependence from the source map. Impact metrics are now explicitly
+  not hard-coded; length/abstract/delivery details remain live-check items controlled by Annual Reviews
+  author resources and editor correspondence.
+- `python3 tools/source_map_audit.py Annual-Review-of-Sociology-Skills --all` now reports
+  `unresolved_flags=0`, down from 6, with 0 warnings.
