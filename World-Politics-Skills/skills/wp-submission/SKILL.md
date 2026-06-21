@@ -17,8 +17,8 @@ volatile specifics on the official page before relying on them.
 
 ## Process facts (verify volatile items on the official page)
 
-- **Sponsor / publisher:** PIIRS, Princeton University / **Johns Hopkins University Press** (Cambridge
-  through 2022 — 待核实 on current publisher of record).
+- **Sponsor / publisher:** PIIRS, Princeton University / **Johns Hopkins University Press** (publisher
+  from **Vol. 75 / 2023**; Cambridge through Vol. 74 / 2022).
 - **Portal:** **ScholarOne** (`mc.manuscriptcentral.com/wp`).
 - **Review model:** **triple-blind** — anonymize the manuscript; author anonymity is preserved through
   the editorial decision.
