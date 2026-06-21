@@ -8,7 +8,7 @@ theoretical, or methodological — under a **hard length cap** (≤7,000 words m
 or reject, no traditional R&R). Because the **AEA Data Editor** runs a
 **pre-publication reproducibility check**, build the replication package as you go.
 Check licenses and current access terms before use; verify volatile process
-specifics on the official AEA pages (检索于 2026-06；以官网为准).
+specifics on the official AEA pages.
 
 ## 1. Data sources
 
@@ -74,8 +74,8 @@ specifics on the official AEA pages (检索于 2026-06；以官网为准).
 ## 5. Writing & references
 - Reference managers: Zotero, BibTeX/BibLaTeX. AEA house (author-date) style; the
   reference list is excluded from the word count, but keep it tight and complete.
-- Typesetting: LaTeX (TeX Live / MacTeX / Overleaf). Anonymize the manuscript for
-  double-blind review.
+- Typesetting: LaTeX (TeX Live / MacTeX / Overleaf). Follow AEA first-page metadata
+  rules for single-blind review.
 
 ## 6. Process & portal (verify on the official AEA pages)
 | Item | Note |

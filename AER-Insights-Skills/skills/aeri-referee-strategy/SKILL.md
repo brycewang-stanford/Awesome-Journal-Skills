@@ -12,14 +12,15 @@ description: Use when calibrating expectations for the fast, decisive American E
 - Anticipating the one or two objections that would sink a short paper
 - Choosing whether to risk AER: Insights vs. a journal that offers multiple rounds
 
-## The AER: Insights process (检索于 2026-06；以官网为准)
+## The AER: Insights process (official AEA baseline checked 2026-06-20)
 
-AER: Insights runs **AEA double-blind** review and is deliberately **fast and decisive**:
+AER: Insights runs **single-blind** AEA peer review: authors are visible to referees, while referees
+remain anonymous to authors. It is deliberately **fast and decisive**:
 
 - **First decision is conditional accept or reject** — there is **no traditional revise-and-resubmit** category.
 - **Conditional accept** means the editor expects to publish subject to changes in the decision letter; authors usually get about **8 weeks** to return the revision, which is **normally not sent back to referees** for a second round.
 - **Reject is reject** — there is no iterative path to wear referees down. The screening is sharp: a paper over the word/exhibit cap is **returned unreviewed**.
-- Editor as of 2026: **Matthew Gentzkow** (since Jan 2024; founding editor Amy Finkelstein). Aim for AER-level importance in a short, clean package.
+- Editor as of 2026: **Matthew Gentzkow** (lead editor beginning January 2024; founding editor Amy Finkelstein). Aim for AER-level importance in a short, clean package.
 
 **Strategic implication:** because there is no R&R to fix things later, the paper must be **submission-ready and objection-proofed up front**. You get essentially one substantive look. A weak design, an overclaim, or a missing key check that an AER R&R would let you repair will instead produce a reject here.
 

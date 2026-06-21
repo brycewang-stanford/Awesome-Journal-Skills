@@ -1,90 +1,117 @@
 # AER: Insights Official Source Map
 
-Primary and authoritative sources behind every AER: Insights–specific fact injected
-into this skill pack. **Access date for all entries: 2026-06.** AER: Insights is an
-**American Economic Association (AEA)** journal (founded 2019). Re-verify volatile
-items (editor, fees, page charges, exact policy wording) before relying on them —
-AEA pages change. Items that could not be confirmed from a primary fetch are marked
-**待核实 (to be verified)**.
+Primary and authoritative sources behind AER: Insights-specific facts used in
+this skill pack. **Access date for all entries: 2026-06-20.** Current factual
+baseline comes from American Economic Association (AEA) pages. Treat fees,
+editorial rosters, portal prompts, and policy wording as live-check items at the
+moment of submission.
 
-## Official AEA / AER: Insights pages
+## Official AEA / AER: Insights Pages
 
-- **https://www.aeaweb.org/journals/aeri/submissions**
-  — AER: Insights Submission Guidelines. Verifies: manuscripts **without exhibits may
-  not exceed 7,000 words**; **each exhibit reduces the allowance by 200 words**;
-  **maximum of five exhibits** (figures or tables); **individual tables and figures
-  limited to one page each**; **abstract of 100 or fewer words required**; word count
-  includes the main body, footnotes, endnotes, and in-paper appendices, and excludes
-  the title, author names, abstract, acknowledgement footnote, reference list,
-  exhibits, and Supplemental Appendix; manuscripts over the word or exhibit limit are
-  **returned unreviewed**; submission fees (AEA member) US$200 high-income /
-  US$100 middle-income / US$0 low-income, (nonmember) US$300 / US$200 / US$0;
-  publication fee about **US$15 per typeset page**; submissions must comply with the
-  **AEA Data and Code Availability Policy** (data, code, documentation sufficient for
-  replication before acceptance). Accessed 2026-06.
-- **https://www.aeaweb.org/journals/aeri/editorial-process**
-  — AER: Insights Editorial Process (Discussions with Editors). Index page pointing to
-  the Editor's annual report and editorial-policy material. Verifies the existence of
-  the editorial-policy resources; substantive review-model details are taken from the
-  editorial-policy page and the editor reports below. Accessed 2026-06.
-- **https://www.aeaweb.org/journals/aeri/about-aeri/editorial-policy**
-  — AER: Insights Editorial Policy. Verifies: **no traditional revise-and-resubmit**;
-  first decisions on reviewed manuscripts are **conditional accept or reject**;
-  **conditional acceptance** means the journal expects to publish subject to the
-  changes in the decision letter, with authors typically given an **8-week** deadline,
-  and conditionally accepted papers are **not usually returned to referees** for a
-  second round. Accessed 2026-06.
-- **https://www.aeaweb.org/journals/aeri/editors**
-  — Editors of AER: Insights. Verifies: lead editor **Matthew Gentzkow** (Stanford),
-  beginning **January 2024**; **Amy Finkelstein** was the **founding editor** (the
-  journal launched in **2019**). Accessed 2026-06. (Full coeditor / board roster is
-  JS-rendered and **待核实** — see Unverified below.)
+- **https://www.aeaweb.org/journals/aeri** — AER: Insights journal home.
+  Verifies: ISSN 2640-205X (print) / 2640-2068 (online); AER: Insights is a
+  general-interest economics journal publishing papers of the same quality as
+  the American Economic Review, but focused on important insights that can be
+  conveyed succinctly; the journal publishes four issues per year across a
+  broad range of topics.
+- **https://www.aeaweb.org/journals/aeri/submissions** — AER: Insights
+  Submission Guidelines. Verifies: original-work policy; no concurrent
+  submissions; AEA disclosure, AI-use disclosure, plagiarism screening, RCT
+  registration for field experiments, and Data and Code Availability compliance;
+  desk rejection without review; no resubmission of previously rejected AER:
+  Insights papers; submission fees by AEA membership and income band; 50 percent
+  fee refund for rejection without review; publication fee of US$15 per typeset
+  page for papers first submitted on or after 2024-02-01; 7,000-word cap with
+  no exhibits; each exhibit reduces the cap by 200 words; maximum five exhibits;
+  one-page limit per figure or table; over-cap submissions returned without
+  review; PDF submission, title/byline/affiliations on the first page, abstract
+  of 100 or fewer words, author-date citations; word-count PDF and AEA word
+  counter; cover letter optional and preferred as a form field; separate
+  disclosure statement for each author; AER: Insights editorial office contact.
+- **https://www.aeaweb.org/journals/aeri/editorial-policy** — AER: Insights
+  Editorial Policy. Verifies: AER: Insights peer review is **single-blind**:
+  authors are revealed to referees while referee identities remain anonymous to
+  authors; editor assigns papers to a coeditor or handles them as coeditor; desk
+  return criteria; first decisions on reviewed manuscripts are reject or
+  conditional accept; no traditional revise-and-resubmit category; conditional
+  accepts normally have an 8-week return deadline and are typically decided by
+  the coeditor without a second referee round; final-stage Data and Code
+  Availability and Data Legality checks; conflict-of-interest rules; disclosure,
+  AI-use, data legality, data/code, and RCT-registration policies.
+- **https://www.aeaweb.org/journals/aeri/editors** — Editors of AER: Insights.
+  Verifies: current editor Matthew Gentzkow; coeditors Dirk Bergemann, Gabriel
+  Chodorow-Reich, Tatyana Deryugina, and Seema Jayachandran; board of editors;
+  Data Editor Lars Vilhuber; Managing Editor Tina Lippert; Amy Finkelstein as
+  past editor (2017-2023).
+- **https://www.aeaweb.org/news/member-announcements/2023-jan-17** — AEA
+  member announcement. Verifies: Matthew Gentzkow was appointed lead editor of
+  AER: Insights beginning January 2024.
+- **https://www.aeaweb.org/journals/aeri/style-guide** — AER: Insights Style
+  Guide. Verifies: manuscripts should not include a separate title page; title
+  and byline should be at the top of the first page; acknowledgement-footnote
+  contents include author emails, author-order statement, financial support,
+  personal acknowledgments, IRB information when applicable, and RCT registry
+  statement when applicable; abstract must not exceed 100 words; outline-style
+  section headings; author-date citations; dataset and registered-study
+  references; table rules including no significance asterisks and standard
+  errors in parentheses; vector figure formats and 300 dpi for photos/images.
+- **https://www.aeaweb.org/journals/aeri/accepted-article-guidelines** — AER:
+  Insights Accepted Article Guidelines. Verifies: all final materials except
+  data/code are uploaded through ScholarOne; manuscript PDF includes main text,
+  exhibits, references, and appendices; no title page, title/byline at top of
+  first page; word-count PDF rules; native files; data/code and README
+  requirements; Data and Code Availability Form and Archive Agreement; author
+  disclosure statements; Supplemental Appendix as a separate PDF; optional
+  presentation slides; publication agreements.
+- **https://www.aeaweb.org/journals/data/data-code-policy** — AEA Data and Code
+  Availability Policy. Verifies: before acceptance, empirical, simulation, and
+  experimental papers must provide data, code, and computation details sufficient
+  for replication; materials should be retained in an openly accessible trusted
+  repository such as the AEA Data and Code Repository; constrained-data cases
+  require public documentation, code availability, preservation commitments,
+  and AEA Data Editor review; the AEA Data Editor assesses compliance, conducts
+  reproducibility checks, and helps authors reach compliance; Data Availability
+  Statement, raw/analysis data, metadata, code, ethics approval, RCT registration,
+  README contents, and repository-location expectations.
+- **https://www.aeaweb.org/jel/guide/jel.php** — AEA JEL Classification Codes
+  Guide. Verifies: JEL codes are a standard economics classification system used
+  in many AEA published research materials; use this guide for classifications
+  and keywords when preparing portal metadata.
 - **https://www.aeaweb.org/research/insights-launch-amy-finkelstein-interview**
-  — "Introducing AER: Insights" (launch interview with founding editor Amy
-  Finkelstein). Verifies: AER: Insights launched 2019 as a short-format, AEA
-  general-interest outlet for single-idea papers. Accessed 2026-06.
+  — AEA launch interview with founding editor Amy Finkelstein. Verifies the
+  founding rationale for AER: Insights as a short top-tier general-interest
+  outlet and the deliberate no-traditional-R&R model. The historical article
+  mentions an older 6,000-word limit; current submission limits come from the
+  live submission and accepted-article guidelines above.
 
-## AEA-wide data & code regime (shared across AER / AER: Insights / AEJs)
+## Facts Used in the Skills
 
-- **AEA Data and Code Availability Policy** (linked from the submission page above) —
-  Verifies: the AEA publishes empirical/experimental/simulation papers only with data
-  and code sufficient to permit replication; the **AEA Data Editor (Lars Vilhuber)**
-  and team conduct a **pre-publication reproducibility verification**; replication
-  packages are deposited in the **AEA Data and Code Repository (openICPSR)**; restricted
-  data require a documented access path; README per the AEA / Social Science Data
-  Editors template. Accessed 2026-06.
+| Fact | Official source |
+| --- | --- |
+| General-interest AEA journal for succinct AER-quality insights; four issues per year | journal home |
+| ISSN 2640-205X / 2640-2068 | journal home / submissions / editors |
+| 7,000-word cap with no exhibits; minus 200 words per exhibit; maximum five exhibits; each exhibit one page | submissions / accepted-article guidelines |
+| Word-count scope and AEA word-count PDF workflow | submissions / accepted-article guidelines |
+| Abstract must be 100 words or fewer | submissions / style guide |
+| Over word or exhibit limit means returned without review | submissions / accepted-article guidelines |
+| Submission fees, refund for rejection without review, and US$15/typeset-page publication fee for applicable submissions | submissions |
+| Single-blind review: authors visible to referees, referees anonymous to authors | editorial-policy / reviewer-guidelines |
+| First decision after review is reject or conditional accept; no traditional revise-and-resubmit | editorial-policy / launch interview |
+| Conditional-accept revision window is typically 8 weeks and usually no second referee round | editorial-policy |
+| Desk return, no resubmission of previously rejected AER: Insights papers, and coeditor-assignment logic | submissions / editorial-policy |
+| Current editor, coeditors, board, Data Editor, Managing Editor, and past editor | editors / AEA member announcement |
+| Title/byline/affiliations on first page; no separate title page | submissions / style guide / accepted-article guidelines |
+| Disclosure statements, AI-use disclosure, plagiarism screening, RCT registration, data legality | submissions / editorial-policy / accepted-article guidelines |
+| AEA Data and Code Availability Policy, Data Editor compliance assessment, reproducibility checks, trusted repository, README, constrained-data route | submissions / editorial-policy / data-code-policy |
+| JEL classifications as standard AEA metadata vocabulary | JEL guide |
 
-## Facts used in the skills — quick index (every load-bearing fact)
+## Live-Check Items Before Submission
 
-| Fact | Source URL (above) |
-|------|--------------------|
-| Main text ≤7,000 words with no exhibits; −200 words per exhibit | submissions |
-| Maximum five exhibits (figures + tables); each ≤1 page | submissions |
-| Abstract ≤100 words | submissions |
-| Word-count scope (includes body/footnotes/in-paper appendices; excludes title/authors/abstract/ack/references/exhibits/Suppl. Appendix) | submissions |
-| Over word or exhibit limit → returned unreviewed | submissions |
-| Submission fees by membership × income band; publication fee ~US$15/page | submissions |
-| AEA Data and Code Availability Policy compliance required | submissions ; AEA Data and Code Availability Policy |
-| No traditional R&R; first decision conditional accept or reject; ~8-week conditional window; usually no second referee round | editorial-policy |
-| Editor Matthew Gentzkow (since Jan 2024); founding editor Amy Finkelstein; founded 2019 | editors ; launch interview |
-| AEA Data Editor (Lars Vilhuber); pre-publication reproducibility check; openICPSR deposit | AEA Data and Code Availability Policy |
-
-## Unverified items (待核实)
-
-- **Exact current submission and publication fee amounts** — the figures above were
-  read from the submissions page on 2026-06, but AEA fees are revised periodically;
-  **re-confirm the current amounts** on the live submissions page before relying on
-  them. **待核实** for any future date.
-- **Full coeditor / associate-editor roster as of 2026-06** — the editors page is
-  partly JS-rendered; lead editor Matthew Gentzkow (from Jan 2024) and founding editor
-  Amy Finkelstein are confirmed, but the complete current coeditor roster is **待核实**.
-- **JEL-code requirement wording** — JEL codes are standard across AEA journals and are
-  collected by the AEA submission system; the submissions page did not state the exact
-  requirement in the fetched text, so the precise wording is **待核实** (the system
-  prompts for them at submission).
-- **Whether the double-blind specifics differ from AER** — AER: Insights uses AEA
-  double-blind review; any AER: Insights-specific deviation in anonymization rules is
-  **待核实** against the live policy page.
-- **Exact average time-to-first-decision** — the fast, decisive model (conditional
-  accept / reject, ~8-week conditional window) is confirmed; a precise mean
-  turnaround statistic varies by editor report year and is **待核实**.
+- Confirm the current fee table and publication-page charge on the live submission
+  page.
+- Confirm the current editor/coeditor roster and conflict list on the live editors
+  page before naming a conflicted coeditor in a cover-letter field.
+- Confirm current ScholarOne/AEA portal upload prompts, metadata fields, and
+  required declarations during upload.
+- Confirm data/code, data-legality, disclosure, AI-use, and RCT policy wording at
+  the time of submission or conditional acceptance.

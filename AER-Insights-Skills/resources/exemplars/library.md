@@ -4,8 +4,8 @@
 > read off an **American Economic Review: Insights** issue table of contents on `aeaweb.org` (issue pages
 > for **Vol. 4, No. 1, March 2022** and **Vol. 6, No. 1, March 2024**) — confirming it appeared in
 > ***AER: Insights*** specifically, with its exact authors, title, and page range. AER: Insights articles
-> carry the **`10.1257/aeri…`** DOI stem (the journal launched 2019). Papers that could not be fully
-> verified as AER: Insights are **omitted** — this is deliberately a short, clean list rather than a long,
+> carry the **`10.1257/aeri...`** DOI stem (the journal launched 2019). Ambiguous candidate papers are
+> **omitted** — this is deliberately a short, clean list rather than a long,
 > uncertain one.
 >
 > **Sibling-confusion guard (do not misattribute).** AER: Insights is **not** any of these AEA / top-five
@@ -159,7 +159,7 @@ To keep the list zero-hallucination, the following were **excluded** after check
   Amaral, Dohmen, Kohl & Schularick on housing and interest rates; Gaduh, Hanna & Olken on corruption in
   social programs — are likewise verified on the issue page and may be added after reading each.)
 - **Many frequently-cited "AER: Insights-like" short papers** surfaced in general search were left off
-  because their **exact AER: Insights volume/issue/pages and `10.1257/aeri` DOI** could not be confirmed in
+  because their **exact AER: Insights volume/issue/pages and `10.1257/aeri` DOI** was not confirmed in
   one pass against an official issue page; add them only after reading the AEA article page and confirming
   the `10.1257/aeri` stem. **Sibling-confusion guardrail:** a short, single-result economics paper is *not*
   AER: Insights merely because it is short — many such papers are in the *AER* (`aer`), an *AEJ*

@@ -16,12 +16,12 @@ is **AER-level importance compressed into a short paper**. The whole pack is eng
 constraints: the **length cap** (≤7,000 words with no exhibits, minus 200 per exhibit, maximum five
 exhibits, abstract ≤100 words) and the **single-insight discipline** — everything secondary goes to the
 online Supplemental Appendix. It also encodes the journal's **fast, decisive review** (no traditional
-revise-and-resubmit; first decisions are conditional accept or reject) and the AEA submission portal, fees,
-JEL codes, and the AEA Data and Code Availability Policy.
+revise-and-resubmit; first decisions are conditional accept or reject), the AEA submission portal, fees,
+metadata/classifications, and the AEA Data and Code Availability Policy.
 
-**Official basis checked 2026-06** (检索于 2026-06；以官网为准): AEA / AER: Insights submission and
-editorial-policy pages, the editors page, and the AEA Data and Code Availability Policy. Sources and honest
-待核实 markers are in [`resources/official-source-map.md`](resources/official-source-map.md).
+**Official basis checked 2026-06-20:** AEA / AER: Insights submission, editorial-policy, editors,
+style-guide, accepted-article, JEL, and AEA Data and Code Availability pages. Sources and live-check
+items are in [`resources/official-source-map.md`](resources/official-source-map.md).
 
 ## Why a separate stack?
 
@@ -32,7 +32,7 @@ editorial-policy pages, the editors page, and the AEA Data and Code Availability
 | Lead-with-the-result writing | The answer (with SE/CI) appears in the first paragraph, not Section 4 |
 | No traditional R&R | First decision is conditional accept or reject — pre-empt objections **before** submitting |
 | Conditional accept (~8 weeks, usually no second referee round) | The revision is finishing, not relitigating |
-| AEA house presentation | **No significance asterisks**; standard errors / confidence sets; double-blind anonymization |
+| AEA house presentation | **Single-blind** review; title/byline/affiliations on the first page; no significance asterisks |
 | AEA Data & Code Availability Policy | openICPSR deposit verified by the AEA Data Editor **before** publication (appendix in scope) |
 
 ## Quick Start
@@ -70,7 +70,7 @@ aeri-topic-selection → aeri-literature-positioning → aeri-identification →
 | 8 | [`aeri-writing-style`](skills/aeri-writing-style/SKILL.md) | Lead with the result; enforce the word cap and the ≤100-word abstract |
 | 9 | [`aeri-replication-package`](skills/aeri-replication-package/SKILL.md) | Build the openICPSR deposit for the AEA Data Editor check |
 | 10 | [`aeri-referee-strategy`](skills/aeri-referee-strategy/SKILL.md) | Understand the fast, decisive review; pre-empt the objections short papers cannot survive |
-| 11 | [`aeri-submission`](skills/aeri-submission/SKILL.md) | Final preflight: word/exhibit gates, abstract, anonymization, JEL, fee, data policy |
+| 11 | [`aeri-submission`](skills/aeri-submission/SKILL.md) | Final preflight: word/exhibit gates, abstract, author metadata, fee, declarations, data policy |
 | 12 | [`aeri-rebuttal`](skills/aeri-rebuttal/SKILL.md) | Draft the concise conditional-accept response and revision plan |
 
 ## Resources

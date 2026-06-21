@@ -14,7 +14,7 @@ here serves the AER: Insights mandate: **one important idea, short, fast review*
 | [`exemplars/library.md`](exemplars/library.md) | Benchmark against **real, web-verified AER: Insights papers** organized by method × topic. Design positioning only — no fabricated numbers; includes a sibling-confusion guard vs. *AER* / *AEJ* / *QJE*. |
 | [reviewer-objection-checklist](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) | The objections referees actually raise, by identification strategy (DiD / IV / RDD / DML / matching / mechanism), each with its preemption. Critical here: AER: Insights has **no R&R**, so pre-empt before submitting. |
 | [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) | Modern inference + reporting table stakes: SE clustering, weak-IV diagnostics, multiple-testing, DiD/RDD reporting, reproducibility. |
-| [`official-source-map.md`](official-source-map.md) | Venue-specific facts (word/exhibit caps, fees, blinding, data policy, editor) with sourcing discipline. |
+| [`official-source-map.md`](official-source-map.md) | Venue-specific facts (word/exhibit caps, fees, single-blind review, data policy, editor) with sourcing discipline. |
 | [`external_tools.md`](external_tools.md) | External tools / packages relevant to short empirical, structural, and methodological work. |
 
 ## How to use

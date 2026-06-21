@@ -4,7 +4,7 @@ A self-check before submitting to *American Economic Review: Insights* (AER: Ins
 via the AEA online submission system. AER: Insights is a **short-format** journal:
 the length and exhibit gates are enforced **before review**, and papers that breach
 them are **returned unreviewed**. Re-confirm volatile items (fees, portal details,
-editor) on the official AEA pages (检索于 2026-06；以官网为准).
+editor) on the official AEA pages.
 
 ## 1. Single-insight fit
 - [ ] The paper makes **one** crisp, important, well-identified insight
@@ -26,13 +26,13 @@ editor) on the official AEA pages (检索于 2026-06；以官网为准).
 
 ## 4. Abstract & metadata
 - [ ] Abstract **≤100 words** and states the result
-- [ ] **JEL codes** and keywords provided
-- [ ] Title page / metadata complete per the portal
+- [ ] Keywords and JEL classifications prepared if the portal prompts for them
+- [ ] No separate title page; title, byline, and affiliations appear on the first page
 
-## 5. Anonymization (double-blind)
-- [ ] No author names in the manuscript
-- [ ] Acknowledgements / funding notes removed or anonymized
-- [ ] Self-citations phrased so they do not unmask authorship
+## 5. Author declarations and first-page metadata
+- [ ] Acknowledgement footnote includes emails, author-order statement, funding, personal acknowledgements, IRB details if applicable, and RCT registration if applicable
+- [ ] Separate disclosure statement prepared for each author
+- [ ] AI is not listed as an author; AI use disclosed during submission if applicable
 
 ## 6. Supplemental Appendix
 - [ ] Carries everything pushed out of the main text (extra results, proofs,
@@ -48,8 +48,7 @@ editor) on the official AEA pages (检索于 2026-06；以官网为准).
 
 ## 8. Fees & declarations
 - [ ] **Submission fee** ready for the correct member/income band (re-confirm amount)
-- [ ] Disclosure statement prepared; funding sources stated
-- [ ] AI is **not** listed as an author
+- [ ] Publication-fee implications understood for accepted papers
 - [ ] Paper is not under review at another journal
 
 ---

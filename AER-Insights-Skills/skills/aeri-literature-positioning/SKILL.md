@@ -19,7 +19,7 @@ AER: Insights gives you **no room for a survey**. Positioning must be done in **
 ## How to position in two paragraphs
 
 1. **Name the closest paper(s), not a field.** Identify the one or two papers a referee will immediately think of. Engage them directly: what did they establish, and what did they leave open or get wrong that your insight resolves?
-2. **State the delta as a single clause.** "We show X, where the closest prior work showed only Y / assumed Z / could not separate W." The delta must match the one-sentence insight from [`aeri-topic-selection`](../aeri-topic-selection/SKILL.md).
+2. **State the delta as a single clause.** "We show X, where the closest prior work showed only Y / assumed Z / left W unresolved." The delta must match the one-sentence insight from [`aeri-topic-selection`](../aeri-topic-selection/SKILL.md).
 3. **Defend novelty without inflation.** AER: Insights referees punish both "this is already known" and overclaiming. Calibrate: claim exactly the marginal contribution, no more.
 4. **Push the broad literature to the appendix or footnotes.** Tangential citations and related-strands discussion go to a footnote or the Supplemental Appendix, never an in-text section.
 
@@ -29,7 +29,7 @@ AER: Insights gives you **no room for a survey**. Positioning must be done in **
 |----------|------------------|-----------|
 | New result on an open question | "It was unknown whether …; we show …" | be sure it is genuinely open, not just unaddressed-by-you |
 | Overturning a believed result | "Prior work concluded X; with [better design/data] we find not-X" | engage the prior paper's design fairly |
-| Sharpening / separating channels | "Prior work could not separate A from B; we isolate …" | show the separation is the contribution |
+| Sharpening / separating channels | "Prior work left A and B bundled together; we isolate ..." | show the separation is the contribution |
 | Method that changes the answer | "Applying [method] to [setting] reverses the standard conclusion" | the payoff, not the method, is the contribution |
 
 ## Where positioning lives in the short paper
@@ -77,7 +77,7 @@ partly an information friction." One named antecedent, one delta clause, no surv
 
 ```
 【Closest prior work】<1–2 papers> — what they established / left open
-【Delta clause】"We show …, where prior work only … / assumed … / could not …"
+【Delta clause】"We show ..., where prior work only ... / assumed ... / left ... unresolved"
 【Novelty calibration】exact marginal contribution (no over/underclaim)
 【Where the rest goes】footnotes / Supplemental Appendix
 【Next step】aeri-identification (or aeri-theory-model for a theory paper)
