@@ -3,7 +3,7 @@
 > **Verified via web search, access date 2026-06-08.** Every paper below was checked against INFORMS
 > PubsOnLine article pages (`pubsonline.informs.org/doi/10.1287/msom...`) to confirm it actually
 > appeared in *Manufacturing & Service Operations Management* (M&SOM), with the `10.1287/msom` DOI stem.
-> Candidates that could not be confirmed *as M&SOM* were **omitted** and are documented below — this is
+> Candidate papers without an M&SOM placement were **omitted** and are documented below — this is
 > deliberately a short, clean list rather than a long, uncertain one.
 >
 > **Sibling-confusion guard.** M&SOM is **not** *Operations Research* (`10.1287/opre`), *Management
@@ -108,7 +108,7 @@ For each, ask the self-check question before claiming your paper is "M&SOM-shape
 
 ---
 
-## Omitted for sibling-confusion or lack of full verification (do not attribute to M&SOM without re-checking)
+## Omitted for sibling-confusion (do not attribute to M&SOM without re-checking)
 
 To keep the list zero-hallucination, the following are **excluded** after checking — several are
 canonical OM papers that are *not* in M&SOM:

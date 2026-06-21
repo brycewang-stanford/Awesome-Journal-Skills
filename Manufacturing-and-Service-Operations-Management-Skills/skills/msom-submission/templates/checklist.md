@@ -1,7 +1,8 @@
 # M&SOM Pre-Submission Checklist
 
-Verify current specifics on the official M&SOM submission-guidelines page before
-submitting. Items marked 待核实 must be confirmed live.
+Check the official M&SOM submission-guidelines page, editorial-board page, and
+ScholarOne screens before submitting. This checklist baseline was refreshed on
+2026-06-20.
 
 ## 1. Operations centrality
 
@@ -20,7 +21,7 @@ submitting. Items marked 待核实 must be confirmed live.
 - [ ] Typeset on the official **M&SOM LaTeX/Word template** (one column, 11-pt, 1-inch margins)
 - [ ] Main PDF **≤ 32 pages** including references, tables, figures, appendices
 - [ ] Online supplement **≤ 16 pages**
-- [ ] **Structured abstract ≤ 300 words**, all four parts, jargon-free
+- [ ] **Structured abstract ≤ 300 words**, all three required sections, jargon-free
 - [ ] INFORMS author-year citations; references ordered by first author + #authors + year (v1.6)
 
 ## 4. Department routing
@@ -35,7 +36,7 @@ submitting. Items marked 待核实 must be confirmed live.
 - [ ] Single anonymized **PDF** + online supplement uploaded
 - [ ] Cover letter: operations problem, contribution, fit, not under review elsewhere
 - [ ] Prior conference/working-paper versions disclosed
-- [ ] Fee status confirmed (treat as fee-free — 待核实)
+- [ ] ScholarOne payment screen reviewed; optional Open Option fee handled only if choosing OA
 
 ## 6. Data & code (replicability)
 

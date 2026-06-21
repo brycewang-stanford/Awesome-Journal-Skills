@@ -14,7 +14,7 @@ description: Use to understand how Manufacturing & Service Operations Management
 
 ## The editorial chain: department routing decides your fate
 
-M&SOM uses an **author-driven version of departmental routing**. You choose a primary **Department** and name **two preferred Department Editors**; the manuscript is then handled by a **Department Editor (DE)**, who assigns an **Associate Editor (AE)**, who recruits **referees**. The journal is organized into **six departments**: (1) Manufacturing & Supply Chain Operations, (2) Services, Platforms & Revenue Management, (3) Environment, Health & Society, (4) Operational Innovation, (5) Analytics in OM, and (6) a **Practice Platform**. Because the AE board is large (~119) and routing is by department, *matching the right department is as consequential as the paper's quality* — a misrouted paper meets the wrong expertise.
+M&SOM uses an **author-driven version of departmental routing**. You choose a primary **Department** and name **two preferred Department Editors**; the manuscript is then handled by a **Department Editor (DE)**, who assigns an **Associate Editor (AE)**, who recruits **referees**. The stable routing frame is organized around Manufacturing & Supply Chain Operations, Services/Platforms/Revenue Management, Environment/Health/Society, Operational Innovation, Analytics in OM, and Practice Platform; the current editorial-board page also lists AI in Operations and Outreach groups. Because routing is by department, *matching the right department is as consequential as the paper's quality* — a misrouted paper meets the wrong expertise.
 
 ## Double-anonymous review
 
@@ -28,7 +28,7 @@ Decisions weigh **importance, originality, clarity, validity, and relevance**, g
 - **Practice Platform** — a dedicated department for field-driven, practice-based OM.
 - **OM Grand Challenges (2026)** — SDG-aligned academic-practitioner proposals; accepted proposals presented at the 2026 MSOM Conference (12–14 July 2026) automatically advance into a second review cycle for a dedicated M&SOM special issue — a conference-to-journal fast-track.
 
-> Editor context: Georgia Perakis (MIT) is Editor-in-Chief since January 2021; her final term expires 31 December 2026 (successor to be named by 1 July 2026). Department-editor rosters rotate — verify the live editorial-board page. Acceptance rate is **待核实**.
+> Editor context: Georgia Perakis (MIT) is listed as Editor-in-Chief on the 2026-06-20 M&SOM pages; INFORMS announced that her final term expires 31 December 2026 and that the search committee aims to propose a successor by 1 July 2026. Check the editorial-board page before naming current DEs or AEs in a submission plan.
 
 ## Reading a decision letter
 

@@ -1,6 +1,6 @@
 ---
 name: msom-writing-style
-description: Use when polishing the prose of a Manufacturing & Service Operations Management (M&SOM) manuscript — front-loading the operational insight, controlling mathematical notation, writing the four-part structured abstract, and applying INFORMS author-year house style within the 32-page typeset cap. Late-stage polish; do not invoke before the model/identification is settled.
+description: Use when polishing the prose of a Manufacturing & Service Operations Management (M&SOM) manuscript — front-loading the operational insight, controlling mathematical notation, writing the structured abstract, and applying INFORMS author-year house style within the 32-page typeset cap. Late-stage polish; do not invoke before the model/identification is settled.
 ---
 
 # Writing Style (msom-writing-style)
@@ -18,7 +18,7 @@ M&SOM readers are operations researchers, but the journal prizes **clarity** and
 
 ## Write the mandatory structured abstract
 
-The abstract is **structured, ≤ 300 words, and free of technical jargon**, with four required subsections: **Problem definition**, **Methodology**, **Results**, and **Managerial implications**. Draft each as one or two plain sentences. The Managerial-implications subsection is required — never drop it or fill it with notation. (The exact middle-subsection wording is **待核实**; confirm verbatim on the official submission-guidelines page.)
+The abstract is **structured, ≤ 300 words, and free of technical jargon**, with three required subsections: **Problem definition**, **Methodology-results**, and **Managerial implications**. Draft each as one or two plain sentences. The Managerial-implications subsection is required — never drop it or fill it with notation.
 
 ## Control notation and structure
 
@@ -33,7 +33,7 @@ Use **INFORMS author-year (author-date)** in-text citations with cited pages whe
 ## Checklist
 
 - [ ] Introduction states problem/decision/insight in words before notation
-- [ ] Structured abstract: all four parts, ≤300 words, jargon-free
+- [ ] Structured abstract: all three required sections, ≤300 words, jargon-free
 - [ ] Notation defined on first use; minimal and consistent
 - [ ] Proofs moved to the supplement; intuition kept in the body
 - [ ] INFORMS author-year citations; reference order per style file v1.6
@@ -49,7 +49,7 @@ Use **INFORMS author-year (author-date)** in-text citations with cited pages whe
 
 ## Prose moves that pass M&SOM's clarity bar
 
-M&SOM weights clarity and managerial relevance alongside validity, so the prose is graded. Narrate the policy *form* before the theorem; defer notation rather than dumping symbols up front; turn a closing "implications for managers" nod into a specific decision rule; write the abstract in four plain-language subsections; and beat the page cap by cutting prose, never by shrinking the template. The test: a competent operations practitioner should grasp the decision, the insight, and the managerial takeaway *without parsing a single equation*.
+M&SOM weights clarity and managerial relevance alongside validity, so the prose is graded. Narrate the policy *form* before the theorem; defer notation rather than dumping symbols up front; turn a closing "implications for managers" nod into a specific decision rule; write the abstract in the required structured subsections; and beat the page cap by cutting prose, never by shrinking the template. The test: a competent operations practitioner should grasp the decision, the insight, and the managerial takeaway *without parsing a single equation*.
 
 ## Worked micro-example (illustrative)
 
@@ -58,13 +58,13 @@ Vignette: an analytical paper on dynamic capacity allocation for a cloud-computi
 ## Referee-pushback patterns and the venue fix
 
 - *"The introduction is impenetrable until I read the model."* → Move the operational insight to the first paragraph; defer notation.
-- *"The structured abstract is jargon-heavy or missing a part."* → Rewrite all four subsections in practitioner language; never drop managerial implications, and confirm the exact wording against the journal's author guidelines. Keep proofs in the supplement and intuition in the body, respecting the page cap by cutting prose, not formatting.
+- *"The structured abstract is jargon-heavy or missing a section."* → Rewrite the required subsections in practitioner language; never drop managerial implications. Keep proofs in the supplement and intuition in the body, respecting the page cap by cutting prose, not formatting.
 
 ## Output format
 
 ```
 【Intro】operational insight stated before notation? ...
-【Structured abstract】four parts present; ≤300 words; jargon-free ...
+【Structured abstract】three required sections present; ≤300 words; jargon-free ...
 【Notation】defined / minimal / consistent ...
 【Proofs】in ≤16-page supplement; intuition in body ...
 【Style & cap】INFORMS author-year; within 32 typeset pages ...

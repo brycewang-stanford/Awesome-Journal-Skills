@@ -20,7 +20,7 @@ Plan from the **Department Editor and Associate Editor** signals first — in M&
 
 - **Analytical:** generalize or relax a binding assumption and show the policy structure survives (or characterize when it does not); add comparative statics; expand the **numerical study** to quantify magnitudes versus benchmarks and stress assumptions; move heavy proofs to the **≤16-page supplement**.
 - **Empirical:** shore up identification (additional instruments, event-study/parallel-trends evidence, placebo/falsification tests), treat endogenous operational decisions, and report effects in operational magnitudes.
-- **Both:** sharpen the **managerial implication** and confirm the operations decision is still central; keep the four-part structured abstract aligned with the revised results.
+- **Both:** sharpen the **managerial implication** and confirm the operations decision is still central; keep the structured abstract aligned with the revised results.
 
 ## Watch the constraints while revising
 

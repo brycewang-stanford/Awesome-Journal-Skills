@@ -87,27 +87,24 @@ at the end.
 
 ---
 
-## The structured abstract (M&SOM's four required parts)
+## The structured abstract (M&SOM's required sections)
 
 `msom-writing-style` and `msom-contribution-framing` require a **structured abstract, ≤ 300 words,
-free of technical jargon**, with four parts. For the fictional paper:
+free of technical jargon**, with three required sections. For the fictional paper:
 
 - **Problem definition.** A same-day delivery operator must repeatedly decide whether to dispatch a
   partly loaded van now or hold it to consolidate the next order, trading delay cost against routing
   savings.
-- **Methodology.** We model the decision as a stochastic control problem with random order arrivals and
-  a convex holding-cost penalty and characterize the optimal policy analytically, then evaluate it in a
-  calibrated numerical study.
-- **Results.** The optimal policy is a state-dependent threshold on loaded parcels that decreases in
-  elapsed holding time and increases in the arrival rate; it captures most of the savings of a fully
+- **Methodology-results.** We model the decision as a stochastic control problem with random order
+  arrivals and a convex holding-cost penalty, characterize the optimal policy analytically, and show in a
+  calibrated numerical study that the resulting threshold captures most of the savings of a fully
   dynamic policy without breaching delivery promises.
 - **Managerial implications.** Operators can run real-time dispatching as a posted, age-adjusted cutoff
   table — tuning one threshold rather than re-optimizing — and the comparative statics prescribe how to
   retune it as demand or service promises change.
 
-> The exact verbatim wording of the four middle subsection headers is **待核实 / TO VERIFY** against the
-> official M&SOM submission-guidelines page (see [`../official-source-map.md`](../official-source-map.md));
-> the four-part *content* is what `msom-writing-style` requires.
+> See [`../official-source-map.md`](../official-source-map.md) for the 2026-06-20 author-guideline source
+> behind the structured-abstract headings.
 
 ---
 

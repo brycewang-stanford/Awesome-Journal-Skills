@@ -1,6 +1,6 @@
 ---
 name: msom-submission
-description: Use when running the final pre-submission preflight for a Manufacturing & Service Operations Management (M&SOM) manuscript — the ScholarOne portal, double-anonymous anonymization, the 32-page typeset cap on the official template, the four-part structured abstract, author-chosen Department routing with two preferred Department Editors, and data/code disclosure. Checks readiness to submit; it does not handle the post-decision response (msom-rebuttal).
+description: Use when running the final pre-submission preflight for a Manufacturing & Service Operations Management (M&SOM) manuscript — the ScholarOne portal, double-anonymous anonymization, the 32-page typeset cap on the official template, the structured abstract, author-chosen Department routing with two preferred Department Editors, and data/code disclosure. Checks readiness to submit; it does not handle the post-decision response (msom-rebuttal).
 ---
 
 # Pre-Submission Preflight (msom-submission)
@@ -12,18 +12,18 @@ description: Use when running the final pre-submission preflight for a Manufactu
 - Need to confirm double-anonymous anonymization is complete
 - Verifying the manuscript fits the 32-page typeset cap on the official template
 
-> Always re-verify current limits, fees, department rosters, and required files on the official M&SOM submission-guidelines page before submitting — specifics change. As of 2026-06-01 the key specs are below; items marked 待核实 must be confirmed live.
+> Before submitting, check the official M&SOM submission-guidelines page, editorial-board page, and ScholarOne screens for the live upload fields, payment step, and editor rosters. The baseline below was checked on 2026-06-20.
 
 ## Verified M&SOM specs (confirm current values)
 
 - **Length:** **32-page maximum** for a new submission, **including** all references, tables, graphs/figures, and appendices, typeset on the official **M&SOM LaTeX/Word style files** (one column, **11-point** font, **1-inch** margins on all sides). **Online supplement ≤ 16 pages** for new submissions.
-- **Abstract:** **structured, ≤ 300 words**, no technical jargon, with four subsections — **Problem definition / Methodology / Results / Managerial implications** (exact middle-subsection wording **待核实**).
+- **Abstract:** **structured, ≤ 300 words**, no technical jargon, with three subsections — **Problem definition / Methodology-results / Managerial implications**.
 - **Submission portal:** ScholarOne Manuscripts at **mc.manuscriptcentral.com/msom**; submit as a **single PDF**.
 - **Department routing:** choose a primary editorial **Department** and name **two preferred Department Editors**. The Manufacturing-and-Supply-Chain rule applies — if that department is chosen, the **first** DE choice must be from it and the **second** from a different department.
 - **Review:** **double-anonymous** — author identities are known only to the EIC, Department Editor, Associate Editor, and editorial staff; remove names, institutions, and acknowledgments from the manuscript.
 - **Style:** **INFORMS author-year (author-date)** citations; reference list ordered by first author, number of authors, then year (INFORMS style file v1.6).
 - **Data & code:** manuscripts must permit replication; be prepared to share raw data on request and to retain it; provide your own code plus access/linking instructions for licensed data (Census, Compustat, CRSP, FactSet, WRDS).
-- **Fees:** treat M&SOM as **fee-free** but **待核实** — there is no direct official statement; the inference is that Management Science is the INFORMS journal charging a submission fee. Confirm on the live submission page.
+- **Fees:** M&SOM author guidelines list an optional **USD 3,000 INFORMS Open Option** fee after acceptance and do not list a regular submission fee on the checked page; treat payment as a ScholarOne-screen check, not a manuscript-design assumption.
 
 ## Pre-submission checklist
 
@@ -39,7 +39,7 @@ description: Use when running the final pre-submission preflight for a Manufactu
 - [ ] Typeset on the official **M&SOM LaTeX/Word template**: one column, 11-pt, 1-inch margins
 - [ ] Main submission **≤ 32 pages** including references, tables, figures, appendices
 - [ ] Online supplement **≤ 16 pages** (full proofs, extra numerical studies, notation table)
-- [ ] **Structured abstract** ≤ 300 words with all four required parts, jargon-free
+- [ ] **Structured abstract** ≤ 300 words with all three required sections, jargon-free
 - [ ] INFORMS author-year citations; reference order per style file v1.6
 
 ### Routing & files for ScholarOne
@@ -61,7 +61,7 @@ description: Use when running the final pre-submission preflight for a Manufactu
 - Submitting with self-identifying language ("in our 2019 study") intact.
 - Choosing a Department the paper does not actually fit, or ignoring the M&SC first/second rule.
 - Letting references/appendices push the typeset manuscript past 32 pages.
-- A structured abstract missing the Managerial-implications part.
+- A structured abstract missing the Managerial-implications section.
 - Reference list in a non-INFORMS style straight from the reference manager.
 
 ## Output format
@@ -80,4 +80,4 @@ description: Use when running the final pre-submission preflight for a Manufactu
 - [`templates/manuscript_template.md`](templates/manuscript_template.md) — M&SOM manuscript skeleton (structured abstract, model/design, results, numerical/empirical study, managerial insights, references) with verified specs
 - [`templates/checklist.md`](templates/checklist.md) — pre-submission self-check (anonymization / format / routing / files / data-code)
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — OM modeling/solver and empirical tools (Gurobi / CPLEX / Stata / Python)
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official INFORMS/M&SOM URLs behind every fact (accessed 2026-06-01)
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official INFORMS/M&SOM URLs behind every fact (accessed 2026-06-20)

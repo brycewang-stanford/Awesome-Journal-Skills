@@ -15,7 +15,7 @@ Agent skill stack for manuscripts targeted at **Manufacturing & Service Operatio
 
 This repository is opinionated. It is **not** a generic "OR writing" toolbox. It is an **M&SOM-specific** stack built around M&SOM's defining gate: an **operations decision or problem must be central to the contribution**, executed at top-tier rigor — whether the work is **analytical/stochastic modeling** (optimization, queueing, stochastic models, game theory, revenue management) or **rigorous empirical OM / data-driven analytics**. It covers OM-centered topic selection, model and mechanism development, literature positioning, methodology and identification, analysis and replicability, contribution framing, INFORMS house-style exhibits and prose, the author-routed Department-Editor ScholarOne submission, the double-anonymous review process, and R&R rebuttals.
 
-> Durable norms only. Editors, fees, department rosters, and exact page/abstract limits change — always verify on the official M&SOM submission-guidelines page and the INFORMS style files. Items we could not confirm by direct fetch are flagged **待核实**.
+> Durable norms only. Editors, department rosters, portal payment prompts, and special-track dates move over time; check the official M&SOM submission-guidelines page, editorial-board page, and INFORMS style files before an actual submission.
 
 ---
 
@@ -32,7 +32,7 @@ M&SOM imposes constraints that differ materially from theory-only management jou
 | Review                  | **Double-anonymous**; DE → AE → referees                   | Strict anonymization; DE/AE priorities lead                       |
 | Length                  | **32-page typeset cap** incl. references/tables/figures/appendices | Mechanically enforced on the official template; exhibits cost pages |
 | Supplement              | **≤ 16-page** online supplement                            | Proofs and extra studies live here                                |
-| Abstract                | **Structured, ≤ 300 words**, four required parts           | Managerial implications is a required section, not framing        |
+| Abstract                | **Structured, ≤ 300 words**, three required sections       | Managerial implications is a required section, not framing        |
 | Style                   | INFORMS author-year (style file v1.6)                      | Not APA; reference ordering is specific                           |
 | Replicability           | INFORMS data/code disclosure; licensed-data access instructions | Be ready to share/retain data; ship code for licensed sources  |
 
@@ -110,7 +110,7 @@ msom-rebuttal
 | `msom-literature-positioning` | Joining the OM conversation; routing to the right Department                   |
 | `msom-methods`                | Matching solution/identification to the operations decision                   |
 | `msom-data-analysis`          | Proofs + numerical studies; identified effects; INFORMS replicability policy  |
-| `msom-contribution-framing`   | Explicit operational insight + four-part structured abstract                  |
+| `msom-contribution-framing`   | Explicit operational insight + M&SOM structured abstract                      |
 | `msom-tables-figures`         | Policy/sensitivity and results exhibits in INFORMS style within the page cap  |
 | `msom-writing-style`          | Lead with the insight; control notation; INFORMS author-year; 32-page cap     |
 | `msom-submission`             | ScholarOne preflight: anonymization, template, Department routing, data/code  |
@@ -122,7 +122,7 @@ msom-rebuttal
 - [`skills/msom-submission/templates/manuscript_template.md`](skills/msom-submission/templates/manuscript_template.md) — M&SOM manuscript skeleton
 - [`skills/msom-submission/templates/checklist.md`](skills/msom-submission/templates/checklist.md) — pre-submission self-check
 - [`resources/external_tools.md`](resources/external_tools.md) — OM modeling/solver tools (Gurobi / CPLEX / MOSEK / AMPL / Pyomo / JuMP), simulation (AnyLogic / SimPy), and empirical OM (Stata / R / Python causal-inference)
-- [`resources/official-source-map.md`](resources/official-source-map.md) — official INFORMS/M&SOM URLs behind every fact (accessed 2026-06-01)
+- [`resources/official-source-map.md`](resources/official-source-map.md) — official INFORMS/M&SOM URLs behind every fact (accessed 2026-06-20)
 
 ---
 
@@ -132,7 +132,7 @@ msom-rebuttal
 - **Author-routed six departments** — Manufacturing & Supply Chain Operations; Services, Platforms & Revenue Management; Environment, Health & Society; Operational Innovation; Analytics in OM; and a **Practice Platform**. You name two preferred Department Editors (with a Manufacturing-and-Supply-Chain first/second rule).
 - **Practice & perspective tracks** — a dedicated Practice Platform plus **OM Forum** banner pieces institutionalize field-driven and thought-leadership OM.
 - **Hard 32-page typeset cap** counting *everything*, plus a separate **16-page** online supplement — stricter and more mechanical than narrative word-limit journals.
-- **Mandatory four-part structured abstract** (Problem definition / Methodology / Results / Managerial implications), ≤ 300 words, jargon-free.
+- **Mandatory structured abstract** (Problem definition / Methodology-results / Managerial implications), ≤ 300 words, jargon-free.
 - **Society-and-conference coupling** — sponsored by the MSOM Society and tied to the MSOM Conference, with the **OM Grand Challenges (2026)** conference-to-journal special-issue fast-track.
 
 ---
@@ -144,7 +144,7 @@ msom-rebuttal
 | Core contribution  | Operations decision is **central**     | Broad OR/management         | Method/model can be the point  | OM, broad                    |
 | Methods            | Analytical **and** empirical OM        | Many, incl. OM department   | OR methodology                 | Analytical & empirical OM    |
 | Publisher/society  | INFORMS / MSOM Society                  | INFORMS                     | INFORMS                        | POMS / Wiley                 |
-| Submission fee     | Fee-free (待核实)                       | $79 fee (from Aug 2025)     | INFORMS                        | Verify                       |
+| Regular submission fee | Not listed on M&SOM author guidelines; check ScholarOne payment screen | $79 fee (from Aug 2025) | INFORMS | Varies by journal |
 
 If an operations decision is not the centerpiece, M&SOM is the wrong venue.
 

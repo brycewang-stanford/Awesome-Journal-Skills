@@ -1,6 +1,6 @@
 ---
 name: msom-contribution-framing
-description: Use when turning analytical or empirical results into an explicit operations contribution for a Manufacturing & Service Operations Management (M&SOM) manuscript — stating the managerial implication, the new operational insight, and why an operations decision is central, including the four-part structured-abstract framing M&SOM requires.
+description: Use when turning analytical or empirical results into an explicit operations contribution for a Manufacturing & Service Operations Management (M&SOM) manuscript — stating the managerial implication, the new operational insight, and why an operations decision is central, including the structured-abstract framing M&SOM requires.
 ---
 
 # Contribution Framing (msom-contribution-framing)
@@ -18,7 +18,7 @@ M&SOM judges manuscripts on **importance, originality, clarity, validity, and re
 
 ## Managerial relevance is a required, sectioned component
 
-M&SOM requires a **four-part structured abstract** (≤ 300 words, no technical jargon): **Problem definition**, **Methodology**, **Results**, and **Managerial implications**. Managerial relevance is therefore not optional framing — it is an explicitly sectioned deliverable. Write the contribution paragraph and the abstract so each of the four parts is answerable in one or two plain-language sentences a practitioner could follow.
+M&SOM requires a **structured abstract** (≤ 300 words, no technical jargon): **Problem definition**, **Methodology-results**, and **Managerial implications**. Managerial relevance is therefore not optional framing — it is an explicitly sectioned deliverable. Write the contribution paragraph and the abstract so each required section is answerable in one or two plain-language sentences a practitioner could follow.
 
 ## Route the contribution to the right Department
 
@@ -29,7 +29,7 @@ Frame the contribution in the vocabulary of your target Department (supply chain
 - [ ] One sentence: the operational decision this paper changes and how
 - [ ] Analytical: policy structure + actionable comparative statics stated
 - [ ] Empirical: identified effect + the operational policy it implies stated
-- [ ] Structured abstract drafted with all four parts, ≤300 words, jargon-free
+- [ ] Structured abstract drafted with all three required sections, ≤300 words, jargon-free
 - [ ] Contribution framed in the target Department's terms
 - [ ] Operations centrality reaffirmed (not a method-only contribution)
 
@@ -54,7 +54,7 @@ Run this as a concrete capability pass. First lock the process bottleneck, decis
 
 The premium clause M&SOM rewards is the **managerial insight that survives the model** — a sentence a department editor can repeat to a practitioner.
 
-Vignette: a staffing model for a hospital emergency department where physicians flex between fast-track and main-track queues. Suppose the numerical study reports — illustratively — that flexing 15% of physician-hours cuts the 90th-percentile wait from 48 to 31 minutes at equal headcount. Through the contribution rules: the **decision changed** is the roster split between dedicated and flexible hours; the **insight** is that the optimal flex share *rises in arrival-rate asymmetry between tracks*; the **managerial sentence** — "hold about an eighth of capacity flexible when loads diverge" — slots into the abstract's fourth part.
+Vignette: a staffing model for a hospital emergency department where physicians flex between fast-track and main-track queues. Suppose the numerical study reports — illustratively — that flexing 15% of physician-hours cuts the 90th-percentile wait from 48 to 31 minutes at equal headcount. Through the contribution rules: the **decision changed** is the roster split between dedicated and flexible hours; the **insight** is that the optimal flex share *rises in arrival-rate asymmetry between tracks*; the **managerial sentence** — "hold about an eighth of capacity flexible when loads diverge" — slots into the Managerial-implications section.
 
 ## Referee-pushback patterns and the venue fix
 
@@ -67,7 +67,7 @@ Vignette: a staffing model for a hospital emergency department where physicians 
 【Operational decision changed】...
 【Structure / identified effect】...
 【Managerial implication】plain language ...
-【Structured abstract】Problem / Methodology / Results / Managerial implications (≤300 words)
+【Structured abstract】Problem definition / Methodology-results / Managerial implications (≤300 words)
 【Department fit】...
 【Next step】msom-tables-figures
 ```

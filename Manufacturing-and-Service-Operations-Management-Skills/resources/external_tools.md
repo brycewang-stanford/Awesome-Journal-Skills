@@ -6,8 +6,8 @@ commonly used when preparing a **Manufacturing & Service Operations Management
 (optimization, queueing, stochastic models, game theory, revenue management) and
 **rigorous empirical OM / data-driven analytics**, so the toolkit spans both
 traditions. The non-negotiable common thread: an **operations decision/problem must be
-central** to the contribution. Always verify current INFORMS/M&SOM policies and license
-terms before using any resource.
+central** to the contribution. Check INFORMS/M&SOM policies and license terms before
+using any resource.
 
 ## 1. Analytical / Optimization Modeling
 
@@ -71,7 +71,7 @@ The page count is **typeset against the official template** (one column, 11-pt, 
 - **Submission portal**: ScholarOne Manuscripts at `mc.manuscriptcentral.com/msom` — single PDF.
 - **Department routing**: you choose a primary editorial Department and name **2 preferred Department Editors**; respect the Manufacturing-and-Supply-Chain first/second-choice rule.
 - **Double-anonymous**: remove all author names, affiliations, and acknowledgments from the manuscript PDF.
-- **Structured abstract**: ≤ 300 words with Problem definition / Methodology / Results / Managerial implications.
+- **Structured abstract**: ≤ 300 words with Problem definition / Methodology-results / Managerial implications.
 
 ## 5. Reproducibility & Transparency
 

@@ -4,8 +4,8 @@
 > **32-page cap includes references, tables, figures, and appendices**, typeset at
 > one column, 11-pt, 1-inch margins. Push proofs and extra studies to the **online
 > supplement (≤ 16 pages)**. Submit a single anonymized PDF via
-> mc.manuscriptcentral.com/msom. Verify all current specs on the official
-> submission-guidelines page (some figures are 待核实).
+> mc.manuscriptcentral.com/msom. Check the official submission-guidelines page
+> and ScholarOne screens before final upload.
 
 ---
 
@@ -20,8 +20,7 @@
 ## Structured abstract (≤ 300 words, no technical jargon)
 
 - **Problem definition:** the operational decision/problem studied.
-- **Methodology:** analytical model class or empirical identification strategy. *(exact label 待核实)*
-- **Results:** the structural result or identified effect, with magnitude.
+- **Methodology-results:** analytical model class or empirical identification strategy, followed by the structural result or identified effect with magnitude.
 - **Managerial implications:** what an operations manager should do differently.
 
 Keywords / history: prior conference or working-paper versions disclosed in the cover letter.
