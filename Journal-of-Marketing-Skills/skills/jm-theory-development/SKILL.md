@@ -14,7 +14,7 @@ description: Use when building the conceptual logic for a Journal of Marketing (
 
 ## JM's theory stance: serve the substantive question
 
-Unlike theory-first flagships, JM does not reward theoretical machinery for its own sake. Its bar is **substantive insight into a real marketing question**. Theory in a JM paper earns its place by **explaining a consequential marketing phenomenon** and yielding predictions that, when tested, change how managers, policy makers, or society understand the market. The new editorial "Big Ideas" platform explicitly pushes back on complexity that crowds out topic importance (待核实 — editorial paywalled), so build the *minimum sufficient* conceptual structure that makes the phenomenon intelligible and the predictions sharp.
+Unlike theory-first flagships, JM does not reward theoretical machinery for its own sake. Its bar is **substantive insight into a real marketing question**. Theory in a JM paper earns its place by **explaining a consequential marketing phenomenon** and yielding predictions that, when tested, change how managers, policy makers, or society understand the market. The official editorial guidelines frame JM as a bridge between scholarly and practical stakes, so build the *minimum sufficient* conceptual structure that makes the phenomenon intelligible and the predictions sharp.
 
 ## Two legitimate routes into JM
 

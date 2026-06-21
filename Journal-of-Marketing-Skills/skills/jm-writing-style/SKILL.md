@@ -14,7 +14,7 @@ description: Use when polishing the prose of a Journal of Marketing (JM) manuscr
 
 ## Write for JM's audience: scholarly *and* practical
 
-JM is a **general-audience** journal whose readers include scholars, educators, managers, policy makers, consumers, and other societal stakeholders. Its mission is to be a **bridge between the scholarly and the practical**. So the prose must make a substantive marketing question and its managerial stakes legible to a broad reader — not only to specialists in your subarea. Lead with the **phenomenon and the question**, make the **managerial relevance** visible early, and keep the conceptual and statistical machinery in service of the substantive story. The new editorial "Big Ideas" stance discourages "unnecessarily complex" presentation that crowds out the importance of the topic (待核实 — editorial paywalled); write for clarity and consequence.
+JM is a **general-audience** journal whose readers include scholars, educators, managers, policy makers, consumers, and other societal stakeholders. Its mission is to be a **bridge between the scholarly and the practical**. So the prose must make a substantive marketing question and its managerial stakes legible to a broad reader — not only to specialists in your subarea. Lead with the **phenomenon and the question**, make the **managerial relevance** visible early, and keep the conceptual and statistical machinery in service of the substantive story. Write for clarity and consequence: complex analysis belongs only where it advances the real-world marketing insight.
 
 ## Front-load the argument
 

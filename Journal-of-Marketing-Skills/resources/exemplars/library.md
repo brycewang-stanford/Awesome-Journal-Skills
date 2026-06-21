@@ -2,7 +2,7 @@
 
 > **Verified via web search, access date 2026-06-07.** Every paper below was checked to confirm it
 > actually appeared in the **Journal of Marketing** (the American Marketing Association / SAGE flagship),
-> with year, volume, and pages, via the SAGE article page (`journals.sagepub.com`). Papers that could not
+> with year, volume, and pages, via the SAGE article page (`journals.sagepub.com`). Papers that were not
 > be fully verified *as Journal of Marketing* were **omitted** — this is deliberately a short, clean list
 > rather than a long, uncertain one.
 >
@@ -116,7 +116,7 @@ and
 
 To protect the sibling-confusion guard, **only papers individually confirmed on the SAGE Journal of
 Marketing article page are listed above.** Candidate landmark papers were *excluded* whenever web search
-could not cleanly confirm a **Journal of Marketing** (not JMR / Marketing Science / JCR / JAMS / JCP)
+did not cleanly confirm a **Journal of Marketing** (not JMR / Marketing Science / JCR / JAMS / JCP)
 placement with matching volume/issue. In particular:
 
 - Highly cited marketing papers frequently sit in **JMR or Marketing Science**, whose titles and author

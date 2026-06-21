@@ -15,7 +15,7 @@ Agent skill stack for manuscripts targeted at the **Journal of Marketing (JM)** 
 
 This repository is opinionated. It is **not** a generic "marketing writing" toolbox. It is a **JM-specific** stack built around JM's defining bar: **the most impactful, thought-leading substantive research in the marketing discipline**, with genuine **managerial, policy, and societal relevance**. It covers substantive topic selection, theory grounded in real-world marketing phenomena, literature positioning, JM's "big tent" / **empirics-first** empirical methods, exact-statistics data analysis with JM Dataverse replication, managerial-relevance contribution framing, AMA house-style exhibits and prose, ScholarOne (Sage Track) submission, the double-anonymized review process, and multi-round R&R rebuttals.
 
-> Durable norms only. Editors, fees, exact page/format limits, and policies change — always verify on the official JM submission guidelines and AMA editorial pages. Items not directly verified are marked **待核实**.
+> Durable norms only. Editor rosters, portal prompts, fee/OA language, and transparency workflows change — run the source-map live checks against the official JM/SAGE/AMA pages before upload.
 
 ---
 
@@ -35,6 +35,7 @@ JM imposes constraints that differ materially from theory-driven, modeling-heavy
 | Length                  | Hard **50-page** limit inclusive of everything except web appendices | Tables, figures, references, print appendices all count         |
 | Transparency            | Replication packet to **JM Dataverse** at conditional acceptance     | Data + code (or qualitative materials) Editor-accessible, reviewer-blind |
 | Process                 | ScholarOne (Sage Track); double-anonymized; handling Editor decides  | Manuscripts must be fully anonymized                            |
+| Fees                    | No fees payable to submit or publish in the subscription route; optional OA via Sage Choice may carry a fee | Budget only after checking the live SAGE/OA prompts |
 
 Generic "scientific writing" or "social-science methods" packs do not address these constraints.
 
@@ -119,7 +120,7 @@ jm-rebuttal
 ### Resources
 
 - [`resources/external_tools.md`](resources/external_tools.md) — marketing-research data (NielsenIQ / Circana / Prolific / Qualtrics / Sawtooth / field-experiment partners) and analysis software (R lavaan / PROCESS / Stata reghdfe / DiD / choice models)
-- [`resources/official-source-map.md`](resources/official-source-map.md) — official AMA/JM URLs behind every verified fact (accessed 2026-06-01); unverified items marked 待核实
+- [`resources/official-source-map.md`](resources/official-source-map.md) — official AMA/SAGE/JM URLs behind every verified fact (accessed 2026-06-20) and live-check items
 
 ---
 

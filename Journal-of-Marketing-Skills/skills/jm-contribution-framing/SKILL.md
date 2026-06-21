@@ -25,7 +25,7 @@ Write both explicitly in the introduction and revisit them in the discussion. If
 
 For the predictable reviewer challenge, prepare a one-sentence answer to each:
 
-- *"We already knew this."* → What is new, surprising, or decision-changing that prior work could not have told us?
+- *"We already knew this."* → What is new, surprising, or decision-changing beyond what prior work already told us?
 - *"You just changed the setting."* → What about the **mechanism, magnitude, or boundary** is genuinely different — not merely the industry/country/platform?
 - *"So what for practice?"* → Which decision changes, for whom, and how large is the gain?
 

@@ -1,52 +1,55 @@
 # Journal of Marketing — Official Source Map
 
 Canonical sources for verifying every JM-specific claim made in this skill pack.
-Sources were searched and corroborated on **2026-06-01**. Several official AMA and
-SAGE pages return HTTP 403 to automated fetchers, so some SAGE-specific facts are
-corroborated through AMA pages and search results rather than a direct scrape of
-the SAGE author-instructions page. Time-sensitive items (current Editor in Chief,
-fees, term dates, indexing status) are flagged **待核实 (to be verified)** where an
-official page could not be directly confirmed.
+Sources were rendered and checked on **2026-06-20**. Use this map as a provenance
+ledger; before upload, reopen the current SAGE/AMA submission pages because portal
+prompts, fee language, editor rosters, and transparency workflows can change.
 
-## Source table
+## Official AMA and SAGE pages
 
 | # | URL | What it verifies | Accessed |
 | --- | --- | --- | --- |
-| 1 | https://www.ama.org/submission-guidelines-journal-of-marketing/ | JM submission: ScholarOne site mc.manuscriptcentral.com/ama_jm; online submission only; double-spaced 12-pt Times New Roman; 1-inch margins; no page/line numbers/headers/footers; report actual p-values, standard errors, and effect sizes; manuscripts anonymized | 2026-06-01 |
-| 2 | https://www.ama.org/submission-guidelines-american-marketing-association-journals/ | 50-page limit inclusive of title, abstract, keywords, text, footnotes, references, tables, figures, and print appendices (web appendices excluded); abstract ≤ 200 words; minimum 3 keywords; author-date citations; iThenticate screening; Data Availability Statement required | 2026-06-01 |
-| 3 | https://www.ama.org/ama-journals-editorial-policies-procedures/ | All AMA journals use a double-anonymized review process; handling Editor is final decision authority; authors must provide data/materials to replicate and validate results before final acceptance; conflict-of-interest rules | 2026-06-01 |
-| 4 | https://www.ama.org/editorial-guidelines-journal-of-marketing/ | JM mission (knowledge about real-world marketing questions useful to scholars, educators, managers, policy makers, consumers, societal stakeholders); "most impactful, thought-leading substantive research" criterion; "big tent" on data; out-of-scope: general-management, methods-dominated, and incremental/replication-only work | 2026-06-01 |
-| 5 | https://www.ama.org/editorial-leadership-journal-of-marketing/ | Editor in Chief Jan-Benedict E.M. Steenkamp (UNC Kenan-Flagler); Coeditors Marc Fischer (Cologne), Kelly L. Haws (Vanderbilt), Maura L. Scott (Arizona State), Rebecca J. Slotegraaf (Indiana) | 2026-06-01 |
-| 6 | https://www.ama.org/journal-of-marketing-policy-for-research-transparency/ | JM Research Transparency Policy: replication packet (raw data, analysis programs/scripts, qualitative materials) deposited to JM Dataverse at conditional acceptance; Editor-accessible, reviewer-blind; applies to conditionally accepted revisions of manuscripts submitted on/after 2023-01-01; preregistration encouraged via anonymized links + author attestation | 2026-06-01 |
-| 7 | https://www.ama.org/research-transparency-policy/ | AMA Journals Research Transparency Policy approved 2025-06-11, effective 2025-08-01 across AMA journals | 2026-06-01 |
-| 8 | https://www.eurekalert.org/news-releases/1062398 | Steenkamp's three-year term as JM Editor in Chief began 2025-07-01, succeeding Shrihari Sridhar | 2026-06-01 |
-| 9 | https://www.ama.org/2025/04/14/call-for-papers-journal-of-marketing-special-issue-on-empirics-first/ | JM Special Issue Call for Papers on Empirics First — editorial promotion of empirics-first substantive research | 2026-06-01 |
+| 1 | https://www.ama.org/submission-guidelines-american-marketing-association-journals/ | AMA journal submission guidelines: ScholarOne sites; online-only submissions; 12-point Times New Roman or 12-point LaTeX font; double-spaced text; 1-inch margins; no page numbers, line numbers, headers, or footers; 50-page maximum inclusive of title, abstract, keywords, text, footnotes, references, tables, figures, and print appendices; web appendices excluded; double-anonymized file split; title page contents; iThenticate screening; AI disclosure; abstract, keywords, reference style, tables, figures, web appendices, exact p-values, SEs, and effect sizes. | 2026-06-20 |
+| 2 | https://journals.sagepub.com/author-instructions/JMX | SAGE Journal of Marketing author instructions: Submit Manuscript link; Access = Subscription; preprints accepted; identity transparency = double anonymized; no fees payable to submit or publish; optional Sage Choice OA for a fee; no-fee statement excludes optional OA and separate page/color charges; article types; unstructured 200-word abstract; minimum 3 keywords; fully anonymized manuscript and separate title page; Statements and Declarations; data availability; research transparency; exact p-values, no asterisks, SEs, effect sizes; Sage Track submission; ORCID encouragement before acceptance. | 2026-06-20 |
+| 3 | https://journals.sagepub.com/home/jmx | SAGE journal home: Journal of Marketing mission, AMA mark, Impact Factor / 5-Year Impact Factor display, COPE membership, ISSN 0022-2429 / Online ISSN 1547-7185, OnlineFirst/current article navigation, and resources links to submission guidelines and transparency policy. | 2026-06-20 |
+| 4 | https://www.ama.org/ama-journals-editorial-policies-procedures/ | AMA editorial policies: double-anonymized review as AMA policy; conflict-of-interest rules; rejected manuscripts not eligible for further consideration unless revision is explicitly allowed; misconduct/plagiarism procedures; editor authority over overlap and related-work questions. | 2026-06-20 |
+| 5 | https://www.ama.org/editorial-guidelines-journal-of-marketing/ | JM mission and editorial objective: real-world marketing questions useful to scholars, educators, managers, policy makers, consumers, and societal stakeholders; premier outlet for substantive marketing scholarship; "most impactful, thought-leading substantive research"; bridge between scholarly and practical; broad method/topic stance; conceptual and empirical article expectations; empirical "big tent" across primary, qualitative, experimental, field, survey, observational, and secondary data; generalizable insights and substantively important marketing questions. | 2026-06-20 |
+| 6 | https://www.ama.org/editorial-leadership-journal-of-marketing/ | Editorial leadership: Jan-Benedict E.M. Steenkamp as Editor in Chief; Coeditors Marc Fischer, Kelly L. Haws, Maura L. Scott, and Rebecca J. Slotegraaf, with affiliations shown on the page. | 2026-06-20 |
+| 7 | https://www.ama.org/journal-of-marketing-policy-for-research-transparency/ | JM Research Transparency Policy: conditionally accepted numerical/computational papers must provide data, programs, and details sufficient to replicate analyses; policy applies to conditionally accepted revisions associated with new manuscripts submitted on or after 2023-01-01; authors propose alternative disclosure plans at initial submission for proprietary/sensitive/embargoed/high-investment data; conditionally accepted authors submit replication packets to JM's Dataverse; packet access by processing Editor, not reviewers; anonymized links allowed; preregistration guidance. | 2026-06-20 |
+| 8 | https://www.ama.org/research-transparency-policy/ | AMA Journals Research Transparency Policy: approved 2025-06-11, effective 2025-08-01; prior to final acceptance, authors provide materials required to replicate and validate results or an alternative disclosure plan; final manuscript includes Data Availability Statement; materials upload to the journal's Dataverse collection; journal-specific JM Verification Step states some conditionally accepted JM manuscripts may go through a verification step and Coeditors may assign a Data Editor to review Dataverse materials and submit a ScholarOne report. | 2026-06-20 |
+| 9 | https://www.ama.org/2025/04/14/call-for-papers-journal-of-marketing-special-issue-on-empirics-first/ | JM Special Issue Call for Papers on Empirics First, confirming active editorial promotion of empirics-first substantive marketing research. | 2026-06-20 |
 
-## VERIFIED facts injected into the skills (with source #)
+## Verified facts injected into the skills
 
-- **Owner / publisher:** Owned and sponsored by the American Marketing Association (AMA); published/distributed by SAGE Publishing on its behalf. (#1, #4)
-- **Mission (paraphrase):** develop and disseminate knowledge about real-world marketing questions useful to scholars, educators, managers, policy makers, consumers, and other societal stakeholders, across all marketing domains. (#4)
-- **Gatekeeping criterion:** publish "the most impactful, thought-leading substantive research in the marketing discipline"; empirical work must offer compelling new insights into substantively important marketing questions, not methodological novelty for its own sake. (#4)
-- **Out of scope:** general-management papers; work driven primarily by mathematical/statistical methods for their own sake; and papers that merely replicate existing theory/findings or apply an existing set of findings to a new context. (#4)
-- **Submission system:** ScholarOne / Manuscript Central (Sage Track) at mc.manuscriptcentral.com/ama_jm; online submission only (no mail/email submissions). (#1)
-- **Length:** 50-page maximum, properly formatted and inclusive of title, abstract, keywords, text, footnotes, references, tables, figures, and print appendices; web appendices do NOT count toward the limit. (#2)
-- **Abstract:** 200 words maximum, unstructured. (#2)
-- **Keywords:** minimum 3. (#2)
-- **Formatting:** 12-point Times New Roman (or 12-pt LaTeX font); double-spaced (tables and references may be single-spaced); 1-inch margins on all sides; no page numbers, line numbers, headers, or footers. Word and LaTeX templates/style files are provided by AMA. (#1, #2)
-- **Statistical reporting:** empirical papers must report actual p-values (not thresholds such as p < .05), standard errors, and effect sizes. (#1)
-- **Citations:** AMA house style — author-date in-text; full author names for up to three authors, "et al." for four or more. (#2)
-- **Review model:** double-anonymized (double-blind); identities of authors and reviewers concealed from each other; handling Editor is the final decision authority; manuscripts must be anonymized. (#1, #3)
-- **Transparency / replication:** AMA Journals Research Transparency Policy approved 2025-06-11, effective 2025-08-01. JM's policy applies to conditionally accepted revisions of manuscripts submitted on/after 2023-01-01. At conditional acceptance, authors deposit a replication packet (raw data, analysis programs/scripts; qualitative materials for qualitative work) to JM's Dataverse, accessible to the processing Editor but not reviewers. A Data Availability Statement is required on the title page of final manuscripts. Preregistration is encouraged via anonymized links + author attestation. (#2, #3, #6, #7)
-- **Empirics-first:** JM actively solicits empirics-first research grounded in real-world phenomena via a dedicated special issue and editorials. (#9)
-- **Editorial leadership:** Editor in Chief Jan-Benedict E.M. Steenkamp (UNC Kenan-Flagler), three-year term began 2025-07-01 (succeeding Shrihari Sridhar); Coeditors Marc Fischer (Cologne), Kelly L. Haws (Vanderbilt), Maura L. Scott (Arizona State), Rebecca J. Slotegraaf (Indiana). (#5, #8)
-- **Integrity:** iThenticate plagiarism screening; conflict-of-interest disclosure. (#2, #3)
-- **Fees:** No submission fee is stated anywhere in the official submission guidelines (none mentioned). Open-access publication fees apply only to accepted articles if the author elects OA, separate from submission. (#1, #2)
+| Fact | Source |
+| --- | --- |
+| Owner / publisher context: Journal of Marketing is an AMA journal distributed on SAGE Journals; SAGE page carries AMA branding and copyright | SAGE journal home / SAGE author instructions |
+| Mission: real-world marketing questions useful to scholars, educators, managers, policy makers, consumers, and societal stakeholders | AMA editorial guidelines / SAGE journal home |
+| Core bar: most impactful, thought-leading substantive research; bridge between scholarly and practical | AMA editorial guidelines |
+| Broad "big tent" stance on methods and data; conceptual and empirical articles welcome when they offer theoretical/empirical contributions into important marketing questions | AMA editorial guidelines / SAGE author instructions |
+| Submission portal: ScholarOne / Sage Track at `mc.manuscriptcentral.com/ama_jm`; online submission only | AMA submission guidelines / SAGE author instructions |
+| Review model: double-anonymized; main document and web appendix must omit identifying information; separate title page contains author information | AMA submission guidelines / AMA editorial policies / SAGE author instructions |
+| Length: 50-page maximum at all review stages; includes title, abstract, keywords, text, footnotes, references, tables, figures, and print appendices; web appendices excluded | AMA submission guidelines |
+| Abstract: unstructured, 200 words | SAGE author instructions / AMA submission guidelines |
+| Keywords: minimum 3; AMA page also allows up to 8 primary keywords | SAGE author instructions / AMA submission guidelines |
+| Formatting: Word or PDF-if-LaTeX; 12-point Times New Roman or 12-point LaTeX font; double-spaced text; 1-inch margins; no page numbers, line numbers, headers, or footers | AMA submission guidelines / SAGE author instructions |
+| Statistical reporting: exact p-values, no threshold-only reporting or asterisks, standard errors, and effect sizes | AMA submission guidelines / SAGE author instructions |
+| Citations: AMA author-date; full author names up to three authors; first author plus et al. for four or more; reference list alphabetical and includes only cited works | AMA submission guidelines |
+| Title page: declarations, funding, conflicts, ethics/consent statements, and Data Availability Statement | AMA submission guidelines / SAGE author instructions |
+| Fees: no fees payable to submit or publish in the subscription route; optional Sage Choice/Open Access can require a fee; OA fees do not include page/color charges | SAGE author instructions |
+| Preprints: accepted; authors should enter preprint DOI and not post updated versions during review | SAGE author instructions |
+| ORCID: authors/coauthors encouraged to link ORCID IDs before acceptance because they cannot be added after acceptance/publication | SAGE author instructions |
+| Transparency: JM Dataverse packet at conditional acceptance for numerical/computational work; processing Editor can access packet while reviewers cannot | JM transparency policy / AMA research transparency policy |
+| Alternative disclosure plan route for proprietary, sensitive, embargoed, or high-investment data | JM transparency policy / AMA research transparency policy |
+| JM verification: some conditionally accepted manuscripts may have a verification step; Coeditors may assign a Data Editor | AMA research transparency policy |
+| Editorial leadership: EiC Jan-Benedict E.M. Steenkamp; Coeditors Marc Fischer, Kelly L. Haws, Maura L. Scott, Rebecca J. Slotegraaf | AMA editorial leadership |
+| Integrity: iThenticate plagiarism screening, AI disclosure, conflict-of-interest rules, no concurrent submission | AMA submission guidelines / AMA editorial policies / SAGE author instructions |
+| COPE membership; ISSN 0022-2429 / Online ISSN 1547-7185; SAGE homepage displays Impact Factor 10.6 / 5-Year Impact Factor 18.9 | SAGE journal home |
 
-## Items flagged 待核实 (to be verified — confirm via sources above)
+## Live-check items before submission
 
-- **"Big Ideas" 2026 lead editorial** ("Cementing JM's Impact on the Marketing Ecosystem: Advancing Big Ideas," Steenkamp, Fischer, Haws, Scott, Slotegraaf, 2026, DOI 10.1177/00222429251375543): paywalled on SAGE (HTTP 403). The "Big Ideas" framing and the critique of "unnecessarily complex analyses" are drawn from official AMA pages and search snippets; the full editorial text was not directly fetched. **待核实.**
-- **SAGE author-instructions page** (journals.sagepub.com/author-instructions/jmx): returned HTTP 403 and could not be fetched directly. SAGE-specific items (e.g., "Sage Track" branding, minimum 3 keywords) are corroborated via AMA pages and search results rather than the SAGE page itself. **待核实.**
-- **Submission fee:** no fee is stated anywhere in official guidelines; recorded as "none stated." No explicit positive statement that submission is free was located. **待核实.**
-- **Term-end date for Steenkamp** (≈ June 2028) and the precise term lengths/start dates of the four Coeditors are inferred from a stated three-year term beginning 2025-07-01; an official end-date statement was not located. **待核实.**
-- **Dedicated "Data Editor" verification step** (as JMR has): the JM transparency policy text reviewed describes Editor-accessible packets but does not mention a Data Editor role; recorded as a contrast, not a verified JM feature. **待核实.**
-- **Field-classification descriptors** (e.g., ABDC A*, FT50 status): not separately verified from an official ranking source within this research pass. **待核实.**
+- Confirm the live Sage Track / ScholarOne upload prompts and required file slots.
+- Confirm whether the manuscript's article type, title-page declarations, ORCID prompts, and Data Availability Statement fields have changed.
+- Confirm current optional OA, page, color, or production-charge prompts if choosing open access or color print.
+- Confirm the live editorial roster and conflicts before naming a Coeditor or suggesting opposed reviewers.
+- Confirm the current transparency workflow if data are proprietary, sensitive, embargoed, or covered by a third-party license.

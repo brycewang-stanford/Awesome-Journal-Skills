@@ -12,21 +12,22 @@ description: Use when running the final pre-submission preflight for a Journal o
 - Verifying the manuscript matches current JM/AMA formatting requirements
 - Confirming double-anonymization and the Data Availability Statement are in place
 
-> Always re-verify current limits and required files on the official JM submission guidelines and AMA editorial pages before submitting — specifics change. As of 2026-06-01 the verified key specs are below. Items not directly confirmed are marked 待核实.
+> Always live-check current limits, required files, and portal prompts on the official JM/SAGE/AMA submission pages before submitting. As of 2026-06-20 the verified key specs are below.
 
 ## Verified JM/AMA specs (confirm current values)
 
 - **Submission portal**: ScholarOne / Manuscript Central (Sage Track) at **mc.manuscriptcentral.com/ama_jm**; **online submission only** (no mail/email).
 - **Length**: **50-page maximum**, properly formatted and **inclusive of** title, abstract, keywords, text, footnotes, references, tables, figures, and print appendices; **web appendices do not count**.
 - **Abstract**: **200 words** maximum, unstructured.
-- **Keywords**: **minimum 3**.
+- **Keywords**: **minimum 3** (AMA also allows up to 8 primary keywords).
 - **Formatting**: **12-point Times New Roman** (or 12-pt LaTeX font); double-spaced (tables/references may be single-spaced); **1-inch margins**; **no page numbers, line numbers, headers, or footers**. AMA Word/LaTeX templates are provided.
 - **Citations**: AMA author-date; full author names for up to three authors, "et al." for four or more.
 - **Statistics**: empirical papers must report **actual p-values, standard errors, and effect sizes**.
 - **Review**: **double-anonymized** — remove all author/institution identifiers; the handling Editor is the final decision authority.
 - **Integrity**: **iThenticate** plagiarism screening; conflict-of-interest disclosure.
-- **Transparency**: **Data Availability Statement** required on the title page of final manuscripts; replication packet deposited to **JM Dataverse** at conditional acceptance; **preregistration encouraged** (anonymized links + attestation). Applies to conditionally accepted revisions of manuscripts submitted on/after 2023-01-01.
-- **Fees**: **no submission fee stated** in the guidelines; open-access publication fees apply only to accepted articles if the author elects OA (待核实 — recorded as "none stated").
+- **Transparency**: **Data Availability Statement** required; replication packet deposited to **JM Dataverse** at conditional acceptance; **preregistration encouraged** (anonymized links + attestation). Applies to conditionally accepted revisions of manuscripts submitted on/after 2023-01-01. Some conditionally accepted JM manuscripts may go through a Data Editor verification step.
+- **Fees**: SAGE states there are **no fees payable to submit or publish** in the subscription route; optional Sage Choice/Open Access may carry a fee, and OA fees do not cover separate page or color charges.
+- **Preprints / ORCID**: preprints are accepted; enter the preprint DOI at submission and avoid posting updated versions during review. Authors and coauthors are encouraged to link ORCID IDs before acceptance.
 
 ## Pre-submission checklist
 
@@ -58,6 +59,8 @@ description: Use when running the final pre-submission preflight for a Journal o
 
 - [ ] Human-subjects/IRB approval stated where applicable (on title page, not anonymized text)
 - [ ] **Data Availability Statement** on the title page
+- [ ] Optional OA, page, or color-charge prompts checked if relevant
+- [ ] ORCID IDs linked before acceptance where possible
 - [ ] No concurrent submission; conference/working-paper versions disclosed in the cover letter
 - [ ] Conflicts of interest and funding disclosed on the title page
 - [ ] Preregistration attestation prepared (faithful representation), if applicable
@@ -97,4 +100,4 @@ description: Use when running the final pre-submission preflight for a Journal o
 ## Resources
 
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — marketing-research data and analysis software (NielsenIQ / Circana / Prolific / Qualtrics / Stata reghdfe / R lavaan / PROCESS)
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official AMA/JM URLs behind every verified fact (accessed 2026-06-01); unverified items marked 待核实
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official AMA/SAGE/JM URLs behind every verified fact (accessed 2026-06-20) and live-check items

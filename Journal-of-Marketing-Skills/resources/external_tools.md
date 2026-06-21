@@ -80,4 +80,4 @@ JM uses **AMA house style**: author-date in-text citations, full author names fo
 
 ## 6. Verify Before You Rely
 
-Editorial team, submission links, page/format limits, fees, and transparency/data policies change over time. Always confirm current requirements on the official JM submission guidelines and the AMA editorial pages before submitting. Items not directly verified in the source map are marked **待核实**.
+Editorial team, submission links, page/format limits, fees/OA prompts, and transparency/data policies change over time. Always confirm current requirements on the official JM/SAGE submission guidelines and the AMA editorial pages before submitting.

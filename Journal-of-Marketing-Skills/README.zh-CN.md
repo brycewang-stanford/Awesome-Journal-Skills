@@ -15,7 +15,7 @@
 
 本仓库是有立场的。它**不是**通用的"营销写作"工具箱，而是围绕 JM 核心标准打造的 **JM 专用**技能栈：发表"营销学科中最具影响力、引领思想的实质性研究"，并具备真实的**管理、政策与社会相关性**。覆盖范围包括：以现实营销现象为根基的选题、扎根真实现象的理论构建、文献定位、JM 的"大帐篷 (big tent)"/**实证优先 (empirics-first)** 研究方法、精确统计量报告与 JM Dataverse 复现、以管理相关性为核心的贡献提炼、符合 AMA 体例的图表与文风、ScholarOne (Sage Track) 投稿、双盲评审流程，以及多轮 R&R 答复。
 
-> 仅描述持久规范。主编、版面费、确切页数/格式限制及各项政策会变化 —— 请务必以 JM 官方投稿指南与 AMA 编辑页面为准。未直接核实的事项标注为 **待核实**。
+> 仅描述持久规范。编辑名单、投稿入口提示、费用/OA 语言与透明性流程会变化——上传前请按 source map 对 JM/SAGE/AMA 官方页面做 live check。
 
 ---
 
@@ -35,6 +35,7 @@
 | 篇幅           | 硬性 **50 页**上限，除网络附录外一切计入                          | 表、图、参考文献、印刷版附录均计入                          |
 | 透明度         | 在有条件录用时向 **JM Dataverse** 提交复现包                      | 数据+代码（或定性材料）处理主编可见、评审人不可见           |
 | 流程           | ScholarOne (Sage Track)；双盲；由处理主编决断                     | 稿件须完全匿名                                              |
+| 费用           | 订阅发表路径无投稿费或发表费；可选 Sage Choice OA 可能收费          | 预算前以实时 SAGE/OA 提示为准                               |
 
 通用的"科研写作"或"社科方法"技能包无法覆盖这些约束。
 
@@ -119,7 +120,7 @@ jm-rebuttal
 ### 资源
 
 - [`resources/external_tools.md`](resources/external_tools.md) —— 营销研究数据（NielsenIQ / Circana / Prolific / Qualtrics / Sawtooth / 田野实验合作方）与分析软件（R lavaan / PROCESS / Stata reghdfe / DiD / 选择模型）
-- [`resources/official-source-map.md`](resources/official-source-map.md) —— 每条已核实事实背后的 AMA/JM 官方链接（访问于 2026-06-01）；未核实项标注 待核实
+- [`resources/official-source-map.md`](resources/official-source-map.md) —— 每条已核实事实背后的 AMA/SAGE/JM 官方链接（访问于 2026-06-20）与 live-check 项
 
 ---
 

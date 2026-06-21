@@ -50,7 +50,7 @@ Translate effects into terms a decision maker reads: elasticities, lift in sales
 
 ## JM Dataverse replication packet (at conditional acceptance)
 
-JM's Research Transparency Policy applies to conditionally accepted revisions of manuscripts submitted on/after 2023-01-01. At conditional acceptance, deposit to **JM's Dataverse**: raw data files, analysis programs/scripts, and any details sufficient to **replicate all reported analyses**; for qualitative work, interview guides, coding procedures, and annotated examples. The packet is accessible to the **processing Editor**, not reviewers. A **Data Availability Statement** is required on the title page of the final manuscript. **Preregistration is encouraged** — supply anonymized links and attest you faithfully represented the preregistration. (JM does not specify a dedicated Data-Editor verification step the way JMR does — 待核实.)
+JM's Research Transparency Policy applies to conditionally accepted revisions of manuscripts submitted on/after 2023-01-01. At conditional acceptance, deposit to **JM's Dataverse**: raw data files, analysis programs/scripts, and any details sufficient to **replicate all reported analyses**; for qualitative work, interview guides, coding procedures, and annotated examples. The packet is accessible to the **processing Editor**, not reviewers. A **Data Availability Statement** is required on the title page of the final manuscript. **Preregistration is encouraged** — supply anonymized links and attest you faithfully represented the preregistration. Under the AMA Journals policy, some conditionally accepted JM manuscripts may also go through a verification step in which a Coeditor assigns a Data Editor to review the Dataverse materials and submit a ScholarOne report.
 
 ## Checklist
 
@@ -61,6 +61,7 @@ JM's Research Transparency Policy applies to conditionally accepted revisions of
 - [ ] Effect sizes translated into managerial units (lift, elasticity, WTP, welfare)
 - [ ] Robustness, alternative explanations, exclusions, and missing data reported
 - [ ] Replication packet prepared for JM Dataverse; Data Availability Statement drafted
+- [ ] If selected for verification, Data Editor questions can be answered from the README/codebook/code
 - [ ] Preregistration links + attestation ready (if applicable)
 
 ## Anti-patterns

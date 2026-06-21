@@ -41,7 +41,7 @@ First-round acceptances are essentially unheard of; a well-run R&R is the realis
 
 ## At conditional acceptance
 
-Deposit the replication packet to **JM's Dataverse** (raw data, analysis programs/scripts; qualitative materials for qualitative work), accessible to the **processing Editor** but not reviewers, and ensure the **Data Availability Statement** is on the title page. (JM does not specify a dedicated Data-Editor verification step the way JMR does — 待核实.)
+Deposit the replication packet to **JM's Dataverse** (raw data, analysis programs/scripts; qualitative materials for qualitative work), accessible to the **processing Editor** but not reviewers, and ensure the **Data Availability Statement** is on the title page. Some conditionally accepted JM manuscripts may go through a verification step: the Coeditor may assign a Data Editor to review the Dataverse materials and submit a ScholarOne report.
 
 ## Checklist
 
@@ -49,7 +49,7 @@ Deposit the replication packet to **JM's Dataverse** (raw data, analysis program
 - [ ] Reviewer comments clustered by theme
 - [ ] Substantive-novelty and relevance comments flagged as top priority
 - [ ] New-data vs. reframing requests separated (timeline planning)
-- [ ] Conditional-acceptance transparency steps anticipated (JM Dataverse + DAS)
+- [ ] Conditional-acceptance transparency steps anticipated (JM Dataverse + DAS + possible verification)
 
 ## Anti-patterns
 

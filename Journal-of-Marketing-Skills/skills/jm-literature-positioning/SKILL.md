@@ -26,7 +26,7 @@ JM's stated exclusion is sharp: papers that "merely replicate existing theory or
 
 ## The "new-context" defense (write it explicitly)
 
-For each potential reviewer objection "we already know this," prepare one sentence: *What about the answer is new, surprising, or decision-changing that prior work could not have told us?* If you cannot write that sentence, the paper is a new-context replication and needs a sharper question (return to `jm-topic-selection`).
+For each potential reviewer objection "we already know this," prepare one sentence: *What about the answer is new, surprising, or decision-changing beyond what prior work already told us?* If you cannot write that sentence, the paper is a new-context replication and needs a sharper question (return to `jm-topic-selection`).
 
 ## Checklist
 
