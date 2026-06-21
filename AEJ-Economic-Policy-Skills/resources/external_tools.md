@@ -69,7 +69,7 @@ pages — *(检索于 2026-06；以官网为准)*.
 - **No asterisks or boldface** for statistical significance — report standard errors (or CIs).
 - One **self-contained headline exhibit** carrying the policy magnitude (and its welfare reading where
   possible); event-study / RDD / dose-response figures with uncertainty bands; vector output; readable
-  greyscale; exhibits anonymized for double-blind review (see `aejpol-tables-figures`).
+  greyscale; exhibit notes kept clean and self-contained (see `aejpol-tables-figures`).
 
 ## 5. Writing & references
 - Reference managers: Zotero, BibTeX/BibLaTeX. AEA **author–year** house style; the copyeditor applies
@@ -80,7 +80,7 @@ pages — *(检索于 2026-06；以官网为准)*.
 ## 6. Process & portal (verify on the official AEA pages)
 | Item | Note |
 |------|------|
-| Submission portal | AEA submission system; **double-blind** — anonymize the manuscript and exhibits |
+| Submission portal | AEA submission system; **single-blind** — manuscript carries title/byline/affiliations |
 | Codes | JEL codes + keywords required on the form |
 | Submission fee | Applies; reduced/waived categories exist — **amount VOLATILE, verify on the AEA site** |
 | Disclosure | AEA Disclosure Policy — each author discloses funding / interested parties |

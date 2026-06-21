@@ -39,7 +39,7 @@ Respectful, specific, evidence-led. Every "we agree" is followed by a concrete c
 - [ ] Identification / robustness additions placed in the main text, not buried
 - [ ] Welfare/policy reading strengthened, not just caveated
 - [ ] Reproducibility package and restricted-data path confirmed ready
-- [ ] A comment→revision map included; manuscript still anonymized if review continues double-blind
+- [ ] A comment→revision map included; revised manuscript carries the front matter (single-blind)
 
 ## Anti-patterns
 
@@ -48,7 +48,7 @@ Respectful, specific, evidence-led. Every "we agree" is followed by a concrete c
 - Adding caveats to dodge a "no policy point" critique instead of strengthening the welfare reading
 - Burying the new robustness result in an appendix and hoping the referee notices
 - A combative tone that turns a revisable R&R into a rejection
-- De-anonymizing the revised manuscript while review is still double-blind
+- Treating the response letter as adversarial rather than a good-faith revision record
 
 ## Per-comment response template
 

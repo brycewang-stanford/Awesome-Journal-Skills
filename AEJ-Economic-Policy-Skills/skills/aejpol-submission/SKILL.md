@@ -1,6 +1,6 @@
 ---
 name: aejpol-submission
-description: Use when running the final pre-submission preflight for AEJ: Economic Policy via the AEA submission system — double-blind anonymization, JEL codes, format, the Data and Code Availability Statement, and disclosure. Final checks; it does not draft content.
+description: Use when running the final pre-submission preflight for AEJ: Economic Policy via the AEA online submission system — single-blind review front matter, JEL codes, submission and publication fees, format, the Data and Code Availability Statement, and disclosure. Final checks; it does not draft content.
 ---
 
 # Submission Preflight (aejpol-submission)
@@ -9,61 +9,63 @@ description: Use when running the final pre-submission preflight for AEJ: Econom
 
 - "Submitting tomorrow" — last check before pressing submit on the AEA system
 - Unsure which files, declarations, and codes the AEA submission expects
-- Confirming the manuscript is properly anonymized for double-blind review
+- Confirming title/byline/front matter, JEL codes, and disclosure statements are in order
 - Verifying the Data and Code Availability Statement and disclosures are in order
 
-## Process facts (检索于 2026-06；以官网为准)
+## Process facts (official AEA pages checked 2026-06-20)
 
-- AEJ: Policy is one of the **American Economic Association's** four *American Economic Journals*; it is **quarterly** and reviewed **double-blind** through the **AEA submission system**. Re-confirm volatile specifics on the official AEA / AEJ: Policy pages.
-- **Double-blind:** the manuscript, exhibits, and any supplementary files must be **anonymized** — no author names, acknowledgments, funding-by-name, identifying self-citations ("in our earlier work"), or identifying file paths.
+- AEJ: Policy is one of the **American Economic Association's** four *American Economic Journals*; it is **quarterly** and submitted through the **AEA online submission system**. Re-confirm volatile specifics on the official AEA / AEJ: Policy pages.
+- **Single-blind review:** author identities are visible to referees; referee identities remain anonymous to authors. The submitted manuscript carries the title, byline, and author affiliations — do not anonymize it.
 - **JEL codes** and **keywords** are required; supply them on the submission form / title information.
-- **Submission fee:** an AEA submission fee applies (reduced/waived categories exist for members/students/some countries) — amount is **VOLATILE; verify on the AEA site** before submitting.
-- **Data & code:** a **Data and Code Availability Statement** is expected; the full deposit to the AEA Data and Code Repository (openICPSR) and the **AEA Data Editor** reproducibility check happen at the conditional-acceptance stage, **before publication** (see `aejpol-replication-package`).
+- **Submission fee:** AEA members — USD 200 (high-income), USD 100 (middle-income), USD 0 (low-income); nonmembers — USD 300 (high-income), USD 200 (middle-income), USD 0 (low-income). Papers rejected without review are refunded 50 percent.
+- **Publication fee:** accepted papers first submitted on or after 1 February 2024 are assessed USD 15 per typeset page at proofs.
+- **Length:** abstract of **100 or fewer words**; recommended maximum equivalent to 40 pages at 11-point/1.5 spacing or 45 pages at 12-point/1.5 spacing.
+- **Data & code:** a **Data and Code Availability Statement** is expected; the full deposit to the AEA Data and Code Repository (openICPSR) and the **AEA Data Editor** reproducibility check happen before publication (see `aejpol-replication-package`).
 - **Disclosure:** the AEA Disclosure Policy applies — each author discloses interested-party funding and relevant financial relationships.
 - **Style:** AEA house style; report standard errors (no significance asterisks); main text self-contained with an online appendix for long material.
+- One paper under review at a time per AEA rules; AI cannot be listed as an author.
 
 ## Preflight checklist
 
-### Anonymization (double-blind)
-- [ ] No author names / affiliations / emails anywhere in the manuscript or exhibits
-- [ ] Acknowledgments and named funding removed from the review version
-- [ ] Self-citations phrased neutrally (no "our prior paper")
-- [ ] File metadata and identifying paths scrubbed; data named neutrally
+### Front matter
+- [ ] Title, byline, and author affiliations appear on the first page
+- [ ] Acknowledgement footnote includes author emails, funding/grants, acknowledgments, IRB details, and pre-registration where applicable
+- [ ] **JEL codes** assigned; keywords listed; abstract is 100 words or fewer
 
 ### Format & style
 - [ ] AEA-style manuscript; standard errors in parentheses, **no significance asterisks/boldface**
 - [ ] Figures/tables self-contained (sample, units, estimator, clustering, N); readable in greyscale
 - [ ] Online appendix carries proofs/extra results; the main text is self-contained
-- [ ] Abstract present; **JEL codes + keywords** supplied
+- [ ] Length within the AEJ: Policy recommendation or consciously justified
 - [ ] References author–year, complete and consistent
 
 ### Files & declarations for the AEA system
-- [ ] Anonymized main manuscript (PDF) + anonymized appendix/exhibits
+- [ ] Main manuscript (PDF) with front matter + online appendix uploaded as required
 - [ ] **Data and Code Availability Statement** drafted (public vs. restricted; sources cited)
 - [ ] **Disclosure statement** per AEA policy for every author (funding / interested parties)
-- [ ] Submission fee ready (or eligible category confirmed) — **verify current amount**
+- [ ] **Submission fee** ready for the submitting author's membership and country-income tier
+- [ ] Publication-page-fee exposure understood if accepted
 - [ ] Confirmed: not under review elsewhere; AI not listed as an author
 - [ ] Experimental papers: pre-registration / pre-analysis plan and protocol referenced
 
 ## Anti-patterns
 
-- Submitting a manuscript that de-anonymizes the authors (defeats double-blind)
+- Hiding the title/byline/affiliations despite the single-blind rule
 - Significance asterisks/boldface instead of standard errors
 - Missing JEL codes or keywords on the form
 - No Data and Code Availability Statement at submission
 - Forgetting the AEA disclosure statement for a co-author
-- Assuming the fee amount instead of checking the current AEA figure
+- Assuming the fee tier without checking AEA membership and country-income status
 
 ## Output format
 
 ```
-【Anonymized】no authorship leak in text/exhibits/metadata? [Y/N]
+【Front matter】title/byline/affiliations + acknowledgement footnote + JEL + <=100-word abstract? [Y/N]
 【Style】SEs not asterisks; exhibits self-contained; online appendix set? [Y/N]
-【JEL + keywords】supplied on the form? [Y/N]
 【Data/code statement】availability statement drafted? [Y/N]
 【Disclosure】AEA disclosure for every author? [Y/N]
-【Fee】current amount verified / eligible category confirmed? [Y/N]
-【Next step】submit via AEA system → expect double-blind review (plan for an R&R)
+【Fee】submission tier + publication-page-fee exposure understood? [Y/N]
+【Next step】submit via AEA system → expect single-blind review (plan for an R&R)
 ```
 
 ## Supplementary resources

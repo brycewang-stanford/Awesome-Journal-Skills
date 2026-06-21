@@ -16,7 +16,7 @@ description: Use when building or revising exhibits for an AEJ: Economic Policy 
 
 - **Report standard errors (or confidence intervals), not significance asterisks/boldface.** Put SEs in parentheses below estimates; the reader judges significance from the SE/CI. This is the house convention to follow.
 - **Self-contained.** Title and notes let an exhibit be read without the text: sample, units, estimator, clustering level, what is controlled, and what the number means in policy terms.
-- **In AEA style** the manuscript is anonymized for double-blind review; exhibits must not reveal authorship (no identifying file paths, institution-named datasets framed neutrally).
+- **Self-contained, not anonymized.** Review is single-blind, so exhibits need not hide authorship; keep notes clean and neutral (avoid stray local file paths) for readability, not for blinding.
 - **Figures** are the workhorse for policy communication: event-study plots with CIs, RDD plots with binned means and the fitted discontinuity, dose-response or cost-benefit curves with uncertainty bands. Vector output; ≥300 dpi raster only if unavoidable; readable greyscale.
 
 ### The headline exhibit (AEJ: Policy-specific)
@@ -37,7 +37,6 @@ Every AEJ: Policy paper should have **one exhibit a policymaker could screenshot
 - [ ] One self-contained headline exhibit carrying the policy magnitude (and welfare reading if available)
 - [ ] Every table notes: sample, units, estimator, controls, clustering level, N, dep-var mean
 - [ ] Figures show effects with uncertainty bands (event study / RDD / dose-response)
-- [ ] Exhibits anonymized for double-blind review
 - [ ] Policy-relevant magnitude in interpretable units, not only raw coefficients
 - [ ] Vector figures, readable in greyscale, no chartjunk
 
@@ -48,7 +47,7 @@ Every AEJ: Policy paper should have **one exhibit a policymaker could screenshot
 - A 12-column kitchen-sink table where the policy spec is buried
 - Figures with point estimates but no confidence bands
 - Notes too thin to read the exhibit without the text
-- An exhibit that de-anonymizes the authors during double-blind review
+- An exhibit whose notes are too thin to read without the body text
 
 ## Exhibit-by-design-type quick guide
 
@@ -71,6 +70,5 @@ A tax-credit paper's main table reports a coefficient of 0.08 (s.e. 0.02) on the
 【Significance reporting】SEs/CIs, no asterisks? [Y/N]
 【Self-contained notes】sample/units/estimator/clustering/N/dep-mean present? [Y/N]
 【Policy-units translation】coefficient → cost-per-X / MVPF / incidence shown? [Y/N]
-【Anonymized】no authorship leak in exhibits? [Y/N]
 【Next step】aejpol-writing-style
 ```

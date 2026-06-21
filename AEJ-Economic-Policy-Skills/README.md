@@ -44,7 +44,7 @@ AEJs, and the AER (rows marked **[official]** are verified against AEA sources):
 | Scope [official] | Economic analysis **of policy** (public econ, environment/energy, health, education, labor/welfare, regulation, dev/political economy) | Pure methods or no-policy applied micro is off-fit |
 | Identification | Credible quasi-experimental / RCT evaluation of the policy | TWFE-on-staggered / OLS+controls draws fast pushback |
 | Welfare reading | Estimate → MVPF / cost-benefit / incidence | "This is welfare-improving" asserted is not enough |
-| Review [official] | **Double-blind** via the AEA submission system | Manuscript and exhibits must be anonymized |
+| Review [official] | **Single-blind** via the AEA submission system | Manuscript carries title, byline, and affiliations |
 | Codes [official] | **JEL codes + keywords** required | Missing codes is a form error |
 | Significance [official] | **Standard errors / CIs, no asterisks** (AEA house style) | `***` is disallowed; report SEs |
 | Data & code [official] | AEA Data and Code Availability Policy; **AEA Data Editor** check **before** publication; deposit at **openICPSR** | Build the replication package as you go |
@@ -91,7 +91,7 @@ aejpol-workflow (router)
    ├─ aejpol-writing-style ......... translate estimates into a policy takeaway (intro/abstract last)
    ├─ aejpol-replication-package ... AEA Data Editor / openICPSR deposit
    ├─ aejpol-referee-strategy ...... pre-empt the objections referees will raise
-   ├─ aejpol-submission ............ AEA system preflight (anonymize + JEL + disclosure)
+   ├─ aejpol-submission ............ AEA system preflight (front matter + JEL + disclosure)
    └─ aejpol-rebuttal .............. response letter + revision plan after the R&R
 ```
 
@@ -111,7 +111,7 @@ aejpol-workflow (router)
 | `aejpol-writing-style` | Translate estimates into a clear policy takeaway without overclaiming |
 | `aejpol-replication-package` | AEA Data and Code Availability Policy / AEA Data Editor / openICPSR deposit |
 | `aejpol-referee-strategy` | Pre-empt the objections AEJ: Policy referees raise; calibrate expectations |
-| `aejpol-submission` | AEA system preflight: anonymization, JEL codes, data statement, disclosure |
+| `aejpol-submission` | AEA system preflight: front matter, JEL codes, data statement, disclosure |
 | `aejpol-rebuttal` | Response-letter strategy and revision plan after an R&R |
 
 ---
@@ -142,7 +142,7 @@ aejpol-workflow (router)
 | Welfare / cost-benefit reading | Expected (MVPF / incidence) | Not required | Often, but for specialists | Varies |
 | Readership | Broad AEA policy audience | Applied-micro audience | Public-finance field | Top general-interest |
 | Length | Field-leading policy paper | Applied-micro paper | Field paper | Longer, top-5 scale |
-| Process | AEA double-blind, openICPSR Data Editor | AEA double-blind, openICPSR Data Editor | Elsevier, single/double-blind | AEA double-blind, openICPSR Data Editor |
+| Process | AEA single-blind, openICPSR Data Editor | AEA single-blind, openICPSR Data Editor | Elsevier, double-blind | AEA single-blind, openICPSR Data Editor |
 
 > Pick AEJ: Policy when the **policy lesson is the headline** and a broad AEA reader would care; pick
 > AEJ: Applied when the natural experiment is the point; pick JPubE when the audience is the public-finance

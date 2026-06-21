@@ -33,7 +33,7 @@ The distinctive moves vs. a general applied-micro intro:
 - Separate what the data show (the causal estimate) from what the framework adds (the welfare reading) so a referee can grant one without the other.
 
 ## AEA house style
-- Author–year citations; SEs/CIs not asterisks (mirror `aejpol-tables-figures`); active voice; abstract that states question, design, headline estimate, and policy lesson. Online appendix carries the long material; the main text stays self-contained and readable. Manuscript anonymized for double-blind review (no "in our prior work [cite self]" that de-anonymizes).
+- Author–year citations; SEs/CIs not asterisks (mirror `aejpol-tables-figures`); active voice; abstract that states question, design, headline estimate, and policy lesson. Online appendix carries the long material; the main text stays self-contained and readable. Review is single-blind, so the front matter names the authors — no need to anonymize the prose.
 
 ## Checklist
 
@@ -43,7 +43,7 @@ The distinctive moves vs. a general applied-micro intro:
 - [ ] The claim is calibrated: population, horizon, and assumptions named
 - [ ] Causal estimate and welfare reading are separable in the prose
 - [ ] No significance asterisks; author–year citations; abstract carries the policy lesson
-- [ ] No self-citation that breaks double-blind anonymization
+- [ ] Self-citations cited normally (single-blind — no anonymization needed)
 
 ## Anti-patterns
 
@@ -52,7 +52,7 @@ The distinctive moves vs. a general applied-micro intro:
 - Overclaiming ("our results prove policy X should be adopted nationwide") beyond the estimand
 - Vague hedging ("results should be interpreted with caution") instead of a precise scope statement
 - Burying the policy takeaway in the conclusion where a policymaker will not find it
-- De-anonymizing the manuscript via self-reference during double-blind review
+- Padding the prose with self-citations to signal a track record (cite only what the argument needs)
 
 ## Worked vignette (illustrative)
 

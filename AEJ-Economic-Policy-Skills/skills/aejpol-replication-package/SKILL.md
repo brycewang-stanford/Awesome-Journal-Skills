@@ -28,8 +28,8 @@ AEJ: Policy is an AEA journal and follows the **AEA Data and Code Availability P
 - Confirm the access path is real and current — the Data Editor verifies it.
 - Note any partial-reproducibility scope (e.g., one table from confidential data) in the README.
 
-### Anonymization during review
-The submitted manuscript is double-blind; the openICPSR deposit is prepared at acceptance, but if you post code earlier, keep it out of the anonymized submission package or de-identify it.
+### Code posting during review
+Review is single-blind, so the submission need not be anonymized; the openICPSR deposit is prepared at acceptance. Posting a working-paper code repository earlier is fine and does not conflict with the review process.
 
 ## Checklist
 

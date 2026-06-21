@@ -3,7 +3,7 @@
 An 8-section checklist to run before submitting to the *American Economic Journal: Economic Policy*
 via the AEA submission system. Pair with [`../SKILL.md`](../SKILL.md) and the
 [`../../../resources/official-source-map.md`](../../../resources/official-source-map.md).
-Volatile items (fee, codes, editors) — *(检索于 2026-06；以官网为准)*.
+Volatile items (fee, codes, editors) — official AEA pages checked 2026-06-20; re-confirm at submission.
 
 ## 1. Policy fit & contribution
 - [ ] A specific policy lever is named (instrument + who is affected)
@@ -35,13 +35,13 @@ Volatile items (fee, codes, editors) — *(检索于 2026-06；以官网为准)*
 - [ ] Tables note sample, units, estimator, controls, clustering, N, dep-var mean
 - [ ] Figures show effects with uncertainty bands; readable in greyscale
 
-## 6. Anonymization (double-blind)
-- [ ] No author names / affiliations / emails in manuscript, exhibits, or metadata
-- [ ] Acknowledgments and named funding removed from the review version
-- [ ] Self-citations phrased neutrally; identifying file paths scrubbed
+## 6. Front matter (single-blind)
+- [ ] Title, byline, and author affiliations on the first page (single-blind — do not anonymize)
+- [ ] Acknowledgement footnote: author emails, funding/grants, acknowledgments, IRB/pre-registration where applicable
+- [ ] Abstract is 100 words or fewer
 
 ## 7. Files, codes & declarations
-- [ ] Anonymized main manuscript + anonymized online appendix
+- [ ] Main manuscript with front matter + online appendix
 - [ ] JEL codes + keywords supplied on the form
 - [ ] Data and Code Availability Statement drafted (public vs. restricted; sources cited)
 - [ ] AEA disclosure statement for every author (funding / interested parties)

@@ -9,12 +9,12 @@ description: Use when anticipating how AEJ: Economic Policy referees and editors
 
 - Before submitting: you want to find the objections a referee will raise first
 - Deciding whether the paper is ready or needs another round of work
-- Calibrating expectations about the AEA double-blind process and timeline
+- Calibrating expectations about the AEA single-blind process and timeline
 - Triaging which weaknesses to fix vs. disclose before submission
 
 ## How AEJ: Policy referees read
 
-AEJ: Policy reviews are **double-blind** through the AEA system, refereed by economists who expect both **credible causal evidence** and a **policy-relevant welfare reading**. A referee typically tests four things in order; a paper dies at the first one it fails:
+AEJ: Policy reviews are **single-blind** through the AEA system (referees see the authors; authors do not see referees), refereed by economists who expect both **credible causal evidence** and a **policy-relevant welfare reading**. A referee typically tests four things in order; a paper dies at the first one it fails:
 
 1. **Is it a policy paper of broad interest?** (the `aejpol-topic-selection` test) — a clean estimate with no policy lever or welfare reading invites a "better suited to a field journal / AEJ: Applied" rejection.
 2. **Is the causal claim credible?** (the `aejpol-identification` test) — staggered TWFE, asserted parallel trends, a weak instrument, or an over-generalized RDD are the usual kill shots.
@@ -53,7 +53,7 @@ AEJ: Policy reviews are **double-blind** through the AEA system, refereed by eco
 - Hiding a known limitation instead of bounding and disclosing it
 - A welfare claim with no derivation, trusting the referee to grant it
 - Putting the decisive robustness check only in an online appendix the referee may skip
-- Mis-calibrating to a generic-journal process and ignoring AEA double-blind norms
+- Mis-calibrating to a generic-journal process and ignoring AEA single-blind norms
 
 ## Worked vignette (illustrative)
 
