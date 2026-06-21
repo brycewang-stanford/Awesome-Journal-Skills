@@ -54,11 +54,11 @@ listed under "Still unverified" and are flagged inline in the skills as
 
 ## Still unverified (do not invent; confirm before relying)
 
-- **Current editorial team / editor(s)** — sources differ. The ASA page (Source 3) reportedly
-  lists a 2024–2026 editor group, and Source 6 confirms an editorship rotation, but the page
-  returned 403 to the automated fetcher and other references named different individuals.
-  **Do not name a specific editor from memory**; confirm the current slate in a browser at
-  Sources 3, 5, 6.
+- **Current editor: Iddo Tavory (New York University)** — confirmed 2026-06 via the ASA/SAGE
+  Sociological Theory journal pages and the journal's Wikipedia entry. **Transition ahead:** ASA
+  has invited applications for new editor(s) with terms beginning **2027-01-01** (handover from
+  summer 2026), so the sitting editor is volatile — re-confirm the current slate in a browser at
+  Sources 3, 5, 6 at submission time, and do not name an editor from memory.
 - **Exact current length cap and abstract word limit** — the ~14,500-word inclusive cap is from
   Source 1 but is volatile; confirm the current figure and the abstract limit on the live page.
 - **Exact ASA Style Guide edition** ST currently mandates (7th edition is the latest known —
