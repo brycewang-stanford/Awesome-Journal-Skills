@@ -134,7 +134,7 @@ ors-rebuttal
 ### Resources
 
 - [`resources/external_tools.md`](resources/external_tools.md) — OR/MS modeling languages and solvers (AMPL / JuMP / Pyomo / Gurobi / CPLEX / Mosek / SCIP), simulation and stochastic tools (SimPy / SDDP.jl / RSOME / SimOpt), proof/computation aids, and the ORJournal reproducibility workflow
-- [`resources/official-source-map.md`](resources/official-source-map.md) — official INFORMS/OR URLs behind every verified fact in this pack (accessed 2026-06-01)
+- [`resources/official-source-map.md`](resources/official-source-map.md) — official INFORMS/OR URLs behind every verified fact in this pack (accessed 2026-06-20)
 
 ---
 
@@ -161,7 +161,7 @@ Computing*; if it is managerial operations, consider *M&SOM* or *Management Scie
 - **Length tiers (excl. references):** Focused Technical 20 / Context-and-Challenge 20 / regular 30 / lengthy ~40 pages; e-companion ≤ manuscript.
 - **Format:** 1.5-spaced, 11-pt, 1-inch margins; PDF at submission; LaTeX style files; author-year citations.
 - **Reproducibility:** Code and Data Disclosure Policy via the ORJournal GitHub pull-request workflow.
-- **Fees:** 待核实 — not stated in the official guidelines; do not assume free.
+- **Fees:** no submission/processing fee stated in the official guidelines; optional INFORMS Open Option open-access fee US$3,000 after acceptance.
 
 See [`resources/official-source-map.md`](resources/official-source-map.md) for sources and items flagged 待核实 / re-confirm.
 

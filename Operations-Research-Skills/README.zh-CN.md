@@ -125,7 +125,7 @@ ors-rebuttal
 ### 资源
 
 - [`resources/external_tools.md`](resources/external_tools.md) — OR/MS 建模语言与求解器（AMPL / JuMP / Pyomo / Gurobi / CPLEX / Mosek / SCIP）、仿真与随机工具（SimPy / SDDP.jl / RSOME / SimOpt）、证明/计算辅助工具，以及 ORJournal 可复现工作流
-- [`resources/official-source-map.md`](resources/official-source-map.md) — 本技能包每条已核实事实背后的 INFORMS/OR 官方网址（访问于 2026-06-01）
+- [`resources/official-source-map.md`](resources/official-source-map.md) — 本技能包每条已核实事实背后的 INFORMS/OR 官方网址（访问于 2026-06-20）
 
 ---
 
@@ -152,7 +152,7 @@ ors-rebuttal
 - **页数分档（不含参考文献）：** Focused Technical 20 / Context-and-Challenge 20 / 常规 30 / 长文约 40 页；e-companion 不得长于正文。
 - **格式：** 1.5 倍行距、11 号字、四周 1 英寸页边距；投稿时提交 PDF；提供 LaTeX 模板；作者-年制引用。
 - **可复现：** Code and Data Disclosure Policy，经 ORJournal GitHub 拉取请求工作流。
-- **费用：** 待核实——官方指南未明示；请勿默认免费。
+- **费用：** 官方指南未列投稿/处理费；接收后可选 INFORMS Open Option 开放获取费用 3,000 美元。
 
 详见 [`resources/official-source-map.md`](resources/official-source-map.md) 中的来源及标注为 待核实 / re-confirm 的条目。
 

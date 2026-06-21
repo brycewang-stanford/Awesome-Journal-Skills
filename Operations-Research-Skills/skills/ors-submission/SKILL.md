@@ -13,7 +13,7 @@ description: Use when running the final pre-submission preflight for an Operatio
 
 > Always re-verify current limits and required files on the official OR
 > submission-guidelines page and the Code and Data Disclosure Policy before submitting —
-> specifics change. As of 2026-06-01 the key specs below were corroborated; items marked
+> specifics change. As of 2026-06-20 the key specs below were corroborated; items marked
 > 待核实 / re-confirm should be checked on the live page.
 
 ## Verified OR specs (confirm current values)
@@ -38,8 +38,9 @@ description: Use when running the final pre-submission preflight for an Operatio
 - **Formatting:** 1.5-spaced, **11-point** font, **1-inch** margins; **PDF** at
   submission (source LaTeX/Word on acceptance); **LaTeX style files** provided;
   **author-year** citations.
-- **Fees:** **待核实** — no submission/processing fee is *stated* in the official
-  guidelines; do not assert "free," verify on the live page.
+- **Fees:** no submission/processing fee is *stated* in the official guidelines;
+  the only fee is the optional **INFORMS Open Option** open-access fee (US$3,000,
+  after acceptance). Re-verify on the live page before relying on it.
 
 ## Pre-submission checklist
 
@@ -96,4 +97,4 @@ description: Use when running the final pre-submission preflight for an Operatio
 ## Resources
 
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — OR/MS modeling languages, solvers, simulation/stochastic tools, and the ORJournal reproducibility workflow
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official INFORMS/OR URLs behind every verified fact in this pack (accessed 2026-06-01)
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official INFORMS/OR URLs behind every verified fact in this pack (accessed 2026-06-20)
