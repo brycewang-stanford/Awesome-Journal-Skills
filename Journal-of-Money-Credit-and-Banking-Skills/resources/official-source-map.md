@@ -19,8 +19,14 @@ Primary source map for facts used in the JMCB skill pack. **Access date: 2026-06
 | credit frictions | Official pages above; re-check live before submission |
 | central-bank relevance | Official pages above; re-check live before submission |
 
+## Verified on official pages (2026-06)
+
+- **Submission fee: $150 (subscribers) / $200 (non-subscribers).** Submit a PDF at the JMCB Editorial Express portal **http://editorialexpress.com/jmcb**, with a title page listing each author's name, title, and affiliation. (OSU Department of Economics submission instructions)
+- **Open-access APC (optional): US$3,990 / £2,690 / €3,330**, potentially covered by a Wiley Open Access Account or the OhioLINK–Wiley agreement (2024-01-01 to 2026-12-31). (Wiley JMCB open-access page)
+- Latest issue at access time: **Vol. 58, Issue 3 (April 2026)** (Wiley Online Library).
+
 ## Unverified / volatile items
 
-- Current editor names and board composition are **待核实** unless explicitly quoted in an official page at submission time.
-- Exact submission fees, APCs, waivers, word limits, abstract limits, and blinding rules are **待核实** if not visible in the official pages above.
+- Current **editor names** and board composition are **待核实** — confirm on the official Wiley/OSU page at submission time (not quoted here to avoid asserting a stale roster).
+- Exact **word limits, abstract limits, and blinding rules** are **待核实** if not visible on the official pages above.
 - Exemplar articles must be verified in the official archive or DOI page before being cited as real examples.

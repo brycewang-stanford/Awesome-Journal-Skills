@@ -20,8 +20,13 @@ Primary source map for facts used in the IER skill pack. **Access date: 2026-06.
 | international readership | Official pages above; re-check live before submission |
 | theory-empirics balance | Official pages above; re-check live before submission |
 
+## Verified on official pages (2026-06)
+
+- **Editor: Dirk Krueger (University of Pennsylvania); Co-editor: Masaki Aoyagi (Osaka University, ISER).** (Penn IER page / Wiley editorial board)
+- **Submission fee: US$150**, payable after electronic submission — the manuscript is not reviewed until the fee is received. Submit at the IER Editorial Express portal **http://editorialexpress.com/ier**. (Penn IER submissions page)
+- **Open access (optional):** authors may publish OA under a Creative Commons license for a Wiley Article Publication Charge (exact figure per the Wiley APC list). (Wiley IER for-authors page)
+
 ## Unverified / volatile items
 
-- Current editor names and board composition are **待核实** unless explicitly quoted in an official page at submission time.
-- Exact submission fees, APCs, waivers, word limits, abstract limits, and blinding rules are **待核实** if not visible in the official pages above.
+- Exact **word limits, abstract limits, and blinding rules**, and the full (rotating) Associate Editor board, are **待核实** if not visible on the official pages above — confirm on the live Wiley/Penn page at submission time.
 - Exemplar articles must be verified in the official archive or DOI page before being cited as real examples.
