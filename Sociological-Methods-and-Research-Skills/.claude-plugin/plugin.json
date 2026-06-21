@@ -1,0 +1,26 @@
+{
+  "name": "sociological-methods-and-research-skills",
+  "description": "Agent skill stack for manuscripts targeted at Sociological Methods & Research (SMR) — the SAGE quantitative- and statistical-methodology flagship for sociology and the social sciences. SMR publishes papers that develop, evaluate, or critically assess methods (new estimators, designs, diagnostics, and tools for causal inference, measurement and latent-variable models, structural equation models, multilevel and longitudinal data, social network analysis, missing data, simulation, sequence analysis, and computational social science / text-as-data); pure applications without a methodological contribution are out of scope. Built around SMR's distinctive norms: ScholarOne double-anonymized review, ASA citation style with DataCite for datasets, a ~150-word abstract with no parenthetical citations, a data-and-code availability statement at submission, a generative-AI disclosure rule, and a methods-journal craft that pairs a clearly stated method contribution with derivation-and-properties, a Monte Carlo simulation study, and a real-data empirical illustration plus released, reproducible software. Covers topic selection, method contribution, literature positioning, derivation and analytical properties, simulation studies, empirical illustration, tables and figures, house style, software and reproducibility, submission preflight, and rebuttal. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/sociological-methods-and-research-skills",
+  "repository": "https://github.com/brycewang-stanford/sociological-methods-and-research-skills",
+  "keywords": [
+    "sociological-methods-and-research",
+    "smr",
+    "quantitative-methodology",
+    "causal-inference",
+    "structural-equation-models",
+    "latent-variable-models",
+    "multilevel-models",
+    "social-network-analysis",
+    "missing-data",
+    "monte-carlo-simulation",
+    "computational-social-science",
+    "academic-writing"
+  ]
+}

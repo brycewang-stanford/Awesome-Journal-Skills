@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "annual-review-of-sociology-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Annual Review of Sociology invited review articles.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "annual-review-of-sociology-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Annual Review of Sociology invited-review lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/annual-review-of-sociology-skills",
+      "repository": "https://github.com/brycewang-stanford/annual-review-of-sociology-skills",
+      "keywords": [
+        "annual-review-of-sociology",
+        "arsoc",
+        "annual-reviews",
+        "sociology",
+        "review-article",
+        "literature-synthesis",
+        "invited-review"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/arsoc-workflow",
+        "skills/arsoc-topic-selection",
+        "skills/arsoc-proposal-and-commissioning",
+        "skills/arsoc-literature-synthesis",
+        "skills/arsoc-organizing-framework",
+        "skills/arsoc-comprehensiveness-and-balance",
+        "skills/arsoc-tables-figures",
+        "skills/arsoc-writing-style",
+        "skills/arsoc-transparency-and-reproducibility",
+        "skills/arsoc-editor-strategy",
+        "skills/arsoc-submission",
+        "skills/arsoc-revision"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "sociological-theory-skills",
+  "version": "0.1.0",
+  "description": "An opinionated theory-construction skill stack for Sociological Theory (ST) — the ASA's dedicated theory journal (SAGE) that publishes NO empirical hypothesis tests (that is the lane of ASR / AJS).",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "sociological-theory-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Sociological Theory (ST) manuscript lifecycle. Theoretical-problem framing, tradition positioning, concept and proposition construction, argument validity in place of statistical robustness, boundary conditions, conceptual exhibits (typologies and mechanism diagrams, never data plots), contribution framing, ASA style, and the double-anonymous Manuscript Central review. NO empirical hypothesis-testing — that is ASR / AJS's lane.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/sociological-theory-skills",
+      "repository": "https://github.com/brycewang-stanford/sociological-theory-skills",
+      "keywords": [
+        "sociological-theory",
+        "social-theory",
+        "theory-construction",
+        "metatheory",
+        "social-mechanisms",
+        "asa",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/soctheory-workflow",
+        "skills/soctheory-topic-selection",
+        "skills/soctheory-theory-construction",
+        "skills/soctheory-literature-positioning",
+        "skills/soctheory-argument-development",
+        "skills/soctheory-boundary-conditions",
+        "skills/soctheory-conceptual-exhibits",
+        "skills/soctheory-writing-style",
+        "skills/soctheory-contribution-framing",
+        "skills/soctheory-review-process",
+        "skills/soctheory-submission",
+        "skills/soctheory-rebuttal"
+      ]
+    }
+  ]
+}

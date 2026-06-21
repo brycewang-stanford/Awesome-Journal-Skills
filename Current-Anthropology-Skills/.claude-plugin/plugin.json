@@ -1,0 +1,29 @@
+{
+  "name": "current-anthropology-skills",
+  "description": "Agent skill stack for manuscripts targeted at Current Anthropology (CA) — the transnational, all-subfields journal published by the University of Chicago Press for the Wenner-Gren Foundation for Anthropological Research, submitted through Editorial Manager. CA's defining feature is the CA✩ Treatment: an accepted Major Article is circulated to invited international commentators whose signed Comments are published alongside it, followed by the author's Reply, so the whole lifecycle is built to reward and survive public, multi-voice critique. CA spans sociocultural anthropology, archaeology, biological/physical anthropology, and linguistic anthropology, plus ethnohistory, prehistory, and applied work, and treats ethnographic and qualitative inference as first-class alongside appropriate lab/quantitative methods. The stack centers a field-shaping, agenda-setting intervention worth international debate, foregrounds reflexivity and positionality, and grounds research ethics and accountability — informed consent, anonymization, protection of vulnerable communities, heritage/repatriation obligations, and the Wenner-Gren copyright assignment. Facts covered include the 6,000–10,000-word Major Article cap (CA✩ Treatment) and 3,000–5,000-word Report, the 200-word abstract, the 800-word Discussion/Comment, .doc/.rtf text with separate TIFF/EPS figures, free-format submission with final Chicago author-date, and the comment-and-reply review model. Covers article-type fit, cross-subfield and transnational literature positioning, conceptual theory building, research design across ethnographic/archival/material/biological modes, analysis and interpretation norms, exhibits, CA-style writing, ethics and copyright, the review process and CA✩ commentary, submission preflight, and both R&R rebuttals and the published CA✩ Reply. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/current-anthropology-skills",
+  "repository": "https://github.com/brycewang-stanford/current-anthropology-skills",
+  "keywords": [
+    "current-anthropology",
+    "anthropology",
+    "wenner-gren",
+    "university-of-chicago-press",
+    "comment-and-reply",
+    "ethnography",
+    "sociocultural-anthropology",
+    "archaeology",
+    "biological-anthropology",
+    "linguistic-anthropology",
+    "qualitative-methods",
+    "research-ethics",
+    "reflexivity",
+    "repatriation",
+    "academic-writing"
+  ]
+}

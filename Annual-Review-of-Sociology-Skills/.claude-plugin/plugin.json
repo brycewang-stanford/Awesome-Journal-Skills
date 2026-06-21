@@ -1,0 +1,24 @@
+{
+  "name": "annual-review-of-sociology-skills",
+  "description": "Agent skill stack for invited review articles targeted at the Annual Review of Sociology (ARSoc) — the Annual Reviews (nonprofit) sociology survey series (founded 1975), which publishes commissioned, authoritative reviews synthesizing sociology subfields (stratification, culture, organizations, networks, race/ethnicity, gender, demography, political and economic sociology) for sociologists across the discipline. Unlike a primary-research journal (ASR, AJS), ARSoc publishes no original empirical findings; the stack therefore replaces identification-strategy and replication-package craft with review craft: judging whether a subfield is ARSoc-scale, the invited/commissioning intake route (suggest a topic to the Editorial Committee — unsolicited finished manuscripts are not accepted), systematic comprehensive coverage with a saturation account, imposing an analytical organizing framework rather than an annotated bibliography, balancing comprehensiveness against selectivity and treating theoretical schools and debates even-handedly, who-found-what tables and the conceptual framework figure, the authoritative-yet-accessible cross-subfield voice that ends with a forward research agenda, the transparency obligations of any systematic-review coverage account or meta-analysis the review contains, working with the Editorial Committee on scope and the annual-volume timeline, the Annual Reviews delivery preflight, and revising an invited review for coverage, balance, and the spine. Bilingual en / zh-CN docs. Process facts (editors, exact limits, portal, open-access status) are marked volatile and deferred to the official Annual Reviews pages.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/annual-review-of-sociology-skills",
+  "repository": "https://github.com/brycewang-stanford/annual-review-of-sociology-skills",
+  "keywords": [
+    "annual-review-of-sociology",
+    "arsoc",
+    "annual-reviews",
+    "sociology",
+    "review-article",
+    "literature-synthesis",
+    "commissioned-survey",
+    "invited-review",
+    "field-synthesis",
+    "academic-writing"
+  ]
+}

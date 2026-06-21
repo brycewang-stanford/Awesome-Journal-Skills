@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "sociological-methods-and-research-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Sociological Methods & Research (SMR), the SAGE quantitative-sociology-methods flagship.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "sociological-methods-and-research-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Sociological Methods & Research (SMR) manuscript lifecycle — method-contribution fit, derivation and analytical properties, Monte Carlo simulation studies, a real-data empirical illustration, released reproducible software, ScholarOne submission, and rebuttal.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/sociological-methods-and-research-skills",
+      "repository": "https://github.com/brycewang-stanford/sociological-methods-and-research-skills",
+      "keywords": [
+        "sociological-methods-and-research",
+        "smr",
+        "quantitative-methodology",
+        "causal-inference",
+        "monte-carlo-simulation",
+        "structural-equation-models",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/smr-workflow",
+        "skills/smr-topic-selection",
+        "skills/smr-method-contribution",
+        "skills/smr-literature-positioning",
+        "skills/smr-derivation-and-properties",
+        "skills/smr-simulation-studies",
+        "skills/smr-empirical-illustration",
+        "skills/smr-tables-figures",
+        "skills/smr-writing-style",
+        "skills/smr-software-and-reproducibility",
+        "skills/smr-submission",
+        "skills/smr-rebuttal"
+      ]
+    }
+  ]
+}

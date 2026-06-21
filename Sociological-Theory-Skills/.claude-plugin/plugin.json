@@ -1,0 +1,26 @@
+{
+  "name": "sociological-theory-skills",
+  "description": "Theory-construction skill stack for Sociological Theory (ST), the American Sociological Association's dedicated theory journal, published by SAGE. ST is a THEORY journal: it publishes new substantive theories, history of theory, metatheory, formal theory construction, and synthetic contributions — and does NOT publish empirical hypothesis-testing (that is the lane of its siblings the American Sociological Review and the American Journal of Sociology). These 12 skills cover theory-fit screening, framing a theoretical problem, positioning in a tradition (field theory, pragmatism, mechanisms, cultural sociology, Bourdieu, Luhmann), concept and proposition construction, argument validity in place of statistical robustness, boundary conditions, conceptual exhibits (typologies and mechanism diagrams, never data plots), contribution framing, ASA house style, and the double-anonymous review via Manuscript Central. Grounded in ST scholarship (Abend 2008; Reed 2008; Timmermans & Tavory 2012; Lizardo et al. 2016).",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/sociological-theory-skills",
+  "repository": "https://github.com/brycewang-stanford/sociological-theory-skills",
+  "keywords": [
+    "sociological-theory",
+    "social-theory",
+    "theory-construction",
+    "metatheory",
+    "social-mechanisms",
+    "field-theory",
+    "pragmatism",
+    "cultural-sociology",
+    "asa",
+    "sage",
+    "academic-writing",
+    "double-anonymous-review"
+  ]
+}

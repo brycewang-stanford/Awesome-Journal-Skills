@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 320" width="240" height="320">
+<rect width="240" height="320" fill="#ffffff"/>
+<rect x="5" y="5" width="230" height="310" rx="13" fill="#ffffff" stroke="#2a2a6a" stroke-width="2"/>
+<path d="M5,18 a13,13 0 0 1 13,-13 h204 a13,13 0 0 1 13,13 v60 h-230 z" fill="#2a2a6a"/>
+<text x="120" y="36" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="8.5" letter-spacing="1.5" font-weight="700" fill="#ffffff">ASA · SAGE</text>
+<text x="120" y="60" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="8" letter-spacing="1.2" fill="#ffffff" opacity="0.85">THEORY JOURNAL · AGENT SKILLS</text>
+<text x="120" y="150" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#1a1a1a">Sociological</text><text x="120" y="176" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#1a1a1a">Theory</text>
+<text x="120" y="238" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#6a6a6a">theory construction</text>
+<line x1="42" y1="276" x2="198" y2="276" stroke="#2a2a6a" stroke-width="1" opacity="0.3"/>
+<rect x="66" y="285" width="108" height="22" rx="11" fill="#2a2a6a"/>
+<text x="120" y="300" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" font-weight="700" fill="#ffffff">Theory</text>
+</svg>

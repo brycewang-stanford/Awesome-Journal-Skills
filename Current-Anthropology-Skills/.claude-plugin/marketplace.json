@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "current-anthropology-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Current Anthropology (CA), the transnational all-subfields journal whose Major Articles receive the CA✩ comment-and-reply Treatment, published by the University of Chicago Press for the Wenner-Gren Foundation.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "current-anthropology-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Current Anthropology (CA) manuscript lifecycle across all subfields, with ethnographic/qualitative inference as first-class, research ethics and accountability at the center, and the distinctive CA✩ comment-and-reply Treatment encoded into review and rebuttal.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/current-anthropology-skills",
+      "repository": "https://github.com/brycewang-stanford/current-anthropology-skills",
+      "keywords": [
+        "current-anthropology",
+        "anthropology",
+        "wenner-gren",
+        "comment-and-reply",
+        "ethnography",
+        "research-ethics",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/curranthro-workflow",
+        "skills/curranthro-topic-selection",
+        "skills/curranthro-literature-positioning",
+        "skills/curranthro-theory-building",
+        "skills/curranthro-research-design",
+        "skills/curranthro-data-analysis",
+        "skills/curranthro-tables-figures",
+        "skills/curranthro-writing-style",
+        "skills/curranthro-transparency-and-data",
+        "skills/curranthro-review-process",
+        "skills/curranthro-submission",
+        "skills/curranthro-rebuttal"
+      ]
+    }
+  ]
+}
