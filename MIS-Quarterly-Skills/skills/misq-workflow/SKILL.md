@@ -11,7 +11,7 @@ This is the router. It does not replace any specialized skill; it tells you **wh
 
 Default assumption: unless the user says otherwise, treat the target as **MIS Quarterly (MISQ)** — a leading information systems journal published by the MIS Research Center (MISRC), Carlson School of Management, University of Minnesota, and an official journal of the Association for Information Systems (AIS). It appears quarterly (March, June, September, December). MISQ is deliberately **pluralistic across four IS research traditions — behavioral, design science, economics, and organizational** — and rewards a rigorous theory contribution within any of them, including cross-tradition blends. So the first routing question is not "is the method sound?" but **"which tradition is this paper, and did the author pick the matching manuscript category?"**
 
-> Editorial team and policies change: Susan A. (Sue) Brown (University of Arizona) is the 14th Editor-in-Chief (term Jan 1, 2024 – Dec 31, 2026); verify the current masthead and the category page-limit table at misq.umn.edu. Treat any acceptance-rate or impact-factor figure as 待核实.
+> Editorial team and policies change: Susan A. (Sue) Brown (University of Arizona, Eller College of Management) is the 14th Editor-in-Chief (term began Jan 1, 2024; exact end date 待核实); verify the current masthead and the category page-limit table at misq.umn.edu. Treat any acceptance-rate or impact-factor figure as 待核实.
 
 ## When to trigger
 

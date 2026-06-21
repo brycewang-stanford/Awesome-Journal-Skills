@@ -21,7 +21,7 @@ The routing is two-tier and distinctive:
 2. if it advances, the paper goes to **external reviewers**;
 3. the **Senior Editor owns the decision**, informed by the AE's and reviewers' input.
 
-This SE-owns-the-decision structure (with the EIC overseeing) differs from INFORMS-style departmental area-editor desks; whether MISQ runs a formal area-editor desk structure is 待核实. The current Editor-in-Chief is Susan A. (Sue) Brown (University of Arizona; term Jan 1, 2024 – Dec 31, 2026) — verify the masthead before relying on it.
+This SE-owns-the-decision structure (with the EIC overseeing) differs from INFORMS-style departmental area-editor desks; whether MISQ runs a formal area-editor desk structure is 待核实. The current Editor-in-Chief is Susan A. (Sue) Brown (University of Arizona; term began Jan 1, 2024, exact end date 待核实) — verify the masthead before relying on it.
 
 ## Read the decision letter for what it actually says
 
