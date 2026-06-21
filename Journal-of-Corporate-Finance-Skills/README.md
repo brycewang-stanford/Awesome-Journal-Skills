@@ -88,7 +88,7 @@ mkdir -p ~/.codex/skills && cp -R skills/jcf-* ~/.codex/skills/
 - **Abstract**: ≤ 250 words; 1–7 keywords; no references in the abstract.
 - **References**: author-date (Harvard); "your paper, your way" (consistent style) at first submission, full Elsevier styling at revision.
 - **Data**: Elsevier "Research Data" Option C — state availability; deposit/cite code and data or explain why not.
-- **Editors-in-Chief / Co-Editors**: Evgeny Lyandres (Tel Aviv University), Alfred Lehar (University of Calgary), Christine Parlour (UC Berkeley).
+- **Co-Editors-in-Chief**: Kristine Hankins (University of Kentucky) and Heitor Almeida (University of Illinois at Urbana-Champaign); Co-Editors include Morten Bennedsen, Simi Kedia, Evgeny Lyandres, Xuan Tian, and Tracy Wang (re-verify the live roster — see source map).
 - **Perk**: free integrated SSRN preprint posting at submission.
 
 Items that could not be fully verified (e.g., a hard length limit, a separate revision fee, the current APC) are marked **待核实** in [`resources/official-source-map.md`](resources/official-source-map.md) and are not treated as load-bearing.

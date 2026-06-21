@@ -88,7 +88,7 @@ mkdir -p ~/.codex/skills && cp -R skills/jcf-* ~/.codex/skills/
 - **摘要**：≤ 250 词；1–7 个关键词；摘要内不引用文献。
 - **参考文献**：作者-年份（Harvard）；首投“your paper, your way”（风格一致即可），修回时按 Elsevier 正式排版。
 - **数据**：Elsevier “Research Data” Option C——声明可得性；存放/引用代码与数据，或说明不能共享的原因。
-- **主编 / 联合主编**：Evgeny Lyandres（特拉维夫大学）、Alfred Lehar（卡尔加里大学）、Christine Parlour（加州大学伯克利分校）。
+- **联合主编（Co-Editors-in-Chief）**：Kristine Hankins（肯塔基大学）、Heitor Almeida（伊利诺伊大学厄巴纳-香槟分校）；联合编辑（Co-Editors）包括 Morten Bennedsen、Simi Kedia、Evgeny Lyandres、Xuan Tian、Tracy Wang（在职名单请按 source map 重新核实）。
 - **福利**：投稿即可免费一体化发布 SSRN 预印本。
 
 无法完全核实的事项（如硬性篇幅上限、单独的修回费用、当前 APC）在 [`resources/official-source-map.md`](resources/official-source-map.md) 中标记为 **待核实**，不作为确定结论使用。
