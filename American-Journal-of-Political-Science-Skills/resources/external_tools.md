@@ -34,7 +34,7 @@ AJPS-specific policy in [`official-source-map.md`](official-source-map.md).
 | Source | Provider | Typical use |
 |--------|----------|-------------|
 | Elite/expert interviews, fieldnotes, archives | Author-collected | Process tracing, case studies |
-| QDR (Qualitative Data Repository) | Syracuse | Sharing/citing qualitative data; AJPS qualitative verification path |
+| Qualitative repositories / controlled-access archives | Varies | Sharing/citing qualitative data when legal, ethical, and consistent with AJPS exemption rules |
 
 ## 2. Software by method (favor scriptable, seedable, version-pinnable tools)
 
@@ -66,8 +66,8 @@ AJPS-specific policy in [`official-source-map.md`](official-source-map.md).
 - A single **master script** that runs the modular scripts in order and sets the working directory once
 - **set seed** for every stochastic step (Monte Carlo, bootstrap, jitter); explicit **software-version**
   statements (e.g., "R version 4.3.2", "Stata/MP 18.0")
-- Deposit destined for the **AJPS Dataverse on Harvard Dataverse**; verifier (Cornell Center for Social
-  Sciences for quantitative work, 待核实) re-runs the code against the **numerical results in the main
+- Deposit destined for the **AJPS Dataverse on Harvard Dataverse**; the Cornell Center for Social
+  Sciences verification route re-runs the code against the **numerical results in the main
   text** (see `ajps-replication-and-verification`)
 - Preregistration / pre-analysis plans: **OSF Registries**, EGAP, AsPredicted — share anonymized; mark
   registered vs. exploratory analyses
@@ -95,12 +95,12 @@ AJPS-specific policy in [`official-source-map.md`](official-source-map.md).
 | Review model | **Double-blind** — fully anonymize the manuscript |
 | Submission types | Article (<= 10,000 words) · Research Note (<= 4,000, methodology/meta-analysis) · Correspondence (<= 4,000) |
 | Abstract | **<= 150 words** |
-| Supporting Information | **<= 20 pages**, uploaded as "Appendix" |
+| Supporting Information | **<= 25 pages** for original submissions, uploaded as "Appendix" |
 | Verification | Third-party, **pre-publication**, re-runs code vs. main-text numbers; deposit to **AJPS Dataverse** |
 
 ## 7. Cautions
-1. **Verify volatile specifics** (current verifier, editors, exact caps, fee/APC, license, AI policy)
-   on the official AJPS / MPSA / Wiley pages — they change; unverified items are marked 待核实.
+1. **Live-check volatile specifics** (portal prompts, Wiley license/APC choices, later policy updates)
+   on the official AJPS / MPSA / Wiley pages.
 2. **Anonymize fully** — AJPS is double-blind; strip names, affiliations, acknowledgments, funding,
    conference mentions, and first-person self-citations.
 3. **Engineer reproducibility from day one** — your code will be **re-run by an independent verifier**

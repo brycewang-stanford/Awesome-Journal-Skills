@@ -47,7 +47,7 @@ counting rules — not about generating claims.
 
 ## Fit the word cap
 
-- Move balance tables, full specs, and extended robustness to the **Supporting Information** (<= 20 pp).
+- Move balance tables, full specs, and extended robustness to the **Supporting Information** (<= 25 pp for original submissions).
 - Tighten footnotes and exhibit notes — they count toward the limit.
 - Cut throat-clearing and the literature dump; engage the debate, not every paper (see
   `ajps-literature-positioning`).
@@ -57,7 +57,7 @@ counting rules — not about generating claims.
 | If over the cap... | Cut/move here first | Why it works at AJPS |
 |--------------------|---------------------|----------------------|
 | Long literature section | Engage the debate, drop the citation pile | Generalist readership wants the argument, not a survey |
-| Robustness grids in body | Move to SI (<= 20 pp) | SI is excluded from the word count |
+| Robustness grids in body | Move to SI (<= 25 pp for original submissions) | SI is excluded from the word count |
 | Bloated exhibit notes / throat-clearing intro | Tighten notes; front-load the contribution | Headers and notes count; reviewers reward an early "so what" |
 
 ## Worked micro-example (illustrative)

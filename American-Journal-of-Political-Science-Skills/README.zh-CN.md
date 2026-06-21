@@ -36,11 +36,12 @@ AJPS 的约束不同于全学科综述刊或方法刊：
 | 字数计入 | 脚注、夹注、**表/图标题与注释**、纸质附录 | 不含参考文献、摘要、在线 SI、数学符号 |
 | 摘要 | **≤ 150 词** | 背景、假设、方法、发现、结论 |
 | 体例 | **APSA 体例手册**（2018/2023 修订）**或** **Chicago 第 18 版** | 二选一；参考文献用全名 |
-| 支撑信息(SI) | **≤ 20 页**，以 "Appendix" 上传 | 把稳健性大表移出正文 |
+| 支撑信息(SI) | 原始投稿 **≤ 25 页**，以 "Appendix" 上传 | 把稳健性大表移出正文 |
 | **验证** | **发表前第三方** 重跑代码核对正文数值 | 从第一天就工程化可复现——它是发表关口 |
 
-易变信息（现任验证者、编辑与任期、确切上限、费用/APC、许可、AI 政策）会变化——未直接核实项在
-[`resources/official-source-map.md`](resources/official-source-map.md) 中标 **待核实**。**请以官方页面为准。**
+**官方依据核对于 2026-06-20**：AJPS 稿件指南、准备指南、投稿页、录用稿指南、验证政策、AI 政策、
+编辑名单、MPSA 与 Dataverse 页面。上传字段、Wiley 许可/开放获取选择和后续政策更新需在
+[`resources/official-source-map.md`](resources/official-source-map.md) 所列官方页 live-check。
 
 ### 招牌差异点：第三方验证
 
@@ -48,8 +49,7 @@ AJPS 的约束不同于全学科综述刊或方法刊：
 验证者确认代码能复现**正文中的数值结果**。发表的文章随后会附一句类似
 *"The Cornell Center for Social Sciences verified that the data and replication code submitted to the
 AJPS Dataverse replicates the numerical results reported in the main text of this article."* 的声明。
-定量验证者已从 **Odum Institute**（合同 2023 年到期）过渡到 **Cornell Center for Social Sciences**；
-定性工作历史上经 **Qualitative Data Repository (QDR)**（雪城）。两项均标 **待核实**——请核对官方政策页。
+定性与混合方法工作应按 AJPS 定性检查表、访问控制与豁免路径处理，而不是套用通用开放数据模板。
 
 ### 三种投稿类型
 
@@ -134,13 +134,13 @@ ajps-rebuttal
 | `ajps-writing-style` | 字数上限、APSA/Chicago 体例、完全匿名 |
 | `ajps-replication-and-verification` | 提交 AJPS Dataverse 的第三方验证包（招牌技能） |
 | `ajps-review-process` | 双盲评审、决定类别、接受后的验证流程 |
-| `ajps-submission` | Editorial Manager 投稿前检查（匿名、字数、SI ≤ 20 页、IRB） |
+| `ajps-submission` | Editorial Manager 投稿前检查（匿名、字数、SI ≤ 25 页、IRB） |
 | `ajps-rebuttal` | 面向多位评审 + 编辑、保持匿名且可重跑的 R&R 回应 |
 
 ### 资源
 
 - [`resources/external_tools.md`](resources/external_tools.md) — 政治学数据源（ANES / CES / V-Dem / CSES / COW / ACLED / MARPOR）+ R / Stata / Python 工具与复现包规范
-- [`resources/official-source-map.md`](resources/official-source-map.md) — 每条事实背后的 AJPS / MPSA / Wiley 官方 URL，未核实项标 待核实
+- [`resources/official-source-map.md`](resources/official-source-map.md) — 每条事实和 live-check 项背后的 AJPS / MPSA / Wiley / Dataverse 官方 URL
 
 ---
 
@@ -148,7 +148,7 @@ ajps-rebuttal
 
 - 不替你写出可直接投稿的稿件
 - 不模拟任何特定编辑或评审人的口味
-- 不臆断易变元数据（现任验证者、编辑与任期、确切上限、费用/APC、许可、AI 政策）——请以官方页面为准；未核实项标 待核实
+- 不冻结易变元数据（上传字段、Wiley 许可/APC 选项、后续政策更新）——投稿前请 live-check 官方页面
 - 不替你跑或通过验证——那是第三方验证者的工作；本包只帮你准备好材料包
 
 ---

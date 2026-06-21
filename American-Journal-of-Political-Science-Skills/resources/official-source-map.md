@@ -1,115 +1,161 @@
 # AJPS Official Source Map
 
-Primary and authoritative sources behind the AJPS-specific facts injected into this skill pack.
-Access date for all entries: **2026-06-01**. Re-verify volatile items (current verifier, editors and
-editorial term, exact word/abstract caps, fee/APC, license requirement, policy wording) on the
-official page before relying on them — journal and policy pages change. The publisher site
-(`onlinelibrary.wiley.com`) frequently returns HTTP 402/403 to automated fetches; items below that
-could not be page-verified that way are flagged accordingly and cross-checked against the
-editor-run `ajps.org` site.
+Primary and authoritative sources behind AJPS-specific facts used in this skill
+pack. **Access date for all entries: 2026-06-20.** Current factual baseline comes
+from the AJPS editorial site, MPSA pages, Harvard Dataverse, and current AJPS PDF
+verification guidance. Live-check volatile details such as Editorial Manager
+prompts, Wiley production/license options, and any later policy revisions before
+submission.
 
-## Official journal, submission & author pages
+## Official Journal, Submission, and Author Pages
 
-- **https://ajps.org/** — American Journal of Political Science editorial home (editor-run site).
-  Verifies: AJPS is the **flagship journal of the Midwest Political Science Association (MPSA)** and
-  is **published by Wiley**.
-- **https://ajps.org/guidelines-for-manuscripts/** — Guidelines for Manuscripts. Verifies:
-  **double-blind review process**; three submission types — **Articles (<= 10,000 words)**,
-  **Research Notes (<= 4,000 words)** confined to **methodology papers (including methodology in
-  normative political theory) and meta-analyses**, and **Correspondence (<= 4,000 words)** for
-  critical responses to previously published AJPS work; Correspondence raising only a relatively
-  minor error (e.g., mislabeled variable, misreported result, coding error) may be desk-rejected.
-- **https://ajps.org/guidelines-for-manuscripts/manuscript-preparation/** — Manuscript Preparation.
-  Verifies: Article word limit **10,000**, Research Note / Correspondence **4,000**; the word count
-  **includes** the main body, notes, parenthetical references, appendices intended for print, and the
-  headers and notes of tables and figures, and **excludes** the title page, abstract, reference
-  section, online Supporting Information, and mathematical notation; **abstract <= 150 words**
-  covering background, hypotheses, methodological approach, findings, and conclusions; manuscripts
-  must exclude **any author-identifying information** (names, affiliations, acknowledgments,
-  conference presentations, funding statements, first-person self-citations — use third-person
-  self-citation); style follows the **APSA Style Manual for Political Science** (revised 2018, updated
-  2023) **or** **The Chicago Manual of Style (18th edition)**; double-spaced, 12-point font,
-  >= one-inch margins; references list authors' **full first and last names**, alphabetical; the title
-  page must include the abstract and word count.
-- **https://ajps.org/guidelines-for-manuscripts/submit-manuscript/** — Submit Manuscript. Verifies:
-  submission via **Editorial Manager** at **http://www.editorialmanager.com/ajps/**; required files
-  include **one anonymous manuscript** (PDF / Word / LaTeX), an anonymous **response memorandum** for
-  revisions, and **Supporting Information (SI) of <= 20 pages** uploaded as an "Appendix"; detailed
-  **human-subjects / IRB** requirements (IRB approval or exemption where an author has IRB access; an
-  appendix of questions otherwise; not required when relying on publicly available data that received
-  IRB approval at original collection).
-- **https://onlinelibrary.wiley.com/page/journal/15405907/homepage/forauthors.html** — Wiley Online
-  Library "For Authors" page for AJPS (publisher home). NOTE: returned HTTP 402 to automated fetch on
-  the access date — **not page-verified**; publisher = **Wiley** confirmed via ajps.org. 待核实.
+- **https://ajps.org/** — AJPS editorial home. Verifies: AJPS is the flagship
+  journal of the Midwest Political Science Association (MPSA), published by
+  Wiley; lead editors are Adam Berinsky (MIT) and Dan Reiter (Emory); current
+  associate editors and managing editor Julia Salvatore; online ISSN 1540-5907;
+  current issue and 2025 Clarivate ranking; current posts on pre-analysis-plan
+  reporting, AI policy, Correspondence, conflict of interest, Research Notes,
+  and editorial principles.
+- **https://ajps.org/guidelines-for-manuscripts/** — Guidelines for Manuscripts,
+  updated March 2026. Verifies: AJPS seeks outstanding theoretical, empirical,
+  or methodological contributions in any political-science subfield; non-review
+  conditions such as missing IRB approval, concurrent review, prior AJPS review,
+  publication elsewhere, or anonymity failure; submission types and limits:
+  Articles at 10,000 words, Research Notes at 4,000 words and confined to
+  methodology papers or meta-analyses, Correspondence at 4,000 words for
+  challenges to central claims in recently published AJPS work; original author
+  response to Correspondence capped at 2,000 words; double-blind review; advisory
+  reviews with publication decisions made by coeditors; appeal route.
+- **https://ajps.org/guidelines-for-manuscripts/manuscript-preparation/** —
+  Manuscript Preparation, revised 2025-12-12. Verifies: manuscripts that fail
+  formatting/submission guidelines are not sent for review; Article and Research
+  Note word caps; title page must include an abstract of no more than 150 words
+  and manuscript word count; verification materials for tentatively accepted
+  manuscripts must reproduce all manuscript and immediate supporting-material
+  results before final acceptance and publication; authors should contact the
+  editorial office before submission if data limits or verification exceptions
+  may be needed; manuscripts must describe research designs and results
+  consistently across text, supporting information, and pre-analysis plans; word
+  count includes main body, notes, parenthetical references, print appendices,
+  and headers/notes of tables and figures, and excludes title page, abstract,
+  references, online SI, and mathematical notation; APSA Style Manual 2018
+  updated 2023 or Chicago Manual of Style 18th edition; double-spaced 12-point
+  text and one-inch margins; full first and last names in references; strict
+  anonymity rules including third-person self-citation and no placeholders in
+  most cases; tables/figures encouraged in text for review; statistical
+  significance threshold no greater than 0.05; SI must be cited in text, must be
+  organized with title page and table of contents, and original-submission SI
+  limit is 25 pages; anonymized PAPs may be submitted separately with no length
+  limit and do not count against SI pages.
+- **https://ajps.org/guidelines-for-manuscripts/submit-manuscript/** — Submit
+  Manuscript, updated 2022-02-24. Verifies: submission via Editorial Manager;
+  corresponding-author role; required author names/emails, dissertation-committee
+  and five-year coauthor conflict information, abstract text, opposed reviewers,
+  research subfield, keywords, and original manuscript number for revisions;
+  human-subjects/IRB documentation rules; one anonymous manuscript file; anonymous
+  response memorandum attached to revised manuscripts; Author Comments field is
+  the place for acknowledgments, presentation details, and editor comments during
+  review; SI is uploaded as an Appendix and files designated "other" are not
+  accessible to referees. This older page still mentions a 20-page SI limit; use
+  the revised Manuscript Preparation page and 2026 policy post for the current
+  25-page original-submission SI rule, then live-check Editorial Manager prompts.
+- **https://ajps.org/guidelines-for-accepted-articles/** — Guidelines for
+  Accepted Articles, revised 2026-04-09. Verifies: accepted manuscripts must
+  provide replication materials sufficient to reproduce all analytic results in
+  text and supporting materials; all replication files must be stored in an AJPS
+  Dataverse dataset on Harvard Dataverse; authors receive upload instructions
+  during the technical-check process; after final-draft acceptance, replication
+  materials are verified before public dataset release and before copyediting;
+  final manuscript title page, abstract page, verification-materials statement,
+  Cornell Center for Social Sciences verification statement, word-count rule for
+  final drafts, references, table/figure placement, MS Word plus PDF final files,
+  pre-submission re-run on a different computer where possible, Wiley license and
+  proof process.
+- **https://ajps.org/ajps-verification-policy/** — AJPS Verification Policy.
+  Verifies: accepted authors must provide materials sufficient to verify all
+  analytic results in text and supporting materials; all files must be stored in
+  the AJPS Dataverse; materials are prepared before final draft submission; final
+  draft triggers verification; publication depends on complete materials and
+  successful verification; non-empirical articles are outside this policy;
+  limited exemptions require editor approval and a published data-availability
+  note.
+- **https://ajps.org/wp-content/uploads/2023/06/ajps_verification-guidelines-NEW.pdf**
+  — Guidelines for Preparing Verification Files, 2023-06-01. Verifies: accepted
+  authors provide verification files before production; files live in AJPS
+  Dataverse; verification materials cover main article and SI; every dataset
+  includes `readme.txt`; analysis data, codebook, command files, required
+  packages, software versions, seeds, and meaningful file names; quantitative and
+  qualitative requirements; restricted-access, future-research, and human-subjects
+  exemption routes.
+- **https://ajps.org/wp-content/uploads/2023/06/ajps-quant-data-checklist-ver-NEW.pdf**
+  — Quantitative Data Verification Checklist. Verifies: README, codebook,
+  software versions, source-data references, analysis datasets in accessible
+  formats, commands for all tables/figures/analytic results in article and
+  supplementary materials, package-install instructions, comments, seeds, and
+  additional replication tools.
+- **https://ajps.org/wp-content/uploads/2018/05/ajps_qualitative-data-checklist-1-0.pdf**
+  — Qualitative Data Verification Checklist. Verifies: qualitative verification
+  checklist for AJPS Dataverse submissions before production; README, procedure
+  documentation, data-collection context, instruments, transparency material, and
+  analytic-process documentation.
+- **https://ajps.org/ajps-ai-policy/** — AJPS AI Policy, updated 2026-04-10.
+  Verifies: authors must disclose AI use in manuscript text or footnotes and in
+  the Author Questionnaire; disclosure should identify tasks, tools, provider,
+  version or dates, and human oversight; authors should avoid using AI to draft
+  the manuscript or substantial elements such as literature review, theory, or
+  interpretation; authors remain responsible for accuracy; reviewers may use AI
+  only for normal workflow support and may not use AI to evaluate a paper or
+  write any part of a report.
+- **https://ajps.org/editorial-board/** — AJPS Editorial Board. Verifies current
+  lead editors, associate editors, editorial board, managing editor, contact, and
+  current online ISSN / Clarivate ranking.
+- **https://dataverse.harvard.edu/dataverse/ajps** — AJPS Dataverse on Harvard
+  Dataverse. Verifies the repository location for AJPS verification datasets.
 
-## Replication & Verification policy (AJPS's signature differentiator)
-
-- **https://ajps.org/ajps-replication-policy/** — AJPS Replication & Verification Policy hub. Verifies
-  the existence of: Guidelines for Verification Files, a **Quantitative Data Verification Checklist**,
-  a **Qualitative Data Verification Checklist**, an **AJPS AI Policy**, and that the designated
-  repository is the **AJPS Dataverse**.
-- **https://ajps.org/ajps-verification-policy/** — AJPS Verification Policy. Verifies: replication
-  materials must be deposited in **a Dataset within the AJPS Dataverse, on the Harvard Dataverse
-  Network**; materials must be sufficient to reproduce **all analytic results reported in the text and
-  supporting materials**; "**When the final draft of the manuscript is submitted, the materials will
-  be verified**"; publication depends on "**successful verification of their content**" — i.e.,
-  verification is **pre-publication and third-party**, AJPS's signature differentiator vs. in-house
-  checks.
-- **https://ajps.org/guidelines-for-accepted-articles/** — Guidelines for Accepted Articles. Verifies:
-  the published verification statement reads "**The Cornell Center for Social Sciences verified that
-  the data and replication code submitted to the AJPS Dataverse replicates the numerical results
-  reported in the main text of this article.**"; authors receive replication-upload instructions
-  **after the final draft is submitted, during the technical-check process**, and **before
-  copyediting begins**.
-- **https://ajps.org/wp-content/uploads/2018/05/ajps_replication-guidelines-2-1.pdf** — Guidelines for
-  Preparing Replication Files (v2.1). Verifies file conventions: a plain-text **readme.txt** listing
-  and describing every file; a **master script** that runs the modular scripts in order and sets the
-  working directory once; **set seed** for any random-number step (Monte Carlo, bootstrap, jitter);
-  explicit **software version** statements (e.g., "R version 3.2.2", "Stata/MP 14.1").
-- **https://ajps.org/2016/11/22/qdr-and-the-ajps-replication-policy/** — QDR and the AJPS Replication
-  Policy. Verifies: **qualitative** verification is facilitated by the **Qualitative Data Repository
-  (QDR) at Syracuse University**; QDR generally does **not** disseminate qualitative data under an
-  open license (e.g., CC0) given data sensitivity.
-- **https://dataverse.harvard.edu/dataverse/ajps** — American Journal of Political Science collection
-  on **Harvard Dataverse** (the AJPS Dataverse). Verifies: replication materials are hosted on Harvard
-  Dataverse. (Confirm the exact collection slug on the live page.)
-
-## Editors, owner, publisher, history
+## MPSA Owner and Editorial-Term Pages
 
 - **https://www.mpsanet.org/about/governance/public-statements-and-letters/mpsa-announces-selection-of-ajps-editorial-team/**
-  — MPSA announcement of the incoming AJPS editorial team. Verifies: incoming Lead Editors
-  **Adam Berinsky (MIT)** and **Dan Reiter (Emory University)**, succeeding the prior team when its
-  term expired in **summer 2025**; owner = **MPSA**.
-- **https://ajps.org/editorial-board/** — AJPS Editorial Board (current masthead).
+  — MPSA announcement of incoming editorial team. Verifies: MPSA selected Adam
+  Berinsky and Dan Reiter as co-editors-in-chief to succeed the prior team when
+  its term expired in summer 2025; MPSA owns AJPS; AJPS is the MPSA flagship and
+  published by Wiley; journal has been published since May 1957 and appears in
+  January, April, July, and October.
 - **https://www.mpsanet.org/about/governance/public-statements-and-letters/editorial-search-american-journal-of-political-science-2025-2029/**
-  — Editorial Search, AJPS (2025-2029). Verifies the **2025-2029** editorial-term framing.
-- **https://en.wikipedia.org/wiki/American_Journal_of_Political_Science** — Verifies: AJPS is the
-  MPSA's flagship journal, published by Wiley; general-interest political-science journal.
+  — MPSA editorial search page for 2025-2029. Verifies: editorial-team term may
+  be three or four years beginning June 2025, with annual renewal possibilities;
+  MPSA contracts with the Cornell Center for Social Sciences for replication and
+  verification of accepted manuscripts; AJPS historically receives over 1,200
+  submissions per year; Wiley contract runs through 2026.
 
-## UNVERIFIED / 待核实 items
+## Facts Used in the Skills
 
-- **Current quantitative verifier**: the live policy pages still reference the historical workflow,
-  but the **Odum Institute (UNC Chapel Hill)** terminated verification for all clients effective
-  **31 December 2023**, and the **Cornell Center for Social Sciences (CCSS)** took over from
-  **1 January 2024** (confirmed by the published verification statement on the accepted-articles
-  page). Treat **CCSS** as the current quantitative verifier and re-confirm on the live policy page.
-  待核实.
-- **Current qualitative verification status**: historically facilitated by **QDR (Syracuse)**;
-  confirm whether QDR remains the qualitative verifier under the current editorial team. 待核实.
-- **License requirement (CC0)**: Dataverse recommends CC0 for quantitative datasets, but AJPS does
-  not clearly mandate CC0 on the verification page, and QDR does not use open licenses for
-  qualitative data. Confirm the exact license requirement on the live policy / replication-file
-  guidelines. 待核实.
-- **ORCID requirement**: not stated on the pages fetched. Confirm whether ORCID is required for the
-  corresponding author on the live submission page. 待核实.
-- **Submission fee / open-access APC**: no submission fee is stated; any Gold/Hybrid open-access APC
-  is handled by **Wiley** after acceptance and was not page-verified (Wiley page returned HTTP 402).
-  待核实.
-- **Editorial term exact dates**: the Berinsky-Reiter term is framed as **2025-2029** with the prior
-  team's term ending summer 2025; confirm exact start/end dates and the masthead on the live
-  editorial-board page. 待核实.
-- **Exact desk-rejection rate, time-to-decision, number of reviewers, annual submission count**: not
-  stated as fixed figures on the policy page (a 2024 editor report cited ~1,187 submissions in 2023).
-  待核实.
-- **AJPS AI Policy wording**: linked from the replication-policy hub but contents not page-verified.
-  Confirm on the live page before relying on it. 待核实.
+| Fact | Official source |
+| --- | --- |
+| AJPS is MPSA's flagship journal, published by Wiley; online ISSN 1540-5907 | AJPS home / editorial board / MPSA announcement |
+| Lead editors Adam Berinsky and Dan Reiter; managing editor Julia Salvatore | AJPS home / editorial board / MPSA announcement |
+| Double-blind review and strict anonymity rules | Guidelines for Manuscripts / Manuscript Preparation / Submit Manuscript |
+| Article 10,000 words; Research Note 4,000 words; Correspondence 4,000 words; original-author response 2,000 words | Guidelines for Manuscripts |
+| Research Notes confined to methodology papers, methodology in normative theory, and meta-analyses | Guidelines for Manuscripts |
+| Correspondence confined to challenges to central claims of recently published AJPS work | Guidelines for Manuscripts |
+| Abstract no more than 150 words; title page carries abstract and word count | Manuscript Preparation |
+| Word-count inclusions and exclusions for submitted manuscripts | Manuscript Preparation |
+| Original-submission SI limit now 25 pages; PAPs separate with no length limit | Manuscript Preparation / AJPS home policy post |
+| Submission via Editorial Manager; anonymous manuscript and anonymous revision memorandum | Submit Manuscript |
+| Human-subjects/IRB requirements and public-data exception | Submit Manuscript / Guidelines for Manuscripts |
+| PAP/transparency policy: no PAP requirement, no strict adherence requirement, but discrepancies must be noted | AJPS home / Manuscript Preparation |
+| Third-party pre-publication verification in AJPS Dataverse | Verification Policy / Accepted Article Guidelines / Verification Guidelines |
+| Cornell Center for Social Sciences verifier statement and MPSA-Cornell contract | Accepted Article Guidelines / MPSA editorial search page |
+| Quantitative README/codebook/software-version/seed/command-file requirements | Verification Guidelines / Quantitative Checklist |
+| Qualitative transparency materials and checklist | Verification Guidelines / Qualitative Checklist |
+| AI disclosure requirements for authors and AI limits for reviewers | AJPS AI Policy |
+
+## Live-Check Items Before Submission
+
+- Confirm Editorial Manager upload prompts, file designations, author metadata,
+  and whether the portal itself displays any older SI page-limit text.
+- Confirm the active Wiley production/license route and any open-access APC
+  choice after acceptance.
+- Confirm any new AJPS verification-document updates, because the verification
+  policy page notes that policy-document updates are expected.
+- Confirm editor/coeditor conflict information using the live editorial-board and
+  conflict-policy pages immediately before submitting.

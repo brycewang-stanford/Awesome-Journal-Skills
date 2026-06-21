@@ -1,6 +1,6 @@
 ---
 name: ajps-submission
-description: Use when running the final pre-submission preflight for the American Journal of Political Science (AJPS) via Editorial Manager — submission-type selection, full anonymizing for double-blind review, word/abstract caps, APSA-or-Chicago formatting, the 20-page Supporting Information limit, and human-subjects/IRB documentation. Final checks; it does not draft content.
+description: Use when running the final pre-submission preflight for the American Journal of Political Science (AJPS) via Editorial Manager — submission-type selection, full anonymizing for double-blind review, word/abstract caps, APSA-or-Chicago formatting, the 25-page Supporting Information limit, and human-subjects/IRB documentation. Final checks; it does not draft content.
 ---
 
 # Submission Preflight (ajps-submission)
@@ -8,7 +8,7 @@ description: Use when running the final pre-submission preflight for the America
 The last check before pressing submit on **Editorial Manager** (`editorialmanager.com/ajps`). AJPS is
 **double-blind**, so the most common avoidable failure is an under-anonymized manuscript — and AJPS's
 anonymizing rules are strict (no acknowledgments, funding lines, or conference mentions, third-person
-self-citation). Verify volatile specifics on the official page before relying on them.
+self-citation). Official AJPS baseline checked 2026-06-20; live-check Editorial Manager prompts before upload.
 
 ## When to trigger
 
@@ -16,7 +16,7 @@ self-citation). Verify volatile specifics on the official page before relying on
 - Unsure which files/metadata Editorial Manager expects
 - Confirming the chosen type's cap is met and the manuscript is fully anonymized
 
-## Process facts (verify volatile items on the official page)
+## Process facts (official baseline checked 2026-06-20)
 
 - **Owner / publisher:** Midwest Political Science Association (MPSA) / **Wiley**.
 - **Portal:** **Editorial Manager** (`http://www.editorialmanager.com/ajps/`).
@@ -29,11 +29,11 @@ self-citation). Verify volatile specifics on the official page before relying on
   title page, abstract, reference list, online Supporting Information, and math notation.
 - **Style:** **APSA Style Manual** (rev. 2018, updated 2023) **or** **Chicago 18th ed.**; full first +
   last names in references; double-spaced, 12-point, >= one-inch margins.
-- **Supporting Information:** **<= 20 pages**, uploaded as "Appendix".
+- **Supporting Information:** **<= 25 pages** for original submissions, uploaded as "Appendix"; anonymized PAPs are separate and do not count against SI pages.
 - **Human subjects:** IRB approval/exemption where an author has IRB access, else an appendix answering
   the human-subjects questions; not required when relying on publicly available data approved at
   original collection.
-- **Fee / ORCID:** no submission fee stated; ORCID requirement not confirmed — **待核实**.
+- **Live-check:** confirm any fee, ORCID, Wiley-license/open-access, or portal-specific prompt during upload/production.
 
 ## Preflight checklist
 
@@ -50,7 +50,7 @@ self-citation). Verify volatile specifics on the official page before relying on
 
 ### Files & format
 - [ ] One **anonymous manuscript** (PDF / Word / LaTeX)
-- [ ] Supporting Information (if any) <= 20 pages, uploaded as "Appendix"
+- [ ] Supporting Information (if any) <= 25 pages, uploaded as "Appendix"; PAP separate if used
 - [ ] APSA **or** Chicago 18th style applied consistently; full names in references
 
 ### Compliance & reproducibility
@@ -65,7 +65,7 @@ self-citation). Verify volatile specifics on the official page before relying on
 |---------|----------------|---------------|
 | Manuscript not anonymized (names, acknowledgments, funding) | Double-blind breach return | Strip identifying text and file metadata |
 | Short empirical paper sent as a Research Note | Wrong-type return | Route as an Article; the Note is methodology/meta-analysis only |
-| Over the word cap, or SI over 20 pages | Returned to re-fit | Recount with notes/captions; trim SI |
+| Over the word cap, or SI over 25 pages | Returned to re-fit | Recount with notes/captions; trim SI |
 
 ## Worked micro-example (illustrative)
 
@@ -82,16 +82,15 @@ Dataverse pending verification.
 - *"The manuscript still names the authors."* -> Re-anonymize and strip document properties.
 
 Calibration anchor: AJPS is Wiley-published for the MPSA, uses Editorial Manager, and is double-blind with a
-strict anonymizing standard; treat the fee, ORCID requirement, and exact caps as volatile and confirm
-against the journal's current guidelines.
+strict anonymizing standard; confirm portal-specific prompts against the live Editorial Manager workflow.
 
 ## Anti-patterns
 
 - Leaving acknowledgments, funding lines, conference mentions, or first-person self-cites in the text
 - Abstract over 150 words; no word count on the title page
 - Sending a short empirical study as a methodology-only Research Note
-- Supporting Information over 20 pages
-- Budgeting for a submission fee that is not charged (verify)
+- Supporting Information over 25 pages on an original submission
+- Treating Wiley production/license choices as settled before acceptance
 
 ## Output format
 
@@ -101,7 +100,7 @@ against the journal's current guidelines.
 【Abstract】word count (<=150)
 【Word count on title page】incl. notes + table/figure captions? [Y/N]
 【Style】APSA or Chicago 18th, consistent, full names? [Y/N]
-【SI】<= 20 pages? [Y/N/NA]
+【SI】<= 25 pages? [Y/N/NA]
 【IRB】human-subjects documentation ready? [Y/N/NA]
 【Next】await decision -> ajps-rebuttal on R&R
 ```

@@ -39,12 +39,13 @@ AJPS's constraints differ from a discipline-wide review or a methods journal:
 | Word count includes   | Notes, parenthetical refs, **table/figure headers and notes**, print appendices| Excludes refs, abstract, online SI, math notation                |
 | Abstract              | **<= 150 words**                                                              | Background, hypotheses, approach, findings, conclusions          |
 | Style                 | **APSA Style Manual** (rev. 2018/2023) **or** **Chicago 18th ed.**             | Pick one; full first + last names in references                  |
-| Supporting Information| **<= 20 pages**, uploaded as "Appendix"                                        | Push robustness grids out of the main text                       |
+| Supporting Information| **<= 25 pages** for original submissions, uploaded as "Appendix"               | Push robustness grids out of the main text                       |
 | **Verification**      | **Third-party, PRE-publication** re-run of your code vs. main-text numbers      | Engineer reproducibility from day one — it gates publication     |
 
-Volatile specifics (current verifier, editors and term, exact caps, fee/APC, license, AI policy) change
-— items not directly confirmed are marked **待核实** in
-[`resources/official-source-map.md`](resources/official-source-map.md). **Verify on the official page.**
+**Official basis checked 2026-06-20:** AJPS manuscript, preparation, submission, accepted-article,
+verification, AI-policy, editorial-board, MPSA, and Dataverse pages. Live-check portal prompts, Wiley
+license/open-access choices, and any later policy updates via
+[`resources/official-source-map.md`](resources/official-source-map.md).
 
 ### The signature differentiator: third-party verification
 
@@ -52,11 +53,9 @@ Many journals ask for a replication package; AJPS **independently re-runs it bef
 acceptance, you deposit data and code to the **AJPS Dataverse**, and a verifier confirms the code
 reproduces the **numerical results in the main text**. The published article then carries a statement
 such as *"The Cornell Center for Social Sciences verified that the data and replication code submitted
-to the AJPS Dataverse replicates the numerical results reported in the main text of this article."* The
-quantitative verifier transitioned from the **Odum Institute** (contract ended 2023) to the **Cornell
-Center for Social Sciences**; qualitative work is historically routed through the **Qualitative Data
-Repository (QDR)** at Syracuse. Both items are marked **待核实** — confirm the current verifiers on the
-live policy page.
+to the AJPS Dataverse replicates the numerical results reported in the main text of this article."*
+Qualitative and multi-method work follows the AJPS qualitative checklist and access-control/exemption
+rules rather than a generic open-data recipe.
 
 ### Three submission types
 
@@ -142,13 +141,13 @@ re-runs your code, and an unscripted analysis cannot be repaired under deadline.
 | `ajps-writing-style`                 | Word caps, APSA-or-Chicago style, full anonymizing                            |
 | `ajps-replication-and-verification`  | Third-party verified package to the AJPS Dataverse (the distinctive skill)    |
 | `ajps-review-process`                | Double-blind review, decision categories, verification-after-acceptance       |
-| `ajps-submission`                    | Editorial Manager preflight (anonymity, word count, SI <= 20 pp, IRB)         |
+| `ajps-submission`                    | Editorial Manager preflight (anonymity, word count, SI <= 25 pp, IRB)         |
 | `ajps-rebuttal`                      | R&R memorandum for multiple reviewers + editor, kept anonymous and re-runnable|
 
 ### Resources
 
 - [`resources/external_tools.md`](resources/external_tools.md) — political-science data sources (ANES / CES / V-Dem / CSES / COW / ACLED / MARPOR) + R / Stata / Python tooling and replication-package conventions
-- [`resources/official-source-map.md`](resources/official-source-map.md) — official AJPS / MPSA / Wiley URLs behind every fact, with 待核实 markers on unverified items
+- [`resources/official-source-map.md`](resources/official-source-map.md) — official AJPS / MPSA / Wiley / Dataverse URLs behind every fact and live-check item
 
 ---
 
@@ -156,7 +155,7 @@ re-runs your code, and an unscripted analysis cannot be repaired under deadline.
 
 - It does not write a submittable manuscript for you
 - It does not simulate any specific editor's or reviewer's taste
-- It does not assert volatile metadata (current verifier, editors and term, exact caps, fee/APC, license, AI policy) — verify on the official page; unverified items are marked 待核实
+- It does not freeze volatile metadata (portal prompts, Wiley license/APC choices, future policy updates) — live-check official pages before submission
 - It does not run or pass the verification for you — that is the third-party verifier's job; this pack only prepares the package
 
 ---
