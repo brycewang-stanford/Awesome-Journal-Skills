@@ -41,6 +41,25 @@ over-read a panel correlation as causal. The standard is modern, transparent, an
 | Differential missingness | sample changes by regime type | report attrition; multiple imputation with caution |
 | Time-series confounding | spurious trend correlations | unit + period FE; over-time placebo |
 
+## Failure-mode audit
+
+Run this audit before interpreting the main coefficient:
+
+- **Concept equivalence:** Does the key variable mean the same thing across regimes, languages, regions, or
+  institutions? If not, report measurement-invariance checks, alternative codings, or scope limits.
+- **Selection into observation:** Are only more democratic, richer, more peaceful, or better-measured
+  cases observed? Report the observation process and show how estimates change under credible sample
+  restrictions.
+- **Temporal dependence:** Are observations mechanically persistent across years? Use lag structure,
+  unit trends, event-time plots, or placebo leads to avoid re-labeling persistence as effect.
+- **Cluster leverage:** Does one country, region, election, conflict, or reform episode drive the result?
+  Show leave-one-cluster-out or influence diagnostics for claims that hinge on few cases.
+- **Subgroup multiplicity:** If theory predicts heterogeneity, pre-specify the dimensions and report how
+  many comparisons were examined.
+
+The output should connect each failure mode to a design threat. Do not add a robustness table unless it
+answers a named threat in `cps-research-design`.
+
 ## Checklist
 
 - [ ] Headline specification = the one the design justifies
@@ -66,6 +85,7 @@ over-read a panel correlation as causal. The standard is modern, transparent, an
 【Headline result】estimate + CI, with the design it rests on
 【Inference】clustering level + few-cluster correction if any
 【Measurement】sources/codings + alt-coding robustness
+【Failure-mode audit】concept equivalence / observation selection / temporal dependence / cluster leverage / multiplicity
 【Robustness】the design-threats probed
 【Heterogeneity】theory-driven subgroups + multiple-testing fix
 【Reproducible?】script regenerates every exhibit [Y/N]

@@ -44,6 +44,22 @@ advice on how to proceed.
 - Stage the **public data-and-code package**; it is a condition of publication (see
   `jpart-transparency-and-data`).
 
+## Desk-screen ledger
+
+Before submission, fill this ledger in one sitting. Empty cells predict desk rejection or a painful first
+round.
+
+| Screen | Evidence in manuscript | Failure signal |
+|--------|------------------------|----------------|
+| Theory contribution | Intro names the PA theory, mechanism, and contribution type | "Public sector setting" substitutes for theory |
+| Venue fit | Literature review locates the paper inside a JPART conversation | Main payoff is a policy estimate, practice essay, or institutions paper |
+| Design credibility | Identification, measurement, and scope conditions match the claim | Threats are deferred to limitations or appendix only |
+| Mechanism evidence | Exhibits or qualitative/process evidence distinguish rival explanations | Results section reports only average treatment/correlation |
+| Transparency readiness | Data/code release path and restrictions are staged | Replication plan begins after acceptance |
+
+Treat the ledger as an editorial simulation: if a skeptical editor can summarize the paper as "interesting
+result, unclear PA theory," route back to `jpart-theory-building` before submission.
+
 ## Anti-patterns
 
 - Submitting a strong-empirics, no-theory paper to a theory-and-research journal (theory desk reject)
@@ -55,6 +71,7 @@ advice on how to proceed.
 
 ```
 【Desk-rejection check】theory / fit / rigor — any red flags?
+【Desk-screen ledger】theory / venue / design / mechanism / transparency all filled? [Y/N]
 【Theory contribution explicit?】[Y/N]
 【JPART fit vs PAR/JPAM/Governance】[Y/N]
 【Realistic outcome】reject / R&R / (rare) accept

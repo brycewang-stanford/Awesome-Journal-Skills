@@ -36,6 +36,19 @@ theory** — the paper should follow the same arc.
 - **Anonymize:** JPART is **double-blind** — omit your name and funding from the manuscript, cite your own
   work in the third person, and keep acknowledgments/funding on the cover sheet only.
 
+## Abstract stress test
+
+Draft the abstract as four disciplined sentences before polishing the manuscript:
+
+1. **Theory:** What public-management theory or mechanism is at stake?
+2. **Method/data:** What design, case, sample, and data identify or illuminate the mechanism?
+3. **Result:** What is the directional, substantive finding in units a reader can understand?
+4. **Implication for theory:** What should the field believe, qualify, or test differently?
+
+If sentence 1 could describe any public-sector setting, the paper is not framed tightly enough. If
+sentence 4 says only "policy implications," route back to `jpart-topic-selection` or
+`jpart-theory-building`.
+
 ## Fit the word cap (~12,000 words including abstract, tables, references)
 
 - Move balance tables, full specs, and extended robustness to the **online supplement**.
@@ -43,6 +56,17 @@ theory** — the paper should follow the same arc.
   `jpart-literature-positioning`).
 - Because the cap counts *references*, prune citation padding; keep the works that constitute the debate.
 - Prefer one decisive marginal-effects figure to three redundant tables.
+
+Cut in this order when over budget:
+
+1. Generic PA throat-clearing that does not define the mechanism.
+2. Literature paragraphs with no role in the contribution claim.
+3. Redundant robustness prose already visible in tables or supplement.
+4. Repeated method description across text, exhibit notes, and appendix.
+5. Secondary mechanisms that cannot be adjudicated by the design.
+
+Do not cut the theory contribution, scope conditions, or design limits; those are what make the paper
+reviewable at JPART.
 
 ## Anti-patterns
 
@@ -58,6 +82,7 @@ theory** — the paper should follow the same arc.
 【Theory stated by end of intro?】[Y/N]
 【Mechanism named in plain language?】[Y/N]
 【Abstract】theory → method/data → results → implications for theory? [Y/N]
+【Cut order used】generic setup / unused literature / redundant robustness / repeated methods / secondary mechanisms
 【Word count】≤ ~12,000 incl. abstract/tables/references? [Y/N]
 【OUP author-date + 3-5 keywords + anonymized】[Y/N]
 【Next】jpart-transparency-and-data

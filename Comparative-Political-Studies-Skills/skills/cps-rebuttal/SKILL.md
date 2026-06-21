@@ -43,6 +43,22 @@ editor can verify against the revised manuscript.
 - **Transparency.** Update the replication package and data availability statement to match every new
   result (`cps-transparency-and-data`).
 
+## Reviewer coalition map
+
+Before writing the response, classify comments by reviewer role rather than by report order:
+
+| Reviewer concern | Typical request | Revision move |
+|------------------|-----------------|---------------|
+| Theory/comparative contribution | Clarify what travels beyond the cases | Rewrite the contribution paragraph and scope conditions |
+| Design/identification | Explain comparison, timing, or assignment | Add design schematic, placebo, or rival-specific test |
+| Measurement | Defend cross-national coding or construct validity | Add alternative coding, measurement appendix, or limitation |
+| Area expertise | Fix case history, regional literature, or institutional detail | Add precise citations and qualify overgeneralization |
+| Transparency | Make data/code/evidence auditable | Update Dataverse package, README, appendix, and data statement |
+
+Use the map to reconcile conflicts. If one reviewer wants broader theory and another wants narrower case
+precision, the response should say how the revision sharpens the scope condition rather than simply
+expanding both sections.
+
 ## Checklist
 
 - [ ] Every reviewer and editor point has a numbered Response + Location
@@ -68,6 +84,7 @@ editor can verify against the revised manuscript.
 ```
 【Decision】R&R / major / minor
 【Major changes】the 3–4 headline revisions
+【Reviewer coalition map】theory / design / measurement / area / transparency concerns classified
 【Point-by-point】R1.1 … with Response + Location each
 【Disagreements】how conflicting reviews were reconciled
 【Declined】any requests declined + the evidence-based reason

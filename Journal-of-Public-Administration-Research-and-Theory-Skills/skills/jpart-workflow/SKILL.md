@@ -55,6 +55,21 @@ tables-figures → writing-style → transparency-and-data → review-process �
 
 Iterate: most JPART papers loop theory ↔ design ↔ analysis several times before writing-style.
 
+## Router stop conditions
+
+Do not advance to the next skill when any of these are true:
+
+| Stop | Why it matters | Route back |
+|------|----------------|------------|
+| The theory slot is a topic label, not a mechanism | JPART screens for contribution to PA theory | `jpart-theory-building` |
+| The paper would still work if every agency, employee, or citizen detail were removed | The public-management setting is incidental | `jpart-topic-selection` |
+| The design identifies an effect but not the claimed mechanism | Reviewers will read the contribution as overclaimed | `jpart-research-design` |
+| Exhibits show coefficient grids but no magnitude, uncertainty, or mechanism | The result is not reviewable from the paper itself | `jpart-tables-figures` |
+| Data/code release is impossible or ethically underspecified | Publication requires a public reproducibility path | `jpart-transparency-and-data` |
+
+The router should return a single next action, not a full rewrite plan. JPART work improves fastest when
+each pass fixes the highest-risk gate before polishing lower-risk prose.
+
 ## Sibling-journal routing check (do not misfile)
 
 JPART is **not** PAR, **not** JPAM, **not** Governance. One-minute check before drafting:
@@ -78,6 +93,7 @@ JPART is **not** PAR, **not** JPAM, **not** Governance. One-minute check before 
 ```
 【Stage】idea / positioning / theory / design / analysis / exhibits / writing / transparency / review / submit / rebut
 【Theory gate】contribution to PA theory stated? [Y/N]
+【Stop condition】none / theory / incidental PA setting / mechanism-design mismatch / exhibit opacity / transparency gap
 【Route to】jpart-<skill>
 【Why】one line
 【Then】the next skill after that

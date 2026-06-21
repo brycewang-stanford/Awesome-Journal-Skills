@@ -39,6 +39,21 @@ qualitative evidence too.
   tables or active citation. Where confidentiality requires it, use controlled access (e.g., QDR).
 - State clearly which claims rest on which evidence; do not let "the cases show" stand unsupported.
 
+## Sharing posture by evidence type
+
+Choose the transparency route before drafting the data availability statement:
+
+| Evidence type | Default posture | Documentation to include |
+|---------------|-----------------|--------------------------|
+| Cross-national public datasets | Share constructed data and code; cite original sources | Source versions, merge keys, transformations, and exact download dates |
+| Proprietary/admin data | Share code, synthetic or redacted extracts where allowed, and access instructions | License limits, access route, variable construction, and verification path |
+| Interviews/fieldnotes | Protect identities; share protocols, coding scheme, and evidence table when ethical | Consent limits, anonymization method, and claim-to-evidence map |
+| Text corpus/web data | Share corpus identifiers or permissible text, plus scraping/cleaning code | Collection date, inclusion rules, deduplication, language processing decisions |
+| Pre-analysis plan | Submit anonymized plan as supplement when used | Registered vs. exploratory analyses marked in manuscript and code |
+
+The data availability statement should mirror the table: what is shared, where, what is restricted, and
+how a qualified reader can audit the claim without violating law, ethics, or provider terms.
+
 ## Build-as-you-go checklist
 
 - [ ] One **master script** regenerates **every** table and figure from raw/constructed data
@@ -66,6 +81,7 @@ qualitative evidence too.
 【Reproduces tables/figures?】master script verified locally? [Y/N]
 【Data availability statement】drafted? available where / why not?
 【Documentation】README + provenance + seeds + pinned versions? [Y/N]
+【Sharing posture】public / proprietary-admin / interview-fieldnote / text-corpus / PAP route chosen
 【Restricted data?】explanation + access path + editorial-office note?
 【Qualitative transparency】sources/evidence documented? [Y/N/NA]
 【Pre-analysis plan】anonymized + registered/exploratory marked? [Y/N/NA]

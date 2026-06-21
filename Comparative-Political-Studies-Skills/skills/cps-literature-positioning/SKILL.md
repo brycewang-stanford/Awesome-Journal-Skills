@@ -39,6 +39,21 @@ political economy, parties & elections) — engage the *right* one(s) deeply rat
 | Ethnic politics & conflict | constructivist vs. primordialist, mobilization, salience | conflating ethnicity with region without theory |
 | Parties & elections / behavior | cleavage theory, electoral systems, turnout, vote choice | US-centric framing of a cross-national claim |
 
+## Comparative debate map
+
+Create a short map before writing the literature review:
+
+| Element | What to specify | Why CPS reviewers care |
+|---------|-----------------|------------------------|
+| Units | countries, subnational units, parties, voters, organizations, events | Defines the comparison and the level of inference |
+| Time | period, reform window, election cycle, conflict phase, regime episode | Separates change over time from cross-case difference |
+| Region/case logic | why these cases, and what they represent theoretically | Prevents "case convenience" from masquerading as leverage |
+| Rival accounts | institutional, structural, cultural, strategic, or historical alternatives | Shows what the paper will adjudicate rather than merely add |
+| Portability | where the mechanism should travel, and where it should fail | Turns a regional study into a comparative contribution |
+
+Use the map to prune citations. Keep works that define the debate, create the rival, or anchor
+portability across regions; move background-only citations to footnotes or cut them.
+
 ## Checklist
 
 - [ ] One named debate, not a topic list
@@ -63,6 +78,7 @@ political economy, parties & elections) — engage the *right* one(s) deeply rat
 【Standing answer + limit】what the field believes / where it breaks
 【Gap】stated as a falsifiable claim
 【Strongest rival】the explanation the design must rule out
+【Comparative debate map】units / time / case logic / rival / portability
 【Cross-regional anchors】2–3 works beyond your own region
 【Next】cps-theory-building
 ```

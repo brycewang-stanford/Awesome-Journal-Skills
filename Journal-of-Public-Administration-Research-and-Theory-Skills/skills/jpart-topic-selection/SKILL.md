@@ -41,6 +41,24 @@ A strong JPART paper usually clears all four:
 | A program evaluation / policy-analysis estimate | JPAM | JPAM is the policy-analysis venue |
 | Comparative institutions / government, lighter on management theory | Governance | Governance centers institutions, not PA mechanisms |
 
+## Reject-by-sibling symptoms
+
+Use sibling venues as a diagnostic, not as a prestige ladder:
+
+- **PAR symptom:** the manuscript's strongest sentence is a managerial or practitioner recommendation,
+  while the theory move is broad, synthetic, or essay-like. Reframe only if the paper can test a precise
+  public-management mechanism rather than mainly advising practice.
+- **JPAM symptom:** the identification strategy is excellent, but the estimand is a program-impact answer
+  and the public-management theory section is decorative. Move to JPART only if the design tests why
+  public organizations, managers, employees, or citizens behave differently under a named mechanism.
+- **Governance symptom:** the paper is really about comparative institutions, regime structure, state
+  capacity, or intergovernmental authority, with management behavior in the background. It becomes JPART
+  only when the causal or theoretical hinge is a public-management process.
+
+The useful question is not "can I cite PA literature?" but "would the result travel to another public
+organization because the mechanism is portable?" If portability depends only on the case setting, the fit
+is weak.
+
 ## Topic families JPART actively publishes
 
 - **Bureaucratic behavior & motivation:** public service motivation (PSM), red tape, prosocial behavior
@@ -63,6 +81,7 @@ A strong JPART paper usually clears all four:
 【PA theory it speaks to】PSM / red tape / representation / performance / governance / behavioral PA
 【Mechanism】why the relationship holds
 【Contribution type】extend / test / bound / overturn a theory
+【Portability】what travels beyond this agency/program/country?
 【Venue verdict】JPART vs PAR / JPAM / Governance (why)
 【Next】jpart-literature-positioning
 ```

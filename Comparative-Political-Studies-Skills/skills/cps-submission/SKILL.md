@@ -39,6 +39,21 @@ instructions before you click submit — volatile specifics change.
 - Strip identifying metadata from the document and from any embedded files/figures.
 - Anonymize any linked materials (OSF/pre-analysis plan) used during review.
 
+## Comparative-leverage last check
+
+Before the formatting checklist, ask whether the review file still reads like a CPS paper after
+anonymization:
+
+| Gate | Pass condition | Bounce risk |
+|------|----------------|-------------|
+| Comparative claim | The abstract and introduction state what travels across cases, regions, regimes, or time | A single-country result is submitted with only a broad comparative promise |
+| Rival explanation | The design names the strongest comparative rival and shows how the evidence adjudicates it | Robustness appears as generic controls, not a debate-specific test |
+| Scope condition | The manuscript says where the argument should and should not generalize | The contribution is framed as universal without leverage |
+| Evidence-package fit | Supplemental files and replication materials support the comparative claim | Appendices contain unreferenced analyses or non-anonymized materials |
+
+If any gate fails, route back before submission. A perfectly formatted paper can still be returned or
+desk-rejected if the comparative contribution is invisible.
+
 ## Final checklist
 
 - [ ] Anonymized manuscript + separate title page prepared
@@ -67,6 +82,7 @@ instructions before you click submit — volatile specifics change.
 【Anonymized】main file clean + separate title page? [Y/N]
 【Length】words / 11,000 (refs/tables/figures excluded)
 【Abstract】unstructured ~150 words? [Y/N]
+【Comparative leverage visible?】claim + rival + scope condition stated? [Y/N]
 【References】APA author-date, in-text=list? [Y/N]
 【ORCID】submitting author linked? [Y/N]
 【Data availability statement】present? [Y/N]
