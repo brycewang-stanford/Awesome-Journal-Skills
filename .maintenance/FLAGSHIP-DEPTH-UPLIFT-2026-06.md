@@ -135,3 +135,24 @@ Journal-of-Law-Economics-and-Organization (jleo, econ), Annual-Review-of-Economi
   Economic Policy 2025 relaunch, JMIS email intake) — the skills carry the corrected facts with 待核实
   markers; refresh the source maps in a later pass; (c) re-confirm all 待核实 volatile facts (current
   editors, fees, exact limits) against official sites before relying on them.
+
+## Phase 2 — Category-2 social-science flagship depth packs (2026-06-20)
+User: "把剩下的工作全部做扎实，一个星期，好好利用." Next remaining body = flagship social-science
+journals still served only as breadth profiles. Computed the gap: 29 Category-2 flagships absent as
+depth packs; all prefixes verified collision-free. Built at FLAGSHIP quality from the start (brief
+`.maintenance/SUBAGENT-SS-DEPTH-BRIEF.md`, skill-set variants empirical/psychology/theory/methods/
+review/law; code kit only for observational-causal-inference disciplines).
+- SS batch 1 (committed): Comparative Political Studies, British Journal of Political Science,
+  European Sociological Review, Public Administration Review, JPART, JPAM (EMPIRICAL + code kit).
+- SS batch 2 (committed): Governance, Population and Development Review, Communication Research
+  (+code kit); New Media & Society, Annals of the AAG, American Anthropologist (no code kit).
+- 12/12 done packs: structural QC clean (12 skills, frontmatter, JSON, no template tells), clone
+  audit no pair ≥0.82, scorecard 91.2–94.0 (mean 93.6). Counts reconciled to 2809 skills / 183 packs
+  (audit green); all 12 registered in README depth tables (en+zh). Many portal corrections vs the
+  seed (BJPS/PAR/JPART → Editorial Manager/Editorial Express; etc.).
+- REMAINING (17, queued — blocked on subagent quota, resets 3:50pm PT 2026-06-20): SS-3 J.Applied
+  Psychology, Developmental Psychology, Cognitive Psychology, J.Educational Psychology, Current
+  Anthropology, Sociological Methods & Research; SS-4 Sociological Theory, Psychological Review,
+  Annual Review of Sociology, Annual Review of Psychology, Review of Educational Research,
+  Perspectives on Psychological Science; SS-5 Progress in Human Geography + 4 law reviews
+  (Harvard/Yale/Stanford/Columbia). Run via the same SS brief; register + reconcile counts after.
