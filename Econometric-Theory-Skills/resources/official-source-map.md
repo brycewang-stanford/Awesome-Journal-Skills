@@ -19,15 +19,20 @@ Access date: 2026-06-10. Recheck all volatile submission facts before final advi
 - [官] Peer review is single-anonymous: reviewers know author identity, authors do not know reviewer identity.
 - [官] Supplementary material can hold long derivations, supporting lemmas, tables, figures, and similar material when directed by the editor/coeditors; it should be clearly labeled and only include material that has been reviewed before acceptance.
 
+## Resolved on recheck (2026-06-21 — Cambridge Core author instructions + ScholarOne)
+
+- [官] Submission portal: **ScholarOne Manuscript Central**, https://mc.manuscriptcentral.com/econ-theory — effective for new submissions from **2026-01-28**.
+- [官] Cover letter: **optional** — required only when authors need to convey information pertinent to the review (e.g., prior reviews from another journal).
+- [官] Manuscript file: **PDF with all fonts, tables, and graphics embedded**; the title (first) page lists authors and affiliations.
+- [官] Submission fee: **not found on checked official pages** (Cambridge subscription / hybrid-OA journal; do not assert a "zero fee," and any Gold-OA APC figure was not verified here).
+  - Source: https://www.cambridge.org/core/journals/econometric-theory/information/author-instructions and its "Submitting your materials" subpage.
+
 ## Volatile or unresolved facts
 
 Keep these marked as `待核实` until rechecked directly on the live submission system or Cambridge pages:
 
-- [待核实] Submission portal URL and any transition date.
-- [待核实] Page ceiling, abstract length, running-head length, font/margin/spacing requirements, and figure-file rules.
-- [待核实] Submission fee or APC status. If no fee is stated on public pages, say "not found on checked official pages" rather than "zero fee."
-- [待核实] Cover-letter requirement or optionality.
-- [待核实] Any editor-name or editorial-transition statement beyond what the current Cambridge journal page displays.
+- [待核实] Exact abstract length, running-head length, font/margin/spacing requirements, and figure-file rules (Cambridge "Preparing your materials" subpage not fully read; Miscellanea length is typically fewer than 20 pages, often ~15).
+- [待核实] Current Editor name and any editorial-transition statement beyond what the live Cambridge journal / editorial-board page displays.
 
 ## Sibling-journal guard
 
