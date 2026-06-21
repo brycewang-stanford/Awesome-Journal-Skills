@@ -52,6 +52,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs ICSE / FSE.** ICSE/FSE are the SE flagships; MSR is the data-mining-of-software-artifacts venue (often co-located with ICSE).
 - **vs SANER / ICSME.** Those are analysis/maintenance; MSR centers repository-data empirical studies.
 
+## MSR-specific routing detail
+
+- Prefer MSR when the contribution mines software repositories: commits, issues, pull requests, CI logs, dependencies, developer behavior, or repository-derived datasets.
+- Route logic/foundations to LICS, software maintenance/evolution claims to ICSME/SANER when mining is only evidence, and testing/analysis tools to ISSTA.
+- MSR evidence should show repository sampling, data cleaning, construct validity, replication package, developer relevance, and limits of observational inference.
+
 ## Method & evidence bar
 
 - Use real programs, benchmarks, proofs, developer studies, or artifacts matched to the contribution type.

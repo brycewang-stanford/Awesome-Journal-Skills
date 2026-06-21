@@ -51,6 +51,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs NSDI.** NSDI (also USENIX) is **networked/distributed** systems; route OS/runtime/storage results here and networked-systems results to NSDI.
 - **vs SOSP.** SOSP (ACM SIGOPS) is the other top OS flagship; OSDI/SOSP alternate-year cadence and committees are the practical routing axis, not topic.
 
+## OSDI-specific routing detail
+
+- Prefer OSDI when the contribution is an operating-system, runtime, storage, resource-management, cloud-infrastructure, or systems-design result with a built artifact.
+- Route networked/distributed infrastructure where the network is the object to NSDI, storage-specific persistence work to FAST, and ACM SIGOPS-cycle peers to SOSP when timing/community fits better.
+- OSDI evidence should expose the system abstraction, implementation constraints, workload realism, design tradeoffs, and performance or reliability change against mature baselines.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

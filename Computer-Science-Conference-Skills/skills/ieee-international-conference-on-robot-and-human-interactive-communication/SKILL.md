@@ -51,6 +51,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs CASE.** CASE is industrial **automation science & engineering** — an entirely different audience; route interaction studies here, automation-systems work there.
 - **vs ACM/IEEE HRI.** HRI is the other major HRI venue; differentiate by community and cycle, and send pure perception/control to ICRA/IROS.
 
+## RO-MAN-specific routing detail
+
+- Prefer RO-MAN when the contribution depends on human-robot communication, social signals, dialogue, trust calibration, assistive interaction, user study design, or interaction behavior.
+- Route manufacturing/logistics automation and scheduling systems to CASE; route general robotics control/perception to ICRA/IROS/RSS when human interaction is not central.
+- RO-MAN evidence should include participant protocol, interaction measures, robot behavior, communication failure cases, and ethical handling of human-subject context.
+
 ## Method & evidence bar
 
 - Report hardware, simulation, environment, task distribution, reset procedure, and failure cases; embodied evidence must be inspectable.

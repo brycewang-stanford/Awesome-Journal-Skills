@@ -51,6 +51,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs ESORICS.** ESORICS is broad European security (Springer LNCS); bring privacy-technology contributions here, general security there.
 - **vs ACSAC.** ACSAC is applied security; PETS is privacy-research-specific with its own rolling-issue model.
 
+## PETS-specific routing detail
+
+- Prefer PETS when privacy is the central contribution: anonymous communication, privacy measurement, differential privacy, privacy-preserving systems, surveillance resistance, or privacy policy/technology evidence.
+- Route general security to CCS/S&P/USENIX/NDSS/ESORICS, applied operational security to ACSAC, and financial/privacy mechanisms to FC when finance is the main domain.
+- PETS evidence should foreground privacy threat model, attacker knowledge, leakage measurement, usability/deployment tradeoffs, ethics, and limits of protection.
+
 ## Method & evidence bar
 
 - Define the threat model, attacker capabilities, disclosure posture, and ethics review before presenting results.

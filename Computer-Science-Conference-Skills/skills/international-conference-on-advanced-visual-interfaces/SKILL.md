@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare EuroVis/IEEE VIS for visualization research, CHI/UIST for broader HCI/UI systems, and
   IUI when intelligent interface behavior is the central claim.
 
+## AVI-specific routing detail
+
+- Prefer AVI when the contribution is an advanced visual interface: interaction technique, visual UI system, multimodal interface, information display, or user-facing visual interaction.
+- Route visualization analysis methods to EuroVis/IEEE VIS, graphics algorithms to graphics venues, and broad HCI studies to CHI/UIST when interface novelty is not the center.
+- AVI evidence should connect interface design, implementation, user task, interaction measures, and visual communication constraints.
+
 ## Method & evidence bar
 
 - Match the contribution type to the evidence: controlled study, field deployment, design inquiry, technical system, dataset, or theory.

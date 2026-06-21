@@ -51,6 +51,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs TEI.** TEI is about tangible/embodied interaction generally; bring accessibility-centered work here regardless of modality.
 - **vs UbiComp/CHI.** UbiComp is pervasive/sensing and CHI the broad HCI flagship; ASSETS is defined by its **accessibility** community and review lens, not by technique.
 
+## SIGACCESS-specific routing detail
+
+- Prefer SIGACCESS when disability, accessibility, assistive technology, inclusive design, or access barriers are the research object rather than an incidental user group.
+- Route tangible artifacts to TEI and pervasive sensing deployments to UbiComp unless the primary contribution is an accessibility outcome, participatory process, or disability-centered system.
+- SIGACCESS evidence should make access needs, participant/community involvement, evaluation ethics, accommodation context, and limitations for disabled users explicit.
+
 ## Method & evidence bar
 
 - Match the contribution type to the evidence: controlled study, field deployment, design inquiry, technical system, dataset, or theory.

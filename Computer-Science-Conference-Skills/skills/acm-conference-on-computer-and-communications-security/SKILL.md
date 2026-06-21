@@ -48,6 +48,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs IEEE S&P.** IEEE S&P (Oakland) is the IEEE security flagship; with **USENIX Security** and **NDSS** these four are the top venues — route by community/cycle, not prestige.
 - **Routing.** Crypto-theory fits CRYPTO/EUROCRYPT; applied/regional security fits ESORICS/ACSAC; privacy fits PETS.
 
+## CCS-specific routing detail
+
+- Prefer CCS when the paper fits the broad ACM security community across systems, web, software, privacy, crypto applications, measurement, and attacks/defenses.
+- Compare IEEE S&P for the Oakland community, USENIX Security for artifact-heavy systems/security work, NDSS for networked security, and PETS for privacy-first framing.
+- CCS evidence should make the threat model, novelty, responsible handling, adaptive evaluation, and broader security impact defensible to a cross-area security PC.
+
 ## Method & evidence bar
 
 - Define the threat model, attacker capabilities, disclosure posture, and ethics review before presenting results.

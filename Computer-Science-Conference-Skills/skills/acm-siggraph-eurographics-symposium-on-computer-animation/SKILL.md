@@ -46,6 +46,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   type, evidence shape, reviewer community, and the current official CFP from
   computeranimation.org.
 
+## SCA-specific routing detail
+
+- Prefer SCA when the contribution is computer animation: character motion, physical simulation for animation, motion control, performance capture, animation systems, or artist-facing animation tools.
+- Route computational linguistics to COLING/LREC-COLING, real-time 3D rendering to I3D, and flagship graphics papers to SIGGRAPH/SIGGRAPH Asia.
+- SCA evidence should show animation quality, controllability, physical or perceptual plausibility, artist/user workflow, and comparisons to animation baselines.
+
 ## Method & evidence bar
 
 - Clone-audit guardrail: do not let SCA collapse into generic ML, NLP, or health-AI

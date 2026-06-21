@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   on-networked-systems-design-and-implementation` (NSDI). Break ties by contribution type,
   evidence shape, reviewer community, and the current official CFP from sigops.org.
 
+## SOSP-specific routing detail
+
+- Prefer SOSP when the paper contributes a durable systems abstraction, architecture, operating-system mechanism, distributed protocol, storage/reliability design, or security/system interface validated by a serious artifact and workloads.
+- Use RecSys when the contribution is recommendation/ranking behavior, user modeling, platform evaluation, or recommender fairness; a production recommender deployment belongs at SOSP only if the systems design is the reusable research claim.
+- Compare with OSDI for implementation-heavy systems, NSDI/SIGCOMM for networked systems, FAST for storage depth, ASPLOS for hardware/software co-design, and security venues when the threat model is central.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

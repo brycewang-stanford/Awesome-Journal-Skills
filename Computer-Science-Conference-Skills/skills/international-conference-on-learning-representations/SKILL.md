@@ -48,6 +48,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs ICML / NeurIPS.** ICML (IMLS) and NeurIPS are the other two ML flagships; ICLR is deep-learning-forward with public OpenReview — route by cycle and topic emphasis, not prestige.
 - **Routing.** Vision-specific → CVPR/ICCV/ECCV; NLP → ACL-family; theory → COLT.
 
+## ICLR-specific routing detail
+
+- Prefer ICLR when the contribution is representation learning, deep-learning architecture, optimization, generative modeling, self-supervision, interpretability, or learning dynamics with strong conceptual framing.
+- Route statistically grounded ML theory/estimation to AISTATS/COLT/UAI, broad ML methods to ICML/NeurIPS, and systems/infrastructure work to MLSys when deployment mechanics dominate.
+- ICLR evidence should show why the representation or learning mechanism matters, with ablations, controlled comparisons, robustness checks, and clear failure analysis.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

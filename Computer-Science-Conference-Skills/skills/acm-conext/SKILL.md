@@ -50,6 +50,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs SIGCOMM.** SIGCOMM is the established ACM flagship; route field-defining results there and newer/experimental directions to CoNEXT.
 - **vs INFOCOM.** INFOCOM (IEEE) leans performance/theory and is larger; CoNEXT is smaller and experiment-forward within the ACM community.
 
+## CoNEXT-specific routing detail
+
+- Prefer CoNEXT when the paper is networking research with a strong systems, measurement, protocol, or experimental angle but not necessarily the broadest SIGCOMM flagship framing.
+- Route flagship networking architecture and protocol results to SIGCOMM, networked systems artifacts to NSDI, and IEEE networking theory/measurement to INFOCOM when that community fits better.
+- CoNEXT evidence should include realistic network settings, measurement methodology, protocol or system design, reproducibility, and operational implications.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

@@ -51,6 +51,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs RO-MAN.** RO-MAN is about **robot–human interactive communication** (social/cognitive HRI), a different reviewer community; do not route automation-systems work there.
 - **vs ICRA/IROS.** Send general manipulation/perception/control to ICRA/IROS; reserve CASE for automation-systems and applied-engineering contributions.
 
+## CASE-specific routing detail
+
+- Prefer CASE when the core claim is automation science: manufacturing cells, logistics, scheduling, industrial cyber-physical systems, automation platforms, or operations-aware robotics.
+- Route robot-human dialogue, trust, social behavior, and assistive interaction studies to RO-MAN/HRI unless automation workflow is the main object.
+- CASE evidence should connect algorithms to operational constraints such as throughput, takt time, reliability, safety envelopes, resource allocation, or deployment workflow.
+
 ## Method & evidence bar
 
 - Report hardware, simulation, environment, task distribution, reset procedure, and failure cases; embodied evidence must be inspectable.

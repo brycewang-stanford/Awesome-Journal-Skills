@@ -46,6 +46,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   contribution type, evidence shape, reviewer community, and the current official CFP from
   cpaior.org.
 
+## CPAIOR-specific routing detail
+
+- Prefer CPAIOR when the manuscript's real contribution is hybrid optimization: constraint models, search, decomposition, scheduling, routing, solver integration, or AI/OR methods that must be judged by modeling quality and algorithmic performance.
+- Use CHIL only when health inference or clinical deployment is the primary scientific contribution; a hospital scheduling or resource-allocation example belongs at CPAIOR if the reusable advance is the optimizer rather than the clinical inference.
+- Compare against CP for constraint-programming depth, ICAPS for planning/scheduling structure, AAAI/IJCAI for broader AI methods, and operations-research journals when proofs, exact algorithms, or industrial-scale optimization dominate the paper.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

@@ -52,6 +52,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs ASSETS.** ASSETS is accessibility-specific; route sensing/pervasive-systems work here and disability-focused work there.
 - **vs TEI/CHI.** TEI is tangible/embodied interaction and CHI the broad HCI flagship; choose UbiComp when ubiquitous sensing/inference is the core.
 
+## UbiComp-specific routing detail
+
+- Prefer UbiComp when the paper studies pervasive/ubiquitous computing in everyday settings: sensing, context awareness, mobile/wearable/IoT systems, field deployments, or longitudinal behavior.
+- Route tangible interaction artifacts to TEI, accessibility-first computing to SIGACCESS, and mobile interface technique papers to MobileHCI when the contribution is not pervasive infrastructure or situated computing.
+- UbiComp evidence should show context realism, deployment duration, sensor/data quality, privacy handling, and how the system works across messy real-world routines.
+
 ## Method & evidence bar
 
 - Match the contribution type to the evidence: controlled study, field deployment, design inquiry, technical system, dataset, or theory.

@@ -51,6 +51,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs SIGIR.** SIGIR is system/algorithm-centered IR; CHIIR is the **human/interaction** side — route user-study and behavior work here.
 - **vs CHI.** CHI is the broad HCI flagship; CHIIR is the IR-community's human-information venue.
 
+## CHIIR-specific routing detail
+
+- Prefer CHIIR when the research object is human information interaction: search behavior, exploratory retrieval, interactive IR, information seeking, recommendation interaction, or user-centered retrieval evaluation.
+- Route ML/data-mining methods to ECML PKDD/KDD/ICDM, social collaboration work to CSCW, and core retrieval algorithms to SIGIR when user interaction is secondary.
+- CHIIR evidence should include user tasks, interaction logs or studies, search-session behavior, evaluation beyond offline ranking, and human-centered implications.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

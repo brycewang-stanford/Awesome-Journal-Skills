@@ -51,6 +51,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **Real neighbors.** ICSE / FSE / ASE (software engineering) and SLE (language engineering) — not data-mining venues.
 - **Routing.** MDE/modeling here; general SE to ICSE/FSE.
 
+## MODELS-specific routing detail
+
+- Prefer MODELS when the contribution is a modeling language, metamodel, transformation, DSL, model analysis, code generation, or model-based engineering workflow with credible semantics and tooling.
+- Route web-scale search, mining, recommendation, ranking, or user/platform data papers to WSDM/SIGIR/KDD; route general software-engineering studies to ICSE/FSE/ASE.
+- The paper should show that models are the engineering abstraction under study, not merely diagrams used to explain a data-mining method.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

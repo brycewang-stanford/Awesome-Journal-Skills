@@ -51,6 +51,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs PETS.** PETS is **privacy-specific** (publishes in PoPETs); route privacy-enhancing-technology work there and general security here.
 - **vs ACSAC.** ACSAC is **applied** security; reserve ESORICS for research contributions, and remember the big-four flagships are IEEE S&P, USENIX Security, ACM CCS, NDSS.
 
+## ESORICS-specific routing detail
+
+- Prefer ESORICS when the paper fits the European computer-security research community: systems security, privacy, applied crypto, formal security, or network security with full research evidence.
+- Route operational security practice to ACSAC, privacy-first protocol or measurement work to PETS, and finance/cryptocurrency security to FC when those communities are the natural audience.
+- ESORICS evidence should present a rigorous threat model, security argument, empirical validation, and related-work positioning against European and flagship security venues.
+
 ## Method & evidence bar
 
 - Define the threat model, attacker capabilities, disclosure posture, and ethics review before presenting results.

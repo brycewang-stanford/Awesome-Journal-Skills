@@ -51,6 +51,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs INLG.** INLG (SIGGEN) is **generation**; route semantics/meaning-analysis contributions here and text-production work there.
 - **vs ACL/EMNLP.** The flagship ACL-family venues also take semantics; choose *SEM when the lexical/computational-semantics community is the primary audience.
 
+## *SEM-specific routing detail
+
+- Prefer *SEM when the contribution is meaning representation, lexical semantics, semantic parsing, inference, entailment, semantic role labeling, or evaluation of meaning.
+- Route text production, controllable generation, and NLG evaluation to INLG; route broad NLP models to ACL/EMNLP/NAACL when semantics is only one benchmark slice.
+- *SEM evidence should foreground linguistic validity, annotation design, meaning-theoretic assumptions, error categories, and cross-dataset or cross-linguistic semantics when claimed.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

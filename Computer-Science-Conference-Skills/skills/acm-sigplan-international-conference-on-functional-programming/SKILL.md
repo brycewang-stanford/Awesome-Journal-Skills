@@ -48,6 +48,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs POPL / PLDI / OOPSLA.** POPL is principles/theory, PLDI is implementation, OOPSLA is objects/systems; ICFP is the functional-programming home.
 - **vs CAV / LICS.** CAV is verification, LICS is logic; route language-design/semantics work to ICFP.
 
+## ICFP-specific routing detail
+
+- Prefer ICFP when the contribution is functional programming: languages, type systems, semantics, compilers, program calculi, functional abstractions, or verified FP practice.
+- Route model checking, theorem-proving applications, and formal verification tools to CAV; route broader PL design/implementation to PLDI/POPL when FP is not central.
+- ICFP evidence should expose language design, semantics, implementation, examples, evaluation, and how the functional-programming abstraction changes practice.
+
 ## Method & evidence bar
 
 - Use real programs, benchmarks, proofs, developer studies, or artifacts matched to the contribution type.

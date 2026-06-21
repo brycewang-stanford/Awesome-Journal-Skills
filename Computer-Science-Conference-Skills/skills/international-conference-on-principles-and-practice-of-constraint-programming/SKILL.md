@@ -47,6 +47,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs SAT.** SAT (Theory and Applications of Satisfiability Testing) is **Boolean-satisfiability**-specific; CP is the broader constraint paradigm.
 - **vs KR.** KR is **knowledge representation and reasoning** (logics, ontologies); route solver/constraint work to CP, representation/reasoning to KR.
 
+## CP-specific routing detail
+
+- Prefer CP when the contribution is constraint programming: modeling, propagation, search, scheduling, optimization, CP solvers, or hybrid CP/OR/AI methods.
+- Route satisfiability-specific algorithms to SAT, planning to ICAPS, and operations-research integration to CPAIOR when that application/optimization community is primary.
+- CP evidence should show constraint model, propagation/search behavior, benchmark families, solver comparisons, and modeling insight.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

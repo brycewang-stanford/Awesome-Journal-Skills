@@ -50,6 +50,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **Center of gravity.** "Intelligent Robots and Systems": perception, sensing, and integrated autonomy at scale; larger, more inclusive program than ICRA in a given year.
 - **vs RSS.** RSS is single-track and selective on foundational models; send theory-forward work there, deployed-system breadth here.
 
+## IROS-specific routing detail
+
+- Prefer IROS when the contribution is intelligent robots and systems: perception-action integration, autonomy, robot learning, navigation, manipulation, human-aware robotics, or fielded systems.
+- Route broad robotics/automation cycle fit to ICRA, experimental robotics methodology to ISER, and human-interaction studies to HRI/RO-MAN.
+- IROS evidence should make system integration, embodied constraints, experiments, reliability, and intelligent behavior under realistic conditions visible.
+
 ## Method & evidence bar
 
 - Report hardware, simulation, environment, task distribution, reset procedure, and failure cases; embodied evidence must be inspectable.

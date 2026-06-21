@@ -51,6 +51,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs RE.** RE is the **requirements-engineering**-specific conference; route requirements/elicitation/specification work there and automation/tooling work here.
 - **vs ICSE/FSE.** ICSE and FSE are the broad SE flagships; choose ASE when automation is the core contribution.
 
+## ASE-specific routing detail
+
+- Prefer ASE when the contribution automates software engineering work: program analysis, testing, repair, synthesis, CI/tooling, mining-driven automation, or developer-assistance systems.
+- Route stakeholder needs, requirements elicitation, traceability, and requirements validation to RE; route broad software-engineering studies to ICSE/FSE when automation is not the main object.
+- ASE evidence should include tool behavior, benchmark or repository realism, automation precision/recall or usefulness, failure cases, and comparison to existing SE tools.
+
 ## Method & evidence bar
 
 - Use real programs, benchmarks, proofs, developer studies, or artifacts matched to the contribution type.

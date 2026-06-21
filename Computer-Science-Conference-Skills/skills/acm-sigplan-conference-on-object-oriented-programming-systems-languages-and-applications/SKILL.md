@@ -44,6 +44,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   principles-of-programming-languages` (POPL). Break ties by contribution type, evidence
   shape, reviewer community, and the current official CFP from conf.researchr.org.
 
+## OOPSLA-specific routing detail
+
+- Prefer OOPSLA when the contribution is programming languages and software systems: language design, type systems, semantics, program analysis, runtime systems, or developer-facing PL abstractions.
+- Route language resources and computational linguistics to LREC-COLING, functional-programming-specific work to ICFP, and PL implementation/performance to PLDI when that community is primary.
+- OOPSLA evidence should include formal or empirical support, implementation, examples, evaluation on programs, and clarity about language or system usability.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

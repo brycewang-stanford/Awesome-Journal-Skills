@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   Break ties by contribution type, evidence shape, reviewer community, and the current
   official CFP from aistats.org.
 
+## AISTATS-specific routing detail
+
+- Prefer AISTATS when the contribution is a statistically grounded machine-learning method: inference quality, identifiability, estimation, causal/statistical assumptions, probabilistic modeling, or theory-backed empirical behavior.
+- Use UAI when uncertainty representation, graphical models, probabilistic reasoning, or decision-making under uncertainty is the center of the paper rather than one evaluation metric.
+- Compare with COLT when theorem depth dominates, ICML/NeurIPS when broad ML methodology or scale is primary, and statistics journals when asymptotic theory or inferential guarantees need fuller exposition.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

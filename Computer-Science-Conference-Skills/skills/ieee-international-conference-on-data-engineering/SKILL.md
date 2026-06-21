@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Do not collapse ICDE into SIGMOD/VLDB or data-mining venues. Pick ICDE when engineering scale
   and data-system construction are central.
 
+## ICDE-specific routing detail
+
+- Prefer ICDE when the contribution is data engineering infrastructure: query processing, storage engines, transactions, data integration, streaming, indexing, provenance, or scalable data management.
+- Route visual/signal recognition methods to ICPR, ontology/knowledge acquisition to K-CAP, and semantic-web/linked-data contributions to ISWC unless the data-system mechanism is central.
+- ICDE evidence should include system architecture, workload realism, scalability, correctness or consistency properties, and comparisons against mature database/data-management baselines.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

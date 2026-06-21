@@ -47,6 +47,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs IEEE VR.** IEEE VR is **virtual reality and 3D user interfaces** (perception, interaction, displays); I3D is real-time-rendering/graphics-systems-centered.
 - **vs SIGGRAPH.** SIGGRAPH (ACM TOG) is the broad graphics flagship; I3D is the focused real-time/interactive venue.
 
+## I3D-specific routing detail
+
+- Prefer I3D when the contribution is interactive 3D graphics, real-time rendering, game graphics, simulation for interactive scenes, or systems that must run under interactive latency.
+- Route VR/AR user-interface, perception, presence, or immersive-experience studies to IEEE VR; route full flagship graphics papers to SIGGRAPH/SIGGRAPH Asia when the bar and cycle fit.
+- I3D evidence should show frame-time or latency constraints, interactive visual quality, scene complexity, implementation details, and comparisons relevant to real-time graphics.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

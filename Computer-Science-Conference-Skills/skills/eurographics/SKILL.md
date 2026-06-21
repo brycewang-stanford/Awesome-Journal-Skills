@@ -50,6 +50,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs Pacific Graphics.** PG is the **Asia-Pacific** graphics conference (also CGF); route by region and cycle, same CGF pipeline.
 - **vs SIGGRAPH/SIGGRAPH Asia.** Those publish in ACM TOG; Eurographics is the European CGF-track flagship.
 
+## Eurographics-specific routing detail
+
+- Prefer Eurographics when the paper targets the European graphics community with a CGF-track graphics contribution in rendering, geometry, simulation, visualization, or visual computing.
+- Route to Pacific Graphics when the same CGF-style contribution fits an Asia-Pacific cycle/community better; route to SIGGRAPH/SIGGRAPH Asia for ACM TOG flagship positioning.
+- Eurographics evidence should emphasize specialist graphics novelty, comparative visuals, mathematical or system grounding, and clear positioning against recent CGF/EG work.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

@@ -47,6 +47,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **Real neighbors.** ACM Multimedia (SIGMM) and SIGIR (retrieval) — not medical-imaging venues.
 - **Routing.** Multimedia retrieval here; text IR to SIGIR; general multimedia to ACM MM.
 
+## ICMR-specific routing detail
+
+- Prefer ICMR when retrieval or indexing is the research object: cross-modal search, media representation, ranking, query formulation, multimedia benchmarks, or retrieval evaluation.
+- Route biomedical image acquisition, segmentation, reconstruction, or quantitative medical/biological imaging to ISBI/MICCAI/IPMI unless the task is general multimedia retrieval.
+- ICMR evidence should include ranking metrics, retrieval baselines, media collection realism, query/user assumptions, and failure analysis across image/video/audio modalities.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

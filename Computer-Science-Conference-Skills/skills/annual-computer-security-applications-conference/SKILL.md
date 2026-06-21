@@ -51,6 +51,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs ESORICS.** ESORICS is the broad European research symposium (Springer LNCS); route applied/operational work here.
 - **vs PETS.** PETS is privacy-specific; ACSAC spans applied security broadly, below the IEEE S&P / USENIX Security / CCS / NDSS flagships.
 
+## ACSAC-specific routing detail
+
+- Prefer ACSAC when the security contribution is applied, operational, or deployment-facing: enterprise defenses, usable security in practice, applied measurement, or security engineering lessons.
+- Route European research-community general security work to ESORICS, privacy-first work to PETS, finance/cryptocurrency work to FC, and broad flagship submissions to CCS/S&P/USENIX/NDSS.
+- ACSAC evidence should include operational assumptions, deployment constraints, realistic adversaries, usability or administrative context, and lessons that transfer to security practice.
+
 ## Method & evidence bar
 
 - Define the threat model, attacker capabilities, disclosure posture, and ethics review before presenting results.

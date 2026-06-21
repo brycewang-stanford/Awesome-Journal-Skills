@@ -51,6 +51,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs CoLLAs.** CoLLAs targets **lifelong/continual** learning agents; bring AutoML/NAS/HPO contributions here.
 - **vs NeurIPS/ICML/ICLR.** The general ML flagships cover AutoML topics too; pick this venue when the AutoML community and benchmarks are central.
 
+## AutoML-specific routing detail
+
+- Prefer AutoML when the novelty improves the search, selection, tuning, meta-learning, NAS, benchmark, or system pipeline that automates ML decisions.
+- Route lifelong-agent adaptation to CoLLAs, production training/inference infrastructure to MLSys, and general representation-learning algorithms to the ML flagships unless automation is the central object.
+- The evidence should isolate search efficiency, robustness, transfer across tasks, and compute budget tradeoffs instead of reporting only the final model score.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

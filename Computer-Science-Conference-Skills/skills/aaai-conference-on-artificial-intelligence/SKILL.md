@@ -51,6 +51,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs IJCAI.** IJCAI (International Joint Conferences on AI) is the **global** generalist AI flagship; route by cycle and community, both are AI-wide.
 - **vs ECAI.** ECAI (EurAI) is the **European** generalist AI conference; reserve domain venues (NeurIPS/ICML/CVPR/ACL) for method-specific work.
 
+## AAAI-specific routing detail
+
+- Prefer AAAI when the paper is broad AI research for a general AI audience: reasoning, planning, learning, search, NLP, vision, agents, ethics, or applications with clear AI novelty.
+- Route international AI flagship cycle/community fit to IJCAI, European AI fit to ECAI, and narrow ML method papers to ICML/NeurIPS/ICLR when ML reviewers are primary.
+- AAAI evidence should make the AI contribution, task scope, baselines, generality, and cross-area relevance explicit.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

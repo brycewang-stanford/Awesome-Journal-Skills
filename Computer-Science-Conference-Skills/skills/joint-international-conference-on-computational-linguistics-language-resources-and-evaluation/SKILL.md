@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   ties by contribution type, evidence shape, reviewer community, and the current official CFP
   from lrec-coling.org.
 
+## LREC-COLING-specific routing detail
+
+- Prefer LREC-COLING when the contribution is computational linguistics, language resources, annotation, evaluation, corpora, multilingual data, or linguistically grounded NLP methods.
+- Route programming-language systems to OOPSLA/PLDI/ICFP, generation-specific papers to INLG, and broad NLP empirical work to ACL/EMNLP/NAACL when resource/evaluation focus is not central.
+- LREC-COLING evidence should include data provenance, annotation protocol, licensing, linguistic coverage, evaluation design, and intended resource use.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

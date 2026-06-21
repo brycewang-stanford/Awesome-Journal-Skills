@@ -47,6 +47,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs CP.** CP is the broader **constraint programming** paradigm; SAT is Boolean-satisfiability-specific.
 - **vs KR.** KR is knowledge-representation/reasoning formalisms; SAT is solver theory and engineering.
 
+## SAT-specific routing detail
+
+- Prefer SAT when the contribution is satisfiability: SAT/QBF/SMT-adjacent solving, encodings, proof logging, solver engineering, benchmarks, or SAT applications.
+- Route broader constraint programming to CP, formal verification tooling to CAV, and knowledge-representation formalisms to KR when satisfiability is not the center.
+- SAT evidence should include encoding details, solver comparisons, benchmark diversity, proof/correctness handling, and analysis of when the technique helps.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

@@ -47,6 +47,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **Real neighbors.** SC (Supercomputing), PPoPP, and ICS — not security venues.
 - **Routing.** HPC/distributed-computing systems here; parallel-programming models to PPoPP.
 
+## HPDC-specific routing detail
+
+- Prefer HPDC when the core claim is about distributed/HPC execution, scheduling, workflows, cloud/HPC resource management, data-intensive computing, or runtime behavior at scale.
+- Route wireless/mobile threat-model papers to WiSec, performance-modeling methodology to SIGMETRICS, and broad OS/network architecture to OSDI/NSDI/SIGCOMM when those communities own the main claim.
+- HPDC evidence should show scale, workload realism, and resource tradeoffs across distributed settings, not just single-node benchmark gains.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

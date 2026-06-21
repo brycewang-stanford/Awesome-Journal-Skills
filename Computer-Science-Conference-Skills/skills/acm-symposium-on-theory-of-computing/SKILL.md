@@ -51,6 +51,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **Scope is near-identical to FOCS.** Differentiate by **deadline/cycle and program committee**, not by topic or prestige; pick whichever cycle the result is ready for.
 - **vs SODA/CCC/ITCS.** Algorithms-heavy work may fit SODA; complexity-specific work CCC; conceptual/early theory ITCS — route by sub-area when STOC/FOCS breadth is not the best home.
 
+## STOC-specific routing detail
+
+- Prefer STOC when the paper can sell a broad theoretical-computer-science breakthrough to a cross-area SIGACT audience: the first page should make the theorem, model, and conceptual payoff legible beyond one narrow subcommunity.
+- Treat FOCS as the closest peer, but use STOC for the spring-cycle version of a result whose positioning benefits from ACM SIGACT breadth, STOC plenary visibility, or a cleaner story around algorithms/complexity/crypto/theory convergence.
+- Do not use STOC merely because the result is mathematical. A strongly empirical algorithms paper, a specialized complexity classification, or a cryptographic construction with protocol-specific evaluation may route better to SODA, CCC, CRYPTO, EUROCRYPT, or a domain venue.
+
 ## Method & evidence bar
 
 - For systems/data papers, use realistic workloads, data sizes, and baselines; for theory papers, give exact statements and complete proofs.

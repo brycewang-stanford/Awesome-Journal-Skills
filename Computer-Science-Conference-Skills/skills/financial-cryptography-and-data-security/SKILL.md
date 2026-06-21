@@ -47,6 +47,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **Real neighbors.** CCS / IEEE S&P (security) and CRYPTO/EUROCRYPT (crypto theory) — finance/blockchain-flavored.
 - **vs AsiaCCS.** AsiaCCS is general regional security; FC is the finance/crypto-applications venue.
 
+## FC-specific routing detail
+
+- Prefer FC when the security contribution is financial: payments, blockchains, digital assets, economic incentives, market abuse, financial privacy, or applied cryptography in financial systems.
+- Route general computer security to AsiaCCS/CCS/S&P/USENIX/NDSS, and privacy-first protocols or measurements to PETS when finance is not the main object.
+- FC evidence should combine threat model, economic or protocol assumptions, adversary incentives, empirical or formal validation, and implications for financial systems.
+
 ## Method & evidence bar
 
 - Define the threat model, attacker capabilities, disclosure posture, and ethics review before presenting results.

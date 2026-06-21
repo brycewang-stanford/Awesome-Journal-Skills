@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   systems-languages-and-applications` (OOPSLA). Break ties by contribution type, evidence
   shape, reviewer community, and the current official CFP from conf.researchr.org.
 
+## PLDI-specific routing detail
+
+- Prefer PLDI when the paper's claim lives in a working language, compiler, runtime, optimizer, program-analysis tool, or implementation technique, and the evaluation can show practical payoff beyond toy examples.
+- Use POPL as the closest contrast: POPL centers semantic or type-theoretic principles, while PLDI expects the design insight to survive implementation, benchmarking, usability, or artifact scrutiny.
+- Route to OOPSLA when the work is a broader language/software-engineering experience report, to ASPLOS/CGO/PACT when architecture or performance dominates, and to POPL when proofs rather than implementation evidence carry the main claim.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

@@ -46,6 +46,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   distributed-computing` (HPDC). Break ties by contribution type, evidence shape, reviewer
   community, and the current official CFP from supercomputing.org.
 
+## SC-specific routing detail
+
+- Prefer SC when the contribution is high-performance computing at scale: supercomputing systems, parallel applications, performance engineering, networking/storage for HPC, accelerators, or scientific workloads.
+- Route architecture-only work to ISCA/HPCA, cross-layer PL/OS/architecture mechanisms to ASPLOS, and distributed cloud/HPC systems below supercomputing scale to HPDC.
+- SC evidence should include scale, system configuration, application workload realism, performance portability, resource efficiency, and reproducibility of the HPC experiment.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

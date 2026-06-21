@@ -50,6 +50,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs OSDI.** OSDI (also USENIX) is **operating-systems** design; route by whether the core contribution is a **networked/distributed-systems** result (here) or an **OS/runtime/storage** result (OSDI).
 - **vs SIGCOMM/INFOCOM.** SIGCOMM (ACM) and INFOCOM (IEEE) lean networking-measurement/protocol; NSDI rewards a built, evaluated systems artifact.
 
+## NSDI-specific routing detail
+
+- Prefer NSDI when the central artifact is a networked or distributed system, cloud platform, infrastructure mechanism, reliability design, or measurement-driven implementation.
+- Route OS/runtime/storage abstractions to OSDI/SOSP/FAST, protocol-centric networking to SIGCOMM, and purely analytical performance modeling to SIGMETRICS.
+- NSDI evidence should show realistic scale, deployment or trace realism, distributed failure modes, latency/throughput tradeoffs, and operational constraints.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

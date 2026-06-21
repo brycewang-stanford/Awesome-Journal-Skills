@@ -50,6 +50,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **Scope is near-identical to STOC.** Differentiate by **deadline/cycle and program committee**, not by topic or prestige.
 - **vs SODA/CCC/ITCS.** Route algorithms-heavy work to SODA, complexity-specific work to CCC, and conceptual/early theory to ITCS when the general theory venues are not the best fit.
 
+## FOCS-specific routing detail
+
+- Prefer FOCS when the manuscript is mature for the autumn foundations cycle and the core contribution is a proof or model advance whose importance can be evaluated by the broad IEEE foundations community.
+- Use FOCS over STOC when timing, program-committee fit, or a foundations/logic/complexity emphasis makes the fall cycle the cleaner launch point; do not claim a substantive prestige difference between the two general theory flagships.
+- If the strongest contribution is engineering performance, a domain-specific cryptographic primitive, or a narrowly specialized complexity taxonomy, compare first with SODA, CRYPTO/EUROCRYPT, CCC, ITCS, or a subfield workshop rather than forcing a general FOCS frame.
+
 ## Method & evidence bar
 
 - For systems/data papers, use realistic workloads, data sizes, and baselines; for theory papers, give exact statements and complete proofs.

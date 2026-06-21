@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   (OOPSLA). Break ties by contribution type, evidence shape, reviewer community, and the
   current official CFP from conf.researchr.org.
 
+## POPL-specific routing detail
+
+- Prefer POPL when the intellectual center is a semantic model, type system, logic, proof technique, verification principle, or formal reasoning result; an implementation can help, but the paper should not depend on performance numbers as its main novelty proof.
+- Use PLDI as the closest contrast: PLDI wants a design/implementation contribution with measured payoff, while POPL reviewers need crisp formal statements, proof obligations, soundness/completeness boundaries, and conceptual transfer to future PL work.
+- Route to ICFP for functional-programming practice, OOPSLA for broader language/software-engineering systems, CAV for verification-tool focus, or PLDI when the prototype, compiler, or runtime evidence is the center of gravity.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

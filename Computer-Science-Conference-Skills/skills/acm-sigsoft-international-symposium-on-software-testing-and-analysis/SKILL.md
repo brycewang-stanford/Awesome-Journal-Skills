@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Do not use ISSTA for every SE tool paper. SANER/ICSME fit evolution and maintenance; ASE fits
   automation breadth; ICSE/FSE fit broad SE contributions.
 
+## ISSTA-specific routing detail
+
+- Prefer ISSTA when the main contribution is software testing or analysis: test generation, bug finding, static/dynamic analysis, verification for software defects, fuzzing, or debugging.
+- Route software evolution and maintenance studies to SANER/ICSME, general automated SE to ASE, and flagship SE work to ICSE/FSE when testing/analysis is not central.
+- ISSTA evidence should include benchmark or repository realism, defect model, tool precision/recall or effectiveness, comparison to mature testing/analysis tools, and failure cases.
+
 ## Method & evidence bar
 
 - Use real programs, benchmarks, proofs, developer studies, or artifacts matched to the contribution type.

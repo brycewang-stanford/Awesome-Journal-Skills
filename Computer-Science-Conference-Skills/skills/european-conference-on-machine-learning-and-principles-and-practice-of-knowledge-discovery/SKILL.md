@@ -51,6 +51,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs ICML / NeurIPS.** Those are the global ML flagships; ECML-PKDD is the European ML+KDD venue — route by region/cycle.
 - **vs KDD.** ACM KDD is the data-mining flagship; ECML-PKDD pairs ML with knowledge discovery.
 
+## ECML PKDD-specific routing detail
+
+- Prefer ECML PKDD when the contribution is European ML/data-mining/knowledge-discovery research with algorithmic, applied, or discovery-process novelty.
+- Route human-centered retrieval interaction to CHIIR, collaboration and social computing to CSCW, and top-general ML method claims to ICML/NeurIPS/ICLR.
+- ECML PKDD evidence should connect learning/mining method, data assumptions, discovery task, baselines, and practical knowledge-discovery value.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

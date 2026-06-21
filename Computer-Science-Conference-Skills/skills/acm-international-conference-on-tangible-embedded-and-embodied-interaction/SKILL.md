@@ -52,6 +52,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs ASSETS.** ASSETS is **accessibility**-specific; route disability/accessibility contributions there even when they involve tangible interfaces.
 - **vs CHI/UbiComp.** CHI is the broad HCI flagship and UbiComp is pervasive/sensing; choose TEI when the tangible/embodied interface *is* the contribution.
 
+## TEI-specific routing detail
+
+- Prefer TEI when the contribution depends on tangible, embedded, embodied, material, or physical-digital interaction artifacts and the prototype experience is part of the research claim.
+- Route everyday sensing, pervasive infrastructure, and long-running context-aware deployments to UbiComp; route disability-centered access outcomes to SIGACCESS unless tangibility is the central contribution.
+- TEI evidence should include artifact construction, interaction qualities, situated use, material constraints, and user-study observations that could not be reduced to a screen-only HCI paper.
+
 ## Method & evidence bar
 
 - Match the contribution type to the evidence: controlled study, field deployment, design inquiry, technical system, dataset, or theory.

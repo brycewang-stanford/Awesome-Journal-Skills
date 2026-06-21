@@ -47,6 +47,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **Real neighbors.** CCS / NDSS / IEEE S&P (security big-four) and MobiCom (wireless) — not HPC venues.
 - **Routing.** Wireless/mobile security here; general security to the big-four.
 
+## WiSec-specific routing detail
+
+- Prefer WiSec when the attack, defense, measurement, or privacy claim depends on RF, cellular, Wi-Fi, Bluetooth, sensing, IoT, vehicular, or mobile-edge assumptions.
+- Route distributed-computing scalability and scheduling papers to HPDC; route protocol or wireless-performance papers without a security threat model to MobiCom/SIGCOMM/SIGMETRICS.
+- The evaluation should connect adversary capability to physical or network context, not just re-label a generic security result as mobile.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

@@ -47,6 +47,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **Real neighbors.** CHI, UIST, and TEI (tangible) — not crowdsourcing venues.
 - **Routing.** Surface/spatial-interaction here; broad HCI to CHI, systems/UI tech to UIST.
 
+## ISS-specific routing detail
+
+- Prefer ISS when the research depends on interactive surfaces, tabletops, public displays, spatial interaction, touch/pen/mid-air input, or room-scale interface prototypes.
+- Route human computation and crowdsourcing workflows to HCOMP, tangible/material interaction to TEI, and accessibility-first outcomes to SIGACCESS.
+- ISS evidence should include hardware or space setup, interaction technique, physical context, user task, ergonomics, and limitations of the sensing/display environment.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

@@ -47,6 +47,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs ISWC.** ISWC is the broad semantic-web/knowledge-graph flagship; K-CAP is acquisition/capture-focused.
 - **vs KR.** KR is formal reasoning theory; K-CAP centers building and capturing knowledge.
 
+## K-CAP-specific routing detail
+
+- Prefer K-CAP when the contribution is knowledge capture, acquisition, curation, ontology engineering, human-in-the-loop knowledge modeling, or converting expertise into reusable knowledge structures.
+- Route data-system execution engines to ICDE, semantic-web interoperability and linked-data claims to ISWC, and generic pattern-recognition methods to ICPR.
+- K-CAP evidence should show knowledge-source provenance, modeling workflow, expert/user involvement, capture quality, and how the acquired knowledge supports downstream reasoning or reuse.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

@@ -47,6 +47,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs K-CAP.** K-CAP is **knowledge capture/acquisition**; ISWC is the broader semantic-web flagship.
 - **vs KR / CIKM.** KR is formal reasoning, CIKM is applied IR/KM; ISWC centers web-scale knowledge representation.
 
+## ISWC-specific routing detail
+
+- Prefer ISWC when the contribution centers on semantic web infrastructure: linked data, ontologies, RDF/OWL/SPARQL, knowledge graphs on the web, semantic interoperability, or web-scale reasoning.
+- Route knowledge-acquisition workflows to K-CAP, database engine contributions to ICDE, and pure recognition or extraction models to ICPR/ACL-family venues.
+- ISWC evidence should include ontology or graph quality, interoperability, web-data assumptions, reasoning/query behavior, and reuse across semantic-web applications.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

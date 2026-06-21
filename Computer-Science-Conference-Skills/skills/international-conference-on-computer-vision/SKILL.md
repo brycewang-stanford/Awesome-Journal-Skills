@@ -47,6 +47,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs ECCV.** ECCV is the **even-year** European biennial counterpart (Springer); with annual **CVPR** they form the vision big-three.
 - **Routing.** WACV is applied/winter, ACCV is Asia-Pacific regional; ICCV is a top general-vision flagship.
 
+## ICCV-specific routing detail
+
+- Prefer ICCV when the paper targets the international computer-vision flagship cycle with strong vision novelty, benchmarks, analysis, and broad vision-community relevance.
+- Route European-cycle fit to ECCV, annual North American cycle fit to CVPR, and graphics or visualization claims to SIGGRAPH/EuroVis-family venues when vision is not the main object.
+- ICCV evidence should make benchmark protocol, method novelty, ablations, robustness, qualitative analysis, and limits of generalization visible.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

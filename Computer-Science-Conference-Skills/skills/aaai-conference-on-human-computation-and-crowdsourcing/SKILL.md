@@ -47,6 +47,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **Real neighbors.** CSCW and CHI (collaboration/HCI) and AAAI (AI) — not tabletop/surface venues.
 - **Routing.** Crowd/human-computation here; collaboration systems to CSCW.
 
+## HCOMP-specific routing detail
+
+- Prefer HCOMP when the contribution is human computation, crowdsourcing, collective intelligence, hybrid human-AI workflows, task design, worker quality, or social/market mechanisms for computation.
+- Route interactive surface hardware and spatial interaction to ISS, intelligent interface design to IUI, and general HCI studies to CHI/CSCW when crowd work is not central.
+- HCOMP evidence should explain task decomposition, worker/user population, incentives, quality control, aggregation, ethics, and how human contributions change computational performance.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

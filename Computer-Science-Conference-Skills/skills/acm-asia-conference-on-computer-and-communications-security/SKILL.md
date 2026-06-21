@@ -47,6 +47,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **Real neighbors.** CCS (its parent), ESORICS, IEEE S&P, NDSS — route by region/cycle within the security family.
 - **vs Financial Cryptography.** FC centers crypto+finance/blockchain; AsiaCCS is general security.
 
+## AsiaCCS-specific routing detail
+
+- Prefer AsiaCCS when the paper is a full computer-security contribution and the ACM Asia security community/cycle is the natural fit.
+- Route finance, cryptocurrency, payments, and economic-security papers to FC; privacy-first work to PETS; and broad flagship security work to CCS/S&P/USENIX/NDSS when scope and timing fit.
+- AsiaCCS evidence should include a precise threat model, security argument, evaluation, ethical handling, and community positioning beyond simply choosing a regional deadline.
+
 ## Method & evidence bar
 
 - Define the threat model, attacker capabilities, disclosure posture, and ethics review before presenting results.

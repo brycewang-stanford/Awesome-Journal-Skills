@@ -47,6 +47,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs ICLR / NeurIPS.** ICLR is deep-learning-forward (OpenReview) and NeurIPS is the broad ML/neuro flagship; the three overlap heavily — route by cycle and community.
 - **Routing.** Learning theory → COLT; vision → CVPR/ICCV/ECCV; NLP → ACL-family.
 
+## ICML-specific routing detail
+
+- Prefer ICML when the paper is a broad machine-learning contribution: algorithms, theory-informed methods, optimization, probabilistic learning, evaluation, or generalization across tasks.
+- Route representation-learning framing to ICLR, broader AI/society/systems mix to NeurIPS, statistical inference to AISTATS, and ML systems to MLSys.
+- ICML evidence should include strong baselines, ablations, theoretical or empirical justification, compute/reporting transparency, and task diversity matching the claim.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

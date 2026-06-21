@@ -47,6 +47,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs HPCA.** HPCA (IEEE) is focused on **high-performance** architecture; ISCA spans the full architecture agenda and sits atop the ISCA/MICRO/HPCA/ASPLOS "big four".
 - **Routing.** Route arch+OS+language co-design to ASPLOS, microarchitecture/implementation to MICRO, and high-performance-specific work to HPCA.
 
+## ISCA-specific routing detail
+
+- Prefer ISCA when the paper targets the flagship computer-architecture community with processor, memory, accelerator, cache, interconnect, or architectural-method contributions.
+- Compare HPCA for high-performance architecture cycle/community fit, ASPLOS for architecture plus programming languages/OS, and SC when system-scale HPC deployment is the claim.
+- ISCA evidence should make architecture novelty, workload representativeness, simulator/hardware credibility, design tradeoffs, and cross-benchmark robustness visible.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

@@ -50,6 +50,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs SIGCOMM.** SIGCOMM (ACM) is the more selective, measurement/systems-forward flagship; bring analytical/performance work to INFOCOM.
 - **vs CoNEXT.** CoNEXT (ACM SIGCOMM) targets emerging experimental networking; differentiate by community (IEEE vs ACM) and contribution style.
 
+## INFOCOM-specific routing detail
+
+- Prefer INFOCOM when the paper is IEEE networking research: network algorithms, protocols, wireless/mobile networking, measurement, modeling, or communication-network performance.
+- Route systems-heavy networking to SIGCOMM/CoNEXT/NSDI, European systems artifacts to EuroSys, and security/privacy networking to NDSS/WiSec when threat model dominates.
+- INFOCOM evidence should include network model or deployment assumptions, protocol analysis, simulation or measurement validity, scalability, and performance tradeoffs.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

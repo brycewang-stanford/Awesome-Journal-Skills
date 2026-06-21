@@ -48,6 +48,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **Center of gravity.** SIAM venues lean **methodological/algorithmic with an applied-math framing**; route theory-forward mining methods here and large-scale applied/industrial work to KDD.
 - **Routing.** Scope overlaps ICDM/KDD heavily — differentiate by **community and cycle**, not prestige.
 
+## SDM-specific routing detail
+
+- Prefer SDM when the data-mining contribution has strong mathematical, statistical, optimization, graph, or algorithmic depth and a SIAM data-science audience.
+- Route broader applied/data-mining papers to ICDM/KDD, database-system work to ICDE/SIGMOD/VLDB, and general ML algorithms to the ML flagships.
+- SDM evidence should include formal problem structure, algorithmic analysis or principled modeling, rigorous experiments, and clarity about when the method should be used.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

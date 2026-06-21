@@ -47,6 +47,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs ISCA.** ISCA (ACM SIGARCH + IEEE TCCA) is the broadest architecture flagship; HPCA concentrates on high-performance design and is one of the "big four" (ISCA/MICRO/HPCA/ASPLOS).
 - **Routing.** Send architecture+OS+language co-design to ASPLOS and microarchitecture-implementation work to MICRO; reserve HPCA for performance-architecture contributions.
 
+## HPCA-specific routing detail
+
+- Prefer HPCA when the contribution is high-performance computer architecture: microarchitecture, memory hierarchy, accelerators, processor design, architectural simulation, or hardware/software co-design.
+- Route broad computer-architecture work to ISCA when that flagship community/cycle fits better; route programming-language/runtime co-design to ASPLOS and full HPC systems to SC.
+- HPCA evidence should include architecture model, workloads, simulator or hardware validation, performance/energy/area tradeoffs, and sensitivity analysis.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

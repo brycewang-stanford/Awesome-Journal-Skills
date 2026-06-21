@@ -52,6 +52,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs ASE.** ASE is about **automated** software engineering broadly; bring requirements-specific contributions here.
 - **vs ICSE/FSE.** The SE flagships absorb requirements work too; pick RE when the requirements-engineering community is the primary audience.
 
+## RE-specific routing detail
+
+- Prefer RE when the paper studies requirements: elicitation, specification, prioritization, traceability, stakeholder negotiation, compliance, validation, or requirements quality.
+- Route automated program analysis/testing/repair to ASE and general SE process or empirical studies to ICSE/FSE when requirements are only background.
+- RE evidence should show stakeholder context, artifact quality, requirements lifecycle position, traceability or validation method, and how the approach changes requirements practice.
+
 ## Method & evidence bar
 
 - Use real programs, benchmarks, proofs, developer studies, or artifacts matched to the contribution type.

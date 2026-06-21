@@ -44,6 +44,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   and-accessibility` (ASSETS). Break ties by contribution type, evidence shape, reviewer
   community, and the current official CFP from vrst.acm.org.
 
+## VRST-specific routing detail
+
+- Prefer VRST when the main artifact is an immersive system, VR software architecture, interaction technique, rendering/performance method, or virtual-environment tool whose value is visible in an embodied or real-time experience.
+- Use ESEM only when the center of gravity is empirical software-engineering measurement; VRST reviewers need the immersive-system contribution itself, not just a developer survey about VR projects.
+- Compare with IEEE VR, ISMAR, CHI, UIST, and SIGGRAPH-style venues when the strongest evidence is perceptual, HCI, graphics, or interaction-design depth rather than VR software/tooling.
+
 ## Method & evidence bar
 
 - Use real programs, benchmarks, proofs, developer studies, or artifacts matched to the contribution type.

@@ -51,6 +51,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs SIGGRAPH Asia.** The Asian counterpart runs late in the year across rotating Asian host cities at the same bar — choose by **region and submission window**, never prestige.
 - **Scope.** Rendering, geometry processing, animation, physical simulation, imaging, and graphics systems.
 
+## SIGGRAPH-specific routing detail
+
+- Prefer SIGGRAPH when the result fits the summer North American SIGGRAPH/TOG rhythm and needs the flagship graphics audience around rendering, geometry, animation, simulation, imaging, or graphics systems.
+- Route to SIGGRAPH Asia when the same bar and community fit but the late-year Asia-Pacific cycle is strategically better; route to CVPR/ICCV/ECCV when recognition/vision benchmarks dominate.
+- A SIGGRAPH paper should make visual quality, technical novelty, reproducibility, and production-aware evaluation visible in the main figures.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

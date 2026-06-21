@@ -46,6 +46,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   intelligence-and-operations-research` (CPAIOR). Break ties by contribution type, evidence
   shape, reviewer community, and the current official CFP from www.aamas-conference.org.
 
+## AAMAS-specific routing detail
+
+- Prefer AAMAS when the main object is agent interaction: coordination, incentives, negotiation, auctions, mechanism design, multiagent learning, planning, or decentralized decision-making.
+- Route ML infrastructure, compilers, serving, or hardware-aware training systems to MLSys unless agents are the research object rather than the workload.
+- The evidence should expose strategic behavior, equilibrium or coordination structure, decentralized policies, or multiagent evaluation protocols.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

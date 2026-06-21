@@ -50,6 +50,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs RoboCup.** RoboCup is a **competition-anchored** event (leagues + symposium); route archival humanoid-science contributions here and competition/benchmark results there.
 - **vs ICRA/IROS.** Use Humanoids when the humanoid form factor *is* the contribution; general robotics breadth fits the IEEE flagships.
 
+## Humanoids-specific routing detail
+
+- Prefer Humanoids when the contribution depends on humanoid morphology, bipedal locomotion, manipulation, whole-body control, human-like interaction, or humanoid platforms.
+- Route robot competitions and benchmark leagues to RoboCup, distributed multi-robot autonomy to DARS, and general robotics results to ICRA/IROS/RSS.
+- Humanoids evidence should specify platform constraints, whole-body behavior, balance/control, hardware reliability, task setup, and failures tied to humanoid embodiment.
+
 ## Method & evidence bar
 
 - Report hardware, simulation, environment, task distribution, reset procedure, and failure cases; embodied evidence must be inspectable.

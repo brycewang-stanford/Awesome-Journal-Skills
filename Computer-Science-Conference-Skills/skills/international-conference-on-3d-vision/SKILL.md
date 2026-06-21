@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   ties by contribution type, evidence shape, reviewer community, and the current official CFP
   from 3dvconf.github.io.
 
+## 3DV-specific routing detail
+
+- Prefer 3DV when the paper's core evidence is geometric: reconstruction fidelity, camera/pose reasoning, depth estimation, neural rendering, scene representation, 3D datasets, or embodied perception under spatial constraints.
+- Use BMVC only when the contribution is broader visual recognition, pattern recognition, or visual learning and the 3D component is a dataset detail rather than the scientific center.
+- Compare with CVPR/ICCV/ECCV for flagship 3D vision breadth, ISMAR/IEEE VR for immersive or mixed-reality systems, SIGGRAPH-style venues for graphics/rendering depth, and robotics venues when embodied policy or control is primary.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

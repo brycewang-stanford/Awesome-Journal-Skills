@@ -52,6 +52,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs MobileHCI.** MobileHCI centers **mobile** interaction; IUI centers **intelligent/AI-driven** interfaces — overlapping HCI siblings.
 - **Real neighbors.** CHI (broad HCI), RecSys (recommenders), UbiComp — route by AI-intelligence vs mobile-context emphasis.
 
+## IUI-specific routing detail
+
+- Prefer IUI when intelligence is embedded in the user interface: adaptive interaction, mixed-initiative systems, explainable assistance, personalization, recommender interfaces, or interactive AI behavior.
+- Route mobile-device interaction studies to MobileHCI, crowd workflows to HCOMP, and broad HCI systems to CHI/UIST when intelligent adaptation is not central.
+- IUI evidence should show user interaction with the intelligent component, model/interface coupling, usability or decision quality, explanation/failure handling, and realistic task context.
+
 ## Method & evidence bar
 
 - Match the contribution type to the evidence: controlled study, field deployment, design inquiry, technical system, dataset, or theory.

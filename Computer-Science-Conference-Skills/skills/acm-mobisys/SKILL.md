@@ -47,6 +47,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs MobiCom.** MobiCom is wireless/networking-forward; bring mobile-systems and on-device/sensing-systems work here.
 - **Routing.** Reserve MobiSys for built mobile systems and services; route protocol/wireless results to MobiCom.
 
+## MobiSys-specific routing detail
+
+- Prefer MobiSys when the contribution is a built mobile, embedded, wearable, sensing, edge, or application system whose research value depends on real-device constraints, energy, latency, deployment, or user/context behavior.
+- Use MobiCom when the decisive novelty is wireless networking, spectrum/protocol design, mobility measurement, or network-layer performance rather than the mobile system as an artifact.
+- Compare with UbiComp for human/context-rich ubiquitous systems, SenSys/IPSN for sensing infrastructure, NSDI/SOSP/OSDI for broader systems abstractions, and CHI/IMWUT when user experience or longitudinal deployment is primary.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

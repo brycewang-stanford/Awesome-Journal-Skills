@@ -44,6 +44,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   evidence shape, reviewer community, and the current official CFP from
   kuralab.github.io/dars2026.
 
+## DARS-specific routing detail
+
+- Prefer DARS when the contribution is distributed autonomous robotic systems: multi-robot coordination, swarms, decentralized control, field teams, communication, or collective autonomy.
+- Route humanoid embodiment to Humanoids, competition-league robotics to RoboCup, and general robotics results to ICRA/IROS/RSS when distributed autonomy is not central.
+- DARS evidence should include team size, communication assumptions, decentralization, coordination failure modes, scalability, and real or realistic multi-robot trials.
+
 ## Method & evidence bar
 
 - Report hardware, simulation, environment, task distribution, reset procedure, and failure cases; embodied evidence must be inspectable.

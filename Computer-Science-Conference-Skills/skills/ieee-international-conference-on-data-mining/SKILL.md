@@ -48,6 +48,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **Routing.** Topic scope across ICDM/SDM/KDD overlaps heavily; route by **community, cycle, and paper format** rather than prestige.
 - **Center of gravity.** Algorithmic data-mining contributions with strong empirical evaluation; applied/industrial tracks fit KDD's applied-data-science lane.
 
+## ICDM-specific routing detail
+
+- Prefer ICDM when the paper is data-mining research with algorithmic, applied, or scalable mining contribution across structured, graph, temporal, text, or heterogeneous data.
+- Route mathematically focused data-mining methods to SDM, database-system contributions to ICDE/SIGMOD/VLDB, and broad ML method papers to ICML/NeurIPS/ICLR.
+- ICDM evidence should show mining task definition, baselines, scalability, dataset realism, ablations, and interpretability or application relevance.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

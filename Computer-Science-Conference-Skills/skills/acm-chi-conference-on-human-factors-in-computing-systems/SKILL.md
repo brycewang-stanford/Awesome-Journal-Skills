@@ -44,6 +44,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   user-interfaces` (IUI). Break ties by contribution type, evidence shape, reviewer community,
   and the current official CFP from chi2026.acm.org.
 
+## CHI-specific routing detail
+
+- Prefer CHI when the paper makes a broad human-centered computing contribution: user behavior, interaction technique, accessibility, social computing, design implication, empirical study, or system impact with strong human evidence.
+- Use DIS when the design artifact, design method, critical design inquiry, or making/prototyping contribution is the center of the paper; CHI reviewers still expect the human-centered claim to generalize beyond the artifact.
+- Compare with CSCW for collaborative/social systems, UIST for interaction-technique engineering, IUI for intelligent interface behavior, and specialized accessibility/health/education venues when the domain community is the primary audience.
+
 ## Method & evidence bar
 
 - Match the contribution type to the evidence: controlled study, field deployment, design inquiry, technical system, dataset, or theory.

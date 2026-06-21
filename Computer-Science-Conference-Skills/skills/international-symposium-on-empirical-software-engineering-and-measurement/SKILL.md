@@ -46,6 +46,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   type, evidence shape, reviewer community, and the current official CFP from
   conf.researchr.org.
 
+## ESEM-specific routing detail
+
+- Prefer ESEM when the contribution is the empirical design: measurement validity, replicated evidence, developer behavior, software-process inference, qualitative coding, survey methodology, benchmark construction, or evidence synthesis.
+- Use VRST only when the novelty is a VR/immersive system itself; a study of how developers build VR systems can fit ESEM, but an interactive VR technique needs VRST, CHI, UIST, or IEEE VR framing.
+- Compare against MSR for repository-mining evidence, ICSE/FSE for broader software-engineering contribution, SANER for maintenance/evolution emphasis, and TOSEM/EMSE when the study needs journal-scale methods detail.
+
 ## Method & evidence bar
 
 - Use real programs, benchmarks, proofs, developer studies, or artifacts matched to the contribution type.

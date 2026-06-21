@@ -52,6 +52,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **Real neighbors.** SC, HPDC, ICS (HPC) and PLDI (PL) — not storage venues.
 - **Routing.** Parallel-programming abstractions here; HPC systems to SC/HPDC.
 
+## PPoPP-specific routing detail
+
+- Prefer PPoPP when the novelty is a parallel programming abstraction, compiler/runtime mechanism, synchronization protocol, memory model, scheduler, or multicore/GPU programming insight.
+- Route file systems, persistence, and storage reliability to FAST; route large-scale distributed/HPC infrastructure to HPDC/SC when programming abstraction is not central.
+- PPoPP evidence should expose programmability, correctness or semantics, scaling, workload diversity, and why the abstraction changes how parallel software is written.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

@@ -51,6 +51,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs AutoML.** The AutoML Conference is about **automated machine learning** (NAS, HPO, meta-learning pipelines); route continual-learning work here and automation-of-ML work there.
 - **vs NeurIPS/ICML/ICLR.** The general ML flagships also take continual learning; choose CoLLAs when the lifelong-learning community is the target.
 
+## CoLLAs-specific routing detail
+
+- Prefer CoLLAs when the evaluation stress-tests learning over task sequences, nonstationary distributions, memory, forgetting, adaptation, transfer, or agent lifetime.
+- Route NAS/HPO/search-pipeline automation to AutoML, ML infrastructure to MLSys, and broad method papers to NeurIPS/ICML/ICLR when continual learning is only an application.
+- A strong CoLLAs paper should make the temporal protocol and retention/adaptation tradeoff impossible to miss.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

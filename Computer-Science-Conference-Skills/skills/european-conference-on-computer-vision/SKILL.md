@@ -48,6 +48,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs ICCV.** ICCV (IEEE/CVF) is the **odd-year** biennial counterpart; together with the annual **CVPR** they are the vision big-three.
 - **Routing.** Send applied/winter work to WACV and regional work to ACCV; ECCV is a flagship general-vision venue.
 
+## ECCV-specific routing detail
+
+- Prefer ECCV when the contribution is computer vision with the European flagship community/cycle as the right fit: recognition, geometry, learning, video, 3D vision, or vision-language.
+- Route late-year international flagship vision work to ICCV, North American cycle work to CVPR, and application-specific imaging to ISBI/MICCAI when biomedical validation dominates.
+- ECCV evidence should include strong baselines, dataset protocol, ablations, qualitative failure cases, and positioning against current vision literature.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   by contribution type, evidence shape, reviewer community, and the current official CFP from
   conferences.sigcomm.org.
 
+## HotNets-specific routing detail
+
+- Prefer HotNets when the paper is a compact, provocative networking thesis with enough early evidence to make the direction credible, but not yet a full SIGCOMM/NSDI system.
+- Move to SIGMETRICS when the contribution is measurement or modeling methodology; move to HPDC when the hard part is distributed/HPC runtime or scheduling at scale.
+- A HotNets submission can be deliberately early, but the introduction must make the bet, implications, and missing full-system evidence explicit.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

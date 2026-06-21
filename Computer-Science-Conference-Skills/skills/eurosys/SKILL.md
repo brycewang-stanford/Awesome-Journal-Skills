@@ -50,6 +50,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs the networking venues.** SIGCOMM/INFOCOM/CoNEXT are networking-specific; bring OS/runtime/distributed-systems contributions to EuroSys.
 - **vs SOSP/OSDI.** EuroSys is the European systems flagship alongside the USENIX/ACM OS venues; route by cycle, community, and systems sub-area rather than prestige.
 
+## EuroSys-specific routing detail
+
+- Prefer EuroSys when the contribution is systems research for the European systems community: OS, distributed systems, storage, cloud, runtimes, or systems infrastructure with a built artifact.
+- Route networking protocol/measurement to INFOCOM/SIGCOMM/CoNEXT, flagship USENIX/ACM systems to OSDI/SOSP/NSDI, and storage-specific work to FAST.
+- EuroSys evidence should show system design, workload realism, implementation depth, performance/reliability tradeoffs, and operational constraints.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

@@ -49,6 +49,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs EuroVis.** EuroVis (Eurographics) is the European counterpart publishing in **CGF**; differentiate by organizing community and cycle.
 - **Routing.** Same scientific scope as EuroVis; pick by audience, journal pipeline (TVCG vs CGF), and timing.
 
+## IEEE VIS-specific routing detail
+
+- Prefer IEEE VIS when the contribution is flagship visualization research: visual analytics, information/scientific visualization, perception, evaluation, or visualization systems.
+- Route European visualization community/cycle work to EuroVis, advanced visual interface techniques to AVI, and graphics algorithms to SIGGRAPH/Eurographics-family venues.
+- IEEE VIS evidence should connect data abstraction, task analysis, visual encoding, evaluation, domain insight, and design rationale.
+
 ## Method & evidence bar
 
 - Match the contribution type to the evidence: controlled study, field deployment, design inquiry, technical system, dataset, or theory.

@@ -47,6 +47,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs LICS.** LICS is **logic in CS** (foundational); CAV is the applied/algorithmic verification venue.
 - **vs POPL / ICFP.** Those are programming-languages venues; CAV centers verification tools and theory.
 
+## CAV-specific routing detail
+
+- Prefer CAV when the contribution is formal verification: model checking, SMT/SAT-assisted verification, theorem proving, program/hardware verification, synthesis, or verification tools.
+- Route functional-language design to ICFP, logic foundations to LICS, and software-testing/analysis tools to ISSTA when verification is not the main claim.
+- CAV evidence should make formal properties, soundness/completeness assumptions, tool architecture, benchmark suites, and counterexample or proof behavior explicit.
+
 ## Method & evidence bar
 
 - Use real programs, benchmarks, proofs, developer studies, or artifacts matched to the contribution type.

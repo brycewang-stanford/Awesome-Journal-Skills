@@ -47,6 +47,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs SIGMOD.** SIGMOD (ACM) is the cycle-deadline DB flagship; VLDB's rolling PVLDB pipeline is the practical routing difference.
 - **Routing.** Both are top database systems venues; theory fits PODS, mining fits KDD/ICDM.
 
+## VLDB-specific routing detail
+
+- Prefer VLDB when the contribution is data-management research at large scale: database systems, query processing, transactions, storage, data integration, streams, or analytics infrastructure.
+- Route SIGMOD when the ACM flagship cycle/community is the better fit, ICDE for data-engineering breadth, and data-mining papers to KDD/ICDM/SDM.
+- VLDB evidence should include scale, workloads, system design, reproducibility, correctness tradeoffs, and practical data-management implications.
+
 ## Method & evidence bar
 
 - For systems/data papers, use realistic workloads, data sizes, and baselines; for theory papers, give exact statements and complete proofs.

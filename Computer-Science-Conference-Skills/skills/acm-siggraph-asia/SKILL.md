@@ -50,6 +50,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **Publication model.** Accepted technical papers become a **special late-year issue of *ACM Transactions on Graphics* (TOG)**, mirroring the summer SIGGRAPH issue; Journal + Conference tracks.
 - **vs SIGGRAPH (North America).** Same family and acceptance bar, different hemisphere and season — route by **where and when**, not prestige.
 
+## SIGGRAPH Asia-specific routing detail
+
+- Prefer SIGGRAPH Asia when the manuscript targets the same flagship graphics/TOG standard but benefits from the late-year Asia-Pacific cycle, regional program rhythm, or local graphics production ecosystem.
+- Route to SIGGRAPH for the summer North American cycle, to Eurographics/Pacific Graphics for regional graphics community fit, and to vision venues when recognition metrics are the main contribution.
+- A SIGGRAPH Asia paper should avoid fallback framing; make the graphics advance, evidence package, and cycle-specific submission plan explicit.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

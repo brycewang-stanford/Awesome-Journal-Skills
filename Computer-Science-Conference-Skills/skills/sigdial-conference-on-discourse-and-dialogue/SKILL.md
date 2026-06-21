@@ -52,6 +52,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **Real neighbors.** ACL / EMNLP / NAACL (NLP family) and IEEE SLT (spoken dialogue) — not systems/storage venues.
 - **Routing.** Send conversational-AI/discourse work here; general NLP to the ACL family.
 
+## SIGDIAL-specific routing detail
+
+- Prefer SIGDIAL when the contribution is dialogue state, turn-taking, discourse structure, spoken/written interaction, conversational evaluation, or user-facing agent behavior.
+- Route storage/file-system reliability and persistence work to FAST; route generic generation without interaction structure to INLG or ACL-family venues.
+- SIGDIAL evidence should evaluate conversation-level behavior, interaction breakdowns, dialogue policy, annotation reliability, and human or simulated-user protocol.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

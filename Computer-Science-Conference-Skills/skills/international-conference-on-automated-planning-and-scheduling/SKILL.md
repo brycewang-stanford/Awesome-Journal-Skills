@@ -46,6 +46,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   type, evidence shape, reviewer community, and the current official CFP from icaps-
   conference.org.
 
+## ICAPS-specific routing detail
+
+- Prefer ICAPS when the reusable contribution is a planner, scheduler, search heuristic, temporal/resource model, benchmark domain, or decision-process formulation, and the evidence shows planning/scheduling behavior rather than generic predictive accuracy.
+- Use KDD only when the discovery or data-mining contribution is primary; a planner evaluated on large operational data still belongs at ICAPS if the algorithmic insight is about search, constraints, schedules, or temporal plans.
+- Compare with CPAIOR for hybrid AI/OR optimization, AAMAS for multi-agent planning, KR for representation/reasoning depth, and AAAI/IJCAI when the planning contribution is part of a broader AI method.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

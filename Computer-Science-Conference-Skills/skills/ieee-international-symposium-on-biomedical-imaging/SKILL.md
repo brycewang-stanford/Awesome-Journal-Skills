@@ -47,6 +47,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **Real neighbors.** MICCAI and IPMI (medical imaging) — not multimedia-retrieval venues.
 - **Routing.** Clinical/biomedical imaging here; general vision to CVPR/ICCV/ECCV.
 
+## ISBI-specific routing detail
+
+- Prefer ISBI when the contribution is biomedical imaging methodology: acquisition, reconstruction, microscopy, segmentation, registration, quantitative imaging, or image-based measurement.
+- Route multimedia search/ranking/indexing work to ICMR/SIGIR/ACM MM, and route intervention or clinical workflow computing to MICCAI when that community owns the claim.
+- ISBI evidence should state biomedical relevance, dataset provenance, annotation or ground-truth quality, modality constraints, and validation beyond generic vision metrics.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

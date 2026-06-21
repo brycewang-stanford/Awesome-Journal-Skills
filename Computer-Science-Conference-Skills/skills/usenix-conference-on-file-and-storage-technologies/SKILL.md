@@ -51,6 +51,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **Real neighbors.** OSDI / NSDI / EuroSys / USENIX ATC (systems family) — not NLP or HCI venues.
 - **Routing.** Storage/file-system contributions here; networked systems to NSDI, OS to OSDI/SOSP.
 
+## FAST-specific routing detail
+
+- Prefer FAST when the contribution is about file systems, storage stacks, persistence, memory/storage hierarchy, reliability, durability, fault recovery, or storage workload behavior.
+- Route parallel programming abstractions to PPoPP, dialogue/NLP work to SIGDIAL/ACL-family venues, and broad OS or networked systems to OSDI/SOSP/NSDI.
+- FAST evidence should include realistic storage workloads, failure or crash-consistency model, durability/reliability tradeoffs, and comparison to mature storage baselines.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

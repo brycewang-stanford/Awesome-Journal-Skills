@@ -50,6 +50,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **Center of gravity.** Broad automation / manipulation / planning / control across the full robotics stack; the single most prestige-dense robotics deadline.
 - **vs RSS.** RSS is single-track and foundations/algorithmic-model forward; route model-and-theory results there and integrated hardware/system results here. Confirm the current cycle on www.ieee-ras.org.
 
+## ICRA-specific routing detail
+
+- Prefer ICRA when the contribution is broad robotics and automation: manipulation, locomotion, perception, control, planning, field robots, industrial robotics, or integrated robot systems.
+- Route intelligent-robot systems and community/cycle fit to IROS, experimental-method depth to ISER, and robotics research vision to ISRR.
+- ICRA evidence should include robot platform, task setup, trials, baselines, failure analysis, and whether results transfer beyond a single demonstration.
+
 ## Method & evidence bar
 
 - Report hardware, simulation, environment, task distribution, reset procedure, and failure cases; embodied evidence must be inspectable.

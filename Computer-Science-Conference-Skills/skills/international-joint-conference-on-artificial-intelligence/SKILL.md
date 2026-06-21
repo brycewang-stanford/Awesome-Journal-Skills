@@ -51,6 +51,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs AAAI.** AAAI is the AAAI-sponsored, North-America-centered generalist flagship; same breadth, different sponsor/cycle.
 - **vs ECAI.** ECAI is the European generalist venue; send method-specific work to the domain flagships, not IJCAI.
 
+## IJCAI-specific routing detail
+
+- Prefer IJCAI when the paper targets the international broad-AI community with AI novelty across reasoning, learning, planning, agents, language, vision, or responsible AI.
+- Route US-oriented broad AI cycle fit to AAAI, European community fit to ECAI, and deep ML representation or optimization claims to ICML/NeurIPS/ICLR.
+- IJCAI evidence should show AI relevance beyond one benchmark, with strong baselines, clear task framing, generality, and responsible limitations.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

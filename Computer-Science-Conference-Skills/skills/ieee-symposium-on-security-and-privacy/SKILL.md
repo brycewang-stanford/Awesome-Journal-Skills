@@ -47,6 +47,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs CCS.** CCS (ACM) is the other top general-security flagship; with **USENIX Security** and **NDSS** they are the big four — differentiate by cycle and community.
 - **Routing.** Crypto-theory → CRYPTO/EUROCRYPT; applied/regional → ESORICS/ACSAC; privacy-specific → PETS.
 
+## IEEE S&P-specific routing detail
+
+- Prefer IEEE S&P when the paper's security/privacy claim is rigorous enough for the Oakland community, with careful threat modeling, ethics, and deep technical or empirical evidence.
+- Compare CCS for ACM general security, USENIX Security for systems/security artifacts, NDSS for networked security, and PETS when privacy is the primary research community.
+- S&P evidence should avoid prestige-only framing and show why the attack, defense, measurement, or privacy result advances the long-running security/privacy conversation.
+
 ## Method & evidence bar
 
 - Define the threat model, attacker capabilities, disclosure posture, and ethics review before presenting results.

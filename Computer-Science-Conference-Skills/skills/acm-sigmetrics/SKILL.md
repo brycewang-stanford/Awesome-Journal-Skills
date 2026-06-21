@@ -46,6 +46,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   networks` (WiSec). Break ties by contribution type, evidence shape, reviewer community, and
   the current official CFP from www.sigmetrics.org.
 
+## SIGMETRICS-specific routing detail
+
+- Prefer SIGMETRICS when the novelty is a performance-measurement method, stochastic/queueing model, workload characterization, or evaluation design that explains why systems behave as observed.
+- Route provocative early networking theses to HotNets, mature networking mechanisms to SIGCOMM/NSDI, and parallel/distributed runtime or scheduling papers to HPDC unless the measurement/modeling method is the contribution.
+- Do not treat "we measured speedups" as SIGMETRICS fit by itself; reviewers need a reusable performance lens, validated model, or measurement methodology.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

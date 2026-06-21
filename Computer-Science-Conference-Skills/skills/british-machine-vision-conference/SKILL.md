@@ -51,6 +51,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs ACM MM.** ACM Multimedia (SIGMM) spans audio/language/systems multimedia; bring vision-centric work here, multimodal/media-systems work there.
 - **vs CVPR/ICCV/ECCV.** BMVC is a strong vision venue below the flagships; route by cycle and the maturity/scope of the vision contribution.
 
+## BMVC-specific routing detail
+
+- Prefer BMVC when the contribution is a general computer-vision or pattern-recognition result with clean baselines, ablations, and specialist CV relevance, especially when the work does not need a 3D-only audience.
+- Use 3DV only when geometry, reconstruction, depth, neural rendering, scene representation, or embodied 3D perception is central to the claim; a 2D recognition or visual-learning paper with incidental depth data is usually BMVC/WACV/ACCV territory.
+- Compare with WACV/ACCV for broader vision cycles, ISBI for biomedical imaging, ACM MM for multimodal media, and the CVPR/ICCV/ECCV tier when the contribution has flagship breadth and maturity.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

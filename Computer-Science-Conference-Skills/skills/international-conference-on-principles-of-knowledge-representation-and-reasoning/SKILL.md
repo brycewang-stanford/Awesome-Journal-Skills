@@ -47,6 +47,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs CP / SAT.** CP is constraint solving and SAT is Boolean satisfiability; KR is about **representation and reasoning formalisms**, not solver engineering.
 - **vs AAAI/IJCAI.** The generalist AI flagships also take KR work; choose KR when the formal-reasoning community is the primary audience.
 
+## KR-specific routing detail
+
+- Prefer KR when the contribution is about representation and reasoning formalisms: logics, ontologies, argumentation, belief change, nonmonotonic reasoning, constraints, planning knowledge, or explainable reasoning.
+- Route intrusion detection, attacks, defenses, and security measurement to RAID/security venues; route satisfiability-specific solving to SAT and semantic-web deployment to ISWC.
+- KR evidence should make formal semantics, reasoning properties, expressiveness/complexity, examples, and solver or empirical support explicit.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

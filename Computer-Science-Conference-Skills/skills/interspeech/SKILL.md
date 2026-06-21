@@ -52,6 +52,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs ASRU / SLT.** ASRU (IEEE) is a biennial **ASR-and-understanding** workshop; SLT (IEEE) is a biennial **spoken-language-technology** workshop — both narrower and smaller than Interspeech.
 - **vs ICASSP.** ICASSP is the broad signal-processing flagship; Interspeech is speech-science-and-technology-centered.
 
+## INTERSPEECH-specific routing detail
+
+- Prefer INTERSPEECH when the contribution is speech science or technology: recognition, synthesis, spoken dialogue, phonetics, paralinguistics, audio-language modeling, or speech evaluation.
+- Route workshop-scale spoken-language technology to SLT, text retrieval campaigns to TREC, and non-speech NLP to ACL/EMNLP/NAACL.
+- INTERSPEECH evidence should make speech modality, corpora, speaker/language variation, acoustic conditions, metrics, and perceptual or linguistic analysis explicit.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

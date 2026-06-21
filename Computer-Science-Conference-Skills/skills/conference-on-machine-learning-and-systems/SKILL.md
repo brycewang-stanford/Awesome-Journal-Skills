@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   Conference). Break ties by contribution type, evidence shape, reviewer community, and the
   current official CFP from mlsys.org.
 
+## MLSys-specific routing detail
+
+- Prefer MLSys when the contribution changes ML training, inference, serving, compiler/runtime behavior, data pipeline, hardware utilization, reliability, cost, or deployment scale.
+- Route autonomous-agent interaction, negotiation, incentives, or decentralized decision-making to AAMAS; route algorithmic ML without systems constraints to NeurIPS/ICML/ICLR.
+- MLSys evidence should include system bottlenecks, throughput/latency/cost/reliability tradeoffs, and realistic ML workloads rather than only benchmark accuracy.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

@@ -51,6 +51,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs ACCV.** ACCV is a **regional (Asia-Pacific)** general-vision venue; choose WACV for applied/deployment-oriented contributions.
 - **vs CVPR/ICCV/ECCV.** Same IEEE/CVF family as CVPR/ICCV; WACV rewards applied robustness and real-world systems rather than only headline novelty.
 
+## WACV-specific routing detail
+
+- Prefer WACV when the contribution is application-oriented computer vision with strong empirical evaluation, practical tasks, datasets, or systems.
+- Route Asian community/cycle fit to ACCV, flagship vision contributions to CVPR/ICCV/ECCV, and graphics/visualization results to SIGGRAPH/EuroVis-family venues when vision is not the core.
+- WACV evidence should make application setting, deployment assumptions, dataset realism, baselines, and failure analysis visible.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

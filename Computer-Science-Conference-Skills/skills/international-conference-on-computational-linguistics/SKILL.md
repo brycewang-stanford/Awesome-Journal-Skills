@@ -46,6 +46,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   (CHIIR). Break ties by contribution type, evidence shape, reviewer community, and the
   current official CFP from coling.org.
 
+## COLING-specific routing detail
+
+- Prefer COLING when the contribution is computational linguistics: language analysis, resources, multilingual NLP, syntax/semantics, generation, evaluation, or linguistically informed models.
+- Route computer animation to SCA/graphics venues, speech to INTERSPEECH/SLT, and broad empirical NLP to ACL/EMNLP/NAACL when those communities are the primary audience.
+- COLING evidence should include linguistic motivation, dataset or annotation quality, multilingual or phenomenon coverage when claimed, and error analysis tied to language behavior.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

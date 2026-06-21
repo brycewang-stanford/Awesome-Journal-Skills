@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   linguistics` (EACL). Break ties by contribution type, evidence shape, reviewer community,
   and the current official CFP from 2026.emnlp.org.
 
+## EMNLP-specific routing detail
+
+- Prefer EMNLP when the paper is empirical NLP with strong modeling, experiments, datasets, evaluation, or analysis for language processing tasks.
+- Route natural-language learning theory or structured learning focus to CoNLL, resources/evaluation to LREC-COLING, and generation-specific work to INLG when those communities are primary.
+- EMNLP evidence should include baselines, data documentation, evaluation design, robustness/error analysis, language coverage, and limits of model behavior.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

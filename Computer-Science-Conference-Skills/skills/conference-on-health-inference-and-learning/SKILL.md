@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   discovery-and-data-mining` (KDD). Break ties by contribution type, evidence shape, reviewer
   community, and the current official CFP from www.chilconference.org.
 
+## CHIL-specific routing detail
+
+- Prefer CHIL when the novelty depends on health context: clinical prediction, care delivery, health-system deployment, fairness across patient populations, robustness under clinical shift, or validated inference from health data.
+- Use KDD/ICML/NeurIPS only when the general machine-learning or data-mining contribution is strong without the clinical setting; CHIL reviewers should see why the health setting changes the method, validation, or failure analysis.
+- Do not route optimization, scheduling, or operations-research papers here just because they use medical examples. If the central contribution is solver design, resource allocation, or constraint modeling, compare with CPAIOR, ICAPS, INFORMS-facing venues, or health-operations outlets first.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

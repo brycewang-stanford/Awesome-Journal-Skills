@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   intrusions-and-defenses` (RAID). Break ties by contribution type, evidence shape, reviewer
   community, and the current official CFP from dis.acm.org.
 
+## DIS-specific routing detail
+
+- Prefer DIS when the contribution is design knowledge: an artifact, design method, critical/reflective inquiry, participatory process, speculative system, or prototype that teaches the field how to design interactive systems differently.
+- Use CHI when the broad HCI contribution is primarily empirical, behavioral, accessibility, social-computing, or human-centered systems evidence; DIS should not be a fallback for underpowered CHI studies.
+- Compare with TEI/ISS for tangible and surface interaction, CSCW for collaborative practice, CHI for general HCI breadth, and design/HCI journals when the argument needs richer reflective or longitudinal presentation.
+
 ## Method & evidence bar
 
 - Match the contribution type to the evidence: controlled study, field deployment, design inquiry, technical system, dataset, or theory.

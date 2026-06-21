@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   ties by contribution type, evidence shape, reviewer community, and the current official CFP
   from cscw.acm.org.
 
+## CSCW-specific routing detail
+
+- Prefer CSCW when the contribution is social computing or collaborative work: group coordination, platforms, communities, moderation, organizations, online labor, or cooperative technology.
+- Route human-centered search and retrieval interaction to CHIIR, fairness/accountability platform analysis to FAccT when governance and harms are central, and ML/data-mining methods to ECML PKDD/KDD.
+- CSCW evidence should include social context, participants or trace provenance, qualitative/quantitative method fit, platform dynamics, ethics, and implications for collective work.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

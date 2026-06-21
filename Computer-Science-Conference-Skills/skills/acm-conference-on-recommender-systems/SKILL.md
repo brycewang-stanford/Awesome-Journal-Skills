@@ -44,6 +44,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   Break ties by contribution type, evidence shape, reviewer community, and the current
   official CFP from recsys.acm.org.
 
+## RecSys-specific routing detail
+
+- Prefer RecSys when the paper's main claim is about recommendation: ranking objectives, user/item modeling, counterfactual/offline evaluation, fairness/diversity, feedback loops, platform behavior, or deployed recommender impact.
+- Use SOSP only when the central research contribution is a systems abstraction, infrastructure architecture, storage/distributed-systems mechanism, or workload-management problem; a recommender workload alone does not make the paper systems-first.
+- Compare with SIGIR/WSDM/KDD for search, web mining, or data-mining emphasis, CHI/CSCW when user/community outcomes dominate, and ML venues when the method is a general learning advance rather than recommender-specific evidence.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

@@ -51,6 +51,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs INFOCOM.** INFOCOM (IEEE) is larger and more **performance/theory/modeling**-tolerant; SIGCOMM rewards a built, measured networking contribution.
 - **vs CoNEXT.** CoNEXT (also ACM SIGCOMM) is the home for **emerging/experimental** networking; route early or niche work there, field-defining work here.
 
+## SIGCOMM-specific routing detail
+
+- Prefer SIGCOMM when the contribution is a flagship networking result: Internet architecture, protocols, measurement, congestion/control, routing, programmable networks, or networked infrastructure.
+- Route shorter or more focused experimental networking work to CoNEXT, networked systems artifacts to NSDI, and IEEE communications/networking work to INFOCOM when that community owns the claim.
+- SIGCOMM evidence should make network-scale realism, protocol behavior, measurement validity, deployment constraints, and comparison to mature network baselines explicit.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

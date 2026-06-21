@@ -47,6 +47,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs MobiSys.** MobiSys (also ACM SIGMOBILE) is the **mobile systems and services** venue; route systems/platform work there and wireless/networking work here.
 - **Routing.** Lower-layer wireless and networking contributions fit MobiCom; end-to-end mobile systems fit MobiSys.
 
+## MobiCom-specific routing detail
+
+- Prefer MobiCom when the core novelty is a mobile or wireless networking mechanism: radio behavior, spectrum use, protocol design, edge connectivity, measurement at mobility scale, or network performance under realistic channel and deployment constraints.
+- Use MobiSys when the research claim is an end-to-end mobile/embedded platform, sensing pipeline, wearable system, or mobile service whose artifact behavior matters more than the wireless/networking mechanism.
+- Compare with SIGCOMM/NSDI for broader networked-systems claims, WiSec for security/privacy, SenSys/UbiComp for sensing and ubiquitous computing, and MobiSys for device/platform/system integration.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

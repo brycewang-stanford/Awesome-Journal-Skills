@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   microarchitecture` (MICRO). Break ties by contribution type, evidence shape, reviewer
   community, and the current official CFP from www.asplos-conference.org.
 
+## ASPLOS-specific routing detail
+
+- Prefer ASPLOS when the contribution crosses architecture, programming languages, compilers, runtimes, and operating systems rather than living cleanly in one silo.
+- Route pure architecture to ISCA/HPCA, pure PL/compiler language design to PLDI/POPL, OS systems to SOSP/OSDI, and HPC-scale systems to SC when those communities own the main claim.
+- ASPLOS evidence should expose the cross-layer mechanism, implementation, workloads, hardware/software assumptions, and why joint architecture/PL/OS reasoning is necessary.
+
 ## Method & evidence bar
 
 - Build the artifact or prototype far enough that the core design can be measured under realistic workloads.

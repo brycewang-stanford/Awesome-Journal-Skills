@@ -47,6 +47,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs IEEE VIS.** IEEE VIS is the larger flagship publishing in **IEEE TVCG**; route by community (Eurographics vs IEEE) and submission cycle, not prestige.
 - **Scope.** Scientific, information, and visual-analytics visualization; same field as IEEE VIS, different organizing body and journal pipeline.
 
+## EuroVis-specific routing detail
+
+- Prefer EuroVis when the contribution is visualization research: visual analytics, visualization design, perception/evaluation, systems for visual analysis, or domain visualization methods.
+- Route interface hardware and interaction techniques to AVI, broad HCI to CHI/UIST, and graphics rendering/geometry to Eurographics/SIGGRAPH-family venues.
+- EuroVis evidence should make the visualization task, data abstraction, visual encoding, evaluation method, domain assumptions, and insight or decision support clear.
+
 ## Method & evidence bar
 
 - Match the contribution type to the evidence: controlled study, field deployment, design inquiry, technical system, dataset, or theory.

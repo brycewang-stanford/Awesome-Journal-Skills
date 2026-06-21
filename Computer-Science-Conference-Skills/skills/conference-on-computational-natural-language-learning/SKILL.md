@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   maintenance-and-evolution` (ICSME). Break ties by contribution type, evidence shape,
   reviewer community, and the current official CFP from conll.org.
 
+## CoNLL-specific routing detail
+
+- Prefer CoNLL when the contribution is computational natural language learning: structured prediction, linguistic generalization, multilingual learning, data-efficient NLP, or learning problems tied to language structure.
+- Route broad empirical NLP to EMNLP, resources/evaluation to LREC-COLING, and speech to INTERSPEECH/SLT when language-learning methodology is not central.
+- CoNLL evidence should connect learning setup, linguistic phenomenon, datasets, baselines, error analysis, and generalization across languages or tasks when claimed.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

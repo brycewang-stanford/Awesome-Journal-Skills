@@ -50,6 +50,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs CAV.** CAV is applied/algorithmic verification; LICS is the foundational-logic venue.
 - **vs ICALP / STOC.** ICALP/STOC are broad theory; LICS is logic-focused.
 
+## LICS-specific routing detail
+
+- Prefer LICS when the contribution is logic in computer science: semantics, proof theory, type theory, automata/logic, verification foundations, category theory, or formal methods theory.
+- Route empirical software repository mining to MSR, verification tooling to CAV, and programming-language implementation work to PLDI/ICFP when logic is not the core.
+- LICS evidence should foreground definitions, theorems, proof structure, examples, and significance for logic/CS foundations.
+
 ## Method & evidence bar
 
 - Use real programs, benchmarks, proofs, developer studies, or artifacts matched to the contribution type.

@@ -48,6 +48,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs CVPR/ICCV/ECCV.** Those are the IEEE/CVF vision flagships; ICPR is the IAPR general pattern-recognition venue, broader than vision alone.
 - **vs ICML.** ICML is general ML; ICPR centers recognition tasks and IAPR community.
 
+## ICPR-specific routing detail
+
+- Prefer ICPR when the paper is about pattern-recognition methodology across images, signals, documents, biometrics, or statistical/structural recognition tasks.
+- Route database/data-engineering infrastructure to ICDE, knowledge modeling to K-CAP/ISWC, and flagship computer-vision benchmark papers to CVPR/ICCV/ECCV when that community owns the claim.
+- ICPR evidence should emphasize recognition task design, datasets, evaluation protocols, error patterns, and generality across modalities or pattern families.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

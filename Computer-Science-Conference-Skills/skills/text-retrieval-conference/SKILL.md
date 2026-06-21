@@ -52,6 +52,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs SIGIR / ECIR / CIKM.** Those are research conferences; TREC produces benchmarks/tracks the IR field then evaluates against.
 - **Routing.** Use TREC collections in your SIGIR/ECIR/CIKM paper; participate in TREC tracks for shared-task results.
 
+## TREC-specific routing detail
+
+- Prefer TREC when the work is an information-retrieval evaluation campaign, track participation, test collection, shared task, retrieval benchmark, or evaluation methodology.
+- Route spoken language technology to SLT/INTERSPEECH and user-centered search behavior to CHIIR when campaign-style text retrieval evaluation is not the core.
+- TREC evidence should explain track rules, run configuration, test collection, metrics, pooling or judging assumptions, and what the evaluation teaches beyond leaderboard rank.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

@@ -51,6 +51,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs Humanoids.** Humanoids (IEEE-RAS) is an archival humanoid-robotics conference; bring competition-grounded or league-benchmark work here, fundamental humanoid science there.
 - **vs ICRA/IROS.** Route mature, generalizable robotics results to the IEEE flagships; reserve RoboCup for results best evidenced in its standardized leagues.
 
+## RoboCup-specific routing detail
+
+- Prefer RoboCup when the work is tied to competition leagues, robotic soccer, rescue, service robots, benchmark challenges, or league infrastructure and evaluation.
+- Route humanoid-platform research to Humanoids, distributed multi-robot autonomy to DARS, and general robotics papers to ICRA/IROS/RSS when competition context is not central.
+- RoboCup evidence should describe league rules, benchmark scenario, robot team behavior, competition metrics, reproducibility, and lessons beyond one event.
+
 ## Method & evidence bar
 
 - Report hardware, simulation, environment, task distribution, reset procedure, and failure cases; embodied evidence must be inspectable.

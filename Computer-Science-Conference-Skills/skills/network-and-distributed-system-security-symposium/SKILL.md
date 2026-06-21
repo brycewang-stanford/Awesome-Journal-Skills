@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   (ACSAC). Break ties by contribution type, evidence shape, reviewer community, and the
   current official CFP from www.ndss-symposium.org.
 
+## NDSS-specific routing detail
+
+- Prefer NDSS when the security contribution is anchored in networked, distributed, web, protocol, privacy, or applied-cryptography settings and the threat model is realistic enough for Internet-deployed systems.
+- Use USENIX Security as the closest contrast: USENIX often rewards broader systems-security artifacts and measurement depth, while NDSS is especially natural for network/protocol security, responsible disclosure, deployment realism, and web-scale adversary models.
+- Route to PETS when privacy is the primary lens, CCS or IEEE S&P for broader security-theory/system balance, IMC/SIGCOMM for networking measurement, and ACSAC for applied operational security when the novelty bar is more practitioner-facing.
+
 ## Method & evidence bar
 
 - Define the threat model, attacker capabilities, disclosure posture, and ethics review before presenting results.

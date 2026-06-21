@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   contribution type, evidence shape, reviewer community, and the current official CFP from
   kdd.org.
 
+## KDD-specific routing detail
+
+- Prefer KDD when the paper contributes a scalable discovery method, applied data-science system, mining benchmark, knowledge-discovery insight, or impact-oriented analytics result that survives strong baselines and real data complexity.
+- Use ICAPS only when planning, scheduling, temporal reasoning, or planner search is the central contribution; KDD reviewers expect discovery, prediction, ranking, graph/mining, or data-centric evidence rather than solver engineering alone.
+- Compare with WWW/WSDM/SIGIR for web/search/retrieval emphasis, ICDM/SDM for data-mining scope with different community fit, and ML flagships when the novelty is a general learning method rather than data-discovery or applied-scale evidence.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

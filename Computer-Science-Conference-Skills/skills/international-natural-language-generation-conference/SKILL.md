@@ -52,6 +52,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs *SEM.** *SEM is about **semantics/meaning representation**, a different SIG community; route generation work here, meaning-analysis work there.
 - **vs ACL/EMNLP.** The big ACL-family meetings absorb generation too; pick INLG when the NLG community is the primary audience.
 
+## INLG-specific routing detail
+
+- Prefer INLG when the paper studies text generation itself: planning, realization, controllability, data-to-text, generation evaluation, factuality, style, or human assessment of generated language.
+- Route meaning representation, semantic parsing, lexical semantics, and entailment analysis to *SEM unless the main contribution is producing language.
+- INLG evidence should make the generation task, evaluation protocol, human-rating reliability, prompt/model controls, and example-to-metric connection explicit.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.

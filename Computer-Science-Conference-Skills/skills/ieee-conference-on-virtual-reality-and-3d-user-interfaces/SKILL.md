@@ -47,6 +47,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs I3D.** I3D (ACM SIGGRAPH) is **real-time rendering / interactive 3D graphics**; IEEE VR is VR/3DUI-centered.
 - **vs SIGGRAPH.** SIGGRAPH is the broad graphics flagship; IEEE VR is the VR/3DUI specialist.
 
+## IEEE VR-specific routing detail
+
+- Prefer IEEE VR when the research object is virtual, augmented, or mixed reality: immersion, presence, 3D user interfaces, perception, interaction techniques, tracking, or embodied evaluation.
+- Route real-time graphics algorithms without VR/AR interaction claims to I3D, and route broad HCI studies to CHI/UIST when immersive technology is not central.
+- IEEE VR evidence should include headset/device context, user-study protocol, perceptual or interaction measures, latency/sickness considerations, and immersive-task realism.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

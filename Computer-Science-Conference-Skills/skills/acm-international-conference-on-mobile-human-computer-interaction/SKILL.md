@@ -52,6 +52,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs IUI.** IUI centers **AI-driven intelligent** interfaces; MobileHCI centers **mobile interaction** contexts.
 - **Real neighbors.** CHI (broad HCI), UbiComp (pervasive/sensing), MobiSys (mobile systems).
 
+## MobileHCI-specific routing detail
+
+- Prefer MobileHCI when the contribution is mobile interaction: phones, tablets, wearables, on-the-go use, mobile input/output, app experience, or mobility-shaped user behavior.
+- Route intelligent/adaptive interface mechanisms to IUI when model behavior is the core claim, and pervasive sensing deployments to UbiComp when infrastructure/context awareness dominates.
+- MobileHCI evidence should include mobile context, device constraints, field or mobility realism, interaction measures, battery/privacy considerations, and user-experience tradeoffs.
+
 ## Method & evidence bar
 
 - Match the contribution type to the evidence: controlled study, field deployment, design inquiry, technical system, dataset, or theory.

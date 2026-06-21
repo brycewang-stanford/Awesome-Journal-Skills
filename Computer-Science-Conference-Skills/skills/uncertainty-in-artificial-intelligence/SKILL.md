@@ -45,6 +45,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   (MLSys). Break ties by contribution type, evidence shape, reviewer community, and the
   current official CFP from www.auai.org.
 
+## UAI-specific routing detail
+
+- Prefer UAI when the paper's core contribution is uncertainty itself: probabilistic reasoning, graphical-model structure, calibration, causal inference under uncertainty, Bayesian decision making, or robust decisions with imperfect information.
+- Use AISTATS when the contribution is broader statistical machine learning or estimation/inference methodology where uncertainty is present but not the central representation or decision object.
+- Compare with NeurIPS/ICML for general ML method breadth, COLT for learning-theory guarantees, KR/IJCAI for symbolic reasoning, and applied venues when the uncertainty method is mostly a domain evaluation wrapper.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

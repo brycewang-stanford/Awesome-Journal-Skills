@@ -48,6 +48,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs ISER.** ISER (Experimental Robotics) emphasizes **experiment-validated** results; ISRR leans foundational/visionary.
 - **vs ICRA/IROS/RSS.** ICRA/IROS are large IEEE flagships, RSS is single-track foundations; ISRR is a selective symposium — route by format and emphasis.
 
+## ISRR-specific routing detail
+
+- Prefer ISRR when the paper makes a broad robotics research contribution: principles, theory, architectures, long-horizon agenda-setting results, or deeply integrated robotic systems.
+- Route experiment-heavy validation papers to ISER, regular-cycle flagship robotics work to RSS/ICRA/IROS, and human-facing interaction studies to HRI/RO-MAN.
+- ISRR evidence should connect the result to durable robotics research questions, not only a benchmark win or one-off deployment.
+
 ## Method & evidence bar
 
 - Report hardware, simulation, environment, task distribution, reset procedure, and failure cases; embodied evidence must be inspectable.

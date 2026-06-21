@@ -52,6 +52,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs FAccT.** FAccT (ACM Fairness, Accountability, and Transparency) is **algorithmic fairness/accountability**-centered and more technical-methods-forward; AIES is broader ethics/society.
 - **Routing.** Pure ML-method fairness work may fit NeurIPS/ICML tracks; route normative/interdisciplinary work to AIES, fairness-systems work to FAccT.
 
+## AIES-specific routing detail
+
+- Prefer AIES when the contribution is AI ethics and society: governance, normative analysis, sociotechnical harms, policy, responsible AI, empirical audits, or human impacts of AI systems.
+- Route fairness/accountability technical governance to FAccT, broad social computing to CSCW, and general AI methods to AAAI/IJCAI/ML venues when ethics is not the core.
+- AIES evidence should connect technical claims to social context, affected stakeholders, normative assumptions, governance implications, and limits of the evidence.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

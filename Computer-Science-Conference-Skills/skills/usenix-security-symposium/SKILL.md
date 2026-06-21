@@ -44,6 +44,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   `network-and-distributed-system-security-symposium` (NDSS). Break ties by contribution type,
   evidence shape, reviewer community, and the current official CFP from www.usenix.org.
 
+## USENIX Security-specific routing detail
+
+- Prefer USENIX Security when the claim is a systems-security, vulnerability-analysis, usable-security, privacy, measurement, or artifact-heavy contribution whose evidence can be audited and reused by other security researchers.
+- Use NDSS as the closest contrast: NDSS is often the cleaner venue for network/protocol-centered security stories, while USENIX Security is especially strong when the artifact, empirical measurement, exploit/defense analysis, or software-security engineering is the main contribution.
+- Route to IEEE S&P or CCS when the paper needs a broader security-theory or policy/security-systems framing, PETS when privacy is the dominant contribution, and SOUPS when the human-subject/usable-security component is the paper's center.
+
 ## Method & evidence bar
 
 - Define the threat model, attacker capabilities, disclosure posture, and ethics review before presenting results.

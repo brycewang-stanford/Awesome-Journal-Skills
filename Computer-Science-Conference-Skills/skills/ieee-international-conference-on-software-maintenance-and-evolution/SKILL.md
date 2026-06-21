@@ -48,6 +48,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs SANER.** SANER leans **analysis/reengineering**; ICSME leans **maintenance/evolution practice** — overlapping siblings, route by community/cycle.
 - **vs ICSE/FSE/MSR.** The SE flagships are ICSE/FSE; MSR is repository mining; ICSME is the maintenance-focused venue.
 
+## ICSME-specific routing detail
+
+- Prefer ICSME when the contribution is software maintenance and evolution: change impact, maintainability, refactoring, modernization, release engineering, technical debt, or maintenance practice.
+- Route testing and analysis algorithms to ISSTA, reverse-engineering and evolution analysis to SANER, and general SE flagship papers to ICSE/FSE when maintenance is not the central frame.
+- ICSME evidence should connect empirical results or tools to maintainers' workflows, project history, change costs, and long-term software quality.
+
 ## Method & evidence bar
 
 - Use real programs, benchmarks, proofs, developer studies, or artifacts matched to the contribution type.

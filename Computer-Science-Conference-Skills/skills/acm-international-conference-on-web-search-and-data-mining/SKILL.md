@@ -51,6 +51,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **Real neighbors.** SIGIR (IR), KDD (data mining), TheWebConf/WWW, CIKM — not modeling/SE venues.
 - **Routing.** Web search/mining here; core IR to SIGIR, general mining to KDD.
 
+## WSDM-specific routing detail
+
+- Prefer WSDM when the core claim concerns web-scale search, ranking, recommendation, ads, social/network data, trustworthy web AI, or platform-aware mining.
+- Route modeling-language, DSL, transformation, or model-driven engineering papers to MODELS; route pure IR evaluation to SIGIR and broad data-mining methods to KDD.
+- WSDM evidence should include retrieval/ranking baselines, web/platform data assumptions, user or traffic realism, and failure modes tied to online information environments.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

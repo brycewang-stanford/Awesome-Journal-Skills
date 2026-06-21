@@ -41,6 +41,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Compare S&P/CCS/USENIX/NDSS for broader security, ACSAC for applied security, and
   WiSec/FC/PETS when the threat domain is specialized.
 
+## RAID-specific routing detail
+
+- Prefer RAID when the paper studies attacks, intrusions, malware, detection, defenses, adversarial measurement, incident analysis, or deployed security monitoring.
+- Route formal knowledge-representation or reasoning papers to KR, and broad flagship security submissions to CCS/S&P/USENIX/NDSS when the scope and evidence fit those PCs.
+- RAID evidence should include adversary model, dataset or deployment provenance, detection/evasion analysis, ethical handling, and operational relevance for intrusion defense.
+
 ## Method & evidence bar
 
 - Compare against current strong baselines and explain exactly what changes in the algorithm, objective, data, or inference procedure.

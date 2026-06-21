@@ -51,6 +51,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs WACV.** WACV (IEEE/CVF) is **applications-forward and held in winter**; route applied-systems vision there and regional general-vision work here.
 - **vs CVPR/ICCV/ECCV.** The flagships set the global bar; ACCV is the regional complement, not a fallback by prestige.
 
+## ACCV-specific routing detail
+
+- Prefer ACCV when the paper is computer vision and the Asian vision community/cycle is the natural fit, especially for recognition, geometry, video, 3D, or vision-language work.
+- Route application-forward winter-cycle vision work to WACV, flagship global vision work to CVPR/ICCV/ECCV, and biomedical imaging to ISBI/MICCAI when domain validation is central.
+- ACCV evidence should include vision baselines, dataset protocol, ablations, qualitative failure cases, and clear positioning against current vision literature.
+
 ## Method & evidence bar
 
 - Use current vision baselines, strong ablations, dataset-specific protocols, and qualitative examples that reveal failure modes.

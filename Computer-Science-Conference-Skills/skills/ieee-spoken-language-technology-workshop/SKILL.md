@@ -51,6 +51,12 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - **vs ASRU.** ASRU is the sibling IEEE workshop centered on **ASR/understanding**; SLT centers **spoken-language technologies** built on top.
 - **vs Interspeech.** Interspeech (ISCA) is the broad speech flagship; SLT is a focused IEEE workshop.
 
+## SLT-specific routing detail
+
+- Prefer SLT when the paper is spoken language technology: ASR, speech translation, spoken dialogue, speech generation, spoken language understanding, or speech resources.
+- Route broad speech science and engineering to INTERSPEECH, text retrieval evaluation to TREC, and general NLP without speech signals to ACL-family venues.
+- SLT evidence should specify speech data, acoustic/language conditions, evaluation metrics, speaker/language coverage, and robustness to real spoken input.
+
 ## Method & evidence bar
 
 - Use task-appropriate baselines, multiple datasets or languages when the claim is broad, and error analysis that explains model behavior.
