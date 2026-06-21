@@ -40,6 +40,23 @@ execution and reporting norms; design decisions live in `curranthro-research-des
   against close reading, and treat outputs as interpretable evidence, not ground truth.
 - Keep the qualitative core legible: a table or model never replaces the interpretive argument at CA.
 
+## CA comment-facing analysis ledger
+
+For a CA Major Article, treat analysis as something that must survive not only peer review but also the
+published conversation around the paper. Build a comment-facing ledger before drafting results.
+
+| Likely commentator position | Claim they will test | Evidence to prepare | Reply posture |
+|-----------------------------|----------------------|---------------------|---------------|
+| Adjacent subfield expert | Does this travel beyond the focal case/subfield? | boundary cases, comparative anchors, portability limits | clarify scope without retreating from the central claim |
+| Method specialist | Does the evidence warrant the interpretation? | audit trail, rival reading, robustness/triangulation | show what each evidence mode can and cannot decide |
+| Area or historical specialist | Are local terms, archives, or chronologies flattened? | contextual detail, source limits, translation choices | acknowledge specificity as part of the contribution |
+| Theory critic | Is the concept doing explanatory work or merely labeling? | mechanism, genealogy, counterexample | refine the concept's reach |
+| Ethics/community critic | Who bears the cost of the claim? | consent/provenance trail, anonymization logic, attribution | protect participants while answering the analytic point |
+
+Distinguish article type: a **Major Article** needs an agenda-setting claim robust enough for signed
+Comments and a Reply; a shorter report can make a bounded empirical contribution, but still needs to
+state the limits that commentators would otherwise supply for you.
+
 ## Transparency while you work (not at the end)
 - Maintain an audit trail linking claims to sources (evidence tables, coded excerpts) so the argument is
   checkable without de-anonymizing protected interlocutors.
@@ -60,10 +77,13 @@ execution and reporting norms; design decisions live in `curranthro-research-des
 ```
 【Main claim】the interpretive/empirical result
 【Evidence】what grounds it (fieldnote / utterance / material / measure)
+【Article posture】Major Article / report-length contribution; comment exposure named?
 【Alternative reading】named and adjudicated?
 【Disconfirming evidence】included and addressed? [Y/N]
+【Anticipated Comments】top 2-3 commentator objections and prepared evidence
 【Quant rigor】(if applicable) effect size + uncertainty + validation
 【Reflexivity】position's effect on the analysis noted? [Y/N]
+【Reply-ready limit】what the Reply can concede without breaking the argument
 【Next】curranthro-tables-figures
 ```
 

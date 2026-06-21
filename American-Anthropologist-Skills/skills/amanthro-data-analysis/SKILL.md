@@ -38,6 +38,25 @@ execution and reporting norms; design decisions live in `amanthro-research-desig
   against close reading, and treat outputs as interpretable evidence, not ground truth.
 - Keep the qualitative core legible: a table or model never replaces the interpretive argument at AA.
 
+## AA four-field evidence-and-care ledger
+
+Before writing the results section, build an AA ledger that shows how the analysis earns trust across
+anonymous four-field review while protecting the people, places, materials, and communities that make
+the evidence possible.
+
+| Claim type | Evidence burden | AA-specific check |
+|------------|-----------------|-------------------|
+| Ethnographic interpretation | fieldnote moment, situated quote, practice, or interaction | alternative reading named; interlocutor dignity preserved |
+| Archaeological/material claim | artifact/context record, stratigraphy, archive, or material trace | source limits and silences stated, not hidden |
+| Biological/quantitative claim | measure validity, uncertainty, comparison set, effect size | ancestry, population, and social categories not conflated |
+| Linguistic/semiotic claim | transcript, translation, interactional sequence, or form-function link | transcript supports the indexical/social claim |
+| Public or multimodal claim | image, sound, exhibit, media artifact, or public-facing evidence | consent, caption, and analytic function are explicit |
+| Community/accountability claim | collaborative interpretation, feedback, or provenance trail | analytics attributed; extractive phrasing removed |
+
+Use the ledger to decide what can be shown in the manuscript, what belongs in protected notes, and what
+must remain undisclosed for ethical reasons. The goal is not maximal transparency; it is accountable
+evidence that an AA reviewer can audit without compromising participants or collections.
+
 ## Transparency while you work (not at the end)
 - Maintain an audit trail linking claims to sources (evidence tables, coded excerpts) so the argument
   is checkable without de-anonymizing protected interlocutors.
@@ -58,9 +77,11 @@ execution and reporting norms; design decisions live in `amanthro-research-desig
 ```
 【Main claim】the interpretive/empirical result
 【Evidence】what grounds it (fieldnote / utterance / material / measure)
+【Four-field mode】ethnographic / material / biological-quant / linguistic / multimodal / community-accountability
 【Alternative reading】named and adjudicated?
 【Disconfirming evidence】included and addressed? [Y/N]
 【Quant rigor】(if applicable) effect size + uncertainty + validation
+【Care check】privacy, consent/provenance, attribution, and dignity protected? [Y/N]
 【Reflexivity】position's effect on the analysis noted? [Y/N]
 【Next】amanthro-tables-figures
 ```
