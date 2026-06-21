@@ -44,7 +44,6 @@ if (!requireNamespace("lavaan", quietly = TRUE)) {
   # Measurement invariance across groups: configural -> metric -> scalar
   if (requireNamespace("semTools", quietly = TRUE)) {
     cat("\n== measurement invariance (configural/metric/scalar) ==\n")
-    inv <- semTools::measEq.syntax  # ensure available
     conf <- cfa(cfa_model, data = dat, group = "group", std.lv = TRUE)
     metr <- cfa(cfa_model, data = dat, group = "group",
                 group.equal = "loadings", std.lv = TRUE)

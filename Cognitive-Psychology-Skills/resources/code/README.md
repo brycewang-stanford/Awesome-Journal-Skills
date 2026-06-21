@@ -32,8 +32,10 @@ source("R/03_signal_detection_ddm.R")
 ```
 
 Scripts guard optional packages with `requireNamespace()` and fall back to base-R equivalents where a
-package is absent, so the core (`00`–`03`) runs on a stock R install; `00`, `02`, and `03` were executed
-end-to-end on **R 4.5.2** (2026-06). `01` needs `lme4`; `04` needs `brms`/Stan.
+package is absent, so the core (`00`–`03`) runs on a stock R install. **All five scripts were executed
+end-to-end on R 4.5.2 (2026-06)** with `lme4`, `lmerTest`, `emmeans`, `effectsize`, and `brms`+`rstan`+
+`loo` installed (the `04` model converged: Rhat ≈ 1.00, all Pareto-k good); `00`/`02`/`03` also run on a
+stock base-R install via the guards.
 
 ## Mapping to the skills
 

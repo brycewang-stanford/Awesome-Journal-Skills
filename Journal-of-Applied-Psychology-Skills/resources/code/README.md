@@ -31,9 +31,10 @@ source("R/04_psychometric_meta.R")           # artifact-corrected meta-analysis
 # source("R/01_measurement_cfa_invariance.R")# CFA/invariance; install.packages("lavaan")
 ```
 
-Scripts guard optional packages with `requireNamespace()`. `00`, `02`, `03`, and `04` were executed
-end-to-end on **R 4.5.2** with `lme4` + `metafor` (2026-06); `01` needs `lavaan`/`semTools` (its base-R
-α path runs without them).
+Scripts guard optional packages with `requireNamespace()`. **All five scripts were executed end-to-end
+on R 4.5.2 (2026-06)** with `lme4`, `lavaan`, `semTools`, and `metafor` installed (CFA fit CFI = 1.00,
+RMSEA = 0.00; invariance χ²-diff n.s.); `00`/`02`/`03`/`04` also run on a stock base-R + `lme4`/`metafor`
+install, and `01`'s base-R Cronbach's α path runs without `lavaan`.
 
 ## Mapping to the skills
 
