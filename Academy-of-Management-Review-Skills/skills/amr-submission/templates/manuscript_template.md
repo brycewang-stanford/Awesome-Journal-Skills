@@ -3,7 +3,8 @@
 A skeleton for an Academy of Management Review theory-building article. AMR publishes
 **conceptual articles only** — there is **no methods, data, results, or analysis section**.
 Replace bracketed prompts with your content. Verify exact length/abstract limits and
-formatting on the current AOM author page.
+formatting on the current AOM author page. The 2026-06-21 AOM style-guide check verifies
+the 200-word abstract limit; manuscript length remains a live portal/journal-page check.
 
 ---
 
@@ -15,7 +16,7 @@ formatting on the current AOM author page.
 > [Acknowledgments — added here, NOT in the body, until after acceptance]
 > [Funding / grant identifiers — here only]
 
-## Abstract (anonymized manuscript; within the current word limit)
+## Abstract (anonymized manuscript; 200 words maximum)
 
 > State, in this order: the theoretical puzzle; the conversation you enter; the new
 > theoretical machinery (construct / process model / reconceptualization); and what
@@ -108,9 +109,9 @@ contribution bar — What/How/Why/Who-Where-When (Whetten, AMR 1989, DOI
 
 ## References
 
-> **APA-style** author–date citations; full reference list per the Academy of Management
-> (APA-derived) Style Guide (APA edition UNVERIFIED — confirm; see
-> resources/official-source-map.md). Every in-text citation appears here and vice versa.
+> AOM author–date citations; full reference list per the Academy of Management
+> Style Guide. Treat "APA-style" as shorthand for AOM's author–date mechanics, not a named
+> APA edition. Every in-text citation appears here and vice versa.
 > Cite the recent conversation, not only seminal anchors. Use **propositions** (P1...Pn),
 > never "hypotheses" or "supported / not supported."
 

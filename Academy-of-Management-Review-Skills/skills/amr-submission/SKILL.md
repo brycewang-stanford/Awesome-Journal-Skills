@@ -24,9 +24,9 @@ description: Use when running the final pre-submission preflight for an Academy 
 - [ ] Fit confirmed against the current AMR aims & scope (verify on the official page)
 
 ### Format (verify exact current requirements on the AOM author page)
-- [ ] Manuscript double-spaced, standard margins and 12-pt font
+- [ ] Manuscript is a Word file using Times New Roman 12-point body text, double spacing, 1-inch margins, and no page numbers or running heads
 - [ ] Title page separate from the manuscript body (for anonymous review)
-- [ ] Abstract present and within the journal's word limit (verify current limit)
+- [ ] Abstract present and no more than 200 words
 - [ ] Within the journal's overall length expectation (verify; AMR articles are full-length)
 - [ ] Figures meet AOM resolution/format specs; each is a conceptual model/typology, not a data plot
 - [ ] Propositions numbered consistently and matched to the figure
@@ -40,7 +40,7 @@ description: Use when running the final pre-submission preflight for an Academy 
 - [ ] File names contain no author or institution name
 
 ### References & citations
-- [ ] **APA-style** author–date in-text citations; full reference list per the AOM (APA-derived) Style Guide (APA edition UNVERIFIED — confirm; see source map)
+- [ ] AOM author–date in-text citations; full reference list per the AOM Style Guide
 - [ ] Every in-text citation appears in the reference list and vice versa
 - [ ] The recent, live conversation in the target stream is cited, not only seminal works
 - [ ] All references are real and accurately quoted (no fabricated or mis-cited sources)
@@ -68,11 +68,11 @@ description: Use when running the final pre-submission preflight for an Academy 
 
 ## ScholarOne operation notes
 
-- AMR uses **ScholarOne Manuscripts (Manuscript Central)**; register and submit through the AMR portal linked from journals.aom.org/journal/amr (exact URL — confirm; see source map).
+- AMR uses **ScholarOne Manuscripts (Manuscript Central)** at `https://mc.manuscriptcentral.com/amr`; register and submit through the AMR portal linked from the AOM author resources page.
 - Enter author metadata only in the system, never in the anonymized manuscript.
 - Suggested/opposed reviewers: provide only if the system asks and per its limits.
 - Choose the correct submission/article type (theoretical/conceptual article).
-- **Submission fee**: none — the Academy of Management does not charge submission fees (verified at aom.org, 2026-05). **AOM membership** to submit: confirm on the AOM author guidelines (not assumed).
+- **Submission fee**: none — the Academy of Management does not charge submission fees. New users establish a ScholarOne account with name, affiliation, address details, and keywords before using the Author Center; check any portal-stage prompts at submission time.
 - Keep within the file-size and file-type limits the portal states.
 
 ## Anti-patterns

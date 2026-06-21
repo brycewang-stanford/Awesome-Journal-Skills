@@ -48,10 +48,12 @@ no methods, no results.
 - **No hypothesis vocabulary.** Never write "we hypothesize," "H1," "results show," "we
   find," or "supported / not supported." AMR uses **propositions** because nothing is tested;
   that vocabulary is AMJ's and reads immediately as wrong-journal to AMR editors.
-- **AOM/APA style mechanics.** **APA-style** author–date in-text citations; full reference
-  list per the Academy of Management (APA-derived) style guide; double-spaced manuscript.
-  (APA edition UNVERIFIED — confirm in the style guide; see `resources/official-source-map.md`.)
-  Verify current length and abstract limits before submitting (also UNVERIFIED here).
+- **AOM style mechanics.** Use the Academy of Management Style Guide: author–date in-text
+  citations, full reference list, Times New Roman 12-point body text, double-spaced manuscript,
+  1-inch margins, no page numbers or running heads in the submitted manuscript, and an abstract
+  of no more than 200 words. Treat "APA-style" as shorthand for AOM's author–date mechanics,
+  not a claim about a named APA edition.
+  Verify current manuscript length limits before submitting.
   Submission-stage facts such as AMR's current editor, no-fee policy, and ScholarOne link
   belong in `amr-submission` and `resources/official-source-map.md`, not in prose edits.
 

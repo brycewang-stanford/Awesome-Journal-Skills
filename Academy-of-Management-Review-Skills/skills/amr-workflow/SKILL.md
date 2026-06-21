@@ -100,6 +100,7 @@ or an AMJ draft whose "theory" is a literature summary. Pick the right stack ear
 - **Do not** let `amr-rebuttal` draft a response before the theory itself has actually been revised.
 - **Do not** treat AMR as a venue for data; route empirical work elsewhere.
 
-> Volatile specifics (editor-in-chief, exact length/abstract limits, fees, APA edition,
-> acceptance rate) change or could not be machine-verified — see
-> `resources/official-source-map.md` and confirm on the official AMR / AOM author page.
+> Submission specifics change. The source map now verifies the current editor, ScholarOne
+> portal, no-fee policy, AOM style mechanics, 200-word abstract limit, and AI-disclosure
+> policy; keep checking the official AMR / AOM author pages for manuscript length, portal
+> prompts, and any newly published acceptance-rate or reviewer-count figures.

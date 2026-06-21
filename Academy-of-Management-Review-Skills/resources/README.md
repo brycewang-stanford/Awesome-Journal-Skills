@@ -15,7 +15,7 @@ AMJ). This shapes what is — and is not — vendored here.
 | --- | --- |
 | [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | See a before→after rewrite of a **theory** paper introduction in AMR house style: puzzle → defined constructs → mechanism (the Why) → numbered **propositions** (not hypotheses, no data). Illustrative fictional paper; no policy claims. |
 | [`exemplars/library.md`](exemplars/library.md) | Benchmark against **real, web-verified AMR theory papers** organized by theme. Theoretical positioning only — no fabricated constructs or numbers — with a sibling-confusion guard (AMR ≠ AMJ / ASQ / Organization Science / Journal of Management). |
-| [`official-source-map.md`](official-source-map.md) | **AMR-specific policy & facts:** theory-only scope, the four contribution paths, ScholarOne/APA submission mechanics, editor/history, the contribution-bar editorials (Whetten 1989; Suddaby 2010), and a "still unverified" list. The authoritative pack source. |
+| [`official-source-map.md`](official-source-map.md) | **AMR-specific policy & facts:** theory-only scope, the four contribution paths, ScholarOne/AOM Style Guide mechanics, editor/history, AI-disclosure policy, the contribution-bar editorials (Whetten 1989; Suddaby 2010), and bounded live-check notes. The authoritative pack source. |
 | [`external_tools.md`](external_tools.md) | External tools for theory work: locating the theoretical conversation, reference management, conceptual-figure (box-and-arrow) tools, and argument-logic aids — **no statistical software**, by design. |
 
 ## Why there is no `code/` kit here

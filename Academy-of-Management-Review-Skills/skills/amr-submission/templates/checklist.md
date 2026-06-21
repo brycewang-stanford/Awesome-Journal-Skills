@@ -2,8 +2,8 @@
 
 AMR is a **theory-only** journal: no data, no measures, no statistical tests, no
 data-availability statement. This checklist reflects that. AOM currently says it does not
-charge submission fees; still verify all volatile specifics (length, abstract limit,
-membership / portal requirements, current editorial requirements) on the official AMR /
+charge submission fees; the AOM style guide verifies a 200-word abstract limit. Still verify
+manuscript length, portal prompts, and current editorial requirements on the official AMR /
 Academy of Management author page before submitting.
 
 ## 1. Scope & fit
@@ -16,11 +16,11 @@ Academy of Management author page before submitting.
 
 ## 2. Format
 
-- [ ] Double-spaced, standard margins, 12-pt font (verify current AOM spec)
+- [ ] Word document; Times New Roman 12-point body text; double-spaced body; 1-inch margins
 - [ ] Separate title page (kept out of the anonymized body)
-- [ ] Abstract within the current word limit (verify)
+- [ ] Abstract no more than 200 words
 - [ ] Manuscript within the journal's length expectation (verify; AMR runs full-length)
-- [ ] Page/line numbering as required by the portal
+- [ ] No page numbers or running heads unless the portal later instructs otherwise
 - [ ] Figures meet AOM resolution and format requirements
 
 ## 3. Anonymization (double-anonymous review)
@@ -55,7 +55,7 @@ Academy of Management author page before submitting.
 
 ## 7. References
 
-- [ ] **APA-style** author–date in-text citations; full reference list per the AOM (APA-derived) Style Guide (APA edition UNVERIFIED — confirm; see source map)
+- [ ] AOM author–date in-text citations; full reference list per the AOM Style Guide
 - [ ] Every in-text citation is in the list and vice versa
 - [ ] The recent, live conversation is cited (not only seminal anchors)
 - [ ] All references are real and accurately represented
@@ -73,7 +73,8 @@ Academy of Management author page before submitting.
 - [ ] Authorship and order agreed by all authors; each made a genuine contribution
 - [ ] Prior conference/working-paper version disclosed if required
 - [ ] Similarity check run; self-overlap disclosed
-- [ ] Registered in the AMR ScholarOne portal; correct article type selected
-- [ ] Submission fee (none — AOM does not charge submission fees) and AOM membership requirement (confirm on author guidelines) checked
+- [ ] Registered in the AMR ScholarOne portal (`https://mc.manuscriptcentral.com/amr`); correct article type selected
+- [ ] Submission fee checked as none; any portal-stage account or membership prompt reviewed at submission time
+- [ ] AI use, if any, disclosed by research stage with model/purpose, accountability, source, verification, and limitation details
 - [ ] Files staged: anonymized manuscript + separate title page + any required forms
 - [ ] Within portal file-size and file-type limits
