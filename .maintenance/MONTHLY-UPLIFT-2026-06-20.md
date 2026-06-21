@@ -18,15 +18,14 @@ Captured on 2026-06-20 from a clean `main...origin/main` checkout.
 | Low-tail packs below 90 | Journal of Public Administration Research and Theory, Comparative Political Studies |
 | `tools/root_entry_audit.py` | 200 enriched cards, 0 warnings |
 | `tools/source_map_audit.py` | 168 source maps, 0 warnings |
-| Highest unresolved source maps | American Anthropologist, New Media & Society, AER Insights, AJPS, Journal of Labor Economics |
+| Highest unresolved source maps | Journal of Labor Economics, Journal of Marketing, M&SOM, AEJ Applied Economics, Conservation Biology |
 | `tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 40` | no fail-threshold hits; top risks are Science/PNAS rebuttal and CS conference breadth pairs around 0.799 |
 
 ## Work worth doing
 
-1. **Raise the low-tail breadth floor.** The five breadth packs at 86.0 are
-   the main visible quality debt. They need better router guidance, selection
-   patterns, source-map discipline, and domain-specific decision tables, not
-   generic prose.
+1. **Maintain the low-tail score floor.** Any first-party pack below 90 is
+   visible quality debt. Fix it with venue-specific router guidance,
+   diagnostic tables, source discipline, and decision rules, not generic prose.
 2. **Close root-card provenance warnings.** Four enriched Chinese root cards
    still lack external URLs. Fix only with reliable public sources; otherwise
    keep the warning honest.
@@ -46,8 +45,8 @@ Captured on 2026-06-20 from a clean `main...origin/main` checkout.
 ### Week 1 — Measurable cleanup
 
 - Clear the four `root_entry_audit.py` URL warnings if reliable sources exist.
-- Improve the five breadth packs below 90 with router-level decision tables,
-  field-specific rejection risks, and official-source/use-case scaffolding.
+- Improve any packs below 90 with router-level decision tables, field-specific
+  rejection risks, and official-source/use-case scaffolding.
 - Re-run `quality_scorecard.py`, `root_entry_audit.py`, and
   `run_checks.py --skip-reports` after each small batch.
 
@@ -137,5 +136,17 @@ git status --short --branch
 | 2026-06-20 | JIBS source-map policy refresh | done | `python3 tools/source_map_audit.py Journal-of-International-Business-Studies-Skills --all` -> unresolved_flags 0 after 2026-06-20 Springer/AIB journal-home/editorial-board/submission-guidelines/OA-DART refresh |
 | 2026-06-20 | RED source-map policy refresh | done | `python3 tools/source_map_audit.py Review-of-Economic-Dynamics-Skills --all` -> unresolved_flags 0 after 2026-06-20 SED/ScienceDirect Guide/editorial-board/data-code/APC refresh |
 | 2026-06-20 | JPAM source-map policy refresh | done | `python3 tools/source_map_audit.py Journal-of-Policy-Analysis-and-Management-Skills --all` -> unresolved_flags 0 after 2026-06-20 APPAM/Wiley Research Exchange/fee/article-type/data-repository refresh |
+| 2026-06-20 | American Anthropologist source-map policy refresh | done | `python3 tools/source_map_audit.py American-Anthropologist-Skills --all` -> unresolved_flags 0 after 2026-06-20 AA/AAA/Wiley ACT/Research Exchange/ethics/APC refresh |
+| 2026-06-20 | New Media & Society source-map policy refresh | done | `python3 tools/source_map_audit.py New-Media-and-Society-Skills --all` -> unresolved_flags 0 after 2026-06-20 SAGE author-instructions/home/editorial-board/ethics/data-policy refresh |
+| 2026-06-20 | AER Insights source-map policy refresh | done | `python3 tools/source_map_audit.py AER-Insights-Skills --all` -> unresolved_flags 0 after 2026-06-20 AEA submission/editorial-policy/editors/style/data-code/JEL refresh plus single-blind correction |
+| 2026-06-20 | AJPS source-map policy refresh | done | `python3 tools/source_map_audit.py American-Journal-of-Political-Science-Skills --all` -> unresolved_flags 0 after 2026-06-20 AJPS/MPSA manuscript-prep/editorial-board/Dataverse/AI/SI-25/CCSS refresh |
+| 2026-06-20 | Low-tail depth score floor | done | `python3 tools/quality_scorecard.py --min-score 90 --top 8 --show-skills` -> min 90.0, below 86/88/90 = 0/0/0 after JPART/CPS venue-specific diagnostic expansions |
+| 2026-06-20 | JOLE source-map policy refresh | done | `python3 tools/source_map_audit.py Journal-of-Labor-Economics-Skills --all` -> unresolved_flags 0 after 2026-06-20 UChicago/SOLE/Editorial Manager source refresh and portal live-check boundary cleanup |
+| 2026-06-20 | JM source-map policy refresh | done | `python3 tools/source_map_audit.py Journal-of-Marketing-Skills --all` -> unresolved_flags 0 after 2026-06-20 AMA/SAGE author-instructions/editorial-leadership/transparency/fee refresh |
+| 2026-06-20 | M&SOM source-map policy refresh | done | `python3 tools/source_map_audit.py Manufacturing-and-Service-Operations-Management-Skills --all` -> unresolved_flags 0 after 2026-06-20 INFORMS submission-guidelines/editorial-board/AI-policy/practice-track/Open-Option refresh plus structured-abstract correction |
+| 2026-06-20 | AEJ Applied source-map policy refresh | done | `python3 tools/source_map_audit.py AEJ-Applied-Economics-Skills --all` -> unresolved_flags 0 after 2026-06-20 AEA journal/editorial-policy/submission/style/data-code/disclosure refresh plus single-blind and Raymond Fisman corrections |
+| 2026-06-20 | Conservation Biology source-map policy refresh | done | `python3 tools/source_map_audit.py Conservation-Biology-Skills --all` -> unresolved_flags 0 after 2026-06-20 SCB/Wiley scope/style/double-anonymous/ACT/data-sharing refresh plus DAS-vs-deposit correction |
+| 2026-06-20 | Field Crops Research source-map policy refresh | done | `python3 tools/source_map_audit.py Field-Crops-Research-Skills --all` -> unresolved_flags 0 after 2026-06-20 ScienceDirect/Elsevier scope/article-types/review/APC/Option-C data-policy refresh |
+| 2026-06-20 | Organization Science source-map policy refresh | done | `python3 tools/source_map_audit.py Organization-Science-Skills --all` -> unresolved_flags 0 after 2026-06-20 INFORMS submission/editorial-board/editorial-statement/transparency/checklist/Open-Option refresh plus 2025 data-policy correction |
 | 2026-06-20 | User-facing maintenance docs | done | `CONTRIBUTING.md`, `tools/README.md`, `README.md`, and `README.en.md` now point maintainers to the count-disciplined monthly quality program and acceptance commands |
-| 2026-06-20 | Post-batch acceptance gates | done | `run_checks.py --skip-reports` passed; counts remain 2809 / 183 / 200; scorecard min 89.2; root/source-map warnings 0; clone audit has no 0.90 fail-threshold hits |
+| 2026-06-20 | Post-batch acceptance gates | done | `run_checks.py --skip-reports` passed; counts remain 2809 / 183 / 200; scorecard min 90.0; root/source-map warnings 0; clone audit has no 0.90 fail-threshold hits |
