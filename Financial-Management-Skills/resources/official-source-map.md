@@ -20,8 +20,11 @@ Primary source map for facts used in the FM skill pack. **Access date: 2026-06.*
 | payout and investment | Official pages above; re-check live before submission |
 | governance channel | Official pages above; re-check live before submission |
 
+## Verified on official pages (2026-06)
+
+- **Co-Editors: Michael Goldstein (Babson College), Kathleen Kahle (University of Arizona), and Shawn Thomas (University of Pittsburgh).** Published by **Wiley** for the **Financial Management Association (FMA)**. (fma.org editorial board)
+
 ## Unverified / volatile items
 
-- Current editor names and board composition are **待核实** unless explicitly quoted in an official page at submission time.
-- Exact submission fees, APCs, waivers, word limits, abstract limits, and blinding rules are **待核实** if not visible in the official pages above.
+- Exact **submission fee / OA APC, word limits, abstract limits, and blinding rules** are **待核实** if not visible on the official pages above — confirm at submission time.
 - Exemplar articles must be verified in the official archive or DOI page before being cited as real examples.

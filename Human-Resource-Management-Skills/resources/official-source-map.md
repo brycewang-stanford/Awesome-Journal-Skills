@@ -20,8 +20,11 @@ Primary source map for facts used in the HRM skill pack. **Access date: 2026-06.
 | employment relation | Official pages above; re-check live before submission |
 | workforce analytics | Official pages above; re-check live before submission |
 
+## Verified on official pages (2026-06)
+
+- **Co-Editors-in-Chief (Wiley *Human Resource Management*, ISSN 1099-050X): Matthew A. Cronin (George Mason), James P. Guthrie (Kansas), Erk P. Piening (Mainz), and Scott A. Snell (Virginia)** — a new co-EiC search closes 2026-08-31; confirm the current board on the Wiley page. Published by **Wiley**.
+
 ## Unverified / volatile items
 
-- Current editor names and board composition are **待核实** unless explicitly quoted in an official page at submission time.
-- Exact submission fees, APCs, waivers, word limits, abstract limits, and blinding rules are **待核实** if not visible in the official pages above.
+- Exact **submission fee / OA APC, word limits, abstract limits, and blinding rules** are **待核实** if not visible on the official pages above — confirm at submission time.
 - Exemplar articles must be verified in the official archive or DOI page before being cited as real examples.

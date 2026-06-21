@@ -20,8 +20,12 @@ Primary source map for facts used in the Human Relations skill pack. **Access da
 | employment institution | Official pages above; re-check live before submission |
 | qualitative insight | Official pages above; re-check live before submission |
 
+## Verified on official pages (2026-06)
+
+- Published **monthly by SAGE on behalf of the Tavistock Institute of Human Relations** (London); established 1947. (humanrelationsjournal.org / SAGE)
+
 ## Unverified / volatile items
 
-- Current editor names and board composition are **待核实** unless explicitly quoted in an official page at submission time.
-- Exact submission fees, APCs, waivers, word limits, abstract limits, and blinding rules are **待核实** if not visible in the official pages above.
+- **Current Editor-in-Chief** is **待核实** (not surfaced on the checked pages) — confirm on the SAGE / humanrelationsjournal.org editorial board.
+- Exact **submission fee / OA APC, word limits, abstract limits, and blinding rules** are **待核实** if not visible on the official pages above — confirm at submission time.
 - Exemplar articles must be verified in the official archive or DOI page before being cited as real examples.
