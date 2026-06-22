@@ -52,6 +52,7 @@ Science does NOT contain Cell Press "STAR Methods"; earlier claim retracted.)
 | Journal-of-the-American-Academy-of-Religion-Skills | Claude | in progress | SkillOpt scale-up: jaar-submission behavioral loop; add verified 106-day/≈90%-reject/grad-review-policy facts |
 | Progress-in-Human-Geography-Skills | Claude | assessed | SkillOpt triage: submission skill already well-calibrated; facts genuinely volatile (需复核) — no high-value verified edit, gate would reject padding |
 | SkillOpt scale-up wave (anthro/socio/comm/educ/geo/humanities submission skills) | Claude | done | 16 packs optimized over 4 waves (commits 05b73424/d57b9d08/e932b38f/f322301d), held-out behavioral +6 to +72, all gate-accepted, every fact source-map-grounded; static scores unchanged. 19 skills optimized + PiHG triaged; report.py --check green |
+| SkillOpt citation/style tier (19 packs) | Claude | done | dedicated citation skills HLR/AHR/PMLA/Mind edited (+22..+59, commit 5c8ae3f6), JAAR certified; writing-style tier ASR 7th-ed transfer + 13 certified (commit 7ca579e1). Honest triage, no padding. Yale lane (parallel) untouched |
 | Quarterly-Journal-of-Economics-Skills | A | in progress | golden template; deep venue research |
 | Journal-of-Political-Economy-Skills | A | queued | |
 | Econometrica-Skills | A | queued | |
