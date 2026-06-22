@@ -12,13 +12,14 @@ description: Use when running the final pre-submission preflight for a Journal o
 - Confirming the manuscript is correctly blinded for the review model
 - Verifying competing-interest, data, and AI-use statements are in place
 
-## Process facts (检索于 2026-06；以官网为准; re-confirm on the JFM guide for authors before submitting)
+## Process facts (检索于 2026-06，费用项再核实于 2026-06-22；以官网为准; re-confirm on the JFM guide for authors before submitting)
 
 - JFM is an **Elsevier** journal (ISSN 1386-4181 print / 1878-576X online); submission is via **Elsevier Editorial Manager** (待核实 the exact portal link on the journal's guide-for-authors page).
 - **Review model:** double-blind reported by secondary sources (待核实 against the official guide). If double-blind, the manuscript file must be **fully anonymized** — no author names, no acknowledgments, no self-citation tells like "in our earlier work," no identifying file metadata; author details go on a separate title page.
 - **Reference style, abstract word limit, and any structured-abstract / JEL requirements:** 待核实 on the guide for authors. Elsevier finance journals typically use an author-date style; confirm the exact format.
 - **Declarations (Elsevier-standard):** Declaration of Competing Interest; funding sources; CRediT author-contribution statement; data-availability statement; statement on generative-AI use (AI may not be listed as an author). Verify the current required set.
-- **APC / open access:** JFM offers subscription and open-access routes; the OA APC is 待核实. There is no per-page submission fee analogue to society journals; do not assume one.
+- **Submission fee:** JFM charges a **US$170 submission fee** for original *and* revised submissions; the manuscript is only considered once the fee is paid (verified 2026-06-22 via the Elsevier guide for authors; re-confirm live, and check the developing-country/limited-means waiver if relevant). Do **not** assume JFM is fee-free.
+- **APC / open access:** JFM offers subscription (no APC) and open-access routes; the OA **APC is USD 3,040 excluding taxes** (verified 2026-06-22, single source — treat as indicative and re-confirm the exact figure live before opting into open access).
 
 ## Preflight checklist
 
@@ -62,7 +63,7 @@ If the portal requests suggested reviewers, treat it as a real lever. Propose th
 
 - Uploading a non-anonymized manuscript when the model is double-blind (self-citation/metadata tells)
 - A data-availability statement that contradicts the replication package's access path
-- Assuming a society-style submission fee or a fixed word limit without checking the guide
+- Forgetting the US$170 submission fee (due on original *and* revised submissions), or assuming a fixed word limit, without checking the live guide
 - A cover letter that pitches the paper as broad finance instead of microstructure
 - Treating any volatile fact above as settled when it is marked 待核实
 

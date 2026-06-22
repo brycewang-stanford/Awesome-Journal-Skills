@@ -12,14 +12,16 @@ description: Use when running the final pre-submission preflight for Research Po
 - Confirming length, abstract, anonymization, and declaration rules are RP-compliant
 - Making sure the paper will not trip the out-of-scope desk screen
 
-## Process facts (source map refreshed 2026-06；以官网为准)
+## Process facts (source map refreshed 2026-06，editor/fee 项再核实于 2026-06-22；以官网为准)
 
 - RP is **Elsevier's** flagship innovation-studies journal (Print ISSN 0048-7333); manuscripts go through the **Elsevier online submission system** (Editorial Manager), which assembles a single PDF for review; editable source files (Word/LaTeX) are required at acceptance for typesetting.
 - **Review model: double-blind** — the manuscript must be anonymized; author identities are concealed from referees and vice versa (检索于 2026-06；以官网为准).
 - **Article types & length:** full articles ~**8,000–10,000 words** including footnotes, references, and text in tables; **Research Notes** ~**3,000–5,000 words** (not a faster, lighter article — a Note requires a cover letter explaining its rationale, contribution, and why the Note format) (检索于 2026-06；以官网为准).
 - **Scope desk-screen:** a paper whose literature is "almost entirely economics or management journals" is likely desk-rejected as out of scope; the cover letter and references must show innovation-studies (SPRU-tradition) grounding (检索于 2026-06；以官网为准).
 - **Data & code:** include a data (and, where relevant, code) availability statement; verify the exact policy and any mandatory statement wording on the guide for authors (待核实).
-- Exact current abstract word limit, fees/APC for any open-access option, and keyword/JEL requirements: 待核实 — confirm on the live guide for authors before submitting.
+- **Editorial routing:** RP runs a **distributed editorial team (no single Editor-in-Chief)**; **Maria Savona** (SPRU / Luiss) is the **Coordinating Editor** (verified 2026-06-22). Address the cover letter to the journal and name the *innovation-studies area* so it routes to the right handling editor, rather than to one person by name.
+- **Fees:** publishing via the **subscription route carries no APC and no submission fee**; the optional gold **open-access APC is reported around USD 3,700 for 2026** (verified 2026-06-22; Elsevier shows a personalized APC by country/affiliation, so confirm the exact figure live). There is no society-style per-submission fee.
+- Exact current abstract word limit and keyword/JEL requirements: 待核实 — confirm on the live guide for authors before submitting.
 
 ## Preflight checklist
 

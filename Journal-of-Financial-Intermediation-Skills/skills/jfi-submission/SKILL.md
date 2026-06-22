@@ -11,7 +11,7 @@ description: Use when running the final pre-submission preflight for the Journal
 - Confirming what Editorial Manager expects at initial submission
 - Checking the fee, abstract/keyword metadata, data links/statements, and required declarations
 
-## Process facts (verified 2026-06-20; re-confirm on the official Guide for Authors)
+## Process facts (verified 2026-06-22; re-confirm on the official Guide for Authors)
 
 - JFI is published by **Elsevier** (ISSN 1042-9573); submission is via **Editorial Manager**, which
   converts uploaded files into a **single PDF** for peer review. Editable files (Word/LaTeX) are needed

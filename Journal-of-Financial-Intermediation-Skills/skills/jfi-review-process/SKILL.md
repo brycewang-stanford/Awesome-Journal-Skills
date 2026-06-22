@@ -11,7 +11,7 @@ description: Use when navigating the Journal of Financial Intermediation (JFI) e
 - After a decision, to understand what is (and is not) negotiable
 - Deciding whether to request a specific Managing Editor
 
-## Process facts (verified 2026-06-20; re-confirm on the official Guide for Authors)
+## Process facts (verified 2026-06-22; re-confirm on the official Guide for Authors)
 
 - **Active desk-rejection.** The process is explicitly designed so a large share of submissions are
   rejected **without full review**. A clean, well-targeted submission is part of clearing this screen.
@@ -24,8 +24,10 @@ description: Use when navigating the Journal of Financial Intermediation (JFI) e
   considered and the appeal decision is final. Plan as if the desk and referee rounds must win up front.
 - **Choose your Managing Editor.** Authors may request the Managing Editor in charge of their submission
   (accommodated within constraints); papers are reviewed largely by editorial-board-level experts.
-- Current official board page lists **Murillo Campello** as Managing Editor and **Elena Loutskina** /
-  **Joao Santos** as Co-Editors. Re-confirm before requesting an editor by name.
+- Current official board lists **Murillo Campello** as Managing Editor and **Elena Loutskina** /
+  **Joao Santos** as Co-Editors (verified 2026-06-22). Note that scholars such as Anjan Thakor or
+  Paolo Fulghieri may appear as *guest/special-issue* editors — that is not the standing masthead.
+  Re-confirm the live board before requesting an editor by name.
 
 ## How to use these facts
 

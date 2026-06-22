@@ -20,12 +20,14 @@ Primary source map for facts used in the Research Policy skill pack. **Access da
 | patent evidence | Official pages above; re-check live before submission |
 | R&D organization | Official pages above; re-check live before submission |
 
-## Verified on official pages (2026-06)
+## Verified on official pages (2026-06; re-verified 2026-06-22)
 
 - **Distributed editorial team (no single Editor-in-Chief)**, anchored at SPRU (Science Policy Research Unit, University of Sussex); editors include Ben Martin, Ammon Salter, Maryann Feldman, Elisa Giuliani, Keun Lee, Reinhilde Veugelers, and Maria Savona, among others. (Elsevier Research Policy editorial board)
+- **Coordinating Editor: Maria Savona** (SPRU, University of Sussex / Luiss University) — confirmed via WebSearch 2026-06-22 (>=2 corroborating results). This is the closest analogue to an Editor-in-Chief; the day-to-day model remains a distributed team of handling editors, so route to the editor whose area fits.
 - Published by **Elsevier**; submit via Editorial Manager from the Research Policy ScienceDirect page.
+- **Fees:** the subscription route carries **no APC / no submission fee**; the gold open-access option carries an Elsevier APC, reported around **USD 3,700** for 2026 (WebSearch snippet 2026-06-22; Elsevier shows a *personalized* APC by country/affiliation, so treat this figure as indicative and confirm the exact amount live at submission). No society-style per-submission fee.
 
 ## Unverified / volatile items
 
-- Exact **submission / OA APC, word limits, abstract limits, and blinding rules**, and the full rotating editor roster, are **待核实** if not visible on the official pages above — confirm at submission time.
+- Exact **word limits, abstract limits, and blinding rules**, the precise OA APC figure, and the full rotating editor roster, are **待核实** if not visible on the official pages above — confirm at submission time.
 - Exemplar articles must be verified in the official archive or DOI page before being cited as real examples.

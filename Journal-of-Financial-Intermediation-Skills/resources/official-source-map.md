@@ -2,8 +2,19 @@
 
 Primary and authoritative sources behind the **Journal of Financial Intermediation
 (JFI)** facts injected into this skill pack. **Policy refresh date:
-2026-06-20.** Re-check the live ScienceDirect pages before submission because
+2026-06-22.** Re-check the live ScienceDirect pages before submission because
 fees, editors, and calls can change.
+
+**Live re-verification 2026-06-22 (WebSearch; ScienceDirect/Elsevier pages 403 to direct fetch):**
+
+- Editors **confirmed unchanged**: Managing Editor **Murillo Campello** (Univ. of Florida); Co-Editors
+  **Elena Loutskina** (UVA Darden) and **Joao Santos** (FRB New York / Nova SBE), per the Elsevier
+  editorial-board listing surfaced via search. Anjan Thakor / Paolo Fulghieri appear as guest/
+  special-issue editors only, not the standing masthead.
+- Fees **confirmed unchanged**: **US$500** new-submission fee (paid before consideration, not refunded on
+  desk reject) and open-access **APC USD 3,760 excluding taxes**, both per the official Guide for Authors
+  via search snippets (>=2 corroborating sources).
+- Access date: **2026-06-22**.
 
 ## Official Elsevier / ScienceDirect pages
 
