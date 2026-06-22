@@ -29,7 +29,8 @@ relying on them.
   precision, clustering/weighting design effects).
 - **Data policy:** replication package to **POQ's Harvard Dataverse**; **Data Availability Statement**
   in the endmatter; materials archived **before typesetting**.
-- **Fee:** no submission fee stated; any open-access APC handled by OUP after acceptance (待核实).
+- **Fee:** no submission fee stated (consistent as of 2026-06-22); any open-access APC handled by OUP
+  after acceptance — re-verify current charges on the OUP page before submission (待核实).
 
 ## Preflight checklist
 

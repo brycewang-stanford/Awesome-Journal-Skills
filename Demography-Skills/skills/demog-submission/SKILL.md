@@ -27,8 +27,9 @@ with self-identifying references. Verify volatile specifics on the official page
 - **Exhibits:** Articles up to **~8 tables/figures** (recommend **<= 75 references**); Notes **<= 4**
   (recommend **<= 15 references**); loosely **APA** reference style; Merriam-Webster spelling.
 - **Access model:** **Subscribe to Open (S2O)** — free to readers; **not** an APC journal.
-- **Fees:** **$35 submission fee** at submission; **$1,000 editorial-management fee** at acceptance
-  (waivable; **not** an open-access charge). Verify amounts/waiver eligibility on the live page. 待核实.
+- **Fees:** **$35 submission fee** at submission (confirmed current 2026-06-22); **$1,000
+  editorial-management fee** at acceptance (waivable; **not** an open-access charge). Re-verify
+  amounts/waiver eligibility on the live page before submission. 待核实.
 
 ## Preflight checklist
 

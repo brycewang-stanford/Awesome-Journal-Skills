@@ -7,8 +7,10 @@ description: Use to understand how Criminology (ASC / Wiley) evaluates a manuscr
 
 Knowing how *Criminology* screens and decides lets you pre-empt failure modes before submitting. The
 journal uses **double-anonymized** review (anonymized main document + separate title page) and is
-handled by the ASC/Wiley editorial team for an interdisciplinary, theory-forward field. Check the live
-ASC/Wiley pages for submission-day masthead text.
+handled by the ASC/Wiley editorial team for an interdisciplinary, theory-forward field. As of
+2026-06-22, **Chris Sullivan is Interim Editor** (leadership changed Sept 12, 2025; permanent
+2027-2031 editor search ongoing) — re-check the live ASC/Wiley masthead before submission, since the
+interim status is in flux.
 
 ## When to trigger
 

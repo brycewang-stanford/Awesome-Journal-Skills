@@ -71,9 +71,13 @@ the official page before relying on them — journal pages change.
 - **Abstract word limit**: no explicit abstract word cap was stated verbatim on the General
   Instructions page at access time; a structured/short abstract is expected. Confirm the current
   abstract requirement (and any structured-abstract format) on the live page. 需复核.
-- **Current Editor(s) and editorial term**: AAPOR periodically issues a "Call for Editors" for POQ and
-  rotates the editorial team; the exact current editor(s) and term start/end were not confirmed
-  verbatim. 需复核 on the live About/masthead page.
+- **Current Editor(s) and editorial term** (verified 2026-06-22): **Allyson Holbrook (University of
+  Illinois Chicago) and Phil Jones (University of Delaware) are the current Editors-in-Chief**,
+  responsible for **Volumes 89-92 (Jan 1, 2025 - Dec 31, 2028)**, with the transition having begun
+  July 1, 2024. Sources: AAPOR news release "AAPOR Announces New Editors-in-Chief for Public Opinion
+  Quarterly" (https://aapor.org/news-releases/aapor-announces-new-editors-in-chief-for-public-opinion-quarterly/);
+  Oxford Academic POQ Vol. 90 (2026) masthead. AAPOR rotates the team, so re-check the live About/masthead
+  page before submission. 需复核（任期末以官网为准）.
 - **Submission fee / open-access APC**: no submission fee is stated; any Gold/Hybrid open-access APC is
   handled by Oxford University Press after acceptance. Confirm current charges on the OUP page. 需复核.
 - **Time-to-decision, acceptance rate, exact reviewer count**: typical referee count (2–3) is stated,

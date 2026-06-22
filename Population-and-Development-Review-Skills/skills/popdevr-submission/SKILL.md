@@ -28,8 +28,8 @@ the statements must be in order. Verify volatile specifics on the Wiley author p
   Data & Perspectives, Archives, Book Reviews (usually invited).
 - **Front matter:** abstract + keywords (confirm the current abstract word limit on the author page). 待核实.
 - **Fees:** **no author fees** — no submission fee and **no article-processing charge (APC)** under the
-  standard model (open-access/Online Open options may carry a separate Wiley APC if chosen). Verify on the
-  author page. 待核实.
+  standard model (open-access/Online Open options may carry a separate Wiley APC if chosen). Consistent
+  with the Wiley author guidelines as of 2026-06-22; re-verify on the author page before submission. 待核实.
 - **ORCID + statements:** ORCID for the submitting author; **data availability statement**; funding,
   conflict-of-interest, and ethics declarations (see `popdevr-transparency-and-data`).
 

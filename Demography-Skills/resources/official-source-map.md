@@ -72,16 +72,25 @@ them — journal pages change.
 
 ## Live-check / 需复核 items
 
-- **Current Editor / editorial term**: secondary sources list **Sara R. Curran (University of
-  Washington)** as Editor; the editor and Deputy Editor roster rotate. Confirm the current masthead on
-  the official journal/editorial-board page. 需复核.
-- **Which volume is open this year under S2O**: the 2021-2023 and 2026 volumes are confirmed open
-  access; whether the **2024/2025 volumes opened** depends on the annual subscription threshold being
-  met by March 31. Confirm the current year's status on the Duke OA page. 需复核.
-- **Exact fee amounts and waiver mechanics**: $35 submission and $1,000 editorial-management fees were
-  current at access time; the editorial-policy page also references a **submission-fee waiver for
-  sole student authors**, while the fees page frames the $1,000 waiver around lack of institutional
-  /grant support. Confirm both amounts and the exact waiver eligibility on the live fees page. 需复核.
+- **Current Editor / editorial term** (verified 2026-06-22): the editorial home moved to **Duke
+  (DUPRI)** for the **2026-2028 volumes**, with **Hedy Lee, M. Giovanna Merli, and Marcos A. Rangel**
+  as Lead (co-)Editors (work began May 2025; editorial home effective July 1, 2025). This **supersedes**
+  the prior **Sara R. Curran (University of Washington)** team, whose term ran **June 2022-May 2025**.
+  Sources: DUPRI announcement "Duke is Selected as Next Editorial Home for Demography, 2025-2028"
+  (https://dupri.duke.edu/news-events/news/duke-selected-next-editorial-home-demography-2025-2028);
+  Association of Population Centers, "Search for Next Demography Editor"
+  (https://www.popcenters.org/2024/11/04/search-for-next-demography-editor/). The Deputy Editor roster
+  rotates — confirm the current masthead on the official editorial-board page before submission. 需复核（人员名单）.
+- **Which volume is open this year under S2O** (re-verified 2026-06-22): the **2021, 2022, 2023, and
+  2026 volumes are confirmed open access in perpetuity**; the 2024/2025 volumes are part of the
+  Subscribe-to-Open backlist and open only if the annual subscription threshold is met by March 31.
+  Confirm the current year's status on the Duke OA page. 需复核.
+- **Exact fee amounts and waiver mechanics** (re-verified 2026-06-22): the **$35 submission fee** is
+  confirmed current on the Duke OA/Fees pages; the **$1,000 editorial-management fee** at acceptance
+  (not an OA APC) was current at access time. The editorial-policy page also references a **submission-fee
+  waiver for sole student authors**, while the fees page frames the $1,000 waiver around lack of
+  institutional/grant support. Confirm both amounts and the exact waiver eligibility on the live fees
+  page before submission. 需复核（金额/豁免细则）.
 - **Submission portal URL**: the journal moved to **ScholarOne** on May 31, 2024; confirm the exact
   current submission link from the official Submit page (do not reuse old Editorial Manager links).
   需复核.

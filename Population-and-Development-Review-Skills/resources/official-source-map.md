@@ -52,8 +52,11 @@ pages change.
 
 - Treat the Wiley author-guidelines page as controlling for submission mechanics; re-open it before
   quoting exact abstract or per-type length limits.
-- Use **Raya Muttarak and Joshua Wilde** as editor names only when the Population Council/Wiley masthead
-  is live; Paul Demeny remains historical founding-editor context.
+- **Editors (verified 2026-06-22):** **Raya Muttarak and Joshua Wilde** are the current Editors —
+  confirmed by their joint **"Editors' Note on the December 2025 Issue"** and a March 2026 Editors' Note
+  on Wiley Online Library, with the Editorial Committee listing both as Editor and Rachel Friedman as
+  Associate Director/Managing Editor. Paul Demeny remains historical founding-editor context. Re-check the
+  live masthead before submission since the roster rotates.
 - Free Format is safe to encode for first-round routing, but final style and file requirements should
   be taken from the live Wiley author page.
 - Standard submission/publication under the non-OA route has no author fee in this map. Optional Online

@@ -9,7 +9,9 @@ The last gate before upload. NM&S submits through **Sage Track** at
 `mc.manuscriptcentral.com/nms`. This skill is a mechanical preflight: format, length, masking, and the
 ethics/data statements that an anonymous, ethics-attentive interdisciplinary journal expects. **Verify
 every upload-field prompt on the live SAGE author-instructions page** because details can change,
-especially across the 2026 editorial transition.
+especially across the 2026 editorial transition. As of 2026-06-22, **Steve Jones is stepping down as
+Editor in June 2026 and the successor Editor(s) had not yet been publicly announced** — treat all
+editor-specific guidance as live-check material and confirm the current masthead before submitting.
 
 ## When to trigger
 

@@ -17,7 +17,10 @@ before submission.
   submissions go through the official online submission process linked from the page; current page text
   lists **Chris Sullivan** as **Interim Editor** and **Meghan Zelasko** as **Managing Editor**, and states
   that the ASC board changed leadership effective **September 12, 2025** while a search began for the
-  **2027-2031** editorial team.
+  **2027-2031** editorial team. Re-verified 2026-06-22: **Christopher (Chris) Sullivan remains Interim
+  Editor** with the permanent editor search ongoing (corroborated by ASC *Criminologist* Vol. 52 No. 1,
+  Jan/Feb 2026, and the ASC editor-positions page). Treat the interim status as in flux and confirm the
+  live masthead before submission.
 - **https://onlinelibrary.wiley.com/journal/17459125**
   — Wiley Online Library publisher home. Verifies publisher home, journal title, ISSN route, current
   issue access, author-guidelines link, open-access link, and Research Notes link.

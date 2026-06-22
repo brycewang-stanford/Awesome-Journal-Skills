@@ -18,7 +18,10 @@ journal-specific policy changes.
 - **https://www.ncfr.org/jmf/jmf-editorial-board-and-staff** — Current editorial board
   and staff page. Verifies the current editor as **Spencer B. Olmstead, Ph.D.**
   (University of Tennessee, Knoxville editorial office), current editorial assistants,
-  and the deputy-editor team. Use this page for any current masthead fact.
+  and the deputy-editor team. Use this page for any current masthead fact. Re-verified
+  2026-06-22: Olmstead began a **five-year editor term with the February 2025 issue**, so
+  he is the current editor through this term (NCFR announcement "Spencer B. Olmstead Named
+  Next Editor of NCFR's Journal of Marriage and Family"). Confirm the live masthead before submission.
 - **https://onlinelibrary.wiley.com/journal/17413737** — Wiley Online Library journal
   page. Use as the publisher-side current-issues and metadata checkpoint for JMF.
 - **https://onlinelibrary.wiley.com/page/journal/17413737/homepage/forauthors.html** —
