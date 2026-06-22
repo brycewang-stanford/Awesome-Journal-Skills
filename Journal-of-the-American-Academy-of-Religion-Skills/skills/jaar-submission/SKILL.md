@@ -35,9 +35,9 @@ volatile specifics on the official page first.
   待核实) (see `jaar-citation-and-style`).
 - **House conventions:** gender-neutral language, serial comma, italicized foreign terms, consistent
   transliteration.
-- **Fees / open access:** **no submission fee**; an **optional open-access license** carries an OA
-  charge alongside the standard license, and OUP **Read & Publish** agreements may cover it (exact
-  APC 待核实).
+- **Fees / open access:** **no submission fee** (verified 2026-06-22); an **optional open-access
+  license** carries an OA charge alongside the standard license, and OUP **Read & Publish** agreements
+  may cover it. OUP sets the exact APC on its live charges page — confirm there.
 
 ## Preflight checklist
 

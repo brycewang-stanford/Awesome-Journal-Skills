@@ -64,9 +64,11 @@ features) on the official page before relying on them — journal pages change.
 
 ## Live-check / 需复核 items
 
-- **Current editor and editorial term**: the Cambridge page listed an editor at access time and an
-  incoming editor was announced, but the exact term start/end dates were not confirmed verbatim.
-  需复核 on the live About / masthead page.
+- **Current editor and editorial term (verified 2026-06-22):** **Brent Hayes Edwards** has been editor
+  since **July 2021**; the MLA Executive Council has appointed **Adam Potkay** (William & Mary) as the
+  **tenth editor**, with a **three-year term beginning July 2026**. The editorship therefore turns over
+  to Potkay in mid-2026 — confirm which editor is sitting at your submission date on the live
+  MLA/Cambridge masthead.
 - **Publication frequency and exact issue months**: stated as four issues (January, March, May,
   October) plus a September convention-program issue at access time; frequency has changed over the
   journal's history. Confirm the current schedule on Cambridge Core. 需复核.

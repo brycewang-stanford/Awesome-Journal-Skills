@@ -42,9 +42,9 @@ paper **will not be read**. Verify volatile specifics on the official page befor
 - **Line numbering:** **required** for the review copy (LaTeX `lineno`; Word line-numbering option).
 - **Style:** the **MIND Stylesheet / MIND house style** applies to the **accepted** final version;
   authors sign the **standard OUP copyright licence agreement** at acceptance.
-- **Fee:** **no submission fee.** An **open-access option is available for a charge**, handled by OUP
-  after acceptance; the exact APC, eligible licences, and any read-and-publish / transformative-agreement
-  waivers are **not pinned** here — 需复核.
+- **Fee:** **no submission fee** (verified 2026-06-22). An **open-access option is available for a
+  charge**, handled by OUP after acceptance; OUP sets the exact APC, eligible licences, and any
+  read-and-publish / transformative-agreement waivers on its live charges page — confirm there.
 
 ## Triple-anonymous failure audit
 

@@ -39,9 +39,9 @@ relying on them.
   authors deposit the **submitted version** in AAA's **Open Anthropology Research Repository** before peer
   review. Do not assume a generic preprint server is allowed — use the AA repository route.
 - **ORCID:** **required** for AAA journals (corresponding author).
-- **Fee:** **no submission or publication fee**; OnlineOpen (open access) is **optional** and only after
-  acceptance. APC ~**USD 3,570** (待核实 — verify current amount); license choice is **CC BY, CC BY-NC,
-  or CC BY-NC-ND**.
+- **Fee:** **no submission or publication fee** (verified 2026-06-22); OnlineOpen (open access) is
+  **optional** and only after acceptance. APC ~**USD 3,570** (per source map; verify the current Wiley
+  OnlineOpen amount before paying); license choice is **CC BY, CC BY-NC, or CC BY-NC-ND**.
 
 ## Preflight checklist
 

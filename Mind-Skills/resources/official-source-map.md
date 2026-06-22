@@ -56,9 +56,9 @@ the official page before relying on them — journal pages change.
 
 ## Live-check / 需复核 items
 
-- **Current Editor and editorial term**: the Editorial Board page lists the current officers at access
-  time, but the exact name and term start/end dates were not pinned verbatim here. 需复核 on the live
-  Editorial Board page.
+- **Current Editors (verified 2026-06-22):** Joint Editors **Tim Button** and **James Wilson** (both
+  University College London); Reviews Editor **Robert Simpson** (UCL). Published by OUP for the Mind
+  Association. Re-confirm exact term start/end on the live Editorial Board page, as editors rotate.
 - **Exact submission-abstract maximum (250 words)**: the published abstract is stated as **50–200
   words**; the longer submission-abstract figure is reported but should be confirmed on the live
   General Instructions page. 需复核.

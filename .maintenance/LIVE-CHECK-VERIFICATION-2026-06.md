@@ -77,6 +77,32 @@ authoritative URLs. Verification standard = ≥2 independent authoritative sourc
 
 Gates after batch 1: `run_checks` green; `source_map_audit` 0 warnings across the 6 packs.
 
+### Batch 4 — philosophy / religion / literature / anthropology (DONE 2026-06-22)
+
+- **Mind** — Joint Editors **Tim Button & James Wilson** (both UCL); Reviews Editor Robert Simpson (UCL).
+  No submission fee; OUP OA APC on live page. Source map + mind-submission de-hedged.
+- **JAAR** — Editor **Andrea R. Jain** (OUP for AAR). No submission fee; OUP OA APC. CMOS edition left as
+  honest live-check (style sheet cites 15th ed.; CMOS now 18th — confirm which the live sheet names).
+- **PMLA** — **IMMINENT TRANSITION**: **Brent Hayes Edwards** editor since July 2021; **Adam Potkay**
+  (William & Mary) appointed 10th editor, **3-yr term from July 2026**. No submission fee. Source map +
+  pmla-submission updated.
+- **American Anthropologist** — source map already grounded: EiC **Elizabeth J. Chin** (ArtCenter) current
+  through 2026; **Dána-Ain Davis & Sameena Mulla** take over 2027. Re-confirmed 2026-06-22. OnlineOpen
+  APC ~$3,570 (verify before paying). amanthro-submission de-hedged.
+- **Current Anthropology** — co-editors **Caroline Schuster & Catherine Frieman** (ANU), since Jan 2025,
+  succeeding Laurence Ralph (first cross-disciplinary / Australia-based team). curranthro-submission de-hedged.
+
+Gates after batch 4: `run_checks` green; `source_map_audit` 0 warnings across the 5 packs.
+
+### CAMPAIGN COMPLETE — all 19 lane packs verified (2026-06-22)
+
+Every current Editor(s)-in-Chief and APC/fee live-check item in the humanities/social-science lane has
+been verified against authoritative web sources and grounded into the source maps + SKILL bodies with a
+2026-06-22 date stamp. Hedges replaced by date-stamped facts; honest narrowed hedges kept only where a
+value genuinely is not publicly pinnable (OUP/Cambridge/Wiley/SAGE per-journal OA APC amounts) or is in
+flux (RER 2026 team, JAAR CMOS edition). One stale error corrected (Sociological Theory: Tavory → current
+4-person team). Two imminent transitions flagged (PMLA July 2026, AA 2027).
+
 ### Batch 3 — geography + history (DONE 2026-06-22)
 
 - **AAAG** — section-editor structure (verified 2026-06-22 via AAG announcements): **Paul Adams**

@@ -17,7 +17,8 @@ live AA / AAA / Wiley pages before using this pack for a live submission.
   **flagship journal of the American Anthropological Association**; it advances research on humankind in
   archaeological, biological, sociocultural, and linguistic research, including practicing
   anthropologists and anthropologists outside the academy; current Editor-in-Chief **Elizabeth J. Chin**
-  (ArtCenter College of Design), Managing Editor **Julian Gantt**, associate editors across archaeology,
+  (ArtCenter College of Design) — **current through 2026, re-confirmed 2026-06-22** (Dána-Ain Davis &
+  Sameena Mulla take over 2027-01-01) — Managing Editor **Julian Gantt**, associate editors across archaeology,
   biological anthropology, cultural anthropology, linguistic anthropology, multimodal anthropology,
   public anthropology, world anthropology, book reviews, obituaries, and online content, plus an
   editorial board.

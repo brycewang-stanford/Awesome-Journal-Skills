@@ -66,9 +66,9 @@ on the official page before relying on them — journal pages change.
 
 ## Live-check / 需复核 items
 
-- **Current Editor(s) and editorial term**: the masthead/editorial-board page lists the current team at
-  access time, but the exact editor names, institutions, and term start/end dates were not confirmed
-  verbatim here. 需复核 on the live Editorial Board page.
+- **Current Editor (verified 2026-06-22):** **Andrea R. Jain** is the editor of JAAR (OUP for the
+  American Academy of Religion). Re-confirm the associate/area editors and exact term on the live
+  Editorial Board page, as the masthead rotates.
 - **Current citation-style edition**: the downloadable style sheet directs authors to the **Chicago
   Manual of Style, 15th edition** for unaddressed issues; CMOS is now in its 18th edition, so the live
   style guide may reference a newer edition. Treat the in-text author-date JAAR style as primary and

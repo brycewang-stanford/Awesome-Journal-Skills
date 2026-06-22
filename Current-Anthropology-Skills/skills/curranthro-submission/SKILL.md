@@ -25,8 +25,9 @@ official Instructions for Authors before relying on them.
 - **Publisher / sponsor:** **University of Chicago Press** for the **Wenner-Gren Foundation for
   Anthropological Research**. Founded **1959** (Sol Tax). ISSN **0011-3204** (print) / **1537-5382** (web).
 - **Editors:** co-editors **Caroline Schuster** and **Catherine J. Frieman** (Australian National
-  University), effective **1 January 2025**, succeeding **Laurence Ralph** (Princeton) — *(检索于 2026-06；
-  以官网为准)*.
+  University), effective **1 January 2025**, succeeding **Laurence Ralph** (Princeton) — the first
+  cross-disciplinary, first Australia-based editorial team (verified 2026-06-22; re-confirm on the live
+  masthead, as editors rotate).
 - **Portal:** **Editorial Manager**.
 - **Selectivity & review filter:** operating figures from the 2023 editor search are **~230 manuscripts/year**,
   **about 50% receiving full peer review** (the other half screened/desk-handled before full review), and

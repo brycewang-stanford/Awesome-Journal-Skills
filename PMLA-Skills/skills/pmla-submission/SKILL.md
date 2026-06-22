@@ -36,8 +36,8 @@ page before relying on them.
   not exceeding 100 words** (待核实 — confirm on the live page).
 - **Word count:** **6,000–9,000 words** for articles; **includes discursive notes**; **excludes** the
   list of works cited and translations.
-- **Fee / open access:** **no submission fee is stated**; confirm any post-acceptance open-access (APC)
-  charges handled by Cambridge on the live page (需复核).
+- **Fee / open access:** **no submission fee** (verified 2026-06-22); any post-acceptance open-access
+  (APC) charges are handled by Cambridge — confirm the current figure on the live page.
 - **Decision rate / timeline:** acceptance/desk-rejection rates and time-to-decision are **not stated
   as fixed numbers** — treat as live-check (需复核).
 - **Style:** **MLA style** per the most recent **MLA Handbook** (in-text + Works Cited).
