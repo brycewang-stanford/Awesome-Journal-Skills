@@ -1,7 +1,14 @@
 # GEB Official Source Map
 
 Primary source map for Games and Economic Behavior (GEB)-specific facts encoded
-in this pack. Official pages were re-checked on **2026-06-21**.
+in this pack. Official pages were re-checked on **2026-06-21**; editor and APC
+live-check verification **2026-06-22**.
+
+**Live-check 2026-06-22:** Editor-in-Chief **Hervé Moulin** (University of Glasgow;
+in role since 1 Jan 2021) re-confirmed via the ScienceDirect new-editor announcement,
+Game Theory Society page, and Elsevier editorial-board listing. Optional gold-OA APC
+**USD 2,860 (excl. tax)** re-confirmed via the ScienceDirect GEB journal/open-access
+listing. No upfront submission fee is stated. Re-verify before submission.
 
 ## Official journal and society pages
 

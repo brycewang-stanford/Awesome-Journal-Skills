@@ -1,12 +1,21 @@
 # JBES Official Source Map
 
 Primary and authoritative sources behind the JBES-specific facts injected into this
-skill pack. **Policy refresh date: 2026-06-20.** Taylor & Francis pages are the
-canonical source for JBES, but the T&F journal and author-instruction pages did not
-render directly in this environment during this refresh. Official T&F search-index
-snippets were used only for scope, Open Select status, and the current editorial
-board. Submission-only details that require the live author-instruction page are
-not hard-coded here.
+skill pack. **Policy refresh date: 2026-06-20; editor/fee live-check 2026-06-22.**
+Taylor & Francis pages are the canonical source for JBES, but the T&F journal and
+author-instruction pages did not render directly in this environment during this
+refresh. Official T&F search-index snippets were used only for scope, Open Select
+status, and the current editorial board. Submission-only details that require the
+live author-instruction page are not hard-coded here.
+
+**Live-check 2026-06-22:** Joint Editors **Yingying Fan** (USC), **Michael Kolesár**
+(Princeton), and **Dacheng Xiu** (Chicago) re-confirmed as current via the T&F journal
+"about" page snippets. JBES is **hybrid Open Select** (OA optional, no APC if you
+publish non-OA). A single T&F search snippet this session quoted an Open Select APC of
+**~USD 2,500**, but that figure could **not** be re-confirmed on a second authoritative
+source or a live-rendered T&F page — treat it as **unconfirmed** and have authors read
+the exact APC off the live T&F author-instruction / open-access cost-finder page rather
+than budgeting from this number.
 
 ## Official journal / society pages
 

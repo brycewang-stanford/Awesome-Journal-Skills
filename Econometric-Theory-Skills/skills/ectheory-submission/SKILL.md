@@ -14,8 +14,10 @@ description: Use when running the final pre-submission preflight for Econometric
 
 ## ET process facts (verified; re-confirm on the official page — 待核实 where noted)
 
-- ET is published by **Cambridge University Press**, founded by **Peter C. B. Phillips**; from
-  **1 January 2026** edited by three joint Editors-in-Chief (Guggenberger, Su, Sun).
+- ET is published by **Cambridge University Press**, founded by **Peter C. B. Phillips** (Founding
+  Editor 1985–2025); from **1 January 2026** edited by three joint Editors-in-Chief — **Patrik
+  Guggenberger** (Penn State), **Liangjun Su** (Tsinghua), and **Yixiao Sun** (UC San Diego)
+  (re-confirmed via the Cambridge Core editorial-board page 2026-06-22; re-verify before submission).
 - Submission is via **ScholarOne / Manuscript Central** at `https://mc.manuscriptcentral.com/econ-theory`,
   effective **28 January 2026**, replacing the previous Editorial Express system.
 - Manuscripts are submitted as a **single PDF** with all fonts, tables, and graphics embedded.

@@ -1,9 +1,16 @@
 # Journal of Econometrics — Official Source Map
 
 Primary and authoritative sources behind the JoE-specific facts injected into this skill pack.
-**Policy refresh date for this map: 2026-06-20.** Re-confirm volatile items (portal routing, fees,
-editor roster, and open themed calls) on the live official pages before submitting; the pack records
-the current official-page state rather than assuming the old Editorial Express-only route.
+**Policy refresh date for this map: 2026-06-20; live-check verification 2026-06-22.** Re-confirm
+volatile items (portal routing, fees, editor roster, and open themed calls) on the live official pages
+before submitting; the pack records the current official-page state rather than assuming the old
+Editorial Express-only route.
+
+**Live-check 2026-06-22:** Co-Editors-in-Chief **Michael Jansson (UC Berkeley)** and **Aureo de Paula
+(University College London)** re-confirmed via the ScienceDirect/Wikipedia journal records. The **USD $75**
+non-refundable submission fee (new submissions and resubmissions over one year; VAT for European authors;
+no student discounts/refunds) re-confirmed via the ScienceDirect Guide for Authors snippet. Re-verify both
+on the live pages before submission.
 
 ## Official journal pages
 

@@ -1,9 +1,19 @@
 # Quantitative Economics (QE) Official Source Map
 
 Primary sources behind the *Quantitative Economics* facts injected into this skill pack.
-Sources were checked on **2026-06-20**. Live-check the Econometric Society instructions,
-editorial procedures, data/code policy, and Wiley journal metadata before final upload because
-fees, rosters, policy wording, and submission-system labels can change.
+Sources were checked on **2026-06-20**; editor/fee live-check verification **2026-06-22**.
+Live-check the Econometric Society instructions, editorial procedures, data/code policy, and
+Wiley journal metadata before final upload because fees, rosters, policy wording, and
+submission-system labels can change.
+
+**Live-check 2026-06-22:** Editor **Bernard Salanié** re-confirmed as current via the Wiley
+journal product page and ES submission pages. Submission fee re-confirmed: **US$100 regular
+members / US$50 student members**, with low-income-country exemption and no refund if rejected
+without review; an Econometrica transfer waives the QE submission fee. QE is **open access**
+(CC BY-NC). Post-acceptance **publication page fees** for papers submitted on/after 1 January
+2026 are set at 100% of per-page production cost — **US$24 per page at the present rate** per
+the ES September 2025 fee-change notice (re-verify the current per-page rate before relying on
+it). Re-verify all figures on the live ES pages before submission.
 
 ## Econometric Society sources
 

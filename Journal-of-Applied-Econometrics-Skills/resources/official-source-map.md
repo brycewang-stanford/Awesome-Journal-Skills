@@ -2,9 +2,17 @@
 
 Primary and authoritative sources behind every Journal of Applied Econometrics (JAE)
 specific fact injected into this skill pack.
-Access date for all entries: **2026-06-01**. Re-verify volatile items (editors, APC
-figures, policy wording, page limits) before relying on them — journal pages change,
-and several official Wiley pages require browser access outside this crawler.
+Access date for all entries: **2026-06-01**; editor/fee live-check verification
+**2026-06-22**. Re-verify volatile items (editors, APC figures, policy wording, page
+limits) before relying on them — journal pages change, and several official Wiley pages
+require browser access outside this crawler.
+
+**Live-check 2026-06-22:** Editor (Editor-in-Chief) **Barbara Rossi** (Barcelona School
+of Economics / ICREA / CEPR) re-confirmed as current via the Wiley Online Library journal
+page (current Vol. 41 issues, 2026) and Wikipedia. No author submission fee is encoded;
+non-open-access publication is free to authors (optional Wiley OA APC applies only if
+chosen — re-confirm the figure on the live Wiley funded-access page). Re-verify before
+submission.
 
 ## Official author guidelines (Wiley)
 

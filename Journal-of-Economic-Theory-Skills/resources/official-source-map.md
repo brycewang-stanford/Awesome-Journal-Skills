@@ -1,9 +1,18 @@
 # JET Official Source Map
 
 Primary and authoritative sources behind the Journal of Economic Theory (JET)
-facts injected into this skill pack. **Policy refresh date: 2026-06-20.** Re-check
-the live ScienceDirect pages before submission because editor rosters, calls, and
-submission details can change.
+facts injected into this skill pack. **Policy refresh date: 2026-06-20; live-check
+verification 2026-06-22.** Re-check the live ScienceDirect pages before submission
+because editor rosters, calls, and submission details can change.
+
+**Live-check 2026-06-22:** Lead Editor **Faruk Gul** (Princeton) re-confirmed as
+current via the ScienceDirect JET homepage and corroborating sources (RePEc; 2023
+Editor-in-Chief lecture record). Open-access APC: the JET ScienceDirect open-access
+options page (https://www.sciencedirect.com/journal/journal-of-economic-theory/publish/open-access-options)
+returned HTTP 403 to the crawler this session, so the **USD 3,130 (excl. tax)** figure
+below could not be re-rendered from the live page — treat it as last-verified 2026-06-20
+and re-confirm the exact number in the submission system before relying on it. No JET
+submission fee is listed.
 
 ## Official journal & publisher pages
 
