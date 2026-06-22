@@ -68,9 +68,11 @@ relying on them — journal pages change.
 
 ## Live-check / 需复核 items
 
-- **Current editorial term / start date of the Gerring–Nalepa team**: the About-the-Editors page
-  lists them as current at access time and APSA/Political Science Now announced an editorial
-  transition, but the exact term start/end dates were not confirmed verbatim. 需复核 on the live page.
+- **Current editorial term / start date of the Gerring–Nalepa team**: verified 2026-06-22 (APSA
+  About-the-Editors; Political Science Now "Meet the New Editorial Team"). Co-Lead Editors **John
+  Gerring (UT Austin)** and **Monika Nalepa (University of Chicago)** lead a team of sixteen editors
+  at thirteen universities; the team **began 1 June 2024 and serves through 31 May 2028**. Still
+  re-verify the masthead before submission, as associate editors rotate.
 - **Research Note word cap (7,000 vs 8,000)**: the submission-guidelines page states Research Notes
   **< 7,000 words**; a separate "Notes from the Editors: Research Notes" piece references **8,000
   words including footnotes and references at final publication**. Treat **7,000 at submission** as
@@ -78,8 +80,10 @@ relying on them — journal pages change.
   需复核.
 - **Exact desk-rejection rate, time-to-decision, and number of reviewers**: not stated as fixed
   numbers on the policy page. 需复核.
-- **Submission fee / APSA membership**: no fee or membership requirement is stated in the
-  guidelines; treat "no submission fee" as the working assumption and confirm on the live page.
-  需复核 for any open-access APC (Gold/Hybrid) handled by Cambridge after acceptance.
+- **Submission fee / APSA membership**: verified 2026-06-22 (APSA submission guidelines; Cambridge
+  open-access options page) — **no submission fee and no APSA-membership requirement** to submit.
+  APSR is a **hybrid** Cambridge journal; Gold OA after acceptance is optional, with Cambridge's
+  standard 2026 APC of **£2,610 / US $3,655** (plus tax; institutional read-and-publish agreements
+  and waivers may cover it). Re-verify the current APC before submission.
 - **Full current Associate Editor roster and subfield coverage**: the roster changes with the
   editorial team; confirm the current masthead on the About-the-Editors page. 需复核.

@@ -32,8 +32,8 @@ the organization of the state — not as a single-country administrative report.
    review anonymously. (检索于 2026-06；以官网为准.)
 4. **Decision categories**: **reject**, **revise and resubmit (R&R)**, or **accept**. As at peer venues,
    a first-round outright accept is rare; the realistic good outcome is an R&R.
-5. **Editor's role.** The editors-in-chief (**Paolo Graziano and Adam Sheingate**, 检索于 2026-06；
-   以官网为准) adjudicate the referee reports, weigh fit and contribution, and write the decision letter
+5. **Editor's role.** The editors-in-chief (**Paolo Graziano and Adam Sheingate**, verified 2026-06-22;
+   re-verify the masthead before submission) adjudicate the referee reports, weigh fit and contribution, and write the decision letter
    that sets the revision agenda.
 
 ## How comparative-institutional referees judge

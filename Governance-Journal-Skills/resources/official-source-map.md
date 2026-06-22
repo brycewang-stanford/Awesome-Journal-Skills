@@ -49,14 +49,17 @@ wording) on the official page before relying on them — journal pages change.
 
 - Use **9,000 words excluding citations/bibliography** as the working cap from the Wiley author
   guidelines; ignore third-party 3,000-5,000 listings unless the live Wiley page changes.
-- Treat **Paolo Graziano and Adam Sheingate** as the current Editors-in-Chief based on the Wiley journal
-  page; re-open the editorial-board page before adding term dates or full masthead details.
+- **Paolo Graziano** (University of Padova) and **Adam Sheingate** (Johns Hopkins University) are the
+  current Editors-in-Chief, re-confirmed 2026-06-22 (Wiley *Governance* journal page; Wikipedia masthead);
+  re-open the editorial-board page before adding term dates or full masthead details.
 - Use the current Wiley submission flow rather than older ScholarOne references, but open the live
   "Submit" link when preparing a manuscript upload.
 - Keep reference style advice generic unless the live guidelines show a named style variant.
 - Wiley's shared author resources support ORCID integration; quote journal-specific ORCID wording only
   from the live author page.
-- No source-map row states a submission fee. Treat OA APCs as optional post-acceptance Wiley terms and
-  re-check them only when choosing open access.
+- No submission fee (verified 2026-06-22). *Governance* is a hybrid Wiley journal; Gold OA via Wiley
+  OnlineOpen is optional post-acceptance, but a *Governance*-specific APC figure was **not readable on a
+  first-party Wiley page this cycle** (Wiley OnlineOpen pricing is per-journal) — re-check the live
+  OnlineOpen pricing page only when choosing open access.
 - Do not encode fixed time-to-decision, desk-rejection, or acceptance-rate numbers; they are not stated
   as stable submission rules.

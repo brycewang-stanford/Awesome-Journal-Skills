@@ -16,9 +16,15 @@ official page before relying on them — journal pages change.
   a premier journal in the field.
 - **https://www.cambridge.org/core/journals/british-journal-of-political-science/information/author-instructions**
   — BJPS Author Instructions. Verifies: article types — **Research Articles**, **Letters**,
-  **Comments**; submission via the journal's online system (Editorial Manager, `editorialmanager.com/bjpols`);
-  **Comments carry no article-processing charge**;
-  Research Articles and Letters may be eligible for Gold Open Access via Cambridge agreements.
+  **Comments**; submission via the journal's online system (Editorial Manager, `editorialmanager.com/bjpols`).
+  **Fee update verified 2026-06-22** (Cambridge fees-and-pricing / open-access-options pages): BJPS is
+  now a **wholly Gold Open Access** journal — there is **no submission fee**, but accepted Research
+  Articles and Letters are published Gold OA under a CC licence with Cambridge's standard 2026 APC of
+  **£2,610 / US $3,655** (plus tax). Institutional read-and-publish ("transformative") agreements, the
+  Cambridge Open Equity Initiative (COEI, ~100+ low/middle-income countries waived), and individual
+  waiver requests can cover or remove the charge. Re-verify the current APC and waiver routes before
+  submission. (This supersedes the earlier hybrid framing; "Comments carry no APC" is no longer the
+  operative distinction now that the whole journal is Gold OA.)
 - **https://www.cambridge.org/core/journals/british-journal-of-political-science/information/instructions-contributors/style-guide**
   — BJPS style guide. Verifies: **Harvard author-date** referencing (in-text `(Elster 1983, 174)`;
   reference list `Elster J (1983) Explaining Technical Change. Cambridge: Cambridge University Press.`);
@@ -73,7 +79,9 @@ official page before relying on them — journal pages change.
   to 150 words with 5-7 keywords.
 - Do not name current editors from Wikipedia alone; open the Cambridge editorial-board page when the
   editor roster matters.
-- Comments carry no APC under the author instructions. Re-open Cambridge OA/payment pages for
-  Research Article or Letter publication-charge details after acceptance.
+- BJPS is now **wholly Gold Open Access** (verified 2026-06-22): no submission fee, but accepted
+  Articles/Letters carry Cambridge's standard 2026 APC (**£2,610 / US $3,655** plus tax) unless
+  covered by an institutional agreement, the Cambridge Open Equity Initiative, or a waiver. Re-open
+  the Cambridge OA/payment pages for the current charge and waiver routes after acceptance.
 - Do not encode acceptance rates or time-to-decision as fixed policy; Cambridge does not present them
   as submission rules in the source map.

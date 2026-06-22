@@ -60,7 +60,8 @@ Style Guide, Data Replication page, and Editorial Manager form.
 - The same SPSA page directly verifies the current editorial team whose term began
   **January 1, 2025**: **Timothy Hellwig** and **Timothy P. Nokken** as Co-Editors in Chief,
   with **Amy Catalinac**, **Katja B. Kleinberg**, **Olga Shvetsova**, **Nicholas Tampio**, and
-  **Julie Wronski** listed as the rest of the editorial team.
+  **Julie Wronski** listed as the rest of the editorial team. Re-confirmed current 2026-06-22
+  (SPSA Journal of Politics page; UChicago Press editorial board / new-editor announcement).
 - **https://www.journals.uchicago.edu/journals/jop/new-editor** — UChicago Press announcement of
   the new editorial team. Official snippets on 2026-06-20 confirm the January 1, 2025 transition
   and the Hellwig/Nokken leadership.

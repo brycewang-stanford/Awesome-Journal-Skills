@@ -29,8 +29,10 @@ page before relying on them.
 - **Manuscript prep:** double spacing, ≥ 12-point type, margins per the style guide; accepted in
   **MS Word or LaTeX**.
 - **ORCID:** encouraged/required per Cambridge policy (待核实 current requirement).
-- **Fee:** no submission fee stated; **Comments carry no article-processing charge**; Research Articles
-  and Letters may be eligible for Gold Open Access via Cambridge agreements (待核实 any OA APC).
+- **Fee:** no submission fee. BJPS is now **wholly Gold Open Access** (verified 2026-06-22): accepted
+  Articles and Letters are published Gold OA with Cambridge's standard 2026 APC of **£2,610 / US $3,655**
+  (plus tax), commonly covered by institutional read-and-publish agreements, the Cambridge Open Equity
+  Initiative, or a waiver. Re-verify the current APC and waiver routes before submission.
 
 ## Preflight checklist
 
@@ -63,7 +65,7 @@ page before relying on them.
 - Abstract over 150 words
 - Sending a long paper to the Letter format (or vice versa)
 - Using a non-Harvard citation style or mixing styles
-- Budgeting for a submission fee that is not charged (verify), or assuming Comments incur an APC
+- Budgeting for a submission fee that is not charged (none as of 2026-06-22); note BJPS is now wholly Gold OA, so accepted Articles/Letters carry an APC unless covered by an agreement or waiver
 
 ## Output format
 

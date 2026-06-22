@@ -33,7 +33,7 @@ self-citation). Official AJPS baseline checked 2026-06-20; live-check Editorial 
 - **Human subjects:** IRB approval/exemption where an author has IRB access, else an appendix answering
   the human-subjects questions; not required when relying on publicly available data approved at
   original collection.
-- **Live-check:** confirm any fee, ORCID, Wiley-license/open-access, or portal-specific prompt during upload/production.
+- **Fee:** no submission fee. Wiley OnlineOpen (Gold OA) is optional after acceptance — APC US $4,300 (verified 2026-06-22; re-verify the current rate before submission). Confirm any ORCID, Wiley-license/open-access, or portal-specific prompt during upload/production.
 
 ## Preflight checklist
 

@@ -21,7 +21,7 @@ volatile specifics on the official page before relying on them.
 - **Owner / publisher:** **Wiley(-Blackwell)**, in association with **IPSA Research Committee 27 —
   Structure & Organization of Government (SOG)**. Founded 1988; quarterly. ISSN 0952-1895 (print) /
   1468-0491 (online).
-- **Editors-in-Chief:** **Paolo Graziano and Adam Sheingate** (检索于 2026-06；以官网为准).
+- **Editors-in-Chief:** **Paolo Graziano (University of Padova) and Adam Sheingate (Johns Hopkins University)** (verified 2026-06-22; re-verify the masthead before submission).
 - **Portal:** **Wiley submission system** ("Wiley Authors" / Research Exchange). Older guidance
   references ScholarOne, but Wiley migrated to its new system — **verify the live portal** (检索于
   2026-06；以官网为准).
@@ -36,7 +36,7 @@ volatile specifics on the official page before relying on them.
 - **Citation style:** author-date style typical for the field; confirm the exact style on the live Wiley/
   journal guidelines (待核实).
 - **ORCID:** per Wiley norms for the corresponding author (待核实).
-- **Fee:** no submission fee stated; OA APC via Wiley after acceptance (待核实).
+- **Fee:** no submission fee (verified 2026-06-22). Hybrid Wiley journal; Gold OA via Wiley OnlineOpen is optional post-acceptance — confirm the journal-specific APC on the live Wiley OnlineOpen pricing page before choosing open access.
 
 ## Preflight checklist
 

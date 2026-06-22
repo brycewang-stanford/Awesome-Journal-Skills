@@ -154,7 +154,13 @@ submission.
 - Confirm Editorial Manager upload prompts, file designations, author metadata,
   and whether the portal itself displays any older SI page-limit text.
 - Confirm the active Wiley production/license route and any open-access APC
-  choice after acceptance.
+  choice after acceptance. Verified 2026-06-22 (Wiley OnlineOpen, AJPS Funded
+  Access page, **https://onlinelibrary.wiley.com/page/journal/15405907/homepage/fundedaccess.html**):
+  there is **no submission fee**; OnlineOpen (Gold OA) is optional after
+  acceptance with an APC of **US $4,300 / £2,860 / €3,600** (re-verify the current
+  figure before submission, as Wiley updates rates annually). Lead editors Adam
+  Berinsky (MIT) and Dan Reiter (Emory) re-confirmed current as of 2026-06-22
+  (ajps.org editorial board; MPSA announcement).
 - Confirm any new AJPS verification-document updates, because the verification
   policy page notes that policy-document updates are expected.
 - Confirm editor/coeditor conflict information using the live editorial-board and

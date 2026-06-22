@@ -27,7 +27,7 @@ the official page before relying on them.
   footnotes**, **exclude** the reference list and online appendices.
 - **Style:** **APSA Style Manual for Political Science** (author-date).
 - **ORCID:** required for the **corresponding author** (submissions after 1 Jan 2019).
-- **Fee:** no submission fee stated; no membership requirement (待核实; confirm any post-acceptance OA APC).
+- **Fee:** no submission fee and no APSA-membership requirement (verified 2026-06-22). Hybrid Cambridge journal; post-acceptance Gold OA APC is optional — Cambridge 2026 standard **£2,610 / US $3,655** plus tax (re-verify the current rate before submission).
 
 ## Preflight checklist
 
@@ -60,7 +60,7 @@ the official page before relying on them.
 - Abstract over 150 words; no word count on the front page
 - Sending a long paper to the Research Note track
 - Choosing Registered Reports after results exist
-- Budgeting for a submission fee that is not charged (verify)
+- Budgeting for a submission fee that is not charged (none as of 2026-06-22; only optional post-acceptance Gold OA APC)
 
 ## Output format
 

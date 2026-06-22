@@ -31,7 +31,7 @@ self-references. Verify volatile specifics on the official page before relying o
 - **ORCID:** required for the **corresponding author**.
 - **Data:** **none at initial submission**; requested at **conditional acceptance**; verified by IO
   staff before final acceptance; **Data Availability Statement** before the reference list.
-- **Fee:** no submission fee stated (待核实; confirm any post-acceptance OA APC).
+- **Fee:** no submission fee (verified 2026-06-22). Hybrid Cambridge journal; post-acceptance Gold OA is optional — Cambridge 2026 standard APC **£2,610 / US $3,655** plus tax, often covered by institutional agreements or waivers (re-verify the current rate before submission).
 
 ## Preflight checklist
 

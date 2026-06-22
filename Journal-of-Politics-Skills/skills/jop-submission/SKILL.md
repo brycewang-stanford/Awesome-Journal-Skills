@@ -25,8 +25,10 @@ failure modes dominate: an **over-the-page-budget** manuscript (JOP counts **pag
 - **Online Appendix:** separate file, **≤ 25 pages**, **excluded** from the 35-page limit.
 - **Abstract:** **≤ 150 words** (question + approach + findings; no citations); **4–5 keywords**.
 - **Style:** **The JOP Style Guide** (house author-date).
-- **Fee:** no separate upload-stage charge identified in the refreshed official snippets; UChicago
-  snippets show an optional open-access request fee of **USD 2,500** to confirm on the live page.
+- **Fee:** no submission/upload-stage charge (verified 2026-06-22 — UChicago Press author
+  instructions/open-access page state no submission fee; green self-archiving is free). Gold OA is
+  optional and granted at the editor's discretion (typically for funder mandates); a UChicago OA
+  request fee around **USD 2,500** has been cited — confirm the current figure on the live page.
 
 ## Preflight checklist
 

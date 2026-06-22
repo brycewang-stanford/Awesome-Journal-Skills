@@ -101,18 +101,22 @@ flags are cleared:
 
 ## Still to verify (需复核)
 
-- **Exact academic editors / editorial committee / board and term.** The official PDF names only the
-  Executive Editor (Emily Babson). The rotating academic editorial committee, board members, and
-  associate editors are listed on the Princeton (`wpj.princeton.edu/people/editors`) and JHU Press
-  editorial-board pages, which did not return readable text to automated fetches this cycle, and the
-  Cambridge editorial-board page rendered no names. Search snippets suggest a roster, but it was not read
-  on an official page, so it is left unasserted — confirm the live masthead in a browser. 需复核.
+- **Exact academic editors / editorial committee / board and term.** Re-checked 2026-06-22.
+  **Executive Editor Emily Babson** remains confirmed (Princeton WP staff page). The rotating academic
+  editorial committee, board members, and associate editors are listed on the Princeton
+  (`wpj.princeton.edu/people/editors`) and JHU Press editorial-board pages, which **still returned HTTP
+  403 to automated fetches this cycle**; the Cambridge editorial-board page rendered no names. Web-search
+  snippets surface candidate editor names (e.g., Christensen, Pevehouse, M. Roberts, Ross, Carter,
+  Holland), but they appeared inconsistently across snippets and were **not read on a first-party page**,
+  so the academic-editor slate is **left unasserted** — confirm the live masthead in a browser. 需复核.
 - **Whether review articles are open to unsolicited submission.** Earlier snapshots say review articles
   are "usually commissioned"; the *Guidelines for Contributors* showcase both research and review
   articles and subject all manuscripts to triple-blind review, but do not state whether review articles
   accept unsolicited submission. Not confirmable on a live official page this cycle. 需复核.
-- **Fee / APC and open-access options.** No submission fee or APC is stated anywhere in the *Guidelines*;
-  any open-access charge would be handled by the publisher (JHU Press) after acceptance, but the OA/APC
-  terms were not readable on an official page this cycle. 需复核.
+- **Fee / APC and open-access options.** Re-checked 2026-06-22. No submission fee or APC is stated
+  anywhere in the *Guidelines*; any open-access charge would be handled by the publisher (JHU Press)
+  after acceptance, but the OA/APC terms were **still not readable on a first-party JHU Press page this
+  cycle** (no authoritative figure found). Treat "no submission fee" as the working assumption and
+  confirm any post-acceptance OA charge on the live JHU Press page. 需复核.
 - **Impact factor / ranking.** Reported figures change yearly and were not read on a first-party page
   this cycle. 需复核.

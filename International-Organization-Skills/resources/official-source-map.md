@@ -62,10 +62,11 @@ types) on the official page before relying on them — journal pages change.
 
 ## Live-check / 需复核 items
 
-- **Current editor(s) and editorial term**: secondary sources list **Brett Ashley Leeds and Layna
-  Mosley** as recent editors-in-chief, and the Cambridge About page lists **Erik Voeten (2016–2022)** as
-  the most recent editor named there. The current masthead and term were **not confirmed verbatim on a
-  single official editorial-team page** at access time. 需复核 on the live journal page.
+- **Current editor(s) and editorial term**: verified 2026-06-22 (Cambridge IO editorial board;
+  Princeton SPIA "Mosley to Serve as Co-Editor-in-Chief" announcement). **Brett Ashley Leeds and Layna
+  Mosley** are the current **co-Editors-in-Chief**, serving a **five-year term that began 1 July 2022**
+  (so running through ~2027); Erik Voeten (2016–2022) was the prior editor. Re-verify the masthead and
+  whether a successor team has been announced before submission, as the term nears its end.
 - **Abstract word limit**: the preparing-your-materials page references abstract guidance and a separate
   abstract/keywords guideline but **did not state a numeric word cap** in the consulted text. Treat any
   specific number (e.g., 150–250 words) as **需复核** and confirm on the live abstract guidelines.
@@ -76,8 +77,10 @@ types) on the official page before relying on them — journal pages change.
 - **Article types and exact caps**: Research Article (14,000), Research Note (8,000), and Essay (10,000)
   were confirmed; whether other formats exist (e.g., review essays, forums, "The Forum") and the exact
   inclusion rules were **not exhaustively confirmed**. 需复核.
-- **Fee / open-access APC**: no submission fee was stated in the consulted pages; any Gold/Hybrid
-  open-access APC handled by Cambridge after acceptance was **not confirmed**. 需复核.
+- **Fee / open-access APC**: verified 2026-06-22 (Cambridge IO open-access-options page) — **no
+  submission fee**. IO is a **hybrid** journal; Gold OA after acceptance is optional, with Cambridge's
+  standard 2026 APC of **£2,610 / US $3,655** (plus tax). Green OA self-archiving is permitted, and
+  institutional agreements/waivers may cover the APC. Re-verify the current APC before submission.
 - **Time-to-decision, desk-rejection rate, number of referees**: secondary text mentions proposals/
   manuscripts going to **two referees** with anonymous reviews returned to the author, but exact
   figures and timelines are **not stated as fixed values**. 需复核.

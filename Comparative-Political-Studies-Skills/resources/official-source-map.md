@@ -30,6 +30,9 @@ encoded in this pack. Official pages were re-checked on **2026-06-21**.
 
 ## Bounded live-check rules
 
-- Do not encode a fixed current editor term without re-opening the live SAGE masthead.
+- Current editors verified 2026-06-22 (SAGE CPS editorial-board page; journal home): **David J.
+  Samuels** (University of Minnesota), **Benjamin W. Ansell** (University of Oxford), and **Dawn
+  Langan Teele** (Johns Hopkins University) serve as co-editors. Re-open the live SAGE masthead
+  before relying on the slate, as editorial teams and term dates rotate.
 - Do not encode desk-rejection rate, decision-time distribution, or number-of-reviewer guarantees unless the live page publishes them.
 - Do not infer special tracks such as registered reports from the regular research-article guidelines.
