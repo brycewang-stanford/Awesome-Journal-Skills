@@ -8,6 +8,13 @@ description: Use when planning an AISTATS project timeline from venue fit throug
 Use this as the project-management skill for an AISTATS submission. Replace all dates with
 the current official timetable and work backwards from OpenReview cutoffs.
 
+AISTATS is a conference, not a journal: it has no standing editor-in-chief and no article-processing
+charge. The rotating leadership is the per-edition General Chairs and Program Chairs (2026 General
+Chairs: Emtiyaz Khan and Yingzhen Li; Program Chairs: Arno Solin and Aaditya Ramdas, verified
+2026-06-22), and the cost model is registration fees, not APCs — PMLR proceedings are open-access
+with no author fee. Conference organizers rotate yearly, so re-check the current CFP and organization
+page rather than carrying a name forward.
+
 ## Milestones
 
 - Venue fit: confirm the contribution is genuinely at the AI, ML, and statistics interface.

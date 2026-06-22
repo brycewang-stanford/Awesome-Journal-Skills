@@ -1,6 +1,6 @@
 # Official Source Map - AAAI
 
-Access date: 2026-06-01
+Access date: 2026-06-01 (organizers/fee facts re-verified 2026-06-22)
 
 This map records the official sources used for AAAI-specific facts in this pack. AAAI policies are
 cycle- and track-specific; reopen the current conference page, Author Kit, CFP, submission
@@ -20,6 +20,8 @@ publication rules before giving submission-ready advice.
 | 7 | https://aaai.org/conference/aaai/aaai-26/aaai-26-faq-for-authors-rebuttal/ | Rebuttal guidance: respond to substance, not tone; single 2500-character response; no URLs; no supplementary updates; no uploading missing reproducibility checklist; AI review may be addressed; new results should not be included. | 2026-06-01 |
 | 8 | https://aaai.org/conference/aaai/aaai-26/paper-publication-and-conference-attendance/ | Proceedings page allocation, optional paid extra pages, copyright transfer, source-file submission, AAAI Digital Library, and registration/presentation requirement. | 2026-06-01 |
 | 9 | https://aaai.org/wp-content/uploads/2025/08/FAQ-for-the-AI-Assisted-Peer-Review-Process-Pilot-Program.pdf | AI-assisted review pilot: AI review is non-decisional, no scores or recommendations, privacy assurances, anonymous PDF input, human responsibility, and SPC/AC decision authority. | 2026-06-01 |
+| 10 | https://aaai.org/conference/aaai/aaai-26/conference-organizers/ | AAAI-26 organizing roster: Program Chairs Chad Jenkins (University of Michigan) and Matthew Taylor (University of Alberta); these roles are appointed per edition and rotate yearly. | 2026-06-22 |
+| 11 | https://aaai.org/conference/aaai/aaai-26/registration/ | AAAI-26 registration/fee model: at least one author must register at the in-person rate to present; AAAI membership gives a discount but is not required; workshops/tutorials cost extra. Confirms a registration-fee model, not an article-processing charge. | 2026-06-22 |
 
 ## Verified 2026 facts used in skills
 
@@ -46,6 +48,18 @@ publication rules before giving submission-ready advice.
   or citable sources.
 - Accepted papers required source files, copyright transfer, registration, and presentation by at
   least one author.
+
+## Organizers and fee model (verified 2026-06-22)
+
+- AAAI is run by the Association for the Advancement of Artificial Intelligence. Like all CS/AI
+  conferences in this collection, it has NO standing editor-in-chief; the rotating analogue is the
+  per-edition Program Chairs. AAAI-26 Program Chairs were Chad Jenkins (University of Michigan) and
+  Matthew Taylor (University of Alberta). These appointments rotate every cycle — re-check the
+  current conference-organizers page before relying on a name.
+- There is NO article-processing charge (APC). AAAI funds the conference through registration fees:
+  at least one author of an accepted paper must register at the in-person rate and present.
+  Proceedings appear open-access in the AAAI Digital Library / OJS. Cross-checked against the AAAI-26
+  conference-organizers and registration pages (sources 10-11).
 
 ## Still cycle-volatile
 

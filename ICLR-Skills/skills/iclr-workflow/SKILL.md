@@ -8,6 +8,13 @@ description: Use when planning an ICLR project timeline from topic selection thr
 Use this as the project-management skill for an ICLR submission. Always replace dates with the
 current cycle's official deadlines and work backwards from OpenReview cutoffs.
 
+ICLR is a conference, not a journal: it has no standing editor-in-chief and no article-processing
+charge. The rotating leadership is the per-edition General Chair, Senior Program Chair, and Program
+Chairs (2026 General Chair: Carl Vondrick; Senior PC: Bharath Hariharan; PCs: Raffel, Pinto, Yang,
+Faust, verified 2026-06-22), and the cost model is registration fees, not APCs — proceedings are
+open-access on OpenReview. Conference organizers rotate yearly, so re-check the current CFP and
+committees page rather than carrying a name forward.
+
 ## Milestones
 
 - Fit decision: confirm the paper has a learning-representation contribution and a credible ICLR

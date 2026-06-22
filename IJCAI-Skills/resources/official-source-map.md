@@ -1,6 +1,6 @@
 # Official Source Map - IJCAI
 
-Access date: 2026-06-01
+Access date: 2026-06-01 (organizers/fee facts re-verified 2026-06-22)
 
 This map records the official sources used for IJCAI-specific facts in this pack. IJCAI
 policies are cycle- and track-specific; reopen the current conference page, CFP, Author Kit,
@@ -19,6 +19,7 @@ submission-ready advice.
 | 6 | https://2026.ijcai.org/important-dates/ | Review-process dates including abstract deadline, full-paper deadline, Phase I notification, author response, notification, camera-ready deadline, workshops/tutorials, and main conference dates. | 2026-06-01 |
 | 7 | https://2026.ijcai.org/principles-of-peer-review-and-recognition/ | Peer-review principles, reviewer confidentiality, limited reviewer use of generative AI for readability, author participation in peer review, confidentiality of submissions/authors/reviews, no reviewer identification or contact, conflict and ethical-behavior principles, and reviewer recognition. | 2026-06-01 |
 | 8 | https://www.ijcai.org/IJCAI_Conflict_of_Interest_Policy.pdf | IJCAI COI definition, same-institution, advisor/student within 60 months, coauthor within 48 months, grant/project, sponsor, close relationship, animosity, disclosure, and recusal expectations. | 2026-06-01 |
+| 9 | https://2026.ijcai.org/conference-committee/ | IJCAI-ECAI 2026 leadership: Conference Chair Francesca Toni (Imperial College London); Program Chair Diego Calvanese (Free University of Bozen-Bolzano); local organization led by Tanja Schultz and Frank Kirchner (University of Bremen). Roles are appointed per edition and rotate yearly. | 2026-06-22 |
 
 ## Verified 2026 facts used in skills
 
@@ -55,6 +56,20 @@ submission-ready advice.
   polishing; authors remained responsible for plagiarism and correctness.
 - Accepted papers required in-person presentation in Bremen for proceedings inclusion unless
   an exception was approved.
+
+## Organizers and fee model (verified 2026-06-22)
+
+- IJCAI is run by IJCAI Inc. (in 2026 jointly with ECAI/EurAI). Like every CS/AI conference in this
+  collection, it has NO standing editor-in-chief; the rotating analogue is the per-edition Conference
+  Chair and Program Chair. IJCAI-ECAI 2026 Conference Chair was Francesca Toni (Imperial College
+  London) and Program Chair was Diego Calvanese (Free University of Bozen-Bolzano). These appointments
+  rotate every cycle — re-check the current conference-committee page before relying on a name.
+- There is NO article-processing charge (APC). IJCAI funds the conference through registration fees;
+  at least one author must register and present in person. Proceedings are published open-access in
+  the IJCAI Proceedings. Note: the Primary Paper Initiative fee on non-primary papers is a
+  submission-volume disincentive tied to an author's extra submissions, NOT a per-article publication
+  charge — do not conflate it with a journal APC. Cross-checked against the IJCAI-ECAI 2026
+  conference-committee page and CFP (source 9).
 
 ## Still cycle-volatile
 

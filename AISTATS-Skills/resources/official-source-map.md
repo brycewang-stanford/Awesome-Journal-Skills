@@ -1,6 +1,6 @@
 # Official Source Map - AISTATS
 
-Access date: 2026-06-01
+Access date: 2026-06-01 (organizers/fee facts re-verified 2026-06-22)
 
 This map records the official sources used for AISTATS-specific facts in this pack.
 AISTATS policies are cycle-specific; reopen the current Call for Papers, OpenReview group,
@@ -16,6 +16,7 @@ before giving submission-ready advice.
 | 3 | https://proceedings.mlr.press/ | PMLR as the proceedings publisher for machine-learning conference volumes, including AISTATS volumes. | 2026-06-01 |
 | 4 | https://virtual.aistats.org/Conferences/2026/CodeOfConduct | AISTATS 2026 conduct expectations and conference-behavior rules. | 2026-06-01 |
 | 5 | https://aistats.org/aistats2026/ | AISTATS 2026 official conference entry point and navigation to current-cycle pages. | 2026-06-01 |
+| 6 | https://virtual.aistats.org/Conferences/2026/Organization | AISTATS 2026 organizing committee: General Chairs Emtiyaz Khan (RIKEN AIP) and Yingzhen Li (Imperial College London); Program Chairs Arno Solin (Aalto University) and Aaditya Ramdas (Carnegie Mellon University); roles are appointed per edition by the AISTATS/SAIS community and rotate yearly. | 2026-06-22 |
 
 ## Verified 2026 facts used in skills
 
@@ -35,6 +36,19 @@ before giving submission-ready advice.
 - At least one author of each accepted paper had to attend in person; remote presentation was
   not offered for AISTATS 2026.
 - AISTATS proceedings are published through PMLR.
+
+## Organizers and fee model (verified 2026-06-22)
+
+- AISTATS is run by the Society for Artificial Intelligence and Statistics community. Like every
+  CS/AI conference in this collection, it has NO standing editor-in-chief; the rotating analogue is
+  the per-edition General Chairs and Program Chairs. AISTATS 2026 General Chairs were Emtiyaz Khan
+  (RIKEN AIP) and Yingzhen Li (Imperial College London); Program Chairs were Arno Solin (Aalto) and
+  Aaditya Ramdas (CMU). These appointments rotate every cycle — re-check the current organization
+  page before relying on a name.
+- There is NO article-processing charge (APC). AISTATS funds the conference through registration
+  fees; at least one author must register and present in person. Accepted papers are published
+  open-access in PMLR (Proceedings of Machine Learning Research), which charges no author fee.
+  Cross-checked against the AISTATS 2026 organization page and PMLR's open-access model (source 6).
 
 ## Still cycle-volatile
 

@@ -1,6 +1,6 @@
 # Official Source Map - ICLR
 
-Access date: 2026-06-01
+Access date: 2026-06-01 (organizers/fee facts re-verified 2026-06-22)
 
 This map records the official sources used for ICLR-specific facts in this pack. ICLR policies are
 cycle-specific; reopen the current CFP, Author Guide, Reviewer Guide, LLM policy, Code of Ethics,
@@ -20,6 +20,7 @@ Code of Conduct, and OpenReview group before giving submission-ready advice.
 | 8 | https://blog.iclr.cc/2025/12/03/iclr-2026-response-to-security-incident/ | Official 2026 security-incident response, including review/discussion disruption, AC reassignment, review reversion, anti-collusion action, and integrity rationale. This is context for interpreting ICLR 2026 history, not a standing author rule. | 2026-06-01 |
 | 9 | https://iclr.cc/Conferences/2026/PosterInstructions | Accepted-paper poster metadata, poster upload, slide deck, project-page, video recording, OpenReview-to-iclr.cc update lag, author-name source, and poster-size/display logistics. | 2026-06-01 |
 | 10 | https://openreview.net/group?id=ICLR.cc/2026/Conference | ICLR 2026 conference group location in OpenReview; dynamic page content may require login or browser rendering. | 2026-06-01 |
+| 11 | https://iclr.cc/Conferences/2026/Committees | ICLR 2026 organizing committee: General Chair Carl Vondrick (Columbia University); Senior Program Chair Bharath Hariharan (Cornell University); Program Chairs Colin Raffel (University of Toronto / Vector / Hugging Face), Lerrel Pinto (NYU), Diyi Yang (Stanford University), and Aleksandra Faust (Google DeepMind); roles are appointed per edition and rotate yearly. | 2026-06-22 |
 
 ## Verified 2026 facts used in skills
 
@@ -48,6 +49,19 @@ Code of Conduct, and OpenReview group before giving submission-ready advice.
 - LLM use by authors and reviewers required disclosure when relevant, and authors remained
   responsible for falsehoods, hallucinated references, plagiarism, or misrepresentation.
 - Hidden prompt injection was treated as attempted collusion.
+
+## Organizers and fee model (verified 2026-06-22)
+
+- ICLR is run by the International Conference on Learning Representations organization. Like every
+  CS/AI conference in this collection, it has NO standing editor-in-chief; the rotating analogue is
+  the per-edition General Chair, Senior Program Chair, and Program Chairs. ICLR 2026 General Chair was
+  Carl Vondrick (Columbia); Senior Program Chair was Bharath Hariharan (Cornell); Program Chairs were
+  Colin Raffel, Lerrel Pinto, Diyi Yang, and Aleksandra Faust. These appointments rotate every cycle
+  — re-check the current committees page before relying on a name.
+- There is NO article-processing charge (APC). ICLR funds the conference through registration fees;
+  at least one author must register to present. Accepted papers are published open-access on
+  OpenReview. Cross-checked against the ICLR 2026 committees page and the OpenReview publication model
+  (source 11).
 
 ## Still cycle-volatile
 

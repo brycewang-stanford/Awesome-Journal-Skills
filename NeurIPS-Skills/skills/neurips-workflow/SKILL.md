@@ -8,6 +8,12 @@ description: Use when planning and sequencing a full NeurIPS manuscript workflow
 Use this skill as the router for the NeurIPS depth pack. It helps choose the next skill and stage
 the work so a manuscript does not arrive at submission with hidden policy or evidence gaps.
 
+NeurIPS is a conference, not a journal: it has no standing editor-in-chief and no article-processing
+charge. The rotating leadership is the per-edition General Chairs and Program Chairs (2026 General
+Chairs: Hsuan-Tien Lin and Razvan Pascanu, verified 2026-06-22), and the cost model is registration
+fees, not APCs — proceedings are open-access on OpenReview. Conference organizers rotate yearly, so
+re-check the current CFP and committees page rather than carrying a name forward.
+
 ## Stage map
 
 1. Topic and track fit: use `neurips-topic-selection`.

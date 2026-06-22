@@ -1,6 +1,6 @@
 # Official Source Map - NeurIPS
 
-Access date: 2026-06-01
+Access date: 2026-06-01 (organizers/fee facts re-verified 2026-06-22)
 
 This source map records the official pages used for the NeurIPS depth-pack facts. NeurIPS policies
 change every cycle; use this as a verified 2026 baseline, then reopen the current live CFP and
@@ -15,6 +15,7 @@ handbook before giving submission-ready advice.
 | 3 | https://neurips.cc/public/guides/PaperChecklist | Checklist is mandatory in submissions and final papers; papers missing it are desk rejected; checklist follows references and optional supplement, does not count toward page limit, and is visible to reviewers, ACs, SACs, and ethics reviewers. | 2026-06-01 |
 | 4 | https://neurips.cc/Conferences/2026/ai-reviewing-experiment | 2026 voluntary AI-assisted reviewing experiment; author opt-in, reviewer volunteer participation, OpenReview-integrated assistance, no effect on decisions, and prohibition on other reviewer LLM use except where sanctioned. | 2026-06-01 |
 | 5 | https://neurips.cc/Conferences/2026/CallForReproducibility | MLRC 2026 as an official NeurIPS 2026 reproducibility track; TMLR acceptance requirement; reproducibility, replicability, generalizability scope; code archiving recommendation using Software Heritage; track deadlines. | 2026-06-01 |
+| 6 | https://neurips.cc/Conferences/2026/Committees | NeurIPS 2026 organizing committee: General Chairs Hsuan-Tien Lin (National Taiwan University) and Razvan Pascanu (Google DeepMind); roles are appointed per edition by the NeurIPS Foundation and rotate yearly (2026 also runs Sydney + Paris satellites). | 2026-06-22 |
 
 ## Verified 2026 facts used in skills
 
@@ -43,6 +44,18 @@ handbook before giving submission-ready advice.
   author identity.
 - Reviewers evaluate quality, clarity, significance, and contribution-type fit, and ethics concerns
   may trigger ethics review.
+
+## Organizers and fee model (verified 2026-06-22)
+
+- NeurIPS is run by the NeurIPS Foundation. Like every CS/AI conference in this collection, it has NO
+  standing editor-in-chief; the rotating analogue is the per-edition General Chairs and Program
+  Chairs. NeurIPS 2026 General Chairs were Hsuan-Tien Lin (National Taiwan University) and Razvan
+  Pascanu (Google DeepMind). These appointments rotate every cycle — re-check the current committees
+  page before relying on a name.
+- There is NO article-processing charge (APC). NeurIPS funds the conference through registration
+  fees; at least one author must register to present. Accepted papers are published open-access on
+  OpenReview / the NeurIPS proceedings site. Cross-checked against the NeurIPS 2026 committees page
+  and the NeurIPS Foundation publication model (source 6).
 
 ## Still cycle-volatile
 

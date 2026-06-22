@@ -8,6 +8,14 @@ description: Use when planning an IJCAI or IJCAI-ECAI project timeline from venu
 Use this as the project-management skill for an IJCAI submission. Replace all dates with the
 current official timetable and work backwards from Chairing Tool cutoffs.
 
+IJCAI is a conference, not a journal: it has no standing editor-in-chief and no article-processing
+charge. The rotating leadership is the per-edition Conference Chair and Program Chair (IJCAI-ECAI
+2026: Conference Chair Francesca Toni; Program Chair Diego Calvanese, verified 2026-06-22), and the
+cost model is registration fees, not APCs. The Primary Paper Initiative fee below applies only to an
+author's non-primary (extra) submissions and is a submission-volume disincentive, not a per-article
+publication charge. Conference organizers rotate yearly, so re-check the current CFP and
+conference-committee page rather than carrying a name forward.
+
 ## Milestones
 
 - Venue fit: choose main track, a special track, Survey Track, or a different AI venue.

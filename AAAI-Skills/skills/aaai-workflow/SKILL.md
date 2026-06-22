@@ -8,6 +8,12 @@ description: Use when planning an AAAI project timeline from topic selection thr
 Use this as the project-management skill for an AAAI submission. Replace all dates with the current
 cycle's official timetable and work backwards from OpenReview cutoffs.
 
+AAAI is a conference, not a journal: it has no standing editor-in-chief and no article-processing
+charge. The rotating leadership is the per-edition Program Chairs (AAAI-26: Chad Jenkins and Matthew
+Taylor, verified 2026-06-22), and the cost model is registration fees, not APCs — at least one author
+must register at the in-person rate to present. Conference organizers rotate yearly, so re-check the
+current CFP and conference-organizers page rather than carrying a name or contact forward.
+
 ## Milestones
 
 - Venue fit: choose Main Track, AI for Social Impact, AI Alignment, or another AAAI program.

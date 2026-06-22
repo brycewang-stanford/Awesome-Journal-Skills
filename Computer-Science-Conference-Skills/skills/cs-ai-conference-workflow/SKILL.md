@@ -62,6 +62,7 @@ This is the router for the computer-science conference pack. It puts AI conferen
 - **Contribution type beats prestige:** a theorem paper belongs in COLT/STOC/FOCS/LICS-style venues; a built system belongs in SOSP/OSDI/NSDI/SIGCOMM/ASPLOS-style venues; a user-facing AI interface belongs in CHI/IUI/CSCW rather than only NeurIPS.
 - **Evidence must match venue culture:** top AI wants strong baselines and ablations; systems wants artifacts and workloads; security wants threat models and ethics; HCI wants study design and participant context; theory wants complete proofs.
 - **Official-cycle requirements are volatile:** always invoke the single-conference skill and re-check the current CFP/author kit before advising submission.
+- **These are conferences, not journals (verified 2026-06-22):** no venue here has a standing editor-in-chief — its leadership is the per-edition Program/General Chairs, who rotate yearly, so look them up on the current-cycle committees page rather than assuming a name. None charges an article-processing fee; the cost model is registration plus open-access proceedings (PMLR, OpenReview, ACM/IEEE DL). Treat any "fee" question as a registration or narrow extra-page/submission-volume question, not a journal APC.
 - **Rebuttal posture matters:** prepare concise, evidence-based responses and never reveal identity or add new off-policy material during author response.
 
 ## Output format

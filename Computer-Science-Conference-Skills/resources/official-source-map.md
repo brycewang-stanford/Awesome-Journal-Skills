@@ -1,6 +1,8 @@
 # Official source map - Computer-Science-Conference-Skills
 
-Access/check date: 2026-06-01
+Access/check date: 2026-06-01 (governance framing re-verified 2026-06-22)
+
+> Governance note (verified 2026-06-22): every venue below is a conference, not a journal. None has a standing editor-in-chief — the rotating analogue is the per-edition Program/General Chairs, who change yearly. None charges an article-processing fee (APC); conferences run on registration fees with open-access proceedings. See `source-basis.md` for the full framing. This bundle names no single organizer by design; open the current-year CFP/committees page for the chairs of the cycle you are targeting.
 
 This first pass records official source anchors for the CS/AI conference breadth pack. It intentionally avoids hard-coding volatile conference facts in the skills. For every real submission, the agent must open the current-year CFP, author kit, submission portal, ethics policy, artifact policy, and camera-ready instructions before giving final advice.
 

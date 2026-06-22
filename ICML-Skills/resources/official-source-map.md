@@ -1,6 +1,6 @@
 # Official Source Map - ICML
 
-Access date: 2026-06-01
+Access date: 2026-06-01 (organizers/fee facts re-verified 2026-06-22)
 
 This map records the official sources used for ICML-specific facts in this pack. ICML policies
 change by year; always reopen the current CFP, Author Instructions, Peer Review FAQ, and OpenReview
@@ -17,6 +17,7 @@ group before submission-ready advice.
 | 5 | https://icml.cc/Conferences/2026/LLM-Policy | ICML 2026 reviewer LLM policy uses Policy A (no LLM use) and Policy B (privacy-compliant LLMs may help understand papers/related work and polish reviews but may not generate review substance); authors choose whether their papers require Policy A or allow Policy B; reviewers are responsible for review content. | 2026-06-01 |
 | 6 | https://icml.cc/Conferences/2026/PeerReviewEthics | Ethical conduct and sanctions framework for peer review, including policy violations that can affect submissions. | 2026-06-01 |
 | 7 | https://icml.cc/Conferences/2026/ResearchEthics | Research-ethics categories and guidance for flagged papers. | 2026-06-01 |
+| 8 | https://icml.cc/Conferences/2026/Committees | ICML 2026 organizing committee: General Chair Tong Zhang (UIUC); Program Chairs Miroslav Dudik (Microsoft Research), Martin Jaggi (EPFL), Alekh Agarwal (Google), and Sharon (Yixuan) Li (University of Wisconsin-Madison); roles are appointed per edition by IMLS and rotate yearly. | 2026-06-22 |
 
 ## Verified 2026 facts used in skills
 
@@ -46,6 +47,18 @@ group before submission-ready advice.
 - Authors may use generative AI tools but remain responsible for all content; LLMs cannot be authors;
   prompt injection is prohibited and can cause desk rejection.
 - ICML 2026 has a reviewer LLM-use framework with Policy A and Policy B.
+
+## Organizers and fee model (verified 2026-06-22)
+
+- ICML is run by the International Machine Learning Society (IMLS). Like every CS/AI conference in
+  this collection, it has NO standing editor-in-chief; the rotating analogue is the per-edition
+  General Chair and Program Chairs. ICML 2026 General Chair was Tong Zhang (UIUC); Program Chairs were
+  Miroslav Dudik, Martin Jaggi, Alekh Agarwal, and Sharon (Yixuan) Li. These appointments rotate
+  every cycle — re-check the current committees page before relying on a name.
+- There is NO article-processing charge (APC). ICML funds the conference through registration fees;
+  at least one author must register to present. Accepted papers are published open-access in PMLR
+  (Proceedings of Machine Learning Research), which charges no author fee. Cross-checked against the
+  ICML 2026 committees page and PMLR's open-access model (source 8).
 
 ## Still cycle-volatile
 

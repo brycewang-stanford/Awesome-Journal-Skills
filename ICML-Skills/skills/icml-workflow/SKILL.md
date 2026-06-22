@@ -8,6 +8,13 @@ description: Use when planning or sequencing an ICML manuscript workflow end to 
 Use this as the router for the ICML depth pack. It chooses the next skill and keeps policy,
 evidence, artifact, and public-record risks visible.
 
+ICML is a conference, not a journal: it has no standing editor-in-chief and no article-processing
+charge. The rotating leadership is the per-edition General Chair and Program Chairs (2026 General
+Chair: Tong Zhang; Program Chairs: Dudik, Jaggi, Agarwal, Li, verified 2026-06-22), and the cost
+model is registration fees, not APCs — PMLR proceedings are open-access with no author fee.
+Conference organizers rotate yearly, so re-check the current CFP and committees page rather than
+carrying a name forward.
+
 ## Stage map
 
 1. Fit and track: `icml-topic-selection`.
