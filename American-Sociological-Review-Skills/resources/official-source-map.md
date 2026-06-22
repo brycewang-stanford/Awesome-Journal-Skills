@@ -11,6 +11,8 @@ in this pack. Official pages were re-checked on **2026-06-21**.
 | 2 | https://www.asanet.org/publications/journals/american-sociological-review/ | ASR page at the American Sociological Association; flagship identity, ASA ownership, and SAGE publication context | 2026-06-21 |
 | 3 | https://www.asanet.org/publications/journals/submission-information-for-asa-publications/ | ASA shared submission, ethics, and data-sharing norms for ASA journals | 2026-06-21 |
 | 4 | https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-american-sociological-review_-sage-journals.pdf | SAGE ASR submission-guidelines PDF fallback for the same author-instruction content | 2026-06-21 |
+| 5 | https://journals.sagepub.com/editorial-board/asr | ASR editorial board / current editors masthead | 2026-06-22 |
+| 6 | https://www.umass.edu/social-sciences/news/asa-editors | UMass Amherst announcement of the 2024–2028 ASR editorial team (Joya Misra joining in 2026) | 2026-06-22 |
 
 ## Verified facts encoded in the pack
 
@@ -32,5 +34,5 @@ in this pack. Official pages were re-checked on **2026-06-21**.
 ## Bounded live-check rules
 
 - Do not encode a mandatory editor-verified replication package for ASR. The confirmed rule is ASA data-sharing ethics, not an AEA-style reproduction gate.
-- Do not name a current editorial team in submission-ready advice without re-opening the ASR/ASA masthead; editor offices rotate.
-- Treat impact factor and processing-fee waiver wording as volatile enough to re-check immediately before submission.
+- **Current editors (verified 2026-06-22):** the **2024–2028** editorial team is **David Cort, Laurel Smith-Doerr, Donald Tomaskovic-Devey, and Joya Misra** (Misra joined in 2026), all at the **University of Massachusetts Amherst**. (#5, #6) Re-open the ASR/ASA masthead before naming the team in submission-ready advice, since offices rotate.
+- **Processing fee (verified 2026-06-22):** **USD 25** non-refundable manuscript processing fee via Sage Track, **waived for ASA student members**. (#1) Re-check the amount/waiver wording immediately before submission; treat impact factor as volatile.

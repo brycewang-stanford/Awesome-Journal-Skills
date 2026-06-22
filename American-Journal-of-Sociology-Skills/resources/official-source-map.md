@@ -77,6 +77,10 @@ submitting or quoting operational details.
 
 ## Operational Live-Check Items
 
+- **Current editor (verified 2026-06-22):** **John Levi Martin** (University of Chicago) is the
+  current AJS editor (UChicago masthead + UChicago Sociology directory cross-check). Re-confirm on the
+  live masthead before naming him in a submission-facing document, as the editorship rotates.
+
 Check the live UChicago Press pages in a browser immediately before upload for the current
 editor/masthead, submission fee and sole-author graduate-student waiver workflow, abstract
 target, any word-length guidance, cover-page fields, accepted file types, alt-text

@@ -46,7 +46,7 @@ disclosure forms, production schedule, reference details, figure specifications,
 | Scope | Covers significant developments in the field of sociology | Journal home |
 | Intake | **Invitation-led**; experienced researchers are invited by Editorial Committees to write Annual Reviews articles | Editorial policies + Author Resource Center |
 | Review bar | Reviews are assessed for **accuracy, rigor, and balance** | Editorial policies |
-| Editors | **Douglas S. Massey** and **Mary C. Waters** listed as co-editors in official snippets checked 2026-06-21 | Editorial Committee page |
+| Editors | **Douglas S. Massey** and **Mary C. Waters**, co-editors since Aug 2023; re-confirmed 2026-06-22 (Annual Reviews Editorial Committee + secondary corroboration) | Editorial Committee page |
 | Open access | Current volumes use **Subscribe to Open (S2O)**; official S2O page reports 2024 all volumes successfully published OA | S2O page + journals index |
 | Reference/format style | Annual Reviews author resources control current format, references, figures, and delivery details | Author Resource Center |
 | Disclosure | Use Annual Reviews editorial policies / author resources for current conflict, funding, and potential-bias disclosure language | Editorial policies + Author Resource Center |

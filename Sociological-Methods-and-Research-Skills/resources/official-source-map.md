@@ -45,11 +45,11 @@ on them — journal pages change. Facts that were not confirmed on an official p
 
 ## 需复核 (to be verified — NOT asserted as fact in the skills)
 
-- **Current Editor / Editor-in-Chief and term dates**: **Felix Elwert** (University of
-  Wisconsin–Madison) was announced as Editor-in-Chief (announcement dated December 2020); some
-  secondary indexes still list **Christopher Winship** (Harvard). The current editor and exact term
-  were **not re-confirmed on the live SAGE editorial-board page this session** — **需复核**; the skills
-  do not assert a named editor as load-bearing.
+- **Current Editor / Editor-in-Chief**: **Felix Elwert** (University of Wisconsin–Madison) —
+  **verified 2026-06-22** (SAGE SMR editorial board + Wikipedia agree; the older **Christopher Winship**,
+  Harvard, listing is superseded). The exact term start/end dates were not pinned this session; re-check
+  the live SAGE editorial-board page before quoting a term. The skills still do not make a named editor
+  load-bearing, but Elwert may now be cited as the current EiC with the 2026-06-22 date.
 - **Exact open-access (Sage Choice / Gold OA) charge**: a figure around **US$3,900 plus taxes**
   surfaced in author-page text, but APC amounts change frequently — **需复核**; confirm on the live
   SAGE OA page before quoting.

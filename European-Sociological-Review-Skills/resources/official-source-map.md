@@ -27,8 +27,9 @@ page before relying on them — journal pages change.
 - **https://ecsrnet.eu/european-sociological-review-esr/** — ESR at the **European Consortium for
   Sociological Research (ECSR)**. Verifies: ESR is the **flagship journal of ECSR** (a non-profit
   association under German law, hosted at the WZB Berlin); published by **Oxford University Press**;
-  **Editor-in-Chief: Prof. Fabrizio Bernardi**. (需复核 on the current full editorial team and term, and
-  on the deputy/associate editors, against the live Editorial_Board page.)
+  **Editor-in-Chief: Prof. Fabrizio Bernardi** (National University of Distance Education, UNED),
+  verified 2026-06-22 via ECSR, OUP, and Wikipedia. (Re-confirm the deputy/associate editors and exact
+  term against the live Editorial_Board page, as the masthead rotates.)
 - **https://en.wikipedia.org/wiki/European_Sociological_Review** — Verifies: ESR is a peer-reviewed
   journal published by OUP, the official journal of the ECSR, focusing on sociology with a quantitative
   emphasis. (Secondary source; confirm specifics on the official OUP/ECSR pages.)
@@ -44,9 +45,9 @@ page before relying on them — journal pages change.
 
 ## Live-check / 需复核 items
 
-- **Current editorial team / exact term**: Fabrizio Bernardi as Editor-in-Chief is from ECSR and
-  web-search renderings; confirm the current editors, deputy/associate editors, and term on the live
-  ESR Editorial_Board page. 需复核.
+- **Current editorial team / exact term**: **Editor-in-Chief Fabrizio Bernardi (UNED) verified
+  2026-06-22** (ECSR + OUP + Wikipedia agree). The deputy/associate editors and exact term start/end
+  are still volatile — confirm them on the live ESR Editorial_Board page. 需复核 (team breadth only).
 - **Exact word cap**: the OUP General Instructions give **~8,000 words incl. endnotes + references**;
   some third-party renderings cite a stricter "around/over 7,000 words rejected" figure. Treat the exact
   threshold and any hard cap as volatile — confirm the current wording. 需复核.

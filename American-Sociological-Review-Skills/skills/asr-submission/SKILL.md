@@ -34,7 +34,7 @@ separate title page. Verify volatile specifics (fee, caps, editors) on the offic
 - **Format:** **double-spaced** text, notes, and references; **Times New Roman 12 pt, ≥1-inch
   margins**; **ASA Style Guide (7th ed., 2022)** with author-year in-text citations for references.
 - **Fee:** **$25.00 non-refundable** manuscript processing fee via Sage Track, **waived for ASA
-  student members** (待核实 on the current amount).
+  student members** (verified 2026-06-22; re-check the amount before paying).
 
 ## Preflight checklist
 
@@ -82,7 +82,7 @@ Body + references + footnotes: 14,920 words → under 15,000, OK
 Abstract: 178 words, no institutions named → under the 200-word ceiling
 Files: (1) masked manuscript, no title page; (2) separate title page with affiliations + word count
 Masking sweep: 3 self-citations reworded; properties cleared; acknowledgments on title page only
-Fee: $25 processing fee ready (待核实 current amount / ASA-student waiver)
+Fee: $25 processing fee ready (verified 2026-06-22; ASA-student waiver applies)
 ```
 
 Two files, caps verified on a recount including references, and a clean masking sweep — the most

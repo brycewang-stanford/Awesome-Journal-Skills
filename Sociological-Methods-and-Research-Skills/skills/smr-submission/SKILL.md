@@ -20,8 +20,9 @@ the live SAGE author page first; portals and policies change.
 - Include the **data-and-code availability statement** describing how data, code, and materials can be
   permanently accessed (repository/DOI, access conditions for restricted data).
 - Add the **generative-AI disclosure** in the back matter if AI tools were used; if not, none is needed.
-- **Fees**: there is **no submission fee**; open access is optional and paid via **Sage Choice** (APC
-  amount changes—confirm the current charge on the live SAGE OA page; 需复核).
+- **Fees**: there is **no submission fee** (verified 2026-06-22); open access is optional and paid via
+  **Sage Choice** (a figure around **US$3,900 + taxes** surfaced on the SAGE author page — confirm the
+  current charge on the live SAGE OA page before quoting).
 - **No hard word/length limit** is stated for SMR; treat any circulating "~10,000 words" figure as
   descriptive, not a cap (需复核 on the live author page).
 - If submitting a **revision**, respond to each reviewer comment by **copying the comment verbatim and

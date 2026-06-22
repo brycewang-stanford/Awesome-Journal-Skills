@@ -100,6 +100,7 @@ ST is also **not** *Theory and Society*, the *European Journal of Social Theory*
 - **Do not** let `soctheory-rebuttal` draft a response before the theory itself has been revised.
 - **Do not** treat ST as a venue for an empirical test; route hypothesis-testing to ASR/AJS.
 
-> Volatile specifics (current editorial team, exact fee, word limit, ASA Style edition, portal)
-> change or could not be machine-verified — see `resources/official-source-map.md` and confirm
-> on the official ST / SAGE author page (检索于 2026-06；以官网为准).
+> Volatile specifics (exact fee, word limit, ASA Style edition, portal) change — see
+> `resources/official-source-map.md` and confirm on the official ST / SAGE author page. The
+> 2024–2026 co-editor team is identified in the source map (verified 2026-06-22), but editors
+> rotate (next term begins 2027-01-01), so re-confirm the slate before naming editors.
