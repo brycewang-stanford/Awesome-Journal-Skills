@@ -22,9 +22,10 @@ Primary source map for facts used in the OS skill pack. **Access date: 2026-06.*
 
 ## Verified on official pages (2026-06)
 
-- **Editors-in-Chief: Renate Meyer and Paolo Quattrone** (the co-EiC slate rotates and some listings differ — confirm the current pairing on the live page). Published by **SAGE** on behalf of **EGOS** (est. 1980).
+- **Co-Editors-in-Chief: Renate Meyer and Paolo Quattrone** (verified 2026-06-22: the current pairing reported by Wikipedia's article body and corroborated across journal-metric/editorial-board listings). **Note:** some listings (e.g. Wikipedia's infobox) still show **Daniel Hjorth**, who is a **former** Organization Studies co-Editor-in-Chief, not the current one — the co-EiC slate rotates, so confirm the live SAGE masthead (<https://journals.sagepub.com/editorial-board/oss>) before naming a specific editor. Published by **SAGE** on behalf of **EGOS** (est. 1980).
+- **Fees / OA:** Organization Studies is a hybrid SAGE journal — **no submission fee**; gold open access is optional via a post-acceptance APC whose exact figure is **待核实** (confirm the current charge on the SAGE OS author-instructions / open-access page before relying on it).
 
 ## Unverified / volatile items
 
-- Exact **word limits, abstract limits, OA charge, and blinding rules** are **待核实** if not visible on the official pages above — confirm at submission time.
+- Exact **word limits, abstract limits, OA APC amount, and blinding rules** are **待核实** if not visible on the official pages above — confirm at submission time.
 - Exemplar articles must be verified in the official archive or DOI page before being cited as real examples.

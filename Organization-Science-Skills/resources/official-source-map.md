@@ -22,7 +22,7 @@ immediately before upload when a portal prompt or named editor matters.
   relevance. It also verifies methodological breadth and the policy that causal inference is valued but
   not always necessary or possible.
 - **https://pubsonline.informs.org/page/orsc/editorial-board** — editorial board page. Verifies current
-  Editor-in-Chief **Lamar Pierce** of Olin Business School, Washington University in St. Louis; deputy
+  Editor-in-Chief **Lamar Pierce** of Olin Business School, Washington University in St. Louis (**re-verified current 2026-06-22** via the INFORMS landing/editorial-board pages, the WashU Olin appointment announcement, and a 2026 Organization Science editorial bylined by Pierce; editor terms rotate, so confirm the live masthead before naming him in a cover letter); deputy
   editors including Stefano Brusoni, Gokhan Ertug, Martin Ganco, Sharique Hasan, Lindy Greer, Cindy Muir
   (Zapata), Andrew Nelson, Michelle Rogan, and Lamar Pierce (ex officio); senior editors; promotion and
   outreach editors; regional outreach editors; and the Editorial Review Board. Use this page before

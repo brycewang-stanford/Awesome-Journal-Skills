@@ -14,7 +14,7 @@ description: Use when running the final pre-submission preflight for the Journal
 
 ## Process facts (source map refreshed 2026-06; re-confirm on the SAGE JOM author-instructions page)
 
-- JOM is the **Southern Management Association's** journal, published by **SAGE**; new manuscripts are submitted through SAGE's online system (**ScholarOne Manuscript Central**, 待核实 exact portal label). Editor-in-Chief: **Cynthia E. Devers (Virginia Tech)** (检索于 2026-06；以官网为准).
+- JOM is the **Southern Management Association's** journal, published by **SAGE**; new manuscripts are submitted through SAGE's online system (**ScholarOne Manuscript Central**, 待核实 exact portal label). Editor-in-Chief: **Cynthia E. Devers (Virginia Tech)** through 2026-06-30; a new editorial team begins accepting manuscripts 2026-07-01 (successor not yet publicly named as of 2026-06-22) — confirm the current editor on the live SAGE/SMA pages, as the transition is imminent (re-verified 2026-06-22；以官网为准).
 - **Length:** a **50-page limit that includes everything** — text, notes, references, tables, and figures (检索于 2026-06；以官网为准). Online supplements hold overflow.
 - **Title and abstract caps entered in the portal:** **title ≤ 15 words**, **abstract ≤ 250 words** (检索于 2026-06；以官网为准).
 - **Masked (double-blind) review:** the manuscript must be **anonymized** — no author names, no identifying self-citations in the open, no acknowledgments revealing identity.

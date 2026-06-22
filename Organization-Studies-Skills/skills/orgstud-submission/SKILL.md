@@ -20,8 +20,8 @@ description: Use when running the final pre-submission preflight for Organizatio
 - **Abstract: unstructured, ≤300 words** (not a structured abstract) (检索于 2026-06；以官网为准).
 - **Keywords: 5–7**, with **four selected from the OS ScholarOne keyword list** and the remainder free (检索于 2026-06；以官网为准).
 - **Referencing: SAGE Harvard** (author–date) house style (检索于 2026-06；以官网为准).
-- Managing editor (EGOS office): Sophia Tzagaraki (osofficek@gmail.com); editors-in-chief Renate Meyer and Paolo Quattrone (检索于 2026-06；以官网为准).
-- Open-access/APC and exact fee terms are **待核实** — confirm OA option and any charge on the SAGE OS page before relying on them.
+- Managing editor (EGOS office): Sophia Tzagaraki (osofficek@gmail.com); co-editors-in-chief Renate Meyer and Paolo Quattrone (re-verified 2026-06-22; note that older infobox listings naming Daniel Hjorth refer to a *former* co-EiC — confirm the live SAGE masthead before naming an editor).
+- **No submission fee.** Open-access/APC exact terms are **待核实** — confirm the OA option and any charge on the SAGE OS page before relying on them (checked 2026-06-22).
 
 ## Preflight checklist
 

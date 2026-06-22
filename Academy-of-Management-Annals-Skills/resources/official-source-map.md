@@ -22,7 +22,8 @@ Primary source map for facts used in the Annals skill pack. **Access date: 2026-
 
 ## Verified on official pages (2026-06)
 
-- **Editors: Matthew A. Cronin and Elizabeth George.** Published by the **Academy of Management**.
+- **Current Editors (Co-Editors-in-Chief): Gary A. Ballinger (University of Virginia, McIntire) and Cristina Gibson (Pepperdine University)**, serving through 2027; this team began receiving proposals on 1 April 2025. Published by the **Academy of Management**. (Verified 2026-06-22 via AOM Annals current-editorial-team page, <https://aom.org/research/journals/annals/annals-current-editorial-team>, and the UVA McIntire profile confirming Ballinger as Annals Co-Editor-in-Chief through 2027; re-verify the live masthead before relying on a named editor.)
+  - **STALE-FIX (2026-06-22):** an earlier version of this map listed **Matthew A. Cronin and Elizabeth George** as the editors. They were the **prior** Annals editorial team and have been superseded by Ballinger and Gibson. Do not name Cronin/George as current.
 - **Proposal-first submission:** twice-yearly proposal deadlines (April 1 and October 1); Annals does **not** accept unsolicited full manuscripts — authors submit a short proposal and, if invited, have ~3 months to develop the full review. (AOM Annals submission guidelines)
 
 ## Unverified / volatile items

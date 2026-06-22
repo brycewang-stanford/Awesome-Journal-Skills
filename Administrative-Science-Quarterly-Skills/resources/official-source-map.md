@@ -44,7 +44,7 @@ Confirms, in the journal's own words:
 
 | URL | What it verifies |
 |-----|------------------|
-| https://asqjournal.substack.com/p/announcing-our-new-editor-the-value | **Beth Bechky** (UC Davis Graduate School of Management) is the new Editor, term beginning **July 1, 2025**, succeeding **Christine Beckman and András Tilcsik**; an ethnographer of work, occupations, and technology; ASQ associate editor since 2021; former Organization Science senior editor. Emphasizes **curation**; details an AI policy (language help only, not content). |
+| https://asqjournal.substack.com/p/announcing-our-new-editor-the-value | **Beth Bechky** (UC Davis Graduate School of Management) is the Editor, term beginning **July 1, 2025**, succeeding **Christine Beckman and András Tilcsik**; an ethnographer of work, occupations, and technology; ASQ associate editor since 2021; former Organization Science senior editor. Emphasizes **curation**; details an AI policy (language help only, not content). **Re-verified current 2026-06-22** (ASQ Substack announcement + UC Davis GSM faculty page + SAGE "From the Editor" 2025 editorial all confirm Bechky as the sitting Editor; Beckman's term ran Jan 2021–Jun 2025). Confirm the live SAGE masthead before naming a specific editor. |
 | https://journals.sagepub.com/editorial-board/asq | Editorial-board roster (Editor, Associate Editors, Book Review Editor, Managing Editor). |
 
 ## History / identity

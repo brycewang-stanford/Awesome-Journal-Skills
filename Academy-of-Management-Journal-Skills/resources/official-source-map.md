@@ -18,7 +18,8 @@ or **UNVERIFIED** where an official page could not be confirmed.
 | 4 | https://mc.manuscriptcentral.com/AMJ | ScholarOne Manuscripts portal: submission system, author/ORCID account, remove-all-identifiers (blind) requirement | 2026-05-30 (URL confirmed via AOM submitting page) |
 | 5 | https://www.aom.org/wp-content/uploads/2025/07/aom_journal_style_guidea3b84b773e3649569a17a05e14cc6eaf.pdf | AMJ Style Guide for Authors: APA citation and reference conventions, headings, table/figure house style (official AOM journals style-guide PDF; the earlier HTML path `aom.org/publications/amj/styleguide` was retired in the 2026 AOM site rebuild) | 2026-06-17 |
 | 6 | https://journals.aom.org/topic/from-the-editors | "From the Editors" (FTE) editorials: theory bar, "so what?", storytelling, grounded-theory and qualitative transparency | 2026-05-30 |
-| 7 | https://aom.org/about-aom/aom-news/blog-detail_releases/blog-detail/releases/2025/02/11/incoming-editors-annals-and-amj | Incoming AMJ editorial team: Gary A. Ballinger (UVA McIntire) as incoming Editor-in-Chief; new team began receiving submissions 1 July 2025 | 2026-05-30 |
+| 7 | https://aom.org/about-aom/aom-news/blog-detail_releases/blog-detail/releases/2025/02/11/incoming-editors-annals-and-amj | AOM Feb-2025 "Incoming Editors: Annals, Collections, and AMJ" release. NOTE: Gary A. Ballinger (UVA McIntire) is the incoming **Annals** Co-Editor-in-Chief (through 2027), NOT the AMJ editor — an earlier reading of this map misattributed him to AMJ. See corrected editor line below. | 2026-05-30; corrected 2026-06-22 |
+| 7b | https://www.aom.org/publications/journals/journal/journal-editorial-team/ | AMJ current editorial team page — confirms Quinetta Roberson (Michigan State) as current AMJ Editor-in-Chief | 2026-06-22 |
 | 8 | https://en.wikipedia.org/wiki/Academy_of_Management_Journal | History (founded 1958 as Journal of the Academy of Management; renamed 1963); bimonthly; FT50 list; current Editor-in-Chief Quinetta Roberson (Michigan State); 2023 JCR impact factor ~9.5 | 2026-05-30 |
 | 9 | https://journals.aom.org/journal/amr | AMR scope — contrast AMJ (empirical) vs AMR (theory-only, no original data; ~25-30 double-spaced pages excl. refs) | 2026-05-30 |
 
@@ -36,7 +37,8 @@ or **UNVERIFIED** where an official page could not be confirmed.
 - **Integrity:** manuscripts screened with iThenticate; no simultaneous submission; online preprints removed during review. (#2)
 - **Fees:** AOM charges **no submission fee**; optional immediate open access carries an APC of **US$3,500** (subscription publication otherwise). (#2)
 - **Cadence/history:** bimonthly (Feb/Apr/Jun/Aug/Oct/Dec); founded 1958. (#8)
-- **Editor:** incoming Editor-in-Chief Gary A. Ballinger (UVA), team receiving submissions from 1 July 2025; the immediately prior EiC was Quinetta Roberson (Michigan State). (#7, #8)
+- **Editor (corrected 2026-06-22):** the current AMJ Editor-in-Chief is **Quinetta Roberson (Michigan State University)** (#7b, #8, verified 2026-06-22 against the AMJ editorial-team page and Wikipedia).
+  - **STALE-FIX:** an earlier version of this map listed **Gary A. Ballinger (UVA) as incoming AMJ Editor-in-Chief**. That was a misattribution — Ballinger is the incoming **Academy of Management *Annals*** Co-Editor-in-Chief (with Cristina Gibson, through 2027), confirmed by the UVA McIntire profile and the AOM Annals editorial-team page. Do NOT name Ballinger as the AMJ editor. Re-verify the live AMJ masthead before relying on a named editor, as editor terms rotate.
 
 ## Items flagged approximate or UNVERIFIED (confirm via sources above)
 

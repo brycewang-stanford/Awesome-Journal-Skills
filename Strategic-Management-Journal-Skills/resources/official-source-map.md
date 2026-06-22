@@ -15,7 +15,7 @@ Society (SMS)**, published by **Wiley**. All entries accessed **2026-05-30**.
 | SMJ Author Guidelines hub (Wiley) | https://sms.onlinelibrary.wiley.com/hub/journal/10970266/homepage/forauthors.html | Live author instructions landing page; reference style (APA author-date); article types | 2026-05-30 |
 | SMJ Author Instructions PDF (last updated 23 May 2025) | https://sms.onlinelibrary.wiley.com/pb-assets/hub-assets/sms/AG/SMJ-Author-Instructions-May-2025-1748220403090.pdf | Current author instructions: dual abstracts (research summary + managerial summary, up to 125 words each), 5 keywords, page limits, endogeneity/data-snooping policy | 2026-05-30 |
 | SMJ Author Instructions PDF (8 June 2023 archive) | https://www.strategicmanagement.net/wp-content/uploads/2024/09/SMJ-Author-Instructions-06-08-23-FINAL.pdf | Cross-check of formatting rules: ~40-page full-article guideline, ~20-page short research article, APA references | 2026-05-30 |
-| SMJ Editors page (SMS) | https://www.strategicmanagement.net/smj/overview/leadership/editors | Four Co-Editors. Named on the official SMS masthead as of 2026-05-31: Mary Benner (Minnesota), Sendil Ethiraj (Toronto), Vibha Gaba (INSEAD); a fourth Co-Editor is referenced but not individually named on the public pages — verify on the masthead. (An earlier reading listing Agarwal/Silverman is superseded; Ethiraj is now a Co-Editor.) | 2026-05-31 |
+| SMJ Editors page (SMS) | https://www.strategicmanagement.net/smj/overview/leadership/editors | Four Co-Editors. Named on the official SMS masthead (re-checked 2026-06-22): Mary Benner (Minnesota), Sendil Ethiraj (Toronto), Vibha Gaba (INSEAD); a fourth Co-Editor is referenced but not individually named on the public page. A separately updated Wikipedia listing instead names Agarwal/Benner/Gaba/Silverman, so the full slate is unsettled across sources — see the reconciled "Co-Editors" note under "Verified on official pages" below and confirm on the live masthead. | 2026-06-22 |
 | SMJ Editorial Board (Wiley) | https://sms.onlinelibrary.wiley.com/hub/journal/10970266/homepage/editorialboard.html | Co-Editors, Associate Editors, Editorial Review Board structure | 2026-05-30 |
 | SMS Journals overview | https://www.strategicmanagement.net/publications-resources/sms-journals/ | SMS family of journals: SMJ, SEJ (Strategic Entrepreneurship Journal), GSJ (Global Strategy Journal) | 2026-05-30 |
 | Submissions for SMS Journals | https://www.strategicmanagement.net/publications-resources/sms-journals/submissions-for-sms-journals/ | Submission routing, double-blind review across SMS journals | 2026-05-30 |
@@ -45,7 +45,7 @@ Society (SMS)**, published by **Wiley**. All entries accessed **2026-05-30**.
 
 ## Verified on official pages (2026-06)
 
-- **Co-Editors: Rajshree Agarwal (University of Maryland), Mary Benner (University of Minnesota), Vibha Gaba (INSEAD), and Brian Silverman (University of Toronto).** Published by **Wiley** for the **Strategic Management Society (SMS)**; submit via the **Wiley Research Exchange** portal (editorial office SMJedoffice@wiley.com). **Median time to first decision ~54 days.** (Wiley SMJ / SMS)
+- **Co-Editors (SMJ is led by four Co-Editors; the exact slate is in transition — re-verify before relying on a name).** Checked 2026-06-22: the **official SMS editors page** (<https://www.strategicmanagement.net/smj/overview/leadership/editors>) currently displays **Mary Benner (University of Minnesota), Sendil Ethiraj (University of Toronto), and Vibha Gaba (INSEAD)** plus a **fourth Co-Editor not individually named on the public page**. A separate, recently updated **Wikipedia** listing instead names **Rajshree Agarwal (Maryland), Mary Benner, Vibha Gaba, and Brian Silverman (Toronto)**. These sources disagree (Ethiraj vs. Agarwal/Silverman), so the full four-person roster could **not** be pinned to two agreeing authoritative sources as of 2026-06-22. **Confirm the current Co-Editor slate on the live SMS masthead / Wiley editorial-board page before naming an editor in a cover letter.** Published by **Wiley** for the **Strategic Management Society (SMS)**; submit via the **Wiley Research Exchange** portal (editorial office SMJedoffice@wiley.com). **Median time to first decision ~54 days.** (Wiley SMJ / SMS)
 
 ## UNVERIFIED / could not confirm from official source on 2026-05-30
 
@@ -61,7 +61,9 @@ Society (SMS)**, published by **Wiley**. All entries accessed **2026-05-30**.
   (commonly attributed to Bettis and colleagues): editorial exists and is referenced by SMJ,
   but exact byline not re-confirmed this session — cite as "SMJ's editorial on quantitative
   empirical analysis" rather than a specific year/byline.
-- Current **OnlineOpen APC figure**: secondary sources cite figures around USD 3,500–4,460;
-  not re-confirmed verbatim — verify on the funded-access page.
+- **No submission fee** for SMJ (consistent across secondary sources; not re-confirmed verbatim on the
+  official guidelines page — treat as "no submission fee (verify)"). Current **OnlineOpen APC figure**:
+  secondary sources cite figures around USD 3,500–4,460; not re-confirmed verbatim as of 2026-06-22 —
+  verify on the Wiley funded-access page before quoting an amount.
 - Whether SMJ currently mandates a **structured data-availability statement** at submission:
   treat as "confirm current requirement in ScholarOne / Wiley submission flow".

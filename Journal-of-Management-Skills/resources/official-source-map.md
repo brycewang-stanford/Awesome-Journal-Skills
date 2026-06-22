@@ -22,9 +22,10 @@ Primary source map for facts used in the JOMgmt skill pack. **Access date: 2026-
 
 ## Verified on official pages (2026-06)
 
-- **Editor-in-Chief: Cynthia E. Devers (Virginia Tech)** through 2026-06-30; a new editor team begins accepting manuscripts 2026-07-01 (successor not yet named). Published by **SAGE** for the **Southern Management Association (SMA)**. (SMA / SAGE JOM)
+- **Editor-in-Chief: Cynthia E. Devers (Virginia Tech)** through 2026-06-30; a new editor team begins accepting manuscripts 2026-07-01. **Re-verified 2026-06-22:** Devers is the sitting EiC (Virginia Tech / SAGE JOM), and the **successor has not been publicly named** — the Southern Management Association's "Call for JOM Editor" indicates the next team (3.5-year term) begins accepting manuscripts 2026-07-01. Confirm the named editor on the live SAGE/SMA pages, as this transition is imminent. Published by **SAGE** for the **Southern Management Association (SMA)**. (SMA / SAGE JOM)
+- **Fees:** JOM (SAGE) charges **no submission fee**; open access is optional via a post-acceptance APC whose exact amount is **待核实** — confirm on the SAGE JOM open-access page before relying on it.
 
 ## Unverified / volatile items
 
-- The **incoming (post-2026-07) editor** and exact **OA charge, word limits, and blinding rules** are **待核实** — confirm on the official pages at submission time.
+- The **incoming (post-2026-07) editor** (not yet announced as of 2026-06-22) and exact **OA APC amount, word limits, and blinding rules** are **待核实** — confirm on the official pages at submission time.
 - Exemplar articles must be verified in the official archive or DOI page before being cited as real examples.
