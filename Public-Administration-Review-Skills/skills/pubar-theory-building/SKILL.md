@@ -44,6 +44,40 @@ Ask **two** questions:
 2. **Practice** — *Can the mechanism be stated as something a manager could change?* If the mechanism
    has no managerial lever, the **Evidence for Practice** points will ring hollow.
 
+## The "Evidence for Practice" box (a PAR signature requirement)
+
+PAR asks empirical articles to carry an **Evidence for Practice** box — a short bulleted list (typically
+3–5 points) of what the findings mean for those who run public organizations. Editors and reviewers
+treat it as a checked contribution element, not decoration, so build it *from the mechanism*, not as an
+afterthought:
+
+- **One actionable bullet per implication; lead with the action**, not the finding ("Protect frontline
+  discretion when…", not "We found discretion matters").
+- **Trace each bullet to the mechanism** so a reviewer can follow bullet → lever → evidence; if a bullet
+  has no antecedent mechanism, it is decorative and will be cut.
+- **Calibrate certainty to the design** — an observational association is not a causal lever; hedge
+  honestly and stay inside the scope conditions ("in turbulent environments," not "everywhere").
+- **Address the right actor and level** — frontline supervisor vs. agency head vs. oversight body; a
+  lever only one of them controls should name that actor.
+- **Avoid generic exhortation** ("managers should pay attention to X"); say what to *do differently*.
+
+## Position within PAR's live theory conversations
+
+A contribution lands when it advances a recognized public-administration conversation rather than a
+private vocabulary. Name and engage the relevant tradition, and say what your mechanism adds or revises:
+
+- **Behavioral / individual level** — public service motivation (PSM), red tape and administrative
+  burden, goal ambiguity, representative bureaucracy at the street level.
+- **Organizational / political level** — bureaucratic discretion, political control of agencies,
+  performance management and accountability regimes.
+- **Institutional / values level** — public values and public-value creation, equity and procedural
+  justice, legitimacy.
+- **System / network level** — collaborative governance, networks, co-production, and
+  reform paradigms (NPM, post-NPM, digital-era / AI-era governance).
+
+"Context as a feature, not noise" means stating *which* of these settings your scope conditions invoke,
+and (for the strongest papers) bridging two levels with an explicit cross-level logic.
+
 ## Anti-patterns
 
 - "Hypothesizing after results are known" (HARKing) — state theory before tests; preregister where possible
@@ -51,6 +85,28 @@ Ask **two** questions:
 - Universal claims with no scope conditions, ignoring public-sector context
 - A practitioner "so-what" that does not follow from the mechanism (decorative Evidence for Practice)
 - Burying the argument under the empirics — the contribution paragraph must state it plainly
+
+## Worked micro-example (before → after)
+
+**Before (thin):** "We find that managerial networking is positively associated with school district
+performance. Managers should network more." — an association plus a generic exhortation; no mechanism,
+no scope, decorative practice point.
+
+**After (PAR-grade):**
+
+- **Mechanism** — external networking lets public managers buffer environmental shocks and import
+  resources and legitimacy; the **managerial lever** is how the manager allocates time between external
+  and internal management.
+- **Observable implications** — performance gains concentrate where environmental turbulence is high and
+  slack is low, and are absent where the task environment is stable (a test, and a *placebo*).
+- **Scope conditions** — local service agencies whose managers hold discretion over external engagement;
+  the logic weakens under tight central control.
+- **Portability** — any PA subfield where managers mediate an organization–environment boundary can
+  import the time-allocation lever.
+- **Practice so-what (Evidence for Practice seed)** — "In turbulent environments, protect managers' time
+  for external engagement; in stable environments, redirect that time to internal management."
+
+The "after" version is portable *and* gives a manager something to change — both arms of the dual test.
 
 ## Output format
 
