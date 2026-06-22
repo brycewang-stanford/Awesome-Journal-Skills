@@ -21,10 +21,10 @@ Items that were not confirmed against a single primary-source page are marked
   - **Fast-Track**: editorial decision within **14 days**.
 - **https://editorialexpress.com/rof** — RoF submission portal (Editorial Express). Verifies: submission system is Editorial Express.
 - **https://revfin.org/** — Review of Finance journal site (European Finance Association). Verifies: RoF is the **official journal of the EFA**; published by **Oxford University Press** on behalf of the EFA.
-- **https://revfin.org/submission-fees-categories/** — Submission fees and categories. Verifies:
-  - **Regular submission fee EUR 350 (EUR 300 for EFA members for the current year).**
-  - **Fast-Track first submission EUR 900; Fast-Track resubmission EUR 500.**
-  - Tiered, decision/timing-dependent partial **refund schedule** (e.g., regular desk rejection EUR 150 refund / EUR 100 for EFA members; EUR 175 refund if a decision takes > 120 days).
+- **https://revfin.org/submission-fees-categories/** — Submission fees and categories (**re-verified 2026-06-22**). Verifies:
+  - **Regular submission fee EUR 350 (EUR 300 for EFA members for the current year).** Unchanged.
+  - **Fast-Track first submission EUR 900; Fast-Track resubmission EUR 500.** Unchanged.
+  - Tiered, decision/timing-dependent partial **refund schedule** (now confirmed against the live page): regular desk rejection EUR 150 / EUR 100 for EFA members; EUR 175 / EUR 150 (members) if a decision takes > 120 days. **Fast-Track refunds: EUR 600 desk rejection; EUR 550 if decision > 14 days; EUR 725 if decision > 120 days** (resolves the earlier 需复核).
 - **https://revfin.org/editorial-policy/** — Editorial policy. Verifies:
   - **Two-round decision philosophy**: the journal aims to reach a final decision by the second round and will likely ignore new round-two referee concerns not raised in round one (and unrelated to changes in the paper).
   - Referees asked to apply **top-three-finance-journal standards** and to separate comments into (1) **major concerns required for publication** and (2) **suggestions**.
@@ -40,7 +40,7 @@ Items that were not confirmed against a single primary-source page are marked
 
 ## Editors / editorial board
 
-- **https://revfin.org/editorial-board/** — Editorial board. Verifies: **Managing Editor Marcin Kacperczyk (Imperial College London)**; Editors include **Ian Dew-Becker, Hui Chen, Laurent Fresard, Marcus Opp, Jun Pan, Jacopo Ponticelli, David Solomon, Margarita Tsoutsoura**; supported by **~29 Associate Editors** (exact current count 需复核 — see below).
+- **https://revfin.org/editorial-board/** — Editorial board (**re-verified 2026-06-22**). Verifies: **Managing Editor Marcin Kacperczyk (Imperial College London)** — confirmed current; Editors include **Ian Dew-Becker, Hui Chen, Laurent Fresard, Marcus Opp, Jun Pan, Jacopo Ponticelli, David Solomon, Margarita Tsoutsoura**; supported by **~29 Associate Editors** (exact current count 需复核 — see below).
 - **https://revfin.org/editorial-board-update-new-editors-and-associate-editors-from-1-january-2026/** — Board update. Verifies: **Hui Chen and Margarita Tsoutsoura became Editors effective 1 January 2026**, succeeding **Xavier Giroud (stepped down end of 2025)**; **Jun Pan's term ends June 2026.**
 
 ## 需复核 (to be verified) — not confirmed against a single primary-source page
@@ -48,7 +48,7 @@ Items that were not confirmed against a single primary-source page are marked
 - **Acceptance rate (~7.5%, July 2024–June 2025)** and **median submission-to-decision turnaround (~29 days)**: from aggregated summaries of revfin.org, not confirmed against a primary page quoting exact figures. Treat as approximate. 需复核.
 - **Six issues per year**: from a summary of revfin.org, not confirmed from an explicit official statement. 需复核.
 - **Exact current count and full membership of the Associate Editor panel (~29)**: may have shifted with the 1 January 2026 board update; not exhaustively enumerated. 需复核.
-- **Exact Fast-Track refund amounts** (e.g., EUR 600 desk rejection, EUR 550 for a > 14-day decision): from a rendered fees-page table; re-check against the live page before relying on specific Fast-Track refund figures. 需复核.
+- **Exact Fast-Track refund amounts**: now CONFIRMED on the live fees page 2026-06-22 — EUR 600 desk rejection, EUR 550 for a > 14-day decision, EUR 725 for a > 120-day decision. (Hedge resolved; still re-check before paying, as the schedule can change.)
 
 ## Notes on use
 

@@ -15,10 +15,10 @@ description: Use when running the final pre-submission preflight for Financial M
 ## Process facts (检索于 2026-06；以官网为准)
 
 - FM is the **FMA's flagship quarterly**, published by **Wiley** (Online ISSN 1755-053X). Submission begins on the **FMA submissions page**, where you complete a form and pay the fee, and are then **forwarded to ScholarOne** for the manuscript upload.
-- **Submission fee (per manuscript):** **$250** for professional or PhD **FMA members**; **$350** for professional **nonmembers**; **$280** for PhD **nonmembers**. The $350 and $280 nonmember fees **include a one-year FMA membership** for the submitting author. (Re-confirm amounts and tiers on the FMA submissions page.)
+- **Submission fee (per manuscript; re-verified 2026-06-22 on fma.org and the Wiley For Authors page, unchanged):** **$250** for professional or PhD **FMA members**; **$350** for professional **nonmembers**; **$280** for PhD **nonmembers**. The $350 and $280 nonmember fees **include a one-year FMA membership** for the submitting author. (Re-confirm amounts and tiers on the FMA submissions page before submitting.)
 - **Editorial criteria:** originality, rigor, timeliness, practical relevance, and quality; the editors target a **median 6–8 week turnaround** including desk rejections and commit to explanatory feedback on every submission.
 - **Originality declaration:** manuscripts are reviewed on the understanding they are **not under review elsewhere**, are the authors' **original work**, and have **not been previously published** in whole or in part.
-- **Co-Editors (待核实):** Michael Goldstein, Kathleen Kahle, and Shawn Thomas; managing-editor contact is at the University of South Florida. Confirm names before relying on them.
+- **Co-Editors (verified 2026-06-22 on fma.org/Wiley):** Michael Goldstein (Babson College), Kathleen Kahle (University of Arizona), and Shawn Thomas (University of Pittsburgh). Re-verify the masthead before relying on it in a cover letter.
 - **Review model / anonymization, abstract word limit, and exact manuscript length limit: 待核实** — these are not confirmed from the official pages in this pack and must be read off the Wiley author guidelines before submission.
 
 ## Preflight checklist

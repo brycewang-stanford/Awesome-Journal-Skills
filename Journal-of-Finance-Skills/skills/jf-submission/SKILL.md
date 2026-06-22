@@ -11,14 +11,14 @@ description: Use when running the final pre-submission preflight for The Journal
 - Unsure which files and statements the AFA portal expects
 - Unsure about the submission fee tier or whether a cover letter is needed
 
-> ACCURACY NOTE: fees, limits, and editor lists change. Verify current specifics on afajof.org/submissions before submitting. The numbers below were taken from the AFA submission page (accessed 2026-05-30); the JF Submission Guidelines PDF is Rev. March 12, 2024.
+> ACCURACY NOTE: fees, limits, and editor lists change. Verify current specifics on afajof.org/submissions before submitting. Fee tiers and the editor masthead were **re-verified 2026-06-22** against the live AFA pages (amounts unchanged; current Co-Editors confirmed below); the JF Submission Guidelines PDF is Rev. March 12, 2024.
 
 ## Submission logistics (JF-specific)
 
 - JF submissions go through the **AFA's online submission system** (afajof.org/submissions); the fee is paid by credit card (Visa / MasterCard / Amex) as part of the submission.
 - **Tiered submission fee by author economy and AFA membership** (high-income: **AFA member $400, non-member $525**; middle-income: **$100 / $150**; low-income: **no fee**). All authors must reside in a low/middle-income country to qualify for the reduced/zero tier.
 - **Refund policy**: a flat **$200** is returned on a desk rejection (high-income; not for resubmissions of previously rejected papers); the **entire fee is refunded if the first decision takes more than 100 days**. Applies to the first submission only.
-- **Editor: Antoinette Schoar (MIT)**, with Co-Editors (e.g., Kogan, Lewellen, Philippon, Sunderam) and 50+ Associate Editors, plus a **Data Editor (Hong Ru)**. Verify the current masthead.
+- **Editor: Antoinette Schoar (MIT)**, with Co-Editors **Kogan, Lewellen, Philippon, and Sunderam** (Adi Sunderam replaced Urban Jermann on 1 July 2025) and 50+ Associate Editors, plus a **Data Editor (Hong Ru)** — masthead confirmed on afajof.org/editorial-board 2026-06-22; re-verify before submission.
 
 ## Cover letter (JF norm — usually skip it)
 

@@ -35,7 +35,7 @@ description: Use when running the final Mathematical Finance submission prefligh
 - [ ] JEL and AMS/MSC classifications where requested
 - [ ] Data Availability Statement
 - [ ] Funding, conflicts, acknowledgements
-- [ ] Open Access choice and APC implications checked if relevant
+- [ ] Open Access choice and APC implications checked if relevant — *Mathematical Finance* is a hybrid Wiley journal with **no submission fee**; optional OA APC was **USD 3,840 / GBP 2,590 / EUR 3,190** as of 2026-06-22 (re-verify on Wiley's APC page; may be covered by an institutional agreement). Editor as of 2026-06-22: **Rama Cont**.
 
 ## LaTeX hygiene
 

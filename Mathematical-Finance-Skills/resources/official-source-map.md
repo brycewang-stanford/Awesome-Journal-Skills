@@ -22,9 +22,12 @@ Wiley journal, editorial-board, fee, and author-rule pages can change.
 - **https://onlinelibrary.wiley.com/page/journal/14679965/homepage/editorialboard.html** — Wiley
   editorial-board page. Use this page for the current editor and board roster before naming any editor
   in live advice.
-- **https://onlinelibrary.wiley.com/page/journal/14679965/homepage/oa-advantages** — Wiley open-access
-  / hybrid-options page. Use this page and Wiley's Article Publication Charges page for current
-  open-access terms and APC figures.
+- **https://onlinelibrary.wiley.com/page/journal/14679965/homepage/oa-advantages** and
+  **https://onlinelibrary.wiley.com/page/journal/14679965/homepage/fundedaccess.html** — Wiley open-access
+  / hybrid-options pages. *Mathematical Finance* is a **hybrid (subscription) journal**: there is **no
+  submission fee**; open access is optional. **OA APC re-verified 2026-06-22: USD 3,840 / GBP 2,590 /
+  EUR 3,190** (excl. tax; may be covered by a Wiley Read & Publish / institutional agreement). Re-verify
+  the current charge on Wiley's Article Publication Charges page before relying on it.
 - **https://submission.wiley.com/** — Wiley Research Exchange / Wiley submission entry point. Use for
   manuscript submission and status tracking; LaTeX source, compiled PDF, and supplementary files should
   be prepared for upload.
@@ -60,7 +63,7 @@ Wiley journal, editorial-board, fee, and author-rule pages can change.
 |------|------------|
 | Publisher and journal platform are Wiley / Wiley Online Library | Wiley journal home; Wiley product pages |
 | Print ISSN 0960-1627; Online ISSN 1467-9965 | Wiley product pages; ISSN Portal; RePEc |
-| Current Wiley product-page snippet lists Rama Cont as editor | Wiley product pages |
+| Editor Rama Cont (re-verified 2026-06-22 on Wiley product/editorial-board pages) | Wiley product pages; Wiley editorial-board page |
 | BFS affiliation and BFS member online access | Bachelier Finance Society journals page |
 | Journal scope: novel mathematical and statistical methods for financial problems | Wiley journal home / product snippets |
 | Theorem-first fit: mathematically rigorous financial-mathematics contribution, not routine empirical finance | Wiley author guidelines |
@@ -70,7 +73,7 @@ Wiley journal, editorial-board, fee, and author-rule pages can change.
 | Data Availability Statement required for research and synthesis articles; data/code sharing encouraged | Wiley data policy |
 | No-data statement available for purely theoretical papers | Wiley data policy |
 | Data citation format when linked data are used | Wiley data policy |
-| Open-access / APC details are handled by Wiley's current OA/APC pages | Wiley OA page |
+| Hybrid journal, no submission fee; optional OA APC USD 3,840 / GBP 2,590 / EUR 3,190 (re-verified 2026-06-22) | Wiley OA / funded-access page |
 
 ## Live-check items before upload
 

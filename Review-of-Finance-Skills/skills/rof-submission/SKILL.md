@@ -11,11 +11,13 @@ Press. Re-verify volatile figures on the official pages before paying or submitt
 
 ## Preflight
 
-- Choose the track and verify the current fee and tiered refund schedule. Regular submission
-  is EUR 350 (EUR 300 for EFA members); Fast-Track first submission is EUR 900 (resubmission
-  EUR 500) and targets an editorial decision within 14 days of valid payment. Refund amounts
-  depend on decision type/timing (e.g., regular desk rejection EUR 150 / EUR 100 for members;
-  EUR 175 if a decision takes over 120 days); exact Fast-Track refund figures are 待核实.
+- Choose the track and verify the current fee and tiered refund schedule (re-verified
+  2026-06-22 on revfin.org; re-verify before paying). Regular submission is EUR 350 (EUR 300
+  for EFA members); Fast-Track first submission is EUR 900 (resubmission EUR 500) and targets
+  an editorial decision within 14 days of valid payment. Refund amounts depend on decision
+  type/timing: regular desk rejection EUR 150 / EUR 100 for members, EUR 175 / EUR 150
+  (members) if a decision takes over 120 days; Fast-Track refunds EUR 600 (desk rejection),
+  EUR 550 (decision > 14 days), EUR 725 (decision > 120 days).
 - Confirm the manuscript stays within the hard 60-page total cap, including appendices,
   bibliography, figures, and tables.
 - Keep the abstract within 150 words (count it).

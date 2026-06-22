@@ -20,11 +20,12 @@ Primary source map for facts used in the FM skill pack. **Access date: 2026-06.*
 | payout and investment | Official pages above; re-check live before submission |
 | governance channel | Official pages above; re-check live before submission |
 
-## Verified on official pages (2026-06)
+## Verified on official pages (2026-06; editor + fee re-verified 2026-06-22)
 
-- **Co-Editors: Michael Goldstein (Babson College), Kathleen Kahle (University of Arizona), and Shawn Thomas (University of Pittsburgh).** Published by **Wiley** for the **Financial Management Association (FMA)**. (fma.org editorial board)
+- **Co-Editors: Michael Goldstein (Babson College), Kathleen Kahle (University of Arizona), and Shawn Thomas (University of Pittsburgh).** Published by **Wiley** for the **Financial Management Association (FMA)**. (fma.org editorial board / Wiley journal home; **re-verified 2026-06-22**)
+- **Submission fee (re-verified 2026-06-22 on fma.org/financial-management-submissions and the Wiley For Authors page):** **$250** for FMA members (Professional or PhD), **$350** for Professional non-members, **$280** for PhD non-members; the **$350 / $280 non-member fees include one year of FMA membership** for the submitting author. Confirm before submitting. Source: https://www.fma.org/financial-management-submissions ; https://onlinelibrary.wiley.com/page/journal/1755053x/homepage/forauthors.html
 
 ## Unverified / volatile items
 
-- Exact **submission fee / OA APC, word limits, abstract limits, and blinding rules** are **待核实** if not visible on the official pages above — confirm at submission time.
+- **OA APC, word limits, abstract limits, and blinding rules** are **待核实** if not visible on the official pages above — confirm at submission time. (The submission fee above is now verified.)
 - Exemplar articles must be verified in the official archive or DOI page before being cited as real examples.

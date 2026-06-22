@@ -13,6 +13,8 @@ description: Use when running the final pre-submission preflight for the Journal
 
 ## Process facts (verified; re-confirm on the official guide)
 
+> ACCURACY NOTE (re-verified 2026-06-22 on ScienceDirect): the **US$340** submission fee, the **USD 4,520** hybrid-OA APC, and the **Co-Editors-in-Chief H. Almeida (Illinois) and K. Hankins (Kentucky)** are current. Re-verify before submission.
+
 - Published by **Elsevier**; submission via **Editorial Manager**, reached from the ScienceDirect **"Submit your article"** link.
 - A **US$340.00 non-refundable submission fee** is paid during submission; the paper is **considered only after payment**, and **desk-rejected articles are not refunded** (a handling fee, separate from any open-access APC).
 - Review is **single anonymized (single-blind)** — submit a **non-anonymized** manuscript with author names and affiliations.

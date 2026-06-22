@@ -13,8 +13,10 @@ description: Use when running the final pre-submission preflight for a Journal o
 
 ## The JFE-specific facts (verify on jfinec.com before relying)
 
+> ACCURACY NOTE (re-verified 2026-06-22 on jfinec.com): the **US$850** fee and the masthead are current — **Editor-in-Chief Toni M. Whited (U. Michigan); Co-Editors Dimitris Papanikolaou, Philipp Schnabl, Nikolai Roussanov**. Re-verify before submission.
+
 - **Portal:** submit through **Editorial Manager** at **editorialmanager.com/finec** (the JFE database code is `finec`, not the journal's old abbreviation).
-- **Submission fee:** **US$850** for an initial submission, paid at submission and largely non-refundable. **No fee** for a revise-and-resubmit. Referees who report on time earn **submission rights** that cut the fee (roughly US$567 with one right, US$283 with two, **$0 with three**). Only **US$400** is refunded on a desk reject (capped at four desk-reject refunds per author per calendar year), and the **whole fee is refunded if a decision takes more than 120 days**.
+- **Submission fee:** **US$850** for an initial submission (re-verified 2026-06-22, unchanged), paid at submission and largely non-refundable. **No fee** for a revise-and-resubmit. Referees who report on time earn **submission rights** that cut the fee (roughly US$567 with one right, US$283 with two, **$0 with three**). Only **US$400** is refunded on a desk reject (capped at four desk-reject refunds per author per calendar year), and the **whole fee is refunded if a decision takes more than 120 days**.
 - **Abstract:** **100 words maximum.** Include JEL codes and keywords.
 - **Format:** **double-spaced, 12-point-or-larger font, at least one-inch margins.**
 - **References:** JFE uses an **author-date (name-year)** in-text style with a reference list — not a numbered style.

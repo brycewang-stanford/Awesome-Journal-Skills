@@ -15,7 +15,7 @@ description: Use when running the final pre-submission preflight for a The Revie
 
 - RFS submits through the **SFS Editorial Express portal** (editorialexpress.com), reached from sfs.org/review-of-financial-studies/submit-a-paper — **not** ScholarOne or Editorial Manager. Create/verify your account.
 - The handling structure is an **Executive Editor (Tarun Ramadorai, LSE/Imperial, 2024–2027) → handling Editor → referees**. An Editor desk-screens before sending out; many manuscripts never reach referees.
-- **Submission fee** is charged at submission and is **lower for SFS members ($260) than non-members ($320)**; SFS membership lets you submit to any SFS journal at the member rate, so joining is often cheaper than the non-member differential. The fee is **waived for current-year SFS members on a conditionally accepted paper** and for authors in low-income economies; **confirm the current figures on sfs.org/submission-fees before submitting**.
+- **Submission fee** (tiered by World Bank income band and SFS membership; schedule effective 8 July 2024, **re-verified 2026-06-22** on sfs.org): high-income economies **$400 SFS member / $460 non-member**; middle-income (all coauthors resident) **$260 / $320**; low-income **waived**. Desk-reject refund **$200** (high-income) / **$130** (middle-income); an appeal costs **$860**. SFS membership lets you submit to any SFS journal at the member rate, so joining is often cheaper than the non-member differential. The fee is **waived for current-year SFS members on a conditionally accepted paper** and for invited dual submissions (first round); **re-verify the current figures on sfs.org/review-of-financial-studies/submit-a-paper before submitting**.
 - **Two RFS-specific on-ramps JF/JFE lack:** (1) **Registered Reports** — Stage 1 design-only review and in-principle acceptance (`rfs-identification`); (2) **dual submission with the SFS Cavalcade** — the conference reviews the paper and forwards it with reviews to RFS *at no charge*; do not also submit it to RFS directly while that is pending. For an invited Cavalcade dual submission, the **first-round fee is waived**.
 - **Code-release condition:** RFS requires authors to **publicly release all code** underlying a published paper as a condition of publication; if you cannot, you must say so in the cover letter to the editor.
 
@@ -46,7 +46,7 @@ description: Use when running the final pre-submission preflight for a The Revie
 - [ ] Suggested and opposed referees prepared (see `rfs-referee-strategy`)
 
 ### Administrative
-- [ ] Submission fee handled; SFS-member rate ($260 vs. $320) used if applicable; waiver checked (conditionally accepted / low-income economy / invited Cavalcade first round)
+- [ ] Submission fee handled; SFS-member rate used if applicable (high-income $400 member vs. $460 non-member; middle-income $260/$320; low-income waived); waiver checked (conditionally accepted / low-income economy / invited Cavalcade first round)
 - [ ] All coauthors approve the submission
 - [ ] Contact details current in the Editorial Express account
 - [ ] File naming follows portal conventions
@@ -67,7 +67,7 @@ description: Use when running the final pre-submission preflight for a The Revie
 【Format】abstract ≤100 words? double-spaced ≤28 lines, font ≥11? yes/no
 【Files staged】manuscript / title page / IA (de-identified) / cover letter / replication code
 【Abstract+JEL+keywords】complete? yes/no
-【Fee】SFS-member rate ($260) used / waiver applies? yes/no
+【Fee】SFS-member rate used (high-income $400/$460; mid $260/$320) / waiver applies? yes/no
 【Code-release】public release planned, or exception stated in cover letter? yes/no
 【Route】standard / Registered Report / SFS Cavalcade dual submission
 【Cover letter】states RFS-specific novelty? yes/no
