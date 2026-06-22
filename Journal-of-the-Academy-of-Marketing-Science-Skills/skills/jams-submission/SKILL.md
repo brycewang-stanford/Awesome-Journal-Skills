@@ -20,11 +20,11 @@ description: Use when running the final pre-submission preflight for a Journal o
 - **Submission portal:** Springer **Editorial Manager** for JAMS (reached via the journal's "Submit manuscript" link). Online submission only.
 - **Review model:** **double-anonymized** (double-blind) — the manuscript file must be fully anonymized; author identities and reviewer identities are mutually concealed.
 - **Citation style:** **APA** author–date is JAMS house style (检索于 2026-06；以官网为准).
-- **Co-Editors-in-Chief:** Stephanie M. Noble and Charles H. Noble (University of Tennessee), since June 2024 (检索于 2026-06；以官网为准).
+- **Co-Editors-in-Chief:** Stephanie M. Noble and Charles H. Noble (University of Tennessee), since June 2024 (verified 2026-06-22 via Springer JAMS home + AMS; re-verify the masthead before submission).
 - **Abstract:** structured/concise abstract, typically **~200–250 words** (待核实 — confirm exact limit and whether structured on the official guidelines).
 - **Length / page limit:** JAMS does not publish a single hard page count the way some AMA journals do; follow the article-type guidance on the official page (待核实 — confirm current limit).
 - **Data & code:** Springer **research-data policy** applies; prepare a **data (and code) availability statement** and deposit references (e.g., OSF / Mendeley Data) where applicable (检索于 2026-06；以官网为准).
-- **Fees:** subscription publication has **no submission fee / no APC**; **Open Access (Hybrid OA)** is optional and carries an article-processing charge for accepted articles only — often covered by Springer transformative agreements (待核实 — confirm current APC).
+- **Fees:** subscription publication has **no submission fee / no APC**; **Open Access (Hybrid OA)** is optional and carries an article-processing charge for accepted articles only — the Springer hybrid OA APC is **$3,860 USD** as of 2026-06-22 (often covered by Springer transformative agreements). Re-verify the current APC before submission.
 
 ## Pre-submission checklist
 

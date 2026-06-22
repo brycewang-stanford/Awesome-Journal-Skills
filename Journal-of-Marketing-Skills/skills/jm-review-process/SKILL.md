@@ -15,7 +15,7 @@ description: Use when understanding how Journal of Marketing (JM) review and dec
 ## How JM review works
 
 - **Double-anonymized**: identities of authors and reviewers are concealed from each other. Keep all rounds anonymized; never reveal yourself in responses or revised files.
-- **Decision authority**: the handling **Editor is the final decision authority**. Under EiC Jan-Benedict E.M. Steenkamp, manuscripts are handled by one of four **Coeditors** — Marc Fischer (Cologne), Kelly L. Haws (Vanderbilt), Maura L. Scott (Arizona State), Rebecca J. Slotegraaf (Indiana). Your keyword/area choices influence routing.
+- **Decision authority**: the handling **Editor is the final decision authority**. Under EiC Jan-Benedict E.M. Steenkamp (UNC; term began **July 1, 2025**, three-year term — verified 2026-06-22), manuscripts are handled by one of four **Coeditors** — Marc Fischer (Cologne), Kelly L. Haws (Vanderbilt), Maura L. Scott (Arizona State), Rebecca J. Slotegraaf (Indiana). Your keyword/area choices influence routing. Re-verify the live roster before naming a Coeditor.
 - **What reviewers weigh**: JM's gatekeeping criterion is **substantive impact** — does the paper offer compelling new insight into an important real-world marketing question, *with* managerial/policy/societal relevance? Reviewers also screen for scope: general-management papers, methods-for-their-own-sake papers, and incremental/new-context replications are out of scope. Expect probes on identification, exact-statistic reporting, and whether the magnitude matters.
 - **Integrity**: manuscripts are screened with iThenticate; no concurrent submission.
 

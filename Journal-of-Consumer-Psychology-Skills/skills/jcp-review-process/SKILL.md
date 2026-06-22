@@ -15,7 +15,7 @@ description: Use when calibrating expectations for the Journal of Consumer Psych
 
 ## How JCP review works
 
-A JCP submission goes to the **editor**, who may **desk-reject** for fit (no psychological process, wrong outlet, out of scope) or assign it to an **area/associate editor** who recruits reviewers — typically several SCP-community experts under **double-blind** review (待核实 the exact model on the current author page). The editor synthesizes the reviews into a decision: reject, **major revision (R&R)**, minor revision, or accept. As at peer experimental journals, the most common positive outcome is a **major revision**, and at JCP that very often means **running new studies** — not just reanalysis — to nail down the process.
+A JCP submission goes to the **editor** (EiC **David Wooten** through 2026, with Co-Editors Rajesh Bagchi and Aparna Labroo; **Bagchi becomes EiC for 2027–2029** — verified 2026-06-22, re-verify the masthead), who may **desk-reject** for fit (no psychological process, wrong outlet, out of scope) or assign it to an **area/associate editor** who recruits reviewers — typically several SCP-community experts under **double-blind** review (confirm the exact model on the current Wiley/myscp author page). The editor synthesizes the reviews into a decision: reject, **major revision (R&R)**, minor revision, or accept. As at peer experimental journals, the most common positive outcome is a **major revision**, and at JCP that very often means **running new studies** — not just reanalysis — to nail down the process.
 
 Outcomes to plan for:
 

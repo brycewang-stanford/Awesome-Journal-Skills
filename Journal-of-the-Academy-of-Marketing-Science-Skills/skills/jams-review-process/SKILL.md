@@ -16,7 +16,7 @@ description: Use when understanding how Journal of the Academy of Marketing Scie
 
 - **Double-anonymized.** Authors and reviewers are concealed from each other; keep every round anonymized, including revised files and any preregistration links.
 - **Developmental philosophy.** JAMS, like the AMS journals, runs a **developmental review** — area editors and reviewers aim to improve promising papers across rounds, not merely gatekeep. A well-run R&R is the realistic best case; first-round acceptance is essentially unheard of.
-- **Decision structure.** Manuscripts are handled by an **Area / Associate Editor** under the Co-Editors-in-Chief (Stephanie M. Noble and Charles H. Noble, since June 2024 — 检索于 2026-06；以官网为准). Your keyword/area choices in Editorial Manager influence routing, so choose them to reach the right editor and reviewers.
+- **Decision structure.** Manuscripts are handled by an **Area / Associate Editor** under the Co-Editors-in-Chief (Stephanie M. Noble and Charles H. Noble, University of Tennessee, since June 2024 — verified 2026-06-22; re-verify the masthead before submission). Your keyword/area choices in Editorial Manager influence routing, so choose them to reach the right editor and reviewers.
 - **What reviewers weigh.** JAMS's evaluation is **dual**: (1) a genuine **theoretical contribution** to a broad marketing-science question, and (2) a clear **managerial contribution** — what a decision maker should do. Expect probes on construct validity / CMV (survey), endogeneity / identification (secondary data), mechanism and power (experiments), and on whether the contribution is more than a new-context replication.
 - **Integrity.** Springer plagiarism screening; no concurrent submission; research-data and ethics policies apply.
 

@@ -13,7 +13,7 @@ description: Use when understanding how Marketing Science evaluates a manuscript
 
 ## How the process works
 
-- **Editorial structure.** The Editor-in-Chief (Puneet Manchanda, Michigan Ross; term Jan 1 2025–Dec 31 2027, renewable through 2030) oversees a set of **Senior Editors** who handle assigned papers, working with **Associate Editors** — a Senior-Editor/Associate-Editor routing model, *not* Management Science's standing departmental Area Editors. Verify the current board on the editorial-board page.
+- **Editorial structure.** The Editor-in-Chief (Puneet Manchanda, Michigan Ross; term Jan 1 2025–Dec 31 2027, renewable through 2030 — verified 2026-06-22) oversees a set of **Senior Editors** who handle assigned papers, working with **Associate Editors** — a Senior-Editor/Associate-Editor routing model, *not* Management Science's standing departmental Area Editors. Verify the current board on the editorial-board page before relying on specific names.
 - **Double-anonymous review.** Regular submissions are reviewed double-anonymous per the INFORMS-wide mandate; reviewers do not see author identities, and the manuscript must stay blinded. The cover letter is seen by the Editor/AE but not reviewers. (Practice/Science-to-Practice tracks are single-blind.)
 - **First pass.** The handling team screens for readability and whether the paper makes a **significant, original contribution on an important topic** using a credible model. Papers that are model-free, off-topic, or unreadable can be returned early.
 

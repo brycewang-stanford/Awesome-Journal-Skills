@@ -14,12 +14,12 @@ description: Use when running the final pre-submission preflight for a Journal o
 
 ## Process facts (检索于 2026-06；以官网为准; the resources source-map still says Elsevier — JCP is now Wiley)
 
-- JCP is the journal of the **Society for Consumer Psychology (SCP)**, APA Division 23, published by **Wiley** (it migrated from Elsevier). pISSN 1057-7408, eISSN 1532-7663. Submission is via Wiley's **ScholarOne / Manuscript Central** workflow (待核实 the exact portal; confirm the current submission link on the Wiley/myscp author page).
+- JCP is the journal of the **Society for Consumer Psychology (SCP)**, APA Division 23, published by **Wiley** (it migrated from Elsevier). pISSN 1057-7408, eISSN 1532-7663. **Editor-in-Chief: David Wooten (term 2024–2026), with Co-Editors Rajesh Bagchi and Aparna Labroo; incoming EiC Rajesh Bagchi (Virginia Tech), 2027–2029** (verified 2026-06-22 via myscp.org / Wiley; re-verify the masthead before submission). Submission is via Wiley's **ScholarOne / Manuscript Central** portal at **mc.manuscriptcentral.com/jconsumerpsychology** (verified 2026-06-22; confirm the live link on the Wiley/myscp author page).
 - **Manuscript types**: **Research Article** (≤50 double-spaced pages including abstract, references, tables, and figures); **Research Report** (**<4,000 words** excluding abstract, references, tables, and figures); **Conceptual Review** (≤50 pages); **Research Dialogue**.
 - **Formatting**: **APA Style** (confirm 6th vs 7th on the current author page; APA 7 is the field default as of 2026 — 待核实). Double-spaced; title page, abstract, keywords.
 - **Review model**: **double-blind** (待核实) — the manuscript must be anonymized.
 - **Open science**: JCP is committed to transparency and reproducibility and to APA ethical standards. Authors may **pre-register** with an analysis plan in an independent registry (OSF/AsPredicted); plan to **share data and materials** (verify whether deposit is required vs. encouraged on the current page).
-- There is no submission fee for standard submission to a hybrid Wiley journal; an APC applies only if you choose open access (待核实 the current amount).
+- There is **no submission fee** for standard submission to this hybrid Wiley journal; an APC applies **only if you choose open access** — **$3,570 USD / £2,380 GBP / €3,010 EUR** as of 2026-06-22 (Wiley funded-access page; may be covered by a Wiley Open Access Account). Re-verify the current amount before submission.
 
 ## Preflight checklist
 

@@ -20,11 +20,13 @@ Primary source map for facts used in the JCP skill pack. **Access date: 2026-06.
 | psychological process | Official pages above; re-check live before submission |
 | moderation logic | Official pages above; re-check live before submission |
 
-## Verified on official pages (2026-06)
+## Verified on official pages (2026-06-22)
 
-- **Editor-in-Chief: David Wooten** (term 2024–2026); **incoming EiC Rajesh Bagchi (Virginia Tech), 2027–2029.** Published by **Wiley** for the **Society for Consumer Psychology (SCP)**. (myscp.org / Wiley)
+- **Editor-in-Chief: David Wooten** (term 2024–2026), with **Co-Editors Rajesh Bagchi and Aparna Labroo**; **incoming EiC Rajesh Bagchi (Virginia Tech), 2027–2029.** Published by **Wiley** for the **Society for Consumer Psychology (SCP)**. (myscp.org/news/30407 and myscp.org/news/26947; Wiley editorial-board page myscp.onlinelibrary.wiley.com/hub/journal/15327663/editorialboard.html — accessed 2026-06-22)
+- **Submission portal:** ScholarOne / Manuscript Central at **https://mc.manuscriptcentral.com/jconsumerpsychology**. (Wiley author guidelines — accessed 2026-06-22)
+- **Fees:** **no submission fee** for the standard subscription route; optional open-access APC is **$3,570 USD / £2,380 GBP / €3,010 EUR** (may be covered by a Wiley Open Access Account). (https://myscp.onlinelibrary.wiley.com/hub/journal/15327663/fundedaccess.html — accessed 2026-06-22)
 
 ## Unverified / volatile items
 
-- Exact **submission fee / OA APC, word limits, abstract limits, and blinding rules** are **待核实** if not visible on the official pages above — confirm at submission time.
+- Exact **word limits, abstract limits, and blinding rules** are **待核实** if not visible on the official pages above — confirm at submission time. Editor masthead and OA APC are time-sensitive; re-verify before relying on them.
 - Exemplar articles must be verified in the official archive or DOI page before being cited as real examples.

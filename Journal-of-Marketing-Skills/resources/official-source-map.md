@@ -42,7 +42,7 @@ prompts, fee language, editor rosters, and transparency workflows can change.
 | Transparency: JM Dataverse packet at conditional acceptance for numerical/computational work; processing Editor can access packet while reviewers cannot | JM transparency policy / AMA research transparency policy |
 | Alternative disclosure plan route for proprietary, sensitive, embargoed, or high-investment data | JM transparency policy / AMA research transparency policy |
 | JM verification: some conditionally accepted manuscripts may have a verification step; Coeditors may assign a Data Editor | AMA research transparency policy |
-| Editorial leadership: EiC Jan-Benedict E.M. Steenkamp; Coeditors Marc Fischer, Kelly L. Haws, Maura L. Scott, Rebecca J. Slotegraaf | AMA editorial leadership |
+| Editorial leadership: EiC Jan-Benedict E.M. Steenkamp (UNC; three-year term began July 1, 2025 — verified 2026-06-22 via AMA editorial-leadership page + EurekAlert announcement); Coeditors Marc Fischer, Kelly L. Haws, Maura L. Scott, Rebecca J. Slotegraaf | AMA editorial leadership |
 | Integrity: iThenticate plagiarism screening, AI disclosure, conflict-of-interest rules, no concurrent submission | AMA submission guidelines / AMA editorial policies / SAGE author instructions |
 | COPE membership; ISSN 0022-2429 / Online ISSN 1547-7185; SAGE homepage displays Impact Factor 10.6 / 5-Year Impact Factor 18.9 | SAGE journal home |
 
