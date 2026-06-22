@@ -12,9 +12,9 @@ description: Use when running the final pre-submission preflight for a Journal o
 - Confirming format, anonymization, and house style are JLEO-compliant
 - Confirming the paper is data-policy- and COPE-ready should it advance
 
-## Process facts (检索于 2026-06；以官网为准 — re-confirm on academic.oup.com/jleo)
+## Process facts (检索于 2026-06-22；以官网为准 — re-confirm on academic.oup.com/jleo)
 
-- JLEO is published by **Oxford University Press**; founded **1985 by Oliver E. Williamson and Jerry L. Mashaw**; triannual; Print ISSN **8756-6222**, Online ISSN **1465-7341**. Editor-in-Chief: **Andrea Prat** (Columbia) (检索于 2026-06；以官网为准).
+- JLEO is published by **Oxford University Press**; founded **1985 by Oliver E. Williamson and Jerry L. Mashaw**; triannual; Print ISSN **8756-6222**, Online ISSN **1465-7341**. Editor-in-Chief: **Andrea Prat** (Columbia), confirmed current as of **2026-06-22** (re-verify before submission).
 - **Submission portal:** manuscripts are submitted through **Editorial Express** (editorialexpress.com/jleo), not ScholarOne or Editorial Manager. Verify the current upload form and accepted file types live.
 - **Publication ethics:** JLEO is a **COPE** member and follows OUP's conflict-of-interest policy; editors recuse on conflicts. One paper under review at a time; no simultaneous submission elsewhere; AI cannot be listed as an author (per OUP policy).
 - **Review model (single- vs. double-blind):** 待核实 — confirm on the JLEO submission-online page and anonymize accordingly before uploading.

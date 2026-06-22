@@ -1,6 +1,6 @@
 # Journal of Law, Economics, and Organization Official Source Map
 
-Primary source map for facts used in the JLEO skill pack. **Access date: 2026-06.** Re-check editor names, fees, exact length limits, portal forms, data policies, and style details before relying on them. Items not confirmed from an official page are marked **待核实** in the skills.
+Primary source map for facts used in the JLEO skill pack. **Access date: 2026-06-22.** Re-check editor names, fees, exact length limits, portal forms, data policies, and style details before relying on them. Items not confirmed from an official page are marked **待核实** in the skills.
 
 ## Official pages
 
@@ -20,9 +20,9 @@ Primary source map for facts used in the JLEO skill pack. **Access date: 2026-06
 | legal-economic mechanism | Official pages above; re-check live before submission |
 | agency problem | Official pages above; re-check live before submission |
 
-## Verified on official pages (2026-06)
+## Verified on official pages (re-verified 2026-06-22)
 
-- **Editor-in-Chief: Andrea Prat (Columbia University).** Co-Editors include Robert Akerlof (UNSW), Julia Cagé (Sciences Po), Albert Choi (Michigan), Rocco Macchiavello (LSE), Jeffrey Staton (Emory), and Guo Xu (UC Berkeley). Published by **Oxford University Press**. (OUP JLEO editorial board)
+- **Editor-in-Chief: Andrea Prat (Columbia University)** — confirmed current as of **2026-06-22** (EIC since 2020; OUP JLEO Editorial Board, cross-checked against Prat's Columbia CV dated 1 January 2026). Co-Editors include Robert Akerlof (UNSW), Julia Cagé (Sciences Po), Albert Choi (Michigan), Rocco Macchiavello (LSE), Jeffrey Staton (Emory), and Guo Xu (UC Berkeley). Published by **Oxford University Press**.
 
 ## Unverified / volatile items
 

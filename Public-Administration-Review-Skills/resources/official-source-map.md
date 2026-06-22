@@ -1,7 +1,7 @@
 # PAR Official Source Map
 
 Primary and authoritative sources behind the PAR-specific facts injected into this skill pack.
-Access date for all entries: **2026-06** (检索于 2026-06；以官网为准). Re-check volatile items
+Access date for all entries: **2026-06-22** (检索于 2026-06-22；以官网为准). Re-check volatile items
 (editors and editorial term, exact word/abstract caps, fee/APC, portal, data-policy wording, article
 types) on the official page before relying on them — journal pages change.
 
@@ -44,9 +44,11 @@ types) on the official page before relying on them — journal pages change.
 - **https://spia.uga.edu/willoughby-named-an-editor-in-chief-of-public-administration-review/**
   — UGA SPIA announcement. Verifies (as of access date): **Katherine Willoughby (University of
   Georgia)** as an Editor-in-Chief.
-- Search-confirmed (access date 2026-06): Editors-in-Chief **Jos Raadschelders (Ohio State
-  University)** and **Katherine Willoughby (University of Georgia)**; **Editor Hongtao Yi**; editorial
-  term **2024–2026**. Confirm the current masthead on the editorial-board page.
+- Re-verified (access date 2026-06-22, ≥2 sources): Editors-in-Chief **Jos Raadschelders (Ohio State
+  University)** and **Katherine Willoughby (University of Georgia)**; **Editor Hongtao Yi (Ohio State
+  University)**; editorial term **2024–2026**. Sources: UGA SPIA + OSU John Glenn announcements, cross-
+  checked against the Wiley editorial-board page. Because the term runs through 2026, re-confirm the
+  current masthead on the editorial-board page before naming editors in user-facing advice.
 - **https://en.wikipedia.org/wiki/Public_Administration_Review** — Verifies: PAR founded **1940**;
   flagship/peer-reviewed journal of public administration; published by Wiley-Blackwell for ASPA.
 

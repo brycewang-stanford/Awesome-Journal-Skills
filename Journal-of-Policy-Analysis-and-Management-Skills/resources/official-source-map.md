@@ -1,9 +1,16 @@
 # JPAM Official Source Map
 
 Primary and authoritative sources behind the JPAM-specific facts injected into this skill pack.
-Access date for all entries: **2026-06-20**. Re-check volatile items (editorial-board roster,
+Access date for all entries: **2026-06-22**. Re-check volatile items (editorial-board roster,
 submission prompts, policy wording, article-type limits, open-access charges, and repository
 requirements) on the live Wiley/APPAM pages before using this pack for a live submission.
+
+**Live re-verification (2026-06-22):** Editor-in-Chief **Erdal Tekin** (American University) confirmed
+current — APPAM's "A Message from Erdal Tekin, JPAM Editor-in-Chief" page plus the APPAM JPAM Authors
+page both list him as the sitting EIC (term began July 1, 2018). The submission-fee schedule (non-member
+**USD 100 professionals / USD 40 students**, members free, no resubmission fee) was re-confirmed on the
+APPAM JPAM Authors page. Sources: https://www.appam.org/a-message-from-erdal-tekin-jpam-editor-in-chief/
+; https://www.appam.org/news/jpam/jpam-authors/ .
 
 ## Official journal, owner, scope & masthead
 

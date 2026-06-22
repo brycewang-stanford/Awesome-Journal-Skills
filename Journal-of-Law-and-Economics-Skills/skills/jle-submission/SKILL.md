@@ -12,12 +12,12 @@ description: Use when running the final pre-submission preflight for a The Journ
 - Confirming the single-blind front matter (title page with author names) is right — not anonymized
 - Confirming the paper is replication-policy-ready should it advance
 
-## Process facts (检索于 2026-06；以官网为准 — re-confirm on journals.uchicago.edu/journals/jle)
+## Process facts (检索于 2026-06-22；以官网为准 — re-confirm on journals.uchicago.edu/journals/jle)
 
 - JLE is published by the **University of Chicago Press** in association with the University of Chicago Law School; it is the founding journal of law and economics (since 1958). Submission is through the **JLE Editorial Manager** site.
 - **Single-blind review:** authors' identities are visible to referees; referees are anonymous. **Do not anonymize the manuscript.** Include a **title page with each author's name and contact information.**
-- **Submission fee:** **US$100**, required for all manuscripts **beginning May 1, 2026**; **editorial review does not proceed until the fee is paid**; the fee is **non-refundable** (检索于 2026-06；以官网为准).
-- **Editors (as of 2026):** Elliott Ash, Matthew Backus, Dennis W. Carlton, Dhammika Dharmapala, Thomas J. Miles, Sam Peltzman (检索于 2026-06；以官网为准).
+- **Submission fee:** **US$100**, required for all manuscripts **beginning May 1, 2026**; **editorial review does not proceed until the fee is paid**; the fee is **non-refundable** (re-verified 2026-06-22, ≥2 sources; 以官网为准).
+- **Editors (re-verified 2026-06-22):** Elliott Ash, Matthew Backus, Dennis W. Carlton, Dhammika Dharmapala, Thomas J. Miles, Sam Peltzman (re-verify the masthead before submission).
 - **Citation style:** Chicago author-date (University of Chicago Press house style).
 - **Data & replication:** the JLE data policy requires data, programs, and computation details **available for replication before publication**; you need not deposit at submission, but the paper must be buildable into a replication package (`jle-replication-package`).
 - **Length / abstract limits, exact format specifics:** **待核实** — confirm current limits on the instructions-for-authors page before submitting.

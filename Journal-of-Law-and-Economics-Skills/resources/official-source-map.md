@@ -1,6 +1,6 @@
 # The Journal of Law and Economics Official Source Map
 
-Primary source map for facts used in the JLE skill pack. **Access date: 2026-06.** Re-check editor names, fees, exact length limits, portal forms, data policies, and style details before relying on them. Items not confirmed from an official page are marked **待核实** in the skills.
+Primary source map for facts used in the JLE skill pack. **Access date: 2026-06-22.** Re-check editor names, fees, exact length limits, portal forms, data policies, and style details before relying on them. Items not confirmed from an official page are marked **待核实** in the skills.
 
 ## Official pages
 
@@ -20,10 +20,10 @@ Primary source map for facts used in the JLE skill pack. **Access date: 2026-06.
 | contracting friction | Official pages above; re-check live before submission |
 | regulatory incidence | Official pages above; re-check live before submission |
 
-## Verified on official pages (2026-06)
+## Verified on official pages (re-verified 2026-06-22)
 
-- **Editors: Dennis W. Carlton, Austan Goolsbee, and Edward A. Snyder.** Sponsored by the **University of Chicago Booth School of Business** and the **University of Chicago Law School**; published by the **University of Chicago Press**.
-- **Submission fee: US$100, beginning 2026-05-01** — editorial review does not proceed until the fee is paid. (UChicago JLE instructions for authors)
+- **Editors (re-verified 2026-06-22): Elliott Ash, Matthew Backus, Dennis W. Carlton, Dhammika Dharmapala, Thomas J. Miles, and Sam Peltzman.** (STALE-FIX: the prior entry "Carlton, Goolsbee, Snyder" was an outdated roster and has been corrected to match the current UChicago JLE editorial-board page and the `jle-submission` skill.) Sponsored by the **University of Chicago Booth School of Business** and the **University of Chicago Law School**; published by the **University of Chicago Press**.
+- **Submission fee: US$100, beginning 2026-05-01** (re-verified 2026-06-22, ≥2 sources) — non-refundable; editorial review does not proceed until the fee is paid. (UChicago JLE instructions for authors)
 
 ## Unverified / volatile items
 

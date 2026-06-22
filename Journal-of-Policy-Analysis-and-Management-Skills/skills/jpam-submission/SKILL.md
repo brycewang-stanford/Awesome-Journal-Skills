@@ -8,7 +8,10 @@ description: Use when running the final pre-submission preflight for the Journal
 The last check before pressing submit through **Wiley Authors / Research Exchange**. JPAM uses an
 anonymized preflight in this pack, so the most common avoidable failure is an under-anonymized manuscript — and unlike most journals, JPAM
 requires **APPAM membership or a paid submission fee** before a paper is considered. Verify volatile
-specifics on the official author page before relying on them (检索于 2026-06；以官网为准).
+specifics on the official author page before relying on them (检索于 2026-06-22；以官网为准). As of
+**2026-06-22**, **Erdal Tekin** (American University) is the sitting Editor-in-Chief and the fee
+schedule below (non-member USD 100 / USD 40 student) is current on the APPAM JPAM Authors page;
+re-verify before submission.
 
 ## When to trigger
 

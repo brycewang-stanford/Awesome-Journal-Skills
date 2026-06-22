@@ -18,12 +18,15 @@ common avoidable failure is an under-anonymized manuscript; the second is forget
 ## Process facts (verify volatile items on the official page)
 
 - **Owner / publisher:** Public Management Research Association (PMRA) / Oxford University Press (OUP).
+- **Editors (re-verified 2026-06-22):** Editor-in-Chief **Ole Helby Petersen** and Co-Editor **Kim Sass
+  Mikkelsen** (both Roskilde University), serving a four-year term; re-verify the masthead on the live
+  Editorial Board page before relying on it.
 - **Portal:** **Editorial Express** (`editorialexpress.com/jpart`). Submit one PDF containing title,
   abstract, text, references, all tables/figures, plus any appendices.
 - **Review model:** **double-blind** — anonymize the manuscript; identifying info (name, funding,
   acknowledgments) goes on the **cover sheet** only.
 - **Length:** **no longer than ~12,000 words, *including* abstract, tables, and references** (检索于
-  2026-06；以官网为准).
+  2026-06-22；以官网为准).
 - **Abstract:** state **theoretical approach, method and data, results, and implications for theory**
   (no fixed word limit stated — 待核实).
 - **Keywords:** **3–5**; the first three should indicate **theory, research theme, and method**.
@@ -31,7 +34,8 @@ common avoidable failure is an under-anonymized manuscript; the second is forget
 - **Data policy:** authors must, where ethically possible, **publicly release data and code** as a
   condition of publication, with a mandatory **Data Availability Statement** (see
   `jpart-transparency-and-data`).
-- **Fee:** no submission fee stated; open-access publication requires an APC (待核实 the current figure).
+- **Fee:** **no submission fee** (re-verified 2026-06-22); open-access publication requires an OUP-handled
+  APC after acceptance (current figure 待核实 — confirm on the OUP page if choosing open access).
 - **ORCID:** not confirmed as required on the guidelines page (待核实).
 
 ## Preflight checklist

@@ -1,7 +1,7 @@
 # JPART Official Source Map
 
 Primary and authoritative sources behind the JPART-specific facts injected into this skill pack.
-Access date for all entries: **2026-06** (检索于 2026-06；以官网为准). Re-verify volatile items (editors and
+Access date for all entries: **2026-06-22** (检索于 2026-06-22；以官网为准). Re-verify volatile items (editors and
 editorial term, exact word/keyword limits, fee/APC, data-policy wording, decision categories) on the
 official page before relying on them — journal pages change.
 
@@ -58,9 +58,13 @@ official page before relying on them — journal pages change.
 
 ## Live-check / 需复核 items
 
-- **Current editorial term / exact start date of the Petersen–Mikkelsen team**: the Editorial Board page
-  lists them as current at access time (a transition from Mary K. Feeney, ASU, whose term ran 2019–2024),
-  but exact term dates were not confirmed verbatim. 需复核 on the live page.
+- **Current editorial team (re-verified 2026-06-22)**: **Ole Helby Petersen** (Roskilde University,
+  Editor-in-Chief) and **Kim Sass Mikkelsen** (Roskilde University, Co-Editor) confirmed current,
+  appointed to lead JPART for a **four-year term** (transition from Mary K. Feeney, ASU, whose term ran
+  2019–2024). Source: Roskilde University news, "Danish researchers to lead one of the world's leading
+  scientific journals" (https://ruc.dk/en/news/danish-researchers-lead-one-worlds-leading-scientific-journals),
+  cross-checked against the OUP JPART Editorial Board page. Exact term end-year still 需复核 on the live
+  board page.
 - **Abstract word limit**: the guidelines specify the *content* of the abstract (theory/method/results/
   implications) but no explicit abstract word cap was confirmed. 需复核.
 - **ORCID requirement**: not confirmed as mandatory on the JPART guidelines page (OUP often requires it at

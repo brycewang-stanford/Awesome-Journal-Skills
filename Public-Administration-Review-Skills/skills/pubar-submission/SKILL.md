@@ -15,9 +15,12 @@ volatile specifics on the official page before relying on them.
 - Unsure which files/metadata the portal expects
 - Confirming the chosen article type's expectations are met and the manuscript is anonymized
 
-## Process facts (verify volatile items on the official page — 检索于 2026-06；以官网为准)
+## Process facts (verify volatile items on the official page — 检索于 2026-06-22；以官网为准)
 
 - **Owner / publisher:** American Society for Public Administration (ASPA) / **Wiley**.
+- **Editors (re-verified 2026-06-22):** Editors-in-Chief **Jos Raadschelders** (Ohio State) and
+  **Katherine Willoughby** (University of Georgia); **Editor Hongtao Yi** (Ohio State); term **2024–2026**.
+  Because the term runs through 2026, re-confirm the masthead on the editorial-board page before submitting.
 - **Portal:** online submission system — the PAR submission page lists **Editorial Manager**
   (`editorialmanager.com/par`); some older guidance and the task seed reference **ScholarOne /
   Manuscript Central**. **Confirm the live portal before submitting.** 待核实.
@@ -32,7 +35,8 @@ volatile specifics on the official page before relying on them.
 - **Style:** **APA author–date** (confirm current edition).
 - **Transparency:** TOP-guideline materials and a data-availability statement (Dataverse / QDR; see
   `pubar-transparency-and-data`).
-- **Fee:** no submission fee stated; confirm any post-acceptance open-access APC handled by Wiley. 待核实.
+- **Fee:** **no submission fee** (re-verified 2026-06-22; no source states one); open access is optional
+  and would carry a post-acceptance Wiley APC — confirm the current figure only if you opt in.
 
 ## Preflight checklist
 
