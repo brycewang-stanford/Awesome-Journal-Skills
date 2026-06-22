@@ -1,0 +1,17 @@
+{
+  "skill": "writing-style tier (14 packs that fold citation/style into *-writing-style)",
+  "method": "SkillOpt-adapted verification pass (grep pre-screen + validated-fact transfer)",
+  "date": "2026-06-22",
+  "status": "assessed-no-edit",
+  "assessment": "Verified the citation/style facts in the 14 writing-style skills (packs without a dedicated citation skill) against each pack's official-source-map.md, focused on the one class of hard, checkable fact these skills carry: the citation system and its EDITION. Result: 1 real gap fixed by transfer, 13 certified solid, 0 padded. (1) FIXED: asr-writing-style said 'ASA Style Guide' generically while the source map verifies 'ASA Style Guide (7th ed., 2022)' — applied as a validated-fact transfer from asr-submission E1 (already gate-accepted 28->100). (2) CERTIFIED already-correct: soctheory/joc/aerj/revedres/jedpsych writing-style skills already state the correct edition (ASA 7th / APA 7th) matching their source maps. (3) CERTIFIED no-verifiable-edition: amanthro, curranthro, ajs, arsoc, eursr, smr, commres, aaag — their source maps pin NO citation-style edition, so there is no verified fact to add; editing would invent or pad (rejected per the never-invent rule). These writing-style skills are otherwise advice/craft content (prose, framing, signposting) with no further checkable hard facts beyond what the submission/citation skills already carry.",
+  "runs": [],
+  "edits": [],
+  "applied_edits": [],
+  "rejected_edit_buffer": [],
+  "transfers": [
+    {"target": "American-Sociological-Review-Skills/skills/asr-writing-style/SKILL.md",
+     "inherited_fact": "ASA Style Guide 7th ed. (2022) for author-date citations",
+     "from_edit": "asr-submission E1 (gate-accepted 28->100)",
+     "note": "validated-fact transfer; not a new full loop"}
+  ]
+}

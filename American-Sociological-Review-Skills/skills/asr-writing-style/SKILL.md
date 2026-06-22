@@ -28,8 +28,8 @@ reaching the discipline and respecting the format — not generating claims.
 
 ## Format to the ASA Style Guide
 
-- **Citations**: author-date per the ASA Style Guide; keep one consistent style (manage with
-  Zotero/BibTeX). **References count toward the 15,000-word limit.**
+- **Citations**: author-date per the **ASA Style Guide (7th ed., 2022)**; keep one consistent style
+  (manage with Zotero/BibTeX). **References count toward the 15,000-word limit.**
 - **Manuscript**: **double-spaced, Times New Roman 12 pt, ≥1-inch margins**; include a **word count**.
 - **Masking**: no title page in the manuscript; a **separate title page** carries affiliations,
   acknowledgments, and contact. You **may cite your own work** but must not word it to identify
