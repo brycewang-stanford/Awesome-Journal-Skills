@@ -43,7 +43,9 @@ target that does not skip its review stages for expedites.
 
 ## HLR-specific placement facts (verify on the official page)
 
-- HLR accepts submissions via **Scholastica** (检索于 2026-06；以官网为准 for any additional channel/email).
+- HLR itself intakes on its **own electronic submission system** — **not Scholastica**; you still run the
+  broad multi-submit/expedite **ladder on Scholastica for peer journals** (检索于 2026-06；以官网为准 for any
+  additional channel/email).
 - HLR states it makes every effort to honor expedite requests but **does not omit any of its review
   stages** in response — an HLR expedite does not buy a shortcut, only attention.
 - HLR and several peer journals have committed to give every author **at least seven days** to decide

@@ -1,83 +1,104 @@
 ---
 name: hlr-submission
-description: Use when running the final pre-submission preflight for the Harvard Law Review (HLR) via Scholastica — manuscript readiness, abstract/CV, Bluebook footnotes, expedite setup, and season timing. Final upload checks; it does not plan the placement strategy (hlr-placement-strategy) or draft content.
+description: Use when running the final pre-submission preflight for the Harvard Law Review (HLR) via HLR's own electronic submission system — manuscript readiness, anonymization, length limits, Bluebook 22nd-edition footnotes, expedite setup, and season timing. Final upload checks; it does not plan the placement strategy (hlr-placement-strategy) or draft content.
 ---
 
 # Submission Preflight (hlr-submission)
 
-The last check before uploading to **Scholastica**. Unlike a peer-reviewed journal, HLR receives a
-**near-final, fully footnoted** article — there is no "revise the methods later." The most common
-avoidable failures are an incomplete footnote apparatus, a manuscript that is not actually finished, and
-mistimed submission. Verify volatile specifics on the official page before relying on them.
+The last check before uploading through **HLR's own electronic submission system**
+(harvardlawreview.org). HLR does **not** intake through Scholastica — Scholastica/ExpressO are the
+*general-market* platforms you use to multi-submit and expedite at **peer** journals
+(see `hlr-placement-strategy`); HLR itself takes the manuscript on its own portal. Unlike a
+peer-reviewed science journal, HLR receives a **near-final, fully footnoted** article — there is no
+"revise the methods later." The most common avoidable failures are an over-length manuscript, an
+incomplete footnote apparatus, skipped anonymization, and mistimed submission.
 
 ## When to trigger
 
 - "Submitting this week" — last pass before upload
-- Unsure what Scholastica and HLR expect in the submission package
-- Confirming the manuscript is genuinely near-final and pull-ready
+- Unsure what HLR's submission system expects in the package
+- Confirming the manuscript is genuinely near-final, anonymized, and pull-ready
 
-## Process facts (verify volatile items on the official page)
+## Process facts (live-check only the items marked 待核实)
 
-- **Owner / publisher:** the **Harvard Law Review Association**; affiliated with **Harvard Law School**.
-- **Review model:** **student-edited** (not peer-reviewed). All pieces undergo a rigorous editorial process.
-- **Portal:** **Scholastica** (检索于 2026-06；以官网为准 for any additional channel or email submission).
+- **Owner / publisher:** the **Harvard Law Review Association** — an independent, student-run
+  organization (editorially independent of Harvard Law School).
+- **Portal:** HLR's **own electronic submission system** (Microsoft **Word** documents encouraged;
+  mailing the Articles Office is a fallback). Not Scholastica. (检索于 2026-06；以官网为准 for any
+  additional channel.)
+- **Review model:** **student-edited**, reviewed **anonymously**; each piece is read by **≥ 3
+  editors** and many proceed through an Articles Committee vote, a **preemption check**, a
+  **faculty peer-review** stage, and a full-body vote. ("Student-edited" — but a faculty peer-review
+  stage does exist; do not tell authors there is zero peer review.)
+- **Length** (count **includes text, footnotes, and appendices**): Articles preferred **≤ 25,000
+  words**; over **30,000** weighs against selection; unconditional acceptance over **37,500** is
+  rare. Essays (Print/Forum) **12,000–17,500**; Forum Responses **8,000**; Commentaries **6,000**;
+  Book Review proposals a few pages.
+- **Anonymization (required):** keep name, affiliation, bio, and acknowledgments on a **separate
+  cover page**; put the **title on the first text page**; **anonymize self-citations**.
+- **Citations:** **The Bluebook, 22nd edition** (HLR co-compiles it) — footnoted, pincited,
+  signal-correct.
+- **Expedite:** request via the unique link in your confirmation email; HLR honors requests where
+  it can but **does not omit review stages**; a **≥ 7-day** offer-decision window is committed.
 - **What HLR publishes:** **Articles, Essays, Book Reviews** by outside authors; **Notes** and case/
-  legislation comments by **student editors** (student writing is unsigned); the annual **Supreme Court
-  issue** (November) with the **Foreword**, and a **Developments in the Law** issue (April).
-- **Citations:** **The Bluebook** (HLR is a co-publisher) — footnoted, pincited, signal-correct.
-- **Length:** law-review Articles are long and heavily footnoted; **confirm the current word/length
-  guidance on the submissions page** (检索于 2026-06；以官网为准 — never assume a number).
-- **Expedite:** request via the unique link in your confirmation email; HLR honors requests where it can
-  but **does not omit review stages**; a **≥ 7-day** decision window is committed (检索于 2026-06；以官网为准).
-- **Fee:** no submission fee typical for law reviews via Scholastica (检索于 2026-06；以官网为准; never
-  assume a number — confirm).
-- **Season:** submit in the **Feb-Mar** main window or the smaller **Aug** window; earlier is stronger.
+  legislation comments by **student editors** (student writing is unsigned); the annual **Supreme
+  Court issue** (November) with the **Foreword**, and a **Developments in the Law** issue (April).
+- **Season:** submit in the **Feb-Mar** main window or the smaller **Aug** window; earlier is
+  stronger. Current intake **volume/season status** and any **fee**: 待核实 on the live page.
 
 ## Preflight checklist
 
 ### Manuscript readiness
-- [ ] The article is genuinely near-final — argument complete, not a draft to finish in editing
-- [ ] Length within current HLR guidance (confirmed on the live page, not assumed)
+- [ ] Genuinely near-final — argument complete, not a draft to finish in editing
+- [ ] **Length within limits**: Article ≤ 25k (over 30k weighs against; over 37.5k rarely accepted),
+      counting footnotes and appendices — cut before submitting if over
 - [ ] Introduction front-loads the claim and contribution (see `hlr-writing-style`)
 - [ ] Doctrine → theory → prescription arc intact (see `hlr-argument-structure`)
 
-### Footnotes & sources (the make-or-break)
-- [ ] Every proposition pincited to the strongest available authority (see `hlr-sources-and-bluebook`)
-- [ ] Bluebook formatting, signals, and short forms consistent
-- [ ] Every source kept and **pull-ready** for the eventual source-pull (see `hlr-footnotes-and-cite-check`)
+### Anonymization & footnotes (the make-or-break)
+- [ ] **Anonymized**: separate cover page; title on first text page; self-citations neutralized
+- [ ] Every proposition pincited to the strongest authority (see `hlr-sources-and-bluebook`)
+- [ ] **Bluebook 22nd-edition** formatting, signals, and short forms consistent
+- [ ] Every source kept and **pull-ready** for the source-pull (see `hlr-footnotes-and-cite-check`)
 - [ ] Originality confirmed and re-checked near submission (see `hlr-preemption-check`)
 
-### Package & metadata (Scholastica)
-- [ ] Manuscript file (with footnotes) prepared; abstract written
+### Package & metadata (HLR submission system)
+- [ ] Word manuscript (with footnotes) prepared; abstract written
+- [ ] **Anonymized cover page** separate from the manuscript body
 - [ ] CV / author info ready as the portal requires
 - [ ] Submission set tiered and timed (see `hlr-placement-strategy`)
 - [ ] Expedite mechanics understood (only with an offer in hand)
 
 ### Timing & compliance
 - [ ] Submitting early in a season, not mid-window into a crowded topic
+- [ ] If you prefer HLR, submit it **≥ 2 weeks before** sending to other journals
 - [ ] Original, unpublished work; no overlapping commitment
-- [ ] Any fee/policy specifics confirmed on the live page (do not assume)
+- [ ] Current intake volume/status and any fee confirmed on the live page (待核实)
 
 ## Anti-patterns
 
+- Submitting "through Scholastica" — that is the peer-journal market platform; **HLR uses its own
+  system**
+- An over-length manuscript (over 30k weighs against; over 37.5k rarely accepted) — and forgetting
+  footnotes count toward the limit
+- Skipping anonymization (cover page / self-citations) on an anonymously-reviewed submission
 - Uploading a draft you "plan to finish in editing" — HLR expects near-final
 - An incomplete or inconsistent footnote apparatus (it will not survive the source-pull)
-- Assuming a word limit or fee instead of confirming on the live page
 - Single-submitting and forgoing expedite leverage (see `hlr-placement-strategy`)
-- Submitting late in a crowded season
 
 ## Output format
 
 ```
-【Manuscript】near-final + length within current guidance? [Y/N]
-【Footnotes】pincited, Bluebook-correct, pull-ready? [Y/N]
+【Portal】HLR's own electronic submission system (NOT Scholastica)
+【Length】word count incl. footnotes vs ≤25k / 30k / 37.5k thresholds — within? [Y/N]
+【Anonymized】cover page + self-citations neutralized? [Y/N]
+【Footnotes】pincited, Bluebook 22nd, pull-ready? [Y/N]
 【Originality】preemption re-checked near submission? [Y/N]
-【Package】manuscript + abstract + CV ready for Scholastica? [Y/N]
-【Timing】early in Feb-Mar / Aug season? [Y/N]
+【Timing】early in Feb-Mar / Aug season; ≥2 wks before other journals if HLR-first? [Y/N]
 【Next】await offers → hlr-placement-strategy (expedite) → hlr-student-editor-review (on acceptance)
 ```
 
 ## Supplementary resources
 
 - [`templates/checklist.md`](templates/checklist.md) — printable pre-submission checklist
-- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official HLR submissions/Scholastica facts with 待核实 markers
+- [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — official HLR submissions facts with 待核实 markers

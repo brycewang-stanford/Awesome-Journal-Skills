@@ -7,8 +7,9 @@ description: Use when starting or navigating any Harvard Law Review (HLR) articl
 
 The orchestrator for a Harvard Law Review submission. HLR is **student-edited, not peer-reviewed**, and
 generalist across all of law. The router's first job is to set the right mental model: you write a
-**near-final** article, run a **preemption check** before drafting, place it through **Scholastica** to
-many journals at once, leverage offers with **expedite** requests, and then survive an intensive
+**near-final** article, run a **preemption check** before drafting, submit broadly across peer journals
+via **Scholastica** (but to **HLR through its own submission system**, not Scholastica), leverage offers
+with **expedite** requests, and then survive an intensive
 student-editor edit plus a full **cite-check / source-pull**. Figure out the stage, then dispatch.
 
 ## When to trigger
@@ -42,7 +43,7 @@ Are authorities cited correctly?      → hlr-sources-and-bluebook
 Is the footnote apparatus sound?      → hlr-footnotes-and-cite-check
 Does the prose read like a law review?→ hlr-writing-style
 Where and when do I submit/expedite?  → hlr-placement-strategy
-Ready to upload to Scholastica?       → hlr-submission
+Ready to upload (HLR's own system)?   → hlr-submission
 Editor sent edits / source-pull?      → hlr-student-editor-review
 Working through the edit cycle?        → hlr-revision-and-editing
 ```

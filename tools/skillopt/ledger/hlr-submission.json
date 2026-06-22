@@ -1,0 +1,82 @@
+{
+  "skill": "Harvard-Law-Review-Skills/skills/hlr-submission/SKILL.md",
+  "method": "SkillOpt-adapted rollout -> judge -> validation-gate",
+  "date": "2026-06-21",
+  "model_role_note": "rollout + judge subagents spawned via the Agent tool; rollout agents are constrained to the skill text only (to isolate the skill's marginal value); judge agents are blind to skill version and score against the ground-truth fact sheet.",
+  "rubric": "tools/skillopt/rubric.md",
+  "validation_set": "tools/skillopt/validation/hlr-submission.md",
+  "ground_truth_source": "Harvard-Law-Review-Skills/resources/official-source-map.md (re-verified 2026-06-21) + harvardlawreview.org/homepage/submissions + web cross-check 2026-06-21",
+  "static_scorecard_before": 94.0,
+  "static_scorecard_note": "quality_scorecard.py rated the whole HLR pack 94.0/100 while this skill contained a portal factual error and stranded users on stable facts -- the gap SkillOpt's behavioral eval exists to catch.",
+  "runs": [
+    {
+      "stage": "baseline",
+      "skill_version": "v1 (pre-optimization)",
+      "held_out_queries": ["Q1", "Q2", "Q3"],
+      "judge_total": 30,
+      "judge_breakdown": {"factual": 11, "specificity": 6, "coverage": 6, "venue": 4, "hedging": 3},
+      "wrong_facts": [
+        "States HLR submits via Scholastica -- HLR uses its OWN electronic submission system",
+        "Treats the (stable) word cap as unknowable, telling the 41,000-word author to 'confirm on the page' instead of flagging the over-length"
+      ],
+      "missed_needs": [
+        "41,000 words is well past the soft cap (>30k weighs against, >37.5k rarely accepted) -- the critical latent rejection risk",
+        "Footnotes are included in the count -- left as 'verify'",
+        "Bluebook 22nd edition -- deflected",
+        "Required anonymization (cover page, self-citations) -- omitted entirely",
+        "Concrete word-limit tiers (Articles 25k / Essays 12-17.5k / Responses 8k / Commentaries 6k) -- absent"
+      ]
+    },
+    {
+      "stage": "candidate",
+      "skill_version": "v2 (optimized, applied)",
+      "held_out_queries": ["Q1", "Q2", "Q3"],
+      "judge_total": 100,
+      "judge_breakdown": {"factual": 35, "specificity": 25, "coverage": 20, "venue": 10, "hedging": 10},
+      "wrong_facts": [],
+      "missed_needs": []
+    }
+  ],
+  "edits": [
+    {
+      "id": "E1",
+      "status": "APPLIED",
+      "ops": ["replace", "replace", "add", "add", "replace"],
+      "summary": "Correct the submission portal (Scholastica -> HLR's own electronic submission system, with the Scholastica=peer-market nuance preserved); add verified word-limit tiers stated to include footnotes/appendices and flag the over-length thresholds; add the required anonymization steps; pin Bluebook 22nd edition; soften 'not peer-reviewed' to note the faculty peer-review stage; add the >=2-week HLR-first timing advice.",
+      "grounded_in": "official-source-map.md (2026-06-21) + harvardlawreview.org submissions + web cross-check",
+      "baseline_score": 30,
+      "candidate_score": 100,
+      "gate": "ACCEPTED",
+      "gate_reason": "strict improvement 30 -> 100 on held-out Q1-Q3; zero wrong facts introduced"
+    },
+    {
+      "id": "E2",
+      "status": "REJECTED",
+      "ops": ["add"],
+      "summary": "A plausible 'more helpful' addition: assert a '$0 submission fee' and a '4-8 week decision turnaround', plus a generic 'career-defining, aim for polished prose' line.",
+      "grounded_in": "NOT verified -- fee and decision turnaround are volatile/unstated by HLR; the only committed timing fact is the >=7-day OFFER window",
+      "probe_query": "Q4 (submission fee + decision turnaround)",
+      "accepted_version_score": 99,
+      "candidate_score": 12,
+      "gate": "REJECTED",
+      "gate_reason": "regression 99 -> 12 on held-out Q4; the edit fabricates volatile facts (fee + turnaround). Held in the rejected-edit buffer; NOT applied."
+    }
+  ],
+  "applied_edits": ["E1"],
+  "rejected_edit_buffer": ["E2"],
+  "transfers": [
+    {
+      "target": "Harvard-Law-Review-Skills/skills/hlr-placement-strategy/SKILL.md",
+      "inherited_fact": "HLR intakes on its own electronic submission system, not Scholastica (the multi-submit/expedite ladder on Scholastica is for peer journals)",
+      "from_edit": "E1",
+      "note": "validated-fact transfer; did not run its own full rollout loop"
+    },
+    {
+      "target": "Harvard-Law-Review-Skills/skills/hlr-workflow/SKILL.md",
+      "inherited_fact": "portal nuance: peer-journal market via Scholastica, HLR itself via its own submission system",
+      "from_edit": "E1",
+      "note": "validated-fact transfer; did not run its own full rollout loop"
+    }
+  ],
+  "result": "hlr-submission held-out behavioral score 30 -> 100 (+70). One real edit accepted by the gate; one plausible edit rejected by the gate. Static scorecard unchanged (~94) -- by design, the win is invisible to structural scoring."
+}

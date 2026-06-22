@@ -37,10 +37,17 @@ Science does NOT contain Cell Press "STAR Methods"; earlier claim retracted.)
   `.maintenance/MONTHLY-UPLIFT-2026-06-20.md`; prioritize low-tail breadth packs, root-card
   provenance, source-map unresolved debt, and clone-audit triage; no submodule edits and no
   count growth unless the user explicitly opens an expansion lane.
+- **Claude — 2026-06-21 SkillOpt behavioral-optimization lane**: port Microsoft SkillOpt's
+  rollout→reflect→**validation-gate** loop into `tools/skillopt/` (behavioral eval that the
+  static `quality_scorecard.py` cannot do), and demo-optimize the **Harvard-Law-Review-Skills**
+  pack only. Touches `tools/skillopt/**` and `Harvard-Law-Review-Skills/**` exclusively; targeted
+  `git add` only; no other journal-content rewrites, no count changes, no submodule edits.
 
 ## Claim log
 | Pack | Agent | Status | Notes |
 |------|-------|--------|-------|
+| Harvard-Law-Review-Skills | Claude | done | SkillOpt behavioral demo: hlr-submission held-out 30→100; fixed Scholastica→own-portal error, added verified word limits/anonymization/Bluebook-22nd; transferred to placement-strategy/workflow/checklist |
+| tools/skillopt (harness) | Claude | done | new rollout→judge→**validation-gate** harness (behavioral counterpart to Codex's deterministic `tools/skillopt_gate.py`); tools-only, no overlap |
 | Quarterly-Journal-of-Economics-Skills | A | in progress | golden template; deep venue research |
 | Journal-of-Political-Economy-Skills | A | queued | |
 | Econometrica-Skills | A | queued | |
