@@ -1,0 +1,24 @@
+{
+  "skill": "Journal-of-Communication-Skills/skills/joc-submission/SKILL.md",
+  "method": "SkillOpt-adapted rollout -> judge -> validation-gate (scale-up wave 3)",
+  "date": "2026-06-21",
+  "ground_truth_source": "Journal-of-Communication-Skills/resources/official-source-map.md",
+  "static_scorecard_before": 94.0,
+  "held_out_queries": [
+    "How long to a first decision, and how many reviewers will see my paper?",
+    "Submission fee? If I want open access what will it cost — waivers or Read-and-Publish?",
+    "Does JoC have a Registered Reports track, and is preregistration mandatory?"
+  ],
+  "runs": [
+    {"stage": "baseline", "skill_version": "v1", "judge_total": 75, "judge_breakdown": {"factual": 35, "specificity": 11, "coverage": 11, "venue": 8, "hedging": 10}},
+    {"stage": "candidate", "skill_version": "v2 (applied)", "judge_total": 99, "judge_breakdown": {"factual": 35, "specificity": 25, "coverage": 20, "venue": 9, "hedging": 10}}
+  ],
+  "edits": [
+    {"id": "E1", "status": "APPLIED", "ops": ["add", "add", "replace", "replace"],
+     "summary": "Add the approximate decision timeline (~90-120 days, 需复核) and reviewer count (usually 2-3, desk criteria not enumerated); expand the fee bullet to hybrid OA with Read-and-Publish coverage and Research4Life/discretionary waivers (exact APC 需复核); clarify preregistration is encouraged-not-required and that NO formal Registered Reports track is confirmed (do not assume one).",
+     "grounded_in": "official-source-map.md (verified quotes)", "baseline_score": 75, "candidate_score": 99, "gate": "ACCEPTED",
+     "gate_reason": "strict improvement 75 -> 99; approximate/unconfirmed items carried explicit live-check; acceptance rate not invented (absent)"}
+  ],
+  "applied_edits": ["E1"], "rejected_edit_buffer": [], "transfers": [],
+  "result": "joc-submission held-out 75 -> 99 (+24). Static scorecard ~94 unchanged."
+}

@@ -17,23 +17,25 @@ description: Use when running the final pre-submission preflight for a Review of
 | Item | What RER expects |
 |------|------------------|
 | Portal | **Manuscript Central / ScholarOne**: `mc.manuscriptcentral.com/rer` |
-| Artefact | A **comprehensive, critical, integrative review** — no original empirical research unless incorporated in a broader review |
+| Artefact | A **comprehensive, critical, integrative review of literature related to education** — RER **does not publish original empirical research** unless it is incorporated in a broader integrative review. **Interdisciplinary** submissions (psychology, sociology, history, economics) are welcome **provided they address educational issues**. RER also occasionally runs **solicited but refereed** analytic reviews of special topics |
+| Review process | **Masked (anonymized) review** — manuscript anonymized so reviewers do not see author identity |
 | Style | **APA 7th edition** throughout |
 | Abstract | **≤ 150 words**, with keywords (separately and on page 2 after the blinded title page) |
 | File format | **Microsoft Word** (not PDF) — the system converts it |
 | Files | (a) separate **unblinded title page** with APA-7 Author Note; (b) **main manuscript** with a **BLINDED title page**, abstract + keywords, and the body incl. tables/figures; (c) **Author Bios** |
 | Masking | Manuscript anonymized for masked review; anonymize **only limited-circulation** self-citations (forthcoming/in press/unpublished), not ordinary published self-cites |
-| Reporting standards | Systematic reviews/meta-analyses: consult **PRISMA** and the APA **Reporting Standards for Research in Psychology** (MARS/JARS) |
-| Volatile | Fee, exact length limit, current editors/contact, and timelines — **re-confirm on the SAGE/AERA RER pages** |
+| Reporting standards | Systematic reviews/meta-analyses: consult **PRISMA** and the APA **Reporting Standards for Research in Psychology** (MARS/JARS); authors should also consult RER's **Guidelines for Reviewers** |
+| Publication | RER is an **AERA** journal published by **SAGE**, **established 1931**, issued **bimonthly (six issues/year)**; DOI stem `10.3102/` |
+| Volatile | **Fee/APC** (none stated in the captured guidance — do not assert one), **exact length/word maximum**, current **editors/contact**, and **decision timelines / reviewer counts** — **re-confirm on the SAGE/AERA RER pages** (待核实) |
 
 ## Preflight (work top to bottom)
 
-1. **Venue fit.** It is a review (systematic / meta-analytic / critical-integrative), not original empirical research — else route per `revedres-editor-strategy`.
+1. **Venue fit.** It is a comprehensive, critical, integrative review (systematic / meta-analytic / critical-integrative) of literature bearing on education — **not** original empirical research (unless folded into a broader integrative review), else route per `revedres-editor-strategy`. Interdisciplinary angles are fine if they address educational issues. Review is **masked/anonymized**, so masking must hold.
 2. **Masking is correct.** Body de-identified; blinded title page in the main file; **only** limited-circulation self-citations anonymized; a separate unblinded title page + Author Note + Author Bios prepared.
 3. **APA 7 conformance.** Citations, references, headings, tables, figures, and bias-free language all APA 7th.
 4. **Abstract ≤ 150 words**, review-style, with keywords, in both required locations.
 5. **Exhibits attached and reconciling.** PRISMA flow (counts reconcile), study table with risk-of-bias, forest/funnel for meta-analyses — embedded in the Word file.
-6. **Reporting-standard checklists** completed (PRISMA, MARS) and registration (PROSPERO/OSF) cited; open-materials links ready.
+6. **Reporting-standard checklists** completed (PRISMA, MARS) and registration (PROSPERO/OSF) cited; open-materials links ready; **Guidelines for Reviewers** consulted.
 7. **File set + format.** Word (not PDF); the three-file set (unblinded title page / blinded main manuscript / Author Bios) assembled.
 8. **Volatile re-confirms.** Fee, length, current editors/contact, and any policy specifics checked on the official RER pages today.
 

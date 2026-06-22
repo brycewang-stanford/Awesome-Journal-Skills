@@ -1,0 +1,25 @@
+{
+  "skill": "Communication-Research-Skills/skills/commres-submission/SKILL.md",
+  "method": "SkillOpt-adapted rollout -> judge -> validation-gate (scale-up wave 3)",
+  "date": "2026-06-21",
+  "ground_truth_source": "Communication-Research-Skills/resources/official-source-map.md",
+  "static_scorecard_before": 94.0,
+  "held_out_queries": [
+    "Does CR run special issues / use guest editors, and can I suggest reviewers?",
+    "Abstract requirements (cap, structured?); I posted a preprint with a DOI — allowed, and what must I provide?",
+    "Review process: screen before peer review? how many reviews back a revise/accept? who decides?",
+    "Do supplementary files count toward the 45-page limit?"
+  ],
+  "runs": [
+    {"stage": "baseline", "skill_version": "v1", "judge_total": 67, "judge_breakdown": {"factual": 33, "specificity": 8, "coverage": 9, "venue": 8, "hedging": 9}},
+    {"stage": "candidate", "skill_version": "v2 (applied)", "judge_total": 100, "judge_breakdown": {"factual": 35, "specificity": 25, "coverage": 20, "venue": 10, "hedging": 10}}
+  ],
+  "edits": [
+    {"id": "E1", "status": "APPLIED", "ops": ["add", "add", "replace", "replace"],
+     "summary": "Add no-special-issues/no-guest-editors, journal-assigns-reviewers (no author recommendations), the 150-word unstructured abstract spec, the preprint prior-posting rule (DOI at submission), the full review chain (initial screen -> two reviews -> Co-editors decide), and supplements-excluded-from-the-45-page-limit. Corrected an over-assertion: replaced named Editors-in-Chief (absent from source map) with Co-editors + live-check masthead.",
+     "grounded_in": "official-source-map.md (verified quotes)", "baseline_score": 67, "candidate_score": 100, "gate": "ACCEPTED",
+     "gate_reason": "strict improvement 67 -> 100; also removed a fixed-editor over-assertion per the source map's live-check rule"}
+  ],
+  "applied_edits": ["E1"], "rejected_edit_buffer": [], "transfers": [],
+  "result": "commres-submission held-out 67 -> 100 (+33). Note: templates/checklist.md abstract line still carries the old phrasing (flagged for a later consistency pass)."
+}

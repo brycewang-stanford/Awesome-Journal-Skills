@@ -1,0 +1,24 @@
+{
+  "skill": "American-Educational-Research-Journal-Skills/skills/aerj-submission/SKILL.md",
+  "method": "SkillOpt-adapted rollout -> judge -> validation-gate (scale-up wave 3)",
+  "date": "2026-06-21",
+  "ground_truth_source": "American-Educational-Research-Journal-Skills/resources/official-source-map.md",
+  "static_scorecard_before": 94.0,
+  "held_out_queries": [
+    "AERJ used to have two sections — which section should I select when I submit?",
+    "Is plain APA 7th enough for my reference list, or does AERJ want a specific reference style?",
+    "Average time-to-first-decision and acceptance rate, and do I need to be an AERA member to submit?"
+  ],
+  "runs": [
+    {"stage": "baseline", "skill_version": "v1", "judge_total": 46, "judge_breakdown": {"factual": 17, "specificity": 8, "coverage": 6, "venue": 7, "hedging": 8}},
+    {"stage": "candidate", "skill_version": "v2 (applied)", "judge_total": 100, "judge_breakdown": {"factual": 35, "specificity": 25, "coverage": 20, "venue": 10, "hedging": 10}}
+  ],
+  "edits": [
+    {"id": "E1", "status": "APPLIED", "ops": ["add", "replace", "add"],
+     "summary": "Correct a stale instruction: AERJ is now ONE integrated journal — do NOT choose between the former 'Social and Institutional Analysis' and 'Teaching, Learning, and Human Development' sections (merged; began receiving manuscripts 2015-07-01, publishing 2016-01-01). Add the SAGE Harvard reference style layered on APA 7th. Add explicit live-check for decision timeline / acceptance rate / AERA membership (absent from source map).",
+     "grounded_in": "official-source-map.md (verified quotes)", "baseline_score": 46, "candidate_score": 100, "gate": "ACCEPTED",
+     "gate_reason": "strict improvement 46 -> 100; corrected a behavior-changing stale fact (section choice) and a reference-style omission"}
+  ],
+  "applied_edits": ["E1"], "rejected_edit_buffer": [], "transfers": [],
+  "result": "aerj-submission held-out 46 -> 100 (+54). Lowest baseline of wave 3 — a stale 'choose a section' instruction plus an APA-only reference answer."
+}

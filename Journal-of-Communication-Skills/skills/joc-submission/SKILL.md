@@ -29,9 +29,18 @@ volatile specifics on the official page before relying on them.
 - **Style & file:** **APA 7th edition**; **Microsoft Word (.docx)** (PDF not accepted); 12-pt Times New
   Roman, double-spaced, 1.0-inch margins.
 - **Self-citations:** written in the **third person**.
-- **Transparency:** **Data Availability Statement required**; note any **preregistration** in the cover
-  letter; deposit **Open Science Badge** materials if claiming a badge.
-- **Fee:** no submission fee stated; hybrid **open-access APC** handled by OUP after acceptance (待核实).
+- **Transparency:** **Data Availability Statement required**; **preregistration is encouraged, not
+  required** — note it in the cover letter; **Open Science Badges** are supported for open data, open
+  materials, and preregistration. No formal **Registered Reports** (Stage 1/Stage 2) track is confirmed
+  for JoC — do not assume one exists (需复核 on live calls-for-papers).
+- **Review process:** **double-anonymous**; external review is **usually by two or three** referees
+  (需复核); formal desk-screening criteria are not enumerated on the official pages.
+- **Fee & open access:** no submission fee stated; **hybrid open-access** option — authors may pay an OA
+  fee (APC) to make the accepted manuscript freely available. **Read-and-Publish agreements may cover
+  the APC**, and OUP offers **Research4Life waivers (Tier 3)** plus discretionary waivers. The exact APC
+  amount/currency is maintained separately by OUP and changes (需复核 on the live OUP charges page).
+- **Decision timeline:** time-to-first-decision is reported approximately as **within ~90–120 days**;
+  treat as approximate and confirm on the live guidelines page (需复核).
 
 ## Preflight checklist
 
@@ -75,8 +84,9 @@ most often trigger a return or an early decline are mechanical — fix them in t
 
 A JoC-ready submission clears three bars at once: a **theory-advancing** contribution (not a bare
 effect), **valid message/exposure measurement** an expert referee will trust, and **broad
-significance** legible to ICA's readership. Volatile specifics — page rules, badge mechanics, APC
-handling, timelines — drift; **confirm against the current submission guidelines**.
+significance** legible to ICA's readership. Volatile specifics — page rules, badge mechanics, exact
+APC amount, reviewer count, decision timeline — drift; **confirm against the current submission
+guidelines**.
 
 ## Worked micro-example: a 5-minute anonymity sweep (illustrative)
 

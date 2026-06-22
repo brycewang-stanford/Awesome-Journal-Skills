@@ -17,20 +17,28 @@ volatile specifics on the official page before relying on them.
 
 ## Process facts (verified 2026-06-20; re-check live page before upload)
 
-- **Owner / publisher:** American Educational Research Association (AERA) / SAGE.
+- **Owner / publisher:** American Educational Research Association (AERA) / SAGE. AERJ is the
+  **flagship journal of AERA**.
+- **One integrated journal — do NOT choose a section.** AERJ was *formerly* divided into **Social and
+  Institutional Analysis** and **Teaching, Learning, and Human Development** sections, but the
+  integrated AERJ began receiving new manuscripts on **July 1, 2015** and publishing on
+  **January 1, 2016**. Submit to the single integrated journal; do not pick between the former sections.
 - **Portal:** **ScholarOne Manuscripts** at **https://mc.manuscriptcentral.com/aerj**.
 - **Review model:** **double-anonymous / masked** — names only on the **separate title page file**.
 - **Length:** manuscript **maximum 50 pages**, double-spaced, 12-pt, 1" margins, **inclusive** of tables,
-  figures, notes, and references.
+  figures, notes, and references; 8.5" x 11" paper.
 - **Abstract:** **100–120 words**.
-- **Style:** **APA 7th edition** (author-date).
-- **ORCID:** provide for the corresponding author.
+- **Style:** manuscripts follow **APA 7th edition**; AERJ uses the **SAGE Harvard reference style** on
+  its submission-guidelines page for the reference list (verify against the live guidelines).
+- **ORCID:** required for the corresponding author.
 - **Fee:** the SAGE guidelines state there is **no fee to publish or submit**; gold OA via **SAGE Choice** is available for a fee.
+- **Decision timeline / acceptance rate / AERA-membership-to-submit:** not stated in the pack source map
+  — treat as **待核实/需复核** and confirm on the live SAGE author-instructions and AERA journal pages.
 
 ## Preflight checklist
 
 ### Fit & length
-- [ ] Dominant education-research lens named for integrated AERJ fit
+- [ ] Dominant education-research lens named for **integrated** AERJ fit (one journal; do **not** pick a former section)
 - [ ] Manuscript within the 50-page maximum, including tables/figures/notes/references
 - [ ] Abstract **100–120 words**, stating purpose + method + finding + significance
 
@@ -42,7 +50,7 @@ volatile specifics on the official page before relying on them.
 - [ ] Anonymized preregistration / OSF link if referenced
 
 ### Format & metadata
-- [ ] **APA 7th edition** formatting; consistent author-date citations and reference list
+- [ ] **APA 7th edition** formatting; reference list per the **SAGE Harvard reference style** on the guidelines page (verify live)
 - [ ] Double-spaced, 12-pt, 1" margins
 - [ ] Corresponding-author **ORCID** ready
 - [ ] Figures/tables self-contained, accessible, anonymized (see `aerj-tables-figures`)

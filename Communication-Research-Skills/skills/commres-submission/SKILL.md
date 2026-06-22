@@ -22,25 +22,35 @@ volatile specifics on the SAGE author page before relying on them.
 - **Portal:** **SAGE Track** (ScholarOne); author guidelines at
   `journals.sagepub.com/author-instructions/crx` (检索于 2026-06；以官网为准).
 - **Review model:** **double-anonymized** — anonymize the main document **and** supplemental materials;
-  provide a separate title page. **Two independent reviews** are required to back a Revise/Accept.
-- **Length:** manuscript **no more than 45 pages, double-spaced, inclusive of references** (检索于
-  2026-06；以官网为准).
+  provide a separate title page. An **initial evaluation precedes peer review**; **two independent
+  reviews** are required to back a Revise or Accept. Reviewers recommend to the **Co-editors, who make
+  the final decision**.
+- **Reviewer suggestions:** the **journal assigns reviewers and does not accept author
+  recommendations** — do not include a suggested-reviewer list.
+- **Length:** manuscript **no more than 45 pages, double-spaced, inclusive of references**;
+  **supplementary files do not count toward the page limit**.
+- **Abstract:** **unstructured, no more than 150 words**, placed between title and main body;
+  clinical-trial registration details (if applicable) go at the **end of the abstract**.
+- **Special issues:** CR **does not publish special issues and does not work with guest editors**.
+- **Preprints:** accepted as **prior posting** — supply the **DOI at submission**, and add the
+  final-version link if accepted.
 - **Style & reporting:** **APA**; report statistics in line with APA — standard deviations and **effect
-  sizes** where applicable.
+  sizes** where applicable; power analysis, confidence intervals for bootstrapping, and correlation
+  matrices (as an online appendix) are encouraged where relevant.
 - **Self-citations:** written in the **third person**.
 - **Transparency:** **data-availability statement** expected; note any **preregistration** in the cover
   letter; deposit **open-materials/data** if claiming open practices; provide **ORCID** where requested.
 - **Fee:** no submission fee for the standard (subscription) route; an optional **open-access APC**
   applies only if you choose OA after acceptance (待核实 exact amount).
-- **Editors:** Editors-in-Chief listed on the masthead (e.g., Silvia Knobloch-Westerwick and Jennifer
-  Gibbs at access time) — confirm the current masthead (待核实).
+- **Editors:** final decisions rest with the **Co-editors**; editor roles rotate — confirm the current
+  masthead on the live SAGE page (待核实).
 
 ## Preflight checklist
 
 ### Format & length
 - [ ] Manuscript ≤ **45 pages**, double-spaced, **inclusive of references**
 - [ ] Full specifications, scale items, robustness grids, codebooks moved to the **online supplement**
-- [ ] Abstract states question + design + tested mechanism + finding (confirm cap on the SAGE page)
+- [ ] Abstract **unstructured, ≤ 150 words**, between title and main body; states question + design + tested mechanism + finding
 
 ### Anonymity (double-anonymized)
 - [ ] No author names, affiliations, or acknowledgments in the **main document**
@@ -68,6 +78,7 @@ volatile specifics on the SAGE author page before relying on them.
 | Manuscript over 45 double-spaced pages (refs counted) | returned for length | move specs/scales/robustness to the supplement |
 | Stars-only results, no effect sizes | returned for APA reporting | add d/η²ₚ/β + CIs; report SDs |
 | Qualitative/descriptive submission | declined without review | re-route to a generalist/digital sibling, or add a tested mechanism |
+| Abstract over 150 words or structured | returned incomplete | trim to ≤ 150 words, unstructured, between title and body |
 | No data-availability statement | flagged incomplete | add the statement (repository + identifier, or exemption) |
 
 ## Calibration anchor: what "ready" means at CR (hedged)

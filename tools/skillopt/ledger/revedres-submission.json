@@ -1,0 +1,24 @@
+{
+  "skill": "Review-of-Educational-Research-Skills/skills/revedres-submission/SKILL.md",
+  "method": "SkillOpt-adapted rollout -> judge -> validation-gate (scale-up wave 3)",
+  "date": "2026-06-21",
+  "ground_truth_source": "Review-of-Educational-Research-Skills/resources/official-source-map.md",
+  "static_scorecard_before": 94.0,
+  "held_out_queries": [
+    "Can I submit my RCT empirical study to RER, or review articles only? Does it accept interdisciplinary work?",
+    "Is RER review single-blind or double-blind / masked? What must I hide?",
+    "Fee/APC, decision timeline, and word limit?"
+  ],
+  "runs": [
+    {"stage": "baseline", "skill_version": "v1", "judge_total": 66, "judge_breakdown": {"factual": 23, "specificity": 13, "coverage": 13, "venue": 8, "hedging": 9}},
+    {"stage": "candidate", "skill_version": "v2 (applied)", "judge_total": 99, "judge_breakdown": {"factual": 35, "specificity": 25, "coverage": 20, "venue": 9, "hedging": 10}}
+  ],
+  "edits": [
+    {"id": "E1", "status": "APPLIED", "ops": ["replace", "add", "add"],
+     "summary": "State the review-only scope verbatim (no original empirical research unless in a broader integrative review), interdisciplinary-welcome-if-education-bearing, and solicited-but-refereed special reviews; name the review process as masked (anonymized); add publication facts (AERA/SAGE, established 1931, bimonthly, DOI 10.3102/) and the Guidelines for Reviewers; make explicit that no fee/APC is stated (do not assert one).",
+     "grounded_in": "official-source-map.md (verified quotes)", "baseline_score": 66, "candidate_score": 99, "gate": "ACCEPTED",
+     "gate_reason": "strict improvement 66 -> 99; named the verified masked-review label; fee/length/timeline correctly deferred per source map"}
+  ],
+  "applied_edits": ["E1"], "rejected_edit_buffer": [], "transfers": [],
+  "result": "revedres-submission held-out 66 -> 99 (+33). Static scorecard ~94 unchanged."
+}
