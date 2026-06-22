@@ -80,7 +80,10 @@ are marked **需复核 (to be verified)**.
   openICPSR stores JEL codes for AEA deposits, but the AEJ: Micro submissions/editorial
   pages did not return an explicit "JEL required" sentence in a static fetch. The pack
   states JEL codes as **expected/required per AEA practice**; the exact wording is **需复核**.
-- **Current submission-fee amounts and per-page charge** — confirmed for 2026-06 from the
-  submissions page, but these are **volatile**; re-confirm before relying on them.
+- **Editor + current submission-fee amounts** — Editor **Navin Kartik (Yale)** and the fee
+  schedule (members $200/100/0, nonmembers $300/200/0; $15/typeset page) were **re-verified
+  2026-06-22** as current/unchanged; note Kartik moved to Yale (Fall 2025) and remains lead
+  editor. These are **volatile**; re-confirm on the AEA editors/submissions pages before relying
+  on them.
 - **Full Board-of-Editors roster** — the editors page lists the Editor, coeditors, and Data
   Editor reliably; the complete ~20-member board is **需复核** in detail.

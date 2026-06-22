@@ -42,9 +42,9 @@ wording can change.
 | Submission is through **Editorial Manager**; the system converts uploaded files into a peer-review PDF | ScienceDirect home; Guide for Authors |
 | Current review model is **single anonymized**; suitable papers typically go to a **minimum of two reviewers** | Guide for Authors |
 | Formal appeal possible if it meets Elsevier appeal-policy requirements; one appeal per submission and appeal decision final | Guide for Authors |
-| Submission fee for original manuscripts: **USD 50 non-refundable** | Elsevier Guide official search snippet |
-| Open-access APC: **USD 4,760** excluding taxes; subscription route has no publication fee charged to authors | ScienceDirect home |
-| Current Editors-in-Chief: **A. Foster** and **K. Macours** | ScienceDirect home; editorial board |
+| Submission fee for original manuscripts: **USD 50 non-refundable** (re-verified 2026-06-22) | Elsevier Guide official search snippet |
+| Open-access APC: **USD 4,760** excluding taxes (re-verified 2026-06-22); subscription route has no publication fee charged to authors | ScienceDirect home |
+| Current Editors-in-Chief: **A. Foster** (Brown University) and **K. Macours** (Paris School of Economics) — re-verified 2026-06-22 | ScienceDirect home; editorial board |
 | Co-Editors include **Dean Karlan** and other current board members listed on ScienceDirect | Editorial board |
 | Short-paper route: at most **6,000 words**, **5 exhibits**, and **20-page online appendix**; manuscripts must be self-contained | ScienceDirect home; Guide for Authors |
 | Short-paper refereed decisions generally occur within **6-8 weeks**; standard-format rejections may be invited into short format with a no-further-review commitment if instructions are followed | ScienceDirect home; Guide for Authors |

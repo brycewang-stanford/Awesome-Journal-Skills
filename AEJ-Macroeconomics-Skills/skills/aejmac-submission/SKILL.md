@@ -12,11 +12,11 @@ description: Use when running the final pre-submission preflight for the America
 - Confirming the format rules (PDF, length, abstract, JEL) are AEJ: Macro-compliant
 - Confirming disclosure statements and data/code readiness are in order
 
-## Process facts (verified 2026-06; re-confirm on the official AEA pages)
+## Process facts (verified 2026-06; editor + fees re-verified 2026-06-22; re-confirm on the official AEA pages)
 
-- AEJ: Macro is one of the AEA's four *American Economic Journals* (founded 2009; quarterly). Print ISSN 1945-7707 / Online ISSN 1945-7715. Submission is through the **AEA submission system** as **PDF**.
-- **Submission fee (membership- and income-scaled; 检索于 2026-06；以官网为准):** AEA members US$200 (high-income country) / US$100 (middle-income) / US$0 (low-income); nonmembers US$300 / US$200 / US$0. Paid by credit card at submission. Papers **rejected without review receive a 50% refund**.
-- **Publication fee:** US$15 per typeset page, assessed at page proofs (applies to papers submitted after Feb 1, 2024; 检索于 2026-06；以官网为准).
+- AEJ: Macro is one of the AEA's four *American Economic Journals* (founded 2009; quarterly). Print ISSN 1945-7707 / Online ISSN 1945-7715. Submission is through the **AEA submission system** as **PDF**. Editor (re-verified 2026-06-22): **Ayşegül Şahin** (Princeton); coeditors Bianchi (Johns Hopkins), Kalemli-Özcan (Brown), Quadrini (USC) — re-verify the masthead on the AEA editors page before submission.
+- **Submission fee (membership- and income-scaled; 检索于 2026-06-22；以官网为准):** AEA members US$200 (high-income country) / US$100 (middle-income) / US$0 (low-income); nonmembers US$300 / US$200 / US$0. Paid by credit card at submission. Papers **rejected without review receive a 50% refund**.
+- **Publication fee:** US$15 per typeset page, assessed at page proofs (applies to papers submitted after Feb 1, 2024; 检索于 2026-06-22；以官网为准).
 - **Review:** **single-blind** (author known to referee). JEL codes required. AI cannot be listed as an author.
 - **Data & code:** governed by the AEA Data and Code Availability Policy; the **AEA Data Editor** runs a pre-publication reproducibility check; deposit at the AEA Data and Code Repository on openICPSR (see `aejmac-replication-package`). Field experiments register in the AEA RCT Registry.
 

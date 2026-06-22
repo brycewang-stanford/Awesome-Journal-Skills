@@ -15,10 +15,11 @@ description: Use when running the final pre-submission preflight for the Europea
 ## Process facts (检索于 2026-06；以官网为准)
 
 - EER is **Elsevier's** general-interest European economics journal (founded 1969), hosted on **ScienceDirect** (ISSN 0014-2921). Submission is via **Editorial Manager** at `https://www.editorialmanager.com/eerev`.
+- **Editors-in-Chief (verified 2026-06-22):** Evi Pappa (Universidad Carlos III de Madrid), David K. Levine (Royal Holloway), Stefania Garetto (Boston University), Peter Rupert (UC Santa Barbara), and Robert Sauer (Royal Holloway). EER uses a multi-editor masthead; re-verify the current editor on the ScienceDirect editorial-board page before naming one in a cover letter.
 - **Review model:** **single-anonymized** (single-blind) — referees see author identities; editors desk-screen for scope/novelty before sending to **≥2 referees**. First decision is typically fast.
-- **Submission fee:** **non-refundable EUR 125** for new submissions (**EUR 100** if the contact author is a PhD student); **Research4Life Group A** countries eligible for a **waiver via a voucher** requested before submission. Submissions are considered only after the fee is paid. (检索于 2026-06；以官网为准 — re-confirm current amounts and waiver routes.)
+- **Submission fee (verified 2026-06-22):** **non-refundable EUR 125** for new submissions (**EUR 100** if the contact author is a PhD student; **EUR 50** if from a Research4Life **Group B** country); **Research4Life Group A** countries eligible for a **full waiver via a voucher** requested before submission. Submissions are considered only after the fee is paid. Re-verify current amounts and waiver routes before filing.
 - **Mandatory replication policy:** accepted papers with empirical/simulation/experimental content must provide data, programs, and computational details **before publication** (see `eer-replication-package`).
-- **Open access:** optional Gold OA with an APC; the subscription route has **no APC**. Do not assert an APC amount without checking the current journal page (检索于 2026-06；以官网为准).
+- **Open access:** optional Gold OA with an APC (**USD 3,760** excl. tax, verified 2026-06-22); the subscription route has **no APC**. Re-confirm the current APC on the journal page before quoting it.
 - **Appeals:** one formal appeal per submission, per Elsevier's appeal policy; the appeal decision is final.
 
 ## Preflight checklist
@@ -34,7 +35,7 @@ description: Use when running the final pre-submission preflight for the Europea
 
 ### Files & fees (Editorial Manager)
 - [ ] Main manuscript (editable) + figures/tables + any supplementary appendix
-- [ ] Submission fee ready (EUR 125 / EUR 100 PhD), or **Research4Life voucher obtained in advance**
+- [ ] Submission fee ready (EUR 125 / EUR 100 PhD / EUR 50 R4L Group B), or **Research4Life Group A voucher obtained in advance**
 - [ ] Cover letter (scope/contribution; suggested/excluded referees if invited)
 
 ### Declarations & policy
@@ -59,7 +60,7 @@ description: Use when running the final pre-submission preflight for the Europea
 ```
 【Format】editable source + abstract/JEL/keywords/highlights present? [Y/N]
 【Exhibits】SEs reported, stars not load-bearing, editable figures? [Y/N]
-【Fee】EUR 125 / EUR 100 PhD ready, or Research4Life voucher obtained? [Y/N]
+【Fee】EUR 125 / EUR 100 PhD / EUR 50 R4L Group B ready, or Group A voucher obtained? [Y/N]
 【Declarations】declaration of interest + data-availability + no-AI-author? [Y/N]
 【Replication】deposit ready per mandatory policy? [Y/N]
 【Next step】submit via Editorial Manager → eer-rebuttal after the decision

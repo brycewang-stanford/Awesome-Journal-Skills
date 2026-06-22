@@ -2,9 +2,11 @@
 
 Primary sources behind every AEJ: Applied-specific fact injected into this skill
 pack. Sources were checked on **2026-06-20** against official American Economic
-Association (AEA) pages and AEA article pages. For editor rosters, fees, and
-portal fields, use the facts below as the package baseline and check the live AEA
-pages during submission week.
+Association (AEA) pages and AEA article pages; the **editor and fee facts were
+re-verified 2026-06-22** (Editor Raymond Fisman, lead-editor term beginning
+January 2026; AEA submission/publication fee schedule unchanged). For editor
+rosters, fees, and portal fields, use the facts below as the package baseline and
+check the live AEA pages during submission week.
 
 ## Official AEA / AEJ: Applied pages
 

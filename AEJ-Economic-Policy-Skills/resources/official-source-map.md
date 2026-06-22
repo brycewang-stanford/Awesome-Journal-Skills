@@ -85,10 +85,13 @@ pages change. Items that could not be confirmed from a primary fetch are marked 
 
 ## Unverified / volatile items (待核实)
 
-- **Editor and co-editor roster** — captured from the AEA editors page on 2026-06-20; AEA editorial terms
-  rotate, so re-confirm the masthead on `aeaweb.org/journals/pol/editors` before asserting a specific name.
-- **Fee schedule and effective dates** — the figures above are current on the AEA submission page as of
-  2026-06-20; AEA fee and page-charge schedules change, so re-confirm on the submission page at submission time.
+- **Editor and co-editor roster** — Editor **C. Kirabo Jackson** (Northwestern; lead-editor term running
+  2025–) and the six co-editors above were **re-verified 2026-06-22** against the AEA editors page; AEA
+  editorial terms rotate, so re-confirm the masthead on `aeaweb.org/journals/pol/editors` before asserting
+  a specific name.
+- **Fee schedule and effective dates** — the figures above (members 200/100/0, nonmembers 300/200/0; USD 15
+  per typeset page) were **re-verified 2026-06-22** as current/unchanged on the AEA submission pages; AEA fee
+  and page-charge schedules change, so re-confirm on the submission page at submission time.
 - **Submission platform specifics** — submission is through the AEA online submission system; exact upload
   prompts and any platform migration details are portal-rendered and should be confirmed in the system at
   submission time.

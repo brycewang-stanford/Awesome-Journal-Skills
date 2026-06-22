@@ -12,10 +12,11 @@ description: Use when running the final pre-submission preflight for the Journal
 - Confirming the chosen route's limits (full-length / short-paper / pre-results) are met
 - Checking the replication package, declarations, and language consistency
 
-## Process facts (verified 2026-06-20; re-confirm volatile items on the official page)
+## Process facts (verified 2026-06-20; editors + fees re-verified 2026-06-22; re-confirm volatile items on the official page)
 
 - JDE is published by **Elsevier** and submitted through **Editorial Manager**. It is the **leading field
-  journal in development economics**, edited by Editors-in-Chief **A. Foster** and **K. Macours**.
+  journal in development economics**, edited by Editors-in-Chief **A. Foster** (Brown) and **K. Macours**
+  (Paris School of Economics) — re-verified 2026-06-22; re-confirm on the ScienceDirect editorial-board page before naming them in a cover letter.
 - Review is **single-anonymized** (referees know the author; the author does not know referees).
   **Do not anonymize** the manuscript as if it were double-blind unless the current guidance changes.
 - A **USD 50 non-refundable submission fee** applies to original manuscripts. Open access is optional and

@@ -12,14 +12,14 @@ description: Use when running the final pre-submission preflight for an American
 - Confirming title/byline/front matter, JEL codes, and disclosure statements are in order
 - Confirming the paper is data-policy-ready should it advance
 
-## Process facts (official AEA pages checked 2026-06-20)
+## Process facts (official AEA pages checked 2026-06-20; editor + fees re-verified 2026-06-22)
 
 - AEJ: Applied is one of the four **American Economic Journals**, published by the **American Economic Association (AEA)**, quarterly; submission is through the **AEA online submission system**.
 - **Single-blind review:** author identities are visible to referees; referee identities remain anonymous to authors. The manuscript should include title, byline, and author affiliations on the first page.
 - **Submission fee:** AEA members: high-income USD 200, middle-income USD 100, low-income USD 0. Nonmembers: high-income USD 300, middle-income USD 200, low-income USD 0. Papers rejected without review receive a 50 percent refund.
 - **Publication fee:** accepted papers first submitted on or after 1 February 2024 are assessed USD 15 per typeset page at proofs.
 - **Length/front matter:** abstract of **100 or fewer words**; JEL codes; title, byline, and author affiliations on the first page; recommended maximum equivalent to 40 pages at 11-point/1.5 spacing/1-inch margins or 45 pages at 12-point/1.5 spacing/1-inch margins.
-- **Editor:** Raymond Fisman (Boston University); coeditors Leah Boustan, Marika Cabral, Peter Hull, Xavier Jaravel, and Nicholas Ryan; **Data Editor:** Lars Vilhuber (Cornell).
+- **Editor (re-verified 2026-06-22):** Raymond Fisman (Boston University), lead-editor term beginning January 2026; coeditors Leah Boustan, Marika Cabral, Peter Hull, Xavier Jaravel, and Nicholas Ryan; **Data Editor:** Lars Vilhuber (Cornell). Re-verify the masthead on the AEA editors page before submission.
 - **Data & code:** the AEA **Data and Code Availability Policy** applies; papers offered R&R are asked to submit their data replication package at resubmission, and accepted papers must clear the Data Editor's compliance/reproducibility check before publication (`aeja-replication-package`).
 - One paper under review at a time per AEA rules; AI cannot be listed as an author.
 

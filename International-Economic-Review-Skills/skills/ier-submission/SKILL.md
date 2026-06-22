@@ -12,9 +12,9 @@ description: Use when running the final pre-submission preflight for an Internat
 - Confirming the manuscript is within the page limit and conforms to house style
 - Deciding whether proprietary data require notifying the Editor now (it does — at submission)
 
-## Process facts (检索于 2026-06；以官网为准)
+## Process facts (检索于 2026-06；editor + US$150 fee re-verified 2026-06-22；以官网为准)
 
-- IER is owned by the **University of Pennsylvania Department of Economics** and **Osaka University's Institute of Social and Economic Research (ISER)**, published with Wiley; founded **1960** as a forum for modern quantitative economics. It appears **five times a year** (Feb, May, Aug, Oct, Dec).
+- IER is owned by the **University of Pennsylvania Department of Economics** and **Osaka University's Institute of Social and Economic Research (ISER)**, published with Wiley; founded **1960** as a forum for modern quantitative economics. It appears **five times a year** (Feb, May, Aug, Oct, Dec). Editor (re-verified 2026-06-22): **Dirk Krueger** (Penn); Co-editor **Masaki Aoyagi** (Osaka, ISER) — re-verify before naming in a cover letter.
 - **Portal:** submission is through **Editorial Express** (editorialexpress.com/ier) — *not* ScholarOne/Manuscript Central. Verify the live link before submitting.
 - **Submission fee:** **US$150 (or ¥15,000)**, payable at submission. **The manuscript is not reviewed until the fee is received.** No student waiver is stated on the page (待核实).
 - **Length:** **not more than 50 pages**, single-sided, **double-spaced**. Manuscripts must conform to the style guidelines (available on request from the editorial office).

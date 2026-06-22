@@ -16,10 +16,11 @@ that may have changed after this refresh.
   file formats, abstract limit, highlights, research-data policy, references, checklist,
   transfer fee waiver, and proof timing.
 - **https://www.sciencedirect.com/journal/journal-of-public-economics/about/editorial-board**
-  — Current ScienceDirect editorial-board page. Verifies current **Editors**:
-  **Nathaniel Hendren, PhD** (Massachusetts Institute of Technology) and
-  **Wojciech Kopczuk, PhD** (Columbia University Department of Economics and School
-  of International and Public Affairs), the Co-Editors list, advisory editors,
+  — Current ScienceDirect editorial-board page. Verifies current **Editors**
+  (re-verified 2026-06-22): **Nathaniel Hendren, PhD** (Massachusetts Institute of
+  Technology) and **Wojciech Kopczuk, PhD** (Columbia University Department of
+  Economics and School of International and Public Affairs), the Co-Editors list,
+  advisory editors,
   editorial assistant, support for open access, open archive status, and journal metrics
   displayed by ScienceDirect.
 - **https://shop.elsevier.com/journals/subjects/social-sciences-and-humanities/economics-and-finance/public-economics**
@@ -36,8 +37,9 @@ that may have changed after this refresh.
   official submission-start route at `submissionstart.elsevier.com` and the journal
   contact email.
 - **Guide for Authors, "Submission fees"** — Verifies **US$165** full submission fee
-  for unsolicited manuscripts, **US$82.50** reduced fee for full-time students via a
-  discount code used in Editorial Manager, no page charges, payment before consideration,
+  for unsolicited manuscripts (re-verified 2026-06-22), **US$82.50** reduced fee for
+  full-time students via a discount code used in Editorial Manager, no page charges,
+  payment before consideration,
   non-refundable fee, desk rejection when aims/scope or style requirements are not met,
   and no additional fee when a manuscript is transferred via Elsevier's Article Transfer
   Service.

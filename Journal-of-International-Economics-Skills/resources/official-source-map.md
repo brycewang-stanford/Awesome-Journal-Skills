@@ -3,9 +3,12 @@
 Primary and authoritative sources behind the Journal of International Economics
 (JIE) specific facts injected into this skill pack.
 
-Access date for all entries: **2026-06-20**. Re-check fee amounts, editor roster,
-policy wording, and portal links on the live pages before submitting, because
-journal pages change.
+Access date for all entries: **2026-06-20**; **editor roster and submission fee
+re-verified 2026-06-22** (Editors Martin Uribe (Columbia) and Costas Arkolakis
+(Yale) confirmed current; non-refundable submission fee USD 190 / EUR 169.20 /
+JPY 20,660 confirmed unchanged). Re-check fee amounts, editor roster, policy
+wording, and portal links on the live pages before submitting, because journal
+pages change.
 
 ## Official journal pages (Elsevier / ScienceDirect)
 

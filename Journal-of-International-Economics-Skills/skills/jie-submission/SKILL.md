@@ -12,9 +12,9 @@ description: Use when running the final pre-submission preflight for the Journal
 - Confirming the abstract, keywords, and reference completeness are JIE-compliant
 - Making sure the submission fee and editor-suggestion steps are handled
 
-## Process facts (verified 2026-06-20; re-confirm on the official guide)
+## Process facts (verified 2026-06-20; editors + fee re-verified 2026-06-22; re-confirm on the official guide)
 
-- JIE is published by **Elsevier**; submission is through **Editorial Manager**. The official board lists **Editors Martin Uribe (Columbia)** and **Costas Arkolakis (Yale)**, with Co-Editors spanning trade and international macro/finance.
+- JIE is published by **Elsevier**; submission is through **Editorial Manager**. The official board lists **Editors Martin Uribe (Columbia)** and **Costas Arkolakis (Yale)** (re-verified 2026-06-22), with Co-Editors spanning trade and international macro/finance; re-confirm the masthead before naming an editor.
 - There is a **non-refundable submission fee of USD 190 / EUR 169.20 / JPY 20,660**, reduced to **USD 95 when every author is a PhD student**; VAT is added for authors in relevant European countries. Fee revenue funds JIE summer schools and the biennial **Jagdish Bhagwati Award** for the best paper in the journal.
 - **Submission types**: regular, **Short Paper**, or **PRP**. Short Papers are capped at **6,000 words** and **5 exhibits**, must be self-contained, and require a separate word-count PDF. For PRP, attach the editorial decision letter and all referee reports from a rejection at **AER, Econometrica, JPE, QJE, or Review of Economic Studies** and select **'PRP' from the Article Type menu**; there is no extra fee versus a regular submission.
 - **Abstract ≤ 150 words**, concise/factual, single paragraph, references avoided (cite author(s)/year(s) only if essential). Provide **1-7 keywords**.

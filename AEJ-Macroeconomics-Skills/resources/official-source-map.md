@@ -28,9 +28,12 @@ change. Items that were not confirmed from a primary fetch are marked
 - **https://www.aeaweb.org/journals/mac/editors**
   — Editors of AEJ: Macroeconomics. Verifies: Editor **Ayşegül Şahin**
   (Princeton University); coeditors **Francesco Bianchi** (Johns Hopkins),
-  **Şebnem Kalemli-Özcan** (Brown), and **Vincenzo Quadrini** (USC). Accessed
-  2026-06. (Full associate-editor roster not transcribed here; **需复核** if a
-  complete list is needed.)
+  **Şebnem Kalemli-Özcan** (Brown), and **Vincenzo Quadrini** (USC). **Re-verified
+  2026-06-22 via WebFetch of the official AEA editors page** — affiliations
+  (Princeton / Johns Hopkins / Brown / USC) confirmed against the live masthead;
+  note some third-party listings show stale affiliations (e.g., Texas/Maryland),
+  so the AEA page is authoritative. (Full associate-editor roster not transcribed
+  here; **需复核** if a complete list is needed.)
 - **https://www.aeaweb.org/journals/mac/editorial-policy**
   — AEJ: Macroeconomics Editorial Policy. Verifies: **single-blind** peer review
   (the author's name is revealed to the referee, while referees remain anonymous
@@ -100,9 +103,10 @@ change. Items that were not confirmed from a primary fetch are marked
   Editor and the named coeditors above; the full associate-editor list was not
   transcribed and is **需复核**.
 - **Exact current fee schedule and page charge** — fees and the per-page charge
-  are volatile; the figures above were read from the submissions page in 2026-06
-  but should be re-confirmed before relying on a specific dollar amount (检索于
-  2026-06；以官网为准).
+  are volatile; the figures above (members US$200/100/0, nonmembers US$300/200/0;
+  US$15/typeset page) were **re-verified 2026-06-22** as current/unchanged on the
+  AEA submission pages but should be re-confirmed before relying on a specific
+  dollar amount (检索于 2026-06-22；以官网为准).
 - **Precise income-tier country lists** — the fee tiers depend on a
   country-income classification maintained by the AEA; the exact current
   country-to-tier mapping is **需复核**.

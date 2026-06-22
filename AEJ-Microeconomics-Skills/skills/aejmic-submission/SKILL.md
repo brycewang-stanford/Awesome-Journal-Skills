@@ -12,9 +12,9 @@ description: Use when running the final pre-submission preflight for the America
 - Confirming the abstract, format, and data/code requirements are met
 - Verifying the data/code availability requirements before submission
 
-## Process facts (检索于 2026-06；以官网为准)
+## Process facts (检索于 2026-06；editor + fees re-verified 2026-06-22；以官网为准)
 
-- AEJ: Micro is one of the AEA's four field journals (founded 2009 — 待核实, quarterly); submission is through the **AEA submission/editorial system**.
+- AEJ: Micro is one of the AEA's four field journals (founded 2009 — 待核实, quarterly); submission is through the **AEA submission/editorial system**. Editor (re-verified 2026-06-22): **Navin Kartik** (Yale, since Fall 2025); coeditors Ali, Bonatti, Rozen, Xu — re-verify the masthead before submission.
 - **Single-blind review:** the author's name is revealed to referees, while referees remain anonymous to authors. There is **no anonymization requirement** — but state author info, acknowledgments, and funding professionally.
 - **Abstract:** **100 words or fewer** (required). JEL classification per AEA practice; keywords expected.
 - **Submission fee:** AEA members **$200** (high-income) / **$100** (middle-income) / **$0** (low-income); nonmembers **$300 / $200 / $0**; scaled by membership and country income classification. Papers rejected without review are refunded **50%**. (Amounts **volatile** — confirm on the AEA submissions page.)

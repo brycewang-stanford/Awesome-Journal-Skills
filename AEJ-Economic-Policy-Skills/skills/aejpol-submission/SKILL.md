@@ -12,7 +12,7 @@ description: Use when running the final pre-submission preflight for AEJ: Econom
 - Confirming title/byline/front matter, JEL codes, and disclosure statements are in order
 - Verifying the Data and Code Availability Statement and disclosures are in order
 
-## Process facts (official AEA pages checked 2026-06-20)
+## Process facts (official AEA pages checked 2026-06-20; editor C. Kirabo Jackson + fees re-verified 2026-06-22)
 
 - AEJ: Policy is one of the **American Economic Association's** four *American Economic Journals*; it is **quarterly** and submitted through the **AEA online submission system**. Re-confirm volatile specifics on the official AEA / AEJ: Policy pages.
 - **Single-blind review:** author identities are visible to referees; referee identities remain anonymous to authors. The submitted manuscript carries the title, byline, and author affiliations — do not anonymize it.

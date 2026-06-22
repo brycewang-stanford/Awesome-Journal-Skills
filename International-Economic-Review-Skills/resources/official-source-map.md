@@ -20,10 +20,10 @@ Primary source map for facts used in the IER skill pack. **Access date: 2026-06.
 | international readership | Official pages above; re-check live before submission |
 | theory-empirics balance | Official pages above; re-check live before submission |
 
-## Verified on official pages (2026-06)
+## Verified on official pages (2026-06; re-verified 2026-06-22)
 
-- **Editor: Dirk Krueger (University of Pennsylvania); Co-editor: Masaki Aoyagi (Osaka University, ISER).** (Penn IER page / Wiley editorial board)
-- **Submission fee: US$150**, payable after electronic submission — the manuscript is not reviewed until the fee is received. Submit at the IER Editorial Express portal **http://editorialexpress.com/ier**. (Penn IER submissions page)
+- **Editor: Dirk Krueger (University of Pennsylvania); Co-editor: Masaki Aoyagi (Osaka University, ISER).** Re-verified 2026-06-22 (Penn IER editorial-information page / Wiley editorial board). Roster rotates — re-confirm before naming in a cover letter.
+- **Submission fee: US$150**, payable after electronic submission — the manuscript is not reviewed until the fee is received. Re-verified 2026-06-22. Submit at the IER Editorial Express portal **http://editorialexpress.com/ier**. (Penn IER submissions page)
 - **Open access (optional):** authors may publish OA under a Creative Commons license for a Wiley Article Publication Charge (exact figure per the Wiley APC list). (Wiley IER for-authors page)
 
 ## Unverified / volatile items
