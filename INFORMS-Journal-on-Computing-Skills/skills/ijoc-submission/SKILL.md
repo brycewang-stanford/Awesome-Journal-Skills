@@ -20,7 +20,7 @@ description: Use when running the final pre-submission preflight for an INFORMS 
 - **Length policy (effective May 2025):** main manuscript **≤25 pages including all references, tables, and figures**, plus up to **10 pages of appendices**; longer appendices go to online supplements. Code/data are hosted on GitHub and excluded from the page count.
 - **Abstract:** **≤300 words, no formulas or mathematical notation.**
 - **Format:** single-column, **1.5-spaced, 12-point font, 1-inch margins**; **LaTeX strongly preferred** (`JOC-template.tex` in the Author Portal); MS Word accepted; PDF for the main document.
-- **Editor-in-chief:** **David Woodruff** (succeeding Alice Smith, term ended 2025-12-31) — 待核实 at submission time.
+- **Editor-in-chief:** **David L. Woodruff** (UC Davis), succeeding Alice E. Smith (term ended 2025-12-31); confirmed via INFORMS (检索于 2026-06-22；投稿前以官网为准).
 - **Open access:** optional INFORMS Open Option, **US$3,000** assessed at production (not a submission fee); standard publication has no APC.
 
 ## Preflight checklist

@@ -13,7 +13,7 @@ description: Use when understanding or planning for Production and Operations Ma
 
 ## How POM review works
 
-POM routes each submission to a **Department**, where a **Department Editor** owns the paper end to end — this department/college structure is a defining POMS norm, distinct from a single central editor. The Department Editor screens for fit and contribution, then manages **double-blind** peer review. Founder & Editor-in-Chief Kalyan Singhal leads the journal, with Subodha Kumar as Co-/Deputy Editor-in-Chief (title varies by source; 待核实).
+POM routes each submission to a **Department**, where a **Department Editor** owns the paper end to end — this department/college structure is a defining POMS norm, distinct from a single central editor. The Department Editor screens for fit and contribution, then manages **double-blind** peer review. Founder & Editor-in-Chief **Kalyan Singhal** (University of Baltimore) leads the journal, with **Subodha Kumar** as Co-Editor-in-Chief (verified via POMS / SAGE, 2026-06-22; re-check the masthead before relying on it).
 
 ## What reviewers weigh
 
