@@ -1,8 +1,14 @@
 # Critical Inquiry Official Source Map
 
 Primary sources behind the *Critical Inquiry* (CI) facts injected into this skill pack.
-Access date for all entries: **2026-06-20**. Live-check volatile journal details before
-submission because editorial rosters, open-access terms, and publisher instructions can change.
+Access date for all entries: **2026-06-20**; editor-in-chief and Gold OA fee re-verified
+**2026-06-22**. Live-check volatile journal details before submission because editorial rosters,
+open-access terms, and publisher instructions can change.
+
+**Re-verified 2026-06-22:** Editors in Chief **Heather Keenleyside** and **Daniel Morgan** remain
+current (masthead and *Critical Inquiry* Vol. 52, No. 3, Spring 2026 front matter / publisher board
+page). Gold Open Access fee confirmed as **$2,500** on the CI submissions page ("The fee is $2,500");
+no separate submission fee is stated. Re-verify both before submission.
 
 ## CI journal site
 

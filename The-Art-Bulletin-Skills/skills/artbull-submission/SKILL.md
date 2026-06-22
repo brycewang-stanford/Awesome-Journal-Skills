@@ -31,7 +31,8 @@ official page first.
 - **Permissions:** the **author** secures and pays for reproduction rights and photography (fair use
   per the CAA code).
 - **Fee:** no submission fee stated; optional open-access **APC** under T&F Open Select after
-  acceptance (待核实).
+  acceptance (confirmed as the model 2026-06-22; the APC amount is set by Taylor & Francis — check the
+  live T&F page if choosing open access).
 
 ## Preflight checklist
 

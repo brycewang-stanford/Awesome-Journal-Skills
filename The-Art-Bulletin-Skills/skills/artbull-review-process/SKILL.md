@@ -26,8 +26,9 @@ from text and notes. Knowing what referees weigh helps you pre-empt the objectio
    evidence; command of the **historiography**; and whether the figures support the claims.
 3. **Images are part of review.** Referees judge whether the illustrations are adequate and whether
    the visual claims are visible in them — thin or absent figures undermine the case.
-4. **Editorial judgment.** The editor-in-chief weighs referee reports and decides; rigorous peer
-   review is central to the journal's standing.
+4. **Editorial judgment.** The editor(s)-in-chief weigh referee reports and decide; rigorous peer
+   review is central to the journal's standing. (As of 2026-06-22 The Art Bulletin has two
+   Co-Editors-in-Chief; confirm the current masthead before naming them.)
 5. **Likely outcomes.** Reject; revise and resubmit (the common path for promising work needing more);
    or accept (often conditional). Plan for an R&R rather than a clean accept.
 
@@ -79,7 +80,7 @@ detail crops, clearing their permissions early — the figures needed rescuing, 
   the common path at journals of this standing (a working expectation, not a published rate — confirm
   specifics against the journal's current submission guidelines).
 - Because review is double-blind, the figures travel anonymized and are judged as evidence — thin or
-  absent plates undercut even a sound argument; the editor-in-chief weighs the reports and decides.
+  absent plates undercut even a sound argument; the editor(s)-in-chief weigh the reports and decide.
 
 ## Output format
 

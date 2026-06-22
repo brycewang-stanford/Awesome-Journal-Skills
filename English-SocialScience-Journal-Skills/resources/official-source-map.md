@@ -2,6 +2,11 @@
 
 This file gives one official-source starting query per journal profile. It is a routing aid, not a cached copy of any live guideline. Always open the live official journal page, publisher/society page, or submission system before giving submission-ready instructions.
 
+> **Multi-journal bundle (generic, re-confirmed 2026-06-22).** This pack spans many social-science
+> journals across multiple publishers and societies; it names **no single editor-in-chief and no single
+> APC/fee**. Check each target journal's own masthead and open-access/APC terms on its current official
+> page before relying on either.
+
 Routing-map check date: 2026-06-10. For social-science journals, start from the live publisher, society,
 or editorial-office instructions and submission system; common official entry points include
 https://www.elsevier.com/authors, https://academic.oup.com/pages/for-authors, and

@@ -1,9 +1,19 @@
 # The Art Bulletin Official Source Map
 
 Primary and authoritative sources behind the Art Bulletin–specific facts injected into this skill
-pack. Access date for all entries: **2026-06-01**. Re-verify volatile items (editor-in-chief and
-reviews editor, exact word/abstract caps, illustration count, file-size limit, fee/APC, Chicago
-edition, fair-use wording) on the official page before relying on them — journal pages change.
+pack. Access date for all entries: **2026-06-01**; editor-in-chief and fee/APC re-verified
+**2026-06-22**. Re-verify volatile items (editor-in-chief and reviews editor, exact word/abstract caps,
+illustration count, file-size limit, fee/APC, Chicago edition, fair-use wording) on the official page
+before relying on them — journal pages change.
+
+**Re-verified 2026-06-22:** The Art Bulletin is now led by two **Co-Editors-in-Chief** — **Maya
+Stanfield-Mazzi** (University of Florida) and **Stephen Whiteman** (The Courtauld), appointed 2025
+(CAA "Member Spotlight: New Co-Editors-in-Chief," Aug 2025; Courtauld appointment notice; CAA Art
+Bulletin Editorial Board page). Christy Anderson (University of Toronto) is the immediate past
+editor-in-chief; the editorial board is chaired by Elizabeth Dospěl Williams. Manuscripts still go to
+`the.art.bulletin@collegeart.org`. No submission fee; optional open access is handled via Taylor &
+Francis Open Select after acceptance, with an Article Publishing Charge (APC) whose amount is set by
+T&F — check the live T&F page if choosing OA. Re-verify the co-editors before relying on them.
 
 ## Official journal, submission & preparation pages (College Art Association)
 
@@ -60,8 +70,9 @@ edition, fair-use wording) on the official page before relying on them — journ
 
 - Treat the CAA *Publications Style Guide* as the current Chicago-style authority; if CAA's live
   preparation page differs on edition number, follow the newer page and update this map.
-- Do not name current editors unless the CAA masthead is open. The pack may use
-  `the.art.bulletin@collegeart.org` as the stable editorial contact.
+- Current Co-Editors-in-Chief verified 2026-06-22 (Maya Stanfield-Mazzi, Stephen Whiteman); re-confirm
+  on the CAA masthead before naming editors in author-facing advice, since the role rotates. The pack
+  may use `the.art.bulletin@collegeart.org` as the stable editorial contact regardless.
 - Use the CAA submission page figures as checklist defaults: 20 images, 10 MB Word illustration file,
   100-word abstract, 50-word bio, and 16,000 words including endnotes.
 - Do not assert a submission fee. Optional open access is handled through Taylor & Francis after

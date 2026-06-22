@@ -32,7 +32,8 @@ page before relying on them.
   publication.
 - **Multiple submission:** **not accepted** — not under consideration elsewhere.
 - **Fee:** no separate submission fee listed in the checked submissions instructions; optional **Gold
-  open access** fee **$2,500**, requested at submission or no later than acceptance when relevant.
+  open access** fee **$2,500** (confirmed on the CI submissions page 2026-06-22), requested at
+  submission or no later than acceptance when relevant. Re-verify the fee before submission.
 - **Abstract:** no separate abstract requirement is listed in the checked submissions instructions.
 
 ## Preflight checklist

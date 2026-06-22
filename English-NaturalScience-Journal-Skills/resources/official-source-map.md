@@ -2,6 +2,11 @@
 
 This file gives one official-source starting query per journal profile. It is a routing aid, not a cached copy of any live guideline. Always open the live official journal page, publisher/society page, or submission system before giving submission-ready instructions.
 
+> **Multi-journal bundle (generic, re-confirmed 2026-06-22).** This pack spans many natural-science and
+> medical journals across multiple publishers and societies; it names **no single editor-in-chief and no
+> single APC/fee** (APCs vary widely by title and OA route). Check each target journal's own masthead and
+> open-access/APC terms on its current official page before relying on either.
+
 Routing-map check date: 2026-06-10. For natural-science and medical journals, start from the live
 publisher/society instructions and submission system; common official entry points include
 https://www.nature.com/nature-portfolio/for-authors, https://www.elsevier.com/authors, and

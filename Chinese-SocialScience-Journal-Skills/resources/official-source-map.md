@@ -2,6 +2,8 @@
 
 This file gives one official-source starting query per journal profile. It is a routing aid, not a cached copy of any live guideline. Always open the live official journal page, publisher/society page, or submission system before giving submission-ready instructions.
 
+> **多刊合集（通用路由，2026-06-22 复核）。** 本合集覆盖众多中文社科 / 经管期刊，主办与出版单位各异；不指定单一主编，也不给出统一版面费 / APC。投稿前请逐刊在其官网核对主编 / 编委会与收费（版面费）政策。
+
 Routing-map check date: 2026-06-10. For Chinese journals, start from the journal's official site, official
 submission system, sponsor/host page, or official CNKI journal page such as https://navi.cnki.net/knavi/;
 do not treat third-party manuscript agencies as sources.

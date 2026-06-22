@@ -6,6 +6,11 @@ society's or university press's own domain or submission system over any aggrega
 copy. Access notes reflect checks made while building this bundle (2026-06);
 re-verify the live page before any submission-ready advice.
 
+> **Multi-journal bundle (generic, re-confirmed 2026-06-22).** This pack covers many humanities
+> journals; it intentionally names **no single editor-in-chief and no single APC/fee**. Check each
+> target journal's own masthead and open-access/APC terms on its current official page before relying
+> on either.
+
 ## Society / press author centers
 
 - **University of Chicago Press** — Critical Inquiry, Modern Language Quarterly (note:
