@@ -34,7 +34,7 @@ APCs, and Elsevier policy wording can change.
 | Peer review is **double anonymized**; editors screen suitability first; suitable submissions typically go to a **minimum of two reviewers** | Guide for Authors |
 | Formal appeal possible if it meets Elsevier appeal-policy requirements; **one appeal per submission**; appeal decision final | Guide for Authors |
 | Open-access APC: **USD 6,120** excluding taxes; subscription route has **no publication fee charged to authors** | ScienceDirect journal home |
-| Current Editors-in-Chief: **Dabo Guan**, **Petra Tschakert**, and **Abigail York** | ScienceDirect journal home; editorial board |
+| Current Editors-in-Chief (verified 2026-06-22): **Dabo Guan** (Tsinghua University) and **Harini Nagendra** (Azim Premji University). The earlier "Tschakert / York" line was stale: **Petra Tschakert** now appears on the editorial board, not as an EIC. Re-verify the masthead before naming a current editor. | ScienceDirect journal home; editorial board; Wikipedia (Global Environmental Change) |
 | Current Managing Editor: **Kathryn Michelle Benavidez Westrich** | Editorial board |
 | Current Editors: **Ranjan Datta**, **Laurent Drouet**, **Jane Southworth**, and **Zengkai Zhang** | Editorial board |
 | Editable source files required; PDF is not an acceptable source file | Guide for Authors |

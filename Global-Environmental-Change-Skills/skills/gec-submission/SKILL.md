@@ -34,7 +34,7 @@ on 2026-06-20; re-check live pages before filing.
 - **Data:** Elsevier **Option C** applies: deposit/cite/link research data, or explain why it cannot be
   shared; prepare a **Data Availability Statement**.
 - **Publishing fee:** subscription route has no author publication fee; gold OA APC is **USD 6,120**
-  excluding taxes.
+  excluding taxes (verified 2026-06-22; re-check the live ScienceDirect figure before submission).
 
 ## Preflight checklist
 

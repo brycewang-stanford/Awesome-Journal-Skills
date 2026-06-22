@@ -34,7 +34,7 @@ before relying on them.
 - **Data/code/model:** Option C repository deposit + dataset citation/link + data-availability statement,
   or a reason sharing is not possible.
 - **Fee:** Open Access APC **USD 3,850 excluding taxes**; subscription route has no publication fee
-  charged to authors.
+  charged to authors (verified 2026-06-22; re-check the live ScienceDirect figure before submission).
 
 ## Preflight checklist
 

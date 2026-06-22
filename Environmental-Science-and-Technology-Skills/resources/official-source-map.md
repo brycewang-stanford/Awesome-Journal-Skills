@@ -78,6 +78,11 @@ on the official page before relying on them — ACS journal pages change.
 - Do not assert a double-anonymous review model. The source-backed claim is editor-screened expert
   peer review with reviewer anonymity.
 - Re-open the journal home/about page before naming the current Editor-in-Chief or executive/associate
-  editors.
+  editors. Editor-in-Chief verified **2026-06-22** as **Julie B. Zimmerman** (Yale University; named EIC
+  2020, succeeding David L. Sedlak) per the ACS ES&T EIC profile page and Yale sources; re-verify before
+  relying on it.
 - Do not encode impact factor, CiteScore, acceptance rate, or time-to-first-decision as policy.
-- Check ACS Open Science / APC terms only if the author chooses an open-access route.
+- Check ACS Open Science / APC terms only if the author chooses an open-access route. ES&T is a **hybrid**
+  ACS journal (verified 2026-06-22): the **subscription route carries no author fee**, and gold OA is
+  **optional** with the APC set by ACS's live, agreement-/license-/country-dependent pricing rather than
+  a single static number — quote the live figure, not a fixed amount.

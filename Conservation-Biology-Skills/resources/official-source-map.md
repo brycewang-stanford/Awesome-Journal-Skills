@@ -48,7 +48,10 @@ availability, final file prompts, and any production changes.
   authors do not know reviewers, and reviewers do not know authors or affiliations.
 - **https://conbio.onlinelibrary.wiley.com/hub/journal/15231739/homepage/editorialboard.html** —
   Wiley editorial-board page. Public official listings identify **Mark A. Burgman** of the University of
-  Hawaii at Manoa as Editor in Chief and **Austin Kane** as Senior Editor. Check the live page before
+  Hawaii at Manoa as Editor in Chief and **Austin Kane** as Senior Editor; re-checked **2026-06-22**
+  (Wikipedia's Conservation Biology article and the SCB board page still name Burgman as EIC).
+  Note: **Graeme Cumming** is the EIC of the sibling journal *Conservation Letters* (ISSN 1755-263X),
+  not *Conservation Biology* (ISSN 1523-1739) — do not conflate the two. Check the live page before
   addressing a named editor because mastheads change.
 - **https://authors.wiley.com/asset/ACT.xlsx** — Wiley Author Compliance Tool workbook, `COBI` /
   Print ISSN **0888-8892** / Online ISSN **1523-1739** row checked on **2026-06-20**. Verifies:

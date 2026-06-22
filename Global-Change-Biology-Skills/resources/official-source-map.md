@@ -47,8 +47,9 @@ pages immediately before submission.
 ## Peer Review and Editorial Context
 
 - **https://onlinelibrary.wiley.com/page/journal/13652486/homepage/editorialboard.html** — GCB
-  editorial board. Public official snippets identify **Prof. Danielle Way** of Australian National
-  University as Editor-in-Chief.
+  editorial board. Editor-in-Chief re-verified **2026-06-22** as **Prof. Danielle Way** (appointed 2025,
+  succeeding founding EIC Steve Long, who died 9 Sept 2025); Rachel Shekar serves as Executive Editor.
+  Re-check the masthead before naming a current editor.
 - **https://onlinelibrary.wiley.com/page/journal/13652486/homepage/eic-interview** — Wiley interview
   route for the GCB Editor-in-Chief. Use as a cross-check for the current EIC context.
 - The pack should describe GCB review as editor-mediated expert peer review and a selective desk screen

@@ -8,15 +8,19 @@ journal pages, editors, fees, and author-rule wording can change.
 
 - **https://www.sciencedirect.com/journal/agricultural-systems** — ScienceDirect journal home.
   Confirms publisher surface, journal title, **Open Access APC USD 3,850 excluding taxes**,
-  subscription route with **no publication fee charged to authors**, journal insights, Editors-in-Chief
-  **Jagadish Timsina** and **Mark van Wijk**, and ISSNs **0308-521X** print / **1873-2267** online.
+  subscription route with **no publication fee charged to authors**, journal insights, and ISSNs
+  **0308-521X** print / **1873-2267** online. Co-Editors-in-Chief verified on **2026-06-22** as
+  **Jagadish Timsina** (Institute for Study and Development Worldwide) and **Kairsty Topp** (Scotland's
+  Rural College); the prior co-EIC **Mark van Wijk** is now listed as an Editor, not Editor-in-Chief.
+  Re-verify the masthead before naming a current editor.
 - **https://www.sciencedirect.com/journal/agricultural-systems/publish/guide-for-authors** — Guide for
   Authors. Confirms submission link, aims and scope, article types and guideline lengths, peer-review
   model, abstract and front-matter requirements, research-data instructions, CRediT, declarations,
   funding, generative-AI disclosure, references, and submission checklist.
 - **https://www.sciencedirect.com/journal/agricultural-systems/about/editorial-board** — Editorial
-  board. Confirms **97 editors and editorial-board members in 28 countries/regions**, Editors-in-Chief
-  **Jagadish Timsina** and **Mark van Wijk**, and the current editors/advisory-board structure.
+  board. Confirms **97 editors and editorial-board members in 28 countries/regions** and the current
+  editors/advisory-board structure. Co-Editors-in-Chief on **2026-06-22**: **Jagadish Timsina** and
+  **Kairsty Topp** (per the ScienceDirect "Welcoming our new Editors-in-Chief" news item).
 - **https://www.elsevier.com/about/policies-and-standards/research-data** — Elsevier research-data
   policy. Confirms Elsevier's definition of research data, including raw/processed data, software,
   algorithms, protocols, methods, and materials; confirms the policy principles for open, reusable data

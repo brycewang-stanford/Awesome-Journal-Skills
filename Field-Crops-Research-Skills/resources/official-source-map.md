@@ -74,9 +74,10 @@ availability, file prompts, editor names, and price changes.
 ## Editorial Board, Fees, Metrics, and Publication Options
 
 - **https://www.sciencedirect.com/journal/field-crops-research/about/editorial-board** — Editorial
-  board page. Verifies current Editors-in-Chief listed by ScienceDirect on 2026-06-20:
-  **He-Zhong Dong**, **Jagdish K. Ladha**, and **Richard A. Richards**, plus associate editors and
-  advisory-board members. Check the live page before naming an editor in a cover letter.
+  board page. Current Editors-in-Chief re-verified **2026-06-22** on Elsevier's own editorial-board
+  listing: **He-Zhong (Hezhong) Dong**, **Jagdish K. Ladha**, and **Richard A. Richards**, plus
+  associate editors and advisory-board members. Check the live page before naming an editor in a cover
+  letter.
 - **https://www.sciencedirect.com/journal/field-crops-research/publish/open-access-options** — Open
   access options page. Verifies that FCR offers both open-access and subscription publication choices,
   publication choice does not affect peer review or acceptance, open-access articles are immediately
