@@ -1,0 +1,24 @@
+{
+  "skill": "American-Anthropologist-Skills/skills/amanthro-submission/SKILL.md",
+  "method": "SkillOpt-adapted rollout -> judge -> validation-gate (scale-up wave 1)",
+  "date": "2026-06-21",
+  "ground_truth_source": "American-Anthropologist-Skills/resources/official-source-map.md",
+  "static_scorecard_before": 94.0,
+  "held_out_queries": [
+    "Can I put my paper on a preprint server before submitting to American Anthropologist, and where?",
+    "Can I submit a special section / Vital Topics Forum proposal to AA right now?",
+    "If I choose open access at AA, which Creative Commons licenses can I pick, and what file/figure spec rules apply?"
+  ],
+  "runs": [
+    {"stage": "baseline", "skill_version": "v1", "judge_total": 54, "judge_breakdown": {"factual": 33, "specificity": 4, "coverage": 4, "venue": 6, "hedging": 7}},
+    {"stage": "candidate", "skill_version": "v2 (applied)", "judge_total": 100, "judge_breakdown": {"factual": 35, "specificity": 25, "coverage": 20, "venue": 10, "hedging": 10}}
+  ],
+  "edits": [
+    {"id": "E1", "status": "APPLIED", "ops": ["replace", "add", "add", "add"],
+     "summary": "Add the AA-specific preprint/sharing route (Wiley 'Does Not Accept Preprints', but submitted version allowed in AAA's Open Anthropology Research Repository), the current pause on special-section / Vital Topics Forum proposals, the OnlineOpen CC license choices (CC BY / CC BY-NC / CC BY-NC-ND), and concrete manuscript/figure file specs (Word, 12pt TNR, double-spaced, endnotes, TIF >=300 dpi). APC amount and editor roster left as live-check.",
+     "grounded_in": "official-source-map.md (verified quotes)", "baseline_score": 54, "candidate_score": 100, "gate": "ACCEPTED",
+     "gate_reason": "strict improvement 54 -> 100; judge confirmed zero wrong facts; decision timeline / acceptance rate / reviewer count correctly NOT invented (absent from source map)"}
+  ],
+  "applied_edits": ["E1"], "rejected_edit_buffer": [], "transfers": [],
+  "result": "amanthro-submission held-out 54 -> 100 (+46). Static scorecard ~94 unchanged."
+}

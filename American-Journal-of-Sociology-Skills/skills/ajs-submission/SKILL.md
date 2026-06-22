@@ -22,7 +22,16 @@ own house style** (not the ASA Style Guide). Verify volatile items on the live p
   (NOT SAGE/ASA).
 - **Portal:** **Editorial Manager** (`editorialmanager.com/ucp-ajs`); accepts **Word, PDF, or LaTeX**.
 - **Review model:** **double-blind** — anonymize the manuscript; submit the **cover page as a separate
-  file** so personal information is not in the manuscript.
+  file** so personal information is not in the manuscript. Reviewer and author identities are not
+  disclosed to the other side, and **AJS avoids sending papers to people in the submitting author's
+  network**.
+- **Desk-reject / "preject" filter:** before peer review, AJS **prejects** some papers — those **not in
+  dialogue with current sociology**, **opinion pieces**, or **current-event interpretations without
+  original sociological research**. Make the manuscript's dialogue with current sociology explicit.
+- **Editorship structure:** the article side has **three levels of editorship**; the editorial board is
+  the **faculty of the University of Chicago Department of Sociology**; first-submission reviewer
+  assignment is handled by a **Manuscript Assignment Board of Assistant Editors supervised by
+  graduate-student Associate Editors** who study the blinded manuscript to set substantive area/method.
 - **Submission fee:** **$30** per new submission; **waived for graduate students submitting as sole
   authors** (proof of status may be requested). Confirm the current amount and waiver workflow on the
   official page.
@@ -67,6 +76,7 @@ Recurring pre-review failures specific to AJS's portal and double-blind model. C
 | Formatted to ASA Style Guide | convert to AJS author-date house style |
 | No abstract | add ~150 words: question + data + findings |
 | Fee unpaid / wrong waiver assumption | pay $30, or claim sole-author grad waiver only if eligible |
+| Prejected pre-review (opinion piece, current-event take, or no dialogue with current sociology) | frame original sociological research in explicit dialogue with current literature |
 
 ## Calibration (AJS-specific posture, hedged)
 

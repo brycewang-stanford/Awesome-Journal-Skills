@@ -7,7 +7,8 @@ description: Use when running the final pre-submission preflight for Current Ant
 
 The last check before submitting on **Editorial Manager** (CA's submission system). CA is published by
 the **University of Chicago Press for the Wenner-Gren Foundation**; its Major Articles will, on
-acceptance, receive the **CA✩ Treatment** (published Comments + your Reply). The most common avoidable
+acceptance, receive the **CA✩ Treatment** — simultaneous publication of multiple peer commentaries with
+your Reply (Major Articles only; not Reports/Forums/Discussion items). The most common avoidable
 failures are wrong **article-type/word-count** fit, **figures embedded in the PDF** instead of supplied as
 separate files, and an **unresolved ethics or permissions** issue. Verify volatile specifics on the
 official Instructions for Authors before relying on them.
@@ -27,6 +28,14 @@ official Instructions for Authors before relying on them.
   University), effective **1 January 2025**, succeeding **Laurence Ralph** (Princeton) — *(检索于 2026-06；
   以官网为准)*.
 - **Portal:** **Editorial Manager**.
+- **Selectivity & review filter:** operating figures from the 2023 editor search are **~230 manuscripts/year**,
+  **about 50% receiving full peer review** (the other half screened/desk-handled before full review), and
+  **about 10% accepted** — *(year-dependent operating figures, not a standing promise; 需复核)*.
+- **Issues:** **six core issues/year plus one open-access supplementary issue**; each core issue runs
+  **five–six major articles** plus reports/other content.
+- **Open access:** CA is a **subscription journal** with **green open access for all articles**; **gold open
+  access** is available for authors with **qualifying funder requirements**; the editor may select **one
+  article per core issue** for open-access availability — *(confirm current OA/APC terms on the rights page; 需复核)*.
 - **Article types & caps:** **Major Article 6,000–10,000 words** (incl. references and endnotes; **abstract
   ≤ 200 words**; up to 12 figures/tables) — **receives the CA✩ Treatment**; **Report 3,000–5,000 words**
   (incl. refs/notes; abstract ≤ 200; up to 4 figures/tables); **Forum**; **Discussion / Comment ≤ 800

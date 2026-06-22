@@ -28,10 +28,20 @@ relying on them.
   excl. transcriptions + abstract; extendable to ~10,500 on acceptance); Essay 2,000–3,000; Commentary
   ≤ 1,500; Interview ~2,000; Review Essay ≤ 5,000 (2–5 books); Book Review ≤ 1,000.
 - **Abstract:** **200 words.**
-- **Style:** **Chicago Manual of Style author-date**; **free-format** accepted at submission; include
-  **DOIs** in references where available.
-- **ORCID:** required for AAA journals.
-- **Fee:** **no submission or publication fee**; optional OnlineOpen APC is **USD 3,570** if chosen.
+- **Style:** **Chicago Manual of Style author-date** (final accepted files); **free-format** accepted at
+  submission; references **alphabetical** (not embedded in endnotes); include **DOIs** where available.
+- **Manuscript prep:** Word document; **12-pt Times New Roman**; **double-spaced**; **left-justified**;
+  **endnotes** (not footnotes); no tracked changes/macros/fields in the final file. Figures as **TIF at
+  ≥ 300 dpi**; tables as Word with title, description, and alt text.
+- **Special sections:** AA is **currently NOT accepting proposals for special sections or Vital Topics
+  Forums** (verify live — section availability changes).
+- **Preprints / sharing:** the Wiley record for AA reads **"Does Not Accept Preprints"**; however AA lets
+  authors deposit the **submitted version** in AAA's **Open Anthropology Research Repository** before peer
+  review. Do not assume a generic preprint server is allowed — use the AA repository route.
+- **ORCID:** **required** for AAA journals (corresponding author).
+- **Fee:** **no submission or publication fee**; OnlineOpen (open access) is **optional** and only after
+  acceptance. APC ~**USD 3,570** (待核实 — verify current amount); license choice is **CC BY, CC BY-NC,
+  or CC BY-NC-ND**.
 
 ## Preflight checklist
 
@@ -43,7 +53,7 @@ relying on them.
 ### Anonymity (anonymous review)
 - [ ] No author names/affiliations/acknowledgments in the manuscript
 - [ ] **File name** carries no author info
-- [ ] Self-references neutralized ("as the author showed…", not "as we showed…")
+- [ ] Self-references neutralized ("as the author showed…") **and omitted from the reference list** at this stage
 - [ ] Identifying **file metadata stripped** (document properties, comments)
 - [ ] Separate (non-anonymous) title page prepared as a distinct file
 
@@ -56,7 +66,8 @@ relying on them.
 - [ ] **Ethics statement**: informed consent, IRB/ethics approval where applicable, anonymization
 - [ ] Heritage/repatriation and vulnerable-community obligations addressed (see `amanthro-transparency-and-data`)
 - [ ] Image/media consent and permissions secured; sensitive material withheld appropriately
-- [ ] Original work, not under review elsewhere; preprint status checked against Wiley policy
+- [ ] Original work, not under review elsewhere; for a preprint, use AAA's **Open Anthropology Research Repository** (no generic preprint server)
+- [ ] If targeting a special section / Vital Topics Forum, confirm it is **open** (currently paused — verify live)
 
 ## Anti-patterns
 

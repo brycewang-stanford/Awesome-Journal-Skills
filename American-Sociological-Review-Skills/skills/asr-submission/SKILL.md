@@ -22,11 +22,17 @@ separate title page. Verify volatile specifics (fee, caps, editors) on the offic
 - **Review model:** **masked (anonymous)** — anonymous manuscript **without a title page** + a
   **separate title page** (institutional affiliations, acknowledgments, word count, corresponding-
   author contact). You **may cite your own work** but not in identifying wording.
+- **Scope / fit filter:** ASR evaluates **general-interest sociology** with strong research
+  designs/methods, **broad sociological appeal**, and **theory development that transcends
+  subfields** — a fit mismatch is a desk-reject risk before review.
+- **Previously rejected:** ASR **does not consider papers previously rejected at ASR** — do not
+  resubmit a rejected manuscript.
 - **Length:** **Articles ≤ 15,000 words** including text, references, and footnotes (tables and
-  figures excluded); **Comments/Replies ≤ 3,000 words**.
-- **Abstract:** **150-200 words**, no identifying information.
-- **Format:** **double-spaced, Times New Roman 12 pt, ≥1-inch margins**; **ASA Style Guide** for
-  references.
+  figures excluded); **Comments/Replies ≤ 3,000 words** (uploaded directly in Sage Track).
+- **Abstract:** **200 words or fewer** (the manuscript-prep section describes 150-200 words; use the
+  stricter **200-word ceiling** for the check), no identifying information.
+- **Format:** **double-spaced** text, notes, and references; **Times New Roman 12 pt, ≥1-inch
+  margins**; **ASA Style Guide (7th ed., 2022)** with author-year in-text citations for references.
 - **Fee:** **$25.00 non-refundable** manuscript processing fee via Sage Track, **waived for ASA
   student members** (待核实 on the current amount).
 
@@ -35,7 +41,8 @@ separate title page. Verify volatile specifics (fee, caps, editors) on the offic
 ### Type & length
 - [ ] Article (≤ 15,000 words incl. text + references + footnotes) or Comment/Reply (≤ 3,000)
 - [ ] Word count recorded on the **separate title page**
-- [ ] Abstract 150-200 words, non-identifying
+- [ ] Abstract ≤ 200 words (150-200 target), non-identifying
+- [ ] Not previously rejected at ASR (rejected papers are not reconsidered)
 
 ### Masking (anonymous review)
 - [ ] Manuscript has **no title page**, no author names/affiliations/acknowledgments
@@ -45,7 +52,7 @@ separate title page. Verify volatile specifics (fee, caps, editors) on the offic
 
 ### Format & files
 - [ ] Double-spaced, Times New Roman 12 pt, ≥1-inch margins
-- [ ] ASA Style Guide references; consistent author-date
+- [ ] ASA Style Guide (7th ed., 2022) references; consistent author-date
 - [ ] Tables/figures self-contained (see `asr-tables-figures`)
 
 ### Fee, ethics & data
@@ -64,6 +71,7 @@ for science — all within your control. Confirm any volatile figure against the
 | "in our prior study" wording | de-anonymizes the author | neutralize to "in a prior study" |
 | References left out of word count | over the 15,000 cap on recount | count text + references + footnotes |
 | Live document metadata | author name in file properties | clear properties before export |
+| Resubmitting an ASR-rejected paper | not reconsidered | do not resubmit; ASR rejects are final |
 
 ## Worked micro-example (illustrative)
 
@@ -71,7 +79,7 @@ An author preps a quantitative inequality paper for Sage Track upload.
 
 ```
 Body + references + footnotes: 14,920 words → under 15,000, OK
-Abstract: 178 words, no institutions named → in range
+Abstract: 178 words, no institutions named → under the 200-word ceiling
 Files: (1) masked manuscript, no title page; (2) separate title page with affiliations + word count
 Masking sweep: 3 self-citations reworded; properties cleared; acknowledgments on title page only
 Fee: $25 processing fee ready (待核实 current amount / ASA-student waiver)
@@ -101,7 +109,8 @@ common avoidable rejections pre-empted before upload.
 - Leaving a title page or author identifiers in the manuscript (breaks masking)
 - Forgetting the **separate title page** Sage Track expects
 - Treating references as outside the word count — they count toward 15,000
-- Abstract outside 150-200 words
+- Abstract over the 200-word ceiling
+- Resubmitting a paper ASR previously rejected (not reconsidered)
 - Forgetting the $25 fee, or submitting elsewhere while under ASR review
 
 ## Output format
@@ -110,8 +119,8 @@ common avoidable rejections pre-empted before upload.
 【Type】Article (≤15,000) / Comment-Reply (≤3,000) — cap met? [Y/N]
 【Masked】no title page + self-refs neutralized + metadata clean? [Y/N]
 【Separate title page】prepared? [Y/N]
-【Abstract】word count (150-200), non-identifying?
-【Format】double-spaced TNR 12pt + ASA Style Guide? [Y/N]
+【Abstract】word count (≤200), non-identifying?
+【Format】double-spaced TNR 12pt + ASA Style Guide (7th ed., 2022)? [Y/N]
 【Fee】$25 ready or ASA-student waiver? [Y/N]
 【Next】await decision → asr-rebuttal on R&R
 ```

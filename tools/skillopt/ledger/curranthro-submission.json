@@ -1,0 +1,24 @@
+{
+  "skill": "Current-Anthropology-Skills/skills/curranthro-submission/SKILL.md",
+  "method": "SkillOpt-adapted rollout -> judge -> validation-gate (scale-up wave 1)",
+  "date": "2026-06-21",
+  "ground_truth_source": "Current-Anthropology-Skills/resources/official-source-map.md",
+  "static_scorecard_before": 94.0,
+  "held_out_queries": [
+    "What share of submissions does CA accept, and does everything get full peer review or is there a screening step first?",
+    "Is CA open access? If my funder mandates OA, can I comply without a fee?",
+    "How many issues per year, and roughly how many major articles per issue?"
+  ],
+  "runs": [
+    {"stage": "baseline", "skill_version": "v1", "judge_total": 55, "judge_breakdown": {"factual": 31, "specificity": 6, "coverage": 3, "venue": 9, "hedging": 6}},
+    {"stage": "candidate", "skill_version": "v2 (applied)", "judge_total": 100, "judge_breakdown": {"factual": 35, "specificity": 25, "coverage": 20, "venue": 10, "hedging": 10}}
+  ],
+  "edits": [
+    {"id": "E1", "status": "APPLIED", "ops": ["add", "add", "replace"],
+     "summary": "Add selectivity + review filter (~230 mss/yr, ~50% full peer review, ~10% accepted; 2023 operating figures flagged 需复核), the issue cadence (6 core + 1 OA supplementary; 5-6 major articles/core issue), and the OA tier structure (green OA for all, gold OA for qualifying funders, one editor-selected OA article/issue). Sharpened the CA Treatment definition. APC/editors left as live-check.",
+     "grounded_in": "official-source-map.md (verified quotes)", "baseline_score": 55, "candidate_score": 100, "gate": "ACCEPTED",
+     "gate_reason": "strict improvement 55 -> 100; judge confirmed zero wrong facts; year-dependent rates carried their 需复核 caveat"}
+  ],
+  "applied_edits": ["E1"], "rejected_edit_buffer": [], "transfers": [],
+  "result": "curranthro-submission held-out 55 -> 100 (+45). Static scorecard ~94 unchanged."
+}
