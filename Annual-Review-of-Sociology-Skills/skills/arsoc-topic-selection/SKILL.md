@@ -23,7 +23,7 @@ A literature belongs in ARSoc when it passes all four. If it fails one, route ac
 1. **Maturity.** There is a *body* of research — multiple research lines, accumulated evidence, recognizable theoretical debates — not a handful of recent papers. A subfield still being born produces a *premature* review that dates within a volume cycle. (Fails → too young; wait.)
 2. **Broad importance.** The questions matter to sociologists generally, not only to a dozen specialists. ARSoc serves the **whole discipline**; a review only its own subfield could love is a specialist-journal review, not an ARSoc article. (Fails → too niche.)
 3. **Need for synthesis.** A newcomer cannot currently get oriented without a guide, *and* existing entry points (a recent ARSoc review, a handbook chapter) have not already done the job — a too-recent prior ARSoc review on the same area is a hard barrier. The value is the **map**, not the **list**. (Fails → already synthesized.)
-4. **Tractable for the ARSoc envelope.** ARSoc reviews are substantial but bounded (typically ~8,000–12,000 words / ~20 published pages; exact limits 待核实 — confirm on the author pages). One author/team must read and weigh the literature within that envelope. (Fails → carve a coherent axis, or it is a handbook chapter.)
+4. **Tractable for the ARSoc envelope.** ARSoc reviews are substantial but bounded; Annual Reviews does not publish a fixed public word limit, so length is set per commissioned article — confirm with your editor (待核实, do not assume a number). One author/team must read and weigh the literature within that envelope. (Fails → carve a coherent axis, or it is a handbook chapter.)
 
 ## Decision table
 

@@ -1,6 +1,6 @@
 ---
 name: asr-writing-style
-description: Use when drafting or polishing an American Sociological Review (ASR) manuscript so it reads for the whole discipline, follows the ASA Style Guide, and fits the limits (Articles <= 15,000 words including text, references, and footnotes; abstract 150-200 words). Tightens prose and format; it does not invent content.
+description: Use when drafting or polishing an American Sociological Review (ASR) manuscript so it reads for the whole discipline, follows the ASA Style Guide, and fits the limits (Articles <= 15,000 words including text, references, and footnotes; abstract <= 200 words). Tightens prose and format; it does not invent content.
 ---
 
 # Writing Style (asr-writing-style)
@@ -13,7 +13,7 @@ reaching the discipline and respecting the format — not generating claims.
 
 - Drafting the introduction, framing the contribution, or final polish
 - Over the word cap and needing to cut without losing the argument
-- Writing the **150-200 word** abstract
+- Writing the **<= 200-word** abstract (150-200 target range; the binding rule is a 200-word ceiling)
 - Aligning citations, headings, and format to the ASA Style Guide
 
 ## Reach the whole discipline
@@ -34,7 +34,7 @@ reaching the discipline and respecting the format — not generating claims.
 - **Masking**: no title page in the manuscript; a **separate title page** carries affiliations,
   acknowledgments, and contact. You **may cite your own work** but must not word it to identify
   yourself ("in our prior study" → "in a prior study").
-- **Abstract**: **150-200 words**, with no identifying information.
+- **Abstract**: **<= 200 words** (150-200 target), with no identifying information.
 
 ## Fit the word cap (incl. text + references + footnotes; tables/figures excluded)
 
@@ -93,7 +93,7 @@ The contribution leads, the method follows, and the prune is treated as a budget
 
 - A subfield-insider intro that never states broad significance
 - Burying the contribution mid-paper
-- An abstract outside 150-200 words or one that hides the finding
+- An abstract over the 200-word ceiling or one that hides the finding
 - Self-references worded so they break masking
 - Treating references as "free" — they count toward 15,000 words
 
@@ -102,7 +102,7 @@ The contribution leads, the method follows, and the prune is treated as a budget
 ```
 【Contribution stated by end of intro?】[Y/N]
 【Reads past the subfield?】jargon defined / acronyms spelled? [Y/N]
-【Abstract】word count (150-200), non-identifying?
+【Abstract】word count (<= 200), non-identifying?
 【Word count】Article ≤ 15,000 incl. text + references + footnotes?
 【ASA style + masked + separate title page】[Y/N]
 【Next】asr-data-and-transparency

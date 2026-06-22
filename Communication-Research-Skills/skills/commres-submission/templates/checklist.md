@@ -26,7 +26,7 @@ Companion to [`../SKILL.md`](../SKILL.md). Work top to bottom before uploading t
 - [ ] Robustness probes that could break the result, with what was learned
 
 ## 3. Abstract & exhibits
-- [ ] Abstract states question + design + **tested mechanism** + finding (confirm cap on the SAGE page)
+- [ ] Abstract: **unstructured, <= 150 words**, placed between title and main body; states question + design + **tested mechanism** + finding (clinical-trial registration, if any, at the end of the abstract)
 - [ ] Main result reported with magnitude + uncertainty in interpretable units
 - [ ] A mechanism exhibit (path diagram / simple-slopes plot) included where central
 - [ ] Captions self-contained; figures colorblind-safe, grayscale-legible
