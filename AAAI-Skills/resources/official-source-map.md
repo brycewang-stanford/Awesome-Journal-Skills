@@ -36,13 +36,13 @@ publication rules before giving submission-ready advice.
 - Supplementary material was due separately and could include a technical appendix, multimedia
   appendix, and code/data ZIP. Web pointers to supplementary material were disallowed because they
   could violate anonymity and immutability.
-- Authors were limited to 10 combined technical-track submissions; authors could not be added after
-  submission.
+- Authors were limited to 10 combined technical-track submissions; authors were not allowed to be added
+  after submission.
 - Multiple archival submissions were not allowed while an AAAI submission was under review.
 - The author rebuttal was a single short response, with no URLs and no new results; corrupted or
-  missing supplemental files could not be fixed at rebuttal time.
+  missing supplemental files cannot be corrected at rebuttal time.
 - AAAI policy allowed LLMs for editing/polishing author-written text but prohibited LLM-generated
-  manuscript text unless it was part of the experimental analysis. AI systems could not be authors
+  manuscript text unless it was part of the experimental analysis. AI systems cannot be authors
   or citable sources.
 - Accepted papers required source files, copyright transfer, registration, and presentation by at
   least one author.

@@ -27,7 +27,7 @@ Code of Conduct, and OpenReview group before giving submission-ready advice.
   discussion.
 - The 2026 cycle required a real abstract before the full paper; placeholder or duplicate abstracts
   could be removed.
-- New authors could not be added after the abstract deadline; author order could be changed only
+- New authors were not allowed to be added after the abstract deadline; author order could be changed only
   under the cycle's stated windows.
 - Submission main text was capped at 9 pages; discussion/camera-ready revisions used 10 pages.
   References did not count; appendices after references were unlimited but optional for reviewers.

@@ -47,7 +47,7 @@ submission-ready advice.
   without author response; papers advancing to full review received further review and an
   author response opportunity.
 - Author responses were concise, optional, ordinary responses were limited to one page using
-  the official template, and authors could not provide new code links/uploads or new
+  the official template, and authors were not allowed to provide new code links/uploads or new
   experimental results.
 - Code and data sharing was encouraged for reproducibility but not strictly required if the
   paper gave enough information to reproduce results in principle.

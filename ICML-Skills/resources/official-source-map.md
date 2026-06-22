@@ -44,7 +44,7 @@ group before submission-ready advice.
   and discussed when a reasonable reviewer would expect it; anonymized PDFs of cited concurrent
   submissions must be included in supplementary material.
 - Authors may use generative AI tools but remain responsible for all content; LLMs cannot be authors;
-  prompt injection is forbidden and can cause desk rejection.
+  prompt injection is prohibited and can cause desk rejection.
 - ICML 2026 has a reviewer LLM-use framework with Policy A and Policy B.
 
 ## Still cycle-volatile
