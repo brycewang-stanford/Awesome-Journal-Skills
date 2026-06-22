@@ -1,0 +1,24 @@
+{
+  "skill": "Annals-of-the-American-Association-of-Geographers-Skills/skills/aaag-submission/SKILL.md",
+  "method": "SkillOpt-adapted rollout -> judge -> validation-gate (scale-up wave 4)",
+  "date": "2026-06-21",
+  "ground_truth_source": "Annals-of-the-American-Association-of-Geographers-Skills/resources/official-source-map.md",
+  "static_scorecard_before": 94.0,
+  "held_out_queries": [
+    "What are the Annals' main subject areas I pick from, and who handles each?",
+    "Is everything double-blind? My piece is a Commentary Response — same review model?",
+    "Invited to a special issue — different word limit for special-issue papers?"
+  ],
+  "runs": [
+    {"stage": "baseline", "skill_version": "v1", "judge_total": 83, "judge_breakdown": {"factual": 35, "specificity": 16, "coverage": 13, "venue": 9, "hedging": 10}},
+    {"stage": "candidate", "skill_version": "v2 (applied)", "judge_total": 99, "judge_breakdown": {"factual": 35, "specificity": 25, "coverage": 20, "venue": 10, "hedging": 9}}
+  ],
+  "edits": [
+    {"id": "E1", "status": "APPLIED", "ops": ["replace", "add", "add"],
+     "summary": "Correct the subject-area list to the four verified areas (Geographic Methods; Human Geography; Nature and Society; Physical Geography, Earth, and Environmental Sciences) + General/cross-disciplinary track (skill had mislabeled them as a flat 5-way list with an incomplete 'Physical'); add subject-editor-per-area + Cartography Editor on four-year terms; add the review-model scope (double-anonymous for Articles/Special Issues/Forums/Commentaries by 1-3 referees; Commentary Responses single-anonymous) and the ~5,000-word Special-Issue length.",
+     "grounded_in": "official-source-map.md (verified quotes)", "baseline_score": 83, "candidate_score": 99, "gate": "ACCEPTED",
+     "gate_reason": "strict improvement 83 -> 99; corrected a factual area-labeling error and a review-model over-simplification; editors/fee kept live-check"}
+  ],
+  "applied_edits": ["E1"], "rejected_edit_buffer": [], "transfers": [],
+  "result": "aaag-submission held-out 83 -> 99 (+16). A SkillOpt edit that corrected a factual error (mislabeled subject areas), not just added facts."
+}

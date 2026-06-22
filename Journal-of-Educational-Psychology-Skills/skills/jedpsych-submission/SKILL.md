@@ -21,15 +21,19 @@ policy wording, current editor, portal) on the official APA page first (检索�
 - **Owner / publisher:** American Psychological Association (APA).
 - **Portal:** **Editorial Manager**, `editorialmanager.com/edu` (Word `.docx`, or LaTeX `.tex` zip + PDF).
 - **Review:** **masked** — both author and reviewer identities are masked.
-- **Length:** manuscripts generally **≤ 12,000 words** (≈ 40 double-spaced pages), **excluding**
-  references, tables, figures, and appendices.
+- **Length:** manuscripts generally **≤ 12,000 words** (≈ 40 double-spaced pages, **12-pt Times New
+  Roman**), **excluding** references, tables, figures, and appendices.
 - **Abstract:** **≤ 250 words** on a separate page.
-- **Style:** **APA 7th edition**, double-spaced.
+- **Style:** **APA 7th edition** (APA Publication Manual, 7th ed.), double-spaced.
 - **Transparency:** a **Transparency and Openness subsection** stating data, materials, and analysis-code
   availability with **persistent identifiers** (or justified unavailability).
-- **Standards:** **JARS** (quantitative/qualitative/mixed) and **JARS-REC**; preregistration encouraged
-  (disclose status); **Open Science Badges** available with a signed disclosure form.
-- **Fee:** no submission fee ("submitting a manuscript for peer review is free of charge").
+- **Standards:** **JARS** (quantitative/qualitative/mixed) and **JARS-REC**; **preregistration encouraged
+  but not mandatory** (disclose status, provide links); **Open Science Badges** (Open Data, Open Data with
+  Protected Access, Open Materials, Preregistered, Preregistered+Analysis Plan) available with a signed
+  disclosure form.
+- **Fee / open access:** **no submission fee** ("submitting a manuscript for peer review is free of
+  charge"); peer review is free. Any **post-acceptance open-access / APC** charge is **not asserted here** —
+  confirm on the APA author pages (需复核).
 - **Types:** primary empirical articles; occasional exceptionally important meta-analyses; single-
   instrument validation studies are typically out of scope.
 
@@ -38,7 +42,7 @@ policy wording, current editor, portal) on the official APA page first (检索�
 ### Format & abstract
 - [ ] Body **≤ 12,000 words** (excluding references, tables, figures, appendices)
 - [ ] Abstract **≤ 250 words** on a separate page
-- [ ] APA 7th edition, double-spaced; statistics with effect sizes + CIs
+- [ ] APA 7th edition, double-spaced, 12-pt Times New Roman; statistics with effect sizes + CIs
 
 ### Masked review (anonymization)
 - [ ] First page omits author names/affiliations; includes title + submission date
@@ -50,7 +54,7 @@ policy wording, current editor, portal) on the official APA page first (检索�
 - [ ] **Transparency and Openness subsection**: data, materials, analysis code availability + DOIs (or
   justified restriction)
 - [ ] **Analysis code** deposited; reproduces results in a fresh session
-- [ ] **Preregistration** disclosed + linked (if applicable); deviations noted
+- [ ] **Preregistration** disclosed + linked (if applicable); deviations noted (encouraged, not mandatory)
 - [ ] **JARS / JARS-REC** items complete for the design; participant/context reporting done
 - [ ] Badge disclosure form signed (if applying for Open Science Badges)
 

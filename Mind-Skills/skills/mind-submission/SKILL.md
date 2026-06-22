@@ -20,16 +20,31 @@ paper **will not be read**. Verify volatile specifics on the official page befor
 - **Owner / publisher:** Mind Association / Oxford University Press.
 - **Portal:** **ScholarOne** (`mc.manuscriptcentral.com/MIND`); submit in **Word or PDF**, with
   high-resolution image files sent at the same time.
-- **Review model:** **triple-anonymous** — author identity hidden from editors and referees until
-  acceptance; prepare the manuscript for anonymous refereeing or it will not be read.
-- **Length:** articles **~8,000 words total**; longer only in **exceptional circumstances** (e.g.,
-  very extensive quotations); symbol-heavy papers should paginate like an 8,000-word article.
+- **Review model:** **triple-anonymous** across all papers — author identity is not revealed to
+  editors or referees unless and until a paper is accepted; prepare for anonymous refereeing or it
+  will not be read.
+- **Scope / what they accept:** **quality is the sole criterion of publication, with no area, no
+  style, and no school of philosophy excluded**. Content types: **articles, discussions (discussion
+  notes), book reviews, and critical notices**.
+- **Critical notices:** **longer than book reviews**, letting the author develop their own ideas in
+  response to the book under discussion (distinct from a short book review).
+- **Volume / competitiveness:** the journal **receives over 800 submissions each year** and draws on a
+  large pool of expert referees, associate editors, and the Editorial Board. (Acceptance rate and
+  time-to-first-decision are **not published** as fixed figures — 需复核.)
+- **Length:** articles **no longer than around 8,000 words in total**; longer only in **exceptional
+  circumstances** (e.g., very extensive quotations from original texts); symbol-heavy papers should
+  paginate equivalently to an 8,000-word article. (Word limits for discussions / book reviews /
+  critical notices are **not pinned** here — 需复核.)
 - **Abstract:** published abstract **50–200 words**; a longer submission abstract (up to ~250 words,
   待核实) may be included to aid review.
-- **Submission limit:** **no more than one article per corresponding author per 12-month period**.
+- **Submission limit:** **no more than one article may be submitted by any corresponding author
+  during any twelve-month period**.
 - **Line numbering:** **required** for the review copy (LaTeX `lineno`; Word line-numbering option).
-- **Style:** the **MIND house style / MIND Stylesheet** applies to the **accepted** final version.
-- **Fee:** no submission fee stated; optional open-access charge handled by OUP after acceptance (待核实).
+- **Style:** the **MIND Stylesheet / MIND house style** applies to the **accepted** final version;
+  authors sign the **standard OUP copyright licence agreement** at acceptance.
+- **Fee:** **no submission fee.** An **open-access option is available for a charge**, handled by OUP
+  after acceptance; the exact APC, eligible licences, and any read-and-publish / transformative-agreement
+  waivers are **not pinned** here — 需复核.
 
 ## Triple-anonymous failure audit
 
@@ -49,9 +64,10 @@ Record any unavoidable prior-work clue in a private submission note only if the 
 ## Preflight checklist
 
 ### Type & length
-- [ ] Content type chosen (article / discussion / book review / critical notice)
+- [ ] Content type chosen (article / discussion / book review / critical notice — critical notice is the *longer* book-engagement piece)
 - [ ] Article ~8,000 words (or justified exception); symbol-heavy paper paginated equivalently
 - [ ] Abstract within the stated length (published 50–200 words)
+- [ ] Subject is in scope — quality is the sole criterion; **no area, style, or school of philosophy is excluded**
 
 ### Anonymity (triple-anonymous)
 - [ ] No author names, affiliations, or revealing acknowledgements in the manuscript
@@ -66,7 +82,8 @@ Record any unavoidable prior-work clue in a private submission note only if the 
 
 ### Eligibility & compliance
 - [ ] Not in breach of the **one-article-per-12-months** corresponding-author rule
-- [ ] Original, unpublished work; aware of the OUP copyright licence signed at acceptance
+- [ ] Original, unpublished work; aware of the standard OUP copyright licence signed at acceptance
+- [ ] No submission fee; if open access is wanted, the OUP charge (APC/Read&Publish 需复核) is settled after acceptance
 
 ## Anti-patterns
 

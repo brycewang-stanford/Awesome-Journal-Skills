@@ -24,10 +24,22 @@ page before relying on them.
   **unpublished** (in any language) and **not under consideration elsewhere**; a revised version of a
   previously submitted PMLA manuscript is **not** considered.
 - **Review model:** **anonymous (blind)** — anonymize the manuscript; supply a separate cover sheet.
-- **Venues:** regular article (6,000–9,000 words); special features — Theories and Methodologies, The
-  Changing Profession (~3,500 words, 待核实), Criticism in Translation, Little-known Documents.
+  Each eligible article is **sent to at least two reviewers**; recommended articles go to the **PMLA
+  Editorial Board, which meets periodically with the editor to make final decisions** (the **Advisory
+  Committee reports on articles** submitted). Until a final decision, the **author's name is not made
+  known to readers, board members, or the editor**, and any reader/board member/editor with a possible
+  conflict **recuses** themselves.
+- **Venues:** regular article (6,000–9,000 words); special features — **Theories and Methodologies**
+  and **The Changing Profession** (each limited to about **3,500 words**, incl. discursive endnotes,
+  excl. translations and works cited), plus **Criticism in Translation** and **Little-known Documents**
+  (ongoing categories). Special-feature **proposals** carry a **15 October deadline** and an **abstract
+  not exceeding 100 words** (待核实 — confirm on the live page).
 - **Word count:** **6,000–9,000 words** for articles; **includes discursive notes**; **excludes** the
   list of works cited and translations.
+- **Fee / open access:** **no submission fee is stated**; confirm any post-acceptance open-access (APC)
+  charges handled by Cambridge on the live page (需复核).
+- **Decision rate / timeline:** acceptance/desk-rejection rates and time-to-decision are **not stated
+  as fixed numbers** — treat as live-check (需复核).
 - **Style:** **MLA style** per the most recent **MLA Handbook** (in-text + Works Cited).
 - **AI disclosure:** fully **cite, at submission, any content created by an AI tool**.
 - **Abstract:** not requested for regular articles; a **100-word abstract** applies to special-feature
@@ -37,7 +49,8 @@ page before relying on them.
 
 ### Venue & length
 - [ ] Venue chosen; word range met (article 6,000–9,000; special feature ~3,500 — verify)
-- [ ] Count includes discursive notes; excludes Works Cited and translations; proposal abstract ≤ 100 words if applicable (待核实)
+- [ ] Count includes discursive notes; excludes Works Cited and translations
+- [ ] If a special-feature **proposal**: abstract ≤ 100 words and **15 October deadline** observed (待核实)
 
 ### Anonymity (blind review)
 - [ ] No author name in the manuscript text or notes; acknowledgments removed

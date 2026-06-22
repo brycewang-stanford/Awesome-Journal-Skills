@@ -1,0 +1,24 @@
+{
+  "skill": "PMLA-Skills/skills/pmla-submission/SKILL.md",
+  "method": "SkillOpt-adapted rollout -> judge -> validation-gate (scale-up wave 4)",
+  "date": "2026-06-21",
+  "ground_truth_source": "PMLA-Skills/resources/official-source-map.md",
+  "static_scorecard_before": 90.2,
+  "held_out_queries": [
+    "How does PMLA's review work — how many reviewers, who decides, does the editor know my name?",
+    "Theories and Methodologies special feature — deadline? abstract? word limit?",
+    "Submission fee or OA/APC, and typical acceptance rate / time to decision?"
+  ],
+  "runs": [
+    {"stage": "baseline", "skill_version": "v1", "judge_total": 65, "judge_breakdown": {"factual": 31, "specificity": 6, "coverage": 11, "venue": 7, "hedging": 10}},
+    {"stage": "candidate", "skill_version": "v2 (applied)", "judge_total": 100, "judge_breakdown": {"factual": 35, "specificity": 25, "coverage": 20, "venue": 10, "hedging": 10}}
+  ],
+  "edits": [
+    {"id": "E1", "status": "APPLIED", "ops": ["replace", "add", "add"],
+     "summary": "Add the verified review process (>=2 reviewers; recommended articles to the Editorial Board, which meets with the editor for final decisions; Advisory Committee reports) and the editor-blind anonymity (author name not known to readers, board, OR editor until a final decision; recusal on conflicts); add the special-feature 15 October deadline + <=100-word proposal abstract + ~3,500-word contribution cap; make no-submission-fee / Cambridge-OA explicit and state that acceptance rate and time-to-decision are not fixed.",
+     "grounded_in": "official-source-map.md (verified quotes)", "baseline_score": 65, "candidate_score": 100, "gate": "ACCEPTED",
+     "gate_reason": "strict improvement 65 -> 100; rates/timeline correctly deferred per source map"}
+  ],
+  "applied_edits": ["E1"], "rejected_edit_buffer": [], "transfers": [],
+  "result": "pmla-submission held-out 65 -> 100 (+35). Static scorecard ~90.2 unchanged."
+}

@@ -20,11 +20,16 @@ before relying on them (检索于 2026-06；以官网为准).
 
 - **Owner / publisher:** American Association of Geographers (AAG) / **Taylor & Francis (Routledge)**.
 - **Portal:** **ScholarOne Manuscripts** (via the Taylor & Francis journal page).
-- **Review model:** **double-anonymous** — anonymize the manuscript; provide a separate title page.
-- **Area:** declare one — Methods / Human / Nature-Society / Physical / General — it routes the editor.
-- **Article types & caps:** **Article ≤ 11,000 words** (incl. abstract, references, notes, tables,
-  figure captions); **Forum** intro 2,500 + papers 5,000 each, ≤ 25,000 total; **Commentary** < 2,000
-  incl. references. (检索于 2026-06；以官网为准)
+- **Review model:** **double-anonymous** for Articles, Special Issues, Forums, and Commentaries — by
+  **one to three referees, one of which is the editor or a designate**. **Commentary Responses** get
+  **single-anonymous** review. Anonymize the manuscript; provide a separate title page.
+- **Areas (four + a cross-track):** declare one — **Geographic Methods; Human Geography; Nature and
+  Society; Physical Geography, Earth, and Environmental Sciences** — plus a **General Geography /
+  cross-disciplinary** track. A **subject editor leads each area** (plus a **Cartography Editor**), all
+  on **four-year terms**; your area routes the manuscript. (Confirm current editors on the AAG page — 需复核)
+- **Article types & caps:** **Article (regular) ≤ 11,000 words** (incl. abstract, references, notes,
+  tables, figure captions); **Forum** intro 2,500 + papers 5,000 each, ≤ 25,000 total; **Commentary**
+  < 2,000 incl. references; **Special-Issue papers ~5,000 words**. (检索于 2026-06；以官网为准)
 - **Style:** **Chicago Manual of Style, author-date**; abstract + **3-5 italicized, alphabetized keywords**.
 - **ORCID:** provide for authors (Taylor & Francis standard; verify requirement).
 - **Fee:** no submission fee stated for standard articles; any open-access APC handled by Taylor &
@@ -33,8 +38,8 @@ before relying on them (检索于 2026-06；以官网为准).
 ## Preflight checklist
 
 ### Area, type & length
-- [ ] Area declared (Methods / Human / Nature-Society / Physical / General)
-- [ ] Article type chosen and its cap met (Article ≤ 11,000 / Forum ≤ 25,000 / Commentary < 2,000)
+- [ ] Area declared (Geographic Methods / Human / Nature and Society / Physical, Earth & Environmental / General-cross)
+- [ ] Article type chosen and its cap met (Article ≤ 11,000 / Forum ≤ 25,000 / Commentary < 2,000 / Special-Issue ~5,000)
 - [ ] Total word count **includes** abstract, references, notes, tables, and figure captions
 - [ ] Abstract present + **3-5 keywords**, italicized and alphabetized at the abstract's end
 
@@ -83,7 +88,7 @@ de-anonymize as effectively as a name in the header. Mitigations:
 ## Output format
 
 ```
-【Area / type】Methods/Human/Nature-Society/Physical/General · Article/Forum/Commentary (cap met? Y/N)
+【Area / type】GeogMethods/Human/Nature&Society/Physical-Earth-Env/General-cross · Article/Forum/Commentary/Special-Issue (cap met? Y/N)
 【Word count】total incl. abstract/refs/notes/tables/captions vs. cap
 【Anonymized】text + self-refs + metadata + study-site detail clean? [Y/N]
 【Style】Chicago author-date + 3-5 italicized keywords? [Y/N]

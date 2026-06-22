@@ -1,0 +1,24 @@
+{
+  "skill": "Mind-Skills/skills/mind-submission/SKILL.md",
+  "method": "SkillOpt-adapted rollout -> judge -> validation-gate (scale-up wave 4)",
+  "date": "2026-06-21",
+  "ground_truth_source": "Mind-Skills/resources/official-source-map.md",
+  "static_scorecard_before": 90.1,
+  "held_out_queries": [
+    "Does Mind only publish analytic philosophy, or also continental / history-of-philosophy? Any school excluded?",
+    "How competitive is Mind — how many submissions, acceptance rate or time to decision?",
+    "Submission fee, and the difference between a book review and a critical notice?"
+  ],
+  "runs": [
+    {"stage": "baseline", "skill_version": "v1", "judge_total": 57, "judge_breakdown": {"factual": 27, "specificity": 6, "coverage": 11, "venue": 3, "hedging": 10}},
+    {"stage": "candidate", "skill_version": "v2 (applied)", "judge_total": 99, "judge_breakdown": {"factual": 35, "specificity": 25, "coverage": 20, "venue": 9, "hedging": 10}}
+  ],
+  "edits": [
+    {"id": "E1", "status": "APPLIED", "ops": ["add", "add", "replace"],
+     "summary": "Add the verified scope policy (quality is the sole criterion; no area/style/school of philosophy excluded), the >800-submissions/year volume, the book-review-vs-critical-notice distinction, and the triple-anonymous review wording; firm 'no submission fee stated' to the verified 'no submission fee' + OA-for-a-charge (APC/Read&Publish 需复读). Acceptance rate / decision time left as live-check (not published).",
+     "grounded_in": "official-source-map.md (verified quotes)", "baseline_score": 57, "candidate_score": 99, "gate": "ACCEPTED",
+     "gate_reason": "strict improvement 57 -> 99; de-hedged a verified fee fact; unpublished metrics correctly deferred"}
+  ],
+  "applied_edits": ["E1"], "rejected_edit_buffer": [], "transfers": [],
+  "result": "mind-submission held-out 57 -> 99 (+42). Static scorecard ~90.1 unchanged."
+}
