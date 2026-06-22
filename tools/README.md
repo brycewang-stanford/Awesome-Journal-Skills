@@ -24,6 +24,7 @@ should fail on warnings.
 | [`quality_scorecard.py`](quality_scorecard.py) | Scores every first-party pack 0–100 on objective quality dimensions. It distinguishes single-venue `depth` packs, compressed AI-conference `conference` packs, and large `breadth` bundles: depth packs get credit for code/worked examples/exemplars, conference packs use a shorter skill-body target, and breadth bundles get credit for routers, rosters/source maps, worked routing cases, and selection patterns. The `unit` column is cross-language: Latin/technical tokens count as one unit and two CJK characters count as one unit. Venue-cue checks use pack names plus common skill-directory prefixes such as `jbf`, `ectj`, or `red`. `code=n/a` means the pack's resources explicitly explain why runnable econometric code is not discipline-appropriate. `--top N` shows the lowest scorers; `--show-skills` names the thinnest files inside each displayed pack; `--json` for diffing the trajectory over time; `--min-score` can gate a focused cleanup. | `python3 tools/quality_scorecard.py --top 20 --show-skills` |
 | [`external_link_audit.py`](external_link_audit.py) | Reports liveness for external official/publisher/submission URLs cited in first-party Markdown. It is network-dependent and advisory: 404/410 are actionable, while 401/403/429 and timeouts usually need manual recheck. Results are cached under `tools/.cache/`. | `python3 tools/external_link_audit.py` |
 | [`monthly_uplift_report.py`](monthly_uplift_report.py) | Aggregates the monthly quality program signals into one Markdown or JSON snapshot: live counts, score floor, source-map warnings, root-card warnings, clone fail-risk, current git dirt, goal-readiness signals, claims-aware current-target notes, a full-output unclaimed candidate pool, and dynamic next-batch suggestions. Use `--limit N` to show more rows and widen the candidate pool without changing thresholds. It is read-only and does not replace the hard gates. | `python3 tools/monthly_uplift_report.py --limit 12` |
+| [`skillopt_gate.py`](skillopt_gate.py) | Applies a SkillOpt-style baseline/candidate/validation gate to count-preserving skill edits. It snapshots inventory, scorecard, source-map, root-card, clone, git, and claim-sensitivity signals; `gate` keeps a candidate only if hard checks pass and validation signals do not regress. See `.maintenance/SKILLOPT-UPLIFT-PROTOCOL.md`. | `python3 tools/skillopt_gate.py snapshot --out /tmp/ajs-skillopt-baseline.json` |
 
 ## Monthly Quality Program
 
@@ -38,6 +39,7 @@ python3 tools/root_entry_audit.py
 python3 tools/source_map_audit.py
 python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 40
 python3 tools/monthly_uplift_report.py
+python3 tools/skillopt_gate.py snapshot --out /tmp/ajs-skillopt-baseline.json
 python3 tools/run_checks.py --skip-reports
 git diff --check
 ```
@@ -54,6 +56,11 @@ when the visible low-tail rows are claim-sensitive. Increase `--limit` when you
 want a wider ranked pool without changing audit thresholds. Track score
 movement, source-map debt, clone triage, and remaining risks in
 `.maintenance/MONTHLY-UPLIFT-2026-06-20.md` before handing off.
+
+For bounded SkillOpt-style edits, take a baseline before changing files and run
+`python3 tools/skillopt_gate.py gate --baseline /tmp/ajs-skillopt-baseline.json`
+before handoff. Use `--skip-clone` only for exploratory iterations; the final
+gate should include clone audit or be followed by `tools/run_checks.py`.
 
 ### Updating the inventory tripwires
 
