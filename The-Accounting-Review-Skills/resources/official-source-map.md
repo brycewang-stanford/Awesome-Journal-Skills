@@ -2,7 +2,10 @@
 
 Canonical sources for verifying every fact about **The Accounting Review (TAR)** used in this
 skill pack. Sources were searched and corroborated on **2026-06-01**; the Senior Editor masthead
-was re-confirmed on **2026-06-20** (Mohan Venkatachalam is now the sitting Senior Editor). Several official AAA /
+was re-confirmed on **2026-06-20 and again on 2026-06-22** (Mohan Venkatachalam is the sitting Senior
+Editor, succeeding Kathryn Kadous, per the AAA TAR 2026 Editor Announcement and the Duke/Fuqua
+appointment notice; submission fee now $285 member / $680 non-member on the live AAA Guide for
+Authors). Several official AAA /
 AllenPress endpoints did not expose stable machine-readable text in this environment, so the
 corresponding facts were taken instead from the aaahq.org Editorial Policy and Guide for Authors
 pages. Time-sensitive items are kept in the live-check section below instead of being asserted from

@@ -57,6 +57,8 @@ because fee amounts, mastheads, file labels, and policy wording can change.
 | Fact | Source URL |
 |------|------------|
 | JAE is an Elsevier / ScienceDirect accounting-and-economics journal | ScienceDirect journal home |
+| Current Editors (verified 2026-06-22): **John Core (MIT Sloan), Ed deHaan (Stanford GSB), Wayne R. Guay (Wharton, U. Penn)**; cross-checked on the ScienceDirect editorial-board page and the JAE Wikipedia entry. Re-verify the masthead before naming editors in author-facing advice. | ScienceDirect editorial-board page; en.wikipedia.org/wiki/Journal_of_Accounting_and_Economics |
+| Submission fee verified current at **USD 650** for unsolicited new manuscripts, no fee for resubmissions (re-confirmed 2026-06-22 against the live ScienceDirect Guide for Authors) | ScienceDirect Guide for Authors |
 | JAE's durable identity is positive / economics-based accounting research in the Watts-Zimmerman tradition | ScienceDirect journal home; archived Guide for Authors; JAE Conference call |
 | Scope includes accounting within firms, capital-market information content, financial contracting, monitoring agency relationships, accounting standards, disclosure regulation, and theory of the accounting firm | archived Guide for Authors |
 | Submission route is Elsevier Editorial Manager | Guide for Authors; Editorial Manager portal |
