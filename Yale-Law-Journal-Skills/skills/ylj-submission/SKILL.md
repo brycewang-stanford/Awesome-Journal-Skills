@@ -53,7 +53,22 @@ manuscript. Verify volatile specifics on the official submissions page before re
 ### Portal & materials
 - [ ] Submitting through the **YLJ author portal**, not Scholastica
 - [ ] Any abstract/cover info the portal requests prepared
+- [ ] Current-volume guidelines PDF or live submissions page checked; date and file/page noted
 - [ ] Expedite (if any) filed in the YLJ portal — no queue priority expected (see `ylj-placement-strategy`)
+
+## Gate decision
+
+Classify the submission before upload:
+
+- **STOP** if identity cues remain, file metadata is dirty, the manuscript is materially over the
+  encouraged cap without a deliberate reason, or any load-bearing citation fails existence/support.
+- **HOLD** if the current-volume guidelines PDF, portal fields, or fee/window status have not been
+  checked on the live YLJ page this cycle.
+- **GO** only when track, length, anonymization, footnote apparatus, portal path, and expedite handling
+  are all confirmed.
+
+Record the evidence packet in a short note: track, word count including footnotes, live guideline page
+or PDF checked, anonymization sweep result, cite-check status, and any expedite deadline.
 
 ## Anti-patterns
 
@@ -71,6 +86,8 @@ manuscript. Verify volatile specifics on the official submissions page before re
 【Apparatus】Bluebook + pinpoints + quotations marked? [Y/N]
 【Portal】submitting via YLJ's own system (not Scholastica)? [Y/N]
 【Expedite】filed in YLJ portal (no priority)? [Y/N or N/A]
+【Gate】GO / HOLD / STOP — blocker if any
+【Evidence】guidelines page/PDF checked + word count incl. footnotes + cite-check status
 【Next】await decision → ylj-revision-and-editing on acceptance
 ```
 
