@@ -14,7 +14,7 @@ description: Use when working with the Perspectives on Psychological Science (Po
 
 ## Who you are working with at PoPS
 
-PoPS is published by **SAGE** in partnership with **APS**, with an **Editor-in-Chief** (检索于 2026-06：Arturo Hernandez；以官网为准) leading a board of associate/handling editors across psychology's areas (检索于 2026-06；以官网为准). The relationship runs through the **handling editor** the EiC assigns. Because PoPS mixes submitted and invited/cooperative work, the dynamic varies by route: for a **stand-alone** piece you may pitch a proposal first (de-risks fit, not acceptance); for **cooperative** work (special issues, adversarial collaborations) the editor approves the *structure* before assembly. In all cases acceptance is **not** automatic — every manuscript, solicited or not, goes through the **same review** (检索于 2026-06；以官网为准).
+PoPS is published by **SAGE** in partnership with **APS**, with an **Editor-in-Chief** (Arturo Hernandez, University of Houston, since 2024-12-01；web-verified 2026-06-22；re-verify before relying) leading a board of associate/handling editors across psychology's areas (检索于 2026-06；以官网为准). The relationship runs through the **handling editor** the EiC assigns. Because PoPS mixes submitted and invited/cooperative work, the dynamic varies by route: for a **stand-alone** piece you may pitch a proposal first (de-risks fit, not acceptance); for **cooperative** work (special issues, adversarial collaborations) the editor approves the *structure* before assembly. In all cases acceptance is **not** automatic — every manuscript, solicited or not, goes through the **same review** (检索于 2026-06；以官网为准).
 
 ## How review differs for a perspective
 

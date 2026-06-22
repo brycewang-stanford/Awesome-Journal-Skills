@@ -21,7 +21,7 @@ description: Use when anticipating how a Psychological Review manuscript will be
 - Reviewers are drawn from the **modeling/theory tradition** you enter — typically proponents or
   critics of the rival models you must beat. Positioning honestly (`psychrev-literature-positioning`)
   matters precisely because the rivals' authors may review you.
-- The editor (currently **Elena L. Grigorenko, PhD**; 检索于 2026-06；以官网为准) makes the call,
+- The editor (currently **Elena L. Grigorenko, PhD**, editor since 2022; web-verified 2026-06-22, re-verify before relying) makes the call,
   weighing whether the theoretical contribution is genuine and general.
 
 ## Article types (confirm current list on the author page)

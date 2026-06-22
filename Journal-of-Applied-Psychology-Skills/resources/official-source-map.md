@@ -14,7 +14,10 @@ any open-access APC) on the official APA page before relying on them — journal
   and cultural levels across business, education, health, government, and military contexts; article
   types include **empirical investigations, meta-analyses, theory-development articles, integrative
   conceptual reviews, and qualitative research**; submission via **Editorial Manager**
-  (`www.editorialmanager.com/apl/`). Incoming Editor **Mo Wang**; outgoing Editor **Lillian T. Eby**.
+  (`www.editorialmanager.com/apl/`). **Editor-in-Chief Mo Wang** (University of Florida), who **began
+  the editorship in January 2026**, succeeding outgoing Editor **Lillian T. Eby** (web-verified
+  2026-06-22 via UF Warrington announcement, APA new-editor-appointments page, and Wikipedia; re-verify
+  before relying).
 - **https://www.apa.org/pubs/journals/apl** (Submission Guidelines section) — Verifies: manuscripts
   prepared per the **Publication Manual of the APA, 7th edition**; **masked (anonymized) review** with
   author identities withheld throughout consideration; completion of the **APA-published submission
@@ -57,9 +60,9 @@ any open-access APC) on the official APA page before relying on them — journal
 
 ## Bounded live-check rules
 
-- Treat Mo Wang as the incoming editor handling new submissions in 2026, with Lillian T. Eby as outgoing
-  editor, based on the APA page and editorial-board page snippets; re-open the APA masthead before
-  naming term dates.
+- Treat Mo Wang (University of Florida) as the Editor-in-Chief handling new submissions from January 2026,
+  with Lillian T. Eby as outgoing editor (web-verified 2026-06-22 via UF Warrington announcement + APA
+  new-editor-appointments page); re-open the APA masthead before naming the full term window.
 - Do not encode a hard Research Report page cap unless the live APA page states one; the source-backed
   rule is that Feature Article length should be commensurate with contribution.
 - Do not quote a generic APA 250-word abstract limit as a JAP-specific rule without checking the live

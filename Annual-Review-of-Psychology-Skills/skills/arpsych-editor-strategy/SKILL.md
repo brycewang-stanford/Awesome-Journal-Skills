@@ -14,7 +14,7 @@ description: Use when managing scope, length, deadlines, and the production rela
 
 ## Who you are working with (检索于 2026-06；以官网为准)
 
-ARPsych is run by an **Editor** (Susan T. Fiske since 2000) plus an **Editorial Committee** of associate editors and rotating members, supported by **Annual Reviews production staff** (检索于 2026-06；以官网为准). Unlike a normal journal, the editorial relationship begins at invitation and runs through commissioning, scope-setting, peer review, and production. The Editor cares about three things you can manage proactively: **scope fit within the volume**, **balance/accuracy** (see `arpsych-comprehensiveness-and-balance`), and **hitting length and deadline**.
+ARPsych is run by its **Editors** (Susan T. Fiske since 2000, co-editing with **Daniel L. Schacter** for the 2026 volume; web-verified 2026-06-22, re-verify before relying) plus an **Editorial Committee** of associate editors and rotating members, supported by **Annual Reviews production staff** (检索于 2026-06；以官网为准). Unlike a normal journal, the editorial relationship begins at invitation and runs through commissioning, scope-setting, peer review, and production. The Editor cares about three things you can manage proactively: **scope fit within the volume**, **balance/accuracy** (see `arpsych-comprehensiveness-and-balance`), and **hitting length and deadline**.
 
 ## The levers you control
 

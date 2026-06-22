@@ -19,7 +19,7 @@ volatile specifics (length numbers, abstract ceiling, policy wording, editor) on
 ## Process facts (verify volatile items on the official page)
 
 - **Publisher:** American Psychological Association (APA). **ISSN:** 0012-1649 (print); 1939-0599 (online).
-- **Editor:** Koraly Pérez-Edgar *(检索于 2026-06；以官网为准)*.
+- **Editor:** Koraly Pérez-Edgar (Penn State; editorship since 2023-01-01) *(web-verified 2026-06-22; re-verify before submission)*.
 - **Portal:** **Editorial Manager**, `editorialmanager.com/dvl`.
 - **Review:** **masked peer review** available on request — keep author identity out of the manuscript and
   out of shared links; submit a masked copy via a stable link or supplemental material.

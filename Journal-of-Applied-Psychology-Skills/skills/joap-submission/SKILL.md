@@ -30,7 +30,7 @@ abstract limit, checklist contents, current editor) on the official APA page fir
 - **Open science (TOP):** empirical work (including meta-analyses) held to the **TOP framework** —
   data/materials/code availability with DOIs, a **data-availability statement**, and preregistration
   weighed (effective for empirical submissions; confirm current TOP level, 待核实).
-- **Current Editor:** Mo Wang (incoming); Lillian T. Eby (outgoing) — confirm the live masthead (待核实).
+- **Current Editor:** Mo Wang (University of Florida), Editor-in-Chief from January 2026, succeeding Lillian T. Eby (web-verified 2026-06-22; re-verify the live masthead before submission).
 
 ## Preflight checklist
 

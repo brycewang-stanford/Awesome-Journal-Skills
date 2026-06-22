@@ -68,8 +68,11 @@ wording) on the official page before relying on them — journal policies change
 
 ## Live-check / 需复核 items
 
-- **Current Editor-in-Chief and editorial term:** not asserted here; confirm the current editor on
-  the APA masthead for Psychological Bulletin. 需复核.
+- **Current Editor-in-Chief and editorial term:** web-verified 2026-06-22 (APA journal page +
+  corroborating sources): the journal is in an editor transition — **outgoing Editor Blair T. Johnson**
+  (University of Connecticut, ~2021–2026) and **incoming Editor Stefan G. Hofmann** (Philipps-University
+  Marburg, Germany), who **begins handling new submissions in 2026 and assumes the full editorship in
+  2027**. Confirm the current handling-editor assignment on the APA masthead before relying. 需复核.
 - **Exact TOP level / per-dimension requirement wording:** the journal requires transparent reporting
   for empirical work including meta-analyses effective **Feb 1, 2022**; the precise TOP level (e.g.,
   "Level 2") and the per-dimension requirement language should be confirmed on the live submission

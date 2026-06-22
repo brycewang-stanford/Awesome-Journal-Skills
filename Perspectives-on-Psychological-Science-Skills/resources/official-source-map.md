@@ -24,7 +24,7 @@ Primary source map for facts used in the `ppsych-*` skill pack. **Access date: 2
 | Original data must be available in a repository; cover letter confirms ethical data collection | verified | APS submission guidelines |
 | Suggest ≥5 objective reviewers (excluding mentors/colleagues/collaborators) | verified | APS submission guidelines |
 | Submission portal: mc.manuscriptcentral.com/pps | verified | APS submission guidelines |
-| Editor-in-Chief: Arturo Hernandez (from 2024-12-01) | verified 2026-06；以官网为准 (volatile) | APS editorial-team page / EiC editorial |
+| Editor-in-Chief: Arturo Hernandez (University of Houston; from 2024-12-01) | re-verified 2026-06-22 via APS editorial-team page + Hernandez editorial vision; 以官网为准 (volatile) | APS editorial-team page / EiC editorial |
 | APA reference/statistics/exhibit style | **APA 7th edition** (section order, headings/subheadings per APA 7) — verified 2026-06 | APS/SAGE submission guidelines |
 | Open-Practice badges for PoPS | **Discontinued for submissions on/after 2024-01-01** — replaced by *required* open data + open materials (case-by-case exemptions) and a top-of-article **Research Transparency Statement**; preregistration is an evaluation factor — verified 2026-06 | APS submission guidelines (psychologicalscience.org/publications/perspectives/pps-submissions) |
 | Sibling boundary: Psychological Science, Psychological Bulletin, Annual Review of Psychology, Current Directions in Psychological Science | inferred from scope + APS journal portfolio | APS journal portfolio |

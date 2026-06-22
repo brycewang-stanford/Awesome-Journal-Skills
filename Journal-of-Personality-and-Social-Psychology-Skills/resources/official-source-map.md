@@ -84,11 +84,11 @@ one section may not hold for another.
 
 ## Live-check / 需复核 items
 
-- **Current section editors and editorial terms.** As of the access date the APA page lists **Dolores
-  Albarracín (UPenn, ASC)**, **Sandra L. Murray (University at Buffalo, SUNY; IRGP)**, and
-  **Richard E. Lucas (Michigan State University; PPID)**, and the IRGP team took office in **January
-  2024**. Editors and terms rotate per section — confirm each section's current masthead on the live
-  APA page. 需复核.
+- **Current section editors and editorial terms.** Web-verified 2026-06-22 (APA per-section editorial-board
+  pages + UPenn/Annenberg announcement): **Dolores Albarracín (University of Pennsylvania; ASC, since
+  January 2023)**, **Sandra L. Murray (University at Buffalo, SUNY; IRGP, since July 2024)**, and
+  **Richard E. Lucas (Michigan State University; PPID, since January 2022)**. Editors and terms rotate
+  per section — confirm each section's current masthead on the live APA page before relying. 需复核.
 - **PPID-specific length rules.** The APA page states PPID papers should be written **"as succinctly
   as possible"** with **no fixed introduction/discussion word cap** at access time (unlike ASC's
   3,500 and IRGP's 5,000). Confirm the current PPID guidelines, which the section can revise

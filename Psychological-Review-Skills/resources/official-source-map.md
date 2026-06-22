@@ -42,7 +42,7 @@ sources are listed under "Still unverified" and flagged inline in the skills.
 - Replications are publishable only when relevant to / embedded in new or enhanced theory, and
   should be mentioned in the abstract. (Source 1, secondary submission guides)
 - Submission and masked peer review run through **Editorial Manager** (editorialmanager.com/rev). (Source 2)
-- Current editor: **Elena L. Grigorenko, PhD**. (Source 1)
+- Current editor: **Elena L. Grigorenko, PhD** (editor since 2022; web-verified 2026-06-22 via APA journal page + Wikipedia, re-verify before relying). (Source 1)
 - Manuscripts follow **APA Style** (currently 7th edition): double-spaced, author–date citations,
   separate anonymized title page for masked review. (Sources 3–4)
 - Published by the **American Psychological Association**. (Source 1)

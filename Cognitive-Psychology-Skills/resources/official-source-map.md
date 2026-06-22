@@ -15,7 +15,7 @@ Official pages were re-checked on **2026-06-21**.
 ## Verified facts encoded in the pack
 
 - **Publisher / identity:** Elsevier / ScienceDirect journal, print ISSN 0010-0285 and online ISSN 1095-5623. (#1)
-- **Current Editor-in-Chief:** C.M. Rotello, PhD, University of Massachusetts Amherst. (#1)
+- **Current Editor-in-Chief:** C.M. (Caren) Rotello, PhD, University of Massachusetts Amherst. (#1) (Editorship re-verified 2026-06-22; re-confirm before relying.)
 - **Scope:** memory, attention, perception, language processing, categorization, thinking, reasoning, and cognition across development/aging. The journal specializes in longer, integrative articles with major theoretical impact. (#1, #2)
 - **Article types:** original empirical, theoretical, tutorial, methodological, and critical-review papers in cognitive psychology; related areas are welcome when they directly interest cognitive psychologists and are understandable to that audience. (#2)
 - **Review model:** single-anonymized peer review; editor suitability screen first; suitable submissions typically go to at least two reviewers; editors make the accept/reject decision. (#2)

@@ -29,6 +29,7 @@ limit. Verify volatile specifics on the official page before relying on them.
 - **ORCID:** encouraged for authors at submission.
 - **Fee:** **$50 non-refundable** processing fee (**$20** for manuscripts written solely by students);
   **no page charges** (post-acceptance OA APCs apply only if you choose Creative Commons — 待核实 amounts).
+  *(Fee/no-page-charges verified 2026-06-22; re-confirm current OUP amounts before payment.)*
 
 ## Preflight checklist
 

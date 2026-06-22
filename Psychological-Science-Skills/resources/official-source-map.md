@@ -57,8 +57,9 @@ requirements effective 1 January 2024.
 
 ## Live-check / 需复核 items
 
-- **Current Editor-in-Chief and editorial term**: not asserted here; confirm the current editor on the
-  APS masthead. 需复核.
+- **Current Editor-in-Chief and editorial term**: **Simine Vazire** (University of Melbourne), Editor-in-Chief
+  since **January 1, 2024**, serving a **4-year term** (web-verified 2026-06-22 via APS announcement +
+  Science.org/Wikipedia; re-verify on the APS masthead before relying). 需复核.
 - **Submission / open-access fee**: no submission fee is stated in the guidelines; confirm any
   open-access APC handled by SAGE after acceptance. 需复核.
 - **Exact current word/format numbers**: the 2,000-words-combined / ≤2,500 Method+Results / 150-word

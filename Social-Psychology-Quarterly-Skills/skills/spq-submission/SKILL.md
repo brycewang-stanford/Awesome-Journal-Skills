@@ -30,8 +30,10 @@ fields and payment prompt before relying on a saved checklist.
 - **Title page (separate file):** full title, author(s) and affiliation(s), running head, and the
   **approximate word count** (including notes and references).
 - **Style:** **ASA Style Guide** (author-date).
-- **Fee:** **$25** manuscript processing fee on **first** submission; **not** charged for
-  revised/resubmitted manuscripts or for **ASA student members**.
+- **Fee:** **$25** ASA manuscript processing fee on **first** submission; **not** charged for
+  revised/resubmitted manuscripts or for **ASA student members** (via the "ASA Student Member
+  Submission" article type). *(Verified 2026-06-22; SAGE author page may 403 to automated checks —
+  re-confirm the live fee workflow before upload.)*
 
 ## Preflight checklist
 

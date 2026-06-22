@@ -21,7 +21,7 @@ style details before relying on them. Items not confirmed from an official page 
 | Publisher / owner | Annual Reviews (nonprofit) | Wikipedia + official journal home |
 | Founded | 1950 | Wikipedia (Annual Review of Psychology) |
 | Frequency | Annual volume | Official journal home |
-| Editor | Susan T. Fiske (since 2000) — **re-confirm currency** | Wikipedia + editorial-committee page |
+| Co-Editors | Susan T. Fiske (since 2000) **and** Daniel L. Schacter — listed as co-editors for **Volume 77 (2026)** (web-verified 2026-06-22; re-verify before relying) | Annual Reviews Vol. 77 (2026) masthead + Wikipedia |
 | Editorial model | Editorial Committee plans volumes and **invites** authors; **unsolicited manuscripts not accepted** | Official editorial policies; Wikipedia |
 | Impact factor / rank | ~29.4 (2024 JIF), ranked #1 in Psychology — **volatile** | Research.com / Wikipedia |
 | Open access | Subscribe-to-Open (S2O) since 2023; Diamond OA, **no author APC** | Wikipedia; Annual Reviews S2O pages |
@@ -40,7 +40,7 @@ style details before relying on them. Items not confirmed from an official page 
 
 ## Unverified / volatile items
 
-- Current editor and Committee composition are **待核实** unless confirmed on the editorial-committee page at submission time.
+- Editorship confirmed 2026-06-22: **Susan T. Fiske and Daniel L. Schacter** are the co-editors for Volume 77 (2026). Full Committee composition remains **待核实** unless confirmed on the editorial-committee page at submission time.
 - Exact assigned length, disclosure format, figure specs, and current S2O/OA status are **待核实** if not visible on the official author pages above.
 - Impact-factor value and rank are volatile year to year; treat the figures above as 检索于 2026-06.
 - Exemplar articles must be verified on the Annual Reviews DOI page before being cited as real examples.

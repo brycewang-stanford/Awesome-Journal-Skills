@@ -36,8 +36,10 @@ relying on them — APA journal policies change.
 
 ## Editor, owner, history
 
-- **https://www.apa.org/pubs/journals/dev/** — Verifies (检索于 2026-06；以官网为准): **Editor**
-  Koraly Pérez-Edgar; published by the **American Psychological Association**.
+- **https://www.apa.org/pubs/journals/dev/** — Verifies (检索于 2026-06；以官网为准): **Editor-in-Chief**
+  **Koraly Pérez-Edgar** (The Pennsylvania State University), who began the editorship **January 1, 2023**
+  (web-verified 2026-06-22 via APA editor-spotlight, Penn State announcement, and Wikipedia; re-verify
+  before relying); published by the **American Psychological Association**.
 - **https://en.wikipedia.org/wiki/Developmental_Psychology_(journal)** — Verifies: Developmental
   Psychology is an APA journal covering development across the life span; established 1969.
 
@@ -54,10 +56,12 @@ relying on them — APA journal policies change.
 
 ## Live-check / 需复核 items
 
-- **Current Editor-in-Chief term length / associate-editor roster**: editor name confirmed on the APA
-  journal page at access time; the full editorial term and AE list are not asserted here. 需复核.
-- **Submission / open-access fee**: APA journals may levy an APC for open-access (e.g., a hybrid option)
-  after acceptance; no submission fee is asserted here. Confirm current APC handling. 需复核.
+- **Current Editor-in-Chief term length / associate-editor roster**: editor name (Koraly Pérez-Edgar,
+  Penn State, since 2023-01-01) web-verified 2026-06-22; the full editorial term end-date and AE list are
+  not asserted here. 需复核.
+- **Submission / open-access fee**: APA charges **no submission fee** for Developmental Psychology; an APC
+  applies **only** if the author elects the APA open-access (hybrid) option, billed after acceptance
+  (web-verified 2026-06-22). Confirm the current APC figure on the APA page. 需复核.
 - **Exact current length-tier word counts and abstract ceiling**: the ~4,500 / ~10,500 / ~15,000 tiers and
   the Public Significance Statement length are from the APA submission guidelines at access time; confirm
   the live page, since APA periodically revises these. 需复核.

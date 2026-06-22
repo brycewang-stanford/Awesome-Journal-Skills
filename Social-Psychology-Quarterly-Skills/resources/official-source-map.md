@@ -20,7 +20,10 @@ wording that may have changed after this refresh.
   and the current editorial-board list.
 - **https://www.asanet.org/publications/journals/social-psychology-quarterly/** — ASA SPQ
   page. Use as the association-side checkpoint for ownership and editor-term information;
-  current public snippets list Walker and Dippong as editors for **2025-2029**.
+  current public snippets list **Lisa Slattery Walker and Joseph C. Dippong** (UNC-Charlotte) as
+  editors for the **2025-2029** term (web-verified 2026-06-22 via ASA + SAGE editorial-board pages;
+  note an ASA editor-proposal PDF is titled "2025-2027," but the ASA journal page and SAGE board list
+  the full term as 2025-2029 — re-confirm the exact end-year before relying).
 
 ## Submission, Masking, and File Requirements
 

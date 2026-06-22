@@ -62,9 +62,11 @@ official page before relying on them — journal pages change.
 - **Exact abstract word limit**: the guidelines require an abstract (English, no references) on the
   title page but **no explicit numeric word cap** was confirmed verbatim. Treat ~150–200 words as a
   safe working target and confirm the current figure on the live guidelines page. 需复核.
-- **Current Editor(s) and editorial term**: the journal is edited from the UNC Department of Sociology
-  but the current masthead and term dates were not confirmed verbatim at access time. Confirm on the
-  UNC and Oxford Academic pages. 需复核.
+- **Current Editor(s) and editorial term**: **Arne L. Kalleberg** (Kenan Distinguished Professor of
+  Sociology, UNC Chapel Hill) is the Editor, edited from the UNC Department of Sociology (web-verified
+  2026-06-22 via the official Oxford Academic editorial-board page + Wikipedia, updated Dec 2025; a
+  stray third-party listing naming "Andrew Penner" was not corroborated and is treated as erroneous).
+  Exact term dates were not confirmed verbatim — re-confirm on the UNC and Oxford Academic pages. 需复核.
 - **Whether word-count exclusions exist for tables/figures**: the guideline wording is "10,000 words
   (including text, endnotes, and references)"; it does **not** carve out tables/figures the way some
   journals do. Confirm whether table/figure text counts on the live page. 需复核.
