@@ -42,7 +42,10 @@ moment of submission.
   Verifies: current editor Matthew Gentzkow; coeditors Dirk Bergemann, Gabriel
   Chodorow-Reich, Tatyana Deryugina, and Seema Jayachandran; board of editors;
   Data Editor Lars Vilhuber; Managing Editor Tina Lippert; Amy Finkelstein as
-  past editor (2017-2023).
+  past editor (2017-2023). **Re-verified 2026-06-22:** Gentzkow (lead editor since
+  January 2024, succeeding Finkelstein) remains the sitting editor per the AEA
+  editors page and his 2024-2025 Report of the Editor; the coeditor slate rotates,
+  so confirm the live editors/conflicts page before naming a conflicted coeditor.
 - **https://www.aeaweb.org/news/member-announcements/2023-jan-17** — AEA
   member announcement. Verifies: Matthew Gentzkow was appointed lead editor of
   AER: Insights beginning January 2024.

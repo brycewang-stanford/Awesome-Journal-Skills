@@ -28,6 +28,10 @@ uploading a manuscript or paying a fee.
   Boston University**. The same snippet family also surfaces current editors such as
   Treb Allen, Dmitry Arkhangelsky, Michael Dinerstein, and Ruixue Jia; this pack
   names only the co-chairs and sends users to the live page for the full board.
+  **Re-verified 2026-06-22:** Dobbie and Fisman remain the sitting Co-Chairs per the
+  MIT Press editorial-info page and the 2025 REStat Annual Report; the wider board
+  (e.g., Allen, Alsan, Azoulay, Dinerstein, Hull, Suri, Terry) rotates — confirm on
+  the live page before naming a handling editor.
 - **https://direct.mit.edu/rest** — REStat journal home on MIT Press Direct.
   Use for publisher/journal-home context and current issue navigation.
 

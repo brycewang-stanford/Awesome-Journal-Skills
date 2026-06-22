@@ -19,15 +19,20 @@ the live Editorial Express portal). Access date for all entries below: **2026-05
 
 ## Editor and co-editors
 
-- **Editor: Marina Halac (Yale), 2025–2029; Co-Editors incl. Keisuke Hirano (Penn State),
-  Pete Klenow (Stanford), Aureo de Paula (UCL), Marciano Siniscalchi (Northwestern),
-  Patrick Kline (UC Berkeley).**
+- **Editor: Marina Halac (Yale), term 2025–2029; Co-Editors incl. Keisuke Hirano (Penn State,
+  2025–2029), Pete Klenow (Stanford, 2025–2029), Patrick Kline (UC Berkeley, 2024–2028),
+  Aureo de Paula (UCL), Marciano Siniscalchi (Northwestern).** (Re-verified **2026-06-22** via
+  ES editorial-board search snippets and the 2024–2025 Editors' Report authored by Halac;
+  Halac is the sitting Editor.)
   - https://www.econometricsociety.org/society/news/Announcing-the-new-2025-co-editors-2024-09-10.html
   - https://www.econometricsociety.org/publications/econometrica/editorial-board
   - https://www.econometricsociety.org/publications/news/Econometrica-Editorial-Board-Changes-2025-07-01.html
-  - **CONFLICT:** a third-party submission-guide blog still lists Guido W. Imbens as Editor
-    (likely the immediately prior editor). The ES announcement pages above are authoritative;
-    treat the named board as volatile and re-verify on the editorial-board page.
+  - https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA941EDS (Editors' Report 2024–2025,
+    Marina Halac, 2026 — confirms Halac as current Editor)
+  - **STALE-FIX (2026-06-22):** a third-party submission-guide blog still lists Guido W. Imbens
+    as Editor; that is the *former* Editor (immediately prior to Halac). The ES pages and the
+    2026 Editors' Report above are authoritative — Halac is current. The co-editor roster
+    rotates; re-verify on the editorial-board page before relying on it.
 
 ## Submission system, fee, membership
 

@@ -15,7 +15,8 @@ Access date for all entries: **2026-05-30**. Re-verify volatile items (editors, 
 
 ## Editors, history, scope, metrics
 
-- **https://en.wikipedia.org/wiki/The_Quarterly_Journal_of_Economics** — Verifies: founded **1886**, oldest English-language professional economics journal; current Editors **Robert J. Barro, Lawrence F. Katz, Nathan Nunn, Andrei Shleifer, Stefanie Stantcheva** (five-person Harvard team); Pol Antràs, Alberto Alesina, Edward Glaeser among recent former editors; ranks among the top-5; scope covers micro-theory through empirical and theoretical macro. (Impact factor figures across sources vary — see Live-check note below.)
+- **https://en.wikipedia.org/wiki/The_Quarterly_Journal_of_Economics** — Verifies: founded **1886**, oldest English-language professional economics journal; current Editors **Robert J. Barro, Lawrence F. Katz, Nathan Nunn, Andrei Shleifer, Stefanie Stantcheva** (five-person Harvard team; re-verified **2026-06-22** via OUP/Harvard editorial-board search snippets — the five-editor team remains current, Stantcheva being the 2025 J.B. Clark Medalist); Pol Antràs, Alberto Alesina, Edward Glaeser among recent former editors; ranks among the top-5; scope covers micro-theory through empirical and theoretical macro. (Impact factor figures across sources vary — see Live-check note below.)
+- **No submission fee re-confirmed 2026-06-22:** every source consulted still states QJE charges no submission fee (unusual among the top-5). Cross-checked against https://academic.oup.com/qje and the https://editorialexpress.com/qje/ portal text plus the secondary submission guide; the General Instructions page remains partly anti-bot gated, so a live check is still recommended.
 
 ## Process facts (no fee, timing, desk-reject) — secondary, cross-checked
 

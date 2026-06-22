@@ -39,6 +39,10 @@ fees, charges, and special-issue calls can change.
   Manzini**, **Franck Portier**, **Roland Rathelot**, **Marta Serra-Garcia**,
   and **Basit Zafar**; Special Issues Editor **Alberto Bisin**; Senior
   Publications Manager **Brooke Sperry**; Data Editor **Damian Clarke**.
+  **Re-verified 2026-06-22:** Lippi has been Editor-in-Chief since **1 August 2021**
+  and remains the sitting EiC (RES appointment news + RES spring-2026 editorial-
+  appointment announcements confirm the board, with Aucejo, Grosjean and Serra-Garcia
+  joining in 2026); Damian Clarke remains Data Editor.
 - **https://ejdataeditor.github.io/Guide-for-Accepted-Authors.pdf** — EJ Guide
   for Accepted Authors, version dated **21 December 2025**. Verifies final-file
   and production-stage details: final files are submitted through Editorial
@@ -66,7 +70,10 @@ fees, charges, and special-issue calls can change.
   by invoice or cheque is not received within 21 days, RES may remove the
   submission. Current EJ submission fees listed on the page are: non-member
   **GBP 248**, student / Tier A / unemployed member **GBP 50**, and Tier B-C-D
-  members / Fellows **GBP 113**, before VAT.
+  members / Fellows **GBP 113**, before VAT. **Re-verified 2026-06-22:** RES updated
+  the submission-fee policy with the **non-member GBP 248 rate effective 8 May 2026**
+  (see also <https://res.org.uk/the-economic-journal-updated-submission-fee-policy/>);
+  the 20% VAT and resubmission-exemption rules are unchanged.
 - **https://res.org.uk/oxford-university-press-to-publish-the-journals-of-the-royal-economic-society-from-2019/**
   — RES news. Verifies that OUP has published the RES journals, including EJ,
   from 2019.

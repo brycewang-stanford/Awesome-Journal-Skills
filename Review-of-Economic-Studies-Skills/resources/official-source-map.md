@@ -31,12 +31,12 @@ Primary sources consulted to make this skill pack specific to **The Review of Ec
 - **Editorial Board page (OUP)** — <https://academic.oup.com/restud/pages/Editorial_Board>
   Verifies: full editorial board listing.
 
-> Note: editorship rotates. Re-check the official board page before naming a handling editor; the skills name only De Loecker, Penta, and Steiner as representative current Joint Managing Editors across fields.
+> Note: editorship rotates. Re-check the official board page before naming a handling editor; the skills name only De Loecker, Penta, and Steiner as representative current Joint Managing Editors across fields. **Re-verified 2026-06-22:** Chair **Ruben Enikolopov** (UPF) and the Joint-Managing-Editor model remain current per restud.com search snippets; the roster shifts year to year (a 2026 search snippet also surfaced Thomas Chaney as a Joint Managing Editor), so treat any specific name as volatile and confirm on the live board page.
 
 ## Submission mechanics, fee, anonymity, references, length
 
 - **Submissions (restud.com)** — <https://www.restud.com/submissions/>
-  Verifies: **USD 200** new-submission fee; **reduced USD 120** when every author is (i) a current student, (ii) within six years of the PhD, or (iii) resident in a World Bank low/middle-income economy (effective 1 July 2023); supporting evidence required for the reduced rate; **~45-page limit** including title page, tables, figures, references, appendices; 1.5-spaced 12-pt text, ≥1-inch margins; editors pre-screen before refereeing.
+  Verifies: **USD 200** new-submission fee; **reduced USD 120** when every author is (i) a current student, (ii) within six years of the PhD, or (iii) resident in a World Bank low/middle-income economy (effective 1 July 2023); supporting evidence required for the reduced rate; **~45-page limit** including title page, tables, figures, references, appendices; 1.5-spaced 12-pt text, ≥1-inch margins; editors pre-screen before refereeing. (Fee re-checked **2026-06-22**: the USD 200 / reduced USD 120 schedule still appears on the submissions page and secondary submission guides; re-confirm the live figure before paying.)
 - **Instructions to Authors (OUP)** — <https://academic.oup.com/restud/pages/general_instructions>
   Verifies: submission portal **Editorial Express** (<http://editorialexpress.com/restud>); **JEL classification required**; data access policy exists; self-archiving embargo (24 months standard / 12 months for some funders).
 - **E-submit / Editorial Express portal** — <http://editorialexpress.com/restud> (also <https://editorialexpress.com/cgi-bin/e-editor/e-submit.cgi?dbase=restud>)

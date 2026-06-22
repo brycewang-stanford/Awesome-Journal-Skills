@@ -19,7 +19,7 @@ description: Use when running the final pre-submission preflight for the Quarter
 - **There is no submission fee.** This is unusual among top-5 journals (AER, JPE, REStud all charge); do not budget for one. QJE is hybrid open access, so an optional OA charge applies only *after* acceptance if you choose it.
 - **Initial submission is a single PDF** containing the full manuscript, tables, figures, and appendices. **No Word files, no LaTeX source, no separate figure files** at this stage — source files are requested only after acceptance.
 - QJE uses **double-blind refereeing** — the manuscript must be fully anonymized.
-- The editorial team — **five Editors, all at Harvard** (Robert J. Barro, Lawrence F. Katz, Nathan Nunn, Andrei Shleifer, and Stefanie Stantcheva, per the masthead as of 2024) — makes **fast desk decisions (roughly two weeks)**, the quickest among the top-5 flagships, so a clean, complete submission is part of clearing the first screen. (Acceptance runs ~1-4%; desk-reject ~60%+.)
+- The editorial team — **five Editors, all at Harvard** (Robert J. Barro, Lawrence F. Katz, Nathan Nunn, Andrei Shleifer, and Stefanie Stantcheva, masthead re-verified 2026-06-22; re-check before submitting) — makes **fast desk decisions (roughly two weeks)**, the quickest among the top-5 flagships, so a clean, complete submission is part of clearing the first screen. (Acceptance runs ~1-4%; desk-reject ~60%+.)
 
 ## Preflight checklist
 

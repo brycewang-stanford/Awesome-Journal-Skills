@@ -15,7 +15,9 @@ Association and publisher pages can change.
   **EUR 100**; the fee is waived when the submitting author and all coauthors are based in low- or
   middle-income countries as defined by the World Bank; the fee covers one manuscript through final
   editorial decision; submission fees are non-refundable; payment is made through the EEA membership
-  profile at submission.
+  profile at submission. **Re-verified 2026-06-22:** the EUR 100 fee is now in force (the Feb 1, 2026
+  start date has passed); EEA-membership-of-submitter, the LMIC waiver, and non-refundability are
+  unchanged. Re-confirm the live page before paying.
 - **https://eeassoc.org/jeea-data-editor-frequently-asked-questions-faqs** — EEA JEEA Data Editor FAQ.
   Confirms confidential-data replication paths, including temporary access to restricted data, remote
   access to restricted data, and synthetic/simulated data for code checks when exact replication is not
@@ -39,7 +41,10 @@ Association and publisher pages can change.
   Editor **Romain Wacziarg**; Co-Editors **Matthias Doepke**, **Pierre Dubois**, **Jonas Hjort**,
   **Thierry Mayer**, **Jessica Pan**, **Christopher Roth**, **Alp Simsek**, and **Vasiliki Skreta**;
   Data Editor **Maia Güell**; new Associate Editor appointments for 2026; and the Associate Editors
-  section.
+  section. **Re-verified 2026-06-22:** Wacziarg remains the sitting Managing Editor (OUP board page +
+  the JEEA vol. 24, issue 1 masthead). The co-editor slate rotates — a 2026 search snippet listed
+  Doepke, Dubois, Hjort, Mayer, Roth, Simsek, Skreta plus **Andrea Weber** (CEU); treat any single
+  co-editor name as volatile and confirm on the live board page.
 
 ## Data & code availability standard
 

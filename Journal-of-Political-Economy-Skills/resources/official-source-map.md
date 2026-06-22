@@ -16,7 +16,7 @@ limits), the skills say "verify on the official page" rather than inventing it.
 
 - <https://www.journals.uchicago.edu/journals/jpe/about> — JPE homepage, aims/scope, history (HTTP 403 at access time; quoted via search).
 - <https://www.journals.uchicago.edu/journals/jpe/instruct> — Instructions for Authors: Chicago author-date references, PDF/Word/LaTeX formats, manuscript preparation, the $250/$125 submission fee, single-blind review (gated; quoted via search).
-- <https://www.journals.uchicago.edu/journals/jpe/board> — editorial board: lead editor Esteban Rossi-Hansberg (University of Chicago) plus co-editors (gated; quoted via search).
+- <https://www.journals.uchicago.edu/journals/jpe/board> — editorial board: lead editor Esteban Rossi-Hansberg (University of Chicago) plus co-editors (gated; quoted via search). Re-verified **2026-06-22**: Rossi-Hansberg became an Editor in 2021 and Lead Editor in 2024 and remains the sitting Lead Editor (confirmed via uchicago board-page and CV/CEPR/AmAcad search snippets). Co-editor roster rotates — re-check the board page before naming a handling editor.
 - <https://www.journals.uchicago.edu/journals/jpe/datapolicy> — JPE data policy: publishes only if data/code documented and available; endorses DCAS v1.0; deposit to the JPE Dataverse; exemption requested at first submission; 5-year preservation for exempted data; license allowing unrestricted access for replication (gated; quoted via search).
 - <https://www.editorialmanager.com/jpolec/> — JPE submission system (Editorial Manager / Editorial Express portal).
 - <https://www.journals.uchicago.edu/journals/jpemi/pr/220517> — 2022 launch announcement of JPE Microeconomics (lead editor John List); first issue March 2023.
@@ -25,7 +25,7 @@ limits), the skills say "verify on the official page" rather than inventing it.
 
 ## Submission fee and review model (quoted from the Instructions for Authors via search)
 
-- $250 submission fee for nonsubscribers; $125 for individual JPE subscribers; non-refundable even if desk-rejected; waiver for authors who completed 3+ JPE referee reports in the prior 12 months. Source: JPE Instructions for Authors (<https://www.journals.uchicago.edu/journals/jpe/instruct>), quoted in search results 2026-05-30.
+- $250 submission fee for nonsubscribers; $125 for individual JPE subscribers; non-refundable even if desk-rejected; waiver for authors who completed 3+ JPE referee reports in the prior 12 months. Source: JPE Instructions for Authors (<https://www.journals.uchicago.edu/journals/jpe/instruct>), quoted in search results 2026-05-30; **fee re-confirmed 2026-06-22** via the same Instructions page search snippets (the $250/$125 split and the 3-report waiver are unchanged).
 - Review model: single-blind (referees see authors). Same source.
 
 ## JPE Data Editor (open)

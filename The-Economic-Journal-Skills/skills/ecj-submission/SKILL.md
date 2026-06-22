@@ -20,7 +20,7 @@ description: Use when running the final pre-submission preflight for a The Econo
 - **Metadata:** JEL classification codes and keywords are entered in Editorial Express; provide title, abstract, authors, and affiliations.
 - **References: author-date** style. The accepted-author guide gives EJ-style examples and asks for an alphabetized, then chronological, reference list; data and replication packages should be cited.
 - **Accepted-author production limits:** short title **40 characters or fewer**, abstract **100 words or fewer**, and keywords **20 characters or fewer each**. Treat these as production-stage limits and keep submission metadata comfortably within them unless the live portal says otherwise.
-- **Submission fee:** RES charges for each **new** EJ submission: current listed fees are GBP 248 for non-members, GBP 50 for student / Tier A / unemployed members, and GBP 113 for Tier B-C-D members / Fellows, before 20% VAT. Resubmissions are not charged.
+- **Submission fee:** RES charges for each **new** EJ submission: current listed fees (re-verified 2026-06-22; non-member rate updated **effective 8 May 2026**) are GBP 248 for non-members, GBP 50 for student / Tier A / unemployed members, and GBP 113 for Tier B-C-D members / Fellows, before 20% VAT. Resubmissions are not charged. Re-confirm the live RES fee table before paying.
 - **Funding:** all sources of research funding must be acknowledged in the manuscript.
 - **Data & code:** EJ runs **pre-acceptance reproducibility checks** (since July 2019) via the **EJ Data Editor**; the package is deposited to **Zenodo** at acceptance under the RES policy (DCAS-endorsed). Request any **data exemption at first submission** (see `ecj-replication-package`).
 
