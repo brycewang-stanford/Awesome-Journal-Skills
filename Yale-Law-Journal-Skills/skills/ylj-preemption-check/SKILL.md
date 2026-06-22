@@ -38,6 +38,24 @@ For every close piece, decide which applies — and say so explicitly in the dra
 - **Same claim, different ground** — they argued it on policy; you argue it on text/history → frame as a new justification.
 - **Genuinely preempted** — they made your exact move → **change the claim** (back to `ylj-thesis-and-contribution`), do not paper over it.
 
+## Near-miss ledger
+
+Do not rely on memory after the search. Build a ledger for the closest sources and use it as the
+validation record for the contribution paragraph:
+
+| Field | What to record |
+|-------|----------------|
+| **Exact claim searched** | One sentence, with doctrine + mechanism + proposed move |
+| **Search string / database** | The query used in SSRN, Westlaw, HeinOnline, and Scholar |
+| **Closest source** | Author, title, venue, year, and pinpoint or abstract sentence |
+| **Overlap** | Same topic / same mechanism / same remedy / same institutional actor |
+| **Classification** | Different claim / narrower / different ground / **PREEMPTED** |
+| **Draft action** | Cite and distinguish / frame as extension / change thesis |
+
+Validation rule: the "what's new" paragraph is not ready until the closest near-miss can be described
+fairly in one sentence and the piece's added move is different enough that a skeptical student editor
+would not call it a relabeling.
+
 ## Write the "what's new" paragraph
 
 Output a paragraph that (1) names the closest prior work, (2) states precisely what it did, and (3)
@@ -67,6 +85,7 @@ look for first.
 【Sources swept】SSRN / Westlaw / HeinOnline / Scholar (all four? Y/N)
 【Closest prior work】author, venue, what it did
 【Relationship】different / narrower / different ground / PREEMPTED
+【Ledger】search strings + near-miss classifications recorded? Y/N
 【What's new】one-paragraph contribution statement
 【Next】ylj-argument-structure (or back to ylj-thesis-and-contribution if preempted)
 ```

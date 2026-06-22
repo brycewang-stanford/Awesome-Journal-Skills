@@ -50,6 +50,20 @@ prose either survives or fights:
 
 Prepare for source-pull by finishing `ylj-sources-and-bluebook` *before* submission, not after.
 
+## Editor-read packet
+
+For a final self-audit, assemble the same packet a skeptical student editor would need to say "yes"
+without knowing who wrote the piece:
+
+- **Anonymous claim map:** thesis, contribution type, and the one sentence a generalist should remember.
+- **Preemption ledger:** closest near-miss and why it does not make the claim old.
+- **Part map:** each Part's claim and the objection it answers.
+- **Source-pull risk register:** the 10 most load-bearing citations, each with pinpoint and support note.
+- **Identity sweep:** text, acknowledgments, self-citations, document properties, comments, and file name.
+
+If any item is missing, route backward before submission: thesis gaps to `ylj-thesis-and-contribution`,
+novelty gaps to `ylj-preemption-check`, and source gaps to `ylj-footnotes-and-cite-check`.
+
 ## Checklist
 
 - [ ] Manuscript persuades anonymously (no reliance on author reputation)
@@ -71,6 +85,7 @@ Prepare for source-pull by finishing `ylj-sources-and-bluebook` *before* submiss
 ```
 【Track】Article/Essay (anonymized read) or Note/Comment (student, Notes Development)
 【Anonymized-ready】no reputation cues? Y/N
+【Editor-read packet】claim map + preemption ledger + Part map + source-risk register complete? Y/N
 【Source-pull-ready】apparatus complete + cites support sentences? Y/N
 【Open queries】likely author queries to pre-empt
 【Next】ylj-submission (if pre-offer) or ylj-revision-and-editing (if accepted)

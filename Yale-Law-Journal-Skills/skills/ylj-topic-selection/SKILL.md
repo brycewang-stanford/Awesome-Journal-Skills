@@ -29,6 +29,22 @@ the claim (`ylj-thesis-and-contribution`) or prove novelty (`ylj-preemption-chec
 4. **Right scale for a track.** Big original theory → **Article**; sharp, contained intervention →
    **Essay**; timely reaction to a development or a response to a YLJ piece → **Forum**.
 
+## Fit-gate ledger
+
+Before sending the user onward, write a short keep / reframe / reject ledger. This prevents generic
+"top law review" advice from passing as a YLJ fit decision.
+
+| Gate | Pass evidence | If weak |
+|------|---------------|---------|
+| **Audience travel** | Name two legal audiences outside the subfield and the reason each should care | Reframe the stakes or route to a specialty review |
+| **Claim pressure** | State the contestable move, not just the topic | Route to `ylj-thesis-and-contribution` before picking a venue |
+| **Novelty headroom** | Identify the first SSRN / Westlaw / HeinOnline scan and the closest near-miss | Route to `ylj-preemption-check` before investing in the draft |
+| **Track fit** | Match ambition, timeliness, and length to Article / Essay / Forum / Note / Comment | Split or compress the idea before submission planning |
+
+Use **KEEP** only when all four gates have concrete evidence. Use **REFRAME** when the idea could become
+YLJ-shaped after narrowing, broadening, or changing tracks. Use **REJECT** when the only plausible value
+is specialist, descriptive, or already preempted.
+
 ## Generalist-significance ladder (push the topic up a rung)
 
 | Rung | Example framing | Verdict |
@@ -68,6 +84,7 @@ the claim (`ylj-thesis-and-contribution`) or prove novelty (`ylj-preemption-chec
 ```
 【Topic】one line
 【Generalist stakes】who outside the subfield cares, and why
+【Fit gate】KEEP / REFRAME / REJECT + weakest gate
 【Track】Article / Essay / Feature / Note / Comment / Forum (length realistic? Y/N)
 【Novelty headroom】initial read (formal check pending)
 【Next】ylj-thesis-and-contribution to sharpen the claim
