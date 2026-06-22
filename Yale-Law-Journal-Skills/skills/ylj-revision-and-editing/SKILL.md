@@ -36,6 +36,22 @@ line-by-line cite verification it triggers is `ylj-footnotes-and-cite-check`.
   not "trust me." Vague answers generate more queries.
 - **Keep a clean change log.** Track what each round changed so the argument stays coherent end-to-end.
 
+## Query-response ledger
+
+Treat every editor query as a small validation gate. For each query, record:
+
+| Field | Decision |
+|-------|----------|
+| **Query type** | Doctrine / source support / Bluebook form / structure / prose / scope |
+| **Risk level** | High if the edit changes the legal rule, holding, remedy, or claim scope |
+| **Response evidence** | Pinpoint, quote, corrected sentence, or concession |
+| **Action** | Accept / accept with revised wording / push back with alternative / revise claim |
+| **Follow-up** | Cite-check, cross-reference update, or Part-map update needed |
+
+The default is to accept clarity edits. Push back only when the edit changes the law, removes a
+necessary limitation, or breaks the claim's logic. When pushing back, propose replacement language in
+the same message so the editor has a clean path forward.
+
 ## The YLJ Forum path
 
 - The **Forum** is YLJ's online companion (the Journal was the first leading law review to launch one;
@@ -68,6 +84,7 @@ line-by-line cite verification it triggers is `ylj-footnotes-and-cite-check`.
 ```
 【Stage】substantive / source-pull / line edit / proof / Forum
 【Queries open】count + the hard ones
+【Query ledger】high-risk edits classified and answered with evidence? Y/N
 【Law-integrity risk】any edit that misstates a holding? flagged? Y/N
 【Argument coherence】spine intact after edits? Y/N
 【Next】ylj-footnotes-and-cite-check for the final cite verification

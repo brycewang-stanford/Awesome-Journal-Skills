@@ -40,6 +40,21 @@ cites is `ylj-sources-and-bluebook`, and the editorial cycle that triggers sourc
 | **Quotation fidelity** | Quoted text that no longer matches the source verbatim; missing `[ ]`/`. . .` |
 | **Signal accuracy** | `See` where the source states it directly (or `E.g.` with one example) |
 
+## Risk-ordered audit pass
+
+Do not audit footnotes only from note 1 to the end. First isolate the citations that would damage the
+piece if they fail:
+
+1. **Load-bearing law:** holdings, statutory text, constitutional provisions, agency rules.
+2. **Novelty claims:** cites used to prove what prior scholarship has or has not said.
+3. **Empirical / historical claims:** any number, date, institutional practice, or archive fact.
+4. **Quotations:** all block quotes and all quotations used as proof of meaning.
+5. **String cites:** sources in a chain where one weak cite can make the whole proposition look padded.
+
+For each high-risk note, write a one-line support note: "source says X at pin Y; manuscript sentence
+claims Z; support is direct / inferential / weak." Anything weak becomes a revision task, not a
+source-pull answer to defer.
+
 ## Quotation and integrity audit
 
 - Re-collate every direct quotation against the source character-for-character; mark alterations per
@@ -74,6 +89,7 @@ Build a query-resistant apparatus: for the hardest cites, drop an explanatory pa
 
 ```
 【Cites audited】N footnotes; existence + support + pinpoint + form all pass? Y/N
+【High-risk notes】load-bearing citations support-logged? Y/N
 【Hard cites】load-bearing cites re-checked against source? Y/N
 【Short forms】id./supra chain + cross-refs consistent? Y/N
 【Quotations】collated verbatim + alterations marked? Y/N
