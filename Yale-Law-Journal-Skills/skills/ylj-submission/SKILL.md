@@ -30,7 +30,11 @@ manuscript. Verify volatile specifics on the official submissions page before re
   acceptance (检索于 2026-06；以官网为准).
 - **Style:** **Bluebook** (The Bluebook: A Uniform System of Citation) plus the Journal's own citation
   requirements; quotations need quotation marks + pinpoint cites.
-- **Fee:** no submission fee typical for a student-edited law review (待核实 on the live page).
+- **Fee:** **no submission fee and no APC** — YLJ takes manuscripts on its own portal with article
+  selection by **student editors**; no Scholastica/ExpressO fee attaches to its own intake (verified
+  2026-06-22; 以官网为准).
+- **Leadership:** led by an **annually-elected student Editor-in-Chief**; the masthead **rotates each
+  volume** (current: Volume 135, 2025–2026) — **re-check the live masthead** before naming any EiC.
 
 ## Preflight checklist
 
@@ -76,7 +80,7 @@ or PDF checked, anonymization sweep result, cite-check status, and any expedite 
 - Leaving author name/affiliation/acknowledgments or file-metadata identity cues (breaks anonymization)
 - Submitting an over-length piece (length weighs against acceptance)
 - Uploading with an incomplete footnote apparatus, planning to finish cites later
-- Budgeting for a submission fee without confirming one exists
+- Budgeting for a submission fee — YLJ charges none (no submission fee / no APC)
 
 ## Output format
 

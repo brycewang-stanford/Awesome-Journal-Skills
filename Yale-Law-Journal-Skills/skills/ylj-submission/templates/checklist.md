@@ -50,7 +50,7 @@ submissions page (检索于 2026-06；以官网为准).
 - [ ] Any abstract / cover info the portal requests prepared
 - [ ] Multi-submission slate (other reviews) handled separately via Scholastica/ExpressO
 - [ ] Expedite (if any) filed in the YLJ portal with a real offer + deadline — **no queue priority expected**
-- [ ] Submission fee status confirmed on the live page (待核实)
+- [ ] No submission fee budgeted — YLJ charges **no submission fee / no APC** (verified 2026-06-22; 以官网为准)
 
 ## 7. Final
 

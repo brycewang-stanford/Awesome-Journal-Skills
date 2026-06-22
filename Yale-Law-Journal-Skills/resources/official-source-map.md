@@ -56,8 +56,16 @@ journal pages change each volume.
 - **Precise current-volume word caps and what they include.** The "< 25,000 / < 15,000 / < 10,000 words
   including footnotes" figures are the volumes-recent encouraged limits; the controlling numbers are on
   the **current** volume's Submission Guidelines PDF. Confirm the live figures. 需复核.
-- **Submission fee.** No submission fee is typical for a student-edited law review and none was
-  confirmed on the live page at access time; treat "no fee" as the working assumption and confirm. 需复核.
+- **Submission fee.** **YLJ charges no submission fee and no APC.** None was found on the live page,
+  and YLJ takes manuscripts on **its own online submission system** with article selection by **student
+  editors** — so no Scholastica/ExpressO fee attaches to YLJ's own intake either. Verified 2026-06-22;
+  以官网为准. (no longer 需复核)
+- **Student leadership (Editor-in-Chief, rotates ANNUALLY).** YLJ is **edited entirely by Yale Law
+  students** and is led by an annually-elected **student Editor-in-Chief** (not a faculty editor). As of
+  2026-06-22 the current volume is **Volume 135 (2025–2026)**; the masthead **turns over every volume**,
+  so re-check the live **Volume 135 masthead** (**https://yalelawjournal.org/masthead/volume-135**) before
+  naming any current EiC. Conservatively unnamed here: the current EiC's name was not pinnable to ≥2
+  authoritative sources at access time — verify the current masthead. 需复核 (name only).
 - **Exact submission windows / season dates.** The market pattern is a front-loaded **spring (Feb–Mar)**
   main cycle and a smaller **fall (Aug)** cycle; YLJ's precise open/close dates per volume are set each
   year. Confirm the current window on the submissions page. 需复核.

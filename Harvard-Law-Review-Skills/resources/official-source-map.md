@@ -12,6 +12,9 @@ pack. Official pages were re-checked on **2026-06-21**.
 | 3 | https://harvardlawreview.org/about/ | Organization and history; student-run and student-edited organization; monthly November-June publication; Supreme Court and Developments issues; Articles, Essays, Book Reviews, Notes, comments; student writing unsigned; Bluebook institutional role | 2026-06-21 |
 | 4 | https://www.legalbluebook.com/ | The Bluebook online, the citation system HLR instructs authors to use | 2026-06-21 |
 | 5 | https://scholasticahq.com/ | Scholastica platform context for multi-submit, expedite, and withdrawal mechanics used in law-review placement strategy | 2026-06-21 |
+| 6 | https://hls.harvard.edu/today/g-terrell-seabrooks-elected-139th-president-of-harvard-law-review/ | Volume 139 (2025–2026) student President G. Terrell Seabrooks ('26) elected as 139th President (annually-elected student leadership) | 2026-06-22 |
+| 7 | https://hls.harvard.edu/today/alex-zhao-elected-140th-president-of-harvard-law-review/ | Volume 140 (2026–2027) President Alexander "Alex" Zhao elected Feb 2026 — confirms annual masthead turnover | 2026-06-22 |
+| 8 | https://harvardlawreview.org/archives/vol-139/ | HLR's own Volume 139 archive — corroborates current-volume identity; HLR's own electronic submission system (no submission fee / no APC) | 2026-06-22 |
 
 ## Verified facts encoded in the pack
 
@@ -29,9 +32,11 @@ pack. Official pages were re-checked on **2026-06-21**.
 - **Timing guidance:** authors who prefer HLR are advised to submit at least two weeks before submitting elsewhere; decisions are notified by email and reasons are not discussed. (#2)
 - **Source attribution:** HLR requires quotation marks for non-trivial reused exact language and citations for paraphrased ideas, including the author's prior work. (#2)
 - **Bluebook role:** Harvard Law Review editors compile The Bluebook with editors of Columbia Law Review, University of Pennsylvania Law Review, and The Yale Law Journal. (#3, #4)
+- **Leadership (student President, rotates annually):** HLR is led by an annually-elected **student President** (the law-review analogue of an editor-in-chief), not a faculty editor. The **Volume 139 (2025–2026)** President is **G. Terrell Seabrooks ('26)**, elected as the 139th President in February 2025. The masthead turns over every volume — the **Volume 140 (2026–2027)** President, **Alexander "Alex" Zhao**, was elected in February 2026 — so **re-check the current masthead** before naming anyone. Verified 2026-06-22. (#6, #7)
+- **No submission fee / no APC:** HLR levies **no submission fee and no article-processing charge**; article selection is made by **student editors** through HLR's own electronic submission system (Scholastica/ExpressO fees, where they exist, belong to the *peer-journal* market, not to HLR's own intake). Verified 2026-06-22. (#2, #8)
 
 ## Bounded live-check rules
 
-- Do not assert a named current student president or editor in submission advice; the masthead turns over annually.
+- The student President / masthead **rotates ANNUALLY each volume** — assert the current President's name only after re-checking the live masthead; the Volume 139 figure above was current as of 2026-06-22.
 - Do not promise that an HLR expedite will produce a fast decision. The official page emphasizes that the process has many stages and takes time.
-- For fee and portal account mechanics, check the live electronic-submission path at the moment of filing rather than encoding a stable HLR-specific fee rule here.
+- HLR charges **no submission fee / no APC**; still check the live electronic-submission path at the moment of filing for any portal-account mechanics rather than assuming fee details.

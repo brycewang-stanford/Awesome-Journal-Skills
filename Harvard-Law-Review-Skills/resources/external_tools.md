@@ -66,7 +66,7 @@ expedite). Check licenses and current access terms before use, and verify any HL
 | Citation style | **The Bluebook** (HLR co-publisher) |
 | What HLR publishes | Articles, Essays, Book Reviews; student Notes (unsigned); the Supreme Court issue + Foreword |
 | Expedite / decision window | Honors expedites where possible without skipping review stages; ≥ 7-day decision window committed (检索于 2026-06；以官网为准) |
-| Fee | No submission fee typical via Scholastica (检索于 2026-06；以官网为准 — confirm) |
+| Fee | **No submission fee / no APC** — HLR takes manuscripts on its own electronic submission system, and article selection is by student editors (Scholastica/ExpressO fees, where they exist, are the peer-journal market, not HLR's own intake). Verified 2026-06-22; 以官网为准 |
 
 ## 7. Cautions
 
