@@ -47,4 +47,49 @@ framing is honest, don't invent a masthead.
 - **W5-D Humanities/breadth + law (7):** Critical-Inquiry, The-Art-Bulletin, English-Humanities-Journal, Chinese-SocialScience-Journal, English-SocialScience-Journal, English-NaturalScience-Journal, Social-Sciences-in-China
 - **LAST (careful, parallel-agent lanes):** Harvard-Law-Review, Yale-Law-Journal (⚠ active parallel agent)
 
-## Progress log
+## Progress log — ROLLOUT COMPLETE 2026-06-22
+
+All 164 remaining packs covered in one session via parallel verification subagents
+(edit-only; orchestrator committed centrally per cluster, other-lane guard each time).
+**148 packs received edits; 16 were verified already-grounded / honest bundles (no edit
+needed)** — total 164. Combined with last month's 19 humanities/socsci packs, **all 183
+first-party packs now carry verified current editors + APC/fee facts (access date
+2026-06-22, ≥2 authoritative sources each)**.
+
+Commits: 6d50f1c7 (accounting) · 15f4fe12/d08591ad/2bc11f5a/980abee9 (W1+W2A) ·
+00bed99d/53556720/3a583007/5ae4b290 (W2 rest) · 5f2ceb03/e5887999/ba1373fa/fec951a1
+(W3+W4A) · e7ced722/1348e2d2/93216583/1afa95b1 (W4 rest+W5A) ·
+ef1fdf66/1f40dd65/709a7c37 (W5 rest) · de3ce93e (stragglers) · 4fbe21a5 (law reviews).
+
+### Stale-fact corrections caught (high-value)
+- **Econometrica**: Imbens listed as current editor → he is former; current is Marina Halac.
+- **Journal of Int'l Money & Finance**: long-deceased James R. Lothian (RePEc cache) → Aizenman et al.
+- **Economic Policy**: Galbiati/Méjean → Şebnem Kalemli-Özcan. **Experimental Economics**: roster refreshed.
+- **World Development**: Agrawal (stepped down 2021) → Dell'Angelo & Rettberg.
+- **Econometric Theory**: Phillips (retired end-2025) → Guggenberger/Su/Sun (2026).
+- **China Industrial Economics**: 金碚 (former) → 史丹.
+- **Academy of Management Journal**: misattributed Ballinger → Roberson (Ballinger edits *Annals*).
+- **HRM**: Cronin/Guthrie/Piening/Snell → Cooke & Pichler.
+- **Demography**: Curran (term ended) → Lee/Merli/Rangel. **Social Forces**: dropped stray Penner → Kalleberg.
+- **JLE**: roster Carlton/Goolsbee/Snyder → current six. **Production & Ops Mgmt**: publisher Wiley → SAGE.
+- **Agricultural Systems**: van Wijk → Topp. **Global Environmental Change**: Tschakert/York → Guan & Nagendra.
+- **Journal of Financial Markets**: WRONG "no submission fee" → actually US$170. **RFS**: corrected stale fee schedule.
+- **Production & Ops Mgmt / The Art Bulletin / Social Sciences in China / many**: editor newly grounded (was blank/hedged).
+
+### Near-term editor transitions flagged for the weekly routine to watch
+PMLA (Edwards→Potkay, Jul 2026) · American Anthropologist (Chin→Davis&Mulla, 2027) ·
+JHR (Aizer→Lovenheim, Jul 2026) · JFQA (Pennacchi→Giannetti, Sep 2026) · Journal of
+Management (successor, Jul 2026) · MSOM (successor, search open) · ETP (Wiklund successor TBD) ·
+New Media & Society (Jones stepping down, Jun 2026) · Psychological Bulletin (Johnson→Hofmann, 2027) ·
+AMR (Byron term ~mid-2026) · HLR (Vol 140 Alex Zhao, 2026-27) · RER (2026 team).
+
+### Honest hedges retained (genuinely not pinnable / in flux — NOT fabricated)
+管理世界 & 数量经济技术经济研究 (leadership in flux) · 中国行政管理 主编 (conflicting aggregators) ·
+SMJ co-editor slate (sources conflict) · Yale Law Journal current student EiC (single source) ·
+World Politics academic editors (403) · many publisher per-journal OA APC amounts (no stable public figure).
+
+### Verified already-grounded, no edit needed (16)
+ISR, JMIS, JAIS, MIS Quarterly, Management Science, MSOM, Operations Research, J Operations
+Management, J Banking & Finance, J Business Venturing, J Marketing Research, The Econometrics
+Journal; + 4 generic bundle packs (Agriculture-Environment, Clinical-Medicine,
+Engineering-Technology, Chinese-Sport-Science).
