@@ -20,6 +20,12 @@ the live SAGE author page first; portals and policies change.
 - Include the **data-and-code availability statement** describing how data, code, and materials can be
   permanently accessed (repository/DOI, access conditions for restricted data).
 - Add the **generative-AI disclosure** in the back matter if AI tools were used; if not, none is needed.
+- **Fees**: there is **no submission fee**; open access is optional and paid via **Sage Choice** (APC
+  amount changes—confirm the current charge on the live SAGE OA page; 需复核).
+- **No hard word/length limit** is stated for SMR; treat any circulating "~10,000 words" figure as
+  descriptive, not a cap (需复核 on the live author page).
+- If submitting a **revision**, respond to each reviewer comment by **copying the comment verbatim and
+  replying beneath it**.
 - Confirm the **methods-paper completeness**: contribution + derived properties + simulation +
   empirical illustration + released software.
 
@@ -67,6 +73,7 @@ present — submit.
 - References not in ASA style; dataset references not in DataCite style.
 - Availability statement missing, vague ("available on request"), or deferred to acceptance.
 - AI-use undisclosed where generative tools were used.
+- Revision response that paraphrases rather than copies each reviewer comment verbatim before replying.
 - ScholarOne metadata (keywords, ORCID, COI, funding) inconsistent with the manuscript.
 
 ## Output format

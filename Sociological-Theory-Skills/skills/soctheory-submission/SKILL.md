@@ -9,6 +9,13 @@ description: Use when running the final pre-submission preflight for a Sociologi
 > preflight centers on the *theory paper's* format, masking, ASA style, and ethics — not on
 > empirical materials. Data, if present at all, is illustrative.
 
+## Journal facts (verified; volatile items flagged)
+
+- **Publisher / owner**: SAGE for the American Sociological Association (ASA); ST is the ASA's dedicated theory journal. Founded **1983**; published **quarterly (March / June / September / December)**.
+- **Review**: **double-anonymous** (author and reviewer identities masked). ASA requires masking and treats simultaneous submission elsewhere as unethical.
+- **Acceptance rate** and **number of reviewers per manuscript** are **not published** in the official sources — do not state a figure; treat as 待核实 if asked.
+- **Processing fee**: **$25 non-refundable**, waived for ASA student members (Source 1; re-verify before paying). The official sources confirm only that ASA *student membership* triggers the waiver; they do not state any ASA-membership requirement to submit — treat a general "must I be an ASA member?" question as 待核实.
+
 ## When to trigger
 
 - "I'm about to submit to Sociological Theory"
@@ -57,7 +64,7 @@ description: Use when running the final pre-submission preflight for a Sociologi
 - [ ] Anonymized main manuscript (body + figures + references), required format
 - [ ] Separate title page with author info and corresponding author
 - [ ] Abstract entered in the system
-- [ ] **Manuscript processing fee** paid: ST charges a non-refundable processing fee (reported as **$25**, waived for ASA student members — 检索于 2026-06；以官网为准) via SAGE Track
+- [ ] **Manuscript processing fee** paid: ST charges a **$25 non-refundable processing fee, waived for ASA student members**, via SAGE Track (Source 1; re-verify the exact amount/waiver terms on the live author page before paying)
 - [ ] Any author-agreement / conflict-of-interest forms the system requires
 
 ## Desk-reject triggers to preempt

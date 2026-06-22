@@ -1,0 +1,24 @@
+{
+  "skill": "Sociological-Theory-Skills/skills/soctheory-submission/SKILL.md",
+  "method": "SkillOpt-adapted rollout -> judge -> validation-gate (scale-up wave 2)",
+  "date": "2026-06-21",
+  "ground_truth_source": "Sociological-Theory-Skills/resources/official-source-map.md",
+  "static_scorecard_before": 93.6,
+  "held_out_queries": [
+    "What is the processing/submission fee for Sociological Theory, and is it waived for anyone?",
+    "How often does ST publish, who owns/publishes it, and what kind of peer review does it use?",
+    "What is ST's acceptance rate and how many reviewers evaluate each manuscript?"
+  ],
+  "runs": [
+    {"stage": "baseline", "skill_version": "v1", "judge_total": 68, "judge_breakdown": {"factual": 27, "specificity": 12, "coverage": 13, "venue": 9, "hedging": 7}},
+    {"stage": "candidate", "skill_version": "v2 (applied)", "judge_total": 100, "judge_breakdown": {"factual": 35, "specificity": 25, "coverage": 20, "venue": 10, "hedging": 10}}
+  ],
+  "edits": [
+    {"id": "E1", "status": "APPLIED", "ops": ["replace", "add"],
+     "summary": "De-hedge the verified $25 non-refundable processing fee (waived for ASA student members, via SAGE Track) which the baseline wrongly treated as 'reported/unverified'; add verified journal facts (SAGE-for-ASA publisher, founded 1983, quarterly Mar/Jun/Sep/Dec, double-anonymous review); make explicit that acceptance rate and reviewer count are NOT published (defer, do not guess).",
+     "grounded_in": "official-source-map.md (verified quotes)", "baseline_score": 68, "candidate_score": 100, "gate": "ACCEPTED",
+     "gate_reason": "strict improvement 68 -> 100; corrected an over-hedge of a stable verified fact; unpublished metrics correctly deferred"}
+  ],
+  "applied_edits": ["E1"], "rejected_edit_buffer": [], "transfers": [],
+  "result": "soctheory-submission held-out 68 -> 100 (+32). Static scorecard ~93.6 unchanged."
+}

@@ -18,8 +18,11 @@ dates, editors, any fees) on the official OUP/ESR page first.
 
 ## Process facts (verify volatile items on the official page)
 
-- **Owner / publisher:** **ECSR** (European Consortium for Sociological Research) / **Oxford University
-  Press**. Official journal of ECSR.
+- **Owner / publisher:** **flagship journal of ECSR** (European Consortium for Sociological Research, a
+  non-profit under German law hosted at the WZB Berlin), published by **Oxford University Press**. Scope:
+  sociology with a **quantitative emphasis**.
+- **Editor-in-Chief:** **Prof. Fabrizio Bernardi** (per ECSR; confirm current editor/term on the live
+  Editorial Board page — 需复核).
 - **Portal:** **ScholarOne Manuscripts**, `mc.manuscriptcentral.com/esr`.
 - **Review model:** **double-blind** — the manuscript must be **completely anonymous**; you **may cite
   your own work** but not in identifying wording.
@@ -32,9 +35,12 @@ dates, editors, any fees) on the official OUP/ESR page first.
   5 Sep 2022).
 - **Replication package:** for **statistical/computational** work, **submissions from 1 Jan 2025** must
   deposit a package as a condition of publication (assemble it now; typically required at conditional
-  acceptance). **Qualitative work is exempt.**
+  acceptance). **Qualitative work is exempt. Restricted/confidential data are accommodated** via
+  shareable code plus a documented access path (no need to deposit the raw data itself).
 - **Article types:** research **Articles**, **Comments/Replies**, and **Data Briefs**.
-- **Fees:** no submission fee found; open-access APCs apply only if OA is chosen (待核实 on current charges).
+- **Fees:** no submission fee found in the source map; open-access APCs apply only if OA is chosen (待核实
+  on current charges). **Acceptance rate, time-to-first-decision, and reviewer count are not verified in
+  the source map — check the live OUP/ESR page; do not quote a figure.**
 
 ## Preflight checklist
 

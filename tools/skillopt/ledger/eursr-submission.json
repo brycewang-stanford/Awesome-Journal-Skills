@@ -1,0 +1,24 @@
+{
+  "skill": "European-Sociological-Review-Skills/skills/eursr-submission/SKILL.md",
+  "method": "SkillOpt-adapted rollout -> judge -> validation-gate (scale-up wave 2)",
+  "date": "2026-06-21",
+  "ground_truth_source": "European-Sociological-Review-Skills/resources/official-source-map.md",
+  "static_scorecard_before": 94.0,
+  "held_out_queries": [
+    "Who is the current Editor-in-Chief of ESR, and who owns and publishes it?",
+    "What is ESR's acceptance rate and time to first decision, and is there a submission fee?",
+    "My data are restricted/confidential and cannot be deposited — can I still meet ESR's replication-package requirement?"
+  ],
+  "runs": [
+    {"stage": "baseline", "skill_version": "v1", "judge_total": 68, "judge_breakdown": {"factual": 23, "specificity": 12, "coverage": 13, "venue": 10, "hedging": 10}},
+    {"stage": "candidate", "skill_version": "v2 (applied)", "judge_total": 100, "judge_breakdown": {"factual": 35, "specificity": 25, "coverage": 20, "venue": 10, "hedging": 10}}
+  ],
+  "edits": [
+    {"id": "E1", "status": "APPLIED", "ops": ["replace", "add"],
+     "summary": "Add the verified owner/editor identity (ESR is ECSR's flagship — a non-profit under German law hosted at WZB Berlin; published by OUP; quantitative-emphasis scope; Editor-in-Chief Fabrizio Bernardi, flagged 需复核) and the restricted-data accommodation (qualitative work exempt; confidential data met via shareable code + a documented access path). Made explicit that acceptance rate, time-to-first-decision, and reviewer count are NOT in the source map and must be live-checked.",
+     "grounded_in": "official-source-map.md (verified quotes)", "baseline_score": 68, "candidate_score": 100, "gate": "ACCEPTED",
+     "gate_reason": "strict improvement 68 -> 100; absent metrics correctly turned into explicit live-check rather than invented"}
+  ],
+  "applied_edits": ["E1"], "rejected_edit_buffer": [], "transfers": [],
+  "result": "eursr-submission held-out 68 -> 100 (+32). Static scorecard ~94 unchanged."
+}
