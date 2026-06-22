@@ -1,0 +1,9 @@
+{
+  "skill": "Journal-of-the-American-Academy-of-Religion-Skills/skills/jaar-citation-and-style/SKILL.md",
+  "method": "SkillOpt-adapted assessment (citation tier triage, no full loop)",
+  "date": "2026-06-22",
+  "status": "assessed-no-edit",
+  "static_scorecard_before": 94.0,
+  "assessment": "Assessed and triaged OUT: jaar-citation-and-style is already correct and complete on every verifiable citation fact in the source map — in-text author-date (not footnotes), footnotes for substance only, alphabetized year-keyed reference list, the exact (Wolf 1996: 33) / (1995: 45-46) example forms, serial comma, gender-neutral language, italicized foreign words, and the CMOS-15th-edition fallback already hedged as a 待核实 live-check (since CMOS is now in its 18th edition). No verifiable hard-fact gap; editing would be padding. Skill left unchanged.",
+  "runs": [], "edits": [], "applied_edits": [], "rejected_edit_buffer": [], "transfers": []
+}

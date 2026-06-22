@@ -37,6 +37,8 @@ departures on the live guides).
 - Notes carry the evidentiary apparatus *and* qualifications, side-evidence, and historiographical
   asides that would clog the text — but they are not a dumping ground for undigested material.
 - Target roughly **2:1** text-to-notes at submission; references typically grow during revision.
+  Concretely, a typical **8,000-word article** (the AHR target length, not counting notes) carries
+  about **4,500–5,500 words of notes**. Confirm current figures on the live Author Guidelines.
 
 ## Anti-patterns
 
@@ -85,7 +87,8 @@ about the return's incompleteness rides in the same footnote rather than interru
 
 - Target roughly **2:1 text-to-notes** at submission; the note apparatus is one of the AHR's
   distinguishing features and typically grows during revision (confirm against the journal's current
-  submission guidelines).
+  submission guidelines). As a concrete anchor, a typical **8,000-word** article carries about
+  **4,500–5,500 words of notes**.
 - Notes carry side-evidence, provenance, and historiographic asides — not undigested material dumped to
   pad the apparatus.
 - All citation is in footnotes or endnotes; there is no in-text parenthetical and no separate reference

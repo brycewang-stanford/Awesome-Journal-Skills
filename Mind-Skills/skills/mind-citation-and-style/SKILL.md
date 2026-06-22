@@ -26,7 +26,8 @@ so formatting never becomes the reason for friction.
 3. **Consistency from the start.** Pick one citation style and apply it uniformly (Zotero / BibTeX /
    EndNote). Even before the house-style conversion, mixed styles read as careless.
 4. **Anonymized references for review.** Neutralize self-identifying citations ("in my [2021]…") so the
-   review copy is prepared for **triple-anonymous** refereeing (see `mind-submission`).
+   review copy is prepared for **triple-anonymous** refereeing (see `mind-submission`). This is not
+   optional: **papers not prepared for anonymous refereeing will not be read**.
 5. **Accurate attribution.** Quote and cite precisely; every quotation has a locatable source. Misquoting
    the target view is both a scholarly and a dialectical error.
 

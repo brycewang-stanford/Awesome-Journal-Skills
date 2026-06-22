@@ -35,6 +35,9 @@ quotation, translation, and discursive notes. Get this right; reviewers and edit
    count — but they must still be cited.
 6. **Discursive notes.** PMLA permits substantive notes, but they **count toward** the 6,000–9,000-word
    range. Use them for genuine elaboration, not citation dumping.
+7. **What the word count excludes.** The 6,000–9,000-word count is taken **including discursive notes**
+   but **excluding the list of works cited and translations**. So your Works Cited list does not eat
+   into the budget — a full, properly formatted list never costs you words. (Verify the live cap.)
 
 ## A pre-submission style check
 
@@ -43,7 +46,7 @@ quotation, translation, and discursive notes. Get this right; reviewers and edit
 - [ ] One consistent style throughout (manage with Zotero / BibTeX-MLA, then verify by hand)
 - [ ] Quotations exact; block-quote threshold and formatting per the Handbook
 - [ ] Translation policy stated and applied; originals/translations cited
-- [ ] Discursive notes are substantive (and the word count accounts for them)
+- [ ] Discursive notes are substantive (and the word count accounts for them; works cited and translations do not)
 
 ## Anti-patterns
 

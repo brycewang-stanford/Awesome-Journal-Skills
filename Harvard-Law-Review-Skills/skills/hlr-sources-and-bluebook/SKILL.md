@@ -8,7 +8,9 @@ description: Use when citing authority in a Harvard Law Review (HLR) piece — p
 HLR is one of the **four student journals that publish The Bluebook** (with the Columbia Law Review, the
 University of Pennsylvania Law Review, and the Yale Law Journal). Citations are not an afterthought here —
 they are the connective tissue of the argument, and they will be checked line by line. This skill governs
-**which authority you cite, how much it counts, and how it is formatted** to Bluebook standard.
+**which authority you cite, how much it counts, and how it is formatted** to Bluebook standard. HLR
+instructs authors that footnotes conform to **The Bluebook, 22nd edition** (the current edition; confirm
+on the submissions page before filing, since editions are periodically revised).
 
 ## When to trigger
 
@@ -57,7 +59,7 @@ they are the connective tissue of the argument, and they will be checked line by
 - [ ] Every cite has a pincite; every quotation is pinned to its page
 - [ ] Signals (See, Cf., But see, Contra) match the actual relationship
 - [ ] Short forms (Id., supra) are correct and survive footnote reordering
-- [ ] Authorities within each footnote are Bluebook-ordered
+- [ ] Authorities within each footnote are Bluebook-ordered (22nd edition rules)
 - [ ] Explanatory parentheticals added where support is non-obvious
 - [ ] Academic (law-review) typeface conventions applied
 

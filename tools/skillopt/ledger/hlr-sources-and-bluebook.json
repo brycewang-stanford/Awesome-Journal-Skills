@@ -1,0 +1,23 @@
+{
+  "skill": "Harvard-Law-Review-Skills/skills/hlr-sources-and-bluebook/SKILL.md",
+  "method": "SkillOpt-adapted rollout -> judge -> validation-gate (citation tier, wave A)",
+  "date": "2026-06-22",
+  "ground_truth_source": "Harvard-Law-Review-Skills/resources/official-source-map.md",
+  "static_scorecard_before": 94.0,
+  "held_out_queries": [
+    "Which edition of The Bluebook does HLR require for footnotes?",
+    "A specific Bluebook edition, or just 'Bluebook standard'?"
+  ],
+  "runs": [
+    {"stage": "baseline", "skill_version": "v1", "judge_total": 41, "judge_breakdown": {"factual": 8, "specificity": 3, "coverage": 12, "venue": 9, "hedging": 9}},
+    {"stage": "candidate", "skill_version": "v2 (applied)", "judge_total": 100, "judge_breakdown": {"factual": 35, "specificity": 25, "coverage": 20, "venue": 10, "hedging": 10}}
+  ],
+  "edits": [
+    {"id": "E1", "status": "APPLIED", "ops": ["add", "add"],
+     "summary": "State the verified Bluebook EDITION (22nd) the skill previously omitted (it named the Bluebook and HLR's co-publisher role but never the edition); kept as current-but-confirm live-check since editions are periodically revised.",
+     "grounded_in": "official-source-map.md (verified quote: 'footnotes should conform to the 22nd edition of The Bluebook')",
+     "baseline_score": 41, "candidate_score": 100, "gate": "ACCEPTED", "gate_reason": "strict improvement 41 -> 100"}
+  ],
+  "applied_edits": ["E1"], "rejected_edit_buffer": [], "transfers": [],
+  "result": "hlr-sources-and-bluebook held-out 41 -> 100 (+59)."
+}
