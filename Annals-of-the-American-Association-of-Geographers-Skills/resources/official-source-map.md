@@ -3,7 +3,12 @@
 Primary and authoritative sources behind the Annals-specific facts injected into this skill pack.
 Access date for all entries: **2026-06** (检索于 2026-06；以官网为准). Re-verify volatile items (current
 editors and terms, exact caps, abstract length, fee/APC, data-policy wording, ORCID requirement) on the
-official pages before relying on them — journal pages change.
+official pages before relying on them — journal pages change. **Current area editors (verified
+2026-06-22 via AAG announcements):** Paul Adams (Human Geography, since Jan 2024); Brian King (Nature
+and Society, since Jan 2024); Rachel Franklin (General Geography / cross-discipline, since Jan 2025);
+Michaela Buenemann (Physical Geography, Earth & Environmental Sciences, since Jan 2025); Anthony Howell
+(Geographic Methods, since Jan 2026). Re-confirm the slate and any Cartography Editor on the live AAG
+page, as four-year terms rotate.
 
 ## Official journal, submission & author pages
 

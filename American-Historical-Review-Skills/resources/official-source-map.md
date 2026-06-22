@@ -71,9 +71,10 @@ formatting rules) on the official page before relying on them — journal pages 
 - **Whether a structured abstract is required at submission, and its word cap**: not confirmed verbatim
   on the Author Guidelines text retrieved; ScholarOne may prompt for an abstract/summary. Confirm on
   the live submission portal and guidelines. 需复核.
-- **Current Editor and editorial term**: secondary sources list **Mark Philip Bradley** as a recent
-  editor; the masthead and term were not confirmed verbatim on the live OUP/AHA page at access time.
-  Confirm the current editor on the official page. 需复核.
+- **Current Editor**: **Mark Philip Bradley** (University of Chicago; Bernadotte E. Schmidt
+  Distinguished Service Professor of History) — **verified 2026-06-22** as the current AHR editor via
+  AHA, OUP, and University of Chicago sources; appointed editor in 2021. Re-confirm the exact term on the
+  live AHA/OUP masthead, as editor terms rotate.
 - **Exact CMOS edition and AHR house departures**: AHR follows Chicago notes, but the precise edition
   and any house exceptions (e.g., shortened-citation rules, ibid. usage) should be confirmed against
   the current AHR submission and style guides. 需复核.

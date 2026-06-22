@@ -26,7 +26,11 @@ before relying on them (检索于 2026-06；以官网为准).
 - **Areas (four + a cross-track):** declare one — **Geographic Methods; Human Geography; Nature and
   Society; Physical Geography, Earth, and Environmental Sciences** — plus a **General Geography /
   cross-disciplinary** track. A **subject editor leads each area** (plus a **Cartography Editor**), all
-  on **four-year terms**; your area routes the manuscript. (Confirm current editors on the AAG page — 需复核)
+  on **four-year terms**; your area routes the manuscript. **Current area editors (verified 2026-06-22
+  via AAG announcements):** Human Geography — **Paul Adams** (since Jan 2024); Nature and Society —
+  **Brian King** (since Jan 2024); General Geography / cross-discipline — **Rachel Franklin** (since
+  Jan 2025); Physical Geography, Earth & Environmental Sciences — **Michaela Buenemann** (since Jan
+  2025); Geographic Methods — **Anthony Howell** (since Jan 2026). Re-confirm on the AAG page, as terms rotate.
 - **Article types & caps:** **Article (regular) ≤ 11,000 words** (incl. abstract, references, notes,
   tables, figure captions); **Forum** intro 2,500 + papers 5,000 each, ≤ 25,000 total; **Commentary**
   < 2,000 incl. references; **Special-Issue papers ~5,000 words**. (检索于 2026-06；以官网为准)

@@ -40,10 +40,12 @@ volatile specifics on the SAGE author page before relying on them.
 - **Self-citations:** written in the **third person**.
 - **Transparency:** **data-availability statement** expected; note any **preregistration** in the cover
   letter; deposit **open-materials/data** if claiming open practices; provide **ORCID** where requested.
-- **Fee:** no submission fee for the standard (subscription) route; an optional **open-access APC**
-  applies only if you choose OA after acceptance (待核实 exact amount).
-- **Editors:** final decisions rest with the **Co-editors**; editor roles rotate — confirm the current
-  masthead on the live SAGE page (待核实).
+- **Fee:** no submission fee for the standard (subscription) route (verified 2026-06-22); an optional
+  **open-access APC** applies only if you choose OA after acceptance — SAGE sets the amount on its live
+  OA page (confirm before quoting).
+- **Editors:** final decisions rest with the **Co-Editors** — **Silvia Knobloch-Westerwick (Ohio State)
+  & Jennifer Gibbs (UC Santa Barbara)** (verified 2026-06-22); editor roles rotate, so confirm the
+  current masthead on the live SAGE page before naming them.
 
 ## Preflight checklist
 

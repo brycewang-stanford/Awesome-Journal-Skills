@@ -28,7 +28,10 @@ relying on them — journal pages change.
 - **https://academic.oup.com/joc**
   — Journal of Communication home (Oxford Academic). Verifies: publisher = **Oxford University Press**;
   society = **International Communication Association (ICA)**; ISSN **0021-9916** (print) / **1460-2466**
-  (online); six issues per year; Editors-in-Chief listed at access time (see 需复核).
+  (online); six issues per year; **Editors-in-Chief (verified 2026-06-22): David R. Ewoldsen
+  (Michigan State University), Natascha Just (University of Zurich), Chul-joo "CJ" Lee (Seoul National
+  University), and Keren Tenenboim-Weinblatt (Hebrew University of Jerusalem)** — re-confirm the slate
+  on the live OUP JoC Editorial_Board page, as the masthead rotates.
 
 ## Society, publisher & ICA journals
 

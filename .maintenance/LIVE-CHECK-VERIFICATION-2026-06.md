@@ -77,7 +77,22 @@ authoritative URLs. Verification standard = ≥2 independent authoritative sourc
 
 Gates after batch 1: `run_checks` green; `source_map_audit` 0 warnings across the 6 packs.
 
-### Batch 2 — communication + education (in progress)
+### Batch 3 — geography + history (DONE 2026-06-22)
+
+- **AAAG** — section-editor structure (verified 2026-06-22 via AAG announcements): **Paul Adams**
+  (Human Geography, Jan 2024), **Brian King** (Nature & Society, Jan 2024), **Rachel Franklin**
+  (General/Cross-discipline, Jan 2025), **Michaela Buenemann** (Physical/Earth & Environmental,
+  Jan 2025), **Anthony Howell** (Geographic Methods, Jan 2026). No submission fee; T&F OA APC on live
+  page. Source map + aaag-submission updated.
+- **PiHG** — EiC **Noel Castree** confirmed (Wikipedia updated Mar 2026). proghg-editor-strategy de-hedged.
+- **AHR** — Editor **Mark Philip Bradley** (U Chicago), appointed 2021 — verified via AHA + OUP + UChicago.
+  No author processing fees. Source map de-hedged.
+- **RER** — co-editors **Boveda, Ford, Frankenberg, López (Penn State)** = the **2022–2025** team; no 2026
+  successor announced at check time → recorded cautiously with re-confirm note. No submission fee.
+
+Gates after batch 3: `run_checks` green; `source_map_audit` 0 warnings across the 8 batch-2/3 packs.
+
+### Batch 2 — communication + education (DONE 2026-06-22)
 
 - **CR (Communication Research)** — EiCs **Silvia Knobloch-Westerwick (Ohio State) & Jennifer Gibbs
   (UC Santa Barbara)** (per SAGE crx board). No submission fee; optional OA via Sage Choice.

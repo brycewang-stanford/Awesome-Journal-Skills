@@ -32,6 +32,6 @@ this pack. Official pages were re-checked on **2026-06-21**.
 
 ## Bounded live-check rules
 
-- Do not encode a fixed current editor term without opening the live SAGE masthead; editor roles can rotate.
+- **Current Co-Editors (verified 2026-06-22):** **Silvia Knobloch-Westerwick (Ohio State University)** and **Jennifer Gibbs (University of California, Santa Barbara)**, per the SAGE Communication Research editorial-board page (`journals.sagepub.com/editorial-board/crx`). Re-open the live SAGE masthead before relying on the slate, since editor roles rotate.
 - Do not assert a registered-reports track for CR unless it appears in the live guidelines or calls for papers.
 - Re-open the live SAGE open-access page before quoting any optional OA amount, since standard submission/publication is fee-free but open-access charges vary.

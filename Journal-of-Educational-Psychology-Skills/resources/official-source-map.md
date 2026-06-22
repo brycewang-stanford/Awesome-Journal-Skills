@@ -40,10 +40,10 @@ relying on them — journal policies change.
 ## Editor & owner
 
 - **https://www.apa.org/pubs/journals/resources/editor-conversations/open-science-educational-psychology**
-  — APA editor conversation. Verifies: **Panayiota Kendeou** served as Editor-in-Chief (open-science
-  emphasis). The **incoming Editor-in-Chief is Young-Suk Kim (University of California, Irvine)** per APA
-  editor-appointment information current at access time. 需复核 (confirm the live masthead for the current
-  editor and term).
+  — APA editor conversation. Verifies: **Panayiota Kendeou** is the *prior* Editor-in-Chief (open-science
+  emphasis). The **current Editor-in-Chief is Young-Suk Kim (University of California, Irvine)** —
+  **verified 2026-06-22** (manuscripts are now submitted to her editorial office, per APA). Re-confirm
+  the exact term on the live APA masthead, as the editorship rotates.
 - **https://en.wikipedia.org/wiki/Journal_of_Educational_Psychology** — Verifies: JEP is published by the
   **APA**; **founded 1910**; **8 issues per year**; ISSN 0022-0663 / 1939-2176; scope is psychological
   research on education at all ages/levels with occasional theoretical/review articles.

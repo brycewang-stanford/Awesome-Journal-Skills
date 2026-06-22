@@ -14,7 +14,7 @@ description: Use when working with the Progress in Human Geography (PiHG) editor
 
 ## Who you are working with at PiHG
 
-PiHG is edited by a team of **editors** (检索于 2026-06：editor-in-chief Noel Castree, supported by additional editors and an international Editorial Advisory Board；以官网为准 — re-confirm, editors rotate), with **SAGE** handling production. Your relationship differs sharply by route:
+PiHG is edited by a team of **editors** (verified 2026-06-22: **editor-in-chief Noel Castree**, supported by additional editors and an international Editorial Advisory Board; re-confirm on the live SAGE page, as editors rotate), with **SAGE** handling production. Your relationship differs sharply by route:
 
 | Route | Editor relationship | Acceptance logic |
 |-------|---------------------|------------------|

@@ -31,9 +31,9 @@ policy wording, current editor, portal) on the official APA page first (检索�
   but not mandatory** (disclose status, provide links); **Open Science Badges** (Open Data, Open Data with
   Protected Access, Open Materials, Preregistered, Preregistered+Analysis Plan) available with a signed
   disclosure form.
-- **Fee / open access:** **no submission fee** ("submitting a manuscript for peer review is free of
-  charge"); peer review is free. Any **post-acceptance open-access / APC** charge is **not asserted here** —
-  confirm on the APA author pages (需复核).
+- **Fee / open access:** **no submission fee** (verified 2026-06-22; "submitting a manuscript for peer
+  review is free of charge"); peer review is free. Any **post-acceptance open-access / APC** charge is
+  set by APA if you choose OA — confirm the current figure on the APA author pages.
 - **Types:** primary empirical articles; occasional exceptionally important meta-analyses; single-
   instrument validation studies are typically out of scope.
 

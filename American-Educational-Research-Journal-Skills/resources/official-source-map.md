@@ -25,9 +25,10 @@ portal details, fee/OA wording, and policy text) on the official pages before re
   2025–2027 team announcement and editorial are linked from the journal home.
 - **https://www.aera.net/Publications/Journals/American-Educational-Research-Journal/AERJ-Editors**
   — AERJ Editors masthead. Verifies: **2025–2027 Editors**; Editor-in-Chief **Motoko Akiba** (Florida
-  State University); coeditors **Alison Dover**, **Mariela Rodríguez**, **Timothy Ford**, **Saran
-  Stewart**, **Conra Gist (on leave)**, **Alex Wiseman**, and **Thomas Luschei**; associate-editor
-  roster.
+  State University) — **re-confirmed current 2026-06-22** via the AERA newsroom announcement and the
+  SAGE "Editors' Introduction" — with coeditors **Alison Dover**, **Mariela Rodríguez**, **Timothy
+  Ford**, **Saran Stewart**, **Conra Gist (on leave)**, **Alex Wiseman**, and **Thomas Luschei**;
+  associate-editor roster.
 - **https://journals.sagepub.com/loi/aer**
   — SAGE all-issues page. Verifies archive coverage **January 1964 – June 2026**; current issue
   Volume 63, Issue 3, June 2026; ISSN **0002-8312** and Online ISSN **1935-1011**.

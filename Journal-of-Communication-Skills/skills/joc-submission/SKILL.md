@@ -35,10 +35,11 @@ volatile specifics on the official page before relying on them.
   for JoC — do not assume one exists (需复核 on live calls-for-papers).
 - **Review process:** **double-anonymous**; external review is **usually by two or three** referees
   (需复核); formal desk-screening criteria are not enumerated on the official pages.
-- **Fee & open access:** no submission fee stated; **hybrid open-access** option — authors may pay an OA
-  fee (APC) to make the accepted manuscript freely available. **Read-and-Publish agreements may cover
-  the APC**, and OUP offers **Research4Life waivers (Tier 3)** plus discretionary waivers. The exact APC
-  amount/currency is maintained separately by OUP and changes (需复核 on the live OUP charges page).
+- **Fee & open access:** no submission fee (verified 2026-06-22); **hybrid open-access** option —
+  authors may pay an OA fee (APC) to make the accepted manuscript freely available. **Read-and-Publish
+  agreements may cover the APC**, and OUP offers **Research4Life waivers (Tier 3)** plus discretionary
+  waivers. The exact APC amount/currency is maintained separately by OUP and changes — confirm the
+  current figure on the live OUP charges page.
 - **Decision timeline:** time-to-first-decision is reported approximately as **within ~90–120 days**;
   treat as approximate and confirm on the live guidelines page (需复核).
 
