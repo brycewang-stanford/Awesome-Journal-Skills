@@ -14,7 +14,7 @@ description: Use when working with the Annual Review of Economics (ARE) Editoria
 
 ## Who you are working with at ARE
 
-ARE is run by an **Editorial Committee** of senior economists (current co-editors 检索于 2026-06：Philippe Aghion, Hélène Rey, Timothy Besley；以官网为准) plus the journal's **production editors** at Annual Reviews. Your primary partners differ by phase: the **commissioning editor / Committee** owns scope and acceptance; the **production editor** owns format, figures, copyediting, and the volume schedule. Because the article is **commissioned**, the relationship is more collaborative than adversarial — the Committee wants the review to succeed — but acceptance is **not** automatic: an invited manuscript still goes through review for accuracy, rigor, and balance (检索于 2026-06；以官网为准).
+ARE is run by an **Editorial Committee** of senior economists (current co-editors 检索于 2026-06-22：Philippe Aghion, Hélène Rey, Timothy Besley；re-verify before relying — the Committee rotates on five-year terms；以官网为准) plus the journal's **production editors** at Annual Reviews. Your primary partners differ by phase: the **commissioning editor / Committee** owns scope and acceptance; the **production editor** owns format, figures, copyediting, and the volume schedule. Because the article is **commissioned**, the relationship is more collaborative than adversarial — the Committee wants the review to succeed — but acceptance is **not** automatic: an invited manuscript still goes through review for accuracy, rigor, and balance (检索于 2026-06；以官网为准).
 
 ## How review differs for a review article
 

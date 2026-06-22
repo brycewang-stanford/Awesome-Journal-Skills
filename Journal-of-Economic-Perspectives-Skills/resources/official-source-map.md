@@ -27,10 +27,12 @@ AEA pages change. Items not directly confirmed from a primary fetch are marked
   papers are sent as Word or PDF email attachments to jep@aeapubs.org**. Accessed
   2026-06.
 - **https://www.aeaweb.org/journals/jep/editors** — JEP Editors. Verifies (检索于
-  2026-06；以官网为准): **Editor — Heidi Williams (Dartmouth College)**;
-  **Coeditors — Jeffrey Kling (Washington, DC) and Jonathan Parker (MIT)**;
-  **Managing Editor — Timothy Taylor (Macalester College)**; **Assistant Managing
-  Editor — Bradley Waldraff (AEA)**. Accessed 2026-06.
+  2026-06；editor roster re-verified 2026-06-22；以官网为准): **Editor — Heidi
+  Williams (Dartmouth College)**; **Coeditors — Jeffrey Kling (Washington, DC) and
+  Jonathan Parker (MIT)**; **Managing Editor — Timothy Taylor (Macalester College)**;
+  **Assistant Managing Editor — Bradley Waldraff (AEA)**. Editor + coeditor names
+  re-confirmed via web search of the AEA JEP editors page 2026-06-22. Accessed
+  2026-06.
 - **https://www.aeaweb.org/journals/jep/issues** — JEP issue archive. Verifies the
   recurring **symposium / article** format and the published-topic pattern.
   Accessed 2026-06.

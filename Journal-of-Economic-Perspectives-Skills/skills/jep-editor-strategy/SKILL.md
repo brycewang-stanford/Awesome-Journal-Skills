@@ -14,7 +14,7 @@ description: Use when working with the Journal of Economic Perspectives (JEP) ed
 
 ## The JEP editorial model
 
-JEP is run by an **editorial team led by editors and a long-serving managing editor**, and is **largely invited / commissioned** (检索于 2026-06；以官网为准). As of 2026 the **Editor is Heidi Williams**; coeditors include **Jeffrey Kling** and **Jonathan Parker**; the **Managing Editor is Timothy Taylor** (long-tenured), with an assistant managing editor — re-confirm the roster on the official editors page before relying on names. Unlike a refereed research journal, JEP review is **editor-driven and hands-on**: the editors actively shape framing, accessibility, and length, often across several rounds, rather than dispatching to anonymous referees. Expect direct, substantive editorial guidance and a strong house preference for readability.
+JEP is run by an **editorial team led by editors and a long-serving managing editor**, and is **largely invited / commissioned** (检索于 2026-06；以官网为准). As of 2026 (editor roster re-verified 2026-06-22 against the AEA "Editors of the Journal of Economic Perspectives" page) the **Editor is Heidi Williams (Dartmouth)**; coeditors include **Jeffrey Kling** and **Jonathan Parker (MIT)**; the **Managing Editor is Timothy Taylor** (long-tenured), with an assistant managing editor — re-confirm the roster on the official editors page before relying on names. Unlike a refereed research journal, JEP review is **editor-driven and hands-on**: the editors actively shape framing, accessibility, and length, often across several rounds, rather than dispatching to anonymous referees. Expect direct, substantive editorial guidance and a strong house preference for readability.
 
 ## Working with the team
 

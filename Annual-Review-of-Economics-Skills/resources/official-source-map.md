@@ -20,9 +20,10 @@ Primary source map for facts used in the AREcon skill pack. **Access date: 2026-
 | conceptual map | Official pages above; re-check live before submission |
 | evidence stocktake | Official pages above; re-check live before submission |
 
-## Verified on official pages (2026-06)
+## Verified on official pages (2026-06; editors re-verified 2026-06-22)
 
-- **Co-Editors: Philippe Aghion, Hélène Rey, and Timothy Besley.** Published by **Annual Reviews**.
+- **Co-Editors: Philippe Aghion, Hélène Rey, and Timothy Besley.** Published by **Annual Reviews**. Re-verified 2026-06-22 against the Annual Reviews editorial-committee page (https://www.annualreviews.org/content/journals/economics?page=editorial-committee) and corroborated by the journal's Wikipedia masthead; the full Editorial Committee rotates on five-year terms, so re-confirm the roster on the live page before relying on individual names.
+- **Open access / no author APC:** ARE is published open access under the **Subscribe-to-Open (S2O)** model under a Creative Commons license; there is **no author-facing APC** (not a pay-to-publish journal). Re-verified 2026-06-22.
 - **Invitation-only:** the editorial committee selects topics and solicits reviews; unsolicited manuscripts are not accepted. (Annual Reviews / annualreviews.org)
 
 ## Unverified / volatile items

@@ -17,7 +17,7 @@ description: Use when running the final pre-submission preflight for The RAND Jo
 - **Hard page caps, enforced at submission**: main text **<=40 pages** (exclusive of appendices and references); appendices + references **<=10 pages**; **total <=50 pages**. Manuscripts must be **double-spaced**; footnotes kept to ~50 words / 3 typeset lines. Most general-econ journals use word counts — RJE does not.
 - **Abstract <=100 words.**
 - Files in **Word or LaTeX**.
-- **A per-article submission fee** applies (Wiley "For Authors" guidelines); as of **January 1, 2026** this fee is **explicitly non-refundable** (rje.org). The exact amount is **待核实** — search snippets disagree ($100 vs $200) and the Wiley page returns HTTP 402, so confirm the current amount in the live submission portal before paying.
+- **A per-article submission fee of US$200** applies (rje.org / Wiley "For Authors" guidelines; re-verified 2026-06-22); as of **January 1, 2026** this fee is **explicitly non-refundable** (rje.org). Re-confirm the exact amount and payment method in the live submission portal before paying — the figure can change.
 - **Supporting information is discouraged "as a general rule,"** is posted online without editing/typesetting, may be assessed critically by reviewers, and may be declined.
 
 ## Preflight checklist
@@ -41,7 +41,7 @@ description: Use when running the final pre-submission preflight for The RAND Jo
 - [ ] Supporting information kept minimal (discouraged) — justify anything included
 
 ### Declarations & fee
-- [ ] **Submission fee** ready (exact amount 待核实 — confirm in the portal); understand it is **non-refundable** (as of 2026-01-01)
+- [ ] **Submission fee** ready (**US$200**, re-verified 2026-06-22 — re-confirm in the portal); understand it is **non-refundable** (as of 2026-01-01)
 - [ ] Conflict-of-interest / funding disclosures prepared
 - [ ] Confirmed not under review elsewhere
 

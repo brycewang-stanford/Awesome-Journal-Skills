@@ -20,9 +20,9 @@ Primary source map for facts used in the JRU skill pack. **Access date: 2026-06.
 | prospect-theory test | Official pages above; re-check live before submission |
 | insurance behavior | Official pages above; re-check live before submission |
 
-## Verified on official pages (2026-06)
+## Verified on official pages (2026-06; editor re-verified 2026-06-22)
 
-- **Editor: W. Kip Viscusi (Vanderbilt University).** (Springer JRU editorial board)
+- **Editor-in-Chief: W. Kip Viscusi (Vanderbilt University)**, the journal's founding editor (since 1988). Re-verified 2026-06-22 via the Springer JRU editorial-board page and corroborating sources (Wikipedia JRU masthead, RePEc). Re-confirm before relying.
 - Published by **Springer**; submission-to-first-decision median ~32 days at access time. (Springer journal metrics)
 
 ## Unverified / volatile items

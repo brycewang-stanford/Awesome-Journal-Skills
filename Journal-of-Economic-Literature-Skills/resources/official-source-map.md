@@ -23,7 +23,11 @@ live-check rules below.
   the **AEA Data and Code Availability Policy** applies; submission is via
   **ScholarOne Manuscripts**; authors should consult the AEA/JEL **Style Guide**.
   The listed editorial contact email as of access was **d.romer@aeapubs.org**
-  (volatile — re-confirm). Accessed 2026-06.
+  (volatile — re-confirm). Accessed 2026-06. **Editor re-verified 2026-06-22:**
+  the JEL lead editor is **David H. Romer (UC Berkeley)**, appointed July 2022,
+  succeeding Steven N. Durlauf (editor 2013–2022) — confirmed via the AEA "Editors
+  of the Journal of Economic Literature" page and corroborating sources; the contact
+  email above is consistent with this. Re-confirm the masthead before relying.
 - **https://www.aeaweb.org/journals/jel** — JEL journal home (AEA). Verifies: JEL is
   one of the AEA's journals; publishes **survey/review articles, book reviews, and
   the JEL classification system / annotated listings**. Accessed 2026-06. Some
@@ -80,10 +84,12 @@ live-check rules below.
 
 ## Bounded live-check rules
 
-- The JEL submission page directs correspondence to **d.romer@aeapubs.org**; do not
-  present a current editor name or term unless the AEA masthead page is open.
+- The JEL lead editor is **David H. Romer (UC Berkeley)** (appointed July 2022;
+  re-verified 2026-06-22 via the AEA JEL editors page); correspondence goes to
+  **d.romer@aeapubs.org**. Re-confirm the masthead before relying on the name/term.
 - Do not assert a submission fee or fee waiver. The captured JEL submission text did
-  not state one.
+  not state one, and the 2026-06-22 web check surfaced no JEL submission-fee figure —
+  leave fees unstated rather than guessing.
 - Do not assert single- or double-blind review for JEL surveys unless the live AEA
   page states it.
 - Use the 10-page proposal guidance as the pack's load-bearing length rule. Read any

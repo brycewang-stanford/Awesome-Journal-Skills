@@ -14,7 +14,7 @@ description: Use when running the final pre-submission preflight for the Journal
 
 ## Process facts (检索于 2026-06；以官网为准)
 
-- JRU is published by **Springer** (Springer Science+Business Media); content sits on **Springer Nature Link** (ISSN 0895-5646 print / 1573-0476 electronic). Editor-in-Chief and founder: **W. Kip Viscusi** (Vanderbilt), who has led the journal since 1988.
+- JRU is published by **Springer** (Springer Science+Business Media); content sits on **Springer Nature Link** (ISSN 0895-5646 print / 1573-0476 electronic). Editor-in-Chief and founder: **W. Kip Viscusi** (Vanderbilt), who has led the journal since 1988 (re-verified 2026-06-22 against the Springer editorial-board page; re-confirm before relying).
 - Submission is through Springer's online system (**Editorial Manager**, the Springer standard — 待核实 against the live guidelines); the Editor-in-Chief reserves the right to reject submissions that do not meet the author guidelines.
 - Review model: **single-blind** is the Springer econ default — **待核实**; confirm whether JRU anonymizes. If single-blind, author identities are visible to referees and need not be stripped, but verify before relying on it.
 - **Data Availability Statement** is required on original research articles; Springer strongly encourages depositing underlying data in a recognized repository.
