@@ -72,6 +72,14 @@ def main() -> int:
             return 0
         print(f"SkillOpt ledgers -- {len(ledgers)} skill(s) optimized\n")
         for lg in ledgers:
+            if not lg.get("runs") and lg.get("status") == "assessed-no-edit":
+                print(f"• {lg['skill']}")
+                print(f"    assessed — no high-value gated edit (skill unchanged)")
+                note = lg.get("assessment", "")
+                if note:
+                    print(f"      {note[:160]}{'…' if len(note) > 160 else ''}")
+                print()
+                continue
             runs = {r["stage"]: r for r in lg.get("runs", [])}
             base = runs.get("baseline", {}).get("judge_total")
             cand = runs.get("candidate", {}).get("judge_total")

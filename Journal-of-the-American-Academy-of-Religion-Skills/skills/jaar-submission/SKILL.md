@@ -22,15 +22,22 @@ volatile specifics on the official page first.
 - **Portal:** **ScholarOne / Manuscript Central**, `mc.manuscriptcentral.com/jaarel`. Upload uses a
   **Main Document (anonymous)** designation plus a separate **Title Page** (and Figure/Table/
   Supplementary as needed).
-- **Review:** **double-blind (double-anonymous).**
+- **Review:** **double-blind (double-anonymous).** Average time to a **first decision ≈ 106 days**
+  (as of 2022); a final decision can take **up to ~6 months**. **Rejection rate ≈ 90%** (~8 articles
+  per issue, ~32/year) — the broad-significance gate is the first hurdle.
 - **Length:** roughly **8,000–12,000 words including references and footnotes** (待核实 exact range).
 - **Abstract:** **≤ 150 words.**
 - **Framing:** the article must address a question of **broad and fundamental interest to the study of
   religion** and reach beyond its subfield, or it is **returned for reframing before review**.
 - **Citations:** **in-text author-date**, NOT footnote citations; footnotes for substance only;
-  alphabetized year-keyed reference list (see `jaar-citation-and-style`).
+  alphabetized year-keyed reference list. For issues the JAAR style sheet does not cover, consult the
+  **Chicago Manual of Style** (the sheet has cited the **15th ed.**; confirm the current edition —
+  待核实) (see `jaar-citation-and-style`).
 - **House conventions:** gender-neutral language, serial comma, italicized foreign terms, consistent
   transliteration.
+- **Fees / open access:** **no submission fee**; an **optional open-access license** carries an OA
+  charge alongside the standard license, and OUP **Read & Publish** agreements may cover it (exact
+  APC 待核实).
 
 ## Preflight checklist
 
@@ -64,7 +71,8 @@ volatile specifics on the official page first.
 - Author identifiers left in the main document or its metadata (breaks double-blind)
 - Footnote citations instead of in-text author-date
 - Abstract over 150 words; manuscript over the length range with bloated notes
-- Planning an unsolicited book-review submission (not accepted)
+- Planning a book-review submission — JAAR does **not** accept unsolicited reviews and does **not**
+  publish reviews from **graduate students**; reviews are **commissioned** via the Book Review Editor
 
 ## Output format
 
@@ -89,7 +97,7 @@ pre-review for a recurring set of reasons. Clear all of these before you press s
 | Footnote citations | Convert to author-date (`jaar-citation-and-style`) |
 | Over length / bloated notes | Prune notes; cite in-text |
 | Abstract over the limit | Trim to the limit (≤150 words, 待核实) |
-| Unsolicited book review | Don't — reviews are commissioned only |
+| Unsolicited book review | Don't — reviews are commissioned via the Book Review Editor; not accepted unsolicited, and not from graduate students |
 | Wrong fit (advocacy or pure area study) | Re-pitch as analytic study of religion, or choose another venue |
 
 ## Worked vignette: a clean preflight on a comparative essay

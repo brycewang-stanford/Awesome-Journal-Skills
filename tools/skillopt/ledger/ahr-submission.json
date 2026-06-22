@@ -1,0 +1,55 @@
+{
+  "skill": "American-Historical-Review-Skills/skills/ahr-submission/SKILL.md",
+  "method": "SkillOpt-adapted rollout -> judge -> validation-gate",
+  "date": "2026-06-21",
+  "model_role_note": "rollout agents constrained to the skill text only; judge agents blind to skill version, scoring against the ground-truth fact sheet.",
+  "rubric": "tools/skillopt/rubric.md",
+  "validation_set": "tools/skillopt/validation/ahr-submission.md",
+  "ground_truth_source": "American-Historical-Review-Skills/resources/official-source-map.md (OUP Author Guidelines, accessed 2026-06)",
+  "static_scorecard_before": 94.0,
+  "static_scorecard_note": "scorecard rated the AHR pack 94.0/100 while the submission skill omitted every verified review-process / acceptance / timeline fact and led an agent to a wrong notes estimate.",
+  "runs": [
+    {
+      "stage": "baseline",
+      "skill_version": "v1 (pre-optimization)",
+      "held_out_queries": ["Q1", "Q2", "Q3"],
+      "judge_total": 39,
+      "judge_breakdown": {"factual": 23, "specificity": 6, "coverage": 3, "venue": 3, "hedging": 4},
+      "wrong_facts": [
+        "Estimated notes at ~3,750 words ('half the text') for a 7,500-word article; AHR's typical 8,000-word article carries 4,500-5,500 words of notes, so ~4,200-5,200 is normal"
+      ],
+      "missed_needs": [
+        "Reviewer count (>=6 scholars per published article) deflected to 'verify on page'",
+        "Review-filter share (~25% sent for full review) deflected",
+        "Decision timeline (6-8 months) deflected",
+        "Acceptance odds (~8-10% of ~360/year) - 'cannot give realistic chances'"
+      ]
+    },
+    {
+      "stage": "candidate",
+      "skill_version": "v2 (optimized, applied)",
+      "held_out_queries": ["Q1", "Q2", "Q3"],
+      "judge_total": 100,
+      "judge_breakdown": {"factual": 35, "specificity": 25, "coverage": 20, "venue": 10, "hedging": 10},
+      "wrong_facts": [],
+      "missed_needs": []
+    }
+  ],
+  "edits": [
+    {
+      "id": "E1",
+      "status": "APPLIED",
+      "ops": ["add", "add", "add", "replace"],
+      "summary": "Add verified review process (>=6 reviewers per published article; ~a quarter sent for full review), the 6-8 month decision timeline, the ~8-10%-of-~360 acceptance rate, and the concrete notes budget (typical 8,000-word article carries 4,500-5,500 words of notes), correcting the naive half-the-text estimate.",
+      "grounded_in": "official-source-map.md (OUP Author Guidelines)",
+      "baseline_score": 39,
+      "candidate_score": 100,
+      "gate": "ACCEPTED",
+      "gate_reason": "strict improvement 39 -> 100 on held-out Q1-Q3; corrected one wrong fact, added four verified facts"
+    }
+  ],
+  "applied_edits": ["E1"],
+  "rejected_edit_buffer": [],
+  "transfers": [],
+  "result": "ahr-submission held-out behavioral score 39 -> 100 (+61). Static scorecard unchanged (~94)."
+}

@@ -20,11 +20,18 @@ manuscript. Verify volatile specifics on the official page before relying on the
 - **Owner / publisher:** American Historical Association (AHA) / Oxford University Press.
 - **Portal:** **ScholarOne / Manuscript Central** (`mc.manuscriptcentral.com/ahrev`); submit a
   **Microsoft Word** document — **email submissions are not accepted**.
-- **Review model:** **double-blind / anonymous** — mask the author's identity throughout.
+- **Review model:** **double-blind / anonymous** — mask the author's identity throughout. Roughly
+  **a quarter** of submissions are sent out for full review; **every article published in the AHR has
+  been reviewed by at least six scholars**.
+- **Decision timeline:** a decision is targeted within about **six to eight months**.
+- **Acceptance:** the *AHR* publishes roughly **8–10% of the ~360 manuscripts** it receives per year —
+  a reach for any author; lead with a first-order question, not an incremental one.
 - **Length:** ideally **≤ 8,000 words** of text, **not counting notes, tables, and charts** (treat as
   a strong target; see 待核实).
 - **Notes:** **Chicago Manual of Style** footnotes/endnotes; guideline **~2:1** text-to-notes at
-  submission; **no bibliography**, **no in-text parenthetical** (see `ahr-citation-and-style`).
+  submission — a typical 8,000-word article carries **~4,500–5,500 words of notes**, so budget notes
+  well above "half the text"; **no bibliography**, **no in-text parenthetical** (see
+  `ahr-citation-and-style`).
 - **Formatting:** **8½ × 11, Times New Roman 12 pt, double-spaced, numbered pages.**
 - **Images:** **alt-text** under each figure legend; **author clears reproduction permissions/rights**.
 - **Abstract:** whether a separate abstract is required is **待核实** — check the ScholarOne prompts.

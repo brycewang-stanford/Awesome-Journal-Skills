@@ -48,6 +48,9 @@ Science does NOT contain Cell Press "STAR Methods"; earlier claim retracted.)
 |------|-------|--------|-------|
 | Harvard-Law-Review-Skills | Claude | done | SkillOpt behavioral demo: hlr-submission held-out 30→100; fixed Scholastica→own-portal error, added verified word limits/anonymization/Bluebook-22nd; transferred to placement-strategy/workflow/checklist |
 | tools/skillopt (harness) | Claude | done | new rollout→judge→**validation-gate** harness (behavioral counterpart to Codex's deterministic `tools/skillopt_gate.py`); tools-only, no overlap |
+| American-Historical-Review-Skills | Claude | in progress | SkillOpt scale-up: ahr-submission behavioral loop; add verified review-count/acceptance-rate/decision-timeline facts |
+| Journal-of-the-American-Academy-of-Religion-Skills | Claude | in progress | SkillOpt scale-up: jaar-submission behavioral loop; add verified 106-day/≈90%-reject/grad-review-policy facts |
+| Progress-in-Human-Geography-Skills | Claude | assessed | SkillOpt triage: submission skill already well-calibrated; facts genuinely volatile (需复核) — no high-value verified edit, gate would reject padding |
 | Quarterly-Journal-of-Economics-Skills | A | in progress | golden template; deep venue research |
 | Journal-of-Political-Economy-Skills | A | queued | |
 | Econometrica-Skills | A | queued | |
