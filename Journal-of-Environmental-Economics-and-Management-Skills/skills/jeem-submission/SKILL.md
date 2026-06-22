@@ -19,7 +19,7 @@ description: Use when running the final pre-submission preflight for a Journal o
 - **Submission fee:** a fee is charged at submission — approximately **US$100** regular / **US$50** full-time student (待核实 exact current amounts and waivers). Manuscripts are considered only after the fee is paid, and a paper may be **rejected without review** for scope or style non-compliance — the fee is generally **not refunded** on a desk reject.
 - **Short papers / notes:** JEEM accepts short submissions that make a contribution comparable to full papers, with expedited review and minimal revision; the exact word ceiling for the short-paper route is volatile (sources cite figures from ~3,000 up to ~6,000 words) — 待核实.
 - **Data-availability / replication:** data must be documented and made available for replication, computational methods explained in enough detail to reproduce, and the **Editor notified at submission if these conditions cannot be met**. Elsevier's data-statement and code-sharing requirements apply (待核实 current form).
-- **Editors:** Roger von Haefen and Andreas Lange (待核实). Review model (single vs. double anonymized) — confirm the current setting in the guide for authors (待核实).
+- **Co-Editors-in-Chief:** Roger H. von Haefen (NC State) and Andreas Lange (Hamburg) — re-verified 2026-06-22 (Elsevier editorial board / IDEAS-RePEc); re-confirm on the live masthead before submission. Review model (single vs. double anonymized) — confirm the current setting in the guide for authors (待核实).
 - **Sibling caution:** do not submit to JEEM a paper better suited to **JAERE**, **Resource and Energy Economics**, or **Ecological Economics**; the environmental mechanism must be load-bearing.
 
 ## Why the fee changes the calculus

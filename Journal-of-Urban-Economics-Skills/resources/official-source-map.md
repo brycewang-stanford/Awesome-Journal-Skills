@@ -20,9 +20,9 @@ Primary source map for facts used in the JUE skill pack. **Access date: 2026-06.
 | commuting margin | Official pages above; re-check live before submission |
 | local public goods | Official pages above; re-check live before submission |
 
-## Verified on official pages (2026-06)
+## Verified on official pages (re-verified 2026-06-22)
 
-- **Editors-in-Chief: Nathaniel Baum-Snow (University of Toronto) and Kristian Behrens (Université du Québec à Montréal).** (Elsevier JUE editorial board / IDEAS-RePEc)
+- **Editors-in-Chief: Nathaniel Baum-Snow (University of Toronto) and Kristian Behrens (Université du Québec à Montréal).** Re-verified 2026-06-22 against the ScienceDirect JUE journal page and IDEAS-RePEc; both agree (the pair also jointly edited the JUE 50th-anniversary special issue). Re-confirm on the live masthead before submission.
 - Published by **Elsevier**; submit via Editorial Manager from the JUE ScienceDirect page.
 
 ## Unverified / volatile items

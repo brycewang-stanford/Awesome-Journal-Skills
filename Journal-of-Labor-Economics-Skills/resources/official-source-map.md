@@ -74,7 +74,7 @@ Use the map as a provenance ledger, not as a replacement for the live upload scr
 | Fact | Source |
 |------|--------|
 | Publisher = University of Chicago Press; journal published for SOLE; quarterly issue rhythm | UChicago Press current issue/front matter; SOLE membership page |
-| Current EIC = Peter Kuhn, UC Santa Barbara | UChicago Press current issue and board excerpts; SOLE Executive Board |
+| Current EIC = Peter Kuhn, UC Santa Barbara (re-verified 2026-06-22 via UChicago board/current-issue pages + SOLE Executive Board) | UChicago Press current issue and board excerpts; SOLE Executive Board |
 | Submission via Editorial Manager / `jole.edmgr.com` route | UChicago Press instructions/front matter; Editorial Manager portal shell |
 | Portal URL should be live-checked because the direct portal shell displayed a development-use banner | Editorial Manager direct rendering |
 | Manuscripts in English; title page includes all authors' names, emails, and affiliations | UChicago Press instructions/front matter |

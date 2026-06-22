@@ -27,7 +27,7 @@ in this pack. Official pages were re-checked on **2026-06-21**.
 - **References:** author-year in-text citations and APA 7th edition reference list. (#2)
 - **Data availability:** all original research articles must include a Data Availability Statement explaining access to supporting data, including links/citations to public archives or access conditions for restricted data. (#2, #6)
 - **Authorship / AI:** LLMs do not satisfy Springer Nature authorship criteria; LLM use must be documented. AI-assisted copy editing does not require declaration under the wording read on 2026-06-21. (#2)
-- **Open access:** hybrid journal; current APC listed as GBP 3,090 / USD 4,590 / EUR 3,590; subscription route carries no APC. (#3)
+- **Open access:** hybrid journal; APC re-verified 2026-06-22 as GBP 2,890 / USD 4,290 / EUR 3,390 (down from the GBP 3,090 / USD 4,590 / EUR 3,590 figure recorded 2026-06-21); subscription route carries no APC. Confirmed via two Springer-Nature-sourced web indexes on 2026-06-22; the canonical "How to publish with us" page (#3) is login-gated to command-line fetch, so re-confirm the live amount at acceptance. (#3)
 - **Metrics visible on home page:** 2024 Journal Impact Factor 2.9, 5-year IF 3.8, median submission to first decision 13 days, and 2025 downloads 320.1k. These are metrics, not stable policy rules. (#1)
 
 ## Bounded live-check rules

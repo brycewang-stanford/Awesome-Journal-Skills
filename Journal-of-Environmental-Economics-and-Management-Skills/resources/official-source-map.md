@@ -20,9 +20,9 @@ Primary source map for facts used in the JEEM skill pack. **Access date: 2026-06
 | valuation evidence | Official pages above; re-check live before submission |
 | climate adaptation | Official pages above; re-check live before submission |
 
-## Verified on official pages (2026-06)
+## Verified on official pages (re-verified 2026-06-22)
 
-- **Co-Editors-in-Chief: Roger H. von Haefen (North Carolina State University) and Andreas Lange (University of Hamburg).** (Elsevier JEEM editorial board / journal news)
+- **Co-Editors-in-Chief: Roger H. von Haefen (North Carolina State University) and Andreas Lange (University of Hamburg).** Re-verified 2026-06-22 against the Elsevier JEEM editorial-board entries (elsevier.com .../editorial-board/rh-von-haefen and .../a-lange) and IDEAS-RePEc; both agree. Re-confirm on the live masthead before submission.
 - Published by **Elsevier**; submit via Editorial Manager from the JEEM ScienceDirect page.
 
 ## Unverified / volatile items

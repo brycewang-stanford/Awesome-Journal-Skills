@@ -20,9 +20,9 @@ Primary source map for facts used in the JEBO skill pack. **Access date: 2026-06
 | laboratory evidence | Official pages above; re-check live before submission |
 | field-experiment design | Official pages above; re-check live before submission |
 
-## Verified on official pages (2026-06)
+## Verified on official pages (re-verified 2026-06-22)
 
-- **Editors: Daniel Houser (George Mason University) and Daniela Puzzello (Indiana University).** (Elsevier JEBO editorial board / IDEAS-RePEc)
+- **Editors: Daniel Houser (George Mason University) and Daniela Puzzello (Indiana University).** Re-verified 2026-06-22 against the Elsevier JEBO editorial-board page and IDEAS-RePEc (https://ideas.repec.org/s/eee/jeborg.html), both naming Houser and Puzzello; re-confirm on the live masthead before submission.
 - Published by **Elsevier**; submit via Editorial Manager from the JEBO ScienceDirect page.
 
 ## Unverified / volatile items

@@ -20,9 +20,9 @@ Primary source map for facts used in the JHE skill pack. **Access date: 2026-06.
 | patient selection | Official pages above; re-check live before submission |
 | clinical-policy margin | Official pages above; re-check live before submission |
 
-## Verified on official pages (2026-06)
+## Verified on official pages (re-verified 2026-06-22)
 
-- **Multi-editor board (no single Editor-in-Chief)** — Co-Editors include J. Cawley (Cornell), C. Carpenter (Vanderbilt), M. K. Bundorf (Stanford), M. Lindeboom (Vrije Universiteit Amsterdam), O. A. O'Donnell (Erasmus), L. Siciliani (York), and K. Simon (Indiana), among others. (Elsevier JHE editorial board / IDEAS-RePEc)
+- **Multi-editor board (no single Editor-in-Chief).** Re-verified 2026-06-22 against the Elsevier/ScienceDirect JHE editorial-board listing and IDEAS-RePEc: the current Co-Editors / Editors-in-Chief roster includes M. Alsan (Harvard Kennedy School), M. Anderson (UC Berkeley), A. Balsa (Univ. of Montevideo), M. K. Bundorf (Stanford), C. Carpenter (Vanderbilt), J. Cawley (Cornell), J. P. Clemens (UC San Diego), M. Kifmann (Univ. Hamburg), M. Lindeboom (Vrije Universiteit Amsterdam), O. A. O'Donnell (Erasmus), M. Shah (UCLA), L. Siciliani (York), and K. Simon (Indiana), among others. (Note: IDEAS-RePEc's masthead field still lists the founding/legacy editors — Newhouse, Culyer, Frank, Claxton, McGuire — which is historical, not the current handling roster.) This roster rotates; re-confirm on the live editorial-board page before naming a conflicted editor.
 - Published by **Elsevier** (six issues/year); submit via Editorial Manager from the JHE ScienceDirect page.
 
 ## Unverified / volatile items

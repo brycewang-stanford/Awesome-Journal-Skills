@@ -20,9 +20,9 @@ Primary source map for facts used in the JEG skill pack. **Access date: 2026-06.
 | place-based policy | Official pages above; re-check live before submission |
 | network geography | Official pages above; re-check live before submission |
 
-## Verified on official pages (2026-06)
+## Verified on official pages (re-verified 2026-06-22)
 
-- **Editors-in-Chief: Harald Bathelt (Toronto), Kristian Behrens (UQAM), Neil Coe (NUS), Simona Iammarino (LSE / GSSI), and William R. Kerr (Harvard Business School).** Published by **Oxford University Press**. (OUP JoEG editorial board)
+- **Editors-in-Chief: Harald Bathelt (Toronto), Kristian Behrens (UQAM), Neil Coe (NUS), Simona Iammarino (LSE / GSSI), and William R. Kerr (Harvard Business School).** Re-verified 2026-06-22 against the OUP JoEG editorial-board page and Wikipedia; both agree on the five EICs. Published by **Oxford University Press**. (Separately, IDEAS-RePEc's "editors" field lists the handling Editors — De la Roca, Gibbons, Iammarino, Ross, Faulconbridge — which is the co-editor layer, not the EIC list.) Re-confirm on the live masthead before submission.
 
 ## Unverified / volatile items
 

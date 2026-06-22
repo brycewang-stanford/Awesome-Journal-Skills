@@ -21,7 +21,7 @@ encoded in this pack. Official pages were re-checked on **2026-06-21**.
 
 - **Publisher / identity:** Elsevier / ScienceDirect journal; print ISSN 0304-3932 and online ISSN 1873-1295. (#1, #2)
 - **Scope:** modern macroeconomic research across empirical, methodological, and theoretical lines, including monetary policy/theory, business cycles, fiscal policy, macroeconometrics, asset pricing, banking/credit, expectation formation, growth, trade, labor markets, and real investment. (#1, #2)
-- **Editors:** S. Boragan Aruoba and Eric Swanson are co-Editors-in-Chief. (#1, #3, #9)
+- **Editors:** S. Boragan Aruoba (University of Maryland) and Eric Swanson (UC Irvine) are co-Editors-in-Chief. Re-verified 2026-06-22 (ScienceDirect editors listing + UMD appointment note + Wikipedia all agree). (#1, #3, #9)
 - **Issue rhythm:** eight regular issues per year, with Carnegie-Rochester Conference Series issues; the official JME site also describes occasional additional macro-policy proceedings. (#1, #3)
 - **Review model:** single-anonymized review; suitable submissions are typically sent to at least two reviewers. (#2)
 - **Submission fee:** USD 350 for unsolicited new manuscripts; USD 200 reduced fee for full-time students; no resubmission fee under the current Guide for Authors; article-transfer exception applies. (#2, #4)
