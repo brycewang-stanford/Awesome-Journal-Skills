@@ -20,10 +20,13 @@ Primary source map for facts used in the JIMF skill pack. **Access date: 2026-06
 | global financial cycle | Official pages above; re-check live before submission |
 | sovereign risk | Official pages above; re-check live before submission |
 
-## Verified on official pages (2026-06)
+## Verified on official pages (2026-06-22)
 
-- **Editor-in-Chief: James R. Lothian (Fordham University)** (per the Elsevier JIMF listing / IDEAS-RePEc; confirm currency on the live editorial board).
+- **Editors: Joshua Aizenman, Menzie D. Chinn, John Beirne, and Donghyun Park.** (Elsevier/ScienceDirect editorial-board listings and JIMF special-issue editor credits; accessed 2026-06-22.) **STALE-FIX:** earlier IDEAS-RePEc and some aggregator caches still name **James R. Lothian (Fordham)** as editor — that listing is out of date (RePEc itself flags his editor email as no longer valid), so do not use it. Re-verify the sitting editors on the live Elsevier board before naming one in a cover letter.
+  - https://www.sciencedirect.com/journal/journal-of-international-money-and-finance/about/editorial-board
+  - https://www.journals.elsevier.com/journal-of-international-money-and-finance/editorial-board/md-chinn
 - Published by **Elsevier**; submit via Editorial Manager from the JIMF ScienceDirect page.
+- **No society membership and no submission fee** for a standard paper; gold open access is optional at an APC (exact APC 待核实 — confirm on the live Elsevier OA page). (Elsevier author guidance; accessed 2026-06-22.)
 
 ## Unverified / volatile items
 

@@ -15,6 +15,7 @@ description: Use when running the final pre-submission preflight for The World B
 ## Process facts (检索于 2026-06；以官网为准)
 
 - WBER is published by **Oxford University Press for the World Bank**; submission is through the **ScholarOne ManuscriptCentral** portal (`mc.manuscriptcentral.com/wber`), as **PDF**.
+- **Editors (verified 2026-06-22): Eric Edmonds and Nina Pavcnik (both Dartmouth College)**, with co-editors including Leora Klapper, David McKenzie, Emanuela Galasso, Norman Loayza, and Roy van der Weide. Re-verify on the OUP editorial-board page before naming an editor.
 - **Length cap:** standard submissions **must not exceed 40 pages total**, at 12-point font, double-spaced, Times New Roman (or similar), one-inch margins — and the 40 pages **include all content subject to review**: tables, figures, references, footnotes, and appendices. (Confirm the current limit on the OUP author guidelines.)
 - **Review model:** **single-anonymized** — only referees are anonymous. **Author names and affiliations go on the title page.** Do not blind the manuscript as if it were double-blind.
 - **Data availability statement:** required on the title page / author-affiliation footnote, with a **persistent (preferably DOI) link** to the data in a repository. Public release of data and code is a **condition of publication**.

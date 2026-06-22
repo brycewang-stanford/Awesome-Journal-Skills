@@ -19,7 +19,7 @@ description: Use when running the final pre-submission preflight for a Journal o
 - **Peer review:** single-anonymized is the Elsevier default; whether JIMF uses single- or double-anonymized review is 待核实 — confirm before deciding whether to anonymize the manuscript.
 - **Abstract ≤250 words**; **Highlights** (3–5 bullets) and **keywords** required; **JEL codes** expected (F3x / E4x / G15 territory).
 - **Declarations** required by Elsevier: **Declaration of Competing Interest**, **CRediT** author-contribution statement, funding sources, and a **Data Availability Statement**.
-- **Editor identity is volatile** — do not name an editor in the cover letter from memory; verify on the live editorial board page. 待核实.
+- **Editors (verified 2026-06-22): Joshua Aizenman, Menzie D. Chinn, John Beirne, and Donghyun Park.** Note that some aggregators (IDEAS-RePEc, older caches) still list the late James R. Lothian — that is stale; do not use it. The board is volatile, so re-verify the sitting editors on the live Elsevier board page before naming one in a cover letter.
 
 ## Preflight checklist
 

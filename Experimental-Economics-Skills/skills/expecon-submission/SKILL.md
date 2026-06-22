@@ -14,7 +14,8 @@ description: Use when running the final pre-submission preflight for an Experime
 
 ## Process facts (检索于 2026-06；以官网为准)
 
-- Experimental Economics is the **official journal of the Economic Science Association (ESA)**; as of **January 2025 (Vol. 28)** it is published by **Cambridge University Press** and is **fully open access (CC BY)** — it moved from Springer. Re-confirm the current platform and any APC/waiver before submitting.
+- Experimental Economics is the **official journal of the Economic Science Association (ESA)**; as of **January 2025 (Vol. 28)** it is published by **Cambridge University Press** and is **fully open access (CC BY)** — it moved from Springer (verified 2026-06-22). Re-confirm the current platform and any APC/waiver before submitting.
+- **Editors (verified 2026-06-22):** David Huffman (Cornell), Friederike Mengel (Essex), Andreas Ortmann (UNSW), Arno Riedl (Maastricht), and Marta Serra-Garcia (UC San Diego) — co-editors rather than a single EiC. Re-verify on the Cambridge editorial-board page before naming one.
 - **Submission portal:** **Editorial Manager** (editorialmanager.com/eec). Review is **anonymous (double-blind)**; accepted papers require the approval of **two editors**.
 - **Hard gates:** the journal only considers studies that **do not deceive participants** and in which **participants are incentivized**. These are entry conditions, not preferences.
 - **Instructions at submission:** the **instructions participants received must be supplied at the time of submission** (reviewers check them for deception and comprehension). Methodology and replication papers are explicitly in scope.

@@ -20,10 +20,12 @@ Primary source map for facts used in the Economic Policy skill pack. **Access da
 | CEPR audience | Official pages above; re-check live before submission |
 | welfare implication | Official pages above; re-check live before submission |
 
-## Verified on official pages (2026-06)
+## Verified on official pages (2026-06-22)
 
-- **Managing Editors: Roberto Galbiati and Isabelle Méjean.** (economic-policy.org editorial board)
-- **Submission model changed for 2026: Economic Policy now publishes only commissioned papers and does NOT accept unsolicited submissions** (fewer papers; authors may signal interest via submissions@economic-policy.org). Published twice yearly by OUP; jointly owned by CEPR, CESifo, and Sciences Po. (OUP / CEPR / economic-policy.org)
+- **Managing Editor: Şebnem Kalemli-Özcan (Brown University).** (economic-policy.org Managing-Editor page; CEPR/Brown profiles; accessed 2026-06-22.) **STALE-FIX:** the prior listing of **Roberto Galbiati and Isabelle Méjean** as Managing Editors is out of date for the relaunched journal; do not use it. Re-verify the sitting editor on the live editorial-board page before signalling interest.
+  - https://economic-policy.org/managing-editor/
+  - https://cepr.org/about/people/sebnem-kalemli-ozcan
+- **Submission model changed for the 2025/2026 relaunch (*Economic Policy: Papers on European and Global Issues*): Economic Policy now publishes only commissioned papers and does NOT accept unsolicited submissions** — all articles are invited by the Managing Editor; papers are presented and discussed at biannual conferences before publication (Brookings-Papers-style). Authors may signal interest via the editorial office. Jointly owned by CEPR, CESifo, and Sciences Po, published by OUP. (OUP / CEPR / economic-policy.org; accessed 2026-06-22.)
 
 ## Unverified / volatile items
 

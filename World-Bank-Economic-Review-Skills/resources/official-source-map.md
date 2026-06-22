@@ -20,9 +20,10 @@ Primary source map for facts used in the WBER skill pack. **Access date: 2026-06
 | World Bank audience | Official pages above; re-check live before submission |
 | developing-country data | Official pages above; re-check live before submission |
 
-## Verified on official pages (2026-06)
+## Verified on official pages (2026-06-22)
 
-- **Co-Editors-in-Chief: Eric Edmonds and Nina Pavcnik (both Dartmouth College).** Editorial correspondence: wber@worldbank.org. Published by **Oxford University Press** for the **World Bank**. (OUP WBER editorial board)
+- **Editors: Eric Edmonds and Nina Pavcnik (both Dartmouth College)**, continuing in the role; co-editors include Leora Klapper, David McKenzie, Emanuela Galasso, Norman Loayza, and Roy van der Weide. Editorial correspondence: wber@worldbank.org. Published by **Oxford University Press** for the **World Bank**. (OUP WBER editorial-board page; accessed 2026-06-22; corroborated against the WBER issue front matter.) Re-verify before a live submission.
+  - https://academic.oup.com/wber/pages/Editorial_Board
 
 ## Unverified / volatile items
 

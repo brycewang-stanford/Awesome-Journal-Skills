@@ -15,7 +15,7 @@ description: Use when running the final preflight for an Economic Policy (EP) ma
 
 ## EP has no open portal — it is commissioned
 
-The single most important preflight fact: since the 2025 relaunch as *Economic Policy: Papers on European and Global Issues*, EP is **online-only and commissioned** — "all articles are invited by the Managing Editor"; **EP does not accept unsolicited submissions** (检索于 2026-06；以官网为准). There is no Manuscript-Central-style portal where you upload a cold submission. The realistic "submission" paths are:
+The single most important preflight fact: since the 2025 relaunch as *Economic Policy: Papers on European and Global Issues*, EP is **online-only and commissioned** — "all articles are invited by the Managing Editor"; **EP does not accept unsolicited submissions** (verified 2026-06-22；以官网为准). The current **Managing Editor is Şebnem Kalemli-Özcan (Brown University)** (verified 2026-06-22 — re-confirm on the live editorial-board page before pitching). There is no Manuscript-Central-style portal where you upload a cold submission. The realistic "submission" paths are:
 
 1. **Get commissioned.** Circulate a strong working draft, pitch the Managing Editor on a timely policy question, and be visible in the CEPR / CESifo / Sciences Po policy networks. The proposal must read as a Panel-worthy, timely policy question (see `ecopol-topic-selection`).
 2. **Deliver a conference-ready draft.** Once invited, the paper is presented at a biannual conference and discussed by two invited discussants.

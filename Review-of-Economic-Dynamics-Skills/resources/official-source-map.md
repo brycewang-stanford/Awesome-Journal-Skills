@@ -1,9 +1,16 @@
 # RED Official Source Map
 
 Primary and authoritative sources behind the Review of Economic Dynamics (RED)-specific facts
-injected into this skill pack. Access date for all entries below: **2026-06-20**.
+injected into this skill pack. Access date for all entries below: **2026-06-20**;
+editor and fee facts re-verified **2026-06-22**.
 Re-check volatile items (editors, fees, policy wording, APCs, and submission-system details) before
 using this pack for a live submission.
+
+**Re-verification note (2026-06-22):** **Loukas Karabarbounis (University of Minnesota)** remains
+RED's Coordinating Editor, and the Elsevier Guide for Authors still lists the **USD 195** standard
+submission fee (USD 100 if all coauthors are full-time students; no fee on second-and-later
+resubmissions; review begins only after the fee is received). Both corroborated against the
+SED editors page and the Elsevier ScienceDirect Guide for Authors. Re-verify before a live submission.
 
 ## Official journal / society pages
 

@@ -20,10 +20,12 @@ Primary source map for facts used in the Experimental Economics skill pack. **Ac
 | pre-analysis plan | Official pages above; re-check live before submission |
 | treatment contrast | Official pages above; re-check live before submission |
 
-## Verified on official pages (2026-06)
+## Verified on official pages (2026-06-22)
 
-- **Publisher change: from 2025, Experimental Economics is published by Cambridge University Press** (new submissions at cambridge.org/core/journals/experimental-economics); the former Springer site is archived and no longer accepts submissions. Journal of the **Economic Science Association (ESA)**.
-- Editors include Jordi Brandts, Timothy N. Cason, David J. Cooper, Lata Gangadharan, and Charles Noussair (confirm the current EiC on the Cambridge editorial board).
+- **Publisher change: from January 2025 (Vol. 28), Experimental Economics is published by Cambridge University Press** and is **fully open access (CC BY)** (new submissions at cambridge.org/core/journals/experimental-economics); the former Springer site is archived and no longer accepts submissions. Journal of the **Economic Science Association (ESA)**. (Cambridge Core journal page; ESA news; accessed 2026-06-22.)
+- **Editors (verified 2026-06-22): David Huffman (Cornell), Friederike Mengel (Essex), Andreas Ortmann (UNSW), Arno Riedl (Maastricht), and Marta Serra-Garcia (UC San Diego).** **STALE-FIX:** the prior listing (Jordi Brandts, Timothy N. Cason, David J. Cooper, Lata Gangadharan, Charles Noussair) is out of date; do not use it. The journal lists co-editors rather than a single EiC; re-verify on the Cambridge editorial-board page before submission.
+  - https://www.cambridge.org/core/journals/experimental-economics/information/editorial-board
+- **Open access:** the journal is fully OA (CC BY); any APC/waiver terms are **待核实** — confirm on the current Cambridge OA/charges page at submission.
 
 ## Unverified / volatile items
 

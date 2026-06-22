@@ -15,6 +15,7 @@ description: Use when running the final pre-submission preflight for an IMF Econ
 ## Process facts (检索于 2026-06；以官网为准)
 
 - IMFER is the **IMF's flagship scholarly journal**, published by **Palgrave Macmillan / Springer Nature** for the International Monetary Fund (Online via Springer Nature Link, journal 41308); successor to *IMF Staff Papers*. Submission is via the journal's **online system (Editorial Manager)** — confirm the live portal on the official page.
+- **Editor (verified 2026-06-22): Jesús Fernández-Villaverde (Penn); Co-Editor: Emine Boz (IMF).** Earlier Gourinchas/Kose listings are stale. Re-verify on the live Palgrave board before naming an editor.
 - **Double-blind review:** the main article file and all table/figure files **must not contain any author-identifying information**; anonymize self-citations.
 - **Author information separate:** full contact details and author biographies go in a **separate file**; biographies **≤80 words per author**.
 - **Abstract + JEL:** the paper opens with an **italicized abstract** followed by **JEL classification codes**.

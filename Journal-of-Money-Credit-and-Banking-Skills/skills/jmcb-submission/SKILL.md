@@ -20,7 +20,7 @@ description: Use when running the final pre-submission preflight for a Journal o
 - **Length:** the journal **strongly recommends manuscripts not exceed ~40 pages** with 1.5 line spacing, where the count **includes references, tables, and figures but excludes the online appendix**; excessively long submissions may be summarily rejected.
 - **Data/replication:** consistent with JMCB's archive heritage, expect a data/code expectation; if data are restricted, **request a data exemption at submission** and document the access path.
 - **Citation style:** author-year in text; reference list alphabetical by author then chronological.
-- **Editors (待核实):** as of 2026 the editorial group includes Sanjay Chugh and Pok-sang Lam (OSU), Robert DeYoung (Kansas), and Kenneth D. West — confirm the current desks before tailoring a cover letter.
+- **Editors (verified 2026-06-22):** the editorial group includes Sanjay Chugh and Pok-sang Lam (OSU), Robert DeYoung (Kansas), and Kenneth D. West (Wisconsin–Madison); other listings add Luc Laeven (ECB) and Jing Cynthia Wu (Illinois). Re-verify the current desks on the Wiley/OSU board before tailoring a cover letter.
 
 ## Preflight checklist
 

@@ -20,12 +20,13 @@ Primary source map for facts used in the IMFER skill pack. **Access date: 2026-0
 | capital-flow policy | Official pages above; re-check live before submission |
 | IMF policy audience | Official pages above; re-check live before submission |
 
-## Verified on official pages (2026-06)
+## Verified on official pages (2026-06-22)
 
 - Published by **Palgrave Macmillan / Springer Nature on behalf of the International Monetary Fund**; journal home palgrave.com/41308 (now hosted on Springer Nature Link).
+- **Editor: Jesús Fernández-Villaverde (University of Pennsylvania); Co-Editor: Emine Boz (International Monetary Fund).** (Palgrave/Springer Nature editorial-board page; accessed 2026-06-22.) **STALE note:** earlier listings pairing Pierre-Olivier Gourinchas with Ayhan Kose are out of date; do not use them. Re-verify the sitting editor on the live Palgrave board before naming one.
+  - https://www.palgrave.com/gp/journal/41308/about/editorial-board
 
 ## Unverified / volatile items
 
-- **Editor(s) — 待核实 (in transition):** sources conflict for 2026 — earlier listings pair Pierre-Olivier Gourinchas with Ayhan Kose, while 2026 materials name Jesús Fernández-Villaverde (Editor) and Emine Boz (Co-Editor). Confirm the sitting editor on the live Palgrave editorial-board page.
 - Exact **submission fee / OA APC, word limits, abstract limits, and blinding rules** are **待核实** if not visible on the official pages above — confirm at submission time.
 - Exemplar articles must be verified in the official archive or DOI page before being cited as real examples.

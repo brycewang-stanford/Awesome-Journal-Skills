@@ -20,10 +20,11 @@ Primary source map for facts used in the World Development skill pack. **Access 
 | poverty mechanism | Official pages above; re-check live before submission |
 | implementation constraint | Official pages above; re-check live before submission |
 
-## Verified on official pages (2026-06)
+## Verified on official pages (2026-06-22)
 
-- **Editor-in-Chief: Arun Agrawal** (EiC since 2013; confirm currency on the live page).
-- **Open-access APC: USD 4,750** (excl. tax), with discounts possible by institutional agreement, country, or eligibility assessed at submission. (Elsevier World Development open-access page)
+- **Co-Editors-in-Chief: Jampel Dell'Angelo (Vrije Universiteit Amsterdam) and Angelika Rettberg (Universidad de los Andes).** (Elsevier/ScienceDirect World Development editorial-board page; corroborated by journal references; accessed 2026-06-22.) **STALE-FIX:** the prior "Editor-in-Chief: Arun Agrawal (since 2013)" is out of date — Agrawal led the journal 2013–2021 and has since stepped down; do not use it. Re-verify on the live page before naming an editor.
+  - https://www.sciencedirect.com/journal/world-development/about/editorial-board
+- **Open-access APC: USD 4,750** (excl. tax), with discounts possible by institutional agreement, country, or eligibility assessed at submission. (Elsevier World Development open-access page; accessed 2026-06-22.)
 
 ## Unverified / volatile items
 

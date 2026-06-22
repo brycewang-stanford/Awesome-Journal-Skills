@@ -25,8 +25,13 @@ Primary source map for facts used in the JMCB skill pack. **Access date: 2026-06
 - **Open-access APC (optional): US$3,990 / £2,690 / €3,330**, potentially covered by a Wiley Open Access Account or the OhioLINK–Wiley agreement (2024-01-01 to 2026-12-31). (Wiley JMCB open-access page)
 - Latest issue at access time: **Vol. 58, Issue 3 (April 2026)** (Wiley Online Library).
 
+## Verified editors (2026-06-22)
+
+- **Editors:** Sanjay Chugh (Ohio State), Pok-sang Lam (Ohio State), Robert DeYoung (Kansas), and Kenneth D. West (Wisconsin–Madison); additional editor listings include Luc Laeven (ECB) and Jing Cynthia Wu (Illinois Urbana–Champaign). (Wiley editorial-board page; OSU JMCB Boards page; accessed 2026-06-22.) Re-verify on the live Wiley/OSU board before tailoring a cover letter, as desks rotate.
+  - https://onlinelibrary.wiley.com/page/journal/15384616/homepage/editorialboard.html
+  - https://economics.osu.edu/about-us/journal-money-credit-banking/jmcb-boards
+
 ## Unverified / volatile items
 
-- Current **editor names** and board composition are **待核实** — confirm on the official Wiley/OSU page at submission time (not quoted here to avoid asserting a stale roster).
 - Exact **word limits, abstract limits, and blinding rules** are **待核实** if not visible on the official pages above.
 - Exemplar articles must be verified in the official archive or DOI page before being cited as real examples.

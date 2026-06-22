@@ -14,7 +14,7 @@ description: Use when running the final pre-submission preflight for World Devel
 
 ## Process facts (检索于 2026-06；以官网为准)
 
-- WD is **Elsevier's** multidisciplinary development-studies journal (ISSN 0305-750X; online 1873-5991), founded 1973, published monthly. Submission is through **Elsevier Editorial Manager** (verify the live link). Editors as of 2026: **Jampel Dell'Angelo and Angelika Rettberg** (待核实 — re-confirm on the journal page).
+- WD is **Elsevier's** multidisciplinary development-studies journal (ISSN 0305-750X; online 1873-5991), founded 1973, published monthly. Submission is through **Elsevier Editorial Manager** (verify the live link). Co-Editors-in-Chief (verified 2026-06-22): **Jampel Dell'Angelo and Angelika Rettberg** — Arun Agrawal (EiC 2013–2021) has since stepped down. Re-confirm on the live journal page before naming an editor.
 - **Review model: double-anonymized.** Author and reviewer identities are mutually concealed — this drives the anonymization requirements below.
 - **Abstract ≤250 words**, single unstructured paragraph; **3–6 keywords** in English; abstract must stand alone (no undefined abbreviations, no in-text references).
 - **Article length / word limit: 待核实.** WD full articles are substantial; confirm the current maximum on the live Guide for Authors before relying on any number — do not assume a short limit borrowed from a sibling title.
