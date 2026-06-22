@@ -21,7 +21,7 @@ RAST advertises **prompt turnaround** and — importantly — an explicit tradit
 - **Decisions can be terse.** A first-round reject may come with limited feedback; do not read brevity as carelessness — read it as the process working as designed.
 - **An R&R is a strong signal.** When RAST does issue an R&R rather than a first-round decision, it is a meaningful vote of confidence; treat the editor's letter as the binding map (see `revacc-rebuttal`).
 
-Process facts to keep straight: **double-blind** review, **Editorial Manager** portal, **USD $500 fee within 7 days** (all 待核实; 检索于 2026-06).
+Process facts to keep straight: **double-blind** review, **Editorial Manager** portal (both 待核实; 检索于 2026-06), and the **USD $500 fee within 7 days** (verified on the Springer submission guidelines, 核查于 2026-06-22; desk rejection refunds the fee minus a US$75 admin charge — re-verify before submitting).
 
 ## The RAST Conference path
 

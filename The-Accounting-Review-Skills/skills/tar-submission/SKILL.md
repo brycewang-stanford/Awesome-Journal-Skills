@@ -35,8 +35,9 @@ description: Use when running the final pre-submission preflight for a The Accou
 - **Plagiarism screening:** applied to all manuscripts.
 - **Submission caps:** an individual author is limited to **eight (8) first-round submissions** over a
   rolling 24-month period (R&R papers do not count); **no more than 10 authors** on the byline.
-- **Fee (待核实):** non-refundable submission fee, listed as **$270 AAA members / $645 non-members**,
-  paid via the AAA portal at submission — re-confirm the current amount.
+- **Fee (verified 2026-06-22):** non-refundable submission fee of **$285 AAA members / $680 non-members**
+  per the current Guide for Authors, paid via the AAA portal at submission (this is separate from the
+  optional open-access Article Publishing Charge) — re-confirm the current amount before submitting.
 - **IRB:** human-subjects documentation required for experimental/survey work.
 - **Data authenticity:** code/data package per data type (see below) is part of submission.
 

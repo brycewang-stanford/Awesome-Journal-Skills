@@ -16,7 +16,7 @@ description: Use when anticipating or interpreting the Journal of Accounting and
 
 1. **Editor suitability screen.** Every submission is first assessed by an editor for suitability. Because JAE enforces a high **economics-relevance bar**, papers judged off-fit (normative, behavioral, practitioner-oriented, or thin on economic mechanism) can be **desk-rejected without review** or redirected to another journal via Elsevier's **Article Transfer Service**.
 2. **Double-anonymized review.** Suitable papers go to a **minimum of two** independent expert reviewers; author and reviewer identities are concealed from each other.
-3. **Editor decision.** The **Editor makes the final decision, and that decision is final.** Treat JAE as a compact editor-final model rather than INFORMS-style departmental area-editor routing. Reopen the current ScienceDirect editorial-board page before naming editors or associate editors in author-facing advice.
+3. **Editor decision.** The **Editor makes the final decision, and that decision is final.** Treat JAE as a compact editor-final model rather than INFORMS-style departmental area-editor routing. As of 2026-06-22 the journal's Editors are **John Core (MIT Sloan), Ed deHaan (Stanford GSB), and Wayne R. Guay (Wharton)**; reopen the current ScienceDirect editorial-board page to re-verify before naming editors or associate editors in author-facing advice.
 
 ## What reviewers push on
 

@@ -18,7 +18,8 @@ description: Use when a Review of Accounting Studies (RAST) manuscript is close 
 | Item | What to do | Status |
 |------|------------|--------|
 | Portal | Submit through **Editorial Manager** (Springer) | 待核实; 检索于 2026-06 |
-| Submission fee | **USD $500**, payable **within 7 days** or the manuscript is removed | 待核实; 检索于 2026-06 |
+| Submission fee | **USD $500**, payable **within 7 days** or the manuscript is removed (desk rejection refunds the fee minus a **US$75** admin charge) | verified on the Springer submission guidelines, 核查于 2026-06-22; re-verify before submitting |
+| Managing Editor | **Lakshmanan (Shiva) Shivakumar** (London Business School) | verified 2026-06-22 (Springer editorial-board page via snippets + LBS pages); re-verify masthead |
 | Review model | **Double-blind** — anonymize the manuscript fully | 待核实 |
 | Abstract limit | ~**150–250 words** | 待核实 |
 | Length | Confirm any page/word limit on the official guidelines page | 待核实 |

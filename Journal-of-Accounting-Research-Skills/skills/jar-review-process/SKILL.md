@@ -14,7 +14,7 @@ description: Use when setting expectations for how Journal of Accounting Researc
 
 ## How JAR is governed and decides
 
-JAR has **no single editor-in-chief**. It is run by a panel of **Senior Editors** (Philip G. Berger, Anna Costello, Luzi Hail, Valeri Nikolaev, Haresh Sapra, Laurence van Lent, Regina Wittenberg Moerman), supported by ~18 Associate Editors and Editorial Manager Lisa M. Heiberger. A submission is assigned to a Senior Editor who, typically with one or more Associate Editors and external referees, runs a **double-anonymized** review of regular manuscripts. The journal is sponsored by the **Chookaszian Accounting Research Center at Chicago Booth** and published with Wiley-Blackwell — a single-center "house" identity rather than a scholarly-society journal.
+JAR has **no single editor-in-chief**. It is run by a panel of **Senior Editors** (as of 2026-06-22: Philip G. Berger, Anna Costello, Luzi Hail, Valeri Nikolaev, Haresh Sapra, Laurence van Lent, Regina Wittenberg Moerman; Christian Leuz stepped down June 30, 2025 and Hans B. Christensen joins July 1, 2026 — re-verify the masthead), supported by ~18 Associate Editors and Editorial Manager Lisa M. Heiberger. A submission is assigned to a Senior Editor who, typically with one or more Associate Editors and external referees, runs a **double-anonymized** review of regular manuscripts. The journal is sponsored by the **Chookaszian Accounting Research Center at Chicago Booth** and published with Wiley-Blackwell — a single-center "house" identity rather than a scholarly-society journal.
 
 ## Gates before and during review
 
