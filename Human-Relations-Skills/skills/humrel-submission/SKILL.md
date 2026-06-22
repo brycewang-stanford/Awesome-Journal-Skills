@@ -23,7 +23,7 @@ description: Use when running the final pre-submission preflight for Human Relat
 - **AI policy:** any AI use must be **declared at submission and detailed in the cover letter**; AI is permitted only for copy-editing/proofing — using it otherwise, or undisclosed, is grounds for rejection/retraction.
 - **Data transparency matrix:** if multiple papers draw on the same dataset, declare them and supply a matrix of which variables/quotations each uses; violation is grounds for rejection.
 - Manuscripts are checked with **iThenticate/CrossCheck** for prior publication; HR follows **COPE** standards.
-- Co-Editors-in-Chief: **Smriti Anand and Penny Dick** (检索于 2026-06；以官网为准) — address the cover letter to the editors, not a named individual unless verified.
+- Co-Editors-in-Chief: **Smriti Anand and Penny Dick** (verified 2026-06-22 via the journal editorial-team page; re-verify before submission) — address the cover letter to the editors, not a named individual unless verified.
 
 ## Preflight checklist
 

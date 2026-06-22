@@ -20,9 +20,9 @@ Primary source map for facts used in the JMS skill pack. **Access date: 2026-06.
 | critical boundary | Official pages above; re-check live before submission |
 | international management | Official pages above; re-check live before submission |
 
-## Verified on official pages (2026-06)
+## Verified on official pages (2026-06-22)
 
-- **Team-based General Editors (no single EiC): Johann Fortwengel (King's College London), Corinne Post (Villanova University), and Kristina Potočnik (University of Edinburgh).** Official journal of the **Society for the Advancement of Management Studies (SAMS)**, published by **Wiley**. (Wiley JMS editorial board)
+- **Team-based General Editors (no single EiC): Johann Fortwengel (King's College London), Corinne Post (Villanova University), and Kristina Potočnik (University of Edinburgh).** Official journal of the **Society for the Advancement of Management Studies (SAMS)**, published by **Wiley**. Verified 2026-06-22 via Wiley JMS editorial board + SAMS announcement (socadms.org.uk). Re-verify before submission as the General Editor team rotates.
 
 ## Unverified / volatile items
 

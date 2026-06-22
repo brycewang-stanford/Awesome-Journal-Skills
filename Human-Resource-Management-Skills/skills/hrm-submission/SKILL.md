@@ -19,7 +19,7 @@ description: Use when running the final pre-submission preflight for a Human Res
 - **Editorial screen:** the **Editor-in-Chief determines whether a paper meets the quality and relevance bar before it is sent to review** — papers without a clear scholarly advance *and* a practical implication are desk-rejected.
 - **References: APA style** (检索于 2026-06；以官网为准).
 - **Data sharing:** Wiley's data-availability policy applies; include an appropriate **data-availability statement** (检索于 2026-06；以官网为准).
-- **Editorial team:** Co-Editors-in-Chief **Fang Lee Cooke** and **Shaun Pichler (Co-EIC from Jan 2025)** (检索于 2026-06；以官网为准).
+- **Editorial team:** Co-Editors-in-Chief **Fang Lee Cooke** (Monash) and **Shaun Pichler** (Cal State Fullerton; co-EiC from Jan 2025) (verified 2026-06-22 via Wiley; re-verify before submission as the board rotates).
 - **Exact word/abstract limits, article-type list, ORCID requirement, and any APC / open-access options are 待核实** — confirm on the live author-guidelines page before submitting.
 
 ## Preflight checklist

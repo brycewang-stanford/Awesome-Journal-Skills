@@ -20,7 +20,8 @@ description: Use when running the final pre-submission preflight for a Journal o
 - **Length:** typically **10,000–13,000 words inclusive of tables, figures, and references**; manuscripts substantially over (e.g., >15,000) may be returned for reduction before review. `(检索于 2026-06；以官网为准)`
 - **Abstract:** **≤200 words**; **4–6 keywords** in alphabetical order. `(检索于 2026-06；以官网为准)`
 - **Article types:** Original Articles, Review Articles, Special Issues, **Point–CounterPoints** (Point ~9,000–12,000 words; CounterPoint ~7,000 words, editorially curated), and **JMS Says** essays. Confirm the current set and length rules. `(检索于 2026-06；以官网为准)`
-- **No submission fee** is charged at submission for standard articles; open-access APCs apply only if the author chooses OA at acceptance (Wiley hybrid). Do not treat any APC as a submission-time fee. `(检索于 2026-06；以官网为准 — 待核实 exact figures)`
+- **No submission fee** is charged at submission for standard articles; open-access APCs apply only if the author chooses OA at acceptance (Wiley hybrid). Do not treat any APC as a submission-time fee. `(verified 2026-06-22; re-verify the exact OA APC figure before submission)`
+- **General Editors (team-based; no single EiC):** **Johann Fortwengel, Corinne Post, and Kristina Potočnik** (verified 2026-06-22 via Wiley/SAMS; re-verify before naming an editor in a cover letter).
 
 ## Preflight checklist
 

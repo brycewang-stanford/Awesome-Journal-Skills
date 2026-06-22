@@ -19,13 +19,14 @@ Final checks; it does not draft content.
 - ETP is published by **SAGE on behalf of Baylor University** and is the **official journal of USASBE**.
   Submission is through **ScholarOne Manuscripts** at **mc.manuscriptcentral.com/ETP**.
   Manuscript file format: **Word preferred**.
+- **Editor-in-Chief:** **Johan Wiklund (Syracuse University)** is the editor of record (verified 2026-06-22). A 2026 "ETP at 50" editorial signals his departure and an editorial transition; a successor was not yet named publicly as of 2026-06-22, so confirm the current Editor-in-Chief on the SAGE ETP editorial-board page before addressing a cover letter to a named editor.
 - **Peer review is double-anonymized** — the manuscript itself (not just the title page) must be scrubbed of author identity: remove author names/affiliations, anonymize self-citations ("Author, 2020"), strip acknowledgments and identifying file metadata, and avoid telltale dataset or institution references.
 - **Length:** Original Articles are typically **≤40 pages**, double-spaced, **12-pt Times New Roman**, **1-inch margins** (no lower limit). **Research Briefs ≤20 pages** plus tables and references.
   Confirm whether tables/references count against the limit on the current author-instructions page (待核实).
 - **References:** **APA** style throughout.
 - **Abstract:** required; confirm the exact word limit on the current author-instructions page (待核实).
 - **ORCID, data availability / open-data statements, and any funding/conflict declarations:** SAGE policies apply — confirm which are required at submission on the current page (待核实).
-- **Fees:** ETP is a subscription journal; there is no submission fee, and an APC applies only if you choose open access (Sage Choice) — confirm current APC and waiver terms before relying on them (待核实).
+- **Fees:** ETP is a subscription (hybrid) journal; there is **no submission fee**, and an APC applies only if you choose open access (Sage Choice) (verified 2026-06-22) — confirm the current APC figure and waiver terms before relying on them.
 
 ## Preflight checklist
 

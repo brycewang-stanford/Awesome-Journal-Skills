@@ -20,12 +20,12 @@ Primary source map for facts used in the Human Relations skill pack. **Access da
 | employment institution | Official pages above; re-check live before submission |
 | qualitative insight | Official pages above; re-check live before submission |
 
-## Verified on official pages (2026-06)
+## Verified on official pages (2026-06-22)
 
 - Published **monthly by SAGE on behalf of the Tavistock Institute of Human Relations** (London); established 1947. (humanrelationsjournal.org / SAGE)
+- **Co-Editors-in-Chief: Smriti Anand (Illinois Institute of Technology) and Penny Dick (Sheffield University Management School).** Verified 2026-06-22 via the journal editorial-team page (<https://www.humanrelationsjournal.org/about/editorial-team/>) corroborated by SAGE listings. Re-verify before submission as the role rotates.
 
 ## Unverified / volatile items
 
-- **Current Editor-in-Chief** is **待核实** (not surfaced on the checked pages) — confirm on the SAGE / humanrelationsjournal.org editorial board.
 - Exact **submission fee / OA APC, word limits, abstract limits, and blinding rules** are **待核实** if not visible on the official pages above — confirm at submission time.
 - Exemplar articles must be verified in the official archive or DOI page before being cited as real examples.

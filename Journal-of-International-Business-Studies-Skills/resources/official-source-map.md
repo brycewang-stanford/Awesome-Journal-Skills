@@ -78,7 +78,9 @@ guidelines before submission because Springer/AIB pages can change.
 
 - Use **mc.manuscriptcentral.com** as the live submission route unless the Springer/AIB page changes it.
 - Treat **Rosalie L. Tung** as current Editor in Chief and **Anne Hoekman** as Managing Editor based on
-  the live Springer journal home and editorial board.
+  the live Springer journal home and editorial board (re-confirmed 2026-06-22; the Springer masthead
+  still lists Tung). Note her originally announced term was 2023–2025, so re-verify the Editor in Chief
+  on the Springer/AIB editorial-board page before submission in case of an editorial transition.
 - Do not describe the full-article word count as including tables/figures/supplemental appendices; the
   current official wording includes abstract, text, endnotes, and references, while tables, figures, and
   online supplemental appendices can follow.
