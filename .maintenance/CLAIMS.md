@@ -51,7 +51,7 @@ Science does NOT contain Cell Press "STAR Methods"; earlier claim retracted.)
 | American-Historical-Review-Skills | Claude | in progress | SkillOpt scale-up: ahr-submission behavioral loop; add verified review-count/acceptance-rate/decision-timeline facts |
 | Journal-of-the-American-Academy-of-Religion-Skills | Claude | in progress | SkillOpt scale-up: jaar-submission behavioral loop; add verified 106-day/≈90%-reject/grad-review-policy facts |
 | Progress-in-Human-Geography-Skills | Claude | assessed | SkillOpt triage: submission skill already well-calibrated; facts genuinely volatile (需复核) — no high-value verified edit, gate would reject padding |
-| SkillOpt scale-up wave (anthro/socio/comm/educ/geo/humanities submission skills) | Claude | in progress | AA, CurrAnthro, ASR, AJS, ARSoc, EurSR, SMR, SocTheory, JoC, CommRes, AERJ, RevEdRes, JEdPsych, AAAG, PMLA, Mind — submission-skill fact-fill, source-map-grounded, validation-gated; avoids parallel law/poli-sci/public-admin/econ lanes |
+| SkillOpt scale-up wave (anthro/socio/comm/educ/geo/humanities submission skills) | Claude | done | 16 packs optimized over 4 waves (commits 05b73424/d57b9d08/e932b38f/f322301d), held-out behavioral +6 to +72, all gate-accepted, every fact source-map-grounded; static scores unchanged. 19 skills optimized + PiHG triaged; report.py --check green |
 | Quarterly-Journal-of-Economics-Skills | A | in progress | golden template; deep venue research |
 | Journal-of-Political-Economy-Skills | A | queued | |
 | Econometrica-Skills | A | queued | |
