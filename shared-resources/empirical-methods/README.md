@@ -13,6 +13,7 @@ layer (exemplars + word limits + house style from their own
 |---|---|
 | [`reviewer-objection-checklist.md`](reviewer-objection-checklist.md) | The objections referees actually raise at top empirical journals, by identification strategy (DiD / IV / RDD / DML / matching / mechanism), each with the preemption that defuses it. Stress-test a design *before* drafting. |
 | [`reporting-standards.md`](reporting-standards.md) | The inference + reporting choices now treated as table stakes: SE clustering, weak-IV diagnostics, multiple-testing corrections, DiD/RDD reporting, reproducibility. Stata-first with R/Python equivalents. |
+| [`execution-with-mcp.md`](execution-with-mcp.md) | **The last mile: guidance → a fitted, audited result.** Maps each design family and each reviewer objection to the concrete StatsPAI / Stata MCP tools available in this environment, so a skill *runs* the Callaway–Sant'Anna estimate / weak-IV-robust CI / multiple-testing correction instead of only recommending it. Venue-neutral; defers placement & house style to each pack. |
 | [`code/`](code/) | A reproducible Stata + Python skeleton (clean → descriptive → DiD/IV/RDD/DML → mechanism → robustness → tables). Adapted from the **verified** ERJ library (run on Stata 18 MP, 2026-06). |
 
 ## Who should use this
