@@ -18,8 +18,8 @@ description: Use to choose the PNAS Nexus article type, structure the main text,
 | Article type | Length (confirm current guidelines) | Use it for |
 |--------------|--------------------------------------|------------|
 | **Research Report** | preferred **6 pages**, **max 12** (a standard 6-pp article ≈ **4,000 words, 50 references, 4 figures/tables**) | the default for full original research |
-| **Brief Report** | **≤3 pages** | a short, complete, single-point study |
-| **Registered Report — Stage 1** | **≤3 pages** (intro + methods + analysis plan, pre-results) | hypothesis-driven study reviewed *before* data collection |
+| **Brief Report** | **≤3 pages** (≈1,600 words, 15 refs) | a short, complete, single-point study |
+| **Registered Report — Stage 1** | **≤3 pages** (≈1,600 words; intro + methods + analysis plan, pre-results) | hypothesis-driven study reviewed *before* data collection |
 | **Registered Report — Stage 2** | preferred **6 pages / 4,000 words**, **max 12** | the completed study after Stage-1 in-principle acceptance |
 | **Perspective** | **≤10 pages** | a forward-looking, evidence-grounded opinion (may be unsolicited) |
 | **Review** | **≤10 pages** | a synthesis of a field (may be unsolicited) |

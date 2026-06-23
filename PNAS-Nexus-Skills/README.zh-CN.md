@@ -158,8 +158,8 @@ pnasnexus-rebuttal       （评审之后）
 出品。其中所有指标（词数/页数、数量上限、费用、许可证选项、政策规则）反映写作时（**访问日期 2026-06-23**）公开
 的作者指南，并在 [`resources/official-source-map.md`](resources/official-source-map.md) 中附来源记录——投稿前
 **务必对照当前的 [PNAS Nexus 作者指南](https://academic.oup.com/pnasnexus/pages/general-instructions)** 核实。
-**APC 金额按地区/类型个性化**，**必须在 OUP 计算器中实时确认**；本包刻意不写死具体数字。主编会轮换，投稿时请
-再核实在任主编。
+**APC 金额按地区/类型个性化**，**必须在 OUP 计算器中实时确认**；OUP 不公布固定刊例（公开第三方数据库口径不一，
+约 **US$2,200–4,200**），实际计费金额按地区/类型而异，且可能被减免或豁免。主编会轮换，投稿时请再核实在任主编。
 
 ---
 

@@ -21,7 +21,7 @@ PNAS Nexus is **fully gold open access**: every published article is free to rea
 ## The gold-OA model and the APC
 
 - **Gold OA, mandatory.** Every article is OA on publication under a Creative Commons license; **authors retain copyright**. The journal states it "complies with all major funder mandates."
-- **An APC applies.** **Do not quote a fixed figure from memory.** OUP prices the APC through a **region-personalized charges calculator** on the author-instructions page — the binding amount depends on **article category, the corresponding author's region/country, and any membership or institutional discount**. Third-party trackers report low-thousands-USD figures but **disagree with one another**, so treat any number as **indicative only** and **confirm the exact amount live in the OUP calculator at submission**.
+- **An APC applies, but OUP publishes no fixed figure.** OUP prices the APC through a **region/category-personalized calculator** on the author-instructions page, so the amount billed depends on **article category, the corresponding author's region/country, and any membership/institutional discount**, and **LMIC waivers or Read & Publish can reduce or eliminate it**. Public trackers **disagree** on the headline number (DOAJ ≈US$4,202 vs ≈US$2,200 elsewhere), and neither is confirmable on the live calculator — so treat the APC as **indicative only (roughly US$2,200–4,200)** and **confirm the exact amount live in the OUP calculator at submission**.
 - **No separate submission/editorial fee** is documented — the APC is the only charge (confirm at submission).
 
 ## Ways the APC can be reduced or waived (check all that apply)
@@ -79,7 +79,7 @@ PNAS Nexus offers **two** Creative Commons licenses (as of the February-2024 cha
 
 ## Anti-patterns
 
-- **Do not** quote a specific APC figure as fact — confirm it live in the OUP calculator (the amount is region/category-personalized).
+- **Do not** treat any APC figure (trackers disagree, ≈US$2,200–4,200) as the final amount — OUP publishes no fixed figure; it is region/category-personalized and may be waived/discounted; confirm it live in the OUP calculator.
 - **Do not** assume there is a subscription/non-OA way to avoid the APC — there isn't.
 - **Do not** pick CC BY-NC when a funder requires CC BY — it can break compliance.
 - **Do not** reassign the corresponding author solely to capture Read & Publish funding (not permitted).

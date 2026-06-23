@@ -166,9 +166,10 @@ targets (word/page counts, item limits, fees, license options, policy rules) ref
 author guidelines at the time of writing (**access date 2026-06-23**) and are recorded with sources in
 [`resources/official-source-map.md`](resources/official-source-map.md) — **always confirm against the
 current [PNAS Nexus author guidelines](https://academic.oup.com/pnasnexus/pages/general-instructions)**
-before submitting. The **APC amount is region/category-personalized** and **must be confirmed live** in
-OUP's calculator; this pack deliberately does not assert a fixed figure. Editors rotate; re-verify the
-sitting editor-in-chief at submission time.
+before submitting. The **APC is region/category-personalized** and **must be confirmed live** in
+OUP's calculator; OUP publishes no fixed figure (public third-party trackers disagree, ≈US$2,200–4,200),
+and the billed amount varies by region/category and may be waived or discounted. Editors rotate;
+re-verify the sitting editor-in-chief at submission time.
 
 ---
 

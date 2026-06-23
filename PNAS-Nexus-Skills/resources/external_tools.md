@@ -8,7 +8,7 @@ A working list of repositories, software, and references useful when preparing a
 
 | Need | Where |
 |------|-------|
-| The binding APC (region/category-personalized) | OUP charges calculator on the [author-instructions page](https://academic.oup.com/pnasnexus/pages/general-instructions) — **confirm live; do not quote a remembered figure** |
+| The binding APC (region/category-personalized) | OUP charges calculator on the [author-instructions page](https://academic.oup.com/pnasnexus/pages/general-instructions) — **confirm live; OUP publishes no fixed figure.** Third-party trackers disagree (≈US$2,200–4,200; [DOAJ](https://doaj.org/toc/2752-6542) ≈US$4,202); the billed amount is personalized and may be waived/discounted |
 | OUP open-access charges, licenses & self-archiving | https://academic.oup.com/pages/open-research/open-access/charges-licences-and-self-archiving |
 | Read & Publish / transformative agreements (institution pays) | check your library or OUP's institutional-agreements list |
 | LMIC waiver/discount + discretionary waiver | OUP low- and middle-income-countries initiative; request at submission (historically openaccess@oup.com — confirm) |

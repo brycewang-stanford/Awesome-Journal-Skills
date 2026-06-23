@@ -1,6 +1,6 @@
 ---
 name: pnasnexus-abstract
-description: Use to write the PNAS Nexus abstract — a single self-contained paragraph of up to 250 words, with no headings, quantified and accessible to a broad scientific audience. Distinguishes the abstract (what/how/found, for scientists) from the 50-120-word Significance Statement (why-it-matters, for everyone). Late-stage polish.
+description: Use to write the PNAS Nexus abstract — a single self-contained paragraph of up to 250 words, with no headings, quantified and accessible to a broad scientific audience. Distinguishes the abstract (what/how/found, for scientists) from the 50–120-word Significance Statement (why-it-matters, for everyone). Late-stage polish.
 ---
 
 # Abstract (pnasnexus-abstract)

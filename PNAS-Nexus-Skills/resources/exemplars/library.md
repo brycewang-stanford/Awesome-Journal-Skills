@@ -4,9 +4,9 @@
 > actually appeared in ***PNAS Nexus*** (Oxford University Press, on behalf of the U.S. National Academy
 > of Sciences; e-ISSN 2752-6542) — each carries a **`10.1093/pnasnexus/…` DOI** corroborated across **two
 > independent sources** (the OUP article page at academic.oup.com/pnasnexus **and** PubMed Central /
-> PubMed). Candidates that could not clear the two-source bar were **omitted and documented** at the
-> bottom. This is deliberately a short, clean, verified list rather than a long, uncertain one
-> (**5 verified > 15 guessed**).
+> PubMed; most are also confirmed on **Crossref**, i.e. three sources). Candidates that could not clear
+> the two-source bar were **omitted and documented** at the bottom. This is deliberately a short, clean,
+> verified list rather than a long, uncertain one (**8 verified > 20 guessed**).
 >
 > **Sibling-confusion guard — read this first.** PNAS Nexus is **NOT** flagship *PNAS*. The single most
 > common error is treating a `10.1073/pnas…` DOI as PNAS Nexus — **it is not** (that prefix is the
@@ -93,6 +93,35 @@ and [`../../skills/pnasnexus-abstract/SKILL.md`](../../skills/pnasnexus-abstract
   - **Self-check:** does your study's **framing** make the cross-disciplinary relevance explicit, rather
     than leaving the reader to guess why a neighbouring field should care?
 
+### Cell biology / genome engineering — proof-of-concept method (Biological, Health & Medical)
+
+- **Hashizume, Wakita, Sawada, et al., "Trisomic rescue via allele-specific multiple chromosome cleavage using CRISPR-Cas9 in trisomy 21 cells," *PNAS Nexus* 2025, 4(2):pgaf022.**
+  DOI **10.1093/pnasnexus/pgaf022** (academic.oup.com/pnasnexus; PMC11832276; Crossref).
+  - **Why it is an exemplar:** a focused genome-engineering proof of concept (allele-specific elimination
+    of a surplus chromosome) on a problem — Down syndrome cell biology — whose significance any reader
+    can grasp. A "high-impact" Research Report whose method could travel to other aneuploidy contexts.
+  - **Self-check:** is your method a *general capability* others could adopt, not a one-off result?
+
+### Structural biochemistry / vaccinology — protein engineering + cryo-EM (Biological, Health & Medical)
+
+- **Juraszek, Milder, Yu, et al., "Engineering a cleaved, prefusion-stabilized influenza B virus hemagglutinin by identification and locking of all six pH switches," *PNAS Nexus* 2024, 3(10):pgae462.**
+  DOI **10.1093/pnasnexus/pgae462** (academic.oup.com/pnasnexus; PMC11497598; PMID 39445049).
+  - **Why it is an exemplar:** rational protein engineering verified by structural characterization — a
+    rigorous, mechanism-anchored Research Report with clear vaccine-design relevance that reaches
+    structural biologists, immunologists, and biotechnologists alike.
+  - **Self-check:** is your central structural/mechanistic claim **independently corroborated** (here, by
+    structure determination), as a broad-audience biology paper is expected to be?
+
+### Decentralized systems / computational social science — living-lab field experiment (Physical Sciences & Engineering)
+
+- **Pournaras, Ballandies, Bennati & Chen, "Collective privacy recovery: Data-sharing coordination via decentralized artificial intelligence," *PNAS Nexus* 2024, 3(2):pgae029.**
+  DOI **10.1093/pnasnexus/pgae029** (academic.oup.com/pnasnexus; PMC10847902; PMID 38328783).
+  - **Why it is an exemplar:** filed under Computer Sciences within Physical Sciences & Engineering, yet
+    its question (privacy, data sharing) is squarely social — a built-in cross-division reach via a
+    living-lab experiment plus decentralized-AI methods.
+  - **Self-check:** does your engineering/CS contribution carry a **social or policy payoff** that a
+    non-engineer would immediately see?
+
 ---
 
 ## By field (each cell is a verified PNAS Nexus article above)
@@ -104,20 +133,20 @@ and [`../../skills/pnasnexus-abstract/SKILL.md`](../../skills/pnasnexus-abstract
 | Physical/Engineering | Wang et al. (… Seinfeld), "Atmospheric sulfate aerosol … interfacial anions" | 2025, 4(3):pgaf058 | pgaf058 | Lab + theory + field |
 | Social & Political | Milli et al., "Engagement … amplification of divisive content …" | 2025, 4(3):pgaf062 | pgaf062 | Preregistered algorithmic audit |
 | Social/Political × Eng | Lampinen et al., "Language models … content effects on reasoning" | 2024, 3(7):pgae233 | pgae233 | Human-vs-model comparison |
+| Bio/Health/Medical | Hashizume et al., "Trisomic rescue … CRISPR-Cas9 in trisomy 21 cells" | 2025, 4(2):pgaf022 | pgaf022 | Genome-engineering proof of concept |
+| Bio/Health/Medical | Juraszek et al., "Engineering a … prefusion-stabilized influenza B … hemagglutinin" | 2024, 3(10):pgae462 | pgae462 | Protein engineering + structure |
+| Physical/Engineering (CS) | Pournaras et al., "Collective privacy recovery …" | 2024, 3(2):pgae029 | pgae029 | Living-lab + decentralized AI |
 
 All three PNAS Nexus divisions are represented, with several articles deliberately straddling two — the
 cross-disciplinary reach the journal rewards.
 
 ---
 
-## Omitted for lack of two-source verification (do NOT cite as confirmed until re-checked)
+## Verification protocol (keep this list zero-hallucination)
 
-To keep this list zero-hallucination, candidates that did not clear the **two-source** bar were excluded:
-
-- **"Trisomic rescue via allele-specific multiple chromosome cleavage using CRISPR-Cas9 in trisomy 21
-  cells," reported as *PNAS Nexus* 2025, 4(2):pgaf022 (DOI 10.1093/pnasnexus/pgaf022).** The OUP
-  "High-Impact Research" listing was seen, but a second independent source (PMC/PubMed) was **not**
-  confirmed in this pass. Verify on PMC/PubMed before treating it as an exemplar.
+Every entry above cleared the two-source bar (most cleared three: OUP + PMC/PubMed + Crossref). The
+trisomy-21 CRISPR paper (pgaf022) was initially held back for a missing second source and was **promoted
+into the library only after** PMC and Crossref independently confirmed it — that is the standard to keep.
 
 Before adding any new article to this library, confirm a **`10.1093/pnasnexus/…` DOI** on
 academic.oup.com/pnasnexus **and** a second source (PMC/PubMed/Crossref), check the **year code** in the
