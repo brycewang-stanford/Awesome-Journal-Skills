@@ -36,3 +36,36 @@ They are not paper exemplars.
   official repository before routing.
 - Annual Review and Trends titles (`annual-review-of-plant-biology`,
   `trends-in-food-science-and-technology`) are invited reviews; confirm invitation.
+
+## Claim Scale And Evidence Scale
+
+- Plot- or greenhouse-scale evidence can support a mechanism or local management
+  result, but it should not be framed as a regional or global result without
+  validation at that scale.
+- Multi-site, multi-season, or independently replicated evidence can justify a
+  field-flagship route when the management or ecological implication is explicit.
+- Model projections need sensitivity analysis, validation, and enough configuration
+  detail to reproduce the result; the journal route follows the modeling contribution,
+  not only the case-study region.
+
+## Endpoint Fit
+
+- Environmental-health venues need exposure, risk, or outcome inference; contaminant
+  detection alone usually belongs in pollution, environmental chemistry, or process
+  venues.
+- Sustainability venues split by unit of analysis: material-flow and recycling
+  systems route to circular-economy journals, while production/process management
+  interventions route to cleaner-production venues.
+- Climate/ecology venues split by response type: physical climate dynamics, land-
+  atmosphere flux, biogeochemical cycling, and biological response are separate
+  reviewer communities.
+
+## Handoff Discipline
+
+- Preserve the rejected venue in the handoff when it explains a risk: "not Nature
+  Food because the field trial lacks food-systems generality" is more useful than
+  a bare shortlist.
+- Carry the weakest evidence gate forward so the single-journal profile can decide
+  whether to fix the manuscript, narrow the claim, or change venue.
+- Keep volatile limits, fees, editor names, and article-type details out of routing
+  logic; resolve them only through the official-source checklist at submission time.

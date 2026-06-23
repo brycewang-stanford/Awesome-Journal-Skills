@@ -26,6 +26,36 @@ skill for fit and re-framing. It is a sibling to `en-natsci-journal-workflow`
 4. **Audience breadth:** broad significance (a Nature Portfolio title), a whole
    sub-field (a society flagship), or a specialist community?
 
+## Pre-routing evidence gates
+
+Before naming a journal, classify the manuscript through these gates. A weak gate
+does not always mean "do not submit"; it usually means route down to a specialist
+venue, reframe the claim, or fix the evidence before testing a higher-prestige
+venue.
+
+| Gate | Pass signal | If weak |
+|---|---|---|
+| Contribution | A mechanism, management implication, method, projection, or dataset that transfers beyond the study site | Reframe as a local case study, technical note, or specialist-field result |
+| Evidence strength | Replicated sites/seasons/systems, transparent uncertainty, and controls matched to the claim | Do not route to broad Nature/society flagships; strengthen replication first |
+| Scale match | Claim scale matches the evidence scale: plot, field, landscape, regional, global, or dataset | Narrow the title/abstract and select a venue that accepts the actual scale |
+| Data/code readiness | Data, code, model configuration, and metadata can be deposited or shared under field norms | Treat deposition as a blocker for ESSD, earth-system, hydrology, and reuse claims |
+| Compliance | Permits, ethics, biosafety, field-site permissions, and competing-interest disclosures are known | Pause final routing until the single-journal checklist can verify requirements |
+
+## Evidence-shape escalation
+
+- **Single site-year field trial:** usually specialist agronomy/crop venue; do not
+  pitch as general food-security evidence without multi-site or mechanistic support.
+- **Multi-site or multi-season field trial:** can support field flagship routing if
+  management implications and uncertainty are explicit.
+- **Lab/glasshouse mechanism:** plant or soil mechanism venues; needs field or
+  ecological validation before claiming landscape or management impact.
+- **Remote sensing / monitoring survey:** route by validation and generalizability;
+  benchmark against independent observations and document processing code.
+- **Process or earth-system model:** route by the model contribution, sensitivity
+  analysis, and reproducibility package, not only by the application region.
+- **Dataset/data product:** `earth-system-science-data` only when the dataset itself
+  is the product, has persistent identifiers, rich metadata, and a public archive.
+
 ## Quick routing
 
 | Manuscript signature | Prefer skill |
@@ -66,6 +96,10 @@ skill for fit and re-framing. It is a sibling to `en-natsci-journal-workflow`
 | `global-change-biology` vs `agriculture-ecosystems-and-environment` | GCB needs a global-change framing and biological response; AEE needs an agroecosystem-management framing. |
 | Nature Portfolio (`nature-food`/`nature-plants`/`communications-earth-and-environment`) vs society flagships | Nature titles need broad significance and framing; a complete sub-field result routes to the society/specialist journal. |
 | `earth-system-science-data` vs an analysis journal | ESSD is for the dataset itself (documented, publicly deposited with a DOI); the scientific analysis of that data belongs in an analysis journal. |
+| `environment-international` / `environmental-health-perspectives` vs pollution journals | Human-exposure or health-risk inference routes to the health journals; contaminant behavior, remediation, or ecotoxicology routes to the pollution/environmental-process venues. |
+| `journal-of-climate` vs `agricultural-and-forest-meteorology` | Climate dynamics and variability route to Journal of Climate; land-atmosphere fluxes, crop/forest microclimate, and agro-meteorological applications route to AFM. |
+| `global-biogeochemical-cycles` vs `global-change-biology` | Element cycles, fluxes, and earth-system budgets route to GBC; organismal, ecosystem, or biological responses to global change route to GCB. |
+| `resources-conservation-and-recycling` vs `journal-of-cleaner-production` | Circular-material-flow and recycling systems route to RCR; cleaner production, industrial sustainability, and management interventions route to JCP. |
 
 ## Decision rules
 
@@ -83,8 +117,22 @@ skill for fit and re-framing. It is a sibling to `en-natsci-journal-workflow`
   checking scope.
 - **Scale and framing.** Plot/lab, field, landscape, regional, and global results route
   to different venues; match the claim's scale to the journal's audience.
+- **Health, policy, and management claims need the right endpoint.** Do not route
+  a contaminant-detection paper as environmental health unless exposure/outcome
+  inference is actually measured; do not route a sustainability paper as policy unless
+  a decision, intervention, or system boundary is specified.
 - Always enter the single-journal skill's official-submission checklist before
   submitting; never rely on a stale template.
+
+## Handoff protocol
+
+After routing, hand off only the minimum needed context to the single-journal skill:
+
+- the strongest claim the evidence can honestly support;
+- the rejected broader claim, if any, and why it was narrowed;
+- the evidence shape and weakest gate from the table above;
+- the one official requirement most likely to block submission;
+- the alternative venue to keep warm if the first-choice fit fails.
 
 ## Output format
 
@@ -93,6 +141,8 @@ skill for fit and re-framing. It is a sibling to `en-natsci-journal-workflow`
 [Alt 1] <skill-name> (reason)
 [Alt 2] <skill-name> (reason)
 [Do not submit to] <journal> (one-line mismatch reason)
+[Evidence gates] contribution / evidence-strength / scale / deposition / compliance: pass|watch|block
 [Biggest current gap] significance / field-evidence / replication / data-deposition / scale-framing / official requirements
+[Claim to narrow] <claim, or none>
 [Next step] invoke <skill-name> for single-venue fit and re-framing
 ```
