@@ -24,7 +24,7 @@ description: Use when running the final pre-submission preflight for a Journal o
 - **Abstract:** structured/concise abstract, typically **~200–250 words** (待核实 — confirm exact limit and whether structured on the official guidelines).
 - **Length / page limit:** JAMS does not publish a single hard page count the way some AMA journals do; follow the article-type guidance on the official page (待核实 — confirm current limit).
 - **Data & code:** Springer **research-data policy** applies; prepare a **data (and code) availability statement** and deposit references (e.g., OSF / Mendeley Data) where applicable (检索于 2026-06；以官网为准).
-- **Fees:** subscription publication has **no submission fee / no APC**; **Open Access (Hybrid OA)** is optional and carries an article-processing charge for accepted articles only — the Springer hybrid OA APC is **$3,860 USD** as of 2026-06-22 (often covered by Springer transformative agreements). Re-verify the current APC before submission.
+- **Fees:** subscription publication has **no submission fee / no APC**; **Open Access (Hybrid OA)** is optional and carries an article-processing charge for accepted articles only — the Springer hybrid OA APC is **£3,090 GBP / $4,990 USD / €3,990 EUR** (plus applicable VAT/local tax) as of 2026-06-23 (often covered by Springer transformative agreements). Re-verify the current APC before submission.
 
 ## Pre-submission checklist
 

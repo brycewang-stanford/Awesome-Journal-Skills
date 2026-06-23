@@ -28,8 +28,11 @@ description: Use when running the final pre-submission preflight for the Journal
   in a relevant repository and cite/link it, or explain why sharing is not possible. Pure theorem
   papers should still make any numerical or computer-assisted artifact reproducible.
 - **Submission fee vs APC**: the official pages inspected do not list a JET submission fee. Do **not**
-  confuse that with the separate **open-access APC of USD 3,130** (hybrid journal; APC applies only if
-  you choose OA after acceptance).
+  confuse that with the separate **open-access APC, last verified at USD 3,130** excl. tax (hybrid
+  journal; APC applies only if you choose OA after acceptance). A 2026-06-23 re-audit could not
+  independently re-confirm the exact figure (Elsevier now serves APCs through its personalized
+  submission flow, not a static public number), so treat USD 3,130 as the last-verified value and
+  confirm the live amount in the submission system before relying on it.
 - **Abstract / keywords / Highlights**: abstract must not exceed **250 words**; provide **1-7 English
   keywords**. Highlights are encouraged as a separate editable file with **3-5 bullets**, each no more
   than **85 characters**.

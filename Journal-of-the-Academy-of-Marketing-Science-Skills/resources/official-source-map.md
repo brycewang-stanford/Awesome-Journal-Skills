@@ -24,7 +24,7 @@ Primary source map for facts used in the JAMS skill pack. **Access date: 2026-06
 
 - **Co-Editors-in-Chief: Charles H. Noble and Stephanie M. Noble (University of Tennessee), since June 2024.** (Springer JAMS home link.springer.com/journal/11747 / AMS ams-web.org/jams — accessed 2026-06-22)
 - Published by **Springer Nature** for the **Academy of Marketing Science (AMS)**.
-- **Fees:** subscription publication has **no submission fee / no APC**; optional **Hybrid Open Access** APC is **$3,860 USD** (2026), often covered by Springer transformative agreements. (link.springer.com/journal/11747/how-to-publish-with-us — accessed 2026-06-22)
+- **Fees:** subscription publication has **no submission fee / no APC**; optional **Hybrid Open Access** APC is **£3,090 GBP / $4,990 USD / €3,990 EUR** (plus applicable VAT/local tax), often covered by Springer transformative agreements. (link.springer.com/journal/11747/how-to-publish-with-us — independently re-verified 2026-06-23 via the Springer "How to publish with us" page; the earlier "$3,860 USD" figure was unconfirmable on any Springer page and has been corrected.)
 
 ## Unverified / volatile items
 

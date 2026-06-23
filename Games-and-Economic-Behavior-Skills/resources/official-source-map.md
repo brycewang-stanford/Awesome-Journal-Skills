@@ -7,8 +7,13 @@ live-check verification **2026-06-22**.
 **Live-check 2026-06-22:** Editor-in-Chief **Hervé Moulin** (University of Glasgow;
 in role since 1 Jan 2021) re-confirmed via the ScienceDirect new-editor announcement,
 Game Theory Society page, and Elsevier editorial-board listing. Optional gold-OA APC
-**USD 2,860 (excl. tax)** re-confirmed via the ScienceDirect GEB journal/open-access
-listing. No upfront submission fee is stated. Re-verify before submission.
+last verified at **USD 2,860 (excl. tax)** on the ScienceDirect GEB open-access
+listing (2026-06-22). **QA note 2026-06-23:** an independent re-audit could not
+re-confirm this exact figure from a second authoritative source — Elsevier now
+renders journal APCs through its personalized OACS submission flow rather than as a
+static public number, so treat USD 2,860 as the last-verified value and confirm the
+exact APC in the submission system before relying on it. No upfront submission fee is
+stated. Re-verify before submission.
 
 ## Official journal and society pages
 
@@ -33,7 +38,7 @@ listing. No upfront submission fee is stated. Re-verify before submission.
 - **Data policy:** the Guide encourages and enables sharing supporting data where appropriate through repository metadata, Mendeley Data, Data Brief, data statements, and related mechanisms; this is not encoded here as a mandatory repository-deposit gate. (#2)
 - **Files / submission:** editable Word or LaTeX source files are required for final publication; Elsevier Editorial Manager route applies. (#2, #4)
 - **Reference style:** flexible at initial submission if consistent and complete; published style uses the Elsevier numeric/elsarticle format. (#2)
-- **Open access:** hybrid journal; APC displayed on ScienceDirect as USD 2,860 excluding tax for optional gold open access. (#1)
+- **Open access:** hybrid journal; optional gold-OA APC last verified at USD 2,860 excluding tax (ScienceDirect GEB listing, 2026-06-22). A 2026-06-23 independent re-audit could not re-confirm this exact figure from a second authoritative source (Elsevier now serves APCs via its personalized OACS submission flow, not a static public number) — treat as last-verified and confirm the live amount in the submission system. (#1)
 - **AI policy:** authors must declare generative-AI use in manuscript preparation where used; basic grammar/spelling/reference tools do not require a declaration under Elsevier's policy. (#2, #5)
 
 ## Bounded live-check rules
