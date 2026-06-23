@@ -34,7 +34,9 @@ manuscript. Verify volatile specifics on the official submissions page before re
   selection by **student editors**; no Scholastica/ExpressO fee attaches to its own intake (verified
   2026-06-22; 以官网为准).
 - **Leadership:** led by an **annually-elected student Editor-in-Chief**; the masthead **rotates each
-  volume** (current: Volume 135, 2025–2026) — **re-check the live masthead** before naming any EiC.
+  volume** (current: Volume 135, 2025–2026, EiC **Jeremy N. Thomas '26** — a rotating student role, pinned
+  2026-06-23 via Yale Law School news + YBLSA announcement) — **re-check the live masthead** before relying
+  on any EiC name.
 
 ## Preflight checklist
 

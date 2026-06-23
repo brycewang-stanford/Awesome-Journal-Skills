@@ -94,21 +94,31 @@ flags are cleared:
   sponsoring institution = PIIRS / Princeton).
 - **Executive Editor = Emily Babson** (Princeton Institute for International and Regional Studies) —
   read this cycle on the official *Guidelines for Contributors* PDF (the Executive-Editor masthead block
-  and the "Please address all inquiries to Emily Babson, Executive Editor" line). The rotating academic
-  editors/committee remain to be confirmed (see below).
+  and the "Please address all inquiries to Emily Babson, Executive Editor" line).
+- **Editorial-committee chair = Grigore Pop-Eleches** (Professor of Politics and International Affairs,
+  Princeton) — pinned 2026-06-23 to ≥2 first-party Princeton sources: the **Princeton International**
+  news page "Cultivating new audiences for 'World Politics'"
+  (<https://international.princeton.edu/news/cultivating-new-audiences-world-politics>) names
+  "Grigore Pop-Eleches … current chair of the editorial committee" alongside Executive Editor Emily
+  Babson, corroborated by the **PIIRS** mirror of the same article
+  (<https://piirs.princeton.edu/news/2025/cultivating-new-audiences-world-politics>). The **full rotating
+  committee/board roster** still varies across snippets and is left unasserted (see below); confirm the
+  live masthead.
 - **Frequency, founding year, scope, ISSNs** — quarterly, founded 1948, IR + comparative politics,
   ISSN 0043-8871 (print) / 1086-3338 (online), confirmed on Project MUSE this cycle.
 
 ## Still to verify (需复核)
 
-- **Exact academic editors / editorial committee / board and term.** Re-checked 2026-06-22.
-  **Executive Editor Emily Babson** remains confirmed (Princeton WP staff page). The rotating academic
-  editorial committee, board members, and associate editors are listed on the Princeton
+- **Exact academic editorial committee / board roster and term.** Re-checked 2026-06-23.
+  **Executive Editor Emily Babson** and **editorial-committee chair Grigore Pop-Eleches** are now
+  confirmed (≥2 first-party Princeton/PIIRS news pages — see "Resolved this cycle"). The **remaining
+  rotating committee/board members and associate editors** are listed on the Princeton
   (`wpj.princeton.edu/people/editors`) and JHU Press editorial-board pages, which **still returned HTTP
   403 to automated fetches this cycle**; the Cambridge editorial-board page rendered no names. Web-search
-  snippets surface candidate editor names (e.g., Christensen, Pevehouse, M. Roberts, Ross, Carter,
-  Holland), but they appeared inconsistently across snippets and were **not read on a first-party page**,
-  so the academic-editor slate is **left unasserted** — confirm the live masthead in a browser. 需复核.
+  snippets surface candidate names (e.g., Christensen, Pevehouse, M. Roberts, Ross, Carter, Holland,
+  Beissinger, Ikenberry, Pontusson, Riedl, Truex), but they appeared **inconsistently across snippets**
+  and were **not read on a first-party masthead**, so the full non-chair roster is **left unasserted** —
+  confirm the live masthead in a browser. 需复核.
 - **Whether review articles are open to unsolicited submission.** Earlier snapshots say review articles
   are "usually commissioned"; the *Guidelines for Contributors* showcase both research and review
   articles and subject all manuscripts to triple-blind review, but do not state whether review articles

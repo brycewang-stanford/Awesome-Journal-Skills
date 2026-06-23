@@ -61,11 +61,16 @@ journal pages change each volume.
   editors** — so no Scholastica/ExpressO fee attaches to YLJ's own intake either. Verified 2026-06-22;
   以官网为准. (no longer 需复核)
 - **Student leadership (Editor-in-Chief, rotates ANNUALLY).** YLJ is **edited entirely by Yale Law
-  students** and is led by an annually-elected **student Editor-in-Chief** (not a faculty editor). As of
-  2026-06-22 the current volume is **Volume 135 (2025–2026)**; the masthead **turns over every volume**,
+  students** and is led by an annually-elected **student Editor-in-Chief** (not a faculty editor). The
+  current volume is **Volume 135 (2025–2026)**, whose student Editor-in-Chief is **Jeremy N. Thomas '26**
+  — pinned 2026-06-23 to ≥2 authoritative sources: the **Yale Law School official news page** ("Not a
+  Footnote: For Yale and Harvard Law Editors, THIS Is the Game,"
+  **https://law.yale.edu/yls-today/news/not-footnote-yale-and-harvard-law-editors-game**, which names
+  "Jeremy N. Thomas '26 … Editor-in-Chief of the Yale Law Journal" and ties it to volume number 135),
+  corroborated by a Yale Black Law Students Association announcement ("Jeremy Thomas (YBLSA '26) elected
+  Yale Law Journal …"). The masthead **turns over every volume** and this is a **rotating student role**,
   so re-check the live **Volume 135 masthead** (**https://yalelawjournal.org/masthead/volume-135**) before
-  naming any current EiC. Conservatively unnamed here: the current EiC's name was not pinnable to ≥2
-  authoritative sources at access time — verify the current masthead. 需复核 (name only).
+  relying on the name. (verified 2026-06-23; 以官网为准)
 - **Exact submission windows / season dates.** The market pattern is a front-loaded **spring (Feb–Mar)**
   main cycle and a smaller **fall (Aug)** cycle; YLJ's precise open/close dates per volume are set each
   year. Confirm the current window on the submissions page. 需复核.
