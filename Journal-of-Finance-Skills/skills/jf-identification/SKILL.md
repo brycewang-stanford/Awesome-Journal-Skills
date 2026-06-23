@@ -56,6 +56,29 @@ The editor sees a named shock, a defended assumption, the right estimator, and a
 - JF expects the **identification battery visible but not bloating the body** — pre-trends, first-stage F, McCrary density, balance tables go to the Internet Appendix, with one or two decisive plots in the main text.
 - Weak-instrument and modern-DID standards evolve; confirm the expected diagnostics against recent issues and current author guidelines.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Do not stop at advising the right estimator — **run it and report the number.** Full
+map: [`shared-resources/empirical-methods/execution-with-mcp.md`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JF-specific instantiation:
+
+1. `detect_design` → `preflight` → `recommend` on the data; fit with `as_handle=true`.
+2. **Staggered DiD:** estimate with `callaway_santanna` / `sun_abraham` (not bare TWFE);
+   run `bacon_decomposition` to expose the bad-comparison weight you are correcting —
+   this *is* the "TWFE is biased" pre-emption, executed. Put the clean estimate in the
+   body; the event-study/pre-trend panel goes to the **Internet Appendix**.
+3. **IV:** report `effective_f_test` and an `anderson_rubin_ci` (weak-IV-robust), not a
+   2SLS t-stat alone.
+4. **RDD:** `rdrobust` for the bias-corrected estimate; `rddensity`/`mccrary_test` and
+   bandwidth sweep (`rdbwselect`) → Internet Appendix; one density/RD plot in the body.
+5. `audit_result(result_id)` to enumerate what the design still owes; then
+   `honest_did_from_result` to bound a pre-trend violation. Cite methods only via
+   `bibtex`.
+
+The JF body shows one or two decisive exhibits with the **economic magnitude**; the
+full diagnostic battery lives in the bundled Internet Appendix (see `jf-internet-appendix`).
+If StatsPAI/Stata are not connected, adapt the vendored `resources/code/` skeleton and
+say which number is unverified.
+
 ## Checklist
 
 - [ ] Source of identifying variation named in one sentence

@@ -62,6 +62,27 @@ The editor sees a robust effect, a transparent search, and a magnitude that surv
 | "This is a microcap effect"                     | Value-weighted, NYSE-breakpoint version in the body             |
 | "You buried the failing robustness check"       | Surface the load-bearing check in the body, not the appendix    |
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just list it. Full map:
+[`shared-resources/empirical-methods/execution-with-mcp.md`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JF-specific instantiation:
+
+- **Multiple testing (the JF-salient one):** after disclosing the search count, apply
+  `romano_wolf` (step-down, accounts for cross-test correlation — the right tool for a
+  factor-zoo screen) or `benjamini_hochberg` / `holm`; report the **adjusted** threshold
+  and the alpha that survives it, in the body. The full grid of signals → Internet Appendix.
+- **Sensitivity to omitted variables:** `oster_delta` / `sensemakr` to state how strong a
+  confounder would need to be to overturn the result — a decisive body exhibit.
+- **Inference:** `wild_cluster_bootstrap` when clusters are few; `twoway_cluster` /
+  `conley` where the dependence structure demands it.
+- **Re-fit checks off one handle:** `audit_result(result_id)` enumerates the missing
+  checks; run each `suggest_function` it emits rather than guessing the battery.
+- **Emit JF-format exhibits:** `etable` / `did_summary_to_latex` for the decisive tables;
+  hand off formatting to `jf-tables-figures`.
+
+Triage the *output* by the body-vs-Internet-Appendix table above: 3–6 executed,
+decisive checks in the body; the exhaustive (now actually-run) battery in the bundled IA.
+
 ## Checklist
 
 - [ ] 3–6 decisive checks in the body; the rest in the Internet Appendix
