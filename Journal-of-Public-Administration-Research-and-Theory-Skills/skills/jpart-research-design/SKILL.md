@@ -17,6 +17,19 @@ public-management reviewer will raise.
 - Preparing a **pre-analysis plan** / preregistration (JPART accepts blinded pre-reg reports)
 - Justifying why the design adjudicates the rival account from `jpart-literature-positioning`
 
+## Design-choice gate
+
+Start by matching the theoretical claim to the minimum credible design. Do not
+choose the design by data availability alone.
+
+| Claim type | Minimum design burden | Common downgrade |
+|------------|-----------------------|------------------|
+| "X causes Y in public organizations" | Identification strategy with an estimand, assignment/variation story, and falsification or sensitivity evidence | Reframe as association or theory-building descriptive evidence |
+| "Mechanism M explains the effect" | Mediating evidence that is temporally and conceptually downstream of treatment/exposure, plus rival-mechanism checks | Reframe as a plausible mechanism to be tested, not demonstrated |
+| "Public employees/citizens respond differently by condition C" | Pre-specified heterogeneity, adequate power, and measurement invariance across groups | Treat as exploratory moderation |
+| "Policy/intervention improves performance" | Implementation fidelity, baseline comparability, outcome validity, and spillover/contamination checks | Reframe as pilot evidence |
+| "Case evidence revises theory" | Case selection logic, process-tracing observations, rival explanations, and explicit scope conditions | Reframe as illustrative theory elaboration |
+
 ## Experiments (the modern JPART workhorse)
 - **Population matters.** Public-management theory often requires *public employees* or *citizens* as
   subjects — defend the sample (e.g., real managers, frontline staff) over a generic MTurk pool.
@@ -49,6 +62,26 @@ For the **single strongest rival explanation** (often selection or common-method
 sentence: *"If the rival were true rather than my mechanism, the data would look like ___; instead they
 look like ___."* If you cannot, the design does not yet identify the contribution.
 
+## Reviewer stress tests
+
+Run these before the manuscript claims JPART-level causal or theoretical leverage:
+
+- **Theory-design alignment:** the unit of theory, treatment/exposure, outcome, and
+  inference level match. A theory about managers is not proven by citizen vignettes
+  unless the bridge is explicit.
+- **Measurement separation:** key independent/dependent variables are not merely
+  two self-reports from the same respondent at the same time; if they are, build a
+  common-method defense or narrow the claim.
+- **Assignment credibility:** the reader can say why some units received more/less
+  treatment and why that variation is not just latent performance, resources, or
+  managerial quality.
+- **Organizational nesting:** the standard errors, random effects, or design account
+  for agencies, offices, jurisdictions, schools, or teams where treatment and outcomes cluster.
+- **Generalization boundary:** state whether the result generalizes to public
+  employees, citizens, organizations, jurisdictions, or one institutional setting.
+- **Transparency path:** preregistration, data/code release, and any restricted-data
+  exception can be anonymized and reconciled with `jpart-transparency-and-data`.
+
 ## Anti-patterns
 
 - A "behavioral PA" experiment on a generic online panel when the theory is about *public managers*
@@ -64,7 +97,9 @@ look like ___."* If you cannot, the design does not yet identify the contributio
 【Population】public employees / citizens / orgs — defended? [Y/N]
 【Estimand or claim】what is being identified/shown
 【Key assumption(s)】and how each is defended
+【Design-choice gate】causal / mechanism / heterogeneity / policy / case-theory burden met?
 【Rival ruled out】the adjudication sentence (often selection / common-method)
+【Stress-test gaps】theory-design / measurement / assignment / nesting / generalization / transparency
 【Preregistered?】confirmatory vs exploratory split
 【Next】jpart-data-analysis
 ```

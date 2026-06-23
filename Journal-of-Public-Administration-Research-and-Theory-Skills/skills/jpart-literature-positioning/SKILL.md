@@ -30,6 +30,19 @@ live PA debate and state precisely what it changes.
 5. **Pre-empt the sibling-venue read.** Make clear why this is a *management-theory* contribution, so a
    reviewer doesn't redirect it to PAR (too broad) or JPAM (policy analysis).
 
+## Contribution moves JPART reviewers can recognize
+
+Pick one primary move and make the introduction serve it. Mixing several weak
+moves reads like a literature dump.
+
+| Move | What the manuscript must show | Weak version to avoid |
+|------|-------------------------------|-----------------------|
+| Boundary condition | A PA theory works only under condition C, with C justified theoretically | "We found heterogeneity" with no theory for C |
+| Mechanism correction | The accepted explanation is replaced or refined by a better mechanism | A mediation table without theoretical stakes |
+| Construct clarification | A concept is separated from a neighbor (e.g., red tape vs. burden) with measurement logic | Renaming old variables |
+| Institutional translation | A theory from another field changes when applied to public-sector institutions | Importing psychology/econ theory with no PA modification |
+| Design adjudication | A credible design overturns or narrows a prior observational claim | "Better data" without explaining the theoretical implication |
+
 ## Engagement depth by paper type
 
 | Paper type | Literature it must engage | The trap to avoid |
@@ -39,6 +52,20 @@ live PA debate and state precisely what it changes.
 | Performance management | performance-information-use + goal-ambiguity theory | reporting a performance correlation atheoretically |
 | Behavioral PA | the psychology-into-PA program + prior experiments | a one-off experiment detached from PA theory |
 | Collaborative/network governance | governance/network theory it tests | a case description with no governance mechanism |
+
+## Positioning audit
+
+Before drafting, write a one-paragraph map with these five sentences:
+
+1. The live JPART conversation is ___.
+2. The dominant theoretical expectation is ___ because ___.
+3. The closest paper has shown ___ but cannot distinguish ___ from ___.
+4. This manuscript changes the conversation by showing ___.
+5. The design can support that move because ___.
+
+If sentence 5 is weak, go back to `jpart-research-design` before polishing the
+introduction. If sentence 4 is merely "we study a new place," narrow the venue or
+raise the theoretical move.
 
 ## Anti-patterns
 
@@ -55,6 +82,8 @@ live PA debate and state precisely what it changes.
 【Key works】the 3-6 that define it (incl. the theory's canonical statement)
 【Gap】what the theory mispredicts / under-specifies / has never been tested against
 【Move】how this paper changes the theory
+【Move type】boundary / mechanism / construct / institutional translation / design adjudication
+【Closest competitor】what it cannot adjudicate
 【Venue signal】why it is a management-theory contribution (not PAR/JPAM)
 【Next】jpart-theory-building
 ```
