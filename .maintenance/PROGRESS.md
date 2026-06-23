@@ -965,3 +965,35 @@ Annual Review of Sociology source-map debt cleanup completed:
   author resources and editor correspondence.
 - `python3 tools/source_map_audit.py Annual-Review-of-Sociology-Skills --all` now reports
   `unresolved_flags=0`, down from 6, with 0 warnings.
+
+Weekly safe uplift batch completed (2026-06-23):
+- Respected the active multi-agent claims board: no edits to Agent B natural-science/medicine packs,
+  Agent A econ/finance/management queues, Agent C social-science/humanities lanes, submodules, root
+  README walls, or inventory tripwires.
+- Strengthened `Agriculture-Environment-Journal-Skills` routing behavior with pre-routing evidence
+  gates, evidence-shape escalation, endpoint disambiguation, handoff protocol, and three worked routing
+  examples. This was a count-preserving breadth-bundle capability edit, not a volatile source-map refresh.
+- Strengthened `Journal-of-Public-Administration-Research-and-Theory-Skills` in two low-tail skills:
+  `jpart-research-design` now has a design-choice gate and reviewer stress tests; `jpart-literature-positioning`
+  now has explicit contribution-move types and a five-sentence positioning audit.
+- Verification: `python3 tools/quality_scorecard.py --json` reports JPART `93.8 -> 94.0` and Agriculture
+  breadth remains structurally capped at `92.0`; `python3 tools/skillopt_gate.py gate --baseline
+  /tmp/ajs-agrienv-baseline.json` PASS; counts `2883 / 193 / 200`; source-map warnings 0; root-card
+  warnings 0; clone fail hits 0; `python3 tools/run_checks.py --skip-reports` and `git diff --check`
+  passed.
+- Publish status: left unpushed because `.maintenance/CLAIMS.md` currently says concurrent edits should
+  not be pushed; changes are path-scoped and ready for owner review.
+
+Weekly safe uplift batch 2 completed (2026-06-23):
+- Re-read `.maintenance/CLAIMS.md` before choosing the next target. Skipped clinical, engineering,
+  agriculture, and humanities breadth candidates because they sit near Agent B medicine or Agent C
+  category 3/7/9 boundaries. Used the lower-conflict `Public-Administration-Review-Skills` pack instead.
+- Strengthened `pubar-transparency-and-data` with evidence-type package gates, a restricted-data
+  decision tree, and a clean-room reproducibility smoke test, keeping volatile TOP wording delegated
+  to the official source map.
+- Strengthened `pubar-research-design` with a PAR design-fit gate, practice-safe inference rules, and
+  reviewer stress tests that connect causal/case/mixed designs to Evidence-for-Practice claims.
+- `python3 tools/quality_scorecard.py --json` reports `Public-Administration-Review-Skills` improving
+  from `93.8` to `94.0`, with `pubar-transparency-and-data` and `pubar-research-design` no longer the
+  weakest two skills.
+- Publish status remains intentionally unpushed under the active no-push coordination note.
