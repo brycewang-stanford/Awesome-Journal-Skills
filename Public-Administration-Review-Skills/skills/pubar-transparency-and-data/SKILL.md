@@ -41,12 +41,53 @@ go so a transparency request at review or acceptance does not stall the paper.
 - [ ] Reporting-standard supplement (CONSORT/STROBE/PRISMA/COREQ) where applicable
 - [ ] Pre-registration / pre-analysis plan linked (anonymized) where applicable
 
+## Transparency package by evidence type
+
+Build the package around the evidence product, not around a generic folder dump.
+
+| Evidence type | Minimum package | PAR-specific risk |
+|---|---|---|
+| Administrative microdata | Data dictionary, construction log, access conditions, replication code, and an approved restricted-data statement if raw data cannot ship | A practitioner-facing claim with no auditable data provenance |
+| Survey / experiment | Instrument, sampling frame, recruitment/consent language, randomization code, preregistration or exploratory label, and cleaning scripts | Treatments or outcomes cannot be interpreted by public managers |
+| Qualitative interviews / fieldwork | Interview protocol, coding scheme, memo trail, anonymized excerpts or controlled-access deposit, and IRB/consent constraints | Over-disclosure that harms participants, or under-documentation that blocks audit |
+| Case comparison / process tracing | Case-selection memo, source inventory, evidence tests, chronology, and rival-explanation log | "Illustrative" cases presented as field-wide lessons |
+| Public datasets / dashboards | Persistent links, download dates, version snapshots, transformation scripts, and archived outputs | Live web data change after review and no longer reproduce the exhibits |
+
+## Restricted-data decision tree
+
+1. **Can raw data be public?** Deposit the exact analysis data plus code in Dataverse or another
+   persistent repository and cite it in the Data Availability Statement.
+2. **Can de-identified analysis data be public?** Deposit the de-identified data and document what
+   was removed, masked, top-coded, aggregated, or perturbed.
+3. **Can synthetic or toy data run the code?** Provide synthetic data plus a validation note that the
+   code path reproduces the tables/figures but not the confidential estimates.
+4. **Can only metadata be shared?** Provide a data-access route, DUA/IRB constraints, variable list,
+   and a read-only replication log that maps each exhibit to the restricted source.
+5. **Is nothing shareable?** Treat this as an editor-facing exception request; explain why the claim is
+   still auditable and which independent checks remain possible.
+
+For every restricted path, separate **legal/ethical inability** from **convenience**. Convenience is
+not a transparency rationale.
+
 ## When data cannot be shared (restricted-data path)
 
 - **Explain why** the data are restricted (privacy, IRB, agency/legal restrictions, FOIA limits).
 - Provide **instructions on how others can obtain the data** (access process, agency contact, DUA).
 - Where feasible, **provide synthetic data** or de-identified extracts so the code can be run.
 - For qualitative data, **QDR** supports controlled-access sharing with appropriate protections.
+
+## Reproducibility smoke test
+
+Before submission, run a clean-room check:
+
+- start from a fresh directory or container with only the repository/deposit files;
+- install from the recorded environment file;
+- run the master script end to end;
+- compare every printed table/figure number against the manuscript;
+- record any manual step, proprietary software dependency, or restricted-data substitution.
+
+If the smoke test fails, do not call the package "reproducible"; report the remaining limitation
+honestly in the Data Availability Statement.
 
 ## Anti-patterns
 
@@ -60,10 +101,12 @@ go so a transparency request at review or acceptance does not stall the paper.
 
 ```
 【Repository】Dataverse (quant) / QDR (qual) — materials staged? [Y/N]
+【Evidence type】admin / survey-experiment / qualitative / case-process / public-dataset
 【Reproduces tables/figures?】master script verified locally? [Y/N]
 【Documentation】README + provenance + seeds + pinned versions + reporting standard? [Y/N]
 【Data-availability statement】drafted? [Y/N]
-【Restricted data?】reason + access path + synthetic data?
+【Restricted data?】public / de-identified / synthetic / metadata-only / exception request
+【Smoke test】fresh-run status + remaining manual step
 【Pre-registration】badge pursued? [Y/N/NA]
 【Next】pubar-review-process
 ```

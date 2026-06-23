@@ -17,6 +17,19 @@ against the strongest alternative explanation.
 - Preparing a **pre-analysis plan** or a pre-registration (PAR offers pre-registration badges)
 - Justifying why your design adjudicates the rival account from `pubar-literature-positioning`
 
+## PAR design-fit gate
+
+PAR is a generalist flagship, so the design must support both an academic claim and a usable public-
+management implication. Start with this gate before polishing methods language.
+
+| Claim type | Design burden | Practice-relevance check |
+|---|---|---|
+| Reform or mandate effect | Assignment/timing logic, counterfactual trend, spillover check, and clustering at assignment level | The finding changes how agencies time, target, or evaluate reforms |
+| Managerial behavior | Sample frame tied to real public managers or frontline staff, realistic decision task, and measured behavioral outcome | The recommendation is feasible inside public organizations |
+| Citizen response / public trust | Treatment realism, representativeness limits, manipulation checks, and ethical framing | The takeaway does not overgeneralize from survey preference to administrative behavior |
+| Case/process account | Case-selection logic, process-tracing tests, chronology, and rival-account evidence | The lesson transfers to a defined class of agencies, programs, or jurisdictions |
+| Mixed-method mechanism | Quantitative association/effect plus qualitative implementation or mechanism evidence | The qualitative strand explains what managers can act on, not just why results are interesting |
+
 ## Quantitative / causal inference (public-management settings)
 - **Identification first.** State the estimand and the assumptions that license a causal reading
   (ignorability, parallel trends, exclusion, continuity). Defend them, don't assert them.
@@ -50,6 +63,29 @@ For the **single strongest rival explanation**, write one sentence: *"If the riv
 than my argument, the agencies/managers/citizens would look like ___; instead they look like ___."* If
 you cannot, the design does not yet identify the contribution — and the practitioner takeaway is unsafe.
 
+## Practice-safe inference rules
+
+- **Separate evidence from recommendation.** A credible association may justify a diagnostic warning;
+  a causal design may justify a stronger managerial recommendation; neither automatically justifies a
+  universal policy prescription.
+- **Name the implementation margin.** If the intervention is staffing, training, targeting, rule
+  design, citizen communication, or interagency coordination, say which margin the design actually tests.
+- **Check administrative feasibility.** A design can be internally valid but still imply an action no
+  manager can implement. Flag cost, authority, data availability, and equity constraints.
+- **Bound external validity.** Identify the agency type, policy domain, country/state/local context,
+  and population to which the evidence should and should not travel.
+- **Route transparency early.** If the result relies on confidential administrative data, plan the
+  restricted-data path with `pubar-transparency-and-data` before claims harden.
+
+## Reviewer stress tests
+
+- Would the result survive if the strongest agency-level selection story were true?
+- Is the treatment/exposure measured before the outcome and at the right organizational level?
+- Are standard errors clustered at the assignment or sampling level, not merely the observation level?
+- For qualitative work, what observation would have disconfirmed the mechanism?
+- For mixed methods, do both strands answer the same claim, or are they two parallel papers?
+- Can the Evidence for Practice box be written without making a claim the design cannot support?
+
 ## Anti-patterns
 
 - Naive TWFE on a staggered reform rollout; clustering below the assignment level
@@ -63,9 +99,12 @@ you cannot, the design does not yet identify the contribution — and the practi
 ```
 【Mode】quant-causal / experiment / qualitative / mixed
 【Estimand or claim】what is being identified/shown
+【Design-fit gate】academic claim + practice relevance supported? [Y/N]
 【Key assumption(s)】and how each is defended
 【Rival ruled out】the adjudication sentence
 【Robustness/sensitivity】planned checks (clustering, few-cluster, Oster/E-value)
+【Practice-safe inference】recommendation strength + implementation margin + external-validity boundary
+【Transparency handoff】public / restricted / qualitative-controlled-access path
 【Next】pubar-data-analysis
 ```
 
