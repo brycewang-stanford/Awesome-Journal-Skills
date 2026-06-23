@@ -14,7 +14,7 @@ description: Use when anticipating editor and reviewer expectations, framing the
 
 ## How RER is refereed (and what that means for you)
 
-RER reviews are **submitted and peer-reviewed by AERA/SAGE** — there is no commissioning editor pre-clearing your topic, so the manuscript must win on its own. The co-editors (a team based at Penn State as of access — Boveda, Ford, Frankenberg, López; 检索于 2026-06；以官网为准) desk-screen for fit and rigor before assigning masked reviewers. Two questions decide the manuscript:
+RER reviews are **submitted and peer-reviewed by AERA/SAGE** — there is no commissioning editor pre-clearing your topic, so the manuscript must win on its own. The co-editors (the most-recent-listed team based at Penn State — Boveda, Ford, Frankenberg, López; publicized as the 2022–2025 team, with no 2026+ successor team announced as of 2026-06-23 web search; 检索于 2026-06-23，以官网为准) desk-screen for fit and rigor before assigning masked reviewers. Two questions decide the manuscript:
 
 1. **Is it genuinely integrative and advancing?** RER explicitly does not want annotated bibliographies or thin stock-takes. Reviewers ask: does the framework reorganize the field and move theory or policy?
 2. **Is the review itself rigorous?** For systematic reviews/meta-analyses: documented exhaustive search (PRISMA), reliable coding, defensible models, risk-of-bias, and sensitivity analysis. Process rigor is not negotiable.

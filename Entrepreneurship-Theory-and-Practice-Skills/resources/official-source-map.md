@@ -20,9 +20,9 @@ Primary source map for facts used in the ETP skill pack. **Access date: 2026-06.
 | entrepreneurial ecosystem | Official pages above; re-check live before submission |
 | opportunity process | Official pages above; re-check live before submission |
 
-## Verified on official pages (2026-06-22)
+## Verified on official pages (2026-06-23)
 
-- **Editor-in-Chief: Johan Wiklund (Syracuse University)** is the editor of record. Published by **SAGE** on behalf of Baylor University. Note: an April 2026 "ETP at 50" editorial (DOI 10.1177/10422587261441596) marks Wiklund's departure as Editor-in-Chief; a successor was not yet named on public sources as of 2026-06-22. Confirm the current Editor-in-Chief on the SAGE ETP editorial-board page (<https://journals.sagepub.com/editorial-board/etp>) before relying on this. Verified 2026-06-22.
+- **Editor-in-Chief: Johan Wiklund (Syracuse University)** is the editor of record. Published by **SAGE** on behalf of Baylor University. Note: an April 2026 "ETP at 50" editorial (DOI 10.1177/10422587261441596) marks Wiklund's departure as Editor-in-Chief; **re-verified 2026-06-23**, a successor EiC was **still not publicly named** in authoritative sources (no >=2-source confirmation found). Confirm the current Editor-in-Chief on the SAGE ETP editorial-board page (<https://journals.sagepub.com/editorial-board/etp>) before relying on this. Verified 2026-06-23.
 
 ## Unverified / volatile items
 

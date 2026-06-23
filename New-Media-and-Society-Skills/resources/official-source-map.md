@@ -17,14 +17,16 @@ SAGE pages before using this pack for a live submission.
   public masthead: **Steve Jones**, University of Illinois at Chicago, USA, as Editor; Associate Editors
   **Despina Chronaki**, **Blake Hallinan**, **Marko Skoric**, **Harsh Taneja**, and **Panayiota Tsatsou**;
   previous editors and international editorial board. Re-check this page because the journal home also
-  carries a 2026 editor-search notice: as re-verified 2026-06-22, **Steve Jones is stepping down in
-  June 2026** and the successor Editor(s) had **not yet been publicly announced** at this check, so the
-  live editorial-board page is authoritative for the current masthead.
+  carries a 2026 editor-search notice: as re-verified 2026-06-23, **Steve Jones is stepping down in
+  June 2026** and the successor Editor(s) had **still not been publicly announced** at this check (no
+  >=2-source confirmation of a named successor), so the live editorial-board page is authoritative for
+  the current masthead.
 - **https://journals.sagepub.com/home/nms** — SAGE homepage editor-search card. Verifies the public
   2026 call: NM&S was searching for **1-2 Editors** to join the team, with application deadline
-  **2026-05-08**. Re-verified 2026-06-22: **Steve Jones is stepping down as Editor in June 2026**, with
+  **2026-05-08**. Re-verified 2026-06-23: **Steve Jones is stepping down as Editor in June 2026**, with
   the new Editor(s) beginning in June 2026 after a late-May transition; **the successor Editor(s) have
-  not yet been publicly announced** (the appointment was still in the selection phase as of this check).
+  still not been publicly announced** (the appointment remained in/just past the selection phase as of
+  this 2026-06-23 check; no named successor confirmable from >=2 authoritative sources).
   Until the editorial-board page is updated, this pack treats **Steve Jones** as the current public
   contact/editor and flags all editor-specific advice as live-check material — confirm the new masthead
   on the SAGE editorial-board page immediately before submission.

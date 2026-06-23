@@ -6,11 +6,14 @@ behalf of the **American Educational Research Association (AERA)**; submission r
 through **Manuscript Central / ScholarOne** (`mc.manuscriptcentral.com/rer`).
 Re-verify volatile items (current editors, contact email, submission fee, exact
 length limit, policy effective dates) before relying on them — SAGE/AERA pages
-change. **Current co-editors (most-recent-listed as of 2026-06-22): Mildred Boveda,
+change. **Current co-editors (most-recent-listed as of 2026-06-23): Mildred Boveda,
 Karly Sarita Ford, Erica Frankenberg, and Francesca López (Pennsylvania State
-University)** — publicized as the **2022–2025** team; no 2026 successor team was
-announced at check time, so re-confirm the live SAGE/AERA RER masthead before naming
-them. Items not captured as stable page text are handled in the live-check rules below.
+University)** — publicized as the **2022–2025** team. A 2026-06-23 web search found
+**no announced 2026+ successor editorial team**: the four-person Penn State team remains
+the most-recent-listed masthead (corroborated by Wikipedia, May 2026, and the live SAGE
+RER home, where Vol. 96 Iss. 1 published Feb 2026). Because their publicized term nominally
+ran through 2025, re-confirm the live SAGE/AERA RER masthead before naming them in current
+advice. Items not captured as stable page text are handled in the live-check rules below.
 
 ## Official SAGE / AERA RER pages (publisher / editorial authority)
 

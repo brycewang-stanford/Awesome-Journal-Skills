@@ -49,10 +49,14 @@ AOM author resources, AMR editorial-team page, AOM style guide PDF, and AOM AI p
 - Current AMR editor: **Kris Byron**, Georgia State University. AOM lists her as Editor, and
   the Georgia State announcement states her three-year editor-in-chief term began July 1,
   2023. Current Associate Editors are listed on the AOM editorial-team page. (Sources 3, 6)
-  - **Live-check note (2026-06-22):** re-verified against the AOM AMR editorial-team page and
-    Wikipedia — Byron is still listed as the current AMR Editor. Her three-year term began
-    1 July 2023 and is at/near its end (~mid-2026), so an editorial transition may be imminent;
-    confirm the named editor on the live AOM masthead before relying on it in a cover letter.
+  - **Live-check note (2026-06-23):** re-verified against the AOM AMR editorial-team page and
+    Wikipedia — Byron is still listed as the current AMR Editor and is sitting now. The GSU
+    announcement (#6) dates the editor-in-chief term to "began July 1, 2023"; AOM's incoming-editor
+    framing puts the three-year term at **1 Jan 2024 – 31 Dec 2026** (with a 1 July 2023 transition/
+    shadow start), so Byron remains the editor through the end of 2026, after which a transition is
+    expected. **No named successor / incoming AMR editor was found in a 2026-06-23 web search** (AOM
+    has not yet announced one publicly), so do not assert a successor; confirm the named editor on the
+    live AOM masthead before relying on it in a cover letter.
 - **Submission fee**: AOM states that the Academy of Management does not charge submission
   fees. New users establish a ScholarOne account with name, affiliation, address details, and
   keywords before using the Author Center. (Source 4)
