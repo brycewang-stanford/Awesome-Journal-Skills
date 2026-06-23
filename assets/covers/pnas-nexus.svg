@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="280" viewBox="0 0 220 280" role="img" aria-label="PNAS Nexus">
+  <defs>
+    <linearGradient id="pnxbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b3d68"/>
+      <stop offset="1" stop-color="#1f6feb"/>
+    </linearGradient>
+  </defs>
+  <rect width="220" height="280" rx="10" fill="url(#pnxbg)"/>
+  <g fill="none" stroke="#9fd0ff" stroke-width="1.4" opacity="0.6">
+    <line x1="150" y1="44" x2="186" y2="26"/>
+    <line x1="150" y1="44" x2="190" y2="72"/>
+    <line x1="150" y1="44" x2="128" y2="84"/>
+    <line x1="190" y1="72" x2="128" y2="84"/>
+    <circle cx="150" cy="44" r="5" fill="#9fd0ff"/>
+    <circle cx="186" cy="26" r="3.5" fill="#9fd0ff"/>
+    <circle cx="190" cy="72" r="4" fill="#9fd0ff"/>
+    <circle cx="128" cy="84" r="3.5" fill="#9fd0ff"/>
+  </g>
+  <text x="22" y="146" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="700" fill="#ffffff">PNAS</text>
+  <text x="22" y="190" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="700" fill="#cfe6ff">Nexus</text>
+  <rect x="24" y="204" width="56" height="4" rx="2" fill="#ffd166"/>
+  <text x="24" y="230" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#dbeaff">Gold open access</text>
+  <text x="24" y="248" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#aecbef">Multidisciplinary</text>
+  <text x="24" y="266" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#8fb3df">OUP · for the NAS · sibling of PNAS</text>
+</svg>

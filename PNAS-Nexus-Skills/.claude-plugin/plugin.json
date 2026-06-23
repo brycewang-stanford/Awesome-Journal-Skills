@@ -1,0 +1,27 @@
+{
+  "name": "pnas-nexus-skills",
+  "description": "Agent skill stack for submitting to PNAS Nexus — the fully open-access, multidisciplinary sibling journal of PNAS, published by Oxford University Press on behalf of the U.S. National Academy of Sciences. Encodes what makes PNAS Nexus distinct from flagship PNAS: gold open access with an article processing charge (APC) and CC BY / CC BY-NC license choice, NO Direct/Contributed (NAS-member) submission track (all editor-assigned peer review), the PNAS-to-PNAS-Nexus transfer/cascade route with carried-over reviews, the broad scope across biological/health/medical, physical sciences & engineering, and social & political sciences, page-based length budgets and article types (Research Report, Brief Report, Perspective, Review, Registered Reports), the required 50-120-word Significance Statement, the <=250-word single-paragraph abstract, in-text Materials and Methods, mandatory data/code deposition with raw-image retention, references format-neutral at submission, submission preflight, and reviewer rebuttals. English-first docs with zh-CN mirror.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "pnas-nexus",
+    "national-academy-of-sciences",
+    "oxford-university-press",
+    "open-access",
+    "apc",
+    "multidisciplinary",
+    "significance-statement",
+    "registered-reports",
+    "academic-writing",
+    "scientific-figures",
+    "reproducibility",
+    "peer-review",
+    "english-journal"
+  ]
+}

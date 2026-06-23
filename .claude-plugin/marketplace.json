@@ -1108,6 +1108,13 @@
       "category": "academic"
     },
     {
+      "name": "pnas-nexus-skills",
+      "source": "./PNAS-Nexus-Skills",
+      "description": "Twelve-skill bundle for PNAS Nexus — the fully open-access, multidisciplinary sibling of PNAS (Oxford University Press, on behalf of the NAS): workflow router, scope/significance fit with the PNAS-to-Nexus transfer route, gold open access + APC + CC BY/CC BY-NC license selection (in place of flagship PNAS's Direct/Contributed track), the 50-120-word Significance Statement, <=250-word abstract, article-type + page-based writing with in-text Materials and Methods, display items, statistics & reproducibility incl. Registered Reports, mandatory data/code availability, references format-neutral at submission, submission preflight, and reviewer rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "pnas-skills",
       "source": "./PNAS-Skills",
       "description": "Twelve-skill bundle covering the PNAS manuscript lifecycle: workflow router, scope/significance fit, submission-track selection (Direct vs Contributed), the ≤120-word Significance Statement, ≤250-word abstract, main-text writing with in-text Materials and Methods + classification, display items, statistics & reproducibility, data/code availability, numbered reference style, submission preflight, and reviewer rebuttal.",

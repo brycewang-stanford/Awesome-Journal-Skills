@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "pnas-nexus-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at PNAS Nexus, the fully open-access multidisciplinary sibling journal of PNAS, published by Oxford University Press on behalf of the U.S. National Academy of Sciences.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "pnas-nexus-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the PNAS Nexus manuscript lifecycle: workflow router, scope/significance fit (with the PNAS-to-Nexus transfer route), gold open access + APC + license selection (replaces flagship PNAS's submission-track choice), the 50-120-word Significance Statement, <=250-word abstract, main-text writing with article types + page-based budget + in-text Materials and Methods, display items, statistics & reproducibility (incl. Registered Reports), mandatory data/code availability with raw-image retention, references format-neutral at submission, submission preflight, and reviewer rebuttal.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "pnas-nexus",
+        "open-access",
+        "apc",
+        "national-academy-of-sciences",
+        "multidisciplinary",
+        "significance-statement",
+        "reproducibility",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/pnasnexus-workflow",
+        "skills/pnasnexus-fit",
+        "skills/pnasnexus-openaccess",
+        "skills/pnasnexus-significance",
+        "skills/pnasnexus-abstract",
+        "skills/pnasnexus-writing",
+        "skills/pnasnexus-figures",
+        "skills/pnasnexus-statistics",
+        "skills/pnasnexus-data",
+        "skills/pnasnexus-citation",
+        "skills/pnasnexus-submission",
+        "skills/pnasnexus-rebuttal"
+      ]
+    }
+  ]
+}
