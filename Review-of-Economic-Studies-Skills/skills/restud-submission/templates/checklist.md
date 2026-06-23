@@ -1,7 +1,7 @@
 # REStud Pre-Submission Checklist
 
 Use this before uploading to **Editorial Express** (editorialexpress.com/restud).
-Figures here (USD 200 / 120 fee, ~45-page limit, Harvard author-date, double-anonymous
+Figures here (USD 250 / 150 fee effective 1 June 2026, ~45-page limit, Harvard author-date, double-anonymous
 review, JEL codes, the Data Editor's pre-publication DCAS check) were verified on
 restud.com / OUP on 2026-05-30 — limits, fees, and the portal **change**, so re-confirm
 the current specifics on the journal's official author guidelines page before submitting.
@@ -71,5 +71,5 @@ the current specifics on the journal's official author guidelines page before su
 - [ ] Suggested / opposed referees ready (genuine experts; conflicts only for opposed)
 - [ ] Replication materials planned — the **Data Editor (Miklós Koren) runs an AEA DCAS reproducibility check before publication**; deposit at Zenodo
 - [ ] Proprietary-data exemption (if any) flagged to the editors at submission
-- [ ] Submission fee ready: **USD 200** (or **USD 120** if every author is a student / within 6 yrs of PhD / in a low-or-middle-income economy; evidence required) — verify on restud.com
+- [ ] Submission fee ready: **USD 250** (or **USD 150** if every author is a student / within 6 yrs of PhD / in a low-or-middle-income economy; evidence required; rate effective 1 June 2026) — verify on restud.com
 - [ ] Corresponding-author ORCID and contact details current

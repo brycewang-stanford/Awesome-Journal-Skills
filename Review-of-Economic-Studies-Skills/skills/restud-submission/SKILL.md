@@ -53,7 +53,7 @@ REStud is run by the Review of Economic Studies Ltd and published by Oxford Univ
 
 - REStud submits through **Editorial Express** at **http://editorialexpress.com/restud** — confirm the live link on the official page.
 - The corresponding author submits; keep ORCID and contact details current.
-- **Submission fee is charged in USD: USD 200** for a new submission, with a **reduced USD 120** rate when *every* author meets at least one of (i) current student, (ii) within six years of completing the PhD, or (iii) residence in a World Bank low- or middle-income economy (effective 1 July 2023; verified 2026-05-30). Supporting evidence (CV / website link) is required to claim the reduced rate. Re-confirm the current figures on restud.com rather than quoting a stale number.
+- **Submission fee is charged in USD: USD 250** for a new submission, with a **reduced USD 150** rate when *every* author meets at least one of (i) current student, (ii) within six years of completing the PhD, or (iii) residence in a World Bank low- or middle-income economy (rate effective 1 June 2026; corrected 2026-06-23 — the prior USD 200 / 120 schedule held 1 July 2023–31 May 2026). Supporting evidence (CV / website link) is required to claim the reduced rate. Re-confirm the current figures on restud.com rather than quoting a stale number.
 - Editorial pre-screening is real here: editors desk-reject roughly **20–23%** of initial submissions before refereeing (lower than QJE/REStat), so the manuscript must clear the bar on the first page.
 
 ## Anti-patterns
@@ -63,7 +63,7 @@ REStud is run by the Review of Economic Studies Ltd and published by Oxford Univ
 - Forgetting JEL codes (REStud/OUP require them)
 - A long cover letter that pitches the contribution (the abstract does that)
 - Stuffing proofs into the main text instead of the online appendix
-- Quoting a stale fee (it is USD 200 / 120, charged in dollars, not sterling) or treating the ~45-page cap as a guarantee — always send the user to verify on restud.com
+- Quoting a stale fee (it is USD 250 / 150 from 1 June 2026, charged in dollars, not sterling) or treating the ~45-page cap as a guarantee — always send the user to verify on restud.com
 
 ## Output format
 
@@ -74,7 +74,7 @@ REStud is run by the Review of Economic Studies Ltd and published by Oxford Univ
 【JEL】codes present
 【ONLINE APPENDIX】prepared / n/a
 【FILES READY】[...]
-【FEE / PORTAL】USD 200 (or 120 reduced) via Editorial Express; user pointed to verify
+【FEE / PORTAL】USD 250 (or 150 reduced) via Editorial Express; user pointed to verify
 【READY TO SUBMIT】yes / no — blockers
 【NEXT SKILL】await decision → restud-rebuttal
 ```

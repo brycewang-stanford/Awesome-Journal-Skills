@@ -14,7 +14,7 @@ Default assumption: unless the user names a different venue, the manuscript targ
 ## REStud-specific anchors (carry these through every stage)
 
 - **Identity:** founded 1933, theory and applied weighted equally; home of the **REStud Tour** (former May Meetings, annual since 1989) for promising young economists — calibrate ambition to that bar.
-- **Submission:** **Editorial Express** portal, **USD 200 fee** (reduced **USD 120** if every author is a student / within 6 years of PhD / in a low-or-middle-income economy), **double-anonymous** review, **Harvard author-date** references, JEL codes, **~45-page** limit; editors desk-reject ~20–23% before refereeing.
+- **Submission:** **Editorial Express** portal, **USD 250 fee** (reduced **USD 150** if every author is a student / within 6 years of PhD / in a low-or-middle-income economy; rate effective 1 June 2026), **double-anonymous** review, **Harvard author-date** references, JEL codes, **~45-page** limit; editors desk-reject ~20–23% before refereeing.
 - **Replication:** the **Data Editor (Miklós Koren)** runs an **AEA DCAS** pre-publication reproducibility check; packages deposit at **Zenodo**.
 - **Editors (2026):** Joint Managing Editors include Jan De Loecker, Antonio Penta, Jakub Steiner (verify the full current roster).
 

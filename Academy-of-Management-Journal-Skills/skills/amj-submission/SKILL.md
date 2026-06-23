@@ -24,7 +24,7 @@ description: Use when running the final pre-submission preflight for an Academy 
 - **Review:** blind review; desk review typically takes ~1-2 weeks, and AMJ targets developmental feedback to authors within roughly **60 days**. Authors who submit are expected to reciprocate by reviewing for AMJ when asked.
 - **Style:** APA conventions per the AMJ Style Guide for Authors (citations, reference list, headings, tables).
 - **Integrity:** manuscripts are screened with **iThenticate**; no simultaneous submission; any preprint posted online must be **removed during the review period**.
-- **Fees:** AOM charges **no submission fee**; immediate open access is optional and carries an **APC of US$3,500** (AMJ is otherwise subscription-published) (checked 2026-06-22). Re-verify the current amount on the AOM/AMJ open-access page before submission.
+- **Fees:** AOM charges **no submission fee** and **no author-paid APC**. AMJ is subscription-published, and AOM **does not support Gold (author-funded) open access**; the only open-access route is **Green OA (self-archiving)**, where authors may post the accepted (pre-copyedited) manuscript and the Version of Record may be made open only after a **12-month embargo**, at no fee (verified on the AOM open-access page 2026-06-23). Re-verify on the AOM/AMJ open-access page before submission, as policy may change.
 - **AI disclosure:** any use of AI tools must be disclosed in the **cover letter** and the **acknowledgements**, with confirmation that you have read the AOM AI policy; AI cannot be listed as an author.
 
 ## Pre-submission checklist
