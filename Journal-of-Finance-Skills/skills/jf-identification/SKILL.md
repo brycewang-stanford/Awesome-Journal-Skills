@@ -79,6 +79,10 @@ full diagnostic battery lives in the bundled Internet Appendix (see `jf-internet
 If StatsPAI/Stata are not connected, adapt the vendored `resources/code/` skeleton and
 say which number is unverified.
 
+See this run end-to-end on synthetic data — every number an actual tool return — in
+[`resources/worked-examples/02-execution-walkthrough.md`](../../resources/worked-examples/02-execution-walkthrough.md)
+(TWFE −0.0227 vs clean CS −0.0272, pre-trends p = 0.155, honest-DiD breakdown point).
+
 ## Checklist
 
 - [ ] Source of identifying variation named in one sentence

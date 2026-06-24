@@ -63,6 +63,25 @@ The reader now understands the magnitude, the inference, and where to find more 
 | "Table III and IA.3 use different definitions"      | Reconcile; keep one variable definition across body and IA  |
 | "The body has fifteen tables"                       | Move all but the decisive ones to the Internet Appendix     |
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate the exhibit from the fitted result, don't transcribe numbers by hand (the
+most common source of body-vs-IA inconsistency). Full map:
+[`shared-resources/empirical-methods/execution-with-mcp.md`](../../../shared-resources/empirical-methods/execution-with-mcp.md).
+
+- **Regression tables:** `etable` (multi-model columns) or `did_summary_to_latex` /
+  `did_summary_to_markdown` straight from the `result_id` — one variable definition,
+  one set of numbers, body and Internet Appendix in sync by construction.
+- **Event-study / coefficient figures:** `plot_from_result`, `enhanced_event_study_plot`,
+  `event_study_table` — emit the figure with axis units and the SE/clustering note baked in.
+- **Every exhibit note** must name the estimator and clustering (pull it from the
+  result's diagnostics) and state the **economic magnitude** in interpretable units —
+  the JF self-containment standard, now machine-generated rather than retyped.
+
+For a full chain producing JF-ready tables/figures from a fitted DiD result, see
+[`resources/worked-examples/02-execution-walkthrough.md`](../../resources/worked-examples/02-execution-walkthrough.md).
+If StatsPAI/Stata are not connected, format from the vendored `resources/code/` outputs.
+
 ## Anti-patterns
 
 - A table whose meaning is unclear without three paragraphs of text

@@ -59,6 +59,27 @@ The full grid — all factor models, subperiods, cost nets — goes to the **Int
 - SE and multiple-testing conventions evolve; the EIV/Shanken correction and factor-zoo threshold are durable, but confirm the favored estimators and benchmark factor sets against recent JF issues.
 - Economic magnitude in interpretable units (Sharpe gain, bps alpha) is non-negotiable in the body, since JF writes for a non-specialist reader.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the asset-pricing battery, don't just specify it. Full map:
+[`shared-resources/empirical-methods/execution-with-mcp.md`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JF asset-pricing instantiation:
+
+- **Factor regressions / time-series alphas:** `feols` with the right SEs
+  (`vcov="HC3"` or Newey–West / clustered) — read the alpha and t off the return, not
+  off a memory of the spec.
+- **The factor-zoo haircut (the JF-salient one):** after disclosing how many signals
+  were screened, apply `romano_wolf` (step-down, accounts for cross-signal correlation)
+  or `benjamini_hochberg`, and report the alpha that survives the adjusted threshold —
+  the executed Harvey–Liu–Zhu discipline.
+- **Fama–MacBeth + Shanken EIV correction** are Stata-canonical: run them through the
+  Stata MCP (`mcp__stata-mcp__stata_do`) with the vendored `resources/code/` skeleton
+  (`asreg`/`xtfmb`, Shanken-adjusted SEs) and reconcile to the Python alpha.
+- **Emit JF-format exhibits** with `etable`; hand formatting to `jf-tables-figures`.
+
+Report the **economic magnitude** (bps/month alpha, Sharpe gain) the body requires;
+the full factor-model grid and all screened signals go to the bundled Internet Appendix.
+If a server is not connected, adapt `resources/code/` and flag any unverified number.
+
 ## Checklist
 
 - [ ] Test matched to the question (FM / time-series / panel)
