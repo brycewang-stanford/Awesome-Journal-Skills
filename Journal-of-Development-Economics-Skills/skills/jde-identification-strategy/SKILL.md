@@ -70,6 +70,24 @@ Hypothetical: a national school-construction program rolled out district-by-dist
 | "RDD cutoff may be manipulated"                | Density test (McCrary / CJM) + covariate smoothness          |
 | "One site — why generalize?"                   | Pin the LATE/population; mechanism evidence that travels      |
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Estimate and audit the identification claim, don't only argue it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Development economics leans on RCTs and observational designs alike; field experiments demand the many-outcome family-wise correction (`romano_wolf`).
+
+1. `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to list
+   the checks the design still owes.
+2. **Staggered DiD:** `callaway_santanna` / `sun_abraham` + `bacon_decomposition` +
+   `honest_did_from_result` (the pre-trend test is low-power, Roth 2022).
+3. **IV:** `effective_f_test` + an `anderson_rubin_ci` (valid under weak instruments),
+   not a 2SLS t-stat alone.
+4. **RDD:** `rdrobust` (bias-corrected) + `rddensity` / `mccrary_test` for manipulation.
+5. **OVB:** `oster_delta` / `sensemakr` — how strong a confounder would have to be.
+
+Report the economic magnitude; route the full battery to the appendix; keep every
+number reproducible. A run end-to-end (synthetic data, real returns) is in the
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md). If StatsPAI/Stata are not connected, adapt the
+vendored `resources/code/` skeleton and flag any unverified number.
 ## Anti-patterns
 
 - TWFE on staggered treatment with no discussion of heterogeneity bias

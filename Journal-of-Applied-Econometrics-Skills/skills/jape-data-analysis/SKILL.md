@@ -76,6 +76,22 @@ Script: sims/mc_main.R → outputs tables/mc_table3.csv
 Question answered: [which empirical inference concern this resolves]
 ```
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Applied econometrics: the estimator and its diagnostics are themselves the contribution, so foreground the weak-IV / pre-trend / sensitivity tooling.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER, accounts for
+  cross-test correlation) or `benjamini_hochberg` — report the adjusted threshold.
+- **OVB sensitivity:** `oster_delta` / `sensemakr` — the confounder strength that would
+  overturn the headline.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`.
+- **Re-fit off one handle:** `audit_result(result_id)` lists the missing checks and the
+  exact `suggest_function` for each — no guessing the battery.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Keep the decisive checks in the body and the exhaustive (now actually-run) battery in
+the appendix. See the executed chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Output format
 
 ```

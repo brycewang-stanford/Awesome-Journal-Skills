@@ -51,6 +51,24 @@ For structural papers, the most persuasive single piece of identification eviden
 
 IER's structural readers draw a sharp line between *estimated* parameters (recovered from data with stated identification) and *calibrated/external* parameters (set from outside the model). Both are legitimate, but conflating them invites the "calibration in disguise" reject. State explicitly which parameters are estimated and which are external; for each external one, cite the source and carry it into the `ier-robustness` range analysis. The failure mode is presenting an externally-set parameter as if the model estimated it — referees notice, and the credibility of the whole exercise drops.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Estimate and audit the identification claim, don't only argue it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). IER is theory-forward and quantitative; the chain below serves its empirical lane — structural / quantitative estimation uses the field's own solvers.
+
+1. `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to list
+   the checks the design still owes.
+2. **Staggered DiD:** `callaway_santanna` / `sun_abraham` + `bacon_decomposition` +
+   `honest_did_from_result` (the pre-trend test is low-power, Roth 2022).
+3. **IV:** `effective_f_test` + an `anderson_rubin_ci` (valid under weak instruments),
+   not a 2SLS t-stat alone.
+4. **RDD:** `rdrobust` (bias-corrected) + `rddensity` / `mccrary_test` for manipulation.
+5. **OVB:** `oster_delta` / `sensemakr` — how strong a confounder would have to be.
+
+Report the economic magnitude; route the full battery to the appendix; keep every
+number reproducible. A run end-to-end (synthetic data, real returns) is in the
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md). If StatsPAI/Stata are not connected, adapt the
+vendored `resources/code/` skeleton and flag any unverified number.
 ## Checklist
 
 - [ ] Branch chosen; the data-to-object mapping stated in one sentence

@@ -48,6 +48,22 @@ Hypothetical: a cluster-randomized health-extension experiment, 80 villages, ~30
 | "Differential attrition biases the effect"         | Report attrition by arm; add Lee bounds; show the bound holds |
 | "Spillovers violate SUTVA in your villages"        | Distance-ring / treated-neighbor checks; bound the leakage    |
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Development economics leans on RCTs and observational designs alike; field experiments demand the many-outcome family-wise correction (`romano_wolf`).
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER, accounts for
+  cross-test correlation) or `benjamini_hochberg` — report the adjusted threshold.
+- **OVB sensitivity:** `oster_delta` / `sensemakr` — the confounder strength that would
+  overturn the headline.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`.
+- **Re-fit off one handle:** `audit_result(result_id)` lists the missing checks and the
+  exact `suggest_function` for each — no guessing the battery.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Keep the decisive checks in the body and the exhaustive (now actually-run) battery in
+the appendix. See the executed chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Anti-patterns
 
 - Standard errors not clustered at the design level; ignoring few-cluster bias

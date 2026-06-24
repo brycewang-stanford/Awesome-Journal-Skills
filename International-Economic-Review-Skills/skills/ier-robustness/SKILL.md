@@ -50,6 +50,22 @@ With a ≤50-page ceiling, the robustness section competes for space with the co
 
 The defining feature of robustness at a rigor journal is that **honest fragility, bounded, beats false robustness**. If a check moves the headline, the worst response is to omit it; the second worst is to bury it; the best is to report it and bound it ("the effect falls by a third under the alternative specification but remains positive and significant at conventional levels"). IER referees have seen every way of hiding a fragile result, and discovering a concealed one — especially via the replication deposit — is close to fatal. Treat the robustness section as the place where you demonstrate you have already tried hardest to break your own result and it survived.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). IER is theory-forward and quantitative; the chain below serves its empirical lane — structural / quantitative estimation uses the field's own solvers.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER, accounts for
+  cross-test correlation) or `benjamini_hochberg` — report the adjusted threshold.
+- **OVB sensitivity:** `oster_delta` / `sensemakr` — the confounder strength that would
+  overturn the headline.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`.
+- **Re-fit off one handle:** `audit_result(result_id)` lists the missing checks and the
+  exact `suggest_function` for each — no guessing the battery.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Keep the decisive checks in the body and the exhaustive (now actually-run) battery in
+the appendix. See the executed chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Threats are listed in priority order; the load-bearing ones are in the main text, not the appendix

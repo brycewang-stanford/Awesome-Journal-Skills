@@ -29,6 +29,24 @@ At JBES the load-bearing question is usually not a causal-design story but **whe
 - **Computational/algorithmic** — correctness (same target as the slow method), complexity/scalability gain, numerical accuracy, timing, and the feasible-application payoff.
 - **Applied paper** — what parameter is identified and the assumptions the method requires; dependence/weak-identification-robust inference; defend that the application needs the novelty.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Estimate and audit the identification claim, don't only argue it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JBES is a business / economic-statistics venue — reviewers weigh estimator validity and simulation evidence, so pair every estimate with its diagnostics and, where relevant, a Monte-Carlo check.
+
+1. `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to list
+   the checks the design still owes.
+2. **Staggered DiD:** `callaway_santanna` / `sun_abraham` + `bacon_decomposition` +
+   `honest_did_from_result` (the pre-trend test is low-power, Roth 2022).
+3. **IV:** `effective_f_test` + an `anderson_rubin_ci` (valid under weak instruments),
+   not a 2SLS t-stat alone.
+4. **RDD:** `rdrobust` (bias-corrected) + `rddensity` / `mccrary_test` for manipulation.
+5. **OVB:** `oster_delta` / `sensemakr` — how strong a confounder would have to be.
+
+Report the economic magnitude; route the full battery to the appendix; keep every
+number reproducible. A run end-to-end (synthetic data, real returns) is in the
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md). If StatsPAI/Stata are not connected, adapt the
+vendored `resources/code/` skeleton and flag any unverified number.
 ## Checklist
 
 - [ ] Target parameter/functional and its identification conditions stated
