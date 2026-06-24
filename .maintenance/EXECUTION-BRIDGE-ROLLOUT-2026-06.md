@@ -64,18 +64,22 @@ scorecard denominator (`depth` + `code present`) already filters to the 134 cand
 
 ## Progress
 
-- **Wired (3 / 134):** Journal-of-Finance (4 skills), Quarterly-Journal-of-Economics
-  (3), Management-Science (3). Lanes proven: finance/asset-pricing, econ/applied-micro,
-  management/OR — across both skill-naming conventions. clone-audit clean.
-- **Remaining (131):** regenerate the flagship-first queue any time with:
+- **Wired (15 / 134):** Journal-of-Finance (4 skills), Quarterly-Journal-of-Economics
+  (3), Management-Science (3), AEJ: Applied / Economic Policy / Macroeconomics /
+  Microeconomics plus AER:Insights (3 each), IER / JDE / JAE / JBES / JFI / JFQA
+  (3 each), and Journal of Financial Markets (4). Lanes proven: finance/asset-pricing,
+  econ/applied-micro, applied econometrics, and management/OR — across both
+  skill-naming conventions. clone-audit clean.
+- **Remaining (119):** regenerate the flagship-first queue any time with:
   ```
   python3 tools/quality_scorecard.py --json | python3 -c "import sys,json; d=json.load(sys.stdin); print('\n'.join(r['pack'] for r in sorted([x for x in d if x['pack_type']=='depth' and x['code_status']=='present' and not x['exec_bridge']], key=lambda r:-r['score'])))"
   ```
 
 ## Suggested cadence (month-long campaign)
 
-Tier 1 (econ/finance flagships): AEJ family, AER:Insights, IER, JDE, JFQA, JFI, Journal
-of Financial Markets, JBES, J. Applied Econometrics, Econometrica/REStud/JPE if present.
+Tier 1 remaining (econ/finance flagships): continue with any present but unwired AER /
+JPE / Econometrica / REStud / JFE / RFS / public-economics / labor / international /
+monetary / RAND packs, then rerun the queue command above before the next batch.
 Tier 2 (management/accounting/marketing/IS): AMJ/ASQ/SMJ/Org Sci, TAR/JAR/JAE/CAR/RAST,
 JM/JMR/JCR/Marketing Science, MISQ/ISR/JMIS/JAIS, OR/M&SOM/JOM/POM.
 Tier 3 (political science / sociology / psych / demography / education / criminology):
