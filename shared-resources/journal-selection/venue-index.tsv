@@ -1,0 +1,186 @@
+pack_dir	display_name	discipline	tier	lane	region	source_map
+Accounting-Research-Skills	Accounting Research	accounting	field	empirical	china	Accounting-Research-Skills/resources/official-source-map.md
+Contemporary-Accounting-Research-Skills	Contemporary Accounting Research	accounting	field	empirical	international	Contemporary-Accounting-Research-Skills/resources/official-source-map.md
+Journal-of-Accounting-Research-Skills	Journal of Accounting Research	accounting	top-3 accounting	empirical	international	Journal-of-Accounting-Research-Skills/resources/official-source-map.md
+Journal-of-Accounting-and-Economics-Skills	Journal of Accounting and Economics	accounting	top-3 accounting	empirical	international	Journal-of-Accounting-and-Economics-Skills/resources/official-source-map.md
+Review-of-Accounting-Studies-Skills	Review of Accounting Studies	accounting	field	empirical	international	Review-of-Accounting-Studies-Skills/resources/official-source-map.md
+The-Accounting-Review-Skills	The Accounting Review	accounting	top-3 accounting	empirical	international	The-Accounting-Review-Skills/resources/official-source-map.md
+Agricultural-Systems-Skills	Agricultural Systems	agriculture	field	empirical	international	Agricultural-Systems-Skills/resources/official-source-map.md
+Field-Crops-Research-Skills	Field Crops Research	agriculture	field	empirical	international	Field-Crops-Research-Skills/resources/official-source-map.md
+American-Anthropologist-Skills	American Anthropologist	anthropology	field	interpretive/theory	international	American-Anthropologist-Skills/resources/official-source-map.md
+Current-Anthropology-Skills	Current Anthropology	anthropology	field	interpretive/theory	international	Current-Anthropology-Skills/resources/official-source-map.md
+The-Art-Bulletin-Skills	The Art Bulletin	art-history	field	interpretive/theory	international	The-Art-Bulletin-Skills/resources/official-source-map.md
+Journal-of-the-American-Chemical-Society-Skills	Journal of the American Chemical Society	chemistry	field	empirical	international	Journal-of-the-American-Chemical-Society-Skills/resources/official-source-map.md
+Communication-Research-Skills	Communication Research	communication	field	empirical	international	Communication-Research-Skills/resources/official-source-map.md
+Journal-of-Communication-Skills	Journal of Communication	communication	field	empirical	international	Journal-of-Communication-Skills/resources/official-source-map.md
+New-Media-and-Society-Skills	New Media and Society	communication	field	empirical	international	New-Media-and-Society-Skills/resources/official-source-map.md
+Public-Opinion-Quarterly-Skills	Public Opinion Quarterly	communication/polisci	field	empirical	international	Public-Opinion-Quarterly-Skills/resources/official-source-map.md
+Criminology-Skills	Criminology	criminology	field	empirical	international	Criminology-Skills/resources/official-source-map.md
+AAAI-Skills	AAAI	cs-ai (conference)	field	empirical	international	AAAI-Skills/resources/official-source-map.md
+AISTATS-Skills	AISTATS	cs-ai (conference)	field	empirical	international	AISTATS-Skills/resources/official-source-map.md
+ICLR-Skills	ICLR	cs-ai (conference)	field	empirical	international	ICLR-Skills/resources/official-source-map.md
+ICML-Skills	ICML	cs-ai (conference)	field	empirical	international	ICML-Skills/resources/official-source-map.md
+IJCAI-Skills	IJCAI	cs-ai (conference)	field	empirical	international	IJCAI-Skills/resources/official-source-map.md
+NeurIPS-Skills	NeurIPS	cs-ai (conference)	field	empirical	international	NeurIPS-Skills/resources/official-source-map.md
+Demography-Skills	Demography	demography	field	empirical	international	Demography-Skills/resources/official-source-map.md
+Population-and-Development-Review-Skills	Population and Development Review	demography	field	empirical	international	Population-and-Development-Review-Skills/resources/official-source-map.md
+World-Development-Skills	World Development	development-studies	field	empirical	international	World-Development-Skills/resources/official-source-map.md
+Econometric-Theory-Skills	Econometric Theory	econometrics/methods	field	theory	international	Econometric-Theory-Skills/resources/official-source-map.md
+Econometrica-Skills	Econometrica	econometrics/methods	top-5 econ	empirical	international	Econometrica-Skills/resources/official-source-map.md
+Journal-of-Applied-Econometrics-Skills	Journal of Applied Econometrics	econometrics/methods	field	empirical	international	Journal-of-Applied-Econometrics-Skills/resources/official-source-map.md
+Journal-of-Business-and-Economic-Statistics-Skills	Journal of Business and Economic Statistics	econometrics/methods	field	empirical	international	Journal-of-Business-and-Economic-Statistics-Skills/resources/official-source-map.md
+Journal-of-Econometrics-Skills	Journal of Econometrics	econometrics/methods	field	empirical	international	Journal-of-Econometrics-Skills/resources/official-source-map.md
+Journal-of-Quantitative-and-Technological-Economics-Skills	Journal of Quantitative and Technological Economics	econometrics/methods	field	empirical	china	Journal-of-Quantitative-and-Technological-Economics-Skills/resources/official-source-map.md
+The-Econometrics-Journal-Skills	The Econometrics Journal	econometrics/methods	field	empirical	international	The-Econometrics-Journal-Skills/resources/official-source-map.md
+AER-Insights-Skills	AER Insights	economics	field	empirical	international	AER-Insights-Skills/resources/official-source-map.md
+Annual-Review-of-Economics-Skills	Annual Review of Economics	economics	field	review	international	Annual-Review-of-Economics-Skills/resources/official-source-map.md
+China-Economic-Quarterly-Skills	China Economic Quarterly	economics	field	empirical	china	China-Economic-Quarterly-Skills/resources/official-source-map.md
+China-Industrial-Economics-Skills	China Industrial Economics	economics	field	empirical	china	China-Industrial-Economics-Skills/resources/official-source-map.md
+Economic-Research-Journal-Skills	Economic Research Journal	economics	中文经济学顶刊	empirical	china	Economic-Research-Journal-Skills/resources/official-source-map.md
+European-Economic-Review-Skills	European Economic Review	economics	field	empirical	international	European-Economic-Review-Skills/resources/official-source-map.md
+International-Economic-Review-Skills	International Economic Review	economics	field	empirical	international	International-Economic-Review-Skills/resources/official-source-map.md
+Journal-of-Economic-Literature-Skills	Journal of Economic Literature	economics	field	review	international	Journal-of-Economic-Literature-Skills/resources/official-source-map.md
+Journal-of-Economic-Perspectives-Skills	Journal of Economic Perspectives	economics	field	review/expository	international	Journal-of-Economic-Perspectives-Skills/resources/official-source-map.md
+Journal-of-Political-Economy-Skills	Journal of Political Economy	economics	top-5 econ	empirical	international	Journal-of-Political-Economy-Skills/resources/official-source-map.md
+Journal-of-the-European-Economic-Association-Skills	Journal of the European Economic Association	economics	field	empirical	international	Journal-of-the-European-Economic-Association-Skills/resources/official-source-map.md
+Quantitative-Economics-Skills	Quantitative Economics	economics	field	empirical	international	Quantitative-Economics-Skills/resources/official-source-map.md
+Quarterly-Journal-of-Economics-Skills	Quarterly Journal of Economics	economics	top-5 econ	empirical	international	Quarterly-Journal-of-Economics-Skills/resources/official-source-map.md
+Review-of-Economic-Studies-Skills	Review of Economic Studies	economics	top-5 econ	empirical	international	Review-of-Economic-Studies-Skills/resources/official-source-map.md
+The-Economic-Journal-Skills	The Economic Journal	economics	field	empirical	international	The-Economic-Journal-Skills/resources/official-source-map.md
+RAND-Journal-of-Economics-Skills	RAND Journal of Economics	economics/IO	field	empirical	international	RAND-Journal-of-Economics-Skills/resources/official-source-map.md
+China-Rural-Economy-Skills	China Rural Economy	economics/agricultural	field	empirical	china	China-Rural-Economy-Skills/resources/official-source-map.md
+AEJ-Applied-Economics-Skills	AEJ Applied Economics	economics/applied	field	empirical	international	AEJ-Applied-Economics-Skills/resources/official-source-map.md
+Review-of-Economics-and-Statistics-Skills	Review of Economics and Statistics	economics/applied	field	empirical	international	Review-of-Economics-and-Statistics-Skills/resources/official-source-map.md
+Journal-of-Risk-and-Uncertainty-Skills	Journal of Risk and Uncertainty	economics/decision	field	empirical	international	Journal-of-Risk-and-Uncertainty-Skills/resources/official-source-map.md
+Journal-of-Development-Economics-Skills	Journal of Development Economics	economics/development	field	empirical	international	Journal-of-Development-Economics-Skills/resources/official-source-map.md
+World-Bank-Economic-Review-Skills	World Bank Economic Review	economics/development	field	empirical	international	World-Bank-Economic-Review-Skills/resources/official-source-map.md
+Journal-of-Environmental-Economics-and-Management-Skills	Journal of Environmental Economics and Management	economics/environment	field	empirical	international	Journal-of-Environmental-Economics-and-Management-Skills/resources/official-source-map.md
+Experimental-Economics-Skills	Experimental Economics	economics/experimental	field	empirical	international	Experimental-Economics-Skills/resources/official-source-map.md
+Games-and-Economic-Behavior-Skills	Games and Economic Behavior	economics/game-theory	field	interpretive/theory	international	Games-and-Economic-Behavior-Skills/resources/official-source-map.md
+Journal-of-Economic-Geography-Skills	Journal of Economic Geography	economics/geography	field	empirical	international	Journal-of-Economic-Geography-Skills/resources/official-source-map.md
+Journal-of-Economic-Growth-Skills	Journal of Economic Growth	economics/growth	field	empirical	international	Journal-of-Economic-Growth-Skills/resources/official-source-map.md
+Journal-of-Health-Economics-Skills	Journal of Health Economics	economics/health	field	empirical	international	Journal-of-Health-Economics-Skills/resources/official-source-map.md
+IMF-Economic-Review-Skills	IMF Economic Review	economics/international	field	empirical	international	IMF-Economic-Review-Skills/resources/official-source-map.md
+Journal-of-International-Economics-Skills	Journal of International Economics	economics/international	field	empirical	international	Journal-of-International-Economics-Skills/resources/official-source-map.md
+Journal-of-World-Economy-Skills	Journal of World Economy	economics/international	field	empirical	china	Journal-of-World-Economy-Skills/resources/official-source-map.md
+Journal-of-Labor-Economics-Skills	Journal of Labor Economics	economics/labor	field	empirical	international	Journal-of-Labor-Economics-Skills/resources/official-source-map.md
+AEJ-Macroeconomics-Skills	AEJ Macroeconomics	economics/macro	field	empirical	international	AEJ-Macroeconomics-Skills/resources/official-source-map.md
+Journal-of-Monetary-Economics-Skills	Journal of Monetary Economics	economics/macro	field	empirical	international	Journal-of-Monetary-Economics-Skills/resources/official-source-map.md
+Review-of-Economic-Dynamics-Skills	Review of Economic Dynamics	economics/macro	field	empirical	international	Review-of-Economic-Dynamics-Skills/resources/official-source-map.md
+AEJ-Microeconomics-Skills	AEJ Microeconomics	economics/micro	field	empirical	international	AEJ-Microeconomics-Skills/resources/official-source-map.md
+AEJ-Economic-Policy-Skills	AEJ Economic Policy	economics/policy	field	empirical	international	AEJ-Economic-Policy-Skills/resources/official-source-map.md
+Economic-Policy-Skills	Economic Policy	economics/policy	field	empirical	international	Economic-Policy-Skills/resources/official-source-map.md
+Journal-of-Public-Economics-Skills	Journal of Public Economics	economics/public	field	empirical	international	Journal-of-Public-Economics-Skills/resources/official-source-map.md
+Journal-of-Economic-Theory-Skills	Journal of Economic Theory	economics/theory	field	theory	international	Journal-of-Economic-Theory-Skills/resources/official-source-map.md
+Journal-of-Urban-Economics-Skills	Journal of Urban Economics	economics/urban	field	empirical	international	Journal-of-Urban-Economics-Skills/resources/official-source-map.md
+American-Educational-Research-Journal-Skills	American Educational Research Journal	education	field	empirical	international	American-Educational-Research-Journal-Skills/resources/official-source-map.md
+Review-of-Educational-Research-Skills	Review of Educational Research	education	field	empirical	international	Review-of-Educational-Research-Skills/resources/official-source-map.md
+Entrepreneurship-Theory-and-Practice-Skills	Entrepreneurship Theory and Practice	entrepreneurship	field	empirical	international	Entrepreneurship-Theory-and-Practice-Skills/resources/official-source-map.md
+Journal-of-Business-Venturing-Skills	Journal of Business Venturing	entrepreneurship	field	empirical	international	Journal-of-Business-Venturing-Skills/resources/official-source-map.md
+Environmental-Science-and-Technology-Skills	Environmental Science and Technology	environment	field	empirical	international	Environmental-Science-and-Technology-Skills/resources/official-source-map.md
+Global-Environmental-Change-Skills	Global Environmental Change	environment	field	empirical	international	Global-Environmental-Change-Skills/resources/official-source-map.md
+Conservation-Biology-Skills	Conservation Biology	environment/ecology	field	empirical	international	Conservation-Biology-Skills/resources/official-source-map.md
+Global-Change-Biology-Skills	Global Change Biology	environment/ecology	field	empirical	international	Global-Change-Biology-Skills/resources/official-source-map.md
+Financial-Management-Skills	Financial Management	finance	field	empirical	international	Financial-Management-Skills/resources/official-source-map.md
+Journal-of-Banking-and-Finance-Skills	Journal of Banking and Finance	finance	field	empirical	international	Journal-of-Banking-and-Finance-Skills/resources/official-source-map.md
+Journal-of-Corporate-Finance-Skills	Journal of Corporate Finance	finance	field	empirical	international	Journal-of-Corporate-Finance-Skills/resources/official-source-map.md
+Journal-of-Finance-Skills	Journal of Finance	finance	top-3 finance	empirical	international	Journal-of-Finance-Skills/resources/official-source-map.md
+Journal-of-Finance-and-Economics-Skills	Journal of Finance and Economics	finance	field	empirical	china	Journal-of-Finance-and-Economics-Skills/resources/official-source-map.md
+Journal-of-Financial-Economics-Skills	Journal of Financial Economics	finance	top-3 finance	empirical	international	Journal-of-Financial-Economics-Skills/resources/official-source-map.md
+Journal-of-Financial-Intermediation-Skills	Journal of Financial Intermediation	finance	field	empirical	international	Journal-of-Financial-Intermediation-Skills/resources/official-source-map.md
+Journal-of-Financial-Markets-Skills	Journal of Financial Markets	finance	field	empirical	international	Journal-of-Financial-Markets-Skills/resources/official-source-map.md
+Journal-of-Financial-Research-Skills	Journal of Financial Research	finance	field	empirical	china	Journal-of-Financial-Research-Skills/resources/official-source-map.md
+Journal-of-Financial-and-Quantitative-Analysis-Skills	Journal of Financial and Quantitative Analysis	finance	field	empirical	international	Journal-of-Financial-and-Quantitative-Analysis-Skills/resources/official-source-map.md
+Journal-of-International-Money-and-Finance-Skills	Journal of International Money and Finance	finance	field	empirical	international	Journal-of-International-Money-and-Finance-Skills/resources/official-source-map.md
+Journal-of-Money-Credit-and-Banking-Skills	Journal of Money Credit and Banking	finance	field	empirical	international	Journal-of-Money-Credit-and-Banking-Skills/resources/official-source-map.md
+Mathematical-Finance-Skills	Mathematical Finance	finance	field	empirical	international	Mathematical-Finance-Skills/resources/official-source-map.md
+Review-of-Finance-Skills	Review of Finance	finance	field	empirical	international	Review-of-Finance-Skills/resources/official-source-map.md
+Review-of-Financial-Studies-Skills	Review of Financial Studies	finance	top-3 finance	empirical	international	Review-of-Financial-Studies-Skills/resources/official-source-map.md
+Annals-of-the-American-Association-of-Geographers-Skills	Annals of the American Association of Geographers	geography	field	empirical	international	Annals-of-the-American-Association-of-Geographers-Skills/resources/official-source-map.md
+Progress-in-Human-Geography-Skills	Progress in Human Geography	geography	field	empirical	international	Progress-in-Human-Geography-Skills/resources/official-source-map.md
+American-Historical-Review-Skills	American Historical Review	history	field	interpretive/theory	international	American-Historical-Review-Skills/resources/official-source-map.md
+PMLA-Skills	PMLA	humanities/literature	field	interpretive/theory	international	PMLA-Skills/resources/official-source-map.md
+Critical-Inquiry-Skills	Critical Inquiry	humanities/theory	field	interpretive/theory	international	Critical-Inquiry-Skills/resources/official-source-map.md
+Information-Systems-Research-Skills	Information Systems Research	information-systems	FT50 / UTD24	empirical	international	Information-Systems-Research-Skills/resources/official-source-map.md
+Journal-of-Management-Information-Systems-Skills	Journal of Management Information Systems	information-systems	field	empirical	international	Journal-of-Management-Information-Systems-Skills/resources/official-source-map.md
+Journal-of-the-Association-for-Information-Systems-Skills	Journal of the Association for Information Systems	information-systems	field	empirical	international	Journal-of-the-Association-for-Information-Systems-Skills/resources/official-source-map.md
+MIS-Quarterly-Skills	MIS Quarterly	information-systems	FT50 / UTD24	empirical	international	MIS-Quarterly-Skills/resources/official-source-map.md
+Research-Policy-Skills	Research Policy	innovation/science-policy	field	empirical	international	Research-Policy-Skills/resources/official-source-map.md
+Journal-of-International-Business-Studies-Skills	Journal of International Business Studies	international-business	field	empirical	international	Journal-of-International-Business-Studies-Skills/resources/official-source-map.md
+Harvard-Law-Review-Skills	Harvard Law Review	law	field	empirical	international	Harvard-Law-Review-Skills/resources/official-source-map.md
+Yale-Law-Journal-Skills	Yale Law Journal	law	field	empirical	international	Yale-Law-Journal-Skills/resources/official-source-map.md
+Journal-of-Law-and-Economics-Skills	Journal of Law and Economics	law-and-economics	field	empirical	international	Journal-of-Law-and-Economics-Skills/resources/official-source-map.md
+Cancer-Cell-Skills	Cancer Cell	life-sciences	field	empirical	international	Cancer-Cell-Skills/resources/official-source-map.md
+Cell-Skills	Cell	life-sciences	field	empirical	international	Cell-Skills/resources/official-source-map.md
+Academy-of-Management-Annals-Skills	Academy of Management Annals	management	field	review	international	Academy-of-Management-Annals-Skills/resources/official-source-map.md
+Academy-of-Management-Journal-Skills	Academy of Management Journal	management	FT50 / UTD24	empirical	international	Academy-of-Management-Journal-Skills/resources/official-source-map.md
+Academy-of-Management-Review-Skills	Academy of Management Review	management	FT50 / UTD24	theory	international	Academy-of-Management-Review-Skills/resources/official-source-map.md
+Administrative-Science-Quarterly-Skills	Administrative Science Quarterly	management	FT50 / UTD24	empirical	international	Administrative-Science-Quarterly-Skills/resources/official-source-map.md
+Human-Relations-Skills	Human Relations	management	field	empirical	international	Human-Relations-Skills/resources/official-source-map.md
+Human-Resource-Management-Skills	Human Resource Management	management	field	empirical	international	Human-Resource-Management-Skills/resources/official-source-map.md
+International-Organization-Skills	International Organization	management	field	empirical	international	International-Organization-Skills/resources/official-source-map.md
+Journal-of-Economic-Behavior-and-Organization-Skills	Journal of Economic Behavior and Organization	management	field	empirical	international	Journal-of-Economic-Behavior-and-Organization-Skills/resources/official-source-map.md
+Journal-of-Human-Resources-Skills	Journal of Human Resources	management	field	empirical	international	Journal-of-Human-Resources-Skills/resources/official-source-map.md
+Journal-of-Law-Economics-and-Organization-Skills	Journal of Law Economics and Organization	management	field	empirical	international	Journal-of-Law-Economics-and-Organization-Skills/resources/official-source-map.md
+Journal-of-Management-Skills	Journal of Management	management	field	empirical	international	Journal-of-Management-Skills/resources/official-source-map.md
+Journal-of-Management-Studies-Skills	Journal of Management Studies	management	field	empirical	international	Journal-of-Management-Studies-Skills/resources/official-source-map.md
+Journal-of-Management-World-Skills	Journal of Management World	management	中文管理顶刊	empirical	china	Journal-of-Management-World-Skills/resources/official-source-map.md
+Nankai-Business-Review-Skills	Nankai Business Review	management	field	empirical	china	Nankai-Business-Review-Skills/resources/official-source-map.md
+Organization-Science-Skills	Organization Science	management	field	empirical	international	Organization-Science-Skills/resources/official-source-map.md
+Organization-Studies-Skills	Organization Studies	management	field	qualitative/mixed	international	Organization-Studies-Skills/resources/official-source-map.md
+Strategic-Management-Journal-Skills	Strategic Management Journal	management	FT50 / UTD24	empirical	international	Strategic-Management-Journal-Skills/resources/official-source-map.md
+Journal-of-Management-Sciences-in-China-Skills	Journal of Management Sciences in China	management/OR	field	empirical	china	Journal-of-Management-Sciences-in-China-Skills/resources/official-source-map.md
+Journal-of-Consumer-Psychology-Skills	Journal of Consumer Psychology	marketing	field	empirical	international	Journal-of-Consumer-Psychology-Skills/resources/official-source-map.md
+Journal-of-Consumer-Research-Skills	Journal of Consumer Research	marketing	FT50 / UTD24	empirical	international	Journal-of-Consumer-Research-Skills/resources/official-source-map.md
+Journal-of-Marketing-Research-Skills	Journal of Marketing Research	marketing	FT50 / UTD24	empirical	international	Journal-of-Marketing-Research-Skills/resources/official-source-map.md
+Journal-of-Marketing-Skills	Journal of Marketing	marketing	FT50 / UTD24	empirical	international	Journal-of-Marketing-Skills/resources/official-source-map.md
+Journal-of-the-Academy-of-Marketing-Science-Skills	Journal of the Academy of Marketing Science	marketing	field	empirical	international	Journal-of-the-Academy-of-Marketing-Science-Skills/resources/official-source-map.md
+Marketing-Science-Skills	Marketing Science	marketing	FT50 / UTD24	empirical	international	Marketing-Science-Skills/resources/official-source-map.md
+Annals-of-Mathematics-Skills	Annals of Mathematics	mathematics	field	theory	international	Annals-of-Mathematics-Skills/resources/official-source-map.md
+JAMA-Skills	JAMA	medicine	field	empirical	international	JAMA-Skills/resources/official-source-map.md
+Lancet-Skills	Lancet	medicine	field	empirical	international	Lancet-Skills/resources/official-source-map.md
+NEJM-Skills	NEJM	medicine	field	empirical	international	NEJM-Skills/resources/official-source-map.md
+Management-Science-Skills	Management Science	natural-science	FT50 / UTD24	empirical	international	Management-Science-Skills/resources/official-source-map.md
+PNAS-Nexus-Skills	PNAS Nexus	natural-science	field	empirical	international	PNAS-Nexus-Skills/resources/official-source-map.md
+PNAS-Skills	PNAS	natural-science	field	empirical	international	PNAS-Skills/resources/official-source-map.md
+Science-Skills	Science	natural-science	field	empirical	international	Science-Skills/resources/official-source-map.md
+Journal-of-Operations-Management-Skills	Journal of Operations Management	operations	field	empirical	international	Journal-of-Operations-Management-Skills/resources/official-source-map.md
+Manufacturing-and-Service-Operations-Management-Skills	Manufacturing and Service Operations Management	operations	field	empirical	international	Manufacturing-and-Service-Operations-Management-Skills/resources/official-source-map.md
+Operations-Research-Skills	Operations Research	operations	FT50 / UTD24	empirical	international	Operations-Research-Skills/resources/official-source-map.md
+Production-and-Operations-Management-Skills	Production and Operations Management	operations	field	empirical	international	Production-and-Operations-Management-Skills/resources/official-source-map.md
+INFORMS-Journal-on-Computing-Skills	INFORMS Journal on Computing	operations/computing	field	empirical	international	INFORMS-Journal-on-Computing-Skills/resources/official-source-map.md
+Mind-Skills	Mind	philosophy	field	interpretive/theory	international	Mind-Skills/resources/official-source-map.md
+Physical-Review-Letters-Skills	Physical Review Letters	physics	field	empirical	international	Physical-Review-Letters-Skills/resources/official-source-map.md
+American-Journal-of-Political-Science-Skills	American Journal of Political Science	political-science	top-3 polisci	empirical	international	American-Journal-of-Political-Science-Skills/resources/official-source-map.md
+American-Political-Science-Review-Skills	American Political Science Review	political-science	top-3 polisci	empirical	international	American-Political-Science-Review-Skills/resources/official-source-map.md
+British-Journal-of-Political-Science-Skills	British Journal of Political Science	political-science	field	empirical	international	British-Journal-of-Political-Science-Skills/resources/official-source-map.md
+Comparative-Political-Studies-Skills	Comparative Political Studies	political-science	field	empirical	international	Comparative-Political-Studies-Skills/resources/official-source-map.md
+Journal-of-Politics-Skills	Journal of Politics	political-science	field	empirical	international	Journal-of-Politics-Skills/resources/official-source-map.md
+World-Politics-Skills	World Politics	political-science	field	empirical	international	World-Politics-Skills/resources/official-source-map.md
+Annual-Review-of-Psychology-Skills	Annual Review of Psychology	psychology	field	empirical	international	Annual-Review-of-Psychology-Skills/resources/official-source-map.md
+Cognitive-Psychology-Skills	Cognitive Psychology	psychology	field	empirical	international	Cognitive-Psychology-Skills/resources/official-source-map.md
+Developmental-Psychology-Skills	Developmental Psychology	psychology	field	empirical	international	Developmental-Psychology-Skills/resources/official-source-map.md
+Journal-of-Personality-and-Social-Psychology-Skills	Journal of Personality and Social Psychology	psychology	flagship psych	empirical	international	Journal-of-Personality-and-Social-Psychology-Skills/resources/official-source-map.md
+Perspectives-on-Psychological-Science-Skills	Perspectives on Psychological Science	psychology	field	empirical	international	Perspectives-on-Psychological-Science-Skills/resources/official-source-map.md
+Psychological-Bulletin-Skills	Psychological Bulletin	psychology	flagship psych (review)	review/meta	international	Psychological-Bulletin-Skills/resources/official-source-map.md
+Psychological-Review-Skills	Psychological Review	psychology	field	theory	international	Psychological-Review-Skills/resources/official-source-map.md
+Psychological-Science-Skills	Psychological Science	psychology	field	empirical	international	Psychological-Science-Skills/resources/official-source-map.md
+Journal-of-Educational-Psychology-Skills	Journal of Educational Psychology	psychology/education	field	empirical	international	Journal-of-Educational-Psychology-Skills/resources/official-source-map.md
+Journal-of-Applied-Psychology-Skills	Journal of Applied Psychology	psychology/organizational	field	empirical	international	Journal-of-Applied-Psychology-Skills/resources/official-source-map.md
+Chinese-Public-Administration-Skills	Chinese Public Administration	public-admin	field	empirical	china	Chinese-Public-Administration-Skills/resources/official-source-map.md
+Governance-Journal-Skills	Governance Journal	public-admin	field	empirical	international	Governance-Journal-Skills/resources/official-source-map.md
+Journal-of-Public-Administration-Research-and-Theory-Skills	Journal of Public Administration Research and Theory	public-admin	field	empirical	international	Journal-of-Public-Administration-Research-and-Theory-Skills/resources/official-source-map.md
+Public-Administration-Review-Skills	Public Administration Review	public-admin	field	empirical	international	Public-Administration-Review-Skills/resources/official-source-map.md
+Journal-of-Policy-Analysis-and-Management-Skills	Journal of Policy Analysis and Management	public-policy	field	empirical	international	Journal-of-Policy-Analysis-and-Management-Skills/resources/official-source-map.md
+Journal-of-the-American-Academy-of-Religion-Skills	Journal of the American Academy of Religion	religion	field	interpretive/theory	international	Journal-of-the-American-Academy-of-Religion-Skills/resources/official-source-map.md
+Social-Sciences-in-China-Skills	Social Sciences in China	social-science (general)	中文综合顶刊	theory/argumentative	china	Social-Sciences-in-China-Skills/resources/official-source-map.md
+American-Journal-of-Sociology-Skills	American Journal of Sociology	sociology	top-3 sociology	empirical	international	American-Journal-of-Sociology-Skills/resources/official-source-map.md
+American-Sociological-Review-Skills	American Sociological Review	sociology	top-3 sociology	empirical	international	American-Sociological-Review-Skills/resources/official-source-map.md
+Annual-Review-of-Sociology-Skills	Annual Review of Sociology	sociology	field	empirical	international	Annual-Review-of-Sociology-Skills/resources/official-source-map.md
+European-Sociological-Review-Skills	European Sociological Review	sociology	field	empirical	international	European-Sociological-Review-Skills/resources/official-source-map.md
+Social-Forces-Skills	Social Forces	sociology	field	empirical	international	Social-Forces-Skills/resources/official-source-map.md
+Sociological-Methods-and-Research-Skills	Sociological Methods and Research	sociology	field	empirical	international	Sociological-Methods-and-Research-Skills/resources/official-source-map.md
+Sociological-Studies-Skills	Sociological Studies	sociology	field	mixed	china	Sociological-Studies-Skills/resources/official-source-map.md
+Sociological-Theory-Skills	Sociological Theory	sociology	field	theory	international	Sociological-Theory-Skills/resources/official-source-map.md
+Journal-of-Marriage-and-Family-Skills	Journal of Marriage and Family	sociology/demography	field	empirical	international	Journal-of-Marriage-and-Family-Skills/resources/official-source-map.md
+Social-Psychology-Quarterly-Skills	Social Psychology Quarterly	sociology/social-psych	field	empirical	international	Social-Psychology-Quarterly-Skills/resources/official-source-map.md
