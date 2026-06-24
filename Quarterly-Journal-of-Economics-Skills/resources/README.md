@@ -25,6 +25,10 @@ empirical-craft prose is shared across journal packs and lives in the repo's sha
 - [`../../shared-resources/empirical-methods/reporting-standards.md`](../../shared-resources/empirical-methods/reporting-standards.md)
   — what every empirical result must report (estimator, SE/clustering, sample, diagnostics) to clear a
   top-5 reviewer.
+- [`../../shared-resources/empirical-methods/execution-with-mcp.md`](../../shared-resources/empirical-methods/execution-with-mcp.md)
+  — **the last mile: guidance → a fitted, audited result.** Maps each design family / reviewer objection to
+  the concrete StatsPAI / Stata MCP tools in this environment, so `qje-identification` and `qje-robustness`
+  *run* the modern DiD / weak-IV-robust CI / multiple-testing correction and report the number.
 
 The [`code/`](code/) directory is **vendored** from
 [`../../shared-resources/empirical-methods/code`](../../shared-resources/empirical-methods/code) so this

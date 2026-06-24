@@ -51,6 +51,20 @@ QJE has moved firmly toward **figure-forward presentation** — the Opportunity 
 - [ ] Confidence intervals / bands shown on figures
 - [ ] Figures embedded and legible in the single submission PDF; numbered, author-date citations
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result rather than retyping numbers (the usual source
+of body-vs-appendix drift). Full map:
+[`shared-resources/empirical-methods/execution-with-mcp.md`](../../../shared-resources/empirical-methods/execution-with-mcp.md).
+
+- **Tables:** `etable` (multi-column) or `did_summary_to_latex` straight from the
+  `result_id` — one definition, one set of numbers, body and appendix in sync.
+- **Event-study / coefficient figures:** `plot_from_result`, `enhanced_event_study_plot`,
+  `event_study_table` — axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering (from the result's diagnostics) and
+  states the magnitude in interpretable units. See a full fitted-result → exhibit chain
+  in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
+
 ## Anti-patterns
 
 - A 9-column main table when a single event-study figure would carry the result

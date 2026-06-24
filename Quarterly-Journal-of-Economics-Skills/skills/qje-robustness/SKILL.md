@@ -33,6 +33,25 @@ QJE imposes **no hard page limit** and the modern QJE empirical paper carries a 
 | The headline robustness figure (e.g., event study)     | All variant tables, by category                          |
 | A sentence summarizing each appendix result            | Data construction, variable definitions, extra proofs    |
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the robustness battery, don't just enumerate it. Full map:
+[`shared-resources/empirical-methods/execution-with-mcp.md`](../../../shared-resources/empirical-methods/execution-with-mcp.md). QJE instantiation:
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down, FWER, accounts for
+  cross-test correlation) or `benjamini_hochberg` — report the adjusted threshold, not
+  a grid of naive stars.
+- **OVB sensitivity:** `oster_delta` / `sensemakr` — quantify the confounder strength
+  that would overturn the headline.
+- **Inference:** `wild_cluster_bootstrap` with few clusters; `twoway_cluster` /
+  `conley` where the dependence structure demands it.
+- **Re-fit off one handle:** `audit_result(result_id)` lists the missing checks and the
+  exact `suggest_function` to run for each — no guessing the battery.
+- **Emit appendix-ready exhibits** with `etable` / `did_summary_to_latex`.
+
+Keep the decisive checks in the body and the exhaustive (now actually-run) battery in
+the appendix; preserve the scripts for `qje-replication-package`.
+
 ## Checklist
 
 - [ ] Every identification threat has a corresponding check, named and reported

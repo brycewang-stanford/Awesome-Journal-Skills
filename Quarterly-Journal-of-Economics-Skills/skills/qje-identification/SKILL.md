@@ -61,6 +61,27 @@ Note the QJE-specific twist: a *novel, hard-to-assemble dataset answering a firs
 - Are the new facts disciplined against measurement error and alternative explanations?
 - Is there a clear conceptual lesson the facts deliver to all of economics, not one subfield?
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+A QJE identification claim should be **estimated and audited**, not just argued. Full
+map: [`shared-resources/empirical-methods/execution-with-mcp.md`](../../../shared-resources/empirical-methods/execution-with-mcp.md). QJE applied-micro instantiation:
+
+1. `detect_design` → `recommend` → fit with `as_handle=true`, then `audit_result` to
+   enumerate the checks the design still owes.
+2. **Staggered DiD:** `callaway_santanna` / `sun_abraham` (never bare TWFE); show the
+   `bacon_decomposition` weight you are correcting; `honest_did_from_result`
+   (Rambachan–Roth) because the pre-trend test is low-power (Roth 2022).
+3. **IV:** `effective_f_test` + an `anderson_rubin_ci` (valid under weak instruments),
+   not a 2SLS t-stat alone.
+4. **RDD:** `rdrobust` (bias-corrected) + `rddensity`/`mccrary_test` for manipulation.
+5. **OVB:** `oster_delta` / `sensemakr` to state how strong a confounder must be.
+
+Report the **economic magnitude** the QJE body expects; route the full diagnostic
+battery to the appendix, and keep every number reproducible for `qje-replication-package`.
+If StatsPAI/Stata are not connected, adapt the vendored `resources/code/` skeleton and
+flag any unverified number. A run end-to-end (synthetic data, real returns) is in the
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
+
 ## Checklist
 
 - [ ] Identifying variation named in one sentence and defended as exogenous
