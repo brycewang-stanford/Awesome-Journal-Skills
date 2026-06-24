@@ -1,7 +1,7 @@
 # Awesome Journal Skills (AJS)
 
 <p align="center">
-  <img src="assets/banner-zh.png" alt="Awesome Journal Skills (AJS) — 按「期刊」定制的一站式 AI 投稿工作流索引：2895 个 Agent Skill、194 个 Pack、519 本顶级期刊、155 个 CS/AI 顶会" width="100%">
+  <img src="assets/banner-zh.png" alt="Awesome Journal Skills (AJS) — 按「期刊」定制的一站式 AI 投稿工作流索引：2902 个 Agent Skill、195 个 Pack、519 本顶级期刊、155 个 CS/AI 顶会" width="100%">
 </p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -368,7 +368,7 @@
 | <a id="discipline-agri-env-earth"></a>🌱 **农业·环境·地球科学** | 农业系统 · 作物 · 环境科学 · 气候 · 生态保护 · 地球系统 | Field Crops Research · Agricultural Systems · ES&T · Global Environmental Change · Conservation Biology · Global Change Biology | 深度包 + 农业环境广度合集 |
 | <a id="discipline-sport-science"></a>🏅 **体育科学** | 运动训练 · 体育教育 · 运动人体科学 · 体育社会科学 | 《体育科学》·《北京体育大学学报》·《上海体育学院学报》 | 中文体育学广度合集 |
 
-<sub>共 <b>194 个 pack / 2895 个 skill</b>。"深度包"= 单刊单会全流程（约 12 个 skill）；"广度合集"= 每个 venue 一个轻量"选刊定位 + 写作风格"skill 加一个 router。</sub>
+<sub>共 <b>195 个 pack / 2902 个 skill</b>。"深度包"= 单刊单会全流程（约 12 个 skill）；"广度合集"= 每个 venue 一个轻量"选刊定位 + 写作风格"skill 加一个 router。</sub>
 
 ---
 
@@ -392,7 +392,7 @@
 
 ## 📂 根目录 200 个期刊文件夹
 
-为了让用户在仓库首页的根目录就能看到完整的社科期刊阵列，现在 200 本广度合集期刊各有一个轻量入口文件夹：100 本中文经管路线图期刊使用拼音目录名，100 本英文经管 / 商科期刊使用英文题名目录名。这些目录只负责导航；真正可安装的 `SKILL.md` 仍保留在对应 bundle 内，因此插件路径和 2895 个 skill 的计数不会被重复放大。
+为了让用户在仓库首页的根目录就能看到完整的社科期刊阵列，现在 200 本广度合集期刊各有一个轻量入口文件夹：100 本中文经管路线图期刊使用拼音目录名，100 本英文经管 / 商科期刊使用英文题名目录名。这些目录只负责导航；真正可安装的 `SKILL.md` 仍保留在对应 bundle 内，因此插件路径和 2902 个 skill 的计数不会被重复放大。
 
 ### 中文经管路线图 · 100 个拼音目录
 
@@ -1185,7 +1185,7 @@
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | 选题 → 写作 → 发表（Claude Code / OpenCode / Codex） | upstream |
 | **Codex/Claude 学术 Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | 阅读 · 写作 · 科学计算 | upstream |
 
-<sub><b>计数口径。</b> 首页 <b>2895</b> = 仓库内全部 <code>SKILL.md</code>，分布在 <b>194 个 pack</b> 中。九个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。两段对账：<b>2227</b>（185 个仓库内深度包，单刊/单会全流程，每包约 12 个 skill）+ <b>668</b>（9 个广度合集：中文社科 103 + 英文社科 101 + 英文自然科学 155 + 工程技术 41 + 农业环境 31 + 临床医学 31 + 英文人文 37 + 中文体育 13 + CS 会议 156）= <b>2895</b>。AER、Nature 系等第三方包以外链形式收录，不再 vendored，故不计入本仓库的 SKILL.md 计数。该数字由 <code>python3 tools/audit_repo.py</code> 在 CI 中强制校验，README 与实际文件数不允许漂移。</sub>
+<sub><b>计数口径。</b> 首页 <b>2902</b> = 仓库内全部 <code>SKILL.md</code>，分布在 <b>195 个 pack</b> 中。九个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。三段对账：<b>2227</b>（185 个仓库内深度包，单刊/单会全流程，每包约 12 个 skill）+ <b>668</b>（9 个广度合集：中文社科 103 + 英文社科 101 + 英文自然科学 155 + 工程技术 41 + 农业环境 31 + 临床医学 31 + 英文人文 37 + 中文体育 13 + CS 会议 156）+ <b>7</b>（1 个跨刊工具包 Research-Toolkit-Skills，按投稿生命周期组织：选刊→执行→就绪→预演→回应→复现）= <b>2902</b>。AER、Nature 系等第三方包以外链形式收录，不再 vendored，故不计入本仓库的 SKILL.md 计数。该数字由 <code>python3 tools/audit_repo.py</code> 在 CI 中强制校验，README 与实际文件数不允许漂移。</sub>
 
 ---
 
@@ -1398,7 +1398,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 
 ## 🗺 路线图
 
-**进度：** 九个广度合集已全部落地（含 AI 优先 CS 会议合集、工程技术合集、农业·环境合集、临床医学合集、英文人文合集与中文体育学合集）；深度包已从经管社科扩展到**人文与广义社科**（社会学、人类学、法学、地理学、政治学、心理学、人口、传播、历史、艺术、哲学、文学、宗教共 51 本旗舰刊）以及**环境 / 生态 / 农业** 6 本，全仓库现共 **194 个 pack / 2895 个 skill**。路线图现在聚焦下一梯队的扩展。
+**进度：** 九个广度合集已全部落地（含 AI 优先 CS 会议合集、工程技术合集、农业·环境合集、临床医学合集、英文人文合集与中文体育学合集）；深度包已从经管社科扩展到**人文与广义社科**（社会学、人类学、法学、地理学、政治学、心理学、人口、传播、历史、艺术、哲学、文学、宗教共 51 本旗舰刊）以及**环境 / 生态 / 农业** 6 本，全仓库现共 **195 个 pack / 2902 个 skill**。路线图现在聚焦下一梯队的扩展。
 
 ### ✅ 已落地
 

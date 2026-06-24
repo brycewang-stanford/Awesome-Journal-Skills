@@ -1,0 +1,23 @@
+{
+  "name": "research-toolkit-skills",
+  "description": "Cross-journal author workflow toolkit: pick the venue (journal-match across 185+ packs), run the analysis through the StatsPAI / Stata MCP execution bridge, self-check submission readiness, rehearse a calibrated referee panel, draft the point-by-point response, and assemble a Data-Editor replication package. Venue-neutral; reads each target pack's skills + official-source-map for the venue bar and live facts. Pairs with the per-journal depth packs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "journal-selection",
+    "submission-strategy",
+    "causal-inference",
+    "statspai",
+    "simulated-referee",
+    "response-to-referees",
+    "replication-package",
+    "academic-workflow",
+    "cross-journal"
+  ]
+}

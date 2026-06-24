@@ -1365,6 +1365,13 @@
       "description": "Twelve-skill bundle covering the The Yale Law Journal (YLJ) manuscript lifecycle for Articles, Essays, Features, student Notes & Comments, and the online YLJ Forum.",
       "version": "0.1.0",
       "category": "academic"
+    },
+    {
+      "name": "research-toolkit-skills",
+      "source": "./Research-Toolkit-Skills",
+      "description": "Cross-journal author workflow toolkit (7 skills): venue selection (journal-match), the StatsPAI / Stata MCP execution bridge, submission-readiness self-check, simulated referee, response-to-referees, and replication-package assembly. Complements the per-journal depth packs.",
+      "version": "0.1.0",
+      "category": "academic"
     }
   ]
 }

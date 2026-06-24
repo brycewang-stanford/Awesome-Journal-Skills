@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "research-toolkit-skills",
+  "version": "0.1.0",
+  "description": "Cross-journal author workflow toolkit — venue selection, MCP execution bridge, submission-readiness self-check, simulated referee, response-to-referees, and replication-package assembly. Complements the per-journal depth packs.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "research-toolkit-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Seven cross-journal author-workflow skills: rt-workflow router, rt-journal-match, rt-execution-bridge, rt-submission-readiness, rt-simulated-referee, rt-response-to-referees, rt-replication-package.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "journal-selection",
+        "submission-strategy",
+        "simulated-referee",
+        "replication-package",
+        "academic-workflow"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/rt-workflow",
+        "skills/rt-journal-match",
+        "skills/rt-execution-bridge",
+        "skills/rt-submission-readiness",
+        "skills/rt-simulated-referee",
+        "skills/rt-response-to-referees",
+        "skills/rt-replication-package"
+      ]
+    }
+  ]
+}
