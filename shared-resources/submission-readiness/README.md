@@ -20,6 +20,7 @@ submission-readiness →  pass the bar before submitting   (this folder)
 |---|---|
 | [`readiness-checklist.md`](readiness-checklist.md) | A venue-parameterized **go/no-go scorecard** run on the *user's* manuscript: fit, identification/method, robustness/inference, exhibits, exposition, venue mechanics (page limit / anonymization / fee / data-&-code policy), reproducibility. Per-dimension PASS / FLAG / FAIL + the blocking gaps. |
 | [`simulated-referee.md`](simulated-referee.md) | A multi-agent **referee protocol**: an AE desk-screen + 2–3 distinct-lens referees calibrated to the venue, adversarially verified, synthesized into a referee report + a recommendation + a prioritized, skill-mapped fix list. |
+| [`response-to-referees.md`](response-to-referees.md) | Turn a referee report (real R&R or the simulated rehearsal) into a **point-by-point response letter + revision plan** — editor first, every comment answered, each empirical fix backed by a real re-run via the pack skill + execution bridge. |
 
 ## Design principle (same as the other capabilities)
 
