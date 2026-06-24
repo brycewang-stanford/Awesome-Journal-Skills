@@ -111,9 +111,27 @@ pass, `clone_audit` 0 warnings (2895 skills / 345 groups), scorecard mean 93.6.
 
 - Rollout scripts (bilingual, idempotent) live in the session scratchpad; re-run safe.
 
-## Next (optional, beyond this campaign)
+## Follow-ups — DONE (the strategic-review P0/P1 loop is complete)
 
-- Run the loop on real data for one or two more design families (IV, RDD) to add
-  worked-examples alongside the JF DiD walkthrough.
-- Consider the P1 items from the strategic review: a cross-journal `journal-match`
-  meta-skill and a submission-readiness / simulated-referee pass.
+The three cross-journal capabilities now form a closed loop — **pick → execute → pass the
+bar before submitting**:
+
+- **Execute (P0).** Execution bridge wired to 131/134 empirical depth packs, validated
+  with real StatsPAI runs across all three core design families:
+  `Journal-of-Finance-Skills/.../02-execution-walkthrough.md` (DiD),
+  `shared-resources/empirical-methods/worked-examples/iv-walkthrough.md` (IV),
+  `…/rdd-walkthrough.md` (RDD) — every number a real tool return.
+- **Pick (P1).** `shared-resources/journal-selection/` — `journal-match.md` methodology +
+  `venue-index.tsv` (185-pack stable index) + `tools/gen_venue_index.py`. Validated
+  end-to-end on a finance example (index → candidates → live source-map facts).
+- **Pass the bar (P1).** `shared-resources/submission-readiness/` — `readiness-checklist.md`
+  go/no-go + `simulated-referee.md` multi-agent protocol +
+  `worked-example-referee-report.md` (a real AE + 2-referee run on the fictional JF
+  cov-lite paper).
+
+### Still open (future, optional)
+
+- Promote the three shared capabilities to formally installable skills once the
+  skill/pack-count tripwires (`audit_repo.py`) and the root-README badges can be bumped
+  without colliding with the live-check campaign.
+- More real-run worked-examples (synthetic control, DML) alongside DiD/IV/RDD.
