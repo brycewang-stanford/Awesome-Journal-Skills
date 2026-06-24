@@ -40,6 +40,22 @@ Use measures with precedent in prior RAST/JAR/JAE/TAR work (discretionary accrua
 
 RAST does not run JAE's mandatory archive or JAR's posted package as the headline, but referees and the editor still expect a credible, reconstructable sample. Keep top-to-bottom runnable scripts that regenerate every table from raw extracts; document **screens, vintages, and access dates** for each source; respect database terms of use. If the work entered through the **RAST Conference** path, keep the version history clean for the conference-issue timeline. Confirm current data/code expectations on the official page (待核实; 检索于 2026-06).
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). RAST is empirical accounting; emphasize identification of disclosure / governance effects and the multiple-testing haircut for mined associations.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
+  `benjamini_hochberg` — report the adjusted threshold.
+- **OVB sensitivity:** `oster_delta` / `sensemakr`.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`;
+  multilevel data → cluster at the right level.
+- **Re-fit off one handle:** `audit_result(result_id)` lists the missing checks and the
+  exact `suggest_function` for each.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Keep the decisive checks in the body and the exhaustive battery in the appendix. See the
+executed chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] SE clustering matches the design (firm / firm-and-year; wild bootstrap if few clusters), stated explicitly

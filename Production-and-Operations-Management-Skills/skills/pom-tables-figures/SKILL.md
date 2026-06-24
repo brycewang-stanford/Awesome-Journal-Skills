@@ -30,6 +30,19 @@ POM's **32-page** limit *counts* tables, figures, appendices, and references (1.
 - Ensure a Department Editor can grasp the contribution from the first one or two exhibits.
 - Avoid duplicating main-paper content in appendices or the e-companion.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers (the usual source of
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). POM spans analytical and empirical OM; apply the chain below to its empirical-OM papers, and note when a contribution is analytical / optimization.
+
+- **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
+  `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the effect size in
+  interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Core insight exhibits in the main paper; depth in the e-companion

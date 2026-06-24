@@ -38,6 +38,22 @@ JM prizes evidence that travels to real decisions. Strengthen the design by: sec
 
 JM requires a replication packet at conditional acceptance and **encourages preregistration**. Build this in now: preregister experiments (you will later supply anonymized links and an attestation), version-control analysis scripts, and log sample-construction and exclusion rules as you go — not retroactively.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+For the **empirical / causal lane**, estimate and audit rather than only specify. Full
+map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JM is empirical marketing — field experiments, panel/CRM data, and quasi-experiments; randomization inference for experiments, DiD / IV for observational claims.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to
+  enumerate the checks the design owes.
+- **Panel / staggered DiD:** `callaway_santanna` / `sun_abraham` + `bacon_decomposition`
+  + `honest_did_from_result`. **IV:** `effective_f_test` + `anderson_rubin_ci`. **RDD:**
+  `rdrobust` + `mccrary_test`.
+- **Experiments:** randomization-based inference and `romano_wolf` for the many-outcome
+  family-wise correction reviewers expect.
+
+Match the toolchain to the **reviewer pool**, and report the effect size the venue
+wants. A run end-to-end (synthetic data, real returns) is in the
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Method chosen to fit the substantive claim, not for sophistication

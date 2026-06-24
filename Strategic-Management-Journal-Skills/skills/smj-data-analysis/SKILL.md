@@ -56,6 +56,22 @@ Pick from the threat named in `smj-methods`; usually you will combine FE with on
 - **Robustness battery (report, do not bury):** alternative DVs; alternative samples (drop dominant industries/years); alternative estimators; clustering choices; prior performance; survivorship. Where feasible, show sensitivity to the identifying assumption (partial-identification / bounding).
 - **Inference:** cluster standard errors at the level of treatment assignment (often firm); justify the choice.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). SMJ is strategy — firm-level panels where strategic choices are endogenous; foreground IV / DiD identification and the endogeneity-of-strategy objection.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
+  `benjamini_hochberg` — report the adjusted threshold.
+- **OVB sensitivity:** `oster_delta` / `sensemakr`.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`;
+  multilevel data → cluster at the right level.
+- **Re-fit off one handle:** `audit_result(result_id)` lists the missing checks and the
+  exact `suggest_function` for each.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Keep the decisive checks in the body and the exhaustive battery in the appendix. See the
+executed chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] The identifying threat is stated and the matching tool is deployed

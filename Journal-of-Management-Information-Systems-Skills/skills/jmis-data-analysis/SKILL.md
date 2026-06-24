@@ -44,6 +44,22 @@ A referee writes "the result is not robust." A weak reply adds ten specification
 
 Suppose the main coefficient implies the ranking redesign cut marginal-seller retention by 6 percentage points. State it that way, then carry it to the platform decision: at the observed seller base that is roughly N exits per quarter and a Y% variety reduction (illustrative). A JMIS reader wants the economic magnitude and its managerial reading, not just `p < 0.01`.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JMIS is empirical IS — survey-based SEM and econometric panels; the chain below serves causal / quasi-experimental designs and many-outcome corrections.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
+  `benjamini_hochberg` — report the adjusted threshold.
+- **OVB sensitivity:** `oster_delta` / `sensemakr`.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`;
+  multilevel data → cluster at the right level.
+- **Re-fit off one handle:** `audit_result(result_id)` lists the missing checks and the
+  exact `suggest_function` for each.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Keep the decisive checks in the body and the exhaustive battery in the appendix. See the
+executed chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Empirical: identifying variation named; modern estimator where TWFE would bias; endogeneity addressed, not just controlled

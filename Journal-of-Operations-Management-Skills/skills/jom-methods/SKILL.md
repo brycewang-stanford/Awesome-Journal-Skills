@@ -37,6 +37,22 @@ JOM formally houses **Intervention Based Research**, where researchers actively 
 
 JOM's Empirical Research Methods Department performs method checks on incoming empirical submissions. Defend, up front: sampling frame and response/coverage, construct operationalization, identification strategy (for causal claims), common-method separations (for survey), and reproducibility of secondary-data construction. Weak identification or unvalidated measures stall here.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+For the **empirical / causal lane**, estimate and audit rather than only specify. Full
+map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JOM is empirical operations / supply-chain — survey and archival panel data; foreground endogeneity of operational choices and clustered / multilevel inference.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to
+  enumerate the checks the design owes.
+- **Panel / staggered DiD:** `callaway_santanna` / `sun_abraham` + `bacon_decomposition`
+  + `honest_did_from_result`. **IV:** `effective_f_test` + `anderson_rubin_ci`. **RDD:**
+  `rdrobust` + `mccrary_test`.
+- **Experiments:** randomization-based inference and `romano_wolf` for the many-outcome
+  family-wise correction reviewers expect.
+
+Match the toolchain to the **reviewer pool**, and report the effect size the venue
+wants. A run end-to-end (synthetic data, real returns) is in the
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Anti-patterns
 
 - An optimization or pure simulation model presented as the empirical contribution.

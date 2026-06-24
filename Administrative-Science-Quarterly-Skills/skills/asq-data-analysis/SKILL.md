@@ -37,6 +37,22 @@ ASQ expects readers to *see how raw data became theory* — its guidelines stres
 - Distinguish what the data *can* and *cannot* establish — overclaiming is a fast path to rejection.
 - Prepare the exhibits jointly with `asq-tables-figures`.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). ASQ wants a clean causal or well-identified observational design behind an organizational-theory contribution; reduced-form estimation fits the chain below, interpretive work does not.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
+  `benjamini_hochberg` — report the adjusted threshold.
+- **OVB sensitivity:** `oster_delta` / `sensemakr`.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`;
+  multilevel data → cluster at the right level.
+- **Re-fit off one handle:** `audit_result(result_id)` lists the missing checks and the
+  exact `suggest_function` for each.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Keep the decisive checks in the body and the exhaustive battery in the appendix. See the
+executed chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Qual: data structure (first-order → second-order → dimensions) is documented

@@ -46,6 +46,19 @@ For a JOM meta-analysis the exhibits *are* the evidence. The moderator table sho
 
 In a JOM empirical paper the model figure is the single most consulted exhibit: reviewers use it to check that the hypotheses, the methods, and the results all line up. Draw it so the antecedent, mechanism (mediator), moderator, and outcome are each a labeled box; put the hypothesis number on each path; and show the moderator entering on the path it is theorized to qualify, not floating beside it. If a path in the figure has no corresponding hypothesis, or a hypothesis has no path, a reviewer will read it as sloppiness about the theory. Keep control variables out of the figure.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers (the usual source of
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Journal of Management covers empirical management broadly (including meta-analysis); the chain below serves primary causal / panel work.
+
+- **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
+  `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the effect size in
+  interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Table 1 has means, SDs, reliabilities on the diagonal, correlations, Ns, and a clean note

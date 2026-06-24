@@ -52,6 +52,22 @@ State the **identifying threat** explicitly, then the design that defeats it:
 
 Name the design here; `smj-data-analysis` executes and stress-tests it.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+For the **empirical / causal lane**, estimate and audit rather than only specify. Full
+map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). SMJ is strategy — firm-level panels where strategic choices are endogenous; foreground IV / DiD identification and the endogeneity-of-strategy objection.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to
+  enumerate the checks the design owes.
+- **Panel / staggered DiD:** `callaway_santanna` / `sun_abraham` + `bacon_decomposition`
+  + `honest_did_from_result`. **IV:** `effective_f_test` + `anderson_rubin_ci`. **RDD:**
+  `rdrobust` + `mccrary_test`.
+- **Experiments:** randomization-based inference and `romano_wolf` for the many-outcome
+  family-wise correction reviewers expect.
+
+Match the toolchain to the **reviewer pool**, and report the effect size the venue
+wants. A run end-to-end (synthetic data, real returns) is in the
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Population, frame, time window, and unit of analysis are explicit and matched to theory

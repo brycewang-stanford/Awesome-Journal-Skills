@@ -38,6 +38,19 @@ At HR, exhibits are part of the *theoretical* apparatus, not an appendix of proo
 - **Anonymize all exhibits** for double-anonymous review: no organization names, no identifying figures, no author-revealing acknowledgements in notes.
 - Figures should be legible in greyscale and at the journal's column width.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers (the usual source of
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Human Relations blends critical/qualitative and quantitative work; apply the chain below to its survey / experimental quantitative papers.
+
+- **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
+  `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the effect size in
+  interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Qual: a data-structure figure shows codes → themes → dimensions

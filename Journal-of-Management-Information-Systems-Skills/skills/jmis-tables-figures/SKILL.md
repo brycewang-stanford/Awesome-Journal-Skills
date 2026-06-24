@@ -42,6 +42,19 @@ A draft Table 3 reports `redesign × post = −0.062 (0.018)***` and nothing els
 
 Order is part of the argument: (1) descriptives/balance establish the sample and comparability; (2) the main effect table/figure delivers the headline with magnitude; (3) the mechanism exhibit shows *why* (mediation, heterogeneity, the channel); (4) robustness shows the threat-by-threat survival. A reader should be able to reconstruct the paper's logic from the exhibit sequence alone. Resist the temptation to front-load a dramatic figure before the reader can interpret it.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers (the usual source of
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JMIS is empirical IS — survey-based SEM and econometric panels; the chain below serves causal / quasi-experimental designs and many-outcome corrections.
+
+- **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
+  `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the effect size in
+  interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Every exhibit is self-contained (title, variables, units, sample, period, note)

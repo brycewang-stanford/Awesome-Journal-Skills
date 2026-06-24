@@ -37,6 +37,22 @@ POM explicitly places **no restriction on research methods**, while being histor
 
 A method exists to serve an **OM contribution** judged interesting to practicing managers. If the paper's value is mainly a technical advance with thin OM decision content, a methods journal may fit better. Keep heavy derivations, solver details, and extra robustness for the unlimited online **e-companion** so the 32-page main document stays focused.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+For the **empirical / causal lane**, estimate and audit rather than only specify. Full
+map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). POM spans analytical and empirical OM; apply the chain below to its empirical-OM papers, and note when a contribution is analytical / optimization.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to
+  enumerate the checks the design owes.
+- **Panel / staggered DiD:** `callaway_santanna` / `sun_abraham` + `bacon_decomposition`
+  + `honest_did_from_result`. **IV:** `effective_f_test` + `anderson_rubin_ci`. **RDD:**
+  `rdrobust` + `mccrary_test`.
+- **Experiments:** randomization-based inference and `romano_wolf` for the many-outcome
+  family-wise correction reviewers expect.
+
+Match the toolchain to the **reviewer pool**, and report the effect size the venue
+wants. A run end-to-end (synthetic data, real returns) is in the
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Method matches the operations question and the target Department

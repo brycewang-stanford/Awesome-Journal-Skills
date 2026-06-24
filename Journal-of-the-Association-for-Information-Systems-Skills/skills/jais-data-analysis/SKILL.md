@@ -51,6 +51,22 @@ JAIS is theory-forward, so analysis that floats free of the theoretical argument
 
 JAIS policy requires authors to make datasets **"available on request for checking by senior editors or reviewers after care has been taken to anonymize the data,"** and for quantitative studies to provide **"the co-variance or correlation matrix plus descriptives."** If you reuse a dataset, you must justify it for an alternative theoretical purpose or a new methodological approach. Assemble these now and keep them anonymized for double-blind review.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JAIS spans empirical and design-science IS; apply the chain below to its causal / econometric papers and note when work is design-science or conceptual.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
+  `benjamini_hochberg` — report the adjusted threshold.
+- **OVB sensitivity:** `oster_delta` / `sensemakr`.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`;
+  multilevel data → cluster at the right level.
+- **Re-fit off one handle:** `audit_result(result_id)` lists the missing checks and the
+  exact `suggest_function` for each.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Keep the decisive checks in the body and the exhaustive battery in the appendix. See the
+executed chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Analysis matches the tradition (SEM / causal econometrics / artifact evaluation / qualitative)

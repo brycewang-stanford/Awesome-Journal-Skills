@@ -37,6 +37,19 @@ A path diagram for the focal study and an interaction plot for the key moderatio
 - Each exhibit must be **interpretable standalone** — title, note defining abbreviations, and units.
 - Do not duplicate the same result in a table and a figure; pick the form that shows the mechanism best.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers (the usual source of
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JCP is experimental consumer psychology; randomization inference, mediation done right (`mediate`, not naive controlling-away), and family-wise corrections matter most.
+
+- **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
+  `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the effect size in
+  interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Every table/figure earns its place by making the **effect or process** clearer than prose would

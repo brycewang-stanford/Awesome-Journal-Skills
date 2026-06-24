@@ -30,6 +30,18 @@ description: Use when building the robustness section for a 《会计研究》 (
 | 准则识别窗口 | 改变事件窗口、剔除施行过渡年、安慰剂年份 |
 | 真实 vs 应计操纵 | 同时控制两者，排除替代效应混淆 |
 
+## 执行桥（StatsPAI / Stata MCP）
+
+把稳健性 battery **跑出来**，而不是只罗列。完整映射见
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。《会计研究》是档案式会计实证——准则/监管变更的 DID、IV 与盈余类设计居多,正合企业因果链。
+
+- **多结果 / 多设定：**`romano_wolf`（逐步 FWER）或 `benjamini_hochberg`，报告校正后阈值。
+- **遗漏变量敏感性：**`oster_delta` / `sensemakr`。
+- **推断：**少聚类用 `wild_cluster_bootstrap`；视依赖结构用 `twoway_cluster` / `conley`。
+- **从一个 handle 复跑：**`audit_result(result_id)` 列出缺失检查及对应 `suggest_function`。
+- **出表：**`etable` / `did_summary_to_latex` 直接从 handle 生成，不手抄数字。
+
+正文留决定性检查，详尽（且确已跑过的）battery 进附录。执行链见 [JF 执行 walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md)。
 ## 自检清单
 
 - [ ] 主会计度量有 ≥1 个替代度量复现结论

@@ -39,6 +39,22 @@ The fair-comparison standard bites differently across archetypes, and each has a
 
 Because accepted papers deposit code/data in the **IJOC GitHub repository**, build the experiment so the deposit is trivial: scripted runs (`scripts/`), pinned dependencies (`requirements.txt` / `Manifest.toml`), fixed seeds, and a `results/` layout that maps to the paper's tables. Log raw outputs (not just summaries) so a reviewer can recompute your statistics. Designing this in from the start means the reproducibility deposit is a snapshot, not a scramble.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+For the **empirical / causal lane**, estimate and audit rather than only specify. Full
+map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). INFORMS JoC is computing / algorithms and methodology; the causal-inference chain below applies only to its empirical-evaluation papers, not to algorithm design.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to
+  enumerate the checks the design owes.
+- **Panel / staggered DiD:** `callaway_santanna` / `sun_abraham` + `bacon_decomposition`
+  + `honest_did_from_result`. **IV:** `effective_f_test` + `anderson_rubin_ci`. **RDD:**
+  `rdrobust` + `mccrary_test`.
+- **Experiments:** randomization-based inference and `romano_wolf` for the many-outcome
+  family-wise correction reviewers expect.
+
+Match the toolchain to the **reviewer pool**, and report the effect size the venue
+wants. A run end-to-end (synthetic data, real returns) is in the
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Instances are public/standard or fully documented + deposited; size range is representative

@@ -35,6 +35,19 @@ JM enforces a **50-page maximum** that is **inclusive of** title, abstract, keyw
 - Each exhibit **self-contained**: a title, complete notes (N, estimator, SE type, significance reporting), and units, readable without the text.
 - Number consistently and reference every exhibit in the text in order.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers (the usual source of
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JM is empirical marketing — field experiments, panel/CRM data, and quasi-experiments; randomization inference for experiments, DiD / IV for observational claims.
+
+- **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
+  `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the effect size in
+  interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Tables report exact p-values, SEs, and effect sizes (no stars-only)

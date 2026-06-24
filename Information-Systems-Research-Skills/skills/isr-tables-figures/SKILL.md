@@ -26,6 +26,19 @@ ISR caps manuscripts at **32 pages of text** and **no more than 38 pages includi
 
 Follow INFORMS exhibit conventions; every table and figure must be **self-contained** (title, units, N, significance notes, and what the reader should conclude) so it reads without the prose. Number consistently and ensure every exhibit is referenced and interpreted in the text — no orphan tables.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers (the usual source of
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). ISR is empirical IS with strong econometric and experimental work; identification (DiD / IV) for observational claims, randomization inference for experiments.
+
+- **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
+  `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the effect size in
+  interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Body exhibits limited to those that carry the core claim

@@ -38,6 +38,22 @@ A two-study design (e.g., field study for generalizability + experiment for caus
 
 State the level for theory, measurement, and analysis, and keep them aligned. If theory is at the team level but data are individual, justify aggregation; if effects are cross-level, the analysis must model the nesting (do not run OLS on nested data).
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+For the **empirical / causal lane**, estimate and audit rather than only specify. Full
+map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). AMJ is empirical management — panel, multilevel, DiD, IV, and field/lab experiments; the chain below serves that lane, while grounded-theory / qualitative work uses its own standards.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to
+  enumerate the checks the design owes.
+- **Panel / staggered DiD:** `callaway_santanna` / `sun_abraham` + `bacon_decomposition`
+  + `honest_did_from_result`. **IV:** `effective_f_test` + `anderson_rubin_ci`. **RDD:**
+  `rdrobust` + `mccrary_test`.
+- **Experiments:** randomization-based inference and `romano_wolf` for the many-outcome
+  family-wise correction reviewers expect.
+
+Match the toolchain to the **reviewer pool**, and report the effect size the venue
+wants. A run end-to-end (synthetic data, real returns) is in the
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Design can actually test each hypothesis (causal claims have causal leverage)

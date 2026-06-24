@@ -36,6 +36,22 @@ Demonstrate utility for the real problem: benchmark against the baselines a skep
 
 MISQ's research-transparency policy is genre-appropriate, not a single template. Document the study's design, data, and analysis to the standard of your tradition, and include **procedures and/or code sufficient to permit replication**. The transparency commitment is declared and uploaded at submission (Step 2, Miscellaneous). Consider replication badges and the AIS Transactions on Replication Research collaboration. Plan code/data sharing within confidentiality and platform terms.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). MISQ is empirical IS — surveys, econometric panels, experiments, and design science; the chain below serves the causal / econometric lane, while design-science artifacts use their own evaluation standards.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
+  `benjamini_hochberg` — report the adjusted threshold.
+- **OVB sensitivity:** `oster_delta` / `sensemakr`.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`;
+  multilevel data → cluster at the right level.
+- **Re-fit off one handle:** `audit_result(result_id)` lists the missing checks and the
+  exact `suggest_function` for each.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Keep the decisive checks in the body and the exhaustive battery in the appendix. See the
+executed chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Analysis matches the tradition (SEM / causal econometrics / artifact evaluation / qualitative)

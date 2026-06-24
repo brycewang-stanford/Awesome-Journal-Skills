@@ -53,6 +53,22 @@ A JAIS design-science paper should make its design-research logic legible: state
 
 JAIS welcomes interpretive and critical work, so state your paradigm (positivist, interpretive, critical, design) and let it govern the criteria you invite reviewers to apply. Build a traceable chain from raw data to constructs and an audit trail; trustworthiness, not p-values, is the currency.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+For the **empirical / causal lane**, estimate and audit rather than only specify. Full
+map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JAIS spans empirical and design-science IS; apply the chain below to its causal / econometric papers and note when work is design-science or conceptual.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to
+  enumerate the checks the design owes.
+- **Panel / staggered DiD:** `callaway_santanna` / `sun_abraham` + `bacon_decomposition`
+  + `honest_did_from_result`. **IV:** `effective_f_test` + `anderson_rubin_ci`. **RDD:**
+  `rdrobust` + `mccrary_test`.
+- **Experiments:** randomization-based inference and `romano_wolf` for the many-outcome
+  family-wise correction reviewers expect.
+
+Match the toolchain to the **reviewer pool**, and report the effect size the venue
+wants. A run end-to-end (synthetic data, real returns) is in the
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Design matches the tradition and the strength of the claim, and the choice is justified by the phenomenon

@@ -35,6 +35,19 @@ JAR uses a custom author-date house style; match the **typographic conventions o
 
 Use figures where they do identification work a table cannot: **DiD event-study plots** (coefficients by period with confidence bands, showing flat pre-trends), **RD plots** (binned means around the cutoff), and time series of the treatment/setting. Avoid decorative charts; every figure should support the causal claim.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers (the usual source of
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JAR is archival/empirical accounting; foreground identification around disclosure and regulation shocks, with modern DiD where adoption is staggered.
+
+- **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
+  `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the effect size in
+  interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Sample-construction table traces raw population → final N

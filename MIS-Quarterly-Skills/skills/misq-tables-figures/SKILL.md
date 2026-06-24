@@ -36,6 +36,19 @@ A reviewer should understand a table or figure without hunting through the text:
 - An architecture or build-and-evaluate cycle diagram for design science.
 Avoid 3-D effects, chartjunk, and figures that merely restate a table.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers (the usual source of
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). MISQ is empirical IS — surveys, econometric panels, experiments, and design science; the chain below serves the causal / econometric lane, while design-science artifacts use their own evaluation standards.
+
+- **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
+  `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the effect size in
+  interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Exhibit set fits the category page budget (tables/figures count)

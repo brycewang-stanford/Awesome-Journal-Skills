@@ -34,6 +34,19 @@ A typical JOM empirical paper carries:
 
 A reviewer should grasp each table/figure from its title, note, and labels alone. Spell out abbreviations, state the estimator and clustering in the note, and never show a coefficient without an SE and an N.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers (the usual source of
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JOM is empirical operations / supply-chain — survey and archival panel data; foreground endogeneity of operational choices and clustered / multilevel inference.
+
+- **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
+  `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the effect size in
+  interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Anti-patterns
 
 - A correlation table with no reliabilities (survey) or undefined operational variables.

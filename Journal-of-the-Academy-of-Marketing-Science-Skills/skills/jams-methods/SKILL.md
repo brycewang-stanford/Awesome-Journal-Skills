@@ -57,6 +57,22 @@ A method is "JAMS-ready" only when it supports both the theoretical claim and th
 
 For experiments and field studies, pre-registration (AsPredicted / OSF) strengthens the inference and pre-empts a HARKing or *p*-hacking critique; report any deviations from the plan. Across all genres, design the data and analysis pipeline now so it can satisfy the Springer data/code availability policy at acceptance — keep raw data, cleaning scripts, and estimation code organized and documented from the start rather than reconstructing them under deadline. A clean, shareable pipeline is also the cheapest insurance against a reviewer who asks to see a specific robustness check.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+For the **empirical / causal lane**, estimate and audit rather than only specify. Full
+map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JAMS is empirical marketing with much survey-based SEM; the chain below serves causal / quasi-experimental designs and many-outcome corrections.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to
+  enumerate the checks the design owes.
+- **Panel / staggered DiD:** `callaway_santanna` / `sun_abraham` + `bacon_decomposition`
+  + `honest_did_from_result`. **IV:** `effective_f_test` + `anderson_rubin_ci`. **RDD:**
+  `rdrobust` + `mccrary_test`.
+- **Experiments:** randomization-based inference and `romano_wolf` for the many-outcome
+  family-wise correction reviewers expect.
+
+Match the toolchain to the **reviewer pool**, and report the effect size the venue
+wants. A run end-to-end (synthetic data, real returns) is in the
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Genre named; design matched to the causal/behavioral/structural claim

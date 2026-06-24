@@ -66,6 +66,22 @@ If the practical-meaning column is empty, the result is not ready for a JMR resu
 - Provide enough detail (in-text, **Web Appendix**, or online supplements) for a reasonably trained researcher to replicate; be ready to share code, instruments/stimuli, and materials on request, and to provide data/materials before final acceptance.
 - Put robustness — alternative specifications, subsamples, alternative measures, additional studies — in the **'W'-prefixed Web Appendix**, keeping the print paper within 50 pages.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JMR mixes experiments, structural models, and quasi-experiments; the chain below serves the experimental and reduced-form lanes, while structural demand estimation uses its own toolkit.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
+  `benjamini_hochberg` — report the adjusted threshold.
+- **OVB sensitivity:** `oster_delta` / `sensemakr`.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`;
+  multilevel data → cluster at the right level.
+- **Re-fit off one handle:** `audit_result(result_id)` lists the missing checks and the
+  exact `suggest_function` for each.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Keep the decisive checks in the body and the exhaustive battery in the appendix. See the
+executed chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Anti-patterns
 
 - Reporting "p < .05" or asterisks instead of exact three-digit p-values.

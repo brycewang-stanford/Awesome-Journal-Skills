@@ -38,6 +38,19 @@ At OS, the exhibits are where reviewers **verify the data-to-theory inference**,
 - **The figure encodes the argument.** A process figure should let a reader reconstruct the theory; a data structure should let them reconstruct the coding.
 - **SAGE production.** Figures legible in greyscale and at print size; follow SAGE OS artwork specs at acceptance (检索于 2026-06；以官网为准).
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers (the usual source of
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Organization Studies is largely qualitative/theoretical; use the chain below only for its quantitative-empirical papers, and say so when a study is interpretive.
+
+- **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
+  `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the effect size in
+  interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Inductive paper has a data structure figure (first-order → second-order → dimensions)

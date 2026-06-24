@@ -36,6 +36,22 @@ JBV prizes a clear, substantive **theoretical contribution to entrepreneurship**
 
 The Editorial Manager workflow lets you attach a **MethodsX** article (detailed protocol) or **Data in Brief** descriptor on the "Attach files" page — useful for novel measures, hand-coded datasets, or experimental protocols.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+For the **empirical / causal lane**, estimate and audit rather than only specify. Full
+map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JBV studies founders and ventures where selection / survivorship threatens every claim; lead with identification and selection-correction tooling.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to
+  enumerate the checks the design owes.
+- **Panel / staggered DiD:** `callaway_santanna` / `sun_abraham` + `bacon_decomposition`
+  + `honest_did_from_result`. **IV:** `effective_f_test` + `anderson_rubin_ci`. **RDD:**
+  `rdrobust` + `mccrary_test`.
+- **Experiments:** randomization-based inference and `romano_wolf` for the many-outcome
+  family-wise correction reviewers expect.
+
+Match the toolchain to the **reviewer pool**, and report the effect size the venue
+wants. A run end-to-end (synthetic data, real returns) is in the
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Design can actually observe/test the theorized entrepreneurial mechanism

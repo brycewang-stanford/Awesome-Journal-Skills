@@ -80,6 +80,19 @@ TSPLIB-derived instances showing 1.8% mean gap vs. 31% for the heuristic baselin
 pairs them: a log-log scaling plot with confidence-interval bands over 30 seeds. The
 table corroborates the theorem's bound; the plot shows it holds as size grows.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers (the usual source of
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Operations Research is predominantly analytical / optimization / stochastic modeling; use the chain below only for its empirical/causal papers — modeling, optimization, and simulation are outside this causal-inference toolchain.
+
+- **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
+  `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the effect size in
+  interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Anti-patterns
 
 - A results table with no time limits, units, or hardware — irreproducible.

@@ -41,6 +41,17 @@ description: Use when finalizing tables and figures for a 《会计研究》 (Ac
 - 必要时用图替代冗长交互表（如分批 DID 的动态效应）
 - 图须自明：坐标轴、置信水平、样本说明齐全
 
+## 执行桥（StatsPAI / Stata MCP）
+
+表格图形**从拟合结果生成**，不要手抄数字（正文与附录不一致的常见根源）。完整映射见
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。《会计研究》是档案式会计实证——准则/监管变更的 DID、IV 与盈余类设计居多,正合企业因果链。
+
+- **表：**`etable`（多列）或 `did_summary_to_latex` 直接从 `result_id` 生成。
+- **图：**`plot_from_result` / `enhanced_event_study_plot` / `event_study_table`，坐标单位与
+  标准误/聚类注记自带。
+- **每个表注**写明估计量与聚类层次，并以可解释单位报告经济量级。
+
+完整“拟合结果 → 图表”链见 [JF 执行 walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md)。
 ## 自检清单
 
 - [ ] 主表 ≤ 6–8 列，扩展入附表

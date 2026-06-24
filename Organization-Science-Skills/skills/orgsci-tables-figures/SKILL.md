@@ -34,6 +34,19 @@ description: Use when building the exhibits for an Organization Science manuscri
 - The main-text exhibits tell the core story; the rest go to the standalone appendix.
 - A reader who sees only the exhibits could reconstruct the argument.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers (the usual source of
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Org Science spans field studies, experiments, and computational/qualitative work; the chain below is for its empirical/causal lane — simulation and qualitative work are outside it.
+
+- **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
+  `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the effect size in
+  interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Anti-patterns
 
 - A data structure that lists codes but shows no path to aggregate dimensions.

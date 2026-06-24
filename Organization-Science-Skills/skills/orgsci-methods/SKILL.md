@@ -36,6 +36,22 @@ A defining stance: causal inference is valued but **"not necessary and often imp
 - **Trustworthiness (qualitative):** purposive sampling rationale, saturation, audit trail, member checks where relevant.
 - **Replicability:** enough detail and references that others could reproduce the study; appendices carry the design detail.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+For the **empirical / causal lane**, estimate and audit rather than only specify. Full
+map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Org Science spans field studies, experiments, and computational/qualitative work; the chain below is for its empirical/causal lane — simulation and qualitative work are outside it.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to
+  enumerate the checks the design owes.
+- **Panel / staggered DiD:** `callaway_santanna` / `sun_abraham` + `bacon_decomposition`
+  + `honest_did_from_result`. **IV:** `effective_f_test` + `anderson_rubin_ci`. **RDD:**
+  `rdrobust` + `mccrary_test`.
+- **Experiments:** randomization-based inference and `romano_wolf` for the many-outcome
+  family-wise correction reviewers expect.
+
+Match the toolchain to the **reviewer pool**, and report the effect size the venue
+wants. A run end-to-end (synthetic data, real returns) is in the
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Anti-patterns
 
 - Reaching for an instrument or quasi-experiment the setting cannot support, when mechanism evidence would serve better.

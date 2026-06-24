@@ -49,6 +49,22 @@ Because JOM reviewers are methods-literate, anticipate the standard robustness a
 
 A multilevel paper claims a cross-level moderation: team climate strengthens the individual-level link between role clarity and performance. The weak version reports a significant level-2 × level-1 product term and stops. The JOM-grade version reports the **ICC(1) = .18** that justifies HLM, grand-mean-centers the level-2 moderator and group-mean-centers the level-1 predictor (stating why), fits a **random-slope** model, reports the cross-level interaction with its CI, and **plots the simple slopes** of role clarity at high vs. low team climate. The plot, not the p-value, is what convinces a reviewer the moderation is real and correctly modeled.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Journal of Management covers empirical management broadly (including meta-analysis); the chain below serves primary causal / panel work.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
+  `benjamini_hochberg` — report the adjusted threshold.
+- **OVB sensitivity:** `oster_delta` / `sensemakr`.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`;
+  multilevel data → cluster at the right level.
+- **Re-fit off one handle:** `audit_result(result_id)` lists the missing checks and the
+  exact `suggest_function` for each.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Keep the decisive checks in the body and the exhaustive battery in the appendix. See the
+executed chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Measurement model reported before the structural model (loadings, CR/ω, AVE, discriminant)

@@ -41,6 +41,19 @@ HRM follows management/applied-psychology table norms (APA-aligned house style).
 - Report **effect sizes and CIs**, not only stars; do not let asterisks substitute for interpretation.
 - Place exhibits per Wiley/ScholarOne submission conventions; keep figures legible in greyscale.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers (the usual source of
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). HRM is empirical HR — multilevel survey data, field experiments, and panels; multilevel inference and many-outcome corrections matter most.
+
+- **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
+  `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the effect size in
+  interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Table 1 has M, SD, correlations, and reliabilities on the diagonal

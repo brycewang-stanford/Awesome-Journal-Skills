@@ -37,6 +37,19 @@ JCR caps the manuscript at **60 double-spaced pages**, and crucially **tables an
 - Keep construct names, hypothesis labels, and study numbers identical between text and exhibits.
 - Anonymize exhibits for double-anonymized review (no author-identifying file names, site names, or institution tells).
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers (the usual source of
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JCR is predominantly lab experiments; randomization-based inference and the many-outcome family-wise correction (`romano_wolf`) are the decisive tools.
+
+- **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
+  `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the effect size in
+  interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Each exhibit is self-explanatory (title, N, units, notes)

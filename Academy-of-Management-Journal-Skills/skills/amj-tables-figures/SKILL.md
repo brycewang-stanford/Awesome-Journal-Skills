@@ -38,6 +38,19 @@ description: Use when building or cleaning the tables and figures for an Academy
 - Interaction plots: plot predicted values of the DV across the predictor at ±1 SD of the moderator; label lines; keep the y-axis in the DV's metric.
 - Use grayscale-safe designs; ensure figures are legible in print and meet the resolution the portal requires.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers (the usual source of
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). AMJ is empirical management — panel, multilevel, DiD, IV, and field/lab experiments; the chain below serves that lane, while grounded-theory / qualitative work uses its own standards.
+
+- **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
+  `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the effect size in
+  interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Table 1 = means, SDs, correlations, with reliabilities on the diagonal

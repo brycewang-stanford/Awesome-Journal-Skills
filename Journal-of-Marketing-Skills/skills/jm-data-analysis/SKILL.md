@@ -52,6 +52,22 @@ Translate effects into terms a decision maker reads: elasticities, lift in sales
 
 JM's Research Transparency Policy applies to conditionally accepted revisions of manuscripts submitted on/after 2023-01-01. At conditional acceptance, deposit to **JM's Dataverse**: raw data files, analysis programs/scripts, and any details sufficient to **replicate all reported analyses**; for qualitative work, interview guides, coding procedures, and annotated examples. The packet is accessible to the **processing Editor**, not reviewers. A **Data Availability Statement** is required on the title page of the final manuscript. **Preregistration is encouraged** — supply anonymized links and attest you faithfully represented the preregistration. Under the AMA Journals policy, some conditionally accepted JM manuscripts may also go through a verification step in which a Coeditor assigns a Data Editor to review the Dataverse materials and submit a ScholarOne report.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JM is empirical marketing — field experiments, panel/CRM data, and quasi-experiments; randomization inference for experiments, DiD / IV for observational claims.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
+  `benjamini_hochberg` — report the adjusted threshold.
+- **OVB sensitivity:** `oster_delta` / `sensemakr`.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`;
+  multilevel data → cluster at the right level.
+- **Re-fit off one handle:** `audit_result(result_id)` lists the missing checks and the
+  exact `suggest_function` for each.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Keep the decisive checks in the body and the exhaustive battery in the appendix. See the
+executed chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] **Actual p-values, standard errors, and effect sizes reported throughout**

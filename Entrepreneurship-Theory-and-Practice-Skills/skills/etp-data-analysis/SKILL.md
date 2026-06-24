@@ -46,6 +46,22 @@ ETP house style follows **APA**: report effect sizes and confidence intervals, n
 ETP's dual mandate reaches the results: translate coefficients into the venture-relevant scale (a hazard ratio as "ventures with X fail 30% faster," a marginal effect as "one more co-founder shifts funding probability by Y points").
 A practitioner implication needs a magnitude, not a p-value.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). ETP is entrepreneurship, where selection and survival bias are pervasive — foreground identification and selection corrections.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
+  `benjamini_hochberg` — report the adjusted threshold.
+- **OVB sensitivity:** `oster_delta` / `sensemakr`.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`;
+  multilevel data → cluster at the right level.
+- **Re-fit off one handle:** `audit_result(result_id)` lists the missing checks and the
+  exact `suggest_function` for each.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Keep the decisive checks in the body and the exhaustive battery in the appendix. See the
+executed chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Estimator matches the outcome type (hazard for time-to-event; count/fractional models where appropriate)

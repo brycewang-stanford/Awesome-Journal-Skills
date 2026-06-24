@@ -39,6 +39,22 @@ A two-study design (e.g., an experiment isolating the mechanism behind an archiv
 - **Instrument capture.** Surveys/experiments must submit the full research instrument with the manuscript (Data Integrity policy, item 1).
 - **Proprietary/field data.** If you use proprietary organizational data, plan a credible means of verifying the data source/site on editor request and disclose any non-disclosure restrictions (policy item 2).
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+For the **empirical / causal lane**, estimate and audit rather than only specify. Full
+map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). CAR is archival/empirical accounting; the DiD / IV / RDD chain serves its causal designs around reporting and regulation.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to
+  enumerate the checks the design owes.
+- **Panel / staggered DiD:** `callaway_santanna` / `sun_abraham` + `bacon_decomposition`
+  + `honest_did_from_result`. **IV:** `effective_f_test` + `anderson_rubin_ci`. **RDD:**
+  `rdrobust` + `mccrary_test`.
+- **Experiments:** randomization-based inference and `romano_wolf` for the many-outcome
+  family-wise correction reviewers expect.
+
+Match the toolchain to the **reviewer pool**, and report the effect size the venue
+wants. A run end-to-end (synthetic data, real returns) is in the
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Design can support each prediction (identification / internal validity / equilibrium logic)

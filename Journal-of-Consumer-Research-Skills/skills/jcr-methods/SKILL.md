@@ -38,6 +38,22 @@ The journal also publishes quantitative/modeling and methodological work. Choose
 
 JCR's transparency regime shapes the design from the start: a **Data Collection Statement** is required for **all** submissions (Step 6), data/materials posting is **required at invited revision** unless exempt, and replication code must be provided. Build clean materials, preregistration where appropriate, and a repository plan (OSF / Harvard Dataverse / Qualitative Data Repository / ResearchBox) into the design. For confirmatory questions, consider a **Registered Report** (full review before final data collection; must be JCR-worthy regardless of outcome).
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+For the **empirical / causal lane**, estimate and audit rather than only specify. Full
+map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JCR is predominantly lab experiments; randomization-based inference and the many-outcome family-wise correction (`romano_wolf`) are the decisive tools.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to
+  enumerate the checks the design owes.
+- **Panel / staggered DiD:** `callaway_santanna` / `sun_abraham` + `bacon_decomposition`
+  + `honest_did_from_result`. **IV:** `effective_f_test` + `anderson_rubin_ci`. **RDD:**
+  `rdrobust` + `mccrary_test`.
+- **Experiments:** randomization-based inference and `romano_wolf` for the many-outcome
+  family-wise correction reviewers expect.
+
+Match the toolchain to the **reviewer pool**, and report the effect size the venue
+wants. A run end-to-end (synthetic data, real returns) is in the
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Design logic (experiments / CCT / mixed) matches the conceptual claim

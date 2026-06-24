@@ -48,6 +48,22 @@ Vary the operationalization across studies (different manipulations of the same 
 - Plan the **open data + materials** deposit and the code from the start (see jcp-submission), not at acceptance.
 - Consider a **Registered Report** for a strong confirmatory theory test where the result should publish regardless of direction (待核实 whether JCP currently offers this format).
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+For the **empirical / causal lane**, estimate and audit rather than only specify. Full
+map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JCP is experimental consumer psychology; randomization inference, mediation done right (`mediate`, not naive controlling-away), and family-wise corrections matter most.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to
+  enumerate the checks the design owes.
+- **Panel / staggered DiD:** `callaway_santanna` / `sun_abraham` + `bacon_decomposition`
+  + `honest_did_from_result`. **IV:** `effective_f_test` + `anderson_rubin_ci`. **RDD:**
+  `rdrobust` + `mccrary_test`.
+- **Experiments:** randomization-based inference and `romano_wolf` for the many-outcome
+  family-wise correction reviewers expect.
+
+Match the toolchain to the **reviewer pool**, and report the effect size the venue
+wants. A run end-to-end (synthetic data, real returns) is in the
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Each study tests a distinct link: existence → mediation → moderation → boundary

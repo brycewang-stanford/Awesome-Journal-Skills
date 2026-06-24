@@ -42,6 +42,21 @@ description: Use when the empirical identification strategy is the bottleneck fo
 - RDD：McCrary 操纵检验、最优带宽 + 带宽稳健性、协变量平滑
 - IV：第一阶段 F ≥ 10，排他性需理论/制度/安慰剂三段论证
 
+## 执行桥（StatsPAI / Stata MCP）
+
+把识别主张**跑出来并审计**,而不是只做论证。完整映射见
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。《会计研究》是档案式会计实证——准则/监管变更的 DID、IV 与盈余类设计居多,正合企业因果链。
+
+1. `detect_design` → `recommend` → 用 `as_handle=true` 拟合 → `audit_result` 列出设计尚欠的检查。
+2. **交错 DID：**`callaway_santanna` / `sun_abraham` + `bacon_decomposition` +
+   `honest_did_from_result`（前趋势检验功效低，Roth 2022）。
+3. **IV：**`effective_f_test` + `anderson_rubin_ci`（弱工具稳健），不要只看 2SLS 的 t 值。
+4. **RDD：**`rdrobust`（偏误校正）+ `rddensity` / `mccrary_test`。
+5. **遗漏变量：**`oster_delta` / `sensemakr` 量化“多强的混淆才能推翻结论”。
+
+正文报告**经济量级**，完整诊断 battery 进附录；每个数字都能复现。端到端真跑示例（合成数据、
+真实返回）见 [JF 执行 walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md)。若 StatsPAI/Stata 未连接，改用 `resources/code/`
+骨架并标注未验证的数字。
 ## 必查清单
 
 - [ ] 处理时点对齐准则施行日，处理/对照组界定有制度依据

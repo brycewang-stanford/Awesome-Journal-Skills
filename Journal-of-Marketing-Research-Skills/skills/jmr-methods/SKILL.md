@@ -31,6 +31,22 @@ description: Use when matching the research design to the claim for a Journal of
 - Plan the **Web Appendix** from the start: full stimuli, additional studies, estimation details, and robustness go there ('W'-prefixed), keeping the print paper within **50 pages**.
 - Plan **replication**: per AMA transparency policy you must be able to share code, instruments/stimuli, and materials, and provide data/materials before final acceptance — build clean, documented pipelines now.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+For the **empirical / causal lane**, estimate and audit rather than only specify. Full
+map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JMR mixes experiments, structural models, and quasi-experiments; the chain below serves the experimental and reduced-form lanes, while structural demand estimation uses its own toolkit.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to
+  enumerate the checks the design owes.
+- **Panel / staggered DiD:** `callaway_santanna` / `sun_abraham` + `bacon_decomposition`
+  + `honest_did_from_result`. **IV:** `effective_f_test` + `anderson_rubin_ci`. **RDD:**
+  `rdrobust` + `mccrary_test`.
+- **Experiments:** randomization-based inference and `romano_wolf` for the many-outcome
+  family-wise correction reviewers expect.
+
+Match the toolchain to the **reviewer pool**, and report the effect size the venue
+wants. A run end-to-end (synthetic data, real returns) is in the
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Anti-patterns
 
 - A single-cell or confounded manipulation that cannot isolate the cause.

@@ -49,6 +49,19 @@ The Gioia data structure is the trust contract for inductive ETP work: it shows 
 Pair it with a process-model figure (the dynamic "movie" of the static data structure) and a quotation table that ties evidence to dimensions and informants.
 Thin or absent data structures are a fast credibility loss.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers (the usual source of
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). ETP is entrepreneurship, where selection and survival bias are pervasive — foreground identification and selection corrections.
+
+- **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
+  `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the effect size in
+  interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] A theoretical/mechanism figure is present and labeled with entrepreneurial constructs

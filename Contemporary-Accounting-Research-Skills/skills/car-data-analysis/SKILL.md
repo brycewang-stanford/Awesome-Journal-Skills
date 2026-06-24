@@ -40,6 +40,22 @@ CAR's policy (effective May 1, 2020) governs all empirical submissions — archi
 - **Final version:** archive the **code** that builds the final dataset in a public repository, documenting **variable definitions**, observation-omission criteria (e.g., outliers), and modifications (winsorizing, truncating). Proprietary code may be withheld only if you instead explain how others can reproduce the final dataset. Exception requests accompany the initial submission and are approved by the EIC only in exceptional circumstances.
 - A **title-page data availability statement** is required whenever the paper uses data.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). CAR is archival/empirical accounting; the DiD / IV / RDD chain serves its causal designs around reporting and regulation.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
+  `benjamini_hochberg` — report the adjusted threshold.
+- **OVB sensitivity:** `oster_delta` / `sensemakr`.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`;
+  multilevel data → cluster at the right level.
+- **Re-fit off one handle:** `audit_result(result_id)` lists the missing checks and the
+  exact `suggest_function` for each.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Keep the decisive checks in the body and the exhaustive battery in the appendix. See the
+executed chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Estimator matches the design; SEs clustered to the structure / randomization respected

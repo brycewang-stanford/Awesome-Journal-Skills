@@ -55,6 +55,22 @@ A two-study design (field study for generalizability + experiment for the causal
 
 JOM rewards study programs that *triangulate* rather than merely accumulate. A canonical pairing is a field study (external validity, real outcomes) plus an experiment (causal mechanism, manipulation of the antecedent). Decide what each study is *for* — generalizability, causal identification, or mechanism evidence — and make sure together they license the central claim. A second study that merely re-runs the first in a new sample adds length without adding inferential leverage, and the 50-page limit punishes it.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+For the **empirical / causal lane**, estimate and audit rather than only specify. Full
+map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Journal of Management covers empirical management broadly (including meta-analysis); the chain below serves primary causal / panel work.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to
+  enumerate the checks the design owes.
+- **Panel / staggered DiD:** `callaway_santanna` / `sun_abraham` + `bacon_decomposition`
+  + `honest_did_from_result`. **IV:** `effective_f_test` + `anderson_rubin_ci`. **RDD:**
+  `rdrobust` + `mccrary_test`.
+- **Experiments:** randomization-based inference and `romano_wolf` for the many-outcome
+  family-wise correction reviewers expect.
+
+Match the toolchain to the **reviewer pool**, and report the effect size the venue
+wants. A run end-to-end (synthetic data, real returns) is in the
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Design can actually test each hypothesis (causal claims have causal leverage)

@@ -39,6 +39,19 @@ At ASQ, exhibits are part of the *argument*, not decoration. A reader should be 
 - Keep exhibits **anonymized** for ASQ's double-blind review (no author-revealing site names or acknowledgments in figure sources).
 - Follow **APA style** for citations in notes (ASQ adopted APA in January 2025), with SAGE table conventions; manuscripts go in via ScholarOne (Word or PDF, 12-pt Times New Roman, double-spaced). Exhibits count toward length, and ASQ rewards "high intellectual value per page" — keep the whole manuscript near the suggested **35–45 pages of text** (over-long files are unsubmitted before review). Verify current details at journals.sagepub.com/author-instructions/asq.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers (the usual source of
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). ASQ wants a clean causal or well-identified observational design behind an organizational-theory contribution; reduced-form estimation fits the chain below, interpretive work does not.
+
+- **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
+  `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the effect size in
+  interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Qual: data-structure figure present and faithful to the coding

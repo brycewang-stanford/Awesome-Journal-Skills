@@ -40,6 +40,22 @@ description: Use when estimation and analysis are the bottleneck for a Human Res
 - For **qualitative** work, give a transparent audit trail: data structure (first-order codes → second-order themes → aggregate dimensions), coding reliability or consensus process, and trustworthiness (member checks, triangulation).
 - Follow Wiley's **data-availability** policy: include a data-availability statement and prepare materials for sharing where permitted (检索于 2026-06；以官网为准).
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). HRM is empirical HR — multilevel survey data, field experiments, and panels; multilevel inference and many-outcome corrections matter most.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
+  `benjamini_hochberg` — report the adjusted threshold.
+- **OVB sensitivity:** `oster_delta` / `sensemakr`.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`;
+  multilevel data → cluster at the right level.
+- **Re-fit off one handle:** `audit_result(result_id)` lists the missing checks and the
+  exact `suggest_function` for each.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Keep the decisive checks in the body and the exhaustive battery in the appendix. See the
+executed chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Estimator matches the data structure (nesting modeled; latent constructs in SEM)
