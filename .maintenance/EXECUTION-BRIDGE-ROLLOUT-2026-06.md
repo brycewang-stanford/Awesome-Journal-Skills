@@ -129,9 +129,26 @@ bar before submitting**:
   `worked-example-referee-report.md` (a real AE + 2-referee run on the fictional JF
   cov-lite paper).
 
-### Still open (future, optional)
+### Follow-ups — ALSO DONE (P2 + installable promotion)
 
-- Promote the three shared capabilities to formally installable skills once the
-  skill/pack-count tripwires (`audit_repo.py`) and the root-README badges can be bumped
-  without colliding with the live-check campaign.
-- More real-run worked-examples (synthetic control, DML) alongside DiD/IV/RDD.
+- **Five design families validated** (real StatsPAI runs, every number a tool return):
+  DiD (JF 02) + IV + RDD + **synthetic-control** + **DML** worked-examples in
+  `shared-resources/empirical-methods/worked-examples/`.
+- **P2 capabilities (shared docs):** `submission-readiness/response-to-referees.md`
+  (R&R → point-by-point reply) and `empirical-methods/replication-package.md`
+  (Data-Editor package assemble + validate).
+- **Installable promotion:** `Research-Toolkit-Skills/` — a 7-skill, `/plugin install`-able
+  pack (rt-workflow / rt-journal-match / rt-execution-bridge / rt-submission-readiness /
+  rt-simulated-referee / rt-response-to-referees / rt-replication-package) wrapping the
+  shared capability docs. Tripwires bumped atomically: **2895→2902 skills, 194→195 packs**;
+  root marketplace.json entry added; both root READMEs' counts + reconciliation updated
+  (2227 depth + 668 breadth + 7 cross-journal toolkit = 2902). run_checks all green.
+
+The strategic-review P0/P1/P2 program is complete. **Maintainer note:** the headline counts
+are now 2902/195; if the parallel live-check campaign bumps the tripwire for its own
+additions, it must include the +7 toolkit skills / +1 pack already baked into the live count.
+
+### Still open (genuinely future, optional)
+
+- Promote the venue-index to auto-refresh in CI; add worked-examples for more designs
+  (event-study panels, bunching, mediation) if demand arises.
