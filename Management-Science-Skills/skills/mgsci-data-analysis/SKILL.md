@@ -40,6 +40,23 @@ Because Management Science is **bimethodological**, "analysis" means proving/com
 
 Management Science enforces a **Code and Data Disclosure Policy** (effective June 1, 2019; revised April 20, 2026). Authors must create an **AsCollected project page** and provide its URL during submission. Accepted papers with numerical or computational work must provide data, programs, and details sufficient to permit replication before production, or an approved alternative disclosure plan for proprietary/sensitive data. Provide a master script, version-pinned environment, README, data sources, and a clear disclosure plan from the start.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the analysis, audit it, and keep the scripts — the same scripts satisfy the
+AsCollected disclosure above. Full map:
+[`shared-resources/empirical-methods/execution-with-mcp.md`](../../../shared-resources/empirical-methods/execution-with-mcp.md).
+
+- Fit with `as_handle=true`, then `audit_result(result_id)` to get the missing-checks
+  checklist with the exact `suggest_function` for each.
+- **Sensitivity:** `honest_did_from_result` (DiD), `oster_delta` / `sensemakr` (OVB).
+- **Many outcomes:** `romano_wolf` / `benjamini_hochberg` for the family-wise haircut.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Every reported estimate traces to a tool call; preserve the master script + pinned
+environment so the run *is* the replication package. If StatsPAI/Stata are not
+connected, adapt the vendored `resources/code/` skeleton and flag any unverified number.
+
 ## Anti-patterns
 
 - A proposition with a hand-waved or incorrect proof.

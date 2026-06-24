@@ -38,6 +38,19 @@ Management Science prefers **short, focused** papers and warns that excessive le
 
 Invited revisions must fit within **47 pages double-spaced (25 lines/page)** or **32 pages at 1.5 spacing (33 lines/page)**, 11-pt font, 1-inch margins — the **online appendix is excluded**. Move long proofs, secondary robustness tables, and extended derivations to the online appendix so the main exhibits stay essential.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers (the usual source of
+main-text-vs-online-appendix drift). Full map:
+[`shared-resources/empirical-methods/execution-with-mcp.md`](../../../shared-resources/empirical-methods/execution-with-mcp.md).
+
+- **Tables:** `etable` (multi-model) or `did_summary_to_latex` straight from the
+  `result_id`; **figures:** `plot_from_result` / `enhanced_event_study_plot` with axis
+  units and the SE/clustering note baked in.
+- Keep the decisive exhibits in the page-limited body; route the rest to the online
+  appendix. See a full fitted-result → exhibit chain in the
+  [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
+
 ## Anti-patterns
 
 - A wall of nested notation no glossary explains.

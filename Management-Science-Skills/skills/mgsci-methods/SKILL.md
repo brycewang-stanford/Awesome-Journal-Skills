@@ -69,6 +69,27 @@ A team wants to claim algorithmic shift-recommendations raise gig-driver retenti
 
 - The journal spans analytics-to-behavioral, so a method exemplary in one department may look under-powered to another; match the design to the reviewer pool, not your own training. The unifying premium is rigor *and* a clear management contribution; confirm current Disclosure requirements against the author guidelines.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+For the **empirical / causal lane** (field data, natural experiments, behavioral
+experiments), estimate and audit rather than only specify. Full map:
+[`shared-resources/empirical-methods/execution-with-mcp.md`](../../../shared-resources/empirical-methods/execution-with-mcp.md).
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to
+  enumerate the checks the design owes.
+- **Staggered DiD:** `callaway_santanna` / `sun_abraham` + `bacon_decomposition` +
+  `honest_did_from_result`. **IV:** `effective_f_test` + `anderson_rubin_ci`. **RDD:**
+  `rdrobust` + `mccrary_test`.
+- **Lab / field experiments:** randomization-based inference and `romano_wolf` for the
+  many-outcome family-wise correction reviewers expect.
+
+Match the toolchain to the **reviewer pool** (a behavioral referee wants the
+multiple-testing haircut; an econometric referee wants the weak-IV-robust CI). Note:
+**structural estimation, optimization, and analytical modeling are outside this
+causal-inference toolchain** — use the field's own solvers and say so. A run end-to-end
+(synthetic data, real returns) is in the
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
+
 ## Anti-patterns
 
 - A model class chosen for tractability that cannot answer the actual question.
