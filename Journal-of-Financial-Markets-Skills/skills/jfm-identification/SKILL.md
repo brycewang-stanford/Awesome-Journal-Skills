@@ -48,6 +48,24 @@ A recurring identification subtlety in market-structure work is that a rule chan
 
 The SEC Tick-Size Pilot widened the quoting/trading increment for a randomized set of small-cap stocks. This is close to an ideal JFM design: random treatment assignment, a discrete date, and a treated/control split. The clean identification statement is one sentence — *the effect of a wider tick on depth is identified by the random assignment of stocks to the pilot's test groups.* The credible version shows flat pre-pilot trends in depth, estimates with assignment-level clustering, and separates the mechanical (tick-binding) effect from the behavioral (liquidity-supply) response. A weak version regresses depth on a post-dummy with controls and calls it causal.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Estimate and audit the identification claim, don't only argue it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JFM is market microstructure and asset pricing — liquidity, price discovery, and cross-sectional return tests where the factor-zoo multiple-testing haircut is salient.
+
+1. `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to list
+   the checks the design still owes.
+2. **Staggered DiD:** `callaway_santanna` / `sun_abraham` + `bacon_decomposition` +
+   `honest_did_from_result` (the pre-trend test is low-power, Roth 2022).
+3. **IV:** `effective_f_test` + an `anderson_rubin_ci` (valid under weak instruments),
+   not a 2SLS t-stat alone.
+4. **RDD:** `rdrobust` (bias-corrected) + `rddensity` / `mccrary_test` for manipulation.
+5. **OVB:** `oster_delta` / `sensemakr` — how strong a confounder would have to be.
+
+Report the economic magnitude; route the full battery to the appendix; keep every
+number reproducible. A run end-to-end (synthetic data, real returns) is in the
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md). If StatsPAI/Stata are not connected, adapt the
+vendored `resources/code/` skeleton and flag any unverified number.
 ## Checklist
 
 - [ ] Branch chosen; the data-to-effect (or data-to-parameter) mapping stated in one sentence

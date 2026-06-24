@@ -78,6 +78,22 @@ a named threat:
 - For the theory track, a calibration table listing every parameter, its value, and its source (moment
   matched, literature, normalization) is the JFI-credible substitute for a robustness battery.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JFI is banking and financial intermediation — typically corporate / bank causal designs built around regulation and shocks.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER, accounts for
+  cross-test correlation) or `benjamini_hochberg` — report the adjusted threshold.
+- **OVB sensitivity:** `oster_delta` / `sensemakr` — the confounder strength that would
+  overturn the headline.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`.
+- **Re-fit off one handle:** `audit_result(result_id)` lists the missing checks and the
+  exact `suggest_function` for each — no guessing the battery.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Keep the decisive checks in the body and the exhaustive (now actually-run) battery in
+the appendix. See the executed chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Anti-patterns
 
 - Undocumented sample filters that drive the result

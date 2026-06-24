@@ -48,6 +48,22 @@ Headline: a market-structure change narrows effective spreads by 12 bps. The thr
 
 JFM does not reward a 20-table robustness appendix; it rewards the *right* checks. The decision rule: include a check if a competent microstructure referee would otherwise doubt the interpretation. Measurement and inference are nearly always load-bearing (keep in main text). Sub-period splits and influential-name drops are usually appendix material. A check that does not map to a named threat should be cut, not kept "to be safe" — orphan tables signal the authors are unsure which concern is real.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JFM is market microstructure and asset pricing — liquidity, price discovery, and cross-sectional return tests where the factor-zoo multiple-testing haircut is salient.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER, accounts for
+  cross-test correlation) or `benjamini_hochberg` — report the adjusted threshold.
+- **OVB sensitivity:** `oster_delta` / `sensemakr` — the confounder strength that would
+  overturn the headline.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`.
+- **Re-fit off one handle:** `audit_result(result_id)` lists the missing checks and the
+  exact `suggest_function` for each — no guessing the battery.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Keep the decisive checks in the body and the exhaustive (now actually-run) battery in
+the appendix. See the executed chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Headline survives at least one alternative liquidity/impact measure

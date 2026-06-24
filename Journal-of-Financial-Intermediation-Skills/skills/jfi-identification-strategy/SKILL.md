@@ -68,6 +68,24 @@ evidence on borrower–bank sorting worth its own paragraph, not a nuisance to h
 movement of the coefficient across fixed-effect columns as a diagnostic in itself; design the
 identification section so that movement is interpreted, not merely displayed.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Estimate and audit the identification claim, don't only argue it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JFI is banking and financial intermediation — typically corporate / bank causal designs built around regulation and shocks.
+
+1. `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to list
+   the checks the design still owes.
+2. **Staggered DiD:** `callaway_santanna` / `sun_abraham` + `bacon_decomposition` +
+   `honest_did_from_result` (the pre-trend test is low-power, Roth 2022).
+3. **IV:** `effective_f_test` + an `anderson_rubin_ci` (valid under weak instruments),
+   not a 2SLS t-stat alone.
+4. **RDD:** `rdrobust` (bias-corrected) + `rddensity` / `mccrary_test` for manipulation.
+5. **OVB:** `oster_delta` / `sensemakr` — how strong a confounder would have to be.
+
+Report the economic magnitude; route the full battery to the appendix; keep every
+number reproducible. A run end-to-end (synthetic data, real returns) is in the
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md). If StatsPAI/Stata are not connected, adapt the
+vendored `resources/code/` skeleton and flag any unverified number.
 ## Anti-patterns
 
 - OLS-plus-controls dressed up as identification on a bank panel

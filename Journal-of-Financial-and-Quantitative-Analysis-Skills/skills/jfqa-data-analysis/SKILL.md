@@ -60,6 +60,22 @@ Hypothetical study of cash holdings and supplier concentration. Sample: Compusta
 - Any price or size screens (e.g., penny-stock exclusions) disclosed and shown not to drive the result.
 - Each filter's observation loss tracked so the sample-construction table sums from raw pulls to the final N.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JFQA is empirical finance (asset pricing + corporate) — the DiD / IV / RDD chain for corporate causal claims, the factor-zoo haircut for cross-sectional pricing.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER, accounts for
+  cross-test correlation) or `benjamini_hochberg` — report the adjusted threshold.
+- **OVB sensitivity:** `oster_delta` / `sensemakr` — the confounder strength that would
+  overturn the headline.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`.
+- **Re-fit off one handle:** `audit_result(result_id)` lists the missing checks and the
+  exact `suggest_function` for each — no guessing the battery.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Keep the decisive checks in the body and the exhaustive (now actually-run) battery in
+the appendix. See the executed chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Output format
 
 ```

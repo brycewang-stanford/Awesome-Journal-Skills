@@ -45,6 +45,21 @@ A study of intraday adverse selection on consolidated TAQ: (1) restrict to commo
 - **Treasuries / FX:** decentralized; "the spread" depends on the platform (BrokerTec, EBS); name it.
 - **Crypto / AMMs:** liquidity is the bonding-curve / pool depth, not a quoted spread; map the concept honestly rather than forcing an equity construct.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the asset-pricing battery, don't just specify it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JFM is market microstructure and asset pricing — liquidity, price discovery, and cross-sectional return tests where the factor-zoo multiple-testing haircut is salient.
+
+- **Factor regressions / time-series alphas:** `feols` with the right SEs (Newey–West /
+  clustered) — read the alpha and t off the return, not off a memory of the spec.
+- **Factor-zoo haircut:** after disclosing how many signals were screened, apply
+  `romano_wolf` / `benjamini_hochberg` and report the alpha that survives the threshold.
+- **Fama–MacBeth + Shanken EIV correction** are Stata-canonical: run them via
+  `mcp__stata-mcp__stata_do` with the vendored `resources/code/` (`asreg` / `xtfmb`).
+- **Emit exhibits** with `etable`; hand formatting to the tables/figures skill.
+
+Report the economic magnitude (bps/month alpha, Sharpe gain); the full factor grid and
+all screened signals go to the appendix. [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Universe, period, venue, asset class, and every inclusion/exclusion filter are documented
