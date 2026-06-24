@@ -168,6 +168,7 @@ def score_pack(pack: Path) -> dict:
     desc_use_when = 0
     desc_has_journal_cue = 0
     code_block_skills = 0
+    exec_bridge_skills = 0
     skill_rows: list[dict] = []
 
     pack_words = pack_cue_words(pack, skills)
@@ -182,6 +183,11 @@ def score_pack(pack: Path) -> dict:
         has_code_block = "```" in body
         if "```" in body:
             code_block_skills += 1
+        # Execution-bridge signal: does the skill wire guidance to the StatsPAI /
+        # Stata MCP execution layer (links the shared execution-with-mcp playbook)?
+        # Report-only — tracks the guidance→execution rollout; does not affect score.
+        if "execution-with-mcp" in body:
+            exec_bridge_skills += 1
         desc = ""
         desc_len = 0
         has_use_when = False
@@ -307,6 +313,8 @@ def score_pack(pack: Path) -> dict:
         "worked_examples": has_worked,
         "exemplars": has_exemplars,
         "source_map": has_source_map,
+        "exec_bridge": exec_bridge_skills > 0,
+        "exec_bridge_skills": exec_bridge_skills,
         "score": total,
         "weak_skills": weak_skills,
         "_breakdown": {
@@ -343,13 +351,22 @@ def main() -> int:
         p10 = scores[int((len(scores) - 1) * 0.10)] if scores else 0
         median = scores[len(scores) // 2] if scores else 0
         low_counts = {cutoff: sum(1 for score in scores if score < cutoff) for cutoff in (86, 88, 90)}
+        # Execution-bridge rollout: only depth packs that ship/justify a code library
+        # are empirical candidates for wiring; breadth bundles and theory venues are not.
+        empirical = [r for r in rows if r["pack_type"] == "depth" and r["code_status"] == "present"]
+        wired = [r for r in empirical if r["exec_bridge"]]
         print(f"Quality scorecard — {len(rows)} first-party packs · mean score {mean:.1f}/100")
         print(
             f"Distribution: min {scores[0]:.1f} · p10 {p10:.1f} · median {median:.1f} · "
             f"below 86/88/90 = {low_counts[86]}/{low_counts[88]}/{low_counts[90]}"
         )
+        pct = (len(wired) / len(empirical) * 100) if empirical else 0
+        print(
+            f"Execution bridge (StatsPAI/Stata MCP) wired: {len(wired)}/{len(empirical)} "
+            f"empirical depth packs ({pct:.0f}%)"
+        )
         print(f"(worst first){' · showing bottom ' + str(args.top) if args.top else ''}\n")
-        hdr = f"{'score':>6}  {'type':>10} {'skl':>3} {'unit':>5} {'desc':>4}  {'code':>4} {'wex':>3} {'exm':>3}  pack"
+        hdr = f"{'score':>6}  {'type':>10} {'skl':>3} {'unit':>5} {'desc':>4}  {'code':>4} {'wex':>3} {'exm':>3} {'exb':>3}  pack"
         print(hdr)
         print("-" * len(hdr))
         for r in shown:
@@ -358,7 +375,8 @@ def main() -> int:
                 f"{r['score']:>6}  {r['pack_type']:>10} {r['skills']:>3} {r['avg_words']:>5} {r['avg_desc_chars']:>4}  "
                 f"{code_label:>4} "
                 f"{'y' if r['worked_examples'] else '-':>3} "
-                f"{'y' if r['exemplars'] else '-':>3}  {r['pack']}"
+                f"{'y' if r['exemplars'] else '-':>3} "
+                f"{'y' if r['exec_bridge'] else '-':>3}  {r['pack']}"
             )
             if args.show_skills:
                 for skill in r["weak_skills"]:
