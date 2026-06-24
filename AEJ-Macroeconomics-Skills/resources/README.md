@@ -13,6 +13,7 @@ shared empirical-methods hub and is linked below.
 | [`exemplars/library.md`](exemplars/library.md) | Benchmark against **real, web-verified AEJ: Macro papers** organized by method × topic. Design positioning only — no fabricated numbers; includes a sibling-confusion guard vs. *AER* / *J. Monetary Economics* / *RED* / *AEJ: Applied*. |
 | [reviewer-objection-checklist](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) | The objections referees actually raise, by identification strategy (DiD / IV / RDD / DML / matching / mechanism), each with its preemption. Stress-test the empirical design before drafting. |
 | [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) | Modern inference + reporting table stakes: SE clustering, weak-IV diagnostics, multiple-testing, reproducibility. |
+| [execution-with-mcp](../../shared-resources/empirical-methods/execution-with-mcp.md) | **Guidance → a fitted, audited result.** Maps each design family / reviewer objection to the concrete StatsPAI / Stata MCP tools in this environment, so this pack's identification / analysis skills *run* the modern DiD / weak-IV-robust CI / multiple-testing correction and report the number. |
 | [`official-source-map.md`](official-source-map.md) | Venue-specific facts (fees, length, blinding, data policy, editors) with sourcing discipline. |
 | [`external_tools.md`](external_tools.md) | External tools / packages relevant to this venue, including macro time-series and DSGE/HANK toolchains. |
 

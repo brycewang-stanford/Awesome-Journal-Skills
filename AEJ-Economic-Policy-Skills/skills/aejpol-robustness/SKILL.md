@@ -35,6 +35,22 @@ At AEJ: Policy, robustness is judged by whether the **policy takeaway** is stabl
 - If the policy lesson depends on a welfare parameter you calibrate (discount rate, value of a statistic, recycling rule), report the lesson across a plausible range of that parameter, not one value.
 - If external validity is the policy worry, show heterogeneity by jurisdiction characteristics and discuss which settings the estimate travels to.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). AEJ: Policy evaluates programs and reforms; the design must carry a policy-relevant magnitude, not just statistical significance.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER, accounts for
+  cross-test correlation) or `benjamini_hochberg` — report the adjusted threshold.
+- **OVB sensitivity:** `oster_delta` / `sensemakr` — the confounder strength that would
+  overturn the headline.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`.
+- **Re-fit off one handle:** `audit_result(result_id)` lists the missing checks and the
+  exact `suggest_function` for each — no guessing the battery.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Keep the decisive checks in the body and the exhaustive (now actually-run) battery in
+the appendix. See the executed chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] The headline *policy* number (not just a coefficient) is shown stable across specs

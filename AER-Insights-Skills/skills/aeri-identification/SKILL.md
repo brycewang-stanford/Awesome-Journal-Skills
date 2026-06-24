@@ -41,6 +41,24 @@ A short paper has **no room to rescue a weak design** with pages of robustness. 
 
 You have **at most five exhibits total** and the identification competes with the result for that budget. Pick the **one diagnostic** that most directly defends the design (the event-study leads, the RD plot, the first-stage, the balance table) for in-text; everything else (placebo cuts, alternative bandwidths, all balance rows) goes to the appendix.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Estimate and audit the identification claim, don't only argue it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). AER: Insights is a short format built around one decisive result, so the body/appendix split is even tighter — run the design cleanly the first time.
+
+1. `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to list
+   the checks the design still owes.
+2. **Staggered DiD:** `callaway_santanna` / `sun_abraham` + `bacon_decomposition` +
+   `honest_did_from_result` (the pre-trend test is low-power, Roth 2022).
+3. **IV:** `effective_f_test` + an `anderson_rubin_ci` (valid under weak instruments),
+   not a 2SLS t-stat alone.
+4. **RDD:** `rdrobust` (bias-corrected) + `rddensity` / `mccrary_test` for manipulation.
+5. **OVB:** `oster_delta` / `sensemakr` — how strong a confounder would have to be.
+
+Report the economic magnitude; route the full battery to the appendix; keep every
+number reproducible. A run end-to-end (synthetic data, real returns) is in the
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md). If StatsPAI/Stata are not connected, adapt the
+vendored `resources/code/` skeleton and flag any unverified number.
 ## Checklist
 
 - [ ] Branch chosen; **data-to-object mapping stated in one sentence**

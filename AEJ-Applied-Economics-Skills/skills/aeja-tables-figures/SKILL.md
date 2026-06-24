@@ -33,6 +33,19 @@ At AEJ: Applied the **main causal estimate should be findable in seconds** and e
 4. **Figures carry identification.** Event-study leads, RD continuity, and balance are more convincing as figures than as prose; make them publication-clean (vector output, readable fonts, CIs shown).
 5. **Right precision.** Two to three significant figures; do not report coefficients to five decimals.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers (the usual source of
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md).
+
+- **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
+  `result_id` — one variable definition, one set of numbers, body and appendix in sync.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering (from the result's diagnostics) and
+  states the magnitude in interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Main causal estimate readable in one table: coefficient, SE in parentheses, N, dep-var mean, controls flagged

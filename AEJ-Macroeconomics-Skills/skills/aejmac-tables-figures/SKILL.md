@@ -38,6 +38,19 @@ AEJ: Macro follows **AEA house style** (applied by the AEA at copyediting; the s
 - Main text: the **decisive** IRFs, the headline table, the model-fit figure. AEJ: Macro articles run ~40 pages including exhibits (检索于 2026-06；以官网为准), so exhibits compete for space.
 - Online appendix: full robustness IRFs, additional moments, alternative specifications, derivations.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers (the usual source of
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md).
+
+- **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
+  `result_id` — one variable definition, one set of numbers, body and appendix in sync.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering (from the result's diagnostics) and
+  states the magnitude in interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Every IRF has a confidence band with its level stated, a labeled horizon axis, and a zero line

@@ -40,6 +40,19 @@ If two exhibits can merge into one well-designed multi-panel page, merge them an
 - **Notes carry the inference** since there are no asterisks: report point estimates with SEs / 95% confidence sets in the cell or note.
 - **Units and signs explicit**; the magnitude, not just the sign, is the point.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers (the usual source of
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md).
+
+- **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
+  `result_id` — one variable definition, one set of numbers, body and appendix in sync.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering (from the result's diagnostics) and
+  states the magnitude in interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] **≤5 exhibits total**; each **≤1 page**

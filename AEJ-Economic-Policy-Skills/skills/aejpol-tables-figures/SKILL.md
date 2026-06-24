@@ -31,6 +31,19 @@ Every AEJ: Policy paper should have **one exhibit a policymaker could screenshot
 - Put the policy-relevant magnitude (elasticity, cost-per-X, MVPF) in the paper's units, not only a raw coefficient; add a row translating the coefficient into the policy number where natural.
 - Sample size, mean of the dependent variable, and clustering level on every table.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers (the usual source of
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md).
+
+- **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
+  `result_id` — one variable definition, one set of numbers, body and appendix in sync.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering (from the result's diagnostics) and
+  states the magnitude in interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] No significance asterisks or boldface-for-significance anywhere; SEs/CIs shown

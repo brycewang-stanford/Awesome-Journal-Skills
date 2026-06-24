@@ -34,6 +34,22 @@ AEJ: Applied referees probe whether the headline number is **stable, honestly in
 4. **Be honest about where it weakens.** A check that shifts the estimate is information; report it and bound the implication rather than hiding it.
 5. **Match inference to the data structure** (clustering, spatial dependence, few clusters) — wrong SEs are the most common AEJ: Applied robustness failure.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). AEJ: Applied is applied microeconomics — labor, health, education, and development field settings where a clean research design is the entry ticket.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER, accounts for
+  cross-test correlation) or `benjamini_hochberg` — report the adjusted threshold.
+- **OVB sensitivity:** `oster_delta` / `sensemakr` — the confounder strength that would
+  overturn the headline.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`.
+- **Re-fit off one handle:** `audit_result(result_id)` lists the missing checks and the
+  exact `suggest_function` for each — no guessing the battery.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Keep the decisive checks in the body and the exhaustive (now actually-run) battery in
+the appendix. See the executed chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Primary specification declared (ideally pre-registered) before perturbations
