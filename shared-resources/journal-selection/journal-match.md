@@ -142,5 +142,7 @@ re-sending.
 ---
 *Stable index: [`venue-index.tsv`](venue-index.tsv) (185 depth packs; regenerate from the
 repo when packs are added). Volatile facts: each pack's `resources/official-source-map.md`.
-Part of the cross-journal capability layer alongside
-[`../empirical-methods/execution-with-mcp.md`](../empirical-methods/execution-with-mcp.md).*
+Part of the cross-journal capability layer — the loop is **pick** (this file) → **execute**
+([`../empirical-methods/execution-with-mcp.md`](../empirical-methods/execution-with-mcp.md))
+→ **pass the bar before submitting**
+([`../submission-readiness/`](../submission-readiness/README.md)).*
