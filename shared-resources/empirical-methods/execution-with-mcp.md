@@ -72,6 +72,18 @@ straight to a single estimator:
 For end-to-end convenience StatsPAI also exposes `pipeline_did`, `pipeline_iv`,
 `pipeline_rd` — useful once the design is settled, but still run `audit_result` after.
 
+### Worked examples — the chain run end to end (synthetic data, real tool returns)
+
+Each shows the bias the naive approach hides, the corrected estimate, and the diagnostic
+that licenses it — every number an actual MCP return, nothing hand-typed:
+
+- **Staggered DiD** — [`Journal-of-Finance-Skills/.../02-execution-walkthrough.md`](../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md)
+  (TWFE −0.0227 vs clean Callaway–Sant'Anna −0.0272; pre-trends p = 0.155; honest-DiD breakdown).
+- **IV / 2SLS** — [`worked-examples/iv-walkthrough.md`](worked-examples/iv-walkthrough.md)
+  (OLS 0.196 → 2SLS 0.0997; Olea–Pflueger effective F = 272; Hausman p < 0.001).
+- **Sharp RDD** — [`worked-examples/rdd-walkthrough.md`](worked-examples/rdd-walkthrough.md)
+  (naive mean-diff 1.39 → rdrobust ~0.57–0.61 for a true 0.6; McCrary p = 0.965).
+
 ---
 
 ## 2. Reviewer objection → the tool that answers it
