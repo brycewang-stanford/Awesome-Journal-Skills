@@ -62,30 +62,58 @@ Breadth bundles (routing-only), and theory-only / humanities packs that the shar
 empirical kit explicitly excludes (AMR, Econometric Theory, AHR, PMLA, Mind, …). The
 scorecard denominator (`depth` + `code present`) already filters to the 134 candidates.
 
-## Progress
+## Progress — COMPLETE (131 / 134, 98%)
 
-- **Wired (15 / 134):** Journal-of-Finance (4 skills), Quarterly-Journal-of-Economics
-  (3), Management-Science (3), AEJ: Applied / Economic Policy / Macroeconomics /
-  Microeconomics plus AER:Insights (3 each), IER / JDE / JAE / JBES / JFI / JFQA
-  (3 each), and Journal of Financial Markets (4). Lanes proven: finance/asset-pricing,
-  econ/applied-micro, applied econometrics, and management/OR — across both
-  skill-naming conventions. clone-audit clean.
-- **Remaining (119):** regenerate the flagship-first queue any time with:
-  ```
+All four tiers wired and committed. Final state verified: `run_checks` all hard checks
+pass, `clone_audit` 0 warnings (2895 skills / 345 groups), scorecard mean 93.6.
+
+- **Tier 0 (proof + foundation):** Journal-of-Finance (4 skills), Quarterly-Journal-of-
+  Economics (3), Management-Science (3). Loop validated end-to-end with real StatsPAI
+  runs → JF worked-example 02.
+- **Tier 1 (12):** AEJ Applied/Policy/Macro/Micro, AER:Insights, IER, JDE, JFQA, JFI,
+  JFM, JBES, JAE(applied econometrics).
+- **Tier 2 (33):** AMJ, ASQ, SMJ, Org Science, Org Studies, J. of Management, JMS,
+  Human Relations, HRM, ETP, JBV, JIBS; TAR, JAR, JAE, CAR, RAST, 会计研究; JM, JMR,
+  JCR, Marketing Science, JAMS, JCP; Operations Research, M&SOM, JOM, POM, INFORMS JoC;
+  MISQ, ISR, JMIS, JAIS.
+- **Tier 3 (27):** APSR, AJPS, JOP, BJPS, IO, World Politics, CPS, Governance; ASR, AJS,
+  Social Forces, SPQ, ESR, JMF, Criminology, Demography, PDR; JPSP, Psych Science,
+  Cognitive Psych, J. Edu. Psych, JAP, Psychological Bulletin(meta template); AERJ;
+  J. of Communication, Communication Research, POQ.
+- **Tier 4 (~56):** JPE, Econometrica, REStud, JFE, RFS, REStat, JEEA, The Economic
+  Journal, EER, RAND, J. Public/Labor/Health/Urban/Intl/Monetary Econ, JMCB, JLEO, JLE,
+  JEEM, JEBO, J. Econ Geography/Growth, Quantitative Econ, RED, The Econometrics Journal,
+  J. of Econometrics, Experimental Econ, JRU, IMFER, WBER, World Development, Research
+  Policy, JPAM, JPART, PAR, Financial Management, JBF, JCF, JIMF, Review of Finance;
+  经济研究, 管理世界, 中国工业经济, 经济学季刊, 金融研究, 世界经济, 财经研究,
+  中国农村经济, 中国行政管理, 数量经济技术经济研究, 管理科学学报(behavioral-om),
+  南开管理评论, 社会学研究.
+
+### Intentionally NOT wired (3 — honest scoping)
+
+- **Annual Review of Economics**, **Academy of Management Annals** — review venues
+  (only a tables-figures skill; no primary-empirical methods).
+- **Social Sciences in China (中国社会科学)** — generalist theory/argumentation venue;
+  no empirical-methods skill to host the bridge.
+
+### Notes for maintainers
+
+- The **scorecard `exb` column / counter is the source of truth** (reads the SKILL
+  bodies). A handful of `resources/README` pointers may be absent where the concurrent
+  live-check process regenerated the file or where the README has no
+  `reporting-standards` / `报告规范` anchor (e.g. 经济研究) — the SKILL-level bridge is
+  present regardless.
+- Re-verify / regenerate the (now empty) remaining queue any time with:
+
+  ```bash
   python3 tools/quality_scorecard.py --json | python3 -c "import sys,json; d=json.load(sys.stdin); print('\n'.join(r['pack'] for r in sorted([x for x in d if x['pack_type']=='depth' and x['code_status']=='present' and not x['exec_bridge']], key=lambda r:-r['score'])))"
   ```
 
-## Suggested cadence (month-long campaign)
+- Rollout scripts (bilingual, idempotent) live in the session scratchpad; re-run safe.
 
-Tier 1 remaining (econ/finance flagships): continue with any present but unwired AER /
-JPE / Econometrica / REStud / JFE / RFS / public-economics / labor / international /
-monetary / RAND packs, then rerun the queue command above before the next batch.
-Tier 2 (management/accounting/marketing/IS): AMJ/ASQ/SMJ/Org Sci, TAR/JAR/JAE/CAR/RAST,
-JM/JMR/JCR/Marketing Science, MISQ/ISR/JMIS/JAIS, OR/M&SOM/JOM/POM.
-Tier 3 (political science / sociology / psych / demography / education / criminology):
-APSR/AJPS/JOP/BJPS/IO, ASR/AJS/Social Forces/SPQ/ESR, JAP/JPSP/Psych Science, Demography,
-AERJ, Criminology.
-Tier 4 (Chinese empirical flagships): 经济研究 / 管理世界 / 中国工业经济 / 金融研究 /
-数量经济技术经济研究 / 管理科学学报 etc.
+## Next (optional, beyond this campaign)
 
-Wire ~6–10 packs per batch, run the verification gate, then continue. Commit per tier.
+- Run the loop on real data for one or two more design families (IV, RDD) to add
+  worked-examples alongside the JF DiD walkthrough.
+- Consider the P1 items from the strategic review: a cross-journal `journal-match`
+  meta-skill and a submission-readiness / simulated-referee pass.
