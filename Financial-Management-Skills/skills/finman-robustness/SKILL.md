@@ -47,6 +47,20 @@ Under-weighting trivial robustness is not a license to skip the checks that matt
 - **Honest sensitivity** — an Oster-style bound or a pre-trend plot is *cheap and decisive*, the opposite of trivial.
 The distinction FM draws is between checks that **change what a reader believes** (keep, lead with) and checks that **only signal diligence** (winsorization sweeps, SE menus, control churn — cut or appendix). When in doubt, ask: "If this check came out differently, would my conclusion change?" If no, it is trivial.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Financial Management is empirical corporate finance + asset pricing; corporate-causal chain (DiD/IV/RDD) plus the factor-zoo haircut for cross-sectional pricing.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
+- **OVB sensitivity:** `oster_delta` / `sensemakr`.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`.
+- **Re-fit off one handle:** `audit_result(result_id)` lists missing checks + the exact
+  `suggest_function` for each.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Decisive checks in the body, exhaustive battery in the appendix.
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Each robustness check is tied to a named alternative explanation, not a generic permutation

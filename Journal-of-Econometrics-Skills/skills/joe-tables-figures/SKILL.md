@@ -37,6 +37,17 @@ At the *Journal of Econometrics* the exhibits are the **empirical backbone of a 
 - Math in captions/notes in LaTeX via the **elsarticle** class for consistency with the manuscript.
 - At submission everything lives in the single PDF; keep source and high-res files staged for acceptance.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Journal of Econometrics is a methods venue — estimator validity + simulation evidence are the contribution; pair estimates with diagnostics and Monte-Carlo where relevant.
+
+- **Tables:** `etable` (multi-model) or `did_summary_to_latex` straight from the `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the magnitude in interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Anti-patterns
 
 - A 12-column table with no row/column grouping and no notes

@@ -53,6 +53,20 @@ description: Use when the identification strategy for a 《中国工业经济》
 - 分配规则非随机 → PSM-DID（先匹配再 DID，转 `cie-robustness`）
 - 排除同期竞争性政策（剔除其他试点样本/时间窗）
 
+## 执行桥（StatsPAI / Stata MCP）
+
+把设计**跑出来并审计**，而不是只做描述。完整映射见
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。《中国工业经济》偏产业/企业实证，常见政策冲击 DID 与 IV；强调识别与稳健性。
+
+- `detect_design` → `recommend` → 用 `as_handle=true` 拟合 → `audit_result` 列出尚欠的检查。
+- **观察性因果：**交错 DID（`callaway_santanna` / `sun_abraham` + `bacon_decomposition` +
+  `honest_did_from_result`）；IV（`effective_f_test` + `anderson_rubin_ci`）；RDD（`rdrobust` +
+  `mccrary_test`）。
+- **实验：**随机化推断 + `romano_wolf` 做多结果族错误率控制。
+- **敏感性：**`oster_delta` / `sensemakr`。
+
+正文报告**经济量级**，完整 battery 进附录；每个数字都能复现。端到端真跑示例见
+[JF 执行 walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md)。若 StatsPAI/Stata 未连接，改用 `resources/code/` 并标注未验证数字。
 ## 必查清单
 
 - [ ] 事件研究图已画（动态系数 + 95% CI）

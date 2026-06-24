@@ -42,6 +42,17 @@ RP exhibits serve an **interdisciplinary** readership, so they must be self-expl
 - Figures should be legible in greyscale and at print size; avoid chartjunk and uninterpreted color.
 - Place exhibits to follow the argument's logic; the appendix holds robustness, not load-bearing results.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Research Policy is innovation studies — patent/firm panels with selection; foreground identification and the selection objection.
+
+- **Tables:** `etable` (multi-model) or `did_summary_to_latex` straight from the `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the magnitude in interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] A focused exhibit isolates the headline innovation effect

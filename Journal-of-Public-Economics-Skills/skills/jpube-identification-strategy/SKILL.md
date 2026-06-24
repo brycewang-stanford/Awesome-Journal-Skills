@@ -46,6 +46,20 @@ JPubE's comparative advantage is the **policy-induced discontinuity** — a tax 
 - Exclusion argued in three registers: theory, institutional detail, falsification.
 - Report reduced form and OLS; state the LATE / compliers interpretation.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Estimate and audit the design, don't only describe it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JPubE is public economics — tax/transfer/program designs; DiD/IV/RDD and bunching are central, magnitudes in policy units.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
+- **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +
+  `bacon_decomposition` + `honest_did_from_result`); IV (`effective_f_test` +
+  `anderson_rubin_ci`); RDD (`rdrobust` + `mccrary_test`).
+- **Experiments:** randomization-based inference + `romano_wolf` for many-outcome control.
+- **Sensitivity:** `oster_delta` / `sensemakr` for observational claims.
+
+Report the magnitude in interpretable units; route the full battery to the appendix. A
+run end-to-end (synthetic data, real returns) is in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Policy-induced identifying variation named in one sentence and defended as exogenous

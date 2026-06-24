@@ -46,6 +46,20 @@ Across submissions, two requests recur so reliably that strong authors pre-empt 
 
 Building both before submission converts two likely R&R demands into evidence of rigor — and, if either weakens the result, you would far rather discover it yourself than have a referee surface it.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JEG is spatial economics — spatial dependence and sorting; emphasize identification and Conley/spatial-robust inference.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
+- **OVB sensitivity:** `oster_delta` / `sensemakr`.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`.
+- **Re-fit off one handle:** `audit_result(result_id)` lists missing checks + the exact
+  `suggest_function` for each.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Decisive checks in the body, exhaustive battery in the appendix.
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] MAUP confronted: result shown across ≥2 spatial scales or aggregations

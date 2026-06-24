@@ -56,6 +56,18 @@ description: Use for measurement rigor in 《南开管理评论》 (Nankai Busin
   - **共同潜因子（CLF / ULMC）**：加方法因子，比较载荷变化
 - 结论要写明"CMV 不构成实质威胁"的依据，而非一句"做了 Harman"
 
+## 执行桥（StatsPAI / Stata MCP）
+
+把稳健性 battery **跑出来**，而不是只罗列。完整映射见
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。《南开管理评论》是中国情境实证管理刊；实验用随机化推断 + 多重检验，问卷-SEM 与测量循其规范，定性案例另循其标准。
+
+- **多结果 / 多设定：**`romano_wolf`（逐步 FWER）或 `benjamini_hochberg`，报告校正后阈值。
+- **遗漏变量敏感性：**`oster_delta` / `sensemakr`。
+- **推断：**少聚类用 `wild_cluster_bootstrap`；视依赖结构用 `twoway_cluster` / `conley`。
+- **从一个 handle 复跑：**`audit_result(result_id)` 列出缺失检查及对应 `suggest_function`。
+- **出表：**`etable` / `did_summary_to_latex` 直接从 handle 生成，不手抄数字。
+
+正文留决定性检查，详尽 battery 进附录。执行链见 [JF 执行 walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md)。
 ## 自检清单
 
 - [ ] 每个构念报告 α 与 CR（≥ 0.70）

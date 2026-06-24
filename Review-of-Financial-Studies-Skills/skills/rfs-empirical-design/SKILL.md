@@ -45,6 +45,21 @@ RFS publishes design-defining empirical templates referees will hold you to — 
 - Cluster at the level of treatment assignment or the unit of correlation.
 - For asset pricing, match SE to the return structure (Newey–West for autocorrelation, Driscoll–Kraay for cross-sectional + serial dependence).
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the asset-pricing battery, don't just specify it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). RFS is finance top-3 (with JF, JFE) — corporate-causal chain for corporate papers, factor-zoo haircut for asset pricing.
+
+- **Factor regressions / time-series alphas:** `feols` with the right SEs (Newey–West /
+  clustered) — read the alpha and t off the return.
+- **Factor-zoo haircut:** after disclosing how many signals were screened, apply
+  `romano_wolf` / `benjamini_hochberg` and report the alpha that survives.
+- **Fama–MacBeth + Shanken EIV** are Stata-canonical — run via `mcp__stata-mcp__stata_do`
+  with the vendored `resources/code/` (`asreg` / `xtfmb`).
+- **Exhibits:** `etable`; hand formatting to the tables/figures skill.
+
+Report the economic magnitude (bps/month alpha, Sharpe gain); full factor grid → appendix.
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Sample-attrition table present; every filter justified

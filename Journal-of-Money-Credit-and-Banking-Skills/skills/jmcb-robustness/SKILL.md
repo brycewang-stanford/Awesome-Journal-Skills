@@ -50,6 +50,20 @@ State the clustering/inference choice once, prominently, and show the headline s
 
 Many JMCB samples straddle the 2008 crisis, the ZLB/QE era, and post-Basel-III regulation. A result that holds only because one of these episodes dominates the variation is fragile. Show the headline in **pre/post sub-samples**, **excluding the crisis window**, and — where the mechanism plausibly changes at the bound — in a **state-dependent** specification (e.g., interacting the shock with a ZLB or high-uncertainty indicator). If the effect genuinely is regime-specific, that is itself a finding; report it as one rather than letting it masquerade as a general result.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JMCB is monetary/banking — macro time series + bank panels; local projections for the macro lane, DiD/IV for the bank lane.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
+- **OVB sensitivity:** `oster_delta` / `sensemakr`.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`.
+- **Re-fit off one handle:** `audit_result(result_id)` lists missing checks + the exact
+  `suggest_function` for each.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Decisive checks in the body, exhaustive battery in the appendix.
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Each robustness check is tied to a named threat to *this* identification

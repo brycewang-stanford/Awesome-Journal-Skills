@@ -55,6 +55,20 @@ Hypothetical, numbers illustrative: a paper claims staggered anti-takeover statu
 
 Every JCF design with treated firms needs one explicit paragraph: who became treated, why, and what that implies. Cover (a) the institutional reason treatment landed where it did, (b) a pre-treatment covariate comparison or trends table, (c) the direction of bias if a selection story survives, and (d) why the estimate is then a lower or upper bound. Omitting this paragraph is among the most common reasons an otherwise clean JCF design draws a second-round identification objection.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Estimate and audit the design, don't only describe it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JCF is corporate finance — endogeneity of corporate policies is the central threat; foreground IV/DiD identification.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
+- **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +
+  `bacon_decomposition` + `honest_did_from_result`); IV (`effective_f_test` +
+  `anderson_rubin_ci`); RDD (`rdrobust` + `mccrary_test`).
+- **Experiments:** randomization-based inference + `romano_wolf` for many-outcome control.
+- **Sensitivity:** `oster_delta` / `sensemakr` for observational claims.
+
+Report the magnitude in interpretable units; route the full battery to the appendix. A
+run end-to-end (synthetic data, real returns) is in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Anti-patterns
 
 - "We control for everything" as a substitute for a design.

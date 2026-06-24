@@ -39,6 +39,20 @@ JLE judges identification through a **law-and-economics lens**: the **mapping fr
 - Get **market definition** right (the antitrust object); show the treated and control markets were comparable pre-event.
 - For merger price effects, consider difference-in-differences across affected vs. unaffected products/regions; for enforcement deterrence, distinguish the targeted firm from spillover deterrence on others.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Estimate and audit the design, don't only describe it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JLE is empirical law-and-economics — DiD around legal/regulatory change is central.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
+- **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +
+  `bacon_decomposition` + `honest_did_from_result`); IV (`effective_f_test` +
+  `anderson_rubin_ci`); RDD (`rdrobust` + `mccrary_test`).
+- **Experiments:** randomization-based inference + `romano_wolf` for many-outcome control.
+- **Sensitivity:** `oster_delta` / `sensemakr` for observational claims.
+
+Report the magnitude in interpretable units; route the full battery to the appendix. A
+run end-to-end (synthetic data, real returns) is in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Design chosen; the legal-variation-to-estimand mapping stated in one sentence

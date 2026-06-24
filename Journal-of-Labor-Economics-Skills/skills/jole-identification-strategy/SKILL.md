@@ -56,6 +56,20 @@ A novel or newly linked labor dataset (matched employer–employee registers, ad
 - Address **limited-mobility (incidental-parameter) bias** — leave-out (KSS) or bias-corrected estimators — before interpreting firm-effect variance.
 - Be explicit about what the firm and worker effects do and do not identify (exogenous-mobility assumption).
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Estimate and audit the design, don't only describe it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JOLE is labor economics — the home of clean identification; DiD/IV/RDD and selection corrections are the binding constraint.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
+- **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +
+  `bacon_decomposition` + `honest_did_from_result`); IV (`effective_f_test` +
+  `anderson_rubin_ci`); RDD (`rdrobust` + `mccrary_test`).
+- **Experiments:** randomization-based inference + `romano_wolf` for many-outcome control.
+- **Sensitivity:** `oster_delta` / `sensemakr` for observational claims.
+
+Report the magnitude in interpretable units; route the full battery to the appendix. A
+run end-to-end (synthetic data, real returns) is in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Identifying variation named in one sentence and defended as exogenous

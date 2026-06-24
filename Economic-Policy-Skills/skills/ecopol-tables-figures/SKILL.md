@@ -39,6 +39,17 @@ Note on house style: EP applies its template and copyediting at the commissionin
 - **Mark the policy object on the plot** — the reform date, the eligibility threshold, the counterfactual path — so the design is visible.
 - **Tables: only the coefficients that matter** in the main text; full controls in the appendix.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Economic Policy is policy-facing applied economics; foreground a credible design and a policy-relevant magnitude.
+
+- **Tables:** `etable` (multi-model) or `did_summary_to_latex` straight from the `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the magnitude in interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] At least one main-text figure that conveys the policy effect standalone

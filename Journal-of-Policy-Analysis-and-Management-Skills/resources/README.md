@@ -13,6 +13,7 @@ empirical-methods hub and is linked below.
 | [`exemplars/library.md`](exemplars/library.md) | Benchmark against **real, web-verified JPAM papers** organized by policy field × method (RD, DiD, RKD, within-study comparison). Design positioning only — no fabricated findings; includes a sibling-journal do-not-misattribute list. |
 | [reviewer-objection-checklist](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) | The objections referees actually raise, by identification strategy (DiD / IV / RDD / DML / matching / mechanism), each with its preemption. Stress-test the design before drafting. |
 | [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) | Modern inference + reporting table stakes: SE clustering, weak-IV diagnostics, multiple-testing, DiD/RDD reporting, reproducibility. |
+| [execution-with-mcp](../../shared-resources/empirical-methods/execution-with-mcp.md) | **Guidance → a fitted, audited result.** Maps each design family / reviewer objection to the concrete StatsPAI / Stata MCP tools in this environment, so this pack's empirical skills *run* the modern DiD / weak-IV-robust CI / multiple-testing correction and report the number. |
 | [`official-source-map.md`](official-source-map.md) | Venue-specific facts (fee/membership, article types, blinding, data policy, portal) with source-backed guardrails. |
 | [`external_tools.md`](external_tools.md) | Policy-evaluation data sources, software, and cost-benefit / MVPF tooling relevant to JPAM. |
 

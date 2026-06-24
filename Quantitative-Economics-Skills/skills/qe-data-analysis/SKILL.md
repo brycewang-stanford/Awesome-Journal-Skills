@@ -38,6 +38,20 @@ QE is the Econometric Society's empirically/computationally oriented journal, so
 - Pin versions: `renv.lock`, `requirements.txt`/`conda`, `Project.toml`/`Manifest.toml`, recorded Stata `ssc`/`net` versions.
 - Deterministic seeds; logged run times; a README noting any partial-check scope for the Data Editor.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Quantitative Economics spans structural and applied micro; the chain serves its reduced-form lane, structural estimation uses its own toolkit.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
+- **OVB sensitivity:** `oster_delta` / `sensemakr`.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`.
+- **Re-fit off one handle:** `audit_result(result_id)` lists missing checks + the exact
+  `suggest_function` for each.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Decisive checks in the body, exhaustive battery in the appendix.
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Sample / moment construction fully documented and scripted

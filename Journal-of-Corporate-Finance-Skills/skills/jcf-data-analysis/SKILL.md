@@ -84,6 +84,20 @@ Hypothetical (numbers illustrative): a governance mandate forces some boards to 
 - "Winsorizing drives this." → Re-run at 0.5/99.5, 2/98, and trimmed; one appendix table, three columns.
 - "Industry-by-year shocks explain it." → Show the coefficient with and without industry × year FE side by side; if it dies, the paper has a confounding problem, not a formatting one.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JCF is corporate finance — endogeneity of corporate policies is the central threat; foreground IV/DiD identification.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
+- **OVB sensitivity:** `oster_delta` / `sensemakr`.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`.
+- **Re-fit off one handle:** `audit_result(result_id)` lists missing checks + the exact
+  `suggest_function` for each.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Decisive checks in the body, exhaustive battery in the appendix.
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Anti-patterns
 
 - Kitchen-sink controls with no design and no magnitudes.

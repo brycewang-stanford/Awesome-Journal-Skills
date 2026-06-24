@@ -45,6 +45,20 @@ Run, in roughly this order of referee salience:
 
 Before submission, ask: "What single change would a hostile referee make to break this result?" Then make that change yourself and report the outcome. If the result breaks under a reasonable alternative, the paper is not ready — return to `restud-identification` (empirical) or `restud-theory-model` (theory) rather than papering over it with more tables.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). REStud is top-5 general-interest economics; credible identification with modern estimators is the bar across applied fields.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
+- **OVB sensitivity:** `oster_delta` / `sensemakr`.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`.
+- **Re-fit off one handle:** `audit_result(result_id)` lists missing checks + the exact
+  `suggest_function` for each.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Decisive checks in the body, exhaustive battery in the appendix.
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Headline magnitude stable across alternative specifications, not merely same-signed

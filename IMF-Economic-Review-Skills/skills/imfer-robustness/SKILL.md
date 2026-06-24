@@ -39,6 +39,20 @@ Standard errors are where IMFER robustness most often fails, because country pan
 4. **Match inference to cross-country structure.** Driscoll–Kraay or two-way clustering, and wild-cluster bootstrap when the country count is small — wrong SEs are the most common IMFER robustness failure.
 5. **Report stability, not just significance.** Show the *point estimate* range across checks; a check that moves it is information — bound the implication for policy rather than hiding it.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). IMFER is international macro/finance; cross-country panels with confounded policy — emphasize identification and clustering.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
+- **OVB sensitivity:** `oster_delta` / `sensemakr`.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`.
+- **Re-fit off one handle:** `audit_result(result_id)` lists missing checks + the exact
+  `suggest_function` for each.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Decisive checks in the body, exhaustive battery in the appendix.
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Primary specification declared before perturbations

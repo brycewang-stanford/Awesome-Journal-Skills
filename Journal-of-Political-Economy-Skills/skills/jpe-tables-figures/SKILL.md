@@ -33,6 +33,17 @@ A JPE table or figure should be **self-contained and economically legible**: a r
 - Main text: the identifying result, the mechanism evidence, the key magnitude, the headline counterfactual — typically a small number of exhibits.
 - Online appendix: the full robustness battery, descriptive tables, secondary heterogeneity, and supporting derivations.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JPE is top-5 general-interest economics; a credible design is the entry ticket — modern DiD/IV/RDD and the magnitude for a broad readership.
+
+- **Tables:** `etable` (multi-model) or `did_summary_to_latex` straight from the `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the magnitude in interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Headline result expressed as an economic magnitude (relative to mean / elasticity / welfare), not stars alone

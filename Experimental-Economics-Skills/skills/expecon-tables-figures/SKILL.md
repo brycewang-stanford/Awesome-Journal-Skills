@@ -43,6 +43,17 @@ A clean ExpEcon results section usually runs a small, fixed set of exhibits — 
 
 Resist the urge to add a seventh table of exploratory contrasts to the main text; push it to the appendix and label it exploratory.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Experimental Economics is lab/field experiments; randomization inference, `romano_wolf` for many treatments/outcomes, and power are decisive — observational tools secondary.
+
+- **Tables:** `etable` (multi-model) or `did_summary_to_latex` straight from the `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the magnitude in interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] One main figure shows the primary treatment contrast and is interpretable on its own

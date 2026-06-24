@@ -39,6 +39,20 @@ REStat is **applied econometrics with a measurement tradition**, so two things a
 - **Measurement error:** classical vs non-classical; attenuation correction, validation samples, or bounds.
 - New index / data: document construction, sensitivity to choices, and show the applied conclusion is not an artifact of how you measured.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Estimate and audit the design, don't only describe it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). REStat is applied econometrics/empirical micro — the home of careful identification; DiD/IV/RDD with weak-IV-robust CIs.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
+- **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +
+  `bacon_decomposition` + `honest_did_from_result`); IV (`effective_f_test` +
+  `anderson_rubin_ci`); RDD (`rdrobust` + `mccrary_test`).
+- **Experiments:** randomization-based inference + `romano_wolf` for many-outcome control.
+- **Sensitivity:** `oster_delta` / `sensemakr` for observational claims.
+
+Report the magnitude in interpretable units; route the full battery to the appendix. A
+run end-to-end (synthetic data, real returns) is in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Branch chosen; data-to-object mapping stated in one sentence

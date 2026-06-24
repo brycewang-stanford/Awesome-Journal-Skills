@@ -102,6 +102,20 @@ Target: bank-quarter panel for a liquidity-regulation study, 2005Q1–2019Q4.
 - "Winsorizing at 1/99 hides outliers." → also show 2.5/97.5 and trimmed samples in an appendix column.
 - "Results hinge on the largest banks." → report with and without the systemically important institutions.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JBF is empirical banking/finance — corporate/bank causal designs around regulation and shocks.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
+- **OVB sensitivity:** `oster_delta` / `sensemakr`.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`.
+- **Re-fit off one handle:** `audit_result(result_id)` lists missing checks + the exact
+  `suggest_function` for each.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Decisive checks in the body, exhaustive battery in the appendix.
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Output format
 
 ```text

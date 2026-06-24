@@ -37,6 +37,20 @@ In observational economics, identification is an argument about why selection do
 - State the **estimand** in one sentence: the average treatment effect of [manipulation] on [primary outcome], for [population]. Distinguish it from any structural parameter.
 - The independent unit is usually the **session or matching group, not the individual decision** (decisions within a group are not independent). Inference must respect this — see `expecon-robustness`.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Estimate and audit the design, don't only describe it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Experimental Economics is lab/field experiments; randomization inference, `romano_wolf` for many treatments/outcomes, and power are decisive — observational tools secondary.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
+- **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +
+  `bacon_decomposition` + `honest_did_from_result`); IV (`effective_f_test` +
+  `anderson_rubin_ci`); RDD (`rdrobust` + `mccrary_test`).
+- **Experiments:** randomization-based inference + `romano_wolf` for many-outcome control.
+- **Sensitivity:** `oster_delta` / `sensemakr` for observational claims.
+
+Report the magnitude in interpretable units; route the full battery to the appendix. A
+run end-to-end (synthetic data, real returns) is in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] **No deception** confirmed against the ESA definition; if borderline, the borderline practice is named and defended as non-deceptive

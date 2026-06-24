@@ -41,6 +41,17 @@ Because environmental variation is spatial, a map often does identification work
 
 Environmental damages and valuations are often nonlinear — pollution-mortality concentration-response curves, threshold effects in temperature, diminishing WTP in scope. A single linear slope hides exactly the structure a regulator needs (where marginal damage steepens, where a standard should bind). When the relationship is plausibly nonlinear, show the dose-response curve with a confidence band rather than reporting one coefficient, and let the exhibit reveal the shape. A flexible specification that turns out linear is reassuring; a linear specification that hides a kink is a missed contribution and an easy referee point.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JEEM is environmental economics — policy/regulation designs and non-market valuation; the causal chain serves its program-evaluation lane.
+
+- **Tables:** `etable` (multi-model) or `did_summary_to_latex` straight from the `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the magnitude in interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] The lead exhibit shows the identifying variation (event study / map / RD plot), not just a coefficient

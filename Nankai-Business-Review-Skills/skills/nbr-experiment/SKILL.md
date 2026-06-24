@@ -51,6 +51,20 @@ description: Use for experimental studies submitted to 《南开管理评论》 
 - 多重比较做校正；必要时报告贝叶斯因子或等效性检验
 - **机制**：用**实验因果链**（操纵中介变量）或**测量中介 + Bootstrap**检验过程；调节用交互 + 简单斜率
 
+## 执行桥（StatsPAI / Stata MCP）
+
+把设计**跑出来并审计**，而不是只做描述。完整映射见
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。《南开管理评论》是中国情境实证管理刊；实验用随机化推断 + 多重检验，问卷-SEM 与测量循其规范，定性案例另循其标准。
+
+- `detect_design` → `recommend` → 用 `as_handle=true` 拟合 → `audit_result` 列出尚欠的检查。
+- **观察性因果：**交错 DID（`callaway_santanna` / `sun_abraham` + `bacon_decomposition` +
+  `honest_did_from_result`）；IV（`effective_f_test` + `anderson_rubin_ci`）；RDD（`rdrobust` +
+  `mccrary_test`）。
+- **实验：**随机化推断 + `romano_wolf` 做多结果族错误率控制。
+- **敏感性：**`oster_delta` / `sensemakr`。
+
+正文报告**经济量级**，完整 battery 进附录；每个数字都能复现。端到端真跑示例见
+[JF 执行 walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md)。若 StatsPAI/Stata 未连接，改用 `resources/code/` 并标注未验证数字。
 ## 自检清单
 
 - [ ] 设计类型、各条件样本量、随机分配交代清楚

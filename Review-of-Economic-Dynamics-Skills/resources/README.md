@@ -13,6 +13,7 @@ empirical-methods hub and is linked below.
 | [`exemplars/library.md`](exemplars/library.md) | Web-verified real **Review of Economic Dynamics** papers by topic × method, with a sibling-confusion guardrail (RED ≠ JME / AEJ:Macro / JET / Macro Dynamics / RES / JPE) and a documented omissions list. Design positioning only — no invented magnitudes. |
 | [reviewer-objection-checklist](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) | The objections referees actually raise, by identification strategy (DiD / IV / RDD / DML / matching / mechanism), each with its preemption. Stress-test the design before drafting. |
 | [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) | Modern inference + reporting table stakes: SE clustering, weak-IV diagnostics, multiple-testing, DiD/RDD reporting, reproducibility. |
+| [execution-with-mcp](../../shared-resources/empirical-methods/execution-with-mcp.md) | **Guidance → a fitted, audited result.** Maps each design family / reviewer objection to the concrete StatsPAI / Stata MCP tools in this environment, so this pack's empirical skills *run* the modern DiD / weak-IV-robust CI / multiple-testing correction and report the number. |
 | [`official-source-map.md`](official-source-map.md) | Venue-specific facts (fees, limits, blinding, data policy, house citation style) with sourcing discipline. |
 | [`external_tools.md`](external_tools.md) | External tools / packages relevant to this venue. |
 

@@ -71,6 +71,20 @@ A bare "+4.2%" with no band and no validation invites the first referee pushback
 - **"Inference ignores within-market correlation."** Fix: cluster at the market level; with few markets, switch to wild-cluster bootstrap and report the seed.
 - **"Robustness lives only in a footnote."** Fix: stage one decisive robustness exhibit in the main text and route the full battery to the appendix.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). RAND is industrial organization — endogeneity of prices/entry and structural demand; the reduced-form chain for causal claims, structural IO outside it.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
+- **OVB sensitivity:** `oster_delta` / `sensemakr`.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`.
+- **Re-fit off one handle:** `audit_result(result_id)` lists missing checks + the exact
+  `suggest_function` for each.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Decisive checks in the body, exhaustive battery in the appendix.
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Anti-patterns
 
 - A single structural run with no starting-value or specification sensitivity

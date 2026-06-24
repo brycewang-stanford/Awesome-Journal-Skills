@@ -25,6 +25,20 @@ Public economics at JPubE is typically built on **large administrative or regist
 - **Heterogeneity that matters for policy.** By income, eligibility margin, or jurisdiction — heterogeneity is the input to optimal nonlinear policy, not a fishing expedition.
 - **Robustness.** Bin width and excluded region (bunching), bandwidth (RD/RKD), estimator choice (staggered DID), functional form, and sensitivity of the welfare conclusion to key elasticities.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JPubE is public economics — tax/transfer/program designs; DiD/IV/RDD and bunching are central, magnitudes in policy units.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
+- **OVB sensitivity:** `oster_delta` / `sensemakr`.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`.
+- **Re-fit off one handle:** `audit_result(result_id)` lists missing checks + the exact
+  `suggest_function` for each.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Decisive checks in the body, exhaustive battery in the appendix.
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] The estimated object is the parameter the welfare claim needs

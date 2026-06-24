@@ -42,6 +42,20 @@ JEEM identification is judged on two axes at once: the **causal/preference-recov
 - Address hypothetical bias (cheap-talk, certainty calibration, inferred valuation), protest responses, and status-quo/yea-saying effects.
 - Pre-specify the choice model (RUM / mixed logit / latent class) and report welfare (compensating variation) with its uncertainty, not just utility coefficients.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Estimate and audit the design, don't only describe it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JEEM is environmental economics — policy/regulation designs and non-market valuation; the causal chain serves its program-evaluation lane.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
+- **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +
+  `bacon_decomposition` + `honest_did_from_result`); IV (`effective_f_test` +
+  `anderson_rubin_ci`); RDD (`rdrobust` + `mccrary_test`).
+- **Experiments:** randomization-based inference + `romano_wolf` for many-outcome control.
+- **Sensitivity:** `oster_delta` / `sensemakr` for observational claims.
+
+Report the magnitude in interpretable units; route the full battery to the appendix. A
+run end-to-end (synthetic data, real returns) is in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Branch named; the data-to-welfare-object mapping stated in one sentence

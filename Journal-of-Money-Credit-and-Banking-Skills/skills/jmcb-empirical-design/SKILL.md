@@ -53,6 +53,21 @@ A JMCB referee will mentally re-run your data build and ask where it could have 
 
 Measurement and reproducibility are the same discipline at JMCB. As you finalize the data build, write the construction in enough detail that the eventual replication package — or, for restricted data, the documented access path — lets someone rebuild the central variables. Note which inputs are public (Call Reports, Y-9C, FRED, ALFRED real-time vintages) and which require restricted access (supervisory panels, credit registers, RDC), since this determines what `jmcb-internet-appendix` can include. A measurement section that doubles as a reproduction recipe pre-empts the journal's signature replication concern.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the asset-pricing battery, don't just specify it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JMCB is monetary/banking — macro time series + bank panels; local projections for the macro lane, DiD/IV for the bank lane.
+
+- **Factor regressions / time-series alphas:** `feols` with the right SEs (Newey–West /
+  clustered) — read the alpha and t off the return.
+- **Factor-zoo haircut:** after disclosing how many signals were screened, apply
+  `romano_wolf` / `benjamini_hochberg` and report the alpha that survives.
+- **Fama–MacBeth + Shanken EIV** are Stata-canonical — run via `mcp__stata-mcp__stata_do`
+  with the vendored `resources/code/` (`asreg` / `xtfmb`).
+- **Exhibits:** `etable`; hand formatting to the tables/figures skill.
+
+Report the economic magnitude (bps/month alpha, Sharpe gain); full factor grid → appendix.
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Every constructed key variable has a definition a reader could rebuild

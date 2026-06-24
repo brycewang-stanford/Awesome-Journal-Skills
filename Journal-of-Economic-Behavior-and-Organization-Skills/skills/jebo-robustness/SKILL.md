@@ -46,6 +46,20 @@ At JEBO the right question is never "did we run enough checks?" but "for each wa
 
 JEBO's distinctive robustness demand is **mechanism robustness**: even a real, replicable effect can be driven by a *different* behavioral channel than claimed. Where possible, add a check that separates your mechanism from the leading alternative (a moderation test the rival channel does not predict, a mediation analysis with the caveats stated, or a treatment that shuts the rival channel off).
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JEBO spans behavioral/experimental and applied micro; randomization inference for experiments, DiD/IV for observational claims.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
+- **OVB sensitivity:** `oster_delta` / `sensemakr`.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`.
+- **Re-fit off one handle:** `audit_result(result_id)` lists missing checks + the exact
+  `suggest_function` for each.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Decisive checks in the body, exhaustive battery in the appendix.
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Every robustness exhibit is labeled with the specific threat it neutralizes

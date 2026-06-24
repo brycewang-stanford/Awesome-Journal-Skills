@@ -34,6 +34,21 @@ International-finance referees scrutinize **measurement and comparability** as h
 4. **Defend the exchange-rate convention.** Distinguish a dollar effect from a general exchange-rate effect; report NEER/REER alongside USD when the claim is about the exchange rate per se.
 5. **Document sources to the series level.** BIS, IMF IFS/BoP, IMF AREAER (capital-account openness), EPFR, Datastream/Bloomberg, Lane–Milesi-Ferretti external positions, Ilzetzki–Reinhart–Rogoff regime classification — name the exact vintage and any splicing.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the asset-pricing battery, don't just specify it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JIMF is international macro-finance; cross-country panels + asset pricing — identification plus factor/Newey-West inference.
+
+- **Factor regressions / time-series alphas:** `feols` with the right SEs (Newey–West /
+  clustered) — read the alpha and t off the return.
+- **Factor-zoo haircut:** after disclosing how many signals were screened, apply
+  `romano_wolf` / `benjamini_hochberg` and report the alpha that survives.
+- **Fama–MacBeth + Shanken EIV** are Stata-canonical — run via `mcp__stata-mcp__stata_do`
+  with the vendored `resources/code/` (`asreg` / `xtfmb`).
+- **Exhibits:** `etable`; hand formatting to the tables/figures skill.
+
+Report the economic magnitude (bps/month alpha, Sharpe gain); full factor grid → appendix.
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Country set justified; AE/EM split reported or its absence defended

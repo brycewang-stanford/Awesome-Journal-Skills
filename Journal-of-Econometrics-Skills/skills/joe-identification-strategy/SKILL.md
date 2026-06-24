@@ -62,6 +62,20 @@ Turn the formal core into an assumption audit table:
 
 Use the table to police the paper's language. If an assumption is high-level, either verify it for a leading example or state clearly that it is a sufficient technical condition. If a theorem relies on an assumption that is never invoked in the proof map, delete or relocate it.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Estimate and audit the design, don't only describe it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Journal of Econometrics is a methods venue — estimator validity + simulation evidence are the contribution; pair estimates with diagnostics and Monte-Carlo where relevant.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
+- **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +
+  `bacon_decomposition` + `honest_did_from_result`); IV (`effective_f_test` +
+  `anderson_rubin_ci`); RDD (`rdrobust` + `mccrary_test`).
+- **Experiments:** randomization-based inference + `romano_wolf` for many-outcome control.
+- **Sensitivity:** `oster_delta` / `sensemakr` for observational claims.
+
+Report the magnitude in interpretable units; route the full battery to the appendix. A
+run end-to-end (synthetic data, real returns) is in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Anti-patterns
 
 - "Under standard regularity conditions" with no list and no verification

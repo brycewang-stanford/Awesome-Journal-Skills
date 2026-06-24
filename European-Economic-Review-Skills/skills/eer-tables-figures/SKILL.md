@@ -33,6 +33,17 @@ EER follows **Elsevier economics house style**: a paper is read through its **ma
 - **Self-contained captions**: a reader should grasp the figure from the caption alone.
 - **Vector output** (`.eps`/`.pdf`) or high-resolution `.tif/.jpg`; legible fonts; colorblind-safe palettes; avoid chartjunk and 3-D effects.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). EER is a general economics field journal; the DiD/IV/RDD chain serves its applied lane.
+
+- **Tables:** `etable` (multi-model) or `did_summary_to_latex` straight from the `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the magnitude in interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] One headline table; the main result is findable there

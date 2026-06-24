@@ -81,6 +81,20 @@ dynamic discrete-choice model (Rust 1987), selection-model identification (Heckm
    off-the-shelf and the estimand is the whole point, the paper is general-interest-applied,
    not Econometrica (see `ecta-topic-selection`).
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Estimate and audit the design, don't only describe it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Econometrica publishes econometric theory and applied micro; the chain below serves its applied/empirical papers (weak-IV-robust and modern-DiD reporting expected) — pure theory uses its own apparatus.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
+- **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +
+  `bacon_decomposition` + `honest_did_from_result`); IV (`effective_f_test` +
+  `anderson_rubin_ci`); RDD (`rdrobust` + `mccrary_test`).
+- **Experiments:** randomization-based inference + `romano_wolf` for many-outcome control.
+- **Sensitivity:** `oster_delta` / `sensemakr` for observational claims.
+
+Report the magnitude in interpretable units; route the full battery to the appendix. A
+run end-to-end (synthetic data, real returns) is in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Parameter/object defined as a population functional, separate from the estimator

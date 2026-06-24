@@ -12,6 +12,7 @@
 | [`exemplars/library.md`](exemplars/library.md) | 经 Web 核实的真实《金融研究》论文，按主题 × 方法编排，并附同源期刊剔除防混淆清单。仅供设计定位——引用数字前请先读原文。 |
 | [审稿人异议清单](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) | 顶刊审稿人按识别策略（DID/IV/RDD/DML/匹配/机制）真实提出的攻击点及预防答法。起表前自检设计。 |
 | [报告规范](../../shared-resources/empirical-methods/reporting-standards.md) | 现代推断与报告的底线：聚类标准误、弱工具诊断、多重检验校正、DID/RDD 报告、可复现。 |
+| [execution-with-mcp](../../shared-resources/empirical-methods/execution-with-mcp.md) | **从指导到“已拟合、已审计”的结果。** 把各设计族 / 审稿异议映射到本环境可调用的 StatsPAI / Stata MCP 工具，使本包实证 skill 真正*跑出*现代 DID / 弱工具稳健 CI / 多重检验校正并报告数字（解析/结构/定性工作在该工具链外）。 |
 | [`official-source-map.md`](official-source-map.md) | 该刊的官方事实（费用、字数、盲审、数据政策、参考文献体例），区分 [官]/[经验值]。 |
 
 ## 用法

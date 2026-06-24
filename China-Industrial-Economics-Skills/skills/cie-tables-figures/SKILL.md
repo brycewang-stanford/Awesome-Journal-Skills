@@ -58,6 +58,17 @@ R²               0.61     0.67     0.66
 - **事件研究图**：动态系数 + 95% CI，处理时点画**垂直虚线**，基准期标注
 - 常见：平行趋势事件研究图、政策时间线、机制路径图、异质性森林图、安慰剂分布图
 
+## 执行桥（StatsPAI / Stata MCP）
+
+表格图形**从拟合结果生成**，不要手抄数字。完整映射见
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。《中国工业经济》偏产业/企业实证，常见政策冲击 DID 与 IV；强调识别与稳健性。
+
+- **表：**`etable`（多列）或 `did_summary_to_latex` 直接从 `result_id` 生成。
+- **图：**`plot_from_result` / `enhanced_event_study_plot` / `event_study_table`，坐标单位与
+  标准误/聚类注记自带。
+- **每个表注**写明估计量与聚类层次，并以可解释单位报告经济量级。
+
+完整“拟合结果 → 图表”链见 [JF 执行 walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md)。
 ## 自检清单
 
 - [ ] 主表 ≤ 6 列、三线表、无竖线

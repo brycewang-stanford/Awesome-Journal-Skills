@@ -30,6 +30,17 @@ JRU audiences read for **decision-theoretic content**: they want to see the shap
 - Separate **structural parameters** (curvature, weighting, ambiguity index, λ) from **nuisance / control** estimates so the reader's eye lands on the primitives.
 - Units and stakes stated (lab currency vs. real money, per-period vs. lifetime) so a VSL or premium is interpretable.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JRU spans decision experiments and applied risk; randomization inference for experiments, DiD/IV for observational claims.
+
+- **Tables:** `etable` (multi-model) or `did_summary_to_latex` straight from the `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the magnitude in interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] The probability-weighting / value function (or ambiguity premium) is **plotted**, with the EU benchmark overlaid

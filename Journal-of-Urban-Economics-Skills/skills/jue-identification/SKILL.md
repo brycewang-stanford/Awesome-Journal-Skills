@@ -50,6 +50,20 @@ JUE referees are sophisticated about the failure modes that are *specific to spa
 - **Sorting/selection:** show composition is balanced or model the sorting; never present a cross-location comparison as if locations were randomly assigned.
 - **SUTVA/spillovers:** define the treated and control geography so that spillovers do not contaminate controls; estimate the spillover itself where possible.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Estimate and audit the design, don't only describe it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JUE is urban/spatial economics — sorting and spatial dependence; identification + Conley/spatial-robust inference.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
+- **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +
+  `bacon_decomposition` + `honest_did_from_result`); IV (`effective_f_test` +
+  `anderson_rubin_ci`); RDD (`rdrobust` + `mccrary_test`).
+- **Experiments:** randomization-based inference + `romano_wolf` for many-outcome control.
+- **Sensitivity:** `oster_delta` / `sensemakr` for observational claims.
+
+Report the magnitude in interpretable units; route the full battery to the appendix. A
+run end-to-end (synthetic data, real returns) is in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Estimand named (local-at-boundary / ATT / LATE) and matched to the design

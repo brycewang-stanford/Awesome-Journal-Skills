@@ -82,6 +82,17 @@ The old version's six estimator-variation columns move to the appendix, and the 
 
 Accepted articles at this journal commonly carry 6-10 main exhibits backed by a deep online appendix; treat that as a prior from recent issues rather than a rule, and check figure-format specifics against the journal's current author guidelines.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JEG (growth) uses cross-country and long-run panels with deep endogeneity; foreground identification and robustness to alternatives.
+
+- **Tables:** `etable` (multi-model) or `did_summary_to_latex` straight from the `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the magnitude in interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Output format
 
 ```text

@@ -42,6 +42,18 @@ description: Use when the contribution of a 《数量经济技术经济研究》
 - 标准化方法、量纲处理、缺失值补全可复现
 - 给出权重/方法替代下的敏感性（接 `jqte-sensitivity`）
 
+## 执行桥（StatsPAI / Stata MCP）
+
+把稳健性 battery **跑出来**，而不是只罗列。完整映射见
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。《数量经济技术经济研究》偏计量方法与应用；估计量有效性 + 诊断，必要时附模拟证据。
+
+- **多结果 / 多设定：**`romano_wolf`（逐步 FWER）或 `benjamini_hochberg`，报告校正后阈值。
+- **遗漏变量敏感性：**`oster_delta` / `sensemakr`。
+- **推断：**少聚类用 `wild_cluster_bootstrap`；视依赖结构用 `twoway_cluster` / `conley`。
+- **从一个 handle 复跑：**`audit_result(result_id)` 列出缺失检查及对应 `suggest_function`。
+- **出表：**`etable` / `did_summary_to_latex` 直接从 handle 生成，不手抄数字。
+
+正文留决定性检查，详尽 battery 进附录。执行链见 [JF 执行 walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md)。
 ## 自检清单
 
 - [ ] 方法选择有依据，不是"别人都这么用"

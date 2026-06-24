@@ -25,6 +25,17 @@ JPubE's identification often *is* a picture — a spike of excess mass at a tax 
 - **Clean tables.** Report the policy parameter (elasticity, MVPF, take-up) prominently; avoid 10-column kitchen-sink tables; put diagnostics in clearly labeled panels.
 - **Print quality.** Vector output (PDF/EPS); legible at print size; minimal chartjunk (no 3D, restrained color); confidence bands shown.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JPubE is public economics — tax/transfer/program designs; DiD/IV/RDD and bunching are central, magnitudes in policy units.
+
+- **Tables:** `etable` (multi-model) or `did_summary_to_latex` straight from the `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the magnitude in interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] A design figure leads the empirical section (bunching / RD / event-study)

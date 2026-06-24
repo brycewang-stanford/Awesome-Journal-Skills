@@ -50,6 +50,20 @@ JMCB referees are monetary/banking economists who judge identification by **whet
 
 A JMCB identification argument is not complete until it connects to the policy question. A clean shock that identifies an IRF still needs the reader to see *which policy lever* the response speaks to; a clean bank-supply coefficient still needs the reader to see *what it implies for transmission or regulation*. State the estimand in policy-relevant units (a transmission elasticity, a pass-through, a welfare number) so the identification serves the contribution rather than standing alone as a methodological exercise.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Estimate and audit the design, don't only describe it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JMCB is monetary/banking — macro time series + bank panels; local projections for the macro lane, DiD/IV for the bank lane.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
+- **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +
+  `bacon_decomposition` + `honest_did_from_result`); IV (`effective_f_test` +
+  `anderson_rubin_ci`); RDD (`rdrobust` + `mccrary_test`).
+- **Experiments:** randomization-based inference + `romano_wolf` for many-outcome control.
+- **Sensitivity:** `oster_delta` / `sensemakr` for observational claims.
+
+Report the magnitude in interpretable units; route the full battery to the appendix. A
+run end-to-end (synthetic data, real returns) is in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Engine chosen (macro shock / structural / micro-banking); data-to-object mapping in one sentence

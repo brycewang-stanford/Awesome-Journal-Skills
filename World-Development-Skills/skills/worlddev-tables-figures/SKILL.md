@@ -43,6 +43,17 @@ Qualitative WD papers should *display* evidence, not only narrate it. Use:
 
 A table reports "0.18***" for a transfer program on consumption. The WD fix: report "0.18 (0.05)" and add a note — "an 18% increase relative to the control-group mean of 1,420 PPP$; clustered at the village level (N=86 clusters)." Better still, move it to a coefficient plot with the control-mean reference line, so a public-health reader sees the magnitude and its precision at a glance.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). World Development is multidisciplinary development studies; the chain serves its quantitative-causal lane, mixed-methods work uses its own standards.
+
+- **Tables:** `etable` (multi-model) or `did_summary_to_latex` straight from the `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the magnitude in interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] No significance asterisks anywhere; SEs / CIs reported

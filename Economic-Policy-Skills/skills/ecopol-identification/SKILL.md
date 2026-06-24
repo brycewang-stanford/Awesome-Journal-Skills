@@ -35,6 +35,20 @@ EP papers are debated by two named discussants and read by policymakers, so iden
 
 For each design, write the one-sentence plain-language version that goes in the main text: e.g. "Because the reform applied only to firms just above a 50-employee threshold, firms just below serve as a control group — so the difference in their hiring is the reform's effect." The appendix carries the formal estimand and assumptions.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Estimate and audit the design, don't only describe it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Economic Policy is policy-facing applied economics; foreground a credible design and a policy-relevant magnitude.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
+- **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +
+  `bacon_decomposition` + `honest_did_from_result`); IV (`effective_f_test` +
+  `anderson_rubin_ci`); RDD (`rdrobust` + `mccrary_test`).
+- **Experiments:** randomization-based inference + `romano_wolf` for many-outcome control.
+- **Sensitivity:** `oster_delta` / `sensemakr` for observational claims.
+
+Report the magnitude in interpretable units; route the full battery to the appendix. A
+run end-to-end (synthetic data, real returns) is in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] One plain-language sentence in the main text: what variation identifies the policy effect

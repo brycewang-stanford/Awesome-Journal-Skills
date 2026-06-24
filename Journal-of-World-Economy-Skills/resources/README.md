@@ -10,6 +10,7 @@
 | [`code/`](code/) | 可复现的 Stata + Python 因果识别脚本骨架（清洗 → 描述 → DID/IV/RDD/DML → 机制 → 稳健性 → 出表）。源自《经济研究》已实跑验证的代码库（Stata 18 MP，2026-06），复制即用，勿盲改命令。 |
 | [审稿人异议清单](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) | 顶刊审稿人按识别策略（DID/IV/RDD/DML/匹配/机制）真实提出的攻击点及预防答法。起表前自检设计。 |
 | [报告规范](../../shared-resources/empirical-methods/reporting-standards.md) | 现代推断与报告的底线：聚类标准误、弱工具诊断、多重检验校正、DID/RDD 报告、可复现。 |
+| [execution-with-mcp](../../shared-resources/empirical-methods/execution-with-mcp.md) | **从指导到“已拟合、已审计”的结果。** 把各设计族 / 审稿异议映射到本环境可调用的 StatsPAI / Stata MCP 工具，使本包实证 skill 真正*跑出*现代 DID / 弱工具稳健 CI / 多重检验校正并报告数字（解析/结构/定性工作在该工具链外）。 |
 | [`official-source-map.md`](official-source-map.md) | 该刊的官方事实（费用、字数、盲审、数据政策、参考文献体例），区分 [官]/[经验值]。 |
 | [`worked-examples/`](worked-examples/01-introduction.md) | 该刊房风格的引言 before→after 改写示例（示意性、虚构）。 |
 | [`exemplars/library.md`](exemplars/library.md) | 该刊真实、经联网核实的代表作（按方法×主题），附姊妹刊辨析。 |

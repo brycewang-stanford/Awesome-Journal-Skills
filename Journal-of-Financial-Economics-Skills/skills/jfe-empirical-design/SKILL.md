@@ -41,6 +41,21 @@ JFE is known for nuts-and-bolts methodological rigor. Referees scrutinize measur
 - **Standard errors:** cluster at the level of correlation in the residuals (often firm and/or time); use two-way clustering when both matter; match the cluster level to treatment assignment for causal designs.
 - Report economic magnitudes, not just significance — a coefficient is a number with units.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the asset-pricing battery, don't just specify it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JFE is finance top-3 (with JF, RFS) — corporate-causal chain for corporate papers, factor-zoo haircut for asset pricing; attribute canon to the correct top-3 journal.
+
+- **Factor regressions / time-series alphas:** `feols` with the right SEs (Newey–West /
+  clustered) — read the alpha and t off the return.
+- **Factor-zoo haircut:** after disclosing how many signals were screened, apply
+  `romano_wolf` / `benjamini_hochberg` and report the alpha that survives.
+- **Fama–MacBeth + Shanken EIV** are Stata-canonical — run via `mcp__stata-mcp__stata_do`
+  with the vendored `resources/code/` (`asreg` / `xtfmb`).
+- **Exhibits:** `etable`; hand formatting to the tables/figures skill.
+
+Report the economic magnitude (bps/month alpha, Sharpe gain); full factor grid → appendix.
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Every variable is defined with source, lag, and transformation

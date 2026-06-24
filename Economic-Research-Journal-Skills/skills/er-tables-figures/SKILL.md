@@ -91,6 +91,17 @@ R²               0.213    0.247    0.251
 4. **异质性森林图**
 5. **结构估计反事实图**（如适用）
 
+## 执行桥（StatsPAI / Stata MCP）
+
+表格图形**从拟合结果生成**，不要手抄数字。完整映射见
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。《经济研究》是中文经济学顶刊，识别可信度通常是约束；交错 DID、弱工具稳健 IV、RDD 与机制检验。
+
+- **表：**`etable`（多列）或 `did_summary_to_latex` 直接从 `result_id` 生成。
+- **图：**`plot_from_result` / `enhanced_event_study_plot` / `event_study_table`，坐标单位与
+  标准误/聚类注记自带。
+- **每个表注**写明估计量与聚类层次，并以可解释单位报告经济量级。
+
+完整“拟合结果 → 图表”链见 [JF 执行 walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md)。
 ## 必查清单
 
 - [ ] 主表列数克制（经验值约 ≤6 列，以官网为准）

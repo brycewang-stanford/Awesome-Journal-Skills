@@ -42,6 +42,20 @@ RJE is the **flagship industrial-organization journal**, so identification is ju
 - Staggered timing? Move beyond **TWFE** — use Callaway–Sant'Anna, Sun–Abraham, or de Chaisemartin–D'Haultfœuille, with an event-study plot and a Goodman-Bacon check.
 - For IV: strong first stage, weak-IV-robust inference, and an exclusion restriction argued from market institutions.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Estimate and audit the design, don't only describe it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). RAND is industrial organization — endogeneity of prices/entry and structural demand; the reduced-form chain for causal claims, structural IO outside it.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
+- **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +
+  `bacon_decomposition` + `honest_did_from_result`); IV (`effective_f_test` +
+  `anderson_rubin_ci`); RDD (`rdrobust` + `mccrary_test`).
+- **Experiments:** randomization-based inference + `romano_wolf` for many-outcome control.
+- **Sensitivity:** `oster_delta` / `sensemakr` for observational claims.
+
+Report the magnitude in interpretable units; route the full battery to the appendix. A
+run end-to-end (synthetic data, real returns) is in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Economic model / identifying variation stated in one sentence

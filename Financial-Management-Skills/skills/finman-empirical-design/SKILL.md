@@ -35,6 +35,21 @@ FM publishes empirical finance across corporate, asset-pricing, and banking data
 4. **Justify the clustering.** Cluster at the level where the shocks are correlated (firm, industry, state); use two-way (firm and time) when both dimensions have common shocks; address few-cluster with wild-cluster bootstrap.
 5. **Report power/economic scale.** State N, the dependent-variable mean, and the standard-deviation-scaled effect so a reader sees the magnitude in context.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the asset-pricing battery, don't just specify it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Financial Management is empirical corporate finance + asset pricing; corporate-causal chain (DiD/IV/RDD) plus the factor-zoo haircut for cross-sectional pricing.
+
+- **Factor regressions / time-series alphas:** `feols` with the right SEs (Newey–West /
+  clustered) — read the alpha and t off the return.
+- **Factor-zoo haircut:** after disclosing how many signals were screened, apply
+  `romano_wolf` / `benjamini_hochberg` and report the alpha that survives.
+- **Fama–MacBeth + Shanken EIV** are Stata-canonical — run via `mcp__stata-mcp__stata_do`
+  with the vendored `resources/code/` (`asreg` / `xtfmb`).
+- **Exhibits:** `etable`; hand formatting to the tables/figures skill.
+
+Report the economic magnitude (bps/month alpha, Sharpe gain); full factor grid → appendix.
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Attrition table from raw universe to estimation sample, with counts per screen

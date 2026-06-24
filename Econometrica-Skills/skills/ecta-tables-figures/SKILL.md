@@ -56,6 +56,17 @@ deposit, not the AEA/openICPSR pipeline the AER/AEJ packs assume.
   `ecta-replication-package`). Keep a map: Table N ↔ script ↔ seed ↔ output file.
 - Numbers in the text must match the tables exactly (no rounding drift between prose and table).
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Econometrica publishes econometric theory and applied micro; the chain below serves its applied/empirical papers (weak-IV-robust and modern-DiD reporting expected) — pure theory uses its own apparatus.
+
+- **Tables:** `etable` (multi-model) or `did_summary_to_latex` straight from the `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the magnitude in interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Caption + notes make each exhibit fully self-contained

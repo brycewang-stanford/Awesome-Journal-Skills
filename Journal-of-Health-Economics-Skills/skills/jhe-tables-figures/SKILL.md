@@ -34,6 +34,17 @@ At JHE the **main health-policy estimate should be findable in seconds**, and th
 5. **Right precision and self-contained notes.** Two to three significant figures; each note states sample, units, clustering, controls, outcome definition, and (if used) what a star means.
 6. **Name the outcome in plain terms.** "Any inpatient admission (0/1)" beats an opaque variable label; a health-policy reader should know exactly what was measured from the exhibit alone.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JHE is health economics — insurance/program reforms and selection; foreground DiD/IV/RDD and selection corrections.
+
+- **Tables:** `etable` (multi-model) or `did_summary_to_latex` straight from the `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the magnitude in interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Headline effect readable in one table: coefficient, SE in parentheses, N, dep-var mean, clustering stated

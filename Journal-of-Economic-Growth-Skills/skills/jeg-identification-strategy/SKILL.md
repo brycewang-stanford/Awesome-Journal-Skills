@@ -36,6 +36,20 @@ For a theory paper the "identification" object is the **logical structure**, not
 - **Proof exposition**: put intuition in the text and full proofs in an appendix; make each step auditable. A growth-theory referee will reproduce the algebra.
 - **Generality**: show how far the result reaches — which assumptions can be relaxed, what breaks if you do, and which comparative statics / testable predictions survive. Generality is the contribution's reach.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Estimate and audit the design, don't only describe it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JEG (growth) uses cross-country and long-run panels with deep endogeneity; foreground identification and robustness to alternatives.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
+- **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +
+  `bacon_decomposition` + `honest_did_from_result`); IV (`effective_f_test` +
+  `anderson_rubin_ci`); RDD (`rdrobust` + `mccrary_test`).
+- **Experiments:** randomization-based inference + `romano_wolf` for many-outcome control.
+- **Sensitivity:** `oster_delta` / `sensemakr` for observational claims.
+
+Report the magnitude in interpretable units; route the full battery to the appendix. A
+run end-to-end (synthetic data, real returns) is in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Anti-patterns
 
 - (E) System GMM with hundreds of instruments and no Hansen-J / AR(2) reported.

@@ -29,6 +29,17 @@ JOLE does **not normally publish articles exceeding 20,000 words, and it counts 
 4. **Numbering and call-outs in order.** Every exhibit is referenced in the text in sequence.
 5. **Budget the pages.** Tally how many full pages of exhibits you have and convert at 500 words/page; trim against the ~20,000-word cap.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JOLE is labor economics — the home of clean identification; DiD/IV/RDD and selection corrections are the binding constraint.
+
+- **Tables:** `etable` (multi-model) or `did_summary_to_latex` straight from the `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the magnitude in interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Only 1–3 headline exhibits in the body; the rest in the online appendix

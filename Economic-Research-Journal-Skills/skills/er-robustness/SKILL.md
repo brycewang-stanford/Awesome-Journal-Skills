@@ -101,6 +101,18 @@ description: Use when building or writing the robustness-check section of an Eco
 - 次要检验（缩尾比例、聚类层次、剔除子样本逐项）放附录，正文一句话索引
 - 正文稳健性表数有限（经验值约 3–5 张图表，以投稿当期官网为准），不要喧宾夺主
 
+## 执行桥（StatsPAI / Stata MCP）
+
+把稳健性 battery **跑出来**，而不是只罗列。完整映射见
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。《经济研究》是中文经济学顶刊，识别可信度通常是约束；交错 DID、弱工具稳健 IV、RDD 与机制检验。
+
+- **多结果 / 多设定：**`romano_wolf`（逐步 FWER）或 `benjamini_hochberg`，报告校正后阈值。
+- **遗漏变量敏感性：**`oster_delta` / `sensemakr`。
+- **推断：**少聚类用 `wild_cluster_bootstrap`；视依赖结构用 `twoway_cluster` / `conley`。
+- **从一个 handle 复跑：**`audit_result(result_id)` 列出缺失检查及对应 `suggest_function`。
+- **出表：**`etable` / `did_summary_to_latex` 直接从 handle 生成，不手抄数字。
+
+正文留决定性检查，详尽 battery 进附录。执行链见 [JF 执行 walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md)。
 ## 必查清单
 
 - [ ] 遗漏变量 / 内生性类：至少一项（更换识别或 IV 或加固定效应+控制）已做

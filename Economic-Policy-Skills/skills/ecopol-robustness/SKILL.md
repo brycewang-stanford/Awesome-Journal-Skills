@@ -37,6 +37,20 @@ At EP, robustness has a specific purpose: the paper will be debated live by **tw
 - **Pre-register the discussant's likely objections** (use `ecopol-referee-strategy`) and answer the top three in the main text proactively — you cannot reply live as easily as in a referee letter, so anticipate.
 - **Honesty about fragility.** If one test moves the number, say what it implies for the policy conclusion rather than hiding it — discussants will find it.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Economic Policy is policy-facing applied economics; foreground a credible design and a policy-relevant magnitude.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
+- **OVB sensitivity:** `oster_delta` / `sensemakr`.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`.
+- **Re-fit off one handle:** `audit_result(result_id)` lists missing checks + the exact
+  `suggest_function` for each.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Decisive checks in the body, exhaustive battery in the appendix.
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Robustness section organized by threat, each test labeled with the threat it neutralizes

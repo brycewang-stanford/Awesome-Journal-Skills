@@ -39,6 +39,20 @@ RP privileges **no single technique** — econometrics, bibliometrics/patent ana
 ### Mixed methods
 - State the **integration logic**: does the qualitative work generate the mechanism the quantitative work tests, or do the strands triangulate a construct? RP rejects "two papers in one" with no sequencing rationale.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Estimate and audit the design, don't only describe it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Research Policy is innovation studies — patent/firm panels with selection; foreground identification and the selection objection.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
+- **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +
+  `bacon_decomposition` + `honest_did_from_result`); IV (`effective_f_test` +
+  `anderson_rubin_ci`); RDD (`rdrobust` + `mccrary_test`).
+- **Experiments:** randomization-based inference + `romano_wolf` for many-outcome control.
+- **Sensitivity:** `oster_delta` / `sensemakr` for observational claims.
+
+Report the magnitude in interpretable units; route the full battery to the appendix. A
+run end-to-end (synthetic data, real returns) is in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] The method is chosen to fit the innovation-studies claim, not by convenience or fashion

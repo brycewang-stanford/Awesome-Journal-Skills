@@ -46,6 +46,17 @@ WBER exhibits serve **two readers at once**: the applied economist who checks th
 - *"This table has too much in it."* → Split into a design exhibit and an effect exhibit; move nuisance columns to the appendix.
 - *"The paper is over length."* → Audit every exhibit against the 40-page cap; keep only load-bearing ones in the main text.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). WBER is development economics — RCTs and observational designs in low/middle-income settings; randomization inference + DiD/IV, magnitude in policy units.
+
+- **Tables:** `etable` (multi-model) or `did_summary_to_latex` straight from the `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the magnitude in interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Each exhibit answers exactly one question

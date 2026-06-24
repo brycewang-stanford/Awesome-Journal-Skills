@@ -36,6 +36,20 @@ JUE referees probe whether the spatial estimate is **stable across the spatial c
 4. **Stress-test inference for spatial dependence.** Report Conley SEs at several distance cutoffs; wrong (non-spatial) SEs are the most common JUE robustness failure.
 5. **Report honestly where it weakens.** A check that shifts the estimate is information — bound the implication rather than hiding the specification.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JUE is urban/spatial economics — sorting and spatial dependence; identification + Conley/spatial-robust inference.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
+- **OVB sensitivity:** `oster_delta` / `sensemakr`.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`.
+- **Re-fit off one handle:** `audit_result(result_id)` lists missing checks + the exact
+  `suggest_function` for each.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Decisive checks in the body, exhaustive battery in the appendix.
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Primary spatial spec declared (scale, FE geography, bandwidth) before perturbations

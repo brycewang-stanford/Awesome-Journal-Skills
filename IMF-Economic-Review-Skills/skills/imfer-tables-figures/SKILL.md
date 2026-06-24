@@ -40,6 +40,17 @@ IMFER exhibits serve two readers at once: a referee checking the econometrics an
 ### Country panels: the recurring exhibit problems
 Cross-country exhibits fail in patterned ways. **Heterogeneous scale**: a few large economies dominate any pooled scatter — log, normalize by GDP, or facet by income group. **Unbalanced coverage masked**: a table reporting "N = 1,200" hides that half the cells are one decade; show coverage by country-year. **Currency and vintage drift**: a figure mixing USD and local-currency series, or two data vintages, misleads; state the convention in the note. **Map theatrics**: a choropleth that colors countries but encodes no number the argument uses is decoration — prefer it only when the geographic pattern *is* the finding (contagion, regional clustering). The fix is always the same: make the cross-country comparison the reader needs explicit and quantitative.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). IMFER is international macro/finance; cross-country panels with confounded policy — emphasize identification and clustering.
+
+- **Tables:** `etable` (multi-model) or `did_summary_to_latex` straight from the `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the magnitude in interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] One self-contained headline exhibit; preferred specification first

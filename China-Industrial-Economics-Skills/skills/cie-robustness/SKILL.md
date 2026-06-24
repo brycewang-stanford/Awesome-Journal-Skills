@@ -51,6 +51,18 @@ description: Use when building or auditing the robustness section of a 《中国
 - 每个稳健性后**一句话**说明"结论是否稳定、系数量级是否接近"
 - 大批量结果可放附录/在线附录，正文留关键几项
 
+## 执行桥（StatsPAI / Stata MCP）
+
+把稳健性 battery **跑出来**，而不是只罗列。完整映射见
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。《中国工业经济》偏产业/企业实证，常见政策冲击 DID 与 IV；强调识别与稳健性。
+
+- **多结果 / 多设定：**`romano_wolf`（逐步 FWER）或 `benjamini_hochberg`，报告校正后阈值。
+- **遗漏变量敏感性：**`oster_delta` / `sensemakr`。
+- **推断：**少聚类用 `wild_cluster_bootstrap`；视依赖结构用 `twoway_cluster` / `conley`。
+- **从一个 handle 复跑：**`audit_result(result_id)` 列出缺失检查及对应 `suggest_function`。
+- **出表：**`etable` / `did_summary_to_latex` 直接从 handle 生成，不手抄数字。
+
+正文留决定性检查，详尽 battery 进附录。执行链见 [JF 执行 walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md)。
 ## 自检清单
 
 - [ ] 四大块（度量 / 样本 / 识别 / 排除解释）都有覆盖

@@ -34,6 +34,20 @@ JLEO referees — institutional and organizational economists — do not reward 
 4. **Inference robustness.** Institutional treatments often have few clusters (states, courts, reforms). Use wild-cluster bootstrap or randomization inference and report it.
 5. **Bound the unobservable.** Where selection cannot be fully ruled out, use Oster-style bounds or sensitivity analysis to show how strong unobserved selection would have to be to overturn the result.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JLEO is law-and-economics/organizations; institutional designs with endogeneity — foreground identification.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
+- **OVB sensitivity:** `oster_delta` / `sensemakr`.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`.
+- **Re-fit off one handle:** `audit_result(result_id)` lists missing checks + the exact
+  `suggest_function` for each.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Decisive checks in the body, exhaustive battery in the appendix.
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Each headline result has a named list of two or three threats to its institutional interpretation

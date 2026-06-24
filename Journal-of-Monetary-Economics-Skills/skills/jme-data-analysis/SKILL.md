@@ -31,6 +31,20 @@ Inference must match the design: **HAC / Newey–West** or clustered standard er
 - For DSGE: prior sensitivity, alternative calibrations, and the mechanism on/off comparison
 - Zero-lower-bound / effective-lower-bound treatment where the sample spans it
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JME is monetary macro — SVAR, local projections, high-frequency identification; `local_projections`/`irf` are in StatsPAI, DSGE/calibration is outside this toolchain.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
+- **OVB sensitivity:** `oster_delta` / `sensemakr`.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`.
+- **Re-fit off one handle:** `audit_result(result_id)` lists missing checks + the exact
+  `suggest_function` for each.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Decisive checks in the body, exhaustive battery in the appendix.
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] IRFs reported with bands; FEVDs where informative

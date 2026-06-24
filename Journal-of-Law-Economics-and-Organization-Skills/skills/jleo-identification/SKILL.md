@@ -38,6 +38,20 @@ JLEO empirics live or die on whether the **institutional or organizational varia
 - IV: strong first stage; weak-IV-robust inference (Anderson–Rubin) if weak; defend exclusion in the institutional context. RDD: density test (McCrary / Cattaneo–Jansson–Ma), bandwidth robustness, covariate smoothness, bias-corrected CIs.
 - Cluster inference at the level of the institutional treatment; address few-cluster problems (wild-cluster bootstrap).
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Estimate and audit the design, don't only describe it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JLEO is law-and-economics/organizations; institutional designs with endogeneity — foreground identification.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
+- **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +
+  `bacon_decomposition` + `honest_did_from_result`); IV (`effective_f_test` +
+  `anderson_rubin_ci`); RDD (`rdrobust` + `mccrary_test`).
+- **Experiments:** randomization-based inference + `romano_wolf` for many-outcome control.
+- **Sensitivity:** `oster_delta` / `sensemakr` for observational claims.
+
+Report the magnitude in interpretable units; route the full battery to the appendix. A
+run end-to-end (synthetic data, real returns) is in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] The identifying variation is named in one sentence and tied to the institutional setting

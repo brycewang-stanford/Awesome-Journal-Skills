@@ -33,6 +33,17 @@ FM's brand is "articles that people actually read," and that taste extends to th
 4. **Figures carry the design.** Event-study leads and first-stage relationships persuade better as clean vector figures with CIs than as prose.
 5. **Right precision and a lean set.** Two to three significant figures; keep the main paper to the exhibits that earn their place and push sweeps to the internet appendix.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Financial Management is empirical corporate finance + asset pricing; corporate-causal chain (DiD/IV/RDD) plus the factor-zoo haircut for cross-sectional pricing.
+
+- **Tables:** `etable` (multi-model) or `did_summary_to_latex` straight from the `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the magnitude in interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Main estimate readable in one table: coefficient, SE in parentheses, N, dep-var mean, controls flagged

@@ -69,6 +69,17 @@ A reader who sees only this table should grasp the market, the specification, th
 - **"Main-text tables blow the page cap."** Fix: keep one decisive table per claim in the body and route full parameter dumps to the appendix within the budget.
 - **"Figures are illegible in greyscale print."** Fix: use vector output, distinguish series by line style not color, and avoid chartjunk.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). RAND is industrial organization — endogeneity of prices/entry and structural demand; the reduced-form chain for causal claims, structural IO outside it.
+
+- **Tables:** `etable` (multi-model) or `did_summary_to_latex` straight from the `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the magnitude in interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Anti-patterns
 
 - A wall of parameter tables in the main text blowing the 40-page cap

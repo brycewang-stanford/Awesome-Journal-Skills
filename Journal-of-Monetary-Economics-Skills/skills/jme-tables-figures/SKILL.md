@@ -25,6 +25,17 @@ Formatting conventions: tables and figures are **numbered consecutively with Ara
 - **Moment / fit tables** (DSGE): data vs. model second moments; mark which moments were targeted vs. untargeted.
 - **Estimation tables**: coefficients with standard errors that match the inference (HAC/cluster/posterior); avoid 9-column kitchen-sink tables — split into a clean main table plus an online appendix.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JME is monetary macro — SVAR, local projections, high-frequency identification; `local_projections`/`irf` are in StatsPAI, DSGE/calibration is outside this toolchain.
+
+- **Tables:** `etable` (multi-model) or `did_summary_to_latex` straight from the `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the magnitude in interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Combined tables + figures in the main text ≤ **10**

@@ -48,6 +48,20 @@ description: Use when the identification strategy is the bottleneck for a 《世
 - 排他性三段论：理论 + 制度 + 安慰剂
 - 报告 reduced form
 
+## 执行桥（StatsPAI / Stata MCP）
+
+把设计**跑出来并审计**，而不是只做描述。完整映射见
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。《世界经济》是国际经济实证刊，跨国/企业面板；强调识别与聚类。
+
+- `detect_design` → `recommend` → 用 `as_handle=true` 拟合 → `audit_result` 列出尚欠的检查。
+- **观察性因果：**交错 DID（`callaway_santanna` / `sun_abraham` + `bacon_decomposition` +
+  `honest_did_from_result`）；IV（`effective_f_test` + `anderson_rubin_ci`）；RDD（`rdrobust` +
+  `mccrary_test`）。
+- **实验：**随机化推断 + `romano_wolf` 做多结果族错误率控制。
+- **敏感性：**`oster_delta` / `sensemakr`。
+
+正文报告**经济量级**，完整 battery 进附录；每个数字都能复现。端到端真跑示例见
+[JF 执行 walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md)。若 StatsPAI/Stata 未连接，改用 `resources/code/` 并标注未验证数字。
 ## 必查清单
 
 - [ ] 外部冲击对个体的外生性有制度 / 理论证据，不只"我们认为"

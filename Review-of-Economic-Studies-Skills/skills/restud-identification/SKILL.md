@@ -65,6 +65,20 @@ Is treatment plausibly random by design (RCT, lottery)?
 - Route the model and proofs to `restud-theory-model`; supply counterfactuals.
 - This is squarely REStud territory: the journal's canon includes structural identification of policy-relevant parameters — e.g., Mirrlees (1971), "An Exploration in the Theory of Optimum Income Taxation," REStud 38(2), where the structure *is* the identification. Hold your structural argument to that standard.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Estimate and audit the design, don't only describe it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). REStud is top-5 general-interest economics; credible identification with modern estimators is the bar across applied fields.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
+- **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +
+  `bacon_decomposition` + `honest_did_from_result`); IV (`effective_f_test` +
+  `anderson_rubin_ci`); RDD (`rdrobust` + `mccrary_test`).
+- **Experiments:** randomization-based inference + `romano_wolf` for many-outcome control.
+- **Sensitivity:** `oster_delta` / `sensemakr` for observational claims.
+
+Report the magnitude in interpretable units; route the full battery to the appendix. A
+run end-to-end (synthetic data, real returns) is in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Checklist
 
 - [ ] Design-based strategy named; not "OLS with controls" as the headline

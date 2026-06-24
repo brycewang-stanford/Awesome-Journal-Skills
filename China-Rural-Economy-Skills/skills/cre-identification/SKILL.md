@@ -70,6 +70,20 @@ description: Use when the empirical identification strategy is the bottleneck fo
 - 识别假设是否明确列出？
 - 是否提供反事实（如政策模拟）？
 
+## 执行桥（StatsPAI / Stata MCP）
+
+把设计**跑出来并审计**，而不是只做描述。完整映射见
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。《中国农村经济》是三农实证刊，政策评估与微观面板为主；突出识别与选择性偏误处理。
+
+- `detect_design` → `recommend` → 用 `as_handle=true` 拟合 → `audit_result` 列出尚欠的检查。
+- **观察性因果：**交错 DID（`callaway_santanna` / `sun_abraham` + `bacon_decomposition` +
+  `honest_did_from_result`）；IV（`effective_f_test` + `anderson_rubin_ci`）；RDD（`rdrobust` +
+  `mccrary_test`）。
+- **实验：**随机化推断 + `romano_wolf` 做多结果族错误率控制。
+- **敏感性：**`oster_delta` / `sensemakr`。
+
+正文报告**经济量级**，完整 battery 进附录；每个数字都能复现。端到端真跑示例见
+[JF 执行 walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md)。若 StatsPAI/Stata 未连接，改用 `resources/code/` 并标注未验证数字。
 ## 必查清单
 
 - [ ] 平行趋势 / 平滑性 / 弱工具 / 匹配平衡 检验都做了
