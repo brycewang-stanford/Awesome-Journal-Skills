@@ -83,6 +83,10 @@ that licenses it — every number an actual MCP return, nothing hand-typed:
   (OLS 0.196 → 2SLS 0.0997; Olea–Pflueger effective F = 272; Hausman p < 0.001).
 - **Sharp RDD** — [`worked-examples/rdd-walkthrough.md`](worked-examples/rdd-walkthrough.md)
   (naive mean-diff 1.39 → rdrobust ~0.57–0.61 for a true 0.6; McCrary p = 0.965).
+- **Synthetic control** — [`worked-examples/synthetic-control-walkthrough.md`](worked-examples/synthetic-control-walkthrough.md)
+  (ATT 6.59 for a true +6; placebo p = 0.048; pre-RMSE 0.44; transparent donor weights).
+- **Double ML** — [`worked-examples/dml-walkthrough.md`](worked-examples/dml-walkthrough.md)
+  (the bias ladder: naive 3.57 → rich linear controls 2.89 → DML 2.07 for a true 2.0; audit flags overlap + OVB).
 
 ---
 
