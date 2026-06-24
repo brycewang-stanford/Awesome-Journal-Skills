@@ -63,6 +63,22 @@ The most common AJS design rejection is "the design cannot bear the theoretical 
 
 AJS judges each tradition by its own standard, not a single template; unlike a parsimony-first sibling that privileges a clean causal estimate, it accepts a richly defended interpretive or comparative design when it bears the claim. Illustrative: an author selecting four states that all underwent revolution, then theorizing "state breakdown causes revolution," is flagged for selecting on the outcome; the fix adds two negative cases (comparable fiscal crises that did *not* break down) so the comparison can see the mechanism fail as well as fire. Confirm method guidance against the journal's current submission guidelines.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Estimate and audit the design, don't only describe it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). AJS is general sociology with a strong theory tradition; apply the chain below to its quantitative-empirical lane.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
+- **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +
+  `bacon_decomposition` + `honest_did_from_result`); IV (`effective_f_test` +
+  `anderson_rubin_ci`); RDD (`rdrobust` + `mccrary_test`).
+- **Experiments:** randomization-based inference, `romano_wolf` for many-outcome
+  family-wise control, and `mediate` for mediation (not naive controlling-away).
+- **Sensitivity:** `oster_delta` / `sensemakr` for observational claims.
+
+Report the effect size in interpretable units; route the full battery to the
+appendix/supplement. A run end-to-end (synthetic data, real returns) is in the
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Anti-patterns
 
 - Borrowing a quantitative identification template for work that is interpretive or comparative

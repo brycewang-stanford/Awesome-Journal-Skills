@@ -60,6 +60,22 @@ For each row, write the planned diagnostic and the interpretation if it fails. S
 comfortable with different methods, but they expect the method's limits to be explicit. A design that
 names its own failure mode usually reads stronger than a design that implies no failure mode exists.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Estimate and audit the design, don't only describe it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). SPQ spans lab/survey experiments and observational work; randomization inference and mediation done right matter for the experimental lane.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
+- **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +
+  `bacon_decomposition` + `honest_did_from_result`); IV (`effective_f_test` +
+  `anderson_rubin_ci`); RDD (`rdrobust` + `mccrary_test`).
+- **Experiments:** randomization-based inference, `romano_wolf` for many-outcome
+  family-wise control, and `mediate` for mediation (not naive controlling-away).
+- **Sensitivity:** `oster_delta` / `sensemakr` for observational claims.
+
+Report the effect size in interpretable units; route the full battery to the
+appendix/supplement. A run end-to-end (synthetic data, real returns) is in the
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Anti-patterns
 
 - A lab effect over-generalized to real-world structure with no caveat

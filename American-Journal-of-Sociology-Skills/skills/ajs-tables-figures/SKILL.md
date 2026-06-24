@@ -51,6 +51,19 @@ and Formatting PDF before submission.
 
 Craft heuristics fitting AJS's culture, not graded rules; confirm specifics against the journal's current submission guidelines. Because AJS rewards a carefully built argument, the lead exhibit should carry the *theoretical* claim, not merely display a model — a figure that makes a mechanism visible (a sequence plot, a network diagram, marginal effects rather than a coefficient dump) does more work than a wall of stars, and pacing the long-form article means placing the claim-bearing exhibit early. Illustrative: a regime-transitions paper buries its headline pattern in table 6; the author promotes it to a lead event-sequence figure, renumbers the rest discretely (tables 1–7), moves diagnostics to a lettered appendix (A1–A3), and gives every figure descriptive alt text.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers (the usual source of
+body-vs-supplement drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). AJS is general sociology with a strong theory tradition; apply the chain below to its quantitative-empirical lane.
+
+- **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
+  `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the effect size in
+  interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Anti-patterns
 
 - Grouping panels under one number when AJS wants discrete numbering

@@ -70,6 +70,22 @@ The adjudication sentence: if "any health message moves intention" were true, th
 would be null while overall intention rose; instead the contrast runs through efficacy and only for
 low-knowledge audiences — advancing framing theory rather than re-documenting persuasion.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Estimate and audit the design, don't only describe it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Communication Research is experiment- and survey-heavy; emphasize randomization inference, mediation done right, and family-wise corrections.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
+- **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +
+  `bacon_decomposition` + `honest_did_from_result`); IV (`effective_f_test` +
+  `anderson_rubin_ci`); RDD (`rdrobust` + `mccrary_test`).
+- **Experiments:** randomization-based inference, `romano_wolf` for many-outcome
+  family-wise control, and `mediate` for mediation (not naive controlling-away).
+- **Sensitivity:** `oster_delta` / `sensemakr` for observational claims.
+
+Report the effect size in interpretable units; route the full battery to the
+appendix/supplement. A run end-to-end (synthetic data, real returns) is in the
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Anti-patterns
 
 - Causal language on a cross-sectional survey that only supports association

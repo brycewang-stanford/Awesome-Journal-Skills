@@ -42,6 +42,20 @@ covers estimation; moderators and publication-bias diagnostics live in `psychbul
 - Interpret heterogeneity substantively — it motivates the **moderator** analysis, it is not a nuisance
   to hide. High heterogeneity with a tiny CI on the mean can mislead without the prediction interval.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Meta-analysis itself is largely **outside** this causal-inference toolchain — use
+dedicated tools (e.g. metafor) for pooled effects and meta-regression. Full map (for
+primary-study reanalysis): [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Psychological Bulletin is a meta-analytic review venue.
+
+- **Moderator / meta-regression tests:** apply the multiple-testing haircut
+  (`romano_wolf` / `benjamini_hochberg`) — many moderators inflate false positives.
+- **Reanalyzing a primary dataset:** the design→fit→audit chain applies
+  (`detect_design` → `recommend` → fit → `audit_result`).
+- **Exhibits:** `etable` / `plot_from_result` for any reanalysis tables/figures.
+
+Be explicit about what is meta-analytic (dedicated tools) vs primary reanalysis
+(this chain). [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Anti-patterns
 
 - A fixed-effect model imposed on an obviously heterogeneous literature

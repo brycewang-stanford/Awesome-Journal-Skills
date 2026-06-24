@@ -40,6 +40,19 @@ Every exhibit must pull its weight and reproduce from the deposited Dataverse pa
   each claim to its source (documents, interviews) — these double as qualitative transparency.
 - QCA truth tables / set-relation plots where the design is set-theoretic.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Generate exhibits from the fitted result, not by retyping numbers (the usual source of
+body-vs-supplement drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). World Politics is comparative/IR with a strong qualitative tradition; apply the chain below to its quantitative-causal lane and say so when work is case-based.
+
+- **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
+  `result_id`.
+- **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
+  axis units and the SE/clustering note baked in.
+- **Every note** names the estimator + clustering and states the effect size in
+  interpretable units.
+
+See a full fitted-result → exhibit chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Anti-patterns
 
 - Tables that require the prose to be intelligible (not self-contained)

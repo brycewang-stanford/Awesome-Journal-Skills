@@ -73,6 +73,22 @@ moves intention" were true, the gain/loss contrast would be null while overall i
 instead the contrast is non-null and runs through perceived risk — advancing framing theory rather
 than re-documenting a persuasion effect.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Estimate and audit the design, don't only describe it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Journal of Communication spans experiments, surveys, and content analysis; randomization inference for experiments, DiD/IV for observational media-effects claims.
+
+- `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
+- **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +
+  `bacon_decomposition` + `honest_did_from_result`); IV (`effective_f_test` +
+  `anderson_rubin_ci`); RDD (`rdrobust` + `mccrary_test`).
+- **Experiments:** randomization-based inference, `romano_wolf` for many-outcome
+  family-wise control, and `mediate` for mediation (not naive controlling-away).
+- **Sensitivity:** `oster_delta` / `sensemakr` for observational claims.
+
+Report the effect size in interpretable units; route the full battery to the
+appendix/supplement. A run end-to-end (synthetic data, real returns) is in the
+[JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Anti-patterns
 
 - Causal language on a cross-sectional survey that only supports association

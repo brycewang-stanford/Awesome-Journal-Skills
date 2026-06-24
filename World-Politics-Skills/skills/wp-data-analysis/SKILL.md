@@ -46,6 +46,22 @@ because they are. This skill covers execution and reporting norms; design decisi
 - Pin software/package versions (`renv.lock`, `requirements.txt`, recorded `ssc`/`net` installs).
 - Keep table/figure numbers matched to script outputs — the Dataverse package must reproduce them.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). World Politics is comparative/IR with a strong qualitative tradition; apply the chain below to its quantitative-causal lane and say so when work is case-based.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
+  `benjamini_hochberg` — report the adjusted threshold.
+- **OVB sensitivity:** `oster_delta` / `sensemakr`.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`;
+  multilevel data → cluster at the right level.
+- **Re-fit off one handle:** `audit_result(result_id)` lists the missing checks and the
+  exact `suggest_function` for each.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Keep the decisive checks in the body and the exhaustive battery in the supplement. See
+the executed chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Anti-patterns
 
 - Stars-only tables with no effect sizes or intervals

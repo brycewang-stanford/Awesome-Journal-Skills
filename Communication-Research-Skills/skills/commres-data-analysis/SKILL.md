@@ -47,6 +47,22 @@ live in `commres-research-design`, and deposit live in `commres-transparency-and
 - Pin software/package versions (`renv.lock`, `requirements.txt`; note SPSS/Mplus/PROCESS versions).
 - Keep table/figure numbers in the manuscript matched to script outputs.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Run the battery, don't just enumerate it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Communication Research is experiment- and survey-heavy; emphasize randomization inference, mediation done right, and family-wise corrections.
+
+- **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
+  `benjamini_hochberg` — report the adjusted threshold.
+- **OVB sensitivity:** `oster_delta` / `sensemakr`.
+- **Inference:** `wild_cluster_bootstrap` (few clusters), `twoway_cluster` / `conley`;
+  multilevel data → cluster at the right level.
+- **Re-fit off one handle:** `audit_result(result_id)` lists the missing checks and the
+  exact `suggest_function` for each.
+- **Exhibits:** `etable` / `did_summary_to_latex` from the handle — no retyped numbers.
+
+Keep the decisive checks in the body and the exhaustive battery in the supplement. See
+the executed chain in the [JF execution walkthrough](../../../Journal-of-Finance-Skills/resources/worked-examples/02-execution-walkthrough.md).
 ## Anti-patterns
 
 - Stars-only tables with no effect sizes, SDs, or intervals (an APA-reporting failure at CR)
