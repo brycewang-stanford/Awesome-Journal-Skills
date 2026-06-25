@@ -72,6 +72,24 @@ three `EXPECTED_*` constants (and the README badges) in the same commit:
 python3 tools/audit_repo.py --counts   # prints the live numbers to copy in
 ```
 
+## Asset Rendering (Node)
+
+Unlike the Python maintenance scripts above, [`render_posters.mjs`](render_posters.mjs)
+is a Node + Playwright helper for regenerating poster/social images from an HTML
+deck. It screenshots every `<article class="poster" id="poster-NN">` in the deck
+to PNG at native 1080×1440, saved at 2× (2160×2880), and is meant to be re-run
+after editing the HTML to refresh the exported PNGs.
+
+```bash
+node tools/render_posters.mjs                       # default AJS Xiaohongshu deck
+node tools/render_posters.mjs <deck.html>           # custom HTML, PNGs next to it
+node tools/render_posters.mjs <deck.html> <outDir>  # custom output dir
+```
+
+Requires a global Playwright (`npm i -g playwright`); the script resolves it from
+the global module root automatically. If no Chromium is cached, run
+`npx playwright install chromium` once.
+
 ## Python Syntax Check
 
 Run this after editing any script in this directory:
