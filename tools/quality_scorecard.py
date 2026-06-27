@@ -50,6 +50,10 @@ CONFERENCE_DEPTH_PACKS = {
     "NeurIPS-Skills",
 }
 
+TOOLKIT_PACKS = {
+    "Research-Toolkit-Skills",
+}
+
 FRONTMATTER_DESCRIPTION_RE = re.compile(r"^description:\s*(.+)$", re.MULTILINE)
 LATIN_TOKEN_RE = re.compile(r"[A-Za-z0-9][A-Za-z0-9_+./-]*")
 CJK_RE = re.compile(r"[\u3400-\u9fff]")
@@ -144,6 +148,7 @@ def pack_cue_words(pack: Path, skills: list[Path] | None = None) -> set[str]:
 def score_pack(pack: Path) -> dict:
     skills = skill_files(pack)
     n = len(skills)
+    is_toolkit = pack.name in TOOLKIT_PACKS or pack.name.endswith("Toolkit-Skills")
     # Breadth bundles are venue-fit-card collections (one fit card per venue + a
     # router), so their capability layer is routing, not a depth-pack code library.
     # Two signals mark a breadth bundle, either of which is sufficient:
@@ -159,7 +164,7 @@ def score_pack(pack: Path) -> dict:
     has_breadth_router = any(
         sf.parent.name.endswith("-journal-workflow") for sf in skills
     )
-    is_breadth = n >= 25 or has_breadth_router
+    is_breadth = not is_toolkit and (n >= 25 or has_breadth_router)
     is_conference_depth = pack.name in CONFERENCE_DEPTH_PACKS
 
     line_counts: list[int] = []
@@ -169,9 +174,25 @@ def score_pack(pack: Path) -> dict:
     desc_has_journal_cue = 0
     code_block_skills = 0
     exec_bridge_skills = 0
+    shared_resource_skills = 0
     skill_rows: list[dict] = []
 
     pack_words = pack_cue_words(pack, skills)
+    if is_toolkit:
+        pack_words.update(
+            {
+                "execution",
+                "journal",
+                "manuscript",
+                "readiness",
+                "referee",
+                "replication",
+                "submission",
+                "toolkit",
+                "venue",
+                "workflow",
+            }
+        )
 
     for sf in skills:
         text = sf.read_text(encoding="utf-8", errors="replace")
@@ -188,6 +209,8 @@ def score_pack(pack: Path) -> dict:
         # Report-only — tracks the guidance→execution rollout; does not affect score.
         if "execution-with-mcp" in body:
             exec_bridge_skills += 1
+        if "shared-resources/" in body:
+            shared_resource_skills += 1
         desc = ""
         desc_len = 0
         has_use_when = False
@@ -244,10 +267,10 @@ def score_pack(pack: Path) -> dict:
 
     # ---- composite score (0-100) ----
     # Depth: SKILL bodies that actually carry substance. Journal depth packs are
-    # scored against a flagship ~600 unit/skill target. Large breadth bundles
-    # and compressed AI-conference depth packs have shorter, routing-heavy
-    # profiles, so they use a 350-unit target.
-    depth_target = 350 if is_breadth or is_conference_depth else 600
+    # scored against a flagship ~600 unit/skill target. Large breadth bundles,
+    # toolkit packs, and compressed AI-conference depth packs have shorter,
+    # routing-heavy profiles, so they use smaller targets tied to that role.
+    depth_target = 300 if is_toolkit else (350 if is_breadth or is_conference_depth else 600)
     depth = min(35, (avg_units / depth_target) * 35)
     # Trigger precision: descriptions that say WHEN and name the venue.
     trigger = 0.0
@@ -258,7 +281,16 @@ def score_pack(pack: Path) -> dict:
     # Resources / capability assets. Breadth bundles should not be penalized for
     # lacking a depth-pack code library; their capability layer is routing,
     # roster/source discipline, worked routing examples, and selection patterns.
-    if is_breadth:
+    if is_toolkit:
+        shared_coverage = (shared_resource_skills / n) if n else 0
+        resources = (
+            (6 if has_resources_readme else 0)
+            + min(8, shared_coverage * 8)
+            + (5 if has_router else 0)
+            + (5 if exec_bridge_skills else 0)
+            + (4 if no_code_explained else 0)
+        )
+    elif is_breadth:
         resources = (
             (6 if has_resources_readme else 0)
             + (8 if has_worked else 0)
@@ -279,7 +311,9 @@ def score_pack(pack: Path) -> dict:
     runnable = min(5, (code_block_skills / n) * 5) if n else 0
     # Structure hygiene.
     structure = 0.0
-    if is_breadth:
+    if is_toolkit:
+        structure += 3 if 5 <= n <= 10 and has_router else (1 if n else 0)
+    elif is_breadth:
         structure += 3 if n >= 50 and has_router else (1 if n else 0)
     else:
         structure += 3 if 8 <= n <= 14 else (1 if n else 0)
@@ -299,7 +333,9 @@ def score_pack(pack: Path) -> dict:
 
     return {
         "pack": pack.name,
-        "pack_type": "breadth" if is_breadth else ("conference" if is_conference_depth else "depth"),
+        "pack_type": "toolkit"
+        if is_toolkit
+        else ("breadth" if is_breadth else ("conference" if is_conference_depth else "depth")),
         "skills": n,
         "avg_words": round(avg_units),
         "avg_substance_units": round(avg_units),
@@ -308,7 +344,7 @@ def score_pack(pack: Path) -> dict:
         "desc_journal_cue": desc_has_journal_cue,
         "code_lib": has_code,
         "code_status": "not_applicable"
-        if is_breadth
+        if is_breadth or is_toolkit
         else ("present" if has_code else ("not_applicable" if no_code_explained else "missing")),
         "worked_examples": has_worked,
         "exemplars": has_exemplars,
