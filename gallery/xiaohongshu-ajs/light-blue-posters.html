@@ -17,8 +17,12 @@
       --muted: #68839a;
       --blue: #2f94cf;
       --deep-blue: #155985;
+      --navy: #0b2b46;
+      --navy-soft: #123f63;
       --cyan: #78c9ed;
       --gold: #d4ad55;
+      --signal: #e7ae3d;
+      --signal-soft: rgba(212, 173, 85, 0.24);
       --white: #ffffff;
       --shadow: 0 28px 80px rgba(32, 101, 145, 0.16);
       --font-sans: "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
@@ -53,7 +57,7 @@
     .poster {
       position: relative;
       width: 1080px;
-      height: 1440px;
+      height: 1920px;
       overflow: hidden;
       background:
         linear-gradient(90deg, rgba(47,148,207,0.08) 1px, transparent 1px),
@@ -68,7 +72,7 @@
       content: "";
       position: absolute;
       inset: 56px;
-      border: 1px solid var(--line-strong);
+      border: 0;
       pointer-events: none;
     }
 
@@ -87,17 +91,22 @@
       position: relative;
       z-index: 1;
       height: 100%;
-      padding: 86px 88px;
+      padding: 76px 88px 130px;
     }
 
     .topline {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      color: var(--deep-blue);
+      min-height: 104px;
+      margin: -76px -88px 0;
+      padding: 24px 88px;
+      background: linear-gradient(90deg, var(--navy), var(--navy-soft));
+      color: var(--white);
       font-family: var(--font-mono);
       font-size: 18px;
       font-weight: 700;
+      box-shadow: 0 18px 42px rgba(11, 43, 70, 0.18);
     }
 
     .brand {
@@ -111,9 +120,9 @@
       place-items: center;
       width: 60px;
       height: 60px;
-      border: 1px solid var(--line-strong);
-      background: rgba(255,255,255,0.74);
-      color: var(--deep-blue);
+      border: 1px solid rgba(255,255,255,0.56);
+      background: rgba(255,255,255,0.1);
+      color: var(--white);
       font-family: var(--font-mono);
       font-size: 22px;
       font-weight: 900;
@@ -125,13 +134,13 @@
     }
 
     .brand-name strong {
-      color: var(--ink);
+      color: var(--white);
       font-size: 24px;
       font-weight: 900;
     }
 
     .brand-name span {
-      color: var(--muted);
+      color: rgba(255,255,255,0.68);
       font-size: 16px;
       font-weight: 650;
     }
@@ -141,6 +150,10 @@
       font-family: var(--font-mono);
       font-size: 20px;
       font-weight: 800;
+    }
+
+    .topline .folio {
+      color: rgba(255,255,255,0.92);
     }
 
     h1, h2, p {
@@ -235,6 +248,30 @@
       font-weight: 750;
     }
 
+    .quantity-chip {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 9px;
+      width: max-content;
+      max-width: 100%;
+      min-height: 44px;
+      padding: 0 14px;
+      border: 1px solid rgba(212,173,85,0.5);
+      background: rgba(255,255,255,0.72);
+      color: var(--deep-blue);
+      font-family: var(--font-mono);
+      font-size: 17px;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .quantity-chip b {
+      color: var(--ink);
+      font-size: 30px;
+      line-height: 1;
+      font-weight: 950;
+    }
+
     .logo-row {
       display: flex;
       align-items: center;
@@ -283,49 +320,185 @@
     .poster-01 .content {
       display: grid;
       grid-template-rows: auto 1fr auto;
-      gap: 46px;
+      gap: 34px;
+      padding-top: 78px;
+      padding-bottom: 150px;
     }
 
     .poster-01 .main {
       display: grid;
-      gap: 42px;
+      gap: 30px;
       align-content: start;
-      padding-top: 38px;
+      padding-top: 30px;
     }
 
     .poster-01 h1 {
-      max-width: 760px;
-      font-size: 82px;
+      max-width: 900px;
+      font-size: 102px;
+      line-height: 0.98;
+    }
+
+    .poster-01 .title-lockup {
+      position: relative;
+      display: grid;
+      gap: 16px;
+      max-width: 900px;
+      padding-left: 28px;
+    }
+
+    .poster-01 .title-lockup::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 10px;
+      bottom: 6px;
+      width: 8px;
+      background: linear-gradient(180deg, var(--signal), var(--blue));
+    }
+
+    .poster-01 .agent-title {
+      display: block;
+      color: var(--deep-blue);
+      font-family: var(--font-sans);
+      font-size: 104px;
+      line-height: 0.92;
+      font-weight: 950;
+    }
+
+    .poster-01 .title-note {
+      display: inline-flex;
+      width: max-content;
+      max-width: 100%;
+      align-items: center;
+      min-height: 44px;
+      padding: 0 18px;
+      border: 1px solid rgba(212,173,85,0.48);
+      background: var(--signal-soft);
+      color: var(--deep-blue);
+      font-family: var(--font-mono);
+      font-size: 20px;
+      font-weight: 900;
     }
 
     .poster-01 .big-number {
       position: absolute;
-      top: 214px;
-      right: 64px;
-      color: rgba(47,148,207,0.13);
+      top: 190px;
+      right: -40px;
+      color: rgba(47,148,207,0.1);
       font-family: var(--font-mono);
-      font-size: 276px;
+      font-size: 224px;
       line-height: 1;
       font-weight: 900;
       z-index: 0;
     }
 
     .poster-01 .intro {
-      max-width: 720px;
+      max-width: 850px;
       padding-left: 28px;
       border-left: 5px solid var(--blue);
+      font-size: 29px;
     }
 
-    .poster-01 .bottom {
+    .poster-01 .quantity-banner {
       display: grid;
-      grid-template-columns: 1fr 240px;
-      gap: 46px;
+      grid-template-columns: auto 1fr;
+      align-items: center;
+      gap: 24px;
+      max-width: 870px;
+      min-height: 116px;
+      padding: 18px 24px;
+      border: 1px solid rgba(212,173,85,0.58);
+      background:
+        linear-gradient(90deg, rgba(255,255,255,0.84), rgba(255,251,235,0.74)),
+        rgba(255,255,255,0.7);
+      box-shadow: 0 16px 42px rgba(39,118,169,0.08);
+    }
+
+    .poster-01 .quantity-banner b {
+      color: var(--ink);
+      font-family: var(--font-mono);
+      font-size: 88px;
+      line-height: 0.9;
+      font-weight: 950;
+    }
+
+    .poster-01 .quantity-banner span {
+      display: block;
+      color: var(--deep-blue);
+      font-size: 31px;
+      line-height: 1.16;
+      font-weight: 900;
+    }
+
+    .poster-01 .quantity-banner small {
+      display: block;
+      margin-top: 8px;
+      color: var(--ink-soft);
+      font-size: 21px;
+      line-height: 1.28;
+      font-weight: 750;
+    }
+
+    .poster-01 .metric-row {
+      gap: 14px;
+    }
+
+    .poster-01 .metric {
+      min-height: 136px;
+      padding: 20px 22px 18px;
+    }
+
+    .poster-01 .metric b {
+      font-size: 54px;
+    }
+
+    .poster-01 .metric span {
+      margin-top: 14px;
+      font-size: 21px;
+    }
+
+    .poster-01 .metric.is-primary {
+      border-color: rgba(212,173,85,0.56);
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.82), rgba(255,252,239,0.78)),
+        rgba(255,255,255,0.72);
+    }
+
+    .poster-01 .metric.is-primary b,
+    .poster-01 .metric.is-primary span {
+      color: var(--ink);
+    }
+
+    .poster-01 .tag {
+      min-height: 54px;
+      font-size: 22px;
+    }
+
+    .shared-footer {
+      display: grid;
+      grid-template-columns: 1fr 230px;
+      gap: 36px;
       align-items: end;
     }
 
-    .poster-01 .closing {
+    .shared-footer .closing {
       display: grid;
       gap: 26px;
+    }
+
+    .shared-footer .subtitle {
+      max-width: 720px;
+      font-size: 30px;
+      line-height: 1.42;
+      font-weight: 800;
+    }
+
+    .shared-footer .logo-row {
+      gap: 30px;
+    }
+
+    .shared-footer .qr-card {
+      justify-self: end;
     }
 
     .workflow-title {
@@ -404,7 +577,7 @@
       position: absolute;
       left: 88px;
       right: 88px;
-      bottom: 88px;
+      bottom: 152px;
       display: grid;
       grid-template-columns: 1fr auto;
       align-items: center;
@@ -414,6 +587,16 @@
       color: var(--ink-soft);
       font-size: 26px;
       font-weight: 800;
+    }
+
+    .poster-02 .footer-note .quantity-chip {
+      justify-self: end;
+    }
+
+    .poster-02 .content {
+      display: grid;
+      grid-template-rows: auto auto 1fr auto;
+      gap: 40px;
     }
 
     .map-head {
@@ -476,8 +659,10 @@
     }
 
     .map-caption {
-      display: grid;
-      gap: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 28px;
       margin-top: 22px;
       padding-top: 22px;
       border-top: 1px solid var(--line-strong);
@@ -485,6 +670,14 @@
       font-size: 24px;
       line-height: 1.45;
       font-weight: 750;
+    }
+
+    .map-caption p {
+      max-width: 690px;
+    }
+
+    .map-caption .quantity-chip {
+      flex: none;
     }
 
     .cover-layout {
@@ -662,6 +855,13 @@
       gap: 28px;
     }
 
+    .poster-05 .cta-body {
+      grid-template-columns: 1fr;
+      max-width: 760px;
+      align-items: start;
+      padding-top: 84px;
+    }
+
     .poster-05 .footer-logos {
       padding-top: 18px;
     }
@@ -677,25 +877,29 @@
 
     .gh-stamp {
       position: absolute;
-      left: 88px;
-      right: 88px;
-      bottom: 30px;
+      left: 0;
+      right: 0;
+      bottom: 0;
       z-index: 3;
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 10px;
-      color: var(--deep-blue);
+      min-height: 72px;
+      padding: 0 88px;
+      background: linear-gradient(90deg, var(--navy), var(--navy-soft));
+      color: var(--white);
       font-family: var(--font-mono);
-      font-size: 19px;
+      font-size: 18px;
       font-weight: 800;
       letter-spacing: 0.3px;
+      box-shadow: 0 -12px 38px rgba(11, 43, 70, 0.16);
     }
 
     .gh-stamp svg {
       width: 22px;
       height: 22px;
-      fill: var(--deep-blue);
+      fill: currentColor;
       flex: none;
     }
 
@@ -736,7 +940,7 @@
     }
 
     @page {
-      size: 1080px 1440px;
+      size: 1080px 1920px;
       margin: 0;
     }
   </style>
@@ -744,7 +948,7 @@
 <body>
   <main class="deck">
     <article class="poster poster-01" id="poster-01">
-      <div class="big-number">519</div>
+      <div class="big-number">2902</div>
       <div class="content">
         <header class="topline">
           <div class="brand">
@@ -759,31 +963,41 @@
         <div class="gh-stamp"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>github.com/brycewang-stanford/Awesome-Journal-Skills</div>
 
         <section class="main">
-          <div class="eyebrow">Journal-specific AI workflow index</div>
-          <h1><span class="hero-serif">按期刊定制</span><br>AI 投稿工作流索引</h1>
-          <p class="subtitle intro">把“投哪本、怎么写、如何改”变成一套可执行、可复核、可迭代的研究路径。</p>
+          <div class="eyebrow">Academic Journal Agent Skills</div>
+          <div class="title-lockup">
+            <h1 aria-label="学术期刊 Agent Skills"><span class="hero-serif">学术期刊</span><br><span class="agent-title">Agent Skills</span></h1>
+            <div class="title-note">2902 个 Agent Skill · 按期刊定制 · 可复核</div>
+          </div>
+          <p class="subtitle intro">把选刊、写作、预检、返修拆成一组可调用的学术期刊 Agent Skills。</p>
+          <div class="quantity-banner">
+            <b>2902</b>
+            <div>
+              <span>个学术期刊 Agent Skill</span>
+              <small>覆盖选刊定位、写作结构、投稿预检与审稿回复。</small>
+            </div>
+          </div>
           <div class="metric-row">
-            <div class="metric"><b>11</b><span>主流学科板块</span></div>
-            <div class="metric"><b>519</b><span>顶级期刊 / 会议</span></div>
-            <div class="metric"><b>194</b><span>Skill Pack</span></div>
-            <div class="metric"><b>2895</b><span>Agent Skill</span></div>
+            <div class="metric"><b>11</b><span>学科 Agent 路线</span></div>
+            <div class="metric"><b>519</b><span>期刊 / 会议 venue</span></div>
+            <div class="metric"><b>195</b><span>Skill Pack</span></div>
+            <div class="metric is-primary"><b>2902</b><span>个 Agent Skill</span></div>
           </div>
           <div class="tag-grid">
-            <div class="tag">期刊口径</div>
+            <div class="tag">选刊定位</div>
             <div class="tag">审稿偏好</div>
             <div class="tag">写作结构</div>
             <div class="tag">复现材料</div>
           </div>
         </section>
 
-        <footer class="bottom">
+        <footer class="shared-footer">
           <div class="closing">
             <div class="rule"></div>
             <div class="logo-row">
               <div class="logo-box"><img src="../../assets/copaper-logo.png" alt="CoPaper.AI"></div>
               <div class="logo-box"><img src="../../assets/stanford-reap-logo.png" alt="Stanford REAP"></div>
             </div>
-            <p class="subtitle">给研究者、作者与审稿回复团队的按刊 AI Skill 图谱。</p>
+            <p class="subtitle">给研究者、作者与审稿回复团队的学术期刊 Agent Skills 图谱。</p>
           </div>
           <div class="qr-card">
             <img src="../../assets/ajs-github-qrcode.png" alt="GitHub 仓库二维码">
@@ -800,7 +1014,7 @@
             <div class="brand-mark">AJS</div>
             <div class="brand-name">
               <strong>Awesome Journal Skills</strong>
-              <span>Venue-aware research workflow</span>
+              <span>Academic journal Agent Skills</span>
             </div>
           </div>
           <div class="folio">02 / 05</div>
@@ -808,9 +1022,9 @@
         <div class="gh-stamp"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>github.com/brycewang-stanford/Awesome-Journal-Skills</div>
 
         <section class="workflow-title">
-          <div class="eyebrow">Submission route atlas</div>
-          <h1><span class="hero-serif">从选刊到返修</span><br>一条可审计的投稿路线</h1>
-          <p class="subtitle">每一步都回到期刊语境：贡献口径、方法要求、材料边界与审稿回复。</p>
+          <div class="eyebrow">Agent Skills route atlas</div>
+          <h1><span class="hero-serif">从选刊到返修</span><br>一条可调用的 Skill 路线</h1>
+          <p class="subtitle">每一步都有对应 Skill：定位贡献、组织论证、核对方法、预检材料与返修回应。</p>
         </section>
 
         <section class="timeline" aria-label="投稿工作流">
@@ -840,9 +1054,19 @@
           </div>
         </section>
 
-        <footer class="footer-note">
-          <span>不是泛化写作建议，而是按 venue 细分的研究工作流。</span>
-          <span class="folio">AJS</span>
+        <footer class="shared-footer">
+          <div class="closing">
+            <div class="rule"></div>
+            <div class="logo-row">
+              <div class="logo-box"><img src="../../assets/copaper-logo.png" alt="CoPaper.AI"></div>
+              <div class="logo-box"><img src="../../assets/stanford-reap-logo.png" alt="Stanford REAP"></div>
+            </div>
+            <p class="subtitle">给研究者、作者与审稿回复团队的学术期刊 Agent Skills 图谱。</p>
+          </div>
+          <div class="qr-card">
+            <img src="../../assets/ajs-github-qrcode.png" alt="GitHub 仓库二维码">
+            <span>⭐ Star on GitHub</span>
+          </div>
         </footer>
       </div>
     </article>
@@ -854,7 +1078,7 @@
             <div class="brand-mark">AJS</div>
             <div class="brand-name">
               <strong>Awesome Journal Skills</strong>
-              <span>Discipline map</span>
+              <span>Discipline Agent routes</span>
             </div>
           </div>
           <div class="folio">03 / 05</div>
@@ -862,9 +1086,9 @@
         <div class="gh-stamp"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>github.com/brycewang-stanford/Awesome-Journal-Skills</div>
 
         <section class="map-head">
-          <div class="eyebrow">Eleven discipline routes</div>
-          <h1><span class="hero-serif">11 个学科板块</span><br>各自有不同的投稿判断</h1>
-          <p class="subtitle">从中文社科、英文经管，到自然科学、医学与 CS/AI 顶会，尽量回到各自的期刊规则。</p>
+          <div class="eyebrow">Eleven Agent Skill routes</div>
+          <h1><span class="hero-serif">11 条学科路由</span><br>对应不同 Agent Skills</h1>
+          <p class="subtitle">从中文社科、英文经管，到自然科学、医学与 CS/AI 顶会，都回到各自的期刊规则。</p>
         </section>
 
         <section class="discipline-list" aria-label="学科板块清单">
@@ -881,8 +1105,19 @@
           <div class="disc"><span class="disc-no">11</span><div class="disc-body"><b>体育科学</b><span>运动 · 健康科学</span></div></div>
         </section>
 
-        <footer class="map-caption">
-          <p>每一个板块都不是“模板复制”，而是围绕本领域期刊常见审稿问题、材料规范和叙事习惯重新组织。</p>
+        <footer class="shared-footer">
+          <div class="closing">
+            <div class="rule"></div>
+            <div class="logo-row">
+              <div class="logo-box"><img src="../../assets/copaper-logo.png" alt="CoPaper.AI"></div>
+              <div class="logo-box"><img src="../../assets/stanford-reap-logo.png" alt="Stanford REAP"></div>
+            </div>
+            <p class="subtitle">给研究者、作者与审稿回复团队的学术期刊 Agent Skills 图谱。</p>
+          </div>
+          <div class="qr-card">
+            <img src="../../assets/ajs-github-qrcode.png" alt="GitHub 仓库二维码">
+            <span>⭐ Star on GitHub</span>
+          </div>
         </footer>
       </div>
     </article>
@@ -894,7 +1129,7 @@
             <div class="brand-mark">AJS</div>
             <div class="brand-name">
               <strong>Awesome Journal Skills</strong>
-              <span>Cover wall</span>
+              <span>Journal-specific Agent Skills</span>
             </div>
           </div>
           <div class="folio">04 / 05</div>
@@ -902,7 +1137,7 @@
         <div class="gh-stamp"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>github.com/brycewang-stanford/Awesome-Journal-Skills</div>
 
         <section>
-          <div class="eyebrow">Venue-specific skill packs</div>
+          <div class="eyebrow">Venue-specific Agent Skill packs</div>
           <div class="cover-layout">
             <div class="cover-grid" aria-label="期刊封面墙">
               <img src="../../assets/covers/economic-research.png" alt="经济研究">
@@ -928,8 +1163,8 @@
             </div>
 
             <div class="cover-statement">
-              <h1><span class="hero-serif">一本期刊</span><br>一个 Skill 包</h1>
-              <p class="quiet">从封面进入路径，从路径回到稿件。AJS 更关心具体 venue 如何判断贡献、方法、证据和回应。</p>
+              <h1><span class="hero-serif">一本期刊</span><br>一个 Agent<br>Skill 包</h1>
+              <p class="quiet">2902 个 Agent Skill 从封面进入路径，从路径回到稿件。AJS 更关心具体 venue 如何判断贡献、方法、证据和回应。</p>
               <div class="mini-tags">
                 <span>scope positioning</span>
                 <span>reviewer expectations</span>
@@ -942,9 +1177,19 @@
           </div>
         </section>
 
-        <footer class="footer-logos">
-          <p class="subtitle">不是“通用模板”，是 venue-specific 投稿判断。</p>
-          <div class="folio">AJS / 519</div>
+        <footer class="shared-footer">
+          <div class="closing">
+            <div class="rule"></div>
+            <div class="logo-row">
+              <div class="logo-box"><img src="../../assets/copaper-logo.png" alt="CoPaper.AI"></div>
+              <div class="logo-box"><img src="../../assets/stanford-reap-logo.png" alt="Stanford REAP"></div>
+            </div>
+            <p class="subtitle">给研究者、作者与审稿回复团队的学术期刊 Agent Skills 图谱。</p>
+          </div>
+          <div class="qr-card">
+            <img src="../../assets/ajs-github-qrcode.png" alt="GitHub 仓库二维码">
+            <span>⭐ Star on GitHub</span>
+          </div>
         </footer>
       </div>
     </article>
@@ -956,7 +1201,7 @@
             <div class="brand-mark">AJS</div>
             <div class="brand-name">
               <strong>Awesome Journal Skills</strong>
-              <span>Open source on GitHub</span>
+              <span>Open-source 2902 Agent Skills</span>
             </div>
           </div>
           <div class="folio">05 / 05</div>
@@ -965,34 +1210,37 @@
 
         <section class="cta-body">
           <div class="cta-copy">
-            <div class="eyebrow">Open your journal navigator</div>
-            <h1><span class="hero-serif">打开你的</span><br>期刊投稿导航盘</h1>
-            <p class="subtitle">适合选刊、写作、预检与返修。把 AI 从“会写”推进到“懂期刊、懂审稿、懂材料”。</p>
+            <div class="eyebrow">Open your Agent Skills navigator</div>
+            <h1><span class="hero-serif">打开你的</span><br>学术期刊<br>Agent Skills</h1>
+            <p class="subtitle">2902 个 Agent Skill，覆盖选刊、写作、预检与返修。把 AI 从“会写”推进到“懂期刊、懂审稿、懂材料”。</p>
             <div class="use-case-list">
               <div class="use-case"><b>选刊</b><span>比较 scope 与贡献口径</span></div>
-              <div class="use-case"><b>写作</b><span>按期刊惯例组织论证</span></div>
+              <div class="use-case"><b>写作</b><span>调用按刊写作 Skill</span></div>
               <div class="use-case"><b>预检</b><span>核对材料、格式与复现</span></div>
-              <div class="use-case"><b>返修</b><span>把审稿意见拆成回应路径</span></div>
+              <div class="use-case"><b>返修</b><span>拆解审稿意见和证据</span></div>
             </div>
           </div>
 
-          <div class="qr-hero">
-            <img src="../../assets/ajs-github-qrcode.png" alt="GitHub 仓库二维码">
-            <span>⭐ Star on GitHub</span>
-          </div>
         </section>
 
         <section class="quote-band">
           <small>一句话</small>
-          <strong>让投稿工作流从“泛化建议”变成“按刊执行”。</strong>
+          <strong>2902 个 Agent Skill，把投稿变成“按刊执行”。</strong>
         </section>
 
-        <footer class="footer-logos">
-          <div class="logo-row">
-            <div class="logo-box"><img src="../../assets/copaper-logo.png" alt="CoPaper.AI"></div>
-            <div class="logo-box"><img src="../../assets/stanford-reap-logo.png" alt="Stanford REAP"></div>
+        <footer class="shared-footer">
+          <div class="closing">
+            <div class="rule"></div>
+            <div class="logo-row">
+              <div class="logo-box"><img src="../../assets/copaper-logo.png" alt="CoPaper.AI"></div>
+              <div class="logo-box"><img src="../../assets/stanford-reap-logo.png" alt="Stanford REAP"></div>
+            </div>
+            <p class="subtitle">给研究者、作者与审稿回复团队的学术期刊 Agent Skills 图谱。</p>
           </div>
-          <div class="folio">Awesome Journal Skills</div>
+          <div class="qr-card">
+            <img src="../../assets/ajs-github-qrcode.png" alt="GitHub 仓库二维码">
+            <span>⭐ Star on GitHub</span>
+          </div>
         </footer>
       </div>
     </article>

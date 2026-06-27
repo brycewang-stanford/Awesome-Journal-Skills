@@ -1,10 +1,11 @@
 # AJS 小红书海报 · Xiaohongshu Poster Set
 
-淡蓝简洁风格的 5 张宣传海报，介绍 **Awesome Journal Skills**（按期刊定制的 AI 投稿工作流索引）。
-每张原生 1080×1440，导出为 2×（2160×2880）PNG，底部带项目地址与可扫描的 GitHub 二维码。
+淡蓝简洁风格的 5 张宣传海报，介绍 **Awesome Journal Skills**（学术期刊 Agent Skills 与按刊执行路线）。
+每张原生 1080×1920，导出为 2×（2160×3840）PNG，底部带项目地址与可扫描的 GitHub 二维码。
 
-A 5-poster light-blue promo set for **Awesome Journal Skills**. Native 1080×1440,
-exported at 2× (2160×2880). Each poster carries the project URL and a scannable QR
+A 5-poster light-blue promo set for **Awesome Journal Skills** and its academic
+journal Agent Skills. Native 1080×1920,
+exported at 2× (2160×3840). Each poster carries the project URL and a scannable QR
 that resolves to <https://github.com/brycewang-stanford/Awesome-Journal-Skills>.
 
 ## 海报 · Posters

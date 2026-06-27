@@ -3,7 +3,7 @@
  * render_posters.mjs — render an HTML poster deck to PNG screenshots.
  *
  * Each <article class="poster" id="poster-NN"> in the HTML is screenshotted at
- * its native CSS size (1080x1440) and saved at 2x device scale (2160x2880) for
+ * its native CSS size (1080x1920) and saved at 2x device scale (2160x3840) for
  * crisp social-media output. Re-run this after editing the HTML to refresh the
  * exported PNGs.
  *
@@ -53,7 +53,7 @@ const NAME_MAP = {
 
 const browser = await chromium.launch();
 const page = await browser.newPage({
-  viewport: { width: 1280, height: 1500 },
+  viewport: { width: 1280, height: 2000 },
   deviceScaleFactor: 2,
 });
 

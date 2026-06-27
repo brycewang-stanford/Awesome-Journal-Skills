@@ -77,7 +77,7 @@ python3 tools/audit_repo.py --counts   # prints the live numbers to copy in
 Unlike the Python maintenance scripts above, [`render_posters.mjs`](render_posters.mjs)
 is a Node + Playwright helper for regenerating poster/social images from an HTML
 deck. It screenshots every `<article class="poster" id="poster-NN">` in the deck
-to PNG at native 1080×1440, saved at 2× (2160×2880), and is meant to be re-run
+to PNG at native 1080×1920, saved at 2× (2160×3840), and is meant to be re-run
 after editing the HTML to refresh the exported PNGs.
 
 ```bash
