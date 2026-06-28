@@ -55,6 +55,7 @@ NEXT_LOOP_VALIDATION_COMMANDS = (
     "python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-monthly-worklog-template.md",
     "python3 tools/monthly_uplift_report.py --check-worklog latest",
     "python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-uplift.md",
+    "python3 tools/quality_scorecard.py --top 15 --min-score 90",
     "python3 tools/run_checks.py --skip-reports",
     "python3 tools/run_checks.py",
     "git diff --check",
@@ -68,8 +69,8 @@ NEXT_LOOP_MEASUREMENT_COMMANDS = (
     "python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20",
 )
 DASHBOARD_SCHEMA_NAME = "monthly_uplift_report"
-DASHBOARD_SCHEMA_VERSION = 9
-DASHBOARD_SCHEMA_CONTRACT = "monthly-uplift-dashboard-v9"
+DASHBOARD_SCHEMA_VERSION = 19
+DASHBOARD_SCHEMA_CONTRACT = "monthly-uplift-dashboard-v19"
 DASHBOARD_SCHEMA_REQUIRED_TOP_LEVEL_FIELDS = (
     "schema",
     "generated_at",
@@ -91,6 +92,8 @@ DASHBOARD_SCHEMA_REQUIRED_TOP_LEVEL_FIELDS = (
     "command_plan",
     "targets",
     "owner_clearance_queue",
+    "execution_bridge_tail",
+    "safe_content_queue",
     "content_edit_policy",
     "remaining_debt",
     "next_batches",
@@ -99,16 +102,50 @@ DASHBOARD_SCHEMA_REQUIRED_TOP_LEVEL_FIELDS = (
     "goal_progress",
     "completion_audit",
     "handoff_manifest",
+    "skillopt_gate_plan",
+    "current_next_queue",
+)
+DASHBOARD_SCHEMA_NESTED_CONTRACT_FIELDS = (
+    "owner_clearance_queue",
+    "execution_bridge_tail",
+    "safe_content_queue",
+    "content_edit_policy",
+    "remaining_debt",
+    "next_batch_plan",
+    "publish_policy",
+    "goal_progress",
+    "completion_audit",
+    "handoff_manifest",
+    "skillopt_gate_plan",
+    "current_next_queue",
 )
 
 
-def schema_summary() -> dict[str, Any]:
+def schema_nested_contracts(summary: dict[str, Any] | None = None) -> dict[str, str]:
+    contracts: dict[str, str] = {}
+    source = summary or {}
+    for field in DASHBOARD_SCHEMA_NESTED_CONTRACT_FIELDS:
+        value = source.get(field)
+        contracts[field] = str(value.get("contract", "")) if isinstance(value, dict) else ""
+    return contracts
+
+
+def schema_nested_contracts_fingerprint(contracts: dict[str, str]) -> str:
+    return hashlib.sha256(
+        json.dumps(contracts, ensure_ascii=False, sort_keys=True).encode("utf-8")
+    ).hexdigest()[:12]
+
+
+def schema_summary(summary: dict[str, Any] | None = None) -> dict[str, Any]:
+    nested_contracts = schema_nested_contracts(summary)
     return {
         "schema": {
             "name": DASHBOARD_SCHEMA_NAME,
             "version": DASHBOARD_SCHEMA_VERSION,
             "contract": DASHBOARD_SCHEMA_CONTRACT,
             "required_top_level_fields": list(DASHBOARD_SCHEMA_REQUIRED_TOP_LEVEL_FIELDS),
+            "nested_contracts": nested_contracts,
+            "nested_contracts_fingerprint": schema_nested_contracts_fingerprint(nested_contracts),
         }
     }
 
@@ -126,10 +163,17 @@ def schema_line(summary: dict[str, Any]) -> str:
 def validate_schema_contract(summary: dict[str, Any]) -> list[str]:
     errors: list[str] = []
     schema = summary.get("schema")
-    expected = schema_summary()["schema"]
+    expected = schema_summary(summary)["schema"]
     if not isinstance(schema, dict):
         return ["schema missing or not an object"]
-    for key in ("name", "version", "contract", "required_top_level_fields"):
+    for key in (
+        "name",
+        "version",
+        "contract",
+        "required_top_level_fields",
+        "nested_contracts",
+        "nested_contracts_fingerprint",
+    ):
         if schema.get(key) != expected[key]:
             errors.append(f"schema.{key} expected {expected[key]!r}, observed {schema.get(key)!r}")
     required = schema.get("required_top_level_fields", [])
@@ -244,7 +288,6 @@ CURRENT_NEXT_QUEUE_REQUIRED_MARKERS = (
     "Local publish-unit split:",
     "needs-owner-review",
     "Regression gates for the next batch:",
-    "owner-clearance-needed",
     "python3 tools/monthly_uplift_report.py --check --handoff --limit 20",
     "python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20",
     "python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20",
@@ -381,6 +424,25 @@ DELTA_METRICS = (
     ("content_policy_unclaimed_candidates", "Content-policy unclaimed candidates", ("content_edit_policy", "unclaimed_candidate_count"), 0),
     ("content_policy_claim_sensitive_targets", "Content-policy claim-sensitive targets", ("content_edit_policy", "claim_sensitive_target_count"), 0),
     ("content_policy_dirty_pack_lanes", "Content-policy dirty pack lanes", ("content_edit_policy", "dirty_pack_lane_count"), 0),
+    ("execution_bridge_tail_missing", "Execution-bridge tail missing", ("execution_bridge_tail", "missing"), 0),
+    (
+        "execution_bridge_tail_unclaimed",
+        "Execution-bridge tail unclaimed",
+        ("execution_bridge_tail", "unclaimed_count"),
+        0,
+    ),
+    (
+        "execution_bridge_tail_owner_clearance",
+        "Execution-bridge tail owner-clearance",
+        ("execution_bridge_tail", "owner_clearance_count"),
+        0,
+    ),
+    ("safe_content_queue_unclaimed_total", "Safe content queue unclaimed", ("safe_content_queue", "unclaimed_total"), 0),
+    ("safe_content_queue_score", "Safe content queue score", ("safe_content_queue", "score_count"), 0),
+    ("safe_content_queue_source_map", "Safe content queue source-map", ("safe_content_queue", "source_map_count"), 0),
+    ("safe_content_queue_bridge", "Safe content queue bridge", ("safe_content_queue", "execution_bridge_count"), 0),
+    ("safe_content_queue_score_ceiling", "Safe content queue score ceiling", ("safe_content_queue", "score_ceiling_count"), 0),
+    ("safe_content_queue_dirty_skipped", "Safe content queue dirty skipped", ("safe_content_queue", "dirty_skipped_count"), 0),
     ("owner_clearance_queue_total", "Owner-clearance queue total", ("owner_clearance_queue", "total"), 0),
     ("remaining_debt_unclaimed_total", "Remaining-debt unclaimed total", ("remaining_debt", "unclaimed_total"), 0),
     ("remaining_debt_owner_clearance_total", "Remaining-debt owner-clearance total", ("remaining_debt", "owner_clearance_total"), 0),
@@ -400,11 +462,25 @@ DELTA_TEXT_METRICS = (
     ("claims_present", "Claims boundary present", ("claims", "present")),
     ("claims_fingerprint", "Claims boundary fingerprint", ("claims", "fingerprint")),
     ("schema_contract", "Dashboard schema contract", ("schema", "contract")),
+    (
+        "schema_nested_contracts_fingerprint",
+        "Dashboard nested-contracts fingerprint",
+        ("schema", "nested_contracts_fingerprint"),
+    ),
     ("worktree_boundary_fingerprint", "Worktree boundary fingerprint", ("worktree_boundary", "fingerprint")),
     ("command_plan_fingerprint", "Command plan fingerprint", ("command_plan", "fingerprint")),
     ("next_batch_fingerprint", "Next-batch plan fingerprint", ("next_batch_plan", "fingerprint")),
     ("content_policy_status", "Content-edit policy status", ("content_edit_policy", "status")),
     ("content_policy_fingerprint", "Content-edit policy fingerprint", ("content_edit_policy", "fingerprint")),
+    (
+        "content_policy_bridge_owner_clearance",
+        "Content-policy bridge owner-clearance",
+        ("content_edit_policy", "execution_bridge_owner_clearance_required"),
+    ),
+    ("execution_bridge_tail_status", "Execution-bridge tail status", ("execution_bridge_tail", "status")),
+    ("execution_bridge_tail_fingerprint", "Execution-bridge tail fingerprint", ("execution_bridge_tail", "fingerprint")),
+    ("safe_content_queue_status", "Safe content queue status", ("safe_content_queue", "status")),
+    ("safe_content_queue_fingerprint", "Safe content queue fingerprint", ("safe_content_queue", "fingerprint")),
     ("owner_clearance_queue_fingerprint", "Owner-clearance queue fingerprint", ("owner_clearance_queue", "fingerprint")),
     ("remaining_debt_status", "Remaining-debt status", ("remaining_debt", "status")),
     ("remaining_debt_fingerprint", "Remaining-debt fingerprint", ("remaining_debt", "fingerprint")),
@@ -417,9 +493,34 @@ DELTA_TEXT_METRICS = (
     ("handoff_manifest_contract", "Handoff manifest contract", ("handoff_manifest", "contract")),
     ("handoff_manifest_completion_contract", "Handoff completion-audit contract", ("handoff_manifest", "completion_audit_contract")),
     ("handoff_manifest_fingerprint", "Handoff manifest fingerprint", ("handoff_manifest", "fingerprint")),
+    ("skillopt_gate_plan_status", "SkillOpt gate-plan status", ("skillopt_gate_plan", "status")),
+    ("skillopt_gate_plan_fingerprint", "SkillOpt gate-plan fingerprint", ("skillopt_gate_plan", "fingerprint")),
+    ("current_next_queue_fingerprint", "Current-next-queue fingerprint", ("current_next_queue", "fingerprint")),
 )
 OWNER_CLEARANCE_KINDS = ("score-floor", "source-map", "execution-bridge")
 OWNER_CLEARANCE_QUEUE_CONTRACT = "owner-clearance-queue-v1"
+SKILLOPT_GATE_PLAN_CONTRACT = "monthly-uplift-skillopt-gate-plan-v1"
+SKILLOPT_SNAPSHOT_COMMAND = "python3 tools/skillopt_gate.py snapshot --out /tmp/ajs-skillopt-baseline.json"
+SKILLOPT_GATE_COMMAND = (
+    "python3 tools/skillopt_gate.py gate --baseline /tmp/ajs-skillopt-baseline.json "
+    "--out /tmp/ajs-skillopt-gate.json"
+)
+CURRENT_NEXT_QUEUE_CONTRACT = "current-next-queue-v5"
+NEXT_BATCH_PLAN_CONTRACT = "monthly-uplift-next-batch-plan-v1"
+WORKLOG_LIVE_SUMMARY_LIMIT = 20
+
+
+def worklog_live_summary_args(args: argparse.Namespace) -> argparse.Namespace:
+    """Return the stable dashboard context used by the worklog live guard."""
+    return argparse.Namespace(
+        score_target=args.score_target,
+        limit=WORKLOG_LIVE_SUMMARY_LIMIT,
+        skip_clone=True,
+        clone_threshold=args.clone_threshold,
+        clone_fail_threshold=args.clone_fail_threshold,
+        clone_top=args.clone_top,
+        compare_json=None,
+    )
 
 
 class ToolError(RuntimeError):
@@ -501,6 +602,27 @@ def weakest_skill_path(row: dict[str, Any]) -> str:
         return ""
     first = weak[0]
     return str(first.get("path", "")) if isinstance(first, dict) else ""
+
+
+def score_ceiling_reason(row: dict[str, Any]) -> str:
+    breakdown = row.get("_breakdown")
+    if not isinstance(breakdown, dict):
+        return ""
+    max_values = {
+        "depth": 35.0,
+        "trigger": 20.0,
+        "resources": 28.0,
+        "runnable": 5.0,
+        "structure": 6.0,
+    }
+    for key, max_value in max_values.items():
+        try:
+            value = float(breakdown.get(key, -1))
+        except (TypeError, ValueError):
+            return ""
+        if value < max_value:
+            return ""
+    return "scorecard rubric ceiling reached; do not treat as score-floor debt"
 
 
 def root_summary(rows: list[dict[str, Any]]) -> dict[str, Any]:
@@ -656,6 +778,224 @@ def validate_worklog_text(text: str) -> list[str]:
     return errors
 
 
+def skillopt_gate_plan_summary(summary: dict[str, Any]) -> dict[str, Any]:
+    git = summary.get("git", {}) if isinstance(summary.get("git"), dict) else {}
+    units = summary.get("publish_units", {}) if isinstance(summary.get("publish_units"), dict) else {}
+    pack_unit = units.get("pack_content", {}) if isinstance(units.get("pack_content"), dict) else {}
+    dirty_pack_paths = git.get("dirty_pack_paths", []) if isinstance(git.get("dirty_pack_paths"), list) else []
+    dirty_skill_paths = [
+        str(path)
+        for path in dirty_pack_paths
+        if str(path).endswith("/SKILL.md") and "/skills/" in str(path)
+    ]
+    dirty_pack_count = int(pack_unit.get("pack_count", 0) or 0)
+    applicable_now = bool(dirty_skill_paths)
+    if applicable_now:
+        status = "dirty-skill-lanes-present"
+        recommended_action = "preserve-existing-pack-lane-evidence"
+        reason = (
+            "dirty skill-body paths already exist in pack-content lanes; do not invent a "
+            "pre-edit baseline after the fact, but require SkillOpt snapshot/gate before new skill edits"
+        )
+    else:
+        status = "ready-before-next-skill-edit"
+        recommended_action = "take-baseline-before-bounded-skill-edit"
+        reason = "no dirty skill-body paths are currently visible; take the SkillOpt snapshot before the next skill edit"
+    plan = {
+        "contract": SKILLOPT_GATE_PLAN_CONTRACT,
+        "status": status,
+        "applicable_now": applicable_now,
+        "required_before_new_skill_edits": True,
+        "dirty_skill_path_count": len(dirty_skill_paths),
+        "dirty_skill_paths": dirty_skill_paths,
+        "dirty_pack_lane_count": dirty_pack_count,
+        "snapshot_command": SKILLOPT_SNAPSHOT_COMMAND,
+        "gate_command": SKILLOPT_GATE_COMMAND,
+        "final_hard_gate": "python3 tools/run_checks.py --skip-reports",
+        "recommended_action": recommended_action,
+        "reason": reason,
+    }
+    plan["fingerprint"] = hashlib.sha256(
+        json.dumps(plan, ensure_ascii=False, sort_keys=True).encode("utf-8")
+    ).hexdigest()[:12]
+    return {"skillopt_gate_plan": plan}
+
+
+def skillopt_gate_plan_line(summary: dict[str, Any]) -> str:
+    plan = summary.get("skillopt_gate_plan")
+    if not isinstance(plan, dict):
+        plan = skillopt_gate_plan_summary(summary)["skillopt_gate_plan"]
+    fingerprint = str(plan.get("fingerprint", ""))
+    suffix = f"; sha256 {fingerprint}" if fingerprint else ""
+    return (
+        f"{plan.get('contract', SKILLOPT_GATE_PLAN_CONTRACT)}; status {plan.get('status', 'unknown')}; "
+        f"{int(plan.get('dirty_skill_path_count', 0))} dirty skill paths / "
+        f"{int(plan.get('dirty_pack_lane_count', 0))} dirty pack lanes; "
+        f"action {plan.get('recommended_action', 'unknown')}{suffix}"
+    )
+
+
+def validate_skillopt_gate_plan(summary: dict[str, Any]) -> list[str]:
+    if "generated_at" not in summary and "skillopt_gate_plan" not in summary:
+        return []
+    expected = skillopt_gate_plan_summary(summary)["skillopt_gate_plan"]
+    plan = summary.get("skillopt_gate_plan")
+    if not isinstance(plan, dict):
+        return ["skillopt_gate_plan missing or not an object"]
+    errors: list[str] = []
+    for key, expected_value in expected.items():
+        if plan.get(key) != expected_value:
+            errors.append(f"skillopt_gate_plan.{key} expected {expected_value!r}, observed {plan.get(key)!r}")
+    return errors
+
+
+def current_next_queue_expected_fragments(summary: dict[str, Any]) -> list[str]:
+    loop_control = summary.get("loop_control", {}) if isinstance(summary.get("loop_control"), dict) else {}
+    skillopt_plan = summary.get("skillopt_gate_plan", {}) if isinstance(summary.get("skillopt_gate_plan"), dict) else {}
+    schema_source = {
+        **summary,
+        "skillopt_gate_plan": {"contract": SKILLOPT_GATE_PLAN_CONTRACT},
+        "current_next_queue": {"contract": CURRENT_NEXT_QUEUE_CONTRACT},
+    }
+    schema = schema_summary(schema_source)["schema"]
+    command_plan = summary.get("command_plan", {}) if isinstance(summary.get("command_plan"), dict) else {}
+    bridge_tail = summary.get("execution_bridge_tail", {}) if isinstance(summary.get("execution_bridge_tail"), dict) else {}
+    safe_queue = summary.get("safe_content_queue", {}) if isinstance(summary.get("safe_content_queue"), dict) else {}
+    content_policy = summary.get("content_edit_policy", {}) if isinstance(summary.get("content_edit_policy"), dict) else {}
+    remaining_debt = summary.get("remaining_debt", {}) if isinstance(summary.get("remaining_debt"), dict) else {}
+    publish_policy = summary.get("publish_policy", {}) if isinstance(summary.get("publish_policy"), dict) else {}
+    next_batch_plan = summary.get("next_batch_plan", {}) if isinstance(summary.get("next_batch_plan"), dict) else {}
+    goal_progress = summary.get("goal_progress", {}) if isinstance(summary.get("goal_progress"), dict) else {}
+    completion_audit = summary.get("completion_audit", {}) if isinstance(summary.get("completion_audit"), dict) else {}
+    handoff_manifest = summary.get("handoff_manifest", {}) if isinstance(summary.get("handoff_manifest"), dict) else {}
+    clone = summary.get("clone_audit")
+    include_clone_dependent = isinstance(clone, dict)
+    clearance_queue = owner_clearance_queue_data(summary)
+    units = publish_units_data(summary)
+    root_unit = units.get("root_tooling", {}) if isinstance(units.get("root_tooling"), dict) else {}
+    pack_unit = units.get("pack_content", {}) if isinstance(units.get("pack_content"), dict) else {}
+
+    fragments = [
+        f"Current-next-queue contract: `{CURRENT_NEXT_QUEUE_CONTRACT}`",
+        f"Loop-control status: `{loop_control.get('status', '')}`",
+        f"`{loop_control.get('next_lane', '')}`",
+        f"root/tooling currently forms one ready unit with {int(root_unit.get('path_count', 0))}",
+        f"pack content currently has {int(pack_unit.get('pack_count', 0))}",
+        f"`{pack_unit.get('status', '')}`",
+        f"`{schema.get('contract', '')}`",
+        "and `current_next_queue`",
+        f"The current nested-contracts fingerprint is `{schema.get('nested_contracts_fingerprint', '')}`",
+        f"`{bridge_tail.get('contract', '')}`",
+        f"fingerprint `{bridge_tail.get('fingerprint', '')}`",
+        f"`{safe_queue.get('contract', '')}`",
+        f"status `{safe_queue.get('status', '')}`",
+        f"recommended action `{safe_queue.get('recommended_action', '')}`",
+        f"fingerprint `{safe_queue.get('fingerprint', '')}`",
+        f"`{content_policy.get('contract', '')}`",
+        f"content-edit policy status `{content_policy.get('status', '')}`",
+        f"fingerprint `{content_policy.get('fingerprint', '')}`",
+        f"`{remaining_debt.get('contract', '')}`",
+        f"remaining-debt status `{remaining_debt.get('status', '')}`",
+        f"fingerprint `{remaining_debt.get('fingerprint', '')}`",
+        f"fingerprint `{clearance_queue.get('fingerprint', '')}`",
+        f"`{publish_policy.get('contract', '')}`",
+        f"publish policy status `{publish_policy.get('status', '')}`",
+        f"fingerprint `{publish_policy.get('fingerprint', '')}`",
+        f"`{next_batch_plan.get('contract', '')}`",
+        f"next-batch count `{int(next_batch_plan.get('count', 0))}`",
+        f"fingerprint `{next_batch_plan.get('fingerprint', '')}`",
+        f"`{goal_progress.get('contract', '')}`",
+        f"`{completion_audit.get('contract', '')}`",
+        f"`{handoff_manifest.get('contract', '')}`",
+        f"`{skillopt_plan.get('contract', '')}`",
+        f"SkillOpt gate plan status `{skillopt_plan.get('status', '')}`",
+        f"`{skillopt_plan.get('snapshot_command', '')}`",
+        f"`{skillopt_plan.get('gate_command', '')}`",
+        f"fingerprint `{skillopt_plan.get('fingerprint', '')}`",
+        (
+            f"plan is {int(command_plan.get('measurement_count', 0))} measurement commands / "
+            f"{int(command_plan.get('validation_count', 0))} validation commands"
+        ),
+        "`python3 tools/quality_scorecard.py --top 15 --min-score 90`",
+        f"fingerprint `{command_plan.get('fingerprint', '')}`",
+    ]
+    if include_clone_dependent:
+        fragments.extend(
+            [
+                f"goal-progress status `{goal_progress.get('status', '')}`",
+                f"fingerprint `{goal_progress.get('fingerprint', '')}`",
+                f"completion-audit status `{completion_audit.get('completion_status', '')}`",
+                f"fingerprint `{completion_audit.get('fingerprint', '')}`",
+                f"fingerprint `{handoff_manifest.get('fingerprint', '')}`",
+            ]
+        )
+    return [fragment for fragment in fragments if "``" not in fragment]
+
+
+def current_next_queue_summary(summary: dict[str, Any]) -> dict[str, Any]:
+    fragments = current_next_queue_expected_fragments(summary)
+    queue = {
+        "contract": CURRENT_NEXT_QUEUE_CONTRACT,
+        "required_fragments": fragments,
+        "fragment_count": len(fragments),
+    }
+    queue["fingerprint"] = hashlib.sha256(
+        json.dumps(queue, ensure_ascii=False, sort_keys=True).encode("utf-8")
+    ).hexdigest()[:12]
+    return {"current_next_queue": queue}
+
+
+def current_next_queue_line(summary: dict[str, Any]) -> str:
+    queue = summary.get("current_next_queue")
+    if not isinstance(queue, dict):
+        queue = current_next_queue_summary(summary)["current_next_queue"]
+    fingerprint = str(queue.get("fingerprint", ""))
+    suffix = f"; sha256 {fingerprint}" if fingerprint else ""
+    return (
+        f"{queue.get('contract', CURRENT_NEXT_QUEUE_CONTRACT)}; "
+        f"{int(queue.get('fragment_count', 0))} live fragments{suffix}"
+    )
+
+
+def validate_current_next_queue_text(text: str, summary: dict[str, Any]) -> list[str]:
+    if "## Current Next Queue" not in text:
+        return ["worklog missing '## Current Next Queue'"]
+    next_queue = text.split("## Current Next Queue", 1)[1]
+    normalized_next_queue = squash_spaces(next_queue)
+    errors: list[str] = []
+    for fragment in current_next_queue_expected_fragments(summary):
+        if fragment not in next_queue and fragment not in normalized_next_queue:
+            errors.append(f"Current Next Queue stale or missing live fragment {fragment!r}")
+    return errors
+
+
+def validate_current_next_queue(summary: dict[str, Any]) -> list[str]:
+    if "generated_at" not in summary and "current_next_queue" not in summary:
+        return []
+    expected = current_next_queue_summary(summary)["current_next_queue"]
+    queue = summary.get("current_next_queue")
+    errors: list[str] = []
+    if not isinstance(queue, dict):
+        errors.append("current_next_queue missing or not an object")
+    else:
+        for key, expected_value in expected.items():
+            if queue.get(key) != expected_value:
+                errors.append(f"current_next_queue.{key} expected {expected_value!r}, observed {queue.get(key)!r}")
+
+    try:
+        path = latest_worklog_path()
+        text = path.read_text(encoding="utf-8")
+    except (OSError, ValueError) as exc:
+        errors.append(f"current_next_queue worklog read failed: {exc}")
+    else:
+        actual_section = latest_worklog_section(text)
+        actual_heading = actual_section[0] if actual_section else ""
+        summary_worklog = summary.get("worklog", {}) if isinstance(summary.get("worklog"), dict) else {}
+        if str(summary_worklog.get("latest_heading", "")) == actual_heading:
+            errors.extend(validate_current_next_queue_text(text, summary))
+    return errors
+
+
 def latest_worklog_path() -> Path:
     candidates: list[tuple[str, Path]] = []
     for path in (ROOT / ".maintenance").glob("MONTHLY-UPLIFT-*.md"):
@@ -673,13 +1013,15 @@ def resolve_worklog_path(path: Path) -> Path:
     return path if path.is_absolute() else ROOT / path
 
 
-def check_worklog(path: Path) -> str:
+def check_worklog(path: Path, live_summary: dict[str, Any] | None = None) -> str:
     input_path = resolve_worklog_path(path)
     try:
         text = input_path.read_text(encoding="utf-8")
     except OSError as exc:
         raise ValueError(f"could not read worklog {path}: {exc}") from exc
     errors = validate_worklog_text(text)
+    if live_summary is not None:
+        errors.extend(validate_current_next_queue_text(text, live_summary))
     if errors:
         raise ValueError("; ".join(errors))
     heading, _section = latest_worklog_section(text) or ("unknown", "")
@@ -880,11 +1222,25 @@ def candidate_pool(
     limit: int,
 ) -> dict[str, list[dict[str, Any]]]:
     score_candidates: list[dict[str, Any]] = []
+    score_ceiling: list[dict[str, Any]] = []
     for row in sorted(quality_rows, key=lambda item: (float(item["score"]), str(item["pack"]))):
         pack = str(row["pack"])
         if pack in dirty_packs:
             continue
         if claim_reason_for_pack(pack, claims):
+            continue
+        ceiling_reason = score_ceiling_reason(row)
+        if ceiling_reason:
+            score_ceiling.append(
+                {
+                    "score": float(row["score"]),
+                    "pack": pack,
+                    "weakest_skill": weakest_skill_path(row),
+                    "reason": ceiling_reason,
+                }
+            )
+            if len(score_ceiling) >= limit and len(score_candidates) >= limit:
+                break
             continue
         score_candidates.append(
             {
@@ -938,6 +1294,7 @@ def candidate_pool(
 
     return {
         "score_unclaimed": score_candidates,
+        "score_ceiling": score_ceiling[:limit],
         "source_map_unclaimed": source_candidates,
         "execution_bridge_unclaimed": bridge_candidates,
         "dirty_skipped_packs": [{"pack": pack} for pack in sorted(dirty_packs)],
@@ -1038,12 +1395,16 @@ def validate_summary(summary: dict[str, Any]) -> list[str]:
     errors.extend(validate_worktree_boundary(summary))
     errors.extend(validate_command_plan(summary))
     errors.extend(validate_next_batch_plan(summary))
+    errors.extend(validate_execution_bridge_tail(summary))
+    errors.extend(validate_safe_content_queue(summary))
     errors.extend(validate_content_edit_policy(summary))
     errors.extend(validate_remaining_debt(summary))
     errors.extend(validate_publish_policy(summary))
     errors.extend(validate_goal_progress(summary))
     errors.extend(validate_completion_audit(summary))
     errors.extend(validate_handoff_manifest(summary))
+    errors.extend(validate_skillopt_gate_plan(summary))
+    errors.extend(validate_current_next_queue(summary))
     loop_control = summary.get("loop_control")
     if not isinstance(loop_control, dict):
         return ["missing loop_control summary"]
@@ -1277,6 +1638,8 @@ def loop_control_fixture(
     }
     summary["loop_control"] = {**expected_loop_control(summary), "reason": "fixture"}
     summary["owner_clearance_queue"] = owner_clearance_queue(summary)
+    summary.update(execution_bridge_tail_summary(summary))
+    summary.update(safe_content_queue_summary(summary))
     return summary
 
 
@@ -1345,13 +1708,18 @@ def handoff_fixture() -> dict[str, Any]:
     )
     summary.update(worktree_boundary_summary(summary["git"]))
     summary["publish_units"] = publish_units_from_git(summary["git"])
+    summary.update(execution_bridge_tail_summary(summary))
+    summary.update(safe_content_queue_summary(summary))
     summary.update(content_edit_policy_summary(summary))
     summary.update(remaining_debt_summary(summary))
     summary.update(next_batch_plan_summary(summary))
     summary.update(publish_policy_summary(summary))
+    summary.update(skillopt_gate_plan_summary(summary))
     summary.update(goal_progress_summary(summary))
     summary.update(completion_audit_summary(summary))
     summary.update(handoff_manifest_summary(summary))
+    summary.update(current_next_queue_summary(summary))
+    summary.update(schema_summary(summary))
     return summary
 
 
@@ -1444,6 +1812,25 @@ def self_test_errors() -> list[str]:
     if not any("schema.version" in error for error in validate_summary(stale_schema)):
         errors.append("stale dashboard schema version was not rejected")
 
+    stale_schema_nested_contract = handoff_fixture()
+    stale_schema_nested_contract["schema"] = {
+        **stale_schema_nested_contract["schema"],
+        "nested_contracts": {
+            **stale_schema_nested_contract["schema"]["nested_contracts"],
+            "handoff_manifest": "stale",
+        },
+    }
+    if not any("schema.nested_contracts" in error for error in validate_summary(stale_schema_nested_contract)):
+        errors.append("stale dashboard nested-contract registry was not rejected")
+
+    stale_schema_nested_fingerprint = handoff_fixture()
+    stale_schema_nested_fingerprint["schema"] = {
+        **stale_schema_nested_fingerprint["schema"],
+        "nested_contracts_fingerprint": "stale",
+    }
+    if not any("schema.nested_contracts_fingerprint" in error for error in validate_summary(stale_schema_nested_fingerprint)):
+        errors.append("stale dashboard nested-contract fingerprint was not rejected")
+
     stale_worktree_boundary = handoff_fixture()
     stale_worktree_boundary["worktree_boundary"] = {
         **stale_worktree_boundary["worktree_boundary"],
@@ -1476,6 +1863,108 @@ def self_test_errors() -> list[str]:
     if not any("handoff_manifest.completion_audit_requirement_count" in error for error in validate_summary(stale_handoff_manifest_completion)):
         errors.append("stale handoff-manifest completion requirement count was not rejected")
 
+    stale_current_next_queue = handoff_fixture()
+    stale_current_next_queue["current_next_queue"] = {
+        **stale_current_next_queue["current_next_queue"],
+        "fingerprint": "stale",
+    }
+    if not any("current_next_queue.fingerprint" in error for error in validate_summary(stale_current_next_queue)):
+        errors.append("stale current-next-queue fingerprint was not rejected")
+
+    full_clone_current_next_queue = handoff_fixture()
+    full_clone_current_next_queue["clone_audit"] = {
+        "max_score": 0.0,
+        "fail_hits": 0,
+        "reported_pairs": 0,
+    }
+    full_clone_current_next_queue.update(goal_progress_summary(full_clone_current_next_queue))
+    full_clone_current_next_queue.update(completion_audit_summary(full_clone_current_next_queue))
+    full_clone_current_next_queue.update(handoff_manifest_summary(full_clone_current_next_queue))
+    full_clone_current_next_queue.update(current_next_queue_summary(full_clone_current_next_queue))
+    full_clone_fragments = current_next_queue_expected_fragments(full_clone_current_next_queue)
+    skip_clone_fragments = current_next_queue_expected_fragments(handoff_fixture())
+    full_clone_required_fragments = (
+        f"goal-progress status `{full_clone_current_next_queue['goal_progress']['status']}`",
+        f"fingerprint `{full_clone_current_next_queue['goal_progress']['fingerprint']}`",
+        f"completion-audit status `{full_clone_current_next_queue['completion_audit']['completion_status']}`",
+        f"fingerprint `{full_clone_current_next_queue['completion_audit']['fingerprint']}`",
+        f"fingerprint `{full_clone_current_next_queue['handoff_manifest']['fingerprint']}`",
+    )
+    for fragment in full_clone_required_fragments:
+        if fragment not in full_clone_fragments:
+            errors.append(f"full clone Current Next Queue fragments missing {fragment!r}")
+        if fragment in skip_clone_fragments:
+            errors.append(f"skip-clone Current Next Queue fragments unexpectedly required {fragment!r}")
+
+    next_batch_queue = handoff_fixture()
+    next_batch_fragments = current_next_queue_expected_fragments(next_batch_queue)
+    next_batch_required_fragments = (
+        f"`{next_batch_queue['next_batch_plan']['contract']}`",
+        f"next-batch count `{next_batch_queue['next_batch_plan']['count']}`",
+        f"fingerprint `{next_batch_queue['next_batch_plan']['fingerprint']}`",
+    )
+    for fragment in next_batch_required_fragments:
+        if fragment not in next_batch_fragments:
+            errors.append(f"Current Next Queue fragments missing next-batch fragment {fragment!r}")
+    missing_next_batch_count_text = "## Current Next Queue\n" + "\n".join(
+        f"- {fragment}"
+        for fragment in next_batch_fragments
+        if fragment != next_batch_required_fragments[1]
+    )
+    missing_next_batch_count_errors = validate_current_next_queue_text(missing_next_batch_count_text, next_batch_queue)
+    if not any(next_batch_required_fragments[1] in error for error in missing_next_batch_count_errors):
+        errors.append("missing next-batch count fragment was not rejected by Current Next Queue validation")
+
+    command_plan_queue = handoff_fixture()
+    command_plan_fragments = current_next_queue_expected_fragments(command_plan_queue)
+    command_plan_required_fragments = (
+        (
+            f"plan is {command_plan_queue['command_plan']['measurement_count']} measurement commands / "
+            f"{command_plan_queue['command_plan']['validation_count']} validation commands"
+        ),
+        "`python3 tools/quality_scorecard.py --top 15 --min-score 90`",
+        f"fingerprint `{command_plan_queue['command_plan']['fingerprint']}`",
+    )
+    for fragment in command_plan_required_fragments:
+        if fragment not in command_plan_fragments:
+            errors.append(f"Current Next Queue fragments missing command-plan fragment {fragment!r}")
+    missing_quality_floor_command_text = "## Current Next Queue\n" + "\n".join(
+        f"- {fragment}"
+        for fragment in command_plan_fragments
+        if fragment != command_plan_required_fragments[1]
+    )
+    missing_quality_floor_errors = validate_current_next_queue_text(
+        missing_quality_floor_command_text, command_plan_queue
+    )
+    if not any(command_plan_required_fragments[1] in error for error in missing_quality_floor_errors):
+        errors.append("missing quality-floor command fragment was not rejected by Current Next Queue validation")
+
+    stale_skillopt_plan = handoff_fixture()
+    stale_skillopt_plan["skillopt_gate_plan"] = {
+        **stale_skillopt_plan["skillopt_gate_plan"],
+        "fingerprint": "stale",
+    }
+    if not any("skillopt_gate_plan.fingerprint" in error for error in validate_summary(stale_skillopt_plan)):
+        errors.append("stale SkillOpt gate-plan fingerprint was not rejected")
+
+    worklog_args = worklog_live_summary_args(
+        argparse.Namespace(
+            score_target=88.0,
+            limit=5,
+            clone_threshold=0.72,
+            clone_fail_threshold=0.91,
+            clone_top=17,
+        )
+    )
+    if worklog_args.limit != WORKLOG_LIVE_SUMMARY_LIMIT:
+        errors.append("worklog live summary args did not force the canonical monthly display limit")
+    if not worklog_args.skip_clone:
+        errors.append("worklog live summary args did not skip clone audit")
+    if worklog_args.score_target != 88.0:
+        errors.append("worklog live summary args did not preserve score target")
+    if worklog_args.clone_threshold != 0.72 or worklog_args.clone_fail_threshold != 0.91:
+        errors.append("worklog live summary args did not preserve clone thresholds")
+
     stale_content_policy = handoff_fixture()
     stale_content_policy["content_edit_policy"] = {
         **stale_content_policy["content_edit_policy"],
@@ -1483,6 +1972,22 @@ def self_test_errors() -> list[str]:
     }
     if not any("content_edit_policy.fingerprint" in error for error in validate_summary(stale_content_policy)):
         errors.append("stale content-edit policy fingerprint was not rejected")
+
+    stale_bridge_tail = handoff_fixture()
+    stale_bridge_tail["execution_bridge_tail"] = {
+        **stale_bridge_tail["execution_bridge_tail"],
+        "fingerprint": "stale",
+    }
+    if not any("execution_bridge_tail.fingerprint" in error for error in validate_summary(stale_bridge_tail)):
+        errors.append("stale execution-bridge tail fingerprint was not rejected")
+
+    stale_safe_queue = handoff_fixture()
+    stale_safe_queue["safe_content_queue"] = {
+        **stale_safe_queue["safe_content_queue"],
+        "fingerprint": "stale",
+    }
+    if not any("safe_content_queue.fingerprint" in error for error in validate_summary(stale_safe_queue)):
+        errors.append("stale safe content queue fingerprint was not rejected")
 
     stale_remaining_debt = handoff_fixture()
     stale_remaining_debt["remaining_debt"] = {
@@ -1520,9 +2025,12 @@ def self_test_errors() -> list[str]:
     valid_next_batch_plan.update(remaining_debt_summary(valid_next_batch_plan))
     valid_next_batch_plan.update(next_batch_plan_summary(valid_next_batch_plan))
     valid_next_batch_plan.update(publish_policy_summary(valid_next_batch_plan))
+    valid_next_batch_plan.update(skillopt_gate_plan_summary(valid_next_batch_plan))
     valid_next_batch_plan.update(goal_progress_summary(valid_next_batch_plan))
     valid_next_batch_plan.update(completion_audit_summary(valid_next_batch_plan))
     valid_next_batch_plan.update(handoff_manifest_summary(valid_next_batch_plan))
+    valid_next_batch_plan.update(current_next_queue_summary(valid_next_batch_plan))
+    valid_next_batch_plan.update(schema_summary(valid_next_batch_plan))
     next_batch_errors = validate_summary(valid_next_batch_plan)
     if next_batch_errors:
         errors.append(f"valid next-batch plan fixture failed: {next_batch_errors}")
@@ -1543,6 +2051,16 @@ def self_test_errors() -> list[str]:
     }
     if not any("next_batch_plan.fingerprint" in error for error in validate_summary(stale_next_batch_metadata)):
         errors.append("stale next-batch fingerprint was not rejected")
+
+    stale_next_batch_contract = handoff_fixture()
+    stale_next_batch_contract.update(remaining_debt_summary(stale_next_batch_contract))
+    stale_next_batch_contract.update(next_batch_plan_summary(stale_next_batch_contract))
+    stale_next_batch_contract["next_batch_plan"] = {
+        **stale_next_batch_contract["next_batch_plan"],
+        "contract": "stale",
+    }
+    if not any("next_batch_plan.contract" in error for error in validate_summary(stale_next_batch_contract)):
+        errors.append("stale next-batch contract was not rejected")
 
     dirty_score = loop_control_fixture(
         score_candidates=[{"pack": "Dirty-Pack"}],
@@ -1603,14 +2121,17 @@ def self_test_errors() -> list[str]:
         "Worklog: OK; 35 loops; latest ### 2026-06-27 - Fixture Loop",
         "Claims boundary: .maintenance/CLAIMS.md; 1 rows; 1 active; 3 lines; sha256 fixture",
         "Working tree: ## main...origin/main with 1 dirty entries (0 pack lanes, 1 root/tooling entries)",
-        "Dashboard schema: monthly_uplift_report v9; monthly-uplift-dashboard-v9",
+        "Dashboard schema: monthly_uplift_report v19; monthly-uplift-dashboard-v19",
         "Worktree boundary: 1 dirty / 0 pack lanes / 1 root-tooling entries; sha256",
+        "Execution-bridge tail: monitoring; action inspect-claims-and-scorecard; scope review-tail; blocked inspect-claims-before-wiring; 131/134 wired; 3 missing; 0 unclaimed / 0 owner-clearance; sha256",
+        "Safe content queue: ready; action harden-score-floor; 1 unclaimed (score 1 / source 0 / bridge 0); 0 score-ceiling; 0 dirty skipped; sha256",
         "Content-edit policy: content-allowed; content allowed; next content; 1 unclaimed / 0 claim-sensitive; 0 dirty pack lanes; sha256",
         "Remaining debt: unclaimed-candidates; 1 unclaimed / 0 owner-clearance; 0 dirty pack lanes; bridge 3 missing; source max unresolved 14; sha256",
         "Publish policy: local-only-root-tooling; local-only; root 1 paths; packs 0 lanes empty; path-scoped staging required; sha256",
         "Goal progress: active-partial-clone-skipped; core OK; worklog 35 loops; clone skipped; bridge 131/134; next content; sha256",
-        "Completion audit: not-complete; action none; 12 requirements; 10 OK / 0 triaged / 2 review; 3 blockers; sha256",
-        "Handoff manifest: content-candidates -> content; root 1 paths; packs 0 lanes; completion 12 req / 3 blockers; sha256",
+        "Completion audit: not-complete; action none; 13 requirements; 11 OK / 0 triaged / 2 review; 3 blockers; sha256",
+        "Handoff manifest: content-candidates -> content; root 1 paths; packs 0 lanes; completion 13 req / 3 blockers; sha256",
+        "SkillOpt gate plan: monthly-uplift-skillopt-gate-plan-v1; status ready-before-next-skill-edit; 0 dirty skill paths / 0 dirty pack lanes; action take-baseline-before-bounded-skill-edit; sha256",
         f"Command plan: {command_plan_line(handoff_summary)}",
         "Next-batch plan:",
         "## Dirty Boundary",
@@ -1690,15 +2211,18 @@ def self_test_errors() -> list[str]:
     for expected_text in (
         "| Worklog | OK; 35 loops; latest `### 2026-06-27 - Fixture Loop` |",
         "| Claims boundary | .maintenance/CLAIMS.md; 1 rows; 1 active; 3 lines; sha256 fixture |",
-        "| Dashboard schema | monthly_uplift_report v9; monthly-uplift-dashboard-v9 |",
+        "| Dashboard schema | monthly_uplift_report v19; monthly-uplift-dashboard-v19 |",
         "| Worktree boundary | 1 dirty / 0 pack lanes / 1 root-tooling entries; sha256",
+        "| Execution-bridge tail | monitoring; action inspect-claims-and-scorecard; scope review-tail; blocked inspect-claims-before-wiring; 131/134 wired; 3 missing; 0 unclaimed / 0 owner-clearance; sha256",
+        "| Safe content queue | ready; action harden-score-floor; 1 unclaimed (score 1 / source 0 / bridge 0); 0 score-ceiling; 0 dirty skipped; sha256",
         "| Content-edit policy | content-allowed; content allowed; next content; 1 unclaimed / 0 claim-sensitive; 0 dirty pack lanes; sha256",
         "| Remaining debt | unclaimed-candidates; 1 unclaimed / 0 owner-clearance; 0 dirty pack lanes; bridge 3 missing; source max unresolved 14; sha256",
         "| Publish policy | local-only-root-tooling; local-only; root 1 paths; packs 0 lanes empty; path-scoped staging required; sha256",
         "| Goal progress | active-partial-clone-skipped; core OK; worklog 35 loops; clone skipped; bridge 131/134; next content; sha256",
-        "| Completion audit | not-complete; action none; 12 requirements; 10 OK / 0 triaged / 2 review; 3 blockers; sha256",
-        "| Handoff manifest | content-candidates -> content; root 1 paths; packs 0 lanes; completion 12 req / 3 blockers; sha256",
-        "| Command plan | 6 measurement / 10 validation; sha256",
+        "| Completion audit | not-complete; action none; 13 requirements; 11 OK / 0 triaged / 2 review; 3 blockers; sha256",
+        "| Handoff manifest | content-candidates -> content; root 1 paths; packs 0 lanes; completion 13 req / 3 blockers; sha256",
+        "| SkillOpt gate plan | monthly-uplift-skillopt-gate-plan-v1; status ready-before-next-skill-edit; 0 dirty skill paths / 0 dirty pack lanes; action take-baseline-before-bounded-skill-edit; sha256",
+        "| Command plan | 6 measurement / 11 validation; sha256",
         "| Next-batch plan |",
         "| Worklog health | OK | OK; 35 loops; latest ### 2026-06-27 - Fixture Loop |",
         "| Claims boundary | OK | .maintenance/CLAIMS.md; 1 rows; 1 active; 3 lines; sha256 fixture |",
@@ -1744,6 +2268,7 @@ def self_test_errors() -> list[str]:
     for expected_text in (
         "# Remaining Debt Audit",
         "Status: `unclaimed-candidates`",
+        "Execution-bridge tail: monitoring; action inspect-claims-and-scorecard; scope review-tail; blocked inspect-claims-before-wiring; 131/134 wired; 3 missing; 0 unclaimed / 0 owner-clearance; sha256",
         "Content-edit policy: content-allowed; content allowed; next content; 1 unclaimed / 0 claim-sensitive; 0 dirty pack lanes; sha256",
         "Remaining debt: unclaimed-candidates; 1 unclaimed / 0 owner-clearance; 0 dirty pack lanes; bridge 3 missing; source max unresolved 14; sha256",
         "Owner-clearance queue: 0 targets; sha256",
@@ -1761,7 +2286,8 @@ def self_test_errors() -> list[str]:
         "# Goal Completion Audit",
         "Completion status: `not-complete`",
         "Goal status action: none",
-        "Completion audit: not-complete; action none; 12 requirements; 10 OK / 0 triaged / 2 review; 3 blockers; sha256",
+        "Completion audit: not-complete; action none; 13 requirements; 11 OK / 0 triaged / 2 review; 3 blockers; sha256",
+        "Execution-bridge tail: monitoring; action inspect-claims-and-scorecard; scope review-tail; blocked inspect-claims-before-wiring; 131/134 wired; 3 missing; 0 unclaimed / 0 owner-clearance; sha256",
         "Goal progress: active-partial-clone-skipped; core OK; worklog 35 loops; clone skipped; bridge 131/134; next content; sha256",
         "| Durable worklog | OK | 35 loops; latest ### 2026-06-27 - Fixture Loop |",
         "| Remaining debt register | Review | 1 unclaimed; 0 owner-clearance; 0 dirty pack lanes; debt sha256",
@@ -1780,13 +2306,18 @@ def self_test_errors() -> list[str]:
         "dirty_skipped_packs": [{"pack": f"Dirty-Pack-{index}"} for index in range(10)],
     }
     dirty_handoff["loop_control"] = {**expected_loop_control(dirty_handoff), "reason": "fixture"}
+    dirty_handoff.update(execution_bridge_tail_summary(dirty_handoff))
+    dirty_handoff.update(safe_content_queue_summary(dirty_handoff))
     dirty_handoff.update(content_edit_policy_summary(dirty_handoff))
     dirty_handoff.update(remaining_debt_summary(dirty_handoff))
     dirty_handoff.update(next_batch_plan_summary(dirty_handoff))
     dirty_handoff.update(publish_policy_summary(dirty_handoff))
+    dirty_handoff.update(skillopt_gate_plan_summary(dirty_handoff))
     dirty_handoff.update(goal_progress_summary(dirty_handoff))
     dirty_handoff.update(completion_audit_summary(dirty_handoff))
     dirty_handoff.update(handoff_manifest_summary(dirty_handoff))
+    dirty_handoff.update(current_next_queue_summary(dirty_handoff))
+    dirty_handoff.update(schema_summary(dirty_handoff))
     rendered_dirty_handoff = handoff(dirty_handoff)
     if "Dirty-Pack-7; +2 more" not in rendered_dirty_handoff:
         errors.append("handoff dirty-skipped truncation did not include remaining count")
@@ -1835,13 +2366,18 @@ def self_test_errors() -> list[str]:
     }
     current.update(worktree_boundary_summary(current["git"]))
     current["publish_units"] = publish_units_from_git(current["git"])
+    current.update(execution_bridge_tail_summary(current))
+    current.update(safe_content_queue_summary(current))
     current.update(content_edit_policy_summary(current))
     current.update(remaining_debt_summary(current))
     current.update(next_batch_plan_summary(current))
     current.update(publish_policy_summary(current))
+    current.update(skillopt_gate_plan_summary(current))
     current.update(goal_progress_summary(current))
     current.update(completion_audit_summary(current))
     current.update(handoff_manifest_summary(current))
+    current.update(current_next_queue_summary(current))
+    current.update(schema_summary(current))
     current["delta"] = compare_delta(baseline, current)
     rendered_delta = handoff(current)
     for expected_text in (
@@ -1854,7 +2390,7 @@ def self_test_errors() -> list[str]:
         "Git dirty pack lanes: 0 -> 1 (+1)",
         "Git dirty root/tooling entries: 1 -> 2 (+1)",
         "Command plan measurement commands: 6 -> 6 (0)",
-        "Command plan validation commands: 10 -> 10 (0)",
+        "Command plan validation commands: 11 -> 11 (0)",
         "Dirty pack lanes: Dirty-Pack-Skills",
         "Root/tooling dirty entries: `M tools/monthly_uplift_report.py`; `?? .maintenance/MONTHLY-UPLIFT-2026-06-27.md`",
         "Root/tooling paths: `tools/monthly_uplift_report.py`; `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`",
@@ -1886,16 +2422,22 @@ def self_test_errors() -> list[str]:
     }
     clearance["loop_control"] = {**expected_loop_control(clearance), "reason": "fixture"}
     clearance["owner_clearance_queue"] = owner_clearance_queue(clearance)
+    clearance.update(execution_bridge_tail_summary(clearance))
+    clearance.update(safe_content_queue_summary(clearance))
     clearance.update(content_edit_policy_summary(clearance))
     clearance.update(remaining_debt_summary(clearance))
     clearance.update(next_batch_plan_summary(clearance))
     clearance.update(publish_policy_summary(clearance))
+    clearance.update(skillopt_gate_plan_summary(clearance))
     clearance.update(goal_progress_summary(clearance))
     clearance.update(completion_audit_summary(clearance))
     clearance.update(handoff_manifest_summary(clearance))
+    clearance.update(current_next_queue_summary(clearance))
+    clearance.update(schema_summary(clearance))
     rendered_clearance = handoff(clearance)
     for expected_text in (
         "## Owner Clearance Queue",
+        "Execution-bridge tail: owner-clearance-required; action request-owner-clearance; scope owner-clearance-only; blocked request-owner-clearance-before-wiring; 131/134 wired; 3 missing; 0 unclaimed / 1 owner-clearance; sha256",
         "Score-floor targets: Claimed-Pack (Agent A queued)",
         "Execution-bridge targets: Claimed-Pack (Agent A queued)",
         "Execution-bridge candidates: none unclaimed; owner clearance required for Claimed-Pack (Agent A queued)",
@@ -1905,6 +2447,83 @@ def self_test_errors() -> list[str]:
     rendered_clearance_markdown = markdown(clearance)
     if "get owner clearance before wiring: Claimed-Pack (Agent A queued)." not in rendered_clearance_markdown:
         errors.append("owner-clearance markdown output missing bridge clearance reason")
+    rendered_clearance_goal_audit = goal_audit(clearance)
+    if "| Execution bridge and debt | Triaged | 131/134 wired; 1 bridge gap is owner-clearance gated |" not in rendered_clearance_goal_audit:
+        errors.append("owner-clearance goal audit did not triage the bridge tail")
+    if "Execution bridge still has 1 owner-clearance-gated gap." not in rendered_clearance_goal_audit:
+        errors.append("owner-clearance goal audit missing bridge-tail blocker")
+
+    mixed_bridge = handoff_fixture()
+    mixed_bridge["candidate_pool"] = {
+        **mixed_bridge.get("candidate_pool", {}),
+        "score_unclaimed": [],
+        "source_map_unclaimed": [],
+        "execution_bridge_unclaimed": [
+            {
+                "pack": "Open-Pack",
+                "score": 91.0,
+                "current_bridge_links": 0,
+                "weakest_skill": "Open-Pack/skills/fixture/SKILL.md",
+            }
+        ],
+        "dirty_skipped_packs": [],
+    }
+    mixed_bridge["claims"] = {
+        **mixed_bridge["claims"],
+        "sensitive_packs": {"Claimed-Pack": "Agent A queued"},
+        "sensitive_current_targets": [
+            {"kind": "execution-bridge", "pack": "Claimed-Pack", "reason": "Agent A queued"},
+        ],
+    }
+    mixed_bridge["execution_bridge"] = {
+        **mixed_bridge["execution_bridge"],
+        "wired": 132,
+        "missing": 2,
+        "missing_packs": [
+            {"pack": "Open-Pack", "score": 91.0, "exec_bridge_skills": 0},
+            {"pack": "Claimed-Pack", "score": 92.0, "exec_bridge_skills": 0},
+        ],
+    }
+    mixed_bridge["loop_control"] = {**expected_loop_control(mixed_bridge), "reason": "fixture"}
+    mixed_bridge["owner_clearance_queue"] = owner_clearance_queue(mixed_bridge)
+    mixed_bridge.update(execution_bridge_tail_summary(mixed_bridge))
+    mixed_bridge.update(safe_content_queue_summary(mixed_bridge))
+    mixed_bridge.update(content_edit_policy_summary(mixed_bridge))
+    mixed_bridge.update(remaining_debt_summary(mixed_bridge))
+    mixed_bridge.update(next_batch_plan_summary(mixed_bridge))
+    mixed_bridge.update(publish_policy_summary(mixed_bridge))
+    mixed_bridge.update(skillopt_gate_plan_summary(mixed_bridge))
+    mixed_bridge.update(goal_progress_summary(mixed_bridge))
+    mixed_bridge.update(completion_audit_summary(mixed_bridge))
+    mixed_bridge.update(handoff_manifest_summary(mixed_bridge))
+    mixed_bridge.update(current_next_queue_summary(mixed_bridge))
+    mixed_bridge.update(schema_summary(mixed_bridge))
+    mixed_errors = validate_summary(mixed_bridge)
+    if mixed_errors:
+        errors.append(f"mixed execution-bridge tail fixture failed validation: {mixed_errors}")
+    mixed_tail = mixed_bridge["execution_bridge_tail"]
+    if mixed_tail.get("recommendation_scope") != "unclaimed-only":
+        errors.append("mixed execution-bridge tail did not scope recommendation to unclaimed-only")
+    if mixed_tail.get("blocked_recommendation") != "leave-owner-clearance-rows-blocked":
+        errors.append("mixed execution-bridge tail did not preserve owner-clearance blocking")
+    if mixed_tail.get("owner_clearance_required"):
+        errors.append("mixed execution-bridge tail should allow unclaimed work while flagging blocked rows")
+    if not mixed_bridge["content_edit_policy"].get("execution_bridge_owner_clearance_required"):
+        errors.append("mixed content-edit policy did not retain bridge owner-clearance status")
+    rendered_mixed_handoff = handoff(mixed_bridge)
+    for expected_text in (
+        "Execution-bridge tail: unclaimed-candidates; action wire-unclaimed; scope unclaimed-only; blocked leave-owner-clearance-rows-blocked; 132/134 wired; 2 missing; 1 unclaimed / 1 owner-clearance; sha256",
+        "Content-edit policy: content-allowed; content allowed; next content; 1 unclaimed / 1 claim-sensitive; 0 dirty pack lanes; bridge owner-clearance; sha256",
+        "Execution-bridge targets: Claimed-Pack (Agent A queued)",
+        "Execution-bridge candidates: Open-Pack",
+    ):
+        if expected_text not in rendered_mixed_handoff:
+            errors.append(f"mixed bridge handoff output missing {expected_text!r}")
+    rendered_mixed_goal_audit = goal_audit(mixed_bridge)
+    if "| Execution bridge and debt | Triaged | 132/134 wired; 1 bridge gap is owner-clearance gated; 1 bridge gap remains actionable |" not in rendered_mixed_goal_audit:
+        errors.append("mixed bridge goal audit did not separate blocked and actionable gaps")
+    if "Execution bridge still has 1 owner-clearance-gated gap and 1 unclaimed gap." not in rendered_mixed_goal_audit:
+        errors.append("mixed bridge goal audit missing split bridge-tail blocker")
 
     stale_clearance_fingerprint = json.loads(json.dumps(clearance))
     stale_clearance_fingerprint["owner_clearance_queue"] = {
@@ -1929,13 +2548,18 @@ def self_test_errors() -> list[str]:
     }
     clearance_overflow["loop_control"] = {**expected_loop_control(clearance_overflow), "reason": "fixture"}
     clearance_overflow["owner_clearance_queue"] = owner_clearance_queue(clearance_overflow)
+    clearance_overflow.update(execution_bridge_tail_summary(clearance_overflow))
+    clearance_overflow.update(safe_content_queue_summary(clearance_overflow))
     clearance_overflow.update(content_edit_policy_summary(clearance_overflow))
     clearance_overflow.update(remaining_debt_summary(clearance_overflow))
     clearance_overflow.update(next_batch_plan_summary(clearance_overflow))
     clearance_overflow.update(publish_policy_summary(clearance_overflow))
+    clearance_overflow.update(skillopt_gate_plan_summary(clearance_overflow))
     clearance_overflow.update(goal_progress_summary(clearance_overflow))
     clearance_overflow.update(completion_audit_summary(clearance_overflow))
     clearance_overflow.update(handoff_manifest_summary(clearance_overflow))
+    clearance_overflow.update(current_next_queue_summary(clearance_overflow))
+    clearance_overflow.update(schema_summary(clearance_overflow))
     rendered_overflow_handoff = handoff(clearance_overflow)
     rendered_overflow_markdown = markdown(clearance_overflow)
     rendered_overflow_worklog = worklog_template(clearance_overflow)
@@ -1985,11 +2609,12 @@ def self_test_errors() -> list[str]:
         "python3 tools/audit_repo.py --counts",
         "python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20",
         "Worktree boundary: 1 dirty / 0 pack lanes / 1 root-tooling entries; sha256",
-        "Content-edit policy: content-allowed; content allowed; next content; 1 unclaimed / 2 claim-sensitive; 0 dirty pack lanes; sha256",
+        "Execution-bridge tail: owner-clearance-required; action request-owner-clearance; scope owner-clearance-only; blocked request-owner-clearance-before-wiring; 131/134 wired; 3 missing; 0 unclaimed / 1 owner-clearance; sha256",
+        "Content-edit policy: content-allowed; content allowed; next content; 1 unclaimed / 2 claim-sensitive; 0 dirty pack lanes; bridge owner-clearance; sha256",
         "Remaining debt: unclaimed-candidates; 1 unclaimed / 2 owner-clearance; 0 dirty pack lanes; bridge 3 missing; source max unresolved 14; sha256",
         "Goal progress: active-partial-clone-skipped; core OK; worklog 35 loops; clone skipped; bridge 131/134; next content; sha256",
-        "Handoff manifest: content-candidates -> content; root 1 paths; packs 0 lanes; completion 12 req / 3 blockers; sha256",
-        "Command plan: 6 measurement / 10 validation; sha256",
+        "Handoff manifest: content-candidates -> content; root 1 paths; packs 0 lanes; completion 13 req / 3 blockers; sha256",
+        "Command plan: 6 measurement / 11 validation; sha256",
         "Next-batch plan:",
         "Execution-bridge owner-clearance tail: Claimed-Pack (Agent A queued).",
     ):
@@ -2370,13 +2995,18 @@ def build_summary(args: argparse.Namespace) -> dict[str, Any]:
         },
     }
     summary["owner_clearance_queue"] = owner_clearance_queue(summary)
+    summary.update(execution_bridge_tail_summary(summary))
+    summary.update(safe_content_queue_summary(summary))
     summary.update(content_edit_policy_summary(summary))
     summary.update(remaining_debt_summary(summary))
     summary.update(next_batch_plan_summary(summary))
     summary.update(publish_policy_summary(summary))
+    summary.update(skillopt_gate_plan_summary(summary))
     summary.update(goal_progress_summary(summary))
     summary.update(completion_audit_summary(summary))
     summary.update(handoff_manifest_summary(summary))
+    summary.update(current_next_queue_summary(summary))
+    summary.update(schema_summary(summary))
     if args.compare_json:
         summary["delta"] = compare_delta(load_compare_json(args.compare_json), summary)
     return summary
@@ -2643,6 +3273,10 @@ def unclaimed_score_rows(summary: dict[str, Any]) -> list[dict[str, Any]]:
     return list(summary.get("candidate_pool", {}).get("score_unclaimed", []))
 
 
+def score_ceiling_rows(summary: dict[str, Any]) -> list[dict[str, Any]]:
+    return list(summary.get("candidate_pool", {}).get("score_ceiling", []))
+
+
 def unclaimed_source_rows(summary: dict[str, Any]) -> list[dict[str, Any]]:
     return list(summary.get("candidate_pool", {}).get("source_map_unclaimed", []))
 
@@ -2664,6 +3298,259 @@ def execution_bridge_clearance_rows(summary: dict[str, Any]) -> list[dict[str, s
         seen.add(pack)
         rows.append({"pack": pack, "reason": reason})
     return rows
+
+
+EXECUTION_BRIDGE_TAIL_CONTRACT = "monthly-uplift-execution-bridge-tail-v2"
+
+
+def execution_bridge_tail_summary(summary: dict[str, Any]) -> dict[str, Any]:
+    execution_bridge = summary.get("execution_bridge", {}) if isinstance(summary.get("execution_bridge"), dict) else {}
+    loop_control = summary.get("loop_control", {}) if isinstance(summary.get("loop_control"), dict) else {}
+    missing_rows = execution_bridge.get("missing_packs", [])
+    if not isinstance(missing_rows, list):
+        missing_rows = []
+    unclaimed_rows = unclaimed_bridge_rows(summary)
+    clearance_rows = execution_bridge_clearance_rows(summary)
+    missing_total = int(execution_bridge.get("missing", len(missing_rows)))
+    unclaimed_count = int(loop_control.get("unclaimed_execution_bridge_candidates", len(unclaimed_rows)))
+    owner_clearance_count = len(clearance_rows)
+
+    if missing_total == 0:
+        status = "complete"
+        recommended_action = "none"
+        recommendation_scope = "complete"
+        blocked_recommendation = "none"
+        reason = "execution-bridge wiring is complete for all empirical depth packs"
+    elif unclaimed_count > 0:
+        status = "unclaimed-candidates"
+        recommended_action = "wire-unclaimed"
+        recommendation_scope = "unclaimed-only"
+        blocked_recommendation = (
+            "leave-owner-clearance-rows-blocked" if owner_clearance_count else "none"
+        )
+        if owner_clearance_count:
+            reason = (
+                "wire only unclaimed execution-bridge rows; remaining bridge gaps need owner clearance"
+            )
+        else:
+            reason = "unclaimed execution-bridge candidates are safe after claim and dirty-pack filtering"
+    elif owner_clearance_count > 0:
+        status = "owner-clearance-required"
+        recommended_action = "request-owner-clearance"
+        recommendation_scope = "owner-clearance-only"
+        blocked_recommendation = "request-owner-clearance-before-wiring"
+        reason = "remaining execution-bridge gaps are claim-sensitive"
+    else:
+        status = "monitoring"
+        recommended_action = "inspect-claims-and-scorecard"
+        recommendation_scope = "review-tail"
+        blocked_recommendation = "inspect-claims-before-wiring"
+        reason = "execution-bridge gaps remain but no actionable unclaimed or owner-clearance rows are visible"
+
+    tail: dict[str, Any] = {
+        "contract": EXECUTION_BRIDGE_TAIL_CONTRACT,
+        "status": status,
+        "recommended_action": recommended_action,
+        "recommendation_scope": recommendation_scope,
+        "blocked_recommendation": blocked_recommendation,
+        "wired": int(execution_bridge.get("wired", 0)),
+        "total": int(execution_bridge.get("empirical_depth_packs", 0)),
+        "missing": missing_total,
+        "unclaimed_count": unclaimed_count,
+        "owner_clearance_count": owner_clearance_count,
+        "owner_clearance_present": bool(owner_clearance_count),
+        "owner_clearance_required": bool(owner_clearance_count and not unclaimed_count),
+        "safe_to_wire_count": unclaimed_count,
+        "blocked_owner_clearance_count": owner_clearance_count,
+        "unclaimed": [
+            {
+                "pack": str(row.get("pack", "")),
+                "score": float(row.get("score", 0.0)),
+                "current_bridge_links": int(row.get("current_bridge_links", row.get("exec_bridge_skills", 0))),
+            }
+            for row in unclaimed_rows
+            if isinstance(row, dict)
+        ],
+        "owner_clearance": clearance_rows,
+        "reason": reason,
+    }
+    tail["fingerprint"] = hashlib.sha256(
+        json.dumps(tail, ensure_ascii=False, sort_keys=True).encode("utf-8")
+    ).hexdigest()[:12]
+    return {"execution_bridge_tail": tail}
+
+
+def execution_bridge_tail_line(summary: dict[str, Any]) -> str:
+    tail = summary.get("execution_bridge_tail")
+    if not isinstance(tail, dict):
+        tail = execution_bridge_tail_summary(summary)["execution_bridge_tail"]
+    fingerprint = str(tail.get("fingerprint", ""))
+    suffix = f"; sha256 {fingerprint}" if fingerprint else ""
+    blocked = str(tail.get("blocked_recommendation", "none"))
+    blocked_part = f"; blocked {blocked}" if blocked and blocked != "none" else ""
+    return (
+        f"{tail.get('status', 'unknown')}; action {tail.get('recommended_action', 'unknown')}; "
+        f"scope {tail.get('recommendation_scope', 'unknown')}{blocked_part}; "
+        f"{int(tail.get('wired', 0))}/{int(tail.get('total', 0))} wired; "
+        f"{int(tail.get('missing', 0))} missing; "
+        f"{int(tail.get('unclaimed_count', 0))} unclaimed / "
+        f"{int(tail.get('owner_clearance_count', 0))} owner-clearance{suffix}"
+    )
+
+
+def validate_execution_bridge_tail(summary: dict[str, Any]) -> list[str]:
+    if "generated_at" not in summary and "execution_bridge_tail" not in summary:
+        return []
+    expected = execution_bridge_tail_summary(summary)["execution_bridge_tail"]
+    tail = summary.get("execution_bridge_tail")
+    if not isinstance(tail, dict):
+        return ["execution_bridge_tail missing or not an object"]
+    errors: list[str] = []
+    for key, expected_value in expected.items():
+        if tail.get(key) != expected_value:
+            errors.append(f"execution_bridge_tail.{key} expected {expected_value!r}, observed {tail.get(key)!r}")
+    return errors
+
+
+SAFE_CONTENT_QUEUE_CONTRACT = "monthly-uplift-safe-content-queue-v2"
+
+
+def safe_content_queue_summary(summary: dict[str, Any]) -> dict[str, Any]:
+    score_rows = unclaimed_score_rows(summary)
+    ceiling_rows = score_ceiling_rows(summary)
+    source_rows = unclaimed_source_rows(summary)
+    bridge_rows = unclaimed_bridge_rows(summary)
+    candidate_pool_data = summary.get("candidate_pool", {}) if isinstance(summary.get("candidate_pool"), dict) else {}
+    dirty_rows = candidate_pool_data.get("dirty_skipped_packs", [])
+    if not isinstance(dirty_rows, list):
+        dirty_rows = []
+    clearance_queue = owner_clearance_queue_data(summary)
+    score_count = len(score_rows)
+    ceiling_count = len(ceiling_rows)
+    source_count = len(source_rows)
+    bridge_count = len(bridge_rows)
+    unclaimed_total = score_count + source_count + bridge_count
+    dirty_skipped_count = len(dirty_rows)
+    owner_clearance_total = int(clearance_queue.get("total", 0))
+
+    if score_count:
+        status = "ready"
+        recommended_action = "harden-score-floor"
+        reason = "unclaimed score candidates are available after claim and dirty-pack filtering"
+    elif source_count:
+        status = "ready"
+        recommended_action = "repair-source-map"
+        reason = "unclaimed source-map candidates are available after claim and dirty-pack filtering"
+    elif bridge_count:
+        status = "ready"
+        recommended_action = "wire-execution-bridge"
+        reason = "unclaimed execution-bridge candidates are available after claim and dirty-pack filtering"
+    elif dirty_skipped_count:
+        status = "dirty-in-progress"
+        recommended_action = "finish-dirty-pack-lanes"
+        reason = "candidate packs are already dirty in the shared worktree"
+    elif owner_clearance_total:
+        status = "owner-clearance-required"
+        recommended_action = "request-owner-clearance"
+        reason = "visible content debt is claim-sensitive"
+    else:
+        status = "monitoring"
+        recommended_action = "monitor"
+        reason = "no unclaimed content candidates are visible in the current target window"
+
+    score_targets = [
+        {
+            "pack": str(row.get("pack", "")),
+            "score": float(row.get("score", 0.0)),
+            "weakest_skill": str(row.get("weakest_skill", "")),
+        }
+        for row in score_rows
+        if isinstance(row, dict)
+    ]
+    source_targets = [
+        {
+            "pack": pack_from_path(str(row.get("path", ""))),
+            "path": str(row.get("path", "")),
+            "unresolved_flags": int(row.get("unresolved_flags", 0)),
+        }
+        for row in source_rows
+        if isinstance(row, dict)
+    ]
+    bridge_targets = [
+        {
+            "pack": str(row.get("pack", "")),
+            "score": float(row.get("score", 0.0)),
+            "current_bridge_links": int(row.get("current_bridge_links", row.get("exec_bridge_skills", 0))),
+            "weakest_skill": str(row.get("weakest_skill", "")),
+        }
+        for row in bridge_rows
+        if isinstance(row, dict)
+    ]
+    queue: dict[str, Any] = {
+        "contract": SAFE_CONTENT_QUEUE_CONTRACT,
+        "status": status,
+        "recommended_action": recommended_action,
+        "unclaimed_total": unclaimed_total,
+        "score_count": score_count,
+        "source_map_count": source_count,
+        "execution_bridge_count": bridge_count,
+        "score_ceiling_count": ceiling_count,
+        "dirty_skipped_count": dirty_skipped_count,
+        "owner_clearance_total": owner_clearance_total,
+        "score_targets": score_targets,
+        "score_ceiling": [
+            {
+                "pack": str(row.get("pack", "")),
+                "score": float(row.get("score", 0.0)),
+                "weakest_skill": str(row.get("weakest_skill", "")),
+                "reason": str(row.get("reason", "")),
+            }
+            for row in ceiling_rows
+            if isinstance(row, dict)
+        ],
+        "source_map_targets": source_targets,
+        "execution_bridge_targets": bridge_targets,
+        "dirty_skipped": [
+            {"pack": str(row.get("pack", ""))}
+            for row in dirty_rows
+            if isinstance(row, dict)
+        ],
+        "reason": reason,
+    }
+    queue["fingerprint"] = hashlib.sha256(
+        json.dumps(queue, ensure_ascii=False, sort_keys=True).encode("utf-8")
+    ).hexdigest()[:12]
+    return {"safe_content_queue": queue}
+
+
+def safe_content_queue_line(summary: dict[str, Any]) -> str:
+    queue = summary.get("safe_content_queue")
+    if not isinstance(queue, dict):
+        queue = safe_content_queue_summary(summary)["safe_content_queue"]
+    fingerprint = str(queue.get("fingerprint", ""))
+    suffix = f"; sha256 {fingerprint}" if fingerprint else ""
+    return (
+        f"{queue.get('status', 'unknown')}; action {queue.get('recommended_action', 'unknown')}; "
+        f"{int(queue.get('unclaimed_total', 0))} unclaimed "
+        f"(score {int(queue.get('score_count', 0))} / source {int(queue.get('source_map_count', 0))} / "
+        f"bridge {int(queue.get('execution_bridge_count', 0))}); "
+        f"{int(queue.get('score_ceiling_count', 0))} score-ceiling; "
+        f"{int(queue.get('dirty_skipped_count', 0))} dirty skipped{suffix}"
+    )
+
+
+def validate_safe_content_queue(summary: dict[str, Any]) -> list[str]:
+    if "generated_at" not in summary and "safe_content_queue" not in summary:
+        return []
+    expected = safe_content_queue_summary(summary)["safe_content_queue"]
+    queue = summary.get("safe_content_queue")
+    if not isinstance(queue, dict):
+        return ["safe_content_queue missing or not an object"]
+    errors: list[str] = []
+    for key, expected_value in expected.items():
+        if queue.get(key) != expected_value:
+            errors.append(f"safe_content_queue.{key} expected {expected_value!r}, observed {queue.get(key)!r}")
+    return errors
 
 
 def claim_sensitive_groups(summary: dict[str, Any], limit: int = 5) -> dict[str, list[dict[str, str]]]:
@@ -2863,6 +3750,7 @@ def next_batch_plan_summary(summary: dict[str, Any]) -> dict[str, Any]:
     return {
         "next_batches": batches,
         "next_batch_plan": {
+            "contract": NEXT_BATCH_PLAN_CONTRACT,
             "count": len(batches),
             "fingerprint": list_fingerprint(batches),
         },
@@ -2910,12 +3798,13 @@ def validate_next_batch_plan(summary: dict[str, Any]) -> list[str]:
     return errors
 
 
-CONTENT_EDIT_POLICY_CONTRACT = "content-edit-policy-v1"
+CONTENT_EDIT_POLICY_CONTRACT = "content-edit-policy-v2"
 
 
 def content_edit_policy_summary(summary: dict[str, Any]) -> dict[str, Any]:
     loop_control = summary.get("loop_control", {}) if isinstance(summary.get("loop_control"), dict) else {}
     execution_bridge = summary.get("execution_bridge", {}) if isinstance(summary.get("execution_bridge"), dict) else {}
+    bridge_tail = summary.get("execution_bridge_tail", {}) if isinstance(summary.get("execution_bridge_tail"), dict) else {}
     boundary = summary.get("worktree_boundary", {}) if isinstance(summary.get("worktree_boundary"), dict) else {}
     status = str(loop_control.get("status", ""))
     next_lane = str(loop_control.get("next_lane", ""))
@@ -2940,11 +3829,16 @@ def content_edit_policy_summary(summary: dict[str, Any]) -> dict[str, Any]:
     owner_clearance_required = status == "owner-clearance-needed" or (
         claim_sensitive_count > 0 and unclaimed_count == 0
     )
-    execution_bridge_owner_clearance_required = (
-        int(execution_bridge.get("missing", 0)) > 0
-        and int(loop_control.get("claim_sensitive_execution_bridge_targets", 0)) > 0
-        and int(loop_control.get("unclaimed_execution_bridge_candidates", 0)) == 0
-    )
+    if bridge_tail:
+        execution_bridge_owner_clearance_required = bool(
+            bridge_tail.get("owner_clearance_present", bridge_tail.get("owner_clearance_required", False))
+        )
+    else:
+        execution_bridge_owner_clearance_required = (
+            int(execution_bridge.get("missing", 0)) > 0
+            and int(loop_control.get("claim_sensitive_execution_bridge_targets", 0)) > 0
+            and int(loop_control.get("unclaimed_execution_bridge_candidates", 0)) == 0
+        )
     tooling_only_recommended = not content_edits_allowed and next_lane in {"tooling", "tooling-or-owner-clearance"}
     if content_edits_allowed:
         policy_status = "content-allowed"
@@ -2982,11 +3876,12 @@ def content_edit_policy_line(summary: dict[str, Any]) -> str:
     fingerprint = str(policy.get("fingerprint", ""))
     suffix = f"; sha256 {fingerprint}" if fingerprint else ""
     gate = "content allowed" if policy.get("content_edits_allowed") else "content blocked"
+    bridge_gate = "; bridge owner-clearance" if policy.get("execution_bridge_owner_clearance_required") else ""
     return (
         f"{policy.get('status', 'unknown')}; {gate}; next {policy.get('next_lane', 'unknown')}; "
         f"{int(policy.get('unclaimed_candidate_count', 0))} unclaimed / "
         f"{int(policy.get('claim_sensitive_target_count', 0))} claim-sensitive; "
-        f"{int(policy.get('dirty_pack_lane_count', 0))} dirty pack lanes{suffix}"
+        f"{int(policy.get('dirty_pack_lane_count', 0))} dirty pack lanes{bridge_gate}{suffix}"
     )
 
 
@@ -3198,7 +4093,7 @@ def validate_publish_policy(summary: dict[str, Any]) -> list[str]:
     return errors
 
 
-GOAL_PROGRESS_CONTRACT = "monthly-uplift-goal-progress-v1"
+GOAL_PROGRESS_CONTRACT = "monthly-uplift-goal-progress-v3"
 
 
 def goal_progress_summary(summary: dict[str, Any]) -> dict[str, Any]:
@@ -3207,12 +4102,17 @@ def goal_progress_summary(summary: dict[str, Any]) -> dict[str, Any]:
     source_maps = summary.get("source_maps", {}) if isinstance(summary.get("source_maps"), dict) else {}
     root_entries = summary.get("root_entries", {}) if isinstance(summary.get("root_entries"), dict) else {}
     execution_bridge = summary.get("execution_bridge", {}) if isinstance(summary.get("execution_bridge"), dict) else {}
+    bridge_tail = summary.get("execution_bridge_tail", {}) if isinstance(summary.get("execution_bridge_tail"), dict) else {}
     clone = summary.get("clone_audit")
     worklog = summary.get("worklog", {}) if isinstance(summary.get("worklog"), dict) else {}
     loop_control = summary.get("loop_control", {}) if isinstance(summary.get("loop_control"), dict) else {}
     command_plan = summary.get("command_plan", {}) if isinstance(summary.get("command_plan"), dict) else {}
     next_batch_plan = summary.get("next_batch_plan", {}) if isinstance(summary.get("next_batch_plan"), dict) else {}
     content_policy = summary.get("content_edit_policy", {}) if isinstance(summary.get("content_edit_policy"), dict) else {}
+    safe_queue = summary.get("safe_content_queue", {}) if isinstance(summary.get("safe_content_queue"), dict) else {}
+    skillopt_plan = summary.get("skillopt_gate_plan")
+    if not isinstance(skillopt_plan, dict):
+        skillopt_plan = skillopt_gate_plan_summary(summary)["skillopt_gate_plan"]
     clearance_queue = owner_clearance_queue_data(summary)
     remaining_debt = summary.get("remaining_debt", {}) if isinstance(summary.get("remaining_debt"), dict) else {}
     publish_policy = summary.get("publish_policy", {}) if isinstance(summary.get("publish_policy"), dict) else {}
@@ -3235,6 +4135,15 @@ def goal_progress_summary(summary: dict[str, Any]) -> dict[str, Any]:
         clone_status = "skipped"
     worklog_ok = str(worklog.get("status", "")) == "OK"
     owner_clearance_required = bool(content_policy.get("owner_clearance_required", False))
+    execution_bridge_owner_clearance_required = bool(
+        bridge_tail.get(
+            "owner_clearance_present",
+            bridge_tail.get(
+                "owner_clearance_required",
+                content_policy.get("execution_bridge_owner_clearance_required", False),
+            ),
+        )
+    )
     local_only_recommended = bool(publish_policy.get("local_only_recommended", False))
     core_invariants_ok = score_floor_ok and source_maps_ok and root_cards_ok
     future_candidates_recorded = int(next_batch_plan.get("count", 0)) > 0
@@ -3278,13 +4187,27 @@ def goal_progress_summary(summary: dict[str, Any]) -> dict[str, Any]:
         "execution_bridge_wired": int(execution_bridge.get("wired", 0)),
         "execution_bridge_total": int(execution_bridge.get("empirical_depth_packs", 0)),
         "execution_bridge_missing": int(execution_bridge.get("missing", 0)),
+        "execution_bridge_tail_status": str(bridge_tail.get("status", "")),
+        "execution_bridge_tail_fingerprint": str(bridge_tail.get("fingerprint", "")),
         "command_plan_measurement_count": int(command_plan.get("measurement_count", 0)),
         "command_plan_validation_count": int(command_plan.get("validation_count", 0)),
         "next_batch_count": int(next_batch_plan.get("count", 0)),
+        "safe_content_queue_status": str(safe_queue.get("status", "")),
+        "safe_content_queue_fingerprint": str(safe_queue.get("fingerprint", "")),
+        "safe_content_queue_unclaimed_total": int(safe_queue.get("unclaimed_total", 0)),
+        "skillopt_gate_plan_status": str(skillopt_plan.get("status", "")),
+        "skillopt_gate_plan_fingerprint": str(skillopt_plan.get("fingerprint", "")),
+        "skillopt_gate_dirty_skill_path_count": int(skillopt_plan.get("dirty_skill_path_count", 0)),
+        "skillopt_gate_dirty_pack_lane_count": int(skillopt_plan.get("dirty_pack_lane_count", 0)),
+        "skillopt_gate_required_before_new_skill_edits": bool(
+            skillopt_plan.get("required_before_new_skill_edits", False)
+        ),
+        "skillopt_gate_applicable_now": bool(skillopt_plan.get("applicable_now", False)),
         "future_candidates_recorded": future_candidates_recorded,
         "loop_next_lane": str(loop_control.get("next_lane", "")),
         "content_edits_allowed": bool(content_policy.get("content_edits_allowed", False)),
         "owner_clearance_required": owner_clearance_required,
+        "execution_bridge_owner_clearance_required": execution_bridge_owner_clearance_required,
         "local_only_recommended": local_only_recommended,
         "dirty_pack_lane_count": int(boundary.get("dirty_pack_count", 0)),
         "reason": reason,
@@ -3326,7 +4249,7 @@ def validate_goal_progress(summary: dict[str, Any]) -> list[str]:
     return errors
 
 
-COMPLETION_AUDIT_CONTRACT = "monthly-uplift-completion-audit-v3"
+COMPLETION_AUDIT_CONTRACT = "monthly-uplift-completion-audit-v5"
 
 
 def completion_audit_remaining_debt_row(summary: dict[str, Any]) -> tuple[str, str, dict[str, Any]]:
@@ -3361,6 +4284,10 @@ def completion_audit_owner_clearance_row(summary: dict[str, Any]) -> tuple[str, 
     return status, evidence, queue
 
 
+def bridge_gap_phrase(count: int) -> str:
+    return f"{count} bridge gap" + ("" if count == 1 else "s")
+
+
 def completion_audit_requirement_rows(
     summary: dict[str, Any], progress: dict[str, Any] | None = None
 ) -> list[tuple[str, str, str]]:
@@ -3385,8 +4312,25 @@ def completion_audit_requirement_rows(
             f"{int(clone.get('reported_pairs', 0))} reported pairs"
         )
     bridge_missing = int(progress.get("execution_bridge_missing", 0))
-    debt_status = "Triaged" if bool(progress.get("owner_clearance_required")) else "OK"
-    if bridge_missing and bool(progress.get("owner_clearance_required")):
+    bridge_owner_clearance_required = bool(progress.get("execution_bridge_owner_clearance_required", False))
+    bridge_tail = summary.get("execution_bridge_tail", {}) if isinstance(summary.get("execution_bridge_tail"), dict) else {}
+    bridge_owner_clearance_count = int(bridge_tail.get("owner_clearance_count", 0))
+    bridge_unclaimed_count = int(bridge_tail.get("unclaimed_count", 0))
+    debt_status = "Triaged" if bool(progress.get("owner_clearance_required")) or bridge_owner_clearance_required else "OK"
+    if bridge_owner_clearance_count:
+        if bridge_unclaimed_count:
+            debt_evidence = (
+                f"{bridge_gap_phrase(bridge_owner_clearance_count)} "
+                f"{'is' if bridge_owner_clearance_count == 1 else 'are'} owner-clearance gated; "
+                f"{bridge_gap_phrase(bridge_unclaimed_count)} "
+                f"{'remains' if bridge_unclaimed_count == 1 else 'remain'} actionable"
+            )
+        else:
+            debt_evidence = (
+                f"{bridge_gap_phrase(bridge_owner_clearance_count)} "
+                f"{'is' if bridge_owner_clearance_count == 1 else 'are'} owner-clearance gated"
+            )
+    elif bridge_missing and bool(progress.get("owner_clearance_required")):
         debt_evidence = f"{bridge_missing} bridge gaps remain owner-clearance gated"
     else:
         debt_evidence = f"{bridge_missing} bridge gaps visible"
@@ -3394,6 +4338,24 @@ def completion_audit_requirement_rows(
     expected_validation_count = len(NEXT_LOOP_VALIDATION_COMMANDS)
     debt_register_status, debt_register_evidence, _ = completion_audit_remaining_debt_row(summary)
     queue_status, queue_evidence, _ = completion_audit_owner_clearance_row(summary)
+    skillopt_dirty_paths = int(progress.get("skillopt_gate_dirty_skill_path_count", 0))
+    skillopt_dirty_pack_lanes = int(progress.get("skillopt_gate_dirty_pack_lane_count", 0))
+    skillopt_status = str(progress.get("skillopt_gate_plan_status", "unknown"))
+    skillopt_fingerprint = str(progress.get("skillopt_gate_plan_fingerprint", ""))
+    if skillopt_dirty_paths:
+        skillopt_gate_status = "Triaged"
+        skillopt_evidence = (
+            f"{skillopt_dirty_paths} dirty skill paths / {skillopt_dirty_pack_lanes} dirty pack lanes; "
+            f"plan {skillopt_status}; preserve existing pack-lane evidence"
+        )
+    elif bool(progress.get("skillopt_gate_required_before_new_skill_edits", False)):
+        skillopt_gate_status = "OK"
+        skillopt_evidence = f"snapshot/gate commands recorded; plan {skillopt_status}"
+    else:
+        skillopt_gate_status = "Review"
+        skillopt_evidence = f"plan {skillopt_status}"
+    if skillopt_fingerprint:
+        skillopt_evidence = f"{skillopt_evidence}; SkillOpt sha256 {skillopt_fingerprint}"
 
     return [
         (
@@ -3411,6 +4373,7 @@ def completion_audit_requirement_rows(
             "OK" if int(commands.get("validation_count", 0)) >= expected_validation_count else "Review",
             f"{int(commands.get('validation_count', 0))} validation commands",
         ),
+        ("SkillOpt gate discipline", skillopt_gate_status, skillopt_evidence),
         (
             "Score floor",
             "OK" if progress.get("score_floor_ok") else "Review",
@@ -3454,14 +4417,29 @@ def completion_audit_requirement_rows(
     ]
 
 
-def completion_audit_blockers(progress: dict[str, Any]) -> list[str]:
+def completion_audit_blockers(progress: dict[str, Any], bridge_tail: dict[str, Any] | None = None) -> list[str]:
     blockers = ["Month-scale goal remains active; this audit does not mark it complete."]
     if str(progress.get("clone_audit_status", "unknown")) == "skipped":
         blockers.append("Full clone audit is required before a completion claim.")
     if bool(progress.get("owner_clearance_required")):
         blockers.append("Content debt remains owner-clearance gated.")
     bridge_missing = int(progress.get("execution_bridge_missing", 0))
-    if bridge_missing:
+    tail = bridge_tail if isinstance(bridge_tail, dict) else {}
+    bridge_owner_clearance_count = int(tail.get("owner_clearance_count", 0))
+    bridge_unclaimed_count = int(tail.get("unclaimed_count", 0))
+    if bridge_owner_clearance_count:
+        if bridge_unclaimed_count:
+            blockers.append(
+                f"Execution bridge still has {bridge_owner_clearance_count} owner-clearance-gated "
+                f"{'gap' if bridge_owner_clearance_count == 1 else 'gaps'} and "
+                f"{bridge_unclaimed_count} unclaimed {'gap' if bridge_unclaimed_count == 1 else 'gaps'}."
+            )
+        else:
+            blockers.append(
+                f"Execution bridge still has {bridge_owner_clearance_count} owner-clearance-gated "
+                f"{'gap' if bridge_owner_clearance_count == 1 else 'gaps'}."
+            )
+    elif bridge_missing:
         blockers.append(f"Execution bridge still has {bridge_missing} visible gaps.")
     return blockers
 
@@ -3470,10 +4448,15 @@ def completion_audit_summary(summary: dict[str, Any]) -> dict[str, Any]:
     progress = summary.get("goal_progress")
     if not isinstance(progress, dict):
         progress = goal_progress_summary(summary)["goal_progress"]
+    bridge_tail = summary.get("execution_bridge_tail", {}) if isinstance(summary.get("execution_bridge_tail"), dict) else {}
+    safe_queue = summary.get("safe_content_queue", {}) if isinstance(summary.get("safe_content_queue"), dict) else {}
+    skillopt_plan = summary.get("skillopt_gate_plan")
+    if not isinstance(skillopt_plan, dict):
+        skillopt_plan = skillopt_gate_plan_summary(summary)["skillopt_gate_plan"]
     _, _, remaining_debt = completion_audit_remaining_debt_row(summary)
     _, _, clearance_queue = completion_audit_owner_clearance_row(summary)
     rows = completion_audit_requirement_rows(summary, progress)
-    blockers = completion_audit_blockers(progress)
+    blockers = completion_audit_blockers(progress, bridge_tail)
     ok_count = sum(1 for _, status, _ in rows if status == "OK")
     triaged_count = sum(1 for _, status, _ in rows if status == "Triaged")
     review_count = len(rows) - ok_count - triaged_count
@@ -3491,7 +4474,34 @@ def completion_audit_summary(summary: dict[str, Any]) -> dict[str, Any]:
         "blocker_count": len(blockers),
         "clone_gate_required": str(progress.get("clone_audit_status", "unknown")) == "skipped",
         "owner_clearance_required": bool(progress.get("owner_clearance_required", False)),
+        "execution_bridge_owner_clearance_required": bool(
+            bridge_tail.get(
+                "owner_clearance_present",
+                progress.get("execution_bridge_owner_clearance_required", False),
+            )
+        ),
         "execution_bridge_missing": int(progress.get("execution_bridge_missing", 0)),
+        "execution_bridge_tail_status": str(bridge_tail.get("status", progress.get("execution_bridge_tail_status", ""))),
+        "execution_bridge_tail_fingerprint": str(
+            bridge_tail.get("fingerprint", progress.get("execution_bridge_tail_fingerprint", ""))
+        ),
+        "safe_content_queue_status": str(safe_queue.get("status", progress.get("safe_content_queue_status", ""))),
+        "safe_content_queue_fingerprint": str(
+            safe_queue.get("fingerprint", progress.get("safe_content_queue_fingerprint", ""))
+        ),
+        "safe_content_queue_unclaimed_total": int(
+            safe_queue.get("unclaimed_total", progress.get("safe_content_queue_unclaimed_total", 0))
+        ),
+        "skillopt_gate_plan_status": str(skillopt_plan.get("status", progress.get("skillopt_gate_plan_status", ""))),
+        "skillopt_gate_plan_fingerprint": str(
+            skillopt_plan.get("fingerprint", progress.get("skillopt_gate_plan_fingerprint", ""))
+        ),
+        "skillopt_gate_dirty_skill_path_count": int(
+            skillopt_plan.get("dirty_skill_path_count", progress.get("skillopt_gate_dirty_skill_path_count", 0))
+        ),
+        "skillopt_gate_dirty_pack_lane_count": int(
+            skillopt_plan.get("dirty_pack_lane_count", progress.get("skillopt_gate_dirty_pack_lane_count", 0))
+        ),
         "remaining_debt_status": str(remaining_debt.get("status", "")),
         "remaining_debt_fingerprint": str(remaining_debt.get("fingerprint", "")),
         "remaining_debt_unclaimed_total": int(remaining_debt.get("unclaimed_total", 0)),
@@ -3540,7 +4550,7 @@ def validate_completion_audit(summary: dict[str, Any]) -> list[str]:
     return errors
 
 
-HANDOFF_MANIFEST_CONTRACT = "monthly-uplift-handoff-v2"
+HANDOFF_MANIFEST_CONTRACT = "monthly-uplift-handoff-v4"
 
 
 def handoff_manifest_summary(summary: dict[str, Any]) -> dict[str, Any]:
@@ -3552,6 +4562,11 @@ def handoff_manifest_summary(summary: dict[str, Any]) -> dict[str, Any]:
     command_plan = summary.get("command_plan", {}) if isinstance(summary.get("command_plan"), dict) else {}
     next_batch_plan = summary.get("next_batch_plan", {}) if isinstance(summary.get("next_batch_plan"), dict) else {}
     content_policy = summary.get("content_edit_policy", {}) if isinstance(summary.get("content_edit_policy"), dict) else {}
+    bridge_tail = summary.get("execution_bridge_tail", {}) if isinstance(summary.get("execution_bridge_tail"), dict) else {}
+    safe_queue = summary.get("safe_content_queue", {}) if isinstance(summary.get("safe_content_queue"), dict) else {}
+    skillopt_plan = summary.get("skillopt_gate_plan")
+    if not isinstance(skillopt_plan, dict):
+        skillopt_plan = skillopt_gate_plan_summary(summary)["skillopt_gate_plan"]
     clearance_queue = owner_clearance_queue_data(summary)
     remaining_debt = summary.get("remaining_debt", {}) if isinstance(summary.get("remaining_debt"), dict) else {}
     publish_policy = summary.get("publish_policy", {}) if isinstance(summary.get("publish_policy"), dict) else {}
@@ -3572,9 +4587,19 @@ def handoff_manifest_summary(summary: dict[str, Any]) -> dict[str, Any]:
         "worklog_latest_heading": str(worklog.get("latest_heading", "")),
         "worktree_boundary_fingerprint": str(boundary.get("fingerprint", "")),
         "command_plan_fingerprint": str(command_plan.get("fingerprint", "")),
+        "next_batch_plan_contract": str(next_batch_plan.get("contract", "")),
         "next_batch_plan_fingerprint": str(next_batch_plan.get("fingerprint", "")),
         "content_edit_policy_status": str(content_policy.get("status", "")),
         "content_edit_policy_fingerprint": str(content_policy.get("fingerprint", "")),
+        "execution_bridge_tail_status": str(bridge_tail.get("status", "")),
+        "execution_bridge_tail_fingerprint": str(bridge_tail.get("fingerprint", "")),
+        "safe_content_queue_status": str(safe_queue.get("status", "")),
+        "safe_content_queue_fingerprint": str(safe_queue.get("fingerprint", "")),
+        "safe_content_queue_unclaimed_total": int(safe_queue.get("unclaimed_total", 0)),
+        "skillopt_gate_plan_status": str(skillopt_plan.get("status", "")),
+        "skillopt_gate_plan_fingerprint": str(skillopt_plan.get("fingerprint", "")),
+        "skillopt_gate_dirty_skill_path_count": int(skillopt_plan.get("dirty_skill_path_count", 0)),
+        "skillopt_gate_dirty_pack_lane_count": int(skillopt_plan.get("dirty_pack_lane_count", 0)),
         "owner_clearance_queue_total": int(clearance_queue.get("total", 0)),
         "owner_clearance_queue_fingerprint": str(clearance_queue.get("fingerprint", "")),
         "remaining_debt_status": str(remaining_debt.get("status", "")),
@@ -3583,6 +4608,12 @@ def handoff_manifest_summary(summary: dict[str, Any]) -> dict[str, Any]:
         "publish_policy_fingerprint": str(publish_policy.get("fingerprint", "")),
         "goal_progress_status": str(goal_progress.get("status", "")),
         "goal_progress_fingerprint": str(goal_progress.get("fingerprint", "")),
+        "execution_bridge_owner_clearance_required": bool(
+            bridge_tail.get(
+                "owner_clearance_present",
+                goal_progress.get("execution_bridge_owner_clearance_required", False),
+            )
+        ),
         "completion_status": str(completion_audit.get("completion_status", "")),
         "completion_audit_contract": str(completion_audit.get("contract", "")),
         "completion_audit_requirement_count": int(completion_audit.get("requirement_count", 0)),
@@ -3673,12 +4704,16 @@ def markdown(summary: dict[str, Any]) -> str:
     lines.append(f"| Git status | {working_tree_line(git)} |")
     lines.append(f"| Dashboard schema | {schema_line(summary)} |")
     lines.append(f"| Worktree boundary | {worktree_boundary_line(summary)} |")
+    lines.append(f"| Execution-bridge tail | {execution_bridge_tail_line(summary)} |")
+    lines.append(f"| Safe content queue | {safe_content_queue_line(summary)} |")
     lines.append(f"| Content-edit policy | {content_edit_policy_line(summary)} |")
     lines.append(f"| Remaining debt | {remaining_debt_line(summary)} |")
     lines.append(f"| Publish policy | {publish_policy_line(summary)} |")
     lines.append(f"| Goal progress | {goal_progress_line(summary)} |")
     lines.append(f"| Completion audit | {completion_audit_line(summary)} |")
     lines.append(f"| Handoff manifest | {handoff_manifest_line(summary)} |")
+    lines.append(f"| SkillOpt gate plan | {skillopt_gate_plan_line(summary)} |")
+    lines.append(f"| Current next queue | {current_next_queue_line(summary)} |")
     lines.append(f"| Command plan | {command_plan_line(summary)} |")
     lines.append(f"| Next-batch plan | {next_batch_plan_line(summary)} |")
 
@@ -3915,12 +4950,16 @@ def handoff(summary: dict[str, Any]) -> str:
         f"- Working tree: {working_tree_line(git)}",
         f"- Dashboard schema: {schema_line(summary)}",
         f"- Worktree boundary: {worktree_boundary_line(summary)}",
+        f"- Execution-bridge tail: {execution_bridge_tail_line(summary)}",
+        f"- Safe content queue: {safe_content_queue_line(summary)}",
         f"- Content-edit policy: {content_edit_policy_line(summary)}",
         f"- Remaining debt: {remaining_debt_line(summary)}",
         f"- Publish policy: {publish_policy_line(summary)}",
         f"- Goal progress: {goal_progress_line(summary)}",
         f"- Completion audit: {completion_audit_line(summary)}",
         f"- Handoff manifest: {handoff_manifest_line(summary)}",
+        f"- SkillOpt gate plan: {skillopt_gate_plan_line(summary)}",
+        f"- Current next queue: {current_next_queue_line(summary)}",
         f"- Command plan: {command_plan_line(summary)}",
         f"- Next-batch plan: {next_batch_plan_line(summary)}",
     ]
@@ -4157,6 +5196,8 @@ def debt_audit(summary: dict[str, Any]) -> str:
         "",
         f"- Status: `{debt.get('status', 'unknown')}`",
         f"- Loop-control status: `{loop_control.get('status', 'unknown')}`",
+        f"- Execution-bridge tail: {execution_bridge_tail_line(summary)}",
+        f"- Safe content queue: {safe_content_queue_line(summary)}",
         f"- Content-edit policy: {content_edit_policy_line(summary)}",
         f"- Remaining debt: {remaining_debt_line(summary)}",
         f"- Owner-clearance queue: {int(clearance_queue.get('total', 0))} targets; "
@@ -4243,6 +5284,8 @@ def goal_audit(summary: dict[str, Any]) -> str:
         f"- Completion status: `{audit.get('completion_status', 'unknown')}`",
         f"- Goal status action: {audit.get('goal_status_action', 'unknown')}",
         f"- Completion audit: {completion_audit_line(summary)}",
+        f"- Execution-bridge tail: {execution_bridge_tail_line(summary)}",
+        f"- Safe content queue: {safe_content_queue_line(summary)}",
         f"- Goal progress: {goal_progress_line(summary)}",
         f"- Reason: {audit.get('reason', progress.get('reason', ''))}",
         "",
@@ -4298,12 +5341,16 @@ def worklog_template(summary: dict[str, Any]) -> str:
         f"  - Working tree: {working_tree_line(git)}.",
         f"  - Dashboard schema: {schema_line(summary)}.",
         f"  - Worktree boundary: {worktree_boundary_line(summary)}.",
+        f"  - Execution-bridge tail: {execution_bridge_tail_line(summary)}.",
+        f"  - Safe content queue: {safe_content_queue_line(summary)}.",
         f"  - Content-edit policy: {content_edit_policy_line(summary)}.",
         f"  - Remaining debt: {remaining_debt_line(summary)}.",
         f"  - Publish policy: {publish_policy_line(summary)}.",
         f"  - Goal progress: {goal_progress_line(summary)}.",
         f"  - Completion audit: {completion_audit_line(summary)}.",
         f"  - Handoff manifest: {handoff_manifest_line(summary)}.",
+        f"  - SkillOpt gate plan: {skillopt_gate_plan_line(summary)}.",
+        f"  - Current next queue: {current_next_queue_line(summary)}.",
         f"  - Command plan: {command_plan_line(summary)}.",
         f"  - Next-batch plan: {next_batch_plan_line(summary)}.",
     ]
@@ -4501,9 +5548,17 @@ def main(argv: list[str]) -> int:
 
     if args.check_worklog:
         try:
-            print(check_worklog(args.check_worklog), end="")
+            print(check_worklog(args.check_worklog, build_summary(worklog_live_summary_args(args))), end="")
         except ValueError as exc:
             print(f"monthly_uplift_report worklog-check failed: {exc}", file=sys.stderr)
+            return 1
+        except (ToolError, json.JSONDecodeError) as exc:
+            print(f"monthly_uplift_report worklog-check failed: {exc}", file=sys.stderr)
+            if isinstance(exc, ToolError):
+                if exc.stdout:
+                    print(exc.stdout, file=sys.stderr)
+                if exc.stderr:
+                    print(exc.stderr, file=sys.stderr)
             return 1
         return 0
 
