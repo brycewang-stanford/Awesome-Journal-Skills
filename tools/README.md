@@ -93,7 +93,9 @@ the batch when you need a trajectory delta for score floor, bridge wiring,
 source-map debt, root-card warnings, clone fail hits, claims-boundary row
 counts/fingerprint, candidate-gate queue counts, worklog loop count, dirty
 working-tree size, dirty pack lanes, root/tooling dirty entries, and inventory
-stability.
+stability. Worktree-boundary, publish-policy, and handoff-manifest fingerprint
+deltas are labelled as worktree-sensitive so they are not mistaken for durable
+content-debt movement.
 The JSON payload includes a `schema` object with the dashboard name, numeric
 version, contract label, required top-level fields, nested contract registry,
 and nested-contract fingerprint. Schema v19 requires the
@@ -106,23 +108,25 @@ machine-readable surface they depend on.
 The JSON `current_next_queue` object stores the live fragments that must remain
 visible in `.maintenance/MONTHLY-UPLIFT-*.md` under `Current Next Queue`.
 `--check-worklog latest` builds a lightweight live dashboard snapshot and
-rejects stale queue status, publish-boundary, schema-fingerprint,
-execution-bridge-tail, safe-content-queue, owner-clearance, and command-plan
-fragments before accepting the worklog. The v5 queue guard also pins
-content-edit policy, remaining-debt, next-batch plan, and local-publish policy
-fingerprints in all modes. It also pins command-plan counts and the explicit
-quality-floor command, so a queue can no longer keep only a hash while dropping
-the human-readable score-floor gate. Full clone-gate runs additionally pin
-goal-progress, completion-audit, and handoff-manifest fingerprints;
-`--skip-clone` snapshots keep the mode-stable fragments and leave those
-clone-derived fingerprints to the final full gate. The worklog check uses the
-canonical 20-row monthly display context even when the caller omits `--limit`,
-so direct checks and `tools/run_checks.py` enforce the same handoff fragments.
-The same guard also requires the SkillOpt snapshot and gate commands to remain
-visible when `skillopt_gate_plan` is present, so future skill-body loops keep a
-copy-pastable baseline-before-edit path. `--self-test` includes paired
-full-clone and skip-clone fixtures for this boundary, plus next-batch and
-command-plan visibility fixtures for the v5 queue guard.
+rejects stale queue status, schema-fingerprint, execution-bridge-tail,
+safe-content-queue, owner-clearance, content-edit policy, remaining-debt,
+next-batch plan, local-publish policy status, command-plan counts, and the
+explicit quality-floor command before accepting the worklog. The v6 queue guard
+intentionally leaves dirty path counts, publish-policy fingerprints, and
+handoff-manifest fingerprints to the dedicated worktree-boundary, publish-plan,
+and handoff checks, so committed clean checkouts and pre-publish local diffs can
+share the same durable continuation guidance. Full clone-gate runs additionally
+pin goal-progress and completion-audit fingerprints; `--skip-clone` snapshots
+keep the mode-stable fragments and leave those clone-derived fingerprints to
+the final full gate. The worklog check uses the canonical 20-row monthly display
+context even when the caller omits `--limit`, so direct checks and
+`tools/run_checks.py` enforce the same handoff fragments. The same guard also
+requires the SkillOpt snapshot and gate commands to remain visible when
+`skillopt_gate_plan` is present, so future skill-body loops keep a copy-pastable
+baseline-before-edit path. `--self-test` includes paired full-clone and
+skip-clone fixtures for this boundary, next-batch and command-plan visibility
+fixtures, and a volatility fixture that proves worktree/publish/handoff
+fingerprint drift does not change the v6 queue.
 The `execution_bridge_tail` object classifies the remaining empirical-depth
 bridge gap as `complete`, `unclaimed-candidates`, `owner-clearance-required`,
 or `monitoring`, includes the recommended action, records whether that action
@@ -219,7 +223,10 @@ templates render the same publish-unit split; `--check` rejects it if it
 drifts from the dirty-boundary data. The worklog checker also requires the
 `Current Next Queue` section to keep a `Local publish-unit split:` note with
 the owner-review state, so future loops preserve the publish boundary rather
-than only recording metric snapshots.
+than only recording metric snapshots. The Current Next Queue v6 guard treats
+that note as a policy reminder, not as a strict dirty path count: committed
+clean checkouts and pre-publish local diffs should both keep validating against
+the durable next-lane guidance.
 The JSON `publish_policy` object turns the local-only publish boundary into a
 small contract: no publish request is active by default, local-only work is
 recommended, path-scoped staging is required if publishing is later requested,
@@ -302,7 +309,10 @@ The JSON summary also exports the rendered next-batch guidance as
 computed recommendations, and `--compare-json` surfaces next-batch count or
 fingerprint changes across monthly baselines. The Current Next Queue guard pins
 the next-batch contract, count, and fingerprint so stale continuation advice is
-not accepted when the live next-lane recommendations change.
+not accepted when the live next-lane recommendations change, while leaving
+dirty worktree counts, publish-policy fingerprints, and handoff-manifest
+fingerprints to the dedicated worktree-boundary, publish-plan, and handoff
+checks.
 Run
 `python3 tools/monthly_uplift_report.py --check-only --limit 20` when you need
 a fast consistency gate for loop-control counts without printing the whole

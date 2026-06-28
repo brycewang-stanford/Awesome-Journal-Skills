@@ -468,7 +468,11 @@ DELTA_TEXT_METRICS = (
         "Dashboard nested-contracts fingerprint",
         ("schema", "nested_contracts_fingerprint"),
     ),
-    ("worktree_boundary_fingerprint", "Worktree boundary fingerprint", ("worktree_boundary", "fingerprint")),
+    (
+        "worktree_boundary_fingerprint",
+        "Worktree boundary fingerprint (worktree-sensitive)",
+        ("worktree_boundary", "fingerprint"),
+    ),
     ("command_plan_fingerprint", "Command plan fingerprint", ("command_plan", "fingerprint")),
     ("next_batch_fingerprint", "Next-batch plan fingerprint", ("next_batch_plan", "fingerprint")),
     ("content_policy_status", "Content-edit policy status", ("content_edit_policy", "status")),
@@ -486,14 +490,22 @@ DELTA_TEXT_METRICS = (
     ("remaining_debt_status", "Remaining-debt status", ("remaining_debt", "status")),
     ("remaining_debt_fingerprint", "Remaining-debt fingerprint", ("remaining_debt", "fingerprint")),
     ("publish_policy_status", "Publish policy status", ("publish_policy", "status")),
-    ("publish_policy_fingerprint", "Publish policy fingerprint", ("publish_policy", "fingerprint")),
+    (
+        "publish_policy_fingerprint",
+        "Publish policy fingerprint (worktree-sensitive)",
+        ("publish_policy", "fingerprint"),
+    ),
     ("goal_progress_status", "Goal-progress status", ("goal_progress", "status")),
     ("goal_progress_fingerprint", "Goal-progress fingerprint", ("goal_progress", "fingerprint")),
     ("completion_audit_status", "Completion-audit status", ("completion_audit", "completion_status")),
     ("completion_audit_fingerprint", "Completion-audit fingerprint", ("completion_audit", "fingerprint")),
     ("handoff_manifest_contract", "Handoff manifest contract", ("handoff_manifest", "contract")),
     ("handoff_manifest_completion_contract", "Handoff completion-audit contract", ("handoff_manifest", "completion_audit_contract")),
-    ("handoff_manifest_fingerprint", "Handoff manifest fingerprint", ("handoff_manifest", "fingerprint")),
+    (
+        "handoff_manifest_fingerprint",
+        "Handoff manifest fingerprint (worktree-sensitive)",
+        ("handoff_manifest", "fingerprint"),
+    ),
     ("skillopt_gate_plan_status", "SkillOpt gate-plan status", ("skillopt_gate_plan", "status")),
     ("skillopt_gate_plan_fingerprint", "SkillOpt gate-plan fingerprint", ("skillopt_gate_plan", "fingerprint")),
     ("current_next_queue_fingerprint", "Current-next-queue fingerprint", ("current_next_queue", "fingerprint")),
@@ -506,7 +518,7 @@ SKILLOPT_GATE_COMMAND = (
     "python3 tools/skillopt_gate.py gate --baseline /tmp/ajs-skillopt-baseline.json "
     "--out /tmp/ajs-skillopt-gate.json"
 )
-CURRENT_NEXT_QUEUE_CONTRACT = "current-next-queue-v5"
+CURRENT_NEXT_QUEUE_CONTRACT = "current-next-queue-v6"
 NEXT_BATCH_PLAN_CONTRACT = "monthly-uplift-next-batch-plan-v1"
 WORKLOG_LIVE_SUMMARY_LIMIT = 20
 
@@ -872,17 +884,10 @@ def current_next_queue_expected_fragments(summary: dict[str, Any]) -> list[str]:
     clone = summary.get("clone_audit")
     include_clone_dependent = isinstance(clone, dict)
     clearance_queue = owner_clearance_queue_data(summary)
-    units = publish_units_data(summary)
-    root_unit = units.get("root_tooling", {}) if isinstance(units.get("root_tooling"), dict) else {}
-    pack_unit = units.get("pack_content", {}) if isinstance(units.get("pack_content"), dict) else {}
-
     fragments = [
         f"Current-next-queue contract: `{CURRENT_NEXT_QUEUE_CONTRACT}`",
         f"Loop-control status: `{loop_control.get('status', '')}`",
         f"`{loop_control.get('next_lane', '')}`",
-        f"root/tooling currently forms one ready unit with {int(root_unit.get('path_count', 0))}",
-        f"pack content currently has {int(pack_unit.get('pack_count', 0))}",
-        f"`{pack_unit.get('status', '')}`",
         f"`{schema.get('contract', '')}`",
         "and `current_next_queue`",
         f"The current nested-contracts fingerprint is `{schema.get('nested_contracts_fingerprint', '')}`",
@@ -901,7 +906,6 @@ def current_next_queue_expected_fragments(summary: dict[str, Any]) -> list[str]:
         f"fingerprint `{clearance_queue.get('fingerprint', '')}`",
         f"`{publish_policy.get('contract', '')}`",
         f"publish policy status `{publish_policy.get('status', '')}`",
-        f"fingerprint `{publish_policy.get('fingerprint', '')}`",
         f"`{next_batch_plan.get('contract', '')}`",
         f"next-batch count `{int(next_batch_plan.get('count', 0))}`",
         f"fingerprint `{next_batch_plan.get('fingerprint', '')}`",
@@ -927,7 +931,6 @@ def current_next_queue_expected_fragments(summary: dict[str, Any]) -> list[str]:
                 f"fingerprint `{goal_progress.get('fingerprint', '')}`",
                 f"completion-audit status `{completion_audit.get('completion_status', '')}`",
                 f"fingerprint `{completion_audit.get('fingerprint', '')}`",
-                f"fingerprint `{handoff_manifest.get('fingerprint', '')}`",
             ]
         )
     return [fragment for fragment in fragments if "``" not in fragment]
@@ -1889,13 +1892,61 @@ def self_test_errors() -> list[str]:
         f"fingerprint `{full_clone_current_next_queue['goal_progress']['fingerprint']}`",
         f"completion-audit status `{full_clone_current_next_queue['completion_audit']['completion_status']}`",
         f"fingerprint `{full_clone_current_next_queue['completion_audit']['fingerprint']}`",
-        f"fingerprint `{full_clone_current_next_queue['handoff_manifest']['fingerprint']}`",
     )
     for fragment in full_clone_required_fragments:
         if fragment not in full_clone_fragments:
             errors.append(f"full clone Current Next Queue fragments missing {fragment!r}")
         if fragment in skip_clone_fragments:
             errors.append(f"skip-clone Current Next Queue fragments unexpectedly required {fragment!r}")
+
+    stable_queue_summary = handoff_fixture()
+    stable_queue = current_next_queue_summary(stable_queue_summary)["current_next_queue"]
+    volatile_queue_summary = json.loads(json.dumps(stable_queue_summary))
+    volatile_queue_summary["worktree_boundary"] = {
+        **volatile_queue_summary["worktree_boundary"],
+        "dirty_count": 0,
+        "dirty_root_count": 0,
+        "dirty_root_path_count": 0,
+        "root_staging_command": "",
+        "fingerprint": "volatile-worktree",
+    }
+    volatile_queue_summary["publish_units"] = {
+        **volatile_queue_summary["publish_units"],
+        "root_tooling": {
+            **volatile_queue_summary["publish_units"]["root_tooling"],
+            "status": "empty",
+            "path_count": 0,
+            "paths": [],
+            "staging_command": "",
+        },
+    }
+    volatile_queue_summary["publish_policy"] = {
+        **volatile_queue_summary["publish_policy"],
+        "root_tooling_status": "empty",
+        "root_tooling_path_count": 0,
+        "root_tooling_staging_command": "",
+        "path_scoped_staging_required": False,
+        "fingerprint": "volatile-publish",
+    }
+    volatile_queue_summary["handoff_manifest"] = {
+        **volatile_queue_summary["handoff_manifest"],
+        "root_tooling_path_count": 0,
+        "root_tooling_staging_command": "",
+        "worktree_boundary_fingerprint": "volatile-worktree",
+        "publish_policy_fingerprint": "volatile-publish",
+        "fingerprint": "volatile-handoff",
+    }
+    volatile_queue = current_next_queue_summary(volatile_queue_summary)["current_next_queue"]
+    if volatile_queue != stable_queue:
+        errors.append("Current Next Queue v6 changed after volatile worktree/publish/handoff fields changed")
+    for forbidden_fragment in (
+        "root/tooling currently forms one ready unit with",
+        "pack content currently has",
+        f"fingerprint `{stable_queue_summary['publish_policy']['fingerprint']}`",
+        f"fingerprint `{stable_queue_summary['handoff_manifest']['fingerprint']}`",
+    ):
+        if any(forbidden_fragment in fragment for fragment in stable_queue["required_fragments"]):
+            errors.append(f"Current Next Queue v6 still includes volatile fragment {forbidden_fragment!r}")
 
     next_batch_queue = handoff_fixture()
     next_batch_fragments = current_next_queue_expected_fragments(next_batch_queue)
@@ -2399,15 +2450,32 @@ def self_test_errors() -> list[str]:
         "Root/tooling untracked paths: `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`",
         "Root/tooling staging preview: `git add -- tools/monthly_uplift_report.py .maintenance/MONTHLY-UPLIFT-2026-06-27.md`",
         "Claims boundary fingerprint: fixture -> fixture-next (changed)",
+        "Worktree boundary fingerprint (worktree-sensitive):",
+        "Publish policy fingerprint (worktree-sensitive):",
+        "Handoff manifest fingerprint (worktree-sensitive):",
     ):
         if expected_text not in rendered_delta:
             errors.append(f"delta handoff output missing {expected_text!r}")
     rendered_delta_markdown = markdown(current)
     if "| Claims boundary fingerprint | fixture | fixture-next | changed |" not in rendered_delta_markdown:
         errors.append("delta markdown output missing claims fingerprint row")
+    for expected_markdown in (
+        "| Worktree boundary fingerprint (worktree-sensitive) |",
+        "| Publish policy fingerprint (worktree-sensitive) |",
+        "| Handoff manifest fingerprint (worktree-sensitive) |",
+    ):
+        if expected_markdown not in rendered_delta_markdown:
+            errors.append(f"delta markdown output missing worktree-sensitive row {expected_markdown!r}")
     rendered_delta_worklog = worklog_template(current)
     if "Claims boundary fingerprint: fixture -> fixture-next (changed)." not in rendered_delta_worklog:
         errors.append("delta worklog-template output missing claims fingerprint line")
+    for expected_worklog in (
+        "Worktree boundary fingerprint (worktree-sensitive):",
+        "Publish policy fingerprint (worktree-sensitive):",
+        "Handoff manifest fingerprint (worktree-sensitive):",
+    ):
+        if expected_worklog not in rendered_delta_worklog:
+            errors.append(f"delta worklog-template output missing worktree-sensitive line {expected_worklog!r}")
 
     clearance = handoff_fixture()
     clearance["claims"] = {
