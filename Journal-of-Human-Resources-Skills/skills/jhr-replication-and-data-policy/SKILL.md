@@ -28,11 +28,38 @@ submission.
 - Restricted-data access instructions or waiver justification
 - For RCTs: pre-analysis plan registration and deviations
 
+## Acceptance-stage replication gate
+
+Do not wait until conditional acceptance to discover that the archive cannot be
+built. Run this gate before initial submission and again when the paper enters
+revision.
+
+| Gate | Pass condition | Blocker to surface early |
+|---|---|---|
+| Exhibit inventory | Every main-text and appendix table/figure maps to one script and one input dataset | Hand-built table, untracked spreadsheet edit, or private intermediate file |
+| Data rights | Each dataset is classified public, restricted, proprietary, confidential, or author-generated | No redistribution right or unclear crosswalk ownership |
+| Repository plan | Public repository path, DOI plan, CC0 posture, and embargo/waiver status recorded | Deposit location or license undecided |
+| Code portability | A clean clone runs from raw/public inputs or approved restricted mount points | Absolute paths, local user directories, hidden credentials |
+| Reviewer audit trail | Read-me explains what a referee can reproduce now and what requires restricted access | DAS promises more than the archive can deliver |
+
 ## Waiver logic
 
 Request a waiver at initial submission when data cannot be publicly deposited.
 State how other researchers can obtain the data and commit to provide reasonable
 guidance.
+
+## Waiver evidence test
+
+A waiver is not a reason to ship a thin package. Before asking for one, prepare
+evidence that the non-public data barrier is real and that the reproducibility
+route remains usable.
+
+| Question | Strong answer | Weak answer |
+|---|---|---|
+| Why can the data not be posted? | Contract, statute, IRB term, license, or agency rule named in plain language | "Confidential" without a source |
+| How can another researcher apply? | Agency/vendor/contact path, application steps, and expected constraints | "Contact the authors" only |
+| What can still be checked? | Code, dictionary, synthetic data, logs, exhibit map, and public-source rebuild scripts | PDF tables only |
+| What does the DAS say? | Same access route and limits as the footnote and read-me | DAS, footnote, and read-me disagree |
 
 ## Restricted-data package
 
@@ -56,6 +83,20 @@ When the data cannot be public, still prepare:
 
 Repository choice and licensing details evolve — confirm against the journal's
 current author guidelines before depositing.
+
+## Exhibit-to-script map
+
+The read-me should include a compact manifest. This is the fastest way to catch
+irreproducible tables before upload.
+
+| Exhibit | Output file | Producing script | Data requirement | Notes |
+|---|---|---|---|---|
+| Table 1 | `tables/table1_balance.tex` | `03_tables/table1_balance.do` | public-use extract | Rebuilds from raw survey download |
+| Figure 2 | `figures/event_study.pdf` | `04_figures/event_study.R` | restricted admin file | Runs only on approved secure machine |
+| Appendix Table A4 | `tables/a4_placebo.tex` | `05_appendix/placebo.py` | synthetic test + restricted file | Synthetic version verifies code path |
+
+Use the actual filenames from the project. If an exhibit has no producing
+script, treat that as a package defect, not a documentation detail.
 
 ## Worked waiver scenario: UI wage records
 
@@ -90,6 +131,10 @@ README
   documented stochastic variation.
 - Check that no intermediate file under a restrictive license leaks into the
   deposit.
+- Compare the archive footnote, Data Availability Statement, waiver request,
+  read-me, and repository landing page for identical access claims.
+- Save the run log and unresolved exceptions in the project archive before
+  acceptance, so the team can fix blockers before production deadlines.
 
 ## Output format
 
@@ -98,6 +143,9 @@ README
 [Archive plan footnote] ...
 [DAS] ...
 [Waiver needed] yes/no + reason
+[Replication gate] exhibit map / data rights / repository plan / code portability / audit trail
+[Restricted-data route] public deposit / partial waiver / full waiver + access path
+[Dry-run result] clean / stochastic differences documented / blocked
 [RCT PAP status] ...
 [Next step] jhr-submission
 ```

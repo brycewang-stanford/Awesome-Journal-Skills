@@ -48,12 +48,70 @@ Front-load the contribution; do not make the reader reach the discussion to lear
 | US-centric assumptions | gloss institutions; engage non-Anglophone work |
 | Contribution buried in discussion | move it into the first page |
 
+## Concept-first prose map
+
+Every major paragraph should move from the portable idea to the platform case, not the other way
+around. Use this map when revising an introduction, theory section, or discussion.
+
+| Sentence job | Strong NM&S version | Weak version |
+|--------------|--------------------|--------------|
+| Opening problem | names a social/media problem a cross-field reader recognizes | starts with one platform feature |
+| Concept sentence | defines the travelling concept in ordinary language | drops a keyword with no gloss |
+| Site sentence | explains why this platform/community/data source reveals the concept | treats the site as self-evidently important |
+| Evidence sentence | states what the method can adjudicate and what it cannot | lists data without the warrant |
+| Stakes sentence | says what changes for media/social theory, policy, or practice | says the topic is "timely" |
+
+If a paragraph begins with platform detail, ask whether the concept can come first. If the answer is
+no, the paragraph may be descriptive background rather than argument.
+
+## Cross-field readability pass
+
+Run a "two fields away" edit before submission.
+
+- Replace lineage-only phrases with a gloss: do not rely on readers already knowing a debate.
+- Translate platform mechanics into social processes: "recommendation rank" becomes visibility,
+  gatekeeping, labor control, attention allocation, or public formation where appropriate.
+- Keep methods visible but subordinate to the claim: lead with what the design shows, then name the
+  interview, ethnography, content analysis, computational, or mixed-method procedure.
+- Flag local institutions, regulations, and platform cultures that need one sentence of context for
+  international readers.
+- Cut citation strings that only signal belonging to a subfield; keep the citations that carry the
+  conceptual contrast or empirical warrant.
+
 ## Managing the word target
 
 The ~8,000-word limit is firm — submissions more than a few hundred words over are not considered.
 Tactics: cut over-signposted roadmaps; turn scattered quotes into one quote-to-claim table; trim
 literature that doesn't bear on the gap; move ancillary material to (clearly limited) supplements;
 remember **tables and references count toward the total**.
+
+## Word-budget triage
+
+When the draft is over target, cut by function rather than by sentence-level trimming.
+
+| Section pressure | Keep | Cut or move |
+|------------------|------|-------------|
+| Introduction too long | question, concept, evidence, broad stakes | extended roadmap, platform history not needed for the claim |
+| Literature review too long | debates that create the conceptual gap | adjacent literatures not used in the argument |
+| Methods too long | sampling/data logic and validity warrant | software minutiae better suited to supplement |
+| Findings too long | exhibit or quote that advances the mechanism | repeated descriptive examples |
+| Discussion too long | theory implication, scope condition, limitation | generic future-research boilerplate |
+| References too long | sources actually used to build the contrast | ornamental citation clusters |
+
+After each cut, check whether the intro arc still contains question, argument, evidence, and broad
+stakes. A shorter paper that loses the portable concept is not a better NM&S paper.
+
+## Claim-calibration edit
+
+NM&S prose should not overclaim from platform-specific evidence. Calibrate verbs to evidence strength.
+
+| Evidence base | Safe verb | Risky verb |
+|---------------|-----------|------------|
+| qualitative or ethnographic pattern | shows, illustrates, elaborates, reveals | proves, measures universally |
+| content/discourse analysis | maps, identifies, traces | demonstrates individual behavior |
+| computational trace data | detects, estimates, classifies, models | captures social reality directly |
+| mixed methods | triangulates, integrates, explains | settles all mechanisms |
+| single platform/country | suggests, specifies, bounds | generalizes globally |
 
 ## Worked micro-example (illustrative)
 
@@ -85,6 +143,9 @@ After (front-loads): "Why do gig couriers discipline themselves to an algorithm 
 【Jargon glossed】travelling concepts defined on first use? [Y/N]
 【Referencing】SAGE Harvard, consistent? [Y/N]
 【Length】within ~8,000 words incl. notes/refs/tables? [Y/N — current count]
+【Cross-field pass】concept first / platform second / local context glossed? [Y/N]
+【Cut plan】sections to cut or move before submission
+【Claim calibration】verbs match evidence strength? [Y/N]
 【Next】newms-transparency-and-data
 ```
 

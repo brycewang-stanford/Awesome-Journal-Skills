@@ -21,6 +21,21 @@ benchmark community.
   and ethics/IRB status.
 - Report compute, hardware, data access, model size, and training/inference cost.
 
+## Claim-to-evidence ledger
+
+Build this table before adding new experiments. It keeps the AAAI evidence package aligned with
+the main text and with the reproducibility checklist.
+
+| Manuscript claim | Required evidence | Phase-1 risk if missing | Checklist hook |
+| --- | --- | --- | --- |
+| New AI capability | benchmark + qualitative failure cases | broad reviewer sees only engineering | datasets, metrics, baselines |
+| Better mechanism | single-factor ablations | gain looks like tuning luck | ablation and hyperparameter answers |
+| Robust deployment | shift / seed / subgroup stress test | result seems brittle | variance, compute, environment |
+| Social-impact or safety claim | stakeholder, harm, and misuse analysis | ethical claim looks asserted | ethics, limitations, data access |
+
+For each row, mark **ready / weak / missing** and name the fastest fix that can be run before the
+supplementary-material deadline. Do not leave a claim in the abstract if its evidence row is weak.
+
 ## AAAI-specific review pressure
 
 - Phase 1 reviewers need a fast reason to trust the evidence.
@@ -28,6 +43,17 @@ benchmark community.
 - AI for Social Impact and AI Alignment claims require stronger treatment of stakeholders, harms,
   risk mitigation, and scope.
 - New results usually cannot rescue the paper in rebuttal, so submit complete evidence upfront.
+- The AI-assisted review pilot is non-decisional, but it may surface checklist mismatches; make
+  result provenance, seeds, data splits, and limits machine-readable enough that a human SPC/AC can
+  quickly audit them.
+
+## Pre-rebuttal freeze rule
+
+Before submission, decide which experiments would be impossible to add later under AAAI's rebuttal
+constraints: missing baselines, missing seeds, missing supplement files, or missing reproducibility
+checklist answers. Treat those as **pre-submission blockers**, not rebuttal TODOs. The author
+response can explain and clarify submitted evidence; it should not depend on new results, URLs, or
+repaired supplementary files.
 
 ## Evidence triage table
 
@@ -63,6 +89,6 @@ team runs both before submission and aligns the checklist's seed answer to the s
 [Evidence status] sufficient / needs baseline / needs ablation / needs robustness / unclear
 [Fairness issue] <compute, tuning, data, prompt, metric, human eval>
 [Checklist dependency] <what checklist answer this supports>
+[Pre-rebuttal blockers] <missing evidence that must be run before submission>
 [Fast fix] <experiment or analysis feasible before deadline>
 ```
-

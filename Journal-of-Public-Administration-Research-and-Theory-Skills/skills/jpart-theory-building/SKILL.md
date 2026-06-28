@@ -30,6 +30,46 @@ findings into theory: explicit constructs, mechanisms, scope conditions, and obs
 4. **Scope conditions.** Where the theory holds and where it does not (sector, level of government,
    task type, regime). Public-management theory rarely travels unconditionally; say where it breaks.
 
+## Theory contribution ledger
+
+Before drafting, turn the theory section into a ledger. Each row must connect a public-administration
+construct to a mechanism, a rival account, and a testable implication. If a row cannot be filled, the
+paper is not ready to claim a JPART-level theory contribution.
+
+| Ledger field | Strong entry | Weak entry |
+|--------------|--------------|------------|
+| Construct | "Administrative burden as learning, compliance, and psychological costs" | "Bureaucracy" |
+| Mechanism | "Managers reduce discretion because error costs are politically visible" | "It affects behavior" |
+| Rival account | "Observed effect is agency selection, not frontline discretion" | "Other factors" |
+| Observable implication | "Effects concentrate where rule ambiguity is high and audit threat is salient" | "There should be an effect" |
+| Scope boundary | "Applies to rule-bound service delivery, not emergency response" | "Generalizes broadly" |
+| Theory payoff | "Bounds red-tape theory by enforcement visibility" | "Has implications" |
+
+## Mechanism-to-evidence gate
+
+Use the mechanism to decide what the empirical design must show. This prevents a theory section from
+promising more than the design in `jpart-research-design` can support.
+
+| Theory claim | Evidence needed before claiming it | Safer wording if evidence is weaker |
+|--------------|------------------------------------|-------------------------------------|
+| X causes Y through mechanism M | Identification for X -> Y plus evidence that M moves in the predicted direction | "The pattern is consistent with M" |
+| The effect differs across public-sector settings | Pre-specified heterogeneity, adequate power, and measurement invariance | "Exploratory heterogeneity suggests..." |
+| A theory fails outside boundary B | Direct comparison across inside/outside-boundary cases | "Boundary B is a plausible limit" |
+| A mechanism travels across countries or sectors | Comparable constructs and institutional translation | "The mechanism may travel where..." |
+| Qualitative evidence revises theory | Case-selection logic, process observations, and rival-mechanism checks | "The case elaborates a possible revision" |
+
+## Rival-theory stress test
+
+JPART reviewers often reject theory sections that merely attach a familiar theory label to a result.
+Write the strongest rival theory in the same vocabulary as your own claim.
+
+1. Name the rival: selection, common-method perception, political principal control, resource capacity,
+   professional norms, citizen sorting, or a competing PA theory.
+2. State its prediction in the same units as your mechanism.
+3. Identify the one result, pattern, or qualitative observation that would distinguish the two.
+4. If the manuscript cannot distinguish them, downgrade the claim from "shows" to "is consistent with"
+   and make the rival a future-test agenda rather than hiding it.
+
 ## Theory moves JPART rewards
 
 | Move | What it looks like | Example shape |
@@ -44,6 +84,17 @@ findings into theory: explicit constructs, mechanisms, scope conditions, and obs
 Ask: *Could a public-management scholar studying a different function, level, or country import this
 mechanism?* If yes, you have a theory contribution. If it only works for your exact agency, tighten it
 into a general public-management logic or reframe (back to `jpart-topic-selection`).
+
+## Abstract-to-conclusion alignment
+
+Because JPART asks the abstract to lead with theoretical approach and end with implications for theory,
+the theory contract must be visible at both ends of the paper.
+
+- Abstract opening: name the theory or construct, not only the setting or policy problem.
+- Introduction: state the theory move and the rival account before previewing the estimate.
+- Theory section: define constructs, mechanism, observable implications, and scope conditions in that order.
+- Results section: label each test by the observable implication it adjudicates.
+- Conclusion: return to what changes for public-administration theory, not only what managers should do.
 
 ## Anti-patterns
 
@@ -62,6 +113,9 @@ into a general public-management logic or reframe (back to `jpart-topic-selectio
 【Observable implications】testable consequences → research-design
 【Scope conditions】sector / level / task where it holds or fails
 【Theory move】extend / test / bound / overturn
+【Rival theory】strongest alternative + distinguishing evidence
+【Evidence gate】claim strength supported / needs softer wording / redesign needed
+【Abstract alignment】theoretical approach first + implications for theory last? [Y/N]
 【Next】jpart-research-design
 ```
 

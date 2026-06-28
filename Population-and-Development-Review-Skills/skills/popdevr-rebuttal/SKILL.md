@@ -43,6 +43,53 @@ meaning** while keeping the editor confident the revision is convergent.
    statement and reproducibility materials** so new exhibits remain reproducible (see
    `popdevr-transparency-and-data`).
 
+## Cross-field response ledger
+
+Build a ledger before drafting prose. PDR revisions often fail when the response satisfies one expert
+audience while leaving the other unconvinced.
+
+| Comment type | Demographic evidence | Development/policy evidence | Response posture |
+|--------------|---------------------|-----------------------------|------------------|
+| Rate, denominator, exposure, or population-at-risk concern | alternative rate construction, exposure definition, cohort/person-period logic | explains how the population measure changes the development interpretation | usually concede with a new table or appendix |
+| Comparability across countries, periods, or subgroups | harmonization note, sensitivity to definitions, uncertainty by group | states what comparison can and cannot support for policy inference | concede partly; narrow the claim if needed |
+| Causal or selection concern | robustness, falsification, decomposition, or scope condition | separates development meaning from causal overreach | add evidence where feasible; soften verbs where not |
+| Synthetic essay lacks contribution | framework boundary, typology, or mechanism clarified | policy/development stakes and cases made explicit | rewrite framing, not only add citations |
+| Reviewer asks for too much expansion | explains why the requested population analysis would break focus | explains why the development claim remains bounded without it | respectful pushback plus future-work note |
+
+For each row, assign: `concede`, `concede partly`, `rebut`, or `defer`, and name the manuscript
+location where the change appears. No row should end with only "clarified in text" unless the issue is
+purely expository.
+
+## Conflict-resolution note to the editor
+
+When reviewers pull in different directions, write the tradeoff explicitly in the cover note instead
+of hiding it inside point-by-point responses.
+
+```text
+R1 requested a finer age-specific decomposition, while R2 asked us to foreground the cross-national
+development implication. We added the decomposition as Appendix Table A3 and use the main text to
+state the policy interpretation more narrowly. This preserves the demographic logic without widening
+the development claim beyond the evidence.
+```
+
+Use this pattern whenever one request would make the paper longer, narrower, more technical, or less
+development-facing than another request. The editor should see that the revision is convergent.
+
+## Claim-change control
+
+Every new analysis should be tied to a claim decision.
+
+| New material | Claim decision |
+|--------------|----------------|
+| Robustness confirms the original result | keep claim, add precision and uncertainty |
+| Robustness weakens magnitude but keeps direction | narrow magnitude language and update abstract/discussion |
+| Alternative denominator changes interpretation | revise the population mechanism, not just a footnote |
+| Development implication no longer follows | move claim to scope condition or future research |
+| Reviewer-requested expansion is infeasible | explain why, add the nearest feasible check, and avoid pretending it was done |
+
+After revisions, re-read the abstract, introduction, conclusion, tables, and response letter together.
+They must tell the same story about what changed.
+
 ## Response-letter format
 
 For each reviewer comment:
@@ -75,6 +122,8 @@ the location of every change so the editor and referees can verify quickly.
 【Concede vs rebut】each tagged with demographic/development evidence + change location
 【Cross-field conflicts】reconciled and explained to editor? [Y/N]
 【Contribution protected】no dilution of the population-and-development claim? [Y/N]
+【Claim changes】kept / narrowed / reframed / deferred, with locations
+【Materials sync】new exhibits reflected in DAS, appendix, and reproducibility files? [Y/N]
 【Anonymity + APA formatting + materials updated】[Y/N]
 【Next】resubmit via ScholarOne
 ```

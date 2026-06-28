@@ -1,6 +1,6 @@
 ---
 name: rt-submission-readiness
-description: Use right before submitting — run a venue-parameterized go/no-go scorecard on the author's own manuscript (fit, identification, robustness, exhibits, exposition, venue mechanics, data/code, pre-empted objections). Returns PASS/FLAG/FAIL per dimension, the blocking gaps, and the desk-reject risk. Reads the venue bar from the target pack + source-map.
+description: Use when an author is one revision away from submission and needs a venue-parameterized go/no-go scorecard on the actual manuscript: fit, identification, robustness, exhibits, exposition, venue mechanics, data/code, and pre-empted objections. Returns PASS/FLAG/FAIL per dimension, the blocking gaps, and the desk-reject risk. Reads the venue bar from the target pack + source-map.
 ---
 
 # Submission-Readiness Self-Check (rt-submission-readiness)
@@ -14,6 +14,17 @@ It is the outward-facing analogue of the repo's internal `tools/quality_scorecar
 
 - The draft is "done" and the author is about to submit to a named venue.
 - Before paying a submission fee / starting the portal.
+- After `rt-journal-match` selects the target and after `rt-execution-bridge` has run any
+  empirical checks the paper depends on.
+
+## Inputs to load
+
+1. The manuscript or submission packet, including front matter, main text, exhibits,
+   appendix, data/code statement, and cover letter if drafted.
+2. The target journal pack's `README.md`, relevant skills, and
+   `resources/official-source-map.md`.
+3. Any executed analysis artifacts from `rt-execution-bridge`: result handles, audit gaps,
+   robustness outputs, and replication/package notes.
 
 ## What it does
 
@@ -28,6 +39,17 @@ reproducibility · 9. Pre-empted referee objections.
 **Go/no-go:** any FAIL on Fit, Identification, or Venue-mechanics is a no-go (the classic
 desk-reject triggers).
 
+## Decision contract
+
+| Result | Meaning | Required next action |
+|---|---|---|
+| `GO` | No blocking FAIL and all venue mechanics are verified. | Run `rt-simulated-referee` for the substantive attack surface before submission. |
+| `CONDITIONAL GO` | No fatal desk-reject trigger, but one or more FLAG items will draw reviewer pressure. | Fix or explicitly justify each FLAG; rerun this check on the changed sections. |
+| `NO-GO` | Any FAIL on fit, identification/method, or venue mechanics, or an unverifiable required venue rule. | Route each blocking item to the owning target-pack skill and rerun before opening the portal. |
+
+For `UNKNOWN`, name the missing evidence and the smallest artifact needed to resolve it. Do
+not silently upgrade `UNKNOWN` to PASS.
+
 ## Hard rules
 
 1. **Read the manuscript; cite locations** — no status without a §/table/page reference.
@@ -35,6 +57,8 @@ desk-reject triggers).
 3. **No false green** — unverifiable dimension → `UNKNOWN`, not PASS.
 4. **Map every FAIL/FLAG to the owning skill** (and its execution bridge) so the author
    knows exactly where to fix it.
+5. **Separate mechanics from judgment** — this skill catches preventable desk-reject risk;
+   use `rt-simulated-referee` for the substantive probability of surviving peer review.
 
 ## Output format
 
@@ -44,6 +68,7 @@ desk-reject triggers).
 【Go / No-go】GO / NO-GO — deciding dimension(s)
 【Blocking gaps (FAIL)】ranked; each with the fix + owning skill
 【Will-be-pushed (FLAG)】referee-anticipation list
+【Unknowns】missing evidence required before a green light
 【Desk-reject risk】low / medium / high — why
 ```
 

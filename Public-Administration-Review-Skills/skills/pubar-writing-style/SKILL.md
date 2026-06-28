@@ -30,6 +30,35 @@ respecting the format — not about generating claims.
 4. **Argument-first prose.** Lead with claims; use evidence to support them. Avoid "the data show…"
    without saying what they show and why it matters for administration.
 
+## Evidence for Practice calibration
+
+Evidence for Practice points should be useful to a reflective practitioner, but each point must stay
+inside the evidence. Draft them with a claim-evidence-action chain.
+
+| Takeaway layer | Strong version | Weak version |
+|----------------|----------------|--------------|
+| Finding | names the empirical or conceptual result in plain language | "This study has implications" |
+| Action implication | says what a manager, agency, or public leader should reconsider | generic "policymakers should pay attention" |
+| Boundary | states where the advice applies and where it may not | universal recommendation from one setting |
+| Evidence anchor | points to the table, model, case, or review logic that supports it | no trace back to manuscript evidence |
+| Caution | names risk, equity concern, implementation constraint, or uncertainty | hides limitations to sound practical |
+
+If a point cannot name its evidence anchor, rewrite it as a question for practice or remove it.
+
+## Dual-reader paragraph test
+
+PAR prose has to survive two readers at once. Use this check on the introduction, discussion, and
+Evidence for Practice box.
+
+| Reader | What they need in the paragraph |
+|--------|--------------------------------|
+| Public administration scholar | construct, literature stake, method/design warrant, and contribution to the field |
+| Practitioner | administrative problem, decision relevance, implementation context, and limit of the advice |
+
+Most paragraphs can lead with one reader's need, but the introduction and discussion should not leave
+the other reader waiting more than a paragraph. When prose becomes theory-heavy, add the administrative
+decision it informs. When prose becomes managerial, add the evidence or concept that keeps it scholarly.
+
 ## Format (APA author–date; confirm current edition)
 
 - **Citations**: APA author–date style (manage with Zotero/BibTeX); keep one consistent style.
@@ -45,6 +74,34 @@ respecting the format — not about generating claims.
   `pubar-literature-positioning`).
 - Tighten endnotes and references — they count toward the 8,000-word limit at PAR.
 - Prefer one decisive figure to three redundant tables.
+
+## Word-budget triage for PAR
+
+Cut to protect the research-practice bridge, not just to hit a number.
+
+| Overlong part | Keep | Cut or move |
+|---------------|------|-------------|
+| Introduction | question, contribution, public-management stake, practice relevance | long problem history or generic reform rhetoric |
+| Literature | debate that creates the public administration gap | adjacent theory not used in the claim |
+| Methods | design warrant and transparency essentials | implementation detail better suited to supplement |
+| Results | evidence that supports the contribution and practice points | redundant models or robustness exhibits |
+| Discussion | what changes for scholarship and practice | vague lessons, unsupported recommendations |
+| Evidence for Practice | 3-5 bounded, evidence-anchored takeaways | slogans, mandates, or future-research ideas |
+
+After every cut, re-check that each Evidence for Practice point still has a visible manuscript anchor.
+
+## Abstract and title-page pass
+
+The abstract is short, so make each sentence do a job:
+
+1. public administration problem and audience;
+2. method or evidence base;
+3. central finding or argument;
+4. implication for research and practice.
+
+Do not spend the abstract on motivation alone. Also re-run the double-blind pass after final edits:
+self-citations, acknowledgments, file metadata, funder names, and identifying institutions tend to
+creep back in during late polishing.
 
 ## Anti-patterns
 
@@ -62,6 +119,8 @@ respecting the format — not about generating claims.
 【Reads past the niche?】jargon defined / acronyms spelled? [Y/N]
 【Abstract】word count (≤150)
 【Word count】≤8,000 incl. abstract/endnotes/references?
+【Practice calibration】each takeaway has finding / action / boundary / evidence anchor? [Y/N]
+【Dual-reader pass】scholar + practitioner both served by intro/discussion? [Y/N]
 【APA style + anonymized (double-blind)】[Y/N]
 【Next】pubar-transparency-and-data
 ```
