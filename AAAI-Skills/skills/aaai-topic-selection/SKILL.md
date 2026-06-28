@@ -47,6 +47,39 @@ result. Use the dominant signal to decide between AAAI and a specialist venue.
 | Domain deployment, thin AI | weak | KDD, CHI, or ICRA |
 | Stakeholder-facing impact work | strong via AI for Social Impact | domain policy venue |
 
+## Broad-AI contribution stress test
+
+Before routing to AAAI, rewrite the project in three forms. If any form collapses into a dataset name
+or a leaderboard delta, the submission needs reframing or a specialist venue.
+
+| Stress-test form | Strong answer | Weak answer |
+| --- | --- | --- |
+| One-sentence AI problem | names a general reasoning, learning, planning, representation, evaluation, alignment, or human-AI problem | names only an application domain |
+| Contribution type | method, theory, benchmark, dataset, evaluation, system, social-impact analysis, or alignment intervention | "we apply model X to task Y" |
+| Transfer argument | explains why the insight should matter across tasks, models, settings, or stakeholders | only says one benchmark improves |
+| Evidence shape | mechanism, ablation, comparison, human/stakeholder evidence, or formal result tied to the claim | one table with no diagnostic support |
+| Limitation | states where the approach should not be expected to work | hides the narrowness until the appendix |
+
+If the strong answer is hard to write, do not force AAAI fit. Route the paper to the community whose
+reviewers naturally value the main evidence: ML method/theory, uncertainty/statistics, NLP, vision,
+robotics, HCI, systems, or the application domain.
+
+## Route decision ledger
+
+Keep a short ledger for borderline projects. It should contain:
+
+- **Dominant contribution:** the one contribution type the paper wants to be judged on.
+- **Primary reviewer:** the AAAI-adjacent reviewer who can fairly evaluate it.
+- **Secondary reviewer:** the cross-area reviewer who must still understand the first page.
+- **Must-have evidence:** the result, theorem, ablation, artifact, user/stakeholder evidence, or
+  benchmark analysis without which AAAI fit fails.
+- **Better venue if missing:** the specialist venue that becomes stronger if the must-have evidence
+  cannot be added before submission.
+
+Use the ledger to prevent ambiguous framing such as "AAAI because it is broad" or "specialist venue
+because reviewers will know the dataset." Broad scope is useful only when the claim is stated at the
+right abstraction level.
+
 ## Worked vignette
 
 A team has a fairness-aware allocation system for a city service. The AI insight is a constraint
@@ -64,4 +97,3 @@ treated as required evidence, not an afterthought.
 [Evidence required] <experiment, theory, artifact, stakeholder analysis>
 [Best venue route] AAAI / IJCAI / NeurIPS / ICML / ICLR / AISTATS / UAI / domain venue
 ```
-

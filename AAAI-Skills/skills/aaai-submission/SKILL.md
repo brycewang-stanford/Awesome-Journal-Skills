@@ -50,6 +50,41 @@ lose, so screen for the mechanical failures first.
 | Checklist | missing or contradictory | Phase-1 distrust |
 | Dual submission | concurrent archival venue | ethics reject |
 
+## Pre-deadline evidence packet
+
+Build a single review-version packet before the abstract deadline, then refresh it before final
+submission. The packet is not a substitute for the official instructions; it is a way to make the
+submission audit reproducible and to keep late fixes from creating new policy problems.
+
+| Packet item | What to capture | Failure it prevents |
+| --- | --- | --- |
+| Policy snapshot | current conference page, Author Kit, submission instructions, supplementary-material rules, and AI-use policy checked dates | applying stale AAAI-26 facts to a later cycle |
+| PDF proof | page count, paper size, style file, checklist placement, font/figure warnings, and metadata scrub result | desk return for formatting or anonymity |
+| Author ledger | OpenReview profiles, conflicts, subject areas, author-limit count, and author-list freeze status | profile conflict, over-limit author, late author change |
+| Supplement ledger | every appendix, multimedia, code/data ZIP, README, license note, and anonymous link policy decision | mutable web pointer or identity leak |
+| Ethics ledger | dual-submission status, human-subjects/data constraints, AI-use disclosure, plagiarism/citation check | policy reject after submission |
+
+For each item, record the evidence path and the person who can fix it. If a rule is uncertain, mark it
+as "requires current chair/author-kit confirmation" instead of guessing.
+
+## Anonymity sweep order
+
+Run anonymity checks in a fixed order so fixes do not reintroduce leaks:
+
+1. PDF text: names, affiliations, acknowledgments, grants, self-identifying project names, and obvious
+   self-citations.
+2. PDF metadata: title, author, producer, comments, embedded attachments, and file name.
+3. References: prior work phrased as "our previous" or "submitted to" when blind citation would be
+   required.
+4. Supplement: ZIP names, directory names, notebooks, comments, plots, data paths, license files, and
+   executable logs.
+5. External references: GitHub, project pages, anonymous archives, videos, demos, or issue trackers.
+6. OpenReview metadata: author list, conflicts, subject areas, institutional hints in abstract or
+   keywords.
+
+The output should separate "must fix before submission" from "acceptable but document why." Do not rely
+on a single manual skim; use PDF metadata tools, archive listing, and text search when available.
+
 ## Worked vignette
 
 A robotics-learning team has 7 strong technical pages but left an acknowledgments line and a GitHub
@@ -66,4 +101,3 @@ ZIP metadata, then re-export and re-run the anonymity sweep before the paper dea
 [Highest summary-reject risk] <one issue>
 [Fix order] <ordered fixes before submission>
 ```
-

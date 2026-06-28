@@ -42,6 +42,40 @@ because it signals the checklist was filled in carelessly.
 | compute disclosed | train vs. inference vs. search cost | "hidden tuning budget" |
 | data accessible | license and access path | "irreproducible by anyone" |
 
+## Claim-evidence ledger
+
+Create a row for every claim that appears in the abstract, introduction, or conclusion. The ledger
+should be short enough to audit before submission and concrete enough that a Phase-1 reviewer can see
+that each headline claim is checkable.
+
+| Ledger field | What to record | Common failure |
+| --- | --- | --- |
+| Claim text | exact sentence or paraphrase from the paper | claim becomes stronger than the evidence |
+| Evidence artifact | theorem, table, figure, appendix, code command, data sheet, or log path | evidence exists but is not submitted |
+| Reproducibility inputs | seeds, splits, prompts, preprocessing, hardware, hyperparameters, and model versions | rerun cannot recreate the result |
+| Variance and controls | confidence interval, standard deviation, multiple seeds, ablation, or matched-compute baseline | single lucky run drives the claim |
+| Checklist answer | the checklist item whose answer depends on this artifact | checklist contradicts the supplement |
+| Reviewer risk | what a skeptical reviewer would challenge first | rebuttal cannot fix missing evidence |
+
+For each row, choose one of three actions: **keep** the claim because the artifact is present,
+**weaken** the claim to match the evidence, or **add** the missing artifact before submission. Do not
+leave a row in "promise later" state.
+
+## Artifact dry-run
+
+Before upload, run the artifact as if the reviewer has no private context:
+
+1. Unzip the submitted package into a clean directory.
+2. Read only the included README, not local lab notes.
+3. Run the smallest command that regenerates one headline table or figure.
+4. Check that expected runtime, hardware, random seeds, data download/access, and license constraints
+   are stated before the command.
+5. Confirm that output files have deterministic names and map back to paper tables.
+6. Mark any non-runnable or restricted component as such in both the README and checklist.
+
+The dry-run can be small; it does not need to reproduce every experiment. Its purpose is to prove that
+the submitted artifact is not merely decorative and that the checklist answers are honest.
+
 ## Reviewer-pushback patterns
 
 - "Checklist says code available but I see only figures." Fix: ship scripts and a one-line driver
@@ -67,4 +101,3 @@ dataset license note, after which the checklist answer becomes truthful and Phas
 [Compute/data disclosure] complete / incomplete
 [Priority fixes] <smallest changes before submission>
 ```
-
