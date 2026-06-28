@@ -6321,6 +6321,295 @@ Captured after publishing commit `8d734a80af1b23dd23d5d8be728e7396810e4336`.
   - `git diff --check`
     -> passed after this entry.
 
+### 2026-06-28 - Post-Publish Current Queue Guard Stabilization
+
+- Scope: root/tooling-only dashboard guard hardening. Edited
+  `tools/monthly_uplift_report.py`, `tools/README.md`, and this worklog; no
+  journal pack content, source-map facts, root cards, counts,
+  execution-bridge links, or claims rows were changed in this loop.
+- Rationale: after loop 99 was committed, the clean checkout made
+  `tools/run_checks.py --skip-reports` correctly re-run
+  `monthly_uplift_report.py --check-worklog latest`, but Current Next Queue v5
+  still required pre-publish dirty root/tooling path counts and the
+  publish-policy fingerprint. Full-gate Current Next Queue text could also
+  inherit the worktree-sensitive handoff-manifest fingerprint. That made the
+  durable handoff valid before publish but stale immediately after publish.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`, and
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `current_next_queue` advanced to `current-next-queue-v6`. The guard
+  still pins loop-control status, schema, content/remaining-debt state,
+  owner-clearance queue, next-batch plan, command plan, quality-floor command,
+  SkillOpt plan, full-gate goal/completion fingerprints, and the handoff
+  contract, but no longer treats volatile dirty path counts, publish-policy
+  fingerprints, or handoff-manifest fingerprints as required Current Next
+  Queue fragments. The README now documents that worktree-boundary,
+  publish-plan, and handoff-manifest checks own those live dirty-state facts.
+- Live metrics:
+  - Inventory: 2902 skills / 195 packs / 200 root entries.
+  - Quality: mean 93.6, min 90.0, below 90: 0.
+  - Execution bridge: 131 / 134 wired; 3 missing.
+  - Source maps: 194 maps, 0 warnings, max unresolved 14.
+  - Root entries: 200 enriched, 0 machine-only, 0 warnings.
+  - Command plan: 6 measurement / 12 validation; sha256 `b55d83624d2e`.
+  - Schema: `monthly-uplift-dashboard-v19`; nested-contracts fingerprint
+    `1227892267d4`.
+  - Next-batch plan: `monthly-uplift-next-batch-plan-v1`; 6 items; full-gate
+    fingerprint `edfb807b76d3`; skip-clone fingerprint `935962a368cb`.
+  - Current next queue: `current-next-queue-v6`; 39 full-gate fragments;
+    sha256 `7e84f87e56f6`; 35 skip-clone fragments, sha256
+    `977fc5cc997b`.
+  - Goal progress: `monthly-uplift-goal-progress-v3`;
+    full-gate status `active-owner-clearance-needed`, sha256
+    `859bf30cfba9`; skip-clone status `active-partial-clone-skipped`,
+    sha256 `22ce69e83f6a`.
+  - Completion audit: `monthly-uplift-completion-audit-v5`; not-complete;
+    full-gate fingerprint `c88d3141db23`; skip-clone fingerprint
+    `e24cf4ed12d2`.
+  - Handoff manifest: `monthly-uplift-handoff-v4`; full-gate fingerprint
+    `423869638258`; skip-clone fingerprint `1de37d271390`.
+- Loop-control:
+  - Status: `owner-clearance-needed`.
+  - Next lane: `tooling-or-owner-clearance`.
+  - Reason: visible content debt is claim-sensitive; continue tooling work
+    unless owner clearance is granted.
+  - Unclaimed score/source/bridge candidates: 0 / 0 / 0.
+  - Claim-sensitive score/source/bridge targets: 20 / 20 / 3.
+  - Dirty skipped packs: 0.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop100-final.json`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --output /tmp/ajs-loop100-final-full.json`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-monthly-worklog-template.md`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop100-final.md`
+    -> PASS after this entry.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS after this entry.
+  - `python3 tools/run_checks.py`
+    -> PASS after this entry.
+  - `python3 tools/audit_repo.py --counts`
+    -> PASS; counts remain 2902 skills / 195 packs / 200 root entries.
+  - `python3 tools/quality_scorecard.py --top 20`
+    -> PASS; quality mean 93.6, min 90.0, below 86/88/90 = 0/0/0.
+  - `python3 tools/quality_scorecard.py --top 15 --min-score 90`
+    -> PASS; no packs below the enforced 90.0 floor.
+  - `python3 tools/source_map_audit.py`
+    -> PASS; scanned 194 first-party official source maps, warnings 0.
+  - `python3 tools/root_entry_audit.py`
+    -> PASS; 200 root journal entries, 200 enriched, 0 machine-only, warnings
+    0.
+  - `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`
+    -> PASS; no pairs at or above threshold 0.750.
+  - `git diff --check`
+    -> passed after this entry.
+
+### 2026-06-28 - Current Queue Volatility Regression Self-Test
+
+- Scope: root/tooling-only dashboard self-test hardening. Edited
+  `tools/monthly_uplift_report.py` and this worklog; no journal pack content,
+  source-map facts, root cards, counts, execution-bridge links, or claims rows
+  were changed in this loop.
+- Rationale: loop 100 intentionally moved volatile dirty worktree counts,
+  publish-policy fingerprints, and handoff-manifest fingerprints out of the
+  durable Current Next Queue fragment set. That boundary should be enforced by
+  the dependency-free self-test so a later dashboard edit cannot accidentally
+  reintroduce a pre-publish-only fragment.
+- Files: `tools/monthly_uplift_report.py` and
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `monthly_uplift_report.py --self-test` now mutates
+  `worktree_boundary`, `publish_units`, `publish_policy`, and
+  `handoff_manifest` volatile fields in a fixture and asserts that
+  `current-next-queue-v6` remains unchanged. It also explicitly rejects the old
+  root/tooling path-count, pack-content count, publish-policy fingerprint, and
+  handoff-manifest fingerprint fragments from the v6 required-fragment set.
+- Live metrics:
+  - Inventory: 2902 skills / 195 packs / 200 root entries.
+  - Quality: mean 93.6, min 90.0, below 90: 0.
+  - Execution bridge: 131 / 134 wired; 3 missing.
+  - Source maps: 194 maps, 0 warnings, max unresolved 14.
+  - Root entries: 200 enriched, 0 machine-only, 0 warnings.
+  - Command plan: 6 measurement / 12 validation; sha256 `b55d83624d2e`.
+  - Schema: `monthly-uplift-dashboard-v19`; nested-contracts fingerprint
+    `1227892267d4`.
+  - Next-batch plan: `monthly-uplift-next-batch-plan-v1`; 6 items; full-gate
+    fingerprint `edfb807b76d3`; skip-clone fingerprint `935962a368cb`.
+  - Current next queue: `current-next-queue-v6`; 39 full-gate fragments;
+    sha256 `b9903d8638ba`; 35 skip-clone fragments, sha256
+    `977fc5cc997b`.
+  - Goal progress: `monthly-uplift-goal-progress-v3`;
+    full-gate status `active-owner-clearance-needed`, sha256
+    `14ae472296d4`; skip-clone status `active-partial-clone-skipped`,
+    sha256 `aa66f3ca1ad9`.
+  - Completion audit: `monthly-uplift-completion-audit-v5`; not-complete;
+    full-gate fingerprint `3b4c8ef2d368`; skip-clone fingerprint
+    `408b9d4e85c1`.
+  - Handoff manifest: `monthly-uplift-handoff-v4`; full-gate fingerprint
+    `08173399c57d`; skip-clone fingerprint `ae2f2ac583a7`.
+- Loop-control:
+  - Status: `owner-clearance-needed`.
+  - Next lane: `tooling-or-owner-clearance`.
+  - Reason: visible content debt is claim-sensitive; continue tooling work
+    unless owner clearance is granted.
+  - Unclaimed score/source/bridge candidates: 0 / 0 / 0.
+  - Claim-sensitive score/source/bridge targets: 20 / 20 / 3.
+  - Dirty skipped packs: 0.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop101-final.json`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --output /tmp/ajs-loop101-final-full.json`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-monthly-worklog-template.md`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop101-final.md`
+    -> PASS after this entry.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS after this entry.
+  - `python3 tools/run_checks.py`
+    -> PASS after this entry.
+  - `python3 tools/audit_repo.py --counts`
+    -> PASS; counts remain 2902 skills / 195 packs / 200 root entries.
+  - `python3 tools/quality_scorecard.py --top 20`
+    -> PASS; quality mean 93.6, min 90.0, below 86/88/90 = 0/0/0.
+  - `python3 tools/quality_scorecard.py --top 15 --min-score 90`
+    -> PASS; no packs below the enforced 90.0 floor.
+  - `python3 tools/source_map_audit.py`
+    -> PASS; scanned 194 first-party official source maps, warnings 0.
+  - `python3 tools/root_entry_audit.py`
+    -> PASS; 200 root journal entries, 200 enriched, 0 machine-only, warnings
+    0.
+  - `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`
+    -> PASS; no pairs at or above threshold 0.750.
+  - `git diff --check`
+    -> passed after this entry.
+
+### 2026-06-28 - Worktree-Sensitive Delta Label Alignment
+
+- Scope: root/tooling-only dashboard and documentation alignment. Edited
+  `tools/monthly_uplift_report.py`, `tools/README.md`, and this worklog; no
+  journal pack content, source-map facts, root cards, counts,
+  execution-bridge links, or claims rows were changed in this loop.
+- Rationale: Current Next Queue v6 deliberately leaves dirty worktree counts,
+  publish-policy fingerprints, and handoff-manifest fingerprints to dedicated
+  checks. `--compare-json` still displayed those fingerprint deltas with plain
+  labels, and the tools README still described the older v5 pinning behavior.
+  That could make a normal pre-publish versus clean-checkout fingerprint drift
+  look like durable content debt.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`, and
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `--compare-json` now labels worktree-boundary, publish-policy, and
+  handoff-manifest fingerprint rows as worktree-sensitive in compact handoff,
+  Markdown, and worklog-template output. The dependency-free self-test asserts
+  those labels across all three renderers, and the tools README now documents
+  the v6 queue guard instead of the older v5 fingerprint contract.
+- Live metrics:
+  - Inventory: 2902 skills / 195 packs / 200 root entries.
+  - Quality: mean 93.6, min 90.0, below 90: 0.
+  - Execution bridge: 131 / 134 wired; 3 missing.
+  - Source maps: 194 maps, 0 warnings, max unresolved 14.
+  - Root entries: 200 enriched, 0 machine-only, 0 warnings.
+  - Command plan: 6 measurement / 12 validation; sha256 `b55d83624d2e`.
+  - Schema: `monthly-uplift-dashboard-v19`; nested-contracts fingerprint
+    `1227892267d4`.
+  - Next-batch plan: `monthly-uplift-next-batch-plan-v1`; 6 items; full-gate
+    fingerprint `edfb807b76d3`; skip-clone fingerprint `935962a368cb`.
+  - Current next queue: `current-next-queue-v6`; 39 full-gate fragments;
+    sha256 `65fde6a85696`; 35 skip-clone fragments, sha256
+    `977fc5cc997b`.
+  - Goal progress: `monthly-uplift-goal-progress-v3`;
+    full-gate status `active-owner-clearance-needed`, sha256
+    `011e05f9086b`; skip-clone status `active-partial-clone-skipped`,
+    sha256 `cf59e8b0c08c`.
+  - Completion audit: `monthly-uplift-completion-audit-v5`; not-complete;
+    full-gate fingerprint `fa250b8dd645`; skip-clone fingerprint
+    `38fb03c9dfa8`.
+  - Handoff manifest: `monthly-uplift-handoff-v4`; full-gate fingerprint
+    `4b4e9c815298`; skip-clone fingerprint `26cba57a037f`.
+- Loop-control:
+  - Status: `owner-clearance-needed`.
+  - Next lane: `tooling-or-owner-clearance`.
+  - Reason: visible content debt is claim-sensitive; continue tooling work
+    unless owner clearance is granted.
+  - Unclaimed score/source/bridge candidates: 0 / 0 / 0.
+  - Claim-sensitive score/source/bridge targets: 20 / 20 / 3.
+  - Dirty skipped packs: 0.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop102-final.json`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --output /tmp/ajs-loop102-final-full.json`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --compare-json /tmp/ajs-loop102-baseline.json`
+    -> PASS after this entry and renders the worktree-sensitive delta labels.
+  - `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-monthly-worklog-template.md`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop102-final.md`
+    -> PASS after this entry.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS after this entry.
+  - `python3 tools/run_checks.py`
+    -> PASS after this entry.
+  - `python3 tools/audit_repo.py --counts`
+    -> PASS; counts remain 2902 skills / 195 packs / 200 root entries.
+  - `python3 tools/quality_scorecard.py --top 20`
+    -> PASS; quality mean 93.6, min 90.0, below 86/88/90 = 0/0/0.
+  - `python3 tools/quality_scorecard.py --top 15 --min-score 90`
+    -> PASS; no packs below the enforced 90.0 floor.
+  - `python3 tools/source_map_audit.py`
+    -> PASS; scanned 194 first-party official source maps, warnings 0.
+  - `python3 tools/root_entry_audit.py`
+    -> PASS; 200 root journal entries, 200 enriched, 0 machine-only, warnings
+    0.
+  - `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`
+    -> PASS; no pairs at or above threshold 0.750.
+  - `git diff --check`
+    -> passed after this entry.
+
 ## Current Next Queue
 
 - Unclaimed score-floor protection after score-ceiling triage: 0 actionable
@@ -6341,10 +6630,9 @@ Captured after publishing commit `8d734a80af1b23dd23d5d8be728e7396810e4336`.
   `request-owner-clearance-before-wiring`, and
   `execution_bridge_owner_clearance_required: true`, so do not wire it without
   owner clearance.
-- Local publish-unit split: root/tooling currently forms one ready unit with 3
-  paths (`tools/README.md`, `tools/monthly_uplift_report.py`,
-  and `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`); pack content currently has
-  0 dirty lanes (`empty`) and remains `needs-owner-review` for any future
+- Local publish-unit split: keep root/tooling and pack-content publish units
+  separate, re-run the read-only publish plan for the live staging command,
+  and keep pack content marked `needs-owner-review` for any future
   path-scoped publish.
 - Loop-control status: `owner-clearance-needed`; next safe lane is
   `tooling-or-owner-clearance`, with execution-bridge tail still blocked on
@@ -6356,17 +6644,18 @@ Captured after publishing commit `8d734a80af1b23dd23d5d8be728e7396810e4336`.
   plan is 6 measurement commands / 12 validation commands with fingerprint
   `b55d83624d2e`, and rendered handoffs, delta views, and worklog templates
   read the same command plan from the summary.
-- Current-next-queue contract: `current-next-queue-v5`; `--check-worklog latest`
+- Current-next-queue contract: `current-next-queue-v6`; `--check-worklog latest`
   now builds a live lightweight dashboard snapshot with the canonical 20-row
   monthly display context and rejects stale Current Next Queue status,
-  boundary, and fingerprint fragments before accepting the dated worklog. The
-  v5 guard also requires content-edit policy, remaining-debt, next-batch plan,
-  local publish policy, command-plan counts, and the explicit quality-floor
-  command in all modes. Full clone-gate runs additionally require
-  goal-progress, completion-audit, and handoff-manifest fingerprints;
-  skip-clone snapshots keep only the mode-stable fragments. The current
-  Current Next Queue fingerprint is full-gate `07d40954f6c3` and skip-clone
-  `0cead908d839`.
+  and durable fingerprint fragments before accepting the dated worklog. The v6
+  guard requires content-edit policy, remaining-debt, next-batch plan, local
+  publish policy status, command-plan counts, and the explicit quality-floor
+  command in all modes, while leaving dirty path counts, publish-policy
+  fingerprints, and handoff-manifest fingerprints to their dedicated checks.
+  Full clone-gate runs additionally require goal-progress and completion-audit
+  fingerprints; skip-clone snapshots keep only the mode-stable fragments. The
+  current Current Next Queue fingerprint is full-gate `65fde6a85696` and
+  skip-clone `977fc5cc997b`.
 - Machine-readable SkillOpt gate handoff: the same JSON snapshot now carries
   `skillopt_gate_plan` with contract
   `monthly-uplift-skillopt-gate-plan-v1`, SkillOpt gate plan status
@@ -6387,7 +6676,7 @@ Captured after publishing commit `8d734a80af1b23dd23d5d8be728e7396810e4336`.
   `skillopt_gate_plan`, and `current_next_queue`; `--check`
   rejects missing or stale full dashboard schema contracts and stale nested
   contract registries. The current nested-contracts fingerprint is
-  `3bf3aafa90d7`.
+  `1227892267d4`.
 - Machine-readable completion-audit handoff: the same JSON snapshot now carries
   `completion_audit` with contract `monthly-uplift-completion-audit-v5`,
   13 requirements, 10 OK / 3 triaged / 0 review, 3 blockers, and SkillOpt gate
@@ -6433,24 +6722,26 @@ Captured after publishing commit `8d734a80af1b23dd23d5d8be728e7396810e4336`.
   `publish_policy` with contract `local-publish-policy-v1`, publish policy
   status `local-only-owner-review`, local-only status, explicit `publish_requested: false`,
   path-scoped staging requirement, allowed root/tooling unit, blocked
-  pack-content unit, owner-review state, and fingerprint `b3a001f231ab`;
-  `--check` rejects drift from `publish_units` and the content-edit policy.
+  pack-content unit, owner-review state, root/tooling staging command, and a
+  live fingerprint; `--check` rejects drift from `publish_units` and the
+  content-edit policy. The Current Next Queue v6 guard intentionally does not
+  pin that volatile fingerprint.
 - Machine-readable goal-progress handoff: the same JSON snapshot now carries
   `goal_progress` with contract `monthly-uplift-goal-progress-v3`, goal-progress status
   `active-owner-clearance-needed` in full clone-gate runs and
   `active-partial-clone-skipped` in skip-clone snapshots, worklog loop count,
   score/source/root invariant status, clone-audit status, execution-bridge
   coverage, command-plan counts, owner-clearance/local-only state, dirty
-  pack-lane count, reason text, full-gate fingerprint `131009d5c0d9`, and
-  skip-clone fingerprint `755b2e440dfa`; `--check` rejects drift from the live
+  pack-lane count, reason text, full-gate fingerprint `011e05f9086b`, and
+  skip-clone fingerprint `cf59e8b0c08c`; `--check` rejects drift from the live
   summary.
 - Machine-readable completion-audit handoff: the same JSON snapshot now carries
   `completion_audit` with completion status, goal-status action, requirement
   rows, OK / triaged / review counts, blockers, clone-gate and owner-clearance
   flags, bridge-gap count, remaining-debt status/totals/fingerprint,
   owner-clearance queue total/fingerprint, reason text, completion-audit
-  status `not-complete`, full-gate fingerprint `da7123cc4921`, and skip-clone
-  fingerprint `da7114d7236c`. The
+  status `not-complete`, full-gate fingerprint `fa250b8dd645`, and skip-clone
+  fingerprint `38fb03c9dfa8`. The
   requirement rows include distinct `Remaining debt register` and
   `Owner-clearance queue` rows; `--check` rejects drift from the live
   goal-progress, remaining-debt, owner-clearance queue, clone, worklog, and
@@ -6478,8 +6769,8 @@ Captured after publishing commit `8d734a80af1b23dd23d5d8be728e7396810e4336`.
   fingerprints, content-edit and owner-clearance
   queue/remaining-debt/publish-policy fingerprints, goal-progress fingerprint,
   completion-audit contract/counts/fingerprint, publish-unit counts, and one
-  consolidated handoff fingerprint: full-gate fingerprint `db347184662c` and
-  skip-clone fingerprint `d48e0d4d1e75`.
+  consolidated handoff fingerprint; run the handoff command for the live
+  worktree-specific fingerprint before staging or publishing.
 - Machine-readable next-batch handoff: the same JSON snapshot now carries
   `next_batches` and `next_batch_plan` contract
   `monthly-uplift-next-batch-plan-v1`, next-batch count `6`, 6 items, full-gate fingerprint
