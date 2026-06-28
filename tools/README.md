@@ -284,13 +284,15 @@ edit is safe to hand off.
 The JSON summary exports the same plan as `measurement_commands` and
 `validation_commands`, plus a `command_plan` object with command counts and a
 short SHA-256 fingerprint. The current built-in plan has 6 measurement commands
-and 11 validation commands, with `--publish-plan` included as the local-only
+and 12 validation commands, with `--publish-plan` included as the local-only
 pre-publish boundary check, `--goal-audit` included as the read-only
 completion-evidence check, `--debt-audit` included as the focused
 remaining-debt register, `quality_scorecard.py --top 15 --min-score 90`
 included as the explicit score-floor gate, and `--worklog-template` included
-as the durable handoff-scaffold check. `--check` rejects drift from the
-built-in command plan.
+as the durable handoff-scaffold check. The standalone
+`monthly_uplift_report.py --check-only --limit 20 --skip-clone` command is also
+part of this plan, so live dashboard loop-control drift is visible before the
+full report stack runs. `--check` rejects drift from the built-in command plan.
 Rendered handoffs and worklog templates consume those JSON fields so the
 machine-readable handoff remains the source of truth, and `--compare-json`
 surfaces command-plan count or fingerprint drift across monthly baselines.
