@@ -1,0 +1,4269 @@
+# Monthly Uplift Plan - 2026-06-27
+
+## Objective
+
+Run a count-disciplined, source-grounded month of improvement for Awesome
+Journal Skills. The work should raise the repository by strengthening
+measurement, source integrity, execution capability, and the weakest unclaimed
+packs without inflating counts or trampling active lanes.
+
+## Baseline
+
+Captured after publishing commit `8d734a80af1b23dd23d5d8be728e7396810e4336`.
+
+- Inventory: 2902 skills, 195 first-party packs, 200 root journal entries.
+- Quality scorecard: mean 93.6, min 90.0, below 90 = 0.
+- Source maps: 194 maps, 0 warnings, max unresolved flags = 14.
+- Root entries: 200 enriched, 0 machine-only, 0 warnings.
+- Clone audit: 2902 skills in 350 comparison groups, no pair at or above 0.750.
+- Execution bridge: 131 / 134 empirical depth packs wired.
+- Worktree: clean at the start of this month-long pass.
+
+## One-Month Loop
+
+### Week 1 - Measurement And Debt Closure
+
+- Keep `tools/monthly_uplift_report.py` as the command-center dashboard.
+- Make source-map unresolved debt visible and reduce only the unclaimed,
+  official-source-verifiable cases.
+- Surface the remaining execution-bridge tail in the monthly dashboard.
+- Acceptance gate: `monthly_uplift_report.py --limit 20` shows score floor OK,
+  root-card OK, clone OK, and a smaller or better-triaged source-map tail.
+
+### Week 2 - Execution Capability
+
+- Wire the remaining empirical depth packs to
+  `shared-resources/empirical-methods/execution-with-mcp.md`.
+- Prefer lightweight links and pack-specific placement guidance over duplicated
+  method manuals.
+- Acceptance gate: `quality_scorecard.py` reports 134 / 134 empirical depth
+  packs wired, or the remaining misses are honestly marked non-empirical.
+
+### Week 3 - Bottom-Band Pack Quality
+
+- Sample unclaimed bottom-band packs from the dashboard and deepen the weakest
+  skills with decision ledgers, risk gates, output contracts, and source-backed
+  routing detail.
+- Avoid Agent A/B/C claim-sensitive packs unless claims clear.
+- Acceptance gate: score floor stays >=90, mean score improves or stays flat,
+  and clone audit remains below the reporting threshold.
+
+### Week 4 - Release Readiness And Evidence
+
+- Re-run the full hard-gate stack, clean up stale maintenance notes, and prepare
+  publishable batches if requested.
+- Reconcile docs that mention counts or capability coverage.
+- Acceptance gate: `run_checks.py --skip-reports`, `monthly_uplift_report.py
+  --limit 20`, and `git diff --check` are clean.
+
+## Anti-Cheat Rules
+
+- Do not lower thresholds or suppress warnings to improve reported health.
+- Do not add packs, skills, or root entries unless an expansion lane is opened.
+- Do not replace unresolved source-map facts with unverified claims.
+- Do not edit active claim-sensitive pack content without owner clearance.
+- Do not use blanket staging; publish later only with explicit path staging.
+
+## Batch Log
+
+### 2026-06-27 - Dashboard Bridge-Tail Visibility
+
+- Scope: root tooling and monthly plan only.
+- Rationale: execution-bridge coverage is already tracked in the scorecard, but
+  the monthly dashboard did not surface the exact missing empirical packs or
+  warn when those packs are claim-sensitive.
+- Files: `tools/monthly_uplift_report.py`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `tools/monthly_uplift_report.py --limit 20` now reports
+  `Execution bridge | 131 / 134 empirical depth packs wired; 3 missing` and
+  lists the missing packs:
+  `Academy-of-Management-Annals-Skills`,
+  `Annual-Review-of-Economics-Skills`, and
+  `Social-Sciences-in-China-Skills`.
+- Loop guard: the execution-bridge tail table now includes a `Claim status`
+  column, and `Next Count-preserving Batches` separates unclaimed bridge work
+  from bridge work that needs owner clearance.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py`
+  - `python3 tools/monthly_uplift_report.py --limit 20`
+  - `python3 tools/run_checks.py --skip-reports`
+  - `git diff --check`
+
+### 2026-06-27 - Durable Snapshot Output
+
+- Scope: root tooling and maintenance docs only.
+- Rationale: a month-long loop needs reproducible report artifacts, not just
+  terminal output or chat summaries. The monthly dashboard should be able to
+  persist the exact rendered snapshot used for a batch handoff.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `tools/monthly_uplift_report.py` accepts `--output PATH` for both
+  Markdown and JSON modes. It still prints to stdout, but also writes the same
+  payload to the requested path, creating parent directories when needed.
+- Smoke validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py`
+  - `python3 tools/monthly_uplift_report.py --limit 3 --skip-clone --output /tmp/ajs-monthly-report-smoke.md`
+  - `/tmp/ajs-monthly-report-smoke.md` was written as a 4766-byte Markdown
+    snapshot headed `# Monthly Uplift Health Snapshot`.
+- Full validation before handoff:
+  - `python3 tools/audit_repo.py --counts` -> 2902 skills / 195 packs / 200
+    root entries.
+  - `python3 tools/quality_scorecard.py --top 20 --show-skills` -> mean 93.6,
+    min 90.0, below 90 = 0, execution bridge 131 / 134.
+  - `python3 tools/source_map_audit.py` -> 194 maps, 0 warnings, max
+    unresolved flags = 14.
+  - `python3 tools/root_entry_audit.py` -> 200 enriched, 0 machine-only,
+    0 warnings.
+  - `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`
+    -> no pairs at or above 0.750.
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-2026-06-27.md`
+    -> snapshot written and current dirty set limited to the monthly tooling,
+    tools README, and this worklog.
+  - `python3 tools/run_checks.py --skip-reports` -> all hard checks passed.
+  - `git diff --check` -> passed.
+
+### 2026-06-27 - Research Toolkit Readiness Trigger
+
+- Scope: unclaimed shared toolkit skill; no journal pack content, no counts.
+- Rationale: the monthly dashboard named `Research-Toolkit-Skills` as the top
+  unclaimed score-floor protection candidate, with
+  `Research-Toolkit-Skills/skills/rt-submission-readiness/SKILL.md` marked
+  `[no-use-when]`.
+- Files: `Research-Toolkit-Skills/skills/rt-submission-readiness/SKILL.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `rt-submission-readiness` now has an explicit `Use when` trigger,
+  required inputs, a GO / CONDITIONAL GO / NO-GO decision contract, and an
+  `UNKNOWN` evidence path so the readiness check cannot silently turn missing
+  artifacts into a green light.
+- Score movement:
+  - Before: `Research-Toolkit-Skills` score 91.4 and shown in the dashboard's
+    unclaimed bottom band.
+  - After: `Research-Toolkit-Skills` score 94.0 and no longer appears in
+    `quality_scorecard.py --top 25 --show-skills`.
+- Validation:
+  - `python3 tools/skillopt_gate.py snapshot --out /tmp/ajs-skillopt-rt-before.json`
+  - `python3 tools/quality_scorecard.py --top 25 --show-skills`
+  - `python3 tools/skillopt_gate.py gate --baseline /tmp/ajs-skillopt-rt-before.json --out /tmp/ajs-skillopt-rt-gate.json`
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-2026-06-27-after-rt.md`
+  - `python3 tools/run_checks.py --skip-reports`
+  - `git diff --check`
+  - SkillOpt gate result: PASS; counts unchanged at 2902 / 195 / 200, quality
+    min unchanged at 90.0, below-90 unchanged at 0, source-map/root-card
+    warnings unchanged at 0, clone fail hits 0, claim-sensitive pack edits
+    none, and `tools/run_checks.py --skip-reports` exited 0 inside the gate.
+  - Post-batch dashboard result: next score-floor protection candidates are
+    `Agriculture-Environment-Journal-Skills`, `Clinical-Medicine-Journal-Skills`,
+    and `Engineering-Technology-Journal-Skills`; execution-bridge tail remains
+    claim-sensitive; source-map warnings remain 0.
+
+### 2026-06-27 - Category-Lane Claim Filter Tightening
+
+- Scope: root dashboard claim-sensitivity only; no journal pack content.
+- Rationale: after the Research Toolkit batch, the dashboard treated
+  `Agriculture-Environment-Journal-Skills`, `Clinical-Medicine-Journal-Skills`,
+  `Engineering-Technology-Journal-Skills`, `English-Humanities-Journal-Skills`,
+  and `PNAS-Nexus-Skills` as unclaimed next targets, even though the live
+  `CLAIMS.md` text covers Agent B's natural-science/medicine lane and Agent C's
+  category 3/7/9 humanities, engineering, agriculture, and environment lanes.
+- Files: `tools/monthly_uplift_report.py`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: the dashboard now recognizes Agent B family keywords for medicine /
+  natural-science packs and Agent C category 3/7/9 keywords for humanities,
+  engineering, agriculture, and environment packs. `AER-Insights-Skills` is also
+  treated as Agent A econ-lane sensitive. The over-broad `science` family keyword
+  was avoided so political-science and psychological-science packs do not get
+  misclassified as Agent B targets.
+- Post-filter dashboard result:
+  - The next score-floor protection queue now starts at `AAAI-Skills`,
+    `Annals-of-the-American-Association-of-Geographers-Skills`, and
+    `Governance-Journal-Skills` instead of the claim-sensitive breadth packs.
+  - The unclaimed source-map queue now shows only
+    `World-Development-Skills/resources/official-source-map.md`; `PNAS-Nexus`
+    is claim-sensitive under the broader Agent B rule.
+  - Execution-bridge tail remains claim-sensitive and unchanged.
+- World Development source-map triage: official Elsevier / ScienceDirect pages
+  remain the right authority, but command-line extraction of the dynamic page did
+  not produce clean enough reviewable text in this pass. No `待核实` marker was
+  removed without a clean official-source verification.
+- Validation so far:
+  - `python3 -m py_compile tools/monthly_uplift_report.py`
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-claim-filter-2.md`
+  - `python3 tools/audit_repo.py --counts` -> 2902 skills / 195 packs / 200
+    root entries.
+  - `python3 tools/quality_scorecard.py --top 20 --show-skills` -> mean 93.6,
+    min 90.0, below 90 = 0, execution bridge 131 / 134.
+  - `python3 tools/source_map_audit.py` -> 194 maps, 0 warnings, max
+    unresolved flags = 14.
+  - `python3 tools/root_entry_audit.py` -> 200 enriched, 0 machine-only,
+    0 warnings.
+  - `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`
+    -> no pairs at or above 0.750.
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-final-current.md`
+    -> current next queue reflects the tightened claim filter.
+  - `python3 tools/run_checks.py --skip-reports` -> all hard checks passed.
+  - `git diff --check` -> passed.
+
+### 2026-06-27 - AAAI Experiment Evidence Ledger
+
+- Scope: unclaimed completed CS/AI conference depth pack; one skill body only;
+  no counts and no active claim-sensitive lane.
+- Rationale: after claim-filter tightening, `AAAI-Skills` became the first
+  unclaimed score-floor protection candidate. The weakest file was
+  `AAAI-Skills/skills/aaai-experiments/SKILL.md`.
+- Files: `AAAI-Skills/skills/aaai-experiments/SKILL.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `aaai-experiments` now includes a claim-to-evidence ledger, explicit
+  Phase-1 risk mapping, checklist hooks, AI-assisted-review provenance pressure,
+  and a pre-rebuttal freeze rule so missing baselines, seeds, supplement files,
+  and checklist answers are treated as pre-submission blockers rather than
+  impossible rebuttal TODOs.
+- Score movement:
+  - Pack score remains 94.0 because the score floor is already healthy.
+  - `aaai-experiments` no longer appears in `AAAI-Skills`' first four weakest
+    skills after the targeted edit.
+- Validation:
+  - `python3 tools/skillopt_gate.py snapshot --out /tmp/ajs-skillopt-aaai-before.json`
+  - `python3 tools/quality_scorecard.py --json` targeted to `AAAI-Skills`
+  - `python3 tools/skillopt_gate.py gate --baseline /tmp/ajs-skillopt-aaai-before.json --out /tmp/ajs-skillopt-aaai-gate.json`
+  - SkillOpt gate result: PASS; counts unchanged at 2902 / 195 / 200, quality
+    min unchanged at 90.0, below-90 unchanged at 0, source-map/root-card
+    warnings unchanged at 0, clone fail hits 0, claim-sensitive pack edits
+    none, and `tools/run_checks.py --skip-reports` exited 0 inside the gate.
+
+### 2026-06-27 - Dirty-Pack Candidate Skip
+
+- Scope: root dashboard and tools README only.
+- Rationale: after the AAAI batch, the monthly dashboard still recommended
+  `AAAI-Skills` as the next score-floor protection target because the pack score
+  stayed healthy at 94.0. In a long local loop, that points the next iteration
+  back to an in-progress dirty pack instead of the next untouched candidate.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: the dashboard now extracts dirty `<Pack>-Skills` directories from
+  `git status --short --untracked-files=all`, skips them in the unclaimed score
+  and source-map candidate pools, and prints a `Dirty In-progress Packs Skipped`
+  table.
+- Post-filter dashboard result:
+  - Dirty skipped packs: `AAAI-Skills`, `Research-Toolkit-Skills`.
+  - Next score-floor protection queue:
+    `Annals-of-the-American-Association-of-Geographers-Skills`,
+    `Governance-Journal-Skills`, `ICLR-Skills`.
+  - Source-map queue remains
+    `World-Development-Skills/resources/official-source-map.md`.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py`
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-dirty-skip.md`
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-final-after-worklog.md`
+    -> inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, dirty skipped packs `AAAI-Skills` and
+    `Research-Toolkit-Skills`.
+  - `python3 tools/run_checks.py --skip-reports` -> all hard checks passed.
+  - `git diff --check` -> passed.
+
+### 2026-06-27 - AAAG Exhibit Decision Gate
+
+- Scope: first unclaimed score-floor protection candidate after dirty-pack
+  skipping; one skill body only; no counts, no source-map edits, and no active
+  claim-sensitive lane.
+- Rationale: `Annals-of-the-American-Association-of-Geographers-Skills` was the
+  next untouched candidate in the monthly dashboard. Its weakest file was
+  `Annals-of-the-American-Association-of-Geographers-Skills/skills/aaag-tables-figures/SKILL.md`,
+  which had strong cartographic basics but lacked an operational keep/cut gate
+  for exhibits.
+- Files:
+  `Annals-of-the-American-Association-of-Geographers-Skills/skills/aaag-tables-figures/SKILL.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `aaag-tables-figures` now includes an exhibit decision matrix for
+  locator maps, choropleths, remote-sensing imagery, model plots, and tables;
+  a cartography QA handoff covering file/data/projection/classification/palette
+  and print checks; panel-level audit rules; and output fields for analytic
+  claim and QA completeness.
+- Score movement:
+  - AAAG pack score remains 94.0 because the score is already capped by the
+    healthy floor band.
+  - Pack average substance moved from 614 to 648.
+  - `aaag-tables-figures` moved from 535 substance units and the weakest AAAG
+    skill to outside the first five weakest skills.
+- Validation:
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-loop2-start.md`
+    -> start state unchanged at 2902 / 195 / 200, quality min 90.0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0.
+  - `python3 tools/audit_repo.py --counts` -> 2902 skills / 195 packs / 200
+    root entries.
+  - `python3 tools/quality_scorecard.py --top 20 --show-skills` -> mean 93.6,
+    min 90.0, below 90 = 0, execution bridge 131 / 134.
+  - `python3 tools/source_map_audit.py` -> 194 maps, 0 warnings, max
+    unresolved flags = 14.
+  - `python3 tools/root_entry_audit.py` -> 200 enriched, 0 machine-only,
+    0 warnings.
+  - `python3 tools/skillopt_gate.py snapshot --out /tmp/ajs-skillopt-aaag-before.json`
+  - `python3 tools/quality_scorecard.py --json` targeted to AAAG before/after.
+  - `python3 tools/skillopt_gate.py gate --baseline /tmp/ajs-skillopt-aaag-before.json --out /tmp/ajs-skillopt-aaag-gate.json`
+    -> PASS; counts unchanged, quality min unchanged, below-90 unchanged,
+    source-map/root-card warnings unchanged, clone fail hits 0,
+    claim-sensitive pack edits none, and `tools/run_checks.py --skip-reports`
+    exited 0 inside the gate.
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-aaag-after.md`
+    -> dirty skipped packs now include `AAAI-Skills`,
+    `Annals-of-the-American-Association-of-Geographers-Skills`, and
+    `Research-Toolkit-Skills`; next score-floor queue moves to
+    `Governance-Journal-Skills`, `ICLR-Skills`, `ICML-Skills`.
+  - `python3 tools/run_checks.py --skip-reports` -> all hard checks passed
+    after the worklog update.
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-loop2-final.md`
+    -> inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, and 6 dirty entries.
+  - `git diff --check` -> passed.
+
+### 2026-06-27 - Governance Literature Positioning Gate
+
+- Scope: next unclaimed score-floor protection candidate after AAAG entered
+  dirty-skip; one skill body only; no counts, no source-map edits, and no active
+  claim-sensitive lane.
+- Rationale: `Governance-Journal-Skills` became the next untouched candidate in
+  the dashboard. Its weakest file was
+  `Governance-Journal-Skills/skills/govern-literature-positioning/SKILL.md`,
+  which had a useful audience map but needed a more executable way to turn
+  citations into a comparative-institutional contribution.
+- Files:
+  `Governance-Journal-Skills/skills/govern-literature-positioning/SKILL.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `govern-literature-positioning` now includes a four-line positioning
+  contract, a gap stress-test table, citation-role ledger, literature-section
+  architecture, stronger anti-patterns, and output fields for the contract and
+  citation roles. The change stays away from volatile factual claims and uses
+  the existing source map only as local context.
+- Score movement:
+  - Governance pack score remains 94.0 because the score is already capped by
+    the healthy floor band.
+  - Pack average substance moved from 676 to 708.
+  - `govern-literature-positioning` moved from 562 substance units and the
+    weakest Governance skill to outside the first five weakest skills.
+- Validation:
+  - `python3 tools/skillopt_gate.py snapshot --out /tmp/ajs-skillopt-govern-before.json`
+  - `python3 tools/quality_scorecard.py --json` targeted to Governance
+    before/after.
+  - `python3 tools/skillopt_gate.py gate --baseline /tmp/ajs-skillopt-govern-before.json --out /tmp/ajs-skillopt-govern-gate.json`
+    -> PASS; counts unchanged, quality min unchanged, below-90 unchanged,
+    source-map/root-card warnings unchanged, clone fail hits 0,
+    claim-sensitive pack edits none, and `tools/run_checks.py --skip-reports`
+    exited 0 inside the gate.
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-governance-after.md`
+    -> dirty skipped packs now include `AAAI-Skills`,
+    `Annals-of-the-American-Association-of-Geographers-Skills`,
+    `Governance-Journal-Skills`, and `Research-Toolkit-Skills`; next
+    score-floor queue moves to `ICLR-Skills`, `ICML-Skills`, `IJCAI-Skills`.
+  - `python3 tools/run_checks.py --skip-reports` -> all hard checks passed.
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-loop3-final.md`
+    -> inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, and 7 dirty entries.
+  - `git diff --check` -> passed.
+
+### 2026-06-27 - ICLR Novelty-Risk Related Work Gate
+
+- Scope: next unclaimed score-floor protection candidate after Governance
+  entered dirty-skip; one skill body only; no counts, no source-map edits, and
+  no active claim-sensitive lane.
+- Rationale: `ICLR-Skills` was the first untouched candidate in the dashboard.
+  Its weakest file was `ICLR-Skills/skills/iclr-related-work/SKILL.md`, which
+  had good baseline positioning advice but lacked an operational way to audit
+  novelty claims against public OpenReview-style comparison.
+- Files: `ICLR-Skills/skills/iclr-related-work/SKILL.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `iclr-related-work` now includes a closest-work decision tree, a
+  novelty claim ledger, weak/missing support handling, a public-thread response
+  contract, and a pre-submission audit tying strong novelty phrases to
+  baselines, ablations, proofs, artifacts, or softened claims.
+- Score movement:
+  - ICLR pack score remains 94.0 because the conference pack is already in the
+    healthy floor band.
+  - Pack average substance moved from 450 to 483.
+  - `iclr-related-work` moved from 394 substance units and the weakest ICLR
+    skill to outside the first five weakest skills.
+- Validation:
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-loop4-start.md`
+    -> start state unchanged at 2902 / 195 / 200, quality min 90.0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0.
+  - `python3 tools/audit_repo.py --counts` -> 2902 skills / 195 packs / 200
+    root entries.
+  - `python3 tools/quality_scorecard.py --top 20 --show-skills` -> mean 93.6,
+    min 90.0, below 90 = 0, execution bridge 131 / 134.
+  - `python3 tools/source_map_audit.py` -> 194 maps, 0 warnings, max
+    unresolved flags = 14.
+  - `python3 tools/root_entry_audit.py` -> 200 enriched, 0 machine-only,
+    0 warnings.
+  - `python3 tools/skillopt_gate.py snapshot --out /tmp/ajs-skillopt-iclr-before.json`
+  - `python3 tools/quality_scorecard.py --json` targeted to ICLR before/after.
+  - `python3 tools/skillopt_gate.py gate --baseline /tmp/ajs-skillopt-iclr-before.json --out /tmp/ajs-skillopt-iclr-gate.json`
+    -> PASS; counts unchanged, quality min unchanged, below-90 unchanged,
+    source-map/root-card warnings unchanged, clone fail hits 0,
+    claim-sensitive pack edits none, and `tools/run_checks.py --skip-reports`
+    exited 0 inside the gate.
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-iclr-after.md`
+    -> dirty skipped packs now include `AAAI-Skills`,
+    `Annals-of-the-American-Association-of-Geographers-Skills`,
+    `Governance-Journal-Skills`, `ICLR-Skills`, and
+    `Research-Toolkit-Skills`; next score-floor queue moves to `ICML-Skills`,
+    `IJCAI-Skills`, `Journal-of-Human-Resources-Skills`.
+  - `python3 tools/run_checks.py --skip-reports` -> all hard checks passed.
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-loop4-final.md`
+    -> inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, and 8 dirty entries.
+  - `git diff --check` -> passed.
+
+### 2026-06-27 - ICML Review-Dimension Writing Gate
+
+- Scope: next unclaimed score-floor protection candidate after ICLR entered
+  dirty-skip; one skill body only; no counts, no source-map edits, and no
+  active claim-sensitive lane.
+- Rationale: `ICML-Skills` was the first untouched candidate in the dashboard.
+  Its weakest file was `ICML-Skills/skills/icml-writing-style/SKILL.md`, which
+  had useful 8-page and claim-calibration advice but lacked an operational
+  map from prose to ICML review dimensions and main-body evidence budget.
+- Files: `ICML-Skills/skills/icml-writing-style/SKILL.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `icml-writing-style` now includes a review-dimension map for
+  soundness, originality, significance, clarity, and reproducibility; an
+  8-page evidence-budget table; a public-record pass for original/rebuttal/
+  discussion wording; and output fields for review dimension, page-zone anchor,
+  and public-record defensibility.
+- Score movement:
+  - ICML pack score remains 94.0 because the conference pack is already in the
+    healthy floor band.
+  - Pack average substance moved from 419 to 449.
+  - `icml-writing-style` moved from 383 substance units and the weakest ICML
+    skill to outside the first five weakest skills.
+- Validation:
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-loop5-start.md`
+    -> start state unchanged at 2902 / 195 / 200, quality min 90.0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0.
+  - `python3 tools/audit_repo.py --counts` -> 2902 skills / 195 packs / 200
+    root entries.
+  - `python3 tools/quality_scorecard.py --top 20 --show-skills` -> mean 93.6,
+    min 90.0, below 90 = 0, execution bridge 131 / 134.
+  - `python3 tools/source_map_audit.py` -> 194 maps, 0 warnings, max
+    unresolved flags = 14.
+  - `python3 tools/root_entry_audit.py` -> 200 enriched, 0 machine-only,
+    0 warnings.
+  - `python3 tools/skillopt_gate.py snapshot --out /tmp/ajs-skillopt-icml-before.json`
+  - `python3 tools/quality_scorecard.py --json` targeted to ICML before/after.
+  - `python3 tools/skillopt_gate.py gate --baseline /tmp/ajs-skillopt-icml-before.json --out /tmp/ajs-skillopt-icml-gate.json`
+    -> PASS; counts unchanged, quality min unchanged, below-90 unchanged,
+    source-map/root-card warnings unchanged, clone fail hits 0,
+    claim-sensitive pack edits none, and `tools/run_checks.py --skip-reports`
+    exited 0 inside the gate.
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-icml-after.md`
+    -> dirty skipped packs now include `AAAI-Skills`,
+    `Annals-of-the-American-Association-of-Geographers-Skills`,
+    `Governance-Journal-Skills`, `ICLR-Skills`, `ICML-Skills`, and
+    `Research-Toolkit-Skills`; next score-floor queue moves to
+    `IJCAI-Skills`, `Journal-of-Human-Resources-Skills`, and
+    `Journal-of-Public-Administration-Research-and-Theory-Skills`.
+  - `python3 tools/run_checks.py --skip-reports` -> all hard checks passed.
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-loop5-final.md`
+    -> inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, and 9 dirty entries.
+  - `git diff --check` -> passed.
+
+### 2026-06-27 - IJCAI Camera-Ready Traceability Gate
+
+- Scope: next unclaimed score-floor protection candidate after ICML entered
+  dirty-skip; one skill body only; no counts, no source-map edits, and no
+  active claim-sensitive lane.
+- Rationale: `IJCAI-Skills` was the first untouched candidate in the dashboard.
+  Its weakest file was `IJCAI-Skills/skills/ijcai-camera-ready/SKILL.md`, which
+  covered de-anonymization, copyright, registration, and artifact release but
+  lacked a concrete traceability contract from accepted submission and response
+  promises to the final public package.
+- Files: `IJCAI-Skills/skills/ijcai-camera-ready/SKILL.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `ijcai-camera-ready` now includes an
+  acceptance-to-publication traceability table, a final-package manifest with
+  owners for PDF/source/metadata/presentation/artifact/archive duties,
+  change-control rules for scientific-content risk, and output fields for
+  traceability checks and change-control risk.
+- Score movement:
+  - IJCAI pack score remains 94.0 because the conference pack is already in the
+    healthy floor band.
+  - `ijcai-camera-ready` moved from 524 words to 981 words and is no longer
+    the weakest IJCAI skill; the current weakest skill is
+    `IJCAI-Skills/skills/ijcai-supplementary/SKILL.md`.
+  - Pack average substance is now 489, with the scorecard still capped at 94.0.
+- Validation:
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-loop6-start.md`
+    -> start state unchanged at 2902 / 195 / 200, quality min 90.0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0; first
+    unclaimed candidate was `IJCAI-Skills`.
+  - `git show HEAD:IJCAI-Skills/skills/ijcai-camera-ready/SKILL.md | wc -w`
+    -> 524.
+  - `wc -w IJCAI-Skills/skills/ijcai-camera-ready/SKILL.md` -> 981.
+  - `python3 tools/quality_scorecard.py --json` targeted to IJCAI after edit
+    -> score 94.0, average substance 489, and `ijcai-camera-ready` no longer
+    appears in the five weakest IJCAI skills.
+  - `python3 tools/skillopt_gate.py snapshot --out /tmp/ajs-skillopt-ijcai-before.json`
+  - `python3 tools/skillopt_gate.py gate --baseline /tmp/ajs-skillopt-ijcai-before.json --out /tmp/ajs-skillopt-ijcai-gate.json`
+    -> PASS; counts unchanged, quality min unchanged, below-90 unchanged,
+    source-map/root-card warnings unchanged, clone fail hits 0,
+    claim-sensitive pack edits none, and `tools/run_checks.py --skip-reports`
+    exited 0 inside the gate.
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-loop6-final.md`
+    -> inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, and 10 dirty entries.
+  - `git diff --check` -> passed.
+
+### 2026-06-27 - JHR Replication Package Acceptance Gate
+
+- Scope: next unclaimed score-floor protection candidate after IJCAI entered
+  dirty-skip; one skill body only; no counts, no source-map edits, and no
+  active claim-sensitive lane.
+- Rationale: `Journal-of-Human-Resources-Skills` was the first untouched
+  candidate in the dashboard. Its weakest file was
+  `Journal-of-Human-Resources-Skills/skills/jhr-replication-and-data-policy/SKILL.md`,
+  which stated JHR's archive, DAS, waiver, and CC0 expectations but needed a
+  stronger operational gate for accepted-paper replication-package delivery,
+  restricted data, and exhibit-to-script traceability.
+- Files:
+  `Journal-of-Human-Resources-Skills/skills/jhr-replication-and-data-policy/SKILL.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `jhr-replication-and-data-policy` now includes an
+  acceptance-stage replication gate, a waiver evidence test, an
+  exhibit-to-script manifest, stronger dry-run consistency checks across the
+  archive footnote, DAS, waiver request, read-me, and repository page, plus
+  output fields for replication gate, restricted-data route, and dry-run
+  result.
+- Score movement:
+  - JHR pack score remains 94.0 because the depth pack is already in the
+    healthy floor band.
+  - `jhr-replication-and-data-policy` moved from 691 words to 1196 words and
+    is no longer the weakest JHR skill; the current weakest skill is
+    `Journal-of-Human-Resources-Skills/skills/jhr-writing-style/SKILL.md`.
+  - Pack average substance is now 680, with the scorecard still capped at 94.0.
+- Validation:
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-loop7-start.md`
+    -> start state unchanged at 2902 / 195 / 200, quality min 90.0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0; first
+    unclaimed candidate was `Journal-of-Human-Resources-Skills`.
+  - `git show HEAD:Journal-of-Human-Resources-Skills/skills/jhr-replication-and-data-policy/SKILL.md | wc -w`
+    -> 691.
+  - `wc -w Journal-of-Human-Resources-Skills/skills/jhr-replication-and-data-policy/SKILL.md`
+    -> 1196.
+  - `python3 tools/quality_scorecard.py --json` targeted to JHR after edit
+    -> score 94.0, average substance 680, and
+    `jhr-replication-and-data-policy` no longer appears in the five weakest
+    JHR skills.
+  - `python3 tools/skillopt_gate.py snapshot --out /tmp/ajs-skillopt-jhr-before.json`
+  - `python3 tools/skillopt_gate.py gate --baseline /tmp/ajs-skillopt-jhr-before.json --out /tmp/ajs-skillopt-jhr-gate.json`
+    -> PASS; counts unchanged, quality min unchanged, below-90 unchanged,
+    source-map/root-card warnings unchanged, clone fail hits 0,
+    claim-sensitive pack edits none, and `tools/run_checks.py --skip-reports`
+    exited 0 inside the gate.
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-loop7-final.md`
+    -> inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, and 11 dirty entries.
+  - `git diff --check` -> passed.
+
+### 2026-06-27 - JPART Theory Contribution Ledger
+
+- Scope: next unclaimed score-floor protection candidate after JHR entered
+  dirty-skip; one skill body only; no counts, no source-map edits, and no
+  active claim-sensitive lane.
+- Rationale:
+  `Journal-of-Public-Administration-Research-and-Theory-Skills` was the first
+  untouched candidate in the dashboard. Its weakest file was
+  `Journal-of-Public-Administration-Research-and-Theory-Skills/skills/jpart-theory-building/SKILL.md`,
+  which already stated JPART's theory-first orientation but needed a stronger
+  operational bridge from theory claims to rival accounts, observable
+  implications, evidence strength, and abstract/conclusion alignment.
+- Files:
+  `Journal-of-Public-Administration-Research-and-Theory-Skills/skills/jpart-theory-building/SKILL.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `jpart-theory-building` now includes a theory contribution ledger,
+  a mechanism-to-evidence gate, a rival-theory stress test, an
+  abstract-to-conclusion alignment check, and output fields for rival theory,
+  evidence-gate status, and abstract alignment.
+- Score movement:
+  - JPART pack score remains 94.0 because the depth pack is already in the
+    healthy floor band.
+  - `jpart-theory-building` moved from 591 words to 1143 words and is no
+    longer the weakest JPART skill; the current weakest skill is
+    `Journal-of-Public-Administration-Research-and-Theory-Skills/skills/jpart-transparency-and-data/SKILL.md`.
+  - Pack average substance is now 703, with the scorecard still capped at 94.0.
+- Validation:
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-loop8-start.md`
+    -> start state unchanged at 2902 / 195 / 200, quality min 90.0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0; first
+    unclaimed candidate was
+    `Journal-of-Public-Administration-Research-and-Theory-Skills`.
+  - `python3 tools/audit_repo.py --counts` -> 2902 skills / 195 packs / 200
+    root entries.
+  - `python3 tools/source_map_audit.py` -> 194 maps, 0 warnings, max
+    unresolved flags = 14.
+  - `python3 tools/root_entry_audit.py` -> 200 enriched, 0 machine-only,
+    0 warnings.
+  - `git show HEAD:Journal-of-Public-Administration-Research-and-Theory-Skills/skills/jpart-theory-building/SKILL.md | wc -w`
+    -> 591.
+  - `wc -w Journal-of-Public-Administration-Research-and-Theory-Skills/skills/jpart-theory-building/SKILL.md`
+    -> 1143.
+  - `python3 tools/quality_scorecard.py --json` targeted to JPART after edit
+    -> score 94.0, average substance 703, and `jpart-theory-building` no
+    longer appears in the five weakest JPART skills.
+  - `python3 tools/skillopt_gate.py snapshot --out /tmp/ajs-skillopt-jpart-before.json`
+  - `python3 tools/skillopt_gate.py gate --baseline /tmp/ajs-skillopt-jpart-before.json --out /tmp/ajs-skillopt-jpart-gate.json`
+    -> PASS; counts unchanged, quality min unchanged, below-90 unchanged,
+    source-map/root-card warnings unchanged, clone fail hits 0,
+    claim-sensitive pack edits none, and `tools/run_checks.py --skip-reports`
+    exited 0 inside the gate.
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-loop8-final.md`
+    -> inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, and 12 dirty entries.
+  - `git diff --check` -> passed.
+
+### 2026-06-27 - NeurIPS Experimental Evidence Ladder
+
+- Scope: next unclaimed score-floor protection candidate after JPART entered
+  dirty-skip; one skill body only; no counts, no source-map edits, and no
+  active claim-sensitive lane.
+- Rationale: `NeurIPS-Skills` was the first untouched candidate in the
+  dashboard. Its weakest file was
+  `NeurIPS-Skills/skills/neurips-experiments/SKILL.md`, which covered baseline,
+  ablation, robustness, compute, data, negative-result, and use-inspired checks
+  but lacked an operational way to match experiment strength to NeurIPS claim
+  type, reviewer dimensions, and rebuttal feasibility.
+- Files: `NeurIPS-Skills/skills/neurips-experiments/SKILL.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `neurips-experiments` now includes a claim-to-evidence ladder, a
+  baseline fairness table, a review-dimension stress test, a rebuttal triage
+  gate, and output fields for review dimension at risk and baseline fairness.
+- Score movement:
+  - NeurIPS pack score remains 94.0 because the conference pack is already in
+    the healthy floor band.
+  - `neurips-experiments` moved from 252 words to 888 words and is no longer
+    the weakest NeurIPS skill; the current weakest skill is
+    `NeurIPS-Skills/skills/neurips-related-work/SKILL.md`.
+  - Pack average substance is now 397, with the scorecard still capped at 94.0.
+- Validation:
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-loop8-final.md`
+    -> start state after JPART validation: 2902 / 195 / 200, quality min 90.0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0; first
+    unclaimed candidate was `NeurIPS-Skills`.
+  - `git show HEAD:NeurIPS-Skills/skills/neurips-experiments/SKILL.md | wc -w`
+    -> 252.
+  - `wc -w NeurIPS-Skills/skills/neurips-experiments/SKILL.md` -> 888.
+  - `python3 tools/quality_scorecard.py --json` targeted to NeurIPS after edit
+    -> score 94.0, average substance 397, and `neurips-experiments` no
+    longer appears in the five weakest NeurIPS skills.
+  - `python3 tools/skillopt_gate.py snapshot --out /tmp/ajs-skillopt-neurips-before.json`
+  - `python3 tools/skillopt_gate.py gate --baseline /tmp/ajs-skillopt-neurips-before.json --out /tmp/ajs-skillopt-neurips-gate.json`
+    -> PASS; counts unchanged, quality min unchanged, below-90 unchanged,
+    source-map/root-card warnings unchanged, clone fail hits 0,
+    claim-sensitive pack edits none, and `tools/run_checks.py --skip-reports`
+    exited 0 inside the gate.
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-loop9-final.md`
+    -> inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, and 13 dirty entries.
+  - `git diff --check` -> passed.
+
+### 2026-06-27 - New Media Cross-Field Writing Gate
+
+- Scope: next unclaimed score-floor protection candidate after NeurIPS entered
+  dirty-skip; one skill body only; no counts, no source-map edits, and no
+  active claim-sensitive lane.
+- Rationale: `New-Media-and-Society-Skills` was the first untouched candidate
+  in the dashboard. Its weakest file was
+  `New-Media-and-Society-Skills/skills/newms-writing-style/SKILL.md`, which
+  covered the interdisciplinary introduction arc, SAGE Harvard style, and
+  word target but needed a stronger editing gate for concept-first prose,
+  cross-field readability, word-budget triage, and claim calibration.
+- Files: `New-Media-and-Society-Skills/skills/newms-writing-style/SKILL.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `newms-writing-style` now includes a concept-first prose map, a
+  cross-field readability pass, word-budget triage by section function, a
+  claim-calibration edit keyed to evidence type, and output fields for the
+  cross-field pass, cut plan, and claim calibration.
+- Score movement:
+  - New Media & Society pack score remains 94.0 because the depth pack is
+    already in the healthy floor band.
+  - `newms-writing-style` moved from 686 words to 1256 words and is no longer
+    the weakest New Media & Society skill; the current weakest skills are
+    `New-Media-and-Society-Skills/skills/newms-rebuttal/SKILL.md` and
+    `New-Media-and-Society-Skills/skills/newms-tables-figures/SKILL.md`.
+  - Pack average substance is now 684, with the scorecard still capped at 94.0.
+- Validation:
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-loop10-start.md`
+    -> start state unchanged at 2902 / 195 / 200, quality min 90.0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0; first
+    unclaimed candidate was `New-Media-and-Society-Skills`.
+  - `git show HEAD:New-Media-and-Society-Skills/skills/newms-writing-style/SKILL.md | wc -w`
+    -> 686.
+  - `wc -w New-Media-and-Society-Skills/skills/newms-writing-style/SKILL.md`
+    -> 1256.
+  - `python3 tools/quality_scorecard.py --json` targeted to New Media after
+    edit -> score 94.0, average substance 684, and `newms-writing-style` no
+    longer appears in the five weakest New Media & Society skills.
+  - `python3 tools/skillopt_gate.py snapshot --out /tmp/ajs-skillopt-newms-before.json`
+  - `python3 tools/skillopt_gate.py gate --baseline /tmp/ajs-skillopt-newms-before.json --out /tmp/ajs-skillopt-newms-gate.json`
+    -> PASS; counts unchanged, quality min unchanged, below-90 unchanged,
+    source-map/root-card warnings unchanged, clone fail hits 0,
+    claim-sensitive pack edits none, and `tools/run_checks.py --skip-reports`
+    exited 0 inside the gate.
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-loop10-final.md`
+    -> inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, and 14 dirty entries.
+  - `git diff --check` -> passed.
+
+### 2026-06-27 - PDR Cross-Field Rebuttal Ledger
+
+- Scope: next unclaimed score-floor protection candidate after New Media
+  entered dirty-skip; one skill body only; no counts, no source-map edits, and
+  no active claim-sensitive lane.
+- Rationale: `Population-and-Development-Review-Skills` was the first
+  untouched candidate in the dashboard. Its weakest file was
+  `Population-and-Development-Review-Skills/skills/popdevr-rebuttal/SKILL.md`,
+  which already covered editor-led R&R strategy, cross-field reviewers, and
+  contribution protection but needed a concrete ledger for demographic versus
+  development/policy evidence, conflict resolution, and claim-change control.
+- Files:
+  `Population-and-Development-Review-Skills/skills/popdevr-rebuttal/SKILL.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `popdevr-rebuttal` now includes a cross-field response ledger, a
+  conflict-resolution cover-note pattern, claim-change control for new
+  analyses, and output fields for claim changes and materials sync.
+- Score movement:
+  - PDR pack score remains 94.0 because the depth pack is already in the
+    healthy floor band.
+  - `popdevr-rebuttal` moved from 643 words to 1128 words and is no longer
+    the weakest PDR skill; the current weakest skill is
+    `Population-and-Development-Review-Skills/skills/popdevr-review-process/SKILL.md`.
+  - Pack average substance is now 758, with the scorecard still capped at 94.0.
+- Validation:
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-loop10-final.md`
+    -> start state after New Media validation: 2902 / 195 / 200, quality
+    min 90.0, source-map warnings 0, root-card warnings 0, clone pairs 0;
+    first unclaimed candidate was `Population-and-Development-Review-Skills`.
+  - `git show HEAD:Population-and-Development-Review-Skills/skills/popdevr-rebuttal/SKILL.md | wc -w`
+    -> 643.
+  - `wc -w Population-and-Development-Review-Skills/skills/popdevr-rebuttal/SKILL.md`
+    -> 1128.
+  - `python3 tools/quality_scorecard.py --json` targeted to PDR after edit
+    -> score 94.0, average substance 758, and `popdevr-rebuttal` no longer
+    appears in the five weakest PDR skills.
+  - `python3 tools/skillopt_gate.py snapshot --out /tmp/ajs-skillopt-popdevr-before.json`
+  - `python3 tools/skillopt_gate.py gate --baseline /tmp/ajs-skillopt-popdevr-before.json --out /tmp/ajs-skillopt-popdevr-gate.json`
+    -> PASS; counts unchanged, quality min unchanged, below-90 unchanged,
+    source-map/root-card warnings unchanged, clone fail hits 0,
+    claim-sensitive pack edits none, and `tools/run_checks.py --skip-reports`
+    exited 0 inside the gate.
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-loop11-final.md`
+    -> inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, and 15 dirty entries.
+  - `git diff --check` -> passed.
+
+### 2026-06-27 - PAR Evidence-for-Practice Writing Gate
+
+- Scope: next unclaimed score-floor protection candidate after PDR entered
+  dirty-skip; one skill body only; no counts, no source-map edits, and no
+  active claim-sensitive lane.
+- Rationale: `Public-Administration-Review-Skills` was the first untouched
+  candidate in the dashboard. Its weakest file was
+  `Public-Administration-Review-Skills/skills/pubar-writing-style/SKILL.md`,
+  which covered PAR's research-and-practice bridge, Evidence for Practice,
+  abstract limit, word cap, APA style, and double-blind preparation but needed
+  a stronger calibration gate for practice takeaways and dual-reader prose.
+- Files:
+  `Public-Administration-Review-Skills/skills/pubar-writing-style/SKILL.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `pubar-writing-style` now includes Evidence for Practice
+  calibration, a dual-reader paragraph test, PAR-specific word-budget triage,
+  an abstract/title-page pass, and output fields for practice calibration and
+  the scholar/practitioner dual-reader pass.
+- Score movement:
+  - PAR pack score remains 94.0 because the depth pack is already in the
+    healthy floor band.
+  - `pubar-writing-style` moved from 545 words to 1058 words and is no longer
+    the weakest PAR skill; the current weakest skill is
+    `Public-Administration-Review-Skills/skills/pubar-topic-selection/SKILL.md`.
+  - Pack average substance is now 719, with the scorecard still capped at 94.0.
+- Validation:
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-loop11-final.md`
+    -> start state after PDR validation: 2902 / 195 / 200, quality min 90.0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0; first
+    unclaimed candidate was `Public-Administration-Review-Skills`.
+  - `git show HEAD:Public-Administration-Review-Skills/skills/pubar-writing-style/SKILL.md | wc -w`
+    -> 545.
+  - `wc -w Public-Administration-Review-Skills/skills/pubar-writing-style/SKILL.md`
+    -> 1058.
+  - `python3 tools/quality_scorecard.py --json` targeted to PAR after edit
+    -> score 94.0, average substance 719, and `pubar-writing-style` no longer
+    appears in the five weakest PAR skills.
+  - `python3 tools/skillopt_gate.py snapshot --out /tmp/ajs-skillopt-pubar-before.json`
+  - `python3 tools/skillopt_gate.py gate --baseline /tmp/ajs-skillopt-pubar-before.json --out /tmp/ajs-skillopt-pubar-gate.json`
+    -> PASS; counts unchanged, quality min unchanged, below-90 unchanged,
+    source-map/root-card warnings unchanged, clone fail hits 0,
+    claim-sensitive pack edits none, and `tools/run_checks.py --skip-reports`
+    exited 0 inside the gate.
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-loop12-final.md`
+    -> inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, and 16 dirty entries.
+  - `git diff --check` -> passed.
+
+### 2026-06-27 - World Development Submission Upload Gate
+
+- Scope: next unclaimed count-preserving score-floor candidate after PAR
+  entered dirty-skip; one skill body only; no counts, no source-map edits, and
+  no active claim-sensitive lane.
+- Rationale: `World-Development-Skills` was the first untouched candidate in
+  the dashboard and also carried the only unclaimed source-map debt. The
+  source-map debt was not cleared because WD word limits, fees, portal labels,
+  and live editor details require official-source verification; instead this
+  pass strengthened `World-Development-Skills/skills/worlddev-submission/SKILL.md`
+  so uncertain live facts cannot be turned into submission-package assertions.
+- Files:
+  `World-Development-Skills/skills/worlddev-submission/SKILL.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `worlddev-submission` now includes a GO / CONDITIONAL HOLD / HOLD
+  upload gate, an Editorial Manager package order, a WD cover-letter fit test,
+  volatile-fact handling rules, stronger anti-patterns, and output fields for
+  blockers. The submission preflight now distinguishes a complete file folder
+  from a genuinely upload-ready blinded package.
+- Score movement:
+  - World Development pack score remains 94.0 because the depth pack is already
+    in the healthy floor band.
+  - `worlddev-submission` moved from 721 words to 1379 words and no longer
+    appears in the five weakest World Development skills.
+  - The current weakest World Development skill is now
+    `World-Development-Skills/skills/worlddev-replication-package/SKILL.md`.
+  - Pack average substance is now 772, with the scorecard still capped at 94.0.
+- Validation:
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-loop13-start.md`
+    -> start state after PAR validation: 2902 / 195 / 200, quality min 90.0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0; first
+    unclaimed candidate was `World-Development-Skills`.
+  - `git show HEAD:World-Development-Skills/skills/worlddev-submission/SKILL.md`
+    confirmed the baseline skill content; `wc -w` before edit -> 721.
+  - `wc -w World-Development-Skills/skills/worlddev-submission/SKILL.md`
+    -> 1379.
+  - `python3 tools/quality_scorecard.py --json` targeted to World Development
+    after edit -> score 94.0, average substance 772, and
+    `worlddev-submission` no longer appears in the five weakest World
+    Development skills.
+  - `python3 tools/skillopt_gate.py snapshot --out /tmp/ajs-skillopt-worlddev-before.json`
+  - `python3 tools/skillopt_gate.py gate --baseline /tmp/ajs-skillopt-worlddev-before.json --out /tmp/ajs-skillopt-worlddev-gate.json`
+    -> PASS; counts unchanged, quality min unchanged, below-90 unchanged,
+    source-map/root-card warnings unchanged, clone fail hits 0,
+    claim-sensitive pack edits none, and `tools/run_checks.py --skip-reports`
+    exited 0 inside the gate.
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-loop13-after-worlddev.md`
+    -> inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, and 17 dirty entries. The next unclaimed candidate is
+    `Yale-Law-Journal-Skills`; source-map and execution-bridge top debt are
+    now claim-sensitive.
+
+### 2026-06-27 - YLJ Contribution Contract And Preemption Handoff
+
+- Scope: next unclaimed count-preserving score-floor candidate after World
+  Development entered dirty-skip; one skill body only; no counts, no source-map
+  edits, and no active claim-sensitive lane.
+- Rationale: `Yale-Law-Journal-Skills` was the only remaining unclaimed
+  candidate in the monthly dashboard. Its weakest file was
+  `Yale-Law-Journal-Skills/skills/ylj-thesis-and-contribution/SKILL.md`, which
+  forced a contestable one-sentence claim but did not yet require the
+  committee-defensible contribution contract or the search-ready preemption
+  handoff that YLJ placement work needs.
+- Files:
+  `Yale-Law-Journal-Skills/skills/ylj-thesis-and-contribution/SKILL.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `ylj-thesis-and-contribution` now includes a YLJ contribution
+  contract, student-editor committee pitch screen, preemption handoff, added
+  stress tests, stronger anti-patterns, and output fields for contract and
+  preemption evidence. It now stops a "topic plus prestige" pitch before it
+  reaches preemption or submission routing.
+- Score movement:
+  - Yale Law Journal pack score remains 94.0 because the depth pack is already
+    in the healthy floor band.
+  - `ylj-thesis-and-contribution` moved from 673 words to 1232 words and no
+    longer appears in the five weakest YLJ skills.
+  - The current weakest YLJ skill is now
+    `Yale-Law-Journal-Skills/skills/ylj-workflow/SKILL.md`.
+  - Pack average substance is now 659, with the scorecard still capped at 94.0.
+- Validation:
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-loop13-final.md`
+    -> start state after World Development validation: 2902 / 195 / 200,
+    quality min 90.0, source-map warnings 0, root-card warnings 0, clone pairs
+    0; next unclaimed candidate was `Yale-Law-Journal-Skills`.
+  - `git show HEAD:Yale-Law-Journal-Skills/skills/ylj-thesis-and-contribution/SKILL.md`
+    confirmed the baseline skill content; `wc -w` before edit -> 673.
+  - `wc -w Yale-Law-Journal-Skills/skills/ylj-thesis-and-contribution/SKILL.md`
+    -> 1232.
+  - `python3 tools/quality_scorecard.py --json` targeted to YLJ after edit
+    -> score 94.0, average substance 659, and
+    `ylj-thesis-and-contribution` no longer appears in the five weakest YLJ
+    skills.
+  - `python3 tools/skillopt_gate.py snapshot --out /tmp/ajs-skillopt-ylj-before.json`
+  - `python3 tools/skillopt_gate.py gate --baseline /tmp/ajs-skillopt-ylj-before.json --out /tmp/ajs-skillopt-ylj-gate.json`
+    -> PASS; counts unchanged, quality min unchanged, below-90 unchanged,
+    source-map/root-card warnings unchanged, clone fail hits 0,
+    claim-sensitive pack edits none, and `tools/run_checks.py --skip-reports`
+    exited 0 inside the gate.
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-loop14-after-ylj.md`
+    -> inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, and 18 dirty entries. No unclaimed content candidate
+    surfaced; current bottom-band, source-map, and execution-bridge targets are
+    claim-sensitive.
+
+### 2026-06-27 - Dashboard Loop-Control Signal
+
+- Scope: root tooling/reporting only; no journal pack content, no counts, no
+  source-map edits, and no claim-sensitive files.
+- Rationale: after the World Development and YLJ loops, the dashboard had no
+  unclaimed content candidate left. The Markdown prose said to prefer tooling
+  or owner-cleared work, but the report did not expose a structured loop-control
+  signal for the next agent or a machine-readable consumer.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `monthly_uplift_report.py` now emits a `loop_control` JSON object and
+  a Markdown `Loop-control Signals` table. The current state is classified as
+  `owner-clearance-needed`, with `next_lane` =
+  `tooling-or-owner-clearance`, 0 unclaimed score/source/bridge candidates,
+  20 claim-sensitive score targets, 20 claim-sensitive source-map targets,
+  3 claim-sensitive execution-bridge targets, and 15 dirty skipped packs.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py`
+  - `python3 tools/monthly_uplift_report.py --json --limit 20 --skip-clone --output /tmp/ajs-monthly-report-loop15-smoke.json | jq '.loop_control'`
+    -> `status: owner-clearance-needed`, `next_lane:
+    tooling-or-owner-clearance`, unclaimed candidates 0 / 0 / 0.
+  - `python3 tools/monthly_uplift_report.py --limit 20 --skip-clone --output /tmp/ajs-monthly-report-loop15-smoke.md`
+    -> Markdown includes `## Loop-control Signals`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; counts unchanged at 2902 / 195 / 200, clone audit has no pairs at
+    or above 0.750, and `git diff --check` passed inside the gate.
+  - `python3 tools/monthly_uplift_report.py --limit 20 --output /tmp/ajs-monthly-report-loop15-final.md`
+    -> inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, 18 dirty entries, and loop-control status
+    `owner-clearance-needed`.
+  - `python3 tools/monthly_uplift_report.py --json --limit 20 --skip-clone --output /tmp/ajs-monthly-report-loop15-final.json | jq '.loop_control'`
+    -> structured loop-control object emitted as expected.
+  - `git diff --check` -> passed.
+
+### 2026-06-27 - Dashboard Self-Check Gate
+
+- Scope: root tooling/reporting only; no journal pack content, no counts, no
+  source-map edits, and no claim-sensitive files.
+- Rationale: Loop 15 made loop-control visible, but the next monthly iteration
+  still needed a regression guard so candidate counts, dirty-skip filtering,
+  claim-sensitive filtering, and the recommended next lane cannot silently
+  drift apart.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `monthly_uplift_report.py` now supports `--check` and `--check-only`.
+  The self-check validates loop-control status/lane counts, verifies unclaimed
+  score and source-map candidates are not dirty skipped, and verifies those
+  candidates are not already claim-sensitive. `tools/README.md` now makes
+  `--check` the documented monthly snapshot command and points `--check-only`
+  at fast loop-control consistency checks.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py`
+  - `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`
+    -> `monthly_uplift_report self-check passed.`
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-monthly-report-loop16-check.json | jq '.loop_control'`
+    -> `status: owner-clearance-needed`, `next_lane:
+    tooling-or-owner-clearance`, unclaimed candidates 0 / 0 / 0.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop16-final.md`
+    -> inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, 18 dirty entries, and loop-control self-check passed.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; counts unchanged at 2902 / 195 / 200, clone audit has no pairs at
+    or above 0.750, and `git diff --check` passed inside the gate.
+  - `git diff --check` -> passed.
+
+### 2026-06-27 - Run Checks Dashboard Self-Check Integration
+
+- Scope: root tooling/reporting only; no journal pack content, no counts, no
+  source-map edits, and no claim-sensitive files.
+- Rationale: Loop 16 gave `monthly_uplift_report.py` a self-check, but the
+  standard non-CI local maintenance command did not yet run it. That meant a
+  maintainer using `python3 tools/run_checks.py` could miss dashboard
+  loop-control drift unless they remembered a separate command.
+- Files: `tools/run_checks.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: default `tools/run_checks.py` now runs
+  `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`
+  in its report phase, after source-map and root-entry audits. The hard
+  `--skip-reports` mode stays fast and unchanged for CI / pre-publish gates.
+  The README now documents that default `run_checks.py` includes the dashboard
+  self-check without duplicating the clone audit.
+- Validation:
+  - `python3 -m py_compile tools/run_checks.py tools/monthly_uplift_report.py`
+  - `python3 tools/run_checks.py`
+    -> PASS; included `monthly_uplift_report self-check passed.`, counts
+    unchanged at 2902 / 195 / 200, source-map warnings 0, root-card warnings 0,
+    clone audit no pairs at or above 0.750, and quality min remains 90.0.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; hard-gate path remains compile + audit + clone + diff check.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop17-final.md`
+    -> inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, 19 dirty entries, and loop-control status
+    `owner-clearance-needed`.
+  - `git diff --check` -> passed.
+
+### 2026-06-27 - Dashboard Logic Self-Test Fixtures
+
+- Scope: root tooling/reporting only; no journal pack content, no counts, no
+  source-map edits, and no claim-sensitive files.
+- Rationale: Loop 17 wired the live dashboard self-check into `run_checks.py`,
+  but the pure loop-control branches still lacked synthetic regression coverage.
+  A live `owner-clearance-needed` state cannot prove that `content-candidates`,
+  `monitoring-tooling`, dirty-candidate rejection, and claim-sensitive candidate
+  rejection still work.
+- Files: `tools/monthly_uplift_report.py`, `tools/run_checks.py`,
+  `tools/README.md`, `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `monthly_uplift_report.py` now supports `--self-test`, which runs
+  dependency-free fixtures for `content-candidates`, `owner-clearance-needed`,
+  and `monitoring-tooling`, plus negative fixtures that reject dirty score
+  candidates, dirty source-map candidates, claim-sensitive score candidates,
+  and claim-sensitive source-map candidates. `tools/run_checks.py --skip-reports`
+  now includes the self-test as part of the fast hard gate, while default
+  `run_checks.py` continues to include the live dashboard self-check.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, counts
+    unchanged at 2902 / 195 / 200, clone audit no pairs at or above 0.750,
+    and `git diff --check` passed.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes both `monthly_uplift_report self-test passed.` and live
+    `monthly_uplift_report self-check passed.`, source-map warnings 0,
+    root-card warnings 0, and quality min 90.0.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop18-final.md`
+    -> inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, 19 dirty entries, and loop-control status
+    `owner-clearance-needed`.
+  - `git diff --check` -> passed.
+
+### 2026-06-27 - Compact Next-loop Handoff Output
+
+- Scope: root tooling/reporting only; no journal pack content, no counts, no
+  source-map edits, and no claim-sensitive files.
+- Rationale: the long-running goal needs a short, durable loop handoff that
+  does not require parsing the full monthly Markdown report. The live dashboard
+  already computes the safe next lane, but a future iteration should be able to
+  read one compact note with status, metrics, candidate counts, and validation
+  commands.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `monthly_uplift_report.py` now supports `--handoff`, rendering a
+  compact Markdown handoff with the loop-control decision, current quality /
+  source / root / clone / git metrics, claim-filtered candidate counts, next
+  queue, and the commands needed to validate the next loop. The dependency-free
+  `--self-test` now also asserts that required handoff sections stay present.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone --output /tmp/ajs-monthly-report-loop19-handoff.md`
+    -> inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, execution bridge 131 / 134,
+    19 dirty entries, loop-control status `owner-clearance-needed`, and no
+    unclaimed score/source/bridge candidates after claim and dirty-pack
+    filtering.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, counts
+    unchanged at 2902 / 195 / 200, clone audit no pairs at or above 0.750,
+    and `git diff --check` passed.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop19-final.md`
+    -> inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, 19 dirty entries, and loop-control status
+    `owner-clearance-needed`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0,
+    `monthly_uplift_report self-check passed.`, clone audit no pairs at or
+    above 0.750, quality min 90.0, and execution bridge 131 / 134.
+
+### 2026-06-27 - Trajectory Delta Snapshot Comparison
+
+- Scope: root tooling/reporting only; no journal pack content, no counts, no
+  source-map edits, and no claim-sensitive files.
+- Rationale: the month-long loop needs evidence of movement across batches, not
+  only a current-state report. Saving a JSON snapshot before a substantial
+  batch and comparing the next run against it makes score-floor, bridge,
+  source-map, root-card, clone, and inventory drift explicit.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `monthly_uplift_report.py` now accepts `--compare-json PATH`, where
+  `PATH` is a prior JSON snapshot from the same tool. The rendered Markdown,
+  compact handoff, and JSON summary now include a `Trajectory Delta` section
+  when a baseline is supplied. The dependency-free `--self-test` now covers
+  trajectory-delta rendering alongside loop-control and handoff branches.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --json --skip-clone --limit 20 --output /tmp/ajs-monthly-report-loop20-baseline.json`
+    followed by `python3 tools/monthly_uplift_report.py --check --handoff
+    --skip-clone --limit 20 --compare-json /tmp/ajs-monthly-report-loop20-baseline.json
+    --output /tmp/ajs-monthly-report-loop20-handoff.md`
+    -> handoff includes `Trajectory Delta`, status
+    `owner-clearance-needed`, inventory 2902 / 195 / 200, quality min 90.0,
+    source-map warnings 0, root-card warnings 0, execution bridge 131 / 134,
+    and zero deltas against the immediate baseline.
+  - `python3 tools/monthly_uplift_report.py --json --skip-clone --limit 20 --compare-json /tmp/ajs-monthly-report-loop20-baseline.json`
+    -> JSON delta includes previous/current status `owner-clearance-needed`,
+    `quality_min` delta 0.0, `execution_bridge_missing` delta 0, and
+    `skills` delta 0.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --skip-clone --compare-json /tmp/ajs-monthly-report-loop20-baseline.json`
+    piped through `rg -n "Trajectory Delta|Quality min|Execution bridge
+    missing|Inventory skills"`
+    -> full Markdown output includes the delta table and the expected zero
+    deltas for inventory, quality min, and execution-bridge missing counts.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, counts
+    unchanged at 2902 / 195 / 200, clone audit no pairs at or above 0.750,
+    and `git diff --check` passed.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop20-final.md`
+    -> inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, 19 dirty entries, and loop-control status
+    `owner-clearance-needed`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0,
+    `monthly_uplift_report self-check passed.`, clone audit no pairs at or
+    above 0.750, quality min 90.0, and execution bridge 131 / 134.
+
+### 2026-06-27 - Owner-clearance Queue in Handoff
+
+- Scope: root tooling/reporting only; no journal pack content, no counts, no
+  source-map edits, and no claim-sensitive files.
+- Rationale: once the dashboard reports `owner-clearance-needed`, the compact
+  handoff should name the blocked target families instead of forcing the next
+  loop to parse the full Markdown report. This keeps content work out of
+  active ownership lanes while still making the next action explicit.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `monthly_uplift_report.py --handoff` now includes an
+  `Owner Clearance Queue` section whenever claim-sensitive current targets are
+  visible, grouped by score-floor, source-map, and execution-bridge target
+  type. The full Markdown report now shows the same grouped queue before the
+  detailed target table. The dependency-free `--self-test` now asserts the
+  owner-clearance section alongside loop-control, handoff, and trajectory-delta
+  coverage.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone --output /tmp/ajs-monthly-report-loop21-handoff.md`
+    -> handoff includes `Owner Clearance Queue` with score-floor,
+    source-map, and execution-bridge groups; live status remains
+    `owner-clearance-needed`, inventory 2902 / 195 / 200, quality min 90.0,
+    source-map warnings 0, root-card warnings 0, and execution bridge
+    131 / 134.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --skip-clone`
+    piped through `rg -n "Owner Clearance Queue|Score-floor targets|Source-map
+    targets|Execution-bridge targets"`
+    -> full Markdown output includes the grouped owner-clearance queue.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, counts
+    unchanged at 2902 / 195 / 200, clone audit no pairs at or above 0.750,
+    and `git diff --check` passed.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop21-final.md`
+    -> inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, 19 dirty entries, loop-control status
+    `owner-clearance-needed`, and grouped owner-clearance queue present.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0,
+    `monthly_uplift_report self-check passed.`, clone audit no pairs at or
+    above 0.750, quality min 90.0, and execution bridge 131 / 134.
+
+### 2026-06-27 - Worklog Template Renderer
+
+- Scope: root tooling/reporting only; no journal pack content, no counts, no
+  source-map edits, and no claim-sensitive files.
+- Rationale: the month-long loop needs consistent evidence logging across
+  batches. A populated worklog template reduces missing metrics, forgotten
+  validation commands, and drift between the live dashboard and the repo-local
+  maintenance log.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `monthly_uplift_report.py` now supports `--worklog-template`, which
+  renders a Markdown entry scaffold populated with live inventory, quality,
+  bridge, source-map, root-card, clone, git, loop-control, owner-clearance, and
+  validation-checklist data. `--self-test` now asserts the worklog-template
+  output alongside handoff, owner-clearance, and trajectory-delta coverage.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-monthly-report-loop22-worklog-template.md`
+    -> worklog template includes live metrics, loop-control status
+    `owner-clearance-needed`, owner-clearance queue, validation checklist,
+    inventory 2902 / 195 / 200, quality min 90.0, source-map warnings 0,
+    root-card warnings 0, and execution bridge 131 / 134.
+  - `python3 tools/monthly_uplift_report.py --json --skip-clone --limit 20 --output /tmp/ajs-monthly-report-loop22-baseline.json`
+    followed by `python3 tools/monthly_uplift_report.py --check
+    --worklog-template --limit 20 --skip-clone --compare-json
+    /tmp/ajs-monthly-report-loop22-baseline.json`
+    piped through `rg -n "Trajectory delta|Quality min|Execution bridge
+    missing|Validation checklist"`
+    -> worklog template includes trajectory delta rows and validation
+    checklist; immediate-baseline deltas are zero for quality min and
+    execution-bridge missing.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, counts
+    unchanged at 2902 / 195 / 200, clone audit no pairs at or above 0.750,
+    and `git diff --check` passed.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop22-final.md`
+    -> inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, 19 dirty entries, loop-control status
+    `owner-clearance-needed`, and grouped owner-clearance queue present.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0,
+    `monthly_uplift_report self-check passed.`, clone audit no pairs at or
+    above 0.750, quality min 90.0, and execution bridge 131 / 134.
+
+### 2026-06-27 - Worklog Completeness Checker
+
+- Scope: root tooling/reporting only; no journal pack content, no counts, no
+  source-map edits, and no claim-sensitive files.
+- Rationale: the month-long loop depends on the dated worklog being complete
+  enough for a later agent to resume from evidence. A dedicated checker catches
+  missing latest-loop markers, leftover placeholders, and missing next-queue
+  gates before the worklog becomes stale.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `monthly_uplift_report.py` now supports `--check-worklog PATH`, which
+  validates that the target worklog has a dated latest loop entry with
+  scope/rationale/files/result/validation markers, key validation commands, no
+  unresolved template placeholders, no pending-loop marker, and a current next
+  queue that records loop-control status and regression gates.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check-worklog /tmp/does-not-exist.md`
+    -> expected failure; the checker reports that the target worklog cannot be
+    read, so missing-path failures are surfaced.
+  - `python3 tools/monthly_uplift_report.py --check-worklog .maintenance/MONTHLY-UPLIFT-2026-06-27.md`
+    -> initially failed because this latest loop was missing the
+    `git diff --check` marker; after adding that validation marker, it passes
+    and validates the current dated worklog, including the latest loop markers
+    and current next queue.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, counts
+    unchanged at 2902 / 195 / 200, clone audit no pairs at or above 0.750,
+    and `git diff --check` passed.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop23-final.md`
+    -> inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, 19 dirty entries, loop-control status
+    `owner-clearance-needed`, and grouped owner-clearance queue present.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0,
+    `monthly_uplift_report self-check passed.`, clone audit no pairs at or
+    above 0.750, quality min 90.0, and execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-27 - Latest Worklog Alias
+
+- Scope: root tooling/reporting only; no journal pack content, no counts, no
+  source-map edits, and no claim-sensitive files.
+- Rationale: a month-long loop should not hard-code a dated worklog path in
+  every validation command. A `latest` alias lets future loops validate the
+  newest `.maintenance/MONTHLY-UPLIFT-YYYY-MM-DD.md` file even after the month
+  rolls forward.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `monthly_uplift_report.py --check-worklog latest` and
+  `--check-worklog current` now resolve to the newest dated monthly uplift
+  worklog under `.maintenance/`. The self-test covers both aliases, and the
+  README / next queue now use `latest` by default while still allowing explicit
+  paths for older logs.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS; resolves to `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`,
+    reports 29 loop entries, and identifies this loop as the latest entry.
+  - `python3 tools/monthly_uplift_report.py --check-worklog current`
+    -> PASS; resolves to the same latest dated worklog.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, counts
+    unchanged at 2902 / 195 / 200, clone audit no pairs at or above 0.750,
+    and `git diff --check` passed.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop24-final.md`
+    -> inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, 19 dirty entries, loop-control status
+    `owner-clearance-needed`, and grouped owner-clearance queue present.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0,
+    `monthly_uplift_report self-check passed.`, clone audit no pairs at or
+    above 0.750, quality min 90.0, and execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-27 - Run-checks Worklog Gate
+
+- Scope: root tooling/reporting only; no journal pack content, no counts, no
+  source-map edits, and no claim-sensitive files.
+- Rationale: the worklog completeness checker is useful as a direct command,
+  but the month-long loop is safer if the default local maintenance command
+  also verifies the latest dated worklog. This makes missing latest-loop
+  evidence visible during full local validation.
+- Files: `tools/run_checks.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: default `python3 tools/run_checks.py` now runs
+  `python3 tools/monthly_uplift_report.py --check-worklog latest` in the
+  report phase after the live dashboard self-check. `--skip-reports` remains
+  the fast hard gate and still relies on `monthly_uplift_report.py
+  --self-test` for pure dashboard logic coverage.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS; resolves to `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`,
+    reports 30 loop entries, and identifies this loop as the latest entry.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, counts
+    unchanged at 2902 / 195 / 200, clone audit no pairs at or above 0.750,
+    and `git diff --check` passed.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop25-final.md`
+    -> PASS; inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, 19 dirty entries, loop-control status
+    `owner-clearance-needed`, and grouped owner-clearance queue present.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0,
+    `monthly_uplift_report self-check passed.`,
+    `monthly_uplift_report worklog-check passed`, clone audit no pairs at or
+    above 0.750, quality min 90.0, and execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-27 - Worklog Planned-Evidence Guard
+
+- Scope: root tooling/reporting only; no journal pack content, no counts, no
+  source-map edits, and no claim-sensitive files.
+- Rationale: the worklog gate should reject plan-state validation notes in the
+  latest loop. A month-long loop needs executed command evidence, not copied
+  checklist items or future-tense placeholders.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `monthly_uplift_report.py --check-worklog` now rejects planned
+  validation text inside the latest loop's validation block, including
+  unchecked checklist rows and notes such as "scheduled for this loop". The
+  self-test includes a valid worklog fixture, a placeholder fixture, and a
+  planned-evidence fixture. The tools README now documents that copied
+  checklist state is not acceptable worklog evidence.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS; resolves to `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`,
+    reports 31 loop entries, and identifies this loop as the latest entry.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, counts
+    unchanged at 2902 / 195 / 200, clone audit no pairs at or above 0.750,
+    and `git diff --check` passed.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop26-final.md`
+    -> PASS; inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, 19 dirty entries, loop-control status
+    `owner-clearance-needed`, and grouped owner-clearance queue present.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0,
+    `monthly_uplift_report self-check passed.`,
+    `monthly_uplift_report worklog-check passed`, clone audit no pairs at or
+    above 0.750, quality min 90.0, and execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-27 - Handoff Validation Queue Guard
+
+- Scope: root tooling/reporting only; no journal pack content, no counts, no
+  source-map edits, and no claim-sensitive files.
+- Rationale: the compact handoff is the quickest way to continue the monthly
+  loop, so it must carry the same latest-worklog gate as the fuller checklist
+  and must not hide how much of the dirty skipped queue was truncated.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `monthly_uplift_report.py --handoff` now includes
+  `python3 tools/monthly_uplift_report.py --check-worklog latest` in its
+  validation command list. Dirty skipped pack lists now show a `+N more`
+  suffix when truncated, and the dependency-free self-test checks both
+  handoff behaviors.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`
+    -> PASS; loop-control status `owner-clearance-needed`, validation commands
+    include `--check-worklog latest`, and the dirty skipped queue displays
+    `+7 more`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, counts
+    unchanged at 2902 / 195 / 200, clone audit no pairs at or above 0.750,
+    and `git diff --check` passed.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop27-final.md`
+    -> PASS; inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, 19 dirty entries, loop-control status
+    `owner-clearance-needed`, and grouped owner-clearance queue present.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS; resolves to `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`,
+    reports 32 loop entries, and identifies this loop as the latest entry.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0,
+    `monthly_uplift_report self-check passed.`,
+    `monthly_uplift_report worklog-check passed`, clone audit no pairs at or
+    above 0.750, quality min 90.0, and execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-27 - Shared Validation Command Block
+
+- Scope: root tooling/reporting only; no journal pack content, no counts, no
+  source-map edits, and no claim-sensitive files.
+- Rationale: the compact handoff and full monthly snapshot should not drift on
+  what the next loop must run. If one surface names the latest worklog gate and
+  full report phase while the other omits it, the month-long loop becomes easy
+  to resume with an incomplete validation sequence.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `monthly_uplift_report.py` now uses one shared next-loop validation
+  command block for both the compact handoff and full Markdown snapshot. The
+  block includes the handoff, latest worklog check, persisted full snapshot,
+  fast hard gate, full `tools/run_checks.py` report phase, and whitespace
+  check. The self-test asserts that the handoff includes the exact full
+  `python3 tools/run_checks.py` command as a distinct item.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`
+    -> PASS; the validation command list includes both
+    `python3 tools/run_checks.py --skip-reports` and exact
+    `python3 tools/run_checks.py`.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop28-final.md`
+    -> PASS; full Markdown now includes a `## Validation Commands` section
+    matching the handoff command block, inventory 2902 / 195 / 200, quality
+    min 90.0, below-90 0, source-map warnings 0, root-card warnings 0, clone
+    pairs 0, and loop-control status `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, counts
+    unchanged at 2902 / 195 / 200, clone audit no pairs at or above 0.750,
+    and `git diff --check` passed.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS; resolves to `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`,
+    reports 33 loop entries, and identifies this loop as the latest entry.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0,
+    `monthly_uplift_report self-check passed.`,
+    `monthly_uplift_report worklog-check passed`, clone audit no pairs at or
+    above 0.750, quality min 90.0, and execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-27 - Worklog Validation Command Gate
+
+- Scope: root tooling/reporting only; no journal pack content, no counts, no
+  source-map edits, and no claim-sensitive files.
+- Rationale: the worklog checker should prove that the latest loop ran the
+  same validation command family that the handoff and full snapshot recommend.
+  Structural markers alone are not enough because a loop could mention
+  commands in prose while omitting them from the actual validation evidence.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `monthly_uplift_report.py --check-worklog` now checks required
+  validation command markers inside the latest loop's `- Validation:` block,
+  including handoff, latest worklog check, persisted full snapshot, fast hard
+  gate, full `tools/run_checks.py`, and whitespace check. The worklog-template
+  checklist now reuses the shared next-loop validation commands, and the
+  self-test rejects a worklog fixture that omits the latest worklog gate.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS before this append; stricter command-marker validation accepted
+    the previous latest loop, `Shared Validation Command Block`.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-monthly-worklog-template-loop29.md`
+    -> PASS; template validation checklist includes the shared command block,
+    including `--check-worklog latest` and full `python3 tools/run_checks.py`.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`
+    -> PASS; loop-control status `owner-clearance-needed`, validation commands
+    include the latest worklog gate, fast hard gate, full `run_checks.py`, and
+    `git diff --check`.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop29-final.md`
+    -> PASS; inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, 19 dirty entries, loop-control status
+    `owner-clearance-needed`, and grouped owner-clearance queue present.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, counts
+    unchanged at 2902 / 195 / 200, clone audit no pairs at or above 0.750,
+    and `git diff --check` passed.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS after this append; resolves to
+    `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`, reports 34 loop entries, and
+    identifies this loop as the latest entry.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0,
+    `monthly_uplift_report self-check passed.`,
+    `monthly_uplift_report worklog-check passed`, clone audit no pairs at or
+    above 0.750, quality min 90.0, and execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-27 - Current Next Queue Gate
+
+- Scope: root tooling/reporting only; no journal pack content, no counts, no
+  source-map edits, and no claim-sensitive files.
+- Rationale: the latest loop evidence is only useful if the worklog's
+  `Current Next Queue` keeps the next operator pointed at the same regression
+  gates. The checker previously required only coarse next-queue labels, which
+  could let the queue lose the handoff, audit, scorecard, source-map,
+  root-entry, full report, or whitespace gates while still passing.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `monthly_uplift_report.py --check-worklog` now validates key
+  `Current Next Queue` command markers after normalizing Markdown line wraps.
+  The required queue markers cover loop-control status, owner-clearance state,
+  handoff, latest worklog check, full monthly snapshot, audit counts,
+  scorecard, source-map audit, root-entry audit, fast and full `run_checks.py`,
+  and `git diff --check`. The self-test now rejects a worklog fixture missing
+  the next-queue latest-worklog gate.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS before this append; stricter current-next-queue validation
+    accepted the previous latest loop and the live `Current Next Queue`.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`
+    -> PASS; loop-control status `owner-clearance-needed`, no unclaimed
+    score/source/bridge candidates, 15 dirty skipped packs, and validation
+    commands present.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop30-final.md`
+    -> PASS; inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, 19 dirty entries, loop-control status
+    `owner-clearance-needed`, and grouped owner-clearance queue present.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, counts
+    unchanged at 2902 / 195 / 200, clone audit no pairs at or above 0.750,
+    and `git diff --check` passed.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS after this append; resolves to
+    `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`, reports 35 loop entries, and
+    identifies this loop as the latest entry.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0,
+    `monthly_uplift_report self-check passed.`,
+    `monthly_uplift_report worklog-check passed`, clone audit no pairs at or
+    above 0.750, quality min 90.0, and execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-27 - Embedded Worklog Status
+
+- Scope: root tooling/reporting only; no journal pack content, no counts, no
+  source-map edits, and no claim-sensitive files.
+- Rationale: the dashboard should expose the health of the durable worklog
+  directly, not require a separate command before an operator can see whether
+  the latest loop record is current and valid. This makes the month-long loop
+  easier to resume from a single handoff or full snapshot.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `monthly_uplift_report.py` now embeds latest-worklog status in the
+  live summary JSON, full Markdown snapshot, and compact handoff. The summary
+  records status, path, loop count, latest heading, and validation errors. The
+  dashboard `--check` path now fails if the embedded worklog summary is not
+  `OK`, and the self-test covers both the rendered handoff row and a failing
+  worklog-status fixture.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS before this append; previous latest loop was
+    `Current Next Queue Gate` with 35 loop entries.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`
+    -> PASS; `Current Metrics` includes
+    `Worklog: OK; 35 loops; latest ### 2026-06-27 - Current Next Queue Gate`.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop31-final.md`
+    -> PASS; full summary table includes the embedded Worklog row, inventory
+    2902 / 195 / 200, quality min 90.0, below-90 0, source-map warnings 0,
+    root-card warnings 0, clone pairs 0, execution bridge 131 / 134, and
+    loop-control status `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, counts
+    unchanged at 2902 / 195 / 200, clone audit no pairs at or above 0.750,
+    and `git diff --check` passed.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS after this append; resolves to
+    `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`, reports 36 loop entries, and
+    identifies this loop as the latest entry.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0,
+    `monthly_uplift_report self-check passed.`,
+    `monthly_uplift_report worklog-check passed`, clone audit no pairs at or
+    above 0.750, quality min 90.0, and execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-27 - Worklog Readiness Signal
+
+- Scope: root tooling/reporting only; no journal pack content, no counts, no
+  source-map edits, and no claim-sensitive files.
+- Rationale: the dashboard summary now exposes worklog status, but the
+  goal-readiness table is the place operators scan first before deciding
+  whether a loop can continue. Worklog health should be visible beside score,
+  source-map, root-card, clone, and working-tree signals.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: full monthly snapshots now include a `Worklog health` row in
+  `Goal-readiness Signals`, sourced from the embedded worklog summary. The
+  dependency-free self-test now renders the full Markdown fixture and asserts
+  both the summary Worklog row and readiness Worklog health row. While adding
+  this test, the fixture was made closer to live dashboard shape by adding
+  lowest-score and source-map queue fields needed by full Markdown rendering.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> initial run exposed an incomplete test fixture for full Markdown
+    rendering; after adding the missing fixture fields, rerun passed with
+    `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS before this append; previous latest loop was
+    `Embedded Worklog Status` with 36 loop entries.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`
+    -> PASS; handoff includes `Worklog: OK; 36 loops; latest
+    ### 2026-06-27 - Embedded Worklog Status`.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop32-final.md`
+    -> PASS; full snapshot includes `Worklog health | OK`, inventory
+    2902 / 195 / 200, quality min 90.0, below-90 0, source-map warnings 0,
+    root-card warnings 0, clone pairs 0, execution bridge 131 / 134, and
+    loop-control status `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> final rerun PASS; includes `monthly_uplift_report self-test passed.`,
+    counts unchanged at 2902 / 195 / 200, clone audit no pairs at or above
+    0.750, and `git diff --check` passed.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS after this append; resolves to
+    `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`, reports 37 loop entries, and
+    identifies this loop as the latest entry.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0,
+    `monthly_uplift_report self-check passed.`,
+    `monthly_uplift_report worklog-check passed`, clone audit no pairs at or
+    above 0.750, quality min 90.0, and execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-27 - Execution Bridge Candidate Pool Gate
+
+- Scope: root tooling/reporting only; no journal pack content, no counts, no
+  source-map edits, and no claim-sensitive files.
+- Rationale: the current execution-bridge tail has no safe content candidates:
+  all three missing packs are under the Agent A ownership boundary. The
+  dashboard already counted unclaimed bridge candidates, but the candidate pool
+  and validator treated score/source-map candidates more explicitly than bridge
+  candidates. That left room for a future dashboard edit to suggest a
+  claim-sensitive, dirty, or stale bridge target without an equally direct
+  self-check failure.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `monthly_uplift_report.py` now records an
+  `execution_bridge_unclaimed` candidate pool beside score and source-map
+  candidates. The pool is built from the live missing bridge tail, filters out
+  claimed and dirty packs, and includes pack, score, current bridge-link count,
+  and weakest-skill path for safe future candidates. `--check` now rejects
+  execution-bridge candidates that are claim-sensitive, already dirty, or no
+  longer in the live missing tail. The compact handoff and full Markdown report
+  can list concrete unclaimed bridge candidates when they exist; in the current
+  live state they correctly report zero and keep the three missing packs in the
+  owner-clearance queue.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.` The self-test now covers
+    bridge content candidates plus dirty, claim-sensitive, and stale bridge
+    candidate rejection.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`
+    -> PASS; handoff reports `Unclaimed execution-bridge candidates: 0`,
+    `Claim-sensitive execution-bridge targets: 3`, and keeps
+    `Academy-of-Management-Annals-Skills`,
+    `Annual-Review-of-Economics-Skills`, and
+    `Social-Sciences-in-China-Skills` in the owner-clearance queue.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS after this append; resolves to
+    `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`, reports 38 loop entries, and
+    identifies this loop as the latest entry.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop33-final.md`
+    -> PASS; full snapshot includes `Unclaimed execution-bridge candidates |
+    0`, inventory 2902 / 195 / 200, quality min 90.0, below-90 0, source-map
+    warnings 0, root-card warnings 0, clone pairs 0, execution bridge
+    131 / 134, and loop-control status `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, counts
+    unchanged at 2902 / 195 / 200, clone audit no pairs at or above 0.750,
+    and `git diff --check` passed.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0,
+    `monthly_uplift_report self-check passed.`,
+    `monthly_uplift_report worklog-check passed`, clone audit no pairs at or
+    above 0.750, quality min 90.0, and execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-27 - Owner Clearance Overflow Signal
+
+- Scope: root tooling/reporting only; no journal pack content, no counts, no
+  source-map edits, and no claim-sensitive files.
+- Rationale: the handoff and full dashboard grouped owner-clearance targets by
+  score-floor, source-map, and execution-bridge type, but each compact group
+  rendered only the first five packs. In the current live state the score and
+  source-map queues each contain 20 claim-sensitive targets, so a silent
+  five-row display could be mistaken for the complete blocked set.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: owner-clearance groups now compute the full unique target count and
+  append a `+N more` suffix whenever the compact queue is truncated. The same
+  signal appears in the full Markdown snapshot, compact handoff, and populated
+  worklog-template output. The dependency-free self-test now covers overflow
+  rendering across all three outputs so future dashboard edits cannot silently
+  drop the remainder count.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.` The self-test now checks
+    owner-clearance overflow in handoff, full Markdown, and worklog-template
+    output.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-monthly-worklog-template-loop34.md`
+    -> PASS; populated template reports score-floor and source-map queues with
+    `+15 more`, while the three execution-bridge targets remain fully listed.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`
+    -> PASS; handoff reports score-floor and source-map owner-clearance queues
+    with `+15 more`, `Unclaimed execution-bridge candidates: 0`, and
+    `Claim-sensitive execution-bridge targets: 3`.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS after this append; resolves to
+    `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`, reports 39 loop entries, and
+    identifies this loop as the latest entry.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop34-final.md`
+    -> PASS; full snapshot includes `+15 more` for the score-floor and
+    source-map owner-clearance queues, inventory 2902 / 195 / 200, quality min
+    90.0, below-90 0, source-map warnings 0, root-card warnings 0, clone pairs
+    0, execution bridge 131 / 134, and loop-control status
+    `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, counts
+    unchanged at 2902 / 195 / 200, clone audit no pairs at or above 0.750,
+    and `git diff --check` passed.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0,
+    `monthly_uplift_report self-check passed.`,
+    `monthly_uplift_report worklog-check passed`, clone audit no pairs at or
+    above 0.750, quality min 90.0, and execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-27 - Structured Owner Clearance Queue
+
+- Scope: root tooling/reporting only; no journal pack content, no counts, no
+  source-map edits, and no claim-sensitive files.
+- Rationale: the owner-clearance queue was visible in Markdown, but the
+  machine-readable JSON did not yet carry the same grouped queue contract. That
+  made automated handoff checks depend on prose rendering rather than a stable
+  structure with totals, displayed rows, omitted counts, and truncation flags.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `monthly_uplift_report.py` now emits an `owner_clearance_queue`
+  object in the JSON summary. Each target type records `total`,
+  `display_limit`, `displayed`, `omitted`, and `truncated`, with live values of
+  20 / 15 / true for score-floor and source-map queues and 3 / 0 / false for
+  the execution-bridge queue. Full Markdown, compact handoff, and
+  worklog-template rendering now read from this structured queue, and `--check`
+  rejects owner-clearance queue totals or omitted counts that drift from the
+  live claims-derived targets.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.` The self-test now rejects a
+    deliberately broken owner-clearance queue total and still checks overflow
+    rendering across handoff, full Markdown, and worklog-template output.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-monthly-report-loop35.json`
+    -> PASS; JSON includes `owner_clearance_queue` with score-floor total 20,
+    omitted 15, truncated true; source-map total 20, omitted 15, truncated
+    true; and execution-bridge total 3, omitted 0, truncated false.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-monthly-worklog-template-loop35.md`
+    -> PASS; populated template still reports score-floor and source-map
+    queues with `+15 more`, and all three execution-bridge targets listed.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`
+    -> PASS; handoff reports `owner-clearance-needed`, no unclaimed
+    score/source/bridge candidates, score-floor and source-map queues with
+    `+15 more`, and execution-bridge targets fully listed.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS after this append; resolves to
+    `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`, reports 40 loop entries, and
+    identifies this loop as the latest entry.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop35-final.md`
+    -> PASS; full snapshot includes the structured owner-clearance values in
+    JSON and the compact owner queue with `+15 more`, inventory 2902 / 195 /
+    200, quality min 90.0, below-90 0, source-map warnings 0, root-card
+    warnings 0, clone pairs 0, execution bridge 131 / 134, and loop-control
+    status `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, counts
+    unchanged at 2902 / 195 / 200, clone audit no pairs at or above 0.750,
+    and `git diff --check` passed.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0,
+    `monthly_uplift_report self-check passed.`,
+    `monthly_uplift_report worklog-check passed`, clone audit no pairs at or
+    above 0.750, quality min 90.0, and execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-27 - Claims Boundary Source Health
+
+- Scope: root tooling/reporting only; no pack content, count, or source-map
+  edits.
+- Rationale: dashboard candidate filtering depends on `.maintenance/CLAIMS.md`.
+  If the claims source is missing, empty, or unparseable, content suggestions
+  are unsafe. The monthly loop now makes that boundary visible and fails
+  closed when the source is not healthy.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `monthly_uplift_report.py` now records claims-source `line_count`,
+  parsed `row_count`, `active_row_count`, and a short SHA-256 `fingerprint`.
+  Full Markdown, readiness rows, compact handoff, and the worklog-template
+  output all report the claims boundary. `--check` rejects a missing claims
+  file, zero parsed claim rows, or a missing fingerprint. The live boundary is
+  `.maintenance/CLAIMS.md`; 71 rows; 10 active; 365 lines; sha256
+  `a4d9f08d0cda`.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.` The self-test now checks
+    claims-boundary rendering in handoff, full Markdown, readiness rows, and
+    worklog-template output, and rejects a missing claims fixture.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-monthly-report-loop36.json`
+    -> PASS; JSON reports `.maintenance/CLAIMS.md`, present true, 71 parsed
+    rows, 10 active rows, 365 lines, and fingerprint `a4d9f08d0cda`, while
+    owner-clearance queue totals stay unchanged.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-monthly-worklog-template-loop36.md`
+    -> PASS; the generated template includes the claims boundary line with
+    the same row counts, active count, line count, and fingerprint.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`
+    -> PASS; handoff current metrics include `Claims boundary:
+    .maintenance/CLAIMS.md; 71 rows; 10 active; 365 lines; sha256
+    a4d9f08d0cda`.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS after this append; resolves to
+    `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`, reports 41 loop entries, and
+    identifies this loop as the latest entry.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop36-final.md`
+    -> PASS; full snapshot includes claims boundary health in summary and
+    readiness rows, inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, clone pairs 0, execution
+    bridge 131 / 134, and loop-control status `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, counts
+    unchanged at 2902 / 195 / 200, clone audit no pairs at or above 0.750,
+    and `git diff --check` passed.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0,
+    `monthly_uplift_report self-check passed.`,
+    `monthly_uplift_report worklog-check passed`, clone audit no pairs at or
+    above 0.750, quality min 90.0, and execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-27 - Claims Delta Drift Guard
+
+- Scope: root tooling/reporting only; no pack content, count, or source-map
+  edits.
+- Rationale: `--compare-json` is the month-long loop's baseline-drift check.
+  It already surfaced quality, bridge, source-map, root-card, clone, and
+  inventory movement, but the claims boundary could drift without a visible
+  delta line when row counts stayed stable. Since ownership filtering depends
+  on `.maintenance/CLAIMS.md`, compare output must expose both claims counts
+  and the source fingerprint.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: trajectory deltas now include claims row count, active-row count,
+  source line count, boundary presence, and claims fingerprint status. The
+  handoff, full Markdown snapshot, and generated worklog-template all print
+  those values. Self-test now mutates only the claims fingerprint and verifies
+  that the change appears in handoff, Markdown, and worklog-template output.
+  Live compare evidence currently reports 71 rows, 10 active rows, 365 lines,
+  and fingerprint `a4d9f08d0cda -> a4d9f08d0cda (unchanged)`.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-monthly-baseline-loop37.json`
+    -> PASS; baseline JSON includes claims row count 71, active-row count 10,
+    line count 365, and fingerprint `a4d9f08d0cda`.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone --compare-json /tmp/ajs-monthly-baseline-loop37.json`
+    -> PASS; trajectory delta includes `Claims rows: 71 -> 71 (0)`,
+    `Claims active rows: 10 -> 10 (0)`, `Claims boundary lines: 365 -> 365
+    (0)`, and `Claims boundary fingerprint: a4d9f08d0cda -> a4d9f08d0cda
+    (unchanged)`.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --skip-clone --compare-json /tmp/ajs-monthly-baseline-loop37.json --output /tmp/ajs-monthly-report-loop37-compare.md`
+    -> PASS; full Markdown prints claims count deltas and a text-delta table
+    for boundary presence and fingerprint status.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --compare-json /tmp/ajs-monthly-baseline-loop37.json --output /tmp/ajs-monthly-worklog-template-loop37.md`
+    -> PASS; generated template includes claims count deltas and fingerprint
+    status under `Trajectory delta`.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS after this append; resolves to
+    `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`, reports 42 loop entries, and
+    identifies this loop as the latest entry.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop37-final.md`
+    -> PASS; full snapshot includes claims boundary health, inventory 2902 /
+    195 / 200, quality min 90.0, below-90 0, source-map warnings 0,
+    root-card warnings 0, clone pairs 0, execution bridge 131 / 134, and
+    loop-control status `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, counts
+    unchanged at 2902 / 195 / 200, clone audit no pairs at or above 0.750,
+    and `git diff --check` passed.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0,
+    `monthly_uplift_report self-check passed.`,
+    `monthly_uplift_report worklog-check passed`, clone audit no pairs at or
+    above 0.750, quality min 90.0, and execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-27 - Candidate Gate Delta Guard
+
+- Scope: root tooling/reporting only; no pack content, count, or source-map
+  edits.
+- Rationale: the monthly loop relies on the candidate gate to decide whether
+  the next safe lane is content work, owner clearance, or tooling. Before this
+  pass, `--compare-json` showed score/source/bridge/claims drift but did not
+  expose changes in unclaimed candidate counts, claim-sensitive target counts,
+  or dirty skipped packs. Those counts are the practical boundary that keeps
+  the loop from drifting into another agent's lane.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: trajectory deltas now include unclaimed score/source/bridge
+  candidates, claim-sensitive score/source/bridge targets, and dirty skipped
+  packs. Self-test now mutates the dirty-skipped queue and verifies that the
+  handoff prints `Dirty skipped packs: 0 -> 3 (+3)`. Live compare evidence
+  currently reports unclaimed score/source/bridge candidates `0 -> 0`, claim-
+  sensitive score/source/bridge targets `20 -> 20`, `20 -> 20`, `3 -> 3`, and
+  dirty skipped packs `15 -> 15`.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-monthly-baseline-loop38.json`
+    -> PASS; baseline JSON includes loop-control counts with unclaimed
+    score/source/bridge candidates 0 / 0 / 0, claim-sensitive
+    score/source/bridge targets 20 / 20 / 3, and dirty skipped packs 15.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone --compare-json /tmp/ajs-monthly-baseline-loop38.json`
+    -> PASS; trajectory delta includes unclaimed candidate counts,
+    claim-sensitive target counts, and `Dirty skipped packs: 15 -> 15 (0)`.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`
+    -> PASS; handoff reports loop-control status `owner-clearance-needed`,
+    no unclaimed score/source/bridge candidates, claim-sensitive
+    score/source/bridge targets 20 / 20 / 3, and dirty skipped packs 15.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS after this append; resolves to
+    `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`, reports 43 loop entries, and
+    identifies this loop as the latest entry.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop38-final.md`
+    -> PASS; full snapshot includes inventory 2902 / 195 / 200, quality min
+    90.0, below-90 0, source-map warnings 0, root-card warnings 0, clone
+    pairs 0, execution bridge 131 / 134, claims boundary sha256
+    `a4d9f08d0cda`, and loop-control status `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, counts
+    unchanged at 2902 / 195 / 200, clone audit no pairs at or above 0.750,
+    and `git diff --check` passed.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0,
+    `monthly_uplift_report self-check passed.`,
+    `monthly_uplift_report worklog-check passed`, clone audit no pairs at or
+    above 0.750, quality min 90.0, and execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-27 - Worklog And Dirty Delta Guard
+
+- Scope: root tooling/reporting only; no pack content, count, or source-map
+  edits.
+- Rationale: the month-long loop uses `--compare-json` as the compact
+  trajectory check, but the previous delta surface did not show whether the
+  durable worklog advanced or whether the shared worktree got dirtier or
+  cleaner between baselines. Those two numbers are important in this repo
+  because the safe lane depends on both recorded loop evidence and concurrent
+  dirty-file boundaries.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `git_status()` now records an explicit `dirty_count`, and trajectory
+  deltas now include `Worklog loops` and `Git dirty entries`. Self-test mutates
+  both values and checks that handoff output prints `Worklog loops: 35 -> 36
+  (+1)` and `Git dirty entries: 1 -> 3 (+2)`. Live compare evidence currently
+  reports `Worklog loops: 43 -> 43 (0)` and `Git dirty entries: 19 -> 19 (0)`.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-monthly-baseline-loop39.json`
+    -> PASS; baseline JSON includes `worklog.loop_count` 43 and
+    `git.dirty_count` 19.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone --compare-json /tmp/ajs-monthly-baseline-loop39.json`
+    -> PASS; trajectory delta includes `Worklog loops: 43 -> 43 (0)` and
+    `Git dirty entries: 19 -> 19 (0)`.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`
+    -> PASS; handoff reports loop-control status `owner-clearance-needed`,
+    worklog OK, 44 loops after this append, claims boundary sha256
+    `a4d9f08d0cda`, clone fail hits 0, and 19 dirty entries.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS after this append; resolves to
+    `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`, reports 44 loop entries, and
+    identifies this loop as the latest entry.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop39-final.md`
+    -> PASS; full snapshot includes inventory 2902 / 195 / 200, quality min
+    90.0, below-90 0, source-map warnings 0, root-card warnings 0, clone
+    pairs 0, execution bridge 131 / 134, claims boundary sha256
+    `a4d9f08d0cda`, and loop-control status `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, counts
+    unchanged at 2902 / 195 / 200, clone audit no pairs at or above 0.750,
+    and `git diff --check` passed.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0,
+    `monthly_uplift_report self-check passed.`,
+    `monthly_uplift_report worklog-check passed`, clone audit no pairs at or
+    above 0.750, quality min 90.0, and execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-27 - Dirty Boundary Split Guard
+
+- Scope: root tooling/reporting only; no pack content, count, or source-map
+  edits.
+- Rationale: the handoff already showed total dirty entries, but the safe next
+  action depends on whether those entries are pack lanes, root tooling/docs, or
+  maintenance evidence. A single dirty count made path-scoped staging and
+  owner-boundary review harder than necessary under concurrent-agent activity.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `git_status()` now classifies dirty worktree state into
+  `dirty_pack_names`, `dirty_pack_count`, `dirty_root_lines`, and
+  `dirty_root_count`. The summary, readiness row, handoff, and worklog
+  template use one shared working-tree line that shows total dirty entries,
+  dirty pack lanes, and root/tooling entries. Trajectory deltas also include
+  `Git dirty pack lanes` and `Git dirty root/tooling entries`. Live evidence
+  currently reports 19 dirty entries: 15 pack lanes and 4 root/tooling entries.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-monthly-baseline-loop40.json`
+    -> PASS; baseline JSON includes 19 dirty entries, 15 dirty pack lanes,
+    and 4 root/tooling dirty entries.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone --compare-json /tmp/ajs-monthly-baseline-loop40.json`
+    -> PASS; handoff reports `Working tree: ## main...origin/main with 19
+    dirty entries (15 pack lanes, 4 root/tooling entries)` and trajectory
+    deltas for dirty pack lanes and root/tooling entries.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`
+    -> PASS; handoff reports loop-control status `owner-clearance-needed`,
+    worklog OK, 45 loops after this append, claims boundary sha256
+    `a4d9f08d0cda`, clone fail hits 0, and the same dirty-boundary split.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS after this append; resolves to
+    `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`, reports 45 loop entries, and
+    identifies this loop as the latest entry.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop40-final.md`
+    -> PASS; full snapshot includes inventory 2902 / 195 / 200, quality min
+    90.0, below-90 0, source-map warnings 0, root-card warnings 0, clone
+    pairs 0, execution bridge 131 / 134, claims boundary sha256
+    `a4d9f08d0cda`, and loop-control status `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, counts
+    unchanged at 2902 / 195 / 200, clone audit no pairs at or above 0.750,
+    and `git diff --check` passed.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0,
+    `monthly_uplift_report self-check passed.`,
+    `monthly_uplift_report worklog-check passed`, clone audit no pairs at or
+    above 0.750, quality min 90.0, and execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-27 - Bridge Clearance Tail Handoff
+
+- Scope: root dashboard/tooling and maintenance evidence only; no journal pack
+  content edits.
+- Rationale: the live loop-control state has no unclaimed score, source-map, or
+  execution-bridge candidates. The remaining execution-bridge tail is fully
+  claim-sensitive, but the compact next-queue line previously only said there
+  were no unclaimed bridge candidates. That made the safe next action less
+  explicit than the owner-clearance queue under concurrent-agent conditions.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `monthly_uplift_report.py` now derives an
+  execution-bridge-specific owner-clearance tail from the missing bridge packs
+  and the claims-derived reasons. The next-batch guidance, compact handoff, and
+  worklog template now say that no bridge candidates are unclaimed and list the
+  packs that require owner clearance before wiring:
+  `Academy-of-Management-Annals-Skills`,
+  `Annual-Review-of-Economics-Skills`, and
+  `Social-Sciences-in-China-Skills`. The self-test fixture now covers this
+  claim-sensitive bridge-tail rendering so future dashboard changes cannot
+  silently downgrade it to an ordinary candidate.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone`
+    -> PASS; handoff reports loop-control status `owner-clearance-needed`,
+    zero unclaimed score/source/bridge candidates, three claim-sensitive
+    execution-bridge targets, and a next-queue line requiring owner clearance
+    for all three remaining bridge-tail packs.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-monthly-worklog-template-loop41.md`
+    -> PASS; generated template includes the execution-bridge
+    owner-clearance tail with all three Agent A lane reasons.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-monthly-loop41.json`
+    -> PASS; JSON reports `owner_clearance_queue["execution-bridge"].total`
+    as 3 with 0 omitted rows and loop-control
+    `claim_sensitive_execution_bridge_targets` as 3.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS after this append; reports 46 loop entries and identifies
+    `### 2026-06-27 - Bridge Clearance Tail Handoff` as the latest loop.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop41-final.md`
+    -> PASS; full snapshot keeps inventory at 2902 / 195 / 200, quality min
+    90.0, below-90 0, source-map warnings 0, root-card warnings 0, execution
+    bridge 131 / 134, claims boundary sha256 `a4d9f08d0cda`, loop-control
+    status `owner-clearance-needed`, and bridge-tail owner-clearance reasons in
+    the next-batch guidance.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, repository
+    audit 2902 / 195 / 200, clone audit no pairs at or above 0.750, and
+    `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes worklog check 46 loops, quality min 90.0, below
+    86/88/90 as 0/0/0, and execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed after this append.
+
+### 2026-06-27 - Dirty Boundary Handoff Detail
+
+- Scope: root dashboard/tooling and maintenance evidence only; no journal pack
+  content edits.
+- Rationale: the dashboard already split dirty worktree counts into pack lanes
+  and root/tooling entries, but the compact handoff still required a separate
+  `git status` read to know which root/tooling paths were safe candidates for
+  future path-scoped staging. Under concurrent-agent activity, the handoff
+  should carry that boundary explicitly.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `monthly_uplift_report.py` now renders a Dirty Boundary block in the
+  compact handoff and full Markdown snapshot, and the worklog template includes
+  the same pack-lane summary plus exact root/tooling status lines. The current
+  live handoff reports 15 dirty pack lanes and these 4 root/tooling entries:
+  `M tools/README.md`, `M tools/monthly_uplift_report.py`,
+  `M tools/run_checks.py`, and
+  `?? .maintenance/MONTHLY-UPLIFT-2026-06-27.md`. The self-test now covers the
+  handoff, Markdown, and worklog-template dirty-boundary renderers.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone`
+    -> PASS; compact handoff includes `## Dirty Boundary`, the 15 dirty pack
+    lanes summarized with `+7 more`, and the 4 exact root/tooling status lines.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-monthly-worklog-template-loop42.md`
+    -> PASS; generated template includes both dirty-boundary lines.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-monthly-loop42.json`
+    -> PASS; JSON reports 19 dirty entries, 15 dirty pack lanes, and 4
+    root/tooling dirty entries with the expected root/tooling status lines.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS after this append; reports 47 loop entries and identifies
+    `### 2026-06-27 - Dirty Boundary Handoff Detail` as the latest loop.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop42-final.md`
+    -> PASS; full snapshot keeps inventory at 2902 / 195 / 200, quality min
+    90.0, below-90 0, source-map warnings 0, root-card warnings 0, execution
+    bridge 131 / 134, and includes the dirty-boundary detail before the raw
+    dirty working tree block.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, repository
+    audit 2902 / 195 / 200, clone audit no pairs at or above 0.750, and
+    `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes worklog check 47 loops, quality min 90.0, below
+    86/88/90 as 0/0/0, and execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed after this append.
+
+### 2026-06-27 - Dirty Root Path Normalization
+
+- Scope: root dashboard/tooling and maintenance evidence only; no journal pack
+  content edits.
+- Rationale: the Dirty Boundary block already separated dirty pack lanes from
+  root/tooling status lines, but future publish or handoff tooling still had to
+  strip git status prefixes before it could build an explicit path-scoped
+  staging list. The dashboard should expose the normalized root/tooling paths
+  directly while keeping pack-lane files out of that list.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `git_status()` now emits machine-readable `dirty_pack_paths` and
+  `dirty_root_paths` arrays with matching path-count fields. `--check`
+  validates that root/tooling paths do not absorb `*-Skills` pack paths and
+  that pack paths stay inside pack lanes. The compact handoff, full Markdown
+  snapshot, and worklog template now print a `Root/tooling paths` line; live
+  evidence lists `tools/README.md`, `tools/monthly_uplift_report.py`,
+  `tools/run_checks.py`, and
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone`
+    -> PASS; compact handoff includes `Root/tooling paths` with the 4
+    normalized root/tooling paths.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-monthly-worklog-template-loop43.md`
+    -> PASS; generated template includes dirty pack lanes, root/tooling status
+    lines, and normalized root/tooling paths.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-monthly-loop43.json`
+    -> PASS; JSON reports `dirty_pack_path_count` 15 and
+    `dirty_root_path_count` 4, with the expected root/tooling path array.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS after this append; reports 48 loop entries and identifies
+    `### 2026-06-27 - Dirty Root Path Normalization` as the latest loop.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop43-final.md`
+    -> PASS; full snapshot includes the normalized `Root/tooling paths` line,
+    inventory 2902 / 195 / 200, quality min 90.0, below-90 0, source-map
+    warnings 0, root-card warnings 0, execution bridge 131 / 134, and
+    loop-control status `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, repository
+    audit 2902 / 195 / 200, clone audit no pairs at or above 0.750, and
+    `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes worklog check 48 loops, quality min 90.0, below
+    86/88/90 as 0/0/0, and execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed after this append.
+
+### 2026-06-27 - Root Pathspec Staging Preview
+
+- Scope: root dashboard/tooling and maintenance evidence only; no journal pack
+  content edits and no staging.
+- Rationale: the handoff now exposes normalized root/tooling paths, but a
+  future publish pass still benefits from a reviewable pathspec command that
+  shows exactly which root/tooling files can be staged without reopening dirty
+  pack lanes. The dashboard should generate that command as read-only evidence,
+  not execute it.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `git_status()` now emits `dirty_root_pathspec_command`, a shell-quoted
+  `git add -- ...` preview derived only from `dirty_root_paths`. `--check`
+  verifies the preview still matches the root/tooling path list, and the
+  compact handoff, full Markdown snapshot, and worklog template now print a
+  `Root/tooling staging preview` line. Live evidence currently renders:
+  `git add -- tools/README.md tools/monthly_uplift_report.py tools/run_checks.py .maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone`
+    -> PASS; compact handoff includes the `Root/tooling staging preview`
+    command and still reports 15 dirty pack lanes / 4 root-tooling entries.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-monthly-worklog-template-loop44.md`
+    -> PASS; generated template includes `Root/tooling paths` and
+    `Root/tooling staging preview`.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-monthly-loop44.json`
+    -> PASS; JSON reports `dirty_root_pathspec_command` matching the 4
+    `dirty_root_paths`.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS after this append; reports 49 loop entries and identifies
+    `### 2026-06-27 - Root Pathspec Staging Preview` as the latest loop.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop44-final.md`
+    -> PASS; full snapshot includes the `Root/tooling staging preview`, the
+    dirty-boundary detail, inventory 2902 / 195 / 200, quality min 90.0,
+    below-90 0, source-map warnings 0, root-card warnings 0, and execution
+    bridge 131 / 134.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, repository
+    audit 2902 / 195 / 200, clone audit no pairs at or above 0.750, and
+    `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes worklog check 49 loops, quality min 90.0, below
+    86/88/90 as 0/0/0, and execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed after this append.
+
+### 2026-06-27 - Root Dirty Tracked Split
+
+- Scope: root dashboard/tooling and maintenance evidence only; no journal pack
+  content edits and no staging.
+- Rationale: the staging preview now gives a single root/tooling pathspec, but
+  a publish handoff should also distinguish tracked tooling/docs changes from
+  new maintenance evidence files. That lets the next publish pass reason about
+  `git add -u`-style tracked updates separately from adding a new worklog file,
+  while keeping dirty pack lanes out of scope.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `git_status()` now emits `dirty_root_tracked_paths` and
+  `dirty_root_untracked_paths` with matching count fields. `--check` verifies
+  that those lists reconcile to `dirty_root_paths` and do not absorb pack-lane
+  files. The compact handoff, full Markdown snapshot, and worklog template now
+  print separate tracked and untracked root/tooling path lines. Live evidence
+  currently reports tracked paths `tools/README.md`,
+  `tools/monthly_uplift_report.py`, and `tools/run_checks.py`, plus untracked
+  path `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone`
+    -> PASS; compact handoff includes `Root/tooling tracked paths` with 3
+    tooling/doc paths and `Root/tooling untracked paths` with the worklog path.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-monthly-worklog-template-loop45.md`
+    -> PASS; generated template includes tracked, untracked, and staging
+    preview lines.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-monthly-loop45.json`
+    -> PASS; JSON reports `dirty_root_tracked_path_count` 3,
+    `dirty_root_untracked_path_count` 1, and the staging preview command over
+    all 4 root/tooling paths.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS after this append; reports 50 loop entries and identifies
+    `### 2026-06-27 - Root Dirty Tracked Split` as the latest loop.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop45-final.md`
+    -> PASS; full snapshot includes the tracked/untracked root-tooling split,
+    inventory 2902 / 195 / 200, quality min 90.0, below-90 0, source-map
+    warnings 0, root-card warnings 0, execution bridge 131 / 134, and
+    loop-control status `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, repository
+    audit 2902 / 195 / 200, clone audit no pairs at or above 0.750, and
+    `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes worklog check 50 loops, quality min 90.0, below
+    86/88/90 as 0/0/0, and execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed after this append.
+
+### 2026-06-27 - Publish Unit Split
+
+- Scope: root tooling/dashboard and the monthly uplift worklog; no journal
+  pack content was edited.
+- Rationale: the dashboard already separated dirty pack lanes from
+  root/tooling paths, but the next split/commit/push pass still needed a
+  durable publish-unit view that distinguishes a possible tooling-only batch
+  from pack-content lanes that require owner review.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `monthly_uplift_report.py` now derives a machine-readable
+  `publish_units` object from the same git-status data as the dirty-boundary
+  block. The live JSON reports a `root_tooling` unit with 4 paths, 3 tracked
+  paths, 1 untracked path, and the exact path-scoped staging command, while
+  `pack_content` reports 15 dirty pack lanes as `needs-owner-review`.
+  `--check` rejects publish-unit drift against the dirty git split, and the
+  compact handoff, full Markdown snapshot, and worklog template render the
+  same publish-unit lines.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone`
+    -> PASS; compact handoff includes `## Publish Units`, a ready
+    root/tooling unit with 4 paths, and a `needs-owner-review` pack-content
+    unit with 15 pack lanes.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-monthly-worklog-template-loop46.md`
+    -> PASS; generated worklog template includes `Publish units`, the
+    root/tooling unit, and the pack-content unit.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-monthly-loop46.json`
+    -> PASS; JSON reports `publish_units.root_tooling.path_count` 4,
+    `tracked_path_count` 3, `untracked_path_count` 1, and
+    `publish_units.pack_content.pack_count` 15.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS after this append; reports 51 loop entries and identifies
+    `### 2026-06-27 - Publish Unit Split` as the latest loop.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop46-final.md`
+    -> PASS; full snapshot includes the publish-unit review plus
+    inventory 2902 / 195 / 200, quality min 90.0, below-90 0, source-map
+    warnings 0, root-card warnings 0, execution bridge 131 / 134, and
+    loop-control status `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, repository
+    audit 2902 / 195 / 200, clone audit no pairs at or above 0.750, and
+    `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes worklog check 51 loops, quality min 90.0, below
+    86/88/90 as 0/0/0, source-map warnings 0, root-card warnings 0, and
+    execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed after this append.
+
+### 2026-06-27 - Publish Unit Worklog Guard
+
+- Scope: root dashboard tooling, README guidance, and the monthly uplift
+  worklog; no journal pack content was edited.
+- Rationale: the previous loop added machine-readable publish units, but the
+  durable loop artifact also needs to preserve that boundary in `Current Next
+  Queue` so future handoffs do not lose the root/tooling versus pack-content
+  split.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `CURRENT_NEXT_QUEUE_REQUIRED_MARKERS` now requires
+  `Local publish-unit split:` and `needs-owner-review`, and the dashboard
+  self-test includes a negative fixture proving a worklog without that marker
+  is rejected. `tools/README.md` now documents that this publish-boundary note
+  is required, not optional.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone`
+    -> PASS; compact handoff reports 52 loop entries, latest
+    `### 2026-06-27 - Publish Unit Worklog Guard`, `## Publish Units`, a
+    ready root/tooling unit with 4 paths, and a `needs-owner-review`
+    pack-content unit with 15 pack lanes.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-monthly-worklog-template-loop47.md`
+    -> PASS; generated worklog template includes `Publish units`, the
+    root/tooling unit, and the pack-content unit.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-monthly-loop47.json`
+    -> PASS; JSON reports 52 worklog loops, latest
+    `### 2026-06-27 - Publish Unit Worklog Guard`,
+    `publish_units.root_tooling.path_count` 4, and
+    `publish_units.pack_content.pack_count` 15.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS after this append; reports 52 loop entries and identifies
+    `### 2026-06-27 - Publish Unit Worklog Guard` as the latest loop.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop47-final.md`
+    -> PASS; full snapshot includes the dirty working tree, publish-unit
+    review, inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, execution bridge 131 / 134,
+    and loop-control status `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, repository
+    audit 2902 / 195 / 200, clone audit no pairs at or above 0.750, and
+    `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes worklog check 52 loops, quality min 90.0, below
+    86/88/90 as 0/0/0, source-map warnings 0, root-card warnings 0, and
+    execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed after this append.
+
+### 2026-06-27 - Validation Evidence Wording Guard
+
+- Scope: root dashboard tooling, README guidance, and the monthly uplift
+  worklog; no journal pack content was edited.
+- Rationale: recent loops briefly used phrases such as `pending final run` and
+  `should report` while validations were still running. The durable worklog
+  checker now rejects those future-tense lines so completed loop evidence only
+  contains observed command results.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `WORKLOG_PLANNED_EVIDENCE_RE` now rejects additional planned or
+  future-tense validation phrases, including `expected after this append`,
+  `PASS expected`, `pending final run`, `pending validation`, `pending rerun`,
+  and `should pass/report/include/show`. The self-test now includes negative
+  fixtures for `pending final run after this append` and `should report the
+  latest loop`.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone`
+    -> PASS; compact handoff reports worklog OK with 53 loops, latest
+    `### 2026-06-27 - Validation Evidence Wording Guard`, root/tooling unit
+    with 4 paths, pack-content unit with 15 dirty pack lanes, and loop-control
+    status `owner-clearance-needed`.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-monthly-worklog-template-loop48-after.md`
+    -> PASS; generated worklog template includes `Publish units` and contains
+    no newly banned future-tense evidence text.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-monthly-loop48-after.json`
+    -> PASS; JSON reports 53 worklog loops, latest
+    `### 2026-06-27 - Validation Evidence Wording Guard`,
+    `publish_units.root_tooling.path_count` 4, and
+    `publish_units.pack_content.pack_count` 15.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS after this append; reports 53 loop entries and identifies
+    `### 2026-06-27 - Validation Evidence Wording Guard` as the latest loop.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop48-final.md`
+    -> PASS; full snapshot includes the dirty working tree, publish-unit
+    review, inventory 2902 / 195 / 200, quality min 90.0, below-90 0,
+    source-map warnings 0, root-card warnings 0, execution bridge 131 / 134,
+    and loop-control status `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, repository
+    audit 2902 / 195 / 200, clone audit no pairs at or above 0.750, and
+    `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes worklog check 53 loops, quality min 90.0, below
+    86/88/90 as 0/0/0, source-map warnings 0, root-card warnings 0, and
+    execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-27 - Measurement Command Handoff Parity
+
+- Scope: root dashboard tooling, README guidance, and the monthly uplift
+  worklog; no journal pack content was edited.
+- Rationale: the month-scale goal requires each loop to start from live
+  measurement commands, but the compact handoff previously surfaced the final
+  validation commands more clearly than the baseline measurement commands.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`,
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: the dashboard now renders a dedicated `Measurement Commands` block
+  in compact handoff and full Markdown snapshots, and the worklog template now
+  renders a separate `Measurement checklist`. The command list includes the
+  monthly JSON baseline, `audit_repo.py --counts`, `quality_scorecard.py`,
+  `source_map_audit.py`, `root_entry_audit.py`, and the clone-audit command
+  with explicit thresholds. The `Current Next Queue` guard now also requires
+  the exact clone-audit command.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone`
+    -> PASS; compact handoff includes `## Measurement Commands`,
+    `python3 tools/audit_repo.py --counts`, and
+    `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-monthly-worklog-template-loop49.md`
+    -> PASS; generated worklog template includes `Measurement checklist`,
+    `python3 tools/audit_repo.py --counts`, the clone-audit command, and
+    `Validation checklist`.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-monthly-loop49-after.json`
+    -> PASS; JSON reports 54 worklog loops, latest
+    `### 2026-06-27 - Measurement Command Handoff Parity`, loop-control status
+    `owner-clearance-needed`, and next lane `tooling-or-owner-clearance`.
+  - `python3 tools/audit_repo.py --counts`
+    -> PASS; reports 2902 skills, 195 packs, and 200 root journal entries.
+  - `python3 tools/quality_scorecard.py`
+    -> PASS; reports mean 93.6, min 90.0, below 86/88/90 as 0/0/0, and
+    execution bridge 131 / 134.
+  - `python3 tools/source_map_audit.py`
+    -> PASS; reports 194 source maps and 0 warnings.
+  - `python3 tools/root_entry_audit.py`
+    -> PASS; reports 200 root entries, 200 enriched, 0 machine-only, and 0
+    warnings.
+  - `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`
+    -> PASS; scanned 2902 skills in 350 comparison groups and reported no
+    pairs at or above 0.750.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS after this append; reports 54 loop entries and identifies
+    `### 2026-06-27 - Measurement Command Handoff Parity` as the latest loop.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-loop49-final.md`
+    -> PASS; full snapshot includes the new `Measurement Commands` block and
+    loop-control status `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes `monthly_uplift_report self-test passed.`, repository
+    audit 2902 / 195 / 200, clone audit no pairs at or above 0.750, and
+    `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes worklog check 54 loops, quality min 90.0, below
+    86/88/90 as 0/0/0, source-map warnings 0, root-card warnings 0, and
+    execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-27 - Command Plan JSON Export
+
+- Scope: root tooling/reporting only; left the 15 dirty pack lanes untouched.
+- Rationale: make the next-loop measurement and validation plan available to
+  JSON consumers, not only Markdown readers, so the month-long loop can resume
+  from structured state.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`, and
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `build_summary()` now exports `measurement_commands` and
+  `validation_commands`; summary validation rejects stale or malformed command
+  plans; full Markdown, compact handoff, and worklog-template rendering now
+  consume the summary fields. The tools README documents the JSON command-plan
+  source of truth.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-monthly-command-plan.json`
+    -> PASS; JSON includes `measurement_commands` and `validation_commands`
+    with the monthly JSON baseline command and both `run_checks.py` gates.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone --output /tmp/ajs-monthly-command-plan-handoff.md`
+    -> PASS; compact handoff renders `## Measurement Commands` and
+    `## Validation Commands` from the summary command plan.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-monthly-command-plan-worklog-template.md`
+    -> PASS; generated worklog template renders `Measurement checklist` and
+    `Validation checklist` from the summary command plan.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS; reports 55 loop entries and identifies
+    `### 2026-06-27 - Command Plan JSON Export` as the latest loop.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-command-plan-final.md`
+    -> PASS; full Markdown includes the JSON-backed command plan sections and
+    loop-control status `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes the dashboard self-test, repository audit, clone audit,
+    and `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes worklog check 55 loops, quality min 90.0, below
+    86/88/90 as 0/0/0, source-map warnings 0, root-card warnings 0, and
+    execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-27 - Command Plan Fingerprint Delta
+
+- Scope: root tooling/reporting only; left the 15 dirty pack lanes untouched.
+- Rationale: make command-plan drift visible across monthly JSON baselines, so
+  a later loop can tell whether the handoff command set changed or only the
+  repo metrics moved.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`, and
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: the JSON summary now includes a `command_plan` object with
+  measurement-command count, validation-command count, and short SHA-256
+  fingerprint `fc79488208b2`. Summary validation rejects stale command-plan
+  metadata; Markdown, compact handoff, and worklog-template output render the
+  command-plan line; `--compare-json` reports command-plan count and
+  fingerprint deltas.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-monthly-command-plan-fingerprint.json`
+    -> PASS; JSON includes `command_plan.measurement_count` 6,
+    `command_plan.validation_count` 6, and fingerprint `fc79488208b2`.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone --compare-json /tmp/ajs-monthly-command-plan.json --output /tmp/ajs-monthly-command-plan-fingerprint-handoff.md`
+    -> PASS; compact handoff renders `Command plan: 6 measurement / 6
+    validation; sha256 fc79488208b2` and reports command-plan fingerprint
+    delta from `missing` to `fc79488208b2`.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-monthly-command-plan-fingerprint-worklog-template.md`
+    -> PASS; generated worklog template includes the command-plan fingerprint
+    line in live metrics.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS; reports 56 loop entries and identifies
+    `### 2026-06-27 - Command Plan Fingerprint Delta` as the latest loop.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-command-plan-fingerprint-final.md`
+    -> PASS; full Markdown includes the command-plan line, JSON-backed command
+    sections, and loop-control status `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes the dashboard self-test, repository audit, clone audit,
+    and `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes worklog check 56 loops, quality min 90.0, below
+    86/88/90 as 0/0/0, source-map warnings 0, root-card warnings 0, and
+    execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-27 - Next Batch JSON Export
+
+- Scope: root tooling/reporting only; left the 15 dirty pack lanes untouched.
+- Rationale: make the next count-preserving batch guidance available to JSON
+  consumers, not only rendered Markdown, so the month-long loop can resume from
+  structured state when ownership boundaries block content edits.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`, and
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: the JSON summary now exports `next_batches` plus a
+  `next_batch_plan` object with count 6 and fingerprint `935962a368cb`.
+  Summary validation rejects stale next-batch lists or fingerprints; full
+  Markdown, compact handoff, and worklog-template output render the same
+  next-batch plan line. The current structured plan says bottom-band,
+  source-map, and execution-bridge content debt are claim-sensitive, root cards
+  should be left alone unless the audit changes, clone audit remains a gate,
+  and staging must remain path-scoped after re-reading `.maintenance/CLAIMS.md`.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-next-batch-plan.json`
+    -> PASS; JSON includes `next_batches`, `next_batch_plan.count` 6, and
+    fingerprint `935962a368cb`.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone --compare-json /tmp/ajs-current-loop.json --output /tmp/ajs-next-batch-plan-handoff.md`
+    -> PASS; compact handoff renders `Next-batch plan: 6 items; sha256
+    935962a368cb` and reports next-batch fingerprint delta from `missing` to
+    `935962a368cb`.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-next-batch-plan-worklog-template.md`
+    -> PASS; generated worklog template includes the next-batch plan line in
+    live metrics.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS; reports 57 loop entries and identifies
+    `### 2026-06-27 - Next Batch JSON Export` as the latest loop.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-next-batch-plan-final.md`
+    -> PASS; full Markdown includes the JSON-backed next-batch plan,
+    JSON-backed command sections, and loop-control status
+    `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes the dashboard self-test, repository audit, clone audit,
+    and `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes worklog check 57 loops, quality min 90.0, below
+    86/88/90 as 0/0/0, source-map warnings 0, root-card warnings 0, and
+    execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-27 - Dashboard Schema Contract
+
+- Scope: root tooling/reporting only; left the 15 dirty pack lanes untouched.
+- Rationale: make saved monthly JSON baselines self-describing, so later loops
+  can tell whether a metric delta reflects repo movement or a dashboard schema
+  change.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`, and
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: full dashboard summaries now export a `schema` object with
+  `monthly_uplift_report` name, version 1, contract
+  `monthly-uplift-dashboard-v1`, and required top-level fields. Summary
+  validation rejects missing or stale schema contracts; Markdown, compact
+  handoff, and worklog-template output render the schema line; `--compare-json`
+  reports schema-version and schema-contract deltas.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-schema-contract.json`
+    -> PASS; JSON includes `schema.name` `monthly_uplift_report`,
+    `schema.version` 1, `schema.contract` `monthly-uplift-dashboard-v1`, and
+    `schema.required_top_level_fields`.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone --compare-json /tmp/ajs-loop58-baseline.json --output /tmp/ajs-schema-contract-handoff.md`
+    -> PASS; compact handoff renders `Dashboard schema:
+    monthly_uplift_report v1; monthly-uplift-dashboard-v1` and reports schema
+    contract delta from `missing` to `monthly-uplift-dashboard-v1`.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-schema-contract-worklog-template.md`
+    -> PASS; generated worklog template includes the dashboard schema line in
+    live metrics.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS; reports 58 loop entries and identifies
+    `### 2026-06-27 - Dashboard Schema Contract` as the latest loop.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-schema-contract-final.md`
+    -> PASS; full Markdown includes the dashboard schema line, JSON-backed
+    command and next-batch plan sections, and loop-control status
+    `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes the dashboard self-test, repository audit, clone audit,
+    and `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes worklog check 58 loops, quality min 90.0, below
+    86/88/90 as 0/0/0, source-map warnings 0, root-card warnings 0, and
+    execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-27 - Worktree Boundary JSON Contract
+
+- Scope: root tooling/reporting only; left the 15 dirty pack lanes untouched.
+- Rationale: make the dirty worktree split machine-readable and fingerprinted,
+  so a later publish pass can verify the root/tooling staging preview has not
+  absorbed pack-content lanes.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`, and
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: the dashboard schema is now `monthly-uplift-dashboard-v2` and
+  requires a `worktree_boundary` object. The object records branch, dirty
+  count, dirty pack-lane count, root/tooling counts, root/tooling staging
+  command, and fingerprint `62c957a0e764`; summary validation rejects drift
+  from the live `git` object. Markdown, compact handoff, and worklog-template
+  output now render the same worktree-boundary line.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-worktree-boundary.json`
+    -> PASS; JSON includes `worktree_boundary.root_staging_command`,
+    fingerprint `62c957a0e764`, and schema contract
+    `monthly-uplift-dashboard-v2`.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone --compare-json /tmp/ajs-loop59-baseline.json --output /tmp/ajs-worktree-boundary-handoff.md`
+    -> PASS; compact handoff renders `Worktree boundary: 19 dirty / 15 pack
+    lanes / 4 root-tooling entries; sha256 62c957a0e764`, schema-version delta
+    1 -> 2, schema-contract delta v1 -> v2, and worktree-boundary fingerprint
+    delta from `missing` to `62c957a0e764`.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-worktree-boundary-worklog-template.md`
+    -> PASS; generated worklog template includes the dashboard schema,
+    worktree-boundary, command-plan, and next-batch-plan lines in live metrics.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS; reports 59 loop entries and identifies
+    `### 2026-06-27 - Worktree Boundary JSON Contract` as the latest loop.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-worktree-boundary-final.md`
+    -> PASS; full Markdown includes the worktree-boundary line, schema v2,
+    JSON-backed command and next-batch plan sections, and loop-control status
+    `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes the dashboard self-test, repository audit, clone audit,
+    and `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes worklog check 59 loops, quality min 90.0, below
+    86/88/90 as 0/0/0, source-map warnings 0, root-card warnings 0, and
+    execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-27 - Handoff Manifest Fingerprint
+
+- Scope: root tooling/reporting only; left the 15 dirty pack lanes untouched.
+- Rationale: consolidate the active loop status, claims boundary, worklog
+  position, worktree boundary, command plan, next-batch plan, and publish-unit
+  split into one machine-readable handoff fingerprint for later continuation.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`, and
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: the dashboard schema is now `monthly-uplift-dashboard-v3` and
+  requires a `handoff_manifest` object. The manifest records contract
+  `monthly-uplift-handoff-v1`, loop status `owner-clearance-needed`, next lane
+  `tooling-or-owner-clearance`, root/tooling path count 4, pack-content lane
+  count 15, and fingerprint `cfa40e2b8571`; summary validation rejects drift
+  from the live JSON fields. Markdown, compact handoff, and worklog-template
+  output now render the same handoff-manifest line.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-handoff-manifest-after.json`
+    -> PASS; JSON includes `handoff_manifest.contract`
+    `monthly-uplift-handoff-v1`, schema contract
+    `monthly-uplift-dashboard-v3`, root/tooling path count 4, pack-content lane
+    count 15, and fingerprint `cfa40e2b8571`.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone --compare-json /tmp/ajs-loop60-baseline.json --output /tmp/ajs-handoff-manifest-after-handoff.md`
+    -> PASS; compact handoff renders `Handoff manifest:
+    owner-clearance-needed -> tooling-or-owner-clearance; root 4 paths; packs
+    15 lanes; sha256 cfa40e2b8571`, schema-version delta 2 -> 3,
+    schema-contract delta v2 -> v3, and handoff-manifest fingerprint delta
+    from `missing` to `cfa40e2b8571`.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-handoff-manifest-after-worklog-template.md`
+    -> PASS; generated worklog template includes dashboard schema,
+    worktree-boundary, handoff-manifest, command-plan, and next-batch-plan
+    lines in live metrics.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS; reports 60 loop entries and identifies
+    `### 2026-06-27 - Handoff Manifest Fingerprint` as the latest loop.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-handoff-manifest-final.md`
+    -> PASS; full Markdown includes the handoff-manifest line, schema v3,
+    worktree-boundary line, JSON-backed command and next-batch plan sections,
+    and loop-control status `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes the dashboard self-test, repository audit, clone audit,
+    and `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes worklog check 60 loops, quality min 90.0, below
+    86/88/90 as 0/0/0, source-map warnings 0, root-card warnings 0, and
+    execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-27 - Content Edit Policy Contract
+
+- Scope: root tooling/reporting only; left the 15 dirty pack lanes untouched.
+- Rationale: make the owner-clearance decision for pack-content edits
+  machine-readable, so later loops cannot mistake claim-sensitive execution
+  bridge/source-map/score debt for safe unclaimed content work.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`, and
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: the dashboard schema is now `monthly-uplift-dashboard-v4` and
+  requires a `content_edit_policy` object. The policy reports status
+  `owner-clearance-required`, `content_edits_allowed: false`,
+  `owner_clearance_required: true`,
+  `execution_bridge_owner_clearance_required: true`, 0 unclaimed candidates,
+  43 claim-sensitive targets, 15 dirty pack lanes, and fingerprint
+  `779048c1f22c`; summary validation rejects drift from loop-control,
+  execution-bridge, and worktree-boundary data. Markdown, compact handoff, and
+  worklog-template output now render the same content-edit-policy line.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-content-policy-after.json`
+    -> PASS; JSON includes `content_edit_policy.status`
+    `owner-clearance-required`, `content_edits_allowed: false`,
+    `execution_bridge_owner_clearance_required: true`, fingerprint
+    `779048c1f22c`, and schema contract `monthly-uplift-dashboard-v4`.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone --compare-json /tmp/ajs-loop61-baseline.json --output /tmp/ajs-content-policy-after-handoff.md`
+    -> PASS; compact handoff renders `Content-edit policy:
+    owner-clearance-required; content blocked; next tooling-or-owner-clearance;
+    0 unclaimed / 43 claim-sensitive; 15 dirty pack lanes; sha256
+    779048c1f22c`, schema-version delta 3 -> 4, schema-contract delta v3 ->
+    v4, content-policy fingerprint delta from `missing` to `779048c1f22c`,
+    and handoff-manifest fingerprint delta from `cfa40e2b8571` to
+    `d0f4611c4d05`.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-content-policy-after-worklog-template.md`
+    -> PASS; generated worklog template includes dashboard schema,
+    worktree-boundary, content-edit-policy, handoff-manifest, command-plan, and
+    next-batch-plan lines in live metrics.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS; reports 61 loop entries and identifies
+    `### 2026-06-27 - Content Edit Policy Contract` as the latest loop.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-content-policy-final.md`
+    -> PASS; full Markdown includes the content-edit-policy line, schema v4,
+    handoff-manifest line, worktree-boundary line, JSON-backed command and
+    next-batch plan sections, and loop-control status
+    `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes the dashboard self-test, repository audit, clone audit,
+    and `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes worklog check 61 loops, quality min 90.0, below
+    86/88/90 as 0/0/0, source-map warnings 0, root-card warnings 0, and
+    execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-28 - Local Publish Policy Contract
+
+- Scope: root tooling/reporting only; left the 15 dirty pack-content lanes
+  untouched and kept the publish boundary local-only.
+- Rationale: the month-long loop now has enough dirty root/tooling evidence to
+  be publishable later, but no active publish request is in force and pack
+  content remains claim-sensitive. A machine-readable publish policy prevents a
+  future handoff from treating `publish_units` as permission to stage or push.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`, and
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: the dashboard schema is now `monthly-uplift-dashboard-v5` and
+  requires a `publish_policy` object. The policy reports status
+  `local-only-owner-review`, `publish_requested: false`,
+  `local_only_recommended: true`, `path_scoped_staging_required: true`,
+  `allowed_publish_unit: root_tooling`, `blocked_publish_unit: pack_content`, 4
+  root/tooling paths, 15 pack-content lanes, `pack_content_status:
+  needs-owner-review`, `pack_content_owner_review_required: true`, and
+  fingerprint `5092819310a4`; summary validation rejects drift from
+  `publish_units` and the content-edit policy. Markdown, compact handoff, and
+  worklog-template output now render the same publish-policy line, and the
+  handoff manifest includes the publish-policy status and fingerprint.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-publish-policy-after.json`
+    -> PASS; JSON includes schema contract `monthly-uplift-dashboard-v5`,
+    `publish_policy.status` `local-only-owner-review`,
+    `publish_requested: false`, `local_only_recommended: true`,
+    `path_scoped_staging_required: true`, 4 root/tooling paths, 15 pack-content
+    lanes, fingerprint `5092819310a4`, and handoff-manifest fingerprint
+    `0b0aafa876eb` before this worklog append.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone --compare-json /tmp/ajs-loop62-baseline.json --output /tmp/ajs-publish-policy-after-handoff.md`
+    -> PASS; compact handoff renders `Publish policy:
+    local-only-owner-review; local-only; root 4 paths; packs 15 lanes
+    needs-owner-review; path-scoped staging required; sha256 5092819310a4`,
+    schema-version delta 4 -> 5, schema-contract delta v4 -> v5,
+    publish-policy status delta from `missing` to `local-only-owner-review`,
+    publish-policy fingerprint delta from `missing` to `5092819310a4`, and
+    handoff-manifest fingerprint delta from `d0f4611c4d05` to
+    `0b0aafa876eb` before this worklog append.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-publish-policy-after-worklog-template.md`
+    -> PASS; generated worklog template includes dashboard schema,
+    worktree-boundary, content-edit-policy, publish-policy, handoff-manifest,
+    command-plan, and next-batch-plan lines in live metrics.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS; reports 62 loop entries and identifies
+    `### 2026-06-28 - Local Publish Policy Contract` as the latest loop.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-publish-policy-final.md`
+    -> PASS; full Markdown includes the publish-policy line, schema v5,
+    handoff-manifest line, worktree-boundary line, JSON-backed command and
+    next-batch plan sections, and loop-control status
+    `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes the dashboard self-test, repository audit, clone audit,
+    and `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes worklog check 62 loops, quality min 90.0, below
+    86/88/90 as 0/0/0, source-map warnings 0, root-card warnings 0, and
+    execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-28 - Read-only Publish Plan Renderer
+
+- Scope: root tooling/reporting only; added a read-only publish-plan surface
+  without staging, committing, pushing, or touching the 15 dirty pack-content
+  lanes.
+- Rationale: the new `publish_policy` contract is useful in JSON and handoffs,
+  but an actual future publish request needs a concise operator-facing plan
+  that separates the allowed root/tooling unit from blocked pack content before
+  any `git add`.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`, and
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `monthly_uplift_report.py` now supports `--publish-plan` as a
+  mutually exclusive read-only renderer. The plan prints status
+  `local-only-owner-review`, `publish_requested: false`,
+  `local_only_recommended: true`, allowed unit `root_tooling`, blocked unit
+  `pack_content`, the exact root/tooling staging command, the 4 root/tooling
+  paths, all 15 blocked pack-content lanes, required pre-publish checks, and
+  the explicit line `No git commands are executed by this plan.` The
+  dependency-free self-test now checks the renderer, and the tools README lists
+  `--publish-plan` in the monthly quality command stack.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone --output /tmp/ajs-publish-plan-handoff.md`
+    -> PASS; compact handoff includes the publish-policy line,
+    handoff-manifest line, worktree-boundary line, command plan, next-batch
+    plan, local publish-unit split, and loop-control status
+    `owner-clearance-needed`.
+  - `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20 --skip-clone --output /tmp/ajs-publish-plan.md`
+    -> PASS; rendered local-only status, publish requested false, allowed
+    root/tooling unit, blocked pack-content unit, root/tooling staging command,
+    4 root/tooling paths, 15 blocked pack lanes, required pre-publish checks,
+    and the no-git-execution line.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS; reports 63 loop entries and identifies
+    `### 2026-06-28 - Read-only Publish Plan Renderer` as the latest loop.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-publish-plan-final.md`
+    -> PASS; full Markdown includes the publish-policy line, schema v5,
+    handoff-manifest line, worktree-boundary line, JSON-backed command and
+    next-batch plan sections, and loop-control status
+    `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes the dashboard self-test, repository audit, clone audit,
+    and `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes worklog check 63 loops, quality min 90.0, below
+    86/88/90 as 0/0/0, source-map warnings 0, root-card warnings 0, and
+    execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-28 - Publish Plan Validation Command Contract
+
+- Scope: root tooling/reporting only; kept pack-content lanes untouched and
+  made no staging, commit, or push attempt.
+- Rationale: `--publish-plan` existed as a read-only renderer, but the standard
+  command plan still allowed handoffs and generated worklog templates to omit
+  that pre-publish boundary check. Making it part of the built-in validation
+  plan keeps future loops aligned with the local-only publish policy.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`, and
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `NEXT_LOOP_VALIDATION_COMMANDS` now includes
+  `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20`.
+  The dashboard command plan reports 6 measurement commands, 7 validation
+  commands, and fingerprint `dd2e280f0190`; the handoff manifest incorporates
+  that command-plan fingerprint and reports fingerprint `36e6c3a84e0f` before
+  this worklog append. Worklog validation now requires the publish-plan command
+  marker in both the latest loop evidence and the `Current Next Queue`, and the
+  generated worklog template includes the same command in its validation
+  checklist.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop64-after.json`
+    -> PASS; JSON reports `command_plan.validation_count` 7,
+    command-plan fingerprint `dd2e280f0190`, and `validation_commands` includes
+    `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20`.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone --compare-json /tmp/ajs-loop64-baseline.json --output /tmp/ajs-loop64-command-plan-handoff.md`
+    -> PASS; compact handoff renders `Command plan: 6 measurement / 7
+    validation; sha256 dd2e280f0190`, command-plan validation delta 6 -> 7,
+    command-plan fingerprint delta `fc79488208b2` -> `dd2e280f0190`, and the
+    new publish-plan command in `Validation Commands`.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-loop64-command-plan-worklog-template.md`
+    -> PASS; generated worklog template includes `Command plan: 6 measurement
+    / 7 validation; sha256 dd2e280f0190` and the publish-plan validation
+    command.
+  - `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20 --skip-clone --output /tmp/ajs-loop64-publish-plan.md`
+    -> PASS; rendered local-only status, publish requested false, allowed
+    root/tooling unit, blocked pack-content unit, exact root/tooling staging
+    command, and the no-git-execution line.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS; reports 64 loop entries and identifies
+    `### 2026-06-28 - Publish Plan Validation Command Contract` as the latest
+    loop.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop64-final.md`
+    -> PASS; full Markdown includes the command plan with 7 validation
+    commands, the publish-policy line, schema v5, handoff-manifest line,
+    worktree-boundary line, JSON-backed next-batch plan, and loop-control
+    status `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes the dashboard self-test, repository audit, clone audit,
+    and `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes worklog check 64 loops, quality min 90.0, below
+    86/88/90 as 0/0/0, source-map warnings 0, root-card warnings 0, and
+    execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-28 - Goal Progress Evidence Contract
+
+- Scope: root tooling/reporting only; kept the 15 dirty pack-content lanes
+  untouched and did not stage, commit, or push.
+- Rationale: the long-running goal now has many local loops, but completion
+  still needs a current evidence audit rather than a casual claim. A structured
+  `goal_progress` object makes the active-loop state auditable without marking
+  the month-scale objective complete.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`, and
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: the dashboard schema is now `monthly-uplift-dashboard-v6` and
+  requires `goal_progress`. The new object reports worklog status and loop
+  count, score-floor status, source-map warning status, root-card status,
+  clone-audit status, execution-bridge coverage, command-plan counts,
+  next-batch count, owner-clearance/local-only state, dirty pack-lane count,
+  reason text, and fingerprint. In the fast `--skip-clone` snapshot it reports
+  `active-partial-clone-skipped`, worklog 64 loops, score floor OK, source maps
+  OK, root cards OK, clone skipped, execution bridge 131 / 134 with 3 missing,
+  command plan 6 / 7, future candidates recorded, next lane
+  `tooling-or-owner-clearance`, 15 dirty pack lanes, and fingerprint
+  `43646b90378b`; full gates still run clone audit before any completion or
+  publish claim. The handoff manifest now carries the goal-progress status and
+  fingerprint.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop65-after.json`
+    -> PASS; JSON includes schema contract `monthly-uplift-dashboard-v6`,
+    required top-level field `goal_progress`, `goal_progress.status`
+    `active-partial-clone-skipped`, goal-progress fingerprint
+    `43646b90378b`, and handoff-manifest fingerprint `7a9981544e85` before
+    this worklog append.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone --compare-json /tmp/ajs-loop65-baseline.json --output /tmp/ajs-loop65-goal-progress-handoff.md`
+    -> PASS; compact handoff renders `Goal progress:
+    active-partial-clone-skipped; core OK; worklog 64 loops; clone skipped;
+    bridge 131/134; next tooling-or-owner-clearance; sha256 43646b90378b`,
+    schema-version delta 5 -> 6, schema-contract delta v5 -> v6,
+    goal-progress status delta from `missing` to `active-partial-clone-skipped`,
+    goal-progress fingerprint delta from `missing` to `43646b90378b`, and
+    handoff-manifest fingerprint delta from `c9026e845955` to
+    `7a9981544e85` before this worklog append.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-loop65-goal-progress-worklog-template.md`
+    -> PASS; generated worklog template includes dashboard schema,
+    worktree-boundary, content-edit-policy, publish-policy, goal-progress,
+    handoff-manifest, command-plan, and next-batch-plan lines in live metrics.
+  - `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20 --skip-clone --output /tmp/ajs-loop65-publish-plan.md`
+    -> PASS; rendered local-only publish status, allowed root/tooling unit,
+    blocked pack-content unit, required validation commands, and the
+    no-git-execution line.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS; reports 65 loop entries and identifies
+    `### 2026-06-28 - Goal Progress Evidence Contract` as the latest loop.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop65-final.md`
+    -> PASS; full Markdown includes the goal-progress line, schema v6,
+    publish-policy line, command plan with 7 validation commands,
+    handoff-manifest line, worktree-boundary line, JSON-backed next-batch plan,
+    and loop-control status `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes the dashboard self-test, repository audit, clone audit,
+    and `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes worklog check 65 loops, quality min 90.0, below
+    86/88/90 as 0/0/0, source-map warnings 0, root-card warnings 0, and
+    execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-28 - Goal Completion Audit Renderer
+
+- Scope: root tooling/reporting only; kept the 15 dirty pack-content lanes
+  untouched and did not stage, commit, push, or change goal status.
+- Rationale: the month-scale goal should not be closed because one loop passes.
+  It needs a repeatable completion audit that checks each exit requirement,
+  records the remaining blockers, and stays read-only until the actual
+  month-level criteria are satisfied.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`, and
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `monthly_uplift_report.py` now supports
+  `--goal-audit` as a mutually exclusive read-only renderer. It emits a
+  `Goal Completion Audit` with completion status `not-complete`, goal status
+  action `none`, the live `goal_progress` line, requirement-by-requirement
+  evidence, and blockers. The full clone-backed audit at
+  `/tmp/ajs-loop66-goal-audit.md` reports worklog 66 loops, score floor OK,
+  source-map warnings 0, root-card warnings 0, clone threshold OK with 0 hits
+  >= 0.9, execution bridge 131 / 134 with 3 owner-clearance-gated gaps, 6
+  future next-batch items, local-only publish boundary, and the explicit line
+  `No goal status is changed by this audit.` README usage now documents the
+  new mode, and the current next queue records it as the required read-only
+  check before any future `update_goal complete` decision.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --output /tmp/ajs-loop66-goal-audit.md`
+    -> PASS; rendered `Completion status: not-complete`, `Goal status action:
+    none`, goal-progress fingerprint `0b954e51f28a`, worklog 66 loops, clone
+    threshold OK, owner-clearance-gated bridge debt, and the no-goal-status-change
+    line.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop66-final.json`
+    -> PASS; JSON keeps schema contract `monthly-uplift-dashboard-v6`,
+    `goal_progress.status` `active-partial-clone-skipped`, goal-progress
+    fingerprint `7e27041759f6`, worklog 66 loops, and handoff-manifest
+    fingerprint `5eaf40b6c4b5`.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone --output /tmp/ajs-loop66-goal-audit-handoff.md`
+    -> PASS; compact handoff renders owner-clearance status, local-only publish
+    boundary, goal progress `active-partial-clone-skipped`, command plan 6 / 7,
+    and 15 dirty pack lanes separated from 4 root/tooling entries.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-loop66-worklog-template.md`
+    -> PASS; generated scaffold includes goal-progress, handoff-manifest,
+    publish-policy, publish-unit, and validation-command evidence surfaces.
+  - `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20 --skip-clone --output /tmp/ajs-loop66-publish-plan.md`
+    -> PASS; rendered local-only root/tooling plan, blocked pack-content unit,
+    exact root/tooling staging command, and no-git-execution line.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS; reports 66 loop entries and identifies
+    `### 2026-06-28 - Goal Completion Audit Renderer` as the latest loop.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop66-final.md`
+    -> PASS; full Markdown includes the goal-progress line, schema v6,
+    publish-policy line, command plan with 7 validation commands,
+    handoff-manifest line, worktree-boundary line, JSON-backed next-batch plan,
+    and loop-control status `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes the dashboard self-test, repository audit, clone audit,
+    and `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes worklog check 66 loops, quality min 90.0, below
+    86/88/90 as 0/0/0, source-map warnings 0, root-card warnings 0, and
+    execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-28 - Completion Audit JSON Contract
+
+- Scope: root tooling/reporting only; kept the 15 dirty pack-content lanes
+  untouched and did not stage, commit, push, or change goal status.
+- Rationale: loop 66 made `--goal-audit` render a read-only completion audit,
+  but the audit evidence was not yet part of the comparable JSON contract. A
+  machine-readable completion-audit object lets later loops detect stale
+  requirement evidence, compare completion blockers across baselines, and keep
+  handoffs tied to the same audit that a future goal-close decision would read.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`, and
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: the dashboard schema is now `monthly-uplift-dashboard-v7` and requires
+  `completion_audit`. The new object records completion status
+  `not-complete`, goal status action `none`, requirement rows, OK / triaged /
+  review counts, blocker list, clone-gate and owner-clearance flags,
+  execution-bridge gap count, reason text, and a fingerprint. Full Markdown,
+  compact handoffs, worklog templates, and `--goal-audit` now render the same
+  completion-audit summary. The handoff manifest also records the
+  completion-audit fingerprint, and trajectory deltas now report schema v6 -> v7
+  plus the new completion-audit status and fingerprint.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop67-final.json`
+    -> PASS; JSON includes schema contract `monthly-uplift-dashboard-v7`,
+    required top-level field `completion_audit`, completion status
+    `not-complete`, 10 requirements, 8 OK / 1 triaged / 1 review, 4 blockers,
+    worklog 67 loops, goal-progress fingerprint `7a4d54aa5b83`,
+    completion-audit fingerprint `981771ba2d85`, and handoff-manifest
+    fingerprint `74bc53ccfe79`.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone --compare-json /tmp/ajs-loop67-baseline.json --output /tmp/ajs-loop67-completion-handoff.md`
+    -> PASS; compact handoff renders schema v7, completion-audit summary,
+    completion-audit status delta `missing` -> `not-complete`,
+    completion-audit fingerprint delta `missing` -> `81f2f8559b8b`, and
+    handoff-manifest fingerprint delta `5eaf40b6c4b5` -> `739eeb173a31`.
+  - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --skip-clone --output /tmp/ajs-loop67-goal-audit-skip.md`
+    -> PASS; rendered the structured completion-audit line, clone threshold
+    `Needs full gate`, owner-clearance-gated bridge debt, 4 blockers, and the
+    no-goal-status-change line.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-loop67-worklog-template.md`
+    -> PASS; generated scaffold includes dashboard schema v7, goal-progress,
+    completion-audit, handoff-manifest, publish-policy, publish-unit, and
+    validation-command evidence surfaces.
+  - `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20 --skip-clone --output /tmp/ajs-loop67-publish-plan.md`
+    -> PASS; rendered local-only root/tooling plan, blocked pack-content unit,
+    exact root/tooling staging command, and no-git-execution line.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS; reports 67 loop entries and identifies
+    `### 2026-06-28 - Completion Audit JSON Contract` as the latest loop.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop67-final.md`
+    -> PASS; full Markdown includes schema v7, completion-audit line,
+    goal-progress line, publish-policy line, command plan with 7 validation
+    commands, handoff-manifest line, worktree-boundary line, JSON-backed
+    next-batch plan, and loop-control status `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes the dashboard self-test, repository audit, clone audit,
+    and `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes worklog check 67 loops, quality min 90.0, below
+    86/88/90 as 0/0/0, source-map warnings 0, root-card warnings 0, and
+    execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-28 - Goal Audit Validation Command Contract
+
+- Scope: root tooling/reporting only; kept the 15 dirty pack-content lanes
+  untouched and did not stage, commit, push, or change goal status.
+- Rationale: `--goal-audit` is now the durable completion-evidence renderer and
+  `completion_audit` is part of the JSON contract, but the shared validation
+  command plan still treated it as optional. Adding the audit to the built-in
+  validation list makes future handoffs, publish plans, worklog templates, and
+  latest-worklog checks require the same read-only goal-completion evidence
+  before any closeout claim.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`, and
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `NEXT_LOOP_VALIDATION_COMMANDS`, worklog validation markers, and
+  current-next-queue required markers now include
+  `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20`.
+  The command plan now reports 6 measurement commands / 8 validation commands
+  with fingerprint `77222906f44b`. Completion-audit requirement evidence now
+  checks the validation plan against the live built-in command count rather than
+  a hard-coded threshold, and README command-plan guidance names `--goal-audit`
+  as the standard read-only completion-evidence check.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop68-final.json`
+    -> PASS; JSON reports `command_plan.validation_count` 8,
+    command-plan fingerprint `77222906f44b`, validation commands include
+    `--goal-audit`, worklog 68 loops, goal-progress fingerprint
+    `11890df83e4f`, completion-audit fingerprint `97cfdfcd6333`, and
+    handoff-manifest fingerprint `c38a830f805e`.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone --compare-json /tmp/ajs-loop68-baseline.json --output /tmp/ajs-loop68-command-plan-handoff.md`
+    -> PASS; compact handoff renders `Command plan: 6 measurement / 8
+    validation; sha256 77222906f44b`, command-plan validation delta 7 -> 8,
+    command-plan fingerprint delta `dd2e280f0190` -> `77222906f44b`, and the
+    new goal-audit validation command in `Validation Commands`.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-loop68-worklog-template.md`
+    -> PASS; generated scaffold includes command plan 6 / 8, goal-audit in the
+    validation checklist, goal-progress, completion-audit, handoff-manifest,
+    publish-policy, and publish-unit evidence surfaces.
+  - `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20 --skip-clone --output /tmp/ajs-loop68-publish-plan.md`
+    -> PASS; rendered local-only root/tooling plan, blocked pack-content unit,
+    exact root/tooling staging command, no-git-execution line, and required
+    pre-publish checks including `--goal-audit`.
+  - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --skip-clone --output /tmp/ajs-loop68-goal-audit-skip.md`
+    -> PASS; rendered validation plan OK with 8 validation commands, clone
+    threshold `Needs full gate`, owner-clearance-gated bridge debt, 4 blockers,
+    and the no-goal-status-change line.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS; reports 68 loop entries and identifies
+    `### 2026-06-28 - Goal Audit Validation Command Contract` as the latest
+    loop.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop68-final.md`
+    -> PASS; full Markdown includes command plan with 8 validation commands,
+    schema v7, completion-audit line, goal-progress line, publish-policy line,
+    handoff-manifest line, worktree-boundary line, JSON-backed next-batch plan,
+    and loop-control status `owner-clearance-needed`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes the dashboard self-test, repository audit, clone audit,
+    and `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes worklog check 68 loops, quality min 90.0, below
+    86/88/90 as 0/0/0, source-map warnings 0, root-card warnings 0, and
+    execution bridge 131 / 134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-28 - Worklog Template Validation Command Contract
+
+- Scope: root tooling and the monthly uplift worklog only; the 15 dirty
+  pack-content lanes remain untouched and owner-review gated.
+- Rationale: `--worklog-template` had become a standard evidence surface in the
+  monthly loop, but the machine-readable `validation_commands` handoff still
+  stopped at 8 commands. Promoting the template renderer into the built-in
+  validation contract makes future loops prove that the durable worklog scaffold
+  stays renderable alongside handoff, publish-plan, goal-audit, run-checks, and
+  whitespace gates.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`, and
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `NEXT_LOOP_VALIDATION_COMMANDS`,
+  `WORKLOG_REQUIRED_VALIDATION_MARKERS`, and
+  `CURRENT_NEXT_QUEUE_REQUIRED_MARKERS` now require
+  `python3 tools/monthly_uplift_report.py --check --worklog-template --limit
+  20`. The command plan now reports 6 measurement commands / 9 validation
+  commands with fingerprint `aa474a359564`; rendered handoffs show the
+  validation-count delta 8 -> 9 and fingerprint delta `77222906f44b` ->
+  `aa474a359564`. README loop-control guidance now names `--worklog-template`
+  as the durable handoff-scaffold check.
+- Validation:
+  - `python3 tools/audit_repo.py --counts`
+    -> PASS; live inventory remains 2902 skills / 195 packs / 200 root entries.
+  - `python3 tools/quality_scorecard.py --top 20`
+    -> PASS; mean score 93.6, min 90.0, below 86/88/90 = 0/0/0, and execution
+    bridge remains 131 / 134.
+  - `python3 tools/source_map_audit.py`
+    -> PASS; 194 first-party source maps scanned, warnings 0, highest
+    unresolved count remains 14.
+  - `python3 tools/root_entry_audit.py`
+    -> PASS; 200 root journal entries scanned, 200 enriched, 0 machine-only,
+    warnings 0.
+  - `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`
+    -> PASS; scanned 2902 skills in 350 comparison groups, no pairs at or
+    above threshold 0.750.
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop69-after.json`
+    -> PASS; JSON reports `command_plan.validation_count` 9,
+    command-plan fingerprint `aa474a359564`, goal-progress fingerprint
+    `aae5f8830a25`, completion-audit fingerprint `6076d6fbabbd`,
+    handoff-manifest fingerprint `d437bce53708`, and worklog 68 loops before
+    this entry was appended.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone --compare-json /tmp/ajs-loop69-baseline.json --output /tmp/ajs-loop69-worklog-template-command-handoff.md`
+    -> PASS; compact handoff renders command-plan validation commands 8 -> 9
+    (+1), fingerprint `77222906f44b` -> `aa474a359564`, and the new
+    worklog-template validation command in `Validation Commands`.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-loop69-worklog-template.md`
+    -> PASS; generated scaffold includes the worklog-template quick gate plus
+    the 9-command validation plan, command-plan line, goal-progress line,
+    completion-audit line, publish-policy line, and handoff-manifest line.
+  - `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20 --skip-clone --output /tmp/ajs-loop69-publish-plan.md`
+    -> PASS; rendered the local-only root/tooling publish unit, blocked 15
+    dirty pack-content lanes, and no-git-execution policy.
+  - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --skip-clone --output /tmp/ajs-loop69-goal-audit-skip.md`
+    -> PASS; rendered not-complete, 10 requirements, validation plan OK with 9
+    validation commands, clone threshold `Needs full gate`, 4 blockers, and the
+    explicit no-goal-status-change line.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS; reports 69 loop entries and identifies
+    `### 2026-06-28 - Worklog Template Validation Command Contract` as the
+    latest loop.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop69-final.md`
+    -> PASS; full Markdown reports worklog 69 loops, command plan 6 / 9 with
+    fingerprint `aa474a359564`, clone audit OK with 0 reported pairs,
+    goal-progress fingerprint `c2ceeb9c2503`, completion-audit fingerprint
+    `0a31a5386e60`, and handoff-manifest fingerprint `17934421f79f`.
+  - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --output /tmp/ajs-loop69-goal-audit.md`
+    -> PASS; full goal audit reports not-complete, no goal status action, 10
+    requirements, 9 OK / 1 triaged / 0 review, 3 blockers, clone threshold OK,
+    and owner-clearance-gated execution-bridge debt.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes py_compile, dashboard self-test, repository audit, clone
+    audit, and `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0, worklog 69
+    loops, quality min 90.0, below 86/88/90 = 0/0/0, and execution bridge 131 /
+    134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-28 - Remaining Debt Schema Contract
+
+- Scope: root tooling, monthly dashboard documentation, and the dated worklog
+  only; the 15 dirty pack-content lanes remain untouched and owner-review
+  gated.
+- Rationale: the month-long goal requires remaining score/source/bridge debt to
+  be reduced or honestly triaged. The dashboard already exposed the
+  owner-clearance queue, but future loops still had to infer the combined
+  residual debt state from several fields. A first-class `remaining_debt`
+  contract makes that triage machine-readable and fingerprinted.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`, and
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: the dashboard schema is now `monthly-uplift-dashboard-v8` and
+  requires a `remaining_debt` object. The new contract reports 0 unclaimed
+  candidates, 43 owner-clearance targets, 15 dirty pack lanes, 3 missing
+  execution-bridge links, source-map max unresolved 14, and fingerprint
+  `ec4223e0d138` in the current skip-clone snapshot. Markdown, compact handoff,
+  worklog-template output, trajectory deltas, and handoff-manifest fingerprints
+  now include the same remaining-debt evidence.
+- Validation:
+  - `python3 tools/audit_repo.py --counts`
+    -> PASS; live inventory remains 2902 skills / 195 packs / 200 root entries.
+  - `python3 tools/quality_scorecard.py --top 20`
+    -> PASS; mean score 93.6, min 90.0, below 86/88/90 = 0/0/0, and execution
+    bridge remains 131 / 134.
+  - `python3 tools/source_map_audit.py`
+    -> PASS; 194 first-party source maps scanned, warnings 0, highest
+    unresolved count remains 14.
+  - `python3 tools/root_entry_audit.py`
+    -> PASS; 200 root journal entries scanned, 200 enriched, 0 machine-only,
+    warnings 0.
+  - `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`
+    -> PASS; scanned 2902 skills in 350 comparison groups, no pairs at or
+    above threshold 0.750.
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop70-after.json`
+    -> PASS; JSON reports schema v8, `remaining_debt.status`
+    `owner-clearance-or-dirty`, remaining-debt fingerprint `ec4223e0d138`,
+    handoff-manifest fingerprint `24ee4bdd99da`, and worklog 69 loops before
+    this entry was appended.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone --compare-json /tmp/ajs-loop70-baseline.json --output /tmp/ajs-loop70-remaining-debt-handoff.md`
+    -> PASS; compact handoff renders schema v7 -> v8, remaining-debt status
+    missing -> `owner-clearance-or-dirty`, remaining-debt fingerprint missing
+    -> `ec4223e0d138`, and handoff-manifest fingerprint
+    `7243e1b106f5` -> `24ee4bdd99da`.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-loop70-worklog-template.md`
+    -> PASS; generated scaffold includes the remaining-debt line, schema v8,
+    command-plan line, goal-progress line, completion-audit line,
+    publish-policy line, and handoff-manifest line.
+  - `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20 --skip-clone --output /tmp/ajs-loop70-publish-plan.md`
+    -> PASS; rendered the local-only root/tooling publish unit, blocked 15
+    dirty pack-content lanes, and no-git-execution policy.
+  - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --skip-clone --output /tmp/ajs-loop70-goal-audit-skip.md`
+    -> PASS; rendered not-complete, no goal status action, 10 requirements, 8
+    OK / 1 triaged / 1 review, 4 blockers, and clone threshold
+    `Needs full gate`.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS; reports 70 loop entries and identifies
+    `### 2026-06-28 - Remaining Debt Schema Contract` as the latest loop.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop70-final.md`
+    -> PASS; full Markdown reports schema v8, remaining-debt fingerprint
+    `ec4223e0d138`, clone audit OK with 0 reported pairs, goal-progress
+    fingerprint `94269444218f`, completion-audit fingerprint `f533b76a5d7d`,
+    and handoff-manifest fingerprint `20c58258e55d`.
+  - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --output /tmp/ajs-loop70-goal-audit.md`
+    -> PASS; full goal audit reports not-complete, no goal status action, 10
+    requirements, 9 OK / 1 triaged / 0 review, 3 blockers, clone threshold OK,
+    and owner-clearance-gated execution-bridge debt.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes py_compile, dashboard self-test, repository audit, clone
+    audit, and `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0, worklog 70
+    loops, quality min 90.0, below 86/88/90 = 0/0/0, and execution bridge 131 /
+    134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-28 - Remaining Debt Audit Renderer
+
+- Scope: root tooling, monthly dashboard documentation, and the dated worklog
+  only; the 15 dirty pack-content lanes remain untouched and owner-review
+  gated.
+- Rationale: schema v8 made remaining debt machine-readable, but future
+  operators still needed to open the full dashboard to inspect the triage
+  table. A focused read-only debt-audit renderer makes score-floor, source-map,
+  execution-bridge, dirty-pack, and owner-clearance debt visible in one
+  validation artifact.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`, and
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `monthly_uplift_report.py` now supports
+  `--debt-audit`, rendering a Remaining Debt Audit with the debt decision,
+  score/source/bridge table, dirty-pack boundary, publish policy,
+  owner-clearance queue, and shared validation commands. The command plan now
+  reports 6 measurement commands / 10 validation commands with fingerprint
+  `9639ca1b3e63`, and `--debt-audit` is required by the worklog and Current
+  Next Queue gates.
+- Validation:
+  - `python3 tools/audit_repo.py --counts`
+    -> PASS; live inventory remains 2902 skills / 195 packs / 200 root entries.
+  - `python3 tools/quality_scorecard.py --top 20`
+    -> PASS; mean score 93.6, min 90.0, below 86/88/90 = 0/0/0, and execution
+    bridge remains 131 / 134.
+  - `python3 tools/source_map_audit.py`
+    -> PASS; 194 first-party source maps scanned, warnings 0, highest
+    unresolved count remains 14.
+  - `python3 tools/root_entry_audit.py`
+    -> PASS; 200 root journal entries scanned, 200 enriched, 0 machine-only,
+    warnings 0.
+  - `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`
+    -> PASS; scanned 2902 skills in 350 comparison groups, no pairs at or
+    above threshold 0.750.
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop71-after.json`
+    -> PASS; JSON reports `command_plan.validation_count` 10,
+    command-plan fingerprint `9639ca1b3e63`, remaining-debt fingerprint
+    `ec4223e0d138`, goal-progress fingerprint `08cb61c28c38`,
+    completion-audit fingerprint `a6450e4d5a5d`, and handoff-manifest
+    fingerprint `aa3a7c5180e7`.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone --compare-json /tmp/ajs-loop71-baseline.json --output /tmp/ajs-loop71-debt-audit-handoff.md`
+    -> PASS; compact handoff renders command-plan validation commands 9 -> 10
+    (+1), command-plan fingerprint `aa474a359564` -> `9639ca1b3e63`,
+    unchanged remaining-debt fingerprint `ec4223e0d138`, and the new
+    `--debt-audit` validation command.
+  - `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20 --skip-clone --output /tmp/ajs-loop71-debt-audit.md`
+    -> PASS; rendered `# Remaining Debt Audit`, status
+    `owner-clearance-or-dirty`, debt table rows for score floor, source-map,
+    and execution bridge, 15 dirty pack lanes, publish policy, owner-clearance
+    queue, and the 10-command validation block.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-loop71-worklog-template.md`
+    -> PASS; generated scaffold includes `--debt-audit` in the validation
+    checklist, command plan 6 / 10, remaining-debt line, goal-progress line,
+    completion-audit line, publish-policy line, and handoff-manifest line.
+  - `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20 --skip-clone --output /tmp/ajs-loop71-publish-plan.md`
+    -> PASS; rendered the local-only root/tooling publish unit, blocked 15
+    dirty pack-content lanes, and required pre-publish checks including
+    `--debt-audit`.
+  - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --skip-clone --output /tmp/ajs-loop71-goal-audit-skip.md`
+    -> PASS; rendered not-complete, no goal status action, 10 requirements, 8
+    OK / 1 triaged / 1 review, validation plan OK with 10 validation commands,
+    4 blockers, and clone threshold `Needs full gate`.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS; reports 71 loop entries and identifies
+    `### 2026-06-28 - Remaining Debt Audit Renderer` as the latest loop.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop71-final.md`
+    -> PASS; full Markdown reports command plan 6 / 10 with fingerprint
+    `9639ca1b3e63`, remaining-debt fingerprint `ec4223e0d138`, clone audit OK
+    with 0 reported pairs, goal-progress fingerprint `b739a3352ac6`,
+    completion-audit fingerprint `4b1185f1f03d`, and handoff-manifest
+    fingerprint `b41b36fe47c7`.
+  - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --output /tmp/ajs-loop71-goal-audit.md`
+    -> PASS; full goal audit reports not-complete, no goal status action, 10
+    requirements, 9 OK / 1 triaged / 0 review, 3 blockers, clone threshold OK,
+    and owner-clearance-gated execution-bridge debt.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes py_compile, dashboard self-test, repository audit, clone
+    audit, and `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0, worklog 71
+    loops, quality min 90.0, below 86/88/90 = 0/0/0, and execution bridge 131 /
+    134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-28 - Completion Audit Remaining Debt Evidence
+
+- Scope: root tooling, monthly dashboard documentation, and the dated worklog
+  only; the 15 dirty pack-content lanes remain untouched and owner-review
+  gated.
+- Rationale: `remaining_debt` was already machine-readable, but the goal-close
+  audit still summarized content debt through the execution-bridge row. A future
+  `update_goal complete` decision needs a direct requirement row and mirrored
+  fields for unclaimed, owner-clearance, dirty-lane, and debt-fingerprint
+  evidence.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`, and
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `completion_audit` now uses contract
+  `monthly-uplift-completion-audit-v2`, includes a distinct
+  `Remaining debt register` requirement row, and stores
+  `remaining_debt_status`, `remaining_debt_fingerprint`,
+  `remaining_debt_unclaimed_total`, `remaining_debt_owner_clearance_total`, and
+  `remaining_debt_dirty_pack_lane_count`. Current skip-clone snapshots render
+  11 requirements, 8 OK / 2 triaged / 1 review, 4 blockers, and the live
+  debt fingerprint `ec4223e0d138`.
+- Validation:
+  - `python3 tools/audit_repo.py --counts`
+    -> PASS; live inventory remains 2902 skills / 195 packs / 200 root entries.
+  - `python3 tools/quality_scorecard.py --top 20`
+    -> PASS; mean score 93.6, min 90.0, below 86/88/90 = 0/0/0, and execution
+    bridge remains 131 / 134.
+  - `python3 tools/source_map_audit.py`
+    -> PASS; 194 first-party source maps scanned, warnings 0, highest
+    unresolved count remains 14.
+  - `python3 tools/root_entry_audit.py`
+    -> PASS; 200 root journal entries scanned, 200 enriched, 0 machine-only,
+    warnings 0.
+  - `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`
+    -> PASS; scanned 2902 skills in 350 comparison groups, no pairs at or
+    above threshold 0.750.
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed.`
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop72-after.json`
+    -> PASS; JSON reports `completion_audit.contract`
+    `monthly-uplift-completion-audit-v2`, 11 requirements, 8 OK / 2 triaged /
+    1 review, remaining-debt status `owner-clearance-or-dirty`, unclaimed total
+    0, owner-clearance total 43, dirty pack lanes 15, remaining-debt fingerprint
+    `ec4223e0d138`, completion-audit fingerprint `5e903bfde7c2`, and
+    handoff-manifest fingerprint `fcc7cf03f09a`.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone --compare-json /tmp/ajs-loop72-baseline.json --output /tmp/ajs-loop72-completion-debt-handoff.md`
+    -> PASS; compact handoff renders completion-audit requirements 10 -> 11
+    (+1), completion-audit fingerprint `a6450e4d5a5d` -> `5e903bfde7c2`, and
+    unchanged remaining-debt fingerprint `ec4223e0d138`.
+  - `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20 --skip-clone --output /tmp/ajs-loop72-debt-audit.md`
+    -> PASS; rendered `# Remaining Debt Audit`, status
+    `owner-clearance-or-dirty`, 0 unclaimed / 43 owner-clearance, 15 dirty pack
+    lanes, and owner-clearance queue rows for score-floor, source-map, and
+    execution-bridge debt.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-loop72-worklog-template.md`
+    -> PASS; generated scaffold includes `completion_audit` v2 line, 11
+    requirements, remaining-debt fingerprint `ec4223e0d138`, publish-policy
+    line, goal-progress line, and the 10-command validation block.
+  - `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20 --skip-clone --output /tmp/ajs-loop72-publish-plan.md`
+    -> PASS; rendered the local-only root/tooling publish unit, blocked 15
+    dirty pack-content lanes, and required pre-publish checks including
+    `--goal-audit` and `--debt-audit`.
+  - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --skip-clone --output /tmp/ajs-loop72-goal-audit-skip.md`
+    -> PASS; rendered not-complete, no goal status action, 11 requirements, 8
+    OK / 2 triaged / 1 review, 4 blockers, clone threshold `Needs full gate`,
+    and `Remaining debt register` as Triaged with debt sha256
+    `ec4223e0d138`.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS; reports 72 loop entries and identifies
+    `### 2026-06-28 - Completion Audit Remaining Debt Evidence` as the latest
+    loop.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop72-final.json`
+    -> PASS; post-worklog JSON reports worklog 72, goal-progress fingerprint
+    `bc12300b71f2`, completion-audit fingerprint `d2035b1e12db`, and
+    handoff-manifest fingerprint `f7663cac0b86`.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop72-final.md`
+    -> PASS; full Markdown reports clone audit OK with 0 reported pairs,
+    completion-audit contract v2, 11 requirements, 9 OK / 2 triaged / 0 review,
+    3 blockers, remaining-debt fingerprint `ec4223e0d138`, goal-progress
+    fingerprint `9710ec8b1db8`, completion-audit fingerprint `5af3ed0007b8`,
+    handoff-manifest fingerprint `f7f0de54fb03`, and the distinct Remaining
+    Debt Register row.
+  - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --output /tmp/ajs-loop72-goal-audit.md`
+    -> PASS; full goal audit reports not-complete, no goal status action, 11
+    requirements, 9 OK / 2 triaged / 0 review, 3 blockers, clone threshold OK,
+    and owner-clearance-gated remaining-debt and execution-bridge evidence.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes py_compile, dashboard self-test, repository audit, clone
+    audit, and `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0, worklog 72
+    loops, quality min 90.0, below 86/88/90 = 0/0/0, and execution bridge 131 /
+    134.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-28 - Owner Clearance Queue Fingerprint Contract
+
+- Scope: root tooling, monthly dashboard documentation, and the dated worklog
+  only; the 15 dirty pack-content lanes remain untouched and owner-review
+  gated.
+- Rationale: the owner-clearance queue carried the concrete blocked
+  pack/reason rows, but downstream fingerprints only captured broader claim and
+  debt totals. If a claims reason or displayed owner-clearance target drifted
+  without changing totals, future handoffs could miss it. A small queue contract
+  makes that drift visible to `--check`, deltas, debt audit, remaining-debt
+  fingerprinting, and handoff manifests.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`, and
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: the dashboard schema is now `monthly-uplift-dashboard-v9`. The JSON
+  `owner_clearance_queue` now carries contract `owner-clearance-queue-v1`,
+  total target count 43, and fingerprint `c820c1b9065f`; `--check` rejects
+  stale queue fingerprints and displayed pack/reason drift. `remaining_debt` is
+  now `monthly-uplift-remaining-debt-v2`, includes
+  `owner_clearance_queue_fingerprint`, and currently fingerprints as
+  `d4d350964ae1`. The handoff manifest records the queue total/fingerprint so
+  owner-clearance changes propagate into continuation fingerprints.
+- Validation:
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop73-baseline.json`
+    -> PASS; baseline before this patch reported schema v8, remaining-debt
+    fingerprint `ec4223e0d138`, completion-audit fingerprint `d2035b1e12db`,
+    and no owner-clearance queue fingerprint field.
+  - `python3 tools/audit_repo.py --counts`
+    -> PASS; live inventory remains 2902 skills / 195 packs / 200 root entries.
+  - `python3 tools/quality_scorecard.py --top 20`
+    -> PASS; mean score 93.6, min 90.0, below 86/88/90 = 0/0/0, and execution
+    bridge remains 131 / 134.
+  - `python3 tools/source_map_audit.py`
+    -> PASS; 194 first-party source maps scanned, warnings 0, highest
+    unresolved count remains 14.
+  - `python3 tools/root_entry_audit.py`
+    -> PASS; 200 root journal entries scanned, 200 enriched, 0 machine-only,
+    warnings 0.
+  - `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`
+    -> PASS; scanned 2902 skills in 350 comparison groups, no pairs at or
+    above threshold 0.750.
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed`; includes stale
+    owner-clearance queue fingerprint and displayed-row drift rejection.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop73-after.json`
+    -> PASS; JSON reports schema v9, owner-clearance queue total 43,
+    owner-clearance queue fingerprint `c820c1b9065f`, remaining-debt contract
+    v2, remaining-debt fingerprint `d4d350964ae1`, completion-audit fingerprint
+    `dc8a22fb8b6c`, and handoff-manifest fingerprint `515a35022748`.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone --compare-json /tmp/ajs-loop73-baseline.json --output /tmp/ajs-loop73-owner-queue-handoff.md`
+    -> PASS; compact handoff renders dashboard schema version 8 -> 9,
+    owner-clearance queue fingerprint missing -> `c820c1b9065f`,
+    remaining-debt fingerprint `ec4223e0d138` -> `d4d350964ae1`, and
+    handoff-manifest fingerprint `f7663cac0b86` -> `515a35022748`.
+  - `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20 --skip-clone --output /tmp/ajs-loop73-debt-audit.md`
+    -> PASS; rendered `# Remaining Debt Audit`, owner-clearance queue 43
+    targets with sha256 `c820c1b9065f`, remaining-debt fingerprint
+    `d4d350964ae1`, and score/source/bridge debt rows.
+  - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --skip-clone --output /tmp/ajs-loop73-goal-audit-skip.md`
+    -> PASS; rendered not-complete, no goal status action, 11 requirements, 8
+    OK / 2 triaged / 1 review, 4 blockers, clone threshold `Needs full gate`,
+    and Remaining Debt Register debt sha256 `d4d350964ae1`.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-loop73-worklog-template.md`
+    -> PASS; generated scaffold includes schema v9, remaining-debt fingerprint
+    `d4d350964ae1`, completion-audit fingerprint `dc8a22fb8b6c`,
+    handoff-manifest fingerprint `515a35022748`, and the 10-command validation
+    block.
+  - `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20 --skip-clone --output /tmp/ajs-loop73-publish-plan.md`
+    -> PASS; rendered the local-only root/tooling publish unit, blocked 15
+    dirty pack-content lanes, and required pre-publish checks.
+  - `git diff --check`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop73-final-prelog.md`
+    -> PASS; full Markdown reports schema v9, clone audit OK with 0 reported
+    pairs, remaining-debt fingerprint `d4d350964ae1`, completion-audit
+    fingerprint `cac19d2358f5`, handoff-manifest fingerprint `a85d62258cb7`,
+    and 11 requirements with 9 OK / 2 triaged / 0 review.
+  - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --output /tmp/ajs-loop73-goal-audit-prelog.md`
+    -> PASS; full goal audit reports not-complete, no goal status action, 11
+    requirements, 9 OK / 2 triaged / 0 review, 3 blockers, clone threshold OK,
+    and owner-clearance-gated debt evidence.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes py_compile, dashboard self-test, repository audit, clone
+    audit, and `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0, worklog 72
+    loops, quality min 90.0, below 86/88/90 = 0/0/0, and execution bridge 131 /
+    134.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS; reports 73 loop entries and identifies
+    `### 2026-06-28 - Owner Clearance Queue Fingerprint Contract` as the latest
+    loop.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop73-final.json`
+    -> PASS; post-worklog JSON reports worklog 73, goal-progress fingerprint
+    `f75165c77b0c`, completion-audit fingerprint `c35bb48c52e2`, and
+    handoff-manifest fingerprint `9c64ac184b68`.
+
+### 2026-06-28 - Completion Audit Owner Queue Evidence
+
+- Scope: root tooling, dashboard documentation, and the dated worklog only; the
+  15 dirty pack-content lanes remain untouched and owner-review gated.
+- Rationale: loop 73 made the owner-clearance queue machine-readable and
+  fingerprinted, but the completion audit still exposed that queue only
+  indirectly through the remaining-debt register. A future goal-close or handoff
+  audit should show the owner-clearance queue as a first-class requirement row
+  with its own total and fingerprint.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`, and
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `completion_audit` is now contract
+  `monthly-uplift-completion-audit-v3`. The JSON audit includes
+  `owner_clearance_queue_total` and `owner_clearance_queue_fingerprint`, and
+  requirement evidence now includes a distinct `Owner-clearance queue` row. In
+  the live skip-clone snapshot that row is Triaged with 43 owner-clearance
+  targets and queue sha256 `c820c1b9065f`; the full gate reports the same row
+  with clone threshold OK.
+- Validation:
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop74-baseline.json`
+    -> PASS; baseline before this patch reported completion-audit contract v2,
+    11 requirements, completion-audit fingerprint `c35bb48c52e2`, and
+    owner-clearance queue fingerprint `c820c1b9065f` only outside the
+    completion-audit object.
+  - `python3 tools/audit_repo.py --counts`
+    -> PASS; live inventory remains 2902 skills / 195 packs / 200 root entries.
+  - `python3 tools/source_map_audit.py`
+    -> PASS; 194 first-party source maps scanned, warnings 0, highest
+    unresolved count remains 14.
+  - `python3 tools/root_entry_audit.py`
+    -> PASS; 200 root journal entries scanned, 200 enriched, 0 machine-only,
+    warnings 0.
+  - `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`
+    -> PASS; scanned 2902 skills in 350 comparison groups, no pairs at or
+    above threshold 0.750.
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed`; fixture expectations now
+    require 12 completion-audit requirements and the rendered
+    `Owner-clearance queue` row.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop74-after.json`
+    -> PASS; JSON reports completion-audit contract v3, 12 requirements, 8 OK /
+    3 triaged / 1 review, 4 blockers, owner-clearance queue total 43,
+    queue fingerprint `c820c1b9065f`, and completion-audit fingerprint
+    `d7afcf71a7f4`.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone --compare-json /tmp/ajs-loop74-baseline.json --output /tmp/ajs-loop74-owner-queue-audit-handoff.md`
+    -> PASS; compact handoff renders completion-audit requirements 11 -> 12
+    (+1), completion-audit fingerprint `c35bb48c52e2` -> `d7afcf71a7f4`, and
+    unchanged owner-clearance queue fingerprint `c820c1b9065f`.
+  - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --skip-clone --output /tmp/ajs-loop74-goal-audit-skip.md`
+    -> PASS; rendered not-complete, no goal status action, 12 requirements, 8
+    OK / 3 triaged / 1 review, 4 blockers, clone threshold `Needs full gate`,
+    and `Owner-clearance queue` as Triaged with queue sha256 `c820c1b9065f`.
+  - `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20 --skip-clone --output /tmp/ajs-loop74-debt-audit.md`
+    -> PASS; rendered remaining-debt status `owner-clearance-or-dirty`,
+    owner-clearance queue 43 targets with sha256 `c820c1b9065f`, and
+    score/source/bridge debt rows.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-loop74-worklog-template.md`
+    -> PASS; generated scaffold includes completion-audit contract v3, 12
+    requirements, queue fingerprint `c820c1b9065f`, and the 10-command
+    validation block.
+  - `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20 --skip-clone --output /tmp/ajs-loop74-publish-plan.md`
+    -> PASS; rendered the local-only root/tooling publish unit, blocked 15
+    dirty pack-content lanes, and required pre-publish checks.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop74-final-prelog.md`
+    -> PASS; full Markdown reports clone audit OK with 0 reported pairs,
+    completion-audit contract v3, 12 requirements, 9 OK / 3 triaged / 0
+    review, 3 blockers, owner-clearance queue row as Triaged, completion-audit
+    fingerprint `5dfa7a37960f`, and handoff-manifest fingerprint
+    `b6be3996f7df`.
+  - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --output /tmp/ajs-loop74-goal-audit-prelog.md`
+    -> PASS; full goal audit reports not-complete, no goal status action, 12
+    requirements, 9 OK / 3 triaged / 0 review, 3 blockers, clone threshold OK,
+    and `Owner-clearance queue` evidence with queue sha256 `c820c1b9065f`.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes py_compile, dashboard self-test, repository audit, clone
+    audit, and `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0, worklog 73
+    loops before this entry, quality min 90.0, below 86/88/90 = 0/0/0, and
+    execution bridge 131 / 134.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS; reports 74 loop entries and identifies
+    `### 2026-06-28 - Completion Audit Owner Queue Evidence` as the latest
+    loop.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop74-final.json`
+    -> PASS; post-worklog JSON reports worklog 74, goal-progress fingerprint
+    `fc2f1f5fa2a4`, completion-audit contract v3, completion-audit fingerprint
+    `4276e5f695b5`, owner-clearance queue fingerprint `c820c1b9065f`, and
+    handoff-manifest fingerprint `9fa43980da4a`.
+  - `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`
+    -> PASS; final self-check passed after the worklog append.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; final post-worklog fast gate includes py_compile, dashboard
+    self-test, repository audit, clone audit, and `git diff --check`.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-28 - Handoff Manifest Completion Digest
+
+- Scope: root tooling, dashboard documentation, and the dated worklog only; the
+  15 dirty pack-content lanes remain untouched and owner-review gated.
+- Rationale: loop 74 made `completion_audit` carry first-class
+  owner-clearance queue evidence, but `handoff_manifest` still reduced the
+  completion surface to status plus fingerprint. Continuation and delta views
+  should show the completion-audit contract and counts directly, so the next
+  operator can verify the handoff shape without expanding the full audit object.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`, and
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `handoff_manifest` now records `completion_audit_contract`,
+  `completion_audit_requirement_count`, `completion_audit_ok_count`,
+  `completion_audit_triaged_count`, `completion_audit_review_count`,
+  `completion_audit_blocker_count`, and `completion_audit_fingerprint`. The
+  compact handoff line now renders `completion 12 req / 4 blockers` for
+  skip-clone snapshots and `completion 12 req / 3 blockers` for full gates.
+  `--compare-json` also reports the handoff completion-audit contract drift from
+  older baselines.
+- Validation:
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop75-baseline.json`
+    -> PASS; baseline before this patch reported worklog 74, completion-audit
+    contract v3, completion-audit fingerprint `4276e5f695b5`,
+    handoff-manifest fingerprint `9fa43980da4a`, and no handoff-manifest
+    completion-audit contract/count fields.
+  - `python3 tools/audit_repo.py --counts`
+    -> PASS; live inventory remains 2902 skills / 195 packs / 200 root entries.
+  - `python3 tools/quality_scorecard.py --top 20`
+    -> PASS; mean score 93.6, min 90.0, below 86/88/90 = 0/0/0, and execution
+    bridge remains 131 / 134.
+  - `python3 tools/source_map_audit.py`
+    -> PASS; 194 first-party source maps scanned, warnings 0, highest
+    unresolved count remains 14.
+  - `python3 tools/root_entry_audit.py`
+    -> PASS; 200 root journal entries scanned, 200 enriched, 0 machine-only,
+    warnings 0.
+  - `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`
+    -> PASS; scanned 2902 skills in 350 comparison groups, no pairs at or
+    above threshold 0.750.
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed`; includes a stale
+    `handoff_manifest.completion_audit_requirement_count` rejection fixture and
+    updated handoff-line expectations.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop75-after.json`
+    -> PASS; JSON reports handoff-manifest completion-audit contract
+    `monthly-uplift-completion-audit-v3`, 12 requirements, 8 OK / 3 triaged /
+    1 review, 4 blockers, completion-audit fingerprint `4276e5f695b5`, and
+    handoff-manifest fingerprint `715b520e8637`.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone --compare-json /tmp/ajs-loop75-baseline.json --output /tmp/ajs-loop75-handoff-manifest-completion.md`
+    -> PASS; compact handoff renders `completion 12 req / 4 blockers` and
+    trajectory delta reports handoff completion-audit contract missing ->
+    `monthly-uplift-completion-audit-v3`, with handoff-manifest fingerprint
+    `9fa43980da4a` -> `715b520e8637`.
+  - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --skip-clone --output /tmp/ajs-loop75-goal-audit-skip.md`
+    -> PASS; rendered not-complete, no goal status action, 12 requirements, 8
+    OK / 3 triaged / 1 review, 4 blockers, and clone threshold `Needs full
+    gate`.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-loop75-worklog-template.md`
+    -> PASS; generated scaffold includes handoff manifest line with
+    `completion 12 req / 4 blockers`, completion-audit fingerprint
+    `4276e5f695b5`, and the 10-command validation block.
+  - `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20 --skip-clone --output /tmp/ajs-loop75-publish-plan.md`
+    -> PASS; rendered the local-only root/tooling publish unit, blocked 15
+    dirty pack-content lanes, and required pre-publish checks.
+  - `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20 --skip-clone --output /tmp/ajs-loop75-debt-audit.md`
+    -> PASS; rendered remaining-debt status `owner-clearance-or-dirty`,
+    owner-clearance queue 43 targets with sha256 `c820c1b9065f`, and
+    score/source/bridge debt rows.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop75-final-prelog.md`
+    -> PASS; full Markdown reports clone audit OK with 0 reported pairs,
+    completion-audit contract v3, 12 requirements, 9 OK / 3 triaged / 0
+    review, 3 blockers, handoff manifest line with `completion 12 req / 3
+    blockers`, completion-audit fingerprint `ad7d604a7271`, and
+    handoff-manifest fingerprint `5828756cf162`.
+  - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --output /tmp/ajs-loop75-goal-audit-prelog.md`
+    -> PASS; full goal audit reports not-complete, no goal status action, 12
+    requirements, 9 OK / 3 triaged / 0 review, 3 blockers, and clone threshold
+    OK.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes py_compile, dashboard self-test, repository audit, clone
+    audit, and `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0, worklog 74
+    loops before this entry, quality min 90.0, below 86/88/90 = 0/0/0, and
+    execution bridge 131 / 134.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS; reports 75 loop entries and identifies
+    `### 2026-06-28 - Handoff Manifest Completion Digest` as the latest loop.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop75-final.json`
+    -> PASS; post-worklog JSON reports worklog 75, goal-progress fingerprint
+    `cd5b0a8a9e78`, completion-audit contract v3, completion-audit fingerprint
+    `9f0b0fd5bc1e`, handoff-manifest completion-audit contract v3, 12
+    requirements, 4 blockers, and handoff-manifest fingerprint `e856771c7b33`.
+  - `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`
+    -> PASS; final self-check passed after the worklog append.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; final post-worklog fast gate includes py_compile, dashboard
+    self-test, repository audit, clone audit, and `git diff --check`.
+  - `git diff --check`
+    -> passed.
+
+### 2026-06-28 - Handoff Manifest Contract v2
+
+- Scope: root tooling, dashboard documentation, and the dated worklog only; the
+  15 dirty pack-content lanes remain untouched and owner-review gated.
+- Rationale: loop 75 added completion-audit contract/count fields to
+  `handoff_manifest`, but the manifest's own contract label still read
+  `monthly-uplift-handoff-v1`. A changed machine-readable shape should carry a
+  changed handoff contract, and baseline deltas should show that contract drift
+  directly instead of only showing a changed fingerprint.
+- Files: `tools/monthly_uplift_report.py`, `tools/README.md`, and
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `handoff_manifest.contract` is now `monthly-uplift-handoff-v2`.
+  `--compare-json` tracks the handoff-manifest contract field directly, and the
+  dashboard self-test now rejects a stale handoff-manifest contract in addition
+  to stale handoff fingerprints and completion-count fields.
+- Validation:
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop76-baseline.json`
+    -> PASS; baseline before this patch reported worklog 75,
+    `handoff_manifest.contract` `monthly-uplift-handoff-v1`,
+    handoff-manifest fingerprint `e856771c7b33`, completion-audit contract v3,
+    and completion-audit fingerprint `9f0b0fd5bc1e`.
+  - `python3 tools/audit_repo.py --counts`
+    -> PASS; live inventory remains 2902 skills / 195 packs / 200 root entries.
+  - `python3 tools/quality_scorecard.py --top 20`
+    -> PASS; mean score 93.6, min 90.0, below 86/88/90 = 0/0/0, and execution
+    bridge remains 131 / 134.
+  - `python3 tools/source_map_audit.py`
+    -> PASS; 194 first-party source maps scanned, warnings 0, highest
+    unresolved count remains 14.
+  - `python3 tools/root_entry_audit.py`
+    -> PASS; 200 root journal entries scanned, 200 enriched, 0 machine-only,
+    warnings 0.
+  - `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`
+    -> PASS; scanned 2902 skills in 350 comparison groups, no pairs at or
+    above threshold 0.750.
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> passed.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> `monthly_uplift_report self-test passed`; includes stale
+    `handoff_manifest.contract` rejection.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop76-after.json`
+    -> PASS; JSON reports `handoff_manifest.contract`
+    `monthly-uplift-handoff-v2`, handoff-manifest fingerprint `1d1286f44bbb`,
+    completion-audit contract v3, and 12 completion requirements / 4 blockers
+    in the handoff manifest.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --skip-clone --compare-json /tmp/ajs-loop76-baseline.json --output /tmp/ajs-loop76-handoff-contract.md`
+    -> PASS; compact handoff delta reports handoff manifest contract
+    `monthly-uplift-handoff-v1` -> `monthly-uplift-handoff-v2`, unchanged
+    completion-audit contract v3, and handoff-manifest fingerprint
+    `e856771c7b33` -> `1d1286f44bbb`.
+  - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --skip-clone --output /tmp/ajs-loop76-goal-audit-skip.md`
+    -> PASS; rendered not-complete, no goal status action, 12 requirements, 8
+    OK / 3 triaged / 1 review, 4 blockers, and clone threshold `Needs full
+    gate`.
+  - `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20 --skip-clone --output /tmp/ajs-loop76-debt-audit.md`
+    -> PASS; rendered remaining-debt status `owner-clearance-or-dirty`,
+    owner-clearance queue 43 targets with sha256 `c820c1b9065f`, and
+    score/source/bridge debt rows.
+  - `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20 --skip-clone --output /tmp/ajs-loop76-publish-plan.md`
+    -> PASS; rendered the local-only root/tooling publish unit, blocked 15
+    dirty pack-content lanes, and required pre-publish checks.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-loop76-worklog-template.md`
+    -> PASS; generated scaffold includes handoff manifest line with
+    `completion 12 req / 4 blockers`, handoff-manifest fingerprint
+    `1d1286f44bbb`, and the 10-command validation block.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop76-final-prelog.md`
+    -> PASS; full Markdown reports clone audit OK with 0 reported pairs,
+    completion-audit contract v3, 12 requirements, 9 OK / 3 triaged / 0
+    review, 3 blockers, handoff manifest line with `completion 12 req / 3
+    blockers`, completion-audit fingerprint `c9f074ec987e`, and
+    handoff-manifest fingerprint `dda18610a8cc`.
+  - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --output /tmp/ajs-loop76-goal-audit-prelog.md`
+    -> PASS; full goal audit reports not-complete, no goal status action, 12
+    requirements, 9 OK / 3 triaged / 0 review, 3 blockers, and clone threshold
+    OK.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; includes py_compile, dashboard self-test, repository audit, clone
+    audit, and `git diff --check`.
+  - `python3 tools/run_checks.py`
+    -> PASS; includes source-map warnings 0, root-card warnings 0, worklog 75
+    loops before this entry, quality min 90.0, below 86/88/90 = 0/0/0, and
+    execution bridge 131 / 134.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS; reports 76 loop entries and identifies
+    `### 2026-06-28 - Handoff Manifest Contract v2` as the latest loop.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop76-final.json`
+    -> PASS; post-worklog JSON reports worklog 76, goal-progress fingerprint
+    `4c41f148c888`, completion-audit fingerprint `17864905787e`,
+    `handoff_manifest.contract` `monthly-uplift-handoff-v2`,
+    handoff-manifest completion-audit contract v3, 12 requirements, 4 blockers,
+    and handoff-manifest fingerprint `f9ca7d8cfa1c`.
+  - `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`
+    -> PASS; final self-check passed after the worklog append.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS; final post-worklog fast gate includes py_compile, dashboard
+    self-test, repository audit, clone audit, and `git diff --check`.
+  - `git diff --check`
+    -> passed.
+
+## Current Next Queue
+
+- Unclaimed score-floor protection after claim-filter tightening: none
+  surfaced in the current dashboard; current bottom-band packs are
+  claim-sensitive.
+- Unclaimed source-map debt: none surfaced in the current dashboard; current
+  top source-map debt is claim-sensitive and should be skipped unless the
+  owning lane clears the pack.
+- Execution-bridge tail: `Academy-of-Management-Annals-Skills`,
+  `Annual-Review-of-Economics-Skills`, and
+  `Social-Sciences-in-China-Skills` are claim-sensitive under the live
+  `CLAIMS.md` rules, so do not wire them without owner clearance.
+- Local publish-unit split: root/tooling currently forms one ready unit with 4
+  paths (`tools/README.md`, `tools/monthly_uplift_report.py`,
+  `tools/run_checks.py`, and `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`);
+  pack content remains 15 dirty pack lanes marked `needs-owner-review`.
+- Loop-control status: `owner-clearance-needed`; next safe lane without owner
+  clearance remains tooling/reporting hardening, regression-gate tightening, or
+  owner-cleared content work.
+- Machine-readable command handoff: refresh `measurement_commands` and
+  `validation_commands`, plus `command_plan` counts and fingerprint, with
+  `python3 tools/monthly_uplift_report.py --check --json --limit 20
+  --skip-clone --output /tmp/ajs-monthly-baseline.json`; the current command
+  plan is 6 measurement commands / 10 validation commands with fingerprint
+  `9639ca1b3e63`, and rendered handoffs, delta views, and worklog templates
+  read the same command plan from the summary.
+- Machine-readable schema handoff: the same JSON snapshot now carries
+  `schema.name`, `schema.version`, `schema.contract`, and
+  `schema.required_top_level_fields`; the current contract is
+  `monthly-uplift-dashboard-v9` and requires `remaining_debt`; `--check`
+  rejects missing or stale full dashboard schema contracts.
+- Machine-readable content-edit handoff: the same JSON snapshot now carries
+  `content_edit_policy` with content allowed/blocked status, owner-clearance
+  status, execution-bridge clearance status, unclaimed/claim-sensitive counts,
+  dirty pack-lane count, and a fingerprint; `--check` rejects drift from the
+  live loop-control, execution-bridge, and worktree-boundary data.
+- Machine-readable owner-clearance queue handoff: the same JSON snapshot now
+  carries `owner_clearance_queue` with contract `owner-clearance-queue-v1`,
+  total target count, displayed pack/reason rows, omitted counts, truncation
+  flags, and fingerprint `c820c1b9065f`; `--check` rejects drift from live
+  claims-derived queue totals and displayed pack/reason rows.
+- Machine-readable remaining-debt handoff: the same JSON snapshot now carries
+  `remaining_debt` with unclaimed totals, owner-clearance totals,
+  owner-clearance queue fingerprint, dirty skipped packs, dirty pack-lane count,
+  score/source/bridge debt details, reason text, and fingerprint; `--check`
+  rejects drift from the live loop-control, owner-clearance queue, source-map,
+  execution-bridge, quality, and worktree-boundary data.
+- Machine-readable local-publish handoff: the same JSON snapshot now carries
+  `publish_policy` with local-only status, explicit `publish_requested: false`,
+  path-scoped staging requirement, allowed root/tooling unit, blocked
+  pack-content unit, owner-review state, and fingerprint; `--check` rejects
+  drift from `publish_units` and the content-edit policy.
+- Machine-readable goal-progress handoff: the same JSON snapshot now carries
+  `goal_progress` with active-loop status, worklog loop count, score/source/root
+  invariant status, clone-audit status, execution-bridge coverage, command-plan
+  counts, owner-clearance/local-only state, dirty pack-lane count, reason text,
+  and fingerprint; `--check` rejects drift from the live summary.
+- Machine-readable completion-audit handoff: the same JSON snapshot now carries
+  `completion_audit` with completion status, goal-status action, requirement
+  rows, OK / triaged / review counts, blockers, clone-gate and owner-clearance
+  flags, bridge-gap count, remaining-debt status/totals/fingerprint,
+  owner-clearance queue total/fingerprint, reason text, and fingerprint. The
+  requirement rows include distinct `Remaining debt register` and
+  `Owner-clearance queue` rows; `--check` rejects drift from the live
+  goal-progress, remaining-debt, owner-clearance queue, clone, worklog, and
+  command-plan state.
+- Read-only goal completion audit: run `python3 tools/monthly_uplift_report.py
+  --check --goal-audit --limit 20` before any later `update_goal complete`
+  decision; the audit renders completion status, goal status action,
+  requirement evidence, blockers, and the explicit no-goal-status-change line.
+- Read-only local publish plan: run `python3 tools/monthly_uplift_report.py
+  --check --publish-plan --limit 20` before any later publish request; the plan
+  repeats the allowed root/tooling staging command and the blocked pack-content
+  lanes, and it does not execute git commands.
+- Read-only remaining-debt audit: run `python3 tools/monthly_uplift_report.py
+  --check --debt-audit --limit 20` before any later content-debt or
+  owner-clearance handoff; the audit renders the remaining-debt decision,
+  owner-clearance queue fingerprint, score/source/bridge table, dirty-pack
+  boundary, publish policy, and owner-clearance queue without editing files or
+  changing goal status.
+- Machine-readable worktree handoff: the same JSON snapshot now carries
+  `worktree_boundary` with dirty/root/pack counts, root-tooling staging command,
+  and fingerprint; `--check` rejects drift from the live `git` object.
+- Machine-readable continuation handoff: the same JSON snapshot now carries
+  `handoff_manifest` with its own contract, schema contract, loop-control
+  status, claims/worklog fingerprints, worktree/command/next-batch
+  fingerprints, content-edit and owner-clearance
+  queue/remaining-debt/publish-policy fingerprints, goal-progress fingerprint,
+  completion-audit contract/counts/fingerprint, publish-unit counts, and one
+  consolidated handoff fingerprint.
+- Machine-readable next-batch handoff: the same JSON snapshot now carries
+  `next_batches` and `next_batch_plan` count/fingerprint; rendered handoffs,
+  delta views, and worklog templates read that structured next-batch plan from
+  the summary.
+- Regression gates for the next batch: `python3 tools/monthly_uplift_report.py
+  --check --json --limit 20 --skip-clone --output
+  /tmp/ajs-monthly-baseline.json`,
+  `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20`,
+  `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20`,
+  `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20`,
+  `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`,
+  `python3 tools/monthly_uplift_report.py --check --worklog-template --limit
+  20 --output /tmp/ajs-monthly-worklog-template.md`,
+  `python3 tools/monthly_uplift_report.py --check-worklog latest`,
+  `python3 tools/monthly_uplift_report.py --check --handoff --limit 20
+  --compare-json /tmp/ajs-monthly-baseline.json`, `python3
+  tools/monthly_uplift_report.py --check --limit 20`, `python3
+  tools/audit_repo.py --counts`, `python3 tools/quality_scorecard.py`,
+  `python3 tools/source_map_audit.py`, `python3 tools/root_entry_audit.py`,
+  `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top
+  20`, SkillOpt gate as applicable, default `python3
+  tools/run_checks.py` for full local maintenance checks, `python3
+  tools/run_checks.py --skip-reports` for the fast hard gate including
+  dashboard logic self-tests, and `git diff --check`.
