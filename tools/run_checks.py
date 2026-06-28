@@ -55,6 +55,7 @@ def main(argv: list[str]) -> int:
 
     hard_checks = [
         ["python3", "-m", "py_compile", *python_tool_files()],
+        ["python3", "tools/monthly_uplift_report.py", "--self-test"],
         ["python3", "tools/audit_repo.py"],
         [
             "python3",
@@ -78,6 +79,15 @@ def main(argv: list[str]) -> int:
         for command in (
             ["python3", "tools/source_map_audit.py", *report_suffix],
             ["python3", "tools/root_entry_audit.py", *report_suffix],
+            [
+                "python3",
+                "tools/monthly_uplift_report.py",
+                "--check-only",
+                "--limit",
+                "20",
+                "--skip-clone",
+            ],
+            ["python3", "tools/monthly_uplift_report.py", "--check-worklog", "latest"],
         ):
             failures += 1 if run(command) else 0
 

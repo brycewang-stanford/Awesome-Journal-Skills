@@ -1,16 +1,22 @@
 #!/usr/bin/env python3
 """Aggregate the monthly uplift health signals into one report.
 
-This tool is a read-only dashboard over the existing maintenance commands. It
-does not replace the hard gates; it makes the quality trajectory easy to check
-before choosing the next count-preserving improvement batch.
+This tool is a read-only dashboard over the existing maintenance commands. When
+`--output` is supplied, it also writes the rendered snapshot to disk for the
+monthly worklog. It can render a full Markdown report, JSON, a compact handoff
+note, or a worklog entry template, and it can check that a worklog keeps the
+required loop evidence. It does not replace the hard gates; it makes the
+quality trajectory easy to check before choosing the next count-preserving
+improvement batch.
 """
 
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
+import shlex
 import subprocess
 import sys
 from datetime import datetime
@@ -23,8 +29,241 @@ ROOT = Path(__file__).resolve().parents[1]
 PYTHON = sys.executable or "python3"
 CLAIMS_PATH = ROOT / ".maintenance" / "CLAIMS.md"
 CLAIM_ROW_RE = re.compile(r"^\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|")
+WORKLOG_HEADING_RE = re.compile(r"^### \d{4}-\d{2}-\d{2} - .+", re.MULTILINE)
+WORKLOG_FILE_RE = re.compile(r"^MONTHLY-UPLIFT-(\d{4}-\d{2}-\d{2})\.md$")
+WORKLOG_PLACEHOLDER_RE = re.compile(r"\[(?:describe|list|summarize|copy)[^\]]*]", re.IGNORECASE)
+WORKLOG_PLANNED_EVIDENCE_RE = re.compile(
+    r"("
+    r"scheduled for this loop|expected to include|expected after this append|"
+    r"pass expected|pending final run|pending validation|pending rerun|"
+    r"should (?:pass|report|include|show)|not yet run|to be run|\bTODO\b|- \[ \]"
+    r")",
+    re.IGNORECASE,
+)
+WORKLOG_REQUIRED_MARKERS = (
+    "- Scope:",
+    "- Rationale:",
+    "- Files:",
+    "- Result:",
+    "- Validation:",
+)
+NEXT_LOOP_VALIDATION_COMMANDS = (
+    "python3 tools/monthly_uplift_report.py --check --handoff --limit 20",
+    "python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20",
+    "python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20",
+    "python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20",
+    "python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-monthly-worklog-template.md",
+    "python3 tools/monthly_uplift_report.py --check-worklog latest",
+    "python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-uplift.md",
+    "python3 tools/run_checks.py --skip-reports",
+    "python3 tools/run_checks.py",
+    "git diff --check",
+)
+NEXT_LOOP_MEASUREMENT_COMMANDS = (
+    "python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-monthly-baseline.json",
+    "python3 tools/audit_repo.py --counts",
+    "python3 tools/quality_scorecard.py",
+    "python3 tools/source_map_audit.py",
+    "python3 tools/root_entry_audit.py",
+    "python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20",
+)
+DASHBOARD_SCHEMA_NAME = "monthly_uplift_report"
+DASHBOARD_SCHEMA_VERSION = 9
+DASHBOARD_SCHEMA_CONTRACT = "monthly-uplift-dashboard-v9"
+DASHBOARD_SCHEMA_REQUIRED_TOP_LEVEL_FIELDS = (
+    "schema",
+    "generated_at",
+    "counts",
+    "quality",
+    "execution_bridge",
+    "source_maps",
+    "root_entries",
+    "clone_audit",
+    "claims",
+    "candidate_pool",
+    "loop_control",
+    "worklog",
+    "git",
+    "worktree_boundary",
+    "publish_units",
+    "measurement_commands",
+    "validation_commands",
+    "command_plan",
+    "targets",
+    "owner_clearance_queue",
+    "content_edit_policy",
+    "remaining_debt",
+    "next_batches",
+    "next_batch_plan",
+    "publish_policy",
+    "goal_progress",
+    "completion_audit",
+    "handoff_manifest",
+)
+
+
+def schema_summary() -> dict[str, Any]:
+    return {
+        "schema": {
+            "name": DASHBOARD_SCHEMA_NAME,
+            "version": DASHBOARD_SCHEMA_VERSION,
+            "contract": DASHBOARD_SCHEMA_CONTRACT,
+            "required_top_level_fields": list(DASHBOARD_SCHEMA_REQUIRED_TOP_LEVEL_FIELDS),
+        }
+    }
+
+
+def schema_line(summary: dict[str, Any]) -> str:
+    schema = summary.get("schema")
+    if not isinstance(schema, dict):
+        return "unavailable"
+    return (
+        f"{schema.get('name', 'unknown')} v{schema.get('version', 'unknown')}; "
+        f"{schema.get('contract', 'unknown')}"
+    )
+
+
+def validate_schema_contract(summary: dict[str, Any]) -> list[str]:
+    errors: list[str] = []
+    schema = summary.get("schema")
+    expected = schema_summary()["schema"]
+    if not isinstance(schema, dict):
+        return ["schema missing or not an object"]
+    for key in ("name", "version", "contract", "required_top_level_fields"):
+        if schema.get(key) != expected[key]:
+            errors.append(f"schema.{key} expected {expected[key]!r}, observed {schema.get(key)!r}")
+    required = schema.get("required_top_level_fields", [])
+    if not isinstance(required, list):
+        errors.append("schema.required_top_level_fields must be a list")
+        return errors
+    for field in required:
+        if not isinstance(field, str):
+            errors.append("schema.required_top_level_fields must contain only strings")
+            continue
+        if field not in summary:
+            errors.append(f"schema required field {field!r} missing from summary")
+    return errors
+
+
+def command_plan_fingerprint(measurement: list[str], validation: list[str]) -> str:
+    payload = json.dumps(
+        {"measurement_commands": measurement, "validation_commands": validation},
+        ensure_ascii=False,
+        sort_keys=True,
+    )
+    return hashlib.sha256(payload.encode("utf-8")).hexdigest()[:12]
+
+
+def command_plan_summary() -> dict[str, Any]:
+    measurement = list(NEXT_LOOP_MEASUREMENT_COMMANDS)
+    validation = list(NEXT_LOOP_VALIDATION_COMMANDS)
+    return {
+        "measurement_commands": measurement,
+        "validation_commands": validation,
+        "command_plan": {
+            "measurement_count": len(measurement),
+            "validation_count": len(validation),
+            "fingerprint": command_plan_fingerprint(measurement, validation),
+        },
+    }
+
+
+def summary_command_list(summary: dict[str, Any], key: str, fallback: tuple[str, ...]) -> list[str]:
+    value = summary.get(key)
+    if isinstance(value, list) and value and all(isinstance(command, str) for command in value):
+        return value
+    return list(fallback)
+
+
+def summary_measurement_commands(summary: dict[str, Any]) -> list[str]:
+    return summary_command_list(summary, "measurement_commands", NEXT_LOOP_MEASUREMENT_COMMANDS)
+
+
+def summary_validation_commands(summary: dict[str, Any]) -> list[str]:
+    return summary_command_list(summary, "validation_commands", NEXT_LOOP_VALIDATION_COMMANDS)
+
+
+def command_plan_line(summary: dict[str, Any]) -> str:
+    plan = summary.get("command_plan")
+    if not isinstance(plan, dict):
+        return "unavailable"
+    fingerprint = str(plan.get("fingerprint", ""))
+    suffix = f"; sha256 {fingerprint}" if fingerprint else ""
+    return (
+        f"{int(plan.get('measurement_count', 0))} measurement / "
+        f"{int(plan.get('validation_count', 0))} validation{suffix}"
+    )
+
+
+def validate_command_plan(summary: dict[str, Any]) -> list[str]:
+    errors: list[str] = []
+    expected_by_key = {
+        "measurement_commands": list(NEXT_LOOP_MEASUREMENT_COMMANDS),
+        "validation_commands": list(NEXT_LOOP_VALIDATION_COMMANDS),
+    }
+    for key, expected in expected_by_key.items():
+        value = summary.get(key)
+        if not isinstance(value, list):
+            errors.append(f"{key} missing or not a list")
+            continue
+        if not value:
+            errors.append(f"{key} must not be empty")
+            continue
+        if not all(isinstance(command, str) and command.strip() for command in value):
+            errors.append(f"{key} must contain only non-empty strings")
+            continue
+        if value != expected:
+            errors.append(f"{key} does not match the built-in command plan")
+    expected_plan = command_plan_summary()["command_plan"]
+    plan = summary.get("command_plan")
+    if not isinstance(plan, dict):
+        errors.append("command_plan missing or not an object")
+    else:
+        for key, expected in expected_plan.items():
+            if plan.get(key) != expected:
+                errors.append(f"command_plan.{key} expected {expected!r}, observed {plan.get(key)!r}")
+    return errors
+
+
+WORKLOG_REQUIRED_VALIDATION_MARKERS = (
+    "python3 -m py_compile",
+    "python3 tools/monthly_uplift_report.py --self-test",
+    "python3 tools/monthly_uplift_report.py --check --handoff --limit 20",
+    "python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20",
+    "python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20",
+    "python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20",
+    "python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20",
+    "python3 tools/monthly_uplift_report.py --check-worklog latest",
+    "python3 tools/monthly_uplift_report.py --check --limit 20 --output",
+    "python3 tools/run_checks.py --skip-reports",
+    "python3 tools/run_checks.py",
+    "git diff --check",
+)
+CURRENT_NEXT_QUEUE_REQUIRED_MARKERS = (
+    "Loop-control status:",
+    "Local publish-unit split:",
+    "needs-owner-review",
+    "Regression gates for the next batch:",
+    "owner-clearance-needed",
+    "python3 tools/monthly_uplift_report.py --check --handoff --limit 20",
+    "python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20",
+    "python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20",
+    "python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20",
+    "python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20",
+    "python3 tools/monthly_uplift_report.py --check-worklog latest",
+    "python3 tools/monthly_uplift_report.py --check --limit 20",
+    "python3 tools/audit_repo.py --counts",
+    "python3 tools/quality_scorecard.py",
+    "python3 tools/source_map_audit.py",
+    "python3 tools/root_entry_audit.py",
+    "python3 tools/clone_audit.py --threshold",
+    "python3 tools/run_checks.py --skip-reports",
+    "python3 tools/run_checks.py",
+    "git diff --check",
+)
 
 AGENT_A_KEYWORDS = (
+    "aer-insights",
     "accounting",
     "administrative-science",
     "association-for-information",
@@ -61,6 +300,17 @@ AGENT_B_EXACT_PACKS = {
     "PNAS",
     "Science",
 }
+AGENT_B_KEYWORDS = (
+    "cancer",
+    "cell",
+    "clinical",
+    "jama",
+    "lancet",
+    "medicine",
+    "medical",
+    "nejm",
+    "pnas",
+)
 AGENT_C_KEYWORDS = (
     "anthropolog",
     "art-bulletin",
@@ -80,6 +330,96 @@ AGENT_C_KEYWORDS = (
     "social-forces",
     "sociolog",
 )
+AGENT_C_CATEGORY_KEYWORDS = (
+    "agricultur",
+    "conservation",
+    "critical-inquiry",
+    "engineering",
+    "environment",
+    "field-crops",
+    "global-change",
+    "humanities",
+    "pmla",
+    "technology",
+)
+
+DELTA_METRICS = (
+    ("skills", "Inventory skills", ("counts", "skills"), 0),
+    ("packs", "Inventory packs", ("counts", "packs"), 0),
+    ("root_entries", "Root journal entries", ("counts", "root_entries"), 0),
+    ("quality_mean", "Quality mean", ("quality", "mean"), 1),
+    ("quality_min", "Quality min", ("quality", "min"), 1),
+    ("quality_below_target", "Below score target", ("quality", "below_target"), 0),
+    ("execution_bridge_wired", "Execution bridge wired", ("execution_bridge", "wired"), 0),
+    ("execution_bridge_missing", "Execution bridge missing", ("execution_bridge", "missing"), 0),
+    ("source_map_warnings", "Source-map warnings", ("source_maps", "warnings"), 0),
+    ("source_map_max_unresolved", "Source-map max unresolved", ("source_maps", "max_unresolved"), 0),
+    ("root_machine_only", "Root machine-only cards", ("root_entries", "machine_only"), 0),
+    ("root_warnings", "Root-card warnings", ("root_entries", "warnings"), 0),
+    ("clone_fail_hits", "Clone fail hits", ("clone_audit", "fail_hits"), 0),
+    ("claims_rows", "Claims rows", ("claims", "row_count"), 0),
+    ("claims_active_rows", "Claims active rows", ("claims", "active_row_count"), 0),
+    ("claims_lines", "Claims boundary lines", ("claims", "line_count"), 0),
+    ("unclaimed_score_candidates", "Unclaimed score candidates", ("loop_control", "unclaimed_score_candidates"), 0),
+    ("unclaimed_source_map_candidates", "Unclaimed source-map candidates", ("loop_control", "unclaimed_source_map_candidates"), 0),
+    ("unclaimed_execution_bridge_candidates", "Unclaimed execution-bridge candidates", ("loop_control", "unclaimed_execution_bridge_candidates"), 0),
+    ("claim_sensitive_score_targets", "Claim-sensitive score targets", ("loop_control", "claim_sensitive_score_targets"), 0),
+    ("claim_sensitive_source_map_targets", "Claim-sensitive source-map targets", ("loop_control", "claim_sensitive_source_map_targets"), 0),
+    ("claim_sensitive_execution_bridge_targets", "Claim-sensitive execution-bridge targets", ("loop_control", "claim_sensitive_execution_bridge_targets"), 0),
+    ("dirty_skipped_packs", "Dirty skipped packs", ("loop_control", "dirty_skipped_packs"), 0),
+    ("worklog_loop_count", "Worklog loops", ("worklog", "loop_count"), 0),
+    ("git_dirty_entries", "Git dirty entries", ("git", "dirty_count"), 0),
+    ("git_dirty_pack_lanes", "Git dirty pack lanes", ("git", "dirty_pack_count"), 0),
+    ("git_dirty_root_entries", "Git dirty root/tooling entries", ("git", "dirty_root_count"), 0),
+    ("worktree_boundary_dirty_entries", "Worktree boundary dirty entries", ("worktree_boundary", "dirty_count"), 0),
+    ("worktree_boundary_pack_lanes", "Worktree boundary pack lanes", ("worktree_boundary", "dirty_pack_count"), 0),
+    ("worktree_boundary_root_entries", "Worktree boundary root/tooling entries", ("worktree_boundary", "dirty_root_count"), 0),
+    ("schema_version", "Dashboard schema version", ("schema", "version"), 0),
+    ("command_plan_measurement_count", "Command plan measurement commands", ("command_plan", "measurement_count"), 0),
+    ("command_plan_validation_count", "Command plan validation commands", ("command_plan", "validation_count"), 0),
+    ("next_batch_count", "Next-batch plan items", ("next_batch_plan", "count"), 0),
+    ("content_policy_unclaimed_candidates", "Content-policy unclaimed candidates", ("content_edit_policy", "unclaimed_candidate_count"), 0),
+    ("content_policy_claim_sensitive_targets", "Content-policy claim-sensitive targets", ("content_edit_policy", "claim_sensitive_target_count"), 0),
+    ("content_policy_dirty_pack_lanes", "Content-policy dirty pack lanes", ("content_edit_policy", "dirty_pack_lane_count"), 0),
+    ("owner_clearance_queue_total", "Owner-clearance queue total", ("owner_clearance_queue", "total"), 0),
+    ("remaining_debt_unclaimed_total", "Remaining-debt unclaimed total", ("remaining_debt", "unclaimed_total"), 0),
+    ("remaining_debt_owner_clearance_total", "Remaining-debt owner-clearance total", ("remaining_debt", "owner_clearance_total"), 0),
+    ("remaining_debt_dirty_pack_lanes", "Remaining-debt dirty pack lanes", ("remaining_debt", "dirty_pack_lane_count"), 0),
+    ("publish_policy_root_paths", "Publish-policy root/tooling paths", ("publish_policy", "root_tooling_path_count"), 0),
+    ("publish_policy_pack_lanes", "Publish-policy pack lanes", ("publish_policy", "pack_content_pack_count"), 0),
+    ("goal_progress_worklog_loops", "Goal-progress worklog loops", ("goal_progress", "worklog_loop_count"), 0),
+    ("goal_progress_execution_bridge_missing", "Goal-progress bridge missing", ("goal_progress", "execution_bridge_missing"), 0),
+    ("completion_audit_requirements", "Completion-audit requirements", ("completion_audit", "requirement_count"), 0),
+    ("completion_audit_blockers", "Completion-audit blockers", ("completion_audit", "blocker_count"), 0),
+    ("handoff_manifest_completion_requirements", "Handoff completion-audit requirements", ("handoff_manifest", "completion_audit_requirement_count"), 0),
+    ("handoff_manifest_completion_blockers", "Handoff completion-audit blockers", ("handoff_manifest", "completion_audit_blocker_count"), 0),
+    ("handoff_manifest_root_paths", "Handoff root/tooling paths", ("handoff_manifest", "root_tooling_path_count"), 0),
+    ("handoff_manifest_pack_lanes", "Handoff pack lanes", ("handoff_manifest", "pack_content_pack_count"), 0),
+)
+DELTA_TEXT_METRICS = (
+    ("claims_present", "Claims boundary present", ("claims", "present")),
+    ("claims_fingerprint", "Claims boundary fingerprint", ("claims", "fingerprint")),
+    ("schema_contract", "Dashboard schema contract", ("schema", "contract")),
+    ("worktree_boundary_fingerprint", "Worktree boundary fingerprint", ("worktree_boundary", "fingerprint")),
+    ("command_plan_fingerprint", "Command plan fingerprint", ("command_plan", "fingerprint")),
+    ("next_batch_fingerprint", "Next-batch plan fingerprint", ("next_batch_plan", "fingerprint")),
+    ("content_policy_status", "Content-edit policy status", ("content_edit_policy", "status")),
+    ("content_policy_fingerprint", "Content-edit policy fingerprint", ("content_edit_policy", "fingerprint")),
+    ("owner_clearance_queue_fingerprint", "Owner-clearance queue fingerprint", ("owner_clearance_queue", "fingerprint")),
+    ("remaining_debt_status", "Remaining-debt status", ("remaining_debt", "status")),
+    ("remaining_debt_fingerprint", "Remaining-debt fingerprint", ("remaining_debt", "fingerprint")),
+    ("publish_policy_status", "Publish policy status", ("publish_policy", "status")),
+    ("publish_policy_fingerprint", "Publish policy fingerprint", ("publish_policy", "fingerprint")),
+    ("goal_progress_status", "Goal-progress status", ("goal_progress", "status")),
+    ("goal_progress_fingerprint", "Goal-progress fingerprint", ("goal_progress", "fingerprint")),
+    ("completion_audit_status", "Completion-audit status", ("completion_audit", "completion_status")),
+    ("completion_audit_fingerprint", "Completion-audit fingerprint", ("completion_audit", "fingerprint")),
+    ("handoff_manifest_contract", "Handoff manifest contract", ("handoff_manifest", "contract")),
+    ("handoff_manifest_completion_contract", "Handoff completion-audit contract", ("handoff_manifest", "completion_audit_contract")),
+    ("handoff_manifest_fingerprint", "Handoff manifest fingerprint", ("handoff_manifest", "fingerprint")),
+)
+OWNER_CLEARANCE_KINDS = ("score-floor", "source-map", "execution-bridge")
+OWNER_CLEARANCE_QUEUE_CONTRACT = "owner-clearance-queue-v1"
 
 
 class ToolError(RuntimeError):
@@ -125,6 +465,25 @@ def score_summary(rows: list[dict[str, Any]], target: float, limit: int) -> dict
     }
 
 
+def execution_bridge_summary(rows: list[dict[str, Any]], limit: int) -> dict[str, Any]:
+    empirical = [
+        row
+        for row in rows
+        if row.get("pack_type") == "depth" and row.get("code_status") == "present"
+    ]
+    missing = sorted(
+        [row for row in empirical if not row.get("exec_bridge")],
+        key=lambda row: (float(row.get("score", 0)), str(row.get("pack", ""))),
+    )
+    wired = len(empirical) - len(missing)
+    return {
+        "empirical_depth_packs": len(empirical),
+        "wired": wired,
+        "missing": len(missing),
+        "missing_packs": missing[:limit],
+    }
+
+
 def source_summary(rows: list[dict[str, Any]], limit: int) -> dict[str, Any]:
     warnings = [row for row in rows if row.get("warnings")]
     sorted_rows = sorted(rows, key=lambda row: int(row["unresolved_flags"]), reverse=True)
@@ -155,6 +514,206 @@ def root_summary(rows: list[dict[str, Any]]) -> dict[str, Any]:
     }
 
 
+def nested_number(data: dict[str, Any], path: tuple[str, ...]) -> float | None:
+    value: Any = data
+    for key in path:
+        if not isinstance(value, dict) or key not in value:
+            return None
+        value = value[key]
+        if value is None:
+            return None
+    if isinstance(value, bool) or not isinstance(value, (int, float)):
+        return None
+    return float(value)
+
+
+def nested_value(data: dict[str, Any], path: tuple[str, ...]) -> Any:
+    value: Any = data
+    for key in path:
+        if not isinstance(value, dict) or key not in value:
+            return None
+        value = value[key]
+    return value
+
+
+def rounded_number(value: float, precision: int) -> int | float:
+    if precision == 0:
+        return int(round(value))
+    return round(value, precision)
+
+
+def normalized_delta_text(value: Any) -> str:
+    if value is None:
+        return "missing"
+    if isinstance(value, bool):
+        return "true" if value else "false"
+    text = str(value)
+    return text if text else "missing"
+
+
+def compare_delta(previous: dict[str, Any], current: dict[str, Any]) -> dict[str, Any]:
+    metrics: dict[str, dict[str, Any]] = {}
+    for key, label, path, precision in DELTA_METRICS:
+        old = nested_number(previous, path)
+        new = nested_number(current, path)
+        if old is None or new is None:
+            continue
+        metrics[key] = {
+            "label": label,
+            "precision": precision,
+            "previous": rounded_number(old, precision),
+            "current": rounded_number(new, precision),
+            "delta": rounded_number(new - old, precision),
+        }
+
+    text_metrics: dict[str, dict[str, Any]] = {}
+    for key, label, path in DELTA_TEXT_METRICS:
+        old_value = nested_value(previous, path)
+        new_value = nested_value(current, path)
+        if old_value is None and new_value is None:
+            continue
+        text_metrics[key] = {
+            "label": label,
+            "previous": normalized_delta_text(old_value),
+            "current": normalized_delta_text(new_value),
+            "changed": old_value != new_value,
+        }
+
+    return {
+        "baseline_generated_at": str(previous.get("generated_at", "unknown")),
+        "current_generated_at": str(current.get("generated_at", "unknown")),
+        "previous_loop_status": str(previous.get("loop_control", {}).get("status", "unknown")),
+        "current_loop_status": str(current.get("loop_control", {}).get("status", "unknown")),
+        "metrics": metrics,
+        "text": text_metrics,
+    }
+
+
+def load_compare_json(path: Path) -> dict[str, Any]:
+    input_path = path if path.is_absolute() else ROOT / path
+    try:
+        data = json.loads(input_path.read_text(encoding="utf-8"))
+    except OSError as exc:
+        raise ValueError(f"could not read compare JSON {path}: {exc}") from exc
+    if not isinstance(data, dict):
+        raise ValueError(f"compare JSON {path} must contain an object")
+    return data
+
+
+def latest_worklog_section(text: str) -> tuple[str, str] | None:
+    headings = list(WORKLOG_HEADING_RE.finditer(text))
+    if not headings:
+        return None
+    latest = headings[-1]
+    next_heading = re.search(r"\n(?:##|###) ", text[latest.end() :])
+    end = latest.end() + next_heading.start() if next_heading else len(text)
+    return latest.group(0), text[latest.start() : end]
+
+
+def squash_spaces(text: str) -> str:
+    return re.sub(r"\s+", " ", text)
+
+
+def validate_worklog_text(text: str) -> list[str]:
+    errors: list[str] = []
+    if "Pending in this loop" in text:
+        errors.append("worklog still contains 'Pending in this loop'")
+    placeholder = WORKLOG_PLACEHOLDER_RE.search(text)
+    if placeholder:
+        errors.append(f"worklog still contains template placeholder {placeholder.group(0)!r}")
+
+    section = latest_worklog_section(text)
+    if section is None:
+        errors.append("worklog has no dated loop heading like '### YYYY-MM-DD - ...'")
+        return errors
+
+    heading, latest = section
+    for marker in WORKLOG_REQUIRED_MARKERS:
+        if marker not in latest:
+            errors.append(f"latest loop {heading!r} missing marker {marker!r}")
+
+    if "- Validation:" in latest:
+        validation_block = latest.split("- Validation:", 1)[1]
+        for marker in WORKLOG_REQUIRED_VALIDATION_MARKERS:
+            if marker not in validation_block:
+                errors.append(f"latest loop {heading!r} validation missing command marker {marker!r}")
+        planned_evidence = WORKLOG_PLANNED_EVIDENCE_RE.search(validation_block)
+        if planned_evidence:
+            errors.append(
+                f"latest loop {heading!r} still contains planned validation text "
+                f"{planned_evidence.group(0)!r}"
+            )
+
+    if "## Current Next Queue" not in text:
+        errors.append("worklog missing '## Current Next Queue'")
+    else:
+        next_queue = text.split("## Current Next Queue", 1)[1]
+        normalized_next_queue = squash_spaces(next_queue)
+        for marker in CURRENT_NEXT_QUEUE_REQUIRED_MARKERS:
+            if marker not in next_queue:
+                if marker not in normalized_next_queue:
+                    errors.append(f"Current Next Queue missing marker {marker!r}")
+    return errors
+
+
+def latest_worklog_path() -> Path:
+    candidates: list[tuple[str, Path]] = []
+    for path in (ROOT / ".maintenance").glob("MONTHLY-UPLIFT-*.md"):
+        match = WORKLOG_FILE_RE.match(path.name)
+        if match:
+            candidates.append((match.group(1), path))
+    if not candidates:
+        raise ValueError("no .maintenance/MONTHLY-UPLIFT-YYYY-MM-DD.md worklog files found")
+    return sorted(candidates, key=lambda item: (item[0], item[1].name))[-1][1]
+
+
+def resolve_worklog_path(path: Path) -> Path:
+    if path.as_posix() in {"latest", "current"}:
+        return latest_worklog_path()
+    return path if path.is_absolute() else ROOT / path
+
+
+def check_worklog(path: Path) -> str:
+    input_path = resolve_worklog_path(path)
+    try:
+        text = input_path.read_text(encoding="utf-8")
+    except OSError as exc:
+        raise ValueError(f"could not read worklog {path}: {exc}") from exc
+    errors = validate_worklog_text(text)
+    if errors:
+        raise ValueError("; ".join(errors))
+    heading, _section = latest_worklog_section(text) or ("unknown", "")
+    loop_count = len(list(WORKLOG_HEADING_RE.finditer(text)))
+    rel_path = input_path.relative_to(ROOT).as_posix() if input_path.is_relative_to(ROOT) else str(input_path)
+    return f"monthly_uplift_report worklog-check passed: {rel_path}; {loop_count} loop entries; latest {heading}.\n"
+
+
+def worklog_summary() -> dict[str, Any]:
+    try:
+        path = latest_worklog_path()
+        text = path.read_text(encoding="utf-8")
+    except (OSError, ValueError) as exc:
+        return {
+            "status": "Review",
+            "path": ".maintenance/MONTHLY-UPLIFT-*.md",
+            "loop_count": 0,
+            "latest_heading": "",
+            "errors": [str(exc)],
+        }
+
+    errors = validate_worklog_text(text)
+    section = latest_worklog_section(text)
+    heading = section[0] if section else ""
+    rel_path = path.relative_to(ROOT).as_posix() if path.is_relative_to(ROOT) else str(path)
+    return {
+        "status": "OK" if not errors else "Review",
+        "path": rel_path,
+        "loop_count": len(list(WORKLOG_HEADING_RE.finditer(text))),
+        "latest_heading": heading,
+        "errors": errors,
+    }
+
+
 def pack_from_path(path: str) -> str:
     return str(path).split("/", 1)[0]
 
@@ -165,7 +724,16 @@ def pack_base_name(pack: str) -> str:
 
 def read_claims_context() -> dict[str, Any]:
     if not CLAIMS_PATH.exists():
-        return {"present": False, "path": ".maintenance/CLAIMS.md", "rows": {}, "text": ""}
+        return {
+            "present": False,
+            "path": ".maintenance/CLAIMS.md",
+            "rows": {},
+            "text": "",
+            "line_count": 0,
+            "row_count": 0,
+            "active_row_count": 0,
+            "fingerprint": "",
+        }
 
     text = CLAIMS_PATH.read_text(encoding="utf-8")
     rows: dict[str, dict[str, str]] = {}
@@ -177,7 +745,16 @@ def read_claims_context() -> dict[str, Any]:
         if pack in {"Pack", "------"} or set(pack) == {"-"}:
             continue
         rows[pack] = {"agent": agent, "status": status}
-    return {"present": True, "path": ".maintenance/CLAIMS.md", "rows": rows, "text": text}
+    return {
+        "present": True,
+        "path": ".maintenance/CLAIMS.md",
+        "rows": rows,
+        "text": text,
+        "line_count": len(text.splitlines()),
+        "row_count": len(rows),
+        "active_row_count": sum(active_claim_status(row["status"]) for row in rows.values()),
+        "fingerprint": hashlib.sha256(text.encode("utf-8")).hexdigest()[:12],
+    }
 
 
 def active_claim_status(status: str) -> bool:
@@ -216,8 +793,12 @@ def claim_reason_for_pack(pack: str, claims: dict[str, Any]) -> str:
         return "Agent A lane covers econ/finance/management/Chinese packs"
     if "agent b" in text_lower and base in AGENT_B_EXACT_PACKS:
         return "Agent B lane covers this natural-science/medicine pack"
+    if "agent b" in text_lower and any(keyword in base_lower for keyword in AGENT_B_KEYWORDS):
+        return "Agent B natural-science/medicine lane covers this pack family"
     if "agent c" in text_lower and any(keyword in base_lower for keyword in AGENT_C_KEYWORDS):
         return "Agent C social-science/humanities lane is marked uncommitted or awaiting review"
+    if "agent c" in text_lower and any(keyword in base_lower for keyword in AGENT_C_CATEGORY_KEYWORDS):
+        return "Agent C category 3/7/9 lane covers humanities, engineering, agriculture, or environment packs"
     if active_claim_text_near_pack(base, str(claims.get("text", ""))):
         return "Claims text mentions this pack in an active, queued, uncommitted, or awaiting-review lane"
     return ""
@@ -225,6 +806,7 @@ def claim_reason_for_pack(pack: str, claims: dict[str, Any]) -> str:
 
 def claims_summary(
     quality: dict[str, Any],
+    execution_bridge: dict[str, Any],
     source_maps: dict[str, Any],
     claims: dict[str, Any],
 ) -> dict[str, Any]:
@@ -245,9 +827,20 @@ def claims_summary(
             sensitive_packs[pack] = reason
             current_targets.append({"kind": "source-map", "pack": pack, "reason": reason})
 
+    for row in execution_bridge["missing_packs"]:
+        pack = str(row["pack"])
+        reason = claim_reason_for_pack(pack, claims)
+        if reason:
+            sensitive_packs[pack] = reason
+            current_targets.append({"kind": "execution-bridge", "pack": pack, "reason": reason})
+
     return {
         "path": claims["path"],
         "present": bool(claims.get("present")),
+        "line_count": int(claims.get("line_count", 0)),
+        "row_count": int(claims.get("row_count", 0)),
+        "active_row_count": int(claims.get("active_row_count", 0)),
+        "fingerprint": str(claims.get("fingerprint", "")),
         "sensitive_packs": sensitive_packs,
         "sensitive_current_targets": current_targets,
     }
@@ -281,12 +874,16 @@ def clone_summary(text: str, fail_threshold: float, limit: int) -> dict[str, Any
 def candidate_pool(
     quality_rows: list[dict[str, Any]],
     source_rows: list[dict[str, Any]],
+    execution_bridge_rows: list[dict[str, Any]],
     claims: dict[str, Any],
+    dirty_packs: set[str],
     limit: int,
 ) -> dict[str, list[dict[str, Any]]]:
     score_candidates: list[dict[str, Any]] = []
     for row in sorted(quality_rows, key=lambda item: (float(item["score"]), str(item["pack"]))):
         pack = str(row["pack"])
+        if pack in dirty_packs:
+            continue
         if claim_reason_for_pack(pack, claims):
             continue
         score_candidates.append(
@@ -306,15 +903,1324 @@ def candidate_pool(
         if unresolved <= 0:
             break
         path = str(row["path"])
-        if claim_reason_for_pack(pack_from_path(path), claims):
+        pack = pack_from_path(path)
+        if pack in dirty_packs:
+            continue
+        if claim_reason_for_pack(pack, claims):
             continue
         source_candidates.append({"unresolved_flags": unresolved, "path": path})
         if len(source_candidates) >= limit:
             break
 
+    bridge_candidates: list[dict[str, Any]] = []
+    sorted_bridge_rows = sorted(
+        execution_bridge_rows,
+        key=lambda item: (float(item.get("score", 0)), str(item.get("pack", ""))),
+    )
+    for row in sorted_bridge_rows:
+        pack = str(row.get("pack", ""))
+        if not pack:
+            continue
+        if pack in dirty_packs:
+            continue
+        if claim_reason_for_pack(pack, claims):
+            continue
+        bridge_candidates.append(
+            {
+                "pack": pack,
+                "score": float(row.get("score", 0)),
+                "current_bridge_links": int(row.get("exec_bridge_skills", 0)),
+                "weakest_skill": weakest_skill_path(row),
+            }
+        )
+        if len(bridge_candidates) >= limit:
+            break
+
     return {
         "score_unclaimed": score_candidates,
         "source_map_unclaimed": source_candidates,
+        "execution_bridge_unclaimed": bridge_candidates,
+        "dirty_skipped_packs": [{"pack": pack} for pack in sorted(dirty_packs)],
+    }
+
+
+def loop_control_summary(
+    execution_bridge: dict[str, Any],
+    claims_context: dict[str, Any],
+    claims: dict[str, Any],
+    candidate_pool_data: dict[str, list[dict[str, Any]]],
+) -> dict[str, Any]:
+    score_candidates = candidate_pool_data.get("score_unclaimed", [])
+    source_candidates = candidate_pool_data.get("source_map_unclaimed", [])
+    bridge_candidates = candidate_pool_data.get("execution_bridge_unclaimed", [])
+    dirty_skipped = candidate_pool_data.get("dirty_skipped_packs", [])
+
+    sensitive_counts = {"score-floor": 0, "source-map": 0, "execution-bridge": 0}
+    for row in claims.get("sensitive_current_targets", []):
+        kind = str(row.get("kind", ""))
+        if kind in sensitive_counts:
+            sensitive_counts[kind] += 1
+
+    has_unclaimed_work = bool(score_candidates or source_candidates or bridge_candidates)
+    has_sensitive_work = any(sensitive_counts.values())
+    if has_unclaimed_work:
+        status = "content-candidates"
+        next_lane = "content"
+        reason = "unclaimed score/source/bridge candidates are available after claim and dirty-pack filtering"
+    elif has_sensitive_work:
+        status = "owner-clearance-needed"
+        next_lane = "tooling-or-owner-clearance"
+        reason = "all visible content debt is claim-sensitive or already dirty; avoid content edits without owner clearance"
+    else:
+        status = "monitoring-tooling"
+        next_lane = "tooling"
+        reason = "no unclaimed or claim-sensitive content debt is visible in the current target window"
+
+    return {
+        "status": status,
+        "next_lane": next_lane,
+        "reason": reason,
+        "unclaimed_score_candidates": len(score_candidates),
+        "unclaimed_source_map_candidates": len(source_candidates),
+        "unclaimed_execution_bridge_candidates": len(bridge_candidates),
+        "claim_sensitive_score_targets": sensitive_counts["score-floor"],
+        "claim_sensitive_source_map_targets": sensitive_counts["source-map"],
+        "claim_sensitive_execution_bridge_targets": sensitive_counts["execution-bridge"],
+        "dirty_skipped_packs": len(dirty_skipped),
+    }
+
+
+def expected_loop_control(summary: dict[str, Any]) -> dict[str, Any]:
+    candidate_pool_data = summary.get("candidate_pool", {})
+    claims = summary.get("claims", {})
+    execution_bridge = summary.get("execution_bridge", {})
+
+    score_candidates = candidate_pool_data.get("score_unclaimed", [])
+    source_candidates = candidate_pool_data.get("source_map_unclaimed", [])
+    bridge_candidates = candidate_pool_data.get("execution_bridge_unclaimed", [])
+    dirty_skipped = candidate_pool_data.get("dirty_skipped_packs", [])
+
+    sensitive_counts = {"score-floor": 0, "source-map": 0, "execution-bridge": 0}
+    for row in claims.get("sensitive_current_targets", []):
+        kind = str(row.get("kind", ""))
+        if kind in sensitive_counts:
+            sensitive_counts[kind] += 1
+
+    has_unclaimed_work = bool(score_candidates or source_candidates or bridge_candidates)
+    has_sensitive_work = any(sensitive_counts.values())
+    if has_unclaimed_work:
+        status = "content-candidates"
+        next_lane = "content"
+    elif has_sensitive_work:
+        status = "owner-clearance-needed"
+        next_lane = "tooling-or-owner-clearance"
+    else:
+        status = "monitoring-tooling"
+        next_lane = "tooling"
+
+    return {
+        "status": status,
+        "next_lane": next_lane,
+        "unclaimed_score_candidates": len(score_candidates),
+        "unclaimed_source_map_candidates": len(source_candidates),
+        "unclaimed_execution_bridge_candidates": len(bridge_candidates),
+        "claim_sensitive_score_targets": sensitive_counts["score-floor"],
+        "claim_sensitive_source_map_targets": sensitive_counts["source-map"],
+        "claim_sensitive_execution_bridge_targets": sensitive_counts["execution-bridge"],
+        "dirty_skipped_packs": len(dirty_skipped),
+    }
+
+
+def validate_summary(summary: dict[str, Any]) -> list[str]:
+    errors: list[str] = []
+    if "generated_at" in summary:
+        errors.extend(validate_schema_contract(summary))
+    errors.extend(validate_worktree_boundary(summary))
+    errors.extend(validate_command_plan(summary))
+    errors.extend(validate_next_batch_plan(summary))
+    errors.extend(validate_content_edit_policy(summary))
+    errors.extend(validate_remaining_debt(summary))
+    errors.extend(validate_publish_policy(summary))
+    errors.extend(validate_goal_progress(summary))
+    errors.extend(validate_completion_audit(summary))
+    errors.extend(validate_handoff_manifest(summary))
+    loop_control = summary.get("loop_control")
+    if not isinstance(loop_control, dict):
+        return ["missing loop_control summary"]
+
+    for key, expected in expected_loop_control(summary).items():
+        observed = loop_control.get(key)
+        if observed != expected:
+            errors.append(f"loop_control.{key} expected {expected!r}, observed {observed!r}")
+
+    candidate_pool_data = summary.get("candidate_pool", {})
+    dirty_packs = {
+        str(row.get("pack", ""))
+        for row in candidate_pool_data.get("dirty_skipped_packs", [])
+    }
+    sensitive_packs = set(summary.get("claims", {}).get("sensitive_packs", {}))
+
+    claims = summary.get("claims")
+    if not isinstance(claims, dict):
+        errors.append("missing claims summary")
+    else:
+        if not claims.get("present"):
+            errors.append("claims boundary: .maintenance/CLAIMS.md is missing")
+        if int(claims.get("row_count", 0)) <= 0:
+            errors.append("claims boundary: no parsed claim rows")
+        if claims.get("present") and not str(claims.get("fingerprint", "")):
+            errors.append("claims boundary: missing fingerprint")
+
+    for row in candidate_pool_data.get("score_unclaimed", []):
+        pack = str(row.get("pack", ""))
+        if pack in dirty_packs:
+            errors.append(f"score candidate {pack} is already dirty")
+        if pack in sensitive_packs:
+            errors.append(f"score candidate {pack} is claim-sensitive")
+
+    for row in candidate_pool_data.get("source_map_unclaimed", []):
+        path = str(row.get("path", ""))
+        pack = pack_from_path(path)
+        if pack in dirty_packs:
+            errors.append(f"source-map candidate {path} is already dirty")
+        if pack in sensitive_packs:
+            errors.append(f"source-map candidate {path} is claim-sensitive")
+
+    missing_bridge_packs = {
+        str(row.get("pack", ""))
+        for row in summary.get("execution_bridge", {}).get("missing_packs", [])
+    }
+    for row in candidate_pool_data.get("execution_bridge_unclaimed", []):
+        pack = str(row.get("pack", ""))
+        if pack in dirty_packs:
+            errors.append(f"execution-bridge candidate {pack} is already dirty")
+        if pack in sensitive_packs:
+            errors.append(f"execution-bridge candidate {pack} is claim-sensitive")
+        if pack not in missing_bridge_packs:
+            errors.append(f"execution-bridge candidate {pack} is not in the missing bridge tail")
+
+    worklog = summary.get("worklog")
+    if not isinstance(worklog, dict):
+        errors.append("missing worklog summary")
+    elif worklog.get("status") != "OK":
+        for error in worklog.get("errors", []) or ["worklog status is not OK"]:
+            errors.append(f"worklog: {error}")
+
+    queue = summary.get("owner_clearance_queue")
+    if not isinstance(queue, dict):
+        errors.append("missing owner_clearance_queue summary")
+    else:
+        expected_queue = owner_clearance_queue(summary)
+        for key in ("contract", "total", "fingerprint"):
+            if queue.get(key) != expected_queue.get(key):
+                errors.append(
+                    f"owner_clearance_queue.{key} expected {expected_queue.get(key)!r}, observed {queue.get(key)!r}"
+                )
+        expected_totals = claim_sensitive_group_totals(summary)
+        for kind in OWNER_CLEARANCE_KINDS:
+            expected_total = expected_totals.get(kind, 0)
+            expected_row = expected_queue.get(kind)
+            row = queue.get(kind)
+            if expected_total == 0 and row is None:
+                continue
+            if not isinstance(row, dict):
+                errors.append(f"owner_clearance_queue.{kind} missing")
+                continue
+            if not isinstance(expected_row, dict):
+                errors.append(f"owner_clearance_queue.{kind} unexpected")
+                continue
+            displayed = row.get("displayed", [])
+            if not isinstance(displayed, list):
+                errors.append(f"owner_clearance_queue.{kind}.displayed must be a list")
+                displayed = []
+            expected_displayed = expected_row.get("displayed", [])
+            display_limit = int(row.get("display_limit", 0))
+            expected_display_limit = int(expected_row.get("display_limit", 0))
+            omitted = int(expected_row.get("omitted", 0))
+            if row.get("total") != expected_total:
+                errors.append(f"owner_clearance_queue.{kind}.total expected {expected_total}, observed {row.get('total')!r}")
+            if display_limit != expected_display_limit:
+                errors.append(
+                    f"owner_clearance_queue.{kind}.display_limit expected {expected_display_limit}, observed {display_limit}"
+                )
+            if displayed != expected_displayed:
+                errors.append(f"owner_clearance_queue.{kind}.displayed does not match claims boundary")
+            if row.get("omitted") != omitted:
+                errors.append(f"owner_clearance_queue.{kind}.omitted expected {omitted}, observed {row.get('omitted')!r}")
+            if bool(row.get("truncated")) != bool(omitted):
+                errors.append(f"owner_clearance_queue.{kind}.truncated expected {bool(omitted)}, observed {row.get('truncated')!r}")
+            if display_limit < len(displayed):
+                errors.append(
+                    f"owner_clearance_queue.{kind}.display_limit {display_limit} is smaller than displayed rows {len(displayed)}"
+                )
+
+    git = summary.get("git")
+    if isinstance(git, dict):
+        dirty_pack_names_value = git.get("dirty_pack_names", [])
+        dirty_pack_paths_value = git.get("dirty_pack_paths", [])
+        dirty_root_lines_value = git.get("dirty_root_lines", [])
+        dirty_root_paths_value = git.get("dirty_root_paths", [])
+        dirty_root_tracked_paths_value = git.get("dirty_root_tracked_paths", [])
+        dirty_root_untracked_paths_value = git.get("dirty_root_untracked_paths", [])
+        dirty_pack_names_list = dirty_pack_names_value if isinstance(dirty_pack_names_value, list) else []
+        dirty_pack_paths_list = dirty_pack_paths_value if isinstance(dirty_pack_paths_value, list) else []
+        dirty_root_lines_list = dirty_root_lines_value if isinstance(dirty_root_lines_value, list) else []
+        dirty_root_paths_list = dirty_root_paths_value if isinstance(dirty_root_paths_value, list) else []
+        dirty_root_tracked_paths_list = (
+            dirty_root_tracked_paths_value if isinstance(dirty_root_tracked_paths_value, list) else []
+        )
+        dirty_root_untracked_paths_list = (
+            dirty_root_untracked_paths_value if isinstance(dirty_root_untracked_paths_value, list) else []
+        )
+        if int(git.get("dirty_pack_count", len(dirty_pack_names_list))) != len(dirty_pack_names_list):
+            errors.append("git.dirty_pack_count does not match dirty_pack_names")
+        if int(git.get("dirty_pack_path_count", len(dirty_pack_paths_list))) != len(dirty_pack_paths_list):
+            errors.append("git.dirty_pack_path_count does not match dirty_pack_paths")
+        if int(git.get("dirty_root_count", len(dirty_root_lines_list))) != len(dirty_root_lines_list):
+            errors.append("git.dirty_root_count does not match dirty_root_lines")
+        if int(git.get("dirty_root_path_count", len(dirty_root_paths_list))) != len(dirty_root_paths_list):
+            errors.append("git.dirty_root_path_count does not match dirty_root_paths")
+        if int(git.get("dirty_root_tracked_path_count", len(dirty_root_tracked_paths_list))) != len(dirty_root_tracked_paths_list):
+            errors.append("git.dirty_root_tracked_path_count does not match dirty_root_tracked_paths")
+        if int(git.get("dirty_root_untracked_path_count", len(dirty_root_untracked_paths_list))) != len(dirty_root_untracked_paths_list):
+            errors.append("git.dirty_root_untracked_path_count does not match dirty_root_untracked_paths")
+        if unique_ordered([str(path) for path in dirty_root_tracked_paths_list + dirty_root_untracked_paths_list]) != [
+            str(path) for path in dirty_root_paths_list
+        ]:
+            errors.append("git dirty root tracked/untracked paths do not reconcile to dirty_root_paths")
+        expected_root_command = git_add_command([str(path) for path in dirty_root_paths_list])
+        if str(git.get("dirty_root_pathspec_command", "")) != expected_root_command:
+            errors.append("git.dirty_root_pathspec_command does not match dirty_root_paths")
+        for path in dirty_pack_paths_list:
+            if not pack_from_path(str(path)).endswith("-Skills"):
+                errors.append(f"git.dirty_pack_paths contains non-pack path {path}")
+        for path in dirty_root_paths_list:
+            if pack_from_path(str(path)).endswith("-Skills"):
+                errors.append(f"git.dirty_root_paths contains pack path {path}")
+        for path in dirty_root_tracked_paths_list:
+            if pack_from_path(str(path)).endswith("-Skills"):
+                errors.append(f"git.dirty_root_tracked_paths contains pack path {path}")
+        for path in dirty_root_untracked_paths_list:
+            if pack_from_path(str(path)).endswith("-Skills"):
+                errors.append(f"git.dirty_root_untracked_paths contains pack path {path}")
+
+        units = summary.get("publish_units")
+        if isinstance(units, dict):
+            expected_units = publish_units_from_git(git)
+            root_unit = units.get("root_tooling")
+            pack_unit = units.get("pack_content")
+            if not isinstance(root_unit, dict):
+                errors.append("publish_units.root_tooling missing")
+            else:
+                expected_root = expected_units["root_tooling"]
+                for key in (
+                    "status",
+                    "paths",
+                    "path_count",
+                    "tracked_paths",
+                    "tracked_path_count",
+                    "untracked_paths",
+                    "untracked_path_count",
+                    "staging_command",
+                ):
+                    if root_unit.get(key) != expected_root.get(key):
+                        errors.append(f"publish_units.root_tooling.{key} does not match git dirty root paths")
+            if not isinstance(pack_unit, dict):
+                errors.append("publish_units.pack_content missing")
+            else:
+                expected_pack = expected_units["pack_content"]
+                for key in ("status", "packs", "pack_count", "paths", "path_count"):
+                    if pack_unit.get(key) != expected_pack.get(key):
+                        errors.append(f"publish_units.pack_content.{key} does not match git dirty pack paths")
+
+    return errors
+
+
+def loop_control_fixture(
+    *,
+    score_candidates: list[dict[str, Any]] | None = None,
+    source_candidates: list[dict[str, Any]] | None = None,
+    bridge_candidates: list[dict[str, Any]] | None = None,
+    dirty_skipped: list[dict[str, Any]] | None = None,
+    sensitive_packs: dict[str, str] | None = None,
+    sensitive_targets: list[dict[str, str]] | None = None,
+    missing_bridge: list[dict[str, Any]] | None = None,
+) -> dict[str, Any]:
+    summary: dict[str, Any] = {
+        "candidate_pool": {
+            "score_unclaimed": score_candidates or [],
+            "source_map_unclaimed": source_candidates or [],
+            "execution_bridge_unclaimed": bridge_candidates or [],
+            "dirty_skipped_packs": dirty_skipped or [],
+        },
+        "claims": {
+            "present": True,
+            "path": ".maintenance/CLAIMS.md",
+            "line_count": 3,
+            "row_count": 1,
+            "active_row_count": 1,
+            "fingerprint": "fixture",
+            "sensitive_packs": sensitive_packs or {},
+            "sensitive_current_targets": sensitive_targets or [],
+        },
+        "execution_bridge": {
+            "missing_packs": missing_bridge or [],
+        },
+        "worklog": {
+            "status": "OK",
+            "path": ".maintenance/MONTHLY-UPLIFT-2026-06-27.md",
+            "loop_count": 35,
+            "latest_heading": "### 2026-06-27 - Fixture Loop",
+            "errors": [],
+        },
+        **command_plan_summary(),
+    }
+    summary["loop_control"] = {**expected_loop_control(summary), "reason": "fixture"}
+    summary["owner_clearance_queue"] = owner_clearance_queue(summary)
+    return summary
+
+
+def handoff_fixture() -> dict[str, Any]:
+    summary = loop_control_fixture(
+        score_candidates=[
+            {
+                "pack": "Unclaimed-Pack",
+                "score": 90.0,
+                "weakest_skill": "Unclaimed-Pack/skills/fixture/SKILL.md",
+            }
+        ]
+    )
+    summary.update(
+        {
+            "generated_at": "2026-06-27T00:00:00-07:00",
+            "counts": {"skills": 2902, "packs": 195, "root_entries": 200},
+            "quality": {
+                "pack_count": 195,
+                "mean": 93.6,
+                "min": 90.0,
+                "below_target": 0,
+                "worst": [
+                    {
+                        "score": 90.0,
+                        "pack": "Fixture-Pack",
+                        "weak_skills": [{"path": "Fixture-Pack/skills/fixture/SKILL.md"}],
+                    }
+                ],
+            },
+            "source_maps": {
+                "map_count": 194,
+                "warnings": 0,
+                "max_unresolved": 14,
+                "highest_unresolved": [
+                    {
+                        "unresolved_flags": 14,
+                        "path": "Fixture-Pack/resources/official-source-map.md",
+                    }
+                ],
+            },
+            "root_entries": {"entry_count": 200, "enriched": 200, "machine_only": 0, "warnings": 0},
+            "execution_bridge": {"empirical_depth_packs": 134, "wired": 131, "missing": 3, "missing_packs": []},
+            "clone_audit": None,
+            "git": {
+                "branch": "## main...origin/main",
+                "dirty_lines": [" M tools/monthly_uplift_report.py"],
+                "dirty_count": 1,
+                "dirty_pack_names": [],
+                "dirty_pack_count": 0,
+                "dirty_pack_paths": [],
+                "dirty_pack_path_count": 0,
+                "dirty_root_lines": [" M tools/monthly_uplift_report.py"],
+                "dirty_root_count": 1,
+                "dirty_root_paths": ["tools/monthly_uplift_report.py"],
+                "dirty_root_path_count": 1,
+                "dirty_root_tracked_paths": ["tools/monthly_uplift_report.py"],
+                "dirty_root_tracked_path_count": 1,
+                "dirty_root_untracked_paths": [],
+                "dirty_root_untracked_path_count": 0,
+                "dirty_root_pathspec_command": "git add -- tools/monthly_uplift_report.py",
+            },
+            "targets": {"score_floor": 90.0, "clone_fail_threshold": 0.90, "display_limit": 20},
+            **schema_summary(),
+        }
+    )
+    summary.update(worktree_boundary_summary(summary["git"]))
+    summary["publish_units"] = publish_units_from_git(summary["git"])
+    summary.update(content_edit_policy_summary(summary))
+    summary.update(remaining_debt_summary(summary))
+    summary.update(next_batch_plan_summary(summary))
+    summary.update(publish_policy_summary(summary))
+    summary.update(goal_progress_summary(summary))
+    summary.update(completion_audit_summary(summary))
+    summary.update(handoff_manifest_summary(summary))
+    return summary
+
+
+def self_test_errors() -> list[str]:
+    errors: list[str] = []
+    cases = [
+        (
+            "content-candidates",
+            loop_control_fixture(score_candidates=[{"pack": "Unclaimed-Pack"}]),
+            {"status": "content-candidates", "next_lane": "content", "unclaimed_score_candidates": 1},
+        ),
+        (
+            "bridge-content-candidates",
+            loop_control_fixture(
+                bridge_candidates=[
+                    {
+                        "pack": "Bridge-Pack",
+                        "score": 91.0,
+                        "current_bridge_links": 0,
+                        "weakest_skill": "Bridge-Pack/skills/fixture/SKILL.md",
+                    }
+                ],
+                missing_bridge=[{"pack": "Bridge-Pack"}],
+            ),
+            {
+                "status": "content-candidates",
+                "next_lane": "content",
+                "unclaimed_execution_bridge_candidates": 1,
+            },
+        ),
+        (
+            "owner-clearance-needed",
+            loop_control_fixture(
+                sensitive_packs={"Claimed-Pack": "claimed"},
+                sensitive_targets=[
+                    {"kind": "score-floor", "pack": "Claimed-Pack", "reason": "claimed"},
+                    {"kind": "execution-bridge", "pack": "Claimed-Pack", "reason": "claimed"},
+                ],
+                missing_bridge=[{"pack": "Claimed-Pack"}],
+            ),
+            {
+                "status": "owner-clearance-needed",
+                "next_lane": "tooling-or-owner-clearance",
+                "claim_sensitive_score_targets": 1,
+                "claim_sensitive_execution_bridge_targets": 1,
+                "unclaimed_execution_bridge_candidates": 0,
+            },
+        ),
+        (
+            "monitoring-tooling",
+            loop_control_fixture(),
+            {"status": "monitoring-tooling", "next_lane": "tooling"},
+        ),
+    ]
+
+    for name, summary, expected in cases:
+        observed_errors = validate_summary(summary)
+        if observed_errors:
+            errors.append(f"{name}: expected no validation errors, got {observed_errors}")
+        loop_control = summary["loop_control"]
+        for key, value in expected.items():
+            if loop_control.get(key) != value:
+                errors.append(f"{name}: loop_control.{key} expected {value!r}, observed {loop_control.get(key)!r}")
+
+    stale_measurement_plan = handoff_fixture()
+    stale_measurement_plan["measurement_commands"] = ["python3 tools/audit_repo.py --counts"]
+    if not any("measurement_commands" in error for error in validate_summary(stale_measurement_plan)):
+        errors.append("stale measurement command plan was not rejected")
+
+    stale_validation_plan = handoff_fixture()
+    stale_validation_plan["validation_commands"] = list(NEXT_LOOP_VALIDATION_COMMANDS[:-1])
+    if not any("validation_commands" in error for error in validate_summary(stale_validation_plan)):
+        errors.append("stale validation command plan was not rejected")
+
+    stale_command_plan_metadata = handoff_fixture()
+    stale_command_plan_metadata["command_plan"] = {
+        **stale_command_plan_metadata["command_plan"],
+        "fingerprint": "stale",
+    }
+    if not any("command_plan.fingerprint" in error for error in validate_summary(stale_command_plan_metadata)):
+        errors.append("stale command-plan fingerprint was not rejected")
+
+    missing_schema = handoff_fixture()
+    missing_schema.pop("schema", None)
+    if not any("schema" in error for error in validate_summary(missing_schema)):
+        errors.append("missing dashboard schema was not rejected")
+
+    stale_schema = handoff_fixture()
+    stale_schema["schema"] = {**stale_schema["schema"], "version": 0}
+    if not any("schema.version" in error for error in validate_summary(stale_schema)):
+        errors.append("stale dashboard schema version was not rejected")
+
+    stale_worktree_boundary = handoff_fixture()
+    stale_worktree_boundary["worktree_boundary"] = {
+        **stale_worktree_boundary["worktree_boundary"],
+        "fingerprint": "stale",
+    }
+    if not any("worktree_boundary.fingerprint" in error for error in validate_summary(stale_worktree_boundary)):
+        errors.append("stale worktree-boundary fingerprint was not rejected")
+
+    stale_handoff_manifest = handoff_fixture()
+    stale_handoff_manifest["handoff_manifest"] = {
+        **stale_handoff_manifest["handoff_manifest"],
+        "fingerprint": "stale",
+    }
+    if not any("handoff_manifest.fingerprint" in error for error in validate_summary(stale_handoff_manifest)):
+        errors.append("stale handoff-manifest fingerprint was not rejected")
+
+    stale_handoff_manifest_contract = handoff_fixture()
+    stale_handoff_manifest_contract["handoff_manifest"] = {
+        **stale_handoff_manifest_contract["handoff_manifest"],
+        "contract": "stale",
+    }
+    if not any("handoff_manifest.contract" in error for error in validate_summary(stale_handoff_manifest_contract)):
+        errors.append("stale handoff-manifest contract was not rejected")
+
+    stale_handoff_manifest_completion = handoff_fixture()
+    stale_handoff_manifest_completion["handoff_manifest"] = {
+        **stale_handoff_manifest_completion["handoff_manifest"],
+        "completion_audit_requirement_count": 99,
+    }
+    if not any("handoff_manifest.completion_audit_requirement_count" in error for error in validate_summary(stale_handoff_manifest_completion)):
+        errors.append("stale handoff-manifest completion requirement count was not rejected")
+
+    stale_content_policy = handoff_fixture()
+    stale_content_policy["content_edit_policy"] = {
+        **stale_content_policy["content_edit_policy"],
+        "fingerprint": "stale",
+    }
+    if not any("content_edit_policy.fingerprint" in error for error in validate_summary(stale_content_policy)):
+        errors.append("stale content-edit policy fingerprint was not rejected")
+
+    stale_remaining_debt = handoff_fixture()
+    stale_remaining_debt["remaining_debt"] = {
+        **stale_remaining_debt["remaining_debt"],
+        "fingerprint": "stale",
+    }
+    if not any("remaining_debt.fingerprint" in error for error in validate_summary(stale_remaining_debt)):
+        errors.append("stale remaining-debt fingerprint was not rejected")
+
+    stale_publish_policy = handoff_fixture()
+    stale_publish_policy["publish_policy"] = {
+        **stale_publish_policy["publish_policy"],
+        "fingerprint": "stale",
+    }
+    if not any("publish_policy.fingerprint" in error for error in validate_summary(stale_publish_policy)):
+        errors.append("stale publish-policy fingerprint was not rejected")
+
+    stale_goal_progress = handoff_fixture()
+    stale_goal_progress["goal_progress"] = {
+        **stale_goal_progress["goal_progress"],
+        "fingerprint": "stale",
+    }
+    if not any("goal_progress.fingerprint" in error for error in validate_summary(stale_goal_progress)):
+        errors.append("stale goal-progress fingerprint was not rejected")
+
+    stale_completion_audit = handoff_fixture()
+    stale_completion_audit["completion_audit"] = {
+        **stale_completion_audit["completion_audit"],
+        "fingerprint": "stale",
+    }
+    if not any("completion_audit.fingerprint" in error for error in validate_summary(stale_completion_audit)):
+        errors.append("stale completion-audit fingerprint was not rejected")
+
+    valid_next_batch_plan = handoff_fixture()
+    valid_next_batch_plan.update(remaining_debt_summary(valid_next_batch_plan))
+    valid_next_batch_plan.update(next_batch_plan_summary(valid_next_batch_plan))
+    valid_next_batch_plan.update(publish_policy_summary(valid_next_batch_plan))
+    valid_next_batch_plan.update(goal_progress_summary(valid_next_batch_plan))
+    valid_next_batch_plan.update(completion_audit_summary(valid_next_batch_plan))
+    valid_next_batch_plan.update(handoff_manifest_summary(valid_next_batch_plan))
+    next_batch_errors = validate_summary(valid_next_batch_plan)
+    if next_batch_errors:
+        errors.append(f"valid next-batch plan fixture failed: {next_batch_errors}")
+
+    stale_next_batches = handoff_fixture()
+    stale_next_batches.update(remaining_debt_summary(stale_next_batches))
+    stale_next_batches.update(next_batch_plan_summary(stale_next_batches))
+    stale_next_batches["next_batches"] = ["stale next batch"]
+    if not any("next_batches" in error for error in validate_summary(stale_next_batches)):
+        errors.append("stale next-batch list was not rejected")
+
+    stale_next_batch_metadata = handoff_fixture()
+    stale_next_batch_metadata.update(remaining_debt_summary(stale_next_batch_metadata))
+    stale_next_batch_metadata.update(next_batch_plan_summary(stale_next_batch_metadata))
+    stale_next_batch_metadata["next_batch_plan"] = {
+        **stale_next_batch_metadata["next_batch_plan"],
+        "fingerprint": "stale",
+    }
+    if not any("next_batch_plan.fingerprint" in error for error in validate_summary(stale_next_batch_metadata)):
+        errors.append("stale next-batch fingerprint was not rejected")
+
+    dirty_score = loop_control_fixture(
+        score_candidates=[{"pack": "Dirty-Pack"}],
+        dirty_skipped=[{"pack": "Dirty-Pack"}],
+    )
+    if not any("already dirty" in error for error in validate_summary(dirty_score)):
+        errors.append("dirty score candidate was not rejected")
+
+    dirty_source = loop_control_fixture(
+        source_candidates=[{"path": "Dirty-Pack/resources/official-source-map.md"}],
+        dirty_skipped=[{"pack": "Dirty-Pack"}],
+    )
+    if not any("already dirty" in error for error in validate_summary(dirty_source)):
+        errors.append("dirty source-map candidate was not rejected")
+
+    sensitive_score = loop_control_fixture(
+        score_candidates=[{"pack": "Sensitive-Pack"}],
+        sensitive_packs={"Sensitive-Pack": "claimed"},
+    )
+    if not any("claim-sensitive" in error for error in validate_summary(sensitive_score)):
+        errors.append("claim-sensitive score candidate was not rejected")
+
+    sensitive_source = loop_control_fixture(
+        source_candidates=[{"path": "Sensitive-Pack/resources/official-source-map.md"}],
+        sensitive_packs={"Sensitive-Pack": "claimed"},
+    )
+    if not any("claim-sensitive" in error for error in validate_summary(sensitive_source)):
+        errors.append("claim-sensitive source-map candidate was not rejected")
+
+    dirty_bridge = loop_control_fixture(
+        bridge_candidates=[{"pack": "Dirty-Pack"}],
+        dirty_skipped=[{"pack": "Dirty-Pack"}],
+        missing_bridge=[{"pack": "Dirty-Pack"}],
+    )
+    if not any("already dirty" in error for error in validate_summary(dirty_bridge)):
+        errors.append("dirty execution-bridge candidate was not rejected")
+
+    sensitive_bridge = loop_control_fixture(
+        bridge_candidates=[{"pack": "Sensitive-Pack"}],
+        sensitive_packs={"Sensitive-Pack": "claimed"},
+        missing_bridge=[{"pack": "Sensitive-Pack"}],
+    )
+    if not any("claim-sensitive" in error for error in validate_summary(sensitive_bridge)):
+        errors.append("claim-sensitive execution-bridge candidate was not rejected")
+
+    stale_bridge = loop_control_fixture(
+        bridge_candidates=[{"pack": "Stale-Pack"}],
+        missing_bridge=[],
+    )
+    if not any("not in the missing bridge tail" in error for error in validate_summary(stale_bridge)):
+        errors.append("stale execution-bridge candidate was not rejected")
+
+    handoff_summary = handoff_fixture()
+    rendered_handoff = handoff(handoff_summary)
+    for expected_text in (
+        "# Monthly Uplift Handoff",
+        "Status: `content-candidates`",
+        "Worklog: OK; 35 loops; latest ### 2026-06-27 - Fixture Loop",
+        "Claims boundary: .maintenance/CLAIMS.md; 1 rows; 1 active; 3 lines; sha256 fixture",
+        "Working tree: ## main...origin/main with 1 dirty entries (0 pack lanes, 1 root/tooling entries)",
+        "Dashboard schema: monthly_uplift_report v9; monthly-uplift-dashboard-v9",
+        "Worktree boundary: 1 dirty / 0 pack lanes / 1 root-tooling entries; sha256",
+        "Content-edit policy: content-allowed; content allowed; next content; 1 unclaimed / 0 claim-sensitive; 0 dirty pack lanes; sha256",
+        "Remaining debt: unclaimed-candidates; 1 unclaimed / 0 owner-clearance; 0 dirty pack lanes; bridge 3 missing; source max unresolved 14; sha256",
+        "Publish policy: local-only-root-tooling; local-only; root 1 paths; packs 0 lanes empty; path-scoped staging required; sha256",
+        "Goal progress: active-partial-clone-skipped; core OK; worklog 35 loops; clone skipped; bridge 131/134; next content; sha256",
+        "Completion audit: not-complete; action none; 12 requirements; 10 OK / 0 triaged / 2 review; 3 blockers; sha256",
+        "Handoff manifest: content-candidates -> content; root 1 paths; packs 0 lanes; completion 12 req / 3 blockers; sha256",
+        f"Command plan: {command_plan_line(handoff_summary)}",
+        "Next-batch plan:",
+        "## Dirty Boundary",
+        "Dirty pack lanes: none",
+        "Root/tooling dirty entries: `M tools/monthly_uplift_report.py`",
+        "Root/tooling paths: `tools/monthly_uplift_report.py`",
+        "Root/tooling tracked paths: `tools/monthly_uplift_report.py`",
+        "Root/tooling untracked paths: none",
+        "Root/tooling staging preview: `git add -- tools/monthly_uplift_report.py`",
+        "## Publish Units",
+        "Root/tooling unit: ready; 1 paths (1 tracked, 0 untracked)",
+        "Root/tooling command: `git add -- tools/monthly_uplift_report.py`",
+        "Pack content units: empty; 0 pack lanes",
+        "## Measurement Commands",
+        "python3 tools/audit_repo.py --counts",
+        "python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20",
+        "python3 tools/run_checks.py --skip-reports",
+        "`python3 tools/run_checks.py`",
+        "python3 tools/monthly_uplift_report.py --check-worklog latest",
+    ):
+        if expected_text not in rendered_handoff:
+            errors.append(f"handoff output missing {expected_text!r}")
+
+    bad_worklog = loop_control_fixture()
+    bad_worklog["worklog"] = {
+        "status": "Review",
+        "path": ".maintenance/MONTHLY-UPLIFT-2026-06-27.md",
+        "loop_count": 0,
+        "latest_heading": "",
+        "errors": ["fixture worklog failure"],
+    }
+    if not any("fixture worklog failure" in error for error in validate_summary(bad_worklog)):
+        errors.append("worklog summary failure was not rejected")
+
+    missing_claims = loop_control_fixture()
+    missing_claims["claims"] = {
+        "present": False,
+        "path": ".maintenance/CLAIMS.md",
+        "line_count": 0,
+        "row_count": 0,
+        "active_row_count": 0,
+        "fingerprint": "",
+        "sensitive_packs": {},
+        "sensitive_current_targets": [],
+    }
+    missing_claims["owner_clearance_queue"] = owner_clearance_queue(missing_claims)
+    missing_claim_errors = validate_summary(missing_claims)
+    if not any("claims boundary" in error for error in missing_claim_errors):
+        errors.append(f"missing claims boundary was not rejected: {missing_claim_errors}")
+
+    broken_git_paths = handoff_fixture()
+    broken_git_paths["git"] = {
+        **broken_git_paths["git"],
+        "dirty_root_paths": ["Dirty-Pack-Skills/skills/fixture/SKILL.md"],
+        "dirty_root_path_count": 1,
+        "dirty_root_tracked_paths": ["tools/monthly_uplift_report.py"],
+        "dirty_root_tracked_path_count": 1,
+        "dirty_root_untracked_paths": [],
+        "dirty_root_untracked_path_count": 0,
+        "dirty_root_pathspec_command": "git add -- tools/monthly_uplift_report.py",
+    }
+    if not any("dirty_root_paths contains pack path" in error for error in validate_summary(broken_git_paths)):
+        errors.append("pack path in dirty_root_paths was not rejected")
+    if not any("dirty_root_pathspec_command" in error for error in validate_summary(broken_git_paths)):
+        errors.append("dirty_root_pathspec_command mismatch was not rejected")
+
+    broken_publish_units = handoff_fixture()
+    broken_publish_units["publish_units"] = publish_units_from_git(broken_publish_units["git"])
+    broken_publish_units["publish_units"]["root_tooling"] = {
+        **broken_publish_units["publish_units"]["root_tooling"],
+        "path_count": 99,
+    }
+    if not any("publish_units.root_tooling.path_count" in error for error in validate_summary(broken_publish_units)):
+        errors.append("broken publish-unit root path count was not rejected")
+
+    rendered_markdown = markdown(handoff_fixture())
+    for expected_text in (
+        "| Worklog | OK; 35 loops; latest `### 2026-06-27 - Fixture Loop` |",
+        "| Claims boundary | .maintenance/CLAIMS.md; 1 rows; 1 active; 3 lines; sha256 fixture |",
+        "| Dashboard schema | monthly_uplift_report v9; monthly-uplift-dashboard-v9 |",
+        "| Worktree boundary | 1 dirty / 0 pack lanes / 1 root-tooling entries; sha256",
+        "| Content-edit policy | content-allowed; content allowed; next content; 1 unclaimed / 0 claim-sensitive; 0 dirty pack lanes; sha256",
+        "| Remaining debt | unclaimed-candidates; 1 unclaimed / 0 owner-clearance; 0 dirty pack lanes; bridge 3 missing; source max unresolved 14; sha256",
+        "| Publish policy | local-only-root-tooling; local-only; root 1 paths; packs 0 lanes empty; path-scoped staging required; sha256",
+        "| Goal progress | active-partial-clone-skipped; core OK; worklog 35 loops; clone skipped; bridge 131/134; next content; sha256",
+        "| Completion audit | not-complete; action none; 12 requirements; 10 OK / 0 triaged / 2 review; 3 blockers; sha256",
+        "| Handoff manifest | content-candidates -> content; root 1 paths; packs 0 lanes; completion 12 req / 3 blockers; sha256",
+        "| Command plan | 6 measurement / 10 validation; sha256",
+        "| Next-batch plan |",
+        "| Worklog health | OK | OK; 35 loops; latest ### 2026-06-27 - Fixture Loop |",
+        "| Claims boundary | OK | .maintenance/CLAIMS.md; 1 rows; 1 active; 3 lines; sha256 fixture |",
+        "## Dirty Boundary Review",
+        "Root/tooling dirty entries: `M tools/monthly_uplift_report.py`",
+        "Root/tooling paths: `tools/monthly_uplift_report.py`",
+        "Root/tooling tracked paths: `tools/monthly_uplift_report.py`",
+        "Root/tooling untracked paths: none",
+        "Root/tooling staging preview: `git add -- tools/monthly_uplift_report.py`",
+        "## Publish Unit Review",
+        "Root/tooling unit: ready; 1 paths (1 tracked, 0 untracked)",
+        "Pack content units: empty; 0 pack lanes",
+        "## Measurement Commands",
+        "python3 tools/audit_repo.py --counts",
+        "python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20",
+    ):
+        if expected_text not in rendered_markdown:
+            errors.append(f"markdown output missing {expected_text!r}")
+
+    rendered_publish_plan = publish_plan(handoff_fixture())
+    for expected_text in (
+        "# Local Publish Plan",
+        "Status: `local-only-root-tooling`",
+        "Publish requested: `false`",
+        "Local-only recommended: `true`",
+        "Allowed unit: `root_tooling`",
+        "Blocked unit: `pack_content`",
+        "Publish policy: local-only-root-tooling; local-only; root 1 paths; packs 0 lanes empty; path-scoped staging required; sha256",
+        "Worktree boundary: 1 dirty / 0 pack lanes / 1 root-tooling entries; sha256",
+        "## Allowed Root/Tooling Unit",
+        "Root/tooling: ready; 1 paths",
+        "Staging command: `git add -- tools/monthly_uplift_report.py`",
+        "`tools/monthly_uplift_report.py`",
+        "## Blocked Pack Content Unit",
+        "Pack content: empty; 0 pack lanes",
+        "## Required Pre-Publish Checks",
+        "No git commands are executed by this plan.",
+    ):
+        if expected_text not in rendered_publish_plan:
+            errors.append(f"publish-plan output missing {expected_text!r}")
+
+    rendered_debt_audit = debt_audit(handoff_fixture())
+    for expected_text in (
+        "# Remaining Debt Audit",
+        "Status: `unclaimed-candidates`",
+        "Content-edit policy: content-allowed; content allowed; next content; 1 unclaimed / 0 claim-sensitive; 0 dirty pack lanes; sha256",
+        "Remaining debt: unclaimed-candidates; 1 unclaimed / 0 owner-clearance; 0 dirty pack lanes; bridge 3 missing; source max unresolved 14; sha256",
+        "Owner-clearance queue: 0 targets; sha256",
+        "| Score floor | 1 | 0 | lowest 90.0; below target 0 |",
+        "| Source-map | 0 | 0 | warnings 0; max unresolved 14 |",
+        "| Execution bridge | 0 | 0 | 131/134 wired; 3 missing |",
+        "## Ownership Boundary",
+        "## Validation Commands",
+    ):
+        if expected_text not in rendered_debt_audit:
+            errors.append(f"debt-audit output missing {expected_text!r}")
+
+    rendered_goal_audit = goal_audit(handoff_fixture())
+    for expected_text in (
+        "# Goal Completion Audit",
+        "Completion status: `not-complete`",
+        "Goal status action: none",
+        "Completion audit: not-complete; action none; 12 requirements; 10 OK / 0 triaged / 2 review; 3 blockers; sha256",
+        "Goal progress: active-partial-clone-skipped; core OK; worklog 35 loops; clone skipped; bridge 131/134; next content; sha256",
+        "| Durable worklog | OK | 35 loops; latest ### 2026-06-27 - Fixture Loop |",
+        "| Remaining debt register | Review | 1 unclaimed; 0 owner-clearance; 0 dirty pack lanes; debt sha256",
+        "| Owner-clearance queue | OK | 0 owner-clearance targets; queue sha256",
+        "| Clone threshold | Needs full gate | clone audit skipped |",
+        "| Future candidates | OK |",
+        "Full clone audit is required before a completion claim.",
+        "No goal status is changed by this audit.",
+    ):
+        if expected_text not in rendered_goal_audit:
+            errors.append(f"goal-audit output missing {expected_text!r}")
+
+    dirty_handoff = handoff_fixture()
+    dirty_handoff["candidate_pool"] = {
+        **dirty_handoff.get("candidate_pool", {}),
+        "dirty_skipped_packs": [{"pack": f"Dirty-Pack-{index}"} for index in range(10)],
+    }
+    dirty_handoff["loop_control"] = {**expected_loop_control(dirty_handoff), "reason": "fixture"}
+    dirty_handoff.update(content_edit_policy_summary(dirty_handoff))
+    dirty_handoff.update(remaining_debt_summary(dirty_handoff))
+    dirty_handoff.update(next_batch_plan_summary(dirty_handoff))
+    dirty_handoff.update(publish_policy_summary(dirty_handoff))
+    dirty_handoff.update(goal_progress_summary(dirty_handoff))
+    dirty_handoff.update(completion_audit_summary(dirty_handoff))
+    dirty_handoff.update(handoff_manifest_summary(dirty_handoff))
+    rendered_dirty_handoff = handoff(dirty_handoff)
+    if "Dirty-Pack-7; +2 more" not in rendered_dirty_handoff:
+        errors.append("handoff dirty-skipped truncation did not include remaining count")
+
+    baseline = handoff_fixture()
+    current = handoff_fixture()
+    current["quality"] = {**current["quality"], "min": 91.0}
+    current["execution_bridge"] = {**current["execution_bridge"], "wired": 132, "missing": 2}
+    current["claims"] = {**current["claims"], "fingerprint": "fixture-next"}
+    current["candidate_pool"] = {
+        **current["candidate_pool"],
+        "dirty_skipped_packs": [{"pack": f"Dirty-Pack-{index}"} for index in range(3)],
+    }
+    current["loop_control"] = {**expected_loop_control(current), "reason": "fixture"}
+    current["worklog"] = {**current["worklog"], "loop_count": 36}
+    current["git"] = {
+        **current["git"],
+        "dirty_lines": [
+            " M Dirty-Pack-Skills/skills/fixture/SKILL.md",
+            " M tools/monthly_uplift_report.py",
+            "?? .maintenance/MONTHLY-UPLIFT-2026-06-27.md",
+        ],
+        "dirty_count": 3,
+        "dirty_pack_names": ["Dirty-Pack-Skills"],
+        "dirty_pack_count": 1,
+        "dirty_pack_paths": ["Dirty-Pack-Skills/skills/fixture/SKILL.md"],
+        "dirty_pack_path_count": 1,
+        "dirty_root_lines": [
+            " M tools/monthly_uplift_report.py",
+            "?? .maintenance/MONTHLY-UPLIFT-2026-06-27.md",
+        ],
+        "dirty_root_count": 2,
+        "dirty_root_paths": [
+            "tools/monthly_uplift_report.py",
+            ".maintenance/MONTHLY-UPLIFT-2026-06-27.md",
+        ],
+        "dirty_root_path_count": 2,
+        "dirty_root_tracked_paths": ["tools/monthly_uplift_report.py"],
+        "dirty_root_tracked_path_count": 1,
+        "dirty_root_untracked_paths": [".maintenance/MONTHLY-UPLIFT-2026-06-27.md"],
+        "dirty_root_untracked_path_count": 1,
+        "dirty_root_pathspec_command": (
+            "git add -- tools/monthly_uplift_report.py "
+            ".maintenance/MONTHLY-UPLIFT-2026-06-27.md"
+        ),
+    }
+    current.update(worktree_boundary_summary(current["git"]))
+    current["publish_units"] = publish_units_from_git(current["git"])
+    current.update(content_edit_policy_summary(current))
+    current.update(remaining_debt_summary(current))
+    current.update(next_batch_plan_summary(current))
+    current.update(publish_policy_summary(current))
+    current.update(goal_progress_summary(current))
+    current.update(completion_audit_summary(current))
+    current.update(handoff_manifest_summary(current))
+    current["delta"] = compare_delta(baseline, current)
+    rendered_delta = handoff(current)
+    for expected_text in (
+        "## Trajectory Delta",
+        "Quality min: 90.0 -> 91.0 (+1.0)",
+        "Execution bridge missing: 3 -> 2 (-1)",
+        "Dirty skipped packs: 0 -> 3 (+3)",
+        "Worklog loops: 35 -> 36 (+1)",
+        "Git dirty entries: 1 -> 3 (+2)",
+        "Git dirty pack lanes: 0 -> 1 (+1)",
+        "Git dirty root/tooling entries: 1 -> 2 (+1)",
+        "Command plan measurement commands: 6 -> 6 (0)",
+        "Command plan validation commands: 10 -> 10 (0)",
+        "Dirty pack lanes: Dirty-Pack-Skills",
+        "Root/tooling dirty entries: `M tools/monthly_uplift_report.py`; `?? .maintenance/MONTHLY-UPLIFT-2026-06-27.md`",
+        "Root/tooling paths: `tools/monthly_uplift_report.py`; `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`",
+        "Root/tooling tracked paths: `tools/monthly_uplift_report.py`",
+        "Root/tooling untracked paths: `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`",
+        "Root/tooling staging preview: `git add -- tools/monthly_uplift_report.py .maintenance/MONTHLY-UPLIFT-2026-06-27.md`",
+        "Claims boundary fingerprint: fixture -> fixture-next (changed)",
+    ):
+        if expected_text not in rendered_delta:
+            errors.append(f"delta handoff output missing {expected_text!r}")
+    rendered_delta_markdown = markdown(current)
+    if "| Claims boundary fingerprint | fixture | fixture-next | changed |" not in rendered_delta_markdown:
+        errors.append("delta markdown output missing claims fingerprint row")
+    rendered_delta_worklog = worklog_template(current)
+    if "Claims boundary fingerprint: fixture -> fixture-next (changed)." not in rendered_delta_worklog:
+        errors.append("delta worklog-template output missing claims fingerprint line")
+
+    clearance = handoff_fixture()
+    clearance["claims"] = {
+        "sensitive_packs": {"Claimed-Pack": "Agent A queued"},
+        "sensitive_current_targets": [
+            {"kind": "score-floor", "pack": "Claimed-Pack", "reason": "Agent A queued"},
+            {"kind": "execution-bridge", "pack": "Claimed-Pack", "reason": "Agent A queued"},
+        ],
+    }
+    clearance["execution_bridge"] = {
+        **clearance["execution_bridge"],
+        "missing_packs": [{"pack": "Claimed-Pack", "score": 90.0, "exec_bridge_skills": 0}],
+    }
+    clearance["loop_control"] = {**expected_loop_control(clearance), "reason": "fixture"}
+    clearance["owner_clearance_queue"] = owner_clearance_queue(clearance)
+    clearance.update(content_edit_policy_summary(clearance))
+    clearance.update(remaining_debt_summary(clearance))
+    clearance.update(next_batch_plan_summary(clearance))
+    clearance.update(publish_policy_summary(clearance))
+    clearance.update(goal_progress_summary(clearance))
+    clearance.update(completion_audit_summary(clearance))
+    clearance.update(handoff_manifest_summary(clearance))
+    rendered_clearance = handoff(clearance)
+    for expected_text in (
+        "## Owner Clearance Queue",
+        "Score-floor targets: Claimed-Pack (Agent A queued)",
+        "Execution-bridge targets: Claimed-Pack (Agent A queued)",
+        "Execution-bridge candidates: none unclaimed; owner clearance required for Claimed-Pack (Agent A queued)",
+    ):
+        if expected_text not in rendered_clearance:
+            errors.append(f"owner-clearance handoff output missing {expected_text!r}")
+    rendered_clearance_markdown = markdown(clearance)
+    if "get owner clearance before wiring: Claimed-Pack (Agent A queued)." not in rendered_clearance_markdown:
+        errors.append("owner-clearance markdown output missing bridge clearance reason")
+
+    stale_clearance_fingerprint = json.loads(json.dumps(clearance))
+    stale_clearance_fingerprint["owner_clearance_queue"] = {
+        **stale_clearance_fingerprint["owner_clearance_queue"],
+        "fingerprint": "stale",
+    }
+    if not any("owner_clearance_queue.fingerprint" in error for error in validate_summary(stale_clearance_fingerprint)):
+        errors.append("stale owner-clearance queue fingerprint was not rejected")
+
+    stale_clearance_display = json.loads(json.dumps(clearance))
+    stale_clearance_display["owner_clearance_queue"]["score-floor"]["displayed"][0]["reason"] = "stale"
+    if not any("owner_clearance_queue.score-floor.displayed" in error for error in validate_summary(stale_clearance_display)):
+        errors.append("stale owner-clearance queue displayed rows were not rejected")
+
+    clearance_overflow = handoff_fixture()
+    clearance_overflow["claims"] = {
+        "sensitive_packs": {f"Claimed-Pack-{index}": "Agent A queued" for index in range(7)},
+        "sensitive_current_targets": [
+            {"kind": "score-floor", "pack": f"Claimed-Pack-{index}", "reason": "Agent A queued"}
+            for index in range(7)
+        ],
+    }
+    clearance_overflow["loop_control"] = {**expected_loop_control(clearance_overflow), "reason": "fixture"}
+    clearance_overflow["owner_clearance_queue"] = owner_clearance_queue(clearance_overflow)
+    clearance_overflow.update(content_edit_policy_summary(clearance_overflow))
+    clearance_overflow.update(remaining_debt_summary(clearance_overflow))
+    clearance_overflow.update(next_batch_plan_summary(clearance_overflow))
+    clearance_overflow.update(publish_policy_summary(clearance_overflow))
+    clearance_overflow.update(goal_progress_summary(clearance_overflow))
+    clearance_overflow.update(completion_audit_summary(clearance_overflow))
+    clearance_overflow.update(handoff_manifest_summary(clearance_overflow))
+    rendered_overflow_handoff = handoff(clearance_overflow)
+    rendered_overflow_markdown = markdown(clearance_overflow)
+    rendered_overflow_worklog = worklog_template(clearance_overflow)
+    if "Claimed-Pack-4 (Agent A queued); +2 more" not in rendered_overflow_handoff:
+        errors.append("owner-clearance handoff overflow did not include remaining count")
+    if "`Claimed-Pack-4` (Agent A queued); +2 more" not in rendered_overflow_markdown:
+        errors.append("owner-clearance markdown overflow did not include remaining count")
+    if "Claimed-Pack-4 (Agent A queued); +2 more." not in rendered_overflow_worklog:
+        errors.append("owner-clearance worklog overflow did not include remaining count")
+
+    broken_clearance_queue = handoff_fixture()
+    broken_clearance_queue["claims"] = {
+        "sensitive_packs": {"Claimed-Pack": "Agent A queued"},
+        "sensitive_current_targets": [
+            {"kind": "score-floor", "pack": "Claimed-Pack", "reason": "Agent A queued"},
+        ],
+    }
+    broken_clearance_queue["loop_control"] = {**expected_loop_control(broken_clearance_queue), "reason": "fixture"}
+    broken_clearance_queue["owner_clearance_queue"] = {
+        "score-floor": {
+            "total": 0,
+            "display_limit": 5,
+            "displayed": [{"pack": "Claimed-Pack", "reason": "Agent A queued"}],
+            "omitted": 0,
+            "truncated": False,
+        }
+    }
+    if not any("owner_clearance_queue.score-floor.total" in error for error in validate_summary(broken_clearance_queue)):
+        errors.append("broken owner-clearance queue total was not rejected")
+
+    rendered_worklog = worklog_template(clearance)
+    for expected_text in (
+        "### 2026-06-27 - Monthly Uplift Loop",
+        "- Live metrics:",
+        "- Validation checklist:",
+        "python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20",
+        "Owner clearance queue",
+        "Root/tooling dirty entries: `M tools/monthly_uplift_report.py`",
+        "Root/tooling paths: `tools/monthly_uplift_report.py`",
+        "Root/tooling tracked paths: `tools/monthly_uplift_report.py`",
+        "Root/tooling untracked paths: none",
+        "Root/tooling staging preview: `git add -- tools/monthly_uplift_report.py`",
+        "Publish units:",
+        "Root/tooling unit: ready; 1 paths (1 tracked, 0 untracked)",
+        "Pack content units: empty; 0 pack lanes",
+        "Measurement checklist:",
+        "python3 tools/audit_repo.py --counts",
+        "python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20",
+        "Worktree boundary: 1 dirty / 0 pack lanes / 1 root-tooling entries; sha256",
+        "Content-edit policy: content-allowed; content allowed; next content; 1 unclaimed / 2 claim-sensitive; 0 dirty pack lanes; sha256",
+        "Remaining debt: unclaimed-candidates; 1 unclaimed / 2 owner-clearance; 0 dirty pack lanes; bridge 3 missing; source max unresolved 14; sha256",
+        "Goal progress: active-partial-clone-skipped; core OK; worklog 35 loops; clone skipped; bridge 131/134; next content; sha256",
+        "Handoff manifest: content-candidates -> content; root 1 paths; packs 0 lanes; completion 12 req / 3 blockers; sha256",
+        "Command plan: 6 measurement / 10 validation; sha256",
+        "Next-batch plan:",
+        "Execution-bridge owner-clearance tail: Claimed-Pack (Agent A queued).",
+    ):
+        if expected_text not in rendered_worklog:
+            errors.append(f"worklog template output missing {expected_text!r}")
+
+    valid_worklog = """
+### 2026-06-27 - Monthly Uplift Loop
+
+- Scope: root tooling.
+- Rationale: keep the loop evidence complete.
+- Files: `tools/monthly_uplift_report.py`.
+- Result: added a worklog checker.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+  - `python3 tools/monthly_uplift_report.py --self-test`
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`
+  - `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20`
+  - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20`
+  - `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20`
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-monthly-worklog-template.md`
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-final.md`
+  - `python3 tools/run_checks.py --skip-reports`
+  - `python3 tools/run_checks.py`
+  - `git diff --check`
+
+## Current Next Queue
+
+- Loop-control status: `owner-clearance-needed`.
+- Local publish-unit split: root/tooling currently forms one ready unit;
+  pack content remains marked `needs-owner-review`.
+- Regression gates for the next batch: `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`,
+  `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20`,
+  `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20`,
+  `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20`,
+  `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20`,
+  `python3 tools/monthly_uplift_report.py --check-worklog latest`,
+  `python3 tools/monthly_uplift_report.py --check --limit 20`,
+  `python3 tools/audit_repo.py --counts`, `python3 tools/quality_scorecard.py`,
+  `python3 tools/source_map_audit.py`, `python3 tools/root_entry_audit.py`,
+  `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`,
+  `python3 tools/run_checks.py --skip-reports`, `python3 tools/run_checks.py`,
+  and `git diff --check`.
+"""
+    if validate_worklog_text(valid_worklog):
+        errors.append(f"valid worklog fixture failed: {validate_worklog_text(valid_worklog)}")
+
+    missing_command_worklog = valid_worklog.replace(
+        "  - `python3 tools/monthly_uplift_report.py --check-worklog latest`\n",
+        "",
+    )
+    missing_command_errors = validate_worklog_text(missing_command_worklog)
+    if not any("validation missing command marker" in error for error in missing_command_errors):
+        errors.append(f"missing-command worklog fixture was not rejected: {missing_command_errors}")
+
+    missing_next_queue_worklog = valid_worklog.replace(
+        "  `python3 tools/monthly_uplift_report.py --check-worklog latest`,\n",
+        "",
+    )
+    missing_next_queue_errors = validate_worklog_text(missing_next_queue_worklog)
+    if not any("Current Next Queue missing marker" in error for error in missing_next_queue_errors):
+        errors.append(f"missing-next-queue worklog fixture was not rejected: {missing_next_queue_errors}")
+
+    missing_publish_unit_worklog = valid_worklog.replace(
+        "- Local publish-unit split: root/tooling currently forms one ready unit;\n"
+        "  pack content remains marked `needs-owner-review`.\n",
+        "",
+    )
+    missing_publish_unit_errors = validate_worklog_text(missing_publish_unit_worklog)
+    if not any("Local publish-unit split:" in error for error in missing_publish_unit_errors):
+        errors.append(f"missing-publish-unit worklog fixture was not rejected: {missing_publish_unit_errors}")
+
+    invalid_worklog = """
+### 2026-06-27 - Monthly Uplift Loop
+
+- Scope: [describe root-only/tooling/content lane and ownership boundary].
+- Validation:
+  - `python3 tools/run_checks.py --skip-reports`
+"""
+    if not validate_worklog_text(invalid_worklog):
+        errors.append("invalid worklog fixture was not rejected")
+
+    planned_worklog = """
+### 2026-06-27 - Monthly Uplift Loop
+
+- Scope: root tooling.
+- Rationale: keep the loop evidence complete.
+- Files: `tools/monthly_uplift_report.py`.
+- Result: added a worklog checker.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> scheduled for this loop.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`
+  - `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20`
+  - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20`
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-final.md`
+  - `python3 tools/run_checks.py --skip-reports`
+  - `python3 tools/run_checks.py`
+  - `git diff --check`
+
+## Current Next Queue
+
+- Loop-control status: `owner-clearance-needed`.
+- Regression gates for the next batch: `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`,
+  `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20`,
+  `python3 tools/monthly_uplift_report.py --check-worklog latest`,
+  `python3 tools/monthly_uplift_report.py --check --limit 20`,
+  `python3 tools/audit_repo.py --counts`, `python3 tools/quality_scorecard.py`,
+  `python3 tools/source_map_audit.py`, `python3 tools/root_entry_audit.py`,
+  `python3 tools/run_checks.py --skip-reports`, `python3 tools/run_checks.py`,
+  and `git diff --check`.
+"""
+    planned_errors = validate_worklog_text(planned_worklog)
+    if not any("planned validation text" in error for error in planned_errors):
+        errors.append(f"planned-evidence worklog fixture was not rejected: {planned_errors}")
+
+    pending_evidence_worklog = valid_worklog.replace(
+        "  - `python3 tools/monthly_uplift_report.py --check-worklog latest`\n",
+        "  - `python3 tools/monthly_uplift_report.py --check-worklog latest`\n"
+        "    -> pending final run after this append.\n",
+    )
+    pending_evidence_errors = validate_worklog_text(pending_evidence_worklog)
+    if not any("planned validation text" in error for error in pending_evidence_errors):
+        errors.append(f"pending-evidence worklog fixture was not rejected: {pending_evidence_errors}")
+
+    should_report_worklog = valid_worklog.replace(
+        "  - `python3 tools/monthly_uplift_report.py --check-worklog latest`\n",
+        "  - `python3 tools/monthly_uplift_report.py --check-worklog latest`\n"
+        "    -> should report the latest loop after this append.\n",
+    )
+    should_report_errors = validate_worklog_text(should_report_worklog)
+    if not any("planned validation text" in error for error in should_report_errors):
+        errors.append(f"should-report worklog fixture was not rejected: {should_report_errors}")
+
+    try:
+        latest_path = latest_worklog_path()
+        if not latest_path.name.startswith("MONTHLY-UPLIFT-"):
+            errors.append(f"latest worklog path has unexpected name {latest_path.name!r}")
+        if resolve_worklog_path(Path("latest")) != latest_path:
+            errors.append("latest worklog alias did not resolve to latest worklog path")
+        if resolve_worklog_path(Path("current")) != latest_path:
+            errors.append("current worklog alias did not resolve to latest worklog path")
+    except ValueError as exc:
+        errors.append(f"latest worklog path lookup failed: {exc}")
+
+    return errors
+
+
+def status_paths(line: str) -> list[str]:
+    path = line[3:].strip() if len(line) > 3 else line.strip()
+    if " -> " in path:
+        return [part.strip() for part in path.split(" -> ", 1)]
+    return [path]
+
+
+def unique_ordered(items: list[str]) -> list[str]:
+    seen: set[str] = set()
+    result: list[str] = []
+    for item in items:
+        if item in seen:
+            continue
+        seen.add(item)
+        result.append(item)
+    return result
+
+
+def git_add_command(paths: list[str]) -> str:
+    if not paths:
+        return ""
+    quoted = " ".join(shlex.quote(path) for path in paths)
+    return f"git add -- {quoted}"
+
+
+def is_untracked_status(line: str) -> bool:
+    return line[:2] == "??"
+
+
+def dirty_pack_names(lines: list[str]) -> set[str]:
+    packs: set[str] = set()
+    for line in lines:
+        for path in status_paths(line):
+            top = pack_from_path(path)
+            if top.endswith("-Skills"):
+                packs.add(top)
+    return packs
+
+
+def dirty_worktree_breakdown(lines: list[str]) -> dict[str, Any]:
+    pack_names: set[str] = set()
+    pack_paths: list[str] = []
+    root_lines: list[str] = []
+    root_paths: list[str] = []
+    root_tracked_paths: list[str] = []
+    root_untracked_paths: list[str] = []
+    for line in lines:
+        line_has_root_path = False
+        for path in status_paths(line):
+            top = pack_from_path(path)
+            if top.endswith("-Skills"):
+                pack_names.add(top)
+                pack_paths.append(path)
+            else:
+                line_has_root_path = True
+                root_paths.append(path)
+                if is_untracked_status(line):
+                    root_untracked_paths.append(path)
+                else:
+                    root_tracked_paths.append(path)
+        if line_has_root_path:
+            root_lines.append(line)
+    pack_paths_unique = unique_ordered(pack_paths)
+    root_paths_unique = unique_ordered(root_paths)
+    root_tracked_paths_unique = unique_ordered(root_tracked_paths)
+    root_untracked_paths_unique = unique_ordered(root_untracked_paths)
+    return {
+        "dirty_pack_names": sorted(pack_names),
+        "dirty_pack_count": len(pack_names),
+        "dirty_pack_paths": pack_paths_unique,
+        "dirty_pack_path_count": len(pack_paths_unique),
+        "dirty_root_lines": root_lines,
+        "dirty_root_count": len(root_lines),
+        "dirty_root_paths": root_paths_unique,
+        "dirty_root_path_count": len(root_paths_unique),
+        "dirty_root_tracked_paths": root_tracked_paths_unique,
+        "dirty_root_tracked_path_count": len(root_tracked_paths_unique),
+        "dirty_root_untracked_paths": root_untracked_paths_unique,
+        "dirty_root_untracked_path_count": len(root_untracked_paths_unique),
+        "dirty_root_pathspec_command": git_add_command(root_paths_unique),
     }
 
 
@@ -334,10 +2240,75 @@ def git_status() -> dict[str, Any]:
             result.stderr,
         )
     lines = result.stdout.strip().splitlines()
+    dirty_lines = lines[1:]
     return {
         "branch": lines[0] if lines else "",
-        "dirty_lines": lines[1:],
+        "dirty_lines": dirty_lines,
+        "dirty_count": len(dirty_lines),
+        **dirty_worktree_breakdown(dirty_lines),
     }
+
+
+def worktree_boundary_summary(git: dict[str, Any]) -> dict[str, Any]:
+    pack_names = [str(pack) for pack in git.get("dirty_pack_names", [])]
+    root_paths = [str(path) for path in git.get("dirty_root_paths", [])]
+    root_tracked_paths = [str(path) for path in git.get("dirty_root_tracked_paths", [])]
+    root_untracked_paths = [str(path) for path in git.get("dirty_root_untracked_paths", [])]
+    payload = {
+        "branch": str(git.get("branch", "")),
+        "dirty_lines": [str(line) for line in git.get("dirty_lines", [])],
+        "dirty_pack_names": pack_names,
+        "dirty_root_paths": root_paths,
+        "dirty_root_tracked_paths": root_tracked_paths,
+        "dirty_root_untracked_paths": root_untracked_paths,
+        "dirty_root_pathspec_command": str(git.get("dirty_root_pathspec_command", "")),
+    }
+    return {
+        "worktree_boundary": {
+            "branch": payload["branch"],
+            "dirty_count": int(git.get("dirty_count", len(payload["dirty_lines"]))),
+            "dirty_pack_count": int(git.get("dirty_pack_count", len(pack_names))),
+            "dirty_root_count": int(git.get("dirty_root_count", len(git.get("dirty_root_lines", [])))),
+            "dirty_root_path_count": int(git.get("dirty_root_path_count", len(root_paths))),
+            "dirty_root_tracked_path_count": int(git.get("dirty_root_tracked_path_count", len(root_tracked_paths))),
+            "dirty_root_untracked_path_count": int(git.get("dirty_root_untracked_path_count", len(root_untracked_paths))),
+            "root_staging_command": payload["dirty_root_pathspec_command"],
+            "fingerprint": hashlib.sha256(
+                json.dumps(payload, ensure_ascii=False, sort_keys=True).encode("utf-8")
+            ).hexdigest()[:12],
+        }
+    }
+
+
+def worktree_boundary_line(summary: dict[str, Any]) -> str:
+    boundary = summary.get("worktree_boundary")
+    if not isinstance(boundary, dict):
+        git = summary.get("git", {})
+        boundary = worktree_boundary_summary(git if isinstance(git, dict) else {})["worktree_boundary"]
+    fingerprint = str(boundary.get("fingerprint", ""))
+    suffix = f"; sha256 {fingerprint}" if fingerprint else ""
+    return (
+        f"{int(boundary.get('dirty_count', 0))} dirty / "
+        f"{int(boundary.get('dirty_pack_count', 0))} pack lanes / "
+        f"{int(boundary.get('dirty_root_count', 0))} root-tooling entries{suffix}"
+    )
+
+
+def validate_worktree_boundary(summary: dict[str, Any]) -> list[str]:
+    if "generated_at" not in summary and "worktree_boundary" not in summary:
+        return []
+    errors: list[str] = []
+    git = summary.get("git")
+    if not isinstance(git, dict):
+        return ["worktree_boundary requires git summary"]
+    expected = worktree_boundary_summary(git)["worktree_boundary"]
+    boundary = summary.get("worktree_boundary")
+    if not isinstance(boundary, dict):
+        return ["worktree_boundary missing or not an object"]
+    for key, expected_value in expected.items():
+        if boundary.get(key) != expected_value:
+            errors.append(f"worktree_boundary.{key} expected {expected_value!r}, observed {boundary.get(key)!r}")
+    return errors
 
 
 def build_summary(args: argparse.Namespace) -> dict[str, Any]:
@@ -346,9 +2317,19 @@ def build_summary(args: argparse.Namespace) -> dict[str, Any]:
     source_rows = json.loads(run([PYTHON, "tools/source_map_audit.py", "--json"]))
     root_rows = json.loads(run([PYTHON, "tools/root_entry_audit.py", "--json"]))
     quality = score_summary(quality_rows, args.score_target, args.limit)
+    execution_bridge = execution_bridge_summary(quality_rows, args.limit)
     source_maps = source_summary(source_rows, args.limit)
     claims_context = read_claims_context()
-    claims = claims_summary(quality, source_maps, claims_context)
+    claims = claims_summary(quality, execution_bridge, source_maps, claims_context)
+    git = git_status()
+    candidate_pool_data = candidate_pool(
+        quality_rows,
+        source_rows,
+        execution_bridge["missing_packs"],
+        claims_context,
+        dirty_pack_names(git["dirty_lines"]),
+        args.limit,
+    )
     clone = None
     if not args.skip_clone:
         clone_output = run(
@@ -365,22 +2346,40 @@ def build_summary(args: argparse.Namespace) -> dict[str, Any]:
         )
         clone = clone_summary(clone_output, args.clone_fail_threshold, args.limit)
 
-    return {
+    summary = {
         "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
         "counts": counts,
         "quality": quality,
+        "execution_bridge": execution_bridge,
         "source_maps": source_maps,
         "root_entries": root_summary(root_rows),
         "clone_audit": clone,
         "claims": claims,
-        "candidate_pool": candidate_pool(quality_rows, source_rows, claims_context, args.limit),
-        "git": git_status(),
+        "candidate_pool": candidate_pool_data,
+        "loop_control": loop_control_summary(execution_bridge, claims_context, claims, candidate_pool_data),
+        "worklog": worklog_summary(),
+        "git": git,
+        **worktree_boundary_summary(git),
+        "publish_units": publish_units_from_git(git),
+        **schema_summary(),
+        **command_plan_summary(),
         "targets": {
             "score_floor": args.score_target,
             "clone_fail_threshold": args.clone_fail_threshold,
             "display_limit": args.limit,
         },
     }
+    summary["owner_clearance_queue"] = owner_clearance_queue(summary)
+    summary.update(content_edit_policy_summary(summary))
+    summary.update(remaining_debt_summary(summary))
+    summary.update(next_batch_plan_summary(summary))
+    summary.update(publish_policy_summary(summary))
+    summary.update(goal_progress_summary(summary))
+    summary.update(completion_audit_summary(summary))
+    summary.update(handoff_manifest_summary(summary))
+    if args.compare_json:
+        summary["delta"] = compare_delta(load_compare_json(args.compare_json), summary)
+    return summary
 
 
 def status_label(ok: bool, skipped: bool = False) -> str:
@@ -389,11 +2388,128 @@ def status_label(ok: bool, skipped: bool = False) -> str:
     return "OK" if ok else "Review"
 
 
+def claims_source_line(claims: dict[str, Any]) -> str:
+    path = claims.get("path", ".maintenance/CLAIMS.md")
+    if not claims.get("present"):
+        return f"{path}; missing"
+    fingerprint = claims.get("fingerprint", "")
+    suffix = f"; sha256 {fingerprint}" if fingerprint else ""
+    return (
+        f"{path}; {claims.get('row_count', 0)} rows; "
+        f"{claims.get('active_row_count', 0)} active; {claims.get('line_count', 0)} lines{suffix}"
+    )
+
+
+def working_tree_line(git: dict[str, Any]) -> str:
+    dirty_count = int(git.get("dirty_count", len(git.get("dirty_lines", []))))
+    pack_count = int(git.get("dirty_pack_count", 0))
+    root_count = int(git.get("dirty_root_count", 0))
+    return (
+        f"{git.get('branch', '')} with {dirty_count} dirty entries "
+        f"({pack_count} pack lanes, {root_count} root/tooling entries)"
+    )
+
+
+def format_items_with_remainder(items: list[str], limit: int = 8, *, code: bool = False) -> str:
+    if not items:
+        return "none"
+    rendered = [f"`{item}`" if code else item for item in items[:limit]]
+    text = "; ".join(rendered)
+    remaining = len(items) - limit
+    if remaining > 0:
+        return f"{text}; +{remaining} more"
+    return text
+
+
+def dirty_status_line(line: str) -> str:
+    return line.strip()
+
+
+def dirty_boundary_lines(git: dict[str, Any], *, pack_limit: int = 8, root_limit: int = 8) -> list[str]:
+    pack_names = [str(pack) for pack in git.get("dirty_pack_names", [])]
+    root_lines = [dirty_status_line(str(line)) for line in git.get("dirty_root_lines", [])]
+    root_paths = [str(path) for path in git.get("dirty_root_paths", [])]
+    tracked_paths = [str(path) for path in git.get("dirty_root_tracked_paths", [])]
+    untracked_paths = [str(path) for path in git.get("dirty_root_untracked_paths", [])]
+    root_command = str(git.get("dirty_root_pathspec_command", ""))
+    return [
+        "- Dirty pack lanes: " + format_items_with_remainder(pack_names, pack_limit),
+        "- Root/tooling dirty entries: " + format_items_with_remainder(root_lines, root_limit, code=True),
+        "- Root/tooling paths: " + format_items_with_remainder(root_paths, root_limit, code=True),
+        "- Root/tooling tracked paths: " + format_items_with_remainder(tracked_paths, root_limit, code=True),
+        "- Root/tooling untracked paths: " + format_items_with_remainder(untracked_paths, root_limit, code=True),
+        "- Root/tooling staging preview: " + (f"`{root_command}`" if root_command else "none"),
+    ]
+
+
+def publish_units_from_git(git: dict[str, Any]) -> dict[str, Any]:
+    root_paths = [str(path) for path in git.get("dirty_root_paths", [])]
+    tracked_paths = [str(path) for path in git.get("dirty_root_tracked_paths", [])]
+    untracked_paths = [str(path) for path in git.get("dirty_root_untracked_paths", [])]
+    pack_names = [str(pack) for pack in git.get("dirty_pack_names", [])]
+    pack_paths = [str(path) for path in git.get("dirty_pack_paths", [])]
+    return {
+        "root_tooling": {
+            "status": "ready" if root_paths else "empty",
+            "paths": root_paths,
+            "path_count": len(root_paths),
+            "tracked_paths": tracked_paths,
+            "tracked_path_count": len(tracked_paths),
+            "untracked_paths": untracked_paths,
+            "untracked_path_count": len(untracked_paths),
+            "staging_command": str(git.get("dirty_root_pathspec_command", "")),
+            "note": "Path-scoped root/tooling unit; review before staging.",
+        },
+        "pack_content": {
+            "status": "needs-owner-review" if pack_names else "empty",
+            "packs": pack_names,
+            "pack_count": len(pack_names),
+            "paths": pack_paths,
+            "path_count": len(pack_paths),
+            "note": "Keep content pack lanes separate from root/tooling publishes unless explicitly cleared.",
+        },
+    }
+
+
+def publish_units_data(summary: dict[str, Any]) -> dict[str, Any]:
+    units = summary.get("publish_units")
+    if isinstance(units, dict):
+        return units
+    git = summary.get("git", {})
+    return publish_units_from_git(git if isinstance(git, dict) else {})
+
+
+def publish_unit_lines(summary: dict[str, Any], *, limit: int = 8) -> list[str]:
+    units = publish_units_data(summary)
+    root = units.get("root_tooling", {}) if isinstance(units.get("root_tooling"), dict) else {}
+    pack = units.get("pack_content", {}) if isinstance(units.get("pack_content"), dict) else {}
+    root_paths = [str(path) for path in root.get("paths", [])]
+    pack_names = [str(name) for name in pack.get("packs", [])]
+    command = str(root.get("staging_command", ""))
+    return [
+        (
+            f"- Root/tooling unit: {root.get('status', 'unknown')}; "
+            f"{int(root.get('path_count', len(root_paths)))} paths "
+            f"({int(root.get('tracked_path_count', 0))} tracked, "
+            f"{int(root.get('untracked_path_count', 0))} untracked)"
+        ),
+        "- Root/tooling paths: " + format_items_with_remainder(root_paths, limit, code=True),
+        "- Root/tooling command: " + (f"`{command}`" if command else "none"),
+        (
+            f"- Pack content units: {pack.get('status', 'unknown')}; "
+            f"{int(pack.get('pack_count', len(pack_names)))} pack lanes"
+        ),
+        "- Pack content packs: " + format_items_with_remainder(pack_names, limit),
+    ]
+
+
 def readiness_rows(summary: dict[str, Any]) -> list[tuple[str, str, str]]:
     quality = summary["quality"]
     source_maps = summary["source_maps"]
     root_entries = summary["root_entries"]
     clone = summary["clone_audit"]
+    worklog = summary["worklog"]
+    claims = summary["claims"]
     git = summary["git"]
     target = summary["targets"]["score_floor"]
 
@@ -413,6 +2529,16 @@ def readiness_rows(summary: dict[str, Any]) -> list[tuple[str, str, str]]:
             status_label(int(root_entries["warnings"]) == 0 and int(root_entries["machine_only"]) == 0),
             f"{root_entries['warnings']} warnings; {root_entries['machine_only']} machine-only cards",
         ),
+        (
+            "Worklog health",
+            status_label(worklog.get("status") == "OK"),
+            f"{worklog.get('status', 'Review')}; {worklog.get('loop_count', 0)} loops; latest {worklog.get('latest_heading', '')}",
+        ),
+        (
+            "Claims boundary",
+            status_label(bool(claims.get("present")) and int(claims.get("row_count", 0)) > 0),
+            claims_source_line(claims),
+        ),
     ]
     if clone is None:
         rows.append(("Clone fail threshold", status_label(False, skipped=True), "clone audit skipped"))
@@ -428,15 +2554,81 @@ def readiness_rows(summary: dict[str, Any]) -> list[tuple[str, str, str]]:
     rows.append(
         (
             "Working tree review",
-            status_label(len(git["dirty_lines"]) == 0),
-            f"{git['branch']}; {len(git['dirty_lines'])} dirty entries",
+            status_label(int(git.get("dirty_count", len(git["dirty_lines"]))) == 0),
+            working_tree_line(git),
         )
     )
     return rows
 
 
+def format_delta_value(value: Any, precision: int = 0) -> str:
+    if isinstance(value, bool) or not isinstance(value, (int, float)):
+        return str(value)
+    if precision > 0:
+        return f"{float(value):.{precision}f}"
+    if isinstance(value, float) and not value.is_integer():
+        return f"{value:.1f}"
+    return str(int(value))
+
+
+def format_signed_delta(value: Any, precision: int = 0) -> str:
+    if isinstance(value, bool) or not isinstance(value, (int, float)):
+        return str(value)
+    if value > 0:
+        return f"+{format_delta_value(value, precision)}"
+    return format_delta_value(value, precision)
+
+
+def format_text_delta_status(row: dict[str, Any]) -> str:
+    return "changed" if row.get("changed") else "unchanged"
+
+
+def delta_rows(summary: dict[str, Any]) -> list[dict[str, Any]]:
+    delta = summary.get("delta", {})
+    metrics = delta.get("metrics", {}) if isinstance(delta, dict) else {}
+    rows: list[dict[str, Any]] = []
+    for key, _label, _path, _precision in DELTA_METRICS:
+        metric = metrics.get(key)
+        if isinstance(metric, dict):
+            rows.append(metric)
+    return rows
+
+
+def delta_text_rows(summary: dict[str, Any]) -> list[dict[str, Any]]:
+    delta = summary.get("delta", {})
+    metrics = delta.get("text", {}) if isinstance(delta, dict) else {}
+    rows: list[dict[str, Any]] = []
+    for key, _label, _path in DELTA_TEXT_METRICS:
+        metric = metrics.get(key)
+        if isinstance(metric, dict):
+            rows.append(metric)
+    return rows
+
+
 def pack_list(rows: list[dict[str, Any]], limit: int = 3) -> str:
     return ", ".join(str(row["pack"]) for row in rows[:limit])
+
+
+def pack_list_with_remainder(rows: list[dict[str, Any]], limit: int = 3) -> str:
+    rendered = pack_list(rows, limit)
+    remaining = len(rows) - limit
+    if remaining > 0:
+        return f"{rendered}; +{remaining} more"
+    return rendered
+
+
+def pack_reason_list_with_remainder(rows: list[dict[str, Any]], limit: int = 3, *, code: bool = False) -> str:
+    rendered: list[str] = []
+    for row in rows[:limit]:
+        pack = str(row.get("pack", ""))
+        reason = str(row.get("reason", "")).replace("|", "/")
+        pack_text = f"`{pack}`" if code else pack
+        rendered.append(f"{pack_text} ({reason})" if reason else pack_text)
+    remaining = len(rows) - limit
+    text = "; ".join(rendered)
+    if remaining > 0:
+        return f"{text}; +{remaining} more"
+    return text
 
 
 def source_map_list(rows: list[dict[str, Any]], limit: int = 3) -> str:
@@ -455,8 +2647,133 @@ def unclaimed_source_rows(summary: dict[str, Any]) -> list[dict[str, Any]]:
     return list(summary.get("candidate_pool", {}).get("source_map_unclaimed", []))
 
 
+def unclaimed_bridge_rows(summary: dict[str, Any]) -> list[dict[str, Any]]:
+    return list(summary.get("candidate_pool", {}).get("execution_bridge_unclaimed", []))
+
+
+def execution_bridge_clearance_rows(summary: dict[str, Any]) -> list[dict[str, str]]:
+    rows: list[dict[str, str]] = []
+    seen: set[str] = set()
+    for row in summary.get("execution_bridge", {}).get("missing_packs", []):
+        pack = str(row.get("pack", ""))
+        if not pack or pack in seen:
+            continue
+        reason = claim_pack_reason(summary, pack)
+        if not reason:
+            continue
+        seen.add(pack)
+        rows.append({"pack": pack, "reason": reason})
+    return rows
+
+
+def claim_sensitive_groups(summary: dict[str, Any], limit: int = 5) -> dict[str, list[dict[str, str]]]:
+    groups: dict[str, list[dict[str, str]]] = {}
+    seen: set[tuple[str, str]] = set()
+    targets = summary.get("claims", {}).get("sensitive_current_targets", [])
+    for target in targets:
+        kind = str(target.get("kind", ""))
+        pack = str(target.get("pack", ""))
+        if not kind or not pack:
+            continue
+        key = (kind, pack)
+        if key in seen:
+            continue
+        seen.add(key)
+        rows = groups.setdefault(kind, [])
+        if len(rows) < limit:
+            rows.append({"pack": pack, "reason": str(target.get("reason", ""))})
+    return groups
+
+
+def claim_sensitive_group_totals(summary: dict[str, Any]) -> dict[str, int]:
+    totals: dict[str, int] = {}
+    seen: set[tuple[str, str]] = set()
+    targets = summary.get("claims", {}).get("sensitive_current_targets", [])
+    for target in targets:
+        kind = str(target.get("kind", ""))
+        pack = str(target.get("pack", ""))
+        if not kind or not pack:
+            continue
+        key = (kind, pack)
+        if key in seen:
+            continue
+        seen.add(key)
+        totals[kind] = totals.get(kind, 0) + 1
+    return totals
+
+
+def owner_clearance_queue_fingerprint(queue: dict[str, Any]) -> str:
+    groups: dict[str, Any] = {}
+    total = 0
+    for kind in OWNER_CLEARANCE_KINDS:
+        row = queue.get(kind)
+        if not isinstance(row, dict):
+            continue
+        displayed = row.get("displayed", [])
+        if not isinstance(displayed, list):
+            displayed = []
+        normalized_displayed = [
+            {"pack": str(item.get("pack", "")), "reason": str(item.get("reason", ""))}
+            for item in displayed
+            if isinstance(item, dict)
+        ]
+        row_total = int(row.get("total", 0))
+        total += row_total
+        groups[kind] = {
+            "total": row_total,
+            "display_limit": int(row.get("display_limit", 0)),
+            "displayed": normalized_displayed,
+            "omitted": int(row.get("omitted", 0)),
+            "truncated": bool(row.get("truncated", False)),
+        }
+    payload = {"contract": OWNER_CLEARANCE_QUEUE_CONTRACT, "total": total, "groups": groups}
+    return hashlib.sha256(json.dumps(payload, ensure_ascii=False, sort_keys=True).encode("utf-8")).hexdigest()[:12]
+
+
+def owner_clearance_queue(summary: dict[str, Any], limit: int = 5) -> dict[str, Any]:
+    groups = claim_sensitive_groups(summary, limit=limit)
+    totals = claim_sensitive_group_totals(summary)
+    queue: dict[str, Any] = {"contract": OWNER_CLEARANCE_QUEUE_CONTRACT}
+    for kind in OWNER_CLEARANCE_KINDS:
+        total = totals.get(kind, 0)
+        rows = groups.get(kind, [])
+        if not total and not rows:
+            continue
+        omitted = max(total - len(rows), 0)
+        queue[kind] = {
+            "total": total,
+            "display_limit": limit,
+            "displayed": rows,
+            "omitted": omitted,
+            "truncated": omitted > 0,
+        }
+    queue["total"] = sum(int(queue.get(kind, {}).get("total", 0)) for kind in OWNER_CLEARANCE_KINDS)
+    queue["fingerprint"] = owner_clearance_queue_fingerprint(queue)
+    return queue
+
+
+def owner_clearance_queue_data(summary: dict[str, Any]) -> dict[str, Any]:
+    queue = summary.get("owner_clearance_queue")
+    if isinstance(queue, dict):
+        return queue
+    return owner_clearance_queue(summary)
+
+
+def clearance_remainder_from_row(row: dict[str, Any]) -> str:
+    omitted = int(row.get("omitted", 0))
+    if omitted > 0:
+        return f"; +{omitted} more"
+    return ""
+
+
+def list_fingerprint(items: list[str]) -> str:
+    payload = json.dumps(items, ensure_ascii=False)
+    return hashlib.sha256(payload.encode("utf-8")).hexdigest()[:12]
+
+
 def next_batches(summary: dict[str, Any]) -> list[str]:
     quality = summary["quality"]
+    execution_bridge = summary["execution_bridge"]
     source_maps = summary["source_maps"]
     root_entries = summary["root_entries"]
     clone = summary["clone_audit"]
@@ -502,6 +2819,23 @@ def next_batches(summary: dict[str, Any]) -> list[str]:
     else:
         batches.append("Keep source-map audit in the final gate; no unresolved source-map debt is currently reported.")
 
+    if int(execution_bridge["missing"]) > 0:
+        unclaimed_missing = unclaimed_bridge_rows(summary)
+        claimed_missing = execution_bridge_clearance_rows(summary)
+        if unclaimed_missing:
+            batches.append(
+                "Finish the unclaimed execution-bridge tail with lightweight links to "
+                "`shared-resources/empirical-methods/execution-with-mcp.md`: "
+                f"{pack_list(unclaimed_missing)}."
+            )
+        if claimed_missing:
+            batches.append(
+                "The remaining execution-bridge tail is claim-sensitive; get owner clearance before wiring: "
+                f"{pack_reason_list_with_remainder(claimed_missing)}."
+            )
+    else:
+        batches.append("Execution-bridge wiring is complete for all empirical depth packs.")
+
     if int(root_entries["warnings"]) > 0 or int(root_entries["machine_only"]) > 0:
         batches.append("Repair root-card provenance before any homepage or gallery changes.")
     else:
@@ -524,13 +2858,792 @@ def next_batches(summary: dict[str, Any]) -> list[str]:
     return batches
 
 
+def next_batch_plan_summary(summary: dict[str, Any]) -> dict[str, Any]:
+    batches = next_batches(summary)
+    return {
+        "next_batches": batches,
+        "next_batch_plan": {
+            "count": len(batches),
+            "fingerprint": list_fingerprint(batches),
+        },
+    }
+
+
+def summary_next_batches(summary: dict[str, Any]) -> list[str]:
+    value = summary.get("next_batches")
+    if isinstance(value, list) and value and all(isinstance(item, str) and item.strip() for item in value):
+        return value
+    return next_batches(summary)
+
+
+def next_batch_plan_line(summary: dict[str, Any]) -> str:
+    plan = summary.get("next_batch_plan")
+    if not isinstance(plan, dict):
+        plan = next_batch_plan_summary(summary)["next_batch_plan"]
+    fingerprint = str(plan.get("fingerprint", ""))
+    suffix = f"; sha256 {fingerprint}" if fingerprint else ""
+    return f"{int(plan.get('count', 0))} items{suffix}"
+
+
+def validate_next_batch_plan(summary: dict[str, Any]) -> list[str]:
+    if "next_batches" not in summary and "next_batch_plan" not in summary:
+        return []
+    errors: list[str] = []
+    expected = next_batch_plan_summary(summary)
+    batches = summary.get("next_batches")
+    if not isinstance(batches, list):
+        errors.append("next_batches missing or not a list")
+    elif not batches:
+        errors.append("next_batches must not be empty")
+    elif not all(isinstance(item, str) and item.strip() for item in batches):
+        errors.append("next_batches must contain only non-empty strings")
+    elif batches != expected["next_batches"]:
+        errors.append("next_batches does not match the computed next-batch plan")
+
+    plan = summary.get("next_batch_plan")
+    if not isinstance(plan, dict):
+        errors.append("next_batch_plan missing or not an object")
+    else:
+        for key, expected_value in expected["next_batch_plan"].items():
+            if plan.get(key) != expected_value:
+                errors.append(f"next_batch_plan.{key} expected {expected_value!r}, observed {plan.get(key)!r}")
+    return errors
+
+
+CONTENT_EDIT_POLICY_CONTRACT = "content-edit-policy-v1"
+
+
+def content_edit_policy_summary(summary: dict[str, Any]) -> dict[str, Any]:
+    loop_control = summary.get("loop_control", {}) if isinstance(summary.get("loop_control"), dict) else {}
+    execution_bridge = summary.get("execution_bridge", {}) if isinstance(summary.get("execution_bridge"), dict) else {}
+    boundary = summary.get("worktree_boundary", {}) if isinstance(summary.get("worktree_boundary"), dict) else {}
+    status = str(loop_control.get("status", ""))
+    next_lane = str(loop_control.get("next_lane", ""))
+    unclaimed_count = sum(
+        int(loop_control.get(key, 0))
+        for key in (
+            "unclaimed_score_candidates",
+            "unclaimed_source_map_candidates",
+            "unclaimed_execution_bridge_candidates",
+        )
+    )
+    claim_sensitive_count = sum(
+        int(loop_control.get(key, 0))
+        for key in (
+            "claim_sensitive_score_targets",
+            "claim_sensitive_source_map_targets",
+            "claim_sensitive_execution_bridge_targets",
+        )
+    )
+    dirty_pack_count = int(boundary.get("dirty_pack_count", 0))
+    content_edits_allowed = next_lane == "content" and unclaimed_count > 0
+    owner_clearance_required = status == "owner-clearance-needed" or (
+        claim_sensitive_count > 0 and unclaimed_count == 0
+    )
+    execution_bridge_owner_clearance_required = (
+        int(execution_bridge.get("missing", 0)) > 0
+        and int(loop_control.get("claim_sensitive_execution_bridge_targets", 0)) > 0
+        and int(loop_control.get("unclaimed_execution_bridge_candidates", 0)) == 0
+    )
+    tooling_only_recommended = not content_edits_allowed and next_lane in {"tooling", "tooling-or-owner-clearance"}
+    if content_edits_allowed:
+        policy_status = "content-allowed"
+        reason = "unclaimed content candidates are available after claim and dirty-pack filtering"
+    elif owner_clearance_required:
+        policy_status = "owner-clearance-required"
+        reason = "visible content debt is claim-sensitive or already dirty; keep work in tooling unless owner clearance is granted"
+    else:
+        policy_status = "tooling-monitoring"
+        reason = "no unclaimed or claim-sensitive content debt is visible in the current target window"
+
+    policy: dict[str, Any] = {
+        "contract": CONTENT_EDIT_POLICY_CONTRACT,
+        "status": policy_status,
+        "next_lane": next_lane,
+        "content_edits_allowed": content_edits_allowed,
+        "owner_clearance_required": owner_clearance_required,
+        "tooling_only_recommended": tooling_only_recommended,
+        "execution_bridge_owner_clearance_required": execution_bridge_owner_clearance_required,
+        "unclaimed_candidate_count": unclaimed_count,
+        "claim_sensitive_target_count": claim_sensitive_count,
+        "dirty_pack_lane_count": dirty_pack_count,
+        "reason": reason,
+    }
+    policy["fingerprint"] = hashlib.sha256(
+        json.dumps(policy, ensure_ascii=False, sort_keys=True).encode("utf-8")
+    ).hexdigest()[:12]
+    return {"content_edit_policy": policy}
+
+
+def content_edit_policy_line(summary: dict[str, Any]) -> str:
+    policy = summary.get("content_edit_policy")
+    if not isinstance(policy, dict):
+        policy = content_edit_policy_summary(summary)["content_edit_policy"]
+    fingerprint = str(policy.get("fingerprint", ""))
+    suffix = f"; sha256 {fingerprint}" if fingerprint else ""
+    gate = "content allowed" if policy.get("content_edits_allowed") else "content blocked"
+    return (
+        f"{policy.get('status', 'unknown')}; {gate}; next {policy.get('next_lane', 'unknown')}; "
+        f"{int(policy.get('unclaimed_candidate_count', 0))} unclaimed / "
+        f"{int(policy.get('claim_sensitive_target_count', 0))} claim-sensitive; "
+        f"{int(policy.get('dirty_pack_lane_count', 0))} dirty pack lanes{suffix}"
+    )
+
+
+def validate_content_edit_policy(summary: dict[str, Any]) -> list[str]:
+    if "generated_at" not in summary and "content_edit_policy" not in summary:
+        return []
+    expected = content_edit_policy_summary(summary)["content_edit_policy"]
+    policy = summary.get("content_edit_policy")
+    if not isinstance(policy, dict):
+        return ["content_edit_policy missing or not an object"]
+    errors: list[str] = []
+    for key, expected_value in expected.items():
+        if policy.get(key) != expected_value:
+            errors.append(f"content_edit_policy.{key} expected {expected_value!r}, observed {policy.get(key)!r}")
+    return errors
+
+
+REMAINING_DEBT_CONTRACT = "monthly-uplift-remaining-debt-v2"
+
+
+def remaining_debt_summary(summary: dict[str, Any]) -> dict[str, Any]:
+    loop_control = summary.get("loop_control", {}) if isinstance(summary.get("loop_control"), dict) else {}
+    quality = summary.get("quality", {}) if isinstance(summary.get("quality"), dict) else {}
+    source_maps = summary.get("source_maps", {}) if isinstance(summary.get("source_maps"), dict) else {}
+    execution_bridge = summary.get("execution_bridge", {}) if isinstance(summary.get("execution_bridge"), dict) else {}
+    boundary = summary.get("worktree_boundary", {}) if isinstance(summary.get("worktree_boundary"), dict) else {}
+    owner_totals = claim_sensitive_group_totals(summary)
+    clearance_queue = owner_clearance_queue(summary)
+
+    unclaimed = {
+        "score-floor": int(loop_control.get("unclaimed_score_candidates", 0)),
+        "source-map": int(loop_control.get("unclaimed_source_map_candidates", 0)),
+        "execution-bridge": int(loop_control.get("unclaimed_execution_bridge_candidates", 0)),
+    }
+    owner_clearance = {
+        "score-floor": int(owner_totals.get("score-floor", 0)),
+        "source-map": int(owner_totals.get("source-map", 0)),
+        "execution-bridge": int(owner_totals.get("execution-bridge", 0)),
+    }
+    unclaimed_total = sum(unclaimed.values())
+    owner_clearance_total = sum(owner_clearance.values())
+    dirty_skipped_count = int(loop_control.get("dirty_skipped_packs", 0))
+    dirty_pack_lane_count = int(boundary.get("dirty_pack_count", 0))
+
+    if unclaimed_total:
+        status = "unclaimed-candidates"
+        reason = "unclaimed content debt remains available after claim and dirty-pack filtering"
+    elif owner_clearance_total or dirty_skipped_count or dirty_pack_lane_count:
+        status = "owner-clearance-or-dirty"
+        reason = "remaining content debt is owner-clearance gated or already dirty; keep root/tooling work separated"
+    else:
+        status = "monitoring"
+        reason = "no visible content debt remains in the current target window"
+
+    debt: dict[str, Any] = {
+        "contract": REMAINING_DEBT_CONTRACT,
+        "status": status,
+        "unclaimed_total": unclaimed_total,
+        "owner_clearance_total": owner_clearance_total,
+        "owner_clearance_queue_fingerprint": str(clearance_queue.get("fingerprint", "")),
+        "dirty_skipped_pack_count": dirty_skipped_count,
+        "dirty_pack_lane_count": dirty_pack_lane_count,
+        "score_floor": {
+            "unclaimed": unclaimed["score-floor"],
+            "owner_clearance": owner_clearance["score-floor"],
+            "lowest_score": float(quality.get("min", 0.0)),
+            "below_target": int(quality.get("below_target", 0)),
+        },
+        "source_map": {
+            "unclaimed": unclaimed["source-map"],
+            "owner_clearance": owner_clearance["source-map"],
+            "warnings": int(source_maps.get("warnings", 0)),
+            "max_unresolved": int(source_maps.get("max_unresolved", 0)),
+        },
+        "execution_bridge": {
+            "unclaimed": unclaimed["execution-bridge"],
+            "owner_clearance": owner_clearance["execution-bridge"],
+            "wired": int(execution_bridge.get("wired", 0)),
+            "total": int(execution_bridge.get("empirical_depth_packs", 0)),
+            "missing": int(execution_bridge.get("missing", 0)),
+        },
+        "reason": reason,
+    }
+    debt["fingerprint"] = hashlib.sha256(
+        json.dumps(debt, ensure_ascii=False, sort_keys=True).encode("utf-8")
+    ).hexdigest()[:12]
+    return {"remaining_debt": debt}
+
+
+def remaining_debt_line(summary: dict[str, Any]) -> str:
+    debt = summary.get("remaining_debt")
+    if not isinstance(debt, dict):
+        debt = remaining_debt_summary(summary)["remaining_debt"]
+    bridge = debt.get("execution_bridge", {}) if isinstance(debt.get("execution_bridge"), dict) else {}
+    source = debt.get("source_map", {}) if isinstance(debt.get("source_map"), dict) else {}
+    fingerprint = str(debt.get("fingerprint", ""))
+    suffix = f"; sha256 {fingerprint}" if fingerprint else ""
+    return (
+        f"{debt.get('status', 'unknown')}; "
+        f"{int(debt.get('unclaimed_total', 0))} unclaimed / "
+        f"{int(debt.get('owner_clearance_total', 0))} owner-clearance; "
+        f"{int(debt.get('dirty_pack_lane_count', 0))} dirty pack lanes; "
+        f"bridge {int(bridge.get('missing', 0))} missing; "
+        f"source max unresolved {int(source.get('max_unresolved', 0))}{suffix}"
+    )
+
+
+def validate_remaining_debt(summary: dict[str, Any]) -> list[str]:
+    if "generated_at" not in summary and "remaining_debt" not in summary:
+        return []
+    expected = remaining_debt_summary(summary)["remaining_debt"]
+    debt = summary.get("remaining_debt")
+    if not isinstance(debt, dict):
+        return ["remaining_debt missing or not an object"]
+    errors: list[str] = []
+    for key, expected_value in expected.items():
+        if debt.get(key) != expected_value:
+            errors.append(f"remaining_debt.{key} expected {expected_value!r}, observed {debt.get(key)!r}")
+    return errors
+
+
+PUBLISH_POLICY_CONTRACT = "local-publish-policy-v1"
+
+
+def publish_policy_summary(summary: dict[str, Any]) -> dict[str, Any]:
+    content_policy = summary.get("content_edit_policy")
+    if not isinstance(content_policy, dict):
+        content_policy = content_edit_policy_summary(summary)["content_edit_policy"]
+    clearance_queue = owner_clearance_queue_data(summary)
+    units = publish_units_data(summary)
+    root_unit = units.get("root_tooling", {}) if isinstance(units.get("root_tooling"), dict) else {}
+    pack_unit = units.get("pack_content", {}) if isinstance(units.get("pack_content"), dict) else {}
+    root_path_count = int(root_unit.get("path_count", 0))
+    pack_count = int(pack_unit.get("pack_count", 0))
+    root_status = str(root_unit.get("status", ""))
+    pack_status = str(pack_unit.get("status", ""))
+    owner_clearance_required = bool(content_policy.get("owner_clearance_required"))
+    pack_content_owner_review_required = pack_status == "needs-owner-review" or owner_clearance_required
+    if pack_content_owner_review_required:
+        status = "local-only-owner-review"
+    elif root_path_count:
+        status = "local-only-root-tooling"
+    else:
+        status = "local-only-clean"
+
+    if root_path_count and pack_count:
+        reason = (
+            "No publish request is active; keep the root/tooling unit local, and keep pack-content "
+            "lanes out of any path-scoped staging without owner clearance."
+        )
+    elif root_path_count:
+        reason = "No publish request is active; keep the root/tooling unit local until an explicit publish request."
+    elif pack_count:
+        reason = "No publish request is active; pack-content lanes require owner review before staging."
+    else:
+        reason = "No publish request is active and no dirty publish units are visible."
+
+    policy: dict[str, Any] = {
+        "contract": PUBLISH_POLICY_CONTRACT,
+        "status": status,
+        "publish_requested": False,
+        "local_only_recommended": True,
+        "path_scoped_staging_required": bool(root_path_count or pack_count),
+        "allowed_publish_unit": "root_tooling",
+        "blocked_publish_unit": "pack_content",
+        "root_tooling_status": root_status,
+        "root_tooling_path_count": root_path_count,
+        "root_tooling_staging_command": str(root_unit.get("staging_command", "")),
+        "pack_content_status": pack_status,
+        "pack_content_pack_count": pack_count,
+        "content_edits_allowed": bool(content_policy.get("content_edits_allowed")),
+        "owner_clearance_required": owner_clearance_required,
+        "pack_content_owner_review_required": pack_content_owner_review_required,
+        "reason": reason,
+    }
+    policy["fingerprint"] = hashlib.sha256(
+        json.dumps(policy, ensure_ascii=False, sort_keys=True).encode("utf-8")
+    ).hexdigest()[:12]
+    return {"publish_policy": policy}
+
+
+def publish_policy_line(summary: dict[str, Any]) -> str:
+    policy = summary.get("publish_policy")
+    if not isinstance(policy, dict):
+        policy = publish_policy_summary(summary)["publish_policy"]
+    fingerprint = str(policy.get("fingerprint", ""))
+    suffix = f"; sha256 {fingerprint}" if fingerprint else ""
+    local_mode = "local-only" if policy.get("local_only_recommended") else "publish requested"
+    staging = "path-scoped staging required" if policy.get("path_scoped_staging_required") else "no staging needed"
+    return (
+        f"{policy.get('status', 'unknown')}; {local_mode}; "
+        f"root {int(policy.get('root_tooling_path_count', 0))} paths; "
+        f"packs {int(policy.get('pack_content_pack_count', 0))} lanes "
+        f"{policy.get('pack_content_status', 'unknown')}; {staging}{suffix}"
+    )
+
+
+def validate_publish_policy(summary: dict[str, Any]) -> list[str]:
+    if "generated_at" not in summary and "publish_policy" not in summary:
+        return []
+    expected = publish_policy_summary(summary)["publish_policy"]
+    policy = summary.get("publish_policy")
+    if not isinstance(policy, dict):
+        return ["publish_policy missing or not an object"]
+    errors: list[str] = []
+    for key, expected_value in expected.items():
+        if policy.get(key) != expected_value:
+            errors.append(f"publish_policy.{key} expected {expected_value!r}, observed {policy.get(key)!r}")
+    return errors
+
+
+GOAL_PROGRESS_CONTRACT = "monthly-uplift-goal-progress-v1"
+
+
+def goal_progress_summary(summary: dict[str, Any]) -> dict[str, Any]:
+    targets = summary.get("targets", {}) if isinstance(summary.get("targets"), dict) else {}
+    quality = summary.get("quality", {}) if isinstance(summary.get("quality"), dict) else {}
+    source_maps = summary.get("source_maps", {}) if isinstance(summary.get("source_maps"), dict) else {}
+    root_entries = summary.get("root_entries", {}) if isinstance(summary.get("root_entries"), dict) else {}
+    execution_bridge = summary.get("execution_bridge", {}) if isinstance(summary.get("execution_bridge"), dict) else {}
+    clone = summary.get("clone_audit")
+    worklog = summary.get("worklog", {}) if isinstance(summary.get("worklog"), dict) else {}
+    loop_control = summary.get("loop_control", {}) if isinstance(summary.get("loop_control"), dict) else {}
+    command_plan = summary.get("command_plan", {}) if isinstance(summary.get("command_plan"), dict) else {}
+    next_batch_plan = summary.get("next_batch_plan", {}) if isinstance(summary.get("next_batch_plan"), dict) else {}
+    content_policy = summary.get("content_edit_policy", {}) if isinstance(summary.get("content_edit_policy"), dict) else {}
+    clearance_queue = owner_clearance_queue_data(summary)
+    remaining_debt = summary.get("remaining_debt", {}) if isinstance(summary.get("remaining_debt"), dict) else {}
+    publish_policy = summary.get("publish_policy", {}) if isinstance(summary.get("publish_policy"), dict) else {}
+    boundary = summary.get("worktree_boundary", {}) if isinstance(summary.get("worktree_boundary"), dict) else {}
+
+    score_floor = float(targets.get("score_floor", 90.0))
+    quality_min = float(quality.get("min", 0.0))
+    score_floor_ok = quality_min >= score_floor and int(quality.get("below_target", 0)) == 0
+    source_maps_ok = int(source_maps.get("warnings", 0)) == 0
+    root_cards_ok = (
+        int(root_entries.get("warnings", 0)) == 0
+        and int(root_entries.get("machine_only", 0)) == 0
+        and int(root_entries.get("enriched", 0)) == int(root_entries.get("entry_count", root_entries.get("enriched", 0)))
+    )
+    if isinstance(clone, dict):
+        clone_fail_hits = int(clone.get("fail_hits", 0))
+        clone_status = "ok" if clone_fail_hits == 0 else "review"
+    else:
+        clone_fail_hits = 0
+        clone_status = "skipped"
+    worklog_ok = str(worklog.get("status", "")) == "OK"
+    owner_clearance_required = bool(content_policy.get("owner_clearance_required", False))
+    local_only_recommended = bool(publish_policy.get("local_only_recommended", False))
+    core_invariants_ok = score_floor_ok and source_maps_ok and root_cards_ok
+    future_candidates_recorded = int(next_batch_plan.get("count", 0)) > 0
+
+    if not worklog_ok:
+        status = "worklog-review"
+        reason = "worklog gate is not OK; repair loop evidence before continuing"
+    elif not core_invariants_ok:
+        status = "metric-review"
+        reason = "one or more core monthly uplift invariants needs review"
+    elif clone_status == "review":
+        status = "clone-review"
+        reason = "clone audit reported fail-threshold hits"
+    elif clone_status == "skipped":
+        status = "active-partial-clone-skipped"
+        reason = "core invariants hold in this snapshot; clone audit was skipped and remains required in full gates"
+    elif owner_clearance_required:
+        status = "active-owner-clearance-needed"
+        reason = "core invariants hold; content work remains owner-clearance gated"
+    else:
+        status = "active-progressing"
+        reason = "core invariants hold and the loop has validated progress evidence"
+
+    progress: dict[str, Any] = {
+        "contract": GOAL_PROGRESS_CONTRACT,
+        "status": status,
+        "worklog_status": str(worklog.get("status", "")),
+        "worklog_loop_count": int(worklog.get("loop_count", 0)),
+        "worklog_latest_heading": str(worklog.get("latest_heading", "")),
+        "score_floor_ok": score_floor_ok,
+        "score_floor_target": score_floor,
+        "quality_min": quality_min,
+        "source_maps_ok": source_maps_ok,
+        "source_map_warnings": int(source_maps.get("warnings", 0)),
+        "root_cards_ok": root_cards_ok,
+        "root_entry_enriched": int(root_entries.get("enriched", 0)),
+        "root_entry_machine_only": int(root_entries.get("machine_only", 0)),
+        "root_entry_warnings": int(root_entries.get("warnings", 0)),
+        "clone_audit_status": clone_status,
+        "clone_fail_hits": clone_fail_hits,
+        "execution_bridge_wired": int(execution_bridge.get("wired", 0)),
+        "execution_bridge_total": int(execution_bridge.get("empirical_depth_packs", 0)),
+        "execution_bridge_missing": int(execution_bridge.get("missing", 0)),
+        "command_plan_measurement_count": int(command_plan.get("measurement_count", 0)),
+        "command_plan_validation_count": int(command_plan.get("validation_count", 0)),
+        "next_batch_count": int(next_batch_plan.get("count", 0)),
+        "future_candidates_recorded": future_candidates_recorded,
+        "loop_next_lane": str(loop_control.get("next_lane", "")),
+        "content_edits_allowed": bool(content_policy.get("content_edits_allowed", False)),
+        "owner_clearance_required": owner_clearance_required,
+        "local_only_recommended": local_only_recommended,
+        "dirty_pack_lane_count": int(boundary.get("dirty_pack_count", 0)),
+        "reason": reason,
+    }
+    progress["fingerprint"] = hashlib.sha256(
+        json.dumps(progress, ensure_ascii=False, sort_keys=True).encode("utf-8")
+    ).hexdigest()[:12]
+    return {"goal_progress": progress}
+
+
+def goal_progress_line(summary: dict[str, Any]) -> str:
+    progress = summary.get("goal_progress")
+    if not isinstance(progress, dict):
+        progress = goal_progress_summary(summary)["goal_progress"]
+    fingerprint = str(progress.get("fingerprint", ""))
+    suffix = f"; sha256 {fingerprint}" if fingerprint else ""
+    core = "core OK" if progress.get("score_floor_ok") and progress.get("source_maps_ok") and progress.get("root_cards_ok") else "core review"
+    return (
+        f"{progress.get('status', 'unknown')}; {core}; "
+        f"worklog {int(progress.get('worklog_loop_count', 0))} loops; "
+        f"clone {progress.get('clone_audit_status', 'unknown')}; "
+        f"bridge {int(progress.get('execution_bridge_wired', 0))}/"
+        f"{int(progress.get('execution_bridge_total', 0))}; "
+        f"next {progress.get('loop_next_lane', 'unknown')}{suffix}"
+    )
+
+
+def validate_goal_progress(summary: dict[str, Any]) -> list[str]:
+    if "generated_at" not in summary and "goal_progress" not in summary:
+        return []
+    expected = goal_progress_summary(summary)["goal_progress"]
+    progress = summary.get("goal_progress")
+    if not isinstance(progress, dict):
+        return ["goal_progress missing or not an object"]
+    errors: list[str] = []
+    for key, expected_value in expected.items():
+        if progress.get(key) != expected_value:
+            errors.append(f"goal_progress.{key} expected {expected_value!r}, observed {progress.get(key)!r}")
+    return errors
+
+
+COMPLETION_AUDIT_CONTRACT = "monthly-uplift-completion-audit-v3"
+
+
+def completion_audit_remaining_debt_row(summary: dict[str, Any]) -> tuple[str, str, dict[str, Any]]:
+    debt = remaining_debt_summary(summary)["remaining_debt"]
+    unclaimed_total = int(debt.get("unclaimed_total", 0))
+    owner_clearance_total = int(debt.get("owner_clearance_total", 0))
+    dirty_pack_lane_count = int(debt.get("dirty_pack_lane_count", 0))
+    fingerprint = str(debt.get("fingerprint", ""))
+    if unclaimed_total:
+        status = "Review"
+    elif owner_clearance_total or dirty_pack_lane_count:
+        status = "Triaged"
+    else:
+        status = "OK"
+    evidence = (
+        f"{unclaimed_total} unclaimed; {owner_clearance_total} owner-clearance; "
+        f"{dirty_pack_lane_count} dirty pack lanes"
+    )
+    if fingerprint:
+        evidence = f"{evidence}; debt sha256 {fingerprint}"
+    return status, evidence, debt
+
+
+def completion_audit_owner_clearance_row(summary: dict[str, Any]) -> tuple[str, str, dict[str, Any]]:
+    queue = owner_clearance_queue_data(summary)
+    total = int(queue.get("total", 0))
+    fingerprint = str(queue.get("fingerprint", ""))
+    status = "Triaged" if total else "OK"
+    evidence = f"{total} owner-clearance targets"
+    if fingerprint:
+        evidence = f"{evidence}; queue sha256 {fingerprint}"
+    return status, evidence, queue
+
+
+def completion_audit_requirement_rows(
+    summary: dict[str, Any], progress: dict[str, Any] | None = None
+) -> list[tuple[str, str, str]]:
+    if progress is None:
+        progress = summary.get("goal_progress") if isinstance(summary.get("goal_progress"), dict) else None
+    if not isinstance(progress, dict):
+        progress = goal_progress_summary(summary)["goal_progress"]
+
+    worklog = summary.get("worklog", {}) if isinstance(summary.get("worklog"), dict) else {}
+    loop_control = summary.get("loop_control", {}) if isinstance(summary.get("loop_control"), dict) else {}
+    clone = summary.get("clone_audit")
+    commands = summary.get("command_plan", {}) if isinstance(summary.get("command_plan"), dict) else {}
+    targets = summary.get("targets", {}) if isinstance(summary.get("targets"), dict) else {}
+    target = float(progress.get("score_floor_target", targets.get("score_floor", 90.0)))
+    clone_status = str(progress.get("clone_audit_status", "unknown"))
+    clone_audit_status = "OK" if clone_status == "ok" else "Needs full gate"
+    clone_evidence = "clone audit skipped"
+    if isinstance(clone, dict):
+        clone_evidence = (
+            f"{int(clone.get('fail_hits', 0))} hits >= "
+            f"{float(targets.get('clone_fail_threshold', 0.90)):g}; "
+            f"{int(clone.get('reported_pairs', 0))} reported pairs"
+        )
+    bridge_missing = int(progress.get("execution_bridge_missing", 0))
+    debt_status = "Triaged" if bool(progress.get("owner_clearance_required")) else "OK"
+    if bridge_missing and bool(progress.get("owner_clearance_required")):
+        debt_evidence = f"{bridge_missing} bridge gaps remain owner-clearance gated"
+    else:
+        debt_evidence = f"{bridge_missing} bridge gaps visible"
+    expected_measurement_count = len(NEXT_LOOP_MEASUREMENT_COMMANDS)
+    expected_validation_count = len(NEXT_LOOP_VALIDATION_COMMANDS)
+    debt_register_status, debt_register_evidence, _ = completion_audit_remaining_debt_row(summary)
+    queue_status, queue_evidence, _ = completion_audit_owner_clearance_row(summary)
+
+    return [
+        (
+            "Durable worklog",
+            "OK" if str(worklog.get("status", "")) == "OK" else "Review",
+            f"{int(worklog.get('loop_count', 0))} loops; latest {worklog.get('latest_heading', '')}",
+        ),
+        (
+            "Live measurement plan",
+            "OK" if int(commands.get("measurement_count", 0)) >= expected_measurement_count else "Review",
+            f"{int(commands.get('measurement_count', 0))} measurement commands",
+        ),
+        (
+            "Validation plan",
+            "OK" if int(commands.get("validation_count", 0)) >= expected_validation_count else "Review",
+            f"{int(commands.get('validation_count', 0))} validation commands",
+        ),
+        (
+            "Score floor",
+            "OK" if progress.get("score_floor_ok") else "Review",
+            f"min {float(progress.get('quality_min', 0.0)):.1f}; target {target:g}",
+        ),
+        (
+            "Source-map warnings",
+            "OK" if progress.get("source_maps_ok") else "Review",
+            f"{int(progress.get('source_map_warnings', 0))} warnings",
+        ),
+        (
+            "Root-card warnings",
+            "OK" if progress.get("root_cards_ok") else "Review",
+            (
+                f"{int(progress.get('root_entry_enriched', 0))} enriched; "
+                f"{int(progress.get('root_entry_machine_only', 0))} machine-only; "
+                f"{int(progress.get('root_entry_warnings', 0))} warnings"
+            ),
+        ),
+        ("Clone threshold", clone_audit_status, clone_evidence),
+        ("Remaining debt register", debt_register_status, debt_register_evidence),
+        ("Owner-clearance queue", queue_status, queue_evidence),
+        (
+            "Execution bridge and debt",
+            debt_status,
+            f"{int(progress.get('execution_bridge_wired', 0))}/{int(progress.get('execution_bridge_total', 0))} wired; {debt_evidence}",
+        ),
+        (
+            "Future candidates",
+            "OK" if progress.get("future_candidates_recorded") else "Review",
+            f"{int(progress.get('next_batch_count', 0))} next-batch items",
+        ),
+        (
+            "Ownership and publish boundary",
+            "OK" if progress.get("local_only_recommended") else "Review",
+            (
+                f"next {loop_control.get('next_lane', 'unknown')}; "
+                f"{int(progress.get('dirty_pack_lane_count', 0))} dirty pack lanes; local-only"
+            ),
+        ),
+    ]
+
+
+def completion_audit_blockers(progress: dict[str, Any]) -> list[str]:
+    blockers = ["Month-scale goal remains active; this audit does not mark it complete."]
+    if str(progress.get("clone_audit_status", "unknown")) == "skipped":
+        blockers.append("Full clone audit is required before a completion claim.")
+    if bool(progress.get("owner_clearance_required")):
+        blockers.append("Content debt remains owner-clearance gated.")
+    bridge_missing = int(progress.get("execution_bridge_missing", 0))
+    if bridge_missing:
+        blockers.append(f"Execution bridge still has {bridge_missing} visible gaps.")
+    return blockers
+
+
+def completion_audit_summary(summary: dict[str, Any]) -> dict[str, Any]:
+    progress = summary.get("goal_progress")
+    if not isinstance(progress, dict):
+        progress = goal_progress_summary(summary)["goal_progress"]
+    _, _, remaining_debt = completion_audit_remaining_debt_row(summary)
+    _, _, clearance_queue = completion_audit_owner_clearance_row(summary)
+    rows = completion_audit_requirement_rows(summary, progress)
+    blockers = completion_audit_blockers(progress)
+    ok_count = sum(1 for _, status, _ in rows if status == "OK")
+    triaged_count = sum(1 for _, status, _ in rows if status == "Triaged")
+    review_count = len(rows) - ok_count - triaged_count
+    audit: dict[str, Any] = {
+        "contract": COMPLETION_AUDIT_CONTRACT,
+        "completion_status": "not-complete",
+        "goal_status_action": "none",
+        "reason": str(progress.get("reason", "")),
+        "goal_progress_status": str(progress.get("status", "")),
+        "goal_progress_fingerprint": str(progress.get("fingerprint", "")),
+        "requirement_count": len(rows),
+        "ok_count": ok_count,
+        "triaged_count": triaged_count,
+        "review_count": review_count,
+        "blocker_count": len(blockers),
+        "clone_gate_required": str(progress.get("clone_audit_status", "unknown")) == "skipped",
+        "owner_clearance_required": bool(progress.get("owner_clearance_required", False)),
+        "execution_bridge_missing": int(progress.get("execution_bridge_missing", 0)),
+        "remaining_debt_status": str(remaining_debt.get("status", "")),
+        "remaining_debt_fingerprint": str(remaining_debt.get("fingerprint", "")),
+        "remaining_debt_unclaimed_total": int(remaining_debt.get("unclaimed_total", 0)),
+        "remaining_debt_owner_clearance_total": int(remaining_debt.get("owner_clearance_total", 0)),
+        "remaining_debt_dirty_pack_lane_count": int(remaining_debt.get("dirty_pack_lane_count", 0)),
+        "owner_clearance_queue_total": int(clearance_queue.get("total", 0)),
+        "owner_clearance_queue_fingerprint": str(clearance_queue.get("fingerprint", "")),
+        "requirements": [
+            {"requirement": requirement, "status": status, "evidence": evidence}
+            for requirement, status, evidence in rows
+        ],
+        "blockers": blockers,
+    }
+    audit["fingerprint"] = hashlib.sha256(
+        json.dumps(audit, ensure_ascii=False, sort_keys=True).encode("utf-8")
+    ).hexdigest()[:12]
+    return {"completion_audit": audit}
+
+
+def completion_audit_line(summary: dict[str, Any]) -> str:
+    audit = summary.get("completion_audit")
+    if not isinstance(audit, dict):
+        audit = completion_audit_summary(summary)["completion_audit"]
+    fingerprint = str(audit.get("fingerprint", ""))
+    suffix = f"; sha256 {fingerprint}" if fingerprint else ""
+    return (
+        f"{audit.get('completion_status', 'unknown')}; action {audit.get('goal_status_action', 'unknown')}; "
+        f"{int(audit.get('requirement_count', 0))} requirements; "
+        f"{int(audit.get('ok_count', 0))} OK / {int(audit.get('triaged_count', 0))} triaged / "
+        f"{int(audit.get('review_count', 0))} review; "
+        f"{int(audit.get('blocker_count', 0))} blockers{suffix}"
+    )
+
+
+def validate_completion_audit(summary: dict[str, Any]) -> list[str]:
+    if "generated_at" not in summary and "completion_audit" not in summary:
+        return []
+    expected = completion_audit_summary(summary)["completion_audit"]
+    audit = summary.get("completion_audit")
+    if not isinstance(audit, dict):
+        return ["completion_audit missing or not an object"]
+    errors: list[str] = []
+    for key, expected_value in expected.items():
+        if audit.get(key) != expected_value:
+            errors.append(f"completion_audit.{key} expected {expected_value!r}, observed {audit.get(key)!r}")
+    return errors
+
+
+HANDOFF_MANIFEST_CONTRACT = "monthly-uplift-handoff-v2"
+
+
+def handoff_manifest_summary(summary: dict[str, Any]) -> dict[str, Any]:
+    schema = summary.get("schema", {}) if isinstance(summary.get("schema"), dict) else {}
+    claims = summary.get("claims", {}) if isinstance(summary.get("claims"), dict) else {}
+    loop_control = summary.get("loop_control", {}) if isinstance(summary.get("loop_control"), dict) else {}
+    worklog = summary.get("worklog", {}) if isinstance(summary.get("worklog"), dict) else {}
+    boundary = summary.get("worktree_boundary", {}) if isinstance(summary.get("worktree_boundary"), dict) else {}
+    command_plan = summary.get("command_plan", {}) if isinstance(summary.get("command_plan"), dict) else {}
+    next_batch_plan = summary.get("next_batch_plan", {}) if isinstance(summary.get("next_batch_plan"), dict) else {}
+    content_policy = summary.get("content_edit_policy", {}) if isinstance(summary.get("content_edit_policy"), dict) else {}
+    clearance_queue = owner_clearance_queue_data(summary)
+    remaining_debt = summary.get("remaining_debt", {}) if isinstance(summary.get("remaining_debt"), dict) else {}
+    publish_policy = summary.get("publish_policy", {}) if isinstance(summary.get("publish_policy"), dict) else {}
+    goal_progress = summary.get("goal_progress", {}) if isinstance(summary.get("goal_progress"), dict) else {}
+    completion_audit = summary.get("completion_audit", {}) if isinstance(summary.get("completion_audit"), dict) else {}
+    units = publish_units_data(summary)
+    root_unit = units.get("root_tooling", {}) if isinstance(units.get("root_tooling"), dict) else {}
+    pack_unit = units.get("pack_content", {}) if isinstance(units.get("pack_content"), dict) else {}
+
+    manifest: dict[str, Any] = {
+        "contract": HANDOFF_MANIFEST_CONTRACT,
+        "schema_contract": str(schema.get("contract", "")),
+        "loop_status": str(loop_control.get("status", "")),
+        "next_lane": str(loop_control.get("next_lane", "")),
+        "claims_fingerprint": str(claims.get("fingerprint", "")),
+        "claims_active_row_count": int(claims.get("active_row_count", 0)),
+        "worklog_loop_count": int(worklog.get("loop_count", 0)),
+        "worklog_latest_heading": str(worklog.get("latest_heading", "")),
+        "worktree_boundary_fingerprint": str(boundary.get("fingerprint", "")),
+        "command_plan_fingerprint": str(command_plan.get("fingerprint", "")),
+        "next_batch_plan_fingerprint": str(next_batch_plan.get("fingerprint", "")),
+        "content_edit_policy_status": str(content_policy.get("status", "")),
+        "content_edit_policy_fingerprint": str(content_policy.get("fingerprint", "")),
+        "owner_clearance_queue_total": int(clearance_queue.get("total", 0)),
+        "owner_clearance_queue_fingerprint": str(clearance_queue.get("fingerprint", "")),
+        "remaining_debt_status": str(remaining_debt.get("status", "")),
+        "remaining_debt_fingerprint": str(remaining_debt.get("fingerprint", "")),
+        "publish_policy_status": str(publish_policy.get("status", "")),
+        "publish_policy_fingerprint": str(publish_policy.get("fingerprint", "")),
+        "goal_progress_status": str(goal_progress.get("status", "")),
+        "goal_progress_fingerprint": str(goal_progress.get("fingerprint", "")),
+        "completion_status": str(completion_audit.get("completion_status", "")),
+        "completion_audit_contract": str(completion_audit.get("contract", "")),
+        "completion_audit_requirement_count": int(completion_audit.get("requirement_count", 0)),
+        "completion_audit_ok_count": int(completion_audit.get("ok_count", 0)),
+        "completion_audit_triaged_count": int(completion_audit.get("triaged_count", 0)),
+        "completion_audit_review_count": int(completion_audit.get("review_count", 0)),
+        "completion_audit_blocker_count": int(completion_audit.get("blocker_count", 0)),
+        "completion_audit_fingerprint": str(completion_audit.get("fingerprint", "")),
+        "publish_requested": bool(publish_policy.get("publish_requested", False)),
+        "local_only_recommended": bool(publish_policy.get("local_only_recommended", False)),
+        "root_tooling_status": str(root_unit.get("status", "")),
+        "root_tooling_path_count": int(root_unit.get("path_count", 0)),
+        "root_tooling_staging_command": str(root_unit.get("staging_command", "")),
+        "pack_content_status": str(pack_unit.get("status", "")),
+        "pack_content_pack_count": int(pack_unit.get("pack_count", 0)),
+    }
+    manifest["fingerprint"] = hashlib.sha256(
+        json.dumps(manifest, ensure_ascii=False, sort_keys=True).encode("utf-8")
+    ).hexdigest()[:12]
+    return {"handoff_manifest": manifest}
+
+
+def handoff_manifest_line(summary: dict[str, Any]) -> str:
+    manifest = summary.get("handoff_manifest")
+    if not isinstance(manifest, dict):
+        manifest = handoff_manifest_summary(summary)["handoff_manifest"]
+    fingerprint = str(manifest.get("fingerprint", ""))
+    suffix = f"; sha256 {fingerprint}" if fingerprint else ""
+    return (
+        f"{manifest.get('loop_status', 'unknown')} -> {manifest.get('next_lane', 'unknown')}; "
+        f"root {int(manifest.get('root_tooling_path_count', 0))} paths; "
+        f"packs {int(manifest.get('pack_content_pack_count', 0))} lanes; "
+        f"completion {int(manifest.get('completion_audit_requirement_count', 0))} req / "
+        f"{int(manifest.get('completion_audit_blocker_count', 0))} blockers{suffix}"
+    )
+
+
+def validate_handoff_manifest(summary: dict[str, Any]) -> list[str]:
+    if "generated_at" not in summary and "handoff_manifest" not in summary:
+        return []
+    expected = handoff_manifest_summary(summary)["handoff_manifest"]
+    manifest = summary.get("handoff_manifest")
+    if not isinstance(manifest, dict):
+        return ["handoff_manifest missing or not an object"]
+    errors: list[str] = []
+    for key, expected_value in expected.items():
+        if manifest.get(key) != expected_value:
+            errors.append(f"handoff_manifest.{key} expected {expected_value!r}, observed {manifest.get(key)!r}")
+    return errors
+
+
 def markdown(summary: dict[str, Any]) -> str:
     counts = summary["counts"]
     quality = summary["quality"]
+    execution_bridge = summary["execution_bridge"]
     source_maps = summary["source_maps"]
     root_entries = summary["root_entries"]
     clone = summary["clone_audit"]
     claims = summary["claims"]
+    loop_control = summary["loop_control"]
+    worklog = summary["worklog"]
     git = summary["git"]
     target = summary["targets"]["score_floor"]
 
@@ -545,8 +3658,11 @@ def markdown(summary: dict[str, Any]) -> str:
         "|---|---:|",
         f"| Inventory | {counts['skills']} skills / {counts['packs']} packs / {counts['root_entries']} root entries |",
         f"| Quality scorecard | mean {quality['mean']}, min {quality['min']}, below {target:g}: {quality['below_target']} |",
+        f"| Execution bridge | {execution_bridge['wired']} / {execution_bridge['empirical_depth_packs']} empirical depth packs wired; {execution_bridge['missing']} missing |",
         f"| Source maps | {source_maps['map_count']} maps, {source_maps['warnings']} warnings, max unresolved {source_maps['max_unresolved']} |",
         f"| Root entries | {root_entries['enriched']} enriched, {root_entries['machine_only']} machine-only, {root_entries['warnings']} warnings |",
+        f"| Worklog | {worklog['status']}; {worklog['loop_count']} loops; latest `{str(worklog['latest_heading']).replace('|', '/')}` |",
+        f"| Claims boundary | {claims_source_line(claims)} |",
     ]
     if clone is None:
         lines.append("| Clone audit | skipped |")
@@ -554,11 +3670,107 @@ def markdown(summary: dict[str, Any]) -> str:
         lines.append(
             f"| Clone audit | max reported {clone['max_score']:.3f}, fail hits {clone['fail_hits']}, reported pairs {clone['reported_pairs']} |"
         )
-    lines.append(f"| Git status | {git['branch']} with {len(git['dirty_lines'])} dirty entries |")
+    lines.append(f"| Git status | {working_tree_line(git)} |")
+    lines.append(f"| Dashboard schema | {schema_line(summary)} |")
+    lines.append(f"| Worktree boundary | {worktree_boundary_line(summary)} |")
+    lines.append(f"| Content-edit policy | {content_edit_policy_line(summary)} |")
+    lines.append(f"| Remaining debt | {remaining_debt_line(summary)} |")
+    lines.append(f"| Publish policy | {publish_policy_line(summary)} |")
+    lines.append(f"| Goal progress | {goal_progress_line(summary)} |")
+    lines.append(f"| Completion audit | {completion_audit_line(summary)} |")
+    lines.append(f"| Handoff manifest | {handoff_manifest_line(summary)} |")
+    lines.append(f"| Command plan | {command_plan_line(summary)} |")
+    lines.append(f"| Next-batch plan | {next_batch_plan_line(summary)} |")
 
     lines.extend(["", "## Goal-readiness Signals", "", "| Check | Status | Evidence |", "|---|---|---|"])
     for check, status, evidence in readiness_rows(summary):
         lines.append(f"| {check} | {status} | {evidence} |")
+
+    delta = summary.get("delta")
+    if isinstance(delta, dict):
+        lines.extend(
+            [
+                "",
+                "## Trajectory Delta",
+                "",
+                f"Compared with: {delta.get('baseline_generated_at', 'unknown')}",
+                "",
+                "| Metric | Previous | Current | Delta |",
+                "|---|---:|---:|---:|",
+            ]
+        )
+        for row in delta_rows(summary):
+            precision = int(row.get("precision", 0))
+            lines.append(
+                "| {label} | {previous} | {current} | {delta} |".format(
+                    label=row["label"],
+                    previous=format_delta_value(row["previous"], precision),
+                    current=format_delta_value(row["current"], precision),
+                    delta=format_signed_delta(row["delta"], precision),
+                )
+            )
+        text_rows = delta_text_rows(summary)
+        if text_rows:
+            lines.extend(["", "| Signal | Previous | Current | Status |", "|---|---|---|---|"])
+            for row in text_rows:
+                lines.append(
+                    "| {label} | {previous} | {current} | {status} |".format(
+                        label=str(row["label"]).replace("|", "/"),
+                        previous=str(row["previous"]).replace("|", "/"),
+                        current=str(row["current"]).replace("|", "/"),
+                        status=format_text_delta_status(row),
+                    )
+                )
+
+    lines.extend(
+        [
+            "",
+            "## Loop-control Signals",
+            "",
+            "| Signal | Current |",
+            "|---|---:|",
+            f"| Status | {loop_control['status']} |",
+            f"| Recommended next lane | {loop_control['next_lane']} |",
+            f"| Unclaimed score candidates | {loop_control['unclaimed_score_candidates']} |",
+            f"| Unclaimed source-map candidates | {loop_control['unclaimed_source_map_candidates']} |",
+            f"| Unclaimed execution-bridge candidates | {loop_control['unclaimed_execution_bridge_candidates']} |",
+            f"| Claim-sensitive score targets | {loop_control['claim_sensitive_score_targets']} |",
+            f"| Claim-sensitive source-map targets | {loop_control['claim_sensitive_source_map_targets']} |",
+            f"| Claim-sensitive execution-bridge targets | {loop_control['claim_sensitive_execution_bridge_targets']} |",
+            f"| Dirty skipped packs | {loop_control['dirty_skipped_packs']} |",
+            f"| Reason | {loop_control['reason']} |",
+        ]
+    )
+
+    clearance_queue = owner_clearance_queue_data(summary)
+    if clearance_queue:
+        labels = {
+            "score-floor": "Score-floor targets",
+            "source-map": "Source-map targets",
+            "execution-bridge": "Execution-bridge targets",
+        }
+        lines.extend(
+            [
+                "",
+                "## Owner Clearance Queue",
+                "",
+                "These grouped targets are not safe edit candidates until the owning lane clears them.",
+                "",
+                "| Target type | Current queue |",
+                "|---|---|",
+            ]
+        )
+        for kind in OWNER_CLEARANCE_KINDS:
+            queue_row = clearance_queue.get(kind, {})
+            rows = queue_row.get("displayed", [])
+            if not rows:
+                continue
+            rendered = "; ".join(
+                f"`{row['pack']}` ({row['reason'].replace('|', '/')})" if row["reason"] else f"`{row['pack']}`"
+                for row in rows
+            )
+            rendered += clearance_remainder_from_row(queue_row)
+            lines.append(f"| {labels.get(kind, kind)} | {rendered} |")
 
     lines.extend(["", "## Lowest Scorecard Packs", "", "| Score | Pack | Weakest skill |", "|---:|---|---|"])
     for row in quality["worst"]:
@@ -569,6 +3781,17 @@ def markdown(summary: dict[str, Any]) -> str:
     for row in source_maps["highest_unresolved"]:
         lines.append(f"| {int(row['unresolved_flags'])} | `{row['path']}` |")
 
+    lines.extend(["", "## Execution-Bridge Tail", "", "| Pack | Score | Current bridge links | Claim status |", "|---|---:|---:|---|"])
+    if execution_bridge["missing_packs"]:
+        for row in execution_bridge["missing_packs"]:
+            reason = claim_pack_reason(summary, str(row["pack"]))
+            claim_status = reason.replace("|", "/") if reason else "unclaimed"
+            lines.append(
+                f"| {row['pack']} | {float(row['score']):.1f} | {int(row.get('exec_bridge_skills', 0))} | {claim_status} |"
+            )
+    else:
+        lines.append("| n/a | n/a | n/a | All empirical depth packs are wired. |")
+
     if claims["sensitive_current_targets"]:
         lines.extend(["", "## Claim-sensitive Current Targets", "", "| Target | Pack | Reason |", "|---|---|---|"])
         for target in claims["sensitive_current_targets"]:
@@ -578,13 +3801,16 @@ def markdown(summary: dict[str, Any]) -> str:
     candidate_pool_data = summary.get("candidate_pool", {})
     score_candidates = candidate_pool_data.get("score_unclaimed", [])
     source_candidates = candidate_pool_data.get("source_map_unclaimed", [])
-    if score_candidates or source_candidates:
+    bridge_candidates = candidate_pool_data.get("execution_bridge_unclaimed", [])
+    bridge_clearance = execution_bridge_clearance_rows(summary)
+    dirty_skipped = candidate_pool_data.get("dirty_skipped_packs", [])
+    if score_candidates or source_candidates or bridge_candidates:
         lines.extend(
             [
                 "",
                 "## Unclaimed Candidate Pool",
                 "",
-                "These are selected from the full audit outputs, not just the displayed top rows; re-check claims before editing.",
+                "These are selected from the full scorecard, source-map, and execution-bridge outputs, not just the displayed top rows; re-check claims before editing. Packs already dirty in the current worktree are skipped so the next queue does not point back to an in-progress batch.",
             ]
         )
         if score_candidates:
@@ -595,6 +3821,23 @@ def markdown(summary: dict[str, Any]) -> str:
             lines.extend(["", "| Flags | Source map |", "|---:|---|"])
             for row in source_candidates:
                 lines.append(f"| {int(row['unresolved_flags'])} | `{row['path']}` |")
+        if bridge_candidates:
+            lines.extend(["", "| Pack | Score | Current bridge links | Weakest skill |", "|---|---:|---:|---|"])
+            for row in bridge_candidates:
+                lines.append(
+                    f"| {row['pack']} | {float(row['score']):.1f} | "
+                    f"{int(row['current_bridge_links'])} | `{row['weakest_skill']}` |"
+                )
+    if dirty_skipped:
+        lines.extend(["", "## Dirty In-progress Packs Skipped", "", "| Pack |", "|---|"])
+        for row in dirty_skipped:
+            lines.append(f"| {row['pack']} |")
+
+    if git["dirty_lines"]:
+        lines.extend(["", "## Dirty Boundary Review", ""])
+        lines.extend(dirty_boundary_lines(git))
+        lines.extend(["", "## Publish Unit Review", ""])
+        lines.extend(publish_unit_lines(summary))
 
     if clone is not None:
         lines.extend(["", "## Top Clone Pairs", "", "| Score | Group | Pair |", "|---:|---|---|"])
@@ -610,10 +3853,555 @@ def markdown(summary: dict[str, Any]) -> str:
         lines.extend(["", "## Dirty Working Tree", "", "```text", *git["dirty_lines"], "```"])
 
     lines.extend(["", "## Next Count-preserving Batches", ""])
-    for batch in next_batches(summary):
+    for batch in summary_next_batches(summary):
         lines.append(f"- {batch}")
-    lines.append("- Re-run `python3 tools/run_checks.py --skip-reports` before handoff or publish.")
+    lines.extend(["", "## Measurement Commands", ""])
+    for command in summary_measurement_commands(summary):
+        lines.append(f"- `{command}`")
+
+    lines.extend(["", "## Validation Commands", ""])
+    for command in summary_validation_commands(summary):
+        lines.append(f"- `{command}`")
     return "\n".join(lines) + "\n"
+
+
+def handoff(summary: dict[str, Any]) -> str:
+    counts = summary["counts"]
+    quality = summary["quality"]
+    execution_bridge = summary["execution_bridge"]
+    source_maps = summary["source_maps"]
+    root_entries = summary["root_entries"]
+    clone = summary["clone_audit"]
+    claims = summary["claims"]
+    loop_control = summary["loop_control"]
+    worklog = summary["worklog"]
+    git = summary["git"]
+    candidate_pool_data = summary.get("candidate_pool", {})
+    dirty_skipped = candidate_pool_data.get("dirty_skipped_packs", [])
+    score_candidates = candidate_pool_data.get("score_unclaimed", [])
+    source_candidates = candidate_pool_data.get("source_map_unclaimed", [])
+    bridge_candidates = candidate_pool_data.get("execution_bridge_unclaimed", [])
+    bridge_clearance = execution_bridge_clearance_rows(summary)
+    target = summary["targets"]["score_floor"]
+
+    clone_line = "skipped"
+    if clone is not None:
+        clone_line = (
+            f"max {clone['max_score']:.3f}, fail hits {clone['fail_hits']}, "
+            f"reported pairs {clone['reported_pairs']}"
+        )
+
+    lines = [
+        "# Monthly Uplift Handoff",
+        "",
+        f"Generated: {summary['generated_at']}",
+        "",
+        "## Loop Decision",
+        "",
+        f"- Status: `{loop_control['status']}`",
+        f"- Next lane: `{loop_control['next_lane']}`",
+        f"- Reason: {loop_control['reason']}",
+        "",
+        "## Current Metrics",
+        "",
+        f"- Inventory: {counts['skills']} skills / {counts['packs']} packs / {counts['root_entries']} root entries",
+        f"- Quality: mean {quality['mean']}, min {quality['min']}, below {target:g}: {quality['below_target']}",
+        f"- Execution bridge: {execution_bridge['wired']} / {execution_bridge['empirical_depth_packs']} wired; {execution_bridge['missing']} missing",
+        f"- Source maps: {source_maps['map_count']} maps, {source_maps['warnings']} warnings, max unresolved {source_maps['max_unresolved']}",
+        f"- Root entries: {root_entries['enriched']} enriched, {root_entries['machine_only']} machine-only, {root_entries['warnings']} warnings",
+        f"- Worklog: {worklog['status']}; {worklog['loop_count']} loops; latest {worklog['latest_heading']}",
+        f"- Claims boundary: {claims_source_line(claims)}",
+        f"- Clone audit: {clone_line}",
+        f"- Working tree: {working_tree_line(git)}",
+        f"- Dashboard schema: {schema_line(summary)}",
+        f"- Worktree boundary: {worktree_boundary_line(summary)}",
+        f"- Content-edit policy: {content_edit_policy_line(summary)}",
+        f"- Remaining debt: {remaining_debt_line(summary)}",
+        f"- Publish policy: {publish_policy_line(summary)}",
+        f"- Goal progress: {goal_progress_line(summary)}",
+        f"- Completion audit: {completion_audit_line(summary)}",
+        f"- Handoff manifest: {handoff_manifest_line(summary)}",
+        f"- Command plan: {command_plan_line(summary)}",
+        f"- Next-batch plan: {next_batch_plan_line(summary)}",
+    ]
+
+    delta = summary.get("delta")
+    if isinstance(delta, dict):
+        lines.extend(
+            [
+                "",
+                "## Trajectory Delta",
+                "",
+                f"- Compared with: {delta.get('baseline_generated_at', 'unknown')}",
+                f"- Previous status: `{delta.get('previous_loop_status', 'unknown')}`",
+                f"- Current status: `{delta.get('current_loop_status', 'unknown')}`",
+            ]
+        )
+        for row in delta_rows(summary):
+            precision = int(row.get("precision", 0))
+            lines.append(
+                "- {label}: {previous} -> {current} ({delta})".format(
+                    label=row["label"],
+                    previous=format_delta_value(row["previous"], precision),
+                    current=format_delta_value(row["current"], precision),
+                    delta=format_signed_delta(row["delta"], precision),
+                )
+            )
+        for row in delta_text_rows(summary):
+            lines.append(
+                "- {label}: {previous} -> {current} ({status})".format(
+                    label=row["label"],
+                    previous=row["previous"],
+                    current=row["current"],
+                    status=format_text_delta_status(row),
+                )
+            )
+
+    lines.extend(
+        [
+            "",
+            "## Candidate Gate",
+            "",
+            f"- Unclaimed score candidates: {loop_control['unclaimed_score_candidates']}",
+            f"- Unclaimed source-map candidates: {loop_control['unclaimed_source_map_candidates']}",
+            f"- Unclaimed execution-bridge candidates: {loop_control['unclaimed_execution_bridge_candidates']}",
+            f"- Claim-sensitive score targets: {loop_control['claim_sensitive_score_targets']}",
+            f"- Claim-sensitive source-map targets: {loop_control['claim_sensitive_source_map_targets']}",
+            f"- Claim-sensitive execution-bridge targets: {loop_control['claim_sensitive_execution_bridge_targets']}",
+            f"- Dirty skipped packs: {loop_control['dirty_skipped_packs']}",
+        ]
+    )
+    if git.get("dirty_lines"):
+        lines.extend(["", "## Dirty Boundary", ""])
+        lines.extend(dirty_boundary_lines(git))
+        lines.extend(["", "## Publish Units", ""])
+        lines.extend(publish_unit_lines(summary))
+
+    clearance_queue = owner_clearance_queue_data(summary)
+    if clearance_queue:
+        labels = {
+            "score-floor": "Score-floor targets",
+            "source-map": "Source-map targets",
+            "execution-bridge": "Execution-bridge targets",
+        }
+        lines.extend(
+            [
+                "",
+                "## Owner Clearance Queue",
+                "",
+                "These are not safe edit candidates until the owning lane clears them.",
+            ]
+        )
+        for kind in OWNER_CLEARANCE_KINDS:
+            queue_row = clearance_queue.get(kind, {})
+            rows = queue_row.get("displayed", [])
+            if not rows:
+                continue
+            rendered = "; ".join(
+                f"{row['pack']} ({row['reason']})" if row["reason"] else row["pack"]
+                for row in rows
+            )
+            rendered += clearance_remainder_from_row(queue_row)
+            lines.append(f"- {labels.get(kind, kind)}: {rendered}")
+
+    lines.extend(["", "## Next Queue", ""])
+    if score_candidates:
+        lines.append("- Score candidates: " + pack_list(score_candidates, limit=5))
+    else:
+        lines.append("- Score candidates: none after claim and dirty-pack filtering")
+    if source_candidates:
+        lines.append("- Source-map candidates: " + source_map_list(source_candidates, limit=5))
+    else:
+        lines.append("- Source-map candidates: none after claim and dirty-pack filtering")
+    if bridge_candidates:
+        lines.append("- Execution-bridge candidates: " + pack_list(bridge_candidates, limit=5))
+    elif bridge_clearance:
+        lines.append(
+            "- Execution-bridge candidates: none unclaimed; owner clearance required for "
+            + pack_reason_list_with_remainder(bridge_clearance, limit=5)
+        )
+    else:
+        lines.append("- Execution-bridge candidates: none unclaimed in the current target window")
+    if dirty_skipped:
+        lines.append("- Dirty skipped packs: " + pack_list_with_remainder(dirty_skipped, limit=8))
+    lines.append("- Before content edits, re-read `.maintenance/CLAIMS.md` and use path-scoped staging.")
+
+    lines.extend(["", "## Measurement Commands", ""])
+    for command in summary_measurement_commands(summary):
+        lines.append(f"- `{command}`")
+
+    lines.extend(["", "## Validation Commands", ""])
+    for command in summary_validation_commands(summary):
+        lines.append(f"- `{command}`")
+    return "\n".join(lines) + "\n"
+
+
+def publish_plan(summary: dict[str, Any]) -> str:
+    policy = summary.get("publish_policy")
+    if not isinstance(policy, dict):
+        policy = publish_policy_summary(summary)["publish_policy"]
+    units = publish_units_data(summary)
+    root_unit = units.get("root_tooling", {}) if isinstance(units.get("root_tooling"), dict) else {}
+    pack_unit = units.get("pack_content", {}) if isinstance(units.get("pack_content"), dict) else {}
+    root_paths = [str(path) for path in root_unit.get("paths", [])]
+    pack_names = [str(name) for name in pack_unit.get("packs", [])]
+    command = str(root_unit.get("staging_command", ""))
+
+    lines = [
+        "# Local Publish Plan",
+        "",
+        f"Generated: {summary['generated_at']}",
+        "",
+        "## Policy",
+        "",
+        f"- Status: `{policy.get('status', 'unknown')}`",
+        f"- Publish requested: `{str(policy.get('publish_requested', False)).lower()}`",
+        f"- Local-only recommended: `{str(policy.get('local_only_recommended', True)).lower()}`",
+        f"- Allowed unit: `{policy.get('allowed_publish_unit', 'root_tooling')}`",
+        f"- Blocked unit: `{policy.get('blocked_publish_unit', 'pack_content')}`",
+        f"- Reason: {policy.get('reason', '')}",
+        f"- Publish policy: {publish_policy_line(summary)}",
+        f"- Worktree boundary: {worktree_boundary_line(summary)}",
+        "",
+        "## Allowed Root/Tooling Unit",
+        "",
+        (
+            f"- Root/tooling: {root_unit.get('status', 'unknown')}; "
+            f"{int(root_unit.get('path_count', len(root_paths)))} paths"
+        ),
+        "- Staging command: " + (f"`{command}`" if command else "none"),
+    ]
+    if root_paths:
+        lines.append("- Paths:")
+        lines.extend(f"  - `{path}`" for path in root_paths)
+    else:
+        lines.append("- Paths: none")
+
+    lines.extend(
+        [
+            "",
+            "## Blocked Pack Content Unit",
+            "",
+            (
+                f"- Pack content: {pack_unit.get('status', 'unknown')}; "
+                f"{int(pack_unit.get('pack_count', len(pack_names)))} pack lanes"
+            ),
+        ]
+    )
+    if pack_names:
+        lines.append("- Packs:")
+        lines.extend(f"  - `{pack}`" for pack in pack_names)
+    else:
+        lines.append("- Packs: none")
+
+    lines.extend(
+        [
+            "",
+            "## Required Pre-Publish Checks",
+            "",
+            "- Re-read `.maintenance/CLAIMS.md`.",
+            "- Re-run the dashboard and worklog gates.",
+        ]
+    )
+    for command_text in summary_validation_commands(summary):
+        lines.append(f"- `{command_text}`")
+    lines.extend(
+        [
+            "",
+            "No git commands are executed by this plan.",
+        ]
+    )
+    return "\n".join(lines) + "\n"
+
+
+def debt_audit(summary: dict[str, Any]) -> str:
+    debt = summary.get("remaining_debt")
+    if not isinstance(debt, dict):
+        debt = remaining_debt_summary(summary)["remaining_debt"]
+    loop_control = summary.get("loop_control", {}) if isinstance(summary.get("loop_control"), dict) else {}
+    content_policy = summary.get("content_edit_policy")
+    if not isinstance(content_policy, dict):
+        content_policy = content_edit_policy_summary(summary)["content_edit_policy"]
+    clearance_queue = owner_clearance_queue_data(summary)
+    score = debt.get("score_floor", {}) if isinstance(debt.get("score_floor"), dict) else {}
+    source = debt.get("source_map", {}) if isinstance(debt.get("source_map"), dict) else {}
+    bridge = debt.get("execution_bridge", {}) if isinstance(debt.get("execution_bridge"), dict) else {}
+
+    rows = [
+        (
+            "Score floor",
+            int(score.get("unclaimed", 0)),
+            int(score.get("owner_clearance", 0)),
+            f"lowest {float(score.get('lowest_score', 0.0)):.1f}; below target {int(score.get('below_target', 0))}",
+        ),
+        (
+            "Source-map",
+            int(source.get("unclaimed", 0)),
+            int(source.get("owner_clearance", 0)),
+            f"warnings {int(source.get('warnings', 0))}; max unresolved {int(source.get('max_unresolved', 0))}",
+        ),
+        (
+            "Execution bridge",
+            int(bridge.get("unclaimed", 0)),
+            int(bridge.get("owner_clearance", 0)),
+            f"{int(bridge.get('wired', 0))}/{int(bridge.get('total', 0))} wired; {int(bridge.get('missing', 0))} missing",
+        ),
+    ]
+
+    lines = [
+        "# Remaining Debt Audit",
+        "",
+        f"Generated: {summary['generated_at']}",
+        "",
+        "## Decision",
+        "",
+        f"- Status: `{debt.get('status', 'unknown')}`",
+        f"- Loop-control status: `{loop_control.get('status', 'unknown')}`",
+        f"- Content-edit policy: {content_edit_policy_line(summary)}",
+        f"- Remaining debt: {remaining_debt_line(summary)}",
+        f"- Owner-clearance queue: {int(clearance_queue.get('total', 0))} targets; "
+        f"sha256 {clearance_queue.get('fingerprint', '')}",
+        f"- Reason: {debt.get('reason', '')}",
+        "",
+        "## Debt Register",
+        "",
+        "| Lane | Unclaimed | Owner-clearance | Current signal |",
+        "|---|---:|---:|---|",
+    ]
+    for lane, unclaimed, owner_clearance, signal in rows:
+        lines.append(f"| {lane} | {unclaimed} | {owner_clearance} | {signal} |")
+
+    lines.extend(
+        [
+            "",
+            "## Ownership Boundary",
+            "",
+            f"- Dirty skipped packs: {int(debt.get('dirty_skipped_pack_count', 0))}",
+            f"- Dirty pack lanes: {int(debt.get('dirty_pack_lane_count', 0))}",
+            f"- Worktree boundary: {worktree_boundary_line(summary)}",
+            f"- Publish policy: {publish_policy_line(summary)}",
+        ]
+    )
+
+    clearance_queue = owner_clearance_queue_data(summary)
+    if clearance_queue:
+        labels = {
+            "score-floor": "Score-floor targets",
+            "source-map": "Source-map targets",
+            "execution-bridge": "Execution-bridge targets",
+        }
+        lines.extend(["", "## Owner Clearance Queue", ""])
+        for kind in OWNER_CLEARANCE_KINDS:
+            queue_row = clearance_queue.get(kind, {})
+            rows_value = queue_row.get("displayed", [])
+            if not rows_value:
+                continue
+            rendered = "; ".join(
+                f"{row['pack']} ({row['reason']})" if row["reason"] else row["pack"]
+                for row in rows_value
+            )
+            rendered += clearance_remainder_from_row(queue_row)
+            lines.append(f"- {labels.get(kind, kind)}: {rendered}")
+
+    lines.extend(
+        [
+            "",
+            "## Validation Commands",
+            "",
+        ]
+    )
+    for command_text in summary_validation_commands(summary):
+        lines.append(f"- `{command_text}`")
+    return "\n".join(lines) + "\n"
+
+
+def goal_audit(summary: dict[str, Any]) -> str:
+    progress = summary.get("goal_progress")
+    if not isinstance(progress, dict):
+        progress = goal_progress_summary(summary)["goal_progress"]
+    audit = summary.get("completion_audit")
+    if not isinstance(audit, dict):
+        audit = completion_audit_summary(summary)["completion_audit"]
+    rows = [
+        (
+            str(row.get("requirement", "")),
+            str(row.get("status", "")),
+            str(row.get("evidence", "")),
+        )
+        for row in audit.get("requirements", [])
+        if isinstance(row, dict)
+    ]
+    blockers = [str(blocker) for blocker in audit.get("blockers", [])]
+
+    lines = [
+        "# Goal Completion Audit",
+        "",
+        f"Generated: {summary['generated_at']}",
+        "",
+        "## Decision",
+        "",
+        f"- Completion status: `{audit.get('completion_status', 'unknown')}`",
+        f"- Goal status action: {audit.get('goal_status_action', 'unknown')}",
+        f"- Completion audit: {completion_audit_line(summary)}",
+        f"- Goal progress: {goal_progress_line(summary)}",
+        f"- Reason: {audit.get('reason', progress.get('reason', ''))}",
+        "",
+        "## Requirement Evidence",
+        "",
+        "| Requirement | Status | Evidence |",
+        "|---|---|---|",
+    ]
+    for requirement, status, evidence in rows:
+        lines.append(f"| {requirement} | {status} | {evidence.replace('|', '/')} |")
+    lines.extend(["", "## Blockers / Remaining Proof", ""])
+    for blocker in blockers:
+        lines.append(f"- {blocker}")
+    lines.extend(["", "No goal status is changed by this audit."])
+    return "\n".join(lines) + "\n"
+
+
+def worklog_template(summary: dict[str, Any]) -> str:
+    counts = summary["counts"]
+    quality = summary["quality"]
+    execution_bridge = summary["execution_bridge"]
+    source_maps = summary["source_maps"]
+    root_entries = summary["root_entries"]
+    clone = summary["clone_audit"]
+    claims = summary["claims"]
+    loop_control = summary["loop_control"]
+    git = summary["git"]
+    target = summary["targets"]["score_floor"]
+    bridge_clearance = execution_bridge_clearance_rows(summary)
+    generated_date = str(summary["generated_at"]).split("T", 1)[0]
+    clone_line = "skipped"
+    if clone is not None:
+        clone_line = (
+            f"max {clone['max_score']:.3f}, fail hits {clone['fail_hits']}, "
+            f"reported pairs {clone['reported_pairs']}"
+        )
+
+    lines = [
+        f"### {generated_date} - Monthly Uplift Loop",
+        "",
+        "- Scope: [describe root-only/tooling/content lane and ownership boundary].",
+        "- Rationale: [describe why this bounded batch is the lowest-risk high-impact next step].",
+        "- Files: [list paths changed in this loop].",
+        "- Result: [summarize the delivered change and how it improves the month-long goal].",
+        "- Live metrics:",
+        f"  - Inventory: {counts['skills']} skills / {counts['packs']} packs / {counts['root_entries']} root entries.",
+        f"  - Quality: mean {quality['mean']}, min {quality['min']}, below {target:g}: {quality['below_target']}.",
+        f"  - Execution bridge: {execution_bridge['wired']} / {execution_bridge['empirical_depth_packs']} wired; {execution_bridge['missing']} missing.",
+        f"  - Source maps: {source_maps['map_count']} maps, {source_maps['warnings']} warnings, max unresolved {source_maps['max_unresolved']}.",
+        f"  - Root entries: {root_entries['enriched']} enriched, {root_entries['machine_only']} machine-only, {root_entries['warnings']} warnings.",
+        f"  - Claims boundary: {claims_source_line(claims)}.",
+        f"  - Clone audit: {clone_line}.",
+        f"  - Working tree: {working_tree_line(git)}.",
+        f"  - Dashboard schema: {schema_line(summary)}.",
+        f"  - Worktree boundary: {worktree_boundary_line(summary)}.",
+        f"  - Content-edit policy: {content_edit_policy_line(summary)}.",
+        f"  - Remaining debt: {remaining_debt_line(summary)}.",
+        f"  - Publish policy: {publish_policy_line(summary)}.",
+        f"  - Goal progress: {goal_progress_line(summary)}.",
+        f"  - Completion audit: {completion_audit_line(summary)}.",
+        f"  - Handoff manifest: {handoff_manifest_line(summary)}.",
+        f"  - Command plan: {command_plan_line(summary)}.",
+        f"  - Next-batch plan: {next_batch_plan_line(summary)}.",
+    ]
+    if git.get("dirty_lines"):
+        lines.extend(f"  {line}" for line in dirty_boundary_lines(git))
+        lines.append("  - Publish units:")
+        lines.extend(f"    {line}" for line in publish_unit_lines(summary))
+    lines.extend(
+        [
+        "- Loop-control:",
+        f"  - Status: `{loop_control['status']}`.",
+        f"  - Next lane: `{loop_control['next_lane']}`.",
+        f"  - Reason: {loop_control['reason']}.",
+        f"  - Unclaimed score/source/bridge candidates: {loop_control['unclaimed_score_candidates']} / {loop_control['unclaimed_source_map_candidates']} / {loop_control['unclaimed_execution_bridge_candidates']}.",
+        f"  - Claim-sensitive score/source/bridge targets: {loop_control['claim_sensitive_score_targets']} / {loop_control['claim_sensitive_source_map_targets']} / {loop_control['claim_sensitive_execution_bridge_targets']}.",
+        f"  - Dirty skipped packs: {loop_control['dirty_skipped_packs']}.",
+        ]
+    )
+    if bridge_clearance:
+        lines.append(
+            "  - Execution-bridge owner-clearance tail: "
+            f"{pack_reason_list_with_remainder(bridge_clearance, limit=5)}."
+        )
+
+    delta = summary.get("delta")
+    if isinstance(delta, dict):
+        lines.extend(
+            [
+                "- Trajectory delta:",
+                f"  - Compared with: {delta.get('baseline_generated_at', 'unknown')}.",
+                f"  - Previous/current status: `{delta.get('previous_loop_status', 'unknown')}` -> `{delta.get('current_loop_status', 'unknown')}`.",
+            ]
+        )
+        for row in delta_rows(summary):
+            precision = int(row.get("precision", 0))
+            lines.append(
+                "  - {label}: {previous} -> {current} ({delta}).".format(
+                    label=row["label"],
+                    previous=format_delta_value(row["previous"], precision),
+                    current=format_delta_value(row["current"], precision),
+                    delta=format_signed_delta(row["delta"], precision),
+                )
+            )
+        for row in delta_text_rows(summary):
+            lines.append(
+                "  - {label}: {previous} -> {current} ({status}).".format(
+                    label=row["label"],
+                    previous=row["previous"],
+                    current=row["current"],
+                    status=format_text_delta_status(row),
+                )
+            )
+
+    clearance_queue = owner_clearance_queue_data(summary)
+    if clearance_queue:
+        labels = {
+            "score-floor": "Score-floor",
+            "source-map": "Source-map",
+            "execution-bridge": "Execution-bridge",
+        }
+        lines.append("- Owner clearance queue:")
+        for kind in OWNER_CLEARANCE_KINDS:
+            queue_row = clearance_queue.get(kind, {})
+            rows = queue_row.get("displayed", [])
+            if not rows:
+                continue
+            rendered = "; ".join(
+                f"{row['pack']} ({row['reason']})" if row["reason"] else row["pack"]
+                for row in rows
+            )
+            rendered += clearance_remainder_from_row(queue_row)
+            lines.append(f"  - {labels.get(kind, kind)}: {rendered}.")
+
+    lines.extend(
+        [
+            "- Measurement checklist:",
+        ]
+    )
+    for command in summary_measurement_commands(summary):
+        lines.append(f"  - [ ] `{command}`")
+    lines.extend(
+        [
+            "- Validation checklist:",
+            "  - [ ] `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`",
+            "  - [ ] `python3 tools/monthly_uplift_report.py --self-test`",
+            "  - [ ] `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --skip-clone --output /tmp/ajs-monthly-worklog-template.md`",
+        ]
+    )
+    for command in summary_validation_commands(summary):
+        lines.append(f"  - [ ] `{command}`")
+    lines.append("- Next queue: [copy the safe next lane from handoff after validation].")
+    return "\n".join(lines) + "\n"
+
+
+def write_output(path: Path, content: str) -> None:
+    output_path = path if path.is_absolute() else ROOT / path
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(content, encoding="utf-8")
 
 
 def positive_int(value: str) -> int:
@@ -628,7 +4416,63 @@ def positive_int(value: str) -> int:
 
 def parse_args(argv: list[str]) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--json", action="store_true", help="emit the aggregate summary as JSON")
+    render_group = parser.add_mutually_exclusive_group()
+    render_group.add_argument("--json", action="store_true", help="emit the aggregate summary as JSON")
+    render_group.add_argument(
+        "--handoff",
+        action="store_true",
+        help="emit a compact Markdown handoff with loop status, next lane, candidates, and validation commands",
+    )
+    render_group.add_argument(
+        "--worklog-template",
+        action="store_true",
+        help="emit a Markdown worklog entry template populated with live loop metrics and validation commands",
+    )
+    render_group.add_argument(
+        "--publish-plan",
+        action="store_true",
+        help="emit a read-only local publish plan that separates root/tooling paths from blocked pack-content lanes",
+    )
+    render_group.add_argument(
+        "--goal-audit",
+        action="store_true",
+        help="emit a read-only completion audit for the active month-long goal without changing goal status",
+    )
+    render_group.add_argument(
+        "--debt-audit",
+        action="store_true",
+        help="emit a read-only remaining-debt audit that separates unclaimed, owner-clearance, and dirty-pack debt",
+    )
+    parser.add_argument(
+        "--self-test",
+        action="store_true",
+        help="run dependency-free dashboard logic regression tests and exit",
+    )
+    parser.add_argument(
+        "--check",
+        action="store_true",
+        help="validate dashboard self-consistency before emitting the snapshot",
+    )
+    parser.add_argument(
+        "--check-only",
+        action="store_true",
+        help="validate dashboard self-consistency and print only the check result",
+    )
+    parser.add_argument(
+        "--output",
+        type=Path,
+        help="write the same Markdown or JSON payload to PATH while still printing it to stdout",
+    )
+    parser.add_argument(
+        "--compare-json",
+        type=Path,
+        help="compare the live summary against a previous JSON snapshot from this tool",
+    )
+    parser.add_argument(
+        "--check-worklog",
+        type=Path,
+        help="validate that a monthly worklog has a complete latest loop entry and current next queue",
+    )
     parser.add_argument("--skip-clone", action="store_true", help="skip the slower clone-audit summary")
     parser.add_argument(
         "--limit",
@@ -645,6 +4489,24 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
 
 def main(argv: list[str]) -> int:
     args = parse_args(argv)
+    if args.self_test:
+        errors = self_test_errors()
+        if errors:
+            print("monthly_uplift_report self-test failed:", file=sys.stderr)
+            for error in errors:
+                print(f"- {error}", file=sys.stderr)
+            return 1
+        print("monthly_uplift_report self-test passed.")
+        return 0
+
+    if args.check_worklog:
+        try:
+            print(check_worklog(args.check_worklog), end="")
+        except ValueError as exc:
+            print(f"monthly_uplift_report worklog-check failed: {exc}", file=sys.stderr)
+            return 1
+        return 0
+
     try:
         summary = build_summary(args)
     except (ToolError, ValueError, json.JSONDecodeError) as exc:
@@ -656,10 +4518,38 @@ def main(argv: list[str]) -> int:
                 print(exc.stderr, file=sys.stderr)
         return 1
 
+    if args.check or args.check_only:
+        errors = validate_summary(summary)
+        if errors:
+            print("monthly_uplift_report self-check failed:", file=sys.stderr)
+            for error in errors:
+                print(f"- {error}", file=sys.stderr)
+            return 1
+
+    if args.check_only:
+        rendered = "monthly_uplift_report self-check passed.\n"
+        if args.output:
+            write_output(args.output, rendered)
+        print(rendered, end="")
+        return 0
+
     if args.json:
-        print(json.dumps(summary, ensure_ascii=False, indent=2))
+        rendered = json.dumps(summary, ensure_ascii=False, indent=2) + "\n"
+    elif args.handoff:
+        rendered = handoff(summary)
+    elif args.worklog_template:
+        rendered = worklog_template(summary)
+    elif args.publish_plan:
+        rendered = publish_plan(summary)
+    elif args.goal_audit:
+        rendered = goal_audit(summary)
+    elif args.debt_audit:
+        rendered = debt_audit(summary)
     else:
-        print(markdown(summary), end="")
+        rendered = markdown(summary)
+    if args.output:
+        write_output(args.output, rendered)
+    print(rendered, end="")
     return 0
 
 
