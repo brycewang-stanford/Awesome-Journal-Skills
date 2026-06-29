@@ -36,6 +36,7 @@ or that are new since the last run.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
 import subprocess
@@ -46,6 +47,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CACHE_PATH = ROOT / "tools" / ".cache" / "external_links.json"
+SUMMARY_CONTRACT = "external-link-cache-summary-v2"
 
 IMPORTED_ROOTS = {
     "AER-Skills",
@@ -194,6 +196,70 @@ def save_cache(cache: dict) -> None:
     CACHE_PATH.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def cache_summary(refs: dict[str, list[str]], include_infra: bool) -> dict:
+    """Summarize the on-disk verdict cache without making network requests."""
+    cache = load_cache()
+    classes = ("OK", "DEAD", "REDIRECT", "BLOCKED", "UNREACHABLE", "UNCHECKED")
+    counts = {cls: 0 for cls in classes}
+    checked = 0
+    current_cache_entries = 0
+    for url in refs:
+        if url in cache:
+            current_cache_entries += 1
+        cached_class = str(cache.get(url, {}).get("class", ""))
+        if cached_class in counts and cached_class != "UNCHECKED":
+            counts[cached_class] += 1
+            checked += 1
+        else:
+            counts["UNCHECKED"] += 1
+    actionable = counts["DEAD"] + counts["REDIRECT"]
+    inconclusive = counts["BLOCKED"] + counts["UNREACHABLE"]
+    if not CACHE_PATH.exists():
+        status = "no-cache"
+    elif actionable:
+        status = "actionable-review"
+    elif inconclusive or counts["UNCHECKED"]:
+        status = "advisory-review"
+    else:
+        status = "cached-ok"
+    summary = {
+        "contract": SUMMARY_CONTRACT,
+        "status": status,
+        "include_infra": include_infra,
+        "cache_path": rel(CACHE_PATH),
+        "cache_present": CACHE_PATH.exists(),
+        "cache_entry_count": len(cache),
+        "current_cache_entry_count": current_cache_entries,
+        "orphaned_cache_entry_count": len(set(cache) - set(refs)),
+        "url_count": len(refs),
+        "checked_count": checked,
+        "unchecked_count": counts["UNCHECKED"],
+        "actionable_count": actionable,
+        "inconclusive_count": inconclusive,
+        "counts": counts,
+    }
+    summary["fingerprint"] = json.dumps(
+        {
+            "contract": summary["contract"],
+            "status": summary["status"],
+            "include_infra": summary["include_infra"],
+            "cache_entry_count": summary["cache_entry_count"],
+            "current_cache_entry_count": summary["current_cache_entry_count"],
+            "orphaned_cache_entry_count": summary["orphaned_cache_entry_count"],
+            "url_count": summary["url_count"],
+            "checked_count": summary["checked_count"],
+            "unchecked_count": summary["unchecked_count"],
+            "actionable_count": summary["actionable_count"],
+            "inconclusive_count": summary["inconclusive_count"],
+            "counts": summary["counts"],
+        },
+        ensure_ascii=False,
+        sort_keys=True,
+    )
+    summary["fingerprint"] = hashlib.sha256(summary["fingerprint"].encode("utf-8")).hexdigest()[:12]
+    return summary
+
+
 def main(argv: list[str]) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--include-infra", action="store_true", help="also check github/shields/etc.")
@@ -202,6 +268,7 @@ def main(argv: list[str]) -> int:
     ap.add_argument("--workers", type=int, default=12)
     ap.add_argument("--limit", type=int, default=0, help="check at most N urls (0 = all)")
     ap.add_argument("--refresh", action="store_true", help="ignore cached verdicts")
+    ap.add_argument("--cache-summary", action="store_true", help="summarize cached verdicts without network requests")
     ap.add_argument("--json", action="store_true")
     args = ap.parse_args(argv)
 
@@ -209,6 +276,33 @@ def main(argv: list[str]) -> int:
     urls = list(refs)
     if args.limit:
         urls = urls[: args.limit]
+        refs = {url: refs[url] for url in urls}
+
+    if args.cache_summary:
+        summary = cache_summary(refs, args.include_infra)
+        if args.json:
+            print(json.dumps(summary, ensure_ascii=False, indent=2))
+        else:
+            counts = summary["counts"]
+            print(f"External-link cache summary — {summary['url_count']} unique URL(s)")
+            print(
+                "  "
+                + " · ".join(
+                    f"{cls}={counts.get(cls, 0)}"
+                    for cls in ("OK", "DEAD", "REDIRECT", "BLOCKED", "UNREACHABLE", "UNCHECKED")
+                )
+            )
+            print(
+                f"Coverage: {summary['current_cache_entry_count']}/{summary['url_count']} current URL(s) have cache rows; "
+                f"{summary['cache_entry_count']} total cache row(s); "
+                f"{summary['orphaned_cache_entry_count']} orphaned"
+            )
+            print(
+                f"Status: {summary['status']}; cache: "
+                f"{'present' if summary['cache_present'] else 'missing'}; "
+                f"sha256 {summary['fingerprint']}"
+            )
+        return 0
 
     cache = {} if args.refresh else load_cache()
     # Re-use only confident verdicts; always re-check inconclusive ones.
