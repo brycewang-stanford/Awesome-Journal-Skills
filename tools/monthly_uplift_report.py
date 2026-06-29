@@ -52,9 +52,12 @@ NEXT_LOOP_VALIDATION_COMMANDS = (
     "python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20",
     "python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20",
     "python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20",
+    "python3 tools/monthly_uplift_report.py --check --owner-clearance --limit 20 --output /tmp/ajs-monthly-owner-clearance.md",
+    "python3 tools/monthly_uplift_report.py --check --external-link-plan --limit 20 --output /tmp/ajs-monthly-external-link-plan.md",
     "python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-monthly-worklog-template.md",
     "python3 tools/monthly_uplift_report.py --check-worklog latest",
     "python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone",
+    "python3 tools/monthly_uplift_report.py --surface-smoke --limit 20 --skip-clone",
     "python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-uplift.md",
     "python3 tools/quality_scorecard.py --top 15 --min-score 90",
     "python3 tools/run_checks.py --skip-reports",
@@ -71,8 +74,8 @@ NEXT_LOOP_MEASUREMENT_COMMANDS = (
     "python3 tools/external_link_audit.py --cache-summary --json",
 )
 DASHBOARD_SCHEMA_NAME = "monthly_uplift_report"
-DASHBOARD_SCHEMA_VERSION = 25
-DASHBOARD_SCHEMA_CONTRACT = "monthly-uplift-dashboard-v25"
+DASHBOARD_SCHEMA_VERSION = 28
+DASHBOARD_SCHEMA_CONTRACT = "monthly-uplift-dashboard-v28"
 DASHBOARD_SCHEMA_REQUIRED_TOP_LEVEL_FIELDS = (
     "schema",
     "generated_at",
@@ -82,6 +85,7 @@ DASHBOARD_SCHEMA_REQUIRED_TOP_LEVEL_FIELDS = (
     "source_maps",
     "root_entries",
     "external_links",
+    "external_link_action_plan",
     "clone_audit",
     "claims",
     "candidate_pool",
@@ -95,6 +99,7 @@ DASHBOARD_SCHEMA_REQUIRED_TOP_LEVEL_FIELDS = (
     "command_plan",
     "targets",
     "owner_clearance_queue",
+    "owner_clearance_request",
     "execution_bridge_tail",
     "safe_content_queue",
     "content_edit_policy",
@@ -106,11 +111,14 @@ DASHBOARD_SCHEMA_REQUIRED_TOP_LEVEL_FIELDS = (
     "completion_audit",
     "handoff_manifest",
     "skillopt_gate_plan",
+    "surface_smoke_plan",
     "current_next_queue",
 )
 DASHBOARD_SCHEMA_NESTED_CONTRACT_FIELDS = (
     "external_links",
+    "external_link_action_plan",
     "owner_clearance_queue",
+    "owner_clearance_request",
     "execution_bridge_tail",
     "safe_content_queue",
     "content_edit_policy",
@@ -121,6 +129,7 @@ DASHBOARD_SCHEMA_NESTED_CONTRACT_FIELDS = (
     "completion_audit",
     "handoff_manifest",
     "skillopt_gate_plan",
+    "surface_smoke_plan",
     "current_next_queue",
 )
 
@@ -303,6 +312,8 @@ WORKLOG_REQUIRED_VALIDATION_MARKERS = (
     "python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20",
     "python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20",
     "python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20",
+    "python3 tools/monthly_uplift_report.py --check --owner-clearance --limit 20",
+    "python3 tools/monthly_uplift_report.py --check --external-link-plan --limit 20",
     "python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20",
     "python3 tools/monthly_uplift_report.py --check-worklog latest",
     "--expect-latest-heading",
@@ -320,6 +331,8 @@ CURRENT_NEXT_QUEUE_REQUIRED_MARKERS = (
     "python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20",
     "python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20",
     "python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20",
+    "python3 tools/monthly_uplift_report.py --check --owner-clearance --limit 20",
+    "python3 tools/monthly_uplift_report.py --check --external-link-plan --limit 20",
     "python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20",
     "python3 tools/monthly_uplift_report.py --check-worklog latest",
     "python3 tools/monthly_uplift_report.py --check --limit 20",
@@ -435,6 +448,18 @@ DELTA_METRICS = (
     ("external_link_unchecked", "External-link unchecked URLs", ("external_links", "unchecked_count"), 0),
     ("external_link_actionable", "External-link actionable URLs", ("external_links", "actionable_count"), 0),
     ("external_link_inconclusive", "External-link inconclusive URLs", ("external_links", "inconclusive_count"), 0),
+    (
+        "external_link_plan_actionable",
+        "External-link action-plan actionable URLs",
+        ("external_link_action_plan", "actionable_count"),
+        0,
+    ),
+    (
+        "external_link_plan_unchecked",
+        "External-link action-plan unchecked URLs",
+        ("external_link_action_plan", "unchecked_count"),
+        0,
+    ),
     ("clone_fail_hits", "Clone fail hits", ("clone_audit", "fail_hits"), 0),
     ("claims_rows", "Claims rows", ("claims", "row_count"), 0),
     ("claims_active_rows", "Claims active rows", ("claims", "active_row_count"), 0),
@@ -480,6 +505,7 @@ DELTA_METRICS = (
     ("safe_content_queue_score_ceiling", "Safe content queue score ceiling", ("safe_content_queue", "score_ceiling_count"), 0),
     ("safe_content_queue_dirty_skipped", "Safe content queue dirty skipped", ("safe_content_queue", "dirty_skipped_count"), 0),
     ("owner_clearance_queue_total", "Owner-clearance queue total", ("owner_clearance_queue", "total"), 0),
+    ("owner_clearance_request_total", "Owner-clearance request targets", ("owner_clearance_request", "target_total"), 0),
     ("remaining_debt_unclaimed_total", "Remaining-debt unclaimed total", ("remaining_debt", "unclaimed_total"), 0),
     ("remaining_debt_owner_clearance_total", "Remaining-debt owner-clearance total", ("remaining_debt", "owner_clearance_total"), 0),
     ("remaining_debt_dirty_pack_lanes", "Remaining-debt dirty pack lanes", ("remaining_debt", "dirty_pack_lane_count"), 0),
@@ -500,6 +526,12 @@ DELTA_TEXT_METRICS = (
     ("schema_contract", "Dashboard schema contract", ("schema", "contract")),
     ("external_link_status", "External-link advisory status", ("external_links", "status")),
     ("external_link_fingerprint", "External-link advisory fingerprint", ("external_links", "fingerprint")),
+    ("external_link_action_plan_status", "External-link action-plan status", ("external_link_action_plan", "status")),
+    (
+        "external_link_action_plan_fingerprint",
+        "External-link action-plan fingerprint",
+        ("external_link_action_plan", "fingerprint"),
+    ),
     (
         "schema_nested_contracts_fingerprint",
         "Dashboard nested-contracts fingerprint",
@@ -530,6 +562,11 @@ DELTA_TEXT_METRICS = (
     ("safe_content_queue_status", "Safe content queue status", ("safe_content_queue", "status")),
     ("safe_content_queue_fingerprint", "Safe content queue fingerprint", ("safe_content_queue", "fingerprint")),
     ("owner_clearance_queue_fingerprint", "Owner-clearance queue fingerprint", ("owner_clearance_queue", "fingerprint")),
+    (
+        "owner_clearance_request_fingerprint",
+        "Owner-clearance request fingerprint",
+        ("owner_clearance_request", "fingerprint"),
+    ),
     ("remaining_debt_status", "Remaining-debt status", ("remaining_debt", "status")),
     ("remaining_debt_fingerprint", "Remaining-debt fingerprint", ("remaining_debt", "fingerprint")),
     ("publish_policy_status", "Publish policy status", ("publish_policy", "status")),
@@ -555,15 +592,17 @@ DELTA_TEXT_METRICS = (
 )
 OWNER_CLEARANCE_KINDS = ("score-floor", "source-map", "execution-bridge")
 OWNER_CLEARANCE_QUEUE_CONTRACT = "owner-clearance-queue-v2"
+OWNER_CLEARANCE_REQUEST_CONTRACT = "monthly-uplift-owner-clearance-request-v1"
 SKILLOPT_GATE_PLAN_CONTRACT = "monthly-uplift-skillopt-gate-plan-v1"
 SKILLOPT_SNAPSHOT_COMMAND = "python3 tools/skillopt_gate.py snapshot --out /tmp/ajs-skillopt-baseline.json"
 SKILLOPT_GATE_COMMAND = (
     "python3 tools/skillopt_gate.py gate --baseline /tmp/ajs-skillopt-baseline.json "
     "--out /tmp/ajs-skillopt-gate.json"
 )
-CURRENT_NEXT_QUEUE_CONTRACT = "current-next-queue-v7"
+CURRENT_NEXT_QUEUE_CONTRACT = "current-next-queue-v9"
 NEXT_BATCH_PLAN_CONTRACT = "monthly-uplift-next-batch-plan-v1"
 EXTERNAL_LINKS_CONTRACT = "external-link-cache-summary-v2"
+EXTERNAL_LINK_ACTION_PLAN_CONTRACT = "monthly-uplift-external-link-action-plan-v1"
 WORKLOG_LIVE_SUMMARY_LIMIT = 20
 
 
@@ -737,6 +776,109 @@ def validate_external_links(summary: dict[str, Any]) -> list[str]:
         errors.append(
             f"external_links.fingerprint expected {expected_fingerprint!r}, observed {advisory.get('fingerprint')!r}"
         )
+    return errors
+
+
+def external_link_action_plan_data(summary: dict[str, Any]) -> dict[str, Any]:
+    advisory = summary.get("external_links")
+    if not isinstance(advisory, dict):
+        advisory = {}
+    counts = advisory.get("counts", {}) if isinstance(advisory.get("counts"), dict) else {}
+    dead = int(counts.get("DEAD", 0) or 0)
+    redirect = int(counts.get("REDIRECT", 0) or 0)
+    blocked = int(counts.get("BLOCKED", 0) or 0)
+    unreachable = int(counts.get("UNREACHABLE", 0) or 0)
+    unchecked = int(advisory.get("unchecked_count", counts.get("UNCHECKED", 0)) or 0)
+    actionable = int(advisory.get("actionable_count", dead + redirect) or 0)
+    inconclusive = int(advisory.get("inconclusive_count", blocked + unreachable) or 0)
+    orphaned = int(advisory.get("orphaned_cache_entry_count", 0) or 0)
+    cache_present = bool(advisory.get("cache_present"))
+
+    if not cache_present:
+        status = "cache-missing"
+        recommended_action = "run-external-link-audit"
+    elif actionable:
+        status = "actionable-review"
+        recommended_action = "review-dead-and-redirect-links"
+    elif unchecked:
+        status = "cache-refresh-needed"
+        recommended_action = "refresh-unchecked-links"
+    elif inconclusive:
+        status = "manual-recheck-needed"
+        recommended_action = "recheck-inconclusive-links"
+    elif orphaned:
+        status = "cache-prune-optional"
+        recommended_action = "prune-orphaned-cache-rows"
+    else:
+        status = "clear"
+        recommended_action = "monitor"
+
+    plan: dict[str, Any] = {
+        "contract": EXTERNAL_LINK_ACTION_PLAN_CONTRACT,
+        "status": status,
+        "recommended_action": recommended_action,
+        "network_policy": "read-cache-only",
+        "source_contract": str(advisory.get("contract", "")),
+        "source_fingerprint": str(advisory.get("fingerprint", "")),
+        "cache_path": str(advisory.get("cache_path", "")),
+        "url_count": int(advisory.get("url_count", 0) or 0),
+        "checked_count": int(advisory.get("checked_count", 0) or 0),
+        "unchecked_count": unchecked,
+        "actionable_count": actionable,
+        "dead_count": dead,
+        "redirect_count": redirect,
+        "inconclusive_count": inconclusive,
+        "blocked_count": blocked,
+        "unreachable_count": unreachable,
+        "orphaned_cache_entry_count": orphaned,
+        "cache_summary_command": "python3 tools/external_link_audit.py --cache-summary --json",
+        "refresh_command": "python3 tools/external_link_audit.py --refresh",
+        "priority_order": [
+            "review DEAD links as user-facing defects",
+            "review REDIRECT targets before repointing canonical URLs",
+            "refresh UNCHECKED cache rows before trusting coverage",
+            "manually recheck BLOCKED/UNREACHABLE rows before acting",
+            "prune orphaned cache rows after URL inventory changes",
+        ],
+    }
+    plan["fingerprint"] = hashlib.sha256(
+        json.dumps(plan, ensure_ascii=False, sort_keys=True).encode("utf-8")
+    ).hexdigest()[:12]
+    return plan
+
+
+def external_link_action_plan_summary(summary: dict[str, Any]) -> dict[str, Any]:
+    return {"external_link_action_plan": external_link_action_plan_data(summary)}
+
+
+def external_link_action_plan_line(summary: dict[str, Any]) -> str:
+    plan = summary.get("external_link_action_plan")
+    if not isinstance(plan, dict):
+        plan = external_link_action_plan_data(summary)
+    fingerprint = str(plan.get("fingerprint", ""))
+    suffix = f"; sha256 {fingerprint}" if fingerprint else ""
+    return (
+        f"{plan.get('contract', EXTERNAL_LINK_ACTION_PLAN_CONTRACT)}; "
+        f"status {plan.get('status', 'unknown')}; "
+        f"action {plan.get('recommended_action', 'unknown')}; "
+        f"{int(plan.get('actionable_count', 0))} actionable / "
+        f"{int(plan.get('unchecked_count', 0))} unchecked / "
+        f"{int(plan.get('inconclusive_count', 0))} inconclusive; "
+        f"network {plan.get('network_policy', 'unknown')}{suffix}"
+    )
+
+
+def validate_external_link_action_plan(summary: dict[str, Any]) -> list[str]:
+    if "generated_at" not in summary and "external_link_action_plan" not in summary:
+        return []
+    expected = external_link_action_plan_data(summary)
+    plan = summary.get("external_link_action_plan")
+    if not isinstance(plan, dict):
+        return ["external_link_action_plan missing or not an object"]
+    errors: list[str] = []
+    for key, expected_value in expected.items():
+        if plan.get(key) != expected_value:
+            errors.append(f"external_link_action_plan.{key} expected {expected_value!r}, observed {plan.get(key)!r}")
     return errors
 
 
@@ -962,7 +1104,9 @@ def validate_current_next_queue_global_text(text: str, summary: dict[str, Any] |
     required_contracts = (
         CURRENT_NEXT_QUEUE_CONTRACT,
         DASHBOARD_SCHEMA_CONTRACT,
+        EXTERNAL_LINK_ACTION_PLAN_CONTRACT,
         OWNER_CLEARANCE_QUEUE_CONTRACT,
+        OWNER_CLEARANCE_REQUEST_CONTRACT,
         COMPLETION_AUDIT_CONTRACT,
     )
     for contract in required_contracts:
@@ -970,7 +1114,23 @@ def validate_current_next_queue_global_text(text: str, summary: dict[str, Any] |
             errors.append(f"Current Next Queue global section missing contract {contract!r}")
     errors.extend(contract_family_errors(section, r"current-next-queue-v\d+", CURRENT_NEXT_QUEUE_CONTRACT, "queue contract"))
     errors.extend(contract_family_errors(section, r"monthly-uplift-dashboard-v\d+", DASHBOARD_SCHEMA_CONTRACT, "schema contract"))
+    errors.extend(
+        contract_family_errors(
+            section,
+            r"monthly-uplift-external-link-action-plan-v\d+",
+            EXTERNAL_LINK_ACTION_PLAN_CONTRACT,
+            "external-link action-plan contract",
+        )
+    )
     errors.extend(contract_family_errors(section, r"owner-clearance-queue-v\d+", OWNER_CLEARANCE_QUEUE_CONTRACT, "owner-clearance contract"))
+    errors.extend(
+        contract_family_errors(
+            section,
+            r"monthly-uplift-owner-clearance-request-v\d+",
+            OWNER_CLEARANCE_REQUEST_CONTRACT,
+            "owner-clearance request contract",
+        )
+    )
     errors.extend(
         contract_family_errors(
             section,
@@ -1157,18 +1317,74 @@ def validate_skillopt_gate_plan(summary: dict[str, Any]) -> list[str]:
     return errors
 
 
+SURFACE_SMOKE_PLAN_CONTRACT = "monthly-uplift-surface-smoke-plan-v5"
+
+
+def surface_smoke_plan_summary(summary: dict[str, Any]) -> dict[str, Any]:
+    requirements = surface_smoke_requirements(summary)
+    surface_names = sorted(requirements)
+    plan: dict[str, Any] = {
+        "contract": SURFACE_SMOKE_PLAN_CONTRACT,
+        "surface_count": len(surface_names),
+        "surface_names": surface_names,
+        "required_fragment_total": sum(len(fragments) for fragments in requirements.values()),
+        "requirements": requirements,
+    }
+    plan["fingerprint"] = hashlib.sha256(
+        json.dumps(plan, ensure_ascii=False, sort_keys=True).encode("utf-8")
+    ).hexdigest()[:12]
+    return {"surface_smoke_plan": plan}
+
+
+def surface_smoke_plan_line(summary: dict[str, Any]) -> str:
+    plan = summary.get("surface_smoke_plan")
+    if not isinstance(plan, dict):
+        plan = surface_smoke_plan_summary(summary)["surface_smoke_plan"]
+    fingerprint = str(plan.get("fingerprint", ""))
+    suffix = f"; sha256 {fingerprint}" if fingerprint else ""
+    return (
+        f"{plan.get('contract', SURFACE_SMOKE_PLAN_CONTRACT)}; "
+        f"{int(plan.get('surface_count', 0))} surfaces; "
+        f"{int(plan.get('required_fragment_total', 0))} required fragments{suffix}"
+    )
+
+
+def validate_surface_smoke_plan(summary: dict[str, Any]) -> list[str]:
+    if "generated_at" not in summary and "surface_smoke_plan" not in summary:
+        return []
+    expected = surface_smoke_plan_summary(summary)["surface_smoke_plan"]
+    plan = summary.get("surface_smoke_plan")
+    if not isinstance(plan, dict):
+        return ["surface_smoke_plan missing or not an object"]
+    errors: list[str] = []
+    for key, expected_value in expected.items():
+        if plan.get(key) != expected_value:
+            errors.append(f"surface_smoke_plan.{key} expected {expected_value!r}, observed {plan.get(key)!r}")
+    return errors
+
+
 def current_next_queue_expected_fragments(summary: dict[str, Any]) -> list[str]:
     loop_control = summary.get("loop_control", {}) if isinstance(summary.get("loop_control"), dict) else {}
     skillopt_plan = summary.get("skillopt_gate_plan", {}) if isinstance(summary.get("skillopt_gate_plan"), dict) else {}
+    surface_plan = summary.get("surface_smoke_plan", {}) if isinstance(summary.get("surface_smoke_plan"), dict) else {}
+    owner_request = summary.get("owner_clearance_request", {}) if isinstance(summary.get("owner_clearance_request"), dict) else {}
     schema_source = {
         **summary,
         "external_links": {"contract": EXTERNAL_LINKS_CONTRACT},
+        "external_link_action_plan": {"contract": EXTERNAL_LINK_ACTION_PLAN_CONTRACT},
+        "owner_clearance_request": {"contract": OWNER_CLEARANCE_REQUEST_CONTRACT},
         "skillopt_gate_plan": {"contract": SKILLOPT_GATE_PLAN_CONTRACT},
+        "surface_smoke_plan": {"contract": SURFACE_SMOKE_PLAN_CONTRACT},
         "current_next_queue": {"contract": CURRENT_NEXT_QUEUE_CONTRACT},
     }
     schema = schema_summary(schema_source)["schema"]
     command_plan = summary.get("command_plan", {}) if isinstance(summary.get("command_plan"), dict) else {}
     external_links = summary.get("external_links", {}) if isinstance(summary.get("external_links"), dict) else {}
+    external_action = (
+        summary.get("external_link_action_plan", {})
+        if isinstance(summary.get("external_link_action_plan"), dict)
+        else {}
+    )
     bridge_tail = summary.get("execution_bridge_tail", {}) if isinstance(summary.get("execution_bridge_tail"), dict) else {}
     safe_queue = summary.get("safe_content_queue", {}) if isinstance(summary.get("safe_content_queue"), dict) else {}
     content_policy = summary.get("content_edit_policy", {}) if isinstance(summary.get("content_edit_policy"), dict) else {}
@@ -1193,6 +1409,10 @@ def current_next_queue_expected_fragments(summary: dict[str, Any]) -> list[str]:
         f"external-link classes `{external_links_breakdown_line(summary)}`",
         f"external-link cache coverage `{external_links_cache_line(summary)}`",
         f"fingerprint `{external_links.get('fingerprint', '')}`",
+        f"`{external_action.get('contract', '')}`",
+        f"external-link action plan `{external_link_action_plan_line(summary)}`",
+        f"external-link recommended action `{external_action.get('recommended_action', '')}`",
+        f"external-link action-plan fingerprint `{external_action.get('fingerprint', '')}`",
         f"`{bridge_tail.get('contract', '')}`",
         f"execution-bridge tail policy `{bridge_tail.get('claim_sensitive_policy', '')}`",
         (
@@ -1214,6 +1434,10 @@ def current_next_queue_expected_fragments(summary: dict[str, Any]) -> list[str]:
         f"owner-clearance queue `{owner_clearance_queue_line(summary)}`",
         f"owner-clearance target fingerprints `{owner_clearance_target_fingerprint_line(summary)}`",
         f"fingerprint `{clearance_queue.get('fingerprint', '')}`",
+        f"`{owner_request.get('contract', '')}`",
+        f"owner-clearance request `{owner_clearance_request_line(summary)}`",
+        f"owner-clearance requested decision `{owner_request.get('requested_decision', '')}`",
+        f"owner-clearance request fingerprint `{owner_request.get('fingerprint', '')}`",
         f"`{publish_policy.get('contract', '')}`",
         f"publish policy status `{publish_policy.get('status', '')}`",
         f"`{next_batch_plan.get('contract', '')}`",
@@ -1229,10 +1453,15 @@ def current_next_queue_expected_fragments(summary: dict[str, Any]) -> list[str]:
         f"SkillOpt gate command `{skillopt_plan.get('gate_command', '')}`",
         f"SkillOpt final hard gate `{skillopt_plan.get('final_hard_gate', '')}`",
         f"fingerprint `{skillopt_plan.get('fingerprint', '')}`",
+        f"`{surface_plan.get('contract', '')}`",
+        f"surface-smoke surface count `{int(surface_plan.get('surface_count', 0))}`",
+        f"surface-smoke required fragments `{int(surface_plan.get('required_fragment_total', 0))}`",
+        f"fingerprint `{surface_plan.get('fingerprint', '')}`",
         (
             f"plan is {int(command_plan.get('measurement_count', 0))} measurement commands / "
             f"{int(command_plan.get('validation_count', 0))} validation commands"
         ),
+        "`python3 tools/monthly_uplift_report.py --surface-smoke --limit 20 --skip-clone`",
         "`python3 tools/quality_scorecard.py --top 15 --min-score 90`",
         f"fingerprint `{command_plan.get('fingerprint', '')}`",
     ]
@@ -1730,8 +1959,10 @@ def validate_summary(summary: dict[str, Any]) -> list[str]:
         errors.extend(validate_schema_contract(summary))
     errors.extend(validate_worktree_boundary(summary))
     errors.extend(validate_external_links(summary))
+    errors.extend(validate_external_link_action_plan(summary))
     errors.extend(validate_command_plan(summary))
     errors.extend(validate_next_batch_plan(summary))
+    errors.extend(validate_owner_clearance_request(summary))
     errors.extend(validate_execution_bridge_tail(summary))
     errors.extend(validate_safe_content_queue(summary))
     errors.extend(validate_content_edit_policy(summary))
@@ -1741,6 +1972,7 @@ def validate_summary(summary: dict[str, Any]) -> list[str]:
     errors.extend(validate_completion_audit(summary))
     errors.extend(validate_handoff_manifest(summary))
     errors.extend(validate_skillopt_gate_plan(summary))
+    errors.extend(validate_surface_smoke_plan(summary))
     errors.extend(validate_current_next_queue(summary))
     loop_control = summary.get("loop_control")
     if not isinstance(loop_control, dict):
@@ -2020,6 +2252,7 @@ def loop_control_fixture(
         **command_plan_summary(),
     }
     summary["loop_control"] = {**expected_loop_control(summary), "reason": "fixture"}
+    summary.update(external_link_action_plan_summary(summary))
     summary["owner_clearance_queue"] = owner_clearance_queue(summary)
     summary.update(execution_bridge_tail_summary(summary))
     summary.update(safe_content_queue_summary(summary))
@@ -2094,10 +2327,12 @@ def handoff_fixture() -> dict[str, Any]:
     summary.update(execution_bridge_tail_summary(summary))
     summary.update(safe_content_queue_summary(summary))
     summary.update(content_edit_policy_summary(summary))
+    summary.update(owner_clearance_request_summary(summary))
     summary.update(remaining_debt_summary(summary))
     summary.update(next_batch_plan_summary(summary))
     summary.update(publish_policy_summary(summary))
     summary.update(skillopt_gate_plan_summary(summary))
+    summary.update(surface_smoke_plan_summary(summary))
     summary.update(goal_progress_summary(summary))
     summary.update(completion_audit_summary(summary))
     summary.update(handoff_manifest_summary(summary))
@@ -2592,6 +2827,7 @@ def self_test_errors() -> list[str]:
     valid_next_batch_plan.update(next_batch_plan_summary(valid_next_batch_plan))
     valid_next_batch_plan.update(publish_policy_summary(valid_next_batch_plan))
     valid_next_batch_plan.update(skillopt_gate_plan_summary(valid_next_batch_plan))
+    valid_next_batch_plan.update(surface_smoke_plan_summary(valid_next_batch_plan))
     valid_next_batch_plan.update(goal_progress_summary(valid_next_batch_plan))
     valid_next_batch_plan.update(completion_audit_summary(valid_next_batch_plan))
     valid_next_batch_plan.update(handoff_manifest_summary(valid_next_batch_plan))
@@ -2687,7 +2923,7 @@ def self_test_errors() -> list[str]:
         "Worklog: OK; 35 loops; latest ### 2026-06-27 - Fixture Loop",
         "Claims boundary: .maintenance/CLAIMS.md; 1 rows; 1 active; 3 lines; sha256 fixture",
         "Working tree: ## main...origin/main with 1 dirty entries (0 pack lanes, 1 root/tooling entries)",
-        "Dashboard schema: monthly_uplift_report v25; monthly-uplift-dashboard-v25",
+        "Dashboard schema: monthly_uplift_report v28; monthly-uplift-dashboard-v28",
         "External-link classes: DEAD 1 / REDIRECT 0 actionable; BLOCKED 1 / UNREACHABLE 1 inconclusive; UNCHECKED 2; OK 5; sha256",
         "External-link cache: 8/10 current URLs have cache rows; 9 total cache rows; 1 orphaned; sha256",
         "Worktree boundary: 1 dirty / 0 pack lanes / 1 root-tooling entries; sha256",
@@ -2700,8 +2936,8 @@ def self_test_errors() -> list[str]:
         "Owner-clearance target fingerprints: score none / source none / bridge none; queue sha256",
         "Publish policy: local-only-root-tooling; local-only; root 1 paths; packs 0 lanes empty; path-scoped staging required; sha256",
         "Goal progress: active-partial-clone-skipped; core OK; worklog 35 loops; clone skipped; bridge 131/134; next content; sha256",
-        "Completion audit: not-complete; action none; 13 requirements; 11 OK / 0 triaged / 2 review; 3 blockers; sha256",
-        "Handoff manifest: content-candidates -> content; root 1 paths; packs 0 lanes; completion 13 req / 3 blockers; sha256",
+        "Completion audit: not-complete; action none; 17 requirements; 13 OK / 1 triaged / 3 review; 3 blockers; sha256",
+        "Handoff manifest: content-candidates -> content; root 1 paths; packs 0 lanes; completion 17 req / 3 blockers; sha256",
         "SkillOpt gate plan: monthly-uplift-skillopt-gate-plan-v1; status ready-before-next-skill-edit; 0 dirty skill paths / 0 dirty pack lanes; action take-baseline-before-bounded-skill-edit; final hard gate python3 tools/run_checks.py --skip-reports; sha256",
         f"Command plan: {command_plan_line(handoff_summary)}",
         "Next-batch plan:",
@@ -2783,7 +3019,7 @@ def self_test_errors() -> list[str]:
     for expected_text in (
         "| Worklog | OK; 35 loops; latest `### 2026-06-27 - Fixture Loop` |",
         "| Claims boundary | .maintenance/CLAIMS.md; 1 rows; 1 active; 3 lines; sha256 fixture |",
-        "| Dashboard schema | monthly_uplift_report v25; monthly-uplift-dashboard-v25 |",
+        "| Dashboard schema | monthly_uplift_report v28; monthly-uplift-dashboard-v28 |",
         "| External-link classes | DEAD 1 / REDIRECT 0 actionable; BLOCKED 1 / UNREACHABLE 1 inconclusive; UNCHECKED 2; OK 5; sha256",
         "| External-link cache | 8/10 current URLs have cache rows; 9 total cache rows; 1 orphaned; sha256",
         "| Worktree boundary | 1 dirty / 0 pack lanes / 1 root-tooling entries; sha256",
@@ -2796,10 +3032,10 @@ def self_test_errors() -> list[str]:
         "| Owner-clearance target fingerprints | score none / source none / bridge none; queue sha256",
         "| Publish policy | local-only-root-tooling; local-only; root 1 paths; packs 0 lanes empty; path-scoped staging required; sha256",
         "| Goal progress | active-partial-clone-skipped; core OK; worklog 35 loops; clone skipped; bridge 131/134; next content; sha256",
-        "| Completion audit | not-complete; action none; 13 requirements; 11 OK / 0 triaged / 2 review; 3 blockers; sha256",
-        "| Handoff manifest | content-candidates -> content; root 1 paths; packs 0 lanes; completion 13 req / 3 blockers; sha256",
+        "| Completion audit | not-complete; action none; 17 requirements; 13 OK / 1 triaged / 3 review; 3 blockers; sha256",
+        "| Handoff manifest | content-candidates -> content; root 1 paths; packs 0 lanes; completion 17 req / 3 blockers; sha256",
         "| SkillOpt gate plan | monthly-uplift-skillopt-gate-plan-v1; status ready-before-next-skill-edit; 0 dirty skill paths / 0 dirty pack lanes; action take-baseline-before-bounded-skill-edit; final hard gate python3 tools/run_checks.py --skip-reports; sha256",
-        "| Command plan | 7 measurement / 12 validation; sha256",
+        "| Command plan | 7 measurement / 15 validation; sha256",
         "| Next-batch plan |",
         "| Worklog health | OK | OK; 35 loops; latest ### 2026-06-27 - Fixture Loop |",
         "| Claims boundary | OK | .maintenance/CLAIMS.md; 1 rows; 1 active; 3 lines; sha256 fixture |",
@@ -2870,7 +3106,7 @@ def self_test_errors() -> list[str]:
         "# Goal Completion Audit",
         "Completion status: `not-complete`",
         "Goal status action: none",
-        "Completion audit: not-complete; action none; 13 requirements; 11 OK / 0 triaged / 2 review; 3 blockers; sha256",
+        "Completion audit: not-complete; action none; 17 requirements; 13 OK / 1 triaged / 3 review; 3 blockers; sha256",
         "Execution-bridge tail: monitoring; action inspect-claims-and-scorecard; scope review-tail; policy inspect-before-wiring; wiring-now false; clearance-before-wiring false; blocked inspect-claims-before-wiring; 131/134 wired; 3 missing; 0 unclaimed / 0 owner-clearance; sha256",
         "Execution-bridge packs: safe-to-wire none; blocked owner-clearance none",
         "Owner-clearance queue: owner-clearance-queue-v2; 0 targets; score 0 / source 0 / bridge 0; sha256",
@@ -2880,6 +3116,7 @@ def self_test_errors() -> list[str]:
         "| SkillOpt gate discipline | OK | snapshot/gate/final hard gate recorded; plan ready-before-next-skill-edit; final hard gate python3 tools/run_checks.py --skip-reports; SkillOpt sha256",
         "| Remaining debt register | Review | 1 unclaimed; 0 owner-clearance; 0 dirty pack lanes; debt sha256",
         "| Owner-clearance queue | OK | 0 owner-clearance targets; targets score none / source none / bridge none; queue sha256",
+        "| Execution-bridge tail | Review | monitoring; action inspect-claims-and-scorecard; scope review-tail; policy inspect-before-wiring; wiring-now false; clearance-before-wiring false; 3 missing; 0 unclaimed / 0 owner-clearance; packs safe-to-wire none; blocked owner-clearance none; bridge sha256",
         "| Clone threshold | Needs full gate | clone audit skipped |",
         "| Future candidates | OK |",
         "Full clone audit is required before a completion claim.",
@@ -2889,6 +3126,9 @@ def self_test_errors() -> list[str]:
     ):
         if expected_text not in rendered_goal_audit:
             errors.append(f"goal-audit output missing {expected_text!r}")
+    surface_smoke_fixture_errors = surface_smoke_errors(handoff_fixture())
+    if surface_smoke_fixture_errors:
+        errors.append(f"surface-smoke fixture failed: {surface_smoke_fixture_errors}")
 
     dirty_handoff = handoff_fixture()
     dirty_handoff["candidate_pool"] = {
@@ -2899,10 +3139,12 @@ def self_test_errors() -> list[str]:
     dirty_handoff.update(execution_bridge_tail_summary(dirty_handoff))
     dirty_handoff.update(safe_content_queue_summary(dirty_handoff))
     dirty_handoff.update(content_edit_policy_summary(dirty_handoff))
+    dirty_handoff.update(owner_clearance_request_summary(dirty_handoff))
     dirty_handoff.update(remaining_debt_summary(dirty_handoff))
     dirty_handoff.update(next_batch_plan_summary(dirty_handoff))
     dirty_handoff.update(publish_policy_summary(dirty_handoff))
     dirty_handoff.update(skillopt_gate_plan_summary(dirty_handoff))
+    dirty_handoff.update(surface_smoke_plan_summary(dirty_handoff))
     dirty_handoff.update(goal_progress_summary(dirty_handoff))
     dirty_handoff.update(completion_audit_summary(dirty_handoff))
     dirty_handoff.update(handoff_manifest_summary(dirty_handoff))
@@ -2959,10 +3201,12 @@ def self_test_errors() -> list[str]:
     current.update(execution_bridge_tail_summary(current))
     current.update(safe_content_queue_summary(current))
     current.update(content_edit_policy_summary(current))
+    current.update(owner_clearance_request_summary(current))
     current.update(remaining_debt_summary(current))
     current.update(next_batch_plan_summary(current))
     current.update(publish_policy_summary(current))
     current.update(skillopt_gate_plan_summary(current))
+    current.update(surface_smoke_plan_summary(current))
     current.update(goal_progress_summary(current))
     current.update(completion_audit_summary(current))
     current.update(handoff_manifest_summary(current))
@@ -2980,7 +3224,7 @@ def self_test_errors() -> list[str]:
         "Git dirty pack lanes: 0 -> 1 (+1)",
         "Git dirty root/tooling entries: 1 -> 2 (+1)",
         "Command plan measurement commands: 7 -> 7 (0)",
-        "Command plan validation commands: 12 -> 12 (0)",
+        "Command plan validation commands: 15 -> 15 (0)",
         "Dirty pack lanes: Dirty-Pack-Skills",
         "Root/tooling dirty entries: `M tools/monthly_uplift_report.py`; `?? .maintenance/MONTHLY-UPLIFT-2026-06-27.md`",
         "Root/tooling paths: `tools/monthly_uplift_report.py`; `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`",
@@ -3032,10 +3276,12 @@ def self_test_errors() -> list[str]:
     clearance.update(execution_bridge_tail_summary(clearance))
     clearance.update(safe_content_queue_summary(clearance))
     clearance.update(content_edit_policy_summary(clearance))
+    clearance.update(owner_clearance_request_summary(clearance))
     clearance.update(remaining_debt_summary(clearance))
     clearance.update(next_batch_plan_summary(clearance))
     clearance.update(publish_policy_summary(clearance))
     clearance.update(skillopt_gate_plan_summary(clearance))
+    clearance.update(surface_smoke_plan_summary(clearance))
     clearance.update(goal_progress_summary(clearance))
     clearance.update(completion_audit_summary(clearance))
     clearance.update(handoff_manifest_summary(clearance))
@@ -3120,10 +3366,12 @@ def self_test_errors() -> list[str]:
     mixed_bridge.update(execution_bridge_tail_summary(mixed_bridge))
     mixed_bridge.update(safe_content_queue_summary(mixed_bridge))
     mixed_bridge.update(content_edit_policy_summary(mixed_bridge))
+    mixed_bridge.update(owner_clearance_request_summary(mixed_bridge))
     mixed_bridge.update(remaining_debt_summary(mixed_bridge))
     mixed_bridge.update(next_batch_plan_summary(mixed_bridge))
     mixed_bridge.update(publish_policy_summary(mixed_bridge))
     mixed_bridge.update(skillopt_gate_plan_summary(mixed_bridge))
+    mixed_bridge.update(surface_smoke_plan_summary(mixed_bridge))
     mixed_bridge.update(goal_progress_summary(mixed_bridge))
     mixed_bridge.update(completion_audit_summary(mixed_bridge))
     mixed_bridge.update(handoff_manifest_summary(mixed_bridge))
@@ -3195,10 +3443,12 @@ def self_test_errors() -> list[str]:
     clearance_overflow.update(execution_bridge_tail_summary(clearance_overflow))
     clearance_overflow.update(safe_content_queue_summary(clearance_overflow))
     clearance_overflow.update(content_edit_policy_summary(clearance_overflow))
+    clearance_overflow.update(owner_clearance_request_summary(clearance_overflow))
     clearance_overflow.update(remaining_debt_summary(clearance_overflow))
     clearance_overflow.update(next_batch_plan_summary(clearance_overflow))
     clearance_overflow.update(publish_policy_summary(clearance_overflow))
     clearance_overflow.update(skillopt_gate_plan_summary(clearance_overflow))
+    clearance_overflow.update(surface_smoke_plan_summary(clearance_overflow))
     clearance_overflow.update(goal_progress_summary(clearance_overflow))
     clearance_overflow.update(completion_audit_summary(clearance_overflow))
     clearance_overflow.update(handoff_manifest_summary(clearance_overflow))
@@ -3283,12 +3533,12 @@ def self_test_errors() -> list[str]:
         "Owner-clearance queue: owner-clearance-queue-v2; 2 targets; score 1 (1 shown) / source 0 / bridge 1 (1 shown); sha256",
         f"Owner-clearance target fingerprints: {owner_clearance_target_fingerprint_line(clearance)}.",
         "Goal progress: active-partial-clone-skipped; core OK; worklog 35 loops; clone skipped; bridge 131/134; next content; sha256",
-        "Handoff manifest: content-candidates -> content; root 1 paths; packs 0 lanes; completion 13 req / 3 blockers; sha256",
-        "Command plan: 7 measurement / 12 validation; sha256",
+        "Handoff manifest: content-candidates -> content; root 1 paths; packs 0 lanes; completion 17 req / 3 blockers; sha256",
+        "Command plan: 7 measurement / 15 validation; sha256",
         "Next-batch plan:",
         "Execution-bridge owner-clearance tail: Claimed-Pack (Agent A queued).",
         "Current Next Queue fragments:",
-        "Current-next-queue contract: `current-next-queue-v7`",
+        "Current-next-queue contract: `current-next-queue-v9`",
         f"completion-audit owner target fingerprints `{completion_audit_owner_target_fingerprint_line(clearance)}`",
     ):
         if expected_text not in rendered_worklog:
@@ -3308,6 +3558,8 @@ def self_test_errors() -> list[str]:
   - `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20`
   - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20`
   - `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20`
+  - `python3 tools/monthly_uplift_report.py --check --owner-clearance --limit 20 --output /tmp/ajs-monthly-owner-clearance.md`
+  - `python3 tools/monthly_uplift_report.py --check --external-link-plan --limit 20 --output /tmp/ajs-monthly-external-link-plan.md`
   - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-monthly-worklog-template.md`
   - `python3 tools/monthly_uplift_report.py --check-worklog latest`
   - `python3 tools/monthly_uplift_report.py --check-worklog latest --limit 20 --expect-latest-heading '### 2026-06-27 - Monthly Uplift Loop'`
@@ -3318,10 +3570,12 @@ def self_test_errors() -> list[str]:
 
 ## Current Next Queue
 
-- Current-next-queue contract: `current-next-queue-v7`.
-- Dashboard contract: `monthly-uplift-dashboard-v25`.
+- Current-next-queue contract: `current-next-queue-v9`.
+- Dashboard contract: `monthly-uplift-dashboard-v28`.
+- External-link action-plan contract: `monthly-uplift-external-link-action-plan-v1`.
 - Owner-clearance contract: `owner-clearance-queue-v2`.
-- Completion audit contract: `monthly-uplift-completion-audit-v6`.
+- Owner-clearance request contract: `monthly-uplift-owner-clearance-request-v1`.
+- Completion audit contract: `monthly-uplift-completion-audit-v10`.
 - Loop-control status: `owner-clearance-needed`.
 - Local publish-unit split: root/tooling currently forms one ready unit;
   pack content remains marked `needs-owner-review`.
@@ -3329,6 +3583,8 @@ def self_test_errors() -> list[str]:
   `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20`,
   `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20`,
   `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20`,
+  `python3 tools/monthly_uplift_report.py --check --owner-clearance --limit 20`,
+  `python3 tools/monthly_uplift_report.py --check --external-link-plan --limit 20`,
   `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20`,
   `python3 tools/monthly_uplift_report.py --check-worklog latest`,
   `python3 tools/monthly_uplift_report.py --check --limit 20`,
@@ -3397,6 +3653,8 @@ def self_test_errors() -> list[str]:
   - `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20`
   - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20`
   - `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20`
+  - `python3 tools/monthly_uplift_report.py --check --owner-clearance --limit 20 --output /tmp/ajs-monthly-owner-clearance.md`
+  - `python3 tools/monthly_uplift_report.py --check --external-link-plan --limit 20 --output /tmp/ajs-monthly-external-link-plan.md`
   - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-monthly-worklog-template.md`
   - `python3 tools/monthly_uplift_report.py --check-worklog latest`
   - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-monthly-report-final.md`
@@ -3404,9 +3662,9 @@ def self_test_errors() -> list[str]:
   - `python3 tools/run_checks.py`
   - `git diff --check`
 
-- Current-next-queue contract: `current-next-queue-v7`.
+- Current-next-queue contract: `current-next-queue-v9`.
 """
-    stale_global_contract_worklog = valid_worklog.replace("current-next-queue-v7", "current-next-queue-v6", 1)
+    stale_global_contract_worklog = valid_worklog.replace("current-next-queue-v9", "current-next-queue-v8", 1)
     stale_global_contract_errors = validate_worklog_text(stale_global_contract_worklog + later_valid_loop)
     if not any("stale queue contract" in error for error in stale_global_contract_errors):
         errors.append(
@@ -3418,10 +3676,12 @@ def self_test_errors() -> list[str]:
         [
             "## Current Next Queue",
             "",
-            "- Current-next-queue contract: `current-next-queue-v7`.",
-            "- Dashboard contract: `monthly-uplift-dashboard-v25`.",
+            "- Current-next-queue contract: `current-next-queue-v9`.",
+            "- Dashboard contract: `monthly-uplift-dashboard-v28`.",
+            "- External-link action-plan contract: `monthly-uplift-external-link-action-plan-v1`.",
             "- Owner-clearance contract: `owner-clearance-queue-v2`.",
-            "- Completion audit contract: `monthly-uplift-completion-audit-v6`.",
+            "- Owner-clearance request contract: `monthly-uplift-owner-clearance-request-v1`.",
+            "- Completion audit contract: `monthly-uplift-completion-audit-v10`.",
             f"- The current nested-contracts fingerprint is `{clearance['schema']['nested_contracts_fingerprint']}`.",
             "",
             "### Later Loop",
@@ -3744,13 +4004,16 @@ def build_summary(args: argparse.Namespace) -> dict[str, Any]:
         },
     }
     summary["owner_clearance_queue"] = owner_clearance_queue(summary)
+    summary.update(external_link_action_plan_summary(summary))
     summary.update(execution_bridge_tail_summary(summary))
     summary.update(safe_content_queue_summary(summary))
     summary.update(content_edit_policy_summary(summary))
+    summary.update(owner_clearance_request_summary(summary))
     summary.update(remaining_debt_summary(summary))
     summary.update(next_batch_plan_summary(summary))
     summary.update(publish_policy_summary(summary))
     summary.update(skillopt_gate_plan_summary(summary))
+    summary.update(surface_smoke_plan_summary(summary))
     summary.update(goal_progress_summary(summary))
     summary.update(completion_audit_summary(summary))
     summary.update(handoff_manifest_summary(summary))
@@ -4512,6 +4775,106 @@ def owner_clearance_target_fingerprint_line(summary: dict[str, Any]) -> str:
     return f"{' / '.join(parts)}{suffix}"
 
 
+def owner_clearance_request_targets(queue: dict[str, Any], kind: str) -> list[dict[str, str]]:
+    row = queue.get(kind)
+    targets = row.get("targets", []) if isinstance(row, dict) else []
+    if not isinstance(targets, list):
+        return []
+    return [
+        {"pack": str(target.get("pack", "")), "reason": str(target.get("reason", ""))}
+        for target in targets
+        if isinstance(target, dict)
+    ]
+
+
+def owner_clearance_request_summary(summary: dict[str, Any]) -> dict[str, Any]:
+    queue = owner_clearance_queue_data(summary)
+    claims = summary.get("claims", {}) if isinstance(summary.get("claims"), dict) else {}
+    loop_control = summary.get("loop_control", {}) if isinstance(summary.get("loop_control"), dict) else {}
+    content_policy = summary.get("content_edit_policy", {}) if isinstance(summary.get("content_edit_policy"), dict) else {}
+    bridge_tail = summary.get("execution_bridge_tail", {}) if isinstance(summary.get("execution_bridge_tail"), dict) else {}
+
+    targets = {kind: owner_clearance_request_targets(queue, kind) for kind in OWNER_CLEARANCE_KINDS}
+    target_counts = {kind: len(rows) for kind, rows in targets.items()}
+    target_fingerprints = {
+        kind: str(queue.get(kind, {}).get("target_fingerprint", ""))
+        if isinstance(queue.get(kind), dict)
+        else ""
+        for kind in OWNER_CLEARANCE_KINDS
+    }
+    target_total = sum(target_counts.values())
+    status = "owner-clearance-needed" if target_total else "no-owner-clearance-needed"
+    recommended_action = "request-owner-clearance" if target_total else "none"
+    request: dict[str, Any] = {
+        "contract": OWNER_CLEARANCE_REQUEST_CONTRACT,
+        "status": status,
+        "recommended_action": recommended_action,
+        "request_scope": "claim-sensitive-score-source-bridge-targets" if target_total else "none",
+        "requested_decision": (
+            "clear listed packs before score-floor, source-map, or execution-bridge content edits"
+            if target_total
+            else "no owner-clearance request is needed in the current target window"
+        ),
+        "blocked_edit_policy": "do-not-edit-claim-sensitive-packs-without-owner-clearance",
+        "next_lane": str(loop_control.get("next_lane", "")),
+        "claim_boundary_path": str(claims.get("path", ".maintenance/CLAIMS.md")),
+        "claim_boundary_fingerprint": str(claims.get("fingerprint", "")),
+        "claims_active_row_count": int(claims.get("active_row_count", 0)),
+        "queue_contract": str(queue.get("contract", "")),
+        "queue_total": int(queue.get("total", 0)),
+        "queue_fingerprint": str(queue.get("fingerprint", "")),
+        "target_total": target_total,
+        "target_counts": target_counts,
+        "target_fingerprints": target_fingerprints,
+        "targets": targets,
+        "content_edit_policy_status": str(content_policy.get("status", "")),
+        "content_edits_allowed": bool(content_policy.get("content_edits_allowed", False)),
+        "execution_bridge_tail_status": str(bridge_tail.get("status", "")),
+        "execution_bridge_wiring_allowed_now": bool(bridge_tail.get("wiring_allowed_now", False)),
+        "execution_bridge_clearance_required_before_wiring": bool(
+            bridge_tail.get("owner_clearance_required_before_wiring", False)
+        ),
+        "execution_bridge_pack_decision": execution_bridge_tail_pack_line(summary),
+    }
+    request["fingerprint"] = hashlib.sha256(
+        json.dumps(request, ensure_ascii=False, sort_keys=True).encode("utf-8")
+    ).hexdigest()[:12]
+    return {"owner_clearance_request": request}
+
+
+def owner_clearance_request_data(summary: dict[str, Any]) -> dict[str, Any]:
+    request = summary.get("owner_clearance_request")
+    if isinstance(request, dict):
+        return request
+    return owner_clearance_request_summary(summary)["owner_clearance_request"]
+
+
+def owner_clearance_request_line(summary: dict[str, Any]) -> str:
+    request = owner_clearance_request_data(summary)
+    fingerprint = str(request.get("fingerprint", ""))
+    suffix = f"; sha256 {fingerprint}" if fingerprint else ""
+    return (
+        f"{request.get('contract', OWNER_CLEARANCE_REQUEST_CONTRACT)}; "
+        f"status {request.get('status', 'unknown')}; "
+        f"{int(request.get('target_total', 0))} targets; "
+        f"action {request.get('recommended_action', 'unknown')}{suffix}"
+    )
+
+
+def validate_owner_clearance_request(summary: dict[str, Any]) -> list[str]:
+    if "generated_at" not in summary and "owner_clearance_request" not in summary:
+        return []
+    expected = owner_clearance_request_summary(summary)["owner_clearance_request"]
+    request = summary.get("owner_clearance_request")
+    if not isinstance(request, dict):
+        return ["owner_clearance_request missing or not an object"]
+    errors: list[str] = []
+    for key, expected_value in expected.items():
+        if request.get(key) != expected_value:
+            errors.append(f"owner_clearance_request.{key} expected {expected_value!r}, observed {request.get(key)!r}")
+    return errors
+
+
 def completion_audit_owner_target_fingerprint_line(summary: dict[str, Any]) -> str:
     audit = summary.get("completion_audit")
     if not isinstance(audit, dict):
@@ -4993,6 +5356,7 @@ def goal_progress_summary(summary: dict[str, Any]) -> dict[str, Any]:
     skillopt_plan = summary.get("skillopt_gate_plan")
     if not isinstance(skillopt_plan, dict):
         skillopt_plan = skillopt_gate_plan_summary(summary)["skillopt_gate_plan"]
+    owner_request = owner_clearance_request_data(summary)
     clearance_queue = owner_clearance_queue_data(summary)
     remaining_debt = summary.get("remaining_debt", {}) if isinstance(summary.get("remaining_debt"), dict) else {}
     publish_policy = summary.get("publish_policy", {}) if isinstance(summary.get("publish_policy"), dict) else {}
@@ -5134,7 +5498,7 @@ def validate_goal_progress(summary: dict[str, Any]) -> list[str]:
     return errors
 
 
-COMPLETION_AUDIT_CONTRACT = "monthly-uplift-completion-audit-v6"
+COMPLETION_AUDIT_CONTRACT = "monthly-uplift-completion-audit-v10"
 
 
 def completion_audit_remaining_debt_row(summary: dict[str, Any]) -> tuple[str, str, dict[str, Any]]:
@@ -5170,6 +5534,63 @@ def completion_audit_owner_clearance_row(summary: dict[str, Any]) -> tuple[str, 
     elif fingerprint:
         evidence = f"{evidence}; queue sha256 {fingerprint}"
     return status, evidence, queue
+
+
+def completion_audit_execution_bridge_tail_row(summary: dict[str, Any]) -> tuple[str, str, dict[str, Any]]:
+    tail = summary.get("execution_bridge_tail")
+    if not isinstance(tail, dict):
+        tail = execution_bridge_tail_summary(summary)["execution_bridge_tail"]
+    tail_status = str(tail.get("status", "unknown"))
+    missing = int(tail.get("missing", 0))
+    unclaimed_count = int(tail.get("unclaimed_count", 0))
+    owner_clearance_count = int(tail.get("owner_clearance_count", 0))
+    if tail_status == "complete" and missing == 0:
+        status = "OK"
+    elif unclaimed_count:
+        status = "Review"
+    elif owner_clearance_count:
+        status = "Triaged"
+    else:
+        status = "Review"
+    evidence = (
+        f"{tail_status}; action {tail.get('recommended_action', 'unknown')}; "
+        f"scope {tail.get('recommendation_scope', 'unknown')}; "
+        f"policy {tail.get('claim_sensitive_policy', 'unknown')}; "
+        f"wiring-now {str(bool(tail.get('wiring_allowed_now', False))).lower()}; "
+        "clearance-before-wiring "
+        f"{str(bool(tail.get('owner_clearance_required_before_wiring', False))).lower()}; "
+        f"{missing} missing; {unclaimed_count} unclaimed / {owner_clearance_count} owner-clearance; "
+        f"packs {execution_bridge_tail_pack_line(summary)}"
+    )
+    fingerprint = str(tail.get("fingerprint", ""))
+    if fingerprint:
+        evidence = f"{evidence}; bridge sha256 {fingerprint}"
+    return status, evidence, tail
+
+
+def completion_audit_external_link_action_row(summary: dict[str, Any]) -> tuple[str, str, dict[str, Any]]:
+    plan = summary.get("external_link_action_plan")
+    if not isinstance(plan, dict):
+        plan = external_link_action_plan_data(summary)
+    status_value = str(plan.get("status", "unknown"))
+    if status_value == "clear":
+        status = "OK"
+    elif status_value in {"actionable-review", "cache-refresh-needed", "manual-recheck-needed", "cache-prune-optional"}:
+        status = "Triaged"
+    else:
+        status = "Review"
+    evidence = (
+        f"{plan.get('contract', 'unknown')}; {status_value}; "
+        f"action {plan.get('recommended_action', 'unknown')}; "
+        f"{int(plan.get('actionable_count', 0))} actionable / "
+        f"{int(plan.get('unchecked_count', 0))} unchecked / "
+        f"{int(plan.get('inconclusive_count', 0))} inconclusive; "
+        f"network {plan.get('network_policy', 'unknown')}"
+    )
+    fingerprint = str(plan.get("fingerprint", ""))
+    if fingerprint:
+        evidence = f"{evidence}; external-link-plan sha256 {fingerprint}"
+    return status, evidence, plan
 
 
 def bridge_gap_phrase(count: int) -> str:
@@ -5239,6 +5660,7 @@ def completion_audit_requirement_rows(
     expected_validation_count = len(NEXT_LOOP_VALIDATION_COMMANDS)
     debt_register_status, debt_register_evidence, _ = completion_audit_remaining_debt_row(summary)
     queue_status, queue_evidence, _ = completion_audit_owner_clearance_row(summary)
+    bridge_tail_status, bridge_tail_evidence, _ = completion_audit_execution_bridge_tail_row(summary)
     skillopt_dirty_paths = int(progress.get("skillopt_gate_dirty_skill_path_count", 0))
     skillopt_dirty_pack_lanes = int(progress.get("skillopt_gate_dirty_pack_lane_count", 0))
     skillopt_status = str(progress.get("skillopt_gate_plan_status", "unknown"))
@@ -5265,6 +5687,35 @@ def completion_audit_requirement_rows(
         skillopt_evidence = f"plan {skillopt_status}"
     if skillopt_fingerprint:
         skillopt_evidence = f"{skillopt_evidence}; SkillOpt sha256 {skillopt_fingerprint}"
+    surface_plan = summary.get("surface_smoke_plan")
+    if not isinstance(surface_plan, dict):
+        surface_plan = surface_smoke_plan_summary(summary)["surface_smoke_plan"]
+    surface_plan_fingerprint = str(surface_plan.get("fingerprint", ""))
+    surface_plan_status = "OK" if (
+        surface_plan.get("contract") == SURFACE_SMOKE_PLAN_CONTRACT
+        and int(surface_plan.get("surface_count", 0)) > 0
+        and int(surface_plan.get("required_fragment_total", 0)) > 0
+        and bool(surface_plan_fingerprint)
+    ) else "Review"
+    surface_plan_evidence = (
+        f"{surface_plan.get('contract', 'unknown')}; "
+        f"{int(surface_plan.get('surface_count', 0))} surfaces; "
+        f"{int(surface_plan.get('required_fragment_total', 0))} required fragments"
+    )
+    if surface_plan_fingerprint:
+        surface_plan_evidence = f"{surface_plan_evidence}; surface sha256 {surface_plan_fingerprint}"
+    owner_request = owner_clearance_request_data(summary)
+    owner_request_total = int(owner_request.get("target_total", 0))
+    owner_request_status = "Triaged" if owner_request_total else "OK"
+    owner_request_fingerprint = str(owner_request.get("fingerprint", ""))
+    owner_request_evidence = (
+        f"{owner_request.get('contract', 'unknown')}; "
+        f"{owner_request.get('status', 'unknown')}; "
+        f"{owner_request_total} targets; action {owner_request.get('recommended_action', 'unknown')}"
+    )
+    if owner_request_fingerprint:
+        owner_request_evidence = f"{owner_request_evidence}; request sha256 {owner_request_fingerprint}"
+    external_link_status, external_link_evidence, _ = completion_audit_external_link_action_row(summary)
 
     return [
         (
@@ -5283,6 +5734,8 @@ def completion_audit_requirement_rows(
             f"{int(commands.get('validation_count', 0))} validation commands",
         ),
         ("SkillOpt gate discipline", skillopt_gate_status, skillopt_evidence),
+        ("Surface-smoke plan", surface_plan_status, surface_plan_evidence),
+        ("External-link action plan", external_link_status, external_link_evidence),
         (
             "Score floor",
             "OK" if progress.get("score_floor_ok") else "Review",
@@ -5305,6 +5758,8 @@ def completion_audit_requirement_rows(
         ("Clone threshold", clone_audit_status, clone_evidence),
         ("Remaining debt register", debt_register_status, debt_register_evidence),
         ("Owner-clearance queue", queue_status, queue_evidence),
+        ("Owner-clearance request", owner_request_status, owner_request_evidence),
+        ("Execution-bridge tail", bridge_tail_status, bridge_tail_evidence),
         (
             "Execution bridge and debt",
             debt_status,
@@ -5362,8 +5817,14 @@ def completion_audit_summary(summary: dict[str, Any]) -> dict[str, Any]:
     skillopt_plan = summary.get("skillopt_gate_plan")
     if not isinstance(skillopt_plan, dict):
         skillopt_plan = skillopt_gate_plan_summary(summary)["skillopt_gate_plan"]
+    surface_plan = summary.get("surface_smoke_plan")
+    if not isinstance(surface_plan, dict):
+        surface_plan = surface_smoke_plan_summary(summary)["surface_smoke_plan"]
+    owner_request = owner_clearance_request_data(summary)
+    external_plan = external_link_action_plan_data(summary)
     _, _, remaining_debt = completion_audit_remaining_debt_row(summary)
     _, _, clearance_queue = completion_audit_owner_clearance_row(summary)
+    _, bridge_tail_evidence, _ = completion_audit_execution_bridge_tail_row(summary)
     rows = completion_audit_requirement_rows(summary, progress)
     blockers = completion_audit_blockers(progress, bridge_tail)
     ok_count = sum(1 for _, status, _ in rows if status == "OK")
@@ -5391,6 +5852,13 @@ def completion_audit_summary(summary: dict[str, Any]) -> dict[str, Any]:
         ),
         "execution_bridge_missing": int(progress.get("execution_bridge_missing", 0)),
         "execution_bridge_tail_status": str(bridge_tail.get("status", progress.get("execution_bridge_tail_status", ""))),
+        "execution_bridge_tail_recommended_action": str(bridge_tail.get("recommended_action", "")),
+        "execution_bridge_tail_recommendation_scope": str(bridge_tail.get("recommendation_scope", "")),
+        "execution_bridge_tail_claim_sensitive_policy": str(
+            bridge_tail.get("claim_sensitive_policy", progress.get("execution_bridge_tail_policy", ""))
+        ),
+        "execution_bridge_tail_pack_decision": execution_bridge_tail_pack_line(summary),
+        "execution_bridge_tail_requirement_evidence": bridge_tail_evidence,
         "execution_bridge_tail_fingerprint": str(
             bridge_tail.get("fingerprint", progress.get("execution_bridge_tail_fingerprint", ""))
         ),
@@ -5411,6 +5879,21 @@ def completion_audit_summary(summary: dict[str, Any]) -> dict[str, Any]:
         "skillopt_gate_dirty_pack_lane_count": int(
             skillopt_plan.get("dirty_pack_lane_count", progress.get("skillopt_gate_dirty_pack_lane_count", 0))
         ),
+        "surface_smoke_plan_contract": str(surface_plan.get("contract", "")),
+        "surface_smoke_plan_fingerprint": str(surface_plan.get("fingerprint", "")),
+        "surface_smoke_surface_count": int(surface_plan.get("surface_count", 0)),
+        "surface_smoke_required_fragment_total": int(surface_plan.get("required_fragment_total", 0)),
+        "external_link_action_plan_contract": str(external_plan.get("contract", "")),
+        "external_link_action_plan_status": str(external_plan.get("status", "")),
+        "external_link_action_plan_recommended_action": str(external_plan.get("recommended_action", "")),
+        "external_link_action_plan_fingerprint": str(external_plan.get("fingerprint", "")),
+        "external_link_action_plan_actionable_count": int(external_plan.get("actionable_count", 0)),
+        "external_link_action_plan_unchecked_count": int(external_plan.get("unchecked_count", 0)),
+        "external_link_action_plan_inconclusive_count": int(external_plan.get("inconclusive_count", 0)),
+        "owner_clearance_request_contract": str(owner_request.get("contract", "")),
+        "owner_clearance_request_status": str(owner_request.get("status", "")),
+        "owner_clearance_request_fingerprint": str(owner_request.get("fingerprint", "")),
+        "owner_clearance_request_target_total": int(owner_request.get("target_total", 0)),
         "remaining_debt_status": str(remaining_debt.get("status", "")),
         "remaining_debt_fingerprint": str(remaining_debt.get("fingerprint", "")),
         "remaining_debt_unclaimed_total": int(remaining_debt.get("unclaimed_total", 0)),
@@ -5418,6 +5901,9 @@ def completion_audit_summary(summary: dict[str, Any]) -> dict[str, Any]:
         "remaining_debt_dirty_pack_lane_count": int(remaining_debt.get("dirty_pack_lane_count", 0)),
         "owner_clearance_queue_total": int(clearance_queue.get("total", 0)),
         "owner_clearance_queue_fingerprint": str(clearance_queue.get("fingerprint", "")),
+        "owner_clearance_request_status": str(owner_request.get("status", "")),
+        "owner_clearance_request_target_total": int(owner_request.get("target_total", 0)),
+        "owner_clearance_request_fingerprint": str(owner_request.get("fingerprint", "")),
         "owner_clearance_score_target_fingerprint": str(
             clearance_queue.get("score-floor", {}).get("target_fingerprint", "")
             if isinstance(clearance_queue.get("score-floor"), dict)
@@ -5474,7 +5960,7 @@ def validate_completion_audit(summary: dict[str, Any]) -> list[str]:
     return errors
 
 
-HANDOFF_MANIFEST_CONTRACT = "monthly-uplift-handoff-v4"
+HANDOFF_MANIFEST_CONTRACT = "monthly-uplift-handoff-v6"
 
 
 def handoff_manifest_summary(summary: dict[str, Any]) -> dict[str, Any]:
@@ -5484,6 +5970,7 @@ def handoff_manifest_summary(summary: dict[str, Any]) -> dict[str, Any]:
     worklog = summary.get("worklog", {}) if isinstance(summary.get("worklog"), dict) else {}
     boundary = summary.get("worktree_boundary", {}) if isinstance(summary.get("worktree_boundary"), dict) else {}
     external_links = summary.get("external_links", {}) if isinstance(summary.get("external_links"), dict) else {}
+    external_plan = external_link_action_plan_data(summary)
     command_plan = summary.get("command_plan", {}) if isinstance(summary.get("command_plan"), dict) else {}
     next_batch_plan = summary.get("next_batch_plan", {}) if isinstance(summary.get("next_batch_plan"), dict) else {}
     content_policy = summary.get("content_edit_policy", {}) if isinstance(summary.get("content_edit_policy"), dict) else {}
@@ -5518,6 +6005,12 @@ def handoff_manifest_summary(summary: dict[str, Any]) -> dict[str, Any]:
         "external_link_current_cache_entry_count": int(external_links.get("current_cache_entry_count", 0)),
         "external_link_orphaned_cache_entry_count": int(external_links.get("orphaned_cache_entry_count", 0)),
         "external_link_fingerprint": str(external_links.get("fingerprint", "")),
+        "external_link_action_plan_status": str(external_plan.get("status", "")),
+        "external_link_action_plan_recommended_action": str(external_plan.get("recommended_action", "")),
+        "external_link_action_plan_actionable_count": int(external_plan.get("actionable_count", 0)),
+        "external_link_action_plan_unchecked_count": int(external_plan.get("unchecked_count", 0)),
+        "external_link_action_plan_inconclusive_count": int(external_plan.get("inconclusive_count", 0)),
+        "external_link_action_plan_fingerprint": str(external_plan.get("fingerprint", "")),
         "command_plan_fingerprint": str(command_plan.get("fingerprint", "")),
         "next_batch_plan_contract": str(next_batch_plan.get("contract", "")),
         "next_batch_plan_fingerprint": str(next_batch_plan.get("fingerprint", "")),
@@ -5647,6 +6140,7 @@ def markdown(summary: dict[str, Any]) -> str:
         f"| External links | {external_links_line(summary)} |",
         f"| External-link classes | {external_links_breakdown_line(summary)} |",
         f"| External-link cache | {external_links_cache_line(summary)} |",
+        f"| External-link action plan | {external_link_action_plan_line(summary)} |",
         f"| Worklog | {worklog['status']}; {worklog['loop_count']} loops; latest `{str(worklog['latest_heading']).replace('|', '/')}` |",
         f"| Claims boundary | {claims_source_line(claims)} |",
     ]
@@ -5666,11 +6160,13 @@ def markdown(summary: dict[str, Any]) -> str:
     lines.append(f"| Remaining debt | {remaining_debt_line(summary)} |")
     lines.append(f"| Owner-clearance queue | {owner_clearance_queue_line(summary)} |")
     lines.append(f"| Owner-clearance target fingerprints | {owner_clearance_target_fingerprint_line(summary)} |")
+    lines.append(f"| Owner-clearance request | {owner_clearance_request_line(summary)} |")
     lines.append(f"| Publish policy | {publish_policy_line(summary)} |")
     lines.append(f"| Goal progress | {goal_progress_line(summary)} |")
     lines.append(f"| Completion audit | {completion_audit_line(summary)} |")
     lines.append(f"| Handoff manifest | {handoff_manifest_line(summary)} |")
     lines.append(f"| SkillOpt gate plan | {skillopt_gate_plan_line(summary)} |")
+    lines.append(f"| Surface-smoke plan | {surface_smoke_plan_line(summary)} |")
     lines.append(f"| Current next queue | {current_next_queue_line(summary)} |")
     lines.append(f"| Command plan | {command_plan_line(summary)} |")
     lines.append(f"| Next-batch plan | {next_batch_plan_line(summary)} |")
@@ -5905,6 +6401,7 @@ def handoff(summary: dict[str, Any]) -> str:
         f"- External links: {external_links_line(summary)}",
         f"- External-link classes: {external_links_breakdown_line(summary)}",
         f"- External-link cache: {external_links_cache_line(summary)}",
+        f"- External-link action plan: {external_link_action_plan_line(summary)}",
         f"- Worklog: {worklog['status']}; {worklog['loop_count']} loops; latest {worklog['latest_heading']}",
         f"- Claims boundary: {claims_source_line(claims)}",
         f"- Clone audit: {clone_line}",
@@ -5916,13 +6413,16 @@ def handoff(summary: dict[str, Any]) -> str:
         f"- Safe content queue: {safe_content_queue_line(summary)}",
         f"- Content-edit policy: {content_edit_policy_line(summary)}",
         f"- Remaining debt: {remaining_debt_line(summary)}",
+        f"- External-link action plan: {external_link_action_plan_line(summary)}",
         f"- Owner-clearance queue: {owner_clearance_queue_line(summary)}",
         f"- Owner-clearance target fingerprints: {owner_clearance_target_fingerprint_line(summary)}",
+        f"- Owner-clearance request: {owner_clearance_request_line(summary)}",
         f"- Publish policy: {publish_policy_line(summary)}",
         f"- Goal progress: {goal_progress_line(summary)}",
         f"- Completion audit: {completion_audit_line(summary)}",
         f"- Handoff manifest: {handoff_manifest_line(summary)}",
         f"- SkillOpt gate plan: {skillopt_gate_plan_line(summary)}",
+        f"- Surface-smoke plan: {surface_smoke_plan_line(summary)}",
         f"- Current next queue: {current_next_queue_line(summary)}",
         f"- Command plan: {command_plan_line(summary)}",
         f"- Next-batch plan: {next_batch_plan_line(summary)}",
@@ -6091,6 +6591,7 @@ def publish_plan(summary: dict[str, Any]) -> str:
             ),
             f"- Owner-clearance queue: {owner_clearance_queue_line(summary)}",
             f"- Owner-clearance target fingerprints: {owner_clearance_target_fingerprint_line(summary)}",
+            f"- Owner-clearance request: {owner_clearance_request_line(summary)}",
         ]
     )
     if pack_names:
@@ -6169,6 +6670,7 @@ def debt_audit(summary: dict[str, Any]) -> str:
         f"- Remaining debt: {remaining_debt_line(summary)}",
         f"- Owner-clearance queue: {owner_clearance_queue_line(summary)}",
         f"- Owner-clearance target fingerprints: {owner_clearance_target_fingerprint_line(summary)}",
+        f"- Owner-clearance request: {owner_clearance_request_line(summary)}",
         f"- Reason: {debt.get('reason', '')}",
         "",
         "## Debt Register",
@@ -6223,6 +6725,143 @@ def debt_audit(summary: dict[str, Any]) -> str:
     return "\n".join(lines) + "\n"
 
 
+def owner_clearance_request(summary: dict[str, Any]) -> str:
+    request = owner_clearance_request_data(summary)
+    target_counts = request.get("target_counts", {}) if isinstance(request.get("target_counts"), dict) else {}
+    target_fingerprints = (
+        request.get("target_fingerprints", {}) if isinstance(request.get("target_fingerprints"), dict) else {}
+    )
+    targets = request.get("targets", {}) if isinstance(request.get("targets"), dict) else {}
+    labels = {
+        "score-floor": "Score floor",
+        "source-map": "Source-map",
+        "execution-bridge": "Execution bridge",
+    }
+
+    lines = [
+        "# Owner Clearance Request",
+        "",
+        f"Generated: {summary['generated_at']}",
+        "",
+        "## Requested Decision",
+        "",
+        f"- Status: `{request.get('status', 'unknown')}`",
+        f"- Recommended action: `{request.get('recommended_action', 'unknown')}`",
+        f"- Requested decision: {request.get('requested_decision', '')}",
+        f"- Blocked edit policy: {request.get('blocked_edit_policy', '')}",
+        f"- Owner-clearance request: {owner_clearance_request_line(summary)}",
+        f"- Owner-clearance queue: {owner_clearance_queue_line(summary)}",
+        f"- Owner-clearance target fingerprints: {owner_clearance_target_fingerprint_line(summary)}",
+        f"- Claims boundary: {claims_source_line(summary.get('claims', {}))}",
+        f"- Content-edit policy: {content_edit_policy_line(summary)}",
+        f"- Execution-bridge tail: {execution_bridge_tail_line(summary)}",
+        f"- Execution-bridge packs: {execution_bridge_tail_pack_line(summary)}",
+        "",
+        "## Target Groups",
+        "",
+        "| Target type | Count | Target fingerprint | Current queue |",
+        "|---|---:|---|---|",
+    ]
+    for kind in OWNER_CLEARANCE_KINDS:
+        rows = targets.get(kind, [])
+        if not isinstance(rows, list):
+            rows = []
+        current_queue = "none" if not rows else pack_reason_list_with_remainder(rows, limit=5, code=True)
+        lines.append(
+            "| {label} | {count} | {fingerprint} | {queue} |".format(
+                label=labels.get(kind, kind),
+                count=int(target_counts.get(kind, 0)),
+                fingerprint=str(target_fingerprints.get(kind, "")) or "none",
+                queue=current_queue.replace("|", "/"),
+            )
+        )
+
+    lines.extend(["", "## Full Target Rows", ""])
+    if int(request.get("target_total", 0)) == 0:
+        lines.append("- No owner-clearance targets are visible in the current target window.")
+    else:
+        for kind in OWNER_CLEARANCE_KINDS:
+            rows = targets.get(kind, [])
+            if not isinstance(rows, list) or not rows:
+                continue
+            lines.extend(["", f"### {labels.get(kind, kind)}", ""])
+            for row in rows:
+                if not isinstance(row, dict):
+                    continue
+                pack = str(row.get("pack", ""))
+                reason = str(row.get("reason", ""))
+                reason_suffix = f" - {reason}" if reason else ""
+                lines.append(f"- `{pack}`{reason_suffix}")
+
+    lines.extend(
+        [
+            "",
+            "## Validation Commands",
+            "",
+        ]
+    )
+    for command_text in summary_validation_commands_with_latest_heading(summary):
+        lines.append(f"- `{command_text}`")
+    lines.extend(["", "No pack content is edited by this request."])
+    return "\n".join(lines) + "\n"
+
+
+def external_link_action_plan_report(summary: dict[str, Any]) -> str:
+    plan = external_link_action_plan_data(summary)
+    rows = [
+        ("DEAD", int(plan.get("dead_count", 0)), "replace or remove genuinely gone user-facing URLs"),
+        ("REDIRECT", int(plan.get("redirect_count", 0)), "review final targets before repointing canonical URLs"),
+        ("UNCHECKED", int(plan.get("unchecked_count", 0)), "refresh cache before interpreting coverage"),
+        ("BLOCKED", int(plan.get("blocked_count", 0)), "manual browser or later network recheck; do not auto-edit"),
+        ("UNREACHABLE", int(plan.get("unreachable_count", 0)), "rerun before acting because this is often transient"),
+        ("ORPHANED_CACHE", int(plan.get("orphaned_cache_entry_count", 0)), "prune after URL inventory changes"),
+    ]
+    priorities = plan.get("priority_order", []) if isinstance(plan.get("priority_order"), list) else []
+    lines = [
+        "# External Link Action Plan",
+        "",
+        f"Generated: {summary['generated_at']}",
+        "",
+        "## Decision",
+        "",
+        f"- Status: `{plan.get('status', 'unknown')}`",
+        f"- Recommended action: `{plan.get('recommended_action', 'unknown')}`",
+        f"- External-link action plan: {external_link_action_plan_line(summary)}",
+        f"- External-link advisory: {external_links_line(summary)}",
+        f"- External-link classes: {external_links_breakdown_line(summary)}",
+        f"- External-link cache: {external_links_cache_line(summary)}",
+        f"- Cache-summary command: `{plan.get('cache_summary_command', '')}`",
+        f"- Refresh command: `{plan.get('refresh_command', '')}`",
+        f"- Network policy: `{plan.get('network_policy', 'unknown')}`",
+        "",
+        "## Action Priority",
+        "",
+    ]
+    lines.extend(f"- {priority}" for priority in priorities)
+    lines.extend(
+        [
+            "",
+            "## Class Handling",
+            "",
+            "| Class | Count | Handling |",
+            "|---|---:|---|",
+        ]
+    )
+    for label, count, handling in rows:
+        lines.append(f"| {label} | {count} | {handling} |")
+    lines.extend(
+        [
+            "",
+            "## Validation Commands",
+            "",
+        ]
+    )
+    for command_text in summary_validation_commands_with_latest_heading(summary):
+        lines.append(f"- `{command_text}`")
+    lines.extend(["", "No network requests are made by this plan."])
+    return "\n".join(lines) + "\n"
+
+
 def goal_audit(summary: dict[str, Any]) -> str:
     progress = summary.get("goal_progress")
     if not isinstance(progress, dict):
@@ -6254,8 +6893,10 @@ def goal_audit(summary: dict[str, Any]) -> str:
         f"- Execution-bridge tail: {execution_bridge_tail_line(summary)}",
         f"- Execution-bridge packs: {execution_bridge_tail_pack_line(summary)}",
         f"- Safe content queue: {safe_content_queue_line(summary)}",
+        f"- External-link action plan: {external_link_action_plan_line(summary)}",
         f"- Owner-clearance queue: {owner_clearance_queue_line(summary)}",
         f"- Owner-clearance target fingerprints: {owner_clearance_target_fingerprint_line(summary)}",
+        f"- Owner-clearance request: {owner_clearance_request_line(summary)}",
         f"- Goal progress: {goal_progress_line(summary)}",
         f"- Reason: {audit.get('reason', progress.get('reason', ''))}",
         "",
@@ -6274,6 +6915,122 @@ def goal_audit(summary: dict[str, Any]) -> str:
         lines.append(f"- `{command_text}`")
     lines.extend(["", "No goal status is changed by this audit."])
     return "\n".join(lines) + "\n"
+
+
+def surface_smoke_renderings(summary: dict[str, Any]) -> dict[str, str]:
+    return {
+        "markdown": markdown(summary),
+        "handoff": handoff(summary),
+        "publish-plan": publish_plan(summary),
+        "goal-audit": goal_audit(summary),
+        "debt-audit": debt_audit(summary),
+        "owner-clearance": owner_clearance_request(summary),
+        "external-link-plan": external_link_action_plan_report(summary),
+        "worklog-template": worklog_template(summary),
+    }
+
+
+def surface_smoke_requirements(summary: dict[str, Any]) -> dict[str, list[str]]:
+    worklog = summary.get("worklog", {}) if isinstance(summary.get("worklog"), dict) else {}
+    latest_heading = str(worklog.get("latest_heading", "")).strip()
+    latest_heading_command = strict_latest_heading_command(latest_heading) if latest_heading else ""
+    template_heading = worklog_template_heading(summary)
+    template_heading_command = strict_latest_heading_command(template_heading)
+    return {
+        "markdown": [
+            "# Monthly Uplift Health Snapshot",
+            "## Validation Commands",
+            latest_heading_command,
+        ],
+        "handoff": [
+            "# Monthly Uplift Handoff",
+            "## Validation Commands",
+            latest_heading_command,
+        ],
+        "publish-plan": [
+            "# Local Publish Plan",
+            "## Required Pre-Publish Checks",
+            latest_heading_command,
+            "No git commands are executed by this plan.",
+        ],
+        "goal-audit": [
+            "# Goal Completion Audit",
+            "## Requirement Evidence",
+            "| SkillOpt gate discipline |",
+            "| Surface-smoke plan |",
+            "| External-link action plan |",
+            "| Remaining debt register |",
+            "| Owner-clearance queue |",
+            "| Execution-bridge tail |",
+            "## Validation Commands",
+            latest_heading_command,
+            "No goal status is changed by this audit.",
+        ],
+        "debt-audit": [
+            "# Remaining Debt Audit",
+            "## Debt Register",
+            "| Score floor |",
+            "| Source-map |",
+            "| Execution bridge |",
+            "## Ownership Boundary",
+            "## Owner Clearance Queue",
+            "## Validation Commands",
+            latest_heading_command,
+        ],
+        "owner-clearance": [
+            "# Owner Clearance Request",
+            "## Requested Decision",
+            "## Target Groups",
+            "| Score floor |",
+            "| Source-map |",
+            "| Execution bridge |",
+            "## Full Target Rows",
+            "## Validation Commands",
+            latest_heading_command,
+            "No pack content is edited by this request.",
+        ],
+        "external-link-plan": [
+            "# External Link Action Plan",
+            "## Decision",
+            "## Action Priority",
+            "| Class | Count | Handling |",
+            "## Validation Commands",
+            latest_heading_command,
+            "No network requests are made by this plan.",
+        ],
+        "worklog-template": [
+            template_heading,
+            "- Current Next Queue fragments:",
+            "- Validation checklist:",
+            template_heading_command,
+        ],
+    }
+
+
+def surface_smoke_errors(summary: dict[str, Any]) -> list[str]:
+    errors: list[str] = []
+    rendered = surface_smoke_renderings(summary)
+    requirements = surface_smoke_requirements(summary)
+    for name, required_fragments in requirements.items():
+        text = rendered.get(name, "")
+        if not text:
+            errors.append(f"{name}: render produced no output")
+            continue
+        for fragment in required_fragments:
+            if not fragment:
+                errors.append(f"{name}: required fragment was empty")
+            elif fragment not in text:
+                errors.append(f"{name}: missing fragment {fragment!r}")
+    return errors
+
+
+def surface_smoke_result(summary: dict[str, Any]) -> str:
+    rendered = surface_smoke_renderings(summary)
+    latest_heading = str(summary.get("worklog", {}).get("latest_heading", "unknown"))
+    return (
+        "monthly_uplift_report surface-smoke passed: "
+        f"{len(rendered)} surfaces; latest {latest_heading}.\n"
+    )
 
 
 def worklog_template_heading(summary: dict[str, Any]) -> str:
@@ -6317,6 +7074,7 @@ def worklog_template(summary: dict[str, Any]) -> str:
         f"  - External links: {external_links_line(summary)}.",
         f"  - External-link classes: {external_links_breakdown_line(summary)}.",
         f"  - External-link cache: {external_links_cache_line(summary)}.",
+        f"  - External-link action plan: {external_link_action_plan_line(summary)}.",
         f"  - Claims boundary: {claims_source_line(claims)}.",
         f"  - Clone audit: {clone_line}.",
         f"  - Working tree: {working_tree_line(git)}.",
@@ -6329,11 +7087,13 @@ def worklog_template(summary: dict[str, Any]) -> str:
         f"  - Remaining debt: {remaining_debt_line(summary)}.",
         f"  - Owner-clearance queue: {owner_clearance_queue_line(summary)}.",
         f"  - Owner-clearance target fingerprints: {owner_clearance_target_fingerprint_line(summary)}.",
+        f"  - Owner-clearance request: {owner_clearance_request_line(summary)}.",
         f"  - Publish policy: {publish_policy_line(summary)}.",
         f"  - Goal progress: {goal_progress_line(summary)}.",
         f"  - Completion audit: {completion_audit_line(summary)}.",
         f"  - Handoff manifest: {handoff_manifest_line(summary)}.",
         f"  - SkillOpt gate plan: {skillopt_gate_plan_line(summary)}.",
+        f"  - Surface-smoke plan: {surface_smoke_plan_line(summary)}.",
         f"  - Current next queue: {current_next_queue_line(summary)}.",
         f"  - Command plan: {command_plan_line(summary)}.",
         f"  - Next-batch plan: {next_batch_plan_line(summary)}.",
@@ -6484,6 +7244,21 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
         action="store_true",
         help="emit a read-only remaining-debt audit that separates unclaimed, owner-clearance, and dirty-pack debt",
     )
+    render_group.add_argument(
+        "--owner-clearance",
+        action="store_true",
+        help="emit a read-only owner-clearance request for claim-sensitive score, source-map, and bridge targets",
+    )
+    render_group.add_argument(
+        "--external-link-plan",
+        action="store_true",
+        help="emit a read-only external-link action plan from the cached advisory summary",
+    )
+    render_group.add_argument(
+        "--surface-smoke",
+        action="store_true",
+        help="validate that all Markdown render surfaces contain their required live handoff fragments",
+    )
     parser.add_argument(
         "--self-test",
         action="store_true",
@@ -6578,13 +7353,26 @@ def main(argv: list[str]) -> int:
                 print(exc.stderr, file=sys.stderr)
         return 1
 
-    if args.check or args.check_only:
+    if args.check or args.check_only or args.surface_smoke:
         errors = validate_summary(summary)
         if errors:
             print("monthly_uplift_report self-check failed:", file=sys.stderr)
             for error in errors:
                 print(f"- {error}", file=sys.stderr)
             return 1
+
+    if args.surface_smoke:
+        errors = surface_smoke_errors(summary)
+        if errors:
+            print("monthly_uplift_report surface-smoke failed:", file=sys.stderr)
+            for error in errors:
+                print(f"- {error}", file=sys.stderr)
+            return 1
+        rendered = surface_smoke_result(summary)
+        if args.output:
+            write_output(args.output, rendered)
+        print(rendered, end="")
+        return 0
 
     if args.check_only:
         rendered = "monthly_uplift_report self-check passed.\n"
@@ -6605,6 +7393,10 @@ def main(argv: list[str]) -> int:
         rendered = goal_audit(summary)
     elif args.debt_audit:
         rendered = debt_audit(summary)
+    elif args.owner_clearance:
+        rendered = owner_clearance_request(summary)
+    elif args.external_link_plan:
+        rendered = external_link_action_plan_report(summary)
     else:
         rendered = markdown(summary)
     if args.output:
