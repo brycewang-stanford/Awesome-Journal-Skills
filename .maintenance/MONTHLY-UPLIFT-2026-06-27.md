@@ -6610,6 +6610,975 @@ Captured after publishing commit `8d734a80af1b23dd23d5d8be728e7396810e4336`.
   - `git diff --check`
     -> passed after this entry.
 
+### 2026-06-28 - SkillOpt Final Gate Queue Hardening
+
+- Scope: root tooling and maintenance documentation only; no journal pack
+  content changed and no claimed content lane was touched.
+- Rationale: the monthly loop already carries a SkillOpt baseline/gate plan, but
+  the durable Current Next Queue only made the snapshot and gate commands
+  explicit fragments. Adding the final fast hard gate to the same queue contract
+  keeps future skill-body loops from copying a baseline-before-edit path without
+  the closing validation.
+- Files:
+  - `tools/monthly_uplift_report.py`
+  - `tools/README.md`
+  - `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`
+- Result: `current_next_queue_expected_fragments()` now includes
+  `skillopt_gate_plan.final_hard_gate`, and the dependency-free self-test
+  rejects a Current Next Queue that omits
+  `python3 tools/run_checks.py --skip-reports` from the SkillOpt command
+  coverage. The README now describes the SkillOpt snapshot, gate, and final
+  fast hard-gate trio as part of the queue guard.
+- Live metrics:
+  - Inventory: 2902 skills / 195 packs / 200 root entries.
+  - Quality: mean 93.6, min 90.0, below 90: 0.
+  - Execution bridge: 131 / 134 wired; 3 missing, all owner-clearance gated.
+  - Source maps: 194 maps, 0 warnings, max unresolved 14.
+  - Root entries: 200 enriched, 0 machine-only, warnings 0.
+  - Claims boundary: `.maintenance/CLAIMS.md`; 71 rows; 10 active; sha256
+    `a4d9f08d0cda`.
+  - Loop-control status: `owner-clearance-needed`; next lane
+    `tooling-or-owner-clearance`.
+  - SkillOpt gate plan: `monthly-uplift-skillopt-gate-plan-v1`; status
+    `ready-before-next-skill-edit`; final hard gate
+    `python3 tools/run_checks.py --skip-reports`; sha256 `0e9ed8317f99`.
+  - Command plan: 6 measurement / 12 validation; sha256 `b55d83624d2e`.
+  - Schema: `monthly-uplift-dashboard-v19`; nested-contracts fingerprint
+    `1227892267d4`.
+  - Current next queue: `current-next-queue-v6`; 40 full-gate fragments; sha256
+    `95f913863a8b`; 36 skip-clone fragments; sha256 `d28c133ee54a`.
+- Loop-control:
+  - Status: `owner-clearance-needed`.
+  - Next lane: `tooling-or-owner-clearance`.
+  - Reason: content debt remains claim-sensitive, so continue root tooling or
+    owner-cleared content work only.
+  - Unclaimed score/source/bridge candidates: 0 / 0 / 0.
+  - Claim-sensitive score/source/bridge targets: 20 / 20 / 3.
+  - Dirty skipped packs: 0.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop103-final.json`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --output /tmp/ajs-loop103-final-full.json`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-monthly-worklog-template.md`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop103-final.md`
+    -> PASS after this entry.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS after this entry.
+  - `python3 tools/run_checks.py`
+    -> PASS after this entry.
+  - `python3 tools/audit_repo.py --counts`
+    -> PASS; counts remain 2902 skills / 195 packs / 200 root entries.
+  - `python3 tools/quality_scorecard.py --top 20`
+    -> PASS; quality mean 93.6, min 90.0, below 86/88/90 = 0/0/0.
+  - `python3 tools/quality_scorecard.py --top 15 --min-score 90`
+    -> PASS; no packs below the enforced 90.0 floor.
+  - `python3 tools/source_map_audit.py`
+    -> PASS; scanned 194 first-party official source maps, warnings 0.
+  - `python3 tools/root_entry_audit.py`
+    -> PASS; 200 root journal entries, 200 enriched, 0 machine-only, warnings
+    0.
+  - `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`
+    -> PASS; no pairs at or above threshold 0.750.
+  - `git diff --check`
+    -> passed after this entry.
+
+### 2026-06-28 - SkillOpt Queue Fragment Disambiguation
+
+- Scope: root dashboard tooling and maintenance documentation only; no journal
+  pack content changed and no owner-clearance lane was touched.
+- Rationale: Loop 103 made the SkillOpt final hard gate part of the Current
+  Next Queue, but the fragment was the bare command string. Since the same
+  command also appears in the general regression-gate list, a future worklog
+  could satisfy the fragment without making the SkillOpt-specific closing check
+  explicit. Labeled fragments make the baseline/gate/final-gate handoff
+  semantically unambiguous.
+- Files:
+  - `tools/monthly_uplift_report.py`
+  - `tools/README.md`
+  - `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`
+- Result: the Current Next Queue now requires `SkillOpt snapshot command`,
+  `SkillOpt gate command`, and `SkillOpt final hard gate` fragments. The
+  dependency-free self-test checks those labels and still rejects a queue that
+  omits the final hard-gate label. The Current Next Queue text now carries the
+  same labels, so a generic regression-gate mention cannot stand in for
+  SkillOpt command coverage.
+- Live metrics:
+  - Inventory: 2902 skills / 195 packs / 200 root entries.
+  - Quality: mean 93.6, min 90.0, below 90: 0.
+  - Execution bridge: 131 / 134 wired; 3 missing, all owner-clearance gated.
+  - Source maps: 194 maps, 0 warnings, max unresolved 14.
+  - Root entries: 200 enriched, 0 machine-only, warnings 0.
+  - Claims boundary: `.maintenance/CLAIMS.md`; 71 rows; 10 active; sha256
+    `a4d9f08d0cda`.
+  - Loop-control status: `owner-clearance-needed`; next lane
+    `tooling-or-owner-clearance`.
+  - SkillOpt gate plan: `monthly-uplift-skillopt-gate-plan-v1`; status
+    `ready-before-next-skill-edit`; sha256 `0e9ed8317f99`.
+  - Command plan: 6 measurement / 12 validation; sha256 `b55d83624d2e`.
+  - Schema: `monthly-uplift-dashboard-v19`; nested-contracts fingerprint
+    `1227892267d4`.
+  - Current next queue: `current-next-queue-v6`; 40 full-gate fragments; sha256
+    `493404f2931e`; 36 skip-clone fragments; sha256 `2f0a03ffaa85`.
+- Loop-control:
+  - Status: `owner-clearance-needed`.
+  - Next lane: `tooling-or-owner-clearance`.
+  - Reason: content debt remains claim-sensitive, so continue root tooling or
+    owner-cleared content work only.
+  - Unclaimed score/source/bridge candidates: 0 / 0 / 0.
+  - Claim-sensitive score/source/bridge targets: 20 / 20 / 3.
+  - Dirty skipped packs: 0.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop104-final.json`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --output /tmp/ajs-loop104-final-full.json`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-monthly-worklog-template.md`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop104-final.md`
+    -> PASS after this entry.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS after this entry.
+  - `python3 tools/run_checks.py`
+    -> PASS after this entry.
+  - `python3 tools/audit_repo.py --counts`
+    -> PASS; counts remain 2902 skills / 195 packs / 200 root entries.
+  - `python3 tools/quality_scorecard.py --top 20`
+    -> PASS; quality mean 93.6, min 90.0, below 86/88/90 = 0/0/0.
+  - `python3 tools/quality_scorecard.py --top 15 --min-score 90`
+    -> PASS; no packs below the enforced 90.0 floor.
+  - `python3 tools/source_map_audit.py`
+    -> PASS; scanned 194 first-party official source maps, warnings 0.
+  - `python3 tools/root_entry_audit.py`
+    -> PASS; 200 root journal entries, 200 enriched, 0 machine-only, warnings
+    0.
+  - `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`
+    -> PASS; no pairs at or above threshold 0.750.
+  - `git diff --check`
+    -> passed after this entry.
+
+### 2026-06-28 - SkillOpt Plan Reason Closure
+
+- Scope: root dashboard tooling and maintenance documentation only; no journal
+  pack content changed and no owner-clearance lane was touched.
+- Rationale: the SkillOpt queue contract now requires snapshot, gate, and final
+  hard-gate fragments, but the machine-readable `skillopt_gate_plan.reason`
+  still described only the baseline/gate idea. The JSON reason is part of the
+  handoff surface future loops read first, so it should name the closing fast
+  hard gate as well.
+- Files:
+  - `tools/monthly_uplift_report.py`
+  - `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`
+- Result: clean-state and dirty-skill-lane SkillOpt plan reasons now both
+  require the snapshot, SkillOpt gate, and final fast hard gate sequence. The
+  SkillOpt gate-plan fingerprint changed to `3caed0ded839`, making downstream
+  handoff, queue, goal-progress, and completion-audit drift visible.
+- Live metrics:
+  - Inventory: 2902 skills / 195 packs / 200 root entries.
+  - Quality: mean 93.6, min 90.0, below 90: 0.
+  - Execution bridge: 131 / 134 wired; 3 missing, all owner-clearance gated.
+  - Source maps: 194 maps, 0 warnings, max unresolved 14.
+  - Root entries: 200 enriched, 0 machine-only, warnings 0.
+  - Claims boundary: `.maintenance/CLAIMS.md`; 71 rows; 10 active; sha256
+    `a4d9f08d0cda`.
+  - Loop-control status: `owner-clearance-needed`; next lane
+    `tooling-or-owner-clearance`.
+  - SkillOpt gate plan: `monthly-uplift-skillopt-gate-plan-v1`; status
+    `ready-before-next-skill-edit`; sha256 `3caed0ded839`.
+  - Command plan: 6 measurement / 12 validation; sha256 `b55d83624d2e`.
+  - Schema: `monthly-uplift-dashboard-v19`; nested-contracts fingerprint
+    `1227892267d4`.
+  - Current next queue: `current-next-queue-v6`; 40 full-gate fragments; sha256
+    `08a67cc2c5a0`; 36 skip-clone fragments; sha256 `8a437f5df3a3`.
+- Loop-control:
+  - Status: `owner-clearance-needed`.
+  - Next lane: `tooling-or-owner-clearance`.
+  - Reason: content debt remains claim-sensitive, so continue root tooling or
+    owner-cleared content work only.
+  - Unclaimed score/source/bridge candidates: 0 / 0 / 0.
+  - Claim-sensitive score/source/bridge targets: 20 / 20 / 3.
+  - Dirty skipped packs: 0.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop105-final.json`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --output /tmp/ajs-loop105-final-full.json`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-monthly-worklog-template.md`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop105-final.md`
+    -> PASS after this entry.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS after this entry.
+  - `python3 tools/run_checks.py`
+    -> PASS after this entry.
+  - `python3 tools/audit_repo.py --counts`
+    -> PASS; counts remain 2902 skills / 195 packs / 200 root entries.
+  - `python3 tools/quality_scorecard.py --top 20`
+    -> PASS; quality mean 93.6, min 90.0, below 86/88/90 = 0/0/0.
+  - `python3 tools/quality_scorecard.py --top 15 --min-score 90`
+    -> PASS; no packs below the enforced 90.0 floor.
+  - `python3 tools/source_map_audit.py`
+    -> PASS; scanned 194 first-party official source maps, warnings 0.
+  - `python3 tools/root_entry_audit.py`
+    -> PASS; 200 root journal entries, 200 enriched, 0 machine-only, warnings
+    0.
+  - `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`
+    -> PASS; no pairs at or above threshold 0.750.
+  - `git diff --check`
+    -> passed after this entry.
+
+### 2026-06-28 - SkillOpt Summary-Line Final Gate Visibility
+
+- Scope: root dashboard tooling and maintenance documentation only; no journal
+  pack content changed and no owner-clearance lane was touched.
+- Rationale: the SkillOpt final hard gate was already present in the JSON plan
+  and Current Next Queue, but the compact/full dashboard `SkillOpt gate plan`
+  summary line only showed the recommended action and fingerprint. Future
+  operators often scan the summary first, so the final fast hard gate should be
+  visible there without opening the queue details.
+- Files:
+  - `tools/monthly_uplift_report.py`
+  - `tools/README.md`
+  - `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`
+- Result: `skillopt_gate_plan_line()` now renders
+  `final hard gate python3 tools/run_checks.py --skip-reports`, and the
+  dependency-free self-test requires that text in both compact handoff and full
+  Markdown output. The README now describes the summary-line handoff as
+  snapshot/gate/final-gate coverage.
+- Live metrics:
+  - Inventory: 2902 skills / 195 packs / 200 root entries.
+  - Quality: mean 93.6, min 90.0, below 90: 0.
+  - Execution bridge: 131 / 134 wired; 3 missing, all owner-clearance gated.
+  - Source maps: 194 maps, 0 warnings, max unresolved 14.
+  - Root entries: 200 enriched, 0 machine-only, warnings 0.
+  - Claims boundary: `.maintenance/CLAIMS.md`; 71 rows; 10 active; sha256
+    `a4d9f08d0cda`.
+  - Loop-control status: `owner-clearance-needed`; next lane
+    `tooling-or-owner-clearance`.
+  - SkillOpt gate plan: `monthly-uplift-skillopt-gate-plan-v1`; status
+    `ready-before-next-skill-edit`; final hard gate
+    `python3 tools/run_checks.py --skip-reports`; sha256 `3caed0ded839`.
+  - Command plan: 6 measurement / 12 validation; sha256 `b55d83624d2e`.
+  - Schema: `monthly-uplift-dashboard-v19`; nested-contracts fingerprint
+    `1227892267d4`.
+  - Current next queue: `current-next-queue-v6`; 40 full-gate fragments; sha256
+    `08a67cc2c5a0`; 36 skip-clone fragments; sha256 `8a437f5df3a3`.
+- Loop-control:
+  - Status: `owner-clearance-needed`.
+  - Next lane: `tooling-or-owner-clearance`.
+  - Reason: content debt remains claim-sensitive, so continue root tooling or
+    owner-cleared content work only.
+  - Unclaimed score/source/bridge candidates: 0 / 0 / 0.
+  - Claim-sensitive score/source/bridge targets: 20 / 20 / 3.
+  - Dirty skipped packs: 0.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop106-final.json`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --output /tmp/ajs-loop106-final-full.json`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-monthly-worklog-template.md`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop106-final.md`
+    -> PASS after this entry.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS after this entry.
+  - `python3 tools/run_checks.py`
+    -> PASS after this entry.
+  - `python3 tools/audit_repo.py --counts`
+    -> PASS; counts remain 2902 skills / 195 packs / 200 root entries.
+  - `python3 tools/quality_scorecard.py --top 20`
+    -> PASS; quality mean 93.6, min 90.0, below 86/88/90 = 0/0/0.
+  - `python3 tools/quality_scorecard.py --top 15 --min-score 90`
+    -> PASS; no packs below the enforced 90.0 floor.
+  - `python3 tools/source_map_audit.py`
+    -> PASS; scanned 194 first-party official source maps, warnings 0.
+  - `python3 tools/root_entry_audit.py`
+    -> PASS; 200 root journal entries, 200 enriched, 0 machine-only, warnings
+    0.
+  - `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`
+    -> PASS; no pairs at or above threshold 0.750.
+  - `git diff --check`
+    -> passed after this entry.
+
+### 2026-06-28 - SkillOpt Goal-Audit Final Gate Evidence
+
+- Scope: root dashboard tooling and maintenance documentation only; no journal
+  pack content changed and no owner-clearance lane was touched.
+- Rationale: Loop 106 put the final fast hard gate in the compact/full
+  SkillOpt summary line, but the read-only goal completion audit still rendered
+  the SkillOpt requirement row as only `snapshot/gate commands recorded`. Since
+  the completion audit is the proof surface before any later `update_goal
+  complete`, it should show the same final-gate closure.
+- Files:
+  - `tools/monthly_uplift_report.py`
+  - `tools/README.md`
+  - `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`
+- Result: the `SkillOpt gate discipline` requirement evidence now renders
+  `snapshot/gate/final hard gate recorded` and repeats
+  `final hard gate python3 tools/run_checks.py --skip-reports`. The
+  dependency-free self-test asserts that row in `--goal-audit`, and the README
+  now documents the completion-audit evidence parity with compact/full
+  summary-line handoffs.
+- Live metrics:
+  - Inventory: 2902 skills / 195 packs / 200 root entries.
+  - Quality: mean 93.6, min 90.0, below 90: 0.
+  - Execution bridge: 131 / 134 wired; 3 missing, all owner-clearance gated.
+  - Source maps: 194 maps, 0 warnings, max unresolved 14.
+  - Root entries: 200 enriched, 0 machine-only, warnings 0.
+  - Claims boundary: `.maintenance/CLAIMS.md`; 71 rows; 10 active; sha256
+    `a4d9f08d0cda`.
+  - Loop-control status: `owner-clearance-needed`; next lane
+    `tooling-or-owner-clearance`.
+  - SkillOpt gate plan: `monthly-uplift-skillopt-gate-plan-v1`; status
+    `ready-before-next-skill-edit`; final hard gate
+    `python3 tools/run_checks.py --skip-reports`; sha256 `3caed0ded839`.
+  - Command plan: 6 measurement / 12 validation; sha256 `b55d83624d2e`.
+  - Schema: `monthly-uplift-dashboard-v19`; nested-contracts fingerprint
+    `1227892267d4`.
+  - Current next queue: `current-next-queue-v6`; 40 full-gate fragments; sha256
+    `08a67cc2c5a0`; 36 skip-clone fragments; sha256 `8a437f5df3a3`.
+- Loop-control:
+  - Status: `owner-clearance-needed`.
+  - Next lane: `tooling-or-owner-clearance`.
+  - Reason: content debt remains claim-sensitive, so continue root tooling or
+    owner-cleared content work only.
+  - Unclaimed score/source/bridge candidates: 0 / 0 / 0.
+  - Claim-sensitive score/source/bridge targets: 20 / 20 / 3.
+  - Dirty skipped packs: 0.
+- Validation:
+  - `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --self-test`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check-worklog latest`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop107-final.json`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --json --limit 20 --output /tmp/ajs-loop107-final-full.json`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-monthly-worklog-template.md`
+    -> PASS after this entry.
+  - `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop107-final.md`
+    -> PASS after this entry.
+  - `python3 tools/run_checks.py --skip-reports`
+    -> PASS after this entry.
+  - `python3 tools/run_checks.py`
+    -> PASS after this entry.
+  - `python3 tools/audit_repo.py --counts`
+    -> PASS; counts remain 2902 skills / 195 packs / 200 root entries.
+  - `python3 tools/quality_scorecard.py --top 20`
+    -> PASS; quality mean 93.6, min 90.0, below 86/88/90 = 0/0/0.
+  - `python3 tools/quality_scorecard.py --top 15 --min-score 90`
+    -> PASS; no packs below the enforced 90.0 floor.
+  - `python3 tools/source_map_audit.py`
+    -> PASS; scanned 194 first-party official source maps, warnings 0.
+  - `python3 tools/root_entry_audit.py`
+    -> PASS; 200 root journal entries, 200 enriched, 0 machine-only, warnings
+    0.
+  - `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`
+    -> PASS; no pairs at or above threshold 0.750.
+  - `git diff --check`
+    -> passed after this entry.
+
+### 2026-06-28 - External-Link Advisory Dashboard Surface
+
+- Scope: root dashboard tooling and maintenance documentation only; no journal
+  pack content changed and no owner-clearance lane was touched.
+- Rationale: `external_link_audit.py` already tracks official/publisher URL
+  liveness as an advisory report, but the month-long dashboard did not expose
+  that signal in handoffs or JSON. Future loops should be able to see whether
+  external-link cleanup is actionable without running network checks inside the
+  hard gate.
+- Files:
+  - `tools/external_link_audit.py`
+  - `tools/monthly_uplift_report.py`
+  - `tools/README.md`
+  - `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`
+- Result: `external_link_audit.py` now has a network-free
+  `--cache-summary --json` mode. `monthly_uplift_report.py` consumes that
+  cache summary as the report-only `external_links` JSON object, advances the
+  dashboard schema to `monthly-uplift-dashboard-v20`, renders the advisory in
+  full snapshots, handoffs, and worklog templates, adds it to trajectory deltas
+  and the Current Next Queue fragments, and keeps validation structural rather
+  than network-dependent.
+- Live metrics:
+  - Inventory: 2902 skills / 195 packs / 200 root entries.
+  - Quality: mean 93.6, min 90.0, below 90: 0.
+  - Execution bridge: 131 / 134 wired; 3 missing, all owner-clearance gated.
+  - Source maps: 194 maps, 0 warnings, max unresolved 14.
+  - Root entries: 200 enriched, 0 machine-only, warnings 0.
+  - External links: `external-link-cache-summary-v1`; status
+    `actionable-review`; 1579 / 1824 cached; 245 unchecked; 47 actionable; 460
+    inconclusive; sha256 `d9205b2e9ad7`.
+  - Claims boundary: `.maintenance/CLAIMS.md`; 71 rows; 10 active; sha256
+    `a4d9f08d0cda`.
+  - Loop-control status: `owner-clearance-needed`; next lane
+    `tooling-or-owner-clearance`.
+  - Schema: `monthly-uplift-dashboard-v20`; nested-contracts fingerprint
+    `40245b069d3f`.
+  - Command plan: 7 measurement / 12 validation; sha256 `0f80a9a0c83e`.
+- Loop-control:
+  - Status: `owner-clearance-needed`.
+  - Next lane: `tooling-or-owner-clearance`.
+  - Reason: content debt remains claim-sensitive, so continue root tooling or
+    owner-cleared content work only.
+  - Unclaimed score/source/bridge candidates: 0 / 0 / 0.
+  - Claim-sensitive score/source/bridge targets: 20 / 20 / 3.
+  - Dirty skipped packs: 0.
+- Validation:
+  - PASS: `python3 -m py_compile tools/external_link_audit.py tools/monthly_uplift_report.py tools/run_checks.py`.
+  - PASS: `python3 tools/external_link_audit.py --cache-summary --json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --self-test`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-loop109-worklog-template.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-worklog latest --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop108-final-skip.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --output /tmp/ajs-loop108-final-full.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-loop108-worklog-template.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop108-monthly-uplift.md`.
+  - PASS: `python3 tools/quality_scorecard.py --top 15 --min-score 90`.
+  - PASS: `python3 tools/run_checks.py --skip-reports`.
+  - PASS: `python3 tools/run_checks.py`.
+  - PASS: `git diff --check`.
+
+### 2026-06-28 - Execution-Bridge Tail Claim-Sensitive Policy
+
+- Scope: root dashboard tooling and maintenance documentation only; no journal
+  pack content changed and no owner-clearance lane was touched.
+- Rationale: the execution-bridge tail already separated unclaimed rows from
+  owner-clearance rows, but the machine-readable recommendation still required
+  readers to infer whether wiring was allowed now, whether owner clearance was
+  required before wiring, and which packs were blocked. The month-long loop
+  needs that claim-sensitive policy explicit before any future bridge wiring.
+- Files:
+  - `tools/monthly_uplift_report.py`
+  - `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`
+- Result: `execution_bridge_tail` advanced to
+  `monthly-uplift-execution-bridge-tail-v3` with explicit
+  `claim_sensitive_policy`, `wiring_allowed_now`,
+  `owner_clearance_required_before_wiring`, `safe_to_wire_packs`, and
+  `blocked_owner_clearance_packs`. Current full and compact dashboard lines now
+  render policy `clearance-before-wiring`, `wiring-now false`, and
+  `clearance-before-wiring true`; completion-audit evidence repeats the policy
+  and the clearance-before-wiring requirement.
+- Live metrics:
+  - Inventory: 2902 skills / 195 packs / 200 root entries.
+  - Quality: mean 93.6, min 90.0, below 90: 0.
+  - Execution bridge: 131 / 134 wired; 3 missing, all owner-clearance gated.
+  - Execution-bridge tail: contract
+    `monthly-uplift-execution-bridge-tail-v3`; status
+    `owner-clearance-required`; policy `clearance-before-wiring`;
+    wiring-now `false`; clearance-before-wiring `true`; safe-to-wire packs 0;
+    blocked owner-clearance packs 3; sha256 `1afef93f983d`.
+  - Blocked owner-clearance packs:
+    `Academy-of-Management-Annals-Skills`,
+    `Annual-Review-of-Economics-Skills`, and
+    `Social-Sciences-in-China-Skills`.
+  - Source maps: 194 maps, 0 warnings, max unresolved 14.
+  - Root entries: 200 enriched, 0 machine-only, warnings 0.
+  - External links: `external-link-cache-summary-v1`; status
+    `actionable-review`; 1579 / 1824 cached; 245 unchecked; 47 actionable; 460
+    inconclusive; sha256 `d9205b2e9ad7`.
+  - Claims boundary: `.maintenance/CLAIMS.md`; 71 rows; 10 active; sha256
+    `a4d9f08d0cda`.
+  - Loop-control status: `owner-clearance-needed`; next lane
+    `tooling-or-owner-clearance`.
+  - Schema: `monthly-uplift-dashboard-v20`; nested-contracts fingerprint
+    `9dd4fb979c79`.
+  - Command plan: 7 measurement / 12 validation; sha256 `0f80a9a0c83e`.
+- Loop-control:
+  - Status: `owner-clearance-needed`.
+  - Next lane: `tooling-or-owner-clearance`.
+  - Reason: content debt remains claim-sensitive, so continue root tooling or
+    owner-cleared content work only.
+  - Unclaimed score/source/bridge candidates: 0 / 0 / 0.
+  - Claim-sensitive score/source/bridge targets: 20 / 20 / 3.
+  - Dirty skipped packs: 0.
+- Validation:
+  - PASS: `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`.
+  - PASS: `python3 tools/monthly_uplift_report.py --self-test`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-loop109-worklog-template.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-worklog latest --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop109-final-skip.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --output /tmp/ajs-loop109-final-full.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop109-monthly-uplift.md`.
+  - PASS: `python3 tools/audit_repo.py --counts`.
+  - PASS: `python3 tools/quality_scorecard.py`.
+  - PASS: `python3 tools/source_map_audit.py`.
+  - PASS: `python3 tools/root_entry_audit.py`.
+  - PASS: `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`.
+  - PASS: `python3 tools/run_checks.py --skip-reports`.
+  - PASS: `python3 tools/run_checks.py`.
+  - PASS: `git diff --check`.
+
+### 2026-06-28 - Execution-Bridge Tail Pack Decision Visibility
+
+- Scope: root dashboard tooling and maintenance documentation only; no journal
+  pack content changed and no owner-clearance lane was touched.
+- Rationale: loop 109 made execution-bridge tail policy machine-readable, but
+  the main decision surfaces still required readers to inspect nested JSON to
+  see which packs were safe to wire and which were blocked by owner clearance.
+  The month-long loop needs the safe/blocked pack line visible in handoff,
+  debt, goal, worklog, and summary outputs before any future bridge work.
+- Files:
+  - `tools/monthly_uplift_report.py`
+  - `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`
+- Result: added `execution_bridge_tail_pack_line()` and render it next to the
+  execution-bridge tail line in the monthly snapshot, compact handoff,
+  remaining-debt audit, goal-completion audit, and generated worklog template.
+  The line now states `safe-to-wire none` and lists the blocked
+  owner-clearance packs with their claim reasons, using the existing
+  `monthly-uplift-execution-bridge-tail-v3` fields rather than adding a new
+  JSON contract.
+- Live metrics:
+  - Inventory: 2902 skills / 195 packs / 200 root entries.
+  - Quality: mean 93.6, min 90.0, below 90: 0.
+  - Execution bridge: 131 / 134 wired; 3 missing, all owner-clearance gated.
+  - Execution-bridge tail: contract
+    `monthly-uplift-execution-bridge-tail-v3`; status
+    `owner-clearance-required`; policy `clearance-before-wiring`;
+    wiring-now `false`; clearance-before-wiring `true`; safe-to-wire packs 0;
+    blocked owner-clearance packs 3; sha256 `1afef93f983d`.
+  - Human-readable bridge pack line: safe-to-wire none; blocked
+    owner-clearance `Academy-of-Management-Annals-Skills`,
+    `Annual-Review-of-Economics-Skills`, and
+    `Social-Sciences-in-China-Skills`.
+  - Source maps: 194 maps, 0 warnings, max unresolved 14.
+  - Root entries: 200 enriched, 0 machine-only, warnings 0.
+  - External links: `external-link-cache-summary-v1`; status
+    `actionable-review`; 1579 / 1824 cached; 245 unchecked; 47 actionable; 460
+    inconclusive; sha256 `d9205b2e9ad7`.
+  - Claims boundary: `.maintenance/CLAIMS.md`; 71 rows; 10 active; sha256
+    `a4d9f08d0cda`.
+  - Loop-control status: `owner-clearance-needed`; next lane
+    `tooling-or-owner-clearance`.
+  - Schema: `monthly-uplift-dashboard-v20`; nested-contracts fingerprint
+    `9dd4fb979c79`.
+  - Command plan: 7 measurement / 12 validation; sha256 `0f80a9a0c83e`.
+- Loop-control:
+  - Status: `owner-clearance-needed`.
+  - Next lane: `tooling-or-owner-clearance`.
+  - Reason: content debt remains claim-sensitive, so continue root tooling or
+    owner-cleared content work only.
+  - Unclaimed score/source/bridge candidates: 0 / 0 / 0.
+  - Claim-sensitive score/source/bridge targets: 20 / 20 / 3.
+  - Dirty skipped packs: 0.
+- Validation:
+  - PASS: `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`.
+  - PASS: `python3 tools/monthly_uplift_report.py --self-test`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop110-pre-skip.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --limit 20 --skip-clone --output /tmp/ajs-loop110-pre-report.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-loop110-worklog-template.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-worklog latest --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop110-final-skip.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --output /tmp/ajs-loop110-final-full.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop110-monthly-uplift.md`.
+  - PASS: `python3 tools/audit_repo.py --counts`.
+  - PASS: `python3 tools/quality_scorecard.py`.
+  - PASS: `python3 tools/source_map_audit.py`.
+  - PASS: `python3 tools/root_entry_audit.py`.
+  - PASS: `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`.
+  - PASS: `python3 tools/run_checks.py --skip-reports`.
+  - PASS: `python3 tools/run_checks.py`.
+  - PASS: `git diff --check`.
+
+### 2026-06-28 - Current Next Queue Bridge Pack Decision Guard
+
+- Scope: root dashboard tooling and maintenance documentation only; no journal
+  pack content changed and no owner-clearance lane was touched.
+- Rationale: loop 110 made the execution-bridge pack decision visible in
+  rendered outputs, but Current Next Queue validation still did not pin that
+  exact safe/blocked line. A stale continuation queue could therefore retain
+  the right tail policy while omitting the pack-level decision needed before
+  any future bridge work.
+- Files:
+  - `tools/monthly_uplift_report.py`
+  - `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`
+- Result: `current_next_queue_expected_fragments()` now requires the exact
+  `execution-bridge pack decision` fragment derived from
+  `execution_bridge_tail_pack_line()`. The self-test now rejects a Current
+  Next Queue that omits this bridge-pack decision fragment, so future stale
+  queues cannot hide whether bridge work is safe-to-wire or owner-clearance
+  blocked.
+- Live metrics:
+  - Inventory: 2902 skills / 195 packs / 200 root entries.
+  - Quality: mean 93.6, min 90.0, below 90: 0.
+  - Execution bridge: 131 / 134 wired; 3 missing, all owner-clearance gated.
+  - Execution-bridge tail: contract
+    `monthly-uplift-execution-bridge-tail-v3`; status
+    `owner-clearance-required`; policy `clearance-before-wiring`;
+    wiring-now `false`; clearance-before-wiring `true`; safe-to-wire packs 0;
+    blocked owner-clearance packs 3; sha256 `1afef93f983d`.
+  - Guarded bridge-pack fragment: execution-bridge pack decision
+    `safe-to-wire none; blocked owner-clearance Academy-of-Management-Annals-Skills (Agent A lane covers econ/finance/management/Chinese packs); Annual-Review-of-Economics-Skills (Agent A lane covers econ/finance/management/Chinese packs); Social-Sciences-in-China-Skills (Agent A lane covers econ/finance/management/Chinese packs)`.
+  - Current Next Queue: 46 full-gate fragments; sha256 `5cd2b0d8d769`;
+    42 skip-clone fragments; sha256 `6007a0ccf853`.
+  - Source maps: 194 maps, 0 warnings, max unresolved 14.
+  - Root entries: 200 enriched, 0 machine-only, warnings 0.
+  - External links: `external-link-cache-summary-v1`; status
+    `actionable-review`; 1579 / 1824 cached; 245 unchecked; 47 actionable; 460
+    inconclusive; sha256 `d9205b2e9ad7`.
+  - Claims boundary: `.maintenance/CLAIMS.md`; 71 rows; 10 active; sha256
+    `a4d9f08d0cda`.
+  - Loop-control status: `owner-clearance-needed`; next lane
+    `tooling-or-owner-clearance`.
+  - Schema: `monthly-uplift-dashboard-v20`; nested-contracts fingerprint
+    `9dd4fb979c79`.
+  - Command plan: 7 measurement / 12 validation; sha256 `0f80a9a0c83e`.
+- Loop-control:
+  - Status: `owner-clearance-needed`.
+  - Next lane: `tooling-or-owner-clearance`.
+  - Reason: content debt remains claim-sensitive, so continue root tooling or
+    owner-cleared content work only.
+  - Unclaimed score/source/bridge candidates: 0 / 0 / 0.
+  - Claim-sensitive score/source/bridge targets: 20 / 20 / 3.
+  - Dirty skipped packs: 0.
+- Validation:
+  - PASS: `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`.
+  - PASS: `python3 tools/monthly_uplift_report.py --self-test`.
+  - PASS: `python3 tools/monthly_uplift_report.py --json --limit 20 --skip-clone --output /tmp/ajs-loop111-observed-skip.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --json --limit 20 --output /tmp/ajs-loop111-observed-full-prelog.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-loop111-worklog-template.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-worklog latest --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop111-final-skip.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --output /tmp/ajs-loop111-final-full.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop111-monthly-uplift.md`.
+  - PASS: `python3 tools/audit_repo.py --counts`.
+  - PASS: `python3 tools/quality_scorecard.py`.
+  - PASS: `python3 tools/source_map_audit.py`.
+  - PASS: `python3 tools/root_entry_audit.py`.
+  - PASS: `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`.
+  - PASS: `python3 tools/run_checks.py --skip-reports`.
+  - PASS: `python3 tools/run_checks.py`.
+  - PASS: `git diff --check`.
+
+### 2026-06-28 - Owner-Clearance Queue Compact Line
+
+- Scope: root dashboard tooling and maintenance documentation only; no journal
+  pack content changed and no owner-clearance lane was touched.
+- Rationale: the dashboard already carried the full `owner_clearance_queue`
+  object, but top-level summaries mostly showed either the total target count
+  or the longer grouped table. The month-long loop needs a compact decision
+  line that makes the owner-clearance debt distribution visible before a reader
+  scrolls into detailed queue rows.
+- Files:
+  - `tools/monthly_uplift_report.py`
+  - `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`
+- Result: added `owner_clearance_queue_line()` and render it in the monthly
+  snapshot, compact handoff, remaining-debt audit, goal-completion audit, and
+  generated worklog template. Current Next Queue now also requires the exact
+  owner-clearance compact fragment, so `--check-worklog latest` rejects a
+  continuation queue that hides the score/source/bridge split.
+- Live metrics:
+  - Inventory: 2902 skills / 195 packs / 200 root entries.
+  - Quality: mean 93.6, min 90.0, below 90: 0.
+  - Owner-clearance queue: `owner-clearance-queue-v1`; 43 targets; score 20
+    (5 shown, +15 more) / source 20 (5 shown, +15 more) / bridge 3 (3 shown);
+    sha256 `c820c1b9065f`.
+  - Execution bridge: 131 / 134 wired; 3 missing, all owner-clearance gated.
+  - Execution-bridge tail: contract
+    `monthly-uplift-execution-bridge-tail-v3`; status
+    `owner-clearance-required`; policy `clearance-before-wiring`;
+    wiring-now `false`; clearance-before-wiring `true`; safe-to-wire packs 0;
+    blocked owner-clearance packs 3; sha256 `1afef93f983d`.
+  - Current Next Queue: 47 full-gate fragments; sha256 `8a34286be4ce`;
+    43 skip-clone fragments; sha256 `9a27e3b34868`.
+  - Source maps: 194 maps, 0 warnings, max unresolved 14.
+  - Root entries: 200 enriched, 0 machine-only, warnings 0.
+  - External links: `external-link-cache-summary-v1`; status
+    `actionable-review`; 1579 / 1824 cached; 245 unchecked; 47 actionable; 460
+    inconclusive; sha256 `d9205b2e9ad7`.
+  - Claims boundary: `.maintenance/CLAIMS.md`; 71 rows; 10 active; sha256
+    `a4d9f08d0cda`.
+  - Loop-control status: `owner-clearance-needed`; next lane
+    `tooling-or-owner-clearance`.
+  - Schema: `monthly-uplift-dashboard-v20`; nested-contracts fingerprint
+    `9dd4fb979c79`.
+  - Command plan: 7 measurement / 12 validation; sha256 `0f80a9a0c83e`.
+- Loop-control:
+  - Status: `owner-clearance-needed`.
+  - Next lane: `tooling-or-owner-clearance`.
+  - Reason: content debt remains claim-sensitive, so continue root tooling or
+    owner-cleared content work only.
+  - Unclaimed score/source/bridge candidates: 0 / 0 / 0.
+  - Claim-sensitive score/source/bridge targets: 20 / 20 / 3.
+  - Dirty skipped packs: 0.
+- Validation:
+  - PASS: `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`.
+  - PASS: `python3 tools/monthly_uplift_report.py --self-test`.
+  - PASS: `python3 tools/monthly_uplift_report.py --json --limit 20 --skip-clone --output /tmp/ajs-loop112-observed-skip-v2.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --json --limit 20 --output /tmp/ajs-loop112-observed-full-v2.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-loop112-worklog-template.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-worklog latest --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop112-final-skip.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --output /tmp/ajs-loop112-final-full.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop112-monthly-uplift.md`.
+  - PASS: `python3 tools/audit_repo.py --counts`.
+  - PASS: `python3 tools/quality_scorecard.py`.
+  - PASS: `python3 tools/source_map_audit.py`.
+  - PASS: `python3 tools/root_entry_audit.py`.
+  - PASS: `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`.
+  - PASS: `python3 tools/run_checks.py --skip-reports`.
+  - PASS: `python3 tools/run_checks.py`.
+  - PASS: `git diff --check`.
+
+### 2026-06-28 - External-Link Class Breakdown Guard
+
+- Scope: root dashboard tooling and maintenance documentation only; no network
+  link checks were run, no journal pack content changed, and no
+  owner-clearance lane was touched.
+- Rationale: the external-link advisory already exposed cached totals, but
+  top-level handoffs did not distinguish actionable `DEAD`/`REDIRECT` counts
+  from inconclusive `BLOCKED`/`UNREACHABLE` counts. The month-long loop needs
+  that class split visible and guarded before any future external-link cleanup
+  is chosen.
+- Files:
+  - `tools/monthly_uplift_report.py`
+  - `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`
+- Result: added `external_links_breakdown_line()` and render it in the monthly
+  snapshot, compact handoff, and generated worklog template. Current Next Queue
+  now also requires the exact external-link classes fragment, so
+  `--check-worklog latest` rejects a continuation queue that keeps only the
+  advisory status/fingerprint while hiding the class split.
+- Live metrics:
+  - Inventory: 2902 skills / 195 packs / 200 root entries.
+  - Quality: mean 93.6, min 90.0, below 90: 0.
+  - External links: `external-link-cache-summary-v1`; status
+    `actionable-review`; 1579 / 1824 cached; 245 unchecked; 47 actionable; 460
+    inconclusive; sha256 `d9205b2e9ad7`.
+  - External-link classes: DEAD 5 / REDIRECT 42 actionable; BLOCKED 401 /
+    UNREACHABLE 59 inconclusive; UNCHECKED 245; OK 1072; sha256
+    `d9205b2e9ad7`.
+  - Owner-clearance queue: `owner-clearance-queue-v1`; 43 targets; score 20
+    (5 shown, +15 more) / source 20 (5 shown, +15 more) / bridge 3 (3 shown);
+    sha256 `c820c1b9065f`.
+  - Execution bridge: 131 / 134 wired; 3 missing, all owner-clearance gated.
+  - Current Next Queue: 48 full-gate fragments; sha256 `f77227e8adc3`;
+    44 skip-clone fragments; sha256 `f9edc128d9f6`.
+  - Source maps: 194 maps, 0 warnings, max unresolved 14.
+  - Root entries: 200 enriched, 0 machine-only, warnings 0.
+  - Claims boundary: `.maintenance/CLAIMS.md`; 71 rows; 10 active; sha256
+    `a4d9f08d0cda`.
+  - Loop-control status: `owner-clearance-needed`; next lane
+    `tooling-or-owner-clearance`.
+  - Schema: `monthly-uplift-dashboard-v20`; nested-contracts fingerprint
+    `9dd4fb979c79`.
+  - Command plan: 7 measurement / 12 validation; sha256 `0f80a9a0c83e`.
+- Loop-control:
+  - Status: `owner-clearance-needed`.
+  - Next lane: `tooling-or-owner-clearance`.
+  - Reason: content debt remains claim-sensitive, so continue root tooling or
+    owner-cleared content work only.
+  - Unclaimed score/source/bridge candidates: 0 / 0 / 0.
+  - Claim-sensitive score/source/bridge targets: 20 / 20 / 3.
+  - Dirty skipped packs: 0.
+- Validation:
+  - PASS: `python3 -m py_compile tools/monthly_uplift_report.py tools/run_checks.py`.
+  - PASS: `python3 tools/monthly_uplift_report.py --self-test`.
+  - PASS: `python3 tools/monthly_uplift_report.py --json --limit 20 --skip-clone --output /tmp/ajs-loop113-observed-skip.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --json --limit 20 --output /tmp/ajs-loop113-observed-full-prelog.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-loop113-worklog-template.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-worklog latest --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop113-final-skip.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --output /tmp/ajs-loop113-final-full.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop113-monthly-uplift.md`.
+  - PASS: `python3 tools/audit_repo.py --counts`.
+  - PASS: `python3 tools/quality_scorecard.py`.
+  - PASS: `python3 tools/source_map_audit.py`.
+  - PASS: `python3 tools/root_entry_audit.py`.
+  - PASS: `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`.
+  - PASS: `python3 tools/run_checks.py --skip-reports`.
+  - PASS: `python3 tools/run_checks.py`.
+  - PASS: `git diff --check`.
+
+### 2026-06-28 - External-Link Cache Coverage Contract
+
+- Scope: root dashboard tooling and maintenance documentation only; no network
+  link checks were run, no journal pack content changed, and no
+  owner-clearance lane was touched.
+- Rationale: Loop 113 made external-link verdict classes visible, but the
+  cache itself still had no durable coverage signal. A future cleanup needs to
+  know whether the cache represents current Markdown references or includes
+  stale rows from old URLs before spending time on link triage.
+- Files:
+  - `tools/external_link_audit.py`
+  - `tools/monthly_uplift_report.py`
+  - `tools/README.md`
+  - `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`
+- Result: `external_link_audit.py --cache-summary --json` now emits
+  `external-link-cache-summary-v2` with total cache rows, current-reference
+  cache rows, and orphaned cache rows. The monthly dashboard schema is now
+  `monthly-uplift-dashboard-v21`; rendered snapshots, compact handoffs, and
+  worklog templates include an `External-link cache` line. Current Next Queue
+  now requires the exact external-link cache coverage fragment, so a future
+  handoff cannot preserve only verdict counts while hiding cache drift.
+- Live metrics:
+  - Inventory: 2902 skills / 195 packs / 200 root entries.
+  - Quality: mean 93.6, min 90.0, below 90: 0.
+  - External links: `external-link-cache-summary-v2`; status
+    `actionable-review`; 1579 / 1824 cached; 245 unchecked; 47 actionable; 460
+    inconclusive; sha256 `c806bc7cf6bb`.
+  - External-link classes: DEAD 5 / REDIRECT 42 actionable; BLOCKED 401 /
+    UNREACHABLE 59 inconclusive; UNCHECKED 245; OK 1072; sha256
+    `c806bc7cf6bb`.
+  - External-link cache: 1579 / 1824 current URLs have cache rows; 1727 total
+    cache rows; 148 orphaned; sha256 `c806bc7cf6bb`.
+  - Owner-clearance queue: `owner-clearance-queue-v1`; 43 targets; score 20
+    (5 shown, +15 more) / source 20 (5 shown, +15 more) / bridge 3 (3 shown);
+    sha256 `c820c1b9065f`.
+  - Execution bridge: 131 / 134 wired; 3 missing, all owner-clearance gated.
+  - Current Next Queue: 49 full-gate fragments; sha256 `be5d93b4b6d6`;
+    45 skip-clone fragments; sha256 `7ed04b096406`.
+  - Source maps: 194 maps, 0 warnings, max unresolved 14.
+  - Root entries: 200 enriched, 0 machine-only, warnings 0.
+  - Claims boundary: `.maintenance/CLAIMS.md`; 71 rows; 10 active; sha256
+    `a4d9f08d0cda`.
+  - Loop-control status: `owner-clearance-needed`; next lane
+    `tooling-or-owner-clearance`.
+  - Schema: `monthly-uplift-dashboard-v21`; nested-contracts fingerprint
+    `33d3675f03f4`.
+  - Command plan: 7 measurement / 12 validation; sha256 `0f80a9a0c83e`.
+- Loop-control:
+  - Status: `owner-clearance-needed`.
+  - Next lane: `tooling-or-owner-clearance`.
+  - Reason: content debt remains claim-sensitive, so continue root tooling or
+    owner-cleared content work only.
+  - Unclaimed score/source/bridge candidates: 0 / 0 / 0.
+  - Claim-sensitive score/source/bridge targets: 20 / 20 / 3.
+  - Dirty skipped packs: 0.
+- Validation:
+  - PASS: `python3 tools/external_link_audit.py --cache-summary --json`.
+  - PASS: `python3 -m py_compile tools/monthly_uplift_report.py tools/external_link_audit.py tools/run_checks.py`.
+  - PASS: `python3 tools/monthly_uplift_report.py --self-test`.
+  - PASS: `python3 tools/monthly_uplift_report.py --json --limit 20 --skip-clone --output /tmp/ajs-loop114-observed-skip-prelog.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --json --limit 20 --output /tmp/ajs-loop114-observed-full-prelog.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --handoff --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-loop114-worklog-template.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-worklog latest --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop114-final-skip.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --output /tmp/ajs-loop114-final-full.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop114-monthly-uplift.md`.
+  - PASS: `python3 tools/audit_repo.py --counts`.
+  - PASS: `python3 tools/quality_scorecard.py`.
+  - PASS: `python3 tools/source_map_audit.py`.
+  - PASS: `python3 tools/root_entry_audit.py`.
+  - PASS: `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`.
+  - PASS: `python3 tools/run_checks.py --skip-reports`.
+  - PASS: `python3 tools/run_checks.py`.
+  - PASS: `git diff --check`.
+
 ## Current Next Queue
 
 - Unclaimed score-floor protection after score-ceiling triage: 0 actionable
@@ -6630,6 +7599,37 @@ Captured after publishing commit `8d734a80af1b23dd23d5d8be728e7396810e4336`.
   `request-owner-clearance-before-wiring`, and
   `execution_bridge_owner_clearance_required: true`, so do not wire it without
   owner clearance.
+- Human-readable execution-bridge pack handoff: rendered monthly snapshots,
+  compact handoffs, debt audits, goal audits, and worklog templates now show
+  `safe-to-wire none; blocked owner-clearance` followed by
+  `Academy-of-Management-Annals-Skills`,
+  `Annual-Review-of-Economics-Skills`, and
+  `Social-Sciences-in-China-Skills` with their claim reasons, so operators do
+  not need to inspect nested JSON before deciding that bridge wiring remains
+  blocked.
+- Current Next Queue bridge-pack guard: `--check-worklog latest` now requires
+  execution-bridge pack decision
+  `safe-to-wire none; blocked owner-clearance Academy-of-Management-Annals-Skills (Agent A lane covers econ/finance/management/Chinese packs); Annual-Review-of-Economics-Skills (Agent A lane covers econ/finance/management/Chinese packs); Social-Sciences-in-China-Skills (Agent A lane covers econ/finance/management/Chinese packs)`.
+- Current Next Queue owner-clearance guard: `--check-worklog latest` now
+  requires owner-clearance queue `owner-clearance-queue-v2; 43 targets; score
+  20 (5 shown, +15 more) / source 20 (5 shown, +15 more) / bridge 3 (3
+  shown); sha256 c617f510d429`.
+- Current Next Queue owner-clearance target-fingerprint guard:
+  `--check-worklog latest` now requires owner-clearance target fingerprints
+  `score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429`.
+- Live owner-clearance target fingerprints: owner-clearance target fingerprints `score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429`.
+- Current Next Queue completion-audit target-fingerprint guard:
+  `--check-worklog latest` now requires completion-audit owner target
+  fingerprints
+  `score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429`.
+- Live completion-audit owner target fingerprints: completion-audit owner target fingerprints `score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429`.
+- Current Next Queue external-link guard: `--check-worklog latest` now
+  requires external-link classes `DEAD 5 / REDIRECT 42 actionable; BLOCKED 401
+  / UNREACHABLE 59 inconclusive; UNCHECKED 245; OK 1072; sha256
+  c806bc7cf6bb`.
+- Current Next Queue external-link cache guard: `--check-worklog latest` now
+  requires external-link cache coverage `1579/1824 current URLs have cache
+  rows; 1727 total cache rows; 148 orphaned; sha256 c806bc7cf6bb`.
 - Local publish-unit split: keep root/tooling and pack-content publish units
   separate, re-run the read-only publish plan for the live staging command,
   and keep pack content marked `needs-owner-review` for any future
@@ -6641,56 +7641,79 @@ Captured after publishing commit `8d734a80af1b23dd23d5d8be728e7396810e4336`.
   `validation_commands`, plus `command_plan` counts and fingerprint, with
   `python3 tools/monthly_uplift_report.py --check --json --limit 20
   --skip-clone --output /tmp/ajs-monthly-baseline.json`; the current command
-  plan is 6 measurement commands / 12 validation commands with fingerprint
-  `b55d83624d2e`, and rendered handoffs, delta views, and worklog templates
+  plan is 7 measurement commands / 12 validation commands with fingerprint
+  `0f80a9a0c83e`, and rendered handoffs, delta views, and worklog templates
   read the same command plan from the summary.
-- Current-next-queue contract: `current-next-queue-v6`; `--check-worklog latest`
+- Current-next-queue contract: `current-next-queue-v7`; `--check-worklog latest`
   now builds a live lightweight dashboard snapshot with the canonical 20-row
   monthly display context and rejects stale Current Next Queue status,
-  and durable fingerprint fragments before accepting the dated worklog. The v6
-  guard requires content-edit policy, remaining-debt, next-batch plan, local
-  publish policy status, command-plan counts, and the explicit quality-floor
-  command in all modes, while leaving dirty path counts, publish-policy
-  fingerprints, and handoff-manifest fingerprints to their dedicated checks.
+  and durable fingerprint fragments before accepting the dated worklog. The v7
+  guard requires the external-link class breakdown, external-link cache
+  coverage, execution-bridge pack decision, owner-clearance queue compact line,
+  owner-clearance target fingerprints, completion-audit owner target
+  fingerprints, content-edit policy, remaining-debt, next-batch plan, local
+  publish policy status, SkillOpt gate commands, command-plan counts, and the
+  explicit quality-floor command in all modes, while leaving dirty path counts,
+  publish-policy fingerprints, and handoff-manifest fingerprints to their
+  dedicated checks.
   Full clone-gate runs additionally require goal-progress and completion-audit
-  fingerprints; skip-clone snapshots keep only the mode-stable fragments. The
-  current Current Next Queue fingerprint is full-gate `65fde6a85696` and
-  skip-clone `977fc5cc997b`.
+  fingerprints; skip-clone snapshots keep only the mode-stable fragments.
+  Dated loop entries record the live full-gate and skip-clone fingerprints after
+  validation.
 - Machine-readable SkillOpt gate handoff: the same JSON snapshot now carries
   `skillopt_gate_plan` with contract
   `monthly-uplift-skillopt-gate-plan-v1`, SkillOpt gate plan status
   `ready-before-next-skill-edit`, 0 dirty skill paths / 0 dirty pack lanes,
   recommended action `take-baseline-before-bounded-skill-edit`, and
-  fingerprint `0e9ed8317f99`. For new bounded skill-body edits, take
+  fingerprint `3caed0ded839`. For new bounded skill-body edits, take SkillOpt
+  snapshot command
   `python3 tools/skillopt_gate.py snapshot --out /tmp/ajs-skillopt-baseline.json`
-  before editing and run
+  before editing, run SkillOpt gate command
   `python3 tools/skillopt_gate.py gate --baseline /tmp/ajs-skillopt-baseline.json --out /tmp/ajs-skillopt-gate.json`
-  before handoff; do not invent a pre-edit baseline for already dirty pack
-  lanes.
+  before handoff, then run SkillOpt final hard gate
+  `python3 tools/run_checks.py --skip-reports`; do not invent a pre-edit
+  baseline for already dirty pack lanes. Rendered compact and full dashboard
+  summary lines also repeat
+  `final hard gate python3 tools/run_checks.py --skip-reports` so the closing
+  check is visible before reading queue details.
 - Machine-readable schema handoff: the same JSON snapshot now carries
   `schema.name`, `schema.version`, `schema.contract`, and
   `schema.required_top_level_fields`, plus `schema.nested_contracts` and
   `schema.nested_contracts_fingerprint`; the current contract is
-  `monthly-uplift-dashboard-v19` and requires `execution_bridge_tail`,
-  `safe_content_queue`, `remaining_debt`, `next_batch_plan`,
-  `skillopt_gate_plan`, and `current_next_queue`; `--check`
-  rejects missing or stale full dashboard schema contracts and stale nested
-  contract registries. The current nested-contracts fingerprint is
-  `1227892267d4`.
+  `monthly-uplift-dashboard-v25` and requires `external_links`,
+  `owner_clearance_queue`, `execution_bridge_tail`, `safe_content_queue`,
+  `content_edit_policy`, `remaining_debt`, `next_batch_plan`, `publish_policy`,
+  `goal_progress`, `completion_audit`, `handoff_manifest`,
+  `skillopt_gate_plan`, and `current_next_queue`; `--check` rejects missing or
+  stale full dashboard schema contracts and stale nested contract registries.
+  The current nested-contracts fingerprint is `a90eb90c70e1`.
+- Machine-readable external-link advisory handoff: the same JSON snapshot now
+  carries `external_links` with contract `external-link-cache-summary-v2`,
+  external-link advisory status `actionable-review`, 1824 unique URLs, 1579
+  cached verdicts, 245 unchecked URLs, 47 actionable URLs, 460 inconclusive
+  URLs, class breakdown DEAD 5 / REDIRECT 42 / BLOCKED 401 / UNREACHABLE 59 /
+  UNCHECKED 245 / OK 1072, cache coverage 1579 current-reference cache rows /
+  1727 total cache rows / 148 orphaned cache rows, and fingerprint
+  `c806bc7cf6bb`; `--check` validates the advisory structure and fingerprint
+  without running network checks.
 - Machine-readable completion-audit handoff: the same JSON snapshot now carries
-  `completion_audit` with contract `monthly-uplift-completion-audit-v5`,
-  13 requirements, 10 OK / 3 triaged / 0 review, 3 blockers, and SkillOpt gate
-  discipline as an explicit requirement row. The current handoff manifest is
+  `completion_audit` with contract `monthly-uplift-completion-audit-v6`,
+  13 requirements, 10 OK / 3 triaged / 0 review, 3 blockers, SkillOpt gate
+  discipline as an explicit requirement row, and score/source/bridge
+  owner-clearance target fingerprints. The current handoff manifest is
   `monthly-uplift-handoff-v4` and repeats the SkillOpt gate-plan fingerprint
   so completion-audit drift cannot hide the baseline-before-edit requirement.
 - Machine-readable execution-bridge tail handoff: the same JSON snapshot now
   carries `execution_bridge_tail` with contract
-  `monthly-uplift-execution-bridge-tail-v2`, status
+  `monthly-uplift-execution-bridge-tail-v3`, status
   `owner-clearance-required`, recommended action `request-owner-clearance`,
-  recommendation scope `owner-clearance-only`, blocked recommendation
+  recommendation scope `owner-clearance-only`, execution-bridge tail policy
+  `clearance-before-wiring`, wiring-now `false`,
+  execution-bridge clearance before wiring `true`, blocked recommendation
   `request-owner-clearance-before-wiring`, 131 / 134 wired, 3 missing, 0
-  unclaimed, 3 owner-clearance rows, and fingerprint `539678ee53a2`; `--check`
-  rejects stale tail status, counts, rows, or fingerprint.
+  unclaimed, 3 owner-clearance rows, safe-to-wire packs 0, blocked
+  owner-clearance packs 3, and fingerprint `1afef93f983d`; `--check`
+  rejects stale tail status, policy, counts, rows, or fingerprint.
 - Machine-readable safe content queue handoff: the same JSON snapshot now
   carries `safe_content_queue` with contract
   `monthly-uplift-safe-content-queue-v2`, status `owner-clearance-required`,
@@ -6706,16 +7729,17 @@ Captured after publishing commit `8d734a80af1b23dd23d5d8be728e7396810e4336`.
   drift from the live loop-control, execution-bridge, and worktree-boundary
   data.
 - Machine-readable owner-clearance queue handoff: the same JSON snapshot now
-  carries `owner_clearance_queue` with contract `owner-clearance-queue-v1`,
-  total target count, displayed pack/reason rows, omitted counts, truncation
-  flags, and fingerprint `c820c1b9065f`; `--check` rejects drift from live
-  claims-derived queue totals and displayed pack/reason rows.
+  carries `owner_clearance_queue` with contract `owner-clearance-queue-v2`,
+  total target count, displayed pack/reason rows, complete target rows, omitted
+  counts, truncation flags, per-kind target fingerprints, and fingerprint
+  `c617f510d429`; `--check` rejects drift from live claims-derived queue totals,
+  displayed pack/reason rows, and hidden target rows.
 - Machine-readable remaining-debt handoff: the same JSON snapshot now carries
   `remaining_debt` with contract `monthly-uplift-remaining-debt-v2`,
   remaining-debt status `owner-clearance-or-dirty`, unclaimed totals, owner-clearance totals,
   owner-clearance queue fingerprint, dirty skipped packs, dirty pack-lane count,
   score/source/bridge debt details, reason text, and fingerprint
-  `f45f651edc34`; `--check` rejects drift from the live loop-control,
+  `cb154c972926`; `--check` rejects drift from the live loop-control,
   owner-clearance queue, source-map, execution-bridge, quality, and
   worktree-boundary data.
 - Machine-readable local-publish handoff: the same JSON snapshot now carries
@@ -6724,7 +7748,7 @@ Captured after publishing commit `8d734a80af1b23dd23d5d8be728e7396810e4336`.
   path-scoped staging requirement, allowed root/tooling unit, blocked
   pack-content unit, owner-review state, root/tooling staging command, and a
   live fingerprint; `--check` rejects drift from `publish_units` and the
-  content-edit policy. The Current Next Queue v6 guard intentionally does not
+  content-edit policy. The Current Next Queue v7 guard intentionally does not
   pin that volatile fingerprint.
 - Machine-readable goal-progress handoff: the same JSON snapshot now carries
   `goal_progress` with contract `monthly-uplift-goal-progress-v3`, goal-progress status
@@ -6732,20 +7756,21 @@ Captured after publishing commit `8d734a80af1b23dd23d5d8be728e7396810e4336`.
   `active-partial-clone-skipped` in skip-clone snapshots, worklog loop count,
   score/source/root invariant status, clone-audit status, execution-bridge
   coverage, command-plan counts, owner-clearance/local-only state, dirty
-  pack-lane count, reason text, full-gate fingerprint `011e05f9086b`, and
-  skip-clone fingerprint `cf59e8b0c08c`; `--check` rejects drift from the live
-  summary.
+  pack-lane count, and reason text; dated loop entries record the live
+  full-gate and skip-clone fingerprints after validation. Current full-clone
+  fragments are goal-progress status `active-owner-clearance-needed` and
+  fingerprint `048839934bb3`. `--check` rejects drift from the live summary.
 - Machine-readable completion-audit handoff: the same JSON snapshot now carries
   `completion_audit` with completion status, goal-status action, requirement
   rows, OK / triaged / review counts, blockers, clone-gate and owner-clearance
   flags, bridge-gap count, remaining-debt status/totals/fingerprint,
-  owner-clearance queue total/fingerprint, reason text, completion-audit
-  status `not-complete`, full-gate fingerprint `fa250b8dd645`, and skip-clone
-  fingerprint `38fb03c9dfa8`. The
+  owner-clearance queue total/fingerprint, score/source/bridge target
+  fingerprints, reason text, and completion-audit status `not-complete`. The
   requirement rows include distinct `Remaining debt register` and
   `Owner-clearance queue` rows; `--check` rejects drift from the live
   goal-progress, remaining-debt, owner-clearance queue, clone, worklog, and
-  command-plan state.
+  command-plan state. Current full-clone fragments are completion-audit status
+  `not-complete` and fingerprint `95a2289ca76f`.
 - Read-only goal completion audit: run `python3 tools/monthly_uplift_report.py
   --check --goal-audit --limit 20` before any later `update_goal complete`
   decision; the audit renders completion status, goal status action,
@@ -6780,6 +7805,7 @@ Captured after publishing commit `8d734a80af1b23dd23d5d8be728e7396810e4336`.
 - Regression gates for the next batch: `python3 tools/monthly_uplift_report.py
   --check --json --limit 20 --skip-clone --output
   /tmp/ajs-monthly-baseline.json`,
+  `python3 tools/external_link_audit.py --cache-summary --json`,
   `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20`,
   `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20`,
   `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20`,
@@ -6800,3 +7826,1176 @@ Captured after publishing commit `8d734a80af1b23dd23d5d8be728e7396810e4336`.
   tools/run_checks.py --skip-reports` for the fast hard gate including
   dashboard logic, latest-worklog, and score-floor hard checks, and
   `git diff --check`.
+
+### 2026-06-28 - Owner-Clearance Full Target Contract
+
+- Scope: root/tooling only. Edited the monthly dashboard contract, README
+  tooling docs, and this maintenance worklog; no journal pack content,
+  submodules, root-card counts, or skill counts changed.
+- Rationale: after Loop 114 the compact owner-clearance queue carried only
+  displayed rows plus omitted counts. That protected visible handoff drift but
+  could miss hidden target churn behind a stable `+N more` suffix. The next
+  safest high-impact loop was to make the owner-clearance queue fully
+  machine-auditable while content debt remains claim-sensitive.
+- Files:
+  - `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`
+  - `tools/README.md`
+  - `tools/external_link_audit.py`
+  - `tools/monthly_uplift_report.py`
+- Result:
+  - Bumped the dashboard schema to `monthly-uplift-dashboard-v22`.
+  - Bumped owner-clearance queue contract to `owner-clearance-queue-v2`.
+  - `owner_clearance_queue` now stores complete per-kind `targets` rows and a
+    per-kind `target_fingerprint` while compact Markdown still renders only
+    displayed rows plus `+N more`.
+  - `--check` now rejects stale hidden owner-clearance targets, stale
+    per-kind target fingerprints, and target totals that do not match the
+    complete queue.
+  - Added a self-test negative fixture that mutates a hidden
+    owner-clearance target and verifies the summary validator rejects it.
+- Live metrics:
+  - Inventory: 2902 skills / 195 packs / 200 root entries.
+  - Quality: mean 93.6, min 90.0, below 90: 0.
+  - Execution bridge: 131 / 134 wired; 3 missing.
+  - Source maps: 194 maps, 0 warnings, max unresolved 14.
+  - Root entries: 200 enriched, 0 machine-only, 0 warnings.
+  - External links: external-link-cache-summary-v2; status actionable-review; 1579/1824 cached; 47 actionable; 460 inconclusive; cache present; sha256 c806bc7cf6bb.
+  - External-link classes: DEAD 5 / REDIRECT 42 actionable; BLOCKED 401 / UNREACHABLE 59 inconclusive; UNCHECKED 245; OK 1072; sha256 c806bc7cf6bb.
+  - External-link cache: 1579/1824 current URLs have cache rows; 1727 total cache rows; 148 orphaned; sha256 c806bc7cf6bb.
+  - Claims boundary: .maintenance/CLAIMS.md; 71 rows; 10 active; 365 lines; sha256 a4d9f08d0cda.
+  - Clone audit: max 0.000, fail hits 0, reported pairs 0.
+  - Working tree: ## main...origin/main with 4 dirty entries (0 pack lanes, 4 root/tooling entries).
+  - Dashboard schema: monthly_uplift_report v22; monthly-uplift-dashboard-v22.
+  - Schema: `monthly-uplift-dashboard-v22`; nested-contracts fingerprint `e5641e8843c6`.
+  - Worktree boundary: 4 dirty / 0 pack lanes / 4 root-tooling entries; sha256 6a1a726afdbd.
+  - Execution-bridge tail: owner-clearance-required; action request-owner-clearance; scope owner-clearance-only; policy clearance-before-wiring; wiring-now false; clearance-before-wiring true; blocked request-owner-clearance-before-wiring; 131/134 wired; 3 missing; 0 unclaimed / 3 owner-clearance; sha256 1afef93f983d.
+  - Execution-bridge packs: safe-to-wire none; blocked owner-clearance Academy-of-Management-Annals-Skills (Agent A lane covers econ/finance/management/Chinese packs); Annual-Review-of-Economics-Skills (Agent A lane covers econ/finance/management/Chinese packs); Social-Sciences-in-China-Skills (Agent A lane covers econ/finance/management/Chinese packs).
+  - Safe content queue: owner-clearance-required; action request-owner-clearance; 0 unclaimed (score 0 / source 0 / bridge 0); 15 score-ceiling; 0 dirty skipped; sha256 1ac635b844ba.
+  - Content-edit policy: owner-clearance-required; content blocked; next tooling-or-owner-clearance; 0 unclaimed / 43 claim-sensitive; 0 dirty pack lanes; bridge owner-clearance; sha256 2e7814ca3430.
+  - Remaining debt: owner-clearance-or-dirty; 0 unclaimed / 43 owner-clearance; 0 dirty pack lanes; bridge 3 missing; source max unresolved 14; sha256 cb154c972926.
+  - Owner-clearance queue: owner-clearance-queue-v2; 43 targets; score 20 (5 shown, +15 more) / source 20 (5 shown, +15 more) / bridge 3 (3 shown); sha256 c617f510d429.
+  - Owner-clearance target fingerprints: score `19a3fd1ddee8`; source `e6ed5d68e3be`; bridge `5afd71b682e7`.
+  - Publish policy: local-only-owner-review; local-only; root 4 paths; packs 0 lanes empty; path-scoped staging required; sha256 209f0d277ce4.
+  - Goal progress: active-owner-clearance-needed; core OK; worklog 115 loops; clone ok; bridge 131/134; next tooling-or-owner-clearance; sha256 06092e632e19.
+  - Completion audit: not-complete; action none; 13 requirements; 10 OK / 3 triaged / 0 review; 3 blockers; sha256 a4ba711caa58.
+  - Handoff manifest: owner-clearance-needed -> tooling-or-owner-clearance; root 4 paths; packs 0 lanes; completion 13 req / 3 blockers; sha256 6312fb8b3bf1.
+  - SkillOpt gate plan: monthly-uplift-skillopt-gate-plan-v1; status ready-before-next-skill-edit; 0 dirty skill paths / 0 dirty pack lanes; action take-baseline-before-bounded-skill-edit; final hard gate python3 tools/run_checks.py --skip-reports; sha256 3caed0ded839.
+  - Current Next Queue: 49 full-gate fragments; sha256 `c5f6d29f3fb5`; 45 skip-clone fragments; sha256 `d64bbece83cb`.
+  - Command plan: 7 measurement / 12 validation; sha256 0f80a9a0c83e.
+  - Next-batch plan: 6 items; sha256 edfb807b76d3.
+- Loop-control:
+  - Status: `owner-clearance-needed`.
+  - Next lane: `tooling-or-owner-clearance`.
+  - Reason: all visible content debt is claim-sensitive or already dirty; avoid content edits without owner clearance.
+  - Unclaimed score/source/bridge candidates: 0 / 0 / 0.
+  - Claim-sensitive score/source/bridge targets: 20 / 20 / 3.
+  - Dirty skipped packs: 0.
+  - Execution-bridge owner-clearance tail: Academy-of-Management-Annals-Skills (Agent A lane covers econ/finance/management/Chinese packs); Annual-Review-of-Economics-Skills (Agent A lane covers econ/finance/management/Chinese packs); Social-Sciences-in-China-Skills (Agent A lane covers econ/finance/management/Chinese packs).
+- Current-next-queue contract: `current-next-queue-v6`.
+- Loop-control status: `owner-clearance-needed`.
+- Next safe lane: `tooling-or-owner-clearance`.
+- Dashboard contract: `monthly-uplift-dashboard-v22` and `current_next_queue`.
+- The current nested-contracts fingerprint is `e5641e8843c6`.
+- External-link contract: `external-link-cache-summary-v2`.
+- External-link advisory status `actionable-review`.
+- External-link classes `DEAD 5 / REDIRECT 42 actionable; BLOCKED 401 / UNREACHABLE 59 inconclusive; UNCHECKED 245; OK 1072; sha256 c806bc7cf6bb`.
+- External-link cache coverage `1579/1824 current URLs have cache rows; 1727 total cache rows; 148 orphaned; sha256 c806bc7cf6bb`.
+- External-link fingerprint `c806bc7cf6bb`.
+- Execution-bridge tail contract: `monthly-uplift-execution-bridge-tail-v3`.
+- Execution-bridge tail policy `clearance-before-wiring`.
+- Execution-bridge clearance before wiring `true`.
+- Execution-bridge pack decision `safe-to-wire none; blocked owner-clearance Academy-of-Management-Annals-Skills (Agent A lane covers econ/finance/management/Chinese packs); Annual-Review-of-Economics-Skills (Agent A lane covers econ/finance/management/Chinese packs); Social-Sciences-in-China-Skills (Agent A lane covers econ/finance/management/Chinese packs)`.
+- Execution-bridge tail fingerprint `1afef93f983d`.
+- Safe content queue contract: `monthly-uplift-safe-content-queue-v2`.
+- Safe content queue status `owner-clearance-required`.
+- Safe content queue recommended action `request-owner-clearance`.
+- Safe content queue fingerprint `1ac635b844ba`.
+- Content-edit policy contract: `content-edit-policy-v2`.
+- Content-edit policy status `owner-clearance-required`.
+- Content-edit policy fingerprint `2e7814ca3430`.
+- Remaining-debt contract: `monthly-uplift-remaining-debt-v2`.
+- Remaining-debt status `owner-clearance-or-dirty`.
+- Remaining-debt fingerprint `cb154c972926`.
+- Owner-clearance queue `owner-clearance-queue-v2; 43 targets; score 20 (5 shown, +15 more) / source 20 (5 shown, +15 more) / bridge 3 (3 shown); sha256 c617f510d429`.
+- Current Next Queue owner-clearance guard: owner-clearance queue `owner-clearance-queue-v2; 43 targets; score 20 (5 shown, +15 more) / source 20 (5 shown, +15 more) / bridge 3 (3 shown); sha256 c617f510d429`.
+- Owner-clearance queue fingerprint `c617f510d429`.
+- Publish policy contract: `local-publish-policy-v1`.
+- Publish policy status `local-only-owner-review`.
+- Next-batch plan contract: `monthly-uplift-next-batch-plan-v1`.
+- Next-batch count `6`.
+- Next-batch fingerprint `edfb807b76d3`.
+- Goal progress contract: `monthly-uplift-goal-progress-v3`.
+- Completion audit contract: `monthly-uplift-completion-audit-v5`.
+- Handoff manifest contract: `monthly-uplift-handoff-v4`.
+- SkillOpt gate plan contract: `monthly-uplift-skillopt-gate-plan-v1`.
+- SkillOpt gate plan status `ready-before-next-skill-edit`.
+- SkillOpt snapshot command `python3 tools/skillopt_gate.py snapshot --out /tmp/ajs-skillopt-baseline.json`.
+- SkillOpt gate command `python3 tools/skillopt_gate.py gate --baseline /tmp/ajs-skillopt-baseline.json --out /tmp/ajs-skillopt-gate.json`.
+- SkillOpt final hard gate `python3 tools/run_checks.py --skip-reports`.
+- SkillOpt gate plan fingerprint `3caed0ded839`.
+- Command plan is 7 measurement commands / 12 validation commands.
+- Quality-floor command: `python3 tools/quality_scorecard.py --top 15 --min-score 90`.
+- Command plan fingerprint `0f80a9a0c83e`.
+- Goal-progress status `active-owner-clearance-needed`.
+- Goal-progress fingerprint `06092e632e19`.
+- Completion-audit status `not-complete`.
+- Completion-audit fingerprint `a4ba711caa58`.
+- Validation:
+  - PASS: `python3 -m py_compile tools/monthly_uplift_report.py tools/external_link_audit.py tools/run_checks.py`.
+  - PASS: `python3 tools/monthly_uplift_report.py --self-test`.
+  - PASS: `python3 tools/monthly_uplift_report.py --json --limit 20 --skip-clone --output /tmp/ajs-loop115-preworklog-skip.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --json --limit 20 --output /tmp/ajs-loop115-preworklog-full.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-worklog latest --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop115-final-skip.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --output /tmp/ajs-loop115-final-full.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --output /tmp/ajs-loop115-handoff.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20 --output /tmp/ajs-loop115-publish-plan.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --output /tmp/ajs-loop115-goal-audit.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20 --output /tmp/ajs-loop115-debt-audit.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-loop115-worklog-template.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop115-monthly-uplift.md`.
+  - PASS: `python3 tools/audit_repo.py --counts`.
+  - PASS: `python3 tools/quality_scorecard.py`.
+  - PASS: `python3 tools/source_map_audit.py`.
+  - PASS: `python3 tools/root_entry_audit.py`.
+  - PASS: `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`.
+  - PASS: `python3 tools/run_checks.py --skip-reports`.
+  - PASS: `python3 tools/run_checks.py`.
+  - PASS: `git diff --check`.
+### 2026-06-28 - Owner-Clearance Target Fingerprint Handoff
+
+- Scope: root/tooling dashboard and monthly worklog only; no journal pack content edits.
+- Rationale: Loop 115 put complete owner-clearance targets into JSON, but compact handoff surfaces still made the per-kind target fingerprints too easy to miss.
+- Files: `tools/monthly_uplift_report.py`; `tools/README.md`; `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: promoted the dashboard schema to v23, printed per-kind owner-clearance target fingerprints in Markdown, handoff, debt, goal, and worklog views, added Current Next Queue guard coverage for the target-fingerprint line, and documented the contract in the tools README.
+- Live metrics:
+  - Inventory: 2902 skills / 195 packs / 200 root entries.
+  - Quality: mean 93.6, min 90.0, below 90: 0.
+  - Execution bridge: 131 / 134 wired; 3 missing.
+  - Source maps: 194 maps, 0 warnings, max unresolved 14.
+  - Root entries: 200 enriched, 0 machine-only, 0 warnings.
+  - External links: external-link-cache-summary-v2; status actionable-review; 1579/1824 cached; 47 actionable; 460 inconclusive; cache present; sha256 c806bc7cf6bb.
+  - External-link classes: DEAD 5 / REDIRECT 42 actionable; BLOCKED 401 / UNREACHABLE 59 inconclusive; UNCHECKED 245; OK 1072; sha256 c806bc7cf6bb.
+  - External-link cache: 1579/1824 current URLs have cache rows; 1727 total cache rows; 148 orphaned; sha256 c806bc7cf6bb.
+  - Claims boundary: .maintenance/CLAIMS.md; 71 rows; 10 active; 365 lines; sha256 a4d9f08d0cda.
+  - Clone audit: max 0.000, fail hits 0, reported pairs 0.
+  - Working tree: ## main...origin/main with 4 dirty entries (0 pack lanes, 4 root/tooling entries).
+  - Dashboard schema: monthly_uplift_report v23; monthly-uplift-dashboard-v23.
+  - Worktree boundary: 4 dirty / 0 pack lanes / 4 root-tooling entries; sha256 6a1a726afdbd.
+  - Execution-bridge tail: owner-clearance-required; action request-owner-clearance; scope owner-clearance-only; policy clearance-before-wiring; wiring-now false; clearance-before-wiring true; blocked request-owner-clearance-before-wiring; 131/134 wired; 3 missing; 0 unclaimed / 3 owner-clearance; sha256 1afef93f983d.
+  - Execution-bridge packs: safe-to-wire none; blocked owner-clearance Academy-of-Management-Annals-Skills (Agent A lane covers econ/finance/management/Chinese packs); Annual-Review-of-Economics-Skills (Agent A lane covers econ/finance/management/Chinese packs); Social-Sciences-in-China-Skills (Agent A lane covers econ/finance/management/Chinese packs).
+  - Safe content queue: owner-clearance-required; action request-owner-clearance; 0 unclaimed (score 0 / source 0 / bridge 0); 15 score-ceiling; 0 dirty skipped; sha256 1ac635b844ba.
+  - Content-edit policy: owner-clearance-required; content blocked; next tooling-or-owner-clearance; 0 unclaimed / 43 claim-sensitive; 0 dirty pack lanes; bridge owner-clearance; sha256 2e7814ca3430.
+  - Remaining debt: owner-clearance-or-dirty; 0 unclaimed / 43 owner-clearance; 0 dirty pack lanes; bridge 3 missing; source max unresolved 14; sha256 cb154c972926.
+  - Owner-clearance queue: owner-clearance-queue-v2; 43 targets; score 20 (5 shown, +15 more) / source 20 (5 shown, +15 more) / bridge 3 (3 shown); sha256 c617f510d429.
+  - Owner-clearance target fingerprints: score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429.
+  - Publish policy: local-only-owner-review; local-only; root 4 paths; packs 0 lanes empty; path-scoped staging required; sha256 209f0d277ce4.
+  - Goal progress: active-owner-clearance-needed; core OK; worklog 116 loops; clone ok; bridge 131/134; next tooling-or-owner-clearance; sha256 8b28635daa10.
+  - Completion audit: not-complete; action none; 13 requirements; 10 OK / 3 triaged / 0 review; 3 blockers; sha256 e6b11952cd19.
+  - Handoff manifest: owner-clearance-needed -> tooling-or-owner-clearance; root 4 paths; packs 0 lanes; completion 13 req / 3 blockers; sha256 9bdf53ea0267.
+  - SkillOpt gate plan: monthly-uplift-skillopt-gate-plan-v1; status ready-before-next-skill-edit; 0 dirty skill paths / 0 dirty pack lanes; action take-baseline-before-bounded-skill-edit; final hard gate python3 tools/run_checks.py --skip-reports; sha256 3caed0ded839.
+  - Current next queue: current-next-queue-v6; 50 live fragments; sha256 5d1032b95ba2.
+  - Command plan: 7 measurement / 12 validation; sha256 0f80a9a0c83e.
+  - Next-batch plan: 6 items; sha256 edfb807b76d3.
+  - Dirty pack lanes: none
+  - Root/tooling dirty entries: `M .maintenance/MONTHLY-UPLIFT-2026-06-27.md`; `M tools/README.md`; `M tools/external_link_audit.py`; `M tools/monthly_uplift_report.py`
+  - Root/tooling paths: `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`; `tools/README.md`; `tools/external_link_audit.py`; `tools/monthly_uplift_report.py`
+  - Root/tooling tracked paths: `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`; `tools/README.md`; `tools/external_link_audit.py`; `tools/monthly_uplift_report.py`
+  - Root/tooling untracked paths: none
+  - Root/tooling staging preview: `git add -- .maintenance/MONTHLY-UPLIFT-2026-06-27.md tools/README.md tools/external_link_audit.py tools/monthly_uplift_report.py`
+  - Publish units:
+    - Root/tooling unit: ready; 4 paths (4 tracked, 0 untracked)
+    - Root/tooling paths: `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`; `tools/README.md`; `tools/external_link_audit.py`; `tools/monthly_uplift_report.py`
+    - Root/tooling command: `git add -- .maintenance/MONTHLY-UPLIFT-2026-06-27.md tools/README.md tools/external_link_audit.py tools/monthly_uplift_report.py`
+    - Pack content units: empty; 0 pack lanes
+    - Pack content packs: none
+- Loop-control:
+  - Status: `owner-clearance-needed`.
+  - Next lane: `tooling-or-owner-clearance`.
+  - Reason: all visible content debt is claim-sensitive or already dirty; avoid content edits without owner clearance.
+  - Unclaimed score/source/bridge candidates: 0 / 0 / 0.
+  - Claim-sensitive score/source/bridge targets: 20 / 20 / 3.
+  - Dirty skipped packs: 0.
+  - Execution-bridge owner-clearance tail: Academy-of-Management-Annals-Skills (Agent A lane covers econ/finance/management/Chinese packs); Annual-Review-of-Economics-Skills (Agent A lane covers econ/finance/management/Chinese packs); Social-Sciences-in-China-Skills (Agent A lane covers econ/finance/management/Chinese packs).
+- Owner clearance queue:
+  - Score-floor: Cancer-Cell-Skills (Agent B lane covers this natural-science/medicine pack); Annals-of-Mathematics-Skills (Agent B lane covers this natural-science/medicine pack); Physical-Review-Letters-Skills (Agent B lane covers this natural-science/medicine pack); Journal-of-the-American-Chemical-Society-Skills (Agent B lane covers this natural-science/medicine pack); Cell-Skills (Agent B lane covers this natural-science/medicine pack); +15 more.
+  - Source-map: PNAS-Nexus-Skills (Agent B natural-science/medicine lane covers this pack family); China-Industrial-Economics-Skills (Agent A lane covers econ/finance/management/Chinese packs); Journal-of-World-Economy-Skills (Agent A lane covers econ/finance/management/Chinese packs); Econometrica-Skills (Claims table: A status queued); Journal-of-Management-Sciences-in-China-Skills (Agent A lane covers econ/finance/management/Chinese packs); +15 more.
+  - Execution-bridge: Academy-of-Management-Annals-Skills (Agent A lane covers econ/finance/management/Chinese packs); Annual-Review-of-Economics-Skills (Agent A lane covers econ/finance/management/Chinese packs); Social-Sciences-in-China-Skills (Agent A lane covers econ/finance/management/Chinese packs).
+- Current-next-queue contract: `current-next-queue-v6`.
+- Loop-control status: `owner-clearance-needed`.
+- Next safe lane: `tooling-or-owner-clearance`.
+- Dashboard contract: `monthly-uplift-dashboard-v23` and `current_next_queue`.
+- The current nested-contracts fingerprint is `e5641e8843c6`.
+- External-link contract: `external-link-cache-summary-v2`.
+- External-link advisory status `actionable-review`.
+- External-link classes `DEAD 5 / REDIRECT 42 actionable; BLOCKED 401 / UNREACHABLE 59 inconclusive; UNCHECKED 245; OK 1072; sha256 c806bc7cf6bb`.
+- External-link cache coverage `1579/1824 current URLs have cache rows; 1727 total cache rows; 148 orphaned; sha256 c806bc7cf6bb`.
+- External-link fingerprint `c806bc7cf6bb`.
+- Execution-bridge tail contract: `monthly-uplift-execution-bridge-tail-v3`.
+- Execution-bridge tail policy `clearance-before-wiring`.
+- Execution-bridge clearance before wiring `true`.
+- Execution-bridge pack decision `safe-to-wire none; blocked owner-clearance Academy-of-Management-Annals-Skills (Agent A lane covers econ/finance/management/Chinese packs); Annual-Review-of-Economics-Skills (Agent A lane covers econ/finance/management/Chinese packs); Social-Sciences-in-China-Skills (Agent A lane covers econ/finance/management/Chinese packs)`.
+- Execution-bridge tail fingerprint `1afef93f983d`.
+- Safe content queue contract: `monthly-uplift-safe-content-queue-v2`.
+- Safe content queue status `owner-clearance-required`.
+- Safe content queue recommended action `request-owner-clearance`.
+- Safe content queue fingerprint `1ac635b844ba`.
+- Content-edit policy contract: `content-edit-policy-v2`.
+- Content-edit policy status `owner-clearance-required`.
+- Content-edit policy fingerprint `2e7814ca3430`.
+- Remaining-debt contract: `monthly-uplift-remaining-debt-v2`.
+- Remaining-debt status `owner-clearance-or-dirty`.
+- Remaining-debt fingerprint `cb154c972926`.
+- Owner-clearance queue `owner-clearance-queue-v2; 43 targets; score 20 (5 shown, +15 more) / source 20 (5 shown, +15 more) / bridge 3 (3 shown); sha256 c617f510d429`.
+- Current Next Queue owner-clearance guard: owner-clearance queue `owner-clearance-queue-v2; 43 targets; score 20 (5 shown, +15 more) / source 20 (5 shown, +15 more) / bridge 3 (3 shown); sha256 c617f510d429`.
+- Current Next Queue owner-clearance target-fingerprint guard: owner-clearance target fingerprints `score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429`.
+- Owner-clearance queue fingerprint `c617f510d429`.
+- Publish policy contract: `local-publish-policy-v1`.
+- Publish policy status `local-only-owner-review`.
+- Next-batch plan contract: `monthly-uplift-next-batch-plan-v1`.
+- Next-batch count `6`.
+- Next-batch fingerprint `edfb807b76d3`.
+- Goal progress contract: `monthly-uplift-goal-progress-v3`.
+- Completion audit contract: `monthly-uplift-completion-audit-v5`.
+- Handoff manifest contract: `monthly-uplift-handoff-v4`.
+- SkillOpt gate plan contract: `monthly-uplift-skillopt-gate-plan-v1`.
+- SkillOpt gate plan status `ready-before-next-skill-edit`.
+- SkillOpt snapshot command `python3 tools/skillopt_gate.py snapshot --out /tmp/ajs-skillopt-baseline.json`.
+- SkillOpt gate command `python3 tools/skillopt_gate.py gate --baseline /tmp/ajs-skillopt-baseline.json --out /tmp/ajs-skillopt-gate.json`.
+- SkillOpt final hard gate `python3 tools/run_checks.py --skip-reports`.
+- SkillOpt gate plan fingerprint `3caed0ded839`.
+- Command plan is 7 measurement commands / 12 validation commands.
+- Quality-floor command: `python3 tools/quality_scorecard.py --top 15 --min-score 90`.
+- Command plan fingerprint `0f80a9a0c83e`.
+- Goal-progress status `active-owner-clearance-needed`.
+- Goal-progress fingerprint `8b28635daa10`.
+- Completion-audit status `not-complete`.
+- Completion-audit fingerprint `e6b11952cd19`.
+- Validation:
+  - PASS: `python3 -m py_compile tools/monthly_uplift_report.py tools/external_link_audit.py tools/run_checks.py`.
+  - PASS: `python3 tools/monthly_uplift_report.py --self-test`.
+  - PASS: `python3 tools/monthly_uplift_report.py --json --limit 20 --skip-clone --output /tmp/ajs-loop116-preworklog-skip.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --json --limit 20 --output /tmp/ajs-loop116-preworklog-full.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-worklog latest --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop116-final-skip.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --output /tmp/ajs-loop116-final-full.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --output /tmp/ajs-loop116-handoff.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20 --output /tmp/ajs-loop116-publish-plan.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --output /tmp/ajs-loop116-goal-audit.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20 --output /tmp/ajs-loop116-debt-audit.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-loop116-worklog-template.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop116-monthly-uplift.md`.
+  - PASS: `python3 tools/audit_repo.py --counts`.
+  - PASS: `python3 tools/quality_scorecard.py`.
+  - PASS: `python3 tools/source_map_audit.py`.
+  - PASS: `python3 tools/root_entry_audit.py`.
+  - PASS: `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`.
+  - PASS: `python3 tools/external_link_audit.py --cache-summary --json`.
+  - PASS: `python3 tools/run_checks.py --skip-reports`.
+  - PASS: `python3 tools/run_checks.py`.
+  - PASS: `git diff --check`.
+
+### 2026-06-28 - Publish Plan Owner Fingerprint Handoff
+
+- Scope: root/tooling dashboard and tool documentation only; no journal pack content edits.
+- Rationale: Loop 116 made owner-clearance target fingerprints visible in the main handoff surfaces, but the read-only publish plan still stopped at the blocked pack-content unit. A future publish request should see the same owner-clearance target fingerprint evidence before staging.
+- Files: `tools/monthly_uplift_report.py`; `tools/README.md`; `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: the `--publish-plan` blocked pack-content section now repeats the owner-clearance queue and per-kind owner-clearance target fingerprints, with self-test coverage and README guidance.
+- Live metrics:
+  - Inventory: 2902 skills / 195 packs / 200 root entries.
+  - Quality: mean 93.6, min 90.0, below 90: 0.
+  - Execution bridge: 131 / 134 wired; 3 missing.
+  - Source maps: 194 maps, 0 warnings, max unresolved 14.
+  - Root entries: 200 enriched, 0 machine-only, 0 warnings.
+  - External links: external-link-cache-summary-v2; status actionable-review; 1579/1824 cached; 47 actionable; 460 inconclusive; cache present; sha256 c806bc7cf6bb.
+  - External-link classes: DEAD 5 / REDIRECT 42 actionable; BLOCKED 401 / UNREACHABLE 59 inconclusive; UNCHECKED 245; OK 1072; sha256 c806bc7cf6bb.
+  - External-link cache: 1579/1824 current URLs have cache rows; 1727 total cache rows; 148 orphaned; sha256 c806bc7cf6bb.
+  - Claims boundary: .maintenance/CLAIMS.md; 71 rows; 10 active; 365 lines; sha256 a4d9f08d0cda.
+  - Clone audit: max 0.000, fail hits 0, reported pairs 0.
+  - Working tree: ## main...origin/main with 4 dirty entries (0 pack lanes, 4 root/tooling entries).
+  - Dashboard schema: monthly_uplift_report v23; monthly-uplift-dashboard-v23.
+  - Worktree boundary: 4 dirty / 0 pack lanes / 4 root-tooling entries; sha256 6a1a726afdbd.
+  - Execution-bridge tail: owner-clearance-required; action request-owner-clearance; scope owner-clearance-only; policy clearance-before-wiring; wiring-now false; clearance-before-wiring true; blocked request-owner-clearance-before-wiring; 131/134 wired; 3 missing; 0 unclaimed / 3 owner-clearance; sha256 1afef93f983d.
+  - Execution-bridge packs: safe-to-wire none; blocked owner-clearance Academy-of-Management-Annals-Skills (Agent A lane covers econ/finance/management/Chinese packs); Annual-Review-of-Economics-Skills (Agent A lane covers econ/finance/management/Chinese packs); Social-Sciences-in-China-Skills (Agent A lane covers econ/finance/management/Chinese packs).
+  - Safe content queue: owner-clearance-required; action request-owner-clearance; 0 unclaimed (score 0 / source 0 / bridge 0); 15 score-ceiling; 0 dirty skipped; sha256 1ac635b844ba.
+  - Content-edit policy: owner-clearance-required; content blocked; next tooling-or-owner-clearance; 0 unclaimed / 43 claim-sensitive; 0 dirty pack lanes; bridge owner-clearance; sha256 2e7814ca3430.
+  - Remaining debt: owner-clearance-or-dirty; 0 unclaimed / 43 owner-clearance; 0 dirty pack lanes; bridge 3 missing; source max unresolved 14; sha256 cb154c972926.
+  - Owner-clearance queue: owner-clearance-queue-v2; 43 targets; score 20 (5 shown, +15 more) / source 20 (5 shown, +15 more) / bridge 3 (3 shown); sha256 c617f510d429.
+  - Owner-clearance target fingerprints: score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429.
+  - Publish policy: local-only-owner-review; local-only; root 4 paths; packs 0 lanes empty; path-scoped staging required; sha256 209f0d277ce4.
+  - Goal progress: active-owner-clearance-needed; core OK; worklog 117 loops; clone ok; bridge 131/134; next tooling-or-owner-clearance; sha256 d576ab6a2729.
+  - Completion audit: not-complete; action none; 13 requirements; 10 OK / 3 triaged / 0 review; 3 blockers; sha256 997c12b035ae.
+  - Handoff manifest: owner-clearance-needed -> tooling-or-owner-clearance; root 4 paths; packs 0 lanes; completion 13 req / 3 blockers; sha256 caeb0f57fbac.
+  - SkillOpt gate plan: monthly-uplift-skillopt-gate-plan-v1; status ready-before-next-skill-edit; 0 dirty skill paths / 0 dirty pack lanes; action take-baseline-before-bounded-skill-edit; final hard gate python3 tools/run_checks.py --skip-reports; sha256 3caed0ded839.
+  - Current next queue: current-next-queue-v6; 50 live fragments; sha256 e5e925c4d96d.
+  - Command plan: 7 measurement / 12 validation; sha256 0f80a9a0c83e.
+  - Next-batch plan: 6 items; sha256 edfb807b76d3.
+  - Dirty pack lanes: none
+  - Root/tooling dirty entries: `M .maintenance/MONTHLY-UPLIFT-2026-06-27.md`; `M tools/README.md`; `M tools/external_link_audit.py`; `M tools/monthly_uplift_report.py`
+  - Root/tooling paths: `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`; `tools/README.md`; `tools/external_link_audit.py`; `tools/monthly_uplift_report.py`
+  - Root/tooling tracked paths: `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`; `tools/README.md`; `tools/external_link_audit.py`; `tools/monthly_uplift_report.py`
+  - Root/tooling untracked paths: none
+  - Root/tooling staging preview: `git add -- .maintenance/MONTHLY-UPLIFT-2026-06-27.md tools/README.md tools/external_link_audit.py tools/monthly_uplift_report.py`
+  - Publish units:
+    - Root/tooling unit: ready; 4 paths (4 tracked, 0 untracked)
+    - Root/tooling paths: `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`; `tools/README.md`; `tools/external_link_audit.py`; `tools/monthly_uplift_report.py`
+    - Root/tooling command: `git add -- .maintenance/MONTHLY-UPLIFT-2026-06-27.md tools/README.md tools/external_link_audit.py tools/monthly_uplift_report.py`
+    - Pack content units: empty; 0 pack lanes
+    - Pack content packs: none
+- Loop-control:
+  - Status: `owner-clearance-needed`.
+  - Next lane: `tooling-or-owner-clearance`.
+  - Reason: all visible content debt is claim-sensitive or already dirty; avoid content edits without owner clearance.
+  - Unclaimed score/source/bridge candidates: 0 / 0 / 0.
+  - Claim-sensitive score/source/bridge targets: 20 / 20 / 3.
+  - Dirty skipped packs: 0.
+  - Execution-bridge owner-clearance tail: Academy-of-Management-Annals-Skills (Agent A lane covers econ/finance/management/Chinese packs); Annual-Review-of-Economics-Skills (Agent A lane covers econ/finance/management/Chinese packs); Social-Sciences-in-China-Skills (Agent A lane covers econ/finance/management/Chinese packs).
+- Owner clearance queue:
+  - Score-floor: Cancer-Cell-Skills (Agent B lane covers this natural-science/medicine pack); Annals-of-Mathematics-Skills (Agent B lane covers this natural-science/medicine pack); Physical-Review-Letters-Skills (Agent B lane covers this natural-science/medicine pack); Journal-of-the-American-Chemical-Society-Skills (Agent B lane covers this natural-science/medicine pack); Cell-Skills (Agent B lane covers this natural-science/medicine pack); +15 more.
+  - Source-map: PNAS-Nexus-Skills (Agent B natural-science/medicine lane covers this pack family); China-Industrial-Economics-Skills (Agent A lane covers econ/finance/management/Chinese packs); Journal-of-World-Economy-Skills (Agent A lane covers econ/finance/management/Chinese packs); Econometrica-Skills (Claims table: A status queued); Journal-of-Management-Sciences-in-China-Skills (Agent A lane covers econ/finance/management/Chinese packs); +15 more.
+  - Execution-bridge: Academy-of-Management-Annals-Skills (Agent A lane covers econ/finance/management/Chinese packs); Annual-Review-of-Economics-Skills (Agent A lane covers econ/finance/management/Chinese packs); Social-Sciences-in-China-Skills (Agent A lane covers econ/finance/management/Chinese packs).
+- Current-next-queue contract: `current-next-queue-v6`.
+- Loop-control status: `owner-clearance-needed`.
+- Next safe lane: `tooling-or-owner-clearance`.
+- Dashboard contract: `monthly-uplift-dashboard-v23` and `current_next_queue`.
+- The current nested-contracts fingerprint is `e5641e8843c6`.
+- External-link contract: `external-link-cache-summary-v2`.
+- External-link advisory status `actionable-review`.
+- External-link classes `DEAD 5 / REDIRECT 42 actionable; BLOCKED 401 / UNREACHABLE 59 inconclusive; UNCHECKED 245; OK 1072; sha256 c806bc7cf6bb`.
+- External-link cache coverage `1579/1824 current URLs have cache rows; 1727 total cache rows; 148 orphaned; sha256 c806bc7cf6bb`.
+- External-link fingerprint `c806bc7cf6bb`.
+- Execution-bridge tail contract: `monthly-uplift-execution-bridge-tail-v3`.
+- Execution-bridge tail policy `clearance-before-wiring`.
+- Execution-bridge clearance before wiring `true`.
+- Execution-bridge pack decision `safe-to-wire none; blocked owner-clearance Academy-of-Management-Annals-Skills (Agent A lane covers econ/finance/management/Chinese packs); Annual-Review-of-Economics-Skills (Agent A lane covers econ/finance/management/Chinese packs); Social-Sciences-in-China-Skills (Agent A lane covers econ/finance/management/Chinese packs)`.
+- Execution-bridge tail fingerprint `1afef93f983d`.
+- Safe content queue contract: `monthly-uplift-safe-content-queue-v2`.
+- Safe content queue status `owner-clearance-required`.
+- Safe content queue recommended action `request-owner-clearance`.
+- Safe content queue fingerprint `1ac635b844ba`.
+- Content-edit policy contract: `content-edit-policy-v2`.
+- Content-edit policy status `owner-clearance-required`.
+- Content-edit policy fingerprint `2e7814ca3430`.
+- Remaining-debt contract: `monthly-uplift-remaining-debt-v2`.
+- Remaining-debt status `owner-clearance-or-dirty`.
+- Remaining-debt fingerprint `cb154c972926`.
+- Owner-clearance queue `owner-clearance-queue-v2; 43 targets; score 20 (5 shown, +15 more) / source 20 (5 shown, +15 more) / bridge 3 (3 shown); sha256 c617f510d429`.
+- Current Next Queue owner-clearance guard: owner-clearance queue `owner-clearance-queue-v2; 43 targets; score 20 (5 shown, +15 more) / source 20 (5 shown, +15 more) / bridge 3 (3 shown); sha256 c617f510d429`.
+- Current Next Queue owner-clearance target-fingerprint guard: owner-clearance target fingerprints `score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429`.
+- Owner-clearance queue fingerprint `c617f510d429`.
+- Publish policy contract: `local-publish-policy-v1`.
+- Publish policy status `local-only-owner-review`.
+- Next-batch plan contract: `monthly-uplift-next-batch-plan-v1`.
+- Next-batch count `6`.
+- Next-batch fingerprint `edfb807b76d3`.
+- Goal progress contract: `monthly-uplift-goal-progress-v3`.
+- Completion audit contract: `monthly-uplift-completion-audit-v5`.
+- Handoff manifest contract: `monthly-uplift-handoff-v4`.
+- SkillOpt gate plan contract: `monthly-uplift-skillopt-gate-plan-v1`.
+- SkillOpt gate plan status `ready-before-next-skill-edit`.
+- SkillOpt snapshot command `python3 tools/skillopt_gate.py snapshot --out /tmp/ajs-skillopt-baseline.json`.
+- SkillOpt gate command `python3 tools/skillopt_gate.py gate --baseline /tmp/ajs-skillopt-baseline.json --out /tmp/ajs-skillopt-gate.json`.
+- SkillOpt final hard gate `python3 tools/run_checks.py --skip-reports`.
+- SkillOpt gate plan fingerprint `3caed0ded839`.
+- Command plan is 7 measurement commands / 12 validation commands.
+- Quality-floor command: `python3 tools/quality_scorecard.py --top 15 --min-score 90`.
+- Command plan fingerprint `0f80a9a0c83e`.
+- Goal-progress status `active-owner-clearance-needed`.
+- Goal-progress fingerprint `d576ab6a2729`.
+- Completion-audit status `not-complete`.
+- Completion-audit fingerprint `997c12b035ae`.
+- Validation:
+  - PASS: `python3 -m py_compile tools/monthly_uplift_report.py tools/external_link_audit.py tools/run_checks.py`.
+  - PASS: `python3 tools/monthly_uplift_report.py --self-test`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-worklog latest --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20 --output /tmp/ajs-loop117-publish-plan.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop117-final-skip.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --output /tmp/ajs-loop117-final-full.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --output /tmp/ajs-loop117-handoff.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --output /tmp/ajs-loop117-goal-audit.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20 --output /tmp/ajs-loop117-debt-audit.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-loop117-worklog-template.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop117-monthly-uplift.md`.
+  - PASS: `python3 tools/audit_repo.py --counts`.
+  - PASS: `python3 tools/quality_scorecard.py`.
+  - PASS: `python3 tools/source_map_audit.py`.
+  - PASS: `python3 tools/root_entry_audit.py`.
+  - PASS: `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`.
+  - PASS: `python3 tools/external_link_audit.py --cache-summary --json`.
+  - PASS: `python3 tools/run_checks.py --skip-reports`.
+  - PASS: `python3 tools/run_checks.py`.
+  - PASS: `git diff --check`.
+
+### 2026-06-28 - Completion Audit Owner Fingerprint Contract
+
+- Scope: root/tooling dashboard and tool documentation only; no journal pack content edits.
+- Rationale: owner-clearance target fingerprints were visible in handoff and publish-plan views, but the machine-readable completion audit still carried only the aggregate owner-clearance queue fingerprint. Goal-completion evidence should also expose per-kind target fingerprints so hidden target drift cannot be missed during the completion audit.
+- Files: `tools/monthly_uplift_report.py`; `tools/README.md`; `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: bumped the dashboard schema to v24 and the completion audit contract to `monthly-uplift-completion-audit-v6`; `completion_audit` now stores score/source/bridge owner-clearance target fingerprints and the Owner-clearance queue requirement evidence renders those per-kind fingerprints.
+- Live metrics:
+  - Inventory: 2902 skills / 195 packs / 200 root entries.
+  - Quality: mean 93.6, min 90.0, below 90: 0.
+  - Execution bridge: 131 / 134 wired; 3 missing.
+  - Source maps: 194 maps, 0 warnings, max unresolved 14.
+  - Root entries: 200 enriched, 0 machine-only, 0 warnings.
+  - External links: external-link-cache-summary-v2; status actionable-review; 1579/1824 cached; 47 actionable; 460 inconclusive; cache present; sha256 c806bc7cf6bb.
+  - External-link classes: DEAD 5 / REDIRECT 42 actionable; BLOCKED 401 / UNREACHABLE 59 inconclusive; UNCHECKED 245; OK 1072; sha256 c806bc7cf6bb.
+  - External-link cache: 1579/1824 current URLs have cache rows; 1727 total cache rows; 148 orphaned; sha256 c806bc7cf6bb.
+  - Claims boundary: .maintenance/CLAIMS.md; 71 rows; 10 active; 365 lines; sha256 a4d9f08d0cda.
+  - Clone audit: max 0.000, fail hits 0, reported pairs 0.
+  - Working tree: ## main...origin/main with 4 dirty entries (0 pack lanes, 4 root/tooling entries).
+  - Dashboard schema: monthly_uplift_report v24; monthly-uplift-dashboard-v24.
+  - Schema: `monthly-uplift-dashboard-v24`; nested-contracts fingerprint `723d46d44b9e`.
+  - Completion audit contract: `monthly-uplift-completion-audit-v6`.
+  - Worktree boundary: 4 dirty / 0 pack lanes / 4 root-tooling entries; sha256 6a1a726afdbd.
+  - Execution-bridge tail: owner-clearance-required; action request-owner-clearance; scope owner-clearance-only; policy clearance-before-wiring; wiring-now false; clearance-before-wiring true; blocked request-owner-clearance-before-wiring; 131/134 wired; 3 missing; 0 unclaimed / 3 owner-clearance; sha256 1afef93f983d.
+  - Execution-bridge packs: safe-to-wire none; blocked owner-clearance Academy-of-Management-Annals-Skills (Agent A lane covers econ/finance/management/Chinese packs); Annual-Review-of-Economics-Skills (Agent A lane covers econ/finance/management/Chinese packs); Social-Sciences-in-China-Skills (Agent A lane covers econ/finance/management/Chinese packs).
+  - Safe content queue: owner-clearance-required; action request-owner-clearance; 0 unclaimed (score 0 / source 0 / bridge 0); 15 score-ceiling; 0 dirty skipped; sha256 1ac635b844ba.
+  - Content-edit policy: owner-clearance-required; content blocked; next tooling-or-owner-clearance; 0 unclaimed / 43 claim-sensitive; 0 dirty pack lanes; bridge owner-clearance; sha256 2e7814ca3430.
+  - Remaining debt: owner-clearance-or-dirty; 0 unclaimed / 43 owner-clearance; 0 dirty pack lanes; bridge 3 missing; source max unresolved 14; sha256 cb154c972926.
+  - Owner-clearance queue: owner-clearance-queue-v2; 43 targets; score 20 (5 shown, +15 more) / source 20 (5 shown, +15 more) / bridge 3 (3 shown); sha256 c617f510d429.
+  - Owner-clearance target fingerprints: score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429.
+  - Completion owner-clearance requirement evidence: 43 owner-clearance targets; targets score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429.
+  - Publish policy: local-only-owner-review; local-only; root 4 paths; packs 0 lanes empty; path-scoped staging required; sha256 209f0d277ce4.
+  - Goal progress: active-owner-clearance-needed; core OK; worklog 118 loops; clone ok; bridge 131/134; next tooling-or-owner-clearance; sha256 c90dfbc8ef23.
+  - Completion audit: not-complete; action none; 13 requirements; 10 OK / 3 triaged / 0 review; 3 blockers; sha256 07fd25a0e3ab.
+  - Handoff manifest: owner-clearance-needed -> tooling-or-owner-clearance; root 4 paths; packs 0 lanes; completion 13 req / 3 blockers; sha256 f25d003242d8.
+  - SkillOpt gate plan: monthly-uplift-skillopt-gate-plan-v1; status ready-before-next-skill-edit; 0 dirty skill paths / 0 dirty pack lanes; action take-baseline-before-bounded-skill-edit; final hard gate python3 tools/run_checks.py --skip-reports; sha256 3caed0ded839.
+  - Current next queue: current-next-queue-v6; 50 live fragments; sha256 1e61a28c3fbd.
+  - Command plan: 7 measurement / 12 validation; sha256 0f80a9a0c83e.
+  - Next-batch plan: 6 items; sha256 edfb807b76d3.
+  - Dirty pack lanes: none
+  - Root/tooling dirty entries: `M .maintenance/MONTHLY-UPLIFT-2026-06-27.md`; `M tools/README.md`; `M tools/external_link_audit.py`; `M tools/monthly_uplift_report.py`
+  - Root/tooling paths: `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`; `tools/README.md`; `tools/external_link_audit.py`; `tools/monthly_uplift_report.py`
+  - Root/tooling tracked paths: `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`; `tools/README.md`; `tools/external_link_audit.py`; `tools/monthly_uplift_report.py`
+  - Root/tooling untracked paths: none
+  - Root/tooling staging preview: `git add -- .maintenance/MONTHLY-UPLIFT-2026-06-27.md tools/README.md tools/external_link_audit.py tools/monthly_uplift_report.py`
+  - Publish units:
+    - Root/tooling unit: ready; 4 paths (4 tracked, 0 untracked)
+    - Root/tooling paths: `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`; `tools/README.md`; `tools/external_link_audit.py`; `tools/monthly_uplift_report.py`
+    - Root/tooling command: `git add -- .maintenance/MONTHLY-UPLIFT-2026-06-27.md tools/README.md tools/external_link_audit.py tools/monthly_uplift_report.py`
+    - Pack content units: empty; 0 pack lanes
+    - Pack content packs: none
+- Loop-control:
+  - Status: `owner-clearance-needed`.
+  - Next lane: `tooling-or-owner-clearance`.
+  - Reason: all visible content debt is claim-sensitive or already dirty; avoid content edits without owner clearance.
+  - Unclaimed score/source/bridge candidates: 0 / 0 / 0.
+  - Claim-sensitive score/source/bridge targets: 20 / 20 / 3.
+  - Dirty skipped packs: 0.
+  - Execution-bridge owner-clearance tail: Academy-of-Management-Annals-Skills (Agent A lane covers econ/finance/management/Chinese packs); Annual-Review-of-Economics-Skills (Agent A lane covers econ/finance/management/Chinese packs); Social-Sciences-in-China-Skills (Agent A lane covers econ/finance/management/Chinese packs).
+- Current-next-queue contract: `current-next-queue-v6`.
+- Loop-control status: `owner-clearance-needed`.
+- Next safe lane: `tooling-or-owner-clearance`.
+- Dashboard contract: `monthly-uplift-dashboard-v24` and `current_next_queue`.
+- The current nested-contracts fingerprint is `723d46d44b9e`.
+- External-link contract: `external-link-cache-summary-v2`.
+- External-link advisory status `actionable-review`.
+- External-link classes `DEAD 5 / REDIRECT 42 actionable; BLOCKED 401 / UNREACHABLE 59 inconclusive; UNCHECKED 245; OK 1072; sha256 c806bc7cf6bb`.
+- External-link cache coverage `1579/1824 current URLs have cache rows; 1727 total cache rows; 148 orphaned; sha256 c806bc7cf6bb`.
+- External-link fingerprint `c806bc7cf6bb`.
+- Execution-bridge tail contract: `monthly-uplift-execution-bridge-tail-v3`.
+- Execution-bridge tail policy `clearance-before-wiring`.
+- Execution-bridge clearance before wiring `true`.
+- Execution-bridge pack decision `safe-to-wire none; blocked owner-clearance Academy-of-Management-Annals-Skills (Agent A lane covers econ/finance/management/Chinese packs); Annual-Review-of-Economics-Skills (Agent A lane covers econ/finance/management/Chinese packs); Social-Sciences-in-China-Skills (Agent A lane covers econ/finance/management/Chinese packs)`.
+- Execution-bridge tail fingerprint `1afef93f983d`.
+- Safe content queue contract: `monthly-uplift-safe-content-queue-v2`.
+- Safe content queue status `owner-clearance-required`.
+- Safe content queue recommended action `request-owner-clearance`.
+- Safe content queue fingerprint `1ac635b844ba`.
+- Content-edit policy contract: `content-edit-policy-v2`.
+- Content-edit policy status `owner-clearance-required`.
+- Content-edit policy fingerprint `2e7814ca3430`.
+- Remaining-debt contract: `monthly-uplift-remaining-debt-v2`.
+- Remaining-debt status `owner-clearance-or-dirty`.
+- Remaining-debt fingerprint `cb154c972926`.
+- Owner-clearance queue `owner-clearance-queue-v2; 43 targets; score 20 (5 shown, +15 more) / source 20 (5 shown, +15 more) / bridge 3 (3 shown); sha256 c617f510d429`.
+- Current Next Queue owner-clearance guard: owner-clearance queue `owner-clearance-queue-v2; 43 targets; score 20 (5 shown, +15 more) / source 20 (5 shown, +15 more) / bridge 3 (3 shown); sha256 c617f510d429`.
+- Current Next Queue owner-clearance target-fingerprint guard: owner-clearance target fingerprints `score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429`.
+- Owner-clearance queue fingerprint `c617f510d429`.
+- Publish policy contract: `local-publish-policy-v1`.
+- Publish policy status `local-only-owner-review`.
+- Next-batch plan contract: `monthly-uplift-next-batch-plan-v1`.
+- Next-batch count `6`.
+- Next-batch fingerprint `edfb807b76d3`.
+- Goal progress contract: `monthly-uplift-goal-progress-v3`.
+- Completion audit contract: `monthly-uplift-completion-audit-v6`.
+- Handoff manifest contract: `monthly-uplift-handoff-v4`.
+- SkillOpt gate plan contract: `monthly-uplift-skillopt-gate-plan-v1`.
+- SkillOpt gate plan status `ready-before-next-skill-edit`.
+- SkillOpt snapshot command `python3 tools/skillopt_gate.py snapshot --out /tmp/ajs-skillopt-baseline.json`.
+- SkillOpt gate command `python3 tools/skillopt_gate.py gate --baseline /tmp/ajs-skillopt-baseline.json --out /tmp/ajs-skillopt-gate.json`.
+- SkillOpt final hard gate `python3 tools/run_checks.py --skip-reports`.
+- SkillOpt gate plan fingerprint `3caed0ded839`.
+- Command plan is 7 measurement commands / 12 validation commands.
+- Quality-floor command: `python3 tools/quality_scorecard.py --top 15 --min-score 90`.
+- Command plan fingerprint `0f80a9a0c83e`.
+- Goal-progress status `active-owner-clearance-needed`.
+- Goal-progress fingerprint `c90dfbc8ef23`.
+- Completion-audit status `not-complete`.
+- Completion-audit fingerprint `07fd25a0e3ab`.
+- Validation:
+  - PASS: `python3 -m py_compile tools/monthly_uplift_report.py tools/external_link_audit.py tools/run_checks.py`.
+  - PASS: `python3 tools/monthly_uplift_report.py --self-test`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-worklog latest --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop118-final-skip.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --output /tmp/ajs-loop118-final-full.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --output /tmp/ajs-loop118-handoff.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20 --output /tmp/ajs-loop118-publish-plan.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --output /tmp/ajs-loop118-goal-audit.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20 --output /tmp/ajs-loop118-debt-audit.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-loop118-worklog-template.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop118-monthly-uplift.md`.
+  - PASS: `python3 tools/audit_repo.py --counts`.
+  - PASS: `python3 tools/quality_scorecard.py`.
+  - PASS: `python3 tools/source_map_audit.py`.
+  - PASS: `python3 tools/root_entry_audit.py`.
+  - PASS: `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`.
+  - PASS: `python3 tools/external_link_audit.py --cache-summary --json`.
+  - PASS: `python3 tools/run_checks.py --skip-reports`.
+  - PASS: `python3 tools/run_checks.py`.
+  - PASS: `git diff --check`.
+
+### 2026-06-28 - Completion Audit Owner Queue Handoff Guard
+
+- Scope: root-only tooling and maintenance-log guardrails; no pack content or
+  claim-sensitive skill bodies changed.
+- Rationale: Loop 118 added per-kind owner-clearance target fingerprints to the
+  completion audit, but the Current Next Queue only pinned the generic
+  owner-clearance queue rendering. This loop makes the completion-audit
+  rendering itself a required handoff fragment, so a future completion claim
+  cannot hide owner-target drift behind the aggregate queue hash.
+- Files: `tools/monthly_uplift_report.py`; `tools/README.md`;
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: bumped the dashboard schema to v25 and the Current Next Queue
+  contract to `current-next-queue-v7`; added
+  `completion_audit_owner_target_fingerprint_line`; required
+  `completion-audit owner target fingerprints` in Current Next Queue; and added
+  a negative self-test proving the fragment is rejected when missing.
+- Live metrics:
+  - Inventory: 2902 skills / 195 packs / 200 root entries.
+  - Quality: mean 93.6, min 90.0, below 90: 0.
+  - Execution bridge: 131 / 134 wired; 3 missing.
+  - Source maps: 194 maps, 0 warnings, max unresolved 14.
+  - Root entries: 200 enriched, 0 machine-only, 0 warnings.
+  - External links: external-link-cache-summary-v2; status actionable-review; 1579/1824 cached; 47 actionable; 460 inconclusive; cache present; sha256 c806bc7cf6bb.
+  - External-link classes: DEAD 5 / REDIRECT 42 actionable; BLOCKED 401 / UNREACHABLE 59 inconclusive; UNCHECKED 245; OK 1072; sha256 c806bc7cf6bb.
+  - External-link cache: 1579/1824 current URLs have cache rows; 1727 total cache rows; 148 orphaned; sha256 c806bc7cf6bb.
+  - Claims boundary: .maintenance/CLAIMS.md; 71 rows; 10 active; 365 lines; sha256 a4d9f08d0cda.
+  - Clone audit: max 0.000, fail hits 0, reported pairs 0.
+  - Working tree: ## main...origin/main with 4 dirty entries (0 pack lanes, 4 root/tooling entries).
+  - Dashboard schema: monthly_uplift_report v25; monthly-uplift-dashboard-v25.
+  - Schema: `monthly-uplift-dashboard-v25`; nested-contracts fingerprint `a90eb90c70e1`.
+  - Completion audit contract: `monthly-uplift-completion-audit-v6`.
+  - Worktree boundary: 4 dirty / 0 pack lanes / 4 root-tooling entries; sha256 6a1a726afdbd.
+  - Execution-bridge tail: owner-clearance-required; action request-owner-clearance; scope owner-clearance-only; policy clearance-before-wiring; wiring-now false; clearance-before-wiring true; blocked request-owner-clearance-before-wiring; 131/134 wired; 3 missing; 0 unclaimed / 3 owner-clearance; sha256 1afef93f983d.
+  - Execution-bridge packs: safe-to-wire none; blocked owner-clearance Academy-of-Management-Annals-Skills (Agent A lane covers econ/finance/management/Chinese packs); Annual-Review-of-Economics-Skills (Agent A lane covers econ/finance/management/Chinese packs); Social-Sciences-in-China-Skills (Agent A lane covers econ/finance/management/Chinese packs).
+  - Safe content queue: owner-clearance-required; action request-owner-clearance; 0 unclaimed (score 0 / source 0 / bridge 0); 15 score-ceiling; 0 dirty skipped; sha256 1ac635b844ba.
+  - Content-edit policy: owner-clearance-required; content blocked; next tooling-or-owner-clearance; 0 unclaimed / 43 claim-sensitive; 0 dirty pack lanes; bridge owner-clearance; sha256 2e7814ca3430.
+  - Remaining debt: owner-clearance-or-dirty; 0 unclaimed / 43 owner-clearance; 0 dirty pack lanes; bridge 3 missing; source max unresolved 14; sha256 cb154c972926.
+  - Owner-clearance queue: owner-clearance-queue-v2; 43 targets; score 20 (5 shown, +15 more) / source 20 (5 shown, +15 more) / bridge 3 (3 shown); sha256 c617f510d429.
+  - Owner-clearance target fingerprints: score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429.
+  - Completion owner-clearance requirement evidence: 43 owner-clearance targets; targets score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429.
+  - Completion-audit owner target fingerprints: score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429.
+  - Publish policy: local-only-owner-review; local-only; root 4 paths; packs 0 lanes empty; path-scoped staging required; sha256 209f0d277ce4.
+  - Goal progress: active-owner-clearance-needed; core OK; worklog 119 loops; clone ok; bridge 131/134; next tooling-or-owner-clearance; sha256 c408dd61e1b1.
+  - Completion audit: not-complete; action none; 13 requirements; 10 OK / 3 triaged / 0 review; 3 blockers; sha256 a053043b0070.
+  - Handoff manifest: owner-clearance-needed -> tooling-or-owner-clearance; root 4 paths; packs 0 lanes; completion 13 req / 3 blockers; sha256 ab1c7b1c6160.
+  - SkillOpt gate plan: monthly-uplift-skillopt-gate-plan-v1; status ready-before-next-skill-edit; 0 dirty skill paths / 0 dirty pack lanes; action take-baseline-before-bounded-skill-edit; final hard gate python3 tools/run_checks.py --skip-reports; sha256 3caed0ded839.
+  - Current next queue: current-next-queue-v7; 51 live fragments; sha256 89566229807b.
+  - Command plan: 7 measurement / 12 validation; sha256 0f80a9a0c83e.
+  - Next-batch plan: 6 items; sha256 edfb807b76d3.
+  - Dirty pack lanes: none
+  - Root/tooling dirty entries: `M .maintenance/MONTHLY-UPLIFT-2026-06-27.md`; `M tools/README.md`; `M tools/external_link_audit.py`; `M tools/monthly_uplift_report.py`
+  - Root/tooling paths: `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`; `tools/README.md`; `tools/external_link_audit.py`; `tools/monthly_uplift_report.py`
+  - Root/tooling tracked paths: `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`; `tools/README.md`; `tools/external_link_audit.py`; `tools/monthly_uplift_report.py`
+  - Root/tooling untracked paths: none
+  - Root/tooling staging preview: `git add -- .maintenance/MONTHLY-UPLIFT-2026-06-27.md tools/README.md tools/external_link_audit.py tools/monthly_uplift_report.py`
+  - Publish units:
+    - Root/tooling unit: ready; 4 paths (4 tracked, 0 untracked)
+    - Root/tooling paths: `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`; `tools/README.md`; `tools/external_link_audit.py`; `tools/monthly_uplift_report.py`
+    - Root/tooling command: `git add -- .maintenance/MONTHLY-UPLIFT-2026-06-27.md tools/README.md tools/external_link_audit.py tools/monthly_uplift_report.py`
+    - Pack content units: empty; 0 pack lanes
+    - Pack content packs: none
+- Loop-control:
+  - Status: `owner-clearance-needed`.
+  - Next lane: `tooling-or-owner-clearance`.
+  - Reason: all visible content debt is claim-sensitive or already dirty; avoid content edits without owner clearance.
+  - Unclaimed score/source/bridge candidates: 0 / 0 / 0.
+  - Claim-sensitive score/source/bridge targets: 20 / 20 / 3.
+  - Dirty skipped packs: 0.
+  - Execution-bridge owner-clearance tail: Academy-of-Management-Annals-Skills (Agent A lane covers econ/finance/management/Chinese packs); Annual-Review-of-Economics-Skills (Agent A lane covers econ/finance/management/Chinese packs); Social-Sciences-in-China-Skills (Agent A lane covers econ/finance/management/Chinese packs).
+- Current-next-queue contract: `current-next-queue-v7`.
+- Loop-control status: `owner-clearance-needed`.
+- Next safe lane: `tooling-or-owner-clearance`.
+- Dashboard contract: `monthly-uplift-dashboard-v25` and `current_next_queue`.
+- The current nested-contracts fingerprint is `a90eb90c70e1`.
+- External-link contract: `external-link-cache-summary-v2`.
+- External-link advisory status `actionable-review`.
+- External-link classes `DEAD 5 / REDIRECT 42 actionable; BLOCKED 401 / UNREACHABLE 59 inconclusive; UNCHECKED 245; OK 1072; sha256 c806bc7cf6bb`.
+- External-link cache coverage `1579/1824 current URLs have cache rows; 1727 total cache rows; 148 orphaned; sha256 c806bc7cf6bb`.
+- External-link fingerprint `c806bc7cf6bb`.
+- Execution-bridge tail contract: `monthly-uplift-execution-bridge-tail-v3`.
+- Execution-bridge tail policy `clearance-before-wiring`.
+- Execution-bridge clearance before wiring `true`.
+- Execution-bridge pack decision `safe-to-wire none; blocked owner-clearance Academy-of-Management-Annals-Skills (Agent A lane covers econ/finance/management/Chinese packs); Annual-Review-of-Economics-Skills (Agent A lane covers econ/finance/management/Chinese packs); Social-Sciences-in-China-Skills (Agent A lane covers econ/finance/management/Chinese packs)`.
+- Execution-bridge tail fingerprint `1afef93f983d`.
+- Safe content queue contract: `monthly-uplift-safe-content-queue-v2`.
+- Safe content queue status `owner-clearance-required`.
+- Safe content queue recommended action `request-owner-clearance`.
+- Safe content queue fingerprint `1ac635b844ba`.
+- Content-edit policy contract: `content-edit-policy-v2`.
+- Content-edit policy status `owner-clearance-required`.
+- Content-edit policy fingerprint `2e7814ca3430`.
+- Remaining-debt contract: `monthly-uplift-remaining-debt-v2`.
+- Remaining-debt status `owner-clearance-or-dirty`.
+- Remaining-debt fingerprint `cb154c972926`.
+- Owner-clearance queue `owner-clearance-queue-v2; 43 targets; score 20 (5 shown, +15 more) / source 20 (5 shown, +15 more) / bridge 3 (3 shown); sha256 c617f510d429`.
+- Current Next Queue owner-clearance guard: owner-clearance queue `owner-clearance-queue-v2; 43 targets; score 20 (5 shown, +15 more) / source 20 (5 shown, +15 more) / bridge 3 (3 shown); sha256 c617f510d429`.
+- Current Next Queue owner-clearance target-fingerprint guard: owner-clearance target fingerprints `score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429`.
+- Current Next Queue completion-audit target-fingerprint guard: completion-audit owner target fingerprints `score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429`.
+- Owner-clearance queue fingerprint `c617f510d429`.
+- Publish policy contract: `local-publish-policy-v1`.
+- Publish policy status `local-only-owner-review`.
+- Next-batch plan contract: `monthly-uplift-next-batch-plan-v1`.
+- Next-batch count `6`.
+- Next-batch fingerprint `edfb807b76d3`.
+- Goal progress contract: `monthly-uplift-goal-progress-v3`.
+- Completion audit contract: `monthly-uplift-completion-audit-v6`.
+- Handoff manifest contract: `monthly-uplift-handoff-v4`.
+- SkillOpt gate plan contract: `monthly-uplift-skillopt-gate-plan-v1`.
+- SkillOpt gate plan status `ready-before-next-skill-edit`.
+- SkillOpt snapshot command `python3 tools/skillopt_gate.py snapshot --out /tmp/ajs-skillopt-baseline.json`.
+- SkillOpt gate command `python3 tools/skillopt_gate.py gate --baseline /tmp/ajs-skillopt-baseline.json --out /tmp/ajs-skillopt-gate.json`.
+- SkillOpt final hard gate `python3 tools/run_checks.py --skip-reports`.
+- SkillOpt gate plan fingerprint `3caed0ded839`.
+- Command plan is 7 measurement commands / 12 validation commands.
+- Quality-floor command: `python3 tools/quality_scorecard.py --top 15 --min-score 90`.
+- Command plan fingerprint `0f80a9a0c83e`.
+- Goal-progress status `active-owner-clearance-needed`.
+- Goal-progress fingerprint `c408dd61e1b1`.
+- Completion-audit status `not-complete`.
+- Completion-audit fingerprint `a053043b0070`.
+- Validation:
+  - PASS: `python3 -m py_compile tools/monthly_uplift_report.py tools/external_link_audit.py tools/run_checks.py`.
+  - PASS: `python3 tools/monthly_uplift_report.py --self-test`.
+  - PASS: `python3 tools/monthly_uplift_report.py --json --limit 20 --skip-clone --output /tmp/ajs-loop119-pre-skip.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --json --limit 20 --output /tmp/ajs-loop119-pre-full.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --worklog-template --limit 20 --output /tmp/ajs-loop119-worklog-template-pre.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --json --limit 20 --skip-clone --output /tmp/ajs-loop119-moved-skip.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --json --limit 20 --output /tmp/ajs-loop119-moved-full.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-worklog latest --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop119-final-skip.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --output /tmp/ajs-loop119-final-full.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --output /tmp/ajs-loop119-handoff.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20 --output /tmp/ajs-loop119-publish-plan.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --output /tmp/ajs-loop119-goal-audit.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20 --output /tmp/ajs-loop119-debt-audit.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-loop119-worklog-template.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop119-monthly-uplift.md`.
+  - PASS: `python3 tools/audit_repo.py --counts`.
+  - PASS: `python3 tools/quality_scorecard.py`.
+  - PASS: `python3 tools/source_map_audit.py`.
+  - PASS: `python3 tools/root_entry_audit.py`.
+  - PASS: `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`.
+  - PASS: `python3 tools/external_link_audit.py --cache-summary --json`.
+  - PASS: `python3 tools/run_checks.py --skip-reports`.
+  - PASS: `python3 tools/run_checks.py`.
+  - PASS: `git diff --check`.
+
+### 2026-06-28 - Worklog Template Current Queue Fragments
+
+- Scope: root-only dashboard tooling and documentation; no pack content or
+  claim-sensitive skill bodies changed.
+- Rationale: Loop 119 showed that `--worklog-template` summarized Current Next
+  Queue but did not expand the exact fragments that `--check-worklog latest`
+  requires. Rendering those fragments directly makes the next loop copyable and
+  removes a manual source of stale handoff evidence.
+- Files: `tools/monthly_uplift_report.py`; `tools/README.md`;
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `worklog_template()` now renders a `Current Next Queue fragments`
+  section from `current_next_queue.required_fragments`, and `--self-test`
+  asserts that the template includes both the v7 contract line and the
+  completion-audit owner target fingerprint fragment.
+- Live metrics:
+  - Inventory: 2902 skills / 195 packs / 200 root entries.
+  - Quality: mean 93.6, min 90.0, below 90: 0.
+  - Execution bridge: 131 / 134 wired; 3 missing.
+  - Source maps: 194 maps, 0 warnings, max unresolved 14.
+  - Root entries: 200 enriched, 0 machine-only, 0 warnings.
+  - External links: external-link-cache-summary-v2; status actionable-review; 1579/1824 cached; 47 actionable; 460 inconclusive; cache present; sha256 c806bc7cf6bb.
+  - External-link classes: DEAD 5 / REDIRECT 42 actionable; BLOCKED 401 / UNREACHABLE 59 inconclusive; UNCHECKED 245; OK 1072; sha256 c806bc7cf6bb.
+  - External-link cache: 1579/1824 current URLs have cache rows; 1727 total cache rows; 148 orphaned; sha256 c806bc7cf6bb.
+  - Claims boundary: .maintenance/CLAIMS.md; 71 rows; 10 active; 365 lines; sha256 a4d9f08d0cda.
+  - Clone audit: max 0.000, fail hits 0, reported pairs 0.
+  - Working tree: ## main...origin/main with 4 dirty entries (0 pack lanes, 4 root/tooling entries).
+  - Dashboard schema: monthly_uplift_report v25; monthly-uplift-dashboard-v25.
+  - Schema: `monthly-uplift-dashboard-v25`; nested-contracts fingerprint `a90eb90c70e1`.
+  - Completion audit contract: `monthly-uplift-completion-audit-v6`.
+  - Worktree boundary: 4 dirty / 0 pack lanes / 4 root-tooling entries; sha256 6a1a726afdbd.
+  - Execution-bridge tail: owner-clearance-required; action request-owner-clearance; scope owner-clearance-only; policy clearance-before-wiring; wiring-now false; clearance-before-wiring true; blocked request-owner-clearance-before-wiring; 131/134 wired; 3 missing; 0 unclaimed / 3 owner-clearance; sha256 1afef93f983d.
+  - Execution-bridge packs: safe-to-wire none; blocked owner-clearance Academy-of-Management-Annals-Skills (Agent A lane covers econ/finance/management/Chinese packs); Annual-Review-of-Economics-Skills (Agent A lane covers econ/finance/management/Chinese packs); Social-Sciences-in-China-Skills (Agent A lane covers econ/finance/management/Chinese packs).
+  - Safe content queue: owner-clearance-required; action request-owner-clearance; 0 unclaimed (score 0 / source 0 / bridge 0); 15 score-ceiling; 0 dirty skipped; sha256 1ac635b844ba.
+  - Content-edit policy: owner-clearance-required; content blocked; next tooling-or-owner-clearance; 0 unclaimed / 43 claim-sensitive; 0 dirty pack lanes; bridge owner-clearance; sha256 2e7814ca3430.
+  - Remaining debt: owner-clearance-or-dirty; 0 unclaimed / 43 owner-clearance; 0 dirty pack lanes; bridge 3 missing; source max unresolved 14; sha256 cb154c972926.
+  - Owner-clearance queue: owner-clearance-queue-v2; 43 targets; score 20 (5 shown, +15 more) / source 20 (5 shown, +15 more) / bridge 3 (3 shown); sha256 c617f510d429.
+  - Owner-clearance target fingerprints: score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429.
+  - Completion-audit owner target fingerprints: score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429.
+  - Publish policy: local-only-owner-review; local-only; root 4 paths; packs 0 lanes empty; path-scoped staging required; sha256 209f0d277ce4.
+  - Goal progress: active-owner-clearance-needed; core OK; worklog 120 loops; clone ok; bridge 131/134; next tooling-or-owner-clearance; sha256 218d3122f06a.
+  - Completion audit: not-complete; action none; 13 requirements; 10 OK / 3 triaged / 0 review; 3 blockers; sha256 492362d001cc.
+  - Handoff manifest: owner-clearance-needed -> tooling-or-owner-clearance; root 4 paths; packs 0 lanes; completion 13 req / 3 blockers; sha256 2d31adce36b9.
+  - Current next queue: current-next-queue-v7; 51 live fragments; sha256 2a1e12b9c802.
+  - Command plan: 7 measurement / 12 validation; sha256 0f80a9a0c83e.
+  - Next-batch plan: 6 items; sha256 edfb807b76d3.
+- Loop-control:
+  - Status: `owner-clearance-needed`.
+  - Next lane: `tooling-or-owner-clearance`.
+  - Reason: all visible content debt is claim-sensitive or already dirty; avoid content edits without owner clearance.
+- Template fragment evidence:
+  - Current Next Queue fragments:
+  - Current-next-queue contract: `current-next-queue-v7`.
+  - completion-audit owner target fingerprints `score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429`.
+  - Goal-progress fingerprint `218d3122f06a`.
+  - Completion-audit fingerprint `492362d001cc`.
+- Validation:
+  - PASS: `python3 -m py_compile tools/monthly_uplift_report.py tools/external_link_audit.py tools/run_checks.py`.
+  - PASS: `python3 tools/monthly_uplift_report.py --self-test`.
+  - PASS: `python3 tools/monthly_uplift_report.py --worklog-template --limit 20 --output /tmp/ajs-loop120-template-pre.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop120-pre-skip.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --output /tmp/ajs-loop120-pre-full.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-worklog latest --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop120-final-skip.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --output /tmp/ajs-loop120-final-full.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --output /tmp/ajs-loop120-handoff.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20 --output /tmp/ajs-loop120-publish-plan.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --output /tmp/ajs-loop120-goal-audit.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20 --output /tmp/ajs-loop120-debt-audit.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-loop120-worklog-template.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop120-monthly-uplift.md`.
+  - PASS: `python3 tools/audit_repo.py --counts`.
+  - PASS: `python3 tools/quality_scorecard.py`.
+  - PASS: `python3 tools/source_map_audit.py`.
+  - PASS: `python3 tools/root_entry_audit.py`.
+  - PASS: `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`.
+  - PASS: `python3 tools/external_link_audit.py --cache-summary --json`.
+  - PASS: `python3 tools/run_checks.py --skip-reports`.
+  - PASS: `python3 tools/run_checks.py`.
+  - PASS: `git diff --check`.
+
+### 2026-06-28 - Global Queue Handoff Contract Guard
+
+- Scope: root-only dashboard checker, tool README, and monthly maintenance-log
+  handoff prose; no pack content or claim-sensitive skill bodies changed.
+- Rationale: the dated Loop 120 entry had live Current Next Queue v7 fragments,
+  but the global `## Current Next Queue` handoff section still contained stale
+  v6/v21/v1/v5 contract prose. This loop updates the global handoff and adds a
+  checker so later dated entries cannot accidentally mask stale top-level queue
+  guidance.
+- Files: `tools/monthly_uplift_report.py`; `tools/README.md`;
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: added an immediate global Current Next Queue section parser; the
+  worklog checker now rejects stale global queue/schema/owner-clearance/
+  completion-audit contracts and requires live owner-clearance target
+  fingerprint fragments in that global block. The global handoff prose now
+  reflects dashboard v25, Current Next Queue v7, owner-clearance queue v2, and
+  completion-audit v6.
+- Live metrics:
+  - Inventory: 2902 skills / 195 packs / 200 root entries.
+  - Quality: mean 93.6, min 90.0, below 90: 0.
+  - Execution bridge: 131 / 134 wired; 3 missing.
+  - Source maps: 194 maps, 0 warnings, max unresolved 14.
+  - Root entries: 200 enriched, 0 machine-only, 0 warnings.
+  - External links: external-link-cache-summary-v2; status actionable-review; 1579/1824 cached; 47 actionable; 460 inconclusive; cache present; sha256 c806bc7cf6bb.
+  - External-link classes: DEAD 5 / REDIRECT 42 actionable; BLOCKED 401 / UNREACHABLE 59 inconclusive; UNCHECKED 245; OK 1072; sha256 c806bc7cf6bb.
+  - External-link cache: 1579/1824 current URLs have cache rows; 1727 total cache rows; 148 orphaned; sha256 c806bc7cf6bb.
+  - Claims boundary: .maintenance/CLAIMS.md; 71 rows; 10 active; 365 lines; sha256 a4d9f08d0cda.
+  - Clone audit: max 0.000, fail hits 0, reported pairs 0.
+  - Working tree: ## main...origin/main with 4 dirty entries (0 pack lanes, 4 root/tooling entries).
+  - Dashboard schema: monthly_uplift_report v25; monthly-uplift-dashboard-v25.
+  - Schema: `monthly-uplift-dashboard-v25`; nested-contracts fingerprint `a90eb90c70e1`.
+  - Completion audit contract: `monthly-uplift-completion-audit-v6`.
+  - Worktree boundary: 4 dirty / 0 pack lanes / 4 root-tooling entries; sha256 6a1a726afdbd.
+  - Execution-bridge tail: owner-clearance-required; action request-owner-clearance; scope owner-clearance-only; policy clearance-before-wiring; wiring-now false; clearance-before-wiring true; blocked request-owner-clearance-before-wiring; 131/134 wired; 3 missing; 0 unclaimed / 3 owner-clearance; sha256 1afef93f983d.
+  - Execution-bridge packs: safe-to-wire none; blocked owner-clearance Academy-of-Management-Annals-Skills (Agent A lane covers econ/finance/management/Chinese packs); Annual-Review-of-Economics-Skills (Agent A lane covers econ/finance/management/Chinese packs); Social-Sciences-in-China-Skills (Agent A lane covers econ/finance/management/Chinese packs).
+  - Safe content queue: owner-clearance-required; action request-owner-clearance; 0 unclaimed (score 0 / source 0 / bridge 0); 15 score-ceiling; 0 dirty skipped; sha256 1ac635b844ba.
+  - Content-edit policy: owner-clearance-required; content blocked; next tooling-or-owner-clearance; 0 unclaimed / 43 claim-sensitive; 0 dirty pack lanes; bridge owner-clearance; sha256 2e7814ca3430.
+  - Remaining debt: owner-clearance-or-dirty; 0 unclaimed / 43 owner-clearance; 0 dirty pack lanes; bridge 3 missing; source max unresolved 14; sha256 cb154c972926.
+  - Owner-clearance queue: owner-clearance-queue-v2; 43 targets; score 20 (5 shown, +15 more) / source 20 (5 shown, +15 more) / bridge 3 (3 shown); sha256 c617f510d429.
+  - Owner-clearance target fingerprints: score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429.
+  - Completion-audit owner target fingerprints: score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429.
+  - Publish policy: local-only-owner-review; local-only; root 4 paths; packs 0 lanes empty; path-scoped staging required; sha256 209f0d277ce4.
+  - Goal progress: active-owner-clearance-needed; core OK; worklog 121 loops; clone ok; bridge 131/134; next tooling-or-owner-clearance; sha256 4314a92fa71f.
+  - Completion audit: not-complete; action none; 13 requirements; 10 OK / 3 triaged / 0 review; 3 blockers; sha256 37ba5ae4fa25.
+  - Handoff manifest: owner-clearance-needed -> tooling-or-owner-clearance; root 4 paths; packs 0 lanes; completion 13 req / 3 blockers; sha256 48a7998f636d.
+  - SkillOpt gate plan: monthly-uplift-skillopt-gate-plan-v1; status ready-before-next-skill-edit; 0 dirty skill paths / 0 dirty pack lanes; action take-baseline-before-bounded-skill-edit; final hard gate python3 tools/run_checks.py --skip-reports; sha256 3caed0ded839.
+  - Current next queue: current-next-queue-v7; 51 live fragments; sha256 539cb0a43e1a.
+  - Command plan: 7 measurement / 12 validation; sha256 0f80a9a0c83e.
+  - Next-batch plan: 6 items; sha256 edfb807b76d3.
+- Loop-control:
+  - Status: `owner-clearance-needed`.
+  - Next lane: `tooling-or-owner-clearance`.
+  - Reason: all visible content debt is claim-sensitive or already dirty; avoid content edits without owner clearance.
+- Global Current Next Queue guard:
+  - Current-next-queue contract: `current-next-queue-v7`.
+  - Dashboard contract: `monthly-uplift-dashboard-v25`.
+  - Owner-clearance contract: `owner-clearance-queue-v2`.
+  - Completion audit contract: `monthly-uplift-completion-audit-v6`.
+  - Nested-contracts fingerprint: `a90eb90c70e1`.
+  - owner-clearance target fingerprints `score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429`.
+  - completion-audit owner target fingerprints `score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429`.
+  - Goal-progress fingerprint `4314a92fa71f`.
+  - Completion-audit fingerprint `37ba5ae4fa25`.
+- Validation:
+  - PASS: `python3 -m py_compile tools/monthly_uplift_report.py tools/external_link_audit.py tools/run_checks.py`.
+  - PASS: `python3 tools/monthly_uplift_report.py --self-test`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-worklog latest --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop121-pre-skip.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --output /tmp/ajs-loop121-pre-full.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop121-final-skip.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --output /tmp/ajs-loop121-final-full.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --output /tmp/ajs-loop121-handoff.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20 --output /tmp/ajs-loop121-publish-plan.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --output /tmp/ajs-loop121-goal-audit.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20 --output /tmp/ajs-loop121-debt-audit.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-loop121-worklog-template.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop121-monthly-uplift.md`.
+  - PASS: `python3 tools/audit_repo.py --counts`.
+  - PASS: `python3 tools/quality_scorecard.py`.
+  - PASS: `python3 tools/source_map_audit.py`.
+  - PASS: `python3 tools/root_entry_audit.py`.
+  - PASS: `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`.
+  - PASS: `python3 tools/external_link_audit.py --cache-summary --json`.
+  - PASS: `python3 tools/run_checks.py --skip-reports`.
+  - PASS: `python3 tools/run_checks.py`.
+  - PASS: `git diff --check`.
+
+### 2026-06-28 - Global Queue Masking Regression Guard
+
+- Scope: root-only dashboard self-tests, tool README, and monthly worklog
+  evidence; no pack content or claim-sensitive skill bodies changed.
+- Rationale: Loop 121 made the global `Current Next Queue` block authoritative,
+  but the regression needed an explicit fixture proving stale top-level queue
+  prose cannot be hidden by later dated loop entries that happen to contain
+  live fragments.
+- Files: `tools/monthly_uplift_report.py`; `tools/README.md`;
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `monthly_uplift_report.py --self-test` now includes stale-global
+  masking fixtures for the Current Next Queue contract and owner-target
+  fingerprints. A later loop entry with live v7 fragments no longer satisfies
+  the global handoff contract if the global queue section itself is stale.
+- Live metrics:
+  - Inventory: 2902 skills / 195 packs / 200 root entries.
+  - Quality: mean 93.6, min 90.0, below 90: 0.
+  - Execution bridge: 131 / 134 wired; 3 missing.
+  - Source maps: 194 maps, 0 warnings, max unresolved 14.
+  - Root entries: 200 enriched, 0 machine-only, 0 warnings.
+  - External links: external-link-cache-summary-v2; status actionable-review; 1579/1824 cached; 47 actionable; 460 inconclusive; cache present; sha256 c806bc7cf6bb.
+  - External-link classes: DEAD 5 / REDIRECT 42 actionable; BLOCKED 401 / UNREACHABLE 59 inconclusive; UNCHECKED 245; OK 1072; sha256 c806bc7cf6bb.
+  - External-link cache: 1579/1824 current URLs have cache rows; 1727 total cache rows; 148 orphaned; sha256 c806bc7cf6bb.
+  - Claims boundary: .maintenance/CLAIMS.md; 71 rows; 10 active; 365 lines; sha256 a4d9f08d0cda.
+  - Clone audit: max 0.000, fail hits 0, reported pairs 0.
+  - Working tree: ## main...origin/main with 4 dirty entries (0 pack lanes, 4 root/tooling entries).
+  - Dashboard schema: monthly_uplift_report v25; monthly-uplift-dashboard-v25.
+  - Schema: `monthly-uplift-dashboard-v25`; nested-contracts fingerprint `a90eb90c70e1`.
+  - Completion audit contract: `monthly-uplift-completion-audit-v6`.
+  - Worktree boundary: 4 dirty / 0 pack lanes / 4 root-tooling entries; sha256 6a1a726afdbd.
+  - Execution-bridge tail: owner-clearance-required; action request-owner-clearance; scope owner-clearance-only; policy clearance-before-wiring; wiring-now false; clearance-before-wiring true; blocked request-owner-clearance-before-wiring; 131/134 wired; 3 missing; 0 unclaimed / 3 owner-clearance; sha256 1afef93f983d.
+  - Safe content queue: owner-clearance-required; action request-owner-clearance; 0 unclaimed (score 0 / source 0 / bridge 0); 15 score-ceiling; 0 dirty skipped; sha256 1ac635b844ba.
+  - Content-edit policy: owner-clearance-required; content blocked; next tooling-or-owner-clearance; 0 unclaimed / 43 claim-sensitive; 0 dirty pack lanes; bridge owner-clearance; sha256 2e7814ca3430.
+  - Remaining debt: owner-clearance-or-dirty; 0 unclaimed / 43 owner-clearance; 0 dirty pack lanes; bridge 3 missing; source max unresolved 14; sha256 cb154c972926.
+  - Owner-clearance queue: owner-clearance-queue-v2; 43 targets; score 20 (5 shown, +15 more) / source 20 (5 shown, +15 more) / bridge 3 (3 shown); sha256 c617f510d429.
+  - Owner-clearance target fingerprints: score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429.
+  - Completion-audit owner target fingerprints: score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429.
+  - Publish policy: local-only-owner-review; local-only; root 4 paths; packs 0 lanes empty; path-scoped staging required; sha256 209f0d277ce4.
+  - Goal progress: active-owner-clearance-needed; core OK; worklog 122 loops; clone ok; bridge 131/134; next tooling-or-owner-clearance; sha256 087c136cb70f.
+  - Completion audit: not-complete; action none; 13 requirements; 10 OK / 3 triaged / 0 review; 3 blockers; sha256 c7f1c198f6e2.
+  - Handoff manifest: owner-clearance-needed -> tooling-or-owner-clearance; root 4 paths; packs 0 lanes; completion 13 req / 3 blockers; sha256 9dd8a3e39986.
+  - SkillOpt gate plan: monthly-uplift-skillopt-gate-plan-v1; status ready-before-next-skill-edit; 0 dirty skill paths / 0 dirty pack lanes; action take-baseline-before-bounded-skill-edit; final hard gate python3 tools/run_checks.py --skip-reports; sha256 3caed0ded839.
+  - Current next queue: current-next-queue-v7; 51 live fragments; sha256 5990e878b5ad.
+  - Command plan: 7 measurement / 12 validation; sha256 0f80a9a0c83e.
+  - Next-batch plan: 6 items; sha256 edfb807b76d3.
+- Loop-control:
+  - Status: `owner-clearance-needed`.
+  - Next lane: `tooling-or-owner-clearance`.
+  - Reason: all visible content debt is claim-sensitive or already dirty; avoid content edits without owner clearance.
+- Regression evidence:
+  - Stale global queue contract is rejected even when a later dated loop contains `current-next-queue-v7`.
+  - Missing global owner-clearance target fingerprints are rejected even when later queue fragments contain the live target hash.
+  - Current-next-queue contract: `current-next-queue-v7`.
+  - Dashboard contract: `monthly-uplift-dashboard-v25`.
+  - Owner-clearance contract: `owner-clearance-queue-v2`.
+  - Completion audit contract: `monthly-uplift-completion-audit-v6`.
+  - Goal-progress fingerprint `087c136cb70f`.
+  - Completion-audit fingerprint `c7f1c198f6e2`.
+- Validation:
+  - PASS: `python3 -m py_compile tools/monthly_uplift_report.py tools/external_link_audit.py tools/run_checks.py`.
+  - PASS: `python3 tools/monthly_uplift_report.py --self-test`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-worklog latest --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop122-pre-skip.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --output /tmp/ajs-loop122-pre-full.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop122-final-skip.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --output /tmp/ajs-loop122-final-full.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --output /tmp/ajs-loop122-handoff.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20 --output /tmp/ajs-loop122-publish-plan.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --output /tmp/ajs-loop122-goal-audit.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20 --output /tmp/ajs-loop122-debt-audit.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-loop122-worklog-template.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop122-monthly-uplift.md`.
+  - PASS: `python3 tools/audit_repo.py --counts`.
+  - PASS: `python3 tools/quality_scorecard.py`.
+  - PASS: `python3 tools/source_map_audit.py`.
+  - PASS: `python3 tools/root_entry_audit.py`.
+  - PASS: `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`.
+  - PASS: `python3 tools/external_link_audit.py --cache-summary --json`.
+  - PASS: `python3 tools/run_checks.py --skip-reports`.
+  - PASS: `python3 tools/run_checks.py`.
+  - PASS: `git diff --check`.
+
+### 2026-06-28 - Expected Latest Worklog Heading Guard
+
+- Scope: root-only dashboard CLI, dashboard self-tests, tool README, and
+  monthly worklog evidence; no pack content or claim-sensitive skill bodies
+  changed.
+- Rationale: Loop 122 proved stale global queue prose cannot be hidden by later
+  loop entries, but the append workflow still needed a direct guard for the
+  common failure mode where a new loop is accidentally inserted before the
+  existing latest dated section.
+- Files: `tools/monthly_uplift_report.py`; `tools/README.md`;
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: `monthly_uplift_report.py --check-worklog` now accepts
+  `--expect-latest-heading`, and self-tests cover both matching and stale
+  expected-heading fixtures. Future loops can assert that the just-written
+  heading is actually the newest section at handoff time.
+- Live metrics:
+  - Inventory: 2902 skills / 195 packs / 200 root entries.
+  - Quality: mean 93.6, min 90.0, below 90: 0.
+  - Execution bridge: 131 / 134 wired; 3 missing.
+  - Source maps: 194 maps, 0 warnings, max unresolved 14.
+  - Root entries: 200 enriched, 0 machine-only, 0 warnings.
+  - External links: external-link-cache-summary-v2; status actionable-review; 1579/1824 cached; 47 actionable; 460 inconclusive; cache present; sha256 c806bc7cf6bb.
+  - External-link classes: DEAD 5 / REDIRECT 42 actionable; BLOCKED 401 / UNREACHABLE 59 inconclusive; UNCHECKED 245; OK 1072; sha256 c806bc7cf6bb.
+  - External-link cache: 1579/1824 current URLs have cache rows; 1727 total cache rows; 148 orphaned; sha256 c806bc7cf6bb.
+  - Claims boundary: .maintenance/CLAIMS.md; 71 rows; 10 active; 365 lines; sha256 a4d9f08d0cda.
+  - Clone audit: max 0.000, fail hits 0, reported pairs 0.
+  - Working tree: ## main...origin/main with 4 dirty entries (0 pack lanes, 4 root/tooling entries).
+  - Dashboard schema: monthly_uplift_report v25; monthly-uplift-dashboard-v25.
+  - Schema: `monthly-uplift-dashboard-v25`; nested-contracts fingerprint `a90eb90c70e1`.
+  - Completion audit contract: `monthly-uplift-completion-audit-v6`.
+  - Worktree boundary: 4 dirty / 0 pack lanes / 4 root-tooling entries; sha256 6a1a726afdbd.
+  - Execution-bridge tail: owner-clearance-required; action request-owner-clearance; scope owner-clearance-only; policy clearance-before-wiring; wiring-now false; clearance-before-wiring true; blocked request-owner-clearance-before-wiring; 131/134 wired; 3 missing; 0 unclaimed / 3 owner-clearance; sha256 1afef93f983d.
+  - Safe content queue: owner-clearance-required; action request-owner-clearance; 0 unclaimed (score 0 / source 0 / bridge 0); 15 score-ceiling; 0 dirty skipped; sha256 1ac635b844ba.
+  - Content-edit policy: owner-clearance-required; content blocked; next tooling-or-owner-clearance; 0 unclaimed / 43 claim-sensitive; 0 dirty pack lanes; bridge owner-clearance; sha256 2e7814ca3430.
+  - Remaining debt: owner-clearance-or-dirty; 0 unclaimed / 43 owner-clearance; 0 dirty pack lanes; bridge 3 missing; source max unresolved 14; sha256 cb154c972926.
+  - Owner-clearance queue: owner-clearance-queue-v2; 43 targets; score 20 (5 shown, +15 more) / source 20 (5 shown, +15 more) / bridge 3 (3 shown); sha256 c617f510d429.
+  - Owner-clearance target fingerprints: score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429.
+  - Completion-audit owner target fingerprints: score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429.
+  - Publish policy: local-only-owner-review; local-only; root 4 paths; packs 0 lanes empty; path-scoped staging required; sha256 209f0d277ce4.
+  - Goal progress: active-owner-clearance-needed; core OK; worklog 123 loops; clone ok; bridge 131/134; next tooling-or-owner-clearance; sha256 c6d379b82a91.
+  - Completion audit: not-complete; action none; 13 requirements; 10 OK / 3 triaged / 0 review; 3 blockers; sha256 36f33a47f413.
+  - Handoff manifest: owner-clearance-needed -> tooling-or-owner-clearance; root 4 paths; packs 0 lanes; completion 13 req / 3 blockers; sha256 0ea653746d4f.
+  - SkillOpt gate plan: monthly-uplift-skillopt-gate-plan-v1; status ready-before-next-skill-edit; 0 dirty skill paths / 0 dirty pack lanes; action take-baseline-before-bounded-skill-edit; final hard gate python3 tools/run_checks.py --skip-reports; sha256 3caed0ded839.
+  - Current next queue: current-next-queue-v7; 51 live fragments; sha256 036b0f95faa7.
+  - Command plan: 7 measurement / 12 validation; sha256 0f80a9a0c83e.
+  - Next-batch plan: 6 items; sha256 edfb807b76d3.
+- Loop-control:
+  - Status: `owner-clearance-needed`.
+  - Next lane: `tooling-or-owner-clearance`.
+  - Reason: all visible content debt is claim-sensitive or already dirty; avoid content edits without owner clearance.
+- Regression evidence:
+  - Matching expected latest-heading fixtures pass.
+  - Stale expected latest-heading fixtures are rejected.
+  - Current latest-heading command:
+    `python3 tools/monthly_uplift_report.py --check-worklog latest --limit 20 --expect-latest-heading '### 2026-06-28 - Expected Latest Worklog Heading Guard'`.
+- Validation:
+  - PASS: `python3 -m py_compile tools/monthly_uplift_report.py tools/external_link_audit.py tools/run_checks.py`.
+  - PASS: `python3 tools/monthly_uplift_report.py --self-test`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-worklog latest --limit 20`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-worklog latest --limit 20 --expect-latest-heading '### 2026-06-28 - Expected Latest Worklog Heading Guard'`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop123-final-skip.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --output /tmp/ajs-loop123-final-full.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --output /tmp/ajs-loop123-handoff.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20 --output /tmp/ajs-loop123-publish-plan.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --output /tmp/ajs-loop123-goal-audit.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20 --output /tmp/ajs-loop123-debt-audit.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-loop123-worklog-template.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop123-monthly-uplift.md`.
+  - PASS: `python3 tools/audit_repo.py --counts`.
+  - PASS: `python3 tools/quality_scorecard.py`.
+  - PASS: `python3 tools/source_map_audit.py`.
+  - PASS: `python3 tools/root_entry_audit.py`.
+  - PASS: `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`.
+  - PASS: `python3 tools/external_link_audit.py --cache-summary --json`.
+  - PASS: `python3 tools/quality_scorecard.py --top 15 --min-score 90`.
+  - PASS: `python3 tools/run_checks.py --skip-reports`.
+  - PASS: `python3 tools/run_checks.py`.
+  - PASS: `git diff --check`.
+
+### 2026-06-28 - Strict Latest Heading Handoff Command
+
+- Scope: root-only dashboard rendering, dashboard self-tests, tool README, and
+  monthly worklog evidence; no pack content or claim-sensitive skill bodies
+  changed.
+- Rationale: Loop 123 added the strict latest-heading guard, but future
+  operators still needed the generated handoff and worklog template to print
+  the exact command instead of relying on memory after each append.
+- Files: `tools/monthly_uplift_report.py`; `tools/README.md`;
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: generated handoffs now include a strict latest-heading validation
+  command for the current newest loop, generated worklog templates include the
+  strict command for the scaffolded heading, and `validate_worklog_text`
+  rejects strict commands whose expected heading does not match the actual
+  newest dated section.
+- Live metrics:
+  - Inventory: 2902 skills / 195 packs / 200 root entries.
+  - Quality: mean 93.6, min 90.0, below 90: 0.
+  - Execution bridge: 131 / 134 wired; 3 missing.
+  - Source maps: 194 maps, 0 warnings, max unresolved 14.
+  - Root entries: 200 enriched, 0 machine-only, 0 warnings.
+  - External links: external-link-cache-summary-v2; status actionable-review; 1579/1824 cached; 47 actionable; 460 inconclusive; cache present; sha256 c806bc7cf6bb.
+  - External-link classes: DEAD 5 / REDIRECT 42 actionable; BLOCKED 401 / UNREACHABLE 59 inconclusive; UNCHECKED 245; OK 1072; sha256 c806bc7cf6bb.
+  - External-link cache: 1579/1824 current URLs have cache rows; 1727 total cache rows; 148 orphaned; sha256 c806bc7cf6bb.
+  - Claims boundary: .maintenance/CLAIMS.md; 71 rows; 10 active; 365 lines; sha256 a4d9f08d0cda.
+  - Clone audit: max 0.000, fail hits 0, reported pairs 0.
+  - Working tree: ## main...origin/main with 4 dirty entries (0 pack lanes, 4 root/tooling entries).
+  - Dashboard schema: monthly_uplift_report v25; monthly-uplift-dashboard-v25.
+  - Schema: `monthly-uplift-dashboard-v25`; nested-contracts fingerprint `a90eb90c70e1`.
+  - Completion audit contract: `monthly-uplift-completion-audit-v6`.
+  - Worktree boundary: 4 dirty / 0 pack lanes / 4 root-tooling entries; sha256 6a1a726afdbd.
+  - Execution-bridge tail: owner-clearance-required; action request-owner-clearance; scope owner-clearance-only; policy clearance-before-wiring; wiring-now false; clearance-before-wiring true; blocked request-owner-clearance-before-wiring; 131/134 wired; 3 missing; 0 unclaimed / 3 owner-clearance; sha256 1afef93f983d.
+  - Safe content queue: owner-clearance-required; action request-owner-clearance; 0 unclaimed (score 0 / source 0 / bridge 0); 15 score-ceiling; 0 dirty skipped; sha256 1ac635b844ba.
+  - Content-edit policy: owner-clearance-required; content blocked; next tooling-or-owner-clearance; 0 unclaimed / 43 claim-sensitive; 0 dirty pack lanes; bridge owner-clearance; sha256 2e7814ca3430.
+  - Remaining debt: owner-clearance-or-dirty; 0 unclaimed / 43 owner-clearance; 0 dirty pack lanes; bridge 3 missing; source max unresolved 14; sha256 cb154c972926.
+  - Owner-clearance queue: owner-clearance-queue-v2; 43 targets; score 20 (5 shown, +15 more) / source 20 (5 shown, +15 more) / bridge 3 (3 shown); sha256 c617f510d429.
+  - Owner-clearance target fingerprints: score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429.
+  - Completion-audit owner target fingerprints: score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429.
+  - Publish policy: local-only-owner-review; local-only; root 4 paths; packs 0 lanes empty; path-scoped staging required; sha256 209f0d277ce4.
+  - Goal progress: active-owner-clearance-needed; core OK; worklog 124 loops; clone ok; bridge 131/134; next tooling-or-owner-clearance; sha256 8e8c30ef74f1.
+  - Completion audit: not-complete; action none; 13 requirements; 10 OK / 3 triaged / 0 review; 3 blockers; sha256 d510d5245cd7.
+  - Handoff manifest: owner-clearance-needed -> tooling-or-owner-clearance; root 4 paths; packs 0 lanes; completion 13 req / 3 blockers; sha256 759f0e7f9396.
+  - SkillOpt gate plan: monthly-uplift-skillopt-gate-plan-v1; status ready-before-next-skill-edit; 0 dirty skill paths / 0 dirty pack lanes; action take-baseline-before-bounded-skill-edit; final hard gate python3 tools/run_checks.py --skip-reports; sha256 3caed0ded839.
+  - Current next queue: current-next-queue-v7; 51 live fragments; sha256 f23a37804b8c.
+  - Command plan: 7 measurement / 12 validation; sha256 0f80a9a0c83e.
+  - Next-batch plan: 6 items; sha256 edfb807b76d3.
+- Loop-control:
+  - Status: `owner-clearance-needed`.
+  - Next lane: `tooling-or-owner-clearance`.
+  - Reason: all visible content debt is claim-sensitive or already dirty; avoid content edits without owner clearance.
+- Regression evidence:
+  - Handoff strict heading command:
+    `python3 tools/monthly_uplift_report.py --check-worklog latest --limit 20 --expect-latest-heading '### 2026-06-28 - Strict Latest Heading Handoff Command'`.
+  - Worklog-template strict heading command:
+    `python3 tools/monthly_uplift_report.py --check-worklog latest --limit 20 --expect-latest-heading '### 2026-06-28 - Monthly Uplift Loop'`.
+  - Stale strict latest-heading commands are rejected by `validate_worklog_text`.
+- Validation:
+  - PASS: `python3 -m py_compile tools/monthly_uplift_report.py tools/external_link_audit.py tools/run_checks.py`.
+  - PASS: `python3 tools/monthly_uplift_report.py --self-test`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-worklog latest --limit 20 --expect-latest-heading '### 2026-06-28 - Strict Latest Heading Handoff Command'`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop124-final-skip.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --output /tmp/ajs-loop124-final-full.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --output /tmp/ajs-loop124-handoff.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20 --output /tmp/ajs-loop124-publish-plan.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --output /tmp/ajs-loop124-goal-audit.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20 --output /tmp/ajs-loop124-debt-audit.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-loop124-worklog-template.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop124-monthly-uplift.md`.
+  - PASS: `python3 tools/audit_repo.py --counts`.
+  - PASS: `python3 tools/quality_scorecard.py`.
+  - PASS: `python3 tools/source_map_audit.py`.
+  - PASS: `python3 tools/root_entry_audit.py`.
+  - PASS: `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`.
+  - PASS: `python3 tools/external_link_audit.py --cache-summary --json`.
+  - PASS: `python3 tools/quality_scorecard.py --top 15 --min-score 90`.
+  - PASS: `python3 tools/run_checks.py --skip-reports`.
+  - PASS: `python3 tools/run_checks.py`.
+  - PASS: `git diff --check`.
+
+### 2026-06-28 - Strict Heading Audit Surface Coverage
+
+- Scope: root-only dashboard validation surfaces, dashboard self-tests, tool
+  README, and monthly worklog evidence; no pack content or claim-sensitive
+  skill bodies changed.
+- Rationale: Loop 124 put the strict latest-heading command into handoffs and
+  worklog templates, but publish plans, debt audits, and full Markdown
+  snapshots still rendered only the generic worklog gate.
+- Files: `tools/monthly_uplift_report.py`; `tools/README.md`;
+  `.maintenance/MONTHLY-UPLIFT-2026-06-27.md`.
+- Result: shared validation surfaces now append the strict latest-heading
+  command through one helper, so full snapshots, compact handoffs,
+  publish-plan checks, and debt-audit checks all carry the same EOF-proof
+  worklog command. Self-tests now assert strict-heading coverage in those
+  rendered surfaces.
+- Live metrics:
+  - Inventory: 2902 skills / 195 packs / 200 root entries.
+  - Quality: mean 93.6, min 90.0, below 90: 0.
+  - Execution bridge: 131 / 134 wired; 3 missing.
+  - Source maps: 194 maps, 0 warnings, max unresolved 14.
+  - Root entries: 200 enriched, 0 machine-only, 0 warnings.
+  - External links: external-link-cache-summary-v2; status actionable-review; 1579/1824 cached; 47 actionable; 460 inconclusive; cache present; sha256 c806bc7cf6bb.
+  - External-link classes: DEAD 5 / REDIRECT 42 actionable; BLOCKED 401 / UNREACHABLE 59 inconclusive; UNCHECKED 245; OK 1072; sha256 c806bc7cf6bb.
+  - External-link cache: 1579/1824 current URLs have cache rows; 1727 total cache rows; 148 orphaned; sha256 c806bc7cf6bb.
+  - Claims boundary: .maintenance/CLAIMS.md; 71 rows; 10 active; 365 lines; sha256 a4d9f08d0cda.
+  - Clone audit: max 0.000, fail hits 0, reported pairs 0.
+  - Working tree: ## main...origin/main with 4 dirty entries (0 pack lanes, 4 root/tooling entries).
+  - Dashboard schema: monthly_uplift_report v25; monthly-uplift-dashboard-v25.
+  - Schema: `monthly-uplift-dashboard-v25`; nested-contracts fingerprint `a90eb90c70e1`.
+  - Completion audit contract: `monthly-uplift-completion-audit-v6`.
+  - Worktree boundary: 4 dirty / 0 pack lanes / 4 root-tooling entries; sha256 6a1a726afdbd.
+  - Execution-bridge tail: owner-clearance-required; action request-owner-clearance; scope owner-clearance-only; policy clearance-before-wiring; wiring-now false; clearance-before-wiring true; blocked request-owner-clearance-before-wiring; 131/134 wired; 3 missing; 0 unclaimed / 3 owner-clearance; sha256 1afef93f983d.
+  - Safe content queue: owner-clearance-required; action request-owner-clearance; 0 unclaimed (score 0 / source 0 / bridge 0); 15 score-ceiling; 0 dirty skipped; sha256 1ac635b844ba.
+  - Content-edit policy: owner-clearance-required; content blocked; next tooling-or-owner-clearance; 0 unclaimed / 43 claim-sensitive; 0 dirty pack lanes; bridge owner-clearance; sha256 2e7814ca3430.
+  - Remaining debt: owner-clearance-or-dirty; 0 unclaimed / 43 owner-clearance; 0 dirty pack lanes; bridge 3 missing; source max unresolved 14; sha256 cb154c972926.
+  - Owner-clearance queue: owner-clearance-queue-v2; 43 targets; score 20 (5 shown, +15 more) / source 20 (5 shown, +15 more) / bridge 3 (3 shown); sha256 c617f510d429.
+  - Owner-clearance target fingerprints: score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429.
+  - Completion-audit owner target fingerprints: score 19a3fd1ddee8 / source e6ed5d68e3be / bridge 5afd71b682e7; queue sha256 c617f510d429.
+  - Publish policy: local-only-owner-review; local-only; root 4 paths; packs 0 lanes empty; path-scoped staging required; sha256 209f0d277ce4.
+  - Goal progress: active-owner-clearance-needed; core OK; worklog 125 loops; clone ok; bridge 131/134; next tooling-or-owner-clearance; sha256 048839934bb3.
+  - Completion audit: not-complete; action none; 13 requirements; 10 OK / 3 triaged / 0 review; 3 blockers; sha256 95a2289ca76f.
+  - Handoff manifest: owner-clearance-needed -> tooling-or-owner-clearance; root 4 paths; packs 0 lanes; completion 13 req / 3 blockers; sha256 2d4fd0ceea70.
+  - SkillOpt gate plan: monthly-uplift-skillopt-gate-plan-v1; status ready-before-next-skill-edit; 0 dirty skill paths / 0 dirty pack lanes; action take-baseline-before-bounded-skill-edit; final hard gate python3 tools/run_checks.py --skip-reports; sha256 3caed0ded839.
+  - Current next queue: current-next-queue-v7; 51 live fragments; sha256 d0039db5edf4.
+  - Command plan: 7 measurement / 12 validation; sha256 0f80a9a0c83e.
+  - Next-batch plan: 6 items; sha256 edfb807b76d3.
+- Loop-control:
+  - Status: `owner-clearance-needed`.
+  - Next lane: `tooling-or-owner-clearance`.
+  - Reason: all visible content debt is claim-sensitive or already dirty; avoid content edits without owner clearance.
+- Regression evidence:
+  - Publish-plan strict heading command:
+    `python3 tools/monthly_uplift_report.py --check-worklog latest --limit 20 --expect-latest-heading '### 2026-06-28 - Strict Heading Audit Surface Coverage'`.
+  - Debt-audit strict heading command:
+    `python3 tools/monthly_uplift_report.py --check-worklog latest --limit 20 --expect-latest-heading '### 2026-06-28 - Strict Heading Audit Surface Coverage'`.
+  - The built-in command plan remains stable at 7 measurement / 12 validation commands; strict heading commands are rendered as dynamic surface guidance, not as a fingerprint-changing static plan entry.
+- Validation:
+  - PASS: `python3 -m py_compile tools/monthly_uplift_report.py tools/external_link_audit.py tools/run_checks.py`.
+  - PASS: `python3 tools/monthly_uplift_report.py --self-test`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-worklog latest --limit 20 --expect-latest-heading '### 2026-06-28 - Strict Heading Audit Surface Coverage'`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check-only --limit 20 --skip-clone`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --skip-clone --output /tmp/ajs-loop125-final-skip.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --json --limit 20 --output /tmp/ajs-loop125-final-full.json`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --handoff --limit 20 --output /tmp/ajs-loop125-handoff.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20 --output /tmp/ajs-loop125-publish-plan.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20 --output /tmp/ajs-loop125-goal-audit.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --debt-audit --limit 20 --output /tmp/ajs-loop125-debt-audit.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --worklog-template --limit 20 --output /tmp/ajs-loop125-worklog-template.md`.
+  - PASS: `python3 tools/monthly_uplift_report.py --check --limit 20 --output /tmp/ajs-loop125-monthly-uplift.md`.
+  - PASS: `python3 tools/audit_repo.py --counts`.
+  - PASS: `python3 tools/quality_scorecard.py`.
+  - PASS: `python3 tools/source_map_audit.py`.
+  - PASS: `python3 tools/root_entry_audit.py`.
+  - PASS: `python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 20`.
+  - PASS: `python3 tools/external_link_audit.py --cache-summary --json`.
+  - PASS: `python3 tools/quality_scorecard.py --top 15 --min-score 90`.
+  - PASS: `python3 tools/run_checks.py --skip-reports`.
+  - PASS: `python3 tools/run_checks.py`.
+  - PASS: `git diff --check`.
