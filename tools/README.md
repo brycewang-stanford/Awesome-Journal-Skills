@@ -22,8 +22,8 @@ should fail on warnings.
 | [`source_map_audit.py`](source_map_audit.py) | Reports first-party `resources/official-source-map.md` files with missing source URLs, missing visible check dates, thin content, and heavy unresolved-flag loads. | `python3 tools/source_map_audit.py` |
 | [`root_entry_audit.py`](root_entry_audit.py) | Reports progress and source-anchor gaps for the 200 root journal-entry cards. | `python3 tools/root_entry_audit.py` |
 | [`quality_scorecard.py`](quality_scorecard.py) | Scores every first-party pack 0–100 on objective quality dimensions. It distinguishes single-venue `depth` packs, compressed AI-conference `conference` packs, and large `breadth` bundles: depth packs get credit for code/worked examples/exemplars, conference packs use a shorter skill-body target, and breadth bundles get credit for routers, rosters/source maps, worked routing cases, and selection patterns. The `unit` column is cross-language: Latin/technical tokens count as one unit and two CJK characters count as one unit. Venue-cue checks use pack names plus common skill-directory prefixes such as `jbf`, `ectj`, or `red`. `code=n/a` means the pack's resources explicitly explain why runnable econometric code is not discipline-appropriate. `--top N` shows the lowest scorers; `--show-skills` names the thinnest files inside each displayed pack; `--json` for diffing the trajectory over time; `--min-score` can gate a focused cleanup. | `python3 tools/quality_scorecard.py --top 20 --show-skills` |
-| [`external_link_audit.py`](external_link_audit.py) | Reports liveness for external official/publisher/submission URLs cited in first-party Markdown. It is network-dependent and advisory: 404/410 are actionable, while 401/403/429 and timeouts usually need manual recheck. Results are cached under `tools/.cache/`. | `python3 tools/external_link_audit.py` |
-| [`monthly_uplift_report.py`](monthly_uplift_report.py) | Aggregates the monthly quality program signals into one Markdown, JSON, compact handoff, local publish-plan, goal-completion audit, debt-audit, or worklog-template snapshot: live counts, score floor, source-map warnings, root-card warnings, execution-bridge tail coverage, latest worklog status, clone fail-risk, current git dirt, goal-readiness signals, loop-control status, claims-aware current-target notes, full-output unclaimed score/source-map/execution-bridge candidate pools, owner-clearance queue, machine-readable remaining-debt and completion-audit evidence, and dynamic next-batch suggestions. Use `--limit N` to show more rows and widen the candidate pool without changing thresholds. Use `--check` or `--check-only` to validate dashboard self-consistency before trusting the next-lane signal. Use `--handoff` for a short next-loop note, `--publish-plan` for a read-only root/tooling staging plan that keeps pack-content lanes blocked, `--goal-audit` for a read-only requirement-by-requirement completion audit that never changes goal status, `--debt-audit` for a read-only remaining-debt register, `--worklog-template` for a populated maintenance-log entry scaffold, `--check-worklog latest` to verify the newest dated worklog entry and next queue, `--json --output PATH` to save a comparable baseline, `--compare-json PATH` to add trajectory deltas, `--self-test` for dependency-free loop-control regression tests, and `--output PATH` to persist the rendered snapshot for a worklog while still printing it. It is read-only except for the requested snapshot file and does not replace the hard gates. | `python3 tools/monthly_uplift_report.py --check --handoff --limit 20` |
+| [`external_link_audit.py`](external_link_audit.py) | Reports liveness for external official/publisher/submission URLs cited in first-party Markdown. It is network-dependent and advisory: 404/410 are actionable, while 401/403/429 and timeouts usually need manual recheck. Results are cached under `tools/.cache/`; `--cache-summary --json` reads that cache and URL inventory without making network requests, including current cache coverage and orphaned cache rows. | `python3 tools/external_link_audit.py` |
+| [`monthly_uplift_report.py`](monthly_uplift_report.py) | Aggregates the monthly quality program signals into one Markdown, JSON, compact handoff, local publish-plan, goal-completion audit, debt-audit, or worklog-template snapshot: live counts, score floor, source-map warnings, root-card warnings, external-link cache advisory, execution-bridge tail coverage, latest worklog status, clone fail-risk, current git dirt, goal-readiness signals, loop-control status, claims-aware current-target notes, full-output unclaimed score/source-map/execution-bridge candidate pools, owner-clearance queue, machine-readable remaining-debt and completion-audit evidence, and dynamic next-batch suggestions. Use `--limit N` to show more rows and widen the candidate pool without changing thresholds. Use `--check` or `--check-only` to validate dashboard self-consistency before trusting the next-lane signal. Use `--handoff` for a short next-loop note, `--publish-plan` for a read-only root/tooling staging plan that keeps pack-content lanes blocked, `--goal-audit` for a read-only requirement-by-requirement completion audit that never changes goal status, `--debt-audit` for a read-only remaining-debt register, `--worklog-template` for a populated maintenance-log entry scaffold, `--check-worklog latest` to verify the newest dated worklog entry and next queue, `--json --output PATH` to save a comparable baseline, `--compare-json PATH` to add trajectory deltas, `--self-test` for dependency-free loop-control regression tests, and `--output PATH` to persist the rendered snapshot for a worklog while still printing it. It is read-only except for the requested snapshot file and does not replace the hard gates. | `python3 tools/monthly_uplift_report.py --check --handoff --limit 20` |
 | [`skillopt_gate.py`](skillopt_gate.py) | Applies a SkillOpt-style baseline/candidate/validation gate to count-preserving skill edits. It snapshots inventory, scorecard, source-map, root-card, clone, git, and claim-sensitivity signals; `gate` keeps a candidate only if hard checks pass and validation signals do not regress. See `.maintenance/SKILLOPT-UPLIFT-PROTOCOL.md`. | `python3 tools/skillopt_gate.py snapshot --out /tmp/ajs-skillopt-baseline.json` |
 
 ## Monthly Quality Program
@@ -38,6 +38,7 @@ python3 tools/quality_scorecard.py --top 40 --show-skills
 python3 tools/root_entry_audit.py
 python3 tools/source_map_audit.py
 python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 40
+python3 tools/external_link_audit.py --cache-summary --json
 python3 tools/monthly_uplift_report.py --json --skip-clone --limit 20 --output /tmp/ajs-monthly-baseline.json
 python3 tools/monthly_uplift_report.py --check --handoff --limit 20
 python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20
@@ -77,12 +78,20 @@ and validation outcomes before committing the worklog. Run
 `python3 tools/monthly_uplift_report.py --check-worklog latest` after updating
 the dated worklog; `latest` and `current` automatically resolve to the newest
 `.maintenance/MONTHLY-UPLIFT-YYYY-MM-DD.md` file. Pass an explicit path when
-auditing an older monthly log. The check fails if the latest loop is missing
+auditing an older monthly log. After appending a new loop, add
+`--expect-latest-heading "### YYYY-MM-DD - Loop Title"` to prove the entry you
+just wrote is the newest dated section rather than being inserted before an
+older loop. Generated validation surfaces, including the full Markdown
+snapshot, compact handoff, publish plan, debt audit, and worklog template, print
+a copy-pastable strict heading command; if you rename the loop heading, update
+that command before treating the validation evidence as final. The check fails
+if the latest loop is missing
 core scope/result/validation markers, if template placeholders remain, or if
 the latest loop still contains planned-validation text such as an unchecked
 checklist or "scheduled for this loop", if the latest validation block is
-missing any shared next-loop command marker, or if the current next queue no
-longer names the loop-control status and the key next-loop regression gates.
+missing any shared next-loop command marker, if a strict latest-heading command
+does not match the actual newest heading, or if the current next queue no longer
+names the loop-control status and the key next-loop regression gates.
 The next-queue check tolerates Markdown line wrapping but still requires the
 handoff, latest worklog, full monthly snapshot, audit, scorecard, source-map,
 root-entry, fast/full `run_checks.py`, and whitespace gates to remain visible.
@@ -98,20 +107,28 @@ deltas are labelled as worktree-sensitive so they are not mistaken for durable
 content-debt movement.
 The JSON payload includes a `schema` object with the dashboard name, numeric
 version, contract label, required top-level fields, nested contract registry,
-and nested-contract fingerprint. Schema v19 requires the
-machine-readable `worktree_boundary`, `execution_bridge_tail`,
+and nested-contract fingerprint. Schema v25 requires the
+machine-readable `worktree_boundary`, `external_links`, `execution_bridge_tail`,
 `safe_content_queue`, `content_edit_policy`, `remaining_debt`,
 `next_batch_plan`, `publish_policy`, `goal_progress`, `completion_audit`,
 `handoff_manifest`, `skillopt_gate_plan`, and `current_next_queue` objects described below. `--check` rejects a missing or stale schema contract in full dashboard
 summaries, so saved monthly baselines remain explicit about the
 machine-readable surface they depend on.
+The JSON `external_links` object is advisory and report-only. It is generated
+from `external_link_audit.py --cache-summary --json`, so the monthly dashboard
+can expose checked, unchecked, actionable, inconclusive, current-cache-row, and
+orphaned-cache-row counts without making network requests during hard gates.
 The JSON `current_next_queue` object stores the live fragments that must remain
 visible in `.maintenance/MONTHLY-UPLIFT-*.md` under `Current Next Queue`.
 `--check-worklog latest` builds a lightweight live dashboard snapshot and
 rejects stale queue status, schema-fingerprint, execution-bridge-tail,
 safe-content-queue, owner-clearance, content-edit policy, remaining-debt,
 next-batch plan, local-publish policy status, command-plan counts, and the
-explicit quality-floor command before accepting the worklog. The v6 queue guard
+explicit quality-floor command before accepting the worklog. The v7 queue guard
+also checks the global `Current Next Queue` block itself for stale schema,
+queue, owner-clearance, and completion-audit contracts plus the live
+owner-clearance target fingerprint fragments, so later dated loop entries cannot
+accidentally mask stale top-level handoff prose. The v7 queue guard
 intentionally leaves dirty path counts, publish-policy fingerprints, and
 handoff-manifest fingerprints to the dedicated worktree-boundary, publish-plan,
 and handoff checks, so committed clean checkouts and pre-publish local diffs can
@@ -121,30 +138,40 @@ keep the mode-stable fragments and leave those clone-derived fingerprints to
 the final full gate. The worklog check uses the canonical 20-row monthly display
 context even when the caller omits `--limit`, so direct checks and
 `tools/run_checks.py` enforce the same handoff fragments. The same guard also
-requires the SkillOpt snapshot and gate commands to remain visible when
-`skillopt_gate_plan` is present, so future skill-body loops keep a copy-pastable
-baseline-before-edit path. `--self-test` includes paired full-clone and
-skip-clone fixtures for this boundary, next-batch and command-plan visibility
+requires labeled SkillOpt snapshot, gate, and final fast hard-gate command
+fragments to remain visible when `skillopt_gate_plan` is present, so future
+skill-body loops keep a copy-pastable baseline-before-edit path with the
+closing check attached instead of satisfying the guard through a generic
+regression-gate mention.
+Rendered validation surfaces include the live Current Next Queue fragments
+where applicable plus the strict latest-heading command, so the next loop can
+copy the machine-checked handoff without reconstructing those contract lines by
+hand.
+`--self-test` includes paired full-clone and skip-clone fixtures for this
+boundary, SkillOpt command coverage, strict latest-heading command fixtures,
+next-batch and command-plan visibility fixtures, stale-global-section masking
 fixtures, and a volatility fixture that proves worktree/publish/handoff
-fingerprint drift does not change the v6 queue.
+fingerprint drift does not change the v7 queue.
 The `execution_bridge_tail` object classifies the remaining empirical-depth
 bridge gap as `complete`, `unclaimed-candidates`, `owner-clearance-required`,
 or `monitoring`, includes the recommended action, records whether that action
 is scoped to unclaimed rows only, and carries a blocked recommendation when
-claim-sensitive bridge rows must remain owner-clearance gated. It carries a
-fingerprint that goal-progress, completion-audit, and handoff-manifest
-snapshots repeat.
+claim-sensitive bridge rows must remain owner-clearance gated. The v3 contract
+also records a `claim_sensitive_policy`, whether wiring is allowed now, whether
+owner clearance is required before wiring, plus explicit safe-to-wire and
+blocked owner-clearance pack lists. It carries a fingerprint that
+goal-progress, completion-audit, and handoff-manifest snapshots repeat.
 The `safe_content_queue` object classifies the currently unclaimed score,
 source-map, and execution-bridge candidates after claims and dirty-pack
 filtering, records scorecard-ceiling packs separately from actionable score
 debt, records the recommended next action, and carries a fingerprint that
 goal-progress, completion-audit, and handoff-manifest snapshots repeat.
 The `skillopt_gate_plan` object records whether dirty skill-body lanes are
-currently present and always carries the canonical `skillopt_gate.py snapshot`
-and `gate` commands required before the next bounded skill edit. Root/tooling
-loops may skip the gate when they do not edit skill bodies, but the dashboard
-keeps the baseline/gate handoff explicit so `as applicable` does not become an
-untracked judgment call.
+currently present and always carries the canonical `skillopt_gate.py snapshot`,
+`gate`, and final fast hard-gate commands required before the next bounded skill
+edit. Root/tooling loops may skip the gate when they do not edit skill bodies,
+but the dashboard keeps the baseline/gate/final-gate handoff explicit in the
+summary line so `as applicable` does not become an untracked judgment call.
 The full Markdown snapshot and compact handoff both print the shared next-loop
 validation command block, including the read-only publish plan, latest worklog
 check, the fast hard gate, the full `run_checks.py` report phase, and
@@ -155,15 +182,23 @@ execution-bridge target type; treat those rows as blocked from content edits
 until the owning lane clears them. Long owner-clearance groups are capped in
 the compact views and marked with a `+N more` suffix so a truncated display is
 not mistaken for the full blocked target set. The JSON snapshot also includes
-an `owner_clearance_queue` object with a small contract label, total target
-count, fingerprint, and per-target-type totals, displayed rows, omitted counts,
-and truncation flags; `--check` validates that this structure still matches the
-live claims-derived target counts and displayed pack/reason rows. The dashboard also reports
-the execution-bridge tail separately when remaining bridge gaps require owner
-clearance, including mixed tails where unclaimed rows may be wired but
-claim-sensitive rows must stay blocked. The blocked pack names and
-claims-derived reasons appear in the next-batch guidance, compact handoff, and
-worklog template. It also reports
+an `owner_clearance_queue` object with a contract label, total target count,
+fingerprint, and per-target-type totals. The v2 queue stores the complete
+claims-derived `targets` rows plus a per-kind `target_fingerprint`, while
+compact Markdown views still render only the displayed subset, omitted counts,
+and truncation flags. `--check` validates both the displayed rows and the
+complete target rows, so hidden owner-clearance drift cannot be masked behind a
+stable `+N more` suffix. Compact handoff, Markdown, debt, goal, and worklog
+views also print the per-kind owner-clearance `target_fingerprint` values, and
+the Current Next Queue pins that line so target-hash drift remains part of the
+next-loop contract. The completion audit also carries those per-kind target
+fingerprints, and Current Next Queue v7 pins the completion-audit rendering of
+the same targets, so goal-completion evidence cannot hide owner-clearance
+target drift behind the aggregate queue hash. The dashboard also reports the execution-bridge tail
+separately when remaining bridge gaps require owner clearance, including mixed
+tails where unclaimed rows may be wired but claim-sensitive rows must stay
+blocked. The blocked pack names and claims-derived reasons appear in the
+next-batch guidance, compact handoff, and worklog template. It also reports
 the `.maintenance/CLAIMS.md` source boundary with parsed row counts, active-row
 counts, line count, and a short SHA-256 fingerprint. Treat a missing or
 unparseable claims file as a review blocker because content candidates cannot
@@ -223,7 +258,7 @@ templates render the same publish-unit split; `--check` rejects it if it
 drifts from the dirty-boundary data. The worklog checker also requires the
 `Current Next Queue` section to keep a `Local publish-unit split:` note with
 the owner-review state, so future loops preserve the publish boundary rather
-than only recording metric snapshots. The Current Next Queue v6 guard treats
+than only recording metric snapshots. The Current Next Queue v7 guard treats
 that note as a policy reminder, not as a strict dirty path count: committed
 clean checkouts and pre-publish local diffs should both keep validating against
 the durable next-lane guidance.
@@ -241,7 +276,9 @@ Use `python3 tools/monthly_uplift_report.py --check --publish-plan --limit 20`
 when a future publish request needs a read-only staging plan. The plan repeats
 the local-only policy, allowed `root_tooling` unit, blocked `pack_content` unit,
 exact root/tooling staging command, root/tooling paths, dirty pack-content
-lanes, and required pre-publish checks. It does not execute git commands.
+lanes, owner-clearance queue summary, per-kind owner-clearance target
+fingerprints, and required pre-publish checks. It does not execute git
+commands.
 The JSON `goal_progress` object turns the active month-long objective into an
 evidence surface without marking it complete: worklog status and loop count,
 score-floor status, source-map warning status, root-card status, clone-audit
@@ -253,8 +290,9 @@ completion or publish claim.
 Use `python3 tools/monthly_uplift_report.py --check --goal-audit --limit 20`
 for a read-only completion audit. It renders the current decision as
 `not-complete`, lists each goal requirement with status and evidence, reports
-remaining blockers such as owner-clearance-gated debt, and explicitly states
-that it does not change goal status.
+remaining blockers such as owner-clearance-gated debt, includes the shared
+validation command block with the strict latest-heading command, and explicitly
+states that it does not change goal status.
 The JSON `completion_audit` object backs the same renderer with a structured
 contract: completion status, goal status action, requirement rows, status
 counts, blocker list, clone-gate/owner-clearance flags, bridge-gap count,
@@ -263,10 +301,12 @@ owner-clearance queue total and fingerprint, reason text, and a fingerprint.
 The requirements include distinct SkillOpt gate discipline, remaining-debt
 register, and owner-clearance queue rows so unclaimed, owner-clearance-gated,
 dirty-lane, and baseline-before-skill-edit debt remains visible before any
-goal-close decision. Full Markdown, compact handoffs, and worklog templates
-render a one-line completion-audit summary; `--check` rejects stale requirement
-evidence or fingerprints so a future goal-close decision cannot quietly drift
-away from the live dashboard state.
+goal-close decision. The SkillOpt requirement evidence repeats the final fast
+hard-gate command, matching the compact/full summary-line handoff. Full
+Markdown, compact handoffs, and worklog templates render a one-line
+completion-audit summary; `--check` rejects stale requirement evidence or
+fingerprints so a future goal-close decision cannot quietly drift away from the
+live dashboard state.
 The JSON `handoff_manifest` object folds its own manifest contract, the current
 schema contract, loop-control status, claims fingerprint, worklog loop count,
 worktree-boundary fingerprint, content-edit-policy fingerprint,
@@ -290,7 +330,7 @@ chooses the next lane from live evidence, while the latter proves the bounded
 edit is safe to hand off.
 The JSON summary exports the same plan as `measurement_commands` and
 `validation_commands`, plus a `command_plan` object with command counts and a
-short SHA-256 fingerprint. The current built-in plan has 6 measurement commands
+short SHA-256 fingerprint. The current built-in plan has 7 measurement commands
 and 12 validation commands, with `--publish-plan` included as the local-only
 pre-publish boundary check, `--goal-audit` included as the read-only
 completion-evidence check, `--debt-audit` included as the focused
