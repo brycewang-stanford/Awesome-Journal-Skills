@@ -53,28 +53,6 @@ Always run:
 git diff --check
 ```
 
-## Count-disciplined quality uplift lane
-
-When working on the 2026-06 monthly quality program, improve existing
-first-party packs before proposing inventory growth. Keep the canonical
-inventory stable unless an explicit expansion lane is approved:
-
-```bash
-python3 tools/audit_repo.py --counts
-python3 tools/quality_scorecard.py --top 40 --show-skills
-python3 tools/root_entry_audit.py
-python3 tools/source_map_audit.py
-python3 tools/clone_audit.py --threshold 0.75 --fail-threshold 0.90 --top 40
-python3 tools/run_checks.py --skip-reports
-git diff --check
-```
-
-Record batch evidence in `.maintenance/MONTHLY-UPLIFT-2026-06-20.md` and
-`.maintenance/PROGRESS.md`. A good batch raises the scorecard floor, closes
-root/source-map warnings with current sources, or differentiates clone-audit
-pairs with concrete venue routing; a bad batch merely pads prose, hides
-warnings, weakens thresholds, or adds low-quality counts.
-
 ## Journal-content quality bar
 
 - Use official journal pages first. If a fact cannot be verified, mark it

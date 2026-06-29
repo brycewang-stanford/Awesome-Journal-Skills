@@ -45,7 +45,3 @@ the checklist still translate.
   applied-methods literature (citations inline). They are method guidance, not
   venue policy — always cross-check venue-specific limits against each pack's
   `official-source-map.md`.
-
----
-*Part of the Agent-E quality & capability uplift program — see
-`.maintenance/AGENT-E-UPLIFT-PROGRAM.md`.*

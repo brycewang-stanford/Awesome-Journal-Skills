@@ -159,7 +159,5 @@ replication package.
    give the exact local command the user can run instead.
 
 ---
-*Part of the Agent-E quality & capability uplift program — see
-`.maintenance/AGENT-E-UPLIFT-PROGRAM.md`. Tool names reflect the StatsPAI / Stata MCP
-servers; confirm availability with `available_methods` at runtime, as the catalog
-evolves.*
+*Tool names reflect the StatsPAI / Stata MCP servers; confirm availability with
+`available_methods` at runtime, as the catalog evolves.*

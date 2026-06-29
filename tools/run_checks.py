@@ -55,34 +55,6 @@ def main(argv: list[str]) -> int:
 
     hard_checks = [
         ["python3", "-m", "py_compile", *python_tool_files()],
-        ["python3", "tools/monthly_uplift_report.py", "--self-test"],
-        ["python3", "tools/monthly_uplift_report.py", "--check-worklog", "latest", "--limit", "20"],
-        [
-            "python3",
-            "tools/monthly_uplift_report.py",
-            "--check-only",
-            "--limit",
-            "20",
-            "--skip-clone",
-        ],
-        [
-            "python3",
-            "tools/monthly_uplift_report.py",
-            "--surface-smoke",
-            "--limit",
-            "20",
-            "--skip-clone",
-        ],
-        [
-            "python3",
-            "tools/monthly_uplift_report.py",
-            "--check",
-            "--external-link-plan",
-            "--limit",
-            "20",
-            "--output",
-            "/tmp/ajs-monthly-external-link-plan.md",
-        ],
         ["python3", "tools/audit_repo.py"],
         ["python3", "tools/quality_scorecard.py", "--top", "15", "--min-score", "90"],
         [
