@@ -1952,6 +1952,8 @@ GitHub Actions 会运行同一套硬门槛检查。它会检查 canonical skill 
 
 ---
 
+- [Skill Hub](https://skill.442595.xyz/) — 5800+ curated AI Agent Skills for Claude Code, Codex, Cursor, Hermes & more across 22 categories.
+
 ## 📄 License
 
 MIT
