@@ -34,13 +34,20 @@
 
 ## Week 2（07-08 ~ 07-14）：自动实证证据链（核心差异化）
 
-- [ ] `showcase/` 目录：5 条端到端案例（DiD-Callaway–Sant'Anna、IV-弱工具稳健、
-      RDD-rdrobust、SCM-加州禁烟、DML），每条从研究问题 → detect_design →
-      preflight/recommend → 估计 → audit_result 稳健性 → 论文级表格，
-      全部为**真实 StatsPAI MCP 运行输出**（含 result 数字与审计清单），非伪代码。
-- [ ] 每条案例反向链接到使用它的 pack 与 `Research-Toolkit-Skills` 的
-      `rt-execution-bridge`，README 首屏加「看得见的自动实证」入口。
-- [ ] 把 showcase 纳入 `audit_repo.py` 清点（tripwire 更新）。
+- [x] `showcase/` 目录（2026-07-02 完成）：5 条端到端案例全部为真实 StatsPAI MCP
+      运行——SCM 加州禁烟（−18.19，三估计量一致）、交错 DiD Castle Doctrine
+      （+0.110，Honest DiD 过关）、IV Card 大学距离（0.132，AR/CLR/tF 弱 IV 面板）、
+      RDD 差额胜选（43.85，密度检验+安慰剂断点）、DML 教育回报（0.074，
+      含「函数形式 vs 内生性」方法边界示范）。数据全部为公开基准
+      （Abadie 面板 + Mixtape 复现数据）。
+- [x] 每条案例反向链接执行手册与 reviewer checklist；中英 README 首屏入口已挂
+      （2026-07-01）。
+- [ ] 把 showcase 纳入 `audit_repo.py` 清点（tripwire 更新）——待 Week 3 与
+      venue 索引一起做。
+- 附注：运行中累计发现 7 处 StatsPAI 上游缺陷（synth_time_placebo/synth_loo
+  年份类型强转、aggte/pretrends_test/dml_sensitivity 句柄不解析、
+  anderson_rubin_test 空载荷、rdplacebo 连接崩溃、list_replications 格式化错误），
+  已在各案例「运行备注」如实记录——回传修复排入 StatsPAI 仓库的工作队列。
 
 ## Week 3（07-15 ~ 07-21）：可发现性 + 中英对齐
 
