@@ -21,6 +21,18 @@ JIBS is distinctively **phenomenon-based**. Its Statement of Editorial Policy se
 3. **IB-theory gate.** State what new thing the field learns about *international* business — internationalization, the MNE, cross-cultural management, international strategy/finance/economics, or global political economy. A general management insight that happens to use foreign data is not enough.
 4. **Cross-national-variation gate.** Either your variation *is* cross-country, or you have a defensible reason a single-country study speaks to IB theory (e.g., it tests a boundary condition of an IB theory). Single-country convenience samples framed as "international" are a desk-reject risk.
 
+## Phenomenon stress test
+
+A question that clears the four gates on paper can still collapse in review. Force it through five prompts before locking it:
+
+1. **Actors and border.** Name who crosses (or is caught between) which borders — an MNE headquarters, a subsidiary, a migrant manager, a deal team. "Firms in a global economy" names nobody.
+2. **Whose puzzle.** Identify the decision-maker for whom this is a live problem — an HQ choosing governance for a distant subsidiary, a policymaker weighing FDI screening. If no practitioner or policymaker is confused, the "phenomenon" may be a literature artifact.
+3. **Why now.** Say what changed in the world (a de-globalization shock, a technology, a regulatory turn) that makes the question timely rather than timeless-generic.
+4. **Multidisciplinary reach.** JIBS's editorial policy is explicitly multidisciplinary and interdisciplinary; a topic that genuinely needs more than one discipline's toolkit strengthens fit, provided the payoff still lands in IB theory.
+5. **Dataset-first honesty.** If the true origin is "we have this cross-country dataset," run the gates in reverse: what phenomenon could this variation actually illuminate? A dataset-first start is fine privately; submitting one without a phenomenon is not.
+
+**Micro-rewrite.** Before: *"How does culture affect cross-border M&A performance?"* — no actor, no puzzle, culture as a black box. After: *"Why do acquirers with strong domestic integration records systematically underperform in high-institutional-distance hosts, despite paying for the same due diligence?"* — a named anomaly, a specific actor, and a country-dyad-level condition doing the theoretical work.
+
 ## Venue routing
 
 - **JIBS**: the contribution is to *IB* theory; country/culture is theorized, not controlled; AIB's official journal.

@@ -23,6 +23,10 @@ JAE uses **double anonymized** review. Prepare:
 - A separate **title page** with author names, affiliations, contact details, and acknowledgments.
 Check that headers, file properties, and "thank you" footnotes do not leak identity.
 
+## Editorial Manager upload walkthrough
+
+EM builds the review PDF from the files in the order you upload them, so sequence deliberately: (1) the anonymized manuscript (abstract, body, references, appendices, exhibits placed per Elsevier rules); (2) the separate title page carrying authors, affiliations, corresponding-author contact, acknowledgments, and declarations; (3) any online appendix meant for reviewers. After EM compiles, **open and read the generated review PDF end to end** — approving a garbled or identity-leaking build is the author's error. Verify that no author name survives in figure captions, appendix headers, tracked-changes remnants, or PDF bookmarks and document properties.
+
 ## Required packaging
 
 - **Highlights**: 2-5 bullet points, **max 125 characters each**.
@@ -31,6 +35,12 @@ Check that headers, file properties, and "thank you" footnotes do not leak ident
 - **References**: Elsevier author-date (Harvard) style; numbered sections (1, 1.1, 1.1.1).
 - **LaTeX** (optional): Elsevier `elsarticle.cls` with BibTeX; single-column native format.
 - A concise, factual **abstract** (purpose, principal results, major conclusions; stands alone; no references or uncommon abbreviations). Do not import a numeric abstract cap from third-party templates unless the current JAE guide states it.
+
+## Writing Highlights and choosing JEL codes
+
+- Draft each Highlight as a **finding plus its economic mechanism**, not a topic label: "Disclosure rises where proprietary costs fall; liquidity gains concentrate in opaque firms" beats "We study disclosure and liquidity." Count characters including spaces against the 125-character cap; verbs, not nouns, carry the bullet.
+- JEL codes tell the editor which economics conversation the paper joins: pair the accounting classification (M41) with the codes your mechanism actually lives in — contracting/capital-markets (G-family), information economics (D-family), or regulation (K/L-family) as the paper warrants. Three precise codes signal fit better than six generic ones.
+- Budget the fee before upload day: payment clears through Submission Start, and a stalled department-card or VAT approval silently stalls consideration of the paper.
 
 ## Length and data policy
 

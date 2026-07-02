@@ -41,6 +41,16 @@ State the **identifying assumption** in words (parallel trends, exclusion restri
 
 If the contribution is the model: state primitives and the information structure, solve for equilibrium, present comparative statics as testable propositions, and put proofs in an appendix. Keep assumptions economically interpretable.
 
+## Referee pre-mortem
+
+Before locking the design, answer the three questions an economics-trained JAE referee asks of every archival accounting paper:
+
+1. **Who chose the treatment?** If the firm chose it (a disclosure, a covenant, an accounting method), what makes the variation you exploit exogenous to the outcome?
+2. **What else moved at the same time?** Regulatory shocks bundle provisions; show that the mechanism-specific margin responds, not merely anything measured post-shock.
+3. **Would the estimate survive the firm's best response?** Anticipation, selection into treatment, and contract renegotiation can each reverse a naive estimate — state which applies to your setting and how the design absorbs it.
+
+If any answer takes more than three sentences, redesign before drafting.
+
 ## Execution bridge (StatsPAI / Stata MCP)
 
 For the **empirical / causal lane**, estimate and audit rather than only specify. Full

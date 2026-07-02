@@ -1,6 +1,6 @@
 ---
 name: cfe-literature-review
-description: Use when drafting or revising the literature-review section for a Journal-of-Finance-and-Economics manuscript, when the Chinese / English reference balance is off, or when canonical theory references are missing.
+description: Use when drafting or revising the literature-review section for a Journal-of-Finance-and-Economics (《财经研究》) manuscript. 使用时机：综述缺经典理论文献、中英文献配比失衡、写成罗列式而非对话式、"本文位置"段落空泛、或未与本刊近 3 年同主题文章对话时。Covers the three-layer structure（理论—实证—本文位置）、中英配比经验值、对话式改写对照、检索本刊近文的固定动作，以及综述向边际贡献段的衔接模板。
 ---
 
 # 财经研究文献综述（cfe-literature-review）
@@ -77,6 +77,23 @@ description: Use when drafting or revising the literature-review section for a J
 > 与《财经研究》近期发表的 XXX（作者，202X）一文相比，本文 ……
 
 **与本刊已发表文章对比**是审稿人的关注点——综述若不提近 3 年本刊同主题文章，会被视为"未充分对话"。
+
+### 检索本刊近文的固定动作
+
+- 到上海财经大学期刊社官网（`qks.sufe.edu.cn` 的 CJYJ 目录）或知网按主题词检索近 3 年本刊目录；
+- 至少通读 2–3 篇同主题近文的引言与机制部分，记下其数据、识别来源与结论方向；
+- 对话时写**差异**而非优劣——从数据覆盖、识别来源、机制层次三个维度择一展开即可；
+- 若本刊近 3 年确无同主题文章，改与栏目内相邻主题对话，并点明该主题在本刊尚属空白——这本身就是投本刊的理由之一。
+
+## "本文位置"段改写对照
+
+定位段是综述的落点，最忌"已有研究丰富但仍有不足"式虚写：
+
+> 改写前：综上所述，已有文献对该问题进行了丰富的研究，但仍存在一定不足，本文在此基础上进行了拓展。
+
+> 改写后：已有研究在两点上尚未达成一致：其一，该效应的方向在上市公司样本与全行业样本中相反；其二，机制证据多止步于相关性。本文利用政策推开的时点差异重新识别该效应，并把机制检验前移到"处理→机制变量"的因果链上；与《财经研究》近年刊发的同主题研究相比，本文样本从上市公司扩展到规模以上工业企业，结论可外推的企业范围明显扩大。
+
+判断标准：定位段的每个分句都应指向一个可检验的差异（样本、识别、机制），而不是形容词。
 
 ## 反模式
 

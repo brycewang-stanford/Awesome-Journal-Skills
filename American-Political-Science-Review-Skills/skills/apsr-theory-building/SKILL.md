@@ -42,6 +42,40 @@ Ask: *Could a scholar in another subfield import this mechanism/concept to their
 you have a discipline-level contribution. If the argument only works for your exact case, tighten it
 into a general logic or reframe (back to `apsr-topic-selection`).
 
+## The contribution paragraph, anatomized
+
+APSR papers earn the flagship slot with one of a few recognizable contribution shapes. Decide which
+yours is and say so in the paragraph that closes the introduction:
+
+1. **A new concept** — a distinction the field lacked, defined against its nearest neighbors, with
+   criteria for recognizing instances. The test: can two coders apply it to new cases and agree?
+2. **A new mechanism** — a causal pathway that existing accounts skip, with the actors, incentives,
+   and observable traces spelled out.
+3. **A unification** — two literatures that talk past each other shown to be special cases of one
+   logic. Name both literatures and state what the shared logic predicts that neither did alone.
+4. **A revision** — received wisdom shown wrong or bounded. State the received claim fairly, the
+   condition under which it fails, and what replaces it there.
+
+### Before → after: from finding to argument
+
+- *Before:* "We find that decentralization reduces clientelism in our sample."
+  *After:* "Decentralization reduces clientelism only where local media can price broker services —
+  a scope condition that explains why prior studies split, and that any theory tying institutional
+  reform to accountability must now carry."
+
+## Decoding the "atheoretical" referee report
+
+When an APSR reviewer writes "atheoretical," "ad hoc," or "under-theorized," it usually means one of
+three repairable gaps — diagnose before rewriting everything:
+
+- **Mechanism gap** — the paper shows *that*, never *why*. Repair: add the actor-level story and one
+  test that would fail if the story were wrong.
+- **Stakes gap** — the theory exists but stays inside the case. Repair: run the portability test
+  above and rewrite the contribution paragraph around who else can use the logic.
+- **Derivation gap** — hypotheses appear from nowhere. Repair: show each hypothesis falling out of
+  the mechanism, and flag any that are exploratory rather than derived (preregistration makes this
+  distinction legible — see `apsr-transparency-and-data-policy`).
+
 ## Anti-patterns
 
 - "Hypothesizing after results are known" (HARKing) — state theory before tests; preregister where possible

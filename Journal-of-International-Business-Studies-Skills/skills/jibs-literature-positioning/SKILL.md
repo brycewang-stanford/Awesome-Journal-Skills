@@ -30,6 +30,23 @@ Situate the work inside a recognizable, ongoing IB debate — for example:
 
 Name the conversation, the camps, and where your study intervenes.
 
+## Before → after: problematizing an IB opening
+
+- **Before (gap-spotting):** *"Despite growing interest in emerging-market multinationals, little research has examined their entry choices in developed markets."*
+- **After (problematized):** *"Springboard reasoning predicts that emerging-market MNEs enter developed markets through aggressive acquisitions to compensate for latecomer disadvantage; yet the phenomenon motivating this paper — repeated minority-stake and alliance entries by the same firms — points the other way. Either the compensating logic is bounded by host-country institutional scrutiny, or the theory mis-specifies what these firms are compensating for."*
+
+What changed: a named IB theory, its concrete prediction, an observed anomaly, and two rival resolutions — giving reviewers a genuine intellectual stake rather than an empty cell. Every JIBS front end should be reducible to that four-part sentence.
+
+## Citation architecture for the front end
+
+Structure the reference base in three deliberate strands:
+
+1. **The IB conversation strand** — the foundational statement of the debate plus its current JIBS-published frontier, so the delta is measured against where the field is now, not the founding article alone.
+2. **The phenomenon strand** — because JIBS is multidisciplinary and interdisciplinary by editorial policy, sources from economics, political science, sociology, or psychology are legitimate when the cross-border phenomenon crosses disciplines; use them to establish the puzzle, not to substitute for IB theory.
+3. **The standards strand** — the "From the Editors" methods editorials your design answers to, engaged in the methods section and foreshadowed where positioning makes a measurement or identification promise.
+
+Ratio discipline matters: reviewers infer the intended audience from the reference list. A front end dominated by general-management citations tells the area editor the paper's conversation lives elsewhere.
+
 ## Engage the JIBS canon and route adjacent literatures
 
 JIBS papers are expected to cite the field's foundational and current IB work, including relevant JIBS articles and the journal's editorial canon. Engage the **AIB Research Methods SIG "From the Editors" editorials** where they bear on your design choices, and treat country/culture-as-level as a positioning commitment, not an afterthought. Distinguish your contribution from adjacent venues (JWB, MIR, GSJ, IBR) so the editor sees why this belongs at JIBS specifically.

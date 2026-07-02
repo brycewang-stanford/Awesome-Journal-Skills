@@ -1,6 +1,6 @@
 ---
 name: cfe-submission
-description: Use when running the final pre-submission preflight for 《财经研究》 — format, word count, double-blind, references, anti-plagiarism, author info, and supplementary files.
+description: Use when running the final pre-submission preflight for 《财经研究》 (Journal of Finance and Economics) — format, word count, double-blind, references, anti-plagiarism, author info, and supplementary files.
 ---
 
 # 投稿前 Preflight（cfe-submission）

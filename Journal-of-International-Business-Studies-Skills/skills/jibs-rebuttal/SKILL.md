@@ -35,6 +35,24 @@ The **area editor's letter is the priority map.** Group reviewer comments under 
 - Be respectful and concrete; where you disagree, give evidence, not assertion, and offer an alternative.
 - Provide a brief summary memo of the major changes at the top, and ensure the revised manuscript still fits the **inclusive** word limit.
 
+## Response-craft micro-rewrites (before → after)
+
+The moves a JIBS response letter lives or dies on, in weak and strong form:
+
+- **Invariance demand.** Before: *"We thank Reviewer 2 and now acknowledge measurement equivalence in the limitations."* After: *"Multi-group CFA across all sampled countries shows metric invariance holds; scalar fails for two items, so we re-estimated under partial invariance (new Table 4) and flag which country-mean comparisons remain defensible (p. 18)."* The first defers the work; the second delivers it and names where it lives.
+- **Endogeneity demand.** Before: *"Endogeneity is unlikely given our extensive controls."* After: *"Following the dynamic-endogeneity editorial the reviewer cites, we re-estimated with system GMM (collapsed instruments; Hansen and AR(2) diagnostics in Table 5) and discuss the exclusion logic in Section 4.3."* Never argue controls where the canon prescribes identification.
+- **"Incremental" verdict.** Before: *"We respectfully believe our contribution is substantial."* After: *"The reviewer is right that the prior draft read as a country replication. The rewritten contribution paragraphs (pp. 3, 29) state what the springboard account now predicts differently, and why a single-country design could not show it."* Concede the reading, then fix the framing — not the reviewer.
+
+## Multi-round discipline
+
+JIBS revisions commonly run more than one round; protect your credibility across rounds:
+
+- Open round 2+ with a **delta memo**: what the area editor asked after round 1, what changed since, and what was deliberately left untouched (with reasons).
+- Do **not** reframe the phenomenon, swap the IB lens, or introduce new hypotheses between rounds unless the editor requested it — round-2 drift reads as an unstable paper.
+- If a requested analysis **overturns** a round-1 result, disclose it prominently in the memo and revise the contribution claim to match; burying a changed sign in a table note is a trust-killer at a journal that curates its own methods canon.
+- When reviewers from different IB subfields pull opposite directions (richer context vs. tighter identification), propose a scoped split to the area editor: main text carries the identification, online appendix the contextual depth — and say so in both response threads.
+- When cutting to stay inside the inclusive word budget, tell the editor what moved to the online appendix and confirm nothing load-bearing left the main text.
+
 ## Output format
 
 ```

@@ -28,6 +28,27 @@ JIBS reviews are demanding on a recognizable set of IB-specific points:
 - **Endogeneity / dynamic endogeneity** — especially for internationalization-as-process designs.
 - **The methods-editorial canon.** The ~28 AIB Research Methods SIG "From the Editors" editorials (2008–2022) on endogeneity, multilevel models, interactions, QCA, replication, CMV, and p-values function as de facto standards; reviewers cite them by name.
 
+## Reviewer archetypes on a JIBS panel
+
+Because the area editor staffs the panel from the manuscript's IB conversation, expect a mix of archetypes that pull in different directions:
+
+- **The phenomenon guardian** asks whether a real cross-border puzzle drives the paper or whether "international" is decoration on a domestic design. Satisfy this reviewer in the introduction, not the response letter.
+- **The methods-canon enforcer** benchmarks the analysis against the "From the Editors" editorials — often citing one by name — on invariance, CMV, multilevel structure, or (dynamic) endogeneity. This reviewer is satisfied only by executed analysis that follows the cited editorial's remedy.
+- **The subfield specialist** knows the specific IB debate (entry modes, EMNEs, HQ–subsidiary, cross-cultural teams) and checks whether you engaged its current state or a dated caricature of it.
+
+A revision that satisfies one archetype with rhetoric aimed at another stalls; map each comment to its archetype before planning the response.
+
+## Translating recurring decision-letter phrases
+
+| Phrase in the letter | What it usually signals at JIBS | Route to |
+|---|---|---|
+| "This could have been conducted in a single country" | Phenomenon/level failure — country is a setting, not a level | jibs-topic-selection, jibs-contribution-framing |
+| "The contribution is incremental" | Non-incrementality bar unmet; replication-in-a-new-context reading | jibs-contribution-framing |
+| "Please consult the From the Editors piece on ..." | Compliance with that editorial is a condition, not a suggestion | jibs-data-analysis |
+| "Country differences cannot be interpreted without equivalence evidence" | Invariance is gating your theory claim, not just your tables | jibs-data-analysis |
+| "The constructs appear to share a common source" | CMV suspicion; expect a validity-checks-and-resubmit path | jibs-methods, jibs-data-analysis |
+| "The framing overstates generality" | Scope must match the sampled country set | jibs-contribution-framing |
+
 ## Reading a JIBS decision letter
 
 - **Reject / desk-reject:** usually a fit, phenomenon, or fundamental-identification problem; re-target (JWB/MIR/IBR) or rebuild.

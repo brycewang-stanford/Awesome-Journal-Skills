@@ -1,6 +1,6 @@
 ---
 name: cfe-style
-description: Use when polishing the language and rhetoric of a 《财经研究》 manuscript — eliminating empty-significance phrases, fixing vague policy talk, replacing method-flexing with mechanism, and aligning tense / person / hedging with CSSCI house style.
+description: Use when polishing the language and rhetoric of a 《财经研究》 (Journal of Finance and Economics) manuscript — eliminating empty-significance phrases, fixing vague policy talk, replacing method-flexing with mechanism, and aligning tense / person / hedging with CSSCI house style.
 ---
 
 # 语言风格（cfe-style）

@@ -30,6 +30,19 @@ Your job is to derive a **directional, falsifiable prediction** from one of thes
 3. **Derive the prediction.** Show how the friction plus incentives imply a sign on the relation; predictions are *a priori*, not reverse-engineered from the data.
 4. **Specify cross-sectional variation.** JAE prizes partitioning tests: the effect should be stronger where the friction is more severe (e.g., higher information asymmetry, tighter covenants, weaker governance) — this is your sharpest evidence of mechanism.
 
+## Micro-rewrite: from association to economic hypothesis
+
+- **Before**: "H1: Accounting conservatism is positively associated with debt financing." — a sign with no agents, no friction, and no way to distinguish an equilibrium from a coincidence.
+- **After**: "Creditors hold payoffs concave in firm value and cannot observe managerial actions, so they price protection they cannot fully contract on; timely loss recognition substitutes for costly direct monitoring. H1: After a shock that raises creditor monitoring demand, borrowers increase conditional conservatism, and the increase concentrates in firms with the least covenant slack." — the friction (asymmetric payoffs plus unobservable actions), the actors (creditors and borrowers), an a priori sign, and the mechanism partition are on the table before any regression runs.
+
+## Opportunism vs. efficient contracting: pick a side
+
+Positive-accounting predictions come in two flavors that JAE referees will force apart: **opportunism** (managers exploit reporting discretion for bonus, covenant, or political reasons) and **efficient contracting** (the same accounting choice minimizes contracting costs ex ante, anticipated and priced by counterparties). Both often predict the same first-order sign; they separate in the cross-section and in consequences — pricing penalties, contract redesign, turnover follow opportunism, not efficiency. Declare which interpretation your evidence supports and build at least one test that could tell them apart; a paper that never confronts the efficiency alternative reads as half a theory at this venue.
+
+## A hypothesis table before the data
+
+Keep a one-row discipline per hypothesis: friction → actors → predicted sign → cross-sectional partition → rival explanation it excludes. A blank cell means the hypothesis is not yet derived; two hypotheses sharing every cell are one hypothesis.
+
 ## Analytical vs. archival theory
 
 JAE publishes both economics-style **analytical models** (clean assumptions, propositions, proofs in an appendix) and **archival** papers whose theory is cited rather than modeled. If your contribution is the model itself, develop it formally; if the contribution is empirical, ground the hypotheses in existing economic theory and reserve formal modeling for the appendix.

@@ -1,6 +1,6 @@
 ---
 name: cfe-mechanism
-description: Use when designing or writing mechanism analyses for a Journal-of-Finance-and-Economics empirical manuscript. Mechanism tests are near-mandatory for empirical submissions.
+description: Use when designing or writing mechanism analyses for a Journal-of-Finance-and-Economics (《财经研究》) empirical manuscript — mechanism tests are near-mandatory for the journal's empirical submissions. 使用时机：主回归已稳健但机制缺位、中介效应只跑了 Sobel 检验、审稿人追问"为什么会有这个效应"、或机制小节需要按本刊惯例独立成节并排除竞争性解释时。Covers 路径 A/B/C 的选择、时间一致性与可证伪性三原则、机制表呈现惯例与解读句改写。
 ---
 
 # 机制分析（cfe-mechanism）
@@ -58,6 +58,23 @@ description: Use when designing or writing mechanism analyses for a Journal-of-F
 - 金融：信贷可得性、风险承担、市场流动性
 
 （举例供启发，具体机制须由本文理论框架推导，并非套用。）
+
+## 本刊机制小节的呈现惯例
+
+本刊实证论文通常把机制独立成节（常见标题如"影响机制分析 / 机制检验 / 作用机制"），置于基准回归与稳健性检验之后。行文与出表的惯例：
+
+- 每个机制一小节：先一段理论推演（可回引前文假说），再一张表，再一段解读，不把两个机制混在一张表里挤着讲；
+- 机制表把被解释变量换成机制变量 M 时，**控制变量组与固定效应设定与主回归保持一致**，并在表注中说明；
+- 机制小节收尾加一段**竞争性解释排除**：点名 1–2 个最可能的替代渠道，说明本文证据（时间路径、异质性方向或安慰剂结果）为何与其不符；
+- 机制结论与异质性分析互为印证——机制若定位到融资约束，异质性就应在融资约束强的子样本中看到更大效应，两节交叉引用。
+
+### 机制解读句改写对照
+
+> 改写前：表 X 结果显著，说明该机制成立。
+
+> 改写后：表 X 第（2）列显示，政策使企业融资约束指数下降 X（约为样本均值的 X%），且下降在政策后第一年即出现；结合基准回归中投资效应的时间路径，融资约束的缓解在时序上先于投资扩张，与"减税—缓解融资约束—扩大投资"的链条一致，而与"需求扩张"渠道隐含的同步变动模式不符。
+
+解读句的合格线：报量级、报时序、点名被排除的替代渠道，三者至少占其二。
 
 ## 必查清单
 

@@ -29,6 +29,40 @@ the official page before relying on them.
 - **ORCID:** required for the **corresponding author** (submissions after 1 Jan 2019).
 - **Fee:** no submission fee and no APSA-membership requirement (verified 2026-06-22). Hybrid Cambridge journal; post-acceptance Gold OA APC is optional — Cambridge 2026 standard **£2,610 / US $3,655** plus tax (re-verify the current rate before submission).
 
+## Anonymization deep-audit (the failure that actually happens)
+
+Under double-anonymous review the manuscript file itself must not identify you. Beyond deleting the
+byline, sweep these known leak points:
+
+- **Self-citations.** Keep the citations (omitting them distorts the literature) but voice them in
+  the third person: *"as we demonstrated (Author 2021)"* → *"as Author (2021) demonstrates."* Avoid
+  a wall of "Anonymized (2021)" placeholders — a cluster of redactions identifies you almost as
+  reliably as a name.
+- **Acknowledgments, grant numbers, IRB protocol numbers** — move to the separate title page; an
+  IRB number is traceable to an institution.
+- **File metadata** — author fields, tracked-changes and comment names, PDF creator strings. Strip
+  in the source *and* re-check the compiled PDF.
+- **Links** — replication or preregistration URLs on a named account; use anonymized views until
+  acceptance.
+- **Prose tells** — "our earlier fieldwork," a dataset only one team possesses, thanks to a named
+  RA. Do one full read asking only: *could a reviewer in my subfield guess?*
+
+## Computing the word count
+
+Count the body **plus tables, figures, and printed footnotes** (captions and cell text included);
+**exclude** the reference list and online appendix; print the number on the **front page**. Leave a
+few hundred words of headroom — revisions grow papers, and an R&R should not burst the track's cap.
+
+## Submission-day sequence
+
+1. Freeze the manuscript; run the anonymization sweep above on the frozen file.
+2. Compile two files: anonymized manuscript + separate title page.
+3. Log in to Editorial Manager under the corresponding author's **ORCID-linked** account; choose
+   the track deliberately (caps and reviewer expectations differ by track).
+4. Enter metadata — title, ≤150-word abstract, keywords — matching the manuscript exactly.
+5. Proof what the system builds for reviewer view **before approving**: metadata stripped, no
+   title-page bleed-through, exhibits render.
+
 ## Preflight checklist
 
 ### Track & length

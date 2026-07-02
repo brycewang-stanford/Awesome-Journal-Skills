@@ -32,6 +32,14 @@ JAE runs an **invitation-only annual conference** (sponsored by The Wharton Scho
 - **Revise and resubmit (R&R)**: an invitation, not an acceptance; address every reviewer and editor point. First-round accepts are essentially unheard of.
 - Distinguish **editor** priorities (the framing/contribution and identification that must hold) from **reviewer** requests (specific tests) — the editor's letter is the binding guide.
 
+## Calibrate expectations without inventing numbers
+
+JAE does not publish fixed review timelines or acceptance rates, so do not plan around folklore figures. Editorial Manager's status display is the only reliable signal; resist status-inquiry emails until a status has sat unchanged for an unusually long stretch. What *is* durable: the suitability screen resolves much faster than full review, resubmissions carry no fee, and the editor's letter — not the referee reports — defines what a revision must accomplish.
+
+## Handling a desk outcome
+
+A desk-reject at JAE is a **fit verdict, not a quality verdict**: the editor is saying the economics-relevance bar or the venue's method profile was missed. If the letter offers an Article Transfer Service redirect, treat it as free routing information — accept only when the suggested Elsevier outlet genuinely matches the paper; otherwise reposition toward JAR, TAR, or RAST on your own terms using the fit tests in jae-topic-selection. Do not resubmit a lightly edited version: the decision is final and the editorial group is compact, so the same editor will likely see it again.
+
 ## Checklist
 
 - [ ] Confirmed the paper clears the economics-relevance bar (desk-reject risk understood)

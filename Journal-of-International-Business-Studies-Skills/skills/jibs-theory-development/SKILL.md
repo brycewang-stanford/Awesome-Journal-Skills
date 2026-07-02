@@ -25,9 +25,20 @@ JIBS's signature is that **country and culture are levels of analysis**. Strong 
 
 Ground the argument in a recognizable IB lens — internalization/transaction-cost, the OLI/eclectic paradigm, the Uppsala internationalization-process model, institutional theory (including institutional voids and distance), the resource-/knowledge-based view applied to the MNE, springboard/LLL perspectives for emerging-market MNEs, or cross-cultural value frameworks. Then state precisely how you extend, qualify, or challenge it. Borrowing a non-IB theory is welcome only if you show what it adds *to IB*.
 
+## Context as theory, not as setting
+
+The decisive JIBS distinction is between papers that merely *run in* a foreign context and papers whose theory *needs* the context. Apply two tests:
+
+- **Deletion test.** Delete every country and culture name from the theory section. If the argument survives intact, context is a setting — the paper is a general-management study wearing international data, and the theory section must be rebuilt so a contextual condition does causal work inside the mechanism.
+- **Substitution test.** Move the mechanism to a different country pair. If your theory cannot say *what would change and why*, the contextual variable is decorative. Strong JIBS theorizing specifies which institutional or cultural parameter the mechanism runs on, so substitution yields a prediction rather than a shrug.
+
+Passing both tests is what turns "context as evidence" into a contribution about how the international environment itself operates.
+
 ## Hypotheses
 
 Derive hypotheses *a priori* from the mechanism (not after seeing results). For internationalization-as-process arguments, be explicit that the relationship may be dynamic and path-dependent — this foreshadows the dynamic-endogeneity concern reviewers will raise in analysis. Each hypothesis should name the level, the direction, and the boundary condition.
+
+**Micro-rewrite (before → after).** Before: *"H1: Top-management-team international experience is positively related to firm internationalization."* — level-blind, mechanism-free, no IB content beyond the adjective. After: *"H1: The positive effect of TMT international experience (firm level) on internationalization speed weakens as home–host institutional distance (country-dyad level) increases, because experiential knowledge transfers poorly across dissimilar regulatory regimes."* The rewrite names both levels, carries the mechanism in the causal clause, and builds the boundary condition into the prediction itself.
 
 
 ## Operating pass for Journal of International Business Studies

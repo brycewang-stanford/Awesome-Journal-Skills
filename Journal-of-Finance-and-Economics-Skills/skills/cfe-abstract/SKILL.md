@@ -1,6 +1,6 @@
 ---
 name: cfe-abstract
-description: Use when drafting or revising the 中文摘要 or 英文 abstract for a 《财经研究》 manuscript. Enforces the five-sentence pattern and forbids empty-significance phrases.
+description: Use when drafting or revising the 中文摘要 or 英文 abstract for a 《财经研究》 (Journal of Finance and Economics) manuscript. 使用时机：摘要写成"提供了新视角"式套话、五句要素（中国现实问题、数据与识别、量化发现、机制异质性、贡献启示）缺句、中英文摘要语义不对齐、或投稿前发现摘要未出现核心数据与识别策略时。Enforces the five-sentence pattern, 逐句打磨对照, 关键词配套, and the empty-significance blacklist.
 ---
 
 # 摘要写作（cfe-abstract）
@@ -59,6 +59,31 @@ description: Use when drafting or revising the 中文摘要 or 英文 abstract f
 - ❌ "本研究有助于深化对 XX 的理解"
 
 凡是删掉之后摘要不损失信息量的句子，都要删掉。
+
+## 逐句打磨对照（第 3、5 句最易写坏）
+
+### 第 3 句（核心发现）
+
+> 改写前：研究发现，该政策对企业投资具有显著的促进作用。
+
+> 改写后：研究发现，该政策使企业投资率平均提高约 X 个百分点，相当于样本均值的 X%，且效应在政策后第二年达到峰值。
+
+方向、量级、基准（占均值比例）、时间路径四个信息点至少给前三个；"显著促进"四个字只含一个。
+
+### 第 5 句（贡献与启示）
+
+> 改写前：本文的研究结论对完善相关政策具有重要的参考价值。
+
+> 改写后：本文证据表明减税的投资拉动效果取决于企业所处的融资环境，为差异化评估结构性减税的微观效果提供了依据。
+
+第 5 句必须能回答"这个发现改变了我们对什么的认识"；写不出来，说明第 3、4 句还没立住，先回去改前面。
+
+## 关键词与摘要的配套
+
+- 关键词数量与格式以官网投稿须知为准；候选词从摘要第 1、2、4 句中提取——现实问题词、政策 / 制度词、机制词各取其一；
+- 不把通用方法名（如"双重差分"）单独占一个关键词坑，除非方法本身构成贡献；
+- 关键词之间不重复、不互为上下位词（"减税"与"减税政策"只留一个）；
+- 中英文关键词一一对应，顺序一致。
 
 ## 输出格式
 

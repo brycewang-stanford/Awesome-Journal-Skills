@@ -40,6 +40,44 @@ acceptance does not stall.
   application, provider contact).
 - Where possible, **provide synthetic data** resembling the unavailable data so the code can be run.
 
+## Package skeleton (what the verifiers should find)
+
+```
+apsr-repro/
+├── README.md            # provenance, environment, run instructions, exhibit map
+├── run_all.{R,do,sh}    # one entry point → every table and figure
+├── data/
+│   ├── raw/             # as obtained (or access instructions if restricted)
+│   └── constructed/     # built by scripts, never by hand
+├── code/
+│   ├── 01_build.*       # raw → analysis data
+│   ├── 02_analysis.*    # estimates
+│   └── 03_exhibits.*    # writes output/Table1.tex, output/Figure2.pdf, ...
+└── output/              # regenerated exhibits, named to match the manuscript
+```
+
+The README's **exhibit map** — "Table 1 ← code/03_exhibits.* lines …; runtime ~N minutes" — is what
+lets the editorial office verify quickly instead of bouncing the package back.
+
+## Verification dry run (before conditional acceptance, not after)
+
+1. Clone the package to a **fresh directory or machine** — not your working tree.
+2. Run only what the README says. Any manual step you perform but did not write down is a defect.
+3. Diff every regenerated exhibit against the manuscript: numbers, rounding, N's, note text.
+4. Record total runtime in the README; flag any step needing > a few hours or special hardware.
+5. Have a coauthor or colleague repeat steps 1–3 cold. If they ask you a single question, the
+   answer belongs in the README.
+
+## Preregistration discipline (APSR-specific)
+
+Preregistration and pre-analysis plans are **encouraged, not required** — but if you reference one:
+
+- Share it **anonymized** (as an appendix or via an anonymized OSF view) so double-anonymous review
+  survives; a PAP with your name on it defeats the anonymization you did everywhere else.
+- **Mark registered vs. unregistered analyses clearly** in the text — this is the stated
+  expectation, and it converts "exploratory" from a weakness into a labeled category.
+- Keep a **deviations note**: every departure from the plan, with the reason, in the appendix.
+
 ## Build-as-you-go checklist
 
 - [ ] One **master script** regenerates **every** table and figure from raw/constructed data

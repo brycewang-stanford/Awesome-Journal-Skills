@@ -27,6 +27,38 @@ discipline and respecting the format — not about generating claims.
    without saying what they show and why it matters.
 4. **Signpost.** Clear section structure so a reader can navigate the argument.
 
+## The flagship register: write for four subfields at once
+
+APSR's readership spans Americanists, comparativists, IR scholars, and political theorists — and
+the reviewer set will likely cross those lines. A sentence that is efficient shorthand inside one
+subfield is a stall for the other three. Concrete moves:
+
+- **Translate the stakes once.** After stating the question in subfield terms, add one sentence
+  recasting it as a general problem of politics — representation, accountability, coalition
+  formation, legitimacy, institutional change. That sentence is what an outside-subfield reviewer
+  quotes back to justify sending the paper out.
+- **Name the political object, not the dataset.** "Legislators facing re-election" travels;
+  "respondents in wave 4" does not.
+- **Let the prose carry the mechanism.** Empirical sections should read as the argument advancing,
+  not as output being narrated. Under an 11,000-word cap, any paragraph that could vanish without
+  weakening the argument belongs in the online appendix.
+
+### Before → after micro-rewrites
+
+- *Before:* "Using panel data and a TWFE design, we estimate a significant effect of X on Y."
+  *After:* "Where X expands, Y follows — across two decades of data and however we define exposure.
+  Y is the link most theories of accountability take for granted; we show when it breaks."
+- *Before:* "This paper contributes to the growing literature on Z."
+  *After:* "We show the standard account of Z gets the incentives backwards — which changes what
+  scholars of elections, regimes, and legislatures should each expect to observe."
+
+## The ≤150-word abstract, sentence by sentence
+
+Budget roughly five sentences: (1) the general question; (2) your argument in one clause; (3) the
+evidence and design, named plainly; (4) the headline finding with its direction; (5) why the
+discipline should care. Cut hedges first, then estimator detail — the desk screen reads the
+abstract before anyone reads the methods section.
+
 ## Format to APSA style
 
 - **Citations**: author-date per the APSA Style Manual; keep one consistent style (manage with
@@ -43,6 +75,11 @@ discipline and respecting the format — not about generating claims.
   `apsr-literature-positioning`).
 - Tighten footnotes — they count toward the limit.
 - Prefer one decisive figure to three redundant tables.
+- **Cut in this order** when over the cap: (1) robustness prose that a one-line appendix pointer can
+  replace; (2) literature paragraphs that survey rather than adjudicate; (3) footnotes restating
+  the text; (4) hedging repeated across sections. If after all four passes the paper still cannot
+  fit under 11,000 words, ask whether it is two papers — or whether the tight version is really a
+  Research Note (< 7,000).
 
 ## Anti-patterns
 
