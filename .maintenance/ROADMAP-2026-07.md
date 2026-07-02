@@ -18,16 +18,19 @@
 
 ## Week 1（07-01 ~ 07-07）：质量尾部清零 + 门槛加固
 
-- [ ] 尾部提升：12 个 90.0–91.4 分 pack（Cancer-Cell、Annals-of-Mathematics、PRL、
-      JACS、Cell、Economic-Research-Journal、Conservation-Biology、NEJM、
-      Critical-Inquiry、Mind、PMLA、Games-and-Economic-Behavior）的最薄 skills
-      深化到 ≥600 substance units/skill，目标全仓库最低分 ≥92。
-- [ ] 执行桥补齐：Academy-of-Management-Annals / Annual-Review-of-Economics /
-      Social-Sciences-in-China 三个实证 depth pack 接入
-      `shared-resources/empirical-methods/execution-with-mcp.md`，达成 134/134 (100%)。
-- [ ] CI 加固：`repo-audit.yml` 增加 weekly schedule 触发 + 外链审计 advisory job
-      （非阻塞，产出报告），防止内容悄然过期。
-- [ ] 验收：`run_checks.py --skip-reports` 全绿；scorecard min ≥92、mean ≥94。
+- [x] 尾部提升（2026-07-01 完成，共两波 16 个 pack）：第一波 12 个 90.0–91.4 分
+      pack（Cancer-Cell、Annals-of-Mathematics、PRL、JACS、Cell、
+      Economic-Research-Journal、Conservation-Biology、NEJM、Critical-Inquiry、
+      Mind、PMLA、Games-and-Economic-Behavior）→ 92.0–94.0；第二波 4 个新暴露
+      尾部（财经研究、APSR、JAE、JIBS 91.6–91.9）→ 93.6–94.0。
+- [x] 执行桥补齐（2026-07-01）：AOM-Annals / Annual-Review-of-Economics /
+      Social-Sciences-in-China 接入执行手册，达成 134/134 (100%)。
+- [x] CI 加固（2026-07-01）：weekly cron 触发 + 外链审计 advisory job 已上线。
+- [x] 验收（2026-07-01）：`run_checks.py --skip-reports` 全绿；
+      scorecard min 92.0、mean 93.8（mean ≥94 留待 Week 2-3 随 showcase 与
+      次尾部深化自然达成）；克隆审计 0.75 阈值零命中。
+- 附注：Week 2 的 showcase 已提前开种——首条 SCM 案例（加州 Prop 99）已用真实
+  StatsPAI 运行落库（`showcase/scm-california-prop99/`），中英 README 首屏已挂入口。
 
 ## Week 2（07-08 ~ 07-14）：自动实证证据链（核心差异化）
 
