@@ -65,6 +65,27 @@ description: Use when running the final pre-submission preflight for a Physical 
 - Submit through the APS editorial system; verify the current portal URL and account requirements on the PRL author page.
 - The automated length check runs at submission — fix overages *before* uploading (use `prl-length-management`).
 - Keep the SM as a distinct upload, not appended to the Letter PDF.
+- Review is single-blind with subject-area / divisional editor tracks; the classification you pick steers which desk triages the Letter.
+- Fees are no blocker under the subscription route: the page charge is optional, CC-BY open access carries an APC (~$2,700 — confirm live), and SCOAP3 covers eligible high-energy-physics Letters.
+
+## Night-before dry run
+
+Run this sequence the evening before, not at the upload screen:
+
+1. **Clean compile.** Build the REVTeX source from scratch in a fresh directory to catch machine-local dependencies.
+2. **Length estimate.** Apply the current APS formula — body, figures by printed area, equations, references — and leave a margin below the limit.
+3. **Pointer audit.** Confirm every "Supplemental Material" mention maps to real SM content, and no S-prefixed item goes uncited.
+4. **Metadata dry-fill.** Draft the portal fields in a text file so the live session is transcription, not composition.
+5. **Freeze.** No content edits after the dry run; any change reopens the length check and pointer audit.
+
+## Desk-return triggers to eliminate
+
+| Trigger                                    | Why editors bounce it                |
+|--------------------------------------------|--------------------------------------|
+| Fails the automated length check           | Hard gate; no editorial discretion   |
+| Wrong article type (regular article)       | Routed off the Letter track entirely |
+| Abstract in portal differs from manuscript | Ambiguous record of submission       |
+| SM appended inside the Letter PDF          | Breaks separate-SM production        |
 
 ## Anti-patterns
 

@@ -55,11 +55,42 @@ submission → revision-and-rebuttal`
 
 Iterate: most papers loop design ↔ analysis ↔ relevance several times before writing-style.
 
+## Disambiguating the article type (common confusions)
+
+The first question decides the whole route, so resolve these edge cases before dispatching:
+
+- **Contributed Paper vs. Research Note** — if the study answers one focused question or reports a
+  preliminary result, route to Note and hold its scope tight; do not pad it toward the ~7,000-word
+  Contributed-Paper benchmark just to look complete.
+- **Contributed Paper vs. Essay** — if the contribution is a *forward-looking argument* grounded in
+  existing evidence rather than a new dataset, it is an Essay; send it to
+  `conbio-conservation-relevance-and-implications` to sharpen the thesis.
+- **Contributed Paper vs. Conservation Practice and Policy** — an applied tool, management lesson, or
+  policy analysis fits Practice and Policy; lead with `conbio-study-design` plus relevance.
+- **Review vs. everything else** — only route to Review when the literature is well-developed enough to
+  synthesize; a thin literature is an Essay or an empirical paper, not a Review.
+
+Registered Reports (where offered) must be chosen while the design is still *prospective* — route to
+`conbio-review-process` early so Stage 1 can be submitted before data exist.
+
+## Reading the iteration loops
+
+The default order is a spine, not a straight line. Two loops recur and the router should expect them:
+
+- **Design ↔ analysis ↔ relevance** — if the analysis cannot support an actionable so-what, loop back to
+  `conbio-study-design` before writing, not after a reviewer flags it.
+- **Relevance ↔ topic-selection** — if the actionability sentence will not complete honestly, the fit
+  problem is upstream; re-open `conbio-topic-selection` rather than over-claiming in the Discussion.
+
+Only advance to `conbio-writing-style` once these loops have converged; polishing prose around an
+unresolved fit problem wastes the pass.
+
 ## Anti-patterns
 
 - Treating a sound-but-inconsequential study as publishable — the journal demands conservation relevance
 - Forcing every study into one statistical template (match design to the ecological question)
 - Padding a Research Note into a Contributed Paper, or vice versa
+- Polishing writing-style before the design ↔ relevance loop has converged
 - Leaving the data/code archive until acceptance instead of building it as you go
 
 

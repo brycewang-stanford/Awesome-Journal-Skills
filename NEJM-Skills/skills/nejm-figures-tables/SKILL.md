@@ -47,10 +47,24 @@ The flow diagram is mandatory for trials (see `nejm-reporting`): Enrollment → 
 - Each legend stands alone: what is shown, the groups, the statistic, n, and the error/CI definition.
 - De-identify any patient images; remove protected health information from all panels (see `nejm-ethics`).
 
+## Display-item budget and placement
+
+The ~2700-word Original Article format imposes a hard display-item budget. Main-paper slots go to what a clinician needs to judge the trial: Table 1, the primary-outcome figure (often Kaplan–Meier), the subgroup forest plot, and a safety table. Everything else moves to the **supplementary appendix** — which NEJM reviewers do read.
+
+- [ ] Every display item is cited in the text, in numerical order; an uncited item gets cut.
+- [ ] One message per figure — split or simplify a panel that needs a paragraph of caption.
+- [ ] Safety tables report **absolute event counts and rates per arm** (see `nejm-statistics`).
+
+## Worked micro-example — one Table 1 row (before → after)
+
+- Before (off-style): `Age, years | 63.4 | 62.9 | P=0.71`
+- After: `Age — yr, mean ±SD | 63.4±9.2 | 62.9±9.5` — the P column deleted; the unit riding in the row label. If balance must be summarized, a standardized-difference column replaces the P column — never both. (Values invented for illustration.)
+
 ## Output format
 
 ```
 【Table 1】 by group, n(%)/mean(SD)/median(IQR), NO baseline P values (standardized diffs ok)? yes/no
+【Budget】 main paper limited to decision-critical items; appendix items still cited in order? yes/no
 【Kaplan–Meier】 numbers-at-risk row present? HR+CI shown? censoring clear? yes/no
 【Forest plot】 subgroups pre-specified + interaction P? / meta heterogeneity reported? yes/no
 【CONSORT flow diagram】 present and reconciles with Table 1 + analysis n? yes/no

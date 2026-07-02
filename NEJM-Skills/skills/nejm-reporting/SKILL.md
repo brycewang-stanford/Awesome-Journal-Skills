@@ -1,6 +1,6 @@
 ---
 name: nejm-reporting
-description: Use to select and enforce the correct EQUATOR reporting guideline for a clinical study — CONSORT for RCTs (with the participant flow diagram), STROBE for observational, PRISMA for systematic reviews — and to build the required checklist and diagram before submission.
+description: Use to select and enforce the correct EQUATOR reporting guideline for a clinical study headed to NEJM — CONSORT for RCTs (with the participant flow diagram), STROBE for observational, PRISMA for systematic reviews — and to build the required checklist and diagram before submission.
 ---
 
 # Reporting Guidelines (nejm-reporting)
@@ -44,6 +44,23 @@ Numbers must reconcile with Table 1, the analysis populations, and the text. Mis
 - **RCT** → completed CONSORT checklist (item → page/line), the flow diagram, and confirmation that registration number, protocol, and SAP are present (see `nejm-study-design`).
 - **Observational** → completed STROBE checklist; define cohort entry, follow-up, and how confounders were handled.
 - **SR/MA** → completed PRISMA checklist, the selection flow diagram, the search strategy, and (ideally) a PROSPERO registration number.
+
+## Running the checklist so it survives revision
+
+Treat the completed checklist as a living index, not a one-time export:
+
+- Fill each item with a **page + line reference** plus a short quote that re-locates the item after re-pagination.
+- Mark "not applicable" only with a one-line justification; silent N/A rows read as unread items.
+- Re-run the page/line pass after every revision round; one author owns the checklist.
+
+### Worked micro-example — one checklist row (before → after)
+
+- Before (too thin): `Item 8a — Sequence generation: "Methods"`
+- After: `Item 8a — Sequence generation: p. 6, lines 112–115 — "randomization was performed centrally in permuted blocks, stratified by site"`
+
+## Reconciliation arithmetic (do it on paper)
+
+Force the sums across the four stages: assessed − excluded = randomized; randomized = the sum of the arms; each arm's allocated n − (lost + discontinued) traces to the analyzed n with every exclusion named, then check the same numbers against Table 1 headers and primary-outcome denominators. Fictional example: 1042 assessed − 562 excluded = 480 randomized = 241 + 239; if Table 1 shows 240 + 239, the missing participant must be explained in the diagram.
 
 
 ## Operating pass for New England Journal of Medicine

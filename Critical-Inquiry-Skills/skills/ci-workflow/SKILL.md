@@ -53,6 +53,26 @@ submission → revision-and-response`
 
 Iterate: most essays loop argument ↔ objects ↔ theory several times before the prose settles.
 
+## Symptom → route (when the stage is unclear)
+
+| Symptom in the draft | Actual problem | Route to |
+|----------------------|----------------|----------|
+| Sentences polished, paragraphs still reorderable | Structure, not prose | `ci-structure-and-exposition` |
+| Readers praise the readings yet ask "so what?" | No intervention yet | `ci-argument-and-intervention` |
+| Theory citations pile up while the claim stalls | Theory as décor | `ci-theory-and-method` |
+| Claim sounds right; nothing on the page earns it | Objects not testing it | `ci-evidence-and-objects` |
+| Word count blown though the body reads lean | Notes eating the cap | `ci-citation-and-style` |
+| Confident essay; only one subfield would care | Fit and framing | `ci-topic-selection` |
+
+## Two routing mistakes to catch early
+
+- **Format drift.** A Critical Response swelling past ~3,000 words is usually an Article trying to
+  happen — reroute it into the full pipeline; an "Article" whose real content is a quarrel with one
+  published CI piece should shrink into a Response.
+- **Late-stage gatekeeping.** Author-secured permissions, 300 ppi image files, and Chicago-note
+  discipline are pipeline stages, not submission-day chores; route image-heavy essays through
+  `ci-citation-and-style` early — rights can outlast a decision.
+
 ## Anti-patterns
 
 - Treating CI like a single-discipline journal — the intervention must travel across fields

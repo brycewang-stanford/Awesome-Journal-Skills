@@ -50,6 +50,28 @@ Change: [Section / page / line numbers where the revision appears].
 Open with a short **summary of the main changes** to the editor; group by referee; end each entry with
 the **location** of the change so the editor and referees can verify quickly.
 
+## Worked micro-example: one response entry
+
+- *Weak:* "We thank the referee for this insightful comment and have revised accordingly." — no tag,
+  no reason, no location; an expert referee reads this as evasion dressed up as courtesy.
+- *Strong:* "> The counterexample in §3 also refutes premise 2. — **Rebut**: the case trades on an
+  equivocation between propositional and doxastic justification; premise 2 concerns only the former.
+  We now flag the distinction where the premise is introduced. **Change**: §3.2, lines 214–228."
+
+The strong entry names its move, gives the philosophical reason, and cites the line numbers Mind
+requires on the manuscript — making verification fast for editor and referees.
+
+## Resubmission preflight
+
+- [ ] Editor's decisive objections answered first and flagged in the summary of changes
+- [ ] Every referee point quoted and tagged rebut / concede-and-limit / bite-the-bullet
+- [ ] No new self-identifying material introduced by the revision (added acknowledgements,
+      "as I argued elsewhere…") — the triple-anonymous preparation must survive the edit
+- [ ] Line numbering regenerated after revising, so locations cited in the response letter are accurate
+- [ ] Still within the ~8,000-word limit after additions — cut elsewhere rather than blow the cap
+- [ ] If unclear whether the resubmission interacts with the one-article-per-12-months rule, confirm
+      with the editorial office before uploading (需复核)
+
 ## Anti-patterns
 
 - Ignoring or quietly merging away an objection without a visible response

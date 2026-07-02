@@ -61,10 +61,45 @@ appropriate controls**. Match the data package to what you assert.
 - [ ] Stationary points characterized (frequencies; TS has one imaginary mode)
 - [ ] Optimized coordinates (xyz) deposited in SI; energies referenced consistently
 
+## The SI data string (write it once, correctly)
+
+Every isolated compound gets a characterization block in the SI in the standard
+ACS order. A well-formed entry looks like:
+
+```
+(2R)-2-Fluoro-4-phenylbutan-1-ol (3a). Colorless oil, 158 mg (94%). [α]D²⁵ = +12.4
+(c 1.0, CHCl₃). ¹H NMR (400 MHz, CDCl₃): δ 7.31–7.18 (m, 5H), 4.52 (dddd, J = 48.9,
+8.1, 4.3, 3.9 Hz, 1H), ... ¹³C{¹H} NMR (101 MHz, CDCl₃): δ 141.6, 128.5 (d,
+JCF = 5.2 Hz), ... ¹⁹F NMR (376 MHz, CDCl₃): δ −186.3. HRMS (ESI+) m/z: [M + Na]⁺
+calcd for C₁₀H₁₃FONa 191.0843; found 191.0841. 97:3 er (Chiralpak IA, 95:5
+hexanes/iPrOH, 1.0 mL/min, 210 nm; tR major 14.2 min, minor 16.8 min).
+```
+
+Audit each block for: mass **and** percentage yield, physical state, every
+nucleus relevant to the structure, coupling constants on diagnostic multiplets,
+calcd/found within instrument tolerance, and the full chiral method — not just
+the er value.
+
+## Referee rigor probes (pre-empt them)
+
+- "Compound **x** shows a peak at δ 1.56 — water or impurity?" → annotate
+  residual-solvent peaks in the SI spectra copies before a referee circles them.
+- "Yields are single runs?" → state replicate counts for headline entries; give
+  an average with the spread for the model reaction.
+- "Could adventitious metal catalyze this?" → for base-metal or 'metal-free'
+  claims, report reagent lot ICP data or a deliberate trace-metal spike control.
+- "The cycle shows Ni(I)/Ni(III) — where is the evidence?" → every oxidation
+  state drawn in a mechanism figure must trace to an EPR/UV-vis/electrochemical
+  or kinetic observation, or be labeled as proposed.
+
 ## Reproducibility test
 
 Could an independent chemist reproduce each yield, ee, and spectrum from the
 written procedure alone? If not, the procedure is incomplete — fix before figures.
+The strongest SI procedures also state how the compound was purified (column
+eluent, distillation T/p), on what scale the reaction was validated, and any
+setup detail on which the outcome hinges (drying of solvent, exclusion of light,
+stirring rate for biphasic mixtures).
 
 ## Anti-patterns
 

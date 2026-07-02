@@ -50,6 +50,28 @@ that close reading alone would miss." Then add the reciprocal sentence: "The tex
 by showing ___." PMLA theory work is strongest when the method and object change each other. If the
 second sentence is impossible, the frame may be ornamental rather than interpretive.
 
+## Defining terms for the membership (micro-example)
+
+*Before (name-drop):* "Read through [theorist]'s notion of the trace, the novel's endings become
+legible as sites of deferral."
+
+*After (concept put to work):* "By 'trace' [theorist] means [one-clause working definition, cited
+with page]. The concept matters here because the novel's three endings each preserve — in a dated
+preface, a cancelled chapter, a repeated phrase — the ending they replaced." Term defined at first
+use, source cited, textual work shown at once.
+
+## What PMLA's readers expect of a theoretical frame
+
+The essay goes to **at least two reviewers** from a membership spanning every period, language, and
+method; blind review means the frame cannot borrow authority from your name. Reports typically ask:
+
+- Is each **contested term defined at first use**, with the specific source cited?
+- Can a generalist **verify the resulting reading against the quoted text**, or must the school's
+  premises be taken on faith?
+- Is the apparatus **proportionate** to the 6,000–9,000-word budget?
+- For special-feature pieces (~3,500 words, 待核实): **one point, made timely** — not a compressed
+  regular article?
+
 ## Anti-patterns
 
 - Theory as label: applying a framework top-down with the conclusion presupposed

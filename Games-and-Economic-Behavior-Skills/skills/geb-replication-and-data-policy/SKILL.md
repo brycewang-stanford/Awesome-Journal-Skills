@@ -36,6 +36,30 @@ Even though it is optional, sharing well is good practice and pre-empts referee 
 - Deposit on a stable repository (Mendeley Data, Zenodo, or OSF) and cite it.
 - Disclose any **generative-AI** use in the dedicated declaration section (separate from data policy, but part of the same transparency package).
 
+## Why voluntary sharing still pays at GEB
+
+No mandate does not mean referees ignore reproducibility — the check simply
+moves from an editorial gate to referee judgment:
+
+- **Experimental referees** routinely ask for instructions-to-subjects and
+  session structure; deposited oTree/z-Tree code and instructions let you
+  answer with a link instead of a rewritten appendix.
+- **Theory referees** who doubt a counterexample may recompute it; a Gambit
+  file or notebook that regenerates the example turns suspicion into a
+  two-minute verification.
+- A visible deposit also strengthens the revision round: geb-rebuttal
+  responses can cite the exact script rather than describe computations.
+
+## Worked micro-example: the availability statement
+
+- *Weak:* "Data are available from the authors upon reasonable request." —
+  unverifiable, and gives a referee nothing to act on.
+- *Stronger (voluntary deposit):* "Experimental instructions, oTree code, raw
+  session data, and the scripts reproducing every table and figure are
+  deposited at [repository DOI]; seeds and pinned versions are in the README."
+  — checkable today. If ethics or consent limits sharing, state exactly what
+  is withheld and why instead of defaulting to on-request language.
+
 ## Anti-patterns
 
 - Assuming GEB will block publication without a deposited archive (it will not)
@@ -43,6 +67,7 @@ Even though it is optional, sharing well is good practice and pre-empts referee 
 - Numerical examples with no seeds or pinned versions, so referees cannot regenerate them
 - A data file with no README or variable documentation
 - Confusing GEB's optional policy with the mandatory archives of AER/Econometrica/JAE
+- An "upon reasonable request" statement standing in for a plan you could deposit today
 
 
 ## Reproducibility pass for Games and Economic Behavior

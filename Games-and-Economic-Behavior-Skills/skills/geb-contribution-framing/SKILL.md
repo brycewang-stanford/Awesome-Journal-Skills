@@ -37,6 +37,31 @@ Then test it:
 4. **Scope of the advance** — how general; what it does and does not cover.
 5. **Implications** — for theory, for mechanism design, or for applications (CS/EC, biology, behavior).
 
+## Worked micro-example: sharpening the sentence
+
+- *Before:* "We study auctions with budget-constrained bidders and analyze
+  bidder behavior under different formats." — a topic, not an advance; gives
+  the Editor in Charge nothing to weigh against the ~15% bar.
+- *After:* "We characterize the revenue-maximizing auction under private budget
+  constraints, showing the optimum departs from the standard format precisely
+  when budgets bind at the reserve — overturning the intuition that budget caps
+  merely truncate bids." — class, result type (characterization), departure
+  from prior understanding, and consequence, in one evaluable sentence.
+
+## Reuse the sentence across the submission package
+
+The same headline claim should appear, lightly rephrased, in three places GEB
+reads in sequence:
+
+1. **Abstract** (within the 250-word cap) — result stated, not just topic.
+2. **Cover letter** — the game-theory contribution plus the sub-field, which
+   helps the chief editor route the paper to the right one of the seven
+   Editors; any conference-version delta belongs in the same paragraph.
+3. **Introduction, first page** — the claim cascade above.
+
+If the three versions claim different advances, referees will probe the gap;
+reconcile them before submission.
+
 ## Anti-patterns
 
 - "We study a model of ..." with no claimed result in the intro
@@ -44,6 +69,7 @@ Then test it:
 - Three competing "main" contributions with no ranking
 - Overstating generality the proofs do not support (referees will check)
 - Saving the contribution sentence for the conclusion
+- A cover-letter claim that promises more than the abstract delivers
 
 
 ## Contribution pass for Games and Economic Behavior

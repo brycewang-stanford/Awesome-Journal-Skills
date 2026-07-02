@@ -51,6 +51,45 @@ Open the response with a brief summary of the major new experiments and how the 
 - Re-run the `cc-submission` preflight before resubmitting.
 - If you cannot do an experiment, explain why and offer the strongest feasible alternative.
 
+## Worked micro-example: a point-by-point entry
+
+**Reviewer 2, comment 3 (verbatim):** "The MARK7 phenotype is shown only in cell lines. Does loss of
+MARK7 restrain tumor growth in an immunocompetent in vivo setting?"
+
+**Response (the Cancer Cell pattern):**
+
+> We agree this was the central gap. We generated *Mark7*-conditional autochthonous tumors and, in a
+> new **Figure 5D–F**, show that MARK7 loss reduced tumor burden and restored intratumoral CD8⁺ T cell
+> infiltration (n=9 vs. 10 mice; randomized to arms; blinded histology scoring; log-rank p reported in
+> the legend). The in vivo RNA-seq is deposited under GEO [accession] (KRT updated). We have accordingly
+> revised the Summary and Discussion to state a "candidate vulnerability for checkpoint combination"
+> rather than a "therapeutic target," matching the evidence now in hand.
+
+Note the moves: it concedes the point, delivers the highest-value experiment (in vivo, immunocompetent),
+carries full rigor (`n`, randomization, blinding), deposits the new data, and **narrows the claim in the
+same breath** — the reviewer sees the manuscript improve, not merely defend itself.
+
+## Framing pushback that survives consultative review
+
+Because reviewers may see each other's reports, a rebuttal that dismisses one referee can alienate the
+panel. When you decline an experiment:
+
+- Grant the scientific premise before explaining the constraint (feasibility, timeline, model
+  availability, or that the request tests a different hypothesis).
+- Offer the strongest feasible substitute (orthogonal assay, existing cohort reanalysis, published data).
+- Where a request is genuinely out of scope, say what the paper *does* claim and confine the finding
+  accordingly rather than arguing the reviewer is wrong.
+
+## Cancer Cell revision failure modes
+
+- Adding an in vivo experiment with a lower bar than the original (no randomization, `n` of 3, no
+  blinded scoring) — reviewers notice the rigor drop immediately.
+- Answering the "does it hold in patients?" comment with more cell-line data.
+- Depositing nothing new even though the revision generated sequencing or proteomics data.
+- Re-broadening the Summary/Highlights after narrowing the Results — front matter and body must agree.
+- A rebuttal letter that resolves minor textual points in detail but leaves the essential mechanistic
+  ask half-answered.
+
 ## Checklist
 
 - [ ] Every reviewer point addressed individually; none skipped

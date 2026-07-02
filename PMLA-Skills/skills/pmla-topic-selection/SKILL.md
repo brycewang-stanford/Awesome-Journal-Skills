@@ -49,6 +49,29 @@ A strong PMLA essay usually clears all four:
 - **Little-known Documents** — an archival find presented with scholarly commentary
   (see `pmla-textual-evidence-and-close-reading`).
 
+## Reframing micro-example (specialist pitch → PMLA pitch)
+
+*Before (specialist novelty):* "No one has examined the late letters of [author] in relation to
+her revisions of the 1840s."
+
+*After (significant problem):* "The letters show a canonical writer revising against her own first
+readers — a test case for a question the field keeps begging: whose reading does a 'final' text
+record?" Same material; the pitch now names a problem a Victorianist, a medievalist, and a theorist
+of textual editing can each carry into their own work.
+
+## Commitments you make by choosing PMLA
+
+Fit is not only intellectual; the submission rules shape the decision:
+
+- **MLA membership is required** — for the author and *every* coauthor of a collaborative essay.
+- **The essay is locked in during review.** PMLA does not consider work under review elsewhere, nor
+  anything **previously published in any language**. If speed to print matters more than reach, a
+  specialist journal may serve better.
+- **A declined manuscript cannot return.** Revised versions of previously submitted manuscripts are
+  not considered — submit at full strength, not as a trial balloon.
+- **Special features run on their own clock**: Theories and Methodologies and The Changing
+  Profession proposals carry a **15 October** deadline and a **100-word** abstract (待核实).
+
 ## Anti-patterns
 
 - "This text has never been read alongside that one" as the whole contribution (descriptive, narrow)

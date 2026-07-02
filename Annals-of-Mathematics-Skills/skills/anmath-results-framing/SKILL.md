@@ -26,6 +26,21 @@ understand exactly what is claimed without reading the proof.
 4. **Give the sharpest true statement.** Do not under-claim out of caution or over-claim
    beyond what the proof delivers; the statement and the proof must match exactly.
 
+## Framing shapes from verified Annals landmarks
+
+Benchmark against the verified papers in `resources/exemplars/library.md`; each makes
+its advance quantifiable in one sentence, in one of three shapes:
+
+- **Settles a named conjecture** (Wiles 1995; Marques–Neves 2014): name the conjecture,
+  state the theorem that closes it.
+- **Breaks a quantitative barrier** (Zhang 2014): a modest-sounding bound whose point
+  is that none existed — say exactly which barrier fell.
+- **New method with reach** (Green–Tao 2008; Bhargava–Shankar 2015): the theorem is the
+  headline, but the transferable technique is named too.
+
+A result fitting none of these shapes should go back through anmath-scope-fit first —
+framing cannot manufacture significance.
+
 ## Introduction architecture (Annals style)
 
 | Element | Purpose |
@@ -48,9 +63,23 @@ understand exactly what is claimed without reading the proof.
 - Do not rely on **unpublished or unverifiable** results for the core comparison; if a
   cited result is itself unpublished, say so and isolate your dependence on it.
 
+## Micro-example: from vague paragraph to precise theorem
+
+**Before:** "We prove strong new bounds for the discrepancy of such sequences under
+mild conditions, improving earlier work."
+
+**After:** "**Theorem 1.1.** *Let (x_n) satisfy (H1)–(H2). Then D_N(x) ≤ C(α) N^{−1/2}
+log N for all N ≥ 2, where C(α) depends only on α.*" — plus one positioning sentence:
+"This removes the smoothness hypothesis of [Prior, Theorem 2] and sharpens the exponent
+from −1/3 to −1/2."
+
+Named hypotheses, an explicit rate, stated constant dependence, a cited theorem
+precisely exceeded — the Annals headline register.
+
 ## Checklist
 
 - [ ] Main Theorem is stated precisely, with all hypotheses, near the first page
+- [ ] The framing matches a landmark shape (conjecture settled / barrier broken / method with reach)
 - [ ] It is clear which statement is the headline vs. corollaries
 - [ ] The exact advance over prior work is quantified, not just asserted
 - [ ] Closest prior results are named with authors and what they proved

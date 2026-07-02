@@ -64,6 +64,33 @@ Design rules:
 
 Avoid: cramming the whole model, tiny fonts, multiple disconnected scenes, decorative clip-art that obscures the message.
 
+## Worked Highlights set (with char counts)
+
+For the XYZ1–ABC2 dormancy story, a compliant four-bullet arc — phenomenon → mechanism → causality → significance:
+
+```
+- CRISPR screen identifies XYZ1 as a brake on intestinal stem-cell division   (74)
+- XYZ1 phosphorylates ABC2, blocking its entry into the nucleus              (60)
+- XYZ1 loss frees ABC2, expanding the stem pool 3.2-fold                      (56)
+- A nutrient-gated switch couples niche state to reversible dormancy          (60)
+```
+
+Each is a fragment, present tense, no period, no citation, and under 85 characters. Contrast a non-compliant bullet: "In this study, we demonstrate that the kinase XYZ1 phosphorylates ABC2 to restrict its nuclear localization." — that is a full sentence, opens with filler, and runs well over the limit. Trim to the actor-verb-object core and drop "we".
+
+Counting tip: count the rendered string including spaces, not the Markdown. When a bullet lands at 84–85, prefer cutting a word over abbreviating into an undefined acronym — the eTOC audience is broad.
+
+## Worked eTOC blurb (before → after)
+
+Before (first person, jargon, methods recap):
+
+> Here we use organoid CRISPR screens to show that XYZ1 phosphorylates ABC2 and regulates ISC dynamics.
+
+After (third person, lay, significance-forward, ~48 words):
+
+> Smith et al. show how the gut renews itself only when conditions allow. A single enzyme holds intestinal stem cells in a resting state by keeping a growth-driving factor out of the cell's nucleus; releasing that brake expands the stem-cell pool and speeds tissue repair after injury.
+
+The "after" version never says "we", spells out the biology for a non-specialist, drops the gene names into plain description, and closes on why a broad reader should care.
+
 ## Output format
 
 ```

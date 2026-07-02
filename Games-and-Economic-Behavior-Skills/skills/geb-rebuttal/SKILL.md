@@ -41,6 +41,46 @@ experiment] by [change]. The new material appears in [section/table/appendix].
 It addresses the concern because [logic tied to equilibrium/proof/design].
 ```
 
+## Who reads the GEB response
+
+- The **Editor in Charge** — one of the seven Editors, publicly known to you,
+  with final decision authority — decides whether the revision returns to
+  referees or is settled directly. Open the letter with a half-page summary
+  written for that person: which objections were resolved, and how the main
+  theorem or finding changed (or did not).
+- The **Advisory Editor** who recommended the decision remains anonymous, as do
+  referees; never guess identities or address evaluators by name.
+- Under GEB's single-anonymized model, a referee may be an author of the
+  nearest prior result. Meet novelty objections with theorem-level precision,
+  not dismissal — that reader likely knows the prior proof better than you do.
+- If a revision weakens or renames a theorem, flag it prominently; an Editor
+  in Charge who finds a silently narrowed result late in the letter stops
+  trusting the rest of it.
+
+## Worked micro-example: a novelty objection
+
+Referee: "Proposition 2 appears to be a special case of [prior theorem]."
+
+- *Weak reply:* "Our setting differs, so the results are not comparable." —
+  asserts without demonstrating, and reads as evasion to a specialist.
+- *Strong reply:* "Proposition 2 is not implied by [prior theorem]: their
+  argument uses quasi-concavity of payoffs (their Assumption A2), which our
+  class violates (new Example 3). Remark 4 now states exactly which step of
+  their proof fails in our environment, and Corollary 1 cites their result
+  where the two genuinely overlap." — concedes the true overlap, isolates the
+  delta, and gives manuscript locations for both.
+
+## Revision-package mechanics (Editorial Manager)
+
+- [ ] Point-by-point response letter + a marked-changes manuscript alongside
+      clean **editable Word or LaTeX source** (required at every round)
+- [ ] Keep theorem/section numbering stable where possible; if numbering moved,
+      give an old-to-new map at the top of the letter
+- [ ] New simulations or sessions added in revision: update seeds, scripts, and
+      the voluntary data statement (see geb-replication-and-data-policy)
+- [ ] Abstract still within the **250-word cap** after any reframing
+- [ ] Generative-AI declaration still accurate if AI tools touched the revision
+
 
 ## Response pass for Games and Economic Behavior
 

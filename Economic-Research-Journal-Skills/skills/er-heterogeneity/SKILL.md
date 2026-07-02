@@ -1,6 +1,6 @@
 ---
 name: er-heterogeneity
-description: Use when designing or writing heterogeneity analysis for an Economic-Research manuscript. Enforces five-dimension priority and theoretical-justification discipline.
+description: Use when designing or writing the heterogeneity section of an 《经济研究》 (Economic Research Journal) manuscript — choosing which dimensions to cut, justifying each cut theoretically, presenting subsample results with coefficient-difference tests, and wiring at least one dimension back to the mechanism story so heterogeneity doubles as mechanism evidence. 使用时机：主结果已稳健但只切了"东中西"一类单一维度、审稿人要求补做异质性、或切分维度缺乏理论指引时。
 ---
 
 # 异质性分析（er-heterogeneity）
@@ -39,6 +39,26 @@ description: Use when designing or writing heterogeneity analysis for an Economi
 结果显示，[组 1] 的处理效应为 X，而 [组 2] 为 Y，系数差异在 [显著水平] 上显著。
 这一发现与本文的[机制]一致。
 ```
+
+## 该刊的呈现惯例：分样本表 vs. 交互项
+
+两种呈现方式在《经济研究》正文中都常见，选择标准：
+
+- **分样本回归（并列同一张表）**：适合切分变量是离散制度属性（产权、行业管制、地区市场化分组）时。惯例是一张表放一个维度，(1)(2) 列为两个子样本，表下注明分组标准与分组变量出处（如市场化指数取样本期中位数分组），并**单独一行报告组间系数差异的经验 p 值**（费舍尔组合检验 / 自体抽样法），而不是让读者自己目测两列星号。
+- **交互项回归**：适合切分变量连续（融资约束指数、数字化程度）时，避免人为二分损失信息。交互项系数即"异质性本身"，正文解读应写成"X 的效应随 Z 每提高一个标准差而增强 β 个单位"，而非只说"交互项显著"。
+
+两点该刊特有的口味：
+
+1. **异质性小节标题写经济含义，不写变量名**——用"融资约束的调节作用"而非"按 SA 指数分组"；小节首句先给理论预期，再给结果。
+2. **不显著的维度也要交代**：若某个理论上应有差异的维度没切出差异，正文用一两句话诚实报告并解释（度量噪声 / 渠道被政策抵消），比悄悄删掉更能赢得审稿人信任。
+
+### 微型对照（改写前 / 改写后）
+
+> ❌ 改写前："分组回归显示，国企组系数为 0.021，民企组系数为 0.058，说明存在产权异质性。"
+>
+> ✅ 改写后："民企组的处理效应（0.058）约为国企组（0.021）的 2.8 倍，组间差异的经验 p 值为 0.03。这与假说 2 的预期一致：民营企业面临更紧的外部融资约束，政策带来的现金流改善对其边际价值更高，产权维度的差异因而构成融资约束机制的侧面证据。"
+
+改写后同时完成了三件事：报差异检验、给理论解释、回扣机制。
 
 ## 与机制分析的关系
 

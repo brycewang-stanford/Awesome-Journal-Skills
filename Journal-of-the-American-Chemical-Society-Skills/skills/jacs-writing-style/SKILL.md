@@ -44,6 +44,30 @@ description: Use when polishing prose to ACS house style and claim discipline fo
 `a variety of` (say how many) · `excellent yield` (give the %) · `mild conditions`
 (state T/time) · `clean reaction` (give purity evidence).
 
+## Worked micro-edits (before → after, JACS register)
+
+- **Booster → number.**
+  Before: *"The novel catalyst showed excellent activity under mild conditions."*
+  After: *"Catalyst **1** (2 mol %) delivered **3a** in 94% yield at 25 °C in 2 h."*
+- **Hedge calibrated to evidence.**
+  Before: *"These results prove that a Pd(0)/Pd(II) cycle is operative."*
+  After: *"A first-order dependence on [**1**] and a KIE of 4.2 are consistent with turnover-limiting C–H cleavage at Pd(0)."*
+- **Thesis sentence closing the Introduction.**
+  Before: *"C–H activation has attracted much attention in recent years."*
+  After: *"Here we show that a confined anionic ligand overrides innate site selectivity, fluorinating the distal methylene of unactivated alkanes with 95:5 er."*
+- **Delta vs prior art stated, not implied.**
+  Before: *"Unlike all previous work, our system is truly general."*
+  After: *"Whereas prior amidation catalysts required directing groups, **1** functionalizes 24 of 27 undirected substrates, including three drug scaffolds."*
+
+## Chemistry typography that referees notice
+
+- Bonds and ranges take an **en dash**: C–H, Pd–O, 25–40 °C; hyphens only in names (*tert*-butyl).
+- Isotope and decoupling notation set correctly: ¹³C{¹H}, ²H-labeled, *d*₆-DMSO (or DMSO-*d*₆ — pick one and hold it).
+- Locants and descriptors italic: *o*-, *m*-, *p*-, *cis*/*trans*, *E*/*Z*, *R*/*S*, *syn*/*anti*, *N*-methyl.
+- Greek letters roman when structural (α,β-unsaturated), italic when variables (λ, δ used as symbols follow ACS conventions).
+- "ee" and "er" defined once; report er where the measurement is chromatographic, and be consistent.
+- Reaction arrows in prose spelled out ("gave", "afforded", "underwent") — no "→" in running text.
+
 ## Checklist
 
 - [ ] Abstract has problem → advance → number → significance

@@ -43,6 +43,28 @@ This skill turns an idea into that argument.
 Where any of these uses formal apparatus, **accompany it with informal exposition** so a non-specialist
 philosopher can follow the move (a Mind expectation).
 
+## Worked micro-example: sharpening a thesis
+
+- *Before:* "This paper explores the relationship between vagueness and higher-order evidence." — a
+  topic, not a claim; nothing here is deniable, and a Mind referee will ask what is actually being argued.
+- *After:* "Higher-order evidence never defeats first-order justification directly; apparent defeat is
+  always mediated by a bridge principle the defeatist has not earned." — deniable, with the load-bearing
+  premise visible (the bridge-principle claim), so the referee knows exactly where to push.
+
+The rewrite converts a topic into a position, exposes the premise the argument turns on, and commits
+to a scope ("directly", "always mediated") that can be defended precisely.
+
+## Budgeting the defence within ~8,000 words
+
+Mind's ~8,000-word ceiling forces a decision about where the argument earns its space:
+
+- Give the **load-bearing premise the largest share** of the argumentative wordage; premises no
+  competent opponent would contest get a sentence and a pointer.
+- Formal apparatus costs double: each derivation needs its informal gloss alongside, so a symbol-heavy
+  step consumes budget twice. Keep formalism only where the inference genuinely requires it.
+- Under triple-anonymous review the argument is all the expert referee sees; no reputation rescues an
+  underdefended premise, so spend words where a competent opponent will actually attack.
+
 ## Anti-patterns
 
 - A thesis no one could deny (a truism dressed as a discovery)

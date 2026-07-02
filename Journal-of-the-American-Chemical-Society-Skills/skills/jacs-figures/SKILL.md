@@ -39,6 +39,42 @@ description: Use when building schemes, spectra, structures, and reaction/mechan
 - Crystal-structure figures: state ellipsoid probability (e.g., 50%), which H atoms are omitted, and symmetry-generated atoms.
 - Plots: include error bars / replicate info and the fitted model; state n.
 
+## TOC graphic craft (the most-seen image of the paper)
+
+The abstract graphic is the paper's storefront — it appears in the issue TOC,
+alerts, and search results at thumbnail size. Design for that scale:
+
+- **One idea only.** The single transformation, concept, or property — not a
+  collage of every scheme. If the advance is selectivity, show the two possible
+  products and mark which one forms.
+- **Structures over prose.** A substrate→product pair with one annotated arrow
+  beats any sentence; keep text to a few words (e.g., "24 examples, up to 97% ee").
+- **Legible at thumbnail.** Bond lines and labels must survive reduction; test
+  by zooming the export to ~25%.
+- **Match the abstract's claim.** Editors compare the two; a graphic promising
+  more than the text is a credibility leak.
+- Follow the current ACS size/aspect specification for abstract graphics — check
+  the author page rather than reusing an old template.
+
+## Caption discipline (worked micro-edit)
+
+- Before: *"Figure 2. NMR spectra of the reaction."*
+- After: *"Figure 2. ¹H NMR spectra (400 MHz, CD₂Cl₂, 25 °C) of the reaction of
+  **1** with **2a**: (a) t = 0; (b) t = 30 min, showing the hydride resonance of
+  intermediate **3** at δ −8.4 (d, J = 12 Hz)."*
+
+A JACS caption names the technique, conditions, and the diagnostic feature the
+reader should find — it argues the claim, it does not merely label the image.
+
+## Scope-figure craft
+
+- Group products by substrate class with a one-line class header; readers scan
+  for their own chemistry.
+- Print yield and ee/er under every structure; mark limitations honestly
+  (footnote lower-yielding or failed cases rather than deleting them).
+- Highlight the hardest examples (drug-like, sterically encumbered, previously
+  unreactive) — these carry the generality argument, so give them visual room.
+
 ## Composition and accessibility
 
 - One consistent color palette; ensure meaning survives grayscale and color-vision deficiency (don't rely on red/green alone).

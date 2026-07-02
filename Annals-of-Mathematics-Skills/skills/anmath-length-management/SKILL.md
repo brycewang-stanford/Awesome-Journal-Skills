@@ -26,6 +26,16 @@ known background at textbook length. The test for every paragraph is necessity, 
 | Could this routine computation be summarized + appendixed? | Move to appendix (anmath-supplementary) |
 | Is this section's job stated in one line at its top? | If not, the section may be unfocused |
 
+## Calibrating against verified Annals papers
+
+There is no page limit to game at this venue. The verified landmarks in
+`resources/exemplars/library.md` span roughly 50 pages (Zhang 2014) to about 100
+(Marques–Neves 2014; Wiles 1995); what they share is density — nearly every page is new
+mathematics or the minimum scaffolding a verifier needs. Because refereeing here is
+line-by-line verification, often over a year, every non-essential page taxes the one
+expert whose verdict decides the paper: cutting bloat shortens the verification
+critical path.
+
 ## What to compress vs. what to keep
 
 **Compress / cut**
@@ -51,9 +61,23 @@ known background at textbook length. The test for every paragraph is necessity, 
 - Check that preliminaries are proportionate to their use — recall only what the paper uses.
 - Confirm appendices carry length relief, not hidden essentials.
 
+## Worked micro-example: compressing preliminaries without creating a gap
+
+**Before** (textbook restatement, roughly a page): "We now recall the theory of X,"
+followed by a dozen displayed definitions and three re-proved lemmas from a standard
+reference.
+
+**After** (citation-anchored, six lines): "We use the theory of X as developed in
+[R, §2–3], and recall verbatim the two statements we invoke: Theorem 2.4 of [R] and
+Lemma 3.1 of [R], in the notation fixed above."
+
+The cut keeps every statement the proof invokes and deletes only what the reader can
+retrieve from [R] — no checkable step removed, no gap created.
+
 ## Checklist
 
 - [ ] Every section has a one-line justification of necessity
+- [ ] Length is calibrated against comparable verified Annals papers, not a page target
 - [ ] Textbook background is replaced by precise citations
 - [ ] No idea or strategy statement is repeated unnecessarily
 - [ ] Routine long computations are summarized in text and detailed in an appendix

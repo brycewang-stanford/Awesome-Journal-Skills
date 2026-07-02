@@ -53,6 +53,43 @@ the honest fit.
 - Confirm current article types and limits on the JACS author page; hand sizing
   to `jacs-length-management`.
 
+## Naming the breadth driver (be specific)
+
+Editors triage on whether the manuscript itself argues breadth. Pick one primary
+driver and make the abstract carry it:
+
+| Breadth driver | What must be in the data | Example framing |
+|----------------|--------------------------|-----------------|
+| **Generality** | Scope spanning substrate classes others use daily; failures disclosed | "…across ethers, amines, and three drug scaffolds" |
+| **Concept / mechanism** | A principle transferable beyond the system (new elementary step, selectivity model) | "…establishes ligand-controlled distal selectivity as a design rule" |
+| **Enabling utility** | Something practitioners can now do (a disconnection, a probe, a material function) | "…renders the C(sp³)–F disconnection strategic in route design" |
+| **Long-standing problem** | Documented prior failures by others; your data closing the gap | "…solves the site-selectivity problem posed since [prior art]" |
+
+If you cannot fill the middle column from your own data, the driver is aspirational
+— either gather the missing evidence or pivot venue now, before writing.
+
+## Worked micro-example (same chemistry, two pitches)
+
+- **Subfield pitch (belongs at *Org. Lett.*):** "We extend Ni-catalyzed
+  hydroamination to six new pyrazole nucleophiles in 61–88% yield."
+- **JACS pitch (only if the data back it):** "A single Ni catalyst couples any
+  N–H heterocycle class we tested (5 azole families, 31 examples) with
+  unactivated olefins, and kinetics reveal why: turnover-limiting olefin
+  insertion is insensitive to azole pKa — a generality mechanism, not a scope
+  accident."
+
+The second pitch is honest only when the kinetics and the five-family scope
+exist. The scope-fit call is therefore a **data audit**, not a wording exercise.
+
+## Desk-rejection signals worth heeding
+
+- Your own abstract needs a subfield term (e.g., a niche ligand class) to state
+  why the result matters — the breadth case has not been made.
+- The closest peer papers you can cite are all in specialized journals, none in
+  JACS from the past few volumes.
+- The advance sentence begins "We extend / We also / We further" — extension
+  language reads as incremental at a flagship venue.
+
 ## Checklist
 
 - [ ] One sentence states the advance in terms a non-specialist chemist grasps

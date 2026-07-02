@@ -36,11 +36,42 @@ In one sentence: *"Because we found ___, a conservation decision-maker should __
 ___), with ___ confidence."* If you cannot complete it without overstating, either strengthen the
 design (`conbio-study-design`) or reframe the contribution (`conbio-topic-selection`).
 
+## The proportionality ladder (match the claim to the design)
+
+Reviewers reject implications that outrun the evidence, so calibrate the verb to the design that
+produced it:
+
+- **Correlational / single-site** → *raise a hypothesis* or *justify a precautionary step*; never a
+  mandate. ("Edge density is associated with lower occupancy, warranting caution when siting clearings.")
+- **Space-for-time or unreplicated BACI** → *support a conditional recommendation* with stated scope.
+- **Staggered / replicated before-after with detection modeling** → *support a sequencing or targeting
+  rule* a manager can act on (as in the hedgerow worked example).
+- **Projection (PVA / SDM / climate)** → *bound the recommendation by the projection's uncertainty*;
+  state the assumptions that, if wrong, flip the advice.
+
+If the design sits lower on the ladder than the recommendation you want to make, either strengthen the
+design (`conbio-study-design`) or lower the verb — do not borrow certainty the data do not have.
+
+## Before → after: an implications paragraph
+
+- **Before (vague):** *"Our results have important implications for conservation and highlight the need
+  for further management action to protect biodiversity in the study region."* — names no decision, no
+  actor, no transferable rule; a desk-rejection tell.
+- **After (actionable, transferable, proportional):** *"Because recovery was roughly twice as fast at
+  well-connected sites, a manager spending a fixed restoration budget should sequence field-edge
+  restoration to link existing habitat first. This sequencing rule — not our region's occupancy total —
+  is what transfers to other fragmented systems, and it holds only where rapid recovery is the goal and
+  connectivity varies across candidate sites."*
+
+The "after" completes the actionability sentence, names the decision-maker, states scope conditions, and
+generalizes the mechanism rather than the local number.
+
 ## Anti-patterns
 
 - "Has implications for conservation" with no specific decision or action named
 - Policy mandates built on correlational or single-site evidence
 - Implications that only apply to the study system (no transferability)
+- Borrowing a stronger verb than the design supports (see the proportionality ladder)
 - Ignoring tradeoffs, costs, or social dimensions of the recommended action
 - Overstating certainty of projections (PVA/SDM/climate) when arguing for action
 

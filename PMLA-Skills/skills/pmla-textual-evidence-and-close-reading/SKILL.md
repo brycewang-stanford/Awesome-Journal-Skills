@@ -46,6 +46,30 @@ the quotations are exact, and the interpretation is answerable to the passage on
   responsibly chosen translation and say so. Be consistent (see `pmla-citation-and-style`).
 - Translations are **excluded** from the PMLA word count — but accuracy and citation still matter.
 
+## Worked micro-rewrite (assertion → reading)
+
+*Before (asserts a meaning):* "The elegy's imagery conveys the speaker's unresolved grief."
+
+*After (earns it, schematically):* "The elegy defers its grammatical subject for three lines: each
+clause opens with the lost object — [quoted phrase, line numbers] — so the mourner enters his own
+poem late and in the accusative. Grief here is not an announced theme but a syntactic position." The
+revision names the formal feature, quotes the words that carry it, and states the step from syntax
+to claim — checkable by a reader who has never seen the poem.
+
+## What PMLA's readers test the evidence against
+
+PMLA sends each eligible essay to **at least two reviewers**, serving a **large and heterogeneous**
+membership — assume at least one reader works in a different period, language, or method. Reports
+probe:
+
+- **Is every quotation worked?** A displayed passage with no analysis is the most-flagged fault.
+- **Could the passage support a rival reading?** If yes, has the essay acknowledged and answered it?
+- **Is the edition named and reliable**, every quotation locatable (page, line, act-scene-line)?
+- **Can a non-specialist follow the inference?** Supply the minimum plot, dating, or linguistic
+  context the step requires — and no more.
+- **Does the reading need this many passages?** Concise, readable presentation is an explicit PMLA
+  value; three passages read deeply beat eight skimmed.
+
 ## Anti-patterns
 
 - Assertion without quotation, or quotation without analysis ("block quote and move on")

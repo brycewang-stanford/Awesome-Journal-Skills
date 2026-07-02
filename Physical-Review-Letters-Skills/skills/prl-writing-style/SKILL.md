@@ -43,6 +43,25 @@ PRL's broad-interest gate is also a *writing* requirement: a condensed-matter re
 - Put the physical interpretation next to every key equation or number.
 - Avoid acronym soup; prefer the spelled-out concept when space allows.
 
+## Worked micro-rewrite (Letter register)
+
+**Before (subfield-first, hedged):**
+
+> "In recent years there has been growing interest in the possibility that certain frustrated magnets may, under some circumstances, potentially host exotic excitations. Motivated by this, we have investigated our samples using a variety of techniques."
+
+**After (finding-first, one calibrated qualifier):**
+
+> "Fractionalized excitations are the defining signature of a quantum spin liquid, but direct thermodynamic evidence has been lacking. We observe a residual linear term in the low-temperature thermal conductivity of X, consistent with mobile fermionic excitations in an insulator."
+
+What changed: the physics question opens in words any physicist can parse; the finding arrives in sentence two; three stacked hedges collapse into one; the vague "variety of techniques" becomes the actual observable.
+
+## Sentence architecture for a four-page format
+
+Every paragraph has one job, and its first sentence should announce it:
+
+- **Paragraph openers carry the argument.** A referee skimming only first sentences should still reconstruct the claim chain.
+- **The final paragraph earns the breadth claim.** Close with the concrete consequence for the neighboring field, not "our results pave the way."
+
 ## Precision discipline
 
 - State claims at the strength the evidence supports — neither over- nor under-claiming.
@@ -58,6 +77,8 @@ PRL's broad-interest gate is also a *writing* requirement: a condensed-matter re
 - [ ] Opening readable by an out-of-subfield physicist
 - [ ] Physical interpretation accompanies key equations/numbers
 - [ ] Claims calibrated to the evidence (no over/under-claiming)
+- [ ] First sentences of paragraphs alone reconstruct the argument
+- [ ] Closing paragraph names a concrete cross-field consequence
 - [ ] SI units and consistent significant figures
 - [ ] References follow current APS format
 

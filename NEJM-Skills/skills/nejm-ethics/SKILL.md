@@ -55,10 +55,26 @@ ICMJE requires a **data-sharing statement for clinical trials**. Specify:
 - Report **plagiarism/originality** status: the work is original and not under consideration elsewhere.
 - Note any **preprint** posting and prior presentation.
 
+## Statement placement map (draft each as a named block)
+
+Draft each statement as a block with a fixed home, then verify all blocks survived formatting:
+
+- **Methods — study conduct:** named IRB/ethics committee(s), consent method (or waiver basis), Helsinki + GCP conformance.
+- **Methods — oversight (trials):** who designed the trial, analyzed the data, wrote the first draft, and who **vouches for data completeness and fidelity to the protocol**; the protocol and SAP accompany the article.
+- **End matter:** disclosure statement ("ICMJE disclosure forms are available with the full text"), funding acknowledgment, data-sharing statement.
+
+## Worked micro-example — data-sharing statement (before → after)
+
+- Before (fails ICMJE): "Data are available from the corresponding author on reasonable request."
+- After: "De-identified individual-participant data, with the protocol and statistical analysis plan, will be shared beginning 12 months after publication with researchers whose methodologically sound proposal is approved by the trial's data-access committee, under a signed data-use agreement."
+
+The before answers none of the four ICMJE questions — what, when, to whom, by what mechanism.
+
 ## Output format
 
 ```
 【IRB/ethics approval + consent】 stated? Helsinki/GCP cited? yes/no
+【Placement】 conduct/oversight/end-matter blocks all present after formatting? yes/no
 【ICMJE disclosures】 all authors' forms collected + statement drafted? yes/no
 【Authorship】 all 4 ICMJE criteria met by each author? contributors acknowledged? yes/no
 【Role of funding source】 statement present + data-access/vouching for trials? yes/no

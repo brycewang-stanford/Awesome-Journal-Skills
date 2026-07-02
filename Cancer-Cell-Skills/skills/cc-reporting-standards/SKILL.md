@@ -64,6 +64,41 @@ Cell Press uses **STAR Methods** (Structured, Transparent, Accessible Reporting)
 - Custom code → versioned public repo with a citable DOI (e.g., Zenodo).
 - "Available on request" is unacceptable for these data types.
 
+## Worked micro-example: a KRT antibody row before → after
+
+**Before (desk-reject-grade entry):**
+
+> Anti-MARK7 — Abcam — for Western blot
+
+**After (STAR-compliant entry):**
+
+> Rabbit monoclonal anti-MARK7, clone EPR-xxxx, Abcam, Cat# ab000000, RRID:AB_0000000; WB 1:1000,
+> validated against MARK7-KO lysate (single band at expected MW, Figure S1).
+
+The "after" carries host, clonality, clone ID, vendor, catalog, RRID, application, dilution, and the
+validation evidence — every column a Cancer Cell editor scans the KRT for. A reviewer who cannot find
+the RRID or the KO/KD validation treats the reagent as unverified.
+
+## STAR Methods pre-submission self-check
+
+Walk the Methods in the order an in-house editor will:
+
+1. Is the **KRT at the top**, with a row for every antibody, line, organism, plasmid, oligo, dataset, and software?
+2. Does **Resource availability** name the lead contact and state materials + data + code availability explicitly?
+3. Are **cell lines** authenticated (STR), mycoplasma-negative, and cross-checked against the ICLAC misidentified-lines register?
+4. Do **animal** subsections give species/strain/sex/age, sample-size rationale, randomization, and blinded outcome scoring?
+5. Are **all** newly generated large datasets deposited with accessions echoed in both the KRT and the availability statement?
+6. Is the **statistics** subsection specific — exact test, `n` as biological replicates, multiplicity correction?
+
+## Rigor failure modes that draw reviewer or editor flags
+
+- A KRT that lists reagents but omits RRIDs or authentication status.
+- Human lines with no STR profile, or a commonly contaminated line used without justification.
+- Antibodies validated "by the manufacturer" only, with no in-house KO/KD or titration control.
+- Animal work reporting "n mice" with no allocation, blinding, or exclusion criteria.
+- Sequencing/proteomics described in Results but with no GEO/PRIDE accession by submission.
+- Code described as "custom scripts" with no repository or DOI.
+
 ## Checklist
 
 - [ ] STAR Methods headings used; KRT at top

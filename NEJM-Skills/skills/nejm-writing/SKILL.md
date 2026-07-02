@@ -50,6 +50,22 @@ Design, setting, participants (eligibility), intervention/comparator, randomizat
 
 The fastest way to lose a clinical reviewer is a Discussion that outruns the data. Match every implication sentence to the strength of the design: a single trial supports a conclusion in its population, not a universal recommendation. Surrogate outcomes do not license patient-outcome claims.
 
+## A word budget that fits ~2700
+
+A workable allocation — a craft split, not a journal rule: Introduction ≈300–400 words; Methods ≈700–800 (detail pushed to protocol/appendix); Results ≈800–900; Discussion ≈600–700 including limitations. Cut inside the overrunning section first; the Discussion compresses, the Results rarely do.
+
+## Worked micro-example — one Results sentence (before → after)
+
+- Before: "Interestingly, the novel agent produced a robust, statistically significant improvement in the primary endpoint (P<0.05), suggesting a transformative role."
+- After: "A primary-outcome event occurred in 98 of 1204 patients (8.1%) in the intervention group and in 134 of 1198 (11.2%) in the control group (hazard ratio, 0.71; 95% CI, 0.55 to 0.92)."
+
+The rewrite deletes filler, evicts interpretation to the Discussion, and replaces a bare P with counts, percentages, and an effect estimate with CI. (Numbers invented.)
+
+## Tightening moves that survive editing
+
+- Convert "there was a significant difference in X between the groups" into "X was lower with A than with B (estimate; 95% CI)".
+- Delete throat-clearing openers ("It is important to note that…") — the sentence that follows stands alone.
+
 ## Output format
 
 ```

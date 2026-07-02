@@ -49,6 +49,28 @@ A strong Mind paper usually clears all four:
 - **Book review** — an evaluative summary of a recent book.
 - **Critical notice** — a longer engagement with a book that develops your **own** ideas in response.
 
+## Worked micro-example: from topic to Mind-ready thesis
+
+- *Topic:* "I want to write about moral testimony." — an area, not a project; nothing here could yet
+  be denied (fails step 1).
+- *Coarse claim:* "Moral testimony is problematic." — now a claim, but whole books defend and attack
+  it (fails the scope test at step 4).
+- *Mind-ready:* "Pessimism about moral testimony cannot be motivated by autonomy considerations,
+  because the same considerations would indict ordinary moral advice, which pessimists accept." —
+  deniable, aimed at a live debate, defensible by argument alone, and settleable in ~8,000 words.
+
+## The one-per-12-months rule makes selection strategic
+
+Mind permits **one article per corresponding author in any twelve-month period**, so the choice of what
+to send carries a real opportunity cost:
+
+- Send the paper whose **strongest objection you can already answer** — quality is the sole criterion,
+  so a fashionable question buys nothing here.
+- If two projects are close, prefer the thesis that clears the fit test **without hedging**.
+- When the point is a targeted refutation of one recent paper, a **discussion** may be the better use
+  of the slot — confirm on the live General Instructions page how the annual limit treats discussions
+  (需复核).
+
 ## Anti-patterns
 
 - A literature survey with no thesis of your own (Mind wants a claim, not a map)

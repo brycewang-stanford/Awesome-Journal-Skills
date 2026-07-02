@@ -52,6 +52,47 @@ Match verb strength to evidence strength:
 - Cite using the Cell Press reference style (verify current format); reference key prior work fairly.
 - Active voice and direct sentences; avoid hedging chains ("might possibly suggest").
 
+## Worked micro-edit: a Results paragraph in Cancer Cell voice
+
+**Before (assay catalog, verb outruns evidence):**
+
+> To study MARK7, we performed RNA-seq, which showed many changes. Western blot confirmed
+> knockdown. We also did a migration assay and saw differences. These novel results prove MARK7
+> is a promising therapeutic target that drives metastasis in patients.
+
+**After (claim → evidence → conclusion, calibrated):**
+
+> MARK7 depletion reprogrammed the CAF secretome (Figure 3A; RNA-seq, n=4 donors), reducing lactate
+> exporter transcripts, and this loss was confirmed at protein level with densitometry across three
+> independent blots (Figure 3B). Functionally, MARK7 loss **was required for** CAF-driven tumor-cell
+> migration in the co-culture system (Figure 3C). Because these data are cell-intrinsic, we tested
+> the axis in vivo below before making any therapeutic statement.
+
+The "after" ties each sentence to a panel and an `n`, uses "required for" for a single-system
+perturbation, and defers the translational verb until in vivo evidence exists — the Cancer Cell
+reflex of never letting the Results outrun the systems tested.
+
+## Discussion craft (where Cancer Cell papers over- or under-claim)
+
+- Open the Discussion by restating the **mechanism with direction**, not by re-summarizing every figure.
+- Devote one honest paragraph to **model limitations**: cell-line artifacts, xenograft immune context,
+  cohort size and retrospective design, and whether efficacy is genetic (knockout) vs. pharmacologic.
+- Separate **what the data show** from **what a clinician would need** — a preclinical vulnerability is
+  a hypothesis for a trial, not a treatment recommendation.
+- End on a proportionate significance line that a skeptical referee would sign off on.
+
+## Referee reflexes to preempt
+
+Cancer Cell reviewers read prose against the figures. Common language flags they raise:
+
+- "The authors write 'drives tumorigenesis' but show only correlation in the human cohort" — verb/evidence mismatch.
+- "The Summary claims a therapy; the paper has no in vivo efficacy" — front-matter overreach.
+- "Necessary and sufficient are used interchangeably" — mechanistic imprecision.
+- "Every finding is 'novel' and 'striking'" — hype that erodes trust in the real result.
+- "Mouse gene written as human (uppercase, non-italic)" — nomenclature sloppiness that signals weak rigor.
+
+Fix these at the language layer before they become review comments.
+
 ## Checklist
 
 - [ ] Introduction is concise and ends on a clear hypothesis/gap

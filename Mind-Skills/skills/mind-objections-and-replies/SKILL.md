@@ -44,6 +44,27 @@ For each objection, do exactly one of three things — and say which:
 State the objection at full strength **in the opponent's voice**; a reply to a weak objection persuades
 no one and signals you missed the real one.
 
+## Worked micro-example: strawman vs steelman
+
+- *Strawman:* "One might worry that my view is counterintuitive. But intuitions are unreliable." — the
+  objection is anonymous and toothless, and the reply is a slogan a referee dismisses in one sentence.
+- *Steelman:* "The opponent will press a dilemma: if the constraint is normative, premise 3 begs the
+  question against the pragmatist; if it is merely descriptive, it cannot support the modal conclusion
+  of §4. I take the first horn: premise 3 is independently motivated by cases the pragmatist also
+  accepts, so no question is begged…" — the objection arrives at full force with its target named, and
+  the reply pays the argumentative debt.
+
+## Referee-simulation pass
+
+Run one full pass as your own most hostile competent reader:
+
+- [ ] Strongest objection to the load-bearing premise written out, in the opponent's voice
+- [ ] Every reply tagged (rebut / concede-and-limit / bite-the-bullet) and carrying a reason
+- [ ] The boundary case at the edge of the thesis's scope constructed and explicitly handled
+- [ ] Any objection you cannot fully answer either disarmed by a scope condition or flagged as a
+      residual cost — with over 800 submissions a year, Mind's referees know the hidden-weakness move
+- [ ] Nothing conceded along the way that quietly falsifies the original thesis
+
 ## Anti-patterns
 
 - Knocking down a strawman objection while the real one stands unaddressed

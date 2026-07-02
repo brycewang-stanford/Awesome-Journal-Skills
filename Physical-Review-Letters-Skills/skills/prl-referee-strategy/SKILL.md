@@ -33,6 +33,22 @@ Suggest a small set that *together* can vouch for both correctness and breadth. 
 - Oppose only with a brief, **professional, factual** rationale (direct competitor with a conflict, a documented dispute). Editors discount emotional or vague objections.
 - Do not over-oppose; a long opposed list signals defensiveness.
 
+## Worked example: a referee slate
+
+Suppose the Letter reports an AMO precision measurement whose headline consequence is a bound relevant to particle physics:
+
+1. **Method judge** — an experimentalist who runs a comparable apparatus and can interrogate the systematics line by line.
+2. **Breadth witness** — a theorist from the particle-physics side who answers "why PRL and not PRA."
+3. **Independent senior figure** — no recent coauthorship or institutional overlap, known for thorough APS reports.
+
+The three-role logic transfers to any subfield: one referee for the measurement or derivation, one for the field you claim to reach, one for independent seniority. If you cannot name a credible breadth witness, that is diagnostic — revisit `prl-scope-fit`.
+
+## Reading the editor's use of your list
+
+- Divisional editors treat suggestions as *calibration*, not instruction — every name must survive scrutiny alone.
+- A slate whose members all cite each other tells the editor the breadth claim has no external audience; mix communities deliberately.
+- Names in the cover letter must match the form entries exactly; inconsistency reads as carelessness at a venue where the editor's first pass decides whether referees ever see the Letter.
+
 ## Pre-empting the likely objections (do this in the manuscript, not just the letter)
 
 Anticipate the standard PRL referee moves and disarm them in advance:

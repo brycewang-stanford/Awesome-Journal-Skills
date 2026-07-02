@@ -46,10 +46,29 @@ description: Use to convert references to Cell Press author–date style — in-
 | Merged notes-and-references list   | references only; move notes to text/footnotes   |
 | Numbers resolve to list positions  | every in-text (Author, year) resolves to an entry |
 
+## Worked conversion (numbered → Cell author–date)
+
+A Science-style sentence and its list entry:
+
+> Loss of XYZ1 expands the stem pool *(7)*.
+> 7. A. B. Smith, C. D. Lee, E. F. Wong, *Cell* **180**, 233–247 (2020).
+
+Converted to Cell Press style, the in-text marker becomes the name-year token and the entry moves into the single alphabetical list with surname-first initials, full author list, spelled-out journal, and the year in parentheses after the authors:
+
+> Loss of XYZ1 expands the stem pool (Smith et al., 2020).
+> Smith, A.B., Lee, C.D., and Wong, E.F. (2020). Title of the article. Cell *180*, 233–247.
+
+Note the mechanical traps this exposes: initials flip to follow the surname, "and" precedes the final author, the citation-order number is discarded entirely, and the entry re-sorts by "S" rather than by where it first appeared. Do all of these in one pass or the list and the in-text markers drift out of sync.
+
+## STAR Methods and the single list
+
+Cell uses **one** reference list for the whole paper, including citations that appear only in STAR Methods (protocols, algorithms, prior reagents). Do not build a separate methods bibliography. A common failure when porting from a journal that footnotes methods is orphaned method citations that never made it into the alphabetical list — sweep the STAR Methods text for name-year tokens and confirm each resolves. Software and datasets cited in the Key Resources Table follow `cell-data` conventions (repository, accession/DOI, version) rather than the journal-article shape.
+
 ## Tooling
 
 - Use Zotero/EndNote with the **Cell Press** CSL/style; do a final manual pass on author-list completeness and journal-name form (managers often truncate).
 - Verify every in-text "(Author, year)" has a matching alphabetical entry, and that a/b suffixes disambiguate same-author/year citations.
+- Watch narrative vs. parenthetical placement: "Smith et al. (2020) showed…" keeps only the year in parentheses, while a parenthetical cite wraps both name and year — reference managers frequently mangle the narrative form on conversion.
 
 ## Output format
 

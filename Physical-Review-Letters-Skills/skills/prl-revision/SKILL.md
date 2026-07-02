@@ -39,6 +39,25 @@ Conventions that work with APS referees:
 - If you disagree, win on **evidence and physics**, not tone — add a control, a calculation, or a citation.
 - Respect the length limit: revisions that add material must re-balance via `prl-length-management` and `prl-supplementary`.
 
+## Worked micro-example: a response entry
+
+**Referee:** "The claimed effect could arise from heating."
+
+**Weak reply:** "We are confident heating plays no role."
+
+**Strong reply:** "We agree this must be excluded. We have added a power-dependence measurement (new Fig. S4): the amplitude is unchanged over a decade of drive power. Sec. III now states: 'The amplitude is power-independent, excluding a thermal origin (SM Sec. S4).'"
+
+The strong reply concedes the concern's legitimacy, answers with a *measurement* rather than confidence, and quotes the new sentence with its location — the pattern for every entry.
+
+## Resubmission packaging
+
+A PRL resubmission is judged as a package:
+
+- **Summary of changes** — lead with the revision answering the decision letter's central concern.
+- **One self-contained reply per referee** — do not make Referee B hunt through answers to Referee A.
+- **Length re-certification** — added controls count against the deductible budget; state that the revised Letter still passes, or what moved to SM to compensate.
+- **Timing** — resubmit complete rather than fast; a second round typically returns to the same referees.
+
 ## Handling the breadth/importance rejection specifically
 
 This is the signature PRL outcome. Options:

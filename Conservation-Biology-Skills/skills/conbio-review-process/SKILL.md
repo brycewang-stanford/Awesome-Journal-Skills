@@ -41,6 +41,31 @@ novelty, and conservation relevance before external review.
 - Match methods to the question and address detection, scale, and counterfactuals up front.
 - Clear ethics, permits, animal-care/IRB, and sensitive-data handling.
 
+## Desk-rejection triage (self-run before upload)
+
+Editors screen at the desk before spending reviewer time, so pre-empt the four recurring grounds:
+
+| Screening ground | Failing manuscript | Fix before submitting |
+|------------------|--------------------|-----------------------|
+| Conservation relevance | "Sound but inconsequential"; no decision named | Complete the actionability sentence (`conbio-conservation-relevance-and-implications`) |
+| Novelty / transferability | A local first-record or single-site description | Generalize the mechanism or decision rule so the lesson travels |
+| Scope fit | Belongs in a sibling venue | Re-route (see sibling guard) rather than force the fit |
+| Completeness / ethics | Missing permits, data statement, or masking | Clear `conbio-reporting-and-data-policy` and permit declarations first |
+
+**Worked triage.** A clean occupancy study of one reserve, framed as "we document species X at site Y,"
+reads as descriptive and local — a likely desk rejection. Reframed as "occupancy declines with edge
+density, so managers should buffer reserve edges when expanding," it names a decision and a transferable
+rule, and clears the relevance and novelty screens.
+
+## What Conservation Biology reviewers are asked to weigh
+
+Reviewers judge, in roughly this priority: whether the result has **direct implications for conserving
+biological diversity**; whether the design matches the ecological question (detection, scale,
+counterfactuals, pseudoreplication); whether uncertainty is honestly propagated into any recommendation;
+and whether the transferable lesson is stated without over-claiming. A methodologically clean paper that
+cannot answer "what conservation decision does this change?" is the modal reject. Anticipate this by
+writing the implications paragraph *for the reviewer*, not just the specialist.
+
 ## Anti-patterns
 
 - Submitting a local/descriptive study with no transferable conservation lesson

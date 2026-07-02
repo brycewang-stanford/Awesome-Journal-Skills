@@ -56,6 +56,39 @@ Show data points (superplots) for small `n`; never imply quantity from one pictu
 - Each panel letter referenced; magnification/scale bar on all micrographs.
 - Antibodies / markers / treatments named in the legend.
 
+## Worked micro-example: fixing a "representative blot" panel
+
+**Before:** Figure 2C is a single Western blot showing MARK7 down and cleaved-PARP up after treatment,
+captioned "representative of independent experiments."
+
+**Why a Cancer Cell reviewer rejects it as evidence:** one image cannot support a quantitative claim; the
+reader cannot see variance, `n`, or whether the effect is consistent.
+
+**After:** Figure 2C keeps the representative blot but adds 2C′ — densitometry normalized to loading
+control across four independent lysates, plotted as a superplot (individual points + mean), with the
+test and exact p in the legend. The uncropped full-length blot with MW markers moves to Figure S2. Now
+the panel carries a claim, not an anecdote.
+
+## Panel-order sanity check (per main figure)
+
+Read each figure left-to-right and ask whether it narrates one mechanistic step:
+
+1. **Perturbation** — what was changed (knockdown/knockout/inhibitor), with the validation of that perturbation.
+2. **Readout** — the phenotype or molecular consequence, quantified across replicates.
+3. **Mechanism** — the intermediate that connects perturbation to readout (binding, flux, signaling).
+4. **Orthogonal confirmation** — in vivo and/or human panel that the claim in the figure title needs.
+
+If a panel does not serve the figure's one-sentence title, move it to the supplement.
+
+## Cancer Cell figure failure modes reviewers cite
+
+- A migration/invasion or IHC figure with beautiful images but no per-field, per-tumor quantification.
+- Tumor-growth curves without `n` per arm, without the test, or truncated before humane endpoints.
+- Flow plots shown as gated dot-plots only, with no summary statistic across mice/donors.
+- A graphical abstract that asserts an axis (arrows implying causality) the main figures never establish.
+- Kaplan-Meier survival curves with no numbers-at-risk and no censoring shown.
+- Contrast/brightness pushed non-linearly, or a loading-control band reused across panels.
+
 ## Checklist
 
 - [ ] Every figure advances one mechanistic step; panel order tells a story

@@ -50,6 +50,30 @@ Change: [Section / page / passage where the revision appears].
 Open with a short **summary of the main changes** for the editor and Board; group by reader; end each
 entry with the location of every change so the editor can verify quickly.
 
+## What is distinctive about revising for PMLA
+
+- **The invitation is the only door.** PMLA will not consider **revised versions of manuscripts it
+  previously declined** — an invitation to revise is the essay's one resubmission channel. Use it
+  fully.
+- **You are persuading a committee.** Recommended essays go to the **Editorial Board**, which meets
+  with the editor to decide. Write the opening summary so a Board member who has read only the
+  reports can see what changed and why.
+- **The word range still binds** — **6,000–9,000 words including discursive notes** (Works Cited and
+  translations excluded). If a reader asked for expansion, budget the cut elsewhere first.
+- **New AI-assisted content must be cited** at resubmission, exactly as at first submission.
+- **Anonymity runs until the final decision** — the author's name stays withheld from readers,
+  Board, and editor — so the response letter itself must not identify you.
+
+## Worked micro-example (one response entry)
+
+*Weak:* "We thank Reader 2 for this helpful suggestion and have revised accordingly." — no location,
+no reasoning, nothing a Board member can verify.
+
+*Strong (schematic):* "Reader 2 finds the storm-scene reading 'assertive.' We agree the inference
+was compressed: section 3 now quotes the two lines at issue and walks from diction to claim
+(pars. 4–6). We retain the genre claim Reader 2 questions; note 6 states the reasoning." One
+concession, one reasoned stand, every change locatable.
+
 ## Anti-patterns
 
 - Ignoring or merging away a comment without a visible response

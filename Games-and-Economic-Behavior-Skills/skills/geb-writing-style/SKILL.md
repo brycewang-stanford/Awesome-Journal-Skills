@@ -38,6 +38,19 @@ Format facts that shape the writing:
 - Name the advance ("we characterize", "we prove existence", "we show equilibrium play converges to ...").
 - No throat-clearing; a game theorist should know what you proved from the abstract alone. Keep it under the 250-word cap.
 
+## Two prose lanes: theory and experiment
+
+GEB publishes both proofs and lab evidence, and each lane has its own exposition discipline:
+
+- **Theory lane** — theorems are the spine. Each formal environment gets a paragraph of interpretation before the formalism; each proof gets a one-sentence "idea of proof" before the argument; every assumption a theorem invokes is stated, not buried in a footnote — GEB referees audit assumption-to-result traceability.
+- **Experimental lane** — hypotheses come from the game's equilibrium (or behavioral) predictions and are stated *before* the design; the design section reads chronologically (subjects, matching, rounds, payment); results sentences pair the effect's direction with the theoretical benchmark ("play converges toward the risk-dominant profile"), not statistics alone.
+- Papers combining both lanes should let the theory section stand alone: the prediction must be graspable without the data section, and vice versa.
+
+## Micro-rewrite: an opening sentence
+
+- *Before:* "In this paper we consider a model in which n agents interact repeatedly under incomplete information and study its equilibria." — announces a model, promises nothing.
+- *After:* "We show that in repeated interactions with incomplete information, reputation effects select a unique equilibrium payoff — resolving a multiplicity that folk-theorem arguments cannot break." — states the result, names the obstacle, and tells a game theorist why to read on.
+
 ## Sentence-level craft
 
 - Define notation once; do not force the reader to hold many symbols to parse a sentence.

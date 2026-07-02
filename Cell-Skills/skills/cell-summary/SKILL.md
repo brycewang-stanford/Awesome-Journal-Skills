@@ -47,6 +47,24 @@ Because Cell demands completeness, the Summary should make clear that the mechan
 
 Every effect claim should carry a number somewhere in the paper, and the headline effect belongs in the Summary: magnitude + unit + (where natural) statistical support. A Summary with zero numbers is not finished.
 
+## What the in-house editor reads first
+
+Cell's initial triage is run by a professional in-house scientific editor, not a rotating academic. That editor decides in minutes whether the paper goes to review, and the Summary plus the title are usually all they have read when they decide. Two questions dominate that read: (1) is there a *complete mechanism* here, or only a phenotype awaiting explanation, and (2) will this move a field beyond the authors' own subspecialty. Write the Summary so both answers are visible without the figures. A Summary that names a molecule, a mechanistic verb, and a cross-field consequence survives triage; a Summary that lists assays performed does not.
+
+Because the editor also weighs breadth, the final sentence carries disproportionate weight — it is the sentence a reviewer-recruiting editor quotes when pitching the paper to a potential referee. Make the closing significance concrete (a process, a disease axis, a conserved principle), never a generic "these findings advance our understanding."
+
+## Worked micro-example (before → after)
+
+Before (method recap, no mechanism, no number, 41 words):
+
+> Here we performed single-cell RNA sequencing and CRISPR screening in mouse intestinal organoids to study stem-cell regulation. We identified several candidate regulators and validated one by knockout, which affected proliferation. These findings advance our understanding of tissue homeostasis.
+
+After (mechanism named, quantified, broad stake, 78 words toward the ≤150 ceiling):
+
+> How intestinal stem cells sense a depleted niche and pause division is unclear. Combining organoid CRISPR screening with lineage tracing, we find that the kinase XYZ1 phosphorylates the transcription factor ABC2, restricting its nuclear entry and holding stem cells in reserve. XYZ1 loss drives ABC2 into the nucleus, expands the stem pool 3.2-fold, and accelerates crypt regeneration after injury. XYZ1-ABC2 thus couples nutrient state to a reversible dormancy switch that safeguards regenerative capacity across self-renewing epithelia.
+
+The "after" version names the actor (XYZ1), the mechanism (phosphorylation gating nuclear entry), a quantified effect (3.2-fold), converging evidence (screen + tracing + loss-of-function), and a stake broader than the intestine.
+
 ## Output format
 
 ```

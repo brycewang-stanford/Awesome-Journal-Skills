@@ -65,6 +65,23 @@ description: Use as the final preflight before submitting to Cell — a complete
 - [ ] All accession numbers/DOIs live and correct.
 - [ ] Single-blind by default — do not anonymize unless double-blind requested. Confirm.
 
+## What the desk editor is deciding
+
+Submission goes through Cell Press Editorial Manager to an in-house scientific editor who makes the review-or-reject call before any referee sees the file. Two things they cannot recover later must be right at upload: the *conceptual advance* (does this reframe how the field thinks, not just add a data point) and the *completeness* (are the converging lines already in the manuscript, not promised in a rebuttal). The cover letter exists to state both in the editor's own vocabulary. Everything else in the preflight is hygiene; these two are the gate.
+
+Do not open the cover letter with "Please find enclosed our manuscript." Open with the advance. A serviceable first sentence: *"We report that [actor] [mechanism], resolving the long-standing question of [gap] and establishing [principle] as a [broad consequence]."* Then one short paragraph naming the converging lines of evidence (genetics + biochemistry + in vivo, say), one sentence on why Cell's broad readership specifically, and — if relevant — a candid line on any concurrent related work so the editor is not surprised. Keep it to a page.
+
+## Revision-specific gate
+
+When a revised manuscript goes back, run the checklist again but add: every promised experiment from the response letter is now *in* the paper or explicitly justified as out of scope; every referee-driven change is reflected in both the text and the figures (a common regression is updating a panel but not its legend or the Quantification and Statistical Analysis block); the response letter and the manuscript agree on every number; and no new claim crept in during revision without new evidence. Version the figures so an old panel cannot ship by accident.
+
+## Metadata traps specific to Cell Press
+
+- The **Lead Contact** is a distinct required role from the corresponding author and must match the Resource Availability statement in STAR Methods exactly — a frequent mismatch.
+- Cell uses **single-blind** review by default; do not strip author identity from the manuscript unless double-blind was explicitly requested, and confirm the current option on the portal.
+- CRediT contributions, competing-interests, and funding statements must be present as structured fields, not only prose.
+- Accession numbers and the Zenodo/Mendeley code DOI must appear identically in the KRT "Deposited Data" rows, the Data and Code Availability statement, and any Editorial Manager metadata field.
+
 ## Templates
 - `templates/checklist.md` — copyable preflight checklist.
 - `templates/cover_letter_template.md` — conceptual-advance cover-letter scaffold.

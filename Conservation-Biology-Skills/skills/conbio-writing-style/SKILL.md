@@ -49,12 +49,45 @@ current per-type caps; they drift between Style Guide versions — see `resource
   `conbio-literature-positioning`).
 - Prefer one decisive figure to three redundant tables (and respect the ~one-exhibit-per-four-pages rule).
 
+## Worked micro-rewrites (Conservation Biology house style)
+
+**Title.** The Style Guide bars hanging, full-sentence, and interrogative titles, so recast the
+question or clause as a declarative noun phrase that names taxon, mechanism, and conservation stake.
+
+- Interrogative (rejected): *"Do restored hedgerows recover farmland birds?"*
+- Hanging colon (rejected): *"Farmland birds: hedgerow restoration and occupancy."*
+- Declarative (accepted): *"Restored hedgerows recover farmland-bird occupancy within five years across
+  a fragmented region."* — states the finding, the guild, and the transferable scale in one line.
+
+**Abstract compression.** When the ≤ 300-word abstract runs long, cut in this order: delete
+method-brand phrases first ("using a Bayesian implementation"), collapse background to one clause, and
+protect the finding-with-direction and the conservation payoff last. A sentence such as *"We conducted
+a study in which we surveyed sites and subsequently fitted models to the resulting data"* becomes *"We
+surveyed 60 farms and modeled occupancy"* — same content, roughly a third of the units.
+
+**Discussion, not Conclusion.** Because there is no separate Conclusion section, the implications land
+in the Discussion. Do not close with an "In conclusion" paragraph; end on the scope-bounded
+conservation recommendation instead, and route the so-what through
+`conbio-conservation-relevance-and-implications`.
+
+## Cutting to the cap without losing the argument
+
+The count runs Abstract → Literature Cited, so trim where units are cheapest to lose:
+
+- Move full model tables, balance diagnostics, and sensitivity runs to Supporting Information; the
+  legend and in-table text do not count, but a wall of in-text numbers does.
+- Replace three redundant tables with one decisive figure (honor ~one exhibit per four pages).
+- Prune the literature review to the papers you actually argue with; a citation dump inflates Literature
+  Cited, which *is* counted, for no argumentative gain.
+- Delete throat-clearing ("It is well known that…", "has been studied extensively") on sight.
+
 ## Anti-patterns
 
 - A system-insider intro that never states conservation relevance
 - Burying the contribution in the middle of the paper
 - An abstract over 300 words or one that hides the finding
 - Hanging/interrogative/full-sentence titles; mixed citation styles
+- A stray "In conclusion" paragraph duplicating the Discussion
 - Self-references that break the double-blind; padding a Research Note toward Contributed-Paper length
 
 ## Output format

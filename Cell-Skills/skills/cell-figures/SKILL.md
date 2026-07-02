@@ -56,6 +56,24 @@ Each legend: a short **title sentence** (the claim of the figure), then **per-pa
 - Keep **unprocessed source images and source data** — Cell may request them.
 - Follow the **Cell Press digital image guidelines** for adjustments (apply linearly to the whole image; no obscuring/eliminating features).
 
+## Worked legend (stand-alone structure)
+
+A Cell legend leads with the claim, walks the panels, then consolidates statistics — so the figure is readable without the Results text:
+
+> **Figure 3. XYZ1 restrains stem-cell division by excluding ABC2 from the nucleus.**
+> (A) Schematic of the organoid CRISPR screen. (B) Confocal images of ABC2 (green) in control vs. *Xyz1*-knockout crypts; scale bar, 20 µm. (C) Quantification of nuclear ABC2 signal. (D) Stem-pool size by lineage tracing.
+> Data in (C) and (D) are mean ± SD; n = 6 independent biological replicates (organoid lines from separate mice) per condition. Statistical test: two-tailed Mann-Whitney U; exact P values shown. See STAR Methods, "Quantification and Statistical Analysis."
+
+The title states the message, each panel is named, the scale bar lives in the panel it belongs to, and the stats block defines n, replicate type, error bar, and test in one place — then points to STAR Methods rather than re-deriving it.
+
+## What a Cell referee checks in figures
+
+Cell referees are asked to interrogate a *complete* story, so they read figures for evidence sufficiency, not decoration. Common figure-driven rejection or major-revision triggers: a mechanistic claim resting on a single assay with no orthogonal confirmation; bar-of-means hiding an n of 3 with wide spread; representative micrographs with no quantification across replicates; error bars whose definition or n is missing; and any blot that looks spliced without a disclosed boundary. Pre-empt each: pair every key claim with a second method in the same or an adjacent panel, show the points, and keep uncropped source images ready — Cell may request them during review.
+
+## Graphical Abstract vs. main figures
+
+The Graphical Abstract (see `cell-highlights`) is a single-panel *story* image, not a display item — do not carry a main-figure panel into it or vice versa. Keep the two consistent in color and iconography so a reader who scans the abstract recognizes the same scheme in the figures, but never let the Graphical Abstract stand in for a quantified figure.
+
 ## Output format
 
 ```

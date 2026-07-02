@@ -44,6 +44,27 @@ PRL referees in physics are sharp about systematics and alternative explanations
 - Name the alternative explanation and the control that excludes it.
 - For theory: state assumptions explicitly; relegate algebra to SM but keep the physical logic inline.
 
+## Worked micro-example: compressing an apparatus paragraph
+
+**Before (regular-article register):**
+
+> "The cryostat was cooled over 48 hours. Thermometry used a calibrated sensor. Wiring consisted of filtered twisted pairs. Measurements used a lock-in amplifier after verifying frequency independence."
+
+**After (trust-minimum, one sentence + SM pointer):**
+
+> "Measurements were performed in a dilution refrigerator with filtered wiring and calibrated thermometry; checks bounding self-heating below the quoted uncertainty are given in the Supplemental Material [ref]."
+
+The rewrite keeps what a skeptical physicist needs — the environment, the leading artifact class, where the exhaustive checks live — and returns a paragraph of budget to the physics.
+
+## Sentence patterns that buy trust cheaply
+
+- **Control-in-a-clause:** "The signal is absent at zero applied field, ruling out pickup as its origin."
+- **Split uncertainty:** "We obtain X = value ± (stat) ± (syst), the systematic dominated by calibration drift."
+- **Assumption flag (theory):** "Throughout we assume [condition]; relaxing it modifies only the prefactor (SM Sec. S2)."
+- **Convergence one-liner:** "Results are converged in system size to within the plotted symbol size."
+
+Each pattern replaces a defensive paragraph with one load-bearing sentence.
+
 ## Checklist
 
 - [ ] Body methods are the minimum needed to trust the central claim

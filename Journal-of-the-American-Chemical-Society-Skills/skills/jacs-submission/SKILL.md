@@ -65,6 +65,38 @@ description: Use when running the final pre-submission preflight for a Journal o
 - Enter ORCID, conflicts, funders, and reviewer suggestions in the system fields.
 - Keep file sizes within the portal limits; check the generated PDF before approving.
 
+## Assembled-proof audit (the last human read)
+
+The merged PDF that Paragon Plus builds is what the editor first sees. Read it
+end-to-end once, hunting only for assembly damage:
+
+- [ ] Superscripts/subscripts survived conversion (¹³C, m/z, R1/wR2, °C, Å, δ)
+- [ ] ChemDraw schemes rasterized sharply; wedge/hash bonds still distinguishable
+- [ ] Bold compound numbers stayed bold in captions and tables
+- [ ] Cross-references resolve — no "Scheme ??", no SI pointer to a section that moved
+- [ ] TOC graphic sits in its slot, uncropped, text legible at printed size
+- [ ] SI page numbering continuous; SI table of contents matches actual sections
+- [ ] CCDC numbers in text match the deposited CIF filenames one-to-one
+
+## Timeline discipline (avoid same-day chaos)
+
+- **Days before:** deposit CIFs with the CCDC and obtain numbers; run checkCIF;
+  collect every co-author's ORCID and conflict statement; confirm the reviewer
+  list with the corresponding author.
+- **Day before:** freeze compound numbering; regenerate the SI PDF from the
+  frozen text so spectra order matches; verify HRMS calcd/found pairs against
+  the final structures one last time.
+- **Submission day:** only mechanical steps remain — uploads, metadata, proof
+  audit, approve. If a chemistry-content edit surfaces on submission day, stop
+  and loop back to `jacs-methods` or `jacs-writing-style`; do not patch in the portal.
+
+## What triggers a bounce-back before review
+
+- Abstract/TOC graphic mismatch — the graphic shows chemistry the abstract never claims
+- A CIF that fails checkCIF with unexplained A-level alerts
+- SI referenced in the text ("see Figure S12") but the figure absent from the uploaded SI
+- Corresponding-author email that differs between the manuscript and the portal record
+
 ## Anti-patterns
 
 - Submitting with CIFs undeposited or CCDC numbers as placeholders

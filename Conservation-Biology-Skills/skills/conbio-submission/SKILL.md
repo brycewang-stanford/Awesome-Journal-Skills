@@ -61,9 +61,39 @@ page before relying on them (per-type caps can change — see `resources/officia
       (see `conbio-reporting-and-data-policy`)
 - [ ] Sensitive-species data masked; restricted-data access path provided
 
+## ScholarOne file manifest (stage the upload in this order)
+
+`cobi` on Manuscript Central expects the pieces as separate files, not one merged PDF. Assemble:
+
+1. **Anonymized main document** — blinded manuscript with the abstract, IMRAD body, Literature Cited,
+   and the Supporting Information paragraph; no names, affiliations, or acknowledgments.
+2. **Separate title page** — the non-anonymous file carrying authors, affiliations, ORCID, and the
+   corresponding author. Keep it out of the blinded document entirely.
+3. **Figures, tables, and maps** — self-contained, colorblind-safe, legible in grayscale, with sensitive
+   localities masked (see `conbio-figures-and-tables`).
+4. **Supporting Information** — full model output, balance/sensitivity runs, protocols.
+5. **Statements** — data-availability statement, ethics/permits/animal-care/human-subjects declarations,
+   and any conflict-of-interest text.
+
+Confirm the exact file prompts, declaration wording, and any per-type caps on the live Wiley Instructions
+for Authors page during upload week; treat all of them as live-check items.
+
+## Anonymization scrub sequence (the most common avoidable failure)
+
+Run these in order before the blinded document is final:
+
+- Strip **document metadata**: author name in file properties, tracked-change authorship, comment
+  initials, and the PDF producer/author fields.
+- Neutralize **self-citation**: change "as we showed in (Author 2021)" to "as shown in (Author 2021)";
+  keep the reference in Literature Cited so the argument is intact.
+- Blind **fieldwork tells**: an unusual site name, a named permit number, or a lab-specific dataset can
+  identify the group as surely as a byline — describe the site generically in the blinded copy.
+- Move all **acknowledgments and funding** to the title page; they routinely leak identity.
+
 ## Anti-patterns
 
 - Leaving author identifiers in the text, acknowledgments, or file metadata (breaks double-blind)
+- Merging the title page into the blinded manuscript instead of uploading it as a separate file
 - Abstract over 300 words; word count outside the chosen type's cap
 - Sending a long paper to the Research Note or Comment type
 - Choosing Registered Reports after results exist

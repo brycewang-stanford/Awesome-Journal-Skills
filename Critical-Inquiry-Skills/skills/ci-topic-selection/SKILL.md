@@ -39,6 +39,33 @@ A strong CI essay usually clears all four:
 | Philosophy / aesthetics | ground the concept in objects or cases, not only in the literature of the concept |
 | Politics / history | show the conceptual or critical stakes, not just the empirical record |
 
+## Pitch test — one paragraph, addressed across fields
+
+Write the project as a short pitch aimed at a serious critic in a *different* field, then grade it
+against the fit test above.
+
+**Before (department-internal).** *"No one has yet read this novelist's late letters alongside her
+marginalia; doing so recovers a more ambivalent stance toward revision than the criticism
+acknowledges."* Competent, publishable — elsewhere; nothing travels past the subfield.
+
+**After (CI-shaped).** *"Revision is treated across the humanities as improvement — movement toward
+the work the author 'really' intended. These letters and marginalia show revision keeping a work
+permanently unsettled instead — and textual editing, art history's definitive state, and the
+philosophy of intention all inherit the confusion."* Same archive; now the claim has consequences
+in three fields. (Fictional project.)
+
+If no rewrite gives another field a reason to care, the project belongs in a field journal —
+learning that now costs a paragraph, not a year.
+
+## Quick disqualifiers (settle before investing)
+
+- The strongest available sentence begins "No one has yet examined…" — coverage novelty is not an
+  intervention.
+- Deleting the theorist's name from the pitch changes nothing — the theory is décor.
+- The claim needs counts, a corpus, or a dataset to persuade — wrong venue.
+- The whole point is contesting one prior CI essay — that is a **Critical Response**, not a stretched
+  Article.
+
 ## Format choice
 
 - **Article** — full argument, broad theoretical claim, **≤ 9,500 words** (incl. notes and all

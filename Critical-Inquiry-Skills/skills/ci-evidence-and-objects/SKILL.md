@@ -36,6 +36,33 @@ read them so the claim is earned, and prepare images to the journal's standard.
   honesty about the object strengthens the intervention (see `ci-argument-and-intervention`).
 - **Tie every reading to the turn.** Each analysis should advance the claim, not display erudition.
 
+## Object dossier (one per object, before drafting)
+
+The footnote is CI's only bibliographical record and image rights are the author's problem; settle
+these per object before drafting:
+
+- **Exact edition, translation, or version.** The Chicago note cites what you actually read; for
+  translated material, decide whose translation carries the analysis.
+- **Images:** locate a source yielding **300 ppi JPEG/TIFF**, identify the rights holder, estimate
+  permission cost *now* — a reading built on an image you cannot clear is stranded.
+- **Films / performances:** fix the print, cut, or recording analyzed; the frame the claim rests on
+  may not exist in another version.
+- **The recalcitrant detail:** the feature most likely to embarrass the claim, and where the essay
+  meets it.
+- **The falsifier sentence:** "if this object does not show ___, the claim about ___ fails." If
+  nothing could fail, the object is decoration.
+
+## Micro-example — illustration vs. test
+
+**Illustrating (weak).** *"The daguerreotype confirms the standard account of the copy: a mechanical
+reproduction lacking the presence of an original."* The sentence survives with any photograph
+substituted, or none — the object merely nods along.
+
+**Testing (CI-shaped).** *"On that account the daguerreotype should have shed its singularity — yet
+the creased corner and pencilled date on its verso are exactly what the sitter's descendants travel
+to touch; either singularity survives reproduction unpredicted, or it was never singularity, and the
+essay must decide."* A material detail forces a choice the concept cannot make alone. (Fictional.)
+
 ## Images to journal standard
 
 - Supply images as **separate files**, **300 ppi**, **JPEG or TIFF** — not embedded in the Word file.

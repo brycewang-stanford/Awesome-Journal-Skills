@@ -54,10 +54,28 @@ NEJM's statistical reporting guidance favors **effect estimates with 95% confide
 - Pre-specify **interim analyses / stopping boundaries**; report them if a DSMB acted.
 - For non-inferiority: state the pre-specified **margin** and its justification.
 
+## What the statistical reviewer probes
+
+NEJM routinely assigns trials a dedicated statistical reviewer (see `nejm-rebuttal`). Pre-empt the line items:
+
+- [ ] **SAP concordance** — every analysis traces to the pre-specified SAP; deviations listed and dated.
+- [ ] **Event counts behind every ratio** — per-arm numerators and denominators for every reported estimate.
+- [ ] **CI width, not just position** — an interval spanning trivial and decisive effects is inconclusive.
+- [ ] **Assumptions checked** — proportional hazards verified; how stratification variables entered the model.
+- [ ] **Cross-location consistency** — the same estimate, to the same decimal, in abstract, text, tables, and figures.
+
+## Worked micro-example — a subgroup claim (before → after)
+
+- Before: "The benefit was significant in patients older than 65 years (P=0.04) but not younger (P=0.31), so older patients should receive the drug."
+- After: "The hazard ratio was 0.68 (95% CI, 0.47 to 0.98) among patients older than 65 years and 0.89 (95% CI, 0.64 to 1.24) among younger patients (P=0.29 for interaction)."
+
+The estimates, CIs, and interaction test replace significance chatter; the nonsignificant interaction disciplines the conclusion. (Numbers invented.)
+
 ## Output format
 
 ```
 【Per-outcome reporting】 effect + 95% CI present for primary + key secondary? gaps: [...]
+【Statistical-reviewer preflight】 SAP concordance / event counts / assumptions / cross-location consistency? yes/no
 【Primary analysis population】 ITT primary? per-protocol as sensitivity? yes/no
 【Multiplicity】 hierarchy/adjustment pre-specified? exploratory endpoints labeled? yes/no
 【Subgroups】 pre-specified? interaction tests reported? over-interpretation flags: [...]

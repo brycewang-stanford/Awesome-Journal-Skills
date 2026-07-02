@@ -39,6 +39,28 @@ description: Use when deciding what belongs in appendices versus the main text o
 - Do not use an appendix to **hide a gap**: if a step is essential and hard, it stays
   visible. Appendices are for length relief, not for sweeping difficulty out of sight.
 
+## When an appendix is not enough: the companion-paper option
+
+If auxiliary material grows into a self-contained contribution — its own theorem and
+proof, plausible independent use — a companion paper is the honest structure, not a
+hundred-page appendix. The canonical precedent, verified in
+`resources/exemplars/library.md`: Wiles's 1995 modularity paper ran alongside the
+Taylor–Wiles companion in the same Annals issue, citing it for the input it needs.
+The discipline carries over: state precisely what you import, and prove it fully where
+it lives. A companion is a second refereed paper, never a place to park an unproved
+step.
+
+## Appendix mechanics
+
+- Use letter appendices (Appendix A, B, …) with results numbered A.1, A.2, so
+  main-text citations stay unambiguous.
+- Each main-text use reads like an import: "By Proposition A.2 (proved in Appendix A),
+  estimate (4.7) holds with C = C(n)" — so the reader can defer the appendix and still
+  audit the logic.
+- Order appendices by first citation from the main text, not by topic.
+- A referee should be able to read all appendices last, in one pass; an appendix that
+  must be consulted mid-argument belongs in the main text.
+
 ## Computer-assisted proofs
 
 - If a result depends on machine computation, describe **precisely what was computed**, the

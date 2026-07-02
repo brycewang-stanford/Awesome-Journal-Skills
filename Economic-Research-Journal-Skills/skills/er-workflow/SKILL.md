@@ -95,3 +95,12 @@ description: Use when deciding which er-* sub-skill to invoke next, or when sequ
 - **不要**让 `er-tables-figures` 在识别策略未立住时就美化表格
 - **不要**让 `er-rebuttal` 在你修订正文之前生成回复信
 - **不要**把 `er-reviewer-lens` 当成投稿后才看的东西——它是投稿前的镜子
+
+## 输出格式
+
+```
+【当前阶段判断】选题 / 写作 / 实证 / 打磨 / 投稿 / 外审回复
+【主要瓶颈】（一句话）
+【建议调用】er-XXX（理由一句话）
+【后续两步】er-XXX → er-XXX
+```

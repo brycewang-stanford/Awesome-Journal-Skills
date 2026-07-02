@@ -1,6 +1,6 @@
 ---
 name: er-rebuttal
-description: Use when responding to reviewer reports for an Economic-Research R&R. Produces the point-by-point response letter and aligned manuscript edits.
+description: Use when responding to reviewer and editorial-board reports for an 《经济研究》 (Economic Research Journal) R&R — sequencing manuscript revision before letter writing, drafting point-by-point replies in the accept / partial-accept / decline modes, prioritizing 编委 theory-positioning comments, and deciding whether new results go in the body or an appendix. 使用时机：收到《经济研究》外审或编委意见、准备修订正文并撰写逐条回复信、或多轮修改中回复与正文出现不一致时。
 ---
 
 # 修改回复（er-rebuttal）
@@ -78,6 +78,34 @@ description: Use when responding to reviewer reports for an Economic-Research R&
 - 编委意见若关于**理论定位**，必须重点回应——这是《经济研究》最看重的
 - 审稿人若要求"补充识别策略稳健性"，应额外加 2–3 个稳健性表格附在文末
 - 审稿人若要求"补充机制" → 优先在正文加机制小节，而非附录
+
+## 新增结果放正文还是附录
+
+审稿要求补做的分析，按"是否改变论文骨架"决定去处：
+
+- **进正文**：触及理论定位的重构、新的机制小节、替换主识别策略的估计——这些是编委和二轮审稿人必看的内容，藏进附录会被视为敷衍。
+- **进文末补充表 / 附录**：同方向的额外稳健性、替换度量、剔除子样本——正文一句话总结 + "详见附表 X"即可，避免正文膨胀冲淡主线。
+- **只进回复信**：为回应质疑做的反事实演算、与审稿人商榷的文献梳理——若与论文主张无直接关系，写在回复信里比塞进正文更得体。
+
+拿不准时问一句：**二轮审稿人只读修订版正文能否独立看懂这处修改的动机？**不能，就升格进正文。
+
+### 回复措辞微型对照
+
+> ❌ 改写前："审稿人的这一担心是多余的，我们的工具变量显然满足排他性。"
+>
+> ✅ 改写后："审稿专家对排他性的担心非常关键。我们从两方面补充了证据：其一，控制了可能构成直接渠道的 X 后系数基本不变（附表 3）；其二，安慰剂检验显示工具变量对不受政策影响的 Y′ 无解释力。我们同时在正文 4.2 节补充了对排他性假设适用边界的讨论。"
+
+原则：**反驳靠新证据说话，不靠形容词**；语气谦逊但立场清晰，避免"显然""多余"一类刺激性措辞。
+
+## 意见—修订对照表（附在回复信首）
+
+多轮、多审稿人的 R&R，建议在回复信开头放一张总览表，编辑部核对效率高、印象分好：
+
+| 编号 | 来源 | 意见主题 | 处理 | 正文位置 |
+|-----|------|--------|------|--------|
+| 1 | 编委 | 理论定位 | 完全接受，重写 2.1 节 | P.5–7 |
+| 2 | 审稿人 1 | 平行趋势 | 完全接受，新增事件研究图 | 图 2 |
+| 3 | 审稿人 2 | 更换被解释变量 | 部分接受，附表 4 + 正文说明 | P.18 |
 
 ## 必查清单
 

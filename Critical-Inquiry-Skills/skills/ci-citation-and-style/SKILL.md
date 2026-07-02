@@ -36,6 +36,23 @@ an afterthought. Verify the current edition and wording on the official page.
 - **Secure permissions** for all published images **yourself, before publication**; keep a permissions
   log with rights holder, scope, and cost (see `ci-evidence-and-objects`, `ci-submission`).
 
+## Micro-example — first note, short form, and the trim
+
+- **First citation:** `1. Author Name, *Title of the Book* (City: Publisher, Year), 45–47.`
+- **Short form thereafter:** `14. Name, *Title*, 52.` — the same short title every time.
+
+**The trim.** Before: *"It is worth noting that the debate over this term has a long history that
+cannot be rehearsed here, though see [six sources], which complicate the picture in ways deserving
+fuller treatment."* After: *"The term's history is contested; the positions that matter here are
+[source] and [source], who divide over X."* A note must argue something the body cannot pause for,
+or shrink to its citations.
+
+## Note-budget audit (run before ci-submission)
+
+1. Flag every note over ~60 words: trim as above, or promote it into the body.
+2. Confirm short forms consistent and numbering **consecutive with no gaps** after late cuts.
+3. Reconcile the figure list with the notes: each image needs caption, credit line, permissions entry.
+
 ## Manuscript format
 
 - **Microsoft Word** file for the manuscript text (the required submission format).

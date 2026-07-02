@@ -42,6 +42,18 @@ description: Use when organizing the exposition and structure of a pure-mathemat
 | Consequences | Corollaries and remarks |
 | Appendices | Auxiliary/technical material (see anmath-supplementary) |
 
+## Numbering and cross-reference conventions
+
+- Number theorem-like environments in one per-section sequence (Theorem 3.1,
+  Lemma 3.2, Corollary 3.3) so a referee deep in a long verification can locate any
+  statement from its number alone.
+- Give the headline result a stable early label — Theorem 1.1, or letters
+  (Theorem A, B, …) in a long paper — and use it everywhere.
+- Number displayed equations only when referenced; an unnumbered-but-needed display
+  forces "the equation above," which breaks silently under revision.
+- Open each section with what it proves and what it consumes: "In this section we
+  prove Proposition 3.1, using Lemma 2.4."
+
 ## Diagrams and figures (when justified)
 
 - **Commutative diagrams**: use `tikz-cd` (or `amscd`) when a chain of maps or an exact
@@ -51,9 +63,20 @@ description: Use when organizing the exposition and structure of a pure-mathemat
 - **Tables**: occasionally useful for case enumerations or notation summaries; keep clean.
 - Most Annals papers have zero figures — do not add one for decoration.
 
+## Micro-example: when a diagram earns its place
+
+Prose version: "The map φ factors through the quotient, and the induced map commutes
+with the two projections of Section 2."
+
+As a `tikz-cd` square with labeled arrows, the same content is checkable at a glance.
+That is the admission test — the referee verifies commutativity faster from the
+picture than from the sentence. A picture that merely restates a relation the prose
+already makes precise is decoration.
+
 ## Checklist
 
 - [ ] Every definition/lemma/proposition/theorem is stated before it is proved
+- [ ] Numbering is one per-section sequence; the headline theorem has a stable label used everywhere
 - [ ] Every symbol is defined at first use and used consistently
 - [ ] Sections are logically ordered with clear one-line openers
 - [ ] External results used are recalled precisely (statement + citation)

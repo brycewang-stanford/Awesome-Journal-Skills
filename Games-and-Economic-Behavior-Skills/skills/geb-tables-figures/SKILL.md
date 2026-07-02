@@ -40,6 +40,32 @@ GEB papers are game-theoretic, so the most valuable exhibits make **strategic st
 - Notation in exhibits matches the body exactly.
 - Legible at print size; equilibria/key cells visually flagged.
 
+## Worked micro-example: a payoff-matrix caption
+
+- *Before:* "Table 1. The stage game." — a referee must reread Section 2 to
+  decode rows, columns, and which cells matter.
+- *After:* "Table 1. Stage-game payoffs (row player first). Boldface cells are
+  the two pure-strategy Nash equilibria; the starred cell is the risk-dominant
+  one selected by Theorem 1." — the caption now says which equilibria exist,
+  how they are marked, and which result the table supports.
+
+Game trees get the same upgrade: say what the dashed information sets encode
+and which subgame the accompanying proposition solves.
+
+## Referee expectations at GEB (exhibit-level)
+
+- **Equilibrium verifiability:** a referee may recompute a finite example's
+  equilibria (e.g., in Gambit); the matrix or tree must carry every payoff
+  needed to do so.
+- **Assumption traceability:** an assumption-to-theorem map is the cheapest
+  answer to "which results survive if Assumption 3 is dropped" — a standard
+  GEB generality probe.
+- **Session-level honesty:** pooling over sessions without showing session
+  scatter invites an immediate clustering objection; sessions, not subjects,
+  are the independent unit in interactive games.
+- **Print discipline:** elsarticle typesetting punishes wide matrices; split a
+  large game into per-subgame panels rather than shrinking fonts.
+
 ## Anti-patterns
 
 - A complex extensive-form game described only in words

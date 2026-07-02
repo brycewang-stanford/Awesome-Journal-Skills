@@ -48,6 +48,29 @@ quotation, translation, and discursive notes. Get this right; reviewers and edit
 - [ ] Translation policy stated and applied; originals/translations cited
 - [ ] Discursive notes are substantive (and the word count accounts for them; works cited and translations do not)
 
+## Worked micro-example (entry + in-text key)
+
+*Before (footnote habit, wrong system):* a superscript note reading "1. F. Lastname, *Book Title*
+(City: Press, Year), 45." — numeric notes as the citation system are not MLA.
+
+*After (MLA core elements):* Works Cited entry "Lastname, Firstname. *Book Title*. Press, Year."
+with in-text "(Lastname 45)"; with **two works by the same author**, disambiguate by shortened
+title: "(Lastname, *Book Title* 45)".
+
+## Citation under anonymous review (PMLA-specific)
+
+Blind review shapes the citation apparatus itself:
+
+- **Cite your own prior work in the third person** — "as Lastname has argued (12)" is correct;
+  "as I argued in my earlier essay" is a deanonymizing error.
+- **Do not omit your own relevant work** to hide authorship; a visible gap is as telling as a
+  first-person reference. Third-person citation solves both problems.
+- **Strip identifying acknowledgments and metadata** before upload (see `pmla-submission`).
+- **AI-generated content must be fully cited at submission** — a citation duty under PMLA policy.
+
+Reviewers read the Works Cited as part of the argument — audit it for coverage of the positions the
+essay contests, not only those it agrees with.
+
 ## Anti-patterns
 
 - Using APA/Chicago/numeric styles instead of MLA

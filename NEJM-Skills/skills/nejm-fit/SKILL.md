@@ -1,6 +1,6 @@
 ---
 name: nejm-fit
-description: Use first, before any writing, to stress-test whether a clinical study clears NEJM's bar — practice-changing clinical impact, methodological rigor, and generalizability. Decides NEJM vs Lancet/JAMA vs a specialty journal.
+description: Use this first, before any writing, to stress-test whether a clinical study clears NEJM's bar — practice-changing clinical impact, methodological rigor, and generalizability. Decides NEJM vs Lancet/JAMA vs a specialty journal.
 ---
 
 # Clinical Significance Fit (nejm-fit)

@@ -47,6 +47,31 @@ appear — within the **~8,000-word** article limit. (Sentence-level polish is `
 - Tighten or fold footnotes — digressive notes are where word budgets quietly bleed.
 - If still over, the cut is usually a **second, weaker argument** for the same thesis: keep the best one.
 
+## A default word budget for the ~8,000
+
+| Section | Share | Discipline |
+|---------|-------|------------|
+| Introduction (thesis + roadmap) | ~10% | claim stated by end of page one |
+| Setup (terms, target view) | ~15% | only what the inference will use |
+| The argument | ~35% | load-bearing premise gets the most room |
+| Objections & replies | ~25–30% | strongest objection answered visibly |
+| Conclusion | ~5% | restates what was established; nothing new |
+
+Treat the shares as defaults, not rules: a counterexample paper spends more on making the case
+undeniable; a dilemma paper spends more on closing escape routes. What is non-negotiable is that every
+section earns its share by advancing the inference.
+
+## Worked micro-example: the roadmap sentence
+
+- *Before:* "In what follows I discuss several issues surrounding grounding and explanation." — this
+  announces a region, not a route; the reader cannot anticipate the argument or check its progress.
+- *After:* "§2 states the argument; §3 defends its second premise against the regress worry, which I
+  take to be the strongest objection; §4 shows the view survives the two standard counterexamples." —
+  every section now has a stated job the reader can verify.
+
+Naming the strongest objection in the roadmap also signals to a Mind referee that the dialectic has
+been thought through.
+
 ## Anti-patterns
 
 - A thesis that surfaces only on page 6

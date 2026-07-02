@@ -38,6 +38,25 @@ done.
 - **Scope conditions.** Say where the claim holds and where it does not — ambition with honesty, not
   overreach.
 
+## Micro-example — thesis into intervention
+
+**A reading:** *"Reading the novel through the theorist reveals its ambivalence about modernity."*
+Every term is replaceable; no field must move when it lands.
+
+**An intervention (reconceive):** *"Ambivalence is not a residue the critic detects but a formal
+achievement the novel constructs — once seen so, the method of diagnosing what a text 'really feels'
+loses its object."* It names what changes, declares its type, and could draw a Critical Response.
+(Fictional example.)
+
+## Pressure-test the intervention
+
+- **Stranger test** — a philosopher or art historian could restate the claim after one reading.
+- **Obituary test** — "critics can no longer ___" has a real completion.
+- **Reply test** — a Critical Response against it is imaginable; uncontestable usually means
+  unambitious.
+- **Removal test** — deleting the thesis collapses the essay rather than shortening it.
+- **Budget test** — earnable inside ~9,500 words including notes, not a book in disguise.
+
 ## Calibrate the ambition
 
 - Too small: a reading with no consequence beyond its object → raise the conceptual stakes.
