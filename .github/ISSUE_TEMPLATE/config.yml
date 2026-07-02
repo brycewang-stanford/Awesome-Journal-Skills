@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: CoPaper.AI
+    url: https://copaper.ai
+    about: 维护团队主页 · Maintainer homepage
+  - name: StatsPAI（执行层 · execution layer）
+    url: https://github.com/brycewang-stanford/StatsPAI
+    about: 执行桥工具本身的 bug 请报到 StatsPAI 仓库 · Report execution-layer tool bugs to the StatsPAI repo

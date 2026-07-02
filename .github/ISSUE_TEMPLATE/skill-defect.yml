@@ -1,0 +1,36 @@
+name: Skill 缺陷 / Skill defect
+description: 某个 skill 触发不了、指导错误或输出质量差 / A skill fails to trigger, gives wrong guidance, or produces poor output
+title: "[缺陷] "
+labels: ["skill-defect"]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill 路径 · Skill path
+      placeholder: e.g. Research-Toolkit-Skills/skills/rt-execution-bridge/SKILL.md
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 缺陷类型 · Defect type
+      options:
+        - 触发问题 Trigger（该出现时不出现 / 不该出现时出现）
+        - 内容错误 Content（指导与 venue 实际要求不符）
+        - 输出质量 Output（产物结构差 / 泛泛而谈不像该刊）
+        - 执行桥 Execution（StatsPAI / Stata MCP 调用失败或数字错误）
+        - 其他 Other
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: 复现步骤 · How to reproduce
+      description: 你的提示词 + 期望行为 + 实际行为 · Your prompt, expected vs actual behavior
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: 环境 · Environment
+      placeholder: e.g. Claude Code v2.x, pack installed via /plugin marketplace add

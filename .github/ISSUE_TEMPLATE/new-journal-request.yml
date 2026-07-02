@@ -1,0 +1,44 @@
+name: 新期刊申请 / New journal request
+description: 申请收录一本新期刊或会议 / Request coverage for a new journal or conference
+title: "[新刊] "
+labels: ["new-venue"]
+body:
+  - type: input
+    id: venue
+    attributes:
+      label: 期刊/会议全名 · Venue full name
+      placeholder: e.g. Journal of Economic Perspectives /《经济学动态》
+    validations:
+      required: true
+  - type: input
+    id: official-url
+    attributes:
+      label: 官网链接 · Official homepage / author guidelines URL
+      description: 必须是官方来源（出版社或期刊自己的页面）· Must be an official source
+      placeholder: https://...
+    validations:
+      required: true
+  - type: dropdown
+    id: form
+    attributes:
+      label: 期望收录形态 · Desired coverage form
+      options:
+        - 深度包 Depth pack（单刊全流程，约 12 个 skill）
+        - 广度合集条目 Breadth-bundle entry（选刊定位 + 写作风格）
+        - 不确定 Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 为什么值得收录 · Why this venue matters
+      description: 学科地位、目标作者群、与现有 195 个 pack 的差异 · Standing, audience, gap vs existing packs
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交前确认 · Pre-submit checks
+      options:
+        - label: 我已搜索过 README 与现有 issue，该 venue 尚未收录也无人申请 · I searched the README and open issues; not already covered or requested
+          required: true

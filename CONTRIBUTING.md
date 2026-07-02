@@ -77,3 +77,31 @@ git diff --check
 - For source-map cleanup, use `python3 tools/source_map_audit.py` to find files
   with missing URLs, missing check dates, or heavy unresolved-flag loads. The
   tool is report-only unless run with `--strict`.
+
+## Minimum acceptance bar for a new pack（新 pack 最小验收线）
+
+A new depth pack is mergeable only when ALL of the following hold. This is the
+same bar the repo's own maintenance waves are held to:
+
+1. **Structure** — 8–14 skills, each a `skills/<name>/SKILL.md` with `name` +
+   `description` frontmatter; a pack `README.md` and `README.zh-CN.md`; a
+   `.claude-plugin/plugin.json`; registration in the root
+   `.claude-plugin/marketplace.json`.
+2. **Facts discipline** — `resources/official-source-map.md` with ≥1 official
+   URL and a visible check date; every volatile fact (fees, limits, dates,
+   acceptance) traces to it or is marked `待核实`/`UNVERIFIED`.
+3. **Substance** — every skill body carries real venue-specific guidance
+   (target ≈600 substance units/skill for depth packs); descriptions ≥200 chars
+   with a "Use when"/使用时机 trigger that names the venue (Latin-script form
+   included for Chinese venues).
+4. **Not a clone** — `python3 tools/clone_audit.py --threshold 0.75
+   --fail-threshold 0.90` reports no pairs involving the pack. A sibling-journal
+   reader must not be able to swap the venue name and keep the text.
+5. **Empirical packs** — vendor the shared `code/` kit or explain in
+   `resources/README.md` why no code applies, and link the shared
+   `execution-with-mcp.md` playbook from the analysis-facing skills.
+6. **Counters** — bump `tools/audit_repo.py` tripwires and both README count
+   blocks in the same commit; `python3 tools/run_checks.py --skip-reports`
+   passes end-to-end.
+7. **Score floor** — the pack scores ≥90 on
+   `python3 tools/quality_scorecard.py` (current repo floor is 92; aim there).

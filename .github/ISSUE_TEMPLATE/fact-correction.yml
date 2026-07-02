@@ -1,0 +1,31 @@
+name: 事实纠错 / Fact correction
+description: 报告过期或错误的期刊事实（费用、字数、政策、链接等）/ Report a stale or wrong venue fact
+title: "[纠错] "
+labels: ["fact-correction"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: 位置 · Where
+      description: 文件路径（最好带行号）· File path, ideally with line number
+      placeholder: e.g. NEJM-Skills/skills/nejm-submission/SKILL.md:42
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: 现有表述 · Current claim
+      description: 原文粘贴 · Paste the current text verbatim
+    validations:
+      required: true
+  - type: textarea
+    id: correct
+    attributes:
+      label: 正确事实与官方依据 · Correct fact + official source
+      description: 必须附官方链接与查证日期 · Must include an official URL and the date you checked it
+      placeholder: |
+        正确事实：...
+        官方来源：https://...
+        查证日期：2026-07-02
+    validations:
+      required: true
