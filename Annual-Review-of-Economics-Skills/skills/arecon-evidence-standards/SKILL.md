@@ -24,6 +24,10 @@ An ARE review **runs no identification of its own** — there is no design to de
 
 You are not re-running these — you are **rating their credibility** in the evidence matrix so the review's conclusions track the *best* evidence, not the *loudest* paper.
 
+## Execution bridge — when rating is not enough
+
+A few moments in an ARE review justify running something instead of only rating it: a survey table pools estimates and wants a formal meta-analytic average or publication-bias check; a pivotal magnitude predates the staggered-DiD corrections and its replication data are public, so you can report what `callaway_santanna` or `bacon_decomposition` actually does to it rather than speculate; or a weak-instrument worry could be settled by an `effective_f_test` on the archived first stage. For these, hand off to [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md), which maps each design and reviewer objection to the callable StatsPAI / Stata MCP chain (`detect_design` → fit with `as_handle=true` → `audit_result`). Label any such figure as your re-analysis, and never report a number you did not compute.
+
 ## Weighing, not vote-counting
 
 Conflicting results are reconciled by **credibility and by what each study estimates**, never by tallying "7 studies positive, 4 negative." Two estimates that disagree often measure different objects (different populations, estimands, time horizons); say so, and let the framework's cells carry the distinction. A pooled "consensus" across non-comparable designs manufactures false agreement that ARE's methodologically literate readers will catch.

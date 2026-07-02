@@ -70,6 +70,10 @@ description: Use when handling empirical evidence in a 《中国社会科学》 
 - "数据只是描述，未构成论证"→ 明示该证据在推理链中的位置：建立事实、排除对立解释，还是展示机制
 - "个案代表性不足"→ 不硬辩"有代表性"，改为说明个案的类型学位置，并相应收窄命题边界
 
+## 执行接口（StatsPAI / Stata MCP）
+
+本刊不搞方法军备竞赛，但定量证据一旦承担命题重量，量级句里的每个数字都必须真的算出来。当稿件走 DID、IV、断点或合成控制识别，或外审追问稳健性与安慰剂时，就该从"给建议"切换到"跑估计"：方法—工具的完整映射见 [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。链路为 `detect_design` → `preflight` / `recommend` → 带 `as_handle=true` 拟合 → `audit_result` 列出该设计尚欠的检查（交错 DID 配 `callaway_santanna` 与 `honest_did_from_result`，弱工具配 `anderson_rubin_ci`）。跑完仍要回到本技能：把系数翻译成机制判断与"因此"句——工具解决可信，翻译解决思想。若 MCP 未连接，改用示例代码骨架并明示哪些数字未经实际验证。
+
 ## 自检清单
 
 - [ ] 方法与命题类型匹配

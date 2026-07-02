@@ -38,6 +38,10 @@ Management findings conflict constantly. Reconcile them by **why they differ**, 
 - **Flag the cumulative-evidence quality.** State plainly where the evidence is strong, mixed, or thin — and where apparent consensus rests on a few non-independent studies.
 - **Name what would settle it.** For a live debate, specify the study design that would resolve it (this seeds the agenda).
 
+## When appraisal needs an actual number (execution bridge)
+
+Occasionally a credibility judgment cannot be settled by reading alone: the review's account of a controversy hinges on whether a staggered-adoption TWFE estimate survives modern corrections, or an apparent consensus may melt once publication bias is priced in. When a load-bearing magnitude comes with a replication package, audit it rather than adjudicate by prose — the shared playbook [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md) maps each design family to callable StatsPAI / Stata MCP tools (`bacon_decomposition` to expose bad-comparison weighting, `callaway_santanna` to re-estimate, `honest_did_from_result` for pre-trend fragility). Any number produced this way must come from an actual run and be labelled as the review's own re-analysis. This is the exception, not the Annals default: most appraisal here stays qualitative.
+
 ## Fairness across schools and the self-citation trap
 
 Annals is the **review-of-the-field**: its account of a debate becomes the field's shared reference, and **the surveyed authors often referee the review**. Balance is therefore both ethical and strategic.
